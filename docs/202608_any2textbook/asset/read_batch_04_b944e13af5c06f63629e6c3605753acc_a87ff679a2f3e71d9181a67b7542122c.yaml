@@ -1,0 +1,81 @@
+- file_path: C:/Users/Administrator/shengcai-zhoubao-202608/260810副业SC精华《用-3-份资料跑通-Obsidian-+-Codex-个人AI知识库（保姆级教程-附全套Prompt）》.md
+  title: 用 3 份资料跑通 Obsidian + Codex 个人 AI 知识库（保姆级教程含全套 Prompt）
+  summary: 作者Blake讲述从只会用AI对话框到跑通Obsidian+Codex个人AI知识库的完整过程，提供最小闭环搭建方法、全套可复制Prompt、日常管理四句话、进阶Skills与总控流程搭建，以及现场分享复盘。
+  core_question: 非技术人员如何用最少的资料和工具，从零搭建一个可用的个人AI知识库并完成一次整理、使用、产出的完整闭环？
+  key_judgment: 搭建个人AI知识库不需要一步到位，'Codex给方案→用户确认→Codex执行→自检'的人机协作模式配合最小目录结构（5个目录以内），比追求完整系统更有效；Skill和总控Agent应该在真实流程稳定重复后再增加，而非一开始就搭建。
+  depth: high
+  suggested_destination: chapter
+  possible_shape: book
+  risks:
+  - 时效性
+  - 口语化
+  screening_conclusion: retain
+  reason: 内容系统完整，从理念到实操到进阶分层清晰，包含全套可复用Prompt和AGENTS.md/README.md草案。对'最小闭环'方法论的提炼有独立价值，人机协作三角色模型和'先方案后执行'的确认机制具有跨工具适用性。可拆分为知识库搭建方法论的核心章节。
+- file_path: C:/Users/Administrator/shengcai-zhoubao-202608/260811副业SC精华《播放量20w成功起号！用Codex＋飞书提效图书带货，批量提取100+图书视频号文案并仿写》.md
+  title: 播放量20w成功起号！用Codex+飞书提效图书带货，批量提取100+图书视频号文案并仿写
+  summary: 作者千代分享视频号图书带货场景下的文案批量提取与仿写工作流，用Codex/WorkBuddy连接飞书多维表格，配合wx_channels_download工具批量下载视频、AI字段提取文案、生成仿写文案和配音的完整SOP。
+  core_question: 视频号图书带货从业者如何批量提取对标账号的视频文案并高效仿写，从而提升选题和文案产出效率？
+  key_judgment: 视频号没有现成的转文字工具（不同于抖音），需要用本地下载+飞书多维表格AI字段组合出一套替代方案；仿写文案时'严格以原文风格为范本、不套用固定腔调'的提示词设计是质量关键。
+  depth: medium
+  suggested_destination: case
+  possible_shape: handbook
+  risks:
+  - 时效性
+  - 格式预处理
+  - 口语化
+  screening_conclusion: retain
+  reason: 作为'AI提效具体业务场景'的案例有参考价值，展示了Codex+飞书多维表格在内容批量生产中的落地方式。但工具链依赖特定平台（飞书AI字段、豆包模型），时效性风险较高，更适合作为案例而非方法论章节。对仿写提示词的设计思路有独立参考价值。
+- file_path: C:/Users/Administrator/shengcai-zhoubao-202608/260811副业SC精华《日均-40-亿-Token-的那一周：我怎么把羊毛变成长期生产资料》.md
+  title: 日均40亿Token的那一周：我怎么把羊毛变成长期生产资料
+  summary: 作者分享在Token低价红利期如何将Token转化为代码、服务和工作流等长期可复用生产资料，包括Skill与软件边界的判断、模型分层调用策略、人机协作三阶段模型、自我修复系统的搭建经验，以及行业Agent落地的宏观判断。
+  core_question: 在Token低价窗口期，如何把薅来的Token转化为长期有价值的资产，以及个人在Agent能力增强后应该站在什么位置？
+  key_judgment: Token的羊毛期不会长期持续，趁便宜应该把Token沉淀为代码、工程化服务和Skill等长期可复用资产；高频场景应该程序化而非持续依赖Agent注意力；人机协作正从'照看Agent'向'Agent自主运行'演进，人的角色从执行者退到方向制定者和关键决策者。
+  depth: high
+  suggested_destination: chapter
+  possible_shape: book
+  risks:
+  - 时效性
+  - 口语化
+  screening_conclusion: retain
+  reason: 文章提供了对Token经济、模型分工、Skill与软件边界、人机协作阶段的高层判断，具有很强的框架性。'行业know-how+Agent=最大杠杆'和'把Token变成生产资料'的判断超越了具体工具层面。虽然具体模型名称和价格时效性强，但方法论和判断框架有长期参考价值，适合作为全书的思想框架章节。
+- file_path: C:/Users/Administrator/shengcai-zhoubao-202608/260812副业SC精华《开学第一课单个PPT变现上万，开学季如何利用AI赋能教师（教务）资料》.md
+  title: 开学第一课单个PPT变现上万，开学季如何利用AI赋能教师（教务）资料
+  summary: 作者星荧分享两年教师虚拟资料赛道的完整商业闭环经验，包括需求发现方法论（搜索词交叉法）、开学季四波窗口期、Codex生成可编辑PPT的完整流程、Hermes
+    Agent批量生产线搭建、小红书运营与私域引流策略、版权保护等。
+  core_question: 如何用AI工具在教师虚拟资料赛道实现从原创制作到多渠道销售的完整商业闭环？
+  key_judgment: 教师资料赛道从搬运时代进入AI原创时代，核心机会在细分学科和学段；用Codex制作可编辑课件+Agent批量生产可以大幅提升产能；'一个品只解决一个具体问题'和'先上架再优化'是快速验证市场的关键原则；私域复购是这个赛道利润最大化的核心。
+  depth: high
+  suggested_destination: case
+  possible_shape: handbook
+  risks:
+  - 时效性
+  - 口语化
+  - 格式预处理
+  screening_conclusion: retain
+  reason: 这是目前素材中最完整的'AI+垂直行业变现'案例，覆盖需求发现、产品制作、平台运营、私域转化、版权保护全链路。搜索词交叉法、Codex生成PPT的Prompt框架、拼图去重口诀等具有跨行业参考价值。Agent批量生产线的搭建过程和'像刚毕业的学生'的比喻有实操指导意义。可作为案例篇的核心素材。
+- file_path: C:/Users/Administrator/shengcai-zhoubao-202608/260812副业SC精华《还搞不定-ChatGPT-充值？不用卡，也不用找人代充｜从建号到续费的保姆级教程》.md
+  title: 还搞不定ChatGPT充值？不用卡，也不用找人代充｜从建号到续费的保姆级教程
+  summary: 作者提供从创建美区Apple Account、支付宝购买美国区Apple Gift Card、兑换余额到通过Apple内购开通ChatGPT
+    Plus的完整七步教程，覆盖iPhone/iPad路线、Mac路线和常见问题排查。
+  core_question: 没有Visa卡、不想找人代充的国内用户，如何独立完成ChatGPT Plus的订阅和续费？
+  key_judgment: 通过美区Apple Account+支付宝购买Apple Gift Card+Apple内购是一条不需要海外信用卡、不需要代充的可行路径；首次开通必须用iPhone/iPad，Mac只能管理已有订阅。
+  depth: medium
+  suggested_destination: handbook_entry
+  possible_shape: handbook
+  risks:
+  - 时效性
+  - 格式预处理
+  screening_conclusion: demote
+  reason: 操作教程详尽且经过实操验证，但Apple和OpenAI的支付政策、页面入口、地区限制等变动频繁，教程的时效性风险极高。建议放入手册附录作为'工具配置参考'，但不宜作为独立章节。核心价值在于'不依赖代充、自己掌控账号'的思路。
+- file_path: C:/Users/Administrator/shengcai-zhoubao-202608/260813副业SC精华《从211大学老师到新西兰千万营收一个普通人的出境游创业复盘》.md
+  title: 从211大学老师到新西兰千万营收：一个普通人的出境游创业复盘
+  summary: 作者易寒复盘从211大学事业编辞职到新西兰成立旅行社、实现年营收超千万的创业历程，分享高客单定制游的商业逻辑、销售SOP搭建、后端交付体系建设、小红书从流量红利到专业红利的判断，以及普通人入局的路径建议。
+  core_question: 一个没有旅游行业背景的普通人，如何通过内容获客和专业能力积累，在出境定制游领域建立千万级营收的生意？
+  key_judgment: 小公司做到千万营收不一定要靠巨大流量，营业额=精准客资×成交率×客单价，三个变量同时优化比单追求流量更有效；高客单出境游的核心壁垒在后端交付能力而非前端获客；销冠可以通过SOP批量复制。
+  depth: high
+  suggested_destination: case
+  possible_shape: book
+  risks:
+  - 口语化
+  screening_conclusion: retain
+  reason: 这是一篇高质量的创业复盘，对'千万逻辑'的拆解（精准客资×成交率×客单价）、销售SOP可复制性验证、后端交付体系搭建（司导/用车/住宿/突发处理/复盘）都有深度洞察。虽然AI含量较低，但'专业红利取代流量红利'、'从个人能力走向组织能力'等判断对全书有框架性价值，可作为案例篇中'非AI赛道的商业方法论'补充。

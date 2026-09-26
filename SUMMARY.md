@@ -41,4 +41,5 @@
 +   [龙哥赚钱周报 202606](docs/202606/README.md)
 +   [龙哥赚钱周报 202607](docs/202607/README.md)
 +   [龙哥赚钱周报 202608](docs/202608/README.md)
++   [龙哥赚钱月报 202608：AI 能力构建与生意增长实战教科书](docs/202608_any2textbook/README.md)
 +   [商机分析与软件方案](docs/shangji/README.md)

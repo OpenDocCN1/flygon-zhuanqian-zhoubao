@@ -1,0 +1,87 @@
+- file_path: C:/Users/Administrator/shengcai-zhoubao-202608/260814副业SC精华《不要盲目寻找风口我是如何利用一个始祖鸟会员身份，跑通一个月利润近2万的小生意》.md
+  title: 不要盲目寻找风口：我是如何利用一个始祖鸟会员身份，跑通一个月利润近2万的小生意
+  summary: 作者通过始祖鸟会员清洗权益在闲鱼接单，从代预约到赴成都学习洗护技术，把一个权益套利发展成月利润近2万的冲锋衣洗护服务生意。
+  core_question: 普通人如何从自身已有优势出发，发现并跑通一个小而具体的副业项目？
+  key_judgment: 不要从风口找项目，要从自己已有的优势（目标用户身份、品牌资源、销售经验、内容获客能力）找机会；好项目的第一标准是能否快速跑通正反馈，而不是想象空间有多大。
+  depth: high
+  suggested_destination: chapter
+  possible_shape: book
+  risks:
+  - 口语化
+  - 含营销尾部内容
+  screening_conclusion: retain
+  reason: 叙事完整、有从发现需求到跑通闭环的全过程，核心观点（优势匹配+快速正反馈）具有方法论价值，踩坑经验（低价选老师导致复杂案例能力不足）真实具体，适合作为书中'小机会创业'主题的核心案例章节。
+- file_path: C:/Users/Administrator/shengcai-zhoubao-202608/260817副业SC精华《参加一次小程序航海后，我从不会英文、不会编程，到用Codex接定制单，6月到账11288元的项目分享》.md
+  title: 参加一次小程序航海后，我从不会英文、不会编程，到用Codex接定制单，6月到账11288元的项目分享
+  summary: 04年非技术背景圈友从小红书评论区截流获取客户，用Codex辅助需求整理和开发，完成6个小程序定制项目、月到账11288元的实操复盘。
+  core_question: 不会编程的人如何借助AI工具（Codex）从零开始接小程序定制单并完成交付？
+  key_judgment: 小程序定制接单的核心不是写代码，而是先验证需求、确认功能范围、收定金、开发测试、收尾款的固定流程；AI降低开发门槛，但客户沟通、测试、交付、售后仍要自己负责。
+  depth: high
+  suggested_destination: course_unit
+  possible_shape: course
+  risks:
+  - 口语化
+  - 重复（'先验证需求再做产品'观点在文中多次重复）
+  - 含营销尾部内容
+  screening_conclusion: retain
+  reason: 提供了非技术人员用AI接单的完整SOP，包含报价策略、需求确认、售后边界划分等可复用经验，踩坑部分（去水印小程序基于假设而非验证）有教学价值。适合作为AI副业课程单元。
+- file_path: C:/Users/Administrator/shengcai-zhoubao-202608/260817副业SC精华《大二开公司、从没上过班，我是怎么用406亿Token搭了一套小红书AI工作台帮我做虚拟产品赚钱》.md
+  title: 大二开公司、从没上过班，我是怎么用406亿Token搭了一套小红书AI工作台帮我做虚拟产品赚钱
+  summary: 03年自由职业者用AI Agent搭建了一套覆盖小红书虚拟产品全链路（千帆榜单采集→账号评分→商品分析→产品制作→内容生成→审查发布）的自动化工作台，目前运营26个虚拟产品、月被动收入1-2万。
+  core_question: 如何用AI Agent把小红书虚拟产品从找需求、做产品到内容获客的整条链路自动化？
+  key_judgment: AI负责重复的采集、分析、执行，人负责选方向、定产品和最终验收；找需求要用千帆官方数据而非人工刷榜单，内容生产要先把对标拆成Skill再稳定输出。
+  depth: high
+  suggested_destination: chapter
+  possible_shape: handbook
+  risks:
+  - 技术细节密度高，部分内容偏教程
+  - 时效性（平台政策和工具迭代快）
+  - 格式预处理（含大量截图占位和目录树）
+  - 含营销尾部内容
+  screening_conclusion: retain
+  reason: 这是目前素材中技术深度最高的AI工作流搭建案例，从千帆数据采集到账号评分公式到内容Skill的制作，给出了完整的可复制路径。核心方法论（'人做选择题，AI做执行'）具有跨项目迁移价值。适合作为手册中'AI工作流搭建'专题的核心长文。
+- file_path: C:/Users/Administrator/shengcai-zhoubao-202608/260818副业SC精华《抖音独家精选计划和伙伴计划，如何通过影视解说赛道实现单账号月入破万（保姆级教程-附全套Prompt）》.md
+  title: 抖音独家精选计划和伙伴计划，如何通过影视解说赛道实现单账号月入破万（保姆级教程附全套Prompt）
+  summary: 作者从YouTube转型抖音，通过影视解说赛道签约独家计划实现稳定月入10万，详细拆解了伙伴计划和独家计划的收益机制、影视解说视频的选剧/起号/文案/配音/运营全流程及AI
+    Prompt。
+  core_question: 如何通过抖音影视解说赛道，从零起号到签约独家计划实现月入过万？
+  key_judgment: 抖音独家计划单价远高于伙伴计划（万播100-500元vs万播3-10元），进入独家的关键是产出精选内容；新人不要自己选题，一定要找爆款对标进行二创，用AI辅助文案伪原创。
+  depth: high
+  suggested_destination: course_unit
+  possible_shape: course
+  risks:
+  - 时效性（平台规则和单价随时变化）
+  - 口语化
+  - 含大量Prompt和操作细节，格式预处理需求高
+  - 含营销尾部内容
+  screening_conclusion: retain
+  reason: 影视解说赛道的完整SOP，从赛道选择逻辑、收益计算方式到具体的AI Prompt（包括动漫解说的JSON结构化分析提示词和八段式文案模板）都有极高的操作性。收益结构和独家签约路径的拆解具有信息差价值。适合作为课程单元，但需标注时效性提醒。
+- file_path: C:/Users/Administrator/shengcai-zhoubao-202608/260818副业SC精华《生财一年，从选项目到做论文，再到数据分析，我是如何从踩坑到确定项目，再到转型，实现年入20w的复盘》.md
+  title: 生财一年，从选项目到做论文，再到数据分析，我是如何从踩坑到确定项目，再到转型，实现年入20w的复盘
+  summary: 作者从多个副业项目失败后聚焦论文代写，通过闲鱼流量运营和转化话术优化做到年入近20万，后因平台管控和修改频繁转型做经管类论文实证分析和比赛类项目。
+  core_question: 一个在职普通人如何在高客单价刚需品类（论文/数据分析）中跑通副业并持续转型？
+  key_judgment: 闲鱼流量三要素（对标复制+补单+投流）可稳定获客；成交率提升靠价格锚定话术和学历信任背书；跑通0到1后不要轻易换赛道，要沿着已有能力向相邻高价值环节转型。
+  depth: high
+  suggested_destination: chapter
+  possible_shape: book
+  risks:
+  - 涉及灰色地带（论文代写合规风险）
+  - 时效性（平台管控持续收紧）
+  - 含营销尾部内容
+  screening_conclusion: retain
+  reason: 闲鱼流量操作方法的总结极其精炼可复用（找对标100%复制、补单2-3天、投流29.9元），价格锚定话术和转化率从10%到30%的提升路径有实操价值。从论文到数据分析的转型逻辑（只做高客单价、只做高效交付品类）具有方法论意义。需注意标注合规风险。
+- file_path: C:/Users/Administrator/shengcai-zhoubao-202608/260818副业SC精华《研究了几个月，我终于把公众号做到了99%自动化》.md
+  title: 研究了几个月，我终于把公众号做到了99%自动化
+  summary: 作者用Codex搭建了一套从数据搜索、RAG检索、AI写作、图片生成、排版到自动上传公众号草稿箱的完整自动化工作台，并给出了每个环节的具体实现指令和踩坑经验。
+  core_question: 如何把公众号内容生产从选题到进入草稿箱的全流程做到接近完全自动化？
+  key_judgment: 使用AI最难的不是操作，而是知道一件事情的完整路径；要把需求拆成输入、处理步骤、输出、失败重试和验收标准再交给AI；RAG的价值不是让AI读完所有资料，而是精准检索最相关的一小批证据。
+  depth: high
+  suggested_destination: handbook_entry
+  possible_shape: handbook
+  risks:
+  - 技术细节极多，部分内容偏工程实现
+  - 时效性（工具和API迭代快）
+  - 格式预处理（含大量代码块和YAML）
+  - 含营销尾部内容
+  screening_conclusion: retain
+  reason: 这篇文章的价值不仅是公众号自动化的具体方法，更在于'如何把一件事拆成完整路径再交给AI'的思维方式。RAG分层设计（价值观/原话/案例/方法/风格）、图片生成的输入输出规范、验收指令的写法都有跨场景迁移价值。适合作为手册中'AI自动化工作流'的独立条目。

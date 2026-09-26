@@ -1,0 +1,106 @@
+paper: 260826《用个人工作台+Skill做虚拟产品生意》
+desc: 该素材系统讲解了一套以「个人工作台」和「Skill（技能封装）」为核心工具，从红海选品、原创虚拟产品开发、内容推广、对标博主蒸馏、矩阵化放大到一人公司经营心法的虚拟产品生意完整闭环方法论；其核心主张包括红海才是新手机会、虚拟产品等于基础需求满足加体验创新、AI用于改造旧需求而非凭空创造、做河流型生意而非暴雨型生意、Skill的价值在工作流和结果物而非内容本身，以及产品能否卖出取决于是否具备「与我有关」的着力点，并提出知识库四文件夹结构作为落地支撑。
+concepts:
+- name: 个人工作台
+  desc: 承载选品、原创、推广、蒸馏、矩阵化全流程的个人化工具系统，是虚拟产品生意的操作基座。
+  is_original: true
+  excerpt:
+  - 如何用个人工作台提效，用Skill做产品，构建并放大虚拟产品生意
+- name: Skill（技能封装）
+  desc: 将可复用的工作流与结果物封装为可调用技能单元，其价值体现在工作流和结果物而非内容本身。
+  is_original: true
+  excerpt:
+  - Skill的价值在工作流和结果物而非内容本身
+- name: 红海选品
+  desc: 在竞争激烈的红海市场中寻找机会的选品策略，核心判断是红海才是新手的机会。
+  is_original: true
+  excerpt:
+  - 红海才是新手的机会
+- name: 虚拟产品
+  desc: 由基础需求满足与体验创新两部分构成的数字产品形态。
+  is_original: true
+  excerpt:
+  - 虚拟产品=基础需求满足+体验创新
+- name: 河流型生意
+  desc: 追求持续稳定现金流的生意模式，与追求短期爆发的暴雨型生意相对。
+  is_original: true
+  excerpt:
+  - 做河流型生意不做暴雨型生意
+- name: 着力点（与我有关）
+  desc: 产品能否卖出的关键判断标准，即用户感知到产品与自身相关。
+  is_original: true
+  excerpt:
+  - 产品卖不卖得出去取决于有没有着力点（与我有关）
+- name: 对标博主蒸馏
+  desc: 通过对标博主进行内容与模式蒸馏，提取可复用要素用于自身产品与推广。
+  is_original: true
+  excerpt:
+  - 蒸馏对标博主
+- name: 知识库四文件夹结构
+  desc: 支撑个人工作台运转的知识组织方式，以四个文件夹划分信息与产出。
+  is_original: true
+  excerpt:
+  - 知识库四文件夹结构
+methods:
+- name: __overview__
+  desc: 虚拟产品生意完整闭环方法论：红海选品、用Skill原创产品、用内容推广、蒸馏对标博主、矩阵化放大与一人公司经营心法。
+  excerpt:
+  - 系统讲解虚拟产品生意完整闭环：红海选品、用Skill原创产品、用内容推广、蒸馏对标博主、矩阵化放大与一人公司经营心法
+- name: 指南Skill
+  desc: 用于指导方向与流程的Skill工具链组件。
+  excerpt:
+  - 工具链：指南Skill、长文Skill、笔记Skill、蒸馏Skill、选品Skill
+- name: 长文Skill
+  desc: 用于长文内容生产的Skill工具链组件。
+  excerpt:
+  - 工具链：指南Skill、长文Skill、笔记Skill、蒸馏Skill、选品Skill
+- name: 笔记Skill
+  desc: 用于笔记类内容生产的Skill工具链组件。
+  excerpt:
+  - 工具链：指南Skill、长文Skill、笔记Skill、蒸馏Skill、选品Skill
+- name: 蒸馏Skill
+  desc: 用于蒸馏对标博主的Skill工具链组件。
+  excerpt:
+  - 工具链：指南Skill、长文Skill、笔记Skill、蒸馏Skill、选品Skill
+- name: 选品Skill
+  desc: 用于红海选品的Skill工具链组件。
+  excerpt:
+  - 工具链：指南Skill、长文Skill、笔记Skill、蒸馏Skill、选品Skill
+theorems:
+- name: 红海机会论
+  desc: 核心主张：红海才是新手的机会。
+  excerpt:
+  - 红海才是新手的机会
+- name: 虚拟产品构成论
+  desc: 核心主张：虚拟产品等于基础需求满足加体验创新。
+  excerpt:
+  - 虚拟产品=基础需求满足+体验创新
+- name: AI改造旧需求论
+  desc: 核心主张：AI用于改造旧需求而非凭空创造。
+  excerpt:
+  - AI用于改造旧需求而非凭空创造
+- name: 河流型生意论
+  desc: 核心主张：做河流型生意不做暴雨型生意。
+  excerpt:
+  - 做河流型生意不做暴雨型生意
+- name: Skill价值论
+  desc: 核心主张：Skill的价值在工作流和结果物而非内容本身。
+  excerpt:
+  - Skill的价值在工作流和结果物而非内容本身
+- name: 着力点论
+  desc: 核心主张：产品卖不卖得出去取决于有没有着力点（与我有关）。
+  excerpt:
+  - 产品卖不卖得出去取决于有没有着力点（与我有关）
+findings:
+- name: 虚拟产品生意闭环可行性
+  desc: '[claim] 素材宣称通过个人工作台加Skill工具链可完成从选品到矩阵化放大的虚拟产品生意完整闭环。'
+  excerpt:
+  - 系统讲解虚拟产品生意完整闭环：红海选品、用Skill原创产品、用内容推广、蒸馏对标博主、矩阵化放大与一人公司经营心法
+- name: 工具链支撑性
+  desc: '[claim] 素材宣称指南Skill、长文Skill、笔记Skill、蒸馏Skill、选品Skill构成的工具链可支撑全流程操作。'
+  excerpt:
+  - 工具链：指南Skill、长文Skill、笔记Skill、蒸馏Skill、选品Skill
+- name: 知识库结构落地
+  desc: '[claim] 素材宣称知识库四文件夹结构可作为个人工作台的落地组织方式。'
+  excerpt:
+  - 知识库四文件夹结构

@@ -1,0 +1,83 @@
+- file_path: C:/Users/Administrator/shengcai-zhoubao-202608/260826副业SC精华《从一条生财风向标到-100-万+流量：我用-50元启动的虚拟产品ima知识库一周跑通MVP》.md
+  title: 从一条生财风向标到100万+流量：我用50元启动的虚拟产品IMA知识库一周跑通MVP
+  summary: 作者分享如何从一条生财风向标出发，用不到50元和两天时间做出小红书IMA毛选知识库第一版，10天内完成曝光120万+、营业额1000+的MVP验证，并总结出轻项目筛选六标准和最小验证四步法。
+  core_question: 普通人看到别人已验证的项目机会后，如何用最小成本快速验证，而不是一直停留在考察和犹豫中？
+  key_judgment: 找项目不是等到完全想清楚再开始，而是先确认自己具备最低条件然后立刻做最小验证；先手工跑通流程再工具化；先跟随已验证需求再差异化；MVP成立的标准是'有人看、有人关注、有人讨论、有人付费'四信号同时出现。
+  depth: high
+  suggested_destination: chapter
+  possible_shape: book
+  risks:
+  - 时效性
+  - 口语化
+  screening_conclusion: retain
+  reason: 文章提供了一个完整、可复用的'从发现机会到MVP验证'的方法论框架（最小验证四步法+轻项目六标准），兼具实操细节和通用方法论价值，结构性好，适合作为书稿中'项目验证'主题的核心章节。虽涉及具体平台（小红书）有时效性风险，但方法论框架可迁移。
+- file_path: C:/Users/Administrator/shengcai-zhoubao-202608/260826副业SC精华《如何用个人工作台提效，用Skill做产品，构建并放大自己的虚拟产品生意？内含2026年虚拟产品风向标》.md
+  title: 如何用个人工作台提效，用Skill做产品，构建并放大自己的虚拟产品生意？（内含2026年虚拟产品风向标）
+  summary: 系统讲解虚拟产品生意的完整闭环：从红海选品、用Skill原创产品、用内容推广、蒸馏对标博主，到矩阵化放大与一人公司经营心法，涵盖指南Skill、长文Skill、笔记Skill、蒸馏Skill、选品Skill等完整工具链。
+  core_question: 如何用AI Skill构建并放大一套可持续的虚拟产品生意，从发现需求到定义产品再到规模化经营？
+  key_judgment: 红海才是新手的机会；虚拟产品=基础需求满足+体验创新；AI用于改造旧需求而非凭空创造；做河流型生意不做暴雨型生意；Skill的价值在工作流和结果物而非内容本身；产品卖不卖得出去取决于有没有着力点（与我有关）。
+  depth: high
+  suggested_destination: chapter
+  possible_shape: book
+  risks:
+  - 时效性
+  - 口语化
+  - 信息密度极高需拆分
+  screening_conclusion: retain
+  reason: 这是整个素材集中方法论密度最高、体系最完整的一篇，涵盖了虚拟产品生意的底层认知、产品层、内容层、放大层的全链路。多个子主题（红海策略、Skill设计、知识库着力点、蒸馏对标、一人公司经营）均可独立成章，是书稿的核心骨架来源。
+- file_path: C:/Users/Administrator/shengcai-zhoubao-202608/260827副业SC精华《0经验做抖音无货源电商，月入3w复盘》.md
+  title: 0经验做抖音无货源电商，月入3w+复盘
+  summary: 03年作者从快消公司裸辞后0经验做抖店商品卡，复盘从开店搭建、起体验分、选品定价（高标低折公式）到踩坑避雷的全流程，目前月入3w+。
+  core_question: 0经验新手如何用最低成本进入抖音无货源电商并实现盈利？
+  key_judgment: 小白应做几乎不需要试错成本的项目，验证一个项目是否赚钱仅需100元；抖店商品卡成本低、上手难度低，适合作为电商入门过渡点；高标低折定价法可利用平台规则获取点击优势。
+  depth: medium
+  suggested_destination: case
+  possible_shape: handbook
+  risks:
+  - 时效性极强
+  - 平台规则依赖
+  - 重复
+  screening_conclusion: demote
+  reason: 内容实操性强但高度依赖抖音平台特定时期的规则和玩法（商品卡免佣、个人店限制、定价公式等），时效性极强，规则一变大部分内容即失效。更适合作为案例库中的一个具体案例，而非书稿核心章节。其中'低成本试错'的创业理念可提炼融入方法论章节。
+- file_path: C:/Users/Administrator/shengcai-zhoubao-202608/260827副业SC精华《3个月40万GMV：视频号AI剧情带货实战，与我的Codex提效工作流》.md
+  title: 3个月40万GMV：视频号AI剧情带货实战，与我的Codex提效工作流
+  summary: 作者从YouTube转战视频号AI剧情带货，3个月累计40万GMV，完整复盘从找对标、选品、脚本二创、SD2.0批量生视频、剪辑人机协同到Codex工作台搭建的全链路，并分享成本核算与避坑经验。
+  core_question: 如何用AI视频制作能力和Codex工作流，在视频号上跑通剧情带货并实现规模化？
+  key_judgment: 追爆款核心拼的是速度；前30秒黄金开头必须1:1复刻绝不大改；播放量不等于GMV需分开看；做自动化不是为了全自动而是能稳定交付；能控制的事情提前做好，不能控制的交给数据说话。
+  depth: high
+  suggested_destination: chapter
+  possible_shape: book
+  risks:
+  - 时效性
+  - 口语化
+  - 平台依赖
+  screening_conclusion: retain
+  reason: 文章不仅有完整的操作SOP，更重要的是展现了'人机协同'的工作哲学（人做判断、AI做执行）和'能力迁移'的思路，这些跨项目通用的方法论具有长期价值。Codex工作台搭建思路和'把错误沉淀成规则'的做法可迁移到多个场景。
+- file_path: C:/Users/Administrator/shengcai-zhoubao-202608/260827副业SC精华《从海量项目精华帖做成网站：我用生财MCP+Codex跑通了一套项目拆解SOP》.md
+  title: 从海量项目精华帖做成网站：我用生财MCP+Codex跑通了一套项目拆解SOP
+  summary: AI在读博士用生财MCP做项目方向统计与筛选，从精华帖中提炼SOP并转化为开发文档，再用Codex和多Agent完成网站开发部署，打通从信息到产品的完整路径。
+  core_question: 如何把大量社区内容转化为可执行的项目方向，再把SOP变成AI能理解、程序能执行的系统需求？
+  key_judgment: AI编程降低了写代码的门槛却提高了定义问题的价值；高质量精华帖的价值不只是照着执行，还可以提炼成产品需求；Vibe Coding的核心不是提示词多长而是边界多清楚；多Agent系统第一原则是可控而非多。
+  depth: high
+  suggested_destination: chapter
+  possible_shape: book
+  risks:
+  - 技术门槛较高
+  - 工具依赖性强
+  - 口语化
+  screening_conclusion: retain
+  reason: 文章提出了'从信息到系统'的完整思路链，特别是'SOP转化为开发文档'的方法论和'多Agent协作边界'的踩坑经验，对想做AI产品化的读者极具参考价值。项目方向统计表格（各赛道信号与做法）本身也是优质的结构化内容。
+- file_path: C:/Users/Administrator/shengcai-zhoubao-202608/260828副业SC精华《300人点赞投锚，月入7w后，我的Agent员工军团搭建流程全公开。（38000字实操版）》.md
+  title: 300人点赞投票，月入7w后，我的Agent员工军团搭建流程全公开（38000字实操版）
+  summary: 04年AI超级个体系统分享如何用五步法（拆解业务找场景→数据采集搭知识库→Skill固化产出→设计交互搭Agent→反馈回流驱动进化）搭建12个Agent员工，实现公众号创作、朋友圈营销等全面AI化，月入7w。
+  core_question: 如何从对话式AI走向Agent员工，把零散的AI能力串成完整的业务工作流并持续进化？
+  key_judgment: AI的目的不是用上AI而是用AI提效；知识库让AI认识你、Skill让AI学会干活、Agent让AI成为员工；一切从真实任务开始而非从工具开始；知识库不是为大而是为清晰；反馈回流是系统进化的关键。
+  depth: high
+  suggested_destination: chapter
+  possible_shape: book
+  risks:
+  - 超长需拆分
+  - 口语化
+  - 部分内容与第二篇重叠
+  screening_conclusion: retain
+  reason: 这是整个素材集中对'Agent员工'概念阐述最系统、最完整的一篇。五步法框架清晰可复用，知识库四文件夹结构（任务DNA/标准/资产/工作区）和Skill设计三要素（怎么做/用什么/怎样算好）极具实操指导性，是书稿中'AI系统搭建'主题的核心内容。

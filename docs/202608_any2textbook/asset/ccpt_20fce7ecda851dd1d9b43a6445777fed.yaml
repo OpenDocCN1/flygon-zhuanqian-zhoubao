@@ -1,0 +1,66 @@
+paper: 260811《日均40亿Token：把羊毛变成长期生产资料》
+desc: 该素材基于作者在Token低价红利期（日均消耗40亿Token）的一周实践，提出把廉价Token转化为长期可复用生产资料的核心策略，围绕Skill与软件的边界、模型分层调用、人机协作三阶段模型、自我修复系统和长期生产资料等概念，主张趁Token便宜将其沉淀为代码、工程化服务与Skill，把高频场景程序化，推动人的角色从照看Agent的执行者退向方向制定者与关键决策者。
+concepts:
+- name: Skill与软件的边界
+  desc: 该概念界定Skill与软件各自的适用边界，用于判断何时应把能力沉淀为Skill、何时应工程化为软件。
+  is_original: true
+  excerpt:
+  - 核心概念：Skill与软件的边界
+- name: 模型分层调用
+  desc: 该概念指按任务需求分层调用不同模型，以在成本与能力之间取得平衡。
+  is_original: true
+  excerpt:
+  - 核心概念：模型分层调用
+- name: 人机协作三阶段模型
+  desc: 该概念描述人机协作从“照看Agent”逐步演进到“Agent自主运行”的三个阶段，人的角色随之从执行者退到方向制定者和关键决策者。
+  is_original: true
+  excerpt:
+  - 人机协作正从"照看Agent"向"Agent自主运行"演进，人的角色从执行者退到方向制定者和关键决策者
+- name: 自我修复系统
+  desc: 该概念指系统在运行中能够自动发现问题并修复自身，从而减少对人工照看的依赖。
+  is_original: true
+  excerpt:
+  - 核心概念：自我修复系统
+- name: 长期生产资料
+  desc: 该概念指将低价Token沉淀为代码、工程化服务和Skill等可长期复用的资产，而非一次性消耗。
+  is_original: true
+  excerpt:
+  - 把Token转化为长期可复用资产的策略
+  - 趁便宜应把Token沉淀为代码、工程化服务和Skill等长期可复用资产
+methods:
+- name: __overview__
+  desc: 该素材的整体方法论是在Token低价红利期，通过模型分层调用、高频场景程序化和Skill沉淀，把Token转化为长期可复用生产资料，并推动人机协作向Agent自主运行演进。
+  excerpt:
+  - 在Token低价红利期把Token转化为长期可复用资产的策略
+  - 高频场景应该程序化而非持续依赖Agent注意力
+  - 行业know-how+Agent=最大杠杆
+theorems:
+- name: Token羊毛期不可持续论
+  desc: 该核心主张认为Token低价红利期不会长期持续，因此应趁便宜把Token沉淀为长期可复用资产。
+  excerpt:
+  - Token羊毛期不会长期持续，趁便宜应把Token沉淀为代码、工程化服务和Skill等长期可复用资产
+- name: 高频场景程序化主张
+  desc: 该核心主张认为高频场景应通过程序化实现，而非持续依赖Agent的注意力。
+  excerpt:
+  - 高频场景应该程序化而非持续依赖Agent注意力
+- name: 人机协作角色迁移主张
+  desc: 该核心主张认为人机协作正从“照看Agent”向“Agent自主运行”演进，人的角色从执行者退到方向制定者和关键决策者。
+  excerpt:
+  - 人机协作正从"照看Agent"向"Agent自主运行"演进，人的角色从执行者退到方向制定者和关键决策者
+- name: 行业know-how杠杆论
+  desc: 该核心主张认为行业know-how与Agent结合能产生最大杠杆效应。
+  excerpt:
+  - 行业know-how+Agent=最大杠杆
+findings:
+- name: 日均40亿Token的实践发现
+  desc: '[evidence] 素材以作者日均消耗40亿Token的一周实践为数据支撑，表明在Token低价期可将Token大量用于沉淀代码、工程化服务与Skill等长期资产。'
+  excerpt:
+  - 《日均40亿Token的那一周：我怎么把羊毛变成长期生产资料》
+- name: Token转化为长期生产资料的结论
+  desc: '[claim] 素材宣称趁Token便宜应将其沉淀为代码、工程化服务和Skill等长期可复用资产，从而把一次性羊毛变成长期生产资料。'
+  excerpt:
+  - 趁便宜应把Token沉淀为代码、工程化服务和Skill等长期可复用资产
+- name: 人机协作演进的结论
+  desc: '[claim] 素材宣称人机协作正从“照看Agent”向“Agent自主运行”演进，人的角色从执行者退到方向制定者和关键决策者。'
+  excerpt:
+  - 人机协作正从"照看Agent"向"Agent自主运行"演进，人的角色从执行者退到方向制定者和关键决策者

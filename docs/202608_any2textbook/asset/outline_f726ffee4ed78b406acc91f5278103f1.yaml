@@ -1,0 +1,256 @@
+- 'no': 1
+  name: 人机协作 —— 从“自己写代码”到“指挥AI交付”
+  desc: 本章围绕非程序员如何借助AI完成真实业务交付展开，核心是理解人与AI的分工边界：人定义目标与审美，AI负责生产与交付。通过多个案例，你将掌握将模糊想法转化为可落地系统的基本协作范式。
+  nodes:
+  - 'no': 1
+    name: 人机分工边界
+    desc: 用“指挥家与乐手”类比理解：人负责目标、边界、责任与审美，AI负责资料处理、重复生产、自检、修复与交付。
+    role: motivation
+    src:
+    - paper: 260803《用Codex跑通B站带货视频》
+    - paper: 260805《花12万找FDE踩坑，用AI自研系统》
+  - 'no': 2
+    name: 反向FDE
+    desc: 颠覆传统“工程师进业务”模式：不是工程师钻进业务，而是业务里的人自己长出工程能力，技术短板由AI补齐。
+    role: motivation
+    src:
+    - paper: 260805《花12万找FDE踩坑，用AI自研系统》
+  - 'no': 3
+    name: 需求表达优于代码能力
+    desc: 定义AI协作的核心能力：把需求想清楚、讲明白比会写代码更重要，这是指挥AI的前提。
+    role: definition
+    src:
+    - paper: 260804《健身教练用AI做小程序》
+  - 'no': 4
+    name: 说会验收否——不看代码的全交模式
+    desc: 一种彻底依赖AI的开发模式：不看代码全部交给AI，但必须掌握跟AI对话和验收AI产出两件事。
+    role: method
+    src:
+    - paper: 260824《微信小程序：从0到1做产品》
+  - 'no': 5
+    name: 项目地图与七步沉淀法
+    desc: 系统化推进AI项目的方法：用项目地图梳理全局，用七步沉淀法固化每个阶段的成果与经验。
+    role: method
+    src:
+    - paper: 260803《用Codex跑通B站带货视频》
+  - 'no': 6
+    name: Token消耗跃迁
+    desc: 用消耗量级变化展示AI参与深度的跃迁：从日消耗几百Token到10亿Token，对应从尝试到深度交付。
+    role: experiment
+    src:
+    - paper: 260803《用Codex跑通B站带货视频》
+  - 'no': 7
+    name: 工具收益间接性
+    desc: 理解AI工具收益常是间接的：做小程序直接产出是工具，但1w+收入通过门店业务间接实现。
+    role: limitation
+    src:
+    - paper: 260804《健身教练用AI做小程序》
+  - 'no': 8
+    name: 业务理解护城河
+    desc: 扩展讨论：在AI补齐技术能力后，业务理解成为真正的护城河，技术只是可被替代的一半。
+    role: extension
+    src:
+    - paper: 260805《花12万找FDE踩坑，用AI自研系统》
+- 'no': 2
+  name: 需求建模 —— 从“模糊想法”到“精准指令”
+  desc: 本章解决AI协作中最关键的环节：如何把模糊的业务想法转化为AI能理解并执行的精准需求。你将学会一套可复用的需求描述与迭代框架。
+  nodes:
+  - 'no': 1
+    name: 高频重复痛点即需求
+    desc: 用“显影液”类比理解：高频重复的工作行为和问题背后藏着需要辨明的需求信号，需求藏在痛点中。
+    role: motivation
+    src:
+    - paper: 260804《健身教练用AI做小程序》
+  - 'no': 2
+    name: 评论区需求优先
+    desc: 一种需求发现策略：先从评论区找需求再选品（而非先看销量），用户声音优先于市场数据。
+    role: method
+    src:
+    - paper: 260803《用Codex跑通B站带货视频》
+  - 'no': 3
+    name: 需求描述六格模板
+    desc: 把复杂需求拆解为六个维度的模板化描述，确保AI准确理解业务场景与目标。
+    role: definition
+    src:
+    - paper: 260805《花12万找FDE踩坑，用AI自研系统》
+  - 'no': 4
+    name: 六条军规
+    desc: AI协作项目的六条纪律性规则，约束需求变更、交付标准与验收流程，保证项目不失控。
+    role: method
+    src:
+    - paper: 260805《花12万找FDE踩坑，用AI自研系统》
+  - 'no': 5
+    name: 70分迭代法
+    desc: 一种快速交付策略：先接受70分完整结果再迭代标准，避免陷入完美主义拖延。
+    role: method
+    src:
+    - paper: 260803《用Codex跑通B站带货视频》
+  - 'no': 6
+    name: 先跑通再完善
+    desc: 核心定理：先让链路跑通，再让标准逐步变严，保证系统先可用再优化。
+    role: proof
+    src:
+    - paper: 260803《用Codex跑通B站带货视频》
+    - paper: 260820《从Demo到公司正式上线》
+  - 'no': 7
+    name: 课前调研
+    desc: 微信小程序案例中验证的需求前置方法：课前调研（选题、类目、资质）规避审核风险。
+    role: experiment
+    src:
+    - paper: 260824《微信小程序：从0到1做产品》
+  - 'no': 8
+    name: 广告反哺产品
+    desc: 扩展：广告投放中积累的用户数据能反哺产品迭代，需求来源不仅限于业务侧。
+    role: extension
+    src:
+    - paper: 260821《谷歌广告帮AI工具月增500+订阅》
+- 'no': 3
+  name: AI系统闭环 —— 从“单点Demo”到“组织级系统”
+  desc: 本章从产品化视角拆解AI系统的完整生命周期：从Demo验证可行性，到真实系统被组织采用，再到数据反馈驱动成熟。你将理解AI系统落地的真实路径。
+  nodes:
+  - 'no': 1
+    name: Demo与正式系统鸿沟
+    desc: 用“模型与实物”类比理解：Demo证明能不能做出来，正式系统解决公司敢不敢用，两者之间存在巨大鸿沟。
+    role: motivation
+    src:
+    - paper: 260820《从Demo到公司正式上线》
+  - 'no': 2
+    name: AI全托管开发流程
+    desc: 定义完整链路：AI工具开发、服务器搭建、后端开发、微信支付接入、部署上线、推广与商单报价。
+    role: definition
+    src:
+    - paper: 260824《微信小程序：从0到1做产品》
+  - 'no': 3
+    name: 7步流程与三次确认
+    desc: 一种生产级AI开发流程：Claude规划+Codex执行的分工模式，三次确认机制确保交付质量。
+    role: method
+    src:
+    - paper: 260820《从Demo到公司正式上线》
+  - 'no': 4
+    name: 最小闭环优先
+    desc: 一种系统建设策略：先跑通最小闭环再逐步扩展，用小范围验证降低失败成本。
+    role: method
+    src:
+    - paper: 260820《从Demo到公司正式上线》
+  - 'no': 5
+    name: 事找人
+    desc: 一种系统设计思想：把AI装进系统让事找人，将管理逻辑内嵌到工具中自动驱动执行。
+    role: method
+    src:
+    - paper: 260805《花12万找FDE踩坑，用AI自研系统》
+  - 'no': 6
+    name: 管理思想代码化
+    desc: 核心定理：定制系统真正价值是管理思想能变成代码强制执行，让规则不可绕过。
+    role: proof
+    src:
+    - paper: 260805《花12万找FDE踩坑，用AI自研系统》
+  - 'no': 7
+    name: 反馈驱动论
+    desc: 关键发现：让系统走向成熟的不是AI本身，而是真实用户反馈，用户是系统演进的动力源。
+    role: experiment
+    src:
+    - paper: 260820《从Demo到公司正式上线》
+  - 'no': 8
+    name: 一个月自研ERP
+    desc: 能力验证案例：零代码基础用Codex+Claude一个月自研ERP，每月AI订阅成本2000多元。
+    role: experiment
+    src:
+    - paper: 260805《花12万找FDE踩坑，用AI自研系统》
+  - 'no': 9
+    name: 40人系统成果
+    desc: 扩展验证：一个多月做出公司40多人使用的业务系统，证明AI开发模式可支撑组织级应用。
+    role: extension
+    src:
+    - paper: 260820《从Demo到公司正式上线》
+- 'no': 4
+  name: 商业变现 —— 从“开发出产品”到“赚到钱”
+  desc: 本章聚焦AI工具与产品如何真正产生商业回报：从广告投放的增长策略到服务模式的收入模型，你将理解AI商业化中的关键算法与风险。
+  nodes:
+  - 'no': 1
+    name: LTV思维
+    desc: 用“水库蓄水”类比理解：SaaS广告投放核心不是电商ROAS思维，而是LTV思维，关注用户长期价值。
+    role: motivation
+    src:
+    - paper: 260821《谷歌广告帮AI工具月增500+订阅》
+  - 'no': 2
+    name: 五步算账法
+    desc: 一种结构化投放决策工具：通过五步计算LTV与获客成本，确定可承受的投放边界。
+    role: method
+    src:
+    - paper: 260821《谷歌广告帮AI工具月增500+订阅》
+  - 'no': 3
+    name: 攻守配合策略
+    desc: 一种广告组合打法：搜索广告负责守精准词、Pmax负责攻增量，以6:4比例配合。
+    role: method
+    src:
+    - paper: 260821《谷歌广告帮AI工具月增500+订阅》
+  - 'no': 4
+    name: 转化追踪双层目标
+    desc: 一种精准度量方法：设置双层转化目标追踪用户行为，让投放数据反馈更精确。
+    role: method
+    src:
+    - paper: 260821《谷歌广告帮AI工具月增500+订阅》
+  - 'no': 5
+    name: 小程序起点论
+    desc: 一种产品切入策略：小程序是普通人做产品的最佳起点，开发成本低、审核快、微信生态自带流量。
+    role: extension
+    src:
+    - paper: 260824《微信小程序：从0到1做产品》
+  - 'no': 6
+    name: 订阅增长结果
+    desc: 验证案例：AI图片工具通过谷歌广告策略，从每月80个付费订阅提升到500+。
+    role: experiment
+    src:
+    - paper: 260821《谷歌广告帮AI工具月增500+订阅》
+  - 'no': 7
+    name: 小程序间接收益
+    desc: 验证案例：健身教练用3-4天做出热量计算小程序，间接为门店带来1w+收入。
+    role: experiment
+    src:
+    - paper: 260804《健身教练用AI做小程序》
+  - 'no': 8
+    name: FDE无杠杆
+    desc: 局限分析：FDE本质是卖时间没有杠杆，收入受限于个人时间，难以规模复制。
+    role: limitation
+    src:
+    - paper: 260824《如何入局FDE，以及FDE的未来》
+  - 'no': 9
+    name: FDE五转型方向
+    desc: 从卖时间到建资产的路径：卖课、垂直深耕、平台、产品化、总包分包五个转型方向。
+    role: extension
+    src:
+    - paper: 260824《如何入局FDE，以及FDE的未来》
+- 'no': 5
+  name: 风险与边界 —— 知道“坑在哪”比“跑得快”更重要
+  desc: 本章揭示AI驱动开发与商业化中的真实风险：从接单项目的尾款危机到行业模式的杠杆困境。你将学会识别危险信号并规划可持续路径。
+  nodes:
+  - 'no': 1
+    name: 超大项目风险论
+    desc: 用“吞金兽”类比理解：超过20万的项目容易陷入企业AI转型泥潭，尾款收不回概率超过60%。
+    role: motivation
+    src:
+    - paper: 260824《如何入局FDE，以及FDE的未来》
+  - 'no': 2
+    name: FDE订单区间
+    desc: 定义安全作业范围：FDE最好的订单区间是5-20万元，避开过小利润薄与过大风险高的两端。
+    role: definition
+    src:
+    - paper: 260824《如何入局FDE，以及FDE的未来》
+  - 'no': 3
+    name: FDE入局四路径
+    desc: 四种低门槛入局方式：自媒体、闲鱼小单、线下连接、G端合作，从不同渠道获取项目。
+    role: method
+    src:
+    - paper: 260824《如何入局FDE，以及FDE的未来》
+  - 'no': 4
+    name: FDE收入结果
+    desc: 案例验证：从0起步入局FDE，两个月收入超20万，但需注意其中风险策略的平衡。
+    role: experiment
+    src:
+    - paper: 260824《如何入局FDE，以及FDE的未来》
+  - 'no': 5
+    name: 花12万踩坑教训
+    desc: 反面案例：花12万找FDE外包踩坑后，零代码基础用AI自研系统，说明外部依赖不如自建能力。
+    role: experiment
+    src:
+    - paper: 260805《花12万找FDE踩坑，用AI自研系统》
