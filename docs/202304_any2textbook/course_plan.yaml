@@ -1,0 +1,18 @@
+chapters:
+- 'no': 1
+  source: doxcnk4mqgBMJTv0mklq0eR48fg.md
+  title: 交易式赚钱
+- 'no': 2
+  source: EnMvdgCPboEplRxJPdXcMUrznbf.md
+  title: 商业思维入门
+- 'no': 3
+  source: 20230418_083.md + 20230418_088.md
+  title: 商业定位：5%的生意
+- 'no': 4
+  source: 20230418_092.md
+  title: 创业层级
+- 'no': 5
+  source: AnkEdEtEtoXIbexWlQ3cL6zenFf.md
+  title: ChatGPT 本质观与管理
+structure_logic: 道（认知升级）- 法（战略定位）- 术（流量/变现）- 器（AI工具）
+workflow: article2book → paper2textbook（内容资产重组 + 可溯源教科书）

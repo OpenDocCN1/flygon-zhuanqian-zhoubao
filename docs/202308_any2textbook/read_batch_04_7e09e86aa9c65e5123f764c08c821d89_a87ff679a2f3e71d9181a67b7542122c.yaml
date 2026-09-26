@@ -1,0 +1,128 @@
+- file_path: docs/202308/20230822_24.md
+  title: 面对重大疾病，如何少走弯路、高效就医
+  summary: 作者以医疗从业者身份，通过三个真实病例（急腹症转诊、肝癌患者放弃治疗、黑色素瘤异地协作治疗），分享重大疾病就医时的信息差和实操应对经验，强调冷静决策、选择正确医院和利用医疗资源。
+  core_question: 普通人在面对重大疾病时，如何利用医疗信息差，做出高效的就医决策？
+  key_judgment: 医疗行业存在巨大的信息差，掌握正确的就医方法论（如急诊转院时机、选择综合医院、借助商业保险绿通服务等）可以救命；同时，不重视早期信号（如便血）和错误决策（如放弃正规治疗）是导致致命后果的关键。
+  depth: high
+  suggested_destination: chapter
+  possible_shape: book
+  risks:
+  - 时效性（医疗政策、药品价格可能变化）
+  - 口语化
+  - 格式预处理（飞书链接外链）
+  screening_conclusion: retain
+  reason: 内容为一线从业者的一手经验，含三个深度案例和具体操作建议，价值极高且稀缺，尤其适合作为成书中'医疗健康信息差'系列的核心章节。
+- file_path: docs/202308/20230822_25.md
+  title: 35 个让私域收入翻 3 倍的技巧
+  summary: 作者基于自身转型线上后第一年收入 220 万的经验，分享了 35 条关于私域经营和一对一成交的实战技巧，包括具体的话术和聊天方法，全文通过飞书链接展示。
+  core_question: 如何通过精细化的私域关系经营和一对一沟通技巧，提高线上成交率和收入？
+  key_judgment: 私域收入的增长核心不在于流量，而在于持续的'关系经营'，而成功的聊天技巧是可以通过具体的操作步骤（35 条）进行复制和学习的。
+  depth: medium
+  suggested_destination: chapter
+  possible_shape: course
+  risks:
+  - 重复（可能与其他成交技巧文章重复）
+  - 格式预处理（核心内容在飞书链接中，需整理）
+  screening_conclusion: retain
+  reason: 作者有真实收入验证且已获精华帖，是私域经营主题的代表性内容，可作为章节素材，但需整合链接内具体内容并注意去重。
+- file_path: docs/202308/20230822_26.md
+  title: 用钩子打法 1 年引流 30000 私域粉，卖课 300w 是什么体验
+  summary: 作者分享了在知识付费领域运用'钩子打法'（制作引流产品）在一年内精准引流 3 万私域粉并实现 300 万课程营收的方法论，但核心内容均放在飞书外链中。
+  core_question: 能否有一套可复制的'钩子'方法论，帮助知识付费从业者实现大规模精准引流和高额变现？
+  key_judgment: '''钩子''是卖课和引流的核心工具，通过设计精准的引流产品，可以实现高质量、大规模的私域用户增长并带动课程变现。'
+  depth: low
+  suggested_destination: kb_entry
+  possible_shape: kb
+  risks:
+  - 格式预处理（核心内容全在外部链接，本文无实质信息）
+  - 重复
+  screening_conclusion: demote
+  reason: 由于正文内容完全依赖于外部飞书链接，当前素材本身不包含方法论细节，信息完整性不足，只能降级为知识库条目待补充外部内容。
+- file_path: docs/202308/20230822_27.md
+  title: 52 条个人知识管理经验
+  summary: 作者通过自己在制作印象笔记小报童专栏过程中的思考，总结了 52 条个人知识管理的心得和经验，全文通过飞书链接展示。
+  core_question: 如何在日常工作和学习中运用个人知识管理方法，沉淀和建立自己的知识系统？
+  key_judgment: 知识管理不只是工具使用技巧，更重要的是建立一套适合自己的内化流程和思维习惯，这 52 条经验是实践后的总结。
+  depth: medium
+  suggested_destination: handbook_entry
+  possible_shape: handbook
+  risks:
+  - 格式预处理（核心内容在飞书外链中）
+  - 重复
+  screening_conclusion: retain
+  reason: 即使正文在外部链接，该主题（个人知识管理）是高频刚需，且作者有专栏产出和精华帖认证，保留价值较高，可待补充外链内容后作为手册条目。
+- file_path: docs/202308/20230822_40.md
+  title: 小红书爆文率 70%，一篇人设文涨粉 1w 的爆文公式
+  summary: 博主基于自身小红书 82% 首页推荐流量占比的经验，分享了人设文的'美强惨'公式、观点文的黄金模板以及图片文字排版的核心原则。
+  core_question: 如何在小红书上稳定生产爆款笔记，尤其是快速涨粉的人设文？
+  key_judgment: 小红书爆文有可复制的底层公式：新颖观点+上价值+方法论；同时，'美强惨'是打造个人 IP 和获取信任的最有效人设模板，配合'宁缺毋滥'的文字原则。
+  depth: high
+  suggested_destination: chapter
+  possible_shape: course
+  risks:
+  - 可能包含图片中的案例信息无法完整显示
+  screening_conclusion: retain
+  reason: 方法具体、逻辑清晰（公式+案例+原则），包含了爆文率 70% 和涨粉 1w 的真实数据支撑，适合作为运营章节的高价值案例。
+- file_path: docs/202308/20230829_03.md
+  title: 在生财选项目做生意赚钱，和外面的创业，最大的不同是什么？
+  summary: 生财思维是破解已验证的确定性有解的项目，而创业思维是面对不确定性的探索；前者难度远小于后者，更适合普通人的赚钱路径。
+  core_question: 普通人赚钱应该选择哪种思维模式：确定性的生财思维还是不确定性的创业思维？
+  key_judgment: 先致富应切换到'生财思维'——基于已跑通的案例去破解执行，而非沉迷于高认知、更有传播性的'创业思维'。
+  depth: high
+  suggested_destination: chapter
+  possible_shape: book
+  risks:
+  - 其他（包含少量口语化表达）
+  screening_conclusion: retain
+  reason: 高赞精华帖，核心观点锋利且具备认知启发性，定义了两类思维的核心差异，适合作为全书的方法论基石章节。
+- file_path: docs/202308/20230829_04.md
+  title: 如果能将市场上散乱的数据，在某个纬度上重新整理并呈现，产品会很容易胜出
+  summary: 提出了一个产品方法论：将散乱的市场数据按特定维度重新整理呈现，能更容易做出成功产品；并用生财有术、独立开发者收入跟踪等案例佐证。
+  core_question: 是否存在一种更通用、更容易获得成功的产品创造和流量获取模式？
+  key_judgment: 数据重整理呈现是验证过的胜出路径，其成败关键在于发现合适的'维度'（洞察）；国内市场中可能存在大量未被填补的数据整理机会。
+  depth: medium
+  suggested_destination: case
+  possible_shape: booklet
+  risks:
+  - 时效性（举例的链接可能失效）
+  screening_conclusion: retain
+  reason: 提供了一个高普适性的'信息差产品'方法论，案例清晰（从大到小），可独立成章或作为案例集，启发读者寻找信息差机会。
+- file_path: docs/202308/20230829_08.md
+  title: 时间与金钱谁贵
+  summary: 创业不同阶段对时间与金钱的价值观不同：早期钱贵人贱宜拼体力，后期人贵钱贱宜用钱买时间，具体取决于公司资源和禀赋。
+  core_question: 创业者在不同阶段，应如何权衡'时间'与'金钱'成本和投入策略？
+  key_judgment: 时间与金钱的贵贱随企业发展阶段动态变化，正确选择投入要素（拼时间 vs 烧钱）决定了竞争壁垒；不存在唯一正确的打法，只有匹配资源和禀赋的打法。
+  depth: medium
+  suggested_destination: handbook_entry
+  possible_shape: handbook
+  risks:
+  - 重复（类似创业忠告性内容较多）
+  screening_conclusion: retain
+  reason: 观点清晰、逻辑自洽，作为创业思维反思具有警示作用，适合放入手册条目，与'生财思维'章节形成呼应和补充。
+- file_path: docs/202308/20230829_15.md
+  title: AiGC 运营：小红书笔记爆款概率预测分析（一）
+  summary: 作者介绍了利用 AIGC（ChatGPT）建立模型，对小红书笔记的爆款概率进行预测分析的方法和思路，并指出该模型仍需人工调教完善。
+  core_question: 如何利用 AIGC 工具对小红书笔记的爆款概率进行量化预测？
+  key_judgment: 通过人工不断调教，ChatGPT 可以辅助建立爆款预测分析模型，从而提高内容生产效率；目前该模型是自建且不够完善。
+  depth: low
+  suggested_destination: kb_entry
+  possible_shape: kb
+  risks:
+  - 格式预处理（核心内容在飞书链接）
+  - 时效性（AI 工具迭代快）
+  screening_conclusion: demote
+  reason: 摘要部分仅提供思路框架和链接，无具体分析逻辑和数据支持，且主题在 AI 时代时效性短，不适合实体书出版，降级为知识库条目。
+- file_path: docs/202308/20230829_18.md
+  title: AI 绘画社群从设计到发售，7 天累计营收 7 万+的复盘
+  summary: 作者复盘了从 0 到 1 设计并发售一个 AI 绘画付费社群的全过程，7 天内实现了超 7 万元的营收，总结了实操经验和踩坑经验。
+  core_question: 如何从零策划、发售一个垂直领域的 AI 绘画付费社群并实现快速变现？
+  key_judgment: AI 绘画社群可通过精准定位人群和快速行动（'把书包丢过墙头'）实现短期爆发式营收，已验证的项目可复制性需要结合个人资源。
+  depth: low
+  suggested_destination: case
+  possible_shape: booklet
+  risks:
+  - 时效性（AI 绘画红利期已过，需作为历史案例）
+  - 重复（社群发售类案例较多）
+  - 格式预处理（核心内容在外链）
+  screening_conclusion: demote
+  reason: 核心复盘细节在外链，且主题属于时效性较强的'红利'赛道，对当前读者的借鉴价值有限，可作为历史案例轻量级保留。

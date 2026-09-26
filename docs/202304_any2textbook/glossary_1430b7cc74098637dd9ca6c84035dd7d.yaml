@@ -1,0 +1,154 @@
+- canonical: 交易
+  aliases:
+  - 买卖
+  - trade
+  - transaction
+  - 交换
+  first_seen: P001
+- canonical: 赚钱
+  aliases:
+  - 盈利
+  - 赚钱
+  - making money
+  - 创收
+  first_seen: P001
+- canonical: 三多增收法
+  aliases:
+  - 卖得多/卖得贵/卖得多元
+  - 多卖增收法
+  - 增收三法
+  first_seen: P001
+- canonical: 稀缺性
+  aliases:
+  - 稀缺
+  - Scarcity
+  - 稀缺资源
+  first_seen: P001
+- canonical: 定价权
+  aliases:
+  - 定价权
+  - Pricing Power
+  - 价格主导权
+  first_seen: P001
+- canonical: 可复购性
+  aliases:
+  - 可复购
+  - 复购性
+  - repeat purchase
+  - 重复购买
+  first_seen: P001
+- canonical: 分销
+  aliases:
+  - distribution
+  - 渠道分销
+  - 分销售卖
+  first_seen: P001
+- canonical: 圈层
+  aliases:
+  - 圈层效应
+  - circle
+  - 社会圈层
+  first_seen: P001
+- canonical: 信息差
+  aliases:
+  - 信息不对称
+  - information gap
+  - 信息差异
+  first_seen: P001
+- canonical: 信用
+  aliases:
+  - 信用度
+  - credibility
+  - 信任基础
+  first_seen: P001
+- canonical: 赚钱三要素模型
+  aliases:
+  - 赚钱三要素
+  - 用户需求/产品服务/用户增长/商业变现
+  first_seen: P001
+- canonical: 交易三要素
+  aliases:
+  - 掌握资源/找到买家/完成交易
+  - 交易三要素模型
+  first_seen: P001
+- canonical: 三大摩擦力
+  aliases:
+  - 信息不对称/交付不便利/信用不传递
+  - 交易摩擦力
+  - 摩擦三源
+  first_seen: P001
+- canonical: 八大项目筛选标准
+  aliases:
+  - 项目筛选八项
+  - 八大筛选标准
+  first_seen: P001
+- canonical: 双维归因框架
+  aliases:
+  - 双维归因
+  - 归因双维度
+  first_seen: P001
+- canonical: 用户选择权
+  aliases:
+  - 选择权
+  - 用户选择自由
+  first_seen: P001
+- canonical: 三差模型
+  aliases:
+  - 认知差/信息差/资源差
+  - 三差框架
+  first_seen: P001
+- canonical: 好生意五特征
+  aliases:
+  - 五项生意特征
+  - 优质生意特征
+  first_seen: P001
+- canonical: 5%的生意
+  aliases:
+  - 5% 生意
+  - 百分之五生意
+  first_seen: P001
+- canonical: 5%规模悖论
+  aliases:
+  - 规模悖论
+  - 5% 悖论
+  first_seen: P001
+- canonical: 成功万能公式
+  aliases:
+  - 热情×方向×执行力
+  - 成功公式
+  first_seen: P001
+- canonical: 创业七层级
+  aliases:
+  - 创业层级七级
+  - 创业进阶七层
+  first_seen: P001
+- canonical: 利润天花板定理
+  aliases:
+  - 利润上限定理
+  - 利润天花板
+  first_seen: P001
+- canonical: 创业层级评估法
+  aliases:
+  - 创业评估层级法
+  - 层级评估模型
+  first_seen: P001
+- canonical: ChatGPT本质观
+  aliases:
+  - 高智商低情商
+  - ChatGPT 本质
+  first_seen: P001
+- canonical: 六字真经对话框架
+  aliases:
+  - 背景/要求/角色
+  - 六字对谈框架
+  first_seen: P001
+- canonical: 一人团队技能组合法
+  aliases:
+  - 一人团队组合法
+  - 单人团队技能矩阵
+  first_seen: P001
+- canonical: AIGC双能力论
+  aliases:
+  - AIGC 双能力
+  - 双能力模型（AIGC）
+  first_seen: P001

@@ -1,0 +1,137 @@
+- file_path: docs/202306/HJTtd44mZoTWPbxQwXncLHW1nje.md
+  title: 技术赚钱实践指南
+  summary: 作者花2个月浏览生财有术1万篇技术类赚钱文章，精选300篇，从认知觉醒、商业思考、需求挖掘、热门赚钱技术和赚钱项目五个维度，系统梳理技术人员如何利用技术优势实现商业变现。
+  core_question: 技术人员如何从技术思维转向商业思维，利用自身技术优势赚钱？
+  key_judgment: 技术人员赚钱的本质不是比拼技术招式，而是回归业务本质，用技术解决用户需求；技术只是变现手段，需结合商业认知、流量和产品思维，避免陷入技术自嗨。
+  depth: high
+  suggested_destination: chapter
+  possible_shape: book
+  risks:
+  - 时效性
+  - 口语化
+  - 格式预处理
+  screening_conclusion: retain
+  reason: 系统性强，覆盖认知-商业-需求-技术-项目全链路，虽部分案例有2023年时效性，但核心方法论（技术优势+商业思维）具有长期参考价值，可作为书籍核心章节框架。
+- file_path: docs/202306/I4tBdhtiEoffmRxhFdqcB8X0niC.md
+  title: 小红书店铺从选品到出单全套分享
+  summary: 作者小毛分享其团队在小红书电商从选品、测品到怼爆品的完整实操流程，涵盖用户画像分析、选品方法（低粉爆文、跟品、电商平台选品）、测品策略和笔记制作技巧。
+  core_question: 如何在小红书平台从零开始选品并成功出单？
+  key_judgment: 小红书电商成功核心在于：在蓝海平台做红海品（利用平台红利），通过低粉爆文找有需求的品，测品时封面定生死，测出爆品后持续怼爆品并建立素材库。
+  depth: high
+  suggested_destination: chapter
+  possible_shape: booklet
+  risks:
+  - 时效性
+  - 口语化
+  - 格式预处理
+  screening_conclusion: retain
+  reason: 提供完整可复制的实操SOP（选品-测品-怼爆品），虽然是2023年案例，但选品逻辑和方法论（低粉爆文标准、封面设计原则）仍有参考价值，适合作为电商章节的操作指南。
+- file_path: docs/202306/L4OodPeJRoXlJWxPfyjcaq57ndd.md
+  title: 4年无人直播电商经验：无人直播小白7问7答
+  summary: 作者贾璐分享4年无人直播电商经验（累计1亿GMV），以7问7答形式讲解无人直播的定义、与真人直播区别、赚钱逻辑、收益预期、平台选择、操作方法及风险。
+  core_question: 无人直播电商是什么？小白如何入门并规避风险？
+  key_judgment: 无人直播本质是薅平台流量羊毛，利用录播内容+精选联盟选品实现24小时自动带货；核心在于选品和素材防检测处理，但平台管控风险高，需要持续换号。
+  depth: medium
+  suggested_destination: case
+  possible_shape: booklet
+  risks:
+  - 时效性
+  - 口语化
+  - 格式预处理
+  screening_conclusion: retain
+  reason: 提供真实的无人直播实操案例和收入数据，对理解直播电商红利有参考价值，但2024年平台规则可能已变化，且“薅平台流量”策略存在合规风险，适合作为案例而非核心方法论。
+- file_path: docs/202306/LUmKdLd0AofzbcxFRkQcg56Rnnf.md
+  title: 炼丹Lora终极攻略
+  summary: 作者吴东子以保姆级教程讲解Stable Diffusion中Lora模型的炼制方法，涵盖Lora功能介绍（云旅游、AI模特等）、炼丹前准备（本地/云平台）、素材制作、训练参数调整及模型测试优化。
+  core_question: 如何从零开始训练自己的Lora模型？
+  key_judgment: Lora炼制核心在于高质量素材（20-30张高清多角度照片）和正确的标签处理（特征标签删除/保留策略）；炼制是玄学，需要通过调整学习步数解决不像或过拟合问题。
+  depth: high
+  suggested_destination: handbook_entry
+  possible_shape: handbook
+  risks:
+  - 时效性
+  - 格式预处理
+  - 重复
+  screening_conclusion: retain
+  reason: 技术教程操作步骤完整、图文并茂，具有实操价值，但SD技术迭代快（如新版界面、新模型），且与另一篇ControlNet教程可能存在重复，适合作为附录或手册条目。
+- file_path: docs/202306/NeqIdWC9PovqQ6xruAJcErqHnxc.md
+  title: ControlNet终极攻略
+  summary: 作者吴东子系统讲解Stable Diffusion中15种ControlNet模型的功能、安装方法、预处理器选择和实操案例，涵盖姿势约束、线条约束、空间深度、物品种类、风格约束、重绘和特效等应用场景。
+  core_question: 如何利用ControlNet精细化控制AI绘画生成效果？
+  key_judgment: ControlNet的价值在于将AI绘画从随机抽卡转向可控生成，核心是理解不同模型（OpenPose、Canny、Depth等）的适用场景，并学会组合多个ControlNet实现复杂效果。
+  depth: high
+  suggested_destination: handbook_entry
+  possible_shape: handbook
+  risks:
+  - 时效性
+  - 格式预处理
+  - 重复
+  screening_conclusion: retain
+  reason: 内容详尽，覆盖15种模型并给出选型建议，是SD应用的高价值参考，但技术迭代快、与Lora教程同属SD系列，适合作为独立手册条目而非书籍章节。
+- file_path: docs/202306/RIWqd7dg3oTe0OxstEacTLgAnff.md
+  title: 做私域营销，不得不掌握的100个技巧
+  summary: 作者罗卜汇总微信聊天、微信设置、微信朋友圈三方面100个实用操作技巧，涵盖建单人群、消息置顶、好友备注、群发、折叠群聊、状态设置、朋友圈分组等私域运营细节。
+  core_question: 如何充分利用微信功能提升私域营销效率？
+  key_judgment: 微信不仅是聊天工具更是营销工具，用好其隐藏功能（如单人群、消息提醒、标签管理）能显著提升私域运营效率，但需根据使用场景灵活应用。
+  depth: low
+  suggested_destination: kb_entry
+  possible_shape: kb
+  risks:
+  - 时效性
+  - 重复
+  screening_conclusion: demote
+  reason: 内容为微信功能清单，操作性强但深度低，部分功能（如微信锁定、刷掌）有时效性且与私域营销核心方法论关联较弱，适合作为知识库条目而非书籍章节。
+- file_path: docs/202306/RmGidmCRcoQEJ6xre2Zcm9UqnXd.md
+  title: 大厂裸辞一年半，跑通职场个人IP，千人私域半月被动收入近六位数
+  summary: 作者赵立心（95后前大厂产品经理）分享裸辞做个人IP的完整历程，包括职场困境分析、个人特质挖掘、IP形象打造、商业模式设计（产品/流量/转化三端）、私域内容布局和低成本转化策略。
+  core_question: 普通职场人如何从零跑通个人IP实现副业变现？
+  key_judgment: 职场人做IP必须兼顾延展性（贴合原有领域）、阶段性（分阶段推进）、风险性（控制ROI）和个别性（自洽）；核心是用内容获客、产品建信任、活动促转化，实现被动成交。
+  depth: high
+  suggested_destination: chapter
+  possible_shape: book
+  risks:
+  - 口语化
+  - 重复
+  screening_conclusion: retain
+  reason: 方法论完整，从认知到实操覆盖IP打造全链路，表格化比较各平台和产品优劣，对职场副业人群有较高参考价值，适合作为个人IP章节核心内容。
+- file_path: docs/202306/UAm9djDdWol9ImxIO3mcBucInGg.md
+  title: 认知觉醒是开始赚钱的第一步
+  summary: 作者jime分享其副业4个月变现10万背后的认知转变，包括对钱的认知（钱是交换工具）、有钱人思维（积累资源而非消耗）、去除低认知（学习）和不要节省时间（利用时间杠杆）。
+  core_question: 赚钱的起点是什么？普通人如何实现认知觉醒？
+  key_judgment: 赚钱的核心是认知觉醒：变有钱先变脑子（学习）、眼睛（看项目）和耳朵（听信息）；富人思维是在做事时积累资源（信任、人脉）而非消耗资源，信用才是真正的财富。
+  depth: medium
+  suggested_destination: chapter
+  possible_shape: booklet
+  risks:
+  - 口语化
+  - 重复
+  - 其他
+  screening_conclusion: retain
+  reason: 从个人经历提炼认知升级方法论（积攒信用、时间杠杆），观点有启发性，但个人叙事性偏强、部分内容与其他认知类素材重复，可作为认知章节的案例补充。
+- file_path: docs/202306/WBsWdTm7uoOXICxiHDncFMdDnvb.md
+  title: 三人团队如何去赚第一个100W
+  summary: 作者苗子复盘2019-2021年三人团队从零到赚100万的创业历程，详述第一年对标博主进社群积累资源、第二年通过小红书起号卖号项目实现50万收入、第三年建立团队模式和增长小组。
+  core_question: 小团队（3人）如何从零赚到第一个100万？
+  key_judgment: 赚钱的核心是积累：第一年不赚钱但积累私域流量和行业资源，第二年抓住独家项目（小红书起号卖号）并打通后端资源，第三年靠团队模式和自动化系统放大，小团队模型为定时定量定人。
+  depth: high
+  suggested_destination: case
+  possible_shape: booklet
+  risks:
+  - 时效性
+  - 口语化
+  - 格式预处理
+  screening_conclusion: retain
+  reason: 真实复盘小团队创业路径，展示从积累到变现的完整过程，对个人或小团队创业有借鉴意义，但依赖特定时期平台红利（小红书起号），适合作为案例而非方法论章节。
+- file_path: docs/202306/Zqi3dDa6woRKCUxp9CjcxjHBnGf.md
+  title: 手把手教你用ChatGPT plugin打造个人知识库系统（一）
+  summary: 作者介绍利用ChatGPT插件和向量数据库构建个人知识库的原理和设计思路，包括embedding概念、向量数据库作用、基于ChatGPT-retrieval-plugin开源项目的系统架构。
+  core_question: 如何利用ChatGPT插件技术构建个人知识库？
+  key_judgment: 大语言模型能精准理解自然语言，使知识管理从预设框架整理转向散落存放、按需检索；核心是embedding将文本转向量、向量数据库语义检索，结合ChatGPT总结能力实现第二大脑。
+  depth: medium
+  suggested_destination: handbook_entry
+  possible_shape: handbook
+  risks:
+  - 时效性
+  - 其他
+  screening_conclusion: retain
+  reason: 提供ChatGPT插件构建知识库的原理和架构，对技术型读者有参考价值，但文章为第一部（原理篇）缺乏完整实操，且AI工具迭代快，适合作为技术工具手册的入门条目。

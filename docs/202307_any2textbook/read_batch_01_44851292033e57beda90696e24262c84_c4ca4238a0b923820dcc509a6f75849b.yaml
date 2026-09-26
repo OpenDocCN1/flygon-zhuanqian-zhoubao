@@ -1,0 +1,93 @@
+- file_path: docs/202307/20230711_000.md
+  title: 龙哥赚钱周报 20230704-20230711
+  summary: 一份按周更新的赚钱信息汇总，涵盖多个项目情报和风向标，来源于语雀平台。
+  core_question: 本周有哪些值得关注的赚钱项目、信息差和新玩法？
+  key_judgment: 作为周报载体，其价值在于信息的时效性和聚合性，而非单个观点的深度；它提供的是项目风向的线索。
+  depth: low
+  suggested_destination: kb_entry
+  possible_shape: kb
+  risks:
+  - 时效性
+  - 格式预处理
+  screening_conclusion: demote
+  reason: 内容本身是索引性聚合，无实质正文。适合作为知识库的条目线索，不适合直接成章；且时效性风险高，具体项目信息快速过时。
+- file_path: docs/202307/20230718_000.md
+  title: 龙哥赚钱周报 20230718~20230801
+  summary: 延续上一份周报的格式，聚合了新一期时间段的赚钱情报和风向标。
+  core_question: 本阶段有哪些新兴的赚钱机会和值得关注的动态？
+  key_judgment: 与上一份周报定位相同，作为连续性的信息流记录，价值在于持续追踪行业动态，而非独立的内容单元。
+  depth: low
+  suggested_destination: kb_entry
+  possible_shape: kb
+  risks:
+  - 时效性
+  - 重复
+  - 格式预处理
+  screening_conclusion: demote
+  reason: 同上，内容为索引性质，且与上一份周报高度重复，不适合作为核心素材，仅作知识库的风向标参考。
+- file_path: docs/202307/AGOAdy5Y1ojz0dx8EP7cIn0tnFh.md
+  title: 关于我开了3家轻食外卖店亏了40W+这回事
+  summary: 作者以互联网运营背景跨界开轻食外卖店，从0到1探索后亏损40万，复盘了包括高品质模式、纯外卖模式、中央厨房、人员配置和选址在内的一系列失败教训。
+  core_question: 轻食外卖店如何避免常见的创业大坑，实现盈利？
+  key_judgment: 制造了高品质复购率、但外送模式下高品质、纯外卖、中央厨房等模式在中国现有商业环境下均难度极大；核心资产是从失败中提炼的具体运营 SOP
+    和避坑指南。
+  depth: high
+  suggested_destination: case
+  possible_shape: book
+  risks:
+  - 时效性
+  - 口语化
+  screening_conclusion: retain
+  reason: 真实的、高颗粒度的一线创业失败复盘，包含详细数据、成本结构和操作细节如冷启动、团餐、选址、采购等，有极高的教学和启发价值。
+- file_path: docs/202307/BS9QdN9qKoMXroxzy3AcMUlZn0t.md
+  title: 如何成为一位单日课酬1万+的GPT企业培训师
+  summary: 作者拆解了从零起步成为GPT企业培训师的完整商业闭环，覆盖了目标客户定位、需求分层、讲师能力要求、个人品牌包装、获客渠道、转化技巧、现场交付和未来业务边界。
+  core_question: GPT企业培训师这个职业如何从0到1跑通商业闭环并实现高客单价？
+  key_judgment: 靠培训赚钱的核心不是教会企业用AI，而是满足企业巨大的信息差和“前疫情时代的认知焦虑”；该生意天花板有限，更长远的机会在于与解决方案、课程等结合。
+  depth: high
+  suggested_destination: chapter
+  possible_shape: course
+  risks:
+  - 时效性
+  - 口语化
+  screening_conclusion: retain
+  reason: 这是一份完整的个人商业模式画布，具有高度的结构化逻辑框架，从市场细分到交付技巧再到未来规划都覆盖，非常适合作为课程案例或章节以示范機會识别。
+- file_path: docs/202307/B2R3dj6SwoOdCrxLwLOcHQuDnRd.md
+  title: 如何用MJ的Zoom Out功能制作视频
+  summary: 一篇详细的操作教程，演示如何使用Midjourney 5.2的Zoom Out功能生成一系列连推镜头图片，并通过Runway的帧插值功能将这些静态图合成为动态视频。
+  core_question: 如何使用MJ的Zoom Out功能和Runway工具制作AI视频？
+  key_judgment: 展示了当前AI工具链（MJ生成图片+Runway合成视频）在低成本条件下实现创意视频的可行性，但价值仅限于纯技术操作层面的记录。
+  depth: medium
+  suggested_destination: handbook_entry
+  possible_shape: handbook
+  risks:
+  - 时效性
+  - 重复
+  screening_conclusion: retain
+  reason: 是一份非常具体的步骤式教程，适合作为手册中的一个独立功能章节。不过其生命周期短，且技术操作逻辑与Manual中的其他章节类似，因此只能作为操作参考。
+- file_path: docs/202307/C0F6dAOKDopAUdx2q3Mc6UEHnXd.md
+  title: 价值八千AI指令开发保姆级拆解
+  summary: 作者分享了他如何通过四套提示词完成一条完整的AI指令链，从而实现小红书爆款内容的生产，并在此过程中完成了第一笔8000元的AI指令变现业务。
+  core_question: 如何系统性地开发一套能帮助企业实现降本增效的优质AI指令？
+  key_judgment: 高质量的AI指令并非简单的提示词拼接，而是遵循“先发散后收敛”的系统工程，核心在于专业能力、目标拆分、案例引入和持续调试。
+  depth: high
+  suggested_destination: chapter
+  possible_shape: course
+  risks:
+  - 重复
+  screening_conclusion: retain
+  reason: 这篇文章不仅仅是操作层面的拆解，它建立了一套AI指令开发的系统方法论，囊括了从探索AI认知到构建专业能力框架的迭代过程，是极具方法论价值的核心章节。
+- file_path: docs/202307/D3fcdPXdHo14mlxUv7UccoFxnbd.md
+  title: AI头像定制保姆级教学，接单收徒日入300-1000+
+  summary: 文章提供了一套从0到1实操AI真人卡通头像定制项目的完整教程，包括账号打造、MJ工具搭建、两种制作模式、平台发布和接单交付话术。
+  core_question: 如何利用AI（MJ+InsightFace）开展个人头像定制业务，并实现接单变现？
+  key_judgment: AI绘画工具极大降低了视觉内容创作门槛，使得个人定制服务成为一门可操作的小生意，但成功关键在于获客和交付，而非技术本身。
+  depth: medium
+  suggested_destination: handbook_entry
+  possible_shape: handbook
+  risks:
+  - 时效性
+  - 重复
+  - 格式预处理
+  screening_conclusion: demote
+  reason: 有很强的实操步骤，但整体项目模式简单，技术门槛低，且落地依赖于平台规则与潮流，容易过时。价值在于作为手册中一个独立的小型变现实操案例，而非作为核心章节。

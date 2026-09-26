@@ -1,0 +1,319 @@
+- file_path: docs/202305/20230516_051.md
+  title: 😘🎶230510 龙哥赚钱周报
+  summary: 一份生财有术社群的周报汇总文档，包含风向标链接、分类索引、贴子点赞数和精华帖标记等信息，并附有入群邀请二维码。
+  core_question: 如何高效地汇总和分发一周的赚钱信息与项目风向？
+  key_judgment: 这是一个信息聚合的索引页面，本身没有独立观点，价值在于指向其他具体内容。
+  depth: low
+  suggested_destination: exclude
+  possible_shape: kb
+  risks:
+  - 格式预处理
+  - 重复
+  screening_conclusion: exclude
+  reason: 该文档是社群周报的导航页或封面图，无实质内容，仅作为目录存在，不符合内容沉淀和成书的标准，应直接排除。
+- file_path: docs/202305/20230516_052.md
+  title: 【生财认知】
+  summary: 一个标题为“生财认知”的文档，但正文内容为空，仅有一个原始链接。
+  core_question: 未明确。
+  key_judgment: 无实质内容，无法提炼观点。
+  depth: low
+  suggested_destination: exclude
+  possible_shape: kb
+  risks:
+  - 格式预处理
+  screening_conclusion: exclude
+  reason: 文档正文为空，无任何有价值的信息，无法进行摘要、判断或归类，应直接排除。
+- file_path: docs/202305/20230516_053.md
+  title: 《聊聊快团团和淘客的对比》
+  summary: 作者以亲身经历对比了快团团与淘客两种电商分销模式，详细阐述了快团团在微信内成交、价格、佣金、账期、复购、提醒、文案和定价权等八个方面的优势，并分析了生态内的七种角色机会（如供货团长、帮卖团长、文案服务商等）。
+  core_question: 在淘客模式衰落、广告难卖的背景下，快团团相较于传统淘客和电商平台有哪些优势？对普通人来说入局机会在哪里？
+  key_judgment: 快团团的本质是私域B2B2C分销平台，其“无账期”、“强提醒”和“店铺打通”等机制重塑了分销者的现金流和复购逻辑。生态内已形成分工，机会远不止卖货，还包括文案、工具、撮合等轻资产服务商角色。
+  depth: high
+  suggested_destination: chapter
+  possible_shape: booklet
+  risks:
+  - 时效性
+  - 重复
+  screening_conclusion: retain
+  reason: 文章对一种新兴电商模式的拆解非常系统深入，从平台机制对比到生态角色机会均有独到见解，逻辑清晰，案例详实，具备方法论迁移价值，应作为重点素材保留。
+- file_path: docs/202305/20230516_054.md
+  title: 《平民开店手册「一」》
+  summary: 一篇详尽的实体店开店实操指南，以开“无人自习室”为例，从市场调研、选址、合同签订、装修、开业准备到日常运营，事无巨细地介绍了作者亲身实践的一套方法，核心逻辑是“消费力套利”——在低线城市复制高线城市的消费模式。
+  core_question: 一个没有实体经验的普通人，如何通过可复制的流程和模型，开一家大概率盈利的实体店？
+  key_judgment: 将实体创业拆解为可计算的公式（如首年利润率计算）和标准化的执行SOP（选址看麦当劳、面试物业、装修清包等）。其核心是“确定性”而非“爆发性”，通过精细化的成本控制和流程管理降低试错成本。
+  depth: high
+  suggested_destination: chapter
+  possible_shape: handbook
+  risks:
+  - 时效性
+  - 口语化
+  - 格式预处理
+  screening_conclusion: retain
+  reason: 该文是高度结构化的实操手册，系统性极强，将“消费力套利”理论与选址、装修、运营等细节结合，虽内容口语化且充满个人风格，但作为案例和SOP模板价值极高，可提炼为实体创业的方法论章节。
+- file_path: docs/202305/20230516_055.md
+  title: 《承认自己的无能和无知》
+  summary: 作者小马宋的“创业46条”系列之一，指出老板因身居高位易产生“无所不能”的幻觉，强调承认自身局限的价值，并提醒老板在保持谦虚同时需防范被专业人士忽悠。
+  core_question: 创业者/老板为什么很难承认自己无能和无知？这种承认对经营有何价值？
+  key_judgment: “承认无知”是经营中的必要能力，它能让你听进建议、放弃不擅长的事。但认知到这个死结需要较高的元认知能力，且必须通过看一个人“做了什么、做成什么”来交叉验证，而非只听其言。
+  depth: medium
+  suggested_destination: chapter
+  possible_shape: booklet
+  risks:
+  - 重复
+  screening_conclusion: retain
+  reason: 该文简短但直击创业者认知盲区，是“创业认知”章节的好素材。价值在于提出了一个具体的行为准则（承认无知）和对应的验证方法（看他做没做），有普适性。
+- file_path: docs/202305/20230516_056.md
+  title: 《我是如何白手起家赚到第一个 1000 万？》
+  summary: 作者比高分享了自己从23岁赚到第一个1000万的经历，将逆袭归因于自我洗脑和系统更换。文章提出了多个核心观点：敬畏创业、乐于分享、无欲则刚、投资逻辑、选择比努力重要等，并以自己在知识付费、直播带货领域的操盘经验为例。
+  core_question: 普通人从0到1赚到第一个1000万需要具备哪些底层认知和思维模型？
+  key_judgment: 赚钱不是一个机会，而是一套操作系统。核心在于：1. 用投资逻辑看待项目（不轻易从0到1，找到跑通的盘进行资源加持）；2. 将“真诚分享”作为最高效的链接和流量获取方式；3.
+    通过日复一日的执行（如写1000万字）完成日常化积累。
+  depth: high
+  suggested_destination: chapter
+  possible_shape: book
+  risks:
+  - 口语化
+  - 重复
+  screening_conclusion: retain
+  reason: 这是典型的成功者复盘，内容翔实，包含了具体案例（PPT拆项目、直播基地、项目打卡）和明确的思维模型（投资逻辑、能量圈、日常化），对构建“财富思维”章节有很高价值，且案例可作为知识付费/社群运营的参考。
+- file_path: docs/202305/20230516_057.md
+  title: 《价值千万的个人 IP 策略-百年不改名，全域用同名》
+  summary: 粥左罗分享了一条个人IP名字策略：全网全域永远使用唯一的名字且永不改名，强调名字是个人品牌所有资产的沉淀容器，坚持不改名能让所有内容形成联动的影响力网络。
+  core_question: 在个人IP打造中，如何通过名字策略实现品牌资产的持续增值？
+  key_judgment: 个人IP的名字是核心资产。频繁改名或在不同平台用不同名字，会切断内容间的链接，导致此前积累的影响力无法有效聚拢。正确的策略是选定一个好名字后“百年不改”，通过持续产出优质内容在名字上“播种”。
+  depth: medium
+  suggested_destination: chapter
+  possible_shape: booklet
+  risks:
+  - 重复
+  screening_conclusion: retain
+  reason: 该文章提出了一个非常具体且可立即执行的IP操作准则，观点清晰直白，可以作为“个人IP塑造”章节中的一个关键知识点或行动建议。
+- file_path: docs/202305/20230516_058.md
+  title: 《从年负债 19 万，到眼光敏锐投资年净收益近百万》
+  summary: 作者老吴分享了个人从负债到年收入近百万的经历，罗列了股票经纪、股票投资、淘宝客、可转债打新等四条收入来源，但具体实操经验全部引导至一篇飞书文档链接。
+  core_question: 个人如何构建多渠道收入组合并实现财富增值？
+  key_judgment: 个人逆袭背后是多项技能的组合以及贵人相助，但本素材本身仅是结果展示，无方法论述。
+  depth: low
+  suggested_destination: case
+  possible_shape: pool
+  risks:
+  - 时效性
+  - 格式预处理
+  screening_conclusion: demote
+  reason: 正文为个人成果概述，有价值的具体操作内容（如套利方法）全在外部链接中，且该链接无法直接访问。因核心内容缺失，只能降级为“案例”素材，用于激励而非教学。
+- file_path: docs/202305/20230516_059.md
+  title: 《高利润的中老年知识付费赛道，普通人入局都能做什么？》
+  summary: 作者渔火基于自身4年中老年知识付费创业经历，详细分析了该人群的消费习惯与市场变化，指出都市银发人群“有钱有闲、学习能力强”，并提供了从需求挖掘、MVP验证到产品设计（如电子琴课程）的入局路径，及老年家政、睡眠、旅游等衍生机会。
+  core_question: 中老年知识付费赛道为何高利润？普通人如何找到切入点并跑通商业模式？
+  key_judgment: 中老年知识付费是典型的“降维打击”赛道。核心在于“懂用户”而非“有技能”：该人群看重服务、能下载和永久回看，对华丽设计无感。普通人只需找到专业老师合作，即可通过微信和视频号路径切入，而整个赛道因大厂入场处于教育用户的红利期。
+  depth: high
+  suggested_destination: chapter
+  possible_shape: booklet
+  risks:
+  - 时效性
+  - 重复
+  screening_conclusion: retain
+  reason: 文章数据详实、观点犀利（如“详情页不如大字图”），既有宏观趋势分析又有微观实操案例（电子琴课推广测试），对于理解细分市场和新流量迁移非常有价值，是很好的章节素材。
+- file_path: docs/202305/20230516_060.md
+  title: 【生财技能】
+  summary: 一个标题为“生财技能”的文档，但正文内容为空，仅有一个原始链接。
+  core_question: 未明确。
+  key_judgment: 无实质内容，无法提炼观点。
+  depth: low
+  suggested_destination: exclude
+  possible_shape: kb
+  risks:
+  - 格式预处理
+  screening_conclusion: exclude
+  reason: 文档正文为空，无任何有价值的信息，应排除。
+- file_path: docs/202305/20230516_061.md
+  title: 《如何成为持续创作的机器，分享三个技巧》
+  summary: 作者老黄牛围绕如何将“资料整理”升级为“知识创作”，分享了三个技巧：1. 判断何种知识值得记录的四个准则；2. 通过“渐进式总结”的五个层级将信息萃取为知识；3.
+    用P.A.R.A.动态知识管理系统组织笔记，以驱动创作。
+  core_question: 如何构建一套从信息收集到知识输出的高效创作系统？
+  key_judgment: 创作的本质是知识萃取。渐进式总结解决了费曼学习法“无步骤”的痛点；P.A.R.A.系统解决知识库“只收不用”的难题，通过将笔记与项目绑定，确保知识被放在最快能用到的地方。
+  depth: high
+  suggested_destination: chapter
+  possible_shape: handbook
+  risks:
+  - 重复
+  screening_conclusion: retain
+  reason: 这是一篇成熟的方法论文章，结构清晰、观点明确，提出了“渐进式总结”和“P.A.R.A.”两个可操作的工作流，对知识工作者和创作者有极强的实用价值，适合作为“方法论”章节的独立内容。
+- file_path: docs/202305/20230516_062.md
+  title: 《6 个步骤：做 niche 海外软件工具正确的方法》
+  summary: 作者子木基于Hackathon经历，分享了做海外细分软件工具的六步法：发现痛点、明确根因、MVP方案、绘制用户画像、确定营销渠道、制定冷启动策略，并重点展示了如何通过竞品流量分析（SimilarWeb）来反推用户所在渠道。
+  core_question: 面向海外市场的Niche软件工具，如何科学地从一个想法走向产品并获得首批用户？
+  key_judgment: 营销应以“用户画像”为枢纽。解决完痛点后，必须清晰定义用户在哪，而最有效的路径是“竞品分析”——通过SimilarWeb工具查看竞品的流量来源，从而复制和选择自己的核心渠道，避免盲目营销。
+  depth: high
+  suggested_destination: chapter
+  possible_shape: booklet
+  risks:
+  - 时效性
+  screening_conclusion: retain
+  reason: 文章提供一个清晰的六步框架，特别是在“用户画像与渠道匹配”这一环给出了可量化的工具方法，弥补了大多项目拆解偏重流量获取而忽视产品定位的问题，具备方法论的完整性。
+- file_path: docs/202305/20230516_063.md
+  title: 《选品神器，任意下载抖音爆款视频素材》
+  summary: 作者介绍了其开发的一款与巨量百应相关的工具，声称可用来选择爆款视频和选品，并支持直接下载爆款素材，相关验证和具体操作在飞书链接中。
+  core_question: 如何低成本、高效率地获取抖音平台的爆款视频素材进行选品参考？
+  key_judgment: 工具能解决选品和素材下载的效率问题，但无具体原理和操作步骤。
+  depth: low
+  suggested_destination: kb_entry
+  possible_shape: kb
+  risks:
+  - 时效性
+  - 格式预处理
+  - 其他
+  screening_conclusion: demote
+  reason: 该帖更偏向软件推广和线索收集，核心内容全部导向外部飞书链接，且链接无法确定可访问性。可作为一个工具线索收录进工具库，但无法作为独立的知识内容。
+- file_path: docs/202305/20230516_064.md
+  title: 《利用生财思维，我跑通了一个没见过的小项目，8 块钱成本一个月小赚 2w 多》
+  summary: 作者曹超峰分享了他如何利用在生财有术学到的“商业逆向工程”思维，发现并跑通了一个“视频定制”项目，以8块成本月入2万，但具体过程和拆解内容全部存放在无法直接访问的飞书文档中。
+  core_question: 面对完全陌生的项目，如何应用逆向思维进行拆解、模仿并跑通变现？
+  key_judgment: 核心方法是通过拆解成功案例的流程来复制商业模式，但此素材仅提出概念，实操部分缺失。
+  depth: low
+  suggested_destination: case
+  possible_shape: pool
+  risks:
+  - 格式预处理
+  - 时效性
+  screening_conclusion: demote
+  reason: 标题吸引人，但因正文内容缺失，干货全在外部链接中且不可访问，只能作为案例分析的一条线索，降级处理。
+- file_path: docs/202305/20230516_065.md
+  title: 【生财心态】
+  summary: 一个标题为“生财心态”的文档，但正文内容为空，仅有一个原始链接。
+  core_question: 未明确。
+  key_judgment: 无实质内容，无法提炼观点。
+  depth: low
+  suggested_destination: exclude
+  possible_shape: kb
+  risks:
+  - 格式预处理
+  screening_conclusion: exclude
+  reason: 文档正文为空，无任何有价值的信息，应排除。
+- file_path: docs/202305/20230516_066.md
+  title: 《我是如何用生财，从 0 基础小白做到 257 人团队的？》
+  summary: 作者思蒙用长篇篇幅记录了自己作为生财有术社群新人，从月薪3000到带257人团队做短剧项目的成长历程。核心包括：入圈后的迷茫与试错、坚持输出拿到正反馈、参与志愿者项目积累经验、以及在短剧红利期利用SOP快速组建团队的过程。
+  core_question: 没有资源、没有背景的社群新人，如何利用好社群生态实现个人能力的跃迁并组建团队？
+  key_judgment: 新人的成长阶梯是“先专注一个项目赚钱，再转化为方法论（写SOP）去赋能他人”。在生财，参与官方志愿者活动获取组织经验，是低成本学习规模化运营的捷径，也是从“独行侠”转向“带团队”的关键转折点。
+  depth: medium
+  suggested_destination: case
+  possible_shape: book
+  risks:
+  - 口语化
+  - 重复
+  screening_conclusion: retain
+  reason: 这是一个非常典型的“社群成长+项目操盘”案例，虽然深度一般，但过程真实且具有共鸣性。其“输出→反馈→机会”的路径，以及参与志愿者活动的建议，是极具操作性的经验，可作为个人成长或社群运营的案例章节。
+- file_path: docs/202305/20230516_067.md
+  title: 《意外搞到 3 万块，不要全职自媒体》
+  summary: 作者二丫分享了自己在上海从事项目经理工作并兼职做自媒体的经历。她曾尝试3个月自由职业，虽单月最高收入达3万，但最终因性格偏好防守、平台政策多变以及社保成本等原因，重新选择回归职场，提出了“防守比进攻重要”的核心观点。
+  core_question: 在何种情况下，全职做自媒体/创业是一个不明智的选择？
+  key_judgment: 在没有建立足够的护城河（如稳定收入、储蓄、资源）之前，盲目放弃主业去赌自媒体是高风险行为。用“战争中的攻守逻辑”来看：打工是防守，创业是进攻。防守不稳，一切进攻都可能是灾难。
+  depth: medium
+  suggested_destination: chapter
+  possible_shape: booklet
+  risks:
+  - 重复
+  screening_conclusion: retain
+  reason: 这篇内容提供了一个反主流视角，对“全职自媒体”热潮进行冷静分析，逻辑清晰，用“进攻与防守”来类比职业规划很有启发性。可作为“决策思维”或“风险控制”章节的素材，给读者提供另一种选择。
+- file_path: docs/202305/20230516_068.md
+  title: 【生财项目】
+  summary: 一个标题为“生财项目”的文档，但正文内容为空，仅有一个原始链接。
+  core_question: 未明确。
+  key_judgment: 无实质内容，无法提炼观点。
+  depth: low
+  suggested_destination: exclude
+  possible_shape: kb
+  risks:
+  - 格式预处理
+  screening_conclusion: exclude
+  reason: 文档正文为空，无任何有价值的信息，应排除。
+- file_path: docs/202305/20230516_069.md
+  title: 【AI 相关】
+  summary: 一个标题为“AI 相关”的文档，但正文内容为空，仅有一个原始链接。
+  core_question: 未明确。
+  key_judgment: 无实质内容，无法提炼观点。
+  depth: low
+  suggested_destination: exclude
+  possible_shape: kb
+  risks:
+  - 格式预处理
+  screening_conclusion: exclude
+  reason: 文档正文为空，无任何有价值的信息，应排除。
+- file_path: docs/202305/20230516_070.md
+  title: 《通过 ChatGPT+RPA 13 次拖拽实现文案全流程自动化》
+  summary: 作者王小蒙分享了一个用RPA工具（影刀）结合ChatGPT实现文案处理自动化的小案例，旨在解决用户需要重复将文案标题粘贴到ChatGPT再复制出来的痛点，具体实现过程在飞书链接中。
+  core_question: 如何零代码基础，通过RPA工具实现重复性文字工作的自动化？
+  key_judgment: RPA（影刀）是门槛极低、可自学的自动化工具，能解决大量重复性操作。此文核心在于展示了“自动化思想”的价值。
+  depth: low
+  suggested_destination: kb_entry
+  possible_shape: kb
+  risks:
+  - 格式预处理
+  - 重复
+  screening_conclusion: demote
+  reason: 该帖是具体的操作流程分享，但核心细节全在外部飞书文档，且内容相对单薄。可收录进工具库或SOP库作为“RPA+AI”的入门案例，但因缺失操作主体，不适合作为章节正文。
+- file_path: docs/202305/20230516_071.md
+  title: 《AI 推文三天百万播放 0-1 分享》
+  summary: 作者Rex（凌空）分享了自己入局AI小说推文赛道的实操经验和心得，介绍了从0到1跑通该项目的流程，包括如何制作、核心是文案为王，并坦言最终选择放弃该项目，建议将其作为副业而非主业。具体细节在飞书链接中。
+  core_question: AI小说推文项目如何实现从0到1的启动？其收益状况和可持续性如何？
+  key_judgment: AI推文的核心是“文案”，画面次之。项目虽能靠多个账号矩阵带来千元级副业收入，但因天花板低、竞争激烈，不适合作为全职主业，更偏向短期红利玩法。
+  depth: low
+  suggested_destination: case
+  possible_shape: pool
+  risks:
+  - 时效性
+  - 格式预处理
+  screening_conclusion: demote
+  reason: 正文是分享摘要，虽有核心观点（文案为王，不适合全职），但由于具体0-1操作手册都在外部链接中，加上AI行业更新换代极快，日期为5月，时效性风险高，建议降级为案例分析或行业观察条目。
+- file_path: docs/202305/20230516_072.md
+  title: 《如何找对有流量的关键词，与 ChatGPT 工具结合 SEO 可用在哪些方面？ 》
+  summary: 作者白杨结合PPT截图和文字，分享了两个主题：1. 用官方平台数据（如搜索下拉框）而非第三方工具寻找有流量的关键词；2. 分享了GPT与SEO结合的具体应用场景，包括公众号写作、知乎回答、RPA自动化发布，以及GPTSEO的价值判断。
+  core_question: 如何用低成本方法找到高流量关键词？ChatGPT在SEO领域有哪些接地气的应用场景？
+  key_judgment: 寻找关键词要优先参考官方平台数据（最准确），而非第三方预估。 在GPT应用上，真正赚钱的机会是“应用层”，而非入门教学或底层工具开发，各行业从业者应思考如何用GPT降本增效。
+  depth: medium
+  suggested_destination: chapter
+  possible_shape: handbook
+  risks:
+  - 时效性
+  screening_conclusion: retain
+  reason: 文章提供了即插即用的SEO技巧（官方数据优先）和具体的GPT应用案例（RPA+百家号），实操性强。观点虽不宏大但非常落地，能作为“工具应用”或“SEO增长”章节的实用素材。
+- file_path: docs/202305/20230516_073.md
+  title: 《从 AI 四维预测说起 -- 把想法变成钱》
+  summary: 作者甜瓜以自己的AI四维预测（预测胎儿长相）、碳中和内容号和为ta点歌等项目为例，完整复盘了“发现需求-验证需求-解决需求”的赚钱思考框架。强调“思考是赚钱的源泉”，而非只盯着眼前的项目机会。
+  core_question: 普通人如何系统地训练挖掘赚钱想法的能力，并最终将想法变成现实收益？
+  key_judgment: 高价值项目往往源于生活中的细节。以“AI四维预测”为例，抓住2019年家庭群的闲聊痛点，在2023年AI工具成熟时重新验证并落地。其方法论核心是：想法不值钱，但“体系化思考”值钱。遇到解决不了的问题（如不会弹唱）时，可重新定义问题（交付物是视频）从而找到替代方案。
+  depth: high
+  suggested_destination: chapter
+  possible_shape: book
+  risks:
+  - 口语化
+  - 重复
+  screening_conclusion: retain
+  reason: 该文是极佳的方法论总结，超越了单纯的项目拆解，上升到“如何培养赚钱嗅觉”。通过多个案例交叉印证“发现-验证-解决”的三步模型，对于教育读者如何思考非常有启发性，是书稿中“思维框架”章节的核心素材。
+- file_path: docs/202305/20230516_074.md
+  title: 《Stable Diffusion 应用场景和模型训练》
+  summary: 作者沧海基于线下分享，梳理了Stable Diffusion的应用方向（辅助设计、AI模特、分镜脚本），并预告了Lora模型训练工作流和云端部署的方法，具体内容全部汇集在一个飞书文档中。
+  core_question: Stable Diffusion当下主流的商业应用场景有哪些？如何训练自己的模型？
+  key_judgment: Stable Diffusion已进入应用阶段，本地生态繁荣，但此文仅是介绍性摘要。
+  depth: low
+  suggested_destination: kb_entry
+  possible_shape: kb
+  risks:
+  - 时效性
+  - 格式预处理
+  - 重复
+  screening_conclusion: demote
+  reason: 正文几乎没有展开，全是概念罗列和链接前置，属于典型的“标题党”或引流文。考虑到AI领域时效性强且此内容无实质细节，降级为知识库条目，让读者自行参考链接。
+- file_path: docs/202305/20230516_075.md
+  title: 《用 ChatGPT 超级写手批量制作抖音带货文案》
+  summary: 作者渣渣浩提供了一套完整的SOP：通过抖音热点宝寻找带货爆款视频，用轻抖等工具提取文案，再使用ChatGPT超级写手（基于UIbot开发）结合Temperature参数批量改写文案，并用一帧秒创制作视频，最后通过RPA实现批量上传和SEO关键词霸屏。
+  core_question: 如何利用ChatGPT和RPA工具，实现抖音带货文案的批量化生产和全流程自动化运营？
+  key_judgment: 这是一套将“找爆款-仿写文案-生成视频-批量发布”全链路的自动化流水线。核心不在于单一工具，而在于“流程自动化思维”——将一切有规律的重复性操作交给RPA，从而极大降低人力成本，实现规模化作战。
+  depth: high
+  suggested_destination: chapter
+  possible_shape: handbook
+  risks:
+  - 时效性
+  - 格式预处理
+  screening_conclusion: retain
+  reason: 文章干货浓度极高，从需求分析、工具选择、到SOP搭建和自动化实施均有细致讲解，是典型的保姆级教程。虽然工具可能迭代，但“自动化流水线”的底层思维方式具有长期价值，适合作为“效率工具”或“项目实操”章节的完整案例。
