@@ -1,0 +1,78 @@
+- file_path: docs/202301-02/20230207_06.md
+  title: 221220 龙哥赚钱周报
+  summary: 一份整理自付费社群（生财有术）的赚钱周报，汇编了关于流量认知、个人财富积累、创业心态、抖音/微信/小红书等多平台实操项目复盘、以及AI绘画与ChatGPT等新兴热点案例的帖子。
+  core_question: 在当前环境下，如何从认知和实操层面发现并做好赚钱项目，以及如何应对流量、财税合规和创业风险？
+  key_judgment: 财富积累分为出卖劳动力、一份时间多次卖、购买他人时间、钱生钱四个阶段；流量经营的核心在于将流量价值最大化，而非单纯追逐规模；非刚需的项目不应做，要聚焦于轻资产和能提供直接价值的领域。
+  depth: medium
+  suggested_destination: kb_entry
+  possible_shape: kb
+  risks:
+  - 格式预处理
+  - 重复
+  screening_conclusion: retain
+  reason: 作为一篇汇编周报，覆盖了多个项目与认知，具有参考价值，但其内容为二次汇编，原创价值有限，适合作为知识库条目而非独立章节。
+- file_path: docs/202301-02/20230207_07.md
+  title: 221213 龙哥赚钱周报
+  summary: 一份汇编了付费社群精华帖的周报，核心内容是关于如何面对增长瓶颈、理解战略、以及如何规避投资和创业中的常见亏损陷阱。
+  core_question: 当企业和个人陷入增长瓶颈时，应该如何调整心态和视角？以及如何识别并避免常见的创业和投资误区？
+  key_judgment: 应对增长焦虑的唯一方法是切换视角，从追求增长转向价值创造，并保持面向未来、面向用户、积累价值的勇气；判断战略应看其能否获得相对优势，而非仅仅是一个目标。
+  depth: high
+  suggested_destination: handbook_entry
+  possible_shape: booklet
+  risks:
+  - 重复
+  - 口语化
+  screening_conclusion: retain
+  reason: 关于增长与战略的论述具有启发性和普适性，是构建创业认知框架的核心素材，但其观点在其他内容中常见，重复风险较高。
+- file_path: docs/202301-02/20230207_08.md
+  title: 221206 龙哥赚钱周报
+  summary: 一份汇编周报，涵盖从劳动法合规、高净值客户销售、IP打造、到抖音/视频号/小红书/Temu等不同平台的项目实操复盘，以及AI绘画、Web3等新兴领域的探索案例。
+  core_question: 对于不同背景和阶段的创业者及从业者，有哪些具体可操作的增收项目、合规避坑指南和高效的商业方法论？
+  key_judgment: 项目选择的核心是结合自身资源并寻找平台红利期；大客户销售的关键在于将其表面需求升华为深层痛点，并建立情感链接；任何项目成功的基础是执行力与对底层商业逻辑的理解。
+  depth: high
+  suggested_destination: kb_entry
+  possible_shape: kb
+  risks:
+  - 时效性
+  - 格式预处理
+  screening_conclusion: retain
+  reason: 素材包含大量高赞的实操复盘（如高净值客户销售、视频号店群、无人直播），覆盖多个平台和项目，具有较高的实务参考价值。
+- file_path: docs/202301-02/20230207_09.md
+  title: 221129 龙哥赚钱周报
+  summary: 一份汇编周报，聚焦于创业认知、财税规划、写作复利，以及基于个人资源选择项目的方法论，并穿插了几个平台的变现案例。
+  core_question: 如何从认知、技能和资源匹配度出发，逐步构建并放大自己的盈利模式？
+  key_judgment: 写作是普通人最容易建立的复利杠杆；选择新项目应首先盘点自身资源，找到项目与资源的匹配度，而非贸然进入新领域；精准搜索流量比迎合平台算法的流量更有价值。
+  depth: medium
+  suggested_destination: handbook_entry
+  possible_shape: booklet
+  risks:
+  - 重复
+  - 口语化
+  screening_conclusion: retain
+  reason: 提供了关于个人能力建设和项目选择的系统方法论，对初级和中级的从业者有指导意义，但观点在同类内容中重复度较高。
+- file_path: docs/202301-02/20230207_10.md
+  title: 221122 龙哥赚钱周报
+  summary: 周报正文因被平台判定违规而无法上传，仅提供了离线版PDF的网络链接和下载地址。
+  core_question: 如何处理因平台审核或合规问题导致的内容无法正常发布与留存的情况？
+  key_judgment: 内容合规是传播的前提，当平台审核不通过时，需要准备替代的分享和存储方案以确保信息的可达性。
+  depth: low
+  suggested_destination: exclude
+  possible_shape: kb
+  risks:
+  - 其他
+  - 格式预处理
+  screening_conclusion: exclude
+  reason: 素材本身不包含实质性内容，仅是一个指向外部链接的占位符，无法作为独立内容进行使用或评估。
+- file_path: docs/202301-02/20230207_11.md
+  title: 221115 龙哥赚钱周报
+  summary: 一份汇编周报，核心内容围绕垂直IP获取精准客户的策略、产品idea的来源，以及多个平台（抖音、视频号、小红书、快手等）的引流和变现实操案例。
+  core_question: 如何低成本、高效地获取精准客户，并选择和验证一个有成功潜力的产品或项目？
+  key_judgment: 垂直IP应以SEO思维获取精准搜索流量，而非追逐平台爆款；产品idea最成功的来源是解决自身问题（原生idea），其次是基于被验证的成功竞品进行差异化改进。
+  depth: medium
+  suggested_destination: kb_entry
+  possible_shape: kb
+  risks:
+  - 时效性
+  - 格式预处理
+  screening_conclusion: retain
+  reason: 提供了关于垂直IP商业模式和产品创新的底层方法论，并包含了多个平台的具体实操案例，作为知识库素材价值较高。

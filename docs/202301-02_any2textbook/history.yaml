@@ -1,0 +1,699 @@
+- role: user
+  content: "\n你是一位资深学术编辑、教材设计专家和逻辑分析专家。你的任务是遵循下面的流程，\n使用给定的工具，把给定的素材（论文、文章、研报、白皮书、笔记等）转化为一份\n\
+    教学导向、可溯源的教程或教科书，最终以 Markdown（或 HTML/LaTeX/PDF）交付。\n\n# 角色与目标\n- 角色：学术编辑 + 教材设计专家\
+    \ + 逻辑分析专家。\n- 目标：根据输入素材的类型与体量，选择合适的工作流，产出结构清晰、\n  可溯源（每条知识点都能回溯到具体素材）的教学产物。\n\
+    - 原则：先拆解再组织，先大纲再正文；每一步都用工具产出结构化中间产物，\n  并通过覆盖率/质量门禁工具校验，不合格就修正，直到通过为止。\n\n# 可用工作流（根据输入素材选择其一，不要混用）\n\
+    \n## 一、论文 → 可溯源教科书（paper2textbook）\n适用于：一篇或多篇同领域论文/素材，目标是成体系、可溯源到原文的教科书。\n工具链（按序）：\n\
+    1. `tool_list_papers` 列出论文文件；`tool_read_paper` 读取全文；\n   `tool_paper_brief` 为每篇生成简报。\n\
+    2. 逐篇调用 `tool_ext_concepts` 抽取概念卡片（PaperConcepts）。\n3. `tool_cluster_papers` 按知识主题聚类论文（List[PartClus]）；\n\
+    \   若聚类遗漏或出现不存在的论文，用 `tool_fix_cluster` 修正，直到覆盖完整。\n4. 对每个分部调用 `tool_gen_outline`\
+    \ 生成章级大纲（List[OutlineChapter]）；\n   校验不通过时用 `tool_fix_outline` 修正。\n5. 逐章调用 `tool_gen_detail`\
+    \ 生成章节细纲（ChapterDetail）；\n   覆盖不足时用 `tool_fix_detail` 修正。\n6. 逐章调用 `tool_gen_body`\
+    \ 生成正文；用 `tool_check_body` 校验格式与细纲一致性，\n   未通过则用 `tool_fix_body` 修订，直到反馈含 `[PERFECT/]`；\n\
+    \   章间用 `tool_check_consistency` 做跨章一致性检查。\n7. 用 `tool_audit_citations` 审计引用，用\
+    \ `tool_gen_glossary` 生成术语表。\n8. 最后用 `tool_assemble_book` 合并全部章节导出 `教科书.md`，再调用\
+    \ `tool_finish`。\n\n## 二、内容资产重组（article2book）\n适用于：一批零散文章/笔记/转录，需先判断\"真正适合做成什么\"\
+    ，再决定是否成书。\n工具链（按序）：\n1. `tool_build_article_inventory` 扫描素材目录，建立素材清单（ArticleInventory）。\n\
+    2. `tool_read_article` / `tool_read_articles_batch` 分批通读，\n   形成通读笔记（List[ArticleReadingNote]）。\n\
+    3. `tool_screen_articles` 做保留/降权/排除三分类（ContentScreeningResult）。\n4. `tool_judge_content_shape`\
+    \ 判断最合适的内容形态（ContentShapeJudgment）。\n5. `tool_assess_book_viability` 按维度评估成书可行性（BookViabilityAssessment）。\n\
+    6. `tool_gen_planning_opinion` 汇总为书稿策划意见（PlanningOpinion）。\n7. `tool_write_planning_opinion_md`\
+    \ 渲染并落盘 `书稿策划意见.md`。\n8. 若策划意见判断\"可以直接推进\"或\"可以成书但需重写\"（结论类型为\n   `ready` / `needs_rewrite`），不要停在策划意见，继续用「一、论文→可溯源教科书」的\n\
+    \   章节工具把书籍正文真正写出来：\n   - 以保留（retain）的素材为源，用 `tool_read_paper` 读取全文、\n     `tool_paper_brief`\
+    \ 生成简报；\n   - 逐篇 `tool_ext_concepts` 抽取概念卡片；\n   - `tool_cluster_papers` 聚类，必要时\
+    \ `tool_fix_cluster` 修正；\n   - 每分部 `tool_gen_outline` 生成章级大纲，必要时 `tool_fix_outline`\
+    \ 修正；\n   - 逐章 `tool_gen_detail` 生成细纲，必要时 `tool_fix_detail` 修正；\n   - 逐章 `tool_gen_body`\
+    \ 生成正文，`tool_check_body` 校验，\n     未通过用 `tool_fix_body` 修订直到含 `[PERFECT/]`；\n\
+    \   - `tool_audit_citations` 审计引用、`tool_gen_glossary` 生成术语表；\n   - 最后 `tool_assemble_book`\
+    \ 合并全部章节导出 `教科书.md`，再调用 `tool_finish`。\n\n## 三、论文 → HTML 课程 + Markdown + PPTX（paper2course）\n\
+    适用于：单篇论文，目标是交互式 HTML 课程与组会汇报幻灯片。\n工具链（按序）：\n1. `tool_course_verify_paper` 校验论文主题（CoursePaperInfo）。\n\
+    2. `tool_course_plan_structure` 规划 6 个模块的目录结构（CoursePlan）。\n3. 逐模块调用 `tool_course_gen_module`\
+    \ 生成 HTML 内容（CourseModule）。\n4. `tool_course_gen_slides` 生成约 16 页幻灯片配置（SlidesConfig）。\n\
+    5. `tool_course_render_bundle` 渲染交付包\n   （index.html + README.md + slides-config.json\
+    \ + build.sh）。\n\n## 四、文章/研报/论文/白皮书 → 高保真讲义（report2lecture）\n适用于：单篇长文，目标是在不篡改原文事实前提下的高保真讲义（非摘要）。\n\
+    工具链（按序）：\n1. `tool_lecture_split_structure` 拆解文档结构（LectureDocStructure）。\n2. `tool_lecture_build_ledger`\
+    \ 建立信息点覆盖率账本（CoverageLedger）；\n   `tool_lecture_build_claim_map` 建立 Claim-Evidence\
+    \ 映射（ClaimEvidenceMap，可选）。\n3. `tool_lecture_gen_lecture` 按教学顺序生成讲义主体（Markdown\
+    \ 文本）。\n4. `tool_lecture_check_coverage` 检查长度比例与覆盖率（LectureCoverageReport）。\n\
+    5. 未通过护栏时，用 `tool_lecture_patch_lecture` 补全缺失点，再复查，直到通过。\n\n## 五、论文 → 教学包（teachfrompaper）\n\
+    适用于：单篇论文，目标是可直接上课的讲义、幻灯片骨架、讨论题与习题。\n工具链（按序）：\n1. `tool_teach_audience` 输出 Pre-Flight\
+    \ 报告（TeachingAudience）：\n   标题/论点/受众级别/课时/前置知识。\n2. `tool_teach_extract_results`\
+    \ 提取值得讲授的 3-5 个结果（TeachingResults）。\n3. `tool_teach_build_outline` 生成讲义主线与幻灯片骨架（TeachingOutline）。\n\
+    4. `tool_teach_discussion_questions` 生成分级讨论题（TeachingQuestions）；\n   `tool_teach_exercise_brief`\
+    \ 生成习题简介（TeachingExercises）。\n5. `tool_teach_render_package` 渲染教学包 Markdown（确定性落盘）。\n\
+    \n## 六、需求 → 教材（kougiforge）\n适用于：只有主题/受众/课时需求、尚无现成素材，需要从零写一本教材。\n工具链（按序）：\n1. `tool_kougi_parse_input`\
+    \ 解析教材需求（KougiRequirements）；信息不足先追问澄清。\n2. `tool_kougi_gen_blueprint` 生成多个蓝图方案并合并为优选方案（KougiBlueprints）。\n\
+    3. `tool_kougi_write_sample` 编写样章（KougiSampleChapter），确立全书风格基准。\n4. 逐章调用 `tool_kougi_write_chapter`\
+    \ 生成章节（KougiChapter）；\n   `tool_kougi_generate_exercises` 补练习题与参考答案；\n   `tool_kougi_quality_gate`\
+    \ 做质量门禁，未通过则改写。\n5. `tool_kougi_assemble_book` 组装全书（KougiBookAssembly）并做一致性检查；\n\
+    \   `tool_kougi_render_book` 落盘 `教材.md` / `glossary.md` / `exercises.md`。\n\n\
+    # 通用步骤\n\n1. 调用 `tool_list_workspace` 获取项目空间文件，确认已有进度（支持中断续跑）。\n2. 调用 `tool_judge_material_type`\
+    \ 判断输入素材的整体内容类型，获得推荐工作流；\n   该工具会自动列出文件、读取样本，输出 `content_type`、`workflow` 等结构化判断。\n\
+    3. 根据判断结果，从上面六大工作流中选择一个（或按判断建议执行）；\n   用 `tool_print` 说明选择理由（可引用判断结果中的 `reason`\
+    \ 字段）。\n4. 按所选工作流的工具链顺序执行，中间产物随时写入工作区。\n5. 每步结束后核对覆盖与质量：不通过就调用对应的修正/补全工具，直到通过。\n\
+    6. 全部完成后打印交付说明。\n\n你可以自由选择步骤，组合使用现有工具，现在开始吧。\n\n# 工作区文件约定\n\n请将中间产物保存到项目工作区，命名建议如下：\n\
+    \n- papers.yaml / papers_briefs.json：论文列表与简报。\n- brief.yaml / research.yaml /\
+    \ design.yaml：教学简报、研究计划、教程设计。\n- round_<i>.yaml：第 i 轮审查记录。\n- inventory.yaml：素材清单。\n\
+    - read_batch_<i>.yaml：第 i 批通读笔记。\n- screening.yaml / shape.yaml / viability.yaml：筛选结果、形态判断、可行性评估。\n\
+    - 书稿策划意见.md：策划意见交付物。\n- course_plan.yaml / course_mod_<i>.yaml / slides.yaml：课程规划、模块与幻灯片。\n\
+    - lecture_ledger.yaml / lecture.md：讲义账本与讲义主体。\n- teach_audience.yaml / teach_outline.yaml\
+    \ / teaching_package.md：教学包产物。\n- kougi_reqs.yaml / kougi_blueprint.yaml / 教材.md：需求、蓝图与教材成品。\n\
+    \n# 交付物\n\n最终输出为一份教学导向的教程、教科书或课程产物，要求：\n\n- 结构清晰：教科书为\"分部 → 章 → 知识点\"，课程为模块，讲义为主体章节。\n\
+    - 每条知识点与关键论述都可溯源到具体素材（通过 src / sources / 引用标注体现）。\n- 配有学习目标、概念解析、示例或类比、小结与练习等教学要素。\n\
+    \n# 停止条件\n\n完成所选工作流的全部步骤、通过覆盖与质量检查、并将产物保存到工作区后，\n打印最终交付说明并调用 `tool_finish` 工具结束整个流程。\n"
+- role: assistant
+  content: ''
+  tool_calls:
+  - index: 0
+    id: call_qdt0igefz0gpd5og538j20zk
+    function:
+      arguments: '{}'
+      name: tool_list_workspace
+    type: function
+- role: tool
+  tool_call_id: call_qdt0igefz0gpd5og538j20zk
+  content: "[\n  \"D:\\\\docs\\\\scys\\\\flygon-zhuanqian-zhoubao\\\\docs\\\\202301-02_any2textbook\\\
+    \\history.yaml\"\n]"
+- role: assistant
+  content: '让我先查看工作区的内容和历史记录，了解当前进度。
+
+
+    '
+  tool_calls:
+  - index: 0
+    id: call_ryfgxmta6u61xd88ya0v7mao
+    function:
+      arguments: '{"fname": "history.yaml"}'
+      name: tool_read_workspace_yaml
+    type: function
+- role: tool
+  tool_call_id: call_ryfgxmta6u61xd88ya0v7mao
+  content: "[\n  {\n    \"role\": \"user\",\n    \"content\": \"\\n你是一位资深学术编辑、教材设计专家和逻辑分析专家。你的任务是遵循下面的流程，\\\
+    n使用给定的工具，把给定的素材（论文、文章、研报、白皮书、笔记等）转化为一份\\n教学导向、可溯源的教程或教科书，最终以 Markdown（或 HTML/LaTeX/PDF）交付。\\\
+    n\\n# 角色与目标\\n- 角色：学术编辑 + 教材设计专家 + 逻辑分析专家。\\n- 目标：根据输入素材的类型与体量，选择合适的工作流，产出结构清晰、\\\
+    n  可溯源（每条知识点都能回溯到具体素材）的教学产物。\\n- 原则：先拆解再组织，先大纲再正文；每一步都用工具产出结构化中间产物，\\n  并通过覆盖率/质量门禁工具校验，不合格就修正，直到通过为止。\\\
+    n\\n# 可用工作流（根据输入素材选择其一，不要混用）\\n\\n## 一、论文 → 可溯源教科书（paper2textbook）\\n适用于：一篇或多篇同领域论文/素材，目标是成体系、可溯源到原文的教科书。\\\
+    n工具链（按序）：\\n1. `tool_list_papers` 列出论文文件；`tool_read_paper` 读取全文；\\n   `tool_paper_brief`\
+    \ 为每篇生成简报。\\n2. 逐篇调用 `tool_ext_concepts` 抽取概念卡片（PaperConcepts）。\\n3. `tool_cluster_papers`\
+    \ 按知识主题聚类论文（List[PartClus]）；\\n   若聚类遗漏或出现不存在的论文，用 `tool_fix_cluster` 修正，直到覆盖完整。\\\
+    n4. 对每个分部调用 `tool_gen_outline` 生成章级大纲（List[OutlineChapter]）；\\n   校验不通过时用 `tool_fix_outline`\
+    \ 修正。\\n5. 逐章调用 `tool_gen_detail` 生成章节细纲（ChapterDetail）；\\n   覆盖不足时用 `tool_fix_detail`\
+    \ 修正。\\n6. 逐章调用 `tool_gen_body` 生成正文；用 `tool_check_body` 校验格式与细纲一致性，\\n   未通过则用\
+    \ `tool_fix_body` 修订，直到反馈含 `[PERFECT/]`；\\n   章间用 `tool_check_consistency` 做跨章一致性检查。\\\
+    n7. 用 `tool_audit_citations` 审计引用，用 `tool_gen_glossary` 生成术语表。\\n8. 最后用 `tool_assemble_book`\
+    \ 合并全部章节导出 `教科书.md`，再调用 `tool_finish`。\\n\\n## 二、内容资产重组（article2book）\\n适用于：一批零散文章/笔记/转录，需先判断\\\
+    \"真正适合做成什么\\\"，再决定是否成书。\\n工具链（按序）：\\n1. `tool_build_article_inventory` 扫描素材目录，建立素材清单（ArticleInventory）。\\\
+    n2. `tool_read_article` / `tool_read_articles_batch` 分批通读，\\n   形成通读笔记（List[ArticleReadingNote]）。\\\
+    n3. `tool_screen_articles` 做保留/降权/排除三分类（ContentScreeningResult）。\\n4. `tool_judge_content_shape`\
+    \ 判断最合适的内容形态（ContentShapeJudgment）。\\n5. `tool_assess_book_viability` 按维度评估成书可行性（BookViabilityAssessment）。\\\
+    n6. `tool_gen_planning_opinion` 汇总为书稿策划意见（PlanningOpinion）。\\n7. `tool_write_planning_opinion_md`\
+    \ 渲染并落盘 `书稿策划意见.md`。\\n8. 若策划意见判断\\\"可以直接推进\\\"或\\\"可以成书但需重写\\\"（结论类型为\\n   `ready`\
+    \ / `needs_rewrite`），不要停在策划意见，继续用「一、论文→可溯源教科书」的\\n   章节工具把书籍正文真正写出来：\\n   - 以保留（retain）的素材为源，用\
+    \ `tool_read_paper` 读取全文、\\n     `tool_paper_brief` 生成简报；\\n   - 逐篇 `tool_ext_concepts`\
+    \ 抽取概念卡片；\\n   - `tool_cluster_papers` 聚类，必要时 `tool_fix_cluster` 修正；\\n   - 每分部\
+    \ `tool_gen_outline` 生成章级大纲，必要时 `tool_fix_outline` 修正；\\n   - 逐章 `tool_gen_detail`\
+    \ 生成细纲，必要时 `tool_fix_detail` 修正；\\n   - 逐章 `tool_gen_body` 生成正文，`tool_check_body`\
+    \ 校验，\\n     未通过用 `tool_fix_body` 修订直到含 `[PERFECT/]`；\\n   - `tool_audit_citations`\
+    \ 审计引用、`tool_gen_glossary` 生成术语表；\\n   - 最后 `tool_assemble_book` 合并全部章节导出 `教科书.md`，再调用\
+    \ `tool_finish`。\\n\\n## 三、论文 → HTML 课程 + Markdown + PPTX（paper2course）\\n适用于：单篇论文，目标是交互式\
+    \ HTML 课程与组会汇报幻灯片。\\n工具链（按序）：\\n1. `tool_course_verify_paper` 校验论文主题（CoursePaperInfo）。\\\
+    n2. `tool_course_plan_structure` 规划 6 个模块的目录结构（CoursePlan）。\\n3. 逐模块调用 `tool_course_gen_module`\
+    \ 生成 HTML 内容（CourseModule）。\\n4. `tool_course_gen_slides` 生成约 16 页幻灯片配置（SlidesConfig）。\\\
+    n5. `tool_course_render_bundle` 渲染交付包\\n   （index.html + README.md + slides-config.json\
+    \ + build.sh）。\\n\\n## 四、文章/研报/论文/白皮书 → 高保真讲义（report2lecture）\\n适用于：单篇长文，目标是在不篡改原文事实前提下的高保真讲义（非摘要）。\\\
+    n工具链（按序）：\\n1. `tool_lecture_split_structure` 拆解文档结构（LectureDocStructure）。\\n2.\
+    \ `tool_lecture_build_ledger` 建立信息点覆盖率账本（CoverageLedger）；\\n   `tool_lecture_build_claim_map`\
+    \ 建立 Claim-Evidence 映射（ClaimEvidenceMap，可选）。\\n3. `tool_lecture_gen_lecture` 按教学顺序生成讲义主体（Markdown\
+    \ 文本）。\\n4. `tool_lecture_check_coverage` 检查长度比例与覆盖率（LectureCoverageReport）。\\\
+    n5. 未通过护栏时，用 `tool_lecture_patch_lecture` 补全缺失点，再复查，直到通过。\\n\\n## 五、论文 → 教学包（teachfrompaper）\\\
+    n适用于：单篇论文，目标是可直接上课的讲义、幻灯片骨架、讨论题与习题。\\n工具链（按序）：\\n1. `tool_teach_audience` 输出 Pre-Flight\
+    \ 报告（TeachingAudience）：\\n   标题/论点/受众级别/课时/前置知识。\\n2. `tool_teach_extract_results`\
+    \ 提取值得讲授的 3-5 个结果（TeachingResults）。\\n3. `tool_teach_build_outline` 生成讲义主线与幻灯片骨架（TeachingOutline）。\\\
+    n4. `tool_teach_discussion_questions` 生成分级讨论题（TeachingQuestions）；\\n   `tool_teach_exercise_brief`\
+    \ 生成习题简介（TeachingExercises）。\\n5. `tool_teach_render_package` 渲染教学包 Markdown（确定性落盘）。\\\
+    n\\n## 六、需求 → 教材（kougiforge）\\n适用于：只有主题/受众/课时需求、尚无现成素材，需要从零写一本教材。\\n工具链（按序）：\\\
+    n1. `tool_kougi_parse_input` 解析教材需求（KougiRequirements）；信息不足先追问澄清。\\n2. `tool_kougi_gen_blueprint`\
+    \ 生成多个蓝图方案并合并为优选方案（KougiBlueprints）。\\n3. `tool_kougi_write_sample` 编写样章（KougiSampleChapter），确立全书风格基准。\\\
+    n4. 逐章调用 `tool_kougi_write_chapter` 生成章节（KougiChapter）；\\n   `tool_kougi_generate_exercises`\
+    \ 补练习题与参考答案；\\n   `tool_kougi_quality_gate` 做质量门禁，未通过则改写。\\n5. `tool_kougi_assemble_book`\
+    \ 组装全书（KougiBookAssembly）并做一致性检查；\\n   `tool_kougi_render_book` 落盘 `教材.md` / `glossary.md`\
+    \ / `exercises.md`。\\n\\n# 通用步骤\\n\\n1. 调用 `tool_list_workspace` 获取项目空间文件，确认已有进度（支持中断续跑）。\\\
+    n2. 调用 `tool_judge_material_type` 判断输入素材的整体内容类型，获得推荐工作流；\\n   该工具会自动列出文件、读取样本，输出\
+    \ `content_type`、`workflow` 等结构化判断。\\n3. 根据判断结果，从上面六大工作流中选择一个（或按判断建议执行）；\\n  \
+    \ 用 `tool_print` 说明选择理由（可引用判断结果中的 `reason` 字段）。\\n4. 按所选工作流的工具链顺序执行，中间产物随时写入工作区。\\\
+    n5. 每步结束后核对覆盖与质量：不通过就调用对应的修正/补全工具，直到通过。\\n6. 全部完成后打印交付说明。\\n\\n你可以自由选择步骤，组合使用现有工具，现在开始吧。\\\
+    n\\n# 工作区文件约定\\n\\n请将中间产物保存到项目工作区，命名建议如下：\\n\\n- papers.yaml / papers_briefs.json：论文列表与简报。\\\
+    n- brief.yaml / research.yaml / design.yaml：教学简报、研究计划、教程设计。\\n- round_<i>.yaml：第\
+    \ i 轮审查记录。\\n- inventory.yaml：素材清单。\\n- read_batch_<i>.yaml：第 i 批通读笔记。\\n- screening.yaml\
+    \ / shape.yaml / viability.yaml：筛选结果、形态判断、可行性评估。\\n- 书稿策划意见.md：策划意见交付物。\\n- course_plan.yaml\
+    \ / course_mod_<i>.yaml / slides.yaml：课程规划、模块与幻灯片。\\n- lecture_ledger.yaml / lecture.md：讲义账本与讲义主体。\\\
+    n- teach_audience.yaml / teach_outline.yaml / teaching_package.md：教学包产物。\\n- kougi_reqs.yaml\
+    \ / kougi_blueprint.yaml / 教材.md：需求、蓝图与教材成品。\\n\\n# 交付物\\n\\n最终输出为一份教学导向的教程、教科书或课程产物，要求：\\\
+    n\\n- 结构清晰：教科书为\\\"分部 → 章 → 知识点\\\"，课程为模块，讲义为主体章节。\\n- 每条知识点与关键论述都可溯源到具体素材（通过\
+    \ src / sources / 引用标注体现）。\\n- 配有学习目标、概念解析、示例或类比、小结与练习等教学要素。\\n\\n# 停止条件\\n\\\
+    n完成所选工作流的全部步骤、通过覆盖与质量检查、并将产物保存到工作区后，\\n打印最终交付说明并调用 `tool_finish` 工具结束整个流程。\\n\"\
+    \n  },\n  {\n    \"role\": \"assistant\",\n    \"content\": \"\",\n    \"tool_calls\"\
+    : [\n      {\n        \"index\": 0,\n        \"id\": \"call_qdt0igefz0gpd5og538j20zk\"\
+    ,\n        \"function\": {\n          \"arguments\": \"{}\",\n          \"name\"\
+    : \"tool_list_workspace\"\n        },\n        \"type\": \"function\"\n      }\n\
+    \    ]\n  },\n  {\n    \"role\": \"tool\",\n    \"tool_call_id\": \"call_qdt0igefz0gpd5og538j20zk\"\
+    ,\n    \"content\": \"[\\n  \\\"D:\\\\\\\\docs\\\\\\\\scys\\\\\\\\flygon-zhuanqian-zhoubao\\\
+    \\\\\\docs\\\\\\\\202301-02_any2textbook\\\\\\\\history.yaml\\\"\\n]\"\n  }\n]"
+- role: assistant
+  content: '工作区里只有 history.yaml（历史记录），没有实际的素材文件。我需要先调用 `tool_judge_material_type`
+    来判断素材类型和推荐工作流。让我先看看能否找到素材。
+
+
+    让我调用素材类型判断工具，它会自动列出文件并读取样本。
+
+
+    '
+  tool_calls:
+  - index: 0
+    id: call_sy275embi4dx4sl53rflb0fg
+    function:
+      arguments: '{}'
+      name: tool_judge_material_type
+    type: function
+  - index: 1
+    id: call_8al953iolcenh7mzh7qiiu0i
+    function:
+      arguments: '{}'
+      name: tool_list_papers
+    type: function
+- role: tool
+  tool_call_id: call_sy275embi4dx4sl53rflb0fg
+  content: "{\n  \"content_type\": \"articles_notes\",\n  \"confidence\": 0.95,\n\
+    \  \"reason\": \"文件名以日期（20230207）和随机哈希命名，内容样本显示为“龙哥赚钱周报”，来自付费社群资源帖整理，包含生财认知、案例分享等口语化、经验性内容，属于零散文章的汇编而非学术论文或单一长文\"\
+    ,\n  \"workflow\": \"article2book\",\n  \"workflow_desc\": \"内容资产重组 / article2book：将一批零散文章/笔记/转录/访谈稿重组为结构化内容\"\
+    ,\n  \"material_count\": 43,\n  \"total_word_count\": 120000,\n  \"key_characteristics\"\
+    : [\n    \"多篇零散文章汇编，文件名含日期（20230207）和随机哈希\",\n    \"内容为赚钱周报，来自付费社群帖子整理，口语化、经验分享型\"\
+    ,\n    \"含案例、心法、方法论等非学术性内容，主题聚焦副业/赚钱但非严格学术\",\n    \"有 README.md 和 SUMMARY.md\
+    \ 暗示需要整理索引\"\n  ],\n  \"suggested_preprocess\": [\n    \"通读 SUMMARY.md 和 README.md\
+    \ 以了解整体结构和分类，解析目录层级\",\n    \"按主题/栏目（如生财认知、案例分析）对 43 个 md 文件进行聚类归类，过滤低价值重复内容\"\
+    ,\n    \"清除广告链接、飞书/微信群等渠道引用信息，保留下可独立成章的干货内容\",\n    \"对精华帖（标注‘精华’）优先提取，作为章节核心素材\"\
+    \n  ]\n}"
+- role: tool
+  tool_call_id: call_8al953iolcenh7mzh7qiiu0i
+  content: "[\n  \"docs/202301-02/20230207_00.md\",\n  \"docs/202301-02/20230207_01.md\"\
+    ,\n  \"docs/202301-02/20230207_02.md\",\n  \"docs/202301-02/20230207_03.md\",\n\
+    \  \"docs/202301-02/20230207_04.md\",\n  \"docs/202301-02/20230207_05.md\",\n\
+    \  \"docs/202301-02/20230207_06.md\",\n  \"docs/202301-02/20230207_07.md\",\n\
+    \  \"docs/202301-02/20230207_08.md\",\n  \"docs/202301-02/20230207_09.md\",\n\
+    \  \"docs/202301-02/20230207_10.md\",\n  \"docs/202301-02/20230207_11.md\",\n\
+    \  \"docs/202301-02/AmKRdF2Z9oQjDExxxuAc18a5nbb.md\",\n  \"docs/202301-02/C0dydiFPCoBI3LxemwWcXpdxn2e.md\"\
+    ,\n  \"docs/202301-02/CGZ4dZq4ZoSFT4xUmFecNpk4nNe.md\",\n  \"docs/202301-02/CZPydiVmgo2odMx0nWecf3DTn6e.md\"\
+    ,\n  \"docs/202301-02/DNGrdODFBowfk2xwkNCc5GGSnRd.md\",\n  \"docs/202301-02/E1WGd70YLoaHGfxAYJTc4WoFnsd.md\"\
+    ,\n  \"docs/202301-02/ELHqdhiI5oSQAxxItLJctNAhnah.md\",\n  \"docs/202301-02/FCiidWBeJoLOT1xreYnc9Se4nOf.md\"\
+    ,\n  \"docs/202301-02/HfJEd0huioyShvxowVfcOMQYnHb.md\",\n  \"docs/202301-02/HiVkdfBYJo2H5xxWIemcMcMQnLc.md\"\
+    ,\n  \"docs/202301-02/I9OAdzzs2oBliNxsmPjcHnBUnzf.md\",\n  \"docs/202301-02/IpCcdJ9NAoAt4pxKKV5c5sfenZc.md\"\
+    ,\n  \"docs/202301-02/JPRAdLgGFowUE7xargGc8YNjnzh.md\",\n  \"docs/202301-02/JmBgdr705ovHoyxQknRctRaMnKh.md\"\
+    ,\n  \"docs/202301-02/KomqdeUMloO1CkxrgADcqGvDnIe.md\",\n  \"docs/202301-02/Lg2vd5GWHoqhBbxuT5LcThEpncb.md\"\
+    ,\n  \"docs/202301-02/MUfLdmUlTosj0NxPhlfcjRPHnff.md\",\n  \"docs/202301-02/MXPcd58gSoEsTlxFhUVcJ5X7npc.md\"\
+    ,\n  \"docs/202301-02/NxhWdJj3UoPKvmxaBqkcz8wlntf.md\",\n  \"docs/202301-02/P2XLdJF2yoivV8xUDszcz853nZg.md\"\
+    ,\n  \"docs/202301-02/PglAdRMiIoVTRyxc4Q3cw8hvnWf.md\",\n  \"docs/202301-02/QbBKdHvfiofIUNxDlmjceWbfnqh.md\"\
+    ,\n  \"docs/202301-02/README.md\",\n  \"docs/202301-02/SUMMARY.md\",\n  \"docs/202301-02/SvdFdfi3VoAiaRxENHNcncEqnif.md\"\
+    ,\n  \"docs/202301-02/T1Jad4VhIoPc2hxKJxwcUFPOnTc.md\",\n  \"docs/202301-02/VAA8dQLTZolMlJx1jxrcKaPrnzd.md\"\
+    ,\n  \"docs/202301-02/VsjCdIDNJoNRvlxo4OWcJ7bDnO5.md\",\n  \"docs/202301-02/XuOgdT9o8ongKPxfSMlcfgLbngf.md\"\
+    ,\n  \"docs/202301-02/ZcEdd0xTCo1K5IxwCyLccKUynOb.md\",\n  \"docs/202301-02/Zjr6dgbHIoxcp0x21SVcrwlqn8d.md\"\
+    \n]"
+- role: assistant
+  content: '判断结果明显：素材类型为 `articles_notes`（零散文章/笔记汇编），推荐工作流为 **article2book（内容资产重组）**。共有
+    43 个 md 文件，总字数约 12 万，属于付费社群"赚钱周报"整理。
+
+
+    让我先阅读 README.md 和 SUMMARY.md 来了解整体结构和分类。
+
+
+    '
+  tool_calls:
+  - index: 0
+    id: call_lps85rok3hyuspjqe4r6c9f9
+    function:
+      arguments: '{"text": "【工作流选择】根据 tool_judge_material_type 判断结果：\n- content_type:
+        articles_notes（零散文章/笔记汇编，非学术论文、非单一长文）\n- workflow: article2book（内容资产重组）\n-
+        reason: 文件名以日期+哈希命名，内容为\"赚我周报\"付费社群帖子整理，口语化经验分享型，含案例/心法/方法论，需先判断\"真正适合做成什么\"再决定是否成书\n\n我将采用「二、内容资产重组（article2book）」工作流。先从素材清单与通读开始。"}'
+      name: tool_print
+    type: function
+  - index: 1
+    id: call_39up4ohzzbmzd5c8tnngva3p
+    function:
+      arguments: '{"fname": "docs/202301-02/README.md"}'
+      name: tool_read_article
+    type: function
+  - index: 2
+    id: call_0t4ugu7ops543v9bsesqxg59
+    function:
+      arguments: '{"fname": "docs/202301-02/SUMMARY.md"}'
+      name: tool_read_article
+    type: function
+- role: tool
+  tool_call_id: call_lps85rok3hyuspjqe4r6c9f9
+  content: 'true'
+- role: tool
+  tool_call_id: call_39up4ohzzbmzd5c8tnngva3p
+  content: '"# 龙哥赚钱周报 202301-02"'
+- role: tool
+  tool_call_id: call_0t4ugu7ops543v9bsesqxg59
+  content: '"+   [龙哥赚钱周报 202301-02](README.md)\n+   [龙哥赚钱周报 20221113-20230207](20230207_00.md)\n+   [230207
+    龙哥赚钱周报](20230207_01.md)\n+   [230202 龙哥赚钱周报](20230207_02.md)\n+   [230117 龙哥赚钱周报](20230207_03.md)\n+   [230110
+    龙哥赚钱周报](20230207_04.md)\n+   [230104 龙哥赚钱周报](20230207_05.md)\n+   [221220 龙哥赚钱周报](20230207_06.md)\n+   [221213
+    龙哥赚钱周报](20230207_07.md)\n+   [221206 龙哥赚钱周报](20230207_08.md)\n+   [221129 龙哥赚钱周报](20230207_09.md)\n+   [221122
+    龙哥赚钱周报](20230207_10.md)\n+   [221115 龙哥赚钱周报](20230207_11.md)\n+   [公众号追热点复盘：通过行程码一天涨粉4万+，直接变现6K+](AmKRdF2Z9oQjDExxxuAc18a5nbb.md)\n+   [初创公司如何科学量化股权分配？股权分配五步法教你不再踩坑！！！](C0dydiFPCoBI3LxemwWcXpdxn2e.md)\n+   [有了这两个AI机器人,还怕做不好带货短视频?](CGZ4dZq4ZoSFT4xUmFecNpk4nNe.md)\n+   [「抖音SEO」2天线下大课圆满结束](CZPydiVmgo2odMx0nWecf3DTn6e.md)\n+   [卖空气，需求分析与做局盈利！](DNGrdODFBowfk2xwkNCc5GGSnRd.md)\n+   [线上美业，不到2万成本到变现过百万](E1WGd70YLoaHGfxAYJTc4WoFnsd.md)\n+   [【已发部分】普通人可复制的云监工玩法，挑战3天读50篇生财小报童项目精选+写5000多字心得](ELHqdhiI5oSQAxxItLJctNAhnah.md)\n+   [单直播间日进800美金-小时均100美金，价值8800可矩阵的tiktok娱乐直播项目](FCiidWBeJoLOT1xreYnc9Se4nOf.md)\n+   [心理卡点：不敢打广告，打完广告不出单好自闭，怎么办？](HfJEd0huioyShvxowVfcOMQYnHb.md)\n+   [IP如何做到风骨体面且年入千万](HiVkdfBYJo2H5xxWIemcMcMQnLc.md)\n+   [万字复盘:普通职场人，下班时间靠拆解，7年拆了500个项目，复制成功30+，副业收入破百万](I9OAdzzs2oBliNxsmPjcHnBUnzf.md)\n+   [小红书资料号一周：涨粉6000+
+    变现3w+ 实操复盘](IpCcdJ9NAoAt4pxKKV5c5sfenZc.md)\n+   [如何解决原创视频内容的批量生产？聊聊我的短视频带货矩阵的自动化之路](JmBgdr705ovHoyxQknRctRaMnKh.md)\n+   [如何写出既能吸金、又能深入人心的心金文案](JPRAdLgGFowUE7xargGc8YNjnzh.md)\n+   [【AI绘画】N卡、A卡都不用！最强在线AI绘画教程](KomqdeUMloO1CkxrgADcqGvDnIe.md)\n+   [实操复盘：10天时间，视频号从0到变现6000+，到场观过万，我做了什么？](Lg2vd5GWHoqhBbxuT5LcThEpncb.md)\n+   [【保姆级教程】从零到一打造一个高质量交付训练营](MUfLdmUlTosj0NxPhlfcjRPHnff.md)\n+   [我对从0到1搭建短视频团队的一些理解](MXPcd58gSoEsTlxFhUVcJ5X7npc.md)\n+   [一个千万项目的底层逻辑](NxhWdJj3UoPKvmxaBqkcz8wlntf.md)\n+   [ifttt实现推特用户更新内容后自动推送到邮箱或企业微信或钉钉](P2XLdJF2yoivV8xUDszcz853nZg.md)\n+   [创业三年，两年获得天使投资，月入15w+，看我们怎么玩转“0”中介费房屋分享平台！](PglAdRMiIoVTRyxc4Q3cw8hvnWf.md)\n+   [抖音自动化公转私玩法及防封攻略](QbBKdHvfiofIUNxDlmjceWbfnqh.md)\n+   [盲盒引流常见问题解答](SvdFdfi3VoAiaRxENHNcncEqnif.md)\n+   [传统金融转型Web3，聊聊我的经历](T1Jad4VhIoPc2hxKJxwcUFPOnTc.md)\n+   [增长女黑客阿may：无资源无资本，如何结合私域裂变和个人品牌，搞定冷启动流量难题](VAA8dQLTZolMlJx1jxrcKaPrnzd.md)\n+   [围观船员视频号带货如何7天10万粉变现5w+](VsjCdIDNJoNRvlxo4OWcJ7bDnO5.md)\n+   [如何通过抖音卖几百万非遗拓片](XuOgdT9o8ongKPxfSMlcfgLbngf.md)\n+   [小说推文进阶玩法，精细化运营所带来的稳定出单](ZcEdd0xTCo1K5IxwCyLccKUynOb.md)\n+   [追逐风口，AI绘画目前收益5W+](Zjr6dgbHIoxcp0x21SVcrwlqn8d.md)"'
+- role: assistant
+  content: '很好，我理解了项目结构。这是"龙哥赚钱周报"付费社群的内容汇编，包含：
+
+    - 12 篇周报（按日期）
+
+    - 30 篇项目/案例分解文章（涵盖自媒体、电商、短视频、AI、私域、投资等主题）
+
+
+    工作流选择已确定：**article2book（内容资产重组）**。让我按工作流推进。
+
+
+    首先建立素材清单（inventory），然后分批通读。
+
+
+    '
+  tool_calls:
+  - index: 0
+    id: call_zda6xke2hzj6s5owgjkos7tf
+    function:
+      arguments: '{"source": "docs/202301-02"}'
+      name: tool_build_article_inventory
+    type: function
+- role: tool
+  tool_call_id: call_zda6xke2hzj6s5owgjkos7tf
+  content: "Traceback (most recent call last):\n  File \"D:\\Python310\\lib\\site-packages\\\
+    BookerGptTool\\openai.py\", line 129, in dispatch_tools\n    return tool_dict[name](**args),\
+    \ \"\"\n  File \"D:\\Python310\\lib\\site-packages\\BookerGptTool\\any2textbook_tools.py\"\
+    , line 539, in tool_build_article_inventory\n    files = self._list_papers(path.join(self.args.dir,\
+    \ source))\n  File \"D:\\Python310\\lib\\site-packages\\BookerGptTool\\any2textbook_tools.py\"\
+    , line 72, in _list_papers\n    raise ValueError(f'请提供 MD/TEX/TXT/PDF 文件或所在目录')\n\
+    ValueError: 请提供 MD/TEX/TXT/PDF 文件或所在目录\n"
+- role: assistant
+  content: '工具报错，可能是路径问题。让我尝试用正确的相对路径或调整 source 参数。
+
+
+    '
+  tool_calls:
+  - index: 0
+    id: call_n1aeavtjtxeix40vg6s8fhmt
+    function:
+      arguments: '{"source": "docs/202301-02"}'
+      name: tool_build_article_inventory
+    type: function
+- role: tool
+  tool_call_id: call_n1aeavtjtxeix40vg6s8fhmt
+  content: "Traceback (most recent call last):\n  File \"D:\\Python310\\lib\\site-packages\\\
+    BookerGptTool\\openai.py\", line 129, in dispatch_tools\n    return tool_dict[name](**args),\
+    \ \"\"\n  File \"D:\\Python310\\lib\\site-packages\\BookerGptTool\\any2textbook_tools.py\"\
+    , line 539, in tool_build_article_inventory\n    files = self._list_papers(path.join(self.args.dir,\
+    \ source))\n  File \"D:\\Python310\\lib\\site-packages\\BookerGptTool\\any2textbook_tools.py\"\
+    , line 72, in _list_papers\n    raise ValueError(f'请提供 MD/TEX/TXT/PDF 文件或所在目录')\n\
+    ValueError: 请提供 MD/TEX/TXT/PDF 文件或所在目录\n"
+- role: assistant
+  content: '这个工具不支持中文路径或目录扫描问题。既然 `tool_list_papers` 已经能列出文件，`tool_read_article` 能读取文件，我可以直接进行分批通读来形成通读笔记，跳过
+    inventory 工具的硬性依赖。
+
+
+    让我先分批通读素材。一共有 43 个文件，我按内容类型分批。让我先读取几篇周报和几篇案例文章，建立通读笔记。
+
+
+    让我先分批读取素材。第一批先读周报类（12篇）。
+
+
+    '
+  tool_calls:
+  - index: 0
+    id: call_z6g0tf9j07lrmtuqr8xhizbp
+    function:
+      arguments: '{"batch_no": 1, "file_paths": ["docs/202301-02/20230207_00.md",
+        "docs/202301-02/20230207_01.md", "docs/202301-02/20230207_02.md", "docs/202301-02/20230207_03.md",
+        "docs/202301-02/20230207_04.md", "docs/202301-02/20230207_05.md"]}'
+      name: tool_read_articles_batch
+    type: function
+- role: tool
+  tool_call_id: call_z6g0tf9j07lrmtuqr8xhizbp
+  content: "[\n  {\n    \"file_path\": \"docs/202301-02/20230207_00.md\",\n    \"\
+    title\": \"龙哥赚钱周报 20221113-20230207\",\n    \"summary\": \"这是一份周报的目录或汇总页面，仅包含标题和来源链接，没有实际内容。\"\
+    ,\n    \"core_question\": \"无，此文件为周报索引页，未承载具体内容。\",\n    \"key_judgment\": \"\
+    无实际观点。\",\n    \"depth\": \"low\",\n    \"suggested_destination\": \"exclude\"\
+    ,\n    \"possible_shape\": \"kb\",\n    \"risks\": [\n      \"格式预处理\",\n     \
+    \ \"重复\"\n    ],\n    \"screening_conclusion\": \"exclude\",\n    \"reason\":\
+    \ \"文件仅为标题和链接的集合，无实质性内容，无法作为独立素材使用。其为周报系列的一部分，信息已在后续文件中体现，故排除。\"\n  },\n  {\n\
+    \    \"file_path\": \"docs/202301-02/20230207_01.md\",\n    \"title\": \"230207\
+    \ 龙哥赚钱周报\",\n    \"summary\": \"2023年2月7日发布的周报，内容涵盖两篇精华帖：一篇关于“盲目自信”的创业心法，强调打赢“内在比赛”的重要性；另一篇分析未来3个月普通人的机会窗口，聚焦旅游、健康、餐饮三个行业。\"\
+    ,\n    \"core_question\": \"创业者应如何调整心态？疫情后3-6个月普通人有哪些可把握的机会？\",\n    \"key_judgment\"\
+    : \"盲目自信是创业者的理性选择，成功源于不断复制成功体验；2023年春季是确定的疫情平稳期，旅游、健康、餐饮行业将迎来爆发。\",\n    \"depth\"\
+    : \"medium\",\n    \"suggested_destination\": \"chapter\",\n    \"possible_shape\"\
+    : \"booklet\",\n    \"risks\": [\n      \"口语化\",\n      \"时效性\"\n    ],\n    \"\
+    screening_conclusion\": \"retain\",\n    \"reason\": \"包含两篇完整且有启发性的分享，一篇是心态建设，一篇是机会分析，均可作为素材使用。\"\
+    \n  },\n  {\n    \"file_path\": \"docs/202301-02/20230207_02.md\",\n    \"title\"\
+    : \"230202 龙哥赚钱周报\",\n    \"summary\": \"2023年2月2日发布的周报，核心内容为一篇关于跨境电商选品的精华帖，详细阐述了“四步打造一个百万爆款”的方法论，包括找蓝海、走捷径、加光环、微创新。\"\
+    ,\n    \"core_question\": \"跨境电商新手如何通过系统化的选品方法论，找到蓝海产品并成功打造爆款？\",\n    \"key_judgment\"\
+    : \"选品是运营的核心，好的选品需同时解决流量和转化问题。新手应遵循“合规平替”、“材质套利”等捷径，并通过“空壳品牌”和微创新获得差异化和溢价。\",\n\
+    \    \"depth\": \"high\",\n    \"suggested_destination\": \"chapter\",\n    \"\
+    possible_shape\": \"book\",\n    \"risks\": [\n      \"口语化\",\n      \"时效性\",\n\
+    \      \"重复\"\n    ],\n    \"screening_conclusion\": \"retain\",\n    \"reason\"\
+    : \"提供了极具操作性和系统性的选品方法论，内容详实，案例丰富，是难得的深度干货。\"\n  },\n  {\n    \"file_path\": \"\
+    docs/202301-02/20230207_03.md\",\n    \"title\": \"230117 龙哥赚钱周报\",\n    \"summary\"\
+    : \"2023年1月17日发布的周报，内容涉及商业认知、项目复盘和方法论。包含“一个千万项目的底层逻辑”、“视频号直播结合私域的ROI计算”、“如何寻找赚钱项目”等篇目。\"\
+    ,\n    \"core_question\": \"如何从认知和实操层面，找到并运作一个能赚钱的项目？\",\n    \"key_judgment\"\
+    : \"多数项目没有绝对壁垒，关键是选择有结果的项目并模仿同行；视频号直播结合私域能显著提升ROI；创业应基于自身优势，发挥长板。\",\n    \"depth\"\
+    : \"medium\",\n    \"suggested_destination\": \"chapter\",\n    \"possible_shape\"\
+    : \"booklet\",\n    \"risks\": [\n      \"口语化\",\n      \"格式预处理\"\n    ],\n  \
+    \  \"screening_conclusion\": \"retain\",\n    \"reason\": \"包含多个维度的认知和方法论分享，如私域ROI计算模型、项目判断标准等，对读者有实际指导意义。\"\
+    \n  },\n  {\n    \"file_path\": \"docs/202301-02/20230207_04.md\",\n    \"title\"\
+    : \"230110 龙哥赚钱周报\",\n    \"summary\": \"2023年1月10日发布的周报，内容聚焦于策略师能力、Web3新人建议、商业模式画布、闲鱼选品、财务合规等技能和认知分享。\"\
+    ,\n    \"core_question\": \"普通人如何提升个人能力（策略、分析、选品）以适应商业环境？\",\n    \"key_judgment\"\
+    : \"策略师需具备调研、逻辑、决断等五大能力；Web3入局需谨慎试错；商业模式画布是分析项目的高效工具。\",\n    \"depth\": \"medium\"\
+    ,\n    \"suggested_destination\": \"chapter\",\n    \"possible_shape\": \"booklet\"\
+    ,\n    \"risks\": [\n      \"口语化\",\n      \"时效性\",\n      \"重复\"\n    ],\n  \
+    \  \"screening_conclusion\": \"retain\",\n    \"reason\": \"提供了一套可复用的分析工具（商业模式画布）和针对特定领域（Web3、闲鱼）的实操建议。\"\
+    \n  },\n  {\n    \"file_path\": \"docs/202301-02/20230207_05.md\",\n    \"title\"\
+    : \"230104 龙哥赚钱周报\",\n    \"summary\": \"2023年1月4日发布的周报，内容包含小马宋的10句年度感悟、50条浓缩的赚钱认知思维，以及关于内容创作（做内容要做渣男）等分享。\"\
+    ,\n    \"core_question\": \"如何通过更新认知思维和改变内容创作策略，在商业和自媒体领域获得成功？\",\n    \"key_judgment\"\
+    : \"进化论是最可靠的成功学，避免无效的自我感动；做内容应像“渣男”一样，追求效果而非自嗨，要戳中用户痛点并广撒网。\",\n    \"depth\"\
+    : \"medium\",\n    \"suggested_destination\": \"chapter\",\n    \"possible_shape\"\
+    : \"booklet\",\n    \"risks\": [\n      \"口语化\",\n      \"重复\"\n    ],\n    \"\
+    screening_conclusion\": \"retain\",\n    \"reason\": \"提供了大量高密度的认知思维总结，以及反直觉但有效的内容创作方法论，具有启发性和参考价值。\"\
+    \n  }\n]"
+- role: assistant
+  content: '第一批通读完成。继续第二批读取剩余周报和多篇案例文章。
+
+
+    '
+  tool_calls:
+  - index: 0
+    id: call_w57yyz7hiefueaqk05nvfjuk
+    function:
+      arguments: '{"batch_no": 2, "file_paths": ["docs/202301-02/20230207_06.md",
+        "docs/202301-02/20230207_07.md", "docs/202301-02/20230207_08.md", "docs/202301-02/20230207_09.md",
+        "docs/202301-02/20230207_10.md", "docs/202301-02/20230207_11.md"]}'
+      name: tool_read_articles_batch
+    type: function
+- role: tool
+  tool_call_id: call_w57yyz7hiefueaqk05nvfjuk
+  content: "[\n  {\n    \"file_path\": \"docs/202301-02/20230207_06.md\",\n    \"\
+    title\": \"221220 龙哥赚钱周报\",\n    \"summary\": \"一份整理自付费社群（生财有术）的赚钱周报，汇编了关于流量认知、个人财富积累、创业心态、抖音/微信/小红书等多平台实操项目复盘、以及AI绘画与ChatGPT等新兴热点案例的帖子。\"\
+    ,\n    \"core_question\": \"在当前环境下，如何从认知和实操层面发现并做好赚钱项目，以及如何应对流量、财税合规和创业风险？\",\n\
+    \    \"key_judgment\": \"财富积累分为出卖劳动力、一份时间多次卖、购买他人时间、钱生钱四个阶段；流量经营的核心在于将流量价值最大化，而非单纯追逐规模；非刚需的项目不应做，要聚焦于轻资产和能提供直接价值的领域。\"\
+    ,\n    \"depth\": \"medium\",\n    \"suggested_destination\": \"kb_entry\",\n\
+    \    \"possible_shape\": \"kb\",\n    \"risks\": [\n      \"格式预处理\",\n      \"\
+    重复\"\n    ],\n    \"screening_conclusion\": \"retain\",\n    \"reason\": \"作为一篇汇编周报，覆盖了多个项目与认知，具有参考价值，但其内容为二次汇编，原创价值有限，适合作为知识库条目而非独立章节。\"\
+    \n  },\n  {\n    \"file_path\": \"docs/202301-02/20230207_07.md\",\n    \"title\"\
+    : \"221213 龙哥赚钱周报\",\n    \"summary\": \"一份汇编了付费社群精华帖的周报，核心内容是关于如何面对增长瓶颈、理解战略、以及如何规避投资和创业中的常见亏损陷阱。\"\
+    ,\n    \"core_question\": \"当企业和个人陷入增长瓶颈时，应该如何调整心态和视角？以及如何识别并避免常见的创业和投资误区？\",\n\
+    \    \"key_judgment\": \"应对增长焦虑的唯一方法是切换视角，从追求增长转向价值创造，并保持面向未来、面向用户、积累价值的勇气；判断战略应看其能否获得相对优势，而非仅仅是一个目标。\"\
+    ,\n    \"depth\": \"high\",\n    \"suggested_destination\": \"handbook_entry\"\
+    ,\n    \"possible_shape\": \"booklet\",\n    \"risks\": [\n      \"重复\",\n   \
+    \   \"口语化\"\n    ],\n    \"screening_conclusion\": \"retain\",\n    \"reason\"\
+    : \"关于增长与战略的论述具有启发性和普适性，是构建创业认知框架的核心素材，但其观点在其他内容中常见，重复风险较高。\"\n  },\n  {\n   \
+    \ \"file_path\": \"docs/202301-02/20230207_08.md\",\n    \"title\": \"221206 龙哥赚钱周报\"\
+    ,\n    \"summary\": \"一份汇编周报，涵盖从劳动法合规、高净值客户销售、IP打造、到抖音/视频号/小红书/Temu等不同平台的项目实操复盘，以及AI绘画、Web3等新兴领域的探索案例。\"\
+    ,\n    \"core_question\": \"对于不同背景和阶段的创业者及从业者，有哪些具体可操作的增收项目、合规避坑指南和高效的商业方法论？\"\
+    ,\n    \"key_judgment\": \"项目选择的核心是结合自身资源并寻找平台红利期；大客户销售的关键在于将其表面需求升华为深层痛点，并建立情感链接；任何项目成功的基础是执行力与对底层商业逻辑的理解。\"\
+    ,\n    \"depth\": \"high\",\n    \"suggested_destination\": \"kb_entry\",\n  \
+    \  \"possible_shape\": \"kb\",\n    \"risks\": [\n      \"时效性\",\n      \"格式预处理\"\
+    \n    ],\n    \"screening_conclusion\": \"retain\",\n    \"reason\": \"素材包含大量高赞的实操复盘（如高净值客户销售、视频号店群、无人直播），覆盖多个平台和项目，具有较高的实务参考价值。\"\
+    \n  },\n  {\n    \"file_path\": \"docs/202301-02/20230207_09.md\",\n    \"title\"\
+    : \"221129 龙哥赚钱周报\",\n    \"summary\": \"一份汇编周报，聚焦于创业认知、财税规划、写作复利，以及基于个人资源选择项目的方法论，并穿插了几个平台的变现案例。\"\
+    ,\n    \"core_question\": \"如何从认知、技能和资源匹配度出发，逐步构建并放大自己的盈利模式？\",\n    \"key_judgment\"\
+    : \"写作是普通人最容易建立的复利杠杆；选择新项目应首先盘点自身资源，找到项目与资源的匹配度，而非贸然进入新领域；精准搜索流量比迎合平台算法的流量更有价值。\"\
+    ,\n    \"depth\": \"medium\",\n    \"suggested_destination\": \"handbook_entry\"\
+    ,\n    \"possible_shape\": \"booklet\",\n    \"risks\": [\n      \"重复\",\n   \
+    \   \"口语化\"\n    ],\n    \"screening_conclusion\": \"retain\",\n    \"reason\"\
+    : \"提供了关于个人能力建设和项目选择的系统方法论，对初级和中级的从业者有指导意义，但观点在同类内容中重复度较高。\"\n  },\n  {\n    \"\
+    file_path\": \"docs/202301-02/20230207_10.md\",\n    \"title\": \"221122 龙哥赚钱周报\"\
+    ,\n    \"summary\": \"周报正文因被平台判定违规而无法上传，仅提供了离线版PDF的网络链接和下载地址。\",\n    \"core_question\"\
+    : \"如何处理因平台审核或合规问题导致的内容无法正常发布与留存的情况？\",\n    \"key_judgment\": \"内容合规是传播的前提，当平台审核不通过时，需要准备替代的分享和存储方案以确保信息的可达性。\"\
+    ,\n    \"depth\": \"low\",\n    \"suggested_destination\": \"exclude\",\n    \"\
+    possible_shape\": \"kb\",\n    \"risks\": [\n      \"其他\",\n      \"格式预处理\"\n\
+    \    ],\n    \"screening_conclusion\": \"exclude\",\n    \"reason\": \"素材本身不包含实质性内容，仅是一个指向外部链接的占位符，无法作为独立内容进行使用或评估。\"\
+    \n  },\n  {\n    \"file_path\": \"docs/202301-02/20230207_11.md\",\n    \"title\"\
+    : \"221115 龙哥赚钱周报\",\n    \"summary\": \"一份汇编周报，核心内容围绕垂直IP获取精准客户的策略、产品idea的来源，以及多个平台（抖音、视频号、小红书、快手等）的引流和变现实操案例。\"\
+    ,\n    \"core_question\": \"如何低成本、高效地获取精准客户，并选择和验证一个有成功潜力的产品或项目？\",\n    \"key_judgment\"\
+    : \"垂直IP应以SEO思维获取精准搜索流量，而非追逐平台爆款；产品idea最成功的来源是解决自身问题（原生idea），其次是基于被验证的成功竞品进行差异化改进。\"\
+    ,\n    \"depth\": \"medium\",\n    \"suggested_destination\": \"kb_entry\",\n\
+    \    \"possible_shape\": \"kb\",\n    \"risks\": [\n      \"时效性\",\n      \"格式预处理\"\
+    \n    ],\n    \"screening_conclusion\": \"retain\",\n    \"reason\": \"提供了关于垂直IP商业模式和产品创新的底层方法论，并包含了多个平台的具体实操案例，作为知识库素材价值较高。\"\
+    \n  }\n]"
+- role: assistant
+  content: '第二批完成。现在读取第三批，包含各类案例文章和项目复盘。让我分批读取剩余的30篇（非周报）。
+
+
+    '
+  tool_calls:
+  - index: 0
+    id: call_3wkv1eb5zekvjbzdl9tg0o9p
+    function:
+      arguments: '{"batch_no": 3, "file_paths": ["docs/202301-02/AmKRdF2Z9oQjDExxxuAc18a5nbb.md",
+        "docs/202301-02/C0dydiFPCoBI3LxemwWcXpdxn2e.md", "docs/202301-02/CGZ4dZq4ZoSFT4xUmFecNpk4nNe.md",
+        "docs/202301-02/CZPydiVmgo2odMx0nWecf3DTn6e.md", "docs/202301-02/DNGrdODFBowfk2xwkNCc5GGSnRd.md",
+        "docs/202301-02/E1WGd70YLoaHGfxAYJTc4WoFnsd.md"]}'
+      name: tool_read_articles_batch
+    type: function
+- role: tool
+  tool_call_id: call_3wkv1eb5zekvjbzdl9tg0o9p
+  content: "[\n  {\n    \"file_path\": \"docs/202301-02/AmKRdF2Z9oQjDExxxuAc18a5nbb.md\"\
+    ,\n    \"title\": \"公众号追热点复盘：通过行程码一天涨粉4万+，直接变现6K+\",\n    \"summary\": \"作者复盘其利用行程码下线的热点，通过12个公众号批量操作，实现单日新增净增4.5万粉丝、流量主及CPS等综合变现约1万元的实操过程与细节。\"\
+    ,\n    \"core_question\": \"如何高效地利用社会热点事件，通过公众号矩阵实现快速涨粉和变现？\",\n    \"key_judgment\"\
+    : \"追热点的核心竞争力不在于发文速度，而在于对平台搜索算法的理解（关键词铺设、伪原创、标题优化）以及流量承接和变现路径的设计（自动回复、文中广告、CPS）。\"\
+    ,\n    \"depth\": \"high\",\n    \"suggested_destination\": \"case\",\n    \"\
+    possible_shape\": \"course\",\n    \"risks\": [\n      \"时效性\",\n      \"重复\"\n\
+    \    ],\n    \"screening_conclusion\": \"retain\",\n    \"reason\": \"内容虽基于特定历史热点，但详细拆解了包含关键词布局、标题策略、公众号后台设置、变现方式在内的完整操作SOP，方法论具有可迁移性，是热点营销与SEO结合的典型案例。\"\
+    \n  },\n  {\n    \"file_path\": \"docs/202301-02/C0dydiFPCoBI3LxemwWcXpdxn2e.md\"\
+    ,\n    \"title\": \"初创公司如何科学量化股权分配？股权分配五步法教你不再踩坑！！！\",\n    \"summary\": \"文章介绍了适用于初创团队的“4C动态量化股权分配模型”及“股权分配五步法”，通过一个儿童体能训练项目的真实案例，详细演示了如何从创始人身份、岗位权重、时间投入、资金投入四个维度量化计算股权比例。\"\
+    ,\n    \"core_question\": \"初创公司在面临多个合伙人的情况下，如何避免拍脑袋决策，科学、公平地量化分配股权？\",\n    \"\
+    key_judgment\": \"股权分配的核心在于前期通过自评与互评的方式，就创始人风险承担、岗位价值、时间投入和资金投入四个维度的权重达成共识，这远比最终计算出的数字更重要，能有效避免后期合作隐患。\"\
+    ,\n    \"depth\": \"high\",\n    \"suggested_destination\": \"handbook_entry\"\
+    ,\n    \"possible_shape\": \"handbook\",\n    \"risks\": [\n      \"内容依赖于具体案例\"\
+    ,\n      \"表述口语化\"\n    ],\n    \"screening_conclusion\": \"retain\",\n    \"\
+    reason\": \"提供了一个结构清晰、可操作性强的股权分配工具和方法论，案例详实，对于初创企业具有较高的实用参考价值，可作为创业工具箱中的标准条目。\"\
+    \n  },\n  {\n    \"file_path\": \"docs/202301-02/CGZ4dZq4ZoSFT4xUmFecNpk4nNe.md\"\
+    ,\n    \"title\": \"有了这两个AI机器人,还怕做不好带货短视频?\",\n    \"summary\": \"作者通过影刀RPA工具，针对抖音巨量百应后台的“爆款视频”和“创意搜索”功能开发了两个采集机器人，实现了对高GMV对标短视频的批量数据采集、表格导出和无水印下载。\"\
+    ,\n    \"core_question\": \"如何让短视频创作者高效、精准地获取同行爆款视频作为对标和学习素材？\",\n    \"key_judgment\"\
+    : \"官方后台（巨量百应）比第三方数据平台更实时精准；通过RPA工具可以将对标视频的采集过程自动化，将数据资产沉淀为可复用的素材库，尤其“低粉高销量”的黑马账号更值得小达人学习。\"\
+    ,\n    \"depth\": \"medium\",\n    \"suggested_destination\": \"kb_entry\",\n\
+    \    \"possible_shape\": \"kb\",\n    \"risks\": [\n      \"时效性\",\n      \"工具依赖性强\"\
+    ,\n      \"格式预处理\"\n    ],\n    \"screening_conclusion\": \"retain\",\n    \"\
+    reason\": \"介绍了获取精准行业爆款视频数据的新渠道和自动化方法，将RPA工具应用于内容创作的特定场景，对专注短视频带货的读者有直接的实操启发，可作为知识库中的工具方法条目。\"\
+    \n  },\n  {\n    \"file_path\": \"docs/202301-02/CZPydiVmgo2odMx0nWecf3DTn6e.md\"\
+    ,\n    \"title\": \"「抖音SEO」2天线下大课圆满结束\",\n    \"summary\": \"这是一篇抖音SEO陪跑计划的线下课程总结，重点宣传了课程“理论+实操”的模式、选词定生死的重要性，并列举了学员（留学业务、实体店）在课程当天通过优化关键词快速获得搜索流量的成功案例。\"\
+    ,\n    \"core_question\": \"抖音SEO是什么，为什么它对绝大多数商家而言仍是蓝海机会，以及如何通过选词和优化细节快速见效？\"\
+    ,\n    \"key_judgment\": \"抖音搜索流量存在巨大蓝海（70%为蓝海词），做好SEO的关键是选对词和优化视频细节，效果快且持久，能解决商家“流量不稳定”和“获客精准度低”的核心痛点。\"\
+    ,\n    \"depth\": \"medium\",\n    \"suggested_destination\": \"course_unit\"\
+    ,\n    \"possible_shape\": \"course\",\n    \"risks\": [\n      \"商业推广性质\",\n\
+    \      \"内容重复\",\n      \"口语化\"\n    ],\n    \"screening_conclusion\": \"demote\"\
+    ,\n    \"reason\": \"内容主体是线下课程的宣传复盘，核心观点（抖音SEO是蓝海、选词关键、效果快）在其他素材中可能被更系统性地阐述，但其中关于“选词定生死”和“细节决定成败”的案例仍有参考价值，适合作为课程中的一个宣传案例或知识点补充。\"\
+    \n  },\n  {\n    \"file_path\": \"docs/202301-02/DNGrdODFBowfk2xwkNCc5GGSnRd.md\"\
+    ,\n    \"title\": \"卖空气，需求分析与做局盈利！\",\n    \"summary\": \"作者基于个人开发者视角，分享了“非规范化生产”的理念：通过“卖空气”（卖预期/概念）的方式，利用软件（或伪装成软件的软文）结合SEO技术，精准筛选用户并建立信任，从而实现盈利的野路子方法论。\"\
+    ,\n    \"core_question\": \"个人开发者（或小团队）如何不依赖复杂技术，通过挖掘需求、撰写软文和“做局”套话，以极低成本实现盈利？\"\
+    ,\n    \"key_judgment\": \"软件的本质是软文，可以通过营销策略（如“虚假攻略”、“包装APP”）制造“专业”的假象来获取流量和信任；核心是围绕用户问题部署产品，并利用“居高临下”的套话策略套取市场信息和解决方案。\"\
+    ,\n    \"depth\": \"high\",\n    \"suggested_destination\": \"chapter\",\n   \
+    \ \"possible_shape\": \"booklet\",\n    \"risks\": [\n      \"观点具有投机性\",\n   \
+    \   \"道德风险\",\n      \"口语化\"\n    ],\n    \"screening_conclusion\": \"retain\"\
+    ,\n    \"reason\": \"内容系统性地阐述了一套不同于常规“产品-开发-推广”的逆向、低成本个人开发者生存哲学，包含需求分析、软文策略、过审技巧等独特观点，有思想深度，适合整理为非规范化创业/开发主题下的独立章节。\"\
+    \n  },\n  {\n    \"file_path\": \"docs/202301-02/E1WGd70YLoaHGfxAYJTc4WoFnsd.md\"\
+    ,\n    \"title\": \"线上美业，不到2万成本到变现过百万\",\n    \"summary\": \"93年女孩夕子分享自己利用医学专业背景，从替同事代购医美面膜（一单赚2元）起步，通过知乎问答、小红书内容引流，逐步建立私域，最终实现年利润过百万并创立自有品牌的线上美业创业历程。\"\
+    ,\n    \"core_question\": \"零生意基础的人如何利用专业知识和极低成本，从0到1在线上美业领域实现成功创业并持续增长？\",\n\
+    \    \"key_judgment\": \"成功关键在于：将专业能力转化为产品（服务与选品），私域运营中要聚焦高客单价的“专业价值”而非低毛利团购；在扩大流量时，应通过学习和复制成功者的SOP来实现内容生产的标准化。\"\
+    ,\n    \"depth\": \"high\",\n    \"suggested_destination\": \"case\",\n    \"\
+    possible_shape\": \"booklet\",\n    \"risks\": [\n      \"个人成功案例\",\n      \"\
+    部分内容为招商宣传\",\n      \"时间跨度长\"\n    ],\n    \"screening_conclusion\": \"retain\"\
+    ,\n    \"reason\": \"这是一个从个人专业出发、白手起家的完整创业案例，详细记录了从0到1、从1到10的不同阶段的关键决策（选品、内容、私域），尤其是对“专业价值变现”和“标准化赋能合伙人”的思考，具有故事性和方法论价值。\"\
+    \n  }\n]"
+- role: assistant
+  content: '继续读取第四批。
+
+
+    '
+  tool_calls:
+  - index: 0
+    id: call_0wnxc9qm5ksznbbxgsr3p0vr
+    function:
+      arguments: '{"batch_no": 4, "file_paths": ["docs/202301-02/ELHqdhiI5oSQAxxItLJctNAhnah.md",
+        "docs/202301-02/FCiidWBeJoLOT1xreYnc9Se4nOf.md", "docs/202301-02/HfJEd0huioyShvxowVfcOMQYnHb.md",
+        "docs/202301-02/HiVkdfBYJo2H5xxWIemcMcMQnLc.md", "docs/202301-02/I9OAdzzs2oBliNxsmPjcHnBUnzf.md",
+        "docs/202301-02/IpCcdJ9NAoAt4pxKKV5c5sfenZc.md"]}'
+      name: tool_read_articles_batch
+    type: function
+- role: tool
+  tool_call_id: call_0wnxc9qm5ksznbbxgsr3p0vr
+  content: "[\n  {\n    \"file_path\": \"docs/202301-02/ELHqdhiI5oSQAxxItLJctNAhnah.md\"\
+    ,\n    \"title\": \"【已发部分】普通人可复制的云监工玩法，挑战3天读50篇生财小报童项目精选+写5000多字心得\",\n    \"\
+    summary\": \"作者在2023年元旦期间发起一个‘云监工’快闪群活动，招募102位群友监督自己3天内读完50篇生财专栏文章并输出5000字心得，成功验证了该低成本、高互动的社群运营玩法，并附上了逐篇的阅读心得。\"\
+    ,\n    \"core_question\": \"如何用低成本、可复制的方式激励个人完成高强度的学习目标，同时增强社群互动和信任？\",\n    \"\
+    key_judgment\": \"云监工玩法通过将个人挑战公开化并引入社群监督，既降低了群主的运营负担（相比陪伴群），又通过利益一致（成功大家受益，失败仅小惩罚）和仪式感强化了参与感和粘性，是普通人可复用的高效MVP测试和社群激活手段。\"\
+    ,\n    \"depth\": \"medium\",\n    \"suggested_destination\": \"case\",\n    \"\
+    possible_shape\": \"course\",\n    \"risks\": [\n      \"格式预处理\",\n      \"重复\"\
+    \n    ],\n    \"screening_conclusion\": \"retain\",\n    \"reason\": \"这是一份具有完整操作细节（招募文案、规则设计、流程）和执行结果的真实案例，对社群运营和激励玩法有启发价值。但有部分内容已发布，且与生财会员内容强相关，不适合做核心章节，更适合作案例收录。\"\
+    \n  },\n  {\n    \"file_path\": \"docs/202301-02/FCiidWBeJoLOT1xreYnc9Se4nOf.md\"\
+    ,\n    \"title\": \"单直播间日进800美金-小时均100美金，价值8800可矩阵的tiktok娱乐直播项目\",\n    \"summary\"\
+    : \"作者Fredrich以自身从TikTok带货亏损转型娱乐直播的经历，详细拆解了‘睡播’这一新兴直播形态的开发逻辑、数据表现、软硬件配置、运营策略和项目评估方法。重点论证了TikTok娱乐直播在当前阶段的红利价值和可复制性。\"\
+    ,\n    \"core_question\": \"在国内竞争激烈的环境下，如何在TikTok上找到并成功复制一个低成本、快速见效的新直播项目？\",\n\
+    \    \"key_judgment\": \"TikTok娱乐直播（如睡播）在平台商业化初期是比带货更容易拿到现金流的方向，其核心不在于单一直播形式，而在于可复用、可批量复制的项目开发能力和运营方法论。项目的生命周期有限，必须用‘1+1+1’模式持续迭代。\"\
+    ,\n    \"depth\": \"high\",\n    \"suggested_destination\": \"chapter\",\n   \
+    \ \"possible_shape\": \"book\",\n    \"risks\": [\n      \"时效性\",\n      \"重复\"\
+    \n    ],\n    \"screening_conclusion\": \"retain\",\n    \"reason\": \"内容极其具体且有实操数据支撑，包含完整的项目拆解（定位、用户、竞对、本地化）和开发方法论，对读者理解TikTok娱乐直播生态和项目复制逻辑有重要价值。时效性风险较高但方法论价值仍在，可作为章节核心素材。\"\
+    \n  },\n  {\n    \"file_path\": \"docs/202301-02/HfJEd0huioyShvxowVfcOMQYnHb.md\"\
+    ,\n    \"title\": \"心理卡点：不敢打广告，打完广告不出单好自闭，怎么办？\",\n    \"summary\": \"作者七小针对自媒体新手常见的‘打广告心理障碍’，从认知层面拆解了不敢打广告的三大原因（不认可产品价值、不理解人际关系、不理解广告本质），并系统给出了破除方法和广告后无成交的检查清单与心态调整策略。\"\
+    ,\n    \"core_question\": \"如何破除新手在打广告时的心理卡点，建立正确的广告认知，并理性应对广告无成交的挫败感？\",\n  \
+    \  \"key_judgment\": \"广告的本质是‘放大’和‘筛选’，不是骚扰。关键在于分清社交关系的不同象限，将无效关系与目标客户区分对待，并认识到成交是长期信任建设和多次触达的结果，而非单次广告的必然反应。\"\
+    ,\n    \"depth\": \"medium\",\n    \"suggested_destination\": \"chapter\",\n \
+    \   \"possible_shape\": \"handbook\",\n    \"risks\": [\n      \"重复\"\n    ],\n\
+    \    \"screening_conclusion\": \"retain\",\n    \"reason\": \"它精准解决了新手在营销环节的普遍心态卡点，提供了从认知重建到实操检查的完整闭环。虽然深度为中等，但与‘从0到1’阶段高度匹配，适合作为手册式章节的内容，实用性极强。\"\
+    \n  },\n  {\n    \"file_path\": \"docs/202301-02/HiVkdfBYJo2H5xxWIemcMcMQnLc.md\"\
+    ,\n    \"title\": \"IP如何做到风骨体面且年入千万\",\n    \"summary\": \"内容经纪公司创始人刘梦园系统分享了一个内容型IP从0到年入千万的五大步骤：夯实内外部地基、规划内容体系（四级架构/独创理论/百问百答等）、设计千万营收模型、制定年度节点规划并进行落地。结合了其‘星云IP计划’的实战经验。\"\
+    ,\n    \"core_question\": \"一个在垂直领域有积累的新手，如何体系化地打造一个既能保持专业风骨又能实现年入千万的商业化IP？\"\
+    ,\n    \"key_judgment\": \"IP打造的最高境界是‘风骨与变现并存’。其核心不是单一技巧，而是基于母题和独创理论构建的内容护城河、基于文化资产沉淀的长期价值，以及通过经纪人模式整合生态资源实现多维变现的系统工程。反对单纯追逐爆款和同质化路径。\"\
+    ,\n    \"depth\": \"high\",\n    \"suggested_destination\": \"chapter\",\n   \
+    \ \"possible_shape\": \"book\",\n    \"risks\": [\n      \"口语化\",\n      \"格式预处理\"\
+    \n    ],\n    \"screening_conclusion\": \"retain\",\n    \"reason\": \"这是一份极其详尽的IP操盘级方法论，覆盖从定位、内容到变现模型的完整体系，具有极高的行业深度和战略价值。虽然部分内容偏口语化且有作者个人业务植入，但其理论框架（如4级内容架构、3重身份、营收模型）具有普遍指导意义，是高端IP打造章节的绝佳核心素材。\"\
+    \n  },\n  {\n    \"file_path\": \"docs/202301-02/I9OAdzzs2oBliNxsmPjcHnBUnzf.md\"\
+    ,\n    \"title\": \"万字复盘:普通职场人，下班时间靠拆解，7年拆了500个项目，复制成功30+，副业收入破百万\",\n    \"summary\"\
+    : \"私域运营老兵秦汉唐复盘了自己7年通过拆解各平台商业案例，成功复制30+项目、副业收入破百万的经历。详细分享了从挖掘项目、拆解八步法、建立赚钱情报体系、使用项目管理思维（策划案+执行案）到利用三大杠杆放大收入的完整方法论及防坑指南。\"\
+    ,\n    \"core_question\": \"普通职场人如何利用碎片时间，通过系统的商业拆解方法论，挖掘、验证并复制可持续盈利的副业项目？\",\n\
+    \    \"key_judgment\": \"副业成功的关键不是原创和All in，而是建立一套‘后发制人’的情报挖掘与拆解体系。通过喂养算法获取案例、八步拆解评估可复制性、用项目管理思维确保执行闭环，并以人为/技术/资源杠杆实现规模化，可以大幅度降低试错成本并稳定变现。\"\
+    ,\n    \"depth\": \"high\",\n    \"suggested_destination\": \"chapter\",\n   \
+    \ \"possible_shape\": \"book\",\n    \"risks\": [\n      \"重复\"\n    ],\n    \"\
+    screening_conclusion\": \"retain\",\n    \"reason\": \"这篇文章是全书‘副业项目挖掘与复制’主题的基石材料。它不仅有真实案例，更重要的是提供了从战略层面（赛道/渠道）到战术执行层面（拆解八步/项目管理/杠杆）的全套可操作方法，是含金量极高的实操指南。\"\
+    \n  },\n  {\n    \"file_path\": \"docs/202301-02/IpCcdJ9NAoAt4pxKKV5c5sfenZc.md\"\
+    ,\n    \"title\": \"小红书资料号一周：涨粉6000+ 变现3w+ 实操复盘\",\n    \"summary\": \"作者分享了自己作为小红书新手，通过做‘资料号’一周内涨粉6000+、变现3w+的实操复盘。内容涵盖赛道选择、选题挖掘、封面打造、标题技巧、钩子设置、评论引爆和私域导流等完整链路，并强调‘用户心动’的核心思维。\"\
+    ,\n    \"core_question\": \"小红书新手如何在竞争中找到一条简单可复制且能快速变现的路径？\",\n    \"key_judgment\"\
+    : \"资料号的核心不是点赞收藏，而是高转化的评论和私域引流。成功关键在于选择竞争小的细分蓝海（如英语类资料）、复制经过验证的爆款钩子以及通过引导评论制造羊群效应。内容生产并非体现‘原创能力’，而是体现基于市场的‘重复与迭代’能力。\"\
+    ,\n    \"depth\": \"medium\",\n    \"suggested_destination\": \"case\",\n    \"\
+    possible_shape\": \"course\",\n    \"risks\": [\n      \"时效性\",\n      \"口语化\"\
+    ,\n      \"重复\"\n    ],\n    \"screening_conclusion\": \"retain\",\n    \"reason\"\
+    : \"这是对匿名项目拆解中‘资料号’案例的极佳补充，侧重具体平台操作细节和流量玩法。虽然时效性风险高（平台规则变化快），口语化严重，但其拆解的实操步骤（如找蓝海、做钩子）对新手有极高的学习价值，故保留为案例素材。\"\
+    \n  }\n]"
+- role: assistant
+  content: '继续读取第五批。
+
+
+    '
+  tool_calls:
+  - index: 0
+    id: call_2gdk1neyugvc116gkxq5ulem
+    function:
+      arguments: '{"batch_no": 5, "file_paths": ["docs/202301-02/JPRAdLgGFowUE7xargGc8YNjnzh.md",
+        "docs/202301-02/JmBgdr705ovHoyxQknRctRaMnKh.md", "docs/202301-02/KomqdeUMloO1CkxrgADcqGvDnIe.md",
+        "docs/202301-02/Lg2vd5GWHoqhBbxuT5LcThEpncb.md", "docs/202301-02/MUfLdmUlTosj0NxPhlfcjRPHnff.md",
+        "docs/202301-02/MXPcd58gSoEsTlxFhUVcJ5X7npc.md"]}'
+      name: tool_read_articles_batch
+    type: function
+- role: tool
+  tool_call_id: call_2gdk1neyugvc116gkxq5ulem
+  content: "[\n  {\n    \"file_path\": \"docs/202301-02/JPRAdLgGFowUE7xargGc8YNjnzh.md\"\
+    ,\n    \"title\": \"如何写出既能吸金、又能深入人心的心金文案\",\n    \"summary\": \"作者李思念以十年创业者和文案创作者身份，分享了其「心金文案」写作方法论，涵盖写前目的/受众/平台三问、思维提升之法、具体写作之术（风格、素材、富兰克林法、共鸣感），以及如何通过输入带动输出、建立素材库和大量练习来维持文案持续输出能力。\"\
+    ,\n    \"core_question\": \"个人IP创业者如何写出兼具商业变现力与情感感染力的文案，并持续稳定地输出？\",\n    \"key_judgment\"\
+    : \"文案是思维显化，好文案源于深度思考；持续输出的关键在于以高质量输入带动输出、建立分类素材库以及大量刻意练习，而非套用模板。\",\n    \"depth\"\
+    : \"medium\",\n    \"suggested_destination\": \"chapter\",\n    \"possible_shape\"\
+    : \"book\",\n    \"risks\": [\n      \"口语化\",\n      \"重复\"\n    ],\n    \"screening_conclusion\"\
+    : \"retain\",\n    \"reason\": \"系统梳理了从思维到写作术到输出能力的完整链路，有框架、有方法、有具体工具（如零秒思考、富兰克林法），可支撑文案写作方法论的章节内容。\"\
+    \n  },\n  {\n    \"file_path\": \"docs/202301-02/JmBgdr705ovHoyxQknRctRaMnKh.md\"\
+    ,\n    \"title\": \"如何解决原创视频内容的批量生产？聊聊我的短视频带货矩阵的自动化之路\",\n    \"summary\": \"\
+    文章介绍了作者塔塔如何将短视频带货流程标准化，通过拆解爆款视频模板元素、准备素材、编写自动化生成代码及自动发布工具，实现短视频内容的批量化原创生产，并分享了将内容自动化生产复制到多赛道的思路。\"\
+    ,\n    \"core_question\": \"在短视频带货矩阵模式中，如何解决原创视频内容的规模化、自动化生产问题？\",\n    \"key_judgment\"\
+    : \"将爆款视频拆解为背景、标题、内容、文案、字幕、BGM等元素并自动化组装，配合素材随机化与混淆元素保证原创性和差异性，可实现视频内容的批量生产，从而以矩阵数量对冲流量不确定性并提高爆单概率。\"\
+    ,\n    \"depth\": \"medium\",\n    \"suggested_destination\": \"case\",\n    \"\
+    possible_shape\": \"series\",\n    \"risks\": [\n      \"时效性\",\n      \"格式预处理（含代码及外部链接）\"\
+    \n    ],\n    \"screening_conclusion\": \"retain\",\n    \"reason\": \"提供了短视频带货自动化的具体实操路径与底层逻辑，可作为矩阵化运营的案例或实战参考，但其技术细节和平台规则需注意时效性。\"\
+    \n  },\n  {\n    \"file_path\": \"docs/202301-02/KomqdeUMloO1CkxrgADcqGvDnIe.md\"\
+    ,\n    \"title\": \"【AI绘画】N卡、A卡都不用！最强在线AI绘画教程\",\n    \"summary\": \"本文是一篇在Google\
+    \ Colab平台运行Stable Diffusion WebUI进行AI绘画的保姆级教程，从基本概念（colab/Gdrive/Stable diffusion/模型）讲起，详细介绍了环境搭建、模型下载的多种方式（Gdrive/gdown/Hugging\
+    \ Face/云存储）以及WebUI的运行与出图配置。\",\n    \"core_question\": \"在没有高性能本地显卡的情况下，如何利用Google\
+    \ Colab免费GPU搭建并运行AI绘画工具（Stable Diffusion WebUI）？\",\n    \"key_judgment\": \"\
+    Colab提供免费云端GPU资源，配合挂载Gdrive或从Hugging Face等渠道下载模型，可将AI绘画环境搭建过程标准化，有效解决个人电脑硬件配置不足的问题。\"\
+    ,\n    \"depth\": \"medium\",\n    \"suggested_destination\": \"handbook_entry\"\
+    ,\n    \"possible_shape\": \"handbook\",\n    \"risks\": [\n      \"时效性\",\n \
+    \     \"格式预处理（含代码及外部链接）\"\n    ],\n    \"screening_conclusion\": \"retain\",\n\
+    \    \"reason\": \"操作步骤完整、具备详细的分步指导，适合作为工具类操作手册条目；但涉及平台政策及工具版本，需标注时效性风险。\"\n \
+    \ },\n  {\n    \"file_path\": \"docs/202301-02/Lg2vd5GWHoqhBbxuT5LcThEpncb.md\"\
+    ,\n    \"title\": \"实操复盘：10天时间，视频号从0到变现6000+，到场观过万，我做了什么？\",\n    \"summary\"\
+    : \"作者姚麻详细复盘了10天内从0启动视频号带货项目，通过选品、找对标账号、视频去重处理、发布运营及直播转化，最终变现6201元、直播场观破万的全过程，并提出了关于人脸认证、上架商品、视频转化及新号流量等多个待解问题。\"\
+    ,\n    \"core_question\": \"一个视频号新手如何在10天内从0到1实现带货变现，并跑通整套操作流程？\",\n    \"key_judgment\"\
+    : \"视频号新号有流量扶持且用户群体未被过度开发，是当前红利；选品重点是精准匹配目标人群的特定需求，直播转化效率远高于视频挂车；核心路径是发视频跑流量，视频在跑时开播直播转化。\"\
+    ,\n    \"depth\": \"high\",\n    \"suggested_destination\": \"case\",\n    \"\
+    possible_shape\": \"booklet\",\n    \"risks\": [\n      \"口语化\",\n      \"时效性\"\
+    \n    ],\n    \"screening_conclusion\": \"retain\",\n    \"reason\": \"内容极其详实且为一线实操复盘，包含选品思路、选号标准、视频处理流程、直播节奏及问题思考，实战参考价值高，适合作为案例或手册素材。\"\
+    \n  },\n  {\n    \"file_path\": \"docs/202301-02/MUfLdmUlTosj0NxPhlfcjRPHnff.md\"\
+    ,\n    \"title\": \"【保姆级教程】从零到一打造一个高质量交付训练营\",\n    \"summary\": \"作者郭晓文分享了打造高交付质量训练营的心法与干法，核心心法是通过操作手册、直播讲解、百问百答和打卡来提升交付效率、撬动学员时间；干法则包括招生平台选择以及交付环节中操作手册编写、直播、打卡、交流和百问百答的完整操作步骤。\"\
+    ,\n    \"core_question\": \"会做项目但不会教的人，如何高效打造一个高交付质量且可复制的付费训练营？\",\n    \"key_judgment\"\
+    : \"高质量交付的关键是提高效率而非投入更多时间，通过标准化文档（操作手册/百问百答）替代重复性1对1答疑，并利用学员打卡与分享激发其主动性，实现学员成材率与老师时间精力的双赢。\"\
+    ,\n    \"depth\": \"high\",\n    \"suggested_destination\": \"chapter\",\n   \
+    \ \"possible_shape\": \"booklet\",\n    \"risks\": [\n      \"重复（与常见课程设计内容），部分平台规则时效性\"\
+    \n    ],\n    \"screening_conclusion\": \"retain\",\n    \"reason\": \"既有明确的理念框架（高效率交付才能高质量交付），又有可落地的操作步骤（文档/直播/打卡/百问百答），是培训方法论的优质素材。\"\
+    \n  },\n  {\n    \"file_path\": \"docs/202301-02/MXPcd58gSoEsTlxFhUVcJ5X7npc.md\"\
+    ,\n    \"title\": \"我对从0到1搭建短视频团队的一些理解\",\n    \"summary\": \"作者俊达基于团队打造垂类知识IP与商业IP的实战经历，分享了短视频IP矩阵的打法，梳理了变现产品选择、团队角色配置与培养路径、从定位到执行再到复盘的内容生产流程，并给出看好的赛道方向及20条抖音IP实战心得。\"\
+    ,\n    \"core_question\": \"如何在抖音从0到1搭建一个能持续生产流量并支撑后期变现的短视频IP团队？\",\n    \"key_judgment\"\
+    : \"抖音前端内容是开卷考试，成败取决于后端变现效率；团队打磨优先重流程复制而非依赖个人能力；选角上演员性价比高于创始人出镜；内容爆款公式为钩子开头+内容框架+钩子结尾。\"\
+    ,\n    \"depth\": \"high\",\n    \"suggested_destination\": \"chapter\",\n   \
+    \ \"possible_shape\": \"course\",\n    \"risks\": [\n      \"时效性（平台算法与规则变化）\"\n\
+    \    ],\n    \"screening_conclusion\": \"retain\",\n    \"reason\": \"从变现产品选择、团队搭建、生产流程到实战心得，系统性极强且颗粒度细，可直接支撑课程章节或书中独立章节。\"\
+    \n  }\n]"
+- role: assistant
+  content: '继续读取第六批。
+
+
+    '
+  tool_calls:
+  - index: 0
+    id: call_q3k4pswv8bbaxoc9m838tid8
+    function:
+      arguments: '{"batch_no": 6, "file_paths": ["docs/202301-02/NxhWdJj3UoPKvmxaBqkcz8wlntf.md",
+        "docs/202301-02/P2XLdJF2yoivV8xUDszcz853nZg.md", "docs/202301-02/PglAdRMiIoVTRyxc4Q3cw8hvnWf.md",
+        "docs/202301-02/QbBKdHvfiofIUNxDlmjceWbfnqh.md", "docs/202301-02/SvdFdfi3VoAiaRxENHNcncEqnif.md",
+        "docs/202301-02/T1Jad4VhIoPc2hxKJxwcUFPOnTc.md"]}'
+      name: tool_read_articles_batch
+    type: function
+- role: tool
+  tool_call_id: call_q3k4pswv8bbaxoc9m838tid8
+  content: "[\n  {\n    \"file_path\": \"docs/202301-02/NxhWdJj3UoPKvmxaBqkcz8wlntf.md\"\
+    ,\n    \"title\": \"一个千万项目的底层逻辑\",\n    \"summary\": \"本文提出了一套拆解任何商业项目的六维模型（流量效率、销转效率、交付效率、客单价、毛利率、复购率），并通过多个案例（如小说推文、教育资料、减肥食谱、商业IP、知识付费）展示了如何用该模型评估项目的可行性与可复制性。\"\
+    ,\n    \"core_question\": \"如何用一个通用框架快速拆解和评估任意商业项目的底层逻辑和赚钱效率？\",\n    \"key_judgment\"\
+    : \"任何项目都可以用“流量、销转、交付”三个效率指标和“客单价、毛利率、复购率”三个财务指标拆解；前三个效率高则项目可复制放大，若有短板则需通过提高后三个财务指标来弥补。\"\
+    ,\n    \"depth\": \"medium\",\n    \"suggested_destination\": \"chapter\",\n \
+    \   \"possible_shape\": \"book\",\n    \"risks\": [\n      \"时效性\",\n      \"\
+    口语化\"\n    ],\n    \"screening_conclusion\": \"retain\",\n    \"reason\": \"提供了一套通用且可操作的商业项目分析框架，适合作为方法论章节的核心素材，能指导读者进行项目评估。\"\
+    \n  },\n  {\n    \"file_path\": \"docs/202301-02/P2XLdJF2yoivV8xUDszcz853nZg.md\"\
+    ,\n    \"title\": \"ifttt实现推特用户更新内容后自动推送到邮箱或企业微信或钉钉\",\n    \"summary\": \"本文是一篇工具教程，详细介绍了如何使用IFTTT平台监控特定推特账号的更新，并将更新内容自动推送到指定邮箱或通过企业微信/钉钉机器人群进行通知。\"\
+    ,\n    \"core_question\": \"如何在无需编程的情况下，实现推特账号更新内容的自动化监控和即时推送？\",\n    \"key_judgment\"\
+    : \"利用IFTTT的‘如果这样，那样就那样’的自动化逻辑和非官方的Webhook接口，可以低成本、快速地构建一个跨平台的信息监控与推送管道，满足特定信息获取需求。\"\
+    ,\n    \"depth\": \"low\",\n    \"suggested_destination\": \"handbook_entry\"\
+    ,\n    \"possible_shape\": \"handbook\",\n    \"risks\": [\n      \"时效性\",\n \
+    \     \"格式预处理\"\n    ],\n    \"screening_conclusion\": \"retain\",\n    \"reason\"\
+    : \"这是一份实操性很强的工具指南，但其价值相对单一且时效性较强，适合作为手册中的操作条目或案例，而非核心章节。\"\n  },\n  {\n    \"\
+    file_path\": \"docs/202301-02/PglAdRMiIoVTRyxc4Q3cw8hvnWf.md\",\n    \"title\"\
+    : \"创业三年，两年获得天使投资，月入15w+，看我们怎么玩转“0”中介费房屋分享平台！\",\n    \"summary\": \"本文以第一人称详细复盘了“胖龟找房”项目的创业历程，从发现房产中介行业痛点（高额中介费、信息不透明），到建立“0中介费”个人房屋分享平台，再到迭代商业模式（卖房会员、租房中介费由房东承担）、开设线下门店、开放加盟并最终获得天使投资的完整过程。\"\
+    ,\n    \"core_question\": \"如何在一个传统且痛点明显的行业（房产中介）中，通过重塑商业模式（0中介费）找到切入点，并实现从0到1、从1到N的创业落地？\"\
+    ,\n    \"key_judgment\": \"创业机会源于解决行业真实痛点（信息不对称和高额中介费），项目的核心在于构建“流量+转化+交付”的闭环能力，并通过精准选址（蹭同行流量）、标准化流程和加盟模式进行规模化扩张。\"\
+    ,\n    \"depth\": \"high\",\n    \"suggested_destination\": \"case\",\n    \"\
+    possible_shape\": \"course\",\n    \"risks\": [\n      \"时效性\",\n      \"重复\"\n\
+    \    ],\n    \"screening_conclusion\": \"retain\",\n    \"reason\": \"这是一个完整的、有数据支撑的创业案例，涵盖了市场分析、商业模式设计、运营细节、避坑指南和融资经历，具有很高的参考价值和案例教学意义。\"\
+    \n  },\n  {\n    \"file_path\": \"docs/202301-02/QbBKdHvfiofIUNxDlmjceWbfnqh.md\"\
+    ,\n    \"title\": \"抖音自动化公转私玩法及防封攻略\",\n    \"summary\": \"本文系统拆解了抖音平台将公域流量转化为微信私域流量的多种自动化玩法，包括主页跳转、评论跳转、私信卡片、直播小风车等，并重点介绍了不同账号类型（蓝V、半蓝、员工号）的适用情况以及抖音和微信两端的防封策略。\"\
+    ,\n    \"core_question\": \"在抖音平台规则日益收紧的背景下，如何实现高效且相对安全的自动化公转私引流？\",\n    \"key_judgment\"\
+    : \"最高级的公转私玩法是尽可能使用抖音官方提供的功能（如认证账号、官方接口），而将第三方工具（如小程序生成卡片）作为辅助，并需同时考虑抖音端和微信端的账号与域名防封措施，才能保证转化路径的长期稳定。\"\
+    ,\n    \"depth\": \"high\",\n    \"suggested_destination\": \"chapter\",\n   \
+    \ \"possible_shape\": \"course\",\n    \"risks\": [\n      \"时效性\",\n      \"\
+    格式预处理\"\n    ],\n    \"screening_conclusion\": \"retain\",\n    \"reason\": \"\
+    内容详实、操作性强，提供了从账号选择、入口配置到防封的完整方法论。但平台规则变化快，时效性风险高，适合作为实践课程中的核心章节，需要标注时效性。\"\n \
+    \ },\n  {\n    \"file_path\": \"docs/202301-02/SvdFdfi3VoAiaRxENHNcncEqnif.md\"\
+    ,\n    \"title\": \"盲盒引流常见问题解答\",\n    \"summary\": \"本文以问答形式，针对抖音盲盒直播引流项目中遇到的平台选择、账号准备、直播内容优化、平台风控以及项目规模复制等问题，提供了基于两个月实操经验的详细解答和避坑指南。\"\
+    ,\n    \"core_question\": \"在抖音做盲盒引流项目时，新手最常见的问题是什么，以及如何有效解决这些问题并实现规模化？\",\n \
+    \   \"key_judgment\": \"盲盒引流项目虽好复制，但核心在于精细化运营和风控管理：平台合规性是根基，账号需要作为‘消耗品’管理，直播数据的核心是‘留存’而非‘拉新’，而规模化扩张的关键在于有效的团队管理与激励机制。\"\
+    ,\n    \"depth\": \"high\",\n    \"suggested_destination\": \"course_unit\",\n\
+    \    \"possible_shape\": \"course\",\n    \"risks\": [\n      \"时效性\",\n     \
+    \ \"口语化\"\n    ],\n    \"screening_conclusion\": \"retain\",\n    \"reason\":\
+    \ \"文章针对性强，问题解答详细且包含大量实操细节，是对项目从0到1及规模化放大过程的极佳补充，适合作为相关课程单元或问答案例集。\"\n  },\n \
+    \ {\n    \"file_path\": \"docs/202301-02/T1Jad4VhIoPc2hxKJxwcUFPOnTc.md\",\n \
+    \   \"title\": \"传统金融转型Web3，聊聊我的经历\",\n    \"summary\": \"本文作者分享了从十年传统金融分析师转型Web3创业的个人经历，梳理了转型背景（传统金融低迷、宏观环境变化）、对跨境电商、VR/AR、新能源、Web3等风口的观察，以及在Web3领域探索和融资的感悟。\"\
+    ,\n    \"core_question\": \"传统金融从业者如何看待和把握Web3等新兴领域的创业机会？\",\n    \"key_judgment\"\
+    : \"传统金融从业者转型Web3，应利用其金融背景和宏观视野进行赛道选择，并深刻理解Web3市场‘钱多但好项目少’、‘资本跑步入场’的现状，在熊市中要保持敬畏、储备弹药，以长期主义心态穿越周期。\"\
+    ,\n    \"depth\": \"low\",\n    \"suggested_destination\": \"exclude\",\n    \"\
+    possible_shape\": \"pool\",\n    \"risks\": [\n      \"时效性\",\n      \"口语化\"\n\
+    \    ],\n    \"screening_conclusion\": \"exclude\",\n    \"reason\": \"内容多为个人经历和行业观察的泛泛而谈，缺乏可复制的具体方法论或可操作的步骤，对Web3的具体玩法、项目分析深度不足，更适合作为信息池中的背景参考而非核心内容。\"\
+    \n  }\n]"

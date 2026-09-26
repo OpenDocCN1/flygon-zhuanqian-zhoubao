@@ -80,7 +80,7 @@ $$K_{retained}^{agent} = \sum_{i \neq j} k_i + \sum_{i = j} k_i^{agent}$$
 
 这个公式展示了关键的区别：$\sum_{i = j} k_i^{agent}$ 表示离职成员的 know-how 以 Agent 形式留在了系统中，团队的知识总量不因人员流动而减少。这就是"长期生产资料"的雏形——把隐性知识转化为显性资产。
 
-**关键方法：从"人带人"到"Agent 代代相传"**
+**从"人带人"到"Agent 代代相传"**
 
 > Layout-Aware Knowledge Transfer 方法（来源：《P001, p.4》）
 
@@ -148,7 +148,7 @@ $$Asset_{value}(t) = \sum_{usage=1}^{N} \frac{V_{output}}{Cost_{token}(t_0)}$$
 
 这三种形式的共同点是：它们都把一次性 Token 消费转化为可复用的生产能力。换句话说，你不再只是"问 AI 一个问题"，而是"教 AI 一个技能"，这个技能可以被无限次调用。
 
-### 关键方法：趁便宜储备
+### 趁便宜储备
 
 > Cost-Weighted Asset Conversion 方法（来源：《P001, p.6-7》）
 
