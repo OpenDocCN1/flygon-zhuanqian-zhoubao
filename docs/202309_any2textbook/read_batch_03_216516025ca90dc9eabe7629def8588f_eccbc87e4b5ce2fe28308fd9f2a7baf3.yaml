@@ -1,0 +1,202 @@
+- file_path: docs/202309/20230905_34.md
+  title: 【微信】6 篇
+  summary: 这是一篇汇总帖，仅包含指向语雀原文的链接，没有实际内容，无法进行有效评估。
+  core_question: 无实质内容，无法提炼核心问题。
+  key_judgment: 无实质内容，无法提炼关键判断。
+  depth: low
+  suggested_destination: exclude
+  possible_shape: pool
+  risks:
+  - 格式预处理
+  screening_conclusion: exclude
+  reason: 该文件仅为索引或汇总页面，无实质内容，无法用于内容评估和后续使用。
+- file_path: docs/202309/20230905_35.md
+  title: 三大招，公众号流量主收益提升 10 倍
+  summary: 作者分享了提升公众号流量主收益的三大方法，核心观点是在阅读量不变的前提下，通过优化数据指标和运营策略可以显著提升广告收益。
+  core_question: 如何在公众号阅读量不变的情况下，系统性提升流量主收益？
+  key_judgment: 公众号流量主收益并非完全由阅读量决定，通过关注后台数据指标、调整内容布局（如底部放图片视频）、优化广告位和屏蔽低质行业广告等操作，可以在不增加流量的情况下提升收益。作者自身案例显示，搬运号收益可远超原创号。
+  depth: high
+  suggested_destination: handbook_entry
+  possible_shape: handbook
+  risks:
+  - 时效性
+  - 重复
+  screening_conclusion: retain
+  reason: 文章提供了具体可操作的三大策略和真实案例数据，虽然部分策略（如屏蔽行业广告）可能具有时效性，但其核心方法论（关注数据指标、优化运营）仍有价值，适合作为手册条目。
+- file_path: docs/202309/20230905_36.md
+  title: 视频号小店店群，三个月 400w 的实操分享
+  summary: 作者分享了通过视频号小店优选联盟进行店群操作，三个月销售额近400万的实操经验，核心是利用信息差和达人合作来赚取利润。
+  core_question: 如何通过视频号优选联盟（店群模式）高效赚取利润？
+  key_judgment: 视频号优选联盟在达人广场上线后，高毛利时代已结束，但仍可通过精选商品、利用平台机制与达人合作来获取利润。文章详细拆解了从选品到发货的完整流程，核心在于信息差和规模化操作。
+  depth: high
+  suggested_destination: course_unit
+  possible_shape: course
+  risks:
+  - 时效性
+  - 口语化
+  screening_conclusion: demote
+  reason: 内容具有实操性，但高度依赖于视频号平台当时的政策（达人广场刚上线），时效性风险较高。可以作为课程中的一个案例单元，需要标注时间背景。
+- file_path: docs/202309/20230905_37.md
+  title: 1 年 800 万，知识博主流量➡变现闭环系统
+  summary: 作者分享了一套帮助知识博主从0到1建立流量到变现的闭环系统，核心是围绕内容、流量、私域和产品设计构建完整链路。
+  core_question: 知识博主如何搭建从流量获取到商业变现的完整闭环系统？
+  key_judgment: 知识博主的变现不仅仅依赖流量，更关键的是系统化的转化路径设计，包括高转化钩子、私域运营和课程产品设计。文章提供了一套可复用的0-1启动框架，强调系统而非单一技巧。
+  depth: medium
+  suggested_destination: chapter
+  possible_shape: booklet
+  risks:
+  - 格式预处理
+  - 重复
+  screening_conclusion: retain
+  reason: 内容提供了知识付费领域的系统性框架，具有较强的参考价值。虽然部分内容可能与其他知识付费帖子重复，但其‘闭环系统’视角有独特价值，适合作为手册或书中的一个章节。
+- file_path: docs/202309/20230905_41.md
+  title: 【小红书】7 篇
+  summary: 这是一篇汇总帖，仅包含指向语雀原文的链接，没有实际内容，无法进行有效评估。
+  core_question: 无实质内容，无法提炼核心问题。
+  key_judgment: 无实质内容，无法提炼关键判断。
+  depth: low
+  suggested_destination: exclude
+  possible_shape: pool
+  risks:
+  - 格式预处理
+  screening_conclusion: exclude
+  reason: 该文件仅为索引或汇总页面，无实质内容，无法用于内容评估和后续使用。
+- file_path: docs/202309/20230905_42.md
+  title: 一个半月时间营收过百万，小红书店铺的高层次玩法
+  summary: 作者分享了一个名为“小红书店群”的项目，通过系统化的商业模型，在一个半月内实现超百万营收，并指出这是在小红书官方整治无货源电商后的一条进阶之路。
+  core_question: 在小红书官方整治无货源电商后，普通人如何通过更高层次的商业模式经营小红书店铺？
+  key_judgment: 文章提出了一个超越传统选品上架模式的系统化店群玩法，涉及完整的项目框架和商业模型。核心在于利用平台规则变化，通过模块化、系统化的操作降低门槛，实现规模化盈利。
+  depth: high
+  suggested_destination: case
+  possible_shape: course
+  risks:
+  - 时效性
+  - 口语化
+  screening_conclusion: retain
+  reason: 文章深度剖析了一个具体项目的商业模式和实操细节，案例价值高。虽然平台政策时效性强，但其中关于系统化商业模型构建的思路具有长期参考价值，适合作为案例库或课程单元。
+- file_path: docs/202309/20230905_43.md
+  title: 一个小技巧，就能自测小红书流量好不好
+  summary: 作者分享了一个通过分析粉丝反馈来简单自测小红书账号流量的技巧，帮助用户快速判断内容是否受欢迎。
+  core_question: 如何在不依赖复杂数据工具的情况下，快速判断小红书账号流量好坏？
+  key_judgment: 小红书账号流量好坏可以通过粉丝反馈（如评论、私信）来快速判断，这个方法比单纯看后台数据更直观且具有实操性。文章提供了一个简单、可立即执行的自测方法。
+  depth: low
+  suggested_destination: kb_entry
+  possible_shape: kb
+  risks:
+  - 重复
+  - 口语化
+  screening_conclusion: retain
+  reason: 文章提供了一个非常具体、低操作门槛的小技巧，虽然内容简短，但具备知识库条目的价值，可以作为新手入门的一个实用知识点。
+- file_path: docs/202309/20230905_49.md
+  title: 【闲鱼】3 篇
+  summary: 这是一篇汇总帖，仅包含指向语雀原文的链接，没有实际内容，无法进行有效评估。
+  core_question: 无实质内容，无法提炼核心问题。
+  key_judgment: 无实质内容，无法提炼关键判断。
+  depth: low
+  suggested_destination: exclude
+  possible_shape: pool
+  risks:
+  - 格式预处理
+  screening_conclusion: exclude
+  reason: 该文件仅为索引或汇总页面，无实质内容，无法用于内容评估和后续使用。
+- file_path: docs/202309/20230905_50.md
+  title: 一篇精华帖让我四个月引流 1.5W 创业粉，成功变现 25W
+  summary: 作者分享了自己通过实操一个闲鱼引流项目，四个月引流1.5万创业粉并变现25万的经历，并对原项目进行了优化。
+  core_question: 如何将闲鱼引流项目有效落地并实现规模化变现？
+  key_judgment: 该项目通过结合闲鱼引流和培训业务形成业务闭环，具有高可操作度。文章展示了从发现项目到落地上手、再到结合自身理解进行优化的完整过程，证明了项目经过优化后具有可复制性。
+  depth: medium
+  suggested_destination: case
+  possible_shape: booklet
+  risks:
+  - 重复
+  - 口语化
+  screening_conclusion: retain
+  reason: 文章是一个真实项目操作案例，具有较强的说服力和可参考性。其核心价值在于展示了如何将一个引流项目与培训结合，形成完整的商业闭环，适合作为案例库的内容。
+- file_path: docs/202309/20230905_53.md
+  title: 【海外项目】5 篇
+  summary: 这是一篇汇总帖，仅包含指向语雀原文的链接，没有实际内容，无法进行有效评估。
+  core_question: 无实质内容，无法提炼核心问题。
+  key_judgment: 无实质内容，无法提炼关键判断。
+  depth: low
+  suggested_destination: exclude
+  possible_shape: pool
+  risks:
+  - 格式预处理
+  screening_conclusion: exclude
+  reason: 该文件仅为索引或汇总页面，无实质内容，无法用于内容评估和后续使用。
+- file_path: docs/202309/20230905_54.md
+  title: 做出让亦仁愿意付费的产品：1000 个以上分享真实收入的产品和服务（MRR in Twitter)）
+  summary: 作者介绍了自己正在制作一个收集1000+个海外工具站真实收入案例的产品，并分享了初步的构思和市场验证过程。
+  core_question: 如何系统性地收集和整理海外工具站的真实收入案例，并打造一个有价值的产品？
+  key_judgment: 文章展示了一种利用信息差和公开数据（Twitter上的MRR分享）进行产品创意和市场验证的过程。其核心价值在于提供了一种可复制的产品开发思路：发现需求、集采案例、验证市场。
+  depth: medium
+  suggested_destination: case
+  possible_shape: series
+  risks:
+  - 口语化
+  - 时效性
+  screening_conclusion: retain
+  reason: 文章提供了一个有价值的研究角度（海外工具站收入案例）和产品化思路，可以作为案例素材，展示如何从社区需求中发现商业机会。
+- file_path: docs/202309/20230905_55.md
+  title: 转型做站外推广服务商，第一年我赚了 100 万
+  summary: 作者分享了从亚马逊卖家转型为站外推广服务商的经历，第一年赚取100万利润，并详细介绍了服务商的业务模式、获客方法和行业逻辑。
+  core_question: 如何从亚马逊卖家转型为站外推广服务商并实现盈利？
+  key_judgment: 文章揭示了站外推广服务商的核心是赚取信息差，并详细拆解了从资源积累、业务拓展到获客引流的完整路径。其关键判断是，对于懂引流的人来说，作为中间商（二道贩子）而非一手服务商是更快的赚钱方式。
+  depth: high
+  suggested_destination: chapter
+  possible_shape: booklet
+  risks:
+  - 时效性
+  - 口语化
+  screening_conclusion: retain
+  reason: 文章完整呈现了一个真实、具体的转型创业案例，涵盖了行业逻辑、操作流程和核心方法论（信息差），具有很高的参考价值和实操性，适合作为手册或书中的一个独立章节。
+- file_path: docs/202309/20230905_59.md
+  title: 【其他】9 篇
+  summary: 这是一篇汇总帖，仅包含指向语雀原文的链接，没有实际内容，无法进行有效评估。
+  core_question: 无实质内容，无法提炼核心问题。
+  key_judgment: 无实质内容，无法提炼关键判断。
+  depth: low
+  suggested_destination: exclude
+  possible_shape: pool
+  risks:
+  - 格式预处理
+  screening_conclusion: exclude
+  reason: 该文件仅为索引或汇总页面，无实质内容，无法用于内容评估和后续使用。
+- file_path: docs/202309/20230905_60.md
+  title: 线下实体复苏，经营一家奶茶店到底挣不挣钱？
+  summary: 作者结合自身经营三家奶茶店的经验，详细分析了奶茶店行业的现状、盈利数据、开店流程，并总结了选址、选品牌和运营中的关键要点及踩过的坑。
+  core_question: 在当前的线下实体复苏背景下，经营一家奶茶店是否值得？如何科学开一家能盈利的奶茶店？
+  key_judgment: 文章的核心判断是：奶茶店是红海市场，可以开但必须谨慎。盈利的关键在于‘选址定生死’和‘加盟大品牌’；同时，经营者需要具备动态调整思维（如拓展团单、合作外卖），才能在逆境中存活。文章提供了大量真实数据和经验总结。
+  depth: high
+  suggested_destination: case
+  possible_shape: booklet
+  risks:
+  - 口语化
+  - 格式预处理
+  screening_conclusion: retain
+  reason: 这是一篇深度极高的实操分享，不仅提供了宏观行业分析和微观数据，还包含了宝贵的失败经验（加盟坑、选址坑），对线下实体创业具有很高的参考价值，适合作为案例库或手册的核心内容。
+- file_path: docs/202309/20230905_69.md
+  title: 【星主的收藏夹】15 篇
+  summary: 这是一篇汇总帖，仅包含指向语雀原文的链接，没有实际内容，无法进行有效评估。
+  core_question: 无实质内容，无法提炼核心问题。
+  key_judgment: 无实质内容，无法提炼关键判断。
+  depth: low
+  suggested_destination: exclude
+  possible_shape: pool
+  risks:
+  - 格式预处理
+  screening_conclusion: exclude
+  reason: 该文件仅为索引或汇总页面，无实质内容，无法用于内容评估和后续使用。
+- file_path: docs/202309/20230905_70.md
+  title: 未来 5 年里，互联网会造就一批“新个体”。
+  summary: 这是一个短篇观点分享，预测未来5年内互联网将催生一批以‘一人公司+数字游民’状态存在的‘新个体’，他们年收入可达几十万到300万。
+  core_question: 未来互联网时代，个人的工作与存在形态将发生什么变化？
+  key_judgment: 文章提出了一个简洁有力的趋势判断：未来将出现大量无需固定办公地点和雇员，凭借稳定模式实现年收入几十万到数千万的‘新个体’。这种判断反映了对灵活就业和数字化生存方式的乐观预期。
+  depth: low
+  suggested_destination: kb_entry
+  possible_shape: kb
+  risks:
+  - 口语化
+  - 重复
+  screening_conclusion: retain
+  reason: 虽然内容简短且为观点性文字，但‘新个体’的定义和趋势判断具有一定的前瞻性和普及价值，适合作为知识库中的一个概念性条目。

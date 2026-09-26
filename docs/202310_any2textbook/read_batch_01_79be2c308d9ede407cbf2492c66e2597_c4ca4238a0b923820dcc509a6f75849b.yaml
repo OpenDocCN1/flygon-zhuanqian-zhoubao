@@ -1,0 +1,132 @@
+- file_path: docs/202310/20231017_000.md
+  title: 龙哥赚钱周报 20231017
+  summary: 这是一份2023年10月17日的'龙哥赚钱周报'，仅包含标题和语雀原文链接，正文内容为空。
+  core_question: 本期周报围绕哪些主题、收录了哪些内容？
+  key_judgment: 文件本身没有实质性观点，仅作为期刊或栏目的标识性文件，可能具有索引价值。
+  depth: low
+  suggested_destination: appendix
+  possible_shape: kb
+  risks:
+  - 格式预处理
+  - 其他
+  screening_conclusion: exclude
+  reason: 文件没有实质内容，仅有标题和链接，无法支撑任何知识沉淀或内容复用。
+- file_path: docs/202310/20231017_001.md
+  title: 【生财技能】6 篇
+  summary: 收录6篇关于'生财技能'的文章，仅包含标题和原文链接，没有列出具体文章标题或摘要。
+  core_question: 这6篇生财技能文章具体讲了哪些技能？
+  key_judgment: 标题表明这是技能类文章的合集索引，有组织意图，但缺乏具体内容。
+  depth: low
+  suggested_destination: kb_entry
+  possible_shape: kb
+  risks:
+  - 格式预处理
+  - 其他
+  screening_conclusion: demote
+  reason: 仅作为合集索引，无实际内容可用；可保留链接条目，但不足以单独成篇，建议降级为知识库条目。
+- file_path: docs/202310/20231017_008.md
+  title: 【生财认知】9 篇
+  summary: 收录9篇关于'生财认知'的文章，仅包含标题和原文链接，没有列出具体文章标题或摘要。
+  core_question: 这9篇生财认知文章具体讲了哪些认知观点？
+  key_judgment: 标题表明这是认知类文章的合集索引，对财富认知主题有聚合意图。
+  depth: low
+  suggested_destination: kb_entry
+  possible_shape: kb
+  risks:
+  - 格式预处理
+  - 其他
+  screening_conclusion: demote
+  reason: 仅作为合集索引，无实际内容可用；保守起见保留链接，降级为知识库条目。
+- file_path: docs/202310/20231017_018.md
+  title: 【生财心态】5 篇
+  summary: 收录5篇关于'生财心态'的文章，仅包含标题和原文链接，没有列出具体文章标题或摘要。
+  core_question: 这5篇生财心态文章具体讲了哪些心态策略？
+  key_judgment: 标题表明这是心态类文章的合集索引，对心理建设主题有聚合意图。
+  depth: low
+  suggested_destination: kb_entry
+  possible_shape: kb
+  risks:
+  - 格式预处理
+  - 其他
+  screening_conclusion: demote
+  reason: 仅作为合集索引，无实际内容可用；保留链接条目，降级为知识库条目。
+- file_path: docs/202310/20231017_024.md
+  title: 【AI 相关】18 篇
+  summary: 收录18篇与AI相关的文章，仅包含标题和原文链接，没有列出具体文章标题或摘要。
+  core_question: 这18篇AI相关文章具体覆盖了哪些AI话题和应用场景？
+  key_judgment: 标题表明这是AI主题的合集索引，是追踪AI与生财结合趋势的入口。
+  depth: low
+  suggested_destination: kb_entry
+  possible_shape: kb
+  risks:
+  - 时效性
+  - 格式预处理
+  - 其他
+  screening_conclusion: demote
+  reason: 仅作为合集索引，无实际内容；但AI主题在策划中重要，保留索引链接便于后续回源，降级为知识库条目。
+- file_path: docs/202310/20231017_042.md
+  title: 【微信】19 篇
+  summary: 收录19篇与微信生态相关的文章，仅包含标题和原文链接，没有列出具体文章标题或摘要。
+  core_question: 这19篇微信相关文章具体覆盖了哪些运营或变现方法？
+  key_judgment: 标题表明这是微信主题的合集索引，是微信生态生财方法的入口。
+  depth: low
+  suggested_destination: kb_entry
+  possible_shape: kb
+  risks:
+  - 格式预处理
+  - 其他
+  screening_conclusion: demote
+  reason: 仅作为合集索引，无实际内容；微信是核心渠道，保留链接便于回源，降级为知识库条目。
+- file_path: docs/202310/20231017_061.md
+  title: 【抖音】8 篇
+  summary: 收录8篇与抖音相关的文章，仅包含标题和原文链接，没有列出具体文章标题或摘要。
+  core_question: 这8篇抖音相关文章具体覆盖了哪些运营或变现方法？
+  key_judgment: 标题表明这是抖音主题的合集索引，是抖音生态生财方法的入口。
+  depth: low
+  suggested_destination: kb_entry
+  possible_shape: kb
+  risks:
+  - 格式预处理
+  - 其他
+  screening_conclusion: demote
+  reason: 仅作为合集索引，无实际内容；抖音是核心渠道，保留链接便于回源，降级为知识库条目。
+- file_path: docs/202310/20231017_070.md
+  title: 【闲鱼】5 篇
+  summary: 收录5篇与闲鱼相关的文章，仅包含标题和原文链接，没有列出具体文章标题或摘要。
+  core_question: 这5篇闲鱼相关文章具体覆盖了哪些运营或变现方法？
+  key_judgment: 标题表明这是闲鱼主题的合集索引，是闲鱼生态生财方法的入口。
+  depth: low
+  suggested_destination: kb_entry
+  possible_shape: kb
+  risks:
+  - 格式预处理
+  - 其他
+  screening_conclusion: demote
+  reason: 仅作为合集索引，无实际内容；闲鱼是细分渠道，保留链接便于回源，降级为知识库条目。
+- file_path: docs/202310/20231017_076.md
+  title: 【小红书】8 篇
+  summary: 收录8篇与小红书相关的文章，仅包含标题和原文链接，没有列出具体文章标题或摘要。
+  core_question: 这8篇小红书相关文章具体覆盖了哪些运营或变现方法？
+  key_judgment: 标题表明这是小红书主题的合集索引，是小红书生态生财方法的入口。
+  depth: low
+  suggested_destination: kb_entry
+  possible_shape: kb
+  risks:
+  - 格式预处理
+  - 其他
+  screening_conclusion: demote
+  reason: 仅作为合集索引，无实际内容；小红书是核心渠道，保留链接便于回源，降级为知识库条目。
+- file_path: docs/202310/20231017_085.md
+  title: 【海外项目】8 篇
+  summary: 收录8篇与海外项目相关的文章，仅包含标题和原文链接，没有列出具体文章标题或摘要。
+  core_question: 这8篇海外项目文章具体覆盖了哪些海外市场或项目方法？
+  key_judgment: 标题表明这是海外主题的合集索引，是探索海外生财机会的入口。
+  depth: low
+  suggested_destination: kb_entry
+  possible_shape: kb
+  risks:
+  - 时效性
+  - 格式预处理
+  - 其他
+  screening_conclusion: demote
+  reason: 仅作为合集索引，无实际内容；海外主题有拓展价值，保留链接便于回源，降级为知识库条目。

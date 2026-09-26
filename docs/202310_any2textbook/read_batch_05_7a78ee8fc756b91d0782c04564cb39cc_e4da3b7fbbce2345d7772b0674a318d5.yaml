@@ -1,0 +1,134 @@
+- file_path: docs/202310/20231017_077.md
+  title: All in 小红书 6 个月，扭亏为盈变现 70w+
+  summary: 作者牧歌分享团队3月All in小红书，前两个月持续亏损，后因一个偶然灵感扭转局面，6个月实现扭亏为盈并变现70万+的实操经历。
+  core_question: 如何在小红书上从持续亏损转为盈利，并在6个月内变现70万+？
+  key_judgment: 小红书运营并非一味的投入和坚持，需要找到关键的转折点或灵感，并通过有效的变现路径将流量转化为实际收益。
+  depth: medium
+  suggested_destination: case
+  possible_shape: kb
+  risks:
+  - 时效性
+  - 口语化
+  - 信息不完整（内容为外部链接摘要）
+  screening_conclusion: retain
+  reason: 提供了具体的变现数字和经历，但核心内容在飞书链接中，本站内容为摘要。作为小红书变现的案例素材有价值，但需结合原文深度阅读。
+- file_path: docs/202310/20231017_078.md
+  title: 小红书教育赛道 GMV1600 万-年，小团队创业心法
+  summary: 作者珍妮子分享其深耕留学教育赛道，通过小红书矩阵号和IP号运营，以9人小团队实现年GMV1600万的操作方法、团队管理心法及对赛道未来的看法。
+  core_question: 小团队如何在小红书教育赛道实现年GMV1600万？
+  key_judgment: 小团队通过精准的对标账号分析、矩阵号和IP号内容策略、高效的流量转化后端以及识人招人的方法，可以在细分赛道实现高GMV。
+  depth: high
+  suggested_destination: chapter
+  possible_shape: booklet
+  risks:
+  - 时效性
+  - 口语化
+  - 信息不完整（内容为外部链接摘要）
+  screening_conclusion: retain
+  reason: 系统性分享了小团队在垂直赛道的高效打法和心法，具备深度和实操性，是可借鉴的章节级素材。
+- file_path: docs/202310/20231017_086.md
+  title: 毛利三分也能年入百万：从一个产品挖到原料需求，通过建立工厂降低成本
+  summary: 作者素练基于自身传统外贸经验，通过多个案例阐述如何在外贸领域通过深耕细分产品、深挖原料需求、向上游建厂降低成本，实现即使毛利只有3%也能年入百万，并分享了主流的获客途径和求职跳槽建议。
+  core_question: 在传统外贸领域，如何通过深耕细分市场实现高利润？以及有哪些获客和从业建议？
+  key_judgment: 低毛利并不意味着低利润，关键在于走量或向产业链上游延伸（建厂）掌握成本和供应优势，实现高收益。外贸的核心是产品知识和客户积累，而非表面技巧。
+  depth: high
+  suggested_destination: chapter
+  possible_shape: book
+  risks:
+  - 时效性
+  - 重复
+  screening_conclusion: retain
+  reason: 内容详实，包括具体案例、利润核算方式、获客途径（展会、官网、海关数据、谷歌开发）、面试经验等，是深度高且一手经验丰富的外贸运营指引。
+- file_path: docs/202310/20231017_087.md
+  title: 亚马逊 DIY&POD 定制模式分享
+  summary: 作者Barbara分享其在亚马逊上开展DIY定制小精品和来图定制（POD）模式的经验，认为该模式适合不想在亚马逊上继续大投入的卖家作为转型缓冲。
+  core_question: 亚马逊卖家如何通过DIY & POD定制模式实现低成本转型？
+  key_judgment: 亚马逊DIY&POD模式具备低运营门槛、低试错成本和低启动资金的优势，是迷茫的亚马逊老鸟或新手入场的替代路径。
+  depth: low
+  suggested_destination: case
+  possible_shape: kb
+  risks:
+  - 口语化
+  - 信息不完整（内容为外部链接摘要）
+  screening_conclusion: retain
+  reason: 提供了一个明确的电商转型方向，但本站内容为摘要，核心方法论在飞书链接中。作为一档案例保留，但暂不具备独立成章深度。
+- file_path: docs/202310/20231017_096.md
+  title: 【其他】23 篇
+  summary: 该素材为一篇合集，正文为空，仅包含链接标题'【其他】23篇'，引用链接指向未知聚合内容。
+  core_question: 无明确问题，此素材内容无法获取。
+  key_judgment: 无法从现有信息中提取有效观点。
+  depth: low
+  suggested_destination: exclude
+  possible_shape: pool
+  risks:
+  - 格式预处理
+  - 信息损坏
+  screening_conclusion: exclude
+  reason: 素材内容完全不包含正文或摘要，无法提取核心问题、判断或深度，不满足任何筛选要求，只能排除。
+- file_path: docs/202310/20231017_102.md
+  title: 支付宝赏金复盘——私域流量如何运营才能实现收益最大化
+  summary: 作者李振复盘了公司在支付宝赏金活动期间的执行，3天额外变现5W+，总结了未第一时间群发、未将流量分组、新粉丝日活不足等错误，并提出私域运营核心是信任、需要多重变现和精细化运营。
+  core_question: 如何通过私域流量运营在支付宝赏金活动中实现收益最大化？
+  key_judgment: 私域运营的核心是建立信任而非单纯营销，活动效果取决于未雨绸缪的基建、兵贵神速的触达、合理的流量分组和精细化的文案素材。
+  depth: medium
+  suggested_destination: chapter
+  possible_shape: booklet
+  risks:
+  - 时效性
+  - 口语化
+  screening_conclusion: retain
+  reason: 既有私域运营的核心理论（如井水与自来水比喻），又有具体的活动复盘和执行细节，理论结合实践，对私域运营有多维度的参考价值。
+- file_path: docs/202310/20231017_103.md
+  title: 结构化思维赋能资料整理，实现高效调用、拒绝形式主义
+  summary: 作者一只菲比分享如何运用结构化思维进行资料整理、信息调用和计划复盘，通过系统性方法实现在航海中的高效产出和调用。
+  core_question: 如何运用结构化思维提升资料整理的效率和调用的便捷性？
+  key_judgment: 结构化思维是提升信息管理和工作效率的核心，通过精准存放、快速翻找和结构化计划复盘，可以避免形式主义，实现高效调用。
+  depth: medium
+  suggested_destination: handbook_entry
+  possible_shape: handbook
+  risks:
+  - 口语化
+  - 信息不完整（内容为外部链接摘要）
+  screening_conclusion: retain
+  reason: 提供了一个通用性强的方法论，适用于资料整理场景，但对信息管理工具的具体应用细节在飞书链接中，适合作为手册或百科条目。
+- file_path: docs/202310/20231017_105.md
+  title: 卖虚拟资源如何转型发财，实现被动收入
+  summary: 作者领飞分享其从卖虚拟资源（课程教程）的经验，提出现在卖资料不如卖信息差，并举例说明如何通过整合行业信息差、将价格标低聚人气等方式转型，实现被动收入。
+  core_question: 卖虚拟资源的人如何转型升级，实现被动收入？
+  key_judgment: 传统的卖虚拟资源模式已接近天花板且有版权风险，转型的方向是卖信息差，即通过低价策略聚集人气、整合行业信息，空手套白狼赚取佣金或担保费。
+  depth: medium
+  suggested_destination: chapter
+  possible_shape: booklet
+  risks:
+  - 时效性
+  - 口语化
+  - 主观性较强
+  screening_conclusion: retain
+  reason: 提供了从卖资源到卖信息差的转型思路和具体操作方法，值得作为一档思维案例保留，但部分内容略显散乱和主观。
+- file_path: docs/202310/20231017_117.md
+  title: 拼多多无货源的前世今生
+  summary: 作者顺道系统梳理了拼多多无货源电商的两种类型（有货源和无货源）、无货源的各派系（暴力派和精细化派）玩法、底层逻辑、常见坑以及长期主义与短期主义的价值观辨析。
+  core_question: 拼多多无货源电商的运营模式、流派区别、底层逻辑和常见风险有哪些？
+  key_judgment: 无货源电商的本质是信息差，精细化运营和长期沉淀店铺才是正确方向，而暴力采集、黑科技、与平台对抗等短期行为终将失败，长期主义才是无货源项目持续盈利的根本。
+  depth: high
+  suggested_destination: chapter
+  possible_shape: book
+  risks:
+  - 时效性
+  - 口语化
+  - 篇幅较长
+  screening_conclusion: retain
+  reason: 系统性地分析了无货源的各类玩法、平台逻辑和心态修炼，既有实操细节（如利润核算、流量分配机制）又有深度思考（如短期vs长期主义），是电商运营的高价值素材。
+- file_path: docs/202310/20231031_002.md
+  title: 与别人合伙开公司要注意哪些事情？
+  summary: 作者昊布斯基于自身二十年企业经验，分享关于合伙开公司的关键注意事项，包括如何正确注册公司、合伙人中途退出怎么办以及错误发工资的12种方式，旨在帮助创业者规避合伙散伙的风险。
+  core_question: 创业者在合伙开公司时，应如何规避与合伙人的核心风险？
+  key_judgment: 合伙创业必须重视商业底层逻辑和公司治理，正确注册、明确退出机制、薪酬结构合理是避免兄弟式合伙、仇人式散伙的根本保障。
+  depth: medium
+  suggested_destination: chapter
+  possible_shape: book
+  risks:
+  - 口语化
+  - 信息不完整（内容为外部链接摘要）
+  screening_conclusion: retain
+  reason: 针对合伙创业这一高频痛点提供了系统性的清单式内容，拥有一定的普适性和深度，适合作为创业管理相关章节的素材。

@@ -1,0 +1,210 @@
+- file_path: docs/202309/20230905_00.md
+  title: 龙哥赚钱周报 20230905
+  summary: 这是生财有术周刊的封面页，仅包含标题与来源链接，无实质内容。
+  core_question: 无实质问题（仅为聚合标识页）
+  key_judgment: 无实质观点，作为周刊封面索引存在。
+  depth: low
+  suggested_destination: appendix
+  possible_shape: series
+  risks:
+  - 格式预处理
+  screening_conclusion: demote
+  reason: 该文件为周刊封面或索引页，无独立内容价值，可降级为附录或产品目录页使用，不具备正文收录价值。
+- file_path: docs/202309/20230905_01.md
+  title: 【生财认知】7 篇
+  summary: 这是‘生财认知’栏目的合集索引页，罗列了7篇相关文章，但未提供文章正文内容。
+  core_question: 无实质问题（仅为栏目索引）
+  key_judgment: 无实质观点，作为栏目分类索引存在。
+  depth: low
+  suggested_destination: appendix
+  possible_shape: series
+  risks:
+  - 格式预处理
+  screening_conclusion: demote
+  reason: 该文件为聚合索引页，无内容信息量，可降级为附录目录或产品列表页，避免重复收录。
+- file_path: docs/202309/20230905_02.md
+  title: 聊聊高认知穷人
+  summary: 作者从个人观察出发，批判‘高认知穷人’说法，提出许多看似高认知的人实则认知不深，根本不存在高认知穷人，并进一步阐述认知深度、广度与专注对赚钱的决定作用。
+  core_question: 为什么很多人‘道理都懂’却赚不到钱，是否真的存在高认知穷人？
+  key_judgment: 不存在‘高认知穷人’，多数人只是停留在浅层认知；认知需要靠实战验证与深度内化，聚焦赚钱领域深耕才是关键。
+  depth: high
+  suggested_destination: chapter
+  possible_shape: book
+  risks:
+  - 重复
+  screening_conclusion: retain
+  reason: 文章观点鲜明，逻辑严密，对‘认知与赚钱’关系提出了反常识的深刻判断，且案例贴近现实，具有较高认知提升价值，适合作为章节展开。
+- file_path: docs/202309/20230905_03.md
+  title: 一个人可以不依赖于别人，创造出一些新东西，这是真正快乐的来源
+  summary: 作者分享自己借助 ChatGPT 安装 Python 并抓取数据的经历，强调技术进步带来的独立创造和自由感，认为这是快乐的来源。
+  core_question: 技术进步如何赋能个人，带来何种层面的自由和快乐？
+  key_judgment: 技术普及（如 ChatGPT）正在大幅降低普通人实现创意的门槛，这种‘独立创造’带来的自由感与成就感，是深度快乐的重要来源。
+  depth: medium
+  suggested_destination: handbook_entry
+  possible_shape: handbook
+  risks:
+  - 时效性
+  screening_conclusion: retain
+  reason: 文章主题具有时代性，表达个人对AI赋能的感性体验，有启发价值，但深度有限。可作为知识库或手册条目，适用于激励性内容。
+- file_path: docs/202309/20230905_04.md
+  title: 什么样的知识体系对于赚钱是有意义的
+  summary: 作者以小红书5天涨粉7000案例，提出区别于‘玄学模式’的‘科学模式’，强调围绕具体项目建立以世界观和方法论为核心的知识体系，并探讨了因果层、案例与知识体系的边界。
+  core_question: 什么样的知识体系才能真正帮助普通人赚到钱，而非停留在信息积累的层面？
+  key_judgment: 构建知识体系应以‘有用的因果逻辑’为核心，深度理解项目运作原理，而非浅层信息堆砌；知识体系是‘用来用’的，不是‘用来看’的。
+  depth: high
+  suggested_destination: chapter
+  possible_shape: book
+  risks:
+  - 与其他文章观点重复
+  - 口语化
+  screening_conclusion: retain
+  reason: 提出了一个高质量、可复用的方法论框架，案例拆解细致，有较强的指导意义，内容深度足够，适合成为书中核心方法论章节。
+- file_path: docs/202309/20230905_05.md
+  title: 想通过这个产品赚100万以上的几个建议
+  summary: 作者针对一特定产品给出了实现100万以上收入的5条建议，包括转向海外市场、明确用户画像、建立垂直数据壁垒并借助Twitter引流。
+  core_question: 一个具体的产品项目如何实现从0到100万的业绩突破？
+  key_judgment: 突破百万级收入关键在于从国内红海转向海外市场，沉淀垂直数据库，并把数据库作为核心资产壁垒，所有动作都围绕该资产进行展开。
+  depth: medium
+  suggested_destination: case
+  possible_shape: course
+  risks:
+  - 时效性
+  - 口语化
+  screening_conclusion: retain
+  reason: 提供了具体、可执行的实操建议，虽然存在一定时效性风险，但作为案例分析或课程单元具有较高的落地参考价值。
+- file_path: docs/202309/20230905_06.md
+  title: 新手必看：分阶段的搞钱攻略
+  summary: 作者用‘挖金矿’的比喻，将一个项目从红利期到成熟期的不同阶段进行分析，阐述了不同阶段的特点、挑战及对应的博弈策略（如信息差、批量矩阵、精细化运营等）。
+  core_question: 一个项目从红利期到成熟期，不同阶段的核心逻辑和应对策略分别是什么？
+  key_judgment: ‘没有适合所有场景的策略’，应识别项目所处阶段并采取差异化竞争策略——红利期靠信息差，早期靠批量试错，成熟期靠精细化相对优势。
+  depth: high
+  suggested_destination: chapter
+  possible_shape: book
+  risks:
+  - 与其他文章观点重复
+  screening_conclusion: retain
+  reason: 用比喻将项目生命周期拆解得非常直观且逻辑严谨，为读者提供清晰的决策框架，可作为书中指导章节。
+- file_path: docs/202309/20230905_07.md
+  title: 互联网上百分之99的信息都是垃圾信息
+  summary: 作者强调互联网上绝大多数信息为垃圾信息，信息获取应转向精准、垂直、高效的工具与圈子，并提及了两种通过整理信息获利的案例。
+  core_question: 在信息过载时代，如何高效获得有价值信息并利用信息差获利？
+  key_judgment: 广泛注意力的商业时代已过，小众、垂直、被精选过的信息价值将持续走高；获取高质量信息的门槛也在提升，付费与圈子成为主流选择。
+  depth: high
+  suggested_destination: chapter
+  possible_shape: kb
+  risks:
+  - 口语化
+  - 时效性
+  screening_conclusion: retain
+  reason: 触及了信息过载时代的核心痛点，并给出了从认知到行动的建议，同时暗含了通过信息整合做产品（如社群、知识库）的商业模型，价值较高。
+- file_path: docs/202309/20230905_08.md
+  title: 刘邦开国的功劳簿
+  summary: 作者通过分析刘邦开国分封功臣的记录，反思历史记录的局限性，指出历史是选择性记录，很多功劳赫赫者被后世遗忘。
+  core_question: 历史记录是否客观？我们如何理解历史选择性与真相的偏差？
+  key_judgment: 历史记录必然存在选择性，许多重大功臣因后世叙事偏好而被淹没，读史者应意识到文本背后的叙事结构与立场。
+  depth: medium
+  suggested_destination: kb_entry
+  possible_shape: pool
+  risks:
+  - 与主营主题关联度低
+  screening_conclusion: demote
+  reason: 历史类小品文与本书赚钱认知主题面关联较弱，更多是思考方式的启发，可降级为知识库的补充型素材。
+- file_path: docs/202309/20230905_09.md
+  title: 【生财心态】4 篇
+  summary: 这是‘生财心态’栏目的合集索引页，罗列了4篇相关文章，但未提供文章正文内容。
+  core_question: 无实质问题（仅为栏目索引）
+  key_judgment: 无实质观点，作为栏目分类索引存在。
+  depth: low
+  suggested_destination: appendix
+  possible_shape: series
+  risks:
+  - 格式预处理
+  screening_conclusion: demote
+  reason: 该文件为聚合索引页，无内容信息量，可降级为附录目录或产品列表页，避免重复收录。
+- file_path: docs/202309/20230905_10.md
+  title: 窥见一个我不懂的 10 后世界
+  summary: 作者通过观察一位10后女孩在小红书售卖原创作品并赚取收入的经历，惊叹于Z世代特有的商业生态与沟通语言体系，反思营销人对新物种的认知局限。
+  core_question: 新一代年轻人的商业行为和沟通体系是怎样的，对成年人有何启示？
+  key_judgment: 小众的豆瓣式语言和亚文化圈层正在创造全新的商业场景；对上一代营销人而言，无法解码即意味着被筛选出局，这是一种市场细分的新信号。
+  depth: medium
+  suggested_destination: handbook_entry
+  possible_shape: handbook
+  risks:
+  - 时效性
+  screening_conclusion: retain
+  reason: 提供了一种观察新生代消费与交易的独特视角，具有一定启发价值，适合作为手册或知识库的补充案例。
+- file_path: docs/202309/20230905_11.md
+  title: 能做得更好，为啥我不做？
+  summary: 作者以管理读书群‘无法严格审核进群’为案例，阐述在有限资源和成本约束下，追求可执行性与效率比追求最优方案更实际。
+  core_question: 在资源有限的情况下，如何权衡理想方案与实际执行间的矛盾？
+  key_judgment: 好的执行是综合资源、成本和可行性的结果，追求完美方案并不现实；在约束条件下做出最可落地的方案才是真本事。
+  depth: high
+  suggested_destination: chapter
+  possible_shape: book
+  risks:
+  - 重复
+  screening_conclusion: retain
+  reason: 通过日常案例道出项目管理和执行力精髓，观点一针见血且易引发共鸣，适合作为关于执行力的章节素材。
+- file_path: docs/202309/20230905_12.md
+  title: 自媒体入门必修课，社交礼仪
+  summary: 作者分享了自身在自媒体服务中因长期免费付出，导致转型收费时遭遇不解和攻击的经历，反思了社交边界与礼仪的重要性。
+  core_question: 在自媒体或社交网络中，如何建立健康的社交边界与专业形象？
+  key_judgment: 长期无偿服务会扭曲用户预期，反而让人忽视你的专业价值；经营社交媒体需要平等的社交礼仪，尊重自身价值和他人边界。
+  depth: low
+  suggested_destination: handbook_entry
+  possible_shape: handbook
+  risks:
+  - 口语化
+  - 未提供完整正文
+  screening_conclusion: demote
+  reason: 话题有现实意义，反思也很真诚，但内容停留在个人体验层面，缺少完整的实操指南（正文为外链跳转），深度有限，降级为知识库的补充条目。
+- file_path: docs/202309/20230905_13.md
+  title: 正处于转型 Gap 期，该怎么办？
+  summary: 作者从个人教练视角出发，探讨在职业转型空窗期如何应对不确定性、放下焦虑，并提出了‘寻找动态确定性’与‘纠偏能力’两个核心建议。
+  core_question: 面对职业转型的巨大不确定性，如何通过心态调整和行动提升走出心理‘卡顿’？
+  key_judgment: 真正的确定性不是让外界停下来，而是提升自身‘应对不确定性’和‘随时纠偏’的能力；回归自我，是所有人生选择的出发点。
+  depth: medium
+  suggested_destination: handbook_entry
+  possible_shape: handbook
+  risks:
+  - 口语化
+  screening_conclusion: retain
+  reason: 涉及职业发展与个人成长的困惑，提供了教练式思考框架，但观点趋同于通用励志性指导，可放入知识库或手册类内容，作为心理咨询角度的补充素材。
+- file_path: docs/202309/20230905_14.md
+  title: 【生财技能】2 篇
+  summary: 这是‘生财技能’栏目的合集索引页，罗列了2篇相关文章，但未提供文章正文内容。
+  core_question: 无实质问题（仅为栏目索引）
+  key_judgment: 无实质观点，作为栏目分类索引存在。
+  depth: low
+  suggested_destination: appendix
+  possible_shape: series
+  risks:
+  - 格式预处理
+  screening_conclusion: demote
+  reason: 该文件为聚合索引页，无内容信息量，可降级为附录目录或产品列表页，避免重复收录。
+- file_path: docs/202309/20230905_15.md
+  title: 原创视频剪辑步骤
+  summary: 作者以图文形式详细拆解了混剪/二创类视频从找素材、写文案、配音、剪辑到优化原创度的全部实操步骤和避坑细节。
+  core_question: 如何系统性、批量地制作具有较高下载量和原创度的影视剪辑类视频？
+  key_judgment: 模板化的剪辑流程可以大幅提高生产效率和原创度，但核心壁垒在于选题审片能力和细节优化（如镜像、调色、关键帧水印等），遵守版权规则是前提。
+  depth: high
+  suggested_destination: handbook_entry
+  possible_shape: course
+  risks:
+  - 时效性
+  - 格式复杂
+  screening_conclusion: retain
+  reason: 提供了可直接上手的SOP级实操手册，步骤清晰、细节丰富，虽然有平台规则时变风险，但对专项技能型内容建设有较高落地价值。
+- file_path: docs/202309/20230905_16.md
+  title: 数据化选题 史上最具说服力的内容选题法
+  summary: 作者通过MCN机构参访经历，提出专业内容机构与个体创作者的重要差异在于运用数据和模型来做内容选题，并附上了外部链接供阅读。
+  core_question: 为什么大多数内容选题靠灵感，而专业机构会基于数据模型来决定？
+  key_judgment: 专业内容组织的核心竞争力之一是借由数据化流程替代个人灵感，选题可以从‘玄学’转为一道数学题，极大提升内容成功率。
+  depth: medium
+  suggested_destination: case
+  possible_shape: course
+  risks:
+  - 未提供完整正文
+  - 带销售导流
+  screening_conclusion: retain
+  reason: 观点切中要害，指出数据化选题对内容生产的重要性。虽然正文过短并带有引流嫌疑，但核心方法论具有参考价值，可作为案例或单元触发点。

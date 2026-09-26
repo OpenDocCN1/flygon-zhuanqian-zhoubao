@@ -1,0 +1,389 @@
+- canonical: 认知成长
+  aliases:
+  - 认知提升
+  - 认知进阶
+  first_seen: P001
+- canonical: 深度认知法
+  aliases:
+  - 聚焦式深度认知
+  - 聚焦式深度认知法
+  first_seen: P001
+- canonical: 知识体系
+  aliases:
+  - 知识框架
+  first_seen: P002
+- canonical: 科学模式
+  aliases:
+  - 科学范式
+  first_seen: P002
+- canonical: 玄学模式
+  aliases:
+  - 玄学范式
+  first_seen: P002
+- canonical: 世界观
+  aliases:
+  - worldview
+  first_seen: P002
+- canonical: 方法论
+  aliases:
+  - methodology
+  first_seen: P002
+- canonical: 因果层
+  aliases:
+  - 因果层级
+  first_seen: P002
+- canonical: 案例不是事实
+  aliases:
+  - 案例非事实
+  - 案例不等于事实
+  first_seen: P002
+- canonical: 一切皆假设
+  aliases:
+  - 一切都是假设
+  first_seen: P002
+- canonical: 最根本因果
+  aliases:
+  - 根本因果
+  first_seen: P002
+- canonical: 信息差
+  aliases:
+  - 信息不对称
+  - information asymmetry
+  first_seen: P003
+- canonical: 信息差红利
+  aliases:
+  - 信息差红利期
+  first_seen: P003
+- canonical: 红利衰减
+  aliases:
+  - 红利消退
+  first_seen: P003
+- canonical: 红利早期运气
+  aliases:
+  - 红利期运气
+  - 早期运气
+  first_seen: P003
+- canonical: SOP化规模复制
+  aliases:
+  - SOP化
+  - 标准化规模复制
+  first_seen: P003
+- canonical: 相对实力
+  aliases:
+  - 相对优势
+  first_seen: P003
+- canonical: 场景适配定理
+  aliases:
+  - 场景适配
+  first_seen: P003
+- canonical: 信息垃圾
+  aliases:
+  - 信息垃圾论
+  - 噪音信息
+  first_seen: P004
+- canonical: 信息价值悖论
+  aliases:
+  - 价值悖论
+  first_seen: P004
+- canonical: 免费信息钩子
+  aliases:
+  - 免费钩子
+  - 信息钩子
+  first_seen: P004
+- canonical: 信息整合适配
+  aliases:
+  - 信息整合与适配
+  first_seen: P004
+- canonical: 圈子
+  aliases:
+  - 圈层
+  first_seen: P004
+- canonical: 约束下的可执行原则
+  aliases:
+  - 约束可执行原则
+  first_seen: P005
+- canonical: 最优可行解
+  aliases:
+  - 最优解
+  - 最优化可行方案
+  first_seen: P005
+- canonical: 提示词工程
+  aliases:
+  - Prompt工程
+  - prompt engineering
+  first_seen: P006
+- canonical: 结构化Prompt
+  aliases:
+  - 结构化提示词
+  - structured prompt
+  first_seen: P006
+- canonical: Few-shot
+  aliases:
+  - 少样本
+  - 少量样本学习
+  - few-shot learning
+  first_seen: P006
+- canonical: BRTR
+  aliases:
+  - BRTR框架
+  first_seen: P006
+- canonical: 思维链
+  aliases:
+  - CoT
+  - chain-of-thought
+  - 思维链提示
+  first_seen: P006
+- canonical: 参数流提问
+  aliases:
+  - 参数流
+  - 参数化提问
+  first_seen: P006
+- canonical: 转化率
+  aliases:
+  - conversion rate
+  first_seen: P007
+- canonical: 行业know-how
+  aliases:
+  - 行业知识
+  - 行业诀窍
+  - 领域专长
+  first_seen: P007
+- canonical: 情感AI
+  aliases:
+  - 情感人工智能
+  first_seen: P007
+- canonical: 低枝果实
+  aliases:
+  - 低垂果实
+  - 低垂的果实
+  first_seen: P007
+- canonical: 虚拟人转化率增量
+  aliases:
+  - 虚拟人转化增量
+  first_seen: P007
+- canonical: 多体智能Agent
+  aliases:
+  - 多Agent
+  - 多体智能
+  - multi-agent
+  first_seen: P007
+- canonical: 最后一公里
+  aliases:
+  - 用户最后一公里
+  first_seen: P007
+- canonical: To人/ToAI划分
+  aliases:
+  - To人ToAI
+  - 面向人与面向AI
+  first_seen: P007
+- canonical: 打井模式
+  aliases:
+  - 打井商业模式
+  first_seen: P007
+- canonical: 毛毛虫模式
+  aliases:
+  - 毛毛虫商业模式
+  first_seen: P007
+- canonical: AI2.0 iPhone时刻
+  aliases:
+  - iPhone时刻
+  - AI的iPhone时刻
+  first_seen: P007
+- canonical: 一人公司
+  aliases:
+  - 一个人的公司
+  - solo company
+  first_seen: P008
+- canonical: 数字游民
+  aliases:
+  - digital nomad
+  first_seen: P008
+- canonical: 新个体收入
+  aliases:
+  - 新个体经济收入
+  first_seen: P008
+- canonical: 内容流量私域产品
+  aliases:
+  - 内容-流量-私域-产品
+  - 内容流量私域闭环
+  first_seen: P009
+- canonical: 钩子引流
+  aliases:
+  - 引流钩子
+  - 钩子式引流
+  first_seen: P009
+- canonical: 私域信任培育
+  aliases:
+  - 私域信任
+  - 信任培育
+  first_seen: P009
+- canonical: 产品收割
+  aliases:
+  - 收割策略
+  first_seen: P009
+- canonical: 收益公式
+  aliases:
+  - 收益模型
+  - 收入公式
+  first_seen: P010
+- canonical: 数据驱动收益优化
+  aliases:
+  - 数据驱动优化
+  - 数据化收益优化
+  first_seen: P010
+- canonical: 广告位优化
+  aliases:
+  - 广告位策略
+  first_seen: P010
+- canonical: 内容相关性
+  aliases:
+  - 内容关联性
+  first_seen: P010
+- canonical: 信息差套利
+  aliases:
+  - 信息套利
+  - 信息差套利策略
+  first_seen: P011
+- canonical: 中间商
+  aliases:
+  - 中介
+  - 中间服务商
+  first_seen: P011
+- canonical: 供需认知资源不对等
+  aliases:
+  - 资源不对等
+  - 供需认知不对等
+  first_seen: P011
+- canonical: 模块化
+  aliases:
+  - modularity
+  first_seen: P012
+- canonical: 系统化
+  aliases:
+  - systematization
+  first_seen: P012
+- canonical: 无货源整治
+  aliases:
+  - 无货源治理
+  - 无货源管控
+  first_seen: P012
+- canonical: 合规性
+  aliases:
+  - 合规
+  - compliance
+  first_seen: P012
+- canonical: 多模态工作流
+  aliases:
+  - 多模态流程
+  - multimodal workflow
+  first_seen: P013
+- canonical: 商业化前置
+  aliases:
+  - 前置商业化
+  first_seen: P013
+- canonical: 精准定位
+  aliases:
+  - 目标定位
+  first_seen: P013
+- canonical: AI产品运营
+  aliases:
+  - AI运营
+  first_seen: P013
+- canonical: 角色化提示词
+  aliases:
+  - 角色扮演提示词
+  - 角色化Prompt
+  first_seen: P013
+- canonical: 顾问教练
+  aliases:
+  - 顾问式教练
+  - 教练顾问
+  first_seen: P013
+- canonical: 选址定生死
+  aliases:
+  - 选址决定成败
+  first_seen: P014
+- canonical: 加盟大品牌
+  aliases:
+  - 大品牌加盟
+  first_seen: P014
+- canonical: 红海市场
+  aliases:
+  - 红海
+  - red ocean
+  first_seen: P014
+- canonical: 需求验证
+  aliases:
+  - 需求验证过程
+  first_seen: P015
+- canonical: 小案例集采
+  aliases:
+  - 小案例集合采集
+  - 小案例集
+  first_seen: P015
+- canonical: 月度经常性收入
+  aliases:
+  - MRR
+  - monthly recurring revenue
+  first_seen: P015
+- canonical: 免费流量
+  aliases:
+  - 自然流量
+  - 免费流量池
+  first_seen: P016
+- canonical: 高客单转化
+  aliases:
+  - 高客单价转化
+  first_seen: P016
+- canonical: 私域信任
+  aliases:
+  - 私域用户信任
+  first_seen: P016
+- canonical: 圈层语言
+  aliases:
+  - 圈层话语
+  first_seen: P017
+- canonical: Z世代商业生态
+  aliases:
+  - Z世代生态
+  - Z世代商业模式
+  first_seen: P017
+- canonical: 新消费物种
+  aliases:
+  - 新型消费物种
+  first_seen: P017
+- canonical: 利润迁移
+  aliases:
+  - 利润转移
+  first_seen: P018
+- canonical: 生命周期
+  aliases:
+  - lifecycle
+  first_seen: P018
+- canonical: 第二曲线
+  aliases:
+  - second curve
+  first_seen: P018
+- canonical: 执行者到架构师
+  aliases:
+  - 从执行者到架构师
+  - 执行者-架构师跃迁
+  first_seen: P018
+- canonical: 红海入场决策
+  aliases:
+  - 红海入局决策
+  first_seen: P019
+- canonical: 差异化生存空间
+  aliases:
+  - 差异化空间
+  - 差异化定位
+  first_seen: P019
+- canonical: 多维信息交叉验证
+  aliases:
+  - 交叉验证
+  - 多维度交叉验证
+  first_seen: P019
+- canonical: 认知结果验证
+  aliases:
+  - 结果验证
+  first_seen: P001

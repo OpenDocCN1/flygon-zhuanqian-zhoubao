@@ -1,0 +1,71 @@
+notes:
+- core_question: 如何利用 GPTs 提升公众号爆文写作效率？
+  depth: medium
+  file_path: docs/202312/20231205_19.md
+  key_judgment: GPTs 价值在于将高质量垂直知识库与一次性定制指令结合，比通用大模型更优且无需微调。
+  possible_shape: book
+  reason: 清晰的应用框架（数据-指令-生成），AI 写作工作流主题的有效素材。
+  screening_conclusion: retain
+  suggested_destination: chapter
+  summary: 利用 GPTs 结合对标公众号历史文章知识库，进行公众号爆文批量生成的实操流程。
+  title: 公众号爆文写作场景下如何使用 GPTs？
+- core_question: 在图文带货中，如何通过内容策略而非产品策略脱颖而出？
+  depth: high
+  file_path: docs/202312/20231205_23.md
+  key_judgment: 核心洞察是'先搞定流量再去选品'，在物资过剩时代，流量比产品更稀缺，应先找自带流量内容再嫁接产品。
+  possible_shape: book
+  reason: 完整度高的3步方法论和4个详实案例，提供反向选品这一独特视角。
+  screening_conclusion: retain
+  suggested_destination: chapter
+  summary: 提出先找到自带流量的素材，再嫁接产品的带货图文方法，通过内容钩子引导转化。
+  title: 如何做出高效的带货图文，只需 3 步
+- core_question: 在垂直小赛道中，个体创业者如何从0到1建立IP并实现年收入150万？
+  depth: high
+  file_path: docs/202312/20231205_59.md
+  key_judgment: 核心是'小而美'商业模式闭环：定位四问打造IP，轻量化产品降低门槛，续费率倒逼产品迭代，低转高提升客单价。
+  possible_shape: book
+  reason: 高完整度结构化复盘，覆盖从定位到高价转化的全链路。
+  screening_conclusion: retain
+  suggested_destination: chapter
+  summary: 以 SaaS 产品经理垂直赛道为例，完整复盘个人IP从公众号到知识星球再到高价训练营的变现路径。
+  title: 小赛道知识付费，我如何从 0 到 150 万一年
+- core_question: 如何面向海外华人小众市场把知识付费课程做到营收规模？
+  depth: high
+  file_path: docs/202312/20231212_52.md
+  key_judgment: 海外虚拟产品有信息差红利，垂直细分更有付费价值，产品营造独特性，获客靠广告，通过自动化销售漏斗标准化销售。
+  possible_shape: book
+  reason: 详尽的海外知识付费落地手册，产品包装、销售漏斗设计具普适借鉴意义。
+  screening_conclusion: retain
+  suggested_destination: chapter
+  summary: 复盘面向海外华人售卖美国房地产投资课程商业模式，从选品、包装、YouTube广告到自动化销售漏斗。
+  title: 教海外华人炒房，一门课带来 200W 营收
+- core_question: 小白如何通过找准定位和高效方法论一年实现利润百万？
+  depth: high
+  file_path: docs/202312/20231226_24.md
+  key_judgment: 核心是找到'适合自己'的方向，以正确变现体系（轻交付、流程化）和内容策略（视觉锤、大胆引流、持续日更）驱动增长。
+  possible_shape: book
+  reason: 详尽高质量一手实操复盘，从定位到变现闭环具备高可迁移价值。
+  screening_conclusion: retain
+  suggested_destination: chapter
+  summary: 复盘从传统行业转型做个人IP，无经验从0到1第一年赚100万利润，涵盖定位、变现体系、爆款方法论等。
+  title: 做个人IP第一年，赚到100万利润
+- core_question: 素人小白如何在内容内卷环境中破局获客建立变现？
+  depth: medium
+  file_path: docs/202312/20231226_33.md
+  key_judgment: 素人破局关键在批量效应：多账号多平台矩阵博概率，通过模块化108系列建立可持续输出和变现钩子。
+  possible_shape: course
+  reason: 聚焦批量生产+108系列硬核策略，对素人破局具实操意义。
+  screening_conclusion: retain
+  suggested_destination: course_unit
+  summary: 为新人提供以'先拼数量再保质量'为原则的内容营销破局方法论。
+  title: 一个素人做IP写小作文，108营销方法论
+- core_question: 个人创业者如何在高压无正反馈的初期阶段走出情绪困境？
+  depth: medium
+  file_path: docs/202312/20231205_16.md
+  key_judgment: 创业初期抑郁核心诱因是过度自我逼迫和缺乏反馈，解决之道是通过财务规划、身体调节和行动节奏重构可持续的创业启动状态。
+  possible_shape: booklet
+  reason: 真实一手创业心理危机案例，自救框架具普遍借鉴价值。
+  screening_conclusion: retain
+  suggested_destination: chapter
+  summary: 讲述互联网个人创业前期因高压患轻度抑郁，通过规律运动、规划债务获得试错缓冲、躬身入局接受慢反馈完成自救。
+  title: 创业前期得了抑郁症，我是如何自我救赎的？

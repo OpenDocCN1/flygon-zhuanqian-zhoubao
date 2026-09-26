@@ -1,0 +1,57 @@
+- 'no': 1
+  name: 提示词工程基础 —— 学会与模型“对话”
+  desc: 本章从提示词的核心概念出发，带你理解为什么“问对问题”比“回答问题”更重要，掌握与大型语言模型高效沟通的基本方法。
+  nodes:
+  - 'no': 1
+    name: 为什么需要提示词工程
+    desc: 用“钥匙与锁”类比理解：提示词是解锁模型能力的钥匙，质量直接决定模型输出的上限
+    role: motivation
+    src:
+    - paper: 20230905_03.md
+  - 'no': 2
+    name: 提示词最佳实践：官方六大策略
+    desc: 系统介绍OpenAI六大提示词策略，从“编写清晰指令”到“提供参考文本”，构建提示词工程的第一性原理框架
+    role: method
+    src:
+    - paper: 20230905_27.md
+    - paper: H2C2devTSoZBRUx1m6YcOoFynuh.md
+  - 'no': 3
+    name: 结构化Prompt：从“聊天”到“写作”
+    desc: 引入结构化Prompt概念，理解通过格式化输入（如分节、标签、角色设定）提升输出的可预测性与质量
+    role: method
+    src:
+    - paper: 20230912_22.md
+  - 'no': 4
+    name: 参数流提问：用“参数”精确控制输出
+    desc: 以Claude的参数流提问（/参数指令）为例，展示如何像调用函数一样，通过参数约束模型的输出风格、长度与格式
+    role: extension
+    src:
+    - paper: 20230905_25.md
+- 'no': 2
+  name: 进阶提示技巧 —— 从“会问”到“问得好”
+  desc: 本章深入探讨Few-shot学习与结构化写作方法论，帮助你将提示词从“能用”升级为“高效”，让模型输出更贴近专业需求。
+  nodes:
+  - 'no': 1
+    name: Few-shot学习：让模型“照猫画虎”
+    desc: 通过“按分类构建数据集+多GPT分工”的案例，理解如何利用少量示例（Few-shot）引导模型自主学习任务规律
+    role: method
+    src:
+    - paper: 20230920_27.md
+  - 'no': 2
+    name: BRTR写作指令原则
+    desc: 介绍BRTR（Background-Role-Task-Requirement）系统方法论，探讨如何将自媒体写作等复杂任务分解为结构化指令
+    role: method
+    src:
+    - paper: 20230926_19.md
+  - 'no': 3
+    name: 业务逻辑优先：提示词的“前提”
+    desc: 从“先理解业务再应用GPT”的角度，指出提示词不是万能药，明确业务逻辑与场景界定是发挥模型价值的前提
+    role: limitation
+    src:
+    - paper: 20230920_29.md
+  - 'no': 4
+    name: 从提示词到产品：AI时代的独立创造
+    desc: 以“AI降低普通人创作门槛”为引，探讨如何将上述提示词技巧整合为个人或团队的生产力工具，实现独立创造
+    role: extension
+    src:
+    - paper: 20230905_03.md

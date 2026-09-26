@@ -1,0 +1,123 @@
+- canonical: 内容输出力
+  aliases:
+  - 内容输出
+  - 输出力
+  first_seen: P001
+- canonical: 小微闭环
+  aliases:
+  - 小闭环
+  - 最小可行循环
+  first_seen: P001
+- canonical: 铁杆粉丝理论
+  aliases:
+  - 1000铁杆粉丝
+  - 千粉理论
+  - 铁粉理论
+  first_seen: P001
+- canonical: 超级节点
+  aliases:
+  - 关键节点
+  - 高人脉节点
+  first_seen: P001
+- canonical: 道歉七难
+  aliases:
+  - 道歉的七大难点
+  - 道歉困难
+  first_seen: P002
+- canonical: 道歉十法
+  aliases:
+  - 道歉的十种方法
+  - 十种道歉方法
+  first_seen: P002
+- canonical: 时间管理五星功夫
+  aliases:
+  - 五星时间管理
+  - 时间管理五步法
+  first_seen: P003
+- canonical: 体内计时器训练法
+  aliases:
+  - 体内钟训练
+  - 内部计时器训练
+  first_seen: P003
+- canonical: WOOP模型
+  aliases:
+  - WOOP
+  - 愿望-结果-障碍-计划模型
+  first_seen: P003
+- canonical: MVP验证法
+  aliases:
+  - MVP法
+  - 最小可行产品验证
+  - MVP
+  first_seen: P003
+- canonical: 人生程序改写
+  aliases:
+  - 人生程序重写
+  - 程序改写
+  first_seen: P003
+- canonical: 日计划三步法
+  aliases:
+  - 日计划法
+  - 三步日计划
+  first_seen: P004
+- canonical: 4D工作法
+  aliases:
+  - 4D整理法
+  - 4D方法
+  - 4D
+  first_seen: P004
+- canonical: 弹性容量原则
+  aliases:
+  - 弹性容量
+  - 弹性计划原则
+  first_seen: P004
+- canonical: 优势定位
+  aliases:
+  - 优势导向定位
+  - 定位
+  first_seen: P005
+- canonical: 盖洛普才干四分类
+  aliases:
+  - 盖洛普分类
+  - 才干四分类
+  first_seen: P005
+- canonical: 普通技能外包核心技能自掌握
+  aliases:
+  - 技能外包原则
+  - 核心技能自控
+  first_seen: P005
+- canonical: 市场缺卖者不缺产品
+  aliases:
+  - 缺卖者原则
+  - 卖家稀缺
+  first_seen: P005
+- canonical: 读书笔记六法
+  aliases:
+  - 笔记六法
+  - 六种读书笔记法
+  first_seen: P006
+- canonical: 咨询方法论四步法
+  aliases:
+  - 四步咨询法
+  - 咨询四步法
+  first_seen: P007
+- canonical: 议题树
+  aliases:
+  - Issue Tree
+  - 问题树
+  first_seen: P007
+- canonical: MECE原则
+  aliases:
+  - MECE
+  - 互不重叠穷尽原则
+  first_seen: P007
+- canonical: 假说驱动
+  aliases:
+  - Hypo-Driven
+  - 假说导向
+  first_seen: P007
+- canonical: Bottom Up拆解
+  aliases:
+  - 自下而上拆解
+  - Bottom-Up
+  first_seen: P007

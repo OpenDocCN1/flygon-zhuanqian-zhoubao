@@ -1,0 +1,129 @@
+- file_path: docs/202310/20231017_002.md
+  title: 如何利用影刀 RPA 加速抖音图文的跟款效率？
+  summary: 作者Leeka通过自身实践，介绍了如何利用影刀RPA工具打造24小时不间断的跟款、修图和发布机器人，以解决抖音图文多账号运营中人力不足和效率低下的问题。
+  core_question: 如何在抖音图文运营中，利用RPA自动化工具替代重复性人力劳动，提升跟款和内容生产效率？
+  key_judgment: RPA不是程序员专属，通过可视化配置，零基础用户也能搭建自动化流程，将重复性操作（如跟款、修图、发布）交给机器人，实现效率的指数级提升。
+  depth: medium
+  suggested_destination: case
+  possible_shape: series
+  risks:
+  - 时效性
+  - 口语化
+  screening_conclusion: retain
+  reason: 提供了一个RPA在内容营销领域的具体应用案例，对其他平台有迁移性，有一定参考价值。但原文核心内容（详细教程）在外部飞书链接中，且部分技术可能已过时。
+- file_path: docs/202310/20231017_003.md
+  title: 如何利用影刀给公众号爆文赋能
+  summary: 作者马小威分享了利用影刀RPA自动化工具，在公众号爆文项目中完成选品、自动引流、自动发布等重复性工作，以矩阵化操作提升收益效率的入门思路。
+  core_question: 在公众号爆文矩阵化运营中，如何利用RPA工具解决人力有限、操作重复的问题？
+  key_judgment: RPA能把公众号运营中的重复性工作（选品、发布等）自动化，且对不懂代码的新手友好，是放大矩阵运营效率的关键工具。
+  depth: low
+  suggested_destination: kb_entry
+  possible_shape: handbook
+  risks:
+  - 重复
+  - 时效性
+  - 格式预处理
+  screening_conclusion: retain
+  reason: 观点正确但内容多为引子，核心教程在外部链接，自身信息量较低，与002号素材主题高度重复，适合作为知识库词条而非独立章节。
+- file_path: docs/202310/20231017_004.md
+  title: 爆款分析数据库 流量人必备 V1.2 模板分享
+  summary: 作者嘉明Lock分享了一个基于飞书多维表格制作的「爆款模仿收集模板」，帮助流量运营者系统化地收集和分析各平台的爆款账号与作品数据，并附带了多次版本更新说明。
+  core_question: 如何构建一个高效的爆款案例收集与分析系统，以辅助内容创作和选品决策？
+  key_judgment: 相较于简单的Excel表格，使用多维表格建立关联数据库，能更灵活、高效地追踪账号数据与爆款作品，并通过视图和仪表盘进行深度分析。
+  depth: medium
+  suggested_destination: handbook_entry
+  possible_shape: handbook
+  risks:
+  - 格式预处理
+  - 时效性
+  screening_conclusion: retain
+  reason: 这是一份可操作性强的工具型模板分享，核心价值在于“多维表格”这一数据管理思路，可以作为爆款分析的实用工具附录。但模板有具体工具绑定（飞书），且需要后续数据处理。
+- file_path: docs/202310/20231017_005.md
+  title: 如何靠近当下有结果的人？——航海好事使用指南
+  summary: 作者郭晓文以生财有术的“航海好事”栏目为例，为新手提供了一套如何筛选、观察和靠近在特定问题上取得成果的人的实操方法论。
+  core_question: 新手在入门项目时，如何识别并有效靠近“当下有结果的人”，避免闭门造车和精神内耗？
+  key_judgment: 靠近有结果的人，重点是研究其“行动痕迹”（尤其是日常日志），而非单纯点赞或加好友；要关注其解决问题过程中的方法和心态，而非只看最终成果。
+  depth: high
+  suggested_destination: chapter
+  possible_shape: booklet
+  risks:
+  - 口语化
+  - 时效性
+  screening_conclusion: retain
+  reason: 这不仅是平台使用指南，更是一套可迁移的“向他人学习”的方法论，超越了单一平台限制，对新手成长有普适性指导价值，适合作为独立章节。
+- file_path: docs/202310/20231017_006.md
+  title: 创业、副业找伙伴，找投资？一篇文章说清如何让人能听懂你的项目
+  summary: 作者歧黄之后整理了一篇关于如何撰写商业计划书（BP）的心得，旨在帮助创业或做副业的人清晰地向潜在合作伙伴或投资人介绍自己的项目。
+  core_question: 如何将复杂的创业或副业项目，清晰地传达给潜在的伙伴或投资人，以获得支持？
+  key_judgment: 撰写BP的核心是“让人听懂”，需要系统化梳理项目逻辑（如市场、产品、商业模式等），而非罗列零散信息，但具体方法论未在正文中展开。
+  depth: low
+  suggested_destination: kb_entry
+  possible_shape: handbook
+  risks:
+  - 格式预处理
+  - 重复
+  screening_conclusion: demote
+  reason: 主题有普适价值（BP撰写），但内容本身仅为引子，无实质方法论输出，核心内容全部在外部链接中。信息密度低，降级为知识库词条。
+- file_path: docs/202310/20231017_007.md
+  title: 零基础上手影刀 RPA：15 分钟抓取 200 条小红书笔记
+  summary: 作者阿盛为RPA零基础用户提供了一份入门指南，通过一个“自动抓取小红书笔记”的具体案例，讲解了影刀RPA的应用场景和基本制作流程。
+  core_question: 零基础用户如何快速上手影刀RPA，并将其应用于实际工作场景中的重复性任务？
+  key_judgment: RPA学习应“以目标为导向”，通过完成一个具体的小任务（如抓取笔记）来快速入门，而非先学习抽象的理论和软件功能。
+  depth: medium
+  suggested_destination: case
+  possible_shape: series
+  risks:
+  - 时效性
+  - 口语化
+  - 格式预处理
+  screening_conclusion: retain
+  reason: 提供了一个零基础学习新工具（RPA）的“目标导向”方法论，具有启发性。文中关于抓取的操作方式可能随平台变化而过时，但底层学习思维仍有价值。
+- file_path: docs/202310/20231017_009.md
+  title: 要去满足别人的需求，而不是自己想要什么
+  summary: 粥左罗通过自身知识付费产品的发售案例，论证了“满足他人需求”是获得商业成功和个人成就的核心思维模式。
+  core_question: 为什么“满足他人需求”是商业成功的本质，以及如何将其落实到具体产品设计和营销环节中？
+  key_judgment: 商业成功的本质是比竞争对手更好地满足用户需求，这要求产品设计和营销行为都必须从“利他”出发，而非“利己”，并列举了多个具体的落地实操细节。
+  depth: high
+  suggested_destination: chapter
+  possible_shape: book
+  risks:
+  - 重复
+  screening_conclusion: retain
+  reason: 这是一篇完整的商业思维方法论，观点鲜明，论据详实。特别是其“需求前置式”产品发售拆解，极具参考价值，可作为独立章节或重要案例。
+- file_path: docs/202310/20231017_010.md
+  title: 持续写作成为高手，必备这 3 个写作心态
+  summary: 粥左罗总结了持续写作并成为高手的三大心态：认清写作的真正价值（成长>变现）、喜欢写作本身（而非好处）、管理好预期与能力的落差。
+  core_question: 如何调整心态，克服初学写作时的急功近利和挫败感，从而获得写作带来的长期成长价值？
+  key_judgment: 写作的核心价值在于倒逼认知、思考和解决问题能力的提升，而非短期变现；保持“因为喜欢而写”和“预期匹配能力”的心态，才能跨越痛苦期，最终收获更大成果。
+  depth: high
+  suggested_destination: chapter
+  possible_shape: book
+  risks:
+  - 重复
+  screening_conclusion: retain
+  reason: 内容深刻、结构清晰，直面写作新手最大的心理障碍，提供了超越技巧层面的底层心态建设，有很强的普适性和指导性。
+- file_path: docs/202310/20231017_011.md
+  title: 别陷入写作误区，必须深刻理解这 4 点
+  summary: 粥左罗提出了四个反常识但极其有效的写作理念：越是没积累越要写、要写似懂非懂的东西、通过写课完成专家化、以及把写作生活化。
+  core_question: 对于希望提升写作能力和实现个人成长的人而言，有哪些常见的认知误区，以及对应的正确修炼路径是什么？
+  key_judgment: 写作不是“等准备好了才开始”的被动行为，而是主动的成长工具：它可以倒逼输入和思考，强迫自己搞懂模糊概念，并系统地完成特定领域的专家化。
+  depth: high
+  suggested_destination: chapter
+  possible_shape: book
+  risks:
+  - 重复
+  screening_conclusion: retain
+  reason: 提供了颠覆性的写作认知和可操作的实践方法，特别是“通过写课专家化”的观点，对内容创作者极具启发，是高质量的方法论内容。
+- file_path: docs/202310/20231017_012.md
+  title: 你模仿的人，决定了你未来的高度
+  summary: 小马宋通过举例文学、艺术等领域大师的师承关系，论证了一个观点：你选择和模仿的对象水平，从根本上决定了你未来发展的高度。
+  core_question: 在个人成长和专业技能学习中，模仿对象的选择为何如此重要，以及应如何选择模仿对象？
+  key_judgment: 模仿是学习的捷径，但模仿对象的选择至关重要。不能仅停留在行业内的顶尖人物，而要溯流而上，向更高层级的“底层智慧”（如哲学、战略）学习，才能获得持续成长。
+  depth: medium
+  suggested_destination: kb_entry
+  possible_shape: handbook
+  risks:
+  - 重复
+  - 口语化
+  screening_conclusion: retain
+  reason: 观点凝练且有启发，但文章结构相对简单（观点+举例），缺乏系统的落地步骤。适合作为知识库中关于“学习方法论”的一个闪光词条。

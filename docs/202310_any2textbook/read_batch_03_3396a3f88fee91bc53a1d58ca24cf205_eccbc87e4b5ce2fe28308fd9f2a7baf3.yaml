@@ -1,0 +1,127 @@
+- file_path: docs/202310/20231017_025.md
+  title: 从零开始学 AI 绘画，万字 Stable Diffusion 终极教程
+  summary: 文章是面向小白的 Stable Diffusion 系统性入门教程，涵盖入门、关键词、Lora、图生图、ControlNet 等六节内容，并打包提供了所需资源，强调通过实例教学让小白也能上手。
+  core_question: 如何系统地从零开始学会 Stable Diffusion，并能够独立产出各种类型的 AI 绘画作品？
+  key_judgment: 以‘奶奶都能听懂’的教学理念，用实例驱动的方法降低 SD 学习门槛，将复杂操作拆解为六个模块，并提供完整的资源包，形成一站式学习闭环，是新手友好的高质量教程框架。
+  depth: high
+  suggested_destination: course_unit
+  possible_shape: course
+  risks:
+  - 时效性
+  - 重复
+  screening_conclusion: retain
+  reason: 内容结构完整、教学目标清晰、配套资源齐全，适合作为系统课程的蓝本。虽附有外链，但文章本身提供了完整的框架和教学理念，可提炼为课程单元。
+- file_path: docs/202310/20231017_026.md
+  title: 4 个步骤，用 ChatGPT 写爽文小说，让读者支棱起来
+  summary: 文章展示了如何利用 ChatGPT 按照四步框架（感官紧张、危险出现、内心紧张、看见曙光）来生成短篇爽文小说的训练方法。
+  core_question: 如何利用 ChatGPT 有效生成能够调动读者情绪的爽文小说？
+  key_judgment: 爽文的核心在于情绪调动，通过一套结构化的四步叙事框架可以引导 ChatGPT 产出符合‘爽’感的短篇内容，且需明确其更适合短篇而非长篇。
+  depth: medium
+  suggested_destination: handbook_entry
+  possible_shape: handbook
+  risks:
+  - 口语化
+  screening_conclusion: retain
+  reason: 提供了具体的操作步骤，评论区包含有价值的后续讨论和技法澄清（如逻辑混乱问题），可作为 AI 写作的实操手册条目。
+- file_path: docs/202310/20231017_027.md
+  title: 新手如何从零开始调制一个 prompt，以拆解公众号爆文 prompt 为例
+  summary: 文章以拆解公众号爆文 prompt 为例，向新手介绍结构化 prompt 及其调制方法，强调从自身最想解决的问题出发来构建 prompt。
+  core_question: 新手如何从零开始构建和调制自己的结构化 prompt？
+  key_judgment: 调制 prompt 的核心不是模仿框架，而是从自己的实际需求出发，将问题本身作为 prompt 的起点，这比学习框架更为重要。
+  depth: medium
+  suggested_destination: handbook_entry
+  possible_shape: handbook
+  risks:
+  - 时效性
+  - 重复
+  screening_conclusion: retain
+  reason: 文章提出了有价值的 prompt 学习方法论，且原文是精华帖，可提炼为 handbook 的实操指南，但内容深度有限，部分信息可能过时。
+- file_path: docs/202310/20231017_028.md
+  title: 如何利用 GPT 写出 10w+爆文
+  summary: 作者分享自己在一个月内利用 GPT 创作出 7 篇 10w+ 爆文的经验，概括为‘一看、二抄、三写’的三步流程，细节需要移步飞书查看。
+  core_question: 如何利用 GPT 高效创作出爆款公众号文章？
+  key_judgment: 利用 GPT 写爆文的核心在于‘一看、二抄、三写’的模仿-输出流程，强调借鉴而非完全依赖 AI 生成。
+  depth: low
+  suggested_destination: kb_entry
+  possible_shape: kb
+  risks:
+  - 格式预处理
+  - 时效性
+  screening_conclusion: demote
+  reason: 文章仅为摘要，核心内容依赖外链，信息不完整，深度有限，适合作为知识库的一条索引或补全信息来源。
+- file_path: docs/202310/20231017_029.md
+  title: 玩疯了！ChatGPT4 的图形识别测试！
+  summary: 文章记录了作者在获得 ChatGPT4 图形识别功能灰度权限后，从多个应用场景进行测试的体验和结果展示，具体内容需移步飞书。
+  core_question: ChatGPT4 的图形识别功能在哪些场景下表现如何，能力边界在哪里？
+  key_judgment: 通过实战测试可以感知到 GPT4 图形识别的能力边界，评论区指出其会拒绝关于名人容貌之类的话题，但可通过特定话术规避。
+  depth: low
+  suggested_destination: kb_entry
+  possible_shape: kb
+  risks:
+  - 时效性
+  - 格式预处理
+  screening_conclusion: demote
+  reason: 内容为功能体验和测试，信息零散，时效性强，核心内容外链，适合作为知识库条目记录当时的测试结果和社区反馈。
+- file_path: docs/202310/20231017_030.md
+  title: 无限贴近真人的调教方法,助力 AI 变现
+  summary: 文章介绍作者在三个月里研究 Stable Diffusion 在人像写真应用中的心得，重点包括如何还原人脸、真人转漫画、搭建人脸 Lora、模板照片换脸等技巧。
+  core_question: 如何使用 Stable Diffusion 在人像生成中实现高度贴近原图的人脸还原？
+  key_judgment: 人脸还原是 SD 人像方向的核心，作者通过系列专题实践，提供了从出图思路到优化的完整方法论，可有效提高相似度。
+  depth: high
+  suggested_destination: chapter
+  possible_shape: book
+  risks:
+  - 时效性
+  screening_conclusion: retain
+  reason: 文章针对具体场景提供了详细的技术拆解和方法论，具有操作性和深度，可作为技术书籍中的核心章节或高级教程单元。
+- file_path: docs/202310/20231017_031.md
+  title: 打造差异化｜小众爆文｜ChatGPT 写“打油诗”
+  summary: 文章提出用 ChatGPT 写‘打油诗’作为公众号爆文差异化的策略，并提供了详细的 prompt 指令、市场分析和实例演示。
+  core_question: 如何利用 ChatGPT 创作‘打油诗’文体，为公众号内容打造差异化优势？
+  key_judgment: 在公众号爆文千篇一律的环境下，利用‘打油诗’这一新颖文体可以提升文章的完读率和可读性，是打造内容差异化的有效切入点。
+  depth: medium
+  suggested_destination: handbook_entry
+  possible_shape: handbook
+  risks:
+  - 重复
+  - 口语化
+  screening_conclusion: retain
+  reason: 文章提供了完整的 Prompt 指令和实例，展示了一个具体创新应用场景，具备实用价值，可以作为 AI 写作技巧的手册条目。
+- file_path: docs/202310/20231017_032.md
+  title: 如何用 ChatGPT 做小红书账号 1v1 定位咨询的
+  summary: 文章分享了作者如何结合自身经验与 ChatGPT，为他人提供付费的小红书账号 1v1 定位咨询服务，并展示了全过程。
+  core_question: 如何将 ChatGPT 的能力与个人经验结合，打造成一个可收费的小红书账号定位咨询产品？
+  key_judgment: 用 ChatGPT 做小红书定位咨询的核心价值在于‘人机结合’，即通过 AI 的推导能力与人类的经验碰撞，为客户找到精妙且适合的账号方向。
+  depth: medium
+  suggested_destination: case
+  possible_shape: series
+  risks:
+  - 口语化
+  screening_conclusion: retain
+  reason: 该文展示了一个具体的 AI 变现服务案例，具备商业启发，可作为一个单独的案例或在课程中作为服务型应用的示范单元。
+- file_path: docs/202310/20231017_033.md
+  title: Stable Diffusion 生成数字人视频实操教程，解锁流量密码
+  summary: 文章分享了作者尝试多种方案后，使用 Stable Diffusion 生成数字人视频的实操教程，包含踩坑记录和最终解决方案，链接可能失效。
+  core_question: 如何在非 Windows 环境中使用 Stable Diffusion 成功生成数字人视频？
+  key_judgment: 生成数字人视频的难点在于技术栈的兼容性（如 Ebsynth），但通过离线处理等方法可以绕开系统限制，实现最终产出。
+  depth: medium
+  suggested_destination: kb_entry
+  possible_shape: kb
+  risks:
+  - 时效性
+  - 格式预处理
+  screening_conclusion: demote
+  reason: 内容为具体的实操教程，但受限于环境配置，且文章内提及的网盘链接已失效，时效性风险高，核心内容依赖外链，建议放入知识库。
+- file_path: docs/202310/20231017_034.md
+  title: ChatGPT 模仿创作内容的万能方法
+  summary: 文章分享了一种使用 GPT 模仿创作内容的万能方法，重点展示了作者独创的通过与 GPT 深入交流来优化提示词，并迭代出一个‘小红书视频标题生成助手’的全过程。
+  core_question: 如何通过与 GPT 的持续对话来优化提示词，最终实现高质量的内容模仿创作？
+  key_judgment: 通过与 GPT 进行‘深入交流’（而非一次性写死 prompt）来迭代优化提示词，是一种更高效、通用的内容模仿创作方法。
+  depth: high
+  suggested_destination: chapter
+  possible_shape: book
+  risks:
+  - 重复
+  - 口语化
+  screening_conclusion: retain
+  reason: 文章提出了独创性的方法论——通过与 AI 对话来迭代提示词，具有较高深度和通用指导意义，是很有价值的章节候选。

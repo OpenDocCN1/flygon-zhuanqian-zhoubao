@@ -1,0 +1,155 @@
+- file_path: docs/202311/20231107_23.md
+  title: AI 写作：从月入 1000 到月入 5w 的完整攻略
+  summary: 作者分享自身如何通过 AI 写作实现从月入 1000 到月入 5w 的经验路径，内容涵盖新手入门与工作室规模化操作两部分。
+  core_question: 如何通过 AI 写作实现月入过万甚至更高收益？
+  key_judgment: AI 写作项目从新手到工作室有清晰的进阶路径，且具备可复制性，是实现收入增长的有效手段。
+  depth: low
+  suggested_destination: kb_entry
+  possible_shape: kb
+  risks:
+  - 格式预处理
+  - 口语化
+  - 时效性
+  screening_conclusion: retain
+  reason: 核心内容托管于飞书，帖子仅为简要引流概述，自身信息密度低，但主题明确，可作为 AI 写作项目知识库的入口条目。
+- file_path: docs/202311/20231107_25.md
+  title: 如何用 ChatGPT 做营销：为你的产品找到需求
+  summary: 针对文案策划人员的痛点，作者介绍如何利用 ChatGPT 训练助手，快速完成产品需求调研并撰写文案的方法论。
+  core_question: 如何用 ChatGPT 高效完成产品营销需求调研与文案撰写？
+  key_judgment: 通过方法论将 ChatGPT 训练为助手，可以大幅缩短产品文案从需求调研到产出的周期，缓解跨部门沟通矛盾。
+  depth: low
+  suggested_destination: case
+  possible_shape: course
+  risks:
+  - 格式预处理
+  - 口语化
+  screening_conclusion: retain
+  reason: 虽然是引流帖，但精准切入文案策划的具体工作场景，提供了一个可行的 AI 应用案例，对同类岗位有参考价值。
+- file_path: docs/202311/20231107_27.md
+  title: 四年发了八千条朋友圈，销冠的成交心法
+  summary: 作者作为销冠，分享其在朋友圈运营四年、发布八千条内容的成交心法，强调销冠是一种态度和习惯。
+  core_question: 如何通过朋友圈运营实现高转化成交？
+  key_judgment: 销冠不仅是一种结果，更是一种深入基因的习惯和态度，朋友圈运营是其核心成交场景。
+  depth: low
+  suggested_destination: handbook_entry
+  possible_shape: booklet
+  risks:
+  - 口语化
+  - 格式预处理
+  - 时效性
+  screening_conclusion: retain
+  reason: 帖子本身是逐字稿的引流入口，但主题聚焦朋友圈成交心法，是私域运营的重要细分领域，可沉淀为手册条目。
+- file_path: docs/202311/20231107_28.md
+  title: 公众号爆文进阶教程
+  summary: 作者结合自身运营 20 多个公众号的经验与航海群分享，整理出一份系统的公众号爆文进阶教程，覆盖从新手到进阶的流程与技术。
+  core_question: 如何系统化地创作公众号 10w+ 爆文？
+  key_judgment: 公众号爆文有方法可循，教程涵盖流程、重要环节与自动化指令，但技术工具有局限性（如 RPA、GPT4.0），且方法论需持续迭代。
+  depth: medium
+  suggested_destination: handbook_entry
+  possible_shape: booklet
+  risks:
+  - 时效性
+  - 格式预处理
+  screening_conclusion: retain
+  reason: 虽为引流，但内容为整理后的系统教程，具有可操作性和结构化特征，是公众号爆文主题下不错的参考手册。
+- file_path: docs/202311/20231107_38.md
+  title: 我是如何在一个周内写出来两篇十万加文章的
+  summary: 作者复盘一周内写出两篇公众号 10w+ 文章的全过程，分享热点把握、选题逻辑、账号运营及爆文底层规律。
+  core_question: 如何在一个周内成功写出两篇公众号 10w+ 爆文？
+  key_judgment: 爆文逻辑相似，关键在于热点选题、关键词设置与老瓶装新酒的选题策略，且可复制预期。
+  depth: medium
+  suggested_destination: case
+  possible_shape: course
+  risks:
+  - 时效性
+  - 口语化
+  screening_conclusion: retain
+  reason: 提供了两个具体的爆文案例和详细复盘，尤其是老瓶装新酒的选题逻辑，对公众号爆文写作有较强指导价值。
+- file_path: docs/202311/20231107_41.md
+  title: 高客单出境游，万字保姆级 SOP 教程
+  summary: 作者提供一份高客单出境游业务的万字保姆级 SOP 教程，强调照着执行即可出单，适合有资源者矩阵化操作。
+  core_question: 如何通过标准化的 SOP 操作高客单出境游业务并出单？
+  key_judgment: 高客单出境游业务可通过精细化的 SOP 实现高度可复制性，从而支撑矩阵化运营。
+  depth: low
+  suggested_destination: handbook_entry
+  possible_shape: handbook
+  risks:
+  - 格式预处理
+  - 时效性
+  screening_conclusion: demote
+  reason: 核心内容完全在飞书，帖子自身无实质信息，但承诺是保姆级高可复制 SOP，考虑到主题特殊性，降级为手册条目或在知识库中保留链接。
+- file_path: docs/202311/20231107_44.md
+  title: 小红书引流变现｜1 个千粉小红书账号年入 200w+
+  summary: 作者复盘运营小红书账号的经历，展示一个人千粉账号如何通过引流实现年 GMV 200 万以上，并强调矩阵化的重要性。
+  core_question: 如何通过小红书账号实现高效引流与高额变现？
+  key_judgment: 小红书引流变现能力强，但应高效地做矩阵，而非像作者那样仅顺带运营。
+  depth: low
+  suggested_destination: case
+  possible_shape: course
+  risks:
+  - 格式预处理
+  - 口语化
+  screening_conclusion: retain
+  reason: 提供了真实的变现数据和复盘，核心观点（必须做矩阵）明确，可作为小红书引流主题的参考案例。
+- file_path: docs/202311/20231107_53.md
+  title: 闲鱼小赛道四个月变现利润 70 万技巧分享
+  summary: 作者分享如何在闲鱼通过选择小赛道并精深运营，在四个月内实现 70 万利润的实战技巧与思维。
+  core_question: 如何在闲鱼平台通过小赛道实现高额利润？
+  key_judgment: 在巨头林立的主流赛道外，选择适合自己的小赛道深耕细作，同样能取得可观回报。
+  depth: low
+  suggested_destination: kb_entry
+  possible_shape: kb
+  risks:
+  - 格式预处理
+  - 时效性
+  - 口语化
+  screening_conclusion: retain
+  reason: 帖子为引流转飞书，自身干货较少，但提供了闲鱼小赛道变现的成功案例和数据，值得在知识库中作为案例条目留存。
+- file_path: docs/202311/20231107_64.md
+  title: 时间管理的底层思维和操作方法
+  summary: 作者结合 20 年经验，分享一套名为“五星功夫”的时间管理方法，涵盖衡量时间、要事第一、周密计划、保持状态和有效复盘五个步骤。
+  core_question: 如何从根本上解决时间管理困惑，提高个人与团队产出？
+  key_judgment: 时间管理的关键在于衡量时间与要事第一，辅以周密计划、状态管理与复盘，形成一套完整的底层方法论。
+  depth: high
+  suggested_destination: chapter
+  possible_shape: book
+  risks: []
+  screening_conclusion: retain
+  reason: 内容完整呈现，方法论体系化且具有实操细节（如 WOOP 模型、状态练习），可独立成章，具备出版级深度。
+- file_path: docs/202311/20231107_66.md
+  title: 找准个人优势，创造自己的赚钱之路
+  summary: 作者基于盖洛普优势理论，阐述如何通过识别和发挥个人优势进行事业定位，从而实现符合自身特点的赚钱路径。
+  core_question: 如何找准个人优势并利用其实现赚钱与事业成功？
+  key_judgment: 赚钱与提供价值划等号，关键在于定位，而定位是通过实践试错出来的，且销售成交是必备的核心技能。
+  depth: high
+  suggested_destination: chapter
+  possible_shape: book
+  risks: []
+  screening_conclusion: retain
+  reason: 内容完整，逻辑清晰，结合理论与实践案例，是典型的个人优势与商业变现融合的高质量内容，可成书章节。
+- file_path: docs/202311/20231107_67.md
+  title: 从亏损 1000w 到月销 5000w，7k 字复盘私域电商盈亏经验
+  summary: 作者通过 7 千字长文复盘了自己从亏损 1000 万到月销 5000 万的私域电商经历，总结失败教训与成功经验。
+  core_question: 如何从私域电商的巨额亏损中走出并实现业绩逆转？
+  key_judgment: 创业起落中，坦诚复盘失败是走向成功的关键，且通过链接外部资源（如生财）能有效助力项目起盘。
+  depth: low
+  suggested_destination: kb_entry
+  possible_shape: kb
+  risks:
+  - 格式预处理
+  - 口语化
+  - 时效性
+  screening_conclusion: retain
+  reason: 帖子为引流，自身仅含简要背景，但核心是 7 千字复盘正文，具有高价值性。建议在 KB 中收录链接或后续获取全文。
+- file_path: docs/202311/20231107_72.md
+  title: 关键词布局怎么做？以淘宝与抖音搜索举例
+  summary: 作者以淘宝与抖音为例，系统性讲解关键词布局的具体落地操作方法，包括挖掘、布点位置及注意事项。
+  core_question: 在淘宝与抖音等平台，关键词布局的具体操作方法和步骤是什么？
+  key_judgment: 关键词布局不仅限于网站 SEO，在电商与短视频平台有着更广泛的应用场景，是获取精准搜索流量的基础动作。
+  depth: high
+  suggested_destination: handbook_entry
+  possible_shape: handbook
+  risks:
+  - 时效性
+  screening_conclusion: retain
+  reason: 内容完整且实操性强，从工具到具体位置均有截图示例，是关键词布局的实用操作指南，适合纳入手册。

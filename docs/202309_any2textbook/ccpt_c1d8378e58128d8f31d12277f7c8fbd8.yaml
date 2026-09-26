@@ -1,0 +1,142 @@
+paper: 20230912_24.md（AIGC商业化的13个非共识认知）
+desc: 该素材由黄钊hanniman（前腾讯PM，11年AI经验）提出，系统地总结了AIGC商业化的13个非共识认知，旨在帮助从业者跳出尚未被内卷的认知盲区。核心论点包括：AIGC的核心差异化指标是转化率（利润属性）而非效率属性；行业真正的瓶颈不是技术而是深度行业know-how；情感AI、虚拟人是容易摘取的'低枝果实'；Agent应向多体智能演进；AI产品设计的'最后一公里'应由用户完成；对AI的认知应视为'人'而非工具；未来商业格局将按'To人/ToAI'而非'ToC/ToB'划分；AI商业模式类比'打井'或'毛毛虫'；现阶段应参照通信/IT产业而非互联网；未来社交的核心将是AI与AI交互、人作为观众。
+concepts:
+- name: 转化率（利润属性）作为核心差异化指标
+  desc: AIGC产品区别于传统软件的核心指标不是效率提升，而是用户转化率，即利润属性。
+  is_original: true
+  excerpt:
+  - 1.AIGC核心差异化指标不是效率属性而是转化率（利润属性）
+- name: 深度行业know-how
+  desc: 认为AIGC落地的真正瓶颈是缺乏对特定行业的深度不规则经验知识，而非技术能力不足。
+  is_original: true
+  excerpt:
+  - 2.不是技术不够而是缺乏深度行业know-how
+- name: 情感AI（低枝果实）
+  desc: 指出情感AI是当前AIGC商业化中技术门槛相对较低、容易获得回报的领域。
+  is_original: true
+  excerpt:
+  - 3.情感AI是低枝果实
+- name: 虚拟人的转化率增量
+  desc: 强调虚拟人（数字人）在营销场景对转化率有显著提升作用，是重要商业抓手。
+  is_original: true
+  excerpt:
+  - 4.虚拟人对转化率有巨大增量
+- name: 多体智能Agent
+  desc: 主张Agent的发展方向应从单体智能转向多体智能（多个Agent协作完成任务）。
+  is_original: true
+  excerpt:
+  - 5.Agent应从单体智能转向多体智能
+- name: 用户完成最后一公里设计
+  desc: 提出AI产品设计的最终优化应由用户在真实场景中完成，而非完全由开发者预设。
+  is_original: true
+  excerpt:
+  - 6.由用户完成AI产品设计最后一公里
+- name: AI认知与设计哲学
+  desc: 主张使用AI时应将其视为'人'（伙伴），设计AI时应把人当成AI来优化产品流程。
+  is_original: true
+  excerpt:
+  - 9.使用AI时把AI当成人，设计AI时把人当成AI
+- name: To人/ToAI划分
+  desc: 提出未来商业形态不应按ToC/ToB划分，而应按服务的对象是'人'还是'AI'来划分。
+  is_original: true
+  excerpt:
+  - 10.未来按To人/ToAI划分而非ToC/ToB
+- name: 打井模式/毛毛虫模式
+  desc: 用'打井'（深度垂直）和'毛毛虫'（树状生长）来形容AI商业模式的两种不同路径。
+  is_original: true
+  excerpt:
+  - 11.AI商业模式是打井模式或毛毛虫模式
+- name: AI2.0并非iPhone时刻
+  desc: 明确判断当前AIGC阶段尚未达到类似iPhone对移动互联网的颠覆性时刻。
+  is_original: true
+  excerpt:
+  - 7.现在没到AI2.0的iPhone时刻
+- name: 定义关系/约束/需求
+  desc: 在AI产品设计中，应主动定义AI与用户的关系、约束条件以及需求边界。
+  is_original: true
+  excerpt:
+  - 8.定义关系定义约束与需求
+- name: AI-AI社交
+  desc: 预测未来社交网络的核心形态将由AI与AI交互主导，人来观看。
+  is_original: true
+  excerpt:
+  - 13.未来社交核心是AI和AI交互人来看
+methods:
+- name: __overview__
+  desc: 以13个非共识认知为框架，通过列举观点并给出判断性的方法论指导，指导从业者调整产品指标、认知视角与战略定标。
+  excerpt:
+  - 作者黄钊hanniman，11年AI经验，前腾讯PM。13个AIGC商业化非共识认知
+- name: 以转化率替代效率作为产品核心KPI
+  desc: 建议将产品的评估指标从效率（速度、成本）改为转化率（利润贡献），以反映AIGC的实际商业价值。
+  excerpt:
+  - 1.AIGC核心差异化指标不是效率属性而是转化率（利润属性）
+- name: 通过行业know-how优先于技术优化
+  desc: 在推进AIGC落地时，优先投入对行业深度知识的理解而非单纯提升技术能力。
+  excerpt:
+  - 2.不是技术不够而是缺乏深度行业know-how
+- name: 优先开发情感AI与虚拟人
+  desc: 建议在商业化早期优先选择情感AI和虚拟人作为切入点，因为它们是技术难度相对低、转化率提升显著的低枝果实。
+  excerpt:
+  - '3.情感AI是低枝果实
+
+    4.虚拟人对转化率有巨大增量'
+- name: 多体Agent协作架构
+  desc: 设计Agent系统时采用多个Agent分工协作的多体智能架构，而非单一Agent包办所有任务。
+  excerpt:
+  - 5.Agent应从单体智能转向多体智能
+- name: 用户反馈闭环设计
+  desc: 将用户的使用反馈纳入产品设计的最后一公里，由用户来完善AI产品设计。
+  excerpt:
+  - 6.由用户完成AI产品设计最后一公里
+- name: 关系-约束-需求定义法
+  desc: 在产品设计初期制定AI与用户的关系（如伙伴/工具）、约束（如数据边界）和需求（如功能性）。
+  excerpt:
+  - 8.定义关系定义约束与需求
+- name: 人/AI双重视角切换法
+  desc: 在使用AI时将其视为人，在设计AI时将自己视为AI，以换位思考优化互动与产品逻辑。
+  excerpt:
+  - 9.使用AI时把AI当成人，设计AI时把人当成AI
+theorems:
+- name: AIGC核心差异化指标是转化率而非效率
+  desc: AIGC产品的核心差异化指标是转化率（利润属性）而非效率属性，这决定了商业价值的衡量标准。
+  excerpt:
+  - 1.AIGC核心差异化指标不是效率属性而是转化率（利润属性）
+- name: 技术瓶颈不是短板，know-how是短板
+  desc: AIGC商业化的瓶颈不在技术能力，而在于缺乏深度的行业know-how。
+  excerpt:
+  - 2.不是技术不够而是缺乏深度行业know-how
+- name: 现在未到AI2.0的iPhone时刻
+  desc: 当前AIGC发展尚不具备如同iPhone对移动互联网那样的颠覆性拐点，应谨慎对标。
+  excerpt:
+  - 7.现在没到AI2.0的iPhone时刻
+- name: 未来划分维度是To人/ToAI
+  desc: 未来的商业和市场划分将基于服务对象是'人'还是'AI'，而非传统的ToC/ToB。
+  excerpt:
+  - 10.未来按To人/ToAI划分而非ToC/ToB
+- name: AI商业模式是打井或毛毛虫模式
+  desc: AI商业模式将按照'打井'（纵向深挖）和'毛毛虫'（横向树状生长）两种路径展开。
+  excerpt:
+  - 11.AI商业模式是打井模式或毛毛虫模式
+- name: 现阶段对标通信/IT而非互联网
+  desc: 当前AIGC的发展阶段应参照通信产业/IT产业的演进逻辑，而不直接套用互联网的规律。
+  excerpt:
+  - 12.现阶段对标通信/IT而非互联网
+- name: 未来社交核心是AI与AI交互
+  desc: 未来社交网络的核心将是以AI与AI交互为主，人作为观众观察这种交互。
+  excerpt:
+  - 13.未来社交核心是AI和AI交互人来看
+findings:
+- name: 情感AI与虚拟人的转化率提升发现
+  desc: '[claim] 原文宣称情感AI是低枝果实、虚拟人对转化率有巨大增量，但素材未提供具体实验数据支撑该结论。'
+  excerpt:
+  - '3.情感AI是低枝果实
+
+    4.虚拟人对转化率有巨大增量'
+- name: 用户参与设计最后一公里的效果发现
+  desc: '[claim] 宣称''由用户完成AI产品设计最后一公里''能显著改善产品，但未提供用户测试或案例数据作为统计证据。'
+  excerpt:
+  - 6.由用户完成AI产品设计最后一公里
+- name: 对标行业选择的判断
+  desc: '[claim] 阶段性地主张''现阶段对标通信/IT而非互联网''，属于战略性判断，素材本身未给出经济数据或历史对比的实证支撑。'
+  excerpt:
+  - 12.现阶段对标通信/IT而非互联网
