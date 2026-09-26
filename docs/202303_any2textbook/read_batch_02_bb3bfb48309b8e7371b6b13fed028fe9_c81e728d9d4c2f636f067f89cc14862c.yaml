@@ -1,0 +1,130 @@
+- file_path: docs/202303/20230328_017.md
+  title: 《信息超载时代，如何高效搜索并解决问题？》
+  summary: 作者 Jerry 分享了在信息超载时代提升“搜商”的框架，提出搜商包含搜索心法、搜索渠道和搜索技术三个核心，并将全文链接分享，旨在帮助读者通过高效搜索解决问题。
+  core_question: 在海量信息时代，如何通过系统化的搜索技能（搜商）高效解决问题？
+  key_judgment: 搜商是搜索技能解决问题的综合能力，其核心在于三个维度：心法（搜什么）、渠道（去哪搜）和技术（怎么搜）；资料整理赋予知识深度，搜索技能赋予知识宽度，两者结合才能发挥最大价值。
+  depth: medium
+  suggested_destination: chapter
+  possible_shape: book
+  risks:
+  - 时效性
+  - 格式预处理
+  screening_conclusion: retain
+  reason: 内容提出了“搜商”这一原创性概念，并提供了清晰的框架（心法、渠道、技术），能够成为知识管理或效率提升章节的理论框架和核心观点。
+- file_path: docs/202303/20230328_018.md
+  title: 《如何寻找风向标》
+  summary: 风向标航海教练阿丰撰写此文，分享关于如何寻找风向标的心得体会，但正文仅提供了个人简介和外部文档链接，没有在帖子内展示任何具体方法。
+  core_question: 如何在海量信息中寻找并判断风向标（市场趋势）？
+  key_judgment: 文章本身未提供实质内容，无法提炼关键判断；核心价值仅在于作者作为多次航海教练的经验本身，但无正文支撑。
+  depth: low
+  suggested_destination: exclude
+  possible_shape: pool
+  risks:
+  - 格式预处理
+  - 其他
+  screening_conclusion: exclude
+  reason: 帖文正文仅为航海分享的引子，全部实质内容均位于需要额外跳转且无法直接验证的链接中，缺乏独立内容价值，不符合素材筛选标准。
+- file_path: docs/202303/20230328_019.md
+  title: 《单人日产 200 条之批量思维》
+  summary: 短视频带货创业者奇杰分享了其在一次航海中的分享内容，核心是“单人日产 200 条”的批量剪辑技术，该技术帮助他实现了账号矩阵和规模化生产，并被誉为突破性成果。
+  core_question: 短视频创业者如何通过批量思维和技术，突破单人的内容生产瓶颈，实现规模化？
+  key_judgment: 批量思维的核心是先确定稳定且可复制的结构，再通过工具和流程化操作放大产量，从而将创作者从繁重的剪辑工作中解放出来，聚焦于更大规模的运营。
+  depth: medium
+  suggested_destination: case
+  possible_shape: course
+  risks:
+  - 时效性
+  - 口语化
+  - 格式预处理
+  screening_conclusion: retain
+  reason: 提供了一个具体的、有明确量化成果（日产200条、60个账号矩阵）的实战案例，可以作为短视频生产效率或自动化工具的典型案例，而非系统方法论。
+- file_path: docs/202303/20230328_020.md
+  title: 《关于出海工具产品营销推广经验分享》
+  summary: 出海行业老兵“非洲水手”分享了其在英文工具站航海中的经验，内容主要关于出海工具和游戏产品的买量营销推广，但正文仅包含作者简介和外部文档链接。
+  core_question: 出海工具类产品如何进行有效的营销推广（特别是买量）？
+  key_judgment: 文章本身未提供实质内容，无法提炼关键判断；作者的背景（操盘10位数美金预算）暗示了内容可能具有高度实操价值，但无法从帖文本身获取。
+  depth: low
+  suggested_destination: exclude
+  possible_shape: pool
+  risks:
+  - 格式预处理
+  - 其他
+  screening_conclusion: exclude
+  reason: 与《如何寻找风向标》问题相同，正文仅为引子，所有实质内容均在无法直接获取的外部链接中，缺乏独立、可用的信息，不满足筛选要求。
+- file_path: docs/202303/20230328_021.md
+  title: 《盘点拆解生财的赚钱方法》
+  summary: 作者杨洋基于其多年的培训行业创业经验和对生财有术内容的拆解，试图分享一套拆解赚钱项目的逻辑框架，帮助读者快速识别项目关键环节，避免成为“韭菜”。
+  core_question: 如何在纷繁复杂的赚钱项目中，通过拆解其底层逻辑来评估其可行性和自身匹配度？
+  key_judgment: 所有赚钱项目都可以被拆解成一套通用的骨架和环节，通过研究透一个优质社群（如生财有术）的精华内容，可以建立这种拆解能力，从而避免被市面上重复的培训课程“割韭菜”。
+  depth: medium
+  suggested_destination: chapter
+  possible_shape: book
+  risks:
+  - 格式预处理
+  - 重复
+  screening_conclusion: retain
+  reason: 提出了“项目拆解”这一核心方法论，强调看透项目底层逻辑的重要性，这与通用方法论章节高度契合，可以提供一种结构化分析商业机会的思维方式。
+- file_path: docs/202303/20230328_022.md
+  title: 《巧用「逻辑线」发圈法，让用户越看越上瘾》
+  summary: 创业者李思念分享了其独创的“逻辑线”发圈法，旨在通过围绕一个核心观点/事件从不同角度持续输出内容，提升朋友圈内容的吸引力和用户粘性。
+  core_question: 如何通过内容策划，让朋友圈运营从零散发布转变为有吸引力的用户触点？
+  key_judgment: 朋友圈内容的价值不在于单条的质量，而在于整体规划的“逻辑线”；围绕一个核心主题进行多角度、有节奏地展开，能让用户产生追更的欲望，从而有效建立信任和成交基础。
+  depth: medium
+  suggested_destination: handbook_entry
+  possible_shape: handbook
+  risks:
+  - 口语化
+  - 重复
+  screening_conclusion: retain
+  reason: 提供了一个具体且可操作的内容策划技巧（逻辑线），非常适合作为私域运营或内容营销手册中的一个具体工具条目。
+- file_path: docs/202303/20230328_023.md
+  title: 《30 个知识管理技巧》
+  summary: 作者张达达总结了在资料整理航海中观察到的常见问题，并分享了30条具体、实用的知识管理技巧，涵盖资料收集、分类、工具选择、内化输出等环节。
+  core_question: 在信息爆炸时代，如何建立一套方便、实用且可持续的个人知识管理系统？
+  key_judgment: 知识管理的核心目的是方便使用而非追求形式美观；应‘以问题为中心’收集信息，选择适合的工具组合，并通过定期回顾、实践和输出将信息内化为自己的知识。
+  depth: high
+  suggested_destination: handbook_entry
+  possible_shape: handbook
+  risks:
+  - 口语化
+  - 重复
+  screening_conclusion: retain
+  reason: 内容系统且完整，直接点出了知识管理的痛点（流于形式）并给出了30条可立即执行的具体建议，是构建知识管理手册最核心、最直接的素材来源。
+- file_path: docs/202303/20230328_024.md
+  title: 《对生财有术的现有的一些版块及内容的思考》
+  summary: 老成员孤月大叔基于长期使用体验，对生财有术社群的内容板块分类、激励机制、搜索功能和航海内容沉淀等方面提出了详细的批评和改进建议。
+  core_question: 一个高质量付费社群在内容生产繁荣后，如何优化内容分类、发现机制和沉淀策略以提升用户体验和长期价值？
+  key_judgment: 内容生产的广度需要与内容分发的深度相匹配；用户对高质量内容（如航海日志）的感知受阻，主要在于缺乏便捷的沉淀与分类入口，这削弱了社群内容资产的整体价值。
+  depth: high
+  suggested_destination: appendix
+  possible_shape: kb
+  risks:
+  - 时效性
+  screening_conclusion: retain
+  reason: 虽然不是直接的“How-to”干货，但提供了一个真实用户对内容生态的深度洞察和批判性思考，非常适合作为讨论“内容策划”或“社群运营”时的用户反馈附录，有独特价值。
+- file_path: docs/202303/20230328_026.md
+  title: 《如何在一场线下见面会快速记录生成思维导图笔记》
+  summary: 作者“奥特曼-快速输出”分享了其在生财见面会上作为速记志愿者，如何通过特定工具和方法，在嘉宾分享结束的同时快速生成思维导图笔记的完整教程。
+  core_question: 如何在快节奏的线下分享场景中，通过工具和技巧实现高效、同步的视觉化笔记记录？
+  key_judgment: 快速生成思维导图笔记的关键在于提前准备模板（结构化框架）而非从零开始，这能极大提升记录速度和最终呈现的结构化程度。
+  depth: medium
+  suggested_destination: kb_entry
+  possible_shape: kb
+  risks:
+  - 时效性
+  - 口语化
+  - 格式预处理
+  screening_conclusion: retain
+  reason: 提供了一个具体场景下的高效工具和技巧，虽然领域较小众，但对特定用户群体（如会议记录者、学习者）有实用价值，可作为知识库中的一个具体技能条目。
+- file_path: docs/202303/20230328_028.md
+  title: 《如何正确利用见面会获得的信息？》
+  summary: 作者郭晓文结合自己及同伴在初次参加线下见面会后的负面经历，揭示了“信息过载导致行动瘫痪”的现象，并剖析了其成因——幸存者偏差，进而探讨如何正确利用此类信息。
+  core_question: 当创业者从高能量的线下活动获得大量成功案例信息后，为什么会陷入低谷期，以及如何正确利用这些信息？
+  key_judgment: 参与线下活动后陷入低谷的根源是‘幸存者偏差’，即只看到成功的少数而忽略失败的多数；正确的方法是“抬头看天，低头赶路”，将获取的信息内化为自己的行动，而非盲目对标。
+  depth: high
+  suggested_destination: chapter
+  possible_shape: book
+  risks:
+  - 重复
+  screening_conclusion: retain
+  reason: 文章从反面提出了一个极具洞察力的认知观点（幸存者偏差），直接指出了信息利用的误区，并给出了正向的行动建议，是构建“信息利用”相关章节的重要认知性素材。

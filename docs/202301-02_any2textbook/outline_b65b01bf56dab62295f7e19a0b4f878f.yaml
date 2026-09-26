@@ -1,0 +1,138 @@
+- 'no': 1
+  name: 股权分配 —— 从“分蛋糕”到“建共识”
+  desc: 本章以创始团队股权分配为切入点，从“分蛋糕”的直觉类比出发，带你理解股权分配的本质不是计算比例，而是通过动态量化模型达成团队共识、锁定长期协作的基石。
+  nodes:
+  - 'no': 1
+    name: 为什么股权分配是创业的第一道坎
+    desc: 用“分蛋糕”类比：蛋糕大小由未来创造决定，分配不当则团队崩盘，引出股权分配的核心矛盾——分歧而非算数
+    role: motivation
+    src:
+    - paper: C0dydiFPCoBI3LxemwWcXpdxn2e.md
+  - 'no': 2
+    name: 4C动态量化股权分配模型
+    desc: 定义股权分配的系统性框架：将不可量化的贡献拆解为创始人身份、岗位权重、时间投入、资金投入四个维度
+    role: definition
+    src:
+    - paper: C0dydiFPCoBI3LxemwWcXpdxn2e.md
+  - 'no': 3
+    name: 维度一：创始人身份与岗位权重
+    desc: 深入解析“谁承担风险谁控盘”（权重10%-30%）与“技术壁垒岗位重要性”（权重30%-40%）两个维度的设计逻辑
+    role: method
+    src:
+    - paper: C0dydiFPCoBI3LxemwWcXpdxn2e.md
+  - 'no': 4
+    name: 维度二：时间投入与资金投入
+    desc: 解析“全职vs兼职”（10%-25%）与“货币出资规模”（20%-50%）如何平衡早期投入与长期承诺
+    role: method
+    src:
+    - paper: C0dydiFPCoBI3LxemwWcXpdxn2e.md
+  - 'no': 5
+    name: 股权分配五步法
+    desc: 给出可操作的流程：确定赛道→收集信息→确定权重→确定系数→计算比例，将4C模型落地为团队共识工具
+    role: method
+    src:
+    - paper: C0dydiFPCoBI3LxemwWcXpdxn2e.md
+  - 'no': 6
+    name: 共识是模型的“隐藏前提”
+    desc: 论证“自评互评达成锚定共识”为什么比公式本身更重要：股比计算是最简单环节，分歧才是最大风险
+    role: proof
+    src:
+    - paper: C0dydiFPCoBI3LxemwWcXpdxn2e.md
+  - 'no': 7
+    name: 模型的天花板与适用边界
+    desc: 讨论4C模型的局限：当团队规模扩大或外部投资进入时，静态股权模型难以覆盖动态演进，需引入期权池等扩展机制
+    role: limitation
+    src:
+    - paper: C0dydiFPCoBI3LxemwWcXpdxn2e.md
+  - 'no': 8
+    name: 从股权共识到协作共识
+    desc: 延伸思考：股权分配本质是团队心理契约的显式化，为下一章“高质量交付”中的责任共识埋下伏笔
+    role: extension
+    src:
+    - paper: C0dydiFPCoBI3LxemwWcXpdxn2e.md
+    - paper: MUfLdmUlTosj0NxPhlfcjRPHnff.md
+- 'no': 2
+  name: 高质量交付 —— 从“拼人力”到“拼体系”
+  desc: 本章回答“如何在有限精力下持续输出高质量服务”这一难题。通过“一份时间卖多次”的效率视角，带你理解标准化、责任制与分层支持如何构成高质量交付的稳定三角。
+  nodes:
+  - 'no': 1
+    name: 为什么传统教学交付必然崩塌
+    desc: 用“砌墙”类比：逐人1v1辅导如同砌墙，规模越大越耗能，引出核心命题——交付质量取决于交付效率
+    role: motivation
+    src:
+    - paper: MUfLdmUlTosj0NxPhlfcjRPHnff.md
+  - 'no': 2
+    name: 高效率交付才能高质量交付
+    desc: 给出本章基石定理：高效率不是质量的妥协，而是可持续高质量的充要条件
+    role: definition
+    src:
+    - paper: MUfLdmUlTosj0NxPhlfcjRPHnff.md
+  - 'no': 3
+    name: 一份时间卖多次
+    desc: 详解如何通过标准化材料（操作手册、录制直播）实现一次备课服务百人，拆解“复利化劳动”的具体实现
+    role: method
+    src:
+    - paper: MUfLdmUlTosj0NxPhlfcjRPHnff.md
+  - 'no': 4
+    name: 操作手册：最少必要信息
+    desc: 讲透手册写作原则：分阶段放出信息、只给完成任务的“最少必要信息”，避免信息过载
+    role: method
+    src:
+    - paper: MUfLdmUlTosj0NxPhlfcjRPHnff.md
+  - 'no': 5
+    name: 解决方案栈：从手册到1v1的分层支持
+    desc: 解析“操作手册（查）+直播（理解）+百问百答（查）+1v1兜底”的四层漏斗，说明1v1为何应是最低优先级
+    role: method
+    src:
+    - paper: MUfLdmUlTosj0NxPhlfcjRPHnff.md
+  - 'no': 6
+    name: 打卡驱动责任制
+    desc: 论证“取消老师提醒、换成学员打卡”如何把成果责任从老师转归学员，实现自动驱动的正向循环
+    role: proof
+    src:
+    - paper: MUfLdmUlTosj0NxPhlfcjRPHnff.md
+  - 'no': 7
+    name: 责任反转的伦理边界
+    desc: 讨论“学员是责任主体”的适用前提：该方法对高自驱学员有效，对完全被动的学员可能造成挫败，需设置兜底判断
+    role: limitation
+    src:
+    - paper: MUfLdmUlTosj0NxPhlfcjRPHnff.md
+  - 'no': 8
+    name: 从交付体系到产品化跃迁
+    desc: 延伸思考：将训练营方法论抽象为“内容产品化”的一般模型，可迁移到SOP建设、团队赋能与知识付费设计
+    role: extension
+    src:
+    - paper: MUfLdmUlTosj0NxPhlfcjRPHnff.md
+    - paper: C0dydiFPCoBI3LxemwWcXpdxn2e.md
+- 'no': 3
+  name: 组织协作 —— 从“权力分配”到“责任落地”
+  desc: 本章将前两章的“股权共识”与“交付责任”统一在组织设计框架下，展示如何通过制度化共识让团队从初创到规模化始终高效运转。
+  nodes:
+  - 'no': 1
+    name: 为什么有些团队分完股权就散伙
+    desc: 回顾4C模型局限与责任反转伦理边界，引出跨章主线：任何单一制度都无法独立解决问题，需要系统咬合
+    role: motivation
+    src:
+    - paper: C0dydiFPCoBI3LxemwWcXpdxn2e.md
+    - paper: MUfLdmUlTosj0NxPhlfcjRPHnff.md
+  - 'no': 2
+    name: 制度化共识的概念
+    desc: 定义“共识→制度→责任→成果”的传导链，将股权共识与交付责任统一为组织设计的一体两面
+    role: definition
+    src:
+    - paper: C0dydiFPCoBI3LxemwWcXpdxn2e.md
+    - paper: MUfLdmUlTosj0NxPhlfcjRPHnff.md
+  - 'no': 3
+    name: 双模型联合落地法
+    desc: 给出跨章节组合策略：用4C五步法锁定初期利益分配，用打卡责任制锁定日常权责边界，形成“先分蛋糕、再定规矩”的完整打法
+    role: method
+    src:
+    - paper: C0dydiFPCoBI3LxemwWcXpdxn2e.md
+    - paper: MUfLdmUlTosj0NxPhlfcjRPHnff.md
+  - 'no': 4
+    name: 从两章素材看组织演化的否定之否定
+    desc: 整合分析：初创期靠“共识”柔性驱动，成长期靠“制度”刚性约束，成熟期需要更高层次的共识迭代，形成螺旋上升
+    role: extension
+    src:
+    - paper: C0dydiFPCoBI3LxemwWcXpdxn2e.md
+    - paper: MUfLdmUlTosj0NxPhlfcjRPHnff.md

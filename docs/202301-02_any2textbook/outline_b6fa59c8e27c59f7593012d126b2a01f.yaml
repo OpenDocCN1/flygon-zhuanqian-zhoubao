@@ -1,0 +1,142 @@
+- 'no': 1
+  name: 项目六要素拆解 —— 给生意装上一块“体检表”
+  desc: 本章建立一套通用的项目诊断框架：将任何项目拆解为流量、销转、交付、客单、毛利、复购六大要素，学会评估项目的健康度与可复制性。
+  nodes:
+  - 'no': 1
+    name: 为什么要拆解项目：从“凭感觉”到“凭框架”
+    desc: 用“体检”类比引导：单个项目能否成功不靠运气，而靠系统性拆解。引出“项目六要素拆解框架”的存在价值
+    role: motivation
+    src:
+    - paper: NxhWdJj3UoPKvmxaBqkcz8wlntf.md
+  - 'no': 2
+    name: 什么是项目六要素拆解框架
+    desc: 给出六要素完整定义：流量效率、销转效率、交付效率、客单价、毛利率、复购率；并设定“四点为及格线”的基准
+    role: definition
+    src:
+    - paper: NxhWdJj3UoPKvmxaBqkcz8wlntf.md
+  - 'no': 3
+    name: 三项效率指标：从源头判断可复制性
+    desc: 分别定义流量效率（时间/素材/流量）、销转效率（专业度/SOP/一对多）、交付效率（时间/人力），建立效率高低的评判标准
+    role: method
+    src:
+    - paper: NxhWdJj3UoPKvmxaBqkcz8wlntf.md
+  - 'no': 4
+    name: 效率高的杠杆效应：四两拨千斤
+    desc: 阐述核心定理：三项效率越高，项目越可复制、可矩阵化、可培训放大，是决定规模边界的关键
+    role: proof
+    src:
+    - paper: NxhWdJj3UoPKvmxaBqkcz8wlntf.md
+  - 'no': 5
+    name: 效率低的补救策略：用收益端补短板
+    desc: 引入互补定理：当某项效率存在短板时，必须通过客单价、毛利率、复购率的优化来弥补，实现整体平衡
+    role: extension
+    src:
+    - paper: NxhWdJj3UoPKvmxaBqkcz8wlntf.md
+  - 'no': 6
+    name: 六要素法的适用边界：警惕“及格线”幻觉
+    desc: 指出六要素拆解的局限性：六点为及格线，但及格不等于优秀；且该框架不能替代对行业特定因素的考察
+    role: limitation
+    src:
+    - paper: NxhWdJj3UoPKvmxaBqkcz8wlntf.md
+- 'no': 2
+  name: 副业方法论 —— 从“白手起家”到“后发制人”
+  desc: 本章聚焦副业实操闭环：建立情报挖掘体系、掌握项目拆解八步法、善用三大杠杆，并建立规避风险的“三不碰”防火墙。
+  nodes:
+  - 'no': 1
+    name: 副业迷思：为什么原创和All in不是关键
+    desc: 打破“原创即成功”的直觉，通过反例指出后发制人策略在副业领域的决定性作用，为方法论铺路
+    role: motivation
+    src:
+    - paper: I9OAdzzs2oBliNxsmPjcHnBUnzf.md
+  - 'no': 2
+    name: 后发制人：复制与二次创作的智慧
+    desc: 给出后发制人的明确定义：做别人已验证赚钱的事情，通过复制或二次创作降低试错成本
+    role: definition
+    src:
+    - paper: I9OAdzzs2oBliNxsmPjcHnBUnzf.md
+  - 'no': 3
+    name: 喂养算法与情报挖掘：建立商业雷达
+    desc: 讲解获取高价值商业情报的两个动作：通过收藏点赞关注“喂养算法”获取精准推送；建立系统化情报筛选和拆解流程
+    role: method
+    src:
+    - paper: I9OAdzzs2oBliNxsmPjcHnBUnzf.md
+  - 'no': 4
+    name: 拆解赚钱项目八步法：从发现到执行
+    desc: 完整呈现八步流程：找项目→拆流量→拆转化→拆产品交付→评估可复制性→定策略→搭团队→强执行，形成闭环
+    role: method
+    src:
+    - paper: I9OAdzzs2oBliNxsmPjcHnBUnzf.md
+  - 'no': 5
+    name: 项目管理双案法：策划与执行的桥接
+    desc: 介绍双案法的输入输出：以策划案（货盘、策略、目标、里程碑、止损点、放大点）+执行案（时间地点事项责任人目标）确保战略落地
+    role: method
+    src:
+    - paper: I9OAdzzs2oBliNxsmPjcHnBUnzf.md
+  - 'no': 6
+    name: 三大杠杆：撬动副业规模
+    desc: 介绍人力杠杆、技术杠杆、资源杠杆的定义及各自适用场景，说明杠杆如何配合效率评估放大项目收益
+    role: extension
+    src:
+    - paper: I9OAdzzs2oBliNxsmPjcHnBUnzf.md
+  - 'no': 7
+    name: 防踩坑三不碰：守住副业安全底线
+    desc: 介绍项目过滤定理：重资产、搞不懂、不喜欢三种类型一律不碰，教学习者如何主动规避高风险项目
+    role: limitation
+    src:
+    - paper: I9OAdzzs2oBliNxsmPjcHnBUnzf.md
+  - 'no': 8
+    name: 案例复盘：30+项目验证下的方法论
+    desc: 以“成功复制30+项目、副业收入破百万”为实证样本，串联后发制人+八步法+杠杆的完整应用过程
+    role: experiment
+    src:
+    - paper: I9OAdzzs2oBliNxsmPjcHnBUnzf.md
+- 'no': 3
+  name: 项目诊断实战 —— 把框架装进你的生意
+  desc: 本章将两大方法论合流，通过交叉使用六要素体检表与八步法，训练学习者对陌生项目的综合评估与决策能力。
+  nodes:
+  - 'no': 1
+    name: 方法论合流：六要素是体检，八步法是手术
+    desc: 用“体检与手术”类比说明两套框架的分工：六要素用于评估现状健康度，八步法用于推动执行改造
+    role: motivation
+    src:
+    - paper: NxhWdJj3UoPKvmxaBqkcz8wlntf.md
+    - paper: I9OAdzzs2oBliNxsmPjcHnBUnzf.md
+  - 'no': 2
+    name: 高可复制项目的画像描述
+    desc: 结合定义与定理，综合刻画理想项目的特征画像：流量/销转/交付三维高效，且能通过杠杆放大
+    role: definition
+    src:
+    - paper: NxhWdJj3UoPKvmxaBqkcz8wlntf.md
+    - paper: I9OAdzzs2oBliNxsmPjcHnBUnzf.md
+  - 'no': 3
+    name: 效率短板识别：三个追问定位瓶颈
+    desc: 具体操作技巧：通过追问“素材难不难做、销售要不要专业、交付费不费人力”快速定位低效环节
+    role: method
+    src:
+    - paper: NxhWdJj3UoPKvmxaBqkcz8wlntf.md
+  - 'no': 4
+    name: 收益端弥补设计：客单价、毛利与复购的组合拳
+    desc: 针对低效短板，讲解如何在收益三要素上做调节：阶梯价格、毛利取舍、复购激励的搭配方案
+    role: extension
+    src:
+    - paper: NxhWdJj3UoPKvmxaBqkcz8wlntf.md
+  - 'no': 5
+    name: 信息差与赛道选择：撬动利润的最后一个变量
+    desc: 引入渠道信息差、赛道与渠道的分工概念，说明拆解结果如何帮助校准赛道选择（结合八步法的找项目步骤）
+    role: extension
+    src:
+    - paper: I9OAdzzs2oBliNxsmPjcHnBUnzf.md
+  - 'no': 6
+    name: 实战推演：从一个陌生项目到策略出炉
+    desc: 以典型副业案例为素材，现场演示如何应用六要素体检→八步法诊断→杠杆规划→止损设计的完整决策路径
+    role: experiment
+    src:
+    - paper: NxhWdJj3UoPKvmxaBqkcz8wlntf.md
+    - paper: I9OAdzzs2oBliNxsmPjcHnBUnzf.md
+  - 'no': 7
+    name: 框架的盲区：动态市场与个人禀赋
+    desc: 严肃审视：静态拆解无法捕捉市场时效性波动，且未充分纳入个人禀赋偏好；需结合“三不碰”心理过滤机制加以修正
+    role: limitation
+    src:
+    - paper: NxhWdJj3UoPKvmxaBqkcz8wlntf.md
+    - paper: I9OAdzzs2oBliNxsmPjcHnBUnzf.md

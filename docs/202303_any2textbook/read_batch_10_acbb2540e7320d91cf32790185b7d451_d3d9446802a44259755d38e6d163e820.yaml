@@ -1,0 +1,139 @@
+- file_path: docs/202303/20230328_120.md
+  title: 《调教 200 多个 ChatGPT 模型后的经验分享》
+  summary: 作者基于4个月、200多个模型调教实践,提出调教ChatGPT的"三板斧"方法论,即用计算机语言逻辑、专业语言和英语与模型交互,以提升输出精准度。
+  core_question: 如何通过优化提示词的结构和语言,实现对ChatGPT模型的精准调教?
+  key_judgment: 调教精度是决定ChatGPT生产力转化的关键;模型虽擅长自然语言,但更擅长计算机语言逻辑、专业语言和英语,顺应这些"更擅长"可显著提升输出质量。
+  depth: high
+  suggested_destination: chapter
+  possible_shape: booklet
+  risks:
+  - 格式预处理
+  - 引用链接需梳理为可读性案例
+  screening_conclusion: retain
+  reason: 提供了源自大量实践的提示词调教原则,具有通识性和可迁移性,对方法论的梳理与章节提炼价值高。
+- file_path: docs/202303/20230328_121.md
+  title: 《不是程序员也能用 ChatGPT API + 自动化提高生产力-变现》
+  summary: 面向非程序员,介绍一种低代码、半定制的RPA方法:自动采集需求,经ChatGPT API加工后,由自动化工具完成回复、存储或发布,从而提升生产力并实现变现。
+  core_question: 无代码能力者如何结合ChatGPT API与自动化工具,实现业务或办公自动化以提效变现?
+  key_judgment: ChatGPT的商业价值不仅在于交互本身,更在于与自动化流程的结合;通过半定制RPA,非程序员也能跨越技术门槛构建提效闭环。
+  depth: medium
+  suggested_destination: handbook_entry
+  possible_shape: handbook
+  risks:
+  - 时效性
+  - 格式预处理
+  - 工具链路运行细节需补充
+  screening_conclusion: retain
+  reason: 打通了"非技术人员"利用API与自动化工具的路径,提供了可参考的落地框架,可作为具体场景实践入册。
+- file_path: docs/202303/20230328_122.md
+  title: 《利用 GPT4 迅速将想法落地,让创意在半天时间内变成 MVP》
+  summary: 作者复盘了自己如何从风向标信息中拆解机会,利用GPT4将创意在半天内快速执行落地为最小可行性产品(MVP)的全过程。
+  core_question: 如何利用GPT4将一条信息快速转化为一个可执行、可验证的MVP?
+  key_judgment: GPT4能显著缩短从创意到MVP的落地周期;关键在于将"拆解机会""任务分解""AI辅助执行"相结合,大幅提升个体创业者的执行颗粒度。
+  depth: medium
+  suggested_destination: case
+  possible_shape: series
+  risks:
+  - 时效性
+  - 偏重个人案例经验
+  screening_conclusion: retain
+  reason: 作为高行动力案例,展示了GPT-4在MVP开发流程中的通过拆解与执行,极具启发性和可操作性,可作为案例素材收录。
+- file_path: docs/202303/20230328_123.md
+  title: 《通过 ChatGPT+RPA,帮我在知乎上自动卖货》
+  summary: 作者结合ChatGPT与RPA(Automa)实现知乎好物推荐的内容半自动化创作:ChatGPT挑选并回答问题,RPA辅助提交,人工润色后发布,形成自动卖货的最小闭环。
+  core_question: 如何将ChatGPT与RPA结合,在知乎上实现内容创作和好物带货的自动化/半自动化?
+  key_judgment: ChatGPT与RPA结合能显著降低知乎好物的创作门槛与时间成本;关键洞察是RPA用于流程操作而非代替人完成关键润色决策,可稳定放大内容曝光带来副业收益。
+  depth: medium
+  suggested_destination: case
+  possible_shape: series
+  risks:
+  - 时效性
+  - 重复
+  - 工具版本适配
+  - 依赖平台政策
+  screening_conclusion: demote
+  reason: 案例具体但有较强时效性与平台特殊性,其流程与"ChatGPT+RPA"自动化主题重复度高,可降级作为案例补充。
+- file_path: docs/202303/20230328_125.md
+  title: 《ChatGPT 和 Plus 会员的注册和充值,超详细教程以及避坑指南》
+  summary: 分享了ChatGPT账号及Plus会员的注册与充值全流程,包含图文说明、避坑经验与常见问题解答。
+  core_question: 如何完成ChatGPT账号及Plus会员的注册与充值?
+  key_judgment: 以零基础用户视角,详细拆解注册与付费流程,通过实操踩坑总结降低新用户试错成本。
+  depth: low
+  suggested_destination: handbook_entry
+  possible_shape: handbook
+  risks:
+  - 时效性极强
+  - 流程可能已过时
+  screening_conclusion: demote
+  reason: 属于典型的高时效性操作教程,内容更新快、可复用价值低,但可作为历史记录或手册中的过时参考保留。
+- file_path: docs/202303/20230328_126.md
+  title: 《ChatGPT 问世 100 天,一篇 10W+爆文 10 分钟搞定》
+  summary: 作者分享了自己利用ChatGPT辅助公众号爆文创作并跑出多篇10W+阅读的完整经验,包括个人心态转变、起号历程、人工+智能爆文框架三步法及风险反思。
+  core_question: 如何在公众号运营中利用ChatGPT高效创作爆文,同时控制内容质量与合规风险?
+  key_judgment: ChatGPT能极大提高创作效率,但内容爆款的质量关键在于"人的情绪价值"加持:人完成选题、标题与情绪升华,ChatGPT完成正文框架,两者结合才能突破机械化范式。
+  depth: high
+  suggested_destination: chapter
+  possible_shape: book
+  risks:
+  - 时效性
+  - 口语化
+  - 重复
+  - 案例数据有平台泛化风险
+  screening_conclusion: retain
+  reason: 提供了从深耕行业到AI营销转型的完整叙事逻辑与可执行方法论,对理解AI+自媒体以及内容创作范式转型有较大价值,适合作为重点章节。
+- file_path: docs/202303/20230328_127.md
+  title: 《如何结合 ChatGPT 帮助小红书的创作者们提高创作效率》
+  summary: 以小红书为场景,分享了8类具体可用的ChatGPT提示词,旨在帮创作者快速上手提问并提升笔记创作效率。
+  core_question: 小红书创作者应如何使用ChatGPT提升创作效率?
+  key_judgment: 为不同内容创作场景提供模块化提示词模板,直接解决"拿到账号不会提问"的痛点,实现创作效率的即时提升。
+  depth: medium
+  suggested_destination: handbook_entry
+  possible_shape: handbook
+  risks:
+  - 时效性
+  - 格式预处理
+  - 示例泛化需结合新平台规则
+  screening_conclusion: retain
+  reason: 提供了清晰可复制的提示词集,与小红书创作场景强相关,对工具化手册编写价值高。
+- file_path: docs/202303/20230328_128.md
+  title: 《跨境电商领域的 ChatGPT 应用指南 v1.0 》
+  summary: 列举了跨境电商场景下9类ChatGPT应用,包括谷歌广告、脸书广告、贴文、问答、文章框架、选品、客服等,每类均配有可直接用于英文输出的提示词模板。
+  core_question: 跨境电商从业者在运营链路中如何高效利用ChatGPT进行内容与决策辅助?
+  key_judgment: 将整套跨境电商运营模块化并对应到具体的ChatGPT提示词,将"调教"策略落到具体场景,大幅降低AI落地难度。
+  depth: medium
+  suggested_destination: handbook_entry
+  possible_shape: handbook
+  risks:
+  - 时效性
+  - 格式预处理
+  - 提示词需随平台规则迭代
+  screening_conclusion: retain
+  reason: 是典型的高密度应用场景指南,模块化提示词贴近实务,可转化为手册或知识库条目,极大丰富工具库。
+- file_path: docs/202303/20230328_129.md
+  title: 《简单拆解文字转语音这类 AI 配音工具产品怎么推广和变现的? 》
+  summary: 以文字转语音AI配音工具为例,拆解了该品类为何是刚需、产品形态、推广渠道(网站SEO/小程序/裂变)及主流变现方式(会员制等)。
+  core_question: AI配音类工具产品如何做推广与变现?
+  key_judgment: AI工具类产品的核心壁垒不在技术而在精准流量与种子用户获取;需善用微信小程序生态、搜一搜流量及矩阵策略来获得增长。
+  depth: medium
+  suggested_destination: chapter
+  possible_shape: booklet
+  risks:
+  - 时效性
+  - 案例性强
+  - 平台生态策略有窗口期
+  screening_conclusion: retain
+  reason: 其为AI工具如何进行商业化推广提供了实操拆解框架,案例真实、层次清晰,对理解AI产品冷启动与流量策略具有方法论价值。
+- file_path: docs/202303/20230328_130.md
+  title: 《ChatGPT 王炸更新宣布推出插件功能,赋予 ChatGPT 联网的功能》
+  summary: 一篇极短的消息型帖子,转发关于ChatGPT宣布推出插件功能、支持联网的官方新闻链接,并向程序员社区发出行动号召。
+  core_question: ChatGPT插件/联网功能对开发者意味着什么?
+  key_judgment: 插件与联网能力是ChatGPT生态开放的关键节点,功能性延伸将催生新的应用形态与开发机会。
+  depth: low
+  suggested_destination: kb_entry
+  possible_shape: kb
+  risks:
+  - 时效性
+  - 无实质内容
+  - 非原创
+  screening_conclusion: exclude
+  reason: 仅一条新闻转发引用,无作者独立分析与操作细节,内容极薄且高时效,对结构化通读无实质性贡献。

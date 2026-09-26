@@ -1,0 +1,129 @@
+- file_path: docs/202303/20230328_168.md
+  title: 如何从现象级 MMORPG 类游戏中挖掘表现机会
+  summary: 作者以即将公测的《逆水寒手游》为例，面向希望抓住现象级MMORPG游戏热点的从业者，提出了一系列变现切入点的思路与建议，但文章主体内容在外部飞书链接中，本地文件仅有引言和目录。
+  core_question: 当市面上出现现象级MMORPG类游戏时，有哪些切入点可以去做变现？
+  key_judgment: 现象级游戏上线是稀缺的时间窗口，普通人应提前布局代练、攻略、周边、直播等周边生态服务来获取表现机会，而非直接进入游戏本体竞争。
+  depth: low
+  suggested_destination: case
+  possible_shape: pool
+  risks:
+  - 格式预处理
+  - 时效性
+  screening_conclusion: retain
+  reason: 选题视角独特，切入的是游戏红利期的变现机会这一常见但缺乏系统梳理的领域，可参考价值在于方法论而非具体操作；但本文正文本地缺失，需要调取飞书原文作格式预处理后再评估内容质量。
+- file_path: docs/202303/20230328_169.md
+  title: 普通人买卖旧书的赚钱机会分享——二十年淘书经验分享
+  summary: 拥有二十年经验的旧书玩家杜永旺，从收书渠道、价格决定因素、搬砖策略、修复增值、资质合规等维度，系统拆解了普通人在旧书市场通过信息差获利的完整路径与实操经验。
+  core_question: 普通人如何利用信息差在旧书市场进行低门槛、可持续的搬砖变现？
+  key_judgment: 旧书搬砖的本质是赚信息差钱，而非赚商品钱——核心壁垒在于版本知识和对各渠道供需关系的判断，而非资金投入；同时合规门槛极低（年销售额5万以下不需要资质），适合作为副业切入。
+  depth: high
+  suggested_destination: chapter
+  possible_shape: book
+  risks:
+  - 时效性
+  - 格式预处理
+  screening_conclusion: retain
+  reason: 内容极其详实，覆盖从收书到卖书的完整链路，既有战略认知（地域搬砖、平台搬砖、修复增值三大利润来源），又有战术细节（孔网拍卖捡漏、多抓鱼价差陷阱等），是本批素材中稀缺的"二十年功力"型干货，具备出书级别的深度。
+- file_path: docs/202303/20230328_170.md
+  title: 通过资源整合服务，有人两个月纯利 30 万+
+  summary: 作者蓝狐介绍了一种通过整合空调移机、管道疏通等刚需生活服务师傅资源来实现变现的模式，声称有人以此操作两个月获得30万纯利，但具体操作步骤与方案在飞书外部链接中，本地文件仅为核心观点概述。
+  core_question: 如何通过整合本地刚需服务师傅资源来获取高额利润？
+  key_judgment: 刚需本地服务（如空调移机、疏通管道）由于供给零散、信息不对称，存在清晰的"资源掮客"套利空间，整合师傅资源并承接C端客户是轻资产高杠杆的玩法。
+  depth: low
+  suggested_destination: case
+  possible_shape: pool
+  risks:
+  - 格式预处理
+  - 时效性
+  screening_conclusion: demote
+  reason: 观点本身有启发性（轻资产整合本地刚需服务），但正文在飞书外部，本地仅有骨架性概述和评论，信息密度极低，无法支撑深度评估；可作为案列素材保留，降级至案例池而非正式章节。
+- file_path: docs/202303/20230328_171.md
+  title: 百家号月入 5000~10000 元口播玩法介绍，保姆级教程来啦！
+  summary: 作者书豪以自身年入百万的实战经验，分享了百家号口播视频从注册、发布、收益机制、选题策略到敏感话题避坑的完整保姆级教程，重点阐述如何通过热点选题和原创权益提升单账号月收入至5000-10000元。
+  core_question: 普通人如何通过百家号口播视频实现月入5000-10000元的稳定收益？
+  key_judgment: 百家号口播号的核心增长引擎是"实时热点优先选题"，流量收益与互动数据（活力值）挂钩而非纯播放量；新人需先熬过14天新手期，开通小视频原创权益后收益才会显著跃升。
+  depth: medium
+  suggested_destination: course_unit
+  possible_shape: course
+  risks:
+  - 时效性
+  - 口语化
+  screening_conclusion: retain
+  reason: 这是一份实操性极强的平台攻略，步骤颗粒度细（从注册到权益开通再到选题测试），尤其"热点选题清单"和"敏感话题禁区"两个模块有稀缺价值；但平台政策变化快，时效性风险较高，适合作为课程单元而非长销书内容。
+- file_path: docs/202303/20230328_172.md
+  title: 团队年净利润达 30W+ 的百度竞价冷门项目投放策略分享
+  summary: 作者王永超系统讲解了百度竞价冷门项目的完整操盘逻辑：从选品验证（淘宝搜索、商家店铺、5118长尾词）、开户设置、投放策略（计划/单元/创意/关键词）、私域承接页面设计到避坑指南与新人门槛，并延伸到其他平台的投放方法论。
+  core_question: 如何通过百度竞价投放冷门蓝海产品，实现年净利润30W+？
+  key_judgment: 百度竞价冷门项目的本质是"付费购买精准客户流量"，选品是成败核心（须找价格不透明且自己能打得过同行的产品），验证标准是有同行长期投放（有人长期投就证明能赚钱）；投放策略及页面转化重于技巧性关键词操作。
+  depth: high
+  suggested_destination: chapter
+  possible_shape: book
+  risks:
+  - 时效性
+  screening_conclusion: retain
+  reason: 文章几乎是一本完整的"百度竞价冷门品投放操作手册"，从选品到投放再到私域承接和避坑层层递进，逻辑严密、实操细节丰富（含预算控制、否词策略、页面营销心理学），且方法论可迁移至小红书、抖音等其他投放平台，具有出书级别的体系化价值。
+- file_path: docs/202303/20230328_173.md
+  title: 陪诊行业的变现方式都有哪些呢？
+  summary: 从事陪诊行业近一年的作者静水，整理了陪诊行业11种变现方式的核心框架，并附有广州就医经验，但具体的变现方式细节在飞书外部链接中，本地仅有引言和概要。
+  core_question: 陪诊行业有哪些具体的变现方式可以借鉴？
+  key_judgment: 陪诊行业作为新兴服务业，变现路径多样（从基础陪诊费到衍生增值服务），关键在于对医院流程熟悉度和信任资产的积累。
+  depth: low
+  suggested_destination: kb_entry
+  possible_shape: kb
+  risks:
+  - 格式预处理
+  - 时效性
+  screening_conclusion: demote
+  reason: 本地文件仅列出11种变现方式的框架和广州就医技巧的概述，核心实操内容全部在飞书外部链接中，无法判断内容深度；可作为知识库条目收录概念框架，但不足以支撑正式章节或课程。
+- file_path: docs/202303/20230328_174.md
+  title: Etsy 注册最新最全指南
+  summary: 作者希声详细讲解了Etsy平台注册的完整实操流程（含所需资料、注册步骤、注意事项、封店原因、申诉流程），并明确建议无海外资源的新手不要入场，同时指出了规避风控的核心逻辑——所有操作信息越接近"真实正常人"越安全。
+  core_question: 如何注册一个稳定不易封店的Etsy店铺？以及新手是否适合入场？
+  key_judgment: Etsy的核心门槛不是注册流程本身，而是风控逻辑——平台通过欺诈值打分系统综合评估账号，分数越高越容易封店；因此"越接近真实正常人"是关键原则，没有海外真实资源的普通人不应入场，这是对"新手友好"叙事的清醒否定。
+  depth: high
+  suggested_destination: handbook_entry
+  possible_shape: handbook
+  risks:
+  - 时效性
+  screening_conclusion: retain
+  reason: 这是罕见的"劝退型+保姆级"教程，用极高的颗粒度覆盖了从资料准备、注册操作到申诉全流程，同时对新手入场给出了明确的否定判断，这种坦诚的边界感极具参考价值；但Etsy风控政策演进快，需标注时效性风险，适合作为手册条目而非长篇章节。
+- file_path: docs/202303/A27Md68WVox13FxPZFeczOVgnKc.md
+  title: ChatGPT 应用生态之浏览器插件观察
+  summary: 产品经理三林在2023年3月对ChatGPT浏览器插件生态进行了一次全景扫描，按提示词集成、文本处理、效率工具、原有业务赋能四大类逐一拆解了AIPRM、ChatGPT
+    for Google、ChatGPT Writer、ShareGPT等代表性产品的定位逻辑与核心交互设计。
+  core_question: ChatGPT开放API后，围绕其而生的浏览器插件产品生态目前呈现出怎样的格局？有哪些值得关注的产品定位策略？
+  key_judgment: 浏览器插件是ChatGPT赋能用户的最佳产品形态，因为它能在用户熟悉的网页场景中弥补官方网页版的功能不足（"站在巨人肩膀上"）；同时"一句Prompt等于一个迷你工具"的认知，揭示了ChatGPT应用生态爆发的最小单元。
+  depth: medium
+  suggested_destination: case
+  possible_shape: series
+  risks:
+  - 时效性
+  - 重复
+  screening_conclusion: demote
+  reason: 作为2023年3月AI爆发初期的生态观察，文中提到的产品（如ChatGPT for Google、AIPRM）及格局已发生重大变迁，时效性风险极高；但"用工具定位四象限拆解生态"的分析框架仍有方法论价值，可降级为历史案例或系列素材中的"早期生态"篇章。
+- file_path: docs/202303/AoT0dlRipo0RN6xDSo3cdckpnyf.md
+  title: 我是如何用一枚二维码引爆IP流量的？——艺术二维码
+  summary: 插画师吉果分享了自己将普通二维码升级为艺术二维码后，意外通过朋友圈引爆私域流量的经历，并系统分析了艺术二维码的引流原理、商业价值、价格区间、目标用户、制作周期、发展受限原因及行业变现方式。
+  core_question: 艺术二维码作为一种小众设计服务，如何帮助自媒体IP引流并实现商业变现？
+  key_judgment: 艺术二维码的商业价值本质是帮助大IP实现"差异化视觉锤"包装，在流量贵如油的私域时代，一个能扫出来的原创艺术二维码本身就是记忆点和社交货币；但它的市场天花板在于价格不亲民且传播性弱，注定只服务头部IP。
+  depth: medium
+  suggested_destination: case
+  possible_shape: booklet
+  risks:
+  - 重复
+  - 时效性
+  screening_conclusion: retain
+  reason: 文章不是泛泛的"设计服务"介绍，而是以亲身经历讲述了从发朋友圈引发社交涟漪到完成商业转化的完整链路，同时坦诚分析了该行业发展的结构性瓶颈（传播性弱、营销能力不足），兼具案例温度和行业冷思考，适合作为"小众蓝海服务"案例章节。
+- file_path: docs/202303/ATzUdYFxCo8QtbxMAIaceDJmnQc.md
+  title: Midjourney 入门使用手册
+  summary: AI绘画联盟团队针对Midjourney新手，提供了一份从注册Discord账号、进入频道、输入/imagine指令到出图、使用U/V按钮细化的全流程图文操作手册。
+  core_question: 一个完全没接触过Midjourney的新手，如何从零开始完成第一次AI绘图？
+  key_judgment: Midjourney对新手非常友好，核心流程简单（通过Discord输入/imagine即可1分钟出图），入门门槛在账号注册而非绘图本身。
+  depth: low
+  suggested_destination: handbook_entry
+  possible_shape: handbook
+  risks:
+  - 时效性
+  - 格式预处理
+  screening_conclusion: exclude
+  reason: 这是一份纯操作层面的入门图文教程，仅覆盖注册和第一次出图，既无方法论的深度，也无商业变现的切入视角（如如何用Midjourney赚钱），且操作界面和平台政策更新极快导致时效性风险极高；与同批素材中其他文章的认知深度相比明显处于低价值区间，予以排除。

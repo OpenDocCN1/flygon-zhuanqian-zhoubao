@@ -1,0 +1,29 @@
+- 'no': 1
+  title: 认知地基：财富思维、交易本质与体系总纲
+  desc: 本部分奠定全书认知基础，从哲学层面剖析赚钱与交易的本质，搭建知识体系的总体框架与底层逻辑。
+  papers:
+  - docs/202304/doxcnk4mqgBMJTv0mklq0eR48fg.md
+  - docs/202304/EnMvdgCPboEplRxJPdXcMUrznbf.md
+- 'no': 2
+  title: 商业战略：项目选择、市场定位与垄断思维
+  desc: 聚焦于核心商业战略，讲解如何选择高价值项目、进行聚焦定位，并利用资源差构建垄断优势。
+  papers:
+  - docs/202304/20230418_083.md
+  - docs/202304/20230418_088.md
+- 'no': 3
+  title: 创业进阶：商业模式层级与利润增长策略
+  desc: 深入探讨创业的商业模式层次，从流量型生意到更高维度的商业境界，揭示提升利润天花板的路径，并介绍多元增收方法。
+  papers:
+  - docs/202304/20230418_092.md
+  - docs/202304/doxcnk4mqgBMJTv0mklq0eR48fg.md
+- 'no': 4
+  title: 组织能力：团队构建与个体效能提升
+  desc: 关注将战略落地所需的能力建设，探讨如何通过一人团队技能与底层能力训练，提升个人与组织的执行效能。
+  papers:
+  - docs/202304/AnkEdEtEtoXIbexWlQ3cL6zenFf.md
+  - docs/202304/EnMvdgCPboEplRxJPdXcMUrznbf.md
+- 'no': 5
+  title: 未来生产力：AIGC工具应用与时代机遇
+  desc: 面向未来的应用与展望，聚焦于AIGC时代带来的新机遇，探讨如何利用前沿工具重构工作流程，把握时代红利。
+  papers:
+  - docs/202304/AnkEdEtEtoXIbexWlQ3cL6zenFf.md

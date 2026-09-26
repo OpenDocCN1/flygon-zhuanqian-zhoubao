@@ -1,0 +1,84 @@
+- 'no': 1
+  name: 交易式赚钱 —— 把目光所及变成可卖的商品
+  desc: 本章从“赚钱=交易=买卖”的本质出发，带你拆解交易的底层逻辑，建立对赚钱活动的整体认知框架。
+  nodes:
+  - 'no': 1
+    name: 赚钱的本质是交易
+    desc: 用“买卖”类比理解：赚钱不是抽象的能力，而是具体的交易行为，目光所及皆为可交易的商品
+    role: motivation
+    src:
+    - paper: docs/202304/doxcnk4mqgBMJTv0mklq0eR48fg.md
+  - 'no': 2
+    name: 交易式赚钱的正式定义
+    desc: 从“赚钱=交易=买卖”出发，将赚钱等价于交易行为，并拆解为“卖得多、卖得贵、卖得多元”三个量化维度
+    role: definition
+    src:
+    - paper: docs/202304/doxcnk4mqgBMJTv0mklq0eR48fg.md
+  - 'no': 3
+    name: 稀缺与定价权
+    desc: 推导出核心定理：稀缺一方掌控定价权，这是“卖得贵”的根本依据
+    role: proof
+    src:
+    - paper: docs/202304/doxcnk4mqgBMJTv0mklq0eR48fg.md
+  - 'no': 4
+    name: 三多增收法
+    desc: 围绕“卖的多（可复购+分销）、卖的贵（稀缺定价）、卖的多元（粉丝多重变现）”给出具体增收方法
+    role: method
+    src:
+    - paper: docs/202304/doxcnk4mqgBMJTv0mklq0eR48fg.md
+- 'no': 2
+  name: 赚钱四要素 —— 把拼图拼完整
+  desc: 本章将赚钱拆解为定位、流量、产品、转化四块拼图，帮助你定位自身短板，建立系统性赚钱思维。
+  nodes:
+  - 'no': 1
+    name: 把赚钱想成拼图游戏
+    desc: 用“拼图”类比理解：赚钱不是单一能力，而是定位、流量、产品、转化四要素的完整组合
+    role: motivation
+    src:
+    - paper: docs/202304/doxcnk4mqgBMJTv0mklq0eR48fg.md
+  - 'no': 2
+    name: 赚钱拼图的四要素
+    desc: 形式化定义四要素：定位（你是谁）、流量（谁看你）、产品（你给什么）、转化（如何收费）
+    role: definition
+    src:
+    - paper: docs/202304/doxcnk4mqgBMJTv0mklq0eR48fg.md
+  - 'no': 3
+    name: 关键动作诊断法
+    desc: 通过检查产品、引流、广告、销售四个关键动作是否到位，定位赚钱难的根本原因
+    role: method
+    src:
+    - paper: docs/202304/doxcnk4mqgBMJTv0mklq0eR48fg.md
+  - 'no': 4
+    name: 越级学习陷阱
+    desc: 揭示常见误区：跳过基础关键动作直接学高级内容是赚不到钱的主要原因
+    role: limitation
+    src:
+    - paper: docs/202304/doxcnk4mqgBMJTv0mklq0eR48fg.md
+- 'no': 3
+  name: 赚钱模式与阶段 —— 从打怪升级到稳定输出
+  desc: 本章从模式建构与时间演化双视角，揭示赚钱如何从单次交易走向可持续的系统运作。
+  nodes:
+  - 'no': 1
+    name: 赚钱模式的四大支柱
+    desc: 定义赚钱模式的四要素：需求（为什么买）、流量（哪里找人）、营销（如何触达）、变现（怎么收钱）
+    role: definition
+    src:
+    - paper: docs/202304/doxcnk4mqgBMJTv0mklq0eR48fg.md
+  - 'no': 2
+    name: 圈层与信息差红利
+    desc: 分析社会分层导致圈层变多、信息差扩大，从而增大流通价值——这是“卖得多元”的宏观基础
+    role: extension
+    src:
+    - paper: docs/202304/doxcnk4mqgBMJTv0mklq0eR48fg.md
+  - 'no': 3
+    name: 信用是稀缺资源
+    desc: 论证信用作为交易润滑剂的价值：信用稀缺，且与赚钱直接相关，是长期交易的隐形资产
+    role: extension
+    src:
+    - paper: docs/202304/doxcnk4mqgBMJTv0mklq0eR48fg.md
+  - 'no': 4
+    name: 阶段化推进法
+    desc: 用“打怪升级”类比，将赚钱路径划分为摸索（试错）→放大（规模化）→稳定三阶段，并给出各阶段的关键任务
+    role: method
+    src:
+    - paper: docs/202304/doxcnk4mqgBMJTv0mklq0eR48fg.md

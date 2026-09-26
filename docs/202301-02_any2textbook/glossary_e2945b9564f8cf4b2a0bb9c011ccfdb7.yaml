@@ -1,0 +1,325 @@
+- canonical: 流量效率
+  aliases:
+  - 流量率
+  - 引流效率
+  first_seen: P001
+- canonical: 销转效率
+  aliases:
+  - 销售转化率
+  - 转化效率
+  first_seen: P001
+- canonical: 交付效率
+  aliases:
+  - 交付率
+  - 服务交付效率
+  first_seen: P001
+- canonical: 复购率
+  aliases:
+  - 回购率
+  - 复购
+  first_seen: P001
+- canonical: 副业拆解方法论
+  aliases:
+  - 副业拆解
+  - 拆解术
+  first_seen: P001
+- canonical: 后发制人
+  aliases:
+  - 后发策略
+  - 延迟出击
+  first_seen: P001
+- canonical: 喂养算法
+  aliases:
+  - 算法驯化
+  - 喂算法
+  first_seen: P001
+- canonical: 情报挖掘
+  aliases:
+  - 信息挖掘
+  - 情报搜集
+  first_seen: P001
+- canonical: 拆解八步法
+  aliases:
+  - 八步拆解法
+  - 拆解八步
+  first_seen: P001
+- canonical: 项目管理双案法
+  aliases:
+  - 双案管理法
+  - 双案法
+  first_seen: P001
+- canonical: 三大杠杆
+  aliases:
+  - 杠杆三法
+  - 三杠杆
+  first_seen: P001
+- canonical: 防踩坑三不碰
+  aliases:
+  - 三不碰原则
+  - 踩坑规避法则
+  first_seen: P001
+- canonical: 母题
+  aliases:
+  - 核心母题
+  - 母题定位
+  first_seen: P001
+- canonical: 2层基因
+  aliases:
+  - 双层基因
+  - 二层基因
+  first_seen: P001
+- canonical: 三重身份
+  aliases:
+  - 三层身份
+  - 身份三元
+  first_seen: P001
+- canonical: 四级观感
+  aliases:
+  - 四层观感
+  - 观感层级
+  first_seen: P001
+- canonical: 五份资产
+  aliases:
+  - 五大资产
+  - 五维资产
+  first_seen: P001
+- canonical: 4级内容架构
+  aliases:
+  - 四级内容架构
+  - 内容金字塔
+  first_seen: P001
+- canonical: 独有理论
+  aliases:
+  - 原创理论
+  - 独特理论
+  first_seen: P001
+- canonical: 点线面打通
+  aliases:
+  - 点线面贯通
+  - 三面打通
+  first_seen: P001
+- canonical: 核心逻辑4近
+  aliases:
+  - 四近核心
+  - 4近逻辑
+  first_seen: P001
+- canonical: 私域冷启动
+  aliases:
+  - 私域启动
+  - 冷启动
+  first_seen: P001
+- canonical: 站台产品
+  aliases:
+  - 主打产品
+  - 流量锚点产品
+  first_seen: P001
+- canonical: 群红
+  aliases:
+  - 社群意见领袖
+  - 群内红人
+  first_seen: P001
+- canonical: 裂变断层
+  aliases:
+  - 裂变断裂
+  - 增长断层
+  first_seen: P001
+- canonical: 团队裂变
+  aliases:
+  - 团队扩张
+  - 组织裂变
+  first_seen: P001
+- canonical: 用户裂变
+  aliases:
+  - 用户拉新
+  - 客户裂变
+  first_seen: P001
+- canonical: 战队PK
+  aliases:
+  - 团队对战
+  - PK机制
+  first_seen: P001
+- canonical: 抱大腿
+  aliases:
+  - 借力大V
+  - 借势
+  first_seen: P001
+- canonical: 高质量训练营
+  aliases:
+  - 精品训练营
+  - 高价值训练营
+  first_seen: P001
+- canonical: 高效率交付
+  aliases:
+  - 高能交付
+  - 高效交付
+  first_seen: P001
+- canonical: 一份时间卖多次
+  aliases:
+  - 时间复利
+  - 多份售卖
+  first_seen: P001
+- canonical: 最少必要信息
+  aliases:
+  - 最小必要信息
+  - 最少必备信息
+  first_seen: P001
+- canonical: 操作手册
+  aliases:
+  - 执行手册
+  - SOP手册
+  first_seen: P001
+- canonical: 打卡驱动责任制
+  aliases:
+  - 打卡责任制
+  - 打卡驱动
+  first_seen: P001
+- canonical: 百问百答
+  aliases:
+  - 百问百答手册
+  - FAQ大全
+  first_seen: P001
+- canonical: 4C动态量化模型
+  aliases:
+  - 4C模型
+  - 动态量化股权模型
+  first_seen: P001
+- canonical: 股权五步法
+  aliases:
+  - 五步股权法
+  - 股权分配五步
+  first_seen: P001
+- canonical: 公转私
+  aliases:
+  - 公域转私域
+  - 公转私域
+  first_seen: P001
+- canonical: 转化入口
+  aliases:
+  - 导流入口
+  - 转化通道
+  first_seen: P001
+- canonical: 双侧联动防封
+  aliases:
+  - 双侧防封
+  - 联动防封策略
+  first_seen: P001
+- canonical: 账号类型分层
+  aliases:
+  - 账号分层
+  - 矩阵账号分层
+  first_seen: P001
+- canonical: 选文垂直化
+  aliases:
+  - 垂直选文
+  - 选题垂直
+  first_seen: P001
+- canonical: 5s完播率
+  aliases:
+  - 5秒完播率
+  - 前5秒留存
+  first_seen: P001
+- canonical: 改文套路化
+  aliases:
+  - 套路化改文
+  - 改文公式
+  first_seen: P001
+- canonical: 改文四步法
+  aliases:
+  - 四步改文法
+  - 改文四步
+  first_seen: P001
+- canonical: 视频号平台红利
+  aliases:
+  - 视频号红利
+  - 平台红利期
+  first_seen: P001
+- canonical: 蓝海选品
+  aliases:
+  - 蓝海产品
+  - 蓝海策略
+  first_seen: P001
+- canonical: 对标账号标准
+  aliases:
+  - 对标账号
+  - 账号对标
+  first_seen: P001
+- canonical: 视频处理流程
+  aliases:
+  - 剪辑流程
+  - 视频制作链路
+  first_seen: P001
+- canonical: 直播收割
+  aliases:
+  - 直播变现
+  - 直播转化
+  first_seen: P001
+- canonical: 公众号矩阵操作
+  aliases:
+  - 公众号矩阵
+  - 矩阵操作
+  first_seen: P001
+- canonical: 关键词铺设
+  aliases:
+  - 关键词覆盖
+  - 关键词布局
+  first_seen: P001
+- canonical: 伪原创
+  aliases:
+  - 洗稿
+  - 二次创作
+  first_seen: P001
+- canonical: 自动回复承接
+  aliases:
+  - 自动回复
+  - 承接话术
+  first_seen: P001
+- canonical: 股权
+  aliases:
+  - 股权架构
+  - 股份
+  first_seen: P001
+- canonical: 赛道
+  aliases:
+  - 细分赛道
+  - 市场赛道
+  first_seen: P001
+- canonical: 渠道
+  aliases:
+  - 推广渠道
+  - 投放渠道
+  first_seen: P001
+- canonical: 客单价
+  aliases:
+  - 单客价
+  - 均单价
+  first_seen: P001
+- canonical: 毛利率
+  aliases:
+  - 毛利
+  - 利润率
+  first_seen: P001
+- canonical: 私域
+  aliases:
+  - 私域流量
+  - 私有流量池
+  first_seen: P001
+- canonical: 创始人身份
+  aliases:
+  - 创始人角色
+  - 发起者身份
+  first_seen: P001
+- canonical: 岗位权重
+  aliases:
+  - 岗位系数
+  - 职责权重
+  first_seen: P001
+- canonical: 时间投入
+  aliases:
+  - 时间贡献
+  - 投入时长
+  first_seen: P001
+- canonical: 资金投入
+  aliases:
+  - 资金贡献
+  - 资本投入
+  first_seen: P001

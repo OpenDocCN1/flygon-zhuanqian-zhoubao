@@ -1,0 +1,541 @@
+retained:
+- file_path: docs/202301-02/20230207_01.md
+  title: 230207 龙哥赚钱周报
+  summary: 2023年2月7日发布的周报，内容涵盖两篇精华帖：一篇关于盲目自信的创业心法，强调打赢内在比赛；另一篇分析未来3个月普通人的机会窗口，聚焦旅游、健康、餐饮三个行业。
+  core_question: 创业者应如何调整心态？疫情后3-6个月普通人有哪些可把握的机会？
+  key_judgment: 盲目自信是创业者的理性选择，成功源于不断复制成功体验；2023年春季是确定的疫情平稳期，旅游、健康、餐饮行业将迎来爆发。
+  depth: medium
+  suggested_destination: chapter
+  possible_shape: booklet
+  risks:
+  - 口语化
+  - 时效性
+  screening_conclusion: retain
+  reason: 包含两篇完整且有启发性的分享，可作素材使用。
+- file_path: docs/202301-02/20230207_02.md
+  title: 230202 龙哥赚钱周报
+  summary: 2023年2月2日发布的周报，核心内容为一篇关于跨境电商选品的精华帖，详细阐述四步打造百万爆款方法论，找蓝海、走捷径、加光环、微创新。
+  core_question: 跨境电商新手如何通过系统化的选品方法论，找到蓝海产品并成功打造爆款？
+  key_judgment: 选品是运营的核心，好的选品需同时解决流量和转化问题。新手应遵循合规平替、材质套利等捷径，通过空壳品牌和微创新获得差异化和溢价。
+  depth: high
+  suggested_destination: chapter
+  possible_shape: book
+  risks:
+  - 口语化
+  - 时效性
+  - 重复
+  screening_conclusion: retain
+  reason: 提供了极具操作性和系统性的选品方法论，内容详实，案例丰富。
+- file_path: docs/202301-02/20230207_03.md
+  title: 230117 龙哥赚钱周报
+  summary: 内容涉及商业认知、项目复盘和方法论。包含一个千万项目的底层逻辑、视频号直播结合私域的ROI计算、如何寻找赚钱项目等篇目。
+  core_question: 如何从认知和实操层面，找到并运作一个能赚钱的项目？
+  key_judgment: 多数项目没有绝对壁垒，关键是选择有结果的项目并模仿同行；视频号直播结合私域能显著提升ROI。
+  depth: medium
+  suggested_destination: chapter
+  possible_shape: booklet
+  risks:
+  - 口语化
+  - 格式预处理
+  screening_conclusion: retain
+  reason: 包含多个维度的认知和方法论分享，对读者有实际指导意义。
+- file_path: docs/202301-02/20230207_04.md
+  title: 230110 龙哥赚钱周报
+  summary: 内容聚焦于策略师能力、Web3新人建议、商业模式画布、闲鱼选品、财务合规等技能和认知分享。
+  core_question: 普通人如何提升个人能力以适配商业环境？
+  key_judgment: 策略师需具备调研、逻辑、决断等五大能力；商业模式画布是分析项目的高效工具。
+  depth: medium
+  suggested_destination: chapter
+  possible_shape: booklet
+  risks:
+  - 口语化
+  - 时效性
+  - 重复
+  screening_conclusion: retain
+  reason: 提供了一套可复用的分析工具和针对特定领域的实操建议。
+- file_path: docs/202301-02/20230207_05.md
+  title: 230104 龙哥赚钱周报
+  summary: 内容包含小马宋的10句年度感悟、50条浓缩的赚钱认知思维，以及关于内容创作（做内容要做渣男）等分享。
+  core_question: 如何通过更新认知思维和改变内容创作策略，在商业和自媒体领域获得成功？
+  key_judgment: 进化论是最可靠的成功学，避免无效的自我感动；做内容应像渣男一样，追求效果而非自嗨。
+  depth: medium
+  suggested_destination: chapter
+  possible_shape: booklet
+  risks:
+  - 口语化
+  - 重复
+  screening_conclusion: retain
+  reason: 提供了大量高密度的认知思维总结，以及反直觉但有效的内容创作方法论。
+- file_path: docs/202301-02/20230207_06.md
+  title: 221220 龙哥赚钱周报
+  summary: 整理自付费社群的赚钱周报，汇编了流量认知、个人财富积累、创业心态、多平台实操项目复盘、AI绘画与ChatGPT等新兴热点案例。
+  core_question: 如何从认知和实操层面发现并做好赚钱项目？
+  key_judgment: 财富积累分为四个阶段；流量经营核心在于将流量价值最大化；非刚需项目不应做。
+  depth: medium
+  suggested_destination: kb_entry
+  possible_shape: kb
+  risks:
+  - 格式预处理
+  - 重复
+  screening_conclusion: retain
+  reason: 汇编周报，覆盖多个项目与认知，适合作为知识库条目而非独立章节。
+- file_path: docs/202301-02/20230207_07.md
+  title: 221213 龙哥赚钱周报
+  summary: 汇编了付费社群精华帖的周报，核心内容关于如何面对增长瓶颈、理解战略、规避投资和创业中的常见亏损陷阱。
+  core_question: 当企业和个人陷入增长瓶颈时，应如何调整心态和视角？
+  key_judgment: 应对增长焦虑的唯一方法是切换视角，从追求增长转向价值创造；判断战略应看其能否获得相对优势。
+  depth: high
+  suggested_destination: handbook_entry
+  possible_shape: booklet
+  risks:
+  - 重复
+  - 口语化
+  screening_conclusion: retain
+  reason: 关于增长与战略的论述具有启发性和普适性，是构建创业认知框架的核心素材。
+- file_path: docs/202301-02/20230207_08.md
+  title: 221206 龙哥赚钱周报
+  summary: 涵盖劳动法合规、高净值客户销售、IP打造、各平台项目实操复盘、AI绘画、Web3探索案例。
+  core_question: 对于不同背景的创业者及从业者，有哪些具体可操作的增收项目和避坑指南？
+  key_judgment: 项目选择核心是结合自身资源并寻找平台红利期；大客户销售关键是将表面需求升华为深层痛点，建立情感链接。
+  depth: high
+  suggested_destination: kb_entry
+  possible_shape: kb
+  risks:
+  - 时效性
+  - 格式预处理
+  screening_conclusion: retain
+  reason: 包含大量高实操价值的复盘，覆盖多个平台和项目。
+- file_path: docs/202301-02/20230207_09.md
+  title: 221129 龙哥赚钱周报
+  summary: 聚焦于创业认知、财税规划、写作复利，以及基于个人资源选择项目的方法论。
+  core_question: 如何从认知、技能和资源匹配度出发，逐步构建并放大自己的盈利模式？
+  key_judgment: 写作是普通人最容易建立的复利杠杆；选择新项目应首先盘点自身资源，找到项目与资源的匹配度。
+  depth: medium
+  suggested_destination: handbook_entry
+  possible_shape: booklet
+  risks:
+  - 重复
+  - 口语化
+  screening_conclusion: retain
+  reason: 提供关于个人能力建设和项目选择的系统方法论。
+- file_path: docs/202301-02/20230207_11.md
+  title: 221115 龙哥赚钱周报
+  summary: 核心内容围绕垂直IP获取精准客户的策略、产品idea的来源，以及多平台的引流和变现实操案例。
+  core_question: 如何低成本获取精准客户，并选择和验证一个有潜力的产品？
+  key_judgment: 垂直IP应以SEO思维获取精准搜索流量；产品idea最成功的来源是解决自身问题。
+  depth: medium
+  suggested_destination: kb_entry
+  possible_shape: kb
+  risks:
+  - 时效性
+  - 格式预处理
+  screening_conclusion: retain
+  reason: 提供垂直IP商业模式和产品创新的底层方法论及具体案例。
+- file_path: docs/202301-02/AmKRdF2Z9oQjDExxxuAc18a5nbb.md
+  title: 公众号追热点复盘：通过行程码一天涨粉4万+，直接变现6K+
+  summary: 复盘利用行程码下线热点，通过12个公众号批量操作，单日净增4.5万粉、变现约1万元的实操细节。
+  core_question: 如何高效利用社会热点，通过公众号矩阵实现快速涨粉和变现？
+  key_judgment: 追热点核心在于对平台搜索算法的理解以及流量承接和变现路径的设计。
+  depth: high
+  suggested_destination: case
+  possible_shape: course
+  risks:
+  - 时效性
+  - 重复
+  screening_conclusion: retain
+  reason: 详细拆解了完整操作SOP，方法论具有可迁移性。
+- file_path: docs/202301-02/C0dydiFPCoBI3LxemwWcXpdxn2e.md
+  title: 初创公司如何科学量化股权分配？股权分配五步法教你不再踩坑！！！
+  summary: 介绍适用于初创团队的4C动态量化股权分配模型及股权分配五步法，通过真实案例演示如何从四个维度量化计算股权比例。
+  core_question: 初创公司如何避免拍脑袋决策，科学公平地量化分配股权？
+  key_judgment: 股权分配核心在于前期通过自评互评就四维度权重达成共识，比最终数字更重要。
+  depth: high
+  suggested_destination: handbook_entry
+  possible_shape: handbook
+  risks:
+  - 内容依赖具体案例
+  - 表述口语化
+  screening_conclusion: retain
+  reason: 提供结构清晰、可操作性强的股权分配工具和方法论。
+- file_path: docs/202301-02/CGZ4dZq4ZoSFT4xUmFecNpk4nNe.md
+  title: 有了这两个AI机器人,还怕做不好带货短视频?
+  summary: 通过影刀RPA工具，针对抖音巨量百应后台开发两个采集机器人，实现高GMV对标短视频的批量数据采集和下载。
+  core_question: 如何让短视频创作者高效、精准地获取同行爆款视频作为对标素材？
+  key_judgment: 官方后台比第三方数据平台更实时精准；通过RPA工具可将对标视频采集过程自动化。
+  depth: medium
+  suggested_destination: kb_entry
+  possible_shape: kb
+  risks:
+  - 时效性
+  - 工具依赖性强
+  - 格式预处理
+  screening_conclusion: retain
+  reason: 介绍获取精准行业爆款数据的新渠道和自动化方法。
+- file_path: docs/202301-02/DNGrdODFBowfk2xwkNCc5GGSnRd.md
+  title: 卖空气，需求分析与做局盈利！
+  summary: 分享非规范化生产的理念：卖空气（卖预期/概念），利用软件+SEO技术，精准筛选用户并建立信任的野路子方法论。
+  core_question: 个人开发者如何不依赖复杂技术，通过挖掘需求、撰写软文和做局套话实现盈利？
+  key_judgment: 软件的本质是软文，可通过营销策略制造专业假象获取流量和信任。
+  depth: high
+  suggested_destination: chapter
+  possible_shape: booklet
+  risks:
+  - 观点具有投机性
+  - 道德风险
+  - 口语化
+  screening_conclusion: retain
+  reason: 系统性阐述了一套逆向、低成本个人开发者生存哲学。
+- file_path: docs/202301-02/E1WGd70YLoaHGfxAYJTc4WoFnsd.md
+  title: 线上美业，不到2万成本到变现过百万
+  summary: 93年女孩利用医学专业背景，从代购面膜起步，通过知乎问答、小红书引流，建立私域，年利润过百万并创立自有品牌的线上美业创业历程。
+  core_question: 零基础的人如何利用专业知识和极低成本，从0到1在线上美业实现成功创业？
+  key_judgment: 成功关键在于将专业能力转化为产品，私域运营中聚焦高客单价的专业价值，扩大流量时复制成功者SOP实现标准化。
+  depth: high
+  suggested_destination: case
+  possible_shape: booklet
+  risks:
+  - 个人成功案例
+  - 部分招商宣传
+  - 时间长
+  screening_conclusion: retain
+  reason: 完整创业案例，详细记录不同阶段关键决策，具有故事性和方法论价值。
+- file_path: docs/202301-02/ELHqdhiI5oSQAxxItLJctNAhnah.md
+  title: 普通人可复制的云监工玩法
+  summary: 作者发起云监工快闪群活动，招募102位群友监督自己3天内读完50篇文章并输出5000字心得，成功验证低成本高互动的社群运营玩法。
+  core_question: 如何用低成本可复制的方式激励个人完成高强度学习目标，同时增强社群互动？
+  key_judgment: 云监工玩法通过公开化个人挑战并引入社群监督，降低运营负担，通过利益一致和仪式感强化粘性。
+  depth: medium
+  suggested_destination: case
+  possible_shape: course
+  risks:
+  - 格式预处理
+  - 重复
+  screening_conclusion: retain
+  reason: 具有完整操作细节和执行结果的真实案例，适合作为案例收录。
+- file_path: docs/202301-02/FCiidWBeJoLOT1xreYnc9Se4nOf.md
+  title: 单直播间日进800美金-小时均100美金，价值8800可矩阵的tiktok娱乐直播项目
+  summary: 拆解睡播这一直播形态的开发逻辑、数据表现、软硬件配置和运营策略，论证TikTok娱乐直播的红利价值和可复制性。
+  core_question: 如何在TikTok上找到并成功复制一个低成本快速见效的新直播项目？
+  key_judgment: TikTok娱乐直播在商业化初期是比带货更容易拿到现金流的方向，核心在于可批量复制的项目开发能力。
+  depth: high
+  suggested_destination: chapter
+  possible_shape: book
+  risks:
+  - 时效性
+  - 重复
+  screening_conclusion: retain
+  reason: 内容具体有实操数据支撑，包含完整项目拆解和开发方法论。
+- file_path: docs/202301-02/HfJEd0huioyShvxowVfcOMQYnHb.md
+  title: 心理卡点：不敢打广告，打完广告不出单好自闭，怎么办？
+  summary: 针对自媒体新手打广告心理障碍，从认知层面拆解三大原因，给出破除方法和广告后无成交的检查清单与心态调整策略。
+  core_question: 如何破除新手打广告的心理卡点，建立正确广告认知，理性应对无成交挫败感？
+  key_judgment: 广告本质是放大和筛选，不是骚扰；关键是分清社交关系象限，将无效关系与目标客户区分。
+  depth: medium
+  suggested_destination: chapter
+  possible_shape: handbook
+  risks:
+  - 重复
+  screening_conclusion: retain
+  reason: 精准解决新手营销心态卡点，提供认知重建到实操检查的完整闭环。
+- file_path: docs/202301-02/HiVkdfBYJo2H5xxWIemcMcMQnLc.md
+  title: IP如何做到风骨体面且年入千万
+  summary: 系统分享内容型IP从0到年入千万的五大步骤：夯实地基、规划内容体系、设计营收模型、制定节点规划并落地。
+  core_question: 如何在垂直领域有积累的新手，体系化打造一个既能保持专业风骨又能年入千万的商业化IP？
+  key_judgment: IP打造核心是基于母题和独创理论构建内容护城河，通过经纪人模式整合生态资源实现多维变现的系统工程。
+  depth: high
+  suggested_destination: chapter
+  possible_shape: book
+  risks:
+  - 口语化
+  - 格式预处理
+  screening_conclusion: retain
+  reason: 极其详尽的IP操盘级方法论，覆盖从定位、内容到变现模型的完整体系。
+- file_path: docs/202301-02/I9OAdzzs2oBliNxsmPjcHnBUnzf.md
+  title: 万字复盘：普通职场人，下班时间靠拆解，7年拆了500个项目，复制成功30+，副业收入破百万
+  summary: 复盘通过拆解各平台商业案例，成功复制30+项目、副业收入破百万的经历，分享拆解八步法、赚钱情报体系、项目管理思维和三大杠杆。
+  core_question: 普通职场人如何利用碎片时间，通过系统商业拆解方法论，挖掘验证并复制盈利副业项目？
+  key_judgment: 副业成功关键不是原创和All in，而是建立后发制人的情报挖掘与拆解体系，降低试错成本并稳定变现。
+  depth: high
+  suggested_destination: chapter
+  possible_shape: book
+  risks:
+  - 重复
+  screening_conclusion: retain
+  reason: 全书副业项目挖掘与复制主题的基石材料，提供从战略到战术的全套可操作方法。
+- file_path: docs/202301-02/IpCcdJ9NAoAt4pxKKV5c5sfenZc.md
+  title: 小红书资料号一周：涨粉6000+ 变现3w+ 实操复盘
+  summary: 分享通过做资料号一周涨粉6000+、变现3w+的实操复盘，涵盖赛道选择、选题、封面、标题、钩子、评论引爆和私域导流完整链路。
+  core_question: 小红书新手如何在竞争中找到一条简单可复制又能快速变现的路径？
+  key_judgment: 资料号核心不是点赞收藏而是高转化评论和私域引流；成功关键在于选细分蓝海、复制已验证爆款钩子。
+  depth: medium
+  suggested_destination: case
+  possible_shape: course
+  risks:
+  - 时效性
+  - 口语化
+  - 重复
+  screening_conclusion: retain
+  reason: 拆解实操步骤对新手有极高学习价值，保留为案例素材。
+- file_path: docs/202301-02/JPRAdLgGFowUE7xargGc8YNjnzh.md
+  title: 如何写出既能吸金、又能深入人心的心金文案
+  summary: 分享心金文案写作方法论，涵盖写前三问、思维提升之法、具体写作之术，以及如何通过输入带动输出建立素材库和练习。
+  core_question: 个人IP创业者如何写出兼具商业变现力与情感感染力的文案，并持续稳定输出？
+  key_judgment: 文案是思维显化，好文案源于深度思考；持续输出关键在于高质量输入带动输出、建立素材库和刻意练习。
+  depth: medium
+  suggested_destination: chapter
+  possible_shape: book
+  risks:
+  - 口语化
+  - 重复
+  screening_conclusion: retain
+  reason: 系统梳理从思维到写作术到输出能力的完整链路，可支撑文案写作方法论章节。
+- file_path: docs/202301-02/JmBgdr705ovHoyxQknRctRaMnKh.md
+  title: 如何解决原创视频内容的批量生产？聊聊我的短视频带货矩阵的自动化之路
+  summary: 介绍将短视频带货流程标准化，通过拆解爆款视频模板元素、自动化生成代码及自动发布，实现短视频内容的批量化原创生产。
+  core_question: 在短视频带货矩阵模式中，如何解决原创视频内容的规模化自动化生产？
+  key_judgment: 将爆款视频拆解为元素并自动化组装，配合素材随机化保证原创性，实现批量生产，以矩阵数量对冲流量不确定性。
+  depth: medium
+  suggested_destination: case
+  possible_shape: series
+  risks:
+  - 时效性
+  - 格式预处理
+  screening_conclusion: retain
+  reason: 提供短视频带货自动化的实操路径与底层逻辑，可作为矩阵化运营参考。
+- file_path: docs/202301-02/KomqdeUMloO1CkxrgADcqGvDnIe.md
+  title: AI绘画 N卡、A卡都不用！最强在线AI绘画教程
+  summary: 在Google Colab运行Stable Diffusion WebUI进行AI绘画的保姆级教程，从概念讲到环境搭建、模型下载和出图配置。
+  core_question: 在没有高性能本地显卡时，如何利用Colab免费GPU搭建并运行AI绘画工具？
+  key_judgment: Colab提供免费云端GPU资源，配合挂载Gdrive下载模型，可将AI绘画环境搭建标准化。
+  depth: medium
+  suggested_destination: handbook_entry
+  possible_shape: handbook
+  risks:
+  - 时效性
+  - 格式预处理
+  screening_conclusion: retain
+  reason: 操作步骤完整，适合作为工具类操作手册条目。
+- file_path: docs/202301-02/Lg2vd5GWHoqhBbxuT5LcThEpncb.md
+  title: 实操复盘：10天时间，视频号从0到变现6000+，到场观过万
+  summary: 复盘10天内从0启动视频号带货项目，通过选品、找对标账号、视频去重、发布运营及直播转化，变现6201元、场观破万。
+  core_question: 一个视频号新手如何在10天内从0到1实现带货变现并跑通整套流程？
+  key_judgment: 视频号新号有流量扶持；选品重点是精准匹配目标人群需求，直播转化效率远高于视频挂车。
+  depth: high
+  suggested_destination: case
+  possible_shape: booklet
+  risks:
+  - 口语化
+  - 时效性
+  screening_conclusion: retain
+  reason: 内容详实为一线实操复盘，实战参考价值高。
+- file_path: docs/202301-02/MUfLdmUlTosj0NxPhlfcjRPHnff.md
+  title: 保姆级教程：从零到一打造一个高质量交付训练营
+  summary: 分享打造高交付质量训练营的心法与干法，核心是通过操作手册、直播讲解、百问百答和打卡提升交付效率。
+  core_question: 会做项目但不会教的人，如何高效打造高交付质量且可复制的付费训练营？
+  key_judgment: 高质量交付关键是提高效率而非投入更多时间，通过标准化文档替代重复性1对1答疑，利用打卡激发学员主动性。
+  depth: high
+  suggested_destination: chapter
+  possible_shape: booklet
+  risks:
+  - 重复
+  - 平台规则时效性
+  screening_conclusion: retain
+  reason: 既有理念框架又有可落地操作步骤，是培训方法论的优质素材。
+- file_path: docs/202301-02/MXPcd58gSoEsTlxFhUVcJ5X7npc.md
+  title: 我对从0到1搭建短视频团队的一些理解
+  summary: 基于实战经历，分享短视频IP矩阵打法，梳理变现产品选择、团队角色配置与培养路径、内容生产流程和20条抖音IP实战心得。
+  core_question: 如何在抖音从0到1搭建一个能持续生产流量并支撑变现的短视频IP团队？
+  key_judgment: 抖音前端内容是开卷考试，成败取决于后端变现效率；团队打磨优先重流程复制而非依赖个人能力。
+  depth: high
+  suggested_destination: chapter
+  possible_shape: course
+  risks:
+  - 时效性
+  screening_conclusion: retain
+  reason: 从变现产品选择、团队搭建、生产流程到实战心得，系统性极强。
+- file_path: docs/202301-02/NxhWdJj3UoPKvmxaBqkcz8wlntf.md
+  title: 一个千万项目的底层逻辑
+  summary: 提出拆解商业项目的六维模型（流量效率、销转效率、交付效率、客单价、毛利率、复购率），通过多个案例展示如何评估项目。
+  core_question: 如何用通用框架快速拆解和评估任意商业项目的底层逻辑和赚钱效率？
+  key_judgment: 任何项目可用三个效率指标和三个财务指标拆解；效率高则项目可复制放大。
+  depth: medium
+  suggested_destination: chapter
+  possible_shape: book
+  risks:
+  - 时效性
+  - 口语化
+  screening_conclusion: retain
+  reason: 提供通用可操作的商业项目分析框架，适合作为方法论章节核心素材。
+- file_path: docs/202301-02/P2XLdJF2yoivV8xUDszcz853nZg.md
+  title: ifttt实现推特用户更新内容后自动推送到邮箱或企业微信或钉钉
+  summary: 工具教程，介绍使用IFTTT平台监控特定推特账号更新并自动推送到邮箱或企业微信/钉钉。
+  core_question: 如何无需编程实现推特账号更新内容的自动化监控和即时推送？
+  key_judgment: 利用IFTTT自动化逻辑和非官方Webhook接口，可低成本构建跨平台信息监控与推送管道。
+  depth: low
+  suggested_destination: handbook_entry
+  possible_shape: handbook
+  risks:
+  - 时效性
+  - 格式预处理
+  screening_conclusion: retain
+  reason: 实操性强的工具指南，价值单一时效性强，适合作为手册操作条目。
+- file_path: docs/202301-02/PglAdRMiIoVTRyxc4Q3cw8hvnWf.md
+  title: 创业三年，两年获得天使投资，月入15w+，看我们怎么玩转0中介费房屋分享平台！
+  summary: 复盘胖龟找房项目创业历程，从发现房产中介痛点，到建立0中介费平台，迭代商业模式，开设线下门店，开放加盟并获天使投资。
+  core_question: 如何在传统痛点明显的行业中，通过重塑商业模式找到切入点并实现从0到1创业落地？
+  key_judgment: 创业机会源于解决行业真实痛点，核心在于构建流量+转化+交付闭环能力，通过标准化流程和加盟模式规模化扩张。
+  depth: high
+  suggested_destination: case
+  possible_shape: course
+  risks:
+  - 时效性
+  - 重复
+  screening_conclusion: retain
+  reason: 完整有数据支撑的创业案例，涵盖市场分析、商业模式设计等，案例教学意义高。
+- file_path: docs/202301-02/QbBKdHvfiofIUNxDlmjceWbfnqh.md
+  title: 抖音自动化公转私玩法及防封攻略
+  summary: 系统拆解抖音公域流量转化微信私域的自动化玩法，包括主页跳转、评论跳转、私信卡片、直播小风车，及防封策略。
+  core_question: 在抖音规则收紧背景下，如何实现高效且相对安全的自动化公转私引流？
+  key_judgment: 最高级公转私玩法是尽可能使用抖音官方功能，将第三方工具作为辅助，并同时考虑两端防封措施。
+  depth: high
+  suggested_destination: chapter
+  possible_shape: course
+  risks:
+  - 时效性
+  - 格式预处理
+  screening_conclusion: retain
+  reason: 内容详实操作性强，提供从账号选择、入口配置到防封的完整方法论。
+- file_path: docs/202301-02/SvdFdfi3VoAiaRxENHNcncEqnif.md
+  title: 盲盒引流常见问题解答
+  summary: 以问答形式，针对抖音盲盒直播引流项目遇到的平台选择、账号准备、直播优化、风控和规模化问题提供详细解答。
+  core_question: 在抖音做盲盒引流项目时，新手最常见问题及如何有效解决并实现规模化？
+  key_judgment: 盲盒引流核心在于精细化运营和风控：平台合规性是根基，账号需作消耗品管理，直播核心是留存而非拉新。
+  depth: high
+  suggested_destination: course_unit
+  possible_shape: course
+  risks:
+  - 时效性
+  - 口语化
+  screening_conclusion: retain
+  reason: 问题解答详细含大量实操细节，是对项目从0到1的极佳补充。
+- file_path: docs/202301-02/VAA8dQLTZolMlJx1jxrcKaPrnzd.md
+  title: 增长女黑客：无资源无资本，如何结合私域裂变和个人品牌搞定冷启动流量难题
+  summary: 系统分享无资源无资本的个人如何通过个人品牌、公域引流、社群群红、抱大腿借势获取首批客户，再通过裂变撬动增长。
+  core_question: 无资源无资本的普通人，如何低成本完成冷启动并实现规模化获客？
+  key_judgment: 私域本质是长远忠诚客户关系；普通人最佳起盘点是成为垂直行业专家、做社群群红；裂变是放大流量的杠杆。
+  depth: high
+  suggested_destination: chapter
+  possible_shape: book
+  risks:
+  - 口语化
+  - 格式预处理
+  screening_conclusion: retain
+  reason: 系统完整，从认知到实操层层递进，具备体系化提炼价值。
+- file_path: docs/202301-02/VsjCdIDNJoNRvlxo4OWcJ7bDnO5.md
+  title: 围观船员视频号带货如何7天10万粉变现5w+
+  summary: 分享以围观船员身份参加视频号带货航海，通过差异化定位（做人群而非商品）、伪原创内容策略，7天10万粉变现5万+。
+  core_question: 在竞争激烈的视频号带货赛道，个人玩家如何通过差异化定位快速起号与变现？
+  key_judgment: 避免正面竞争，利用伪原创内容做人群（共情/有趣/有用/新奇），大概率跑出爆款。
+  depth: medium
+  suggested_destination: case
+  possible_shape: kb
+  risks:
+  - 时效性
+  - 口语化
+  screening_conclusion: retain
+  reason: 提供做人群不做商品的差异化竞争思路及伪原创底层框架。
+- file_path: docs/202301-02/XuOgdT9o8ongKPxfSMlcfgLbngf.md
+  title: 如何通过抖音卖几百万非遗拓片
+  summary: 分享通过抖音将非遗拓片产品做到几百万销售额，围绕平台定位、产品定位、人群定位、内容直播间搭建、线上线下转化展开。
+  core_question: 高客单价小众文化产品，如何通过抖音实现从线上引流到线下高客单转化的商业路径？
+  key_judgment: 产品是压舱石；抖音向货架电商转型，高客单是趋势；线上只是获客渠道，最终通过线下场景承接转化。
+  depth: high
+  suggested_destination: case
+  possible_shape: booklet
+  risks:
+  - 类目特殊
+  - 缺乏可复制操作步骤
+  screening_conclusion: retain
+  reason: 提供完整的高客单文化产品线上引流线下转化商业模式案例，有深度思考。
+- file_path: docs/202301-02/ZcEdd0xTCo1K5IxwCyLccKUynOb.md
+  title: 小说推文进阶玩法，精细化运营所带来的稳定出单
+  summary: 系统分享小说推文项目精细化运营方法论，覆盖选文、改文、关键词设置、配音剪辑、发布策略、日常维护全流程。
+  core_question: 在小说推文竞争加剧下，个人玩家如何通过精细化运营提升爆款概率、实现稳定出单？
+  key_judgment: 核心是选文与改文，精细运营是对抗规模化竞争实现稳定出单的关键，项目本质是概率游戏。
+  depth: high
+  suggested_destination: chapter
+  possible_shape: course
+  risks:
+  - 时效性
+  - 平台规则变化快
+  screening_conclusion: retain
+  reason: 内容系统完整实操性强，从战略到战术再到心态管理都给具体可执行步骤。
+demoted:
+- file_path: docs/202301-02/CZPydiVmgo2odMx0nWecf3DTn6e.md
+  title: 抖音SEO 2天线下大课圆满结束
+  summary: 抖音SEO陪跑计划线下课程总结，重点宣传理论+实操模式、选词定生死的重要性，列举学员成功案例。
+  core_question: 抖音SEO是什么，为什么是蓝海机会，以及如何通过选词快速见效？
+  key_judgment: 抖音搜索流量存在巨大蓝海（70%为蓝海词），做好SEO关键是选对词和优化视频细节。
+  depth: medium
+  suggested_destination: course_unit
+  possible_shape: course
+  risks:
+  - 商业推广性质
+  - 内容重复
+  - 口语化
+  screening_conclusion: demote
+  reason: 主体为课程宣传复盘，核心观点在其他素材中更系统阐述，可作案例补充。
+- file_path: docs/202301-02/Zjr6dgbHIoxcp0x21SVcrwlqn8d.md
+  title: 追逐风口，AI绘画目前收益5W+
+  summary: 分享在AI绘画风口期，通过搭建小程序对接AI绘画接口，利用关键词SEO获取流量，通过广告和充值积分变现实现5W+收益。
+  core_question: 技术革新带来的商业机会中，普通人可基于什么模式快速变现？
+  key_judgment: 技术革新窗口期，普通人不做模型生意，可通过套壳小程序+流量变现模式切入，核心是赚取差价，关键在关键词SEO。
+  depth: low
+  suggested_destination: kb_entry
+  possible_shape: kb
+  risks:
+  - 时效性极强
+  - 风口已过
+  screening_conclusion: demote
+  reason: 提供特定技术窗口期套利案例，操作简单，时效性强，可降级为历史案例参考。
+excluded:
+- file_path: docs/202301-02/20230207_00.md
+  title: 龙哥赚钱周报 20221113-20230207
+  summary: 这是一份周报的目录或汇总页面，仅包含标题和来源链接，没有实际内容。
+  core_question: 无，此文件为周报索引页，未承载具体内容。
+  key_judgment: 无实际观点。
+  depth: low
+  suggested_destination: exclude
+  possible_shape: kb
+  risks:
+  - 格式预处理
+  - 重复
+  screening_conclusion: exclude
+  reason: 文件仅为标题和链接的集合，无实质性内容，无法作为独立素材使用。
+- file_path: docs/202301-02/20230207_10.md
+  title: 221122 龙哥赚钱周报
+  summary: 周报正文因平台判定违规无法上传，仅提供离线版PDF的网络链接。
+  core_question: 如何处理因平台审核或合规问题导致内容无法正常发布的情况？
+  key_judgment: 内容合规是传播的前提。
+  depth: low
+  suggested_destination: exclude
+  possible_shape: kb
+  risks:
+  - 其他
+  - 格式预处理
+  screening_conclusion: exclude
+  reason: 不包含实质性内容，仅是指向外部链接的占位符。
+- file_path: docs/202301-02/T1Jad4VhIoPc2hxKJxwcUFPOnTc.md
+  title: 传统金融转型Web3，聊聊我的经历
+  summary: 分享传统金融分析师转型Web3创业的个人经历，梳理背景、观察风口、探索感悟。
+  core_question: 传统金融从业者如何看待和把握Web3等新兴领域的创业机会？
+  key_judgment: 转型应利用金融背景和宏观视野进行赛道选择，在熊市中保持敬畏储备弹药。
+  depth: low
+  suggested_destination: exclude
+  possible_shape: pool
+  risks:
+  - 时效性
+  - 口语化
+  screening_conclusion: exclude
+  reason: 多为个人经历和行业观察泛泛而谈，缺乏可复制方法论。
+screening_principles: 筛选基于三方面权衡：1）价值密度：优先保留能提炼出稳定判断、方法论框架或完整案例链路的素材，排除仅有索引、链接或泛泛经历的占位内容；2）可用性：对时效性强但模式可迁移的素材，判断其能否改写为常青表达，能则保留、仅背景过时则降级为案例附件；3）唯一性：与更强文本重复度高的素材，仅在其能补充案例或细节时降权保留，否则排除。深度为medium以上且具备体系化或反常识判断的文本优先进入章节，口语化较重或推广性质明显的素材降权待重写。

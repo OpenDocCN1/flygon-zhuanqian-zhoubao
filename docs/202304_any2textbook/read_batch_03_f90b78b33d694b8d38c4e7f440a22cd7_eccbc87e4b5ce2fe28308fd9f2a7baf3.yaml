@@ -1,0 +1,1000 @@
+- file_path: docs/202304/20230418_079.md
+  title: 龙哥赚钱周报
+  summary: 一份生财有术社群的每周赚钱风向标周报的导览和说明，指向外部文档，本文件无实质内容。
+  core_question: 如何获取和阅读每周更新的赚钱风向标？
+  key_judgment: 该文件是一个索引或说明文档，本身不包含具体信息。
+  depth: low
+  suggested_destination: exclude
+  possible_shape: pool
+  risks:
+  - 格式预处理
+  screening_conclusion: exclude
+  reason: 文件本身仅为周报的导语和说明，无实质内容，信息量为零。
+- file_path: docs/202304/20230418_080.md
+  title: 【生财认知】
+  summary: 一个内容分类标签页，用于归拢生财认知类文章，本文件无实质内容。
+  core_question: 生财认知类内容应该如何分类？
+  key_judgment: 仅作为分类标签，不承载独立信息。
+  depth: low
+  suggested_destination: exclude
+  possible_shape: pool
+  risks:
+  - 格式预处理
+  screening_conclusion: exclude
+  reason: 仅为分类标签页，无实质内容，属于格式性文件，应予以排除。
+- file_path: docs/202304/20230418_081.md
+  title: 《经济形势没有想象中那么好》
+  summary: 作者通过出差观察和案例，指出2023年初经济形势尤其是制造业和外贸面临严峻挑战，但部分消费领域有所复苏，建议保持保守策略。
+  core_question: 2023年初中国的经济形势到底如何？
+  key_judgment: 通过一线观察揭示经济复苏的不平衡性，制造业受外贸拖累严重，消费复苏力度有限，并建议个人和企业应保持谨慎，持币观望。
+  depth: medium
+  suggested_destination: kb_entry
+  possible_shape: course
+  risks:
+  - 时效性
+  screening_conclusion: retain
+  reason: 提供了特定时期的宏观观察，对理解创业环境有背景价值，但内容为时评，时效性强。
+- file_path: docs/202304/20230418_082.md
+  title: 《跳出别人圈定的规则，走自己的路》
+  summary: 分享者推荐一个关于学习常识的视频，强调跳出既定规则和框架，寻找自己的道路。
+  core_question: 如何突破固有的思维和规则限制？
+  key_judgment: 核心观点是鼓励人们不要被传统规则束缚，应主动探索和践行自己的原则。
+  depth: low
+  suggested_destination: handbook_entry
+  possible_shape: series
+  risks:
+  - 口语化
+  screening_conclusion: demote
+  reason: 内容简略，主要是观点表达和视频推荐，缺乏深度论证和具体方法。
+- file_path: docs/202304/20230418_083.md
+  title: 《复盘：如何发掘资源差并变现》
+  summary: 作者从大厂离职创业，结合自身经历，提出“垄断是最好的生意”，并将垄断概念降维为“资源差”，分享了发掘和利用资源差进行变现的方法论。
+  core_question: 普通人如何发掘并利用资源差来构建有壁垒的生意？
+  key_judgment: 好生意的关键在于“人无我有”，通过寻找和占有稀缺资源形成垄断或资源差，从而避免同质化竞争，获得超额利润。
+  depth: high
+  suggested_destination: chapter
+  possible_shape: booklet
+  risks:
+  - 重复
+  screening_conclusion: retain
+  reason: 提供了从概念到实践的完整商业思考框架，观点明确，案例详实，对指导创业方向有较高价值。
+- file_path: docs/202304/20230418_084.md
+  title: 《关于公益送书引流养群的思考》
+  summary: 作者详细复盘了通过公益送书活动进行引流和私域养群的全过程，包括准备、执行、规则设计及后续思考，并提供了详细的SOP。
+  core_question: 如何利用公益送书活动有效引流并建立高信任度的私域社群？
+  key_judgment: 公益送书是有效的引流手段，但核心在于精细化的私域运营，通过规则设计、价值输出和用户反馈形成信任正循环，方能长期发展。
+  depth: high
+  suggested_destination: case
+  possible_shape: course
+  risks:
+  - 时效性
+  - 重复
+  screening_conclusion: retain
+  reason: 提供了从活动设计到执行、运营的完整闭环案例，实操性强，对私域运营有直接借鉴意义。
+- file_path: docs/202304/20230418_085.md
+  title: 《简单但能转运和改写人生的秘籍》
+  summary: 作者分享了通过“主动做以前绝不会做的事”来改变生活状态和认知的个人故事，并提出了通过行为改变、感官调动等方式来显化理想感觉的方法。
+  core_question: 如何通过简单的行动改变认知和人生状态？
+  key_judgment: 改变人生的关键在于主动做出与过去不同的选择和行动，通过体验新的感觉来重塑潜意识，并获得高配得感。
+  depth: medium
+  suggested_destination: handbook_entry
+  possible_shape: kb
+  risks:
+  - 口语化
+  - 其他
+  screening_conclusion: demote
+  reason: 内容偏向个人经验和精神激励，方法论不够系统，但具有一定的正能量和启发意义。
+- file_path: docs/202304/20230418_086.md
+  title: 《永远有人能比你做得更好》
+  summary: 作者指出创业者容易陷入自我感动，高估自身产品，提醒大家要保持谦逊，认识到总有更优秀的人和产品存在。
+  core_question: 创业者应如何正确评估自身产品和优势？
+  key_judgment: 对产品和团队的自信需要有客观依据，避免“迷之自信”，应认识到在竞争市场中，总有比自己做得更好的。
+  depth: low
+  suggested_destination: kb_entry
+  possible_shape: series
+  risks:
+  - 口语化
+  screening_conclusion: demote
+  reason: 观点正确但内容较为简略，作为提醒性的短文价值有限。
+- file_path: docs/202304/20230418_087.md
+  title: 《突破赚钱难的卡点后 3 月份收入 3.4w，总结的 10 个赚钱思维》
+  summary: 作者结合自身从被裁员到自媒体创业月入3.4万的经历，总结了10个赚钱思维，涵盖圈层、学习、努力、认知、信息差、付费、稀缺性等维度。
+  core_question: 普通人如何突破赚钱的思维卡点？
+  key_judgment: 赚钱的核心突破点在于潜意识认知的改变，通过进入更高能量的圈子，转变思维模式，从“努力学习”转向“解决问题”，并敢于为价值定价。
+  depth: high
+  suggested_destination: chapter
+  possible_shape: book
+  risks:
+  - 重复
+  - 口语化
+  screening_conclusion: retain
+  reason: 提供了个人转型的实战经验，总结出的思维模型覆盖面广，对寻求副业或创业的普通人具有系统性的启发和指导意义。
+- file_path: docs/202304/20230418_088.md
+  title: 《永远只做 5%的生意》
+  summary: 作者提出“永远只做5%的生意”的经营理念，通过聚焦定位、保证交付、选择用户，为小企业构建专业壁垒和品牌价值。
+  core_question: 在竞争激烈的市场中，中小企业如何找到自己的生存和发展之路？
+  key_judgment: 通过主动放弃大量不匹配的机会，聚焦于自己最擅长的5%领域和目标用户，可以带来传播、健康、从容、专业和规模，实现长期健康发展。
+  depth: high
+  suggested_destination: chapter
+  possible_shape: book
+  risks: []
+  screening_conclusion: retain
+  reason: 提出了“5%”这一极具洞察力的商业哲学，结合案例和亦仁的补充，对创业者定位和战略选择有很强的指导价值。
+- file_path: docs/202304/20230418_089.md
+  title: 《赚到了钱之后，社交圈和见识一定要提高一个层面》
+  summary: 从程序员苏享茂被骗婚的案例出发，作者提醒赚钱后必须提升社交圈层和见识，否则容易因认知局限掉入陷阱。
+  core_question: 赚到钱之后，如何避免因认知和圈层局限而遭受损失？
+  key_judgment: 财富的增长必须伴随着社交圈层和个人见识的提升，否则无法驾驭财富，容易成为被收割的对象。
+  depth: low
+  suggested_destination: handbook_entry
+  possible_shape: series
+  risks:
+  - 口语化
+  screening_conclusion: demote
+  reason: 观点有警醒价值，但内容较为碎片化，主要依赖案例讨论和评论区延展。
+- file_path: docs/202304/20230418_090.md
+  title: 《你在生财为什么赚不到钱？》
+  summary: 作者列举了在生财有术社群中赚不到钱的12种常见心态和行为，强调行动、坚持和正确方法的重要性。
+  core_question: 为什么很多人在生财有术社群中无法赚到钱？
+  key_judgment: 赚不到钱的根本原因在于自身的心态和执行力问题，如不坚持、不行动、自欺欺人等，普通人的成事法则在于躬身入局和长期坚持。
+  depth: medium
+  suggested_destination: handbook_entry
+  possible_shape: handbook
+  risks:
+  - 口语化
+  - 重复
+  screening_conclusion: retain
+  reason: 以清单形式直击痛点，对社群成员有很好的提醒和警示作用，是宝贵的心态建设材料。
+- file_path: docs/202304/20230418_091.md
+  title: 《搞钱与搞学习有什么区别？》
+  summary: 作者从自身学习社群和生财有术赚钱社群的对比出发，预告性地探讨了“搞钱”与“搞学习”的区别。
+  core_question: 搞钱和搞学习是两种不同的活动，它们的核心区别是什么？
+  key_judgment: 这是一个系列文章的引子，旨在引发读者思考，核心观点将在后续展开。
+  depth: low
+  suggested_destination: exclude
+  possible_shape: course
+  risks:
+  - 格式预处理
+  screening_conclusion: exclude
+  reason: 文件内容极其简短，仅为系列文章的预告，无独立价值。
+- file_path: docs/202304/20230418_092.md
+  title: 《你创业的层级决定利润的天花板》
+  summary: 作者将创业分为七个层级，从流量套利、产品型业务、垂直龙头、圈行业到构建生态系统等，指出创业层级决定了利润天花板。
+  core_question: 创业者如何理解并提升自己的创业层级以实现更高利润？
+  key_judgment: 低水平重复的流量型业务天花板有限，应通过构建产品、沉淀壁垒、赋能行业甚至构建生态系统来提升创业层级，避免低水平重复。
+  depth: high
+  suggested_destination: chapter
+  possible_shape: book
+  risks: []
+  screening_conclusion: retain
+  reason: 构建了清晰的创业层级模型，具有很强的概念性和框架性，能够帮助创业者进行战略定位和自我反思。
+- file_path: docs/202304/20230418_093.md
+  title: 《怎样一边搞学习，一边搞钱？》
+  summary: 作者详细阐述了“搞学习”和“搞钱”的共通点，提出两者都需要拆解基本要素、大量基础练习、依托定力、随时开始并与高手为伍。
+  core_question: 如何同步推进个人学习成长和赚钱实践？
+  key_judgment: 搞学习和搞钱是个人成长的一体两面，应同步推进、同时发力，通过相互促进实现个人价值的提升。
+  depth: high
+  suggested_destination: chapter
+  possible_shape: course
+  risks: []
+  screening_conclusion: retain
+  reason: 提供了系统化的学习与赚钱方法论，构建了有效的认知框架，对个人成长和财富积累有双重指导价值。
+- file_path: docs/202304/20230418_094.md
+  title: 《挖掘需求实现方法论》
+  summary: 作者提出互联网上的任何声音都是需求表达，并分享了如何通过关键词指数挖掘需求强度，并以“代扔”项目为例进行低成本验证和变现。
+  core_question: 如何通过挖掘用户需求来发现并验证一个可赚钱的服务项目？
+  key_judgment: 通过“需求层次论”理解用户需求的迫切程度，可以将其对号入座到行业关键词和指数中，从而挖掘出可行的产品和服务。
+  depth: high
+  suggested_destination: case
+  possible_shape: course
+  risks:
+  - 时效性
+  screening_conclusion: retain
+  reason: 提供了从需求理论到关键词工具、再到低成本落地实验的完整方法论和真实案例，实操性极强。
+- file_path: docs/202304/20230418_095.md
+  title: 【新人指南】
+  summary: 一个内容分类标签页，用于归拢新人指南类文章，本文件无实质内容。
+  core_question: 新人指南类内容应该如何分类？
+  key_judgment: 仅作为分类标签，不承载独立信息。
+  depth: low
+  suggested_destination: exclude
+  possible_shape: pool
+  risks:
+  - 格式预处理
+  screening_conclusion: exclude
+  reason: 仅为分类标签页，无实质内容，属于格式性文件，应予以排除。
+- file_path: docs/202304/20230418_096.md
+  title: 《认识生财 1 个月，我干了些什么》
+  summary: 一位新人分享了自己加入生财有术一个月内的经历，从零开始操作“短剧分发”项目，并成功赚到了第一笔钱和宝贵经验。
+  core_question: 一个新人在社群中如何快速找到项目并赚到第一笔钱？
+  key_judgment: 行动力是获取正反馈的关键，通过选定一个具体项目、研究对标、快速实操和坚持，新人也能在一个月内取得初步成果。
+  depth: medium
+  suggested_destination: case
+  possible_shape: handbook
+  risks:
+  - 时效性
+  - 重复
+  screening_conclusion: retain
+  reason: 这是典型的新人从0到1的实操案例，能够给其他新人提供巨大的信心和可借鉴的路径。
+- file_path: docs/202304/20230418_097.md
+  title: 《加入生财的第 3 天，我做好了我的副业计划》
+  summary: 一位有主业瓶颈的中年人，分享了自己加入生财有术3天内的心理变化、阅读策略和初步构建的副业变现框架。
+  core_question: 新人如何高效利用社群资源，快速制定自己的副业计划？
+  key_judgment: 加入社群后，不应陷入信息焦虑，而应通过制定阅读策略、筛选和拆解内容，结合自身资源，快速形成可执行的副业方向。
+  depth: medium
+  suggested_destination: case
+  possible_shape: handbook
+  risks:
+  - 重复
+  screening_conclusion: retain
+  reason: 展示了新人的思考路径和行动框架，对同样迷茫的新人有实际参考价值。
+- file_path: docs/202304/20230418_098.md
+  title: 《作为生财新人我是怎么使用生财实操的》
+  summary: 作者分享了作为新人在生财有术中通过“航海项目”开启第一个互联网项目，并建立从广度到深度的学习路径。
+  core_question: 新人如何利用生财有术从0到1启动第一个项目？
+  key_judgment: 核心路径是先通过航海项目低成本试错，再建立对商业世界的广度认知，最后选择一个领域进行深度扎根。
+  depth: low
+  suggested_destination: handbook_entry
+  possible_shape: kb
+  risks:
+  - 格式预处理
+  - 口语化
+  screening_conclusion: demote
+  reason: 内容较为简短，主要观点已在标题中体现，细节和深度不足。
+- file_path: docs/202304/20230418_099.md
+  title: 《如何高效利用好生财有术这个信息引擎？》
+  summary: 作者提出赚钱需要认知、技能与实战三者结合，并强调应以“带着问题去实战”的方式，高效利用生财有术作为信息引擎。
+  core_question: 如何避免在信息海洋中迷失，高效利用社群信息来指导赚钱实践？
+  key_judgment: 认知、技能和实战并非简单时序关系，最高效的方式是边实战边学习，带着具体问题去信息库中寻找答案，以实现“增删改查”式学习。
+  depth: medium
+  suggested_destination: handbook_entry
+  possible_shape: handbook
+  risks:
+  - 重复
+  screening_conclusion: retain
+  reason: 提供了有别于传统“先学再做”的实践导向学习观，对成员使用社群资源有指导意义。
+- file_path: docs/202304/20230418_100.md
+  title: 《刚入生财的新人程序员对项目的筛选过程以及最终的执行路径》
+  summary: 一位程序员新人分享了从分析自身情况、筛选航海项目到最终确定小红书店铺为切入点的决策过程和执行路径。
+  core_question: 新人如何结合自身背景，理性筛选和决策出海项目？
+  key_judgment: 项目筛选应基于“自身分析-项目分析-初筛-再筛-最终选择”的理性流程，并规划清晰的从0到1执行路径。
+  depth: medium
+  suggested_destination: case
+  possible_shape: handbook
+  risks:
+  - 格式预处理
+  - 重复
+  screening_conclusion: retain
+  reason: 提供了一个理性的项目筛选逻辑框架，对其他新人选择项目有方法论上的借鉴意义。
+- file_path: docs/202304/20230418_101.md
+  title: 《志愿者可能是新手小白参与航海的最优解》
+  summary: 作者分享了自己作为航海志愿者的经历，认为这种“低目标、高参与”的方式是新手快速融入社群、获得成长和链接资源的有效路径。
+  core_question: 新手小白如何最低成本、最高效地参与社群实战活动？
+  key_judgment: 做志愿者通过服务他人，可以以更低压力、更高参与度深入了解项目，并获得“学会提问”、“链接牛人”及“打破新手标签”的成长红利。
+  depth: high
+  suggested_destination: handbook_entry
+  possible_shape: handbook
+  risks:
+  - 口语化
+  - 重复
+  screening_conclusion: retain
+  reason: 提供了一个独特的参与视角，对害怕高风险实操的新人非常有价值，且经验总结详实。
+- file_path: docs/202304/20230418_102.md
+  title: 《生财有术赚钱体系梳理（新人启航指南）》
+  summary: 作者将自己在生财有术中学到的精华整理成一套从“赚钱本质”到“如何执行”的系统性赚钱框架，作为新人启航指南发布。
+  core_question: 如何构建一个系统性的赚钱认知和实践框架？
+  key_judgment: 赚钱是一个包含认知、方向和执行等多个要素的系统工程，通过构建清晰的体系性框架，可以有效指导新人活动和决策。
+  depth: medium
+  suggested_destination: chapter
+  possible_shape: booklet
+  risks:
+  - 重复
+  - 格式预处理
+  screening_conclusion: retain
+  reason: 提供了一个高度归纳和结构化的知识体系索引，对于新人快速建立整体认知非常有帮助。
+- file_path: docs/202304/20230418_103.md
+  title: 《如何在风向标中挖金掘宝》
+  summary: 风向标小航海教练沐文分享了如何从生财有术的“风向标”栏目中识别机会、挖掘价值并赚到钱的方法和心得。
+  core_question: 如何系统性地从信息流中发现并捕获商业机会？
+  key_judgment: “风向标”栏目蕴藏着高价值的前沿信息和先发项目，通过一套系统性的筛选和思考方法，可以有效地从中“掘金”。
+  depth: medium
+  suggested_destination: handbook_entry
+  possible_shape: course
+  risks:
+  - 重复
+  - 格式预处理
+  screening_conclusion: retain
+  reason: 提供了一个针对特定信息源的利用方法论，对如何将信息转化为行动有指导作用。
+- file_path: docs/202304/20230418_104.md
+  title: 《加入生财以后，如何快速赚到非工资收入的第一块钱》
+  summary: 作者为新人提供了四种快速赚到“第一块钱”的低门槛项目：推广高质量产品、做社群、创建小报童和小红书店铺。
+  core_question: 新人在大量项目中如何快速获得第一笔正反馈？
+  key_judgment: 调整心态，不要一开始就追求第二收入超过第一收入，而是从低门槛、易操作的项目入手，先赚到第一块钱建立信心。
+  depth: medium
+  suggested_destination: handbook_entry
+  possible_shape: handbook
+  risks:
+  - 时效性
+  - 重复
+  screening_conclusion: retain
+  reason: 提供了非常具体、可执行的项目操作建议，有效解决新人“无从下手”的痛点。
+- file_path: docs/202304/20230418_105.md
+  title: 【生财技能】
+  summary: 一个内容分类标签页，用于归拢生财技能类文章，本文件无实质内容。
+  core_question: 生财技能类内容应该如何分类？
+  key_judgment: 仅作为分类标签，不承载独立信息。
+  depth: low
+  suggested_destination: exclude
+  possible_shape: pool
+  risks:
+  - 格式预处理
+  screening_conclusion: exclude
+  reason: 仅为分类标签页，无实质内容，属于格式性文件，应予以排除。
+- file_path: docs/202304/20230418_106.md
+  title: 《7 天 9000+ 份红包雨，我用影刀 RPA 爬取生财见面会群微信红包数据》
+  summary: 作者分享了自己如何用影刀RPA工具爬取微信群红包数据的全过程，包括RPA简介、开发调试和数据处理，展示了自动化技术的应用潜力。
+  core_question: 如何利用RPA工具实现一个简单但有趣的自动化应用？
+  key_judgment: RPA作为“软件的软件”，可以模拟人类操作，将繁琐的重复任务自动化，普通人也能通过低代码工具实现有趣的创意。
+  depth: high
+  suggested_destination: kb_entry
+  possible_shape: course
+  risks:
+  - 格式预处理
+  - 其他
+  screening_conclusion: retain
+  reason: 提供了一个从创意到实现的完整RPA应用案例，技术细节丰富，对提升效率有启发价值。
+- file_path: docs/202304/20230418_107.md
+  title: 《普通人的「生财 418 拉新之路」，可复制路径》
+  summary: 作者分享了自己作为普通人通过一年私域沉淀和精细化运营，在生财有术拉新活动中成功邀请179人的可复制路径。
+  core_question: 普通人如何通过长期的私域积累和一次有组织的活动实现大规模拉新？
+  key_judgment: 大规模拉新并非依赖个人流量，而是取决于日常的信任资产积累、合理的激励制度以及团队化的活动操盘。
+  depth: medium
+  suggested_destination: case
+  possible_shape: handbook
+  risks:
+  - 时效性
+  - 重复
+  screening_conclusion: retain
+  reason: 提供了从战略到执行的可复制拉新方法论，对社群运营和私域增长有参考价值。
+- file_path: docs/202304/20230418_108.md
+  title: 《我是如何“以教为学”帮助别人成就自己并赚回生财门票的》
+  summary: 作者分享了通过“以教为学”的方式，在学习中输出、在输出中变现，最终赚回门票费用的经历。
+  core_question: 如何通过“以教为学”的方式实现个人成长和变现？
+  key_judgment: 加入社群最重要的能力是“自学”，而通过输出和教学可以加速内化知识，并在帮助他人的过程中发现商业机会。
+  depth: low
+  suggested_destination: handbook_entry
+  possible_shape: kb
+  risks:
+  - 口语化
+  - 格式预处理
+  screening_conclusion: demote
+  reason: 观点正确，但内容较简短，且作为案例的细节不足，深度有限。
+- file_path: docs/202304/20230418_109.md
+  title: 《全行业都爱惨的“转介绍”，为啥老是做不好？》
+  summary: 作者从“转介绍”的本质出发，分析其作用原理，并指出大多企业做不好转介绍的根本原因在于产品本身和服务链条未达预期。
+  core_question: 为什么多数企业的转介绍策略效果不佳？
+  key_judgment: 转介绍的成功前提是“好产品”和“合格的服务链条”，而不是简单的利益驱动或销售话术，利己标准因人而异，产品价值是根本。
+  depth: medium
+  suggested_destination: handbook_entry
+  possible_shape: handbook
+  risks: []
+  screening_conclusion: retain
+  reason: 深入剖析了转介绍的本质和误区，对企业营销策略制定有清晰的指导价值。
+- file_path: docs/202304/20230418_110.md
+  title: 《线下小聚复盘：赚钱的个人核心竞争力》
+  summary: 作者分享了组织“赚钱的个人核心竞争力”线下小聚的复盘，认为相比追逐项目和红利，打造个人核心竞争力才是穿越周期的关键。
+  core_question: 在快速变化的市场中，什么才是个人赚钱的根本？
+  key_judgment: 项目与红利是变化的，而个人核心竞争力是相对不变的，拥有它可以迁移换项目、穿越周期，实现以不变应万变。
+  depth: low
+  suggested_destination: kb_entry
+  possible_shape: kb
+  risks:
+  - 格式预处理
+  screening_conclusion: demote
+  reason: 核心观点有启发性，但本文件主要为活动复盘，缺乏对“核心竞争力”本身的深入论述。
+- file_path: docs/202304/20230418_111.md
+  title: 【生财心态】
+  summary: 一个内容分类标签页，用于归拢生财心态类文章，本文件无实质内容。
+  core_question: 生财心态类内容应该如何分类？
+  key_judgment: 仅作为分类标签，不承载独立信息。
+  depth: low
+  suggested_destination: exclude
+  possible_shape: pool
+  risks:
+  - 格式预处理
+  screening_conclusion: exclude
+  reason: 仅为分类标签页，无实质内容，属于格式性文件，应予以排除。
+- file_path: docs/202304/20230418_112.md
+  title: 《回归生财前后的心路历程》
+  summary: 一位曾因刷信息而焦虑、最终躺平的传统行业创业者，分享了自己回归生财有术后的心路历程，并通过自我提问梳理出从赚到第一块钱开始的行动方向。
+  core_question: 如何从信息焦虑和行动瘫痪中走出来，回归务实的赚钱路径？
+  key_judgment: 回归的重点在于心态转变，不再盲目刷帖，而是基于自身经验，通过“先赚到第一块钱”的分解式提问，找到适合自己的具体行动起点。
+  depth: high
+  suggested_destination: case
+  possible_shape: handbook
+  risks:
+  - 口语化
+  - 重复
+  screening_conclusion: retain
+  reason: 真实记录了新人的心路历程，其提问式的自我梳理方法非常实用，能给同处迷茫期的人很大启发。
+- file_path: docs/202304/20230418_113.md
+  title: 《靠近本身就是一种成长》
+  summary: 一位生命成长教练分享了自己因靠近生财有术成员，在一个月内变现7K并最终加入社群的故事，强调“靠近”优秀圈层本身就是一种成长。
+  core_question: 对于新人，进入一个高质量的圈子意味着什么？
+  key_judgment: “靠近”本身就具有巨大价值，即使未正式加入，通过接近和学习圈内人的思维方式，也能突破认知和变现卡点。
+  depth: medium
+  suggested_destination: case
+  possible_shape: kb
+  risks:
+  - 口语化
+  - 重复
+  screening_conclusion: demote
+  reason: 以个人故事为主，情感激励大于方法论，但提供了“靠近圈层”的独特价值视角。
+- file_path: docs/202304/20230418_114.md
+  title: 《静下心来写点东西》
+  summary: 一位大一新生分享了自己断掉生活费、义无反顾加入生财有术，顶着巨大压力决心通过抖音电商项目“背水一战”的真实状态。
+  core_question: 在极端资源匮乏的情况下，如何开始一个互联网项目？
+  key_judgment: 展示了极端的行动力，虽然风险极高，但“先开始”的态度是值得关注的，评论区显示了社群的善意和鼓励。
+  depth: low
+  suggested_destination: exclude
+  possible_shape: pool
+  risks:
+  - 其他
+  - 口语化
+  screening_conclusion: exclude
+  reason: 内容主要为个人碎碎念和求助，虽真实但缺乏普适的指导价值，更像一篇日记。
+- file_path: docs/202304/20230418_115.md
+  title: 《砂石厂老板如何潜伏生财 2 年，找到适合自己的项目并赚到“第 2 桶金”》
+  summary: 一位传统行业老板分享了自己潜伏生财有术两年，最终找到并成功赚到“第二桶金”的项目（与图书相关）的经历。
+  core_question: 一个传统行业的中年创业者，如何利用社群资源找到适合自己的互联网项目？
+  key_judgment: 潜伏和观察是有效策略，不急于行动，而是花时间理解社群文化、积累认知，最终结合自身资源找到合适的切入点。
+  depth: low
+  suggested_destination: case
+  possible_shape: kb
+  risks:
+  - 格式预处理
+  - 重复
+  screening_conclusion: demote
+  reason: 标题很有吸引力，但本文件仅为摘要帖，核心内容全部在外部链接中，无法评估深度。
+- file_path: docs/202304/20230418_116.md
+  title: 【生财项目】
+  summary: 一个内容分类标签页，用于归拢生财项目类文章，本文件无实质内容。
+  core_question: 生财项目类内容应该如何分类？
+  key_judgment: 仅作为分类标签，不承载独立信息。
+  depth: low
+  suggested_destination: exclude
+  possible_shape: pool
+  risks:
+  - 格式预处理
+  screening_conclusion: exclude
+  reason: 仅为分类标签页，无实质内容，属于格式性文件，应予以排除。
+- file_path: docs/202304/20230418_117.md
+  title: 【AI 相关】
+  summary: 一个内容分类标签页，用于归拢AI相关类文章，本文件无实质内容。
+  core_question: AI相关类内容应该如何分类？
+  key_judgment: 仅作为分类标签，不承载独立信息。
+  depth: low
+  suggested_destination: exclude
+  possible_shape: pool
+  risks:
+  - 格式预处理
+  screening_conclusion: exclude
+  reason: 仅为分类标签页，无实质内容，属于格式性文件，应予以排除。
+- file_path: docs/202304/20230418_118.md
+  title: 《用 AI 绘画制作电商模特主图思路》
+  summary: 作者分享了如何使用ChatGPT+Midjourney生成电商模特主图的详细步骤和思路，包括关键词生成、图生图、抠图合成等操作。
+  core_question: 如何利用AI绘画工具低成本制作电商模特图？
+  key_judgment: AI绘画可以极大降低电商模特图的制作成本，其核心在于如何通过ChatGPT生成合适的prompt并与工具进行有效沟通。
+  depth: medium
+  suggested_destination: handbook_entry
+  possible_shape: handbook
+  risks:
+  - 时效性
+  - 口语化
+  screening_conclusion: retain
+  reason: 提供了一个切实可行的AI应用场景，操作步骤明确，对电商从业者有直接的效率提升价值。
+- file_path: docs/202304/20230418_119.md
+  title: 《Web3 新人如何更快的参与到 Web3 的建设》
+  summary: Web3从业者从赛道分析、个人定位、安全防骗、参与方式到生财本质，全面分享了新人如何以“建设者”而非“投机者”的身份进入Web3。
+  core_question: Web3新人如何安全、高效地进入该赛道并找到自己的定位？
+  key_judgment: 新人应避免直接投机，而应通过参与项目贡献（如做MOD、大使）来深度了解行业，积累认知和经验，找到适合自己的生态位。
+  depth: high
+  suggested_destination: chapter
+  possible_shape: booklet
+  risks:
+  - 时效性
+  - 其他
+  screening_conclusion: retain
+  reason: 提供了一个系统的Web3从业指引，强调长期建设而非短期投机，观点扎实，信息量大。
+- file_path: docs/202304/20230418_120.md
+  title: 《GPT 调教心流法-身份篇》
+  summary: 作者提出了一个系统的“GPT调教心流法”，核心是通过设定多维身份、丰富人物DNA和明确核心诉求来提升与GPT对话的输出质量。
+  core_question: 如何深入地使用ChatGPT以获得更高质量和更符合心意的输出？
+  key_judgment: 高效使用GPT的关键在于深度沟通，不仅要给GPT设定身份，也要让GPT了解你的身份，并通过丰富的DNA和清晰的诉求来引导输出。
+  depth: high
+  suggested_destination: chapter
+  possible_shape: course
+  risks:
+  - 时效性
+  screening_conclusion: retain
+  reason: 提供了非常实用的GPT使用心法，从“术”的层面上升到“道”的层面，对提升人机协作效率有极大价值。
+- file_path: docs/202304/20230418_121.md
+  title: 《小红书各类型博主使用 ChatGPT 指南》
+  summary: 作者分享了一份关于小红书不同类型博主如何使用ChatGPT提高创作效率的指南，该指南是利用ChatGPT共同完成的。
+  core_question: 小红书博主如何利用ChatGPT提升内容创作效率？
+  key_judgment: ChatGPT能显著提升内容创作效率，作者自身通过半天时间借助ChatGPT完成指南就是最佳例证。
+  depth: low
+  suggested_destination: handbook_entry
+  possible_shape: handbook
+  risks:
+  - 格式预处理
+  - 重复
+  screening_conclusion: demote
+  reason: 核心内容均在外部链接，本文件仅提供了背景介绍，缺乏可直接引用的内容。
+- file_path: docs/202304/20230418_122.md
+  title: 《抓住 GPT 封号热点事件，2 天变现 1 万》
+  summary: 作者复盘了如何快速抓住GPT封号这一热点事件，通过迅速开发产品（应对方案），在2天内变现1万多元的实战案例。
+  core_question: 如何将突发的热点事件迅速转化为商业机会？
+  key_judgment: 热点事件背后往往存在用户痛点，具备商业敏感度并能快速行动、将痛点产品化，是抓住“热点红利”的关键。
+  depth: medium
+  suggested_destination: case
+  possible_shape: course
+  risks:
+  - 时效性
+  - 重复
+  screening_conclusion: retain
+  reason: 提供了一个完美的“热点变现”案例，展示了从发现机会到产品上线的极速执行流程，非常有启发性。
+- file_path: docs/202304/20230418_123.md
+  title: 《新人进入 Web3 的正确姿势》
+  summary: Web3从业者再次分享了新人进入该赛道的方法论，主张先以低成本贡献者身份进入，避免直接投入本金。
+  core_question: Web3新人应采取何种安全策略进入该领域？
+  key_judgment: “姿势要正确”，核心是避免用真金白银试错，而是通过时间投入项目、成为核心贡献者，先建立认知和信誉。
+  depth: medium
+  suggested_destination: handbook_entry
+  possible_shape: booklet
+  risks:
+  - 时效性
+  - 重复
+  screening_conclusion: demote
+  reason: 观点与《Web3 新人如何更快的参与到 Web3 的建设》一文核心观点高度重复，作为单独素材价值降低。
+- file_path: docs/202304/20230418_124.md
+  title: 《如何用 GPT 无脑复制抖音热门口播视频》
+  summary: 作者详细阐述了如何通过调教GPT成为自己的“抖音脚本制作助理”，实现从扒取热门视频文案到生成高质量脚本的完整流程。
+  core_question: 如何将GPT调教成特定领域的高效创作助理？
+  key_judgment: 将GPT培养成“天才童工”的关键在于“以教为学”，通过有结构地投喂知识、分段学习和明确指令，可以让GPT复现甚至优化爆款内容逻辑。
+  depth: high
+  suggested_destination: chapter
+  possible_shape: course
+  risks:
+  - 时效性
+  - 口语化
+  screening_conclusion: retain
+  reason: 提供了一个从设定、学习、应用到注意事项的完整AI调教案例，实操性极强，对内容创作者有工具级的价值。
+- file_path: docs/202304/20230418_125.md
+  title: 《无情的机器没有任何失误，AI 的未来不可限量》
+  summary: 作者分享自己用发球机练网球的体验，对比了机器与人的不同，并诙谐地感叹AI的未来。
+  core_question: 如何以日常生活场景来理解AI的特性？
+  key_judgment: 从发球机的体验中，形象地感知到AI的“无情”和“无失误”，以此类比AI未来发展的巨大潜力。
+  depth: low
+  suggested_destination: exclude
+  possible_shape: pool
+  risks:
+  - 口语化
+  screening_conclusion: exclude
+  reason: 内容非常短，主要为生活片段的随想，缺乏实质信息量。
+- file_path: docs/202304/20230418_126.md
+  title: 《24 小时满员的 Web3Going 新手营是如何达成的？》
+  summary: 作者复盘了自己创立Web3新手营并在24小时内招满学员的全过程，分析了成功的关键要素，包括资源积累、定位和执行力。
+  core_question: 一个新产品如何在极短时间内完成冷启动并获得首批用户？
+  key_judgment: 24小时满员的成功并非偶然，源于积累了多期航海教练的信任资产、清晰的蓝海定位以及敢想敢干的执行力，是“后台”与“前台”的结合。
+  depth: medium
+  suggested_destination: case
+  possible_shape: course
+  risks:
+  - 时效性
+  - 重复
+  screening_conclusion: retain
+  reason: 提供了一个完整的知识付费产品冷启动案例，对同类业务的开展有直接的借鉴价值。
+- file_path: docs/202304/20230418_127.md
+  title: 【微信】
+  summary: 一个内容分类标签页，用于归拢微信生态类文章，本文件无实质内容。
+  core_question: 微信生态类内容应该如何分类？
+  key_judgment: 仅作为分类标签，不承载独立信息。
+  depth: low
+  suggested_destination: exclude
+  possible_shape: pool
+  risks:
+  - 格式预处理
+  screening_conclusion: exclude
+  reason: 仅为分类标签页，无实质内容，属于格式性文件，应予以排除。
+- file_path: docs/202304/20230418_128.md
+  title: 《视频号直播违规避坑》
+  summary: 一位资深视频号直播操盘手分享了自己在实战中总结的视频号直播违规雷区和避坑经验。
+  core_question: 视频号直播有哪些常见的违规陷阱？如何有效规避？
+  key_judgment: 视频号直播存在大量隐含的违规规则，新手极易踩坑，了解并规避这些雷区是直播成功的基础。
+  depth: medium
+  suggested_destination: handbook_entry
+  possible_shape: handbook
+  risks:
+  - 格式预处理
+  - 时效性
+  screening_conclusion: retain
+  reason: 提供了宝贵的实操经验分享，对视频号直播从业者具有直接的指导价值。
+- file_path: docs/202304/20230418_129.md
+  title: 《匿名信公众号小小复盘》
+  summary: 作者详细复盘了如何通过部署一个“匿名信”公众号系统，实现低成本启动和自动化变现的全过程，并分享了引流和扩充业务的思路。
+  core_question: 如何利用一个轻量级的公众号系统实现自动化变现？
+  key_judgment: 这个项目验证了利用工具和自动化流程建立“管道收入”的可能性，其核心价值在于低成本的精细化运营和将私域流量进行多元化变现。
+  depth: high
+  suggested_destination: case
+  possible_shape: handbook
+  risks:
+  - 时效性
+  - 其他
+  screening_conclusion: retain
+  reason: 提供了一个完整且可操作的技术型副业案例，从设置、引流到变现均有详实数据支撑，有很强的参考价值。
+- file_path: docs/202304/20230418_130.md
+  title: 《第七期还没开始，我已经通过白嫖生财赚到第一张门票了》
+  summary: 一位新人分享了自己通过白嫖生财有术的公开信息，确定并操作短视频带货项目，在正式加入前就赚回门票费的经历。
+  core_question: 如何利用现有的免费信息源验证一个赚钱思路？
+  key_judgment: 核心在于强大的执行力和信息筛选能力，能够从免费内容中提取有效信息并立即投入实践，证明了“学以致用”的价值。
+  depth: low
+  suggested_destination: case
+  possible_shape: handbook
+  risks:
+  - 时效性
+  - 重复
+  - 格式预处理
+  screening_conclusion: demote
+  reason: 核心内容在外部飞书链接，本文件仅为引子，无法深入评估其方法论。
+- file_path: docs/202304/20230418_131.md
+  title: 《微信公开课回顾：企业微信》
+  summary: 作者参加了微信公开课并做了简单总结，核心在于收集用户对企业微信的产品反馈，以便反馈给微信团队。
+  core_question: 企业微信目前存在哪些待解决的问题？
+  key_judgment: 该帖更像一个产品反馈收集贴，不以内容输出为主，而是以评论区反馈为价值。
+  depth: low
+  suggested_destination: exclude
+  possible_shape: pool
+  risks:
+  - 时效性
+  - 格式预处理
+  screening_conclusion: exclude
+  reason: 内容主要为外部链接指向和用户反馈收集，自身信息价值有限。
+- file_path: docs/202304/20230418_132.md
+  title: 《2023 年如何入局视频号直播》
+  summary: 视频号直播航海教练分享了对2023年视频号直播的最新趋势判断，以及直播小白快速入门的一些技巧。
+  core_question: 2023年视频号直播有哪些新趋势？新手如何快速入门？
+  key_judgment: 2023年视频号直播仍有机会，关键在于了解平台最新规则和趋势，掌握正确的入门方法。
+  depth: medium
+  suggested_destination: handbook_entry
+  possible_shape: handbook
+  risks:
+  - 时效性
+  - 格式预处理
+  screening_conclusion: retain
+  reason: 提供了针对特定渠道的年度趋势分析和入门指导，对计划入局者有参考价值。
+- file_path: docs/202304/20230418_133.md
+  title: 《做公众号，怎么涨粉快速起号》
+  summary: 作者比较了公众号（私域）和头条（公域）做内容的核心区别，提出公众号“受众垂直”而非“内容垂直”的定位思路，并认为好内容用来留粉，运营手段用来涨粉。
+  core_question: 如何正确认识公众号的私域属性，并实现有效涨粉？
+  key_judgment: 公众号是私域，内容的核心是“陪伴”和“启发”，定位应做到受众垂直，涨粉靠运营，内容负责留存。
+  depth: high
+  suggested_destination: chapter
+  possible_shape: course
+  risks:
+  - 重复
+  screening_conclusion: retain
+  reason: 深刻揭示了公域与私域内容创作的本质区别，并提出了“受众垂直”的创新定位，对公众号运营者很有指导价值。
+- file_path: docs/202304/20230418_134.md
+  title: 《视频号航海新手，7 天涨粉 10W+实操手册》
+  summary: 作者详细分享了面向中老年群体的情感视频号如何在7天内从0涨粉10W+的实操步骤，包括平台分析、找对标、打造爆款和避坑指南。
+  core_question: 新手如何在一个短视频平台上实现快速起号和爆款打造？
+  key_judgment: 视频号的核心用户是中老年人，其爆款内容偏向情感泛娱乐；快速起号的关键不是完美准备，而是基于平台属性找对标、做爆款，并抓住爆款机会进行变现。
+  depth: high
+  suggested_destination: chapter
+  possible_shape: handbook
+  risks:
+  - 时效性
+  screening_conclusion: retain
+  reason: 提供了一个极其详实、步骤清晰的爆款视频号起号实战案例，从定位到执行、避坑均有细致讲解，实操性非常强。
+- file_path: docs/202304/20230418_135.md
+  title: 【抖音】
+  summary: 一个内容分类标签页，用于归拢抖音生态类文章，本文件无实质内容。
+  core_question: 抖音生态类内容应该如何分类？
+  key_judgment: 仅作为分类标签，不承载独立信息。
+  depth: low
+  suggested_destination: exclude
+  possible_shape: pool
+  risks:
+  - 格式预处理
+  screening_conclusion: exclude
+  reason: 仅为分类标签页，无实质内容，属于格式性文件，应予以排除。
+- file_path: docs/202304/20230418_136.md
+  title: 《抖音 SEO 的前景和选词指导》
+  summary: 抖音SEO航海教练分享了对抖音搜索前景的判断，并重点指导了如何为抖音SEO进行关键词选择。
+  core_question: 抖音SEO的前景如何，以及如何选择有效关键词？
+  key_judgment: 抖音搜索是新的流量入口，选词定生死，指导意义在于帮助从业者建立对抖音SEO的认知。
+  depth: low
+  suggested_destination: handbook_entry
+  possible_shape: handbook
+  risks:
+  - 格式预处理
+  - 时效性
+  screening_conclusion: retain
+  reason: 虽然核心内容在外部链接，但标题和摘要点出了核心方法论“选词定生死”，且教练经验背书，值得保留索引。
+- file_path: docs/202304/20230418_137.md
+  title: 《抖音弹幕游戏直播，风口已经形成，未来 2 年最吸金的直播形式》
+  summary: 作者深入分析了抖音弹幕游戏直播这一新兴直播形态，认为其风口已至，并分享了作为直播公会操盘手的实践经验。
+  core_question: 抖音弹幕游戏直播是风口项目吗？它的运作逻辑和前景如何？
+  key_judgment: 弹幕游戏直播通过观众互动参与，极大提升了直播的趣味性和粘性，作者判断未来2年将成为最吸金的直播形式。
+  depth: medium
+  suggested_destination: case
+  possible_shape: course
+  risks:
+  - 时效性
+  - 格式预处理
+  screening_conclusion: retain
+  reason: 对新兴直播赛道的分析和趋势判断，具有一定的前瞻性和信息增量。
+- file_path: docs/202304/20230418_138.md
+  title: 《情感粉引流详细介绍》
+  summary: 在情感领域深耕四年的作者详细介绍了“情感粉引流”项目的入门方法，强调其无需粉丝基础、无需售后的低门槛特性。
+  core_question: 如何低门槛地在情感领域进行引流？
+  key_judgment: 情感粉引流是普通人进入情感赛道的第一步，通过该方法积累流量，是后续多种变现方式的基础。
+  depth: medium
+  suggested_destination: handbook_entry
+  possible_shape: handbook
+  risks:
+  - 时效性
+  - 格式预处理
+  screening_conclusion: retain
+  reason: 虽然核心内容在外部，但其切入角度对希望低成本引流的新人有吸引力，且作者有实战结果。
+- file_path: docs/202304/20230418_139.md
+  title: 《我用生财教我的方法做短剧》
+  summary: 作者详细分享了如何利用生财有术学到的方法操作短剧项目，提供了从短剧原理、SOP到快速试错和注意事项的完整指南。
+  core_question: 如何系统性地操作短剧分发项目并高效出单？
+  key_judgment: 短剧项目适合听话照做的新人，通过精细化的素材管理和流程化操作（SOP），可以实现第二天出单，月入一两千。
+  depth: high
+  suggested_destination: handbook_entry
+  possible_shape: handbook
+  risks:
+  - 时效性
+  - 格式预处理
+  screening_conclusion: retain
+  reason: 提供了结构化、可执行的短剧操作指南，对新手具有很高的指导价值。
+- file_path: docs/202304/20230418_140.md
+  title: 《两个正确姿势，度过难熬的新手起号期》
+  summary: 作者分享了在抖音推文项目中，新手如何通过优化视频制作和账号运营两个核心方面，突破播放量瓶颈、度过难熬的起号期。
+  core_question: 抖音推文新手如何度过流量低迷的起号期？
+  key_judgment: 度过新手期关键在于理解平台推流机制，通过优化操作（如破重、保持账号活跃）来突破播放量，并不断精进基本功。
+  depth: medium
+  suggested_destination: handbook_entry
+  possible_shape: handbook
+  risks:
+  - 时效性
+  - 格式预处理
+  screening_conclusion: retain
+  reason: 解答了推文项目的常见痛点，提供了具体的破局思路，对同赛道新手有实际帮助。
+- file_path: docs/202304/20230418_141.md
+  title: 【TikTok】
+  summary: 一个内容分类标签页，用于归拢TikTok生态类文章，本文件无实质内容。
+  core_question: TikTok生态类内容应该如何分类？
+  key_judgment: 仅作为分类标签，不承载独立信息。
+  depth: low
+  suggested_destination: exclude
+  possible_shape: pool
+  risks:
+  - 格式预处理
+  screening_conclusion: exclude
+  reason: 仅为分类标签页，无实质内容，属于格式性文件，应予以排除。
+- file_path: docs/202304/20230418_142.md
+  title: 《TikTok 一季度欧美直播带货 20W+美金总结分享》
+  summary: TikTok美区操盘手分享了其团队一季度直播带货实现23万美金的经验总结，从思想篇和运营篇两个维度分享了类目选择、团队优势、直播模式等核心认知。
+  core_question: TikTok美区直播带货如何实现高GMV和利润？
+  key_judgment: 在美区直播，需统一“利润第一”的思想，避免蓝海类目陷阱，通过设计可复制、有趣味的直播模式来保证结果下限，并追求高客单价和高利润率。
+  depth: high
+  suggested_destination: chapter
+  possible_shape: handbook
+  risks:
+  - 时效性
+  screening_conclusion: retain
+  reason: 提供了来自一线操盘手的深度实战复盘，从战略到战术均有依据，信息密度高，对跨境电商从业者极具参考价值。
+- file_path: docs/202304/20230418_143.md
+  title: 《从零入门短视频，如何快速培养爆款视频网感》
+  summary: TikTok短视频带货从业者分享了一套适合小白上手的“爆款网感培养SOP”，旨在通过系统化流程让普通人从理解爆款到创造爆款。
+  core_question: 普通人如何系统性地培养制作爆款短视频的“网感”？
+  key_judgment: ‘网感’是可以被标准化培养的，通过一套系统化的流程，普通人也能提高创作爆款视频的概率。
+  depth: low
+  suggested_destination: handbook_entry
+  possible_shape: handbook
+  risks:
+  - 格式预处理
+  - 重复
+  screening_conclusion: demote
+  reason: 核心内容需移步外部链接，本文件仅提供定位，深度不足。
+- file_path: docs/202304/20230418_144.md
+  title: 【小红书】
+  summary: 一个内容分类标签页，用于归拢小红书生态类文章，本文件无实质内容。
+  core_question: 小红书生态类内容应该如何分类？
+  key_judgment: 仅作为分类标签，不承载独立信息。
+  depth: low
+  suggested_destination: exclude
+  possible_shape: pool
+  risks:
+  - 格式预处理
+  screening_conclusion: exclude
+  reason: 仅为分类标签页，无实质内容，属于格式性文件，应予以排除。
+- file_path: docs/202304/20230418_145.md
+  title: 《电商人用什么方法在小红书赚钱》
+  summary: 作者作为小红书店铺第一波掘金人，分享了其电商团队在小红书赚钱的几种核心方法，并指出纯搬运时代已过，需要更精细的内容运营。
+  core_question: 在当前阶段，电商人如何在小红书平台上有效地赚钱？
+  key_judgment: 小红书电商仍处红利期，但需从纯搬运转向精细化的“内容电商”运营，赛道和品的选择是成功的关键，同时需注意风险。
+  depth: medium
+  suggested_destination: handbook_entry
+  possible_shape: handbook
+  risks:
+  - 时效性
+  - 格式预处理
+  screening_conclusion: retain
+  reason: 提供了对小红书电商阶段性的判断和操作思路，对从业者把握方向有参考价值。
+- file_path: docs/202304/20230418_146.md
+  title: 【线下实体】
+  summary: 一个内容分类标签页，用于归拢线下实体类文章，本文件无实质内容。
+  core_question: 线下实体类内容应该如何分类？
+  key_judgment: 仅作为分类标签，不承载独立信息。
+  depth: low
+  suggested_destination: exclude
+  possible_shape: pool
+  risks:
+  - 格式预处理
+  screening_conclusion: exclude
+  reason: 仅为分类标签页，无实质内容，属于格式性文件，应予以排除。
+- file_path: docs/202304/20230418_147.md
+  title: 《从经营一家线下养生馆到发展为线上电商，靠理疗拔罐变现 50W+ 的经验分享 》
+  summary: 作者详细分享了如何从一家单一的线下拔罐养生馆，通过聚焦单品、合伙人模式和线上线下联动，最终实现全国20家合作店、变现50W+的全过程。
+  core_question: 传统线下养生实体如何通过聚焦单品和模式创新实现规模化增长？
+  key_judgment: 成功核心在于“聚焦单品做到极致”以建立专业信任，并通过合理的合伙人分润模式撬动资源，再结合线上的内容引流形成闭环。
+  depth: high
+  suggested_destination: case
+  possible_shape: handbook
+  risks:
+  - 其他
+  - 重复
+  screening_conclusion: retain
+  reason: 提供了一个难得的从线下到线上的实体转型成功案例，商业模式、运营细节、风险提示一应俱全，具有很高的参考价值。
+- file_path: docs/202304/20230418_148.md
+  title: 【快团团】
+  summary: 一个内容分类标签页，用于归拢快团团生态类文章，本文件无实质内容。
+  core_question: 快团团生态类内容应该如何分类？
+  key_judgment: 仅作为分类标签，不承载独立信息。
+  depth: low
+  suggested_destination: exclude
+  possible_shape: pool
+  risks:
+  - 格式预处理
+  screening_conclusion: exclude
+  reason: 仅为分类标签页，无实质内容，属于格式性文件，应予以排除。
+- file_path: docs/202304/20230418_149.md
+  title: 《新手团长快速“脱臼”的几个步骤》
+  summary: 一位快团团帮卖团长分享了其一年多的踩坑经验和如何筛选靠谱供货团长、处理售前售后等问题的步骤，帮助新手团长快速“脱臼”。
+  core_question: 新手快团团团长如何避开常见陷阱，快速上手并建立赚钱闭环？
+  key_judgment: 新手团长成长的关键在于学会辨别靠谱的供货方，并建立高效的客户服务流程，避免因货不对版等问题流失客户。
+  depth: medium
+  suggested_destination: handbook_entry
+  possible_shape: handbook
+  risks:
+  - 格式预处理
+  - 时效性
+  screening_conclusion: retain
+  reason: 总结了快团团领域的实操经验，对同赛道新手有直接的避坑和指导价值。
+- file_path: docs/202304/20230418_150.md
+  title: 【美团】
+  summary: 一个内容分类标签页，用于归拢美团生态类文章，本文件无实质内容。
+  core_question: 美团生态类内容应该如何分类？
+  key_judgment: 仅作为分类标签，不承载独立信息。
+  depth: low
+  suggested_destination: exclude
+  possible_shape: pool
+  risks:
+  - 格式预处理
+  screening_conclusion: exclude
+  reason: 仅为分类标签页，无实质内容，属于格式性文件，应予以排除。
+- file_path: docs/202304/20230418_151.md
+  title: 《如何让店铺在美团运营上进入榜单，拿到金牌》
+  summary: 一位运营四家轰趴馆的负责人，分享了其在美团上长期保持榜单前三和金牌商家的店铺运营心得。
+  core_question: 如何通过有效的运营策略提升美团店铺排名并获得平台荣誉？
+  key_judgment: 进入美团榜单的核心在于系统化的运营策略，而非单一技巧。
+  depth: low
+  suggested_destination: handbook_entry
+  possible_shape: handbook
+  risks:
+  - 格式预处理
+  - 时效性
+  screening_conclusion: demote
+  reason: 核心内容在外部链接，本文件信息量极少，仅作为索引。
+- file_path: docs/202304/20230418_152.md
+  title: 《0 电商经验如何使用兼职低成本快速打爆美团电商》
+  summary: 作者分享了利用自身丰富的兼职和校园资源优势，零电商经验的情况下，低成本、快速度地在美团电商实现月入10W+的案例。
+  core_question: 如何利用线下兼职资源优势，低成本切入电商并快速起量？
+  key_judgment: 将线下的人力资源优势转化为线上的执行优势，利用美团电商初期红利，可以高效率、低成本地实现快速起步。
+  depth: medium
+  suggested_destination: case
+  possible_shape: course
+  risks:
+  - 时效性
+  - 格式预处理
+  screening_conclusion: retain
+  reason: 提供了一个“资源转化”的巧思案例，证明了将传统资源优势与新平台机会结合的巨大潜力。
+- file_path: docs/202304/20230418_153.md
+  title: 【知识付费】
+  summary: 一个内容分类标签页，用于归拢知识付费类文章，本文件无实质内容。
+  core_question: 知识付费类内容应该如何分类？
+  key_judgment: 仅作为分类标签，不承载独立信息。
+  depth: low
+  suggested_destination: exclude
+  possible_shape: pool
+  risks:
+  - 格式预处理
+  screening_conclusion: exclude
+  reason: 仅为分类标签页，无实质内容，属于格式性文件，应予以排除。
+- file_path: docs/202304/20230418_154.md
+  title: 《如何从 0 到 1 打造一个赚 1000W+ 的职业教育在线培训平台？》
+  summary: 作者分享了其从2014年开始参与医考培训品牌从0到1的整个过程，详细剖析了注册公司、课程生产、产品结构、技术制作、招生宣传和招商模式六大环节。
+  core_question: 如何从零开始打造一个年流水千万级的职业教育在线培训平台？
+  key_judgment: 打造成功的在线教育平台是一个系统工程，每个环节（资质、产品、运营、渠道）都需要精细化运作，作者的经验揭示了这个过程中的关键路径和常见坑。
+  depth: medium
+  suggested_destination: chapter
+  possible_shape: handbook
+  risks:
+  - 时效性
+  - 格式预处理
+  screening_conclusion: retain
+  reason: 提供了一个完整的教育行业创业案例框架，对想进入该领域的创业者有较高参考价值。
+- file_path: docs/202304/20230418_155.md
+  title: 《精准定位用户需求，中医丰胸课 3 天收 100 学员，变现 20W+ 的经验分享》
+  summary: 一位中医美容医生详细分享了其如何精准发现用户需求，从0到1打造并售出高客单价课程，3天变现20W+的完整过程。
+  core_question: 如何从发现用户需求到成功发售一款高客单价的知识付费课程？
+  key_judgment: 课程成功的核心在于让用户深度参与产品共创，从发现需求、预告产品到同步进展，每一步都建立在信任构建的基础上，而非简单的流量转化。
+  depth: high
+  suggested_destination: chapter
+  possible_shape: course
+  risks:
+  - 其他
+  - 重复
+  screening_conclusion: retain
+  reason: 提供了一个从需求发现、产品共创到发售变现的完整方法论，过程详实，对知识付费从业者极具借鉴意义。
+- file_path: docs/202304/20230418_156.md
+  title: 【其他】
+  summary: 一个内容分类标签页，用于归拢其他类文章，本文件无实质内容。
+  core_question: 其他类内容应该如何分类？
+  key_judgment: 仅作为分类标签，不承载独立信息。
+  depth: low
+  suggested_destination: exclude
+  possible_shape: pool
+  risks:
+  - 格式预处理
+  screening_conclusion: exclude
+  reason: 仅为分类标签页，无实质内容，属于格式性文件，应予以排除。
+- file_path: docs/202304/20230418_157.md
+  title: 《头部美妆账号运营多年的经验分享：如何做一个能变现的美妆账号》
+  summary: 一位资深美妆编导，结合多年孵化达人经验，分享了在美妆红海市场下，如何从账号策划、内容策略到商业化运营，做一个能变现的美妆账号。
+  core_question: 在美妆行业红海竞争下，如何打造一个具备变现能力的账号？
+  key_judgment: 美妆账号变现的关键在于精准的粉丝定位和内容策划，而非一味追求大爆款；通过“精分形式、技术干货、资深买家”等多种人设切入，都能找到变现路径。
+  depth: high
+  suggested_destination: chapter
+  possible_shape: handbook
+  risks:
+  - 时效性
+  screening_conclusion: retain
+  reason: 提供了来自MCN机构的专业方法论，对人设定位、内容玩法、商业化逻辑均有深入分析，对内容创作者有很高的实战指导价值。
+- file_path: docs/202304/20230418_158.md
+  title: 《我是如何将腊肉卖到县城同类产品 top 级的》
+  summary: 作者分享了其作为副业，如何利用私域流量，将家乡腊肉在县城卖到同类产品TOP级的运营经验。
+  core_question: 如何利用私域流量在一个小县城市场中将一个土特产品卖到第一？
+  key_judgment: 私域运营的核心是信任和精细化服务，通过精准的用户运营和口碑传播，可以在一个小众市场做到头部。
+  depth: medium
+  suggested_destination: case
+  possible_shape: handbook
+  risks:
+  - 格式预处理
+  screening_conclusion: retain
+  reason: 提供了一个非常接地气的私域流量变现案例，虽规模不大，但其方法论具有普适性，值得保留。
