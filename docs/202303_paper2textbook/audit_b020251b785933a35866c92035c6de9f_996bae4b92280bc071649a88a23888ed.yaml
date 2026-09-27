@@ -1,0 +1,152 @@
+citation_stats:
+- paper: P001
+  count: 13
+  locations:
+  - '32.3'
+  - 32.3.1
+  - 32.3.2
+  - 32.3.3
+  - '32.4'
+  - 32.4.1
+  - 32.4.2
+  - 32.4.3
+  - '32.5'
+  - '32.6'
+  - '32.7'
+  - '32.10'
+  - '32.12'
+- paper: P002
+  count: 11
+  locations:
+  - '32.4'
+  - 32.4.1
+  - 32.4.2
+  - 32.4.3
+  - '32.8'
+  - 32.8.1
+  - 32.8.2
+  - 32.8.3
+  - '32.10'
+  - '32.12'
+  - '32.14'
+- paper: P003
+  count: 14
+  locations:
+  - '32.4'
+  - 32.4.1
+  - 32.4.2
+  - 32.4.3
+  - '32.5'
+  - '32.7'
+  - '32.9'
+  - '32.10'
+  - '32.11'
+  - '32.12'
+  - '32.13'
+  - '32.14'
+  - '32.15'
+  - '32.16'
+- paper: P004
+  count: 2
+  locations:
+  - '32.6'
+  - 32.6.1
+- paper: P005
+  count: 5
+  locations:
+  - '32.7'
+  - 32.7.1
+  - 32.7.2
+  - 32.7.3
+  - 32.7.4
+- paper: P006
+  count: 4
+  locations:
+  - '32.8'
+  - 32.8.1
+  - 32.8.2
+  - 32.8.3
+- paper: P007
+  count: 3
+  locations:
+  - '32.9'
+  - 32.9.1
+  - 32.9.2
+- paper: P008
+  count: 6
+  locations:
+  - '32.10'
+  - 32.10.1
+  - 32.10.2
+  - 32.10.3
+  - 32.10.4
+  - 32.10.5
+- paper: P009
+  count: 3
+  locations:
+  - '32.11'
+  - 32.11.1
+  - 32.11.2
+- paper: P010
+  count: 5
+  locations:
+  - '32.12'
+  - 32.12.1
+  - 32.12.2
+  - 32.12.3
+  - 32.12.4
+- paper: P011
+  count: 3
+  locations:
+  - '32.13'
+  - 32.13.1
+  - 32.13.2
+- paper: P012
+  count: 2
+  locations:
+  - '32.14'
+  - 32.14.1
+unsupported_claims:
+- location: '32.3'
+  claim: 新店 18 天验证：卖 2630 单、日均 150 单、营业额 12.63 万、利润 6 万+
+  reason: 素材中未找到支撑
+- location: '32.3'
+  claim: 商城自带流量极低，用户路径为'搜索/推荐笔记→种草→下单'
+  reason: 素材中未找到支撑
+missing_concepts:
+- paper: P001
+  concept: 去中心化算法的具体技术实现细节（如协同过滤、内容标签体系构建）
+  severity: high
+- paper: P002
+  concept: 后羿采集器与灰豚数据的联动实操SOP（如导出数据清洗、飞书表格结构化模板）
+  severity: high
+- paper: P003
+  concept: PDD退货包运费补贴的具体申领流程与风控红线（如单店单月补贴上限、虚假退货判定标准）
+  severity: high
+- paper: P004
+  concept: 拼多多面单暴露、短信骚扰、质量参差的典型案例复盘（如某女装店因面单暴露被投诉封店的完整链路）
+  severity: medium
+- paper: P005
+  concept: 至尊宝/醒图/剪映的具体参数配置表（如醒图镜像翻转概率、剪映模板ID对应的转场特效库）
+  severity: high
+- paper: P006
+  concept: 关键词三次布局在OCR识别层的反作弊策略（如图片文字叠加位置避开水印区、字体颜色对比度阈值）
+  severity: high
+- paper: P007
+  concept: 薯券/优惠券/满减的平台门槛与叠加规则（如新店粉丝数<1000无法开通薯券、满减与优惠券互斥逻辑）
+  severity: medium
+- paper: P008
+  concept: 评论区关键词'怎么买/在哪下单'的语义识别模型训练方法（如BERT微调标注正负样本、置信度阈值设定）
+  severity: high
+- paper: P009
+  concept: 私域分层话术的AB测试框架（如利益诱导类话术在不同SKU下的转化率置信区间计算）
+  severity: medium
+- paper: P010
+  concept: 真人IP口播的标准化拍摄SOP（如灯光参数、话术卡结构、单条视频制作成本核算表）
+  severity: high
+- paper: P011
+  concept: 兼职UGC薪资结算标准与违规赔付条款（如按条结算单价区间、封号赔付倍数、税务合规处理）
+  severity: high
+- paper: P012
+  concept: 每日复盘日报表的自动化看板搭建方案（如飞书多维表格/Notion数据库字段设计、核心指标预警触发逻辑）
+  severity: high
