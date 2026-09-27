@@ -1,0 +1,75 @@
+citation_stats:
+- paper: docs/202303/20230328_108.md
+  count: 3
+  locations:
+  - '23.1'
+  - '23.3'
+  - '23.9'
+- paper: docs/202303/20230328_109.md
+  count: 2
+  locations:
+  - '23.1'
+  - '23.3'
+- paper: docs/202303/20230328_129.md
+  count: 8
+  locations:
+  - '23.1'
+  - '23.3'
+  - '23.4'
+  - '23.5'
+  - '23.7'
+  - '23.9'
+- paper: docs/202303/doxcnXIOtkZmPJLb1izKrreOuMg.md
+  count: 6
+  locations:
+  - '23.3'
+  - '23.4'
+  - '23.7'
+  - '23.8'
+  - '23.9'
+- paper: docs/202303/L8sxdC6wYorZO1xVgNbc39L4nvf.md
+  count: 7
+  locations:
+  - '23.1'
+  - '23.3'
+  - '23.4'
+  - '23.5'
+  - '23.7'
+  - '23.9'
+- paper: docs/202303/20230328_165.md
+  count: 2
+  locations:
+  - '23.3'
+  - '23.9'
+- paper: docs/202303/20230328_005.md
+  count: 1
+  locations:
+  - '23.9'
+- paper: docs/202303/KVYSdKgmIoQxCLxdIkrcKW0Snze.md
+  count: 2
+  locations:
+  - '23.3'
+  - '23.4'
+unsupported_claims:
+- location: '23.3'
+  claim: UIBot Creator 4.0 版本内置多重容错机制，针对桌面端 UI 自动化（如亚马逊后台操作）稳定性最高
+  reason: 素材中仅提到 UIBot Creator 4.0 含多重容错机制，未明确对比其稳定性最高
+- location: '23.3'
+  claim: Make/Zapier 适合‘表单触发→ChatGPT API→表格写回→邮件推送’这类纯 API 串联场景，无环境依赖，零代码门槛最低
+  reason: 素材中仅描述 Make/Zapier 串联 Google Forms、ChatGPT API、Google Sheets、邮件/短信构建闭环，未明确对比门槛最低
+- location: '23.5'
+  claim: 头部玩家通过几百上千个小程序矩阵实现日活近百万
+  reason: 素材中仅提到‘头部玩家几百上千个小程序矩阵实现日活近 100 万’，未提供具体账号或数据佐证
+- location: '23.5'
+  claim: 支付宝付费转化率实测 8-15% vs 微信 4-6%
+  reason: 素材中仅提到‘支付宝 8-15% > 微信 4-6%’，未说明实测样本量、周期及方法
+missing_concepts:
+- paper: docs/202303/20230328_129.md
+  concept: 微信小程序‘附近的小程序’LBS 流量获取玩法
+  severity: medium
+- paper: docs/202303/L8sxdC6wYorZO1xVgNbc39L4nvf.md
+  concept: 快手/抖音小程序虚拟支付收紧后的合规替代方案（如实物夹带虚拟权益）
+  severity: high
+- paper: docs/202303/doxcnXIOtkZmPJLb1izKrreOuMg.md
+  concept: RPA 选择器自愈/自适应技术（如基于 AI 的视觉定位替代坐标/选择器）
+  severity: high
