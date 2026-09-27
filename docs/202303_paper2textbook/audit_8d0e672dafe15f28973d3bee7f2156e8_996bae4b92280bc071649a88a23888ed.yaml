@@ -1,0 +1,111 @@
+citation_stats:
+- paper: P001
+  count: 3
+  locations:
+  - ch45.3
+  - ch45.9
+  - ch45.10
+- paper: P002
+  count: 9
+  locations:
+  - ch45.3
+  - ch45.4
+  - ch45.5
+  - ch45.6
+  - ch45.7
+  - ch45.8
+  - ch45.9
+  - ch45.10
+  - ch45.11
+- paper: P003
+  count: 7
+  locations:
+  - ch45.5
+  - ch45.7
+  - ch45.9
+  - ch45.10
+  - ch45.11
+- paper: P004
+  count: 4
+  locations:
+  - ch45.5
+  - ch45.6
+  - ch45.9
+  - ch45.10
+- paper: P005
+  count: 3
+  locations:
+  - ch45.7
+  - ch45.9
+  - ch45.10
+- paper: P006
+  count: 2
+  locations:
+  - ch45.3
+  - ch45.8
+- paper: P007
+  count: 3
+  locations:
+  - ch45.4
+  - ch45.9
+  - ch45.10
+- paper: P008
+  count: 6
+  locations:
+  - ch45.9
+  - ch45.10
+  - ch45.11
+unsupported_claims:
+- location: ch45.4
+  claim: 公式推导显示分成比例由城市运营成本指数、师傅替代机会成本、平台边际贡献率三方博弈形成市场均衡价
+  reason: 素材中未提供该公式推导过程，仅有蓝狐笔记中的分成比例描述（一线五五、二线四六、三线三七），无数学模型推导支撑
+- location: ch45.7
+  claim: 采集系统效率是L1/L2的100倍+，是从月入几万跃迁到月入百万的关键基建
+  reason: 素材中仅提到'有专门的客户资源采集系统，可以一键采集全国的师傅联系方式，还可以导出表格'，未提供效率倍数对比数据或收入跃迁证据
+- location: ch45.9
+  claim: 量化拆解模型中α_min = (β×C_m_alt + C_m)/R，α_max = 1 - (M_p_target + C_op)/R，可行分成区间[α_min,
+    α_max]
+  reason: 素材中未出现该数学模型及参数定义，仅有分成比例的经验法则描述
+- location: ch45.10
+  claim: 隐性成本清单：采集系统费用3000元/年、账号矩阵设备/流量500元/月、话术库打磨3000元、师傅试单磨合亏损1万、客服人工/兼职6000元/月
+  reason: 素材中未披露具体金额，仅提到'采集系统费用(几千元)''账号矩阵设备/流量成本(数千元)''话术库打磨时间(2周)''师傅试单/磨合成本(首月亏损/持平)''客服人工/兼职成本'，具体数值为教材编写者推算
+- location: ch45.10
+  claim: 第1月净利润、第2月净利润、两个月累计净利计算结果
+  reason: 素材中未提供具体财务数据，仅有'两个月纯利30万+'的结果描述，无分月明细支撑
+missing_concepts:
+- paper: P001
+  concept: 高空作业证/制冷剂操作证相关法规及平台准入规范
+  severity: high
+- paper: P001
+  concept: 《个人信息保护法》相关条款及商业数据采集合规指引
+  severity: high
+- paper: P001
+  concept: 网络平台经营者义务、劳务派遣/灵活用工合规新规、O2O平台资金托管监管趋势
+  severity: high
+- paper: P002
+  concept: 师傅入池验证三步法具体执行标准（视频面试看工具/证件、实地试单观察指标、签协议核心条款）
+  severity: medium
+- paper: P003
+  concept: 咸鱼平台风控规则最新变化及应对策略（如违禁词检测机制、设备指纹识别、IP关联判定）
+  severity: high
+- paper: P004
+  concept: 私域运营SOP细节（朋友圈内容日历、社群运营节奏、客户分层标准、转介绍激励机制）
+  severity: medium
+- paper: P005
+  concept: 采集系统数据清洗具体流程（号码验证API接口、去重算法逻辑、标签体系设计）
+  severity: medium
+- paper: P006
+  concept: 执行力体系化的组织架构设计（单人/夫妻店向团队化转型的关键节点、管理层与执行层分工界限）
+  severity: medium
+- paper: P007
+  concept: 分成比例动态调整的触发条件与决策流程（季度复盘指标、调整幅度上限、师傅沟通话术）
+  severity: medium
+- paper: P008
+  concept: 咸鱼账号规模化运营的边界条件量化（发布上限/实名上限/突破路径的ROI测算模型）
+  severity: high
+- paper: P008
+  concept: 地图采集系统效率跃迁的验证数据（单日采集量/清洗入库率/有效师傅转化率）
+  severity: high
+- paper: P008
+  concept: 赛道红利窗口与合规风险的具体时间节点预判（平台规则收紧周期/政策法规落地时间表）
+  severity: high
