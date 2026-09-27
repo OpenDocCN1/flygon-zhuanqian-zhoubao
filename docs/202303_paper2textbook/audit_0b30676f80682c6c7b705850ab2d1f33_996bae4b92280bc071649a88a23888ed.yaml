@@ -1,0 +1,40 @@
+citation_stats:
+- paper: P125
+  count: 4
+  locations:
+  - '12.1'
+  - '12.3'
+  - '12.4'
+  - '12.10'
+- paper: P126
+  count: 3
+  locations:
+  - '12.4'
+  - '12.6'
+  - '12.8'
+- paper: P043
+  count: 4
+  locations:
+  - '12.6'
+  - '12.7'
+  - '12.10'
+  - '12.11'
+- paper: PATzUdYFxCo8QtbxMAIaceDJmnQc
+  count: 2
+  locations:
+  - '12.5'
+  - '12.10'
+unsupported_claims:
+- location: '12.6'
+  claim: Azure OpenAI提供企业级合规认证（ISO 27001、SOC 2、HIPAA等）
+  reason: 素材中未找到支撑
+- location: '12.7'
+  claim: 根据 PAC-Bayes 理论，这相当于在假设空间中施加了更强的正则化先验，收紧了泛化误差上界。[需要补充文献：引用《Foundations of
+    Machine Learning》PAC-Bayes 章节]
+  reason: 素材中未找到支撑
+- location: '12.9'
+  claim: 根据 LMSYS Chatbot Arena 2024年6月榜单，GPT-4o ELO 1287，Llama-3-70B-Instruct ELO
+    1207，差距约80分...HumanEval 代码生成 Pass@1 GPT-4o 90.2% vs Llama-3-70B 81.7%。[需要补充文献：引用
+    LMSYS Chatbot Arena 官网最新榜单、OpenAI HumanEval 论文]
+  reason: 素材中未找到支撑
+missing_concepts: []
