@@ -1,0 +1,447 @@
+- 'no': 1
+  name: AI工具入门与环境配置 —— 打通“大模型”最后一公里
+  desc: 本章解决国内用户接入ChatGPT、Midjourney等头部AI工具的网络、账号、支付三大硬性门槛，建立稳定可用的生产环境基础设施。
+  nodes:
+  - 'no': 1
+    name: ChatGPT/Plus账号注册全流程与避坑指南
+    desc: 从网络环境准备、海外手机号获取、虚拟信用卡支付到账号维护的标准化SOP，规避IP污染、号码复用、Stripe风控等高频失败点。
+    role: method
+    src:
+    - paper: docs/202303/20230328_125.md
+  - 'no': 2
+    name: Midjourney零基础入门：Discord交互与出图全流程
+    desc: 覆盖Discord注册授权、服务器加入、新手频道定位、/imagine指令使用、U/V按钮放大变化、生成记录定位的完整操作手册。
+    role: method
+    src:
+    - paper: docs/202303/ATzUdYFxCo8QtbxMAIaceDJmnQc.md
+  - 'no': 3
+    name: API接入与本地部署：从官方Key到私有化中转
+    desc: 对比自注册、淘宝购号、海外代注册、社群对接开发者搭建私有API中转等多种方案，给出稳定性、成本、合规性的选型决策建议。
+    role: method
+    src:
+    - paper: docs/202303/20230328_126.md
+    - paper: docs/202303/20230328_043.md
+- 'no': 2
+  name: 提示词工程核心范式 —— 让AI听懂“人话”并输出“专业活”
+  desc: 本章确立“调教精度”决定生产力上限的核心认知，系统讲授三板斧底层逻辑、IPO/精准调教结构化模型、库内概念替代、反馈迭代与逆向生成六大落地方法，构建从新手到专家的Prompt能力阶梯。
+  nodes:
+  - 'no': 1
+    name: 三板斧底层认知：计算机逻辑>自然语言、专业术语>通俗表达、英文>中文
+    desc: 揭示ChatGPT对结构化逻辑、垂直领域术语、英文语料的天然偏好，指导提示词从“聊天”进化为“编程式指令”。
+    role: motivation
+    src:
+    - paper: docs/202303/20230328_120.md
+    - paper: docs/202303/SFnzdD0LqoM8kIxGVsrcAlRhn1d.md
+  - 'no': 2
+    name: IPO模型与精准调教模型：结构化Prompt的两大标准框架
+    desc: 借鉴编程中Input-Process-Output模型，将Prompt拆解为背景、输入、指令、输出四模块；或从7大要素库（角色、任务、格式、风格、受众等）按需组装高阶Prompt。
+    role: method
+    src:
+    - paper: docs/202303/SFnzdD0LqoM8kIxGVsrcAlRhn1d.md
+  - 'no': 3
+    name: 库内概念调教法：用模型“自带词汇”替代冗长自然语言
+    desc: 利用模型训练语料中固化的标准功能术语（如文本重写、摘要生成、情感分析、代码生成等13类）精简指令，显著提升指令遵循准确率与Token效率。
+    role: method
+    src:
+    - paper: docs/202303/SFnzdD0LqoM8kIxGVsrcAlRhn1d.md
+  - 'no': 4
+    name: RLHF式交互反馈与逆向生成优化：多轮对话中的动态纠偏与反推
+    desc: 将人类偏好反馈内化为交互习惯：负向反馈即时纠偏、正向反馈固化优质模式；并掌握从期望输出反推Prompt的五步法（明确输出→提炼概念→构建问题→优化问题→分步询问）。
+    role: method
+    src:
+    - paper: docs/202303/SFnzdD0LqoM8kIxGVsrcAlRhn1d.md
+  - 'no': 5
+    name: 提示词分级体系与平台化应用：从特定指令到混合模式的进阶路径
+    desc: 以小红书笔记创作为统一案例，对比特定指令、指令模板、示例模式、代理模式、人设注入代理、混合模式六种模式的输出质量阶梯，验证“结构+范例+人设”组合的最佳实践。
+    role: experiment
+    src:
+    - paper: docs/202303/TQMkd13LIos5sexxqWZcBHMUnif.md
+  - 'no': 6
+    name: 用户双重前提：提问意识与知识结构决定AI使用上限
+    desc: 论证高质量提问能力（清晰表达需求、筛选信息）与垂直领域知识储备（判断真伪、评估质量、深度追问）是驾驭AI的核心人类技能，AI仅作脚手架而非替代。
+    role: limitation
+    src:
+    - paper: docs/202303/SFnzdD0LqoM8kIxGVsrcAlRhn1d.md
+- 'no': 3
+  name: AI绘画可控生成与商业变现 —— 从“随机出图”到“随心定制”
+  desc: 本章以Midjourney为核心工具，建立“主体+环境+后缀”三段式公式、多维标签化描述、组合控制变量、垫图辅助结构锚定的完整工作流，覆盖UI、Logo、图标、产品、美甲等商业设计场景，实现可复制的定制化出图与变现。
+  nodes:
+  - 'no': 1
+    name: 核心范式转换：随机出图 vs 随心定制的控制论本质
+    desc: 定义随机模式（留白让AI自由发挥，变量多不可控）与随心模式（全维度详细描述限制生成空间，变量少可控）的本质区别，确立结构化提示词提升成功率的核心地位。
+    role: motivation
+    src:
+    - paper: docs/202303/KfrYdaWSTobevfxC0NscSPzxnMe.md
+    - paper: docs/202303/20230328_045.md
+  - 'no': 2
+    name: 三段式提示词公式与多维标签化描述法
+    desc: 主体（核心对象）、环境（背景光影）、后缀（风格/艺术家/质量词）三段式基础公式，配合类型/外观/材质/工艺/场景五大维度标签库，通过排列组合精准控制生成。
+    role: method
+    src:
+    - paper: docs/202303/KfrYdaWSTobevfxC0NscSPzxnMe.md
+  - 'no': 3
+    name: 组合控制变量法：单次仅调整一维度的精准迭代策略
+    desc: 保持核心主体不变，单次仅调整材质/光影/环境/特效等一个维度，对比输出差异快速定位最优参数，避免多变量混淆导致的调试失焦。
+    role: method
+    src:
+    - paper: docs/202303/KfrYdaWSTobevfxC0NscSPzxnMe.md
+  - 'no': 4
+    name: 垫图/图生图结构锚定：解决复杂文化载体的“词不达意”难题
+    desc: 针对模型对中式团扇等特定结构认知偏差，引入实物参考图（源自淘宝/阿里巴巴）作为Image Prompt锚定基础形制，再叠加文本提示词逐步微调细节。
+    role: method
+    src:
+    - paper: docs/202303/KfrYdaWSTobevfxC0NscSPzxnMe.md
+  - 'no': 5
+    name: 商业设计场景化模板：UI、Logo、图标、产品、美甲的结构化迁移
+    desc: 将通用方法论细化为UI界面（界面选择/主体特性/描述/色彩环境/风格/质量词）、图标设计（类型/描述/颜色流派/质量词）等领域专用模板，验证跨视觉设计领域的迁移性。
+    role: experiment
+    src:
+    - paper: docs/202303/KfrYdaWSTobevfxC0NscSPzxnMe.md
+  - 'no': 6
+    name: AI绘画资源导航与社区协作：检索站、构建器、艺术家库的工具链分层
+    desc: 梳理OpenArt、Lexica、Promptomania、KREA、AI画廊等10大主流站点功能分层：灵感检索→词法构建→风格定向→本地化适配，并倡导社区协作式知识迭代模型对抗工具快速迭代导致的文档过期。
+    role: extension
+    src:
+    - paper: docs/202303/20230328_124.md
+    - paper: docs/202303/20230328_052.md
+  - 'no': 7
+    name: Midjourney参数全景与版本兼容性决策表
+    desc: 系统梳理--ar/--chaos/--seed/--stylize/--tile/--video/--iw等全量参数含义、取值范围、默认值，建立V1-V5/Niji/Test等模型版本与参数的兼容性矩阵，指导差异化选型。
+    role: definition
+    src:
+    - paper: docs/202303/20230328_052.md
+- 'no': 4
+  name: AI内容生产流水线：公众号、小红书、视频号的批量化SOP
+  desc: 本章复盘多平台实战案例，提炼“选题决策50%+AI执行+情绪价值注入”的爆文框架，结合RPA/自动化工具实现从选题、创作、排版、发布到私域转化的标准化流水线，验证单人矩阵化运营可行性。
+  nodes:
+  - 'no': 1
+    name: 公众号“人工+智能”爆文框架：10分钟产出10W+的标准化流程
+    desc: 选题标题人工决策（1分钟，占50%权重）→ ChatGPT生成正文（1分钟）→ 人工注入情绪价值/引文/衔接/升华（5分钟）将原创度从60%提升至70%+，配合榜单监控与标题抄写刻意练习。
+    role: method
+    src:
+    - paper: docs/202303/20230328_126.md
+  - 'no': 2
+    name: 小红书笔记创作五大提示词模式与结构化混合模式
+    desc: 遵循小红书四段式结构（开头痛点/中间干货/结尾引导/标签），从指令模板→示例模仿→人设注入代理→结构化混合模式进阶，实现非标素材到平台规范内容的标准化转化。
+    role: method
+    src:
+    - paper: docs/202303/TQMkd13LIos5sexxqWZcBHMUnif.md
+    - paper: docs/202303/20230328_127.md
+  - 'no': 3
+    name: 视频号ChatGPT赛道10天速成头部账号：公私域联动变现链路
+    desc: Plus账号直播演示+双设备网络隔离方案解决演示难题，单场直播20W+场观引流私域8000+，直接变现2W+，验证风口期执行力与公私域联动的商业威力。
+    role: experiment
+    src:
+    - paper: docs/202303/20230328_137.md
+  - 'no': 4
+    name: AI批量剪辑生产线：解说混剪与带货视频的双模式标准化
+    desc: 解说混剪（文案+素材→自动配音→随机抽取去重→字幕BGM）与带货视频（分段文案→逐行配音→按时长匹配素材→音画同步）双模式，配合剪映二次优化（实拍插入/模板/音效）实现半成品到成品的人机协作。
+    role: method
+    src:
+    - paper: docs/202303/BOnrd0uMWoINRrx9BcCcJEh5nRg.md
+    - paper: docs/202303/20230328_106.md
+  - 'no': 5
+    name: 自动化混剪工程化实践：达芬奇切割+RPA跨软件编排+容错机制
+    desc: 达芬奇场景切割探测器自动分割→几何变换/统一调色去重→文件夹流转标准化→影刀RPA串联剪映/达芬奇/下载/TTS/GPT全链路→启动即重置容错机制，将日产能从<10条提升至稳定批量。
+    role: experiment
+    src:
+    - paper: docs/202303/20230328_107.md
+  - 'no': 6
+    name: 跨境电商全链路Prompt模板库：9大场景的角色扮演与结构化约束
+    desc: 针对Google/FB广告、Instagram运营、Quora问答、SEO大纲、Amazon Listing、复购邮件、客服话术、选品规划9大场景，预设角色+任务+硬性约束（字数/格式/平台规范/卖点数量）的生产级Prompt模板。
+    role: method
+    src:
+    - paper: docs/202303/20230328_128.md
+- 'no': 5
+  name: 无代码AI应用开发与商业闭环 —— 普通人的“超级个体”构建术
+  desc: 本章面向非程序员，传授“半定制RPA”核心方法论：Make/Zapier/IFTTT等无代码平台串联表单、ChatGPT API、表格、邮件/短信，构建“采集需求-AI加工-结果交付”全自动商业闭环，覆盖起名、SEO、Listing、社媒矩阵等场景。
+  nodes:
+  - 'no': 1
+    name: 半定制RPA核心架构：触发-处理-存储-交付四阶段工作流
+    desc: Google Forms触发→OpenAI模块处理（Prompt变量映射/Max Tokens/Temperature控制）→ Google Sheets写回结果→
+      Outlook/Gmail/WhatsApp推送交付，全程拖拉拽零代码实现。
+    role: method
+    src:
+    - paper: docs/202303/KVYSdKgmIoQxCLxdIkrcKW0Snze.md
+    - paper: docs/202303/20230328_121.md
+  - 'no': 2
+    name: 单技能三维变现裂变：工具开发、服务外包、教程变现
+    desc: 针对单一AI技能（如生成课件），裂变为：SaaS工具解决“不会用”人群、Prompt服务外包靠需求模板与库内概念、保姆级教程沉淀经验边际成本为零，三条并行路径最大化变现。
+    role: method
+    src:
+    - paper: docs/202303/20230328_131.md
+  - 'no': 3
+    name: 双轨流量获客体系：付费广告+免费内容营销→私域成交闭环
+    desc: 竞价/信息流付费流量与短视频/图文/问答免费内容双引擎，内容设计“钩子”（省略关键步骤制造认知缺口）筛选高意向客户引入私域高客单价转化。
+    role: method
+    src:
+    - paper: docs/202303/20230328_131.md
+  - 'no': 4
+    name: 风向标拆解串联法：从信息噪音中挖掘高确定性产品创意
+    desc: 四阶段漏斗：泛刷建立敏感度→实操验证偏好→聚焦领域中标→拆解共性/串联特点/规划可执行产品，将碎片化资讯转化为结构化产品机会。
+    role: method
+    src:
+    - paper: docs/202303/Zl9zdlsffoXMOIxIk9Ac0sIenje.md
+    - paper: docs/202303/20230328_122.md
+  - 'no': 5
+    name: GPT全能副驾模式：单一Chat会话驱动全栈MVP半天级交付
+    desc: GPT在单一上下文中连续扮演PM/文案/设计师/开发/运营等角色，配合Gumroad收款/Typeform收集/Zapier自动化/OpenAI生成的SaaS工具链，零代码半天完成Landing
+      Page、表单、自动化交付后端全闭环。
+    role: experiment
+    src:
+    - paper: docs/202303/Zl9zdlsffoXMOIxIk9Ac0sIenje.md
+  - 'no': 6
+    name: 对话式编程范式：零基础小白驱动GPT-4攻克反爬爬取9000+数据
+    desc: 最小模型调试思维（单元→多元→单页→多页→全量）+ 结构化需求总结固化 + Class双维定位（标签+值）+ 分页事务性保存/断点续爬/指数退避
+      + 二级页面穿透提取，构建非程序员AI协作开发工程范式。
+    role: experiment
+    src:
+    - paper: docs/202303/W9bkdxL8Iouy7PxPFBMcSP9qnLh.md
+  - 'no': 7
+    name: ChatGPT辅助爬虫开发实战：从HTML定位到异常驱动修正的完整协作流
+    desc: F12定位Class标签/层级结构喂给GPT→增量式上下文构建（单页→分页→反爬→存储）→ 报错全文反馈驱动定点修复→ Prompt迭代闭环沉淀模板，验证自然语言即编程接口假说。
+    role: experiment
+    src:
+    - paper: docs/202303/20230328_119.md
+- 'no': 6
+  name: 数字人直播与本地生活落地实战 —— 技术成熟度与ROI的博弈
+  desc: 本章客观评估数字人直播技术现状（视觉逼真度99%、边际成本2元/分）、产业链层层转包导致的价格虚高、内容原创性瓶颈、仅适配头部IP增效等核心痛点，对比硅语/999元方案/绿幕真人三大路线，给出分层入局建议。
+  nodes:
+  - 'no': 1
+    name: 技术成熟度与商业落地的剪刀差：逼真≠好用、低成本≠低价格
+    desc: 视觉99%逼真但无法原创优质内容，边际成本<2元/分但多层代理加价55倍，头部IP增效可行但新IP孵化失效，技术指标突破不等同商业价值释放。
+    role: limitation
+    src:
+    - paper: docs/202303/20230328_051.md
+  - 'no': 2
+    name: 三大方案横向对比：高价无限量 vs 低价限量 vs 绿幕真人替代
+    desc: 硅语方案（5500/月，不限时长/智能回复/真人定制/实时直播）vs 入门方案（999/年，60分钟/无智能回复/无定制）vs 绿幕真人（雇佣主播绿幕录制抠图循环，成本极低、缓解违规、效果媲美AI），决策矩阵指导选型。
+    role: experiment
+    src:
+    - paper: docs/202303/wikcnwelee9WgGFyCmMUqm0eyig.md
+    - paper: docs/202303/20230328_093.md
+  - 'no': 3
+    name: 本地生活核销率陷阱与ROI测算：GMV≠收入的残酷算账
+    desc: 核销率10%-50%（餐饮40-50%、旅游10%）、佣金率1%-5%导致单间实际收益微薄（10万GMV仅得1500佣金），单数字人仅支撑单直播间无规模杠杆，入局必测ROI。
+    role: proof
+    src:
+    - paper: docs/202303/wikcnwelee9WgGFyCmMUqm0eyig.md
+  - 'no': 4
+    name: 带货违规规避三板斧与平台红利窗口期判断
+    desc: 视频循环查重是核心违规原因，对策：升级高阶数字人生成不重复视频、真人+数字人混播打破循环、人工后期剪辑去重；抖音本地生活扩张期对无人直播宽容但窗口期将随监管关闭。
+    role: method
+    src:
+    - paper: docs/202303/wikcnwelee9WgGFyCmMUqm0eyig.md
+  - 'no': 5
+    name: 新手劝退与老手试错分层策略：经验门槛决定生存率
+    desc: 技术未成熟（无法实时演示商品/随机应变弱）、费用高昂、违规风险不可控，建议无直播经验小白暂不入局；有无人直播经验者可低成本试错迭代。
+    role: limitation
+    src:
+    - paper: docs/202303/wikcnwelee9WgGFyCmMUqm0eyig.md
+- 'no': 7
+  name: 指纹浏览器与代理IP防关联体系 —— 矩阵账号运营的基础设施
+  desc: 本章系统构建“独立指纹环境+独立IP+独立凭据”账号隔离三要素，对比主流指纹浏览器（Adspower/Hubstudio/比特/悦互联）差异，详解静态服务器IP（SSH隧道）与动态住宅IP（粘性会话）两套部署方案，建立IP质量分级体系与业务分层配置策略。
+  nodes:
+  - 'no': 1
+    name: 浏览器指纹原理与指纹浏览器核心价值
+    desc: UA/时区/语言/分辨率/Canvas/WebGL等配置生成唯一指纹实现无Cookie追踪；指纹浏览器创建隔离可定制虚拟环境，支持团队协作跨设备同步环境，是矩阵运营基建。
+    role: definition
+    src:
+    - paper: docs/202303/20230328_016.md
+  - 'no': 2
+    name: 主流指纹浏览器横向对比与选型策略
+    desc: 个人/小规模使用核心体验差异极小，核心差异在于自动化API、内核类型、团队协作人数、增值服务（IP集成）及易用性，紫鸟浏览器因合规限制无法访问FB/Google等境外平台。
+    role: experiment
+    src:
+    - paper: docs/202303/20230328_016.md
+  - 'no': 3
+    name: 静态服务器IP部署方案：VPS+SSH隧道低成本高流量场景
+    desc: 阿里云/腾讯云海外CentOS最低配+SSH代理模式接入Adspower，包月不限流量，适合亚马逊成熟店铺、发帖聊天等高流量低风控场景，实测代理检测通过可正常登录。
+    role: method
+    src:
+    - paper: docs/202303/20230328_016.md
+  - 'no': 4
+    name: 动态住宅IP部署方案：流量计费+粘性会话高安全低频场景
+    desc: IProyal/rola-ip动态住宅代理池+HTTP/SOCKS5协议接入Hubstudio，粘性会话24小时固定IP兼顾真实环境与稳定性，按量付费适合高风控注册/养号/高价值账号，单G流量供10环境轮换。
+    role: method
+    src:
+    - paper: docs/202303/20230328_016.md
+  - 'no': 5
+    name: IP质量分级体系与甄别实操：手机IP>住宅IP>服务器IP的真相
+    desc: Scamalytics查询ISP名称识别机房IP（显示云厂商名）vs 住宅IP（显示电信运营商名），垃圾值评估历史污染；揭秘“静态住宅IP”多为机房IP伪装，真正静态住宅IP需专线极贵稀缺。
+    role: method
+    src:
+    - paper: docs/202303/20230328_016.md
+  - 'no': 6
+    name: 业务分层IP配置策略：根据账号价值/频次/风控动态分配资源
+    desc: 高频大流量（发帖聊天）用静态服务器IP包月不限流；高价值/高风控/低频（注册养号）用动态住宅IP按量付费更安全；跨平台账号（FB+IG）可共享环境/IP降低成本。
+    role: method
+    src:
+    - paper: docs/202303/20230328_016.md
+  - 'no': 7
+    name: 防关联必要非充分定理与本地网络干扰排查
+    desc: 指纹隔离+IP隔离是必要非充分条件，还需行为模拟/硬件指纹/Cookie管理综合对抗；代理检测通过但浏览器打不开站点常因本地未开全局代理分流，开启本地梯子即解决。
+    role: limitation
+    src:
+    - paper: docs/202303/20230328_016.md
+- 'no': 8
+  name: 知乎好物推荐自动化变现 —— ChatGPT+RPA的最小闭环
+  desc: 本章复盘程序员副业实战，构建“选题入草稿箱→RPA调用ChatGPT生成草稿→人工复核润色发布”的半自动化卖货闭环，解决创作瓶颈，结合间接引流回答、竞品爆款改写、分级生成Prompt策略，实现月度稳定收益。
+  nodes:
+  - 'no': 1
+    name: 自动化卖货最小闭环：草稿箱+RPA+人工把关三位一体
+    desc: 人工筛选适合AI回答的问题存草稿箱→RPA（Automa插件）遍历调用ChatGPT填充回答→停留发布前确认态→人工二次润色发布，平衡效率与账号安全/内容质量。
+    role: method
+    src:
+    - paper: docs/202303/20230328_123.md
+    - paper: docs/202303/GhbsdeUAeo0lWdxwqcecdwx0nuh.md
+  - 'no': 2
+    name: 间接引流式回答策略：泛流量蓄水池引流高转化爆款
+    desc: ChatGPT回答高流量低竞争泛问题+固定营销尾巴（文案+链接）导流至爆款好物文章，利用泛流量低竞争特性建立流量漏斗，实现流量分级利用。
+    role: method
+    src:
+    - paper: docs/202303/GhbsdeUAeo0lWdxwqcecdwx0nuh.md
+  - 'no': 3
+    name: 好物清单分级生成Prompt策略：品牌筛选→单品深挖→结构化成文
+    desc: 三层递进：宽泛清单生成（甄别中外品牌准确率差异）→ 单品深度挖掘（特色/奖项/卖点修正幻觉）→ 结构化成文辅助（吸睛标题/开头/全文框架），领域知识为甄别幻觉前置条件。
+    role: method
+    src:
+    - paper: docs/202303/GhbsdeUAeo0lWdxwqcecdwx0nuh.md
+  - 'no': 4
+    name: 竞品爆款改写法：低门槛规避查重的内容复用手段
+    desc: 输入同行爆款文章→指令改写/重写→输出逻辑正确非抄袭新文案，实测通过平台原创检测，无需复杂Prompt即可利用模型强语义重组能力低成本产出。
+    role: method
+    src:
+    - paper: docs/202303/GhbsdeUAeo0lWdxwqcecdwx0nuh.md
+  - 'no': 5
+    name: AI幻觉甄别与领域知识护城河：懂行才能把AI当实习生使
+    desc: ChatGPT外文品牌翻译/具体事实易瞎编，中文品牌相对准确；必须具备垂直领域专业知识判断输出真伪，无知识背景无法驾驭AI变现，领域知识是核心门槛。
+    role: limitation
+    src:
+    - paper: docs/202303/GhbsdeUAeo0lWdxwqcecdwx0nuh.md
+  - 'no': 6
+    name: 实战收益验证与账号门槛：8级2000粉即可跑通变现
+    desc: 3月收益截图验证流程跑通产生现金流；账号仅8级、2000粉丝即可开展，冷启动成本低，大力出奇迹通过规模化生产累积曝光转化。
+    role: experiment
+    src:
+    - paper: docs/202303/GhbsdeUAeo0lWdxwqcecdwx0nuh.md
+    - paper: docs/202303/20230328_123.md
+- 'no': 9
+  name: 招聘平台挖掘商业机会与RPA自动化运营 —— BOSS直聘的“反向猎头”玩法
+  desc: 本章揭示招聘需求背后隐藏的经过市场验证的稳定赚钱项目，创创“以招聘方身份筛选项目/获取流量”与“以求职者身份调研竞对/寻找合作”双向策略，配合ChatGPT生成文案/应对面试+RPA批量分发，构建项目库/人才库/流量库三位一体体系，实战验证门窗蓝海项目。
+  nodes:
+  - 'no': 1
+    name: 招聘即项目验证信号：持续招聘=稳定盈利或隐性获客
+    desc: 持续高频招聘背后必为项目盈利稳定需扩张，或招聘本身即低成本获客手段（保险招客户、大V招粉丝/搜索曝光），规避公域项目分享导致的内卷风险。
+    role: motivation
+    src:
+    - paper: docs/202303/20230328_047.md
+  - 'no': 2
+    name: 双向渗透策略：发布岗位筛选项目 + 投递简历调研竞对
+    desc: 方向一：发布招聘信息获取简历(人才库)/微信(流量库)/JD分析(项目库)；方向二：多账号矩阵投递简历引导HR主动沟通，ChatGPT实时应对专业问题筛选可合作项目。
+    role: method
+    src:
+    - paper: docs/202303/20230328_047.md
+  - 'no': 3
+    name: ChatGPT+RPA自动化协作流程：认知边界与执行规模双重破解
+    desc: RPA负责数据采集/账号管理/批量发布沟通；ChatGPT负责招聘文案/简历优化/面试话术/行业知识速查；人类仅负责决策/筛选/非常规沟通，实现单人公司规模化运作。
+    role: method
+    src:
+    - paper: docs/202303/20230328_047.md
+  - 'no': 4
+    name: 先手动跑通再自动化原则与幼儿园打小朋友蓝海思维
+    desc: 业务流程必须先人工跑通验证盈利模型再引入RPA替代标准化环节；选择不懂互联网运营的线下小微个体行业（如门窗）切入，利用信息差实现降维打击。
+    role: method
+    src:
+    - paper: docs/202303/20230328_047.md
+  - 'no': 5
+    name: 门窗项目实战验证：单账号月询盘30-60、客单价高利润实在
+    desc: 同行多为线下小夫妻店不懂抖音/互联网，发抖音作品获客→对接厂家发货（批发/零售），单账号月询盘30-60，客单价高利润优于9.9包邮低价高卷品类。
+    role: experiment
+    src:
+    - paper: docs/202303/20230328_047.md
+- 'no': 10
+  name: AI模特与电商摄影降本增效 —— 技术就绪度与商业化成本的博弈
+  desc: 本章复盘电商摄影创业者7天引流100+商家、15%付费率跑通变现闭环的实录，坦诚披露ControlNet/LoRA等技术在复杂服装款式上的局限（需PS后期兜底）、成功率与时间成本问题，预判技术迭代将持续降低商业化成本，展望C端虚拟试穿平台级机会。
+  nodes:
+  - 'no': 1
+    name: 7天跑通变现闭环：100+商家咨询、15%付费率的早期市场验证
+    desc: 敏捷验证方法论：技术调研→快速引流→小批量付费交付→复盘迭代，以“有人买单”为核心指标，人工PS兜底补全技术短板，抢占“买铲人”先发红利窗口。
+    role: experiment
+    src:
+    - paper: docs/202303/20230328_050.md
+  - 'no': 2
+    name: 技术栈组合与复杂款式瓶颈：ControlNet/OpenPose/LoRA+PS混合流水线
+    desc: 原图换脸、骨架垫图控制姿态、服装垫图/LoRA训练多技术栈组合，但复杂款式（细节丰富/特殊材质）纹理结构错误率高，必须专业修图师PS精修，单图时间成本高边际成本难降。
+    role: limitation
+    src:
+    - paper: docs/202303/20230328_050.md
+  - 'no': 3
+    name: C端虚拟试穿平台级终局：用户输入身体数据一键试穿解决退货率痛点
+    desc: 技术终局非B端降本而是C端体验革新：会员输入身体指数在线生成专属试穿图，一键试穿如同实地穿衣，解决买不到合身/退货率高核心痛点，需平台/商家/用户多方协同。
+    role: extension
+    src:
+    - paper: docs/202303/20230328_050.md
+  - 'no': 4
+    name: 技术迭代确定性带来的商业模型演进：从服务费向SaaS/软件费转型
+    desc: 当前高时间成本/低成功率/强依赖PS为暂态，随模型能力提升生成成功率将大幅提升，人工干预成本趋近零，商业模式将从‘服务费’转向‘SaaS/软件费’。
+    role: extension
+    src:
+    - paper: docs/202303/20230328_050.md
+- 'no': 11
+  name: 认知升级与社群赋能 —— 在AI浪潮中建立确定性成长路径
+  desc: 本章汇总多位实战者的认知复盘：国内认知闭塞与信息幸存者偏差、GPT反向诱导人类协作能力、大模型3年重塑程序员生态、提示工程师职业化、文心一言本土化价值、流量与个人品牌的技术周期不变性，以及社群赋能加速成长的实证路径。
+  nodes:
+  - 'no': 1
+    name: 国内认知闭塞与信息差红利：核心圈层与大众认知的时间差套利
+    desc: 北上广核心圈层误判大众普及度，忽视下沉市场巨大认知鸿沟；国外科技圈早预判大模型3年颠覆程序员、GPT联网后能反向诱导人类协作、文心一言本土化被低估，基础普及教育存在巨大下沉市场机会。
+    role: motivation
+    src:
+    - paper: docs/202303/20230328_046.md
+  - 'no': 2
+    name: 社群赋能加速成长：付费社群提供指引、实战训练与人脉网络
+    desc: 生财有术社群提供前辈指引、结构化航海实战、人脉网络，助力作者3年入圈、2月航海、3周内团队7位数收益（ARB空投），验证‘社群赋能’与‘实战复盘确定性收益’双重论断。
+    role: experiment
+    src:
+    - paper: docs/202303/20230328_041.md
+    - paper: docs/202303/20230328_126.md
+  - 'no': 3
+    name: 躬身入局与认知迭代闭环：行为倒推认知的长期主义生存法则
+    desc: 项目必须亲自跑通才能交付团队，拒绝雇佣军模式；认知调整极难，需通过‘如果我是对的早就不是现在这样’自我对话打破伪认知，行为改变（不看报告/刻意练标题/隐匿账号）倒推认知升级形成正向飞轮。
+    role: method
+    src:
+    - paper: docs/202303/20230328_126.md
+  - 'no': 4
+    name: 文字内容赛道永恒价值：写作是可练技能、阅读爽文是刚需
+    desc: 文字载体数千年永存，图文变现ROI比视频高一个数量级，写作技能跨平台迁移抗周期；公众号引入推荐算法为后入场者提供红利，持续执行100天-1年穿越周期获复利。
+    role: extension
+    src:
+    - paper: docs/202303/20230328_126.md
+  - 'no': 5
+    name: AI时代个人核心竞争力：工作流嵌入深度×领域专业度
+    desc: 将AI工具深度融入特定工作流节点（HR筛选简历/求职者模拟面试/创作者生产内容），形成人机协同独家SOP，成为‘某工作流最会用AI的人’构建不可替代护城河。
+    role: extension
+    src:
+    - paper: docs/202303/TQMkd13LIos5sexxqWZcBHMUnif.md
+- 'no': 12
+  name: 运营工具箱与效率思维 —— 避免体力劳动的技术化杠杆
+  desc: 本章倡导‘工具替代人力’定律，分享4TB运营工具箱构建与分发方法，覆盖视频号、自媒体、电商等日常高频需求，通过飞书文档+域名跳转永久开放，践行利他共享建立开放生态。
+  nodes:
+  - 'no': 1
+    name: 工具替代人力定律：重复性/批量性工作必有工具解
+    desc: 运营工作中切勿投入过多体力，任何重复/批量工作大多能找到对应工具技术解决，工具研习与使用是提升效率与核心竞争力最有效路径。
+    role: motivation
+    src:
+    - paper: docs/202303/20230328_108.md
+  - 'no': 2
+    name: 4TB运营工具箱构建与分发：三年积累、社群共创、域名绑定永久可得
+    desc: 跨平台搜集整理+引用社群共创资源→飞书文档沉淀分类→域名绑定（http://dianjin.qiaobangzhu.cn）解决链接难记问题，免费开放鼓励社群补全形成复利增长。
+    role: method
+    src:
+    - paper: docs/202303/20230328_108.md
+  - 'no': 3
+    name: 亚马逊POST批量自动发布RPA方案：免费流量长尾补充的工程化落地
+    desc: RPA构建亚马逊后台POST批量自动发布全流程，实测万帖仅几百点击（边际效用递减），无法精准归因出单但转化率稳定时点击曝光为有效代理指标，适合作为长尾免费流量补充。
+    role: experiment
+    src:
+    - paper: docs/202303/20230328_109.md
