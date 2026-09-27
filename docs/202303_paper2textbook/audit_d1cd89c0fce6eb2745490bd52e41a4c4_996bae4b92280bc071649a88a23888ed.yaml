@@ -1,0 +1,115 @@
+citation_stats:
+- paper: P001
+  count: 27
+  locations:
+  - ch5.3
+  - ch5.4
+  - ch5.5
+  - ch5.6
+  - ch5.7
+  - ch5.8
+  - ch5.9
+  - ch5.10
+  - ch5.11
+  - ch5.12
+  - ch5.13
+  - ch5.14
+  - 5.11.1
+  - 5.11.2
+  - '5.12'
+  - '5.13'
+  - '5.14'
+  - concept_map
+  - learning_objectives
+- paper: P004
+  count: 4
+  locations:
+  - ch5.9
+  - ch5.11.2
+  - concept_map
+  - learning_objectives
+- paper: P008
+  count: 2
+  locations:
+  - ch5.10
+  - concept_map
+- paper: P002
+  count: 0
+  locations: []
+- paper: P003
+  count: 0
+  locations: []
+- paper: P005
+  count: 0
+  locations: []
+- paper: P006
+  count: 0
+  locations: []
+- paper: P007
+  count: 0
+  locations: []
+unsupported_claims:
+- location: ch5.6 (见识溢价效应)
+  claim: 理论锚点：该机制对应认知心理学中‘社会学习理论’（Bandura, 1977）与‘认知失调理论’（Festinger, 1957）的交互作用——见证他人成功会即时重塑自我效能感，打破‘我做不到’的认知锚定。
+  reason: 素材 P001 中未提及 Bandura、Festinger 或相关心理学理论名称，仅描述了‘信仰被充值、格局打开’的现象级体验。
+- location: ch5.7 (收费边界设定协议)
+  claim: 理论锚点：该协议对应交易成本经济学（Coase, 1937; Williamson, 1985）中‘资产专用性’与‘契约不完备性’导致的‘事后作弊’风险——收费即建立显性契约，降低交易双方的机会主义行为。
+  reason: 素材 P001 中未提及 Coase、Williamson、交易成本经济学或资产专用性等理论概念。
+- location: ch5.10 (人生无常与臣服当下)
+  claim: 理论锚点：该‘瞅了瞅’具象化机制对应暴露疗法核心原理——回避维持恐惧，接近（暴露）消解恐惧（Foa & Kozak, 1986 情绪加工理论；Craske
+    等抑制性学习模型）；亦对应《身体从未忘记》（van der Kolk, 2014）中创伤治疗的‘具身化接触’路径。
+  reason: 素材 P001 与 P008 均未提及 Foa、Kozak、Craske、van der Kolk、暴露疗法、情绪加工理论、抑制性学习模型或《身体从未忘记》书名。
+- location: ch5.4 (天赋优势区)
+  claim: 理论锚点：该‘零意志力成本’识别法对应行为经济学中‘系统1/系统2’双过程理论——天赋优势区即系统1（快思考）自动化程度最高的领域（Kahneman,
+    2011《思考，快与慢》）；亦对应自我决定理论中‘内在动机’驱动的自主行为（Deci & Ryan, 2000）。
+  reason: 素材 P001 中未提及 Kahneman、系统1/系统2、双过程理论、Deci、Ryan 或自我决定理论。
+- location: ch5.5 (价值共振定价观)
+  claim: 理论延伸：该方法对应营销学中感知价值定价与价值基础定价范式，核心差异在于强调‘外部碰撞发现’而非‘内部成本核算’。
+  reason: 素材 P001 中未提及感知价值定价、价值基础定价、Hinterhuber、Nagle & Müller 等营销学理论或学者。
+- location: ch5.8 (阶段性权重分配策略)
+  claim: 判断阶段需诚实面对：是否真‘无经济压力’决定能否进入筛选期；警惕‘经济焦虑虚假信号’误判阶段（如明明有存款却因恐惧不敢进入筛选期）。
+  reason: 素材 P001 中虽提到‘如果你已经没有经济压力了，选择创业和副业方向成长的比例要占的更大’，但未明确提出‘经济焦虑虚假信号’、‘误判阶段’或‘明明有存款却因恐惧不敢进入筛选期’等具体边界条件表述。
+- location: ch5.9 (激情驱动耐力模型与使命情怀锚点)
+  claim: 理论延伸：该测试对应自我决定理论中‘内在动机 vs 外在动机’区分，以及行为经济学中‘收入-幸福边际效用递减’规律（Kahneman & Deaton,
+    2010）。
+  reason: 素材 P001 与 P004 均未提及 Deci、Ryan、自我决定理论、Kahneman、Deaton 或收入-幸福边际效用递减规律。
+- location: ch5.12 (设计中的取舍)
+  claim: 文献引用：Hagger et al. (2016) 多实验室预注册复制自我损耗效应；Dang (2018) 自我损耗效应更新元分析。
+  reason: 素材中未包含 Hagger、Dang、自我损耗效应、ego depletion 等学术文献引用。
+missing_concepts:
+- paper: P001
+  concept: 第一桶金的具体金额与项目细节（仅提‘稀里糊涂靠写公众号赚到第一桶金’，未披露金额、耗时、具体变现路径）
+  severity: medium
+- paper: P001
+  concept: 保险创业 4 年的具体阶段性难点与破局动作（仅笼统提到‘穿越低谷’，缺乏可复制的战术细节）
+  severity: high
+- paper: P001
+  concept: 价值共振定价的具体迭代节奏与数据复盘（如‘碰撞频次’如何量化、『被需要』反馈的标准化记录模版）
+  severity: high
+- paper: P001
+  concept: 见识溢价的具体付费标的与 ROI 复盘（如购买前辈咨询的具体价格、拆解清单、内化后的定价调整幅度）
+  severity: high
+- paper: P001
+  concept: 收费边界的标准化话术全文与异议处理流程（文中仅给原则性话术框架，缺乏可直接复制的逐字稿）
+  severity: medium
+- paper: P001
+  concept: 阶段判断的量化指标体系（如‘起步期’的现金流覆盖月数、‘稳定期’的月利润下限、‘富足期’的被动收入倍数）
+  severity: high
+- paper: P001
+  concept: 激情/使命的具体挖掘练习与压力测试题库（文中仅给原则性问题，缺乏结构化自查工具）
+  severity: medium
+- paper: P001
+  concept: 臣服当下的具身化操作细节（如‘瞅了瞅’的具体引导语、频率、记录模版）
+  severity: medium
+- paper: P004
+  concept: 合伙人‘每小时都有新变化’的具体迭代复盘日志样本（文中仅作陈述，无实证材料）
+  severity: medium
+- paper: P004
+  concept: 元气森林创始人‘唯一壁垒是比对手更能扛’的原始出处与完整语境（文中为二手引用，未给视频链接或原文）
+  severity: medium
+- paper: P008
+  concept: 北大 IPP 心理咨询试验的具体协议流程、样本量、效果量数据（文中仅作个人见证，缺乏学术级复现信息）
+  severity: high
+- paper: P008
+  concept: 杨昌‘重走童年路’的逐周练习清单与防御模式拆解表（文中仅提‘梳理一遍、重新叙事一遍’，无可操作模版）
+  severity: high
