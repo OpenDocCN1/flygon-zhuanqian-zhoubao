@@ -1,0 +1,79 @@
+citation_stats:
+- paper: docs/202303/Qb1ldkXAkoQSbpxr6M8cWibDnXg.md
+  count: 41
+  locations:
+  - '49.3'
+  - '49.4'
+  - '49.5'
+  - '49.6'
+  - '49.7'
+  - '49.8'
+  - '49.9'
+  - '49.10'
+  - '49.11'
+  - '49.12'
+  - '49.23'
+  - '49.24'
+  - '49.25'
+- paper: docs/202303/NQrwdjKZ4oOEFpxGD1Hcjc9wnwf.md
+  count: 37
+  locations:
+  - '49.13'
+  - '49.14'
+  - '49.15'
+  - '49.16'
+  - '49.17'
+  - '49.18'
+  - '49.19'
+  - '49.20'
+  - '49.21'
+  - '49.22'
+  - '49.23'
+  - '49.25'
+- paper: docs/202303/20230328_084.md
+  count: 8
+  locations:
+  - '49.4'
+  - '49.5'
+  - '49.11'
+  - '49.12'
+  - '49.23'
+  - '49.25'
+unsupported_claims:
+- location: '49.3'
+  claim: 作者实测：6月底开始布局，前十几天效果极差（日进群个位数）
+  reason: 素材中未找到作者亲自测试的具体日期记录，仅有"6月底开始布局"的描述
+- location: '49.5'
+  claim: 贴吧投资吧主关系获删帖权限清理竞品，被撤权后转为高频顶帖+多号轮番占坑
+  reason: 素材中仅提到"投资吧主关系"和"被撤销小吧主"，未明确说明获得过删帖权限
+- location: '49.7'
+  claim: KOL 投稿自带流量，其粉丝跟随进群、关注，实现「借势起号」
+  reason: 素材中未提供KOL粉丝跟进数据或转化率佐证
+- location: '49.8'
+  claim: 300 套床品致使校内三大快递站全部爆仓
+  reason: 素材中仅提到"菜鸟站长说他们那里满了"和"顺丰单个要三十五元以上"，未明确三大站点全部爆仓
+- location: '49.13'
+  claim: 商业闭环 = 流量 × 转化率 × 客单价 × 复购率 × 推荐系数
+  reason: 该公式为教材推导内容，非素材原创观点
+- location: '49.15'
+  claim: 素材库积累是核心护城河，实现「捡钱式变现」
+  reason: 素材中"捡钱就是赚钱"为作者主观感受，非客观验证结论
+- location: '49.20'
+  claim: 校园案例：地推卖床品(L1) → 床品自营+表白墙私域(L2) → 校园媒体资产化(L3)
+  reason: 素材中未明确界定L3阶段的具体实施标准与验证数据
+missing_concepts:
+- paper: docs/202303/Qb1ldkXAkoQSbpxr6M8cWibDnXg.md
+  concept: 校园创业法律合规风险（如无证经营、税务申报、知识产权）
+  severity: high
+- paper: docs/202303/Qb1ldkXAkoQSbpxr6M8cWibDnXg.md
+  concept: 表白墙内容安全与舆情管控机制（敏感词过滤、举报处理、值班制度）
+  severity: high
+- paper: docs/202303/NQrwdjKZ4oOEFpxGD1Hcjc9wnwf.md
+  concept: 私域流量精细化运营指标体系（留存率、活跃度、人均价值、流失预警）
+  severity: medium
+- paper: docs/202303/NQrwdjKZ4oOEFpxGD1Hcjc9wnwf.md
+  concept: 跨平台内容分发自动化工具链（RPA、API、多账号管理系统）
+  severity: medium
+- paper: docs/202303/20230328_084.md
+  concept: 校园创业团队股权分配与利益绑定机制
+  severity: high
