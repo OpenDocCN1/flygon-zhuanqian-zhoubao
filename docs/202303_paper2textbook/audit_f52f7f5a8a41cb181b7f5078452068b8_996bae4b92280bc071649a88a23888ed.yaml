@@ -1,0 +1,109 @@
+citation_stats:
+- paper: P001
+  count: 3
+  locations:
+  - '36.3'
+  - '36.10'
+  - '36.15'
+- paper: P002
+  count: 2
+  locations:
+  - '36.4'
+  - '36.15'
+- paper: P003
+  count: 2
+  locations:
+  - '36.5'
+  - '36.15'
+- paper: P004
+  count: 1
+  locations:
+  - '36.15'
+- paper: P005
+  count: 3
+  locations:
+  - '36.7'
+  - '36.15'
+  - '36.17'
+- paper: P006
+  count: 3
+  locations:
+  - '36.6'
+  - '36.8'
+  - '36.15'
+- paper: P007
+  count: 3
+  locations:
+  - '36.9'
+  - '36.15'
+  - '36.17'
+- paper: P008
+  count: 2
+  locations:
+  - '36.10'
+  - '36.15'
+- paper: P009
+  count: 2
+  locations:
+  - '36.11'
+  - '36.15'
+- paper: P010
+  count: 2
+  locations:
+  - '36.12'
+  - '36.15'
+- paper: P011
+  count: 1
+  locations:
+  - '36.5'
+- paper: P016
+  count: 1
+  locations:
+  - '36.7'
+unsupported_claims:
+- location: '36.8'
+  claim: 12万粉化学博主实现IP+资料混搭降维打击
+  reason: 素材中未找到支撑
+- location: '36.8'
+  claim: 14万粉早期账号三重变现组合拳（接广/引流公众号/网盘拉新）
+  reason: 素材中未找到支撑
+- location: '36.7'
+  claim: 间接拓展发现MPA/公共英语/司法考试赛道资料引流风生水起但种子数据零覆盖
+  reason: 素材中未找到支撑
+- location: '36.7'
+  claim: AI壁纸极致低成本变现：单张400元无本万利，矩阵号送壁纸引流卖会员1.6万份+单张2000份+自建APP接广告
+  reason: 素材中未找到支撑
+- location: '36.7'
+  claim: 公益赠书CPS模型：点赞两位数评论过百→群发海报引流微信→小程序赠书收15元邮费→阶梯佣金送超1000套获千元佣金
+  reason: 素材中未找到支撑
+- location: '36.7'
+  claim: 线下同城聚会双向收费：单人100元50人流水5000元净赚1-2千：线上流量获客收费+线下谈场地压价两头获利
+  reason: 素材中未找到支撑
+- location: '36.7'
+  claim: 资料引流赛道格局：图文占78%、企业号占28%(合规引流新趋势)、素人/初级达人主力、教育细分出雅思/事业编等非传统热门
+  reason: 素材中未找到支撑
+missing_concepts:
+- paper: P001
+  concept: 评论区需求词库的工具化批量获取细节（千瓜/蝉小红导出、清洗、分类建库）
+  severity: high
+- paper: P002
+  concept: 风向标项目库的具体获取渠道与权限说明（生财社群内部资源，非公开）
+  severity: high
+- paper: P005
+  concept: 品类拓展法中ChatGPT Prompt的具体模版与参数设置
+  severity: medium
+- paper: P005
+  concept: 间接拓展依赖的外部导航站质量评估标准与替代方案（无导航站赛道如何操作）
+  severity: high
+- paper: P006
+  concept: 异常值账号筛选的量化指标阈值（如粉丝量>5万、近期发布疑似违规内容的判定标准）
+  severity: medium
+- paper: P006
+  concept: 异常值复盘的三维数据记录表单模版（内容类型占比表、引流动作时间轴、变现产品矩阵）
+  severity: medium
+- paper: P007
+  concept: 四维验证模型中各维度的量化评分标准与权重分配
+  severity: medium
+- paper: P007
+  concept: MVP小规模测试的具体设计方法与验证指标
+  severity: high
