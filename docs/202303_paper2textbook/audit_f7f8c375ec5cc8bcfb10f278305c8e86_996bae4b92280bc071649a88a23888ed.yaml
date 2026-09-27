@@ -1,0 +1,144 @@
+citation_stats:
+- paper: P001
+  count: 17
+  locations:
+  - ch1.2
+  - ch3.1
+  - ch4.1
+  - ch5.1
+  - ch6.1
+  - ch7.1
+  - ch8.1
+  - ch9.1
+  - ch10.1
+  - ch11.1
+  - ch12.1
+  - ch13.1
+  - ch14.1
+  - ch15.1
+  - ch16.1
+  - ch17.1
+- paper: P002
+  count: 14
+  locations:
+  - ch1.2
+  - ch3.1
+  - ch4.1
+  - ch5.1
+  - ch6.1
+  - ch7.1
+  - ch8.1
+  - ch9.1
+  - ch10.1
+  - ch11.1
+  - ch12.1
+  - ch13.1
+  - ch14.1
+  - ch15.1
+- paper: P003
+  count: 6
+  locations:
+  - ch2.3
+  - ch5.1
+  - ch8.1
+  - ch9.1
+  - ch10.1
+  - ch11.1
+- paper: P004
+  count: 22
+  locations:
+  - ch1.2
+  - ch2.3
+  - ch3.1
+  - ch4.1
+  - ch5.1
+  - ch6.1
+  - ch7.1
+  - ch8.1
+  - ch9.1
+  - ch10.1
+  - ch11.1
+  - ch12.1
+  - ch13.1
+  - ch14.1
+  - ch15.1
+  - ch16.1
+  - ch17.1
+  - ch18.1
+  - ch19.1
+  - ch20.1
+  - ch21.1
+  - ch22.1
+- paper: P005
+  count: 1
+  locations:
+  - ch5.2
+- paper: P006
+  count: 1
+  locations:
+  - ch5.3
+- paper: P007
+  count: 1
+  locations:
+  - ch5.4
+- paper: P008
+  count: 2
+  locations:
+  - ch5.5
+  - ch5.6
+unsupported_claims:
+- location: ch14.10
+  claim: Midjourney 王炸更新宣布推出插件功能，赋予 Midjourney 联网的功能
+  reason: 素材中未找到支撑，该内容为 ChatGPT 而非 Midjourney 的功能
+- location: ch14.11
+  claim: GPT-4 发布后，ChatGPT Plus 会员可使用 GPT-4 模型
+  reason: 素材中未找到支撑，属于 ChatGPT 而非 Midjourney 相关内容
+- location: ch14.12
+  claim: ChatGPT 插件功能开放，可联网获取实时信息
+  reason: 素材中未找到支撑，属于 ChatGPT 生态而非 Midjourney 参数工程
+- location: ch14.13
+  claim: 通过 ChatGPT API + 自动化工具实现半定制 RPA 流程
+  reason: 素材中未找到支撑，属于 ChatGPT 应用层而非 AI 绘画参数体系
+- location: ch14.14
+  claim: 双拼输入法可显著提升打字效率，推荐小鹤双拼方案
+  reason: 素材中未找到支撑，属于效率工具分享而非 AI 绘画核心方法论
+- location: ch14.15
+  claim: 指纹浏览器 + 动态住宅 IP 可实现多账号隔离防关联
+  reason: 素材中未找到支撑，属于跨境电商运营技巧而非 AI 绘画可控生成体系
+missing_concepts:
+- paper: P004
+  concept: Remix 模式在 V4/V5 模型中的参数修改适用范围与实战案例
+  severity: high
+- paper: P004
+  concept: 多提示词权重（::）与负向权重在 V4/V5 中的语法差异与实测效果
+  severity: high
+- paper: P004
+  concept: 图生图在 V5 模型中作为生成起点而非视觉灵感的机制差异
+  severity: high
+- paper: P004
+  concept: --iw 参数在 V3 及早期模型中的可变范围（-10000~10000）与 V4/V5 机制变更
+  severity: high
+- paper: P002
+  concept: V5 模型对自然语言的友好度导致结构化标签优势边际递减的实测结论
+  severity: high
+- paper: P002
+  concept: V5 需配合 --style raw 抑制默认审美，追求照片级真实感的参数组合策略
+  severity: high
+- paper: P002
+  concept: Seed 确定性复现机制仅在 V4/V5/Niji 生效，旧模型同 Seed 仅产生相似图像
+  severity: high
+- paper: P002
+  concept: 放大器策略差异化选择：Niji 必用 --upanime，早期模型可选 Light/Beta/Max
+  severity: medium
+- paper: P003
+  concept: 四层工具链中 L1 检索层与 L2 构建层的跨模型迁移与语法自动适配机制
+  severity: medium
+- paper: P003
+  concept: 社区协作式知识迭代模型对抗工具库过期的具体运作机制
+  severity: medium
+- paper: P001
+  concept: 商业定制化工作流：AI草图→定制单/卖图→1688供应链落地→实物交付的闭环细节
+  severity: high
+- paper: P008
+  concept: 参数兼容性矩阵中各参数在 V6 版本中的最新支持情况与范围变更
+  severity: high
