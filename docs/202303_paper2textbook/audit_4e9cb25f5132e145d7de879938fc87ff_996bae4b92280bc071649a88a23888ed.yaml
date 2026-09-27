@@ -1,0 +1,68 @@
+citation_stats:
+- paper: P001
+  count: 17
+  locations:
+  - ch3.1
+  - ch3.2
+  - ch3.3
+  - ch3.4
+  - ch3.5
+  - ch3.6
+  - ch3.7
+  - ch3.8
+  - ch3.9
+  - ch3.10
+  - ch3.3.1
+  - ch3.3.2
+  - ch3.3.3
+  - ch3.3.4
+  - ch3.3.5
+  - ch3.5.1
+  - ch3.5.2
+- paper: P003
+  count: 12
+  locations:
+  - ch3.5
+  - ch3.6
+  - ch3.7
+  - ch3.8
+  - ch3.9
+  - ch3.10
+  - ch3.5.1
+  - ch3.5.2
+  - ch3.5.3
+  - ch3.5.4
+  - ch3.5.5
+  - ch3.5.6
+unsupported_claims:
+- location: ch3.1
+  claim: '"人们真正注意到你的时候，不是第一眼看到你站在那里，而是发现过了这么久你居然还在那里。"'
+  reason: 该金句被标注为来自航海家俱乐部成员李晨，但在P001中仅出现亦仁转述及评论区用户Roy引用，未见李晨原文直接发布
+- location: ch3.3
+  claim: 定义边际信任价值 MTV(t) = d/dt Trust(t)，实证观察表明 MTV(t) 在 t < T_threshold 时接近 0 甚至为负
+  reason: P001、P003均无数学建模或实证数据说明此公式推导过程，属于全书自行构建的理论模型
+- location: ch3.5
+  claim: 业务模式倒逼机制：从被动专注到主动专注的转化路径为“业务模式硬约束 → 积累正向反馈/资产 → 认知重构 → 主动选择长期主义”
+  reason: P001仅提及亦仁社群七年经历，P003提及刘晨昊引入元气森林创始人观点后释怀，缺乏通用的阶段必经性论证
+- location: ch3.6
+  claim: 壁垒公式：壁垒 = Σ 1(克服困难_i ∧ 竞争对手未克服_i) × 时间差价值_i
+  reason: P003原文仅定性描述‘克服自认为克服不了的困难即构建壁垒’，无数学建模与量化指标体系
+- location: ch3.6
+  claim: 金钱边际效用递减在高压下失效，作者心态从‘给1000万让我干啥干啥’转变为‘先问代价/吃苦/掉发/失眠’
+  reason: P003中刘晨昊确实表述过该心态变化，但未提及‘边际效用’等经济学概念，属全书理论化加工
+missing_concepts:
+- paper: P001
+  concept: 社群运营的具体SOP与执行细节（如日更、活动设计、用户分层等）
+  severity: high
+- paper: P001
+  concept: 亦仁提及的‘生财有术项目精选小报童推广’分销机制与乔合专访细节
+  severity: high
+- paper: P003
+  concept: 刘晨昊小红书起号的具体选题、标题、封面、文案拆解方法论
+  severity: high
+- paper: P003
+  concept: 元气森林创始人视频号原文关于‘创业者唯一壁垒是抗压持久力’的完整论述
+  severity: medium
+- paper: P003
+  concept: 40w粉大V私下坦言‘付出远超想象，若知代价可能觉得吸引力不大’的完整语境
+  severity: medium
