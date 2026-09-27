@@ -1,0 +1,101 @@
+citation_stats:
+- paper: P001
+  count: 5
+  locations:
+  - '35.3'
+  - '35.4'
+  - '35.12'
+  - '35.14'
+  - '35.15'
+- paper: P002
+  count: 4
+  locations:
+  - '35.4'
+  - '35.8'
+  - '35.12'
+  - '35.15'
+- paper: P003
+  count: 3
+  locations:
+  - '35.5'
+  - '35.11'
+  - '35.15'
+- paper: P004
+  count: 6
+  locations:
+  - '35.2'
+  - '35.4'
+  - '35.6'
+  - '35.7'
+  - '35.12'
+  - '35.15'
+- paper: P005
+  count: 2
+  locations:
+  - '35.7'
+  - '35.15'
+- paper: P006
+  count: 2
+  locations:
+  - '35.8'
+  - '35.15'
+- paper: P007
+  count: 2
+  locations:
+  - '35.9'
+  - '35.15'
+- paper: P008
+  count: 2
+  locations:
+  - '35.10'
+  - '35.15'
+unsupported_claims:
+- location: '35.5'
+  claim: 正文中未找到"三步验货法"的伪代码块实现细节
+  reason: 素材中仅描述三步骤名称，无结构化代码实现
+- location: '35.6'
+  claim: 正文中未找到"服务分层模型"的Mermaid图表定义
+  reason: 素材中仅文字描述三层服务，无图表语法
+- location: '35.7'
+  claim: 正文中未找到"创业赛道评估决策表"的完整Markdown表格
+  reason: 素材中仅文字描述三维度对比，无表格语法
+- location: '35.8'
+  claim: 正文中未找到"私域团长成长阶段"的Mermaid演进图定义
+  reason: 素材中仅文字描述四阶段指标，无图表语法
+- location: '35.9'
+  claim: 正文中未找到"客户服务体系进阶路径"的Mermaid演进图定义
+  reason: 素材中仅文字描述六层级进阶，无图表语法
+- location: '35.10'
+  claim: 正文中未找到"公域引流能力建设路径"的Mermaid演进图定义
+  reason: 素材中仅文字描述五阶段认知跃迁，无图表语法
+- location: '35.11'
+  claim: 正文中未找到"微信端运营进阶路径"的Mermaid演进图定义
+  reason: 素材中仅文字描述五阶段跨越，无图表语法
+- location: '35.14'
+  claim: 练习题引用"下一章将学习AI工具入门"，但全书无后续章节支撑
+  reason: 素材仅含第35章内容，无第36章存在性证明
+missing_concepts:
+- paper: P001
+  concept: 小红书店铺运营具体SOP（选品/发笔记/客服话术/发货流程）
+  severity: high
+- paper: P002
+  concept: 快团团私域运营SOP（建群/发单节奏/裂变话术/售后标准）
+  severity: high
+- paper: P003
+  concept: 供应链三步验货法的可执行检查清单与红线标准
+  severity: high
+- paper: P004
+  concept: 非标服务的标准化交付流程与边界设定方法
+  severity: medium
+- paper: P005
+  concept: 趋势适配度/擅长度/累积效应的量化评分工具与红线
+  severity: medium
+- paper: P006
+  concept: 各阶段关键动作的周度/月度执行清单与考核指标
+  severity: medium
+- paper: P007
+  concept: 客户全生命周期服务的季度执行日历与成本核算模版
+  severity: medium
+- paper: P008
+  concept: 公域内容生产SOP（选题/文案/封面/发布/数据复盘）
+  severity: high
