@@ -1,0 +1,139 @@
+citation_stats:
+- paper: docs/202301-02/JPRAdLgGFowUE7xargGc8YNjnzh.md
+  count: 17
+  locations:
+  - '17.1'
+  - '17.3'
+  - '17.4'
+  - '17.5'
+  - '17.6'
+  - '17.7'
+  - '17.13'
+  - '17.14'
+  - '17.15'
+  - '17.16'
+  - '17.17'
+- paper: docs/202301-02/HfJEd0huioyShvxowVfcOMQYnHb.md
+  count: 11
+  locations:
+  - '17.1'
+  - '17.8'
+  - '17.9'
+  - '17.10'
+  - '17.11'
+  - '17.12'
+  - '17.13'
+  - '17.14'
+  - '17.15'
+  - '17.16'
+  - '17.17'
+- paper: docs/202301-02/AmKRdF2Z9oQjDExxxuAc18a5nbb.md
+  count: 1
+  locations:
+  - '17.1'
+- paper: docs/202301-02/C0dydiFPCoBI3LxemwWcXpdxn2e.md
+  count: 1
+  locations:
+  - '17.1'
+- paper: docs/202301-02/CGZ4dZq4ZoSFT4xUmFecNpk4nNe.md
+  count: 1
+  locations:
+  - '17.1'
+- paper: docs/202301-02/CZPydiVmgo2odMx0nWecf3DTn6e.md
+  count: 1
+  locations:
+  - '17.1'
+- paper: docs/202301-02/DNGrdODFBowfk2xwkNCc5GGSnRd.md
+  count: 1
+  locations:
+  - '17.1'
+- paper: docs/202301-02/E1WGd70YLoaHGfxAYJTc4WoFnsd.md
+  count: 1
+  locations:
+  - '17.1'
+- paper: docs/202301-02/ELHqdhiI5oSQAxxItLJctNAhnah.md
+  count: 1
+  locations:
+  - '17.1'
+- paper: docs/202301-02/FCiidWBeJoLOT1xreYnc9Se4nOf.md
+  count: 1
+  locations:
+  - '17.1'
+- paper: docs/202301-02/HiVkdfBYJo2H5xxWIemcMcMQnLc.md
+  count: 1
+  locations:
+  - '17.1'
+- paper: docs/202301-02/I9OAdzzs2oBliNxsmPjcHnBUnzf.md
+  count: 1
+  locations:
+  - '17.1'
+- paper: docs/202301-02/IpCcdJ9NAoAt4pxKKV5c5sfenZc.md
+  count: 1
+  locations:
+  - '17.1'
+- paper: docs/202301-02/JmBgdr705ovHoyxQknRctRaMnKh.md
+  count: 1
+  locations:
+  - '17.1'
+- paper: docs/202301-02/KomqdeUMloO1CkxrgADcqGvDnIe.md
+  count: 1
+  locations:
+  - '17.1'
+- paper: docs/202301-02/Lg2vd5GWHoqhBbxuT5LcThEpncb.md
+  count: 1
+  locations:
+  - '17.1'
+- paper: docs/202301-02/MUfLdmUlTosj0NxPhlfcjRPHnff.md
+  count: 1
+  locations:
+  - '17.1'
+- paper: docs/202301-02/MXPcd58gSoEsTlxFhUVcJ5X7npc.md
+  count: 1
+  locations:
+  - '17.1'
+- paper: docs/202301-02/NxhWdJj3UoPKvmxaBqkcz8wlntf.md
+  count: 1
+  locations:
+  - '17.1'
+- paper: docs/202301-02/P2XLdJF2yoivV8xUDszcz853nZg.md
+  count: 1
+  locations:
+  - '17.1'
+- paper: docs/202301-02/PglAdRMiIoVTRyxc4Q3cw8hvnWf.md
+  count: 1
+  locations:
+  - '17.1'
+- paper: docs/202301-02/QbBKdHvfiofIUNxDlmjceWbfnqh.md
+  count: 1
+  locations:
+  - '17.1'
+- paper: docs/202301-02/SvdFdfi3VoAiaRxENHNcncEqnif.md
+  count: 1
+  locations:
+  - '17.1'
+- paper: docs/202301-02/T1Jad4VhIoPc2hxKJxwcUFPOnTc.md
+  count: 1
+  locations:
+  - '17.1'
+- paper: docs/202301-02/VAA8dQLTZolMlJx1jxrcKaPrnzd.md
+  count: 1
+  locations:
+  - '17.1'
+- paper: docs/202301-02/VsjCdIDNJoNRvlxo4OWcJ7bDnO5.md
+  count: 1
+  locations:
+  - '17.1'
+- paper: docs/202301-02/XuOgdT9o8ongKPxfSMlcfgLbngf.md
+  count: 1
+  locations:
+  - '17.1'
+- paper: docs/202301-02/ZcEdd0xTCo1K5IxwCyLccKUynOb.md
+  count: 1
+  locations:
+  - '17.1'
+- paper: docs/202301-02/Zjr6dgbHIoxcp0x21SVcrwlqn8d.md
+  count: 1
+  locations:
+  - '17.1'
+unsupported_claims: []
+missing_concepts: []

@@ -1,0 +1,47 @@
+citation_stats:
+- paper: P001
+  count: 17
+  locations:
+  - '2.3'
+  - '2.4'
+  - '2.5'
+  - '2.6'
+  - '2.7'
+  - '2.8'
+  - '2.9'
+  - '2.10'
+  - '2.11'
+  - '2.12'
+  - '2.13'
+  - '2.15'
+  - '2.16'
+  - '2.17'
+- paper: P002
+  count: 5
+  locations:
+  - '2.4'
+  - '2.5'
+  - '2.9'
+  - '2.14'
+  - '2.15'
+- paper: P003
+  count: 3
+  locations:
+  - '2.5'
+  - '2.14'
+- paper: P004
+  count: 3
+  locations:
+  - '2.8'
+  - '2.10'
+  - '2.14'
+- paper: P005
+  count: 1
+  locations:
+  - '2.8'
+- paper: P006
+  count: 1
+  locations:
+  - '2.5'
+unsupported_claims: []
+missing_concepts: []

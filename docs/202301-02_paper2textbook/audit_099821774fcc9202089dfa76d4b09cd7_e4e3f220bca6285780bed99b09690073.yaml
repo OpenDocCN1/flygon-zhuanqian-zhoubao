@@ -1,0 +1,55 @@
+citation_stats:
+- paper: I9OAdzzs2oBliNxsmPjcHnBUnzf.md
+  count: 12
+  locations:
+  - '1.3'
+  - '1.4'
+  - '1.5'
+  - '1.7'
+  - '1.8'
+- paper: NxhWdJj3UoPKvmxaBqkcz8wlntf.md
+  count: 9
+  locations:
+  - '1.2'
+  - '1.3'
+  - '1.5'
+  - '1.6'
+  - '1.7'
+- paper: DNGrdODFBowfk2xwkNCc5GGSnRd.md
+  count: 8
+  locations:
+  - '1.3'
+  - '1.7'
+  - '1.8'
+unsupported_claims:
+- location: '1.3'
+  claim: 软件的本质就是软文
+  reason: 该观点仅见于DNGrdODF素材，属于作者个人认知总结，非行业共识或学术定论，其他两份素材未提及此观点。
+- location: '1.5'
+  claim: 六个点，满足的越多越好，满足四个点，及格
+  reason: 该及格线标准仅见于NxhWdJj3素材，I9OAdzzs与DNGrdODF素材未给出量化及格标准，存在单一来源风险。
+- location: '1.6'
+  claim: 项目拆解IP月收益10-200万，知识付费(李一舟)月收益10-500万
+  reason: 该数据源自NxhWdJj3素材中的讲师自述/学员反馈区间，非审计数据，样本量与分布未公开，全书未标注数据来源局限性。
+- location: '1.7'
+  claim: DNGrdODF素材提出'有效噱头，无效产品'即安慰剂效应、连花清瘟案例
+  reason: 该观点仅见于DNGrdODF素材，且书中明确标注为'灰色地带打法'、'违背交付真实价值底线'，属于有争议观点的引用而非事实支撑。
+missing_concepts:
+- paper: I9OAdzzs2oBliNxsmPjcHnBUnzf.md
+  concept: 策划案与执行案的红绿灯标记机制（完成标绿、延期标红）
+  severity: high
+- paper: I9OAdzzs2oBliNxsmPjcHnBUnzf.md
+  concept: 商业拆解可复制性三判据的具体检验方法表（爆得不偶然/货源可寻/场景验证）
+  severity: high
+- paper: NxhWdJj3UoPKvmxaBqkcz8wlntf.md
+  concept: 六维模型中'流量效率/销转效率/交付效率'的具体量化指标定义（时间、素材难度、专业度、SOP化程度等）
+  severity: high
+- paper: NxhWdJj3UoPKvmxaBqkcz8wlntf.md
+  concept: 补偿机制的结构演进：三效率不足时必须用三财务补偿的决策逻辑
+  severity: high
+- paper: DNGrdODFBowfk2xwkNCc5GGSnRd.md
+  concept: AI绘画提示词公式：主体+环境+前后缀，及权重控制语法（::数字）
+  severity: medium
+- paper: DNGrdODFBowfk2xwkNCc5GGSnRd.md
+  concept: 个人开发者'非规范化生产'核心原则：研发周期≤1周、卖空气/预售验证、全球化部署
+  severity: medium

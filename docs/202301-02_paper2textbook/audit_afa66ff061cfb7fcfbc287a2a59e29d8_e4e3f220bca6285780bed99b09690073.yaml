@@ -1,0 +1,116 @@
+citation_stats:
+- paper: P001
+  count: 4
+  locations:
+  - '9.3'
+  - 9.21.1
+  - 9.21.2
+  - 9.21.3
+- paper: P002
+  count: 2
+  locations:
+  - '9.4'
+  - 9.21.1
+- paper: P003
+  count: 2
+  locations:
+  - '9.5'
+  - 9.21.1
+- paper: P004
+  count: 2
+  locations:
+  - '9.6'
+  - 9.21.1
+- paper: P005
+  count: 2
+  locations:
+  - '9.7'
+  - 9.21.1
+- paper: P006
+  count: 2
+  locations:
+  - '9.8'
+  - 9.21.1
+- paper: P007
+  count: 2
+  locations:
+  - '9.9'
+  - 9.21.1
+- paper: P008
+  count: 2
+  locations:
+  - '9.10'
+  - 9.21.1
+- paper: P009
+  count: 2
+  locations:
+  - '9.11'
+  - 9.21.1
+- paper: P010
+  count: 2
+  locations:
+  - '9.12'
+  - 9.21.1
+- paper: P011
+  count: 2
+  locations:
+  - '9.13'
+  - 9.21.1
+- paper: MXP01
+  count: 1
+  locations:
+  - '9.14'
+- paper: MXP02
+  count: 1
+  locations:
+  - '9.15'
+- paper: MXP03
+  count: 1
+  locations:
+  - '9.16'
+- paper: MXP04
+  count: 1
+  locations:
+  - '9.17'
+- paper: MXP05
+  count: 1
+  locations:
+  - '9.18'
+- paper: MXP06
+  count: 1
+  locations:
+  - '9.19'
+- paper: MXP07
+  count: 1
+  locations:
+  - '9.20'
+- paper: MXP08
+  count: 1
+  locations:
+  - '9.21'
+unsupported_claims:
+- location: '9.3'
+  claim: 新号扶持期仅限注册前7-10天，过期权重归零，需换号重来
+  reason: 素材中仅提到'过了七天'流量没差很多，未明确说明权重归零需换号
+- location: '9.13'
+  claim: 竹庐拓艺单品最高出过6666元，信仰类产品单价近3000元、销量1000+单
+  reason: 素材中仅提到'单品最高出过6666元'和'信仰类产品单价近3000元、销量1000+单'，但未说明是否为同一产品
+- location: '9.19'
+  claim: 观众缘权重高于表现力、文案、场景、剪辑，且含匹配度非单纯好看
+  reason: 素材中仅提到'观众缘>表现力>文案>场景>剪辑'，未明确解释观众缘包含匹配度
+missing_concepts:
+- paper: P001
+  concept: 新号扶持期结束后流量下滑幅度与应对策略的具体数据
+  severity: medium
+- paper: P007
+  concept: 虚荣穷白领/怀旧/亲情共情等细分人群的具体画像与内容偏好差异
+  severity: high
+- paper: P011
+  concept: 非遗产品线上引流到线下展厅的具体转化率与客单价分布数据
+  severity: high
+- paper: MXP01
+  concept: 后端变现效率的具体计算公式与行业基准值对比
+  severity: medium
+- paper: MXP08
+  concept: 流程化复制的具体SOP文档结构与迭代机制
+  severity: medium
