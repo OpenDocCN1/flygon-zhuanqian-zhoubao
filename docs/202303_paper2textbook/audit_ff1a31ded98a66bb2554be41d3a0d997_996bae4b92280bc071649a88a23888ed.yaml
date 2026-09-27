@@ -1,0 +1,88 @@
+citation_stats:
+- paper: docs/202303/20230328_081.md
+  count: 7
+  locations:
+  - 52.3.1
+  - 52.3.2
+  - 52.3.3
+  - 52.3.4
+  - 52.3.5
+  - 52.8练习1
+  - '52.9'
+- paper: docs/202303/20230328_161.md
+  count: 14
+  locations:
+  - 52.4.1
+  - 52.4.2
+  - 52.4.3
+  - 52.4.4
+  - 52.4.5
+  - 52.8练习2
+  - '52.9'
+- paper: docs/202303/ScDWdhjkHolKzAxyHpjclEDsnMg.md
+  count: 10
+  locations:
+  - 52.5.1
+  - 52.5.2
+  - 52.5.3
+  - 52.5.4
+  - 52.5.5
+  - 52.8练习3
+  - '52.9'
+- paper: www.yuque.com/for_lazy/thfiu8/ig8w1gue3t01ynwp.md
+  count: 2
+  locations:
+  - 52.3.1
+  - 52.3.2
+- paper: www.yuque.com/for_lazy/thfiu8/hz382crsb4az7gsv.md
+  count: 3
+  locations:
+  - 52.4.1
+  - 52.4.2
+  - 52.4.3
+- paper: www.yuque.com/for_lazy/thfiu8/oen722req0.feishu.cn/docx/ScDWdhjkHolKzAxyHpjclEDsnMg.md
+  count: 2
+  locations:
+  - 52.5.1
+  - 52.5.2
+unsupported_claims:
+- location: 52.3.1
+  claim: 哈尔滨这边做的好的普遍的话都在 1000 多单
+  reason: 素材中仅提到作者所在城市及夜生活丰富城市的店铺数据普遍在1000多单，未提供具体店铺名单或平台后台截图佐证
+- location: 52.4.2
+  claim: 私域 2000 人实现 25 万纯利
+  reason: 素材中作者自述私域基础约2000人、营收25万基本为纯利润，但未提供财务报表或后台数据验证
+- location: 52.5.3
+  claim: 绿通费用在5000-20000不等
+  reason: 素材中静水陈述绿通费用区间，但未给出具体案例合同、发票或医院官方渠道证明
+- location: 52.5.4
+  claim: 抖音直播挂链接卖课程
+  reason: 素材中作者提到抖音直播挂链接卖课程，但未展示直播间截图、商品橱窗后台或销售数据
+- location: '52.6'
+  claim: 成人用品外卖月纯利3.9-6万元
+  reason: 素材中Ao阳称单店月纯利3.9-6万，但未提供纳税记录、平台结算单或银行流水佐证
+missing_concepts:
+- paper: docs/202303/20230328_081.md
+  concept: 外卖平台佣金率具体数值
+  severity: medium
+- paper: docs/202303/20230328_081.md
+  concept: 食品经营许可证办理流程与周期
+  severity: high
+- paper: docs/202303/20230328_161.md
+  concept: 家庭教育赛道头部竞品具体名称及市场份额
+  severity: high
+- paper: docs/202303/20230328_161.md
+  concept: 课程内容版权保护与防盗版措施
+  severity: medium
+- paper: docs/202303/ScDWdhjkHolKzAxyHpjclEDsnMg.md
+  concept: 陪诊师资质认证标准与行业准入门槛
+  severity: high
+- paper: docs/202303/ScDWdhjkHolKzAxyHpjclEDsnMg.md
+  concept: 医疗资源整合的法律合规风控具体操作手册
+  severity: high
+- paper: www.yuque.com/for_lazy/thfiu8/hz382crsb4az7gsv.md
+  concept: 知识付费产品退费纠纷处理机制
+  severity: medium
+- paper: www.yuque.com/for_lazy/thfiu8/oen722req0.feishu.cn/docx/ScDWdhjkHolKzAxyHpjclEDsnMg.md
+  concept: 陪诊服务标准化SOP（零红点标准、话术库）细节
+  severity: high
