@@ -1,0 +1,63 @@
+citation_stats:
+- paper: HiVkdfBYJo2H5xxWIemcMcMQnLc.md
+  count: 42
+  locations:
+  - '32.1'
+  - '32.2'
+  - '32.3'
+  - '32.4'
+  - '32.5'
+  - '32.6'
+  - '32.7'
+  - '32.8'
+  - '32.9'
+  - '32.10'
+  - '32.11'
+  - '32.12'
+  - '32.13'
+  - '32.14'
+- paper: T1Jad4VhIoPc2hxKJxwcUFPOnTc.md
+  count: 14
+  locations:
+  - '32.1'
+  - '32.2'
+  - '32.10'
+  - '32.11'
+  - '32.12'
+  - '32.13'
+  - '32.14'
+- paper: 龙哥赚钱周报 20221113-20230207
+  count: 0
+  locations: []
+unsupported_claims:
+- location: '32.10'
+  claim: Web3市场在10年内创造了3万亿美元的流动价值，已足以与传统投资基金投资的初创公司的总价值相媲美。
+  reason: 素材中未找到该具体数据的来源支撑，仅为作者陈述
+- location: '32.10'
+  claim: 全球大量对冲基金正计划5年内将其资产的7%投入到Web3市场中，巨无霸养老基金也开始酝酿直投。
+  reason: 素材中未找到具体机构名单或报告来源支撑，仅为作者陈述
+- location: '32.9'
+  claim: 199小课直播：一天两播、单场6万、月入400万
+  reason: 素材中未找到该具体数据的验证来源，仅为作者陈述
+- location: '32.9'
+  claim: 传统出版卖5万册才有二三十万版税收入，能卖1万册已属畅销书
+  reason: 素材中未找到行业权威报告支撑该数据，仅为作者经验之谈
+- location: '32.13'
+  claim: 做胎毛纪念品项目从抖音导流2万私域宝妈好友，完成7000单变现，结合副业变现30万+
+  reason: 素材中仅为作者自述案例，无第三方验证数据支撑
+missing_concepts:
+- paper: HiVkdfBYJo2H5xxWIemcMcMQnLc.md
+  concept: 内容经纪人具体培训体系与SOP标准化细节
+  severity: high
+- paper: HiVkdfBYJo2H5xxWIemcMcMQnLc.md
+  concept: 星云IP计划中S级IP筛选标准与治理机制
+  severity: high
+- paper: HiVkdfBYJo2H5xxWIemcMcMQnLc.md
+  concept: 版权证券化具体操作流程与合规要点
+  severity: high
+- paper: T1Jad4VhIoPc2hxKJxwcUFPOnTc.md
+  concept: Web3基建赛道具体细分领域与投资标的筛选标准
+  severity: medium
+- paper: T1Jad4VhIoPc2hxKJxwcUFPOnTc.md
+  concept: 熊市中'敬畏市场、与市场共舞'的具体量化交易策略
+  severity: medium
