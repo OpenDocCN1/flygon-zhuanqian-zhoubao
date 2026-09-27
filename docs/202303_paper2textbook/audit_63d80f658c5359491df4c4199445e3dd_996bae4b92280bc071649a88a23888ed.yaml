@@ -1,0 +1,141 @@
+citation_stats:
+- paper: P001
+  count: 17
+  locations:
+  - '16.3'
+  - '16.4'
+  - '16.5'
+  - '16.6'
+  - '16.7'
+  - '16.8'
+  - '16.9'
+  - '16.10'
+  - '16.11'
+  - '16.12'
+  - '16.13'
+  - '16.14'
+  - '16.15'
+  - '16.16'
+  - '16.17'
+  - '16.18'
+  - '16.19'
+- paper: P002
+  count: 1
+  locations:
+  - '16.4'
+- paper: P003
+  count: 1
+  locations:
+  - '16.5'
+- paper: P004
+  count: 1
+  locations:
+  - '16.6'
+- paper: P005
+  count: 6
+  locations:
+  - '16.7'
+  - '16.12'
+  - '16.13'
+  - '16.14'
+  - '16.15'
+  - '16.16'
+- paper: P006
+  count: 1
+  locations:
+  - '16.8'
+- paper: P007
+  count: 2
+  locations:
+  - '16.9'
+  - '16.10'
+- paper: P008
+  count: 6
+  locations:
+  - '16.10'
+  - '16.11'
+  - '16.12'
+  - '16.13'
+  - '16.14'
+  - '16.15'
+- paper: P009
+  count: 4
+  locations:
+  - '16.11'
+  - '16.12'
+  - '16.13'
+  - '16.14'
+- paper: P010
+  count: 13
+  locations:
+  - '16.12'
+  - '16.13'
+  - '16.14'
+  - '16.15'
+  - '16.16'
+  - '16.17'
+  - '16.18'
+  - '16.19'
+  - '16.20'
+  - '16.21'
+  - '16.22'
+  - '16.23'
+  - '16.24'
+- paper: P011
+  count: 5
+  locations:
+  - '16.12'
+  - '16.13'
+  - '16.14'
+  - '16.15'
+  - '16.16'
+- paper: P012
+  count: 2
+  locations:
+  - '16.14'
+  - '16.15'
+- paper: P013
+  count: 4
+  locations:
+  - '16.15'
+  - '16.16'
+  - '16.17'
+  - '16.18'
+unsupported_claims:
+- location: '16.11'
+  claim: GPT 全能副驾模式在单一会话中连续扮演 PM/文案/设计/开发/运营五大角色，配合 SaaS 工具链半天交付全栈 MVP。
+  reason: 素材 P010 确认了 GPT 扮演多角色与 SaaS 工具链集成，但未明确提及 '半天交付全栈 MVP' 的具体时间承诺；素材 P001/P005
+    侧重工程调试，非产品化交付。
+- location: '16.13'
+  claim: 验证优于实现原则主张早期用人工/No-code 跑通闭环，绝不写代码，仅当规模化触发条件时再投入开发重构。
+  reason: 素材 P010 提到 '前期用户少的时候，可以完全人工来把交付流程搞定' 与 '验证优于实现'，但未明确 '绝不写代码' 及 '仅当规模化触发条件时再投入开发'
+    的绝对化表述。
+- location: '16.15'
+  claim: 工具组合杠杆定理中 GPT 作为大脑、SaaS 为手脚，核心竞争力在于工具生态选型编排能力。
+  reason: 素材 P008/P010 共识工具组合杠杆，但 '核心竞争力在于工具生态选型编排能力' 为本章综合提炼，素材中无直接原文支撑该确切表述。
+missing_concepts:
+- paper: P001
+  concept: Python 环境配置与第三方库安装（requests/beautifulsoup4/openpyxl/fake_useragent）的具体排坑细节
+  severity: high
+- paper: P001
+  concept: Excel 多 Sheet 合并脚本的实现细节（openpyxl/pandas 追加写入、文件合并逻辑）
+  severity: high
+- paper: P005
+  concept: Prompt 迭代闭环中 '需求总结固化' 的具体触发时机与模板结构
+  severity: medium
+- paper: P008
+  concept: Make/Zapier 免费版限制（任务数/工作流数）对商业化规模的具体影响及低成本突破方案
+  severity: high
+- paper: P008
+  concept: 用户数据跨平台流转（Forms→Make→OpenAI→Sheets→Gmail）的隐私合规硬伤及自建方案改造路径
+  severity: high
+- paper: P010
+  concept: Gumroad/Typeform/Zapier/OpenAI API 具体集成配置步骤（Webhook 地址、API Key 存储、字段映射、错误重试策略）
+  severity: high
+- paper: P010
+  concept: GPT 自主生成 OpenAI API 的结构化 System/User Prompt 模板（含变量占位、Token 预算、Temperature
+    设定）的完整示例
+  severity: high
+- paper: P011
+  concept: 风向标拆解串联法中 '中标' 判定标准、分类体系与自动化筛选工具链
+  severity: medium
