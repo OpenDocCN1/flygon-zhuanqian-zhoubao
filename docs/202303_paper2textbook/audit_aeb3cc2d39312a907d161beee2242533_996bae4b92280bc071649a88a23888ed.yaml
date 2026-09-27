@@ -1,0 +1,176 @@
+citation_stats:
+- paper: P001
+  count: 2
+  locations:
+  - '47.3'
+  - '47.16'
+- paper: P002
+  count: 2
+  locations:
+  - '47.4'
+  - '47.16'
+- paper: P003
+  count: 2
+  locations:
+  - '47.5'
+  - '47.16'
+- paper: P004
+  count: 2
+  locations:
+  - '47.6'
+  - '47.16'
+- paper: P005
+  count: 2
+  locations:
+  - '47.7'
+  - '47.16'
+- paper: P006
+  count: 2
+  locations:
+  - '47.8'
+  - '47.16'
+- paper: P008
+  count: 2
+  locations:
+  - '47.10'
+  - '47.16'
+- paper: P009
+  count: 2
+  locations:
+  - '47.11'
+  - '47.16'
+- paper: P010
+  count: 2
+  locations:
+  - '47.12'
+  - '47.16'
+- paper: M001
+  count: 0
+  locations: []
+- paper: M002
+  count: 1
+  locations:
+  - '47.7'
+- paper: M003
+  count: 1
+  locations:
+  - '47.9'
+unsupported_claims:
+- location: '47.1'
+  claim: 普通人在职场待久了，早已习惯了被 KPI、领导、薪资这套外部制度“推着走”。
+  reason: 素材中未找到支撑
+- location: '47.1'
+  claim: 什么是自己做项目？就是在什么也没有和赚到钱之间，需要你自己去摸清一条路出来...你需要的是很强的内驱力。
+  reason: 素材中未找到支撑
+- location: '47.3'
+  claim: 职场执行力 ≠ 创业执行力，前者是被动响应，后者是主动摸路。
+  reason: 素材中未找到支撑
+- location: '47.4'
+  claim: 总把赚钱这件事的责任寄托在别人身上
+  reason: 素材中未找到支撑
+- location: '47.4'
+  claim: 你让我发的视频或者做的事情我都做了，为什么还是没有流量？你能告诉我做二手书项目要发布多少商品，我才能稳定月入过万吗？
+  reason: 素材中未找到支撑
+- location: '47.5'
+  claim: 知识付费的意义仅仅是用别人的经验帮你少走 1-2 个月弯路，帮你跑通流程，让你少踩坑，仅此而已。
+  reason: 素材中未找到支撑
+- location: '47.5'
+  claim: 走弯路最大的问题不仅是浪费时间，而且会让你放弃一个还不错的项目。
+  reason: 素材中未找到支撑
+- location: '47.5'
+  claim: 项目是你自己选择的，赚不到钱都是你自己的认知问题，不要花了几百块钱，就把赚钱的希望寄托在别人身上。
+  reason: 素材中未找到支撑
+- location: '47.6'
+  claim: 项目是分层级的，我觉得项目分几个层级...
+  reason: 素材中未找到支撑
+- location: '47.6'
+  claim: 你只有充分的认知到自己的能力，做对应层级的项目才能更容易拿到结果
+  reason: 素材中未找到支撑
+- location: '47.7'
+  claim: 不要人云亦云，也不要听大佬吹牛逼，你要提升认知，自己去分析一个项目的优势是什么，劣势是什么，需要什么样的能力，再看看自己的能力，能不能进行匹配。
+  reason: 素材中未找到支撑
+- location: '47.7'
+  claim: 二手书项目：出单快，1-3 天出单很正常，但琐碎，天花板低...短视频带货：起号周期长...但天花板高
+  reason: 素材中未找到支撑
+- location: '47.8'
+  claim: 一个人只有自己去承担责任以后，赚到钱的概率才会高很多。
+  reason: 素材中未找到支撑
+- location: '47.8'
+  claim: 身上只有 5 万，能不能推荐一个一定能让自己今年赚到 100 万的项目（反面案例）
+  reason: 素材中未找到支撑
+- location: '47.9'
+  claim: 我今年续费时候的心理 YY 活动是这样的：...亦仁，今年给你 2000 块钱预算，你要做到下面几个事情...
+  reason: 素材中未找到支撑
+- location: '47.10'
+  claim: 你只有充分的认知到自己的能力，做对应层级的项目才能更容易拿到结果，一个小白，上来就做 IP，参加各种高大上的 IP 训练营，能拿到结果就怪了。
+  reason: 素材中未找到支撑
+- location: '47.10'
+  claim: 二手书项目：出单快，1-3 天出单很正常，但琐碎，天花板低，一个人努力点每月 1-2W 利润基本上差不多了，继续放大就要工作室模式了。
+  reason: 素材中未找到支撑
+- location: '47.11'
+  claim: 创业第 1 阶段：融资 100 万，给了 10%股份，靠梦想估值千万，6 个月就全部败光了，卒；
+  reason: 素材中未找到支撑
+- location: '47.11'
+  claim: 创业第 2 阶段：疯狂想赚快钱，尝试了各种项目，拉新、撸货等等，3 个月花了 20 万学费，醒了；
+  reason: 素材中未找到支撑
+- location: '47.11'
+  claim: 创业第 3 阶段：承认自己的平凡，扎根二手书，2 年了，拿到了小结果，利润一年 100-200 个；
+  reason: 素材中未找到支撑
+- location: '47.11'
+  claim: 创业第 4 阶段：有了二手书基本盘，如今在重新开始思考，想找一个天花板更高的方向。
+  reason: 素材中未找到支撑
+- location: '47.11'
+  claim: 作者实测二手书项目单人全职运营极限：利润天花板约为月 1-2 万（年 100-200 万），突破需转型工作室模式（雇佣客服/发货/选品）。
+  reason: 素材中未找到支撑
+- location: '47.12'
+  claim: 加入生财的第一年，其实很多人都会有以下感受...
+  reason: 素材中未找到支撑
+- location: '47.13'
+  claim: P001(老瞿) vs 亦仁/生财社群 vs 典型创业导师观点 的共识与分歧对照表
+  reason: 素材中未找到支撑
+- location: '47.14'
+  claim: 设计取舍分析：为什么不用“全能型创业教程”而坚持分层模型？
+  reason: 素材中未找到支撑
+- location: '47.15'
+  claim: 动手练习 1-4 的具体题目与要求
+  reason: 素材中未找到支撑
+missing_concepts:
+- paper: P001
+  concept: 打工人惯性的具体表现（缺乏内驱力、自律性差、习惯被动响应、责任外包倾向）
+  severity: high
+- paper: P002
+  concept: 责任外包心理的典型话术（按教程做没流量、教程承诺结果没达到退钱、要标准化SOP）
+  severity: high
+- paper: P003
+  concept: 知识付费核心价值三要素（时间杠杆、认知杠杆、规避沉没成本）
+  severity: high
+- paper: P004
+  concept: 项目分层模型的四维对比表（出单周期、琐碎度、天花板、核心考验）
+  severity: high
+- paper: P005
+  concept: 认知匹配决策法的两步走流程（自我盘点+项目对标）
+  severity: high
+- paper: P006
+  concept: 责任内归律的公式与量化权重设定（认知责任0.4、执行责任0.4、结果责任0.2）
+  severity: high
+- paper: P008
+  concept: 匹配律的跃迁逻辑（通过初级项目练执行、赚钱、建信心、攒资源，再向中级跃迁）
+  severity: high
+- paper: P009
+  concept: 作者创业四阶段的关键动作与验证理论对应表
+  severity: high
+- paper: P009
+  concept: 二手书项目单人极限验证数据及外部校验参考
+  severity: high
+- paper: P010
+  concept: 生财新人五阶段的详细心理演变与核心洞察
+  severity: high
+- paper: P010
+  concept: 五阶段规律的普适性边界补充（不同社群类型的适用性差异）
+  severity: medium
+- paper: M002
+  concept: 项目对标分析法的四维横向对比指标
+  severity: medium
+- paper: M003
+  concept: 社群价值提取清单的四大维度（前沿信息差、高质量同伴、组织化实战、高密度周报）及获取动作/频次/输出物
+  severity: high
