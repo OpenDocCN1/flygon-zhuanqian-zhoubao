@@ -1,0 +1,54 @@
+citation_stats:
+- paper: P021
+  count: 3
+  locations:
+  - '53.3'
+  - '53.7'
+  - '53.11'
+- paper: P074
+  count: 2
+  locations:
+  - '53.4'
+  - '53.8'
+- paper: P136
+  count: 3
+  locations:
+  - '53.5'
+  - '53.11'
+  - '53.8'
+- paper: P156
+  count: 4
+  locations:
+  - '53.6'
+  - '53.8'
+  - '53.11'
+  - '53.7'
+- paper: PNQ
+  count: 3
+  locations:
+  - '53.7'
+  - '53.8'
+  - '53.11'
+- paper: 龙哥赚钱周报 20230328-20230404
+  count: 0
+  locations: []
+unsupported_claims:
+- location: '53.4'
+  claim: 京东令牌价模式本质抢夺京东线下加盟店与线上自营生意，京东大概率收紧政策堵漏
+  reason: 素材中仅为评论区用户何道平的个人观点推测，非官方确认或作者核实结论
+- location: '53.5'
+  claim: 新昌越州龙井：年产量占全国30%-40%，茶机研发领先1-2代
+  reason: 素材中为作者smldy主观陈述，无第三方权威数据佐证
+- location: '53.6'
+  claim: 小红书‘0粉爆款’红利期约1-2年
+  reason: 素材中为作者小李哥经验判断，无平台官方数据支撑
+- location: '53.7'
+  claim: 看到详细教程分享时红利已过，核心能力在于嗅觉+执行+迁移
+  reason: 素材中为亦仁/杨涛等大佬经验之谈，非普遍规律
+missing_concepts:
+- paper: 龙哥赚钱周报 20230328-20230404
+  concept: 全书未系统覆盖‘私域流量运营SOP标准化’、‘AI工具链批量化生产’、‘跨平台内容分发矩阵’等核心方法论
+  severity: high
+- paper: 龙哥赚钱周报 20230328-20230404
+  concept: 缺失‘合规风控体系搭建’、‘团队薪酬激励设计’、‘供应链金融工具应用’等进阶运营专题
+  severity: medium
