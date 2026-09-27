@@ -1,0 +1,212 @@
+citation_stats:
+- paper: P001
+  count: 17
+  locations:
+  - ch17.3
+  - ch17.4
+  - ch17.5
+  - ch17.6
+  - ch17.7
+  - ch17.8
+  - ch17.9
+  - ch17.10
+  - ch17.11
+  - ch17.12
+- paper: P002
+  count: 2
+  locations:
+  - ch17.4
+  - ch17.12
+- paper: P003
+  count: 11
+  locations:
+  - ch17.6
+  - ch17.7
+  - ch17.8
+  - ch17.10
+  - ch17.11
+  - ch17.12
+- paper: P004
+  count: 5
+  locations:
+  - ch17.5
+  - ch17.8
+  - ch17.11
+  - ch17.12
+- paper: P005
+  count: 4
+  locations:
+  - ch17.7
+  - ch17.12
+- paper: P006
+  count: 4
+  locations:
+  - ch17.8
+  - ch17.12
+- paper: P007
+  count: 3
+  locations:
+  - ch17.9
+  - ch17.12
+- paper: P008
+  count: 1
+  locations:
+  - ch17.12
+- paper: P009
+  count: 1
+  locations:
+  - ch17.12
+- paper: P010
+  count: 1
+  locations:
+  - ch17.12
+- paper: P011
+  count: 1
+  locations:
+  - ch17.12
+- paper: P012
+  count: 1
+  locations:
+  - ch17.12
+- paper: P013
+  count: 1
+  locations:
+  - ch17.12
+- paper: P014
+  count: 1
+  locations:
+  - ch17.12
+- paper: P015
+  count: 1
+  locations:
+  - ch17.12
+- paper: P016
+  count: 1
+  locations:
+  - ch17.12
+- paper: P017
+  count: 1
+  locations:
+  - ch17.12
+- paper: P018
+  count: 1
+  locations:
+  - ch17.12
+- paper: P019
+  count: 1
+  locations:
+  - ch17.12
+- paper: P020
+  count: 1
+  locations:
+  - ch17.12
+unsupported_claims:
+- location: ch17.3
+  claim: 刨去第一次建模几千块钱，之后每分钟视频可以做到 2 块钱以内
+  reason: 素材中未找到支撑
+- location: ch17.3
+  claim: 发现号称自己是自主研发的，其实也就是个代理商，那你想中间如果还隔着多少层，这成本可以压缩到多低？
+  reason: 素材中未找到支撑
+- location: ch17.3
+  claim: 价格周期 每月 vs 每年；视频时长 不限 vs 60 分钟；是否支持智能回复 可以设置关键词回复 vs 不支持，两种方案的价格，差了 55 倍。
+  reason: 素材中未找到支撑
+- location: ch17.4
+  claim: 数字人可以特别逼真的模拟一切，但是他不能原创优质内容，而 IP 最重要的内核一定是内容
+  reason: 素材中未找到支撑
+- location: ch17.4
+  claim: 它暂时只适用于本身已经红了的人，例如刘润张琪这种现象级的
+  reason: 素材中未找到支撑
+- location: ch17.4
+  claim: 逼真的数字人们都只能当作淘宝主播喊 321 上链接，没有太多附加价值
+  reason: 素材中未找到支撑
+- location: ch17.4
+  claim: 技术未成熟（无法真实演示商品/随机应变弱）
+  reason: 素材中未找到支撑
+- location: ch17.5
+  claim: 现在资本就缺落地应用场景，缺流量，缺故事，没有好的、高级的应用场景，多好的技术都会陷入内卷
+  reason: 素材中未找到支撑
+- location: ch17.5
+  claim: 有好的场景就是艺术品，一个几百上千，没好的场景就是清库存，一个几十块
+  reason: 素材中未找到支撑
+- location: ch17.5
+  claim: 大家都知道，今年抖音在力推本地生活，前期要大量的跑马圈地，所以目前对这种形式的‘无人直播’是睁一只眼闭一只眼的状态
+  reason: 素材中未找到支撑
+- location: ch17.5
+  claim: 因为同一时间，每个数字人只能支持一个直播间来开播，所以，想做本地生活直播，一定要计算好投入产出比再入局。不要被大数字所欺骗。
+  reason: 素材中未找到支撑
+- location: ch17.6
+  claim: 做了一个两种方案的对比表...价格周期 每月 vs 每年；视频时长 不限 vs 60分钟；是否支持智能回复 可以设置关键词回复 vs 不支持
+  reason: 素材中未找到支撑
+- location: ch17.6
+  claim: 所以，如果做本地生活直播，从性价比角度来说，还是更推荐先尝试999/年的方案起步的。
+  reason: 素材中未找到支撑
+- location: ch17.6
+  claim: 可以查一下腾讯智影，更适合短视频
+  reason: 素材中未找到支撑
+- location: ch17.6
+  claim: 999 那个只能做一小时
+  reason: 素材中未找到支撑
+- location: ch17.6
+  claim: 我们可以雇佣一个临时的专业主播...在绿幕背景下...这样，这个视频抠掉绿幕以后，就是一个‘自制数字人’了
+  reason: 素材中未找到支撑
+- location: ch17.7
+  claim: 现阶段本地生活最大的问题是：核销率和佣金太低！
+  reason: 素材中未找到支撑
+- location: ch17.7
+  claim: 假设我们做了10w的GMV，按照30%的核销率计算，只有3w的有效GMV，再乘以5%的佣金，最后的实际佣金只有1500。
+  reason: 素材中未找到支撑
+- location: ch17.7
+  claim: 其中，本地餐饮核销率是最高的，在40%~50%之间，连锁餐饮和生活娱乐的核销率也就在30%左右的水平，旅游的核销率在10%。
+  reason: 素材中未找到支撑
+- location: ch17.7
+  claim: 因为同一时间，每个数字人只能支持一个直播间来开播，所以，想做本地生活直播，一定要计算好投入产出比再入局。不要被大数字所欺骗。
+  reason: 素材中未找到支撑
+- location: ch17.8
+  claim: 数字人直播会违规的核心原因就是视频循环被查重。那么想解决这个问题，有几个方案：
+  reason: 素材中未找到支撑
+- location: ch17.8
+  claim: 1. 使用更高级的数字人版本...可以制作长时间不重复的视频；2. 真人+数字人组合...让视频‘不循环’；3. 人工将循环的视频进行重新的剪切组合...大大降低违规概率。
+  reason: 素材中未找到支撑
+- location: ch17.8
+  claim: 能不能过主要看话术
+  reason: 素材中未找到支撑
+- location: ch17.9
+  claim: 数字人直播目前还处在初级阶段，效果不错，但是由于平台的现状和高昂的费用，导致目前处在一个比较‘鸡肋’的状态，如果是没有直播经验的小白，我个人并不建议现在入局。
+  reason: 素材中未找到支撑
+- location: ch17.9
+  claim: 但是之前有无人直播的经验同学...还是建议试一试的。
+  reason: 素材中未找到支撑
+- location: ch17.9
+  claim: 技术未成熟（无法实时演示商品/随机应变弱）、费用高昂、违规风险不可控
+  reason: 素材中未找到支撑
+missing_concepts:
+- paper: P001
+  concept: 数字人直播的技术成熟度细节（如延迟、帧率、驱动方式）
+  severity: high
+- paper: P001
+  concept: 不同平台（抖音、快手、视频号、小红书）对数字人直播的具体政策差异
+  severity: high
+- paper: P001
+  concept: 数字人直播的投流素材制作与审核流程
+  severity: medium
+- paper: P001
+  concept: 数字人直播间的留人话术与转化话术设计细节
+  severity: high
+- paper: P001
+  concept: 绿幕真人替代方案的具体操作SOP（打光、抠图、推流参数）
+  severity: high
+- paper: P001
+  concept: 本地生活团购选品的标准化流程与避坑指南
+  severity: high
+- paper: P001
+  concept: 数字人直播违规申诉的实操案例与话术模板
+  severity: high
+- paper: P001
+  concept: 新手从0到1搭建数字人直播间的完整清单（硬件、软件、账号、话术）
+  severity: high
+- paper: P001
+  concept: 数字人直播团队岗位设置与薪酬绩效设计
+  severity: medium
+- paper: P001
+  concept: 数字人形象定制的版权法律风险与规避
+  severity: medium
