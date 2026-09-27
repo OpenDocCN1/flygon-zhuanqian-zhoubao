@@ -1,0 +1,22 @@
+citation_stats:
+- paper: P001
+  count: 1
+  locations:
+  - ch10.3
+unsupported_claims:
+- location: ch10.3
+  claim: 素材提到的投资人投中了理想汽车、小i机器人等项目，且管理规模超百亿、20年投资30亿美元。
+  reason: 全书仅引用P001这一篇素材作为来源，未见其他素材佐证该投资人的真实身份、管理规模、具体投资时间点、仓位细节、止损逻辑等关键信息，素材本身为'饭局分享整理3600字碎片化笔记'，属单方面陈述，缺乏可验证的第三方数据或公开披露记录。
+missing_concepts:
+- paper: P001
+  concept: 具体的投资决策SOP（建仓/加仓/减仓触发信号、仓位模型、止损标准、复盘频次、决策清单）
+  severity: high
+- paper: P001
+  concept: 失败案例与踩坑细节（亏损项目、连续亏损心态调整、止损实操、错失十倍股、踩雷项目）
+  severity: high
+- paper: P001
+  concept: 宏观周期/政策/赛道语境的具体变量与心法适用边界的对应关系
+  severity: high
+- paper: P001
+  concept: 受众分层的量化标准（何为'基础商业常识'、'投资常识'的具体清单）
+  severity: medium
