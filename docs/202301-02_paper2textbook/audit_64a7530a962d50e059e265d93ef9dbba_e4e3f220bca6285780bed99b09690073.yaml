@@ -1,0 +1,280 @@
+citation_stats:
+- paper: E1WGd70YLoaHGfxAYJTc4WoFnsd.md
+  count: 14
+  locations:
+  - '26.3'
+  - '26.4'
+  - '26.5'
+  - '26.6'
+  - '26.9'
+  - '26.10'
+  - '26.11'
+  - '26.15'
+- paper: PglAdRMiIoVTRyxc4Q3cw8hvnWf.md
+  count: 13
+  locations:
+  - '26.3'
+  - '26.4'
+  - '26.5'
+  - '26.6'
+  - '26.7'
+  - '26.8'
+  - '26.9'
+  - '26.10'
+  - '26.11'
+  - '26.12'
+  - '26.13'
+  - '26.15'
+- paper: FCiidWBeJoLOT1xreYnc9Se4nOf.md
+  count: 11
+  locations:
+  - '26.3'
+  - '26.5'
+  - '26.6'
+  - '26.7'
+  - '26.8'
+  - '26.9'
+  - '26.13'
+  - '26.14'
+  - '26.15'
+- paper: ZcEdd0xTCo1K5IxwCyLccKUynOb.md
+  count: 1
+  locations:
+  - '26.16'
+- paper: NxhWdJj3UoPKvmxaBqkcz8wlntf.md
+  count: 1
+  locations:
+  - '26.15'
+- paper: HiVkdfBYJo2H5xxWIemcMcMQnLc.md
+  count: 1
+  locations:
+  - '26.15'
+- paper: C0dydiFPCoBI3LxemwWcXpdxn2e.md
+  count: 1
+  locations:
+  - '26.12'
+- paper: CGZ4dZq4ZoSFT4xUmFecNpk4nNe.md
+  count: 1
+  locations:
+  - '26.15'
+- paper: MUfLdmUlTosj0NxPhlfcjRPHnff.md
+  count: 1
+  locations:
+  - '26.16'
+- paper: MXPcd58gSoEsTlxFhUVcJ5X7npc.md
+  count: 1
+  locations:
+  - '26.16'
+- paper: VAA8dQLTZolMlJx1jxrcKaPrnzd.md
+  count: 1
+  locations:
+  - '26.15'
+- paper: VsjCdIDNJoNRvlxo4OWcJ7bDnO5.md
+  count: 1
+  locations:
+  - '26.15'
+- paper: XuOgdT9o8ongKPxfSMlcfgLbngf.md
+  count: 1
+  locations:
+  - '26.15'
+- paper: QbBKdHvfiofIUNxDlmjceWbfnqh.md
+  count: 1
+  locations:
+  - '26.15'
+- paper: T1Jad4VhIoPc2hxKJxwcUFPOnTc.md
+  count: 1
+  locations:
+  - '26.15'
+- paper: I9OAdzzs2oBliNxsmPjcHnBUnzf.md
+  count: 1
+  locations:
+  - '26.16'
+- paper: ELHqdhiI5oSQAxxItLJctNAhnah.md
+  count: 1
+  locations:
+  - '26.16'
+- paper: Zjr6dgbHIoxcp0x21SVcrwlqn8d.md
+  count: 1
+  locations:
+  - '26.15'
+- paper: FCiidWBeJoLOT1xreYnc9Se4nOf.md
+  count: 2
+  locations:
+  - '26.16'
+- paper: E1WGd70YLoaHGfxAYJTc4WoFnsd.md
+  count: 1
+  locations:
+  - '26.16'
+- paper: PglAdRMiIoVTRyxc4Q3cw8hvnWf.md
+  count: 2
+  locations:
+  - '26.16'
+- paper: Lg2vd5GWHoqhBbxuT5LcThEpncb.md
+  count: 1
+  locations:
+  - '26.16'
+- paper: KomqdeUMloO1CkxrgADcqGvDnIe.md
+  count: 1
+  locations:
+  - '26.15'
+- paper: AmKRdF2Z9oQjDExxxuAc18a5nbb.md
+  count: 1
+  locations:
+  - '26.15'
+- paper: JPRAdLgGFowUE7xargGc8YNjnzh.md
+  count: 1
+  locations:
+  - '26.15'
+- paper: JmBgdr705ovHoyxQknRctRaMnKh.md
+  count: 1
+  locations:
+  - '26.15'
+- paper: IpCcdJ9NAoAt4pxKKV5c5sfenZc.md
+  count: 1
+  locations:
+  - '26.15'
+- paper: HfJEd0huioyShvxowVfcOMQYnHb.md
+  count: 1
+  locations:
+  - '26.15'
+- paper: Giwb0zv0cv.feishu.cn.md
+  count: 1
+  locations:
+  - '26.15'
+- paper: DNGrdODFBowfk2xwkNCc5GGSnRd.md
+  count: 1
+  locations:
+  - '26.15'
+- paper: CZPydiVmgo2odMx0nWecf3DTn6e.md
+  count: 1
+  locations:
+  - '26.15'
+- paper: SvdFdfi3VoAiaRxENHNcncEqnif.md
+  count: 1
+  locations:
+  - '26.15'
+- paper: FCiidWBeJoLOT1xreYnc9Se4nOf.md
+  count: 2
+  locations:
+  - '26.16'
+- paper: E1WGd70YLoaHGfxAYJTc4WoFnsd.md
+  count: 1
+  locations:
+  - '26.16'
+- paper: PglAdRMiIoVTRyxc4Q3cw8hvnWf.md
+  count: 2
+  locations:
+  - '26.16'
+unsupported_claims:
+- location: '26.3'
+  claim: 痛点需经得起专业人士解决的验证，伪痛点经不起专业推敲
+  reason: 素材中未明确界定'专业推敲'的具体标准与操作流程，仅引用夕子观点未提供可落地验证清单
+- location: '26.4'
+  claim: 信息差核心壁垒在于获取渠道与效率，而非信息本身
+  reason: 素材虽有胖龟物业/水电费渠道案例，但未系统对比'信息本身'与'渠道效率'在不同业务阶段的边际贡献度
+- location: '26.5'
+  claim: 选品公式=精准痛点解决方案+信任背书+高复购结构，权重40/30/30
+  reason: 素材仅给出夕子'深挖需求/涵盖面/品牌背书/高复购/可溢价'五维口述，未提供权重推导的量化依据与跨品类验证数据
+- location: '26.6'
+  claim: MVP验证标准：首单成本<预算、回本周期<阈值、复购意向>0
+  reason: 素材列举夕子/胖龟/老杨/美团四个案例的MVP成本与结果，但未披露各案例具体的首单成本、回本周期、复购率实测数值，无法支撑通用阈值设定
+- location: '26.7'
+  claim: 窗口期判断依据：平台战略重心、头部玩家动作、流量单价、违规容忍度、政策风向
+  reason: 素材中老杨采用'对标抖音历史路径法'、胖龟用'宏观周期拐点法'，但未给出上述五个维度的具体量化指标与权重
+- location: '26.8'
+  claim: 1+1+1矩阵中项目生命周期2-6个月，必须具备开发新项目能力
+  reason: 素材仅老杨口述'生命周期2-6个月'，夕子/胖龟案例未披露其接力项目的具体启动节点、验证周期与成功率
+- location: '26.9'
+  claim: 公域获客四大战术优先级：冷启动期主动出击>蹭流截流>内容建设；成长期内容建设>主动出击>蹭流截流
+  reason: 素材三位创业者战术执行差异大（夕子重内容、胖龟重主动/蹭流、老杨重模仿/微创新），未提供跨阶段A/B测试数据支撑优先级排序
+- location: '26.10'
+  claim: 五位一体成交飞轮：破冰→诊断→方案→信任→成交，解决为什么买/跟你买/现在买
+  reason: 素材虽对照夕子/胖龟执行动作，但未量化各环节转化率、客单价提升幅度、LTV贡献度，飞轮闭环有效性缺乏硬数据支撑
+- location: '26.11'
+  claim: 裂变扩张三模式判据：基建重→城市合伙人；运营重→加盟赋能；销售重→人海战术
+  reason: 素材三位创业者扩张模式各异，但未披露各模式下的CAC、LTV、复制成功率、管理成本等关键财务指标对比
+- location: '26.12'
+  claim: 4C模型权重区间：创始人身份10-30%、岗位权重30-40%、时间投入10-25%、资金投入20-50%
+  reason: 素材引用玉斌'成百上千案例积累经验区间'，但未公开案例样本量、行业分布、权重锚定的具体协商机制
+- location: '26.13'
+  claim: 风控四大核心防线：劳动合同全套、平台规则红线、融资零前置费、止损红线
+  reason: 素材汇总胖龟/夕子/老杨教训，但未量化各防线投入产出比、覆盖风险类型占比、剩余风险敞口
+- location: '26.14'
+  claim: 心态五层塔：正反馈驱动热爱→盲目自信→成功累积自信→俯视学习→拒绝战术勤奋
+  reason: 素材综合龙哥/小排/老杨/可可陶等碎片化心得，缺乏心理学实证研究或纵向追踪数据验证层级因果关系
+missing_concepts:
+- paper: E1WGd70YLoaHGfxAYJTc4WoFnsd.md
+  concept: 夕子'科学护肤金字塔'的具体分层标准与诊断SOP细节
+  severity: high
+- paper: E1WGd70YLoaHGfxAYJTc4WoFnsd.md
+  concept: 夕子咨询SOP表格的完整字段结构、话术模板与迭代机制
+  severity: high
+- paper: E1WGd70YLoaHGfxAYJTc4WoFnsd.md
+  concept: 夕子从'代购面膜'到'自建品牌'的供应链切换节点、质控标准、研发投入占比
+  severity: medium
+- paper: PglAdRMiIoVTRyxc4Q3cw8hvnWf.md
+  concept: 胖龟找房小程序核心功能架构、房源匹配算法、会员服务SOP全流程
+  severity: high
+- paper: PglAdRMiIoVTRyxc4Q3cw8hvnWf.md
+  concept: 胖龟城市合伙人/店中店的分账模型、考核指标、退出机制、品控体系
+  severity: high
+- paper: PglAdRMiIoVTRyxc4Q3cw8hvnWf.md
+  concept: 胖龟租房业务'后台配房-自看/陪看-线上签约'的标准化作业流程与异常处理预案
+  severity: medium
+- paper: FCiidWBeJoLOT1xreYnc9Se4nOf.md
+  concept: 老杨TikTok娱乐直播'声光电道具+剧本'的标准化配置包清单、硬件BOM表、软件控制逻辑
+  severity: high
+- paper: FCiidWBeJoLOT1xreYnc9Se4nOf.md
+  concept: 老杨'1+1+1矩阵'中接力项目的立项评估模型、资源分配比例、熄火决策触发条件
+  severity: high
+- paper: FCiidWBeJoLOT1xreYnc9Se4nOf.md
+  concept: 老杨美团电商'80元MVP'的具体选品逻辑、铺货SKU结构、投流ROI动态调整策略
+  severity: medium
+- paper: C0dydiFPCoBI3LxemwWcXpdxn2e.md
+  concept: 4C模型中'自评互评'的具体操作流程、评分量表、分歧仲裁机制
+  severity: high
+- paper: C0dydiFPCoBI3LxemwWcXpdxn2e.md
+  concept: 股权合同附件：一致行动权/期权池/回购权/优先清算/领售权的标准条款模板与谈判要点
+  severity: high
+- paper: MUfLdmUlTosj0NxPhlfcjRPHnff.md
+  concept: 训练营'操作手册/直播/百问百答/打卡'四件套的标准化交付模板与质检清单
+  severity: high
+- paper: MXPcd58gSoEsTlxFhUVcJ5X7npc.md
+  concept: 短视频团队'选题/文案/拍剪/复盘'四大流程的SOP文档、关键指标看板、人才晋升路径
+  severity: high
+- paper: VAA8dQLTZolMlJx1jxrcKaPrnzd.md
+  concept: 阿may'私域裂变工具伙伴猫'的核心功能架构、任务宝/赠礼/分销裂变玩法配置参数、防封策略
+  severity: medium
+- paper: VsjCdIDNJoNRvlxo4OWcJ7bDnO5.md
+  concept: 视频号带货'情/趣/用/品'四象限人群定位法的标签体系、素材库分类标准、伪原创去重参数
+  severity: medium
+- paper: XuOgdT9o8ongKPxfSMlcfgLbngf.md
+  concept: 竹庐拓艺'八层装裱结构'的材料规格、工艺参数、质检标准、成本拆解
+  severity: medium
+- paper: ZcEdd0xTCo1K5IxwCyLccKUynOb.md
+  concept: 小说推文'选文表/改文模板/素材库/发布策略'四大标准化工具的完整样例与迭代机制
+  severity: high
+- paper: Zjr6dgbHIoxcp0x21SVcrwlqn8d.md
+  concept: AI绘画小程序'供应商选型标准/接口调用成本/广告填充率/充值转化漏斗'的量化模型
+  severity: medium
+- paper: AmKRdF2Z9oQjDExxxuAc18a5nbb.md
+  concept: 公众号追热点'关键词布局/广告位设置/自动回复规则/内容伪原创度'的标准化操作清单
+  severity: medium
+- paper: JPRAdLgGFowUE7xargGc8YNjnzh.md
+  concept: 李思念'心金文案'素材库分类体系、富兰克林写作法执行频次、共鸣感构建的可量化检查清单
+  severity: medium
+- paper: JmBgdr705ovHoyxQknRctRaMnKh.md
+  concept: 塔塔'原创视频自动生成系统'的模板拆解规范、素材去重算法、多平台发布API对接规范、风控监控指标
+  severity: high
+- paper: KomqdeUMloO1CkxrgADcqGvDnIe.md
+  concept: Colab部署Stable Diffusion的模型管理策略、显存优化技巧、批量推理参数模板、成本监控仪表盘
+  severity: medium
+- paper: Lg2vd5GWHoqhBbxuT5LcThEpncb.md
+  concept: 姚麻视频号'视频处理流程/加字话术库/直播话术迭代版本/流量券投放策略'的标准化SOP
+  severity: high
+- paper: SvdFdfi3VoAiaRxENHNcncEqnif.md
+  concept: 盲盒项目'平台合规甄别清单/账号养号标准/直播福袋参数/风控申诉话术/主播薪酬阶梯'的完整运营手册
+  severity: high
+- paper: T1Jad4VhIoPc2hxKJxwcUFPOnTc.md
+  concept: 久富Web3创业'赛道评估模型/资金弹药管理/团队架构设计/熊市生存指标'的量化框架
+  severity: medium
