@@ -1,0 +1,114 @@
+citation_stats:
+- paper: P001
+  count: 8
+  locations:
+  - '30.3'
+  - '30.5'
+  - '30.6'
+  - '30.7'
+  - '30.8'
+  - '30.9'
+  - '30.10'
+  - '30.11'
+- paper: P002
+  count: 4
+  locations:
+  - '30.2'
+  - '30.4'
+  - '30.5'
+  - '30.12'
+- paper: P003
+  count: 6
+  locations:
+  - '30.2'
+  - '30.5'
+  - '30.6'
+  - '30.8'
+  - '30.9'
+  - '30.10'
+- paper: P004
+  count: 3
+  locations:
+  - '30.5'
+  - '30.6'
+  - '30.10'
+- paper: P005
+  count: 3
+  locations:
+  - '30.7'
+  - '30.8'
+  - '30.9'
+- paper: P006
+  count: 3
+  locations:
+  - '30.8'
+  - '30.9'
+  - '30.10'
+unsupported_claims:
+- location: '30.3'
+  claim: 抖音开放平台为基建，连接美术素材制作（PS/AE/C4D）与上架发布（特效君APP）的标准化管线，包含审核发布机制、流量分发（原创面板/热门专区）及现金激励体系的完整商业闭环。
+  reason: 素材中提到抖音开放平台、Effect Creator、特效君APP、审核分发激励机制，但未明确界定为'完整商业闭环'的标准化定义，且未提及'原创面板/热门专区'等具体分发渠道名称。
+- location: '30.4'
+  claim: Effect Creator是唯一认证的上架工具，保证兼容性与审核通过率。
+  reason: 素材中仅提到作者使用Effect Creator合成特效，未官方声明其为'唯一认证工具'，也未提供审核通过率数据支撑。
+- location: '30.5'
+  claim: AI多视角生成图片可直接喂入照片建模管线生成独一无二3D模型。
+  reason: 素材中提出该组合设想，但未验证技术可行性，反而边界条件中指出'AI多视角一致性控制难，喂入建模易产生伪影/几何错误'，与核心定义矛盾。
+- location: '30.5'
+  claim: Midjourney 7步法可标准化产出商用级2D素材。
+  reason: 素材中提供的7步法为通用操作流程，未针对特效素材管线（如分层、抠图、格式规范）做定制化适配，且边界条件明确指出'需后期PS精修才能入管线'。
+- location: '30.5'
+  claim: 云端地球可一键生成模型，无需本地算力与建模技能。
+  reason: 素材中仅作者自述'通过云端地球直接照片建模'，未提供工具官方文档、成功率数据或商用案例支撑。
+- location: '30.6'
+  claim: 单特效上线几日即达3位数收益（百元级），验证长尾特效商业可行性。
+  reason: 素材中仅作者自述'一般上线几天后可以达到3位数收益'，未提供具体金额、样本量、时间周期等量化证据。
+- location: '30.6'
+  claim: 存在单特效万收益/百万使用量的头部案例。
+  reason: 素材中提到'那些抖音上万收益和百万使用量的AR特效道具是怎么做的'为标题提问，非陈述事实，无具体案例佐证。
+- location: '30.6'
+  claim: 平台大赛单项奖金10万元。
+  reason: 素材中引用'获得大师奖和人气奖的特效师均可获得10万元'，但未注明赛事名称、举办时间、获奖人数等关键信息。
+- location: '30.7'
+  claim: 明星使用特效引发粉丝模仿UGC爆发，进入热门专区获全域流量。
+  reason: 素材中仅举李现、Angelababy两例，未提供使用量增长数据、流量分发机制官方文档或复现案例。
+- location: '30.8'
+  claim: 复合技能栈（AI绘画+照片建模+传统软件）可构建差异化护城河。
+  reason: 素材中为作者个人路径总结，未对比同类创作者收益数据，未论证技能组合的稀缺性、迁移性、复利性的量化指标。
+- location: '30.8'
+  claim: 独创'AI多视角驱动照片建模'流程实现零基础产出独一无二3D资产。
+  reason: 素材中为作者设想，边界条件指出该流程'几何错误、伪影、特征漂移'风险高，且未展示成功案例。
+missing_concepts:
+- paper: P001
+  concept: 抖音官方激励政策白皮书/开发者文档中具体的现金奖励计算公式、结算周期、提现规则
+  severity: high
+- paper: P001
+  concept: Effect Creator工具链的版本迭代历史、核心功能矩阵（如交互组件、物理引擎、面部捕捉精度）
+  severity: high
+- paper: P001
+  concept: 特效君APP审核标准细则（如文件大小限制、禁止内容清单、拒审常见原因分类）
+  severity: high
+- paper: P003
+  concept: Midjourney/Stable Diffusion生成内容的版权归属法律界定、商用授权模式、侵权判例
+  severity: high
+- paper: P003
+  concept: 照片建模/NeRF/3D Gaussian Splatting技术原理对比、拍摄规范参数（重叠度、光照、角度数量量化标准）
+  severity: high
+- paper: P003
+  concept: ControlNet/多视角一致性微调等AI生成几何一致性控制技术的成熟度评估
+  severity: high
+- paper: P004
+  concept: 抖音算法分发机制的量化模型（如完播率、互动率、留存率权重、流量池分级阈值）
+  severity: high
+- paper: P004
+  concept: 长尾特效累积收益的统计分布（如幂律指数、中位数收益、头部/腰部/尾部占比）
+  severity: medium
+- paper: P005
+  concept: 明星/KOL带动特效传播的ROI模型（如转化率、CPA、LTV、热点衰减半衰期）
+  severity: high
+- paper: P006
+  concept: 跨平台AR特效工具链对比（Spark AR、Lens Studio、Effect Creator）的开放度、变现模式、创作者生态差异
+  severity: medium
+- paper: P006
+  concept: 传统美术外包 vs AI个人创作者的长期博弈行业报告（成本结构、交付周期、质量稳定性、版权风险对比）
+  severity: medium
