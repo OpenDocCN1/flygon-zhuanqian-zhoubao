@@ -1,0 +1,89 @@
+citation_stats:
+- paper: docs/202303/20230328_147.md
+  count: 28
+  locations:
+  - '40.3'
+  - '40.4'
+  - '40.5'
+  - '40.6'
+  - '40.7'
+  - '40.12'
+  - '40.13'
+  - '40.15'
+- paper: docs/202303/20230328_170.md
+  count: 8
+  locations:
+  - '40.8'
+  - '40.11'
+  - '40.12'
+  - '40.13'
+  - '40.15'
+- paper: docs/202303/UzSUdLrruodXSAxMlRtc0PSsnLb.md
+  count: 20
+  locations:
+  - '40.8'
+  - '40.9'
+  - '40.10'
+  - '40.12'
+  - '40.13'
+  - '40.15'
+- paper: docs/202303/LSvldmb3QojJhSx1yk3cytnAn0f.md
+  count: 23
+  locations:
+  - '40.11'
+  - '40.12'
+  - '40.13'
+  - '40.15'
+unsupported_claims:
+- location: '40.3'
+  claim: 合伙人零新媒体背景、纯实体思维背景下，All in 抖音仅用 3 个月、12 条视频即做到细分赛道 30w+ 粉丝、平均百万播放
+  reason: 素材中未找到支撑该具体数据的独立验证来源，仅为作者单方面陈述
+- location: '40.3'
+  claim: 将起号方法论标准化复制给 60+ 素人知识 IP，实现单 IP 单月变现 200w 左右，累计 GMV 破亿
+  reason: 素材中未提供具体案例名单或第三方验证数据，仅为作者自述
+- location: '40.5'
+  claim: 个体迭代速度的核心差异在于学习颗粒度：高手采用『细颗粒度微循环（学-落-学-落）』，常人采用『粗颗粒度主题式学习（学-学-思-行）』，前者在同等时间内完成的『改变』次数呈指数级领先
+  reason: 素材中仅为作者主观对比感受，缺乏量化实验数据或第三方研究支撑"指数级领先"的结论
+- location: '40.6'
+  claim: 拖延与焦虑的本质非懒惰，而是『认知缺口』：面对未处理过的新事物，缺乏完整认知，产生『未知无从下手』的恐惧
+  reason: 素材中为作者个人认知重构，非心理学学术共识或实证研究结论
+- location: '40.7'
+  claim: 顶级商业判断力 = 『谨慎做对选择（信息源优化+刻意练习调研）』 × 『日积月累的时间复利』
+  reason: 素材中为作者自创公式化表达，缺乏实证数据验证该复利模型的有效性
+- location: '40.8'
+  claim: 内容创作无绝对原创，所有爆款均可拆解为可迁移要素；通过跨领域、跨平台的要素重组，可大幅降低创新门槛与试错成本，提高成功概率
+  reason: 素材中为方法论宣称，缺乏对"所有爆款"的穷举验证或反面案例分析
+- location: '40.11'
+  claim: 素材作者声称其身边有实操者通过该模式操作2个月实现纯利润30万元
+  reason: 素材中仅为蓝狐单方面陈述"是蓝狐身边的活生生的例子"，未提供可验证的主体身份、财务数据或第三方见证
+- location: '40.11'
+  claim: 咸鱼矩阵号地毯式发布法可实现单人理论上限300-3000+商品槽位
+  reason: 素材中为理论推算上限，未考虑平台风控、设备指纹、IP关联等实操限制因素，实际可用槽位可能远低于理论值
+missing_concepts:
+- paper: docs/202303/20230328_147.md
+  concept: 具体的「向有结果的人学习」标杆筛选标准与背景调查方法
+  severity: high
+- paper: docs/202303/20230328_147.md
+  concept: 微循环迭代法中「复盘改变」的标准化模板与量化指标
+  severity: high
+- paper: docs/202303/20230328_147.md
+  concept: 力量感微习惯的具体执行清单与异常中断恢复机制
+  severity: medium
+- paper: docs/202303/20230328_147.md
+  concept: '"真正的调研"的具体操作步骤、提问框架、交叉验证标准'
+  severity: high
+- paper: docs/202303/UzSUdLrruodXSAxMlRtc0PSsnLb.md
+  concept: 组合创新中各要素（内容源/视觉源/工具链/运营钩子）的版权合规与去重技术细节
+  severity: high
+- paper: docs/202303/UzSUdLrruodXSAxMlRtc0PSsnLb.md
+  concept: 私域引流闭环中「群公告/水印/私信」的抗封号话术与迁移路径设计
+  severity: high
+- paper: docs/202303/LSvldmb3QojJhSx1yk3cytnAn0f.md
+  concept: 师傅资源采集的法律合规边界（个人信息保护法/反不正当竞争法风险）
+  severity: high
+- paper: docs/202303/LSvldmb3QojJhSx1yk3cytnAn0f.md
+  concept: 咸鱼矩阵号养号、防关联、申诉解封的标准化SOP
+  severity: high
+- paper: docs/202303/LSvldmb3QojJhSx1yk3cytnAn0f.md
+  concept: 招聘平台借号裂变的劳动用工法律风险与账号封控应对预案
+  severity: high
