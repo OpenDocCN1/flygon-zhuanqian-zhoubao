@@ -1,0 +1,72 @@
+citation_stats:
+- paper: P001
+  count: 3
+  locations:
+  - '13.3'
+  - '13.4'
+  - '13.9'
+- paper: P002
+  count: 7
+  locations:
+  - '13.3'
+  - '13.4'
+  - '13.5'
+  - '13.6'
+  - '13.7'
+  - '13.8'
+  - '13.9'
+- paper: P003
+  count: 5
+  locations:
+  - '13.1'
+  - '13.3'
+  - '13.7'
+  - '13.8'
+  - '13.9'
+- paper: P004
+  count: 1
+  locations:
+  - '13.3'
+- paper: P005
+  count: 1
+  locations:
+  - '13.3'
+- paper: P006
+  count: 2
+  locations:
+  - '13.5'
+  - '13.7'
+- paper: P007
+  count: 2
+  locations:
+  - '13.5'
+  - '13.7'
+unsupported_claims:
+- location: '13.3'
+  claim: 作者公司图文团队从11人缩减至4人，调教精度从约0.35提升至约0.95
+  reason: 素材中仅提及团队从11人降至4人，未提及具体调教精度数值0.35和0.95，该数值为教材作者推导估算
+- location: '13.6'
+  claim: 库内概念调教法可节省90%+ Token/成本显著降低
+  reason: 素材中仅为作者实战经验估算，非严谨基准测试结果
+- location: '13.7'
+  claim: 混合模式达70-80分/合格博主水准
+  reason: 仅来自单一匿名教练主观评价，非普适基准
+- location: '13.9'
+  claim: 工作流嵌入深度 × 领域专业度 = 护城河
+  reason: 属于作者基于观察提出的概念模型，非素材直接论证的实证结论
+missing_concepts:
+- paper: P002
+  concept: OpenAI Function Calling/Embedding任务类型/PromptBench分类体系对标库内概念13类清单
+  severity: high
+- paper: P002
+  concept: MIT Sloan/Stanford HAI等人机协作绩效/AI增强型工作流学术研究对标双重前提模型
+  severity: high
+- paper: P002
+  concept: RLHF上下文窗口限制下的定期复述规则/新会话迁移策略具体操作细节
+  severity: medium
+- paper: P003
+  concept: LLM-as-a-Judge多维评测/人工众包评测数据对混合模式70-80分的量化验证
+  severity: high
+- paper: P003
+  concept: 小红书/公众号/知乎等平台调性差异化的混合模式SOP具体参数配置
+  severity: medium
