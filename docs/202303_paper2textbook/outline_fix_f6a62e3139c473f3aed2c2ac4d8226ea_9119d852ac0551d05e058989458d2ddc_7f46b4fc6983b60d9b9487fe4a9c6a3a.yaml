@@ -1,0 +1,244 @@
+- 'no': 1
+  name: 认知重塑 —— 普通人低门槛创富的底层逻辑
+  desc: 本章拆解“赚钱即利他”、“认知变现差”、“过程即奖赏”、“长期主义复利”四大核心心法，建立从打工思维到商业思维的认知跃迁，为后续方法论落地提供动力与方向。
+  nodes:
+  - 'no': 1
+    name: 赚钱即利他定律
+    desc: 商业本质是价值交换，赚钱的核心路径是帮别人解决问题（省钱、省时、赚钱、爽感、安全感）。利他越深、覆盖人群越广、频次越高，赚钱越容易、越持久。
+    role: motivation
+    src:
+    - paper: docs/202303/SUMMARY.md
+  - 'no': 2
+    name: 认知变现差与缩小路径
+    desc: 同一信息/工具/趋势，认知高的人已变现，认知低的人还在围观。缩小认知差的方法：进高质量社群、付费买时间的复盘/教程、实战跑通MVP、复盘沉淀方法论。
+    role: motivation
+    src:
+    - paper: docs/202303/SUMMARY.md
+  - 'no': 3
+    name: 过程即奖赏原则
+    desc: 过度关注结果导致焦虑与放弃；聚焦过程（学技能、做内容、搭系统、解难题）本身带来的成长确定性，结果反而作为副产品自然到来。
+    role: motivation
+    src:
+    - paper: docs/202303/SUMMARY.md
+  - 'no': 4
+    name: 长期主义复利论
+    desc: 在不确定环境下，坚持做难但正确的事（建立IP、沉淀私域、练硬技能、做资源整合），时间会成为朋友。见面会壁纸‘人们真正注意到你时，是发现过了这么久你居然还在那里’是该定律的最佳注脚。
+    role: motivation
+    src:
+    - paper: docs/202303/SUMMARY.md
+  - 'no': 5
+    name: 普通人低门槛创富公式
+    desc: 公式 = （风向标洞察 + 组合创新MVP） × （批量执行/工具杠杆） × （私域沉淀/品牌复利） × 时间。核心变量是‘执行力’与‘复盘迭代速度’，而非初始资源。
+    role: definition
+    src:
+    - paper: docs/202303/SUMMARY.md
+  - 'no': 6
+    name: 个人成长路径实证：从社恐小白到年入百万
+    desc: 多位圈友复盘数据支撑：主动社交+高强度实战（航海/打卡）+公开建立IP+复盘迭代，是普通人逆袭的高概率路径。
+    role: experiment
+    src:
+    - paper: docs/202303/SUMMARY.md
+- 'no': 2
+  name: 机会发现 —— 风向标追踪与组合创新
+  desc: 本章系统讲授如何通过监控头部玩家（风向标）锁定趋势，利用成熟工具、平台、模式的‘组合创新’快速设计MVP，将不确定性降至最低。
+  nodes:
+  - 'no': 1
+    name: 什么是风向标
+    desc: 指代行业头部玩家、头部账号、头部产品或新兴平台功能发布等能够预示趋势方向的标杆对象。通过监控其动作降低决策不确定性。
+    role: definition
+    src:
+    - paper: docs/202303/SUMMARY.md
+  - 'no': 2
+    name: 组合创新：非原创式发明
+    desc: 将成熟的技术工具（ChatGPT、Midjourney、RPA）、成熟的流量平台（小红书、视频号、抖音）与成熟的商业模式（无货源电商、知识付费、CPS分佣）重新组装，快速生成新变现路径。
+    role: definition
+    src:
+    - paper: docs/202303/SUMMARY.md
+  - 'no': 3
+    name: 风向标追踪法：四步标准化流程
+    desc: 1. 确定赛道Top 10风向标名单；2. 设置监控频次（日/周）；3. 解构其商业模式要素（流量源、转化路径、产品结构）；4. 复制核心动作并微创新测试。
+    role: method
+    src:
+    - paper: docs/202303/SUMMARY.md
+  - 'no': 4
+    name: AI辅助MVP三步法：从构思到验证
+    desc: 1. 构思：用ChatGPT进行市场调研、痛点挖掘、方案生成；2. 落地：用GPT API/插件/代码解释器快速产出原型；3. 验证：小额投流/发布内容测试转化，跑通闭环后再决定是否投入RPA/团队放大。
+    role: method
+    src:
+    - paper: docs/202303/SUMMARY.md
+  - 'no': 5
+    name: MVP思维：最低成本跑通闭环
+    desc: 不追求完美，先用最低成本（时间、金钱）跑通‘获客-转化-交付’的完整闭环，验证需求真实性后再投入资源迭代。贯穿于AI项目、电商选品、内容账号冷启动全过程。
+    role: method
+    src:
+    - paper: docs/202303/SUMMARY.md
+  - 'no': 6
+    name: AI应用层创业窗口期红利实证
+    desc: 多个案例显示：非技术背景创作者在2023年Q1已跑通‘AI模特商拍’（7天变现）、‘AI绘画万字手册’、‘ChatGPT写公众号爆文（7天10W+）’、‘AI批量剪辑视频’、‘RPA自动发知乎/亚马逊’等变现闭环。
+    role: experiment
+    src:
+    - paper: docs/202303/SUMMARY.md
+- 'no': 3
+  name: 流量获取与变现 —— 跨平台内容运营实战
+  desc: 本章深度拆解小红书、视频号、抖音/快手、百家号、知乎五大主流平台的内容生产、账号冷启动、矩阵放大、带货变现标准化流程（SOP），覆盖无货源电商、书单带货、知识付费等主流模式。
+  nodes:
+  - 'no': 1
+    name: 小红书无货源电商SOP
+    desc: 标准化流程：选品（参考风向标/拼多多/1688热销）-> 开店（个体户/企业店）-> 选品测款（铺货/精品）-> 笔记生产（AI批量改写/真实拍摄/伪原创）->
+      矩阵发布（多账号/定时/标签）-> 引流私域（主页/粉丝群/私信钩子）-> 转化复购。
+    role: method
+    src:
+    - paper: docs/202303/SUMMARY.md
+  - 'no': 2
+    name: 小红书无货源/内容电商可复制性实证
+    desc: 多位普通人实操复盘：0元建社群单月变现8W+；保姆级教程声称小白月入2W+；研报账号3周5000粉引流600+私域；25条运营细节、有货源模式玩法均已标准化。
+    role: experiment
+    src:
+    - paper: docs/202303/SUMMARY.md
+  - 'no': 3
+    name: 视频号带货/涨粉实操法
+    desc: 针对中老年/女性/育儿等精准人群：内容端（书单/怀旧/英语启蒙/ChatGPT教程）选爆款对标 -> 剪映/达芬奇/影刀RPA批量混剪/去重 ->
+      账号矩阵发布 -> 直播/橱窗/私域承接 -> 高客单/高复购变现。
+    role: method
+    src:
+    - paper: docs/202303/SUMMARY.md
+  - 'no': 4
+    name: 视频号中老年/垂类赛道高转化实证
+    desc: 视频号依托微信生态信任背书，中老年/育儿/怀旧/书单赛道表现极强：孕晚期妈妈10天涨粉1000+引流私域；英文育儿书单年累计粉120W+、月入2W+；6个月做到7.5万粉、多条视频500万+播放。
+    role: experiment
+    src:
+    - paper: docs/202303/SUMMARY.md
+  - 'no': 5
+    name: 抖音/快手矩阵与无人直播规模化证据
+    desc: 团队实操数据：小团队矩阵短视频卖汽车用品单月变现10W+；无人直播月入百万项目真实性探讨；鸡血石直播变现百万；短剧CPS团队月GMV破20W；创业1年做到7000W流水。
+    role: experiment
+    src:
+    - paper: docs/202303/SUMMARY.md
+  - 'no': 6
+    name: 知识付费/社群/服务型项目高利润率验证
+    desc: 家庭教育赛道0到1累计私域2000+、纯利25W+；快手无人直播+知识付费+私域月入3W+；陪诊服务、资源整合服务（两个月纯利30W+）、同城相亲五年心得、百家号口播月入5000-1W。
+    role: experiment
+    src:
+    - paper: docs/202303/SUMMARY.md
+  - 'no': 7
+    name: 线下实体/同城业务数字化破局实证
+    desc: 线下门店选址好但无客流，通过‘100个营销技巧’、同城水果团购单日破9000、同城相亲五年深耕、美团成人用品外卖2个月经验、床品+表白墙半年利润10W+，证明‘同城流量+私域运营+标准化服务’能重塑实体商业模型。
+    role: experiment
+    src:
+    - paper: docs/202303/SUMMARY.md
+  - 'no': 8
+    name: 跨境电商/亚马逊精细化运营与套利案例
+    desc: 精细化运营拯救亏损亚马逊产品；RPA自动发POST降本增效；四大行无风险套利7天赚回门票；银行大额存单拆借日赚10W（风险提示隐含）；Etsy注册指南。
+    role: experiment
+    src:
+    - paper: docs/202303/SUMMARY.md
+- 'no': 4
+  name: 私域资产 —— 高信任、高复购、可复利的用户池构建
+  desc: 本章聚焦私域流量的‘引、留、转、裂’全链路，揭示将公域流量通过钩子引入微信生态，构建高信任、高复购、可长期运营的用户资产，作为几乎所有高客单价或长周期项目的最终归宿。
+  nodes:
+  - 'no': 1
+    name: 私域沉淀：公域流量的最终归宿
+    desc: 将公域流量（视频号、小红书、抖音、知乎、百家号等）通过钩子（资料包、社群、表白墙、陪诊服务等）引入微信个人号/社群/企微，构建高信任、高复购、可长期运营的用户资产。
+    role: definition
+    src:
+    - paper: docs/202303/SUMMARY.md
+  - 'no': 2
+    name: 私域引流实战案例库
+    desc: 孕晚期准妈妈通过视频号10天涨粉1000+引流私域；普通人做小红书0元建社群单月变现8W+；抖音直播引流私域6个方法；小红书研报账号3周引流私域600+。
+    role: experiment
+    src:
+    - paper: docs/202303/SUMMARY.md
+- 'no': 5
+  name: 规模化放大 —— 批量思维与RPA/AI自动化生产线
+  desc: 本章讲授如何将单一成功经验标准化为SOP，通过多账号矩阵、多平台分发、RPA自动化、团队化复制放大收益；重点传授非技术人员可落地的‘RPA+AI自动化生产线’搭建全流程，实现‘数字员工’替代人工重复劳动。
+  nodes:
+  - 'no': 1
+    name: 批量思维：用概率对抗单点不确定性
+    desc: 将单一成功经验标准化为SOP，通过多账号矩阵、多平台分发、RPA自动化、团队化复制等手段放大收益。核心在于用概率思维对抗单点不确定性，实现‘单人日产200条’的内容产能与‘开18个闲鱼店铺’的店群规模。
+    role: definition
+    src:
+    - paper: docs/202303/SUMMARY.md
+  - 'no': 2
+    name: RPA自动化：非程序员的‘数字员工’
+    desc: 机器人流程自动化在跨境电商、社媒运营、招聘挖掘、内容分发等场景的落地应用。配合ChatGPT API实现‘非程序员也能自动化’的生产力跃迁，是批量思维落地的关键技术杠杆。
+    role: definition
+    src:
+    - paper: docs/202303/SUMMARY.md
+  - 'no': 3
+    name: RPA杠杆思维：代码即时间复制器
+    desc: 将代码、软件、程序视为杠杆工具，核心价值在于解放双手、复制时间，而非单纯的技术实现。‘君子性非异也，善假于物也’。
+    role: motivation
+    src:
+    - paper: docs/202303/doxcnXIOtkZmPJLb1izKrreOuMg.md
+  - 'no': 4
+    name: RPA+AI自动化生产线搭建：非技术人员可落地方案
+    desc: 影刀RPA/按键精灵/指纹浏览器做‘手脚’，ChatGPT API/提示词工程做‘大脑’，对接平台API/模拟人工操作做‘接口’。应用场景：亚马逊发帖、知乎自动推广、BOSS直聘挖项目、社媒矩阵分发、爬虫采集风向标数据。
+    role: method
+    src:
+    - paper: docs/202303/SUMMARY.md
+    - paper: docs/202303/doxcnXIOtkZmPJLb1izKrreOuMg.md
+  - 'no': 5
+    name: UIBot Creator可视化流程搭建实操
+    desc: 使用UIBot Creator可视化模式，通过导入源代码、配置图片上传文件夹路径、串联流程块形成闭环循环，实现Posts发布流程的自动化编排。包含15步详细操作指南。
+    role: method
+    src:
+    - paper: docs/202303/doxcnXIOtkZmPJLb1izKrreOuMg.md
+  - 'no': 6
+    name: ImageAssistant批量采图工作流
+    desc: 利用Chrome插件Image Assistant，在无版权图片网站按关键词搜索后，通过‘提取本页图片 -> 筛选类型/大小 -> 全选 ->
+      自动下载’的标准化动作，快速建立素材库。
+    role: method
+    src:
+    - paper: docs/202303/doxcnXIOtkZmPJLb1izKrreOuMg.md
+  - 'no': 7
+    name: 场景化素材库：受众共鸣 > 产品实拍
+    desc: Posts素材的核心是‘受众场景共鸣’而非‘产品细节展示’，利用无版权图库按人群标签（教师、司机、护士、父母等）检索的通用场景图，比自行拍摄产品图更高效且转化相关性强。
+    role: method
+    src:
+    - paper: docs/202303/doxcnXIOtkZmPJLb1izKrreOuMg.md
+  - 'no': 8
+    name: 延时随机化防封策略
+    desc: 在RPA循环中设置固定延时（如200,000毫秒即约2分钟/条），模拟人工发布频率，规避平台风控，替代复杂的定时发布策略。
+    role: method
+    src:
+    - paper: docs/202303/doxcnXIOtkZmPJLb1izKrreOuMg.md
+  - 'no': 9
+    name: RPA降维打击人工成本定律
+    desc: 对于高重复、低决策的运营动作（如发Posts、发售后邮件），RPA自动化的边际成本趋近于零，远低于人工或外包成本，是中小卖家应对内卷的核心竞争力。
+    role: proof
+    src:
+    - paper: docs/202303/doxcnXIOtkZmPJLb1izKrreOuMg.md
+  - 'no': 10
+    name: Posts是当前亚马逊最优免费流量入口
+    desc: 在站内免费流量入口收敛（评论关闭、Vine贵、早期评论人无）的现状下，Posts作为品牌注册卖家专属的免费内容分发工具，是性价比最高的流量补位手段。
+    role: proof
+    src:
+    - paper: docs/202303/doxcnXIOtkZmPJLb1izKrreOuMg.md
+  - 'no': 11
+    name: 素材来源场景化 > 产品实拍定律
+    desc: Posts素材的核心是‘受众场景共鸣’而非‘产品细节展示’，利用无版权图库按人群标签检索的通用场景图，比自行拍摄产品图更高效且转化相关性强。
+    role: proof
+    src:
+    - paper: docs/202303/doxcnXIOtkZmPJLb1izKrreOuMg.md
+  - 'no': 12
+    name: RPA落地实测数据与环境变数
+    desc: 单条Posts人工耗时2-3分钟；RPA实测可稳定跑通多店铺；紫鸟浏览器不兼容第三方RPA；UIBot 4.0版本代码具备多重容错；环境差异（浏览器缩放、分辨率、文件路径）是RPA落地最大变数，必须人工跑通一次并调试。
+    role: experiment
+    src:
+    - paper: docs/202303/doxcnXIOtkZmPJLb1izKrreOuMg.md
+- 'no': 6
+  name: 周报导航与元数据索引
+  desc: 本章提供《龙哥赚钱周报》2023年3月刊的总目录索引与单期报告标题记录，供读者按周检索原文全貌，构建素材全景地图。
+  nodes:
+  - 'no': 1
+    name: 2023年3月刊总目录
+    desc: 汇总2023年3月四周（3.6-3.12、3.13-3.19、3.20-3.26、3.27-4.2）所有精华帖标题与分类，覆盖AI工具、跨平台运营、私域流量、电商变现、个人成长五大板块，作为本教材素材库的总检索入口。
+    role: definition
+    src:
+    - paper: docs/202303/README.md
+  - 'no': 2
+    name: 第4周周报标题记录：20230328-20230404
+    desc: 记录第4期周报《龙哥赚钱周报 20230328-20230404》的文档标题与来源链接，为后续深度研读该期全文提供定位锚点。
+    role: definition
+    src:
+    - paper: docs/202303/20230328_000.md
