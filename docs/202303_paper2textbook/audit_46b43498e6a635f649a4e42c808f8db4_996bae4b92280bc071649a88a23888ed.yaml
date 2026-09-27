@@ -1,0 +1,63 @@
+citation_stats:
+- paper: P001
+  count: 17
+  locations:
+  - '31.3'
+  - '31.4'
+  - '31.5'
+  - '31.6'
+  - '31.7'
+  - '31.8'
+  - '31.9'
+- paper: P002
+  count: 4
+  locations:
+  - '31.4'
+  - '31.7'
+- paper: P003
+  count: 1
+  locations:
+  - '31.5'
+- paper: P004
+  count: 1
+  locations:
+  - '31.6'
+- paper: P005
+  count: 1
+  locations:
+  - '31.7'
+- paper: P006
+  count: 2
+  locations:
+  - '31.8'
+  - '31.9'
+- paper: P007
+  count: 1
+  locations:
+  - '31.9'
+unsupported_claims:
+- location: '31.9'
+  claim: 快手 90%分成
+  reason: 素材原文核心定义与对标法均为快手直接分成 70%，90% 可能为特定剧方/活动期政策或记录偏差
+missing_concepts:
+- paper: P001
+  concept: 60台手机运营300号的物理操作逻辑（一机多号/分身/轮换策略）
+  severity: high
+- paper: P001
+  concept: 卡槽管理：300张SIM卡通过卡托/转接板轮换插入60台手机完成验证与流量跑动
+  severity: high
+- paper: P001
+  concept: 隐性成本量化估算：创始人时间成本、废号损耗、垫资利息、人员流失重招培训成本
+  severity: high
+- paper: P001
+  concept: 退出成本与资产变现困难：手机/卡/账号/团队均为沉没成本，政策变动时难以转移变现
+  severity: high
+- paper: P002
+  concept: 标准化去重流水线 SOP 详细参数（合成→滤镜→裁剪→模糊→变速→覆盖静音层→1080p低码率）
+  severity: high
+- paper: P002
+  concept: 卡点式结构+模块化复用：开头池/中间池/结尾池排列组合，单剧产出 10-20 条差异化视频
+  severity: high
+- paper: P002
+  concept: 爆款产出比近 2:1（发 40 条出十几个爆款）及单账号日更 1 条稳定产出
+  severity: high
