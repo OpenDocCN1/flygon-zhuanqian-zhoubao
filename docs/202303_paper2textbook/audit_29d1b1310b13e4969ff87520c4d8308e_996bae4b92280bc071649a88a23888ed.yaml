@@ -1,0 +1,35 @@
+citation_stats:
+- paper: P001
+  count: 1
+  locations:
+  - ch27.3
+- paper: P002
+  count: 1
+  locations:
+  - ch27.4
+- paper: P003
+  count: 1
+  locations:
+  - ch27.5
+- paper: P004
+  count: 1
+  locations:
+  - ch27.6
+- paper: P005
+  count: 1
+  locations:
+  - ch27.8
+- paper: P006
+  count: 1
+  locations:
+  - ch27.9
+- paper: P007
+  count: 1
+  locations:
+  - ch27.11
+- paper: P008
+  count: 1
+  locations:
+  - ch27.12
+unsupported_claims: []
+missing_concepts: []
