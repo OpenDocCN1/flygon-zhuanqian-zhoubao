@@ -1,0 +1,41 @@
+citation_stats:
+- paper: P001
+  count: 22
+  locations:
+  - '25.2'
+  - '25.3'
+  - 25.3.1
+  - 25.3.2
+  - 25.3.3
+  - 25.3.4
+  - 25.3.5
+  - 25.3.6
+  - 25.3.7
+  - 25.3.8
+  - '25.4'
+  - '25.5'
+  - '25.6'
+unsupported_claims:
+- location: 25.3.3
+  claim: 蔡格尼克效应（未完成任务更易被记忆，Zeigarnik, B. (1927). Über das Behalten von erledigten
+    und unerledigten Handlungen. Psychologische Forschung; Baumeister & Bushman, 2008《社会心理学》第12章相关复现研究）
+  reason: 素材中未找到关于蔡格尼克效应的心理学研究引用或复现研究的支撑
+- location: 25.3.3
+  claim: 信任建立阶段模型（从认知信任到情感信任再到行为信任的分层跃迁，Mayer, R. C., Davis, J. H., & Schoorman, F.
+    D. (1995). An integrative model of organizational trust. Academy of Management
+    Review; Lewicki, R. J., & Bunker, B. B. (1996). Developing and maintaining trust
+    in work relationships 中的渐进式信任建立理论）
+  reason: 素材中未找到 Mayer 等人 1995 年及 Lewicki 与 Bunker 1996 年关于信任建立阶段模型的文献支撑
+- location: 25.3.8
+  claim: 私域流量运营成熟度模型（参考腾讯《私域流量白皮书》系列、《用户运营方法论》（张鹏/刘飞等著）中的“私域成熟度五阶段模型”：种子期/成长期/成熟期/爆发期/平稳期，以及对应的关键动作映射表）
+  reason: 素材中未找到腾讯《私域流量白皮书》或《用户运营方法论》关于私域成熟度五阶段模型的具体内容支撑
+missing_concepts:
+- paper: P001
+  concept: 「逻辑线」发圈法的具体实操案例完整内容（如前5条动态的具体文案、钩子设计细节）
+  severity: high
+- paper: P001
+  concept: 学员反馈的具体数据指标（如好评率、转化率、复购率等量化指标）
+  severity: medium
+- paper: P001
+  concept: 私域自动成交策略、小红书创业IP打造的具体方法论细节
+  severity: medium
