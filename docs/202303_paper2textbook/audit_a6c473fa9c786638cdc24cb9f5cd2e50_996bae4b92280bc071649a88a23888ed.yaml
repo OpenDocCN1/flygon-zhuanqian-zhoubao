@@ -1,0 +1,54 @@
+citation_stats:
+- paper: P001
+  count: 17
+  locations:
+  - ch9.3.1
+  - ch9.3.2
+  - ch9.3.3
+  - ch9.4.2
+  - ch9.4.3
+  - ch9.5.2
+  - ch9.5.3
+  - ch9.10.1
+  - ch9.10.2
+  - ch9.12
+- paper: P002
+  count: 14
+  locations:
+  - ch9.2
+  - ch9.6.2
+  - ch9.6.3
+  - ch9.6.4
+  - ch9.7.2
+  - ch9.7.3
+  - ch9.8.2
+  - ch9.8.3
+  - ch9.9.2
+  - ch9.9.3
+  - ch9.10.1
+  - ch9.10.2
+  - ch9.10.3
+  - ch9.10.4
+unsupported_claims:
+- location: ch9.4.5
+  claim: 相关实证研究显示其用户留存率与图谱可携带性仍面临显著摩擦
+  reason: 素材中未找到支撑去中心化协议用户留存率与图谱可携带性实证研究的引用
+- location: ch9.7.5
+  claim: 该止损阈值来源于作者实战经验值，理论上可参照精益创业中'最小可行性产品迭代周期'及敏捷开发 Sprint 复盘节奏
+  reason: 素材中未找到精益创业 MVP 迭代周期与敏捷开发 Sprint 节奏作为止损线理论依据的论述
+- location: ch9.9.2
+  claim: 心理学与组织行为学实证研究证实：内在意义感驱动的韧性显著强于外部奖赏驱动，且使命导向能有效筛选出长周期生存者
+  reason: 素材中未找到心理学与组织行为学实证研究的具体引用
+missing_concepts:
+- paper: P001
+  concept: 团队零内耗协作机制的具体 SOP 落地细节
+  severity: medium
+- paper: P001
+  concept: 私域资产去中心化备份的具体工具与操作步骤（如企微导出、邮件列表迁移实操）
+  severity: high
+- paper: P002
+  concept: 极限压力测试式复盘的标准化模板/清单（如每日记录字段、对标维度表格）
+  severity: medium
+- paper: P002
+  concept: 使命情怀锚点的具象化提炼方法（如如何将抽象使命转化为可执行的行为准则）
+  severity: high
