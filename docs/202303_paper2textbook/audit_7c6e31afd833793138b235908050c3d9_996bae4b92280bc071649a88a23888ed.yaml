@@ -1,0 +1,109 @@
+citation_stats:
+- paper: P001
+  count: 21
+  locations:
+  - ch43.3
+  - ch43.4
+  - ch43.5
+  - ch43.6
+  - ch43.7
+  - ch43.8
+  - ch43.9
+  - ch43.10
+  - ch43.11
+  - ch43.12
+  - ch43.13
+  - '43.14'
+  - ch43.15
+  - ch43.16
+  - ch43.17
+  - ch43.18
+  - ch43.19
+  - ch43.20
+  - ch43.21
+  - ch43.22
+  - ch43.23
+- paper: P002
+  count: 3
+  locations:
+  - ch43.4
+  - ch43.14
+- paper: P003
+  count: 3
+  locations:
+  - ch43.5
+  - ch43.14
+- paper: P004
+  count: 5
+  locations:
+  - ch43.3
+  - ch43.6
+  - ch43.14
+  - ch43.16
+  - ch43.18
+- paper: P005
+  count: 5
+  locations:
+  - ch43.3
+  - ch43.7
+  - ch43.14
+  - ch43.19
+  - ch43.21
+- paper: P006
+  count: 5
+  locations:
+  - ch43.3
+  - ch43.8
+  - ch43.14
+  - ch43.20
+  - ch43.22
+- paper: P007
+  count: 7
+  locations:
+  - ch43.2
+  - ch43.9
+  - ch43.14
+  - ch43.15
+  - ch43.17
+  - ch43.23
+  - ch43.24
+- paper: P008
+  count: 5
+  locations:
+  - ch43.2
+  - ch43.10
+  - ch43.14
+  - ch43.18
+  - ch43.25
+unsupported_claims:
+- location: ch43.3
+  claim: 视频号违规处罚不可逆，权重永久受损、仅能注销重来
+  reason: P001中提到'违规处罚具有不可逆性...无法像抖音快手通过养号恢复，仅能换绑或注销重来'，但未提供官方文档或更大样本验证此机制的绝对性，属于经验总结而非平台公开规则
+- location: ch43.5
+  claim: 三大指数交叉验证可覆盖全网需求，同向共振时选品确定性最高
+  reason: P001、P003仅提出工具建议，未提供实证数据证明三指数同向共振与选品成功率的正相关性，属于方法论倡导而非验证结论
+- location: ch43.6
+  claim: 视频导流直播流量转化率最高，投流仅作锦上添花
+  reason: P001、P004基于作者团队经验陈述，缺乏跨账号、跨品类的量化对比数据支撑'转化率最高'的绝对化判断
+- location: ch43.8
+  claim: 视频号同品可定价抖音1-3倍仍具性价比
+  reason: P001、P006仅给出护肤品、定制品个案，未覆盖标品/3C等强比价品类，'1-3倍'区间缺乏大样本统计支撑
+- location: ch43.9
+  claim: 英文育儿书单号模式账号存活周期长、不易违规
+  reason: P007为单账号复盘（1年2号），样本量极小，且'伪原创'判定依赖平台算法主观认定，存在政策收紧风险，未提及版权合规的法律风险边界
+missing_concepts:
+- paper: P001
+  concept: 视频号小店保证金具体金额分级、对公账户开户流程、品退率考核细则
+  severity: high
+- paper: P004
+  concept: 视频号投流工具（微信豆/视频号热门推广）的出价模型、定向标签体系、ROI测算方法
+  severity: high
+- paper: P005
+  concept: 2023年后平台功能迭代（如视频号直播带货保证金调整、原创声明机制升级、达人等级体系）
+  severity: high
+- paper: P007
+  concept: YouTube素材版权合规边界（TED官方/非官方演讲版权区分、Stock Footage商用授权验证）、AI配音商用版权风险
+  severity: high
+- paper: P008
+  concept: 航海教练体系的标准化交付物清单（百宝书/拆解表具体字段）、教练考核激励机制、学员分层辅导SOP
+  severity: medium
