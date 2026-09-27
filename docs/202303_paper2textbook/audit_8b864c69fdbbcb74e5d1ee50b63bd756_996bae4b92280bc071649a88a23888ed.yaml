@@ -1,0 +1,46 @@
+citation_stats:
+- paper: P001
+  count: 17
+  locations:
+  - ch48.3
+  - ch48.4
+  - ch48.5
+  - ch48.6
+  - ch48.7
+  - ch48.8
+  - ch48.9
+  - ch48.10
+  - ch48.11
+  - ch48.12
+  - ch48.13
+- paper: P002
+  count: 8
+  locations:
+  - ch48.4
+- paper: P003
+  count: 9
+  locations:
+  - ch48.5
+  - ch48.9
+  - ch48.10
+- paper: P004
+  count: 11
+  locations:
+  - ch48.6
+  - ch48.9
+  - ch48.10
+- paper: P005
+  count: 8
+  locations:
+  - ch48.7
+- paper: P006
+  count: 14
+  locations:
+  - ch48.8
+- paper: P007
+  count: 12
+  locations:
+  - ch48.9
+  - ch48.10
+unsupported_claims: []
+missing_concepts: []
