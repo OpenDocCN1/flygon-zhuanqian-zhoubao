@@ -1,0 +1,89 @@
+citation_stats:
+- paper: P042
+  count: 4
+  locations:
+  - '15.3'
+  - '15.11'
+- paper: P044
+  count: 3
+  locations:
+  - '15.4'
+  - '15.11'
+- paper: P107
+  count: 3
+  locations:
+  - '15.5'
+  - '15.11'
+- paper: P126
+  count: 3
+  locations:
+  - '15.6'
+  - '15.11'
+- paper: P128
+  count: 2
+  locations:
+  - '15.8'
+  - '15.11'
+- paper: P137
+  count: 2
+  locations:
+  - '15.9'
+  - '15.11'
+- paper: SUMMARY
+  count: 2
+  locations:
+  - '15.10'
+  - '15.11'
+- paper: dox
+  count: 2
+  locations:
+  - '15.10'
+  - '15.11'
+- paper: TQM
+  count: 2
+  locations:
+  - '15.7'
+  - '15.11'
+- paper: BOnrd
+  count: 2
+  locations:
+  - '15.5'
+  - '15.11'
+unsupported_claims:
+- location: '15.5'
+  claim: 达芬奇批量处理多规格素材易崩溃
+  reason: 素材中提到达芬奇场景剪切探测器进行批量处理不同分辨率视频时会崩溃，但未提供具体崩溃日志或错误代码
+- location: '15.10'
+  claim: 紫鸟浏览器不兼容第三方RPA
+  reason: 素材中仅提及'紫鸟浏览器，不可使用RPA，因为他们在推自己的服务'，未提供官方文档或技术白皮书支撑
+- location: '15.9'
+  claim: 视频号ChatGPT赛道10天速成模型
+  reason: 素材中仅有轻松学长的单一案例数据（涨粉9W+、单场直播20W+、引流私域8k+、变现2w+），缺乏多账号复现验证数据
+- location: '15.7'
+  claim: 小红书Prompt分级体系对应用户熟练度成长路径
+  reason: 素材中仅通过统一主题对比实验验证混合模式输出质量最优，未提供不同熟练度用户使用各层级Prompt的实测留存数据
+missing_concepts:
+- paper: P042
+  concept: GPT-4调教写作风格的具体System Prompt模板
+  severity: high
+- paper: P107
+  concept: 达芬奇场景切割探测器的具体参数配置（阈值/最小场景时长等）
+  severity: high
+- paper: P126
+  concept: 爆文库建设的具体SOP（收集渠道/筛选标准/更新频率）
+  severity: high
+- paper: P128
+  concept: 跨境电商9大场景Prompt模板的A/B测试迭代机制
+  severity: medium
+- paper: P137
+  concept: 双机隔离架构的具体硬件配置要求（显卡/内存/网卡规格）
+  severity: high
+- paper: SUMMARY/dox
+  concept: RPA流程异常自动恢复的具体重试策略（指数退避/最大重试次数/人工介入阈值）
+  severity: high
+- paper: TQM
+  concept: 小红书四段式结构中'开头痛点引入'的万能公式化模板
+  severity: medium
+- paper: BOnrd
+  concept: 音画同步机制中'依据配音时长抽取素材'的随机算法边界条件
+  severity: medium
