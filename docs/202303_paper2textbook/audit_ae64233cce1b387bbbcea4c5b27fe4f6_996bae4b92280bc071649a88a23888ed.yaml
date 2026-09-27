@@ -1,0 +1,91 @@
+citation_stats:
+- paper: P001
+  count: 3
+  locations:
+  - ch4.3
+  - ch4.4
+  - ch4.10
+- paper: P002
+  count: 2
+  locations:
+  - ch4.4
+  - ch4.10
+- paper: P003
+  count: 7
+  locations:
+  - ch4.5
+  - ch4.5.1
+  - ch4.5.2
+  - ch4.5.3
+  - ch4.5.4
+  - ch4.5.4
+  - ch4.10
+- paper: P004
+  count: 4
+  locations:
+  - ch4.6
+  - ch4.6.1
+  - ch4.10
+  - ch4.10
+- paper: P005
+  count: 4
+  locations:
+  - ch4.7
+  - ch4.7.1
+  - ch4.10
+  - ch4.10
+- paper: P006
+  count: 5
+  locations:
+  - ch4.8
+  - ch4.8.1
+  - ch4.10
+  - ch4.10
+  - ch4.10
+- paper: P007
+  count: 3
+  locations:
+  - ch4.9
+  - ch4.9.1
+  - ch4.10
+unsupported_claims:
+- location: ch4.5.1
+  claim: 价值共振定价公式：价格 = 价值 = 外部需求发现的'被需要'程度 ≠ 自我成本加成
+  reason: 素材中未给出公式化表述，仅为概念阐述
+- location: ch4.5.2
+  claim: 收费边界设定协议包含四个步骤：1.建立标准化收费流程与话术 2.将'不收费=不负责/自损'内化为原则 3.通过显性契约管理客户预期 4.保护提供者心力，筛选高意向客户
+  reason: 素材中未明确列出四步协议，仅阐述收费即责任与保护的概念
+- location: ch4.5.3
+  claim: 见识溢价效应指出高价格信心源于亲眼目睹高阶商业模式/定价锚点
+  reason: 素材中小冯妮儿案例印证此观点，但未系统表述为'见识溢价效应'及其作用机制
+- location: ch4.6.1
+  claim: 天赋优势区识别与映射流程图包含5个节点：日常行为模式回溯→识别核心天赋模式→业务核心动作拆解→天赋-业务映射匹配→零意志力执行引擎启动
+  reason: 素材中未给出结构化流程图，仅阐述概念与小冯妮儿案例
+- location: ch4.7.1
+  claim: 创伤具象化方法（瞅了瞅法）包含六个步骤
+  reason: 素材中杨昌仅描述'走进瞅了瞅'的体验，未列出六步标准化操作
+- location: ch4.8.1
+  claim: 童年创伤再叙事疗法实操包含五个阶段：事件梳理→防御识别→叙事重写→认知拓宽→天赋回收
+  reason: 素材中杨昌仅概括'重走童年路、解开防御、拓宽认知、捡回天赋'，未细化为五阶段结构化流程
+- location: ch4.9.1
+  claim: 关系三分类决策模型包含判定标准、执行策略、能量流向三维度，并给出具体评分标准（≥4分/2-3分/≤1分）
+  reason: 素材中杨昌仅描述'双向奔赴/立边界/切断'三类及执行动作，未给出量化评分标准
+missing_concepts:
+- paper: P001
+  concept: 亦仁'不把谁当竞争对手'的具体业务决策案例（如生财有术如何拒绝同质化竞争）
+  severity: medium
+- paper: P003
+  concept: 第一桶金认知价值在不同阶段的动态衰减规律（如信心半衰期、需二次验证机制）
+  severity: high
+- paper: P004
+  concept: 激情驱动耐力模型中'使命情怀'的量化识别指标（如使命清晰度评分表、愿景穿透力测试）
+  severity: high
+- paper: P005
+  concept: 臣服当下与'躺平'的行为学边界界定（如行动频次阈值、决策主动权保留度）
+  severity: medium
+- paper: P006
+  concept: 童年创伤再叙事疗法的专业安全容器准入标准（如咨询师资质清单、疗程周期基准线）
+  severity: high
+- paper: P007
+  concept: 关系三分类决策的动态复盘机制（如关系分类漂移预警指标、边界调整触发条件）
+  severity: medium
