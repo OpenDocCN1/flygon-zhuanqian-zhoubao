@@ -1,0 +1,112 @@
+citation_stats:
+- paper: P041
+  count: 2
+  locations:
+  - '22.3'
+  - 22.3.1
+- paper: P126
+  count: 6
+  locations:
+  - '22.3'
+  - '22.5'
+  - 22.5.1
+  - '22.6'
+  - 22.6.1
+  - 22.3.1
+- paper: P046
+  count: 3
+  locations:
+  - '22.4'
+  - 22.4.1
+  - 22.7.4
+- paper: P130
+  count: 2
+  locations:
+  - '22.7'
+  - 22.7.1
+- paper: P132
+  count: 2
+  locations:
+  - '22.8'
+  - 22.8.1
+- paper: P133
+  count: 3
+  locations:
+  - '22.9'
+  - 22.9.1
+  - 22.7.4
+- paper: A27M
+  count: 3
+  locations:
+  - '22.7'
+  - '22.9'
+  - 22.9.1
+- paper: TQMk
+  count: 4
+  locations:
+  - '22.10'
+  - 22.10.1
+  - 22.10.3
+  - 22.10.4
+- paper: IkKO
+  count: 2
+  locations:
+  - '22.8'
+  - 22.8.3
+unsupported_claims:
+- location: 22.7.2
+  claim: 生态爆发度公式中的指数增长模型 (e^{t/τ})
+  reason: 素材仅定性描述'波澜壮阔', 未提供量化生态增长模型
+- location: 22.9.2
+  claim: NLP能力平权带来全品类覆盖、秒出结果、体验跃迁的量化收益分析
+  reason: 素材仅定性陈述'NLP不存在了...', 无量化支撑
+- location: 22.10.2
+  claim: Prompt分级体系质量阶梯的半量化评分表 (结构约束/内容素材/范例对齐/人设注入四维, 权重均等)
+  reason: 素材仅定性评价'混合模式输出质量碾压单一模式', 评分维度与权重为作者构建
+- location: 22.5.2
+  claim: 权重 w2=0.2, w3=0.3 及缓冲时间 T_缓冲=3min 的具体数值
+  reason: 原文仅给出 w1=0.5 及 '1分钟/5分钟' 时间投入, w2/w3/T_缓冲为作者推演经验值
+- location: 22.6.2
+  claim: 行为转化系数 α 与指示函数 1_实战验证通过 的数学建模
+  reason: 素材描述'行为倒推认知'定性机制, 递推公式与指示函数为作者构建
+- location: 22.8.2
+  claim: 类SEO优化需研读 Transformer/RLHF/RAG/Tool Use 等核心技术论文
+  reason: 素材原文仅泛指'研读期刊', 具体技术方向为作者补充
+- location: 22.3.2
+  claim: 成长速度 = 基础认知获取效率 × 实战验证闭环率 × 资源连接杠杆 的乘法公式
+  reason: 素材表明三要素叠加作用, 但乘法结构与系数为作者构建的概念框架
+- location: 22.4.2
+  claim: 可操作红利窗口 ≈ T_大众普及 - T_核心圈共识 - T_实战验证周期 的时间窗口公式
+  reason: 素材定性描述时间差与实战验证周期, 公式为作者构建的概念模型
+- location: '22.11'
+  claim: 人工+智能三步法为当前技术边界下的帕累托最优解
+  reason: 标注为【作者推演】, 非素材直接支撑
+- location: '22.11'
+  claim: '浏览器插件作为早期载体的trade-off: 用最快验证速度换取产品天花板受限'
+  reason: 标注为【作者推演】, 素材未直接对比独立应用/官方Plugins的长期护城河
+missing_concepts:
+- paper: P126
+  concept: 付费社群具体名称、价格体系、精华帖/风向标的具体获取路径
+  severity: medium
+- paper: P046
+  concept: GPT-4 2022年10月内测的具体来源/佐证、文心一言本土化优化的具体技术细节
+  severity: high
+- paper: P130
+  concept: ChatGPT Plugins 官方文档/开发者协议/审核标准/变现分成模式的具体细则
+  severity: high
+- paper: P132
+  concept: ChatGPT SEO/类SEO 实操案例(如品牌如何通过Prompt策略露出)、模型版本迭代对规则库的具体影响数据
+  severity: high
+- paper: P133
+  concept: AIPRM/ChatGPT for Google/ChatGPT Writer/Shulex VOC 的具体用户留存率、付费转化率、ARPU
+    等商业数据
+  severity: medium
+- paper: A27M
+  concept: 浏览器插件开发的具体技术栈、Manifest V3 适配细节、Content Script 与 Background 的通信机制
+  severity: medium
+- paper: TQMk
+  concept: 小红书算法的具体去重/推荐机制参数、爆款笔记的定量阈值(如千赞/万赞的精确定义)
+  severity: high
+- paper: IkKO
+  concept: 类SEO 黑盒逆向工程的标准化测试Query集构建方法、NLP规则库的版本管理与自动化更新流程
+  severity: high
