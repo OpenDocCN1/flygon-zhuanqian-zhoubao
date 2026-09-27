@@ -1,0 +1,260 @@
+- 'no': 1
+  name: 流量冷启动 —— 从“无人问津”到“第一批客户”
+  desc: 本章聚焦于无资源、无资本的个人如何获取私域的第一批流量。通过解析私域的本质、个人品牌的杠杆作用以及三种“借流量”的具体路径，帮助你建立对流量获取底层逻辑的认知，并掌握可立即上手的操作方法。
+  nodes:
+  - 'no': 1
+    name: 私域的本质：长远而忠诚的客户关系
+    desc: 用“朋友关系”类比，强调私域运营的核心不是好友数量，而是与用户建立有信任度、有粘性的长远关系，双方互为朋友甚至互为客户。
+    role: motivation
+    src:
+    - paper: docs/202301-02/VAA8dQLTZolMlJx1jxrcKaPrnzd.md
+  - 'no': 2
+    name: 从“数量”到“质量”：重新理解微信好友的价值
+    desc: 通过“销售额=客户数×客单价×购买频次”公式，指出以往过度关注客户数的误区，引入“复购比拉新更重要”的理念。
+    role: definition
+    src:
+    - paper: docs/202301-02/VAA8dQLTZolMlJx1jxrcKaPrnzd.md
+  - 'no': 3
+    name: 个人品牌：普通人的差异化起盘切入口
+    desc: 介绍“差异化身份”标签的概念，如“营销圈里最懂投资”，并论证其作为普通人起盘最佳切入口的底层逻辑。
+    role: method
+    src:
+    - paper: docs/202301-02/VAA8dQLTZolMlJx1jxrcKaPrnzd.md
+  - 'no': 4
+    name: 借流量三法之一：公域平台内容引流
+    desc: 讲解如何将内容发布到自带流量的公域平台吸引精准客户，并阐述“知识营销”与“内容化”的核心思路。
+    role: method
+    src:
+    - paper: docs/202301-02/VAA8dQLTZolMlJx1jxrcKaPrnzd.md
+  - 'no': 5
+    name: 借流量三法之二：做社群里的“群红”
+    desc: 对比公域的“无限竞争”与社群的“有限竞争”，提出普通人做个人IP应优先在垂类社群中建立信任、获取铁杆粉丝。
+    role: method
+    src:
+    - paper: docs/202301-02/VAA8dQLTZolMlJx1jxrcKaPrnzd.md
+  - 'no': 6
+    name: 借流量三法之三：抱大腿的“价值交换”逻辑
+    desc: 解析“抱大腿”的本质不是金钱交换，而是创造可交换的价值，并强调“练好一身本领”是普通人抱大腿的最好方式。
+    role: method
+    src:
+    - paper: docs/202301-02/VAA8dQLTZolMlJx1jxrcKaPrnzd.md
+  - 'no': 7
+    name: 从0到1：小量高粘性好友 vs 大量泛泛之交
+    desc: 通过作者及朋友的实操数据案例，验证“好友质量重于数量”的核心主张，揭示私域成交效率的关键变量。
+    role: experiment
+    src:
+    - paper: docs/202301-02/VAA8dQLTZolMlJx1jxrcKaPrnzd.md
+  - 'no': 8
+    name: 避坑指南：目标人群不清晰的“动物园”陷阱
+    desc: 指出找不到目标社群的根本原因是定位太泛，引入“鱼塘钓鱼”类比，强调明确目标人群是做推广的前提。
+    role: limitation
+    src:
+    - paper: docs/202301-02/VAA8dQLTZolMlJx1jxrcKaPrnzd.md
+- 'no': 2
+  name: 高效社群运营 —— 从“消耗自己”到“三方共赢”
+  desc: 本章聚焦于社群（特别是训练营）的可持续运营法则。从“利益一致性”设计到“复用时间”的交付策略，再到“激发学员主动性”的责任分配，帮你摆脱“事必躬亲”的低效陷阱，构建一个能自动运转、多方受益的社群生态。
+  nodes:
+  - 'no': 1
+    name: 动机：为什么你的社群越做越累？
+    desc: 从“教学与实战的矛盾”切入，分析培训者陷入“教学占用时间→脱离一线→交付质量下降”恶性循环的根源，引出高效率交付的必要性。
+    role: motivation
+    src:
+    - paper: docs/202301-02/MUfLdmUlTosj0NxPhlfcjRPHnff.md
+  - 'no': 2
+    name: 核心心法：效率与质量的非零和博弈
+    desc: 提出“高效率交付才能高质量交付”的核心主张，并给出三大支柱：把时间卖多次、撬动学员时间、让学员意识到责任。
+    role: definition
+    src:
+    - paper: docs/202301-02/MUfLdmUlTosj0NxPhlfcjRPHnff.md
+  - 'no': 3
+    name: 规则设计：如何让群主与成员利益一致？
+    desc: 以“挑战群失败瓜分红包”机制为例，剖析“利益对立”型规则的不可持续性，提出“挑战成功大家获得更多”的健康规则设计原则。
+    role: method
+    src:
+    - paper: docs/202301-02/ELHqdhiI5oSQAxxItLJctNAhnah.md
+  - 'no': 4
+    name: 交付策略一：把一份时间卖很多次
+    desc: 详解如何用“操作手册+直播录播+百问百答”替代低效的1v1沟通，实现标准化交付，将老师的碎片化重复劳动降至最低。
+    role: method
+    src:
+    - paper: docs/202301-02/MUfLdmUlTosj0NxPhlfcjRPHnff.md
+  - 'no': 5
+    name: 交付策略二：撬动学员的时间与能量
+    desc: 介绍“优秀学员分享机制”（分享必爆），利用同侪榜样力量促进互助氛围，实现老师、分享者、普通学员的三方共赢。
+    role: method
+    src:
+    - paper: docs/202301-02/MUfLdmUlTosj0NxPhlfcjRPHnff.md
+  - 'no': 6
+    name: 交付策略三：让学员为自己的成果负责
+    desc: 探讨如何通过开营引导与打卡模板，帮助学员建立“责任在我”的主动心态，并论证“被动做项目几乎不可能做出成果”。
+    role: method
+    src:
+    - paper: docs/202301-02/MUfLdmUlTosj0NxPhlfcjRPHnff.md
+  - 'no': 7
+    name: 信息呈现：按阶段给出与最少必要信息
+    desc: 讲解操作手册编写的关键原则——将项目拆分后按周分阶段放出信息，并只保留完成当前闭环所需的最少信息，以降低学习门槛。
+    role: method
+    src:
+    - paper: docs/202301-02/MUfLdmUlTosj0NxPhlfcjRPHnff.md
+  - 'no': 8
+    name: 验证与反思：标准化的边界在哪里？
+    desc: 通过“千聊平台资金冻结”等风险案例，探讨过度依赖单一平台的局限，并反思标准化交付无法覆盖的特殊情况（1v1诊断仍必要）。
+    role: limitation
+    src:
+    - paper: docs/202301-02/MUfLdmUlTosj0NxPhlfcjRPHnff.md
+- 'no': 3
+  name: 内容与文案力 —— 从“自嗨式表达”到“深入人心”
+  desc: 本章专注于内容创作与文案写作的核心能力。从识别“自嗨”陷阱开始，系统学习“心金文案”的思考框架（目的、受众、平台）与实战方法（富兰克林复写、共鸣感构建），并探讨如何通过高质量输入与思维训练，实现文案力的持续提升。
+  nodes:
+  - 'no': 1
+    name: 动机：为什么你发了那么多朋友圈却没有咨询？
+    desc: 以“自嗨式写文案”为切入点，诊断私域运营中“只有输出没有反馈”的普遍困境，引出文案需兼具“吸金”与“深入人心”双重属性的定义。
+    role: motivation
+    src:
+    - paper: docs/202301-02/JPRAdLgGFowUE7xargGc8YNjnzh.md
+  - 'no': 2
+    name: 定义：什么是“心金文案”？
+    desc: 解析“心金文案”概念——既能吸金（商业变现）又能深入人心（情感共鸣），并强调“文案是思维的显化”这一核心主张。
+    role: definition
+    src:
+    - paper: docs/202301-02/JPRAdLgGFowUE7xargGc8YNjnzh.md
+  - 'no': 3
+    name: 框架：写文案前的3重思考
+    desc: 介绍写作前的三个前置性问题——写作目的（宏观与微观）、目标受众（用户画像）、发布平台（特性适配），确保文案不跑题、不陷入自嗨。
+    role: method
+    src:
+    - paper: docs/202301-02/JPRAdLgGFowUE7xargGc8YNjnzh.md
+  - 'no': 4
+    name: 方法一：用“富兰克林复写法”打磨表达
+    desc: 讲解通过“看-关-写-比”的复写训练，精准定位个人写作薄弱点，并结合他人点评进行针对性优化。
+    role: method
+    src:
+    - paper: docs/202301-02/JPRAdLgGFowUE7xargGc8YNjnzh.md
+  - 'no': 5
+    name: 方法二：构建“共鸣感”的三种路径
+    desc: 详解通过“经历的共鸣、感受的共鸣、价值观的共鸣”三个方向构建相似性，使文案贴近现实，引发读者情感共振。
+    role: method
+    src:
+    - paper: docs/202301-02/JPRAdLgGFowUE7xargGc8YNjnzh.md
+  - 'no': 6
+    name: 方法三：用“输入带动输出”突破思维瓶颈
+    desc: 介绍“故事类→评论类→商业类”的三级输入内容筛选法，以及“建立素材库”与“100问练习法”作为持续输出的支撑体系。
+    role: method
+    src:
+    - paper: docs/202301-02/JPRAdLgGFowUE7xargGc8YNjnzh.md
+  - 'no': 7
+    name: 案例：从“不敢打广告”到“大方宣传”的心态转变
+    desc: 通过“打破认知三步法”的案例，解析如何正确理解广告的“放大与筛选”本质，并建立“好东西应大方宣传”的健康心态。
+    role: experiment
+    src:
+    - paper: docs/202301-02/HfJEd0huioyShvxowVfcOMQYnHb.md
+  - 'no': 8
+    name: 避坑指南：为什么“模板化”会限制你的文案力？
+    desc: 批判硬性模仿与套用模板的危害，指出这会束缚创造力，并强调“统一的文案风格”才是形成记忆点的前提。
+    role: limitation
+    src:
+    - paper: docs/202301-02/JPRAdLgGFowUE7xargGc8YNjnzh.md
+- 'no': 4
+  name: 裂变与转化 —— 从“临门一脚”到“指数增长”
+  desc: 本章聚焦于流量池的放大与变现。从裂变的两种基本模型（团队裂变与用户裂变）及其叠加玩法入手，学习如何设计机制驱动用户持续分享；同时，深入探讨成交前的信任积累、广告的“放大与筛选”本质，以及成交后的精细化运营，打通“流量→信任→成交→复购”的完整链路。
+  nodes:
+  - 'no': 1
+    name: 动机：为什么你的裂变活动总在第三层断层？
+    desc: 指出大部分裂变营销效果不好的核心原因——只有激发层用户愿意分享，裂变层就断层了，引出对裂变底层模型的探讨。
+    role: motivation
+    src:
+    - paper: docs/202301-02/VAA8dQLTZolMlJx1jxrcKaPrnzd.md
+  - 'no': 2
+    name: 定义：裂变营销的两种基本模型
+    desc: 系统讲解“团队裂变”（自上而下树状结构，靠“躺赚逻辑”驱动）与“用户裂变”（自下而上网状结构，靠“圈层效应”驱动）的定义与区别。
+    role: definition
+    src:
+    - paper: docs/202301-02/VAA8dQLTZolMlJx1jxrcKaPrnzd.md
+  - 'no': 3
+    name: 方法：用“战队PK”玩法叠加破解裂变断层
+    desc: 介绍“用户裂变叠加团队裂变”的动销系统，通过战队PK机制促使更多用户产生持续分享行动，解决传统裂变断层问题。
+    role: method
+    src:
+    - paper: docs/202301-02/VAA8dQLTZolMlJx1jxrcKaPrnzd.md
+  - 'no': 4
+    name: 心态：跨越“不敢打广告”的心理卡点
+    desc: 剖析不敢打广告的三个根源（产品价值认可度低、人际关系理解不到位、广告理解不到位），建立对广告的正确认知。
+    role: method
+    src:
+    - paper: docs/202301-02/HfJEd0huioyShvxowVfcOMQYnHb.md
+  - 'no': 5
+    name: 信任：成交前的“有间隔的重复次数”
+    desc: 通过类比与案例，论证成交依赖于前期持续的价值输出与信任建立，强调“有间隔的重复次数”是打动用户的关键。
+    role: proof
+    src:
+    - paper: docs/202301-02/HfJEd0huioyShvxowVfcOMQYnHb.md
+  - 'no': 6
+    name: 策略：从“泛流量”到“铁粉”的精细化运营
+    desc: 以“800位用户创造120W业绩”为例，讲解“广撒网-精细化-筛铁粉-转介绍”的运营链路，揭示高粘性社群的打造方法。
+    role: method
+    src:
+    - paper: docs/202301-02/ELHqdhiI5oSQAxxItLJctNAhnah.md
+  - 'no': 7
+    name: 案例：3天裂变6000人的实操复盘
+    desc: 复盘“活动裂变+战队PK”在跨境电商峰会中的实战效果，用真实数据验证叠加玩法对流量放大的显著作用。
+    role: experiment
+    src:
+    - paper: docs/202301-02/VAA8dQLTZolMlJx1jxrcKaPrnzd.md
+  - 'no': 8
+    name: 优化：如何用数据排查“广告无效”的归因问题？
+    desc: 提供“四步排查法”（检查用户精准度、检查文案、检查铺垫、理解曲折），帮助识别无成交的真正原因，避免错误归因于能力不足。
+    role: extension
+    src:
+    - paper: docs/202301-02/HfJEd0huioyShvxowVfcOMQYnHb.md
+- 'no': 5
+  name: 个人成长方法论 —— 从“低水平勤奋”到“系统化精进”
+  desc: 本章回归到个人成长的根本议题。从“信息茧房”的突破与“地毯式阅读”谈起，进而学习如何通过“举一反三”进行项目拆解，并探讨“坚持+SOP化”与“轻量化MVP验证”等策略，帮助你构建一套可复制的、正确的做事方法论。
+  nodes:
+  - 'no': 1
+    name: 动机：为什么你看了很多干货却依然做不好项目？
+    desc: 指出信息获取的局限性——只看喜欢的内容会形成信息茧房。以“地毯式阅读法”为例，论证系统性输入对打破认知边界的重要性。
+    role: motivation
+    src:
+    - paper: docs/202301-02/ELHqdhiI5oSQAxxItLJctNAhnah.md
+  - 'no': 2
+    name: 方法：掌握“举一反三”的项目拆解基本功
+    desc: 解析如何从一个具体案例发散到同类项目与跨类项目，将单个案例的经验提炼为可迁移的方法论，并练习拆解思路。
+    role: method
+    src:
+    - paper: docs/202301-02/ELHqdhiI5oSQAxxItLJctNAhnah.md
+  - 'no': 3
+    name: 思维训练：三个“为什么”与多角度思维
+    desc: 介绍提升深度思考能力的具体训练方法，包括“三个为什么”追问法、A4纸头脑风暴法以及多角度思维法，帮助突破思维局限。
+    role: method
+    src:
+    - paper: docs/202301-02/JPRAdLgGFowUE7xargGc8YNjnzh.md
+  - 'no': 4
+    name: 策略：先跑通MVP，再进行高成本投入
+    desc: 以“先跑MVP再录课”与“低成本跑流程”为例，论证在投入高成本前，用轻量化方式验证可行性的重要性与具体路径。
+    role: method
+    src:
+    - paper: docs/202301-02/ELHqdhiI5oSQAxxItLJctNAhnah.md
+  - 'no': 5
+    name: 策略：用“坚持+SOP化”放大你的成果
+    desc: 探讨为何在跑通MVP后应将流程SOP化，并坚持重复执行。通过“把一件事做100次”的类比，论证长期主义在个人成长中的价值。
+    role: method
+    src:
+    - paper: docs/202301-02/ELHqdhiI5oSQAxxItLJctNAhnah.md
+  - 'no': 6
+    name: 进阶视角：如何通过“C端转B端”避开内卷竞争？
+    desc: 介绍一种战略选择——当C端竞争激烈时，可以考虑将C端用户作为资源卖给B端或G端，实现“远离内卷”的差异化竞争。
+    role: extension
+    src:
+    - paper: docs/202301-02/ELHqdhiI5oSQAxxItLJctNAhnah.md
+  - 'no': 7
+    name: 案例：一次“云监工”挑战的意外收获
+    desc: 复盘作者通过“云监工”玩法完成阅读挑战的过程，展示“一人做事不如一群人玩+学”的社群逻辑，以及挑战背后的意外收获（夸夸群效应）。
+    role: experiment
+    src:
+    - paper: docs/202301-02/ELHqdhiI5oSQAxxItLJctNAhnah.md
+  - 'no': 8
+    name: 反思：这些经验方法的适用边界在哪里？
+    desc: 探讨上述方法论（如蓝海选品、痛点发现等）在不同行业、不同阶段的适用条件与潜在风险，帮助你避免盲目套用。
+    role: limitation
+    src:
+    - paper: docs/202301-02/ELHqdhiI5oSQAxxItLJctNAhnah.md

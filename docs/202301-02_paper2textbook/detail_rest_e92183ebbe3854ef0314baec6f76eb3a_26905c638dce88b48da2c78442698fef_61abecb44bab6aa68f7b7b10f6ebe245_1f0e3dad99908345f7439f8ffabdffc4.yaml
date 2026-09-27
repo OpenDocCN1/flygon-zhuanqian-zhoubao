@@ -1,0 +1,99 @@
+learning_targets:
+- 理解 AI 绘画的算力瓶颈，掌握 Google Colab 作为免费云端 GPU 替代方案的定位与边界
+- 掌握从零在 Colab 中搭建 Stable Diffusion WebUI 环境的一键脚本与手动步骤
+- 掌握四种模型分发与迁移方法，并能根据模型体积、隐私需求与存储空间权衡选择
+- 理解Prompt咒语中正向与负向提示词的作用，以及不同模型文件对画风的决定性影响
+- 能通过COMMANDLINE_ARGS注入--share、--gradio-auth等参数定制WebUI的对外访问与安全策略
+- 能识别免费算力的天花板（时间/空间限制），并制定多账号轮换与存储优化的应对策略
+concept_map:
+- AI绘画算力平权
+- ├── 痛点与替代方案
+- │   ├── 本地显卡门槛（N卡/A卡需求）  —— P001
+- │   └── Google Colab 免费云GPU       —— P001, P002
+- ├── 云端环境搭建
+- │   ├── Colab账号申请与环境初始化    —— P001
+- │   ├── 一键脚本：挂载Gdrive→git clone→装依赖 —— P001, P002
+- │   └── Stable Diffusion WebUI可视化界面 —— P001, P002
+- ├── 模型分发与迁移（位置闭环：拷贝到指定目录）
+- │   ├── Gdrive挂载拷贝（15G限制、不易丢）—— P001
+- │   ├── gdown链接下载（小圈子、易被屏蔽）—— P001
+- │   ├── Hugging Face私有中转（推荐：隐私+空间）—— P001
+- │   └── 任意云存储泛化下载（需外链/API）   —— P001
+- ├── 出图控制与风格决定
+- │   ├── Prompt咒语：正向tag+负向tag    —— P001, P002
+- │   └── 模型画风差异（NovelAI/Waifu动漫 vs SD写实）—— P001
+- └── 部署优化与算力天花板
+- '    ├── 启动参数（--share公网/--gradio-auth鉴权/--deepdanbooru提词）—— P001'
+- '    └── 免费额度限制（每日时长/15G Gdrive/55G Colab）与多账号轮换、直连下载应对 —— P001'
+life_analogy:
+- 想象在云端搭建AI画室的过程如同**开办一家远程营业的照相馆**：
+- '- **Google Colab** = 你免费租到的一间云端暗房（自带GPU显影液、内存相纸和硬盘储物柜）'
+- '- **Stable Diffusion WebUI** = 一台封装好的傻瓜相机，你无需懂光学原理，只需按快门（填表单）'
+- '- **模型文件（.ckpt）** = 不同品牌的胶片，必须装进相机指定卡槽（模型目录）才能成像'
+- '- **Gdrive/Hugging Face等存储源** = 你的胶片仓库，搬家（拷贝）时需考虑仓库容量与搬运方式'
+- '- **Prompt正向/负向tag** = 给摄影师的指令清单：要什么（masterpiece、sea beach）和不要什么（lowres、watermark）'
+- '- **--share与--gradio-auth** = 给照相馆装上临时的对外橱窗和门禁锁，客户凭密码才能进店'
+- 就像开照相馆既要租得起暗房、选对胶片，也要会写拍摄指令并给店面配好锁和橱窗，云端AI绘画的全部流程也围绕环境、模型、提示词与访问控制这四件事展开。
+summary:
+- concept: Google Colab
+  desc: Google提供的免费云GPU服务器，通过浏览器远程执行，解决了本地无高性能显卡的算力痛点
+- concept: Stable Diffusion WebUI
+  desc: 基于Stable Diffusion的可视化Web界面，将命令行封装为鼠标点击，是AI绘画走向大众的关键推手
+- concept: 模型分发与迁移
+  desc: 把模型文件从Gdrive、Hugging Face等存储源拷贝到云端WebUI指定目录的方法集合，位置闭环是出图前提
+- concept: Gdrive挂载法
+  desc: 优点是不易丢失，缺点是免费盘仅15G，放不下几个大模型（动辄4G-8G）
+- concept: Hugging Face私有中转法
+  desc: 创建私有仓库+token鉴权下载，兼顾隐私与空间，是作者最推荐的模型分发方式
+- concept: Prompt咒语
+  desc: 正向tag（描述期望元素与质量）与负向tag（排除缺陷）共同控制AI绘画输出
+- concept: 模型画风差异
+  desc: 不同模型因训练数据不同而画风迥异：NovelAI/Waifu偏动漫，SD系列（LAION-5B）偏写实
+- concept: 启动参数配置
+  desc: 通过COMMANDLINE_ARGS注入--share、--gradio-auth等参数，定制公网访问、登录鉴权与图片提词功能
+- concept: 免费算力天花板
+  desc: 免费GPU每日数小时硬限制、Gdrive 15G vs Colab 55G空间差异，需多账号轮换与直连下载应对
+exercises:
+- 'no': 1
+  title: 手算一次注意力（迁移练习：模型分发路径权衡）
+  contents:
+  - 假设你需要在 Colab 中加载两个 Stable Diffusion 模型（每个约 6G），请你：
+  - 1. 分别评估使用 Gdrive 挂载法与 Colab 直连下载法的可行性
+  - 2. 计算两种方案下剩余可用的云端硬盘空间
+  - 3. 若其中一个模型为泄露的非官方开源模型，选择分发方式时应考虑什么？
+  - 回答问题：
+  - '- 鉴于 Gdrive 免费盘仅 15G，colab 有 55G，你倾向于哪种方式？为什么？'
+  - '- Hugging Face 私有中转法相比 gdown 分享法的核心优势是什么？'
+- 'no': 2
+  title: 调试一次环境搭建流程
+  contents:
+  - 根据素材，在 Colab 中执行以下操作：
+  - 1. 申请一个 Google 账号并访问共享脚本，修改硬件加速器为 GPU
+  - 2. 依次执行挂载 Gdrive、git clone WebUI 仓库、安装依赖三大命令
+  - 3. 尝试运行一键脚本（运行当前单元格及其后的所有单元格）
+  - 4. 观察并记录脚本执行过程中可能出现的报错或中断点
+  - 回答问题：
+  - '- 为什么每次使用完必须‘断开并删除运行时’？这会导致什么损失？'
+  - '- 假设你在运行 `git clone` 时网络中断，如何在不浪费免费时长的情况下恢复？'
+- 'no': 3
+  title: Prompt 画风控制对比实验
+  contents:
+  - 使用同一段 Prompt 与同一参数：
+  - 正向tag：masterpiece, best quality, sea beach, chiaroscuro
+  - 负向tag：lowres, bad anatomy, watermark
+  - 1. 在 NovelAI 与 Stable Diffusion 1.5 两个模型上各生成一张图
+  - 2. 对比两张图的画风差异，并说明原因
+  - 3. 尝试在负向tag中删除 bad anatomy 并重新生成，观察画面变化
+  - 回答问题：
+  - '- 模型文件的训练数据源（如 LAION-5B）如何决定画风边界？'
+  - '- 负向tag 过度使用可能带来什么副作用？'
+- 'no': 4
+  title: 设计一个带鉴权的公网访问方案
+  contents:
+  - 你想把自己搭建的 WebUI 分享给 3 位朋友使用：
+  - 1. 写出包含 --share 与 --gradio-auth 参数的完整 COMMANDLINE_ARGS 命令
+  - 2. 解释每个参数的作用
+  - 3. 说明公网链接的时效性特点
+  - 回答问题：
+  - '- 如果希望额外支持从图片反推 prompt 的功能，应追加哪个参数？'
+  - '- 公网链接失效后，如何快速恢复给朋友的访问权限？'

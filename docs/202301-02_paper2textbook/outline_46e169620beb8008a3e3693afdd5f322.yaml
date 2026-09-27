@@ -1,0 +1,207 @@
+- 'no': 1
+  name: 创业的起点 —— 从“痛点”到“切入点”
+  desc: 本章讲解创业如何从发现真痛点出发，通过信息差洞察和用户需求分析，找到属于自己的商业切入点。我们用“聚光灯”和“放大镜”作类比，揭示优秀创业者如何从日常抱怨中提炼出高价值生意。
+  nodes:
+  - 'no': 1
+    name: 痛点是创业的第一性原理
+    desc: 用“哪里疼就贴哪里”类比：所有伟大的生意都源于对用户真实痛点的深切感知。素材中三个案例均从自身或他人痛点出发（皮肤问题、中介费高、睡不好觉），建立了完整商业逻辑。
+    role: motivation
+    src:
+    - paper: docs/202301-02/E1WGd70YLoaHGfxAYJTc4WoFnsd.md
+    - paper: docs/202301-02/PglAdRMiIoVTRyxc4Q3cw8hvnWf.md
+  - 'no': 2
+    name: 信息差就是金钱
+    desc: 解读“生意的本质是信息差”这一核心主张。用“你知道而别人不知道的路径”类比，阐述为何中介费是伪概念、为何平台撮合能创造价值。结合买房者跳单的深层动机案例说明。
+    role: motivation
+    src:
+    - paper: docs/202301-02/PglAdRMiIoVTRyxc4Q3cw8hvnWf.md
+  - 'no': 3
+    name: 选品决定论 —— 产品好省一半心
+    desc: 从美业创业经验提炼“选品重于销售”的方法论，类比“种子决定收成”：好产品自带转化力，深挖用户需求并涵盖面齐全，后端的复购率自然提升。
+    role: method
+    src:
+    - paper: docs/202301-02/E1WGd70YLoaHGfxAYJTc4WoFnsd.md
+  - 'no': 4
+    name: 行业周期窗口 —— 在“高流量低商业化”阶段入场
+    desc: TikTok睡播案例展示时机判断的价值：在平台早期高流量低商业化阶段，普通人有最轻松的切入窗口。以“早起的鸟儿有虫吃”类比，说明娱乐直播风口至少可持续2年的预测逻辑。
+    role: motivation
+    src:
+    - paper: docs/202301-02/FCiidWBeJoLOT1xreYnc9Se4nOf.md
+- 'no': 2
+  name: 商业模式设计 —— 从“拍脑袋”到“跑得通”
+  desc: 本章聚焦如何将痛点洞察转化为可盈利的商业模式，涵盖最小可行产品验证、定价与盈利模式选择、以及面向终局的战略布局。类比“搭积木”：先搭最小骨架，再逐步加砖添瓦。
+  nodes:
+  - 'no': 1
+    name: 最小MVP闭环：从挣1块钱开始
+    desc: 讲解“产品—流量—销售—交付”的最小可行产品闭环。用“先造独木舟再过河”类比：用最小成本验证商业模型成立，再复制放大，而非一开始就造航母。
+    role: method
+    src:
+    - paper: docs/202301-02/E1WGd70YLoaHGfxAYJTc4WoFnsd.md
+    - paper: docs/202301-02/FCiidWBeJoLOT1xreYnc9Se4nOf.md
+  - 'no': 2
+    name: 盈利模式设计：找准付费方
+    desc: 以胖龟找房如何让二房东承担中介费为例，剖析“谁痛谁付费”的盈利设计逻辑。只要付费方的痛点足够痛（空置即亏损），商业模式便自然成立。类比“鱼与渔竿”：让付费方得到更快捕鱼的价值。
+    role: definition
+    src:
+    - paper: docs/202301-02/PglAdRMiIoVTRyxc4Q3cw8hvnWf.md
+  - 'no': 3
+    name: 4C动态量化股权分配模型：创始团队的公平秤
+    desc: 讲解初创公司如何通过创始人身份、岗位权重、时间投入、资金投入四个维度定量分配股权。用“切蛋糕”类比：需要明确每刀的依据，才能切得大家都服气。附带五步法操作流程。
+    role: method
+    src:
+    - paper: docs/202301-02/C0dydiFPCoBI3LxemwWcXpdxn2e.md
+  - 'no': 4
+    name: 股权分配的误区与共识机制
+    desc: 分析合伙拆伙根本原因（前期重要程度判断不一致），强调自评互评达成共识的重要性。用“婚前协议”类比：项目尚未赚钱时是摊牌的最佳时机。指出初步计算比例只是起点，仍需合同规范配套。
+    role: limitation
+    src:
+    - paper: docs/202301-02/C0dydiFPCoBI3LxemwWcXpdxn2e.md
+  - 'no': 5
+    name: 单一变现风险：不要把所有鸡蛋放一个篮子里
+    desc: 警示变现渠道单一化的风险：2024年大量美妆博主因广告下滑而停更。用“独木桥”类比单一收入来源的脆弱性，强调要有基本盘（自有店铺/项目）兜底。
+    role: limitation
+    src:
+    - paper: docs/202301-02/E1WGd70YLoaHGfxAYJTc4WoFnsd.md
+- 'no': 3
+  name: 获客与流量 —— 从“被动等待”到“主动截流”
+  desc: 本章系统拆解从公域到私域的获客方法论：如何做内容、如何选渠道、如何低成本让客户主动上门。类比“水库引水”：既要有上游来水（公域流量），也要修好蓄水池（私域运营）。
+  nodes:
+  - 'no': 1
+    name: 内容不“自嗨”：模仿→优化→创新
+    desc: 讲解小红书内容SOP的起点：先定位再选题，先模仿再超越。用“学书法先临帖”类比，揭示内容创作者如何通过爆款拆解快速起号，而非闭门造车。
+    role: method
+    src:
+    - paper: docs/202301-02/E1WGd70YLoaHGfxAYJTc4WoFnsd.md
+  - 'no': 2
+    name: 全域获客矩阵：发挥渠道组合拳
+    desc: 以胖龟找房在抖音、快手、小红书、58、转转等多平台发掘租客为例，展示矩阵式获客法。用“撒网捕鱼”类比：多平台覆盖增大触达概率，但需针对不同平台定制打法。
+    role: method
+    src:
+    - paper: docs/202301-02/PglAdRMiIoVTRyxc4Q3cw8hvnWf.md
+  - 'no': 3
+    name: 蹭流截流开店：借他人的势
+    desc: 解析在传统中介隔壁开“0中介费”店铺的截流策略：利用自然客流和门头标语实现精准导流。类比“借东风”，低成本获取精准客户，甚至击垮标杆竞对。
+    role: method
+    src:
+    - paper: docs/202301-02/PglAdRMiIoVTRyxc4Q3cw8hvnWf.md
+  - 'no': 4
+    name: 私域转化：端着金饭碗别讨饭
+    desc: 讲解私域用户的价值定位：专业型用户应服务高客单需求，而非做低价值社群团购。用“金饭碗”类比私域的专业价值，详细介绍咨询SOP表格对转化效率的提升作用。
+    role: method
+    src:
+    - paper: docs/202301-02/E1WGd70YLoaHGfxAYJTc4WoFnsd.md
+  - 'no': 5
+    name: 投放渠道投产比实测：用数据说话
+    desc: 对比抖音、本地自媒体、汽车广播的投放效果差异，用投产比数据揭示“抖音>本地自媒体>汽车广播”的渠道价值排序，强调本地项目投放必投本地的结论。
+    role: experiment
+    src:
+    - paper: docs/202301-02/PglAdRMiIoVTRyxc4Q3cw8hvnWf.md
+- 'no': 4
+  name: 复制与扩张 —— 从“单点跑通”到“矩阵放大”
+  desc: 本章讲解项目验证后如何复制放大：从1+1+1项目矩阵到城市合伙人制度，从人海战术到加盟赋能，帮助读者建立可复制的增长思维。类比“工厂流水线”：标准化才能规模生产。
+  nodes:
+  - 'no': 1
+    name: 1+1+1项目矩阵：持续造血
+    desc: 讲解老杨提出的娱乐直播项目矩阵：1个在盈利、1个在开发、1个做知识付费。用“三灶同炊”类比，实现现金流、储备、溢价的良性循环，并说明项目生命周期2-6个月的理论依据。
+    role: method
+    src:
+    - paper: docs/202301-02/FCiidWBeJoLOT1xreYnc9Se4nOf.md
+  - 'no': 2
+    name: 加盟赋能一条龙：复制你的成功
+    desc: 以美业加盟商接收脚本、SOP、课程“拿来即用”为例，讲解如何将自身打法标准化、产品化，赋能合伙人。类比“加盟店=直营店的克隆体”，分享四大赋能维度。
+    role: method
+    src:
+    - paper: docs/202301-02/E1WGd70YLoaHGfxAYJTc4WoFnsd.md
+  - 'no': 3
+    name: 城市合伙人制度：从洛阳到上海
+    desc: 详解胖龟找房的区域合伙人计划——城市管家：平台提供房源库、配房人员、带看流程，合伙人只需维护用户。类比“铺设铁路网”，标准化基建后各站即可快速通行。
+    role: method
+    src:
+    - paper: docs/202301-02/PglAdRMiIoVTRyxc4Q3cw8hvnWf.md
+  - 'no': 4
+    name: 数据佐证：从1到N的营收跃迁
+    desc: 以胖龟找房第一年8家门店、287名会员、104.7万营收及业务迭代后月入15w的成绩，对比单店模型，验证复制扩张逻辑的实际效果。
+    role: experiment
+    src:
+    - paper: docs/202301-02/PglAdRMiIoVTRyxc4Q3cw8hvnWf.md
+- 'no': 5
+  name: 团队与治理 —— 从“分好钱”到“走更远”
+  desc: 本章聚焦内部治理：如何分好股权、如何建设团队、如何避坑。核心是“规则前置”理念：在顺境时把丑话说在前面，才能避免逆境时翻脸。类比“地基与承重墙”：看不见的治理决定看得见的高度。
+  nodes:
+  - 'no': 1
+    name: 创始人身份的本质是风险承担
+    desc: 讲解创始人身份为何是最重要的维度：它代表谁承担最大风险和兜底责任，谁就最有控制权。公司对外只能有一个声音，创始人身份必须从开始极度明确。
+    role: definition
+    src:
+    - paper: docs/202301-02/C0dydiFPCoBI3LxemwWcXpdxn2e.md
+  - 'no': 2
+    name: 时间投入≠全职兼职：匹配里程碑才是关键
+    desc: 指出约60%项目的合伙人其实都全职参与，因此衡量时间投入不能只看全职兼职，更要看产出是否匹配项目里程碑及愿意引进的资源。用“投入产出比”类比理解。
+    role: extension
+    src:
+    - paper: docs/202301-02/C0dydiFPCoBI3LxemwWcXpdxn2e.md
+  - 'no': 3
+    name: 资金投入与风险意愿的信号价值
+    desc: 解读资金投入不仅是为项目输血，更是判断合伙人对项目的信心和承担风险意愿的信号。用“愿下多少注”类比赌上真金白银的态度差异。
+    role: definition
+    src:
+    - paper: docs/202301-02/C0dydiFPCoBI3LxemwWcXpdxn2e.md
+  - 'no': 4
+    name: 团队招聘避坑：经验固化 vs 白纸可塑
+    desc: 用胖龟找房的招聘经验说明：招有固化思维的房产销售不如招刚毕业大学生，因为前者难以转变“推荐房子”思维为“会员转化”思维。类比“旧瓶难装新酒”。
+    role: experiment
+    src:
+    - paper: docs/202301-02/PglAdRMiIoVTRyxc4Q3cw8hvnWf.md
+  - 'no': 5
+    name: 股权起点非终点：配套合同规范
+    desc: 强调五步法计算的股权比例只是起点，还需搭配一致行动权、期权池、分红奖励、回购权、优先清算权、领售权等一系列合同规范与调整。用“门框与门锁”类比：定了框架还需装好锁。
+    role: limitation
+    src:
+    - paper: docs/202301-02/C0dydiFPCoBI3LxemwWcXpdxn2e.md
+  - 'no': 6
+    name: 融资避坑：识别骗子公司
+    desc: 提醒创始团队融资时警惕缴纳各种名义费用的骗子公司，强调最好有人推荐、不盲目缴费的原则。类比“看病找对人”：正规医院不会先收挂号费再诊病？
+    role: limitation
+    src:
+    - paper: docs/202301-02/PglAdRMiIoVTRyxc4Q3cw8hvnWf.md
+- 'no': 6
+  name: 案例复盘与趋势洞察 —— 从“我做到了”到“你可以复制”
+  desc: 本章通过三个完整案例复盘：线上美业、TikTok睡播、0中介费找房，提炼可迁移的成功因子与需警惕的陷阱。同时分析行业周期与趋势，帮助读者建立“看懂赛道”的战略能力。类比“解剖麻雀”：看清一只，便知一群。
+  nodes:
+  - 'no': 1
+    name: 线上美业复盘：从2万到年利润百万
+    desc: 完整回顾夕子从辞职到年利润过百万的路径：痛点起家→付费学习→小红书爆款→私域高客单→自建品牌→开放加盟。用“爬楼梯”类比每步进阶的必然性。
+    role: experiment
+    src:
+    - paper: docs/202301-02/E1WGd70YLoaHGfxAYJTc4WoFnsd.md
+  - 'no': 2
+    name: TikTok睡播：从0到1的冷启动数据
+    desc: 用单小时均100美金、峰值在线4.2万、新号2天破500等硬核数据展示项目冷启动的真实表现，并讲解简陋直播间也能破万在线的经验启示。
+    role: experiment
+    src:
+    - paper: docs/202301-02/FCiidWBeJoLOT1xreYnc9Se4nOf.md
+  - 'no': 3
+    name: 产品定位五维拆解法：产品狗的思维
+    desc: 讲解老杨在产品开发前用的五维拆解法：产品定位、用户群体、用户价值、竞对分析、本地化。用“做菜先定菜系”类比，任何新项目开发都应有章法。
+    role: method
+    src:
+    - paper: docs/202301-02/FCiidWBeJoLOT1xreYnc9Se4nOf.md
+  - 'no': 4
+    name: 对标竞品：做像素级拆解
+    desc: 讲述老杨如何通过“多看、多拆解、多测试”三法开发新项目，从宏观盈利点到微观模仿，做到看到直播间就知道怎么玩。类比“庖丁解牛”的熟能生巧。
+    role: method
+    src:
+    - paper: docs/202301-02/FCiidWBeJoLOT1xreYnc9Se4nOf.md
+  - 'no': 5
+    name: 存量时代：行业洗牌中的机会
+    desc: 分析房地产从增量到存量市场的周期切换，传统中介的煎熬期恰好是新模式（平台撮合、信息透明）的窗口期。类比“换季清仓”：旧模式出清时正是新模式进场时。
+    role: motivation
+    src:
+    - paper: docs/202301-02/PglAdRMiIoVTRyxc4Q3cw8hvnWf.md
+  - 'no': 6
+    name: 向有结果的人学习，复制再创新
+    desc: 提炼夕子与老杨共同的成功因子：付费学习、向有结果的人请教、复制后再创新。用“站在巨人肩膀上”类比知识付费的价值，强调闭门造车不可取。
+    role: method
+    src:
+    - paper: docs/202301-02/E1WGd70YLoaHGfxAYJTc4WoFnsd.md
+    - paper: docs/202301-02/FCiidWBeJoLOT1xreYnc9Se4nOf.md
