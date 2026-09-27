@@ -1,0 +1,101 @@
+citation_stats:
+- paper: P001
+  count: 3
+  locations:
+  - '42.3'
+  - '42.5'
+  - '42.9'
+- paper: P002
+  count: 5
+  locations:
+  - '42.4'
+  - '42.13'
+  - '42.14'
+  - '42.9'
+  - '42.12'
+- paper: P003
+  count: 4
+  locations:
+  - '42.5'
+  - '42.14'
+  - '42.9'
+  - '42.12'
+- paper: P004
+  count: 4
+  locations:
+  - '42.6'
+  - '42.14'
+  - '42.9'
+  - '42.12'
+- paper: P005
+  count: 2
+  locations:
+  - '42.7'
+  - '42.9'
+- paper: P006
+  count: 3
+  locations:
+  - '42.8'
+  - '42.9'
+  - '42.12'
+- paper: P007
+  count: 3
+  locations:
+  - '42.9'
+  - '42.14'
+  - '42.12'
+- paper: P008
+  count: 2
+  locations:
+  - '42.10'
+  - '42.9'
+- paper: P009
+  count: 3
+  locations:
+  - '42.11'
+  - '42.9'
+  - '42.12'
+- paper: P010
+  count: 2
+  locations:
+  - '42.12'
+  - '42.9'
+unsupported_claims:
+- location: '42.5'
+  claim: 溢价倍数叠加公式推导：实际最高出价 = 基础出价 × 地域溢价倍数 × 时段溢价倍数
+  reason: 素材中未找到该公式推导过程，仅有示例计算
+- location: '42.5'
+  claim: 高价产品扩量阈值判定公式：扩量条件 = (实测加粉成本 ≤ 预设承受成本 / 3) ∧ (后端转化率 ≥ 15%) ∧ (单品利润 ≥ 2000
+    元)
+  reason: 素材中未明确给出此布尔判定公式，仅有文字描述
+- location: '42.14'
+  claim: 作者实测信息流不赚钱后果断放弃
+  reason: 素材中仅提及作者尝试信息流广告、烧钱无果后果断放弃，未见实测数据或周期
+- location: '42.14'
+  claim: 手动出价虽繁琐，但能让运营者在每一个决策节点施加人为约束
+  reason: 素材中未对比手动/自动出价的具体繁琐程度与收益差异
+missing_concepts:
+- paper: P002
+  concept: 淘宝/5118选品具体操作SOP（如关键词筛选标准、店铺深挖步骤）
+  severity: high
+- paper: P003
+  concept: 低价/高价产品止损线与扩量阈值的动态调整机制
+  severity: medium
+- paper: P004
+  concept: 否词维护的具体频次与SOP（如每日/每周、搜索词报告筛选标准）
+  severity: high
+- paper: P005
+  concept: 落地页技术实现细节（微信号防屏蔽、一键复制跳转链接、加载速度优化）
+  severity: high
+- paper: P006
+  concept: 算法迭代周期与历史经验失效的具体案例/时间窗口
+  severity: medium
+- paper: P008
+  concept: 跨平台复用时的差异化适配清单（创意素材/落地页话术/定向标签微调标准）
+  severity: high
+- paper: P009
+  concept: 试错预算制的具体设计（单品/月度/项目级预算上限、并行测试数量）
+  severity: medium
+- paper: P010
+  concept: 达人投放数据穿透的具体技术方案（UTM参数/专属链接/进群码/优惠码生成与归因）
+  severity: high
