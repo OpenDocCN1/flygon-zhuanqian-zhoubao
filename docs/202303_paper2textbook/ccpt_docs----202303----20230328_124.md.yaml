@@ -1,0 +1,89 @@
+paper: docs/202303/20230328_124.md
+desc: 该素材是一份2023年3月发布的AI绘画应用站点资源清单，作者收集并简要介绍了10个主流AI绘画提示词检索、生成辅助及作品展示平台，涵盖OpenArt.ai、Lexica.art、Promptomania.com等工具，旨在帮助创作者通过检索海量案例库、使用结构化提示词构建器、参考艺术家风格研究等方式，快速获取Midjourney、Stable
+  Diffusion、DALL·E2等主流生成模型的创作灵感与标准化Prompt，部分站点特别针对中文用户及特定题材（如女性头像）进行了本地化适配。
+concepts:
+- name: AI绘画提示词检索引擎
+  desc: 聚合多模型（Midjourney、Stable Diffusion、DALL·E2等）生成图像及其对应Prompt的可搜索数据库，支持关键词/图片反向检索，作为创作者的灵感库与参考标准。
+  is_original: false
+  excerpt:
+  - 平台提供搜索 DALL·E2、Midjourney、Stable Diffusion 生成的 1000 万+ AI 艺术和提示词。
+  - 该网站拥有数百万 Stable Diffusion 案例的文字描述和图片
+  - 这个站点收藏了数百万张 Stable Diffusion 生成的实例，同样支持关键词检索功能
+- name: 结构化Prompt构建器
+  desc: 通过可视化界面提供风格、色彩、插画师、比例等参数模板，自动生成符合特定AI工具（如Midjourney、NovelAI、Stable Diffusion）语法规范的Prompt文本，降低Prompt
+    Engineering门槛。
+  is_original: false
+  excerpt:
+  - 提供多种智能 AI 绘画工具...的关键词(Prompts )文本描述模板。最终工具可以自动生成所选 AI 工具规范的 AI 绘画关键词，提供色彩、风格、插画师、图片比例等描述词
+  - 还提供了针对不同平台 Midjourney、Novel 、Stable 关键词生成器
+- name: 艺术家风格迁移参考库
+  desc: 收集特定艺术家名称在Disco Diffusion等模型中的输出风格案例，建立艺术家名词与视觉风格的映射关系，供创作者在Prompt中调用特定风格。
+  is_original: false
+  excerpt:
+  - 使用 Disco Diffusion 将艺术家研究的集合放在一个地方，以帮助大家了解使用不同艺术家姓名会得到什么样的风格。
+- name: 中文语境本地化适配
+  desc: 针对中文用户习惯，提供中文界面、中文关键词支持及特定题材（如女性头像）丰富案例的AI绘画资源站，降低语言与文化障碍。
+  is_original: false
+  excerpt:
+  - 适合中文用户，这个网站不仅有大量 AI 绘画作品关键词可以参考
+  - 适合中文，女性头像比较多。
+  - 适合中文关键词，功能很棒。
+methods:
+- name: __overview__
+  desc: 资源清单编纂法：通过罗列工具名称、核心功能定位、支持模型范围、特色功能（如开源、收藏分组、中文支持）及访问链接，构建面向AI绘画创作者的工具导航体系。
+  excerpt:
+  - 收集了部分 Ai 绘画的应用站，感兴趣的朋友可以深度探索。
+  - 1、OpenArt.ai ... 2、arthub.ai ... 3、promptomania.com ... 4、lexica.art ... 5、MidJourney
+    prompt Helper ... 6、KREA.ai ... 7、AI 画廊 ... 8、weirdwonderfulai.art ... 9、... 10、词图
+    ...
+- name: 多模型Prompt统一检索
+  desc: 在单一平台聚合检索DALL·E2、Midjourney、Stable Diffusion等异构模型的生成结果与Prompt，支持跨模型对比与迁移学习。
+  excerpt:
+  - 平台提供搜索 DALL·E2、Midjourney、Stable Diffusion 生成的 1000 万+ AI 艺术和提示词。
+- name: 参数化Prompt模板生成
+  desc: 将Prompt拆解为风格、媒介、艺术家、构图、参数等结构化槽位，提供下拉选单或标签选择，一键导出符合目标模型语法的指令字符串。
+  excerpt:
+  - 提供色彩、风格、插画师、图片比例等描述词，帮你描述出想要的画面。
+  - 针对不同平台 Midjourney、Novel 、Stable 关键词生成器
+- name: 社区化资产管理
+  desc: 引入点赞、收藏、分组等社交化功能，将公共检索库转化为用户个人的私有素材库，支持创作流程的复用与迭代。
+  excerpt:
+  - 该网站还提供收藏点赞分组功能，方面用户后期自己查看喜欢的作品
+theorems:
+- name: 工具链分层协作范式
+  desc: AI绘画创作流程可分解为‘灵感检索（搜索站）→ 词法构建（Prompt生成器）→ 风格定向（艺术家研究库）→ 本地化执行（中文站点/特定题材站）’四个协作层级，不同工具站点各司其职，共同降低从构思到成图的认知负荷。
+  excerpt:
+  - 1、OpenArt.ai ... 可以为创作者提供创作灵感。
+  - 3、promptomania.com ... 帮你描述出想要的画面。
+  - 8、weirdwonderfulai.art ... 帮助大家了解使用不同艺术家姓名会得到什么样的风格。
+  - 7、AI 画廊 ... 适合中文用户 ... 9、适合中文，女性头像比较多。
+- name: 开放生态与开源优先原则
+  desc: 优质AI绘画工具站点倾向于开放数据（千万级案例库）、开放接口（支持多模型）、开源代码（如KREA.ai），构建共享而非封闭的创作基础设施。
+  excerpt:
+  - 平台提供搜索 DALL·E2、Midjourney、Stable Diffusion 生成的 1000 万+ AI 艺术和提示词。
+  - 目前已经开源。
+findings:
+- name: 主流站点功能同质化与差异化并存
+  desc: '[evidence] 素材列举的10个站点中，OpenArt、Arthub、Lexica、KREA均提供‘海量案例+关键词检索’核心功能（同质化），但OpenArt主打多模型聚合，KREA主打开源与收藏分组，Lexica专注SD生态，Arthub强调分类浏览（差异化）。'
+  excerpt:
+  - 1、OpenArt.ai ... 支持关键词搜索 ... 搜索 DALL·E2、Midjourney、Stable Diffusion
+  - 2、arthub.ai ... 对不同图片类型进行分类，方便查看。
+  - 4、lexica.art ... 拥有数百万 Stable Diffusion 案例 ... 支持关键词或上传图片搜索
+  - 6、KREA.ai ... 收藏了数百万张 Stable Diffusion 生成的实例 ... 提供收藏点赞分组功能，目前已经开源
+- name: Prompt工程工具向结构化、多模型适配演进
+  desc: '[evidence] Promptomania、AI画廊、PromptTool等工具不再仅提供词汇表，而是提供包含风格、艺术家、参数（比例等）的结构化表单，并针对Midjourney、NovelAI、Stable
+    Diffusion等不同语法输出差异化Prompt，体现Prompt Engineering向标准化、工具化发展。'
+  excerpt:
+  - 3、promptomania.com ... 提供色彩、风格、插画师、图片比例等描述词 ... 自动生成所选 AI 工具规范的 AI 绘画关键词
+  - 7、AI 画廊 ... 提供了针对不同平台 Midjourney、Novel 、Stable 关键词生成器
+  - 10、词图 ... 适合中文关键词
+- name: 中文生态与垂直题材存在显著供给缺口
+  desc: '[claim] 作者特意标注‘适合中文用户’、‘适合中文关键词’、‘女性头像比较多’作为第7、9、10项的核心卖点，暗示主流国际站点（前6项）在中文语义理解、本土审美分类及特定垂类素材上存在不足，催生了本地化工具需求。'
+  excerpt:
+  - 7、AI 画廊 ... 适合中文用户
+  - 9、适合中文，女性头像比较多。
+  - 10、词图 ... 适合中文关键词，功能很棒。
+- name: 艺术家风格词汇表是Prompt设计的核心资产
+  desc: '[evidence] 专门收录第8项‘weirdwonderfulai.art’，该站点仅聚焦‘70+艺术家在Disco Diffusion中的风格研究’，说明‘艺术家名称’作为Prompt中最高权重的风格控制Token，其视觉效果确定性需通过专门的实验性资产库来校准。'
+  excerpt:
+  - 8、weirdwonderfulai.art ... 使用 Disco Diffusion 将艺术家研究的集合放在一个地方，以帮助大家了解使用不同艺术家姓名会得到什么样的风格。

@@ -1,0 +1,47 @@
+paper: docs/202303/20230328_001.md
+desc: 该素材为一份名为“龙哥赚钱周报”的付费社群周报索引文档，主要包含文档来源链接、更新频率说明、内容组织形式（分类标签、互动数据）及版权保护声明，不包含具体的商业案例、赚钱方法论或核心观点实质内容。
+concepts:
+- name: 龙哥赚钱周报
+  desc: 一个持续更新的付费社群核心交付物，承载“龙哥风向标”核心内容的周度汇总载体。
+  is_original: true
+  excerpt:
+  - '# 🍔230405 龙哥赚钱周报'
+  - 每周更新，龙哥风向标另外文档分享。
+- name: 龙哥风向标
+  desc: 社群核心内容体系的统称，周报为其定期输出的呈现形式之一。
+  is_original: true
+  excerpt:
+  - 龙哥风向标另外文档分享。
+- name: 专属群
+  desc: 提供该周报内容的付费会员社群，具有准入门槛与版权保护机制。
+  is_original: true
+  excerpt:
+  - 如果感觉专属群有价值，可以邀请朋友进群。
+  - 请勿外流，防止失效。
+methods:
+- name: __overview__
+  desc: 基于语雀平台的周度内容运营与分发方法：通过固定链接归档、分类标签（中括号）结构化组织、引用社交互动数据（点赞/精华/评论图）增强可信度、版权声明控制传播范围。
+  excerpt:
+  - '> 原文：[`www.yuque.com/for_lazy/thfiu8/kwmmwmpst1l0rrak`](https://www.yuque.com/for_lazy/thfiu8/kwmmwmpst1l0rrak)'
+  - 【中括号】为分类，帖子内含点赞数和是否精华帖，带评论图片等。
+  - 每周更新
+  - 请勿外流，防止失效。
+theorems:
+- name: 稀缺性驱动价值主张
+  desc: 通过‘请勿外流、防止失效’的版权控制手段，构建内容稀缺性，强化专属群的付费价值感知与会员留存。
+  excerpt:
+  - 请勿外流，防止失效。如果感觉专属群有价值，可以邀请朋友进群。
+- name: 社交背书增强可信度
+  desc: 在内容索引中显式标注点赞数、精华帖标识及评论图片，利用群体社交信号作为内容质量的外部背书，降低新成员的信任决策成本。
+  excerpt:
+  - 帖子内含点赞数和是否精华帖，带评论图片等。
+findings:
+- name: 文档结构完整性缺失
+  desc: '[evidence] 该素材仅为周报的封面/目录页，正文内容（具体帖子、案例、方法论）缺失，无法提取实质性的商业洞察、案例结论或可复用模型。'
+  excerpt:
+  - （文档除标题、链接、说明外，无后续具体周报条目内容）
+- name: 内容载体依赖外部链接
+  desc: '[evidence] 核心内容寄宿于语雀外部链接（`www.yuque.com/for_lazy/thfiu8/kwmmwmpst1l0rrak`），当前素材仅作入口索引，存在链接失效导致内容永久不可获取的风险（呼应‘防止失效’）。'
+  excerpt:
+  - '> 原文：[`www.yuque.com/for_lazy/thfiu8/kwmmwmpst1l0rrak`](https://www.yuque.com/for_lazy/thfiu8/kwmmwmpst1l0rrak)'
+  - 请勿外流，防止失效。

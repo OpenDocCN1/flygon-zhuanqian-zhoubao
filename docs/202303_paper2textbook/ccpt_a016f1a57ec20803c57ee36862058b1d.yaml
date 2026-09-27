@@ -1,0 +1,48 @@
+paper: docs/202303/20230328_130.md
+desc: 该素材记录了 2023 年 3 月 24 日 OpenAI 发布 ChatGPT 插件功能（含联网能力）的重大产品更新事件，以及知识星球社群成员对此技术突破的即时反应与开发热情。
+concepts:
+- name: ChatGPT Plugins (ChatGPT 插件功能)
+  desc: OpenAI 推出的扩展机制，允许 ChatGPT 调用第三方工具与 API，打破模型知识截止与无法联网的限制，实现实时信息检索、代码执行、业务流程对接等能力。
+  is_original: true
+  excerpt:
+  - ChatGPT 王炸更新宣布推出插件功能，赋予 ChatGPT 联网的功能。
+- name: AI Agent Ecosystem (AI Agent 生态/插件生态)
+  desc: 基于大模型能力之上，通过标准化接口连接外部工具与数据源，形成的应用开发新范式雏形。
+  is_original: false
+  excerpt:
+  - 请星球的程序员评论区列队集合，准备出发。
+methods:
+- name: __overview__
+  desc: 素材未提供技术实现细节，仅记录产品发布事件与社群动员。核心方法论隐含为：关注前沿模型能力更新 -> 评估工程化接入机会 -> 快速组织开发资源抢占生态红利。
+  excerpt:
+  - 请星球的程序员评论区列队集合，准备出发。
+theorems:
+- name: Plugins as Inflection Point (插件功能为 AI 应用开发的拐点)
+  desc: ChatGPT 插件功能的推出标志着大模型从封闭的‘聊天机器人’转向开放的‘智能操作系统/平台’，将引爆 AI 原生应用开发浪潮。
+  excerpt:
+  - ChatGPT 王炸更新宣布推出插件功能，赋予 ChatGPT 联网的功能。
+  - 请星球的程序员评论区列队集合，准备出发。
+- name: First-mover Advantage in Plugin Ecosystem (插件生态先发优势)
+  desc: 在插件生态早期进入的开发者将获得流量、品牌与数据积累的复利优势，需快速响应、抢占入口。
+  excerpt:
+  - 请星球的程序员评论区列队集合，准备出发。
+findings:
+- name: Developer Community Immediate Mobilization (开发者社群即时动员与高响应度)
+  desc: '[evidence] 素材评论区显示 8 位核心成员在极短时间内集结响应，展现出技术社群对重大平台能力开放的高敏感度与执行力。'
+  excerpt:
+  - '大白白 : 出发'
+  - 'shijinzhan : 来了'
+  - 'Charliex : 来啦'
+  - 'Holly 软件开发 : 出发'
+  - '有霸夫 : 先申请'
+  - '学长刚蝈 : 出发，带我一个'
+  - '啊洛 : 出发'
+  - 'MiaoWoo : 出发'
+- name: Plugin Access Application as First Step (申请内测资格为首要行动)
+  desc: '[claim] 社群成员‘有霸夫’提出‘先申请’，反映插件功能初期为邀请制/申请制，获取开发者资质是参与生态建设的前置门槛。'
+  excerpt:
+  - '有霸夫 : 先申请'
+- name: Mentorship & Collaboration Demand (带队协作需求)
+  desc: '[evidence] 成员‘学长刚蝈’呼吁‘带我一个’，揭示新技术范式下初学者对经验引导、组队协作的强烈诉求。'
+  excerpt:
+  - '学长刚蝈 : 出发，带我一个'

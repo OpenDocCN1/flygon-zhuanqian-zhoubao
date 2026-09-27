@@ -1,0 +1,110 @@
+paper: docs/202303/A27Md68WVox13FxPZFeczOVgnKc.md
+desc: 该素材由资深产品经理三林分享，系统梳理了 ChatGPT API 开放前后涌现的浏览器插件生态现状。文章从产品发现渠道切入，将主流插件归类为提示词集成类、文本处理类、效率工具类、原有业务赋能类四大类别，并结合
+  AIPRM、ChatGPT for Google、ChatGPT Writer、ShareGPT、ChatGPT for Amazon 等典型案例，深度剖析了核心交互设计（如触发模式）、商业化路径（免费增值）、技术赋能逻辑（NLP
+  能力平权）及出海策略。核心观点认为：浏览器插件依托网页增强能力贴合 ChatGPT 使用场景，Prompt 即核心生产力与流量密码，API 开放将催生更多 Mini
+  Tool 与 Mini SaaS，创业者应结合业务场景大胆赋能并优先考虑出海。
+concepts:
+- name: 浏览器插件增强范式
+  desc: 指利用浏览器插件对网页原生功能进行增强的产品形态。因 ChatGPT 官方为网页版，插件可在用户熟悉场景下无缝集成，弥补原生体验不足，站在巨人肩膀上快速交付价值。
+  is_original: true
+  excerpt:
+  - 因为 ChatGPT 官方正版是一个网页版，浏览器插件的对网页的 Enhance 能力，在用户熟悉的场景下做的体验升级，贴合用户习惯，乐于使用。这弥补了原生产品的不足，相当于站在巨人肩膀上做事。
+- name: Prompt 即密码/财富密码
+  desc: 核心隐喻：ChatGPT 如魔法百宝箱，Prompt 是开启其能力的钥匙。掌握高质量 Prompt 设计与分发能力，即掌握了流量入口与商业变现核心。
+  is_original: true
+  excerpt:
+  - ChatGPT 是魔法百宝箱，密码就是 Prompts，这是流量密码，也是财富密码。
+- name: Mini Tool / Mini SaaS 定律
+  desc: 描述 AI 应用开发颗粒度的新范式：单个 Prompt 可构成一个微型工具，一组系统化 Prompt 可构成一个微型 SaaS 产品，极大降低了应用开发门槛。
+  is_original: true
+  excerpt:
+  - 一句 Prompt 等于一个 Mini tool，一套 Prompts 等于一个 Mini SAAS
+- name: 触发模式
+  desc: ChatGPT for Google 核心交互设计概念，指用户可自主控制插件何时调用 ChatGPT 接口（始终/问号触发/手动），平衡了响应速度与
+    API 成本/干扰度，将控制权交还用户。
+  is_original: true
+  excerpt:
+  - Trigger Mode（触发模式） * Always：每次谷歌搜索都查询响应 * Question Mark：当带上问号 ？时，才响应 * Manually：默认不响应，需要的时候再点击一下。
+- name: NLP 能力平权/技术底层转型
+  desc: 指大模型出现后，传统 NLP 技术壁垒消失，垂直领域 SaaS 可直接调用通用大模型能力覆盖长尾场景，从‘研究 NLP’转向‘用好 NLP’，实现产品体验跃迁。
+  is_original: false
+  excerpt:
+  - 在 ChatGPT 出现以前，虽然对主要大类目很深入，但比较难覆盖全品类。而 ChatGPT 横空出世后，NLP 不存在了…，可以面向更多商家服务了。
+  - 研究 NLP 家破人亡，用好 NLP 鱼翅拌饭。
+methods:
+- name: __overview__
+  desc: 基于 Chrome 应用商店关键词搜索进行产品发现，结合‘看设置项、看定价页’的产品分析框架，按核心价值切入点（Prompt增强/文本处理/效率工具/业务赋能）对生态产品进行分类观察与复盘。
+  excerpt:
+  - 首先，产品发现来自谷歌应用商店的搜索「ChatGPT」
+  - 我看一个工具有什么能力？两个快速办法：一看工具的设置项 Setting，二看价格页 Pricing
+- name: Prompt 模板市场集成法
+  desc: 在 ChatGPT 原生对话界面直接嵌入分类化、可搜索、可一键应用的 Prompt 模板市场，并支持输出语言/风格预设，降低用户提问门槛，提升输出质量。
+  excerpt:
+  - AIPRM 自带了一个 Prompt 模板市场，直接加强在 ChatGPT 的界面。对用户而言，让提问变简单，输出更高质量的结果；此外，我喜欢 TA 可以设定输出语言和语言风格。
+- name: 搜索结果侧边栏同步展示法
+  desc: 在 Google 等搜索引擎结果页侧边栏同步调用 ChatGPT API 返回答案，配合触发模式控制调用时机，实现‘搜索+生成’的双轨并行体验。
+  excerpt:
+  - 产品效果即是在搜索 Google 的同时，该插件同步给到 ChatGPT 的答案。
+  - 触发模式，这个设置，把选择权交给了用户。
+- name: 场景原生嵌入法
+  desc: 将 AI 能力直接嵌入目标应用的原生输入框（如 Gmail 写信框、Notion 编辑器、Amazon 后台），通过划词、右键、快捷键唤起，实现‘选中文本-指令处理-结果回填’的闭环，无需上下文切换。
+  excerpt:
+  - 切入了一些应景的场景：比如贴合在 Gmail 邮件书写框里。
+  - 类似 Notion AI 的交互，选择文本，让 ChatGPT 进一步干活：优化文案、翻译、缩写、扩写…… 都可以配置。
+- name: 垂直领域数据+大模型推理赋能法
+  desc: 原有垂直 SaaS 积累的领域数据（如电商评论、心理咨询语料）结合大模型推理能力，实现从‘结构化分析’到‘生成式洞察/内容产出’的跃迁，覆盖长尾品类并大幅降低开发成本。
+  excerpt:
+  - Shulex VOC 原本已经足够深入电商评论分析，但还能通过 ChatGPT 来提升：高效产出多维度评论分析（产品优缺点、消费者期望），秒出 Listing
+    优化结果，产品体验大幅提升。
+  - 产品「Glowe 阁楼」，其用 ChatGPT 底层技术赋能心理咨询
+theorems:
+- name: 浏览器插件是 ChatGPT 早期生态最佳载体论
+  desc: ChatGPT 官方为网页版，浏览器插件具备天然的网页增强能力，能在用户既有工作流中零成本嵌入 AI 能力，是 API 完全开放前验证需求、积累用户、跑通商业模式的最优产品形态。
+  excerpt:
+  - 因为 ChatGPT 官方正版是一个网页版，浏览器插件的对网页的 Enhance 能力，在用户熟悉的场景下做的体验升级，贴合用户习惯，乐于使用。这弥补了原生产品的不足，相当于站在巨人肩膀上做事。
+- name: Prompt 工程决定产品上限论
+  desc: 让 ChatGPT 提供更好结果的关键在于输入质量（Prompt）。专注于提示词工程（模板市场、参数预设、交互优化）的产品能显著降低用户使用门槛，成为流量入口与付费转化核心。
+  excerpt:
+  - 让 ChatGPT 提供更好的结果的关键在于输入质量，也就是提问的方式。如何提出高质量的问题是一个核心命题。
+  - ChatGPT 是魔法百宝箱，密码就是 Prompts，这是流量密码，也是财富密码。
+- name: API 开放将引爆应用生态长尾论
+  desc: 当前插件生态尚处早期（4个月），API 全面开放后，开发门槛进一步降低，将涌现海量针对细分场景的 Mini Tool 和 Mini SaaS，生态远未到爆发阶段。
+  excerpt:
+  - 有着充分的理由相信，ChatGPT 的 API 开放的当下，会有大量围绕 ChatGPT 的应用产品涌现，形成一个蓬勃发展的应用生态。
+  - 我相信，目前还远没有到爆发的阶段。
+- name: 出海是国内 AI 创业首选策略论
+  desc: 鉴于原生体验（网络访问限制）、内容安全合规等国内环境制约，建议国内创业者优先面向海外市场，利用英文工具站/插件出海，复刻 SEO/产品主导增长路径。
+  excerpt:
+  - 鉴于原生体验、内容安全，建议创业者们出海，这也是我们做英文工具站的意义。
+findings:
+- name: AIPRM 商业化验证：Prompt 市场付费意愿强
+  desc: '[evidence] AIPRM 免费版受限，精选 Prompts 限付费版（$20/月起），现已超 60 万安装量且获海量好评，证明高质量 Prompt
+    模板具有直接付费价值。'
+  excerpt:
+  - 最新消息是 AIPRM 开启了商业化，免费版受限比较多，精选的 Prompts 只限付费版（最低 20 美金/月）使用。现已超过 60 万的安装量，Chrome
+    应用商店里有着来自世界各地网友的好评。
+- name: ChatGPT for Google 百万用户验证：搜索增强为高频刚需
+  desc: '[evidence] 国内开发者开源产品，安装量超 100 万，成为第三方工具用户量第一。验证了‘搜索+生成’的双轨模式符合用户习惯，开源策略加速了生态扩散。'
+  excerpt:
+  - 目前是第三方工具里用户量最多的，超过了 100 万安装量。这是一款开源产品，支持二次开发（划重点）。
+- name: ChatGPT Writer 增长验证：场景原生嵌入驱动起量
+  desc: '[evidence] 专注 Gmail 等原生输入框嵌入的写作插件，增长至 30 万用户。印证‘文本处理’为大模型强项，切入高频写作场景且减少上下文切换能快速获客。'
+  excerpt:
+  - ChatGPT Writer 这个辅助写作插件，定位抓的准，除了随时可以发起创作，还切入了一些应景的场景：比如贴合在 Gmail 邮件书写框里。ChatGPT
+    Writer 目前增长到 30 万安装用户了
+- name: One Prompt = One Mini Tool 验证：YouTube Summary 极简实现
+  desc: '[evidence] YouTube Summary 仅用一个提取字幕+总结的 Prompt 即实现核心功能，验证了‘一个 Prompt 等于一个迷你工具’的低门槛开发范式。'
+  excerpt:
+  - 这个产品实现超级简单：提取 YouTube 的字幕，跳转到 ChatGPT 做总结。我认为这个插件只使用了一个提问相关的 Prompt，一个 Prompt
+    等于一个迷你工具。
+- name: Shulex VOC 转型验证：大模型让垂直 SaaS 覆盖长尾成为可能
+  desc: '[evidence] Shulex VOC 原为大类目深度分析工具，接入 ChatGPT 后实现全品类覆盖、秒出 Listing 优化、多维评论分析，营销借势增长迅猛。证明大模型消解了
+    NLP 长尾建模成本高企的瓶颈。'
+  excerpt:
+  - 在 ChatGPT 出现以前，虽然对主要大类目很深入，但比较难覆盖全品类。而 ChatGPT 横空出世后，NLP 不存在了…，可以面向更多商家服务了。
+  - 高效产出多维度评论分析（产品优缺点、消费者期望），秒出 Listing 优化结果，产品体验大幅提升。而在营销方面，Shulex VOC 利用 ChatGPT
+    热点和跨境圈的红人视频营销，增长势头非常不错。
+- name: Monica 体验反证：模型版本直接决定产品竞争力
+  desc: '[claim] 作者主观判断 Monica 交互设计精美（类 New Bing 侧边栏），但内容生成质量不给力，推测可能调用 GPT-3 而非 3.5/4，侧面印证底层模型能力是体验上限的硬性约束。'
+  excerpt:
+  - 产品设计挺精美的，交互类似 New Bing 唤起侧边栏，可内容生成的质量不太给力，我总觉得用的是 GPT-3 而不是 3.5 或 4
