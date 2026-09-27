@@ -1,0 +1,36 @@
+citation_stats:
+- paper: P002
+  count: 28
+  locations:
+  - ch2.1
+  - ch2.3
+  - ch2.4
+  - ch2.5
+  - ch2.6
+  - ch2.7
+  - ch2.8
+  - ch2.9
+  - ch2.10
+- paper: P003
+  count: 12
+  locations:
+  - ch2.1
+  - ch2.3
+  - ch2.5
+  - ch2.6
+  - ch2.7
+  - ch2.9
+unsupported_claims: []
+missing_concepts:
+- paper: P002
+  concept: 提问质量-能力同构定律的量化剂量-反应关系
+  severity: medium
+- paper: P003
+  concept: 选择题式提问法在情感支持/闲聊场景的适用性边界
+  severity: low
+- paper: P002
+  concept: 高权力距离文化下选择题式提问的本土化话术调整
+  severity: medium
+- paper: P003
+  concept: 方案预置环节中'伪选项'的识别标准与应对
+  severity: high
