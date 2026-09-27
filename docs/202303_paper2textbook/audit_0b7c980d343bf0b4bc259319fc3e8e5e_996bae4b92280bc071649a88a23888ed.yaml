@@ -1,0 +1,74 @@
+citation_stats:
+- paper: P001
+  count: 28
+  locations:
+  - '33.1'
+  - '33.3'
+  - '33.5'
+  - '33.6'
+  - '33.7'
+  - '33.8'
+  - '33.9'
+  - '33.10'
+  - '33.11'
+- paper: P002
+  count: 7
+  locations:
+  - '33.4'
+  - '33.10'
+  - '33.11'
+  - '33.12'
+  - '33.15'
+- paper: P003
+  count: 3
+  locations:
+  - '33.8'
+  - '33.9'
+- paper: P004
+  count: 2
+  locations:
+  - '33.8'
+- paper: P005
+  count: 5
+  locations:
+  - '33.2'
+  - '33.11'
+  - '33.15'
+unsupported_claims:
+- location: '33.3'
+  claim: 爆款标题三要素公式：主体+事件+强调点
+  reason: 素材中仅给出标题拆解示例，未明确提出公式化定义
+- location: '33.7'
+  claim: 关键词三次布局原则（标题/正文/图片≥3次）
+  reason: 素材中提及'三部分加起来至少提及三次'，未明确界定为标题/正文/图片三区各一次
+- location: '33.8'
+  claim: 赞藏比≥2:1.4、阅赞比6-8:1为爆款判定阈值
+  reason: 素材中为作者经验值，非官方基准，且无统计学置信区间
+- location: '33.8'
+  claim: 互动权重排序：评论>收藏>赞
+  reason: 素材中为作者实战推演结论，非平台官方公开算法
+- location: '33.9'
+  claim: 长尾标签冷启动策略：大标签定垂直、小标签抢收录
+  reason: 素材中提及该策略，但未给出'关注数<10万'等具体筛选标准的来源
+- location: '33.11'
+  claim: 7天60%爆文率（5篇3篇万赞）
+  reason: 样本量极小(n=5)，单账号单赛道单周期验证，不具备普适性推广依据
+missing_concepts:
+- paper: P001
+  concept: 后羿采集器二级采集流程（话题页→笔记详情页→用户主页）
+  severity: medium
+- paper: P001
+  concept: 灰豚数据‘达人分类’赛道竞争度分析（教育类头部245w vs 时尚类600w）
+  severity: medium
+- paper: P001
+  concept: 标签收录机制与‘大标签定赛道+小标签抢收录’的底层逻辑
+  severity: high
+- paper: P001
+  concept: 搜索流量占比从1%跃升至61%的具体笔记复盘（英语四级避坑指南）
+  severity: high
+- paper: P001
+  concept: 评论区运营SOP：文案引导提问+号主前50条必回+置顶优质评论
+  severity: medium
+- paper: P001
+  concept: 工具链协作模式：工具是员工、人是老板、工具跑数据人做决策
+  severity: medium
