@@ -1,0 +1,72 @@
+citation_stats:
+- paper: '20230328_146'
+  count: 8
+  locations:
+  - '39.1'
+  - '39.3'
+  - '39.5'
+  - '39.7'
+  - '39.8'
+  - '39.9'
+  - '39.11'
+  - '39.12'
+- paper: MwIYdeZNio8bWUxAEGCcOhO2nlc
+  count: 16
+  locations:
+  - '39.1'
+  - '39.3'
+  - '39.4'
+  - '39.5'
+  - '39.6'
+  - '39.7'
+  - '39.8'
+  - '39.9'
+  - '39.11'
+  - '39.12'
+- paper: 20230328_146.md
+  count: 2
+  locations:
+  - '39.1'
+  - '39.3'
+- paper: MwIYdeZNio8bWUxAEGCcOhO2nlc.md
+  count: 1
+  locations:
+  - '39.1'
+unsupported_claims:
+- location: '39.4'
+  claim: 作者认为这是其"剪辑技术不太好，但爆款率却相对较高"的核心原因
+  reason: 素材中未找到作者明确表述该观点为核心原因的直接引述，仅在MwIYdeZN素材中提到"爆款率却相对较高的原因之一"
+- location: '39.5'
+  claim: 单部剧可产出10-20条差异化视频
+  reason: 素材中提到"单部剧可产出10-20条差异化视频"，但未给出具体操作验证数据或案例支撑
+- location: '39.6'
+  claim: 全流程仅需剪映免费版，单条≤5分钟，可做成草稿模板/RPA脚本批量复用
+  reason: 素材中未明确提及"免费版"、"草稿模板"或"RPA脚本"，仅描述7步操作流程
+- location: '39.7'
+  claim: 巨量算数四维指标量化了供需错配
+  reason: 素材中引用作者巨量算数截图验证，但未提供巨量算数官方指标定义文档作为权威来源
+- location: '39.8'
+  claim: 止损线100条基于"负二项分布"统计学设定
+  reason: 素材中未提及负二项分布，该统计学推导为全书新增解读，非素材原文观点
+- location: '39.8'
+  claim: 平台若推出"同主体关联账号限流"策略，矩阵模式将失效
+  reason: 素材中仅为作者推测性表述"平台若推出...矩阵模式将失效"，无官方公告或白皮书引用支撑
+missing_concepts:
+- paper: MwIYdeZNio8bWUxAEGCcOhO2nlc
+  concept: 巨量算数四维指标官方定义文档
+  severity: high
+- paper: MwIYdeZNio8bWUxAEGCcOhO2nlc
+  concept: 抖音星图短剧原创保护计划公告
+  severity: high
+- paper: MwIYdeZNio8bWUxAEGCcOhO2nlc
+  concept: 行业短剧版权授权政策变迁白皮书
+  severity: high
+- paper: MwIYdeZNio8bWUxAEGCcOhO2nlc
+  concept: AI视频理解能力替代人工预剪辑的技术成熟度时间表
+  severity: medium
+- paper: MwIYdeZNio8bWUxAEGCcOhO2nlc
+  concept: 平台原创度算法升级历程（光流/动作轨迹/语义检测上线时间）
+  severity: high
+- paper: MwIYdeZNio8bWUxAEGCcOhO2nlc
+  concept: 同主体关联账号限流风险的平台公告/行业白皮书引用
+  severity: high
