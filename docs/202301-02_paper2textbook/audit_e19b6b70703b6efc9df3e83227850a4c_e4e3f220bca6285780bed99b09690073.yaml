@@ -1,0 +1,69 @@
+citation_stats:
+- paper: P003
+  count: 9
+  locations:
+  - '34.4'
+  - '34.7'
+  - '34.11'
+  - '34.12'
+  - '34.14'
+- paper: P004
+  count: 2
+  locations:
+  - '34.6'
+- paper: P005
+  count: 5
+  locations:
+  - '34.3'
+  - '34.12'
+  - '34.14'
+- paper: P006
+  count: 12
+  locations:
+  - '34.5'
+  - '34.7'
+  - '34.8'
+  - '34.9'
+  - '34.10'
+  - '34.11'
+- paper: P007
+  count: 5
+  locations:
+  - '34.7'
+  - '34.11'
+  - '34.13'
+- paper: P011
+  count: 6
+  locations:
+  - '34.4'
+  - '34.9'
+  - '34.14'
+unsupported_claims:
+- location: '34.4'
+  claim: 我们所赚的每一百块钱，有九十块钱是时代红利，仅有十块钱是时代对我们个人能力的补偿
+  reason: 素材中未找到支撑该9:1量化比例的实证研究来源，仅为个人经验之谈
+- location: '34.9'
+  claim: 如果聊了 100 个人，只有几个人买，肯定有问题；如果 20-30 个人购买，交了预售金，那这个不确定因素就解决了
+  reason: 素材中未说明该阈值的统计学依据、样本量或置信区间
+- location: '34.13'
+  claim: 懒惰的本质就是没拿到正反馈
+  reason: 素材中将懒惰单一归因于缺乏正反馈，忽略了自我决定理论等心理学经典框架
+- location: '34.12'
+  claim: 商业杠杆来自资本、劳动力和复制边际成本为零的产品（代码和媒体）
+  reason: 虽引用《纳瓦尔宝典》，但未给出书中原文章节或原版播客/推文精确出处
+missing_concepts:
+- paper: P003
+  concept: 幸存者偏差、运气与技能归因的经典研究（如Kahneman《思考，快与慢》）
+  severity: high
+- paper: P005
+  concept: 《纳瓦尔宝典》中杠杆效应的原文出处与具体分类定义
+  severity: high
+- paper: P006
+  concept: 流量价值公式中相关性和信任度的量化模型（如CTR、CVR、LTV）
+  severity: medium
+- paper: P007
+  concept: 自我决定理论（SDT）、期望-价值理论等动机心理学框架
+  severity: medium
+- paper: P011
+  concept: MVP验证中预售转化率阈值的统计学依据与A/B测试方法论
+  severity: medium
