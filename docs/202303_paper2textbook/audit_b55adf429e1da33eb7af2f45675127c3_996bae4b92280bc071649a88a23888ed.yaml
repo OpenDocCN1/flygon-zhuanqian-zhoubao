@@ -1,0 +1,68 @@
+citation_stats:
+- paper: P001
+  count: 30
+  locations:
+  - '38.1'
+  - '38.2'
+  - 38.3.1
+  - 38.3.2
+  - 38.3.3
+  - 38.3.4
+  - 38.3.5
+  - 38.3.6
+  - 38.3.7
+  - '38.4'
+  - '38.5'
+  - ch1.2
+  - ch3.1
+- paper: P002
+  count: 10
+  locations:
+  - 38.3.2
+  - 38.3.4
+  - 38.3.5
+  - '38.4'
+- paper: P003
+  count: 6
+  locations:
+  - 38.3.1
+  - 38.3.3
+  - 38.3.4
+- paper: P004
+  count: 12
+  locations:
+  - 38.3.4
+  - 38.3.5
+  - '38.4'
+- paper: P005
+  count: 7
+  locations:
+  - 38.3.6
+  - '38.4'
+  - '38.5'
+unsupported_claims:
+- location: 38.3.4
+  claim: 权威引用支撑：青田石矿产资源保护管理办法、抖音电商《2023 文玩类目生态白皮书》、蝉妈妈《2023 抖音文玩类目利润率专题报告》
+  reason: 素材中未找到支撑，标注为[需要补充文献]
+missing_concepts:
+- paper: P001
+  concept: 具体抖音基地入驻流程细节（如营业执照要求、质检费用标准、驳回申诉机制）
+  severity: medium
+- paper: P001
+  concept: 手播模式的具体话术框架与转化技巧
+  severity: medium
+- paper: P002
+  concept: 福利印章的具体选品标准（如血色等级、雕工标准）及SKU管理方法
+  severity: high
+- paper: P004
+  concept: 千川达人相似计划的具体建模逻辑与人群包筛选标准
+  severity: high
+- paper: P004
+  concept: 拍卖环节‘秒拍秒付’的技术实现方案（小黄车挂载、自动发货设置）
+  severity: high
+- paper: P005
+  concept: 私域成交的标准化话术库与客户分层运营SOP
+  severity: high
+- paper: P005
+  concept: 实体店‘石痴鸡血石艺术馆’的选址逻辑、装修标准、运营成本结构
+  severity: medium
