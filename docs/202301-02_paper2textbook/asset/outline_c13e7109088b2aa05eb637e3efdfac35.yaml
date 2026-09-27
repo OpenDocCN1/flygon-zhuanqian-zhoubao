@@ -1,0 +1,231 @@
+- 'no': 1
+  name: 副业变现的底层逻辑 —— 从“看到”到“复制变现”
+  desc: 本章作为全书的导论，从三位实战派作者的经验出发，建立副业变现的底层思维框架。你将理解副业项目的核心不是“做产品”，而是“解项目、算账、走流程”，为后续章节的产品开发、运营与放大打下认知基础。
+  nodes:
+  - 'no': 1
+    name: 为什么多数副业失败：从“产品思维”到“信息差思维”
+    desc: 引入三份素材的共同点：成功的副业不是从零发明，而是发现、拆解并复制已验证的商业模式。用“后发制人”类比，让读者理解“抄作业”的合理性。
+    role: motivation
+    src:
+    - paper: docs/202301-02/I9OAdzzs2oBliNxsmPjcHnBUnzf.md
+    - paper: docs/202301-02/NxhWdJj3UoPKvmxaBqkcz8wlntf.md
+  - 'no': 2
+    name: 商业项目拆解：把“赚钱的别人”拆成“可复制的零件”
+    desc: 定义什么是商业项目拆解：不是模仿表面，而是拆出流量、转化、交付的底层链路。引入“复述问题建立信任”等前端内容策略作为开胃菜。
+    role: definition
+    src:
+    - paper: docs/202301-02/I9OAdzzs2oBliNxsmPjcHnBUnzf.md
+    - paper: docs/202301-02/DNGrdODFBowfk2xwkNCc5GGSnRd.md
+  - 'no': 3
+    name: 六维评估模型：给项目算一笔“复制账”
+    desc: 系统提出全书分析工具——六维模型：流量效率、销转效率、交付效率、客单价、毛利率、复购率。用“效率维度”判断可复制性，“财务维度”判断收入天花板。
+    role: definition
+    src:
+    - paper: docs/202301-02/NxhWdJj3UoPKvmxaBqkcz8wlntf.md
+  - 'no': 4
+    name: 案例对比：小说推文与教育资料——为什么一个天花板低，一个能到百万
+    desc: 用六维模型逐个标注“小说推文”“教育资料1.0/2.0”“减肥食谱”等项目，演示模型的实际操作。揭示“客单价提升”如何改变项目量级。
+    role: experiment
+    src:
+    - paper: docs/202301-02/NxhWdJj3UoPKvmxaBqkcz8wlntf.md
+  - 'no': 5
+    name: 本书框架预览：从项目库到产品、运营、放大四部曲
+    desc: 串联后续章节逻辑：建立项目库（选赛道）→ 开发最小产品（卖空气/软文先行）→ 流量与转化运营 → 三大杠杆放大。并给出学习路径建议。
+    role: extension
+    src:
+    - paper: docs/202301-02/I9OAdzzs2oBliNxsmPjcHnBUnzf.md
+    - paper: docs/202301-02/DNGrdODFBowfk2xwkNCc5GGSnRd.md
+- 'no': 2
+  name: 发现与筛选 —— 像猎人一样建立“项目情报库”
+  desc: 本章教你如何持续、低成本地发现可复制的副业机会。你将学会“喂养算法”获取情报、建立项目库，并用权重打分和六维框架筛选出真正值得投入的项目。
+  nodes:
+  - 'no': 1
+    name: 痛点即机会：前端流量是私域成败的关键
+    desc: 揭示副业项目的第一性原理：所有生意的痛点在于前端流量。用“私域只是渠道”类比，让读者理解：先解决流量，再谈转化，否则一切都是空谈的“自嗨”。
+    role: motivation
+    src:
+    - paper: docs/202301-02/I9OAdzzs2oBliNxsmPjcHnBUnzf.md
+  - 'no': 2
+    name: 喂养算法与情报挖掘：让平台成为你的商业雷达
+    desc: 介绍两种主动获取商业信息的方法：一是“喂养算法”（点赞、收藏、停留），二是学会搜索（真伪分辨、泛读、爬虫监测）。类比为“驯养一只信息猎犬”。
+    role: method
+    src:
+    - paper: docs/202301-02/I9OAdzzs2oBliNxsmPjcHnBUnzf.md
+  - 'no': 3
+    name: 通过下拉词发现需求：从搜索框里“淘金”
+    desc: 传授一种零成本需求发现术：利用百度、微信、小红书、Google等搜索框的下拉推荐词，捕捉用户真实痛点。类比为“读心术”。
+    role: method
+    src:
+    - paper: docs/202301-02/DNGrdODFBowfk2xwkNCc5GGSnRd.md
+  - 'no': 4
+    name: 建立项目库与八步筛选法
+    desc: 系统讲解如何把拆解过的项目归档，并按“找项目、拆流量、拆转化、拆产品交付、评估可复制/可持续、定策略、搭团队、强执行”八步法筛选。给出打分规则。
+    role: method
+    src:
+    - paper: docs/202301-02/I9OAdzzs2oBliNxsmPjcHnBUnzf.md
+  - 'no': 5
+    name: 红海不红：为什么红海赛道照样能赚几十万
+    desc: 打破“害怕竞争”的心理障碍。论证：任何一个红海赛道都不缺一个年赚几十万的人，关键是找到已验证项目做微调，而不是盲目创新。
+    role: limitation
+    src:
+    - paper: docs/202301-02/I9OAdzzs2oBliNxsmPjcHnBUnzf.md
+- 'no': 3
+  name: 产品孵化 —— “卖空气”与“软文先行”的最小化验证
+  desc: 本章颠覆传统“先开发后售卖”的思维，引入“卖空气”“软文先行”等低成本产品验证法。你将学会如何用非规范化生产快速捏出模型，用预售测试需求。
+  nodes:
+  - 'no': 1
+    name: 反直觉起点：软件的本质就是软文
+    desc: 提出核心反直觉观点：软件开发出来最终靠软文推广，所以可以反推流程——先写软文、后做产品，甚至不开发而寻找现成软件交付。
+    role: motivation
+    src:
+    - paper: docs/202301-02/DNGrdODFBowfk2xwkNCc5GGSnRd.md
+  - 'no': 2
+    name: 卖空气：制造“已有”的假象来预售
+    desc: 定义“卖空气”这一概念：在产品不存在时，用模型、截图、预售页制造假象，先收钱、测试需求。类比为“开盲盒前的海报”。
+    role: definition
+    src:
+    - paper: docs/202301-02/DNGrdODFBowfk2xwkNCc5GGSnRd.md
+  - 'no': 3
+    name: 非规范化生产：用“野路子”快速捏出产品模型
+    desc: 强调个人开发者应放弃正规流程，使用中文编程工具等低门槛工具，在最短时间内（如1周内）做出可演示的模型，核心是“降低成本、提升效率”。
+    role: method
+    src:
+    - paper: docs/202301-02/DNGrdODFBowfk2xwkNCc5GGSnRd.md
+  - 'no': 4
+    name: 软文撰写技巧：复述问题、超长文与过审艺术
+    desc: 详解软文三大技巧：复述用户问题建立信任、超长文制造专业感并提升SEO、干净截图+合集模板过审。以“看病问诊”类比建立信任的心理机制。
+    role: method
+    src:
+    - paper: docs/202301-02/DNGrdODFBowfk2xwkNCc5GGSnRd.md
+  - 'no': 5
+    name: 支撑赚钱的悖论：有效噱头与无效产品
+    desc: 直面争议话题：不解决需求、不是好产品，也不影响赚钱速度。用“安慰剂效应”“连花清瘟”案例论证：噱头、名字和表象可以带来收入。并探讨其伦理边界。
+    role: limitation
+    src:
+    - paper: docs/202301-02/DNGrdODFBowfk2xwkNCc5GGSnRd.md
+- 'no': 4
+  name: 流量收割与转化 —— 从“看客”到“付费用户”的狩猎场
+  desc: 本章聚焦副业闭环中最关键的“流量→转化”环节。你将学到用App门槛过滤精准用户、软件营销派碾压软营销、套话做局等实战技巧，并理解信息差搬运的底层原理。
+  nodes:
+  - 'no': 1
+    name: 精准过滤：App的不便是筛选“付费意愿”的筛子
+    desc: 揭示一个反认知优势：App下载门槛高，反而过滤掉“看客”，留下有强烈需求的精准用户，并让用户相信App“真的具有该功能”。
+    role: motivation
+    src:
+    - paper: docs/202301-02/DNGrdODFBowfk2xwkNCc5GGSnRd.md
+  - 'no': 2
+    name: 软件营销派 vs 软营销派：用“魔法打败魔法”
+    desc: 对比两种流量策略：纯文本攻略 vs 逼真App界面营销。论证“软件看起来更专业”的碾压效应，并引入强制分享的裂变机制。
+    role: method
+    src:
+    - paper: docs/202301-02/DNGrdODFBowfk2xwkNCc5GGSnRd.md
+  - 'no': 3
+    name: 信息差搬运论：A平台的“烂内容”就是B平台的爆款
+    desc: 核心定理：渠道存在信息差。把在抖音做烂的内容优化后搬到小红书可能瞬间爆火。类比为“东边日出西边雨”。
+    role: proof
+    src:
+    - paper: docs/202301-02/I9OAdzzs2oBliNxsmPjcHnBUnzf.md
+  - 'no': 4
+    name: 套话做局：把“同行的方案”变成“自己的产品”
+    desc: 介绍“已解决口吻写文→引流→套话→卖给未解决者”的高阶转化术，用淘客案例（盈利几十万）和羊了个羊P图案例演示操作细节。
+    role: method
+    src:
+    - paper: docs/202301-02/DNGrdODFBowfk2xwkNCc5GGSnRd.md
+  - 'no': 5
+    name: 销转效率的本质：专业度越低，越能靠SOP放大
+    desc: 从六维视角定义销转效率：网销不需要高专业度，按SOP做即可；本质是销售时间的利用率。给出判断标准：能否一对多、能否快速复制。
+    role: definition
+    src:
+    - paper: docs/202301-02/NxhWdJj3UoPKvmxaBqkcz8wlntf.md
+- 'no': 5
+  name: 交付与项目管理 —— 把“买卖”做成“生意”的脚手架
+  desc: 本章解决流量进来后“如何接住并持续变现”的问题。你将学会用策划案+执行案管理项目，按交付效率分类产品，用止损点保护自己，避免陷入自嗨和沉没成本。
+  nodes:
+  - 'no': 1
+    name: 交付效率：支付瞬间即完成是最好的交付
+    desc: 定义六维中的交付维度：以“时间/人力”为指标，支付即交付（如资料、课程）效率最高；训练营、陪跑等则消耗大量时间。
+    role: definition
+    src:
+    - paper: docs/202301-02/NxhWdJj3UoPKvmxaBqkcz8wlntf.md
+  - 'no': 2
+    name: 项目管理双案法：策划案定方向，执行案保落地
+    desc: 介绍“策划案+执行案”双轮驱动：策划案涵盖产品货盘、运营策略、目标、里程碑、止损点；执行案表格化管控时间、地点、事项、责任人、阶段目标。
+    role: method
+    src:
+    - paper: docs/202301-02/I9OAdzzs2oBliNxsmPjcHnBUnzf.md
+  - 'no': 3
+    name: 止损点与避坑标准：如何优雅地“认输”
+    desc: 强调设定最大投入界限（时间、金钱、资源）的重要性。引入大闸蟹电商失败案例：不喜欢的事情不要碰，做4个月赚20万也坚决退出。
+    role: limitation
+    src:
+    - paper: docs/202301-02/I9OAdzzs2oBliNxsmPjcHnBUnzf.md
+  - 'no': 4
+    name: 客单价与毛利率的补偿策略：效率不足时用财务补
+    desc: 当流量/销转/交付三效率中有一项低时，如何通过提高客单价、毛利率、复购率来维持收入。以“项目拆解IP低流量效率+高客单价”为例。
+    role: method
+    src:
+    - paper: docs/202301-02/NxhWdJj3UoPKvmxaBqkcz8wlntf.md
+- 'no': 6
+  name: 放大与变现 —— 用三大杠杆撬动百万级收入
+  desc: 本章讲述如何从一个“能赚钱的个体”跃迁为一个“能放大的体系”。你将学会人力杠杆（兼职SOP）、技术杠杆（批量搬运/爬虫）、资源杠杆，并了解全球化作为长期出路。
+  nodes:
+  - 'no': 1
+    name: 从1到100：为什么同一项目有人月入1千，有人月入100万
+    desc: 对比“小说推文”月入1000-2W与“知识付费”月入10W-500W的差异，引入放大思维：决定收入上限的不是项目本身，而是能否工程化复制。
+    role: motivation
+    src:
+    - paper: docs/202301-02/NxhWdJj3UoPKvmxaBqkcz8wlntf.md
+  - 'no': 2
+    name: 人力杠杆：用SOP+兼职把你的时间复制10份
+    desc: 详解如何把内容生产做成SOP，招募5-10分钟一篇笔记的兼职，按引流效果付费。以小红书矩阵为例。
+    role: method
+    src:
+    - paper: docs/202301-02/I9OAdzzs2oBliNxsmPjcHnBUnzf.md
+  - 'no': 3
+    name: 技术杠杆：批量搬运与二次创作，让软件替你打工
+    desc: 讲解如何使用爬虫批量获取同行笔记、用软件批量搬运与伪原创，实现“工业化流水线”式的内容生产。
+    role: method
+    src:
+    - paper: docs/202301-02/I9OAdzzs2oBliNxsmPjcHnBUnzf.md
+  - 'no': 4
+    name: 复购率的魔力：从卖货到“收徒”，把买家变成长期饭票
+    desc: 以“抓娃娃卖娃娃+收599学费”的案例，演示如何把一次性买家转为长期学员，让复购率从0变为高，实现收入叠加。
+    role: experiment
+    src:
+    - paper: docs/202301-02/I9OAdzzs2oBliNxsmPjcHnBUnzf.md
+    - paper: docs/202301-02/NxhWdJj3UoPKvmxaBqkcz8wlntf.md
+  - 'no': 5
+    name: 全球化是最后的出路：免备案、免证件、免审核的蓝海
+    desc: 讨论国内互联网环境限制，提出软件全球化几乎是唯一出路：免备案、投放免证件、免软件著作权、免商店审核，适合非规范化生产。
+    role: extension
+    src:
+    - paper: docs/202301-02/DNGrdODFBowfk2xwkNCc5GGSnRd.md
+- 'no': 7
+  name: 避坑与反思 —— 红线在哪里，如何走得更远
+  desc: 本书的批判性收尾。在传授了大量“野路子”打法后，本章冷静审视其灰色地带与伦理边界，帮助读者建立可持续、合规的长期主义视角。
+  nodes:
+  - 'no': 1
+    name: 安慰剂效应与“诈骗”的边界
+    desc: 正视“有效噱头、无效产品”的道德风险：从医学安慰剂谈到软件夸大宣传，探讨“名字决定认知”的心理学机制及其法律边界。
+    role: limitation
+    src:
+    - paper: docs/202301-02/DNGrdODFBowfk2xwkNCc5GGSnRd.md
+  - 'no': 2
+    name: 抄袭与“二次创作”的灰色地带
+    desc: 讨论“搬运到小红书就爆”的做法是否构成侵权。对比“借鉴模式”与“抄袭内容”的本质区别，提出安全复制的三点准则。
+    role: limitation
+    src:
+    - paper: docs/202301-02/I9OAdzzs2oBliNxsmPjcHnBUnzf.md
+  - 'no': 3
+    name: 平台规则风险：过审技巧与封号成本
+    desc: 分析超长文过审、强制分享裂变等技巧的短期收益与长期风险：依赖平台算法漏洞，一旦规则收紧即被连根拔起。给出“合规优先”的建议。
+    role: limitation
+    src:
+    - paper: docs/202301-02/DNGrdODFBowfk2xwkNCc5GGSnRd.md
+  - 'no': 4
+    name: 从“投机”到“投资”：如何把副业沉淀为资产
+    desc: 收束全书：建议读者将“卖空气”的验证思维应用于“真产品”的打造，把拆解、情报、SOP等能力转化为长期可复利的个人资产，实现“用野路子，走正规军的路”。
+    role: extension
+    src:
+    - paper: docs/202301-02/I9OAdzzs2oBliNxsmPjcHnBUnzf.md
+    - paper: docs/202301-02/NxhWdJj3UoPKvmxaBqkcz8wlntf.md
