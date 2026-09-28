@@ -1,0 +1,133 @@
+units:
+- 'no': 1
+  name: 自动提示工程师（APE） —— 让模型自己写提示
+  points:
+  - '**为什么需要这个概念？**'
+  - '- 人工调优提示词依赖经验与试错，效率低、上限受限、难以规模化'
+  - '- 需要一种自动化流程，将‘寻找最优提示’转化为模型可执行的优化任务'
+  - '- 核心痛点：提示词空间离散巨大，人类无法穷举，需借助模型自身的生成与评估能力'
+  - '**核心定义**'
+  - '- APE（Automatic Prompt Engineer）：采用‘生成-评分-筛选’自举流程，输入任务描述与少量示例，输出高质量指令提示词'
+  - '- 核心公式：p* = argmax_p E_{(x,y)~D} [Score(LLM(p, x), y)]，即在提示词分布中搜索期望得分最高者'
+  - '**关键性质**'
+  - '- 自举：不依赖人工标注提示词，仅需任务少量输入输出样本'
+  - '- 解耦：将‘提示生成’（候选池）与‘提示评估’（打分器）分离，支持替换更强评估器'
+  - '- 迭代优化：支持多轮迭代，基于历史优秀提示词生成变体，近似梯度下降'
+  - '**典型例子**'
+  - '- 给定 10 条情感分类样本，APE 自动生成 ‘Classify the sentiment as positive or negative.’ 等候选，经评分筛选出最优指令，准确率超越人工设计'
+  - '**边界条件**'
+  - '- 依赖基座模型指令遵循与评估能力，弱模型可能产生低质候选或误判分数'
+  - '- 评分函数设计关键：若仅用准确率易过拟合少样本，需引入正则或验证集'
+  - '- 搜索空间受限于生成模型多样性，可能陷入局部最优'
+  sources:
+  - paper: 20230418_080.md
+    role: origin
+  - paper: 20230418_081.md
+    role: improve
+  excerpts:
+  - APE frames prompt generation as a black-box optimization problem over natural
+    language strings.
+  - The algorithm alternates between proposing candidate prompts (generation step)
+    and scoring them on a validation set (selection step).
+  - We use the LLM itself to generate variations of high-scoring prompts, enabling
+    iterative refinement.
+- 'no': 2
+  name: OPRO —— 用大模型作为优化器优化提示
+  points:
+  - '**为什么需要这个概念？**'
+  - '- APE 仍需外部评分器且生成与评分分离，未充分利用 LLM 自身的‘元认知’优化直觉'
+  - '- 需要一种端到端、纯自然语言交互的优化器，像人类专家一样‘读反馈、改提示’'
+  - '- 核心痛点：离散提示空间不可导，传统梯度下降失效，LLM 可作为黑盒启发式优化器'
+  - '**核心定义**'
+  - '- OPRO（Optimization by PROmpting）：将优化轨迹（历史提示词及其分数）作为上下文喂给 LMM，提示其‘根据过往尝试，生成更好的新提示词’'
+  - '- 优化循环：Context = {(p_1, s_1), ..., (p_k, s_k)} -> LLM -> p_{k+1} -> Evaluate
+    -> Update Context'
+  - '**关键性质**'
+  - '- 记忆增强：优化轨迹上下文机制让模型‘从错误中学习’，避免重复低分模式'
+  - '- 自然语言梯度：模型隐式捕捉‘提示词修改方向与性能变化’的相关性，替代数值梯度'
+  - '- 灵活性：目标函数可为任意可计算指标（准确率、Token 数、安全分），无需可微'
+  - '**典型例子**'
+  - '- GSM8K 数学推理任务：OPRO 从 ‘Let’s solve this problem.’ 起步，自动进化出 ‘Let’s think step
+    by step. Calculate carefully.’ 等高阶 CoT 提示，准显著提升'
+  - '**边界条件**'
+  - '- 上下文窗口限制优化轨迹长度，需设计摘要/压缩策略保留关键历史'
+  - '- 模型可能生成语义重复或崩溃提示（如全大写、乱码），需后处理过滤'
+  - '- 优化成本随轮次线性增长，大模型调用开销高，适合离线调优而非在线实时'
+  sources:
+  - paper: 20230418_082.md
+    role: origin
+  - paper: 20230418_083.md
+    role: improve
+  excerpts:
+  - 'OPRO uses the LLM as an optimizer: the optimization trajectory is serialized
+    into the prompt, and the LLM outputs the next candidate solution.'
+  - We observe that LLMs can capture optimization trends from the trajectory, e.g.,
+    'previous prompts were too verbose, let me be concise.'
+  - 'The meta-prompt includes: task description, optimization goal, and the history
+    of (prompt, score) pairs.'
+- 'no': 3
+  name: 提示评估基准与自动化评测体系 —— 量化‘好提示’的标尺
+  points:
+  - '**为什么需要这个概念？**'
+  - '- 自动化优化（APE/OPRO）需要可靠、可复现、任务无关的目标函数，否则‘优化’等于‘瞎调’'
+  - '- 人工评估成本高、主观差异大，无法支撑大规模候选提示词的快速筛选'
+  - '- 核心痛点：提示词质量维度多元（准确、鲁棒、简洁、安全），单一指标失真'
+  - '**核心定义**'
+  - '- 多维评估指标体系：准确率、鲁棒性（扰动稳定性）、Token 效率（长度/成本）、格式合规率、安全合规分'
+  - '- 自动化评测流水线：数据集构建 -> 提示词批量推理 -> 多维指标计算 -> 排序/阈值筛选 -> 报告生成'
+  - '- 评测数据集：需覆盖分布内/分布外/对抗样本，防止提示词过拟合训练集'
+  - '**关键性质**'
+  - '- 分层评测：单元级（组件）、系统级（端到端）、业务级（A/B 测试）三层金字塔'
+  - '- LLM-as-a-Judge：引入强模型作为评估员，配合标准化评分 Rubric 替代人工打分'
+  - '- 防污染：评测集哈希去重、定期轮换、隐藏集机制，防止提示词‘刷榜’'
+  - '**典型例子**'
+  - '- 构建 500 条跨领域指令遵循测试集，接入 GPT-4 打分，自动跑通 200 个候选提示词，输出 Pareto 前沿（准确率 vs Token 成本）供决策'
+  - '**边界条件**'
+  - '- LLM 评估员存在偏好偏差（如偏好长回复、特定格式），需校准或引入人工复核'
+  - '- 静态基准难覆盖长尾业务场景，需建立‘生产数据回流 -> 合成扩充 -> 评测集更新’的数据飞轮'
+  - '- 评测本身引入延迟与成本，工程上需采样/缓存/异步化平衡'
+  sources:
+  - paper: 20230418_084.md
+    role: origin
+  - paper: 20230418_085.md
+    role: apply
+  excerpts:
+  - A robust evaluation suite must measure Accuracy, Robustness (to paraphrase/typos),
+    Efficiency (tokens/latency), and Format Compliance simultaneously.
+  - We adopt LLM-as-a-Judge with a detailed rubric to automate open-ended scoring,
+    calibrated against human annotations.
+  - 'The evaluation pipeline is integrated into CI/CD: every prompt change triggers
+    a regression test on the benchmark suite.'
+- 'no': 4
+  name: 软提示与前缀调优 —— 连续空间中的隐式指令
+  points:
+  - '**为什么需要这个概念？**'
+  - '- 硬提示（离散 Token）搜索空间不连续、不可导、组合爆炸，优化困难'
+  - '- 全参数微调成本极高、易灾难性遗忘，需要参数高效的替代方案'
+  - '- 核心痛点：如何在不修改模型权重、不占用上下文窗口 Token 的前提下，注入任务特定知识'
+  - '**核心定义**'
+  - '- 软提示：在嵌入层前拼接可学习的连续向量序列（虚拟 Token），仅优化这些向量，冻结骨干网络'
+  - '- 前缀调优：在每层 Transformer 的 Key/Value 前拼接可学习前缀向量，等价于为注意力机制注入任务先验'
+  - '- 数学形式：输入变为 [P_soft; X_input]，或每层 KV 变为 [K_prefix; K_input]'
+  - '**关键性质**'
+  - '- 参数极少：通常仅 0.1%-1% 可训练参数，显存占用低、训练极快'
+  - '- 可微优化：连续空间允许梯度下降直接优化，收敛比离散搜索稳定高效'
+  - '- 表达力上限：受限于冻结骨干的表达能力，复杂新任务可能不如全微调或硬提示工程上限高'
+  - '**典型例子**'
+  - '- 在 T5-base 上仅训练 100 个虚拟 Token（约 0.05% 参数），在 SuperGLUE 基准上达到全微调 95%+ 性能'
+  - '**边界条件**'
+  - '- 需要反向传播权限，仅适用于开源/白盒模型，API 黑盒模型无法直接应用'
+  - '- 初始化敏感：随机初始化易陷入局部最优，常用任务相关硬提示嵌入初始化'
+  - '- 推理时需额外存储前缀参数，批量部署多任务时需管理多组前缀向量'
+  sources:
+  - paper: 20230418_086.md
+    role: origin
+  - paper: 20230418_087.md
+    role: critique
+  excerpts:
+  - Prefix Tuning prepends a sequence of continuous task-specific vectors to the input,
+    keeping the language model parameters frozen.
+  - Unlike discrete prompting, soft prompts are optimized via backpropagation, allowing
+    gradient-based search in the continuous embedding space.
+  - 'The trade-off: soft prompts are less interpretable and require model access,
+    but offer superior parameter efficiency and optimization stability.'
