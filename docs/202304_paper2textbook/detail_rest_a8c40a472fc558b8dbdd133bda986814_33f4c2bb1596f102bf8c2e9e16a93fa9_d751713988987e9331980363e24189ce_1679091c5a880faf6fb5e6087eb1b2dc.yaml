@@ -1,0 +1,145 @@
+learning_targets:
+- 理解 Flexbox 与 Grid 双引擎的布局决策矩阵，掌握何时选择一维布局、何时选择二维布局
+- 掌握 CSS 变量与设计令牌体系，能构建支持多主题、暗黑模式、品牌定制的样式架构
+- 理解原子化 CSS 工程化原理，熟练配置 UnoCSS/Tailwind 预设、任意值、变体与按需生成
+- 掌握 CSS 架构治理规范，落地 BEM 命名、CSS Modules、@layer 层叠层与 Stylelint 规则集
+- 能从零构建企业级 UI 组件库样式系统，实现设计令牌双包架构、主题切换、类型安全与工程化交付
+concept_map:
+- CSS 现代布局与架构
+- ├── 双引擎布局决策
+- │   ├── Flexbox 一维布局  —— P001
+- │   │   ├── 主轴/交叉轴对齐算法
+- │   │   ├── flex 增长/收缩/基准尺寸
+- │   │   └── 多行换行与 align-content
+- │   ├── Grid 二维布局  —— P001
+- │   │   ├── 显式/隐式网格轨道
+- │   │   ├── grid-template-areas 语义化布局
+- │   │   ├── 自动放置算法（稀疏/稠密）
+- │   │   └── 盒对齐模块统一规范
+- │   └── 决策矩阵：一维选 Flex、二维选 Grid、嵌套组合  —— P001
+- ├── 设计令牌与变量体系
+- │   ├── CSS 变量：继承、层叠、运行时动态修改  —— P002
+- │   ├── 设计令牌：原子化存储、平台无关、单一事实来源  —— P002
+- │   ├── 现代色彩函数：light-dark()、color-mix()  —— P002
+- │   ├── @property 类型注册与插值动画  —— P002
+- │   └── 令牌命名规范与语义化分层  —— P002
+- ├── 原子化 CSS 工程化
+- │   ├── UnoCSS 即时引擎与按需生成原理  —— P003
+- │   ├── 核心三元组：规则 -> 变体 -> 预设/快捷键  —— P003
+- │   ├── 任意值语法：w-[123px]、bg-[#abc] 逃逸令牌约束  —— P003
+- │   ├── 变体嵌套展开：hover:dark:md:flex 编译期处理  —— P003
+- │   ├── 预设生态：Uno/Tailwind 兼容、Icons、Attributify  —— P003
+- │   ├── 变压器：@apply/@screen 指令复用迁移  —— P003
+- │   └── 扫描边界：字符串拼接遗漏、safelist 兜底  —— P003
+- ├── 架构治理规范
+- │   ├── BEM 命名：Block__Element--Modifier 扁平化隔离  —— P004
+- │   ├── CSS Modules：哈希化物理隔离、:global/:local/composition  —— P004
+- │   ├── @layer 层叠层：显式优先级管理、解耦选择器权重  —— P004
+- │   └── Stylelint：规则集继承、属性排序、嵌套深度限制  —— P004
+- └── 企业级样式系统实战
+- ├── 双包架构：ui-theme (令牌/变量/预设) + ui-components (组件/样式)  —— P005
+- ├── 令牌生成管线：Figma -> Tokens Studio -> JSON -> Style Dictionary -> 多端产物  —— P005
+- ├── 组件样式策略：原子化骨架 + CSS 变量语义化 + @layer 封装  —— P005
+- ├── 主题切换：数据属性切换变量作用域、零运行时、内置暗黑模式  —— P005
+- ├── 类型安全：ThemeTokens TS 类型导出、业务侧智能提示  —— P005
+- └── 工程化边界：版本强绑定、断点双写、降级策略、Tree-shaking 体积控制  —— P005
+life_analogy:
+- 想象 CSS 布局系统是一个**建筑工地的空间规划体系**：
+- '- **Flexbox** = **一维流水线传送带**：只负责‘单行/单列’上的物品排队、对齐、分发空间（justify-content）、伸缩大小（flex-grow/shrink）'
+- '- **Grid** = **二维楼层规划图**：同时规划‘行’与‘列’，把房间（区域）精准锚定在网格线交叉点，支持跨行跨列、区域重叠、语义化命名区域'
+- '- **CSS 变量/设计令牌** = **装修材料清单总表**：颜色、间距、字体统一定义在‘总表’（:root），各施工队（组件）引用‘色号’而非实物；换品牌只需换‘总表’，全楼联动'
+- '- **原子化 CSS** = **预制构件库**：不再现场砌墙（写 CSS），而是搬来标准砖块——‘红砖’、‘窗框’、‘门把手’（p-4、rounded、flex），在模板上拼装，用多少造多少'
+- '- **BEM / CSS Modules / @layer** = **施工规范与分区管理**：BEM 给每块砖贴唯一标签防混用；CSS Modules 给每栋楼发独立编号防串楼；@layer
+  划分‘地基层、主体层、装饰层’显式优先级，避免‘后盖的墙压倒地基’'
+- '- **企业级样式系统双包** = **‘材料厂’+‘构件厂’分离交付**：ui-theme 厂生产标准材料清单（令牌/变量），ui-components 厂按图纸组装构件；业务方像买宜家家具一样组装，想换风格只找材料厂换清单'
+summary:
+- concept: Flexbox
+  desc: 一维布局引擎，主轴/交叉轴控制排列对齐与空间分配，适合导航栏、卡片内部等线性场景
+- concept: Grid
+  desc: 二维布局引擎，显式/隐式网格轨道精准定位区域，适合仪表盘、整页布局等区域划分场景
+- concept: 布局决策矩阵
+  desc: 一维分布选 Flex、二维区域选 Grid、宏观 Grid 嵌套微观 Flex 为最佳实践
+- concept: CSS 变量
+  desc: 运行时动态、可继承层叠的自定义属性，var() 引用支持回退值，是主题切换的原子单位
+- concept: 设计令牌
+  desc: 设计决策的原子化、平台无关存储（色值/间距/字体/圆角/阴影/动效），单一事实来源分发多端
+- concept: light-dark()
+  desc: 根据 color-scheme 自动切换亮/暗色值，零 JS 实现跟随系统偏好
+- concept: color-mix()
+  desc: 在指定色空间混合两色，动态生成悬浮/禁用/透明派生色，减少令牌数量
+- concept: '@property'
+  desc: 注册 CSS 变量语法类型（<color>/<length>）、初始值、继承性，启用类型检查与插值动画
+- concept: 原子化 CSS
+  desc: 单一职责类名组合构建 UI，扫描源码按需生成，产物体积与用量正相关
+- concept: UnoCSS
+  desc: 即时原子化引擎，基于规则匹配无需构建依赖图，启动极快，规则完全可编程
+- concept: 任意值
+  desc: 方括号语法 w-[123px] bg-[#abc] 即时生成任意数值/颜色/函数，逃逸设计令牌约束
+- concept: 变体
+  desc: 'hover: dark: md: 等前缀组合，编译期展开为选择器链，支持任意嵌套'
+- concept: BEM
+  desc: Block__Element--Modifier 扁平化命名约定，选择器权重恒定 (0,0,1,0)，消除嵌套耦合
+- concept: CSS Modules
+  desc: 构建时哈希化类名实现物理隔离，:global()/:local()/composition 控制作用域与复用
+- concept: '@layer'
+  desc: 显式声明层叠优先级顺序，后声明层胜过先声明层，与选择器权重解耦，解决第三方样式覆盖痛点
+- concept: Stylelint
+  desc: 强制执行命名规范、禁止魔法数值、限制嵌套深度、排序属性顺序的 CSS Lint 工程化工具
+- concept: 双包架构
+  desc: ui-theme (令牌/变量/预设) + ui-components (组件实现) 解耦设计与实现，版本强绑定交付
+- concept: Style Dictionary
+  desc: 令牌转换工具：Figma/JSON 源 -> 输出 CSS Variables、TS Types、UnoCSS Preset 等多端产物
+- concept: 主题切换
+  desc: 数据属性 [data-theme] 切换 CSS 变量作用域，利用浏览器原生层叠实现零运行时瞬间切换
+exercises:
+- 'no': 1
+  title: 布局引擎选型与手写核心代码
+  contents:
+  - 场景：实现一个仪表盘页面，包含顶部导航栏、左侧固定宽度侧边栏、右侧自适应内容区（内含响应式卡片网格）、底部版权栏。
+  - 1. 判断宏观页面骨架（Header/Sidebar/Content/Footer）应使用 Flex 还是 Grid？给出关键 CSS 片段。
+  - 2. 判断内容区内部的响应式卡片网格（最小 280px，自动换行填满）应使用 Flex 还是 Grid？给出关键 CSS 片段。
+  - 3. 导航栏内部：Logo 左侧、菜单居中、用户头像右侧，菜单项需支持横向溢出滚动。请写出 Flex 关键属性。
+  - 思考题：
+  - '- 如果侧边栏需要支持折叠动画（宽度 240px <-> 64px），Grid 与 Flex 在过渡动画表现上有何差异？'
+  - '- 为什么 Grid 容器的 `gap` 在百分比轨道下可能表现不如预期？'
+- 'no': 2
+  title: 设计令牌与主题切换工程化实战
+  contents:
+  - 假设你要为组件库实现‘亮/暗双模式 + 多品牌色’的主题系统，要求：
+  - 1. 定义一套设计令牌 JSON 结构，包含色彩（主色/成功/警告/错误）、间距、圆角、字体大小，且每个色彩令牌需包含 light/dark 两套值。
+  - 2. 编写 Style Dictionary 配置片段，输出：CSS 变量文件（含 light/dark 两套变量集）、TypeScript 类型定义、UnoCSS
+    预设对象。
+  - 3. 编写 CSS 变量文件的核心结构：如何利用 `[data-theme='light']` 与 `[data-theme='dark']` 选择器切换变量集？如何用
+    `light-dark()` 简化不需要品牌定制的中性色？
+  - 4. 组件 Button 内部如何消费这些变量？展示 CSS Modules + CSS 变量的写法，并暴露 `--btn-height` 等组件级变量供外部微调。
+  - 思考题：
+  - '- 为什么 CSS 变量不能直接用在 `@media (min-width: var(--bp-md))` 中？工程上如何解决断点令牌的双写问题？'
+  - '- 如果业务方只想覆盖主色而保留其它令牌，双包架构下应如何指导其正确操作？'
+- 'no': 3
+  title: 原子化 CSS 扫描边界与架构治理
+  contents:
+  - 项目接入 UnoCSS，发现以下问题，请给出排查方案与配置修正：
+  - 1. 动态拼接类名 `class={clsx('btn', isPrimary && 'btn-primary')}` 导致 `btn-primary` 类未生成。解释
+    UnoCSS 扫描原理为何会遗漏，并给出两种修正方案（safelist 与提取字面量）。
+  - 2. 团队成员大量使用任意值 `w-[123px]` `mt-[-7px]` 导致设计令牌约束失效。请设计一套 Stylelint/UnoCSS 自定义规则策略：允许任意值仅用于‘无法用令牌表达’的场景（如
+    calc 表达式、精确像素对齐），其余强制走令牌类名。
+  - 3. 旧版浏览器（不支持 `:where()`）下 UnoCSS 默认输出的零权重选择器失效。请给出降级配置方案（`uno.config.ts` 中 `layer`
+    与 `preflight` 设置）。
+  - 4. SSR 场景下首屏出现 FOUC（样式闪烁）。解释原因并给出关键代码：如何在服务端渲染时内联关键 CSS？
+  - 思考题：
+  - '- 对比 `@layer utilities` 与 `@layer components` 在引入顺序上的优先级差异，为什么建议将第三方库重置样式放入 `@layer
+    reset`？'
+- 'no': 4
+  title: 企业级 UI 组件库样式系统双包发布模拟
+  contents:
+  - 模拟从零发布 `@my-org/ui-theme@1.0.0` 与 `@my-org/ui-components@1.0.0` 的完整流程：
+  - 1. 编写 `pnpm-workspace.yaml` 与两个包的 `package.json` 关键字段（name、version、main/module/types/exports、sideEffects、peerDependencies）。
+  - 2. 设计 GitHub Actions 工作流：`tokens:build` -> `theme:publish` -> `components:build`
+    -> `components:publish`，要求版本号强绑定（theme 版本变更必须触发 components 重新发布）。
+  - 3. 业务项目消费时，如何配置 `package.json` 实现 `ui-theme` 的 CSS 变量自动注入（如 Vite 插件或 PostCSS 插件），且支持
+    Tree-shaking 仅打包用到的组件样式？
+  - 4. 当设计师在 Figma 中更新主色 `#1890ff` -> `#0052d9` 时，描述从 Figma 到业务项目生效的完整自动化链路（Tokens
+    Studio -> CI -> npm -> 业务依赖更新 -> 重新构建）。
+  - 思考题：
+  - '- 如果 `ui-components` 内部组件样式依赖 `ui-theme` 的某个 CSS 变量（如 `--radius-base`），而业务方覆盖了该变量但未升级
+    `ui-components`，可能出现什么样式异常？如何通过版本锁定策略预防？'
