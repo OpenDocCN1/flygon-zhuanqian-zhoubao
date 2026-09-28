@@ -1,0 +1,557 @@
+learning_targets:
+- 掌握技术选型决策矩阵与 ADR 记录方法，实现架构决策的量化、可追溯与动态演进
+- 理解 Monorepo 仓库治理的核心优势（原子提交、依赖去重、版本联动）与工程化配置要点
+- 掌握基础设施封装层（@enterprise/ui、@enterprise/request、RBAC、动态路由）的设计原则与零侵入业务实践
+- 理解 Schema 驱动开发的单一数据源理念，能设计 ProTable/ProForm/ProChart 通用组件与代码生成器
+- 掌握质量门禁流水线的分阶段拦截体系（Lint/TypeCheck/Unit/E2E/Build/Scan/Deploy）与量化阈值设定
+- 建立架构演进与知识沉淀机制：技术债务清单、重构 ADR、组件复用率报告、分层技术分享体系
+- 理解 AI 赋能前端工程化的核心范式：Prompt Engineering、RAG、Agent、代码生成与自动化测试
+concept_map:
+- 第25章 综合实战：企业级中后台前端架构落地全过程
+- ├── 1. 技术选型决策矩阵 —— 为架构选型装上“导航仪”
+- │   ├── 量化决策维度：生态成熟度/团队熟悉度/性能/维护成本/招聘供给 —— P001
+- │   ├── ADR 结构化记录：背景/备选/决策/后果/替代方案 —— P001
+- │   ├── 一票否决指标：非功能性需求（首屏性能/合规）强制约束 —— P001
+- │   └── 定期复盘机制：半年重评触发条件（版本/团队/业务变化） —— P001
+- ├── 2. Monorepo 仓库治理 —— 让多包协作像单仓一样顺滑
+- │   ├── pnpm-workspace.yaml：工作区声明/依赖提升/幽灵依赖规避/硬链接 —— P002
+- │   ├── 目录结构标准：apps/* (子应用) + packages/* (共享库/配置) —— P002
+- │   ├── Changesets 版本联动：自动 changelog/版本号/依赖更新 —— P002
+- │   └── CI 增量策略：pnpm --filter 受影响包分析/远程缓存/TurboRepo —— P002
+- ├── 3. 基础设施封装层 —— 造好“轮子”让业务跑得飞快
+- │   ├── @enterprise/ui：二次封装组件库/权限指令/主题变量/类型安全 —— P003
+- │   ├── @enterprise/request：统一错误/Loading/Token刷新/拦截器链/MSW切换 —— P003
+- │   ├── RBAC 三位一体：v-auth指令/Auth组件/路由meta角色 —— P003
+- │   ├── 动态路由注册：后端树->RouteRecordRaw->addRoute->菜单联动->持久化 —— P003
+- │   └── 可观测性内置：TraceID/渲染性能/错误边界上报 —— P003
+- ├── 4. Schema 驱动开发 —— 让配置生成代码，告别重复 CRUD
+- │   ├── Schema 定义：fields/layout/actions/api 四大元数据 —— P004
+- │   ├── 通用组件三件套：ProTable/ProForm/ProChart 运行时解释执行 —— P004
+- │   ├── 代码生成器：OpenAPI->TS类型->Schema->模版引擎->源码(保留区块) —— P004
+- │   ├── 单一数据源链路：后端接口->前端类型->Schema->渲染，单点维护 —— P004
+- │   └── 渐进式增强：90% Schema覆盖 + 10% render/Slots/Composables 逃逸口 —— P004
+- ├── 5. 质量门禁流水线 —— 让“不合格代码”无法入库
+- │   ├── 流水线七阶段：Lint->TypeCheck->Unit->E2E->Build->Scan->Deploy —— P005
+- │   ├── 量化红线阈值：覆盖率80%/95%、bundle<500KB、LCP<2.5s、CLS<0.1、INP<200ms、高危漏洞0、axe违规0 ——
+  P005
+- │   ├── GitOps 发布：ArgoCD监控/PreSync迁移/PostSync健检/自动回滚 —— P005
+- │   ├── 多层防御左移：pre-commit -> CI -> 预发布 -> 生产监控 —— P005
+- │   └── 可视化看板：Grafana展示DORA四大指标/耗时趋势/覆盖率趋势 —— P005
+- └── 6. 架构演进与知识沉淀 —— 让系统在变化中进化
+- '    ├── 技术债务清单：季度扫描TODO/SonarQube/依赖滞后/类型覆盖率/性能回退 —— P006'
+- '    ├── 重构提案 ADR：关联业务价值/经评审/纳入路线图 —— P006'
+- '    ├── 组件复用率报告：引用频次/覆盖场景/定制分支 -> 识别高价值/僵尸组件 —— P006'
+- '    ├── 分层分享体系：周会(踩坑)/月度(源码/架构)/季度(ADR评审)/年度(白皮书) —— P006'
+- '    ├── 数据驱动治理：复用率<20%下线/高频定制下沉配置/高频Bug归因完善规范 —— P006'
+- '    └── 知识资产管理：文档过期标记/Owner制/入职必读/拒绝流水账PPT —— P006'
+- └── 7. AI 赋能前端工程化新范式
+- '    ├── Prompt Engineering 标准化：结构化提示词/版本管理/自动优化 —— P105/P106/P109'
+- '    ├── RAG 知识库落地：代码库切片/向量检索/重排序/上下文注入 —— P105/P106/P109'
+- '    ├── Agent 自动化工作流：需求拆解->代码生成->测试验证->提交 PR —— P105/P106/P109'
+- '    ├── AI Code Review 机器人：规范检查/安全扫描/性能建议/单测补全 —— P105/P106/P109'
+- '    └── 前端专用模型微调：CodeLlama/DeepSeek-Coder 继续预训练/指令微调/RLHF —— P105/P106/P109'
+life_analogy:
+- 想象**建设一座“智能城市”**的全过程：
+- '- **技术选型决策矩阵** = **城市总体规划图纸**：在动工前，对比地铁还是BRT、集中供暖还是分户供暖，用加权评分锁定方案，并写下《规划决策备忘录》（ADR），十年后新市长也能看懂当年为什么这么选。'
+- '- **Monorepo 仓库治理** = **地下统一管廊（综合管廊）**：水、电、气、光纤、通讯走同一条隧道（单仓），维修挖一次路（原子提交），管线共享支架（依赖去重），新增管线只需申请接入（workspace:*），避免了满城挖坑（多仓乱象）。'
+- '- **基础设施封装层** = **城市标准化“市政接口”**：楼盘开发商（业务代码）只需对接标准的水电燃气接口（@enterprise/*），不管地下换了燃气公司（Ant
+  Design->Arco）还是升级供水管网（Axios->Fetch），楼盘不用返工（零侵入）。'
+- '- **Schema 驱动开发** = **“装配式建筑”预制构件**：不用现场砖砌瓦砌（手写CRUD），工厂按图纸（Schema）预制好墙板、楼板、窗户（ProTable/ProForm），运到现场吊装拼接。业主改需求（改字段）只需改图纸（单一数据源），工厂自动出新构件。'
+- '- **质量门禁流水线** = **建筑验收的“关卡闸机”**：地基（Lint/TypeCheck）不合格不让盖楼，结构（Unit/E2E）不达标不让封顶，消防/环保/节能（Scan/性能/安全/无障碍）指标超红线直接停工整改（阻断合并），最终拿到“竣工验收备案表”（ArgoCD同步）才能交付入住。'
+- '- **架构演进与知识沉淀** = **城市“更新改造局”+“城市档案馆”**：定期巡查危旧楼（技术债务清单）、发改造红头文件（重构ADR）、统计标准件使用率淘汰滞销品（复用率报告）、组织规划师研讨会（分层分享），形成《城市建设白皮书》指导下一个十年。'
+- '- **AI 赋能前端工程化** = **城市“智能大脑”与“自动化建造队”**：Prompt Engineering 是给大脑下达精准指令（结构化提示词），RAG
+  是接入外部知识库（代码库切片/向量检索），Agent 是自主执行复杂任务的机器人（需求拆解->代码生成->测试验证），AI Code Review 是 24 小时不眠的质检员，模型微调是培养懂业务的专家顾问。'
+summary:
+- concept: 技术选型决策矩阵
+  desc: 多维度加权评分量化架构决策，配合 ADR 实现可追溯、动态演进
+- concept: ADR (Architecture Decision Records)
+  desc: 结构化记录决策背景、备选、决策、后果，纳入版本控制成为组织资产
+- concept: Monorepo
+  desc: 单仓多包管理，实现原子提交、依赖去重、版本联动，配合 pnpm/Changesets 落地
+- concept: 基础设施封装层 (@enterprise/*)
+  desc: 二次封装 UI/请求/权限/路由/国际化/监控，实现零侵入业务、类型安全全链路、可观测性内置
+- concept: Schema 驱动开发
+  desc: 以 JSON Schema 为单一数据源驱动 ProTable/ProForm/ProChart 及代码生成，实现声明式 CRUD 与渐进式增强
+- concept: 质量门禁流水线
+  desc: 七阶段拦截（Lint/TypeCheck/Unit/E2E/Build/Scan/Deploy）+ 量化红线阈值 + GitOps 发布 + 多层左移防御
+- concept: 架构演进与知识沉淀
+  desc: 技术债务清单、重构 ADR、复用率报告、分层分享体系、白皮书，构建数据驱动的持续进化机制
+- concept: AI 赋能前端工程化
+  desc: Prompt Engineering/RAG/Agent/AI Code Review/模型微调，构建智能化研发闭环，实现降本增效与规模化复制
+exercises:
+- 'no': 1
+  title: 技术选型决策矩阵实战演练
+  contents:
+  - 场景：团队需在 Vue 3 + Pinia + Vite 与 React 18 + Redux Toolkit + Webpack 5 两套技术栈中二选一，用于新中后台项目。
+  - 任务：
+  - 1. 设计决策矩阵维度（至少 6 个），并给出权重分配理由（权重之和=100）。
+  - 2. 为每个维度设定评分标准（1-5 分），并对两套栈分别打分。
+  - 3. 计算加权总分，输出决策建议。
+  - 4. 编写一份精简版 ADR 记录（含背景、决策、后果、替代方案）。
+  - 思考题：
+  - '- 若半年后团队新增 3 名仅有 React 经验的成员，如何触发重评机制？'
+  - '- 如何设置“一票否决”指标应对突发合规要求（如必须支持信创国产化浏览器）？'
+- 'no': 2
+  title: Monorepo 仓库拓扑设计与增量 CI 验证
+  contents:
+  - 场景：规划一个包含 2 个子应用、3 个共享包的 Monorepo 结构。
+  - 任务：
+  - 1. 绘制目录树结构（apps/、packages/），标注每个包的职责与内部依赖关系（用 workspace:* 协议）。
+  - 2. 编写 pnpm-workspace.yaml 关键配置。
+  - 3. 设计 CI 增量构建脚本：当修改 `packages/ui` 时，自动触发 `apps/admin` 和 `apps/mobile` 的类型检查与单测，但不触发无关包构建。
+  - 思考题：
+  - '- 如何解决“幽灵依赖”导致的本地能跑通、CI 报错的问题？'
+  - '- 当 `packages/shared-config` 更新 ESLint 规则导致全仓代码需修复时，如何控制单次 PR 范围与回滚风险？'
+- 'no': 3
+  title: Schema 驱动的 ProTable 组件最小原型实现
+  contents:
+  - 目标：实现一个极简版 `ProTable`，接收 Schema 配置自动渲染表格、搜索、分页、列设置持久化。
+  - 任务：
+  - 1. 定义 `TableSchema` TypeScript 接口，包含 `columns[]`（prop/label/width/sortable/searchable/fixed/render）、`requestApi`（分页查询函数）、`rowKey`、`settingsKey`（localStorage
+    键名）。
+  - 2. 实现核心逻辑：
+  - '   - 根据 `columns` 渲染 `<el-table>` / `<table>`，支持 `render` 插槽函数自定义单元格。'
+  - '   - 搜索表单自动生成：筛选 `searchable: true` 的列，渲染输入/选择器，提交时合并参数调用 `requestApi`。'
+  - '   - 分页：自动处理 `page`/`pageSize` 与后端约定字段映射。'
+  - '   - 列设置持久化：勾选显示/隐藏、拖拽排序、固定列，变更写入 `localStorage[settingsKey]`，刷新恢复。'
+  - 3. 编写一个演示 Schema：用户管理表格（姓名、角色、状态、操作列），状态列用 `render` 渲染 Tag，操作列渲染编辑/删除按钮。
+  - 思考题：
+  - '- 如何通过 `render` 逃逸口支持“复杂交互单元格”（如可编辑单元格、下拉菜单）而不污染 Schema 纯粹性？'
+  - '- 若后端接口字段新增/删除，前端仅改 Schema 一处即可生效，这一链路的自动化脚本如何设计（OpenAPI -> Schema）？'
+- 'no': 4
+  title: 质量门禁阈值收紧策略与误报治理
+  contents:
+  - 场景：遗留项目接入质量流水线，首月覆盖率仅 45%、Lint Error 200+、bundle 800KB。
+  - 任务：
+  - 1. 制定 6 个月分阶段收紧计划表（月度覆盖率/Lint/BodySize/性能指标目标值）。
+  - 2. 设计“存量豁免、增量达标”机制：配置 ESLint `overrideConfig` 忽略存量目录、Vitest `exclude` 排除旧测试、Vite
+    `build.chunkSizeWarningLimit` 动态调整。
+  - 3. 定义 E2E 脆弱用例自动重跑与标记流程：失败重跑 2 次 -> 仍失败自动创建 Issue 并打 `flaky` 标签 -> 连续 3 次流水线失败自动禁用该用例并通知
+    Owner。
+  - 思考题：
+  - '- 如何平衡“零容忍高危漏洞”与“依赖升级导致 Breaking Change 无法立即修复”的矛盾？'
+  - '- 性能预算（LCP/CLS/INP）在 CI 中如何采集（Lighthouse CI / WebPageTest / 真实用户 RUM 数据回流）？各有何优劣？'
+- 'no': 5
+  title: 技术债务清单量化与重构 ADR 撰写
+  contents:
+  - 场景：某中后台项目运行 2 年，积累大量技术债务。
+  - 任务：
+  - 1. 设计《技术债务清单》表格字段：ID/分类(代码/依赖/架构/测试/文档)/描述/影响面(模块/人数/频次)/优先级(P0-P3)/预估工时/责任人/状态/关联
+    ADR。
+  - 2. 从 SonarQube 导出 50 条 Code Smell、pnpm outdated 导出 30 个滞后依赖、覆盖率报告导出 10 个低覆盖核心模块，演示如何聚类去重生成
+    15 条标准化债务条目。
+  - 3. 针对“组件库从 Ant Design v4 升级 v5”这一重大重构，撰写完整 ADR：
+  - '   - 背景：v4 停止维护、v5 CSS-in-JS 性能提升、主题能力增强'
+  - '   - 备选：就地升级 / 并行双版本灰度 / 迁移至 Arco Design'
+  - '   - 决策：并行双版本灰度，预计 3 个月完成'
+  - '   - 后果：需维护两套 peerDependencies、Codemod 脚本覆盖 80% 破坏性 API、回滚预案'
+  - '   - 替代方案评估矩阵（成本/收益/风险/周期）。'
+  - 思考题：
+  - '- 如何建立“债务偿还预算制”：每季度规划预留 15% 带宽，如何在 OKR 中量化考核？'
+  - '- 组件复用率报告如何指导债务优先级：复用率<20%且高维护成本的组件，是优先下线还是优先重构？'
+- 'no': 6
+  title: AI 赋能前端工程化实战：搭建团队级 RAG 知识库与 Code Review 机器人
+  contents:
+  - 目标：基于团队代码库与文档，构建 RAG 知识库并接入 PR 流程，实现自动化代码审查。
+  - 任务：
+  - 1. 设计 RAG 索引构建流程：代码库切片策略、Embedding 模型选型、向量库配置、混合检索（稀疏+稠密）参数。
+  - 2. 定义 Code Review 机器人 Prompt 模板：包含规范检查、安全扫描、性能建议、单测补全四大维度的结构化输出格式。
+  - 3. 编写 GitHub Actions 工作流：PR 提交触发 -> 调用内部模型 API -> 输出结构化评审意见 -> 回写 PR Comment。
+  - 4. 设计反馈闭环：开发者对机器人建议的确认/拒绝 -> 作为偏好数据微调模型 -> 迭代提升准确率。
+  - 思考题：
+  - '- 如何处理代码库中的敏感信息（密钥、内部接口）在 RAG 检索中的脱敏？'
+  - '- 团队现有 ESLint/TypeCheck 结果如何作为上下文注入 Prompt，避免重复报错？'
+  - '- 如何量化 AI Code Review 的 ROI：对比人工 Review 耗时、漏报率、误报率、修复率？'
+- 'no': 7
+  title: 前端专用模型微调实战：基于 CodeLlama 构建团队专属编码助手
+  contents:
+  - 场景：团队积累了大量高质量前端代码（组件库、工具库、最佳实践），希望微调开源模型形成专属助手。
+  - 任务：
+  - 1. 准备训练语料：收集内部代码、清洗去重、构建指令微调数据集（Prompt-Completion 对）、划分训练/验证集。
+  - 2. 配置 LoRA 低秩适配参数：rank、alpha、dropout、target_modules，估算显存占用与训练时长。
+  - 3. 设计评测基准：HumanEval-MBPP 前端子集、TypeScript 类型正确率、组件库 API 使用准确率、项目规范遵循度。
+  - 4. 制定部署方案：量化（GGUF/AWQ）、推理服务、IDE 插件集成、A/B 测试对比基线模型。
+  - 思考题：
+  - '- 如何防止微调后模型出现“灾难性遗忘”，丢失通用编码能力？'
+  - '- 训练数据中包含的最佳实践与反模式如何平衡，避免模型学到坏习惯？'
+  - '- 团队规模较小（<20人）时，微调投入产出比如何评估，是否优先选择 RAG 方案？'
+units:
+- 'no': 1
+  name: 技术选型决策矩阵 —— 为架构选型装上“导航仪”
+  points:
+  - '**为什么需要这个概念？**'
+  - '- 面对 Vue/React、Vite/Webpack、Pinia/Redux 等海量技术组合，靠直觉选型极易导致技术债务与团队分歧'
+  - '- 缺乏量化依据时，技术决策容易演变为“话语权之争”而非“工程权衡”'
+  - '- 项目初期决策影响全周期，事后重构成本指数级上升，必须在起跑线建立科学决策机制'
+  - '**核心定义**'
+  - '- 技术选型决策矩阵：将候选方案按维度（生态成熟度、团队熟悉度、性能指标、长期维护成本、招聘市场供给等）打分加权，输出可视化对比表单'
+  - '- ADR (Architecture Decision Records) ：记录决策背景、备选方案、最终决策、后果及替代方案的结构化文档，纳入版本控制'
+  - '**关键性质**'
+  - '- 可追溯：半年后新成员可通过 ADR 理解“为什么当年选 Vue 而非 React”'
+  - '- 可量化：将主观偏好转化为加权评分，便于跨团队对齐预期'
+  - '- 动态演进：预设触发重评条件（如重大版本发布、团队技能结构变化、业务形态转型）'
+  - '**典型例子**'
+  - '- 状态管理选型：对比 Pinia（轻量、TS 友好、Composition API 原生）vs Redux（生态成熟、调试强大、学习曲线陡峭），若团队全栈偏
+    Vue、追求开发效率，Pinia 得分更高'
+  - '- 构建工具选型：Vite（冷启动快、ESM 原生、插件生态爆发）vs Webpack（成熟稳定、Loader 生态全、大型老项目迁移成本低），新项目首选
+    Vite'
+  - '**边界条件**'
+  - '- 矩阵权重设定具有主观性，需全团队技术骨干共同商定，避免架构师“一言堂”'
+  - '- 评分依赖当前认知，不可预测黑天鹅事件（如核心维护者停止维护），需设定定期复盘机制（如每半年）'
+  - '- 非功能性需求（如极致首屏性能、国密算法合规）可能否决高分方案，需设置“一票否决”指标'
+  - '**素材溯源**'
+  - '- 20230418_117.md 至 20230418_126.md：覆盖技术选型、Monorepo 初始化、脚手架生成、标准化模版等全链路决策依据'
+  - '- AiCrd19EAoPvvPx0HSJczxk3nfC.md：矩阵思维与复制能力，论证低门槛高复制性项目的规模化价值'
+  sources:
+  - paper: 20230418_117.md
+    role: origin
+  - paper: 20230418_118.md
+    role: improve
+  - paper: 20230418_119.md
+    role: improve
+  - paper: 20230418_120.md
+    role: improve
+  - paper: 20230418_121.md
+    role: improve
+  - paper: 20230418_122.md
+    role: improve
+  - paper: 20230418_123.md
+    role: improve
+  - paper: 20230418_124.md
+    role: improve
+  - paper: 20230418_125.md
+    role: improve
+  - paper: 20230418_126.md
+    role: improve
+  - paper: AiCrd19EAoPvvPx0HSJczxk3nfC.md
+    role: improve
+  excerpts:
+  - 产出《技术选型决策文档》（Vue/React、Pinia/Redux、Vite/Webpack、CSS 方案、测试框架）
+  - 初始化 `pnpm-workspace.yaml`、生成标准化模版项目
+  - ADR 记录决策背景、备选方案、最终决策、后果及替代方案
+  - 矩阵思维：单体项目可复制放大，低门槛高复制性是隐性大项目标识
+- 'no': 2
+  name: Monorepo 仓库治理 —— 让多包协作像单仓一样顺滑
+  points:
+  - '**为什么需要这个概念？**'
+  - '- 中后台业务往往拆分为：UI 组件库、请求层、业务组件、工具函数、多个子应用，多仓库管理依赖升级、代码复用、版本发布极其痛苦'
+  - '- 传统多仓模式下，跨仓重构需开多个 PR、CI 耗时长、原子提交困难，严重拖累交付效率'
+  - '- 包管理器（pnpm/yarn workspace）已原生支持 Monorepo，工具链成熟度满足生产落地'
+  - '**核心定义**'
+  - '- Monorepo：在单一代码仓库中管理多个相关联的 Package（Package 可独立版本、独立发布、独立构建）'
+  - '- pnpm-workspace.yaml：声明工作区包路径（如 `packages/*`、`apps/*`），配合 `pnpm install` 实现依赖提升、幽灵依赖规避、硬链接节省磁盘'
+  - '**关键性质**'
+  - '- 原子提交：跨包重构（如修改组件库 API 同步更新所有子应用）仅需 1 个 PR、1 次 CI'
+  - '- 依赖去重：共享依赖提升至根节点 `node_modules/.pnpm`，磁盘占用降低 50%+，安装速度提升 2-3 倍'
+  - '- 版本联动：配合 Changesets 实现“改动包自动生成 changelog、版本号自动递增、发布时自动更新依赖包版本”'
+  - '**典型例子**'
+  - '- 目录结构：`apps/admin`（主后台）、`apps/mobile`（移动端）、`packages/ui`（组件库）、`packages/request`（请求层）、`packages/shared-config`（ESLint/TS/Prettier
+    共享配置）'
+  - '- 内部依赖引用：`"@enterprise/ui": "workspace:*"`，开发时直接链接源码，发布时自动替换为真实版本号'
+  - '**边界条件**'
+  - '- 仓库体积随历史增长，需配置 `git shallow clone`、Git LFS 存放大型二进制资产、定期清理无用分支'
+  - '- 权限管控粒度变粗：全员可读全量代码，敏感业务（如风控、支付核心）仍需拆分独立私有仓库'
+  - '- CI 缓存策略复杂：需精准计算受影响包（`pnpm --filter=... --filter=dependents`）实现增量构建测试，避免全量跑测'
+  - '**素材溯源**'
+  - '- 20230418_117.md 至 20230418_126.md：统一覆盖 Monorepo 初始化、工作区配置、脚手架生成、共享配置包治理'
+  sources:
+  - paper: 20230418_117.md
+    role: origin
+  - paper: 20230418_118.md
+    role: improve
+  - paper: 20230418_119.md
+    role: improve
+  - paper: 20230418_120.md
+    role: improve
+  - paper: 20230418_121.md
+    role: improve
+  - paper: 20230418_122.md
+    role: improve
+  - paper: 20230418_123.md
+    role: improve
+  - paper: 20230418_124.md
+    role: improve
+  - paper: 20230418_125.md
+    role: improve
+  - paper: 20230418_126.md
+    role: improve
+  excerpts:
+  - 初始化 `pnpm-workspace.yaml`、生成标准化模版项目
+  - Monorepo 多包管理、脚手架插件机制支持业务定制
+  - 共享依赖提升、幽灵依赖规避、硬链接节省磁盘
+- 'no': 3
+  name: 基础设施封装层 —— 造好“轮子”让业务跑得飞快
+  points:
+  - '**为什么需要这个概念？**'
+  - '- 直接在业务代码中裸用 Ant Design、Axios、Vue Router 会导致：API 耦合业务逻辑、切换底层库成本高、横切关注点（鉴权、国际化、异常、监控）散落各处'
+  - '- 每个项目重复造“封装轮子”浪费人力，且质量参差不齐，缺乏统一技术标准'
+  - '- 中后台高频场景（CRUD 表格、复杂表单、权限控制、主题切换）需沉淀为开箱即用的“企业级脚手架能力”'
+  - '**核心定义**'
+  - '- `@enterprise/ui`：二次封装组件库（Ant Design/Arco Design），暴露统一 Props/Events/Slots 契约，内置权限指令
+    `v-auth`、表单校验集成、表格列配置_schema_化、主题变量注入'
+  - '- `@enterprise/request`：基于 Axios/Fetch 封装，内置：统一错误码处理、Loading 自动管理、Token 无感刷新（防并发重复请求）、请求/响应拦截器链、Mock/MSW
+    切换'
+  - '- RBAC 权限体系：`v-auth="[''user:create'']"` 指令 + `<Auth comp="Button" ... />` 组件
+    + 路由元信息 `meta: { roles: [''admin''] }` 三位一体'
+  - '- 动态路由注册：后端返回路由树 -> 递归转换为 `RouteRecordRaw` -> `router.addRoute` 注册 -> 菜单联动渲染
+    -> 刷新持久化（Pinia + localStorage）'
+  - '**关键性质**'
+  - '- 零侵入业务：业务代码仅依赖 `@enterprise/*`，不知底层是 Ant Design 还是 Element Plus'
+  - '- 类型安全全链路：请求层泛型 `request<T>(config)`、路由对象 `typed-router`、组件库 `vue-component-type-helpers`
+    提取 Props 类型'
+  - '- 可观测性内置：请求自动上报 TraceID、组件渲染性能标记、错误边界自动捕获上报 Sentry'
+  - '**典型例子**'
+  - '- 典型 CRUD 页面开发：`ProTable` 组件仅需传 `columns`、`requestApi`、`rowKey` 三个核心配置，自动实现分页、搜索、新增/编辑抽屉、删除确认、导出
+    Excel、列设置持久化'
+  - '- 权限控制：页面级由路由守卫拦截，按钮级由 `v-auth` 指令隐藏，接口级由 BFF 返回 403 触发请求层统一弹窗提示'
+  - '**边界条件**'
+  - '- 封装层版本升级必须遵循 SemVer，Breaking Change 需提供 Codemod 自动迁移脚本（如 `jscodeshift`）批量修复业务代码'
+  - '- 避免“过度封装”：保留 `rawRequest`、原生组件 `ref` 暴露底层能力，防止“为了封装而封装”限制业务发挥'
+  - '- 组件库升级（如 Ant Design v4 -> v5）属于重大变更，需在 Monorepo 中并行维护双版本、灰度迁移子应用'
+  - '**素材溯源**'
+  - '- 20230418_117.md 至 20230418_126.md：覆盖 UI 组件库封装、请求层/权限/路由/国际化/主题/异常监控接入全流程'
+  - '- HgjLdWdxHo8ezoxv9iLc4HSwnAh.md：AI 编程助手现状、RAG 落地、Agent 工作流、模型微调、AI Code Review
+    机器人'
+  sources:
+  - paper: 20230418_117.md
+    role: origin
+  - paper: 20230418_118.md
+    role: improve
+  - paper: 20230418_119.md
+    role: improve
+  - paper: 20230418_120.md
+    role: improve
+  - paper: 20230418_121.md
+    role: improve
+  - paper: 20230418_122.md
+    role: improve
+  - paper: 20230418_123.md
+    role: improve
+  - paper: 20230418_124.md
+    role: improve
+  - paper: 20230418_125.md
+    role: improve
+  - paper: 20230418_126.md
+    role: improve
+  - paper: HgjLdWdxHo8ezoxv9iLc4HSwnAh.md
+    role: improve
+  excerpts:
+  - 封装 `@enterprise/ui` 组件库（基于 Ant Design/Arco Design）
+  - '`@enterprise/request` 统一错误/Loading/Token 刷新'
+  - RBAC 权限指令/组件、动态路由注册、i18n/a11y 基线、Sentry/自建监控 SDK 接入
+  - AI 编程助手现状：GitHub Copilot/Cursor/Codeium 对比、提示词工程模式、上下文窗口管理
+  - RAG 在前端知识库落地：代码库切片、向量化检索、重排序、上下文注入与幻觉控制
+  - Agent 工作流自动化：需求拆解→代码生成→测试验证→提交 PR 的闭环与人工介入点设计
+  - 前端专用模型微调：CodeLlama/DeepSeek-Coder 继续预训练、指令微调、RLHF 对齐前端最佳实践
+  - 实战：接入 AI Code Review 机器人——规范检查、安全扫描、性能建议、单测补全自动化
+- 'no': 4
+  name: Schema 驱动开发 —— 让配置生成代码，告别重复 CRUD
+  points:
+  - '**为什么需要这个概念？**'
+  - '- 中后台 80% 页面是“列表+详情/表单”的 CRUD 变体，手写 Vue/React 模板代码极其机械、易出错、维护成本高'
+  - '- 后端接口字段、前端表单校验、表格列、搜索条件、Excel 导出列定义高度同构，单源头维护可消灭不一致'
+  - '- 非技术人员（产品/运营）可通过可视化配置平台直接生成页面，释放研发带宽'
+  - '**核心定义**'
+  - '- Schema：描述页面结构的 JSON 对象，包含 `fields[]`（字段元数据：type/label/validator/options/props）、`layout`（布局：grid/tabs/steps）、`actions`（工具栏/行操作）、`api`（增删改查接口映射）'
+  - '- `ProForm`/`ProTable`/`ProChart`：Schema 驱动的通用组件，接收 Schema 自动渲染表单/表格/图表，内置校验、联动、加载态、提交流程'
+  - '- 代码生成器：读取 Schema（或数据库表结构/接口文档），基于模版引擎（Handlebars/EJS）生成 `.vue`/`.tsx` 页面源码，支持保留业务自定义代码区（`//
+    [CUSTOM_BEGIN]`）'
+  - '**关键性质**'
+  - '- 单一数据源：后端 Swagger/OpenAPI -> 生成 TypeScript 类型 -> 生成前端 Schema -> 驱动 ProTable/ProForm，字段增删改仅改一处'
+  - '- 运行时可解释执行：Schema 可下发、可存储、可动态组合，支持“低代码搭建”模式（可视化拖拽生成 Schema -> 实时预览 -> 一键发布）'
+  - '- 渐进式增强：基础 90% 场景 Schema 覆盖，复杂 10% 通过 `render` 自定义渲染函数、Slots 插槽、组合式 API `useProForm`
+    逃逸口接管'
+  - '**典型例子**'
+  - '- 用户管理页面：定义 `userSchema` 包含 15 字段，`ProTable` 自动渲染带搜索/分页/多选删除/导出的表格，`ProForm`
+    在抽屉中自动渲染新增/编辑表单（含校验/联动/异步选项），零手写模板代码'
+  - '- 复杂表单：分步向导、动态增减行表单、字段权限显隐、异步级联选择器，均通过 Schema `validator`、`visible`、`dependencies`、`asyncOptions`
+    声明式配置'
+  - '**边界条件**'
+  - '- Schema 复杂度随业务增长可能膨胀为“另一种代码”，需定期重构提取公共 Schema 片段（`schema-fragments`）、建立 Schema
+    Lint 规范'
+  - '- 高度定制化交互（如拖拽排序、可视化编辑器、实时协同编辑）超出 Schema 表达能力，应果断转为手写组件，避免“配置地狱”'
+  - '- 代码生成模式下，生成代码纳入 Git 管理，需解决“再次生成覆盖手写逻辑”冲突，推荐“保留区块标记 + AST 合并”策略'
+  - '**素材溯源**'
+  - '- 20230418_117.md 至 20230418_126.md：覆盖典型 CRUD 标准化、ProTable/ProForm/ProChart 封装、Schema
+    驱动页面生成、微前端子应用接入'
+  sources:
+  - paper: 20230418_117.md
+    role: origin
+  - paper: 20230418_118.md
+    role: improve
+  - paper: 20230418_119.md
+    role: improve
+  - paper: 20230418_120.md
+    role: improve
+  - paper: 20230418_121.md
+    role: improve
+  - paper: 20230418_122.md
+    role: improve
+  - paper: 20230418_123.md
+    role: improve
+  - paper: 20230418_124.md
+    role: improve
+  - paper: 20230418_125.md
+    role: improve
+  - paper: 20230418_126.md
+    role: improve
+  excerpts:
+  - 沉淀 `ProTable`/`ProForm`/`ProChart` 通用组件、Schema 驱动页面生成
+  - 典型 CRUD 页面标准化、复杂表单/表格/可视化组件封装
+  - 微前端子应用接入（主应用/子应用通信/共享依赖）
+- 'no': 5
+  name: 质量门禁流水线 —— 让“不合格代码”无法入库
+  points:
+  - '**为什么需要这个概念？**'
+  - '- 代码评审靠人肉无法覆盖：性能退化、安全漏洞、无障碍缺陷、包体积超标、类型错误、测试覆盖率下降均需自动化工具拦截'
+  - '- “跑通流程 ≠ 质量达标”，必须建立量化指标阈值（性能预算、覆盖率底线、严重漏洞零容忍）作为 CI 红线，自动阻断合并'
+  - '- 反馈越左移成本越低：本地 pre-commit -> CI Pipeline -> 预发布环境 -> 生产监控，构建多层防御体系'
+  - '**核心定义**'
+  - '- CI/CD 流水线阶段：`Lint` (ESLint/Stylelint/Markdownlint) -> `TypeCheck` (tsc --noEmit)
+    -> `Test:Unit` (Vitest + Coverage 阈值) -> `Test:E2E` (Playwright 核心链路) -> `Build`
+    (Vite 生产构建) -> `Scan` (依赖漏洞/密钥扫描/包体积分析) -> `Deploy` (ArgoCD GitOps 同步)'
+  - '- 质量门禁阈值：`statements/branches/functions/lines` 覆盖率 ≥ 80%（核心包 95%）、`bundle size`
+    gzip < 500KB（首屏）、`LCP` < 2.5s、`CLS` < 0.1、`INP` < 200ms、高危漏洞 0 个、无障碍 `axe-core`
+    违规 0 个'
+  - '- GitOps 发布：ArgoCD 监控 Git 仓库 `manifests/` 目录，自动同步 K8s 资源，支持 `PreSync`（跑迁移/冒烟测试）、`PostSync`（健康检查/通知）、自动回滚（健康检查失败）'
+  - '**关键性质**'
+  - '- 快速反馈：利用 pnpm 内置并行、Vitest 线程池、Playwright 分片、TurboRepo 远程缓存，将全流水线压缩至 15 分钟内'
+  - '- 可视化看板：Grafana 看板展示各阶段耗时趋势、覆盖率趋势、部署频次/成功率/前置时间/恢复时间（DORA 四大指标）'
+  - '- 渐进式收紧：新项目首月宽松（覆盖率 50%、仅阻断 Error 级 Lint），每季度收紧 5%，配合技术债务专项偿还计划'
+  - '**典型例子**'
+  - '- PR 提交触发：GitHub Actions 矩阵并行跑 `Node 18/20`、`Chrome/Firefox/Safari`、`Linux/macOS`，生成合并报告（覆盖率徽章、体积分析图、E2E
+    视频回放）'
+  - '- 夜ly 发布：定时触发 `main` 分支全量构建、跑全量 E2E、性能基准对比（Lighthouse CI）、安全扫描（Trivy/Snyk），生成《每日构建质量报告》推送钉钉/飞书'
+  - '- 回滚演练：混沌工程定期注入故障（Pod Kill/网络分区/CPU 限流），验证 ArgoCD 自动回滚 < 2 分钟、业务无感知'
+  - '**边界条件**'
+  - '- 遗留项目接入需“分层降级”：存量代码允许 `eslint-disable`、覆盖率豁免目录，但新增/修改文件必须达标（`eslint-plugin-import/extensions`
+    强制）'
+  - '- E2E 测试易脆：需建立 `test-id` 稳定选择器规范、Mock 后端契约（MSW/Pact）、冒烟用例与回归用例分离、失败自动重跑 2 次再判定'
+  - '- 单体前端应用构建慢：利用 Vite `build.modulePreload`、`chunkSplit` 策略、ESBuild 压缩、云端远程缓存（Turborepo/Nx
+    Cloud）加速'
+  - '**素材溯源**'
+  - '- 20230418_117.md 至 20230418_126.md：覆盖 CI/CD 流水线、性能/安全/无障碍基线门禁、灰度发布、回滚演练、混沌工程'
+  sources:
+  - paper: 20230418_117.md
+    role: origin
+  - paper: 20230418_118.md
+    role: improve
+  - paper: 20230418_119.md
+    role: improve
+  - paper: 20230418_120.md
+    role: improve
+  - paper: 20230418_121.md
+    role: improve
+  - paper: 20230418_122.md
+    role: improve
+  - paper: 20230418_123.md
+    role: improve
+  - paper: 20230418_124.md
+    role: improve
+  - paper: 20230418_125.md
+    role: improve
+  - paper: 20230418_126.md
+    role: improve
+  excerpts:
+  - 配置 GitLab CI/GitHub Actions：Lint/TypeCheck/Unit/E2E/Build/Scan/Deploy
+  - 性能预算/安全扫描/axe 无障碍阈值阻断
+  - ArgoCD 金丝雀发布、混沌工程演练回滚
+- 'no': 6
+  name: 架构演进与知识沉淀 —— 让系统在变化中进化
+  points:
+  - '**为什么需要这个概念？**'
+  - '- 业务快速迭代必然产生技术债务（硬编码配置、组件重复造轮子、类型 `any` 泛滥、测试缺失），不主动治理会拖垮交付速度'
+  - '- 团队隐性知识（踩坑经验、最佳实践、架构决策背景）流失风险高，需显性化沉淀为组织资产'
+  - '- 技术栈演进（Vue 3 -> 4、Vite 5 -> 6、新 CSS 特性、WASM 落地）需要有计划的预研与平滑升级路径'
+  - '**核心定义**'
+  - '- 技术债务清单：定期（每季度）扫描：`TODO/FIXME` 标注、SonarQube 代码异味、依赖版本滞后（`pnpm outdated`）、类型覆盖率下降、测试覆盖率缺口、性能指标回退，产出《技术债务清单》含优先级/影响面/预估工时/责任人'
+  - '- 重构提案 ADR：对重大重构（如迁移到 RSC、引入信号响应式、组件库升级）撰写 ADR，经架构评审会通过后纳入路线图'
+  - '- 组件复用率报告：统计 `@enterprise/ui` 组件在各应用中的引用频次、覆盖业务场景、定制化分支数，识别“高价值通用组件”与“低价值僵尸组件”'
+  - '- 团队技术分享体系：周会（15min 踩坑/新特性）、月度深度分享（1h 源码解析/架构复盘）、季度架构评审（ADR 评审/路线图对齐）、年度白皮书（《前端架构演进白皮书》）'
+  - '**关键性质**'
+  - '- 数据驱动决策：复用率 < 20% 的组件考核下线、高频定制化组件提炼为配置项、高频 Bug 类型归因推动工具链/规范完善'
+  - '- 显性化知识资产：所有 ADR、分享 PPT、复盘文档、白皮书沉淀至团队知识库（Notion/Confluence/GitBook），新员工入职必读'
+  - '- 预算保障：每季度规划预留 15%-20% 带宽专项偿还技术债务、升级依赖、完善基建，纳入 OKR 考核'
+  - '**典型例子**'
+  - '- 依赖升级专项：Node 16 EOL -> 制定升级 Node 20 计划（CI 镜像更新、原生依赖重编译、Polyfill 移除、异步上下文迁移），分
+    3 期灰度，回滚预案就绪'
+  - '- 组件库精简：发现 `ProAdvancedTable` 仅 2 个项目用、维护成本高，ADR 决定下线，功能下沉至 `ProTable` 配置项，迁移脚本自动化'
+  - '- 新技术预研：调研 React Server Components 对中后台 BFF 层的影响，产出《RSC 在中后台落地可行性报告》，含 PoC Demo、迁移成本估算、收益预测'
+  - '**边界条件**'
+  - '- 避免“为重构而重构”：每个重构必须关联业务价值（提效/降本/体验/安全），纯技术洁癖驱动的重构需严格评审'
+  - '- 知识沉淀非一劳永逸：需设置文档过期机制（如 1 年未更新自动标记 `deprecated`）、定期归档整理、指定文档 Owner'
+  - '- 团队分享质量 > 数量：拒绝流水账 PPT，强制包含：背景/问题/方案对比/代码实现/踩坑/效果数据/迁移指南'
+  - '**素材溯源**'
+  - '- 20230418_117.md 至 20230418_126.md：覆盖技术债务识别、重构提案 ADR、组件复用率统计、团队技术分享体系化、前端架构演进白皮书'
+  sources:
+  - paper: 20230418_117.md
+    role: origin
+  - paper: 20230418_118.md
+    role: improve
+  - paper: 20230418_119.md
+    role: improve
+  - paper: 20230418_120.md
+    role: improve
+  - paper: 20230418_121.md
+    role: improve
+  - paper: 20230418_122.md
+    role: improve
+  - paper: 20230418_123.md
+    role: improve
+  - paper: 20230418_124.md
+    role: improve
+  - paper: 20230418_125.md
+    role: improve
+  - paper: 20230418_126.md
+    role: improve
+  excerpts:
+  - 定期产出《技术债务清单》《重构提案 ADR》《组件复用率报告》
+  - 建立团队技术周会/月度深度分享/季度架构评审机制
+  - 沉淀《前端架构演进白皮书》
+- 'no': 7
+  name: AI 赋能前端工程化新范式 —— 从“手写代码”到“智能研发闭环”
+  points:
+  - '**为什么需要这个概念？**'
+  - '- 大模型能力跃迁使 AI 能胜任代码生成、重构、测试、文档、评审等全链路研发任务，但缺乏工程化落地范式导致“玩具化”应用'
+  - '- 团队面临：Prompt 管理混乱、上下文窗口不足、幻觉风险、私有代码泄露、模型能力与业务场景错位等工程化挑战'
+  - '- 需要建立“提示词即代码、RAG 即知识库、Agent 即自动化、Review 即质检、微调即专家”的系统性工程体系'
+  - '**核心定义**'
+  - '- Prompt Engineering 标准化：PromptTemplate + ExampleSelector 机制，实现提示词与业务逻辑解耦、动态少样本检索、A/B
+    测试版本控制'
+  - '- 结构化输出与类型安全：JsonOutputParser/PydanticOutputParser + 修复重试机制，实现“自然语言输入 -> 类型安全对象输出”'
+  - '- RAG 知识库：Tree-sitter AST 切片 + Embedding 向量化 + Milvus/Chroma 存储 + Hybrid Search（稀疏+稠密）+
+    引用溯源'
+  - '- Agent 自动化工作流：LangGraph/AutoGen 编排 Planner/Coder/Tester/Reviewer 多 Agent，工具调用、状态机流转、人工审批检查点'
+  - '- AI Code Review：GitHub Action 触发 PR Review -> 调用内部模型 -> 结构化评审意见 -> 集成 ESLint/TypeCheck
+    结果 -> 自动生成单测草案'
+  - '- 前端专用模型微调：CodeLlama/DeepSeek-Coder + LoRA + 高质量前端语料（组件库/工具库/最佳实践）+ RLHF 对齐'
+  - '**关键性质**'
+  - '- 提示词工程化：提示词纳入版本控制、CI/CD 集成、参数化复用、自动优化（OPRO/DSPy）'
+  - '- 知识资产化：代码库变成可查询、可推理、可进化的知识图谱，而非静态文档'
+  - '- 自动化闭环：需求 -> 代码 -> 测试 -> 部署 -> 监控 -> 反馈 -> 训练数据，形成数据飞轮'
+  - '- 可观测性：LangSmith/LangFuse 全链路 Trace，Token 成本、延迟、错误率、通过率可视化'
+  - '- 安全合规：代码脱敏、私有部署、数据不出域、审计日志、模型输出合规性校验'
+  - '**典型例子**'
+  - '- 新功能开发：PM 写 PRD -> Agent 拆解任务 -> Coder 生成代码/单测 -> Tester 运行验证 -> Reviewer 评审
+    -> 人工确认合并'
+  - '- Bug 修复：Sentry 告警 -> Agent 定位根因 -> 生成修复 PR -> 关联 Issue -> 自动回归测试'
+  - '- 重构升级：依赖升级 -> Codemod 生成迁移脚本 -> 批量修改 -> 单测/E2E 保护 -> 灰度发布'
+  - '- 文档生成：代码变更 -> 自动更新 API 文档/架构图/变更日志 -> 多语言同步'
+  - '**边界条件**'
+  - '- 幻觉风险：生成代码必须经 CI/CD 验证，禁止直接上线；关键路径（支付/安全）必须人工双审'
+  - '- 上下文限制：长任务需拆解为子任务、RAG 检索相关上下文、避免单次对话超限'
+  - '- 成本控制：Token 预算设定、模型级联（小模型过滤/大模型生成）、语义缓存命中复用'
+  - '- 技能迁移：开发者核心能力从“写代码”转向“设计系统、审代码、训模型、管数据”'
+  - '**素材溯源**'
+  - '- HgjLdWdxHo8ezoxv9iLc4HSwnAh.md：AI 编程助手现状、RAG 落地、Agent 工作流、模型微调、AI Code Review
+    机器人'
+  sources:
+  - paper: HgjLdWdxHo8ezoxv9iLc4HSwnAh.md
+    role: origin
+  excerpts:
+  - AI 编程助手现状：GitHub Copilot/Cursor/Codeium 对比、提示词工程模式、上下文窗口管理
+  - RAG 在前端知识库落地：代码库切片、向量化检索、重排序、上下文注入与幻觉控制
+  - Agent 工作流自动化：需求拆解→代码生成→测试验证→提交 PR 的闭环与人工介入点设计
+  - 前端专用模型微调：CodeLlama/DeepSeek-Coder 继续预训练、指令微调、RLHF 对齐前端最佳实践
+  - 实战：接入 AI Code Review 机器人——规范检查、安全扫描、性能建议、单测补全自动化
+'no': 25
