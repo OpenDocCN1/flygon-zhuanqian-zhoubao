@@ -1,5 +1,3 @@
-
-gpt-tool -st -nt paper2textbook docs/202303 
 gpt-tool -st -nt paper2textbook docs/202304 
 gpt-tool -st -nt paper2textbook docs/202305 
 gpt-tool -st -nt paper2textbook docs/202306 
