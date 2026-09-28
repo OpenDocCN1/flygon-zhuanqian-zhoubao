@@ -1,0 +1,94 @@
+citation_stats:
+- paper: P003
+  count: 4
+  locations:
+  - '60.3'
+  - '60.4'
+  - '60.5'
+- paper: P086
+  count: 7
+  locations:
+  - '60.6'
+  - '60.7'
+  - '60.8'
+  - '60.9'
+  - '60.10'
+  - '60.16'
+- paper: P162
+  count: 2
+  locations:
+  - '60.8'
+  - '60.16'
+- paper: P166
+  count: 1
+  locations:
+  - '60.15'
+- paper: P169
+  count: 1
+  locations:
+  - '60.13'
+- paper: P173
+  count: 4
+  locations:
+  - '60.11'
+  - '60.12'
+  - '60.17'
+  - '60.18'
+- paper: PSc
+  count: 5
+  locations:
+  - '60.11'
+  - '60.12'
+  - '60.14'
+  - '60.17'
+  - '60.18'
+unsupported_claims:
+- location: '60.5'
+  claim: 员工视角说真话风险实证：说真话易得罪直系领导遭穿小鞋
+  reason: 素材中仅为评论区网友'双平'的单方面陈述，非系统性实证研究
+- location: '60.5'
+  claim: 老板衡量得失后装作看不到形成默契
+  reason: 素材中仅为评论区网友'双平'的主观推测，非老板亲述或实证数据
+- location: '60.9'
+  claim: 训练营数据：月费大几千，出单率<50%，月入过万概率<10%
+  reason: 素材中为老瞿引用'市面上很多大佬训练营'的二手描述，非官方统计或可验证数据源
+- location: '60.11'
+  claim: 陪诊师职业倦怠本质为共情过载/能量场污染
+  reason: 素材中'能量场/有害能量'属玄学解释，'共情过载'为作者推测，缺乏医学/心理学专业文献支撑
+- location: '60.11'
+  claim: 佩戴符咒可构建心理屏蔽机制
+  reason: 素材中仅为从业者自发探索的玄学手段，非科学验证的有效干预方法
+- location: '60.13'
+  claim: 多平台分散流水可规避监管阈值，单平台流水<5万监管够不着
+  reason: 素材中为评论区网友建议及作者推测，非法律条文明确规定或监管部门官方表态
+- location: '60.14'
+  claim: 派单分成模型中头部负责筛选客户与机构真实性，履约方只管服务
+  reason: 素材中仅描述模式设计，缺乏实际运营中筛选机制执行细节与有效性验证
+- location: '60.15'
+  claim: 银行套利资金全程自有卡闭环、利息承保、仅操作四大行
+  reason: 素材中为老胡及评论区网友'老胡'、'风不停'的陈述，非银行官方文件或监管层面确认的无风险产品定性
+missing_concepts:
+- paper: P003
+  concept: 正式汇报渠道之外的具体交叉验证操作手册（如跳级汇报频次、谈话提纲、信息记录模板）
+  severity: high
+- paper: P086
+  concept: 闲鱼违禁书自动化筛查工具/敏感词库构建方法
+  severity: high
+- paper: P086
+  concept: 社区工作室标准化SOP全流程细节（选品/拍照/上架/定价/客服/发货）
+  severity: high
+- paper: P162
+  concept: 项目分层模型中'初/中/高级'的具体判断量表与自测清单
+  severity: medium
+- paper: P173
+  concept: 陪诊师职业倦怠的专业心理干预方案（如督导、轮岗、EAP），而非仅符咒/冥想
+  severity: high
+- paper: PSc
+  concept: 医疗服务合规筛选的具体尽调清单（资质核验/合同条款/红线清单/退出机制）
+  severity: high
+- paper: P169
+  concept: 二手书选品合规SOP与敏感词库自动化拦截工具
+  severity: high
+- paper: P166
+  concept: 银行套利渠道获取路径、资金门槛测算、税务合规处理
+  severity: medium

@@ -1,0 +1,74 @@
+citation_stats:
+- paper: docs/202303/20230328_156.md
+  count: 17
+  locations:
+  - ch61.3
+  - ch61.3.1
+  - ch61.3.2
+  - ch61.3.3
+  - ch61.3.4
+  - ch61.3.5
+  - ch61.3.6
+  - ch61.4
+  - ch61.4.1
+  - ch61.4.2
+  - ch61.4.3
+  - ch61.4.4
+  - ch61.5
+  - ch61.5.1
+  - ch61.5.2
+  - ch61.5.3
+  - ch61.6
+- paper: docs/202303/20230328_174.md
+  count: 15
+  locations:
+  - ch61.4
+  - ch61.4.1
+  - ch61.4.2
+  - ch61.4.3
+  - ch61.4.4
+  - ch61.4.5
+  - ch61.4.6
+  - ch61.4.7
+  - ch61.4.8
+  - ch61.4.9
+  - ch61.4.10
+  - ch61.5
+  - ch61.5.1
+  - ch61.5.2
+  - ch61.5.3
+- paper: docs/202303/L8sxdC6wYorZO1xVgNbc39L4nvf.md
+  count: 12
+  locations:
+  - ch61.5
+  - ch61.5.1
+  - ch61.5.2
+  - ch61.5.3
+  - ch61.5.4
+  - ch61.5.5
+  - ch61.5.6
+  - ch61.6
+  - ch61.6.1
+  - ch61.6.2
+  - ch61.6.3
+  - ch61.6.4
+unsupported_claims:
+- location: ch61.3.3
+  claim: 用户月复购率38%
+  reason: 素材中仅提及'用户月复购率仍在38%'，未说明统计口径、样本量、统计周期等关键信息，无法验证该数据的真实性与代表性
+- location: ch61.4.1
+  claim: 新手无海外人脉入场预期收益为负
+  reason: 素材中虽有'不建议'表述，但未提供量化的ROI模型、失败率统计或对照组数据支撑该绝对化判断
+- location: ch61.5.2
+  claim: 支付宝付费率8-15%，微信4-6%
+  reason: 素材仅给出作者个人账号实测对比数据，未披露样本量、统计周期、流量结构等关键变量，缺乏普适性验证
+missing_concepts:
+- paper: docs/202303/20230328_156.md
+  concept: 快团团平台规则变更风险
+  severity: high
+- paper: docs/202303/20230328_174.md
+  concept: Etsy平台费用结构变动
+  severity: medium
+- paper: docs/202303/L8sxdC6wYorZO1xVgNbc39L4nvf.md
+  concept: 微信小程序虚拟支付合规新规
+  severity: high
