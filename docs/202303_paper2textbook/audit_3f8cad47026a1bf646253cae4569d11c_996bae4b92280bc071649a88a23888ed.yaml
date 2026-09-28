@@ -1,0 +1,111 @@
+citation_stats:
+- paper: P001
+  count: 15
+  locations:
+  - '70.3'
+  - '70.4'
+  - '70.5'
+  - '70.6'
+  - '70.12'
+  - '70.13'
+  - '70.14'
+- paper: P002
+  count: 5
+  locations:
+  - '70.5'
+  - '70.12'
+  - '70.13'
+  - '70.14'
+- paper: P003
+  count: 8
+  locations:
+  - '70.6'
+  - '70.12'
+  - '70.13'
+  - '70.14'
+- paper: P004
+  count: 5
+  locations:
+  - '70.7'
+  - '70.12'
+  - '70.13'
+  - '70.14'
+- paper: P005
+  count: 5
+  locations:
+  - '70.8'
+  - '70.12'
+  - '70.13'
+  - '70.14'
+- paper: P006
+  count: 4
+  locations:
+  - '70.9'
+  - '70.12'
+  - '70.13'
+  - '70.14'
+- paper: P007
+  count: 4
+  locations:
+  - '70.10'
+  - '70.12'
+  - '70.13'
+  - '70.14'
+- paper: P008
+  count: 3
+  locations:
+  - '70.11'
+  - '70.12'
+  - '70.13'
+  - '70.14'
+- paper: P009
+  count: 4
+  locations:
+  - '70.12'
+  - '70.13'
+  - '70.14'
+unsupported_claims:
+- location: '70.12'
+  claim: 导航权重决定内容生态分层定律、实战内容沉淀双驱动公理、分类粒度与内容感知深度正相关性原理三大底层定律
+  reason: 素材中未找到这三个定律的明确定义与命名，仅作为作者总结性提炼出现
+- location: '70.12'
+  claim: 公式化表达：感知深度函数 PerceivedDepth = (ContentQuality × CategoryGranularity) / (AttentionCompetition
+    + ε)
+  reason: 素材中无该公式，为作者基于原理自行构建的数学模型
+- location: '70.8'
+  claim: 速记技能外溢价值：圈友求开课
+  reason: 素材中仅有'求开课'评论，未验证是否真有付费课程产出
+- location: '70.7'
+  claim: 术值奖励外延覆盖短文/日志/复盘/避坑指南等多元形态
+  reason: 素材仅提到'术值奖励'建议，未落地具体形态清单与标准
+missing_concepts:
+- paper: P001
+  concept: 官方回应中提到的'第七期重点优化内容展现和分类'具体方案
+  severity: high
+- paper: P001
+  concept: 飞书文档过渡方案中风向标分类的具体结构
+  severity: medium
+- paper: P002
+  concept: 航海精选日志的选标标准与筛选机制
+  severity: high
+- paper: P003
+  concept: 项目库停滞的具体原因（运营断层/激励缺失/技术限制）
+  severity: high
+- paper: P004
+  concept: 术值奖励的兑换权益体系（续费抵扣/特权购买等）具体规则
+  severity: high
+- paper: P005
+  concept: 速记协作的标准化SOP（模版/分工/校验/发布流程）
+  severity: high
+- paper: P006
+  concept: 关键路径节点审计法的量化基准阈值（核心内容≤2跳等）的来源依据
+  severity: medium
+- paper: P007
+  concept: 场景化内容归宿测试的标准化执行模版（场景库/匹配矩阵/判定标准）
+  severity: high
+- paper: P008
+  concept: 分类粒度优化的边界条件（过度细分导致分类稀疏/维护成本）的量化判断标准
+  severity: medium
+- paper: P009
+  concept: 双驱动公理中'机制化运行'的具体周期与考核指标（周评选/月结算/质量标准）
+  severity: high
