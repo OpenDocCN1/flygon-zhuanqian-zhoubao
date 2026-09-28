@@ -1,0 +1,65 @@
+citation_stats:
+- paper: docs/202303/20230328_157.md
+  count: 1
+  locations:
+  - ch81.2
+  - ch81.3
+- paper: docs/202303/20230328_089.md
+  count: 1
+  locations:
+  - ch81.2
+  - ch81.4
+- paper: docs/202303/20230328_025.md
+  count: 1
+  locations:
+  - ch81.2
+  - ch81.4
+- paper: docs/202303/20230328_007.md
+  count: 1
+  locations:
+  - ch81.2
+  - ch81.4
+- paper: docs/202303/20230328_091.md
+  count: 1
+  locations:
+  - ch81.2
+  - ch81.4
+- paper: docs/202303/20230328_013.md
+  count: 1
+  locations:
+  - ch81.2
+  - ch81.4
+- paper: docs/202303/20230328_102.md
+  count: 1
+  locations:
+  - ch81.2
+  - ch81.4
+- paper: docs/202303/20230328_031.md
+  count: 1
+  locations:
+  - ch81.2
+  - ch81.4
+- paper: docs/202303/20230328_112.md
+  count: 1
+  locations:
+  - ch81.2
+  - ch81.4
+- paper: docs/202303/20230328_053.md
+  count: 1
+  locations:
+  - ch81.2
+  - ch81.4
+unsupported_claims:
+- location: ch81.3
+  claim: 形式化风险量化模型：外链失效概率随时间衰减 P_survive(t) = e^{-λt}
+  reason: 素材中未找到支撑该数学模型推导的原始内容，属于教材编写时的自主构建
+missing_concepts:
+- paper: docs/202303/20230328_157.md
+  concept: 理财入门索引页的具体外链目标地址（语雀文档链接）
+  severity: high
+- paper: docs/202303/20230328_157.md
+  concept: 语雀外链文档的实际内容结构、核心知识点、更新频率
+  severity: high
+- paper: docs/202303/20230328_157.md
+  concept: 外链失效的历史案例或具体失效时间点
+  severity: medium
