@@ -1,0 +1,114 @@
+citation_stats:
+- paper: P001
+  count: 2
+  locations:
+  - '57.3'
+  - '57.5'
+- paper: P002
+  count: 1
+  locations:
+  - '57.4'
+- paper: P003
+  count: 1
+  locations:
+  - '57.5'
+- paper: P004
+  count: 2
+  locations:
+  - '57.6'
+  - '57.7'
+- paper: P005
+  count: 1
+  locations:
+  - '57.7'
+- paper: P006
+  count: 1
+  locations:
+  - '57.8'
+- paper: P007
+  count: 1
+  locations:
+  - '57.9'
+- paper: P008
+  count: 2
+  locations:
+  - '57.10'
+  - '57.11'
+- paper: P009
+  count: 1
+  locations:
+  - '57.11'
+- paper: P010
+  count: 1
+  locations:
+  - '57.12'
+- paper: P011
+  count: 1
+  locations:
+  - '57.13'
+- paper: P012
+  count: 1
+  locations:
+  - '57.14'
+- paper: P013
+  count: 1
+  locations:
+  - '57.15'
+- paper: P014
+  count: 2
+  locations:
+  - '57.16'
+  - '57.17'
+unsupported_claims:
+- location: '57.3'
+  claim: 红利强度 ∝ e^(-λt)
+  reason: 素材中未找到该公式的具体推导或参数定义来源，仅在全书中作为'红利窗口递减定律'呈现
+- location: '57.8'
+  claim: 金价(t) = 金价_0 · e^(-αt) + β · 版本更新脉冲
+  reason: 素材中未找到该公式的具体推导或参数定义来源，仅在全书中作为'金价单向递减规律'呈现
+- location: '57.3'
+  claim: 《逆水寒手游》独特的'赛季制'与'无束缚交易'机制，人为制造了周期性的稀缺性与流通性，将单次红利期放大为每个赛季循环的复利红利
+  reason: 素材中虽提及逆水寒赛季制与无束缚交易，但未提供官方机制文档或数据支撑'复利红利'的量化结论
+missing_concepts:
+- paper: P001
+  concept: 现象级MMORPG的具体判定标准（如DAU、留存、付费率阈值）
+  severity: high
+- paper: P002
+  concept: 付费动力三角在不同游戏品类（SLG、卡牌、休闲）中的权重差异量化模型
+  severity: medium
+- paper: P003
+  concept: 卖水理论在合规风控收紧（如官方推出代练/交易功能）下的防御性迁移策略
+  severity: high
+- paper: P004
+  concept: 私域沉淀中微信个人号/企微/社群的分层运营SOP与风控红线量化指标
+  severity: high
+- paper: P005
+  concept: 分层代练体系中'零红点'标准的具体任务清单、异常处理流程、考核评分细则
+  severity: high
+- paper: P006
+  concept: 搬砖工作室账号注册渠道（接码/实名/设备指纹）的成本结构与存活率对比数据
+  severity: high
+- paper: P007
+  concept: 教学主播IP化中知识库迭代的版本管理流程、内容生产节奏表、跨平台分发排期
+  severity: medium
+- paper: P008
+  concept: 竞技场代打分级定价的动态调整算法（基于段位通胀、玩家技术提升、官方机制调整）
+  severity: medium
+- paper: P009
+  concept: 帮派指挥官职业化的KPI指标体系（如帮战胜率、出勤率、人均输出、成员留存）
+  severity: medium
+- paper: P010
+  concept: 副本代打团SOP中BOSS机制突变的应急预案分级响应流程
+  severity: high
+- paper: P011
+  concept: AI绘画工作流中ControlNet/LoRA参数对游戏美术风格一致性的量化评测基准
+  severity: medium
+- paper: P012
+  concept: 社群裂变中种子用户筛选模型、裂变海报转化率追踪、群炸群/封号的熔断机制
+  severity: high
+- paper: P013
+  concept: 游戏工具/交易中介的反风控技术迭代周期、资金池风控模型、合规主体隔离架构
+  severity: high
+- paper: P014
+  concept: 非标服务标准化中'专家判断/特例审批'通道的触发条件、审批权限矩阵、审计留痕机制
+  severity: high
