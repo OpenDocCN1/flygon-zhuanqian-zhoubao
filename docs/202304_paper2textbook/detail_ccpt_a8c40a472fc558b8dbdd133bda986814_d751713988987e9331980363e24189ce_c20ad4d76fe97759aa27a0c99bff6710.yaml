@@ -1,0 +1,184 @@
+units:
+- 'no': 1
+  name: 全局错误捕获 —— 织就无死角的安全网
+  points:
+  - '**为什么需要这个概念？**'
+  - '- 前端运行环境复杂，错误来源多样（同步代码、Promise、框架内部），单一捕获手段无法覆盖全场景'
+  - '- 未捕获的异常会导致页面白屏、功能失效，且开发者无法第一时间感知线上真实错误率'
+  - '- 需要一套分层、兜底的捕获体系，确保“错误无处遁形”'
+  - '**核心定义**'
+  - '- 建立 `window.onerror`（捕获同步运行时错误）、`window.addEventListener(''unhandledrejection'')`（捕获未处理的
+    Promise 拒绝）、框架级错误边界（Vue `app.config.errorHandler` / React `ErrorBoundary`）三层防御体系'
+  - '- 统一错误对象格式，提取关键上下文：堆栈、时间戳、用户 ID、版本号、路由、设备信息'
+  - '**关键性质**'
+  - '- **捕获时机差异**：`onerror` 在冒泡到 window 时触发；`unhandledrejection` 在微任务队列空闲时触发；错误边界在组件渲染/生命周期阶段捕获'
+  - '- **不可捕获的边界**：网络请求失败（需拦截器）、Web Worker/跨域 iframe 内部错误（需子环境部署 SDK 并通过 `postMessage`
+    透传）、语法错误（编译期即报错，运行时无法捕获）'
+  - '- **Source Map 还原**：生产环境代码压缩混淆，必须接入 Source Map 解析服务（如 Sentry、Fundebug 或自建），将压缩后堆栈映射回源码行号'
+  - '**典型例子**'
+  - '- **场景**：用户点击按钮触发异步请求，Promise 因后端返回 500 导致 `reject`，但代码未写 `.catch()`'
+  - '- **表现**：控制台红色报错 `UnhandledPromiseRejectionWarning`，`unhandledrejection` 监听器捕获到
+    `event.reason`，上报包含堆栈指向调用处'
+  - '- **兜底**：若框架层也未捕获，最终由全局 `unhandledrejection` 兜底上报'
+  - '**边界条件**'
+  - '- `window.onerror` 返回 `true` 可阻止默认浏览器错误处理（如控制台打印），但不建议常规开启，避免掩盖调试线索'
+  - '- `unhandledrejection` 事件对象在部分旧浏览器为 `event.reason`，新标准为 `event.reason`，需兼容处理'
+  - '- 框架错误边界**无法**捕获：事件处理器、异步代码、服务端渲染、错误边界自身抛出的错误'
+  - '**工程化落地要点**'
+  - '- **聚合去重**：以 `(错误类型 + 错误信息 + 栈顶关键帧)` 生成指纹，同指纹在时间窗内合并计数，避免风暴刷屏'
+  - '- **上报策略**：错误日志优先级最高，采用 `navigator.sendBeacon` 或 `fetch(keepalive=true)` 保证页面卸载前送达'
+  - '- **Source Map 安全**：生产环境 Source Map 不应公开下载，需上传至内网解析服务或配置 Nginx 仅允许内网 IP 访问 `.map`
+    文件'
+  sources:
+  - paper: 20230418_046.md
+    role: origin
+  excerpts:
+  - 实现 `window.onerror`/`unhandledrejection`/Vue `errorHandler`/React `ErrorBoundary`
+    多层兜底、接入 Sentry/Fundebug 或自建平台解析 Source Map 还原源码堆栈。
+- 'no': 2
+  name: 性能监控 SDK —— 量化用户体验的体温计
+  points:
+  - '**为什么需要这个概念？**'
+  - '- 实验室数据无法反映真实用户的网络、设备、地理差异，必须采集真实用户监控（RUM）数据'
+  - '- Core Web Vitals（LCP/CLS/INP）是搜索排名与用户留存的关键指标，需持续追踪达标率'
+  - '- 长任务阻塞主线程、内存泄漏导致页面卡顿崩溃，属于“隐性杀手”，需主动探测'
+  - '**核心定义**'
+  - '- 基于 `PerformanceObserver` API 设计轻量 SDK，监听 `largest-contentful-paint`、`layout-shift`、`first-input`/`event`（INP）、`longtask`、`resource`
+    等条目类型'
+  - '- 采集资源加载瀑布流，识别阻塞关键渲染路径的大体积 JS/CSS/字体'
+  - '- 监控 JS Heap 内存趋势，结合 `performance.memory`（非标准但 Chrome 支持）预警泄漏'
+  - '- 统一通过 `navigator.sendBeacon` 可靠上报，避免阻塞主线程或丢失数据'
+  - '**关键性质**'
+  - '- **采集时机**：LCP 在页面主要内容渲染完成时触发；CLS 累计生命周期内所有非预期布局偏移；INP 取页面生命周期内所有交互延迟的 98 分位数（或最差值）'
+  - '- **长任务定义**：主线程连续占用 > 50ms 的任务，通常由大量 DOM 操作、复杂计算、解析巨大 JSON 引起'
+  - '- **内存监控局限**：`performance.memory` 仅 Chrome 支持，且受 GC 影响波动大，需采样平滑后判定趋势而非绝对值'
+  - '**典型例子**'
+  - '- **LCP 优化前后对比**：首屏大图未设置 `fetchpriority=high` 导致 LCP 3.2s，优化后预加载关键图片降至 1.8s，SDK
+    采集数据直观反映提升'
+  - '- **长任务定位**：某列表页滚动卡顿，SDK 上报 Long Task 耗时 120ms，堆栈指向 `virtualList.render()`，引导引入虚拟滚动优化'
+  - '**边界条件**'
+  - '- **SPA 路由切换**：单页应用路由跳转不触发 `onload`，需手动在路由钩子中重置 PerformanceObserver 并上报“软导航”指标'
+  - '- **跨域资源**：跨域资源 `ResourceTiming` 信息受限（仅 `duration`、`startTime` 等），需服端配置 `Timing-Allow-Origin:
+    *` 获取完整瀑布'
+  - '- **Beacon 体积限制**：单次 `sendBeacon` 建议 < 64KB，大批量数据需分片或本地队列定时刷新'
+  - '**工程化落地要点**'
+  - '- **SDK 体积控制**：核心代码 < 5KB gzip，避免监控本身拖慢性能'
+  - '- **采样率**：高流量页面可配置 10%-20% 采样，结合用户 ID 一致性采样保证同一用户会话数据完整'
+  - '- **指标归一化**：上报数据统一包含 `page_url`、`connection_type`、`device_memory` 等维度，便于后续多维钻取分析'
+  sources:
+  - paper: 20230418_046.md
+    role: origin
+  excerpts:
+  - 轻量 SDK 设计：`PerformanceObserver` 监听 LCP/CLS/FID/INP、Resource Timing API 采集资源耗时、Long
+    Task API 识别阻塞、`navigator.sendBeacon` 可靠上报。
+- 'no': 3
+  name: 用户行为埋点 —— 还原用户在页面上的“动作轨迹”
+  points:
+  - '**为什么需要这个概念？**'
+  - '- 业务决策依赖数据：转化漏斗哪里流失？新功能谁在用？异常操作路径是什么？'
+  - '- 纯后端日志缺乏前端交互细节（点击、曝光、表单填写、复制粘贴），无法还原完整用户旅程'
+  - '- 需要标准化、结构化的事件模型，支撑会话回放、漏斗分析、路径分析等高级分析场景'
+  - '**核心定义**'
+  - '- **事件模型三要素**：`Event`（事件名，如 `click_button`）、`Properties`（属性，如 `button_id: ''submit'',
+    form_data: {...}`）、`User`（用户标识，含 `distinct_id`、登录态 `user_id`、设备指纹）'
+  - '- **两种采集模式**：'
+  - '  - **代码埋点**：开发者在业务代码显式调用 `track(''event'', props)`，灵活精准、维护成本高'
+  - '  - **无痕/全埋点**：SDK 自动监听全局点击/输入/曝光，通过 DOM 属性（`data-track-id`）或可视化配圈选，零侵入但数据噪音大、隐私风险高'
+  - '- **会话回放**：集成 `rrweb` 录制 DOM 变更、用户输入、鼠标轨迹，回放时重建页面状态，定性分析利器'
+  - '**关键性质**'
+  - '- **事件命名规范**：建议采用 `Object_Action` 格式（如 `Order_Submit`、`Dialog_Close`），建立数据字典治理'
+  - '- **身份识别融合**：匿名用户用 `device_id` 标识，登录后调用 `identify(user_id)` 关联历史行为，实现跨设备/跨会话用户旅程打通'
+  - '- **漏斗模型**：定义有序步骤事件序列，计算各步转化率、中位转化时间、流失去向'
+  - '**典型例子**'
+  - '- **电商下单漏斗**：`View_Product` -> `Add_Cart` -> `Checkout_Start` -> `Pay_Success`，SDK
+    采集每步耗时、流失率，发现 `Checkout_Start` 到 `Pay_Success` 掉 30%，定位支付 SDK 加载失败'
+  - '- **无痕埋点反面教训**：某团队全埋点上报所有 `click`，导致日均上报 5 亿条，存储成本暴涨且核心业务事件被淹没，最终转为代码埋点主导'
+  - '**边界条件**'
+  - '- **隐私合规**：埋点属性**严禁**包含密码、身份证、银行卡、健康隐私等敏感字段，需在 SDK 端配置敏感字段白名单/脱敏规则'
+  - '- **首屏性能影响**：埋点 SDK 必须异步加载、延迟初始化，核心指标采集优先于业务埋点上报'
+  - '- **离线/弱网缓存**：本地建立 IndexedDB 队列，联网后批量重试上报，防止数据丢失'
+  - '**工程化落地要点**'
+  - '- **可视化配置平台**：产品/运营在平台圈选元素生成选择器，下发配置至 SDK，实现“无需发版添加埋点”'
+  - '- **数据校验管道**：接入端校验必填字段、类型、枚举值，脏数据入死信队列告警，保证数仓质量'
+  sources:
+  - paper: 20230418_046.md
+    role: origin
+  excerpts:
+  - 对比可视化配置无痕埋点与代码埋点优劣、定义事件/属性/用户三元模型、集成 rrweb 实现会话录屏回放、构建转化漏斗模型。
+- 'no': 4
+  name: 全链路追踪 —— 打通前后端的“神经中枢”
+  points:
+  - '**为什么需要这个概念？**'
+  - '- 微服务架构下，前端报错往往源于后端调用链某个节点超时/异常，孤立的前端错误堆栈无法定位根因'
+  - '- 需要在 HTTP 请求头透传 `trace-id`、`span-id`，将前端 Span 作为整条链路的“根节点”，实现“前端报错 → 后端调用链 →
+    DB 慢查询”一次定位'
+  - '**核心定义**'
+  - '- **Trace Context 标准**：遵循 W3C Trace Context 规范，HTTP Header 携带 `traceparent: 00-{trace-id}-{parent-span-id}-01`'
+  - '- **前端埋点**：SDK 在 `fetch`/`XMLHttpRequest`/`axios` 拦截器中注入 `traceparent`，若无则生成新
+    `trace-id` 作为根 Span'
+  - '- **后端续接**：网关/服务端解析 Header，提取或生成 Span，继续向下游透传，最终汇聚至链路系统'
+  - '- **结构化日志**：前后端统一输出 JSON 格式日志，必须包含 `trace_id`、`span_id`、`level`、`message`、`service_name`，接入
+    ELK/Grafana Loki'
+  - '**关键性质**'
+  - '- **Span 语义分层**：前端根 Span（页面加载/路由跳转/用户交互） -> 子 Span：HTTP 请求、资源加载、长任务、RAG 检索、大模型调用'
+  - '- **采样率控制**：全量链路数据量巨大，需实施基于 `trace-id` 一致性采样（如 10% 全链路采样，错误链路 100% 采样）'
+  - '- **RUM 与 APM 打通**：前端 RUM 数据（性能、错误、行为）与后端 APM 数据（调用链、指标、日志）在同一平台（如 Grafana、SkyWalking、Datadog）关联查询'
+  - '**典型例子**'
+  - '- **故障复盘**：用户反馈“下单失败”，前端错误上报 `Payment API 500`，携带 `trace-id: abc123`'
+  - '- **查询链路**：在 Grafana Tempo 输入 `trace-id`，可视化看到：前端 Span(200ms) -> 网关 Span(180ms)
+    -> 订单服务 Span(150ms) -> 支付服务 Span(报错 Timeout) -> 数据库慢查询(2s)'
+  - '- **定界**：问题锁定在支付服务数据库索引缺失，非前端代码问题，10 分钟定位'
+  - '**边界条件**'
+  - '- **跨域限制**：若前端部署在 `app.a.com`，后端 API 在 `api.b.com`，需配置 CORS `Access-Control-Allow-Headers:
+    traceparent` 允许透传'
+  - '- **第三方服务**：调用支付宝/微信/地图等外部 API 无法透传 `traceparent`，链路中断，需在前端 Span 记录外部调用耗时作为补偿'
+  - '- **Web Worker/Service Worker**：独立线程需自行生成/传递 `traceparent`，主线程通过 `postMessage`
+    关联'
+  - '**工程化落地要点**'
+  - '- **SDK 集成零侵入**：封装 `request` 方法自动注入 Header，业务代码无感'
+  - '- **日志关联**：前端 `console.error`/`logger.error` 自动附带当前 `trace-id`，点击日志跳转链路详情'
+  - '- **成本控制**：链路数据采用列式存储，设置 TTL（如 3-7 天），全量仅保留错误/慢链路，正常链路降采样'
+  sources:
+  - paper: 20230418_046.md
+    role: origin
+  excerpts:
+  - HTTP Header 透传 `trace-id`、`span-id`，前端生成根 Span、后端续接，统一 JSON 格式日志接入 Loki，实现“前端报错
+    → 后端调用链 → 数据库慢查询”全链路定位。
+- 'no': 5
+  name: 自研可观测平台 —— 从数据采集到价值变现的闭环
+  points:
+  - '**为什么需要这个概念？**'
+  - '- SaaS 方案（Sentry、Datadog）成本随数据量指数级增长，数据合规要求（数据不出园）倒逼自建'
+  - '- 业务指标（转化率、GMV）与技术指标（错误率、LCP）割裂，需自建平台打通“技术指标 → 业务影响”分析链路'
+  - '- 告警降噪是运维核心痛点：阈值静态、风暴刷屏、根因定界慢，需引入智能聚合、关联分析'
+  - '**核心定义**'
+  - '- **四层架构**：'
+  - '  1. **采集端**：TypeScript/Rollup 打包 SDK，支持 Tree-shaking、多端适配'
+  - '  2. **接收/处理端**：高性能接入层 -> 流式处理 -> 写入存储'
+  - '  3. **存储端**：ClickHouse（宽表/列式，适合高基数、高吞吐日志指标）、Object Storage（Source Map/原始 Payload
+    归档）'
+  - '  4. **查询/告警端**：Grafana 可视化、Alertmanager 告警分组/抑制/静默、Webhook 对接钉钉/飞书/企微/OnCall'
+  - '- **核心数据模型**：统一为 `Metric`（指标）、`Log`（日志）、`Trace`（链路）、`Profile`（性能剖析）四大支柱'
+  - '**关键性质**'
+  - '- **写入优化**：SDK 批量压缩上报，接收端异步入队，ClickHouse 批量 `INSERT`，追求毫秒级写入延迟'
+  - '- **查询加速**：预聚合物化视图（如分钟粒度错误率、P75 LCP），高基数标签建倒排索引，避免全表扫描'
+  - '- **告警策略分层**：'
+  - '  - **P0 级**：错误率突增、核心接口 P99 延迟超阈、JS Error 暴增 -> 电话/短信/OnCall 值班'
+  - '  - **P1 级**：资源加载失败率高、长任务占比升高、内存增长异常 -> 即时通讯群告警'
+  - '  - **P2 级**：新版本发布后指标波动、低版本浏览器兼容性问题 -> 工单/日报'
+  - '**典型例子**'
+  - '- **发布守护**：新版本发布后 10 分钟内，自动对比关键指标（错误率、LCP、核心 API 成功率）与基线（上一版本/同期），异常自动阻断流水线或触发一键回滚'
+  - '- **业务关联告警**：监控“支付成功率”业务指标，结合前端“支付按钮点击无响应”错误关联，提前 30 分钟发现支付渠道故障'
+  - '**边界条件**'
+  - '- **存储成本**：ClickHouse 单副本压缩比约 1:10，日均 1 亿日志约需 2TB/月，需规划冷热分离、分级存储'
+  - '- **高可用**：接收端无状态水平扩展，ClickHouse 集群副本表保证高可用，避免单点故障导致监控盲区'
+  - '- **数据合规**：用户行为数据脱敏（IP 掩码、ID 哈希），日志不落盘敏感字段，满足等保/ISO27001 审计要求'
+  - '**工程化落地要点**'
+  - '- **分阶段建设**：MVP 先跑通“错误监控+性能监控+基础看板”，再迭代“链路追踪+行为分析+智能告警”'
+  - '- **Dogfooding**：平台研发团队优先接入自研 SDK，用真实生产负载验证系统稳定性'
+  - '- **开放生态**：提供 OpenTelemetry 兼容接口、标准 PromQL/LogQL 查询 API，避免厂商锁定'
+  sources:
+  - paper: 20230418_046.md
+    role: origin
+  excerpts:
+  - 技术选型：SDK（TypeScript/Rollup）+ 收集端 + ClickHouse + Grafana + Alertmanager，落地错误率/性能指标/业务转化多维告警策略。
