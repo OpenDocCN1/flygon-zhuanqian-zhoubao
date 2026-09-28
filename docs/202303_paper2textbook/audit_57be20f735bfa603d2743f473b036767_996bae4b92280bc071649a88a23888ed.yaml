@@ -1,0 +1,106 @@
+citation_stats:
+- paper: P001
+  count: 17
+  locations:
+  - ch46.1
+  - ch46.2
+  - ch46.3
+  - ch46.4
+  - ch46.5
+  - ch46.6
+  - ch46.7
+  - ch46.8
+  - ch46.9
+  - ch46.10
+  - ch46.11
+  - ch46.12
+  - ch46.13
+  - ch46.14
+  - ch46.15
+  - ch46.16
+  - ch46.17
+- paper: P002
+  count: 1
+  locations:
+  - ch46.4
+- paper: P003
+  count: 2
+  locations:
+  - ch46.5
+  - ch46.12
+- paper: P004
+  count: 1
+  locations:
+  - ch46.6
+- paper: P005
+  count: 1
+  locations:
+  - ch46.7
+- paper: P006
+  count: 1
+  locations:
+  - ch46.8
+- paper: P007
+  count: 1
+  locations:
+  - ch46.9
+- paper: P008
+  count: 1
+  locations:
+  - ch46.10
+- paper: P009
+  count: 1
+  locations:
+  - ch46.11
+- paper: P010
+  count: 2
+  locations:
+  - ch46.12
+  - ch46.13
+unsupported_claims:
+- location: ch46.3
+  claim: 视频号用户主要为中老年群体居多，决策链路短、付费意愿强、复购率高
+  reason: 素材中未找到支撑该用户画像量化数据的具体来源，仅凭作者主观判断
+- location: ch46.8
+  claim: 发二维码图片转化率>60%，发名片/口令转化率<10%
+  reason: 素材中未提供具体转化率数据支撑，为作者经验估算
+- location: ch46.12
+  claim: 垂直技能型素人成功公式四要素乘积模型，任一为零结果为零
+  reason: 素材中未提供实证数据验证乘法模型优于加法/桶理论，为作者理论构建
+missing_concepts:
+- paper: P001
+  concept: 视频号平台算法机制详细规则（如流量池分级、权重计算公式）
+  severity: high
+- paper: P001
+  concept: 视频号小店入驻资质要求、保证金标准、结算周期等合规细节
+  severity: high
+- paper: P001
+  concept: 中老年用户画像的量化数据来源（如官方白皮书、第三方研报）
+  severity: high
+- paper: P002
+  concept: 对标账号筛选的具体量化标准（粉丝量阈值、增速指标、垂直度判定）
+  severity: medium
+- paper: P003
+  concept: 账号三件套对转化率影响的AB测试数据
+  severity: medium
+- paper: P004
+  concept: 批量拍摄素材的有效期管理策略（季节性/时效性内容处理）
+  severity: medium
+- paper: P005
+  concept: 评论区回复的敏感词过滤机制与合规边界
+  severity: medium
+- paper: P006
+  concept: 微信风控规则下二维码图片发送的安全频次阈值
+  severity: high
+- paper: P007
+  concept: MVP预售的法律风险控制（消费者权益保护法合规条款）
+  severity: high
+- paper: P008
+  concept: 私信话术库的A/B测试迭代方法论
+  severity: medium
+- paper: P009
+  concept: 生命周期规划表在团队协作中的OKR对齐机制
+  severity: medium
+- paper: P010
+  concept: 成功公式四要素权重分配的实证校准数据
+  severity: high
