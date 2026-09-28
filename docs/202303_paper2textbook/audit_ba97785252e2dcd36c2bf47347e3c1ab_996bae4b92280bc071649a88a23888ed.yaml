@@ -1,0 +1,65 @@
+citation_stats:
+- paper: P001
+  count: 3
+  locations:
+  - '85.4'
+  - '85.14'
+  - '85.15'
+- paper: P002
+  count: 3
+  locations:
+  - '85.5'
+  - '85.14'
+  - '85.15'
+- paper: P003
+  count: 3
+  locations:
+  - '85.6'
+  - '85.14'
+  - '85.15'
+- paper: P004
+  count: 3
+  locations:
+  - '85.7'
+  - '85.14'
+  - '85.15'
+- paper: P005
+  count: 3
+  locations:
+  - '85.8'
+  - '85.14'
+  - '85.15'
+- paper: P006
+  count: 4
+  locations:
+  - '85.9'
+  - '85.14'
+  - '85.15'
+- paper: P007
+  count: 2
+  locations:
+  - '85.10'
+  - '85.15'
+- paper: P008
+  count: 3
+  locations:
+  - '85.11'
+  - '85.15'
+- paper: P009
+  count: 2
+  locations:
+  - '85.12'
+  - '85.15'
+- paper: P010
+  count: 2
+  locations:
+  - '85.13'
+  - '85.15'
+- paper: P011
+  count: 3
+  locations:
+  - '85.2'
+  - '85.14'
+  - '85.15'
+unsupported_claims: []
+missing_concepts: []
