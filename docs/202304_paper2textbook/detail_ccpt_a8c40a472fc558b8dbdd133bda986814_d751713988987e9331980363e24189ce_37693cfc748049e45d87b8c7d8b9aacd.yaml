@@ -1,0 +1,682 @@
+units:
+- 'no': 1
+  name: 技术选型决策矩阵与 ADR 记录 —— 为架构决策建立「可追溯的法庭」
+  points:
+  - '**为什么需要这个概念？**'
+  - '- 中后台项目技术栈众多（框架、状态管理、构建工具、CSS 方案等），凭直觉或习惯选型极易导致后期维护灾难、团队认知分裂、技术债务隐性积累。'
+  - '- 需要一套结构化的方法，将隐性经验显性化，建立决策时的上下文、备选方案、权衡理由与后果预期，便于新人于boarding和未来复盘。'
+  - '**核心定义**'
+  - '- **技术选型决策矩阵**：以评估维度（成熟度、生态、团队熟悉度、性能、长期维护成本、招聘市场供给等）为行，备选方案为列，打分加权得出推荐选型的量化工具。'
+  - '- **架构决策记录 (ADR, Architecture Decision Record)**：单页文档，记录“背景(Context) -> 决策(Decision)
+    -> 后果(Consequences) -> 替代方案(Alternatives) -> 状态(Status)”，纳入代码仓库版本控制。'
+  - '**关键性质**'
+  - '- **不可篡改性**：ADR 一旦合入主分支仅能新增“废弃/替代”记录，禁止修改历史，保证决策考古的真实性。'
+  - '- **强制关联性**：每个 ADR 必须关联 Issue/PR/设计文档，形成“需求-决策-实现”闭环证据链。'
+  - '- **状态机流转**：Proposed -> Accepted -> Superseded/Deprecated，明确决策生命周期。'
+  - '**典型例子**'
+  - '- **选型矩阵实例**：对比 Vite vs Webpack，在“冷启动速度、HMR 性能、生态插件、团队熟悉度、SSR 支持”五维打分，Vite 以
+    4.6/5.0 胜出，ADR 记录决定采用 Vite 5 + SWC。'
+  - '- **ADR 实例**：`ADR-0003: 采用 pnpm Monorepo 管理多包`，背景：多业务线共享组件/工具库；决策：pnpm workspace
+    + changesets；后果：安装速度提升 40%，但需解决幽灵依赖问题。'
+  - '**边界条件**'
+  - '- 矩阵权重设定主观性强，需全栈架构师、Tech Lead、核心开发共同投票确权，避免一人独断。'
+  - '- ADR 粒度把控：仅记录“重大、难以逆转、跨团队影响”的决策（如框架选型、数据库选型），避免流水账式记录微小配置调整。'
+  - '- 遗留系统改造时，需补录“隐性决策” ADR，还原历史上下文，防止重复踩坑。'
+  sources:
+  - paper: 20230418_117.md
+    role: origin
+  - paper: 20230418_118.md
+    role: improve
+  - paper: 20230418_119.md
+    role: improve
+  - paper: 20230418_120.md
+    role: improve
+  - paper: 20230418_121.md
+    role: improve
+  - paper: 20230418_122.md
+    role: improve
+  - paper: 20230418_123.md
+    role: improve
+  - paper: 20230418_124.md
+    role: improve
+  - paper: 20230418_125.md
+    role: improve
+  - paper: 20230418_126.md
+    role: improve
+  - paper: KJ0CdYG18oMFStxpa17cxS0wnyt.md
+    role: origin
+  excerpts:
+  - 产出《技术选型决策文档》（Vue/React、Pinia/Redux、Vite/Webpack、CSS 方案、测试框架）
+  - 推行 `adr-cli` 管理决策文档：标题/背景/决策/后果/替代方案、状态、关联 Issue、Markdown 渲染门户、Git 历史不可篡改溯源。
+  - 制定《微前端接入规范》：基座提供 React/Vue 单例、路由基座分发、UI 组件库强制共享、统一监控 SDK 注入。
+- 'no': 2
+  name: Monorepo 仓库初始化与标准化模版 —— 让“新项目创建”变成“npm create enterprise-app”
+  points:
+  - '**为什么需要这个概念？**'
+  - '- 企业级中后台通常包含：主应用、微前端子应用、共享 UI 组件库、共享工具库、共享类型定义、BFF 聚合层、文档站点等多个包，单仓多包（Polyrepo）会导致版本同步地狉、代码复用碎片化、重构跨仓库极其困难。'
+  - '- 需要一套标准化的脚手架工具，将最佳实践固化为模版，新项目/新包一键生成，保证工程规范（ESLint/Prettier/Husky/Commitlint/TypeScript
+    严格模式/Vite 配置/测试基建）从 Day 1 就到位。'
+  - '**核心定义**'
+  - '- **Monorepo**：单一代码仓库管理多个关联 Package，利用包管理器（pnpm/yarn/npm）的 Workspace 机制实现依赖链接、提升、锁文件统一。'
+  - '- **标准化模版**：包含预置配置的 `package.json`、`.github/workflows`、`.husky`、`.vscode`、`vite.config.ts`、`tsconfig.json`、`.eslintrc.cjs`
+    等引导文件的脚手架包（如 `create-enterprise-app`）。'
+  - '**关键性质**'
+  - '- **依赖去重与磁盘效率**：pnpm 硬链接/符号链接机制，`node_modules` 扁平化，节省 50%+ 磁盘空间，安装速度提升 2-3 倍。'
+  - '- **原子化提交与版本联动**：配合 Changesets，单次 PR 可同时版本升级 `@enterprise/ui`、`@enterprise/utils`
+    及主应用，生成统一 Changelog。'
+  - '- **代码共享零成本**：`import { Button } from ''@enterprise/ui''` 即用，无需发布 npm 再安装，热更新即时生效。'
+  - '**典型例子**'
+  - '- **目录结构**：`apps/admin-main` (主应用) / `apps/admin-sub-user` (子应用) / `packages/ui`
+    / `packages/utils` / `packages/types` / `packages/request` / `packages/config`
+    (共享 ESLint/TS/Vite 配置)。'
+  - '- **脚手架交互**：`pnpm create @enterprise/app my-new-micro-app -- --framework=vue
+    --ui=arco --router=vue-router --state=pinia`，自动生成符合规范的子应用工程。'
+  - '**边界条件**'
+  - '- **构建性能陷阱**：Monorepo 规模膨胀时，全量构建极慢。必须配合 Turborepo/Nx 实现增量构建、远程缓存、任务编排，仅构建受影响包。'
+  - '- **权限隔离难题**：Monorepo 默认全员可读全仓代码，涉及核心算法/加密逻辑/薪资体系等敏感包需拆分至独立私有仓库，通过 npm 私服引入。'
+  - '- **包管理器锁定**：团队必须强制统一 pnpm 版本（通过 `packageManager` 字段 + Corepack），禁止混用 yarn/npm
+    导致锁文件冲突。'
+  sources:
+  - paper: 20230418_117.md
+    role: origin
+  - paper: 20230418_118.md
+    role: improve
+  - paper: 20230418_119.md
+    role: improve
+  - paper: 20230418_120.md
+    role: improve
+  - paper: 20230418_121.md
+    role: improve
+  - paper: 20230418_122.md
+    role: improve
+  - paper: 20230418_123.md
+    role: improve
+  - paper: 20230418_124.md
+    role: improve
+  - paper: 20230418_125.md
+    role: improve
+  - paper: 20230418_126.md
+    role: improve
+  - paper: 20230418_045.md
+    role: origin
+  - paper: 20230418_034.md
+    role: apply
+  excerpts:
+  - 初始化 `pnpm-workspace.yaml`、生成标准化模版项目。
+  - 实现 `create-my-app` 交互式生成器、基于 pnpm workspace 的 Monorepo 结构、脚手架插件机制支持业务定制、GitHub
+    Actions 自动发布 npm。
+  - 整合 ESLint、Prettier、Husky、lint-staged、Commitlint，落地规范化的提交流程与代码风格统一。
+- 'no': 3
+  name: UI 组件库二次封装与请求层统一 —— 造好“手中的刀”，再砍“业务的木”
+  points:
+  - '**为什么需要这个概念？**'
+  - '- 直接使用 Ant Design/Arco Design 等原生组件库，会导致业务代码耦合第三方 API，升级组件库版本时全量改动；且无法统一封装企业级通用逻辑（如表格内置权限列、表单自动校验、弹窗统一销毁、国际化适配）。'
+  - '- 网络请求层缺乏统一封装，会导致每个 API 调用分散处理 Loading、Token 刷新、错误码映射、取消重复请求，极难维护和做全链路监控。'
+  - '**核心定义**'
+  - '- **二次封装组件库 (`@enterprise/ui`)**：在基础组件库之上，封装业务通用高阶组件（`ProTable`、`ProForm`、`ProCard`、`ProModal`）、设计令牌主题包、图标规范、无障碍属性注入，对外暴露稳定的企业级
+    API。'
+  - '- **统一请求层 (`@enterprise/request`)**：基于 Axios/Ky/Fetch 封装，内置：请求/响应拦截器、TypeScript
+    泛型响应体、自动错误码弹窗/跳转登录、请求去重、自动取消上一请求、Mock/真实环境切换、OpenAPI 类型自动生成集成。'
+  - '**关键性质**'
+  - '- **API 稳定性契约**：二次封装层吸收底层组件库 Breaking Change，业务侧仅升级 `@enterprise/ui` 版本即可平滑过渡。'
+  - '- **Schema 驱动能力**：`ProTable`/`ProForm` 支持 JSON Schema 配置化渲染，配合低代码平台实现“零代码生成 CRUD
+    页面”。'
+  - '- **类型安全全链路**：请求层通过 `openapi-typescript`/`orval` 从后端 Swagger 生成 TS 类型，实现“后端改字段
+    -> 前端编译报错 -> 定位修改”的强类型保护。'
+  - '**典型例子**'
+  - '- **ProTable 封装**：内置列宽拖拽持久化、多选/单选/展开行、工具栏（刷新/密度/列设置/导出）、服务端分页/排序/过滤参数标准化映射、行内编辑/详情弹窗插槽。'
+  - '- **请求层 Token 无感刷新**：401 拦截 -> 判断是否正在刷新 -> 是则入队等待 -> 否则调用刷新接口 -> 更新存储 -> 重放原请求队列
+    -> 释放等待者。'
+  - '**边界条件**'
+  - '- **过度封装反模式**：不要把所有 Ant Design 组件都包一层，仅封装“高频使用+含业务逻辑+需扩展”的组件（如 Table/Form/Modal/Select），简单组件（Button/Input/Tag）直接透传或极薄包装。'
+  - '- **请求层不可做业务强耦合**：`@enterprise/request` 只处理通用横切关注点（认证、错误、日志、类型），具体业务参数拼接、数据转换应在
+    API 服务层（`/api/user.ts`）处理。'
+  - '- **版本升级风险**：基础组件库大版本升级（如 Antd v4 -> v5）需建立专项迁移小组，先在 `@enterprise/ui` 内部适配，产出迁移指南与
+    Codemod 脚本，再通知业务升级。'
+  sources:
+  - paper: 20230418_117.md
+    role: origin
+  - paper: 20230418_118.md
+    role: improve
+  - paper: 20230418_119.md
+    role: improve
+  - paper: 20230418_120.md
+    role: improve
+  - paper: 20230418_121.md
+    role: improve
+  - paper: 20230418_122.md
+    role: improve
+  - paper: 20230418_123.md
+    role: improve
+  - paper: 20230418_124.md
+    role: improve
+  - paper: 20230418_125.md
+    role: improve
+  - paper: 20230418_126.md
+    role: improve
+  - paper: 20230418_045.md
+    role: origin
+  - paper: 20230418_040.md
+    role: apply
+  excerpts:
+  - 封装 `@enterprise/ui` 组件库（基于 Ant Design/Arco Design）、`@enterprise/request` 统一错误/Loading/Token
+    刷新
+  - 制定组件元数据规范、集成 `vue-docgen-api`/`react-docgen` 自动解析 Props/Events/Slots、Storybook/Histoire
+    沙箱预览
+  - 整合设计令牌、原子化工具类、组件级变量、暗黑模式适配，输出 `@my-org/ui-theme` 与 `@my-org/ui-components` 双包发布流程。
+- 'no': 4
+  name: 权限体系（RBAC）与动态路由 —— 让“菜单”和“按钮”听从后端指挥
+  points:
+  - '**为什么需要这个概念？**'
+  - '- 中后台核心诉求：不同角色看到不同菜单、拥有不同操作权限、访问不同页面。硬编码路由/权限会导致发版才能调整权限，无法满足运营/产品“即时生效”的需求。'
+  - '- 前端需实现：登录后拉取后端路由树 -> 动态注册路由 -> 递归生成侧边菜单 -> 页面/按钮级指令控制 -> 刷新保持状态（不丢失动态路由）。'
+  - '**核心定义**'
+  - '- **RBAC (Role-Based Access Control)**：用户 -> 角色 -> 权限/资源 的映射模型。前端持有“权限码”集合（如
+    `user:list`, `user:delete`），通过指令 `v-auth="user:delete"` 或函数 `hasAuth(''user:delete'')`
+    控制 DOM 渲染。'
+  - '- **动态路由 (Dynamic Routing)**：后端返回符合 `RouteRecordRaw` 结构的路由数组（含 `path`, `component`,
+    `meta: { roles, title, icon, keepAlive }`），前端通过 `router.addRoute` 动态挂载，配合 `router.removeRoute`
+    实现注销登录清理。'
+  - '**关键性质**'
+  - '- **路由懒加载与代码分割**：后端返回 `component: ''user/management''` 字符串，前端映射为 `() => import(''@/views/user/management.vue'')`，实现按需加载，首屏不加载无权限代码。'
+  - '- **刷新保活策略**：动态路由存储于 Pinia（持久化插件），应用初始化 `initRouter()` 从 Store 恢复路由并 `addRoute`，避免
+    F5 刷新 404。'
+  - '- **401/403 降级体验**：无权限访问页面 -> 403 友好页（含申请权限入口）；Token 失效 -> 401 拦截 -> 记录当前路由 ->
+    跳转登录页 -> 登录成功回跳。'
+  - '**典型例子**'
+  - '- **后端路由数据结构**：`[{ path: ''/user'', meta: { title: ''用户管理'', roles: [''admin'']
+    }, children: [{ path: ''list'', component: ''user/list'', meta: { title: ''用户列表'',
+    permission: ''user:list'' } }] }]`。'
+  - '- **权限指令实现**：`v-auth="[''user:add'', ''user:edit'']"` 满足任一即显示；`v-auth.all="[''admin'',
+    ''super'']"` 需同时满足。'
+  - '**边界条件**'
+  - '- **路由对象序列化陷阱**：`component` 属性不能存函数（无法持久化），必须存字符串路径，前端维护 `componentMap` 映射表。'
+  - '- **权限粒度膨胀**：避免定义过细权限码（如 `user:list:export:excel`），建议“资源:动作”二级粒度，细粒度交由后端接口层校验。'
+  - '- **微前端子应用权限隔离**：子应用独立路由实例，基座下发全局权限码给子应用，子应用自行过滤自有菜单，避免基座强耦合子应用权限逻辑。'
+  sources:
+  - paper: 20230418_117.md
+    role: origin
+  - paper: 20230418_118.md
+    role: improve
+  - paper: 20230418_119.md
+    role: improve
+  - paper: 20230418_120.md
+    role: improve
+  - paper: 20230418_121.md
+    role: improve
+  - paper: 20230418_122.md
+    role: improve
+  - paper: 20230418_123.md
+    role: improve
+  - paper: 20230418_124.md
+    role: improve
+  - paper: 20230418_125.md
+    role: improve
+  - paper: 20230418_126.md
+    role: improve
+  - paper: 20230418_038.md
+    role: origin
+  excerpts:
+  - RBAC 权限指令/组件、动态路由注册
+  - 展示后端返回路由树 → `router.addRoute` 动态注册 → 递归生成侧边菜单 → 刷新保持状态的完整方案。
+- 'no': 5
+  name: 国际化与无障碍基线工程化 —— 让产品天生“懂世界、懂人”
+  points:
+  - '**为什么需要这个概念？**'
+  - '- 出海/多语言业务若上线后才补 i18n，需全量改写硬编码文本，成本极高；无障碍 (a11y) 若非基线建设，后期补齐需重构所有组件交互，且易被法律诉讼（如
+    ADA、欧洲无障碍法案）。'
+  - '- 必须在脚手架阶段接入 i18n/a11y 基建，制定规范、配置工具链、建立 CI 门禁，实现“默认合规、无感接入”。'
+  - '**核心定义**'
+  - '- **i18n 工程化**：采用 `vue-i18n`/`react-i18next` + `ICU MessageFormat` 标准，支持复数、性别、选择格式；集成
+    `lint-staged` 校验硬编码中文、CI 自动推拉翻译平台、TypeScript 类型安全键值提示。'
+  - '- **a11y 基线**：强制语义化 HTML、WCAG 2.1 AA 级达标（颜色对比度 4.5:1、键盘可达、ARIA 标签、焦点管理），组件库内置合规，业务组件继承合规。'
+  - '**关键性质**'
+  - '- **编译时优化**：`@intlify/unplugin-vue-i18n` / `lingui` 编译时提取消息、移除运行时解析开销、Tree-shaking
+    未使用语言包，首屏 JS 体积减少 30%+。'
+  - '- **设计令牌驱动主题**：CSS Variables 定义色值/间距/圆角，`prefers-color-scheme` + `data-theme`
+    双模式切换零闪烁，i18n 文本方向 `dir=rtl` 自动适配阿拉伯语/希伯来语布局反转。'
+  - '- **自动化回归防护**：CI 集成 `axe-core`/`lighthouse-ci` 扫描 a11y 违规阻断合并、i18n 缺失键/未使用键检测报警。'
+  - '**典型例子**'
+  - '- **翻译管理流水线**：开发提交代码 -> GitHub Actions 推送源语言 JSON 到 Crowdin -> 翻译/机翻 -> PR 合并前
+    Actions 拉取最新翻译 -> 校验完整率 100% -> 合并部署。'
+  - '- **无障碍组件模式**：`ProModal` 内置 `FocusTrap`（焦点陷阱）、`Esc` 关闭、打开时保存上一焦点元素关闭时恢复、`aria-modal=true`
+    `aria-labelledby` 关联标题。'
+  - '**边界条件**'
+  - '- **动态内容国际化**：富文本编辑器内容、用户生成内容（UGC）、后端返回错误码文本无法走前端 i18n，需后端多语言支持或前端建立错误码映射表。'
+  - '- **a11y 非银弹**：自动化工具仅能发现 30%-50% 问题（如缺 alt、对比度），复杂交互（如拖拽排序、虚拟列表键盘操作）必须人工 NVDA/VoiceOver
+    实测。'
+  - '- **字体加载策略**：多语言字体体积大（中日韩 5MB+），必须子集化、WOFF2 压缩、`font-display: swap`、按需动态加载（`unicode-range`），避免首屏阻塞。'
+  sources:
+  - paper: 20230418_117.md
+    role: origin
+  - paper: 20230418_118.md
+    role: improve
+  - paper: 20230418_119.md
+    role: improve
+  - paper: 20230418_120.md
+    role: improve
+  - paper: 20230418_121.md
+    role: improve
+  - paper: 20230418_122.md
+    role: improve
+  - paper: 20230418_123.md
+    role: improve
+  - paper: 20230418_124.md
+    role: improve
+  - paper: 20230418_125.md
+    role: improve
+  - paper: 20230418_126.md
+    role: improve
+  - paper: PbGkdX4YVoO02mxYlYKcbgASnSg.md
+    role: origin
+  excerpts:
+  - i18n/a11y 基线
+  - 对比 vue-i18n/react-i18next/lingui/formatjs 架构差异、ICU 语法处理复数/选择/嵌套、编译时优化包体积、TypeScript
+    类型安全键值。
+  - 逐条落地可感知/可操作/可理解/健壮四大原则：颜色对比度、文本缩放、ARIA Landmarks/Roles/States、Tab 顺序、焦点陷阱、屏幕阅读器测试。
+  - 集成 axe-core/lighthouse-ci 无障碍自动化扫描、i18n 缺失键/未使用键检测、PR 阻断门禁
+- 'no': 6
+  name: 异常监控与可观测性接入 —— 给应用装上“黑匣子”与“体检仪”
+  points:
+  - '**为什么需要这个概念？**'
+  - '- 生产环境报错“用户反馈 -> 开发复现 -> 排查日志”周期长，且无法量化错误影响面（多少用户、什么机型、什么版本）。缺乏性能基线，首屏慢、交互卡顿无感知。'
+  - '- 需在基建期接入 Sentry/自建监控 SDK，建立错误捕获、性能指标采集、用户行为关联、Source Map 自动上传的全链路可观测体系。'
+  - '**核心定义**'
+  - '- **错误监控 SDK**：重写 `window.onerror`、`unhandledrejection`、框架错误边界，采集堆栈、环境、用户标识、面包屑；Source
+    Map 解析还原源码行号；聚合去重（指纹算法）防止风暴刷屏。'
+  - '- **性能监控 SDK**：`PerformanceObserver` 采集 LCP/CLS/INP/TTFB/FID、Resource Timing
+    采集资源瀑布、Long Task API 识别阻塞主线程任务、`sendBeacon` 可靠上报。'
+  - '- **全链路追踪**：HTTP Header 透传 `trace-id`/`span-id`，前端生成根 Span，后端续接，打通前后端调用链。'
+  - '**关键性质**'
+  - '- **采样率与成本控制**：错误 100% 上报，性能/行为按比例采样（如 10%），高价值用户/核心链路 100% 采样，平衡存储成本与洞察力。'
+  - '- **隐私合规**：IP 脱敏、PII 字段过滤、用户授权埋点、GDPR/个人信息保护法合规审计。'
+  - '- **告警分级与降噪**：P0（核心流程错误率>1%/LCP>4s）钉钉/电话即时叫醒；P1（非核心错误/性能劣化）工单处理；P2（预警）周报汇总。'
+  - '**典型例子**'
+  - '- **SDK 接入代码**：`import { initMonitor } from ''@enterprise/monitor''; initMonitor({
+    dsn: ''...'', appId: ''admin-main'', environment: import.meta.env.MODE, sampleRate:
+    0.1, plugins: [vuePlugin, routerPlugin, requestPlugin] })`。'
+  - '- **Source Map 自动上传**：Vite/Rollup 构建后 `sentry-cli sourcemaps inject` + `upload`，或
+    CI 步骤上传至自建 MinIO/对象存储，报错时后端下载解析。'
+  - '**边界条件**'
+  - '- **Source Map 安全风险**：生产环境 Source Map 包含原始源码，严禁直接部署到 CDN 公开访问，必须存储在私有存储/监控平台后台，仅授权人员解密查看。'
+  - '- **框架错误边界覆盖盲区**：Vue `errorHandler` / React `ErrorBoundary` 无法捕获：事件处理器异步错误、生命周期钩子外的
+    Promise rejection、SSR 水合错误、Web Worker/Service Worker 错误，需分别针对性兜底。'
+  - '- **指标定义漂移**：LCP/CLS/INP 定义随 Chrome 版本演进（如 FID 退役替换为 INP），SDK 需版本化维护，仪表盘指标需标注版本基线。'
+  sources:
+  - paper: 20230418_117.md
+    role: origin
+  - paper: 20230418_118.md
+    role: improve
+  - paper: 20230418_119.md
+    role: improve
+  - paper: 20230418_120.md
+    role: improve
+  - paper: 20230418_121.md
+    role: improve
+  - paper: 20230418_122.md
+    role: improve
+  - paper: 20230418_123.md
+    role: improve
+  - paper: 20230418_124.md
+    role: improve
+  - paper: 20230418_125.md
+    role: improve
+  - paper: 20230418_126.md
+    role: improve
+  - paper: 20230418_046.md
+    role: origin
+  excerpts:
+  - Sentry/自建监控 SDK 接入
+  - 实现 `window.onerror`/`unhandledrejection`/Vue `errorHandler`/React `ErrorBoundary`
+    多层兜底、接入 Sentry/Fundebug 或自建平台解析 Source Map 还原源码堆栈。
+  - 轻量 SDK 设计：`PerformanceObserver` 监听 LCP/CLS/FID/INP、Resource Timing API 采集资源耗时、Long
+    Task API 识别阻塞、`navigator.sendBeacon` 可靠上报。
+  - HTTP Header 透传 `trace-id`、`span-id`，前端生成根 Span、后端续接，统一 JSON 格式日志接入 Loki
+- 'no': 7
+  name: Schema 驱动的典型 CRUD 页面标准化 —— 从“写页面”到“配页面”
+  points:
+  - '**为什么需要这个概念？**'
+  - '- 中后台 80% 页面是列表/表单/详情的 CRUD 变体，手写重复代码（列表查询/分页/新增编辑弹窗/校验/提交/刷新）极其低效且易出错。'
+  - '- 需沉淀 `ProTable`/`ProForm`/`ProChart` 等 Schema 驱动组件，配合页面生成器，实现“JSON 配置 -> 完整页面”的降维打击。'
+  - '**核心定义**'
+  - '- **Schema 驱动**：定义 `PageSchema` 接口，包含 `layout`（布局）、`toolbar`（工具栏）、`table`（列/操作/选中）、`form`（字段/校验/布局/联动）、`actions`（API
+    映射/权限/确认文案）等声明式配置。'
+  - '- **通用组件三件套**：`ProTable`（表格+搜索+分页+工具栏）、`ProForm`（表单+校验+布局+联动）、`ProChart`（图表配置化渲染
+    ECharts/AntV），均基于 `@enterprise/ui` 封装。'
+  - '**关键性质**'
+  - '- **代码生产力跃迁**：标准 CRUD 页面从 2-4 小时手写 -> 10-30 分钟配置，且自带类型校验、权限控制、Loading/Empty/Error
+    状态、无障碍属性。'
+  - '- **运行时动态性**：Schema 可后端下发（低代码平台）、可本地热更新（HMR）、可 A/B 测试不同布局，无需重新部署前端代码。'
+  - '- **扩展性设计**：`renderer` 注册机制，支持自定义渲染器（如 `ColorPickerRenderer`、`JsonEditorRenderer`）、自定义校验器、自定义工具栏按钮，避免“配置地狱”限制业务创新。'
+  - '**典型例子**'
+  - '- **用户列表 PageSchema**：`table.columns: [{ dataIndex: ''name'', title: ''姓名'' },
+    { dataIndex: ''status'', title: ''状态'', renderer: ''TagRenderer'', options: {
+    1: ''启用'', 0: ''禁用'' } }, { title: ''操作'', renderer: ''ActionRenderer'', actions:
+    [{ type: ''edit'', auth: ''user:edit'' }, { type: ''delete'', auth: ''user:delete'',
+    confirm: true }] }]`。'
+  - '- **表单联动配置**：`form.fields: [{ name: ''province'', onChange: (val) => ({ setFieldsValue:
+    { city: [] }, updateFieldProps: { city: { options: await fetchCities(val) } }
+    }) }]`。'
+  - '**边界条件**'
+  - '- **复杂交互不适用**：高度定制化交互（如可视化拖拽画布、复杂多步向导、实时协作编辑）不应强行塞入 Schema，应开发专用业务组件，Schema 仅作入口引用。'
+  - '- **Schema 版本演进**：Schema 结构变更需版本化（`schemaVersion: ''2.0''`），提供迁移脚本自动升级旧 Schema，或兼容旧版渲染器并行运行。'
+  - '- **类型安全挑战**：Schema 高度动态，TypeScript 类型推导极其复杂，建议核心 Schema 定义用 Zod/Valibot 做运行时校验
+    + 类型推导，边缘扩展用 `any` 兜底并文档化。'
+  sources:
+  - paper: 20230418_117.md
+    role: origin
+  - paper: 20230418_118.md
+    role: improve
+  - paper: 20230418_119.md
+    role: improve
+  - paper: 20230418_120.md
+    role: improve
+  - paper: 20230418_121.md
+    role: improve
+  - paper: 20230418_122.md
+    role: improve
+  - paper: 20230418_123.md
+    role: improve
+  - paper: 20230418_124.md
+    role: improve
+  - paper: 20230418_125.md
+    role: improve
+  - paper: 20230418_126.md
+    role: improve
+  - paper: 20230418_045.md
+    role: origin
+  excerpts:
+  - 沉淀 `ProTable`/`ProForm`/`ProChart` 通用组件、Schema 驱动页面生成
+  - 设计 JSON Schema 描述页面结构、基于 Vue/React 实现渲染器插件化、Mobox/RedoManager 状态历史、AST 代码生成还原高代码。
+- 'no': 8
+  name: 微前端子应用接入与共享依赖治理 —— “分治”大仓，又要“合一”运行
+  points:
+  - '**为什么需要这个概念？**'
+  - '- 中后台业务线扩展、团队规模>10人、多技术栈共存（Vue 2/3、React、Angular 遗留）时，单体应用构建慢、耦合高、发布互斥。微前端将巨石应用拆分为基座+多子应用，实现独立开发、独立部署、技术栈无关。'
+  - '- 核心挑战：JS 沙箱隔离、样式隔离、公共依赖共享（React/Vue/设计系统单例）、基座与子应用通信、路由分发、部署运维复杂度。'
+  - '**核心定义**'
+  - '- **基座应用**：负责注册子应用、路由分发（`/admin/user` -> 子应用 user）、全局状态分发（`initGlobalState`）、公共依赖提供（`importmap`/Module
+    Federation）、统一监控/登录/权限注入。'
+  - '- **子应用**：独立构建、独立部署的单页应用，暴露 `bootstrap`/`mount`/`unmount`/`update` 生命周期，运行在沙箱中，无感知基座存在。'
+  - '**关键性质**'
+  - '- **沙箱隔离模式**：`snapshot`（记录/恢复 window 快照，适配旧应用）vs `proxy` (Proxy 代理 window，支持多实例并发，性能更优)。样式隔离：`scoped
+    css` / `strictStyleIsolation: true` (Shadow DOM，最强隔离但样式穿透麻烦)。'
+  - '- **共享依赖单例策略**：基座在 `importmap` 或 Module Federation `shared` 配置声明 `react`/`vue`/`@enterprise/ui`
+    等单例，子应用 `external` 这些依赖，构建产物极小，运行时共享内存实例，避免多实例导致状态不同步、Hooks 报错。'
+  - '- **通信机制**：`initGlobalState` 基于发布订阅（基座发布，子应用订阅），适合用户信息、主题、权限等全局广播；复杂业务通信建议定义共享
+    `EventBus`/`SharedStore` 包。'
+  - '**典型例子**'
+  - '- **qiankun 接入**：基座 `registerMicroApps([{ name: ''sub-user'', entry: ''//sub.user.com'',
+    container: ''#subapp-viewport'', activeRule: ''/user'' }])`；子应用 `vite.config.ts`
+    配置 `build.lib` + `qiankun` 生命周期导出。'
+  - '- **Module Federation 共享**：基座 `exposes: { ''./store'': ''./src/store'' }`，子应用
+    `remotes: { host: ''host@//host.com/remoteEntry.js'' }`，`shared: { react: { singleton:
+    true }, ''antd'': { singleton: true } }`。'
+  - '**边界条件**'
+  - '- **不必微前端**：团队<5人、单技术栈、发布频次低、无遗留系统包袱，单体模块化架构（Monorepo + 动态导入）更优，微前端收益<复杂度成本。'
+  - '- **嵌套微前端深坑**：子应用再套子应用（三层+）会导致沙箱嵌套失效、路由基础路径计算错误、样式穿透失控，严禁嵌套超过两层。'
+  - '- **CSS 变量隔离冲突**：基座与子应用 CSS 变量命名冲突（如 `--primary-color`），必须约定命名空间（`--host-primary`
+    / `--sub-user-primary`）或 Shadow DOM 隔离。'
+  - '- **公共依赖版本锁定治理**：制定《微前端接入规范》，基座锁定 React 18.2.0 / Vue 3.4.0 / Antd 5.12.0，子应用
+    package.json `peerDependencies` 声明兼容范围，CI 扫描违规版本阻断合并。'
+  sources:
+  - paper: 20230418_117.md
+    role: origin
+  - paper: 20230418_118.md
+    role: improve
+  - paper: 20230418_119.md
+    role: improve
+  - paper: 20230418_120.md
+    role: improve
+  - paper: 20230418_121.md
+    role: improve
+  - paper: 20230418_122.md
+    role: improve
+  - paper: 20230418_123.md
+    role: improve
+  - paper: 20230418_124.md
+    role: improve
+  - paper: 20230418_125.md
+    role: improve
+  - paper: 20230418_126.md
+    role: improve
+  - paper: 20230418_043.md
+    role: origin
+  excerpts:
+  - 接入微前端基座（主应用/子应用通信/共享依赖）
+  - 剖析 `snapshot`/`proxy` 双沙箱模式、`strictStyleIsolation` Shadow DOM 方案、`initGlobalState`
+    状态共享、嵌套微前端坑位。
+  - 详解 `exposes`/`remotes`/`shared` 配置、运行时版本匹配算法、联邦模块热更新、与 Vite/Rspack 生态集成。
+  - 制定《微前端接入规范》：基座提供 React/Vue 单例、路由基座分发、UI 组件库强制共享、统一监控 SDK 注入。
+- 'no': 9
+  name: CI/CD 流水线与质量门禁 —— 让“不合格代码”进不了主分支
+  points:
+  - '**为什么需要这个概念？**'
+  - '- 代码规范、类型检查、单测、E2E、构建产物体积、安全扫描、无障碍合规若仅靠人工 Review，漏检率极高且效率低。必须在 CI 流水线设置硬性门禁，自动化拦截不合规提交。'
+  - '- 发布流程需标准化：构建 -> 扫描 -> 测试 -> 镜像构建 -> 推送制品库 -> 部署测试环境 -> 人工审批 -> 灰度发布 -> 全量发布
+    -> 回滚预案，全程可视、可追溯、可一键回滚。'
+  - '**核心定义**'
+  - '- **流水线阶段**：`Lint/TypeCheck` (秒级) -> `Unit Test` (分钟级) -> `Build` (产物生成) -> `Security
+    Scan` (依赖漏洞/SAST/秘钥扫描) -> `E2E Test` (关键链路) -> `Deploy Staging` -> `Visual Regression`
+    (像素对比) -> `Manual Approve` -> `Canary Deploy` -> `Full Deploy`。'
+  - '- **质量门禁阈值**：ESLint Error=0 / TypeScript Error=0 / 单测覆盖率≥80%（核心包 95%）/ 关键 E2E
+    用例 100% 通过 / LCP<2.5s / CLS<0.1 / INP<200ms / 高危漏洞=0 / axe 违规=0。'
+  - '**关键性质**'
+  - '- **快速反馈原则**：流水线总耗时<20min（并行矩阵、缓存节点、增量测试），失败即刻通知提交者，防止“红构建”长时间阻塞主分支。'
+  - '- **制品不可变性**：构建产物（Docker Image/NPM 包/静态资源包）打上 Git Commit SHA + 语义化版本标签，部署仅拉取制品，绝不在部署阶段二次构建。'
+  - '- **GitOps 交付**：ArgoCD 监控 GitOps 仓库（存放 K8s Manifest + Helm Values），集群状态自动收敛至
+    Git 声明状态，审计日志完整。'
+  - '**典型例子**'
+  - '- **GitHub Actions 矩阵策略**：`jobs: lint: runs-on: ubuntu-latest; test: strategy:
+    matrix: node: [18, 20] os: [ubuntu, macos]` 兼容性矩阵；`cache: key: ${{ runner.os }}-pnpm-${{
+    hashFiles(''pnpm-lock.yaml'') }}` 依赖缓存。'
+  - '- **性能预算门禁**：`bundlesize` 配置 `maxSize: ''150 kB''` (gzipped)，`lighthouse-ci`
+    预算 `budgets: [{ resourceSizes: [{ resourceType: ''script'', budget: 170 }] }]`，超标阻断
+    PR 合并。'
+  - '- **安全扫描集成**：`pnpm audit --prod --audit-level=high`、`trivy fs .` (文件系统漏洞扫描)、`gitleaks
+    detect` (秘钥泄露)、`syft packages dir:. -o cyclonedx-json` (生成 SBOM)。'
+  - '**边界条件**'
+  - '- **E2E 环境不稳定导致假阴性**：测试环境依赖后端服务/数据库/第三方 API，需引入 Contract Testing (Pact) 或 Mock
+    Server (MSW/Prism) 解耦后端依赖，保证 E2E 确定性。'
+  - '- **视觉回归误报**：动画、时间戳、用户头像、广告位导致像素差异，需配置 `mask`/`ignoreRegions`/`threshold` 排除干扰区域，基线图定期人工校验更新。'
+  - '- **热修复绕过流水线风险**：生产紧急 Bug 需热修复时，允许 `hotfix/*` 分支简化流程（仅 Lint/TypeCheck/Unit/Build/Deploy），但强制事后补全完整流水线并回合主分支，记录“破例原因”供审计。'
+  sources:
+  - paper: 20230418_117.md
+    role: origin
+  - paper: 20230418_118.md
+    role: improve
+  - paper: 20230418_119.md
+    role: improve
+  - paper: 20230418_120.md
+    role: improve
+  - paper: 20230418_121.md
+    role: improve
+  - paper: 20230418_122.md
+    role: improve
+  - paper: 20230418_123.md
+    role: improve
+  - paper: 20230418_124.md
+    role: improve
+  - paper: 20230418_125.md
+    role: improve
+  - paper: 20230418_126.md
+    role: improve
+  - paper: 20230418_039.md
+    role: origin
+  - paper: 20230418_041.md
+    role: origin
+  - paper: 20230418_042.md
+    role: origin
+  - paper: PU9Id4IPMoZ3QdxLzZUcEPBRnWO.md
+    role: origin
+  excerpts:
+  - 配置 GitLab CI/GitHub Actions：Lint/TypeCheck/Unit/E2E/Build/Scan/Deploy、性能预算/安全扫描/axe
+    无障碍阈值阻断、ArgoCD 金丝雀发布、混沌工程演练回滚。
+  - 引用测试金字塔/奖杯模型，制定“核心逻辑单测全覆盖、关键交互集成测、核心链路 E2E 兜底”的团队规范。
+  - 制定“LCP < 2.5s、CLS < 0.1、INP < 200ms”工程化达标标准。
+  - 接入 `npm audit`/`pnpm audit`/`Snyk`/`Socket` CI 检查、`package-lock.json` 版本锁定、生成
+    CycloneDX SBOM 合规交付。
+  - 落地 GitOps：ArgoCD 监控 Git 仓库声明式同步、PreSync/PostSync Hook 运行迁移/测试、自动回滚健康检查失败版本。
+- 'no': 10
+  name: 灰度发布与回滚演练 —— 在生产环境“小心翼翼”地试错
+  points:
+  - '**为什么需要这个概念？**'
+  - '- 即使通过所有 CI 门禁，生产环境真实流量、真实数据、真实网络环境仍会暴露潜在问题（内存泄漏、特定机型白屏、第三方接口超时、业务逻辑边界案例）。全量发布风险不可控，需灰度验证。'
+  - '- 回滚必须是“常态化演练”的肌肉记忆，而非事故发生时的临时抱佛脚，目标：RTO (恢复时间目标) < 5 分钟。'
+  - '**核心定义**'
+  - '- **金丝雀发布**：流量按比例切分（1% -> 5% -> 20% -> 50% -> 100%），通过 Header/Cookie/IP/用户分层标识路由至新版本，实时监控错误率/延迟/业务指标，异常自动/人工熔断回滚。'
+  - '- **蓝绿部署**：维护两套完全一致的生产环境，新版本部署至闲置环境，验证通过后流量瞬间切换，回滚仅需切回旧环境，零停机、零请求失败。'
+  - '- **特性开关**：代码层面 `if (featureFlag(''new-checkout''))` 控制新功能暴露，部署与发布解耦，支持极速回滚（关闭开关）和定向人群测试。'
+  - '**关键性质**'
+  - '- **观测驱动决策**：灰度期间重点监控：错误率、Apdex、核心业务转化漏斗（如下单支付成功率）、资源利用率（CPU/内存/连接数）、日志错误关键词告警。'
+  - '- **会话一致性**：同一用户灰度期间必须固定命中同一版本，避免请求在新旧版本间跳变导致状态错乱（如购物车丢失、表单提交 401）。'
+  - '- **数据库迁移兼容性**：灰度期间新旧版本共存，数据库迁移脚本必须向后兼容（仅增表/增列/加默认值，不删列/改类型/重命名），回滚时旧版本代码仍能跑通新库结构。'
+  - '**典型例子**'
+  - '- **ArgoCD 金丝雀**：`argo rollouts set weight rollouts-demo 10` -> 观测 30min -> `argo
+    rollouts promote rollouts-demo` 或 `argo rollouts abort rollouts-demo`。'
+  - '- **Nginx 灰度配置**：`split_clients` 基于 `$request_id` 分配版本，`upstream new_version
+    { server new:80; } upstream old_version { server old:80; }`。'
+  - '- **回滚演练演练单**：季度演练，模拟“新版本导致支付回调失败”，验证：监控告警触发 -> 值班收到 -> 执行 `argo rollouts abort`
+    -> 确认流量回切 -> 业务恢复 -> 事后复盘。'
+  - '**边界条件**'
+  - '- **有状态服务灰度难题**：前端静态资源灰度容易（CDN 缓存+版本化文件名），但后端有状态服务灰度需配合数据库双写/读写分离/消息队列版本兼容，前端灰度策略需与后端发布节奏强绑定。'
+  - '- **缓存污染风险**：CDN/浏览器缓存可能导致灰度用户加载旧版本 JS 执行新版本 API（或反之），必须强制资源文件名含 Hash、HTML 不缓存或极短缓存、API
+    版本化（Header/URL）。'
+  - '- **特性开关技术债**：长期积累的 `if (flag) ... else ...` 会腐化代码库，需建立“旗标生命周期管理”：创建 -> 灰度 ->
+    全量 -> 清理旧分支代码 -> 删除旗标，定期扫描僵尸旗标强制清理。'
+  sources:
+  - paper: 20230418_117.md
+    role: origin
+  - paper: 20230418_118.md
+    role: improve
+  - paper: 20230418_119.md
+    role: improve
+  - paper: 20230418_120.md
+    role: improve
+  - paper: 20230418_121.md
+    role: improve
+  - paper: 20230418_122.md
+    role: improve
+  - paper: 20230418_123.md
+    role: improve
+  - paper: 20230418_124.md
+    role: improve
+  - paper: 20230418_125.md
+    role: improve
+  - paper: 20230418_126.md
+    role: improve
+  - paper: PU9Id4IPMoZ3QdxLzZUcEPBRnWO.md
+    role: origin
+  excerpts:
+  - ArgoCD 金丝雀发布、混沌工程演练回滚。
+  - 配置 RollingUpdate/Recreate 策略、Ingress TLS 终结/路由重写、ConfigMap 挂载运行时配置、Secret 管理敏感信息、HPA
+    基于 CPU/自定义指标弹性、Istio 金丝雀流量镜像。
+  - 落地 GitOps：ArgoCD 监控 Git 仓库声明式同步、PreSync/PostSync Hook 运行迁移/测试、自动回滚健康检查失败版本。
+- 'no': 11
+  name: 技术债务识别与重构提案（ADR 驱动） —— 让“欠债”变成“可控资产”
+  points:
+  - '**为什么需要这个概念？**'
+  - '- 长期迭代必然产生技术债务（过时依赖、耦合代码、缺失测试、性能瓶颈、设计模式腐化）。隐性债务会拖慢交付速度、增加故障率、劝退新人。需建立显性识别、量化评估、ADR
+    驱动重构的治理机制。'
+  - '- 重构不应是“程序员自嗨”，必须有业务价值锚定（如：提升开发效率 X%、降低故障率 Y%、支撑新业务 Z），通过 ADR 记录决策过程，纳入规划排期。'
+  - '**核心定义**'
+  - '- **技术债务清单**：结构化记录 `{ id, 标题, 类型(架构/代码/测试/文档/依赖/基建), 影响范围, 严重度(P0-P4), 产生原因,
+    当前痛点, 重构方案草案, 预估工时, 业务价值, 关联 ADR }`。'
+  - '- **重构提案 ADR**：复用 ADR 流程，在“背景”中量化债务成本（如：每次发版需人工修改 10 处配置，耗时 30min，半年 20 次发版，累计
+    10h 浪费），在“决策”中给出分阶段重构方案（绞杀者模式/防腐层/并行运行/渐进切换）。'
+  - '**关键性质**'
+  - '- **分类分级治理**：P0（安全/数据丢失/核心链路阻塞）立即修复；P1（性能严重/频发故障/阻塞新需求）纳入下个 Sprint；P2/P3（代码异味/文档缺失/依赖旧版）纳入技术专项周/季度规划；P4（主观不爽/最佳实践未遵循）仅记录不强制。'
+  - '- **绞杀者模式**：大规模重构（如 Vue 2 -> Vue 3、JS -> TS、微前端拆分）禁止大爆炸式重写，需建立防腐层/适配器，新旧代码共存，按路由/页面/模块逐步迁移，灰度验证。'
+  - '- **度量驱动验收**：重构完成需通过指标验收：构建时间 -30%、包体积 -20%、核心页面 LCP -200ms、单测覆盖率 +15%、发版频次 +50%、Bug
+    回归率 -50%。'
+  - '**典型例子**'
+  - '- **债务案例**：`DEBT-2024-001: 请求层未统一封装`，类型：基建/架构，严重度 P1，痛点：30+ 业务包各自封装 Axios，Token
+    刷新逻辑 5 种实现，排查网络问题无统一日志。重构方案：推出 `@enterprise/request`，6 个 Sprint 迁移存量，ADR-0045
+    记录决策。'
+  - '- **重构 ADR 片段**：`## Decision: 采用绞杀者模式迁移 @enterprise/request。Phase 1: 新项目强制使用；Phase
+    2: 高频改动老项目迁移（提供 Codemod 脚本）；Phase 3: 存量项目按需迁移；Phase 4: 废弃旧封装。`。'
+  - '**边界条件**'
+  - '- **重构陷阱**：避免“为重构而重构”，每个重构任务必须关联具体业务目标或痛点数据，拒绝“代码洁癖”驱动的无价值重构。'
+  - '- **遗留系统无测试重构**：无单测/E2E 兜底的遗留代码重构风险极高，必须先补齐“安全网”（E2E 核心链路覆盖）再动手，或采用“并行运行对比”策略（新旧同时跑，Diff
+    结果）。'
+  - '- **组件复用率统计陷阱**：单纯统计 `import ''@enterprise/ui''` 次数无意义，需统计“业务组件复用率”（自研业务组件被多项目引用次数
+    / 总业务组件数），目标 > 60%，倒逼公共组件沉淀质量。'
+  sources:
+  - paper: 20230418_117.md
+    role: origin
+  - paper: 20230418_118.md
+    role: improve
+  - paper: 20230418_119.md
+    role: improve
+  - paper: 20230418_120.md
+    role: improve
+  - paper: 20230418_121.md
+    role: improve
+  - paper: 20230418_122.md
+    role: improve
+  - paper: 20230418_123.md
+    role: improve
+  - paper: 20230418_124.md
+    role: improve
+  - paper: 20230418_125.md
+    role: improve
+  - paper: 20230418_126.md
+    role: improve
+  - paper: KJ0CdYG18oMFStxpa17cxS0wnyt.md
+    role: origin
+  excerpts:
+  - 定期产出《技术债务清单》《重构提案 ADR》《组件复用率报告》
+  - 推行 `adr-cli` 管理决策文档：标题/背景/决策/后果/替代方案、状态、关联 Issue
+  - 制定 12-18 月滚动路线图：主题（如“全链路类型安全”“微前端化”“研发效能平台化”）、季度里程碑、跨团队依赖识别、技术债务专项偿还预算。
+  - 建立 RFC 提交模版、评审会议议程、决策矩阵（技术可行性/业务价值/实施成本/风险/团队能力）、事后复盘模版输出经验教训。
+- 'no': 12
+  name: 团队技术分享体系化与知识沉淀 —— 打造“会呼吸”的工程文化
+  points:
+  - '**为什么需要这个概念？**'
+  - '- 个人经验若不显性化、结构化、资产化，随人员流动流失，团队重复造轮子、重复踩坑。需建立低门槛、高频次、有产出、可考核的技术分享体系，将隐性知识转化为组织资产。'
+  - '- 配合架构演进白皮书，定期对外/对内输出系统性认知，建立团队技术品牌，吸引人才、沉淀口碑。'
+  - '**核心定义**'
+  - '- **分层分享机制**：周会（15min：踩坑复盘/新工具介绍/技术雷达预警） -> 月度深度分享（60min：源码解析/架构设计/最佳实践/前沿调研，产出文档/录屏/代码仓）
+    -> 季度架构评审（半天：ADR 评审/路线图对齐/技术债务专项/跨团队依赖梳理）。'
+  - '- **知识沉淀管道**：分享内容必须沉淀至团队知识库（Wiki/Notion/GitBook），形成《最佳实践指南》《避坑指南》《架构决策集》《组件使用手册》等结构化文档，支持全文检索、版本管理、标签分类。'
+  - '**关键性质**'
+  - '- **产出导向**：分享不以“讲了”论功，以“留下了什么资产”论功（文档/代码/工具/规范/ADR）。鼓励“文档驱动分享”，先写文档再开会讲。'
+  - '- **新人传承机制**：入职前两周必读《团队技术白皮书》《架构演进史》《Top 10 避坑指南》，指定 Buddy 引导完成“微任务”（修复一个 Typo/补一个单测/改进一个文档），快速建立归属感。'
+  - '- **技术雷达联动**：分享内容同步更新技术雷达，新技术从“评估”->“试用”->“采纳”推进，废弃技术标记“暂缓”，指导选型与技能培训。'
+  - '**典型例子**'
+  - '- **月度深度分享主题库**：`Vite 插件开发实战`、`Pinia 状态管理最佳实践`、`WebWorker 卸载主线程计算`、`微前端沙箱原理与调试`、`RAG
+    在前端知识库落地`、`前端性能优化实战：LCP 从 3.2s 降到 1.8s`。'
+  - '- **季度架构评审产出**：《2024 Q2 前端架构演进白皮书》包含：ADR 变更汇总、技术雷达移动轨迹、核心指标仪表盘（构建时长/包体积/部署频次/故障率/组件复用率）、下季度重点攻坚项目。'
+  - '**边界条件**'
+  - '- **避免“分享疲劳”**：强制分享导致水化，采用“志愿报名 + 积分激励 + 绩效加分”模式，核心架构师/Tech Lead 做示范带头，营造“分享是荣誉、不分享无损失但错失成长”的氛围。'
+  - '- **知识库治理**：防止知识库变成“文档坟场”，设立“文档 Owner 制”，每份核心文档有明确维护人，半年必审一次，过期自动标记“待确认”，搜索结果优先展示高新鲜度文档。'
+  - '- **对外输出合规**：技术博客/开源/大会分享涉及公司核心代码/数据/架构细节，需走保密审批流程（法务/安全/领导签字），建立“可分享清单”与“脱敏规范”，鼓励在合规前提下建设技术影响力。'
+  sources:
+  - paper: 20230418_117.md
+    role: origin
+  - paper: 20230418_118.md
+    role: improve
+  - paper: 20230418_119.md
+    role: improve
+  - paper: 20230418_120.md
+    role: improve
+  - paper: 20230418_121.md
+    role: improve
+  - paper: 20230418_122.md
+    role: improve
+  - paper: 20230418_123.md
+    role: improve
+  - paper: 20230418_124.md
+    role: improve
+  - paper: 20230418_125.md
+    role: improve
+  - paper: 20230418_126.md
+    role: improve
+  - paper: KJ0CdYG18oMFStxpa17cxS0wnyt.md
+    role: origin
+  - paper: YE1FdsTuxoaBbNx4f5dcnSNenxb.md
+    role: apply
+  excerpts:
+  - 建立团队技术周会/月度深度分享/季度架构评审机制、沉淀《前端架构演进白皮书》。
+  - 引入 Thoughtworks 技术雷达模式、季度雷达会议流程、Blip 迁移规则、开源工具 `tech-radar` 可视化发布、新人入职必读文档。
+  - 制定内容生产节奏（周更/月更）、选题策略（踩坑复盘/源码解析/最佳实践/前沿解读）、开源项目孵化路径、演讲提案技巧。

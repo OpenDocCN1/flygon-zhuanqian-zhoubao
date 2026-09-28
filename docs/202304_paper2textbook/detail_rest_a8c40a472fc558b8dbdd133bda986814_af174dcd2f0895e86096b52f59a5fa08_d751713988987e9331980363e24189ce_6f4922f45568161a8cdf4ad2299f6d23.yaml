@@ -1,0 +1,165 @@
+learning_targets:
+- 理解前端国际化（i18n）与无障碍（a11y）工程化的必要性与核心标准
+- 掌握运行时与编译时 i18n 方案的架构差异、ICU MessageFormat 语法及 TypeScript 类型安全落地
+- 掌握翻译管理全流程工程化：CI/CD 集成、术语库一致性校验、机器翻译预译与人工复核流水线
+- 熟练应用 WCAG 2.1 AA 级标准：语义化 HTML、ARIA 补全模式、键盘导航与焦点管理、颜色对比度达标
+- 能按 WAI-ARIA APG 规范完成组件库级无障碍适配，输出合规报告与自动化回归测试体系
+- 能搭建 i18n+a11y 自动化防护体系：Pre-commit/CI/Release 多层门禁、动态键/误报治理、人工辅助测试计划
+concept_map:
+- 前端国际化与无障碍工程化
+- ├── 国际化（i18n）方案选型
+- │   ├── 运行时库（vue-i18n/react-i18next） —— P001
+- │   ├── 编译时库（LinguiJS/FormatJS）   —— P001
+- │   ├── ICU MessageFormat 标准        —— P001
+- │   └── TypeScript 类型安全键值      —— P001
+- ├── 翻译管理工程化
+- │   ├── TMS 平台接入（Crowdin/Lokalise） —— P002
+- │   ├── GitHub Actions 双向同步流水线   —— P002
+- │   ├── 术语库一致性校验与机翻预译      —— P002
+- │   └── 发布门禁：翻译完整率 ≥ 99%     —— P002
+- ├── 无障碍核心标准（WCAG 2.1 AA）
+- │   ├── POUR 四大原则与 27 条成功标准  —— P003
+- │   ├── 语义化 HTML 优于 ARIA           —— P003
+- │   ├── 键盘导航、焦点陷阱、焦点指示器  —— P003
+- │   ├── 颜色对比度 ≥ 4.5:1、文本缩放 200% —— P003
+- │   └── NVDA/VoiceOver/TalkBack 三端测试 —— P003
+- ├── 组件库无障碍适配
+- │   ├── WAI-ARIA APG 复合组件模式      —— P004
+- │   ├── 基础组件合规清单与组合式函数   —— P004
+- │   ├── 设计系统文档化：键盘/ARIA/播报表 —— P004
+- │   └── Storybook + axe-core 自动化回归 —— P004
+- └── 自动化回归防护体系
+- '    ├── 分层门禁：Pre-commit / CI / Release —— P005'
+- '    ├── 工具链：axe-core / Lighthouse CI / i18n-check —— P005'
+- '    ├── 动态键忽略与误报白名单治理    —— P005'
+- '    └── 定期人工辅助测试计划（核心旅程） —— P005'
+life_analogy:
+- 想象前端应用是一家**连锁跨国餐厅**：
+- '- **i18n 方案选型** = 选择**菜单制作方式**：'
+- '  - 运行时库 = **现点现翻**，服务员随时能改菜名，但厨房（浏览器）负担重、出菜慢'
+- '  - 编译时库 = **总部预印好多语言菜单**，分店（用户）直接拿对应语言版，出菜快、不易错'
+- '- **ICU MessageFormat** = **通用的菜品规格书**，能自动处理“1 份/2 份/5 份”（复数）、“素/荤”（选择）、嵌套套餐，避免人工写
+  if-else 出错'
+- '- **翻译管理流水线** = **总部与各国分店的自动化供应链**：菜单改版（源文件变更）自动推送翻译中心，翻译好自动回流分店，术语表保证“招牌菜”全球叫法一致'
+- '- **WCAG 2.1 AA** = **建筑无障碍规范**：坡道（键盘导航）、盲文标识（ARIA/语义化 HTML）、色盲友好配色（对比度）、语音广播（屏幕阅读器）'
+- '- **组件库适配** = **标准化无障碍预制件**：无障碍门（Dialog）、无障碍电梯（Tabs）、盲文按钮（Button），装修（业务开发）直接用，不用每家店自己焊'
+- '- **自动化回归防护** = **每日巡检机器人 + 开业前验收**：机器人（CI/axe-core）每晚巡检坡道是否被堵、盲文是否脱落，开业前（Release）总验收，发现问题立即整改，不让顾客进店踩坑'
+summary:
+- concept: 运行时 vs 编译时 i18n
+  desc: 运行时库开发体验好支持热更新，编译时库包体积小、类型安全、首屏性能优，按场景选型
+- concept: ICU MessageFormat
+  desc: 国际化标准语法，原生支持复数分类、选择格式、嵌套插值，覆盖 CLDR 所有语言规则
+- concept: 翻译管理工程化
+  desc: TMS + CI/CD 实现源文件与翻译双向同步，术语库+机翻预译降本增效，发布门禁守住完整率底线
+- concept: WCAG 2.1 AA 级
+  desc: 企业级合规基线：可感知/可操作/可理解/健壮四大原则，27 条成功标准，法律风险与商业价值双重保障
+- concept: 语义化 HTML 优先
+  desc: 原生标签自带角色/状态/键盘交互，是无障碍地基；ARIA 仅作语义缺口兜底，滥用反害无障碍
+- concept: 键盘导航与焦点管理
+  desc: Tab 顺序符合视觉、模态框焦点陷阱、焦点指示器永不隐藏、跳转链接直达主内容
+- concept: WAI-ARIA APG 复合组件模式
+  desc: Dialog/Menu/Combobox/Tabs 等复杂组件必须遵循标准交互模式（键盘、ARIA 属性、焦点流转）
+- concept: 组件库无障碍兜底
+  desc: 基础设施层内置合规，业务侧开箱即用；Storybook + axe-core 每提交必扫，阻断违规合并
+- concept: 分层自动化门禁
+  desc: Pre-commit 轻量 lint → CI 全量 axe + i18n 完整率 → Release Lighthouse CI 综合审计，左移合规成本
+- concept: 动态键与误报治理
+  desc: 动态拼接键用显式常量或忽略注释，建立规则白名单，避免误报导致团队忽视门禁
+- concept: 人工辅助测试闭环
+  desc: 自动化仅覆盖 30-50% 规则，需月度/季度 NVDA/VoiceOver 真机实测核心用户旅程，补齐自动化盲区
+exercises:
+- 'no': 1
+  title: ICU MessageFormat 实战与类型安全
+  contents:
+  - 给定以下翻译需求：
+  - 1. 显示“用户 {name} 有 {count} 条未读消息”，中文无复数变化，英文需区分单复数（message/messages）
+  - 2. 显示“性别：{gender, select, male {男} female {女} other {其他}}”
+  - 3. 嵌套：{count, plural, one {# 条消息} other {# 条消息，其中 {unread, plural, one {# 条未读}
+    other {# 条未读}}}}
+  - 任务：
+  - 1. 用 ICU MessageFormat 语法编写对应的英/中翻译字符串
+  - 2. 若使用 LinguiJS，`lingui extract` 后生成的 .po 文件中 msgid/msgstr 结构长什么样？
+  - '3. 如何配置 TypeScript 让 `t(''msg.key'', { count: 1 })` 在 count 传字符串时编译报错？'
+  - 思考题：
+  - '- 为什么阿拉伯语需要 6 种复数形式？ICU 如何表示？'
+  - '- 运行时解析 ICU 与编译时生成函数在性能与包体积上的量级差异？'
+- 'no': 2
+  title: 搭建翻译管理 CI/CD 流水线
+  contents:
+  - 场景：Monorepo 包含 `apps/web`（React）与 `packages/ui`（共享组件库），翻译文件分别位于 `apps/web/locales`
+    与 `packages/ui/locales`，源语言 en。
+  - 任务：设计一个 GitHub Actions Workflow 实现：
+  - 1. 监听两个目录下 `en.json` 变更，自动推送至 Crowdin（或模拟的本地脚本）
+  - 2. 定时/手动触发拉取所有语言翻译，生成包含两个包翻译更新的 PR
+  - 3. PR 检查阶段运行术语一致性校验脚本（术语表 `glossary.csv`：`登录,login,sign in`），发现不一致阻断合并
+  - 4. 发布前（Tag 推送）校验所有语言翻译完整率 ≥ 99%，不达标阻断发布
+  - 产出：
+  - '- 画出流水线阶段图（Mermaid 或文字描述）'
+  - '- 编写关键步骤的 Shell/Node.js 伪代码（术语校验、完整率计算）'
+  - 思考题：
+  - '- 微前端子应用共享语言包时，如何避免版本不一致导致的闪烁？'
+  - '- 机翻预译质量不稳定，如何在流水线中引入‘置信度阈值’自动跳过低置信度译文？'
+- 'no': 3
+  title: 无障碍合规自测与自动化门禁
+  contents:
+  - 给定一个包含以下问题的 Vue 3 单文件组件 `UserProfile.vue`：
+  - '```vue'
+  - <template>
+  - '  <div class="card">'
+  - '    <img :src="avatar" />'
+  - '    <h3>{{ name }}</h3>'
+  - '    <span class="badge" :class="role">{{ role }}</span>'
+  - '    <div @click="edit" class="btn">编辑</div>'
+  - '    <input v-model="email" placeholder="邮箱" />'
+  - '    <span v-if="error" class="error">{{ error }}</span>'
+  - '  </div>'
+  - </template>
+  - '```'
+  - 任务：
+  - 1. 列出该组件违反 WCAG 2.1 AA 的至少 5 个具体问题（引用成功标准编号，如 1.1.1、2.1.1、4.1.2 等）
+  - 2. 给出修复后的模板代码，补全语义化标签、ARIA 属性、焦点管理、关联关系
+  - 3. 编写一个 Playwright + axe-core 测试用例，自动检测该组件的无障碍违规并输出报告
+  - 4. 在 GitHub Actions 中配置该测试作为 `required` status check
+  - 思考题：
+  - '- `role="button"` 的 `<div>` 与原生 `<button>` 在无障碍树中的差异？还需补全哪些键盘交互？'
+  - '- 动态错误信息如何通过 `aria-live` 让屏幕阅读器即时播报？`polite` 与 `assertive` 如何选择？'
+  - '- axe-core 无法检测的典型问题有哪些？为何仍需人工测试？'
+- 'no': 4
+  title: 组件库无障碍适配：实现一个符合 APG 的 Combobox
+  contents:
+  - 参考 WAI-ARIA Authoring Practices 1.2 - Combobox Pattern（自动完成下拉），要求：
+  - 1. 支持键盘交互：
+  - '   - 输入框：输入过滤、Enter 选中、Esc 关闭、上下键移动高亮'
+  - '   - 下拉列表：Home/End 跳转首尾、Tab 移出组件'
+  - 2. ARIA 属性完备：
+  - '   - `aria-controls` 关联列表、`aria-expanded`、`aria-activedescendant`、`role="combobox"`/`listbox`/`option`'
+  - '   - 选中项 `aria-selected="true"`'
+  - 3. 焦点管理：打开时焦点留在输入框，通过 `aria-activedescendant` 操作虚拟焦点；关闭时焦点不丢失
+  - 4. 封装为 Vue 3 组合式函数 `useCombobox(options, props)` 供组件复用
+  - 任务：
+  - '- 画出组件状态机（闭合/打开/加载/无结果）与键盘事件转移表'
+  - '- 实现核心 `useCombobox` 逻辑伪代码（含 `onKeydown`、`updateActiveDescendant`、`toggleList`）'
+  - '- 说明如何在 Storybook 中编写交互测试（play function）验证键盘流程'
+  - '- 如何接入 `@storybook/addon-a11y` 让该组件每次提交自动跑 axe 扫描？'
+  - 思考题：
+  - '- `aria-activedescendant` 与 `roving tabindex` 两种焦点管理模式的优劣对比？'
+  - '- 移动端 TalkBack/VoiceOver 手势操作 Combobox 时，虚拟光标与真实焦点如何配合？'
+- 'no': 5
+  title: i18n+a11y 综合门禁治理：误报白名单与动态键策略
+  contents:
+  - 背景：项目接入 `axe-core` + `i18n-ally` CI 门禁后，团队反馈：
+  - 1. 第三方嵌入的地图组件（iframe）频繁触发 `iframe-title` 违规，但业务无法控制 iframe 内容
+  - 2. 组件库 `Icon` 组件故意 `aria-hidden="true"`，却被 axe 标记为‘装饰性元素无需隐藏’警告
+  - 3. 业务代码大量使用动态拼接翻译键：`t('error.' + errorCode)`，导致 `i18n-check` 误报‘缺失键’
+  - 4. 颜色对比度违规多来自设计稿品牌色，开发无权修改，需设计侧配合
+  - 任务：
+  - 1. 设计 `axe-core` 配置对象，针对以上 1、2 制定规则白名单/上下文忽略策略
+  - 2. 设计 `i18n-check` 配置，支持 `// i18n-ignore` 注释、常量数组显式声明、正则排除动态键路径
+  - 3. 制定《无障碍/国际化违规分级与响应 SOP》：
+  - '   - P0（阻断合并）：自有代码硬性违规（缺失 alt、表单无 label、翻译缺失）'
+  - '   - P1（警告不阻断）：第三方组件、品牌色对比度、axe 最佳实践类规则'
+  - '   - P2（技术债）：需重构的遗留模式（如大量动态键）'
+  - 4. 设计月度人工测试计划模版：覆盖核心旅程、测试设备/AT 组合、缺陷记录与追踪字段
+  - 思考题：
+  - '- 如何量化‘门禁收益 vs 误报成本’？引入哪些指标（如：阻断真实 Bug 数 / 误报数、平均修复时长）？'
+  - '- 若团队规模扩大到 50+ 人，如何避免‘门禁被绕过’（如 `--no-verify`）成为常态？'
