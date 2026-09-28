@@ -1,0 +1,50 @@
+citation_stats:
+- paper: P001
+  count: 2
+  locations:
+  - '65.3'
+  - '65.3'
+- paper: P006
+  count: 4
+  locations:
+  - '65.5'
+  - '65.5'
+  - '65.6'
+  - '65.6'
+- paper: P017
+  count: 1
+  locations:
+  - '65.4'
+- paper: P105
+  count: 2
+  locations:
+  - '65.5'
+  - '65.6'
+- paper: P116
+  count: 2
+  locations:
+  - '65.7'
+  - '65.7'
+unsupported_claims:
+- location: '65.2'
+  claim: 瑞·达里奥《原则》方法论迁移验证了原则先行范式
+  reason: 素材仅提及作者受《原则》影响建立方法论，未提及达里奥本人或官方背书验证
+- location: '65.5'
+  claim: 小鹤双拼为双拼方案中唯一最优解
+  reason: 评论区存在五笔、语音输入等替代方案支持者，素材本身列出'非唯一最优解'边界条件
+- location: '65.7'
+  claim: 21天定律为习惯养成的科学定律
+  reason: 素材引用'心理学习惯养成理论'但未提供学术来源，文献补充建议中明确标注Lally等2010年研究显示中位数约66天
+missing_concepts:
+- paper: P001
+  concept: 时间管理方法论的具体实践操作细节（如微规则库、工具链、复盘模版）
+  severity: high
+- paper: P017
+  concept: 搜商三维结构的具体训练方法与进阶路径
+  severity: high
+- paper: P006
+  concept: RIME生态配置文件实操教程、跨平台同步方案、蓝天练习网进阶用法
+  severity: high
+- paper: P116
+  concept: 航海手册标准化结构、教练/志愿者选拔标准、打卡数据统计口径
+  severity: high
