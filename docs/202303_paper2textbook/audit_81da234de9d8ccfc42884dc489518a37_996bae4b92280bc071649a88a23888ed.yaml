@@ -1,0 +1,33 @@
+citation_stats:
+- paper: P001
+  count: 2
+  locations:
+  - '79.3'
+  - '79.6'
+- paper: P002
+  count: 2
+  locations:
+  - '79.3'
+  - '79.7'
+- paper: P003
+  count: 2
+  locations:
+  - '79.3'
+  - '79.8'
+- paper: P004
+  count: 2
+  locations:
+  - '79.3'
+  - '79.9'
+- paper: P005
+  count: 2
+  locations:
+  - '79.3'
+  - '79.10'
+- paper: P006
+  count: 2
+  locations:
+  - '79.3'
+  - '79.11'
+unsupported_claims: []
+missing_concepts: []
