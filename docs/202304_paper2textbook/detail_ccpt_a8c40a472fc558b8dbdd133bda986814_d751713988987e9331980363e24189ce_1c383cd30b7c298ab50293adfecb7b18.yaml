@@ -1,0 +1,178 @@
+units:
+- 'no': 1
+  name: 响应式核心原理 —— 让数据变成“可感知的活体”
+  points:
+  - '**为什么需要这个概念？**'
+  - '- 传统 Vue 2 的 Object.defineProperty 无法监听数组下标变动、对象新增/删除属性，导致开发者需频繁使用 $set/$delete
+    破坏体验'
+  - '- 需要一种无侵入、全方位、惰性触发的响应式机制，支撑组合式 API 中灵活的逻辑拆分与复用'
+  - '- 现代前端状态复杂度升高，要求响应式系统具备精确的依赖收集能力，避免无效更新造成性能浪费'
+  - '**核心定义**'
+  - '- 基于 ES6 Proxy 实现的拦截器：对目标对象的读取(get)进行依赖收集，对修改(set)触发副作用更新'
+  - '- 核心数据结构：WeakMap<target, Map<key, Set<effect>>> 组成的三层依赖图谱'
+  - '- 两大基础 API：reactive(深度代理对象) 与 ref(值包装器，通过 .value 访问触发代理)'
+  - '**关键性质**'
+  - '- 惰性代理：仅访问的属性才建立依赖，未访问属性零开销'
+  - '- 深度响应式：访问嵌套对象时自动递归代理，层层建立依赖链'
+  - '- 依赖去重：同一 effect 同一 key 只收集一次，避免重复触发'
+  - '- 调度分离：trigger 不直接执行 effect，而是放入微任务队列批次执行，合并同步代码块内的多次修改'
+  - '- Ref 自动解包：在 reactive 对象中赋值 ref 时自动解包为原始值，模板渲染时自动解包无需 .value'
+  - '**典型例子**'
+  - '- 场景：表单双向绑定。const state = reactive({ user: { name: '''' } }); input 绑定 state.user.name，修改即时同步视图'
+  - '- 场景：跨组件状态共享。const count = ref(0); 在多个组合式函数中 import 同一 count，修改自动广播'
+  - '- 场景：计算属性实现。computed(() => state.list.filter(...)) 内部通过 effect 惰性求值，依赖变化时标记脏位下次读取重算'
+  - '**边界条件**'
+  - '- Proxy 无法拦截原始值(基本类型)，故需 ref 包装；reactive 仅接受对象类型'
+  - '- 解构 reactive 对象会丢失响应性：const { user } = state 导致 user 为普通对象，需用 toRefs/stateToRefs
+    保持响应引用'
+  - '- 数组修改：push/pop 等变异方法会触发更新，但直接修改下标 arr[0]=val 依然触发(Proxy 拦截 set)，但删除下标 delete
+    arr[0] 需触发 length 变化'
+  - '- 循环引用/超大对象：深度代理可能导致栈溢出或性能问题，可用 shallowReactive/shallowRef 仅代理首层'
+  - '- 非对象键：Map/Set/WeakMap/WeakSet 需用专用 reactive 实现(内部通过 instrumentation 封装方法)而非普通
+    Proxy'
+  sources:
+  - paper: 20230418_036.md
+    role: origin
+  excerpts:
+  - 从 `reactive`/`ref` 入手，图解 `track`/`trigger` 如何建立响应式依赖图，理解 `effect` 作为调度单位的角色。
+  - 响应式核心原理：Proxy 代理、依赖收集与副作用触发
+- 'no': 2
+  name: 组合式函数设计指北 —— 像搭积木一样封装“带状态的逻辑”
+  points:
+  - '**为什么需要这个概念？**'
+  - '- Options API 中逻辑按选项分散(data/methods/computed/watch)，导致同一业务逻辑碎片化，难以复用与维护'
+  - '- Mixins 存在命名冲突、数据来源不清、类型推导弱等痛点，急需标准化的逻辑复用方案'
+  - '- 组合式 API 提供了 setup() 作为统一入口，但缺乏约定俗成的封装规范，易写出“面条代码”'
+  - '**核心定义**'
+  - '- 组合式函数：以 `use` 开头命名的函数，封装响应式状态、计算属性、方法、生命周期钩子，返回供组件消费的状态与行为'
+  - '- 核心契约：在 setup() 或同步执行的组合式函数中调用 onMounted/onUnmounted 等生命周期钩子，自动绑定当前组件实例'
+  - '- 返回值约定：优先返回 `ref`/`reactive` 保持响应性，必要时用 `toRefs` 解构保持引用，避免直接返回原始值丢失响应'
+  - '**关键性质**'
+  - '- 状态隔离：每次调用 `useXxx()` 创建独立状态副本，互不干扰(除非刻意共享外部单例)'
+  - '- 类型推导友好：TypeScript 能自动推导返回对象的完整类型签名，含响应式解包后的类型'
+  - '- 生命周期绑定：仅在组件初始化同步阶段调用有效，异步回调中调用会报错(无当前实例上下文)'
+  - '- 可嵌套组合：组合式函数内可调用其他组合式函数，形成逻辑复用的树状依赖'
+  - '**典型例子**'
+  - '- `useMouse()`：封装鼠标坐标监听，返回 { x, y } ref，组件调用即得实时位置'
+  - '- `useFetch(url)`：封装请求状态 loading/data/error，内部用 onMounted 发请求、onUnmounted 取消订阅'
+  - '- `useEventListener(target, event, handler)`：统一管理事件绑定/解绑，自动随组件卸载移除监听'
+  - '**边界条件**'
+  - '- 禁止在条件分支/循环中调用组合式函数(含生命周期钩子)，破坏调用顺序一致性导致钩子绑定错位'
+  - '- 避免在组合式函数中直接修改传入的 props(只读)，需用 toRefs(props) 转响应或 computed 衍生'
+  - '- 共享状态陷阱：若需全局单例状态，应在函数外部创建 ref/reactive，函数内仅返回引用，而非每次调用新建'
+  - '- 测试隔离：单元测试时需使用 `effectScope` 或 `createApp` 提供组件上下文，否则生命周期钩子无法注册'
+  sources:
+  - paper: 20230418_036.md
+    role: origin
+  excerpts:
+  - 总结 `useXxx` 命名规范、响应式状态返回约定、`onMounted` 等钩子在组合函数中正确使用的时机与限制。
+  - 组合式函数设计指北：状态封装、生命周期钩子注入与类型推导
+- 'no': 3
+  name: 逻辑复用对决 —— Composables 为何击败 Mixins/HOC/Provide-Inject
+  points:
+  - '**为什么需要这个概念？**'
+  - '- 团队常在 Mixins、HOC、Provide/Inject、Composables 间摇摆，缺乏决策依据导致代码库风格割裂'
+  - '- 理解各方案本质差异，才能在重构旧项目、设计新架构时做出技术债最小的选择'
+  - '- 面试与技术选型高频考点，需从原理层面论证 Composables 的优势边界'
+  - '**核心定义**'
+  - '- Mixins：选项合并机制，同名 data/methods 递归合并，生命周期并行执行，隐式依赖 this 上下文'
+  - '- HOC：高阶组件/函数，接收组件返回增强组件，通过 props 传递状态，典型 React 模式 Vue 中少见'
+  - '- Provide/Inject：依赖注入，跨层级传递数据/方法，运行时建立关系，类型推导需手动泛型'
+  - '- Composables：函数式封装，显式 import/export，返回响应式对象，编译期类型推导，无 this 依赖'
+  - '**关键性质**'
+  - '- 命名空间：Composables 显式导出成员，零冲突；Mixins 隐式合并易冲突'
+  - '- 数据来源追踪：Composables 代码跳转直达定义；Mixins/Provide 需运行时调试定位来源'
+  - '- TypeScript 支持：Composables 完整推导泛型/返回类型；Mixins 需 `ComponentCustomOptions` 手动增强，Provide
+    需 `InjectionKey`'
+  - '- 测试隔离：Composables 可独立单测(模拟 effectScope)；Mixins 需挂载组件测试，耦合度高'
+  - '- 逻辑复用粒度：Composables 细粒度按功能拆分；Mixins 往往耦合多个无关选项'
+  - '**典型例子**'
+  - '- 重构：将 `paginationMixin`(含 pageSize/currentPage/fetchList/排序/导出) 拆分为 `usePagination`、`useSortable`、`useExport`
+    三个 Composables'
+  - '- 迁移：Vue 2 `mapState`/`mapGetters` 映射的 Vuex 状态，迁移为 `useStore().xxx` 直接解构，类型自动推导'
+  - '- 替代 Provide/Inject：将 `provide(''theme'', reactive({...}))` 改为 `export const
+    useTheme = () => reactive({...})` 单例导出，消除注入层级限制'
+  - '**边界条件**'
+  - '- 仍需 Provide/Inject 的场景：插件/组件库向应用注入全局默认配置(如 i18n/locale)、跨越非组合式边界(旧组件/第三方库)'
+  - '- 仍需 Mixins 的场景：极少，仅兼容 Vue 2 旧项目渐进式迁移过渡期'
+  - '- HOC 在 Vue 中非主流：因 Vue 组件是对象非函数，HOC 需包装组件定义对象，不如 Composables 自然'
+  - '- Composables 无法完全替代：全局单例状态管理(需 Pinia)、跨应用微前端通信、非响应式工具函数(如日期格式化)无需封装为 Composables'
+  sources:
+  - paper: 20230418_036.md
+    role: origin
+  excerpts:
+  - 从命名空间冲突、数据来源追踪、TypeScript 支持度、测试隔离性四个维度横向对比，论证 Composables 优势。
+  - 逻辑复用对决：Composables vs Mixins vs 高阶组件 vs Provide/Inject
+- 'no': 4
+  name: 进阶响应式模式 —— 异步状态机、防抖工具与自定义 Ref
+  points:
+  - '**为什么需要这个概念？**'
+  - '- 业务中充斥着异步请求、防抖输入、外部库集成等复杂副作用，直接在组件中写导致逻辑散乱、状态不一致'
+  - '- 需要可复用的响应式模式封装“请求-加载-成功-失败”状态机、“防抖/节流”副作用、“自定义触发时机”的响应式变量'
+  - '- 标准 ref/reactive 无法表达“仅当条件满足才触发更新”或“读取时才计算”的精细控制'
+  - '**核心定义**'
+  - '- `useAsyncState`：封装 Promise 执行，自动管理 `loading`/`data`/`error` 三态，支持立即执行/手动触发/轮询/取消'
+  - '- `useDebounceFn`/`useThrottleFn`：包装函数返回防抖/节流版本，内部用 `setTimeout`/`requestAnimationFrame`
+    管理定时器，组件卸载自动清理'
+  - '- `customRef`：工厂函数接收 `track`/`trigger` 手动控制依赖收集与触发时机，返回受控 ref'
+  - '**关键性质**'
+  - '- 异步状态机：内部用 `ref` 维护状态，`try/catch/finally` 保证状态流转原子性，暴露 `execute`/`cancel` 方法供外部驱动'
+  - '- 防抖/节流工具：利用 `effectScope` 或 `onScopeDispose` 绑定组件生命周期，避免内存泄漏；支持 `leading`/`trailing`
+    选项控制首尾触发'
+  - '- 自定义 Ref：典型用例——防抖 ref(输入 300ms 后同步)、仅脏检查触发、同步本地存储、受控组件桥接'
+  - '**典型例子**'
+  - '- 搜索框防抖：`const query = useDebouncedRef('''', 300)` 替代手动 watch + setTimeout，模板直接绑定
+    `v-model="query"`'
+  - '- 数据获取：`const { data, loading, execute } = useAsyncState(fetchUserList)`，模板 `v-if="loading"`
+    / `v-else` 渲染列表'
+  - '- 受控输入框对接非响应式库：`const value = customRef((track, trigger) => ({ get() { track();
+    return extLib.getValue() }, set(v) { extLib.setValue(v); trigger() } }))`'
+  - '**边界条件**'
+  - '- `useAsyncState` 默认不处理竞态条件(后发先至)，需配合 AbortController 或请求 ID 校验'
+  - '- `customRef` 若在 get 中忘记 `track()` 或 set 中忘记 `trigger()` 会导致视图不更新或依赖不收集'
+  - '- 防抖函数在组件卸载前触发的回调若访问已销毁的响应式状态会报错，需在回调前检查 `isMounted` 标记'
+  - '- `useDebounceFn` 返回的函数丢失了原函数的 `this` 上下文，若原函数依赖 this 需用 `bind` 或箭头函数包装'
+  sources:
+  - paper: 20230418_036.md
+    role: origin
+  excerpts:
+  - 实现 `useAsyncState` 统一处理 loading/error/data、`useDebounceFn`/`useThrottleFn` 封装副作用、`customRef`
+    控制触发时机。
+  - 进阶模式：异步状态机、响应式工具函数与自定义 Ref
+- 'no': 5
+  name: 实战：构建可测试、可追踪的业务级 Hooks 库
+  points:
+  - '**为什么需要这个概念？**'
+  - '- 团队积累的组合式函数散落在各业务目录，缺乏统一规范、类型定义、单测覆盖、文档与发布流程，导致重复造轮子、版本不一致'
+  - '- 需要建立类似 `@vueuse/core` 的内部标准库，实现“开箱即用、类型安全、升级无痛、质量可控”'
+  - '- 将“个人经验”沉淀为“团队资产”，降低新人上手成本，提升代码复用率'
+  - '**核心定义**'
+  - '- 目录规范：`packages/hooks/src/useXxx/` 单目录包含 `index.ts`(主入口)、`types.ts`(类型)、`index.test.ts`(单测)、`README.md`(文档)'
+  - '- 单元测试策略：使用 `vitest` + `@vue/test-utils` + `effectScope` 模拟组件上下文，测试响应式状态变更、生命周期钩子调用、异步流程、边界异常'
+  - '- 文档生成：配置 `typedoc` 或 `vitepress` 自动从 JSDoc/TS 类型生成 API 文档，含参数、返回值、示例代码'
+  - '- 发布流程：`changesets` 管理版本日志，`pnpm publish` 发布至私有 npm registry，配合 `semantic-release`
+    自动化'
+  - '**关键性质**'
+  - '- 类型优先：所有对外 API 必须导出 TypeScript 类型，泛型参数支持类型推导，禁止 `any`'
+  - '- 零依赖核心：核心 Hooks 仅依赖 `vue`、`@vueuse/shared` 等极少 peerDependencies，避免依赖地狱'
+  - '- Tree-shaking 友好：纯 ESM 导出，无副作用导入，支持按需引入 `import { useMouse } from ''@my-org/vue-hooks''`'
+  - '- 向后兼容：遵循 SemVer，Breaking Change 仅在 Major 版本，提供代码修改迁移指南'
+  - '**典型例子**'
+  - '- 目录结构：`@my-org/vue-hooks/useMouse`、`@my-org/vue-hooks/useFetch`、`@my-org/vue-hooks/usePermission`(封装指令/函数双形态)'
+  - '- CI 流水线：`lint` → `typecheck` → `test:unit` → `build` → `doc:build` → `changeset
+    version` → `publish`'
+  - '- 使用侧：`import { useDebouncedRef, useAsyncState } from ''@my-org/vue-hooks''`
+    享受全链路类型提示'
+  - '**边界条件**'
+  - '- 避免过度封装：通用性低、仅单项目使用的逻辑留在业务目录，不纳入通用库'
+  - '- 依赖外部 UI 库(如 Ant Design Vue)的 Hooks 应单独拆包(如 `@my-org/vue-hooks-antd`)，避免核心库强依赖
+    UI 库版本'
+  - '- 测试环境差异：JSDOM 无原生 `ResizeObserver`/`IntersectionObserver`，需 polyfill 或模拟实现'
+  - '- 版本锁定：项目锁定 `@my-org/vue-hooks` 具体版本，禁止 `^` 篡改，统一由 Dependabot/Renovate 定期提 PR
+    升级'
+  sources:
+  - paper: 20230418_036.md
+    role: origin
+  excerpts:
+  - 规范目录结构、单元测试策略、文档生成流程，产出团队内部 `@my-org/vue-hooks` 包。
+  - 实战：构建可测试、可追踪的业务级 Hooks 库
