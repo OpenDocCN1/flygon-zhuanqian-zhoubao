@@ -1,0 +1,131 @@
+units:
+- 'no': 1
+  name: 思维链的变体与进化 —— 从线性推理到树状搜索
+  points:
+  - '**为什么需要这个概念？**'
+  - '- 标准 CoT（Chain-of-Thought）虽能引导模型逐步推理，但单一路径极易因早期错误导致全盘皆错（“一步错，步步错”）'
+  - '- 复杂任务（如数学证明、代码生成、战略规划）往往存在多条可行推理路径，单链条无法探索替代方案'
+  - '- 需要一种机制在“广度”上生成多样化路径、在“深度”上评估路径质量，实现推理的自我纠错与最优路径选择'
+  - '**核心定义**'
+  - '- **CoT-SC (Self-Consistency)**：通过温度采样生成多条独立推理链，对最终答案进行多数投票，以“少数服从多数”修正单路径随机性错误'
+  - '- **ToT (Tree of Thoughts)**：将推理建模为树状搜索过程，每个节点为一个“思维状态”，通过 BFS/DFS 等搜索算法结合状态评估器（Value
+    函数）进行前瞻与回溯'
+  - '**关键性质**'
+  - '- CoT-SC：无需修改模型架构，仅在解码阶段并行采样，成本随采样数线性增长，适合答案空间离散（如选择题、数学计算）的任务'
+  - '- ToT：显式引入“状态评估器”判断中间步骤优劣，支持剪枝与回溯，计算开销大但能解决需规划、探索的复杂组合问题（如 24 点游戏、填字游戏）'
+  - '- 两者均属“Test-Time Scaling”范式：用推理时的额外计算换取性能提升，不改变模型参数'
+  - '**典型例子**'
+  - '- **GSM8K 数学题**：标准 CoT 准确率 ~70%，CoT-SC (40 paths) 提升至 ~83%，ToT 进一步逼近上限'
+  - '- **创意写作/跨词游戏**：ToT 允许模型尝试不同开头、回溯修改情节，显著优于线性生成'
+  - '**边界条件**'
+  - '- CoT-SC 依赖“正确答案在采样分布中占多数”，若模型系统性偏差（如共同幻觉），投票失效'
+  - '- ToT 需设计有效的状态评估函数（启发式/模型打分/仿真器），评估器偏差会误导搜索方向'
+  - '- 搜索空间指数级爆炸需配合剪枝阈值、beam width 等工程参数控制成本'
+  sources:
+  - paper: 20230418_025.md
+    role: origin
+  - paper: 20230418_026.md
+    role: improve
+  excerpts:
+  - CoT-SC 核心公式：Answer = argmax_a ∑_i 1[Answer_i = a]，其中 Answer_i 来自温度 T>0 的采样
+  - ToT 框架四要素：Thought Decomposition（思维分解）、State Evaluation（状态评估）、Search Algorithm（搜索算法
+    BFS/DFS）、Budget（计算预算）
+  - 实验对比：在 Creative Writing 任务中，ToT (BFS, b=5) 的通过率 78% vs CoT 42% vs CoT-SC (k=10)
+    56%
+- 'no': 2
+  name: 检索增强生成（RAG） —— 给模型装上“外挂大脑”
+  points:
+  - '**为什么需要这个概念？**'
+  - '- 大模型参数内知识有“截止日期”，无法获取最新资讯、私有领域数据'
+  - '- 参数化知识存储稠密但不可靠：易产生幻觉、难以溯源、难以修改（需重训/微调）'
+  - '- 需要一种“开卷考试”机制：将外部知识库作为非参数化记忆，检索相关片段注入上下文，让模型基于证据生成'
+  - '**核心定义**'
+  - '- RAG = Retriever（检索器）+ Generator（生成器）'
+  - '- 标准流程：Indexing（文档加载→分块→嵌入→入库）→ Retrieval（查询嵌入→向量搜索→Top-K 召回）→ Generation（拼装
+    Prompt: Query + Context → LLM 生成）'
+  - '**关键性质**'
+  - '- **模块化解耦**：检索器可替换（BM25/稠密/混合）、生成器可替换、索引策略可迭代，互不影响模型权重'
+  - '- **可溯源**：生成答案可附带引用文档 chunk，便于人工核验与可信度建立'
+  - '- **知识更新零成本**：仅需更新向量库，无需重新训练模型'
+  - '**典型例子**'
+  - '- 企业内部文档问答：上传 PDF/Confluence/Wiki，员工自然语言提问即得带引用答案'
+  - '- 代码库助手：索引代码库，查询“如何调用支付接口”返回相关函数签名与调用示例'
+  - '**边界条件**'
+  - '- **召回瓶颈**：Top-K 遗漏关键证据 → 生成必然幻觉（Garbage In, Garbage Out）'
+  - '- **上下文窗口限制**：长文档需分块，易破坏跨段落语义连贯；大量检索结果挤占窗口导致指令遵循下降'
+  - '- **隐性知识难检索**：向量检索擅长语义匹配，对精确 ID、数值计算、多跳逻辑推理支持弱'
+  sources:
+  - paper: 20230418_027.md
+    role: origin
+  - paper: 20230418_028.md
+    role: improve
+  excerpts:
+  - Naive RAG 痛点：分块策略固定、单一向量检索、无重排序、无查询重写，导致“召回率低、噪声高、生成不可控”
+  - Advanced RAG 核心增强：查询重写、混合检索、重排序、压缩上下文、递归检索
+  - Modular RAG 标准组件接口：DocumentLoader、TextSplitter、EmbeddingModel、VectorStore、Retriever、Reranker、Generator、Evaluator
+- 'no': 3
+  name: 程序辅助推理（PAL） —— 用代码执行保障逻辑与计算精度
+  points:
+  - '**为什么需要这个概念？**'
+  - '- LLM 天生擅长模式匹配，但不擅长精确算术、符号推理、复杂逻辑验证（属于“系统1”直觉而非“系统2”计算）'
+  - '- CoT 让模型用自然语言推理数学题，极易在中间步骤算错数、漏步骤、逻辑跳跃'
+  - '- 将推理过程转化为可执行代码（Python），交由确定性的解释器执行，实现“推理与计算分离”'
+  - '**核心定义**'
+  - '- PAL (Program-aided Language Models)：Prompt 引导 LLM 生成 **程序代码** 而非自然语言推理链，代码执行结果作为最终答案或中间变量再喂回模型'
+  - '- 典型模版：`Question -> [LLM] -> Python Code -> [Interpreter] -> Result -> [LLM]
+    -> Final Answer`'
+  - '**关键性质**'
+  - '- **计算精度 100% 保障**：四则运算、大数、矩阵、符号求导全靠 Python 解释器，模型只负责“写对逻辑”'
+  - '- **逻辑结构显性化**：循环、分支、函数调用、数据结构（列表/字典/集合）天然表达复杂控制流'
+  - '- **可验证/可调试**：生成的代码可静态分析、单元测试、人工审阅，比自然语言推理链更透明'
+  - '**典型例子**'
+  - '- **GSM8K 数学应用题**：PAL (Codex) 准确率 78.8% vs CoT (Codex) 61.2%，尤其在多步计算题优势巨大'
+  - '- **符号推理/表格问答**：生成 Pandas 操作代码处理 CSV，生成 SQL 查询数据库，生成算法代码解决组合优化'
+  - '**边界条件**'
+  - '- 要求模型具备较强**代码生成能力**（需在代码语料上预训练/微调），小模型难以写出可运行代码'
+  - '- **沙箱安全风险**：执行模型生成的任意代码需严格隔离（容器、无网络、资源限额、禁用危险库）'
+  - '- **非算法型任务无优势**：开放域问答、创意写作、常识推理等无法自然转为代码的场景，PAL 不适用'
+  sources:
+  - paper: 20230418_029.md
+    role: origin
+  - paper: 20230418_030.md
+    role: improve
+  excerpts:
+  - PAL 核心假设：LLM 作为程序合成器，Interpreter 作为执行引擎，二者分工明确
+  - 对比 PoT (Program of Thoughts)：PoT 强调生成的程序可直接运行得出答案；PAL 更强调代码作为中间推理载体，可与自然语言混合交互
+  - 实验数据：在 SVAMP 数据集上，PAL 比 CoT 提升 15%+；在需要大数阶乘的任务上，CoT 几乎全错，PAL 全对
+- 'no': 4
+  name: ReAct 与工具调用 —— 推理与行动的闭环
+  points:
+  - '**为什么需要这个概念？**'
+  - '- 纯推理（CoT）只能在“脑内”思考，无法获取实时信息（天气、股价、API 数据）、无法执行副作用操作（发邮件、下单、写数据库）'
+  - '- 纯工具调用（Function Calling）缺乏规划能力，面对复杂多步任务不知如何拆解、串联、异常重试'
+  - '- 需要 **Reasoning + Acting 交织循环**：思考→行动→观察→再思考，形成闭环，实现自主任务完成'
+  - '**核心定义**'
+  - '- **ReAct (Reasoning + Acting)**：Prompt 结构包含 `Thought`（推理）、`Action`（工具调用名+参数）、`Observation`（工具返回），循环直到
+    `Finish`'
+  - '- **Function Calling / Tool Use** 模型原生支持：输出结构化 JSON `{name, arguments}` 而非文本模版，由客户端解析执行并返回结果'
+  - '**关键性质**'
+  - '- **交互式信息获取**：推理过程中动态决定“需不需要搜索/查 API”，解决知识截止与幻觉'
+  - '- **外部环境反馈纠偏**：工具报错、返回异常可作为 Observation 触发模型修正 Action 或重新规划'
+  - '- **工程化标准化**：OpenAI Function Calling、Anthropic Tool Use、MCP (Model Context Protocol)
+    统一了工具定义、调用、返回的协议契约'
+  - '**典型例子**'
+  - '- **旅行规划 Agent**：查航班→查酒店→查天气→算预算→订票，全程自主决策工具调用顺序与参数'
+  - '- **数据分析 Agent**：读 CSV→写 Python 清洗→跑统计→画图→写报告，代码执行环境作为核心工具'
+  - '**边界条件**'
+  - '- **循环失控风险**：模型陷入 Thought-Action 死循环、反复调用同一工具、幻觉出不存在工具，需设置最大步数、去重机制、工具白名单'
+  - '- **上下文膨胀**：多轮交互累积大量 Observation，挤占窗口，需摘要压缩或滑动窗口管理'
+  - '- **工具描述质量决定上限**：Function Schema 的 description 模糊会导致模型参数填错、选错工具，需像写 API 文档一样精心维护'
+  sources:
+  - paper: 20230418_031.md
+    role: origin
+  - paper: 20230418_032.md
+    role: improve
+  excerpts:
+  - "ReAct 循环伪代码：\nwhile not done:\n  thought = llm(prompt + history)\n  action =\
+    \ parse(thought)\n  if action.name == 'Finish': break\n  obs = tool_registry.exec(action)\n\
+    \  history += f'Thought: {thought}\\nAction: {action}\\nObservation: {obs}'"
+  - Function Calling 原生优势：绕过文本解析不稳定，强制 JSON Schema 约束参数类型，支持并行多工具调用
+  - MCP (Model Context Protocol)：定义标准化的 `tools/list`、`tools/call`、`resources/read`
+    等 JSON-RPC 接口，实现工具跨框架、跨语言、跨进程复用
