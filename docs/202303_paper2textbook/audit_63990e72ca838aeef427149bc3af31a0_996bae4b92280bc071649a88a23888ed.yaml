@@ -1,0 +1,69 @@
+citation_stats:
+- paper: P006
+  count: 17
+  locations:
+  - ch55.1
+  - ch55.2
+  - ch55.3
+  - ch55.4
+  - ch55.5
+  - ch55.6
+  - ch55.7
+  - ch55.8
+  - ch55.9
+  - 55.1 生活类比
+  - 55.2 概念地图
+  - 55.3 股权分配的动态公平性
+  - 55.4 顾问记账法
+  - 55.5 非核心人力市场价锚定
+  - 55.6 咨询即尽调、投资即落地
+  - 55.7 设计中的取舍
+  - 55.8 动手练习
+  - 55.9 本章小结
+unsupported_claims:
+- location: ch55.3
+  claim: 参考《Venture Deals》（Brad Feld）与 Y Combinator 标准模板
+  reason: 素材中未找到支撑
+- location: ch55.3
+  claim: 参考清科研究中心《中国创投法律实务白皮书》
+  reason: 素材中未找到支撑
+- location: ch55.3
+  claim: 参考《Founder's Dilemmas》Noam Wasserman 期权池规模与融资稀释博弈数学模型原文页码
+  reason: 素材中未找到支撑
+- location: ch55.4
+  claim: '参考 Bain & Company 官方文献、HBS 案例《Bain Capital: The Consulting-Investment Model》、Mike
+    Moritz/Sequoia Operating Partner 演讲实录'
+  reason: 素材中未找到支撑
+- location: ch55.5
+  claim: 参考最高院《关于审理劳动争议案件适用法律若干问题的解释》具体法条编号、典型判例裁判文书检索号、行业协会指导价发布渠道
+  reason: 素材中未找到支撑
+- location: ch55.7
+  claim: 参考财税〔2016〕36号、财税〔2015〕119号、债转股税务优化实操案例、个税性质认定最新判例、大型律所税务专题方案模版
+  reason: 素材中未找到支撑
+- location: ch55.6
+  claim: 信息论建模公式 ΔPrediction Error = H(Y|X_ext) - H(Y|X_int) = I(Y; X_int \ X_ext)
+    的具体推导与应用
+  reason: 素材中未找到支撑，属于教程新增内容
+- location: ch55.4
+  claim: 顾问记账法期权定价模型中隐含波动率 σ_impl = g(业务模型参数稳定性, 客户留存率方差, 单位经济模型收敛度) 的量化逻辑
+  reason: 素材中未找到支撑，属于教程新增内容
+missing_concepts:
+- paper: P006
+  concept: 《Venture Deals》（Brad Feld）书籍内容与 Y Combinator 标准模板细节
+  severity: high
+- paper: P006
+  concept: 清科研究中心《中国创投法律实务白皮书》动态股权协议条款范本细节
+  severity: high
+- paper: P006
+  concept: 《Founder's Dilemmas》Noam Wasserman 期权池规模与融资稀释博弈数学模型
+  severity: medium
+- paper: P006
+  concept: 'Bain & Company 官方历史文献与 HBS 案例《Bain Capital: The Consulting-Investment
+    Model》详细内容'
+  severity: high
+- paper: P006
+  concept: 最高院《关于审理劳动争议案件适用法律若干问题的解释》相关法条与典型判例
+  severity: medium
+- paper: P006
+  concept: 财税〔2016〕36号、财税〔2015〕119号等税务文件与债转股实操案例
+  severity: high
