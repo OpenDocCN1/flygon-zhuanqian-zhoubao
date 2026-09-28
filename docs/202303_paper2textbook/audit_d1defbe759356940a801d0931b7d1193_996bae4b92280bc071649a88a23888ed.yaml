@@ -1,0 +1,145 @@
+citation_stats:
+- paper: P001
+  count: 6
+  locations:
+  - '73.3'
+  - '73.14'
+  - '73.2'
+  - '73.9'
+  - '73.10'
+  - '73.1'
+- paper: P002
+  count: 4
+  locations:
+  - '73.4'
+  - '73.12'
+  - '73.5'
+  - '73.1'
+- paper: P003
+  count: 3
+  locations:
+  - '73.5'
+  - '73.1'
+  - '73.2'
+- paper: P004
+  count: 2
+  locations:
+  - '73.6'
+  - '73.9'
+- paper: P005
+  count: 4
+  locations:
+  - '73.7'
+  - '73.2'
+  - '73.12'
+  - '73.1'
+- paper: P006
+  count: 2
+  locations:
+  - '73.8'
+  - '73.1'
+- paper: P007
+  count: 3
+  locations:
+  - '73.9'
+  - '73.1'
+  - '73.2'
+- paper: P008
+  count: 3
+  locations:
+  - '73.10'
+  - '73.1'
+  - '73.9'
+- paper: P009
+  count: 3
+  locations:
+  - '73.11'
+  - '73.1'
+  - '73.5'
+- paper: P010
+  count: 3
+  locations:
+  - '73.12'
+  - '73.2'
+  - '73.1'
+- paper: P011
+  count: 2
+  locations:
+  - '73.13'
+  - '73.1'
+- paper: P012
+  count: 1
+  locations:
+  - '73.14'
+- paper: P013
+  count: 1
+  locations:
+  - '73.14'
+unsupported_claims:
+- location: '73.4'
+  claim: 半个月集中攻坚、单人日产200条等具体工程化指标
+  reason: 素材中未找到支撑，仅在教程中提到
+- location: '73.5'
+  claim: 面试小tips:原公司里做过什么有成就感的事情？平时喜欢干什么事？
+  reason: 素材中未找到支撑，仅在教程中提到
+- location: '73.6'
+  claim: 用户分层:A类亲服/B类标准化/C类自动化
+  reason: 素材中未找到支撑，仅在教程中提到
+- location: '73.7'
+  claim: 季度迭代机制
+  reason: 素材中未找到支撑，仅在教程中提到
+- location: '73.9'
+  claim: 首单回本ROI测算(假设钩子成交利润50元，留资成本?，私域转化率?，后端成交率?)
+  reason: 素材中未找到支撑，仅在教程中提到
+- location: '73.11'
+  claim: 发红包≥200、付最高价不讨价还价等具体战术标准
+  reason: 素材中未找到支撑，仅在教程中提到
+- location: '73.12'
+  claim: 70分合格制贯穿始终
+  reason: 素材中未找到支撑，仅在教程中提到
+- location: '73.13'
+  claim: 浅色喵、王永超等多位圈友的逆袭数据做实证支撑
+  reason: 素材中未找到支撑，仅在SUMMARY.md中提到
+- location: '73.14'
+  claim: 前端卖日历筛人群，后端卖咨询赚利润
+  reason: 素材中未找到支撑，仅在教程中提到
+missing_concepts:
+- paper: P001
+  concept: 虚拟服务实体化/电商化思维的具体操作步骤与SKU设计
+  severity: high
+- paper: P002
+  concept: 喂料式培训的具体节奏、分模块推送机制与考核标准
+  severity: high
+- paper: P003
+  concept: STAR深挖的具体追问话术库与造假信号识别清单
+  severity: high
+- paper: P004
+  concept: KYC面谈的标准化提问清单（至少10问）与诊断报告模版
+  severity: high
+- paper: P005
+  concept: 内容库版本管理、废弃标准与季度迭代的具体执行SOP
+  severity: high
+- paper: P006
+  concept: 管理者主动沟通的具体频次、形式与压缩偏差的量化指标
+  severity: medium
+- paper: P007
+  concept: 刚需钩子选品的电商化选品逻辑与ROI测算模型
+  severity: high
+- paper: P008
+  concept: 连麦合伙人名单建立、常态化排期与双赢话术设计模版
+  severity: medium
+- paper: P009
+  concept: 高手真实性验证清单（实战结果/公开输出/圈层口碑）
+  severity: high
+- paper: P010
+  concept: 标准化建设期（1-3个月）现金流为负时的资金储备测算
+  severity: high
+- paper: P011
+  concept: 认知跃迁后内化为自主决策模型的具体路径与里程碑
+  severity: high
+- paper: P012
+  concept: 实体商品交付履约（物流/售后/库存）引入的电商运营成本测算
+  severity: medium
+- paper: P013
+  concept: 内容库预制体系中创始人‘内容架构师’角色的具体职责边界
+  severity: medium
