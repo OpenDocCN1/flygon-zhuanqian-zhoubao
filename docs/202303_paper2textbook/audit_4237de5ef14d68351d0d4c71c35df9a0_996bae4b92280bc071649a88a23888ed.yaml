@@ -1,0 +1,108 @@
+citation_stats:
+- paper: P001
+  count: 85
+  locations:
+  - ch75.1
+  - ch75.2
+  - ch75.3
+  - ch75.4
+  - ch75.5
+  - ch75.6
+  - ch75.7
+  - ch75.8
+  - ch75.9
+  - ch75.10
+  - ch75.11
+  - ch75.12
+- paper: P002
+  count: 3
+  locations:
+  - ch75.2
+  - ch75.4
+  - ch75.12
+- paper: P003
+  count: 2
+  locations:
+  - ch75.2
+  - ch75.5
+  - ch75.12
+- paper: P004
+  count: 2
+  locations:
+  - ch75.2
+  - ch75.6
+  - ch75.12
+- paper: P005
+  count: 2
+  locations:
+  - ch75.2
+  - ch75.7
+  - ch75.12
+- paper: P006
+  count: 3
+  locations:
+  - ch75.2
+  - ch75.8
+  - ch75.12
+unsupported_claims:
+- location: ch75.2
+  claim: 镜像复盘法/向万物学习 —— P002
+  reason: 素材中未找到独立文件 P002，仅在 P001 中有相关内容
+- location: ch75.2
+  claim: 场域能量调频法 —— P003
+  reason: 素材中未找到独立文件 P003，仅在 P001 中有相关内容
+- location: ch75.2
+  claim: 成为管道 —— P004
+  reason: 素材中未找到独立文件 P004，仅在 P001 中有相关内容
+- location: ch75.2
+  claim: 真诚与示弱是最高频连接器 —— P005
+  reason: 素材中未找到独立文件 P005，仅在 P001 中有相关内容
+- location: ch75.2
+  claim: 使命吸引同频/心诚者灵 —— P006
+  reason: 素材中未找到独立文件 P006，仅在 P001 中有相关内容
+- location: ch75.2
+  claim: 玛雅流日/Kin55 锚定实践 —— P001
+  reason: 素材 P001 中未明确提及玛雅流日/Kin55 的具体实践方法，仅在作者落款中出现
+- location: ch75.3
+  claim: 服务用户要向家人一样对待
+  reason: 素材 P001 中仅提到雅芳说过此话，未展开具体操作方法
+- location: ch75.5
+  claim: 公式实操判读指南：五个维度缺一不可
+  reason: 素材 P001 中未提供五维缺一不可的实证数据，仅为作者理论推演
+- location: ch75.6
+  claim: 三脑协同机制深度解析：左脑/右脑/中脑分工
+  reason: 素材 P001 中未提供神经科学依据，仅为作者基于实践的理论建构
+- location: ch75.7
+  claim: 连接频率公式：连接深度 ∝ (真诚度 × 示弱度) / 防御度
+  reason: 素材 P001 中未提供量化验证数据，仅为作者概念模型
+- location: ch75.8
+  claim: 吸引力场强度公式：使命清晰度 × 行动力度 × 利他纯度
+  reason: 素材 P001 中未提供实证数据验证乘法模型，仅为作者理论构建
+- location: ch75.8
+  claim: 种子期延迟 3-7 天至数月
+  reason: 素材 P001 中仅作者一例，未提供群体统计数据支撑
+missing_concepts:
+- paper: P001
+  concept: 镜像复盘法的标准化操作模板与通用化边界条件
+  severity: high
+- paper: P001
+  concept: 场域能量调频的量化测量指标（如 HRV、EEG、语言情感分析）
+  severity: high
+- paper: P001
+  concept: 使命吸引同频在不同样本群体中的纵向追踪数据与统计模型
+  severity: high
+- paper: P001
+  concept: 玛雅流日/Kin55 等灵性工具的跨文化对比研究与有效性验证
+  severity: medium
+- paper: P001
+  concept: 三脑协同的神经科学机制实证（DMN、镜像神经元、前额叶-杏仁核回路）
+  severity: high
+- paper: P001
+  concept: 真诚示弱在恶性环境（嘲讽/利用）中的止损边界量化标准
+  severity: medium
+- paper: P001
+  concept: 成为管道五步法的前置能力评估体系（识别初学者与进阶者分水岭）
+  severity: high
+- paper: P001
+  concept: 组局即修行在大型大会/强制性会议场景的适用性边界验证
+  severity: medium
