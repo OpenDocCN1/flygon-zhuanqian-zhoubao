@@ -1,0 +1,147 @@
+citation_stats:
+- paper: SUMMARY.md
+  count: 17
+  locations:
+  - '84.3'
+  - '84.4'
+  - '84.5'
+  - '84.6'
+  - '84.7'
+  - '84.11'
+  - '84.12'
+- paper: 20230328_008.md
+  count: 3
+  locations:
+  - '84.3'
+  - 84.9.1
+- paper: 20230328_012.md
+  count: 5
+  locations:
+  - '84.3'
+  - '84.4'
+  - '84.5'
+  - 84.9.1
+- paper: 20230328_162.md
+  count: 3
+  locations:
+  - '84.3'
+  - '84.4'
+  - 84.9.1
+- paper: 20230328_113.md
+  count: 2
+  locations:
+  - '84.5'
+  - 84.11.2
+- paper: TZZwdy53eofCYQxu2xucdoV1nod.md
+  count: 3
+  locations:
+  - '84.4'
+  - 84.11.1
+  - 84.11.4
+- paper: RebJdOMkCo0VY4x24IYcgjxpnue.md
+  count: 4
+  locations:
+  - '84.4'
+  - 84.11.3
+  - 84.11.6
+- paper: 20230328_010.md
+  count: 3
+  locations:
+  - '84.5'
+  - '84.10'
+- paper: 20230328_011.md
+  count: 2
+  locations:
+  - '84.6'
+  - 84.9.2
+- paper: 20230328_036.md
+  count: 3
+  locations:
+  - '84.6'
+  - 84.9.2
+  - '84.10'
+- paper: NQrwdjKZ4oOEFpxGD1Hcjc9wnwf.md
+  count: 2
+  locations:
+  - '84.6'
+  - 84.9.2
+- paper: 20230328_107.md
+  count: 2
+  locations:
+  - 84.7.4
+- paper: doxcnXIOtkZmPJLb1izKrreOuMg.md
+  count: 2
+  locations:
+  - 84.7.4
+- paper: SUMMARY/F001
+  count: 1
+  locations:
+  - '84.6'
+- paper: SUMMARY/F002
+  count: 1
+  locations:
+  - 84.7.2
+- paper: SUMMARY/F003
+  count: 1
+  locations:
+  - 84.7.4
+- paper: SUMMARY/F004
+  count: 1
+  locations:
+  - 84.7.5
+- paper: SUMMARY/F005
+  count: 1
+  locations:
+  - '84.7'
+- paper: SUMMARY/P001
+  count: 1
+  locations:
+  - '84.2'
+- paper: SUMMARY/P002
+  count: 1
+  locations:
+  - '84.2'
+- paper: SUMMARY/P003
+  count: 1
+  locations:
+  - '84.2'
+- paper: SUMMARY/P004
+  count: 1
+  locations:
+  - '84.2'
+- paper: SUMMARY/P005
+  count: 1
+  locations:
+  - '84.2'
+unsupported_claims:
+- location: 84.7.4
+  claim: 影刀 RPA / 按键精灵 / UiBot / 指纹浏览器（AdsPower/Hubstudio）模拟人工操作
+  reason: 素材中仅提及影刀RPA、按键精灵、UiBot、AdsPower、Hubstudio为常用工具，未明确列出所有工具均具备'模拟人工操作'功能，部分工具可能侧重其他自动化能力
+- location: 84.8.1
+  claim: 视频笔记批量混剪：至尊宝采集素材 → 醒图二创 → 剪映/模板套用 → 单账号高频发布规避重复判定
+  reason: 素材JJQ0dfe6ho2qh7xalBXc3AG6nAb.md中未提及'至尊宝'采集工具、'醒图'二创工具及'规避重复判定'的具体操作细节，仅泛泛提及视频笔记批量混剪
+- location: 84.8.2
+  claim: 团队 40+ 店铺、120+ 账号、月销 200万+
+  reason: 素材LXNmdLtO6oOP3dx7l9GcsVfPnSb.md中仅提及'目前店铺 40+，账号 120+'，未包含'月销 200万+'的具体数据验证
+missing_concepts:
+- paper: 20230328_012.md
+  concept: 陪诊师成长三阶段：卖体力→卖专业/流量→卖资源/渠道（绿通、院内制剂、海外就医）
+  severity: high
+- paper: 20230328_156.md
+  concept: 同城水果团购'源头现采模式'：用户昨天下单，今天采集最新鲜货当天发出，解决信任与品质痛点
+  severity: high
+- paper: 20230328_086.md
+  concept: 闲鱼卖书'笨功夫'核心：人工精选图片、手动上架、人工养号，真实感与从众心理驱动转化
+  severity: medium
+- paper: 20230328_147.md
+  concept: 付费学习需'空杯心态 + 100% 照单全收落地'，否则易陷'买了等于会了'假努力
+  severity: high
+- paper: 20230328_162.md
+  concept: 认知升级必经痛苦期：认知冲突 → 信任危机 → 迷茫试错 → 逃避退出 → 焦虑回流
+  severity: high
+- paper: ZvLLdhX11oD4Lyxby36ct8GfnXe.md
+  concept: 孕晚期准妈妈视频号引流私域实操：对标账号拆解、内容预录制、评论区互动引导、私信话术+二维码转化
+  severity: medium
+- paper: ScDWdhjkHolKzAxyHpjclEDsnMg.md
+  concept: 陪诊行业13种变现方式：自跑单、试管陪诊、派单分成、代购院内制剂、教学招生、加盟商、就医绿通、代约疫苗/减肥药、药品器械进驻、私立医院引流、海外就医、基因检测、帮挂号
+  severity: high

@@ -1,0 +1,57 @@
+citation_stats:
+- paper: P001
+  count: 212
+  locations:
+  - '86.1'
+  - '86.2'
+  - '86.3'
+  - '86.4'
+  - '86.5'
+  - '86.6'
+  - '86.7'
+  - '86.8'
+  - '86.9'
+  - '86.10'
+  - '86.11'
+  - '86.12'
+- paper: P002
+  count: 1
+  locations:
+  - '86.8'
+- paper: P003
+  count: 1
+  locations:
+  - '86.8'
+unsupported_claims:
+- location: '86.3'
+  claim: 普通人低门槛创富公式：创富结果 = (风向标洞察 + 组合创新MVP) × (批量执行/工具杠杆) × (私域沉淀/品牌复利) × 时间
+  reason: 素材中未找到该公式的完整定义与推导过程，仅在SUMMARY.md中提及该公式概念，但未给出具体数学表达式与变量定义
+- location: '86.4'
+  claim: AI辅助MVP三步法：构思-落地-验证
+  reason: 素材中虽提及AI辅助MVP三步法，但未详细展开三步法的具体操作细节与工具链，仅在SUMMARY.md中概括性提及
+- location: '86.7'
+  claim: RPA+AI自动化生产线三层架构：手脚-大脑-接口
+  reason: 素材中虽有RPA+AI自动化相关内容，但三层架构的详细工程实现细节（如影刀RPA/按键精灵/UiBot Creator可视化流程编排、达芬奇/剪映/影刀RPA视频节点、ChatGPT
+    API/提示词工程等）在SUMMARY.md中仅以列表形式罗列，缺乏系统性架构设计说明
+missing_concepts:
+- paper: P001
+  concept: 风向标四步标准化流程的具体执行细节（如监控频次设置、商业模式要素解构模板、微创新测试方法论）
+  severity: high
+- paper: P001
+  concept: 组合创新中'成熟模块'的判定标准与评估体系（工具成熟度/平台成熟度/模式成熟度的量化指标）
+  severity: high
+- paper: P001
+  concept: MVP验证中'真金白银测试'的具体操作规范（如小额投流金额阈值、转化率基准线、复购周期定义）
+  severity: high
+- paper: P001
+  concept: 跨平台运营中'平台共生论'的实操方法论（如如何帮平台商业变现、新功能测试SOP、算法红利捕获策略）
+  severity: medium
+- paper: P001
+  concept: 私域运营中'去IP依赖化'的内容库预制标准（FAQ/话术/案例库的结构化模板与质量分级体系）
+  severity: high
+- paper: P001
+  concept: RPA落地环境一致性检查清单（浏览器缩放/分辨率/文件路径/紫鸟浏览器兼容性等环境变量的标准化配置规范）
+  severity: high
+- paper: P001
+  concept: 周报素材库本地化归档的技术实施方案（语雀导出工具选型/五级目录落盘规范/元数据JSON字段定义/校验脚本编写指南）
+  severity: high
