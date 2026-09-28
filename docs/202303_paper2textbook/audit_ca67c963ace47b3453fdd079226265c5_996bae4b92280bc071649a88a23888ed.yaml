@@ -1,0 +1,60 @@
+citation_stats:
+- paper: P001
+  count: 12
+  locations:
+  - '54.3'
+  - '54.4'
+  - '54.12'
+- paper: P002
+  count: 4
+  locations:
+  - '54.4'
+  - '54.12'
+- paper: P003
+  count: 61
+  locations:
+  - '54.5'
+  - '54.6'
+  - '54.7'
+  - '54.8'
+  - '54.9'
+  - '54.10'
+  - '54.11'
+  - '54.12'
+- paper: P004
+  count: 8
+  locations:
+  - '54.6'
+  - '54.7'
+- paper: P005
+  count: 5
+  locations:
+  - '54.7'
+- paper: P006
+  count: 4
+  locations:
+  - '54.8'
+- paper: P007
+  count: 5
+  locations:
+  - '54.9'
+unsupported_claims:
+- location: '54.8'
+  claim: 小红书平台目前还没有上去重算法，窗口期可能只有半年
+  reason: 素材宣称的时效性判断（约2023年初视角），实际算法上线时间需以平台官方公告或第三方权威测评报告为准。
+missing_concepts:
+- paper: P003
+  concept: 商业设计特训营的具体招生/课程细节（如价格、周期、交付形式）
+  severity: medium
+- paper: P003
+  concept: 组织能力溢出公式中'迁移能力'与'需求溢出'的量化评估标准/工具
+  severity: high
+- paper: P003
+  concept: 第二曲线'三硬指标'中'营销驱动'的具体判定标准与案例
+  severity: medium
+- paper: P007
+  concept: 用户洞察中'信腿不信嘴'的具体数据采集与分析工具/方法论
+  severity: medium
+- paper: P007
+  concept: 产品效果外化'高认知/反常识/可量化'的标准化测试模板与验证流程
+  severity: high
