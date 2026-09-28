@@ -1,0 +1,201 @@
+units:
+- 'no': 1
+  name: 跨端技术谱系图 —— WebView、JS Bridge、原生渲染与 AOT 编译的四大范式对决
+  points:
+  - '**为什么需要这个概念？**'
+  - '- 移动端开发面临 iOS/Android 双平台维护成本高、Web 技术栈复用难、性能与体验难以平衡的核心矛盾'
+  - '- 理解不同跨端方案的底层架构差异（渲染层、通信层、执行层），是技术选型避坑的前提'
+  - '- 避免盲目跟风选型，建立基于业务形态、团队技术栈、性能要求的理性决策框架'
+  - '**核心定义**'
+  - '- 跨端技术谱系按“渲染引擎归属”与“通信机制”可划分为四大架构范式：'
+  - '  1. Hybrid/WebView 容器：UI 由 WebView 渲染，通过 JS Bridge 与 Native 通信（如 Cordova、早期微信小程序基座）'
+  - '  2. 小程序/双线程模型：逻辑层（JS 核心）与视图层（WebView/Native）分离，通过数据绑定与事件通信驱动（如微信小程序、Uni-app
+    编译输出）'
+  - '  3. 原生渲染/JS 运行时：JS 线程驱动 Native 布局引擎渲染，通过 Bridge/JSI 通信（如 React Native 旧/新架构、Weex）'
+  - '  4. AOT 编译/自绘引擎：Dart 代码 AOT 编译为机器码，Skia/Impeller 直接绘制像素，无 JS 运行时（如 Flutter、Kotlin
+    Multiplatform Compose）'
+  - '**关键性质**'
+  - '- 渲染性能阶梯：AOT 自绘 (Flutter) ≈ 原生 > 原生渲染 (RN 新架构) > 小程序/双线程 > Hybrid/WebView'
+  - '- 开发体验与生态：Web 技术栈复用度 Hybrid > 小程序 ≈ RN > Flutter (需学 Dart) > KMP'
+  - '- 平台一致性：Flutter/KMP (像素级一致) > RN (依赖平台原生组件差异) > 小程序 (受宿主环境限制大) > Hybrid (受 WebView
+    内核版本碎片化影响)'
+  - '- 与原生互操作成本：KMP (原生互操作零成本) > RN (JSI/TurboModules 低开销) > 小程序 (受限于 Bridge/基础库能力)
+    > Hybrid (Bridge 延迟高、易阻塞)'
+  - '**典型例子**'
+  - '- 电商大促会场页：高频变动、弱交互、强跨平台一致性要求 → 选 Hybrid/小程序/Uni-app'
+  - '- 核心交易链路/IM/直播：高性能、强交互、复杂动画、深度原生能力依赖 → 选 RN 新架构/Flutter/KMP/原生'
+  - '- 企业内部管理后台/工具类应用：开发效率优先、UI 标准化、团队仅 Web 技术栈 → 选 Uni-app/Taro/小程序'
+  - '- 跨平台组件库建设：需同时产出 Web/H5/小程序/APP 组件 → 选 Uni-app/Taro 编译时多端统一'
+  - '**边界条件**'
+  - '- 纯 WebView 方案无法胜任高帧率动画、复杂手势、后台长任务等场景'
+  - '- 小程序受限于包体积限制（主包 2M）、基础库版本碎片化、无法使用完整 DOM/BOM API'
+  - '- React Native 旧架构 Bridge 通信异步导致掉帧，新架构 Fabric/JSI 迁移成本高、生态包兼容性风险大'
+  - '- Flutter 体积基线大（Hello World ~5-10MB）、Dart 语言学习曲线、三方原生 SDK 接入需编写 Platform Channel
+    胶水代码'
+  - '- Kotlin Multiplatform 仅共享业务逻辑/UI 需 Compose Multiplatform 成熟度尚在演进中、iOS 侧为 Kotlin/Native
+    非 JVM 生态'
+  sources:
+  - paper: AgWGdAk0fogwx2xtpo2cg3TCncb.md
+    role: origin
+  excerpts:
+  - 跨端技术谱系图：WebView 容器、JS Bridge、原生渲染、AOT 编译四大架构范式对比
+  - 梳理 Hybrid（WebView+Bridge）、小程序（双线程/虚拟 DOM）、React Native（JS 线程+Fabric）、Flutter（自绘引擎）、Kotlin
+    Multiplatform 核心差异。
+- 'no': 2
+  name: React Native 新架构 —— Fabric 同步渲染、TurboModules 惰性加载与 Hermes 引擎的“铁三角”
+  points:
+  - '**为什么需要这个概念？**'
+  - '- 旧架构异步 Bridge 导致：布局计算延迟、掉帧、Shadow Tree 与 Main Thread 同步复杂、启动性能受限于 JS Bundle
+    解析'
+  - '- 急需解决：同步渲染能力、模块按需初始化、类型安全跨语言调用、启动速度优化四大工程痛点'
+  - '**核心定义**'
+  - '- RN 新架构三大支柱：'
+  - '  1. Fabric（同步渲染系统）：基于 JSI 的 C++ 核心，统一渲染器，支持同步/异步/并发渲染模式，Shadow Tree 直接在 C++
+    构建并提交给主线程'
+  - '  2. TurboModules（新一代 Native 模块系统）：基于 JSI，支持惰性加载、同步方法调用、Host Object 直接暴露 Native
+    对象、Codegen 自动生成类型安全桥接代码'
+  - '  3. Hermes（字节码预编译 JS 引擎）：AOT 编译生成字节码，减少启动时解析/编译开销，支持 mmap 映射内存、GC 优化、体积更小'
+  - '- JSI (JavaScript Interface)：替代 Bridge 的底层通信层，C++ 宿主直接持有 JS 对象引用，实现同步、双向、类型安全的跨语言调用'
+  - '**关键性质**'
+  - '- 同步渲染：measure/layout 可同步返回，解决旧架构测量回调地狱，支持 React 18 并发特性'
+  - '- 惰性加载：TurboModule 首次调用时才创建 Native 实例，显著降低启动期内存与 CPU 消耗'
+  - '- 类型安全：Codegen 从 JS/Flow/TS 定义自动生成 C++/Objective-C/Java/Kotlin 存根，编译期捕获接口不匹配'
+  - '- 共享 C++ 核心：Fabric 核心逻辑跨平台复用，减少平台差异 Bug，统一行为'
+  - '**典型例子**'
+  - '- 复杂列表滚动中插入/删除 Item：Fabric 同步布局避免视觉跳动'
+  - '- 启动页加载大量 Native 模块（蓝牙、地图、支付）：TurboModules 惰性加载仅初始化必要模块，冷启动提速 30%+'
+  - '- 图片编辑器大量 JS-Native 交互：JSI 直接传递 TypedArray/HostObject，避免 JSON 序列化开销'
+  - '**边界条件**'
+  - '- 迁移成本高：需适配 Codegen、迁移所有 Native Module 到 TurboModule、第三方库兼容性风险'
+  - '- Hermes 与 V8/JSC 差异：部分非标准 JS 特性、Date/RegExp 行为细微不同、调试工具链生态差异'
+  - '- Fabric 并发渲染对纯 Native View 嵌套支持仍有限制、纹理/Surface 同步复杂度高'
+  - '- Android 需启用 NDK 构建、iOS 需 C++17 支持，旧设备兼容性需测试'
+  sources:
+  - paper: AgWGdAk0fogwx2xtpo2cg3TCncb.md
+    role: origin
+  excerpts:
+  - React Native 新架构深度：Fabric 同步渲染、TurboModules 惰性加载、Codegen 类型安全与 Hermes 引擎
+  - 剖析 JSI 层打通 JS 与原生同步调用、Fabric 统一渲染器、TurboModule 按需初始化、Hermes 字节码预编译启动加速。
+- 'no': 3
+  name: Flutter 渲染管线 —— Widget/Element/RenderObject 三棵树与 Skia/Impeller GPU 绘制
+  points:
+  - '**为什么需要这个概念？**'
+  - '- 理解 Flutter “一切皆 Widget” 的运行时真相：Widget 只是配置描述（不可变），真正干活的是 Element 与 RenderObject'
+  - '- 掌握三棵树协作机制，是性能调优（避免重建、RepaintBoundary）、调试布局溢出、实现自定义渲染的前提'
+  - '- 搞清 Skia 与 Impeller 的差异，应对首帧渲染抖动、着色器编译卡顿等工程难题'
+  - '**核心定义**'
+  - '- 三棵树职责：'
+  - '  1. Widget Tree（配置树）：不可变、轻量、描述 UI 配置（Blueprint），频繁销毁重建'
+  - '  2. Element Tree（实例树）：Widget 的运行时实例，持有 State、BuildContext、子 Element 引用，负责 Diff
+    复用、生命周期管理、调度 Rebuild'
+  - '  3. RenderObject Tree（渲染/布局/绘制树）：真正执行布局、绘制、命中测试、语义化的对象，稀疏树（仅渲染相关 Widget 生成）'
+  - '- 渲染管线流程：Build（Widget->Element->RenderObject） -> Layout（约束下传、尺寸上报） -> Paint（录制
+    Picture/DisplayList） -> Composite（Engine/Embedder 合成提交 GPU） -> Rasterize（Skia/Impeller
+    光栅化）'
+  - '- Impeller：Flutter 3.10+ 默认启用的新渲染后端，AOT 编译着色器、显式管线状态对象、利用 Metal/Vulkan 现代 GPU
+    API，解决 Skia 运行时编译 Shader 导致的首帧抖动'
+  - '**关键性质**'
+  - '- Widget 不可变 + Element 复用 = 高效 Diff：同类型、同 Key 的 Widget 复用 Element 与 RenderObject，仅更新配置'
+  - '- 布局单次遍历：约束下传、尺寸上报，O(N) 复杂度，无多次测量'
+  - '- 分层合成：RepaintBoundary/Opacity/Transform 创建独立 Layer，局部重绘不波及全树'
+  - '- Isolate 并发模型：Dart 单线程事件循环 + 多 Isolate 并行（无共享内存、消息传递），Platform Channel 跨 Isolate
+    通信'
+  - '**典型例子**'
+  - '- ListView.builder 仅构建可视区 Item：Element 复用机制 + RenderObject 滚动视口裁剪'
+  - '- 复杂动画驱动：AnimationController -> Listener -> setState -> Rebuild Widget -> Element
+    标记 Dirty -> RenderObject 重新 Paint -> Layer 合成'
+  - '- 首帧抖动治理：Impeller AOT 着色器预热、--cache-sksl 预编译、SkSL 缓存落盘'
+  - '**边界条件**'
+  - '- Widget 过度嵌套导致 Element Tree 深度过大，Diff 遍历耗时、IntrinsicWidth/Height 多次布局'
+  - '- 滥用 GlobalKey 破坏复用机制、导致 State 泄漏、RenderObject 错位'
+  - '- Platform View (AndroidView/UiKitView) 打破 Flutter 自绘模型，引入纹理拷贝/虚拟显示开销、输入事件分发复杂、层级穿透问题'
+  - '- Impeller 早期版本对部分老旧 GPU 驱动兼容性差、3D 变换/阴影/路径效果与 Skia 行为差异'
+  sources:
+  - paper: AgWGdAk0fogwx2xtpo2cg3TCncb.md
+    role: origin
+  excerpts:
+  - Flutter 渲染管线与 Dart 语言特性：Widget/Element/RenderObject 三棵树、Skia/Impeller、Isolate
+    并发模型
+  - 解析声明式 UI 到渲染对象的构建流程、GPU 绘制管线、Dart 空安全、Isolate 多线程与消息传递机制。
+- 'no': 4
+  name: Uni-app/Taro 编译时多端统一 —— DSL 约束、条件编译与平台差异抹平的工程艺术
+  points:
+  - '**为什么需要这个概念？**'
+  - '- 业务需“一次开发，多端发布”（H5、微信/支付宝/字节/快手/QQ 小程序、App、快应用），维护多套代码库成本不可控'
+  - '- 运行时框架（如早期 Weex、React Native）在小程序端受限于虚拟机限制（无 eval、无动态执行）、性能与包体积双重压力'
+  - '- 编译时转译：将 Vue/React DSL 编译为目标平台原生代码（WXML/WXSS/JS、HTML/CSS/JS），无运行时开销，发挥各平台极致性能'
+  - '**核心定义**'
+  - '- 核心机制：'
+  - '  1. DSL 约束：限制 Vue/React 语法子集（如禁用 with、动态组件受限、模板编译时确定），保证可静态分析、可转译'
+  - '  2. 条件编译：`// #ifdef MP-WEIXIN` / `%ifdef%` 语法，编译期根据目标平台裁剪/注入差异代码'
+  - '  3. 统一 API 抹平层：`uni.xxx` / `Taro.xxx` 运行时适配器，桥接平台差异（如请求、存储、导航、画布、蓝牙），暴露统一 Promise
+    风格接口'
+  - '  4. 编译器插件化：Webpack/Vite/Rollup 插件管线，处理模板编译、样式转换、脚本转译、资源哈希、分包策略'
+  - '**关键性质**'
+  - '- 编译时优势：无运行时框架开销、产物符合平台规范（如小程序 WXML/WXSS）、Tree-shaking 彻底、启动快'
+  - '- 开发体验：Vue/React 语法糖、热重载 (HMR)、TypeScript 支持、IDE 智能提示、DevTools 调试映射源码'
+  - '- 生态复用：可引入 npm 包（需兼容运行时环境）、组件库按需引入、插件机制扩展编译/运行时能力'
+  - '**典型例子**'
+  - '- 电商 SKU 选择器组件：Vue 写法 -> 编译输出微信小程序 WXML 模板 + WXSS + JS 逻辑、H5 Vue 组件、App nvue
+    (Weex/RN 模式) 或原生渲染'
+  - '- 条件编译实现微信支付 vs 支付宝支付：`#ifdef MP-WEIXIN` 调 `wx.requestPayment` / `#ifdef MP-ALIPAY`
+    调 `my.requestPayment`'
+  - '- 分包加载：`pages.json` 配置 `subPackages`，编译器自动拆分产物，小程序主包控制在 2M 以内'
+  - '**边界条件**'
+  - '- DSL 约束导致部分 Vue/React 高级用法不可用（如 `render` 函数、动态 `is`、部分生命周期时机差异）'
+  - '- 平台差异无法 100% 抹平：Canvas 2D/WebGL/API 权限/原生组件（map/video/live-pusher）表现差异大，仍需平台专项测试'
+  - '- 编译器 Bug/版本升级破坏性变更风险：依赖框架维护团队响应速度，锁定版本是常态'
+  - '- 复杂交互/高性能动画场景：编译输出的小程序逻辑层/视图层通信瓶颈、setData 开销、无法使用 SharedArrayBuffer/Worklet
+    等高级特性'
+  - '- App 端选择 nvue (Weex) 或原生渲染（Vue3 + Vite + Native）时，技术栈内部又出现分叉，增加心智负担'
+  sources:
+  - paper: AgWGdAk0fogwx2xtpo2cg3TCncb.md
+    role: origin
+  excerpts:
+  - Uni-app / Taro 编译时多端统一：DSL 约束、条件编译、平台差异 API 抹平与生态适配
+  - '分析 Vue/React DSL 编译到微信/支付宝/字节/H5/APP 多端产物、条件编译 `// #ifdef MP-WEIXIN`、插件机制扩展原生能力。'
+- 'no': 5
+  name: 混合栈共存架构 —— 原生壳工程嵌入 RN/Flutter 模块的 Brownfield 集成与三端代码复用
+  points:
+  - '**为什么需要这个概念？**'
+  - '- 存量大型原生 App（几百万行代码）无法全量重写，需增量引入跨端技术承接新业务、复用现有 Web/跨端资产'
+  - '- 解决“原生+跨端”共存时的：生命周期管理、导航栈融合、通信机制、依赖冲突、包体积、热更新、CI/CD 复杂度'
+  - '- 实现“核心链路原生兜底、高频变动跨端承接、通用业务逻辑三端复用”的工程最优解'
+  - '**核心定义**'
+  - '- Brownfield 集成模式：原生 App 作为“宿主壳”，RN/Flutter 作为“模块/Feature”嵌入'
+  - '  1. 架构分层：Native Shell (原生壳：启动、导航、基础服务、原生能力) + Cross-platform Module (RN/Flutter
+    Module：业务页面、复用逻辑) + Shared Logic Package (共享包：TypeScript/Dart/Kotlin 业务逻辑、API
+    定义、状态管理)'
+  - '  2. 通信桥接：Native <-> Module 通过 JSI/Platform Channel/EventBus 双向通信，定义协议契约（如 MethodChannel、标准化
+    JSON RPC）'
+  - '  3. 导航融合：原生路由栈统一管理，Module 内部路由映射为原生 Fragment/UIViewController，支持原生<->跨端页面互相跳转、参数透传、生命周期回调'
+  - '  4. 热更新：CodePush (RN) / Shorebird (Flutter) / 原生动态下发 JS/Dart Bundle，绕过应用商店审核快速修复/迭代'
+  - '**关键性质**'
+  - '- 渐进式迁移：单模块试点 -> 核心业务迁移 -> 共享组件库沉淀 -> 最终可选全栈跨端'
+  - '- 依赖治理：Native 依赖 (Gradle/CocoaPods) 与 Module 依赖 (npm/pub) 物理隔离，共享依赖（如网络库、图片加载）由
+    Native 侧统一提供单例给 Module 用'
+  - '- 资源隔离：RN/Flutter 实例可单独启动/销毁/复用（单实例/多实例策略），内存占用可控'
+  - '- 三端代码复用策略：'
+  - '  - 业务逻辑层：TypeScript (RN/Web) / Dart (Flutter) / Kotlin (KMP) 保持三份实现，或核心算法用 Rust/Wasm
+    编译三端复用'
+  - '  - UI 层：各自维护（RN/Flutter/Web 差异大），通过设计系统/设计令牌保证视觉一致'
+  - '  - API 层：OpenAPI/GraphQL Schema 生成三端类型安全 Client'
+  - '**典型例子**'
+  - '- 某超级 App “发现页/视频流/直播间”用 Flutter 重构，其余 Tab 保持原生，共享登录态、用户信息、埋点 SDK、网络层'
+  - '- 电商 App 大促活动页用 RN 开发，活动下线后可动态下发/回收，复用 Web H5 组件库（通过 React Native Web 共享组件代码）'
+  - '- 共享业务逻辑包：购物车计算规则、优惠券叠加算法用 TypeScript 写，RN 直接引用，Web 直接引用，Flutter 通过 Dart TS 互转或单独维护
+    Dart 版'
+  - '**边界条件**'
+  - '- 双端/三端维护成本：需要同时具备 iOS/Android/RN/Flutter/Web 全栈人才或分工极其明确的团队'
+  - '- 版本依赖地狱：RN 版本升级牵动 Native 依赖、Flutter 版本升级牵动 Dart SDK/插件兼容、Native 升级 Xcode/AGP
+    牵动构建脚本'
+  - '- 调试极其困难：Native 崩溃 -> JS 栈 -> Native 栈 穿透定位、内存泄漏跨边界排查、性能分析工具链割裂'
+  - '- 导航/手势/键盘/输入法/无障碅/深色模式等系统级行为一致性极难保证，需大量兼容性适配代码'
+  - '- 包体积叠加：基线包含双引擎，增量模块再加，需严格拆包、动态下发、按需加载控制总体积'
+  sources:
+  - paper: AgWGdAk0fogwx2xtpo2cg3TCncb.md
+    role: origin
+  excerpts:
+  - 实战：混合栈共存架构——原生应用嵌入 React Native/Flutter 模块、三端代码复用策略与发布流水线
+  - 设计 Brownfield 集成方案：Native 壳工程 + RN/Flutter Module + 共享业务逻辑包、CodePush 热更新、统一 CI/CD
+    多平台并行发布。
