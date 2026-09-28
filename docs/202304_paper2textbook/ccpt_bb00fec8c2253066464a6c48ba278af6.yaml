@@ -1,0 +1,85 @@
+paper: docs/202304/XiwmdQFijotSRAxrBv8c1dLmndr.md
+desc: 该素材是一份面向小红书内容创作者的实操教程，核心内容是利用云端GPU平台（揽睿星舟）低成本部署Stable Diffusion WebUI，结合特定大模型与LoRA，批量生成“流光女孩”风格头像壁纸，以实现高效涨粉与多元化变现（知识付费、私人定制、店铺售图），并详细记录了从平台注册、工作空间创建、模型上传（含Cyberduck配置S3协议）、WebUI参数配置到出图的全流程技术细节。
+concepts:
+- name: 流光女孩
+  desc: 小红书3月爆款头像壁纸风格，具有极强的涨粉与变现能力，是本教程复刻的核心视觉目标。
+  is_original: false
+  excerpt:
+  - 要说小红书3月份最火爆的头像壁纸图片是哪个？那非 流光女孩 莫属了
+  - 这类头像壁纸的涨粉与吸金能力也很强！
+- name: 云端算力租赁平台
+  desc: 指揽睿星舟等提供按小时计费GPU算力的云平台，解决本地部署显存不足、硬件成本高、环境配置繁琐的痛点，是本方案的基础设施核心。
+  is_original: false
+  excerpt:
+  - 由于本地端的部署非常麻烦...显卡又非常昂贵...所以我们这次的目的就花几块钱，体验下 24G显存显卡的魅力！
+  - 注册链接：https://www.lanrui-ai.com/register?invitation_code=4106
+- name: S3协议网盘挂载
+  desc: 利用Cyberduck客户端通过AWS PrivateLink for Amazon S3协议挂载云平台存储，实现模型文件的可视化拖拽上传下载，替代繁琐的命令行操作。
+  is_original: true
+  excerpt:
+  - 本次采用新的网盘类上传与下载方法...找到 AWS PrivateLink for Amazon S3，并勾选服务
+  - 这样我们就可以像百度网盘一样上传和下载文件，再也不用命令行了
+- name: 核心模型组合
+  desc: 指定基座大模型与风格LoRA的固定搭配，是稳定复现“流光女孩”风格的关键资产组合。
+  is_original: true
+  excerpt:
+  - 这次我们需要的模型是大模型是YesMix-V1.5.safetensors, loar皮肤是 fashionGirl_v50.safetensors
+  - YesMix-V1.5.safetensors 需要放在models/stable-diffusion这个文件夹中...fashionGirl_v50.safetensors
+    需要放在medels/lora里
+methods:
+- name: __overview__
+  desc: 云端SD低成本批量生产爆款图片的标准化四步法：注册云平台 -> 创建工作空间(选镜像/数据集/实例) -> 上传模型文件 -> WebUI参数配置与出图。
+  excerpt:
+  - '整体的流程大致分为四步: 1：注册平台 2：上传制图模型 3：一键云端部署 Stable Diffusion 4：生成图片'
+- name: 云端工作空间创建流程
+  desc: 在揽睿星舟控制台选择公有镜像 sd-webui-2.0 v3 与数据集 sd-base，启动3090-24G实例，通过Jupyter执行启动脚本获取WebUI访问地址。
+  excerpt:
+  - 运行环境镜像选择 公有镜像 / others / sd-webui-2.0 / v3, 数据集选择 sd-base
+  - 待实例状态为运行中后，进入Jupyter后， 运行如下命令... cd /app, bash start.sh
+  - 然后在实例-操作列中，复制调试地址，粘贴到浏览器后就能访问Stable Diffusion Web UI
+- name: Cyberduck S3挂载配置法
+  desc: 安装Cyberduck -> 新建连接选中AWS PrivateLink for Amazon S3 -> 填入平台提供的服务器地址(HTTPS后段)与AK/SK密钥
+    -> 实现模型文件夹可视化管理。
+  excerpt:
+  - 安装 Cyberduck...新建链接，更多选项, 找到 AWS PrivateLink for Amazon S3，并勾选服务
+  - 服务器链接地址：在星舟的官网左侧，点击网盘→命令行→，命令行HTTPS://后面那串东西复制过来
+  - 访问密秘和私钥的的信息在官网头像下方的设置里...找到 AK SK 把 账号和密码复制过去
+- name: WebUI出图参数配置法
+  desc: 设置SD VAE为None；加载YesMix基座模型；在Prompt TAG中注入LoRA标签 <lora:fashionGirl_v50:1>；利用Png
+    Info反推参数一键复刻种子图。
+  excerpt:
+  - 在设置中 stable diffusion → SD VAE 选择None...选择 yesmix 模型 → TAG里添加 < lora:fashionGirl_v50:1>
+  - 直接把图片放到 png info，然后send to txt2img，就可以了
+theorems:
+- name: 小程序制图不可规模化定律
+  desc: 依赖小程序生图存在速度慢(排队/单张耗时长)、配额少(免费额度低)、时间成本高(日更20条需1.7h)三大硬伤，无法支撑矩阵号或高频更新的商业化运营需求。
+  excerpt:
+  - 如果不是普通会员需要排队，可能做一幅图需要5分钟。作者最长一次是一张图等了45分钟
+  - 如果不充会员，每天就只能画5幅左右
+  - 如果每天我们要发20篇笔记，每次5分钟 ，也要接近1小时40分钟
+- name: 云端按小时付费降本增效论
+  desc: 以约2元/小时租用3090-24G云端显卡替代本地4090(显卡超万/整机3万)部署，配合S3网盘可视化管理，将单次生产成本压缩至‘几块钱’，实现商业级算力平权。
+  excerpt:
+  - 目前平台在搞活动，有优惠，3090-24G 只需要 1.9元1小时
+  - 像4090 24G的显存就要过万。配置符合40490的CPU与显示器价格也朝着3W奔去。所以我们这次的目的就花几块钱，体验下 24G显存显卡的魅力！
+- name: 爆款风格复刻确定性主张
+  desc: 固定基座模型 + 固定风格LoRA + 固定VAE设置 + Png Info参数反推，可实现爆款风格的高确定性、低门槛批量复现。
+  excerpt:
+  - 选择 yesmix 模型 → TAG里添加 < lora:fashionGirl_v50:1>...直接把图片放到 png info，然后send to txt2img，就可以了。
+findings:
+- name: 头像号商业化变现路径验证
+  desc: '[evidence] 素材通过两个真实账号案例(子鱼哎吖、橘鹿)验证了该赛道的三条成熟变现路径：知识付费(教程/社群)、私人高级定制、小红书店铺售卖数字图片。'
+  excerpt:
+  - 他的变现模式主要有 1：知识付费 2：私人高级订制 3：小红书店铺售卖图片
+  - 销量排名第2的猫耳少女共计营业额为 418.6元...累计月收入已过万
+  - 不但开了3个收费的社群 更是有自己的垂直类穿搭教程 收益已达6位数/月
+- name: 云端部署实测成本与效率
+  desc: '[evidence] 实测3090-24G云端实例单价1.9元/小时，启动流程(注册->建空间->跑脚本->取地址)可在十分钟内完成，模型上传通过Cyberduck可视化操作，显著低于本地部署门槛与硬件成本。'
+  excerpt:
+  - 目前平台在搞活动，有优惠，3090-24G 只需要 1.9元1小时
+  - 云服务 1小时起用，也就是2块钱。不要开了关，关了开。反而费钱
+  - 这样我们就可以像百度网盘一样上传和下载文件，再也不用命令行了
+- name: VAE设置对出图风格的关键影响
+  desc: '[claim] 作者主张在设置中将SD VAE强制选择为None(而非Automatic)，并称‘VAE就是滤镜’，暗示该设置是还原目标风格质感的关键超参数，但未提供对比实验证据。'
+  excerpt:
+  - 在设置中 stable diffusion → SD VAE 选择None, VAE就是滤镜
