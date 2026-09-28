@@ -1,0 +1,47 @@
+citation_stats:
+- paper: docs/202303/20230328_005.md
+  count: 17
+  locations:
+  - '72.1'
+  - 72.3.1
+  - 72.3.2
+  - 72.3.5
+  - 72.3.6
+  - 72.4.2
+  - 72.4.5
+  - 72.4.6
+  - 72.5.2
+  - 72.5.5
+  - 72.5.6
+  - 72.6.2
+  - 72.6.4
+  - 72.6.5
+  - '72.7'
+  - '72.8'
+  - '72.10'
+unsupported_claims:
+- location: 72.5.6
+  claim: 自主操作期望成本远低于代理成本
+  reason: 素材中未提供概率p、修复成本C_fix1、C_fix3等量化参数的实证数据，模型为理论推演而非实测结论
+- location: 72.3.5
+  claim: 系统故障属政府责任还是用户责任的司法认定趋势
+  reason: 素材仅提及'截图找管理员纠错'，未涉及法律责任归属或司法案例
+- location: 72.6.5
+  claim: 年报填报营业收入 ≠ 纳税申报，写金额不直接触发扣税
+  reason: 素材中仅有用户提问'写一点金额不会扣税吧'，无官方政策或专家解读作为支撑
+missing_concepts:
+- paper: docs/202303/20230328_005.md
+  concept: 个体户年报'从业人数'包含法人自身的官方文件依据
+  severity: high
+- paper: docs/202303/20230328_005.md
+  concept: 经营异常名录移出的具体申请流程与所需材料
+  severity: high
+- paper: docs/202303/20230328_005.md
+  concept: 严重违法失信企业名单移出的法定条件与程序
+  severity: high
+- paper: docs/202303/20230328_005.md
+  concept: 地址异常'下户看点'的具体核查标准与频次
+  severity: medium
+- paper: docs/202303/20230328_005.md
+  concept: 个体户资产状况'估算'的合规边界与举证责任
+  severity: medium
