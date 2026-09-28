@@ -1,0 +1,139 @@
+- 'no': 1
+  name: 认知重塑 —— 从「被动接受」到「主动建构」知识体系
+  desc: 本章确立本书的核心教学范式：知识不是被灌输的，而是通过主动连接、结构化组织与持续复盘主动建构出来的。我们将拆解「卡片盒笔记法」与「费曼技巧」的底层逻辑，帮助你建立属于自己的外部大脑。
+  nodes:
+  - 'no': 1
+    name: 为什么传统笔记法会失效
+    desc: 对比「收藏夹谬误」与「编译器思维」，揭示单纯记录、高亮、转发无法形成长期记忆与深度理解的认知机制。
+    role: motivation
+    src:
+    - paper: 20230418_000.md
+    - paper: 20230418_001.md
+  - 'no': 2
+    name: 卡片盒笔记法的核心三原则
+    desc: 定义「原子化」、「链接优于收藏」、「自底向上生成」三大核心原则，确立从素材到概念卡片的标准化工作流。
+    role: definition
+    src:
+    - paper: 20230418_000.md
+    - paper: README.md
+  - 'no': 3
+    name: 三类卡片的分工与流转
+    desc: 区分「闪念卡片」（捕捉）、「文献卡片」（理解/改写）与「概念卡片」（综合/创新）的定位、写法及演进路径。
+    role: method
+    src:
+    - paper: 20230418_000.md
+    - paper: 20230418_001.md
+  - 'no': 4
+    name: 从「阅读」到「写作」的范式切换
+    desc: 论证「写作是思考的结果，更是思考的过程」，展示如何通过卡片写作倒逼深度阅读，实现输入驱动输出。
+    role: method
+    src:
+    - paper: 20230418_000.md
+    - paper: 20230418_079.md
+  - 'no': 5
+    name: 实战：搭建你的第一个概念卡片库
+    desc: 以 Obsidian/Logseq 为工具示范，演示从导入素材、拆解文献卡片、提炼概念卡片、建立双向链接到生成大纲的完整 SOP。
+    role: experiment
+    src:
+    - paper: 20230418_079.md
+    - paper: SUMMARY.md
+  - 'no': 6
+    name: 常见误区：卡片不是碎片，链接不是标签
+    desc: 辨析「原子化」与「碎片化」的本质区别，指出单纯加标签、不写链接理由、忽视上下文关联的典型反模式。
+    role: limitation
+    src:
+    - paper: 20230418_001.md
+    - paper: 20230418_079.md
+- 'no': 2
+  name: 教材工程化 —— 像开发软件一样构建教程
+  desc: 本章将软件工程中的「模块化」「版本控制」「CI/CD」「需求分析」思想映射到教材开发全流程，解决教程「难维护、难复用、难迭代、授课脱节」的工程化难题。
+  nodes:
+  - 'no': 1
+    name: 教材即软件：代码化管理的必要性
+    desc: 类比软件工程，论证教材源文件应采用 Markdown/AsciiDoc 等纯文本格式，纳入 Git 版本控制，实现内容的可追溯、可协作、可自动化构建。
+    role: motivation
+    src:
+    - paper: 20230418_001.md
+    - paper: README.md
+  - 'no': 2
+    name: 四层架构：素材-概念-大纲-成书
+    desc: 定义教材工程的标准化分层架构：素材层（原始输入）、概念层（知识原子）、结构层（大纲/逻辑骨架）、呈现层（PDF/网站/课件），实现内容与形式分离。
+    role: definition
+    src:
+    - paper: 20230418_001.md
+    - paper: SUMMARY.md
+  - 'no': 3
+    name: 概念卡片驱动开发（CDD）流程
+    desc: 推演「聚类素材 -> 提炼概念卡片 -> 编排大纲节点 -> 渲染章节」的标准化工程流水线，确立概念卡片作为连接素材与大纲的唯一「中间表示（IR）」。
+    role: method
+    src:
+    - paper: 20230418_000.md
+    - paper: 20230418_001.md
+  - 'no': 4
+    name: 大纲编排的「二级结构」建模规范
+    desc: 规定 Chapter-Node 二级结构的 JSON Schema，强制要求章标题采用「隐喻类比式」双段式、节点必须标注教学角色，实现大纲的机器可读与自动化校验。
+    role: definition
+    src:
+    - paper: 20230418_001.md
+    - paper: SUMMARY.md
+  - 'no': 5
+    name: 持续集成：从源文件到多形态交付物
+    desc: 配置 Pandoc/Quarto/GitHub Actions 自动化流水线，一键生成学生版教材、教师版教案、交互式网站、幻灯片，保证多端内容一致性。
+    role: method
+    src:
+    - paper: 20230418_079.md
+    - paper: README.md
+  - 'no': 6
+    name: 版本迭代与变更管理策略
+    desc: 引入 SemVer 语义化版本控制至教材，定义 Major/Minor/Patch 对应的内容变更类型（重构章节/新增知识点/修正错别字），建立变更日志规范。
+    role: extension
+    src:
+    - paper: 20230418_001.md
+    - paper: 20230418_079.md
+- 'no': 3
+  name: 逻辑架构师 —— 为知识搭建可执行的认知脚手架
+  desc: 本章聚焦「逻辑分析」在教材策划中的核心地位，教授如何运用 MECE、金字塔原理、认知负荷理论将散乱素材重组为具有教学张力的逻辑骨架，而非简单的目录堆砌。
+  nodes:
+  - 'no': 1
+    name: 教学大纲 ≠ 知识目录：认知负荷视角的结构设计
+    desc: 对比「百科全书式」与「教学导向式」目录差异，引入认知负荷理论，论证大纲必须服务于「图式构建」而非「信息罗列」。
+    role: motivation
+    src:
+    - paper: 20230418_000.md
+    - paper: 20230418_001.md
+  - 'no': 2
+    name: MECE 原理在章节划分中的落地
+    desc: 演示如何用「相互独立、完全穷尽」原则审视章节划分，避免知识点重叠（耦合）与遗漏（盲区），配套「章节正交性检查表」。
+    role: method
+    src:
+    - paper: 20230418_001.md
+    - paper: SUMMARY.md
+  - 'no': 3
+    name: 金字塔原理：从「核心论点」反向导出章节结构
+    desc: 实操「自上而下表达、自下而上思考」：先定本书/章的「核心主张」，再通过纵向提问/横向归纳分解为节点，保证逻辑闭环。
+    role: method
+    src:
+    - paper: 20230418_000.md
+    - paper: 20230418_001.md
+  - 'no': 4
+    name: 教学角色标注体系：让每个知识点「各司其职」
+    desc: 详解 motivation/definition/method/proof/experiment/limitation/extension 七大角色的定义、识别标准及组合模式，防止「全是定义」「缺乏动机」「无案例支撑」的编写弊病。
+    role: definition
+    src:
+    - paper: 20230418_001.md
+    - paper: 20230418_079.md
+  - 'no': 5
+    name: 素材溯源与证据链构建
+    desc: 建立「大纲节点 <- 概念卡片 <- 文献卡片 <- 原始素材」的四级溯源链，规范 src 字段引用格式（支持 author:xxx/** 通配），保证教材内容的可验证性与学术严谨性。
+    role: method
+    src:
+    - paper: 20230418_000.md
+    - paper: SUMMARY.md
+  - 'no': 6
+    name: 案例复盘：从零素材到《XXX教程》大纲的完整推演
+    desc: 以本次任务素材为例，全程复盘：原始 Markdown 聚类 -> 概念卡片提炼 -> 逻辑聚类成章 -> 角色标注定节 -> 类比命名定章 ->
+      JSON 规范化输出的决策链路。
+    role: experiment
+    src:
+    - paper: 20230418_079.md
+    - paper: SUMMARY.md
