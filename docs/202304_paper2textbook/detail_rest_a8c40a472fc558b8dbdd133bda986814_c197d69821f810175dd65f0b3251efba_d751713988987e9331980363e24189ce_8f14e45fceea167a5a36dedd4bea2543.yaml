@@ -1,0 +1,121 @@
+learning_targets:
+- 理解 Core Web Vitals 指标体系的定义、采集原理与工程化达标基线
+- 掌握构建产物优化的分包策略、Tree Shaking 原理、压缩算法选型与体积预算门禁
+- 掌握资源加载策略中 Preload/Prefetch/Preconnect/Modulepreload 与 Service Worker 缓存策略的工程落地
+- 掌握运行时渲染优化中虚拟列表、防抖节流、Web Worker 卸载主线程、Scheduler.yield 调度的实现原理与适用场景
+- 能够搭建包含 SDK 埋点、数据上报、存储查询、可视化看板与告警的全链路前端性能监控平台
+concept_map:
+- 前端性能工程
+- ├── 核心指标体系
+- │   ├── LCP (最大内容绘制) —— 衡量加载速度，目标 < 2.5s
+- │   ├── CLS (累积布局偏移) —— 衡量视觉稳定性，目标 < 0.1
+- │   ├── INP (下一帧绘制交互延迟) —— 衡量整体交互响应，目标 < 200ms
+- │   ├── FID (首次输入延迟) —— 已被 INP 取代，历史指标
+- │   └── TTFB (首字节时间) —— 衡量服务端响应，基础指标
+- ├── 构建产物优化
+- │   ├── 代码分割策略 (splitChunks/manualChunks) —— 按路由/组件库/高频依赖分包
+- │   ├── Tree Shaking 原理 —— 基于 ES Module 静态结构消除死代码，依赖 sideEffects 标记
+- │   ├── 压缩算法对比 (Terser/esbuild/CSSnano) —— 权衡压缩率与构建速度
+- │   └── 体积预算与 CI 门禁 (rollup-plugin-visualizer/bundlesize) —— 阻断超标合并
+- ├── 资源加载策略
+- │   ├── Preload (rel=preload) —— 高优先级获取首屏关键资源 (字体/关键CSS/JS/Hero图)
+- │   ├── Prefetch (rel=prefetch) —— 低优先级预取下一页资源，利用空闲带宽
+- │   ├── Preconnect/DNS-prefetch —— 提前建立跨域连接，消除握手延迟
+- │   ├── Modulepreload —— 专为 JS 模块预加载并预编译依赖图
+- │   └── Service Worker / Workbox —— 离线缓存、Stale-While-Revalidate、版本更新广播
+- ├── 运行时渲染优化
+- │   ├── 虚拟列表 —— 仅渲染可视区 DOM，支撑 10万+ 数据流畅滚动
+- │   ├── 防抖/节流 —— 高频事件回调频率控制，减少不必要计算
+- │   ├── Web Worker —— 独立线程卸载加密/压缩/解析/矩阵运算等纯计算任务
+- │   └── 任务调度 (requestIdleCallback/scheduler.yield) —— 拆解长任务，让出主线程提升 INP
+- └── 性能监控平台
+- '    ├── SDK 采集端 —— 轻量采集 Web Vitals/资源错误/长任务/内存'
+- '    ├── 数据上报 (Beacon API/fetch keepalive) —— 可靠、非阻塞、批量压缩'
+- '    ├── 存储查询 (ClickHouse/Doris) —— OLAP 数据库支持高基数标签秒级聚合'
+- '    ├── 可视化看板 (Grafana) —— P75 趋势/Top 慢页面/错误率分布'
+- '    └── 告警体系 (Alertmanager) —— 阈值触发钉钉/飞书/企微通知'
+life_analogy:
+- 想象前端性能优化是一场**‘用户体验接力赛’**：
+- '- **核心指标 (LCP/CLS/INP)** = **裁判的计分规则**：明确告诉你‘跑得快’(LCP)、『跑得稳』(CLS)、『反应快』(INP) 的量化标准，只看
+  P75 成绩单。'
+- '- **构建产物优化** = **运动员‘减重装备’**：通过分包、摇树、压缩把‘背包’(JS Bundle)瘦身，减少起跑负重，跑得更轻快。'
+- '- **资源加载策略** = **赛前‘预热与补给站布局’**：Preload 是‘关键补给提前放到手边’，Prefetch 是‘利用休息时间把下一段路的水放好’，Preconnect
+  是‘提前把跑道铺好’。'
+- '- **运行时渲染优化** = **比赛中‘节奏控制与外包’**：虚拟列表是‘只看眼前一米路’，防抖节流是‘不跟着观众起哄乱跑’，Web Worker 是‘把算账、整理装备的活儿外包给教练车(副线程)’，主线程专心‘跑步’。'
+- '- **性能监控平台** = **全程‘数据分析师团队’**：实时记录每圈圈速、心率(长任务)、受伤情况(报错)，赛后复盘出报告，下场比赛跑得更强。'
+summary:
+- concept: LCP (Largest Contentful Paint)
+  desc: 衡量加载速度，标记视口内最大内容元素渲染完成时间，工程化目标 < 2.5s (P75)
+- concept: CLS (Cumulative Layout Shift)
+  desc: 衡量视觉稳定性，量化页面意外移动程度，工程化目标 < 0.1 (P75)
+- concept: INP (Interaction to Next Paint)
+  desc: 衡量整体交互响应，观察全生命周期所有交互延迟百分位，工程化目标 < 200ms (P75)，已取代 FID
+- concept: TTFB (Time to First Byte)
+  desc: 衡量服务端响应速度，资源请求到收到第一字节的耗时，是后端与网络性能的基础指标
+- concept: 代码分割
+  desc: 将打包产物拆分为多个 Chunk 按需/并行加载，核心配置 splitChunks 与 manualChunks，按路由/组件库/高频依赖分包
+- concept: Tree Shaking
+  desc: '基于 ES Module 静态结构消除未引用代码，依赖 package.json 中 sideEffects: false 标记纯模块'
+- concept: Preload / Prefetch / Preconnect
+  desc: 资源加载指令：Preload 高优先级获取当前页关键资源，Prefetch 低优先级预取下一页资源，Preconnect 提前建立跨域连接
+- concept: Modulepreload
+  desc: 专为 JS 模块设计，预加载并预编译依赖图，解决模块嵌套请求瀑布流问题
+- concept: Service Worker / Workbox
+  desc: 拦截请求实现离线缓存、Stale-While-Revalidate 策略、版本更新广播，实现离线首屏与秒开体验
+- concept: 虚拟列表
+  desc: 仅渲染可视区 + 缓冲区 DOM，滚动时复用节点更新数据，支撑 10万+ 条数据流畅滚动，大幅降低内存占用
+- concept: Web Worker
+  desc: 独立线程运行 JS，无法访问 DOM，适合加密/压缩/解析/矩阵运算等纯计算任务卸载主线程，通过 postMessage 通信
+- concept: Scheduler.yield / requestIdleCallback
+  desc: 主动让出主线程控制权或在空闲期执行低优先级任务，拆解长任务避免阻塞高优先级交互，提升 INP
+- concept: 前端性能监控平台
+  desc: SDK采集 -> Beacon上报 -> ClickHouse存储 -> Grafana可视化 -> Alertmanager告警，建立可观测、可量化、可回溯的性能工程闭环
+exercises:
+- 'no': 1
+  title: Core Web Vitals 指标拆解与优化定位
+  contents:
+  - 某电商首页 LCP 为 4.2s (P75)，CLS 为 0.25，INP 为 350ms。请分别分析：
+  - 1. LCP 超标的可能成因有哪些？(提示：从 TTFB、资源加载、渲染阻塞三个阶段排查)
+  - 2. CLS 超标的典型场景是什么？如何通过 DevTools Performance 面板定位偏移元素？
+  - 3. INP 超标通常由什么引起？如何利用 Long Task API 与脚本评估器找到罪魁祸首？
+  - 4. 如果该页面为 SSR 架构，TTFB 占 LCP 的 60%，优化优先级应如何排序？
+- 'no': 2
+  title: 构建产物体积优化实战
+  contents:
+  - 某 Vue 3 + Vite 项目首屏 JS gzip 后 450KB，目标压缩至 150KB 以内。请设计优化方案：
+  - 1. 如何使用 `rollup-plugin-visualizer` 分析体积构成？重点关注哪些大型依赖？
+  - 2. `lodash` 全量引入导致 70KB 体积，请对比 `lodash-es` + Tree Shaking、`babel-plugin-lodash`、替换为原生
+    API 三种方案的优劣势。
+  - 3. 如何配置 `manualChunks` 实现 `vue`/`vue-router`/`pinia` 等基础库的长缓存复用？缓存键如何设计？
+  - '4. `sideEffects: false` 误标会导致什么后果？如何在保留 CSS 副作用的前提下开启 Tree Shaking？'
+  - 5. Terser 压缩耗时过长，如何引入 `esbuild` 替代并开启并行压缩？
+- 'no': 3
+  title: 资源加载策略决策与调试
+  contents:
+  - 某单页应用(SPA)首屏包含：Hero Banner 图片(200KB)、主字体(50KB)、路由级组件 JS(150KB)、三方统计 SDK(80KB)。
+  - 1. 哪些资源适合 `preload`？哪些适合 `prefetch`？请说明理由。
+  - 2. 字体文件加 `preload` 时必须添加 `crossorigin` 属性，为什么？若缺失会发生什么？
+  - 3. 该应用部署在 HTTP/2 服务器，是否还需要 `preconnect`？针对三方统计 SDK 域名如何处理？
+  - 4. 引入 `modulepreload` 解决 JS 依赖瀑布流，如何在 Vite/Rollup 中自动生成这些链接？
+  - 5. 配置 Workbox 实现：静态资源 CacheFirst，API 请求 NetworkFirst 并设置超时 5s，HTML StaleWhileRevalidate。请写出核心
+    `runtimeCaching` 配置片段。
+- 'no': 4
+  title: 运行时长任务拆解与主线程卸载
+  contents:
+  - 某数据大屏页面包含 5 万行表格渲染、实时图表计算、用户输入联动筛选。主线程长任务频繁超 200ms，INP 指标达 800ms。
+  - 1. 表格渲染优化：对比 `react-window` 固定高度虚拟列表与动态高度实现的差异，动态高度如何估算与缓存？
+  - 2. 图表计算卸载：将 ECharts 数据转换、坐标计算移至 Web Worker，主线程仅负责 `setOption` 绘制。设计 Worker 通信协议(输入/输出数据结构)及错误兜底机制。
+  - 3. 输入联动优化：使用 `useDeferredValue` 或 `useTransition` 区分紧急/非紧急更新，如何判断哪些状态属于‘非紧急’？
+  - 4. 使用 `scheduler.yield()` 拆解一个 500ms 的同步递归树遍历函数，改造为异步生成器模式，伪代码实现。
+  - 5. 如何在 Performance 面板中验证优化效果？关注 Long Task 红三角、Main 火焰图、Interaction 延迟标记。
+- 'no': 5
+  title: 性能监控平台 SDK 设计与告警策略
+  contents:
+  - 设计一个轻量级前端性能监控 SDK (目标 < 5KB gzip)，要求：
+  - 1. 采集模块：使用 `PerformanceObserver` 采集 LCP/CLS/INP/FID/TTFB，`Resource Timing API`
+    采集关键资源耗时，`Long Task API` 采集堆栈，`Error Event` 采集 JS 报错。
+  - '2. 上报模块：为何首选 `navigator.sendBeacon`？在什么场景需回退到 `fetch(keepalive: true)`？如何实现批量压缩上报(如
+    1s/20条触发)？'
+  - 3. 采样策略：全量上报成本高，设计 10% 基础采样 + 核心页面 100% 采样 + 报错 100% 采样的动态采样算法。
+  - 4. Source Map 解析：上报堆栈为压缩代码位置，平台端如何自动化下载 Source Map 并还原源码行列？
+  - 5. 告警规则：LCP P75 环比上升 20% 且绝对值 > 2.5s 触发 P1 告警；JS 报错率 > 1% 触发 P2 告警。如何防止发版初期流量小导致的误报？
