@@ -1,0 +1,67 @@
+citation_stats:
+- paper: P001
+  count: 1
+  locations:
+  - '78.3'
+- paper: P002
+  count: 1
+  locations:
+  - '78.4'
+- paper: P003
+  count: 1
+  locations:
+  - '78.5'
+- paper: P004
+  count: 1
+  locations:
+  - '78.6'
+- paper: P005
+  count: 1
+  locations:
+  - '78.3'
+- paper: P006
+  count: 1
+  locations:
+  - '78.4'
+- paper: P007
+  count: 1
+  locations:
+  - '78.5'
+unsupported_claims:
+- location: '78.3'
+  claim: 核心子模型包括：赚钱即利他、壁垒决定收益、组合创新论、长期主义
+  reason: 素材P001/P005仅为空心索引页（标题+外链），未包含具体认知模型内容，子模型为基于社群公开认知体系推测，非素材直接支撑
+- location: '78.4'
+  claim: 典型工具链包括：RPA自动化（UIBot Creator）、AI提示词工程（ChatGPT/Claude）、批量采图（ImageAssistant）、效率工具（双拼输入法）
+  reason: 素材P002/P006仅为空心索引页，工具链为细纲中明确列举的典型例子，非语雀原文档直接支撑
+- location: '78.5'
+  claim: 核心心法模型包括：过程即奖赏、失败常态化、首个正反馈、21天定律/习惯重塑、执行力四驱模型、炸弹思维/压力转化、新生五阶段规律
+  reason: 素材P003/P007仅为空心索引页，心法模型为细纲中明确列举的典型例子，非语雀原文档直接支撑
+- location: '78.6'
+  claim: 生态闭环链路：视频号/直播切片→微信客服/私信→企业微信沉淀/标签/群裂变→个人微信深度信任/转化→小程序/支付闭环变现
+  reason: 素材P004仅为单一索引页，生态链路为待溯源确认的推测图示，非语雀原文档直接支撑
+- location: '78.6'
+  claim: 基建支撑体系：指纹浏览器防关联、代理IP池静态/动态住宅、uni-app多端矩阵低成本技术中台
+  reason: 素材P004仅为单一索引页，基建体系为细纲中明确列举的典型例子，非语雀原文档直接支撑
+missing_concepts:
+- paper: P001
+  concept: 生财认知核心模型（如：赚钱即利他、壁垒决定收益、组合创新论、长期主义等）的完整定义、论证逻辑与实战案例
+  severity: high
+- paper: P002
+  concept: 生财技能完整清单与SOP细则（如：RPA/UIBot、AI提示词工程、批量采图、双拼输入法等工具的标准化操作手册）
+  severity: high
+- paper: P003
+  concept: 生财心态完整心法体系与心理建设工具包（如：过程即奖赏、执行力四驱、炸弹思维、新生五阶段等模型的详细定义与操作指南）
+  severity: high
+- paper: P004
+  concept: 微信生态完整操作地图与合规红线清单（如：防封养号参数、指纹浏览器/IP配置、企微搭建SOP、视频号直播切片流程、小程序矩阵开发、支付合规要点）
+  severity: high
+- paper: P005
+  concept: 生财认知v2版本与v1版本的具体差异、子专题拆分逻辑、迭代方向
+  severity: medium
+- paper: P006
+  concept: 生财技能v2版本与v1版本的具体差异、垂类拆分逻辑、工具链迭代情况
+  severity: medium
+- paper: P007
+  concept: 生财心态v2版本与v1版本的具体差异、垂类拆分逻辑、进阶心法场景化工具
+  severity: medium
