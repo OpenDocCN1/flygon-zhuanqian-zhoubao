@@ -1,0 +1,54 @@
+citation_stats:
+- paper: P001
+  count: 12
+  locations:
+  - '89.2'
+  - '89.3'
+  - '89.4'
+  - 89.4.2
+  - 89.4.3
+  - 89.4.4
+  - '89.5'
+  - '89.6'
+  - '89.6'
+  - '89.6'
+  - '89.6'
+  - '89.6'
+- paper: P002
+  count: 6
+  locations:
+  - '89.2'
+  - '89.3'
+  - 89.4.1
+  - 89.4.2
+  - 89.4.4
+  - '89.6'
+unsupported_claims:
+- location: '89.3'
+  claim: P007、P013、P031、P053 四份素材...「无实质正文」结论基于文件命名规律与社群早期知识沉淀策略的推测
+  reason: 素材中未找到支撑，这四份文档原文片段尚未直接核实
+- location: 89.4.2
+  claim: 根据素材抽取结果，P001 仅含报告标题与年月标识，不包含任何具体商业案例、赚钱方法论、核心概念定义或实证数据分析
+  reason: 素材中未找到支撑，P001原文内容未在提供的素材中呈现，无法核实其'仅含标题与年月'的说法
+- location: 89.4.2
+  claim: P002 仅包含一份名为《龙哥赚钱周报 20230328-20230404》的文档标题及其来源链接
+  reason: 素材中未找到支撑，P002原文内容未在提供的素材中呈现，无法核实
+missing_concepts:
+- paper: P001
+  concept: 总目录中五大板块（AI工具、跨平台运营、私域流量、电商变现、个人成长）下的具体精华帖标题与链接
+  severity: high
+- paper: P002
+  concept: 第4周周报中除标题外的具体精华帖列表、点赞数、精华标识、评论图片等元数据
+  severity: high
+- paper: P007
+  concept: 生财认知专题索引的完整内容与结构
+  severity: high
+- paper: P013
+  concept: 生财技能专题索引的完整内容与结构
+  severity: high
+- paper: P031
+  concept: 生财心态专题索引的完整内容与结构
+  severity: high
+- paper: P053
+  concept: 微信专题索引的完整内容与结构
+  severity: high
