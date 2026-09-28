@@ -1,0 +1,114 @@
+citation_stats:
+- paper: SUMMARY.md
+  count: 38
+  locations:
+  - ch88.1
+  - ch88.3
+  - ch88.4
+  - ch88.5
+  - ch88.6
+  - ch88.7
+  - ch88.8
+  - ch88.9
+  - ch88.10
+  - ch88.11
+  - ch88.12
+  - ch88.13
+  - ch88.14
+  - ch88.15
+  - ch88.16
+  - ch88.17
+  - ch88.18
+- paper: doxcnXIOtkZmPJLb1izKrreOuMg.md
+  count: 12
+  locations:
+  - ch88.4
+  - ch88.6
+  - ch88.8
+  - ch88.13
+  - ch88.14
+  - ch88.15
+- paper: yuque_for_lazy_thfiu8
+  count: 87
+  locations:
+  - ch88.3
+  - ch88.4
+  - ch88.5
+  - ch88.6
+  - ch88.7
+  - ch88.8
+  - ch88.9
+  - ch88.10
+  - ch88.11
+  - ch88.12
+  - ch88.13
+  - ch88.14
+  - ch88.15
+  - ch88.16
+  - ch88.17
+  - ch88.18
+unsupported_claims:
+- location: ch88.3
+  claim: 窗口期约1-3个月，需快速捕捉并微创新测试，错过即失效
+  reason: 素材中未明确给出'1-3个月'的具体来源，仅提到'窗口期可能只有半年'（小红书去重算法）和'窗口期红利'等模糊表述
+- location: ch88.5
+  claim: 核心指标：有人付费、能交付、可复制
+  reason: 素材中虽反复提及MVP跑通闭环、有人付费，但未将这三条并列为核心指标的标准定义
+- location: ch88.6
+  claim: 规模化收益 = 单点成功率 × 执行量级 × 平均客单价
+  reason: 素材中给出单人日产200条、18个闲鱼店铺、300号矩阵等量化指标，但未显性推导出该数学公式
+- location: ch88.8
+  claim: RPA降维打击人工成本：对于高重复、低决策的运营动作，RPA自动化的边际成本趋近于零
+  reason: 素材中有'边际成本趋近零'的表述，但'降维打击'为教材侧提炼，非素材原文
+- location: ch88.9
+  claim: 参考：奥地利学派曼格尔《国民经济学原理》、庞巴维克《资本与利息》、新古典微观经典教材马斯-科尔韦尔《微观经济学》
+  reason: 素材中完全没有引用这些经济学教材，为教材侧补充的理论支撑
+- location: ch88.10
+  claim: 缩小路径四步法：进高质量社群 → 付费买时间的复盘/教程 → 实战跑通MVP → 复盘沉淀方法论
+  reason: 素材中有'进生财8个月''付费买见识''实战跑通MVP''复盘沉淀'等分散表述，未组合为标准化四步法
+- location: ch88.11
+  claim: 非竞争性生存状态：超越社会比较框架（无竞争感/危机感/嫉妒/自卑/骄傲）
+  reason: 素材中亦仁原文未包含括号内的五种情绪细分，为教材侧展开
+- location: ch88.12
+  claim: 注意力获取的时间门槛定律：坚持即稀缺
+  reason: 素材中有'人们真正注意到你时，是发现过了这么久你居然还在那里'，但'时间门槛定律'为教材侧命名
+- location: ch88.13
+  claim: RPA杠杆公式推导...盈亏平衡点 N_break = C_dev / ((T_h - T_r) × V)
+  reason: 素材中有'代码是杠杆''边际成本趋近零'等论断，但完整数学推导为教材侧构建
+- location: ch88.14
+  claim: 该机制可由消费心理学中情境营销理论解释...参考《Journal of Marketing Research》情境营销相关文献
+  reason: 素材中无任何学术文献引用，为教材侧补充理论来源
+- location: ch88.15
+  claim: 组件数量与复杂度正相关
+  reason: 素材中未对比研报账号4组件与Posts 3组件的复杂度关系，为教材侧推断
+missing_concepts:
+- paper: yuque_for_lazy_thfiu8
+  concept: 指纹浏览器环境隔离与IP代理的具体配置参数（如Canvas指纹、WebRTC、时区、语言等）
+  severity: high
+- paper: yuque_for_lazy_thfiu8
+  concept: 影刀RPA/UIBot/Automa等主流RPA工具的对比评测（授费模式、易用性、容错机制、社区生态）
+  severity: high
+- paper: yuque_for_lazy_thfiu8
+  concept: 小红书/抖音/视频号等平台风控规则的最新变化（2023Q1-Q2）及应对策略
+  severity: high
+- paper: yuque_for_lazy_thfiu8
+  concept: ChatGPT Prompt工程的系统性方法论（如CoT、Few-shot、ReAct、结构化输出）
+  severity: high
+- paper: yuque_for_lazy_thfiu8
+  concept: 私域流量运营的SOP标准化体系（用户分层、朋友圈内容日历、社群运营节奏、转化话术库）
+  severity: high
+- paper: yuque_for_lazy_thfiu8
+  concept: 跨境电商亚马逊精细化运营核心动作（关键词挖掘、Listing优化、广告投放结构、库存周转）
+  severity: medium
+- paper: yuque_for_lazy_thfiu8
+  concept: 短剧CPS授权渠道对接、素材去重技术标准、爆款视频结构化拆解模板
+  severity: medium
+- paper: yuque_for_lazy_thfiu8
+  concept: 知识付费产品设计全流程（课程大纲、交付SOP、学员服务体系、退费机制）
+  severity: medium
+- paper: yuque_for_lazy_thfiu8
+  concept: 本地生活/同城服务类项目的选品逻辑、地推话术、团长招募与管理
+  severity: medium
+- paper: yuque_for_lazy_thfiu8
+  concept: 法律合规风险控制（营业执照年检、商标注册、用户协议、隐私政策、税务筹划）
+  severity: medium
