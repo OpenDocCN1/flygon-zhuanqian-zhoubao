@@ -1,0 +1,162 @@
+learning_targets:
+- 理解前端构建产物标准化的核心规范：不可变产物、内容寻址、SPA 回退与 SRI 防篡改
+- 掌握生产级 Dockerfile 多阶段构建、非 Root 用户、Distroless 基础镜像、健康检查与资源限额的最佳实践
+- 熟悉 Kubernetes 部署策略（RollingUpdate/Recreate）、Ingress 流量治理、ConfigMap/Secret 解耦配置、HPA/VPA
+  弹性伸缩及 Istio Service Mesh 金丝雀发布能力
+- 理解边缘计算与边缘渲染的架构差异（Edge Runtime vs Node.js），掌握 Next.js/Nuxt Edge Functions 部署、Edge
+  KV 状态管理、Middleware 实现 A/B 测试与个性化路由
+- 掌握 GitOps 核心原则与 ArgoCD 工程化落地：声明式同步、App of Apps 模式、PreSync/PostSync Hook、自动回滚、Secret
+  安全管理与变更日志自动化
+concept_map:
+- 前端部署与发布体系
+- ├── 构建产物标准化
+- │   ├── 不可变产物与内容寻址哈希  —— P001
+- '│   ├── SPA 回退落地 (fallback: index.html)  —— P001'
+- │   ├── 资源完整性校验 SRI (Subresource Integrity)  —— P001
+- │   └── Import Maps 动态依赖映射  —— P001
+- ├── 容器化部署最佳实践
+- │   ├── 多阶段构建  —— P002
+- │   ├── 非 Root 用户与 Distroless/Alpine 精简镜像  —— P002
+- │   ├── 健康检查 liveness/readiness 探针  —— P002
+- │   └── CPU/内存 Limit/Request 资源限额  —— P002
+- ├── K8s 部署策略与 Service Mesh
+- │   ├── Deployment 策略  —— P003
+- │   ├── Ingress TLS 终结与路由重写  —— P003
+- │   ├── ConfigMap/Secret 运行时配置解耦  —— P003
+- │   ├── HPA/VPA 弹性伸缩  —— P003
+- │   └── Istio 金丝雀发布与流量镜像  —— P003
+- ├── 边缘计算与边缘渲染
+- │   ├── Edge Runtime (V8 Isolates) 与 Node.js 差异  —— P004
+- │   ├── 地理就近 SSR 渲染降低 TTFB  —— P004
+- │   ├── Edge KV / Durable Objects 分布式状态  —— P004
+- │   └── Middleware 改写/重定向/A/B 测试  —— P004
+- └── GitOps 持续交付流水线
+- ├── ArgoCD 声明式同步与 App of Apps  —— P005
+- ├── PreSync/PostSync Hook 迁移测试  —— P005
+- ├── 自动回滚 (selfHeal/prune) 与健康检查  —— P005
+- ├── Secret 管理  —— P005
+- └── 变更日志自动生成  —— P005
+life_analogy:
+- 想象前端部署发布体系是一个**现代化集装箱物流与边缘仓储网络**：
+- '- **构建产物标准化** = 给每个集装箱贴上**全球唯一 RFID 芯片（内容哈希）**，并加装**防拆封铅封（SRI）**，货物（资源）一旦装箱不可篡改，客户（浏览器）可长期缓存信任；SPA
+  回退则是**兜底配送中心**，无论客户从哪个门进，最终都能找到主入口（index.html）。'
+- '- **容器化部署** = **标准化集装箱**：Builder 阶段是装货车间（含工具、原料），Runner 阶段只运走成品箱（Distroless 极简箱），箱体贴上**健康体检码（Probes）**与**载重限额贴（Resources
+  Limit）**，非授权人员（Root）禁止驾驶。'
+- '- **K8s 与 Service Mesh** = **智能港口调度系统**：滚动更新是**分批换班卸货**，Ingress 是**智能分拣闸机**（TLS
+  检票、路由重写），Istio 是**空中交通管制**，能将 10% 航班引导至新航线（金丝雀），甚至隐形复制一份飞行数据去新机型验证（流量镜像），不影响乘客体验。'
+- '- **边缘计算/渲染** = **社区微型前置仓**：不再从中央大仓（源站）千里调拨，而是把**组装生产线（SSR 渲染）**搬到用户家门口（Edge 节点），利用
+  **Edge KV 存储** 备好常用配料（会话/偏好），Middleware 是**门口分流员**，根据会员卡（Cookie）秒级决定走 VIP 通道还是普通通道（A/B
+  测试），实现毫秒级交付。'
+- '- **GitOps** = **单一账本驱动的自动化仓储**：Git 仓库是**唯一真实账本**（期望状态），ArgoCD 是**不知疲倦的核对员**，时刻比对账本与实物（集群状态），一旦不符自动整修（同步/回滚），所有变更留痕可查，Secret
+  则是**存放在金库（Vault/Sealed Secrets）的钥匙**，账本里只记钥匙编号不记实物。'
+summary:
+- concept: 不可变产物 / 内容寻址哈希
+  desc: 文件名包含内容哈希，内容变则名变，实现长缓存与精准版本控制
+- concept: 'SPA 回退 (fallback: index.html)'
+  desc: 服务端兜底配置，保证前端路由刷新不 404，单页应用部署必备
+- concept: 资源完整性校验 SRI
+  desc: HTML 引用资源附带哈希值，浏览器校验防止 CDN 劫持篡改，供应链安全关键
+- concept: 多阶段 Docker 构建
+  desc: Builder 阶段构建编译，Runner 阶段仅复制产物，极大缩减镜像体积与攻击面
+- concept: Distroless / 非 Root
+  desc: 无 Shell、无包管理器的极简基础镜像 + 非特权用户，生产环境安全基线
+- concept: Liveness / Readiness Probe
+  desc: 存活探针决定重启，就绪探针决定流量准入，实现零停机发布与自愈
+- concept: RollingUpdate 与 maxSurge/maxUnavailable
+  desc: K8s 默认滚动更新策略参数，控制版本切换节奏与可用副本数
+- concept: Istio 金丝雀发布 / 流量镜像
+  desc: Sidecar 透明劫持流量，按权重分流至新版本或镜像复制流量验证，零风险发布
+- concept: Edge Runtime (V8 Isolates)
+  desc: 边缘运行时基于隔离区而非进程，毫秒级启动、无文件系统、API 受限，适合轻量计算
+- concept: 边缘渲染 / 地理就近 SSR
+  desc: 在 CDN 节点执行服务端渲染，物理距离极小化 TTFB，首屏性能质变
+- concept: Middleware (边缘中间件)
+  desc: 请求入站拦截层，可重写路由、注入 Header、A/B 分桶、Bot 拦截，无需改动业务代码
+- concept: GitOps 核心原则
+  desc: 声明式、版本化、拉取同步、持续协调；Git 为唯一事实来源
+- concept: ArgoCD App of Apps
+  desc: 根 Application 管理子 Application，实现多环境、多集群、多租户层级化 GitOps 管理
+- concept: PreSync / PostSync Hook
+  desc: 同步前后运行 Job（数据库迁移、冒烟测试、通知），保障发布流程完整性
+- concept: 自动回滚与 SelfHeal
+  desc: 健康检查失败自动回滚上一版本，集群漂移自动修正，保障 SLA
+- concept: Secret 管理最佳实践
+  desc: Git 不存明文 Secret，配合 Sealed Secrets / External Secrets Operator 落地加密注入
+exercises:
+- 'no': 1
+  title: 构建产物标准化实操与 SRI 验证
+  contents:
+  - '1. 使用 Vite 创建一个 Vue/React 项目，配置 `build.assetsDir` 与 `build.rollupOptions.output.entryFileNames:
+    ''assets/[name]-[hash].js''`，执行 `npm run build` 两次且不改动代码，对比两次产物哈希是否一致。'
+  - 2. 修改一行业务代码，再次构建，观察变更文件的哈希变化与未变更文件的哈希稳定性。
+  - 3. 手动计算某个产物 JS 文件的 SHA384 哈希（`openssl dgst -sha384 -binary dist/assets/index-xxx.js
+    | openssl base64 -A`），在本地预览服务器的 `index.html` 中手动添加 `integrity` 属性验证加载通过。
+  - 4. 故意篡改该 JS 文件内容（加一个空格），刷新浏览器观察控制台报错信息。
+  - 思考题：
+  - '- 为什么 HTML 入口文件通常不建议加哈希？若必须版本化 HTML，应如何配合 Import Maps 实现？'
+  - '- SRI 校验失败时，浏览器会阻塞资源加载，这对首屏指标（LCP/CLS）有何影响？如何设计降级兜底？'
+- 'no': 2
+  title: 编写生产级多阶段 Dockerfile 并排查 Alpine 兼容性问题
+  contents:
+  - 1. 为一个包含原生依赖（如 `sharp` 或 `bcrypt`）的 Node.js 项目编写两版 Dockerfile：一版基于 `node:20-alpine`，一版基于
+    `node:20-slim`（Debian）。分别构建镜像，对比镜像大小、构建耗时、运行时内存占用。
+  - '2. 尝试在 Alpine 版容器中运行 `npm rebuild` 或直接启动应用，观察是否报 `Error: The module was compiled
+    against a different Node.js version` 或 `libc.musl-x86_64.so.1 not found` 类错误。'
+  - 3. 为 Alpine 版添加 `RUN apk add --no-cache python3 make g++` 等构建工具链，重新构建并验证原生模块编译成功。
+  - 4. 配置非 Root 用户（`USER node`）、Distroless 基础镜像（`gcr.io/distroless/nodejs20-debian12`）、`livenessProbe`/`readinessProbe`
+    HTTP 探针路径、`resources.limits.memory=512Mi`。
+  - 思考题：
+  - '- 为什么 `npm ci` 比 `npm install` 更适合 CI/CD 与 Docker 构建缓存层利用？'
+  - '- Distroless 镜像无 Shell，生产环境如何进行『进容器排查』？请给出 `kubectl debug` 或临时 Sidecar 方案。'
+- 'no': 3
+  title: K8s 金丝雀发布与 Istio 流量镜像模拟演练
+  contents:
+  - 准备：拥有一个可访问的 K8s 集群（Minikube/Kind/K3s/云托管），已安装 Istio（`istioctl install --set profile=demo`）并开启
+    Sidecar 自动注入（`kubectl label namespace default istio-injection=enabled`）。
+  - 1. 部署应用 v1 版本（Deployment + Service），通过 Ingress/Gateway 暴露，验证访问正常。
+  - 2. 部署应用 v2 版本（仅修改返回文案或 Header 标识版本），不单独暴露 Service。
+  - 3. 编写 Istio `DestinationRule` 定义 `v1`、`v2` 两个子集，编写 `VirtualService` 将 10% 流量路由至
+    `v2`，其余 90% 至 `v1`。持续请求 100 次，统计版本分布是否符合预期。
+  - 4. 修改 `VirtualService` 配置 `mirror` 字段，将 100% 生产流量镜像一份至 `v2`（镜像流量不返回响应），观测 v2 Pod
+    日志是否收到请求，主链路是否无感知。
+  - 5. 模拟 v2 版本异常（如返回 500 或挂起），配合 `DestinationRule` 的 `outlierDetection`（熔断）与 `retries`
+    策略，观察 Istio 是否自动剔除故障实例、重试至 v1。
+  - 思考题：
+  - '- 金丝雀发布要求 API 向后兼容，若 v2 数据库 Schema 变更（如字段重命名），如何设计数据库迁移策略配合滚动发布实现零停机？'
+  - '- 流量镜像会产生双倍下游调用压力，若下游为非幂等接口（如扣款），镜像流量可能造成严重副作用，如何在 Istio 层面或应用层面规避？'
+- 'no': 4
+  title: Edge Runtime 受限环境下的 Next.js 中间件与 KV 状态实战
+  contents:
+  - 准备：Vercel/Cloudflare Pages 账号或本地模拟环境（`wrangler dev` / `vercel dev`）。
+  - 1. 创建 Next.js App Router 项目，设置 `export const runtime = 'edge'` 的页面与 Middleware。
+  - 2. 在 Middleware 中尝试引入 Node.js 原生模块（`crypto.createHash`、`fs.readFile`、`path.resolve`），观察构建报错或运行时错误。改用
+    Web Crypto API (`crypto.subtle`)、Edge 兼容库（`@edge-runtime/cookies` 等）重写。
+  - 3. 接入 Vercel KV / Cloudflare KV / Upstash Redis (HTTP API)，在 Middleware 中读取 Cookie
+    `user_id`，查 KV 获取用户偏好 `theme`，重写 URL 至 `/dashboard?theme=dark` 实现无闪烁个性化首屏。
+  - 4. 实现 A/B 测试 Middleware：基于请求 IP Hash 或 Cookie `ab_bucket` 将 20% 流量重写至 `/beta`
+    页面，其余走 `/stable`，验证边缘分流零客户端跳转。
+  - 思考题：
+  - '- Edge Function 执行时间限制通常 10-50ms CPU 时间，若 Middleware 需串行调用多个外部 HTTP API（鉴权、风控、用户画像），极易超时。请设计『并行预取
+    + 超时兜底』的异步编排模式（提示：`Promise.race` / `AbortController`）。'
+  - '- Edge KV 多为最终一致性，跨区域写入后读取可能读到旧值。在『修改偏好 -> 立即刷新』场景下，如何保证『读己之写』一致性？'
+- 'no': 5
+  title: GitOps 仓库结构设计与 ArgoCD 自动回滚演练
+  contents:
+  - 准备：Git 仓库（GitHub/GitLab/Gitea），ArgoCD 实例，目标 K8s 集群。
+  - 1. 规划 GitOps 仓库目录结构：`apps/prod/frontend/{kustomization.yaml, deployment.yaml,
+    service.yaml, rollout.yaml}`、`apps/staging/...`、`clusters/prod/argocd-apps.yaml`
+    (App of Apps 根应用)。
+  - 2. 编写 `kustomization.yaml` 使用 `images` 字段管理镜像 Tag，`commonLabels` 打标，`patches`
+    注入环境差异化配置（副本数、资源限额）。
+  - 3. 在 ArgoCD 中创建根 Application 指向 `clusters/prod/argocd-apps.yaml`，观察其自动创建子 Application
+    并同步资源。
+  - 4. 模拟发布流程：修改 `kustomization.yaml` 中镜像 Tag 为 `v2` -> 提交合并 -> 观察 ArgoCD 检测变更 ->
+    自动同步（或手动同步）-> 验证 Pod 滚动更新。
+  - '5. 模拟故障回滚：故意推送一个会导致 CrashLoopBackOff 的坏镜像 Tag `v3-bad` -> 观察 ArgoCD `selfHeal`
+    与 `rollback` 行为（需配置 `syncPolicy.automated.allowEmpty: false` 与健康检查），验证是否自动回滚至
+    `v2`。'
+  - 6. 配合 Sealed Secrets：使用 `kubeseal` 加密生产环境 DB 密码生成 `SealedSecret` 资源提交 Git，ArgoCD
+    同步后验证 Pod 能正常解密启动。
+  - 思考题：
+  - '- ArgoCD 默认 3 分钟轮询一次 Git 仓库，如何实现『推送即同步』的 Webhook 触发模式？需注意 Webhook 重放与幂等性。'
+  - '- 单集群资源数超过 10 万时，ArgoCD Application Controller 成为性能瓶颈，请给出分片策略或多实例部署方案核心思路。'
