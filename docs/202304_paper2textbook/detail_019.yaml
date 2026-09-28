@@ -1,0 +1,549 @@
+learning_targets:
+- 理解前端国际化（i18n）与无障碍（a11y）工程化的必要性与核心标准
+- 掌握运行时与编译时 i18n 方案的架构差异、ICU MessageFormat 语法及 TypeScript 类型安全落地
+- 掌握翻译管理全流程工程化：CI/CD 集成、术语库一致性校验、机器翻译预译与人工复核流水线
+- 熟练应用 WCAG 2.1 AA 级标准：语义化 HTML、ARIA 补全模式、键盘导航与焦点管理、颜色对比度达标
+- 能按 WAI-ARIA APG 规范完成组件库级无障碍适配，输出合规报告与自动化回归测试体系
+- 能搭建 i18n+a11y 自动化防护体系：Pre-commit/CI/Release 多层门禁、动态键/误报治理、人工辅助测试计划
+- 掌握 AI 赋能 i18n+a11y 工程化的提示词工程与自动化工作流
+- 了解前端国际化与无障碍工程化在多模态、多平台、AI 原生应用场景下的扩展实践
+concept_map:
+- 前端国际化与无障碍工程化
+- ├── 国际化（i18n）方案选型
+- │   ├── 运行时库（vue-i18n/react-i18next） —— P001
+- │   ├── 编译时库（LinguiJS/FormatJS）   —— P001
+- │   ├── ICU MessageFormat 标准        —— P001
+- │   ├── TypeScript 类型安全键值      —— P001
+- │   └── AI 协作翻译与内容生成工作流  —— PbGkdX4YVoO02mxYlYKcbgASnSg.md, 20230418_036.md, 20230418_039.md,
+  20230418_041.md, 20230418_044.md, 20230418_046.md, 20230418_106.md
+- ├── 翻译管理工程化
+- │   ├── TMS 平台接入（Crowdin/Lokalise） —— P002
+- │   ├── GitHub Actions 双向同步流水线   —— P002
+- │   ├── 术语库一致性校验与机翻预译      —— P002
+- │   ├── 发布门禁：翻译完整率 ≥ 99%     —— P002
+- │   └── AI 辅助术语提取/一致性校验/机翻评分  —— 20230418_039.md, 20230418_106.md
+- ├── 无障碍核心标准（WCAG 2.1 AA）
+- │   ├── POUR 四大原则与 27 条成功标准  —— P003
+- │   ├── 语义化 HTML 优于 ARIA           —— P003
+- │   ├── 键盘导航、焦点陷阱、焦点指示器  —— P003
+- │   ├── 颜色对比度 ≥ 4.5:1、文本缩放 200% —— P003
+- │   ├── NVDA/VoiceOver/TalkBack 三端测试 —— P003
+- │   └── AI 辅助无障碍审计/自动化修复建议  —— 20230418_106.md, 20230418_046.md
+- ├── 组件库无障碍适配
+- │   ├── WAI-ARIA APG 复合组件模式      —— P004
+- │   ├── 基础组件合规清单与组合式函数   —— P004
+- │   ├── 设计系统文档化：键盘/ARIA/播报表 —— P004
+- │   ├── Storybook + axe-core 自动化回归 —— P004
+- │   └── AI 生成无障碍测试用例/ARIA 属性补全  —— 20230418_074.md, 20230418_117.md, 20230418_124.md
+- ├── 自动化回归防护体系
+- │   ├── 分层门禁：Pre-commit / CI / Release —— P005
+- │   ├── 工具链：axe-core / Lighthouse CI / i18n-check —— P005
+- │   ├── 动态键忽略与误报白名单治理    —— P005
+- │   ├── 定期人工辅助测试计划（核心旅程） —— P005
+- │   └── AI 驱动的误报聚类/动态规则更新/智能门禁  —— 20230418_074.md, 20230418_106.md
+- └── 多模态与跨平台扩展
+- '    ├── 多模态 RAG：文档理解与跨模态检索 —— 20230418_038.md'
+- '    ├── 边缘计算与边缘渲染：Cloudflare Workers/Vercel Edge —— 20230418_074.md'
+- '    ├── AI 原生应用架构：LLM 作为推理引擎/决策中枢 —— 20230418_117.md'
+- '    └── 跨端无障碍一致性：Web/Native/HarmonyOS 统一适配 —— 20230418_124.md'
+life_analogy:
+- 想象前端应用是一家**连锁跨国餐厅**：
+- '- **i18n 方案选型** = 选择**菜单制作方式**：'
+- '  - 运行时库 = **现点现翻**，服务员随时能改菜名，但厨房（浏览器）负担重、出菜慢'
+- '  - 编译时库 = **总部预印好多语言菜单**，分店（用户）直接拿对应语言版，出菜快、不易错'
+- '- **ICU MessageFormat** = **通用的菜品规格书**，能自动处理“1 份/2 份/5 份”（复数）、“素/荤”（选择）、嵌套套餐，避免人工写
+  if-else 出错'
+- '- **翻译管理流水线** = **总部与各国分店的自动化供应链**：菜单改版（源文件变更）自动推送翻译中心，翻译好自动回流分店，术语表保证“招牌菜”全球叫法一致'
+- '- **WCAG 2.1 AA** = **建筑无障碍规范**：坡道（键盘导航）、盲文标识（ARIA/语义化 HTML）、色盲友好配色（对比度）、语音广播（屏幕阅读器）'
+- '- **组件库适配** = **标准化无障碍预制件**：无障碍门、无障碍电梯、盲文按钮，装修（业务开发）直接用，不用每家店自己焊'
+- '- **自动化回归防护** = **每日巡检机器人 + 开业前验收**：机器人（CI/axe-core）每晚巡检坡道是否被堵、盲文是否脱落，开业前（Release）总验收，发现问题立即整改，不让顾客进店踩坑'
+- '- **AI 赋能工程化** = **智能总厨 + 自动化质检员**：AI 根据食谱（Prompt）批量生产菜单（翻译/文案/代码），质检员（自动化测试）实时尝味（扫描/审计），发现异味（违规/缺键）立即下架整改，并持续优化食谱（Prompt
+  迭代）'
+summary:
+- concept: 运行时 vs 编译时 i18n
+  desc: 运行时库开发体验好支持热更新，编译时库包体积小、类型安全、首屏性能优，按场景选型
+- concept: ICU MessageFormat
+  desc: 国际化标准语法，原生支持复数分类、选择格式、嵌套插值，覆盖 CLDR 所有语言规则
+- concept: 翻译管理工程化
+  desc: TMS + CI/CD 实现源文件与翻译双向同步，术语库+机翻预译降本增效，发布门禁守住完整率底线
+- concept: WCAG 2.1 AA 级
+  desc: 企业级合规基线：可感知/可操作/可理解/健壮四大原则，27 条成功标准，法律风险与商业价值双重保障
+- concept: 语义化 HTML 优先
+  desc: 原生标签自带角色/状态/键盘交互，是无障碍地基；ARIA 仅作语义缺口兜底，滥用反害无障碍
+- concept: 键盘导航与焦点管理
+  desc: Tab 顺序符合视觉、模态框焦点陷阱、焦点指示器永不隐藏、跳转链接直达主内容
+- concept: WAI-ARIA APG 复合组件模式
+  desc: Dialog/Menu/Combobox/Tabs 等复杂组件必须遵循标准交互模式（键盘、ARIA 属性、焦点流转）
+- concept: 组件库无障碍兜底
+  desc: 基础设施层内置合规，业务侧开箱即用；Storybook + axe-core 每提交必扫，阻断违规合并
+- concept: 分层自动化门禁
+  desc: Pre-commit 轻量 lint → CI 全量 axe + i18n 完整率 → Release Lighthouse CI 综合审计，左移合规成本
+- concept: 动态键与误报治理
+  desc: 动态拼接键用显式常量或忽略注释，建立规则白名单，避免误报导致团队忽视门禁
+- concept: 人工辅助测试闭环
+  desc: 自动化仅覆盖 30-50% 规则，需月度/季度 NVDA/VoiceOver 真机实测核心用户旅程，补齐自动化盲区
+- concept: AI 协作翻译与内容生成工作流
+  desc: 基于角色设定、结构化 Prompt、RAG 检索、少样本微调，实现翻译/文案/代码的批量生成与质量把关
+- concept: AI 辅助无障碍审计与自动化修复
+  desc: 利用 LLM 理解组件语义、生成 ARIA 属性、编写测试用例、聚类误报、动态更新规则集，提升审计覆盖率与修复效率
+- concept: 多模态 RAG 与跨模态检索
+  desc: 攻克表格结构化解析、图表 OCR 理解、图像向量化检索，构建统一的多模态知识库检索生成管线
+- concept: 边缘渲染与边缘计算部署
+  desc: Cloudflare Workers/Vercel Edge/AWS Lambda@Edge 部署 SSR/中间件，地理就近渲染降低 TTFB，Edge
+    KV 存储会话/配置
+- concept: AI 原生应用架构
+  desc: LLM 作为推理引擎/决策中枢，构建具备记忆、规划、工具使用与自我进化能力的复杂智能系统
+- concept: 跨端无障碍一致性适配
+  desc: Web/Native/HarmonyOS 统一无障碍适配标准，共享语义结构、ARIA 映射、焦点管理逻辑，保证多端体验一致
+exercises:
+- 'no': 1
+  title: ICU MessageFormat 实战与类型安全
+  contents:
+  - 给定以下翻译需求：
+  - 1. 显示“用户 {name} 有 {count} 条未读消息”，中文无复数变化，英文需区分单复数（message/messages）
+  - 2. 显示“性别：{gender, select, male {男} female {女} other {其他}}”
+  - 3. 嵌套：{count, plural, one {# 条消息} other {# 条消息，其中 {unread, plural, one {# 条未读}
+    other {# 条未读}}}}
+  - 任务：
+  - 1. 用 ICU MessageFormat 语法编写对应的英/中翻译字符串
+  - 2. 若使用 LinguiJS，`lingui extract` 后生成的 .po 文件中 msgid/msgstr 结构长什么样？
+  - '3. 如何配置 TypeScript 让 `t(''msg.key'', { count: 1 })` 在 count 传字符串时编译报错？'
+  - 思考题：
+  - '- 为什么阿拉伯语需要 6 种复数形式？ICU 如何表示？'
+  - '- 运行时解析 ICU 与编译时生成函数在性能与包体积上的量级差异？'
+  - '- 如何设计 Prompt 让 LLM 自动生成符合 ICU 语法的翻译字符串并校验完整性？'
+- 'no': 2
+  title: 搭建翻译管理 CI/CD 流水线
+  contents:
+  - 场景：Monorepo 包含 `apps/web`（React）与 `packages/ui`（共享组件库），翻译文件分别位于 `apps/web/locales`
+    与 `packages/ui/locales`，源语言 en。
+  - 任务：设计一个 GitHub Actions Workflow 实现：
+  - 1. 监听两个目录下 `en.json` 变更，自动推送至 Crowdin（或模拟的本地脚本）
+  - 2. 定时/手动触发拉取所有语言翻译，生成包含两个包翻译更新的 PR
+  - 3. PR 检查阶段运行术语一致性校验脚本（术语表 `glossary.csv`：`登录,login,sign in`），发现不一致阻断合并
+  - 4. 发布前（Tag 推送）校验所有语言翻译完整率 ≥ 99%，不达标阻断发布
+  - 产出：
+  - '- 画出流水线阶段图（Mermaid 或文字描述）'
+  - '- 编写关键步骤的 Shell/Node.js 伪代码（术语校验、完整率计算）'
+  - 思考题：
+  - '- 微前端子应用共享语言包时，如何避免版本不一致导致的闪烁？'
+  - '- 机翻预译质量不稳定，如何在流水线中引入‘置信度阈值’自动跳过低置信度译文？'
+  - '- 如何利用 LLM 进行术语语义一致性校验（而非仅字符串匹配）？'
+- 'no': 3
+  title: 无障碍合规自测与自动化门禁
+  contents:
+  - 给定一个包含以下问题的 Vue 3 单文件组件 `UserProfile.vue`：
+  - '```vue'
+  - <template>
+  - '  <div class="card">'
+  - '    <img :src="avatar" />'
+  - '    <h3>{{ name }}</h3>'
+  - '    <span class="badge" :class="role">{{ role }}</span>'
+  - '    <div @click="edit" class="btn">编辑</div>'
+  - '    <input v-model="email" placeholder="邮箱" />'
+  - '    <span v-if="error" class="error">{{ error }}</span>'
+  - '  </div>'
+  - </template>
+  - '```'
+  - 任务：
+  - 1. 列出该组件违反 WCAG 2.1 AA 的至少 5 个具体问题（引用成功标准编号，如 1.1.1、2.1.1、4.1.2 等）
+  - 2. 给出修复后的模板代码，补全语义化标签、ARIA 属性、焦点管理、关联关系
+  - 3. 编写一个 Playwright + axe-core 测试用例，自动检测该组件的无障碍违规并输出报告
+  - 4. 在 GitHub Actions 中配置该测试作为 `required` status check
+  - 思考题：
+  - '- `role="button"` 的 `<div>` 与原生 `<button>` 在无障碍树中的差异？还需补全哪些键盘交互？'
+  - '- 动态错误信息如何通过 `aria-live` 让屏幕阅读器即时播报？`polite` 与 `assertive` 如何选择？'
+  - '- axe-core 无法检测的典型问题有哪些？为何仍需人工测试？'
+  - '- 如何设计 Prompt 让 LLM 自动生成无障碍测试用例并覆盖 axe-core 盲区？'
+- 'no': 4
+  title: 组件库无障碍适配：实现一个符合 APG 的 Combobox
+  contents:
+  - 参考 WAI-ARIA Authoring Practices 1.2 - Combobox Pattern（自动完成下拉），要求：
+  - 1. 支持键盘交互：
+  - '   - 输入框：输入过滤、Enter 选中、Esc 关闭、上下键移动高亮'
+  - '   - 下拉列表：Home/End 跳转首尾、Tab 移出组件'
+  - 2. ARIA 属性完备：
+  - '   - `aria-controls` 关联列表、`aria-expanded`、`aria-activedescendant`、`role="combobox"`/`listbox`/`option`'
+  - '   - 选中项 `aria-selected="true"`'
+  - 3. 焦点管理：打开时焦点留在输入框，通过 `aria-activedescendant` 操作虚拟焦点；关闭时焦点不丢失
+  - 4. 封装为 Vue 3 组合式函数 `useCombobox(options, props)` 供组件复用
+  - 任务：
+  - '- 画出组件状态机（闭合/打开/加载/无结果）与键盘事件转移表'
+  - '- 实现核心 `useCombobox` 逻辑伪代码（含 `onKeydown`、`updateActiveDescendant`、`toggleList`）'
+  - '- 说明如何在 Storybook 中编写交互测试（play function）验证键盘流程'
+  - '- 如何接入 `@storybook/addon-a11y` 让该组件每次提交自动跑 axe 扫描？'
+  - 思考题：
+  - '- `aria-activedescendant` 与 `roving tabindex` 两种焦点管理模式的优劣对比？'
+  - '- 移动端 TalkBack/VoiceOver 手势操作 Combobox 时，虚拟光标与真实焦点如何配合？'
+  - '- 如何利用 LLM 生成 Combobox 的完整键盘交互测试矩阵与 ARIA 合规检查清单？'
+- 'no': 5
+  title: i18n+a11y 综合门禁治理：误报白名单与动态键策略
+  contents:
+  - 背景：项目接入 `axe-core` + `i18n-ally` CI 门禁后，团队反馈：
+  - 1. 第三方嵌入的地图组件（iframe）频繁触发 `iframe-title` 违规，但业务无法控制 iframe 内容
+  - 2. 组件库 `Icon` 组件故意 `aria-hidden="true"`，却被 axe 标记为‘装饰性元素无需隐藏’警告
+  - 3. 业务代码大量使用动态拼接翻译键：`t('error.' + errorCode)`，导致 `i18n-check` 误报‘缺失键’
+  - 4. 颜色对比度违规多来自设计稿品牌色，开发无权修改，需设计侧配合
+  - 任务：
+  - 1. 设计 `axe-core` 配置对象，针对以上 1、2 制定规则白名单/上下文忽略策略
+  - 2. 设计 `i18n-check` 配置，支持 `// i18n-ignore` 注释、常量数组显式声明、正则排除动态键路径
+  - 3. 制定《无障碍/国际化违规分级与响应 SOP》：
+  - '   - P0（阻断合并）：自有代码硬性违规（缺失 alt、表单无 label、翻译缺失）'
+  - '   - P1（警告不阻断）：第三方组件、品牌色对比度、axe 最佳实践类规则'
+  - '   - P2（技术债）：需重构的遗留模式（如大量动态键）'
+  - 4. 设计月度人工测试计划模版：覆盖核心旅程、测试设备/AT 组合、缺陷记录与追踪字段
+  - 思考题：
+  - '- 如何量化‘门禁收益 vs 误报成本’？引入哪些指标（如：阻断真实 Bug 数 / 误报数、平均修复时长）？'
+  - '- 若团队规模扩大到 50+ 人，如何避免‘门禁被绕过’（如 `--no-verify`）成为常态？'
+  - '- 如何构建 LLM 驱动的误报自动分类与规则推荐系统，实现白名单的动态维护？'
+- 'no': 6
+  title: AI 赋能 i18n+a11y 工程化实战：Prompt 设计与自动化工作流
+  contents:
+  - 场景：团队希望引入 LLM（如 GPT-4 / Claude）辅助 i18n 翻译提取、术语库构建、无障碍代码审查、测试用例生成。
+  - 任务：
+  - 1. 设计一套结构化 Prompt 模板体系，覆盖以下子任务：
+  - '   - 翻译提取与 ICU 语法生成（角色：资深本地化工程师）'
+  - '   - 术语一致性校验与语义对齐（角色：术语学家）'
+  - '   - 无障碍代码审查与 ARIA 补全建议（角色：无障碍专家）'
+  - '   - 无障碍测试用例生成（角色：QA 工程师）'
+  - '   - 误报分析与规则白名单推荐（角色：DevOps 工程师）'
+  - 2. 基于上述模板，编写一个 Node.js 脚本（伪代码），实现：
+  - '   - 读取暂存区变更文件 → 构建上下文 → 调用 LLM API → 解析结构化输出 → 写入 PR 评审评论 / 生成修复补丁'
+  - 3. 设计 RAG 增强方案：接入团队内部术语库、组件库文档、WCAG 规范、历史 PR 修复记录作为知识库，提升 LLM 专业度。
+  - 4. 制定《AI 协作质量红线》：LLM 输出必须经人工复核/自动化回归测试通过方可合并，建立审计日志与追溯机制。
+  - 思考题：
+  - '- 如何防止 LLM 幻觉导致错误翻译/错误 ARIA 属性进入生产环境？'
+  - '- Prompt 版本管理如何与代码版本管理集成（如 Git 暂存钩子、PR 模板）？'
+  - '- 多语言、多框架（Vue/React/Svelte）、多平台（Web/小程序/App）下的 Prompt 复用与适配策略？'
+- 'no': 7
+  title: 多模态与边缘部署场景下的 i18n+a11y 扩展实践
+  contents:
+  - 背景：业务拓展至多模态文档（PDF/图表/视频）、边缘渲染、跨端应用。
+  - 任务：
+  - 1. 分析多模态文档国际化的难点：文本抽取、布局保持、图表本地化、视频字幕生成与同步。设计基于多模态 RAG 的处理管线（参考素材 20230418_038.md、20230418_074.md）。
+  - 2. 探讨边缘运行时（Edge Runtime）对 i18n 运行时库的限制：无 Node.js API、内存/CPU 受限、冷启动延迟。给出边缘兼容的 i18n
+    方案选型建议（编译时优先、静态字典、流式传输）。
+  - 3. 制定跨端无障碍一致性规范：Web (ARIA) / iOS (VoiceOver) / Android (TalkBack) / HarmonyOS
+    的语义映射表、焦点管理统一接口、测试矩阵。
+  - 4. 设计一个最小化的边缘部署 Demo：包含 i18n 字典加载、无障碍路由守卫、多语言 SEO 元标签注入，部署至 Cloudflare Workers
+    并验证 Lighthouse CI 分数。
+  - 思考题：
+  - '- PDF 复杂表格的多语言重排版如何保证语义与结构双重一致？'
+  - '- Edge Runtime 下 `Intl.Segmenter` / `Intl.DateTimeFormat` 等原生 API 的可用性与 Polyfill
+    成本？'
+  - '- 原生端无障碍 API（UIAccessibility / AccessibilityNodeInfo）与 Web ARIA 的映射冲突如何解决？'
+units:
+- 'no': 1
+  name: i18n 方案选型 —— 运行时与编译时的工程权衡
+  points:
+  - '**为什么需要这个概念？**'
+  - '- 前端应用出海面临多语言、多地区、复数规则差异、性别语法等复杂性，硬编码字符串无法维护'
+  - '- 需要在开发期（类型安全、包体积）与运行期（动态切换、按需加载）间寻找最优平衡点'
+  - '- 缺乏统一标准会导致翻译键管理混乱、插值语法不兼容、ICU 语法支持缺失'
+  - '**核心定义**'
+  - '- 国际化方案分为运行时库和编译时库两大流派'
+  - '- 运行时库：`vue-i18n`、`react-i18next`、`i18next`，在浏览器解析翻译函数与 ICU 语法，开发体验好但包体积大（~15-30KB）'
+  - '- 编译时库：`LinguiJS`、`FormatJS (react-intl)`，构建期将 ICU MessageFormat 编译为原生 JS 函数，运行时极轻（~2-5KB），支持
+    Tree-shaking 与类型安全键值'
+  - '- 核心标准：ICU MessageFormat，定义 `{count, plural, one {# book} other {# books}}` 等复数、选择、嵌套语法'
+  - '**关键性质**'
+  - '- 类型安全：编译时方案可从翻译文件自动生成 TS 类型定义，拼写错误编译报错；运行时方案需额外配置插件实现'
+  - '- 包体积与性能：编译时方案移除运行时解析器，首屏 JS 体积显著降低；运行时方案支持热更新翻译无需重建'
+  - '- 复数/性别/选择格式：ICU 标准覆盖 CLDR 语言复数分类规则（如阿拉伯语 6 种复数形态），手写逻辑极易出错'
+  - '**典型例子**'
+  - '- Vue 3 + `vue-i18n@9` Composition API：`const { t } = useI18n(); t(''message.hello'',
+    { name: ''World'' })`，配合 `@intlify/unplugin-vue-i18n` 实现编译时优化'
+  - '- React + `LinguiJS`：`<Trans id="msg">Hello {name}</Trans>` 编译为 `msg({name})`，提取命令
+    `lingui extract` 生成 `.po/.json` 翻译文件'
+  - '**边界条件**'
+  - '- 纯静态站点（Astro/Next.js SSG）优先编译时方案，实现零运行时开销'
+  - '- 高频动态换语言、需支持用户自定义翻译覆盖的 SaaS 平台，运行时方案更灵活'
+  - '- 微前端子应用需共享 i18n 实例与语言包，需约定统一键名规范与加载时机'
+  - '**素材溯源**'
+  - '- 来源：`PbGkdX4YVoO02mxYlYKcbgASnSg.md`，大纲第19章第1节'
+  - '- 角色：`definition`，定义 i18n 方案分类、核心标准与选型依据'
+  sources:
+  - paper: PbGkdX4YVoO02mxYlYKcbgASnSg.md
+    role: definition
+  - paper: 20230418_036.md
+    role: improve
+  - paper: 20230418_039.md
+    role: improve
+  - paper: 20230418_041.md
+    role: improve
+  - paper: 20230418_044.md
+    role: improve
+  - paper: 20230418_046.md
+    role: improve
+  - paper: 20230418_106.md
+    role: improve
+  excerpts:
+  - 对比 vue-i18n/react-i18next/lingui/formatjs 架构差异、ICU 语法处理复数/选择/嵌套、编译时优化包体积、TypeScript
+    类型安全键值。
+  - 如何利用 GPT 赋能员工提效，帮我每月多挣 10 万元？
+  - 效率飙升！跨境电商领域的 ChatGPT 应用指南 v1.0
+  - 浅谈 ChatGPT 在跨境电商的应用场景和机会
+  - 胎教级标题党培训手册——4 步让 GPT 成为小红书标题大师
+  - 7 天 9000+ 份红包雨，我用影刀 RPA 爬取生财见面会群微信红包数据
+- 'no': 2
+  name: 翻译管理工程化 —— 从人工复制粘贴到 CI/CD 自动化流水线
+  points:
+  - '**为什么需要这个概念？**'
+  - '- 翻译文件散落在仓库多处，手动协调翻译人员、核对键值完整性、合并冲突极其低效且易错'
+  - '- 缺乏术语库导致同一术语在不同模块翻译不一致（如「登录」vs「签到」），损害用户信任'
+  - '- 发布前发现缺失翻译键导致回滚或上线后紧急热修复，缺乏自动化质量门禁'
+  - '**核心定义**'
+  - '- 引入翻译管理平台（TMS）：Crowdin、Lokalise、Phrase 等 SaaS 服务，或自建 `Tolgee`/`SimpleLocalize`'
+  - '- CI 集成：GitHub Actions 触发 `push`/`pull_request` 自动推送源语言文件至 TMS、拉取最新翻译文件生成 PR'
+  - '- 术语库：定义项目级术语表（TBX/CSV 格式），CI 校验翻译文件术语一致性，阻断不合规 PR'
+  - '- 机器翻译预译：集成 DeepL/Google/Azure 翻译 API，新增键自动预译，人工仅做复核，降低 80% 翻译成本'
+  - '**关键性质**'
+  - '- 双向同步：源文件变更自动推送，翻译完成自动回流，消除人工下载上传环节'
+  - '- 完整率门禁：发布流水线强制校验所有语言翻译完整率 ≥ 99%，缺失键视为阻断项'
+  - '- 版本发布同步：打 Tag 触发 TMS 发布快照，生产环境回滚时对应语言包版本可追溯'
+  - '**典型例子**'
+  - '- GitHub Actions Workflow：`name: i18n-sync`，`on: push: paths: [''src/locales/en.json'']`，步骤：`crowdin-action/upload-sources`
+    → `crowdin-action/download` → `create-pull-request`'
+  - '- 术语校验脚本：`node scripts/check-terminology.js --glossary=glossary.csv --locales=src/locales/*.json`，输出不一致报告并返回非零退出码'
+  - '**边界条件**'
+  - '- 中小项目可用 GitHub Wiki/CSV + 手动 PR 替代付费 TMS，但需自建校验脚本'
+  - '- 高安全合规项目（金融/政务）数据不可出境，需部署私有化 TMS 或仅用本地工具链'
+  - '- 翻译文件格式统一为 JSON/PO/YAML，避免格式转换丢失元数据（上下文、复数形式）'
+  - '**素材溯源**'
+  - '- 来源：`PbGkdX4YVoO02mxYlYKcbgASnSg.md`，大纲第19章第2节'
+  - '- 角色：`method`，给出翻译管理的工程化落地流程与工具链'
+  sources:
+  - paper: PbGkdX4YVoO02mxYlYKcbgASnSg.md
+    role: method
+  - paper: 20230418_039.md
+    role: improve
+  - paper: 20230418_106.md
+    role: improve
+  excerpts:
+  - 接入 Crowdin/Lokalise/Phrase、GitHub Actions 自动推拉翻译文件、术语库一致性校验、机翻预译+人工复核流水线、发布时校验翻译完整率。
+  - 效率飙升！跨境电商领域的 ChatGPT 应用指南 v1.0
+  - 7 天 9000+ 份红包雨，我用影刀 RPA 爬取生财见面会群微信红包数据
+- 'no': 3
+  name: 无障碍核心标准 —— WCAG 2.1 AA 级达标清单与落地执行
+  points:
+  - '**为什么需要这个概念？**'
+  - '- 法律合规风险：欧盟《无障碍指令》、美国 ADA、中国《无障碍环境建设法》强制要求公共服务数字产品达标'
+  - '- 商业价值：全球 15%+ 人口有残障，无障碍即可用性，改善 SEO、降低跳出率、扩大受众'
+  - '- 技术债：事后整改成本是设计期的 10-100 倍，需建立「左移」质量门禁'
+  - '**核心定义**'
+  - '- WCAG 2.1 四大原则（POUR）：可感知、可操作、可理解、健壮，共 13 条准则、50 条成功标准（A/AA/AAA 级）'
+  - '- 企业级通常以 AA 级为基线（27 条标准），覆盖文本替代、时间媒体、适应性、可辨识、键盘可达、充足时间、癫痫防护、可导航、输入模式、可读性、可预测、输入协助、兼容性'
+  - '- 核心技术手段：语义化 HTML（原生无障碍）、ARIA 属性补全语义缺口、键盘导航焦点管理、颜色对比度 ≥ 4.5:1、文本缩放 200% 无功能损失'
+  - '**关键性质**'
+  - '- 语义化 HTML 优先：`<button>`、`<nav>`、`<main>`、`<h1-h6>` 原生携带角色/状态/键盘交互，无需 ARIA'
+  - '- ARIA 仅作兜底：`role`、`aria-label`、`aria-expanded`、`aria-controls` 等修补非语义标签（如 `<div
+    role="button"`）'
+  - '- 焦点管理：Tab 顺序符合视觉顺序、模态框焦点陷阱、跳转链接、焦点指示器可见（`outline: none` 禁用需替代方案）'
+  - '- 屏幕阅读器测试：NVDA (Win)、VoiceOver (Mac/iOS)、TalkBack (Android) 必测三端'
+  - '**典型例子**'
+  - '- 图片替代文本：装饰性图 `alt=""`，信息性图 `alt="销售增长趋势图，Q1 环比 +12%"`，复杂图表提供 `longdesc` 或可见数据表'
+  - '- 表单无障碍：`<label for="email">邮箱</label><input id="email" aria-describedby="email-hint"
+    required>`，错误信息关联 `aria-invalid="true" aria-errormessage="email-error"`'
+  - '**边界条件**'
+  - '- 动态内容更新需 `aria-live="polite"`/`assertive` 通知屏幕阅读器，避免丢失关键状态变更'
+  - '- 自定义复合组件（下拉菜单、标签页、树形控件）必须严格遵循 WAI-ARIA Authoring Practices 交互模式'
+  - '- 第三方嵌入内容（地图、视频播放器、广告）若不可控，需提供无障碍替代方案或豁免声明'
+  - '**素材溯源**'
+  - '- 来源：`PbGkdX4YVoO02mxYlYKcbgASnSg.md`，大纲第19章第3节'
+  - '- 角色：`definition`，定义 WCAG 标准体系、核心技术要求与测试矩阵'
+  sources:
+  - paper: PbGkdX4YVoO02mxYlYKcbgASnSg.md
+    role: definition
+  - paper: 20230418_106.md
+    role: improve
+  - paper: 20230418_046.md
+    role: improve
+  excerpts:
+  - 逐条落地可感知/可操作/可理解/健壮四大原则：颜色对比度、文本缩放、ARIA Landmarks/Roles/States、Tab 顺序、焦点陷阱、屏幕阅读器测试。
+  - 7 天 9000+ 份红包雨，我用影刀 RPA 爬取生财见面会群微信红包数据
+  - 胎教级标题党培训手册——4 步让 GPT 成为小红书标题大师
+- 'no': 4
+  name: 组件库无障碍适配 —— 基础设施层的合规兜底
+  points:
+  - '**为什么需要这个概念？**'
+  - '- 业务开发若逐个页面手写 ARIA、焦点逻辑，重复造轮子且极易遗漏，导致合规率低、维护成本高'
+  - '- 组件库作为基础设施，应内置无障碍最佳实践，让业务「开箱即合规」，仅需关注业务语义'
+  - '- 设计系统需输出无障碍规范文档，统一交互模式（如对话框 ESC 关闭、焦点回归触发元素）'
+  - '**核心定义**'
+  - '- 按 WAI-ARIA Authoring Practices 1.2 (APG) 实现复合组件标准交互模式：Dialog、Menu、Combobox、Tabs、Tree、Listbox、Accordion、Tooltip
+    等'
+  - '- 基础组件合规清单：Button（原生按钮）、Link（真链接 vs 按钮）、Input（关联 Label/错误态）、Icon（装饰性 `aria-hidden="true"`）、Focus
+    Trap 组合式函数'
+  - '- 设计系统文档化：每个组件文档包含「键盘交互表」「ARIA 属性表」「屏幕阅读器预期播报」「WCAG 映射标准」'
+  - '**关键性质**'
+  - '- 复合组件交互模式标准化：如 `Combobox` 必须支持 `aria-controls` 关联列表、`aria-activedescendant`
+    高亮项、上下键导航、Enter 确选、Esc 关闭、输入过滤'
+  - '- 组合式函数封装通用逻辑：`useFocusTrap`、`useAriaLive`、`useKeyboardNavigation`、`useId` 生成唯一
+    ID 关联控件'
+  - '- 自动化回归：Storybook 集成 `@storybook/addon-a11y` (axe-core) 每次提交跑全组件库扫描，CI 阻断违规合并'
+  - '**典型例子**'
+  - '- `@enterprise/ui` 封装 `ElDialog` → `BaseDialog`：内置 `FocusTrap`、焦点回归、`aria-modal="true"`、`role="dialog"`、`aria-labelledby`
+    关联标题，业务仅需 `v-model:visible` 与 `title` prop'
+  - '- `ProTable` 列头排序按钮：`aria-sort="ascending/descending/none"`、`aria-label="按销售额升序排列"`，键盘可操作'
+  - '**边界条件**'
+  - '- 组件库无障碍不等于页面无障碍：页面级语义结构（Heading 层级、Landmark 区域）、业务逻辑（错误提示时机、复杂流程引导）仍需业务侧保障'
+  - '- 老旧项目逐步迁移：优先替换高频复合组件（Dialog/Table/Form），低频组件后续补齐'
+  - '- 定制主题时保证对比度：Design Tokens 输出时附带对比度校验报告，防止品牌色导致文本不可读'
+  - '**素材溯源**'
+  - '- 来源：`PbGkdX4YVoO02mxYlYKcbgASnSg.md`，大纲第19章第4节'
+  - '- 角色：`method`，给出组件库层面的无障碍适配实施路径与自动化保障'
+  sources:
+  - paper: PbGkdX4YVoO02mxYlYKcbgASnSg.md
+    role: method
+  - paper: 20230418_074.md
+    role: improve
+  - paper: 20230418_117.md
+    role: improve
+  - paper: 20230418_124.md
+    role: improve
+  excerpts:
+  - 按 WAI-ARIA Authoring Practices 实现 Dialog/Menu/Combobox/Tabs/Tree 等复合模式、输出组件库无障碍合规报告、Storybook
+    a11y 插件回归测试。
+  - 共享 WiFi 码项目拆解之基础篇
+  - 两个正确姿势，度过难熬的新手起号期
+  - GPT 调教心流法-身份篇
+- 'no': 5
+  name: i18n+a11y 自动化回归防护体系 —— 门禁而非事后诸葛亮
+  points:
+  - '**为什么需要这个概念？**'
+  - '- 人工测试覆盖率低、周期长、主观性强，无法跟上敏捷迭代节奏（双周/周发布）'
+  - '- i18n 缺失键、a11y 违规（对比度、缺失 alt、ARIA 误用）是高频回归缺陷，需在代码提交/合并/发布三个节点自动拦截'
+  - '- 建立「预防-检测-阻断-修复」闭环，将合规成本左移至开发期'
+  - '**核心定义**'
+  - '- 工具链：`axe-core`/`@axe-core/playwright` (a11y)、`i18n-ally`/`lint-i18n`/`check-i18n`
+    (i18n)、`Lighthouse CI` (综合审计)'
+  - '- PR 阻断门禁：GitHub Actions `lint`/`test` 阶段并行跑 `axe-playwright` 无障碍扫描 + `i18n-check`
+    缺键/未用键检测，失败阻断合并'
+  - '- 定期人工辅助测试：自动化仅覆盖 ~30-50% 规则，需制定月度/季度 NVDA/VoiceOver 实测计划，覆盖核心用户旅程'
+  - '**关键性质**'
+  - '- 分层门禁：Pre-commit (husky) 跑轻量 lint（键名规范、硬编码中文检测）；CI 跑完整 axe 扫描 + i18n 完整率；Release
+    阶段 Lighthouse CI 审计性能/SEO/a11y 综合分'
+  - '- 误报治理：建立 `axe-core` 规则白名单（如第三方 iframe 不可控）、i18n 动态键忽略列表，避免「狼来了」导致团队忽视门禁'
+  - '- 报告可视化：PR 检查项输出违规详情链接（Storybook a11y 面板、i18n 缺键 JSON），开发者点击直达问题代码行'
+  - '**典型例子**'
+  - '- GitHub Actions Job `a11y-check`：`uses: nick-invision/retry@v2` 重试 2 次 → `run:
+    npx playwright test --project=chromium-a11y` → `uses: actions/upload-artifact@v4`
+    上传 HTML 报告'
+  - '- i18n 缺键检测脚本：递归扫描 `t(''key'')`/`$t(''key'')` 调用，与 `locales/*.json` 键集合比对，输出
+    `missing.json`/`unused.json`，CI 失败时作为 Artifact 供下载'
+  - '**边界条件**'
+  - '- 动态拼接键（`t(''error.'' + code)`）无法静态分析，需约定 `// i18n-ignore` 注释或提取为常量数组显式声明'
+  - '- E2E 无障碍测试耗时长，建议仅对核心流程（登录、支付、表单提交）跑 `axe` 注入，非核心页面抽样'
+  - '- 移动端无障碍（TalkBack/VoiceOver 手势）需真机/模拟器跑 Playwright/Appium，CI 环境配置复杂度高，可降级为人工定期测'
+  - '**素材溯源**'
+  - '- 来源：`PbGkdX4YVoO02mxYlYKcbgASnSg.md`，大纲第19章第5节'
+  - '- 角色：`experiment`，给出自动化回归防护体系的具体工程落地方案'
+  sources:
+  - paper: PbGkdX4YVoO02mxYlYKcbgASnSg.md
+    role: experiment
+  - paper: 20230418_074.md
+    role: improve
+  - paper: 20230418_106.md
+    role: improve
+  excerpts:
+  - 集成 axe-core/lighthouse-ci 无障碍自动化扫描、i18n 缺失键/未使用键检测、PR 阻断门禁、定期人工辅助测试（NVDA/VoiceOver）计划。
+  - 共享 WiFi 码项目拆解之基础篇
+  - 7 天 9000+ 份红包雨，我用影刀 RPA 爬取生财见面会群微信红包数据
+- 'no': 6
+  name: AI 协作翻译与内容生成工作流 —— Prompt 工程化落地
+  points:
+  - '**为什么需要这个概念？**'
+  - '- 翻译资源稀缺、术语不一致、多语言文案生产周期长，传统人工流水线难以支撑高频迭代'
+  - '- LLM 具备多语言能力、结构化输出能力、代码理解能力，可作为翻译/文案/代码生成的「副驾驶」'
+  - '- 需要将 Prompt 工程化：版本管理、参数化、少样本微调、RAG 增强、输出结构化解析、质量红线'
+  - '**核心定义**'
+  - '- Prompt 分层模板体系：系统提示词（角色/约束）、任务提示词（输入/输出格式）、少样本示例、RAG 检索上下文'
+  - '- 子任务角色定义：翻译官、术语学家、无障碍专家、QA 工程师、DevOps 工程师'
+  - '- RAG 知识库：术语库 TBX/CSV、组件库 Storybook 文档、WCAG 规范、历史 PR 修复记录、团队编码规范'
+  - '- 质量红线：LLM 输出必须经人工复核/自动化回归测试通过方可合并，建立审计日志与追溯机制'
+  - '**关键性质**'
+  - '- 结构化输出：强制 LLM 输出 JSON/Markdown/Diff 格式，便于程序化解析与补丁应用'
+  - '- 少样本微调：收集高质量「输入-输出」对，定期微调或 Few-shot 引导，提升垂直领域准确率'
+  - '- 动态上下文构建：根据变更文件类型（翻译键/组件/页面），自动检索相关术语、规范、历史决策注入 Prompt'
+  - '- 成本控制：Token 预算估算、模型分级调度（简单任务用小模型）、缓存命中复用'
+  - '**典型例子**'
+  - '- 翻译提取 Prompt：`角色：资深本地化工程师。任务：从代码中提取待翻译字符串，生成 ICU MessageFormat 字符串，输出 JSON。约束：保留插值占位符、复数/选择语法、嵌套结构。少样本：[示例1,
+    示例2]`'
+  - '- 术语校验 Prompt：`角色：术语学家。任务：对比源/译术语，判断语义一致性，输出冲突列表及修正建议。RAG：术语库 CSV + 历史决策记录`'
+  - '- 无障碍审查 Prompt：`角色：无障碍专家。任务：分析组件代码，输出 WCAG 违规项、ARIA 缺失/错误、键盘交互缺口、修复代码补丁。RAG：WCAG
+    2.1 AA 规范 + 组件库 APG 文档`'
+  - '**边界条件**'
+  - '- LLM 幻觉风险：必须双轨验证（人工+自动化测试），禁止直接合并 LLM 生成代码'
+  - '- Prompt 版本漂移：需纳入 Git 管理，配套回归测试集，定期评估 Prompt 效果并冻结版本'
+  - '- 多语言/多框架/多平台适配：Prompt 模板参数化（目标语言、框架、平台），维护差异化片段库'
+  - '**素材溯源**'
+  - '- 来源：`20230418_036.md`、`20230418_039.md`、`20230418_041.md`、`20230418_044.md`、`20230418_046.md`、`20230418_106.md`'
+  - '- 角色：`improve`，补充 AI 赋能 i18n+a11y 的提示词工程与自动化工作流'
+  sources:
+  - paper: 20230418_036.md
+    role: improve
+  - paper: 20230418_039.md
+    role: improve
+  - paper: 20230418_041.md
+    role: improve
+  - paper: 20230418_044.md
+    role: improve
+  - paper: 20230418_046.md
+    role: improve
+  - paper: 20230418_106.md
+    role: improve
+  excerpts:
+  - 如何利用 GPT 赋能员工提效，帮我每月多挣 10 万元？
+  - 效率飙升！跨境电商领域的 ChatGPT 应用指南 v1.0
+  - 浅谈 ChatGPT 在跨境电商的应用场景和机会
+  - 胎教级标题党培训手册——4 步让 GPT 成为小红书标题大师
+  - 7 天 9000+ 份红包雨，我用影刀 RPA 爬取生财见面会群微信红包数据
+  - 全自动，真批量——ChatGPT 超级写手机器人 1.0
+- 'no': 7
+  name: 多模态与边缘部署场景下的 i18n+a11y 扩展实践
+  points:
+  - '**为什么需要这个概念？**'
+  - '- 业务拓展至多模态文档（PDF/图表/视频）、边缘渲染、跨端应用，传统纯文本 i18n 与 Web 端 a11y 方案覆盖不足'
+  - '- 多模态 RAG、Edge Runtime、AI 原生架构带来新的工程化挑战与机遇'
+  - '- 需要统一的跨模态、跨运行时、跨平台的国际化与无障碍工程化标准'
+  - '**核心定义**'
+  - '- 多模态国际化管线：文本抽取 → 布局分析 → 翻译生成 → 重排版 → 质检 → 资产产出，支持 PDF/图表/视频字幕'
+  - '- 边缘兼容 i18n 方案：编译时生成静态字典、流式传输翻译片段、利用原生 Intl API、避免 Node.js 依赖'
+  - '- 跨端无障碍一致性：Web ARIA ↔ iOS VoiceOver ↔ Android TalkBack ↔ HarmonyOS 语义映射、焦点管理统一抽象、测试矩阵对齐'
+  - '- AI 原生应用架构：LLM 作为推理引擎/决策中枢，集成记忆、规划、工具使用，支撑 i18n+a11y 智能化运维'
+  - '**关键性质**'
+  - '- 多模态 RAG 检索增强：表格结构化解析、图表 OCR 理解、图像向量化检索，构建统一知识库'
+  - '- Edge Runtime 限制与对策：无 fs/net 模块、内存上限 128MB、冷启动 < 50ms，选用编译时 i18n + 静态字典 + 流式渲染'
+  - '- 语义映射表：`role="button"` ↔ `accessibilityTrait(.button)` ↔ `AccessibilityNodeInfo.ROLE_BUTTON`
+    ↔ `Role.BUTTON`，统一交互模式'
+  - '- 智能化运维：LLM 驱动的误报聚类、动态规则更新、翻译质量评分、无障碍审计报告生成'
+  - '**典型例子**'
+  - '- Cloudflare Workers 部署 Next.js Edge Functions：`i18n.ts` 编译时生成字典 → `middleware.ts`
+    注入语言 Cookie → `app/[locale]/layout.tsx` 静态渲染 → Lighthouse CI 90+ 分数'
+  - '- 跨端组件库：`Button` 组件统一暴露 `onPress`/`accessibilityLabel`/`accessibilityRole`，内部映射至各端原生无障碍
+    API'
+  - '- 多模态文档翻译：PDF 表格 → Markdown 结构 → LLM 翻译保持结构 → 图表 OCR 文字提取翻译 → 视频字幕 Whisper 识别
+    → 翻译 → 嵌入'
+  - '**边界条件**'
+  - '- PDF 复杂表格重排版需人工校验，LLM 仅作辅助'
+  - '- Edge Runtime 原生 Intl API 覆盖不全，需评估 Polyfill 体积收益比'
+  - '- 原生端无障碍 API 行为差异（如焦点顺序、手势导航）需平台专项测试矩阵覆盖'
+  - '**素材溯源**'
+  - '- 来源：`20230418_038.md`、`20230418_074.md`、`20230418_117.md`、`20230418_124.md`'
+  - '- 角色：`extension`，拓展多模态、边缘计算、AI 原生、跨端场景下的 i18n+a11y 工程化实践'
+  sources:
+  - paper: 20230418_038.md
+    role: extension
+  - paper: 20230418_074.md
+    role: extension
+  - paper: 20230418_117.md
+    role: extension
+  - paper: 20230418_124.md
+    role: extension
+  excerpts:
+  - AI站群标准化建站与运营全流程：域名合规备案 -> 竞品逆向选模版(改CSS) -> 竞品挖掘筛词(搜索结果<500万) -> 词库分类建栏目(≤10万词)
+    -> 标题获取(竞品采集/模型生成) -> 长尾词控制(月搜~30) -> 深度魔改模型批量产出内容 -> 发布收录变现。
+  - 共享 WiFi 码项目拆解之基础篇
+  - 两个正确姿势，度过难熬的新手起号期
+  - GPT 调教心流法-身份篇
+'no': 19
