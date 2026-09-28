@@ -1,0 +1,305 @@
+learning_targets:
+- 理解 WebAssembly 的核心概念、安全沙箱模型与线性内存机制
+- 掌握 Emscripten、wasm-pack、AssemblyScript 三大工具链的适用场景与编译优化流程
+- 深入分析 JS-Wasm 互操作的性能开销，掌握共享内存、wasm-bindgen 等零拷贝传递技术
+- 了解 SIMD、多线程、GC、组件模型、WASI 等前沿提案对 Wasm 生态演进的影响
+- 能够在前端工程中落地 Rust/Wasm 模块：从编写算法、构建集成、Worker 卸载到性能基准对比的标准化流程
+concept_map:
+- WebAssembly 赋能前端
+- ├── 核心概念
+- │   ├── 模块/内存/表/实例        —— AnkEdEtEtoXIbexWlQ3cL6zenFf.md
+- │   ├── 栈式虚拟机与结构化控制流  —— AnkEdEtEtoXIbexWlQ3cL6zenFf.md
+- │   ├── 线性内存隔离与安全沙箱    —— AnkEdEtEtoXIbexWlQ3cL6zenFf.md
+- │   └── WASI 跨平台能力           —— AnkEdEtEtoXIbexWlQ3cL6zenFf.md
+- ├── 工具链实战
+- │   ├── Emscripten (C/C++)        —— AnkEdEtEtoXIbexWlQ3cL6zenFf.md
+- │   ├── wasm-pack (Rust)          —— AnkEdEtEtoXIbexWlQ3cL6zenFf.md
+- │   ├── AssemblyScript (TS-like)  —— AnkEdEtEtoXIbexWlQ3cL6zenFf.md
+- │   ├── wasm-opt 体积优化          —— AnkEdEtEtoXIbexWlQ3cL6zenFf.md
+- │   └── wasm2wat 反汇编调试        —— AnkEdEtEtoXIbexWlQ3cL6zenFf.md
+- ├── JS-Wasm 互操作
+- │   ├── 数值直传与字符串拷贝开销    —— AnkEdEtEtoXIbexWlQ3cL6zenFf.md
+- │   ├── SharedArrayBuffer 共享内存  —— AnkEdEtEtoXIbexWlQ3cL6zenFf.md
+- │   ├── wasm-bindgen 高级类型绑定   —— AnkEdEtEtoXIbexWlQ3cL6zenFf.md
+- │   └── WebIDL Bindings 提案        —— AnkEdEtEtoXIbexWlQ3cL6zenFf.md
+- ├── 前沿提案与生产实践
+- │   ├── SIMD 向量化加速             —— AnkEdEtEtoXIbexWlQ3cL6zenFf.md
+- │   ├── 多线程 (Worker + Atomics)   —— AnkEdEtEtoXIbexWlQ3cL6zenFf.md
+- │   ├── WasmGC 托管语言支持         —— AnkEdEtEtoXIbexWlQ3cL6zenFf.md
+- │   ├── 组件模型跨语言组合          —— AnkEdEtEtoXIbexWlQ3cL6zenFf.md
+- │   └── WASI 预览版边缘部署         —— AnkEdEtEtoXIbexWlQ3cL6zenFf.md
+- └── 实战集成流程
+- '    ├── Rust 算法 -> wasm-pack -> Vite 插件   —— AnkEdEtEtoXIbexWlQ3cL6zenFf.md'
+- '    ├── Web Worker + OffscreenCanvas 卸载主线程 —— AnkEdEtEtoXIbexWlQ3cL6zenFf.md'
+- '    ├── 性能基准对比 (JS vs Wasm)           —— AnkEdEtEtoXIbexWlQ3cL6zenFf.md'
+- '    └── 发布缓存与错误监控策略               —— AnkEdEtEtoXIbexWlQ3cL6zenFf.md'
+life_analogy:
+- 想象 WebAssembly 是**浏览器里的“专业外援团队”**：
+- '- **Wasm 模块** = 一支训练有素的**特种部队**（Rust/C++ 编写的高性能核心逻辑）'
+- '- **线性内存** = 部队专用的**独立营房/弹药库**（隔离的字节数组，JS 不能随意闯入）'
+- '- **JS 主线程** = **指挥部**（负责 UI、调度、DOM 操作，不擅长重计算）'
+- '- **Import/Export** = **严格的“通行证/汇报单”**（只有函数签名匹配，才能跨边界调用）'
+- '- **wasm-bindgen** = **自动翻译官/后勤专员**（帮 Rust 结构体和 JS Class 无损转换，省去手写序列化）'
+- '- **SharedArrayBuffer** = **共享战情大沙盘**（指挥部与特种部队实时同步地图，零拷贝、零延迟）'
+- '- **Web Worker** = **前哨作战基地**（把特种部队部署到这里，不阻塞指挥部指挥全局）'
+- '- **SIMD/多线程/GC/WASI** = **新式装备/编制扩编/后勤外包/统一军标**（让部队战力指数级跃升、能在任何战场/边缘节点作战）'
+- 就像指挥部只需下达高层指令、获取结果，而将繁重计算交给专业部队在营房内高效完成，WebAssembly 让浏览器突破了 JS 单线程的性能天花板。
+summary:
+- concept: Module/Instance/Memory/Table
+  desc: Wasm 的四大核心抽象：编译单元、运行时实例、线性内存、函数引用表
+- concept: 线性内存与安全沙箱
+  desc: 字节数组隔离宿主环境，无直接 DOM 访问权限，保证内存安全与确定性执行
+- concept: Emscripten / wasm-pack / AssemblyScript
+  desc: 分别面向 C/C++、Rust、TypeScript 开发者的主流编译工具链，覆盖不同生态迁移需求
+- concept: wasm-opt / wasm2wat
+  desc: Binaryen 优化体积与反汇编调试的标准工具，生产构建与问题排查必备
+- concept: JS-Wasm 边界调用开销
+  desc: 跨边界调用 ~50-100ns，频繁小数据传递会抵消计算优势，需批量化或共享内存
+- concept: SharedArrayBuffer 零拷贝共享
+  desc: 配合 COOP/COEP 头启用跨域隔离，实现 JS 与 Wasm/Worker 共享线性内存实例
+- concept: wasm-bindgen
+  desc: Rust 宏自动生成胶水代码与 TS 类型定义，实现结构体/枚举/闭包的零/低拷贝互操作
+- concept: SIMD (v128)
+  desc: 128 位向量指令集，单指令多数据流加速图像/音频/ML 推理，主流浏览器已稳定支持
+- concept: Wasm 多线程
+  desc: 基于 Web Worker + SharedArrayBuffer + Atomics 实现 pthread 语义，突破单线程限制
+- concept: WasmGC 提案
+  desc: 引入结构化引用类型与栈扫描接口，让 Java/Go/Kotlin 等托管语言无需自带运行时
+- concept: 组件模型
+  desc: 基于 Interface Types 的语言无关组件接口，支持跨语言链接与能力安全的组合
+- concept: WASI (System Interface)
+  desc: 标准化文件/网络/时钟等系统调用，实现 Wasm 模块在浏览器、边缘、Serverless、嵌入式的可移植运行
+- concept: Web Worker 卸载主线程
+  desc: 将 Wasm 实例化与计算密集任务放入 Worker，配合 OffscreenCanvas 实现非阻塞渲染
+- concept: Vite + wasm-pack 集成流程
+  desc: Rust -> wasm-pack build -> pkg/ -> Vite 插件导入 -> TS 类型即用 -> HMR 热更新，开发体验接近原生
+- concept: 性能基准对比方法论
+  desc: benchmark.js 对比 JS 实现，指标覆盖首帧延迟、吞吐率、内存峰值、包体积，量化 ROI
+exercises:
+- 'no': 1
+  title: 手工编译并调用一个最小 Wasm 模块
+  contents:
+  - '编写一个 Rust 函数 `add(a: i32, b: i32) -> i32`，使用 `wasm-pack build --target web` 编译。'
+  - 在纯 HTML 页面中（无构建工具），使用 `fetch` + `WebAssembly.instantiateStreaming` 加载 `.wasm`
+    并调用导出函数。
+  - 观察 Network 面板中的 `.wasm` 文件大小，对比开启 `-O` 优化与未优化的体积差异。
+  - 回答问题：
+  - '- 为什么生成的 `.wasm` 文件比预期的大？哪些段占用了空间？'
+  - '- 如果不使用 `wasm-bindgen`，如何手动在 JS 中分配线性内存并传递字符串给 Wasm？'
+- 'no': 2
+  title: 量化 JS-Wasm 边界调用开销
+  contents:
+  - '编写两个版本的斐波那契数列计算：纯 JS 实现、Rust 编译 Wasm 实现（导出 `fib(n: u32) -> u64`）。'
+  - 设计基准测试：分别调用 1 万次 `fib(20)`，记录总耗时；再调用 1 次 `fib(20)`，记录单次调用耗时。
+  - 使用 `performance.now()` 或 `benchmark.js` 统计结果。
+  - 回答问题：
+  - '- 为什么单次调用 Wasm 版本可能比 JS 慢？边界调用开销如何摊销？'
+  - '- 当计算复杂度升高（如 `fib(40)`），Wasm 优势为何会显现？'
+  - '- 如果在循环中频繁调用 Wasm 导出函数，V8 的 TurboFan 能否将其内联优化？'
+- 'no': 3
+  title: 零拷贝图像处理实战：SharedArrayBuffer + Wasm
+  contents:
+  - '创建一个 `SharedArrayBuffer` 作为 Wasm 的线性内存（`new WebAssembly.Memory({ shared: true,
+    initial: 100 })`）。'
+  - 在 Wasm 端（Rust）编写一个灰度滤镜函数，直接读写线性内存中的像素数据（RGBA 交错格式）。
+  - 主线程通过 `canvas.getImageData()` 获取像素，拷贝至 `SharedArrayBuffer`（或直接映射），postMessage
+    通知 Worker 处理。
+  - Worker 执行 Wasm 函数修改内存，主线程 `putImageData` 渲染结果。
+  - 回答问题：
+  - '- 为什么必须部署 `COOP: same-origin` 和 `COEP: require-corp` 响应头才能使用 `SharedArrayBuffer`？'
+  - '- 这种方案相比 `postMessage` 传递 `ImageData`（结构化克隆）有何性能优势？'
+  - '- 如果 Wasm 内存需要动态增长（`memory.grow`），共享内存场景下有什么限制？'
+- 'no': 4
+  title: SIMD 向量化加速矩阵乘法
+  contents:
+  - 编写一个 4x4 矩阵乘法：纯 JS 实现、Rust 标量实现、Rust `packed_simd` / `std::simd` 实现（启用 `target_feature
+    = "simd128"`）。
+  - 分别编译为 Wasm（需在 `.cargo/config.toml` 或 `RUSTFLAGS` 开启 SIMD），在支持 SIMD 的浏览器中运行基准测试。
+  - 回答问题：
+  - '- 如何在运行时检测浏览器是否支持 Wasm SIMD？（提示：`wasm-feature-detect`）'
+  - '- SIMD 版本为何不一定总是最快？数据布局（AoS vs SoA）如何影响向量化效率？'
+  - '- 如果目标环境不支持 SIMD，如何实现优雅降级（标量回退）？'
+- 'no': 5
+  title: 完整工程化流程：Vite + React + Rust Wasm 图像滤镜 Demo
+  contents:
+  - 初始化 Vite + React + TypeScript 项目，安装 `@wasm-tool/rollup-plugin-rust`。
+  - 在 `src/rust` 编写高斯模糊/锐化滤镜逻辑，配置 `wasm-pack` 输出目录。
+  - 编写 `useWasmFilter` Hook：动态 `import` Wasm 模块、实例化、创建 `OffscreenCanvas`、转移至 Worker。
+  - Worker 中接收 `OffscreenCanvas`、调用 Wasm 处理像素、提交渲染。
+  - 对比同算法的纯 JS 实现（Canvas 2D API / WebGL 着色器）在 4K 图片上的耗时、主线程阻塞时长、包体积。
+  - 回答问题：
+  - '- 如何在 CI/CD 中自动化 `wasm-pack build` 并发布版本化的 npm 包？'
+  - '- 生产环境如何配置 Service Worker 预缓存 `.wasm` 文件实现离线可用？'
+  - '- Rust `panic` 导致 Worker 崩溃时，主线程如何感知并恢复（重新启动 Worker）？'
+units:
+- 'no': 1
+  name: Wasm 核心概念 —— 给浏览器装上“高性能虚拟机”
+  points:
+  - '**为什么需要这个概念？**'
+  - '- JavaScript 单线程、解释执行、动态类型导致计算密集型任务（图像处理、加密、物理模拟）性能瓶颈明显'
+  - '- 需要一种能在浏览器安全沙箱内运行、接近原生速度、支持多语言复用的二进制格式'
+  - '- 传统插件或 Native 模块破坏了 Web 的跨平台、免安装、安全分发优势'
+  - '**核心定义**'
+  - '- WebAssembly (Wasm) 是一种基于栈式虚拟机的低级字节码格式，设计为紧凑、快速加载、可流式编译'
+  - '- 核心抽象：Module（模块，编译单元）、Memory（线性内存，字节数组）、Table（函数引用表）、Instance（实例化后的模块+状态）'
+  - '- 采用结构化控制流（Block/Loop/If），强制类型检查，保证验证通过即内存安全'
+  - '**关键性质**'
+  - '- 安全沙箱：线性内存与宿主隔离，无法直接访问 DOM/系统调用，需通过 Import/Export 与 JS 交互'
+  - '- 确定性执行：无 GC、无异常（陷阱除外）、定长指令，便于形式化验证与 AOT 编译'
+  - '- 可移植性：WASI (System Interface) 让同一模块可在浏览器、边缘计算、Serverless、嵌入式运行'
+  - '**典型例子**'
+  - '- Figma 将 C++ 渲染引擎编译为 Wasm，实现浏览器媲美原生的协同设计性能'
+  - '- AutoCAD Web 复用数百万行 C++ 核心代码，零成本迁移桌面级 CAD 能力到浏览器'
+  - '**边界条件**'
+  - '- 无直接 DOM 访问权限，频繁 JS-Wasm 边界调用会抵消计算优势（需批量化/共享内存）'
+  - '- 线性内存 32 位地址空间限制 4GB（Memory64 提案解决中），大内存场景需分块或迁移 64 位'
+  - '- 缺乏原生 GC（GC 提案进行中），Rust/C++ 需自带内存管理，增加模块体积与心智负担'
+  - '...'
+  sources:
+  - paper: 20230418_118.md
+    role: origin
+  - paper: 20230418_036.md
+    role: improve
+  excerpts:
+  - Wasm 核心概念：模块、内存、表、导入导出、线性内存与安全沙箱模型
+  - 建立 Wasm 二进制格式、指令集、栈式虚拟机、线性内存隔离、能力安全模型的基础认知
+- 'no': 2
+  name: 工具链实战 —— 从源代码到 .wasm 的“编译流水线”
+  points:
+  - '**为什么需要这个概念？**'
+  - '- 浏览器只认识 .wasm 二进制，C/Rust/TS 等源码必须经过编译、链接、优化才能在 Web 运行'
+  - '- 不同语言运行时差异大（GC、异常、线程模型），工具链需屏蔽差异生成标准 Wasm'
+  - '- 生产环境极其敏感体积与启动速度，需专用优化工具链而非通用编译器默认输出'
+  - '**核心定义**'
+  - '- Emscripten (C/C++)：Clang/LLVM 前端 + Binaryen 后端，模拟 POSIX 环境（文件系统、pthread），输出
+    .wasm + JS 胶水代码'
+  - '- wasm-pack (Rust)：cargo 子命令，集成 wasm-bindgen 生成 TS 类型定义，零配置发布 npm 包'
+  - '- AssemblyScript (TS-like)：TypeScript 子集直接编译 Wasm，无需 LLVM，前端开发者零门槛上手'
+  - '**关键性质**'
+  - '- 体积优化链：-Oz 优化 -> wasm-opt (Binaryen) 进一步 DCE/压缩 -> gzip/brotli 传输 -> 流式实例化'
+  - '- 类型互操作：wasm-bindgen 实现 Rust 结构体 <-> JS Class 零拷贝映射，自动生成 .d.ts 实现类型安全'
+  - '- 调试支持：wasm2wat 反汇编为 .wat 文本格式，配合 DWARF 源码映射在 DevTools 断点调试'
+  - '**典型例子**'
+  - '- 图像处理库：Rust 编写核心滤镜 -> wasm-pack -> npm 包 -> Vite 引入 -> Web Worker 运行 -> Canvas
+    渲染'
+  - '- 遗留 C++ 物理引擎：Emscripten 保留 pthread -> SharedArrayBuffer 多线程 -> 复用原有 CMake 构建系统'
+  - '**边界条件**'
+  - '- Emscripten 胶水代码体积大、JS 交互开销高，不适合极小模块；AssemblyScript 缺乏成熟生态库'
+  - '- Rust 编译 Wasm 依赖 panic=abort、无标准库（no_std）配置，编译时间远超原生'
+  - '- SIMD/多线程/GC 等后 MVP 特性需工具链与运行时双端支持，版本兼容性需锁定目标环境'
+  - '...'
+  sources:
+  - paper: 20230418_118.md
+    role: origin
+  - paper: 20230418_036.md
+    role: improve
+  excerpts:
+  - 工具链实战：Emscripten (C/C++)、wasm-pack (Rust)、AssemblyScript (TS-like) 编译与体积优化
+  - 对比三大工具链适用场景、演示 `wasm-opt` 优化体积、`wasm2wat` 反汇编调试、TypeScript 类型定义自动生成
+- 'no': 3
+  name: JS-Wasm 互操作深度 —— 跨越“边境”的性能税与免税政策
+  points:
+  - '**为什么需要这个概念？**'
+  - '- Wasm 无法直接操作 DOM/Web API，所有外部交互必须跨越 JS-Wasm 边界，调用开销极高'
+  - '- 数据表示差异：JS 是 GC 管理的对象图，Wasm 是线性内存字节流，类型转换必然涉及拷贝/序列化'
+  - '- 错误的交互模式（高频小数据传递）会让 Wasm 版本比纯 JS 更慢'
+  - '**核心定义**'
+  - '- 数值传递：i32/i64/f32/f64 寄存器直传，零开销（仅限标量）'
+  - '- 字符串/对象传递：默认线性内存读写 + 指针/长度传递 + JS 侧 TextDecoder/Struct 解码，涉及拷贝'
+  - '- 共享内存：SharedArrayBuffer + Atomics 让 Wasm 与 JS/Web Worker 共享同一线性内存实例，实现零拷贝数据共享'
+  - '- 高级绑定：wasm-bindgen 实现 #[wasm_bindgen] 宏自动生成胶水代码，支持 struct/enum/closure/Box<[u8]>
+    等复杂类型零/低拷贝传递'
+  - '**关键性质**'
+  - '- 边界调用成本：~50-100ns（V8），但频繁调用会破坏内联优化、污染 TurboFan 反馈向量'
+  - '- 内存所有权：Wasm 线性内存可被 JS 增长，但无法收缩；共享内存需配合 COOP/COEP 响应头启用跨域隔离'
+  - '- WebIDL Bindings 提案：浏览器原生支持 Wasm 直接调用 Web API（如 DOM、WebGPU），绕过 JS 中转层'
+  - '**典型例子**'
+  - '- 图像处理：JS 将 ImageData 像素缓冲区指针传给 Wasm，Wasm 直接在线性内存原地修改像素，零拷贝返回'
+  - '- 加密库：wasm-bindgen 导出 Rust fn encrypt(input: &[u8]) -> Vec<u8>，JS 调用如同原生异步函数'
+  - '**边界条件**'
+  - '- 字符串传递建议用 UTF-8 指针+长度而非 UTF-16，避免双向转码开销'
+  - '- 避免在热路径中频繁 new Uint8Array(memory.buffer) 创建视图，应缓存视图或使用指针算术'
+  - '- SharedArrayBuffer 需部署 COOP: same-origin / COEP: require-corp 响应头，否则浏览器禁用'
+  - '...'
+  sources:
+  - paper: 20230418_118.md
+    role: origin
+  - paper: 20230418_036.md
+    role: improve
+  excerpts:
+  - JS-Wasm 互操作深度：数值/字符串/对象传递开销、共享内存、WebIDL Bindings 与 wasm-bindgen
+  - 量化跨边界调用成本、利用 `SharedArrayBuffer` 共享线性内存、wasm-bindgen 实现高级类型零拷贝传递、避免频繁边界跨越
+- 'no': 4
+  name: 前沿提案与生产实践 —— Wasm 从“计算沙箱”进化为“通用运行时”
+  points:
+  - '**为什么需要这个概念？**'
+  - '- MVP 版本仅支持基础数值类型、无 GC、无多线程、无异常处理，无法高效承载 Java/Go/Kotlin 等托管语言'
+  - '- 计算密集型不足以覆盖完整应用逻辑，需解决组件组合、系统接口标准化、边缘部署等工程化缺口'
+  - '- 新硬件能力（SIMD、GPU 计算）需标准指令集暴露而非厂商私有扩展'
+  - '**核心定义**'
+  - '- SIMD (v128)：128 位向量类型 + 100+ 指令，单指令多数据流加速图像/音频/ML 推理，主流浏览器已稳定'
+  - '- 多线程：Wasm 线程 = Web Worker + SharedArrayBuffer + Atomics，支持 pthread 语义，实现真并行'
+  - '- GC (WasmGC)：引入 struct/array 引用类型、栈扫描、精确 GC 接口，让托管语言无需自带运行时'
+  - '- 组件模型：基于 Interface Types 定义语言无关的组件接口，支持跨语言链接、能力安全的组件组合'
+  - '- WASI (WebAssembly System Interface)：标准化文件/网络/时钟/随机数等系统调用，实现“Write Once, Run
+    Anywhere”'
+  - '**关键性质**'
+  - '- SIMD 需检测硬件支持回退标量，wasm-feature-detect 运行时特性探测'
+  - '- 多线程受限于 COOP/COEP 部署要求，移动端 Safari 支持滞后'
+  - '- 组件模型 + WASI 组成“云原生 Wasm”核心栈，Cloudflare Workers/Vercel Edge/Fastly Compute@Edge
+    已生产可用'
+  - '**典型例子**'
+  - '- ffmpeg.wasm：SIMD 加速视频转码、多线程并行编码、WASI 访问文件系统，纯前端实现专业级视频编辑'
+  - '- Python/Go/Ruby 在浏览器运行：WasmGC + 组件模型编译标准库，无需 Emscripten 模拟 POSIX'
+  - '- 边缘中间件：Rust 编写 Wasm 模块 -> WASI 预览版 -> 部署 Cloudflare Workers，冷启动 < 1ms'
+  - '**边界条件**'
+  - '- WasmGC 仍在标准化后期，V8/SpiderMonkey 实验性支持，生产需谨慎评估兼容性'
+  - '- 组件模型工具链生态尚早，跨语言调用约定、错误处理、版本演进最佳实践尚未沉淀'
+  - '- WASI Preview 2 引入异步/流/资源模型，破坏 Preview 1 兼容，迁移成本高'
+  - '...'
+  sources:
+  - paper: 20230418_118.md
+    role: origin
+  - paper: 20230418_036.md
+    role: improve
+  excerpts:
+  - 前沿提案与生产实践：SIMD 向量化、多线程、GC、组件模型、WASI 与边缘计算
+  - 追踪 Wasm GC 提案托管语言互操作、组件模型跨语言组合、WASI 预览版在 Cloudflare Workers/Vercel Edge 部署 Serverless
+    Wasm
+- 'no': 5
+  name: 实战集成 —— 在前端项目中落地 Rust 高性能模块的标准化流程
+  points:
+  - '**为什么需要这个概念？**'
+  - '- 理论知懂工具链、互操作、前沿提案，仍缺乏“从零到上线”的标准化工程范式'
+  - '- 需解决：构建系统集成、类型安全跨语言调用、主线程阻塞规避、生产环境体积/缓存/更新策略'
+  - '- 缺乏端到端基准对比，无法量化 Wasm 引入的真实 ROI（投入产出比）'
+  - '**核心定义**'
+  - '- 标准化流程：Rust 编写核心算法 -> wasm-pack build --target web -> 生成 pkg/ 目录 -> Vite/Rollup
+    插件导入 -> TS 类型即用'
+  - '- 运行时隔离：将 Wasm 实例化、计算密集任务放入 Web Worker（OffscreenCanvas/Transferable），主线程仅负责调度与渲染'
+  - '- 性能基准：benchmark.js / wasm-bench 对比 JS 实现（如 canvas-filter vs rust-wasm-filter），指标：首帧延迟、吞吐率、内存峰值、包体积'
+  - '**关键性质**'
+  - '- Vite 插件 @wasm-tool/rollup-plugin-rust 自动化：cargo watch 监听 -> 增量编译 -> HMR 热更新
+    Wasm 模块，开发体验接近原生 TS'
+  - '- 版本发布：wasm-pack publish 自动发布 npm 包（含 .wasm、.js 胶水、.d.ts、package.json），语义化版本锁定'
+  - '- 缓存策略：.wasm 静态资源长缓存 + import.meta.url 动态加载 + Service Worker 预缓存，实现离线首屏与秒级更新'
+  - '**典型例子**'
+  - '- Web 版 Photoshop 核心滤镜：Rust 实现高斯模糊/锐化/边缘检测 -> wasm-pack -> Vite + React -> Web
+    Worker 处理 4K 图片 -> OffscreenCanvas 回传渲染'
+  - '- 实测数据：Rust Wasm 版高斯模糊 4K 图耗时 45ms，纯 JS 实现 320ms，加速 7 倍；Wasm 模块 gzip 后 120KB'
+  - '**边界条件**'
+  - '- 首次加载需下载 .wasm + 实例化编译（~10-50ms），启动期体验需加载骨架屏或预加载关键模块'
+  - '- Web Worker 无法直接访问 DOM/CanvasRenderingContext2D，必须用 OffscreenCanvas 或 postMessage
+    传回主线程绘制'
+  - '- Rust panic 会导致 Wasm Trap 终止整个 Worker，需 catch_unwind 或编写无 panic 代码，生产环境建议监控错误上报'
+  - '...'
+  sources:
+  - paper: 20230418_118.md
+    role: origin
+  - paper: 20230418_036.md
+    role: improve
+  excerpts:
+  - 实战：在前端项目中集成 Rust 图像处理库实现 Web 版 Photoshop 核心滤镜
+  - 完整流程：Rust 编写滤镜算法 → wasm-pack 编译 → Vite 插件集成 → Web Worker 卸载主线程 → Canvas 渲染输出 →
+    性能基准对比 JS 实现
+'no': 15

@@ -1,0 +1,174 @@
+units:
+- 'no': 1
+  name: Canvas 2D 即时模式渲染 —— 像画家一样在画布上挥毫
+  points:
+  - '**为什么需要这个概念？**'
+  - '- 浏览器原生提供 2D 绘图能力，无需复杂的着色器编程，适合图表、简单动画、图片处理等非 3D 场景'
+  - '- 即时模式下开发者直接发出绘制指令，状态即代码，心智模型简单，上手快'
+  - '- 解决 DOM 元素过多导致的性能瓶颈（如万级节点拓扑图），通过单一 Canvas 统一绘制大幅降低内存占用'
+  - '**核心定义**'
+  - '- 即时模式：每帧调用 `draw()` 重绘整个场景，画布不保留对象树，开发者需自行维护场景状态（节点位置、样式等）'
+  - '- 核心 API：`CanvasRenderingContext2D` 提供路径（`Path2D`）、变换（`transform`/`setTransform`）、合成（`globalCompositeOperation`）、绘图（`fill`/`stroke`/`drawImage`）四大能力集'
+  - '**关键性质**'
+  - '- 状态机模型：`save()`/`restore()` 栈管理绘图状态（颜色、线宽、变换矩阵），避免状态污染'
+  - '- 坐标系变换：基于 3x3 齐次矩阵实现平移、缩放、旋转、倾斜，`transform(a,b,c,d,e,f)` 直接操作矩阵'
+  - '- 命中测试：无原生事件分发，需手动实现 `isPointInPath()` 或几何反向变换将屏幕坐标映射至模型坐标判断'
+  - '- 离屏渲染：`OffscreenCanvas` 配合 `Worker` 实现主线程解耦，避免复杂绘制阻塞交互'
+  - '**典型例子**'
+  - '- ECharts/Chart.js 底层渲染器：利用 `Path2D` 缓存复杂图形路径，结合 `globalCompositeOperation=''lighter''`
+    实现光效叠加'
+  - '- 图片编辑器滤镜预览：`drawImage` + `filter` 属性实时渲染，导出时复用相同逻辑'
+  - '- 万节点拓扑图：节点数据存储于 `Float32Array`，每帧遍历调用 `arc`/`rect` 批量绘制，配合 `OffscreenCanvas`
+    计算布局'
+  - '**边界条件**'
+  - '- 高 DPI 屏幕需手动缩放：`canvas.width = cssWidth * dpr; ctx.scale(dpr, dpr)`，否则出现模糊'
+  - '- 路径过长（> 65535 点）可能触发浏览器限制，需拆分为多个 `Path2D` 或使用 `LineTo` 分段'
+  - '- 频繁创建 `Path2D` 对象导致 GC 压力，复杂静态图形应预构建并缓存 `Path2D` 实例'
+  - '- 即时模式不保留场景图，无法原生支持 CSS 动画/选择器，需自行实现场景图层或引入保留模式库'
+  sources:
+  - paper: GpUodUFZHoULIGxKxtYckwI9ncg.md
+    role: origin
+  excerpts:
+  - 掌握 `Path2D` 复用路径、矩阵变换数学、`globalCompositeOperation` 混合模式、事件坐标反向变换拾取、OffscreenCanvas
+    多线程渲染。
+- 'no': 2
+  name: WebGL 可编程管线 —— 向 GPU 发送指令的“汇编语言”
+  points:
+  - '**为什么需要这个概念？**'
+  - '- Canvas 2D 无法满足大规模粒子、自定义着色效果、3D 场景等高性能/高自由度需求'
+  - '- WebGL 暴露 GPU 可编程管线（顶点/片元着色器），让开发者完全掌控顶点变换与像素着色过程'
+  - '- 解决 Draw Call 过多导致的 CPU-GPU 通信瓶颈，通过实例化绘制、合并 Buffer 实现万级物体高效渲染'
+  - '**核心定义**'
+  - '- 着色器：GLSL ES 代码，顶点着色器处理属性->裁剪空间坐标，片元着色器输出像素颜色'
+  - '- 缓冲区：VBO 存顶点属性，EBO 存索引，VAO 封装顶点输入状态（属性指针、启用位、绑定的 Buffer）'
+  - '- 统一变量：Uniform 传递全局常量（MVP 矩阵、材质参数），Texture 采样图像数据'
+  - '- 绘制调用：`drawArrays`/`drawElements`/`drawArraysInstanced`/`drawElementsInstanced`
+    发起 GPU 执行'
+  - '**关键性质**'
+  - '- 状态机模型：大量全局状态（绑定点、启用位、混合模式、深度测试），切换开销大，需按 Pipeline/Shader/Texture 批次排序'
+  - '- 属性分发：`vertexAttribPointer` 定义步长/偏移/归一化，`enableVertexAttribArray` 激活，`vertexAttribDivisor`
+    开启实例化属性'
+  - '- 纹理单元：`activeTexture` + `bindTexture` 绑定采样器，片元着色器 `uniform sampler2D` 对应单元索引'
+  - '- 同步原语：`fenceSync`/`clientWaitSync` 控制 CPU-GPU 同步，避免映射 Buffer 时阻塞'
+  - '**典型例子**'
+  - '- 粒子系统：单个 Buffer 存位置/速度/生命周期，顶点着色器模拟物理更新，`drawArraysInstanced` 一次绘制 10 万粒子'
+  - '- 实例化渲染拓扑图边：边几何体为单位线段，Instance Buffer 存起止点坐标/颜色，顶点着色器按实例 ID 变换拉伸'
+  - '- 后处理链：渲染到 Framebuffer 纹理 -> 全屏三角形采样 -> 片元着色器叠加 Bloom/FXAA/ColorGrading'
+  - '**边界条件**'
+  - '- GLSL ES 1.00 无整数纹理、无几何着色器、无计算着色器，复杂算法需多 Pass 或模拟'
+  - '- `uniform` 数量/向量长度受限（如 `MAX_VERTEX_UNIFORM_VECTORS` 通常 256），大规模骨骼动画需用 Texture
+    Buffer 存矩阵'
+  - '- 索引缓冲区最大值 65535（`UNSIGNED_SHORT`），大模型需 `OES_element_index_uint` 启用 32 位索引'
+  - '- 移动端 GPU 带宽敏感，过度采样/高分辨率 Framebuffer 易成性能杀手，需 Tile-based 渲染优化'
+  sources:
+  - paper: GpUodUFZHoULIGxKxtYckwI9ncg.md
+    role: origin
+  excerpts:
+  - 深入 GLSL ES 语法、顶点/片元着色器协作、VAO/VBO/EBO 缓冲区管理、纹理单元与采样器、实例化绘制减少 Draw Call。
+- 'no': 3
+  name: WebGPU 现代图形 API —— 显式控制 GPU 的“现代操作系统”
+  points:
+  - '**为什么需要这个概念？**'
+  - '- WebGL 状态机模型隐式依赖多，难以多线程录制命令，驱动开销大，无法充分发挥现代 GPU（Vulkan/Metal/DX12）性能'
+  - '- WebGPU 引入显式资源管理、管线状态对象（PSO）、绑定组布局，映射现代图形 API，支持计算着色器通用计算'
+  - '- 解决 WebGL 无法高效实现的：多线程命令缓冲录制、渲染/计算管线复用、细粒度资源生命周期与同步控制'
+  - '**核心定义**'
+  - '- `GPUDevice`：核心接口工厂，创建 Buffer/Texture/BindGroupLayout/Pipeline/CommandEncoder'
+  - '- `GPUQueue`：提交 `GPUCommandBuffer`、写入 Buffer/Texture 数据（`writeBuffer`/`copyExternalImageToTexture`）'
+  - '- `GPURenderPipeline`/`GPUComputePipeline`：不可变管线状态对象（着色器、顶点布局、混合/深度/模板状态、绑定组布局）'
+  - '- `GPUBindGroup`/`GPUBindGroupLayout`：显式描述符集，将 Buffer/Texture/Sampler 绑定到着色器
+    `@group(@binding)` 变量'
+  - '- WGSL：WebGPU Shading Language，强类型、模块化、指针/数组/结构体一等公民，编译目标为 SPIR-V'
+  - '**关键性质**'
+  - '- 资源创建与使用分离：`createBuffer` 分配显存，`mapAsync`/`writeBuffer` 上传数据，`unmap` 释放 CPU
+    访问权，所有权转移显式'
+  - '- 渲染通道：`beginRenderPass` 定义色彩/深度附件及 Load/StoreOp，隐式 Tile-based 优化友好'
+  - '- 计算着色器：`dispatchWorkgroups` 启动网格，`workgroup` 共享内存、屏障同步，实现物理模拟/布局计算/图像处理全 GPU
+    离线'
+  - '- 错误处理：`device.lost` Promise、`uncapturederror` 事件，错误非阻塞但需监听，调试依赖标签 `label` 字段'
+  - '**典型例子**'
+  - '- 百万节点力导向布局：计算着色器读位置/速度 Buffer，写新位置，`storage` 绑定读写同 Buffer，无需 CPU 往返'
+  - '- 可视化引擎双引擎兜底：WebGPU 优先，降级 Canvas 2D；核心渲染逻辑抽象为 `RenderPassEncoder` 统一接口'
+  - '- 后处理 Pipeline：预创建 `RenderPipeline`（含 BindGroupLayout），每帧仅更新 `BindGroup` 资源视图，避免管线重建'
+  - '**边界条件**'
+  - '- 浏览器支持度：Chrome/Edge 稳定支持，Firefox/Safari 需开启标志位或等待版本更新，生产环境需 Polyfill（如 `webgpu-polyfill`
+    基于 WebGL2 模拟）'
+  - '- 无几何/曲面细分/网格着色器，复杂几何处理仍需顶点着色器+计算着色器预处理或 CPU 端生成'
+  - '- `bindGroup` 创建开销较大，动态资源更新建议使用 `dynamicOffset` 或预分配 `BindGroup` 池复用'
+  - '- WGSL 与 GLSL 语法差异大（如矩阵列主序、构造函数语法、内置函数名），迁移成本高，建议统一维护 WGSL 源码转译'
+  sources:
+  - paper: GpUodUFZHoULIGxKxtYckwI9ncg.md
+    role: origin
+  excerpts:
+  - 对比 WebGL 状态机模型，理解 WebGPU 显式资源绑定、渲染管线状态对象、计算着色器通用计算能力、WGSL 着色语言。
+- 'no': 4
+  name: 渲染引擎架构设计 —— 从即时模式到保留模式的工程化跃迁
+  points:
+  - '**为什么需要这个概念？**'
+  - '- 直接调用 Canvas/WebGL/WebGPU API 导致业务逻辑与渲染细节强耦合，难以复用、测试、扩展'
+  - '- 即时模式每帧手动遍历绘制，无法自动脏检查、视锥剔除、批次合并，大规模场景性能不可控'
+  - '- 需要一层保留模式抽象：场景图管理对象树、脏标记驱动增量更新、渲染器封装底层 API 差异、插件机制支撑物理/动画/后处理'
+  - '**核心定义**'
+  - '- 场景图：树状结构节点持有变换、几何、材质、可见性、层级，父变换影响子节点世界矩阵'
+  - '- 脏标记系统：`position/rotation/scale` 变更标记 `TRS_DIRTY`，传播至子树 `WORLD_MATRIX_DIRTY`，渲染前仅重算脏节点'
+  - '- 视锥剔除：相机 `Frustum` 与节点包围盒 `BoundingSphere/Box` 相交测试，剔除不可见对象，减少 Draw Call'
+  - '- 批次合并：同材质（Shader+Texture+BlendState）、同几何拓扑、透明度一致的对象合并为单一 Draw Call（实例化或合并 Buffer）'
+  - '- 多层合成：`Layer` 按渲染顺序/后处理需求分组（背景层/主层/UI层/高光层），各层独立渲染目标、清除策略、合成权重'
+  - '**关键性质**'
+  - '- 渲染管线解耦：`RenderObject`（几何+材质+世界矩阵） -> `RenderQueue`（排序/剔除/合批） -> `RenderPass`（提交
+    GPU 指令）'
+  - '- 资源池化：Buffer/Texture/Pipeline/BindGroup 统一池管理，引用计数回收，避免频繁创建销毁触发 GC 与驱动抖动'
+  - '- 相机与视口：支持多相机（主相机/小地图/阴影/反射），每相机独立 `ViewProjection`、裁剪层、渲染目标'
+  - '- 插件扩展点：`beforeRender`/`afterRender`/`onUpdate`/`onResize` 生命周期，注入物理引擎同步、骨骼动画采样、后处理效果'
+  - '**典型例子**'
+  - '- Three.js/SceneJS 保留模式架构：`Object3D` 场景图、`WebGLRenderer` 状态缓存合批、`Frustum` 剔除'
+  - '- 自研拓扑图引擎：节点/边为 `GraphNode` 子类，`ComputePass` 计算布局 -> `RenderPass` 实例化渲染，`Layer`
+    隔离交互高亮层'
+  - '- 图形编辑器：`SelectionLayer` 单独渲染选中框/控制点，`GridLayer` 无限网格程序化生成，`Viewport` 缩放平移仅更新相机矩阵'
+  - '**边界条件**'
+  - '- 场景图深度过深导致矩阵传播链长，建议扁平化层级或引入 `TransformComponent` 脏标记增量更新'
+  - '- 透明物体排序：Painter''s Algorithm 无法解决相交三角形，需 Order Independent Transparency (OIT)
+    或深度剥离，工程上常妥协为按中心距排序'
+  - '- 动态几何（粒子/轨迹/流体）频繁更新 Buffer，需 `MAP_WRITE`/`DYNAMIC_DRAW` 标记或 `staging buffer`
+    双缓冲上传'
+  - '- 跨 API 统一抽象（Canvas2D/WebGL/WebGPU）会损失底层特性（如 WebGPU Compute Shader），需提供 `NativePass`
+    逃生口直达底层 API'
+  sources:
+  - paper: GpUodUFZHoULIGxKxtYckwI9ncg.md
+    role: origin
+  excerpts:
+  - 设计保留模式场景图节点、脏标记增量更新、空间索引加速拾取/剔除、渲染批次合并状态变更、Layer 合成策略、插件机制扩展后处理/物理/动画。
+- 'no': 5
+  name: 高性能拓扑图可视化实战 —— 10 万节点的工程化落地
+  points:
+  - '**为什么需要这个概念？**'
+  - '- 真实业务场景（依赖分析、知识图谱、网络拓扑）常涉及 10 万+ 节点/边，原生 DOM/SVG 完全无法承载'
+  - '- 需要端到端解决方案：布局计算卸载主线程、GPU 实例化渲染、视口裁剪、交互拾取、流畅动画，验证前四节技术选型的工程可行性'
+  - '**核心定义**'
+  - '- 双引擎兜底：WebGPU 优先（实例化/计算着色器），降级 Canvas 2D（`OffscreenCanvas` + `Path2D` 缓存），统一
+    `IRenderEngine` 接口'
+  - '- Web Worker 布局：力导向/层次/环形布局算法在 Worker 迭代，仅传回 `Float32Array` 位置增量，主线程解码渲染'
+  - '- GPU 实例化渲染：节点几何体（圆/矩形/图标 Atlas UV）单份 Buffer，Instance Buffer 存 `vec2 position,
+    float size, vec4 color, uint pickingId`'
+  - '- 视口裁剪：CPU 端按相机矩阵反向变换视口矩形，结合四叉树/均匀网格空间索引快速筛选可见实例 ID 范围，仅上传可见子集'
+  - '- 交互拾取：方案 A 颜色拾取（离屏渲染 `pickingId` 编码颜色 `readPixels`），方案 B CPU 端空间索引几何测试（矩形/圆形判断）'
+  - '**关键性质**'
+  - '- 数据驱动：Graph 数据 -> 算法 Worker -> 位置 Buffer -> 渲染引擎，单向数据流，状态单一源头'
+  - '- 增量更新：布局迭代每帧仅计算位移 > 阈值的节点，Instance Buffer `subData` 部分更新，避免全量上传'
+  - '- 语义缩放：`zoom < 0.1` 隐藏标签/简化边为线段，`zoom > 2` 展示节点详情/纹理图标，LOD 策略减少绘制几何复杂度'
+  - '- 平滑动画：相机插值（`lerp`/`spring`）、节点位置插值（布局稳定前）、边路径曲线动画（`dashOffset` 渐变）'
+  - '**典型例子**'
+  - '- AntV G6 / Graphin 核心渲染管线：WebGL 实例化节点/边，Worker 布局，视口裁剪，拾取交互'
+  - '- 自研引擎最小实现：`index.html` + `main.ts` (Engine/Worker 通信) + `render.wgsl` (WebGPU)
+    / `render.ts` (Canvas2D) + `layout.worker.ts`'
+  - '- 性能基准：10 万节点、20 万边，WebGPU 实例化 60 FPS，Canvas2D Offscreen 30 FPS，内存 < 200MB'
+  - '**边界条件**'
+  - '- 超大图（> 50 万节点）单帧实例数据上传带宽成瓶颈，需分层级渲染（簇/聚合节点）或服务端渲染瓦片'
+  - '- 边交互复杂（弯曲/箭头/标签）实例化难度大，常单独渲染层或用 SDF 纹理在片元着色器程序化绘制'
+  - '- 移动端 GPU 内存/带宽受限，需降级策略：减少实例属性精度（`float16`）、简化 Shader、限制最大实例数'
+  - '- 无障碍访问：Canvas 无语义 DOM，需同步生成隐形 SVG/ARIA 树供屏幕阅读器遍历，或实现虚拟光标导航'
+  sources:
+  - paper: GpUodUFZHoULIGxKxtYckwI9ncg.md
+    role: origin
+  excerpts:
+  - 技术选型 WebGPU/Canvas2D 双引擎兜底、Web Worker 布局计算、GPU 实例化渲染节点/边、视口裁剪、交互拾取、平滑缩放平移动画。
