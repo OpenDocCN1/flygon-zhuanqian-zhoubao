@@ -1,0 +1,173 @@
+units:
+- 'no': 1
+  name: i18n 方案选型 —— 运行时与编译时的工程权衡
+  points:
+  - '**为什么需要这个概念？**'
+  - '- 前端应用出海面临多语言、多地区、复数规则差异、性别语法等复杂性，硬编码字符串无法维护'
+  - '- 需要在开发期（类型安全、包体积）与运行期（动态切换、按需加载）间寻找最优平衡点'
+  - '- 缺乏统一标准会导致翻译键管理混乱、插值语法不兼容、ICU 语法支持缺失'
+  - '**核心定义**'
+  - '- 国际化方案分为运行时库和编译时库两大流派'
+  - '- 运行时库：`vue-i18n`、`react-i18next`、`i18next`，在浏览器解析翻译函数与 ICU 语法，开发体验好但包体积大（~15-30KB）'
+  - '- 编译时库：`LinguiJS`、`FormatJS (react-intl)`，构建期将 ICU MessageFormat 编译为原生 JS 函数，运行时极轻（~2-5KB），支持
+    Tree-shaking 与类型安全键值'
+  - '- 核心标准：ICU MessageFormat，定义 `{count, plural, one {# book} other {# books}}` 等复数、选择、嵌套语法'
+  - '**关键性质**'
+  - '- 类型安全：编译时方案可从翻译文件自动生成 TS 类型定义，拼写错误编译报错；运行时方案需额外配置插件实现'
+  - '- 包体积与性能：编译时方案移除运行时解析器，首屏 JS 体积显著降低；运行时方案支持热更新翻译无需重建'
+  - '- 复数/性别/选择格式：ICU 标准覆盖 CLDR 语言复数分类规则（如阿拉伯语 6 种复数形态），手写逻辑极易出错'
+  - '**典型例子**'
+  - '- Vue 3 + `vue-i18n@9` Composition API：`const { t } = useI18n(); t(''message.hello'',
+    { name: ''World'' })`，配合 `@intlify/unplugin-vue-i18n` 实现编译时优化'
+  - '- React + `LinguiJS`：`<Trans id="msg">Hello {name}</Trans>` 编译为 `msg({name})`，提取命令
+    `lingui extract` 生成 `.po/.json` 翻译文件'
+  - '**边界条件**'
+  - '- 纯静态站点（Astro/Next.js SSG）优先编译时方案，实现零运行时开销'
+  - '- 高频动态换语言、需支持用户自定义翻译覆盖的 SaaS 平台，运行时方案更灵活'
+  - '- 微前端子应用需共享 i18n 实例与语言包，需约定统一键名规范与加载时机'
+  - '**素材溯源**'
+  - '- 来源：`PbGkdX4YVoO02mxYlYKcbgASnSg.md`，大纲第19章第1节'
+  - '- 角色：`definition`，定义 i18n 方案分类、核心标准与选型依据'
+  sources:
+  - paper: PbGkdX4YVoO02mxYlYKcbgASnSg.md
+    role: definition
+  excerpts:
+  - 对比 vue-i18n/react-i18next/lingui/formatjs 架构差异、ICU 语法处理复数/选择/嵌套、编译时优化包体积、TypeScript
+    类型安全键值。
+- 'no': 2
+  name: 翻译管理工程化 —— 从人工复制粘贴到 CI/CD 自动化流水线
+  points:
+  - '**为什么需要这个概念？**'
+  - '- 翻译文件散落在仓库多处，手动协调翻译人员、核对键值完整性、合并冲突极其低效且易错'
+  - '- 缺乏术语库导致同一术语在不同模块翻译不一致（如「登录」vs「签到」），损害用户信任'
+  - '- 发布前发现缺失翻译键导致回滚或上线后紧急热修复，缺乏自动化质量门禁'
+  - '**核心定义**'
+  - '- 引入翻译管理平台（TMS）：Crowdin、Lokalise、Phrase 等 SaaS 服务，或自建 `Tolgee`/`SimpleLocalize`'
+  - '- CI 集成：GitHub Actions 触发 `push`/`pull_request` 自动推送源语言文件至 TMS、拉取最新翻译文件生成 PR'
+  - '- 术语库：定义项目级术语表（TBX/CSV 格式），CI 校验翻译文件术语一致性，阻断不合规 PR'
+  - '- 机器翻译预译：集成 DeepL/Google/Azure 翻译 API，新增键自动预译，人工仅做复核，降低 80% 翻译成本'
+  - '**关键性质**'
+  - '- 双向同步：源文件变更自动推送，翻译完成自动回流，消除人工下载上传环节'
+  - '- 完整率门禁：发布流水线强制校验所有语言翻译完整率 ≥ 99%，缺失键视为阻断项'
+  - '- 版本发布同步：打 Tag 触发 TMS 发布快照，生产环境回滚时对应语言包版本可追溯'
+  - '**典型例子**'
+  - '- GitHub Actions Workflow：`name: i18n-sync`，`on: push: paths: [''src/locales/en.json'']`，步骤：`crowdin-action/upload-sources`
+    → `crowdin-action/download` → `create-pull-request`'
+  - '- 术语校验脚本：`node scripts/check-terminology.js --glossary=glossary.csv --locales=src/locales/*.json`，输出不一致报告并返回非零退出码'
+  - '**边界条件**'
+  - '- 中小项目可用 GitHub Wiki/CSV + 手动 PR 替代付费 TMS，但需自建校验脚本'
+  - '- 高安全合规项目（金融/政务）数据不可出境，需部署私有化 TMS 或仅用本地工具链'
+  - '- 翻译文件格式统一为 JSON/PO/YAML，避免格式转换丢失元数据（上下文、复数形式）'
+  - '**素材溯源**'
+  - '- 来源：`PbGkdX4YVoO02mxYlYKcbgASnSg.md`，大纲第19章第2节'
+  - '- 角色：`method`，给出翻译管理的工程化落地流程与工具链'
+  sources:
+  - paper: PbGkdX4YVoO02mxYlYKcbgASnSg.md
+    role: method
+  excerpts:
+  - 接入 Crowdin/Lokalise/Phrase、GitHub Actions 自动推拉翻译文件、术语库一致性校验、机翻预译+人工复核流水线、发布时校验翻译完整率。
+- 'no': 3
+  name: 无障碍核心标准 —— WCAG 2.1 AA 级达标清单与落地执行
+  points:
+  - '**为什么需要这个概念？**'
+  - '- 法律合规风险：欧盟《无障碍指令》、美国 ADA、中国《无障碍环境建设法》强制要求公共服务数字产品达标'
+  - '- 商业价值：全球 15%+ 人口有残障，无障碍即可用性，改善 SEO、降低跳出率、扩大受众'
+  - '- 技术债：事后整改成本是设计期的 10-100 倍，需建立「左移」质量门禁'
+  - '**核心定义**'
+  - '- WCAG 2.1 四大原则（POUR）：可感知、可操作、可理解、健壮，共 13 条准则、50 条成功标准（A/AA/AAA 级）'
+  - '- 企业级通常以 AA 级为基线（27 条标准），覆盖文本替配、时间媒体、适应性、可辨识、键盘可达、充足时间、癫痫防护、可导航、输入模式、可读性、可预测、输入协助、兼容性'
+  - '- 核心技术手段：语义化 HTML（原生无障碍）、ARIA 属性补全语义缺口、键盘导航焦点管理、颜色对比度 ≥ 4.5:1、文本缩放 200% 无功能损失'
+  - '**关键性质**'
+  - '- 语义化 HTML 优先：`<button>`、`<nav>`、`<main>`、`<h1-h6>` 原生携带角色/状态/键盘交互，无需 ARIA'
+  - '- ARIA 仅作兜底：`role`、`aria-label`、`aria-expanded`、`aria-controls` 等修补非语义标签（如 `<div
+    role="button"`）'
+  - '- 焦点管理：Tab 顺序符合视觉顺序、模态框焦点陷阱、跳转链接、焦点指示器可见（`outline: none` 禁用需替代方案）'
+  - '- 屏幕阅读器测试：NVDA (Win)、VoiceOver (Mac/iOS)、TalkBack (Android) 必测三端'
+  - '**典型例子**'
+  - '- 图片替代文本：装饰性图 `alt=""`，信息性图 `alt="销售增长趋势图，Q1 环比 +12%"`，复杂图表提供 `longdesc` 或可见数据表'
+  - '- 表单无障碍：`<label for="email">邮箱</label><input id="email" aria-describedby="email-hint"
+    required>`，错误信息关联 `aria-invalid="true" aria-errormessage="email-error"`'
+  - '**边界条件**'
+  - '- 动态内容更新需 `aria-live="polite"`/`assertive` 通知屏幕阅读器，避免丢失关键状态变更'
+  - '- 自定义复合组件（下拉菜单、标签页、树形控件）必须严格遵循 WAI-ARIA Authoring Practices 交互模式'
+  - '- 第三方嵌入内容（地图、视频播放器、广告）若不可控，需提供无障碍替代方案或豁免声明'
+  - '**素材溯源**'
+  - '- 来源：`PbGkdX4YVoO02mxYlYKcbgASnSg.md`，大纲第19章第3节'
+  - '- 角色：`definition`，定义 WCAG 标准体系、核心技术要求与测试矩阵'
+  sources:
+  - paper: PbGkdX4YVoO02mxYlYKcbgASnSg.md
+    role: definition
+  excerpts:
+  - 逐条落地可感知/可操作/可理解/健壮四大原则：颜色对比度、文本缩放、ARIA Landmarks/Roles/States、Tab 顺序、焦点陷阱、屏幕阅读器测试。
+- 'no': 4
+  name: 组件库无障碍适配 —— 基础设施层的合规兜底
+  points:
+  - '**为什么需要这个概念？**'
+  - '- 业务开发若逐个页面手写 ARIA、焦点逻辑，重复造轮子且极易遗漏，导致合规率低、维护成本高'
+  - '- 组件库作为基础设施，应内置无障碍最佳实践，让业务「开箱即合规」，仅需关注业务语义'
+  - '- 设计系统需输出无障碍规范文档，统一交互模式（如对话框 ESC 关闭、焦点回归触发元素）'
+  - '**核心定义**'
+  - '- 按 WAI-ARIA Authoring Practices 1.2 (APG) 实现复合组件标准交互模式：Dialog、Menu、Combobox、Tabs、Tree、Listbox、Accordion、Tooltip
+    等'
+  - '- 基础组件合规清单：Button（原生按钮）、Link（真链接 vs 按钮）、Input（关联 Label/错误态）、Icon（装饰性 `aria-hidden="true"`）、Focus
+    Trap 组合式函数'
+  - '- 设计系统文档化：每个组件文档包含「键盘交互表」「ARIA 属性表」「屏幕阅读器预期播报」「WCAG 映射标准」'
+  - '**关键性质**'
+  - '- 复合组件交互模式标准化：如 `Combobox` 必须支持 `aria-controls` 关联列表、`aria-activedescendant`
+    高亮项、上下键导航、Enter 确选、Esc 关闭、输入过滤'
+  - '- 组合式函数封装通用逻辑：`useFocusTrap`、`useAriaLive`、`useKeyboardNavigation`、`useId` 生成唯一
+    ID 关联控件'
+  - '- 自动化回归：Storybook 集成 `@storybook/addon-a11y` (axe-core) 每次提交跑全组件库扫描，CI 阻断违规合并'
+  - '**典型例子**'
+  - '- `@enterprise/ui` 封装 `ElDialog` → `BaseDialog`：内置 `FocusTrap`、焦点回归、`aria-modal="true"`、`role="dialog"`、`aria-labelledby`
+    关联标题，业务仅需 `v-model:visible` 与 `title` prop'
+  - '- `ProTable` 列头排序按钮：`aria-sort="ascending/descending/none"`、`aria-label="按销售额升序排列"`，键盘可操作'
+  - '**边界条件**'
+  - '- 组件库无障碍不等于页面无障碍：页面级语义结构（Heading 层级、Landmark 区域）、业务逻辑（错误提示时机、复杂流程引导）仍需业务侧保障'
+  - '- 老旧项目逐步迁移：优先替换高频复合组件（Dialog/Table/Form），低频组件后续补齐'
+  - '- 定制主题时保证对比度：Design Tokens 输出时附带对比度校验报告，防止品牌色导致文本不可读'
+  - '**素材溯源**'
+  - '- 来源：`PbGkdX4YVoO02mxYlYKcbgASnSg.md`，大纲第19章第4节'
+  - '- 角色：`method`，给出组件库层面的无障碍适配实施路径与自动化保障'
+  sources:
+  - paper: PbGkdX4YVoO02mxYlYKcbgASnSg.md
+    role: method
+  excerpts:
+  - 按 WAI-ARIA Authoring Practices 实现 Dialog/Menu/Combobox/Tabs/Tree 等复合模式、输出组件库无障碍合规报告、Storybook
+    a11y 插件回归测试。
+- 'no': 5
+  name: i18n+a11y 自动化回归防护体系 —— 门禁而非事后诸葛亮
+  points:
+  - '**为什么需要这个概念？**'
+  - '- 人工测试覆盖率低、周期长、主观性强，无法跟上敏捷迭代节奏（双周/周发布）'
+  - '- i18n 缺失键、a11y 违规（对比度、缺失 alt、ARIA 误用）是高频回归缺陷，需在代码提交/合并/发布三个节点自动拦截'
+  - '- 建立「预防-检测-阻断-修复」闭环，将合规成本左移至开发期'
+  - '**核心定义**'
+  - '- 工具链：`axe-core`/`@axe-core/playwright` (a11y)、`i18n-ally`/`lint-i18n`/`check-i18n`
+    (i18n)、`Lighthouse CI` (综合审计)'
+  - '- PR 阻断门禁：GitHub Actions `lint`/`test` 阶段并行跑 `axe-playwright` 无障碍扫描 + `i18n-check`
+    缺键/未用键检测，失败阻断合并'
+  - '- 定期人工辅助测试：自动化仅覆盖 ~30-50% 规则，需制定月度/季度 NVDA/VoiceOver 实测计划，覆盖核心用户旅程'
+  - '**关键性质**'
+  - '- 分层门禁：Pre-commit (husky) 跑轻量 lint（键名规范、硬编码中文检测）；CI 跑完整 axe 扫描 + i18n 完整率；Release
+    阶段 Lighthouse CI 审计性能/SEO/a11y 综合分'
+  - '- 误报治理：建立 `axe-core` 规则白名单（如第三方 iframe 不可控）、i18n 动态键忽略列表，避免「狼来了」导致团队忽视门禁'
+  - '- 报告可视化：PR 检查项输出违规详情链接（Storybook a11y 面板、i18n 缺键 JSON），开发者点击直达问题代码行'
+  - '**典型例子**'
+  - '- GitHub Actions Job `a11y-check`：`uses: nick-invision/retry@v2` 重试 2 次 → `run:
+    npx playwright test --project=chromium-a11y` → `uses: actions/upload-artifact@v4`
+    上传 HTML 报告'
+  - '- i18n 缺键检测脚本：递归扫描 `t(''key'')`/`$t(''key'')` 调用，与 `locales/*.json` 键集合比对，输出
+    `missing.json`/`unused.json`，CI 失败时作为 Artifact 供下载'
+  - '**边界条件**'
+  - '- 动态拼接键（`t(''error.'' + code)`）无法静态分析，需约定 `// i18n-ignore` 注释或提取为常量数组显式声明'
+  - '- E2E 无障碍测试耗时长，建议仅对核心流程（登录、支付、表单提交）跑 `axe` 注入，非核心页面抽样'
+  - '- 移动端无障碍（TalkBack/VoiceOver 手势）需真机/模拟器跑 Playwright/Appium，CI 环境配置复杂度高，可降级为人工定期测'
+  - '**素材溯源**'
+  - '- 来源：`PbGkdX4YVoO02mxYlYKcbgASnSg.md`，大纲第19章第5节'
+  - '- 角色：`experiment`，给出自动化回归防护体系的具体工程落地方案'
+  sources:
+  - paper: PbGkdX4YVoO02mxYlYKcbgASnSg.md
+    role: experiment
+  excerpts:
+  - 集成 axe-core/lighthouse-ci 无障碍自动化扫描、i18n 缺失键/未使用键检测、PR 阻断门禁、定期人工辅助测试（NVDA/VoiceOver）计划。
