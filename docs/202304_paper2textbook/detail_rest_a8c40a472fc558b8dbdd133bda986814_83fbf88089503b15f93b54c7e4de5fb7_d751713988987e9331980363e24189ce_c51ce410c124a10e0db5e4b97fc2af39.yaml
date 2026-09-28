@@ -1,0 +1,135 @@
+learning_targets:
+- 理解跨端开发四大架构范式的核心差异与适用边界
+- 掌握 React Native 新架构中 Fabric、TurboModules、Hermes 与 JSI 的协作原理
+- 剖析 Flutter 三棵树协作机制及 Impeller 渲染管线的性能优势
+- 理解 Uni-app/Taro 编译时多端统一的 DSL 约束、条件编译与 API 抹平机制
+- 能设计原生应用嵌入 RN/Flutter 模块的 Brownfield 混合栈共存架构
+- 能根据业务形态、团队技术栈、性能要求制定跨端技术选型决策
+concept_map:
+- 跨端开发技术选型与架构演进
+- ├── 四大架构范式对决
+- │   ├── Hybrid/WebView 容器        —— P001
+- │   ├── 小程序/双线程模型          —— P001
+- │   ├── 原生渲染/JS 运行时         —— P001, P002
+- │   └── AOT 编译/自绘引擎          —— P001, P003
+- ├── React Native 新架构深度
+- │   ├── JSI (JavaScript Interface) —— P002
+- │   ├── Fabric 同步渲染系统        —— P002
+- │   ├── TurboModules 惰性加载      —— P002
+- │   ├── Codegen 类型安全桥接       —— P002
+- │   └── Hermes 字节码预编译引擎    —— P002
+- ├── Flutter 渲染管线
+- │   ├── Widget/Element/RenderObject 三棵树 —— P003
+- │   ├── Build/Layout/Paint/Composite 流程 —— P003
+- │   ├── Skia vs Impeller 后端差异        —— P003
+- │   └── Isolate 并发与 Platform Channel  —— P003
+- ├── 编译时多端统一
+- │   ├── DSL 约束与静态分析           —— P004
+- │   ├── 条件编译机制                 —— P004
+- │   ├── 统一 API 抹平层              —— P004
+- │   └── 编译器插件化管线             —— P004
+- └── 混合栈共存架构
+- '    ├── Brownfield 集成模式         —— P005'
+- '    ├── 分层架构：Native Shell + Module + Shared Logic —— P005'
+- '    ├── 通信桥接与导航融合           —— P005'
+- '    ├── 热更新与依赖治理             —— P005'
+- '    └── 三端代码复用策略             —— P005'
+life_analogy:
+- 想象跨端开发是**一家想要全球开连锁店的餐厅集团** ：
+- '- **Hybrid/WebView** = **外卖加盟模式**：把菜单（Web页面）发给当地食堂（WebView）做，食堂设备不统一（内核碎片化），菜品口味（体验）漂移大，但开店最快、成本最低。'
+- '- **小程序/双线程** = **商场柜台模式**：商场（宿主环境）提供统一装修标准（基础库）和收银系统（原生能力），你只管配菜单（逻辑层）和摆盘（视图层），但柜台面积有限（包体积2M），不能用明火（无完整DOM/BOM）。'
+- '- **React Native (新架构)** = **中央厨房预制菜+同城配送**：中央厨房（JS线程/JSI）统一研发标准菜谱（组件），通过高速专线（Fabric同步渲染）直达门店后厨（Native渲染器）出品，按需开启配送线路，保证口味一致且上菜快。'
+- '- **Flutter/KMP** = **自带厨房设备的标准化门店**：连锁总部（Flutter Engine/Dart AOT）统一配发全套厨具（Skia/Impeller绘制引擎）和标准操作手册（Widget），不依赖当地食堂设备，哪家门店做出来的菜（像素）都一模一样。'
+- '- **Uni-app/Taro** = **万能菜谱翻译官**：你写一份通用菜谱（Vue/React DSL），翻译官（编译器）自动把它翻成肯德基格式、麦当劳格式、本地小吃街格式，还能根据门店设备（条件编译）微调做法。'
+- '- **混合栈** = **老店翻新不歇业**：老字号（原生App）不想全拆重建，就在后院盖个标准化中央厨房模块，新菜品（新业务）在新厨房做，老招牌菜（核心链路）老厨房做，共用一套食材仓库和收银系统。'
+summary:
+- concept: 四大架构范式
+  desc: 按渲染归属与通信机制分类：Hybrid、小程序、原生渲染、AOT自绘，性能与体验呈阶梯分布
+- concept: JSI
+  desc: RN新架构基石，C++层直接持有JS对象引用，实现同步、双向、类型安全的跨语言调用，替代异步Bridge
+- concept: Fabric
+  desc: 基于JSI的C++同步渲染器，统一渲染逻辑，支持同步布局、并发特性、跨平台行为一致
+- concept: TurboModules
+  desc: 新一代Native模块系统，支持惰性加载、同步调用、HostObject、Codegen自动生成类型安全存根
+- concept: Hermes
+  desc: 字节码预编译JS引擎，AOT减少启动解析开销，mmap内存映射、GC优化，适配移动端资源受限环境
+- concept: 三棵树
+  desc: Flutter运行时核心：Widget(配置描述) -> Element(实例/复用/Diff) -> RenderObject(布局/绘制/语义)
+- concept: Impeller
+  desc: Flutter新渲染后端，AOT编译着色器、显式管线状态、现代GPU API，解决Skia运行时编译导致的首帧抖动
+- concept: DSL约束
+  desc: Uni-app/Taro限制Vue/React语法子集，保证模板可静态分析、可编译转译为目标平台原生代码
+- concept: 条件编译
+  desc: 编译期根据目标平台裁剪/注入差异代码，实现同一代码库多端差异化适配
+- concept: 统一API抹平层
+  desc: uni.xxx/Taro.xxx运行时适配器，桥接平台差异（请求/存储/导航/蓝牙等），暴露统一Promise风格接口
+- concept: Brownfield集成
+  desc: 原生App作为宿主壳嵌入RN/Flutter模块，实现渐进式迁移、共存共治、三端代码复用
+- concept: 三端代码复用策略
+  desc: 业务逻辑层跨端复用（TS/Dart/Kotlin/Rust+Wasm），UI层各自维护配合设计令牌，API层Schema生成类型安全Client
+exercises:
+- 'no': 1
+  title: 跨端技术选型决策演练
+  contents:
+  - 场景：某电商 App 计划重构“个人中心”模块（低频、表单密集、依赖原生相册/定位/支付），并新建“直播带货”模块（高帧率动画、弱网优先、复杂手势交互、Web/H5/小程序/APP
+    四端同步上线）。团队主力技术栈为 React + TypeScript，无 Dart/Kotlin 经验，原生 iOS/Android 开发资源极少。
+  - 任务：
+  - 1. 分别为两个模块推荐最适合的跨端方案，并列出核心理由（渲染性能、开发体验、平台一致性、原生互操作、团队学习成本、包体积）。
+  - 2. 分析如果选择 React Native 新架构开发“直播带货”，迁移旧架构第三方原生模块（如推流 SDK）到 TurboModules 可能遇到的三大工程风险。
+  - 3. 若决定用 Uni-app 做“直播带货”四端统一，针对“高帧率动画”在小程序端的性能瓶颈，提出两种编译期或运行期优化手段。
+- 'no': 2
+  title: Flutter 三棵树与渲染管线手动推演
+  contents:
+  - 给定 Flutter 代码片段：
+  - '```dart'
+  - class Counter extends StatefulWidget {
+  - '  @override'
+  - '  _CounterState createState() => _CounterState();'
+  - '}'
+  - class _CounterState extends State<Counter> {
+  - '  int _count = 0;'
+  - '  @override'
+  - '  Widget build(BuildContext context) {'
+  - '    return Column(key: Key(''col''), children: ['
+  - '      Text(''Count: $_count'', key: Key(''text'')),'
+  - '      ElevatedButton(key: Key(''btn''), onPressed: () => setState(() => _count++),
+    child: Text(''+1''))'
+  - '    ]);'
+  - '  }'
+  - '}'
+  - '```'
+  - 任务：
+  - 1. 绘制初次 build 后的 Widget Tree、Element Tree、RenderObject Tree 结构图（标注类型、Key、父子关系）。
+  - 2. 用户点击按钮触发 `setState`，`_count` 变为 1，描述 Element Tree 的 Diff 复用过程：哪些 Element 被复用？哪些被标记
+    dirty？RenderObject Tree 如何变化？
+  - 3. 解释为何 `RepaintBoundary` 能隔离重绘范围，并结合 Layer/Composite 阶段说明其原理。
+  - 4. 对比 Skia 与 Impeller 在首帧渲染该按钮阴影效果时的着色器处理差异。
+- 'no': 3
+  title: 混合栈共存架构落地方案设计
+  contents:
+  - 背景：某超级 App（原生 iOS/Android，数百万行代码）决定引入 Flutter 承接“短视频流”新业务，要求：
+  - '- 原生 Tab 栏保持不动，点击“视频”Tab 进入 Flutter 页面栈。'
+  - '- Flutter 页面需复用原生登录态、网络库（OkHttp/URLSession）、埋点 SDK、图片加载库。'
+  - '- 支持 Flutter 模块热更新，绕过应用商店审核。'
+  - '- CI/CD 流水线需同时产出原生基线包、Flutter 模块产物（AAR/Framework）、热更新补丁包。'
+  - 任务：
+  - 1. 设计 Native Shell 与 Flutter Module 的通信协议契约（MethodChannel / Pigeon / FFI 任选其一），定义：初始化参数传递、路由跳转、登录态同步、网络请求代理、埋点上报
+    5 个核心接口的 Dart 与 Native 签名。
+  - 2. 制定依赖治理策略：原生网络库/图片库如何以“单例服务”形式暴露给 Flutter 使用，避免重复实现与冲突？
+  - 3. 设计导航融合方案：原生路由栈如何管理 Flutter 页面？Flutter 内部 Navigator 与原生 UINavigationController/FragmentManager
+    如何双向同步？返回手势、系统 Back 键如何统一拦截？
+  - 4. 规划热更新落地：Shorebird / 自建方案的差异对比，补丁包下发、校验、加载、回滚的完整流程与风控策略。
+  - 5. 列出该架构引入的 3 类典型崩溃场景及跨语言堆栈定位调试方案。
+- 'no': 4
+  title: Uni-app 条件编译与平台差异抹平实战
+  contents:
+  - 需求：开发一个“海报生成器”组件，需在 H5、微信小程序、App（iOS/Android）三端运行。核心功能：Canvas 绘制文本/图片/二维码 -> 保存本地相册/预览
+    -> 分享给好友。
+  - 任务：
+  - 1. 编写条件编译代码骨架，分别实现三端 Canvas 绘制上下文获取（`uni.createCanvasContext` vs `CanvasRenderingContext2D`
+    vs `OffscreenCanvas`）、图片下载（`uni.downloadFile` vs `fetch`/blob）、保存相册（`uni.saveImageToPhotosAlbum`
+    vs `a[download]` vs 相册权限申请）的差异化逻辑。
+  - 2. 分析微信小程序端 `Canvas 2D` 接口与 H5 标准 `CanvasRenderingContext2D` 的行为差异（如 `measureText`
+    返回值、路径闭合、像素比处理），并给出兼容性封装策略。
+  - 3. 小程序端包体积超 2M 主包限制，设计分包策略：海报生成器作为分包，主包仅保留登录/首页，分包预加载时机配置。
+  - 4. 列举 3 个 Uni-app 编译器常见破坏性变更案例（版本升级导致的语法不兼容/生命周期时机变化/组件属性废弃），并制定版本锁定与升级测试规范。
