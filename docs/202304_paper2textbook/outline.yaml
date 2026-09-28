@@ -1,12 +1,1813 @@
 - 'no': 0
-  chapters: []
+  chapters:
+  - 'no': 1
+    name: 提示工程基石 —— 从“咒语”到结构化指令设计
+    desc: 本章确立提示工程的学科地位，剖析大模型交互的本质差异，建立从零样本到少样本、从启发式到结构化的认知脚手架。
+    nodes:
+    - 'no': 1
+      name: 为什么需要提示工程：大模型交互的新范式
+      desc: 对比传统编程与提示编程，阐述‘自然语言即编程接口’的核心地位与不确定性挑战。
+      role: motivation
+      src:
+      - paper: 20230418_002.md
+      - paper: 20230418_003.md
+    - 'no': 2
+      name: 提示的解剖学：指令、上下文、示例与输出约束
+      desc: 定义提示的四大标准组件，建立结构化提示的元模型。
+      role: definition
+      src:
+      - paper: 20230418_002.md
+      - paper: 20230418_004.md
+    - 'no': 3
+      name: 零样本、少样本与思维链：推理能力的阶梯
+      desc: 梳理从直接提问到提供示例、再到引导逐步推理的能力演进路线。
+      role: method
+      src:
+      - paper: 20230418_005.md
+      - paper: 20230418_006.md
+    - 'no': 4
+      name: 结构化提示设计模式：角色设定、任务分解与格式约束
+      desc: 总结高复用、高鲁棒性的提示设计范式，将‘玄学’转化为工程规范。
+      role: method
+      src:
+      - paper: 20230418_004.md
+      - paper: 20230418_008.md
+  - 'no': 2
+    name: 进阶推理技术 —— 让模型学会‘慢思考’
+    desc: 本章聚焦复杂任务中的推理增强技术，涵盖思维链变体、自我一致性、知识检索增强与程序辅助推理，攻克多步推理幻觉与逻辑断层。
+    nodes:
+    - 'no': 1
+      name: 思维链的变体与进化：从CoT到CoT-SC与ToT
+      desc: 对比标准CoT、自我一致性采样与思维树搜索在推理深度与广度上的权衡。
+      role: method
+      src:
+      - paper: 20230418_025.md
+      - paper: 20230418_026.md
+    - 'no': 2
+      name: 检索增强生成：给模型装上‘外挂大脑’
+      desc: 详解RAG架构的索引、检索、生成全流程，解决知识截止与幻觉问题。
+      role: method
+      src:
+      - paper: 20230418_027.md
+      - paper: 20230418_028.md
+    - 'no': 3
+      name: 程序辅助推理：用代码执行保障逻辑与计算精度
+      desc: 引入PAL（Program-aided Language Models）范式，将自然语言推理转为可执行代码，实现‘工具使用’雏形。
+      role: method
+      src:
+      - paper: 20230418_029.md
+      - paper: 20230418_030.md
+    - 'no': 4
+      name: ReAct与工具调用：推理与行动的闭环
+      desc: 解析Reasoning+Acting范式，展示模型如何在外部环境交互中修正推理路径。
+      role: method
+      src:
+      - paper: 20230418_031.md
+      - paper: 20230418_032.md
+  - 'no': 3
+    name: 自动化提示优化 —— 从人工调参到算法搜索
+    desc: 本章引入自动化提示工程（APE/OPRO）体系，覆盖提示生成、评估、优化闭环，实现提示设计的‘提示工程师自动化’。
+    nodes:
+    - 'no': 1
+      name: 自动提示工程师（APE）：让模型自己写提示
+      desc: 解析‘生成-评分-筛选’的自举流程，实现从任务描述到最优提示的自动映射。
+      role: method
+      src:
+      - paper: 20230418_080.md
+      - paper: 20230418_081.md
+    - 'no': 2
+      name: OPRO：用大模型作为优化器优化提示
+      desc: 详解‘优化轨迹上下文’机制，利用LLM元认知能力进行黑盒提示优化。
+      role: method
+      src:
+      - paper: 20230418_082.md
+      - paper: 20230418_083.md
+    - 'no': 3
+      name: 提示评估基准与自动化评测体系构建
+      desc: 建立任务无关的提示质量评估指标（准确率、鲁棒性、Token效率），支撑自动化优化闭环。
+      role: experiment
+      src:
+      - paper: 20230418_084.md
+      - paper: 20230418_085.md
+    - 'no': 4
+      name: 软提示与前缀调优：连续空间中的隐式指令
+      desc: 对比硬提示与软提示，引入可学习连续嵌入向量，探讨参数高效微调视角下的提示优化。
+      role: extension
+      src:
+      - paper: 20230418_086.md
+      - paper: 20230418_087.md
+  - 'no': 4
+    name: 多模态与复杂交互 —— 突破文本模态边界
+    desc: 本章拓展至视觉语言模型提示、多轮对话状态管理、代理规划与长上下文处理，构建通用多模态智能体的提示基础设施。
+    nodes:
+    - 'no': 1
+      name: 视觉语言模型提示：图文对齐与视觉思维链
+      desc: 分析多模态提示的独特组件（图像Token、区域引用），提出视觉推理的提示策略。
+      role: method
+      src:
+      - paper: 20230418_088.md
+      - paper: 20230418_089.md
+    - 'no': 2
+      name: 多轮对话与上下文工程：状态压缩与记忆管理
+      desc: 解决长对话中的上下文窗口溢出、一致性漂移问题，引入摘要记忆与检索式对话历史。
+      role: method
+      src:
+      - paper: 20230418_090.md
+      - paper: 20230418_091.md
+    - 'no': 3
+      name: LLM代理规划与任务分解：从单步到复杂目标达成
+      desc: 剖析Planning、Task Decomposition、Self-Reflection在自主代理中的提示实现模式。
+      role: method
+      src:
+      - paper: 20230418_092.md
+      - paper: 20230418_093.md
+    - 'no': 4
+      name: 长上下文处理策略：失落中间现象与注意力引导
+      desc: 实验揭示长上下文‘中间遗忘’规律，提出关键信息前置、分块摘要等缓解策略。
+      role: limitation
+      src:
+      - paper: 20230418_094.md
+      - paper: 20230418_111.md
+  - 'no': 5
+    name: 安全、评估与工程落地 —— 把提示装进生产系统
+    desc: 本章聚焦生产级应用的‘最后一公里’：对抗鲁棒性、自动化评测体系、提示版本管理、成本控制与合规护栏。
+    nodes:
+    - 'no': 1
+      name: 提示注入与对抗攻击：安全边界的攻防实战
+      desc: 分类梳理提示注入、越狱、数据泄露攻击向量，构建指令层级、输入清洗、输出监控的纵深防御体系。
+      role: limitation
+      src:
+      - paper: 20230418_112.md
+      - paper: 20230418_113.md
+    - 'no': 2
+      name: 自动化评测基准构建：从主观打分到可复现指标
+      desc: 设计基于LLM-as-a-Judge、规则校验、人工标注三层评测体系，支撑提示迭代的数据驱动决策。
+      role: experiment
+      src:
+      - paper: 20230418_114.md
+      - paper: 20230418_115.md
+    - 'no': 3
+      name: 提示工程生命周期管理：版本控制、A/B测试与回滚
+      desc: 引入PromptOps理念，建立提示版本库、灰度发布流水线与性能监控看板。
+      role: extension
+      src:
+      - paper: AiCrd19EAoPvvPx0HSJczxk3nfC.md
+      - paper: QhJudGRcgoQlxGxYU67cndJenjh.md
+    - 'no': 4
+      name: 成本优化与Token经济学：在预算内榨取最大性能
+      desc: 量化分析Token消耗与效果边际收益，提供压缩提示、模型级联、语义缓存等工程降本方案。
+      role: extension
+      src:
+      - paper: THh7dtp6uoEKloxVqwncmmwBn1b.md
+      - paper: 20230418_006.md
 - 'no': 1
-  chapters: []
+  chapters:
+  - 'no': 1
+    name: 提示工程基石 —— 掌握与大模型对话的底层语法
+    desc: 本章建立提示工程的核心认知框架：从定义、核心要素到设计原则，确立“提示即编程”的工程化思维，为后续高阶技法打下基础。
+    nodes:
+    - 'no': 1
+      name: 什么是提示工程
+      desc: 界定提示工程的概念边界：它是引导大模型完成特定任务的输入设计艺术，本质是人机交互接口的新范式。
+      role: definition
+      src:
+      - paper: 20230418_011.md
+    - 'no': 2
+      name: 提示的核心构成要素
+      desc: 拆解高质量提示的四大基石——指令、上下文、输入数据、输出指示器，阐述各要素的功能定位与协作关系。
+      role: definition
+      src:
+      - paper: 20230418_012.md
+    - 'no': 3
+      name: 提示设计的通用原则
+      desc: 确立清晰具体、拆解复杂、给予示例、指定格式等黄金法则，从认知负荷视角解释为何这些原则有效。
+      role: method
+      src:
+      - paper: 20230418_013.md
+    - 'no': 4
+      name: 少样本提示的机理与实践
+      desc: 对比零样本与少样本范式，解析演示例如何通过上下文学习激活模型内化的任务模式，包含示例选择、排序与格式化的实战策略。
+      role: method
+      src:
+      - paper: 20230418_014.md
+    - 'no': 5
+      name: 常见陷阱与迭代优化范式
+      desc: 盘点模糊指令、过度约束、幻觉诱导等典型失效模式，建立“评估-诊断-重写”的闭环迭代工作流。
+      role: limitation
+      src:
+      - paper: 20230418_015.md
+  - 'no': 2
+    name: 推理增强技法 —— 激活模型的“系统2”慢思考能力
+    desc: 本章聚焦复杂推理任务，系统讲解思维链及其变体如何将隐性推理显性化，攻克多步逻辑、数学计算与常识推理难关。
+    nodes:
+    - 'no': 1
+      name: 思维链：让模型逐步思考
+      desc: 从“Let's think step by step”零样本CoT到手工构建演示例的少样本CoT，揭示中间推理步骤对模型性能的决定性提升机制。
+      role: method
+      src:
+      - paper: 20230418_016.md
+    - 'no': 2
+      name: 自洽性解码：以少数服从多数的鲁棒推理
+      desc: 引入温度采样生成多条推理路径，通过答案投票机制修正单路径推理的随机性错误，显著提升数学与符号推理准确率。
+      role: method
+      src:
+      - paper: 20230418_017.md
+    - 'no': 3
+      name: 知识生成提示：显性化隐性前提
+      desc: 在推理前先生成相关知识陈述（如定义、公式、常识），再接入推理主流程，解决模型“知其然不知其所以然”的知识缺失问题。
+      role: method
+      src:
+      - paper: 20230418_018.md
+    - 'no': 4
+      name: 思维树与思维图：结构化搜索策略
+      desc: 超越线性链条，引入树状/图状搜索与状态评估器，支持回溯、分支探索与前瞻规划，攻克战略规划类复杂任务。
+      role: extension
+      src:
+      - paper: AsUTdfb1ioXlpLxltn4cbMfcnNd.md
+    - 'no': 5
+      name: 推理类提示的失效边界分析
+      desc: 实证分析CoT在算术运算长尾、逻辑悖论、幻觉放大等场景的局限，厘清“推理涌现”能力的真实边界。
+      role: limitation
+      src:
+      - paper: EnMvdgCPboEplRxJPdXcMUrznbf.md
+  - 'no': 3
+    name: 智能体架构设计 —— 从单轮问答到自主执行闭环
+    desc: 本章构建LLM驱动智能体的系统工程视角：规划、记忆、工具使用三大核心模块的解耦与协作，实现从“生成文本”到“完成任务”的跨越。
+    nodes:
+    - 'no': 1
+      name: 智能体核心架构：大脑、感知与行动
+      desc: 定义LLM作为大脑（推理/规划）、记忆模块（短时/长时）、工具调用（行动）、环境反馈（感知）的标准化接口契约。
+      role: definition
+      src:
+      - paper: ETU6dd94wo3ZlMxst46cnwgZn5g.md
+    - 'no': 2
+      name: 规划与任务分解策略
+      desc: 对比ReAct（推理+行动交织）、Plan-and-Solve（先规划后执行）、Reflexion（试错反思）等范式，分析其在复杂任务中的适用边界。
+      role: method
+      src:
+      - paper: FCc1dPLOBosBQIxNgAgctIgDnLg.md
+    - 'no': 3
+      name: 工具使用与函数调用机制
+      desc: 详解Function Calling协议、OpenAPI Schema映射、工具检索与选择算法，以及并行调用、流式返回、错误重试的工程化实现。
+      role: method
+      src:
+      - paper: FgeSdrK4no16NRxepk5cnXUVnvf.md
+    - 'no': 4
+      name: 记忆系统的分层设计与检索增强
+      desc: 设计工作记忆（上下文窗口）、情景记忆（向量检索）、语义记忆（知识图谱）三层架构，解决长时任务的一致性与个性化问题。
+      role: method
+      src:
+      - paper: SnZDdyUsFoxTP0x9wCPcdAX5nWc.md
+    - 'no': 5
+      name: 多智能体协作与通信协议
+      desc: 基于角色扮演与消息传递机制，设计专家委员会、辩论机制、层级分派等协作拓扑，攻解单智能体能力上限。
+      role: extension
+      src:
+      - paper: doxcnk4mqgBMJTv0mklq0eR48fg.md
+  - 'no': 4
+    name: RAG系统工程化 —— 让大模型用好外部知识库
+    desc: 本章以生产级RAG（检索增强生成）系统为交付物，覆盖索引构建、检索优化、生成融合、评估迭代全链路，解决幻觉、时效性与私有数据落地难题。
+    nodes:
+    - 'no': 1
+      name: RAG范式演进：从朴素到模块化
+      desc: 梳理Naive RAG -> Advanced RAG -> Modular RAG演进脉络，定义检索器、生成器、重排序器、查询重写器等标准化组件接口。
+      role: motivation
+      src:
+      - paper: 20230418_095.md
+    - 'no': 2
+      name: 文档解析与分块策略的工程抉择
+      desc: 对比固定长度、语义分块、层级分块、Agentic Chunking等方案，结合文档类型（PDF/代码/表格）给出最佳实践决策树。
+      role: method
+      src:
+      - paper: 20230418_096.md
+    - 'no': 3
+      name: 向量索引与混合检索技术
+      desc: 深度解析HNSW/IVF索引参数调优，融合稀疏检索（BM25）与稠密检索的混合召回策略，平衡语义匹配与关键词精准命中。
+      role: method
+      src:
+      - paper: 20230418_097.md
+    - 'no': 4
+      name: 重排序与上下文压缩优化
+      desc: 引入Cross-Encoder重排序、LLM-based压缩、关键句提取等后处理手段，在有限上下文窗口内最大化信噪比。
+      role: method
+      src:
+      - paper: 20230418_098.md
+    - 'no': 5
+      name: 查询重写与路由：理解用户真实意图
+      desc: 实现查询扩展（HyDE）、子查询分解、多索引路由、对话历史改写，解决模糊查询、多跳推理、会话上下文依赖等难题。
+      role: method
+      src:
+      - paper: 20230418_099.md
+    - 'no': 6
+      name: RAG系统的自动化评估体系
+      desc: 构建基于RAGAS/ARES框架的忠实度、答案相关性、上下文精确率/召回率指标体系，建立合成测试集与持续集成评估流水线。
+      role: experiment
+      src:
+      - paper: 20230418_100.md
+    - 'no': 7
+      name: 进阶RAG模式：GraphRAG与Agentic RAG
+      desc: 探索知识图谱增强的全局推理能力，以及具备主动检索决策、工具调用能力的智能体化RAG架构。
+      role: extension
+      src:
+      - paper: 20230418_101.md
+    - 'no': 8
+      name: 生产环境落地：流式响应、缓存与成本控制
+      desc: 解决Token流式输出、语义缓存命中、嵌入模型量化、检索并发扩容等工程化挑战，建立SLA保障与成本治理体系。
+      role: method
+      src:
+      - paper: 20230418_102.md
+    - 'no': 9
+      name: RAG常见失败模式诊断与对策
+      desc: 建立“未命中-噪声干扰-生成幻觉-格式错误”四类故障诊断树，配套数据清洗、提示加固、流程兜底的系统性解决方案。
+      role: limitation
+      src:
+      - paper: 20230418_103.md
+    - 'no': 10
+      name: RAG与微调的协同边界探讨
+      desc: 对比RAG（外挂知识）与微调（内化知识）在知识更新频度、领域适配深度、成本延迟等维度的权衡，提出混合部署策略。
+      role: extension
+      src:
+      - paper: 20230418_104.md
+    - 'no': 11
+      name: 多模态RAG：文档理解与跨模态检索
+      desc: 攻克表格结构化解析、图表OCR理解、图像向量化检索等技术难点，构建统一的多模态知识库检索生成管线。
+      role: extension
+      src:
+      - paper: 20230418_107.md
+    - 'no': 12
+      name: RAG安全与合规：数据脱敏与访问控制
+      desc: 设计租户级数据隔离、敏感字段掩码、检索结果权限过滤、审计日志追溯等合规机制，满足企业级数据安全红线。
+      role: extension
+      src:
+      - paper: 20230418_108.md
 - 'no': 2
-  chapters: []
+  chapters:
+  - 'no': 1
+    name: 前端工程化基建 —— 从零搭建现代研发脚手架
+    desc: 本章以 Vite 为核心，系统梳理现代前端项目的初始化、配置、插件机制与环境变量管理，打通“开发-构建-部署”基础链路。
+    nodes:
+    - 'no': 1
+      name: 为什么选择 Vite：基于 ESM 的开发服务器与按需编译
+      desc: 对比 Webpack 束模式，阐述 Vite 利用浏览器原生 ESM 实现冷启动加速、HMR 无包体积相关的核心优势。
+      role: motivation
+      src:
+      - paper: 20230418_034.md
+    - 'no': 2
+      name: Vite 核心配置解析：resolve、css、server 与 build 字段
+      desc: 详解别名配置、CSS 预处理器选项、开发服务器代理/端口、生产环境构建目标/压缩/分包等高频配置项。
+      role: definition
+      src:
+      - paper: 20230418_034.md
+    - 'no': 3
+      name: 插件机制深度解析：钩子函数、执行顺序与 Rollup 兼容性
+      desc: 剖析 Vite 独有钩子与通用 Rollup 钩子的调用时机，展示如何编写通用插件实现跨环境复用。
+      role: method
+      src:
+      - paper: 20230418_034.md
+    - 'no': 4
+      name: 环境变量与模式管理：.env 文件优先级、类型安全与运行时注入
+      desc: 讲解 Vite 加载 .env.[mode] 的规则、import.meta.env 的类型声明扩展，以及 SSR/客户端环境变量隔离策略。
+      role: method
+      src:
+      - paper: 20230418_034.md
+    - 'no': 5
+      name: 实战：搭建生产级 Vue/React/TS 标准化模版
+      desc: 整合 ESLint、Prettier、Husky、lint-staged、Commitlint，落地规范化的提交流程与代码风格统一。
+      role: experiment
+      src:
+      - paper: 20230418_034.md
+  - 'no': 2
+    name: TypeScript 类型体操进阶 —— 让类型系统为业务建模护航
+    desc: 本章聚焦 TS 高级类型系统在复杂业务场景下的建模能力，从条件类型、模板字面量到类型编程范式，构建“以类型为文档、以编译为测试”的开发信心。
+    nodes:
+    - 'no': 1
+      name: 类型体操核心原语：infer、extends、keyof、mapped types 组合拳
+      desc: 拆解推断、约束、遍历、映射四大基础操作，建立类型层面的“变量、判断、循环、映射”思维模型。
+      role: definition
+      src:
+      - paper: 20230418_035.md
+    - 'no': 2
+      name: 条件类型与分布式条件类型：类型层面的三元运算符与联合分发
+      desc: '深入理解 `T extends U ? X : Y` 在联合类型上的分发行为，掌握 `Exclude`、`Extract` 等内置工具类型实现原理。'
+      role: method
+      src:
+      - paper: 20230418_035.md
+    - 'no': 3
+      name: 模板字面量类型：字符串级别的类型运算与解析
+      desc: 演示如何利用 `${infer Prefix}${infer Suffix}` 实现路由解析、SQL 语句校验、CSS-in-JS 属性提示等场景。
+      role: method
+      src:
+      - paper: 20230418_035.md
+    - 'no': 4
+      name: 递归与尾递归类型：在类型系统中实现复杂数据结构变换
+      desc: 通过元组递归模拟循环，实现深度 `Readonly`、`Flatten`、路径提取 `Path<T>` 等实用工具，规避类型实例化深度限制。
+      role: method
+      src:
+      - paper: 20230418_035.md
+    - 'no': 5
+      name: 实战：从 OpenAPI Schema 自动生成类型安全的请求客户端
+      desc: 串联模板字面量、索引访问、条件类型，构建端到端类型安全的 API 调用层，消灭手写接口定义的维护成本。
+      role: experiment
+      src:
+      - paper: 20230418_035.md
+  - 'no': 3
+    name: Vue 3 组合式 API 设计模式 —— 逻辑复用与状态管理的现代范式
+    desc: 本章深入剖析 `setup` 语法糖、响应式系统原理、组合式函数设计原则，对比 Options API 与 Mixin 的痛点，确立大型应用的代码组织规范。
+    nodes:
+    - 'no': 1
+      name: 响应式核心原理：Proxy 代理、依赖收集与副作用触发
+      desc: 从 `reactive`/`ref` 入手，图解 `track`/`trigger` 如何建立响应式依赖图，理解 `effect` 作为调度单位的角色。
+      role: definition
+      src:
+      - paper: 20230418_036.md
+    - 'no': 2
+      name: 组合式函数设计指北：状态封装、生命周期钩子注入与类型推导
+      desc: 总结 `useXxx` 命名规范、响应式状态返回约定、`onMounted` 等钩子在组合函数中正确使用的时机与限制。
+      role: method
+      src:
+      - paper: 20230418_036.md
+    - 'no': 3
+      name: 逻辑复用对决：Composables vs Mixins vs 高阶组件 vs Provide/Inject
+      desc: 从命名空间冲突、数据来源追踪、TypeScript 支持度、测试隔离性四个维度横向对比，论证 Composables 优势。
+      role: method
+      src:
+      - paper: 20230418_036.md
+    - 'no': 4
+      name: 进阶模式：异步状态机、响应式工具函数与自定义 Ref
+      desc: 实现 `useAsyncState` 统一处理 loading/error/data、`useDebounceFn`/`useThrottleFn`
+        封装副作用、`customRef` 控制触发时机。
+      role: extension
+      src:
+      - paper: 20230418_036.md
+    - 'no': 5
+      name: 实战：构建可测试、可追踪的业务级 Hooks 库
+      desc: 规范目录结构、单元测试策略、文档生成流程，产出团队内部 `@my-org/vue-hooks` 包。
+      role: experiment
+      src:
+      - paper: 20230418_036.md
+  - 'no': 4
+    name: Pinia 状态管理实战 —— 从模块化 Store 到类型安全的全局状态树
+    desc: 本章系统讲解 Pinia 核心概念、Store 定义模式、插件机制、服务端渲染支持，并对比 Vuex 暴露的迁移路径与最佳实践。
+    nodes:
+    - 'no': 1
+      name: 核心架构：定义 Store、State/Getters/Actions 三元组与模块自动代码分割
+      desc: 对比 Option Store 与 Setup Store 两种定义风格，阐述 Pinia 如何天然支持代码分割、无需手动注册模块。
+      role: definition
+      src:
+      - paper: 20230418_037.md
+    - 'no': 2
+      name: 类型安全实践：自动推导 Store 类型、组合式 API 中的类型收窄
+      desc: 演示如何利用 `defineStore` 返回类型、`storeToRefs` 保持响应式解构，实现全链路类型提示与重构安全。
+      role: method
+      src:
+      - paper: 20230418_037.md
+    - 'no': 3
+      name: 插件机制与持久化：pinia-plugin-persistedstate 原理与自定义插件开发
+      desc: 剖析 `pinia.use()` 扩展点，实现状态持久化、同步标签页、开发工具时间旅行等横切关注点。
+      role: extension
+      src:
+      - paper: 20230418_037.md
+    - 'no': 4
+      name: SSR 与测试策略：应用级 Pinia 实例隔离、Store 重置与单元测试 Mock
+      desc: 讲解 `createPinia()` 在每次请求创建新实例避免状态污染，`setActivePinia` 配合 Vitest 实现 Store
+        独立测试。
+      role: method
+      src:
+      - paper: 20230418_037.md
+    - 'no': 5
+      name: 实战：从 Vuex 迁移到 Pinia 的增量重构路径
+      desc: 提供 `mapState`/`mapActions` 兼容方案、Module 拆分策略、共享状态迁移清单，平滑过渡存量项目。
+      role: experiment
+      src:
+      - paper: 20230418_037.md
+  - 'no': 5
+    name: Vue Router 4 与路由治理 —— 从声明式配置到权限守卫与微前端路由分发
+    desc: 本章全面覆盖路由配置、导航守卫、动态路由、滚动行为、懒加载、TS 类型增强，构建可维护、可扩展的前端路由体系。
+    nodes:
+    - 'no': 1
+      name: 路由配置进阶：嵌套路由、命名视图、路由元信息与类型化 RouteRecordRaw
+      desc: 详解 `children` 嵌套渲染机制、`components` 多视图复用、`meta` 携带权限/标题/缓存策略等配置模式。
+      role: definition
+      src:
+      - paper: 20230418_038.md
+    - 'no': 2
+      name: 导航守卫体系：全局/路由独享/组件内守卫的执行顺序与异步阻塞
+      desc: 梳理 `beforeEach` → `beforeRouteEnter` → `beforeRouteUpdate` → `beforeLeave`
+        完整生命周期，掌握 `next(false)`/`next('/login')` 控制流。
+      role: method
+      src:
+      - paper: 20230418_038.md
+    - 'no': 3
+      name: 动态路由与权限模型：基于角色/资源的路由表生成、菜单联动与 403/401 降级
+      desc: 展示后端返回路由树 → `router.addRoute` 动态注册 → 递归生成侧边菜单 → 刷新保持状态的完整方案。
+      role: method
+      src:
+      - paper: 20230418_038.md
+    - 'no': 4
+      name: 性能与体验优化：路由懒加载、预加载策略、滚动恢复与过渡动画
+      desc: 对比 `import()` 与 `webpackChunkName`、利用 `router.prefetchRoutes()` 提前获取、配合
+        `<Transition>` 实现页面切换动效。
+      role: extension
+      src:
+      - paper: 20230418_038.md
+    - 'no': 5
+      name: 实战：微前端子应用路由隔离与基座路由分发
+      desc: 结合 qiankun/微前端场景，解决子应用 history 模式基础路径、基座与子应用路由同步、跨应用导航守卫协作问题。
+      role: experiment
+      src:
+      - paper: 20230418_038.md
+  - 'no': 6
+    name: 前端测试金字塔 —— 从单元测试到 E2E 的全链路质量保障体系
+    desc: 本章建立 Vitest + Vue Test Utils + Playwright 的分层测试体系，覆盖组件逻辑、交互行为、跨页面业务流，落地
+      CI/CD 质量红线。
+    nodes:
+    - 'no': 1
+      name: 测试策略分层：单元/集成/E2E 的边界划分、ROI 评估与覆盖率阈值设定
+      desc: 引用测试金字塔/奖杯模型，制定“核心逻辑单测全覆盖、关键交互集成测、核心链路 E2E 兜底”的团队规范。
+      role: motivation
+      src:
+      - paper: 20230418_039.md
+    - 'no': 2
+      name: Vitest 核心实战：API 兼容 Jest、原生 ESM 支持、并行运行与快照测试
+      desc: 演示 `vi.mock`/`vi.spyOn` 模拟依赖、`--watch` 热更新测试、`coverage` 配置阈值阻断流水线。
+      role: method
+      src:
+      - paper: 20230418_039.md
+    - 'no': 3
+      name: Vue 组件测试范式：Vue Test Utils 挂载选项、响应式解包、事件触发与槽位测试
+      desc: 对比 `shallowMount` 与 `mount`、处理 `ref`/`reactive` 解包断言、`trigger`/`findComponent`
+        交互测试、插槽内容验证。
+      role: method
+      src:
+      - paper: 20230418_039.md
+    - 'no': 4
+      name: Playwright E2E 实战：多浏览器矩阵、Page Object 模式、网络拦截与视觉回归
+      desc: 构建可维护的 Page Object 层、使用 `page.route` 模拟后端异常/延迟、引入 `pixelmatch` 实现截图像素级对比。
+      role: method
+      src:
+      - paper: 20230418_039.md
+    - 'no': 5
+      name: 实战：GitHub Actions 流水线集成与质量红线自动化
+      desc: 串联 `lint` → `typecheck` → `test:unit` → `build` → `test:e2e` → `deploy`，配置失败通知、覆盖率徽章、测试报告归档。
+      role: experiment
+      src:
+      - paper: 20230418_039.md
+  - 'no': 7
+    name: CSS 现代布局与架构 —— 从 Flex/Grid 到设计令牌与原子化工程化
+    desc: 本章系统梳理现代 CSS 布局算法、层叠上下文、CSS 变量驱动的主题系统、原子化 CSS 与 BEM/Utility-first 混合架构。
+    nodes:
+    - 'no': 1
+      name: Flexbox 与 Grid 双引擎：一维/二维布局决策矩阵与对齐算法深度解析
+      desc: 对比主轴/交叉轴对齐、轨道定义、隐式/显式网格、自动放置算法，建立“何时用 Flex、何时用 Grid”决策模型。
+      role: definition
+      src:
+      - paper: 20230418_040.md
+    - 'no': 2
+      name: CSS 变量与设计令牌：构建多主题、暗黑模式、品牌定制的样式架构
+      desc: 利用 `:root`/数据属性切换变量集、配合 `light-dark()`、`color-mix()` 实现零运行时主题切换，建立 Design
+        Tokens 规范。
+      role: method
+      src:
+      - paper: 20230418_040.md
+    - 'no': 3
+      name: 原子化 CSS 工程化：UnoCSS/Tailwind 预设配置、任意值、变体与按需生成原理
+      desc: 剖析 UnoCSS 引擎按需生成机制、自定义规则/变体/预设、与 Vue/React 组件库深度集成（如 `@unocss/transformer-directives`）。
+      role: method
+      src:
+      - paper: 20230418_040.md
+    - 'no': 4
+      name: CSS 架构治理：BEM 命名规范、Scoped CSS 模块化、层叠层 与 Stylelint 规则集
+      desc: 制定团队 CSS 编写规范：BEM 块/元素/修饰符命名、CSS Modules 避免冲突、`@layer` 管理优先级、Stylelint
+        强制执行。
+      role: extension
+      src:
+      - paper: 20230418_040.md
+    - 'no': 5
+      name: 实战：从零构建企业级 UI 组件库样式系统
+      desc: 整合设计令牌、原子化工具类、组件级变量、暗黑模式适配，输出 `@my-org/ui-theme` 与 `@my-org/ui-components`
+        双包发布流程。
+      role: experiment
+      src:
+      - paper: 20230418_040.md
+  - 'no': 8
+    name: 前端性能工程 —— 从指标体系到加载/运行时优化的闭环实践
+    desc: 本章建立以 Core Web Vitals 为核心的性能指标体系，覆盖构建产物分析、资源加载策略、运行时渲染优化、长任务拆解与持续监控平台搭建。
+    nodes:
+    - 'no': 1
+      name: 核心指标体系：LCP/CLS/FID/INP/TTFB 定义、采集原理与优化目标基线
+      desc: 解读 Chrome UX Report 真实用户数据，制定“LCP < 2.5s、CLS < 0.1、INP < 200ms”工程化达标标准。
+      role: definition
+      src:
+      - paper: 20230418_041.md
+    - 'no': 2
+      name: 构建产物优化：代码分割策略、Tree Shaking 原理、压缩算法对比与体积预算
+      desc: 深入 Rollup/Vite 分包配置、`sideEffects` 标记、`terser`/`esbuild` 压缩选项、`rollup-plugin-visualizer`
+        体积分析与 CI 门禁。
+      role: method
+      src:
+      - paper: 20230418_041.md
+    - 'no': 3
+      name: 资源加载策略：预加载/预连接/预取指令、HTTP/2 多路复用、Service Worker 缓存策略
+      desc: 实战 `<link rel=preload>` 关键资源、`rel=modulepreload` JS 模块、Workbox 生成 SW 实现离线首屏与版本更新广播。
+      role: method
+      src:
+      - paper: 20230418_041.md
+    - 'no': 4
+      name: 运行时渲染优化：虚拟列表、防抖节流、Web Worker 卸载主线程、requestIdleCallback 调度
+      desc: 实现万级数据虚拟滚动、将加密/压缩/解析任务移至 Worker、`scheduler.yield()` 让出主线程提升 INP。
+      role: extension
+      src:
+      - paper: 20230418_041.md
+    - 'no': 5
+      name: 实战：搭建前端性能监控平台（SDK 埋点 + 数据上报 + Grafana 看板 + 告警）
+      desc: 自研轻量 SDK 采集 Web Vitals/资源错误/长任务、Beacon API 可靠上报、ClickHouse 存储、Grafana
+        可视化、阈值告警钉钉/飞书。
+      role: experiment
+      src:
+      - paper: 20230418_041.md
+  - 'no': 9
+    name: 前端安全体系构建 —— 从 XSS/CSRF 到 CSP/可信类型与供应链安全
+    desc: 本章构建纵深防御体系，覆盖输入输出编码、CSP 策略部署、可信类型防 DOM XSS、依赖供应链审计、HTTPS/HSTS/COOP/COEP
+      隔离策略。
+    nodes:
+    - 'no': 1
+      name: XSS 攻防全景：存储型/反射型/DOM-based 成因、编码上下文与 DOMPurify/Trusted Types 防御
+      desc: 区分 HTML/Attribute/JS/URL/CSS 五大编码上下文，实战 DOMPurify 白名单清洗、Trusted Types
+        强制安全类型赋值。
+      role: definition
+      src:
+      - paper: 20230418_042.md
+    - 'no': 2
+      name: CSRF 与 SameSite Cookie：同源策略演进、双重提交令牌、SameSite=Lax/Strict/None 实战
+      desc: 演示 CSRF 攻击链路，对比 `SameSite` 属性在跨站请求中的拦截效果，实现基于 Header 的双重提交令牌模式。
+      role: method
+      src:
+      - paper: 20230418_042.md
+    - 'no': 3
+      name: 内容安全策略：CSP 3 规范、nonce/hash/严格动态、报告上报与渐进式部署
+      desc: 编写严格 CSP 策略：`script-src 'nonce-xxx' 'strict-dynamic'`、`report-uri` 收集违规日志、通过
+        Report-Only 模式灰度上线。
+      role: method
+      src:
+      - paper: 20230418_042.md
+    - 'no': 4
+      name: 供应链安全：依赖审计、锁文件完整性、恶意包检测与 SBOM 生成
+      desc: 接入 `npm audit`/`pnpm audit`/`Snyk`/`Socket` CI 检查、`package-lock.json`
+        版本锁定、生成 CycloneDX SBOM 合规交付。
+      role: extension
+      src:
+      - paper: 20230418_042.md
+    - 'no': 5
+      name: 实战：从零建立前端安全基线检查清单与应急响应 SOP
+      desc: 产出《前端安全开发规范》《安全编码 Checklist》《漏洞分级与响应流程》，接入 SDL 安全开发生命周期。
+      role: experiment
+      src:
+      - paper: 20230418_042.md
+  - 'no': 10
+    name: 微前端架构落地 —— 从 qiankun 到 Module Federation 的技术选型与治理
+    desc: 本章对比单体/微前端架构优劣，深度剖析 qiankun 沙箱/样式隔离/通信机制、Webpack 5 Module Federation 原生联邦模块，制定拆分治理规范。
+    nodes:
+    - 'no': 1
+      name: 架构决策矩阵：单体 vs 微前端——团队规模、部署频率、技术栈异构度量化评估
+      desc: 引入决策树：团队>10人/多仓库/独立发布/技术栈迁移等触发条件，量化微前端收益与复杂度成本。
+      role: motivation
+      src:
+      - paper: 20230418_043.md
+    - 'no': 2
+      name: qiankun 深度解析：沙箱隔离、样式隔离、预加载、主子应用通信与生命周期
+      desc: 剖析 `snapshot`/`proxy` 双沙箱模式、`strictStyleIsolation` Shadow DOM 方案、`initGlobalState`
+        状态共享、嵌套微前端坑位。
+      role: definition
+      src:
+      - paper: 20230418_043.md
+    - 'no': 3
+      name: Module Federation 原生联邦：运行时依赖共享、版本协商、暴露/消费远程模块
+      desc: 详解 `exposes`/`remotes`/`shared` 配置、运行时版本匹配算法、联邦模块热更新、与 Vite/Rspack 生态集成。
+      role: method
+      src:
+      - paper: 20230418_043.md
+    - 'no': 4
+      name: 微前端治理规范：公共依赖版本锁定、路由分发协议、通用组件库版本策略、监控埋点统一
+      desc: 制定《微前端接入规范》：基座提供 React/Vue 单例、路由基座分发、UI 组件库强制共享、统一监控 SDK 注入。
+      role: extension
+      src:
+      - paper: 20230418_043.md
+    - 'no': 5
+      name: 实战：遗留系统微前端化改造全流程——从资产梳理到灰度发布与回滚预案
+      desc: 梳理存量应用资产、拆分子应用边界、改造构建产物适配基座、配置 Nginx 反向代理、金丝雀发布与一键回滚演练。
+      role: experiment
+      src:
+      - paper: 20230418_043.md
+  - 'no': 11
+    name: Node.js 服务端开发与 BFF 模式 —— 前端工程师的全栈进阶路径
+    desc: 本章聚焦 Node.js 生态在 BFF（Backend for Frontend）场景下的应用，覆盖 NestJS/Koa 框架选型、TypeScript
+      实践、数据库 ORM、认证鉴权、部署运维。
+    nodes:
+    - 'no': 1
+      name: BFF 架构价值：聚合下游微服务、裁剪字段、适配多端、屏蔽内部架构变更
+      desc: 对比传统 API 网关与 BFF 差异，阐述“一个前端应用对应一个 BFF 服务”如何降低前端协调成本。
+      role: motivation
+      src:
+      - paper: 20230418_044.md
+    - 'no': 2
+      name: NestJS 企业级开发：模块化架构、依赖注入、守卫/拦截器/管道、Swagger 文档自动生成
+      desc: 实战 `@Module`/`@Injectable`/`@Controller` 三层架构、JWT 守卫鉴权、全局异常过滤器、DTO 校验管道、OpenAPI
+        文档零成本维护。
+      role: method
+      src:
+      - paper: 20230418_044.md
+    - 'no': 3
+      name: 数据库与 ORM 实战：Prisma Schema 定义、迁移管理、事务与关联查询优化
+      desc: 演示 `schema.prisma` 建模、关联关系、迁移命令、中间件软删除、`$queryRaw` 复杂 SQL、连接池配置防泄漏。
+      role: method
+      src:
+      - paper: 20230418_044.md
+    - 'no': 4
+      name: 部署与运维：Docker 多阶段构建、PM2 集群模式、健康检查、日志聚合与 Prometheus 监控
+      desc: 编写生产级 Dockerfile、PM2 生态配置文件、`/health` 存活/就绪探针、Winston 结构化日志、Prometheus
+        指标暴露。
+      role: extension
+      src:
+      - paper: 20230418_044.md
+    - 'no': 5
+      name: 实战：从零搭建支持 SSR/SSG/ISR 的全栈应用骨架
+      desc: 整合 Next.js/Nuxt 3 或 Vite SSR + NestJS BFF，实现首屏服务端渲染、静态生成、增量静态再生、统一类型共享。
+      role: experiment
+      src:
+      - paper: 20230418_044.md
+  - 'no': 12
+    name: 前端工程化效能平台 —— 脚手架、组件平台、低代码与研发度量体系
+    desc: 本章系统构建前端效能工程体系，从项目脚手架、组件物料平台、低代码搭建引擎到研发效能度量模型，实现“以工具替人工、以平台促规范、以数据驱决策”。
+    nodes:
+    - 'no': 1
+      name: 脚手架工程化：Yeoman/Plop 模版引擎、Monorepo 多包管理、插件化扩展与版本升级策略
+      desc: 实现 `create-my-app` 交互式生成器、基于 pnpm workspace 的 Monorepo 结构、脚手架插件机制支持业务定制、GitHub
+        Actions 自动发布 npm。
+      role: method
+      src:
+      - paper: 20230418_045.md
+    - 'no': 2
+      name: 组件物料平台：规范定义、文档自动生成、演示沙箱、版本发布与依赖分析
+      desc: 制定组件元数据规范、集成 `vue-docgen-api`/`react-docgen` 自动解析 Props/Events/Slots、Storybook/Histoire
+        沙箱预览、依赖图谱可视化。
+      role: method
+      src:
+      - paper: 20230418_045.md
+    - 'no': 3
+      name: 低代码搭建引擎核心：Schema 协议设计、画布渲染器、属性面板、撤销重做与代码生成
+      desc: 设计 JSON Schema 描述页面结构、基于 Vue/React 实现渲染器插件化、Mobox/RedoManager 状态历史、AST
+        代码生成还原高代码。
+      role: definition
+      src:
+      - paper: 20230418_045.md
+    - 'no': 4
+      name: 研发效能度量体系：北极星指标、DORA 四大指标、工程效能看板与洞察分析
+      desc: 引入 DORA（部署频次、变更前置时间、变更失败率、恢复时间）、代码评审时长、构建耗时、缺陷逃逸率，搭建 Grafana 看板驱动改进。
+      role: extension
+      src:
+      - paper: 20230418_045.md
+    - 'no': 5
+      name: 实战：建设团队级前端效能平台 MVP 版本
+      desc: 串联脚手架创建 → 组件复用率统计 → 低代码产出页面占比 → 发布频次/故障率看板，形成闭环数据驱动工程效能提升。
+      role: experiment
+      src:
+      - paper: 20230418_045.md
+  - 'no': 13
+    name: 前端可观测性与异常监控 —— 从错误捕获到用户行为全链路追踪
+    desc: 本章建设前端可观测性三大支柱：Metrics（指标）、Logs（日志）、Traces（链路），覆盖错误监控、性能监控、用户行为分析、Source
+      Map 解析与告警降噪。
+    nodes:
+    - 'no': 1
+      name: 错误监控核心：全局捕获、Promise/异步错误、框架错误边界、Source Map 还原与聚合去重
+      desc: 实现 `window.onerror`/`unhandledrejection`/Vue `errorHandler`/React `ErrorBoundary`
+        多层兜底、接入 Sentry/Fundebug 或自建平台解析 Source Map 还原源码堆栈。
+      role: definition
+      src:
+      - paper: 20230418_046.md
+    - 'no': 2
+      name: 性能监控 SDK 设计：Web Vitals 采集、资源加载水fall、长任务检测、内存泄漏监控与 Beacon 上报
+      desc: 轻量 SDK 设计：`PerformanceObserver` 监听 LCP/CLS/FID/INP、Resource Timing API
+        采集资源耗时、Long Task API 识别阻塞、`navigator.sendBeacon` 可靠上报。
+      role: method
+      src:
+      - paper: 20230418_046.md
+    - 'no': 3
+      name: 用户行为与业务埋点：无痕埋点 vs 代码埋点、事件模型设计、会话回放与漏斗分析
+      desc: 对比可视化配置无痕埋点与代码埋点优劣、定义事件/属性/用户三元模型、集成 rrweb 实现会话录屏回放、构建转化漏斗模型。
+      role: method
+      src:
+      - paper: 20230418_046.md
+    - 'no': 4
+      name: 链路追踪与日志关联：TraceID 透传、前后端链路打通、结构化日志与 ELK/Grafana Loki 查询
+      desc: HTTP Header 透传 `trace-id`、`span-id`，前端生成根 Span、后端续接，统一 JSON 格式日志接入 Loki，实现“前端报错
+        → 后端调用链 → 数据库慢查询”全链路定位。
+      role: extension
+      src:
+      - paper: 20230418_046.md
+    - 'no': 5
+      name: 实战：搭建自研前端可观测平台（采集端 + 存储端 + 查询端 + 告警端）
+      desc: 技术选型：SDK（TypeScript/Rollup）+ 收集端 + ClickHouse + Grafana + Alertmanager，落地错误率/性能指标/业务转化多维告警策略。
+      role: experiment
+      src:
+      - paper: 20230418_046.md
+  - 'no': 14
+    name: 跨端开发技术选型与架构演进 —— 从 Hybrid/小程序到 React Native/Flutter/Uni-app
+    desc: 本章全景扫描主流跨端方案架构原理、渲染机制、生态成熟度、调试体验，提供基于团队技术栈与业务形态的决策框架与混合栈共存实践。
+    nodes:
+    - 'no': 1
+      name: 跨端技术谱系图：WebView 容器、JS Bridge、原生渲染、AOT 编译四大架构范式对比
+      desc: 梳理 Hybrid（WebView+Bridge）、小程序（双线程/虚拟 DOM）、React Native（JS 线程+Fabric）、Flutter（自绘引擎）、Kotlin
+        Multiplatform 核心差异。
+      role: definition
+      src:
+      - paper: AgWGdAk0fogwx2xtpo2cg3TCncb.md
+    - 'no': 2
+      name: React Native 新架构深度：Fabric 同步渲染、TurboModules 惰性加载、Codegen 类型安全与 Hermes
+        引擎
+      desc: 剖析 JSI 层打通 JS 与原生同步调用、Fabric 统一渲染器、TurboModule 按需初始化、Hermes 字节码预编译启动加速。
+      role: method
+      src:
+      - paper: AgWGdAk0fogwx2xtpo2cg3TCncb.md
+    - 'no': 3
+      name: Flutter 渲染管线与 Dart 语言特性：Widget/Element/RenderObject 三棵树、Skia/Impeller、Isolate
+        并发模型
+      desc: 解析声明式 UI 到渲染对象的构建流程、GPU 绘制管线、Dart 音空安全、Isolate 多线程与消息传递机制。
+      role: definition
+      src:
+      - paper: AgWGdAk0fogwx2xtpo2cg3TCncb.md
+    - 'no': 4
+      name: Uni-app / Taro 编译时多端统一：DSL 约束、条件编译、平台差异 API 抹平与生态适配
+      desc: '分析 Vue/React DSL 编译到微信/支付宝/字节/H5/APP 多端产物、条件编译 `// #ifdef MP-WEIXIN`、插件机制扩展原生能力。'
+      role: method
+      src:
+      - paper: AgWGdAk0fogwx2xtpo2cg3TCncb.md
+    - 'no': 5
+      name: 实战：混合栈共存架构——原生应用嵌入 React Native/Flutter 模块、三端代码复用策略与发布流水线
+      desc: 设计 Brownfield 集成方案：Native 壳工程 + RN/Flutter Module + 共享业务逻辑包、CodePush 热更新、统一
+        CI/CD 多平台并行发布。
+      role: experiment
+      src:
+      - paper: AgWGdAk0fogwx2xtpo2cg3TCncb.md
+  - 'no': 15
+    name: WebAssembly 赋能前端 —— 从计算密集型卸载到多语言生态复用
+    desc: 本章系统介绍 Wasm 基础、Rust/AssemblyScript/C++ 编译工具链、JS-Wasm 互操作性能、SIMD/多线程/GC 提案，落地图像处理、加密、视频编解码等高性能场景。
+    nodes:
+    - 'no': 1
+      name: Wasm 核心概念：模块、内存、表、导入导出、线性内存与安全沙箱模型
+      desc: 建立 Wasm 二进制格式、指令集、栈式虚拟机、线性内存隔离、能力安全模型的基础认知。
+      role: definition
+      src:
+      - paper: AnkEdEtEtoXIbexWlQ3cL6zenFf.md
+    - 'no': 2
+      name: 工具链实战：Emscripten (C/C++)、wasm-pack (Rust)、AssemblyScript (TS-like) 编译与体积优化
+      desc: 对比三大工具链适用场景、演示 `wasm-opt` 优化体积、`wasm2wat` 反汇编调试、TypeScript 类型定义自动生成。
+      role: method
+      src:
+      - paper: AnkEdEtEtoXIbexWlQ3cL6zenFf.md
+    - 'no': 3
+      name: JS-Wasm 互操作深度：数值/字符串/对象传递开销、共享内存、WebIDL Bindings 与 wasm-bindgen
+      desc: 量化跨边界调用成本、利用 `SharedArrayBuffer` 共享线性内存、wasm-bindgen 实现高级类型零拷贝传递、避免频繁边界跨越。
+      role: method
+      src:
+      - paper: AnkEdEtEtoXIbexWlQ3cL6zenFf.md
+    - 'no': 4
+      name: 前沿提案与生产实践：SIMD 向量化、多线程、GC、组件模型、WASI 与边缘计算
+      desc: 追踪 Wasm GC 提案托管语言互操作、组件模型跨语言组合、WASI 预览版在 Cloudflare Workers/Vercel Edge
+        部署 Serverless Wasm。
+      role: extension
+      src:
+      - paper: AnkEdEtEtoXIbexWlQ3cL6zenFf.md
+    - 'no': 5
+      name: 实战：在前端项目中集成 Rust 图像处理库实现 Web 版 Photoshop 核心滤镜
+      desc: 完整流程：Rust 编写滤镜算法 → wasm-pack 编译 → Vite 插件集成 → Web Worker 卸载主线程 → Canvas
+        渲染输出 → 性能基准对比 JS 实现。
+      role: experiment
+      src:
+      - paper: AnkEdEtEtoXIbexWlQ3cL6zenFf.md
+  - 'no': 16
+    name: 前端图形渲染进阶 —— Canvas 2D/WebGL/WebGPU 与可视化引擎架构设计
+    desc: 本章由浅入深剖析浏览器图形 API 栈，从 Canvas 2D 即时模式、WebGL 可编程管线到 WebGPU 现代 GPU 抽象，构建高性能可视化/游戏/图形编辑器渲染引擎核心。
+    nodes:
+    - 'no': 1
+      name: Canvas 2D 即时模式渲染：路径绘制、变换矩阵、合成操作、Hit Testing 与离屏缓存优化
+      desc: 掌握 `Path2D` 复用路径、矩阵变换数学、`globalCompositeOperation` 混合模式、事件坐标反向变换拾取、OffscreenCanvas
+        多线程渲染。
+      role: definition
+      src:
+      - paper: GpUodUFZHoULIGxKxtYckwI9ncg.md
+    - 'no': 2
+      name: WebGL 可编程管线：着色器编写、Attribute/Uniform/Varying、Buffer/Texture 管理与绘制调用优化
+      desc: 深入 GLSL ES 语法、顶点/片元着色器协作、VAO/VBO/EBO 缓冲区管理、纹理单元与采样器、实例化绘制减少 Draw Call。
+      role: method
+      src:
+      - paper: GpUodUFZHoULIGxKxtYckwI9ncg.md
+    - 'no': 3
+      name: WebGPU 现代图形 API：GPUDevice/Queue/Buffer/Texture/BindGroup/Pipeline 布局与渲染通道
+      desc: 对比 WebGL 状态机模型，理解 WebGPU 显式资源绑定、渲染管线状态对象、计算着色器通用计算能力、WGSL 着色语言。
+      role: definition
+      src:
+      - paper: GpUodUFZHoULIGxKxtYckwI9ncg.md
+    - 'no': 4
+      name: 渲染引擎架构设计：场景图、脏标记更新、视锥剔除、批次合并、多层合成与插件化扩展
+      desc: 设计保留模式场景图节点、脏标记增量更新、空间索引加速拾取/剔除、渲染批次合并状态变更、Layer 合成策略、插件机制扩展后处理/物理/动画。
+      role: method
+      src:
+      - paper: GpUodUFZHoULIGxKxtYckwI9ncg.md
+    - 'no': 5
+      name: 实战：从零实现一个支持 10 万节点的高性能拓扑图可视化引擎
+      desc: 技术选型 WebGPU/Canvas2D 双引擎兜底、Web Worker 布局计算、GPU 实例化渲染节点/边、视口裁剪、交互拾取、平滑缩放平移动画。
+      role: experiment
+      src:
+      - paper: GpUodUFZHoULIGxKxtYckwI9ncg.md
+  - 'no': 17
+    name: 前端智能化与 AI 编程辅助 —— 从 Copilot 到 RAG 知识库与 Agent 工作流
+    desc: 本章聚焦大模型时代前端研发范式变革，覆盖代码生成、单测生成、重构建议、文档生成、RAG 构建私有知识库、Agent 自动化工作流接入 CI/CD。
+    nodes:
+    - 'no': 1
+      name: AI 编程助手现状：GitHub Copilot/Cursor/Codeium 对比、提示词工程模式、上下文窗口管理
+      desc: 评测主流工具在前端框架/类型系统/样式/测试生成能力差异、总结 Few-shot/Chain-of-Thought/RAG 提示词模版、长上下文裁剪策略。
+      role: motivation
+      src:
+      - paper: HgjLdWdxHo8ezoxv9iLc4HSwnAh.md
+    - 'no': 2
+      name: RAG 在前端知识库落地：代码库切片、向量化检索、重排序、上下文注入与幻觉控制
+      desc: 实战：Tree-sitter 解析 AST 切片、Embedding 模型选型、Milvus/Chroma 向量库、Hybrid Search（稀疏+稠密）、引用源码行号溯源。
+      role: method
+      src:
+      - paper: HgjLdWdxHo8ezoxv9iLc4HSwnAh.md
+    - 'no': 3
+      name: Agent 工作流自动化：需求拆解→代码生成→测试验证→提交 PR 的闭环与人工介入点设计
+      desc: 基于 LangGraph/AutoGen 编排多 Agent：Planner、Coder、Tester、Reviewer，定义工具调用、状态机流转、人工审批检查点。
+      role: extension
+      src:
+      - paper: HgjLdWdxHo8ezoxv9iLc4HSwnAh.md
+    - 'no': 4
+      name: 前端专用模型微调：CodeLlama/DeepSeek-Coder 继续预训练、指令微调、RLHF 对齐前端最佳实践
+      desc: 收集高质量前端代码语料（组件库/工具库/最佳实践）、LoRA 低秩适配微调、评测基准：HumanEval-MBPP 前端子集、TypeScript
+        类型正确率。
+      role: extension
+      src:
+      - paper: HgjLdWdxHo8ezoxv9iLc4HSwnAh.md
+    - 'no': 5
+      name: 实战：接入 AI Code Review 机器人——规范检查、安全扫描、性能建议、单测补全自动化
+      desc: GitHub Action 触发 PR Review、调用内部模型 API 输出结构化评审意见、集成 ESLint/TypeCheck 结果上下文、自动生成单测草案供开发者确认。
+      role: experiment
+      src:
+      - paper: HgjLdWdxHo8ezoxv9iLc4HSwnAh.md
+  - 'no': 18
+    name: 前端架构治理与技术决策 —— 从 ADR 文档到技术雷达与演进路线图
+    desc: 本章建立前端架构治理体系，引入架构决策记录、技术雷达、演进路线图、架构评审机制、技术债务量化与偿还策略，支撑大规模团队长期健康演进。
+    nodes:
+    - 'no': 1
+      name: 架构决策记录：ADR 模板、状态机、工具链集成与决策溯源
+      desc: 推行 `adr-cli` 管理决策文档：标题/背景/决策/后果/替代方案、状态、关联 Issue、Markdown 渲染门户、Git 历史不可篡改溯源。
+      role: method
+      src:
+      - paper: KJ0CdYG18oMFStxpa17cxS0wnyt.md
+    - 'no': 2
+      name: 技术雷达构建：采纳/试用/评估/暂缓四象限、周期性评审、团队共识机制与可视化工具
+      desc: 引入 Thoughtworks 技术雷达模式、季度雷达会议流程、Blip 迁移规则、开源工具 `tech-radar` 可视化发布、新人入职必读文档。
+      role: method
+      src:
+      - paper: KJ0CdYG18oMFStxpa17cxS0wnyt.md
+    - 'no': 3
+      name: 架构演进路线图：战略主题、里程碑、依赖关系、资源投入与风险缓冲
+      desc: 制定 12-18 月滚动路线图：主题（如“全链路类型安全”“微前端化”“研发效能平台化”）、季度里程碑、跨团队依赖识别、技术债务专项偿还预算。
+      role: extension
+      src:
+      - paper: KJ0CdYG18oMFStxpa17cxS0wnyt.md
+    - 'no': 4
+      name: 架构评审机制：RFC 流程、评审委员会、决策矩阵、事后复盘与知识沉淀
+      desc: 建立 RFC 提交模版、评审会议议程、决策矩阵（技术可行性/业务价值/实施成本/风险/团队能力）、事后复盘模版输出经验教训。
+      role: method
+      src:
+      - paper: KJ0CdYG18oMFStxpa17cxS0wnyt.md
+    - 'no': 5
+      name: 实战：建立前端架构治理委员会章程与首季度运营报告
+      desc: 输出委员会章程（成员/职责/会议节奏/决策权限）、首季度运营报告（ADR 数量/雷达变化/路线图完成度/技术债务偿还量/团队满意度调研）。
+      role: experiment
+      src:
+      - paper: KJ0CdYG18oMFStxpa17cxS0wnyt.md
+  - 'no': 19
+    name: 前端国际化与无障碍工程化 —— 从 i18n 方案到 WCAG 合规与自动化测试
+    desc: 本章系统构建前端国际化（i18n）与无障碍（a11y）工程体系，覆盖翻译管理、运行时切换、组件库适配、语义化 HTML、ARIA 实践、自动化回归测试。
+    nodes:
+    - 'no': 1
+      name: i18n 方案选型：运行时 vs 编译时、消息格式、复数/性别/选择格式、ICU MessageFormat 标准
+      desc: 对比 vue-i18n/react-i18next/lingui/formatjs 架构差异、ICU 语法处理复数/选择/嵌套、编译时优化包体积、TypeScript
+        类型安全键值。
+      role: definition
+      src:
+      - paper: PbGkdX4YVoO02mxYlYKcbgASnSg.md
+    - 'no': 2
+      name: 翻译管理工程化：CI 集成、术语库、机器翻译预译、人工复核流程与版本发布同步
+      desc: 接入 Crowdin/Lokalise/Phrase、GitHub Actions 自动推拉翻译文件、术语库一致性校验、机翻预译+人工复核流水线、发布时校验翻译完整率。
+      role: method
+      src:
+      - paper: PbGkdX4YVoO02mxYlYKcbgASnSg.md
+    - 'no': 3
+      name: 无障碍核心标准：WCAG 2.1 AA 级达标清单、语义化 HTML、ARIA 属性、键盘导航、焦点管理
+      desc: 逐条落地可感知/可操作/可理解/健壮四大原则：颜色对比度、文本缩放、ARIA Landmarks/Roles/States、Tab 顺序、焦点陷阱、屏幕阅读器测试。
+      role: definition
+      src:
+      - paper: PbGkdX4YVoO02mxYlYKcbgASnSg.md
+    - 'no': 4
+      name: 组件库无障碍适配：基础组件合规、复合组件交互模式、设计系统无障碍规范文档化
+      desc: 按 WAI-ARIA Authoring Practices 实现 Dialog/Menu/Combobox/Tabs/Tree 等复合模式、输出组件库无障碍合规报告、Storybook
+        a11y 插件回归测试。
+      role: method
+      src:
+      - paper: PbGkdX4YVoO02mxYlYKcbgASnSg.md
+    - 'no': 5
+      name: 实战：构建 i18n+a11y 自动化回归防护体系
+      desc: 集成 axe-core/lighthouse-ci 无障碍自动化扫描、i18n 缺失键/未使用键检测、PR 阻断门禁、定期人工辅助测试（NVDA/VoiceOver）计划。
+      role: experiment
+      src:
+      - paper: PbGkdX4YVoO02mxYlYKcbgASnSg.md
+  - 'no': 20
+    name: 前端部署与发布体系 —— 从容器化到边缘计算与渐进式交付
+    desc: 本章构建现代前端交付管道，覆盖构建产物优化、Docker 多阶段镜像、K8s 部署策略、CDN 缓存策略、边缘渲染、蓝绿/金丝雀发布、回滚自动化。
+    nodes:
+    - 'no': 1
+      name: 构建产物标准化：不可变产物、内容寻址哈希、SPA 回退、资源完整性校验
+      desc: '确立产物输出规范：`index-[hash].html`、静态资源长缓存、`importmap` 动态依赖、Subresource Integrity
+        (SRI) 防篡改、SPA `fallback: index.html` 配置。'
+      role: definition
+      src:
+      - paper: PU9Id4IPMoZ3QdxLzZUcEPBRnWO.md
+    - 'no': 2
+      name: 容器化部署最佳实践：多阶段构建、非 root 用户、Distroless 基础镜像、健康检查与资源限额
+      desc: 编写生产级 Dockerfile：Builder 阶段安装依赖构建、Runner 阶段仅复制产物、非 root 运行、Distroless/Alpine
+        精简镜像、liveness/readiness 探针、CPU/内存 Limit/Request。
+      role: method
+      src:
+      - paper: PU9Id4IPMoZ3QdxLzZUcEPBRnWO.md
+    - 'no': 3
+      name: K8s 部署策略与 Service Mesh：Deployment/Ingress/ConfigMap/Secret、HPA/VPA、Istio
+        流量治理
+      desc: 配置 RollingUpdate/Recreate 策略、Ingress TLS 终结/路由重写、ConfigMap 挂载运行时配置、Secret
+        管理敏感信息、HPA 基于 CPU/自定义指标弹性、Istio 金丝雀流量镜像。
+      role: method
+      src:
+      - paper: PU9Id4IPMoZ3QdxLzZUcEPBRnWO.md
+    - 'no': 4
+      name: 边缘计算与边缘渲染：Cloudflare Workers/Vercel Edge/AWS Lambda@Edge 部署 SSR/中间件
+      desc: 对比 Edge Runtime 与 Node.js Runtime 差异、部署 Next.js/Nuxt Edge Functions、地理就近渲染降低
+        TTFB、Edge KV 存储会话/配置、A/B 测试中间件。
+      role: extension
+      src:
+      - paper: PU9Id4IPMoZ3QdxLzZUcEPBRnWO.md
+    - 'no': 5
+      name: 实战：GitOps 持续交付流水线——ArgoCD 同步、自动化回滚、发布审批与变更日志生成
+      desc: 落地 GitOps：ArgoCD 监控 Git 仓库声明式同步、PreSync/PostSync Hook 运行迁移/测试、自动回滚健康检查失败版本、集成
+        Jira/Confluence 自动生成发布说明。
+      role: experiment
+      src:
+      - paper: PU9Id4IPMoZ3QdxLzZUcEPBRnWO.md
+  - 'no': 21
+    name: 前端面试体系化备战 —— 从知识图谱构建到高频手写题与系统设计实战
+    desc: 本章将前端核心知识体系化为可复习的知识图谱，提供高频手写题解析、系统设计题框架、行为面试 STAR 法则、模拟面试复盘模版，助力求职突围。
+    nodes:
+    - 'no': 1
+      name: 前端知识图谱构建：基础/框架/工程化/性能/安全/架构/软技能七大板块可视化地图
+      desc: 绘制思维导图/交互式图谱，标注核心节点、依赖关系、高频考点权重、个人掌握度自评，制定分阶段复习计划。
+      role: definition
+      src:
+      - paper: XxczdnuchoE7JtxZrO8cn4eGncb.md
+    - 'no': 2
+      name: 高频手写题专项攻克：防抖节流、深拷贝、发布订阅、Promise 系列、虚拟 DOM Diff、新架构调度器简化版
+      desc: 提供标准实现、边界情况处理、TypeScript 类型签名、单元测试用例、时间/空间复杂度分析、面试官追问点预判。
+      role: method
+      src:
+      - paper: XxczdnuchoE7JtxZrO8cn4eGncb.md
+    - 'no': 3
+      name: 系统设计题实战框架：需求澄清→架构草图→核心模块设计→数据流→非功能性指标→演进扩展
+      desc: 套用框架解决“设计一个可视化搭建平台/组件库/监控 SDK/微前端基座”等开放性问题，输出架构图、技术选型表、风险缓解方案。
+      role: method
+      src:
+      - paper: XxczdnuchoE7JtxZrO8cn4eGncb.md
+    - 'no': 4
+      name: 行为面试 STAR 法则与高频场景话术库：冲突解决/技术攻关/推动变革/失败复盘
+      desc: 构建 Situation/Task/Action/Result 素材库、练习 2 分钟讲清故事、准备“最有挑战项目”“技术分歧解决”“推动新技术落地”标准答案。
+      role: extension
+      src:
+      - paper: XxczdnuchoE7JtxZrO8cn4eGncb.md
+    - 'no': 5
+      name: 实战：模拟面试全流程复盘——从自我介绍到反向提问的闭环练习
+      desc: 组织同伴/导师模拟真实面试环节、录屏复盘语速/逻辑/眼神/代码书写规范、输出《面试复盘记录表》持续迭代提升通过率。
+      role: experiment
+      src:
+      - paper: XxczdnuchoE7JtxZrO8cn4eGncb.md
+  - 'no': 22
+    name: 前端工程师职业成长路径 —— 从技术深度到影响力构建与技术变现
+    desc: 本章规划前端工程师全周期成长路线，覆盖技术深度构建、技术影响力输出、管理/专家双通道抉择、副业变现路径、终身学习系统构建。
+    nodes:
+    - 'no': 1
+      name: 成长阶段模型：初/中/高/专家/资深专家能力雷达图与晋升答辩核心素材包
+      desc: 定义各阶段在业务交付/技术深度/工程效能/团队协作/影响力五维度的期望值、整理晋升答辩 PPT 结构（业务价值/技术难点/复用推广/规范建设）。
+      role: definition
+      src:
+      - paper: YE1FdsTuxoaBbNx4f5dcnSNenxb.md
+    - 'no': 2
+      name: 技术影响力构建：技术博客/开源项目/技术分享/专利论文/社区运营的复利模型
+      desc: 制定内容生产节奏（周更/月更）、选题策略（踩坑复盘/源码解析/最佳实践/前沿解读）、开源项目孵化路径（Demo→Tool→Framework→Ecosystem）、演讲提案技巧。
+      role: method
+      src:
+      - paper: YE1FdsTuxoaBbNx4f5dcnSNenxb.md
+    - 'no': 3
+      name: 双通道抉择与转型：技术管理 vs 技术专家核心能力差异、试岗策略、导师制利用
+      desc: 对比 EM（人/项目/流程/招聘/文化）与 IC（技术前瞻/攻关/标准/赋能）能力模型、申请内部轮岗/导师制体验异己路径、制定 6 个月转型验证计划。
+      role: extension
+      src:
+      - paper: YE1FdsTuxoaBbNx4f5dcnSNenxb.md
+    - 'no': 4
+      name: 技术变现路径探索：技术咨询/付费专栏/课程录制/插件售卖/独立开发产品的可行性验证
+      desc: 最小化验证 MVP：技术咨询单次收费、小册预售验证需求、Gumroad 销售数字化产品、Chrome 插件/Figma Plugin/Notion
+        模版变现、独立产品 MRR 增长模型。
+      role: extension
+      src:
+      - paper: YE1FdsTuxoaBbNx4f5dcnSNenxb.md
+    - 'no': 5
+      name: 实战：制定个人《技术成长五年规划》与《季度 OKR 复盘模版》
+      desc: 输出五年愿景、年度主题、季度 OKR（Objective/Key Results）、月度执行计划、周度复盘模版、年度复盘报告，建立持续进化的个人操作系统。
+      role: experiment
+      src:
+      - paper: YE1FdsTuxoaBbNx4f5dcnSNenxb.md
+  - 'no': 23
+    name: 前端前沿技术追踪 —— Web Components/信号/原子化框架/服务端组件/规范提案
+    desc: 本章保持对前端前沿的持续敏感度，系统跟踪 Web Components 标准化、信号响应式范式、原子化框架、React Server Components、TC39/W3C
+      重点提案，建立技术预判能力。
+    nodes:
+    - 'no': 1
+      name: Web Components 标准化现状：Shadow DOM/Template/Declarative Shadow DOM/自定义元素表单关联
+      desc: 追踪 Declarative Shadow DOM (DSD) 服务端渲染支持、Form Associated Custom Elements
+        表单原生集成、CSS Parts/Constructible Stylesheets 样式穿透方案。
+      role: definition
+      src:
+      - paper: QnHidA4fvoDNL9x9hSHcPJGqnjc.md
+    - 'no': 2
+      name: 信号响应式范式：Solid/Preact Signals/@preact/signals-core 细粒度响应式原理与跨框架复用
+      desc: 对比 Vue/React/Solid 响应式模型差异、信号自动依赖追踪无需编译时分析、在非 React/Vue 环境（Vanilla/Worker）复用响应式逻辑。
+      role: method
+      src:
+      - paper: QnHidA4fvoDNL9x9hSHcPJGqnjc.md
+    - 'no': 3
+      name: 原子化框架新生代：Qwik Resumability、Astro Islands、Fresh 预渲染与零水合架构
+      desc: 解析 Qwik `useLexicalScope` 序列化闭包实现 Resumability、Astro 岛屿架构部分水合、Fresh Deno
+        原生边缘渲染、HTML First 理念回归。
+      role: extension
+      src:
+      - paper: QnHidA4fvoDNL9x9hSHcPJGqnjc.md
+    - 'no': 4
+      name: React Server Components (RSC) 架构：服务端组件/客户端组件边界、流式渲染、Suspense 调度与 Next.js
+        App Router 实践
+      desc: 深入 RSC Payload 格式、Flight 协议、服务端组件直接访问后端资源、客户端组件交互边界、流式 SSR 与选择性水合、Server
+        Actions 变更数据。
+      role: method
+      src:
+      - paper: QnHidA4fvoDNL9x9hSHcPJGqnjc.md
+    - 'no': 5
+      name: TC39/W3C 重点提案追踪：Temporal/Decorator/Pattern Matching/Record-Tuple/HTML
+        Modules/Import Maps
+      desc: 建立提案跟踪清单：Stage 3/4 进入生产可用时间线、Polyfill 成熟度、对前端工程化/框架设计/开发体验的潜在影响评估。
+      role: extension
+      src:
+      - paper: QnHidA4fvoDNL9x9hSHcPJGqnjc.md
+  - 'no': 24
+    name: 综合实战：企业级中后台前端架构落地全过程
+    desc: 本章作为全书总结性实战，串联前 23 章核心技术点，从零到一落地一套生产级中后台前端架构：技术选型、基建搭建、规范制定、核心业务开发、质量保障、发布运维、演进规划。
+    nodes:
+    - 'no': 1
+      name: 项目启动：技术选型决策矩阵、ADR 记录、脚手架生成、Monorepo 仓库初始化
+      desc: 产出《技术选型决策文档》（Vue/React、Pinia/Redux、Vite/Webpack、CSS 方案、测试框架）、初始化 `pnpm-workspace.yaml`、生成标准化模版项目。
+      role: method
+      src:
+      - paper: 20230418_117.md
+      - paper: 20230418_118.md
+      - paper: 20230418_119.md
+      - paper: 20230418_120.md
+      - paper: 20230418_121.md
+      - paper: 20230418_122.md
+      - paper: 20230418_123.md
+      - paper: 20230418_124.md
+      - paper: 20230418_125.md
+      - paper: 20230418_126.md
+    - 'no': 2
+      name: 基础设施建设：UI 组件库二次封装、请求层/权限/路由/国际化/主题/异常监控接入
+      desc: 封装 `@enterprise/ui` 组件库（基于 Ant Design/Arco Design）、`@enterprise/request`
+        统一错误/Loading/Token 刷新、RBAC 权限指令/组件、动态路由注册、i18n/a11y 基线、Sentry/自建监控 SDK 接入。
+      role: method
+      src:
+      - paper: 20230418_117.md
+      - paper: 20230418_118.md
+      - paper: 20230418_119.md
+      - paper: 20230418_120.md
+      - paper: 20230418_121.md
+      - paper: 20230418_122.md
+      - paper: 20230418_123.md
+      - paper: 20230418_124.md
+      - paper: 20230418_125.md
+      - paper: 20230418_126.md
+    - 'no': 3
+      name: 核心业务开发：典型 CRUD 页面标准化、复杂表单/表格/可视化组件封装、微前端子应用接入
+      desc: 沉淀 `ProTable`/`ProForm`/`ProChart` 通用组件、Schema 驱动页面生成、接入微前端基座（主应用/子应用通信/共享依赖）、编写业务单测/E2E
+        用例。
+      role: experiment
+      src:
+      - paper: 20230418_117.md
+      - paper: 20230418_118.md
+      - paper: 20230418_119.md
+      - paper: 20230418_120.md
+      - paper: 20230418_121.md
+      - paper: 20230418_122.md
+      - paper: 20230418_123.md
+      - paper: 20230418_124.md
+      - paper: 20230418_125.md
+      - paper: 20230418_126.md
+    - 'no': 4
+      name: 质量保障与发布：CI/CD 流水线、性能/安全/无障碍基线门禁、灰度发布、回滚演练
+      desc: 配置 GitLab CI/GitHub Actions：Lint/TypeCheck/Unit/E2E/Build/Scan/Deploy、性能预算/安全扫描/axe
+        无障碍阈值阻断、ArgoCD 金丝雀发布、混沌工程演练回滚。
+      role: experiment
+      src:
+      - paper: 20230418_117.md
+      - paper: 20230418_118.md
+      - paper: 20230418_119.md
+      - paper: 20230418_120.md
+      - paper: 20230418_121.md
+      - paper: 20230418_122.md
+      - paper: 20230418_123.md
+      - paper: 20230418_124.md
+      - paper: 20230418_125.md
+      - paper: 20230418_126.md
+    - 'no': 5
+      name: 架构演进与知识沉淀：技术债务识别、重构提案、组件复用率统计、团队技术分享体系化
+      desc: 定期产出《技术债务清单》《重构提案 ADR》《组件复用率报告》、建立团队技术周会/月度深度分享/季度架构评审机制、沉淀《前端架构演进白皮书》。
+      role: extension
+      src:
+      - paper: 20230418_117.md
+      - paper: 20230418_118.md
+      - paper: 20230418_119.md
+      - paper: 20230418_120.md
+      - paper: 20230418_121.md
+      - paper: 20230418_122.md
+      - paper: 20230418_123.md
+      - paper: 20230418_124.md
+      - paper: 20230418_125.md
+      - paper: 20230418_126.md
 - 'no': 3
-  chapters: []
+  chapters:
+  - 'no': 1
+    name: 注意力机制 —— 让模型学会“看哪里”
+    desc: 本章从信息瓶颈与并行计算视角出发，剖析注意力机制如何解决 RNN 长距离依赖难题，并推导出 Transformer 的核心计算范式。
+    nodes:
+    - 'no': 1
+      name: 序列建模的困境与注意力直觉
+      desc: 对比 RNN/CNN 的串行瓶颈与固定窗口，引入“聚光灯”类比：动态分配计算资源给关键 Token。
+      role: motivation
+      src:
+      - paper: 20230418_007.md
+      - paper: 20230418_009.md
+    - 'no': 2
+      name: 缩放点积注意力的数学形式化
+      desc: 从 Query/Key/Value 向量空间出发，推导 Softmax(QK^T/√d)V 的标准形式，解释缩放因子对梯度稳定的作用。
+      role: definition
+      src:
+      - paper: 20230418_010.md
+    - 'no': 3
+      name: 多头注意力：多子空间协作建模
+      desc: 拆解多头机制为“分裂-并行-拼接”流程，论证不同头捕获句法、语义、位置等异构关系的实验证据。
+      role: method
+      src:
+      - paper: 20230418_019.md
+      - paper: A47Vd3fekoelzRxZpdUcTl9Cn7W.md
+    - 'no': 4
+      name: 位置编码：注入顺序感的绝对与相对方案
+      desc: 对比正弦绝对编码、可学习绝对编码、RoPE 相对位置编码的数学性质与外推能力。
+      role: method
+      src:
+      - paper: 20230418_020.md
+      - paper: B95VdtwByoPXGoxac7Ec1KhQnwc.md
+    - 'no': 5
+      name: 注意力可视化与解读案例
+      desc: 通过注意力热力图展示指代消歧、核心词聚焦等语言学现象，讨论“注意力≠解释”的局限性。
+      role: experiment
+      src:
+      - paper: 20230418_022.md
+  - 'no': 2
+    name: 预训练范式 —— 从“刷题”到“通识教育”
+    desc: 系统梳理从 BERT 到 GPT 的范式演进，深度解构自监督目标（MLM/CLM/NSP）、模型规模定律与数据工程对基座模型能力的决定性影响。
+    nodes:
+    - 'no': 1
+      name: 自监督学习：无标签数据的监督信号设计
+      desc: 对比掩码语言建模（MLM）与因果语言建模（CLM）的双向/单向上下文差异，分析 NSP 任务对句子关系建模的得失。
+      role: definition
+      src:
+      - paper: 20230418_023.md
+      - paper: 20230418_024.md
+    - 'no': 2
+      name: Scaling Laws：规模、数据、计算的三角权衡
+      desc: 详解 Kaplan 与 Chinchilla 定律，推导最优分配策略：在固定算力下，模型参数量与训练 Token 数应同步缩放。
+      role: method
+      src:
+      - paper: 20230418_033.md
+      - paper: CQXRd5Lc5ozWjFxwgpgcqmk5nAe.md
+    - 'no': 3
+      name: 大规模预训练工程：并行策略与混合精度
+      desc: 拆解 3D 并行（数据/流水线/张量）、ZeRO 优化、BF16 混合精度、梯度累积等工程落地细节。
+      role: method
+      src:
+      - paper: 20230418_047.md
+      - paper: 20230418_048.md
+    - 'no': 4
+      name: 数据工程：清洗、去重、课程学习与合成数据
+      desc: 介绍 Common Crawl 清洗管线、MinHash 去重、质量过滤器训练、课程学习调度及合成数据回补的实战经验。
+      role: method
+      src:
+      - paper: 20230418_049.md
+      - paper: 20230418_050.md
+    - 'no': 5
+      name: 预训练稳定性诊断：Loss Spike 与梯度异常处理
+      desc: 分析训练中 Loss 突增成因（数据脏样、学习率过大、数值溢出），给出回滚检查点、动态缩放梯度的应急方案。
+      role: limitation
+      src:
+      - paper: 20230418_051.md
+  - 'no': 3
+    name: 微调与对齐 —— 把通才打磨成专才
+    desc: 全景式覆盖监督微调（SFT）、奖励建模（RM）、强化学习对齐（RLHF/DPO/ORPO）技术栈，解决“会说人话”到“懂人意、守规矩”的关键跨越。
+    nodes:
+    - 'no': 1
+      name: 监督微调：指令数据构建与损失函数设计
+      desc: 详解 Alpaca/ShareGPT 数据清洗、模板化格式、仅计算 Assistant 部分 Loss 的掩码策略及 LoRA/QLoRA
+        参数高效微调原理。
+      role: method
+      src:
+      - paper: 20230418_052.md
+      - paper: 20230418_053.md
+      - paper: EkZTdONM7oPzFvxbfbtcuQ2Unwd.md
+    - 'no': 2
+      name: 奖励模型训练：Bradley-Terry 模型与偏好数据建模
+      desc: 从成对比较数据出发，推导 RM 损失函数，讨论标注一致性、长度偏好、奖励作弊等核心挑战及缓解手段。
+      role: definition
+      src:
+      - paper: 20230418_054.md
+      - paper: K3oEdbAo1o5fq4xlSf3cOhkMnrg.md
+    - 'no': 3
+      name: PPO 与 RLHF：策略梯度在 LLM 对齐中的实战
+      desc: 拆解 Actor-Critic 架构、KL 惩罚项、GAE 优势估计、价值函数裁剪等工程细节，分析训练不稳定的常见原因。
+      role: method
+      src:
+      - paper: 20230418_055.md
+      - paper: LE3Ad03QAoTJWWxZ8jBcFBKXnEy.md
+    - 'no': 4
+      name: 免奖励模型对齐：DPO 与 ORPO 的理论与实践
+      desc: 推导 DPO 从 RLHF 目标到显式闭式解的数学变换，对比 ORPO 引入 Odds Ratio 实现单阶段 SFT+Alignment
+        的效率优势。
+      role: method
+      src:
+      - paper: 20230418_056.md
+      - paper: NEG3dqx6qoyB46xIZsEcw2nLnCb.md
+    - 'no': 5
+      name: 对齐税与灾难性遗忘：评估与缓解策略
+      desc: 定义“对齐税”概念，展示 MMLU/代码能力下降的实证，介绍 KL 控制、Replay Buffer、合成数据回放等缓解方案。
+      role: limitation
+      src:
+      - paper: 20230418_057.md
+  - 'no': 4
+    name: 推理与部署 —— 把素材装进生产系统
+    desc: 聚焦 LLM 推理加速与工程化落地，涵盖解码算法优化、KV Cache 管理、量化压缩、服务化框架选型与批处理调度策略。
+    nodes:
+    - 'no': 1
+      name: 自回归解码瓶颈与 KV Cache 机制
+      desc: 分析 Prefill 与 Decode 阶段计算/内存特征差异，详解 KV Cache 存储结构、增量更新及内存墙带来的吞吐瓶颈。
+      role: motivation
+      src:
+      - paper: 20230418_058.md
+      - paper: 20230418_059.md
+    - 'no': 2
+      name: 推测性解码：小模型领跑、大模型验证
+      desc: 推导 Medusa/EAGLE/看门人机制的接受率数学期望，分析草稿模型质量、验证并行度对加速比的影响边界。
+      role: method
+      src:
+      - paper: 20230418_060.md
+      - paper: NlqtdIqRboDI0nx8PeccsB8gneh.md
+    - 'no': 3
+      name: 量化压缩：PTQ 与 QAT 的精度-速度权衡
+      desc: 对比 GPTQ/AWQ/SpQR 等训练后量化（PTQ）与 QLoRA 量化感知训练（QAT），解析 W4A16/W4A4/KV Cache
+        量化的实测效果。
+      role: method
+      src:
+      - paper: 20230418_061.md
+      - paper: QRqzdIpMfoxvgfxDXO7cMOLunzg.md
+    - 'no': 4
+      name: PagedAttention 与 vLLM：连续批处理的内存管理革命
+      desc: 类比操作系统虚拟内存，详解块管理器、物理块复用、前缀缓存共享如何实现近零内存碎片的高吞吐服务。
+      role: method
+      src:
+      - paper: 20230418_062.md
+      - paper: QhJudGRcgoQlxGxYU67cndJenjh.md
+    - 'no': 5
+      name: 长上下文推理：FlashAttention、滑动窗口与 YaRN 外推
+      desc: 对比 FlashAttention-2 IO 感知算法、滑动窗口注意力（SWA）、RoPE 频率缩放外推在 32k-1M 上下文窗口的延迟与困惑度表现。
+      role: experiment
+      src:
+      - paper: 20230418_063.md
+      - paper: Ro5mdEccUoXd4oxSbzYcZXCrnfh.md
+  - 'no': 5
+    name: 评估与基准 —— 如何证明“它真的变强了”
+    desc: 构建多维度评估体系：从静态基准（知识/推理/代码）到动态竞技场、红队测试、领域专用评测，建立科学、可复现、防作弊的模型选型标准。
+    nodes:
+    - 'no': 1
+      name: 静态基准全景：MMLU、GPQA、HumanEval、MT-Bench 解析
+      desc: 拆解各基准的题目构成、评分指标（Pass@k、Exact Match、GPT-4 打分）、数据污染风险及结果解读陷阱。
+      role: definition
+      src:
+      - paper: 20230418_064.md
+      - paper: 20230418_065.md
+    - 'no': 2
+      name: 动态评估：LMSYS Chatbot Arena 与 Elo 机制
+      desc: 解析众包偏好投票、Bradley-Terry 模型估算 Elo、置信区间计算、风格控制与提示词敏感性对排名的扰动。
+      role: method
+      src:
+      - paper: 20230418_066.md
+      - paper: SFqBdG2bpoLKf8xeOWMcUNxVn4d.md
+    - 'no': 3
+      name: 红队测试与安全对齐评估
+      desc: 定义越狱、幻觉、偏见、毒性、PII 泄露等攻击向量，介绍自动化红队生成、拒答率/拒答准确率等安全指标体系。
+      role: experiment
+      src:
+      - paper: 20230418_067.md
+      - paper: SYkqdYJ4FoEXOlxQpitcWY8Rnqg.md
+    - 'no': 4
+      name: 领域专用评测：医疗、法律、金融、代理任务
+      desc: 对比 MedQA、LegalBench、FinBen、AgentBench 等垂类基准的构建方法论，强调工具调用、多轮交互、长程规划的考察差异。
+      role: extension
+      src:
+      - paper: 20230418_068.md
+      - paper: VQuGd5TikoAEaAxqMSJc4gslnye.md
+    - 'no': 5
+      name: 评估工程化：防污染、可复现、CI/CD 集成
+      desc: 提出基于哈希去重的数据污染检测、固定随机种子/温度/提示词的复现清单、GitHub Actions 自动化评测流水线搭建实战。
+      role: method
+      src:
+      - paper: 20230418_069.md
+      - paper: WhpFdcM8NotQqvxuqIacwEuUnbb.md
+  - 'no': 6
+    name: 前沿扩展：MoE、多模态、Agent 与 Test-Time Scaling
+    desc: 展望大模型技术演进三大方向：稀疏专家架构突破密集参数瓶颈、原生多模态统一表征、具备规划与工具使用能力的智能体范式，以及推理时计算扩展新范式。
+    nodes:
+    - 'no': 1
+      name: 混合专家模型：稀疏激活的规模化路径
+      desc: 详解 Switch Transformer/DeepSeekMoE 的路由机制、负载均衡损失、专家并行部署，分析通信开销与训练稳定性的工程对策。
+      role: method
+      src:
+      - paper: 20230418_070.md
+      - paper: XiwmdQFijotSRAxrBv8c1dLmndr.md
+    - 'no': 2
+      name: 原生多模态：统一 Tokenizer 与交错训练
+      desc: 对比 CLIP 对齐、VQ-VAE 离散化、原生多模态（如 Chameleon）的图文联合建模路线，探讨图文交错数据比例对能力迁移的影响。
+      role: extension
+      src:
+      - paper: 20230418_071.md
+      - paper: 20230418_072.md
+    - 'no': 3
+      name: LLM Agent：规划、记忆、工具使用与多智能体协作
+      desc: 拆解 ReAct、Plan-and-Execute、Reflexion 等 Agent 范式，详解向量数据库长时记忆、函数调用、多 Agent
+        协商协议（如 MetaGPT）的落地细节。
+      role: extension
+      src:
+      - paper: 20230418_073.md
+      - paper: 20230418_074.md
+    - 'no': 4
+      name: Test-Time Scaling：推理时计算的新 Scaling Law
+      desc: 解析 o1 类模型通过思维链搜索（MCTS/Beam Search）、过程奖励模型（PRM）、自我修正实现“推理时越久越强”的范式转移。
+      role: extension
+      src:
+      - paper: 20230418_075.md
+      - paper: 20230418_076.md
+    - 'no': 5
+      name: 综合实战：从零构建领域专属大模型应用
+      desc: 串联全书知识点：数据清洗→持续预训练→SFT→DPO→量化部署→RAG 增强→Agent 编排→自动化评测闭环的端到端工程实战指南。
+      role: experiment
+      src:
+      - paper: 20230418_077.md
+      - paper: 20230418_078.md
 - 'no': 4
-  chapters: []
+  chapters:
+  - 'no': 1
+    name: AI 原生应用架构 —— 从“调用模型”到“工程化系统”
+    desc: 本章确立 AI 原生应用开发的核心范式转变：不再是简单的 API 封装，而是以大模型为核心推理引擎，构建具备记忆、规划、工具使用与自我进化能力的复杂智能系统。重点剖析
+      LangChain 等框架的核心抽象，为后续工程实践奠定架构基石。
+    nodes:
+    - 'no': 1
+      name: 范式转变：LLM 作为操作系统内核
+      desc: 对比传统软件工程与 AI 原生开发差异，确立 LLM 从‘聊天机器人’升级为‘推理引擎/决策中枢’的核心地位，理解‘模型即服务’向‘模型即内核’的架构跃迁。
+      role: motivation
+      src:
+      - paper: 20230418_105.md
+      - paper: 20230418_136.md
+    - 'no': 2
+      name: 核心抽象层：Chain、Agent 与 Memory 的解耦设计
+      desc: 深度解析 LangChain 核心组件设计哲学：Chain 定义确定性流程，Agent 引入非确定性规划循环，Memory 解决上下文窗口与长期状态的持久化问题，三者协作构成应用骨架。
+      role: definition
+      src:
+      - paper: 20230418_105.md
+      - paper: 20230418_106.md
+    - 'no': 3
+      name: 工程化落地模式：从原型到生产的最小可行性架构 (MVA)
+      desc: 提炼生产级应用必备的非功能性需求：流式输出、异步编排、可观测性、版本管理与回滚，给出基于 LangChain/LangGraph 的分层架构参考实现蓝图。
+      role: method
+      src:
+      - paper: 20230418_109.md
+      - paper: 20230418_140.md
+  - 'no': 2
+    name: 提示工程体系化 —— 从“玄学咒语”到“结构化编程”
+    desc: 本章将提示工程重构为一种软件工程化的‘自然语言编程’范式。系统梳理提示模版、少样本选择、结构化输出解析及自动优化流程，解决提示词管理混乱、版本不可控、效果难复现的工程痛点。
+    nodes:
+    - 'no': 1
+      name: 提示词即代码：模版化、版本化与参数化管理
+      desc: 引入 PromptTemplate 与 ExampleSelector 机制，实现提示词与业务逻辑解耦、动态少样本检索、A/B 测试版本控制，落地‘提示词即配置/代码’的工程规范。
+      role: method
+      src:
+      - paper: 20230418_105.md
+      - paper: 20230418_106.md
+    - 'no': 2
+      name: 结构化输出与类型安全：OutputParser 与 Pydantic 集成
+      desc: 解决 LLM 非结构化输出导致的下游解析脆弱问题，详解 JsonOutputParser、PydanticOutputParser 及修复重试机制，实现‘自然语言输入
+        -> 类型安全对象输出’的编程契约。
+      role: method
+      src:
+      - paper: 20230418_105.md
+      - paper: 20230418_110.md
+    - 'no': 3
+      name: 提示自动优化：从人工调参到 DSPy/OPRO 风格的编译流程
+      desc: 介绍将提示优化视为离散优化/梯度下降问题的前沿方法论，覆盖少样本自动构筑、指令自进化、提示词编译器概念，展示如何建立数据飞轮实现提示词持续自动化迭代。
+      role: extension
+      src:
+      - paper: 20230418_136.md
+      - paper: 20230418_140.md
+  - 'no': 3
+    name: RAG 系统工程化 —— 从“召回文档”到“知识计算”
+    desc: 本章聚焦检索增强生成 (RAG) 的全生命周期工程化建设。超越基础‘向量检索+生成’，系统讲解多路召回、重排序、查询重写、索引优化、评测体系及
+      Agentic RAG 架构，构建高可用、低幻觉、可迭代的企业级知识智能系统。
+    nodes:
+    - 'no': 1
+      name: 模块化 RAG 流水线：索引、检索、生成的解耦与组装
+      desc: 定义标准化 RAG Pipeline 接口：DocumentLoader/Transformer -> VectorStore/Retriever
+        -> Generator，支持混合检索、父子文档、假设性文档嵌入等高级策略的即插即用组装。
+      role: method
+      src:
+      - paper: 20230418_106.md
+      - paper: 20230418_109.md
+    - 'no': 2
+      name: 高级检索策略：多路召回、重排序与查询理解
+      desc: 攻克‘召回不全、排序不准’核心难点：实现 BM25+向量混合检索、Cross-Encoder/LLM 重排序、多查询扩展、查询路由与分解，显著提升检索精度与召回率上界。
+      role: method
+      src:
+      - paper: 20230418_106.md
+      - paper: 20230418_110.md
+    - 'no': 3
+      name: RAG 评测与数据飞轮：RAGAS、ARES 与自动化迭代闭环
+      desc: 建立‘可测量即可优化’的评测体系：引入忠实度、答案相关性、上下文精确度/召回率等核心指标，结合合成测试集生成与在线人工反馈，驱动检索策略、分块参数、提示词的持续自动化优化。
+      role: experiment
+      src:
+      - paper: 20230418_109.md
+      - paper: 20230418_136.md
+    - 'no': 4
+      name: Agentic RAG：让检索成为 Agent 的工具而非固定流程
+      desc: 进化至 Agentic RAG 架构：将检索器封装为 Tool，赋予 Agent 自主决策‘是否检索、检索什么、如何改写查询、如何验证结果’的能力，解决复杂多跳问答与动态知识获取场景。
+      role: extension
+      src:
+      - paper: 20230418_136.md
+      - paper: 20230418_140.md
+  - 'no': 4
+    name: Agent 架构与规划推理 —— 从“单轮调用”到“自主执行闭环”
+    desc: 本章深入剖析 LLM Agent 的认知架构：ReAct/Plan-and-Execute/Reflexion 等核心范式对比，工具调用的标准化协议，任务分解与长程规划机制，以及多
+      Agent 协作编排模式，解决复杂任务下的自主决策与容错问题。
+    nodes:
+    - 'no': 1
+      name: 认知架构范式演进：ReAct -> Plan-and-Execute -> Reflexion
+      desc: 对比三大主流 Agent 范式：ReAct 交互式推理行动、Plan-and-Execute 显式规划与执行分离、Reflexion 引入语言强化学习实现试错修正，分析其在任务复杂度、Token
+        消耗、鲁棒性上的适用边界。
+      role: definition
+      src:
+      - paper: 20230418_105.md
+      - paper: 20230418_136.md
+    - 'no': 2
+      name: 工具生态与标准化：Function Calling、MCP 与 Toolformer 范式
+      desc: 构建工程化工具层：OpenAI Function Calling 协议规范、Model Context Protocol (MCP) 统一接口、工具注册发现与权限控制、Toolformer
+        风格的工具使用微调数据构建，实现工具的标准化接入与治理。
+      role: method
+      src:
+      - paper: 20230418_106.md
+      - paper: 20230418_110.md
+    - 'no': 3
+      name: 长程规划与任务分解：树搜索、图编排与 LLM 编译器
+      desc: 解决复杂目标下的规划失效：引入 MCTS/ToT 树搜索增强推理、DAG 任务图并行执行、LLM Compiler 将自然语言指令编译为并行执行计划，显著提升多步任务成功率与执行效率。
+      role: method
+      src:
+      - paper: 20230418_109.md
+      - paper: 20230418_140.md
+    - 'no': 4
+      name: 多 Agent 协作编排：角色扮演、辩论机制与 Swarm 群体智能
+      desc: 设计多 Agent 系统：MetaGPT/ChatDev 标准化软件开发流程、AutoGen 群聊与代理代理模式、辩论/反思机制缓解幻觉、动态组网拓扑，从单一
+        Agent 进化为弹性协作的智能体组织。
+      role: extension
+      src:
+      - paper: 20230418_136.md
+      - paper: 20230418_140.md
+  - 'no': 5
+    name: 记忆与个性化系统 —— 从“无状态推理”到“持续进化的数字孪生”
+    desc: 本章攻克 LLM 无状态、上下文窗口有限、缺乏长期个性化的核心短板。系统构建分层记忆架构（工作记忆/情景记忆/语义记忆/程序性记忆），结合记忆巩固、遗忘曲线、冲突消解机制，打造具备持续学习与用户画像演化能力的长期陪伴型智能体。
+    nodes:
+    - 'no': 1
+      name: 分层记忆架构设计：STM/LTM 与记忆巩固机制
+      desc: 借鉴认知科学建立四层记忆模型：短时记忆 (对话窗口)、情景记忆 (向量化经历)、语义记忆 (抽象知识图谱)、程序性记忆 (技能/流程)，设计基于重要性评分、时间衰减、访问频率的自动巩固与遗忘算法。
+      role: definition
+      src:
+      - paper: 20230418_105.md
+      - paper: 20230418_109.md
+    - 'no': 2
+      name: 个性化建模：用户画像动态构建与偏好对齐
+      desc: 实现‘千人千面’：从显式反馈/隐式行为中抽取用户画像标签，构建动态画像向量，结合 RAG 召回个人相关记忆，通过提示词注入或 LoRA 微调实现风格、偏好、知识水平的深度对齐。
+      role: method
+      src:
+      - paper: 20230418_110.md
+      - paper: 20230418_136.md
+    - 'no': 3
+      name: 记忆冲突消解与一致性维护：知识更新与信念修正
+      desc: 解决长期记忆中的矛盾与过时：设计新旧知识冲突检测（矛盾度打分）、版本化知识库、信念修正链（CoT 验证）、用户确认回环机制，保证记忆系统随时间演化的逻辑一致性与事实准确性。
+      role: limitation
+      src:
+      - paper: 20230418_106.md
+      - paper: 20230418_140.md
+  - 'no': 6
+    name: 可观测性、评测与数据飞轮 —— 让 AI 系统‘可看、可测、可优化’
+    desc: 本章建立 AI 原生应用的运维与迭代基础设施。覆盖全链路追踪、结构化日志、自动化离线/在线评测体系、人类反馈闭环 (RLHF/DPO) 及数据飞轮架构，将‘黑盒模型’转化为‘白盒可迭代的工程系统’，实现业务指标与模型能力的共同进化。
+    nodes:
+    - 'no': 1
+      name: 全链路可观测性：Trace、Span 与 LangSmith/LangFuse 落地
+      desc: 实现 LLM 应用的‘显微镜’：标准化 Trace 格式（输入/输出/Token/延迟/错误），嵌套 Span 记录 Chain/Agent/Tool/RAG
+        每一步执行细节，支持成本核算、瓶颈定位、异常告警与复现调试。
+      role: method
+      src:
+      - paper: 20230418_105.md
+      - paper: 20230418_109.md
+    - 'no': 2
+      name: 分层评测体系：单元测试、离线基准与在线 A/B 测试
+      desc: 构建金字塔评测策略：单元级（Prompt/Tool/Retriever 组件测试）、系统级（RAGAS/MT-Bench 离线基准）、业务级（在线
+        A/B 测试、用户留存/任务完成率），建立指标体系与自动化回归流水线。
+      role: experiment
+      src:
+      - paper: 20230418_110.md
+      - paper: 20230418_136.md
+    - 'no': 3
+      name: 数据飞轮架构：从用户交互到模型迭代的闭环工程
+      desc: 设计数据飞轮核心管道：高质量轨迹采样 -> 专家/模型标注 -> 偏好数据构建 (SFT/DPO) -> 模型迭代 -> 灰度发布 -> 线上收集，实现‘用得越多、懂得越多’的规模化自我进化闭环。
+      role: extension
+      src:
+      - paper: 20230418_136.md
+      - paper: 20230418_140.md
 - 'no': 5
-  chapters: []
+  chapters:
+  - 'no': 1
+    name: 认知重塑 —— 从「被动接受」到「主动建构」知识体系
+    desc: 本章确立本书的核心教学范式：知识不是被灌输的，而是通过主动连接、结构化组织与持续复盘主动建构出来的。我们将拆解「卡片盒笔记法」与「费曼技巧」的底层逻辑，帮助你建立属于自己的外部大脑。
+    nodes:
+    - 'no': 1
+      name: 为什么传统笔记法会失效
+      desc: 对比「收藏夹谬误」与「编译器思维」，揭示单纯记录、高亮、转发无法形成长期记忆与深度理解的认知机制。
+      role: motivation
+      src:
+      - paper: 20230418_000.md
+      - paper: 20230418_001.md
+    - 'no': 2
+      name: 卡片盒笔记法的核心三原则
+      desc: 定义「原子化」、「链接优于收藏」、「自底向上生成」三大核心原则，确立从素材到概念卡片的标准化工作流。
+      role: definition
+      src:
+      - paper: 20230418_000.md
+      - paper: README.md
+    - 'no': 3
+      name: 三类卡片的分工与流转
+      desc: 区分「闪念卡片」（捕捉）、「文献卡片」（理解/改写）与「概念卡片」（综合/创新）的定位、写法及演进路径。
+      role: method
+      src:
+      - paper: 20230418_000.md
+      - paper: 20230418_001.md
+    - 'no': 4
+      name: 从「阅读」到「写作」的范式切换
+      desc: 论证「写作是思考的结果，更是思考的过程」，展示如何通过卡片写作倒逼深度阅读，实现输入驱动输出。
+      role: method
+      src:
+      - paper: 20230418_000.md
+      - paper: 20230418_079.md
+    - 'no': 5
+      name: 实战：搭建你的第一个概念卡片库
+      desc: 以 Obsidian/Logseq 为工具示范，演示从导入素材、拆解文献卡片、提炼概念卡片、建立双向链接到生成大纲的完整 SOP。
+      role: experiment
+      src:
+      - paper: 20230418_079.md
+      - paper: SUMMARY.md
+    - 'no': 6
+      name: 常见误区：卡片不是碎片，链接不是标签
+      desc: 辨析「原子化」与「碎片化」的本质区别，指出单纯加标签、不写链接理由、忽视上下文关联的典型反模式。
+      role: limitation
+      src:
+      - paper: 20230418_001.md
+      - paper: 20230418_079.md
+  - 'no': 2
+    name: 教材工程化 —— 像开发软件一样构建教程
+    desc: 本章将软件工程中的「模块化」「版本控制」「CI/CD」「需求分析」思想映射到教材开发全流程，解决教程「难维护、难复用、难迭代、授课脱节」的工程化难题。
+    nodes:
+    - 'no': 1
+      name: 教材即软件：代码化管理的必要性
+      desc: 类比软件工程，论证教材源文件应采用 Markdown/AsciiDoc 等纯文本格式，纳入 Git 版本控制，实现内容的可追溯、可协作、可自动化构建。
+      role: motivation
+      src:
+      - paper: 20230418_001.md
+      - paper: README.md
+    - 'no': 2
+      name: 四层架构：素材-概念-大纲-成书
+      desc: 定义教材工程的标准化分层架构：素材层（原始输入）、概念层（知识原子）、结构层（大纲/逻辑骨架）、呈现层（PDF/网站/课件），实现内容与形式分离。
+      role: definition
+      src:
+      - paper: 20230418_001.md
+      - paper: SUMMARY.md
+    - 'no': 3
+      name: 概念卡片驱动开发（CDD）流程
+      desc: 推演「聚类素材 -> 提炼概念卡片 -> 编排大纲节点 -> 渲染章节」的标准化工程流水线，确立概念卡片作为连接素材与大纲的唯一「中间表示（IR）」。
+      role: method
+      src:
+      - paper: 20230418_000.md
+      - paper: 20230418_001.md
+    - 'no': 4
+      name: 大纲编排的「二级结构」建模规范
+      desc: 规定 Chapter-Node 二级结构的 JSON Schema，强制要求章标题采用「隐喻类比式」双段式、节点必须标注教学角色，实现大纲的机器可读与自动化校验。
+      role: definition
+      src:
+      - paper: 20230418_001.md
+      - paper: SUMMARY.md
+    - 'no': 5
+      name: 持续集成：从源文件到多形态交付物
+      desc: 配置 Pandoc/Quarto/GitHub Actions 自动化流水线，一键生成学生版教材、教师版教案、交互式网站、幻灯片，保证多端内容一致性。
+      role: method
+      src:
+      - paper: 20230418_079.md
+      - paper: README.md
+    - 'no': 6
+      name: 版本迭代与变更管理策略
+      desc: 引入 SemVer 语义化版本控制至教材，定义 Major/Minor/Patch 对应的内容变更类型（重构章节/新增知识点/修正错别字），建立变更日志规范。
+      role: extension
+      src:
+      - paper: 20230418_001.md
+      - paper: 20230418_079.md
+  - 'no': 3
+    name: 逻辑架构师 —— 为知识搭建可执行的认知脚手架
+    desc: 本章聚焦「逻辑分析」在教材策划中的核心地位，教授如何运用 MECE、金字塔原理、认知负荷理论将散乱素材重组为具有教学张力的逻辑骨架，而非简单的目录堆砌。
+    nodes:
+    - 'no': 1
+      name: 教学大纲 ≠ 知识目录：认知负荷视角的结构设计
+      desc: 对比「百科全书式」与「教学导向式」目录差异，引入认知负荷理论，论证大纲必须服务于「图式构建」而非「信息罗列」。
+      role: motivation
+      src:
+      - paper: 20230418_000.md
+      - paper: 20230418_001.md
+    - 'no': 2
+      name: MECE 原理在章节划分中的落地
+      desc: 演示如何用「相互独立、完全穷尽」原则审视章节划分，避免知识点重叠（耦合）与遗漏（盲区），配套「章节正交性检查表」。
+      role: method
+      src:
+      - paper: 20230418_001.md
+      - paper: SUMMARY.md
+    - 'no': 3
+      name: 金字塔原理：从「核心论点」反向导出章节结构
+      desc: 实操「自上而下表达、自下而上思考」：先定本书/章的「核心主张」，再通过纵向提问/横向归纳分解为节点，保证逻辑闭环。
+      role: method
+      src:
+      - paper: 20230418_000.md
+      - paper: 20230418_001.md
+    - 'no': 4
+      name: 教学角色标注体系：让每个知识点「各司其职」
+      desc: 详解 motivation/definition/method/proof/experiment/limitation/extension
+        七大角色的定义、识别标准及组合模式，防止「全是定义」「缺乏动机」「无案例支撑」的编写弊病。
+      role: definition
+      src:
+      - paper: 20230418_001.md
+      - paper: 20230418_079.md
+    - 'no': 5
+      name: 素材溯源与证据链构建
+      desc: 建立「大纲节点 <- 概念卡片 <- 文献卡片 <- 原始素材」的四级溯源链，规范 src 字段引用格式（支持 author:xxx/**
+        通配），保证教材内容的可验证性与学术严谨性。
+      role: method
+      src:
+      - paper: 20230418_000.md
+      - paper: SUMMARY.md
+    - 'no': 6
+      name: 案例复盘：从零素材到《XXX教程》大纲的完整推演
+      desc: 以本次任务素材为例，全程复盘：原始 Markdown 聚类 -> 概念卡片提炼 -> 逻辑聚类成章 -> 角色标注定节 -> 类比命名定章
+        -> JSON 规范化输出的决策链路。
+      role: experiment
+      src:
+      - paper: 20230418_079.md
+      - paper: SUMMARY.md
