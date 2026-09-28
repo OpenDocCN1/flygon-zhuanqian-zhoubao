@@ -1,0 +1,43 @@
+citation_stats:
+- paper: P001
+  count: 37
+  locations:
+  - ch1.1
+  - ch1.2
+  - ch1.3
+  - ch1.3
+  - ch1.3
+  - ch1.3
+  - ch1.3
+  - ch1.3
+  - ch1.3
+  - ch1.3
+  - ch1.3
+  - ch1.3
+  - ch1.3
+  - ch1.3
+  - ch1.3
+  - ch1.3
+  - ch1.3
+  - ch1.3
+  - ch1.3
+  - ch1.3
+  - ch1.3
+  - ch1.3
+  - ch1.3
+  - ch1.3
+  - ch1.3
+  - ch1.3
+  - ch1.4
+  - ch1.5
+  - ch1.5
+  - ch1.5
+  - ch1.5
+  - ch1.6
+  - ch1.6
+  - ch1.6
+  - ch1.6
+  - ch1.6
+  - ch1.7
+unsupported_claims: []
+missing_concepts: []
