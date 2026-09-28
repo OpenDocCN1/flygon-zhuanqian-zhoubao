@@ -1,139 +1,174 @@
 - 'no': 1
-  name: 认知重塑 —— 从「被动接受」到「主动建构」知识体系
-  desc: 本章确立本书的核心教学范式：知识不是被灌输的，而是通过主动连接、结构化组织与持续复盘主动建构出来的。我们将拆解「卡片盒笔记法」与「费曼技巧」的底层逻辑，帮助你建立属于自己的外部大脑。
+  name: AI 原生应用架构 —— 从“调用模型”到“工程化系统”
+  desc: 本章确立 AI 原生应用开发的核心范式转变：不再是简单的 API 封装，而是以大模型为核心推理引擎，构建具备记忆、规划、工具使用与自我进化能力的复杂智能系统。重点剖析
+    LangChain 等框架的核心抽象，为后续工程实践奠定架构基石。
   nodes:
   - 'no': 1
-    name: 为什么传统笔记法会失效
-    desc: 对比「收藏夹谬误」与「编译器思维」，揭示单纯记录、高亮、转发无法形成长期记忆与深度理解的认知机制。
+    name: 范式转变：LLM 作为操作系统内核
+    desc: 对比传统软件工程与 AI 原生开发差异，确立 LLM 从‘聊天机器人’升级为‘推理引擎/决策中枢’的核心地位，理解‘模型即服务’向‘模型即内核’的架构跃迁。
     role: motivation
     src:
-    - paper: 20230418_000.md
-    - paper: 20230418_001.md
+    - paper: 20230418_105.md
+    - paper: 20230418_136.md
   - 'no': 2
-    name: 卡片盒笔记法的核心三原则
-    desc: 定义「原子化」、「链接优于收藏」、「自底向上生成」三大核心原则，确立从素材到概念卡片的标准化工作流。
+    name: 核心抽象层：Chain、Agent 与 Memory 的解耦设计
+    desc: 深度解析 LangChain 核心组件设计哲学：Chain 定义确定性流程，Agent 引入非确定性规划循环，Memory 解决上下文窗口与长期状态的持久化问题，三者协作构成应用骨架。
     role: definition
     src:
-    - paper: 20230418_000.md
-    - paper: README.md
+    - paper: 20230418_105.md
+    - paper: 20230418_106.md
   - 'no': 3
-    name: 三类卡片的分工与流转
-    desc: 区分「闪念卡片」（捕捉）、「文献卡片」（理解/改写）与「概念卡片」（综合/创新）的定位、写法及演进路径。
+    name: 工程化落地模式：从原型到生产的最小可行性架构 (MVA)
+    desc: 提炼生产级应用必备的非功能性需求：流式输出、异步编排、可观测性、版本管理与回滚，给出基于 LangChain/LangGraph 的分层架构参考实现蓝图。
     role: method
     src:
-    - paper: 20230418_000.md
-    - paper: 20230418_001.md
-  - 'no': 4
-    name: 从「阅读」到「写作」的范式切换
-    desc: 论证「写作是思考的结果，更是思考的过程」，展示如何通过卡片写作倒逼深度阅读，实现输入驱动输出。
-    role: method
-    src:
-    - paper: 20230418_000.md
-    - paper: 20230418_079.md
-  - 'no': 5
-    name: 实战：搭建你的第一个概念卡片库
-    desc: 以 Obsidian/Logseq 为工具示范，演示从导入素材、拆解文献卡片、提炼概念卡片、建立双向链接到生成大纲的完整 SOP。
-    role: experiment
-    src:
-    - paper: 20230418_079.md
-    - paper: SUMMARY.md
-  - 'no': 6
-    name: 常见误区：卡片不是碎片，链接不是标签
-    desc: 辨析「原子化」与「碎片化」的本质区别，指出单纯加标签、不写链接理由、忽视上下文关联的典型反模式。
-    role: limitation
-    src:
-    - paper: 20230418_001.md
-    - paper: 20230418_079.md
+    - paper: 20230418_109.md
+    - paper: 20230418_140.md
 - 'no': 2
-  name: 教材工程化 —— 像开发软件一样构建教程
-  desc: 本章将软件工程中的「模块化」「版本控制」「CI/CD」「需求分析」思想映射到教材开发全流程，解决教程「难维护、难复用、难迭代、授课脱节」的工程化难题。
+  name: 提示工程体系化 —— 从“玄学咒语”到“结构化编程”
+  desc: 本章将提示工程重构为一种软件工程化的‘自然语言编程’范式。系统梳理提示模版、少样本选择、结构化输出解析及自动优化流程，解决提示词管理混乱、版本不可控、效果难复现的工程痛点。
   nodes:
   - 'no': 1
-    name: 教材即软件：代码化管理的必要性
-    desc: 类比软件工程，论证教材源文件应采用 Markdown/AsciiDoc 等纯文本格式，纳入 Git 版本控制，实现内容的可追溯、可协作、可自动化构建。
-    role: motivation
+    name: 提示词即代码：模版化、版本化与参数化管理
+    desc: 引入 PromptTemplate 与 ExampleSelector 机制，实现提示词与业务逻辑解耦、动态少样本检索、A/B 测试版本控制，落地‘提示词即配置/代码’的工程规范。
+    role: method
     src:
-    - paper: 20230418_001.md
-    - paper: README.md
+    - paper: 20230418_105.md
+    - paper: 20230418_106.md
   - 'no': 2
-    name: 四层架构：素材-概念-大纲-成书
-    desc: 定义教材工程的标准化分层架构：素材层（原始输入）、概念层（知识原子）、结构层（大纲/逻辑骨架）、呈现层（PDF/网站/课件），实现内容与形式分离。
-    role: definition
+    name: 结构化输出与类型安全：OutputParser 与 Pydantic 集成
+    desc: 解决 LLM 非结构化输出导致的下游解析脆弱问题，详解 JsonOutputParser、PydanticOutputParser 及修复重试机制，实现‘自然语言输入
+      -> 类型安全对象输出’的编程契约。
+    role: method
     src:
-    - paper: 20230418_001.md
-    - paper: SUMMARY.md
+    - paper: 20230418_105.md
+    - paper: 20230418_110.md
   - 'no': 3
-    name: 概念卡片驱动开发（CDD）流程
-    desc: 推演「聚类素材 -> 提炼概念卡片 -> 编排大纲节点 -> 渲染章节」的标准化工程流水线，确立概念卡片作为连接素材与大纲的唯一「中间表示（IR）」。
-    role: method
-    src:
-    - paper: 20230418_000.md
-    - paper: 20230418_001.md
-  - 'no': 4
-    name: 大纲编排的「二级结构」建模规范
-    desc: 规定 Chapter-Node 二级结构的 JSON Schema，强制要求章标题采用「隐喻类比式」双段式、节点必须标注教学角色，实现大纲的机器可读与自动化校验。
-    role: definition
-    src:
-    - paper: 20230418_001.md
-    - paper: SUMMARY.md
-  - 'no': 5
-    name: 持续集成：从源文件到多形态交付物
-    desc: 配置 Pandoc/Quarto/GitHub Actions 自动化流水线，一键生成学生版教材、教师版教案、交互式网站、幻灯片，保证多端内容一致性。
-    role: method
-    src:
-    - paper: 20230418_079.md
-    - paper: README.md
-  - 'no': 6
-    name: 版本迭代与变更管理策略
-    desc: 引入 SemVer 语义化版本控制至教材，定义 Major/Minor/Patch 对应的内容变更类型（重构章节/新增知识点/修正错别字），建立变更日志规范。
+    name: 提示自动优化：从人工调参到 DSPy/OPRO 风格的编译流程
+    desc: 介绍将提示优化视为离散优化/梯度下降问题的前沿方法论，覆盖少样本自动构筑、指令自进化、提示词编译器概念，展示如何建立数据飞轮实现提示词持续自动化迭代。
     role: extension
     src:
-    - paper: 20230418_001.md
-    - paper: 20230418_079.md
+    - paper: 20230418_136.md
+    - paper: 20230418_140.md
 - 'no': 3
-  name: 逻辑架构师 —— 为知识搭建可执行的认知脚手架
-  desc: 本章聚焦「逻辑分析」在教材策划中的核心地位，教授如何运用 MECE、金字塔原理、认知负荷理论将散乱素材重组为具有教学张力的逻辑骨架，而非简单的目录堆砌。
+  name: RAG 系统工程化 —— 从“召回文档”到“知识计算”
+  desc: 本章聚焦检索增强生成 (RAG) 的全生命周期工程化建设。超越基础‘向量检索+生成’，系统讲解多路召回、重排序、查询重写、索引优化、评测体系及 Agentic
+    RAG 架构，构建高可用、低幻觉、可迭代的企业级知识智能系统。
   nodes:
   - 'no': 1
-    name: 教学大纲 ≠ 知识目录：认知负荷视角的结构设计
-    desc: 对比「百科全书式」与「教学导向式」目录差异，引入认知负荷理论，论证大纲必须服务于「图式构建」而非「信息罗列」。
-    role: motivation
+    name: 模块化 RAG 流水线：索引、检索、生成的解耦与组装
+    desc: 定义标准化 RAG Pipeline 接口：DocumentLoader/Transformer -> VectorStore/Retriever
+      -> Generator，支持混合检索、父子文档、假设性文档嵌入等高级策略的即插即用组装。
+    role: method
     src:
-    - paper: 20230418_000.md
-    - paper: 20230418_001.md
+    - paper: 20230418_106.md
+    - paper: 20230418_109.md
   - 'no': 2
-    name: MECE 原理在章节划分中的落地
-    desc: 演示如何用「相互独立、完全穷尽」原则审视章节划分，避免知识点重叠（耦合）与遗漏（盲区），配套「章节正交性检查表」。
+    name: 高级检索策略：多路召回、重排序与查询理解
+    desc: 攻克‘召回不全、排序不准’核心难点：实现 BM25+向量混合检索、Cross-Encoder/LLM 重排序、多查询扩展、查询路由与分解，显著提升检索精度与召回率上界。
     role: method
     src:
-    - paper: 20230418_001.md
-    - paper: SUMMARY.md
+    - paper: 20230418_106.md
+    - paper: 20230418_110.md
   - 'no': 3
-    name: 金字塔原理：从「核心论点」反向导出章节结构
-    desc: 实操「自上而下表达、自下而上思考」：先定本书/章的「核心主张」，再通过纵向提问/横向归纳分解为节点，保证逻辑闭环。
-    role: method
-    src:
-    - paper: 20230418_000.md
-    - paper: 20230418_001.md
-  - 'no': 4
-    name: 教学角色标注体系：让每个知识点「各司其职」
-    desc: 详解 motivation/definition/method/proof/experiment/limitation/extension 七大角色的定义、识别标准及组合模式，防止「全是定义」「缺乏动机」「无案例支撑」的编写弊病。
-    role: definition
-    src:
-    - paper: 20230418_001.md
-    - paper: 20230418_079.md
-  - 'no': 5
-    name: 素材溯源与证据链构建
-    desc: 建立「大纲节点 <- 概念卡片 <- 文献卡片 <- 原始素材」的四级溯源链，规范 src 字段引用格式（支持 author:xxx/** 通配），保证教材内容的可验证性与学术严谨性。
-    role: method
-    src:
-    - paper: 20230418_000.md
-    - paper: SUMMARY.md
-  - 'no': 6
-    name: 案例复盘：从零素材到《XXX教程》大纲的完整推演
-    desc: 以本次任务素材为例，全程复盘：原始 Markdown 聚类 -> 概念卡片提炼 -> 逻辑聚类成章 -> 角色标注定节 -> 类比命名定章 ->
-      JSON 规范化输出的决策链路。
+    name: RAG 评测与数据飞轮：RAGAS、ARES 与自动化迭代闭环
+    desc: 建立‘可测量即可优化’的评测体系：引入忠实度、答案相关性、上下文精确度/召回率等核心指标，结合合成测试集生成与在线人工反馈，驱动检索策略、分块参数、提示词的持续自动化优化。
     role: experiment
     src:
-    - paper: 20230418_079.md
-    - paper: SUMMARY.md
+    - paper: 20230418_109.md
+    - paper: 20230418_136.md
+  - 'no': 4
+    name: Agentic RAG：让检索成为 Agent 的工具而非固定流程
+    desc: 进化至 Agentic RAG 架构：将检索器封装为 Tool，赋予 Agent 自主决策‘是否检索、检索什么、如何改写查询、如何验证结果’的能力，解决复杂多跳问答与动态知识获取场景。
+    role: extension
+    src:
+    - paper: 20230418_136.md
+    - paper: 20230418_140.md
+- 'no': 4
+  name: Agent 架构与规划推理 —— 从“单轮调用”到“自主执行闭环”
+  desc: 本章深入剖析 LLM Agent 的认知架构：ReAct/Plan-and-Execute/Reflexion 等核心范式对比，工具调用的标准化协议，任务分解与长程规划机制，以及多
+    Agent 协作编排模式，解决复杂任务下的自主决策与容错问题。
+  nodes:
+  - 'no': 1
+    name: 认知架构范式演进：ReAct -> Plan-and-Execute -> Reflexion
+    desc: 对比三大主流 Agent 范式：ReAct 交互式推理行动、Plan-and-Execute 显式规划与执行分离、Reflexion 引入语言强化学习实现试错修正，分析其在任务复杂度、Token
+      消耗、鲁棒性上的适用边界。
+    role: definition
+    src:
+    - paper: 20230418_105.md
+    - paper: 20230418_136.md
+  - 'no': 2
+    name: 工具生态与标准化：Function Calling、MCP 与 Toolformer 范式
+    desc: 构建工程化工具层：OpenAI Function Calling 协议规范、Model Context Protocol (MCP) 统一接口、工具注册发现与权限控制、Toolformer
+      风格的工具使用微调数据构建，实现工具的标准化接入与治理。
+    role: method
+    src:
+    - paper: 20230418_106.md
+    - paper: 20230418_110.md
+  - 'no': 3
+    name: 长程规划与任务分解：树搜索、图编排与 LLM 编译器
+    desc: 解决复杂目标下的规划失效：引入 MCTS/ToT 树搜索增强推理、DAG 任务图并行执行、LLM Compiler 将自然语言指令编译为并行执行计划，显著提升多步任务成功率与执行效率。
+    role: method
+    src:
+    - paper: 20230418_109.md
+    - paper: 20230418_140.md
+  - 'no': 4
+    name: 多 Agent 协作编排：角色扮演、辩论机制与 Swarm 群体智能
+    desc: 设计多 Agent 系统：MetaGPT/ChatDev 标准化软件开发流程、AutoGen 群聊与代理代理模式、辩论/反思机制缓解幻觉、动态组网拓扑，从单一
+      Agent 进化为弹性协作的智能体组织。
+    role: extension
+    src:
+    - paper: 20230418_136.md
+    - paper: 20230418_140.md
+- 'no': 5
+  name: 记忆与个性化系统 —— 从“无状态推理”到“持续进化的数字孪生”
+  desc: 本章攻克 LLM 无状态、上下文窗口有限、缺乏长期个性化的核心短板。系统构建分层记忆架构（工作记忆/情景记忆/语义记忆/程序性记忆），结合记忆巩固、遗忘曲线、冲突消解机制，打造具备持续学习与用户画像演化能力的长期陪伴型智能体。
+  nodes:
+  - 'no': 1
+    name: 分层记忆架构设计：STM/LTM 与记忆巩固机制
+    desc: 借鉴认知科学建立四层记忆模型：短时记忆 (对话窗口)、情景记忆 (向量化经历)、语义记忆 (抽象知识图谱)、程序性记忆 (技能/流程)，设计基于重要性评分、时间衰减、访问频率的自动巩固与遗忘算法。
+    role: definition
+    src:
+    - paper: 20230418_105.md
+    - paper: 20230418_109.md
+  - 'no': 2
+    name: 个性化建模：用户画像动态构建与偏好对齐
+    desc: 实现‘千人千面’：从显式反馈/隐式行为中抽取用户画像标签，构建动态画像向量，结合 RAG 召回个人相关记忆，通过提示词注入或 LoRA 微调实现风格、偏好、知识水平的深度对齐。
+    role: method
+    src:
+    - paper: 20230418_110.md
+    - paper: 20230418_136.md
+  - 'no': 3
+    name: 记忆冲突消解与一致性维护：知识更新与信念修正
+    desc: 解决长期记忆中的矛盾与过时：设计新旧知识冲突检测（矛盾度打分）、版本化知识库、信念修正链（CoT 验证）、用户确认回环机制，保证记忆系统随时间演化的逻辑一致性与事实准确性。
+    role: limitation
+    src:
+    - paper: 20230418_106.md
+    - paper: 20230418_140.md
+- 'no': 6
+  name: 可观测性、评测与数据飞轮 —— 让 AI 系统‘可看、可测、可优化’
+  desc: 本章建立 AI 原生应用的运维与迭代基础设施。覆盖全链路追踪、结构化日志、自动化离线/在线评测体系、人类反馈闭环 (RLHF/DPO) 及数据飞轮架构，将‘黑盒模型’转化为‘白盒可迭代的工程系统’，实现业务指标与模型能力的共同进化。
+  nodes:
+  - 'no': 1
+    name: 全链路可观测性：Trace、Span 与 LangSmith/LangFuse 落地
+    desc: 实现 LLM 应用的‘显微镜’：标准化 Trace 格式（输入/输出/Token/延迟/错误），嵌套 Span 记录 Chain/Agent/Tool/RAG
+      每一步执行细节，支持成本核算、瓶颈定位、异常告警与复现调试。
+    role: method
+    src:
+    - paper: 20230418_105.md
+    - paper: 20230418_109.md
+  - 'no': 2
+    name: 分层评测体系：单元测试、离线基准与在线 A/B 测试
+    desc: 构建金字塔评测策略：单元级（Prompt/Tool/Retriever 组件测试）、系统级（RAGAS/MT-Bench 离线基准）、业务级（在线
+      A/B 测试、用户留存/任务完成率），建立指标体系与自动化回归流水线。
+    role: experiment
+    src:
+    - paper: 20230418_110.md
+    - paper: 20230418_136.md
+  - 'no': 3
+    name: 数据飞轮架构：从用户交互到模型迭代的闭环工程
+    desc: 设计数据飞轮核心管道：高质量轨迹采样 -> 专家/模型标注 -> 偏好数据构建 (SFT/DPO) -> 模型迭代 -> 灰度发布 -> 线上收集，实现‘用得越多、懂得越多’的规模化自我进化闭环。
+    role: extension
+    src:
+    - paper: 20230418_136.md
+    - paper: 20230418_140.md
