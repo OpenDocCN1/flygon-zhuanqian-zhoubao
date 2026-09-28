@@ -1,0 +1,187 @@
+units:
+- 'no': 1
+  name: Flexbox 与 Grid 双引擎 —— 一维/二维布局决策矩阵与对齐算法深度解析
+  points:
+  - '**为什么需要这个概念？**'
+  - '- 传统浮动/定位布局在响应式、对齐、空间分配上极其繁琐且易崩溃'
+  - '- 现代 UI 需要同时解决“主轴分布”（一维）与“区域划分”（二维）两类正交问题'
+  - '- 缺乏统一的对齐算法导致垂直居中、等高列、圣杯布局成为面试噩梦'
+  - '**核心定义**'
+  - '- Flexbox：一维布局模型，主轴/交叉轴控制项目在单行/单列内的排列、对齐与空间分配'
+  - '- Grid：二维布局模型，通过定义网格轨道（行/列）与网格线，精确控制项目在行列交叉区域的放置'
+  - '**关键性质**'
+  - '- Flex 对齐体系：justify-content(主轴) / align-items/align-content(交叉轴) / align-self(单项覆盖)'
+  - '- Grid 显式/隐式网格：显式由 grid-template 定义，隐式由 grid-auto-flow 算法自动生成轨道'
+  - '- 自动放置算法：稀疏/稠密打包模式决定未显式定位项目的填充策略'
+  - '- 盒对齐模块统一了 Flex/Grid/Box 的对齐关键字（start/center/end/stretch/baseline）'
+  - '**典型例子**'
+  - '- 导航栏 Logo 左、菜单右、用户头像右：Flex `justify-content: space-between` 一行搞定'
+  - '- 仪表盘：Grid `grid-template-areas: ''header header'' ''sidebar content'' ''footer
+    footer''` 语义化布局'
+  - '- 卡片列表：Grid `repeat(auto-fill, minmax(280px, 1fr))` 实现无媒体查询的响应式换行'
+  - '**边界条件**'
+  - '- Flex 项目宽度计算受 `min-width: auto` 影响，内容超长会撑开容器，需配合 `min-width: 0` 或 `overflow:
+    hidden`'
+  - '- Grid 隐式轨道尺寸默认 `auto`，易导致内容撑大布局，建议显式设置 `grid-auto-rows: minmax(100px, auto)`'
+  - '- 百分比内边距/边距在 Flex/Grid 容器中按**宽度**解析（即使是垂直方向），易踩坑'
+  - '- 多行 Flex (`flex-wrap: wrap`) 的 `align-content` 仅在交叉轴有剩余空间时生效'
+  - '**决策矩阵**'
+  - '- 只需控制一行/一列分布、对齐、顺序 → Flex'
+  - '- 需要同时控制行与列、区域重叠、精确轨道尺寸、二维对齐 → Grid'
+  - '- 两者可嵌套：Grid 宏观分区，Flex 微观对齐'
+  sources:
+  - paper: 20230418_040.md
+    role: origin
+  excerpts:
+  - Flexbox 专为一维布局设计... Grid 专为二维布局设计...
+  - 主轴/交叉轴、主尺寸/交叉尺寸、flex 基准尺寸、flex 增长/收缩因子
+  - 'grid-template-columns: repeat(auto-fill, minmax(280px, 1fr))'
+  - 盒对齐模块统一了 align-self, justify-self, align-content, justify-content 等属性
+- 'no': 2
+  name: CSS 变量与设计令牌 —— 构建多主题、暗黑模式、品牌定制的样式架构
+  points:
+  - '**为什么需要这个概念？**'
+  - '- 硬编码颜色/间距导致主题切换需重写海量 CSS、品牌定制成本极高'
+  - '- SAS/LESS 变量编译时静态，无法响应运行时主题切换、用户偏好、白标需求'
+  - '- 设计与开发脱节：设计师改色值，开发者需全局搜索替换，易遗漏易出错'
+  - '**核心定义**'
+  - '- CSS 变量：`--primary-color: #1890ff;` 定义在 `:root` 或选择器上，`var(--primary-color)`
+    引用，支持继承与运行时动态修改'
+  - '- 设计令牌：设计决策的原子化存储（色值、间距、字体、圆角、阴影、动效），平台无关，作为单一事实来源分发到 Web/iOS/Android/Figma'
+  - '**关键性质**'
+  - '- 作用域与层叠：变量随选择器层叠，子元素可覆盖父级变量实现局部主题（如模态框深色模式）'
+  - '- `light-dark()` 函数：`color: light-dark(#333, #fff)` 根据 `color-scheme` 自动切换，零
+    JS 实现跟随系统'
+  - '- `color-mix()` 函数：`color-mix(in srgb, var(--primary) 80%, transparent)` 动态生成悬浮/禁用态，减少令牌数量'
+  - '- `@property` 注册：指定语法 `<color>`、`<length>`、初始值、继承性，启用类型检查与插值动画'
+  - '**典型例子**'
+  - '- 暗黑模式：`:root { color-scheme: light dark; } [data-theme=dark] { --bg: #141414;
+    --text: #fff; }`'
+  - '- 多品牌白标：构建时注入品牌令牌 JSON → 生成对应 CSS 变量文件，零代码切换品牌视觉'
+  - '- 设计系统同步：Figma Tokens 插件导出 JSON → Style Dictionary 转换 → 输出 CSS/TS/JSON 多端同步消费'
+  - '**边界条件**'
+  - '- 变量引用无效时回退值必填：`var(--color, #fallback)` 防止样式崩坏'
+  - '- `@property` 尚未全浏览器支持（Firefox 近期才支持），渐进增强需谨慎'
+  - '- 过度使用 `color-mix` 可能增加浏览器渲染计算开销，关键路径慎用'
+  - '- 变量名命名规范（如 `--color-brand-primary` vs `--primary`）需团队强约定，防止语义漂移'
+  sources:
+  - paper: 20230418_040.md
+    role: origin
+  excerpts:
+  - CSS 变量支持继承与运行时动态修改...
+  - Design Tokens 是设计决策的原子化存储...
+  - light-dark() 根据 color-scheme 自动切换...
+  - color-mix() 实现动态派生色...
+  - '@property 注册语法类型启用插值动画'
+- 'no': 3
+  name: 原子化 CSS 工程化 —— UnoCSS/Tailwind 预设配置、任意值、变体与按需生成原理
+  points:
+  - '**为什么需要这个概念？**'
+  - '- 传统 BEM 命名认知负载高、CSS 文件随项目膨胀只增不减、死代码清理困难'
+  - '- 组件库样式定制需覆盖深层选择器、优先级战、打包体积包含未用样式'
+  - '- 设计系统与业务代码耦合：改间距需改 CSS 文件，无法在模板中直观表达意图'
+  - '**核心定义**'
+  - '- 原子化 CSS：每个类只做一件事（如 `p-4` `text-center` `bg-blue-500`），在 HTML/模板中组合构建 UI'
+  - '- 按需生成：扫描源码（模板/JS/TSX）中的类名，仅生成实际用到的 CSS，产物体积与用量正相关'
+  - '- UnoCSS：基于规则匹配的即时原子化引擎，无需扫描构建依赖图，启动极快，规则完全可编程'
+  - '**关键性质**'
+  - '- 核心三元组：规则  -> 变体 `hover:` `dark:` `md:`  -> 预设/快捷键'
+  - '- 任意值：`w-[123px]` `bg-[#abcdef]` `grid-[1fr_auto_1fr]` 任意数值/颜色/函数即时生成，逃逸设计令牌约束'
+  - '- 变体组合：`hover:dark:md:flex` 任意嵌套，编译期展开为选择器链'
+  - '- 预设生态：`@unocss/preset-uno` (Tailwind 兼容) `@unocss/preset-icons` (纯 CSS 图标) `@unocss/preset-attributify`
+    (属性化模式)'
+  - '- 变压器：`@unocss/transformer-directives` 支持 `@apply` `@screen` 复用现有 Tailwind 代码库'
+  - '**典型例子**'
+  - '- 响应式卡片：`<div class="flex flex-col md:flex-row p-4 md:p-8 gap-4 bg-white dark:bg-gray-900
+    rounded-lg shadow hover:shadow-xl">`'
+  - '- 任意值精准控制：`top-[calc(50%-12px)]` `before:content-['''']` 无需内联 style 破坏 CSP'
+  - '- 图标即类名：`<i class="i-carbon-user"></i>` 零字体文件、零 SVG 内联、按需下载'
+  - '**边界条件**'
+  - '- 类名字符串拼接（`clsx`、`cn` 动态拼接）会导致扫描遗漏，需配置 `safelist` 或提取完整字面量'
+  - '- 任意值滥用会让 HTML 变成“写 CSS 的另一种语法”，丧失设计令牌约束力，需 Code Review 管控'
+  - '- 旧版浏览器（不支持 `:where()` `:is()`）下 UnoCSS 默认输出的零权重选择器可能失效，需降级配置'
+  - '- 服务端渲染（SSR）需确保首屏 CSS 内联注入，避免 FOUC（样式闪烁）'
+  sources:
+  - paper: 20230418_040.md
+    role: origin
+  excerpts:
+  - UnoCSS 按需生成机制：扫描源码 -> 匹配规则 -> 生成 CSS...
+  - 规则结构：[匹配正则, 生成体, 控制元数据]...
+  - 变体嵌套展开逻辑...
+  - 任意值语法：`[value]` 转义特殊字符...
+  - 预设与变压器架构设计...
+- 'no': 4
+  name: CSS 架构治理 —— BEM 命名规范、Scoped CSS 模块化、层叠层 与 Stylelint 规则集
+  points:
+  - '**为什么需要这个概念？**'
+  - '- 团队协作中类名冲突、覆盖链过长、!important 滥用、废弃样式不敢删'
+  - '- 原子化 CSS 解决不了组件内部复杂状态样式、伪元素动画、媒体查询嵌套等场景'
+  - '- 缺乏统一规范导致代码审查变成“格式整理会”，新人上手无章法'
+  - '**核心定义**'
+  - '- BEM：`block__element--modifier` 命名约定，通过扁平化类名消除嵌套耦合，语义化表达结构关系'
+  - '- CSS Modules：构建时将类名哈希化（`_3xYz_button_1a2b3`），实现物理隔离，零运行时开销'
+  - '- `@layer`：显式声明层叠优先级顺序（`@layer reset, base, components, utilities`），后声明层胜过先声明层，与选择器权重解耦'
+  - '- Stylelint：Lint 工具强制执行命名规范、禁止魔法数值、限制嵌套深度、排序属性顺序'
+  - '**关键性质**'
+  - '- BEM 扁平化牺牲了 HTML 简洁度（类名长），但换来选择器权重恒定 (0,0,1,0) 与零冲突'
+  - '- CSS Modules 配合 `:global()` `:local()` 精准控制作用域边界，`composition` 实现组合复用'
+  - '- `@layer` 解决“第三方库重置样式覆盖业务样式”痛点：将库样式导入低优先级层'
+  - '- Stylelint 规则集可继承扩展：`stylelint-config-standard` -> `stylelint-config-recess-order`
+    -> 团队自定义'
+  - '**典型例子**'
+  - '- 组件库 Button：`.btn` (block) `.btn__icon` (element) `.btn--primary` `.btn--loading`
+    (modifier)'
+  - '- 微前端样式隔离：子应用开启 CSS Modules + 唯一前缀，彻底避免样式污染'
+  - '- 层叠层治理：`@import ''tailwind.css'' layer(utilities);` 保证原子类最高优先级不被业务覆盖'
+  - '**边界条件**'
+  - '- BEM 修饰符嵌套（`.btn--primary__icon`）反模式，应拆分为独立 Block 或使用状态类 `.is-primary`'
+  - '- CSS Modules 服务端渲染需同构哈希算法，否则客户端激活时类名不匹配导致闪烁'
+  - '- `@layer` 不支持嵌套在 `@media` 等条件规则中，层级声明必须在顶层'
+  - '- Stylelint 规则过严会阻碍合理 hack（如兼容性前缀），需配置 `override` 例外机制'
+  sources:
+  - paper: 20230418_040.md
+    role: origin
+  excerpts:
+  - BEM 块/元素/修饰符命名规范...
+  - CSS Modules 哈希化类名实现物理隔离...
+  - '@layer 显式管理层叠优先级...'
+  - Stylelint 规则集继承与自定义...
+- 'no': 5
+  name: 实战：从零构建企业级 UI 组件库样式系统
+  points:
+  - '**为什么需要这个概念？**'
+  - '- 业务项目重复造轮子：每个项目都在写 Button、Table、Form 样式，维护成本指数级上升'
+  - '- 设计语言碎片化：设计稿与代码脱节、暗黑模式适配缺失、品牌定制靠改源码'
+  - '- 缺乏工程化交付：无版本管理、无文档站、无主题定制 API、无 Tree-shaking 支持'
+  - '**核心定义**'
+  - '- 样式系统双包架构：`@org/ui-theme` (设计令牌 + CSS 变量 + 原子化预设) + `@org/ui-components` (组件实现
+    + 样式引用 theme 包)'
+  - '- 设计令牌为核心源头：Figma -> Tokens Studio -> JSON -> Style Dictionary -> 输出 CSS Variables
+    / TS Types / UnoCSS Preset'
+  - '- 组件样式策略：原子化类名构建布局骨架 + CSS 变量注入语义化色值/间距 + `@layer components` 封装组件级变体'
+  - '**关键性质**'
+  - '- 主题切换零运行时：数据属性 `[data-theme]` 切换 CSS 变量集合，利用浏览器原生层叠实现瞬间切换'
+  - '- 暗黑模式内置：令牌定义 `light`/`dark` 两套色值，`color-scheme` + `light-dark()` 或 CSS 变量双模式自动生效'
+  - '- 组件样式隔离：CSS Modules / Scoped CSS 保证组件内部样式不外泄，暴露 `--btn-height` 等 CSS 变量供外部微调'
+  - '- 类型安全：`@org/ui-theme` 导出 TypeScript 类型 `ThemeTokens`，业务侧 `const tokens: ThemeTokens
+    = importTheme()` 获得智能提示'
+  - '**典型例子**'
+  - '- 令牌生成管线：`npm run tokens:build` 从 `tokens.json` 生成 `variables.css` `preset.ts`
+    `types.d.ts`'
+  - '- 组件库消费：`Button.vue` 使用 `<script setup>import ''@org/ui-theme/variables.css''</script>`
+    + `class="btn btn--primary"`'
+  - '- 业务定制主题：安装 `@org/ui-theme` -> 覆盖 `:root { --color-brand: #my-color; }` -> 重新构建即生效'
+  - '**边界条件**'
+  - '- 双包版本强绑定：`ui-components@1.2.0` 必须锁定 `ui-theme@1.2.x`，防止令牌接口变更导致组件样式失效'
+  - '- CSS 变量无法在媒体查询中使用（`@media (width > var(--bp))` 无效），断点令牌需双写 JS/TS 与 CSS'
+  - '- 旧浏览器（IE/旧版 Edge）不支持 CSS 变量，需 PostCSS 插件降级生成静态值或放弃支持'
+  - '- 组件库样式体积：需配置 `sideEffects: false` 并按需导入，避免全量引入打包体积膨胀'
+  sources:
+  - paper: 20230418_040.md
+    role: origin
+  excerpts:
+  - 双包架构：theme 包输出令牌变量与预设，components 包消费...
+  - Style Dictionary 多格式输出配置...
+  - 组件内部使用 CSS Modules + 语义化 CSS 变量...
+  - 主题切换实现：数据属性切换变量作用域...
+  - 版本锁定策略与发布流水线...
