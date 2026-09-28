@@ -1,0 +1,132 @@
+learning_targets:
+- 掌握 TypeScript 类型体操的四大核心原语：infer、extends、keyof、Mapped Types 的语义与协作模式
+- '理解条件类型 `T extends U ? X : Y` 的分发规律，并能主动控制分发与阻止分发'
+- 熟练运用模板字面量类型实现字符串级的结构化解析与构造（如路由参数提取、CSS 属性展开）
+- 能设计基于元组载体的尾递归类型，突破类型实例化深度限制，处理任意深度嵌套数据结构变换
+- 能够串联上述技术，从 OpenAPI Schema 自动推导出端到端类型安全的请求客户端类型签名
+- 建立‘类型即文档、编译即测试’的工程思维，评估类型编程复杂度与编译性能的工程权衡
+concept_map:
+- TypeScript 类型体操进阶
+- ├── 核心原语
+- │   ├── infer（推断/变量）          —— 捕获待推断类型，类型层面的 let 绑定
+- │   ├── extends（约束/判断/分发）  —— 条件类型前置条件，裸参数触发分布式条件类型
+- │   ├── keyof（遍历/键集合）       —— 获取对象键联合，映射类型的遍历源
+- '│   └── Mapped Types（映射/循环）  —— { [K in Keys]: Type } 遍历联合构建新类型'
+- ├── 进阶组合模式
+- │   ├── 条件类型与分布式条件类型   —— 三元运算符、联合分发、Exclude/Extract 实现原理、阻止分发技巧
+- │   ├── 模板字面量类型             —— 字符串插值、infer 解构、联合展开、贪婪匹配与分隔符约束
+- │   └── 递归与尾递归类型           —— 元组载体模拟循环、累加器模式、深度 Readonly/Flatten/Path<T> 实战
+- └── 工程化落地实战
+- '    ├── OpenAPI Schema 类型变换管线'
+- '    │   ├── 路径解析（模板字面量提取参数）'
+- '    │   ├── 操作映射（遍历 paths 生成方法签名）'
+- '    │   ├── 参数分离（条件类型区分 path/query/body）'
+- '    │   ├── 引用展开（递归解析 $ref 组件）'
+- '    │   └── 客户端签名合成（重载约束路径参数必填）'
+- '    ├── 类型安全即文档（IDE 补全即接口规范）'
+- '    ├── CI 集成自动生成（openapi-typescript/orval/hey-api）'
+- '    └── 边界治理（anyOf 膨胀、循环引用、超大类型体积、非 JSON 场景补全）'
+life_analogy:
+- 想象 TypeScript 类型系统是一台**没有变量、没有循环、没有 if-else 的特殊编译器**，但它拥有强大的**模式匹配**与**结构变换**能力：
+- '- **infer** = **侦探的‘证据袋’**：在条件判断（extends）的现场，标记‘未知但关键的线索’，供后续推理使用（如 `infer R` 捕获函数返回值）'
+- '- **extends** = **海关的‘通关单’**：检查类型 `T` 是否符合 `U` 规格；若 `T` 是联合类型且‘裸奔’（裸类型参数），则**逐个成员过安检**（分布式条件类型），合格走左边，不合格走右边'
+- '- **keyof** = **仓库管理员的‘键清单’**：把对象类型仓库里所有货架标签（键）抄成一张联合清单，供后续‘按清单办事’（映射类型遍历）'
+- '- **Mapped Types** = **流水线‘按清单改造’**：拿着 `keyof` 的清单，对每个键 `K` 执行统一操作（加 `readonly`、改
+  `?`、变 `T[K]`），产出新对象类型'
+- '- **模板字面量类型** = **字符串‘乐高拼装厂’**：用 `${infer Prefix}${infer Suffix}` 把字符串拆成积木块，按分隔符（如
+  `/` `:`）重新拼装、校验、提取参数（路由解析）'
+- '- **尾递归（元组累加器）** = **‘不倒翁’式搬运工**：普通递归搬运深度受限（50层），尾递归把‘已搬运成果’装进元组背包（累加器 `Acc`），每次只搬一件、把成果塞背包，编译器优化后可搬运上千层不倒'
+- 正如乐高大师不需要说明书也能拼出城堡，类型体操高手仅用这四大原语组合，就能在编译期构建出路由解析器、API 客户端、SQL 校验器等复杂‘类型机器’。
+summary:
+- concept: infer
+  desc: 条件类型中声明待推断类型变量，相当于类型层面的变量绑定
+- concept: extends
+  desc: 类型约束与条件判断；作用于裸类型参数时触发分布式条件类型（联合分发）
+- concept: keyof
+  desc: 获取对象类型键的联合，映射类型遍历的源头
+- concept: Mapped Types
+  desc: '`{ [K in Keys]: Type }` 语法，遍历键联合构建新对象类型，类型层面的 map/forEach'
+- concept: 分布式条件类型
+  desc: 裸类型参数为联合时自动逐成员分发，`Exclude`/`Extract` 等工具类型的核心实现机制
+- concept: 阻止分发
+  desc: 通过 `[T] extends [U]` 元组包裹，使联合类型作为整体参与判断
+- concept: 模板字面量类型
+  desc: 反引号 `${}` 插值构建字符串字面量类型，支持 `infer` 结构化解析与联合展开
+- concept: 字符串推断贪婪性
+  desc: 模板中 `infer` 默认贪婪匹配，需显式分隔符（如 `/` `:`）约束边界
+- concept: 类型递归
+  desc: 类型别名自引用配合条件类型终止判断，模拟循环处理嵌套结构
+- concept: 元组尾递归
+  desc: 以元组为累加器载体（`[...Acc, Next]`），将递归调用置于最后一步，突破 50 层深度限制至 999+ 层
+- concept: Path<T> 路径提取
+  desc: 递归遍历对象键，配合模板字面量拼接 `'a.b.c'` 字符串路径联合
+- concept: OpenAPI 类型生成管线
+  desc: 路径解析→操作映射→参数分离→引用展开→签名合成，实现端到端类型安全客户端
+- concept: Schema 驱动开发 (SDD)
+  desc: 以 OpenAPI Schema 为单一事实源，类型定义自动衍生，消除手写同步成本
+- concept: 类型工程权衡
+  desc: 警惕联合展开爆炸、递归深度溢出、超大类型体积拖慢 IDE、循环引用展开、非 JSON 场景建模缺口
+exercises:
+- 'no': 1
+  title: 手写核心工具类型与分发控制
+  contents:
+  - 1. 仅使用 `infer`、`extends`、`keyof`、Mapped Types 实现以下工具类型（禁用内置工具）：
+  - '   - `MyReturnType<T>`：提取函数返回类型'
+  - '   - `MyPick<T, K>`：从 T 中选取键 K 构造新对象'
+  - '   - `MyExclude<T, U>`：从联合 T 中排除属于 U 的成员'
+  - '2. 给定联合类型 `type U = ''a'' | ''b'' | ''c''`，解释 `U extends ''a'' ? 1 : 2` 与 `[U]
+    extends [''a''] ? 1 : 2` 的结果差异，并说明原因。'
+  - 3. 设计类型 `IsUnion<T>`，利用阻止分发技巧判断 T 是否为联合类型（提示：结合 `UnionToIntersection`）。
+- 'no': 2
+  title: 模板字面量类型解析器
+  contents:
+  - 1. 实现 `ParseRoute<Route>`：输入 `/users/:id/posts/:postId`，输出联合 `'id' | 'postId'`。
+  - '   要求：使用模板字面量 `infer` 递归解析，处理无参数、单参数、多参数情况。'
+  - 2. 实现 `CssProperty<Base, Directions>`：输入 `'margin'` 与 `['Top','Right','Bottom','Left']`，输出联合
+    `'margin' | 'marginTop' | 'marginRight' | 'marginBottom' | 'marginLeft'`。
+  - '   要求：利用模板字面量联合展开特性。'
+  - 3. 思考题：若路由为 `/files/*` 通配符模式，如何扩展 `ParseRoute` 支持提取 `*` 后的剩余路径？`infer` 的贪婪性会带来什么挑战？
+- 'no': 3
+  title: 尾递归类型挑战：深度结构变换
+  contents:
+  - 1. 实现 `DeepReadonly<T>`：将对象及所有嵌套层级属性标记为 `readonly`。对比普通递归写法与尾递归写法（提示：普通递归直接在映射值处递归即可，尾递归需引入元组累加器，思考为何此处普通递归通常足够、何时必须尾递归）。
+  - 2. 实现 `Flatten<T>`：将任意嵌套数组扁平化为一维元组类型。
+  - '   例如：`Flatten<[1, [2, [3, 4]], 5]>` → `[1, 2, 3, 4, 5]`。'
+  - '   要求：使用元组递归（`[infer First, ...infer Rest]`）与条件类型分发处理嵌套数组。'
+  - 3. 实现 `Repeat<Str, N>`：在类型层面重复字符串 N 次。
+  - '   普通递归版：`Repeat<''a'', 3>` → `''aaa''`（受限 50 层）。'
+  - '   尾递归版：引入累加器元组 `Acc`，挑战 `Repeat<''x'', 200>` 不报错。'
+  - 4. 思考题：TypeScript 为何对元组长度变化的尾递归有特殊优化？元组长度上限约 9999 对工程落地有何启示？
+- 'no': 4
+  title: 实战：从简化 OpenAPI 片段推导客户端签名
+  contents:
+  - 给定简化 OpenAPI 对象结构（已在类型层面建模）：
+  - '```ts'
+  - interface OpenAPISpec {
+  - '  paths: {'
+  - '    ''/users/:id'': {'
+  - '      get: { parameters: [{ name: ''id'', in: ''path'', required: true, schema:
+    { type: ''number'' } }], responses: { 200: { content: { ''application/json'':
+    { schema: { $ref: ''#/components/schemas/User'' } } } } } }'
+  - '    },'
+  - '    ''/posts'': {'
+  - '      post: { parameters: [], requestBody: { content: { ''application/json'':
+    { schema: { $ref: ''#/components/schemas/PostInput'' } } } }, responses: { 201:
+    { content: { ''application/json'': { schema: { $ref: ''#/components/schemas/Post''
+    } } } } } }'
+  - '    }'
+  - '  },'
+  - '  components: { schemas: { User: { id: number; name: string }, PostInput: { title:
+    string }, Post: { id: number; title: string } } }'
+  - '}'
+  - '```'
+  - 任务：
+  - 1. 定义 `ExtractPathParams<Path>` 使用模板字面量提取路径参数联合（如 `'id'`）。
+  - '2. 定义 `BuildOperationInput<Spec, Method, Path>` 条件类型，根据 `Method` 与 `Path` 从 `Spec.paths`
+    中提取并合成 `{ params?: PathParams; query?: QueryParams; body?: BodyType }` 输入类型。'
+  - 3. 定义 `Client<Spec>` 类型，其 `get`/`post` 方法签名能自动推导：
+  - '   - `client.get(''/users/:id'', { params: { id: 123 }})` ✅ 通过，`params` 缺少 `id`
+    ❌ 报错。'
+  - '   - `client.post(''/posts'', { body: { title: ''Hi'' }})` ✅ 通过，`body` 类型不匹配
+    ❌ 报错。'
+  - '4. 回答问题：若 `components/schemas` 中存在循环引用（如 `User { friends: User[] }`），自动生成工具通常如何处理？手写类型时应如何定义？'
