@@ -1,0 +1,406 @@
+learning_targets:
+- 理解 BFF 架构在微服务体系中解决前端聚合与适配的核心价值
+- 掌握 NestJS 模块化架构、依赖注入容器与声明式 AOP（守卫/拦截器/管道/过滤器）的工程化实践
+- 熟练运用 Prisma Schema 单一事实来源完成类型安全的数据建模、关联查询、事务与中间件扩展
+- 建立生产级 Node.js 部署运维标准：多阶段 Docker 构建、非 root Distroless 镜像、PM2/K8s 集群模式、三探针健康检查、结构化日志与
+  Prometheus 监控
+- 设计支持 SSR/SSG/ISR 混合渲染的全栈应用骨架，实现数据库 Schema 到前端组件的端到端类型共享管线
+concept_map:
+- Node.js 服务端开发与 BFF 模式
+- ├── BFF 架构价值
+- │   ├── 聚合编排下游微服务          —— P044
+- │   ├── 按需裁剪响应字段            —— P044
+- │   ├── 协议适配与版本隔离          —— P044
+- │   └── 由前端团队主导、独立部署    —— P044
+- ├── NestJS 企业级开发
+- │   ├── @Module 模块化边界与代码分割   —— P044
+- │   ├── @Injectable 依赖注入容器       —— P044
+- │   ├── @Controller 路由控制器         —— P044
+- │   ├── Guard 鉴权/限流切面           —— P044
+- │   ├── Interceptor 响应转换/缓存/日志 —— P044
+- │   ├── Pipe 参数校验/转换            —— P044
+- │   ├── ExceptionFilter 统一异常处理  —— P044
+- │   └── Swagger/OpenAPI 文档自动生成  —— P044
+- ├── Prisma ORM 实战
+- │   ├── schema.prisma 声明式建模      —— P044
+- │   ├── Prisma Client 类型安全查询    —— P044
+- │   ├── Prisma Migrate 版本化迁移     —— P044
+- │   ├── 关联关系与嵌套 include/select —— P044
+- │   ├── $transaction 交互式/批量事务  —— P044
+- │   ├── $extends/$use 中间件扩展      —— P044
+- │   └── 连接池配置与 Serverless 适配  —— P044
+- ├── 部署与运维工程化
+- │   ├── 多阶段 Dockerfile 构建        —— P044
+- │   ├── 非 root + Distroless 基础镜像 —— P044
+- │   ├── PM2 Cluster 模式 / K8s HPA    —— P044
+- │   ├── 三探针：Liveness/Readiness/Startup —— P044
+- │   ├── Winston/Pino 结构化 JSON 日志 —— P044
+- │   └── Prometheus /metrics 指标暴露 —— P044
+- └── 全栈应用骨架
+- '    ├── 渲染策略矩阵：SSG/ISR/SSR/CSR  —— P044'
+- '    ├── 类型共享管线：Prisma → OpenAPI → @repo/types → 前端 Hooks —— P044'
+- '    ├── 数据获取分层：服务端直连 vs 客户端 SWR/TanStack Query —— P044'
+- '    ├── 流式渲染与 Suspense 分块下发  —— P044'
+- '    └── HttpOnly Cookie 认证态同步  —— P044'
+life_analogy:
+- 想象 BFF 是**高端餐厅的「总管/管家」**：
+- '- **前端（食客）** 只需告诉管家“我想吃一份满汉全席（页面数据）”，无需知道后厨分工'
+- '- **后端微服务（后厨各组：凉菜组/热菜组/点心组/烤鸭组）** 只专注做好自己的菜，互不干扰'
+- '- **BFF 总管** 负责：下单拆单给各组、收齐成品摆盘（聚合编排）、挑掉食客过敏食材（字段裁剪）、统一用御用餐具上桌（协议适配）、菜单变动时安抚食客并协调后厨（版本隔离）'
+- ''
+- NestJS 就像**这家餐厅的标准化运营手册（SOP）**：
+- '- **@Module** = 各职能部门（采购部/后厨部/前厅部/财务部），职责清晰、接口标准'
+- '- **依赖注入容器** = 人力资源调度中心，厨师需要刀具直接向中心领取，无需自己去买（解耦），换人不换流程'
+- '- **Guard/Interceptor/Pipe/Filter** = 统一服务礼仪：安检、摆盘装饰、点单复唱、投诉兜底，全员遵守，新员工入职即懂'
+- ''
+- Prisma 就像**餐厅的「数字化食谱库与食材台账」**：
+- '- **schema.prisma** = 总食谱（单一事实来源），改一道菜的配方，所有厨师的备菜单、采购单、菜单价格自动同步更新'
+- '- **类型安全查询** = 智能备菜系统，厨师说「备 3 份无花生宫保鸡丁」，系统自动校验食材清单，防止误放花生（编译期报错）'
+- '- **事务** = 整单上菜原子性：要么全上齐，要么全退回，绝不出现「只有鸡丁没花生」的半成品上桌'
+- ''
+- 部署运维像**餐厅的「后厨基建与巡检体系」**：
+- '- **多阶段 Docker** = 预制菜中央厨房 + 极简前厅出餐口，前厅只负责摆盘，无原料、无刀具、无垃圾（攻击面最小)'
+- '- **非 root Distroless** = 前厅员工只有上菜权限，无开火权限、无开冰箱权限、无钥匙（最小权限原则)'
+- '- **三探针** = 巡场经理：心跳探针（人在不在）、就绪探针（菜备齐了没、灶台通气没）、启动探针（开业前大扫除、备料完成没）'
+- '- **结构化日志 + Prometheus** = 智能监控大屏：每道菜出品时间、退菜率、灶台火力、食材库存，实时告警、事后复盘有据可查'
+- ''
+- 全栈骨架像**「中央厨房直供 + 门店现做」混合经营模式**：
+- '- **SSG/ISR** = 招牌菜/营销海报：中央厨房预制好、冷冻配送、门店稍加热/解冻即卖（构建时/增量生成 HTML）'
+- '- **SSR** = 现点现做私房菜：食客下单（请求），后厨现炒（服务端渲染），端上桌即食（首屏直出）'
+- '- **CSR** = 桌边自助调料/DIY 甜品：基础端上桌，食客自己加料互动（客户端水合/交互）'
+- '- **端到端类型共享** = 统一食谱编码：从中央厨房配方到门店菜单、食客点单小程序，全链路同一套编码，杜绝「菜单写宫保鸡丁、厨房做糖醋里脊」的接口不一致'
+summary:
+- concept: BFF (Backend for Frontend)
+  desc: 为特定前端定制的后端聚合层，职责：聚合下游、裁剪字段、适配多端、屏蔽内部变更，由前端团队主导
+- concept: NestJS 三大核心装饰器
+  desc: '@Module 划分模块边界、@Injectable 标识可注入 Provider、@Controller 定义路由入口，构成模块化、依赖注入、声明式路由的基石'
+- concept: NestJS AOP 切面四件套
+  desc: Guard(鉴权/限流) -> Interceptor(响应转换/缓存/日志) -> Pipe(参数校验/转换) -> ExceptionFilter(统一异常处理)，覆盖请求全生命周期横切关注点
+- concept: Prisma Schema 单一事实来源
+  desc: schema.prisma 同时作为数据库 DDL、TypeScript 类型定义、迁移历史来源，Prisma Client 自动生成，实现数据库
+    Schema 即代码类型
+- concept: Prisma 类型安全查询
+  desc: findMany/include/select/where 全链路 TypeScript 推导，字段拼写错误编译期即报错，重构零恐慌
+- concept: Prisma 事务与中间件
+  desc: $transaction 保证原子性（回调式/批量操作）；$use/$extends 实现软删除、审计日志、行级权限等横切逻辑复用
+- concept: 生产级 Docker 多阶段构建
+  desc: Builder 阶段全量依赖构建产物，Runner 阶段仅复制产物与生产依赖至 Distroless 镜像，体积↓70%、攻击面↓90%、非 root
+    运行
+- concept: 三探针健康检查体系
+  desc: Liveness(进程存活)、Readiness(依赖就绪可切流)、Startup(启动宽容期)，配合 K8s/PM2 实现零停机部署与自动故障隔离
+- concept: 结构化日志与 Prometheus 指标
+  desc: JSON 格式标准输出 + 核心指标暴露，实现日志聚合检索、链路追踪关联、Grafana 仪表盘告警，MTTR 从小时级降至分钟级
+- concept: 全栈渲染策略矩阵
+  desc: SSG(静态营销页)、ISR(半动态内容页)、SSR(个性化/SEO 页)、CSR(高交互组件)，按页面特性组合，极致首屏与体验平衡
+- concept: 端到端类型共享管线
+  desc: Prisma Schema → OpenAPI Spec → @repo/types npm 包 → 前端 TanStack Query/SWR Hooks，实现数据库字段变更编译期传导至前端组件报错
+- concept: 流式渲染与 Suspense
+  desc: 服务端组件并行数据获取 + Promise.all + <Suspense fallback> 分块流式下发 HTML，TTFB 优化至数据库查询耗时，感知性能质变
+- concept: HttpOnly Cookie 认证同步
+  desc: BFF 签发 Secure SameSite=Lax Cookie，前端中间件/服务端组件/客户端请求复用同一认证上下文，CSRF 防护与 SSR
+    直出用户态兼得
+exercises:
+- 'no': 1
+  title: BFF 聚合编排实战
+  contents:
+  - 场景：电商商品详情页需聚合 4 个下游服务：
+  - 1. 商品基础服务 GET /api/item/{id} → { id, title, images[], categoryId }
+  - 2. 价格服务 POST /api/price/batch → { skuId, price, promotion }[]
+  - 3. 库存服务 GET /api/inventory/{skuId} → { skuId, quantity, status }
+  - '4. 评价服务 GET /api/reviews?itemId={id}&size=3 → { list: [{ user, rating, content
+    }], total }'
+  - ''
+  - 任务：
+  - 1. 设计 BFF 聚合接口 GET /bff/item/{id} 的响应结构（仅包含前端渲染所需字段）
+  - 2. 编写 NestJS Controller + Service 伪代码，展示并行调用、异常兜底（某服务失败降级返回默认值）、字段裁剪逻辑
+  - 3. 思考：若 App 端需额外返回「直播信息」「推荐流」，如何避免 BFF 代码出现大量 if (client === 'app') 分支？
+- 'no': 2
+  title: NestJS 模块化与依赖注入重构
+  contents:
+  - 现有一个 UserModule，包含 UserController、UserService、UserRepository（直连 Prisma），以及 AuthGuard（JWT
+    校验）、LoggingInterceptor（请求日志）。
+  - ''
+  - 任务：
+  - 1. 画出模块依赖图：标明 imports、providers、controllers、exports
+  - 2. 将 UserRepository 抽离为独立 Provider，支持 useClass 切换实现（如测试时用 InMemoryRepository），展示如何在
+    UserModule 中配置
+  - '3. 实现一个全局 ExceptionFilter，捕获 Prisma P2003 外键约束错误，转换为 400 Bad Request 并返回统一格式
+    { code: ''FK_VIOLATION'', message: ''关联资源不存在'', field: ''categoryId'' }'
+  - 4. 解释：为何 Guard 执行在 Interceptor 之前？若需在 Guard 中获取 Interceptor 设置的上下文数据（如请求 ID），应如何调整？
+- 'no': 3
+  title: Prisma 关联查询与事务边界设计
+  contents:
+  - Schema 定义：
+  - model User { id String @id @default(cuid()) email String @unique orders Order[]
+    }
+  - 'model Order { id String @id @default(cuid()) userId String user User @relation(fields:
+    [userId], references: [id]) items OrderItem[] }'
+  - 'model OrderItem { id String @id @default(cuid()) orderId String order Order @relation(fields:
+    [orderId], references: [id]) skuId String quantity Int }'
+  - model Inventory { skuId String @id quantity Int version Int @default(0) @map("version")
+    }
+  - ''
+  - 任务：
+  - 1. 编写 Prisma 查询：获取用户最新 10 单，包含每单的 items 与 sku 当前库存快照，要求单次查询（避免 N+1），并分析生成的 SQL
+    结构
+  - 2. 实现「下单扣减库存」事务：原子性创建 Order + OrderItem，并对 Inventory 做乐观锁扣减（quantity - 1, version
+    + 1, where version = oldVersion），冲突时重试 3 次
+  - 3. 设计软删除中间件：删除 User 时级联软删除其 Order 与 OrderItem（打上 deletedAt），查询时自动过滤 deletedAt
+    不为空的记录
+  - 4. 讨论：大批量订单导出报表（10万行+）时，Prisma include 多层嵌套可能导致笛卡尔积爆炸，应如何分批查询或改用 $queryRaw 优化？
+- 'no': 4
+  title: 生产级 Dockerfile 与健康检查编写
+  contents:
+  - 基于 NestJS + Prisma 项目，编写完整的多阶段 Dockerfile，要求：
+  - 1. Builder 阶段：使用 node:20-alpine，开启 corepack/pnpm，缓存 node_modules，执行 prisma generate
+    与 nest build
+  - 2. Runner 阶段：使用 gcr.io/distroless/nodejs20-debian12，仅复制 dist、node_modules/.prisma/client、package.json，创建非
+    root 用户 nonroot:nonroot
+  - 3. 配置环境变量：NODE_ENV=production、PORT=3000、DATABASE_URL 通过 Secret 挂载
+  - 4. 编写 NestJS 三探针实现：
+  - '   - /health/liveness：仅返回 { status: ''ok'' }'
+  - '   - /health/readiness：检查 Prisma $queryRaw`SELECT 1` 与 Redis ping，任一失败返回 503'
+  - '   - /health/startup：同 readiness 但允许 60s 宽容期（用于迁移/预热）'
+  - 5. 给出对应的 Kubernetes Deployment 片段：livenessProbe/readinessProbe/startupProbe 配置、HPA
+    基于 CPU>70% 扩容、资源 requests/limits 设置
+- 'no': 5
+  title: 全栈类型共享管线搭建
+  contents:
+  - 目标：实现 Prisma Schema 变更 → 前端 TypeScript 类型自动更新的零手工流程。
+  - ''
+  - 任务：
+  - 1. 设计 Monorepo 目录结构（pnpm workspace）：apps/bff、apps/web、packages/types、packages/eslint-config、packages/tsconfig
+  - 2. 编写 packages/types 的生成脚本（package.json scripts）：
+  - '   - 步骤 A：prisma generate（产出 @prisma/client）'
+  - '   - 步骤 B：nest build 并配合 @nestjs/swagger 生成 openapi.json'
+  - '   - 步骤 C：openapi-typescript openapi.json -o src/api.d.ts'
+  - '   - 步骤 D：导出 Prisma 模型类型与 API 路径类型，发布为 @repo/types@x.y.z'
+  - 3. 在 apps/web 中演示：import { paths } from '@repo/types'；使用 fetch('/api/users/' +
+    userId) 获取数据，展示响应体类型如何自动推导为 paths['/api/users/{id}']['get']['responses']['200']['content']['application/json']
+  - 4. 思考：当 Prisma 模型新增字段、BFF 接口响应同步新增时，前端组件如何感知并利用新字段？若 BFF 接口字段重命名（破坏性变更），Monorepo
+    与多仓库分别如何通过类型系统阻断发布？
+units:
+- 'no': 1
+  name: BFF 架构价值 —— 前端专属的后端聚合层
+  points:
+  - '**为什么需要这个概念？**'
+  - '- 微服务拆分导致后端接口碎片化，前端需调用多个服务才能渲染一个页面，增加客户端复杂度与网络延迟'
+  - '- 不同端（Web、App、小程序）对数据结构、聚合粒度需求不一，后端通用 API 难以同时满足，导致过度获取或多次请求'
+  - '- 前端迭代快、后端迭代慢，前端被迫在客户端做数据拼装、适配，业务逻辑外泄，难以维护'
+  - '**核心定义**'
+  - '- BFF（Backend for Frontend）是为特定前端应用/客户端类型定制的后端服务层，核心职责是“聚合下游微服务、裁剪响应字段、适配多端差异、屏蔽内部架构变更”'
+  - '- 遵循“一个前端应用对应一个 BFF 服务”原则，BFF 由前端团队主导开发维护，拥有独立部署生命周期'
+  - '**关键性质**'
+  - '- 聚合编排：在服务端完成多服务调用、数据合并、格式转换，降低客户端请求次数与逻辑复杂度'
+  - '- 字段裁剪：按需返回前端所需字段，减少网络传输体积，规避过度获取敏感数据风险'
+  - '- 协议适配：统一对外暴露 REST/GraphQL 接口，内部屏蔽 gRPC/Thrift 等异构协议细节'
+  - '- 版本隔离：后端微服务升级时，BFF 吸收兼容逻辑，前端无感知，实现架构解耦'
+  - '**典型例子**'
+  - '- 电商商品详情页：BFF 并行调用商品服务（基本信息）、价格服务（实时促销）、库存服务（可售数量）、评价服务（最新好评），聚合为单一响应返回 Web 端；App
+    端 BFF 额外拼接直播、推荐流数据'
+  - '- 多端登录态同步：BFF 统一处理 OAuth2.0 授权码流、Token 刷新、Session 存储，对前端仅暴露统一的 `GET /api/auth/me`
+    接口'
+  - '**边界条件**'
+  - '- BFF 不应包含核心业务规则（如定价引擎、风控决策），仅做聚合与适配，避免演变成“胖网关”或第二个单体应用'
+  - '- 团队规模较小（如 < 5 人）或后端服务数量少（< 3 个）时，引入 BFF 可能引入不必要的运维成本，可暂用 API 网关插件或前端直连过渡'
+  - '- 需警惕“BFF 腐化”：若 BFF 中积累大量 `if (client === ''web'')` 分支，说明应拆分为 Web-BFF 与 App-BFF
+    两个独立服务'
+  sources:
+  - paper: 20230418_044.md
+    role: origin
+  excerpts:
+  - BFF（Backend for Frontend）架构的核心价值在于：聚合下游微服务、裁剪字段、适配多端、屏蔽内部架构变更。
+  - 对比传统 API 网关与 BFF 差异，阐述‘一个前端应用对应一个 BFF 服务’如何降低前端协调成本。
+- 'no': 2
+  name: NestJS 企业级开发 —— 模块化、依赖注入与声明式工程规范
+  points:
+  - '**为什么需要这个概念？**'
+  - '- Node.js 原生 HTTP 模块、Express/Koa 等轻量框架缺乏统一架构规范，大型项目易出现代码结构混乱、依赖管理失控、测试困难等问题'
+  - '- TypeScript 类型系统在运行时擦除，缺乏运行时依赖注入容器支持，导致模块间强耦合，难以实现真正的模块化与可测试性'
+  - '- 企业级应用需要标准化的切面编程能力（日志、异常、权限、校验），手写中间件链维护成本高、易出错'
+  - '**核心定义**'
+  - '- NestJS 是基于 TypeScript 的渐进式 Node.js 框架，核心架构三要素：`@Module` 模块化封装、`@Injectable`
+    依赖注入容器、`@Controller` 路由控制器'
+  - '- 通过装饰器元数据实现声明式编程：路由映射、参数绑定、管道校验、守卫鉴权、拦截器转换、异常过滤均以装饰器形式挂载，框架底层统一调度'
+  - '**关键性质**'
+  - '- 模块化边界：每个功能领域对应一个 `@Module`，内部封装 Controller/Service/Provider，通过 `imports`/`exports`
+    显式声明依赖关系，天然支持代码分割与懒加载'
+  - '- 依赖注入容器：基于反射（`reflect-metadata`）实现运行时类型识别，支持构造函数注入、属性注入、自定义 Provider（`useClass`/`useValue`/`useFactory`/`useExisting`），便于
+    Mock 替换与单元测试'
+  - '- AOP 切面生态：`Guard`（鉴权/限流）、`Interceptor`（响应转换/缓存/日志）、`Pipe`（参数校验/转换）、`ExceptionFilter`（统一错误码/日志上报）覆盖横切关注点'
+  - '- 文档零成本：集成 `@nestjs/swagger`，基于 DTO 类与装饰器自动生成 OpenAPI 3.0 规范文档，前后端联调无需手写 YAML'
+  - '**典型例子**'
+  - '- 用户模块：`UserModule` 导入 `TypeOrmModule.forFeature([User])`、`AuthModule`，暴露 `UserService`；`UserController`
+    注入 `UserService`、`AuthGuard`，`@Get(''profile'')` 经 `AuthGuard` 校验 JWT、`ValidationPipe`
+    校验 `QueryDto`，返回 `UserProfileVo` 自动生成 Swagger 文档'
+  - '- 全局异常过滤器：`@Catch(HttpException)` 捕获所有已知异常，统一返回 `{ code, message, timestamp,
+    path }` 格式，未知异常记录 Sentry 并返回 500'
+  - '**边界条件**'
+  - '- 学习曲线陡峭：装饰器、元数据反射、DI 容器生命周期（单例/请求级/瞬态）概念较重，小型项目或团队无 TS 基因时，Express/Fastify 可能更高效'
+  - '- 运行时反射开销：大量装饰器与依赖注入在冷启动、高并发下有一定性能损耗，极致性能场景可考虑 Fastify + 手动组装'
+  - '- 循环依赖陷阱：模块间循环 `imports` 或 Provider 循环注入会导致启动报错，需通过 `forwardRef` 或抽象公共模块解决，架构设计阶段即应规避'
+  sources:
+  - paper: 20230418_044.md
+    role: origin
+  excerpts:
+  - 实战 `@Module`/`@Injectable`/`@Controller` 三层架构、JWT 守卫鉴权、全局异常过滤器、DTO 校验管道、OpenAPI
+    文档零成本维护。
+  - NestJS 企业级开发：模块化架构、依赖注入、守卫/拦截器/管道、Swagger 文档自动生成。
+- 'no': 3
+  name: Prisma ORM 实战 —— 类型安全的数据库访问层
+  points:
+  - '**为什么需要这个概念？**'
+  - '- 传统 SQL 拼接、Query Builder（如 Knex）缺乏编译时类型检查，字段重命名、表结构变更极易导致运行时崩溃，重构风险高'
+  - '- 手写 TypeScript 接口与数据库 Schema 双份维护，极易不一致，违背单一事实来源原则'
+  - '- 复杂关联查询（嵌套 `include`/`select`）、事务处理、软删除、分页等通用逻辑重复造轮子，维护成本大'
+  - '**核心定义**'
+  - '- Prisma 是新一代 TypeScript ORM，核心三件套：`schema.prisma` 声明式数据建模（单一事实来源）、`Prisma Client`
+    类型安全查询构建器（自动生成）、`Prisma Migrate` 版本化迁移工具'
+  - '- 通过 `generator client` 将 Schema 编译为强类型 Client，实现“数据库 Schema 即 TypeScript 类型”，查询结果自动推导，拼写错误编译期即报错'
+  - '**关键性质**'
+  - '- 类型安全查询：`findMany({ where: { email: { endsWith: ''@example.com'' } }, include:
+    { posts: { where: { published: true } } } })` 全链路类型提示，`include` 字段拼写错误直接 TS 报错'
+  - '- 关联关系建模：`@relation` 定义一对一/一对多/多对多，支持外键约束、级联删除、引用完整性，`include`/`select` 深度嵌套自动生成
+    JOIN/子查询 SQL'
+  - '- 事务与批量操作：`$transaction([...])` 支持交互式事务（回调式）与批量操作事务，原子性保证；`createMany`/`updateMany`/`deleteMany`
+    高效批量写入'
+  - '- 中间件扩展：`$extends` 或 `prisma.$use()` 实现软删除（全局 `where: { deletedAt: null }` 过滤）、审计日志、字段加密、行级权限等横切逻辑复用'
+  - '- 连接池管理：内置连接池（默认 `connection_limit = num_cpus * 2 + 1`），配合 `?connection_limit=10&pool_timeout=10`
+    参数防泄漏，Serverless 环境建议配合外部 PgBouncer'
+  - '**典型例子**'
+  - '- 订单创建事务：`await prisma.$transaction(async (tx) => { const order = await tx.order.create({
+    data: { items: { create: items } } }); await tx.inventory.updateMany({ where:
+    { skuId: { in: skuIds } }, data: { quantity: { decrement: 1 } } }); return order;
+    })` 原子扣减库存、创建订单'
+  - '- 软删除中间件：`prisma.$use(async (params, next) => { if (params.action === ''findUnique''
+    || params.action === ''findMany'') params.args.where = { ...params.args.where,
+    deletedAt: null }; if (params.action === ''delete'') { params.action = ''update'';
+    params.args.data = { deletedAt: new Date() }; } return next(params); })` 透明拦截'
+  - '**边界条件**'
+  - '- 原生 SQL 场景：极复杂报表查询、窗口函数、CTE 递归、数据库特有语法（如 PostGIS 地理空间），需用 `$queryRaw`/`$executeRaw`
+    绕过 ORM，但丢失类型安全，需手写 Result 类型'
+  - '- 迁移回滚风险：`prisma migrate dev` 仅适用开发环境，生产环境必须用 `prisma migrate deploy` 单向应用，回滚需手写逆向
+    SQL 或恢复快照，不可像代码版本随意回退'
+  - '- 大表性能陷阱：`include` 多层嵌套易产生 Cartesian Explosion（笛卡尔积爆炸），大数据量下应拆分查询或用 `join` 策略，必要时开启
+    `prisma.$queryRaw` 手写优化 SQL'
+  sources:
+  - paper: 20230418_044.md
+    role: origin
+  excerpts:
+  - 演示 `schema.prisma` 建模、关联关系、迁移命令、中间件软删除、`$queryRaw` 复杂 SQL、连接池配置防泄漏。
+  - 数据库与 ORM 实战：Prisma Schema 定义、迁移管理、事务与关联查询优化。
+- 'no': 4
+  name: 部署与运维工程化 —— Docker、PM2、健康检查与可观测三件套
+  points:
+  - '**为什么需要这个概念？**'
+  - '- Node.js 单进程单线程模型无法利用多核 CPU，生产环境必须集群化部署，手动管理进程、重启、日志极其不可靠'
+  - '- 环境差异（开发/测试/生产 Node 版本、依赖、配置不一致）导致“在我机器上好使”频发，容器化镜像是标准化交付唯一解'
+  - '- 无健康检查、无结构化日志、无指标暴露，故障发现靠用户投诉，定位靠猜，MTTR（平均修复时间）极高'
+  - '**核心定义**'
+  - '- 生产级 Node.js 部署标准：多阶段 Docker 构建（Builder/Runner 分离）+ 非 root 用户 + Distroless/Alpine
+    基础镜像 + PM2 集群模式（或 Kubernetes 原生 HPA）+ 三探针（启动/存活/就绪）+ 结构化日志 + Prometheus 指标暴露'
+  - '**关键性质**'
+  - '- 多阶段构建：Builder 阶段 `npm ci` 安装全量依赖并 `npm run build` 产出产物，Runner 阶段仅 `COPY --from=builder
+    /app/dist ./dist` 与 `node_modules/.prisma/client`，镜像体积压缩 70%+，攻击面最小化'
+  - '- 非 root 与 Distroless：`USER node` 降权运行，`gcr.io/distroless/nodejs20-debian12`
+    无 Shell、无包管理器、无多余二进制，CVE 漏洞扫描通过率极高'
+  - '- PM2 生态配置：`ecosystem.config.js` 定义 `instances: ''max''`、`exec_mode: ''cluster''`、`autorestart:
+    true`、`max_memory_restart: ''1G''`、`env_production` 注入配置，零停机重载 `pm2 reload all`'
+  - '- 三探针设计：`/health/liveness` 仅检查进程存活（返回 200）、`/health/readiness` 检查数据库/Redis/下游服务连通性（不通返回
+    503 切流）、`/health/startup` 宽容启动期长耗时初始化（迁移、缓存预热）'
+  - '- 结构化日志：Winston/Pino 输出 JSON 格式 `{ level, time, traceId, spanId, msg, ...meta
+    }`，标准输出 stdout 被 DaemonSet 采集，无需挂载卷，ELK/Loki 直接索引'
+  - '- Prometheus 指标：`@prometheus-express` 暴露 `/metrics`，采集 `http_request_duration_seconds`、`nodejs_eventloop_lag_seconds`、`process_resident_memory_bytes`
+    等核心指标，Grafana 预置仪表盘告警'
+  - '**典型例子**'
+  - '- Dockerfile 多阶段范式：'
+  - '  ```dockerfile'
+  - '  # Builder'
+  - '  FROM node:20-alpine AS builder'
+  - '  WORKDIR /app'
+  - '  COPY package*.json ./'
+  - '  RUN npm ci'
+  - '  COPY . .'
+  - '  RUN npm run build && npm prune --production'
+  - '  # Runner'
+  - '  FROM gcr.io/distroless/nodejs20-debian12'
+  - '  WORKDIR /app'
+  - '  COPY --from=builder /app/dist ./dist'
+  - '  COPY --from=builder /app/node_modules ./node_modules'
+  - '  COPY --from=builder /app/package.json ./'
+  - '  USER nonroot:nonroot'
+  - '  EXPOSE 3000'
+  - '  CMD ["dist/main.js"]'
+  - '  ```'
+  - '- PM2 配置片段：'
+  - '  ```js'
+  - '  module.exports = {'
+  - '    apps: [{'
+  - '      name: ''bff-api'','
+  - '      script: ''dist/main.js'','
+  - '      instances: ''max'','
+  - '      exec_mode: ''cluster'','
+  - '      env_production: { NODE_ENV: ''production'', PORT: 3000 },'
+  - '      error_file: ''/dev/null'','
+  - '      out_file: ''/dev/null'','
+  - '      log_type: ''json'','
+  - '      merge_logs: true'
+  - '    }]'
+  - '  };'
+  - '  ```'
+  - '**边界条件**'
+  - '- Kubernetes 原生部署时，可省略 PM2，直接用 `Deployment` + `HPA` + `livenessProbe`/`readinessProbe`/`startupProbe`
+    原生编排，容器内单进程运行即可'
+  - '- Serverless 场景（Vercel/Cloudflare Workers/AWS Lambda）无需 Docker/PM2，适配平台运行时入口（`export
+    default handler`），关注冷启动优化与连接池复用'
+  - '- 遗留系统无法容器化时，至少强制要求：PM2 守护进程、Nginx 反代、systemd 服务化、日志切割、定时备份数据库，建立最低可运维基线'
+  sources:
+  - paper: 20230418_044.md
+    role: origin
+  excerpts:
+  - 编写生产级 Dockerfile、PM2 生态配置文件、`/health` 存活/就绪探针、Winston 结构化日志、Prometheus 指标暴露。
+  - 部署与运维：Docker 多阶段构建、PM2 集群模式、健康检查、日志聚合与 Prometheus 监控。
+- 'no': 5
+  name: 全栈应用骨架 —— SSR/SSG/ISR 与 BFF 的端到端类型共享
+  points:
+  - '**为什么需要这个概念？**'
+  - '- 纯 SPA 首屏白屏时间长、SEO 差、社交分享无预览，必须引入服务端渲染（SSR）或静态生成（SSG/ISR）'
+  - '- 前后端类型分离导致接口联调频繁报错、重复定义 DTO/VO，急需端到端类型安全：数据库 Schema → Prisma → BFF API → 前端
+    Hooks 单一事实来源'
+  - '- 现有脚手架（Next.js/Nuxt 3）虽支持全栈，但 BFF 独立部署、多仓库协作、微服务聚合场景下，需明确边界与集成模式'
+  - '**核心定义**'
+  - '- 全栈骨架 = 前端框架（Next.js App Router / Nuxt 3）+ BFF 层（NestJS/独立服务）+ 共享类型包（`@repo/types`）+
+    统一构建发布流水线'
+  - '- 渲染策略矩阵：首页/营销页用 SSG（构建时生成 HTML）、商品详情/博客用 ISR（增量静态再生、按需重新生成）、个性化仪表盘/后台用 SSR（请求时渲染）、高交互组件用
+    CSR（`use client`/`<ClientOnly>`）'
+  - '**关键性质**'
+  - '- 类型共享管线：`prisma generate` → `openapi-typescript` 生成 BFF API 类型 → `pnpm publish
+    @repo/types` → 前端 `import { paths } from ''@repo/types''` 实现 `fetch(''/api/users'').then(res
+    => res.json())` 完全类型推导'
+  - '- 数据获取分层：服务端组件直接调用 Prisma/内部服务（绕过 HTTP），客户端组件通过 SWR/TanStack Query 调用 BFF REST
+    API，统一错误/Loading/缓存策略'
+  - '- 流式渲染与 Suspense：Next.js `app/dashboard/page.tsx` 并行 `await Promise.all([getUser(),
+    getOrders()])`，外层 `<Suspense fallback={<Skeleton />}>` 实现分块流式下发，TTFB 极致优化'
+  - '- 认证态同步：BFF 签发 HttpOnly Secure SameSite=Lax Cookie，前端框架中间件 `middleware.ts` 读取
+    Cookie 验证 JWT、刷新 Token，SSR 与客户端导航复用同一认证上下文'
+  - '**典型例子**'
+  - '- 电商商品详情页（ISR）：`export const revalidate = 3600`，`generateStaticParams` 预渲染热门
+    SKU，`getProduct(skuId)` 服务端直连 Prisma 查询，`fetch(''/api/reviews'', { next: { revalidate:
+    60 } })` 客户端增量获取评价，`next/image` 自动优化图片'
+  - '- 管理后台仪表盘（SSR）：`getServerSideProps` / `async function Page() { const session
+    = await auth(); const data = await fetchBFF(''/api/admin/stats'', { headers: {
+    cookie } }) }`，服务端注入初始状态，客户端 `useSWR(''/api/admin/stats'')` 接管后续交互'
+  - '**边界条件**'
+  - '- 静态资源 CDN 缓存冲突：ISR 更新需配合 `x-prerender-revalidate` 头或 Webhook 触发 CDN 刷新，避免用户访问旧版本
+    HTML'
+  - '- BFF 与前端同仓 vs 分仓：单团队全栈建议 Monorepo 共享类型、原子提交；多团队协作建议分仓，通过 npm 私服发布 `@org/bff-client-sdk`、`@org/ui-types`
+    版本化依赖'
+  - '- 边缘运行时限制：Vercel Edge / Cloudflare Workers 无 Node.js 原生模块（`fs`/`crypto`/`child_process`），Prisma、部分
+    npm 包不可用，需评估迁移成本或回退 Node.js Runtime'
+  sources:
+  - paper: 20230418_044.md
+    role: origin
+  excerpts:
+  - 整合 Next.js/Nuxt 3 或 Vite SSR + NestJS BFF，实现首屏服务端渲染、静态生成、增量静态再生、统一类型共享。
+  - 实战：从零搭建支持 SSR/SSG/ISR 的全栈应用骨架。
+'no': 11
