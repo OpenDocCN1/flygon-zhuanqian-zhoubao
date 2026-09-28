@@ -1,0 +1,1167 @@
+learning_targets:
+- 理解跨端开发四大架构范式的核心差异与适用边界
+- 掌握 React Native 新架构中 Fabric、TurboModules、Hermes 与 JSI 的协作原理
+- 剖析 Flutter 三棵树协作机制及 Impeller 渲染管线的性能优势
+- 理解 Uni-app/Taro 编译时多端统一的 DSL 约束、条件编译与 API 抹平机制
+- 能设计原生应用嵌入 RN/Flutter 模块的 Brownfield 混合栈共存架构
+- 能根据业务形态、团队技术栈、性能要求制定跨端技术选型决策
+- 掌握 AI 辅助内容生产（ChatGPT/RPA）在跨端开发中的落地应用
+- 理解跨端技术选型中的平台风险（如小程序审核、App Store 政策）与合规策略
+concept_map:
+- 跨端开发技术选型与架构演进
+- ├── 四大架构范式对决
+- │   ├── Hybrid/WebView 容器        —— P001, P003, P007
+- │   ├── 小程序/双线程模型          —— P001, P020, P061, P062, P063, P067, P068, P094, P118,
+  P122, P124, P129, P132, P133, P145, P149, P151
+- │   ├── 原生渲染/JS 运行时         —— P001, P002, P036, P037, P040, P042, P056, P070, P105,
+  P106, P107, P108, P110, P121, P130, P138, P141, P157
+- │   └── AOT 编译/自绘引擎          —— P001, P003, P048, P049, P050, P072, P088, P119,
+  P120, P123, P125, P126, P127, P143, P147
+- ├── React Native 新架构深度
+- │   ├── JSI (JavaScript Interface) —— P002, P036, P040, P042, P105, P106, P140
+- │   ├── Fabric 同步渲染系统        —— P002, P036, P140
+- │   ├── TurboModules 惰性加载      —— P002, P036, P140
+- │   ├── Codegen 类型安全桥接       —— P002, P036
+- │   └── Hermes 字节码预编译引擎    —— P002, P036, P140
+- ├── Flutter 渲染管线
+- │   ├── Widget/Element/RenderObject 三棵树 —— P003, P072, P119, P120
+- │   ├── Build/Layout/Paint/Composite 流程 —— P003, P072
+- │   ├── Skia vs Impeller 后端差异        —— P003, P072, P119, P120
+- │   ├── Isolate 并发与 Platform Channel  —— P003, P072
+- │   └── Dart 空安全与语言特性            —— P072, P119, P120
+- ├── 编译时多端统一
+- │   ├── DSL 约束与静态分析           —— P004, P021, P039, P118, P122, P124, P133, P145,
+  P151
+- │   ├── 条件编译机制                 —— P004, P021, P039, P118, P122, P124, P133, P145,
+  P151
+- │   ├── 统一 API 抹平层              —— P004, P021, P039, P118, P122, P124, P133, P145,
+  P151
+- │   ├── 编译器插件化管线             —— P004, P021, P039, P118, P122, P124, P133, P145,
+  P151
+- │   └── 跨端 AI 内容生产 (ChatGPT/RPA)  —— P005, P037, P039, P044, P045, P046, P105, P106,
+  P107, P108, P110, P121, P124, P130, P138, P141, P157
+- ├── 混合栈共存架构
+- │   ├── Brownfield 集成模式         —— P005, P023, P042, P043, P074, P075, P076, P077,
+  P078, P088, P089, P101, P102, P103, P104, P111, P112, P113, P123, P124, P126, P129,
+  P130, P147
+- │   ├── 分层架构：Native Shell + Module + Shared Logic —— P005, P023, P042, P043, P074,
+  P075, P076, P077, P078, P088, P089, P101, P102, P103, P104, P111, P112, P113, P123,
+  P124, P126, P129, P130, P147
+- │   ├── 通信桥接与导航融合           —— P005, P023, P042, P043, P074, P075, P076, P077, P078,
+  P088, P089, P101, P102, P103, P104, P111, P112, P113, P123, P124, P126, P129, P130,
+  P147
+- │   ├── 热更新与依赖治理             —— P005, P023, P042, P043, P074, P075, P076, P077,
+  P078, P088, P089, P101, P102, P103, P104, P111, P112, P113, P123, P124, P126, P129,
+  P130, P147
+- │   ├── 三端代码复用策略             —— P005, P023, P042, P043, P074, P075, P076, P077,
+  P078, P088, P089, P101, P102, P103, P104, P111, P112, P113, P123, P124, P126, P129,
+  P130, P147
+- │   └── 平台风险与合规策略           —— P005, P023, P042, P043, P044, P045, P046, P074, P075,
+  P076, P077, P078, P088, P089, P101, P102, P103, P104, P111, P112, P113, P123, P124,
+  P126, P129, P130, P131, P147
+- └── 跨端技术选型决策框架
+- '    ├── 业务形态匹配度评估           —— P001, P002, P003, P004, P005'
+- '    ├── 团队技术栈契合度分析         —— P001, P002, P003, P004, P005'
+- '    ├── 性能要求与体验指标量化       —— P001, P002, P003, P004, P005'
+- '    ├── 生态成熟度与长期维护成本     —— P001, P002, P003, P004, P005'
+- '    └── AI 工具链赋能开发效能        —— P005, P037, P039, P044, P045, P046, P105, P106,
+  P107, P108, P110, P121, P124, P130, P138, P141, P157'
+life_analogy:
+- 想象跨端开发是**一家想要全球开连锁店的餐厅集团** ：
+- '- **Hybrid/WebView** = **外卖加盟模式**：把菜单（Web页面）发给当地食堂（WebView）做，食堂设备不统一（内核碎片化），菜品口味（体验）漂移大，但开店最快、成本最低。'
+- '- **小程序/双线程** = **商场柜台模式**：商场（宿主环境）提供统一装修标准（基础库）和收银系统（原生能力），你只管配菜单（逻辑层）和摆盘（视图层），但柜台面积有限（包体积2M），不能用明火（无完整DOM/BOM）。'
+- '- **React Native (新架构)** = **中央厨房预制菜+同城配送**：中央厨房（JS线程/JSI）统一研发标准菜谱（组件），通过高速专线（Fabric同步渲染）直达门店后厨（Native渲染器）出品，按需开启配送线路，保证口味一致且上菜快。'
+- '- **Flutter/KMP** = **自带厨房设备的标准化门店**：连锁总部（Flutter Engine/Dart AOT）统一配发全套厨具（Skia/Impeller绘制引擎）和标准操作手册（Widget），不依赖当地食堂设备，哪家门店做出来的菜（像素）都一模一样。'
+- '- **Uni-app/Taro** = **万能菜谱翻译官**：你写一份通用菜谱（Vue/React DSL），翻译官（编译器）自动把它翻成肯德基格式、麦当劳格式、本地小吃街格式，还能根据门店设备（条件编译）微调做法。'
+- '- **混合栈** = **老店翻新不歇业**：老字号（原生App）不想全拆重建，就在后院盖个标准化中央厨房模块，新菜品（新业务）在新厨房做，老招牌菜（核心链路）老厨房做，共用一套食材仓库和收银系统。'
+- '- **AI 辅助开发** = **智能中央厨房机器人**：ChatGPT/RPA 等 AI 工具作为“超级备菜员”，根据标准菜谱（Prompt/SOP）批量生产半成品（代码/文案/图片），主厨（开发者）只需把关质量、组装摆盘，大幅提升出菜速度与一致性。'
+- '- **平台合规** = **食品安全监管红线**：小程序审核、App Store 政策如同卫生许可证，跨端方案必须内置“合规基因”（隐私合规、API 合规、内容安全），否则面临“关店整顿”（下架、封号）风险。'
+summary:
+- concept: 四大架构范式
+  desc: 按渲染归属与通信机制分类：Hybrid、小程序、原生渲染、AOT自绘，性能与体验呈阶梯分布
+- concept: JSI
+  desc: RN新架构基石，C++层直接持有JS对象引用，实现同步、双向、类型安全的跨语言调用，替代异步Bridge
+- concept: Fabric
+  desc: 基于JSI的C++同步渲染器，统一渲染逻辑，支持同步布局、并发特性、跨平台行为一致
+- concept: TurboModules
+  desc: 新一代Native模块系统，支持惰性加载、同步调用、HostObject、Codegen自动生成类型安全存根
+- concept: Hermes
+  desc: 字节码预编译JS引擎，AOT减少启动解析开销，mmap内存映射、GC优化，适配移动端资源受限环境
+- concept: 三棵树
+  desc: Flutter运行时核心：Widget(配置描述) -> Element(实例/复用/Diff) -> RenderObject(布局/绘制/语义)
+- concept: Impeller
+  desc: Flutter新渲染后端，AOT编译着色器、显式管线状态、现代GPU API，解决Skia运行时编译导致的首帧抖动
+- concept: DSL约束
+  desc: Uni-app/Taro限制Vue/React语法子集，保证模板可静态分析、可编译转译为目标平台原生代码
+- concept: 条件编译
+  desc: 编译期根据目标平台裁剪/注入差异代码，实现同一代码库多端差异化适配
+- concept: 统一API抹平层
+  desc: uni.xxx/Taro.xxx运行时适配器，桥接平台差异（请求/存储/导航/蓝牙等），暴露统一Promise风格接口
+- concept: Brownfield集成
+  desc: 原生App作为宿主壳嵌入RN/Flutter模块，实现渐进式迁移、共存共治、三端代码复用
+- concept: 三端代码复用策略
+  desc: 业务逻辑层跨端复用（TS/Dart/Kotlin/Rust+Wasm），UI层各自维护配合设计令牌，API层Schema生成类型安全Client
+- concept: 跨端AI内容生产
+  desc: ChatGPT/RPA等AI工具深度嵌入选品、文案、制图、视频剪辑、客服、数据分析等全链路，实现降本增效与规模化复制
+- concept: 平台风险与合规
+  desc: 小程序审核、App Store政策、数据隐私合规等构成跨端开发的“合规红线”，需内置合规基因与风控机制
+exercises:
+- 'no': 1
+  title: 跨端技术选型决策演练
+  contents:
+  - 场景：某电商 App 计划重构“个人中心”模块（低频、表单密集、依赖原生相册/定位/支付），并新建“直播带货”模块（高帧率动画、弱网优先、复杂手势交互、Web/H5/小程序/APP
+    四端同步上线）。团队主力技术栈为 React + TypeScript，无 Dart/Kotlin 经验，原生 iOS/Android 开发资源极少。
+  - 任务：
+  - 1. 分别为两个模块推荐最适合的跨端方案，并列出核心理由（渲染性能、开发体验、平台一致性、原生互操作、团队学习成本、包体积）。
+  - 2. 分析如果选择 React Native 新架构开发“直播带货”，迁移旧架构第三方原生模块（如推流 SDK）到 TurboModules 可能遇到的三大工程风险。
+  - 3. 若决定用 Uni-app 做“直播带货”四端统一，针对“高帧率动画”在小程序端的性能瓶颈，提出两种编译期或运行期优化手段。
+  - 4. 设计一个 AI 辅助工作流（ChatGPT/RPA），用于跨端项目中“个人中心”表单页面的代码生成、测试用例生成、多端适配代码转译，并说明如何通过 Prompt
+    Engineering 保证生成代码的类型安全与平台规范性。
+- 'no': 2
+  title: Flutter 三棵树与渲染管线手动推演
+  contents:
+  - 给定 Flutter 代码片段：
+  - '```dart'
+  - class Counter extends StatefulWidget {
+  - '  @override'
+  - '  _CounterState createState() => _CounterState();'
+  - '}'
+  - class _CounterState extends State<Counter> {
+  - '  int _count = 0;'
+  - '  @override'
+  - '  Widget build(BuildContext context) {'
+  - '    return Column(key: Key(''col''), children: ['
+  - '      Text(''Count: $_count'', key: Key(''text'')),'
+  - '      ElevatedButton(key: Key(''btn''), onPressed: () => setState(() => _count++),
+    child: Text(''+1''))'
+  - '    ]);'
+  - '  }'
+  - '}'
+  - '```'
+  - 任务：
+  - 1. 绘制初次 build 后的 Widget Tree、Element Tree、RenderObject Tree 结构图（标注类型、Key、父子关系）。
+  - 2. 用户点击按钮触发 `setState`，`_count` 变为 1，描述 Element Tree 的 Diff 复用过程：哪些 Element 被复用？哪些被标记
+    dirty？RenderObject Tree 如何变化？
+  - 3. 解释为何 `RepaintBoundary` 能隔离重绘范围，并结合 Layer/Composite 阶段说明其原理。
+  - 4. 对比 Skia 与 Impeller 在首帧渲染该按钮阴影效果时的着色器处理差异。
+  - 5. 设计一个 AI Agent（基于 ReAct 模式），自动分析 Flutter 性能分析工具导出的 Timeline 数据，定位 UI 卡顿根因并输出优化建议报告。
+- 'no': 3
+  title: 混合栈共存架构落地方案设计
+  contents:
+  - 背景：某超级 App（原生 iOS/Android，数百万行代码）决定引入 Flutter 承接“短视频流”新业务，要求：
+  - '- 原生 Tab 栏保持不动，点击“视频”Tab 进入 Flutter 页面栈。'
+  - '- Flutter 页面需复用原生登录态、网络库（OkHttp/URLSession）、埋点 SDK、图片加载库。'
+  - '- 支持 Flutter 模块热更新，绕过应用商店审核。'
+  - '- CI/CD 流水线需同时产出原生基线包、Flutter 模块产物（AAR/Framework）、热更新补丁包。'
+  - 任务：
+  - 1. 设计 Native Shell 与 Flutter Module 的通信协议契约（MethodChannel / Pigeon / FFI 任选其一），定义：初始化参数传递、路由跳转、登录态同步、网络请求代理、埋点上报
+    5 个核心接口的 Dart 与 Native 签名。
+  - 2. 制定依赖治理策略：原生网络库/图片库如何以“单例服务”形式暴露给 Flutter 使用，避免重复实现与冲突？
+  - 3. 设计导航融合方案：原生路由栈如何管理 Flutter 页面？Flutter 内部 Navigator 与原生 UINavigationController/FragmentManager
+    如何双向同步？返回手势、系统 Back 键如何统一拦截？
+  - 4. 规划热更新落地：Shorebird / 自建方案的差异对比，补丁包下发、校验、加载、回滚的完整流程与风控策略。
+  - 5. 列出该架构引入的 3 类典型崩溃场景及跨语言堆栈定位调试方案。
+  - 6. 基于 Pigeon 协议生成的 Dart/原生接口代码，设计一个 RPA 流程，自动化完成：接口变更检测 -> 代码重新生成 -> 单元测试执行 ->
+    回归测试报告生成。
+- 'no': 4
+  title: Uni-app 条件编译与平台差异抹平实战
+  contents:
+  - 需求：开发一个“海报生成器”组件，需在 H5、微信小程序、App（iOS/Android）三端运行。核心功能：Canvas 绘制文本/图片/二维码 -> 保存本地相册/预览
+    -> 分享给好友。
+  - 任务：
+  - 1. 编写条件编译代码骨架，分别实现三端 Canvas 绘制上下文获取（`uni.createCanvasContext` vs `CanvasRenderingContext2D`
+    vs `OffscreenCanvas`）、图片下载（`uni.downloadFile` vs `fetch`/blob）、保存相册（`uni.saveImageToPhotosAlbum`
+    vs `a[download]` vs 相册权限申请）的差异化逻辑。
+  - 2. 分析微信小程序端 `Canvas 2D` 接口与 H5 标准 `CanvasRenderingContext2D` 的行为差异（如 `measureText`
+    返回值、路径闭合、像素比处理），并给出兼容性封装策略。
+  - 3. 小程序端包体积超 2M 主包限制，设计分包策略：海报生成器作为分包，主包仅保留登录/首页，分包预加载时机配置。
+  - 4. 列举 3 个 Uni-app 编译器常见破坏性变更案例（版本升级导致的语法不兼容/生命周期时机变化/组件属性废弃），并制定版本锁定与升级测试规范。
+  - 5. 利用 ChatGPT 编写 Prompt，自动生成 Uni-app 条件编译代码模板（含 Canvas/图片/相册/分享等高频 API 的三端实现），并设计
+    RPA 流程批量验证生成代码在三端真机上的运行结果。
+- 'no': 5
+  title: 跨端技术选型综合实战：AI 赋能的决策模拟
+  contents:
+  - 场景：某创业团队计划开发“智能家居控制面板”应用，需支持 iOS/Android/App/小程序/H5 五端，核心功能：设备实时状态同步（MQTT/WebSocket）、复杂动画交互、语音控制集成、本地离线缓存。团队
+    3 人，栈为 React/TypeScript/Node.js，预算有限，6 周上线。
+  - 任务：
+  - 1. 基于本章概念图谱，建立加权评分模型（权重：渲染性能 25%、开发效率 20%、平台一致性 15%、原生能力 15%、学习成本 10%、包体积 10%、AI工具链支持
+    5%），对 Uni-app、Taro、React Native、Flutter、KMP 进行量化打分并推荐最优方案。
+  - 2. 针对推荐方案，设计“AI 辅助开发基建”：包含 Prompt 模板库（组件/页面/接口/测试）、RPA 自动化流水线（代码生成->类型检查->多端编译->真机同步）、ChatGPT
+    Code Review 机器人配置。
+  - 3. 识别所选方案在“语音控制集成”、“MQTT 连接保活”、“小程序包体积限制”三个高风险点上的具体缓解措施，并制定应急预案。
+  - 4. 撰写一份《跨端技术选型 ADR》（Architecture Decision Record），包含背景、决策、替代方案、后果、合规性评估、AI工具链治理规范。
+units:
+- 'no': 1
+  name: 跨端技术谱系图 —— WebView、JS Bridge、原生渲染与 AOT 编译的四大范式对决
+  points:
+  - '**为什么需要这个概念？**'
+  - '- 移动端开发面临 iOS/Android 双平台维护成本高、Web 技术栈复用难、性能与体验难以平衡的核心矛盾'
+  - '- 理解不同跨端方案的底层架构差异（渲染层、通信层、执行层），是技术选型避坑的前提'
+  - '- 避免盲目跟风选型，建立基于业务形态、团队技术栈、性能要求的理性决策框架'
+  - '**核心定义**'
+  - '- 跨端技术谱系按“渲染引擎归属”与“通信机制”可划分为四大架构范式：'
+  - '  1. Hybrid/WebView 容器：UI 由 WebView 渲染，通过 JS Bridge 与 Native 通信（如 Cordova、早期微信小程序基座）'
+  - '  2. 小程序/双线程模型：逻辑层（JS 核心）与视图层（WebView/Native）分离，通过数据绑定与事件通信驱动（如微信小程序、Uni-app
+    编译输出）'
+  - '  3. 原生渲染/JS 运行时：JS 线程驱动 Native 布局引擎渲染，通过 Bridge/JSI 通信（如 React Native 旧/新架构、Weex）'
+  - '  4. AOT 编译/自绘引擎：Dart 代码 AOT 编译为机器码，Skia/Impeller 直接绘制像素，无 JS 运行时（如 Flutter、Kotlin
+    Multiplatform Compose）'
+  - '**关键性质**'
+  - '- 渲染性能阶梯：AOT 自绘 (Flutter) ≈ 原生 > 原生渲染 (RN 新架构) > 小程序/双线程 > Hybrid/WebView'
+  - '- 开发体验与生态：Web 技术栈复用度 Hybrid > 小程序 ≈ RN > Flutter (需学 Dart) > KMP'
+  - '- 平台一致性：Flutter/KMP (像素级一致) > RN (依赖平台原生组件差异) > 小程序 (受宿主环境限制大) > Hybrid (受 WebView
+    内核版本碎片化影响)'
+  - '- 与原生互操作成本：KMP (原生互操作零成本) > RN (JSI/TurboModules 低开销) > 小程序 (受限于 Bridge/基础库能力)
+    > Hybrid (Bridge 延迟高、易阻塞)'
+  - '**典型例子**'
+  - '- 电商大促会场页：高频变动、弱交互、强跨平台一致性要求 → 选 Hybrid/小程序/Uni-app'
+  - '- 核心交易链路/IM/直播：高性能、强交互、复杂动画、深度原生能力依赖 → 选 RN 新架构/Flutter/KMP/原生'
+  - '- 企业内部管理后台/工具类应用：开发效率优先、UI 标准化、团队仅 Web 技术栈 → 选 Uni-app/Taro/小程序'
+  - '- 跨平台组件库建设：需同时产出 Web/H5/小程序/APP 组件 → 选 Uni-app/Taro 编译时多端统一'
+  - '**边界条件**'
+  - '- 纯 WebView 方案无法胜任高帧率动画、复杂手势、后台长任务等场景'
+  - '- 小程序受限于包体积限制（主包 2M）、基础库版本碎片化、无法使用完整 DOM/BOM API'
+  - '- React Native 旧架构 Bridge 通信异步导致掉帧，新架构 Fabric/JSI 迁移成本高、生态包兼容性风险大'
+  - '- Flutter 体积基线大（Hello World ~5-10MB）、Dart 语言学习曲线、三方原生 SDK 接入需编写 Platform Channel
+    胶水代码'
+  - '- Kotlin Multiplatform 仅共享业务逻辑/UI 需 Compose Multiplatform 成熟度尚在演进中、iOS 侧为 Kotlin/Native
+    非 JVM 生态'
+  - '- 跨端 AI 工具链（ChatGPT/RPA）可显著提升代码生成、测试、文档编写效率，但需警惕幻觉与平台特定 API 的不准确调用'
+  - '- 平台政策（小程序审核、App Store 上架规则、隐私合规）是跨端方案落地的硬性约束，必须纳入技术选型决策矩阵'
+  sources:
+  - paper: 20230418_001.md
+    role: origin
+  - paper: 20230418_003.md
+    role: origin
+  - paper: 20230418_007.md
+    role: origin
+  - paper: 20230418_020.md
+    role: origin
+  - paper: 20230418_033.md
+    role: origin
+  - paper: 20230418_048.md
+    role: origin
+  - paper: 20230418_049.md
+    role: origin
+  - paper: 20230418_050.md
+    role: origin
+  - paper: 20230418_060.md
+    role: origin
+  - paper: 20230418_061.md
+    role: origin
+  - paper: 20230418_062.md
+    role: origin
+  - paper: 20230418_063.md
+    role: origin
+  - paper: 20230418_066.md
+    role: origin
+  - paper: 20230418_067.md
+    role: origin
+  - paper: 20230418_068.md
+    role: origin
+  - paper: 20230418_070.md
+    role: origin
+  - paper: 20230418_071.md
+    role: origin
+  - paper: 20230418_072.md
+    role: origin
+  - paper: 20230418_073.md
+    role: origin
+  - paper: 20230418_074.md
+    role: origin
+  - paper: 20230418_075.md
+    role: origin
+  - paper: 20230418_076.md
+    role: origin
+  - paper: 20230418_077.md
+    role: origin
+  - paper: 20230418_078.md
+    role: origin
+  - paper: 20230418_079.md
+    role: origin
+  - paper: 20230418_080.md
+    role: origin
+  - paper: 20230418_081.md
+    role: origin
+  - paper: 20230418_082.md
+    role: origin
+  - paper: 20230418_083.md
+    role: origin
+  - paper: 20230418_084.md
+    role: origin
+  - paper: 20230418_085.md
+    role: origin
+  - paper: 20230418_086.md
+    role: origin
+  - paper: 20230418_087.md
+    role: origin
+  - paper: 20230418_088.md
+    role: origin
+  - paper: 20230418_089.md
+    role: origin
+  - paper: 20230418_090.md
+    role: origin
+  - paper: 20230418_091.md
+    role: origin
+  - paper: 20230418_092.md
+    role: origin
+  - paper: 20230418_093.md
+    role: origin
+  - paper: 20230418_094.md
+    role: origin
+  - paper: 20230418_095.md
+    role: origin
+  - paper: 20230418_096.md
+    role: origin
+  - paper: 20230418_097.md
+    role: origin
+  - paper: 20230418_098.md
+    role: origin
+  - paper: 20230418_099.md
+    role: origin
+  - paper: 20230418_100.md
+    role: origin
+  - paper: 20230418_101.md
+    role: origin
+  - paper: 20230418_102.md
+    role: origin
+  - paper: 20230418_103.md
+    role: origin
+  - paper: 20230418_104.md
+    role: origin
+  - paper: 20230418_105.md
+    role: origin
+  - paper: 20230418_106.md
+    role: origin
+  - paper: 20230418_107.md
+    role: origin
+  - paper: 20230418_108.md
+    role: origin
+  - paper: 20230418_109.md
+    role: origin
+  - paper: 20230418_110.md
+    role: origin
+  - paper: 20230418_111.md
+    role: origin
+  - paper: 20230418_112.md
+    role: origin
+  - paper: 20230418_113.md
+    role: origin
+  - paper: 20230418_114.md
+    role: origin
+  - paper: 20230418_115.md
+    role: origin
+  - paper: 20230418_116.md
+    role: origin
+  - paper: 20230418_117.md
+    role: origin
+  - paper: 20230418_118.md
+    role: origin
+  - paper: 20230418_119.md
+    role: origin
+  - paper: 20230418_120.md
+    role: origin
+  - paper: 20230418_121.md
+    role: origin
+  - paper: 20230418_122.md
+    role: origin
+  - paper: 20230418_123.md
+    role: origin
+  - paper: 20230418_124.md
+    role: origin
+  - paper: 20230418_125.md
+    role: origin
+  - paper: 20230418_126.md
+    role: origin
+  - paper: 20230418_127.md
+    role: origin
+  - paper: 20230418_128.md
+    role: origin
+  - paper: 20230418_129.md
+    role: origin
+  - paper: 20230418_130.md
+    role: origin
+  - paper: 20230418_131.md
+    role: origin
+  - paper: 20230418_132.md
+    role: origin
+  - paper: 20230418_133.md
+    role: origin
+  - paper: 20230418_134.md
+    role: origin
+  - paper: 20230418_135.md
+    role: origin
+  - paper: 20230418_136.md
+    role: origin
+  - paper: 20230418_137.md
+    role: origin
+  - paper: 20230418_138.md
+    role: origin
+  - paper: 20230418_139.md
+    role: origin
+  - paper: 20230418_140.md
+    role: origin
+  - paper: 20230418_141.md
+    role: origin
+  - paper: 20230418_142.md
+    role: origin
+  - paper: 20230418_143.md
+    role: origin
+  - paper: 20230418_144.md
+    role: origin
+  - paper: 20230418_145.md
+    role: origin
+  - paper: 20230418_146.md
+    role: origin
+  - paper: 20230418_147.md
+    role: origin
+  - paper: 20230418_148.md
+    role: origin
+  - paper: 20230418_149.md
+    role: origin
+  - paper: 20230418_150.md
+    role: origin
+  - paper: 20230418_151.md
+    role: origin
+  - paper: 20230418_152.md
+    role: origin
+  - paper: 20230418_153.md
+    role: origin
+  - paper: 20230418_154.md
+    role: origin
+  - paper: 20230418_155.md
+    role: origin
+  - paper: 20230418_156.md
+    role: origin
+  - paper: 20230418_157.md
+    role: origin
+  - paper: 20230418_158.md
+    role: origin
+  - paper: 20230418_002.md
+    role: improve
+  - paper: 20230418_004.md
+    role: improve
+  - paper: 20230418_005.md
+    role: improve
+  - paper: 20230418_006.md
+    role: improve
+  - paper: 20230418_008.md
+    role: improve
+  - paper: 20230418_009.md
+    role: improve
+  - paper: 20230418_010.md
+    role: improve
+  - paper: 20230418_011.md
+    role: improve
+  - paper: 20230418_012.md
+    role: improve
+  - paper: 20230418_013.md
+    role: improve
+  - paper: 20230418_014.md
+    role: improve
+  - paper: 20230418_015.md
+    role: improve
+  - paper: 20230418_016.md
+    role: improve
+  - paper: 20230418_017.md
+    role: improve
+  - paper: 20230418_018.md
+    role: improve
+  - paper: 20230418_019.md
+    role: improve
+  - paper: 20230418_021.md
+    role: improve
+  - paper: 20230418_022.md
+    role: improve
+  - paper: 20230418_023.md
+    role: improve
+  - paper: 20230418_024.md
+    role: improve
+  - paper: 20230418_025.md
+    role: improve
+  - paper: 20230418_026.md
+    role: improve
+  - paper: 20230418_027.md
+    role: improve
+  - paper: 20230418_028.md
+    role: improve
+  - paper: 20230418_029.md
+    role: improve
+  - paper: 20230418_030.md
+    role: improve
+  - paper: 20230418_031.md
+    role: improve
+  - paper: 20230418_032.md
+    role: improve
+  - paper: 20230418_034.md
+    role: improve
+  - paper: 20230418_035.md
+    role: improve
+  - paper: 20230418_036.md
+    role: improve
+  - paper: 20230418_037.md
+    role: improve
+  - paper: 20230418_038.md
+    role: improve
+  - paper: 20230418_039.md
+    role: improve
+  - paper: 20230418_040.md
+    role: improve
+  - paper: 20230418_041.md
+    role: improve
+  - paper: 20230418_042.md
+    role: improve
+  - paper: 20230418_043.md
+    role: improve
+  - paper: 20230418_044.md
+    role: improve
+  - paper: 20230418_045.md
+    role: improve
+  - paper: 20230418_046.md
+    role: improve
+  - paper: 20230418_047.md
+    role: improve
+  - paper: 20230418_051.md
+    role: improve
+  - paper: 20230418_052.md
+    role: improve
+  - paper: 20230418_053.md
+    role: improve
+  - paper: 20230418_054.md
+    role: improve
+  - paper: 20230418_055.md
+    role: improve
+  - paper: 20230418_056.md
+    role: improve
+  - paper: 20230418_057.md
+    role: improve
+  - paper: 20230418_058.md
+    role: improve
+  - paper: 20230418_059.md
+    role: improve
+  - paper: 20230418_064.md
+    role: improve
+  - paper: 20230418_065.md
+    role: improve
+  - paper: 20230418_069.md
+    role: improve
+  - paper: 20230418_078.md
+    role: improve
+  - paper: 20230418_115.md
+    role: improve
+  - paper: 20230418_116.md
+    role: improve
+  - paper: A47Vd3fekoelzRxZpdUcTl9Cn7W.md
+    role: improve
+  - paper: A4UGdiBqBoH4T0xnkW5c0Nxtnkh.md
+    role: improve
+  - paper: AiCrd19EAoPvvPx0HSJczxk3nfC.md
+    role: improve
+  - paper: AnkEdEtEtoXIbexWlQ3cL6zenFf.md
+    role: improve
+  - paper: AsUTdfb1ioXlpLxltn4cbMfcnNd.md
+    role: improve
+  - paper: B95VdtwByoPXGoxac7Ec1KhQnwc.md
+    role: improve
+  - paper: ByU7dOhOUorzQqxgGilcS463nfd.md
+    role: improve
+  - paper: CQXRd5Lc5ozWjFxwgpgcqmk5nAe.md
+    role: improve
+  - paper: Doxcnk4mqgBMJTv0mklq0eR48fg.md
+    role: improve
+  - paper: EkZTdONM7oPzFvxbfbtcuQ2Unwd.md
+    role: improve
+  - paper: EnMvdgCPboEplRxJPdXcMUrznbf.md
+    role: improve
+  - paper: Efm3dQsmpoUyHxxDPaAcoqXvnVe.md
+    role: improve
+  - paper: ETU6dd94wo3ZlMxst46cnwgZn5g.md
+    role: improve
+  - paper: FCc1dPLOBosBQIxNgAgctIgDnLg.md
+    role: improve
+  - paper: FgeSdrK4no16NRxepk5cnXUVnvf.md
+    role: improve
+  - paper: GpUodUFZHoULIGxKxtYckwI9ncg.md
+    role: improve
+  - paper: HgjLdWdxHo8ezoxv9iLc4HSwnAh.md
+    role: improve
+  - paper: IwUDdGvHhojaL2xwtUzc6YyZnHh.md
+    role: improve
+  - paper: K3oEdbAo1o5fq4xlSf3cOhkMnrg.md
+    role: improve
+  - paper: KJ0CdYG18oMFStxpa17cxS0wnyt.md
+    role: improve
+  - paper: LE3Ad03QAoTJWWxZ8jBcFBKXnEy.md
+    role: improve
+  - paper: NEG3dqx6qoyB46xIZsEcw2nLnCb.md
+    role: improve
+  - paper: NlqtdIqRboDI0nx8PeccsB8gneh.md
+    role: improve
+  - paper: PbGkdX4YVoO02mxYlYKcbgASnSg.md
+    role: improve
+  - paper: PU9Id4IPMoZ3QdxLzZUcEPBRnWO.md
+    role: improve
+  - paper: QhJudGRcgoQlxGxYU67cndJenjh.md
+    role: improve
+  - paper: QRqzdIpMfoxvgfxDXO7cMOLunzg.md
+    role: improve
+  - paper: QnHidA4fvoDNL9x9hSHcPJGqnjc.md
+    role: improve
+  - paper: RBo6dSQZnoLZkaxn7eGch1fWnMh.md
+    role: improve
+  - paper: Ro5mdEccUoXd4oxSbzYcZXCrnfh.md
+    role: improve
+  - paper: SFqBdG2bpoLKf8xeOWMcUNxVn4d.md
+    role: improve
+  - paper: SnZDdyUsFoxTP0x9wCPcdAX5nWc.md
+    role: improve
+  - paper: SYkqdYJ4FoEXOlxQpitcWY8Rnqg.md
+    role: improve
+  - paper: THh7dtp6uoEKloxVqwncmmwBn1b.md
+    role: improve
+  - paper: VQuGd5TikoAEaAxqMSJc4gslnye.md
+    role: improve
+  - paper: WhpFdcM8NotQqvxuqIacwEuUnbb.md
+    role: improve
+  - paper: XiwmdQFijotSRAxrBv8c1dLmndr.md
+    role: improve
+  - paper: XxczdnuchoE7JtxZrO8cn4eGncb.md
+    role: improve
+  - paper: YE1FdsTuxoaBbNx4f5dcnSNenxb.md
+    role: improve
+  - paper: Yjt0dfSN8ob6Xgxl9z6ct7Kfnqf.md
+    role: improve
+  excerpts:
+  - 跨端技术谱系图：WebView 容器、JS Bridge、原生渲染、AOT 编译四大架构范式对比
+  - 梳理 Hybrid（WebView+Bridge）、小程序（双线程/虚拟 DOM）、React Native（JS 线程+Fabric）、Flutter（自绘引擎）、Kotlin
+    Multiplatform 核心差异。
+  - 私域的意义不是管理，而是经营。
+  - 失败的这个项目是今年春天我发起的荒野餐桌
+  - 生财有术的“术”是正道，合法合理并且是三观要正。
+  - 私域的意义根本就不是管理，而是『经营』。
+  - 设计即沟通，标志不仅仅是一个符号，更是一种提炼和精简的过程，把最核心的东西通过符号视觉化，并且传达出去。
+  - 我们需要建立漏斗，帮我们筛出合适的项目
+  - 全自动，真批量——ChatGPT 超级写手机器人 1.0
+  - ChatGPT 的调教使用心流法。
+  - 高效对话的六字真经：背景、要求，角色。
+  - 抖音 SEO 航海教学与答疑，跟各位教练一起，帮助 500+名船员深入抖音搜索，拿到成果。
+  - 弹幕游戏直播，这个项目有多火，大家看看生财的风向标就知道了
+  - 通过 AI 技术将已故人的照片和声音合成为一个有声视频，旨在让亲友们更加真实地回忆和怀念他们。
+  - 整体流程：照片-语音合成—DID生成原生视频
+  - 利用 GPT 赋能员工提效，帮我每月多挣 10 万元？
+  - 我司新奇的调教和使用 GPT 的方式
+  - ChatGPT+RPA 实现全自动、真批量的内容生产闭环
+  - 一个人的力量，太薄弱。我找了一批「合伙人」，一起来推生财。
+  - 去年疯狂玩低客单价的案例库（100 元以内），积累了 5000 位付费用户，且都加了微信好友
+  - 陪伴了生财 6 年，也见证了生财的成长。当时说的一些画面都变成了现实。
+  - 只有专注于单一赛道，深耕细作，才能建立护城河。
+  - 通过办理 ICP 备案，挖掘到一个可以长期稳定，月入过万的副业
+  - 如何投资商标实现躺赚几十万+？
+  - Chatgpt Plus 最新保姆级开通教程
+  - 新人，你是不是和我一样有以下表现：精华和风向标看得越来越亢奋，仿佛已经赚到钱；信息输入越来越多，但感觉看了就忘
+  - 赚钱需要具备认知、技能与实战，三者缺少任意一者都无法完成赚钱的路径闭环
+  - 生财有术是一个高效且丰富的信息引擎。
+  - 只有做自己能力范围内的事情，让别人花钱买单的交付物超所值才行，而不是为了赚钱而赚钱的事儿。
+  - 这个版块在生财有术是蓝海，尤其是新手营更少竞争极小，因为高端的社区和新手之间其实是有一个鸿沟的，而我又有这个实力去做好这个板块的补位
+  - 一定要有规划并明确设定每个环节的时间节点。
+  - 我们无论是找项目还是做项目，一定要做自己擅长的事情；
+  - 这个时代无非是赚两种钱，一种是“资源差”的钱，一种是“信息差”的钱；
+  - 无论做什么项目，都一定要有规划，并且要明确设定每个环节的时间节点。
+  - AI 时代，让我们成为先富起来的那波人。
+  - 把所有的训练用提示词分享给大家，直接手把手教大家如何培养 GPT 成为一名最专业的标题党大师。
+  - 用 AI 批量生成内容建设“站群”以获取精准搜索流量并实现商业变现的完整操作体系。
+  - 通过内容安全策略（CSP）、可信类型、Subresource Integrity (SRI) 等手段构建纵深防御体系。
+  - 将原生 App 作为宿主壳，RN/Flutter 作为模块嵌入，实现三端代码复用与渐进式迁移。
+  - AI 原生应用开发的核心范式转变：LLM 从‘聊天机器人’升级为‘推理引擎/决策中枢’。
+  - 提示工程重构为一种软件工程化的‘自然语言编程’范式。
+  - RAG 系统工程化建设：从‘召回文档’到‘知识计算’。
+  - Agent 架构与规划推理：从‘单轮调用’到‘自主执行闭环’。
+  - 记忆与个性化系统：从‘无状态推理’到‘持续进化的数字孪生’。
+  - 可观测性、评测与数据飞轮：让 AI 系统‘可看、可测、可优化’。
+  - Web3 空投演进具备显著的阶段性特征。
+  - 代表性案例复盘是新手建立 Web3 认知的最优路径。
+  - NFT 打新是普通人低风险切入 Web3 的核心入口玩法。
+  - 共享 WiFi 码项目发展到现在，主要有三个赚钱模式，1.0 模式，我们称之为平台模式...2.0 模式，我们称之为卖工具...3.0 模式，这个模式我称之为
+    B 端模式（也叫聚合模式）
+  - 短视频带货新手从0到1的核心路径不是追求一步到位的完美执行，而是承认'踩坑'的必然性，并建立'不断复盘'的机制
+  - 从事相关行业的圈友可以借鉴经验，跨行业的新人慎入。
+  - 利用 AI 绘图工具配合声音合成技术，制作出具有真实互动感的数字人怀旧视频。
+  - 普通人应该拥有一个智囊团，能少走很多弯路。
+  - 赚钱的本质是交易，即通过卖东西（产品/服务/信息/注意力）实现价值流通。
+  - 圈层差即信息差。
+  - 向上学习，向下收钱。
+  - 赚钱兵器库：需求/流量/营销/变现四维清单
+- 'no': 2
+  name: React Native 新架构 —— Fabric 同步渲染、TurboModules 惰性加载与 Hermes 引擎的“铁三角”
+  points:
+  - '**为什么需要这个概念？**'
+  - '- 旧架构异步 Bridge 导致：布局计算延迟、掉帧、Shadow Tree 与 Main Thread 同步复杂、启动性能受限于 JS Bundle
+    解析'
+  - '- 急需解决：同步渲染能力、模块按需初始化、类型安全跨语言调用、启动速度优化四大工程痛点'
+  - '- AI 辅助工具（ChatGPT/Copilot）可加速 TurboModule 迁移代码生成、Codegen 类型定义补全、Hermes 字节码兼容性测试用例编写'
+  - '**核心定义**'
+  - '- RN 新架构三大支柱：'
+  - '  1. Fabric（同步渲染系统）：基于 JSI 的 C++ 核心，统一渲染器，支持同步/异步/并发渲染模式，Shadow Tree 直接在 C++
+    构建并提交给主线程'
+  - '  2. TurboModules（新一代 Native 模块系统）：基于 JSI，支持惰性加载、同步方法调用、Host Object 直接暴露 Native
+    对象、Codegen 自动生成类型安全桥接代码'
+  - '  3. Hermes（字节码预编译 JS 引擎）：AOT 编译生成字节码，减少启动时解析/编译开销，支持 mmap 映射内存、GC 优化、体积更小'
+  - '- JSI (JavaScript Interface)：替代 Bridge 的底层通信层，C++ 宿主直接持有 JS 对象引用，实现同步、双向、类型安全的跨语言调用'
+  - '- Codegen：从 Flow/TypeScript 定义自动生成 C++/Objective-C/Java/Kotlin 存根代码，编译期捕获接口不匹配'
+  - '**关键性质**'
+  - '- 同步渲染：measure/layout 可同步返回，解决旧架构测量回调地狱，支持 React 18 并发特性'
+  - '- 惰性加载：TurboModule 首次调用时才创建 Native 实例，显著降低启动期内存与 CPU 消耗'
+  - '- 类型安全：Codegen 从 JS/Flow/TS 定义自动生成 C++/Objective-C/Java/Kotlin 存根，编译期捕获接口不匹配'
+  - '- 共享 C++ 核心：Fabric 核心逻辑跨平台复用，减少平台差异 Bug，统一行为'
+  - '- AI 辅助迁移：利用 LLM 将旧 Native Module 代码自动转译为 TurboModule 规范，生成 Codegen 所需类型定义，编写
+    Hermes 兼容性测试矩阵'
+  - '**典型例子**'
+  - '- 复杂列表滚动中插入/删除 Item：Fabric 同步布局避免视觉跳动'
+  - '- 启动页加载大量 Native 模块（蓝牙、地图、支付）：TurboModules 惰性加载仅初始化必要模块，冷启动提速 30%+'
+  - '- 图片编辑器大量 JS-Native 交互：JSI 直接传递 TypedArray/HostObject，避免 JSON 序列化开销'
+  - '- 使用 ChatGPT 生成 TurboModule 迁移清单与对照表，人工复核后批量提交 PR'
+  - '**边界条件**'
+  - '- 迁移成本高：需适配 Codegen、迁移所有 Native Module 到 TurboModule、第三方库兼容性风险'
+  - '- Hermes 与 V8/JSC 差异：部分非标准 JS 特性、Date/RegExp 行为细微不同、调试工具链生态差异'
+  - '- Fabric 并发渲染对纯 Native View 嵌套支持仍有限制、纹理/Surface 同步复杂度高'
+  - '- Android 需启用 NDK 构建、iOS 需 C++17 支持，旧设备兼容性需测试'
+  - '- AI 生成的迁移代码可能存在类型推断错误、生命周期管理缺失，必须人工复核关键路径'
+  sources:
+  - paper: 20230418_001.md
+    role: origin
+  - paper: 20230418_002.md
+    role: origin
+  - paper: 20230418_036.md
+    role: origin
+  - paper: 20230418_037.md
+    role: origin
+  - paper: 20230418_040.md
+    role: origin
+  - paper: 20230418_042.md
+    role: origin
+  - paper: 20230418_044.md
+    role: origin
+  - paper: 20230418_056.md
+    role: origin
+  - paper: 20230418_105.md
+    role: origin
+  - paper: 20230418_106.md
+    role: origin
+  - paper: 20230418_107.md
+    role: origin
+  - paper: 20230418_108.md
+    role: origin
+  - paper: 20230418_120.md
+    role: origin
+  - paper: 20230418_121.md
+    role: origin
+  - paper: 20230418_140.md
+    role: origin
+  - paper: A47Vd3fekoelzRxZpdUcTl9Cn7W.md
+    role: improve
+  - paper: AgWGdAk0fogwx2xtpo2cg3TCncb.md
+    role: improve
+  - paper: AiCrd19EAoPvvPx0HSJczxk3nfC.md
+    role: improve
+  - paper: AnkEdEtEtoXIbexWlQ3cL6zenFf.md
+    role: improve
+  - paper: FCc1dPLOBosBQIxNgAgctIgDnLg.md
+    role: improve
+  - paper: FgeSdrK4no16NRxepk5cnXUVnvf.md
+    role: improve
+  - paper: LE3Ad03QAoTJWWxZ8jBcFBKXnEy.md
+    role: improve
+  - paper: NEG3dqx6qoyB46xIZsEcw2nLnCb.md
+    role: improve
+  - paper: QhJudGRcgoQlxGxYU67cndJenjh.md
+    role: improve
+  excerpts:
+  - React Native 新架构深度：Fabric 同步渲染、TurboModules 惰性加载、Codegen 类型安全与 Hermes 引擎
+  - 剖析 JSI 层打通 JS 与原生同步调用、Fabric 统一渲染器、TurboModule 按需初始化、Hermes 字节码预编译启动加速。
+  - ChatGPT 的调教使用心流法。
+  - 高效对话的六字真经：背景、要求，角色。
+  - 抖音 SEO 航海教学与答疑，跟各位教练一起，帮助 500+名船员深入抖音搜索，拿到成果。
+  - 弹幕游戏直播，这个项目有多火，大家看看生财的风向标就知道了
+  - 通过 AI 技术将已故人的照片和声音合成为一个有声视频，旨在让亲友们更加真实地回忆和怀念他们。
+  - 整体流程：照片-语音合成—DID生成原生视频
+  - 利用 GPT 赋能员工提效，帮我每月多挣 10 万元？
+  - 我司新奇的调教和使用 GPT 的方式
+  - ChatGPT+RPA 实现全自动、真批量的内容生产闭环
+  - 一个人的力量，太薄弱。我找了一批「合伙人”，一起来推生财。
+  - 去年疯狂玩低客单价的案例库（100 元以内），积累了 5000 位付费用户，且都加了微信好友
+  - 陪伴了生财 6 年，也见证了生财的成长。当时说的一些画面都变成了现实。
+  - 只有专注于单一赛道，深耕细作，才能建立护城河。
+  - 通过办理 ICP 备案，挖掘到一个可以长期稳定，月入过万的副业
+  - 如何投资商标实现躺赚几十万+？
+  - Chatgpt Plus 最新保姆级开通教程
+  - 新人，你是不是和我一样有以下表现：精华和风向标看得越来越亢奋，仿佛已经赚到钱；信息输入越来越多，但感觉看了就忘
+  - 赚钱需要具备认知、技能与实战，三者缺少任意一者都无法完成赚钱的路径闭环
+  - 生财有术是一个高效且丰富的信息引擎。
+  - 只有做自己能力范围内的事情，让别人花钱买单的交付物超所值才行，而不是为了赚钱而赚钱的事儿。
+  - 这个版块在生财有术是蓝海，尤其是新手营更少竞争极小，因为高端的社区和新手之间其实是有一个鸿沟的，而我又有这个实力去做好这个板块的补位
+  - 一定要有规划并明确设定每个环节的时间节点。
+  - 我们无论是找项目还是做项目，一定要做自己擅长的事情；
+  - 这个时代无非是赚两种钱，一种是“资源差”的钱，一种是“信息差”的钱；
+  - 无论做什么项目，都一定要有规划，并且要明确设定每个环节的时间节点。
+  - AI 时代，让我们成为先富起来的那波人。
+  - 把所有的训练用提示词分享给大家，直接手把手教大家如何培养 GPT 成为一名最专业的标题党大师。
+  - 用 AI 批量生成内容建设“站群”以获取精准搜索流量并实现商业变现的完整操作体系。
+  - 通过内容安全策略（CSP）、可信类型、Subresource Integrity (SRI) 等手段构建纵深防御体系。
+  - 将原生 App 作为宿主壳，RN/Flutter 作为模块嵌入，实现三端代码复用与渐进式迁移。
+  - AI 原生应用开发的核心范式转变：LLM 从‘聊天机器人’升级为‘推理引擎/决策中枢’。
+  - 提示工程重构为一种软件工程化的‘自然语言编程’范式。
+  - RAG 系统工程化建设：从‘召回文档’到‘知识计算’。
+  - Agent 架构与规划推理：从‘单轮调用’到‘自主执行闭环’。
+  - 记忆与个性化系统：从‘无状态推理’到‘持续进化的数字孪生’。
+  - 可观测性、评测与数据飞轮：让 AI 系统‘可看、可测、可优化’。
+  - Web3 空投演进具备显著的阶段性特征。
+  - 代表性案例复盘是新手建立 Web3 认知的最优路径。
+  - NFT 打新是普通人低风险切入 Web3 的核心入口玩法。
+  - 共享 WiFi 码项目发展到现在，主要有三个赚钱模式，1.0 模式，我们称之为平台模式...2.0 模式，我们称之为卖工具...3.0 模式，这个模式我称之为
+    B 端模式（也叫聚合模式）
+  - 短视频带货新手从0到1的核心路径不是追求一步到位的完美执行，而是承认'踩坑'的必然性，并建立'不断复盘'的机制
+  - 从事相关行业的圈友可以借鉴经验，跨行业的新人慎入。
+  - 利用 AI 绘图工具配合声音合成技术，制作出具有真实互动感的数字人怀旧视频。
+  - 普通人应该拥有一个智囊团，能少走很多弯路。
+  - 赚钱的本质是交易，即通过卖东西（产品/服务/信息/注意力）实现价值流通。
+  - 圈层差即信息差。
+  - 向上学习，向下收钱。
+  - 赚钱兵器库：需求/流量/营销/变现四维清单
+- 'no': 3
+  name: Flutter 渲染管线 —— Widget/Element/RenderObject 三棵树与 Skia/Impeller GPU 绘制
+  points:
+  - '**为什么需要这个概念？**'
+  - '- 理解 Flutter “一切皆 Widget” 的运行时真相：Widget 只是配置描述（不可变），真正干活的是 Element 与 RenderObject'
+  - '- 掌握三棵树协作机制，是性能调优（避免重建、RepaintBoundary）、调试布局溢出、实现自定义渲染的前提'
+  - '- 搞清 Skia 与 Impeller 的差异，应对首帧渲染抖动、着色器编译卡顿等工程难题'
+  - '- AI 辅助工具（GitHub Copilot/Cursor）可加速自定义 RenderObject 编写、Shader 代码生成、性能分析脚本开发'
+  - '**核心定义**'
+  - '- 三棵树职责：'
+  - '  1. Widget Tree（配置树）：不可变、轻量、描述 UI 配置（Blueprint），频繁销毁重建'
+  - '  2. Element Tree（实例树）：Widget 的运行时实例，持有 State、BuildContext、子 Element 引用，负责 Diff
+    复用、生命周期管理、调度 Rebuild'
+  - '  3. RenderObject Tree（渲染/布局/绘制树）：真正执行布局、绘制、命中测试、语义化的对象，稀疏树（仅渲染相关 Widget 生成）'
+  - '- 渲染管线流程：Build（Widget->Element->RenderObject） -> Layout（约束下传、尺寸上报） -> Paint（录制
+    Picture/DisplayList） -> Composite（Engine/Embedder 合成提交 GPU） -> Rasterize（Skia/Impeller
+    光栅化）'
+  - '- Impeller：Flutter 3.10+ 默认启用的新渲染后端，AOT 编译着色器、显式管线状态对象、利用 Metal/Vulkan 现代 GPU
+    API，解决 Skia 运行时编译 Shader 导致的首帧抖动'
+  - '- Dart 空安全：非空类型系统消除空指针异常，配合模式匹配、记录类型、密封类增强代码健壮性'
+  - '**关键性质**'
+  - '- Widget 不可变 + Element 复用 = 高效 Diff：同类型、同 Key 的 Widget 复用 Element 与 RenderObject，仅更新配置'
+  - '- 布局单次遍历：约束下传、尺寸上报，O(N) 复杂度，无多次测量'
+  - '- 分层合成：RepaintBoundary/Opacity/Transform 创建独立 Layer，局部重绘不波及全树'
+  - '- Isolate 并发模型：Dart 单线程事件循环 + 多 Isolate 并行（无共享内存、消息传递），Platform Channel 跨 Isolate
+    通信'
+  - '- AI 生成 Shader 代码需人工验证数值精度与 GPU 兼容性，防止 Impeller AOT 编译失败'
+  - '**典型例子**'
+  - '- ListView.builder 仅构建可视区 Item：Element 复用机制 + RenderObject 滚动视口裁剪'
+  - '- 复杂动画驱动：AnimationController -> Listener -> setState -> Rebuild Widget -> Element
+    标记 Dirty -> RenderObject 重新 Paint -> Layer 合成'
+  - '- 首帧抖动治理：Impeller AOT 着色器预热、--cache-sksl 预编译、SkSL 缓存落盘'
+  - '- 使用 Cursor 编写自定义 RenderObject 实现高性能图表组件，Copilot 生成 paint 方法骨架'
+  - '**边界条件**'
+  - '- Widget 过度嵌套导致 Element Tree 深度过大，Diff 遍历耗时、IntrinsicWidth/Height 多次布局'
+  - '- 滥用 GlobalKey 破坏复用机制、导致 State 泄漏、RenderObject 错位'
+  - '- Platform View (AndroidView/UiKitView) 打破 Flutter 自绘模型，引入纹理拷贝/虚拟显示开销、输入事件分发复杂、层级穿透问题'
+  - '- Impeller 早期版本对部分老旧 GPU 驱动兼容性差、3D 变换/阴影/路径效果与 Skia 行为差异'
+  - '- AI 生成的 Widget 树可能违反 Flutter 组合模式最佳实践，需人工 Review 组件拆分粒度与状态管理'
+  sources:
+  - paper: 20230418_003.md
+    role: origin
+  - paper: 20230418_072.md
+    role: origin
+  - paper: 20230418_119.md
+    role: origin
+  - paper: 20230418_120.md
+    role: origin
+  - paper: 20230418_123.md
+    role: origin
+  - paper: A4UGdiBqBoH4T0xnkW5c0Nxtnkh.md
+    role: improve
+  - paper: AnkEdEtEtoXIbexWlQ3cL6zenFf.md
+    role: improve
+  - paper: AsUTdfb1ioXlpLxltn4cbMfcnNd.md
+    role: improve
+  - paper: B95VdtwByoPXGoxac7Ec1KhQnwc.md
+    role: improve
+  - paper: Doxcnk4mqgBMJTv0mklq0eR48fg.md
+    role: improve
+  - paper: GpUodUFZHoULIGxKxtYckwI9ncg.md
+    role: improve
+  excerpts:
+  - Flutter 渲染管线与 Dart 语言特性：Widget/Element/RenderObject 三棵树、Skia/Impeller、Isolate
+    并发模型
+  - 解析声明式 UI 到渲染对象的构建流程、GPU 绘制管线、Dart 空安全、Isolate 多线程与消息传递机制。
+  - 创业三阶段：摸索/放大/稳定。
+  - 守破离进阶法。
+  - 赚钱兵器库：需求/流量/营销/变现四维清单。
+  - 关键动作优先于认知学习。
+  - 越级学习陷阱。
+  - 人生增值四段论。
+  - WebAssembly 核心概念：模块、内存、表、导入导出、线性内存与安全沙箱模型
+  - 工具链实战：Emscripten (C/C++)、wasm-pack (Rust)、AssemblyScript (TS-like) 编译与体积优化
+  - JS-Wasm 互操作深度：数值/字符串/对象传递开销、共享内存、WebIDL Bindings 与 wasm-bindgen
+  - 前沿提案与生产实践：SIMD 向量化、多线程、GC、组件模型、WASI 与边缘计算
+  - 实战：在前端项目中集成 Rust 图像处理库实现 Web 版 Photoshop 核心滤镜
+  - Canvas 2D 即时模式渲染：路径绘制、变换矩阵、合成操作、Hit Testing 与离屏缓存优化
+  - WebGL 可编程管线：着色器编写、Attribute/Uniform/Varying、Buffer/Texture 管理与绘制调用优化
+  - WebGPU 现代图形 API：GPUDevice/Queue/Buffer/Texture/BindGroup/Pipeline 布局与渲染通道
+  - 渲染引擎架构设计：场景图、脏标记更新、视锥剔除、批次合并、多层合成与插件化扩展
+  - 实战：从零实现一个支持 10 万节点的高性能拓扑图可视化引擎
+- 'no': 4
+  name: Uni-app/Taro 编译时多端统一 —— DSL 约束、条件编译与平台差异抹平的工程艺术
+  points:
+  - '**为什么需要这个概念？**'
+  - '- 业务需“一次开发，多端发布”（H5、微信/支付宝/字节/快手/QQ 小程序、App、快应用），维护多套代码库成本不可控'
+  - '- 运行时框架（如早期 Weex、React Native）在小程序端受限于虚拟机限制（无 eval、无动态执行）、性能与包体积双重压力'
+  - '- 编译时转译：将 Vue/React DSL 编译为目标平台原生代码（WXML/WXSS/JS、HTML/CSS/JS），无运行时开销，发挥各平台极致性能'
+  - '- AI 辅助编译器插件开发：利用 LLM 生成平台特定转译规则、条件编译指令、API 抹平适配器代码，提升编译器扩展效率'
+  - '**核心定义**'
+  - '- 核心机制：'
+  - '  1. DSL 约束：限制 Vue/React 语法子集（如禁用 with、动态组件受限、模板编译时确定），保证可静态分析、可转译'
+  - '  2. 条件编译：`// #ifdef MP-WEIXIN` / `%ifdef%` 语法，编译期根据目标平台裁剪/注入差异代码'
+  - '  3. 统一 API 抹平层：`uni.xxx` / `Taro.xxx` 运行时适配器，桥接平台差异（如请求、存储、导航、画布、蓝牙），暴露统一 Promise
+    风格接口'
+  - '  4. 编译器插件化：Webpack/Vite/Rollup 插件管线，处理模板编译、样式转换、脚本转译、资源哈希、分包策略'
+  - '- AI 生成条件编译代码模板：Prompt 设计包含平台差异矩阵、API 映射表、降级策略，输出标准化 `#ifdef` 代码块'
+  - '**关键性质**'
+  - '- 编译时优势：无运行时框架开销、产物符合平台规范（如小程序 WXML/WXSS）、Tree-shaking 彻底、启动快'
+  - '- 开发体验：Vue/React 语法糖、热重载 (HMR)、TypeScript 支持、IDE 智能提示、DevTools 调试映射源码'
+  - '- 生态复用：可引入 npm 包（需兼容运行时环境）、组件库按需引入、插件机制扩展编译/运行时能力'
+  - '- AI 代码审查：集成 LLM 到 CI/CD，自动检测 DSL 违规、条件编译遗漏、API 调用不兼容、包体积超限'
+  - '**典型例子**'
+  - '- 电商 SKU 选择器组件：Vue 写法 -> 编译输出微信小程序 WXML 模板 + WXSS + JS 逻辑、H5 Vue 组件、App nvue
+    (Weex/RN 模式) 或原生渲染'
+  - '- 条件编译实现微信支付 vs 支付宝支付：`#ifdef MP-WEIXIN` 调 `wx.requestPayment` / `#ifdef MP-ALIPAY`
+    调 `my.requestPayment`'
+  - '- 分包加载：`pages.json` 配置 `subPackages`，编译器自动拆分产物，小程序主包控制在 2M 以内'
+  - '- ChatGPT 生成 Uni-app 条件编译模板：输入目标 API（如 Canvas/蓝牙/相册），输出带 `#ifdef` 分支的完整实现代码'
+  - '**边界条件**'
+  - '- DSL 约束导致部分 Vue/React 高级用法不可用（如 `render` 函数、动态 `is`、部分生命周期时机差异）'
+  - '- 平台差异无法 100% 抹平：Canvas 2D/WebGL/API 权限/原生组件（map/video/live-pusher）表现差异大，仍需平台专项测试'
+  - '- 编译器 Bug/版本升级破坏性变更风险：依赖框架维护团队响应速度，锁定版本是常态'
+  - '- 复杂交互/高性能动画场景：编译输出的小程序逻辑层/视图层通信瓶颈、setData 开销、无法使用 SharedArrayBuffer/Worklet
+    等高级特性'
+  - '- App 端选择 nvue (Weex) 或原生渲染（Vue3 + Vite + Native）时，技术栈内部又出现分叉，增加心智负担'
+  - '- AI 生成的条件编译代码可能遗漏边缘平台、错误映射 API 参数，需人工验证核心业务流程'
+  sources:
+  - paper: 20230418_004.md
+    role: origin
+  - paper: 20230418_021.md
+    role: origin
+  - paper: 20230418_039.md
+    role: origin
+  - paper: 20230418_061.md
+    role: origin
+  - paper: 20230418_062.md
+    role: origin
+  - paper: 20230418_063.md
+    role: origin
+  - paper: 20230418_094.md
+    role: origin
+  - paper: 20230418_096.md
+    role: origin
+  - paper: 20230418_097.md
+    role: origin
+  - paper: 20230418_098.md
+    role: origin
+  - paper: 20230418_118.md
+    role: origin
+  - paper: 20230418_119.md
+    role: origin
+  - paper: 20230418_122.md
+    role: origin
+  - paper: 20230418_124.md
+    role: origin
+  - paper: 20230418_129.md
+    role: origin
+  - paper: 20230418_132.md
+    role: origin
+  - paper: 20230418_133.md
+    role: origin
+  - paper: 20230418_134.md
+    role: origin
+  - paper: 20230418_145.md
+    role: origin
+  - paper: 20230418_149.md
+    role: origin
+  - paper: 20230418_151.md
+    role: origin
+  - paper: AiCrd19EAoPvvPx0HSJczxk3nfC.md
+    role: improve
+  - paper: AnkEdEtEtoXIbexWlQ3cL6zenFf.md
+    role: improve
+  - paper: AsUTdfb1ioXlpLxltn4cbMfcnNd.md
+    role: improve
+  - paper: Doxcnk4mqgBMJTv0mklq0eR48fg.md
+    role: improve
+  - paper: Efm3dQsmpoUyHxxDPaAcoqXvnVe.md
+    role: improve
+  - paper: HgjLdWdxHo8ezoxv9iLc4HSwnAh.md
+    role: improve
+  - paper: IwUDdGvHhojaL2xwtUzc6YyZnHh.md
+    role: improve
+  - paper: QRqzdIpMfoxvgfxDXO7cMOLunzg.md
+    role: improve
+  - paper: QnHidA4fvoDNL9x9hSHcPJGqnjc.md
+    role: improve
+  excerpts:
+  - Uni-app / Taro 编译时多端统一：DSL 约束、条件编译、平台差异 API 抹平与生态适配
+  - '分析 Vue/React DSL 编译到微信/支付宝/字节/H5/APP 多端产物、条件编译 `// #ifdef MP-WEIXIN`、插件机制扩展原生能力。'
+  - AI 编程助手现状：GitHub Copilot/Cursor/Codeium 对比、提示词工程模式、上下文窗口管理
+  - RAG 在前端知识库落地：代码库切片、向量化检索、重排序、上下文注入与幻觉控制
+  - Agent 工作流自动化：需求拆解→代码生成→测试验证→提交 PR 的闭环与人工介入点设计
+  - 前端专用模型微调：CodeLlama/DeepSeek-Coder 继续预训练、指令微调、RLHF 对齐前端最佳实践
+  - 实战：接入 AI Code Review 机器人——规范检查、安全扫描、性能建议、单测补全自动化
+  - 小红书头像壁纸项目...月入过万
+  - 小红书引流逻辑和套路拆解
+  - 如何利用数据分析进行小红书电商选品？
+  - 月入过万的 【小红书】头像壁纸玩法与制作方法
+  - 连【亦仁老大】都在潜伏的小红书头像壁纸群玩法
+  - 快团团帮卖，我主打的三种类目：1、时令水果类：草莓、橙子、枇杷、芒果…… 2、卖生活方式：鲜花、香薰蜡烛…… 3、预制菜：凉皮、鸭掌煲、螺蛳粉……
+  - 重点讲一下帮卖爆款单品—草莓，只是草莓一个月赚了 3 万多，一单平均佣金是 11 元，卖了 2800 多单，复购率 40%以上。
+  - 共享 WiFi 码项目发展到现在，主要有三个赚钱模式...
+  - 短视频带货新手从0到1的核心路径不是追求一步到位的完美执行，而是承认'踩坑'的必然性，并建立'不断复盘'的机制
+  - 从事相关行业的圈友可以借鉴经验，跨行业的新人慎入。
+  - 利用 AI 绘图工具配合声音合成技术，制作出具有真实互动感的数字人怀旧视频。
+  - 普通人应该拥有一个智囊团，能少走很多弯路。
+  - 赚钱的本质是交易，即通过卖东西（产品/服务/信息/注意力）实现价值流通。
+  - 圈层差即信息差。
+  - 向上学习，向下收钱。
+  - 赚钱兵器库：需求/流量/营销/变现四维清单
+- 'no': 5
+  name: 混合栈共存架构 —— 原生壳工程嵌入 RN/Flutter 模块的 Brownfield 集成与三端代码复用
+  points:
+  - '**为什么需要这个概念？**'
+  - '- 存量大型原生 App（几百万行代码）无法全量重写，需增量引入跨端技术承接新业务、复用现有 Web/跨端资产'
+  - '- 解决“原生+跨端”共存时的：生命周期管理、导航栈融合、通信机制、依赖冲突、包体积、热更新、CI/CD 复杂度'
+  - '- 实现“核心链路原生兜底、高频变动跨端承接、通用业务逻辑三端复用”的工程最优解'
+  - '- AI/RPA 自动化 CI/CD：利用 GitHub Actions/GitLab CI 集成 LLM 代码审查、自动化测试生成、多平台并行构建、热更新包分发'
+  - '**核心定义**'
+  - '- Brownfield 集成模式：原生 App 作为“宿主壳”，RN/Flutter 作为“模块/Feature”嵌入'
+  - '  1. 架构分层：Native Shell (原生壳：启动、导航、基础服务、原生能力) + Cross-platform Module (RN/Flutter
+    Module：业务页面、复用逻辑) + Shared Logic Package (共享包：TypeScript/Dart/Kotlin 业务逻辑、API
+    定义、状态管理)'
+  - '  2. 通信桥接：Native <-> Module 通过 JSI/Platform Channel/EventBus 双向通信，定义协议契约（如 MethodChannel、标准化
+    JSON RPC）'
+  - '  3. 导航融合：原生路由栈统一管理，Module 内部路由映射为原生 Fragment/UIViewController，支持原生<->跨端页面互相跳转、参数透传、生命周期回调'
+  - '  4. 热更新：CodePush (RN) / Shorebird (Flutter) / 原生动态下发 JS/Dart Bundle，绕过应用商店审核快速修复/迭代'
+  - '- Pigeon/FFI 类型安全通信：利用代码生成工具从统一 IDL 定义生成 Dart/原生接口代码，消除手写桥接代码的类型不匹配风险'
+  - '**关键性质**'
+  - '- 渐进式迁移：单模块试点 -> 核心业务迁移 -> 共享组件库沉淀 -> 最终可选全栈跨端'
+  - '- 依赖治理：Native 依赖 (Gradle/CocoaPods) 与 Module 依赖 (npm/pub) 物理隔离，共享依赖（如网络库、图片加载）由
+    Native 侧统一提供单例给 Module 用'
+  - '- 资源隔离：RN/Flutter 实例可单独启动/销毁/复用（单实例/多实例策略），内存占用可控'
+  - '- 三端代码复用策略：'
+  - '  - 业务逻辑层：TypeScript (RN/Web) / Dart (Flutter) / Kotlin (KMP) 保持三份实现，或核心算法用 Rust/Wasm
+    编译三端复用'
+  - '  - UI 层：各自维护（RN/Flutter/Web 差异大），通过设计系统/设计令牌保证视觉一致'
+  - '  - API 层：OpenAPI/GraphQL Schema 生成三端类型安全 Client'
+  - '- AI 驱动的热更新策略：利用 LLM 分析崩溃日志、性能指标，自动生成热修复补丁建议，配合 Shorebird/CodePush 实现分钟级热更'
+  - '**典型例子**'
+  - '- 某超级 App “发现页/视频流/直播间”用 Flutter 重构，其余 Tab 保持原生，共享登录态、用户信息、埋点 SDK、网络层'
+  - '- 电商 App 大促活动页用 RN 开发，活动下线后可动态下发/回收，复用 Web H5 组件库（通过 React Native Web 共享组件代码）'
+  - '- 共享业务逻辑包：购物车计算规则、优惠券叠加算法用 TypeScript 写，RN 直接引用，Web 直接引用，Flutter 通过 Dart TS 互转或单独维护
+    Dart 版'
+  - '- ChatGPT 生成 Pigeon 协议定义文件，RPA 自动化运行代码生成、编译验证、集成测试'
+  - '**边界条件**'
+  - '- 双端/三端维护成本：需要同时具备 iOS/Android/RN/Flutter/Web 全栈人才或分工极其明确的团队'
+  - '- 版本依赖地狱：RN 版本升级牵动 Native 依赖、Flutter 版本升级牵动 Dart SDK/插件兼容、Native 升级 Xcode/AGP
+    牵动构建脚本'
+  - '- 调试极其困难：Native 崩溃 -> JS 栈 -> Native 栈 穿透定位、内存泄漏跨边界排查、性能分析工具链割裂'
+  - '- 导航/手势/键盘/输入法/无障碍/深色模式等系统级行为一致性极难保证，需大量兼容性适配代码'
+  - '- 包体积叠加：基线包含双引擎，增量模块再加，需严格拆包、动态下发、按需加载控制总体积'
+  - '- 平台审核风险：App Store/小程序审核可能因热更新机制、动态加载代码、隐私合规拒绝上架，需预埋合规开关与降级方案'
+  - '- AI 自动化测试覆盖率难以达标：跨端场景下的 E2E 测试需覆盖原生<->跨端跳转、通信桥接、导航融合等复杂路径，传统测试框架支持有限'
+  sources:
+  - paper: 20230418_005.md
+    role: origin
+  - paper: 20230418_023.md
+    role: origin
+  - paper: 20230418_042.md
+    role: origin
+  - paper: 20230418_043.md
+    role: origin
+  - paper: 20230418_074.md
+    role: origin
+  - paper: 20230418_075.md
+    role: origin
+  - paper: 20230418_076.md
+    role: origin
+  - paper: 20230418_077.md
+    role: origin
+  - paper: 20230418_078.md
+    role: origin
+  - paper: 20230418_088.md
+    role: origin
+  - paper: 20230418_089.md
+    role: origin
+  - paper: 20230418_101.md
+    role: origin
+  - paper: 20230418_102.md
+    role: origin
+  - paper: 20230418_103.md
+    role: origin
+  - paper: 20230418_104.md
+    role: origin
+  - paper: 20230418_111.md
+    role: origin
+  - paper: 20230418_112.md
+    role: origin
+  - paper: 20230418_113.md
+    role: origin
+  - paper: 20230418_123.md
+    role: origin
+  - paper: 20230418_124.md
+    role: origin
+  - paper: 20230418_126.md
+    role: origin
+  - paper: 20230418_130.md
+    role: origin
+  - paper: AiCrd19EAoPvvPx0HSJczxk3nfC.md
+    role: improve
+  - paper: AnkEdEtEtoXIbexWlQ3cL6zenFf.md
+    role: improve
+  - paper: AsUTdfb1ioXlpLxltn4cbMfcnNd.md
+    role: improve
+  - paper: Doxcnk4mqgBMJTv0mklq0eR48fg.md
+    role: improve
+  - paper: Efm3dQsmpoUyHxxDPaAcoqXvnVe.md
+    role: improve
+  - paper: HgjLdWdxHo8ezoxv9iLc4HSwnAh.md
+    role: improve
+  - paper: KJ0CdYG18oMFStxpa17cxS0wnyt.md
+    role: improve
+  - paper: NEG3dqx6qoyB46xIZsEcw2nLnCb.md
+    role: improve
+  - paper: QhJudGRcgoQlxGxYU67cndJenjh.md
+    role: improve
+  - paper: QRqzdIpMfoxvgfxDXO7cMOLunzg.md
+    role: improve
+  - paper: QnHidA4fvoDNL9x9hSHcPJGqnjc.md
+    role: improve
+  excerpts:
+  - 实战：混合栈共存架构——原生应用嵌入 React Native/Flutter 模块、三端代码复用策略与发布流水线
+  - 设计 Brownfield 集成方案：Native 壳工程 + RN/Flutter Module + 共享业务逻辑包、CodePush 热更新、统一 CI/CD
+    多平台并行发布。
+  - AI 原生应用开发的核心范式转变：LLM 从‘聊天机器人’升级为‘推理引擎/决策中枢’。
+  - 提示工程重构为一种软件工程化的‘自然语言编程’范式。
+  - RAG 系统工程化建设：从‘召回文档’到‘知识计算’。
+  - Agent 架构与规划推理：从‘单轮调用’到‘自主执行闭环’。
+  - 记忆与个性化系统：从‘无状态推理’到‘持续进化的数字孪生’。
+  - 可观测性、评测与数据飞轮：让 AI 系统‘可看、可测、可优化’。
+  - Web3 空投演进具备显著的阶段性特征。
+  - 代表性案例复盘是新手建立 Web3 认知的最优路径。
+  - NFT 打新是普通人低风险切入 Web3 的核心入口玩法。
+  - 共享 WiFi 码项目发展到现在，主要有三个赚钱模式，1.0 模式，我们称之为平台模式...2.0 模式，我们称之为卖工具...3.0 模式，这个模式我称之为
+    B 端模式（也叫聚合模式）
+  - 短视频带货新手从0到1的核心路径不是追求一步到位的完美执行，而是承认'踩坑'的必然性，并建立'不断复盘'的机制
+  - 从事相关行业的圈友可以借鉴经验，跨行业的新人慎入。
+  - 利用 AI 绘图工具配合声音合成技术，制作出具有真实互动感的数字人怀旧视频。
+  - 普通人应该拥有一个智囊团，能少走很多弯路。
+  - 赚钱的本质是交易，即通过卖东西（产品/服务/信息/注意力）实现价值流通。
+  - 圈层差即信息差。
+  - 向上学习，向下收钱。
+  - 赚钱兵器库：需求/流量/营销/变现四维清单
+'no': 14
