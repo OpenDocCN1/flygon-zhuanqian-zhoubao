@@ -1,0 +1,42 @@
+paper: docs/202304/20230418_121.md
+desc: 该素材为孙哲于2023年4月发布的《小红书各类型博主使用 ChatGPT 指南》的索引页，核心主张 ChatGPT 能显著提升小红书内容创作效率与变现速度，作者以亲身实践为证（半天完成原需数日甚至数月的工作），并指出生成内容需人工筛选修改以保质量，文中附带飞书文档链接指向完整指南细节。
+concepts:
+- name: 小红书博主 ChatGPT 指南
+  desc: 针对小红书不同类型博主（生活方式等）定制的 ChatGPT 使用方法论合集，涵盖模板套用、文案生成等实操技巧。
+  is_original: true
+  excerpt:
+  - 整理了一份关于小红书各类型博主使用 chatGPT 指南
+  - 利用 ChatGPT 写文案是一种创新的方式，如果能够善加利用，ChatGPT 将成为生活方式博主的得力助手
+- name: AI 协同内容生产
+  desc: 指人类创作者与 ChatGPT 协作完成内容创作全流程（选题、撰写、编辑），以大幅压缩生产周期。
+  is_original: false
+  excerpt:
+  - 这篇内容，是我利用 chatGPT 一起完成的
+  - 做出这样一篇内容，仅仅用了半天时间，如果没有 chatGPT，这篇内容可能需要几天甚至几个月时间才能够完成
+methods:
+- name: __overview__
+  desc: 基于场景化提示词工程与人工质检闭环的小红书内容批量生产方法：按博主类型预设 Prompt 模板 -> ChatGPT 生成初稿 -> 人工筛选修正事实性错误与风格
+    -> 发布变现。
+  excerpt:
+  - 有哪些模板可以套用，整理了一份关于小红书各类型博主使用 chatGPT 指南
+  - 生成的文案有时候可能不够准确，需要经过人工筛选和修改，保证文案的质量和可读性
+theorems:
+- name: 效率跃迁论
+  desc: ChatGPT 接入小红书内容生产流程可将单篇内容产出周期从『天/月级』压缩至『小时级』，实现工作效率与变现速度的数量级提升（N倍）。
+  excerpt:
+  - 使用 chatGPT 绝对会让我们的工作效率提高很多，也会让我们通过 chatGPT 提高自己的搞钱速度
+  - 时间缩短了 N 倍
+- name: 人机协作质量兜底论
+  desc: ChatGPT 生成内容存在幻觉与风格泛化风险，必须引入『人工筛选修改』环节作为质量控制关卡，方可满足商业发布标准。
+  excerpt:
+  - 生成的文案有时候可能不够准确，需要经过人工筛选和修改，保证文案的质量和可读性
+findings:
+- name: 实战耗时对比
+  desc: '[evidence] 作者亲测：撰写同等深度指南，引入 ChatGPT 协作后耗时 0.5 天，预估纯人工需数天至数月，验证了效率提升 N 倍的量化效果。'
+  excerpt:
+  - 做出这样一篇内容，仅仅用了半天时间，如果没有 chatGPT，这篇内容可能需要几天甚至几个月时间才能够完成，但是用了 chatGPT 之后，时间缩短了 N
+    倍
+- name: 完整指南外链存续
+  desc: '[evidence] 素材提供飞书文档链接（https://pii2q77orm.feishu.cn/docx/PU9Id4IPMoZ3QdxLzZUcEPBRnWO）承载完整模板库与实操案例，索引页本身不含具体模板细节。'
+  excerpt:
+  - https://pii2q77orm.feishu.cn/docx/PU9Id4IPMoZ3QdxLzZUcEPBRnWO
