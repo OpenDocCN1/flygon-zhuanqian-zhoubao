@@ -1,0 +1,181 @@
+learning_targets:
+- 理解 BFF 架构在微服务体系中解决前端聚合与适配的核心价值
+- 掌握 NestJS 模块化架构、依赖注入容器与声明式 AOP（守卫/拦截器/管道/过滤器）的工程化实践
+- 熟练运用 Prisma Schema 单一事实来源完成类型安全的数据建模、关联查询、事务与中间件扩展
+- 建立生产级 Node.js 部署运维标准：多阶段 Docker 构建、非 root Distroless 镜像、PM2/K8s 集群模式、三探针健康检查、结构化日志与
+  Prometheus 监控
+- 设计支持 SSR/SSG/ISR 混合渲染的全栈应用骨架，实现数据库 Schema 到前端组件的端到端类型共享管线
+concept_map:
+- Node.js 服务端开发与 BFF 模式
+- ├── BFF 架构价值
+- │   ├── 聚合编排下游微服务          —— P001
+- │   ├── 按需裁剪响应字段            —— P001
+- │   ├── 协议适配与版本隔离          —— P001
+- │   └── 由前端团队主导、独立部署    —— P001
+- ├── NestJS 企业级开发
+- │   ├── @Module 模块化边界与代码分割   —— P002
+- │   ├── @Injectable 依赖注入容器       —— P002
+- │   ├── @Controller 路由控制器         —— P002
+- │   ├── Guard 鉴权/限流切面           —— P002
+- │   ├── Interceptor 响应转换/缓存/日志 —— P002
+- │   ├── Pipe 参数校验/转换            —— P002
+- │   ├── ExceptionFilter 统一异常处理  —— P002
+- │   └── Swagger/OpenAPI 文档自动生成  —— P002
+- ├── Prisma ORM 实战
+- │   ├── schema.prisma 声明式建模      —— P003
+- │   ├── Prisma Client 类型安全查询    —— P003
+- │   ├── Prisma Migrate 版本化迁移     —— P003
+- │   ├── 关联关系与嵌套 include/select —— P003
+- │   ├── $transaction 交互式/批量事务  —— P003
+- │   ├── $extends/$use 中间件扩展      —— P003
+- │   └── 连接池配置与 Serverless 适配  —— P003
+- ├── 部署与运维工程化
+- │   ├── 多阶段 Dockerfile 构建        —— P004
+- │   ├── 非 root + Distroless 基础镜像 —— P004
+- │   ├── PM2 Cluster 模式 / K8s HPA    —— P004
+- │   ├── 三探针：Liveness/Readiness/Startup —— P004
+- │   ├── Winston/Pino 结构化 JSON 日志 —— P004
+- │   └── Prometheus /metrics 指标暴露 —— P004
+- └── 全栈应用骨架
+- '    ├── 渲染策略矩阵：SSG/ISR/SSR/CSR  —— P005'
+- '    ├── 类型共享管线：Prisma → OpenAPI → @repo/types → 前端 Hooks —— P005'
+- '    ├── 数据获取分层：服务端直连 vs 客户端 SWR/TanStack Query —— P005'
+- '    ├── 流式渲染与 Suspense 分块下发  —— P005'
+- '    └── HttpOnly Cookie 认证态同步  —— P005'
+life_analogy:
+- 想象 BFF 是**高端餐厅的「总管/管家」**：
+- '- **前端（食客）** 只需告诉管家“我想吃一份满汉全席（页面数据）”，无需知道后厨分工'
+- '- **后端微服务（后厨各组：凉菜组/热菜组/点心组/烤鸭组）** 只专注做好自己的菜，互不干扰'
+- '- **BFF 总管** 负责：下单拆单给各组、收齐成品摆盘（聚合编排）、挑掉食客过敏食材（字段裁剪）、统一用御用餐具上桌（协议适配）、菜单变动时安抚食客并协调后厨（版本隔离）'
+- ''
+- NestJS 就像**这家餐厅的标准化运营手册（SOP）**：
+- '- **@Module** = 各职能部门（采购部/后厨部/前厅部/财务部），职责清晰、接口标准'
+- '- **依赖注入容器** = 人力资源调度中心，厨师需要刀具直接向中心领取，无需自己去买（解耦），换人不换流程'
+- '- **Guard/Interceptor/Pipe/Filter** = 统一服务礼仪：安检、摆盘装饰、点单复唱、投诉兜底，全员遵守，新员工入职即懂'
+- ''
+- Prisma 就像**餐厅的「数字化食谱库与食材台账」**：
+- '- **schema.prisma** = 总食谱（单一事实来源），改一道菜的配方，所有厨师的备菜单、采购单、菜单价格自动同步更新'
+- '- **类型安全查询** = 智能备菜系统，厨师说「备 3 份无花生宫保鸡丁」，系统自动校验食材清单，防止误放花生（编译期报错）'
+- '- **事务** = 整单上菜原子性：要么全上齐，要么全退回，绝不出现「只有鸡丁没花生」的半成品上桌'
+- ''
+- 部署运维像**餐厅的「后厨基建与巡检体系」**：
+- '- **多阶段 Docker** = 预制菜中央厨房 + 极简前厅出餐口，前厅只负责摆盘，无原料、无刀具、无垃圾（攻击面最小)'
+- '- **非 root Distroless** = 前厅员工只有上菜权限，无开火权限、无开冰箱权限、无钥匙（最小权限原则)'
+- '- **三探针** = 巡场经理：心跳探针（人在不在）、就绪探针（菜备齐了没、灶台通气没）、启动探针（开业前大扫除、备料完成没）'
+- '- **结构化日志 + Prometheus** = 智能监控大屏：每道菜出品时间、退菜率、灶台火力、食材库存，实时告警、事后复盘有据可查'
+- ''
+- 全栈骨架像**「中央厨房直供 + 门店现做」混合经营模式**：
+- '- **SSG/ISR** = 招牌菜/营销海报：中央厨房预制好、冷冻配送、门店稍加热/解冻即卖（构建时/增量生成 HTML）'
+- '- **SSR** = 现点现做私房菜：食客下单（请求），后厨现炒（服务端渲染），端上桌即食（首屏直出）'
+- '- **CSR** = 桌边自助调料/DIY 甜品：基础端上桌，食客自己加料互动（客户端水合/交互）'
+- '- **端到端类型共享** = 统一食谱编码：从中央厨房配方到门店菜单、食客点单小程序，全链路同一套编码，杜绝「菜单写宫保鸡丁、厨房做糖醋里脊」的接口不一致'
+summary:
+- concept: BFF (Backend for Frontend)
+  desc: 为特定前端定制的后端聚合层，职责：聚合下游、裁剪字段、适配多端、屏蔽内部变更，由前端团队主导
+- concept: NestJS 三大核心装饰器
+  desc: '@Module 划分模块边界、@Injectable 标识可注入 Provider、@Controller 定义路由入口，构成模块化、依赖注入、声明式路由的基石'
+- concept: NestJS AOP 切面四件套
+  desc: Guard(鉴权/限流) -> Interceptor(响应转换/缓存/日志) -> Pipe(参数校验/转换) -> ExceptionFilter(统一异常处理)，覆盖请求全生命周期横切关注点
+- concept: Prisma Schema 单一事实来源
+  desc: schema.prisma 同时作为数据库 DDL、TypeScript 类型定义、迁移历史来源，Prisma Client 自动生成，实现数据库
+    Schema 即代码类型
+- concept: Prisma 类型安全查询
+  desc: findMany/include/select/where 全链路 TypeScript 推导，字段拼写错误编译期即报错，重构零恐慌
+- concept: Prisma 事务与中间件
+  desc: $transaction 保证原子性（回调式/批量操作）；$use/$extends 实现软删除、审计日志、行级权限等横切逻辑复用
+- concept: 生产级 Docker 多阶段构建
+  desc: Builder 阶段全量依赖构建产物，Runner 阶段仅复制产物与生产依赖至 Distroless 镜像，体积↓70%、攻击面↓90%、非 root
+    运行
+- concept: 三探针健康检查体系
+  desc: Liveness(进程存活)、Readiness(依赖就绪可切流)、Startup(启动宽容期)，配合 K8s/PM2 实现零停机部署与自动故障隔离
+- concept: 结构化日志与 Prometheus 指标
+  desc: JSON 格式标准输出 + 核心指标暴露，实现日志聚合检索、链路追踪关联、Grafana 仪表盘告警，MTTR 从小时级降至分钟级
+- concept: 全栈渲染策略矩阵
+  desc: SSG(静态营销页)、ISR(半动态内容页)、SSR(个性化/SEO 页)、CSR(高交互组件)，按页面特性组合，极致首屏与体验平衡
+- concept: 端到端类型共享管线
+  desc: Prisma Schema → OpenAPI Spec → @repo/types npm 包 → 前端 TanStack Query/SWR Hooks，实现数据库字段变更编译期传导至前端组件报错
+- concept: 流式渲染与 Suspense
+  desc: 服务端组件并行数据获取 + Promise.all + <Suspense fallback> 分块流式下发 HTML，TTFB 优化至数据库查询耗时，感知性能质变
+- concept: HttpOnly Cookie 认证同步
+  desc: BFF 签发 Secure SameSite=Lax Cookie，前端中间件/服务端组件/客户端请求复用同一认证上下文，CSRF 防护与 SSR
+    直出用户态兼得
+exercises:
+- 'no': 1
+  title: BFF 聚合编排实战
+  contents:
+  - 场景：电商商品详情页需聚合 4 个下游服务：
+  - 1. 商品基础服务 GET /api/item/{id} → { id, title, images[], categoryId }
+  - 2. 价格服务 POST /api/price/batch → { skuId, price, promotion }[]
+  - 3. 库存服务 GET /api/inventory/{skuId} → { skuId, quantity, status }
+  - '4. 评价服务 GET /api/reviews?itemId={id}&size=3 → { list: [{ user, rating, content
+    }], total }'
+  - ''
+  - 任务：
+  - 1. 设计 BFF 聚合接口 GET /bff/item/{id} 的响应结构（仅包含前端渲染所需字段）
+  - 2. 编写 NestJS Controller + Service 伪代码，展示并行调用、异常兜底（某服务失败降级返回默认值）、字段裁剪逻辑
+  - 3. 思考：若 App 端需额外返回「直播信息」「推荐流」，如何避免 BFF 代码出现大量 if (client === 'app') 分支？
+- 'no': 2
+  title: NestJS 模块化与依赖注入重构
+  contents:
+  - 现有一个 UserModule，包含 UserController、UserService、UserRepository（直连 Prisma），以及 AuthGuard（JWT
+    校验）、LoggingInterceptor（请求日志）。
+  - ''
+  - 任务：
+  - 1. 画出模块依赖图：标明 imports、providers、controllers、exports
+  - 2. 将 UserRepository 抽离为独立 Provider，支持 useClass 切换实现（如测试时用 InMemoryRepository），展示如何在
+    UserModule 中配置
+  - '3. 实现一个全局 ExceptionFilter，捕获 Prisma P2003 外键约束错误，转换为 400 Bad Request 并返回统一格式
+    { code: ''FK_VIOLATION'', message: ''关联资源不存在'', field: ''categoryId'' }'
+  - 4. 解释：为何 Guard 执行在 Interceptor 之前？若需在 Guard 中获取 Interceptor 设置的上下文数据（如请求 ID），应如何调整？
+- 'no': 3
+  title: Prisma 关联查询与事务边界设计
+  contents:
+  - Schema 定义：
+  - model User { id String @id @default(cuid()) email String @unique orders Order[]
+    }
+  - 'model Order { id String @id @default(cuid()) userId String user User @relation(fields:
+    [userId], references: [id]) items OrderItem[] }'
+  - 'model OrderItem { id String @id @default(cuid()) orderId String order Order @relation(fields:
+    [orderId], references: [id]) skuId String quantity Int }'
+  - model Inventory { skuId String @id quantity Int version Int @default(0) @map("version")
+    }
+  - ''
+  - 任务：
+  - 1. 编写 Prisma 查询：获取用户最新 10 单，包含每单的 items 与 sku 当前库存快照，要求单次查询（避免 N+1），并分析生成的 SQL
+    结构
+  - 2. 实现「下单扣减库存」事务：原子性创建 Order + OrderItem，并对 Inventory 做乐观锁扣减（quantity - 1, version
+    + 1, where version = oldVersion），冲突时重试 3 次
+  - 3. 设计软删除中间件：删除 User 时级联软删除其 Order 与 OrderItem（打上 deletedAt），查询时自动过滤 deletedAt
+    不为空的记录
+  - 4. 讨论：大批量订单导出报表（10万行+）时，Prisma include 多层嵌套可能导致笛卡尔积爆炸，应如何分批查询或改用 $queryRaw 优化？
+- 'no': 4
+  title: 生产级 Dockerfile 与健康检查编写
+  contents:
+  - 基于 NestJS + Prisma 项目，编写完整的多阶段 Dockerfile，要求：
+  - 1. Builder 阶段：使用 node:20-alpine，开启 corepack/pnpm，缓存 node_modules，执行 prisma generate
+    与 nest build
+  - 2. Runner 阶段：使用 gcr.io/distroless/nodejs20-debian12，仅复制 dist、node_modules/.prisma/client、package.json，创建非
+    root 用户 nonroot:nonroot
+  - 3. 配置环境变量：NODE_ENV=production、PORT=3000、DATABASE_URL 通过 Secret 挂载
+  - 4. 编写 NestJS 三探针实现：
+  - '   - /health/liveness：仅返回 { status: ''ok'' }'
+  - '   - /health/readiness：检查 Prisma $queryRaw`SELECT 1` 与 Redis ping，任一失败返回 503'
+  - '   - /health/startup：同 readiness 但允许 60s 宽容期（用于迁移/预热）'
+  - 5. 给出对应的 Kubernetes Deployment 片段：livenessProbe/readinessProbe/startupProbe 配置、HPA
+    基于 CPU>70% 扩容、资源 requests/limits 设置
+- 'no': 5
+  title: 全栈类型共享管线搭建
+  contents:
+  - 目标：实现 Prisma Schema 变更 → 前端 TypeScript 类型自动更新的零手工流程。
+  - ''
+  - 任务：
+  - 1. 设计 Monorepo 目录结构（pnpm workspace）：apps/bff、apps/web、packages/types、packages/eslint-config、packages/tsconfig
+  - 2. 编写 packages/types 的生成脚本（package.json scripts）：
+  - '   - 步骤 A：prisma generate（产出 @prisma/client）'
+  - '   - 步骤 B：nest build 并配合 @nestjs/swagger 生成 openapi.json'
+  - '   - 步骤 C：openapi-typescript openapi.json -o src/api.d.ts'
+  - '   - 步骤 D：导出 Prisma 模型类型与 API 路径类型，发布为 @repo/types@x.y.z'
+  - 3. 在 apps/web 中演示：import { paths } from '@repo/types'；使用 fetch('/api/users/' +
+    userId) 获取数据，展示响应体类型如何自动推导为 paths['/api/users/{id}']['get']['responses']['200']['content']['application/json']
+  - 4. 思考：当 Prisma 模型新增字段、BFF 接口响应同步新增时，前端组件如何感知并利用新字段？若 BFF 接口字段重命名（破坏性变更），Monorepo
+    与多仓库分别如何通过类型系统阻断发布？
