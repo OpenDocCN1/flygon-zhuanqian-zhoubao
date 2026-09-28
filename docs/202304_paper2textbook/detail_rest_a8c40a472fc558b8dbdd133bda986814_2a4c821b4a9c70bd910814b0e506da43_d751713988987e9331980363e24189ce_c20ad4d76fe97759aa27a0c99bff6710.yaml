@@ -1,0 +1,125 @@
+learning_targets:
+- 理解前端可观测性三大支柱的核心定义与协作关系
+- 掌握全局错误捕获的分层兜底体系与 Source Map 还原工程化落地
+- 掌握基于 Web Vitals 与 PerformanceObserver 的性能监控 SDK 设计要点
+- 理解代码埋点与无痕埋点的优劣势权衡，会设计标准化事件模型与会话回放方案
+- 掌握基于 W3C Trace Context 的前后端链路追踪透传与关联查询实现
+- 能规划自研可观测平台的四层架构选型、存储模型与分级告警策略
+- 能落地发布守护、业务关联告警等工程化运维场景
+concept_map:
+- 前端可观测性体系
+- ├── 错误监控
+- │   ├── 全局捕获：window.onerror / unhandledrejection  —— P001
+- │   ├── 框架边界：Vue errorHandler / React ErrorBoundary  —— P001
+- │   ├── Source Map 还原与聚合去重  —— P001
+- │   └── Beacon 可靠上报  —— P001
+- ├── 性能监控
+- │   ├── Core Web Vitals：LCP/CLS/INP 采集  —— P002
+- │   ├── Resource Timing / Long Task 识别  —— P002
+- │   ├── 内存泄漏趋势监控  —— P002
+- │   └── SPA 软导航与跨域资源处理  —— P002
+- ├── 用户行为分析
+- │   ├── 事件模型：Event/Properties/User 三元组  —— P003
+- │   ├── 代码埋点 vs 无痕埋点/可视化圈选  —— P003
+- │   ├── 会话回放：rrweb 集成  —— P003
+- │   └── 漏斗模型与隐私合规  —— P003
+- ├── 链路追踪
+- │   ├── W3C Trace Context 标准透传  —— P004
+- │   ├── 前端根 Span 与子 Span 语义分层  —— P004
+- │   ├── 采样策略：一致性采样/错误全采  —— P004
+- │   └── RUM 与 APM 打通查询  —— P004
+- └── 可观测平台工程化
+- '    ├── 四层架构：SDK/接收/存储/查询告警  —— P005'
+- '    ├── ClickHouse 宽表存储与物化视图  —— P005'
+- '    ├── 分级告警：P0/P1/P2 策略与降噪  —— P005'
+- '    └── 发布守护与业务指标关联  —— P005'
+life_analogy:
+- 想象前端可观测性是**一家智能医院的全科诊疗体系**：
+- '- **错误监控** = **急诊监护仪**：7×24 小时捕获「心跳骤停」（白屏/崩溃）与「异常体征」（JS 报错），自动记录病发时刻（堆栈）、既往史（版本/路由）并呼叫医生（告警）'
+- '- **性能监控** = **体检指标看板**：持续测量「心肺功能」（LCP/INP）、 「代谢效率」（资源加载/长任务）、 「体重趋势」（内存占用），发现亚健康（卡顿）早干预'
+- '- **用户行为埋点** = **病人活动轨迹仪**：记录病人在医院「挂了哪个科」（页面访问）、「做了什么检查」（点击/提交）、「在哪卡住了」（漏斗流失），辅助诊断体验病灶'
+- '- **链路追踪** = **全院信息流转追踪**：从「挂号大厅」（前端入口）到「各科室会诊」（微服务调用）再到「检验科报告」（数据库），一条 `trace-id`
+  串起全链路，根因定位不再推诿'
+- '- **可观测平台** = **医院运营指挥中心**：聚合所有监护仪、体检单、轨迹仪、会诊单数据，配置分级预警（ICU级/普通病房级/体检复查级），支撑院长（业务方）与主治医师（开发）联合会诊'
+summary:
+- concept: window.onerror / unhandledrejection
+  desc: 浏览器原生全局错误捕获入口，分别覆盖同步运行时错误与未处理的 Promise 拒绝
+- concept: 框架错误边界
+  desc: Vue errorHandler / React ErrorBoundary，捕获组件渲染及生命周期阶段错误，补全原生捕获盲区
+- concept: Source Map 还原
+  desc: 将压缩混淆后的生产环境堆栈映射回源码行号，是错误可读性的前提
+- concept: 聚合去重指纹
+  desc: 以 (类型+信息+栈顶帧) 生成指纹，时间窗内合并计数，防止错误风暴刷屏
+- concept: PerformanceObserver
+  desc: 浏览器原生性能观测 API，异步非侵入式采集 LCP/CLS/INP/LongTask/Resource 等条目
+- concept: Core Web Vitals
+  desc: LCP/CLS/INP 三大核心体验指标，直接关联搜索排名与用户留存，监控首要目标
+- concept: 长任务
+  desc: 主线程连续占用 > 50ms 的任务，卡顿的元凶，需结合堆栈定位优化
+- concept: 事件模型三要素
+  desc: Event（事件名）、Properties（属性）、User（用户标识），结构化埋点的基石
+- concept: 代码埋点 vs 无痕埋点
+  desc: 前者灵活精准但侵入业务，后者零侵入但噪音大、隐私风险高，主流趋势：代码埋点主导+可视化圈选辅助
+- concept: 会话回放
+  desc: 基于 rrweb 录制 DOM 变更/输入/轨迹，还原用户现场，定性分析利器
+- concept: W3C Trace Context
+  desc: traceparent 头部标准，统一前后端链路 ID 透传格式，打通 RUM 与 APM 的关键协议
+- concept: 前端根 Span
+  desc: 页面加载/路由跳转/用户交互发起的根节点，子 Span 挂载 HTTP/资源/长任务等细节
+- concept: 一致性采样
+  desc: 基于 trace-id 固定比例采样，保证同一链路前后端要么全采要么全不采，兼顾成本与完整性
+- concept: 四层平台架构
+  desc: 采集端 -> 接收处理端 -> 存储端 -> 查询告警端，自研平台的标准化分层
+- concept: ClickHouse 宽表
+  desc: 列式存储、高压缩比、高吞吐写入，适合高基数指标/日志/链路统一存储
+- concept: 分级告警策略
+  desc: P0 电话/OnCall、P1 即时通讯、P2 工单/日报，配合聚合抑制实现告警降噪
+- concept: 发布守护
+  desc: 新版本发布后自动对比核心指标基线，异常阻断流水线或触发一键回滚
+exercises:
+- 'no': 1
+  title: 设计全局错误捕获聚合去重算法
+  contents:
+  - 假设某高峰期 1 分钟内上报 10 万条原始错误日志，包含大量重复错误：
+  - 1. 设计错误指纹生成规则（字段选择、归一化处理、栈顶帧提取策略）
+  - 2. 选择合适的数据结构在内存中做滑动时间窗（如 5 分钟）去重计数
+  - 3. 当同一指纹计数超过阈值（如 100 次/分钟）时，仅上报 1 条汇总日志并触发告警
+  - 回答问题：
+  - '- 如何处理 Source Map 解析前后堆栈不一致导致的指纹漂移？'
+  - '- 内存占用过高时，如何在不丢失核心错误的前提下降级？'
+- 'no': 2
+  title: 实现一个最小化性能监控 SDK 核心模块
+  contents:
+  - 要求：
+  - 1. 使用 PerformanceObserver 监听 'largest-contentful-paint'、'layout-shift'、'event'
+    (INP)、'longtask' 四类条目
+  - 2. 处理 SPA 路由切换场景：在 router.afterEach 中重置观测器并上报“软导航”性能指标
+  - 3. 资源加载瀑布采集：筛选 duration > 200ms 或 initiatorType 为 'script'/'css'/'img' 的资源上报
+  - 4. 所有上报统一使用 navigator.sendBeacon，Payload < 64KB
+  - 回答问题：
+  - '- 如何在不阻塞主线程的前提下计算 INP（需取所有交互延迟的 98 分位数）？'
+  - '- 跨域资源 ResourceTiming 信息受限，如何通过服端配置获取完整瀑布数据？'
+- 'no': 3
+  title: 搭建前后端链路追踪 Demo 并验证关联查询
+  contents:
+  - 环境：前端 Vue/React 简单页面 + 后端 Node.js/Go 两层微服务 + Jaeger/Grafana Tempo
+  - 任务：
+  - 1. 前端 SDK 封装 axios/fetch 拦截器，注入 traceparent Header（遵循 W3C 格式）
+  - 2. 后端网关/服务解析 Header，提取 trace-id/span-id 并续传给下游
+  - 3. 前端人为制造一个 API 500 错误，携带 trace-id 上报错误日志
+  - 4. 在 Tempo/Grafana 中输入该 trace-id，验证能看到完整链路：前端根 Span -> 网关 -> 服务 A -> 服务 B(报错)
+  - 回答问题：
+  - '- 若前端部署在 a.com，后端 API 在 b.com，CORS 需如何配置才能透传 traceparent？'
+  - '- 第三方支付回调页面无法注入 SDK，如何在链路中补齐这段“盲区”？'
+- 'no': 4
+  title: 规划自研可观测平台 MVP 版本技术选型与成本估算
+  contents:
+  - 场景：日活 500 万，日均 PV 2 亿，错误日志 500 万/天，链路 Span 2 亿/天
+  - 任务：
+  - 1. 选型 ClickHouse 集群规格（分片数、副本数、磁盘类型/容量），估算月存储成本（含冷热分离策略）
+  - 2. 设计核心宽表 Schema（字段、类型、编码、分区键、排序键、TTL）
+  - 3. 制定三级告警规则示例：错误率突增(P0)、LCP P75 超阈(P1)、新版本资源加载失败率上升(P2)
+  - 4. 规划数据合规脱敏方案：IP 掩码、用户 ID 哈希、敏感字段白名单
+  - 回答问题：
+  - '- ClickHouse 高基数标签（如 trace_id、user_id）如何建索引平衡查询性能与写入吞吐？'
+  - '- 如何利用物化视图预聚合“分钟级错误率”、“P75 LCP”加速看板查询？'
