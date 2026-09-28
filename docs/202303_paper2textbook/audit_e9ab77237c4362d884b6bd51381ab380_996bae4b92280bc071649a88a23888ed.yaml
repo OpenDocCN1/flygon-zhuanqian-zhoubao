@@ -1,0 +1,42 @@
+citation_stats:
+- paper: docs/202303/MZqUdSJumoQZwtxLCatcDJ1snze.md
+  count: 70
+  locations:
+  - ch68.2
+  - ch68.3
+  - ch68.4
+  - ch68.5
+  - ch68.6
+  - ch68.7
+  - ch68.8
+  - ch68.9
+  - ch68.10
+  - ch68.11
+  - ch68.12
+  - ch68.13
+  - ch68.14
+  - ch68.15
+  - ch68.16
+  - ch68.17
+  - ch68.18
+  - ch68.20
+unsupported_claims:
+- location: ch68.20
+  claim: 需引入外部第二来源（如平台官方运营白皮书、第三方MCN机构复盘报告、学术界算法机制研究）进行真正的多源对照验证，当前表格仅为单一来源内的分类梳理。
+  reason: 全书明确标注 '[需要补充文献]'，承认当前多源对照表格仅基于单一来源（MZqUdSJumoQZwtxLCatcDJ1snze.md）内部梳理，缺乏外部独立来源验证。
+missing_concepts:
+- paper: docs/202303/MZqUdSJumoQZwtxLCatcDJ1snze.md
+  concept: 平台算法机制实证研究（抖音/视频号/小红书流量分发模型、冷启动机制、直播间权重算法）
+  severity: high
+- paper: docs/202303/MZqUdSJumoQZwtxLCatcDJ1snze.md
+  concept: AIGC生成内容版权合规判例汇编（训练数据版权、生成内容归属、商用风险边界、平台规则演进）
+  severity: high
+- paper: docs/202303/MZqUdSJumoQZwtxLCatcDJ1snze.md
+  concept: 私域运营LTV量化模型与行业基准数据（不同赛道/客单价的获客成本CAC、复购率、留存率、LTV/CAC基准）
+  severity: high
+- paper: docs/202303/MZqUdSJumoQZwtxLCatcDJ1snze.md
+  concept: 数字人直播合规政策演进追踪（2023–2024）（各平台无人直播/数字人直播判定标准、处罚案例、合规操作指引）
+  severity: high
+- paper: docs/202303/MZqUdSJumoQZwtxLCatcDJ1snze.md
+  concept: 虚拟商品反盗版/水印技术对比评测（可见/不可见水印、区块链存证、加密分发、DRM方案的成本效益对比）
+  severity: high
