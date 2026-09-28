@@ -1,0 +1,184 @@
+units:
+- 'no': 1
+  name: 构建产物标准化 —— 让发布物拥有“指纹”与“防篡改锁”
+  points:
+  - '**为什么需要这个概念？**'
+  - '- 传统部署直接覆盖文件导致版本不可追溯、缓存失效混乱、回滚困难'
+  - '- SPA 刷新 404 问题需统一回退入口'
+  - '- 供应链安全要求资源防篡改验证'
+  - '**核心定义**'
+  - '- 不可变产物：文件名包含内容哈希（如 `index-[hash].js`），内容变则名变'
+  - '- 内容寻址：以哈希为唯一标识，实现长缓存与精准去重'
+  - '- SPA 回退：服务端配置 `fallback: index.html`，保证前端路由刷新不 404'
+  - '- 资源完整性校验 (SRI)：HTML 引用资源时附带 `integrity="sha384-..."`，浏览器校验防 CDN 劫持'
+  - '- Import Maps：运行时动态映射裸模块说明符，解耦依赖版本与构建产物'
+  - '**关键性质**'
+  - '- 长缓存策略：`Cache-Control: max-age=31536000, immutable` 仅对带哈希文件生效'
+  - '- 零停机部署：新旧版本产物共存，HTML 切换原子化'
+  - '- 可复现构建：相同源码必产出相同哈希产物'
+  - '**典型例子**'
+  - '- Vite/Rollup 输出 `assets/index-[hash].js` + `index.html` 引用自动注入哈希'
+  - '- Nginx 配置 `try_files $uri $uri/ /index.html` 实现 SPA 回退'
+  - '- `<script src="/app.[hash].js" integrity="sha384-xxx" crossorigin="anonymous"></script>`'
+  - '**边界条件**'
+  - '- HTML 入口文件通常不加哈希（或通过 Import Maps 间接版本化），需配置 `no-cache`'
+  - '- SRI 要求资源同源或开启 CORS (`crossorigin`)，跨域 CDN 需正确响应头'
+  - '- Import Maps 尚未被所有浏览器支持（需 Polyfill 或构建时内联）'
+  sources:
+  - paper: PU9Id4IPMoZ3QdxLzZUcEPBRnWO.md
+    role: origin
+  excerpts:
+  - '确立产物输出规范：`index-[hash].html`、静态资源长缓存、`importmap` 动态依赖、Subresource Integrity (SRI)
+    防篡改、SPA `fallback: index.html` 配置。'
+- 'no': 2
+  name: 容器化部署最佳实践 —— 从“开发机环境”到“生产级标准集装箱”
+  points:
+  - '**为什么需要这个概念？**'
+  - '- 解决“在我机器上能跑”的环境差异问题'
+  - '- 单体镜像过大（含构建工具、源码、node_modules）导致拉取慢、启动慢、攻击面大'
+  - '- 生产环境需非 root 运行、资源限额、健康检查保障 SLA'
+  - '**核心定义**'
+  - '- 多阶段构建：`Builder` 阶段安装依赖、编译构建；`Runner` 阶段仅复制产物至精简基础镜像'
+  - '- 非 Root 用户：`USER node:node` 或专用 UID/GID，降低容器逃逸风险'
+  - '- Distroless/Alpine 基础镜像：无 Shell、无包管理器、极小体积（~10MB 级）'
+  - '- 健康检查：`livenessProbe`（存活，死则重启）、`readinessProbe`（就绪，未就绪剔除流量）'
+  - '- 资源限额：`resources.limits/requests` (CPU/Memory)，防止噪声邻居、保障 QoS'
+  - '**关键性质**'
+  - '- 构建缓存利用：依赖层单独缓存，源码变更不重装依赖'
+  - '- 镜像层数最小化：合并 RUN 指令、清理缓存、多阶段丢弃中间层'
+  - '- 启动速度：Distroless 无需初始化系统服务，秒级冷启动'
+  - '**典型例子**'
+  - "- Dockerfile 标准模版：\n  ```dockerfile\n  # Builder\n  FROM node:20-alpine AS builder\n\
+    \  WORKDIR /app\n  COPY package*.json ./\n  RUN npm ci\n  COPY . .\n  RUN npm\
+    \ run build\n  \n  # Runner\n  FROM gcr.io/distroless/nodejs20-debian12\n  WORKDIR\
+    \ /app\n  COPY --from=builder /app/dist ./dist\n  COPY --from=builder /app/node_modules\
+    \ ./node_modules\n  USER nonroot:nonroot\n  EXPOSE 3000\n  CMD [\"dist/server.mjs\"\
+    ]\n  ```"
+  - '- Kubernetes Deployment 配置 probes 与 resources'
+  - '**边界条件**'
+  - '- Distroless 镜像无 Shell，调试需 `kubectl debug` 或附加 busybox sidecar'
+  - '- Alpine 基于 musl libc，部分原生模块（如 `bcrypt`, `sharp`）可能兼容性问题，需预编译或改用 Debian slim'
+  - '- `npm ci` 要求 `package-lock.json` 存在，Monorepo 需注意工作区锁文件同步'
+  sources:
+  - paper: PU9Id4IPMoZ3QdxLzZUcEPBRnWO.md
+    role: origin
+  excerpts:
+  - 编写生产级 Dockerfile：Builder 阶段安装依赖构建、Runner 阶段仅复制产物、非 root 运行、Distroless/Alpine 精简镜像、liveness/readiness
+    探针、CPU/内存 Limit/Request。
+- 'no': 3
+  name: K8s 部署策略与 Service Mesh —— 让流量在版本间“平滑过渡”
+  points:
+  - '**为什么需要这个概念？**'
+  - '- 直接替换 Pod 导致瞬间流量抖动、请求失败、版本切换不可控'
+  - '- 微服务间通信需可观测、熔断、限流、金丝雀发布等治理能力'
+  - '- 配置与密钥不应硬编码在镜像中'
+  - '**核心定义**'
+  - '- Deployment 策略：`RollingUpdate`（默认，滚动更新）、`Recreate`（停旧起新，适用无法共存场景）'
+  - '- Ingress：七层网关，负责 TLS 终结、基于 Host/Path 路由重写、灰度流量分发'
+  - '- ConfigMap/Secret：解耦配置与代码，挂载为卷或环境变量，支持热加载'
+  - '- HPA/VPA：Horizontal/Vertical Pod Autoscaler，基于 CPU/内存/自定义指标 (Prometheus) 弹性伸缩'
+  - '- Istio Service Mesh：Sidecar (Envoy) 透明劫持流量，实现细粒度流量治理（镜像、金丝雀、故障注入）'
+  - '**关键性质**'
+  - '- 滚动更新参数：`maxSurge`（超额）、`maxUnavailable`（不可用），控制更新节奏'
+  - '- PreStop Hook + `terminationGracePeriod`：优雅关闭连接，配合 Readiness Probe 延迟剔除，实现零断连发布'
+  - '- Istio VirtualService/DestinationRule：声明式定义流量权重、重试、超时、熔断策略'
+  - '**典型例子**'
+  - '- 金丝雀发布：Istio `VirtualService` 将 10% 流量导向 `v2` 子集，观测指标正常再逐步放量 100%'
+  - '- 流量镜像：生产流量镜像一份到新版本，仅观测不返回响应，验证兼容性'
+  - '- HPA 配置：`metrics: - type: Pods, pods: {metric: {name: http_requests_per_second},
+    target: {type: AverageValue, averageValue: "1000"}}`'
+  - '**边界条件**'
+  - '- RollingUpdate 要求应用支持双版本共存（API 向后兼容、数据库迁移向后兼容）'
+  - '- Istio 引入 Sidecar 增加资源开销（~50-100MB 内存/实例）与链路延迟（~1-2ms）'
+  - '- Secret 默认 Base64 非加密，生产需配合 Sealed Secrets / Vault / External Secrets Operator
+    落地加密'
+  sources:
+  - paper: PU9Id4IPMoZ3QdxLzZUcEPBRnWO.md
+    role: origin
+  excerpts:
+  - 配置 RollingUpdate/Recreate 策略、Ingress TLS 终结/路由重写、ConfigMap 挂载运行时配置、Secret 管理敏感信息、HPA
+    基于 CPU/自定义指标弹性、Istio 金丝雀流量镜像。
+- 'no': 4
+  name: 边缘计算与边缘渲染 —— 让首屏渲染发生在“用户家门口”
+  points:
+  - '**为什么需要这个概念？**'
+  - '- 传统中心化部署（单区域）导致跨洲访问 TTFB 高（>200ms）'
+  - '- SSR 在中心服务器渲染再传输 HTML，延迟随物理距离线性增长'
+  - '- 需要地理就近计算能力：鉴权、A/B 测试、个性化渲染、边缘缓存'
+  - '**核心定义**'
+  - '- Edge Runtime：V8 Isolates 而非 Node.js 进程，启动极快（ms 级）、无文件系统、API 受限（无 `fs`, `net`
+    等）'
+  - '- 边缘渲染：在 CDN 节点执行 SSR/中间件，输出 HTML 直达用户，TTFB 接近网络物理极限'
+  - '- 部署目标：Cloudflare Workers, Vercel Edge Functions, AWS Lambda@Edge, Netlify Edge
+    Functions'
+  - '- Edge KV / Durable Objects：边缘分布式键值存储，存会话、配置、计数器，强一致性或最终一致性可选'
+  - '- Middleware：请求入站拦截，可重写、重定向、注入 Header、A/B 测试分桶、Bot 拦截'
+  - '**关键性质**'
+  - '- 代码体积限制：通常 < 1-5MB (压缩后)，依赖需精简'
+  - '- 执行时间限制：CPU 时间 10-50ms (免费/标准 tier)，超时即终止'
+  - '- 无状态设计：实例随时销毁迁移，本地变量不可持久化，状态外置 Edge KV/Redis'
+  - '- 部分渲染：Next.js `export const runtime = ''edge''` 仅对支持的 API 生效，数据库驱动需支持 HTTP (如
+    PlanetScale, Neon, Upstash)'
+  - '**典型例子**'
+  - '- Next.js App Router: `export const runtime = ''edge''` + `next/dist/server/web/spec-extension/adapters/node`
+    适配'
+  - '- 个性化首屏：Middleware 读 Cookie -> Edge KV 查用户偏好 -> 重写 URL 至 `/en/premium` -> Edge
+    SSR 渲染返回'
+  - '- A/B 测试：Middleware 基于 Cookie/Hash 分桶，重写路由至不同版本页面，零客户端闪烁'
+  - '**边界条件**'
+  - '- Node.js 原生模块（`crypto`, `fs`, `child_process`）在 Edge Runtime 多不可用，需 Polyfill
+    或原生 Web API 替代'
+  - '- 长连接/WebSocket 支持有限（Cloudflare Durable Objects 支持，Vercel Edge 不支持）'
+  - '- 数据库连接：传统 TCP 连接池不适用，必须使用 HTTP-based Driver (Postgres over HTTP, PlanetScale,
+    Neon, Turso/libSQL)'
+  - '- 成本模型：按调用次数 + CPU 时间 + 出站流量计费，高频长耗时任务成本可能超源站服务器'
+  sources:
+  - paper: PU9Id4IPMoZ3QdxLzZUcEPBRnWO.md
+    role: origin
+  excerpts:
+  - 对比 Edge Runtime 与 Node.js Runtime 差异、部署 Next.js/Nuxt Edge Functions、地理就近渲染降低 TTFB、Edge
+    KV 存储会话/配置、A/B 测试中间件。
+- 'no': 5
+  name: GitOps 持续交付流水线 —— 用 Git 仓库作为“唯一事实来源”驱动集群收敛
+  points:
+  - '**为什么需要这个概念？**'
+  - '- 传统 CI/CD（推模式）：CI 系统拥有集群凭证，权限过大、审计难、状态易漂移'
+  - '- 手动 `kubectl apply` 无记录、不可复现、难审计'
+  - '- 需要“声明式期望状态”存储在 Git，集群自动拉取同步'
+  - '**核心定义**'
+  - '- GitOps 核心原则：声明式、版本化、拉取同步、持续协调'
+  - '- ArgoCD：GitOps 控制器，监控 Git 仓库 Manifest 与集群实际状态，自动/手动同步'
+  - '- App of Apps 模式：根 Application 管理子 Application，实现多环境、多租户、多集群层级管理'
+  - '- PreSync/PostSync Hook：同步前跑迁移/测试，同步后跑冒烟测试/通知'
+  - '- 自动回滚：`automated.prune` + `selfHeal` + 健康检查失败触发回滚至上一版本'
+  - '- 变更日志生成：集成 Jira/Confluence/Git Commit Message 自动生成发布说明'
+  - '**关键性质**'
+  - '- 单向数据流：Git -> ArgoCD -> Cluster，不可逆，审计链完整'
+  - '- 差异可视化：UI 清晰展示 Git 期望与集群实际的 Diff（资源、字段级）'
+  - '- RBAC 隔离：开发团队只写 Git，ArgoCD 受控同步，最小权限原则'
+  - '- 灰度发布结合：ArgyoCD 管理 `Rollout` (Argo Rollouts) 资源，配合 Istio 实现金丝雀分析'
+  - '**典型例子**'
+  - '- 目录结构：`apps/prod/my-app/{kustomization.yaml, deployment.yaml, service.yaml,
+    rollout.yaml}`'
+  - "- ArgoCD Application yaml：\n  ```yaml\n  spec:\n    source:\n      repoURL: https://github.com/org/infra-config\n\
+    \      targetRevision: main\n      path: apps/prod/my-app\n    destination:\n\
+    \      server: https://kubernetes.default.svc\n      namespace: prod\n    syncPolicy:\n\
+    \      automated:\n        prune: true\n        selfHeal: true\n        allowEmpty:\
+    \ false\n      retry:\n        limit: 5\n        backoff:\n          duration:\
+    \ 5s\n          factor: 2\n          maxDuration: 3m\n  ```"
+  - '- 发布流程：开发提 PR -> 合并 main -> CI 构建镜像推 Registry -> 更新 GitOps 仓库镜像 Tag -> ArgoCD
+    检测变更 -> 同步应用'
+  - '**边界条件**'
+  - '- Secret 管理：Git 明文存 Secret 违规，需配合 Sealed Secrets (Bitnami) / External Secrets
+    Operator (AWS Secrets Manager/Vault) 解密注入'
+  - '- Helm/Kustomize 渲染：ArgoCD 支持原生 Helm/Kustomize，复杂模版建议 CI 预渲染生成纯 Manifest 再提交
+    Git（审计更清晰）'
+  - '- 大规模集群：ArgoCD 控制器性能瓶颈，需分片或多实例，资源数 > 10万建议分多个 ArgoCD 实例'
+  - '- 网络策略：ArgoCD Server/Repo Server/Application Controller 需访问 Git/API Server/Registry，需配置
+    NetworkPolicy/Egress'
+  sources:
+  - paper: PU9Id4IPMoZ3QdxLzZUcEPBRnWO.md
+    role: origin
+  excerpts:
+  - 落地 GitOps：ArgoCD 监控 Git 仓库声明式同步、PreSync/PostSync Hook 运行迁移/测试、自动回滚健康检查失败版本、集成
+    Jira/Confluence 自动生成发布说明。

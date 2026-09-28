@@ -1,0 +1,195 @@
+learning_targets:
+- 理解 Web Components 标准化进程中 Declarative Shadow DOM、Form Associated Custom Elements、CSS
+  Parts/Constructible Stylesheets 等进阶特性的工程价值
+- 掌握 Signal 细粒度响应式范式的核心原语（signal/computed/effect）、自动依赖追踪原理及其跨框架/无框架复用机制
+- 对比 Qwik Resumability、Astro Islands、Fresh 等原子化框架在水合策略、架构模型、适用场景上的核心差异
+- 深度解析 React Server Components (RSC) 的 Server/Client 组件边界、Flight 协议/RSC Payload、流式渲染与
+  Server Actions 的工程实践
+- 建立 TC39/W3C 重点提案（Temporal、Decorators、Record & Tuple、Import Maps 等）的跟踪评估体系，判断其生产可用性与对技术选型的影响
+concept_map:
+- 前端前沿技术追踪
+- ├── Web Components 标准化现状
+- │   ├── 核心支柱：Custom Elements / Shadow DOM / HTML Template
+- │   ├── 进阶特性：Declarative Shadow DOM (DSD) —— P001
+- │   ├── 进阶特性：Form Associated Custom Elements (FACE) —— P001
+- │   ├── 进阶特性：CSS Parts (::part) / Constructible Stylesheets —— P001
+- │   ├── 工程价值：框架无关、强隔离、原生表单集成、SSR 友好
+- │   └── 边界条件：CSS 变量穿透、FACE 限制、DSD 仅 open 模式、性能开销、生态成熟度
+- ├── 信号响应式范式
+- │   ├── 核心原语：signal / computed / effect —— P002
+- │   ├── 实现原理：activeEffect 栈、双向订阅链表、脏标记机制 —— P002
+- │   ├── 关键性质：无编译时分析、细粒度更新、跨框架复用、无 Hooks 规则、引用稳定 —— P002
+- │   ├── 典型场景：跨框架状态库、Web Worker 后台计算、原生 JS 工具库
+- │   └── 边界条件：深层响应需手动处理、调试需专用插件、SSR 序列化、内存泄漏风险、异步边界调度
+- ├── 原子化框架新生代
+- │   ├── Qwik Resumability：序列化闭包 (useLexicalScope)、零水合、按需懒加载 Handler —— P003
+- │   ├── Astro Islands：HTML 优先、部分水合 (client:load/visible/idle)、多框架混用 —— P003
+- │   ├── Fresh：Deno 边缘预渲染、零客户端 JS 默认、Preact Signals 增强 —— P003
+- │   ├── 共同特质：HTML First、部分水合、流式传输
+- │   └── 边界条件：Qwik 序列化约束、Astro 岛屿通信、Fresh 运行时锁定、SEO 爬虫兼容、开发体验差异
+- ├── React Server Components (RSC) 架构
+- │   ├── 组件分类：Server Components (零包体积、直连后端) / Client Components ('use client') ——
+  P004
+- │   ├── 通信协议：Flight 协议 / RSC Payload (JSON 格式、Promise 占位符、Client Component 引用) ——
+  P004
+- │   ├── 核心机制：流式渲染 + Suspense、Server Actions ('use server')、Next.js App Router 实践
+  —— P004
+- │   ├── 工程优势：包体积减少、安全性提升、数据获取协同消除瀑布流
+- │   └── 边界条件：边界规则 (Server/Client 导入限制)、心智模型转型、水合顺序依赖、Server Actions 安全性、生态锁定、调试难度
+- └── TC39/W3C 重点提案追踪
+- ├── TC39 Stage 3/4：Temporal (替代 Date) / Decorators (标准元编程) / Record & Tuple (深度不可变值语义)
+  / ShadowRealm (沙箱) —— P005
+- ├── W3C/WHATWG：HTML Modules / Import Maps (裸说明符映射) / Wasm GC & Component Model ——
+  P005
+- ├── 关键性质：渐进增强、工具链先行、驱动框架设计演进
+- ├── 典型场景：跨时区计算、注解系统、状态不可变 Key、无构建开发、插件隔离
+- └── 边界条件：Stage 变动风险、Polyfill 体积性能、TS 版本绑定、浏览器兼容性、标准化周期长
+life_analogy:
+- 想象前端技术演进是一场**城市基础设施的迭代升级**：
+- '- **Web Components** = **统一接口标准的“预制组件”**：像水电燃气的标准化管道接口，不管你用什么品牌的装修风格（React/Vue），都能直接接入城市主管网，且自带独立表计（Shadow
+  DOM 隔离）、原生接入市政表单系统（FACE）、支持远程抄表主题下发（Constructible Stylesheets）。'
+- '- **Signals** = **智能家居的“传感器-执行器”总线**：不需要中央大脑（虚拟 DOM）轮询全屋状态，拉窗帘（set signal）时，只有关联的灯光/空调（effect/computed）精准响应，且这套总线能从别墅（React）搬到公寓（Vue/Vanilla/Worker）无需重装。'
+- '- **原子化框架 (Qwik/Astro/Fresh)** = **“按需送装” 的模块化家具物流**：传统 SPA 是把整屋家具拆成螺丝钉（打包 JS）运到现场再组装（水合），耗时耗力；Qwik
+  是把组装好的家具连同说明书（序列化闭包）直接运来，住户动手（交互）时才拆封说明书；Astro 是默认只运成品家具（静态 HTML），只有智能马桶等需交互件（岛屿）才配送安装工；Fresh
+  则是就在楼下工厂（边缘节点）现做现送。'
+- '- **RSC** = **“中央厨房+前场盛装” 的餐饮新模式**：传统 SSR 是中央厨房做好全套菜（HTML）端上桌，食客还得自己把菜切碎重组装（水合）才能吃；RSC
+  把耗时、隐私、重工序的备菜、炖汤（数据获取、后端直连、大依赖）留在中央厨房，只把精美摆盘（RSC Payload）端上桌，食客只需动刀叉（Client Component
+  交互）即可，甚至厨师还能根据食客反馈（Server Action）实时调味。'
+- '- **TC39/W3C 提案** = **城市规划局的“蓝图与预留用地”**：Temporal 是统一时区的新标准钟楼；Decorators 是给建筑打统一标签的元数据系统；Record/Tuple
+  是不可篡改的档案原件；Import Maps 是统一的地址门牌映射表。提前研读蓝图，盖房子（写框架/业务）时就不会踩中未来的地铁线。'
+summary:
+- concept: Declarative Shadow DOM (DSD)
+  desc: 在 HTML 中声明式定义 Shadow Root，解决 Web Components SSR 闪烁与水合难题
+- concept: Form Associated Custom Elements (FACE)
+  desc: 让自定义元素原生参与表单提交、验证、重置，成为真正的表单控件
+- concept: CSS Parts / Constructible Stylesheets
+  desc: 标准化的 Shadow DOM 样式穿透与共享方案，支撑设计系统主题分发
+- concept: Signal (信号)
+  desc: 细粒度响应式核心原语：自动依赖追踪、运行时收集、无需编译、跨框架复用
+- concept: computed / effect
+  desc: 派生状态与副作用原语：惰性缓存计算、依赖变更自动调度执行
+- concept: '@preact/signals-core'
+  desc: 框架无关的信号核心实现（~1KB），支撑 Vanilla/Worker/React/Vue/Solid 共享响应式逻辑
+- concept: Resumability (Qwik)
+  desc: 序列化闭包而非重演水合：服务端序列化状态与 Handler，客户端按需恢复执行
+- concept: Islands Architecture (Astro)
+  desc: HTML 优先，仅交互组件作为岛屿部分水合，支持多框架混用
+- concept: Zero-Hydration / Edge-Native (Fresh)
+  desc: Deno 边缘预渲染，默认零客户端 JS，交互通过表单或 Preact Signals 局部增强
+- concept: Server Components (RSC)
+  desc: 仅在服务端运行、零包体积发送客户端、可直接访问数据库/文件系统/密钥
+- concept: Client Components (RSC)
+  desc: 需交互/状态/浏览器 API 的组件，标记 'use client'，正常打包水合
+- concept: Flight Protocol / RSC Payload
+  desc: RSC 流式传输的统一数据格式：虚拟 UI 树、Client Component 引用、Promise 占位符
+- concept: Server Actions
+  desc: 标记 'use server' 的服务端函数，客户端调用触发 POST 实现数据变更与重新验证
+- concept: Temporal API
+  desc: Stage 3 提案，替代 Date，提供不可变、时区原生、纳秒精度的现代日期时间操作
+- concept: Standard Decorators
+  desc: Stage 3 提案，标准化元编程能力，框架注解系统迁移目标，不可修改类结构
+- concept: Record & Tuple
+  desc: Stage 2 提案，深度不可变、值语义比较的复合原始类型，解决对象/数组引用比较痛点
+- concept: Import Maps
+  desc: 浏览器原生裸说明符映射标准，支持无构建开发、微前端运行时依赖共享
+- concept: ShadowRealm
+  desc: Stage 3 提案，轻量级全局作用域隔离沙箱，适配插件系统、多版本共存
+exercises:
+- 'no': 1
+  title: Web Components 进阶特性实战：构建一个原生表单兼容的输入组件
+  contents:
+  - 目标：创建一个 `<validated-input>` 自定义元素，要求：
+  - 1. 使用 Declarative Shadow DOM (DSD) 实现 SSR 无闪烁渲染
+  - '2. 实现 Form Associated Custom Elements (FACE) 接口，支持 `formAssociated: true`，能参与原生
+    `<form>` 提交、 `checkValidity()` 校验、 `reset()` 重置'
+  - 3. 使用 `::part()` 暴露内部 `<input>` 样式接口，使用 `Constructible Stylesheets` 共享全局主题变量
+  - 4. 在外部表单中使用该组件，验证：表单提交时包含该组件值、点击浏览器原生重置按钮组件能重置、外部 CSS 通过 `::part(input)` 修改内部输入框边框色
+  - 思考题：
+  - '- DSD 与命令式 `attachShadow` 在流式 SSR 架构下的差异是什么？'
+  - '- FACE 元素在 `<fieldset disabled>` 下默认不生效，如何通过 `ElementInternals` 手动同步禁用状态？'
+  - '- `Constructible Stylesheets` 相比在 Shadow DOM 内部 `<style>` 引入外部 CSS 有何性能优势？'
+- 'no': 2
+  title: Signal 跨框架状态共享实验
+  contents:
+  - 环境：分别创建一个 React 应用和一个 Vue 应用（或原生 HTML 页面），共享同一个 `@preact/signals-core` 状态实例。
+  - 步骤：
+  - 1. 创建 `shared-state.js`：导出 `count = signal(0)`、 `double = computed(() => count.value
+    * 2)`、 `logger = effect(() => console.log('count changed:', count.value))`
+  - 2. 在 React 组件中：引入 `@preact/signals-react`，使用 `useSignal` 绑定 `count`，点击按钮 `count.value++`
+  - 3. 在 Vue 组件中：引入 `@preact/signals-vue`，使用 `useSignal` 绑定 `count`，显示 `double.value`
+  - 4. 观察：React 修改 `count` 时，Vue 视图是否自动更新？`effect` 日志打印几次？
+  - 进阶挑战：
+  - '- 在 Web Worker 中修改 `count.value`，主线程 React/Vue 视图能否响应？（提示：需配合 `BroadcastChannel`
+    或 `SharedArrayBuffer` 同步信号变更）'
+  - '- 尝试在 `effect` 中发起异步请求，请求完成后修改另一个 `signal`，观察调度顺序与潜在竞态条件。'
+  - 思考题：
+  - '- 为什么 `signal` 对象引用稳定性能避免 React `useMemo`/`useCallback`？'
+  - '- `@preact/signals-core` 如何实现无框架运行时依赖的自动依赖追踪？核心数据结构是什么？'
+- 'no': 3
+  title: 原子化框架水合策略对比与选型决策
+  contents:
+  - 场景：团队需重构一个以内容为主、交互局部性强（搜索、评论、个性化推荐）的电商详情页，SEO 与首屏性能（LCP/TTI）是核心 KPI。
+  - 任务：
+  - 1. 分别用 Qwik (Resumability)、Astro (Islands)、Fresh (Edge SSR) 实现该页面原型（可简化为组件结构图
+    + 关键代码骨架）。
+  - 2. 对比三者在以下维度的表现，填写决策矩阵：
+  - '   - 首屏 JS 体积 (KB)'
+  - '   - 交互启动延迟 (首次点击响应)'
+  - '   - 现有 React 组件库复用成本'
+  - '   - 跨岛屿/组件状态共享复杂度'
+  - '   - 部署运维约束'
+  - '   - 团队学习曲线'
+  - 3. 基于矩阵给出技术选型建议，并撰写 ADR (Architecture Decision Record) 摘要。
+  - 思考题：
+  - '- Qwik 的 `useLexicalScope()` 如何打破 JS 闭包不可序列化的限制？这对代码组织（文件结构、导出规范）有何强制要求？'
+  - '- Astro 岛屿间通信方案（Nanostores / CustomEvent / Shared Worker / URL Sync）各自的优劣势与适用边界？'
+  - '- Fresh 绑定 Deno Deploy 的优势（冷启动、边缘 KV、零配置）与劣势（Vendor Lock-in、Node.js 生态兼容）在企业级项目中的权衡？'
+- 'no': 4
+  title: RSC 架构边界规则与 Server Action 实战
+  contents:
+  - 基于 Next.js App Router 构建一个“文章管理后台”最小原型，包含：
+  - 1. **Server Component 页面** (`app/articles/page.js`)：并行获取文章列表 (DB) 和分类标签 (API)，流式渲染，`Suspense`
+    包裹耗时查询。
+  - 2. **Client Component 交互组件** (`components/ArticleFilter.jsx`)：标记 `'use client'`，提供分类筛选下拉、搜索输入框，状态驻留客户端。
+  - 3. **组合关系**：页面通过 `children` props 传递 `ArticleFilter`，或 `ArticleFilter` 作为页面子节点渲染。
+  - 4. **Server Action** (`actions/publishArticle.js`)：标记 `'use server'`，接收表单数据，校验权限，写入数据库，`revalidatePath('/articles')`
+    触发列表刷新。
+  - 5. **表单绑定**：在 Client Component 或 Server Component 中使用 `<form action={publishArticle}>`
+    提交。
+  - 必现错误并修复（体会边界规则）：
+  - '- 尝试在 Server Component 中 `import { useState } from ''react''` 或直接调用 `publishArticle()`
+    而非通过 `<form action>`，观察报错。'
+  - '- 尝试在 Client Component 中 `import { getArticles } from ''@/lib/db''` (服务端直连 DB
+    函数)，观察打包报错或密钥泄露风险。'
+  - '- 尝试在 Server Component 向 Client Component 传递函数 props 或类实例，观察序列化报错。'
+  - 思考题：
+  - '- RSC Payload 中 `Promise` 占位符是如何配合 `Suspense` 落地实现“先发 Shell 后补内容”的？'
+  - '- `Server Action` 的参数序列化限制（不可传函数、Symbol、循环引用）对表单设计有何影响？如何处理文件上传？'
+  - '- 为什么说 RSC 让“瀑布流请求”自然消失？对比传统 `getServerSideProps` / `useEffect` fetch 的请求发起时机差异。'
+- 'no': 5
+  title: TC39 提案落地评估：为项目引入 Temporal 与 Record/Tuple
+  contents:
+  - 背景：项目中大量使用 `date-fns`/`moment` 处理跨时区业务时间，Redux Store 因对象引用比较导致 `useEffect`/`useMemo`
+    误触发，团队评估引入 Stage 3 `Temporal` 与 Stage 2 `Record/Tuple`。
+  - 任务：
+  - 1. **Temporal 迁移 POC**：
+  - '   - 编写工具函数 `convertLegacyToTemporal(dateStr, tz)` 将遗产 ISO 字符串转为 `Temporal.ZonedDateTime`。'
+  - '   - 实现“下个月同一天 10:00 (America/New_York)” 的计算，对比 `date-fns` 代码量与可读性。'
+  - '   - 接入 `@js-temporal/polyfill`，配置 `browserslist`，测试 Polyfill 体积影响 (gzip 后)。'
+  - 2. **Record/Tuple 状态重构 POC**：
+  - '   - 将 Redux Slice 的初始状态 `initialState = { user: { name: '''', roles: [] }, filters:
+    {} }` 重写为 `#{ user: #{ name: '''', roles: #[] }, filters: #{} }`。'
+  - '   - 修改 Reducer 返回新状态时使用 Record/Tuple 语法（`#{ ...state, user: #{ ...state.user,
+    name: action.payload } }`）。'
+  - '   - 验证：`state.user === newState.user` 在未修改 `user` 时为 `true`，`useEffect` 依赖 `[state.user]`
+    不再误触发。'
+  - '   - 接入 `record-tuple-polyfill`，评估对旧浏览器性能影响。'
+  - 3. **决策文档输出**：
+  - '   - 记录 Polyfill 体积、TypeScript 配置调整 (`lib: [''ESNext.Temporal'']`)、ESLint/Prettier
+    规则适配、团队培训成本。'
+  - '   - 给出分阶段迁移建议：新代码强制使用、存量代码按模块重构、Polyfill 兜底策略。'
+  - 思考题：
+  - '- `Temporal.Instant` 与 `Temporal.ZonedDateTime` 的区别？持久化存储时推荐用哪种？'
+  - '- `Record`/`Tuple` 的值语义比较 (`===`) 如何在 JS 引擎层面实现？这对 GC 有何影响？'
+  - '- `Decorators` 标准化后，`@Component`/`@Injectable` 等类装饰器为何不能像旧版那样 `return` 一个新类？这对
+    Angular/NestJS 等框架迁移有何破坏性影响？'
