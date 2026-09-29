@@ -1,0 +1,96 @@
+learning_targets:
+- 理解 PromptTemplate 与 ExampleSelector 实现提示词工程化（版本化、参数化、动态少样本）的核心价值
+- 掌握结构化输出解析器（OutputParser/PydanticOutputParser）构建“自然语言输入→类型安全对象输出”编程契约的方法
+- 了解 DSPy 与 OPRO 将提示词优化建模为离散优化/编译流程的原理、适用边界与工程落地成本
+- 能根据任务复杂度、模型能力与数据规模，选择合适的提示词管理与自动优化策略
+concept_map:
+- 提示工程体系化
+- ├── 提示词即代码
+- │   ├── PromptTemplate（参数化模版/版本控制/序列化）     —— 概念1
+- │   └── ExampleSelector（动态少样本/向量检索/长度控制） —— 概念1
+- ├── 结构化输出与类型安全
+- │   ├── OutputParser 接口（格式指令/解析/自愈重试）     —— 概念2
+- │   └── PydanticOutputParser（Schema 共享/强类型映射）  —— 概念2
+- └── 提示自动优化
+- '    ├── DSPy（声明式模块/编译器优化/指令与示例搜索） —— 概念3'
+- '    └── OPRO（LLM 作为优化器/优化轨迹上下文/黑盒离散优化） —— 概念3'
+life_analogy:
+- 想象提示工程体系化是**建筑工程的标准化演进**：
+- '- **PromptTemplate** = **标准化图纸模版**：将「盖房子」的通用流程固定为带参数槽位的图纸（户型、朝向、面积为变量），替代每次口头指挥工人砌墙。'
+- '- **ExampleSelector** = **智能案例库**：业主说「我想要地中海风格」，系统自动从过往万个项目中检索最相似的 3 套「地中海风格」施工案例图纸附在新图纸后，而非死板贴上公司前
+  3 个项目。'
+- '- **PydanticOutputParser** = **验收标准书**：约定交付物必须是「JSON 格式的竣工验收单」（字段、类型、枚举全定死），验收员（下游代码）拿着标准书一核对，不合格直接打回重做（自愈重试），彻底杜绝「口头承诺交付」的扯皮。'
+- '- **DSPy/OPRO** = **AI 首席架构师**：不再靠人工反复修改图纸，而是告诉架构师「目标：通过验收率>99%、成本降 20%」，架构师自动遍历历史图纸与验收记录，进化出最优图纸模版，并持续随新项目数据迭代。'
+summary:
+- concept: PromptTemplate
+  desc: 提示词参数化模版，实现静态骨架与动态变量解耦，支持版本控制、序列化存储与非技术人员维护
+- concept: ExampleSelector
+  desc: 动态少样本检索器，基于语义相似度/长度/多样性从案例库选取最相关示例，替代静态硬编码 Few-shot
+- concept: OutputParser
+  desc: 定义格式指令注入、输出解析、带提示词修复重试的标准接口，屏蔽 LLM 非结构化输出的不确定性
+- concept: PydanticOutputParser
+  desc: 结合 Pydantic Schema 实现输出到强类型对象的自动映射校验，提示词与解析器共享同一 Schema 契约
+- concept: DSPy
+  desc: 声明式自优化框架，将提示词优化建模为『模块声明→编译器搜索』流程，自动优化指令、示例、CoT 步骤
+- concept: OPRO
+  desc: 利用 LLM 自身作为优化器，基于历史『Prompt+Score』轨迹生成新候选提示词，实现黑盒离散优化
+- concept: 数据飞轮
+  desc: 线上交互数据→标注/合成→离线优化→线上 A/B→新数据，驱动提示词持续自动化迭代的闭环机制
+exercises:
+- 'no': 1
+  title: 手写一个简易 PromptTemplate 与 ExampleSelector
+  contents:
+  - 1. 实现 `PromptTemplate` 类：
+  - '   - 接收模版字符串（如 "翻译成 {lang}：{text}"）与输入变量字典'
+  - '   - 提供 `format()` 方法渲染最终提示词，缺失变量时抛出明确异常或使用默认值'
+  - '   - 支持 `save_json()` / `load_json()` 实现版本化持久化'
+  - 2. 实现 `SimilarityExampleSelector` 类：
+  - '   - 初始化时接收示例列表 `[{''input'': ''...'', ''output'': ''...''}, ...]` 与 Embedding
+    函数'
+  - '   - `select_examples(query, k=3)`：计算 query 与所有示例 input 的向量相似度，返回 Top-k 示例'
+  - '   - 结合 `PromptTemplate`：渲染时自动将选中的示例格式化注入 `few_shot_examples` 变量'
+  - 3. 思考题：
+  - '   - 当示例库达到 10 万条时，暴力计算相似度延迟过高，如何工程化优化？'
+  - '   - 如何设计 A/B 测试对比「固定示例」vs「动态检索示例」的效果差异？'
+- 'no': 2
+  title: 结构化输出解析与自愈重试实战
+  contents:
+  - 场景：让模型输出结构化的「代码审查意见」，包含文件路径、行号、严重度、建议修复代码。
+  - '1. 定义 Pydantic 模型 `ReviewComment(file: str, line: int, severity: Literal[''low'',''medium'',''high''],
+    fix: str)` 与 `CodeReview(comments: List[ReviewComment], summary: str)`。'
+  - 2. 使用 `PydanticOutputParser` 生成格式指令，拼接进 PromptTemplate。
+  - 3. 模拟模型返回「缺少右大括号」「字段类型不匹配」「Markdown 代码块包裹 JSON」等 3 种典型脏输出。
+  - 4. 实现 `parse_with_prompt()` 逻辑：捕获解析异常 → 构造修复提示词（含原始输出、报错信息、Schema）→ 再次调用模型 → 循环重试最多
+    3 次。
+  - 5. 思考题：
+  - '   - 流式输出场景下，为何难以增量解析 JSON？有何替代方案（如 JSON Lines、分隔符流、Grammar-based 解码）？'
+  - '   - 小模型（如 3B）遵循复杂 Schema 失败率高，除微调外，如何通过提示词工程提升成功率？'
+- 'no': 3
+  title: DSPy 风格提示词优化最小闭环
+  contents:
+  - 任务：优化「从用户问题生成 SQL」的提示词。
+  - 1. 准备数据：收集 50 组 `(question, sql)` 训练集，再准备 20 组测试集（含执行正确性校验脚本）。
+  - 2. 定义 DSPy 模块：`class Text2SQL(dspy.Module):` 包含 `Predict('question -> sql')` 与可选的
+    `ChainOfThought`。
+  - '3. 定义指标函数：`def exact_match(pred, gold): return pred.sql.strip() == gold.sql.strip()`。'
+  - 4. 运行优化器：`tp = dspy.teleprompt.BootstrapFewShot(metric=exact_match); optimized
+    = tp.compile(Text2SQL(), trainset=trainset)`。
+  - 5. 对比优化前后在测试集上的 Exact Match 与 Token 消耗。
+  - 6. 思考题：
+  - '   - BootstrapFewShot 与 MIPROv2 优化器的核心差异是什么？何时选用哪个？'
+  - '   - 优化得到的提示词迁移到 GPT-4o-mini 与 Llama-3-8B-Instruct 上效果为何可能大相径庭？如何评估跨模型鲁棒性？'
+  - '   - 优化成本（API 调用次数、Token 费用）与收益如何量化？设定何种停止条件最合理？'
+- 'no': 4
+  title: OPRO 风格提示词进化模拟
+  contents:
+  - 不调用真实 LLM，手工模拟 OPRO 核心循环理解其动态。
+  - 1. 初始提示词池：`["Let's think step by step.", "Solve this problem.", "Answer directly."]`。
+  - 2. 模拟评分函数（人工打分或启发式规则）：为每个提示词在 5 道数学题上打分（0-1）。
+  - '3. 构造元提示词："以下是历史提示词及其得分：\n[Prompt 1: 0.6]\n[Prompt 2: 0.4]...\n请生成一个更高分的新提示词："。'
+  - 4. 人工扮演「优化器 LLM」，根据历史轨迹写出 2 个新候选提示词。
+  - 5. 评分新提示词，加入池子，迭代 3 轮。
+  - 6. 记录每轮最佳提示词与分数变化曲线。
+  - 7. 思考题：
+  - '   - OPRO 为何能跳出局部最优？（提示：优化器 LLM 拥有语义理解与泛化能力，非单纯梯度下降）'
+  - '   - 元提示词中「历史轨迹」的窗口大小、呈现格式对优化效率影响有多大？'
+  - '   - 如何防止优化器生成的提示词过拟合训练集（如死记硬背答案）？'
