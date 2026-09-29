@@ -1,0 +1,283 @@
+citation_stats:
+- paper: 20230418_117.md
+  count: 37
+  locations:
+  - '24.2'
+  - '24.3'
+  - 24.3.1
+  - 24.3.2
+  - 24.3.4
+  - 24.3.5
+  - 24.3.6
+  - 24.3.7
+  - '24.4'
+  - 24.4.1
+  - 24.4.2
+  - 24.4.3
+  - 24.4.4
+  - 24.4.5
+  - 24.4.6
+  - 24.4.7
+  - '24.5'
+  - 24.5.1
+  - 24.5.2
+  - 24.5.3
+  - 24.5.4
+  - 24.5.5
+  - 24.5.6
+  - 24.5.7
+  - '24.6'
+  - 24.6.1
+  - 24.6.2
+  - 24.6.3
+  - 24.6.4
+  - 24.6.5
+  - 24.6.6
+  - 24.6.7
+  - '24.7'
+  - 24.7.1
+  - 24.7.2
+  - 24.7.3
+  - 24.7.4
+  - 24.7.5
+  - 24.7.6
+  - 24.7.7
+  - '24.8'
+  - 24.8.1
+  - 24.8.2
+  - 24.8.3
+  - 24.8.4
+  - 24.8.5
+  - 24.8.6
+  - 24.8.7
+  - '24.9'
+  - 24.9.1
+  - 24.9.2
+  - 24.9.3
+  - 24.9.4
+  - 24.9.5
+  - 24.9.6
+  - 24.9.7
+  - '24.10'
+  - 24.10.1
+  - 24.10.2
+  - 24.10.3
+  - 24.10.4
+  - 24.10.5
+  - 24.10.6
+  - 24.10.7
+  - '24.11'
+  - 24.11.1
+  - 24.11.2
+  - 24.11.3
+  - 24.11.4
+  - 24.11.5
+  - 24.11.6
+  - 24.11.7
+  - '24.12'
+  - 24.12.1
+  - 24.12.2
+  - 24.12.3
+  - 24.12.4
+  - 24.12.5
+  - 24.12.6
+  - 24.12.7
+  - '24.13'
+  - 24.13.1
+  - 24.13.2
+  - 24.13.3
+  - 24.13.4
+  - 24.13.5
+  - 24.13.6
+  - 24.13.7
+  - '24.14'
+  - 24.14.1
+  - 24.14.2
+  - 24.14.3
+  - 24.14.4
+  - 24.14.5
+  - 24.14.6
+  - 24.14.7
+  - '24.15'
+  - '24.16'
+  - '24.17'
+  - '24.18'
+- paper: KJ0CdYG18oMFStxpa17cxS0wnyt.md
+  count: 7
+  locations:
+  - '24.2'
+  - '24.3'
+  - 24.3.1
+  - '24.13'
+  - 24.13.1
+  - 24.13.2
+  - '24.14'
+- paper: 20230418_118-126.md
+  count: 2
+  locations:
+  - '24.2'
+  - '24.3'
+- paper: 20230418_045.md
+  count: 11
+  locations:
+  - '24.2'
+  - '24.4'
+  - 24.4.1
+  - '24.5'
+  - 24.5.1
+  - '24.9'
+  - 24.9.1
+  - 24.13.5
+- paper: 20230418_034.md
+  count: 5
+  locations:
+  - '24.2'
+  - '24.4'
+  - 24.4.1
+- paper: 20230418_040.md
+  count: 5
+  locations:
+  - '24.2'
+  - '24.5'
+  - 24.5.1
+- paper: 20230418_124.md
+  count: 2
+  locations:
+  - '24.2'
+  - '24.5'
+- paper: 20230418_038.md
+  count: 4
+  locations:
+  - '24.2'
+  - '24.6'
+  - 24.6.1
+- paper: PbGkdX4YVoO02mxYlYKcbgASnSg.md
+  count: 2
+  locations:
+  - '24.2'
+  - '24.7'
+- paper: 20230418_046.md
+  count: 4
+  locations:
+  - '24.2'
+  - '24.8'
+  - 24.8.1
+- paper: 20230418_043.md
+  count: 4
+  locations:
+  - '24.2'
+  - '24.10'
+  - 24.10.1
+- paper: 20230418_039.md
+  count: 6
+  locations:
+  - '24.2'
+  - '24.11'
+  - 24.11.1
+  - 24.11.4
+- paper: 20230418_041.md
+  count: 2
+  locations:
+  - '24.2'
+  - '24.11'
+- paper: 20230418_042.md
+  count: 2
+  locations:
+  - '24.2'
+  - '24.11'
+- paper: PU9Id4IPMoZ3QdxLzZUcEPBRnWO.md
+  count: 11
+  locations:
+  - '24.2'
+  - '24.11'
+  - 24.11.1
+  - '24.12'
+  - 24.12.1
+- paper: YE1FdsTuxoaBbNx4f5dcnSNenxb.md
+  count: 2
+  locations:
+  - '24.2'
+  - '24.14'
+unsupported_claims:
+- location: 24.3.7
+  claim: AHP 权重确定与一致性检验 CR<0.1 的具体数值计算示例
+  reason: 素材中未提供具体的判断矩阵构建过程、特征值计算及 CR 值验证的完整数值案例，仅给出了公式框架。
+- location: 24.4.7
+  claim: pnpm 硬链接机制在跨文件系统场景下的回退符号链接行为
+  reason: 素材提到 '跨文件系统回退符号链接' 但未展开说明触发条件、实现细节或性能影响。
+- location: 24.5.7
+  claim: 设计令牌变换管线中 Style Dictionary / Tokens Studio 的具体配置与输出代码示例
+  reason: 素材仅描述管线概念，未提供实际可运行的配置文件或 CLI 命令示例。
+- location: 24.6.7
+  claim: Vue Router 4.x 路由注册底层数据结构为 '路径字典 + 正则树' 的源码级实现细节
+  reason: 素材给出复杂度结论但未引用 Vue Router 源码路径或具体数据结构定义作为支撑。
+- location: 24.7.7
+  claim: axe-core 规则引擎内部颜色对比度规则的完整源码实现
+  reason: 素材提供的是简化伪代码，非 axe-core 真实源码，且未说明规则注册、节点收集、并行评估的完整流程细节。
+- location: 24.8.7
+  claim: 采样率统计模型中 DAU=100,000、错误率 1% 场景下的 9.5% 采样率推导
+  reason: 素材给出计算结果但未展示 Z 值取值依据、p(1-p) 方差估算的中间步骤，且假设 '错误率 1%' 无来源支撑。
+- location: 24.9.7
+  claim: Zod 校验与 TS 类型推导在 Schema 嵌套引用、联合类型、条件类型等复杂场景下的最佳实践
+  reason: 素材仅演示基础用法，未覆盖 Schema 递归嵌套、渲染器泛型约束等高阶类型编程场景。
+- location: 24.10.7
+  claim: 'Module Federation 运行时版本匹配中 singleton: false 并行运行多版本的具体配置与风险控制'
+  reason: 素材提到 '极少用' 但未给出生产可用的配置示例、内存隔离方案或版本冲突调试案例。
+- location: 24.11.7
+  claim: Lighthouse CI 性能预算中 script 资源 170KB 阈值的实测网络环境参数（RTT、带宽、CPU 降速倍数）
+  reason: 素材仅给出预算数值，未说明 Lighthouse CI 运行时的模拟网络配置文件内容。
+- location: 24.12.7
+  claim: Argo Rollouts AnalysisTemplate 中 PromQL 查询语句的生产环境可用性验证（如指标命名规范、标签基数控制）
+  reason: 素材提供示例查询但未涉及生产环境指标治理规范、基数爆炸防范等工程化细节。
+- location: 24.13.7
+  claim: 技术债务成本模型中 '交付效率损失 ΔV_velocity' 的具体测量方法与数据采集流程
+  reason: 素材给出公式但未说明如何量化 '基准周期'、'实际周期'、'迭代次数' 等变量的统计口径与自动化采集方式。
+- location: 24.14.7
+  claim: 技术雷达 Blip 迁移评分公式中 'PerfGain/15%' 等归一化分项的边界条件处理（如负收益、超阈值截断）
+  reason: 素材未定义分项得分上下限、异常值处理规则，公式在极端情况下可能产生误导性高分。
+missing_concepts:
+- paper: 20230418_117.md
+  concept: pnpm catalog 依赖版本统一管理机制
+  severity: high
+- paper: 20230418_117.md
+  concept: Changesets 版本发布与 Changelog 自动生成流程
+  severity: high
+- paper: 20230418_117.md
+  concept: Turborepo/Nx 远程缓存配置与 CI 集成最佳实践
+  severity: high
+- paper: 20230418_045.md
+  concept: Vite/Rspack 原生多入口构建与库模式对比 Monorepo 工具链的优劣势
+  severity: medium
+- paper: 20230418_034.md
+  concept: ESLint/Prettier/Husky/lint-staged/Commitlint 规则集的具体配置文件内容
+  severity: medium
+- paper: 20230418_040.md
+  concept: OpenAPI 类型自动生成工具链对比与选型建议
+  severity: high
+- paper: 20230418_038.md
+  concept: 动态路由刷新保活的持久化存储方案对比与数据一致性保障
+  severity: medium
+- paper: PbGkdX4YVoO02mxYlYKcbgASnSg.md
+  concept: ICU MessageFormat 编译时优化的 Babel/SWC 插件配置示例
+  severity: high
+- paper: 20230418_046.md
+  concept: Sentry/自建监控平台 Source Map 安全存储与访问控制方案
+  severity: high
+- paper: 20230418_043.md
+  concept: qiankun 与 Module Federation 在嵌套微前端、跨框架通信场景的深度对比
+  severity: medium
+- paper: 20230418_039.md
+  concept: Contract Testing (Pact) 与 MSW/Prism Mock Server 在 E2E 解耦后端的落地对比
+  severity: high
+- paper: 20230418_041.md
+  concept: bundlesize/lighthouse-ci 在 CI 中的并行执行策略与缓存优化
+  severity: medium
+- paper: 20230418_042.md
+  concept: npm audit/pnpm audit/Snyk/Socket 安全扫描工具的误报率对比与治理策略
+  severity: medium
+- paper: PU9Id4IPMoZ3QdxLzZUcEPBRnWO.md
+  concept: ArgoCD/Flux GitOps 工具链在多集群、Secret 管理、CRD 扩展维度的选型矩阵
+  severity: high
+- paper: YE1FdsTuxoaBbNx4f5dcnSNenxb.md
+  concept: 虚拟信用卡平台 Depay/Nobepay 风控规避与长期稳定性运维经验
+  severity: medium
