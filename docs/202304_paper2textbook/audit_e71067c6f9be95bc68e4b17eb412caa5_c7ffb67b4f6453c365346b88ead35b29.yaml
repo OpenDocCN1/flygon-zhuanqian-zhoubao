@@ -1,0 +1,123 @@
+citation_stats:
+- paper: P001
+  count: 5
+  locations:
+  - 9.3.1
+  - 9.3.2
+  - 9.3.3
+  - 9.3.4
+  - 9.3.4
+- paper: P002
+  count: 3
+  locations:
+  - 9.4.1
+  - 9.4.1
+  - 9.4.2
+- paper: P003
+  count: 4
+  locations:
+  - 9.5.1
+  - 9.5.2
+  - 9.5.3
+  - 9.5.4
+- paper: P004
+  count: 3
+  locations:
+  - 9.6.1
+  - 9.6.2
+  - 9.6.3
+- paper: P005
+  count: 3
+  locations:
+  - 9.7.1
+  - 9.7.2
+  - 9.7.3
+- paper: P105
+  count: 9
+  locations:
+  - 9.8.1
+  - 9.8.2
+  - 9.9.1
+  - 9.9.2
+  - 9.11.1
+  - 9.11.2
+  - 9.12.2
+  - 9.13.1
+  - 9.14.1
+- paper: P106
+  count: 5
+  locations:
+  - 9.10.1
+  - 9.10.2
+  - 9.10.3
+  - 9.10.4
+  - 9.13.3
+- paper: P109
+  count: 4
+  locations:
+  - 9.10.3
+  - 9.12.1
+  - 9.12.1
+  - 9.14.2
+- paper: P110
+  count: 2
+  locations:
+  - 9.13.2
+  - 9.14.2
+- paper: P136
+  count: 4
+  locations:
+  - 9.10.4
+  - 9.11.1
+  - 9.12.2
+  - 9.14.3
+unsupported_claims:
+- location: 9.3.4
+  claim: Trusted Types 配合 DOMPurify 实现 createHTML 钩子
+  reason: 素材中未找到 Trusted Types 与 DOMPurify 结合的具体代码示例
+- location: 9.5.2
+  claim: Webpack/Vite 构建时自动注入 Nonce
+  reason: 素材中未找到 Webpack/Vite 自动注入 nonce 的具体插件配置代码
+- location: 9.5.3
+  claim: strict-dynamic 信任链机制：受信脚本动态创建的子脚本自动受信
+  reason: 素材中未找到 strict-dynamic 的浏览器兼容性数据与 fallback 策略
+- location: 9.6.1
+  claim: Socket 恶意行为检测原理基于静态 AST 分析
+  reason: 素材中未找到 Socket 技术白皮书或官方文档引用
+- location: 9.10.3
+  claim: RAGAS 指标数学定义来源于原始论文 Shahul et al.
+  reason: 素材中未找到 RAGAS 论文的完整引用信息
+- location: 9.11.1
+  claim: Reflexion 机制参考论文 Shinn et al.
+  reason: 素材中未找到 Reflexion 论文的完整引用信息
+- location: 9.12.1
+  claim: LLM Compiler 机制参考论文 Kim et al.
+  reason: 素材中未找到 LLM Compiler 论文的完整引用信息
+- location: 9.13.1
+  claim: 认知科学理论基础参考 Atkinson-Shiffrin 多储存模型与 Tulving 情景/语义记忆区分
+  reason: 素材中未找到认知科学论文的完整引用信息
+- location: 9.14.3
+  claim: 工程化落地案例参考 Uber Michelangelo、DoorDash 数据飞轮、Netflix 模型管理平台技术博客
+  reason: 素材中未找到上述公司技术博客的具体链接或引用
+missing_concepts:
+- paper: P001
+  concept: mXSS (变异 XSS) 攻击原理与防御
+  severity: high
+- paper: P003
+  concept: CSP 3 中 trusted-types 指令的详细配置
+  severity: medium
+- paper: P004
+  concept: SLSA (Supply Chain Levels for Software Artifacts) 供应链安全等级框架
+  severity: high
+- paper: P105
+  concept: LangGraph 状态机编排框架的核心 API 与对比
+  severity: high
+- paper: P106
+  concept: LlamaIndex RAG 架构与 LangChain 的差异对比
+  severity: medium
+- paper: P109
+  concept: ARES 评测框架的具体实现与指标体系
+  severity: medium
+- paper: P136
+  concept: MCP (Model Context Protocol) 服务端开发与部署最佳实践
+  severity: high
