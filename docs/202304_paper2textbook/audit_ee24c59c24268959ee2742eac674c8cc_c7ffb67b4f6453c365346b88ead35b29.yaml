@@ -1,0 +1,57 @@
+citation_stats:
+- paper: 20230418_007.md
+  count: 1
+  locations:
+  - 34.3.1
+- paper: 20230418_010.md
+  count: 2
+  locations:
+  - 34.3.2
+  - 34.3.2
+- paper: 20230418_019.md
+  count: 1
+  locations:
+  - 34.4.1
+- paper: 20230418_020.md
+  count: 2
+  locations:
+  - 34.5.2
+  - 34.5.3
+- paper: 20230418_022.md
+  count: 2
+  locations:
+  - 34.6.1
+  - 34.6.3
+- paper: A47Vd3fekoelzRxZpdUcTl9Cn7W.md
+  count: 2
+  locations:
+  - 34.4.3
+  - 34.9.4
+- paper: B95VdtwByoPXGoxac7Ec1KhQnwc.md
+  count: 2
+  locations:
+  - 34.5.2
+  - 34.5.3
+unsupported_claims:
+- location: 34.4.3
+  claim: 不同注意力头学会了不同的语言学功能，如句法依存、共指消解、位置感知等
+  reason: 素材中未找到支撑，仅在 A47Vd3fekoelzRxZpdUcTl9Cn7W.md 中出现了该表述，但未提供实验证据
+- location: 34.6.1
+  claim: 注意力热力图揭示了模型'在看哪里'，但注意力权重不等于特征归因，高注意力不等于高因果影响
+  reason: 素材中未找到支撑，仅在 20230418_022.md 中出现了该表述，但未提供实验证据
+- location: '34.7'
+  claim: 多头注意力存在冗余头，剪枝 30-40% 头性能基本不降
+  reason: 素材中未找到支撑，仅在 A47Vd3fekoelzRxZpdUcTl9Cn7W.md 中出现了该表述，但未提供实验证据
+missing_concepts:
+- paper: B95VdtwByoPXGoxac7Ec1KhQnwc.md
+  concept: RoPE 的工程优势：显式相对位置、线性注意力兼容、长窗口主流
+  severity: high
+- paper: B95VdtwByoPXGoxac7Ec1KhQnwc.md
+  concept: ALiBi 的设计动机：零参数、强外推、即插即用
+  severity: high
+- paper: A47Vd3fekoelzRxZpdUcTl9Cn7W.md
+  concept: 多头注意力的冗余头现象与剪枝压缩价值
+  severity: high
+- paper: 20230418_022.md
+  concept: 注意力可视化的局限性：注意力≠因果归因、残差连接绕过注意力、MLP 混合掩盖个体头
+  severity: high

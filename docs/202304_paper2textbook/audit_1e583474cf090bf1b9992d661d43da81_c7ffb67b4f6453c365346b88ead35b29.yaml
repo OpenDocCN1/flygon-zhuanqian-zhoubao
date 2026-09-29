@@ -1,0 +1,93 @@
+citation_stats:
+- paper: P001
+  count: 4
+  locations:
+  - 33.3.2
+  - 33.3.3
+  - 33.3.4
+  - '33.8'
+- paper: P002
+  count: 6
+  locations:
+  - 33.4.2
+  - 33.4.3
+  - 33.4.4
+  - 33.4.5
+  - '33.8'
+  - '33.9'
+- paper: P003
+  count: 5
+  locations:
+  - 33.5.2
+  - 33.5.3
+  - 33.5.4
+  - 33.5.5
+  - '33.8'
+- paper: P004
+  count: 4
+  locations:
+  - 33.6.3
+  - 33.6.4
+  - 33.6.5
+  - '33.8'
+- paper: P005
+  count: 4
+  locations:
+  - 33.7.3
+  - 33.7.4
+  - '33.8'
+  - '33.9'
+unsupported_claims:
+- location: 33.3.2
+  claim: 正如《Switch Transformer》论文所指出：“The Mixture of Experts layer consists of a set
+    of expert networks $E_i$ and a gating network $G$ that outputs a sparse probability
+    distribution over the experts.”
+  reason: 素材 P001 (20230418_070.md) 中未包含 Switch Transformer 论文的直接引文，仅提及其为 Top-1 路由模型。
+- location: 33.4.3
+  claim: We unify the vocabulary by treating image tokens as additional special tokens...
+    allowing a single Transformer to model interleaved sequences.
+  reason: 素材 P002 (20230418_071.md) 中未找到该英文原文引用，仅有中文描述统一词表设计。
+- location: 33.4.3
+  claim: Chameleon 采用 VQ-GAN 将图像离散化为 1024 个 Token（32x32 网格，码本 8192），与文本 Token 共享 65536
+    大小的统一词表，实现了图文交错的自回归建模。
+  reason: 素材 P002 (20230418_072.md) 中未提及 Chameleon 的具体参数配置（1024 Token、32x32、65536
+    词表）。
+- location: 33.5.2
+  claim: Reflexion 将强化学习的奖励信号转化为自然语言反思，避免了传统 RL 的梯度更新开销，实现了语言层面的试错学习。
+  reason: 素材 P003 (20230418_073.md) 为生财社群帖子，未包含 Reflexion 论文原文或该技术细节描述。
+- location: 33.5.4
+  claim: LLM Compiler 将用户指令解析为任务依赖图，通过拓扑排序实现工具并行调用，显著降低了多工具协作的端到端延迟。
+  reason: 素材 P003 (20230418_074.md) 为生财社群帖子，未包含 LLM Compiler 论文原文或该性能数据。
+- location: 33.6.3
+  claim: Process supervision encourages the model to produce valid reasoning steps...
+    mitigating reward hacking where the model guesses the answer but uses invalid
+    logic.
+  reason: 素材 P004 (20230418_075.md) 为生财社群帖子，未包含 PRM 相关论文（如 Lightman et al., 2023）的原文引用。
+- location: 33.6.3
+  claim: OpenAI o1 通过大规模强化学习训练长链式思维模型，配合推理时的 MCTS 搜索和 PRM 验证，在数学、代码等复杂推理任务上实现了超越人类专家的表现。
+  reason: 素材 P004 (20230418_076.md) 为生财社群帖子，未包含 OpenAI o1 技术报告的原文或实验数据支撑。
+- location: 33.7.3
+  claim: FP8 混合精度训练在 H100 上可实现接近 BF16 的精度并节省 50% 显存，但需要仔细调整缩放因子和累积策略。具体而言，采用 E4M3
+    格式存储权重/激活/梯度，FP32 累积 GEMM 结果，配合 TransformerEngine 的延迟缩放策略，动态调整每层缩放因子防止溢出/下溢。
+  reason: 素材 P005 (20230418_078.md) 为生财社群帖子，未包含 FP8 训练技术细节（E4M3、TransformerEngine
+    延迟缩放等）的原始出处。
+- location: 33.7.3
+  claim: 动态基准构建实践：参考 LiveBench (Liu et al., 2024) 机制，每月从最新考题/竞赛题/真实用户查询中抽样构建测试集...
+  reason: 素材 P005 (20230418_078.md) 为生财社群帖子，未包含 LiveBench 论文原文或实验细节。
+missing_concepts:
+- paper: P001
+  concept: Switch Transformer 论文原文中的路由机制数学公式、Top-1 路由的理论分析、万亿参数规模的实验细节。
+  severity: high
+- paper: P002
+  concept: Chameleon 论文中的 VQ-GAN 具体配置、统一词表构建细节、图文交错训练的损失函数设计、模态竞争的量化分析。
+  severity: high
+- paper: P003
+  concept: ReAct/Plan-and-Execute/Reflexion 原始论文中的算法流程、实验基准（HotpotQA, ALFWorld 等）、消融实验结果。
+  severity: high
+- paper: P004
+  concept: PRM 训练数据构建方法（Math-Shepherd, ProcessBench）、MCTS 在语言模型推理中的具体应用细节（PUCT 参数设置、回溯机制）、OpenAI
+    o1 的训练细节与推理时计算分配策略。
+  severity: high
+- paper: P005
+  concept: FP8 训练的完整技术规范（Micikevicius et al., 2022）、LiveBench 动态基准构建方法论、领域模型评测体系的标准化指标体系。
+  severity: high
