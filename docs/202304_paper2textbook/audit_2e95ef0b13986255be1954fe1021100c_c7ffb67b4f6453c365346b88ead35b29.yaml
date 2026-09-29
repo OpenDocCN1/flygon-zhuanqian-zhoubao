@@ -1,0 +1,17 @@
+citation_stats:
+- paper: P044
+  count: 287
+  locations:
+  - ch11.1
+  - ch11.2
+  - ch11.3
+  - ch11.4
+  - ch11.5
+  - ch11.6
+  - ch11.7
+  - ch11.8
+  - ch11.9
+  - ch11.10
+  - ch11.11
+unsupported_claims: []
+missing_concepts: []
