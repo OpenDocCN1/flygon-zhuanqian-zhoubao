@@ -1,0 +1,76 @@
+citation_stats:
+- paper: P001
+  count: 15
+  locations:
+  - '16.3'
+  - 16.3.1
+  - 16.3.2
+  - 16.3.3
+  - '16.11'
+- paper: P002
+  count: 12
+  locations:
+  - '16.4'
+  - 16.4.1
+  - 16.4.2
+  - 16.4.3
+  - 16.4.4
+  - '16.11'
+- paper: P003
+  count: 10
+  locations:
+  - '16.5'
+  - 16.5.1
+  - 16.5.2
+  - 16.5.3
+  - 16.5.4
+  - '16.11'
+- paper: P004
+  count: 18
+  locations:
+  - '16.6'
+  - 16.6.1
+  - 16.6.2
+  - 16.6.3
+  - 16.6.4
+  - 16.6.5
+  - 16.6.6
+  - '16.11'
+- paper: P005
+  count: 14
+  locations:
+  - '16.7'
+  - 16.7.1
+  - 16.7.2
+  - 16.7.3
+  - 16.7.4
+  - 16.7.5
+  - 16.7.6
+  - 16.7.7
+  - '16.11'
+unsupported_claims:
+- location: 16.1.3
+  claim: WebGPU 现代图形 API 的显式资源绑定模型、管线状态对象（PSO）、绑定组布局、计算着色器通用计算能力及 WGSL 着色语言特性
+  reason: 素材中未找到支撑
+- location: 16.1.4
+  claim: 渲染引擎架构设计的核心模块：保留模式场景图、脏标记增量更新、视锥剔除、渲染批次合并、多层合成策略与插件化扩展机制
+  reason: 素材中未找到支撑
+- location: 16.1.5
+  claim: 综合运用双引擎兜底、Web Worker 布局卸载、GPU 实例化渲染、视口裁剪、交互拾取等技术，构建支持 10 万节点的高性能拓扑图可视化引擎
+  reason: 素材中未找到支撑
+missing_concepts:
+- paper: P001
+  concept: Canvas 2D 离屏渲染优化技巧（OffscreenCanvas/Worker）
+  severity: high
+- paper: P002
+  concept: WebGL 扩展机制（如 OES_element_index_uint、WEBGL_draw_buffers）对渲染能力的解锁作用
+  severity: high
+- paper: P003
+  concept: WebGPU 管线缓存与异步编译对首帧渲染性能的影响及预热策略
+  severity: high
+- paper: P004
+  concept: 渲染引擎中脏标记系统的传播优化：父子层级脏标记合并与增量矩阵计算
+  severity: high
+- paper: P005
+  concept: 基于四叉树/均匀网格的空间索引在视口裁剪与拾取测试中的构建与查询复杂度
+  severity: high
