@@ -1,0 +1,86 @@
+citation_stats:
+- paper: P007
+  count: 2
+  locations:
+  - ch29.1
+  - ch29.2
+- paper: P009
+  count: 2
+  locations:
+  - ch29.1
+  - ch29.2
+- paper: P010
+  count: 4
+  locations:
+  - ch29.2
+  - ch29.4
+  - ch29.9
+- paper: P019
+  count: 5
+  locations:
+  - ch29.2
+  - ch29.5
+  - ch29.8
+  - ch29.9
+- paper: P020
+  count: 2
+  locations:
+  - ch29.2
+  - ch29.6
+- paper: P022
+  count: 5
+  locations:
+  - ch29.2
+  - ch29.7
+- paper: P059
+  count: 1
+  locations:
+  - ch29.5
+- paper: P063
+  count: 3
+  locations:
+  - ch29.2
+  - ch29.8
+- paper: A47V
+  count: 4
+  locations:
+  - ch29.5
+  - ch29.9
+- paper: B95V
+  count: 5
+  locations:
+  - ch29.2
+  - ch29.6
+  - ch29.9
+unsupported_claims:
+- location: ch29.5
+  claim: 实验显示可剪枝 30%-40% 头且不损精度，存在冗余
+  reason: 素材 A47V 提及实证证据，但未给出具体实验细节（如模型规模、数据集、剪枝方法），仅凭该素材无法完全验证该比例的普适性
+- location: ch29.6
+  claim: 正弦编码的线性关系使模型可以通过线性层轻易学会‘相对位置 k’的概念
+  reason: 素材 P020 给出三角函数和角公式，但未提供实验证据证明模型确实能通过线性层隐式学会相对位置，属理论推测
+- location: ch29.6
+  claim: RoPE 在序列长度超出训练 4 倍时，高频分量相位旋转过快导致注意力模式退化
+  reason: 素材 B95V 给出该结论，但未在文中提供具体实验数据或论文页码支撑，仅作陈述
+- location: ch29.8
+  claim: GQA 通常需从预训练起训或长时间续训练
+  reason: 素材 P019、A47V 提及此点，但未给出具体续训数据量、损失恢复曲线等实证细节
+- location: ch29.8
+  claim: FlashAttention-2 实现了训练显存降低 2-4×，速度提升 2×，数学等价于标准注意力
+  reason: 素材 P063 给出该性能指标，但未在文中提供基准测试配置（如 GPU 型号、序列长度、批次大小），无法复现验证
+missing_concepts:
+- paper: P010
+  concept: 注意力掩码在因果语言建模中的作用及实现方式
+  severity: medium
+- paper: P019
+  concept: 多头注意力中 W^O 的作用是融合不同头的信息，而非简单拼接
+  severity: low
+- paper: P020
+  concept: ALiBi 位置编码的无位置嵌入、线性偏置机制及外推原理
+  severity: medium
+- paper: B95V
+  concept: NTK-aware 插值的数学原理及其对 RoPE 频率缩放的理论指导
+  severity: high
+- paper: P063
+  concept: FlashAttention 反向传播的重计算策略及显存节省机制
+  severity: high

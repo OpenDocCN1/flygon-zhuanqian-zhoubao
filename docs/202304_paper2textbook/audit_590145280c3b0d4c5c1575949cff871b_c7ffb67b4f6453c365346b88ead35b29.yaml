@@ -1,0 +1,64 @@
+citation_stats:
+- paper: P000 (20230418_000.md)
+  count: 8
+  locations:
+  - 30.3.1
+  - 30.3.2
+  - 30.3.3
+  - 30.3.4
+  - 30.4.3
+  - 30.5.1
+  - 30.5.3
+  - 30.5.5
+- paper: P001 (20230418_001.md)
+  count: 9
+  locations:
+  - 30.3.1
+  - 30.3.2
+  - 30.4.1
+  - 30.4.2
+  - 30.4.4
+  - 30.5.2
+  - 30.5.3
+  - 30.5.4
+  - 30.5.6
+- paper: P079 (20230418_079.md)
+  count: 3
+  locations:
+  - 30.3.1
+  - 30.4.1
+  - 30.4.5
+- paper: XxczdnuchoE7JtxZrO8cn4eGncb (Feishu Doc)
+  count: 12
+  locations:
+  - '30.1'
+  - 30.6.1
+  - 30.6.2 (Step 1)
+  - 30.6.2 (Step 2)
+  - 30.6.2 (Step 3)
+  - 30.6.2 (Step 4)
+  - 30.6.3
+  - 30.6.2 (Principle)
+  - 30.6.2 (Case Localization)
+  - 30.6.3 (Monetization)
+  - 30.6.3 (MVP)
+  - 30.6.3 (Evaluation)
+unsupported_claims:
+- location: 30.5.1
+  claim: 认知负荷三类负荷定义参见 *Cognitive Load Theory* (Sweller, Ayres, & Kalyuga, 2011)。进化心理学依据（损失厌恶
+    2.5 倍、负面偏误神经机制）源自 Kahneman & Tversky (1979) 前景理论及后续神经经济学实证（如 *Neuroeconomics*
+    Glimcher & Fehr, 2013）
+  reason: 素材中未找到上述学术文献的直接引用或出处，属于作者后续补充的学术来源说明，非原始素材支撑
+missing_concepts:
+- paper: P000 (20230418_000.md)
+  concept: README、SUMMARY 文档中提到的 "知识图谱数据库" 自动化溯源工具链建设
+  severity: medium
+- paper: P001 (20230418_001.md)
+  concept: 概念卡片层级版本控制（独立于大纲版本）
+  severity: medium
+- paper: XxczdnuchoE7JtxZrO8cn4eGncb (Feishu Doc)
+  concept: Prompt Library 自动化评估流水线的具体代码实现（pytest + LLM-as-Judge 模式）
+  severity: high
+- paper: P079 (20230418_079.md)
+  concept: 教材 CI/CD 多形态交付的具体 Quarto 模板差异配置细节
+  severity: low
