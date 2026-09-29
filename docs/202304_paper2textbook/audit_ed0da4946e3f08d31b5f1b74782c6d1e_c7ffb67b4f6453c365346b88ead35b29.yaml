@@ -1,0 +1,103 @@
+citation_stats:
+- paper: P001
+  count: 3
+  locations:
+  - ch46.3
+  - ch46.3
+  - ch46.9
+- paper: P002
+  count: 3
+  locations:
+  - ch46.4
+  - ch46.4
+  - ch46.9
+- paper: P003
+  count: 3
+  locations:
+  - ch46.5
+  - ch46.5
+  - ch46.9
+- paper: P004
+  count: 3
+  locations:
+  - ch46.6
+  - ch46.6
+  - ch46.9
+- paper: P005
+  count: 4
+  locations:
+  - ch46.7
+  - ch46.7
+  - ch46.7
+  - ch46.9
+unsupported_claims:
+- location: ch46.3
+  claim: 多层兜底捕获架构
+  reason: 素材中未找到支撑
+- location: ch46.3
+  claim: Source Map 核心字段
+  reason: 素材中未找到支撑
+- location: ch46.3
+  claim: 还原流程公式化描述
+  reason: 素材中未找到支撑
+- location: ch46.3
+  claim: VLQ 编码简述
+  reason: 素材中未找到支撑
+- location: ch46.3
+  claim: 方法演进图：错误监控工具链演进
+  reason: 素材中未找到支撑
+- location: ch46.4
+  claim: 核心指标采集映射表
+  reason: 素材中未找到支撑
+- location: ch46.4
+  claim: CLS 计算公式
+  reason: 素材中未找到支撑
+- location: ch46.4
+  claim: INP 采集伪代码
+  reason: 素材中未找到支撑
+- location: ch46.4
+  claim: 上报策略决策树
+  reason: 素材中未找到支撑
+- location: ch46.5
+  claim: 事件模型三元组结构
+  reason: 素材中未找到支撑
+- location: ch46.5
+  claim: 多源对照：代码埋点 vs 无痕埋点
+  reason: 素材中未找到支撑
+- location: ch46.5
+  claim: 方法演进图：埋点技术演进路线
+  reason: 素材中未找到支撑
+- location: ch46.6
+  claim: W3C TraceContext 标准与前端落地
+  reason: 素材中未找到支撑
+- location: ch46.6
+  claim: 前端 TraceID 生成与透传算法
+  reason: 素材中未找到支撑
+- location: ch46.6
+  claim: Span 数据模型
+  reason: 素材中未找到支撑
+- location: ch46.6
+  claim: 数据流图：前后端链路打通
+  reason: 素材中未找到支撑
+- location: ch46.7
+  claim: 架构分层图：自研可观测平台四层架构
+  reason: 素材中未找到支撑
+- location: ch46.7
+  claim: 设计中的取舍
+  reason: 素材中未找到支撑
+missing_concepts:
+- paper: P001
+  concept: 错误监控核心完整体系
+  severity: high
+- paper: P002
+  concept: 性能监控 SDK 设计完整体系
+  severity: high
+- paper: P003
+  concept: 用户行为与业务埋点完整体系
+  severity: high
+- paper: P004
+  concept: 链路追踪与日志关联完整体系
+  severity: high
+- paper: P005
+  concept: 自研可观测平台建设完整体系
+  severity: high
