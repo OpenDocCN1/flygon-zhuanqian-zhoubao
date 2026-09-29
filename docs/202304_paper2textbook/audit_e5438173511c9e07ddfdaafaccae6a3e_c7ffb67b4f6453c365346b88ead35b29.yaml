@@ -1,0 +1,140 @@
+citation_stats:
+- paper: 20230418_095.md
+  count: 10
+  locations:
+  - ch26.2
+  - ch26.3
+  - ch26.3
+  - ch26.3
+  - ch26.3
+  - ch26.3
+  - ch26.3
+  - ch26.3
+  - ch26.3
+  - ch26.17
+- paper: 20230418_106.md
+  count: 8
+  locations:
+  - ch26.2
+  - ch26.3
+  - ch26.3
+  - ch26.5
+  - ch26.5
+  - ch26.6
+  - ch26.7
+  - ch26.7
+- paper: 20230418_096.md
+  count: 7
+  locations:
+  - ch26.2
+  - ch26.4
+  - ch26.4
+  - ch26.4
+  - ch26.4
+  - ch26.4
+  - ch26.4
+- paper: 20230418_097.md
+  count: 6
+  locations:
+  - ch26.2
+  - ch26.5
+  - ch26.5
+  - ch26.5
+  - ch26.5
+  - ch26.5
+- paper: 20230418_098.md
+  count: 5
+  locations:
+  - ch26.2
+  - ch26.6
+  - ch26.6
+  - ch26.6
+  - ch26.6
+- paper: 20230418_099.md
+  count: 7
+  locations:
+  - ch26.2
+  - ch26.7
+  - ch26.7
+  - ch26.7
+  - ch26.7
+  - ch26.7
+  - ch26.7
+- paper: 20230418_100.md
+  count: 5
+  locations:
+  - ch26.2
+  - ch26.8
+  - ch26.8
+  - ch26.8
+  - ch26.8
+- paper: 20230418_101.md
+  count: 4
+  locations:
+  - ch26.2
+  - ch26.9
+  - ch26.9
+  - ch26.9
+- paper: 20230418_102.md
+  count: 4
+  locations:
+  - ch26.2
+  - ch26.10
+  - ch26.10
+  - ch26.10
+- paper: 20230418_103.md
+  count: 3
+  locations:
+  - ch26.2
+  - ch26.11
+  - ch26.11
+- paper: 20230418_104.md
+  count: 3
+  locations:
+  - ch26.2
+  - ch26.12
+  - ch26.12
+- paper: 20230418_107.md
+  count: 3
+  locations:
+  - ch26.2
+  - ch26.13
+  - ch26.13
+- paper: 20230418_108.md
+  count: 3
+  locations:
+  - ch26.2
+  - ch26.14
+  - ch26.14
+- paper: 20230418_003.md
+  count: 1
+  locations:
+  - ch26.2
+- paper: 20230418_109.md
+  count: 4
+  locations:
+  - ch26.2
+  - ch26.5
+  - ch26.8
+  - ch26.8
+- paper: 20230418_118.md
+  count: 2
+  locations:
+  - ch26.2
+  - ch26.4
+- paper: 20230418_136.md
+  count: 3
+  locations:
+  - ch26.2
+  - ch26.7
+  - ch26.9
+- paper: 20230418_140.md
+  count: 2
+  locations:
+  - ch26.2
+  - ch26.4
+unsupported_claims:
+- location: ch26.1
+  claim: 列出的 12 条学习目标
+  reason: 素材中未找到支撑
+missing_concepts: []
