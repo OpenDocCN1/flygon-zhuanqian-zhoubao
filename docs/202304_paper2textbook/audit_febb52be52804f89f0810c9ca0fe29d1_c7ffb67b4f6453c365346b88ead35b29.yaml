@@ -1,0 +1,42 @@
+citation_stats:
+- paper: 20230418_038.md
+  count: 5
+  locations:
+  - '38.1'
+  - '38.3'
+  - '38.4'
+  - '38.5'
+  - '38.6'
+  - '38.7'
+unsupported_claims:
+- location: '38.3'
+  claim: 路由匹配优先级伪代码
+  reason: 素材中未找到支撑该伪代码的具体实现细节，仅提到静态>动态>通配符的概念
+- location: '38.4'
+  claim: 导航守卫执行顺序的 Mermaid 时序图
+  reason: 素材中仅文字描述执行顺序，未提供时序图
+- location: '38.5'
+  claim: filterRoutes 算法的数学归纳法证明
+  reason: 素材中仅提供筛选代码，未包含形式化证明
+- location: '38.6'
+  claim: 懒加载与预加载的工程权衡表格
+  reason: 素材中仅文字对比，未形成结构化表格
+- location: '38.7'
+  claim: 微前端三级嵌套 base 与 publicPath 透传方案
+  reason: 素材中未涉及三级嵌套的具体配置细节
+missing_concepts:
+- paper: 20230418_038.md
+  concept: Vue Router 4 的 TypeScript 类型扩展最佳实践（vue-router.d.ts vs 局部 declare module）
+  severity: high
+- paper: 20230418_038.md
+  concept: Vite 环境下 import.meta.glob 替代 webpackChunkName 的具体配置
+  severity: high
+- paper: 20230418_038.md
+  concept: qiankun 子应用导出的 bootstrap/mount/unmount 生命周期钩子标准
+  severity: medium
+- paper: 20230418_038.md
+  concept: 动态路由注册的幂等性与同名路由覆盖行为
+  severity: medium
+- paper: 20230418_038.md
+  concept: router.prefetchRoutes 与 preload/prefetch 资源提示的浏览器兼容性差异
+  severity: low
