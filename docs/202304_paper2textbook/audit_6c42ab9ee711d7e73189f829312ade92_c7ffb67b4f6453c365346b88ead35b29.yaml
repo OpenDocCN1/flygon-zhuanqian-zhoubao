@@ -1,0 +1,76 @@
+citation_stats:
+- paper: 20230418_007.md
+  count: 3
+  locations:
+  - 31.3.1
+  - 31.3.2
+  - 31.3.3
+- paper: 20230418_009.md
+  count: 2
+  locations:
+  - 31.3.1
+  - 31.3.2
+- paper: 20230418_010.md
+  count: 2
+  locations:
+  - 31.4.1
+  - 31.4.2
+- paper: 20230418_019.md
+  count: 2
+  locations:
+  - 31.7.1
+  - 31.7.2
+- paper: 20230418_022.md
+  count: 1
+  locations:
+  - 31.9.1
+- paper: A47Vd3fekoelzRxZpdUcTl9Cn7W.md
+  count: 5
+  locations:
+  - 31.5.2
+  - 31.5.4
+  - 31.5.5
+  - '31.11'
+  - '31.11'
+- paper: B95VdtwByoPXGoxac7Ec1KhQnwc.md
+  count: 4
+  locations:
+  - 31.6.1
+  - 31.6.2
+  - 31.6.3
+  - 31.6.4
+unsupported_claims:
+- location: 31.5.5
+  claim: 方法演进：单头→多头→MQA/GQA
+  reason: 素材中未找到 MQA/GQA 原论文来源
+- location: 31.6.4
+  claim: 方法演进：正弦→可学习→相对偏置→RoPE→YaRN/LongRoPE
+  reason: 素材中未找到 YaRN/LongRoPE 来源
+- location: 31.8.1
+  claim: FlashAttention 等优化工作
+  reason: 素材中未找到 FlashAttention 来源
+- location: 31.8.3
+  claim: LLaMA, GPT-NeoX, ChatGLM 普遍采用 RoPE
+  reason: 素材中未找到相关模型采用 RoPE 的来源
+- location: 31.8.4
+  claim: MQA/GQA 复杂度分析
+  reason: 素材中未找到 MQA/GQA 复杂度分析来源
+- location: 31.9.2
+  claim: 参考文献 Jain & Wallace 2019; Wiegreffe & Pinter 2019
+  reason: 素材中未找到该文献来源
+missing_concepts:
+- paper: B95VdtwByoPXGoxac7Ec1KhQnwc.md
+  concept: 商标投资的具体操作流程、风险控制、命名工具使用
+  severity: high
+- paper: A47Vd3fekoelzRxZpdUcTl9Cn7W.md
+  concept: 多头注意力张量形状变换的完整实战细节（含代码级伪代码）
+  severity: high
+- paper: 20230418_010.md
+  concept: 缩放因子 sqrt(d_k) 的数学推导细节（方差计算过程）
+  severity: medium
+- paper: 20230418_019.md
+  concept: 多头注意力头剪枝的具体方法与实验证据
+  severity: medium
+- paper: B95VdtwByoPXGoxac7Ec1KhQnwc.md
+  concept: RoPE 旋转矩阵的数学原理与实现细节
+  severity: medium
