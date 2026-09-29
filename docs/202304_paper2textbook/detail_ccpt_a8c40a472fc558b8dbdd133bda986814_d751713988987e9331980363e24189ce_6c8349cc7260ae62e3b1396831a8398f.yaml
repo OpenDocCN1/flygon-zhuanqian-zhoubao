@@ -1,0 +1,164 @@
+units:
+- 'no': 1
+  name: 错误监控核心 —— 给前端装上“黑匣子”
+  points:
+  - '**为什么需要这个概念？**'
+  - '- 前端运行环境不可控（浏览器版本、插件、网络），错误不可避免'
+  - '- 用户不会主动反馈，且难以复现现场（控制台信息丢失、源码压缩混淆）'
+  - '- 需要自动化捕获、聚合、还原源码堆栈，实现“无感知”排查'
+  - '**核心定义**'
+  - '- 全域错误捕获：覆盖同步代码、Promise/Async 异步、框架错误边界、资源加载失败'
+  - '- Source Map 解析：将压缩混淆后的行列号映射回源码位置（文件/行/列/原始函数名）'
+  - '- 聚合去重：基于错误指纹（类型+堆栈顶帧+业务路由）合并同类错误，统计频次与影响用户数'
+  - '**关键性质**'
+  - '- 分层兜底：window.onerror → unhandledrejection → Vue errorHandler / React ErrorBoundary
+    → 框架内部 try-catch'
+  - '- 采样与限流：高频错误（如第三方广告脚本报错）需客户端采样上报，防止日志风暴拖垮收集端'
+  - '- 隐私脱敏：上报前自动剥离 URL 参数中的 token、PII 字段、Request Body 敏感键'
+  - '**典型例子**'
+  - '- 线上某版本发布后，ErrorBoundary 捕获到 `TypeError: Cannot read property ''map'' of undefined`，经
+    Source Map 还原定位至 `UserList.vue:42` 行 `users.value.map`，发现接口返回 `null` 导致，10 分钟内定位并热修复'
+  - '**边界条件**'
+  - '- 跨域脚本错误（Script error.）无法获取堆栈，需配置 `crossorigin` 响应头'
+  - '- Source Map 文件体积大、部署位置隐蔽，需构建时上传至对象存储并配置解析服务白名单'
+  - '- 原生 `Error` 对象在不浏览器序列化时丢失堆栈，需手动提取 `error.stack` 字段'
+  - '**素材溯源**'
+  - '- paper: 20230418_046.md, role: origin, desc: 定义错误监控核心组件：全局捕获、Promise/异步错误、框架错误边界、Source
+    Map 还原与聚合去重'
+  sources:
+  - paper: 20230418_046.md
+    role: origin
+  excerpts:
+  - 错误监控核心：全局捕获、Promise/异步错误、框架错误边界、Source Map 还原与聚合去重
+  - 实现 `window.onerror`/`unhandledrejection`/Vue `errorHandler`/React `ErrorBoundary`
+    多层兜底、接入 Sentry/Fundebug 或自建平台解析 Source Map 还原源码堆栈。
+- 'no': 2
+  name: 性能监控 SDK 设计 —— 让性能指标“可量化、可上报、可追踪”
+  points:
+  - '**为什么需要这个概念？**'
+  - '- 体感性能主观且不可度量，需标准化指标（Core Web Vitals）对齐业务目标'
+  - '- 手工埋点侵入业务代码、维护成本高，需轻量、无侵入的自动化采集 SDK'
+  - '- 上报通道必须可靠（页面卸载不丢失）、低开销（不阻塞主线程）'
+  - '**核心定义**'
+  - '- Web Vitals 采集：基于 PerformanceObserver 监听 LCP/CLS/FID/INP/TTFB 等关键指标'
+  - '- 资源瀑布：Resource Timing API 采集每个资源的 DNS/TCP/TLS/TTFB/Download 耗时'
+  - '- 长任务检测：Long Task API 识别阻塞主线程 >50ms 的任务，归因脚本来源'
+  - '- 可靠上报：`navigator.sendBeacon` 或 `fetch(keepalive)` 保证页面卸载前数据送达'
+  - '**关键性质**'
+  - '- 零依赖、体积 < 2KB gzip、ESM/UMD 双格式、Tree-shaking 友好'
+  - '- 采样率可配（如 10% 全量 + 100% 错误用户），支持动态下发采样策略'
+  - '- 上报批次合并、压缩、重试指数退避，内存队列溢出保护'
+  - '**典型例子**'
+  - '- SDK 初始化即注入 `performance.mark(''app-init'')`，路由切换完成 `measure(''route-change'')`，自动上报
+    SPA 软导航 LCP 等价指标'
+  - '**边界条件**'
+  - '- PerformanceObserver 不支持的旧浏览器需 Polyfill 或降级采集'
+  - '- CLS 计算需排除用户主动交互导致的布局偏移（hadRecentInput 标志）'
+  - '- sendBeacon 有 payload 大小限制（约 64KB），超长日志需分片或降级 localStorage 缓存'
+  - '**素材溯源**'
+  - '- paper: 20230418_046.md, role: origin, desc: 定义性能监控 SDK 设计要点：Web Vitals 采集、资源加载水fall、长任务检测、内存泄漏监控与
+    Beacon 上报'
+  sources:
+  - paper: 20230418_046.md
+    role: origin
+  excerpts:
+  - 性能监控 SDK 设计：Web Vitals 采集、资源加载水fall、长任务检测、内存泄漏监控与 Beacon 上报
+  - 轻量 SDK 设计：`PerformanceObserver` 监听 LCP/CLS/FID/INP、Resource Timing API 采集资源耗时、Long
+    Task API 识别阻塞、`navigator.sendBeacon` 可靠上报。
+- 'no': 3
+  name: 用户行为与业务埋点 —— 从“猜用户想什么”到“看用户做什么”
+  points:
+  - '**为什么需要这个概念？**'
+  - '- 产品决策依赖数据而非直觉，需量化用户路径、转化漏斗、功能使用率'
+  - '- 代码埋点侵入性强、易漏埋/错埋；无痕埋点覆盖面广但语义弱、噪音大'
+  - '- 需要统一事件模型、标准化采集流程、支持会话回放与漏斗分析'
+  - '**核心定义**'
+  - '- 事件模型三元组：Event（动作：click/submit/view）、Properties（属性：页面/组件/业务ID）、User（身份：匿名ID/登录UID）'
+  - '- 代码埋点：业务代码显式调用 `track(''event'', props)`，语义精准、类型安全'
+  - '- 无痕埋点：通过 CSS Selector/XPath 绑定 DOM 事件，配置化下发，零代码侵入'
+  - '- 会话回放：rrweb 录制 DOM 变更与用户交互，重现用户操作现场'
+  - '**关键性质**'
+  - '- 埋点治理：建立埋点字典、命名规范、校验规则（CI 阻断未注册事件）、版本管理'
+  - '- 数据质量：自动校验必填属性、枚举值合法性、上报成功率监控'
+  - '- 隐私合规：GDPR/个保法要求，敏感页面/字段自动脱敏、用户可撤回同意'
+  - '**典型例子**'
+  - '- 电商下单漏斗：`view_product` → `add_cart` → `create_order` → `pay_success`，通过漏斗模型发现
+    `add_cart` 转化率异常下跌，定位至新版规格选择组件交互 Bug'
+  - '**边界条件**'
+  - '- 无痕埋点在 Shadow DOM、Canvas/WebGL、原生弹窗内失效'
+  - '- SPA 路由切换需手动触发 `pageview` 事件，避免 PV 统计缺失'
+  - '- rrweb 录屏数据量大，需按采样率录制、压缩存储、按需回放'
+  - '**素材溯源**'
+  - '- paper: 20230418_046.md, role: origin, desc: 定义用户行为与业务埋点体系：无痕 vs 代码埋点、事件模型、会话回放与漏斗分析'
+  sources:
+  - paper: 20230418_046.md
+    role: origin
+  excerpts:
+  - 用户行为与业务埋点：无痕埋点 vs 代码埋点、事件模型设计、会话回放与漏斗分析
+  - 对比可视化配置无痕埋点与代码埋点优劣、定义事件/属性/用户三元模型、集成 rrweb 实现会话录屏回放、构建转化漏斗模型。
+- 'no': 4
+  name: 链路追踪与日志关联 —— 打通前后端的“神经中枢”
+  points:
+  - '**为什么需要这个概念？**'
+  - '- 单纯前端报错无法定位是前端逻辑、BFF 聚合、下游微服务还是数据库慢查询导致'
+  - '- 请求链路跨进程、跨语言、跨网络边界，缺乏统一 TraceID 串联'
+  - '- 需要前后端统一日志格式、链路透传、统一查询平台，实现“全链路定位”'
+  - '**核心定义**'
+  - '- Trace Context 透传：HTTP Header 传递 `traceparent` (W3C TraceContext 标准) 或 `trace-id`/`span-id`'
+  - '- 前端生成根 Span：页面加载/路由切换/XHR-Fetch 发起时创建根 Span，子 Span 记录资源加载、组件渲染、API 请求'
+  - '- 后端续接：网关/偏入层提取 Header 注入上下文，下游微服务继承传递'
+  - '- 结构化日志：统一 JSON 格式（timestamp/level/traceId/spanId/message/context），接入 ELK/Grafana
+    Loki'
+  - '**关键性质**'
+  - '- 采样决策：前端按比例采样（如 1/1000），错误/慢请求 100% 采样；Header 标记 `sampled=true` 通知后端全量采集'
+  - '- 跨域限制：第三方域名请求无法读写 Header，需代理层转发或接受断链'
+  - '- 时钟同步：前端 `performance.now()` 相对时间戳需映射到服务端绝对时间，便于跨端对齐'
+  - '**典型例子**'
+  - '- 用户反馈“提交订单转圈 10s”，前端 Trace 显示 `fetch(''/api/order'')` 耗时 9.8s，点击 Span 跳转至后端链路，发现
+    `inventory-service` 数据库锁等待 8s，定位至未加索引的 `sku_lock` 表'
+  - '**边界条件**'
+  - '- 旧版浏览器不支持 `fetch` 拦截器，需重写 `XMLHttpRequest.prototype.send` 实现 Header 注入'
+  - '- 日志量巨大，需按 TraceID 分片存储、建立倒排索引、配置 TTL 降本'
+  - '- 微服务调用深度过大导致 Span 栈溢出，需限制最大嵌套层级或采用异步上报'
+  - '**素材溯源**'
+  - '- paper: 20230418_046.md, role: origin, desc: 定义链路追踪与日志关联：TraceID 透传、前后端链路打通、结构化日志与
+    ELK/Grafana Loki 查询'
+  sources:
+  - paper: 20230418_046.md
+    role: origin
+  excerpts:
+  - 链路追踪与日志关联：TraceID 透传、前后端链路打通、结构化日志与 ELK/Grafana Loki 查询
+  - HTTP Header 透传 `trace-id`、`span-id`，前端生成根 Span、后端续接，统一 JSON 格式日志接入 Loki，实现“前端报错
+    → 后端调用链 → 数据库慢查询”全链路定位。
+- 'no': 5
+  name: 自研可观测平台建设 —— 从“用工具”到“造平台”
+  points:
+  - '**为什么需要这个概念？**'
+  - '- SaaS 方案（Sentry/Datadog）成本随数据量指数增长，数据合规要求私有化部署'
+  - '- 业务指标（转化率、GMV）与技术指标（错误率、LCP）割裂，需统一度量看板'
+  - '- 告警风暴与通知疲劳，需多维标签聚合、动态阈值、分级路由'
+  - '**核心定义**'
+  - '- 采集端：TypeScript/Rollup 打包 SDK，支持动态配置下发、插件化扩展（错误/性能/行为/链路）'
+  - '- 接入层：Nginx/Envoy 网关 + Kafka/ClickHouse HTTP Interface 缓冲写入，支持高并发写入'
+  - '- 存储层：ClickHouse 宽表存储（MergeTree 分区+TTL），冷热分离对象存储归档'
+  - '- 查询/可视化：Grafana Dashboard 模版化、Drill-down 钻取、Trace/Log/Metric 关联跳转'
+  - '- 告警端：Alertmanager + 多维标签路由（团队/服务/严重级）、抑制规则、自动恢复通知'
+  - '**关键性质**'
+  - '- 多租户隔离：团队/项目级数据权限、资源配额、独立看板空间'
+  - '- 成本控制：采样率动态调整、列压缩编码、预聚合物化视图加速常用查询'
+  - '- 扩展性：OpenTelemetry 协议兼容、自定义指标上报、Webhook 对接企业微信/钉钉/飞书/OnCall'
+  - '**典型例子**'
+  - '- 双十一大促前，配置“错误率 > 1% 且影响用户 > 100”动态阈值告警，触发时自动关联发版记录、变更日志、关联 Trace，10 分钟内定位至某第三方支付
+    SDK 版本回归 Bug'
+  - '**边界条件**'
+  - '- ClickHouse 单表写入 QPS 瓶颈，需分库分表或引入 Kafka Engine 缓冲'
+  - '- 高基数标签（如 UserID、SessionID）不可建索引，仅用于过滤，需预聚合降维'
+  - '- SDK 版本碎片化导致上报协议不兼容，需制定协议版本策略、网关侧做协议适配转换'
+  - '**素材溯源**'
+  - '- paper: 20230418_046.md, role: origin, desc: 定义自研前端可观测平台全链路建设：采集端+存储端+查询端+告警端技术选型与落地'
+  sources:
+  - paper: 20230418_046.md
+    role: origin
+  excerpts:
+  - 实战：搭建自研前端可观测平台（采集端 + 存储端 + 查询端 + 告警端）
+  - 技术选型：SDK（TypeScript/Rollup）+ 收集端 + ClickHouse + Grafana + Alertmanager，落地错误率/性能指标/业务转化多维告警策略。
