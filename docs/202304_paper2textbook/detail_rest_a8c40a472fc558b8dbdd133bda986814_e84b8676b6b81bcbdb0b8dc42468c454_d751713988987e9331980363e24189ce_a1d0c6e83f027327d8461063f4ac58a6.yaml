@@ -1,0 +1,126 @@
+learning_targets:
+- 建立微前端架构决策的量化评估体系，避免盲目跟风引入技术债
+- 掌握 qiankun 双沙箱机制、样式隔离方案与生命周期管理的核心原理
+- 理解 Module Federation 运行时依赖共享、版本协商与类型安全的工程化落地
+- 制定覆盖依赖治理、路由分发、组件库共享、监控统一的微前端治理规范
+- 设计遗留系统微前端化改造的增量演进路径、灰度发布策略与回滚预案
+concept_map:
+- 微前端架构落地
+- ├── 架构决策矩阵
+- │   ├── 触发条件量化：团队规模>10人/多仓库/独立发布/技术栈迁移  —— P001
+- │   ├── 收益成本权衡：开发效率 vs 基建成本、运行时性能 vs 部署自主权  —— P001
+- │   └── 可逆性评估：模块化单体作为过渡方案、半年复盘校准机制  —— P001
+- ├── qiankun 沙箱隔离方案
+- │   ├── 双沙箱模式：Snapshot(单实例/低版本) vs Proxy(多实例/现代浏览器)  —— P002
+- │   ├── 样式隔离策略：strictStyleIsolation(Shadow DOM) vs experimentalStyleIsolation(scoped
+  CSS)  —— P002
+- │   ├── 预加载机制：浏览器空闲期预下载静态资源降低首屏延迟  —— P002
+- │   ├── 主子通信：initGlobalState 发布订阅模式、避免循环更新  —— P002
+- │   └── 坑位规避：嵌套微前端禁用、unmount彻底清理副作用、公共依赖去重、Shadow DOM弹层修复  —— P002
+- ├── Module Federation 原生联邦
+- │   ├── 核心配置三元组：exposes/remotes/shared  —— P003
+- │   ├── 运行时版本协商：requiredVersion/singleton/eager 策略  —— P003
+- │   ├── 类型安全方案：@module-federation/typescript 或手动维护 d.ts  —— P003
+- │   ├── 热更新机制：Remote 重新构建、Host 刷新获取、缓存策略处理  —— P003
+- │   └── 边界条件：版本地狱治理、循环依赖单向化、CSS隔离自行约定、ErrorBoundary降级  —— P003
+- ├── 微前端治理规范
+- │   ├── 依赖版本锁定：基座dependencies锁定/子应用peerDependencies引用/externals排除  —— P004
+- │   ├── 路由分发协议：基座持有全局路由表/子应用声明式注册前缀/禁止直接操作history  —— P004
+- │   ├── 通用组件库强制共享：@enterprise/ui单例/禁止私自引入/导出reset.css  —— P004
+- │   ├── 监控埋点统一：基座初始化SDK/暴露reportError/trackEvent/TraceID透传  —— P004
+- │   └── CI/CD门禁：mf-dep-check版本兼容性检测/manifest.json版本编排/金丝雀灰度  —— P004
+- └── 遗留系统微前端化改造
+- ├── 资产梳理：自动化扫描入口/路由/依赖/全局变量/CSS污染源  —— P005
+- ├── 边界拆分：按业务域/团队所有权/变更频率划分/提取共享内核下沉基座  —— P005
+- ├── 构建改造：动态publicPath/libraryTarget:umd/剥离HTML模版/Router base动态化  —— P005
+- ├── 灰度发布：Nginx分流(split_clients/Lua)/Cookie一致性/监控指标自动全量回滚  —— P005
+- ├── 回滚预案：版本化目录保留/manifest一键切回/RTO<5分钟  —— P005
+- └── 硬骨头攻关：共享状态迁移/样式污染清理(Shadow DOM+Portal)/团队RACI矩阵对齐  —— P005
+life_analogy:
+- 想象微前端架构是一个**大型商场的经营模式转型**：
+- '- **架构决策矩阵** = **商场选址可行性报告**：不是所有店铺都适合做商场（团队<10人/单仓库=街边小店，强行做商场=空置率高）；只有客流大(团队>10人)、品类多(多技术栈)、商家想自主装修(独立部署)时，才值得建商场'
+- '- **qiankun** = **全托管柜台模式**：商场方(基座)提供统一装修标准(沙箱)、安检隔离(样式隔离)、统一收银系统(通信机制)、预备库存(预加载)；商家(子应用)只需按规范入驻(导出生命周期)，退店时必须清空垃圾(unmount清理副作用)，否则影响下一任商家'
+- '- **Module Federation** = **品牌联营/共享供应链模式**：不再由商场统一装修，而是品牌方(Remote)自带货柜(模块)直接进场；核心优势是共享供应链(shared依赖单例)——所有品牌共用一套物流(React/Vue)、收银台(UI库)，避免重复建设；但需签严格合同(版本协商)，防止供应链版本冲突(版本地狱)'
+- '- **治理规范** = **商场管理条例**：统一招牌规范(路由前缀)、统一会员体系(监控SDK)、统一消防安检(CI门禁)、统一装修风格(组件库单例)；违规者拒绝开业(阻断合并)，但设立“特色品牌申请通道”(新依赖评审流程)保留创新空间'
+- '- **遗留系统改造** = **老旧商场分期改造不歇业**：不能推倒重来(大爆炸重写)，必须分区围挡(边界拆分)、夜间施工(灰度发布)、保留旧通道(版本化目录回滚)、统一水电接口(动态publicPath/Router
+  base)；最难的是共享会员数据迁移(共享状态)和拆除违建广告牌(清理全局CSS污染)'
+summary:
+- concept: 架构决策矩阵
+  desc: 基于团队规模、部署频率、技术栈异构度的量化评估模型，将架构决策从主观转为数据驱动，包含触发条件、收益成本权衡、可逆性评估
+- concept: qiankun 双沙箱
+  desc: Snapshot沙箱(快照恢复/单实例)与Proxy沙箱(劫持window/多实例)解决JS隔离；strictStyleIsolation(Shadow
+    DOM)与scoped CSS解决样式隔离
+- concept: qiankun 生命周期
+  desc: bootstrap/mount/unmount三大钩子，子应用必须导出且unmount需彻底清理定时器、事件监听、全局变量防内存泄漏
+- concept: Module Federation 核心配置
+  desc: exposes(导出)、remotes(引用)、shared(共享)三元组实现运行时动态模块联邦
+- concept: 运行时版本协商
+  desc: Host与Remote协商shared依赖版本，满足requiredVersion且singleton:true时复用Host实例，否则下载Remote版本
+- concept: 依赖版本锁定治理
+  desc: 基座dependencies锁定核心版本，子应用peerDependencies引用+externals排除，构建时不打包运行时由基座注入单例
+- concept: 路由分发协议
+  desc: 基座持有全局路由表监听popstate，子应用声明式注册路由前缀，禁止子应用直接操作history API
+- concept: 遗留系统改造关键动作
+  desc: 动态publicPath、libraryTarget:umd导出生命周期、剥离HTML模版、Router base动态化、Nginx灰度分流、版本化目录一键回滚
+- concept: 共享状态迁移难点
+  desc: 全局Store拆分为基座GlobalState+子应用LocalState，引入initGlobalState或共享Store实例解决跨应用同步与持久化一致性
+- concept: 样式污染清理方案
+  desc: 遗留项目全局CSS/!important顽疾，激进方案：子应用强制Shadow DOM + UI组件库Portal挂载修复弹层定位样式丢失
+exercises:
+- 'no': 1
+  title: 微前端架构决策实战演练
+  contents:
+  - 某公司前端团队 15 人，维护 3 个业务仓库（Vue2 老系统、React 新业务、通用组件库），发布频次：老系统月发布，新业务周发布。现计划引入微前端。
+  - 1. 根据架构决策矩阵，列出该场景满足的触发条件与不满足的条件
+  - 2. 量化分析：若引入 qiankun，预估基建投入人天（沙箱调试、样式隔离适配、CI/CD 改造）；若不引入，维持现状的协作冲突成本、技术栈升级阻滞风险
+  - 3. 设计一个最小化试点方案：仅将“新业务”作为子应用接入，老系统暂留基座，验证收益后再决策全量迁移
+  - 回答问题：
+  - '- 如果团队只有 6 人，但强烈要求用微前端“练手”，决策矩阵会如何拦截？核心反模式是什么？'
+  - '- 如何设定“半年复盘校准”的具体指标（如：子应用数量、构建时长、部署频次、故障率）？'
+- 'no': 2
+  title: qiankun 沙箱与样式隔离故障排查
+  contents:
+  - 生产环境接入 qiankun 子应用（React 18 + Ant Design 5）后，出现以下现象：
+  - 1. 子应用卸载后，主应用控制台报错 `Cannot read property 'xxx' of undefined`，疑似全局变量残留
+  - 2. 子应用的 Modal 弹窗样式错乱（定位偏移、遮罩层穿透），且主应用的 Toast 组件样式被子应用污染
+  - 3. 切换子应用时白屏 2s，Network 面板显示 JS/CSS 资源重复下载
+  - 排查任务：
+  - 1. 分析现象 1 的原因：对比 Snapshot 与 Proxy 沙箱在 `unmount` 时的清理差异，代码层面应如何保证副作用销毁？
+  - '2. 解决现象 2：`strictStyleIsolation: true` 导致 Modal 脱离 Shadow DOM 失效，给出两种修复方案（Portal
+    挂载 / getTemplate 注入样式）并对比优劣'
+  - '3. 解决现象 3：配置 `prefetch: ''all''` 与 `shared` 依赖去重的完整 webpack/qiankun 配置片段'
+  - 回答问题：
+  - '- 为什么不推荐在生产环境嵌套 qiankun（子应用再套 qiankun）？沙箱嵌套的原理冲突点在哪里？'
+  - '- 子应用使用 CSS-in-JS (styled-components/emotion) 时，Shadow DOM 隔离会失效吗？如何配置？'
+- 'no': 3
+  title: Module Federation 依赖共享与版本治理实战
+  contents:
+  - Host 应用（Vue 3.4 + Element Plus 2.7）消费 Remote 应用（Vue 3.3 + Element Plus 2.6）导出的
+    `./TableComponent` 模块。
+  - 1. 编写 Host 与 Remote 的 `moduleFederation` 配置，实现：Vue/Element Plus 作为 `shared` 单例共享，Remote
+    暴露组件，Host 动态加载
+  - 2. 场景模拟：Remote 升级 Element Plus 到 2.8（含 Breaking Change），Host 仍为 2.7。运行时版本协商会如何行为？`requiredVersion`、`singleton`、`eager`
+    参数如何设置才能既保证 Host 稳定，又允许 Remote 独立升级？
+  - 3. 类型安全：Remote 导出组件的 TypeScript 类型定义如何同步给 Host？对比 `@module-federation/typescript`
+    自动生成 vs 手动维护 `@types/remote` 包的维护成本
+  - 回答问题：
+  - '- 如果 Remote 暴露的模块内部 `import { ref } from ''vue''`，而 Host 也 `import { ref } from
+    ''vue''`，且均配置 `shared: { vue: { singleton: true } }`，运行时会加载几次 Vue？为什么？'
+  - '- 循环依赖场景：Host 引用 Remote 的 `./A`，Remote 引用 Host 的 `./B`。Webpack 5 Module Federation
+    会如何报错？架构上如何通过“抽离公共包”打破循环？'
+- 'no': 4
+  title: 遗留系统微前端化改造全流程模拟
+  contents:
+  - '某单体 Vue 2 + Webpack 3 项目（20 万行代码，无测试，全局 CSS 严重污染，硬编码 `baseUrl: ''/app''`），计划拆分为基座
+    + 3 个子应用（用户中心、报表中心、核心交易）。'
+  - 1. 资产梳理阶段：编写一个 Node.js 脚本伪代码，扫描项目输出《改造评估报告》关键字段（入口文件、路由表、依赖图谱、全局变量 Top 10、CSS
+    选择器污染度指标）
+  - 2. 构建改造清单：列出 Webpack 3 升级到 Webpack 5 + Module Federation 所需的 10 项核心配置变更（重点：`publicPath`
+    动态化、`libraryTarget`、外部化依赖、HTML 模版剥离）
+  - 3. 灰度发布方案：设计 Nginx `split_clients` 配置，按 `uid` 哈希分流 10% 流量到新微前端架构，保持 `session`
+    亲和性，监控哪 3 个核心指标（错误率、LCP、业务转化率）自动判定全量/回滚
+  - 回答问题：
+  - '- 共享状态迁移：原单体 Vuex Store 中 `user`、`permission`、`tagsView` 三个模块，如何拆分为基座 GlobalState
+    与子应用 LocalState？跨子应用跳转时 `tagsView` 如何同步？'
+  - '- 样式污染终极方案：子应用强制开启 `strictStyleIsolation: true` (Shadow DOM) 后，Element UI 的 `el-select`
+    下拉框、 `el-date-picker` 面板渲染到 `body` 导致样式丢失。请给出完整的 `getTemplate` 修复代码模版，确保弹层样式隔离生效'
