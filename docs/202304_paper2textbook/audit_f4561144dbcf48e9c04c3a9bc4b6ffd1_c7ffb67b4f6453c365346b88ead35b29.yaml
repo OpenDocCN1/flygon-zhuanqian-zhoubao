@@ -1,0 +1,87 @@
+citation_stats:
+- paper: HgjLdWdxHo8ezoxv9iLc4HSwnAh.md
+  count: 52
+  locations:
+  - 17.1 生活类比
+  - 17.2 概念地图
+  - 17.3.1 多源对照：模型能力 vs 交互范式之争
+  - 17.3.2 主流工具选型矩阵
+  - 17.3.3 边界条件与风险控制
+  - 17.4 RAG 在前端知识库落地
+  - 17.4.1 关键流程详解：从 AST 切片到溯源引用
+  - 17.4.2 RAG 技术演进脉络
+  - 17.4.3 增量索引与 Git Hooks 自动化
+  - 17.5 Agent 工作流自动化
+  - 17.5.1 编排框架选型：多源对照
+  - 17.5.2 关键性质：多角色协作与状态机流转
+  - 17.5.3 Agent 编排范式演进
+  - 17.5.4 Agent 工具调用数据流图
+  - 17.5.5 边界条件与工程化安全边界
+  - 17.5.6 沙箱隔离与权限最小化
+  - 17.5.7 成本预算与熔断机制
+  - 17.6 前端专用模型微调
+  - 17.6.1 继续预训练：注入领域知识密度
+  - 17.6.2 指令微调：固化团队最佳实践
+  - 17.6.3 对齐训练：DPO/ORPO 修正模型倾向
+  - 17.6.4 评测基准体系：离线指标与在线业务指标双轨
+  - 17.6.5 灾难性遗忘缓解：三大工程策略协同
+  - 17.6.6 隐私合规部署：本地模型与零保留模式
+  - 17.6.7 提示词工程模式与长上下文裁剪策略
+  - 17.7 AI Code Review 机器人
+  - 17.7.1 关键工程难点攻关
+  - 17.8 设计中的取舍
+  - 17.9 动手练习
+  - 17.10 本章小结
+unsupported_claims:
+- location: 17.3.3 边界条件与风险控制
+  claim: ROI 评估模型（采纳率×节省工时 vs Token 成本）
+  reason: 素材中未提供 ROI 评估模型的具体计算公式或落地案例
+- location: 17.4.1 Embedding 模型选型
+  claim: voyage-code-2 在 TypeScript/Vue 召回表现最佳
+  reason: 素材中未提供公开基准测试数据支撑该结论，标注为 [需要补充文献]
+- location: 17.5.1 编排框架选型
+  claim: LangGraph 生产就绪度高，AutoGen 生产落地需大量二次开发
+  reason: 素材中未提供第三方生产环境验证报告，仅为工程经验判断
+- location: 17.6.2 LoRA 配置
+  claim: 7B 模型 LoRA (r=64) + 梯度检查点 + 4bit 量化 ≈ 16GB 显存
+  reason: 素材中标注 [需要补充文献]，未给出显存估算公式推导与实测对比数据
+- location: 17.6.5 灾难性遗忘缓解实验结论
+  claim: “继续预训练混入 10% 通用数据 + SFT 阶段 Replay Buffer 20%” 组合策略通常能将通用能力下降控制在 < 5%
+  reason: 素材中标注该结论基于细纲实验设计，属于内部经验总结，缺乏外部权威实证研究支撑
+- location: 17.7.1 假阳性治理闭环
+  claim: 假阳性率红线 < 5%、漏报率红线 < 1%、采纳率目标 > 30%
+  reason: 素材中标注 [需要补充文献]，红线数值为工程经验值，缺乏行业标准基准支撑
+- location: 17.4.3 增量索引架构
+  claim: 从 git push 到向量库可查目标控制在 < 2 分钟（小仓库）/ < 10 分钟（万级文件 Monorepo）
+  reason: 素材中未提供实测数据或 CI/CD 流水线性能基准报告支撑该 SLA 承诺
+missing_concepts:
+- paper: HgjLdWdxHo8ezoxv9iLc4HSwnAh.md
+  concept: HumanEval-MBPP 前端子集、TypeScript 类型正确率等评测基准的具体构建方法与公开数据集
+  severity: high
+- paper: HgjLdWdxHo8ezoxv9iLc4HSwnAh.md
+  concept: 各主流 AI 编程助手在 TypeScript 类型推导、Vue/React 组件生成、CSS 布局修复等细分前端任务上的量化对比基准
+  severity: high
+- paper: HgjLdWdxHo8ezoxv9iLc4HSwnAh.md
+  concept: 代码 Embedding 模型在 TypeScript/Vue 代码库上的 Recall@K、MRR 等标准检索指标的公开对比基准
+  severity: high
+- paper: HgjLdWdxHo8ezoxv9iLc4HSwnAh.md
+  concept: LoRA 显存估算公式（含激活值、优化器状态、梯度）的严谨推导与不同量化精度下的实测对比数据
+  severity: high
+- paper: HgjLdWdxHo8ezoxv9iLc4HSwnAh.md
+  concept: 灾难性遗忘缓解策略的学术实证研究支撑（如 Replay Buffer、数据混合比例、LoRA 合并保持通用能力的量化实验）
+  severity: high
+- paper: HgjLdWdxHo8ezoxv9iLc4HSwnAh.md
+  concept: AI Code Review 行业标准指标体系（如 Google Tricorder、Microsoft Code Review Bot 的公开指标）
+  severity: high
+- paper: HgjLdWdxHo8ezoxv9iLc4HSwnAh.md
+  concept: RAG 系统中版本冲突处理的行号/修改时间启发式规则在 Monorepo 多版本共存场景下的有效性验证
+  severity: medium
+- paper: HgjLdWdxHo8ezoxv9iLc4HSwnAh.md
+  concept: Agent 沙箱隔离中网络层面出站公网访问控制的具体实施方案（如 egress firewall 规则、内网服务白名单）
+  severity: medium
+- paper: HgjLdWdxHo8ezoxv9iLc4HSwnAh.md
+  concept: 多模型协作分级路由中小模型轻量分类 Prompt 的工程化落地细节（如 few-shot 示例构造、输出解析容错）
+  severity: medium
+- paper: HgjLdWdxHo8ezoxv9iLc4HSwnAh.md
+  concept: 单测生成中分支覆盖率增量 < 5% 判定冗余测试的统计学依据与工程验证数据
+  severity: medium
