@@ -1,0 +1,169 @@
+learning_targets:
+- 理解前端测试策略分层的核心原则与 ROI 权衡，能制定团队级单测/集成/E2E 覆盖率标准
+- 掌握 Vitest 在 Vite/ESM/TS 生态下的零配置集成、Mock 机制、并行运行与覆盖率门禁实战
+- 熟练运用 Vue Test Utils 进行组件挂载策略选择（mount/shallowMount）、响应式解包断言、事件触发与插槽测试
+- 掌握 Playwright 多浏览器矩阵、Page Object 模式、网络拦截、视觉回归等生产级 E2E 核心技能
+- 能搭建包含 Lint/TypeCheck/单测/构建/E2E/部署的全链路 CI/CD 流水线，配置质量红线与自动化通知
+concept_map:
+- 前端测试金字塔体系
+- ├── 测试策略分层
+- │   ├── 单元测试（70%）：纯函数、Composables、Store、组件逻辑隔离测试  —— P001
+- │   ├── 集成测试（20%）：组件+Router、组件+Pinia、API Mock、跨组件通信  —— P001
+- │   ├── 端到端测试（10%）：关键业务全链路真实浏览器验证  —— P001
+- │   └── 模型对比：金字塔 vs 奖杯 vs 冰激凌筒 vs 倒金字塔  —— P001
+- ├── 单测/集成工具链：Vitest + Vue Test Utils
+- │   ├── Vitest 核心：ESM原生、Vite配置复用、并行Worker、Jest兼容API、覆盖率阈值  —— P002
+- │   ├── Mock 体系：vi.mock/vi.spyOn/vi.fn/vi.useFakeTimers/vi.hoisted  —— P002
+- │   ├── Vue Test Utils：mount vs shallowMount 挂载策略  —— P003
+- │   ├── 响应式断言：ref/reactive 自动解包、vm 实例访问、nextTick 等待  —— P003
+- │   ├── 交互测试：trigger/setValue/findComponent 事件与表单验证  —— P003
+- │   └── 插槽/边界：slots 分发验证、Suspense/Teleport attachTo、flushPromises 异步  —— P003
+- ├── E2E 工具链：Playwright
+- │   ├── 核心架构：Browser → Context(隔离) → Page 多标签页模型  —— P004
+- │   ├── 语义定位：getByRole/getByTestId/getByLabel 抗重构选择器  —— P004
+- │   ├── 自动等待：可操作性检查消除显式睡眠  —— P004
+- │   ├── 网络拦截：page.route 模拟异常/延迟/限流/Mock响应  —— P004
+- │   ├── 认证复用：storageState 跳过登录加速执行  —— P004
+- │   ├── 视觉回归：pixelmatch 像素级对比、跨OS/浏览器基线管理  —— P004
+- │   └── Page Object：业务动作封装、选择器内聚、测试用例可读性  —— P004
+- └── CI/CD 质量红线自动化
+- '    ├── 流水线编排：lint → typecheck → test:unit → build → test:e2e → deploy  —— P005'
+- '    ├── 质量门禁：覆盖率阈值、非零退出码阻断、E2E重试机制  —— P005'
+- '    ├── 制品管理：构建产物、覆盖率报告、Playwright Trace/Video/HTML报告  —— P005'
+- '    ├── 缓存加速：node_modules/浏览器/中间产物缓存策略  —— P005'
+- '    ├── 通知告警：失败即时推送钉钉/飞书/Slack、附带链接与错误摘要  —— P005'
+- '    └── Monorepo 优化：turbo affected 受影响包测试、paths-ignore 精准触发  —— P005'
+life_analogy:
+- 想象前端测试体系是**汽车出厂前的质检流水线**：
+- '- **单元测试** = **零部件台架测试**：发动机、刹车片、芯片单独在实验室极限压测（毫秒级、隔离环境、覆盖率高），保证每个零件合格'
+- '- **集成测试** = **底盘/动力总成联调**：发动机+变速箱+传动轴组装在一起跑台架，验证接口匹配、协作逻辑（保留真实依赖、中等速度）'
+- '- **E2E 测试** = **整车试驹/碰撞测试**：真实路况/赛道/极端天气下整车跑完全程，验证从启动到停车的全链路体验（真实环境、慢、贵、但置信度最高）'
+- '- **Vitest** = **高精度自动化台架**：兼容旧设备(Jest)、即插即用(Vite配置)、并行多工位、自动出报告'
+- '- **Playwright** = **全天候无人驾驶测试车**：跨品牌(Chromium/Firefox/WebKit)、自动避障(自动等待)、远程遥控(网络拦截)、自动拍照对比(视觉回归)'
+- '- **CI/CD 流水线** = **出厂合格证自动签发机**：任一工位不合格即锁死流水线、自动通知工程师、生成可追溯质检档案、贴上合格徽章才能发运'
+summary:
+- concept: 测试金字塔/奖杯模型
+  desc: 单测70%/集成20%/E2E10% 的资源分配黄金比例，避免倒金字塔与冰激凌筒反模式
+- concept: Vitest
+  desc: 基于 Vite 的下一代测试运行器，原生 ESM/TS，零配置复用 Vite 生态，API 兼容 Jest
+- concept: vi.mock / vi.spyOn
+  desc: 模块级/函数级 Mock 核心 API，支持定时器模拟、ESM 虚拟模块、hoisted 变量提升
+- concept: 覆盖率阈值
+  desc: CI 中设定 lines/branches/functions/statements 80% 门禁，未达标直接阻断流水线
+- concept: Vue Test Utils (VTU)
+  desc: 官方组件测试库，提供 mount(全量) 与 shallowMount(浅渲染存根子组件) 两种挂载策略
+- concept: 响应式解包
+  desc: wrapper.vm 自动解包 ref/reactive，断言时直接访问值，需配合 await nextTick/flushPromises 处理异步更新
+- concept: Playwright
+  desc: 微软跨浏览器 E2E 框架，单进程多 Context 隔离，原生 TypeScript，自动等待与语义定位器
+- concept: Page Object 模式
+  desc: 将页面选择器与业务动作封装为类，测试用例仅调用 login()/gotoDashboard() 等高层语义
+- concept: 网络拦截 page.route
+  desc: 拦截修改网络请求，模拟后端异常/延迟/限流，实现前端独立于后端的稳定测试
+- concept: 视觉回归测试
+  desc: 截图像素级对比 baseline，阈值容忍抗锯齿差异，需按 OS/浏览器/DPR 分目录管理基线图
+- concept: CI/CD 质量红线
+  desc: 强制执行 Lint/TypeCheck/单测/构建/E2E 全链路，任一失败阻断合并部署，制品上传与失败即时通知
+- concept: Monorepo 受影响测试
+  desc: 利用 turbo affected 或 paths-ignore 仅运行变更包相关测试，大幅缩短流水线耗时
+exercises:
+- 'no': 1
+  title: 测试分层策略决策与覆盖率配置
+  contents:
+  - 场景：某中后台项目包含以下模块：
+  - 1. `utils/date.ts`：纯日期格式化工具函数库
+  - 2. `hooks/useUserPermission.ts`：组合式函数，依赖 Pinia Store 与 router
+  - 3. `components/ProTable/index.vue`：复杂表格组件，含分页、排序、列配置、插槽
+  - 4. `views/OrderCheckout.vue`：下单页，涉及购物车数据、地址选择、支付 SDK 调用、路由跳转
+  - 5. 用户登录全流程：输入凭证 → 验证码 → 双因子认证 → 跳转首页 → 权限菜单渲染
+  - 任务：
+  - 1. 将上述 5 项分别归类到 单测 / 集成测试 / E2E，并说明理由
+  - 2. 设计 `vitest.config.ts` 中 `coverage.threshold` 的具体数值配置（lines/branches/functions/statements），解释为何不设
+    100%
+  - 3. 若团队目前 E2E 用例 200 条，单测仅 50 条，属于哪种反模式？会带来哪三个具体后果？如何在 3 个月内逐步修正比例？
+- 'no': 2
+  title: Vitest Mock 实战与边界处理
+  contents:
+  - 给定一个组合式函数 `useFetchUser.ts`：
+  - '```ts'
+  - import { ref } from 'vue'
+  - import api from '@/api/user' // 默认导出 axios 实例
+  - ''
+  - 'export function useFetchUser(id: string) {'
+  - '  const user = ref<User | null>(null)'
+  - '  const loading = ref(false)'
+  - '  const error = ref<Error | null>(null)'
+  - ''
+  - '  async function fetch() {'
+  - '    loading.value = true'
+  - '    try {'
+  - '      const res = await api.getUser(id)'
+  - '      user.value = res.data'
+  - '    } catch (e) {'
+  - '      error.value = e as Error'
+  - '    } finally {'
+  - '      loading.value = false'
+  - '    }'
+  - '  }'
+  - ''
+  - '  return { user, loading, error, fetch }'
+  - '}'
+  - '```'
+  - 任务：
+  - 1. 编写单测文件 `useFetchUser.spec.ts`，使用 `vi.mock` 模拟 `@/api/user`，覆盖成功、失败、loading
+    切换三个分支
+  - 2. 使用 `vi.useFakeTimers()` 控制时间，验证 `loading` 在异步操作期间为 true
+  - 3. 解释：为何 `vi.mock('@/api/user')` 必须放在文件顶层？若 `api` 是命名导出 `export const api = ...`
+    该如何 Mock？
+  - 4. 运行 `vitest --coverage` 后发现 `branches` 覆盖率仅 60%，排查可能原因并补全用例
+- 'no': 3
+  title: Vue 组件测试：挂载策略与交互断言
+  contents:
+  - 组件 `SearchSelect.vue`：
+  - '- Props: `options: { label: string, value: any }[]`, `modelValue: any`, `placeholder:
+    string`'
+  - '- Emits: `update:modelValue`, `change`'
+  - '- 内部：使用 `<Teleport to="body">` 渲染下拉菜单，点击选项触发 emit，支持键盘 ↑/↓/Enter 选择'
+  - 任务：
+  - 1. 编写单测：使用 `shallowMount` 验证 Props 透传、默认占位符渲染、点击输入框触发 `focus` 事件
+  - '2. 编写集成测试：使用 `mount` + `attachTo: document.body` 完整渲染 Teleport 下拉菜单，模拟键盘 ↑/↓/Enter
+    选择第三项，断言 `update:modelValue` 与 `change` 事件载荷正确'
+  - 3. 解释：为何单测用 `shallowMount` 而集成测试必须用 `mount` + `attachTo`？若不加 `attachTo` 会报何种错误？
+  - '4. 组件内部使用 `watchEffect` 根据 `options` 变化自动修正 `modelValue`，如何在测试中验证此响应式联动？（提示：`await
+    wrapper.setProps({ options: newOptions })` 后需等待什么？）'
+- 'no': 4
+  title: Playwright E2E：Page Object 封装与网络拦截
+  contents:
+  - 目标：实现「用户登录 → 拦截订单列表接口返回模拟数据 → 断言表格渲染 → 视觉回归对比」完整流程。
+  - 任务：
+  - 1. 设计 `LoginPage` 与 `OrderListPage` 两个 Page Object 类，封装选择器与业务方法（如 `login(username,
+    password)`、`gotoOrders()`、`getOrderRows()`）
+  - '2. 在测试用例中使用 `page.route(''**/api/orders**'', route => route.fulfill({ json: mockOrders
+    }))` 拦截接口，`mockOrders` 需包含 3 条不同状态订单数据'
+  - 3. 登录后复用认证态：使用 `storageState` 保存 Cookie/LocalStorage，后续测试用例通过 `browser.newContext({
+    storageState })` 跳过登录，说明为何能加速？
+  - '4. 实现视觉回归：`expect(await page.screenshot()).toMatchSnapshot(''order-list.png'',
+    { maxDiffPixels: 100 })`，说明 `maxDiffPixels` 作用及跨 CI 环境（Ubuntu vs macOS）基线图不一致的解决方案'
+  - 5. 思考：若接口返回 500，前端应展示空状态组件 `EmptyState`，如何通过 `page.route` 模拟 500 并断言 `EmptyState`
+    可见？
+- 'no': 5
+  title: CI/CD 流水线质量红线设计与故障演练
+  contents:
+  - 现状：团队使用 GitHub Actions，主分支保护规则要求所有检查通过方可合并。
+  - 任务：
+  - 1. 编写 `.github/workflows/ci.yml` 完整流水线 YAML，包含以下 Job 与依赖关系：
+  - '   - `lint-typecheck`（并行跑 ESLint + tsc --noEmit）'
+  - '   - `unit-test`（依赖 lint-typecheck，跑 vitest --coverage，上传 coverage 报告 artifact）'
+  - '   - `build`（依赖 unit-test，跑 pnpm build，上传 dist artifact）'
+  - '   - `e2e-test`（依赖 build，矩阵策略 chromium/firefox/webkit，跑 playwright，上传 html-report
+    artifact）'
+  - '   - `notify-failure`（需求：任意前置 Job 失败触发，发送飞书机器人卡片，含失败 Job 名、链接、错误前 20 行）'
+  - '2. 配置 `vitest` 覆盖率阈值阻断：`lines: 80, branches: 70, functions: 80, statements: 80`，解释为何
+    `branches` 可适当低于 `lines`？'
+  - 3. 故障演练：某次提交导致 `e2e-test` 在 Firefox 中随机闪断（率 10%），排查步骤：
+  - '   - 如何利用 `retries: 2` 与 `trace: ''on-first-retry''` 复现？'
+  - '   - 本地如何用 `npx playwright show-trace trace.zip` 定位时序问题？'
+  - '   - 若确认为上游接口不稳定导致，应在 Page Object 或测试用例层面如何加固（而非单纯加睡眠）？'
+  - 4. Monorepo 优化：项目迁移至 pnpm workspace，包含 `packages/ui`、`packages/utils`、`apps/admin`
+    三个包。修改 `ci.yml` 仅在 `apps/admin` 变更时触发完整流水线，`packages/utils` 变更仅跑单测，如何利用 `paths`
+    与 `turbo affected` 实现？
