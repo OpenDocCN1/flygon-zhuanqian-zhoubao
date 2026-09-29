@@ -1,0 +1,942 @@
+citation_stats:
+- paper: 20230418_070.md
+  count: 2
+  locations:
+  - ch6.3.1
+  - ch6.3.4
+  - ch6.3.5
+- paper: XiwmdQFijotSRAxrBv8c1dLmndr.md
+  count: 3
+  locations:
+  - ch6.3.1
+  - ch6.3.2
+  - ch6.3.4
+  - ch6.11
+- paper: 20230418_071.md
+  count: 2
+  locations:
+  - ch6.4.1
+  - ch6.4.2
+  - ch6.4.4
+- paper: 20230418_072.md
+  count: 2
+  locations:
+  - ch6.4.1
+  - ch6.4.2
+  - ch6.4.4
+- paper: 20230418_073.md
+  count: 2
+  locations:
+  - ch6.5.1
+  - ch6.5.3
+  - ch6.5.5
+- paper: 20230418_074.md
+  count: 3
+  locations:
+  - ch6.5.1
+  - ch6.5.3
+  - ch6.5.4
+  - ch6.5.5
+- paper: 20230418_075.md
+  count: 2
+  locations:
+  - ch6.6.1
+  - ch6.6.3
+  - ch6.6.5
+  - ch6.6.6
+- paper: 20230418_076.md
+  count: 2
+  locations:
+  - ch6.6.1
+  - ch6.6.3
+  - ch6.6.6
+  - ch6.6.7
+- paper: 20230418_077.md
+  count: 2
+  locations:
+  - ch6.7.1
+  - ch6.7.3
+  - ch6.7.5
+  - ch6.7.6
+  - ch6.7.7
+- paper: 20230418_078.md
+  count: 2
+  locations:
+  - ch6.7.1
+  - ch6.7.3
+  - ch6.7.5
+  - ch6.7.6
+  - ch6.7.7
+- paper: 20230418_003.md
+  count: 4
+  locations:
+  - ch6.8.1
+  - ch6.8.2
+  - ch6.8.3
+  - ch6.8.4
+  - ch6.8.5
+  - ch6.8.6
+- paper: 20230418_008.md
+  count: 2
+  locations:
+  - ch6.8.1
+  - ch6.8.2
+  - ch6.8.3
+- paper: 20230418_012.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_099.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_013.md
+  count: 2
+  locations:
+  - ch6.8.1
+  - ch6.8.2
+  - ch6.10
+- paper: 20230418_009.md
+  count: 1
+  locations:
+  - ch6.8.5
+- paper: 20230418_014.md
+  count: 1
+  locations:
+  - ch6.8.3
+- paper: 20230418_015.md
+  count: 1
+  locations:
+  - ch6.8.3
+- paper: 20230418_016.md
+  count: 1
+  locations:
+  - ch6.8.3
+- paper: 20230418_017.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_018.md
+  count: 1
+  locations:
+  - ch6.8.3
+- paper: 20230418_019.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_020.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_021.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_022.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_023.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_024.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_025.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_026.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_027.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_028.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_029.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_030.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_031.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_032.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_033.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_034.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_035.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_036.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_037.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_038.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_039.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_040.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_041.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_042.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_043.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_044.md
+  count: 2
+  locations:
+  - ch6.8.2
+  - ch6.10
+- paper: 20230418_045.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_046.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_047.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_048.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_049.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_050.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_051.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_052.md
+  count: 2
+  locations:
+  - ch6.8.2
+  - ch6.10
+- paper: 20230418_053.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_054.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_055.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_056.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_057.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_058.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_059.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_060.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_061.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_062.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_063.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_064.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_065.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_066.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_067.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_068.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_069.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_070.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_071.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_072.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_073.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_074.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_075.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_076.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_077.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_078.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_079.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_080.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_081.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_082.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_083.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_084.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_085.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_086.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_087.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_088.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_089.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_090.md
+  count: 2
+  locations:
+  - ch6.8.2
+  - ch6.10
+- paper: 20230418_091.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_092.md
+  count: 2
+  locations:
+  - ch6.8.2
+  - ch6.10
+- paper: 20230418_093.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_094.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_095.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_096.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_097.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_098.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_099.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_100.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_101.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_102.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_103.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_104.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_105.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_106.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_107.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_108.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_109.md
+  count: 2
+  locations:
+  - ch6.8.2
+  - ch6.10
+- paper: 20230418_110.md
+  count: 2
+  locations:
+  - ch6.8.2
+  - ch6.10
+- paper: 20230418_111.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_112.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_113.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_114.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_115.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_116.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_117.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_118.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_119.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_120.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_121.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_122.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_123.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_124.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_125.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_126.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_127.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_128.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_129.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_130.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_131.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_132.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_133.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_134.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_135.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_136.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_137.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_138.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_139.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_140.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_141.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_142.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_143.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_144.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_145.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_146.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_147.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_148.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_149.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_150.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_151.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_152.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_153.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_154.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_155.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_156.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_157.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: 20230418_158.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: A47Vd3fekoelzRxZpdUcTl9Cn7W.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: A4UGdiBqBoH4T0xnkW5c0Nxtnkh.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: AgWGdAk0fogwx2xtpo2cg3TCncb.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: AiCrd19EAoPvvPx0HSJczxk3nfC.md
+  count: 2
+  locations:
+  - ch6.8.2
+  - ch6.10
+- paper: AnkEdEtEtoXIbexWlQ3cL6zenFf.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: AsUTdfb1ioXlpLxltn4cbMfcnNd.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: B95VdtwByoPXGoxac7Ec1KhQnwc.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: ByU7dOhOUorzQqxgGilcS463nfd.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: CQXRd5Lc5ozWjFxwgpgcqmk5nAe.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: doxcnk4mqgBMJTv0mklq0eR48fg.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: Efm3dQsmpoUyHxxDPaAcoqXvnVe.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: EkZTdONM7oPzFvxbfbtcuQ2Unwd.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: EnMvdgCPboEplRxJPdXcMUrznbf.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: ETU6dd94wo3ZlMxst46cnwgZn5g.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: FCc1dPLOBosBQIxNgAgctIgDnLg.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: FgeSdrK4no16NRxepk5cnXUVnvf.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: FqNZdGrjgopNjzxPbdEcltd2n0e.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: GpUodUFZHoULIGxKxtYckwI9ncg.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: HgjLdWdxHo8ezoxv9iLc4HSwnAh.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: IwUDdGvHhojaL2xwtUzc6YyZnHh.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: K3oEdbAo1o5fq4xlSf3cOhkMnrg.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: KJ0CdYG18oMFStxpa17cxS0wnyt.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: LE3Ad03QAoTJWWxZ8jBcFBKXnEy.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: NEG3dqx6qoyB46xIZsEcw2nLnCb.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: NlqtdIqRboDI0nx8PeccsB8gneh.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: PbGkdX4YVoO02mxYlYKcbgASnSg.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: PU9Id4IPMoZ3QdxLzZUcEPBRnWO.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: QhJudGRcgoQlxGxYU67cndJenjh.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: QMAddgzWDoln2jx40DBcDNCRnmh.md
+  count: 2
+  locations:
+  - ch6.8.2
+  - ch6.10
+- paper: QnHidA4fvoDNL9x9hSHcPJGqnjc.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: QRqzdIpMfoxvgfxDXO7cMOLunzg.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: RBo6dSQZnoLZkaxn7eGch1fWnMh.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: Ro5mdEccUoXd4oxSbzYcZXCrnfh.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: SFqBdG2bpoLKf8xeOWMcUNxVn4d.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: SnZDdyUsFoxTP0x9wCPcdAX5nWc.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: SYkqdYJ4FoEXOlxQpitcWY8Rnqg.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: THh7dtp6uoEKloxVqwncmmwBn1b.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: VQuGd5TikoAEaAxqMSJc4gslnye.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: WhpFdcM8NotQqvxuqIacwEuUnbb.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: XiwmdQFijotSRAxrBv8c1dLmndr.md
+  count: 3
+  locations:
+  - ch6.3.1
+  - ch6.3.2
+  - ch6.3.4
+  - ch6.11
+- paper: XxczdnuchoE7JtxZrO8cn4eGncb.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: YE1FdsTuxoaBbNx4f5dcnSNenxb.md
+  count: 1
+  locations:
+  - ch6.8.2
+- paper: Yjt0dfSN8ob6Xgxl9z6ct7Kfnqf.md
+  count: 1
+  locations:
+  - ch6.8.2
+unsupported_claims:
+- location: ch6.4.5
+  claim: 最新工作（如 Transfusion）尝试在统一框架下结合离散 Token 与连续扩散损失缓解此问题
+  reason: 素材中未找到支撑
+- location: ch6.6.7
+  claim: Math-Shepherd 等工作探索自动化合成 PRM 训练数据，ProcessBench 建立评测基准
+  reason: 素材中未找到支撑
+- location: ch6.4.6
+  claim: Emu3 / Janus 探索下一代统一 Tokenizer 设计，如语义向量量化
+  reason: 素材中未找到支撑
+- location: ch6.6.7
+  claim: GShard 采用辅助损失 + 随机路由噪声，但未解耦设备与专家层面均衡
+  reason: 素材中未找到支撑
+- location: ch6.4.6
+  claim: Transfusion 提出预测下一个 Token 与扩散图像统一建模，图像部分采用连续扩散损失
+  reason: 素材中未找到支撑
+- location: ch6.5.4
+  claim: MemGPT 提出虚拟内存机制，将上下文窗口视为主存，外部存储视为磁盘
+  reason: 素材中未找到支撑
+- location: ch6.6.7
+  claim: Best-of-N / Beam Search 在无 PRM 或延迟敏感场景下用 ORM 或启发式规则近似
+  reason: 素材中未找到支撑
+- location: ch6.7.6
+  claim: RAG/Context Engineering 派主张优先用长上下文 + 先进 RAG 解决，仅在有充足算力时追加持续预训练
+  reason: 素材中未找到支撑
+- location: ch6.7.6
+  claim: 模型合并/Adapter 派通过合并多个领域 LoRA 实现低成本多领域适配
+  reason: 素材中未找到支撑
+- location: ch6.8.4
+  claim: 《The Lean Startup》Eric Ries 的 MVP 理论与单点突破本质一致
+  reason: 素材中未找到支撑
+- location: ch6.8.4
+  claim: 利他复利本质是积累桥梁型/纽带型社会资本，参考 Pierre Bourdieu/James Coleman《Social Capital》
+  reason: 素材中未找到支撑
+- location: ch6.8.4
+  claim: 认知变现利用认知套实现跨界定价权，参考 Shapiro/Varian《Information Rules》
+  reason: 素材中未找到支撑
+- location: ch6.8.4
+  claim: 创业七层级对应 Greiner Growth Model 的组织进化阶段
+  reason: 素材中未找到支撑
+missing_concepts:
+- paper: 20230418_071.md
+  concept: Transfusion 架构：统一框架下结合离散 Token 与连续扩散损失
+  severity: high
+- paper: 20230418_072.md
+  concept: Emu3 / Janus 语义向量量化 Tokenizer 设计
+  severity: high
+- paper: 20230418_073.md
+  concept: MemGPT 虚拟内存机制：上下文窗口作为主存、外部存储作为磁盘
+  severity: high
+- paper: 20230418_074.md
+  concept: GShard 早期 MoE 架构：Top-2 路由 + 辅助损失 + 随机路由噪声
+  severity: medium
+- paper: 20230418_075.md
+  concept: Math-Shepherd 自动化合成 PRM 训练数据方法
+  severity: high
+- paper: 20230418_076.md
+  concept: ProcessBench PRM 评测基准
+  severity: high
+- paper: 20230418_077.md
+  concept: RAG/Context Engineering 派：长上下文 + GraphRAG/Agentic RAG + Few-shot 替代持续预训练
+  severity: high
+- paper: 20230418_078.md
+  concept: 模型合并/Adapter 派：合并多领域 LoRA 实现低成本适配
+  severity: medium
+- paper: 20230418_008.md
+  concept: Eric Ries《The Lean Startup》MVP 理论与单点突破的映射关系
+  severity: medium
+- paper: 20230418_090.md
+  concept: 社会资本理论：桥梁型/纽带型社会资本积累与转化
+  severity: medium
+- paper: 20230418_091.md
+  concept: 认知剩余与知识付费经济模型
+  severity: medium
+- paper: 20230418_092.md
+  concept: Greiner Growth Model 企业成长阶段模型
+  severity: medium
