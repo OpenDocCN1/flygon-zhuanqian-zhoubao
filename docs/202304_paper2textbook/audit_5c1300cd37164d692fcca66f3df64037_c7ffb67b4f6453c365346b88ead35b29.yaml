@@ -1,0 +1,142 @@
+citation_stats:
+- paper: 20230418_117.md
+  count: 1
+  locations:
+  - 第25章 综合实战：企业级中后台前端架构落地全过程/25.3.1 为什么需要这个概念？
+  - 第25章 综合实战：企业级中后台前端架构落地全过程/25.4.1 为什么需要这个概念？
+- paper: AiCrd19EAoPvvPx0HSJczxk3nfC.md
+  count: 3
+  locations:
+  - 第25章 综合实战：企业级中后台前端架构落地全过程/25.3.1 为什么需要这个概念？
+  - 第25章 综合实战：企业级中后台前端架构落地全过程/25.5.4 @enterprise/ui：组件库二次封装
+  - 第25章 综合实战：企业级中后台前端架构落地全过程/25.6.1 为什么需要这个概念？
+- paper: HgjLdWdxHo8ezoxv9iLc4HSwnAh.md
+  count: 5
+  locations:
+  - 第25章 综合实战：企业级中后台前端架构落地全过程/25.1 生活类比
+  - 第25章 综合实战：企业级中后台前端架构落地全过程/25.5.1 为什么需要这个概念？
+  - 第25章 综合实战：企业级中后台前端架构落地全过程/25.9.1 为什么需要这个概念？
+  - 第25章 综合实战：企业级中后台前端架构落地全过程/25.10 多源对照
+  - 第25章 综合实战：企业级中后台前端架构落地全过程/25.11 设计中的取舍
+unsupported_claims:
+- location: 第25章 综合实战：企业级中后台前端架构落地全过程/25.3.1 为什么需要这个概念？
+  claim: 产出《技术选型决策文档》（Vue/React、Pinia/Redux、Vite/Webpack、CSS 方案、测试框架）
+  reason: 素材中未找到支撑
+- location: 第25章 综合实战：企业级中后台前端架构落地全过程/25.3.1 为什么需要这个概念？
+  claim: 矩阵思维：单体项目可复制放大，低门槛高复制性是隐性大项目标识
+  reason: 素材中未找到支撑
+- location: 第25章 综合实战：企业级中后台前端架构落地全过程/25.4.1 为什么需要这个概念？
+  claim: 初始化 `pnpm-workspace.yaml`、生成标准化模版项目
+  reason: 素材中未找到支撑
+- location: 第25章 综合实战：企业级中后台前端架构落地全过程/25.4.1 为什么需要这个概念？
+  claim: Monorepo 多包管理、脚手架插件机制支持业务定制
+  reason: 素材中未找到支撑
+- location: 第25章 综合实战：企业级中后台前端架构落地全过程/25.5.1 为什么需要这个概念？
+  claim: 封装 `@enterprise/ui` 组件库（基于 Ant Design/Arco Design）
+  reason: 素材中未找到支撑
+- location: 第25章 综合实战：企业级中后台前端架构落地全过程/25.5.1 为什么需要这个概念？
+  claim: '`@enterprise/request` 统一错误/Loading/Token 刷新'
+  reason: 素材中未找到支撑
+- location: 第25章 综合实战：企业级中后台前端架构落地全过程/25.5.1 为什么需要这个概念？
+  claim: RBAC 权限指令/组件、动态路由注册、i18n/a11y 基线、Sentry/自建监控 SDK 接入
+  reason: 素材中未找到支撑
+- location: 第25章 综合实战：企业级中后台前端架构落地全过程/25.6.1 为什么需要这个概念？
+  claim: 沉淀 `ProTable`/`ProForm`/`ProChart` 通用组件、Schema 驱动页面生成
+  reason: 素材中未找到支撑
+- location: 第25章 综合实战：企业级中后台前端架构落地全过程/25.6.1 为什么需要这个概念？
+  claim: 典型 CRUD 页面标准化、复杂表单/表格/可视化组件封装
+  reason: 素材中未找到支撑
+- location: 第25章 综合实战：企业级中后台前端架构落地全过程/25.7.1 为什么需要这个概念？
+  claim: 配置 GitLab CI/GitHub Actions：Lint/TypeCheck/Unit/E2E/Build/Scan/Deploy
+  reason: 素材中未找到支撑
+- location: 第25章 综合实战：企业级中后台前端架构落地全过程/25.7.1 为什么需要这个概念？
+  claim: 性能预算/安全扫描/axe 无障碍阈值阻断
+  reason: 素材中未找到支撑
+- location: 第25章 综合实战：企业级中后台前端架构落地全过程/25.7.1 为什么需要这个概念？
+  claim: ArgoCD 金丝雀发布、混沌工程演练回滚
+  reason: 素材中未找到支撑
+- location: 第25章 综合实战：企业级中后台前端架构落地全过程/25.8.1 为什么需要这个概念？
+  claim: 定期产出《技术债务清单》《重构提案 ADR》《组件复用率报告》
+  reason: 素材中未找到支撑
+- location: 第25章 综合实战：企业级中后台前端架构落地全过程/25.8.1 为什么需要这个概念？
+  claim: 建立团队技术周会/月度深度分享/季度架构评审机制
+  reason: 素材中未找到支撑
+- location: 第25章 综合实战：企业级中后台前端架构落地全过程/25.8.1 为什么需要这个概念？
+  claim: 沉淀《前端架构演进白皮书》
+  reason: 素材中未找到支撑
+- location: 第25章 综合实战：企业级中后台前端架构落地全过程/25.9.1 为什么需要这个概念？
+  claim: AI 编程助手现状：GitHub Copilot/Cursor/Codeium 对比、提示词工程模式、上下文窗口管理
+  reason: 素材中未找到支撑
+- location: 第25章 综合实战：企业级中后台前端架构落地全过程/25.9.1 为什么需要这个概念？
+  claim: RAG 在前端知识库落地：代码库切片、向量化检索、重排序、上下文注入与幻觉控制
+  reason: 素材中未找到支撑
+- location: 第25章 综合实战：企业级中后台前端架构落地全过程/25.9.1 为什么需要这个概念？
+  claim: Agent 工作流自动化：需求拆解→代码生成→测试验证→提交 PR 的闭环与人工介入点设计
+  reason: 素材中未找到支撑
+- location: 第25章 综合实战：企业级中后台前端架构落地全过程/25.9.1 为什么需要这个概念？
+  claim: 前端专用模型微调：CodeLlama/DeepSeek-Coder 继续预训练、指令微调、RLHF 对齐前端最佳实践
+  reason: 素材中未找到支撑
+- location: 第25章 综合实战：企业级中后台前端架构落地全过程/25.9.1 为什么需要这个概念？
+  claim: 实战：接入 AI Code Review 机器人——规范检查、安全扫描、性能建议、单测补全自动化
+  reason: 素材中未找到支撑
+missing_concepts:
+- paper: 20230418_117.md
+  concept: Vue/React、Pinia/Redux、Vite/Webpack、CSS 方案、测试框架的技术选型决策文档产出流程
+  severity: high
+- paper: AiCrd19EAoPvvPx0HSJczxk3nfC.md
+  concept: 矩阵思维在技术选型与项目复制中的应用
+  severity: high
+- paper: 20230418_117.md
+  concept: pnpm-workspace.yaml 初始化与标准化模版项目生成
+  severity: high
+- paper: 20230418_118.md
+  concept: Monorepo 多包管理与脚手架插件机制
+  severity: high
+- paper: 20230418_117.md
+  concept: 基于 Ant Design/Arco Design 的 @enterprise/ui 组件库二次封装实践
+  severity: high
+- paper: 20230418_117.md
+  concept: '@enterprise/request 统一错误处理/Loading/Token 刷新机制'
+  severity: high
+- paper: 20230418_117.md
+  concept: RBAC 权限指令/组件、动态路由注册、i18n/a11y 基线、Sentry/自建监控 SDK 接入
+  severity: high
+- paper: 20230418_117.md
+  concept: ProTable/ProForm/ProChart 通用组件沉淀与 Schema 驱动页面生成
+  severity: high
+- paper: 20230418_117.md
+  concept: 典型 CRUD 页面标准化与复杂表单/表格/可视化组件封装
+  severity: high
+- paper: 20230418_117.md
+  concept: GitLab CI/GitHub Actions 七阶段流水线配置
+  severity: high
+- paper: 20230418_117.md
+  concept: 性能预算/安全扫描/axe 无障碍阈值阻断机制
+  severity: high
+- paper: 20230418_117.md
+  concept: ArgoCD 金丝雀发布与混沌工程演练回滚
+  severity: high
+- paper: 20230418_117.md
+  concept: 技术债务清单、重构提案 ADR、组件复用率报告定期产出机制
+  severity: high
+- paper: 20230418_117.md
+  concept: 团队技术周会/月度深度分享/季度架构评审体系建立
+  severity: high
+- paper: 20230418_117.md
+  concept: 前端架构演进白皮书沉淀
+  severity: high
+- paper: HgjLdWdxHo8ezoxv9iLc4HSwnAh.md
+  concept: AI 编程助手对比与提示词工程模式
+  severity: high
+- paper: HgjLdWdxHo8ezoxv9iLc4HSwnAh.md
+  concept: RAG 在前端知识库落地的完整流程
+  severity: high
+- paper: HgjLdWdxHo8ezoxv9iLc4HSwnAh.md
+  concept: Agent 自动化工作流闭环设计
+  severity: high
+- paper: HgjLdWdxHo8ezoxv9iLc4HSwnAh.md
+  concept: CodeLlama/DeepSeek-Coder 前端专用模型微调实践
+  severity: high
+- paper: HgjLdWdxHo8ezoxv9iLc4HSwnAh.md
+  concept: AI Code Review 机器人接入与自动化能力
+  severity: high
