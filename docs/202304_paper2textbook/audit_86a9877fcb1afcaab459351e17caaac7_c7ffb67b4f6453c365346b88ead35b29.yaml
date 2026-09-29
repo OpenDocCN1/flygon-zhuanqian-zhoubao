@@ -1,0 +1,121 @@
+citation_stats:
+- paper: 20230418_045.md
+  count: 8
+  locations:
+  - 第12章 学习目标
+  - 12.1 生活类比
+  - 12.2 概念地图
+  - 12.3 脚手架工程化 —— 让项目初始化变成标准化流水线
+  - 12.4 组件物料平台 —— 让 UI 组件变成可检索、可度量、可复用的资产
+  - 12.5 低代码搭建引擎 —— 让页面生成变成 Schema 驱动的工业化流程
+  - 12.6 研发效能度量体系 —— 用北极星指标和 DORA 四大指标驱动工程决策
+  - 12.7 前端效能平台 MVP —— 串联全链路的最小可行系统
+- paper: 20230418_045.md
+  count: 1
+  locations:
+  - 12.3.1 模版引擎与“模版即代码”原则
+- paper: 20230418_045.md
+  count: 1
+  locations:
+  - 12.3.2 Monorepo 多包管理与 pnpm Workspace
+- paper: 20230418_045.md
+  count: 1
+  locations:
+  - 12.3.3 插件化扩展机制
+- paper: 20230418_045.md
+  count: 1
+  locations:
+  - 12.3.4 版本升级策略：Codemod 自动化迁移
+- paper: 20230418_045.md
+  count: 1
+  locations:
+  - 12.4.1 元数据规范：组件的“身份证”
+- paper: 20230418_045.md
+  count: 1
+  locations:
+  - 12.4.2 文档自动生成：从 AST 到 Markdown
+- paper: 20230418_045.md
+  count: 1
+  locations:
+  - 12.4.3 演示沙箱：Storybook/Histoire 集成
+- paper: 20230418_045.md
+  count: 1
+  locations:
+  - 12.4.4 版本发布治理：NPM 私服 + Changesets
+- paper: 20230418_045.md
+  count: 1
+  locations:
+  - 12.4.5 依赖分析图谱：可视化组件依赖关系
+- paper: 20230418_045.md
+  count: 1
+  locations:
+  - 12.5.1 Schema 协议设计：低代码的核心资产
+- paper: 20230418_045.md
+  count: 1
+  locations:
+  - 12.5.2 渲染器插件化架构
+- paper: 20230418_045.md
+  count: 1
+  locations:
+  - 12.5.3 状态历史管理：撤销/重做与版本跳转
+- paper: 20230418_045.md
+  count: 1
+  locations:
+  - 12.5.4 AST 代码生成：低代码起步、高代码接管
+- paper: 20230418_045.md
+  count: 1
+  locations:
+  - 12.6.1 指标体系设计：北极星 + DORA + 补充指标
+- paper: 20230418_045.md
+  count: 1
+  locations:
+  - 12.6.2 全链路数据采集：打破工具孤岛
+- paper: 20230418_045.md
+  count: 1
+  locations:
+  - 12.6.3 洞察分析与闭环驱动
+- paper: 20230418_045.md
+  count: 1
+  locations:
+  - 12.7.1 MVP 架构蓝图
+- paper: 20230418_045.md
+  count: 1
+  locations:
+  - 12.7.2 核心数据链路打通设计
+- paper: 20230418_045.md
+  count: 1
+  locations:
+  - 12.7.3 核心看板指标与计算模型
+- paper: 20230418_045.md
+  count: 1
+  locations:
+  - 12.7.4 闭环驱动机制：从看板到行动
+unsupported_claims:
+- location: 12.3.2
+  claim: pnpm 在 Monorepo 场景下磁盘占用通常降低 60%-70%，安装速度提升 2-3 倍
+  reason: 素材中未找到 pnpm 官方 benchmark 数据的具体出处，仅在脚注 [^pnpm-benchmark] 中声称来源于官方文档和社区数据
+- location: 12.6.1
+  claim: DORA 四大指标的精英表现基线（部署频次：按需部署/每天多次；变更前置时间：<1小时；变更失败率：0-15%；MTTR：<1小时）
+  reason: 素材中仅引用 DORA 报告作为来源 [^dora-report]，未在素材中给出具体的基线数值出处
+- location: 12.7.3
+  claim: 组件复用率计算模型公式：Component Reuse Rate = P / (P + L) × 100%
+  reason: 素材中虽给出了公式推导，但未说明该模型的行业验证来源或权威参考
+- location: 12.7.3
+  claim: 低代码产出占比模型公式：LowCode Output Ratio = N_lc / N_total × 100%
+  reason: 素材中给出了公式定义，但未引用任何外部研究或行业标准作为支撑
+missing_concepts:
+- paper: 20230418_045.md
+  concept: 脚手架工程化中模版合并策略的 AST 方案具体实现细节
+  severity: medium
+- paper: 20230418_045.md
+  concept: 组件物料平台中依赖图谱的语义级分析（AST 扫描 import/动态导入/CSS 变量）的具体工程化落地方案
+  severity: medium
+- paper: 20230418_045.md
+  concept: 低代码引擎 Schema 协议的版本兼容层在运行时如何处理 v1 无法通过静态迁移解决的语义差异（如 visible -> v-if）的完整规则集
+  severity: high
+- paper: 20230418_045.md
+  concept: 研发效能度量体系中全链路数据采集的数据清洗层异常值过滤规则（如 CI 耗时 > 2h 判定为卡死剔除）的完整规则库
+  severity: medium
+- paper: 20230418_045.md
+  concept: 前端效能平台 MVP 中 project-id 生命周期管理策略（重命名、迁移仓库、拆分子项目时的处理机制）
+  severity: high
