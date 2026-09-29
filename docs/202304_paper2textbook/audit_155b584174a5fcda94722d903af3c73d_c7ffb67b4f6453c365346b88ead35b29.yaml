@@ -1,0 +1,179 @@
+citation_stats:
+- paper: P001
+  count: 6
+  locations:
+  - '39.1'
+  - '39.1'
+  - '39.1'
+  - '39.2'
+  - '39.3'
+  - '39.3'
+  - '39.3'
+  - '39.3'
+  - '39.3'
+  - '39.3'
+  - '39.10'
+  - '39.10'
+  - '39.10'
+  - '39.10'
+  - '39.11'
+- paper: P002
+  count: 6
+  locations:
+  - '39.2'
+  - '39.4'
+  - '39.4'
+  - '39.4'
+  - '39.4'
+  - '39.4'
+  - '39.7'
+- paper: P003
+  count: 5
+  locations:
+  - '39.2'
+  - '39.5'
+  - '39.5'
+  - '39.5'
+  - '39.5'
+  - '39.5'
+  - '39.5'
+- paper: P004
+  count: 7
+  locations:
+  - '39.2'
+  - '39.6'
+  - '39.6'
+  - '39.6'
+  - '39.6'
+  - '39.6'
+  - '39.6'
+  - '39.6'
+  - '39.7'
+- paper: P005
+  count: 7
+  locations:
+  - '39.2'
+  - '39.7'
+  - '39.7'
+  - '39.7'
+  - '39.7'
+  - '39.7'
+  - '39.7'
+  - '39.7'
+- paper: P006
+  count: 0
+  locations: []
+- paper: P007
+  count: 0
+  locations: []
+- paper: P037
+  count: 5
+  locations:
+  - '39.1'
+  - '39.4'
+  - '39.9'
+  - '39.9'
+  - '39.9'
+- paper: P039
+  count: 4
+  locations:
+  - '39.1'
+  - '39.8'
+  - '39.8'
+  - '39.8'
+- paper: P044
+  count: 4
+  locations:
+  - '39.9'
+  - '39.9'
+  - '39.9'
+  - '39.9'
+- paper: P086
+  count: 2
+  locations:
+  - '39.9'
+  - '39.9'
+- paper: P105
+  count: 4
+  locations:
+  - '39.8'
+  - '39.8'
+  - '39.9'
+  - '39.9'
+- paper: P106
+  count: 2
+  locations:
+  - '39.9'
+  - '39.9'
+- paper: P122
+  count: 2
+  locations:
+  - '39.7'
+  - '39.7'
+- paper: P124
+  count: 4
+  locations:
+  - '39.9'
+  - '39.9'
+  - '39.10'
+  - '39.10'
+- paper: P132
+  count: 2
+  locations:
+  - '39.6'
+  - '39.6'
+- paper: P136
+  count: 3
+  locations:
+  - '39.8'
+  - '39.9'
+  - '39.9'
+- paper: P142
+  count: 2
+  locations:
+  - '39.9'
+  - '39.9'
+unsupported_claims:
+- location: '39.1'
+  claim: 视频号7天起号实操验证了‘内容为王、选题>画质>剪辑’及‘流量为变现服务’原则
+  reason: 素材中未找到支撑
+- location: '39.3'
+  claim: 视频号7天起号实操验证了‘内容为王、选题>画质>剪辑’及‘流量为变现服务’原则
+  reason: 素材中未找到支撑
+- location: '39.4'
+  claim: 全自动真批量 ChatGPT 超级写手机器人验证了 RPA+AI 批量内容生产的工程可行性
+  reason: 素材中未找到支撑
+- location: '39.5'
+  claim: GPT 调教‘教师-天才童工’模型验证了分块喂养、正向强化、Prompt库沉淀的方法论有效性
+  reason: 素材中未找到支撑
+- location: '39.6'
+  claim: 视频号直播冷启动‘双计划投流+长时长拉权重’及‘找熊猫’灰产战术必死无疑的实战教训
+  reason: 素材中未找到支撑
+- location: '39.7'
+  claim: 热点驱动变现：6小时从封号事件到Notion AI替代方案上线，极速响应+现成交付+技术杠杆=正反馈闭环
+  reason: 素材中未找到支撑
+- location: '39.8'
+  claim: 抖音 SEO 航海教学验证了‘选词定生死’及结构化选词方法论的实战有效性
+  reason: 素材中未找到支撑
+- location: '39.9'
+  claim: AI 站群‘深度魔改模型’规避收录流量割裂，内容为王（选题>画质>剪辑）定律验证
+  reason: 素材中未找到支撑
+- location: '39.9'
+  claim: TikTok 直播‘重运营轻主播’、‘利润第一’、‘高客单价’及‘矩阵化/产品化/外包化’规模化方法论
+  reason: 素材中未找到支撑
+missing_concepts:
+- paper: P001
+  concept: Google 测试团队关于分支覆盖率边际收益的实证报告
+  severity: high
+- paper: P004
+  concept: 不同 OS/浏览器/DPR 导致像素差异的技术成因文档
+  severity: high
+- paper: P004
+  concept: MSW 官方文档或对比文章来源
+  severity: medium
+- paper: P005
+  concept: Kent C. Dodds 测试奖杯模型原文链接可访问性验证
+  severity: medium
+- paper: P002
+  concept: Vitest 并行运行原理与架构官方文档来源
+  severity: medium
