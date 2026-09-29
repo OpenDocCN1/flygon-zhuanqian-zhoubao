@@ -1,0 +1,66 @@
+citation_stats:
+- paper: 20230418_041.md
+  count: 47
+  locations:
+  - ch8.1
+  - ch8.2
+  - ch8.3
+  - ch8.4
+  - ch8.5
+  - ch8.6
+  - ch8.7
+  - ch8.10
+  - ch8.11
+- paper: 20230418_046.md
+  count: 6
+  locations:
+  - ch8.3
+  - ch8.7
+unsupported_claims:
+- location: ch8.3
+  claim: LCP分解公式包含四个阶段：TTFB、Resource Load Delay、Resource Load Duration、Element Render
+    Delay
+  reason: 素材《20230418_041.md》和《20230418_046.md》中均未明确给出该四阶段分解公式，仅提及LCP指标定义和采集原理
+- location: ch8.3
+  claim: P75采样统计公式：P75 = Sort(Samples)[ceil(0.75 × N)]
+  reason: 素材中仅提到"取所有访问样本的75分位数（P75）"，未给出具体数学公式
+- location: ch8.4
+  claim: 解析编译时间 ∝ (Chunk Size)^1.2~1.5 （超线性增长）
+  reason: 素材《20230418_041.md》中仅提到"解析编译时间随体积超线性增长"，未给出具体指数范围1.2~1.5
+- location: ch8.4
+  claim: esbuild压缩速度提升10~50x，压缩率仅损失2%~5%
+  reason: 素材《20230418_041.md》中仅提到"esbuild压缩速度提升10~50x"，未提及压缩率损失具体数值
+- location: ch8.5
+  claim: Preconnect节省延迟 = DNS_Lookup + TCP_Handshake + TLS_Handshake，典型跨域节省100~300ms/域名
+  reason: 素材《20230418_041.md》中仅定义Preconnect为"提前建立跨域连接，消除握手延迟"，未给出具体公式和数值范围
+- location: ch8.5
+  claim: Modulepreload将瀑布流深度压缩为1：浏览器并行预取所有依赖+预编译链接
+  reason: 素材《20230418_041.md》中仅提到Modulepreload"解决模块嵌套请求瀑布流问题"，未给出具体技术实现细节
+- location: ch8.6
+  claim: 虚拟列表内存占用 ∝ DOM节点数 × 单节点内存，全量渲染内存 ∝ 总数据量 × 单节点内存，优化收益≈99%+ (万级数据)
+  reason: 素材《20230418_041.md》中仅给出"全量渲染10万行约需200MB内存、10s+首屏；虚拟列表仅渲染~20行DOM，内存降至20MB、首屏50ms"的具体案例，未给出通用公式
+- location: ch8.6
+  claim: Web Worker方案主线程耗时 = postMessage序列化 + 事件循环调度 + 反序列化 (通常<5ms)，净收益>90%
+  reason: 素材《20230418_041.md》中仅提到"主线程仅负责发送输入、接收输出，通信开销固定且极小"，未给出具体公式和90%收益数值
+- location: ch8.7
+  claim: 采样率动态算法：采样率 = 基础采样率(10%) × 页面权重系数(核心页10x) × 错误加权(报错100%)
+  reason: 素材《20230418_041.md》和《20230418_046.md》中仅描述分层采样策略，未给出具体数学公式
+- location: ch8.7
+  claim: 告警误报抑制公式包含有效样本数门槛、环比判定、绝对阈值双重条件
+  reason: 素材中仅描述"发版初期灰度流量小...引入最小样本阈值门槛...要求环比上升+绝对值超标双重条件"，未给出具体公式
+missing_concepts:
+- paper: 20230418_041.md
+  concept: HTTP/2多路复用对分包策略的具体影响分析
+  severity: medium
+- paper: 20230418_041.md
+  concept: sideEffects字段配置白名单的具体实操案例（如CSS、polyfill保护）
+  severity: medium
+- paper: 20230418_041.md
+  concept: Service Worker缓存策略中Stale-While-Revalidate的max-age与stale-while-revalidate参数具体配置建议
+  severity: low
+- paper: 20230418_046.md
+  concept: PerformanceObserver监听LCP/CLS/FID/INP的完整代码实现示例
+  severity: medium
+- paper: 20230418_046.md
+  concept: navigator.sendBeacon与fetch(keepalive)在不同场景下的兼容性对比表
+  severity: low
