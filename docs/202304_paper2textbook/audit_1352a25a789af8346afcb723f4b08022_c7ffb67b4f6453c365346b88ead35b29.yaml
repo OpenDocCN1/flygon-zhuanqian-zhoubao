@@ -1,0 +1,121 @@
+citation_stats:
+- paper: PbGkdX4YVoO02mxYlYKcbgASnSg.md
+  count: 14
+  locations:
+  - '19.3'
+  - '19.4'
+  - '19.5'
+  - '19.6'
+  - '19.7'
+  - '19.8'
+  - '19.9'
+  - '19.10'
+  - '19.11'
+  - '19.12'
+- paper: 20230418_036.md
+  count: 4
+  locations:
+  - '19.8'
+  - 19.11 练习 6
+- paper: 20230418_039.md
+  count: 5
+  locations:
+  - '19.4'
+  - '19.8'
+  - 19.11 练习 6
+- paper: 20230418_041.md
+  count: 3
+  locations:
+  - '19.8'
+  - 19.11 练习 6
+- paper: 20230418_044.md
+  count: 3
+  locations:
+  - '19.8'
+  - 19.11 练习 6
+- paper: 20230418_046.md
+  count: 5
+  locations:
+  - '19.4'
+  - '19.5'
+  - '19.8'
+  - 19.11 练习 6
+- paper: 20230418_106.md
+  count: 6
+  locations:
+  - '19.4'
+  - '19.5'
+  - '19.6'
+  - '19.7'
+  - '19.8'
+  - 19.11 练习 6
+- paper: 20230418_038.md
+  count: 2
+  locations:
+  - '19.9'
+  - 19.11 练习 7
+- paper: 20230418_074.md
+  count: 3
+  locations:
+  - '19.6'
+  - '19.9'
+  - 19.11 练习 7
+- paper: 20230418_117.md
+  count: 3
+  locations:
+  - '19.6'
+  - '19.9'
+  - 19.11 练习 7
+- paper: 20230418_124.md
+  count: 2
+  locations:
+  - '19.9'
+  - 19.11 练习 7
+unsupported_claims:
+- location: '19.3'
+  claim: 运行时库包体积 ~15-30KB，编译时库包体积 ~2-5KB
+  reason: 素材中未找到具体的包体积对比数据支撑
+- location: '19.3'
+  claim: 阿拉伯语有 6 种复数形态
+  reason: 素材中未找到 CLDR 复数分类规则的具体说明
+- location: '19.4'
+  claim: 机器翻译预译可降低 80% 翻译成本
+  reason: 素材中未找到成本降低比例的数据来源
+- location: '19.5'
+  claim: 自动化仅覆盖 30-50% 无障碍规则
+  reason: 素材中未找到覆盖率数据的出处
+- location: '19.5'
+  claim: WCAG 2.1 AA 级包含 27 条成功标准
+  reason: 素材中未列出具体的 27 条标准清单
+- location: '19.6'
+  claim: Combobox 必须支持 APG 定义的完整交互
+  reason: 素材中未引用 APG 规范原文或版本号
+- location: '19.7'
+  claim: Pre-commit 阶段耗时目标 < 10s，CI 阶段 < 5min，Release 阶段 < 10min
+  reason: 素材中未提供耗时基准的测量依据
+- location: '19.8'
+  claim: LLM 具备多语言能力、结构化输出能力、代码理解能力
+  reason: 素材中未提供能力评估的基准测试结果
+- location: '19.9'
+  claim: Edge Runtime 冷启动 < 50ms，内存上限 128MB
+  reason: 素材中未注明云厂商具体限制文档
+missing_concepts:
+- paper: PbGkdX4YVoO02mxYlYKcbgASnSg.md
+  concept: GPT 裁员决策模型（决策树、贝叶斯、神经网络等）的具体落地代码实现
+  severity: high
+- paper: PbGkdX4YVoO02mxYlYKcbgASnSg.md
+  concept: Notion AI 替代 ChatGPT 的成本对比测算细节（自动注册脚本、账号池维护成本）
+  severity: medium
+- paper: 20230418_038.md
+  concept: 多模态 RAG 中 LayoutLMv3/TableTransformer/Donut/ChartGemma/Whisper 的具体模型版本与微调参数
+  severity: high
+- paper: 20230418_074.md
+  concept: Cloudflare Workers/Vercel Edge 部署时的 KV 存储一致性、边缘中间件链路调试方案
+  severity: medium
+- paper: 20230418_117.md
+  concept: AI 原生应用架构中 LLM 作为推理引擎/决策中枢的提示词工程化范式（Memory/Planning/Tool Use/Self-Evolution
+    闭环）
+  severity: high
+- paper: 20230418_124.md
+  concept: HarmonyOS Accessibility API 与 Web ARIA 的语义映射冲突解决方案（如 focus 管理、手势导航差异）
+  severity: medium
