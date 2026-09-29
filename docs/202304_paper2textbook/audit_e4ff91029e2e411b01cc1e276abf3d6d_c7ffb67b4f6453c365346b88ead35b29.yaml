@@ -1,0 +1,151 @@
+citation_stats:
+- paper: P001
+  count: 4
+  locations:
+  - 7.3.1
+  - 7.3.2
+  - 7.3.3
+  - 7.3.4
+- paper: P002
+  count: 6
+  locations:
+  - 7.4.1
+  - 7.4.2
+  - 7.4.3
+  - 7.4.4
+  - 7.4.5
+  - 7.4.5
+- paper: P003
+  count: 7
+  locations:
+  - 7.5.1
+  - 7.5.2
+  - 7.5.3
+  - 7.5.4
+  - 7.5.5
+  - 7.5.5
+  - 7.5.5
+- paper: P004
+  count: 4
+  locations:
+  - 7.6.1
+  - 7.6.2
+  - 7.6.3
+  - 7.6.4
+- paper: P005
+  count: 7
+  locations:
+  - 7.7.1
+  - 7.7.2
+  - 7.7.3
+  - 7.7.4
+  - 7.7.5
+  - 7.7.5
+  - 7.7.5
+- paper: P040
+  count: 12
+  locations:
+  - 7.8.2
+  - 7.8.3
+  - 7.8.4
+  - 7.8.5
+  - 7.8.6
+  - 7.8.7
+  - 7.8.8
+  - 7.8.9
+  - 7.8.10
+  - 7.8.11
+  - 7.8.12
+  - 7.8.13
+- paper: A47V
+  count: 5
+  locations:
+  - 7.9.2
+  - 7.9.3
+  - 7.9.4
+  - 7.9.5
+  - 7.9.6
+unsupported_claims:
+- location: 7.3.2
+  claim: Flex项目最终渲染宽度由三阶段计算决定
+  reason: 素材中未找到关于Flexbox三阶段尺寸计算公式的详细定义与推导
+- location: 7.3.3
+  claim: Grid显式网格与隐式网格定义
+  reason: 素材中未找到grid-template-areas、grid-auto-flow等Grid核心属性的标准定义
+- location: 7.4.3
+  claim: light-dark()与color-mix()现代色彩函数语法与行为
+  reason: 素材中未找到CSS Color Module Level 5规范中light-dark()和color-mix()的正式定义
+- location: 7.4.4
+  claim: '@property类型注册语法与插值动画能力'
+  reason: 素材中未找到CSS Properties and Values API规范中@property的正式定义
+- location: 7.5.2
+  claim: UnoCSS核心三元组架构：规则->变体->预设
+  reason: 素材中未找到UnoCSS官方文档中关于规则、变体、预设的正式架构定义
+- location: 7.5.3
+  claim: 任意值语法转义规则
+  reason: 素材中未找到UnoCSS官方文档中任意值语法的完整转义规范
+- location: 7.5.4
+  claim: UnoCSS扫描边界与safelist兜底策略
+  reason: 素材中未找到UnoCSS官方文档中关于静态扫描限制与safelist的详细说明
+- location: 7.6.4
+  claim: '@layer层叠层优先级规则'
+  reason: 素材中未找到CSS Cascading and Inheritance Level 6规范中@layer的正式定义
+- location: 7.7.2
+  claim: Style Dictionary令牌转换管线配置
+  reason: 素材中未找到Style Dictionary官方文档中多平台输出配置的完整示例
+- location: 7.8.2
+  claim: Nobepay与Depay成本模型对比参数
+  reason: 素材中虽有用户实测数据，但缺乏平台官方公开的费率文档支撑
+- location: 7.8.3
+  claim: 欧易USDT提币手续费固定1U、TRC20网络选择
+  reason: 素材中仅有用户实测记录，无交易所官方费率公告佐证
+- location: 7.8.4
+  claim: Nobepay KYC流程：微信公众号+问卷+人脸核验
+  reason: 素材中仅有用户实操记录，无平台官方KYC流程文档
+- location: 7.8.5
+  claim: 首次开通实测成本核算：23.6 USDT约163 CNY
+  reason: 素材中仅有单个用户实测数据，非官方或大样本统计结果
+- location: 7.8.6
+  claim: 支付风控三要素：原生IP+地址一致+卡段白名单
+  reason: 素材中仅有用户经验总结，无发卡行或支付网关官方风控规则披露
+- location: 7.8.7
+  claim: 欧易L3认证申诉3分钟解封
+  reason: 素材中仅有单个用户案例，无平台官方SLA承诺
+- location: 7.9.2
+  claim: 风格护城河：二十年固化审美沉淀精准粉丝
+  reason: 素材中仅为作者个人经验总结，缺乏可验证的粉丝画像数据
+- location: 7.9.3
+  claim: 古董绣片/孤品增值、奢侈品标品折损率超90%
+  reason: 素材中仅列举GUCCI托特包单一案例，无行业级二手交易数据支撑
+- location: 7.9.4
+  claim: 认知套利：外挂秒拍低价、高价转手、单件利润达月薪
+  reason: 素材中仅为作者观察到的现象描述，无平台交易数据或第三方验证
+- location: 7.9.5
+  claim: 延迟购买决策流程：购物车存图->冷静期->复盘->购买/删除
+  reason: 素材中仅为作者个人方法论，无行为心理学实证研究引用
+- location: 7.9.6
+  claim: 佛系单平台运营：不讲价/不发视频/仅擦亮
+  reason: 素材中仅为作者个人策略，缺乏对照组实验或行业基准对比
+missing_concepts:
+- paper: P001
+  concept: Flexbox/Grid规范文档引用（W3C CR链接）
+  severity: high
+- paper: P002
+  concept: CSS Variables Level 1规范、CSS Color Module Level 5规范、CSS Properties and Values
+    API规范
+  severity: high
+- paper: P003
+  concept: UnoCSS官方文档架构设计、扫描机制、SSR集成方案
+  severity: high
+- paper: P004
+  concept: BEM方法论官方定义、CSS Modules规范、@layer规范、Stylelint规则集标准配置
+  severity: high
+- paper: P005
+  concept: Style Dictionary官方配置文档、Figma Tokens Studio同步协议、Tokens.json Schema
+  severity: high
+- paper: P040
+  concept: Nobepay/Depay官方费率文档、欧易API费率公告、Visa/Mastercard AVS验证规则、虚拟卡BIN码数据库
+  severity: high
+- paper: A47V
+  concept: 二手奢侈品定价模型、闲鱼平台流量分发算法、非标品估值方法论、个人IP商业化框架
+  severity: high
