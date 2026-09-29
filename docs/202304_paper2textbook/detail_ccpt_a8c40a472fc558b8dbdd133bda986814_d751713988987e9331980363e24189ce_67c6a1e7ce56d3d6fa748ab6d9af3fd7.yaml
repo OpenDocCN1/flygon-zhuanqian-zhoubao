@@ -1,0 +1,94 @@
+units:
+- 'no': 1
+  name: PromptTemplate 与 ExampleSelector —— 让提示词像代码一样可复用、可版本化
+  points:
+  - '**为什么需要这个概念？**'
+  - '- 传统提示词散落在业务代码中，难以维护、复用和版本管理'
+  - '- 固定的 Few-shot 示例无法适应动态上下文，导致检索精度低、Token 浪费'
+  - '- 缺乏 A/B 测试机制，无法数据驱动地迭代提示词效果'
+  - '**核心定义**'
+  - '- PromptTemplate：将提示词结构化为参数化模版，分离静态骨架与动态变量，支持版本控制与序列化存储'
+  - '- ExampleSelector：根据输入动态检索最相关的 Few-shot 示例（如基于向量相似度、长度、多样性），替代静态硬编码示例'
+  - '**关键性质**'
+  - '- 解耦性：提示词逻辑与业务代码解耦，支持非技术人员维护提示词内容'
+  - '- 动态性：示例随输入语义动态变化，显著提升少样本效果上限'
+  - '- 可追溯性：每次调用可记录模版版本、示例 ID、渲染后完整提示词，便于复盘'
+  - '**典型例子**'
+  - '- SQL 生成任务：根据用户问题语义检索 3 个最相似的 (Question, SQL) 对作为示例，而非固定前 3 条'
+  - '- 客服分类：引入 LengthBasedExampleSelector 防止示例过长挤占上下文窗口'
+  - '**边界条件**'
+  - '- ExampleSelector 引入额外检索延迟（向量搜索约 10-50ms），高并发场景需缓存或异步预取'
+  - '- 模版变量缺失或类型不匹配会导致渲染失败，需在模版层面做默认值兜底与校验'
+  - '- 向量检索示例依赖 Embedding 模型质量，领域差异大时需微调或切换检索策略'
+  sources:
+  - paper: 20230418_105.md
+    role: origin
+  - paper: 20230418_106.md
+    role: improve
+  excerpts:
+  - 引入 PromptTemplate 与 ExampleSelector 机制，实现提示词与业务逻辑解耦、动态少样本检索、A/B 测试版本控制，落地‘提示词即配置/代码’的工程规范。
+  - 定义标准化 RAG Pipeline 接口：DocumentLoader/Transformer -> VectorStore/Retriever -> Generator，支持混合检索、父子文档、假设性文档嵌入等高级策略的即插即用组装。
+- 'no': 2
+  name: 结构化输出解析器 —— 从‘文本生成’到‘类型安全对象’的编程契约
+  points:
+  - '**为什么需要这个概念？**'
+  - '- LLM 原生输出非结构化文本，下游代码解析极其脆弱（正则匹配、JSON 报错、字段缺失）'
+  - '- 缺乏类型约束导致运行时错误难以发现，无法享受 IDE 智能提示与编译期检查'
+  - '- 格式修复重试逻辑分散在业务代码中，违背单一职责原则'
+  - '**核心定义**'
+  - '- OutputParser：定义 `get_format_instructions()` 注入提示词、`parse()` 解枉模型输出、`parse_with_prompt()`
+    修复重试的标准接口'
+  - '- PydanticOutputParser：结合 Pydantic 模型定义 Schema，实现输出到强类型对象的自动映射与校验'
+  - '**关键性质**'
+  - '- 契约化：提示词与解析器共享同一 Schema 定义（Pydantic Model），输入输出类型安全'
+  - '- 自愈性：解析失败时自动携带原始输出与报错信息二次请求模型修复，成功率超 95%'
+  - '- 可组合性：支持嵌套对象、列表、枚举、Optional 等复杂类型组合'
+  - '**典型例子**'
+  - '- 函数调用参数生成：定义 Pydantic 模型 `SearchParams(query: str, top_k: int = 10)`，模型直接输出合规
+    JSON 对象'
+  - '- 结构化摘要抽取：定义 `Summary(title: str, keypoints: List[str], sentiment: Literal[''pos'',''neg''])`
+    强制格式化输出'
+  - '**边界条件**'
+  - '- 复杂嵌套 Schema 会显著增加提示词 Token 消耗（Format Instructions 可能达 500+ Tokens）'
+  - '- 小模型（<7B）对复杂 JSON Schema 遵循率低，需配合 Grammar-based 解码（如 outlines/guidance）或微调'
+  - '- 流式输出场景下难以增量解析 JSON，通常需缓冲完整输出后再解析，增加首包延迟'
+  sources:
+  - paper: 20230418_105.md
+    role: origin
+  - paper: 20230418_110.md
+    role: improve
+  excerpts:
+  - 解决 LLM 非结构化输出导致的下游解析脆弱问题，详解 JsonOutputParser、PydanticOutputParser 及修复重试机制，实现‘自然语言输入
+    -> 类型安全对象输出’的编程契约。
+  - 构建工程化工具层：OpenAI Function Calling 协议规范、Model Context Protocol (MCP) 统一接口、工具注册发现与权限控制。
+- 'no': 3
+  name: 提示词自动优化（DSPy/OPRO） —— 从‘人工调参’到‘编译流程’的范式跃迁
+  points:
+  - '**为什么需要这个概念？**'
+  - '- 提示词工程高度依赖人类经验与试错，不可复现、难以规模化、效果上限受限于专家认知'
+  - '- 任务变更、模型升级、数据分布漂移均需人工重写提示词，维护成本随应用数量线性增长'
+  - '- 缺乏客观优化目标与自动化评估闭环，无法量化‘更好’的定义'
+  - '**核心定义**'
+  - '- DSPy (Declarative Self-improving Python)：将提示词优化建模为‘模块声明 -> 编译器优化’流程，自动搜索最优指令、少样本示例、CoT
+    步骤'
+  - '- OPRO (Optimization by PROmpting)：利用 LLM 自身作为优化器，基于历史优化轨迹（Prompt + Score）生成新候选提示词，实现黑盒离散优化'
+  - '**关键性质**'
+  - '- 目标驱动：优化目标为可度量指标（准确率、F1、Token 效率），而非主观偏好'
+  - '- 数据飞轮：线上真实交互数据 -> 合成/标注 -> 离线优化 -> 线上 A/B -> 新数据，形成闭环'
+  - '- 模型无关：优化出的提示词可迁移至不同规模/厂商模型，具备跨模型鲁棒性'
+  - '**典型例子**'
+  - '- DSPy 优化 RAG 提示词：自动学习‘如何重写查询’、‘如何过滤噪声文档’、‘如何引用来源’的指令与示例'
+  - '- OPRO 优化 GSM8K 数学推理：从 ‘Let’s think step by step’ 进化出 ‘Let’s solve this problem
+    by breaking it into steps...’ 类高效指令'
+  - '**边界条件**'
+  - '- 优化过程需大量模型调用（成本高），适合离线批量优化核心高频任务，不适合实时交互场景'
+  - '- 依赖高质量的训练/验证集（至少 50-100 样本），冷启动数据不足时效果有限'
+  - '- 离散优化搜索空间巨大，易陷入局部最优，需结合多种启发式策略（变异、交叉、梯度近似）'
+  sources:
+  - paper: 20230418_136.md
+    role: origin
+  - paper: 20230418_140.md
+    role: improve
+  excerpts:
+  - 介绍将提示优化视为离散优化/梯度下降问题的前沿方法论，覆盖少样本自动构筑、指令自进化、提示词编译器概念，展示如何建立数据飞轮实现提示词持续自动化迭代。
+  - 工程化落地模式：从原型到生产的最小可行性架构 (MVA)...提炼生产级应用必备的非功能性需求：流式输出、异步编排、可观测性、版本管理与回滚。
