@@ -1,0 +1,159 @@
+units:
+- 'no': 1
+  name: XSS 攻防全景 —— 从输入过滤到输出编码的纵深防御
+  points:
+  - '**为什么需要这个概念？**'
+  - '- Web 应用核心交互是“数据输入 -> 处理 -> 数据输出”，若输出环节未对不可信数据进行编码，浏览器会将其当作代码执行'
+  - '- 攻击者注入恶意脚本可窃取 Cookie、劫持会话、篡改页面、发起钓鱼，危害直达用户隐私与资金安全'
+  - '- 现代前端框架虽提供默认转义，但 `dangerouslySetInnerHTML`、`v-html`、URL 拼接、CSS 注入等“逃逸口”极易被误用'
+  - '**核心定义**'
+  - '- XSS（跨站脚本攻击）：攻击者将恶意脚本注入被信任网站，受害者浏览器加载页面时执行攻击脚本'
+  - '- 按注入持久化路径分：存储型（入库再渲染）、反射型（URL 参数直接渲染）、DOM-based（纯前端 JS 解析 URL/数据动态渲染）'
+  - '**关键性质**'
+  - '- 编码上下文决定防御策略：HTML 实体编码、属性编码、JavaScript 编码、URL 编码、CSS 编码**互不通用**，必须匹配输出位置'
+  - '- 输入过滤/白名单只能作辅助，**输出编码/上下文感知转义**是核心防线（OWASP 首选）'
+  - '- Trusted Types (W3C 标准) 强制要求敏感 DOM API（如 `innerHTML`）只接受 `TrustedHTML` 类型对象，从根源杜绝字符串拼接注入'
+  - '**典型例子**'
+  - '- 反射型：搜索页 `q=<script>alert(1)</script>` 直接拼接到 `<div>搜索结果: {q}</div>`'
+  - '- 存储型：评论区提交 `<img src=x onerror=stealCookie()>`，所有访问者中招'
+  - '- DOM-based：`document.getElementById(''content'').innerHTML = location.hash.slice(1)`
+    无编码渲染 hash'
+  - '- 防御实战：React 默认 JSX 转义；Vue `v-html` 需配合 DOMPurify 白名单清洗；原生 JS 必须用 `element.textContent`
+    而非 `innerHTML`'
+  - '**边界条件**'
+  - '- 富文本编辑器、Markdown 渲染、模板引擎等“合法 HTML 场景”必须引入 DOMPurify 等成熟库做白名单清洗，不可自造正则'
+  - '- CSP (Content-Security-Policy) 是纵深防御兜底，非替代品；`script-src ''self''` 可阻断内联脚本与外域加载，但需配合
+    nonce/hash 支持内联'
+  - '- `HttpOnly` Cookie 可防窃取，但无法阻止 `fetch` 发起带凭证请求（CSRF 风险仍在）'
+  - '...'
+  sources:
+  - paper: 20230418_042.md
+    role: origin
+  excerpts:
+  - 区分 HTML/Attribute/JS/URL/CSS 五大编码上下文，实战 DOMPurify 白名单清洗、Trusted Types 强制安全类型赋值。
+- 'no': 2
+  name: CSRF 与 SameSite Cookie —— 同源策略演进下的“令牌双保险”
+  points:
+  - '**为什么需要这个概念？**'
+  - '- 浏览器自动携带 Cookie 的特性导致：用户登录 A 站 -> 访问恶意 B 站 -> B 站自动发起对 A 站的请求（带上 Cookie）-> A
+    站误以为是用户自主操作'
+  - '- 传统防御依赖 `Referer` 检查或同步令牌模式（表单隐藏字段 + Session 校验），但 `Referer` 可被篡改/隐私模式丢失，同步令牌需后端改造且易漏掉接口'
+  - '**核心定义**'
+  - '- CSRF（跨站请求伪造）：利用受害者已认证身份，在不知情情况下强制发起状态改变请求（转账、改密、发帖）'
+  - '- SameSite Cookie 属性：`Strict`（完全禁止跨站携带）、`Lax`（允许链接/GET 表单跨站携带，默认行为）、`None`（跨站携带，需
+    `Secure`）'
+  - '**关键性质**'
+  - '- SameSite=Lax 是现代浏览器默认值，可拦截 90%+ CSRF（POST 表单、AJAX、iframe 跨站均不带 Cookie），但**无法防御**站内
+    XSS 发起的请求、顶级导航 GET 请求'
+  - '- 双重提交令牌模式：后端生成 Token -> 前端读取 Cookie/Header -> 请求头/体同时携带 -> 后端校验一致性，防御不依赖 SameSite，兼容旧浏览器'
+  - '- `SameSite=None; Secure` 用于跨域嵌入场景（如第三方支付、SSO），必须配合 CSRF Token 双重防护'
+  - '**典型例子**'
+  - '- 恶意页面：`<form action=''https://bank.com/transfer'' method=''POST''><input name=''amount''
+    value=''10000''></form><script>document.forms[0].submit()</script>`'
+  - '- SameSite=Lax 下上述表单提交**不携带 Cookie**，请求未认证，防御生效'
+  - '- 但若银行提供 `GET /transfer?to=attacker&amount=10000`，Lax 允许顶级导航携带 Cookie，**CSRF
+    依然生效**（需强制状态改变用 POST + Token）'
+  - '**边界条件**'
+  - '- 子域名共享 Cookie（`Domain=.example.com`）时，SameSite 视为同站，**无法防御**子域名 XSS 发起的 CSRF'
+  - '- 无状态架构（JWT 在 Header 而非 Cookie）天然免疫 CSRF，但面临 XSS 窃取 Token 风险，需配合短过期 + 刷新机制'
+  - '- 旧版浏览器不支持 SameSite，必须保留 CSRF Token 兜底'
+  - '...'
+  sources:
+  - paper: 20230418_042.md
+    role: origin
+  excerpts:
+  - 演示 CSRF 攻击链路，对比 `SameSite` 属性在跨站请求中的拦截效果，实现基于 Header 的双重提交令牌模式。
+- 'no': 3
+  name: 内容安全策略 (CSP) —— 给浏览器加把“执行锁”
+  points:
+  - '**为什么需要这个概念？**'
+  - '- XSS 根因是“浏览器无法区分开发者代码与攻击者注入代码”，CSP 通过 HTTP Header 显式声明“合法代码来源”，将执行权限收回开发者手中'
+  - '- 即使存在 XSS 漏洞，严格 CSP 也能阻断恶意脚本执行、阻止数据外泄（`connect-src`）、禁止内联脚本/样式，将损失降至最低'
+  - '**核心定义**'
+  - '- CSP 3 核心指令：`default-src`（兜底）、`script-src`（脚本）、`style-src`（样式）、`img-src`（图片）、`connect-src`（AJAX/WebSocket）、`font-src`、`object-src`、`frame-src`、`base-uri`、`form-action`
+    等'
+  - '- 关键机制：`nonce-<base64>`（每次响应生成随机值，内联脚本需带相同 nonce）、`''strict-dynamic''`（信任受信脚本动态加载的后续脚本）、`''unsafe-inline''`/`''unsafe-eval''`（强烈禁用）'
+  - '**关键性质**'
+  - '- 部署策略：`Content-Security-Policy-Report-Only` 灰度观察违规报告 -> 修正误报 -> 切换 `Content-Security-Policy`
+    强制模式'
+  - '- `report-uri` / `report-to` 指定违规上报端点，配合日志分析平台实时发现攻击尝试'
+  - '- `script-src ''nonce-xxx'' ''strict-dynamic''` 是现代单页应用推荐模式：仅允许带 nonce 的入口脚本及其信任链执行，彻底禁用内联事件处理器'
+  - '**典型例子**'
+  - '- 严格 CSP 示例：`Content-Security-Policy: default-src ''self''; script-src ''nonce-rAnd0m123''
+    ''strict-dynamic''; style-src ''self'' ''nonce-rAnd0m123''; img-src ''self'' data:;
+    connect-src ''self'' https://api.example.com; frame-ancestors ''none''; base-uri
+    ''self''; form-action ''self''; report-uri /csp-report`'
+  - '- Vue/React 构建产物自动注入 nonce 需配合 `html-webpack-plugin` / `vite-plugin-csp-nonce`
+    等工具链支持'
+  - '**边界条件**'
+  - '- 旧版浏览器不支持 `strict-dynamic`/`nonce`，需回退兼容方案（哈希值 `sha256-...`）'
+  - '- 第三方脚本（统计、广告、聊天插件）需显式加入白名单或托管到自域名代理，否则会被拦截导致业务功能失效'
+  - '- CSP **无法防御**存储型 XSS 导致的 HTML 结构破坏（如注入 `<a href="phishing.com">登录</a>` 钓鱼链接），需配合输出编码'
+  - '...'
+  sources:
+  - paper: 20230418_042.md
+    role: origin
+  excerpts:
+  - 编写严格 CSP 策略：`script-src 'nonce-xxx' 'strict-dynamic'`、`report-uri` 收集违规日志、通过 Report-Only
+    模式灰度上线。
+- 'no': 4
+  name: 供应链安全 —— 守住 `node_modules` 这扇“后门”
+  points:
+  - '**为什么需要这个概念？**'
+  - '- 现代前端项目依赖树极深（百万级包），单个恶意/被植入后门的依赖（如 `event-stream`、`ua-parser-js`、 `colors` 事件）可感染所有下游应用'
+  - '- 攻击向量：依赖劫持（Typosquatting）、维护者账号被盗发布恶意版本、合法包被注入恶意代码（安装脚本 `postinstall` 执行）、原型链污染'
+  - '**核心定义**'
+  - '- 软件供应链安全：保障从源码编写、依赖获取、构建打包、部署运行全链路的完整性与可信性'
+  - '- SBOM (Software Bill of Materials, 软件物料清单)：记录项目所有直接/间接依赖的名称、版本、许可证、哈希值、来源，格式如
+    CycloneDX、SPDX'
+  - '**关键性质**'
+  - '- 依赖审计：`npm audit`/`pnpm audit`/`yarn audit` 基于已知漏洞库（CVE/GHSA）扫描，CI 流水线必须接入并设置阈值阻断'
+  - '- 锁文件完整性：`package-lock.json`/`pnpm-lock.yaml` 锁定精确版本与完整性哈希，防止“同版本号不同代码”攻击，提交
+    Git 强制锁定'
+  - '- 恶意包检测：`Socket`、`Snyk`、`OSSF Scorecard` 等工具可静态分析包行为（网络请求、文件读写、Shell 执行、混淆代码），在安装前拦截'
+  - '- SBOM 生成：`@cyclonedx/bom`、`syft` 等工具在构建期生成清单，供合规交付、漏洞溯源、许可证合规审查使用'
+  - '**典型例子**'
+  - '- `event-stream@3.3.6` 依赖 `flatmap-stream` 被植入窃取比特币钱包代码，影响数百万下载'
+  - '- CI 配置：`pnpm audit --prod --audit-level=high` 失败即阻断合并；`socket` GitHub App 自动扫描
+    PR 依赖变更风险'
+  - '- 生成 SBOM：`npx @cyclonedx/bom . -o bom.xml --format cyclonedxXml`'
+  - '**边界条件**'
+  - '- `npm audit` 仅覆盖已披露 CVE，**无法发现**零日供应链攻击（恶意代码刚发布未被收录），需配合行为审计工具'
+  - '- 单体仓库/Monorepo 需在根 workspace 统一审计，避免子包漏网'
+  - '- 私有 registry 需开启 2FA、发布签名验证（`npm attest`）、访问权限最小化'
+  - '...'
+  sources:
+  - paper: 20230418_042.md
+    role: origin
+  excerpts:
+  - 接入 `npm audit`/`pnpm audit`/`Snyk`/`Socket` CI 检查、`package-lock.json` 版本锁定、生成
+    CycloneDX SBOM 合规交付。
+- 'no': 5
+  name: 前端安全基线与应急 SOP —— 从“造车”到“验车”再到“救车”
+  points:
+  - '**为什么需要这个概念？**'
+  - '- 安全非一次性配置，而是持续工程过程：新业务上线、依赖升级、框架迁移、浏览器特性变更均可能引入新风险'
+  - '- 缺乏标准化清单导致“靠经验、靠运气”，缺乏应急预案导致“出事乱跑、损失扩大”'
+  - '**核心定义**'
+  - '- 安全基线：前端项目必须满足的最低安全配置清单（CSP、HTTPS、HSTS、COOP/COEP、SameSite、XSS 防御、依赖审计等）'
+  - '- SDL (Security Development Lifecycle)：将安全左移至需求分析、设计评审、编码规范、测试验收、发布上线、运维响应全生命周期'
+  - '- 应急响应 SOP：分级定义（P0 立即停服修复、P1 24h 修复、P2 迭代修复）、溯源取证流程、回滚/热修复机制、事后复盘输出 RCA'
+  - '**关键性质**'
+  - '- 检查清单化：接入清单（依赖审计、CSP 报告模式、HTTPS 强制、敏感接口 CSRF Token）、编码清单（禁止 `innerHTML`/ `v-html`
+    直用、URL 参数编码、CSP nonce 注入）、发布清单（Source Map 上报、安全扫描通过、变更日志）'
+  - '- 自动化门禁：Git Hooks (Husky) 拦截敏感词/密钥提交、CI 阻断高危漏洞/ CSP 违规/ 缺失测试、CD 阻断未签名构建产物'
+  - '- 监控告警：前端错误监控捕获 CSP 违规报告、JS 报错异常激增、埋点异常 -> 告警钉钉/飞书/ PagerDuty'
+  - '**典型例子**'
+  - '- 《前端安全开发规范》文档化：规定“所有用户输入渲染必须走 `DOMPurify.sanitize`”、“所有跳转链接必须 `rel=noopener`”、“所有
+    Cookie 必须 `Secure; HttpOnly; SameSite=Lax`”'
+  - '- 应急演练：模拟 XSS 注入触发 CSP 上报 -> 确认影响范围 -> 热修复下发 CSP 收紧规则/前端代码回滚 -> 事后补全编码规范/测试用例'
+  - '**边界条件**'
+  - '- 基线需随技术栈演进（如引入 Trusted Types、COOP/COEP 隔离策略），每季度评审更新'
+  - '- 业务紧急上线不可绕过安全门禁，必须走“风险确认单”流程：安全评估 + 补偿措施 + 限时整改承诺'
+  - '- 供应商/外包代码纳入同等安全审计标准，合同约定安全责任'
+  - '...'
+  sources:
+  - paper: 20230418_042.md
+    role: origin
+  excerpts:
+  - 产出《前端安全开发规范》《安全编码 Checklist》《漏洞分级与响应流程》，接入 SDL 安全开发生命周期。
