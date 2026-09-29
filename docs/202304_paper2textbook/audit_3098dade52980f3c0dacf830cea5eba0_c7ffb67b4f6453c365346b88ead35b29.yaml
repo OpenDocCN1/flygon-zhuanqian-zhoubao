@@ -1,0 +1,47 @@
+citation_stats:
+- paper: P001
+  count: 3
+  locations:
+  - '5.1'
+  - '5.1'
+  - '5.1'
+- paper: P002
+  count: 2
+  locations:
+  - '5.2'
+  - '5.2'
+- paper: P003
+  count: 1
+  locations:
+  - '5.3'
+- paper: P004
+  count: 2
+  locations:
+  - '5.4'
+  - '5.4'
+unsupported_claims:
+- location: '5.1'
+  claim: Transformer 的注意力机制对上下文窗口内的所有 Token 平等对待，不区分“系统指令”与“用户数据”。攻击者正是利用这一架构特性，将恶意指令伪装成数据，通过注意力机制的全局聚合能力，劫持模型的行为输出。
+  reason: 素材中未找到支撑，P001仅提及"指令与数据未隔离，上下文全局注意力机制被利用"，未详述Transformer注意力机制原理及劫持过程
+- location: '5.2'
+  claim: LLM-as-a-Judge 的偏见只能工程化缓解，不能彻底消除。
+  reason: 素材中未找到支撑，P002仅提及偏见缓解方案，未论证是否可彻底消除
+- location: '5.4'
+  claim: KV Cache 量化（KV Cache INT8/FP8）对成本公式中 Decode 阶段内存带宽变量影响最大。
+  reason: 素材中未找到支撑，P004提及KV Cache量化收益但未量化对成本公式变量影响程度
+- location: '5.3'
+  claim: vLLM 已将 Prompt 模版版本化管理作为生产部署最佳实践的一部分。
+  reason: 素材中未找到支撑，P003仅提及"vLLM 生产部署最佳实践：PagedAttention 内存管理 + 持续批处理 + Prompt 模版版本化管理"，未明确说明为官方最佳实践
+missing_concepts:
+- paper: P001
+  concept: 提示注入防御的具体工具链实现（如开源框架、商业产品）
+  severity: medium
+- paper: P002
+  concept: 评测基准数据集的构建标准与污染检测具体算法实现
+  severity: high
+- paper: P003
+  concept: PromptOps 在多模型、多环境下的配置漂移检测与自动修复机制
+  severity: medium
+- paper: P004
+  concept: 不同量化精度（W4A16/W4A4/FP8/INT8）在具体硬件（H100/A100/4090）上的吞吐与延迟实测对比数据
+  severity: high
