@@ -1,0 +1,104 @@
+citation_stats:
+- paper: 20230418_001.md
+  count: 1
+  locations:
+  - '48.1'
+- paper: 20230418_079.md
+  count: 8
+  locations:
+  - '48.1'
+  - '48.2'
+  - 48.3.1
+  - 48.3.2
+  - 48.3.3
+  - '48.4'
+  - 48.6.1
+  - 48.6.5
+- paper: 20230418_002.md
+  count: 1
+  locations:
+  - 48.3.1
+- paper: 20230418_105.md
+  count: 2
+  locations:
+  - 48.3.1
+  - 48.4.1
+- paper: 20230418_106.md
+  count: 1
+  locations:
+  - 48.3.1
+- paper: 20230418_110.md
+  count: 1
+  locations:
+  - 48.4.1
+- paper: 20230418_136.md
+  count: 2
+  locations:
+  - 48.5.1
+  - 48.5.5
+- paper: 20230418_140.md
+  count: 1
+  locations:
+  - 48.5.1
+unsupported_claims:
+- location: 48.3.2
+  claim: SemanticSimilarityExampleSelector 使用 pgvector 和 text-embedding-3-small
+  reason: 素材中未提及具体向量数据库或嵌入模型配置细节
+- location: 48.4.3
+  claim: PydanticOutputParser 的 parse_with_prompt 采用递归重试且 max_retries=3
+  reason: 素材中未定义重试次数上限与递归实现细节
+- location: 48.5.2
+  claim: BootstrapFewShot 优化器的工作流程包含 '收集高分轨迹' 与 '组合搜索'
+  reason: 素材中未描述 DSPy 优化器的具体内部步骤
+- location: 48.5.3
+  claim: OPRO 优化循环包含 '构造元提示词' 与 '调用优化器 LLM'
+  reason: 素材中未提供 OPRO 算法的详细伪代码或流程
+- location: 48.5.4
+  claim: 数据飞轮包含 '影子模式/灰度 A/B 测试' 与 '自动回滚机制'
+  reason: 素材中未提及影子模式、灰度发布或自动回滚的具体实现
+- location: 48.6.3
+  claim: 内容生产流水线阶段 3 使用 Pandoc/WeChatFormat 渲染并生成语音版
+  reason: 素材中未提及具体渲染工具或语音生成环节
+- location: 48.6.4
+  claim: 护城河模型公式 LTV = 内容稀缺性 × 付费意愿 × (1 + 裂变系数 × 留存率)^T - 运营边际成本
+  reason: 素材中未给出量化 LTV 公式
+- location: 48.6.5
+  claim: 《龙哥赚钱周报 20230411》原文摘录包含 '请勿外流，防止失效' 等内容
+  reason: 素材中仅提供 20230418 版本周报链接，未包含 20230411 版本全文
+- location: '48.7'
+  claim: 选择 '语雀+微信群' 而非 '自建 CMS+自建 App' 的取舍理由
+  reason: 素材中未对比自建系统成本或决策依据
+- location: '48.8'
+  claim: 练习 1-6 的具体实现步骤与代码细节
+  reason: 素材中仅提供练习题目，无参考答案或实现指导
+missing_concepts:
+- paper: 20230418_079.md
+  concept: 龙哥风向标的具体内容结构（标题、来源链接、标签、核心观点、可执行动作、置信度评分）
+  severity: high
+- paper: 20230418_079.md
+  concept: 周报固定栏目结构（宏观风向、项目拆解、工具推荐、避坑指南、社群动态）
+  severity: high
+- paper: 20230418_079.md
+  concept: 交付格式：Markdown/PDF/语音版多模态适配
+  severity: medium
+- paper: 20230418_079.md
+  concept: 分发渠道：微信群/知识星球/邮件列表并行
+  severity: medium
+- paper: 20230418_079.md
+  concept: 准入门槛：付费年费制/邀请码制/完成新人任务制
+  severity: medium
+- paper: 20230418_079.md
+  concept: 裂变机制：邀请 3 位好友解锁完整版/转发朋友圈领取往期 PDF/专属邀请海报自动生成
+  severity: medium
+- paper: 20230418_079.md
+  concept: 版权护城河：页脚水印/动态用户 ID 水印/违规封号追责
+  severity: medium
+- paper: 20230418_079.md
+  concept: 反哺机制：阅读完读率/提问高频点/裂变转化率/续费率反哺选题
+  severity: medium
+- paper: 20230418_079.md
+  concept: 风险预警：关键人依赖/平台依赖/宏观周期敏感/内容同质化竞争
+  severity: high
+- paper: 20230418_079.md
+  concept: 对策：分析师梯队培养/方法论 SOP 化/模型辅助初稿/多地备份/分发渠道多元化/产品线分层/垂直领域深化/结果承诺制/成功案例库
+  severity: high
