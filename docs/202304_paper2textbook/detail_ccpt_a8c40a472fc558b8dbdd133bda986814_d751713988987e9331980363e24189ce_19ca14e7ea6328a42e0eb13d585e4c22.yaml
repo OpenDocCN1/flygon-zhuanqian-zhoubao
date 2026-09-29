@@ -1,0 +1,237 @@
+units:
+- 'no': 1
+  name: Pinia 核心架构 —— 从模块化 Store 到自动代码分割
+  points:
+  - '**为什么需要这个概念？**'
+  - '- Vuex 存在模块命名空间冲突、TypeScript 类型推导困难、热更新支持弱、服务端渲染 (SSR) 易污染状态等痛点'
+  - '- 大型应用需要状态管理天然支持代码分割，避免打包体积过大影响首屏加载'
+  - '- 开发体验需从“手动注册模块”升级为“按需引入即自动注册”'
+  - '**核心定义**'
+  - '- Pinia 由一个根 Store 实例 (`createPinia()`) 和多个独立的 Store 组成'
+  - '- 每个 Store 包含 `state`（响应式数据源）、`getters`（派生计算缓存）、`actions`（业务逻辑/异步操作）三元组'
+  - '- Store 定义即注册：调用 `defineStore` 返回的函数即完成注册，无需手动 `store.registerModule`'
+  - '- 模块自动代码分割：Vite/Rollup 通过动态 `import()` 识别 Store 文件，自动生成独立 Chunk，按需加载'
+  - '**关键性质**'
+  - '- 扁平化架构：无嵌套模块概念，Store 间通过 `useStore()` 直接组合，天然解耦'
+  - '- 类型安全首选：`defineStore` 返回类型自动推导 State/Getters/Actions，`storeToRefs` 保持响应式解构类型'
+  - '- 插件系统基于 `pinia.use()` 扩展横切关注点（持久化、DevTools、同步标签页）'
+  - '- SSR 友好：每次请求创建新 `createPinia()` 实例，天然隔离用户状态，无污染风险'
+  - '**典型例子**'
+  - '- 电商项目中：`useUserStore`（用户信息/权限）、`useCartStore`（购物车）、`useProductStore`（商品缓存）三个独立
+    Store，分别按需加载'
+  - '- 组合式 API 风格 (Setup Store) 编写：在 `setup()` 中自由使用 `ref`/`computed`/`watch`，逻辑复用能力强'
+  - '**边界条件**'
+  - '- 选项式 API 风格 (Option Store) 与组合式 API 风格不可混用，团队需统一规范'
+  - '- `state` 必须返回对象，不能直接返回 `ref`/`reactive`（Setup Store 除外）'
+  - '- 直接修改 `$state` 会丢失响应式连接，需使用 `$patch` 或逐属性赋值'
+  - '- 浏览器开发工具时间旅行仅支持 Option Store 完美回放，Setup Store 受限于闭包作用域'
+  sources:
+  - paper: 20230418_037.md
+    role: origin
+  excerpts:
+  - Pinia 的核心架构优势在于：1) 类型推导完美支持 TS，无需手写类型；2) 模块自动代码分割，无需手动配置；3) 支持 Composition API
+    风格编写 Store，逻辑复用更灵活；4) 更轻量（~1kb），无 Module 嵌套概念。
+  - '定义 Store 的两种方式：
+
+    - Option Store: `defineStore(''id'', { state: () => ({...}), getters: {}, actions:
+    {} })`
+
+    - Setup Store: `defineStore(''id'', () => { const count = ref(0); return { count
+    } })`'
+  - 自动代码分割原理：Vite/Rollup 遇到 `import { useUserStore } from '@/stores/user'` 会自动将该 Store
+    打包为单独 chunk，实现按需加载。
+- 'no': 2
+  name: 类型安全实践 —— 让 Store 类型随代码流动
+  points:
+  - '**为什么需要这个概念？**'
+  - '- Vuex 中 `this.$store.state.a.b` 类型丢失、`mapState` 字符串魔法无类型提示、重构极易出错'
+  - '- 组合式 API 中解构 `store` 会丢失响应式，`storeToRefs` 需保持类型完整'
+  - '- 团队协作需要“以类型为文档、以编译为测试”的开发信心'
+  - '**核心定义**'
+  - '- `defineStore` 返回类型自动推导为 `StoreDefinition`，包含 `State`、`Getters`、`Actions` 类型别名'
+  - '- `storeToRefs(store)` 将 Store 转为普通对象，每个属性均为 `Ref` 且保持原类型，解决解构丢失响应式问题'
+  - '- 组件中通过 `const store = useUserStore()` 获得完整类型提示，`store.name`、`store.getFullName()`、`store.login()`
+    均有智能感知'
+  - '**关键性质**'
+  - '- 类型自动收窄：在 Setup Store 中，`ref` 推导为 `Ref<T>`，`computed` 推导为 `ComputedRef<T>`，返回对象自动解包'
+  - '- 跨 Store 组合类型安全：`useCartStore()` 内调用 `useUserStore()`，类型系统自动合并依赖图'
+  - '- 测试时 `setActivePinia(createPinia())` 重置上下文，Store 实例类型不变'
+  - '**典型例子**'
+  - '- 定义 `interface User { id: number; name: string }`，`state: () => ({ user: null
+    as User | null })`，`getters: { userName: (state) => state.user?.name ?? ''Guest''
+    }`，全程类型推导无需注解'
+  - '- 组件内 `const { userName } = storeToRefs(useUserStore())`，`userName.value` 类型为
+    `string`，修改触发响应式更新'
+  - '**边界条件**'
+  - '- Setup Store 返回函数/类等非纯数据对象时，类型推导可能偏离预期，需显式 `return { ... }` 约束'
+  - '- `store.$subscribe` 回调参数类型为 `MutationPayload`，需注意泛型参数传递'
+  - '- 循环引用 Store（A 依赖 B，B 依赖 A）会导致类型实例化深度溢出，需重构依赖方向'
+  sources:
+  - paper: 20230418_037.md
+    role: origin
+  excerpts:
+  - '类型安全最佳实践：
+
+    1. 优先使用 Setup Store，利用 TS 推导能力。
+
+    2. 组件中必须使用 `storeToRefs(store)` 解构，保持响应式与类型。
+
+    3. 避免直接 `const { state } = store` 导致响应式丢失。
+
+    4. 测试文件顶部 `setActivePinia(createPinia())` 确保实例隔离。'
+- 'no': 3
+  name: 插件机制与持久化 —— 横切关注点的优雅注入
+  points:
+  - '**为什么需要这个概念？**'
+  - '- 状态持久化（localStorage/IndexedDB）、多标签页同步、DevTools 时间旅行属于横切关注点，不应侵入业务 Store 代码'
+  - '- 手动在每个 Action 中 `localStorage.setItem` 导致代码分散、难维护、易遗漏'
+  - '- 需要统一的扩展点在状态变更前后拦截、转换、持久化'
+  - '**核心定义**'
+  - '- `pinia.use(plugin)` 注册插件，插件函数签名 `({ store, app, pinia, options }) => { /* 返回可选属性扩展
+    store */ }`'
+  - '- 插件可访问 `store.$subscribe((mutation, state) => {})` 监听所有状态变更（类似 Vuex `subscribe`）'
+  - '- `pinia-plugin-persistedstate` 官方推荐持久化插件，配置 `persist: true` 或 `{ key, storage,
+    paths, serializer }` 即可零代码持久化'
+  - '**关键性质**'
+  - '- 插件执行顺序即注册顺序，后注册插件可覆盖前者返回的扩展属性'
+  - '- 插件内可通过 `pinia.use()` 链式调用，或访问 `pinia._s` (Map<id, Store>) 遍历所有 Store'
+  - '- 自定义插件可实现：状态加密存储、敏感字段脱敏、异步存储适配器（如 IndexedDB/WebSQL）、跨标签页 `BroadcastChannel`
+    同步'
+  - '**典型例子**'
+  - '- `pinia-plugin-persistedstate` 配置：`defineStore(''user'', { state: () => ({ token:
+    '''' }), persist: { storage: sessionStorage, paths: [''token''] } })` 仅持久化 token
+    到 sessionStorage'
+  - '- 自定义插件实现多标签页同步：监听 `storage` 事件或 `BroadcastChannel`，收到消息调用 `store.$patch(payload)`
+    更新状态'
+  - '**边界条件**'
+  - '- 持久化存储容量受限（localStorage 5MB），大对象需压缩或分片，或改用 IndexedDB'
+  - '- 服务端渲染 (SSR) 环境无 `window`/`localStorage`，插件需判断 `import.meta.env.SSR` 跳过或使用 `cookie`
+    存储'
+  - '- 状态结构变更（字段重命名/删除）会导致旧版本持久化数据反序列化报错，需实现版本迁移逻辑 `serializer: { deserialize: (v)
+    => migrate(v) }`'
+  sources:
+  - paper: 20230418_037.md
+    role: origin
+  excerpts:
+  - "插件机制核心代码：\n```ts\nexport function piniaPluginPersistedstate(context) {\n  const\
+    \ { store, options } = context\n  if (options.persist) {\n    // 读取存储恢复 state\n\
+    \    // 订阅 $subscribe 持久化变更\n  }\n}\n```"
+  - '`pinia.use()` 类型签名：`(plugin: PiniaPlugin) => Pinia`，支持链式调用。插件可返回对象合并到 store 实例上，如
+    `return { $reset: () => ... }`。'
+- 'no': 4
+  name: SSR 与测试策略 —— 实例隔离与 Store 重置
+  points:
+  - '**为什么需要这个概念？**'
+  - '- SSR 中全局单例 Pinia 会导致请求间状态污染（用户 A 登录态泄露给用户 B）'
+  - '- 单元测试中 Store 状态残留导致测试用例相互干扰，破坏隔离性'
+  - '- Vuex 需手动 `store.hotUpdate` 热更新、手动重置 state，Pinia 需标准化方案'
+  - '**核心定义**'
+  - '- SSR 必须在每个请求创建新 `createPinia()` 实例，通过 `app.use(pinia)` 注入，确保请求级隔离'
+  - '- 客户端激活时 `pinia.state.value = window.__PINIA_STATE__` 完成水合，避免双倍序列化'
+  - '- 测试环境：`vitest` 配置 `globalSetup` 创建 Pinia，每个测试用例前 `setActivePinia(createPinia())`
+    重置上下文'
+  - '- Store 重置：`store.$reset()` 仅重置 Option Store 的 state 到初始值，Setup Store 需手动实现 `$reset`
+    或重新实例化'
+  - '**关键性质**'
+  - '- 请求隔离：`createPinia()` 成本极低（仅创建 Map 和 Symbol），可放心每请求实例化'
+  - '- 类型安全测试：`const store = useStore()` 在测试中类型完全一致，`vi.spyOn(store, ''action'')`
+    可 Mock Actions'
+  - '- 热更新 (HMR) 原生支持：`import.meta.hot.accept()` 无需手动处理，Pinia 内部自动迁移 state'
+  - '**典型例子**'
+  - '- Nuxt 3 / Vue SSR 入口：`export default defineNuxtPlugin(() => { const pinia =
+    createPinia(); app.use(pinia) })`'
+  - "- Vitest 测试文件：\n```ts\nimport { setActivePinia, createPinia } from 'pinia'\n\
+    import { useUserStore } from '@/stores/user'\nimport { beforeEach, it, expect\
+    \ } from 'vitest'\n\nbeforeEach(() => setActivePinia(createPinia()))\nit('login\
+    \ sets token', () => {\n  const store = useUserStore()\n  store.login('token123')\n\
+    \  expect(store.token).toBe('token123')\n})\n```"
+  - '**边界条件**'
+  - '- Setup Store 无自动 `$reset`，需手动添加：`return { ..., $reset: () => { count.value =
+    0 } }`'
+  - '- 测试中 Mock `store.$patch` 需注意类型兼容，建议 `vi.spyOn(store, ''$patch'')`'
+  - '- SSR 传递初始状态序列化时，避免循环引用（如 Router 实例），需自定义 `JSON.stringify` replacer'
+  sources:
+  - paper: 20230418_037.md
+    role: origin
+  excerpts:
+  - 'SSR 关键点：
+
+    1. 服务端每请求 `createPinia()`
+
+    2. `pinia.state.value` 序列化为 HTML 注入
+
+    3. 客户端 `pinia.state.value = window.__PINIA_STATE__` 水合
+
+    4. 避免在 Store 顶层直接访问 `window`/`document`'
+  - '测试最佳实践：
+
+    - 使用 `setActivePinia(createPinia())` 而非 `createPinia()` 单例
+
+    - `storeToRefs` 解构后的 Ref 可直接 `.value` 断言
+
+    - 利用 `vi.mock` 模拟外部 API 依赖，测试 Action 逻辑'
+- 'no': 5
+  name: Vuex 迁移到 Pinia —— 增量重构的平滑路径
+  points:
+  - '**为什么需要这个概念？**'
+  - '- 存量 Vuex 项目无法一次性重写，需共存迁移策略'
+  - '- `mapState`/`mapGetters`/`mapActions` 等辅助函数大量存在，需兼容方案'
+  - '- Module 嵌套结构需拆解为扁平 Store，迁移顺序影响风险'
+  - '**核心定义**'
+  - '- 共存方案：`app.use(pinia).use(vuex)` 同时安装，Pinia Store 通过 `pinia.use(() => ({ $vuex:
+    store }))` 插件访问 Vuex 根 store'
+  - '- 兼容辅助函数：`pinia-plugin-vuex` 或手写 `mapState` 兼容层，逐步替换为 `storeToRefs(useStore())`'
+  - '- Module 拆分策略：按业务域拆分为独立 Store，原 `modules/a/b` -> `useAStore`/`useBStore`，通过组合替代嵌套'
+  - '- 共享状态迁移清单：根 state -> 独立 Store、插件迁移、类型定义迁移、测试覆盖补全'
+  - '**关键性质**'
+  - '- 增量迁移：新功能直接写 Pinia，旧功能按模块逐个迁移，运行期共存无冲突'
+  - '- 类型迁移：Vuex `Store<RootState>` -> Pinia `useXStore()` 返回类型，逐文件替换 import'
+  - '- 迁移后体积减少：Pinia 无模块嵌套开销，Tree-shaking 更彻底，生产包体积通常减少 20%+'
+  - '**典型例子**'
+  - '- 迁移步骤：
+
+    1. 安装 Pinia，`app.use(createPinia())`
+
+    2. 编写 `pinia-plugin-vuex` 兼容层，使 `this.$store` 可用
+
+    3. 将 `store/modules/user.js` 重写为 `stores/user.ts` (Setup Store)
+
+    4. 组件中 `import { useUserStore } from ''@/stores/user''` 替换 `mapState(''user'',
+    [''name''])`
+
+    5. 删除 Vuex 相关代码与依赖'
+  - '- 迁移后组件代码对比：
+
+    Vuex: `computed: { ...mapState(''user'', [''name'']), ...mapGetters(''user'',
+    [''fullName'']) }, methods: { ...mapActions(''user'', [''login'']) }`
+
+    Pinia: `const store = useUserStore(); const { name, fullName } = storeToRefs(store);
+    store.login()`'
+  - '**边界条件**'
+  - '- Vuex 插件（如 `vuex-persistedstate`）需重写为 Pinia 插件，无法直接复用'
+  - '- 动态注册模块 `store.registerModule` 场景需改为动态 `import` Store + `pinia._s.set(id, store)`'
+  - '- 严格模式 `strict: true` 迁移后由 TypeScript 编译时检查替代运行时检查'
+  - '- 大型项目建议设立“迁移冻结期”，核心模块优先迁移，边缘模块后置'
+  sources:
+  - paper: 20230418_037.md
+    role: origin
+  excerpts:
+  - 'Vuex 到 Pinia 迁移核心差异表：
+
+    | 特性 | Vuex | Pinia |
+
+    |---|---|---|
+
+    | 定义风格 | 单一大 Store + Module | 多个扁平 Store |
+
+    | 类型支持 | 需手写类型装饰器 | TS 原生推导 |
+
+    | 代码分割 | 需手动配置 | 自动 (动态 import) |
+
+    | SSR | 需手动克隆 state | 每请求创建实例原生隔离 |
+
+    | 组合式 API | 需 `useStore()` 封装 | 原生 Setup Store |
+
+    | 体积 | ~3.5kb | ~1kb'
+  - "兼容层示例：\n```ts\n// pinia-plugin-vuex.js\nexport function vuexPlugin({ store })\
+    \ {\n  store.$vuex = vuexStore // 挂载旧 Vuex 实例\n}\n```"
