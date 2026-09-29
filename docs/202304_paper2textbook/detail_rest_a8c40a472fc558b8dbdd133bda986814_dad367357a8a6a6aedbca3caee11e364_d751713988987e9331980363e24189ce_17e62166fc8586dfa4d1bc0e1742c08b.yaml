@@ -1,0 +1,171 @@
+learning_targets:
+- 理解 BFF 架构的核心价值与适用边界，区别于传统 API 网关
+- 掌握 NestJS 模块化架构、依赖注入、装饰器驱动的三层开发模式与 AOP 切面编程
+- 熟练运用 Prisma Schema 建模、类型安全查询、迁移管理及中间件扩展（软删除/多租户）
+- 建立生产级部署运维体系：Docker 多阶段构建、PM2 集群模式、存活/就绪双探针、结构化日志与 Prometheus 监控
+- 设计支持 SSR/SSG/ISR/CSR 混合渲染的全栈应用骨架，实现前后端类型共享与认证态同构
+concept_map:
+- 第 44 章：Node.js 服务端开发与 BFF 模式
+- ├── 1. BFF 架构价值
+- │   ├── 核心职责：聚合下游、裁剪字段、适配多端、屏蔽变更  —— P001
+- │   ├── 部署模式：一前端一 BFF，前端团队掌控生命周期  —— P001
+- │   ├── 关键性质：聚合性、裁剪性、适配性、稳定性、权责清晰  —— P001
+- │   └── 边界条件：不含核心业务逻辑、防超级单体、团队/服务规模阈值、契约测试  —— P001
+- ├── 2. NestJS 企业级开发
+- │   ├── 核心三元组：@Module/@Injectable/@Controller  —— P002
+- │   ├── 依赖注入：IOC 容器、生命周期管理、构造函数注入、循环依赖解决  —— P002
+- │   ├── AOP 切面：Guard/Interceptor/Pipe/Filter 覆盖请求全生命周期  —— P002
+- │   ├── 文档生成：@nestjs/swagger + DTO 装饰器 -> OpenAPI 3.0 零成本维护  —— P002
+- │   ├── 平台无关：Express/Fastify 适配器，支持 HTTP/GraphQL/WebSocket/gRPC  —— P002
+- │   └── 边界条件：过度设计风险、循环依赖陷阱、高并发性能损耗、学习曲线  —— P002
+- ├── 3. Prisma ORM 实战
+- │   ├── 核心组件：Schema（单一事实来源）、Client（类型安全查询）、Migrate（版本化迁移）  —— P003
+- │   ├── 端到端类型安全：Schema -> Client 方法全链路 TS 推导  —— P003
+- │   ├── 声明式迁移：migrate dev/deploy/reset 生命周期管理  —— P003
+- │   ├── 关联查询：include/select 嵌套过滤排序极简语法  —— P003
+- │   ├── 中间件扩展：$extends 实现软删除/审计/多租户横切逻辑  —— P003
+- │   ├── 连接池与事务：engine-adapter 管理池、交互式/批量事务 ACID 保障  —— P003
+- │   └── 边界条件：大批量写入性能、高级 SQL 支持度、迁移文件膨胀、Serverless 冷启动  —— P003
+- ├── 4. 部署与运维工程化
+- │   ├── Docker 多阶段构建：Builder/Runner 分离、Distroless/Alpine、非 root、<100MB  —— P004
+- │   ├── PM2 集群模式：instances:max 利用多核、max_memory_restart 防 OOM、零停机 reload  —— P004
+- │   ├── 健康检查双探针：/health/liveness (存活) + /health/readiness (依赖就绪)  —— P004
+- │   ├── 可观测性三件套：Winston JSON 日志 + Prometheus /metrics + OpenTelemetry 链路追踪  —— P004
+- │   └── 边界条件：Distroless 排查难、集群模式内存不共享、探针轻量化、指标基数爆炸防范  —— P004
+- └── 5. 全栈应用骨架
+- '    ├── 渲染模式矩阵：SSR/SSG/ISR/CSR 按页面粒度配置  —— P005'
+- '    ├── 类型共享机制：Monorepo shared-types 包 / tsconfig project references 直接引用  —— P005'
+- '    ├── 数据获取统一抽象：BFF 暴露 Server Actions/API Routes，前端 fetch 统一调用  —— P005'
+- '    ├── 认证态同构：Cookie/JWT 服务端解析注入上下文，客户端水合复用  —— P005'
+- '    ├── 开发体验：TurboRepo/Nx 管道、并行 dev、热更新类型同步、共享 Lint 配置  —— P005'
+- '    └── 边界条件：ISR 部署平台依赖、类型共享版本漂移、Edge Runtime 兼容性、水合不匹配防范  —— P005'
+life_analogy:
+- 想象 BFF 是一位**专属管家**，NestJS 是**管家的标准化作业手册**，Prisma 是**管家的智能档案系统**，Docker/PM2 是**管家的工作站与值班表**，全栈骨架则是**管家服务的标准化套餐菜单**：
+- '- **BFF (专属管家)**：前端（少爷）只需向管家提出一个需求（"备晚餐")，管家自动协调厨房（商品服务）、酒窖（价格服务）、花园（推荐服务）、账房（库存服务），将食材洗切好（裁剪字段）、按少爷口味摆盘（适配多端），端上桌时只呈现最终菜品（聚合响应）。少爷完全不知道后院有多少厨师、菜谱怎么变，只认管家这一个接口。'
+- '- **NestJS (标准化作业手册)**：管家不靠脑补干活，而是遵循一套严谨的《管家作业手册》：模块化分工（@Module：厨房组/酒窖组/账房组）、依赖注入（@Injectable：需要调料自动送达、需要账本自动递上）、AOP
+  切面（Guard：验明身份；Interceptor：记录菜单变更；Pipe：食材入库前验收；Filter：打碎盘子统一善后）、文档自动生成（新厨师入职直接读手册即懂流程）。'
+- '- **Prisma (智能档案系统)**：管家查阅档案（数据库）时，不再手写复杂的检索单（SQL），而是对着档案目录（Schema）说："给我这位少爷的所有订单，只要未取消的，按时间倒序，带上商品详情"。系统自动生成类型安全的检索代码，重构档案结构时，所有旧检索单自动报废提醒（编译报错），支持软删除（标记作废而非销毁）、多租户隔离（不同少爷互不可见档案）。'
+- '- **Docker/PM2 (工作站与值班表)**：管家上班前换上标准工装（Distroless 镜像，轻量无多余工具）、持证上岗（非 root 用户）、配备克隆分身术（PM2
+  集群模式利用多核）、设定过劳保护线（内存超限自动重启）、建立心跳检测（/health/liveness 存活，/health/readiness 准备好接单）、所有操作留痕结构化日志（Winston
+  JSON）并上报监控大屏。'
+- '- **全栈骨架 (标准化套餐菜单)**：根据场景提供不同套餐：SEO 重的页面走 SSR（现做现端）、静态内容走 SSG（中央厨房预制）、半动态走 ISR（定时翻新预制菜）、高交互后台走
+  CSR（自助餐台）。菜单（类型定义）前厨房共享，少爷点菜（请求）前厨房对账无歧义，认证身份（Cookie/JWT）前厨房同步通行。'
+summary:
+- concept: BFF (Backend for Frontend)
+  desc: 为特定前端定制的后端聚合层：聚合下游、裁剪字段、适配多端、屏蔽内部变更，前端团队自主掌控
+- concept: NestJS 核心三元组
+  desc: '@Module 定义边界、@Injectable 提供服务、@Controller 处理路由，构成模块化/依赖注入/装饰器驱动的企业级标准架构'
+- concept: 依赖注入 (DI) 与 IOC 容器
+  desc: 运行时容器管理 Provider 生命周期（单例/请求级/瞬态），通过构造函数注入实现控制反转，支持接口编程与循环依赖解决
+- concept: AOP 切面四大件
+  desc: Guard(鉴权/守卫)、Interceptor(响应转换/缓存)、Pipe(校验/转换)、Filter(异常处理)覆盖请求全生命周期横切关注点
+- concept: Prisma Schema 单一事实来源
+  desc: 声明式定义模型/关联/索引/枚举，单一来源自动生成 TS 类型、Client 查询方法与迁移 SQL
+- concept: 端到端类型安全
+  desc: 从 Schema 到 Client (findMany/create/update/$queryRaw) 全链路 TypeScript 推导，重构时编译期即报错
+- concept: 声明式迁移
+  desc: prisma migrate dev 对比 Schema 差异自动生成 SQL 迁移文件，支持生产环境 migrate deploy 与回滚
+- concept: $extends 中间件模式
+  desc: 在 Client 层注入横切逻辑：软删除自动加 where.deletedAt=null、审计日志、多租户隔离，复用性强
+- concept: Docker 多阶段构建
+  desc: Builder 阶段编译构建，Runner 阶段仅复制产物至 Distroless/Alpine 非 root 环境，镜像 <100MB，安全加固
+- concept: PM2 集群模式
+  desc: instances:max 充分利用多核 CPU，max_memory_restart 防 OOM，reload 实现零停机重载
+- concept: 双探针健康检查
+  desc: Liveness 探针判断进程存活，Readiness 探针判断依赖就绪 (DB/Redis/下游)，配合 K8s 滚动部署零丢流量
+- concept: 可观测性三件套
+  desc: Winston 结构化 JSON 日志 (含 traceId/spanId) + Prometheus /metrics 指标暴露 + OpenTelemetry
+    分布式链路追踪
+- concept: 渲染模式矩阵 (SSR/SSG/ISR/CSR)
+  desc: 按页面粒度选择：SSR 动态 SEO、SSG 极致性能、ISR 半动态增量再生、CSR 高交互后台，统一骨架灵活切换
+- concept: 类型共享机制
+  desc: Monorepo shared-types 包或 tsconfig project references 直接引用 BFF DTO/Entity，实现前后端编译期类型契约
+- concept: 认证态同构
+  desc: 服务端解析 Cookie/JWT 注入 Request 上下文，客户端水合复用，避免水合不匹配，实现 SSR/CSR 无缝认证
+exercises:
+- 'no': 1
+  title: BFF 聚合接口设计与契约测试
+  contents:
+  - 场景：电商商品详情页，需聚合 4 个下游微服务：
+  - 1. 商品基础信息服务 (GET /api/v1/goods/{id})
+  - '2. 价格服务 (POST /api/v1/prices/batch, body: {ids: []})'
+  - 3. 库存服务 (GET /api/v1/stocks/{skuId})
+  - 4. 评论汇总服务 (GET /api/v1/comments/summary?goodsId={id})
+  - 任务：
+  - 1. 设计 BFF 聚合接口 GET /bff/goods/detail/{id} 的输入输出契约 (TypeScript Interface)，仅返回 Web
+    端所需 10 个字段。
+  - 2. 编写 NestJS Controller + Service 伪代码，展示如何使用 Promise.all 并行聚合、异常隔离（某服务降级不影响主流程）、统一错误码映射。
+  - 3. 设计契约测试策略：如何在 CI 中验证下游服务变更不破坏 BFF 聚合契约？
+  - 思考题：
+  - '- 如果价格服务响应超时 (P99 > 500ms)，BFF 应该如何降级？（提示：熔断/缓存/兜底数据）'
+  - '- 如何防止 BFF 变成“超级单体”？划定 BFF 与领域服务的职责边界清单。'
+- 'no': 2
+  title: NestJS 实战：实现一个通用的 RBAC 权限守卫与动态模块配置
+  contents:
+  - 目标：实现基于 JWT + 角色的声明式权限控制，支持模块级动态配置密钥与白名单路由。
+  - 任务：
+  - 1. 定义 JwtAuthGuard：继承 AuthGuard('jwt')，结合 Reflector 读取 @Public() 装饰器跳过鉴权。
+  - 2. 定义 RolesGuard：匹配 @Roles('admin', 'operator') 装饰器与 JWT payload 中的 roles 字段。
+  - '3. 设计 AuthModule.forRootAsync({ useFactory, inject: [ConfigService] }) 动态模块，支持从配置中心加载
+    JWT secret、token 过期时间、白名单路由前缀。'
+  - 4. 编写 AppModule 导入 AuthModule.forRootAsync(...) 的完整装配代码。
+  - 思考题：
+  - '- Guard、Interceptor、Pipe、Filter 的执行顺序是怎样的？如果在 Guard 抛出异常，Filter 能捕获吗？'
+  - '- 循环依赖场景：AuthModule 需要引用 UserModule 验证用户状态，UserModule 又需要引用 AuthModule 校验 Token，如何用
+    forwardRef 打破？'
+- 'no': 3
+  title: Prisma 进阶：软删除中间件、事务一致性与连接池调优
+  contents:
+  - 给定 Schema 模型：
+  - model User { id String @id @default(cuid()) email String @unique deletedAt DateTime?
+    posts Post[] }
+  - 'model Post { id String @id @default(cuid()) title String published Boolean @default(false)
+    author User @relation(fields: [authorId], references: [id]) authorId String }'
+  - 任务：
+  - '1. 编写 Prisma Client $extends 中间件，实现全模型软删除：所有查询自动附加 where: { deletedAt: null }，删除操作转为
+    update { deletedAt: now() }。'
+  - 2. 实现“创建用户并发布首篇文章”的交互式事务，要求：若文章标题重复 (唯一索引冲突) 则回滚用户创建，并抛出自定义业务异常。
+  - 3. 针对 Serverless 环境 (如 Vercel Edge Functions)，配置 Prisma 连接池参数：connection_limit、pool_timeout、idle_timeout，解释各参数对冷启动延迟与连接复用的影响。
+  - 思考题：
+  - '- $extends 中间件与数据库级触发器/RLS (Row Level Security) 实现软删除/多租户的优劣势对比？'
+  - '- 如何在不修改业务代码的前提下，为特定高频查询开启缓存 (如 Redis)？提示：利用 $extends query 扩展点。'
+- 'no': 4
+  title: 生产级 Dockerfile 与 PM2 生态配置实战
+  contents:
+  - 基于 NestJS + Prisma 项目，编写完整的生产级部署配置：
+  - 1. Dockerfile 多阶段构建：
+  - '   - Builder 阶段：安装所有依赖 (含 devDependencies)、运行 prisma generate、npm run build。'
+  - '   - Runner 阶段：基于 gcr.io/distroless/nodejs20-debian12，创建非 root 用户 (UID 10001)、仅复制
+    dist/、node_modules/.prisma/client/、package.json、prisma/schema.prisma。'
+  - '   - 配置 ENTRYPOINT 与 CMD 启动 PM2。'
+  - 2. PM2 ecosystem.config.js：
+  - '   - cluster 模式，instances: ''max''，max_memory_restart: ''512M''。'
+  - '   - env_production: NODE_ENV=production, LOG_LEVEL=info。'
+  - '   - 优雅关闭：listen SIGINT/SIGTERM，关闭 Prisma $disconnect()。'
+  - 3. NestJS Terminus 健康检查端点：
+  - '   - /health/liveness: 仅检查进程存活。'
+  - '   - /health/readiness: 检查 Prisma $queryRaw`SELECT 1`、Redis ping、下游核心微服务 /health
+    可达。'
+  - 思考题：
+  - '- Distroless 镜像无 shell，生产环境排查内存泄漏时，如何获取 heap snapshot？'
+  - '- PM2 集群模式下，如何实现定时任务 (Cron) 仅在单实例执行？'
+- 'no': 5
+  title: 全栈骨架：渲染模式决策矩阵与类型共享落地
+  contents:
+  - 项目：企业级中后台 + 官网营销页混合应用。页面清单：
+  - '- 登录/注册页 (SEO 不重要、高交互)'
+  - '- 官网首页 (SEO 关键、内容半动态、每日更新)'
+  - '- 博客详情页 (SEO 关键、内容静态、Markdown 源文件)'
+  - '- 用户仪表盘 (私密数据、实时性强、高交互图表)'
+  - '- 后台管理-用户列表 (内部系统、复杂筛选/分页、高交互)'
+  - 任务：
+  - 1. 为每个页面分配渲染模式 (SSR/SSG/ISR/CSR)，填写决策矩阵表 (维度：SEO 需求、数据实时性、交互复杂度、缓存策略、部署平台要求)。
+  - 2. 设计 Monorepo 目录结构，包含 apps/web (Next.js)、apps/bff (NestJS)、packages/shared-types、packages/ui、packages/eslint-config。
+  - 3. 实现类型共享：BFF 的 UserDto 定义在 apps/bff/src/user/dto/user.dto.ts，如何通过 tsconfig project
+    references 让 apps/web 直接 import { UserDto } from '@my-org/shared-types' 而无需发布
+    npm 包？
+  - 4. 编写 Next.js middleware.ts 实现认证态同构：解析 Cookie 中的 JWT，注入请求头 x-user-id 传给 BFF，客户端水合复用
+    user 对象避免闪烁。
+  - 思考题：
+  - '- ISR 页面部署在传统 K8s (非 Vercel) 时，如何实现增量静态再生的持久化缓存与多副本一致性？'
+  - '- 当 BFF 修改 UserDto 增加字段但未部署前端时，前端编译会报错吗？如何制定前后端类型版本兼容策略？'
