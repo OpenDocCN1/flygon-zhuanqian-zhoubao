@@ -1,0 +1,177 @@
+units:
+- 'no': 1
+  name: 测试策略分层 —— 单元/集成/E2E 的黄金分割比
+  points:
+  - '**为什么需要这个概念？**'
+  - '- 只写单测：无法发现组件间集成Bug、路由跳转、API联调问题'
+  - '- 只写E2E：运行慢、调试难、维护成本高、CI流水线耗时过长'
+  - '- 需要一套科学的分层模型，指导资源在不同层级的最优分配'
+  - '**核心定义**'
+  - '- 单元测试（底座，70%）：隔离测试纯函数、组合式函数、Pinia Store、Vue组件逻辑（shallowMount），不依赖网络/浏览器DOM'
+  - '- 集成测试（中层，20%）：验证多单元协作，如组件+Router、组件+Pinia、组件+API Mock、跨组件通信'
+  - '- 端到端测试（顶尖，10%）：真实浏览器模拟用户关键路径（登录、下单、支付），验证全链路业务闭环'
+  - '**关键性质**'
+  - '- 测试金字塔/奖杯模型：越往上运行越慢、越脆弱、维护成本越高，但置信度越强'
+  - '- ROI评估：单测ROI最高（毫秒级反馈），E2E ROI最低（分钟级反馈），需设定覆盖率阈值（如单测80%、核心E2E 100%）'
+  - '- 依赖隔离原则：单测必须Mock外部依赖（axios、router、子组件），集成测试可选择性保留真实依赖'
+  - '**典型例子**'
+  - '- 单测：`useDebounceFn` 返回值在不同时间点的断言；`ProTable` 组件 `columns` prop 变更触发 `reload`'
+  - '- 集成测试：`UserProfile` 组件挂载后自动请求 `/api/user` 并渲染数据；路由守卫拦截未登录用户跳转登录页'
+  - '- E2E：用户输入账号密码点击登录 → 跳转首页 → 侧边栏展示权限菜单 → 退出登录回登录页'
+  - '**边界条件**'
+  - '- 避免“倒金字塔”：E2E数量超过单测，导致CI极其缓慢且频繁闪断'
+  - '- 避免“冰激凌筒”：只有单测和E2E，缺中层集成测试，导致组件协作Bug频发'
+  - '- 纯UI展示型组件（如 Button、Icon）无需E2E，单测+视觉回归即可'
+  - '- 复杂表单联动、多步向导、支付流程必须有E2E兜底'
+  sources:
+  - paper: 20230418_039.md
+    role: origin
+  excerpts:
+  - 引用测试金字塔/奖杯模型，制定“核心逻辑单测全覆盖、关键交互集成测、核心链路 E2E 兜底”的团队规范。
+  - 单元/集成/E2E 的边界划分、ROI 评估与覆盖率阈值设定
+- 'no': 2
+  name: Vitest 核心实战 —— 原生 ESM 下的极速测试运行器
+  points:
+  - '**为什么需要这个概念？**'
+  - '- Jest 基于 CommonJS，对 ESM/Vite/TypeScript 原生支持弱，配置复杂、启动慢'
+  - '- 前端项目已标准化 Vite + ESM + TS，需要零配置复用 Vite 配置、插件、转换管线的测试工具'
+  - '- 需要与现代前端工程链（HMR、类型检查、覆盖率）无缝融合'
+  - '**核心定义**'
+  - '- Vitest：基于 Vite 的下一代测试框架，API 兼容 Jest，原生支持 ESM、TypeScript、Vite 插件生态'
+  - '- 核心命令：`vitest run`（CI模式）、`vitest --watch`（开发模式）、`vitest --coverage`（覆盖率）'
+  - '**关键性质**'
+  - '- 配置复用：直接读取 `vite.config.ts`，别名、环境变量、CSS/资源处理、插件零差异复用'
+  - '- 并行运行：基于 Worker 多进程并行执行测试文件，利用 Vite 模块图实现智能依赖预构建'
+  - '- 即时反馈：监听模式下仅重跑受影响测试，配合 HMR 实现毫秒级反馈循环'
+  - '- Mock 能力：`vi.mock()`/`vi.spyOn()`/`vi.fn()` 完全兼容 Jest API，支持模块级、函数级、定时器 Mock'
+  - '**典型例子**'
+  - '- `vi.mock(''axios'')` 拦截网络请求返回 Promise.resolve({ data: [...] })'
+  - '- `vi.useFakeTimers()` 控制 `setTimeout`/`setInterval` 验证防抖节流逻辑'
+  - '- `expect(x).toMatchSnapshot()` 快照测试组件渲染输出，CI 中 `--update` 更新基准'
+  - '- `vi.hoisted` 解决 `vi.mock` 声明提前导致变量未定义的顶层作用域问题'
+  - '**边界条件**'
+  - '- `vi.mock` 必须在顶层调用，不能在 `describe`/`it` 内部动态调用'
+  - '- ESM 环境下 Mock 静态导出需用 `vi.mock(..., { virtual: true })` 或重新导入'
+  - '- 覆盖率阈值 `coverage.threshold` 建议在 CI 中设为 `branches: 80, functions: 80, lines:
+    80, statements: 80` 阻断合并'
+  - '- 全局变量污染：需在 `afterEach` 中 `vi.restoreAllMocks()`、`vi.useRealTimers()` 重置状态'
+  sources:
+  - paper: 20230418_039.md
+    role: origin
+  excerpts:
+  - 演示 `vi.mock`/`vi.spyOn` 模拟依赖、`--watch` 热更新测试、`coverage` 配置阈值阻断流水线。
+  - Vitest 核心实战：API 兼容 Jest、原生 ESM 支持、并行运行与快照测试
+- 'no': 3
+  name: Vue 组件测试范式 —— Vue Test Utils 的挂载策略与交互断言
+  points:
+  - '**为什么需要这个概念？**'
+  - '- 组件包含模板渲染、响应式状态、生命周期、事件触发、插槽分发，单纯逻辑测试无法覆盖'
+  - '- 需要专门的工具在 JSDOM/happy-dom 中真实渲染组件，验证 DOM 结构、CSS 类、用户交互反馈'
+  - '- 必须处理 Vue 3 特有的 `ref`/`reactive` 解包、组合式 API、`<Suspense>`、`<Teleport>` 等特性'
+  - '**核心定义**'
+  - '- Vue Test Utils (VTU) 官方测试工具库，提供 `mount`（全量渲染含子组件）与 `shallowMount`（浅渲染存根子组件）'
+  - '- 核心 API：`find`/`findAll`/`findComponent` 选择器、`trigger` 事件触发、`setValue` 表单输入、`vm`
+    访问组件实例'
+  - '**关键性质**'
+  - '- 挂载选项：`global.stubs` 存根全局组件（RouterLink、FontAwesome）、`global.plugins` 注入 Pinia/Router、`attachTo`
+    挂载真实 DOM'
+  - '- 响应式解包：`wrapper.vm.count` 自动解包 `ref`，`wrapper.vm.state` 访问 `reactive` 对象，断言时需注意响应式代理'
+  - '- 事件测试：`await wrapper.find(''button'').trigger(''click'')` 必须 `await` 等待 nextTick
+    后再断言 DOM 更新'
+  - '- 插槽测试：`slots: { default: ''内容'', header: HeaderComp }` 验证分发内容正确渲染'
+  - '**典型例子**'
+  - '- 浅渲染 `ProTable`：`shallowMount(ProTable, { props: { columns, data }, global:
+    { stubs: { ElTable: true } } })` 验证 props 透传'
+  - '- 全量渲染表单：`mount(LoginForm, { global: { plugins: [pinia, router] } })` → `setValue`
+    输入 → `trigger(''submit'')` → 断言 `router.push` 被调用'
+  - '- 组件通信：父组件 `mount(Parent)` → `findComponent(Child)` → `vm.$emit(''custom'')`
+    → 断言父组件处理函数被调用'
+  - '**边界条件**'
+  - '- 优先 `shallowMount` 单测组件内部逻辑（隔离子组件实现细节），集成测试用 `mount`'
+  - '- 含 `<Suspense>`/`<Teleport>` 组件必须用 `mount` 且 `attachTo: document.body` 避免 JSDOM
+    找不到容器报错'
+  - '- 避免测试私有方法/内部状态，聚焦 Props/Events/Slots/公开方法/渲染输出（黑盒视角）'
+  - '- `flushPromises` 处理异步组件/异步 Setup：`await flushPromises()` 后再断言异步渲染结果'
+  sources:
+  - paper: 20230418_039.md
+    role: origin
+  excerpts:
+  - 对比 `shallowMount` 与 `mount`、处理 `ref`/`reactive` 解包断言、`trigger`/`findComponent`
+    交互测试、插槽内容验证。
+  - Vue 组件测试范式：Vue Test Utils 挂载选项、响应式解包、事件触发与槽位测试
+- 'no': 4
+  name: Playwright E2E 实战 —— 多浏览器矩阵下的可靠交互自动化
+  points:
+  - '**为什么需要这个概念？**'
+  - '- Cypress 仅支持 Chromium 系、难以处理多标签页/跨域/原生对话框/下载上传'
+  - '- Selenium 维护成本高、定位器脆弱、无原生等待机制导致大量显式睡眠'
+  - '- 需要原生支持所有主流浏览器引擎、自动等待、强大定位器、网络拦截、视觉回归的现代 E2E 方案'
+  - '**核心定义**'
+  - '- Playwright：微软出品的跨浏览器（Chromium/Firefox/WebKit）E2E 测试框架，单进程多上下文隔离，支持 TypeScript
+    原生'
+  - '- 核心架构：`Playwright` → `Browser` → `BrowserContext`（隔离 Cookie/Storage） → `Page`（标签页）'
+  - '**关键性质**'
+  - '- 自动等待：`page.click(''button'')` 内置可操作性检查（可见、稳定、可接收事件），彻底消除 `waitForTimeout`'
+  - '- 定位器：`page.getByRole(''button'', { name: ''提交'' })` / `page.getByTestId(''submit-btn'')`
+    语义化、抗重构'
+  - '- 网络拦截：`page.route(''**/api/**'', route => route.fulfill({ json: mockData }))`
+    模拟后端异常/延迟/限流'
+  - '- 多标签/弹窗：`context.waitForEvent(''page'')` 捕获新窗口、`page.on(''dialog'')` 处理 alert/confirm'
+  - '- 视觉回归：`expect(await page.screenshot()).toMatchSnapshot(''baseline.png'', { threshold:
+    0.2 })` 像素级对比'
+  - '**典型例子**'
+  - '- Page Object 模式：封装 `LoginPage` 类暴露 `login(user, pwd)`、`gotoDashboard()`，测试用例仅调用业务动作'
+  - '- 认证复用：`storageState` 保存登录态 → `context = await browser.newContext({ storageState:
+    ''auth.json'' })` 跳过登录加速测试'
+  - '- 文件上传：`page.setInputFiles(''input[type=file]'', ''test.pdf'')` + `page.waitForResponse(''**/upload'')`
+    断言上传成功'
+  - '- 离线/弱网模拟：`context.setOffline(true)` 或 `page.route(''**/*'', r => { await wait(500);
+    r.continue() })`'
+  - '**边界条件**'
+  - '- 严禁在测试用例中写 CSS/XPath 选择器，强制推行 `getByRole`/`getByTestId`/`getByLabel` 语义定位'
+  - '- CI 环境需安装系统依赖 `npx playwright install-deps`，Headless 模式需字体包支持中文截图'
+  - '- 并行执行 `workers: 4` 时注意测试数据隔离（独立账号/数据库事务回滚/随机前缀）'
+  - '- 视觉回归基线图需按 OS/浏览器/设备像素比分目录存储，避免跨环境误报'
+  sources:
+  - paper: 20230418_039.md
+    role: origin
+  excerpts:
+  - 构建可维护的 Page Object 层、使用 `page.route` 模拟后端异常/延迟、引入 `pixelmatch` 实现截图像素级对比。
+  - Playwright E2E 实战：多浏览器矩阵、Page Object 模式、网络拦截与视觉回归
+- 'no': 5
+  name: CI/CD 质量红线自动化 —— 从代码提交到生产部署的自动化质量闸
+  points:
+  - '**为什么需要这个概念？**'
+  - '- 本地跑通 ≠ 线上可用：环境差异、依赖版本漂移、并发冲突、配置缺失'
+  - '- 人工审核不可靠：漏跑测试、忽略警告、主观放行、无审计追溯'
+  - '- 需要一条强制执行、快速反馈、可视化报告、失败阻断的自动化流水线守住质量底线'
+  - '**核心定义**'
+  - '- GitHub Actions / GitLab CI / Jenkins 定义的标准化流水线：`lint` → `typecheck` → `test:unit`
+    → `build` → `test:e2e` → `deploy`'
+  - '- 质量红线：任意阶段失败即阻断合并/部署，覆盖率不达标、Lint 报错、类型错误、E2E 闪断均视为红线'
+  - '**关键性质**'
+  - '- 缓存加速：`actions/cache` 缓存 `node_modules`、`~/.npm`、Playwright 浏览器、Vitest 覆盖率中间产物，冷启动
+    < 2min'
+  - '- 矩阵策略：`matrix: { node: [18, 20], os: [ubuntu-latest, windows-latest] }` 兼容性守夜'
+  - '- 制品产出：`actions/upload-artifact` 上传构建产物、覆盖率报告、E2E 视频/截图/Trace、Playwright HTML
+    报告'
+  - '- 失败通知：`if: failure()` 步骤发送钉钉/飞书/Slack 卡片，附带失败 Job 链接、错误日志摘要、提交者 @'
+  - '- 徽章展示：README 动态徽章显示 `build status`、`coverage %`、`e2e pass rate`、最新版本号'
+  - '**典型例子**'
+  - '- `.github/workflows/ci.yml`：PR 提交触发 → `pnpm lint && pnpm typecheck && pnpm test:unit
+    --coverage` → 上传 coverage → `pnpm build` → `pnpm test:e2e` → 上传报告'
+  - '- 覆盖率门禁：`vitest --coverage --coverage.threshold.lines=80` 直接返回非零退出码阻断 Job'
+  - '- E2E 重试：`retries: 2` 自动重跑闪断用例，仍失败则上传 Trace 供本地 `npx playwright show-trace` 复现'
+  - '- 发布流水线：`main` 分支合并触发 `cd` → 语义化版本 `semantic-release` → Docker 构建推送 → ArgoCD
+    同步部署'
+  - '**边界条件**'
+  - '- 单测/类型检查/构建必须在 5-8 分钟内完成（缓存+并行），E2E 单独 Job 允许 15-20 分钟'
+  - '- 禁止在 CI 中跳过任何阶段（除非显式 `skip ci` commit message），禁止手动点击“通过”'
+  - '- Monorepo 需配置 `paths-ignore` / `turbo affected` 仅跑受影响包的测试，避免全量跑浪费资源'
+  - '- 生产部署需人工审批环节（`environment: production` + `required reviewers`），禁止全自动无人值守发布'
+  sources:
+  - paper: 20230418_039.md
+    role: origin
+  excerpts:
+  - 串联 `lint` → `typecheck` → `test:unit` → `build` → `test:e2e` → `deploy`，配置失败通知、覆盖率徽章、测试报告归档。
+  - 实战：GitHub Actions 流水线集成与质量红线自动化
