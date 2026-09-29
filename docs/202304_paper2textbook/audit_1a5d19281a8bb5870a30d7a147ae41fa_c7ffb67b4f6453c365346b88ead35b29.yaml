@@ -1,0 +1,116 @@
+citation_stats:
+- paper: P007
+  count: 4
+  locations:
+  - ch32.3
+  - ch32.3-table
+  - ch32.3-quote1
+  - ch32.3-quote2
+- paper: P009
+  count: 4
+  locations:
+  - ch32.3-table
+  - ch32.3-quote1
+  - ch32.3-quote2
+- paper: P010
+  count: 7
+  locations:
+  - ch32.2
+  - ch32.4-quote1
+  - ch32.4-formula
+  - ch32.4-intuition
+  - ch32.4-derivation1
+  - ch32.4-derivation2
+  - ch32.4-derivation3
+- paper: P019
+  count: 6
+  locations:
+  - ch32.2
+  - ch32.5-definition
+  - ch32.5-quote1
+  - ch32.5-table
+  - ch32.5-tensor-flow
+  - ch32.5-param-check
+- paper: P020
+  count: 5
+  locations:
+  - ch32.2
+  - ch32.6-sinusoidal-def
+  - ch32.6-sinusoidal-property
+  - ch32.6-learnable-def
+  - ch32.6-table
+- paper: P022
+  count: 6
+  locations:
+  - ch32.2
+  - ch32.7-definition
+  - ch32.7-quote1
+  - ch32.7-layer-pattern
+  - ch32.7-head-pattern
+  - ch32.7-limitation-quote
+- paper: A47V...
+  count: 4
+  locations:
+  - ch32.5-table
+  - ch32.5-head-pattern
+  - ch32.5-redundancy
+  - ch32.10-exercise3-link
+- paper: B95V...
+  count: 4
+  locations:
+  - ch32.2
+  - ch32.6-rope-def
+  - ch32.6-rope-property
+  - ch32.6-table
+- paper: Other
+  count: 2
+  locations:
+  - ch32.3-rnn-bottleneck
+  - ch32.8-sparse-linear-variants
+unsupported_claims:
+- location: ch32.3
+  claim: RNN 梯度消失/爆炸导致长距离依赖断裂
+  reason: 素材 P007 和 P009 虽提及梯度消失和长程记忆失效，但未明确使用‘断裂’一词，属推断性表述
+- location: ch32.4
+  claim: 点积注意力方差为 d_k 的推导假设 Q、K 分量独立同分布、均值 0 方差 1
+  reason: 素材 P010 仅陈述结论‘假设 Q、K 分量独立均值 0 方差 1，则点积均值 0 方差 d_k’，未给出完整数学推导步骤
+- location: ch32.5
+  claim: 多头注意力参数量守恒：h * d_k = d_model
+  reason: 素材 P019 和 A47V... 确认参数守恒，但未显式写出 h * d_k = d_model 等式，属隐含推导
+- location: ch32.6
+  claim: RoPE 通过复平面旋转实现长文本外推
+  reason: 素材 B95V... 解释了 RoPE 旋转机制及仅依赖相对距离，但‘长文本外推’为实验结论，非数学必然推导
+- location: ch32.7
+  claim: 注意力权重高不代表因果重要性 (Jain & Wallace 2019)
+  reason: 素材 P022 引用该结论但未提供原始文献细节，属二手引用
+- location: ch32.8
+  claim: FlashAttention 不改变数学结果、显存线性、速度 2-4x
+  reason: 素材中未出现 FlashAttention 相关论文或实测数据，属工程经验总结
+- location: ch32.10-exercise4
+  claim: Integrated Gradients 属于因果分析手段
+  reason: 素材 P022 将其列入‘严谨解释工具箱’但未论证其因果性，属分类判断
+missing_concepts:
+- paper: P010
+  concept: Masked Self-Attention (因果掩码) 在解码器中的作用
+  severity: high
+- paper: P019
+  concept: 多头注意力中 W^O 输出投影的必要性与残差连接位置
+  severity: medium
+- paper: P020
+  concept: ALiBi (Attention with Linear Biases) 位置编码方案
+  severity: medium
+- paper: P022
+  concept: Attention Rollout 方法的具体递归聚合公式
+  severity: low
+- paper: B95V...
+  concept: RoPE 频率基数 (base) 扩展的数学原理 (NTK-aware 插值)
+  severity: high
+- paper: A47V...
+  concept: 注意力头剪枝的具体算法 (如逐层/逐头重要性评分)
+  severity: medium
+- paper: Other
+  concept: 线性注意力核函数 ϕ(·) 的设计选择 (ELU+1 / ReLU / 正交随机特征)
+  severity: high
+- paper: Other
+  concept: FlashAttention v2/v3 的分块策略与并行度优化细节
+  severity: high
