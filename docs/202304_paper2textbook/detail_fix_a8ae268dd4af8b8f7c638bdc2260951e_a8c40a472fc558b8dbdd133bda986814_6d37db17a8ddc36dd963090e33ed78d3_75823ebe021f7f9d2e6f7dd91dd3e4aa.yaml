@@ -1,0 +1,695 @@
+learning_targets:
+- 理解 Pinia 核心架构设计理念：扁平化 Store、自动代码分割、类型安全优先
+- 掌握 Option Store 与 Setup Store 两种定义风格的区别、适用场景及迁移策略
+- 精通 TypeScript 环境下的类型推导最佳实践：storeToRefs 保持响应式与类型、跨 Store 组合类型安全
+- 掌握插件机制原理与开发：持久化、多标签页同步、状态加密等横切关注点的优雅注入
+- 理解 SSR 环境下的请求级实例隔离机制与水合流程，掌握 Vitest 单元测试的 Store 重置与 Mock 策略
+- 能够制定 Vuex 到 Pinia 的增量迁移方案：共存兼容层、Module 拆分策略、类型定义迁移、常见坑位规避
+- 掌握『ChatGPT 超级写手机器人 1.0』的全自动、真批量内容生产架构与核心痛点解决方案
+- 理解基于福格行为模型（B=MAP）的小红书全行业通用引流底层逻辑与实操体系
+- 掌握『以教为学』变现模式与『六字真经』（背景、要求、角色）提示词工程核心方法论
+- 理解『普通人』抖音变现核心方法论：放弃寻找『热爱/擅长』，转而寻找『不讨厌/不厌其烦』的微小切入点
+concept_map:
+- Pinia 状态管理实战
+- ├── 核心架构
+- │   ├── 根实例与扁平 Store          —— P001
+- │   ├── State/Getters/Actions 三元组 —— P001
+- │   ├── Option Store vs Setup Store   —— P001
+- │   └── 自动代码分割机制              —— P001
+- ├── 类型安全实践
+- │   ├── defineStore 返回类型自动推导  —— P002
+- │   ├── storeToRefs 响应式解构保型    —— P002
+- │   ├── 跨 Store 组合类型安全         —— P002
+- │   └── 测试环境类型上下文隔离        —— P002
+- ├── 插件机制与持久化
+- │   ├── pinia.use() 扩展点设计        —— P003
+- │   ├── $subscribe 状态变更拦截       —— P003
+- │   ├── pinia-plugin-persistedstate   —— P003
+- │   ├── 自定义插件：加密/同步/脱敏     —— P003
+- │   └── SSR 环境存储降级策略          —— P003
+- ├── SSR 与测试策略
+- │   ├── 请求级 createPinia() 隔离      —— P004
+- │   ├── 状态序列化与客户端水合        —— P004
+- │   ├── setActivePinia 测试上下文重置  —— P004
+- │   ├── Setup Store 手动实现 $reset    —— P004
+- │   └── HMR 热更新原生支持            —— P004
+- └── Vuex 迁移路径
+- '    ├── 共存方案：双实例安装 + 兼容插件   —— P005'
+- '    ├── Module 拆分为扁平 Store         —— P005'
+- '    ├── mapState/mapActions 兼容层替换  —— P005'
+- '    ├── 类型定义逐文件迁移                —— P005'
+- '    └── 动态注册/插件/严格模式迁移对策   —— P005'
+- ChatGPT 自动化写作工具
+- ├── 核心痛点
+- │   ├── 输出中断与上下文断层          —— 20230418_037.md
+- │   ├── 人工复制粘贴交互成本高        —— 20230418_037.md
+- │   ├── 多轮对话管理困难              —— 20230418_037.md
+- │   └── 缺乏自动持久化存储            —— 20230418_037.md
+- ├── 解决方案架构
+- │   ├── 多账号调度池                  —— 20230418_037.md
+- │   ├── 任务队列管理                  —— 20230418_037.md
+- │   ├── 智能续写判断                  —— 20230418_037.md
+- │   ├── 上下文自动拼接校验            —— 20230418_037.md
+- │   └── 异常自动重试切号              —— 20230418_037.md
+- └── 核心价值
+- '    ├── 全自动、真批量                —— 20230418_037.md'
+- '    ├── 开箱即用源码交付              —— 20230418_037.md'
+- '    └── 无需学习提示词工程            —— 20230418_037.md'
+- 小红书引流行为设计
+- ├── 核心公式
+- │   └── 用户私信行为=私信动力×私信能力×私信提示  —— Efm3dQsmpoUyHxxDPaAcoqXvnVe.md
+- ├── 三大模块
+- │   ├── 强化私信动机（选题/封面/内容图）     —— Efm3dQsmpoUyHxxDPaAcoqXvnVe.md
+- │   ├── 降低私信难度（SOP制作/关键词指引）   —— Efm3dQsmpoUyHxxDPaAcoqXvnVe.md
+- │   └── 提示私信行为（多触点植入/话术设计）  —— Efm3dQsmpoUyHxxDPaAcoqXvnVe.md
+- ├── 标准化产出
+- │   ├── 三类爆款封面制作法              —— Efm3dQsmpoUyHxxDPaAcoqXvnVe.md
+- │   ├── 内容图隐性植入四法              —— Efm3dQsmpoUyHxxDPaAcoqXvnVe.md
+- │   ├── 双模态私信SOP制作法             —— Efm3dQsmpoUyHxxDPaAcoqXvnVe.md
+- │   └── 全链路提示触达体系              —— Efm3dQsmpoUyHxxDPaAcoqXvnVe.md
+- └── 核心定理
+- '    ├── 引流本质即行为设计定理          —— Efm3dQsmpoUyHxxDPaAcoqXvnVe.md'
+- '    ├── 精准流量优于泛流量定理          —— Efm3dQsmpoUyHxxDPaAcoqXvnVe.md'
+- '    └── 合规性即生存性定理              —— Efm3dQsmpoUyHxxDPaAcoqXvnVe.md'
+- ChatGPT 高效对话方法论
+- ├── 核心框架
+- │   └── 六字真经：背景、要求、角色      —— AnkEdEtEtoXIbexWlQ3cL6zenFf.md
+- ├── 实战流程
+- │   ├── 四步创作法（获取内容→生成文案→添加Emoji→生成标题）  —— AnkEdEtEtoXIbexWlQ3cL6zenFf.md
+- │   ├── 角色化提示词构建法             —— AnkEdEtEtoXIbexWlQ3cL6zenFf.md
+- │   └── 小红书笔记四步生成法           —— AnkEdEtEtoXIbexWlQ3cL6zenFf.md
+- ├── 技能栈进阶
+- │   ├── L1 内容创作                     —— AnkEdEtEtoXIbexWlQ3cL6zenFf.md
+- │   ├── L2 ChatGPT+RPA 批量自动化       —— AnkEdEtEtoXIbexWlQ3cL6zenFf.md
+- │   └── L3 ChatGPT+Python 零代码开发    —— AnkEdEtEtoXIbexWlQ3cL6zenFf.md
+- └── 核心定理
+- '    ├── 工具不等于能力定律            —— AnkEdEtEtoXIbexWlQ3cL6zenFf.md'
+- '    ├── 提问质量决定输出质量公理      —— AnkEdEtEtoXIbexWlQ3cL6zenFf.md'
+- '    └── 主动学习与知行合一原则        —— AnkEdEtEtoXIbexWlQ3cL6zenFf.md'
+- 普通人抖音变现方法论
+- ├── 核心概念
+- │   ├── 普通人定义                     —— QhJudGRcgoQlxGxYU67cndJenjh.md
+- │   ├── 不讨厌/不厌其烦                —— QhJudGRcgoQlxGxYU67cndJenjh.md
+- │   ├── 天分小火花                     —— QhJudGRcgoQlxGxYU67cndJenjh.md
+- │   └── 天分与赚钱的结合点             —— QhJudGRcgoQlxGxYU67cndJenjh.md
+- ├── 增长模型
+- │   └── 边学边教正向循环               —— QhJudGRcgoQlxGxYU67cndJenjh.md
+- ├── 定位方法
+- │   ├── 差异化定位法                   —— QhJudGRcgoQlxGxYU67cndJenjh.md
+- │   └── 搜索技能变现法                 —— QhJudGRcgoQlxGxYU67cndJenjh.md
+- └── 核心定理
+- '    ├── 普通人起盘核心主张：不讨厌即天分  —— QhJudGRcgoQlxGxYU67cndJenjh.md'
+- '    ├── 正向循环必然性主张            —— QhJudGRcgoQlxGxYU67cndJenjh.md'
+- '    └── 平台杠杆主张：抖音作为放大器  —— QhJudGRcgoQlxGxYU67cndJenjh.md'
+life_analogy:
+- 想象 Pinia 是一个**现代化的智能仓储中心**：
+- '- **createPinia()** = 仓储中心的**总控调度塔**（每个请求/用户会话一个独立调度塔，互不干扰）'
+- '- **defineStore(''user'')** = 一个**专用货仓**（用户仓、购物车仓、商品仓），各司其职、扁平管理、无嵌套套娃'
+- '- **State** = 货架上的**实物库存**（响应式、可盘点、可追溯）'
+- '- **Getters** = **智能分拣标签**（派生数据、自动缓存、按需计算，如‘高价值用户’、‘购物车总价’）'
+- '- **Actions** = **作业工单/机械臂**（处理入库/出库/盘点等业务流程，支持异步、可组合调用其他货仓工单）'
+- '- **storeToRefs** = **给库存贴上 RFID 智能标签**（解构搬运时不丢失‘响应式’追踪能力，拆到哪监控到哪）'
+- '- **pinia.use(plugin)** = **给仓储中心装插件**（安装‘自动盘点入账’持久化插件、‘跨园区同步’多标签页插件、‘操作回放’时光机插件），业务货仓零侵入'
+- '- **SSR 隔离** = **每位客户专属临时仓库**，下单即建、离场即销、数据随人走、绝不串单'
+- '- **Vuex 迁移** = **从‘单一超大仓+分区’升级为‘多个专用智能仓+总控塔’**，分批搬迁、新旧并行、平滑切换'
+- 想象『ChatGPT 超级写手机器人 1.0』是一个**不知疲倦的全自动流水线工厂**：
+- '- **多账号调度池** = **多条并行生产线**，单线故障自动切换、无人值守'
+- '- **任务队列** = **原料传送带**，提示词有序进入、不拥堵不遗漏'
+- '- **智能续写判断** = **光学质检传感器**，检测输出是否截断、自动触发‘继续生成’指令'
+- '- **上下文自动拼接** = **精密焊接机械臂**，将分段输出无缝拼合、保持语义连贯'
+- '- **结果实时入库** = **成品自动入库系统**，生成即存储、可追溯、防丢失'
+- 想象福格行为模型（B=MAP）是**引流的‘通用遥控器’**：
+- '- **私信动力（M）** = **用户想按下按钮的‘意愿’**，由选题精准度、痛点刺激、收益展示决定'
+- '- **私信能力（A）** = **用户‘能按下按钮’的‘容易度’**，由 SOP 教程、关键词搜索指引降低门槛'
+- '- **私信提示（P）** = **‘按钮闪烁/震动’的‘外部触发’**，在图片、评论、私信、群聊多触点植入引导线索'
+- '- 只要**动力足、能力强、提示及时**，用户就会产生‘私信’行为，平台规则变化仅影响具体‘按钮样式’，不影响‘遥控器原理’'
+- 想象『六字真经』是**驾驭 ChatGPT 这台‘超级实习生’的‘标准作业单’**：
+- '- **背景** = **实习生入职档案**：告诉 TA 你是谁、做什么行业、问这个问题的目的、面向谁'
+- '- **要求** = **任务清单与验收标准**：字数、结构、风格、行动号召、Emoji 位置……'
+- '- **角色** = **岗位说明书**：赋予 TA 专业身份（如‘小红书旅游博主’）、对话对象人设（如‘预算 1000 元的背包客’）'
+- '- 只要按这‘三张单子’填好，实习生就能交出符合预期的‘成品’'
+- 想象『不讨厌/不厌其烦』是**普通人在抖音淘金时的‘金属探测器’**：
+- '- 大多数人在沙漠里挖金子（追求热爱/擅长），累得半死不一定有收获'
+- '- 你只需拿着探测器走一圈：**别人‘讨厌死、给钱不干’的事，你‘不厌其烦’**'
+- '- 这个微小的‘耐受度差异’，就是埋在浅层沙砾下的‘金矿’（天分火种）'
+- '- 持续‘边学边教’（挥动镐头），星星之火终将燎原，成为‘天分与赚钱的结合点’'
+summary:
+- concept: Pinia 核心架构
+  desc: 扁平化 Store 设计，自动代码分割，Option/Setup 双风格，无模块嵌套，~1kb 轻量级
+- concept: defineStore
+  desc: 定义即注册，返回类型自动推导 State/Getters/Actions，Setup Store 支持 Composition API 灵活复用
+- concept: storeToRefs
+  desc: 解决组合式 API 解构丢失响应式问题，将 Store 转为 Ref 对象并保持完整类型推导
+- concept: pinia.use()
+  desc: 插件扩展点，接收 {store, app, pinia, options}，可返回属性扩展 Store，支持横切关注点注入
+- concept: $subscribe
+  desc: 监听 Store 所有状态变更，参数为 MutationPayload，插件实现持久化/同步/审计的核心钩子
+- concept: pinia-plugin-persistedstate
+  desc: 官方推荐持久化插件，配置式声明持久化策略（storage/paths/serializer），支持 SSR 降级
+- concept: SSR 隔离
+  desc: 每请求创建 createPinia() 实例，服务端序列化 pinia.state.value 注入 HTML，客户端水合激活
+- concept: setActivePinia(createPinia())
+  desc: 测试用例级上下文重置，确保 Store 实例隔离，配合 vi.spyOn 实现 Action/Getter Mock
+- concept: Setup Store $reset
+  desc: 'Option Store 自带重置，Setup Store 需手动 return { $reset: () => { ... } } 实现状态归零'
+- concept: Vuex 迁移共存
+  desc: app.use(pinia).use(vuex) 双运行，pinia-plugin-vuex 兼容 this.$store，Module 按业务域拆分为扁平
+    Store
+- concept: Module 拆分策略
+  desc: 原 modules/a/b -> useAStore/useBStore，通过组合（useAStore 内调用 useBStore）替代嵌套，利于
+    Tree-shaking
+- concept: ChatGPT 超级写手机器人 1.0
+  desc: 解决长文本输出中断、上下文断层、人工交互、多账号管理、自动保存六大痛点，实现全自动真批量内容生产
+- concept: 全自动、真批量
+  desc: 零人工干预的端到端自动化：任务分发、多账号轮询、断点续写、上下文拼接、异常切号、结果入库
+- concept: 引流行为公式 B=MAP
+  desc: 用户私信行为 = 私信动力 × 私信能力 × 私信提示，平台规则变化仅影响方法层不影响逻辑层
+- concept: 私信动力
+  desc: 用户产生‘想建立联系’意愿的心理驱动力，由选题精准度、痛点刺激、收益展示构成
+- concept: 私信能力
+  desc: 用户完成私信操作的难易度，核心在于 SOP 教程（手写纸条/流程图）规避平台检测、降低认知门槛
+- concept: 私信提示
+  desc: 在笔记图片、评论区、私信、群聊等多触点植入引导线索，触发用户即时行动的外部诱因
+- concept: 六字真经
+  desc: ChatGPT 提示词工程核心框架：背景（身份/行业/目的/受众）、要求（字数/结构/风格/行动号召）、角色（专家人设/双角色扮演）
+- concept: AIGC 时代双核竞争力
+  desc: 行业经验（方法论沉淀）与执行力（训练/落地强度），工具仅是放大器而非替代品
+- concept: 不讨厌/不厌其烦
+  desc: 普通人发现天分火种的关键信号：他人‘讨厌死、给钱不干’的事，己方‘不厌其烦’，即为可切入的差异化赛道
+- concept: 天分小火花
+  desc: 隐喻‘不讨厌’背后蕴含的、可被呵护放大的微小天赋种子，通过持续‘边学边教’可燎原成核心竞争力
+- concept: 边学边教正向循环
+  desc: 越学越会 → 越会越喜欢 → 越喜欢越擅长 → 越擅长越受欢迎 → 越受欢迎越赚钱 → 越赚钱越愿意去学
+exercises:
+- 'no': 1
+  title: 手写一个迷你 Pinia 核心
+  contents:
+  - '实现 `createPinia()` 返回 `{ install(app), _s: Map, state: Ref<Record<string, any>>
+    }`'
+  - 实现 `defineStore(id, setupFn)`：
+  - '  1. 接受 Setup Store 工厂函数，返回 `useStore` 函数'
+  - '  2. `useStore()` 调用时：若 `_s` 有实例则复用，否则调用 `setupFn` 获取返回对象，用 `reactive` 包装 state，挂载
+    `_s`'
+  - '  3. 支持 `store.$subscribe(cb)` 记录回调，`store.$patch(obj|fn)` 触发变更并广播'
+  - 在 Vue 应用中注册 `app.use(pinia)` 验证：
+  - '  - 组件中 `const store = useCounterStore()` 获取状态与方法'
+  - '  - 修改 `store.count++` 触发视图更新'
+  - '  - 刷新页面后手动挂载 `pinia.state.value = savedState` 验证水合'
+  - 思考题：
+  - '- 为什么 `defineStore` 返回的 `useStore` 要接受可选的 `pinia` 参数？'
+  - '- Setup Store 中的 `ref`/`computed` 如何自动解包为普通属性返回？'
+  - '- 如何实现 `storeToRefs(store)` 保持响应式与类型？'
+- 'no': 2
+  title: 类型安全实战：从定义到组件使用的全链路推导
+  contents:
+  - 定义一个 `useOrderStore`（Setup Store 风格），包含：
+  - '  - state: `orders: Order[]`，`filter: ''all'' | ''pending'' | ''completed''`'
+  - '  - getter: `filteredOrders` 根据 filter 筛选，`totalAmount` 计算总金额'
+  - '  - action: `addOrder(order)`, `toggleStatus(id)`, `setFilter(f)`'
+  - '  - 使用 `storeToRefs` 解构 `filteredOrders` 与 `filter` 在组件中使用'
+  - 类型挑战：
+  - '  1. 让 `Order` 接口在别处定义，Store 内部引用时自动推导泛型'
+  - '  2. `addOrder` 参数类型自动推导为 `Omit<Order, ''id'' | ''createdAt''>`'
+  - '  3. 组件中 `const { filteredOrders, totalAmount } = storeToRefs(store)` 类型分别为 `ComputedRef<Order[]>`
+    与 `ComputedRef<number>`'
+  - '  4. 在另一个 `useUserStore` 的 action 中调用 `useOrderStore().addOrder(...)`，验证跨 Store
+    类型合并无报错'
+  - 回答问题：
+  - '- 如果 Setup Store 返回 `return { orders, filteredOrders, addOrder }` 直接返回 `ref`/`computed`，组件解构后类型会是什么？为何推荐
+    `storeToRefs`？'
+  - '- 如何为 `defineStore` 显式指定泛型参数以约束返回类型？（提示：`defineStore<''order'', State, Getters,
+    Actions>()`）'
+- 'no': 3
+  title: 开发一个『多标签页状态同步』Pinia 插件
+  contents:
+  - 需求：在多个标签页打开同一应用时，任一标签页修改 `useUserStore` 的 `token` 或 `profile`，其他标签页自动同步更新，且不触发循环广播。
+  - 实现步骤：
+  - '  1. 编写 `piniaPluginBroadcastSync(context)` 插件函数'
+  - '  2. 利用 `BroadcastChannel API` 创建频道 `pinia-sync-${store.$id}`'
+  - '  3. 监听 `store.$subscribe((mutation) => { ... })`，仅当 `mutation.type === ''patch
+    object''` 或 `''patch function''` 时，发送 `{ type: ''sync'', payload: mutation.payload
+    }` 到 Channel'
+  - '  4. 监听 `channel.onmessage`，收到消息时调用 `store.$patch(payload)`，**关键：需标记来源防止回环广播**（如设置
+    `mutation._fromSync = true` 并在发送时跳过）'
+  - '  5. 在 `pinia.use(piniaPluginBroadcastSync)` 注册，或仅对特定 Store 生效（通过 `options.sync?:
+    true` 判断）'
+  - 进阶挑战：
+  - '  - 支持 `paths: string[]` 配置仅同步部分字段（如仅同步 `token`，不同步 `profile`）'
+  - '  - 处理标签页关闭/离线场景：新标签页打开时如何获取最新状态？（提示：Channel 无历史，需结合 localStorage 快照或主动请求广播）'
+  - 回答问题：
+  - '- 为什么不能直接在 `$subscribe` 回调里无条件 `channel.postMessage`？'
+  - '- `BroadcastChannel` 与 `localStorage storage event` 在同步机制上有何本质区别？哪个更适合高频状态同步？'
+- 'no': 4
+  title: SSR 场景下的 Pinia 实例隔离与水合排查
+  contents:
+  - 模拟 Nuxt 3 / Vue SSR 环境：
+  - '  1. 服务端入口 `server-entry.ts`：为每个请求创建 `const pinia = createPinia()`，`app.use(pinia)`，渲染
+    HTML 前序列化 `pinia.state.value` 注入 `window.__PINIA_STATE__`'
+  - '  2. 客户端入口 `client-entry.ts`：创建 `pinia = createPinia()`，`app.use(pinia)`，**关键步骤**：`pinia.state.value
+    = window.__PINIA_STATE__`'
+  - '  3. 定义 `useAuthStore` 包含 `token`、`userInfo`，在服务端 `asyncData` 中模拟登录设置 token'
+  - 排查任务：
+  - '  - 现象 A：客户端控制台报错 `Cannot read property ''token'' of undefined`，定位原因（提示：Setup
+    Store 顶层访问 `useRoute()` 或 `window`）'
+  - '  - 现象 B：刷新页面后 `token` 丢失，但 `userInfo` 保留，定位序列化/水合差异（提示：`$subscribe` 序列化时机与 `pinia.state.value`
+    赋值顺序）'
+  - '  - 现象 C：多用户并发请求，用户 A 看到用户 B 的 `userInfo`，定位实例隔离失败（提示：是否复用了全局单例 `pinia`？）'
+  - 回答问题：
+  - '- 为什么 SSR 必须每请求 `new createPinia()`，而客户端可以单例？'
+  - '- `pinia.state.value = { ... }` 赋值时，Setup Store 内部的 `ref` 变量为何能自动更新？（提示：`pinia.state.value`
+    是 Proxy/Ref，Store 实例内部引用同一响应式对象）'
+- 'no': 5
+  title: Vuex 迁移 Pinia 实战：从 Module 嵌套到扁平 Store 重构
+  contents:
+  - 给定一个 Vuex 存量结构：
+  - '```js'
+  - // store/index.js
+  - const store = new Vuex.Store({
+  - '  modules: {'
+  - '    account: {'
+  - '      namespaced: true,'
+  - '      state: { user: null, permissions: [] },'
+  - '      getters: { isAdmin: s => s.permissions.includes(''admin'') },'
+  - '      actions: { login(), fetchPermissions() },'
+  - '      modules: {'
+  - '        profile: { state: { avatar: '''', bio: '''' }, mutations: { updateProfile()
+    } }'
+  - '      }'
+  - '    },'
+  - '    cart: { namespaced: true, state: { items: [] }, actions: { addToCart(), checkout()
+    } }'
+  - '  }'
+  - '})'
+  - '```'
+  - 迁移任务：
+  - '  1. 拆分为 3 个 Pinia Store：`useAccountStore`、`useProfileStore`、`useCartStore`'
+  - '  2. `useAccountStore` 内通过 `const profileStore = useProfileStore()` 组合原嵌套模块，`getters.isAdmin`
+    改为 `computed`'
+  - '  3. 编写兼容层插件 `piniaPluginVuex`，使旧组件 `this.$store.state.account.user` 仍可工作（提示：代理
+    `pinia.state.value.account`）'
+  - '  4. 组件侧重构：将 `mapState(''account'', [''user''])` 替换为 `const { user } = storeToRefs(useAccountStore())`'
+  - '  5. 迁移 `vuex-persistedstate` 配置至 `pinia-plugin-persistedstate`，注意 `paths` 映射变化'
+  - 回答问题：
+  - '- 原 Vuex `account/profile` 嵌套改为扁平组合后，`useAccountStore` 里调用 `useProfileStore()`
+    会形成循环依赖吗？如何避免？'
+  - '- 迁移后 `store.registerModule(''dynamic'', module)` 动态注册模块的场景如何用 Pinia 实现？（提示：动态
+    `import` + `pinia._s.set()`）'
+  - '- 为什么迁移后生产包体积通常减少 20%+？（提示：Tree-shaking、无模块嵌套开销、Setup Store 无字符串键名）'
+- 'no': 6
+  title: 实战：基于『ChatGPT 超级写手机器人 1.0』架构设计一个通用的 AI 长文本生产编排器
+  contents:
+  - 设计一个 TypeScript 类 `AIWriterOrchestrator`，核心能力包括：
+  - 1. 账号池管理：支持添加/移除账号、健康度检查、自动隔离异常账号
+  - '2. 任务队列：接收 `{ prompt: string, options: { maxTokens, temperature } }`，自动分片、调度、重试'
+  - 3. 智能续写：检测流式输出是否因 `length` 截断，自动发送 `继续` 指令并拼接上下文
+  - 4. 上下文拼接：维护对话历史，确保多轮对话的语义连贯性，支持 `system`/`user`/`assistant` 角色分离
+  - 5. 结果持久化：自动保存至本地数据库（如 IndexedDB），支持断点续传与增量导出
+  - 6. 监控面板：暴露 `onProgress`/`onComplete`/`onError` 事件，供上层 UI 实时展示生成进度、Token 消耗、成功率
+  - 验收标准：
+  - '- 单次任务支持 ≥5000 字输出，上下文连贯性无逻辑断层'
+  - '- 账号异常（限流/封号）时自动切换，任务无感知迁移'
+  - '- 网络抖动触发指数退避重试，最大重试 3 次'
+  - '- 内存占用 ≤ 200MB，无内存泄漏'
+- 'no': 7
+  title: 实战：为某垂直领域（如母婴/编程/健身）设计一套小红书引流 SOP 手册
+  contents:
+  - 基于 B=MAP 模型，产出包含以下章节的标准化操作手册（Markdown 格式）：
+  - 1. **选题策略矩阵**：基于『用户想要的/用户有需求的/戳用户痛点』三维筛选 50 个高转化选题，标注预估私信动力等级
+  - 2. **封面制作规范**：对比型/纯文字型/大合集型三类模板的参数化配置（字体/排版/配色/关键词位置），附 Figma/PS 源文件链接
+  - 3. **内容图隐性植入清单**：打印资料实物图、不完整资料预告图、收益截图、交付反馈图的拍摄/制作标准与合规要点
+  - 4. **私信 SOP 双模态模板**：手写纸条版（含去哪找/搜什么词/如何识别/有何价值）与流程图版（含节点/分支/异常处理）的标准化文案
+  - 5. **全链路触达部署表**：图片植入/评论区置顶/私信主动引导/群聊运营四大触点的发布频次、话术变体、账号分工
+  - 6. **合规红线自检表**：敏感词规避、链接隐写、账号隔离、频次控制等平台风控红线的量化指标与自检流程
+  - 交付物：一份可直接交给运营执行的《小红书XX领域引流 SOP v1.0》手册
+- 'no': 8
+  title: 实战：应用『六字真经』重构一篇低质量的 ChatGPT 生成小红书旅游笔记
+  contents:
+  - 给定一篇由简单提示词生成的平庸旅游笔记（内容泛泛、无人设、结构松散、缺乏 Emoji、标题平淡），要求：
+  - 1. 补全 **背景**：我是某城市深度游玩家，目的是帮背包客避坑省钱，受众是预算 1000 元的大学生
+  - 2. 补全 **要求**：字数 800-1000、三段式结构（开头钩子/干货分层/结尾互动）、植入 3 个平台爆款关键词、每段开头加 Emoji、标题 ≤20
+    字含 1 个关键词
+  - 3. 补全 **角色**：ChatGPT 扮演『邵阳隆回当地导游』，我扮演『预算 1000 元的背包客』，双角色对练生成话术
+  - 4. 执行四步生成法：获取基础素材 → 生成正文（赋予博主人设） → 注入 Emoji（语义匹配） → 生成爆款标题（问题/方案/结果/字数限制）
+  - 5. 对比生成前后版本的差异，从『阅读完读率』、『收藏转发比』、『私信咨询转化率』三个维度评估提升效果
+  - 交付物：重构前后对比文档 + 最终版 Prompt 模板
+- 'no': 9
+  title: 实战：挖掘并验证你的『不讨厌/不厌其烦』微小切入点
+  contents:
+  - 执行以下自我考古流程，输出一份《我的抖音天分挖掘报告》：
+  - 1. **横向对比清单**：列出 10 个身边人/同行『讨厌死、给钱不干』但你『不厌其烦』的具体事项（如：整理资料、反复打磨文案、钻研工具参数、陪孩子读绘本、深夜排查
+    Bug、整理税务发票……）
+  - 2. **耐受度量化**：对每项事项打分（1-10 分），评估『单次持续时长』与『重复频次』，筛选 TOP 3 核心项
+  - 3. **技能变现路径设计**：针对 TOP 3 项，分别设计『边学边教』的抖音内容方向（如：整理资料 → 『Notion 模板测评/效率工具测评』账号；陪读绘本
+    → 『亲子绘本精读/避坑指南』账号）
+  - 4. **MVP 验证计划**：每个方向制定『前 5 期内容选题』+『单期制作 SOP』+『3 个关键指标（完播率/互动率/私信转化）』+『止损线（连续 10
+    期数据不达标即切换）』
+  - 5. **正向循环预演**：书面推演『越学越会 → 越会越喜欢 → 越喜欢越擅长 → 越擅长越受欢迎 → 越受欢迎越赚钱』在该路径上的具体表现节点
+  - 交付物：包含上述 5 个模块的结构化报告（PDF/Notion/语雀）
+units:
+- 'no': 1
+  name: Pinia 核心架构 —— 从模块化 Store 到自动代码分割
+  points:
+  - '**为什么需要这个概念？**'
+  - '- Vuex 存在模块命名空间冲突、TypeScript 类型推导困难、热更新支持弱、服务端渲染 (SSR) 易污染状态等痛点'
+  - '- 大型应用需要状态管理天然支持代码分割，避免打包体积过大影响首屏加载'
+  - '- 开发体验需从“手动注册模块”升级为“按需引入即自动注册”'
+  - '**核心定义**'
+  - '- Pinia 由一个根 Store 实例 (`createPinia()`) 和多个独立的 Store 组成'
+  - '- 每个 Store 包含 `state`（响应式数据源）、`getters`（派生计算缓存）、`actions`（业务逻辑/异步操作）三元组'
+  - '- Store 定义即注册：调用 `defineStore` 返回的函数即完成注册，无需手动 `store.registerModule`'
+  - '- 模块自动代码分割：Vite/Rollup 通过动态 `import()` 识别 Store 文件，自动生成独立 Chunk，按需加载'
+  - '**关键性质**'
+  - '- 扁平化架构：无嵌套模块概念，Store 间通过 `useStore()` 直接组合，天然解耦'
+  - '- 类型安全首选：`defineStore` 返回类型自动推导 State/Getters/Actions，`storeToRefs` 保持响应式解构类型'
+  - '- 插件系统基于 `pinia.use()` 扩展横切关注点（持久化、DevTools、同步标签页）'
+  - '- SSR 友好：每次请求创建新 `createPinia()` 实例，天然隔离用户状态，无污染风险'
+  - '**典型例子**'
+  - '- 电商项目中：`useUserStore`（用户信息/权限）、`useCartStore`（购物车）、`useProductStore`（商品缓存）三个独立
+    Store，分别按需加载'
+  - '- 组合式 API 风格 (Setup Store) 编写：在 `setup()` 中自由使用 `ref`/`computed`/`watch`，逻辑复用能力强'
+  - '**边界条件**'
+  - '- 选项式 API 风格 (Option Store) 与组合式 API 风格不可混用，团队需统一规范'
+  - '- `state` 必须返回对象，不能直接返回 `ref`/`reactive`（Setup Store 除外）'
+  - '- 直接修改 `$state` 会丢失响应式连接，需使用 `$patch` 或逐属性赋值'
+  - '- 浏览器开发工具时间旅行仅支持 Option Store 完美回放，Setup Store 受限于闭包作用域'
+  sources:
+  - paper: 20230418_037.md
+    role: origin
+  excerpts:
+  - Pinia 的核心架构优势在于：1) 类型推导完美支持 TS，无需手写类型；2) 模块自动代码分割，无需手动配置；3) 支持 Composition API
+    风格编写 Store，逻辑复用更灵活；4) 更轻量（~1kb），无 Module 嵌套概念。
+  - '定义 Store 的两种方式：
+
+    - Option Store: `defineStore(''id'', { state: () => ({...}), getters: {}, actions:
+    {} })`
+
+    - Setup Store: `defineStore(''id'', () => { const count = ref(0); return { count
+    } })`'
+  - 自动代码分割原理：Vite/Rollup 遇到 `import { useUserStore } from '@/stores/user'` 会自动将该 Store
+    打包为单独 chunk，实现按需加载。
+- 'no': 2
+  name: 类型安全实践 —— 让 Store 类型随代码流动
+  points:
+  - '**为什么需要这个概念？**'
+  - '- Vuex 中 `this.$store.state.a.b` 类型丢失、`mapState` 字符串魔法无类型提示、重构极易出错'
+  - '- 组合式 API 中解构 `store` 会丢失响应式，`storeToRefs` 需保持类型完整'
+  - '- 团队协作需要“以类型为文档、以编译为测试”的开发信心'
+  - '**核心定义**'
+  - '- `defineStore` 返回类型自动推导为 `StoreDefinition`，包含 `State`、`Getters`、`Actions` 类型别名'
+  - '- `storeToRefs(store)` 将 Store 转为普通对象，每个属性均为 `Ref` 且保持原类型，解决解构丢失响应式问题'
+  - '- 组件中通过 `const store = useUserStore()` 获得完整类型提示，`store.name`、`store.getFullName()`、`store.login()`
+    均有智能感知'
+  - '**关键性质**'
+  - '- 类型自动收窄：在 Setup Store 中，`ref` 推导为 `Ref<T>`，`computed` 推导为 `ComputedRef<T>`，返回对象自动解包'
+  - '- 跨 Store 组合类型安全：`useCartStore()` 内调用 `useUserStore()`，类型系统自动合并依赖图'
+  - '- 测试时 `setActivePinia(createPinia())` 重置上下文，Store 实例类型不变'
+  - '**典型例子**'
+  - '- 定义 `interface User { id: number; name: string }`，`state: () => ({ user: null
+    as User | null })`，`getters: { userName: (state) => state.user?.name ?? ''Guest''
+    }`，全程类型推导无需注解'
+  - '- 组件内 `const { userName } = storeToRefs(useUserStore())`，`userName.value` 类型为
+    `string`，修改触发响应式更新'
+  - '**边界条件**'
+  - '- Setup Store 返回函数/类等非纯数据对象时，类型推导可能偏离预期，需显式 `return { ... }` 约束'
+  - '- `store.$subscribe` 回调参数类型为 `MutationPayload`，需注意泛型参数传递'
+  - '- 循环引用 Store（A 依赖 B，B 依赖 A）会导致类型实例化深度溢出，需重构依赖方向'
+  sources:
+  - paper: 20230418_037.md
+    role: origin
+  excerpts:
+  - '类型安全最佳实践：
+
+    1. 优先使用 Setup Store，利用 TS 推导能力。
+
+    2. 组件中必须使用 `storeToRefs(store)` 解构，保持响应式与类型。
+
+    3. 避免直接 `const { state } = store` 导致响应式丢失。
+
+    4. 测试文件顶部 `setActivePinia(createPinia())` 确保实例隔离。'
+- 'no': 3
+  name: 插件机制与持久化 —— 横切关注点的优雅注入
+  points:
+  - '**为什么需要这个概念？**'
+  - '- 状态持久化（localStorage/IndexedDB）、多标签页同步、DevTools 时间旅行属于横切关注点，不应侵入业务 Store 代码'
+  - '- 手动在每个 Action 中 `localStorage.setItem` 导致代码分散、难维护、易遗漏'
+  - '- 需要统一的扩展点在状态变更前后拦截、转换、持久化'
+  - '**核心定义**'
+  - '- `pinia.use(plugin)` 注册插件，插件函数签名 `({ store, app, pinia, options }) => { /* 返回可选属性扩展
+    store */ }`'
+  - '- 插件可访问 `store.$subscribe((mutation, state) => {})` 监听所有状态变更（类似 Vuex `subscribe`）'
+  - '- `pinia-plugin-persistedstate` 官方推荐持久化插件，配置 `persist: true` 或 `{ key, storage,
+    paths, serializer }` 即可零代码持久化'
+  - '**关键性质**'
+  - '- 插件执行顺序即注册顺序，后注册插件可覆盖前者返回的扩展属性'
+  - '- 插件内可通过 `pinia.use()` 链式调用，或访问 `pinia._s` (Map<id, Store>) 遍历所有 Store'
+  - '- 自定义插件可实现：状态加密存储、敏感字段脱敏、异步存储适配器（如 IndexedDB/WebSQL）、跨标签页 `BroadcastChannel`
+    同步'
+  - '**典型例子**'
+  - '- `pinia-plugin-persistedstate` 配置：`defineStore(''user'', { state: () => ({ token:
+    '''' }), persist: { storage: sessionStorage, paths: [''token''] } })` 仅持久化 token
+    到 sessionStorage'
+  - '- 自定义插件实现多标签页同步：监听 `storage` 事件或 `BroadcastChannel`，收到消息调用 `store.$patch(payload)`
+    更新状态'
+  - '**边界条件**'
+  - '- 持久化存储容量受限（localStorage 5MB），大对象需压缩或分片，或改用 IndexedDB'
+  - '- 服务端渲染 (SSR) 环境无 `window`/`localStorage`，插件需判断 `import.meta.env.SSR` 跳过或使用 `cookie`
+    存储'
+  - '- 状态结构变更（字段重命名/删除）会导致旧版本持久化数据反序列化报错，需实现版本迁移逻辑 `serializer: { deserialize: (v)
+    => migrate(v) }`'
+  sources:
+  - paper: 20230418_037.md
+    role: origin
+  excerpts:
+  - "插件机制核心代码：\n```ts\nexport function piniaPluginPersistedstate(context) {\n  const\
+    \ { store, options } = context\n  if (options.persist) {\n    // 读取存储恢复 state\n\
+    \    // 订阅 $subscribe 持久化变更\n  }\n}\n```"
+  - '`pinia.use()` 类型签名：`(plugin: PiniaPlugin) => Pinia`，支持链式调用。插件可返回对象合并到 store 实例上，如
+    `return { $reset: () => ... }`。'
+- 'no': 4
+  name: SSR 与测试策略 —— 实例隔离与 Store 重置
+  points:
+  - '**为什么需要这个概念？**'
+  - '- SSR 中全局单例 Pinia 会导致请求间状态污染（用户 A 登录态泄露给用户 B）'
+  - '- 单元测试中 Store 状态残留导致测试用例相互干扰，破坏隔离性'
+  - '- Vuex 需手动 `store.hotUpdate` 热更新、手动重置 state，Pinia 需标准化方案'
+  - '**核心定义**'
+  - '- SSR 必须在每个请求创建新 `createPinia()` 实例，通过 `app.use(pinia)` 注入，确保请求级隔离'
+  - '- 客户端激活时 `pinia.state.value = window.__PINIA_STATE__` 完成水合，避免双倍序列化'
+  - '- 测试环境：`vitest` 配置 `globalSetup` 创建 Pinia，每个测试用例前 `setActivePinia(createPinia())`
+    重置上下文'
+  - '- Store 重置：`store.$reset()` 仅重置 Option Store 的 state 到初始值，Setup Store 需手动实现 `$reset`
+    或重新实例化'
+  - '**关键性质**'
+  - '- 请求隔离：`createPinia()` 成本极低（仅创建 Map 和 Symbol），可放心每请求实例化'
+  - '- 类型安全测试：`const store = useStore()` 在测试中类型完全一致，`vi.spyOn(store, ''action'')`
+    可 Mock Actions'
+  - '- 热更新 (HMR) 原生支持：`import.meta.hot.accept()` 无需手动处理，Pinia 内部自动迁移 state'
+  - '**典型例子**'
+  - '- Nuxt 3 / Vue SSR 入口：`export default defineNuxtPlugin(() => { const pinia =
+    createPinia(); app.use(pinia) })`'
+  - "- Vitest 测试文件：\n```ts\nimport { setActivePinia, createPinia } from 'pinia'\n\
+    import { useUserStore } from '@/stores/user'\nimport { beforeEach, it, expect\
+    \ } from 'vitest'\n\nbeforeEach(() => setActivePinia(createPinia()))\nit('login\
+    \ sets token', () => {\n  const store = useUserStore()\n  store.login('token123')\n\
+    \  expect(store.token).toBe('token123')\n})\n```"
+  - '**边界条件**'
+  - '- Setup Store 无自动 `$reset`，需手动添加：`return { ..., $reset: () => { count.value =
+    0 } }`'
+  - '- 测试中 Mock `store.$patch` 需注意类型兼容，建议 `vi.spyOn(store, ''$patch'')`'
+  - '- SSR 传递初始状态序列化时，避免循环引用（如 Router 实例），需自定义 `JSON.stringify` replacer'
+  sources:
+  - paper: 20230418_037.md
+    role: origin
+  excerpts:
+  - 'SSR 关键点：
+
+    1. 服务端每请求 `createPinia()`
+
+    2. `pinia.state.value` 序列化为 HTML 注入
+
+    3. 客户端 `pinia.state.value = window.__PINIA_STATE__` 水合
+
+    4. 避免在 Store 顶层直接访问 `window`/`document`'
+  - '测试最佳实践：
+
+    - 使用 `setActivePinia(createPinia())` 而非 `createPinia()` 单例
+
+    - `storeToRefs` 解构后的 Ref 可直接 `.value` 断言
+
+    - 利用 `vi.mock` 模拟外部 API 依赖，测试 Action 逻辑'
+- 'no': 5
+  name: Vuex 迁移到 Pinia —— 增量重构的平滑路径
+  points:
+  - '**为什么需要这个概念？**'
+  - '- 存量 Vuex 项目无法一次性重写，需共存迁移策略'
+  - '- `mapState`/`mapGetters`/`mapActions` 等辅助函数大量存在，需兼容方案'
+  - '- Module 嵌套结构需拆解为扁平 Store，迁移顺序影响风险'
+  - '**核心定义**'
+  - '- 共存方案：`app.use(pinia).use(vuex)` 同时安装，Pinia Store 通过 `pinia.use(() => ({ $vuex:
+    store }))` 插件访问 Vuex 根 store'
+  - '- 兼容辅助函数：`pinia-plugin-vuex` 或手写 `mapState` 兼容层，逐步替换为 `storeToRefs(useStore())`'
+  - '- Module 拆分策略：按业务域拆分为独立 Store，原 `modules/a/b` -> `useAStore`/`useBStore`，通过组合替代嵌套'
+  - '- 共享状态迁移清单：根 state -> 独立 Store、插件迁移、类型定义迁移、测试覆盖补全'
+  - '**关键性质**'
+  - '- 增量迁移：新功能直接写 Pinia，旧功能按模块逐个迁移，运行期共存无冲突'
+  - '- 类型迁移：Vuex `Store<RootState>` -> Pinia `useXStore()` 返回类型，逐文件替换 import'
+  - '- 迁移后体积减少：Pinia 无模块嵌套开销，Tree-shaking 更彻底，生产包体积通常减少 20%+'
+  - '**典型例子**'
+  - '- 迁移步骤：
+
+    1. 安装 Pinia，`app.use(createPinia())`
+
+    2. 编写 `pinia-plugin-vuex` 兼容层，使 `this.$store` 可用
+
+    3. 将 `store/modules/user.js` 重写为 `stores/user.ts` (Setup Store)
+
+    4. 组件中 `import { useUserStore } from ''@/stores/user''` 替换 `mapState(''user'',
+    [''name''])`
+
+    5. 删除 Vuex 相关代码与依赖'
+  - '- 迁移后组件代码对比：
+
+    Vuex: `computed: { ...mapState(''user'', [''name'']), ...mapGetters(''user'',
+    [''fullName'']) }, methods: { ...mapActions(''user'', [''login'']) }`
+
+    Pinia: `const store = useUserStore(); const { name, fullName } = storeToRefs(store);
+    store.login()`'
+  - '**边界条件**'
+  - '- Vuex 插件（如 `vuex-persistedstate`）需重写为 Pinia 插件，无法直接复用'
+  - '- 动态注册模块 `store.registerModule` 场景需改为动态 `import` Store + `pinia._s.set(id, store)`'
+  - '- 严格模式 `strict: true` 迁移后由 TypeScript 编译时检查替代运行时检查'
+  - '- 大型项目建议设立“迁移冻结期”，核心模块优先迁移，边缘模块后置'
+  sources:
+  - paper: 20230418_037.md
+    role: origin
+  excerpts:
+  - 'Vuex 到 Pinia 迁移核心差异表：
+
+    | 特性 | Vuex | Pinia |
+
+    |---|---|---|
+
+    | 定义风格 | 单一大 Store + Module | 多个扁平 Store |
+
+    | 类型支持 | 需手写类型装饰器 | TS 原生推导 |
+
+    | 代码分割 | 需手动配置 | 自动 (动态 import) |
+
+    | SSR | 需手动克隆 state | 每请求创建实例原生隔离 |
+
+    | 组合式 API | 需 `useStore()` 封装 | 原生 Setup Store |
+
+    | 体积 | ~3.5kb | ~1kb'
+  - "兼容层示例：\n```ts\n// pinia-plugin-vuex.js\nexport function vuexPlugin({ store })\
+    \ {\n  store.$vuex = vuexStore // 挂载旧 Vuex 实例\n}\n```"
+- 'no': 6
+  name: ChatGPT 超级写手机器人 1.0 —— 全自动、真批量的长文本生产利器
+  points:
+  - '**为什么需要这个概念？**'
+  - '- ChatGPT Web 端长文本创作存在六大痛点：输出长度限制导致中断、续写上下文衔接失败、人工复制粘贴交互成本高、多轮对话管理困难、缺乏自动持久化存储、API/账号频率限制与人工故障处理成本高'
+  - '- 现有方案多为“半自动”或“伪批量”，未解决上下文智能衔接、多账号故障自动切换、全流程无人值守问题'
+  - '**核心定义**'
+  - '- `ChatGPT 超级写手机器人 1.0`：针对 ChatGPT Web 端长文本创作痛点开发的全自动化批量生产工具，集成了自动续写、上下文衔接、多账号调度、自动保存等功能，实现无人值守的内容生产闭环'
+  - '- `全自动、真批量`：区别于市面上半自动或伪批量方案的核心技术指标，指代工具实现从任务分发、多账号轮询、断点续写重试、上下文自动拼接到结果落库的全链路零人工干预自动化能力'
+  - '**关键性质**'
+  - '- 基于浏览器自动化或 Web 端模拟技术，构建多账号调度池'
+  - '- 通过任务队列管理提示词，实现自动发送、监听流式输出、智能判断截断触发续写指令、上下文自动拼接校验、异常自动重试切号、结果实时入库'
+  - '- 开箱即用：提供完整源码与部署文档，无需学习提示词工程（PRP）即可‘拿来急用’'
+  - '**典型例子**'
+  - "- 痛点-方案映射表：\n  1. 写了一段没写完就停了 → 自动续写\n  2. 停了之后发继续写，上下文衔接不上 → 自动衔接上下文\n  3. 提问和回答都需要手动复制粘贴\
+    \ → 自动交互\n  4. 提问次数多了，整理提问回答很麻烦 → 自动保存/整理\n  5. 提问回答无法自动保存 → 自动保存/整理\n  6. chatgpt\
+    \ 提问回答次数有限，多账号多浏览器解决需人工守着 → 多账号自动调度/无人值守故障处理"
+  - '**边界条件**'
+  - '- 依赖 Web 端逆向接口，官方 API 变更可能导致失效'
+  - '- 多账号调度需解决登录态维持、验证码拦截等工程问题'
+  - '- 长文本生成的事实准确性（幻觉）仍需人工终审把关'
+  sources:
+  - paper: 20230418_037.md
+    role: origin
+  excerpts:
+  - 解决以上问题：写了一段没写完就停了 -> 自动续写；上下文衔接不上 -> 自动衔接上下文；手动复制粘贴 -> 自动交互；整理麻烦/无法自动保存 -> 自动保存/整理；次数限制/人工守着
+    -> 多账号自动调度/无人值守故障处理。
+  - 不用学，拿来急用，有源码
+- 'no': 7
+  name: 福格行为模型驱动的小红书引流体系 —— 从‘行为设计’到‘标准化作业程序’
+  points:
+  - '**为什么需要这个概念？**'
+  - '- 传统引流教学依赖零散技巧（话术、工具、发布时间），缺乏统一的底层逻辑，平台规则变更导致技巧失效'
+  - '- 引流本质是用户行为设计，福格行为模型（B=MAP）提供了跨平台、跨业务的通用分析框架'
+  - '**核心定义**'
+  - '- `引流行为公式`：用户私信行为 = 私信动力 × 私信能力 × 私信提示（B=MAP）'
+  - '- `私信动力`：用户产生‘想建立联系’意愿的心理驱动力，由选题精准度、痛点刺激、收益展示构成'
+  - '- `私信能力`：用户完成私信操作的难易度，核心在于 SOP 教程（手写纸条/流程图）规避平台检测、降低认知门槛'
+  - '- `私信提示`：在笔记图片、评论区、私信、群聊等多触点植入引导线索，触发用户即时行动的外部诱因'
+  - '**关键性质**'
+  - '- 逻辑层不变、方法层迭代：平台规则变化仅影响方法层（能力/提示的具体载体），不影响逻辑层（B=MAP 公式）有效性'
+  - '- 精准流量优于泛流量：引流选题目标是吸引‘对产品感兴趣’的精准用户，百赞精准笔记引流效果优于万赞泛流量笔记'
+  - '- 合规性即生存性：所有引流动作必须在平台风控红线内，手写、打码、关键词搜索、小号协作是核心生存策略'
+  - '**典型例子**'
+  - '- 选题三维筛选法：从‘用户想要的（产品匹配度）’、‘用户有需求的（需求精准度）’、‘戳用户痛点（潜在需求唤醒）’三维度筛选，确保流量精准可转化'
+  - '- 三类爆款封面制作法：对比型（前后反差）、纯文字型（关键词/噱头）、大合集型（全景式价值展示），附工具与制作要点'
+  - '- 内容图隐性植入四法：打印资料实物、不完整资料预告、收益截图、交付/反馈截图，自然传递‘有产品、可获取、有价值、可信赖’四大信号'
+  - '- 双模态私信 SOP：手写纸条（低重复率、强伪装性）与流程图（高清晰度、强逻辑）两种制作范式，必含‘去哪找、搜什么词、如何识别、有何价值’五要素'
+  sources:
+  - paper: Efm3dQsmpoUyHxxDPaAcoqXvnVe.md
+    role: origin
+  excerpts:
+  - 用户私信行为=私信动力 * 私信能力 * 私信提示
+  - 方法会根据平台更新而变化，但逻辑不变
+  - 用手写的方式，能更好避开平台的检测，而且可以随时拍新图，图片重复率会低一些
+  - 不是所有的选题和内容都适合引流，有些笔记很爆... 但就是没有人联系你
+- 'no': 8
+  name: ChatGPT 高效对话六字真经 —— 从‘玄学咒语’到‘结构化提示词工程’
+  points:
+  - '**为什么需要这个概念？**'
+  - '- 99% 人觉得 ChatGPT 不好用是因为‘不会问问题’，即缺乏结构化提示词能力'
+  - '- 通用大模型输出质量与提示词结构化程度强相关，无背景/角色/约束的‘直抒胸臆式’提问仅得‘正确的废话’'
+  - '- 需要一套可复用、可迁移、可教学的标准化提示词构建范式'
+  - '**核心定义**'
+  - '- `六字真经`：ChatGPT 提示词工程核心框架，包含三个维度——**背景**、**要求**、**角色**'
+  - '  - **背景**：你需要介绍你是谁？你是做什么行业的？你问这个问题，你的目的是什么？你面向的是什么人群'
+  - '  - **要求**：你希望它输出的结果具体有哪一些要求？比如说不少于 1000 字、要以悬念式的提问开头、要包含 6 个要点...'
+  - '  - **角色**：你需要赋予 ChatGPT 一个专业的角色... 你还可以给你自己赋予一个角色... 让他不断地来和你对话、问问题，最终想方设法把产品卖给你'
+  - '**关键性质**'
+  - '- 结构化提示词显著提升垂直领域内容生成质量：通过明确赋予专业角色并显式列出硬性约束，可引导大模型输出可直接投产的高质量内容'
+  - '- 双角色扮演（销售与客户对练）可生成高转化话术，模拟真实博弈场景'
+  - '- 方法论单一化原则：给 GPT 喂方法时‘不要多，一个就好’；过多方法论会干扰模型注意力机制，导致生成质量下降'
+  - '**典型例子**'
+  - '- 小红书笔记四步生成法：Step1 角色化获取基础素材（含约束条件） → Step2 角色化生成正文（赋予博主人设） → Step3 指令化注入 Emoji（段首+内容内嵌，语义匹配）
+    → Step4 结构化生成爆款标题（含问题、方案、结果、字数限制）'
+  - '- 游戏攻略脚本对比：未用六字真经得‘正确废话’，应用后得‘资源管理、部队选择搭配、小技巧’等可落地细节'
+  - '- Emoji 语义级精准匹配：龙船溪漂流→🚤，植物园→🌸，红色纪念馆→🚩，证明跨模态语义联想能力'
+  sources:
+  - paper: AnkEdEtEtoXIbexWlQ3cL6zenFf.md
+    role: origin
+  excerpts:
+  - 在会话优化前，它给的内容其实是一些正确的废话，没有落脚点。会话优化之后，它会给出一些比较细节的点... 这个内容要丰富很多。
+  - 你需要赋予 ChatGPT 一个专业的角色... 让他不断地来和你对话、问问题，最终想方设法把产品卖给你。
+  - 第三步，添加 emoji 表情：我给它指令，在每段开头的位置插入合适的 emoji 表情，文章的内容里也要插入表情...
+- 'no': 9
+  name: 普通人抖音变现核心方法论 —— 从‘寻找热爱’到‘发现不讨厌’
+  points:
+  - '**为什么需要这个概念？**'
+  - '- 普通人普遍陷入‘不知道自己擅长什么、热爱什么’的认知瘫痪，导致不敢起步或频繁切换赛道'
+  - '- ‘热爱/擅长’是高门槛、难验证的主观判断；‘不讨厌/不厌其烦’是低门槛、可观测、可量化的相对优势信号'
+  - '**核心定义**'
+  - '- `普通人`：不知道自己擅长什么，自己会的身边人也会；别人不会的，自己也不会。没什么特别喜欢干的事，平平无奇，这应该是多数人的现状'
+  - '- `不讨厌/不厌其烦`：个体相较于他人，在某件事上表现出的耐受度更高、抗挫折、愿意投入时间且不觉得痛苦的特质。这是普通人发现天分火种的关键信号，比‘热爱’更易寻找、更可持续'
+  - '- `天分小火花`：隐喻‘不讨厌’背后蕴含的、可被呵护放大的微小天赋种子。通过持续‘边学边教’可燎原成核心竞争力'
+  - '- `边学边教正向循环`：越学越会 → 越会越喜欢 → 越喜欢越擅长 → 越擅长越受欢迎 → 越受欢迎越赚钱 → 越赚钱越愿意去学'
+  - '**关键性质**'
+  - '- 差异化定位法：通过横向对比（与身边人/同行比）识别‘不讨厌’的相对优势。他人‘讨厌死/给钱不干’的事，己方‘不厌其烦’，即为可切入的差异化赛道'
+  - '- 搜索技能变现法：将‘不讨厌搜索/掘地三英尺找答案’的特质，转化为挖掘赚钱机会、解决疑难问题的核心技能，进而变现'
+  - '- 平台杠杆主张：抖音等内容平台是普通人将微小‘不讨厌’放大为‘天分与赚钱结合点’的最佳杠杆，通过‘边学边教’的公开输出，强制成长、获取反馈、积累资产'
+  - '**典型例子**'
+  - '- 大学生搜索技能变现：无优势大学生凭‘不讨厌搜索、掘地三尺’练就强搜索力，搜索到赚钱机会并实操赚钱，进入正向循环'
+  - '- 八大职业场景切入点：程序员不厌沟通、大学生不厌学英语、宝妈不厌读绘本、老板不厌思考薪酬、打工人不厌找副业、运营不厌和用户沟通、实体店主不厌选址、餐饮不厌加微信'
+  - '- 圈友互动验证：认知共鸣强（‘我就是那个大学生’、‘不讨厌整理资料’），但也暴露‘无不讨厌怎么办’、‘如何变现’的实操缺口'
+  sources:
+  - paper: QhJudGRcgoQlxGxYU67cndJenjh.md
+    role: origin
+  excerpts:
+  - 热爱的找不到，不讨厌的还找不到吗？注意，这个点，对于普通人来说，不讨厌去干的事情，可能就是你的天分小火花。
+  - 越学越会，越会越喜欢，越喜欢越擅长，越擅长越在抖音受欢迎，越受欢迎越赚钱，越赚钱越愿意去学。这就进入到一个正向循环...剩下的交给时间。
+  - 不如找来相关的书和课，每天学一点并在抖音拍视频和直播分享出去。
+'no': 37
