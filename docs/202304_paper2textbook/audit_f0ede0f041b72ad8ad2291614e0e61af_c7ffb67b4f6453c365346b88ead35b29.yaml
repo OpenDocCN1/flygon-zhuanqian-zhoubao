@@ -1,0 +1,159 @@
+citation_stats:
+- paper: 20230418_106.md
+  count: 5
+  locations:
+  - 28.2 概念地图
+  - 28.3.1 为什么需要模块化流水线？
+  - 28.3.2 核心接口契约设计
+  - 28.4.1 为什么单一向量检索不够？
+  - 28.4.2 多路召回：稀疏 + 稠密 + RRF 融合
+- paper: 20230418_105.md
+  count: 5
+  locations:
+  - 28.2 概念地图
+  - 28.3.2 核心接口契约设计
+  - 28.6.1 为什么固定流水线不够用？
+  - 28.6.5 长程规划与任务分解：树搜索与 DAG 并行
+  - 28.7 多源对照：RAG 架构演进的四个层级
+- paper: 20230418_109.md
+  count: 7
+  locations:
+  - 28.2 概念地图
+  - 28.3.2 核心接口契约设计
+  - 28.4.5 检索策略的演进脉络
+  - 28.5.1 为什么必须建立评测体系？
+  - 28.5.2 RAGAS 核心指标体系：正交评估坐标系
+  - 28.5.3 合成测试集：低成本构建高质量基准
+  - 28.6.5 长程规划与任务分解：树搜索与 DAG 并行
+- paper: 20230418_136.md
+  count: 9
+  locations:
+  - 28.2 概念地图
+  - 28.3.2 核心接口契约设计
+  - 28.5.1 为什么必须建立评测体系？
+  - 28.5.2 RAGAS 核心指标体系：正交评估坐标系
+  - 28.5.4 数据飞轮：从线上反馈到自动化迭代
+  - 28.6.1 为什么固定流水线不够用？
+  - 28.6.5 长程规划与任务分解：树搜索与 DAG 并行
+  - 28.6.6 进阶扩展：GraphRAG 与多模态 RAG
+  - 28.7 多源对照：RAG 架构演进的四个层级
+- paper: 20230418_110.md
+  count: 6
+  locations:
+  - 28.2 概念地图
+  - 28.4.1 为什么单一向量检索不够？
+  - 28.4.2 多路召回：稀疏 + 稠密 + RRF 融合
+  - 28.4.3 重排序：Cross-Encoder 与 LLM 重排的精度跃迁
+  - 28.4.4 查询理解：重写、分解、路由、HyDE
+  - 28.5.4 数据飞轮：从线上反馈到自动化迭代
+- paper: 20230418_140.md
+  count: 7
+  locations:
+  - 28.2 概念地图
+  - 28.6.1 为什么固定流水线不够用？
+  - 28.6.2 核心循环：观察 → 思考 → 行动 → 验证 → 迭代
+  - 28.6.3 关键能力拆解
+  - 28.6.4 推理-检索双螺旋：交织机制的数学建模
+  - 28.6.5 长程规划与任务分解：树搜索与 DAG 并行
+  - 28.6.6 进阶扩展：GraphRAG 与多模态 RAG
+- paper: 20230418_107.md
+  count: 2
+  locations:
+  - 28.2 概念地图
+  - 28.7 多源对照：RAG 架构演进的四个层级
+unsupported_claims:
+- location: 28.3.2 核心接口契约设计
+  claim: LangChain/LangGraph 生态确立了 `Runnable` 协议作为组件间的通用契约
+  reason: 素材中未提及 LangChain/LangGraph 或 Runnable 协议
+- location: 28.3.2 核心接口契约设计
+  claim: 父子文档关联显式化：`Chunk.parent_id` 让下游重排序或生成时可选择返回父块（长上下文）还是子块（精准引用）
+  reason: 素材中未提及父子文档、Chunk.parent_id 或相关检索策略
+- location: 28.3.2 核心接口契约设计
+  claim: 融合策略外部化：`FusionStrategy` 作为可注入依赖，而非硬编码在 `HybridRetriever` 内部
+  reason: 素材中未提及 FusionStrategy、依赖注入或 HybridRetriever 实现细节
+- location: 28.3.2 核心接口契约设计
+  claim: 结构化输出契约：`GeneratorOutput` 强制包含 `citations` 与 `confidence`
+  reason: 素材中未提及 GeneratorOutput、citations、confidence 等结构化输出字段
+- location: 28.3.3 典型组装模式与工程落地
+  claim: ParentDocumentRetriever（大块嵌入、小块返回）模式展示了‘索引时粗粒度、检索时细粒度’的工程智慧
+  reason: 素材中未提及 ParentDocumentRetriever、父子文档检索或大块/小块嵌入策略
+- location: 28.3.3 典型组装模式与工程落地
+  claim: HyDE（假设性文档嵌入）模式展示了‘生成辅助检索’的反向思维
+  reason: 素材中未提及 HyDE、假设性文档嵌入或生成辅助检索模式
+- location: 28.4.2 多路召回：稀疏 + 稠密 + RRF 融合
+  claim: RRF 融合算法：score_RRF(d) = Σ 1/(k + rank_i(d))，k=60 来源于 Cormack et al., 2009
+    实证研究
+  reason: 素材中未提及 RRF 算法细节、k=60 来源或 Cormack 等学术引用
+- location: 28.4.3 重排序：Cross-Encoder 与 LLM 重排的精度跃迁
+  claim: Cross-Encoder 延迟 50-200ms (N=50, BERT-base)，LLM 重排延迟 200-1000ms (N=20, 7B
+    模型)
+  reason: 素材中未提及具体延迟数值、模型规模或批处理优化细节
+- location: 28.4.4 查询理解：重写、分解、路由、HyDE
+  claim: 查询重写/分解/路由/HyDE 四大手段对照表及组合实战代码示例
+  reason: 素材中未提及查询重写、分解、路由、HyDE 具体实现或财报分析助手案例
+- location: 28.5.2 RAGAS 核心指标体系：正交评估坐标系
+  claim: RAGAS 论文引用：arXiv:2309.15217；ARES 论文：Automated Evaluation of Retrieval-Augmented
+    Generation
+  reason: 素材中未提及 RAGAS/ARES 论文编号或具体引用来源
+- location: 28.5.2 RAGAS 核心指标体系：正交评估坐标系
+  claim: 忠实度计算公式：上下文支持的陈述数 / 答案总陈述数
+  reason: 素材中未提及忠实度、答案相关性、上下文精确率/召回率的具体计算公式
+- location: 28.5.3 合成测试集：低成本构建高质量基准
+  claim: 合成测试集生成管线：种子文档→LLM生成问题→分类→生成Ground Truth→抽取实体/证据Span→人工抽样校准10%→版本化存储+哈希去重
+  reason: 素材中未提及合成测试集生成流程、实体抽取、哈希去重等工程细节
+- location: 28.5.4 数据飞轮：从线上反馈到自动化迭代
+  claim: 数据飞轮闭环架构：采样器100条/天→清洗规则→LLM-as-Judge打分→分数阈值分流→黄金测试集/人工复核队列→DPO偏好对→夜ly回归评测→指标漂移告警→阻断合并/自动回滚→微调/提示词优化→灰度验证
+  reason: 素材中未提及数据飞轮具体架构、采样策略、LLM-as-Judge校准、DPO偏好数据构建等细节
+- location: 28.6.2 核心循环：观察 → 思考 → 行动 → 验证 → 迭代
+  claim: Agentic RAG 核心循环状态机：INIT→PLAN→ZERO_SHOT/RETRIEVE→VERIFY→RE_PLAN/ANSWER→END，含查询指纹去重防循环机制
+  reason: 素材中未提及 Agentic RAG、状态机、查询指纹去重、证据充分性判断器等核心概念
+- location: 28.6.3 关键能力拆解
+  claim: 证据充分性判断器：用 LLM 判断证据是否充分、缺失证据类型、置信度、支撑性引用列表
+  reason: 素材中未提及证据充分性判断器、VerficationResult 结构或相关 Prompt 设计
+- location: 28.6.4 推理-检索双螺旋：交织机制的数学建模
+  claim: 双螺旋数学建模：S_{t+1}=Reason(S_t,O_t), A_{t+1}=Plan(S_{t+1}), O_{t+1}=Retrieve(A_{t+1})，终止条件
+    Verify(S_T)=Sufficient 或 T≥T_max
+  reason: 素材中未提及推理-检索双螺旋数学建模、状态更新公式或终止条件形式化定义
+- location: 28.6.5 长程规划与任务分解：树搜索与 DAG 并行
+  claim: ToT (Tree of Thoughts)、MCTS 树搜索、DAG 任务图并行、LLM Compiler 编译自然语言规划为可执行任务图
+  reason: 素材中未提及 ToT、MCTS、DAG 任务图、LLM Compiler 等长程规划技术
+- location: 28.6.6 进阶扩展：GraphRAG 与多模态 RAG
+  claim: GraphRAG 架构：实体/关系抽取→知识图谱构建→社区检测(Louvain/Leiden)→社区摘要生成→查询映射相关社区+全局图检索→融合局部细节+全局摘要生成
+  reason: 素材中未提及 GraphRAG、知识图谱构建、社区检测、Louvain/Leiden 算法或多模态 RAG 表格/图表/代码解析策略
+- location: 28.7 多源对照：RAG 架构演进的四个层级
+  claim: 架构选型决策树：Naive→Advanced→Modular→Agentic→GraphRAG，含各阶段别名、核心特征、适用场景、代表工作对照表
+  reason: 素材中未提及 Naive/Advanced/Modular/Agentic/GraphRAG 分层定义、决策树或代表工作对照
+- location: 28.8 设计中的取舍
+  claim: 模块化流水线边界条件权衡表：接口粒度、状态管理、性能基线、版本演进四大维度及建议策略
+  reason: 素材中未提及接口粒度权衡、ThreadLocal/Context 隔离、Runnable 包装开销、语义化版本控制等工程决策
+- location: 28.9 动手练习
+  claim: 8 个详细动手练习：接口契约设计、高级检索流程模拟、RAG 评测闭环脚本、Agentic RAG 状态机设计、Function Calling Schema
+    封装、架构选型决策树对比、全链路可观测性埋点方案、数据飞轮 MVP 管道实现
+  reason: 素材中完全未包含任何动手练习、代码实现任务或工程实战指导内容
+- location: 28.10 本章小结
+  claim: 本章概念表：包含模块化 RAG 流水线、多路召回、重排序、查询理解、RAGAS 核心指标、数据飞轮、Agentic RAG、Function Calling
+    Schema、推理-检索双螺旋、GraphRAG、长程规划、全链路可观测性、分层评测体系、数据飞轮架构、工具生态标准化共 15 个核心概念及解释
+  reason: 素材中未包含上述任何概念定义、RAG 相关技术术语或教学大纲内容
+missing_concepts:
+- paper: 20230418_106.md
+  concept: 标准化 RAG Pipeline 接口定义、混合检索、父子文档、假设性文档嵌入等高级策略的即插即用组装
+  severity: high
+- paper: 20230418_105.md
+  concept: Chain、Agent 与 Memory 的解耦设计
+  severity: high
+- paper: 20230418_109.md
+  concept: 模块化 RAG 流水线：索引、检索、生成的解耦与组装、可测量即可优化的评测体系、合成测试集生成、在线人工反馈驱动持续自动化优化
+  severity: high
+- paper: 20230418_136.md
+  concept: LLM 作为操作系统内核/推理引擎/决策中枢的核心地位、Agentic RAG 架构演进、数据飞轮自动化迭代闭环、工具生态标准化
+  severity: high
+- paper: 20230418_110.md
+  concept: 高级检索策略：多路召回、重排序与查询理解、分层评测体系
+  severity: high
+- paper: 20230418_140.md
+  concept: Agentic RAG：检索工具化、自主决策、ReAct/Plan-and-Execute/Reflexion 认知架构演进、Function
+    Calling/MCP/Toolformer 范式、长程规划与任务分解
+  severity: high
+- paper: 20230418_107.md
+  concept: GraphRAG：知识图谱增强、全局推理、复杂推理场景应用边界
+  severity: high
