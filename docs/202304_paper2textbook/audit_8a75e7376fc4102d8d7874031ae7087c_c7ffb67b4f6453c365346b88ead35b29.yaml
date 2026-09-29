@@ -1,0 +1,95 @@
+citation_stats:
+- paper: P001
+  count: 2
+  locations:
+  - '10.3'
+  - '10.1'
+- paper: P002
+  count: 4
+  locations:
+  - '10.4'
+  - '10.1'
+  - '10.2'
+  - '10.2'
+- paper: P003
+  count: 4
+  locations:
+  - '10.5'
+  - '10.1'
+  - '10.2'
+  - '10.2'
+- paper: P004
+  count: 5
+  locations:
+  - '10.6'
+  - '10.1'
+  - '10.2'
+  - '10.2'
+  - '10.2'
+- paper: P005
+  count: 6
+  locations:
+  - '10.7'
+  - '10.1'
+  - '10.2'
+  - '10.2'
+  - '10.2'
+  - '10.2'
+- paper: P022
+  count: 1
+  locations:
+  - '10.8'
+- paper: P036
+  count: 1
+  locations:
+  - '10.8'
+- paper: P039
+  count: 1
+  locations:
+  - '10.8'
+- paper: P041
+  count: 1
+  locations:
+  - '10.8'
+- paper: P046
+  count: 1
+  locations:
+  - '10.8'
+- paper: P106
+  count: 1
+  locations:
+  - '10.8'
+- paper: P109
+  count: 1
+  locations:
+  - '10.8'
+- paper: P120
+  count: 2
+  locations:
+  - '10.8'
+  - '10.2'
+- paper: P139
+  count: 1
+  locations:
+  - '10.8'
+- paper: P140
+  count: 1
+  locations:
+  - '10.8'
+unsupported_claims: []
+missing_concepts:
+- paper: P001
+  concept: AI赋能微前端工程化的具体落地案例（如Prompt库沉淀、RPA流水线编排、智能路由预测模型训练、沙箱异常AI诊断分类器、遗留系统AI重构AST解析）
+  severity: high
+- paper: P002
+  concept: qiankun嵌套微前端的具体坑位与规避方案、微前端场景下的AI代码生成与智能路由分发实战细节
+  severity: high
+- paper: P003
+  concept: Module Federation在Vite/Rspack生态中的具体配置差异、联邦模块热更新的WebSocket实现细节、跨应用状态同步的AI感知路由算法
+  severity: high
+- paper: P004
+  concept: 微前端治理规范中的自动化门禁工具链选型（如micro-frontend-lint、promptfoo回归测试）、AI测试生成与监控告警的落地策略
+  severity: high
+- paper: P005
+  concept: 遗留系统微前端化改造中的AI代码理解、生命周期补全、依赖拓扑分析、增量迁移实操方法、灰度发布监控指标自动回滚机制
+  severity: high
