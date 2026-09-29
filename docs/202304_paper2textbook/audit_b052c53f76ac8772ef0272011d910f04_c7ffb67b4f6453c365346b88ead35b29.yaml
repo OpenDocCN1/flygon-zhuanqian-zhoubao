@@ -1,0 +1,154 @@
+citation_stats:
+- paper: P046
+  count: 48
+  locations:
+  - '13.1'
+  - '13.2'
+  - 13.3.1
+  - 13.3.2
+  - 13.3.4
+  - 13.3.5
+  - 13.3.6
+  - 13.4.1
+  - 13.4.2
+  - 13.4.3
+  - 13.4.4
+  - 13.4.5
+  - 13.5.1
+  - 13.5.2
+  - 13.5.3
+  - 13.5.4
+  - 13.6.1
+  - 13.6.2
+  - 13.6.3
+  - 13.6.4
+  - 13.6.5
+  - 13.6.6
+  - 13.7.1
+  - 13.7.2
+  - 13.7.3
+  - 13.7.4
+  - 13.7.5
+  - 13.7.6
+  - '13.8'
+  - '13.9'
+  - '13.10'
+  - '13.11'
+- paper: P000
+  count: 4
+  locations:
+  - '13.1'
+  - 13.3.6
+  - 13.5.4
+  - '13.11'
+unsupported_claims:
+- location: 13.3.1
+  claim: '"实现 window.onerror/unhandledrejection/Vue errorHandler/React ErrorBoundary
+    多层兜底、接入 Sentry/Fundebug 或自建平台解析 Source Map 还原源码堆栈。" ——《20230418_046.md》'
+  reason: 素材中未找到该引用文本，且素材为生财有术社群内容，非技术文档
+- location: 13.3.5
+  claim: 指纹生成规则、归一化处理关键点、滑动时间窗去重算法、双指纹机制、降级策略等具体实现细节
+  reason: 素材中无任何前端错误监控技术实现内容，全为赚钱社群分享
+- location: 13.3.6
+  claim: GPT辅助错误分析的Prompt模板、分块喂养策略、强制总结验证方法论
+  reason: 素材中虽有GPT提示词相关内容（如菜菜的6字真经、小凡的标题党训练），但无错误分析专用Prompt
+- location: 13.4.2
+  claim: PerformanceObserver轻量采集架构代码实现、buffered参数作用、try-catch降级策略
+  reason: 素材中无前端性能监控SDK技术实现内容
+- location: 13.4.3
+  claim: LCP/CLS/INP/Long Task采集细节、T-Digest流式近似算法原理、quantileTDigest在ClickHouse中的实现
+  reason: 素材中无Core Web Vitals技术采集细节
+- location: 13.4.4
+  claim: SPA软导航重置指标累积器代码、跨域资源Timing-Allow-Origin配置方案
+  reason: 素材中无SPA路由性能监控或跨域资源配置内容
+- location: 13.4.5
+  claim: GPT生成性能优化建议的Prompt模板、Long Task堆栈分析重构方案
+  reason: 素材中无性能优化GPT应用案例
+- location: 13.5.1
+  claim: 事件模型三要素定义、Object_Action命名规范、数据字典治理
+  reason: 素材中虽有埋点相关项目（如小红书引流、闲鱼卖衣），但无标准化事件模型定义
+- location: 13.5.2
+  claim: 代码埋点vs无痕埋点权衡矩阵、反面教训案例（日均5亿条存储成本暴涨）
+  reason: 素材中无埋点技术选型对比数据
+- location: 13.5.3
+  claim: rrweb会话回放集成代码、隐私合规配置、采样率控制策略
+  reason: 素材中无rrweb或会话回放技术内容
+- location: 13.5.4
+  claim: 二极管标题法正负面公式、GPT批量生成埋点文案Prompt
+  reason: 素材中有二极管标题法（小凡文章），但未关联埋点文案生成场景
+- location: 13.6.2
+  claim: W3C Trace Context标准Header格式、前端SDK拦截器注入逻辑、currentSpanId更新逻辑标准依据
+  reason: 素材中无分布式链路追踪技术实现内容
+- location: 13.6.3
+  claim: Span语义分层表（根Span/HTTP子Span/资源加载Span/长任务Span/RAG调用Span）
+  reason: 素材中无前端Span设计规范
+- location: 13.6.4
+  claim: 一致性采样/错误全采/业务关键路径全采策略、murmurhash3采样算法
+  reason: 素材中无链路采样策略技术细节
+- location: 13.6.5
+  claim: CORS配置透传traceparent、第三方SDK盲区补偿方案
+  reason: 素材中无跨域链路追踪配置内容
+- location: 13.6.6
+  claim: GPT智能关联分析Prompt、前端错误与后端链路自动关联JSON报告格式
+  reason: 素材中无GPT关联前后端链路分析案例
+- location: 13.7.2
+  claim: 四层架构详细组件（SDK/接收/存储/查询告警）、数据写入链路流程、无状态水平扩展/背压保护
+  reason: 素材中无可观测平台架构设计内容
+- location: 13.7.3
+  claim: ClickHouse宽表Schema、CODEC(ZSTD)/LOW_CARDINALITY工程决策、倒排索引/BloomFilter高基数标签策略、SummingMergeTree/AggregatingMergeTree物化视图原理
+  reason: 素材中无ClickHouse表设计或物化视图技术细节
+- location: 13.7.4
+  claim: P0/P1/P2分级告警触发条件/通知渠道/响应SLA、聚合抑制/关联抑制/发布窗口静默降噪机制
+  reason: 素材中无告警分级与降噪策略
+- location: 13.7.5
+  claim: 发布守护规则YAML、基线选取/统计显著性/CUSUM/EWMA算法、加权评分模型
+  reason: 素材中无发布守护自动化回滚技术方案
+- location: 13.7.6
+  claim: GPT自然语言配置告警规则Prompt、输出Alertmanager规则YAML、注解模板设计
+  reason: 素材中无GPT生成告警配置案例
+- location: '13.8'
+  claim: 派别A/B在错误采集粒度/指标采集/链路采样/存储选型/告警配置/GPT角色上的分歧对比表、细纲立场倾向派别B
+  reason: 素材中无可观测性技术流派之争内容
+- location: '13.9'
+  claim: 代码埋点vs无痕埋点决策矩阵加权评分、ClickHouse vs ES/TimescaleDB选型矩阵、OTel Collector vs 轻量网关决策矩阵
+  reason: 素材中无技术选型决策矩阵分析
+- location: '13.10'
+  claim: 6道动手练习题的完整技术要求、回答问题的标准答案
+  reason: 素材中无教学练习题设计内容
+- location: '13.11'
+  claim: 本章小结概念表（22个核心概念定义）、下一章跨端开发预告
+  reason: 素材中无该章节总结与预告
+missing_concepts:
+- paper: P046
+  concept: 前端可观测性三大支柱核心定义与协作关系
+  severity: high
+- paper: P046
+  concept: 全局错误捕获分层兜底体系与Source Map还原工程化落地
+  severity: high
+- paper: P046
+  concept: 基于Web Vitals与PerformanceObserver的性能监控SDK设计要点
+  severity: high
+- paper: P046
+  concept: 代码埋点与无痕埋点优劣势权衡、标准化事件模型与会话回放方案设计
+  severity: high
+- paper: P046
+  concept: 基于W3C Trace Context的前后端链路追踪透传与关联查询实现
+  severity: high
+- paper: P046
+  concept: 自研可观测平台四层架构选型、存储模型与分级告警策略
+  severity: high
+- paper: P046
+  concept: 发布守护、业务关联告警等工程化运维场景落地
+  severity: high
+- paper: P046
+  concept: GPT调教方法论在前端可观测性建设中的实战应用
+  severity: high
+- paper: P000
+  concept: 六字真经（背景、要求、角色）GPT高效对话框架
+  severity: medium
+- paper: P000
+  concept: 二极管标题法（正面/负面刺激公式）在标题创作中的应用
+  severity: medium
+- paper: P000
+  concept: 师生协作模型（分块喂养+强制总结+正向强化）GPT调教范式
+  severity: medium
