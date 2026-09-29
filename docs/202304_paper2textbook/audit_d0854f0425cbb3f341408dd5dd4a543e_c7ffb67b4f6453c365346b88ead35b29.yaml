@@ -1,0 +1,39 @@
+citation_stats:
+- paper: docs/202304/20230418_043.md
+  count: 7
+  locations:
+  - ch23.3
+  - ch23.4
+  - ch23.5
+  - ch23.6
+  - ch23.7
+  - ch23.3
+  - ch23.4
+- paper: docs/202304/20230418_044.md
+  count: 1
+  locations:
+  - ch23.4
+- paper: docs/202304/20230418_045.md
+  count: 1
+  locations:
+  - ch23.4
+unsupported_claims:
+- location: ch23.3
+  claim: 追踪 Declarative Shadow DOM (DSD) 服务端渲染支持、Form Associated Custom Elements 表单原生集成、CSS
+    Parts/Constructible Stylesheets 样式穿透方案
+  reason: 素材中未找到支撑
+- location: ch23.4
+  claim: 对比 Vue/React/Solid 响应式模型差异、信号自动依赖追踪无需编译时分析、在非 React/Vue 环境（Vanilla/Worker）复用响应式逻辑
+  reason: 素材中未找到支撑
+- location: ch23.5
+  claim: 解析 Qwik `useLexicalScope` 序列化闭包实现 Resumability、Astro 岛屿架构部分水合、Fresh Deno
+    原生边缘渲染、HTML First 理念回归
+  reason: 素材中未找到支撑
+- location: ch23.6
+  claim: 深入 RSC Payload 格式、Flight 协议、服务端组件直接访问后端资源、客户端组件交互边界、流式 SSR 与选择性水合、Server
+    Actions 变更数据
+  reason: 素材中未找到支撑
+- location: ch23.7
+  claim: 建立提案跟踪清单：Stage 3/4 进入生产可用时间线、Polyfill 成熟度、对前端工程化/框架设计/开发体验的潜在影响评估
+  reason: 素材中未找到支撑
+missing_concepts: []
