@@ -1,0 +1,150 @@
+learning_targets:
+- 理解 Web 性能指标体系（Core Web Vitals）的定义、采集原理与工程化达标基线
+- 掌握构建产物优化的核心手段：代码分割、Tree Shaking、压缩算法选型与体积预算治理
+- 熟练运用资源加载策略：预加载/预连接/预取、HTTP/2 多路复用、Service Worker 缓存策略
+- 掌握运行时渲染优化技巧：虚拟列表、防抖节流、Web Worker 卸载主线程、requestIdleCallback 调度
+- 具备搭建前端性能监控平台的全链路能力：SDK 埋点、数据上报、存储分析、可视化看板与告警体系
+concept_map:
+- 前端性能工程
+- ├── 核心指标体系
+- │   ├── LCP (Largest Contentful Paint)  —— P001
+- │   ├── CLS (Cumulative Layout Shift)   —— P001
+- │   ├── FID/INP (First Input Delay / Interaction to Next Paint)  —— P001
+- │   ├── TTFB (Time to First Byte)       —— P001
+- │   └── 采集原理：PerformanceObserver / Navigation Timing / Resource Timing API  —— P001
+- ├── 构建产物优化
+- │   ├── 代码分割策略：Entry/动态Import/分包缓存组  —— P002
+- │   ├── Tree Shaking 原理：sideEffects/usedExports/静态分析  —— P002
+- │   ├── 压缩算法：Terser/esbuild/SWC 对比与配置  —— P002
+- │   ├── 体积预算：rollup-plugin-visualizer + CI 门禁  —— P002
+- │   └── 产物分析：Source Map / Chunk Graph 可视化  —— P002
+- ├── 资源加载策略
+- │   ├── 资源提示：preload/prefetch/preconnect/modulepreload/dns-prefetch  —— P003
+- │   ├── HTTP/2 多路复用与优先级调度  —— P003
+- │   ├── Service Worker：Workbox 生成、Cache First/Stale While Revalidate/Network First
+  策略  —— P003
+- │   └── 离线首屏与版本更新广播  —— P003
+- ├── 运行时渲染优化
+- │   ├── 虚拟列表：窗口化/动态高度/滚动锚定  —— P004
+- │   ├── 防抖/节流：高频事件降频  —— P004
+- │   ├── Web Worker：计算密集型任务卸载 (加密/压缩/解析/布局)  —— P004
+- │   ├── 主线程调度：scheduler.yield() / requestIdleCallback / isInputPending  —— P004
+- │   └── 长任务拆解：Long Task API 监控与拆分  —— P004
+- └── 性能监控平台建设
+- '    ├── SDK 设计：轻量/无侵入/Beacon上报/错误边界  —— P005'
+- '    ├── 指标采集：Web Vitals / 资源瀑布 / 长任务 / 内存泄漏  —— P005'
+- '    ├── 数据管道：ClickHouse / Elasticsearch / Kafka  —— P005'
+- '    ├── 可视化：Grafana 看板 / 百分位分析 / 趋势对比  —— P005'
+- '    └── 告警体系：阈值/同比环比/钉钉飞书推送  —— P005'
+life_analogy:
+- 想象前端性能优化是一场**‘极速快递’物流体系建设**：
+- '- **Core Web Vitals** = **‘签收时效、包裹完好率、客服响应速度’三大核心 KPI**'
+- '- **构建产物优化** = **‘精简包装、拆分大件、压缩体积’，减少运输成本**'
+- '- **资源加载策略** = **‘预派单、就近仓储、智能路由’，让资源‘零等待’触达**'
+- '- **运行时渲染优化** = **‘分拣线自动化、大件上专用车道、高峰期限流分流’，保障主干道（主线程）畅通**'
+- '- **性能监控平台** = **‘全程 GPS 追踪、异常自动预警、复盘优化路线’，实现‘可看、可测、可优化’的闭环**'
+summary:
+- concept: LCP (Largest Contentful Paint)
+  desc: 最大内容绘制，衡量主内容加载速度，目标 < 2.5s
+- concept: CLS (Cumulative Layout Shift)
+  desc: 累积布局偏移，衡量视觉稳定性，目标 < 0.1
+- concept: INP (Interaction to Next Paint)
+  desc: 下一帧绘制交互延迟，衡量响应速度，取代 FID，目标 < 200ms
+- concept: Tree Shaking
+  desc: '基于 ES Module 静态分析，消除死代码，需配置 sideEffects: false'
+- concept: 代码分割
+  desc: 将打包产物拆分为多个 Chunk，按需/并行加载，减少首屏 JS 体积
+- concept: Resource Hints (preload/prefetch)
+  desc: 声明式告知浏览器资源优先级与未来需求，优化加载瀑布流
+- concept: Service Worker 缓存策略
+  desc: 离线化、版本控制、更新广播，实现二次访问毫秒级加载
+- concept: 虚拟列表
+  desc: 仅渲染可视区 DOM，支撑万级数据流畅滚动，核心是滚动位置到数据索引映射
+- concept: Web Worker 卸载主线程
+  desc: 将计算密集任务移出主线程，配合 SharedArrayBuffer/Transferable 实现零拷贝通信
+- concept: Scheduler.yield / requestIdleCallback
+  desc: 主动让出主线程控制权，拆解长任务，提升 INP 指标
+- concept: 前端性能监控平台
+  desc: SDK采集 -> Beacon上报 -> ClickHouse存储 -> Grafana可视化 -> 告警通知 的全链路工程体系
+exercises:
+- 'no': 1
+  title: Web Vitals 指标手算与诊断
+  contents:
+  - 给定以下 PerformanceNavigationTiming 与 PerformancePaintTiming 数据（单位 ms）：
+  - '```'
+  - 'navigationStart: 0'
+  - 'domContentLoadedEventEnd: 1200'
+  - 'loadEventEnd: 1800'
+  - 'first-paint: 800'
+  - 'first-contentful-paint: 950'
+  - 'largest-contentful-paint: 2200 (元素: <img src=''hero.jpg''>)'
+  - 'layout-shifts: [ {value: 0.05, hadRecentInput: false}, {value: 0.08, hadRecentInput:
+    true}, {value: 0.12, hadRecentInput: false} ]'
+  - 'first-input: { processingStart: 3100, startTime: 3000 }'
+  - '```'
+  - 问题：
+  - 1. 计算 LCP、CLS、FID 数值，判断是否达标（LCP<2.5s, CLS<0.1, FID<100ms）。
+  - '2. 为什么第二次布局偏移 (hadRecentInput: true) 不计入 CLS？'
+  - 3. 如果 LCP 元素是一张图片，优化方向有哪三个维度？
+- 'no': 2
+  title: Vite/Rollup 产物分析与体积预算实战
+  contents:
+  - 在一个 Vue 3 + Vite 项目中执行：
+  - 1. 安装 `rollup-plugin-visualizer` 并在 `vite.config.ts` 中配置生成 `stats.html`。
+  - 2. 运行 `npm run build`，打开报告分析：
+  - '   - 找出体积最大的 3 个 Chunk 及其所属依赖。'
+  - '   - 检查是否有重复打包的依赖（如 lodash 同时出现在 vendor 和业务 chunk）。'
+  - '   - 识别未被 Tree Shaking 摇掉的副作用模块（提示：观察 `sideEffects` 标记）。'
+  - 3. 修改配置：
+  - '   - 针对大体积依赖配置 `manualChunks` 单独拆包。'
+  - '   - 在 `package.json` 添加 `"sideEffects": false`（确认无副作用后）。'
+  - '   - 配置 `build.chunkSizeWarningLimit` 设置预算阈值。'
+  - 4. 再次构建对比：Chunk 数量、最大 Chunk 体积、Gzip 后总体积变化。
+  - '思考题：为什么有时开启 `sideEffects: false` 反而导致样式丢失或逻辑异常？如何规避？'
+- 'no': 3
+  title: 虚拟列表核心算法实现
+  contents:
+  - 不使用现成库，从零实现一个支持**动态行高**的虚拟列表组件 `VirtualList`：
+  - 'Props:'
+  - '- `items: Array<{id, height}>` // 每项高度已知或预估'
+  - '- `containerHeight: number` // 可视区高度'
+  - '- `overscan: number` // 缓冲区项数'
+  - 要求：
+  - 1. 维护 `startIndex`、`endIndex` 计算逻辑：基于 `scrollTop` 二分查找前缀和数组定位。
+  - 2. 实现 `getTotalHeight()` 计算滚动条总高度（占位容器）。
+  - '3. 渲染区域：绝对定位 `transform: translateY(offset)` 仅挂载可见项 + overscan。'
+  - 4. 监听滚动事件，节流更新索引范围。
+  - 5. **进阶**：当 `items` 更新（增删改）时，如何高效维护前缀和数组？（提示：分块/树状数组/Fenwick Tree）。
+  - 验收：在 10 万条数据、随机高度 50-200px 下，滚动帧率保持 60fps，内存占用 < 50MB。
+- 'no': 4
+  title: Web Worker 卸载主线程：CSV 解析基准测试
+  contents:
+  - 场景：前端需解析 5MB、10 万行 CSV 并渲染表格。
+  - 任务：
+  - 1. **主线程版**：使用 `PapaParse` 同步解析，记录 `performance.now()` 耗时、主线程阻塞时长（Long Task 数量）、UI
+    是否卡顿。
+  - 2. **Worker 版**：将解析逻辑移入 Web Worker，通过 `postMessage(file.slice)` 分片传输或 `FileReader`
+    读取后传递，解析完成回传结果。
+  - 3. **零拷贝优化版**：利用 `File.slice()` + `FileReader.readAsArrayBuffer()` -> `postMessage(buffer,
+    [buffer])` 实现 Transferable Objects 所有权转移。
+  - 对比指标：
+  - '- 总耗时、主线程阻塞时长、Long Task 计数、内存峰值、Worker 通信开销。'
+  - 思考题：
+  - '- 什么场景下 Worker 通信开销会抵消计算收益？'
+  - '- 如何在 Worker 中使用 `CompressionStream` / `DecompressionStream` 做流式压缩？'
+- 'no': 5
+  title: 搭建最小化性能监控 SDK 与上报管道
+  contents:
+  - 目标：实现一个 < 2KB gzip 的 `perf-sdk`，采集 LCP/CLS/INP/FID/TTFB 并通过 `navigator.sendBeacon`
+    上报。
+  - 步骤：
+  - 1. 使用 `PerformanceObserver` 监听 `largest-contentful-paint`、`layout-shift`、`first-input`、`event`
+    (INP)、`navigation` 条目。
+  - 2. 处理 CLS 累积逻辑：会话窗口 1s、间隔 5s 截止，忽略 hadRecentInput。
+  - 3. INP 计算：维护交互延迟最大值（排除异常值），页面卸载时上报最终值。
+  - 4. 上报端点：`/api/perf` 接收 JSON，存入 ClickHouse（本地可用 Docker 起实例）。
+  - 5. Grafana 建表：
+  - '   - 表 `web_vitals` (project, page, metric, value, p75, p95, timestamp)'
+  - '   - 仪表盘：LCP/CLS/INP 趋势图、分位数热力图、Top 慢页面榜单。'
+  - 6. 配置告警：连续 5 分钟 p75 LCP > 2.5s 触发钉钉/飞书机器人通知。
+  - 扩展：如何关联 `trace-id` 实现前后端链路打通？如何采集 JS 错误堆栈并关联 Source Map 还原？
