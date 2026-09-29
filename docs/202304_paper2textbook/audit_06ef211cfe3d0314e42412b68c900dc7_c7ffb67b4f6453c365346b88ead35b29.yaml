@@ -1,0 +1,138 @@
+citation_stats:
+- paper: 20230418_088.md
+  count: 1
+  locations:
+  - 4.3.1
+- paper: 20230418_089.md
+  count: 1
+  locations:
+  - 4.3.4
+- paper: 20230418_090.md
+  count: 3
+  locations:
+  - 4.4.1
+  - 4.4.2
+  - 4.4.3
+- paper: 20230418_091.md
+  count: 2
+  locations:
+  - 4.4.3
+  - 4.4.5
+- paper: 20230418_092.md
+  count: 4
+  locations:
+  - 4.5.1
+  - 4.5.2
+  - 4.5.3
+  - 4.5.5
+- paper: 20230418_093.md
+  count: 2
+  locations:
+  - 4.5.2
+  - 4.5.4
+- paper: 20230418_094.md
+  count: 5
+  locations:
+  - 4.6.1
+  - 4.6.2
+  - 4.6.3
+  - 4.6.4
+  - 4.6.5
+- paper: 20230418_111.md
+  count: 2
+  locations:
+  - 4.6.1
+  - 4.6.2
+unsupported_claims:
+- location: 4.3.1
+  claim: 图像被编码器（如CLIP ViT）压缩为一段向量序列（Image Tokens）
+  reason: 素材中未找到关于CLIP ViT或图像Token序列生成过程的技术细节描述
+- location: 4.3.2
+  claim: 公式中定义的区域引用标记格式（如<box><x1><y1><x2><y2></box>或<point><x><y></point>）
+  reason: 素材中未提及具体的区域引用标记XML格式规范
+- location: 4.3.3
+  claim: 视觉思维链包含观察→分析→推理→结论四个显性阶段
+  reason: 素材中仅提到'视觉思维链'概念，未展开四阶段结构细节
+- location: 4.3.4
+  claim: 密集文本OCR短板、多图顺序混淆、思维链幻觉风险三大边界
+  reason: 素材中未提及VLM的具体局限性分类
+- location: 4.4.1
+  claim: 注意力机制计算是Softmax归一化，每增加无关Token关键Token注意力概率下降
+  reason: 素材中未涉及注意力机制数学原理解释
+- location: 4.4.2
+  claim: 分层记忆架构公式中的四个分量及其Token预算分配比例（30-40%、20-30%等）
+  reason: 素材中未提供具体的Token预算分配工程参数
+- location: 4.4.3
+  claim: 双通道压缩：通道A语义摘要+通道B实体抽取的具体工程实现
+  reason: 素材中仅提到'摘要压缩+实体抽取'概念，未展开双通道架构细节
+- location: 4.4.4
+  claim: 客服机器人和编程助手两个场景的具体Token预算分配数值
+  reason: 素材中未提供具体场景配置参数
+- location: 4.4.5
+  claim: 外部结构化状态存储必要性、摘要幻觉污染风险、隐式语言切换线索丢失三大边界风险
+  reason: 素材中未系统总结上下文工程的三大边界条件
+- location: 4.5.1
+  claim: Planning输出格式通常为JSON/DAG/步骤列表，包含subtask_id, description, tool, args, dependency,
+    expected_output字段
+  reason: 素材中未定义Planning的具体输出数据结构
+- location: 4.5.2
+  claim: ReAct/Plan-and-Solve/Reflexion三大范式的详细对比表（Token开销、鲁棒性、工程落地难点等维度）
+  reason: 素材中仅提到三大范式名称，未提供系统性对比分析
+- location: 4.5.3
+  claim: 规划粒度对齐工具接口粒度、基座模型推理上限依赖、早期决策错误放大三大关键性质
+  reason: 素材中未提炼代理规划的工程关键约束
+- location: 4.5.4
+  claim: 代码生成全流程Agent架构包含Planner/Executor/Tools/Reflector/Replan/Human-in-the-loop组件
+  reason: 素材中仅提到'AutoGPT式调研分解'和'代码生成全流程Agent'，未给出架构细节
+- location: 4.6.1
+  claim: U型注意力曲线定量表征公式：前15%和后15%位置注意力高，中间30%-70%注意力低
+  reason: 素材中仅定性描述'首尾高、中间低'，未给出具体位置阈值数学公式
+- location: 4.6.2
+  claim: 四大注意力引导策略：关键信息前置/后置、结构化标记、分块摘要/Map-Reduce、检索重排序的具体实施模版和代价分析
+  reason: 素材中仅列举策略名称，未提供工程化实施细节
+- location: 4.6.3
+  claim: 合同审查案例：规则/小模型快速扫描定位高风险关键词，提取条款块构建风险清单注入首部的完整流程
+  reason: 素材中未包含合同审查具体实践案例
+- location: 4.6.4
+  claim: 三大硬性边界：超越实际注意力跨度失效、过度引导指令消耗Token、多跳推理需显式引用溯源
+  reason: 素材中未系统总结长上下文策略的失效边界
+- location: 4.7.1
+  claim: 视觉思维链存在'感知驱动vs任务驱动'两种分歧视角
+  reason: 素材中仅引用P001作为V-CoT来源，未呈现内部观点分歧
+- location: 4.7.2
+  claim: 代理规划范式存在'Plan-and-Solve主干+ReAct执行+Reflexion进化'的工程共识架构
+  reason: 素材中未整合出统一的分层规划器架构方案
+- location: 4.7.3
+  claim: 上下文压缩与检索融合的'双通道并行+查询分类器路由'工程方案
+  reason: 素材中仅对比两篇素材观点，未给出融合落地方案
+- location: 4.7.4
+  claim: Map-Reduce跨块关联丢失的两种改进路径：重叠分块+全局索引 vs 两阶段检索(Iterative Retrieval)
+  reason: 素材中未对比这两种具体技术路线
+- location: '4.8'
+  claim: 七个问答涵盖无限上下文模型替代性、V-CoT成本收益、ReAct循环检测、Map-Reduce改进、摘要幻觉对策、小模型SOP外置化、结构化标记效率、迭代检索优势等工程决策细节
+  reason: 素材中完全没有这些具体的工程权衡讨论内容
+missing_concepts:
+- paper: 20230418_088.md
+  concept: 视觉语言模型提示的独特组件（图像Token序列、区域引用标记、跨模态交互标记）
+  severity: high
+- paper: 20230418_089.md
+  concept: 视觉思维链策略、典型任务模式（图表问答/视觉定位/多图对比）、边界与局限
+  severity: high
+- paper: 20230418_090.md
+  concept: 多轮对话核心挑战（窗口溢出/关键信息稀释/一致性漂移）、分层记忆架构、压缩检索策略、典型落地场景
+  severity: high
+- paper: 20230418_091.md
+  concept: 状态压缩技术（对话摘要/关键实体抽取/滑动窗口/语义检索融合）
+  severity: high
+- paper: 20230418_092.md
+  concept: LLM代理核心定义（Planning/Task Decomposition/Self-Reflection）、主流范式对比（ReAct/Plan-and-Solve/Reflexion）
+  severity: high
+- paper: 20230418_093.md
+  concept: 代理规划关键性质（规划粒度权衡/基座模型依赖/早期决策放大）、典型应用（AutoGPT/代码生成Agent）
+  severity: high
+- paper: 20230418_094.md
+  concept: 失落中间现象（U型注意力曲线/关键证据位于中间易被忽略）、注意力引导策略、典型实践、边界条件
+  severity: high
+- paper: 20230418_111.md
+  concept: 长上下文处理策略演进、注意力引导技术细节（指令强制聚焦/结构化标记/检索重排序/分层摘要）
+  severity: high
