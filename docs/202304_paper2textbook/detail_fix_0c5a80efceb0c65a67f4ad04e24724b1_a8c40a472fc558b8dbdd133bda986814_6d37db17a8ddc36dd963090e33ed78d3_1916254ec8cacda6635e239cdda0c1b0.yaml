@@ -1,0 +1,350 @@
+learning_targets:
+- 掌握 Vue Router 4 中嵌套路由、命名视图与路由元信息的配置模式，实现复杂页面布局的声明式治理
+- 理解导航守卫的完整执行时序与 `next()` 控制流语义，能正确实现鉴权拦截、数据预取、离开确认等横切逻辑
+- 掌握基于后端下发路由树的动态路由注册技术，实现权限驱动的菜单联动与刷新状态持久化
+- 能运用路由懒加载、预加载、滚动恢复与过渡动画等工程手段，优化首屏性能与页面切换体验
+- 理解微前端架构下主子应用路由隔离、基础路径代理、守卫协作与共享依赖的治理契约
+concept_map:
+- Vue Router 4 与路由治理
+- ├── 路由配置进阶
+- │   ├── 嵌套路由 —— P001
+- │   ├── 命名视图 —— P001
+- │   ├── 路由元信息 —— P001
+- │   └── 类型化 RouteRecordRaw —— P001
+- ├── 导航守卫体系
+- │   ├── 全局前置/解析/后置守卫 —— P002
+- │   ├── 路由独享守卫 —— P002
+- │   ├── 组件内守卫 —— P002
+- │   ├── 执行顺序与 next() 控制流 —— P002
+- │   └── 异步阻塞与错误处理 —— P002
+- ├── 动态路由与权限模型
+- │   ├── router.addRoute/removeRoute/hasRoute —— P003
+- │   ├── 后端路由树递归筛选与注册 —— P003
+- │   ├── 菜单联动生成 —— P003
+- │   ├── 403/401 降级策略 —— P003
+- │   └── 刷新保持状态 —— P003
+- ├── 性能与体验优化
+- │   ├── 路由懒加载与 Chunk 命名 —— P004
+- │   ├── router.prefetchRoutes 预加载 —— P004
+- │   ├── scrollBehavior 滚动恢复 —— P004
+- │   └── Transition 过渡动画 —— P004
+- └── 微前端路由隔离
+- '    ├── 基础路径隔离与 activeRule —— P005'
+- '    ├── 路由模式统一与前缀剥离 —— P005'
+- '    ├── 基座路由分发与子应用生命周期 —— P005'
+- '    ├── 跨应用导航守卫协作 —— P005'
+- '    └── 共享依赖与沙箱隔离 —— P005'
+life_analogy:
+- 想象 **Vue Router 是一座智能商场的“导航中枢”**：
+- '- **路由配置** = 商场的**分层导视图**：嵌套路由是“楼层-区域-柜台”的层级结构；命名视图是“大厅同时显示导视屏、广告屏、应急广播”多通道并行；路由元信息是每个区域贴的“仅限会员/需穿无尘服/免税区”业务标签。'
+- '- **导航守卫** = **安检与引导员体系**：全局前置守卫是“主入口安检(登录态)”；路由独享守卫是“VIP 区专属验证”；组件内守卫是“试衣间进出确认(未保存草稿)”；`next()`
+  是“放行/拦截/改道/报警”四种指令。'
+- '- **动态路由** = **每日动态调整的‘柜台租赁表’**：后端下发最新‘租赁合同’(路由树) -> 运营部 `addRoute` 贴最新导视 -> 同步更新手机
+  APP 菜单 -> 顾客刷新手机地图不迷路。'
+- '- **性能优化** = **‘按需补货’与‘预判备货’**：懒加载是“顾客去哪层才把该层货品摆上架”；预加载是“大数据预测顾客大概率去 3 楼，提前把货运到楼道口”；滚动恢复是“顾客从
+  3 楼下来再上去，自动站在原货架前”。'
+- '- **微前端路由** = **‘商场中入驻独立品牌专柜’**：主应用是商场主通道，子应用是‘苹果/耐克/优衣库’自带装修风格的专柜；`base` 是专柜专属入口前缀；基座分发是‘总导视根据品牌名把顾客领进对应专柜’；沙箱隔离保证‘专柜装修拆除不影响商场主体’。'
+summary:
+- concept: 嵌套路由
+  desc: 通过 children 数组实现 UI 层级组合，父路由渲染 RouterView 作为出口
+- concept: 命名视图
+  desc: 单路由配置多 components 对应多个 router-view，实现同级多视图并行渲染
+- concept: 路由元信息
+  desc: meta 字段携带权限、标题、缓存等业务数据，配合模块扩展实现类型安全
+- concept: 导航守卫执行顺序
+  desc: 全局 beforeEach → 路由独享 beforeEnter → 组件 beforeRouteEnter → 全局 beforeResolve
+    → 组件 beforeRouteUpdate/Leave → 全局 afterEach
+- concept: next() 控制流
+  desc: next() 放行、next(false) 中断并重置 URL、next('/path') 重定向、next(error) 终止传递错误
+- concept: 动态路由注册
+  desc: router.addRoute 运行时注入路由记录，配合后端下发路由树实现权限驱动菜单
+- concept: 刷新保持状态
+  desc: 本地缓存后端路由树，应用初始化同步注册，避免白屏等待接口
+- concept: 路由懒加载
+  desc: 动态 import 语法触发代码分割，按需加载减小首屏包体
+- concept: 预加载策略
+  desc: router.prefetchRoutes 在空闲期预取高概率路由 Chunk，隐藏切换延迟
+- concept: 滚动恢复
+  desc: scrollBehavior 接管浏览器滚动行为，列表页返回保持位置、详情页回顶部
+- concept: 微前端路由隔离
+  desc: 子应用设置 base 前缀，基座按 activeRule 分发，沙箱隔离保证卸载无残留
+exercises:
+- 'no': 1
+  title: 设计一套后台管理路由配置
+  contents:
+  - 场景：后台管理系统包含登录页、带侧边栏/顶栏的布局页、仪表盘、用户管理(列表/详情)、权限管理、403/404 页面。
+  - 任务：
+  - 1. 定义路由记录数组，使用嵌套路由表达布局与内容关系
+  - '2. 为用户管理详情页配置动态路由参数 `:id`，并在 meta 中标记 `requiresAuth: true`、`roles: [''admin'',
+    ''user'']`'
+  - 3. 利用 TypeScript 模块扩展 `RouteMeta` 接口，实现 `route.meta.roles` 的类型提示
+  - '4. 为权限管理页面配置懒加载，并指定 `webpackChunkName: ''permission''`'
+  - 思考题：
+  - '- 为什么建议将登录页置于根路由而非布局路由的 children 中？'
+  - '- 嵌套路由超过 4 层会带来哪些维护与性能隐患？'
+- 'no': 2
+  title: 实现一套完整的登录鉴权守卫逻辑
+  contents:
+  - 场景：应用需实现‘未登录访问受保护页重定向登录并携带 redirect’、‘登录后自动跳回原目标页’、‘表单脏数据离开二次确认’、‘页面标题自动更新’。
+  - 任务：
+  - 1. 在 `router.beforeEach` 中实现登录态检查与重定向逻辑，注意避免重定向循环
+  - 2. 在用户编辑页组件中实现 `beforeRouteLeave`，当 `form.dirty === true` 时弹窗确认
+  - 3. 在 `router.afterEach` 中根据 `to.meta.title` 设置 `document.title`
+  - 4. 编写单元测试用例覆盖：未登录访问受保护页、登录访问登录页、表单脏数据确认离开/取消离开
+  - 思考题：
+  - '- `beforeRouteEnter` 中为何无法访问 `this`？如何在导航确认后访问组件实例？'
+  - '- 守卫内部发起异步请求(如 `await api.checkPerm()`)时，导航管线处于何种状态？若请求失败应如何处理？'
+- 'no': 3
+  title: 动态路由注册与菜单联动模拟
+  contents:
+  - 场景：模拟后端返回以下路由树数据(已简化)：
+  - '```json'
+  - '['
+  - '  { "path": "/dashboard", "meta": { "title": "仪表盘", "roles": ["admin", "user"]
+    } },'
+  - '  { "path": "/admin", "meta": { "title": "管理", "roles": ["admin"] }, "children":
+    ['
+  - '    { "path": "user", "meta": { "title": "用户管理", "roles": ["admin"] } }'
+  - '  ] }'
+  - ']'
+  - '```'
+  - 当前用户角色为 `user`。
+  - 任务：
+  - 1. 编写 `filterRoutes(routes, userRoles)` 递归筛选函数，仅保留用户拥有权限的路由(注意：父节点无权限则子节点全不可见)
+  - 2. 将筛选后的路由通过 `router.addRoute('layout', route)` 动态注册到名为 'layout' 的父路由下
+  - 3. 基于筛选后的路由树生成侧边菜单数据结构(包含 path、title、children)
+  - 4. 实现登出时调用 `router.removeRoute` 清理动态路由
+  - 思考题：
+  - '- 动态路由注册是异步的，若用户在注册完成前手动跳转目标路由，会发生什么？如何在守卫中 `await` 等待注册就绪？'
+  - '- 后端下发路由的 `component` 字段为字符串路径(如 `''@/views/Admin/User.vue''`)，如何在 Vite 环境下安全地转为动态导入函数？'
+- 'no': 4
+  title: 微前端子应用路由隔离排查
+  contents:
+  - '场景：主应用(qiankun 基座)挂载子应用 `sub-app` (Vue 3 + Vue Router 4)，子应用 `base: ''/sub-app/''`。现象：'
+  - 1. 子应用内 `router.push('/detail')` 后，地址栏变为 `/sub-app/detail`，但刷新页面 404
+  - 2. 子应用内点击“返回主应用首页”按钮，执行 `router.push('/')`，地址栏变为 `/sub-app/` 而非 `/`
+  - 3. 主应用与子应用均引入 `vue-router@4`，但版本不一致(主 4.2、子 4.0)，控制台报错 `router.match is not a
+    function`。
+  - 任务：
+  - 1. 分析现象 1 原因，给出 Nginx 配置修正方案
+  - 2. 分析现象 2 原因，给出子应用跳转主应用页面的正确代码写法
+  - 3. 分析现象 3 原因，说明微前端共享依赖的最佳实践策略
+  - 思考题：
+  - '- 子应用卸载时，若其在 `beforeRouteLeave` 守卫中启动了定时器且未清理，qiankun 的 snapshot/proxy 沙箱能否自动回收？为什么？'
+  - '- 若子应用内部再嵌套一层微前端(三级)，`base` 与 `publicPath` 需如何层层透传？'
+units:
+- 'no': 1
+  name: 路由配置进阶 —— 声明式路由地图的分层与类型化治理
+  points:
+  - '**为什么需要这个概念？**'
+  - '- 单页应用(SPA)随业务增长，路由数量爆炸，扁平配置难以维护、权限混乱、类型不安全'
+  - '- 需要一种结构化方式表达“页面嵌套”、“多视图复用”、“路由元信息携带业务属性(权限/标题/缓存)”'
+  - '- 传统字符串路由跳转易出错，重构时无编译期保护，迫切需要 TypeScript 级别的类型安全'
+  - '**核心定义**'
+  - '- 嵌套路由：通过 `children` 数组实现 UI 组合的层级映射，父路由渲染 `RouterView` 作为出口，子路由在其中渲染'
+  - '- 命名视图：单一路由配置 `components: { default: Foo, sidebar: Bar }` 对应模板中多个 `<router-view
+    name="sidebar"/>`，实现同级多视图并行渲染'
+  - '- 路由元信息：`meta` 字段携带任意业务数据(如 `requiresAuth: true`, `roles: [''admin'']`, `keepAlive:
+    true`)，供导航守卫与布局组件消费'
+  - '- 类型化 RouteRecordRaw：利用 TypeScript 模块扩展 `declare module ''vue-router'' { interface
+    RouteMeta { ... } }` 实现 `route.meta.xxx` 的智能提示与编译期检查'
+  - '**关键性质**'
+  - '- 路由匹配优先级：静态路径 > 动态路径参数(`:id`) > 通配符(`*`)，子路由匹配前提是父路由已匹配'
+  - '- 惰性加载边界：`component: () => import(''./View.vue'')` 自动形成代码分割点，构建产物生成独立 JS Chunk'
+  - '- 类型系统约束：`RouteRecordRaw` 强制 `path`、`name`、`component` 三要素，`meta` 需配合模块扩展生效'
+  - '**典型例子**'
+  - '- 后台管理经典布局：`/app`(Layout) -> `children: [ {path:''dashboard'', meta:{title:''仪表盘''}},
+    {path:''user/:id'', component:()=>import(''@/views/UserDetail''), meta:{requiresAuth:true}}
+    ]`'
+  - '- 多标签页复用：同一路由下 `components: { header: HeaderNav, main: ContentArea, footer: AdsBanner
+    }` 实现区域独立更新'
+  - '**边界条件**'
+  - '- 嵌套路由过深(>4层)会导致 `RouterView` 嵌套过深、Props 透传困难、调试栈溢出风险'
+  - '- 命名视图与 `keep-alive` 结合时，`include` 需精确匹配组件 `name` 选项，否则缓存失效'
+  - '- 动态路由参数变化(如 `/user/1` -> `/user/2`) 组件实例默认复用，需通过 `beforeRouteUpdate` 或 `watch(()
+    => route.params)` 响应'
+  - '**素材溯源**'
+  - '- paper: 20230418_038.md, page: 路由配置进阶章节, role: origin'
+  - '**原始摘录**'
+  - '- 详解 `children` 嵌套渲染机制、`components` 多视图复用、`meta` 携带权限/标题/缓存策略等配置模式。'
+  - '- 对比 `import()` 与 `webpackChunkName`、利用 `router.prefetchRoutes()` 提前获取、配合 `<Transition>`
+    实现页面切换动效。'
+  sources:
+  - paper: 20230418_038.md
+    role: origin
+  excerpts:
+  - 详解 `children` 嵌套渲染机制、`components` 多视图复用、`meta` 携带权限/标题/缓存策略等配置模式。
+  - 对比 `import()` 与 `webpackChunkName`、利用 `router.prefetchRoutes()` 提前获取、配合 `<Transition>`
+    实现页面切换动效。
+- 'no': 2
+  name: 导航守卫体系 —— 状态机视角下的路由切换控制流
+  points:
+  - '**为什么需要这个概念？**'
+  - '- 路由切换本质是有限状态机迁移，必须在“离开前”、“进入前”、“更新中”注入横切逻辑(鉴权、数据预取、埋点、确认离开)'
+  - '- 缺乏统一控制流会导致：权限校验散落业务代码、重复请求、页面闪烁、脏数据残留'
+  - '- 需要标准化的、可组合的、支持异步阻塞的拦截机制'
+  - '**核心定义**'
+  - '- 全局前置守卫：`router.beforeEach((to, from, next) => { ... })`，应用级横切关注点(登录态、全局 Loading)'
+  - '- 全局解析守卫：`router.beforeResolve`，在 `beforeRouteEnter` 之后、导航确认前，适合数据预取、权限细粒度校验'
+  - '- 全局后置钩子：`router.afterEach((to, from) => { ... })`，无 `next`，不可阻塞，用于埋点、标题更新、关闭
+    Loading'
+  - '- 路由独享守卫：路由配置 `beforeEnter: (to, from, next) => {}`，针对单一路由的准入控制'
+  - '- 组件内守卫：`beforeRouteEnter`(组件实例未创建，通过 `next(vm=>...)` 访问)、`beforeRouteUpdate`(复用组件时参数变化)、`beforeRouteLeave`(离开前确认/保存草稿)'
+  - '**关键性质**'
+  - '- 执行顺序确定性：全局 `beforeEach` -> 路由独享 `beforeEnter` -> 组件 `beforeRouteEnter` -> 全局
+    `beforeResolve` -> 组件 `beforeRouteUpdate/Leave` -> 全局 `afterEach`'
+  - '- `next()` 控制流语义：`next()` 放行、`next(false)` 中断并重置 URL、`next(''/path'')` 重定向、`next(error)`
+    终止并传递错误给 `router.onError()`'
+  - '- 导航守卫内部异步操作(如 `await api.checkPerm()`)会暂停导航管线，直到 `next()` 被调用'
+  - '**典型例子**'
+  - '- 登录拦截：`beforeEach` 判断 `to.meta.requiresAuth && !store.token` -> `next(''/login?redirect=''
+    + to.fullPath)`'
+  - '- 表单离开确认：`beforeRouteLeave` 中 `if (form.dirty) next(confirm(''未保存确定离开?'')) else
+    next()`'
+  - '- 面包屑/文档标题更新：`afterEach` 中 `document.title = to.meta.title || ''Default''`'
+  - '**边界条件**'
+  - '- `beforeRouteEnter` 中无法访问 `this`，必须使用 `next(vm => { vm.xxx })` 回调获取实例'
+  - '- 守卫内抛出未捕获 Promise Rejection 会导致导航静默卡死，必须 `try/catch` 并 `next(false)` 或 `next(error)`'
+  - '- 重定向循环：A `next(''/b'')` -> B `next(''/a'')` 触发 `NavigationDuplicated` 或无限循环，需设置访问标记防重'
+  - '- `next()` 在同一守卫中多次调用仅首次生效，后续调用被忽略且控制台警告'
+  - '**素材溯源**'
+  - '- paper: 20230418_038.md, page: 导航守卫体系章节, role: origin'
+  - '**原始摘录**'
+  - '- 梳理 `beforeEach` → `beforeRouteEnter` → `beforeRouteUpdate` → `beforeLeave`
+    完整生命周期，掌握 `next(false)`/`next(''/login'')` 控制流。'
+  sources:
+  - paper: 20230418_038.md
+    role: origin
+  excerpts:
+  - 梳理 `beforeEach` → `beforeRouteEnter` → `beforeRouteUpdate` → `beforeLeave` 完整生命周期，掌握
+    `next(false)`/`next('/login')` 控制流。
+- 'no': 3
+  name: 动态路由与权限模型 —— 运行时路由表的数据驱动构建
+  points:
+  - '**为什么需要这个概念？**'
+  - '- 静态路由表无法满足“按权限渲染菜单”、“不同角色看到不同页面”、“运行时从后端下发路由策略”的需求'
+  - '- 前端硬编码路由导致：权限变更需重新发版、菜单与路由不同步、403/401 处理分散'
+  - '- 需要一种“后端返回路由树 -> 前端动态注册 -> 菜单联动 -> 刷新保持”的完整工程方案'
+  - '**核心定义**'
+  - '- 动态路由注册：`router.addRoute(parentName, routeConfig)` 在运行时向路由器注入新路由记录，支持嵌套、懒加载、命名视图'
+  - '- 权限模型映射：后端返回 `[{ path: ''/admin'', meta: { roles: [''admin''] }, children: [...]
+    }]`，前端递归筛选 `user.roles.some(r => route.meta.roles?.includes(r))`'
+  - '- 菜单联动生成：同一路由树数据源，经 `filterRoutes` 筛选后，同时驱动 `router.addRoute` 与 `SidebarMenu`
+    组件递归渲染'
+  - '- 403/401 降级策略：匹配不到路由 -> `router.addRoute({ path: ''/:pathMatch(.*)*'', redirect:
+    ''/404'' })` 或导航守卫拦截跳转 `/403`'
+  - '- 刷新保持状态：利用 `localStorage`/`sessionStorage` 缓存后端路由树，应用初始化时 `store.commit(''SET_ROUTES'',
+    cachedRoutes)` 同步注册，避免白屏等待接口'
+  - '**关键性质**'
+  - '- `router.addRoute` 是幂等追加，同名路由会被覆盖(后注册生效)，适合热更新场景'
+  - '- `router.removeRoute(name)` 支持注销，配合登出清理动态权限路由'
+  - '- `router.hasRoute(name)` 可用于守卫中预判目标路由是否已注册，决定是否放行或等待注册完成'
+  - '- 动态路由注册是异步非阻塞的，导航触发时若路由未就绪，需在守卫中 `await waitUntilRoutesReady()`'
+  - '**典型例子**'
+  - '- RBAC 后台管理：登录成功 -> `fetchUserRoutes()` -> `routes.forEach(r => router.addRoute(''layout'',
+    r))` -> `router.push(redirectPath)`'
+  - '- 租户隔离：不同租户下发差异化路由表，核心业务路由静态注册，扩展业务动态下发'
+  - '**边界条件**'
+  - '- 动态路由注册必须在 `router.isReady()` 之前或导航守卫内完成，否则首屏导航可能匹配失败落入 404'
+  - '- 菜单数据与路由数据耦合度高，后端接口变更易导致前端双端报错，建议定义共享 TS Interface 并通过 OpenAPI 生成'
+  - '- 懒加载动态路由：`component: () => import(/* webpackChunkName: "admin" */ `@/views/${route.component}`)`
+    需确保构建工具支持动态导入变量路径(或使用 Vite `import.meta.glob`)'
+  - '- 循环引用路由树(父引用子、子引用父)会导致 JSON 序列化爆栈，传输层需扁平化或使用 `flatted` 库'
+  - '**素材溯源**'
+  - '- paper: 20230418_038.md, page: 动态路由与权限模型章节, role: origin'
+  - '**原始摘录**'
+  - '- 展示后端返回路由树 → `router.addRoute` 动态注册 → 递归生成侧边菜单 → 刷新保持状态的完整方案。'
+  sources:
+  - paper: 20230418_038.md
+    role: origin
+  excerpts:
+  - 展示后端返回路由树 → `router.addRoute` 动态注册 → 递归生成侧边菜单 → 刷新保持状态的完整方案。
+- 'no': 4
+  name: 性能与体验优化 —— 懒加载、预加载与视觉连续性的工程权衡
+  points:
+  - '**为什么需要这个概念？**'
+  - '- 首屏加载所有路由 JS 导致白屏时间过长(FCP/LCP 恶化)，用户流失率上升'
+  - '- 路由切换时现场下载 Chunk 造成“白屏等待 -> 渲染”体验断裂，尤其弱网环境'
+  - '- 页面切换缺乏过渡动画，用户失去空间定向感，交互显得生硬'
+  - '**核心定义**'
+  - '- 路由懒加载：`component: () => import(''./HeavyView.vue'')` 利用动态导入语法，Vite/Rollup 自动代码分割生成独立
+    Chunk，按需加载'
+  - '- Chunk 命名策略：`/* webpackChunkName: "chunk-name" */` 或 Vite `manualChunks` 配置，控制合并粒度，避免过度碎片化(HTTP/2
+    多路复用下 10-50KB/Chunk 为宜)'
+  - '- 预加载策略：`router.prefetchRoutes([routes])` 在浏览器空闲期(`requestIdleCallback`)预取高概率访问路由的
+    Chunk，存入浏览器缓存'
+  - '- 滚动恢复：`scrollBehavior(to, from, savedPosition) { if (savedPosition) return savedPosition;
+    else return { top: 0 } }` 实现列表页返回保持滚动位置、详情页回顶部'
+  - '- 过渡动画：`<router-view v-slot="{ Component }"> <Transition name="fade" mode="out-in"><component
+    :is="Component"/></Transition> </router-view>` 结合 CSS `fade-enter-active/leave-active`
+    实现淡入淡出/滑动'
+  - '**关键性质**'
+  - '- 懒加载与预加载互补：懒加载减首屏包体，预加载隐延迟，二者结合实现“首屏快、二屏即时”'
+  - '- `prefetch` 为低优先级 `rel=prefetch`，不阻塞关键资源；`preload` 为高优先级 `rel=modulepreload`，用于当前导航必需资源'
+  - '- 滚动恢复依赖浏览器 History Scroll Restoration API，`history.scrollRestoration = ''manual''`
+    交由 Vue Router 接管'
+  - '- 过渡动画 `mode="out-in"` 保证旧组件离场完成再进入新组件，避免布局抖动，但增加切换感知延迟(约 150-300ms)'
+  - '**典型例子**'
+  - '- 电商大促页：首屏只加载 `Home`，`ProductDetail`、`Checkout` 标记预加载，用户点击商品瞬间打开'
+  - '- 后台管理：左侧菜单悬停 200ms 触发目标路由预加载，点击时 Chunk 已就绪'
+  - '- 长列表保持：用户在 `/list?page=3` 点进详情 `/detail/101`，返回时自动恢复 `scrollY` 位置'
+  - '**边界条件**'
+  - '- 过度预加载消耗带宽/内存，移动端弱网需根据 `navigator.connection.effectiveType` 动态开关'
+  - '- `Transition` 包裹 `router-view` 时，若子路由也有 `Transition`，嵌套过渡需用 `key` 强制重置或使用 `<TransitionGroup>`'
+  - '- 滚动恢复在虚拟列表/无限滚动场景失效，需手动记录 `scrollTop` 并配合 `data-index` 定位恢复'
+  - '- 懒加载 Chunk 加载失败(网络/版本不匹配)需全局 `router.onError` 捕获并提示“版本已更新，请刷新”'
+  - '**素材溯源**'
+  - '- paper: 20230418_038.md, page: 性能与体验优化章节, role: origin'
+  - '**原始摘录**'
+  - '- 对比 `import()` 与 `webpackChunkName`、利用 `router.prefetchRoutes()` 提前获取、配合 `<Transition>`
+    实现页面切换动效。'
+  sources:
+  - paper: 20230418_038.md
+    role: origin
+  excerpts:
+  - 对比 `import()` 与 `webpackChunkName`、利用 `router.prefetchRoutes()` 提前获取、配合 `<Transition>`
+    实现页面切换动效。
+- 'no': 5
+  name: 微前端子应用路由隔离 —— 基座与子应用的路由共治契约
+  points:
+  - '**为什么需要这个概念？**'
+  - '- 微前端架构下，主应用与多子应用共享同一浏览器 History 栈，路由冲突、基础路径不匹配、守卫协作缺失会导致白屏、404、状态污染'
+  - '- 子应用独立开发、独立部署，必须在不知晓主应用具体路由结构的前提下正确运行'
+  - '- 需要一套标准化的路由隔离、分发、同步协议'
+  - '**核心定义**'
+  - '- 基础路径隔离：子应用入口设置 `base: ''/sub-app1/''`，内部路由均以此为前缀，主应用通过 `qiankun` `registerMicroApps({
+    activeRule: ''/sub-app1'' })` 完成前缀匹配与剥离'
+  - '- 路由模式统一：主子应用均采用 `history` 模式，子应用 `router.push(''/detail'')` 实际触发 `window.history.pushState(null,
+    '''', ''/sub-app1/detail'')`，由基座代理'
+  - '- 基座路由分发：主应用监听 `popstate`/`hashchange`，根据 `activeRule` 判断激活哪个子应用，调用 `loadMicroApp`/`unmount`
+    生命周期'
+  - '- 子应用通信与守卫协作：主应用全局守卫 `beforeEach` 先行鉴权 -> 放行至子应用 -> 子应用内部守卫二次校验 -> 组件渲染；跨应用跳转
+    `router.push(''/sub-app2/detail'')` 触发主应用分发'
+  - '- 共享依赖与路由实例：`VueRouter` 实例不共享，但 `Vue`/`VueRouter`/`Pinia` 等库实例通过 `qiankun` `shared`
+    配置或 `importmap` 去重，避免多实例冲突'
+  - '**关键性质**'
+  - '- 路由前缀剥离透明：子应用代码感知不到 `base` 前缀，编写路由如同独立 SPA'
+  - '- 沙箱隔离副作用：`snapshot`/`proxy` 沙箱确保子应用卸载时 `window.history` 监听器、定时器、全局变量被清理，不污染主应用'
+  - '- 预加载策略：主应用可在用户点击菜单前 `prefetch` 子应用 HTML/JS/CSS，进入时仅执行 `mount`，实现毫秒级切换'
+  - '- 嵌套微前端：子应用内再嵌套微前端(三级)，需层层透传 `base` 与 `publicPath`，复杂度指数级上升，非必要勿用'
+  - '**典型例子**'
+  - '- 企业级 ERP：主应用 `Portal`(登录/首页/权限) + 子应用 `Finance`(`/finance`)、`HR`(`/hr`)、`CRM`(`/crm`)，各自独立
+    Git 仓库、CI/CD、技术栈(Vue2/3/React)'
+  - '- 旧系统渐进式迁移：遗留 jQuery 页面作为子应用挂载 `/legacy/*`，新业务用 Vue 3 微应用，共存过渡期 1-2 年'
+  - '**边界条件**'
+  - '- 子应用内部使用 `router.push(''/login'')` 会相对 `base` 解析，若需跳转主应用登录页，需 `window.top.location.href
+    = ''/login''` 或约定全局事件总线'
+  - '- 刷新子应用页面：浏览器直接请求 `/sub-app1/detail`，Nginx 需配置 `try_files $uri $uri/ /sub-app1/index.html`
+    回退到子应用入口，而非主应用'
+  - '- 共享路由状态(如面包屑、Tab 标签)需主应用维护全局 Store，子应用通过 `props`/`eventBus` 同步，避免各自为政'
+  - '- `vue-router` 版本不一致(主应用 v4、子应用 v3)会导致 API 不兼容，强制统一主版本或使用兼容层适配'
+  - '**素材溯源**'
+  - '- paper: 20230418_038.md, page: 实战：微前端子应用路由隔离与基座路由分发章节, role: origin'
+  - '**原始摘录**'
+  - '- 结合 qiankun/微前端场景，解决子应用 history 模式基础路径、基座与子应用路由同步、跨应用导航守卫协作问题。'
+  sources:
+  - paper: 20230418_038.md
+    role: origin
+  excerpts:
+  - 结合 qiankun/微前端场景，解决子应用 history 模式基础路径、基座与子应用路由同步、跨应用导航守卫协作问题。
+'no': 38
