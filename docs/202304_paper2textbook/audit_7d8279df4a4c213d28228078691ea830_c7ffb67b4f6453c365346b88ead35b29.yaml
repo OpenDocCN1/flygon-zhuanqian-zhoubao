@@ -1,0 +1,155 @@
+citation_stats:
+- paper: P001
+  count: 5
+  locations:
+  - ch40.3
+  - ch40.3
+  - ch40.3
+  - ch40.3
+  - ch40.3
+- paper: P002
+  count: 4
+  locations:
+  - ch40.4
+  - ch40.4
+  - ch40.4
+  - ch40.4
+- paper: P003
+  count: 3
+  locations:
+  - ch40.5
+  - ch40.5
+  - ch40.5
+- paper: P004
+  count: 8
+  locations:
+  - ch40.6
+  - ch40.6
+  - ch40.6
+  - ch40.6
+  - ch40.6
+  - ch40.8
+  - ch40.11
+  - ch40.11
+- paper: P005
+  count: 3
+  locations:
+  - ch40.7
+  - ch40.7
+  - ch40.7
+- paper: P006
+  count: 1
+  locations:
+  - ch40.8
+- paper: P007
+  count: 1
+  locations:
+  - ch40.8
+- paper: P008
+  count: 1
+  locations:
+  - ch40.8
+- paper: P009
+  count: 2
+  locations:
+  - ch40.8
+  - ch40.8
+- paper: P010
+  count: 2
+  locations:
+  - ch40.8
+  - ch40.8
+- paper: P011
+  count: 1
+  locations:
+  - ch40.9
+- paper: P012
+  count: 1
+  locations:
+  - ch40.9
+- paper: P013
+  count: 1
+  locations:
+  - ch40.9
+- paper: P014
+  count: 1
+  locations:
+  - ch40.9
+- paper: P015
+  count: 1
+  locations:
+  - ch40.10
+- paper: P016
+  count: 1
+  locations:
+  - ch40.10
+- paper: P017
+  count: 1
+  locations:
+  - ch40.10
+- paper: P018
+  count: 1
+  locations:
+  - ch40.10
+- paper: P019
+  count: 1
+  locations:
+  - ch40.11
+- paper: P020
+  count: 1
+  locations:
+  - ch40.11
+- paper: P021
+  count: 1
+  locations:
+  - ch40.11
+- paper: P022
+  count: 4
+  locations:
+  - ch40.7
+  - ch40.7
+  - ch40.7
+  - ch40.8
+unsupported_claims:
+- location: ch40.3
+  claim: RNN 的串行特性使得无法利用现代 GPU 的并行计算能力，且长距离依赖面临梯度消失困境。注意力机制的核心直觉是‘聚光灯’：模型不再被迫将整个序列压缩进一个固定向量，而是学会在生成每一步时‘看’哪里。传统
+    Seq2Seq 的 Context Vector 成为信息瓶颈，注意力机制通过保留所有编码器隐状态并动态加权，打破了这一瓶颈。
+  reason: 素材中未找到支撑
+- location: ch40.4
+  claim: 点积注意力相比加性注意力，计算效率高得多，因为可以利用高度优化的矩阵乘法库。缩放因子 1/√d_k 的作用是防止维度 d_k 过大时，QK^T 点积数值过大，推入
+    Softmax 饱和区导致梯度消失。标准化公式：Attention(Q, K, V) = softmax(QK^T / √d_k)V，这是 Transformer
+    所有变体的基石。
+  reason: 素材中未找到支撑
+- location: ch40.5
+  claim: 多头注意力允许模型在不同表示子空间、不同位置联合关注信息。实验表明：不同注意力头自发分工，有的专注句法依存，有的专注共指消歧，有的专注位置模式。
+  reason: 素材中未找到支撑
+- location: ch40.6
+  claim: Transformer 纯注意力结构是排列等变的，不加位置编码无法区分‘狗咬人’和‘人咬狗’。正弦位置编码利用三角函数波长差异编码位置，理论上支持任意长度外推，但高频分量在长距离易混淆。RoPE
+    通过旋转矩阵将绝对位置注入 Query/Key，使得注意力分数仅依赖相对距离，是目前长上下文主流方案。
+  reason: 素材中未找到支撑
+- location: ch40.7
+  claim: 注意力可视化揭示：BERT 无监督学会了依存句法树结构，特定头对应特定依存关系。警惕‘注意力即解释’谬误：注意力权重高不代表该 Token 对输出贡献大，可能是信息聚合的‘垃圾桶’
+    Token（如 [SEP]）。工具：BertViz, Transformer-Interpret, AttentionViz 支持交互式多层多头热力图探索。
+  reason: 素材中未找到支撑
+missing_concepts:
+- paper: P001
+  concept: RNN/CNN/Seq2Seq 的具体痛点案例（如长文本翻译质量下降、梯度消失实验数据）
+  severity: high
+- paper: P002
+  concept: FlashAttention 的在线 Softmax 算法细节（行最大值 m_i、归一化因子 l_i 的迭代更新公式）
+  severity: high
+- paper: P003
+  concept: 多头注意力的头冗余量化指标（如头间余弦相似度分布、Head Pruning 具体阈值）
+  severity: medium
+- paper: P004
+  concept: RoPE 与 YaRN/PI 微调的具体超参数设置（base 从 10000 到 1e6 的插值策略、NTK-aware 插值公式）
+  severity: high
+- paper: P005
+  concept: 注意力可视化的定量评估指标（注意力熵计算公式、垃圾桶 Token 识别阈值、因果介入实验设计范式）
+  severity: high
+- paper: P006
+  concept: ALiBi 斜率 m 的几何级数递减公式及不同头数下的最佳斜率配置表
+  severity: medium
+- paper: P007
+  concept: GQA/MQA 在推理阶段 KV Cache 显存节省的具体计算公式（显存占比 = 2 * h_kv * d_k / (h_q * d_k)）
+  severity: high
