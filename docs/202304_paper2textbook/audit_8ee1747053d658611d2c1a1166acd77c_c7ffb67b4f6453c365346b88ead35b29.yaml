@@ -1,0 +1,51 @@
+citation_stats:
+- paper: P001
+  count: 3
+  locations:
+  - ch3.3.2
+  - ch3.3.3
+  - ch3.3.5
+- paper: P002
+  count: 2
+  locations:
+  - ch3.4.2
+  - ch3.4.3
+- paper: P003
+  count: 1
+  locations:
+  - ch3.5.2
+- paper: P004
+  count: 2
+  locations:
+  - ch3.6.2
+  - ch3.6.5
+unsupported_claims:
+- location: ch3.3.2
+  claim: APE frames prompt generation as a black-box optimization problem over natural
+    language strings.
+  reason: 素材中未找到支撑
+- location: ch3.4.2
+  claim: 'OPRO uses the LLM as an optimizer: the optimization trajectory is serialized
+    into the prompt, and the LLM outputs the next candidate solution.'
+  reason: 素材中未找到支撑
+- location: ch3.5.2
+  claim: A robust evaluation suite must measure Accuracy, Robustness, Efficiency,
+    and Format Compliance simultaneously.
+  reason: 素材中未找到支撑
+- location: ch3.6.2
+  claim: Prefix Tuning prepends a sequence of continuous task-specific vectors to
+    the input, keeping the language model parameters frozen.
+  reason: 素材中未找到支撑
+missing_concepts:
+- paper: P001
+  concept: APE 核心循环的工程落地细节（如去重、并行评分、候选池扩充策略）
+  severity: high
+- paper: P002
+  concept: OPRO 在超长轨迹下的上下文压缩/摘要具体算法
+  severity: high
+- paper: P003
+  concept: LLM-as-a-Judge 的 Rubric 设计原则、校准流程、偏好偏差修正
+  severity: high
+- paper: P004
+  concept: 软提示/前缀调优的初始化策略（硬提示初始化、任务描述嵌入初始化）
+  severity: high
