@@ -1,0 +1,107 @@
+citation_stats:
+- paper: 20230418_003.md
+  count: 12
+  locations:
+  - 1.3.1
+  - 1.3.2
+  - 1.3.3
+  - '1.5'
+  - 1.6.1
+  - 1.6.2
+  - 1.6.3
+- paper: 20230418_157.md
+  count: 8
+  locations:
+  - 1.3.4
+  - 1.5.4
+  - '1.7'
+- paper: 20230418_008.md
+  count: 6
+  locations:
+  - 1.3.5
+  - 1.6.3
+  - '1.7'
+- paper: 20230418_005.md
+  count: 10
+  locations:
+  - 1.4.1
+  - 1.4.2
+  - 1.4.3
+  - 1.4.4
+  - 1.4.5
+  - 1.4.6
+  - 1.5.1
+  - 1.5.2
+  - 1.5.3
+  - 1.5.4
+- paper: 20230418_079.md
+  count: 4
+  locations:
+  - 1.3.3
+  - 1.4.1
+  - 1.4.5
+  - 1.5.4
+- paper: SUMMARY.md
+  count: 2
+  locations:
+  - 1.5.2
+  - 1.5.5
+- paper: README.md
+  count: 2
+  locations:
+  - 1.4.1
+  - 1.4.5
+- paper: 20230418_001_concept_atomicity.md
+  count: 1
+  locations:
+  - 1.3.2
+- paper: 20230418_002_concept_linking.md
+  count: 1
+  locations:
+  - 1.3.2
+unsupported_claims:
+- location: 1.3.4
+  claim: 邓巴数/150人阈值学术来源：Dunbar, R. I. M. (1993). Coevolution of neocortical size,
+    group size and language in humans. Behavioral and Brain Sciences, 16(4), 681-735.
+  reason: 素材中未找到该学术文献引用，仅在《20230418_157.md》中提到‘根源在生财有术 6 年实战中总结’，未提供学术出处
+- location: 1.5.1
+  claim: '认知负荷理论/图式构建学术来源：Sweller, J. (1988). Cognitive load during problem solving:
+    Effects on learning. Cognitive Science, 12(2), 257-285.'
+  reason: 素材中未找到该学术文献引用
+- location: 1.5.3
+  claim: '金字塔原理/MECE 原理一手来源：Minto, B. (1987). The Pyramid Principle: Logic in Writing,
+    Thinking, & Problem Solving. McKinsey & Company.'
+  reason: 素材中未找到该书籍引用
+- location: 1.4.6
+  claim: SemVer 2.0 规范来源：SemVer 官方规范：https://semver.org/spec/v2.0.0.html
+  reason: 素材中未找到该官方规范引用
+- location: 1.4.2
+  claim: '编译器中间表示(IR)/AST/四层架构理论来源：Aho, A. V., Lam, M. S., Sethi, R., & Ullman, J.
+    D. (2006). Compilers: Principles, Techniques, and Tools (2nd ed.). Addison-Wesley.
+    (Dragon Book)'
+  reason: 素材中未找到该教材引用
+- location: 1.3.1
+  claim: 注意力机制/Transformer核心公式与推导来源：Vaswani, A., et al. (2017). Attention Is All You
+    Need. NeurIPS.
+  reason: 素材中未找到该论文引用，仅在练习1中给出公式推导
+- location: 1.3.5
+  claim: '合伙人“金钱观独立于价值观”组织行为学佐证：Wasserman, N. (2012). The Founder''s Dilemmas: Anticipating
+    and Avoiding the Pitfalls That Can Sink a Startup. Princeton University Press.
+    第 4 章'
+  reason: 素材中未找到该书籍引用
+missing_concepts:
+- paper: 20230418_003.md
+  concept: 卡片盒笔记法的‘自底向上生成’原则在教材工程化中的具体落地细节（如聚类算法、临界量判定标准）
+  severity: medium
+- paper: 20230418_157.md
+  concept: 私域经营中‘主动触达SOP’的具体话术模板与转化率数据支撑
+  severity: high
+- paper: 20230418_008.md
+  concept: 合伙人筛选中‘闲聊式结构化面试’的具体考察清单与评分标准
+  severity: high
+- paper: 20230418_005.md
+  concept: 教材工程化四层架构中‘呈现层’的自动化渲染引擎技术选型细节（如Pandoc/Quarto参数配置）
+  severity: medium
+- paper: 20230418_079.md
+  concept: 概念卡片驱动开发（CDD）流水线中‘质量门禁’的自动化实现脚本逻辑
+  severity: medium
