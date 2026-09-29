@@ -1,0 +1,112 @@
+citation_stats:
+- paper: P001
+  count: 7
+  locations:
+  - '2.3'
+  - '2.3'
+  - '2.3'
+  - '2.3'
+  - '2.3'
+  - '2.3'
+  - '2.3'
+- paper: P002
+  count: 11
+  locations:
+  - '2.4'
+  - '2.4'
+  - 2.4.1
+  - 2.4.2
+  - 2.4.3
+  - 2.4.4
+  - '2.4'
+  - '2.4'
+  - '2.4'
+  - '2.4'
+  - '2.4'
+- paper: P003
+  count: 6
+  locations:
+  - '2.5'
+  - '2.5'
+  - '2.5'
+  - '2.5'
+  - '2.5'
+  - '2.5'
+- paper: P004
+  count: 8
+  locations:
+  - '2.6'
+  - '2.6'
+  - '2.6'
+  - '2.6'
+  - '2.6'
+  - '2.6'
+  - '2.6'
+  - '2.6'
+- paper: P007
+  count: 3
+  locations:
+  - 2.4 (mermaid)
+  - 2.6 (mermaid)
+  - 2.6 (multi-source)
+- paper: P008
+  count: 2
+  locations:
+  - 2.4 (multi-source)
+  - 2.6 (multi-source)
+- paper: P009
+  count: 7
+  locations:
+  - 2.4 (mermaid)
+  - 2.5 (mermaid)
+  - 2.6 (mermaid)
+  - 2.4 (multi-source)
+  - 2.6 (multi-source)
+  - 2.6 (multi-source)
+  - 2.6 (multi-source)
+- paper: P030
+  count: 2
+  locations:
+  - 2.5 (mermaid)
+  - 2.6 (mermaid)
+unsupported_claims:
+- location: 2.3 (CoT-SC math derivation)
+  claim: 多数投票等价于近似边际答案分布的众数
+  reason: 素材P001中未包含该数学推导细节，仅含原始论文引用与高层概念
+- location: 2.3 (ToT pseudocode)
+  claim: frontier维护与排序实现了回溯机制
+  reason: 素材P001中未提供ToT算法的伪代码实现细节
+- location: 2.4.2 (RRF原理)
+  claim: RRF利用倒数排名近似不同检索器的得分累积分布函数逆变换
+  reason: 素材P002中未包含RRF的概率排序原理推导
+- location: 2.5 (PAL数学形式化)
+  claim: 程序级自洽实现执行语义等价类聚合
+  reason: 素材P003中未包含PAL的期望风险最小化数学推导与边际化隐变量证明
+- location: 2.6 (ReAct工程风险表格)
+  claim: 循环检测器基于(Action, KeyParams Hash)滑动窗口去重
+  reason: 素材P004中未提供循环检测器的具体实现逻辑与代码细节
+missing_concepts:
+- paper: P001
+  concept: CoT-SC的数学推导细节（从贪婪解码到边际分布众数的完整推导过程）
+  severity: high
+- paper: P001
+  concept: ToT框架的四大要素详细定义与伪代码实现
+  severity: high
+- paper: P002
+  concept: 混合检索中分数归一化的具体方法（Min-Max/Z-score）与动态α调整策略
+  severity: medium
+- paper: P002
+  concept: RRF融合算法的概率论理论依据与参数k=60的平滑机制数学解释
+  severity: high
+- paper: P003
+  concept: PAL范式的期望风险最小化数学形式化与EM算法对应关系
+  severity: high
+- paper: P003
+  concept: 程序级自洽相较Token空间自洽的方差降低数学证明
+  severity: medium
+- paper: P004
+  concept: ReAct循环失控的三大根因深度分析与循环检测器的完整判定逻辑代码
+  severity: high
+- paper: P004
+  concept: MCP协议的tools/list、tools/call、resources/read标准接口规范细节
+  severity: medium
