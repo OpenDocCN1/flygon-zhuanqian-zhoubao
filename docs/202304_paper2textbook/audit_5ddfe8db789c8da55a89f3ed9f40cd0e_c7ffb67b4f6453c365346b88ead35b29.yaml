@@ -1,0 +1,174 @@
+citation_stats:
+- paper: P001
+  count: 12
+  locations:
+  - ch42.3
+  - ch42.4
+  - ch42.5
+  - ch42.6
+  - ch42.7
+  - ch42.8
+  - ch42.9
+  - ch42.10
+  - ch42.11
+  - ch42.12
+  - ch42.13
+  - ch42.14
+- paper: P002
+  count: 4
+  locations:
+  - ch42.4
+  - ch42.5
+  - ch42.6
+  - ch42.7
+- paper: P003
+  count: 5
+  locations:
+  - ch42.3
+  - ch42.5
+  - ch42.6
+  - ch42.7
+  - ch42.8
+- paper: P004
+  count: 3
+  locations:
+  - ch42.3
+  - ch42.5
+  - ch42.6
+- paper: P005
+  count: 7
+  locations:
+  - ch42.3
+  - ch42.5
+  - ch42.6
+  - ch42.7
+  - ch42.8
+  - ch42.9
+  - ch42.10
+- paper: P085
+  count: 4
+  locations:
+  - ch42.9
+  - ch42.10
+  - ch42.11
+  - ch42.12
+- paper: P106
+  count: 4
+  locations:
+  - ch42.8
+  - ch42.9
+  - ch42.10
+  - ch42.11
+- paper: P109
+  count: 1
+  locations:
+  - ch42.13
+- paper: P110
+  count: 2
+  locations:
+  - ch42.3
+  - ch42.7
+- paper: PKJ0CdYG18oMFStxpa17cxS0wnyt
+  count: 3
+  locations:
+  - ch42.10
+  - ch42.11
+  - ch42.12
+- paper: PEfm3dQsmpoUyHxxDPaAcoqXvnVe
+  count: 3
+  locations:
+  - ch42.9
+  - ch42.10
+  - ch42.11
+- paper: PAiCrd19EAoPvvPx0HSJczxk3nfC
+  count: 2
+  locations:
+  - ch42.11
+  - ch42.12
+- paper: K3oEdbAo1o5fq4xlSf3cOhkMnrg
+  count: 1
+  locations:
+  - ch42.11
+unsupported_claims:
+- location: ch42.3
+  claim: 区分 HTML/Attribute/JS/URL/CSS 五大编码上下文，实战 DOMPurify 白名单清洗、Trusted Types 强制安全类型赋值。
+  reason: 素材中未找到该确切表述，仅在《20230418_042.md》中出现类似概述
+- location: ch42.4
+  claim: 演示 CSRF 攻击链路，对比 SameSite 属性在跨站请求中的拦截效果，实现基于 Header 的双重提交令牌模式。
+  reason: 素材中未找到该确切表述，仅在《20230418_042.md》中出现类似概述
+- location: ch42.5
+  claim: 编写严格 CSP 策略：script-src 'nonce-xxx' 'strict-dynamic'、report-uri 收集违规日志、通过
+    Report-Only 模式灰度上线。
+  reason: 素材中未找到该确切表述，仅在《20230418_042.md》中出现类似概述
+- location: ch42.5
+  claim: 配合 vite-plugin-csp-nonce 等工具链自动注入 nonce，解决第三方脚本兼容与旧版浏览器 sha256-hash 回退策略。
+  reason: 素材中未找到该确切表述，仅在《20230418_110.md》中出现类似概述
+- location: ch42.6
+  claim: 接入 npm audit/pnpm audit/Snyk/Socket CI 检查、package-lock.json 版本锁定、生成 CycloneDX
+    SBOM 合规交付。
+  reason: 素材中未找到该确切表述，仅在《20230418_042.md》中出现类似概述
+- location: ch42.6
+  claim: Socket 行为审计在安装前静态分析包代码，拦截 postinstall 等生命周期钩子中的可疑行为。
+  reason: 素材中未找到该确切表述，仅在《20230418_106.md》中出现类似概述
+- location: ch42.7
+  claim: 产出《前端安全开发规范》《安全编码 Checklist》《漏洞分级与响应流程》，接入 SDL 安全开发生命周期。
+  reason: 素材中未找到该确切表述，仅在《20230418_042.md》中出现类似概述
+- location: ch42.7
+  claim: 结合 20230418_109.md 与 20230418_110.md 完善 COOP/COEP 跨域隔离配置、Source Map 保护策略、漏洞分级响应矩阵。
+  reason: 素材中未找到该素材文件，疑为全书内部引用
+- location: ch42.8
+  claim: 在‘生财有术’2023年全国见面会微信群中，自动化爬取 7 天内 9000+ 份微信红包数据的全过程。
+  reason: 素材中未找到该确切表述，仅在《20230418_106.md》中出现类似概述
+- location: ch42.9
+  claim: 用户私信行为=私信动力 * 私信能力 * 私信提示
+  reason: 素材中未找到该确切表述，仅在《Efm3dQsmpoUyHxxDPaAcoqXvnVe.md》中出现类似概述
+- location: ch42.9
+  claim: 掌握这个逻辑，不管平台怎么变化，只要在具体方法上，不要触及平台红线，引流都没什么问题
+  reason: 素材中未找到该确切表述，仅在《Efm3dQsmpoUyHxxDPaAcoqXvnVe.md》中出现类似概述
+- location: ch42.10
+  claim: 从人群痛点足够疼到产品交付方案足够好，我们认为是可以跑通闭环的...6小时快速从零到上线卖出，快速拿到正反馈的感觉还是挺好的。
+  reason: 素材中未找到该确切表述，仅在《KJ0CdYG18oMFStxpa17cxS0wnyt.md》中出现类似概述
+- location: ch42.10
+  claim: RPA 自动化能力（20230418_106.md）为批量注册、批量开通会员、凭证入库提供了技术杠杆支撑。
+  reason: 素材中未找到该确切表述，仅在《20230418_106.md》中出现类似概述
+- location: ch42.11
+  claim: 你开一个视频号赚1万块，一百个视频号就是100万块。那些人就应该都是你的分身，是你的矩阵，那这就是一个300万的项目了。
+  reason: 素材中未找到该确切表述，仅在《AiCrd19EAoPvvPx0HSJczxk3nfC.md》中出现类似概述
+- location: ch42.11
+  claim: 20230418_102.md 与 K3oEdbAo1o5fq4xlSf3cOhkMnrg.md 进一步论证了‘去 IP 化’对复制成本 C 与成功率
+    p 的量化提升作用。
+  reason: 素材中未找到该确切表述，疑为全书内部引用
+missing_concepts:
+- paper: P001
+  concept: XSS 攻击的三大分类（存储型、反射型、DOM-based）及五大编码上下文详细对照表
+  severity: high
+- paper: P002
+  concept: CSRF 攻击链路演示、SameSite Cookie 三种模式对比、双重提交令牌实现代码示例
+  severity: high
+- paper: P003
+  concept: CSP 3 核心指令详解、nonce+strict-dynamic 协作原理、Report-Only 灰度部署流程
+  severity: high
+- paper: P004
+  concept: 供应链安全四层防御体系、npm audit 与 Socket 检测能力本质区别、SBOM 生成命令与格式
+  severity: high
+- paper: P005
+  concept: 安全基线三大清单（接入/编码/发布）、自动化门禁流水线设计、监控告警体系、应急演练流程与 RCA 模版
+  severity: high
+- paper: P085
+  concept: 福格行为模型（B=MAP）在引流场景的迁移应用、合规 SOP 标准化制作、全链路触达体系
+  severity: high
+- paper: P106
+  concept: RPA 五步开发标准法、关键技术对照（元素识别 vs 图像识别）、滑动参数化校准表、字典去重与末尾标志终止算法
+  severity: high
+- paper: PKJ0CdYG18oMFStxpa17cxS0wnyt
+  concept: 热点驱动变现极速执行标准动作、Notion AI 账号自动化批量注册技术方案、分销裂变飞轮设计
+  severity: high
+- paper: PEfm3dQsmpoUyHxxDPaAcoqXvnVe
+  concept: 小红书引流三大模块（动机/能力/提示）、三类爆款封面制作法、双模态私信 SOP 制作法
+  severity: high
+- paper: PAiCrd19EAoPvvPx0HSJczxk3nfC
+  concept: 矩阵思维核心公理、项目价值评估重构定理、去个人 IP 化设计、合伙人机制反割韭菜原则
+  severity: high
+- paper: K3oEdbAo1o5fq4xlSf3cOhkMnrg
+  concept: 普通人打造付费社群 2 个月实操复盘、边学边教模式验证、去 IP 化产品包装策略
+  severity: high
