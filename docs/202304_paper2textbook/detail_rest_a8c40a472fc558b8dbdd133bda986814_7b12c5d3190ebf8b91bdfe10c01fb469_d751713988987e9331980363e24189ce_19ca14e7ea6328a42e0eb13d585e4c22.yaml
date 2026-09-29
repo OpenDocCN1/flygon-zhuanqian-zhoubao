@@ -1,0 +1,176 @@
+learning_targets:
+- 理解 Pinia 核心架构设计理念：扁平化 Store、自动代码分割、类型安全优先
+- 掌握 Option Store 与 Setup Store 两种定义风格的区别、适用场景及迁移策略
+- 精通 TypeScript 环境下的类型推导最佳实践：storeToRefs 保持响应式与类型、跨 Store 组合类型安全
+- 掌握插件机制原理与开发：持久化、多标签页同步、状态加密等横切关注点的优雅注入
+- 理解 SSR 环境下的请求级实例隔离机制与水合流程，掌握 Vitest 单元测试的 Store 重置与 Mock 策略
+- 能够制定 Vuex 到 Pinia 的增量迁移方案：共存兼容层、Module 拆分策略、类型定义迁移、常见坑位规避
+concept_map:
+- Pinia 状态管理实战
+- ├── 核心架构
+- │   ├── 根实例与扁平 Store          —— P001
+- │   ├── State/Getters/Actions 三元组 —— P001
+- │   ├── Option Store vs Setup Store   —— P001
+- │   └── 自动代码分割机制              —— P001
+- ├── 类型安全实践
+- │   ├── defineStore 返回类型自动推导  —— P002
+- │   ├── storeToRefs 响应式解构保型    —— P002
+- │   ├── 跨 Store 组合类型安全         —— P002
+- │   └── 测试环境类型上下文隔离        —— P002
+- ├── 插件机制与持久化
+- │   ├── pinia.use() 扩展点设计        —— P003
+- │   ├── $subscribe 状态变更拦截       —— P003
+- │   ├── pinia-plugin-persistedstate   —— P003
+- │   ├── 自定义插件：加密/同步/脱敏     —— P003
+- │   └── SSR 环境存储降级策略          —— P003
+- ├── SSR 与测试策略
+- │   ├── 请求级 createPinia() 隔离      —— P004
+- │   ├── 状态序列化与客户端水合        —— P004
+- │   ├── setActivePinia 测试上下文重置  —— P004
+- │   ├── Setup Store 手动实现 $reset    —— P004
+- │   └── HMR 热更新原生支持            —— P004
+- └── Vuex 迁移路径
+- ├── 共存方案：双实例安装 + 兼容插件   —— P005
+- ├── Module 拆分为扁平 Store         —— P005
+- ├── mapState/mapActions 兼容层替换  —— P005
+- ├── 类型定义逐文件迁移                —— P005
+- └── 动态注册/插件/严格模式迁移对策   —— P005
+life_analogy:
+- 想象 Pinia 是一个**现代化的智能仓储中心**：
+- '- **createPinia()** = 仓储中心的**总控调度塔**（每个请求/用户会话一个独立调度塔，互不干扰）'
+- '- **defineStore(''user'')** = 一个**专用货仓**（用户仓、购物车仓、商品仓），各司其职、扁平管理、无嵌套套娃'
+- '- **State** = 货架上的**实物库存**（响应式、可盘点、可追溯）'
+- '- **Getters** = **智能分拣标签**（派生数据、自动缓存、按需计算，如‘高价值用户’、‘购物车总价’）'
+- '- **Actions** = **作业工单/机械臂**（处理入库/出库/盘点等业务流程，支持异步、可组合调用其他货仓工单）'
+- '- **storeToRefs** = **给库存贴上 RFID 智能标签**（解构搬运时不丢失‘响应式’追踪能力，拆到哪监控到哪）'
+- '- **pinia.use(plugin)** = **给仓储中心装插件**（安装‘自动盘点入账’持久化插件、‘跨园区同步’多标签页插件、‘操作回放’时光机插件），业务货仓零侵入'
+- '- **SSR 隔离** = **每位客户专属临时仓库**，下单即建、离场即销、数据随人走、绝不串单'
+- '- **Vuex 迁移** = **从‘单一超大仓+分区’升级为‘多个专用智能仓+总控塔’**，分批搬迁、新旧并行、平滑切换'
+summary:
+- concept: Pinia 核心架构
+  desc: 扁平化 Store 设计，自动代码分割，Option/Setup 双风格，无模块嵌套，~1kb 轻量级
+- concept: defineStore
+  desc: 定义即注册，返回类型自动推导 State/Getters/Actions，Setup Store 支持 Composition API 灵活复用
+- concept: storeToRefs
+  desc: 解决组合式 API 解构丢失响应式问题，将 Store 转为 Ref 对象并保持完整类型推导
+- concept: pinia.use()
+  desc: 插件扩展点，接收 {store, app, pinia, options}，可返回属性扩展 Store，支持横切关注点注入
+- concept: $subscribe
+  desc: 监听 Store 所有状态变更，参数为 MutationPayload，插件实现持久化/同步/审计的核心钩子
+- concept: pinia-plugin-persistedstate
+  desc: 官方推荐持久化插件，配置式声明持久化策略（storage/paths/serializer），支持 SSR 降级
+- concept: SSR 隔离
+  desc: 每请求创建 createPinia() 实例，服务端序列化 pinia.state.value 注入 HTML，客户端水合激活
+- concept: setActivePinia(createPinia())
+  desc: 测试用例级上下文重置，确保 Store 实例隔离，配合 vi.spyOn 实现 Action/Getter Mock
+- concept: Setup Store $reset
+  desc: 'Option Store 自带重置，Setup Store 需手动 return { $reset: () => { ... } } 实现状态归零'
+- concept: Vuex 迁移共存
+  desc: app.use(pinia).use(vuex) 双运行，pinia-plugin-vuex 兼容 this.$store，Module 按业务域拆分为扁平
+    Store
+- concept: Module 拆分策略
+  desc: 原 modules/a/b -> useAStore/useBStore，通过组合（useAStore 内调用 useBStore）替代嵌套，利于
+    Tree-shaking
+exercises:
+- 'no': 1
+  title: 手写一个迷你 Pinia 核心
+  contents:
+  - '实现 `createPinia()` 返回 `{ install(app), _s: Map, state: Ref<Record<string, any>>
+    }`'
+  - 实现 `defineStore(id, setupFn)`：
+  - '  1. 接受 Setup Store 工厂函数，返回 `useStore` 函数'
+  - '  2. `useStore()` 调用时：若 `_s` 有实例则复用，否则调用 `setupFn` 获取返回对象，用 `reactive` 包装 state，挂载
+    `_s`'
+  - '  3. 支持 `store.$subscribe(cb)` 记录回调，`store.$patch(obj|fn)` 触发变更并广播'
+  - 在 Vue 应用中注册 `app.use(pinia)` 验证：
+  - '  - 组件中 `const store = useCounterStore()` 获取状态与方法'
+  - '  - 修改 `store.count++` 触发视图更新'
+  - '  - 刷新页面后手动挂载 `pinia.state.value = savedState` 验证水合'
+  - 思考题：
+  - '- 为什么 `defineStore` 返回的 `useStore` 要接受可选的 `pinia` 参数？'
+  - '- Setup Store 中的 `ref`/`computed` 如何自动解包为普通属性返回？'
+  - '- 如何实现 `storeToRefs(store)` 保持响应式与类型？'
+- 'no': 2
+  title: 类型安全实战：从定义到组件使用的全链路推导
+  contents:
+  - 定义一个 `useOrderStore`（Setup Store 风格），包含：
+  - '  - state: `orders: Order[]`，`filter: ''all'' | ''pending'' | ''completed''`'
+  - '  - getter: `filteredOrders` 根据 filter 筛选，`totalAmount` 计算总金额'
+  - '  - action: `addOrder(order)`, `toggleStatus(id)`, `setFilter(f)`'
+  - '  - 使用 `storeToRefs` 解构 `filteredOrders` 与 `filter` 在组件中使用'
+  - 类型挑战：
+  - '  1. 让 `Order` 接口在别处定义，Store 内部引用时自动推导泛型'
+  - '  2. `addOrder` 参数类型自动推导为 `Omit<Order, ''id'' | ''createdAt''>`'
+  - '  3. 组件中 `const { filteredOrders, totalAmount } = storeToRefs(store)` 类型分别为 `ComputedRef<Order[]>`
+    与 `ComputedRef<number>`'
+  - '  4. 在另一个 `useUserStore` 的 action 中调用 `useOrderStore().addOrder(...)`，验证跨 Store
+    类型合并无报错'
+  - 回答问题：
+  - '- 如果 Setup Store 返回 `return { orders, filteredOrders, addOrder }` 直接返回 `ref`/`computed`，组件解构后类型会是什么？为何推荐
+    `storeToRefs`？'
+  - '- 如何为 `defineStore` 显式指定泛型参数以约束返回类型？（提示：`defineStore<''order'', State, Getters,
+    Actions>()`）'
+- 'no': 3
+  title: 开发一个『多标签页状态同步』Pinia 插件
+  contents:
+  - 需求：在多个标签页打开同一应用时，任一标签页修改 `useUserStore` 的 `token` 或 `profile`，其他标签页自动同步更新，且不触发循环广播。
+  - 实现步骤：
+  - '  1. 编写 `piniaPluginBroadcastSync(context)` 插件函数'
+  - '  2. 利用 `BroadcastChannel API` 创建频道 `pinia-sync-${store.$id}`'
+  - '  3. 监听 `store.$subscribe((mutation) => { ... })`，仅当 `mutation.type === ''patch
+    object''` 或 `''patch function''` 时，发送 `{ type: ''sync'', payload: mutation.payload
+    }` 到 Channel'
+  - '  4. 监听 `channel.onmessage`，收到消息时调用 `store.$patch(payload)`，**关键：需标记来源防止回环广播**（如设置
+    `mutation._fromSync = true` 并在发送时跳过）'
+  - '  5. 在 `pinia.use(piniaPluginBroadcastSync)` 注册，或仅对特定 Store 生效（通过 `options.sync?:
+    true` 判断）'
+  - 进阶挑战：
+  - '  - 支持 `paths: string[]` 配置仅同步部分字段（如仅同步 `token`，不同步 `profile`）'
+  - '  - 处理标签页关闭/离线场景：新标签页打开时如何获取最新状态？（提示：Channel 无历史，需结合 localStorage 快照或主动请求广播）'
+  - 回答问题：
+  - '- 为什么不能直接在 `$subscribe` 回调里无条件 `channel.postMessage`？'
+  - '- `BroadcastChannel` 与 `localStorage storage event` 在同步机制上有何本质区别？哪个更适合高频状态同步？'
+- 'no': 4
+  title: SSR 场景下的 Pinia 实例隔离与水合排查
+  contents:
+  - 模拟 Nuxt 3 / Vue SSR 环境：
+  - '  1. 服务端入口 `server-entry.ts`：为每个请求创建 `const pinia = createPinia()`，`app.use(pinia)`，渲染
+    HTML 前序列化 `pinia.state.value` 注入 `window.__PINIA_STATE__`'
+  - '  2. 客户端入口 `client-entry.ts`：创建 `pinia = createPinia()`，`app.use(pinia)`，**关键步骤**：`pinia.state.value
+    = window.__PINIA_STATE__`'
+  - '  3. 定义 `useAuthStore` 包含 `token`、`userInfo`，在服务端 `asyncData` 中模拟登录设置 token'
+  - 排查任务：
+  - '  - 现象 A：客户端控制台报错 `Cannot read property ''token'' of undefined`，定位原因（提示：Setup
+    Store 顶层访问 `useRoute()` 或 `window`）'
+  - '  - 现象 B：刷新页面后 `token` 丢失，但 `userInfo` 保留，定位序列化/水合差异（提示：`$subscribe` 序列化时机与 `pinia.state.value`
+    赋值顺序）'
+  - '  - 现象 C：多用户并发请求，用户 A 看到用户 B 的 `userInfo`，定位实例隔离失败（提示：是否复用了全局单例 `pinia`？）'
+  - 回答问题：
+  - '- 为什么 SSR 必须每请求 `new createPinia()`，而客户端可以单例？'
+  - '- `pinia.state.value = { ... }` 赋值时，Setup Store 内部的 `ref` 变量为何能自动更新？（提示：`pinia.state.value`
+    是 Proxy/Ref，Store 实例内部引用同一响应式对象）'
+- 'no': 5
+  title: Vuex 迁移 Pinia 实战：从 Module 嵌套到扁平 Store 重构
+  contents:
+  - 给定一个 Vuex 存量结构：
+  - "```js\n// store/index.js\nconst store = new Vuex.Store({\n  modules: {\n    account:\
+    \ {\n      namespaced: true,\n      state: { user: null, permissions: [] },\n\
+    \      getters: { isAdmin: s => s.permissions.includes('admin') },\n      actions:\
+    \ { login(), fetchPermissions() },\n      modules: {\n        profile: { state:\
+    \ { avatar: '', bio: '' }, mutations: { updateProfile() } }\n      }\n    },\n\
+    \    cart: { namespaced: true, state: { items: [] }, actions: { addToCart(), checkout()\
+    \ } }\n  }\n})\n```"
+  - 迁移任务：
+  - '  1. 拆分为 3 个 Pinia Store：`useAccountStore`、`useProfileStore`、`useCartStore`'
+  - '  2. `useAccountStore` 内通过 `const profileStore = useProfileStore()` 组合原嵌套模块，`getters.isAdmin`
+    改为 `computed`'
+  - '  3. 编写兼容层插件 `piniaPluginVuex`，使旧组件 `this.$store.state.account.user` 仍可工作（提示：代理
+    `pinia.state.value.account`）'
+  - '  4. 组件侧重构：将 `mapState(''account'', [''user''])` 替换为 `const { user } = storeToRefs(useAccountStore())`'
+  - '  5. 迁移 `vuex-persistedstate` 配置至 `pinia-plugin-persistedstate`，注意 `paths` 映射变化'
+  - 回答问题：
+  - '- 原 Vuex `account/profile` 嵌套改为扁平组合后，`useAccountStore` 里调用 `useProfileStore()`
+    会形成循环依赖吗？如何避免？'
+  - '- 迁移后 `store.registerModule(''dynamic'', module)` 动态注册模块的场景如何用 Pinia 实现？（提示：动态
+    `import` + `pinia._s.set()`）'
+  - '- 为什么迁移后生产包体积通常减少 20%+？（提示：Tree-shaking、无模块嵌套开销、Setup Store 无字符串键名）'
