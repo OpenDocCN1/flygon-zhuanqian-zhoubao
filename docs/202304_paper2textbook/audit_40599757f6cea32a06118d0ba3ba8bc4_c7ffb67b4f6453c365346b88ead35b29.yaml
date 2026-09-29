@@ -1,0 +1,57 @@
+citation_stats:
+- paper: AnkEdEtEtoXIbexWlQ3cL6zenFf.md
+  count: 40
+  locations:
+  - '15.2'
+  - '15.3'
+  - '15.4'
+  - '15.5'
+  - '15.6'
+  - '15.7'
+  - '15.8'
+  - '15.9'
+  - '15.10'
+  - '15.11'
+  - '15.12'
+  - '15.13'
+  - concept_map
+  - learning_objectives
+  - '15.1'
+unsupported_claims:
+- location: '15.8'
+  claim: 六字真经提升 90% 提问效果
+  reason: 素材中未找到量化实验或统计数据支撑'提升90%'这一具体数值，仅为作者主观声称
+- location: '15.8'
+  claim: ChatGPT 是智商 250 的 3 岁天才神童
+  reason: 素材中为作者的比喻性描述，非客观可验证的技术指标
+- location: '15.9'
+  claim: 菜菜学员两周速成接单变现、微型 Python 工具 9.9 元/月卖 1 万份年流水近 120 万
+  reason: 素材中仅为作者单方面陈述，缺乏第三方验证或平台后台数据截图支撑
+- location: '15.9'
+  claim: 行业经验沉淀直接迁移为高质量 Prompt 编写能力
+  reason: 素材中虽有菜菜个人案例支撑，但缺乏系统性实证研究或控制变量实验证明因果关系
+missing_concepts:
+- paper: AnkEdEtEtoXIbexWlQ3cL6zenFf.md
+  concept: Wasm 组件模型在浏览器端的原生加载与实例化机制
+  severity: high
+- paper: AnkEdEtEtoXIbexWlQ3cL6zenFf.md
+  concept: wasm-bindgen 对 Rust async/await 与 Future 的绑定支持现状
+  severity: medium
+- paper: AnkEdEtEtoXIbexWlQ3cL6zenFf.md
+  concept: WebGPU 与 Wasm 协同渲染管线（如 wgpu-web）的工程化落地细节
+  severity: medium
+- paper: AnkEdEtEtoXIbexWlQ3cL6zenFf.md
+  concept: WasmGC 下精确栈扫描与保守栈扫描的实现差异及对托管语言互操作的影响
+  severity: high
+- paper: AnkEdEtEtoXIbexWlQ3cL6zenFf.md
+  concept: DSPy/OPRO 等自动提示词优化框架的原理与落地门槛
+  severity: medium
+- paper: AnkEdEtEtoXIbexWlQ3cL6zenFf.md
+  concept: RPA 与 ChatGPT 结合的异常处理、重试策略与幂等性设计模式
+  severity: medium
+- paper: AnkEdEtEtoXIbexWlQ3cL6zenFf.md
+  concept: ChatGPT 生成代码的安全扫描（SAST/DAST）集成流程
+  severity: high
+- paper: AnkEdEtEtoXIbexWlQ3cL6zenFf.md
+  concept: 提示词注入攻击防御与对抗鲁棒性评测方法
+  severity: high
