@@ -1,0 +1,264 @@
+citation_stats:
+- paper: P001
+  count: 7
+  locations:
+  - '41.3'
+  - 41.3.1
+  - 41.3.2
+  - 41.3.3
+  - 41.3.4
+  - 41.3.5
+  - '41.15'
+- paper: P002
+  count: 7
+  locations:
+  - '41.4'
+  - 41.4.1
+  - 41.4.2
+  - 41.4.3
+  - 41.4.4
+  - 41.4.5
+  - '41.15'
+- paper: P003
+  count: 5
+  locations:
+  - '41.5'
+  - 41.5.1
+  - 41.5.2
+  - 41.5.3
+  - 41.5.4
+  - '41.15'
+- paper: P004
+  count: 7
+  locations:
+  - '41.6'
+  - 41.6.1
+  - 41.6.2
+  - 41.6.3
+  - 41.6.4
+  - '41.15'
+- paper: P005
+  count: 5
+  locations:
+  - '41.7'
+  - 41.7.1
+  - 41.7.2
+  - 41.7.3
+  - 41.7.4
+  - '41.15'
+- paper: P046
+  count: 6
+  locations:
+  - '41.11'
+  - 41.11.1
+  - 41.11.2
+  - 41.11.3
+  - 41.11.4
+  - 41.11.5
+  - 41.11.6
+  - '41.15'
+- paper: P106
+  count: 7
+  locations:
+  - '41.8'
+  - 41.8.1
+  - 41.8.2
+  - 41.8.3
+  - 41.8.4
+  - 41.8.5
+  - 41.8.6
+  - 41.8.7
+  - '41.15'
+- paper: P109
+  count: 6
+  locations:
+  - '41.9'
+  - 41.9.1
+  - 41.9.2
+  - 41.9.3
+  - 41.9.4
+  - 41.9.5
+  - '41.15'
+- paper: P136
+  count: 5
+  locations:
+  - '41.10'
+  - 41.10.1
+  - 41.10.2
+  - 41.10.3
+  - 41.10.4
+  - '41.15'
+- paper: P137
+  count: 5
+  locations:
+  - '41.12'
+  - 41.12.1
+  - 41.12.2
+  - 41.12.3
+  - 41.12.4
+  - '41.15'
+unsupported_claims:
+- location: 41.3.1
+  claim: INP 取代 FID 是因为 FID 只看首次交互，而实际应用中用户会频繁交互，INP 覆盖全周期、取高分位，更能反映真实卡顿体验
+  reason: 素材中未直接说明 INP 取代 FID 的具体原因，仅在概念地图中列出 FID/INP 定义
+- location: 41.3.3
+  claim: CLS 必须过滤 hadRecentInput
+  reason: 素材中未明确提及 CLS 采集需过滤 hadRecentInput 的具体技术细节
+- location: 41.3.3
+  claim: 'INP 需对 event 类型设置 durationThreshold: 0 捕获所有交互'
+  reason: 素材中未提及 durationThreshold 参数配置细节
+- location: 41.4.2
+  claim: '最佳实践：库作者在 package.json 声明 sideEffects: false 并确保纯 ESM；应用层在 vite.config.ts
+    设置 treeshake: { moduleSideEffects: ''no-external'' } 仅对外部依赖信任，自有代码保守处理'
+  reason: 素材中仅提及 sideEffects 配置，未给出最佳实践的具体建议
+- location: 41.4.4
+  claim: 'passes: 2 多轮压缩能进一步压缩 1-3% 体积，代价是构建时间翻倍'
+  reason: 素材中未提及 passes 参数的具体压缩效果和构建时间影响
+- location: 41.5.2
+  claim: modulepreload 是专门针对 ES Module，预解析依赖图，避免瀑布流
+  reason: 素材中仅列出 modulepreload，未解释其针对 ESM 依赖图预解析的技术细节
+- location: 41.5.4
+  claim: 版本更新广播：新 SW 激活，通知页面刷新或提示用户更新
+  reason: 素材中仅提及离线首屏与版本更新广播，未给出具体广播机制代码实现
+- location: 41.6.2
+  claim: 进阶优化可用 Fenwick Tree (树状数组) 将更新复杂度从 O(n) 降到 O(log n)
+  reason: 素材中仅提示 Fenwick Tree 作为进阶方向，未展开说明其在虚拟列表前缀和维护中的具体应用
+- location: 41.6.3
+  claim: Transferable Objects 实现零拷贝：ArrayBuffer 所有权从主线程转移给 Worker，避免结构化克隆的内存拷贝开销
+  reason: 素材中提及 Transferable Objects 但未详细解释零拷贝原理
+- location: 41.6.4
+  claim: isInputPending() 让我们在用户正在操作时主动避让，显著降低 INP
+  reason: 素材中仅列出 isInputPending API，未说明其对 INP 优化的具体效果
+- location: 41.7.2
+  claim: CLS 累积 / INP 取最大值 符合标准定义
+  reason: 素材中未明确 INP 计算采用最大值而非分位数的采集逻辑
+- location: 41.7.3
+  claim: ClickHouse 宽表设计：PARTITION BY 天分区利于冷热分离，ORDER BY 索引加速多维查询，Enum8 极致压缩低基数字段
+  reason: 素材中仅给出建表 SQL，未解释分区、索引、枚举类型的工程化选型理由
+- location: 41.7.4
+  claim: '告警规则展示了基于 5 分钟窗口 P75 的持续超标判定，避免单点抖动误报，配合 for: 5m 持续性检查'
+  reason: '素材中仅给出告警规则示例，未解释 5 分钟窗口和 for: 5m 的工程化考量'
+- location: 41.8.4
+  claim: 工程化策略：元素识别为主，图像识别兜底
+  reason: 素材中虽对比两种识别方式，但未明确提出该策略为工程化标准做法
+- location: 41.8.5
+  claim: 校准方法：定标实验、拟合曲线、运行时自适应、锚点校验
+  reason: 素材中仅提出滑动参数非线性问题，未给出系统性校准方法论
+- location: 41.8.6
+  claim: 核心原则：单次异常不终止整体任务，最大化完成率
+  reason: 素材中展示容错流程图，但未提炼出该核心原则
+- location: 41.8.7
+  claim: 三层数据建模将原始采集数据转化为可决策的分析资产
+  reason: 素材中描述底表和透视表，未显式提炼三层建模概念
+- location: 41.9.2
+  claim: 核心原则：精准流量 > 泛流量。百赞精准笔记远优于万赞泛流量笔记
+  reason: 素材中提及精准流量优于泛流量，但未量化对比百赞与万赞的效果差异
+- location: 41.9.3
+  claim: 手写纸条 SOP：类人属性强、OCR 识别难、图片指纹唯一、规避查重
+  reason: 素材中提及手写方式规避检测，未系统分析其四大技术优势
+- location: 41.9.5
+  claim: 合规手段：手写/手绘破坏 OCR 识别、图片指纹唯一、规避同一图片群发判定
+  reason: 素材中仅提及手写、打码、关键词、小号协作，未深入分析手写破坏 OCR 的技术原理
+- location: 41.10.2
+  claim: 核心优势：中文下指令、英文出专业内容，彻底消解英语不好做不了跨境的语言壁垒
+  reason: 素材中提及中英双语无损生产，未明确其消解语言壁垒的机制
+- location: 41.10.4
+  claim: 核心护城河：垂直领域 Know-how 固化（Prompt 即 IP）、数据飞轮
+  reason: 素材中提及工具化封装进化路径，未显式提炼护城河构成要素
+- location: 41.11.2
+  claim: 短周期 (≤1年) + 高收益 (≥100%) 强制要求快注册、快下证、快出手
+  reason: 素材中给出 ROI 公式和持有周期目标，未推导其对全链路标准化的倒逼作用
+- location: 41.11.3
+  claim: 决策规则：核心层全覆盖；机会层高投入高回报；观察层小仓位期权
+  reason: 素材中列出四维度国家矩阵，未给出明确的分层决策规则
+- location: 41.11.4
+  claim: 组合逻辑：稳健仓保现金流、蓝海仓博超额收益，季度动态调仓
+  reason: 素材中给出双仓类目示例，未明确组合逻辑和调仓频率
+- location: 41.11.5
+  claim: 域名即品牌资产，短域名可用性是硬性一票否决指标
+  reason: 素材中提及域名查询，未将其定性为硬性一票否决指标
+- location: 41.11.6
+  claim: 风控红线：单标注册成本 ≤ 8000 元，总投入不超预算，预留 20% 应对驳回/异议/复审
+  reason: 素材中给出注册成本范围，未提及预留 20% 风控资金的具体要求
+- location: 41.12.2
+  claim: 天分 = 相对于他人，你不讨厌/不厌其烦做某事的微小优势
+  reason: 素材中定义不讨厌为天分火种，未用相对耐受优势的数学化表述
+- location: 41.12.4
+  claim: 关键成功因子：公开承诺利用损失厌恶驱动执行、极简制作单条 ≤ 30 分钟、只做减法核心是有价值的信息密度
+  reason: 素材中描述边学边教飞轮，未提炼出这三个具体执行要素
+- location: 41.13.1
+  claim: 六大领域在指标先行、最小闭环、标准化/工具化、长尾/分位数思维四维度高度共识
+  reason: 素材中未进行跨领域方法论共识的系统性抽象对比
+- location: 41.13.2
+  claim: 前端性能与 RPA 属于确定性工程，后四者属于概率性运营，复合型人才最稀缺
+  reason: 素材中未对六大领域进行确定性与概率性的二分类分析
+- location: '41.14'
+  claim: 全量埋点性能悖论：监控代码本身成为性能杀手，污染被测指标
+  reason: 素材中未讨论全量埋点与 PerformanceObserver 的取舍理由
+- location: '41.14'
+  claim: 图像识别脆弱性极高：分辨率/缩放/主题/字体/弹窗遮挡/动画过渡均导致匹配失败
+  reason: 素材中提及图像识别易受影响，未列举完整影响因子清单
+- location: '41.14'
+  claim: 爆款依赖推荐算法分发不可控、波动大；精准内容依赖搜索/标签/垂类推荐可控、长尾长
+  reason: 素材中对比爆款与精准流量，未从算法机制层面分析分发差异
+missing_concepts:
+- paper: P001
+  concept: FCP (First Contentful Paint) 与 LCP 的区别与联系
+  severity: medium
+- paper: P001
+  concept: TTI (Time to Interactive) 与 INP/FID 的演进关系
+  severity: medium
+- paper: P002
+  concept: 动态导入 import() 与 require.ensure 的代码分割差异
+  severity: low
+- paper: P002
+  concept: CSS 代码分割与 JS 代码分割的协同策略
+  severity: low
+- paper: P003
+  concept: HTTP/3 (QUIC) 相比 HTTP/2 在弱网下的性能优势
+  severity: medium
+- paper: P003
+  concept: Service Worker 与 HTTP 缓存 (Cache-Control/ETag) 的协同与冲突处理
+  severity: high
+- paper: P004
+  concept: requestAnimationFrame 与 scheduler.yield 在动画帧调度中的配合
+  severity: medium
+- paper: P004
+  concept: Long Task API 监控数据的自动化上报与分析体系
+  severity: high
+- paper: P005
+  concept: SDK 采样率配置与数据代表性的统计学权衡
+  severity: high
+- paper: P005
+  concept: 前端监控数据的脱敏合规处理 (PII/GDPR)
+  severity: high
+- paper: P106
+  concept: RPA 与传统爬虫 (Puppeteer/Playwright) 的技术选型边界
+  severity: high
+- paper: P106
+  concept: RPA 流程的版本管理、灰度发布与回滚机制
+  severity: high
+- paper: P109
+  concept: 小红书引流的账号矩阵化运营与 IP 隔离策略
+  severity: high
+- paper: P109
+  concept: 私域流量的精细化分层运营 (RFM 模型/生命周期)
+  severity: medium
+- paper: P136
+  concept: Prompt 注入攻击防御与输出内容安全审核机制
+  severity: high
+- paper: P136
+  concept: AI 生成内容的版权归属与合规风险 (原创度/抄袭/平台政策)
+  severity: high
+- paper: P046
+  concept: 商标注册的近似驳回风险量化评估模型 (编辑距离/语音相似/含义关联)
+  severity: high
+- paper: P046
+  concept: 商标组合的投资组合理论优化 (马科维茨/风险平价/Black-Litterman)
+  severity: medium
+- paper: P137
+  concept: 抖音推荐算法的底层机制 (协同过滤/双塔模型/多目标排序)
+  severity: high
+- paper: P137
+  concept: 个人 IP 变现的产品阶梯设计 (引流款/信任款/利润款/高客单)
+  severity: medium

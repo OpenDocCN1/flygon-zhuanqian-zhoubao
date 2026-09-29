@@ -1,0 +1,92 @@
+citation_stats:
+- paper: P001
+  count: 5
+  locations:
+  - '45.3'
+  - '45.3'
+  - '45.3'
+  - '45.3'
+  - '45.3'
+- paper: P002
+  count: 4
+  locations:
+  - '45.4'
+  - '45.4'
+  - '45.4'
+  - '45.4'
+- paper: P003
+  count: 5
+  locations:
+  - '45.5'
+  - '45.5'
+  - '45.5'
+  - '45.5'
+  - '45.5'
+- paper: P004
+  count: 6
+  locations:
+  - '45.6'
+  - '45.6'
+  - '45.6'
+  - '45.6'
+  - '45.6'
+  - '45.6'
+- paper: P005
+  count: 4
+  locations:
+  - '45.7'
+  - '45.7'
+  - '45.7'
+  - '45.7'
+- paper: P105
+  count: 7
+  locations:
+  - '45.8'
+  - '45.8'
+  - '45.8'
+  - '45.8'
+  - '45.8'
+  - '45.8'
+  - '45.8'
+- paper: P136
+  count: 7
+  locations:
+  - '45.8'
+  - '45.8'
+  - '45.8'
+  - '45.8'
+  - '45.8'
+  - '45.8'
+  - '45.8'
+unsupported_claims:
+- location: '45.1'
+  claim: 前端效能平台是一个装修公司的标准化作业体系
+  reason: 素材中未找到支撑该生活类比的内容
+- location: '45.3'
+  claim: 脚手架工程化包含四大核心支柱：模版引擎、Monorepo管理、插件化扩展机制、自动发布流程
+  reason: 素材中仅提到交互式生成器、Monorepo多包管理、插件化扩展机制、版本升级策略，未明确总结为四大核心支柱
+- location: '45.8'
+  claim: AI赋能研发效能包含AI编程助手现状对比、RAG私有知识库构建、Agent自动化工作流、前端专用模型微调、AI Code Review机器人
+  reason: 素材中仅包含RAG知识库、Agent工作流、模型微调、Code Review等内容，未明确包含AI编程助手现状对比
+missing_concepts:
+- paper: P001
+  concept: 脚手架工程化的具体实施案例与数据支撑
+  severity: high
+- paper: P002
+  concept: 组件物料平台的具体技术选型与架构图
+  severity: high
+- paper: P003
+  concept: 低代码搭建引擎的Schema协议完整版与双向同步技术细节
+  severity: high
+- paper: P004
+  concept: 研发效能度量体系的自动化数据采集具体实现方案
+  severity: high
+- paper: P005
+  concept: 前端效能平台MVP的组织推动机制具体落地步骤
+  severity: medium
+- paper: P105
+  concept: AI编程助手选型的详细对比评测数据
+  severity: high
+- paper: P136
+  concept: 前端专用模型微调的具体训练数据构建管线
+  severity: high
