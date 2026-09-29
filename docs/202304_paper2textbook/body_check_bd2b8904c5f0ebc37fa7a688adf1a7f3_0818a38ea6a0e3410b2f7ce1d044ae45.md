@@ -1,0 +1,19 @@
+
+- 多个小节缺少方法演进图/流程图（Mermaid 图表）：15.3 Wasm 核心概念、15.4 工具链实战、15.5 JS-Wasm 互操作深度、15.6 前沿提案与生产实践、15.7 实战集成、15.8 ChatGPT 核心认知与提示词工程、15.9 AI 时代个人核心竞争力、15.10 多源对照、15.11 设计中的取舍。模板要求“每个小节是否有方法演进图或者流程图”。
+- 15.5 节“互操作性能优化检查清单”包含 Mermaid 图表，但该图为流程图而非方法演进图；建议补充工具链演进图（Emscripten → wasm-pack → AssemblyScript → 组件模型）、互操作方案演进图（数值直传 → 指针借用 → SharedArrayBuffer → WebIDL Bindings）、前沿提案演进图（MVP → SIMD → 多线程 → GC → 组件模型/WASI）。
+- 15.7 节“标准化工程流程图”使用 flowchart 而非方法演进图，建议改为展示技术方案演进路线（如：手动实例化 → wasm-pack + bundler → Vite 插件 HMR → Worker 卸载 → 组件模型集成）。
+- 15.8 节“四步内容生产 SOP”含流程图，但缺少提示词工程方法论演进图（如：零样本 → Few-shot → 结构化模板 → DSPy/OPRO 自动优化 → Prompt 库资产化）。
+- 15.9 节“认知升级路径”含流程图，但缺少双核竞争力模型演进图（工具使用者 → 方法论沉淀者 → Prompt 工程师 → AI 原生架构师）。
+- 存在 `[需要补充文献]` 标记未清理：15.4 节“多源对照”末尾遗留“> [需要补充文献] AssemblyScript 在 SIMD/多线程/GC 提案上的支持进度与生产可用性对比。”，正文中不应出现该标记，需补充内容或删除。
+- 15.2 概念地图中“多线程 (Worker + Atomics)”条目来源 ID 疑似笔误：`AnkEdEtEtoXIbexWlQ6zenFf.md` 与其他条目 `AnkEdEtEtoXIbexWlQ3cL6zenFf.md` 不一致，建议核对修正。
+- 15.3 节“WASI 跨平台能力”在概念地图与正文均有涉及，但正文中 WASI 相关内容主要放在 15.6 节，建议在 15.3 节增加 WASI 简要定义与定位段落，避免概念地图与正文结构割裂。
+- 15.6 节 WasmGC 部分提到“预计 2025 年主流浏览器稳定支持”，但 WasmGC 已于 2024 年在 Chrome/Firefox 稳定版启用（Chrome 119+、Firefox 120+），建议更新为当前真实支持状态。
+- 15.6 节组件模型部分提到“浏览器端 `wasm-component` 提案允许网页动态加载组件”，目前浏览器原生支持尚未落地，主要在服务端运行时生效，建议修正表述避免误导。
+- 15.7 节“性能基准对比方法论”表格中“内存峰值”采集方式写 `performance.memory.usedJSHeapSize`，该 API 非标准且仅 Chrome 支持，建议补充标准化方案或标注兼容性。
+- 15.7 节 Service Worker 缓存策略代码中引用 `wasm-pack build --out-name wasm-filters-[hash]`，当前 wasm-pack 不支持该参数，建议改为构建脚本重命名或使用 `rollup-plugin-wasm` 配置输出文件名哈希。
+- 15.8 节 Prompt 库“范文/案例库”建议使用向量库，但未说明如何构建嵌入索引与检索流程，建议补充一段落地实施说明或流程图。
+- 15.11 节“设计中的取舍”采用表格对比而非“一问一答形式，完整段落不要列表”，模板要求设计取舍分析需为问答段落形式，建议改写为 Q&A 段落。
+- 15.11 节未覆盖“AI 生成 Wasm 代码”与“AI 优化 Wasm 性能”等协同机会的取舍分析，建议补充相关问答。
+- 全书公式块后均缺少“解释其作用”的段落：如 15.3 节 Memory 定义公式、15.5 节边界调用开销经验法则公式化描述等，模板要求“公式块后是否有一段话解释其作用”。
+- 15.5 节“数据传递四大模式对比”中模式 2 手动内存管理代码使用 `std::mem::forget` 与 `Vec::from_raw_parts` 析构，但未解释为何不直接用 `Box::leak`/`Box::from_raw`，建议补充设计取舍说明。
+- 15.7 节 Worker 代码中 `imageData.data.buffer` 直接传给 `Uint8Array` 可能因 `Uint8ClampedArray` 视图导致底层 buffer 偏移/长度不匹配，建议改用 `new Uint8Array(imageData.data.buffer, imageData.data.byteOffset, imageData.data.byteLength)` 并解释原因。
