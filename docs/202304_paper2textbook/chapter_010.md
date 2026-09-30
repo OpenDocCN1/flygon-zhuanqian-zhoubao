@@ -2,6 +2,7 @@
 
 
 
+
 # 第 10 章 微前端架构落地 —— 从 qiankun 到 Module Federation 的技术选型与治理
 
 ## 学习目标
@@ -71,11 +72,11 @@
 │   ├── 基座路由分发与状态同步：主应用管登录/权限/菜单，props 下发  —— P005
 │   └── 灰度发布与回滚：Nginx 金丝雀/一键回滚/监控兜底自动触发  —— P005
 └── AI 赋能微前端工程化
-    ├── 提示词工程落地：基座/子应用代码生成、配置模版化、Prompt 库沉淀  —— P120,P139
-    ├── RPA 自动化集成：脚手架生成、依赖升级、发布流水线、监控巡检  —— P106,P140
-    ├── 智能路由与分发：AI 感知路由匹配、动态基座加载、跨应用状态同步  —— P041,P109
-    ├── 自动化测试与监控：E2E 用例生成、沙箱异常诊断、性能基线智能告警  —— P039,P046
-    └── 遗留系统 AI 重构：代码理解、生命周期补全、依赖拓扑分析、增量迁移  —— P022,P036
+    ├── 提示词工程落地：基座/子应用代码生成、配置模版化、Prompt 库沉淀  —— 20230418_120.md, 20230418_139.md
+    ├── RPA 自动化集成：脚手架生成、依赖升级、发布流水线、监控巡检  —— 20230418_106.md, 20230418_140.md
+    ├── 智能路由与分发：AI 感知路由匹配、动态基座加载、跨应用状态同步  —— 20230418_041.md, 20230418_109.md
+    ├── 自动化测试与监控：E2E 用例生成、沙箱异常诊断、性能基线智能告警  —— 20230418_039.md, 20230418_046.md
+    └── 遗留系统 AI 重构：代码理解、生命周期补全、依赖拓扑分析、增量迁移  —— 20230418_022.md, 20230418_036.md
 
 ## 10.3 架构决策矩阵 —— 量化评估微前端的“入场券”
 
@@ -134,17 +135,17 @@ flowchart TD
 我们将收益与成本显性化建模，避免拍脑袋决策。该模型通过将工程效能转化为货币价值，与基建投入直接对比：
 
 $$
-\text{收益} = \text{发布效率提升比} \times \text{团队规模} \times \text{人均时薪} \times \text{年发布次数}
+\text{Benefit} = \text{ReleaseEfficiencyGain} \times \text{TeamSize} \times \text{HourlyRate} \times \text{AnnualReleases}
 $$
 
 $$
-\text{成本} = \text{基建投入(人月)} + \text{运行时开销(首屏JS增量KB} \times \text{流量权重)} + \text{认知负荷(人月/季度)}
+\text{Cost} = \text{InfraInvestment} + \text{RuntimeOverhead} + \text{CognitiveLoad}
 $$
 
 **变量解释**：
-- **发布效率提升比**：微前端落地后，单次发布耗时缩短的比例（如从 30min 降至 5min，提升比 = 6x）。
-- **运行时开销**：首屏 JS 增量（KB）乘以流量权重（PV 占比/带宽成本系数），量化用户侧性能损耗的货币化成本。
-- **认知负荷**：团队适应微前端调试、排查沙箱问题、维护基座所需的额外人月投入。
+- **ReleaseEfficiencyGain**：微前端落地后，单次发布耗时缩短的比例（如从 30min 降至 5min，提升比 = 6x）。
+- **RuntimeOverhead**：首屏 JS 增量（KB）乘以流量权重（PV 占比/带宽成本系数），量化用户侧性能损耗的货币化成本。
+- **CognitiveLoad**：团队适应微前端调试、排查沙箱问题、维护基座所需的额外人月投入。
 
 **经验法则**：当收益/成本比 < 1.5 时，微前端通常不划算。
 
@@ -257,20 +258,20 @@ qiankun 提供三级样式隔离强度，由强到弱。下表对比了三种方
 
 ```typescript
 // 子应用入口文件标准导出
-export async function bootstrap(props) {
+export async function bootstrap(props: MicroAppProps): Promise<void> {
   // 仅执行一次：全局初始化、注册全局事件、挂载公共依赖
 }
 
-export async function mount(props) {
+export async function mount(props: MicroAppProps): Promise<void> {
   // 每次挂载执行：渲染应用、绑定路由、订阅基座事件
   // props 包含：basename, globalState, setGlobalState 等
 }
 
-export async function unmount(props) {
+export async function unmount(props: MicroAppProps): Promise<void> {
   // 卸载时执行：销毁实例、清理定时器/事件、卸载路由、清空 DOM
 }
 
-export async function update(props) {
+export async function update(props: MicroAppProps): Promise<void> {
   // 可选：基座主动触发更新（如用户信息变更、主题切换）
 }
 ```
@@ -572,9 +573,9 @@ class MicroRouter {
 ```javascript
 // 基座注入 window.__MICRO_MONITOR__
 window.__MICRO_MONITOR__ = {
-  reportError: (error, context) => { /* 上报 Sentry/自建平台 */ },
-  reportPerf: (metrics) => { /* 上报 Web Vitals */ },
-  trackEvent: (eventName, payload) => { /* 业务埋点 */ }
+  reportError: (error: Error, context: Record<string, unknown>) => { /* 上报 Sentry/自建平台 */ },
+  reportPerf: (metrics: PerformanceMetrics) => { /* 上报 Web Vitals */ },
+  trackEvent: (eventName: string, payload: Record<string, unknown>) => { /* 业务埋点 */ }
 }
 
 // 子应用统一调用
@@ -699,6 +700,10 @@ flowchart TD
 }
 
 // 2. vite.config.ts 关键配置
+import { defineConfig } from 'vite'
+import legacyPlugin from '@vitejs/plugin-legacy'
+import federation from '@originjs/vite-plugin-federation'
+
 export default defineConfig({
   plugins: [
     legacyPlugin({ targets: ['ie >= 11'] }),
@@ -724,11 +729,11 @@ export default defineConfig({
 import App from './App'
 let instance = null
 
-export async function bootstrap() {
+export async function bootstrap(): Promise<void> {
   console.log('legacy bootstrap')
 }
 
-export async function mount(props) {
+export async function mount(props: MicroAppProps): Promise<void> {
   instance = new Vue({ render: h => h(App) }).$mount(
     props.container ? props.container.querySelector('#root') : document.getElementById('root')
   )
@@ -736,7 +741,7 @@ export async function mount(props) {
   window.__MICRO_PROPS__ = props
 }
 
-export async function unmount() {
+export async function unmount(): Promise<void> {
   instance.$destroy()
   instance.$el.innerHTML = ''
   instance = null
@@ -993,6 +998,12 @@ graph LR
 
 ```typescript
 // 智能路由预测服务伪代码
+interface BehaviorEvent {
+  type: string
+  timestamp: number
+  payload: Record<string, unknown>
+}
+
 class SmartRouter {
   private model: TensorFlowModel // 轻量 LSTM/Transformer
   private preloadCache: Set<string> = new Set()
@@ -1006,7 +1017,7 @@ class SmartRouter {
       .slice(0, 2) // 最多预加载 2 个
   }
   
-  async preloadApps(appNames: string[]) {
+  async preloadApps(appNames: string[]): Promise<void> {
     for (const name of appNames) {
       if (!this.preloadCache.has(name)) {
         // 动态 import remoteEntry.js
@@ -1227,6 +1238,7 @@ Host（基座）与 RemoteA、RemoteB 均配置 `shared: { react: { singleton: t
 | 遗留系统 AI 重构 | 代码理解、生命周期补全、依赖拓扑分析、增量迁移，将不确定性极高的重构包装成确定性 SOP |
 
 下一章中，我们将学习 **Node.js 服务端开发与 BFF 模式**，探索前端工程师的全栈进阶路径，覆盖 NestJS/Koa 框架选型、TypeScript 实践、数据库 ORM、认证鉴权、部署运维等核心内容。
+
 
 
 
