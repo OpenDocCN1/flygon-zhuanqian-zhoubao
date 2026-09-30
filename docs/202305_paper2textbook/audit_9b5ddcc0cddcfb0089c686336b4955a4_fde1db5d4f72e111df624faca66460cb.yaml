@@ -1,0 +1,400 @@
+citation_stats:
+- paper: docs/202305/20230516_053.md
+  count: 42
+  locations:
+  - '3.1'
+  - '3.3'
+  - '3.4'
+  - '3.5'
+  - '3.6'
+  - '3.7'
+  - '3.8'
+  - '3.9'
+  - '3.10'
+  - '3.11'
+- paper: docs/202305/20230516_054.md
+  count: 3
+  locations:
+  - '3.3'
+- paper: docs/202305/20230516_055.md
+  count: 2
+  locations:
+  - '3.3'
+- paper: docs/202305/20230516_056.md
+  count: 2
+  locations:
+  - '3.3'
+- paper: docs/202305/20230516_057.md
+  count: 2
+  locations:
+  - '3.3'
+- paper: docs/202305/20230516_058.md
+  count: 2
+  locations:
+  - '3.3'
+- paper: docs/202305/20230516_059.md
+  count: 2
+  locations:
+  - '3.3'
+- paper: docs/202305/20230516_060.md
+  count: 2
+  locations:
+  - '3.3'
+- paper: docs/202305/20230516_061.md
+  count: 2
+  locations:
+  - '3.3'
+- paper: docs/202305/20230516_062.md
+  count: 2
+  locations:
+  - '3.3'
+- paper: docs/202305/20230516_063.md
+  count: 2
+  locations:
+  - '3.3'
+- paper: docs/202305/20230516_064.md
+  count: 2
+  locations:
+  - '3.3'
+- paper: docs/202305/20230516_065.md
+  count: 2
+  locations:
+  - '3.3'
+- paper: docs/202305/20230516_066.md
+  count: 2
+  locations:
+  - '3.3'
+- paper: docs/202305/20230516_067.md
+  count: 2
+  locations:
+  - '3.3'
+- paper: docs/202305/20230516_068.md
+  count: 2
+  locations:
+  - '3.3'
+- paper: docs/202305/20230516_069.md
+  count: 2
+  locations:
+  - '3.3'
+- paper: docs/202305/20230516_070.md
+  count: 2
+  locations:
+  - '3.3'
+- paper: docs/202305/20230516_071.md
+  count: 2
+  locations:
+  - '3.3'
+- paper: docs/202305/20230516_072.md
+  count: 2
+  locations:
+  - '3.3'
+- paper: docs/202305/20230516_073.md
+  count: 2
+  locations:
+  - '3.3'
+- paper: docs/202305/20230516_074.md
+  count: 2
+  locations:
+  - '3.3'
+- paper: docs/202305/20230516_075.md
+  count: 2
+  locations:
+  - '3.3'
+- paper: docs/202305/20230516_076.md
+  count: 2
+  locations:
+  - '3.3'
+- paper: docs/202305/20230516_077.md
+  count: 2
+  locations:
+  - '3.3'
+- paper: docs/202305/20230516_078.md
+  count: 2
+  locations:
+  - '3.3'
+- paper: docs/202305/20230516_079.md
+  count: 2
+  locations:
+  - '3.3'
+- paper: docs/202305/20230516_080.md
+  count: 2
+  locations:
+  - '3.3'
+- paper: docs/202305/20230516_081.md
+  count: 2
+  locations:
+  - '3.3'
+- paper: docs/202305/20230516_082.md
+  count: 2
+  locations:
+  - '3.3'
+- paper: docs/202305/20230516_083.md
+  count: 2
+  locations:
+  - '3.3'
+- paper: docs/202305/20230516_084.md
+  count: 2
+  locations:
+  - '3.3'
+- paper: docs/202305/20230516_085.md
+  count: 2
+  locations:
+  - '3.3'
+- paper: docs/202305/20230516_086.md
+  count: 2
+  locations:
+  - '3.3'
+- paper: docs/202305/20230516_087.md
+  count: 2
+  locations:
+  - '3.3'
+- paper: docs/202305/20230516_088.md
+  count: 2
+  locations:
+  - '3.3'
+- paper: docs/202305/20230516_089.md
+  count: 2
+  locations:
+  - '3.3'
+- paper: docs/202305/20230516_090.md
+  count: 2
+  locations:
+  - '3.3'
+- paper: docs/202305/20230516_091.md
+  count: 2
+  locations:
+  - '3.3'
+- paper: docs/202305/20230516_092.md
+  count: 2
+  locations:
+  - '3.3'
+- paper: docs/202305/20230516_093.md
+  count: 2
+  locations:
+  - '3.3'
+- paper: docs/202305/20230516_094.md
+  count: 2
+  locations:
+  - '3.3'
+- paper: docs/202305/20230516_095.md
+  count: 2
+  locations:
+  - '3.3'
+- paper: docs/202305/20230516_096.md
+  count: 2
+  locations:
+  - '3.3'
+- paper: docs/202305/20230516_097.md
+  count: 2
+  locations:
+  - '3.3'
+- paper: docs/202305/20230516_098.md
+  count: 2
+  locations:
+  - '3.3'
+- paper: docs/202305/20230516_099.md
+  count: 2
+  locations:
+  - '3.3'
+- paper: docs/202305/20230516_100.md
+  count: 2
+  locations:
+  - '3.3'
+- paper: docs/202305/20230516_101.md
+  count: 2
+  locations:
+  - '3.3'
+- paper: docs/202305/20230516_102.md
+  count: 2
+  locations:
+  - '3.3'
+- paper: docs/202305/20230516_103.md
+  count: 2
+  locations:
+  - '3.3'
+- paper: docs/202305/20230516_104.md
+  count: 2
+  locations:
+  - '3.3'
+- paper: docs/202305/20230516_105.md
+  count: 2
+  locations:
+  - '3.3'
+- paper: AVx7dEXmpoRJazx3nH8cceBOnhd.md
+  count: 1
+  locations:
+  - '3.3'
+- paper: AxQ8duaITowcrCx54hocWSy4nnb.md
+  count: 1
+  locations:
+  - '3.3'
+- paper: BzIfdvAQloqLImxjEhKcERAXn5f.md
+  count: 1
+  locations:
+  - '3.3'
+- paper: CBJhdD0dTokH8tx8HKYc1nJSnnc.md
+  count: 1
+  locations:
+  - '3.3'
+- paper: DGw1dYHSsohHu7x1AXhc4cQVnEN.md
+  count: 1
+  locations:
+  - '3.3'
+- paper: Dy8mdu2JUoyQYRx2UnocHwOinaf.md
+  count: 1
+  locations:
+  - '3.3'
+- paper: E0aFdosjUobxU7xEQeCc7y8snyb.md
+  count: 1
+  locations:
+  - '3.3'
+- paper: EL9Fdl8WFoFxaixaJcLcqnXjn7r.md
+  count: 1
+  locations:
+  - '3.3'
+- paper: FJ8HdrA04o2efNx7E1ZcVgehnSe.md
+  count: 1
+  locations:
+  - '3.3'
+- paper: G2Zwdm2H7ol8FYxHEn7c0H2dn3c.md
+  count: 1
+  locations:
+  - '3.3'
+- paper: Geucd6qWAoGztLx5EOkcKmjWnQg.md
+  count: 1
+  locations:
+  - '3.3'
+- paper: Gn5NdifvBorUbdxvGl6ceQgXnpg.md
+  count: 1
+  locations:
+  - '3.3'
+- paper: GUHld91qQobms8x35tbcOUlSnZb.md
+  count: 1
+  locations:
+  - '3.3'
+- paper: HUSAdLZRCoBXiMxK0kFc99Qkndg.md
+  count: 1
+  locations:
+  - '3.3'
+- paper: HYrZdLBMRorB0qxKqFFcQ075nWf.md
+  count: 1
+  locations:
+  - '3.3'
+- paper: I8BLdIIfbobzkYxCLGBctYqbnae.md
+  count: 1
+  locations:
+  - '3.3'
+- paper: IZx7dx2CSo9x23xioUFcNaHcnRd.md
+  count: 1
+  locations:
+  - '3.3'
+- paper: M0hMdjWj3o8WtNxZdv4cLnfenIh.md
+  count: 1
+  locations:
+  - '3.3'
+- paper: M5lpdRp7OoHZAYxuDiicgGtSnpg.md
+  count: 1
+  locations:
+  - '3.3'
+- paper: Md2KdAjbDo0cdGxGMtncyb8CnLb.md
+  count: 1
+  locations:
+  - '3.3'
+- paper: NsZwdMgSxovqfxxgJqFc5XtXntb.md
+  count: 1
+  locations:
+  - '3.3'
+- paper: Nt9IdI0b0okp1MxGKBacQtxSn3e.md
+  count: 1
+  locations:
+  - '3.3'
+- paper: QPFgdHgZsorQvdxDkl9cw58LnVf.md
+  count: 1
+  locations:
+  - '3.3'
+- paper: R2wRd6dN2oUtkOx9I3WcLHAOnzc.md
+  count: 1
+  locations:
+  - '3.3'
+- paper: RaMIdAe9aoB1XcxwSRocx2mmnad.md
+  count: 1
+  locations:
+  - '3.3'
+- paper: RhRywNqifi3wjGkc4MacUiwXnxc.md
+  count: 1
+  locations:
+  - '3.3'
+- paper: TSZBdBfynoBINux2htWcefrtnHc.md
+  count: 1
+  locations:
+  - '3.3'
+- paper: U2lPdc1ayoNSPUxgsNfcEXrXn1d.md
+  count: 1
+  locations:
+  - '3.3'
+- paper: VILid7sleoZ6puxkchxcRM9vn6g.md
+  count: 1
+  locations:
+  - '3.3'
+- paper: VjTFdmoIhoOIuhx4wYUcc1XGn8g.md
+  count: 1
+  locations:
+  - '3.3'
+- paper: WX87d3F4SoVZLHxDNGzcDDVRn6R.md
+  count: 1
+  locations:
+  - '3.3'
+- paper: WzBCdY4A8omv2cxsneMcn1lJnEb.md
+  count: 1
+  locations:
+  - '3.3'
+- paper: YPhndkBKfocBV2xCfvucevIAn5y.md
+  count: 1
+  locations:
+  - '3.3'
+- paper: ZbFEdhEwsoqaNnxXzRicjWQOnkd.md
+  count: 1
+  locations:
+  - '3.3'
+- paper: ZXvbdq7RGoKEeLxryxAckCtSnPf.md
+  count: 1
+  locations:
+  - '3.3'
+unsupported_claims:
+- location: '3.3'
+  claim: 淘客模式结构性衰退定律包含'搜索权重机制失效(内容化改造)'这一环节
+  reason: 素材中仅提到'淘宝内容化改造削弱搜索权重'，未明确表述为'搜索权重机制失效'，且未详细论证内容化改造如何直接导致搜索权重机制失效
+- location: '3.4'
+  claim: 快团团平台不收取技术服务费
+  reason: 素材中提到'平台只收摊位费(技术服务费)'，与'不收技术服务费'表述矛盾
+- location: '3.4'
+  claim: 快团团商品价格更便宜是因为'免平台抽佣广告费'
+  reason: 素材原文表述为'商家在快团团上售卖，是不需要缴纳这些佣金和平台广告费的'，但未对比验证快团团是否完全免除所有平台费用
+- location: '3.5'
+  claim: 帮卖团长需自担售前售后与信用背书责任
+  reason: 素材中提到'售前和售后还是要帮卖团长自己去弄'，但未明确界定'信用背书责任'的具体法律边界
+- location: '3.6'
+  claim: 自由定价权将利润上限从'平台给多少'转变为'运营能跑出多少'
+  reason: 素材中作者观察到'擅长运营的团长通过自由定价，将单品利润率从佣金率30%提升至综合利润率50%+'，但未提供大样本统计数据支撑该结论的普适性
+- location: '3.7'
+  claim: 有赞推出群团团是因为'商家续费挑战非常大'
+  reason: 素材仅为作者推测'由于快团团这种平台出现，现在有赞的商家续费挑战非常大，所以有赞也推出了群团团'，缺乏有赞官方公开声明或第三方数据佐证
+missing_concepts:
+- paper: docs/202305/20230516_053.md
+  concept: 快团团平台对假货/售后的治理机制与处罚规则
+  severity: high
+- paper: docs/202305/20230516_053.md
+  concept: 微信私域分销合规政策红线（如分销层级限制、诱导分享判定标准）
+  severity: high
+- paper: docs/202305/20230516_053.md
+  concept: 快团团平台流量分发算法机制（推荐逻辑、搜索权重、标签体系）
+  severity: medium
+- paper: docs/202305/20230516_053.md
+  concept: 供货团长与帮卖团长佣金结算的税务合规操作SOP（开票主体、税率、申报流程）
+  severity: high
+- paper: docs/202305/20230516_053.md
+  concept: 快团团平台数据指标定义与统计口径（团员数、跟团数、黑金认证标准等）
+  severity: medium
+- paper: docs/202305/20230516_053.md
+  concept: 帮卖团长私域用户资产的法律归属权边界（平台协议 vs 微信生态规则）
+  severity: high

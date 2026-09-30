@@ -1,0 +1,82 @@
+citation_stats:
+- paper: docs/202305/20230516_005.md
+  count: 14
+  locations:
+  - 8.3 (4 quotes, 核心定理定义, 方法演进图, 核心性质, 典型例子对比表, 设计中的取舍)
+  - 8.10 多源对照 (共识/分歧分析表)
+  - 概念地图 (名利分离定理分支 4 项)
+- paper: docs/202305/20230516_011.md
+  count: 11
+  locations:
+  - 8.4 (5 quotes, 方法演进图, 定义, 核心性质, 典型例子, 设计中的取舍)
+  - 8.10 多源对照 (分歧分析表)
+  - 概念地图 (退休即再创业范式分支 4 项)
+- paper: docs/202305/M5lpdRp7OoHZAYxuDiicgGtSnpg.md
+  count: 48
+  locations:
+  - 8.1 生活类比 (7 个类比段落)
+  - 8.5 (5 quotes, 方法演进图, 定义, 核心传导机制, 关键性质, 标准化复盘三步法)
+  - 8.6 (4 quotes, 方法演进图, 定义, 核心公式与逐步推导, 关键性质, 典型例子映射表)
+  - 8.7 (4 quotes, 方法演进图, 三大微操作定义, 微操作执行协议表, 生理基础与复利性, 典型例子)
+  - 8.8 (3 quotes, 方法演进图, 核心定义, 关键文献引用, 物理协议执行标准, 焦虑解法, 典型例子)
+  - 8.9 (3 quotes, 方法演进图, 价值交换规律定义, 核心性质, 设计中的取舍, 典型例子)
+  - 8.10 多源对照 (共识/分歧分析)
+  - 8.11 设计中的取舍 (4 个 why not)
+  - 8.12 动手练习 (5 个练习)
+  - 8.13 本章小结 (概念表 20 行)
+  - 概念地图 (除名利分离与退休创业外的所有 6 大分支共 28 项)
+unsupported_claims:
+- location: 8.8 关键文献引用
+  claim: 冥想增大皮层面积/增厚灰质、运动促生神经元+1-2h黄金窗口脑力强化等生物学主张的 5 篇核心文献支撑
+  reason: 素材 docs/202305/M5lpdRp7OoHZAYxuDiicgGtSnpg.md 仅文字陈述“科学研究证明/表明”，未给出任何文献题录、作者、年份、期刊或
+    DOI；文中列出的 5 篇文献（Lazar 2005、Tang 2007、Erickson 2011、Cotman 2002、Lambourne 2010）均为编者后补，非原始素材内容
+- location: 8.6 学习本质公式推导第 2-4 步
+  claim: Learning = C + P 加法形式的数学推导、边界条件量化（C/P 0/0.5/1 三档）、操作化三步标准动作
+  reason: 素材 docs/202305/M5lpdRp7OoHZAYxuDiicgGtSnpg.md 仅给出 “学习 = 关联旧知 + 刻意缝合” 一句定性表述，未出现加法公式、量化阈值、30
+    秒/5 分钟诊断标准等细节，均为教程作者二次抽象推导
+- location: 8.10 多源对照-分歧表
+  claim: docs/202305/20230516_011.md 认为‘名气是资产（社群背书降低信任成本）’，docs/202305/M5lpdRp7OoHZAYxuDiicgGtSnpg.md
+    认为‘名气是工具（影响力放大价值，需守价值）’
+  reason: 两份素材原文均未直接表述‘名气是资产/工具’及‘社群背书降低信任成本’‘影响力放大价值’等定性结论，表格中标注的 [编者综合/推断] 内容属于教程作者基于案例的二次解读，非素材直接支撑
+- location: 8.3 方法演进图 Mermaid 代码
+  claim: 名利分离定理的资产-负债转折路径图包含‘起点→名气为资产→跨越财务满足阈值→名气失去工具价值→负名气效应→觉醒者/未觉醒者分流→清福/耗竭’完整节点
+  reason: 素材 docs/202305/20230516_005.md 仅以 4 个案例叙述‘钱够用后拒绝曝光’，未提供结构化流程图节点定义，Mermaid
+    图为教程作者据文意绘制
+- location: 8.4 方法演进图 Mermaid 代码
+  claim: Lily姐全路径复盘包含‘退休→组建艺术团→媒体认证→打造民宿→闲鱼开店→eBay经验→加入大航海 4 项目→跨境电商卖家’ 8 个顺序节点
+  reason: 素材 docs/202305/20230516_011.md 仅以 6 句碎片化自述罗列身份/经验，未给出因果顺序或验证逻辑，节点顺序与‘MVP
+    验证’解释均为教程作者复盘构建
+missing_concepts:
+- paper: docs/202305/20230516_005.md
+  concept: 罗胖‘互联网放大伤害’论述（评论区引用）
+  severity: medium
+- paper: docs/202305/20230516_005.md
+  concept: ‘名利双收’成语的幸存者偏差本质（正文论述）
+  severity: medium
+- paper: docs/202305/20230516_011.md
+  concept: ‘低成本试错场’设计思想（正文‘每个动作都是 MVP 验证’)
+  severity: high
+- paper: docs/202305/20230516_011.md
+  concept: ‘百度可查媒体报道’作为社群背书信任锚点（正文强调）
+  severity: medium
+- paper: docs/202305/M5lpdRp7OoHZAYxuDiicgGtSnpg.md
+  concept: ‘慢心态快动作’执行节奏原则（正文原话）
+  severity: high
+- paper: docs/202305/M5lpdRp7OoHZAYxuDiicgGtSnpg.md
+  concept: ‘精力桶管理’配合番茄工作法（正文原话）
+  severity: medium
+- paper: docs/202305/M5lpdRp7OoHZAYxuDiicgGtSnpg.md
+  concept: ‘痛苦是成长信号’复盘核心原则（正文原话）
+  severity: high
+- paper: docs/202305/M5lpdRp7OoHZAYxuDiicgGtSnpg.md
+  concept: ‘感性-理性-感性’决策三明治结构（正文原话）
+  severity: high
+- paper: docs/202305/M5lpdRp7OoHZAYxuDiicgGtSnpg.md
+  concept: 巴菲特 12 大特质→个人周计划表的逐项映射内化实践（正文‘作者用 2 年打磨’)
+  severity: high
+- paper: docs/202305/M5lpdRp7OoHZAYxuDiicgGtSnpg.md
+  concept: ‘即时内化’高手习惯（正文‘高手发现好习惯立刻内化’)
+  severity: medium
+- paper: docs/202305/M5lpdRp7OoHZAYxuDiicgGtSnpg.md
+  concept: ‘享受当下’高于‘单纯专注’的身心合一要领（正文原话）
+  severity: high
