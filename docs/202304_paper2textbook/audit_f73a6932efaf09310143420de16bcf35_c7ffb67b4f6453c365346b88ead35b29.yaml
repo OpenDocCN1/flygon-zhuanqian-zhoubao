@@ -1,0 +1,101 @@
+citation_stats:
+- paper: P001
+  count: 6
+  locations:
+  - 47.3.2
+  - 47.3.3
+  - 47.3.4
+  - 47.3.5
+  - '47.10'
+- paper: P002
+  count: 6
+  locations:
+  - 47.4.2
+  - 47.4.3
+  - 47.4.4
+  - 47.4.5
+  - '47.10'
+- paper: P003
+  count: 7
+  locations:
+  - 47.5.2
+  - 47.5.3
+  - 47.5.4
+  - 47.5.5
+  - '47.10'
+- paper: P004
+  count: 6
+  locations:
+  - 47.6.2
+  - 47.6.3
+  - 47.6.4
+  - 47.6.5
+  - '47.10'
+- paper: P005
+  count: 6
+  locations:
+  - 47.7.2
+  - 47.7.3
+  - 47.7.4
+  - 47.7.5
+  - '47.10'
+unsupported_claims:
+- location: 47.3.2
+  claim: RoBERTa 的消融实验表明：配合更大批次（8k）、更多数据（160GB）、动态 Masking 等超参调整，单纯 MLM 即可超越原始 BERT
+  reason: 素材中未找到支撑
+- location: 47.4.2
+  claim: Hoffmann 等人 (2022) 重新拟合发现，在计算最优条件下，模型参数量与训练 Token 数应同比例缩放
+  reason: 素材中未找到支撑
+- location: 47.4.2
+  claim: Phi-1 (Gunasekar et al., 2023) 仅用 1.3B 参数、教科书质量代码数据，即超越同量级甚至更大的模型
+  reason: 素材中未找到支撑
+- location: 47.5.2
+  claim: ZeRO-3 每步需对全模型参数执行 All-gather（前向）和 Reduce-scatter（反向），通信量约 2 × 参数量 × 精度字节数
+  reason: 素材中未找到支撑
+- location: 47.5.2
+  claim: BF16 保留了 FP32 的 8 位指数位（动态范围约 3 × 10^38），与 FP32 一致，梯度几乎不会下溢，因此无需 Loss Scaling
+  reason: 素材中未找到支撑
+- location: 47.6.2
+  claim: MinHash LSH 算法原理...理论依据：对于单个 MinHash 函数 h，P(h(A)=h(B)) = J(A,B)。使用 k 个独立哈希函数，碰撞次数的期望为
+    k · J(A,B)
+  reason: 素材中未找到支撑
+- location: 47.6.2
+  claim: 参数选择通常基于期望的相似度阈值 s_0 最大化 P_cand 的斜率（Broder et al., 1997；Datasketch 文档工程实践）
+  reason: 素材中未找到支撑
+- location: 47.7.2
+  claim: 建议监控指标：梯度范数 ‖∇‖₂（正常 ~1.0，爆炸 > 100）
+  reason: 素材中未找到支撑
+missing_concepts:
+- paper: P001
+  concept: T5 模型的跨度损坏具体实现细节（如 span 长度分布、噪声密度等超参数设置）
+  severity: medium
+- paper: P002
+  concept: Chinchilla 定律推导中 α ≈ β ≈ 0.5 的实验拟合依据与局限性
+  severity: high
+- paper: P002
+  concept: Phi 系列模型的具体训练数据构成、合成数据生成流程及质量控制细节
+  severity: high
+- paper: P003
+  concept: 3D 并行拓扑在具体集群（如 128 卡、256 卡）下的最优切分策略与通信重叠调度细节
+  severity: medium
+- paper: P003
+  concept: ZeRO-3 结合 CPU/NVMe Offload 时的性能模型与内存管理策略
+  severity: medium
+- paper: P004
+  concept: 质量分类器（fastText/KenLM）的训练数据构造、特征工程、阈值校准完整流程
+  severity: high
+- paper: P004
+  concept: 课程学习的具体难度度量指标、数据排序算法、切换调度策略
+  severity: high
+- paper: P004
+  concept: 合成数据生成的提示词工程、质量过滤管线、分布坍缩检测与缓解方法
+  severity: high
+- paper: P005
+  concept: Loss Spike 自动化检测算法（阈值设定、平滑窗口、误报抑制）
+  severity: high
+- paper: P005
+  concept: Checkpoint 异步保存的一致性保障机制（分布式快照、参数服务器同步）
+  severity: medium
+- paper: P005
+  concept: 确定性训练在大规模集群下的落地约束与性能损耗量化
+  severity: medium
