@@ -1,0 +1,72 @@
+citation_stats:
+- paper: P004
+  count: 17
+  locations:
+  - '2.1'
+  - '2.3'
+  - '2.4'
+  - '2.14'
+- paper: P055
+  count: 15
+  locations:
+  - '2.2'
+  - '2.5'
+  - '2.11'
+- paper: P056
+  count: 12
+  locations:
+  - '2.2'
+  - '2.6'
+  - '2.7'
+- paper: M5lp
+  count: 89
+  locations:
+  - '2.1'
+  - '2.2'
+  - '2.3'
+  - '2.4'
+  - '2.5'
+  - '2.6'
+  - '2.7'
+  - '2.8'
+  - '2.9'
+  - '2.10'
+  - '2.11'
+  - '2.12'
+  - '2.13'
+  - '2.14'
+unsupported_claims:
+- location: '2.3'
+  claim: 认知清晰度 K(t) = ∫ L(τ)·D(τ) dτ 为核心公式推导
+  reason: 素材中未找到该积分公式，仅为文字表述“通过学习不断加深认知”
+- location: '2.4'
+  claim: 行动坚定度 R 为认知清晰度 K 的分段函数，存在阈值 θ
+  reason: 素材中仅有定性描述‘只有认知越清晰，行动才会越坚定’，无数学建模支撑
+- location: '2.6'
+  claim: 决策质量 Q = P_vision × P_plan × P_exec 乘法模型
+  reason: 素材中仅提及‘乐观构想-悲观计划-乐观实行’三阶段，无乘法概率公式
+- location: '2.10'
+  claim: 冥想增大皮层面积/增厚灰质、运动促生神经元、运动后1-2h黄金脑力窗口
+  reason: 素材M5lp引用Lazar等(2005)、Tang等(2015)、Erickson等(2011)、Cotman&Berchtold(2002)作为研究支撑，但全书正文未直接给出文献出处，仅在‘研究支撑’段落补充
+- location: '2.5'
+  claim: 镜像神经元减少导致共情下降是‘身居高位的脑损伤’的生理机制
+  reason: 素材P055仅有一句引述‘镜像神经元会减少，共情能力会下降’，无神经科学实证细节
+missing_concepts:
+- paper: P004
+  concept: 23个环环相扣的问题引导读者从混沌走向清晰的具体清单
+  severity: high
+- paper: P055
+  concept: 看人看事验证法的具体操作标准（如：观行果、做没做、做得如何）
+  severity: medium
+- paper: P056
+  concept: 鸡屎里找鸡蛋的实战案例（如比高从混杂信息中提炼决策养分的具体过程）
+  severity: high
+- paper: M5lp
+  concept: 巴菲特12大特质的具体拆解原子动作与周计划表2年迭代的实物图细节
+  severity: high
+- paper: M5lp
+  concept: 费曼技巧、刻意练习、关键点触发式读书的标准化执行SOP
+  severity: medium
+- paper: M5lp
+  concept: 三维语言重塑（积极/和善/开放语言）的具体替换词表与训练频次
+  severity: medium

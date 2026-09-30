@@ -1,0 +1,101 @@
+citation_stats:
+- paper: P001
+  count: 3
+  locations:
+  - 7.3.1
+  - 7.9.2
+  - '7.14'
+- paper: P002
+  count: 1
+  locations:
+  - 7.4.1
+- paper: P003
+  count: 34
+  locations:
+  - 7.3.3
+  - 7.4.1
+  - 7.4.4
+  - 7.5.1
+  - 7.5.2
+  - 7.5.4
+  - 7.5.6
+  - 7.6.1
+  - 7.6.2
+  - 7.6.3
+  - 7.7.1
+  - 7.7.2
+  - 7.7.3
+  - 7.7.4
+  - 7.7.5
+  - 7.9.2
+  - 7.9.4
+  - 7.9.5
+  - '7.14'
+- paper: P004
+  count: 0
+  locations: []
+- paper: P005
+  count: 11
+  locations:
+  - 7.8.1
+  - 7.8.3
+  - 7.8.4
+  - 7.8.5
+  - 7.8.6
+  - 7.8.7
+  - 7.8.8
+  - 7.8.9
+  - '7.14'
+- paper: P006
+  count: 3
+  locations:
+  - 7.4.1
+  - 7.8.1
+  - 7.8.3
+- paper: P007
+  count: 1
+  locations:
+  - 7.9.2
+- paper: P008
+  count: 17
+  locations:
+  - 7.10.1
+  - 7.10.2
+  - 7.10.3
+  - 7.10.4
+  - 7.10.5
+  - 7.10.6
+  - 7.10.7
+  - '7.14'
+unsupported_claims:
+- location: 7.4.4
+  claim: 增资上限公式逐步推导
+  reason: 素材中未找到详细的公式推导过程，仅有口述描述
+- location: 7.6.2
+  claim: 场景三：存款套利资源整合分工细节
+  reason: 素材中仅提及分工，未提供具体操作流程与利润分配比例细节
+- location: 7.7.4
+  claim: 三大致命坑实证对照表中的具体亏损金额
+  reason: 素材中描述模糊（如'100万仅剩1万'、'300万亏至60万'），缺乏账户流水佐证
+- location: 7.9.5
+  claim: 佣金流水规模佐证——评论区用户看到'佣金 1.13 千万'截图
+  reason: 素材仅提及评论区用户'云端'看到截图，无原始截图或官方数据验证
+- location: 7.10.5
+  claim: 快手内测期套利纯利润五位数(~10万+)
+  reason: 素材中仅作者自述，无平台结算单或税务记录佐证
+missing_concepts:
+- paper: P001
+  concept: 记账复盘体系的具体分类标准与模板
+  severity: high
+- paper: P003
+  concept: 三阶段风控体系的阶段切换触发条件量化指标
+  severity: high
+- paper: P003
+  concept: 合伙人制财务透明化体系的具体搭建步骤与工具
+  severity: medium
+- paper: P005
+  concept: 保险四件套的具体配置额度、保障责任与避坑指南
+  severity: high
+- paper: P008
+  concept: 少年创业七阶中'向上社交渗透'的具体话术与长期关系维护方法
+  severity: medium
