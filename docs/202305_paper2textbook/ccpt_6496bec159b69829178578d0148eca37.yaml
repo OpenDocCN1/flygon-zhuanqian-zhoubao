@@ -1,0 +1,67 @@
+paper: docs/202305/20230516_076.md
+desc: 该素材是一篇面向零基础用户的“喂饭式”实操教程，核心主张是利用 Google Colab 免费云算力部署 Stable Diffusion，绕过本地部署的高硬件门槛与技术门槛，实现
+  AI 绘画的云端化、自动化、批量化与低成本（甚至零成本）量产，并给出了单机多开浏览器实现高并发生产（1小时900张）的具体落地路径及账号防封策略。
+concepts:
+- name: 喂饭式教程
+  desc: 指降低技术门槛至极致、提供可直接复制执行的标准化操作流程（含现成代码/笔记本链接），使非技术背景用户无需理解原理即可一键部署并产出成果的教学范式。
+  is_original: true
+  excerpt:
+  - 《AI 绘画出图，喂饭式教程：利用 Colab 和 Stable Diffusion 实现》
+  - 按本教程，1 个浏览器 1 分钟出 3 张图...够够的~
+- name: 云端免费算力白嫖
+  desc: 利用 Google Colab 提供的免费 GPU 资源（T4/K80等）运行 Stable Diffusion 模型，实现零硬件成本、零本地环境配置的
+    AI 绘图生产。
+  is_original: false
+  excerpt:
+  - 本文介绍的方法，可以利用 Colab 和 Stable Diffusion 实现云端、免费、自动、批量、无限 AI 出图。
+  - Stable Diffusion 在本地部署的门槛相对较高。首先需要强大的硬件...本文介绍的方法，可以利用 Colab...实现云端、免费...
+- name: 抽卡机制
+  desc: AI 绘画生成的不确定性特征，即需大量生成（生成几十张）再人工筛选少数合格图片的过程，类似卡牌游戏抽卡。
+  is_original: false
+  excerpt:
+  - 目前 AI 绘图结果可能几十张图片只有几张能用，称为抽卡。
+- name: 多浏览器并行跑量策略
+  desc: 通过单台电脑开启多个浏览器标签页/窗口同时连接 Colab 运行实例，线性放大免费算力吞吐量，实现工业级批量出图。
+  is_original: true
+  excerpt:
+  - 1 台电脑开 5 个浏览器同时跑，1 小时可以出 900 张图
+- name: Colab 账号防封/隔离策略
+  desc: 针对 Google Colab 官方禁止运行 Stable Diffusion 导致账号封禁风险，提出使用低价购买的“小号”替代主力账号运行高风险代码的规避方案。
+  is_original: true
+  excerpt:
+  - 现在谷歌 colab 禁用 Stable diffusion 相关代码了，继续使用，可能会封禁 colab 功能，需要注意一下的～
+  - 避免用自己账号，买号价格很低的，关键是渠道要靠谱
+methods:
+- name: __overview__
+  desc: 整体方法论：以 Google Colab 为运行载体，导入预配置的 Stable Diffusion 笔记本（含模型与依赖），通过 Web UI 交互或
+    API 调用实现提示词工程驱动的批量推理，配合多实例并行与账号隔离策略，构建低成本高并发 AI 绘图生产线。
+  excerpt:
+  - 本文介绍的方法，可以利用 Colab 和 Stable Diffusion 实现云端、免费、自动、批量、无限 AI 出图。
+  - 请移步飞书：https://zyb2zrrrem.feishu.cn/docx/Md2KdAjbDo0cdGxGMtncyb8CnLb
+theorems:
+- name: Colab 部署 SD 是低门槛量产的最优解
+  desc: 核心主张：相比本地部署（高硬件门槛、高技术门槛）和 Midjourney（低灵活性、订阅制收费），Colab + SD 组合以“免费算力、高灵活性、可自动化批量”为三大优势，成为个人/小团队落地
+    AI 绘画项目的最优路径。
+  excerpt:
+  - Midjourney 就像是自动档汽车，容易上手，但局限较多；Stable Diffusion 则像手动档汽车，较为复杂，但非常灵活。
+  - Stable Diffusion 在本地部署的门槛相对较高...本文介绍的方法，可以利用 Colab 和 Stable Diffusion 实现云端、免费、自动、批量、无限
+    AI 出图。
+- name: 算力瓶颈可通过账号池与多开线性突破
+  desc: 核心主张：单账号 Colab 算力配额有限且有封号风险，通过“购买低价小号构建账号池”+“单机多浏览器多开实例”可低成本线性扩展算力，将边际成本压至极低。
+  excerpt:
+  - 1 台电脑开 5 个浏览器同时跑，1 小时可以出 900 张图
+  - 避免用自己账号，买号价格很低的，关键是渠道要靠谱
+findings:
+- name: 单实例出图基准性能
+  desc: '[claim] 单个浏览器实例运行 Colab SD，1 分钟可生成 3 张图。'
+  excerpt:
+  - 按本教程，1 个浏览器 1 分钟出 3 张图
+- name: 多开并行扩展性验证
+  desc: '[claim] 单台电脑开启 5 个浏览器并行，1 小时可产出 900 张图，验证了线性扩展假设。'
+  excerpt:
+  - 1 台电脑开 5 个浏览器同时跑，1 小时可以出 900 张图，够够的~
+- name: Colab 官方风控实锤与规避有效性
+  desc: '[evidence] 社区用户反馈证实 Google Colab 已明确禁止运行 Stable Diffusion 代码，违者封禁功能；作者实测“买小号跑”的策略可有效规避主账号风险，且边际成本极低。'
+  excerpt:
+  - 现在谷歌 colab 禁用 Stable diffusion 相关代码了，继续使用，可能会封禁 colab 功能，需要注意一下的～
+  - 避免用自己账号，买号价格很低的，关键是渠道要靠谱
