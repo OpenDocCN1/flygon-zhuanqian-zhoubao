@@ -1,0 +1,46 @@
+paper: docs/202305/20230516_074.md
+desc: 该素材为生财有术社区的一篇分享帖，作者沧海（SaaS产品经理）基于线下分享整理，系统梳理了Stable Diffusion的三大主流应用方向（辅助设计、AI模特、分镜脚本）、LoRA模型训练工作流及云端部署方案，强调当前生态已降低技术门槛、进入应用层落地最佳窗口期，并附带飞书文档详细教程链接。
+concepts:
+- name: Stable Diffusion 应用分层
+  desc: 将Stable Diffusion的落地场景划分为辅助设计（产品/建筑/海报）、AI模特、分镜脚本三大主流应用方向，体现从技术参数调试向业务场景闭环的转变。
+  is_original: true
+  excerpt:
+  - 目前 stable diffusion 主流的应用方向有辅助设计（包括产品设计、建筑设计、海报设计）、AI 模特、分镜脚本等。
+- name: LoRA 训练工作流
+  desc: 针对风格化/角色一致性需求的低秩适应微调标准化流程，包含数据清洗、参数配置、训练监控、模型验证等环节，是实现定制化生成的核心技术路径。
+  is_original: false
+  excerpt:
+  - 本次分享主要有三方面：... 2、lora 模型训练工作流
+- name: 云端部署方案
+  desc: 解决本地算力不足（显存/GPU限制）的远程计算方案，涵盖镜像构建、实例启动、网络穿透、持久化存储等工程化落地细节。
+  is_original: false
+  excerpt:
+  - 本次分享主要有三方面：... 3、云端部署 stable diffusion
+- name: 生态成熟度窗口期
+  desc: 判断当前Stable Diffusion生态已完成基建（WebUI、ControlNet、海量模型/插件），非代码人员可通过界面操作直接生产，属于应用层创业/落地的黄金切入点。
+  is_original: true
+  excerpt:
+  - 现在关注这个领域绝对是最好的时机，生态在逐步发展当中，海量的模型和插件
+methods:
+- name: __overview__
+  desc: 产品经理视角的SD落地三板斧：场景定标（三大应用方向）→ 核心技能包（LoRA训练工作流）→ 基建解锁（云端部署），形成‘需求-模型-算力’完整闭环。
+  excerpt:
+  - 本次分享主要有三方面： 1、stable diffusion 的应用方向 2、lora 模型训练工作流 3、云端部署 stable diffusion
+theorems:
+- name: 零代码生产力主张
+  desc: 经过社区开发者构建WebUI等操作界面后，非技术人员（产品/设计/运营）无需懂代码即可驾驭Stable Diffusion进行专业级生产。
+  excerpt:
+  - 这些不怎么需要懂代码，经过很多程序员的努力，都已经开发操作界面了
+- name: 应用层切入最佳时机论
+  desc: 模型层、工具层生态已相对成熟（海量模型/插件/ControlNet），当前核心价值在于将能力封装进具体业务场景（设计/电商/影视），而非继续卷底层参数。
+  excerpt:
+  - 现在关注这个领域绝对是最好的时机，生态在逐步发展当中，海量的模型和插件
+findings:
+- name: 社区需求验证：风格化头像为典型高频切入点
+  desc: '[evidence] 作者因在群内回复‘会生成风格化头像’被邀请线下分享，印证该需求具有强付费意愿与传播裂变性，是验证SD商业化可行性的最小闭环场景。'
+  excerpt:
+  - 广州生财群有群友咨询怎么生成风格化的头像，我多嘴的说了一句我会，然后就被热情的组局官要求组一个线下局
+- name: 知识变现路径：飞书文档沉淀→社区分享→私域引流
+  desc: '[evidence] 通过飞书文档承载完整技术细节（训练参数/部署脚本/避坑指南），配合生财社区公开帖引流，形成低成本获客与个人IP建设的标准化动作。'
+  excerpt:
+  - 具体分享请移步飞书的总结 https://ov4jtf5rf0.feishu.cn/docx/ZXvbdq7RGoKEeLxryxAckCtSnPf
