@@ -2,6 +2,7 @@
 
 
 
+
 # 第 24 章 综合实战：企业级中后台前端架构落地全过程
 
 ## 学习目标
@@ -23,32 +24,46 @@
 
 ## 24.2 概念地图
 
-第24章 综合实战：企业级中后台前端架构落地全过程
-├── 1. 项目启动：技术选型与基建基因
-│   ├── 技术选型决策矩阵  —— 20230418_117.md (origin) / 20230418_118-126.md (improve)
-│   ├── 架构决策记录 (ADR)  —— 20230418_117.md (origin) / KJ0CdYG18oMFStxpa17cxS0wnyt.md (origin)
-│   ├── Monorepo 仓库初始化 (pnpm Workspace)  —— 20230418_117.md (origin) / 20230418_045.md (origin) / 20230418_034.md (apply)
-│   └── 标准化脚手架模版  —— 20230418_117.md (origin) / 20230418_045.md (origin) / 20230418_034.md (apply)
-├── 2. 基础设施建设：核心能力封装
-│   ├── UI 组件库二次封装 (@enterprise/ui)  —— 20230418_117.md (origin) / 20230418_045.md (origin) / 20230418_040.md (apply) / 20230418_124.md (improve)
-│   ├── 统一请求层 (@enterprise/request)  —— 20230418_117.md (origin) / 20230418_045.md (origin) / 20230418_040.md (apply)
-│   ├── RBAC 权限体系与动态路由  —— 20230418_117.md (origin) / 20230418_038.md (origin)
-│   ├── 国际化 (i18n) 与无障碍 (a11y) 工程化基线  —— 20230418_117.md (origin) / PbGkdX4YVoO02mxYlYKcbgASnSg.md (origin)
-│   └── 异常监控与全链路可观测性  —— 20230418_117.md (origin) / 20230418_046.md (origin)
-├── 3. 核心业务开发：效率与规范并重
-│   ├── Schema 驱动 CRUD 页面标准化 (ProTable/ProForm/ProChart)  —— 20230418_117.md (origin) / 20230418_045.md (origin)
-│   ├── 微前端子应用接入与共享依赖治理  —— 20230418_117.md (origin) / 20230418_043.md (origin)
-│   └── 业务单测/E2E 用例编写规范  —— 20230418_117.md (origin) / 20230418_039.md (origin)
-├── 4. 质量保障与发布：自动化防线
-│   ├── CI/CD 流水线与质量门禁 (Lint/TypeCheck/Unit/E2E/Scan/Perf/A11y)  —— 20230418_117.md (origin) / 20230418_039.md (origin) / 20230418_041.md (origin) / 20230418_042.md (origin) / PU9Id4IPMoZ3QdxLzZUcEPBRnWO.md (origin)
-│   ├── GitOps 持续交付 (ArgoCD)  —— 20230418_117.md (origin) / PU9Id4IPMoZ3QdxLzZUcEPBRnWO.md (origin)
-│   ├── 金丝雀灰度发布与蓝绿部署  —— 20230418_117.md (origin) / PU9Id4IPMoZ3QdxLzZUcEPBRnWO.md (origin)
-│   └── 回滚演练与混沌工程  —— 20230418_117.md (origin) / PU9Id4IPMoZ3QdxLzZUcEPBRnWO.md (origin)
-└── 5. 架构演进与知识沉淀：持续进化
-    ├── 技术债务识别、量化与重构提案 (ADR驱动)  —— 20230418_117.md (origin) / KJ0CdYG18oMFStxpa17cxS0wnyt.md (origin)
-    ├── 组件复用率统计与度量驱动  —— 20230418_117.md (origin) / 20230418_045.md (origin)
-    ├── 团队技术分享体系化 (周会/月度/季度)  —— 20230418_117.md (origin) / KJ0CdYG18oMFStxpa17cxS0wnyt.md (origin) / YE1FdsTuxoaBbNx4f5dcnSNenxb.md (apply)
-    └── 《前端架构演进白皮书》沉淀  —— 20230418_117.md (origin) / KJ0CdYG18oMFStxpa17cxS0wnyt.md (origin)
+```mermaid
+graph TD
+    Ch24[第24章 综合实战：企业级中后台前端架构落地全过程]
+    
+    subgraph Phase1[1. 项目启动：技术选型与基建基因]
+        D1[技术选型决策矩阵] --> D2[架构决策记录 ADR]
+        D2 --> D3[Monorepo 仓库初始化 pnpm Workspace]
+        D3 --> D4[标准化脚手架模版]
+    end
+    
+    subgraph Phase2[2. 基础设施建设：核心能力封装]
+        I1[UI 组件库二次封装 @enterprise/ui] --> I2[统一请求层 @enterprise/request]
+        I2 --> I3[RBAC 权限体系与动态路由]
+        I3 --> I4[国际化 i18n 与无障碍 a11y 工程化基线]
+        I4 --> I5[异常监控与全链路可观测性]
+    end
+    
+    subgraph Phase3[3. 核心业务开发：效率与规范并重]
+        B1[Schema 驱动 CRUD 页面标准化 ProTable/ProForm/ProChart] --> B2[微前端子应用接入与共享依赖治理]
+        B2 --> B3[业务单测/E2E 用例编写规范]
+    end
+    
+    subgraph Phase4[4. 质量保障与发布：自动化防线]
+        Q1[CI/CD 流水线与质量门禁 Lint/TypeCheck/Unit/E2E/Scan/Perf/A11y] --> Q2[GitOps 持续交付 ArgoCD]
+        Q2 --> Q3[金丝雀灰度发布与蓝绿部署]
+        Q3 --> Q4[回滚演练与混沌工程]
+    end
+    
+    subgraph Phase5[5. 架构演进与知识沉淀：持续进化]
+        E1[技术债务识别、量化与重构提案 ADR驱动] --> E2[组件复用率统计与度量驱动]
+        E2 --> E3[团队技术分享体系化 周会/月度/季度]
+        E3 --> E4[前端架构演进白皮书沉淀]
+    end
+    
+    Ch24 --> Phase1
+    Ch24 --> Phase2
+    Ch24 --> Phase3
+    Ch24 --> Phase4
+    Ch24 --> Phase5
+```
 
 ## 24.3 技术选型决策矩阵与 ADR 记录 —— 为架构决策建立「可追溯的法庭」
 
@@ -2565,6 +2580,7 @@ C. 依赖 `lodash@4.17.15` (含原型污染漏洞) 与 `moment@2.29.0` (体积�
 下一章中，我们将学习如何将前端架构能力扩展到 AI 原生应用开发，探索大模型时代的前端工程新范式。
 
 感谢你读到了这里，恭喜你，你已经完成了前端工程化核心体系的系统性学习与实战演练！
+
 
 
 
