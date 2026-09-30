@@ -1,0 +1,77 @@
+citation_stats:
+- paper: docs/202305/20230516_020.md
+  count: 2
+  locations:
+  - '14.3'
+  - '14.6'
+- paper: docs/202305/FJ8HdrA04o2efNx7E1ZcVgehnSe.md
+  count: 9
+  locations:
+  - '14.3'
+  - '14.4'
+  - '14.5'
+  - '14.6'
+  - '14.11'
+  - 14.12 (练习1)
+  - 14.12 (练习1)
+  - 14.12 (练习1)
+  - 14.12 (练习1)
+- paper: docs/202305/20230516_074.md
+  count: 3
+  locations:
+  - '14.7'
+  - '14.8'
+  - '14.9'
+- paper: docs/202305/ZXvbdq7RGoKEeLxryxAckCtSnPf.md
+  count: 12
+  locations:
+  - '14.7'
+  - '14.8'
+  - '14.8'
+  - '14.8'
+  - '14.8'
+  - '14.8'
+  - '14.8'
+  - '14.8'
+  - '14.8'
+  - '14.8'
+  - '14.8'
+  - 14.12 (练习2)
+- paper: docs/202305/20230516_000.md
+  count: 0
+  locations: []
+- paper: docs/202305/20230516_001.md
+  count: 0
+  locations: []
+unsupported_claims:
+- location: '14.3'
+  claim: 核心公式：商业闭环 = AI生产力 × 平台分发机制 × 私域转化体系
+  reason: 素材中未找到该公式的显式定义，仅在全书正文中出现，源文档 docs/202305/20230516_020.md 和 docs/202305/FJ8HdrA04o2efNx7E1ZcVgehnSe.md
+    未提及此乘法公式
+- location: '14.8'
+  claim: LoRA训练标准化五步工作流包含：训练集准备、模型训练、模型测试复盘、参数反推复现、业务落地应用
+  reason: 素材 docs/202305/ZXvbdq7RGoKEeLxryxAckCtSnPf.md 中仅提及 'lora 模型训练工作流' 和 '训练集准备、训练模型、模型测试和复盘、Lora模型仿训练参数'
+    四步，未明确列出五步工作流
+- location: '14.8'
+  claim: 训练分辨率必须等于推理分辨率，否则会导致结构崩坏（多头/多肢）
+  reason: 素材中仅提到 '实测用515*512训练的模型生成1024宽度图片时，输入1girl可能会出现生成多个人'，未系统论证分辨率匹配原则
+- location: '14.10'
+  claim: Midjourney路线与Stable Diffusion路线的核心分歧对比表
+  reason: 素材中无直接对比表格，全书正文基于多篇素材综合推导得出，非单一素材直接支撑
+missing_concepts:
+- paper: docs/202305/FJ8HdrA04o2efNx7E1ZcVgehnSe.md
+  concept: 小红书群聊裂变机制（文档末尾放微信群二维码实现用户转发分享裂变）
+  severity: high
+- paper: docs/202305/ZXvbdq7RGoKEeLxryxAckCtSnPf.md
+  concept: LoRA模型Metadata反推完整训练配方的关键字段映射表（如 ss_sd_model_name, ss_resolution, ss_network_dim
+    等）
+  severity: high
+- paper: docs/202305/ZXvbdq7RGoKEeLxryxAckCtSnPf.md
+  concept: 数据集多样性大于数量原则（角度/场景/光照多样性决定泛化能力，单一角度堆砌数量易过拟合）
+  severity: high
+- paper: docs/202305/20230516_074.md
+  concept: 云端部署Stable Diffusion的主流方案对比（Google Colab免费版 vs 青椒云/AutoDL vs RunPod A100）
+  severity: medium
+- paper: docs/202305/FJ8HdrA04o2efNx7E1ZcVgehnSe.md
+  concept: 微信表情开放平台艺术家认证流程与赞赏收益机制（每1万人下载仅约5元收益）
+  severity: medium
