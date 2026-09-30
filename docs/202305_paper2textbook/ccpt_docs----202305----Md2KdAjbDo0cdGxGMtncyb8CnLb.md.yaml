@@ -1,0 +1,132 @@
+paper: docs/202305/Md2KdAjbDo0cdGxGMtncyb8CnLb.md
+desc: 该素材是一篇实操教程，详细介绍了如何利用Google Colab免费GPU资源部署Stable Diffusion WebUI（基于camenduru项目），并结合Civitai模型库实现亚洲人物模型（ChilloutMix）与LoRA模型的下载、配置及出图参数设置；核心贡献在于提出了一套「自动、批量、无限」的规模化出图工程化方案：通过「Generate
+  Forever」实现单实例自动化、多浏览器/多账号/指纹浏览器并行突破单账号算力限制、以及Colab代码块打包下载输出目录解决文件获取问题，形成了一套零成本、低门槛的AI绘图量产闭环。
+concepts:
+- name: Colab免费算力配额机制
+  desc: Google Colab免费版为每个账户每天分配约3-6小时的GPU运行时长，且单次会话最长12小时，断连后需重新连接；理解该机制是规划「无限出图」账号轮换策略的前提。
+  is_original: false
+  excerpt:
+  - 每个免费账户每天大概有3-6小时的gpu算力
+  - 由于colab分配给每个账户的算力有限，无法不断出图
+- name: Civitai模型在线下载集成
+  desc: Stable Diffusion WebUI（camenduru版）内置Civitai选项卡，支持通过Checkpoint/LoRA类型、搜索词、版本选择直接获取模型下载链接并一键下载到Colab运行时环境，无需手动上传大文件。
+  is_original: false
+  excerpt:
+  - 点击Civitai选项卡
+  - Content Type选择Checkpoint/Lora
+  - Search Term输入...点击Get List...点击Download Model
+  - 回到Colab界面，看到下载进度，等待出现Successful Downloaded
+- name: ChilloutMix亚洲人物底模
+  desc: 基于亚洲人物训练集训练的Stable Diffusion Checkpoint模型，能生成符合亚洲审美的真实人物图像，是本教程推荐的首选基础模型。
+  is_original: false
+  excerpt:
+  - ChilloutMix 是基于亚洲人物训练集训练出来的大底模型，可以生成比较理想的亚洲人物状态
+- name: LoRA低秩适配模型
+  desc: 一种体积小、训练快、可组合加载的微调模型，用于在不改变底模核心能力的前提下注入特定风格、角色或动作，本教程中通过Additional Networks面板加载。
+  is_original: false
+  excerpt:
+  - LoRA模型是一种可以生成出符合指定样式图像的模型，具有速度快、体积小等特点。
+  - 左下方展开Additional Networks，Enable打勾启用Lora模型...选择刚才下载的Lora模型
+- name: Generate Forever自动化生成
+  desc: WebUI原生功能，在Generate按钮右键菜单中选择，使模型基于当前参数持续无限循环生成图片，实现单实例「自动出图」，解放人工反复点击。
+  is_original: false
+  excerpt:
+  - 在Generate按钮右键，选择Generate Forever，让程序自动出图
+- name: Colab输出目录持久化路径
+  desc: Stable Diffusion在Colab中生成的图片默认按日期存储在 /content/stable-diffusion-webui/outputs/txt2img-images/YYYY-MM-DD
+    路径下，Colab运行时未断开前文件持久化，可通过文件浏览器预览或代码打包下载。
+  is_original: false
+  excerpt:
+  - 图片存放路径在/content/stable-diffusion-webui/outputs/txt2img-images/出图日期
+  - 双击某个图片，右侧可以打开预览
+- name: 多账号并行突破算力上限
+  desc: 利用多Google账号、多浏览器（或指纹浏览器）同时运行Colab实例，将单账号每日3-6小时算力线性放大为N账号×单账号算力，配合账号轮换实现「无限出图」。
+  is_original: true
+  excerpt:
+  - 电脑安装多款浏览器，如Chrome、Edge、Firefox等
+  - 每个浏览器登录不同的google账号，同时操作，批量出图
+  - 也可使用指纹浏览器批量出图
+  - 准备大量google账号...等某个账户的gpu算力消耗完，则换号继续
+methods:
+- name: __overview__
+  desc: 端到端的「云端免费部署 → 模型获取配置 → 参数调试出图 → 自动化循环 → 批量并行扩容 → 结果打包下载」完整工程化流程，将零散的Colab+SD操作串联为可复制的量产SOP。
+  excerpt:
+  - 登录google账户，通过以下链接，打开笔记，点击运行代码块...等待完成资源下载和安装，直到出现几个Public WebUI Colab URL
+  - 点击Civitai选项卡...下载大底模型/LoRA模型
+  - 选择大底模型、选择Lora模型、设置参数并出图
+  - Generate Forever自动出图 → 找到图片路径 → 代码块打包下载 → 多浏览器/多账号并行 → 账号轮换
+- name: Colab一键部署SD WebUI (camenduru版)
+  desc: 使用预配置的Colab Notebook（camenduru/stable-diffusion-webui-colab），一键运行代码块自动完成环境依赖安装、模型权重下载、WebUI启动及公网隧道暴露，无需本地显卡即可获得可交互的SD界面。
+  excerpt:
+  - 登录google账户，通过以下链接，打开笔记，点击运行代码块
+  - https://colab.research.google.com/github/camenduru/stable-diffusion-webui-colab/blob/main/nightly/stable_diffusion_v2_1_base_webui_colab.ipynb
+  - 等待完成资源下载和安装，直到出现几个Public WebUI Colab URL
+- name: WebUI内置Civitai模型一键下载法
+  desc: 在WebUI的Civitai选项卡中按类型（Checkpoint/LoRA）搜索，选定版本与文件名后点击Download Model，利用Colab服务器带宽直接将模型写入运行时存储，避免本地上传大文件的带宽瓶颈。
+  excerpt:
+  - 点击Civitai选项卡
+  - Content Type选择Checkpoint/Lora
+  - Search by term打勾、Search Term输入...
+  - 点击Get List...在Model/Version/Model FileName中选择...点击Download Model
+  - 回到Colab界面，看到下载进度，等待出现Successful Downloaded
+- name: Generate Forever 无人值守生成法
+  desc: 在WebUI的txt2img界面调优参数后，右键Generate按钮选择Generate Forever，触发前端持续轮询后端生成接口，实现单会话长时间无人值守出图。
+  excerpt:
+  - 当把参数设置调试好后，在Generate按钮右键，选择Generate Forever，让程序自动出图
+- name: Colab代码块打包下载输出目录法
+  desc: 停止WebUI进程释放文件锁，在Colab新建代码块运行Python脚本（tarfile + google.colab.files.download），将指定日期输出目录压缩为.tar.gz并触发浏览器下载，解决Colab文件浏览器无法批量下载的痛点。
+  excerpt:
+  - 点击停止运行Stable Duffusion WebUI代码块
+  - 点击+代码，新增代码块
+  - import os, tarfile... from google.colab import files ... make_targz_one_by_one('neg_tar',
+    '/content/stable-diffusion-webui/outputs/txt2img-images/2023-04-26')
+  - 点击运行代码块，等待下方进度条走完，就自动下载
+- name: 多浏览器/指纹浏览器多账号并行扩容法
+  desc: 在物理机上同时运行Chrome、Edge、Firefox等多款浏览器（或使用指纹浏览器隔离环境），每个浏览器登录独立Google账号并行运行Colab实例，将单账号算力配额横向扩展，配合账号池轮换实现理论上的无限算力。
+  excerpt:
+  - 电脑安装多款浏览器，如Chrome、Edge、Firefox等
+  - 每个浏览器登录不同的google账号，同时操作，批量出图
+  - 也可使用指纹浏览器批量出图
+  - 准备大量google账号，或找到靠谱低价渠道购入大量账号
+  - 等某个账户的gpu算力消耗完，则换号继续
+theorems:
+- name: 零成本云端AI绘图可行性定理
+  desc: Google Colab免费版提供的GPU资源足以运行Stable Diffusion WebUI，配合camenduru等开源Notebook，零硬件成本即可获得生产级AI绘图环境。
+  excerpt:
+  - google colab提供了云端环境，可以实现免费云端出图。
+  - 按本文方法可以利用colab和Stable Diffusion实现云端、免费、自动、批量、无限AI画图。
+- name: 出图成功率与量产必要性公理
+  desc: AI绘图具有强随机性，单张合格率极低（约1/30），因此必须通过批量生产+人工筛选才能获得可用素材，自动化与规模化是刚需而非优化项。
+  excerpt:
+  - AI绘图结果通常不能直接使用，大概30张中选1张能用的，因此需要大量出图，人工筛选。
+- name: 单账号算力上限可通过账号池横向突破
+  desc: Colab免费版单账号每日GPU时长有上限（3-6h），但无账号数量限制；通过多账号并行+时间轮换，可将有限单账号配额转化为近乎无限的总算力。
+  excerpt:
+  - 由于colab分配给每个账户的算力有限，无法不断出图。
+  - 每个免费账户每天大概有3-6小时的gpu算力
+  - 准备大量google账号...等某个账户的gpu算力消耗完，则换号继续
+- name: 工程化SOP优于单点技巧
+  desc: 仅会部署SD不够，必须打通「部署-配置-自动化-扩容-交付」全链路并固化为标准化操作手册（SOP），才能将技术能力转化为稳定的业务产出（如健身产品推广素材）。
+  excerpt:
+  - 以下是正文：...背景介绍...部署...实操...提高：自动、批量、无限出图
+  - 按5个浏览器计算，1分钟能出3张图，1小时可以出900张图，够够的了。
+findings:
+- name: 单实例出图吞吐量基准
+  desc: '[evidence] 实测Colab免费版GPU（通常为T4/K80）运行SD WebUI出图速度约30秒-1分钟/张，单实例持续生成效率可量化。'
+  excerpt:
+  - 使用Colab出图很快，大约30秒-1分钟可以出一张
+- name: 多实例并行产出估算模型
+  desc: '[claim] 作者基于单实例速度与5浏览器并行假设推算：1分钟3张 × 60分钟 = 900张/小时，验证了「批量出图」策略的量级可行性。'
+  excerpt:
+  - 按5个浏览器计算，1分钟能出3张图，1小时可以出900张图，够够的了。
+- name: Colab运行时文件系统特性验证
+  desc: '[evidence] 实测确认Colab运行时存储（/content/）在会话存活期间持久化，WebUI输出目录结构固定（按日期分文件夹），支持运行时内预览、停止服务后打包下载。'
+  excerpt:
+  - 图片存放路径在/content/stable-diffusion-webui/outputs/txt2img-images/出图日期
+  - 双击某个图片，右侧可以打开预览
+  - 点击停止运行Stable Duffusion WebUI代码块...运行打包代码...自动下载
+- name: 人机验证对自动化干扰可控
+  desc: '[evidence] 部署阶段及长时间运行中Colab会弹出人机交互测试，但频率较低且仅需人工点击通过，不阻断整体自动化流程（Generate Forever在前端运行，不受后端人机验证影响）。'
+  excerpt:
+  - 可能会弹出对话框，或者人机交互测试，根据提示往下走
+  - 期间可能会弹出几次人机交互测试，根据提示操作
