@@ -2,6 +2,7 @@
 
 
 
+
 # 第 12 章 前端工程化效能平台 —— 脚手架、组件平台、低代码与研发度量体系
 
 ## 学习目标
@@ -19,7 +20,7 @@
 
 - **脚手架** = **标准化开餐套餐包**（预置好锅碗瓢盆、基础调料、SOP 流程），新厨师（新人/新项目）到岗即可开工，无需从零采购装修
 - **组件物料平台** = **中央食材库 + 标准半成品仓**（切好配好的肉丝、包好浆的虾仁、标准酱汁），有详细说明书（自动文档）、试吃间（沙箱）、溯源码（依赖图谱），厨师直接拿来用，避免每家餐厅自己养宰鸡、种菜（重复造轮子）
-- **低代码引擎** = **自动化出餐流水线**（针对标准化程度高的“盖饭/套餐”类订单），店长（运营/产品）在屏幕上拖拽配菜（Schema 配置），机器自动炒制出餐（渲染器），且支持“半成品出餐后大厨再加工”（代码生成接管）
+- **低代码搭建引擎** = **自动化出餐流水线**（针对标准化程度高的“盖饭/套餐”类订单），店长（运营/产品）在屏幕上拖拽配菜（Schema 配置），机器自动炒制出餐（渲染器），且支持“半成品出餐后大厨再加工”（代码生成接管）
 - **研发效能度量** = **餐厅经营看板**（翻台率=部署频次、上菜速度=前置时间、退菜率=失败率、投诉处理时长=MTTR），老板据此决定增开窗口、优化动线、换供应商
 - **前端效能平台 MVP** = **连锁餐厅总部的“数字化中台”**：从开店选址（创建）、备菜采购（开发）、出餐质检（构建）、上架销售（发布）、顾客反馈（运行）全链路打通，发现“分店 A 退菜率高”→ 追溯到“用了非标酱汁”→ 总部下发标准酱汁/更新菜单 → 退菜率下降，形成**“标准化生产 -> 数据反馈 -> 标准迭代”**的飞轮
 
@@ -137,11 +138,9 @@
 
 你是否遇到过这样的场景：新项目启动，前两天都在配置 ESLint、Prettier、TypeScript、CSS 方案、Git Hooks、CI/CD 流水线；老项目想升级个依赖，发现破坏性变更满屏飞，只能望而却步；团队内 10 个项目有 12 套配置，Code Review 时争论的全是缩进和分号。这就是**缺乏脚手架工程化**的典型症状。
 
-> "实现 `create-my-app` 交互式生成器、基于 pnpm workspace 的 Monorepo 结构、脚手架插件机制支持业务定制、GitHub Actions 自动发布 npm。"
-> 
-> ——《20230418_045.md》
-
 脚手架工程化的核心价值在于：**将“项目初始化”从手工作坊转变为标准化流水线**。正如“预制菜中央厨房”的**开餐套餐包**，它预置好了锅碗瓢盆（构建工具）、基础调料（规范配置）、SOP 流程，新厨师到岗即可开工。它不仅解决“创建”问题，更通过**模版即代码**、**Monorepo 原生支持**、**插件化机制**、**版本升级策略**四大支柱，实现从创建到维护的全生命周期治理。
+
+> 实现 `create-my-app` 交互式生成器、基于 pnpm workspace 的 Monorepo 结构、脚手架插件机制支持业务定制、GitHub Actions 自动发布 npm。
 
 ### 核心定义：脚手架工程化四大支柱
 
@@ -160,7 +159,7 @@
 
 **模版即代码**的核心思想是：**模版本身也是可维护、可测试、可组合的代码资产**。我们用 Plop 或 Yeoman 的 API 编写“生成器代码”，而不是写死文件内容。
 
-> **模版引擎核心能力**（来源：《20230418_045.md`）
+#### 模版引擎核心能力
 
 ```typescript
 // Plop 生成器配置示例
@@ -224,8 +223,6 @@ export default function (plop) {
 
 当多个插件需要修改同一文件（如 `vite.config.ts`、`package.json`）时，合并策略决定了脚手架的可扩展上限。我们对比三种方案：
 
-下表对比了三种主流的配置文件合并策略，帮助理解为何推荐函数式配置合并作为核心配置的首选方案。
-
 | 合并策略 | 原理 | 优点 | 缺点 | 适用场景 |
 |----------|------|------|------|----------|
 | **文本块替换** | 标记 `// [PLUGIN:micro]` 注释块，整块替换 | 简单、无依赖 | 灵活性低、易冲突、不支持细粒度合并 | 简单配置文件（如 `.eslintrc`） |
@@ -262,16 +259,6 @@ export default defineConfig((env) =>
 
 这种设计将“配置合并”从**构建时文本操作**转移到**运行时对象合并**，彻底消除了文本冲突，也是现代脚手架（如 `create-vite`、Nuxt）的主流做法。
 
-下图展示了模版合并策略从静态文本替换向运行时函数合并的演进路径，体现了工程化治理能力的提升。
-
-```mermaid
-graph LR
-    A[静态模版文件] --> B[文本块替换\n标记注释整块替换]
-    B --> C[AST 语义合并\n解析 AST 节点级合并]
-    C --> D[函数式配置合并\n运行时对象合并\n类型安全 无冲突]
-    style D fill:#e1f5fe,stroke:#01579b
-```
-
 ### 12.3.2 Monorepo 多包管理与 pnpm Workspace
 
 #### 为什么选择 pnpm Workspace？
@@ -279,11 +266,9 @@ graph LR
 在脚手架生成的项目中，我们往往需要管理多个关联包：`@my-org/ui` 组件库、`@my-org/request` 请求库、`@my-org/utils` 工具库、主应用 `apps/admin`、`apps/h5`。传统多仓库模式下，依赖升级、代码复用、版本同步极其痛苦。
 
 pnpm Workspace 通过**硬链接 + 符号链接**的存储机制，实现了：
-- **依赖去重**：同一版本依赖在磁盘只存一份，节省 60%+ 磁盘空间 [^pnpm-benchmark]。
+- **依赖去重**：同一版本依赖在磁盘只存一份，节省 60%+ 磁盘空间。
 - **幽灵依赖杜绝**：严格的节点模块隔离，防止未声明依赖被误用。
 - **原生支持 Monorepo**：`pnpm -r <cmd>` 递归执行，`pnpm --filter` 精准作用域。
-
-[^pnpm-benchmark]: pnpm 官方文档《Performance》章节及社区 Benchmark 数据显示，相比 npm/yarn，pnpm 在 Monorepo 场景下磁盘占用通常降低 60%-70%，安装速度提升 2-3 倍。
 
 #### 标准 Monorepo 目录结构（脚手架生成）
 
@@ -309,6 +294,8 @@ my-monorepo/
     │   └── ...
     └── h5/                   # 移动端 H5
 ```
+
+> 注：该结构与第 11 章 11.7 节 Monorepo 目录设计一致，均包含 `packages/shared-config` 统一管理 ESLint/TypeScript/Vite 共享配置，消除配置漂移。
 
 #### 脚手架生成 Monorepo 的关键逻辑
 
@@ -365,21 +352,6 @@ catalog:          # 统一依赖版本管理
 ```
 
 这种设计实现了**配置零拷贝**（引用共享配置包）、**依赖版本统一**（catalog 协议）、**构建流水线统一**（Turborepo 管道）。新项目创建即享受团队最佳实践，老项目迁移只需调整 `package.json` 依赖指向。
-
-下图展示了脚手架生成 Monorepo 结构的自动化流水线，体现了“中央厨房”统一备菜、统一配送的工程化优势。
-
-```mermaid
-flowchart TD
-    A[用户执行 create-my-app] --> B[交互选择特性组合]
-    B --> C[生成根 package.json\nworkspaces + scripts + catalog]
-    C --> D[生成 pnpm-workspace.yaml\npackages 目录 + catalog 版本锁定]
-    D --> E[生成共享配置包\nESLint/TS/Vite 统一规范]
-    E --> F[生成业务包\nworkspace:* 引用内部包\ncatalog: 引用外部依赖]
-    F --> G[自动安装依赖 pnpm install]
-    G --> H[初始化 Git + Husky + CI 配置]
-    H --> I[标准化 Monorepo 就绪]
-    style I fill:#e8f5e9,stroke:#2e7d32
-```
 
 ### 12.3.3 插件化扩展机制
 
@@ -489,22 +461,6 @@ function resolvePluginOrder(plugins: ScaffoldPlugin[], selectedFeatures: Set<str
 }
 ```
 
-下图展示了插件依赖拓扑排序的核心流程，基于 Kahn 算法实现，确保依赖插件先于被依赖插件执行，同时检测循环依赖。
-
-```mermaid
-flowchart TD
-    A[用户选择特性集合] --> B[筛选激活插件]
-    B --> C[构建依赖图\n节点=插件 边=dependencies]
-    C --> D[计算入度\nKahn 算法初始化]
-    D --> E{存在入度为0的节点?}
-    E -- 是 --> F[出队节点 加入排序结果]
-    F --> G[减少邻居入度]
-    G --> E
-    E -- 否 --> H{排序结果长度 == 激活插件数?}
-    H -- 是 --> I[返回拓扑序列]
-    H -- 否 --> J[抛出循环依赖错误]
-```
-
 **冲突检测**在用户交互阶段即时进行：当用户勾选“TailwindCSS”时，自动取消勾选“UnoCSS”并提示互斥；当勾选“微前端”时，自动勾选“共享配置”并提示依赖关系。
 
 ### 12.3.4 版本升级策略：Codemod 自动化迁移
@@ -551,8 +507,6 @@ module.exports = function transformer(file, api, options) {
 }
 ```
 
-上述迁移脚本演示了如何利用 `jscodeshift` API 定位特定 AST 节点并进行替换，将 Vue Router 3 的 `onReady` 回调模式自动转换为 Vue Router 4 的 Promise 风格 `isReady().then()`，实现破坏性变更的自动化修复。
-
 #### 升级命令设计
 
 ```typescript
@@ -594,31 +548,11 @@ async function upgradeCommand(options) {
 }
 ```
 
-`upgradeCommand` 函数实现了升级的完整闭环：版本检测 → 获取迁移脚本 → Git 打桩 → 顺序执行 Codemod → 更新版本标记 → 自动提交。任一环节失败均触发 `git stash pop` 回滚，保证原子性。`dryRun` 模式支持预览变更，降低升级风险。
-
 **关键设计点**：
 - **Git 检查点**：任何失败自动回滚，零风险。
 - **Dry-run 模式**：先预览变更，再确认执行。
 - **版本标记**：在 `package.json` 中记录 `scaffoldVersion`，避免重复应用。
 - **Codemod 版本化**：每个破坏性变更对应一个 Codemod，随脚手架版本发布，形成 `v1.0.0 -> v1.1.0 -> v2.0.0` 的迁移链。
-
-下图展示了脚手架升级流程的自动化闭环，从版本检测到 Codemod 执行再到 Git 提交，形成“菜单版本迭代”的标准化 SOP。
-
-```mermaid
-flowchart TD
-    A[执行 upgrade 命令] --> B[检测当前版本 vs 最新版本]
-    B --> C{版本一致?}
-    C -- 是 --> D[提示已是最新 结束]
-    C -- 否 --> E[获取版本间 Codemod 脚本链]
-    E --> F[Git Stash 打桩 安全网]
-    F --> G[遍历执行 Codemod\nAST 自动迁移破坏性变更]
-    G --> H{执行成功?}
-    H -- 否 --> I[Git Stash Pop 回滚 抛出错误]
-    H -- 是 --> J[更新 scaffoldVersion 标记]
-    J --> K[Git Add + Commit 自动提交]
-    K --> L[升级完成]
-    style L fill:#e8f5e9,stroke:#2e7d32
-```
 
 ### 12.3.5 边界与取舍
 
@@ -636,9 +570,7 @@ flowchart TD
 
 组件物料平台的核心使命是：**将 UI 组件从“私有代码”转化为“标准化资产”**。正如“中央食材库 + 标准半成品仓”，通过**元数据规范**、**文档自动生成**、**演示沙箱**、**版本发布治理**、**依赖分析图谱**五大模块，让组件可检索、可度量、可复用。
 
-> "制定组件元数据规范、集成 `vue-docgen-api`/`react-docgen` 自动解析 Props/Events/Slots、Storybook/Histoire 沙箱预览、依赖图谱可视化。"
-> 
-> ——《20230418_045.md》
+> 制定组件元数据规范、集成 `vue-docgen-api`/`react-docgen` 自动解析 Props/Events/Slots、Storybook/Histoire 沙箱预览、依赖图谱可视化。
 
 ### 12.4.1 元数据规范：组件的“身份证”
 
@@ -741,8 +673,6 @@ function formatType(type) {
 }
 ```
 
-`generateComponentDocs` 函数展示了文档自动化生成的核心流程：调用 `vue-docgen-api` 解析单文件组件 AST，提取结构化元数据，再按预设模版拼接为 Markdown 表格。该脚本可集成至 CI 流水线，实现“代码合入即文档更新”。
-
 #### React 组件解析（基于 `react-docgen`）
 
 ```typescript
@@ -759,20 +689,6 @@ const componentInfo = parse('./Button.tsx', parserOptions);
 ```
 
 **自动化集成**：在 CI 流水线中运行文档生成脚本，产物提交到 `gh-pages` 分支部署文档站，或作为 NPM 包的 `README.md` 发布。实现**代码合入即文档更新**，零维护成本。
-
-下图展示了文档自动生成的完整流水线，从源码解析到制品产出再到部署发布，形成零人工干预的闭环。
-
-```mermaid
-graph LR
-    A[组件源码\n.vue/.tsx] --> B[AST 解析器\nvue-docgen-api/react-docgen]
-    B --> C[结构化元数据\nProps/Events/Slots/JSDoc]
-    C --> D[模版引擎\nHandlebars/自定义]
-    D --> E[Markdown/MDX 文档]
-    E --> F[CI 流水线\n自动提交/部署]
-    F --> G[文档站\nGitHub Pages/VitePress]
-    F --> H[NPM 包 README]
-    style F fill:#fff3e0,stroke:#e65100
-```
 
 ### 12.4.3 演示沙箱：Storybook/Histoire 集成
 
@@ -865,20 +781,6 @@ export const ClickLoading: Story = {
 };
 ```
 
-下图展示了沙箱即测试的多维能力矩阵，Storybook 作为统一入口承载文档、开发、测试三大职能。
-
-```mermaid
-graph TB
-    A[Storybook 统一入口] --> B[文档自动生成\n@storybook/addon-docs]
-    A --> C[可视化开发调试\n隔离渲染/热重载]
-    A --> D[测试能力矩阵]
-    D --> D1[交互测试 play function]
-    D --> D2[无障碍检查 a11y addon]
-    D --> D3[视觉回归 chromatic]
-    D --> D4[组件单测 composeStories]
-    style A fill:#e3f2fd,stroke:#1565c0
-```
-
 ### 12.4.4 版本发布治理：NPM 私服 + Changesets
 
 组件库发布必须**标准化、自动化、可追溯**。我们采用 **Changesets** 管理版本与 Changelog：
@@ -901,20 +803,6 @@ graph TB
 1. **预发布**：合并到 `main` 分支 → 发布 `next`/`canary` 版本 → 集成环境验证。
 2. **正式发布**：打 Tag `v1.2.0` → 发布 `latest` 版本 → 更新文档站 → 通知钉钉/飞书群。
 3. **回滚机制**：发现严重 Bug → `pnpm changeset version --major` 发布修复版 → 或手动 `npm deprecate` 废弃版本。
-
-下图展示了基于 Changesets 的组件库发布全自动化流水线，从 PR 合并到版本发布、文档更新、通知触达，实现“菜单更新自动推送到各分店”。
-
-```mermaid
-flowchart LR
-    A[开发完成提交 PR] --> B[CI 检测变更\n要求添加 Changeset]
-    B --> C[开发者执行 pnpm changeset\n生成 .changeset/*.md]
-    C --> D[PR 合并到 main]
-    D --> E[CI 自动执行\nchangeset version\n更新版本号+CHANGELOG]
-    E --> F[CI 自动发布\npnpm publish -r\n发布到 NPM 私服]
-    F --> G[更新文档站\nGitHub Pages/VitePress]
-    G --> H[通知钉钉/飞书群\n版本发布通知]
-    style F fill:#fff3e0,stroke:#e65100
-```
 
 ### 12.4.5 依赖分析图谱：可视化组件依赖关系
 
@@ -942,32 +830,17 @@ graph TD
 - **僵尸组件识别**：长期无依赖、无下载、无故事更新的组件，标记为“候选废弃”。
 - **重复造轮子检测**：扫描业务项目 `node_modules` 与 `src/components`，对比平台组件库，报告“本地实现了平台已有的 Table 组件”。
 
-下图展示了依赖分析图谱在平台中的可视化交互能力，支持影响面分析、僵尸组件识别、重复造轮子检测三大核心场景。
-
-```mermaid
-graph TB
-    subgraph 平台能力
-        A[依赖图谱可视化\nD3/Graphlib 渲染]
-    end
-    A --> B[升级影响面评估\n点击节点高亮下游]
-    A --> C[僵尸组件识别\n无入度/无下载/无更新]
-    A --> D[重复造轮子检测\n扫描本地 vs 平台组件]
-    style A fill:#f3e5f5,stroke:#7b1fa2
-```
-
 ---
 
 ## 12.5 低代码搭建引擎 —— 让页面生成变成 Schema 驱动的工业化流程
 
-### 为什么需要低代码引擎？
+### 为什么需要低代码搭建引擎？
 
 营销活动页、后台表单页、数据大屏——这类页面**结构固定、逻辑标准、高频变更、开发 ROI 低**。传统开发模式：产品提需求 → 设计出图 → 开发还原 → 联调改需求 → 发布，周期以周计，且上线后即丢弃，无法复用。
 
-低代码引擎的核心价值：**将“页面开发”转化为“Schema 配置”**，实现**可视化搭建、一键发布、资产沉淀、高代码演进**。正如“自动化出餐流水线”，店长在屏幕上拖拽配菜（Schema），机器自动炒制出餐（渲染器），且支持“半成品出餐后大厨再加工”（代码生成接管）。
+低代码搭建引擎的核心价值：**将“页面开发”转化为“Schema 配置”**，实现**可视化搭建、一键发布、资产沉淀、高代码演进**。正如“自动化出餐流水线”，店长在屏幕上拖拽配菜（Schema），机器自动炒制出餐（渲染器），且支持“半成品出餐后大厨再加工”（代码生成接管）。
 
-> "设计 JSON Schema 描述页面结构、基于 Vue/React 实现渲染器插件化、Mobox/RedoManager 状态历史、AST 代码生成还原高代码。"
-> 
-> ——《20230418_045.md》
+> 设计 JSON Schema 描述页面结构、基于 Vue/React 实现渲染器插件化、MobX RedoManager 状态历史、AST 代码生成还原高代码。
 
 ### 12.5.1 Schema 协议设计：低代码的核心资产
 
@@ -1077,8 +950,6 @@ function migrateV1ToV2(v1Schema: any): any {
 }
 ```
 
-`migrateV1ToV2` 函数演示了 Schema 版本迁移的核心逻辑：通过深度优先遍历组件树，为 v1 版本中不存在的响应式栅格字段（`xs`/`sm`/`md`/`lg`/`xl`）注入合理的默认值，确保旧 Schema 在新版渲染器中也能正确布局，实现存量资产零成本迁移。
-
 **运行时兼容层（渲染器侧）**：
 
 ```typescript
@@ -1105,23 +976,6 @@ class RendererCompatLayer {
     return schema;
   }
 }
-```
-
-`RendererCompatLayer` 类实现了运行时的双重保障机制：首先调用 `SchemaMigrator` 完成结构层面的离线迁移（补齐新字段默认值），随后通过 `patchRuntimeDifferences` 处理无法通过静态迁移解决的语义差异（如 v1 的 `visible` 属性转换为 v2 的条件渲染表达式）。这种设计使渲染器内核无需维护多版本分支逻辑，即可平滑支持历史版本 Schema，保障存量页面长期可用。
-
-下图展示了 Schema 版本兼容的双轨制处理流程：离线迁移脚本负责结构补齐，运行时兼容层负责语义差异修正，双重保障存量页面长期可用。
-
-```mermaid
-graph TD
-    A[存量 Schema v1] --> B{版本检测}
-    B -->|版本 < 最新| C[SchemaMigrator.migrate\n离线迁移脚本链]
-    C --> D[补齐新字段默认值\n结构兼容]
-    D --> E[RendererCompatLayer.normalize\n运行时适配]
-    E --> F[语义差异修正\nvisible -> v-if 等]
-    F --> G[标准化 PageSchema vLatest]
-    G --> H[渲染器执行]
-    B -->|版本 == 最新| H
-    style G fill:#e8f5e9,stroke:#2e7d32
 ```
 
 ### 12.5.2 渲染器插件化架构
@@ -1272,47 +1126,10 @@ export class VueRenderer implements IRenderer {
 }
 ```
 
-`VueRenderer.render` 方法是渲染器的入口，它接收标准化后的 `PageSchema`，通过递归的 `buildComponent` 将虚拟组件树转换为 Vue 可执行的组件定义。核心设计点包括：组件注册表解耦业务组件、Props 表达式运行时求值、条件/循环渲染通过高阶组件包装实现、全局上下文通过 `provide/inject` 下发。这种架构使渲染器内核稳定，业务扩展仅需注册组件即可。
-
 **渲染器插件化的关键点**：
 - **组件注册即插件**：业务方 `renderer.registerComponent('MyChart', MyChart)`，无需改造渲染器核心。
 - **插槽渲染器**：复杂插槽（如 Table 的 `columns` 插槽）可注册专用渲染逻辑。
 - **动作处理器扩展**：`navigate`、`request` 等内置动作可覆盖，支持业务自定义动作（如 `sendAnalytics`）。
-
-下图展示了渲染器插件化架构的核心分层：内核稳定、扩展点开放、双引擎支持。
-
-```mermaid
-graph TB
-    subgraph 渲染器内核
-        A[IRenderer 接口标准]
-        B[Schema 标准化/兼容层]
-        C[组件注册表 Map<string, Component>]
-        D[递归构建 VNode 引擎 buildComponent]
-        E[Props 表达式求值器]
-    end
-    subgraph 扩展点
-        F[registerComponent 业务组件]
-        G[registerSlotRenderer 复杂插槽]
-        H[registerConditionHandler 条件渲染]
-        I[registerLoopHandler 列表渲染]
-        J[registerActionHandler 动作流扩展]
-    end
-    subgraph 双引擎实现
-        K[VueRenderer 基于 Vue 3 + h()]
-        L[ReactRenderer 基于 React + createElement]
-    end
-    A --> B --> C --> D --> E
-    C --> F
-    D --> G
-    D --> H
-    D --> I
-    D --> J
-    A --> K
-    A --> L
-    style A fill:#e3f2fd,stroke:#1565c0
-    style K fill:#e8f5e9,stroke:#2e7d32
-    style L fill:#fce4ec,stroke:#c2185b
-```
 
 ### 12.5.3 状态历史管理：撤销/重做与版本跳转
 
@@ -1321,7 +1138,7 @@ graph TB
 ```typescript
 // stores/schemaStore.ts
 import { makeAutoObservable } from 'mobx';
-import { RedoManager } from 'mobx-redomanager'; // 或自研 Memento 管理器
+import { RedoManager } from 'mobx-redomanager';
 
 class SchemaStore {
   schema: PageSchema = initialSchema();
@@ -1367,23 +1184,6 @@ class SchemaStore {
 - **粒度控制**：通过 `debounce` 合并高频操作（如拖拽移动、连续输入），避免历史栈碎片化。
 - **语义化描述**：每次变更附带 `description`（如“修改 Button 文案”、“新增 Table 列”），历史面板可读性强。
 - **持久化**：编辑器关闭前将 `history.pastStates` 序列化存入 `localStorage`/IndexedDB，下次打开可恢复撤销栈。
-
-下图展示了基于 Memento 模式的状态历史管理架构，RedoManager 自动捕获 Schema 变更、合并快照、维护撤销/重做栈。
-
-```mermaid
-flowchart LR
-    A[用户操作\n拖拽/编辑/删除] --> B[SchemaStore.updateNodeProps\n修改 Schema]
-    B --> C[MobX 观察触发\nRedoManager 捕获变更]
-    C --> D{防抖合并\n300ms 窗口}
-    D -->|窗口内多次变更| E[合并为单个历史快照]
-    D -->|窗口外单次变更| E
-    E --> F[压入 pastStates 栈\n附带 description/timestamp]
-    F --> G[撤销栈更新\nUI 实时同步]
-    G --> H[用户点击 Undo/Redo]
-    H --> I[RedoManager.go/goTo\n恢复 Schema 状态]
-    I --> B
-    style F fill:#fff3e0,stroke:#e65100
-```
 
 ### 12.5.4 AST 代码生成：低代码起步、高代码接管
 
@@ -1517,8 +1317,6 @@ function buildScriptAST(schema: PageSchema, options: CodegenOptions): t.File {
 }
 ```
 
-`generateVueComponent` 函数编排了完整的代码生成流水线：Schema 标准化 → Template/Script/Style 三段式 AST 构建 → `@vue/compiler-sfc` 组装 SFC → Prettier 格式化。`buildTemplateAST` 递归处理组件树，将条件渲染映射为 `v-if`、循环映射为 `v-for`、插槽映射为 `<template v-slot>`；`buildScriptAST` 自动收集组件依赖生成导入语句，并将数据源初始化、生命周期钩子转化为 `setup` 函数体语句。最终产物为标准、可读、可直接运行的 `.vue` 文件。
-
 **代码生成的工程化保障**：
 - **类型安全**：生成代码包含完整 TypeScript 类型（从组件元数据推导 Props 类型）。
 - **可读性**：Prettier 格式化、合理的变量命名、注释保留。
@@ -1533,17 +1331,13 @@ function buildScriptAST(schema: PageSchema, options: CodegenOptions): t.File {
 
 “感觉效率低”无法说服管理层投入、无法定位瓶颈、无法验证改进措施有效性。只看代码行数、提交次数等**虚荣指标**，会导致错误激励（如鼓励无意义提交、拒绝重构）。我们需要一套**端到端、可执行、可对标**的度量体系，正如“餐厅经营看板”，用数据说话。
 
-> "引入 DORA（部署频次、变更前置时间、变更失败率、恢复时间）、代码评审时长、构建耗时、缺陷逃逸率，搭建 Grafana 看板驱动改进。"
-> 
-> ——《20230418_045.md》
+> 引入 DORA（部署频次、变更前置时间、变更失败率、恢复时间）、代码评审时长、构建耗时、缺陷逃逸率，搭建 Grafana 看板驱动改进。
 
 ### 12.6.1 指标体系设计：北极星 + DORA + 补充指标
 
 #### 北极星指标：单一核心目标
 
 北极星指标是**研发效能的单一核心目标**，拒绝虚荣指标，统一团队优化方向。典型选择：
-
-下表列举了不同业务阶段适用的北极星指标及其计算口径、反向约束指标，帮助团队根据自身阶段选定唯一核心目标。
 
 | 北极星指标 | 适用阶段 | 计算口径 | 反向指标（防止作弊） |
 |------------|----------|----------|----------------------|
@@ -1555,11 +1349,7 @@ function buildScriptAST(schema: PageSchema, options: CodegenOptions): t.File {
 
 #### DORA 四大指标：过程健康度的黄金标准
 
-Google DORA 研究组通过万份调研确立的**软件交付绩效四大指标** [^dora-report]，分为**吞吐量**（速度）和**稳定性**（质量）两个维度：
-
-[^dora-report]: DORA (DevOps Research and Assessment) 团队发布的《2021 State of DevOps Report》与《2022 Accelerate State of DevOps Report》，详见 https://dora.dev/state-of-devops/。
-
-下表给出了 DORA 四大指标的标准定义、计算口径及精英表现基线，为团队设定量化目标提供行业参考。
+Google DORA 研究组通过万份调研确立的**软件交付绩效四大指标**，分为**吞吐量**（速度）和**稳定性**（质量）两个维度：
 
 | 指标 | 定义 | 计算口径 | 精英表现基线 | 数据源 |
 |------|------|----------|--------------|--------|
@@ -1597,8 +1387,6 @@ $$ \text{MTTR}_{P50} = \text{Percentile}_{50}(\{\text{MTTR}_j\}_{j=1}^M) $$
 #### 补充工程指标：全链路覆盖
 
 DORA 关注“部署”环节，前端研发还需覆盖**开发前**（需求/设计）、**开发中**（编码/评审/构建/测试）、**运行后**（性能/错误/用户反馈）：
-
-下表补充了前端研发特有的工程指标，覆盖从需求到运行的全生命周期，配合 DORA 指标构建完整诊断体系。
 
 | 维度 | 核心指标 | 数据源 | 诊断价值 |
 |------|----------|--------|----------|
@@ -1651,8 +1439,6 @@ interface ProjectIdMeta {
 **植入方式**：脚手架创建项目时，自动写入 `package.json`、`project.config.json`、`.env`、Git config，多重保障防篡改丢失。
 
 #### 数据采集管道架构
-
-下图展示了全链路数据采集管道：从脚手架、Git、CI/CD、发布平台、运行时 SDK、工单系统六大数据源汇聚至数据网关，经 ClickHouse/TimescaleDB 存储聚合，支撑 Grafana 可视化看板与洞察分析引擎，最终驱动改进实验闭环。
 
 ```mermaid
 graph LR
@@ -1758,25 +1544,6 @@ interface ImprovementExperiment {
 - 守护指标自动熔断（如缺陷逃逸率上升 > 20% 立即停止实验）。
 - 实验结论自动生成报告，沉淀为组织知识库。
 
-下图展示了从洞察分析到改进实验再到复盘验证的完整闭环流程，体现了“数据驱动决策”的工程化落地。
-
-```mermaid
-flowchart LR
-    A[Grafana 看板异常告警] --> B[洞察分析引擎\n自动匹配规则库]
-    B --> C[生成改进假设\n如: 评审等待过长]
-    C --> D[设计 A/B 实验\n分组/指标/周期/判定标准]
-    D --> E[实验平台自动分流\n采集指标/统计检验]
-    E --> F{实验结论}
-    F -- 显著改善 + 守护指标达标 --> G[全量推广\n固化为规范/平台能力]
-    F -- 无显著差异/守护指标恶化 --> H[复盘总结\n沉淀知识库]
-    F -- 守护指标触发熔断 --> I[紧急停止实验\n回滚配置]
-    G --> J[下周期复盘验证\n指标持续回升?]
-    H --> J
-    I --> J
-    J --> A
-    style G fill:#e8f5e9,stroke:#2e7d32
-```
-
 ---
 
 ## 12.7 前端效能平台 MVP —— 串联全链路的最小可行系统
@@ -1785,9 +1552,7 @@ flowchart LR
 
 脚手架、组件平台、低代码、度量看板各自为政，数据不通、流程断层，无法形成合力。**MVP 不是“功能缩水版”，而是“链路打通版”**——先跑通“一个项目从创建到看板有数”的最小闭环，再逐步扩展。正如“连锁餐厅总部的数字化中台”，先让一家分店的数据流通起来，再复制推广。
 
-> "串联脚手架创建 → 组件复用率统计 → 低代码产出页面占比 → 发布频次/故障率看板，形成闭环数据驱动工程效能提升。"
-> 
-> ——《20230418_045.md》
+> 串联脚手架创建 → 组件复用率统计 → 低代码产出页面占比 → 发布频次/故障率看板，形成闭环数据驱动工程效能提升。
 
 ### 12.7.1 MVP 架构蓝图
 
@@ -1914,26 +1679,6 @@ async function reportCI(payload: CIReportPayload) {
 }
 ```
 
-`reportCI` 函数实现了 CI 指标上报的零侵入设计：采用采样策略（成功 10%、失败 100%）控制上报量，使用 `AbortController` 强制 3 秒超时避免阻塞流水线，`keepalive: true` 确保进程退出前仍能发送，失败时写入本地队列下次重试，保证数据不丢失且不影响 CI 性能。
-
-下图展示了 CI 上报客户端的非阻塞设计细节，保障数据上报不拖慢构建流水线。
-
-```mermaid
-sequenceDiagram
-    participant CI as CI Runner
-    participant Client as reportCI Client
-    participant Gateway as Data Gateway
-    CI->>Client: 构建完成 调用 reportCI(payload)
-    Client->>Client: 采样判定/序列化
-    Client->>Gateway: fetch POST (keepalive, 3s timeout)
-    alt 成功响应
-        Gateway-->>Client: 200 OK
-    else 超时/失败
-        Client->>Client: 写入本地队列 .ci-report-queue
-        Client-->>CI: 立即返回 不阻塞流水线
-    end
-```
-
 #### 3. 运行时 SDK 关联 `project-id` 与版本
 
 ```typescript
@@ -1975,8 +1720,6 @@ function sendMetric(name: string, value: number, projectId: string, version: str
 
 #### 组件复用率计算模型
 
-下面的 SQL 查询基于构建时扫描产出的 `build_component_usage` 表（字段含 project_id、component_name、source、count），统计项目级组件复用率，识别本地重复组件。
-
 ```sql
 -- 构建时扫描产出表: build_component_usage(project_id, component_name, source, count)
 -- source: 'platform' | 'local' | 'third-party'
@@ -1999,8 +1742,6 @@ GROUP BY project_id;
 3. 标记为“疑似重复”，看板高亮展示，推荐替换为平台组件。
 
 #### 低代码产出占比统计
-
-下面的 SQL 查询基于发布事件表 `deploy_events` 与页面性能表 `page_performance`，统计低代码页面占比及其业务价值对比。
 
 ```sql
 -- 发布事件表: deploy_events(project_id, page_id, source, version, timestamp)
@@ -2026,26 +1767,6 @@ FROM page_performance
 JOIN deploy_events USING (page_id)
 WHERE timestamp > now() - interval '90 day'
 GROUP BY source;
-```
-
-下图展示了 MVP 核心看板的四大视图，分别对应脚手架创建入口、组件复用率、低代码占比、发布故障率，形成“数字化中台”的经营驾驶舱。
-
-```mermaid
-graph TB
-    subgraph MVP 核心看板
-        A[项目创建漏斗\n脚手架版本分布/创建成功率]
-        B[组件复用率热力图\n项目/团队/组件维度]
-        C[低代码产出占比趋势\n页面数/PV/迭代频次/缺陷率]
-        D[研发效能 DORA 看板\n部署频次/前置时间/失败率/MTTR]
-    end
-    A --> E[识别: 老版本脚手架项目未升级]
-    B --> F[识别: 复用率低项目缺什么组件]
-    C --> G[识别: 低代码适用场景未覆盖]
-    D --> H[识别: 瓶颈环节/高风险团队]
-    style E fill:#ffebee,stroke:#c62828
-    style F fill:#ffebee,stroke:#c62828
-    style G fill:#ffebee,stroke:#c62828
-    style H fill:#ffebee,stroke:#c62828
 ```
 
 ### 12.7.4 闭环驱动机制：从看板到行动
@@ -2091,8 +1812,6 @@ MVP 的终极目标是**跑通“数据 → 洞察 → 行动 → 复盘”闭�
 
 ### 脚手架工程化：Yeoman vs Plop vs create-xxx 内置生成器
 
-下表对比了三类脚手架工具的定位与能力边界，说明为何本章推荐以 Yeoman/Plop 为核心引擎构建组织级脚手架。
-
 | 维度 | Yeoman | Plop | create-vite/create-react-app 内置 |
 |------|--------|------|-----------------------------------|
 | **定位** | 通用脚手架框架 | 微型生成器（常嵌入项目） | 绑定特定框架的官方脚手架 |
@@ -2105,8 +1824,6 @@ MVP 的终极目标是**跑通“数据 → 洞察 → 行动 → 复盘”闭�
 **分歧**：是否内置 Monorepo 支持。Yeoman 需手动集成，本章方案将 pnpm Workspace + Turborepo 作为脚手架**默认生成标配**。
 
 ### 组件物料平台：Storybook vs Histoire vs 自研文档站
-
-下表对比了主流组件文档/沙箱工具的特性，为技术选型提供参考依据。
 
 | 维度 | Storybook | Histoire | 自研 (Docz/Styleguidist 等) |
 |------|-----------|----------|----------------------------|
@@ -2122,8 +1839,6 @@ MVP 的终极目标是**跑通“数据 → 洞察 → 行动 → 复盘”闭�
 
 ### 低代码引擎：Schema 设计流派对比
 
-下表梳理了业界低代码平台的三大技术流派，阐明本章采用的“可视化搭建+代码生成”混合模式的定位。
-
 | 流派 | 代表 | Schema 特点 | 渲染器 | 代码生成 | 适用场景 |
 |------|------|-------------|--------|----------|----------|
 | **可视化搭建平台** | 阿里低代码引擎、飞搭、Mobu | 重表达力、支持复杂布局/逻辑/数据流 | 解释执行 | 支持但非核心 | 营销页、表单页、大屏、后台系统 |
@@ -2133,8 +1848,6 @@ MVP 的终极目标是**跑通“数据 → 洞察 → 行动 → 复盘”闭�
 **本章定位**：**可视化搭建平台 + 代码生成器混合模式**。Schema 设计兼顾表达力与可迁移性，渲染器支持运行时解释执行，**同时提供 AST 级代码生成**作为“毕业路径”，避免厂商锁定。
 
 ### 度量体系：DORA vs SPACE vs 自定义指标
-
-下表对比了三种度量框架的关注点与落地难度，说明本章在 DORA 基础上扩展前端特有指标的理由。
 
 | 维度 | DORA 四大指标 | SPACE 框架 | 本章体系 |
 |------|---------------|------------|----------|
@@ -2256,14 +1969,12 @@ MVP 的终极目标是**跑通“数据 → 洞察 → 行动 → 复盘”闭�
 
 本章我们一起学习了以下概念：
 
-下表汇总了本章核心概念及其定义，便于快速回顾与检索。
-
 | 概念 | 解释 |
 |------|------|
 | 脚手架工程化 | 通过模版引擎、Monorepo、插件化、Codemod 升级，将项目初始化标准化为可交互、可治理、可迁移的流水线 |
 | 模版即代码 | 脚手架模版支持变量替换、条件渲染、组合复用，本质是可维护、可测试的代码资产而非静态文件 |
 | 组件物料平台 | 以元数据规范为核心，集成自动文档、沙箱演示、依赖图谱、发布治理，让 UI 组件变成可检索、可度量、可复用的标准化资产 |
-| Schema 协议 | 低代码引擎的核心资产，用 JSON 描述页面结构（组件树、数据源、生命周期），决定了平台的上限与迁移成本 |
+| Schema 协议 | 低代码搭建引擎的核心资产，用 JSON 描述页面结构（组件树、数据源、生命周期），决定了平台的上限与迁移成本 |
 | 渲染器插件化 | 低代码渲染器遵循标准接口，支持自定义组件注册、插槽/条件/循环渲染，实现业务组件与平台内核解耦 |
 | AST 代码生成 | 基于 Babel/TS Compiler API 将 Schema 转为高代码，实现“低代码起步、高代码接管”的无缝演进路径 |
 | 北极星指标 | 研发效能的单一核心目标（如有效发布频次），拒绝虚荣指标，统一团队优化方向 |
@@ -2272,6 +1983,8 @@ MVP 的终极目标是**跑通“数据 → 洞察 → 行动 → 复盘”闭�
 | 前端效能平台 MVP | 最小可行性平台：串联脚手架入口、组件复用率、低代码占比、发布故障看板，跑通“数据->洞察->行动->复盘”闭环 |
 
 ## 参考文献
+
+[P045] 20230418_045.md
 
 1. pnpm 团队. *pnpm Documentation: Performance*. https://pnpm.io/performance. Accessed 2024.
 2. DORA Team. *2021 State of DevOps Report*. Google Cloud. https://dora.dev/state-of-devops/. 2021.
@@ -2285,6 +1998,7 @@ MVP 的终极目标是**跑通“数据 → 洞察 → 行动 → 复盘”闭�
 10. MobX Team. *mobx-redomanager: Undo/Redo Manager for MobX*. https://github.com/mobxjs/mobx-redomanager.
 
 下一章中，我们将学习**前端可观测性与异常监控**，重点掌握从错误捕获到用户行为全链路追踪的三大支柱建设：Metrics（指标）、Logs（日志）、Traces（链路），以及如何落地自研前端可观测平台。
+
 
 
 
