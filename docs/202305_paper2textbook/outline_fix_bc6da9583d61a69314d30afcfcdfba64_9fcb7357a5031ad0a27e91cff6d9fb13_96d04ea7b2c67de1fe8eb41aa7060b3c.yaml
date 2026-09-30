@@ -1,0 +1,442 @@
+- 'no': 1
+  name: 执行力进化论 —— 从“知易行难”到“彻底执行”
+  desc: 本章深度剖析执行力的本质与稀缺性，对比“战略幻觉”与“笨功夫现实”，建立从标准化动作（SOP）到长期复利的执行力进化模型，揭示为何简单正确的事最难做成。
+  nodes:
+  - 'no': 1
+    name: 执行力稀缺性定律：为什么道理都懂却过不好这一生
+    desc: 用‘减肥1/200成功率’与‘餐厅SOP落地率<1%’的跨域数据，证明执行力而非认知是核心稀缺资源，揭示‘知易行难’的人性根源。
+    role: motivation
+    src:
+    - paper: docs/202305/20230516_003.md
+    - paper: docs/202305/20230516_003.md
+    - paper: docs/202305/20230516_009.md
+  - 'no': 2
+    name: 彻底执行的定义与三重境界：SOP标准化、全员全时段、穿越周期
+    desc: 将‘彻底执行’拆解为动作颗粒度标准化、执行覆盖面无死角、时间维度长期主义三个维度，对标古茗拉横幅、每日分享、早会案例。
+    role: definition
+    src:
+    - paper: docs/202305/20230516_003.md
+    - paper: docs/202305/20230516_003.md
+    - paper: docs/202305/20230516_003.md
+  - 'no': 3
+    name: 执行惰性与‘三大隐形坑’：注意力被他人掠夺的隐性成本
+    desc: 识别‘凑热闹、随大流、操他人心’三大注意力黑洞，量化注意力稀缺性，建立‘注意力归属权’自我诊断清单。
+    role: limitation
+    src:
+    - paper: docs/202305/20230516_003.md
+    - paper: docs/202305/20230516_009.md
+    - paper: docs/202305/20230516_009.md
+  - 'no': 4
+    name: ‘笨功夫’方法论：海量案例拆解、工程细节掌握、3-5年长周期刻意练习
+    desc: 提供‘收集1万家门头/拆解1000条爆款’的可执行标准动作库，拒绝捷径思维，确立‘最短的路就是脚下的笨路’执行范式。
+    role: method
+    src:
+    - paper: docs/202305/20230516_009.md
+    - paper: docs/202305/20230516_009.md
+    - paper: docs/202305/20230516_009.md
+  - 'no': 5
+    name: 执行复利验证：个人每日分享获出版邀约、古茗横幅规模化崩塌反面教材
+    desc: 对比正向（作者出版）与反向（古茗规模化失效）案例，证明执行复利的非线性收益曲线与组织执行力边界。
+    role: experiment
+    src:
+    - paper: docs/202305/20230516_003.md
+    - paper: docs/202305/20230516_003.md
+  - 'no': 6
+    name: 航海实战复盘：996程序员21天从零到变现的‘社群杠杆×高频行动×利他分享’模型
+    desc: 拆解巴菲航海日志全流程：目标导向机制、爆款复制放大、预售倒逼交付、分层变现阶梯，验证普通人副业成功的可复制路径。
+    role: experiment
+    src:
+    - paper: docs/202305/20230516_007.md
+    - paper: docs/202305/20230516_007.md
+    - paper: docs/202305/20230516_007.md
+    - paper: docs/202305/20230516_007.md
+  - 'no': 7
+    name: 解决真正的问题：主要矛盾原则与问题分层处理框架
+    desc: 拒绝‘完美公司幻觉’，识别致命/附随/慢性三类问题，聚焦现金流等主要矛盾，用业务增长掩盖次要矛盾，对分配公平等不可解之事接受相对公平。
+    role: method
+    src:
+    - paper: docs/202305/20230516_006.md
+    - paper: docs/202305/20230516_006.md
+    - paper: docs/202305/20230516_006.md
+- 'no': 2
+  name: 认知突破与决策力 —— 制造清晰、承认无知、修补认知黑洞
+  desc: 本章从‘混沌根源’出发，构建认知清晰度的制造路径，揭示管理者‘全能幻觉’与‘认知黑洞’的双重陷阱，提供决策力升级的底层操作系统。
+  nodes:
+  - 'no': 1
+    name: 混沌根源定理：模糊源于认知不清，而非环境复杂
+    desc: 确立‘对未来模糊=人生混沌’的因果链，主张‘制造清晰’是主动行为而非被动等待，奠定认知突破的内驱力基础。
+    role: motivation
+    src:
+    - paper: docs/202305/20230516_004.md
+    - paper: docs/202305/20230516_004.md
+    - paper: docs/202305/M5lpdRp7OoHZAYxuDiicgGtSnpg.md
+  - 'no': 2
+    name: 认知-行动耦合律：清晰度决定行动坚定度，坚定度支撑高耗能挑战
+    desc: 揭示‘认知清晰→行动坚定→高耗能执行’的传导机制，解释为何只有深度认知能支撑穿越周期的困难任务。
+    role: definition
+    src:
+    - paper: docs/202305/20230516_004.md
+    - paper: docs/202305/M5lpdRp7OoHZAYxuDiicgGtSnpg.md
+    - paper: docs/202305/M5lpdRp7OoHZAYxuDiicgGtSnpg.md
+  - 'no': 3
+    name: 承认无能是进阶前提：身居高位的‘脑损伤’、全能幻觉与归因校准法
+    desc: 引入镜像神经元衰退机制，剖析‘运气归因于能力’的系统性偏差，提供‘承认无知→听取建议→知进退’的认知校准三步法。
+    role: method
+    src:
+    - paper: docs/202305/20230516_055.md
+    - paper: docs/202305/20230516_055.md
+    - paper: docs/202305/20230516_055.md
+  - 'no': 4
+    name: 认知黑洞与决策力：抛开评判心、吸收优质信息、乐观构想-悲观计划-乐观实行
+    desc: 定义‘否决即关上认知大门’的黑洞效应，传授‘鸡屎里找鸡蛋’的信息吸收术与三阶段决策模型，规避理性思维对未知的排斥。
+    role: method
+    src:
+    - paper: docs/202305/20230516_056.md
+    - paper: docs/202305/20230516_056.md
+    - paper: docs/202305/M5lpdRp7OoHZAYxuDiicgGtSnpg.md
+  - 'no': 5
+    name: 元认知训练：停留几秒激活理智脑、写作复盘疏解情绪、三维语言重塑思维
+    desc: 提供‘选择前停留几秒’、‘情绪外化书写’、‘积极/和善/开放语言强制输出’三套微操作，从生理层面重塑大脑决策回路。
+    role: method
+    src:
+    - paper: docs/202305/M5lpdRp7OoHZAYxuDiicgGtSnpg.md
+    - paper: docs/202305/M5lpdRp7OoHZAYxuDiicgGtSnpg.md
+    - paper: docs/202305/M5lpdRp7OoHZAYxuDiicgGtSnpg.md
+  - 'no': 6
+    name: 高手习惯即时内化：巴菲特12大特质与个人周计划表
+    desc: 提炼孤独独立、兴趣驱动、大量阅读、复盘等12特质，展示作者2年迭代的周计划表实物，演示‘知行合一+习惯即时内化’的系统化落地。
+    role: experiment
+    src:
+    - paper: docs/202305/M5lpdRp7OoHZAYxuDiicgGtSnpg.md
+    - paper: docs/202305/M5lpdRp7OoHZAYxuDiicgGtSnpg.md
+    - paper: docs/202305/M5lpdRp7OoHZAYxuDiicgGtSnpg.md
+  - 'no': 7
+    name: 学习本质与高效内化工具箱：费曼技巧、关键点触发读书、刻意练习缝合知识
+    desc: 定义学习为‘关联旧知+刻意缝合’，提供关键点触发式读书、费曼技巧输出、番茄工作法精力管理、黄金时间攻克难事、预案式规划等标准化工具链。
+    role: method
+    src:
+    - paper: docs/202305/M5lpdRp7OoHZAYxuDiicgGtSnpg.md
+    - paper: docs/202305/M5lpdRp7OoHZAYxuDiicgGtSnpg.md
+    - paper: docs/202305/M5lpdRp7OoHZAYxuDiicgGtSnpg.md
+  - 'no': 8
+    name: 身心底层升级：冥想增厚灰质、运动后黄金窗口强化神经元、身心合一缓解焦虑
+    desc: 引用科学实证‘冥想增大皮层面积’、‘运动促生神经元’，设计运动后1-2小时高强度脑力作业协议，以‘感受回归当下’化解焦虑。
+    role: method
+    src:
+    - paper: docs/202305/M5lpdRp7OoHZAYxuDiicgGtSnpg.md
+    - paper: docs/202305/M5lpdRp7OoHZAYxuDiicgGtSnpg.md
+    - paper: docs/202305/M5lpdRp7OoHZAYxuDiicgGtSnpg.md
+- 'no': 3
+  name: 商业模式进化论 —— 从淘客衰退到快团团私域分销闭环
+  desc: 本章以快团团为核心案例，演示商业模式如何因流量分流、佣金下降、搜索失效而结构性衰退，并如何通过私域分销、零账期、自由定价重构利润分配与用户资产权。
+  nodes:
+  - 'no': 1
+    name: 淘客模式结构性衰退因果链：流量分流→预算转移→佣金崩塌→搜索权重失效
+    desc: 构建从宏观渠道多元化到微观买量ROI倒挂的完整因果推导，证明传统淘客模式不可逆衰退的结构性根因。
+    role: proof
+    src:
+    - paper: docs/202305/20230516_053.md
+    - paper: docs/202305/20230516_053.md
+  - 'no': 2
+    name: 快团团八大结构性优势：私域B2B2C模式的降维打击
+    desc: 从成交体验、价格体系、佣金比例、资金效率、用户资产、触达能力、内容形式、定价权八维度，系统对比快团团对标准货架电商与淘客的全方位超越。
+    role: definition
+    src:
+    - paper: docs/202305/20230516_053.md
+    - paper: docs/202305/20230516_053.md
+    - paper: docs/202305/20230516_053.md
+    - paper: docs/202305/20230516_053.md
+  - 'no': 3
+    name: 生态角色定位与七大切入机会：供货/帮卖/文案/工具/刷单/撮合/代运营
+    desc: 按核心能力划分生态位，匹配各角色收益逻辑与风险提示，为不同资源禀赋者提供精准入局坐标。
+    role: method
+    src:
+    - paper: docs/202305/20230516_053.md
+    - paper: docs/202305/20230516_053.md
+    - paper: docs/202305/20230516_053.md
+  - 'no': 4
+    name: 分销端定价权重构利润分配：从固定佣金到‘佣金+加价差价’的双重收益模型
+    desc: 揭示自由定价权如何将分销利润上限从平台固定转变为运营能力决定，激活私域深耕与用户分层定价的内生动力。
+    role: proof
+    src:
+    - paper: docs/202305/20230516_053.md
+    - paper: docs/202305/20230516_053.md
+  - 'no': 5
+    name: 实测数据验证：强触达机制日销千元、有赞防御性模仿、假货合规风险清单
+    desc: 用作者亲测‘不发群日销千元’验证触达价值，用有赞推群团团佐证颠覆性，列举假货/税务/政策风险完成风控拼图。
+    role: experiment
+    src:
+    - paper: docs/202305/20230516_053.md
+    - paper: docs/202305/20230516_053.md
+    - paper: docs/202305/20230516_053.md
+- 'no': 4
+  name: 平民实体创业标准化手册 —— 消费力套利、选址法则、无人值守3.0模式
+  desc: 本章复盘作者半年开十余店实战，提炼‘消费力套利’核心逻辑，建立从城市筛选、电影院选址、极简装修、佛系运营到首年利润率公式的全流程标准化开店体系。
+  nodes:
+  - 'no': 1
+    name: 消费力套利：三四线城市品质消费心理价位不变、成本显著更低的价格剪刀差
+    desc: 揭示瑞幸/台球/自习室在三四线与一二线城市‘同价异成本’的套利窗口，确立小成本高确定性创业的战略锚点。
+    role: motivation
+    src:
+    - paper: docs/202305/20230516_054.md
+    - paper: docs/202305/20230516_054.md
+  - 'no': 2
+    name: 首年利润率公式与城市筛选模型：租房前即可测算盈利预期的量化决策工具
+    desc: 推导（月价×座位×85%×12）/（年租+软硬件）公式，配套人口/现有店数/对标城市/考研高中/美团闭店率四步筛选法。
+    role: definition
+    src:
+    - paper: docs/202305/20230516_054.md
+    - paper: docs/202305/20230516_054.md
+  - 'no': 3
+    name: 电影院选址法则与实地踩盘SOP：唯一硬指标+双脚丈量+物业利益绑定
+    desc: 确立‘有电影院开1公里内，无则Pass’铁律，详述交通全模拟、户型筛选、物业佣金红包尊重策略，降维打击选址失误率。
+    role: method
+    src:
+    - paper: docs/202305/20230516_054.md
+    - paper: docs/202305/20230516_054.md
+  - 'no': 4
+    name: 谈判签约组合拳与极简装修交付标准：5-7天极速开业的工程化流程
+    desc: 标准化‘波澜不惊看房→极限砍价→半年付筹码→免租装修期→不涨租不卖房’谈判话术，配套固定工艺/材料/品牌/工期的装修包干制。
+    role: method
+    src:
+    - paper: docs/202305/20230516_054.md
+    - paper: docs/202305/20230516_054.md
+  - 'no': 5
+    name: 无人值守3.0模式与佛系运营：超卖策略、志愿者替代保洁、羊毛党造势
+    desc: 构建小程序选座/开门/断电、会员制私域、2倍超卖、小管家送课时管卫生、容忍羊毛党营造氛围的零人力运营闭环。
+    role: method
+    src:
+    - paper: docs/202305/20230516_054.md
+    - paper: docs/202305/20230516_054.md
+    - paper: docs/202305/20230516_054.md
+    - paper: docs/202305/20230516_054.md
+  - 'no': 6
+    name: 实盘回测：龙岩店首年255%/次年638%利润率、汕头vs佛山蓝海验证、物业100元搞定垃圾清运
+    desc: 用真实财务数据验证公式有效性，用同省对标发现汕头蓝海，用物业案例证明‘位卑权重’的利益绑定杠杆。
+    role: experiment
+    src:
+    - paper: docs/202305/20230516_054.md
+    - paper: docs/202305/20230516_054.md
+    - paper: docs/202305/20230516_054.md
+- 'no': 5
+  name: 银发知识付费红利窗口 —— 都市银发人群画像、降维打击、轻量化课程生产
+  desc: 本章基于渔火2019-2023年深耕实战，描绘‘高付费、强学习、重服务、习惯付费’的都市银发像，拆解视频号测品+外包制作+私域服务的标准化打法，揭示五大细分创新方向。
+  nodes:
+  - 'no': 1
+    name: 都市银发人群四大核心特征与信任迁移假说：母亲账号月销800-1000单的同龄人信任杠杆
+    desc: 定义40-75岁一二三线人群的手机溜/有钱/有闲/爱分享/重服务画像，验证真实长辈人设对机构品牌的信任碾压效应。
+    role: motivation
+    src:
+    - paper: docs/202305/20230516_059.md
+    - paper: docs/202305/20230516_059.md
+  - 'no': 2
+    name: 三阶段演变史与红利窗口期定律：大厂普及认知后、垂直细分60分产品即有机会的2-3年黄金期
+    desc: 复盘萌芽期/野蛮生长/飞速增长三阶段，论证当前‘大厂教育市场+垂直产品匮乏+获客成本低’的最佳入局窗口及关闭预期。
+    role: definition
+    src:
+    - paper: docs/202305/20230516_059.md
+    - paper: docs/202305/20230516_059.md
+  - 'no': 3
+    name: 降维打击式入局：迁移K12/幼教成熟赛道的做课、服务、营销方法论碾压银发赛道初级形态
+    desc: 展示如何将成熟教育赛道的标准化SOP直接复用，因银发用户认知浅、服务标准低，形成‘120分做法打60分市场’的非对称优势。
+    role: method
+    src:
+    - paper: docs/202305/20230516_059.md
+    - paper: docs/202305/20230516_059.md
+  - 'no': 4
+    name: 轻量化课程产品生产线：需求挖掘→MVP验证→大学生/专业外包→创始人把控大纲服务
+    desc: 打破‘懂专业才能卖课’迷思，建立‘懂用户需求即可卖课’的外包生产模式，标准化录播+直播、可下载、永久回看交付规格。
+    role: method
+    src:
+    - paper: docs/202305/20230516_059.md
+    - paper: docs/202305/20230516_059.md
+  - 'no': 5
+    name: 视频号内容测品法与详情页AB测试：绿背景大字长图击败专业设计的转化率实证
+    desc: 演示用视频号低成本测方向（老歌混剪/乐谱/唱谱），用‘懒设计10分钟大字图’碾压‘淘宝1000元专业页’的视觉偏好反常识发现。
+    role: experiment
+    src:
+    - paper: docs/202305/20230516_059.md
+    - paper: docs/202305/20230516_059.md
+  - 'no': 6
+    name: 五大细分创新方向与养狗人群年龄红利：家政、睡眠、旅游、电商、宠物的百亿级蓝海
+    desc: 披露养狗人均龄37岁、宠物狗3000万vs新生儿1000万的人口学红利，规划中老年养宠/家政/助眠/旅拍/电商全产业链切入点。
+    role: extension
+    src:
+    - paper: docs/202305/20230516_059.md
+    - paper: docs/202305/20230516_059.md
+- 'no': 6
+  name: 个人IP与知识变现体系 —— 百年不改名、现金投票、100-10-5-1验证、私域终点是一对一
+  desc: 本章整合粥左罗、根源、比高、思蒙等多位实战者经验，构建从名字资产化、极低成本试错、课程体系设计、标准化交付SOP到深度一对一运营的个人IP商业化全链路体系。
+  nodes:
+  - 'no': 1
+    name: 全域同名策略与唯一名字复利定律：12年3000+篇内容织就的影响力网络
+    desc: 确立‘能用一辈子就是好名字’判断准则，证明唯一名字×时间跨度的指数级网络效应，反对频繁改名导致的资产归零。
+    role: definition
+    src:
+    - paper: docs/202305/20230516_057.md
+    - paper: docs/202305/20230516_057.md
+    - paper: docs/202305/20230516_057.md
+  - 'no': 2
+    name: 现金投票与先开课再完善：互联网零边际成本下的逆向研发验证法
+    desc: 仅凭主题/价格/时间三要素预售，收款再产出；用微信群滚动交付（两天一课）完成0-1跨越，消除‘备课完美主义’拖延。
+    role: method
+    src:
+    - paper: docs/202305/QPFgdHgZsorQvdxDkl9cw58LnVf.md
+    - paper: docs/202305/QPFgdHgZsorQvdxDkl9cw58LnVf.md
+    - paper: docs/202305/QPFgdHgZsorQvdxDkl9cw58LnVf.md
+  - 'no': 3
+    name: 100-10-5-1验证模型与三阶段师生关系：从学生选师到老师影响生的进化路径
+    desc: 设定100人次付款/10%复购/5期课程/1种进阶课硬指标，配套师生关系三阶段演进模型，判断课程体系是否可持续。
+    role: definition
+    src:
+    - paper: docs/202305/QPFgdHgZsorQvdxDkl9cw58LnVf.md
+    - paper: docs/202305/QPFgdHgZsorQvdxDkl9cw58LnVf.md
+  - 'no': 4
+    name: 全流程标准化交付SOP：确认词机制、固定上课、结业仪式、私发毕业证促复购30%
+    desc: 设计付款后‘确认词’前置规则（开课时间/配合事项/不退费/确认指令），固定时间/红包/心得/优惠券仪式化流程，私发证书将复购从5%提至30%。
+    role: method
+    src:
+    - paper: docs/202305/QPFgdHgZsorQvdxDkl9cw58LnVf.md
+    - paper: docs/202305/QPFgdHgZsorQvdxDkl9cw58LnVf.md
+    - paper: docs/202305/QPFgdHgZsorQvdxDkl9cw58LnVf.md
+  - 'no': 5
+    name: 主编体系与手动分销：福利先行筛选核心助教、私聊打款深化关系的反自动化运营
+    desc: 用课程折扣/咨询权益而非金钱激励主编，5期筛选7-10人核心团队；拒绝自动分销工具，亲自打款聊天牺牲广度换深度，实现整体50%复购。
+    role: method
+    src:
+    - paper: docs/202305/QPFgdHgZsorQvdxDkl9cw58LnVf.md
+    - paper: docs/202305/QPFgdHgZsorQvdxDkl9cw58LnVf.md
+    - paper: docs/202305/QPFgdHgZsorQvdxDkl9cw58LnVf.md
+  - 'no': 6
+    name: 实战手册化标准与陪跑式组织：从航海志愿者到短剧推广257人团队的SOP复制路径
+    desc: 拆解思蒙‘手册先行→种子用户陪跑→话术/FAQ/思维导图/直播课迭代→规模化交付’模型，验证‘实战手册’作为知识资产核心载体的组织化威力。
+    role: experiment
+    src:
+    - paper: docs/202305/20230516_066.md
+    - paper: docs/202305/20230516_066.md
+    - paper: docs/202305/20230516_066.md
+    - paper: docs/202305/20230516_066.md
+  - 'no': 7
+    name: 长价值写作法与感性故事-理性道理双轨制：远离热点、10年生命力内容、润物细无声的认知升级
+    desc: 主张静心阅读/用心关联/持续打磨生产长周期内容，用故事激活感性再传递理性，以作品价值吸引连接而非推销说服，构建第六奇迹影响力。
+    role: extension
+    src:
+    - paper: docs/202305/M5lpdRp7OoHZAYxuDiicgGtSnpg.md
+    - paper: docs/202305/M5lpdRp7OoHZAYxuDiicgGtSnpg.md
+    - paper: docs/202305/M5lpdRp7OoHZAYxuDiicgGtSnpg.md
+  - 'no': 8
+    name: 三无小白的社群跃迁路径：异常值捕捉、最小可行性行动、公开复盘、角色浸入式学习
+    desc: 复盘思蒙从月薪3000到带队257人的全路径：小额试错破冰、公开输出获正反馈、志愿者/教练角色习得运营SOP、异常值信号触发风口决策。
+    role: experiment
+    src:
+    - paper: docs/202305/20230516_066.md
+    - paper: docs/202305/20230516_066.md
+    - paper: docs/202305/20230516_066.md
+- 'no': 7
+  name: 财富跃迁与风险防守体系 —— 从负债19万到年入百万的多渠道组合、三阶段风控、防守优先
+  desc: 本章融合老吴、二丫、梦宸三条不同起点的财富跃迁实录，建立记账基座、被动收入锚点、三阶段风险测算、保险四件套、双腿走路模型的全周期财务安全与增长体系。
+  nodes:
+  - 'no': 1
+    name: 记账复盘体系与三阶段风险测算：年收入亏损上限→净资产20%上限→标普配置搭台
+    desc: 从流水账起步，构建随资产量级动态升级的风控红线：一阶段守收入、二阶段守净资产引入2倍杠杆、三阶段按标普配置搭建利他平台实现钱生钱。
+    role: definition
+    src:
+    - paper: docs/202305/NsZwdMgSxovqfxxgJqFc5XtXntb.md
+    - paper: docs/202305/NsZwdMgSxovqfxxgJqFc5XtXntb.md
+    - paper: docs/202305/20230516_067.md
+  - 'no': 2
+    name: 五大被动收入支柱实操SOP：经纪佣金、超短线委托、淘宝客裂变、可转债百户代打、四大行存款套利
+    desc: 像素级拆解五大确定性项目：经纪人12-20万/年、淘宝客50万/年（悠哉机器人+自产粉+合伙人制）、可转债6-10万（企业户破限）、银行套利季度20万（自有卡操作/考核信息差）。
+    role: method
+    src:
+    - paper: docs/202305/NsZwdMgSxovqfxxgJqFc5XtXntb.md
+    - paper: docs/202305/NsZwdMgSxovqfxxgJqFc5XtXntb.md
+    - paper: docs/202305/NsZwdMgSxovqfxxgJqFc5XtXntb.md
+    - paper: docs/202305/NsZwdMgSxovqfxxgJqFc5XtXntb.md
+    - paper: docs/202305/NsZwdMgSxovqfxxgJqFc5XtXntb.md
+  - 'no': 3
+    name: 信用价值变现与合伙人制杠杆：征信/授信/人脉→低成本融资→规模化复制风险分摊
+    desc: 揭示‘出资/出技术/出资源’三方分工如何将边际成本降为零，利用他人账户/额度/粉丝实现淘宝客、可转债、存款套利的规模化放大。
+    role: method
+    src:
+    - paper: docs/202305/NsZwdMgSxovqfxxgJqFc5XtXntb.md
+    - paper: docs/202305/NsZwdMgSxovqfxxgJqFc5XtXntb.md
+  - 'no': 4
+    name: 流动性优先原则与三大致命坑实证：融资融券爆仓、消息票梭哈、他人代管账户挪用
+    desc: 立下‘资金不出自有卡、随时可赎回、拒绝融资融券’铁律，用10万亏至1万、300万亏至60万成老赖、30万仅回本80%三大惨案刻印风控底线。
+    role: limitation
+    src:
+    - paper: docs/202305/NsZwdMgSxovqfxxgJqFc5XtXntb.md
+    - paper: docs/202305/NsZwdMgSxovqfxxgJqFc5XtXntb.md
+  - 'no': 5
+    name: 防守优先定理与双腿走路模型：金钟罩（社保+保险四件套）守住城池，副业验证进攻可行性
+    desc: 针对有房贷/幼儿/积蓄有限阶段，证明‘主业防守+副业进攻’边际收益高于裸辞创业，详述保险四件套（重疾/医疗/寿险/意外）、社保不断缴、面试空窗期话术重构。
+    role: method
+    src:
+    - paper: docs/202305/20230516_067.md
+    - paper: docs/202305/20230516_067.md
+    - paper: docs/202305/20230516_067.md
+    - paper: docs/202305/20230516_067.md
+  - 'no': 6
+    name: 少年创业认知跃迁七阶：1元启动→碎片时间资产化→平台红利窗口→向上社交→抄袭模仿超越→单人全链路→风口判断果断转型
+    desc: 梳理梦宸13-20岁路径：QQ赞冷启动、衡水模式碎片时间利用、快手内测期/抖音影视/拼多多带货三波红利捕捉、茗门团队圈层渗透、同行拆解守破离、单人全链路高利润率、三个月无增量果断转型。
+    role: experiment
+    src:
+    - paper: docs/202305/YPhndkBKfocBV2xCfvucevIAn5y.md
+    - paper: docs/202305/YPhndkBKfocBV2xCfvucevIAn5y.md
+    - paper: docs/202305/YPhndkBKfocBV2xCfvucevIAn5y.md
+    - paper: docs/202305/YPhndkBKfocBV2xCfvucevIAn5y.md
+    - paper: docs/202305/YPhndkBKfocBV2xCfvucevIAn5y.md
+    - paper: docs/202305/YPhndkBKfocBV2xCfvucevIAn5y.md
+  - 'no': 7
+    name: 四年财务跃迁曲线与实操性副业优先论：负债19万→年净96万，除主观股票外均可复制
+    desc: 展示2019-2023指数级增长曲线，验证‘淘宝客/可转债/银行套利’等实操性项目的抗周期稳健性，确立‘靠谱真诚积累商机’的底层人格资产。
+    role: experiment
+    src:
+    - paper: docs/202305/20230516_058.md
+    - paper: docs/202305/20230516_058.md
+    - paper: docs/202305/NsZwdMgSxovqfxxgJqFc5XtXntb.md
+    - paper: docs/202305/NsZwdMgSxovqfxxgJqFc5XtXntb.md
+- 'no': 8
+  name: 名利观重构与终身成长范式 —— 出名是代价、退休即再创业、内向者创造优势
+  desc: 本章颠覆‘名利双收’主流叙事，确立‘名气=赚钱后的代价’、‘退休=二次创业起点’、‘内向=创造赛道优势’的新认知框架，指引高阶段位的生命策略选择。
+  nodes:
+  - 'no': 1
+    name: 名利分离定理：财务自由阈值后，名气转为纯成本项（隐私/安全/精力/舆论风险）
+    desc: 以蔡钰/猫叔/艺术老师/隐退朋友四大案例为证，证明‘钱够用’后主动隐退、物理隔离、社交防火墙是高认知群体的理性最优解。
+    role: proof
+    src:
+    - paper: docs/202305/20230516_005.md
+    - paper: docs/202305/20230516_005.md
+    - paper: docs/202305/20230516_005.md
+  - 'no': 2
+    name: 认知觉醒三层级：主流追名逐利→被迫以隐私换钱→觉醒者识破代价主动选择清福
+    desc: 区分三类人群认知层级，指出‘能觉得钱够用’属于高阶认知稀缺品，揭示主流‘出名是捷径’与觉醒者‘名气是代价’的巨大鸿沟。
+    role: definition
+    src:
+    - paper: docs/202305/20230516_005.md
+    - paper: docs/202305/20230516_005.md
+  - 'no': 3
+    name: 退休即再创业范式：65岁Lily姐的多元身份叠加（团长/DJ/民宿/闲鱼/eBay/大航海四项目）
+    desc: 展示退休非终点而是‘重组存量资源接入增量赛道’的起点，验证银发群体具备高跨境电商潜力（10年eBay经验+语言优势+闲暇时间）。
+    role: extension
+    src:
+    - paper: docs/202305/20230516_011.md
+    - paper: docs/202305/20230516_011.md
+    - paper: docs/202305/20230516_011.md
+  - 'no': 4
+    name: 内向者创造优势与价值交换规律：专注创造吸引连接、利他之心是成功唯一路径
+    desc: 重新定义内向非劣势而是创造潜力，主张‘生产价值内容=生产价值，做有价值的人=成长，贡献社会价值=成功’，以利他心统合写作/成长/成功三位一体。
+    role: extension
+    src:
+    - paper: docs/202305/M5lpdRp7OoHZAYxuDiicgGtSnpg.md
+    - paper: docs/202305/M5lpdRp7OoHZAYxuDiicgGtSnpg.md
+    - paper: docs/202305/M5lpdRp7OoHZAYxuDiicgGtSnpg.md
+  - 'no': 5
+    name: 身心合一与运动后黄金窗口：专注享受当下缓解焦虑、运动促生神经元1-2小时脑力强化
+    desc: 提供‘感受回归当下行动’的焦虑解法，引用科学研究设计‘运动→1-2小时高强度脑力’物理变强协议，从硬件层面升级认知算力。
+    role: method
+    src:
+    - paper: docs/202305/M5lpdRp7OoHZAYxuDiicgGtSnpg.md
+    - paper: docs/202305/M5lpdRp7OoHZAYxuDiicgGtSnpg.md
+    - paper: docs/202305/M5lpdRp7OoHZAYxuDiicgGtSnpg.md
