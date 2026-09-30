@@ -1,5 +1,6 @@
 
 
+
 # 第 14 章 跨端开发技术选型与架构演进 —— 从 Hybrid/小程序到 React Native/Flutter/Uni-app
 
 ## 学习目标
@@ -1267,6 +1268,7 @@ class _CounterState extends State<Counter> {
 | WebAssembly 跨端复用 | 核心算法用 Rust/C++ 编译为 Wasm，三端复用计算密集型能力，JS-Wasm 互操作通过 wasm-bindgen 实现零拷贝传递 |
 
 下一章中，我们将学习 WebAssembly 赋能前端 —— 从计算密集型卸载到多语言生态复用，系统介绍 Wasm 基础、Rust/AssemblyScript/C++ 编译工具链、JS-Wasm 互操作性能、SIMD/多线程/GC 提案，落地图像处理、加密、视频编解码等高性能场景。
+
 
 
 
