@@ -2,6 +2,8 @@
 
 
 
+
+
 # 第 15 章 WebAssembly 赋能前端 —— 从计算密集型卸载到多语言生态复用
 
 ## 学习目标
@@ -401,7 +403,7 @@ pub struct ImageFilter {
     width: u32,
     height: u32,
     // 内部数据存储在 Wasm 线性内存，不暴露给 JS
-    data_ptr: *mut u8,  // 或使用 Vec<u8> 配合 wasm-bindgen 内存管理
+    data: Vec<u8>,
 }
 
 #[wasm_bindgen]
@@ -409,21 +411,28 @@ impl ImageFilter {
     #[wasm_bindgen(constructor)]
     pub fn new(width: u32, height: u32) -> Self {
         // 分配线性内存...
+        let data = vec![0; (width * height * 4) as usize];
+        Self { width, height, data }
     }
 
     // 3. 方法导出：&self / &mut self 自动映射为 JS 实例方法
     pub fn grayscale(&mut self) {
         // 直接操作线性内存像素
+        for chunk in self.data.chunks_exact_mut(4) {
+            let gray = (0.299 * chunk[0] as f32 + 0.587 * chunk[1] as f32 + 0.114 * chunk[2] as f32) as u8;
+            chunk[0] = chunk[1] = chunk[2] = gray;
+        }
     }
 
     // 4. 返回复杂类型：Vec<u8> -> Uint8Array (零拷贝所有权转移)
     pub fn to_rgba(&self) -> Vec<u8> {
-        // 返回 Vec，wasm-bindgen 生成代码将所有权转移给 JS Uint8Array
+        self.data.clone()
     }
 
     // 5. 接收 JS 传入的 TypedArray：&[u8] / &mut [u8] 零拷贝借用
     pub fn process_external(&mut self, input: &[u8]) -> Vec<u8> {
-        // input 直接指向 JS ArrayBuffer 内存 (需 --target web)
+        self.data.copy_from_slice(input);
+        self.data.clone()
     }
 }
 
@@ -501,7 +510,7 @@ npx asc assembly/index.ts --target release --outFile build/release.wasm
 graph LR
     A[源码] --> B[Clang/rustc/asc]
     B --> C[.wasm 初版]
-    C --> D[wasm-opt -Oz --strip-debug --dce]
+    C --> D[wasm-opt -Oz --enable-mutable-globals --strip-debug --dce]
     D --> E[.wasm 优化版]
     E --> F[gzip/brotli 压缩]
     F --> G[流式实例化 instantiateStreaming]
@@ -1947,6 +1956,7 @@ graph TD
 | AIGC 双核竞争力 | 行业经验（方法论沉淀）+ 执行力（训练/落地强度）= 核心护城河，工具仅是放大器 |
 
 下一章中，我们将学习前端图形渲染进阶 —— Canvas 2D/WebGL/WebGPU 与可视化引擎架构设计，深入剖析浏览器图形 API 栈，从即时模式到可编程管线再到现代 GPU 抽象，构建高性能可视化/游戏/图形编辑器渲染引擎核心。
+
 
 
 
