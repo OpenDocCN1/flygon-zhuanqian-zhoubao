@@ -1,14 +1,4709 @@
 - 'no': 0
-  chapters: []
+  chapters:
+  - 'no': 1
+    name: 执行力进化论 —— 从“知易行难”到“彻底执行”
+    desc: 本章深度剖析执行力的本质与稀缺性，对比“战略幻觉”与“笨功夫现实”，建立从标准化动作（SOP）到长期复利的执行力进化模型，揭示为何简单正确的事最难做成。
+    nodes:
+    - 'no': 1
+      name: 执行力稀缺性定律：为什么道理都懂却过不好这一生
+      desc: 用‘减肥1/200成功率’与‘餐厅SOP落地率<1%’的跨域数据，证明执行力而非认知是核心稀缺资源，揭示‘知易行难’的人性根源。
+      role: motivation
+      src:
+      - paper: docs/202305/20230516_003.md
+      - paper: docs/202305/20230516_003.md
+      - paper: docs/202305/20230516_009.md
+    - 'no': 2
+      name: 彻底执行的定义与三重境界：SOP标准化、全员全时段、穿越周期
+      desc: 将‘彻底执行’拆解为动作颗粒度标准化、执行覆盖面无死角、时间维度长期主义三个维度，对标古茗拉横幅、每日分享、早会案例。
+      role: definition
+      src:
+      - paper: docs/202305/20230516_003.md
+      - paper: docs/202305/20230516_003.md
+      - paper: docs/202305/20230516_003.md
+    - 'no': 3
+      name: 执行惰性与‘三大隐形坑’：注意力被他人掠夺的隐性成本
+      desc: 识别‘凑热闹、随大流、操他人心’三大注意力黑洞，量化注意力稀缺性，建立‘注意力归属权’自我诊断清单。
+      role: limitation
+      src:
+      - paper: docs/202305/20230516_003.md
+      - paper: docs/202305/20230516_009.md
+      - paper: docs/202305/20230516_009.md
+    - 'no': 4
+      name: ‘笨功夫’方法论：海量案例拆解、工程细节掌握、3-5年长周期刻意练习
+      desc: 提供‘收集1万家门头/拆解1000条爆款’的可执行标准动作库，拒绝捷径思维，确立‘最短的路就是脚下的笨路’执行范式。
+      role: method
+      src:
+      - paper: docs/202305/20230516_009.md
+      - paper: docs/202305/20230516_009.md
+      - paper: docs/202305/20230516_009.md
+    - 'no': 5
+      name: 执行复利验证：个人每日分享获出版邀约、古茗横幅规模化崩塌反面教材
+      desc: 对比正向（作者出版）与反向（古茗规模化失效）案例，证明执行复利的非线性收益曲线与组织执行力边界。
+      role: experiment
+      src:
+      - paper: docs/202305/20230516_003.md
+      - paper: docs/202305/20230516_003.md
+    - 'no': 6
+      name: 航海实战复盘：996程序员21天从零到变现的‘社群杠杆×高频行动×利他分享’模型
+      desc: 拆解巴菲航海日志全流程：目标导向机制、爆款复制放大、预售倒逼交付、分层变现阶梯，验证普通人副业成功的可复制路径。
+      role: experiment
+      src:
+      - paper: docs/202305/20230516_007.md
+      - paper: docs/202305/20230516_007.md
+      - paper: docs/202305/20230516_007.md
+      - paper: docs/202305/20230516_007.md
+    - 'no': 7
+      name: 解决真正的问题：主要矛盾原则与问题分层处理框架
+      desc: 拒绝‘完美公司幻觉’，识别致命/附随/慢性三类问题，聚焦现金流等主要矛盾，用业务增长掩盖次要矛盾，对分配公平等不可解之事接受相对公平。
+      role: method
+      src:
+      - paper: docs/202305/20230516_006.md
+      - paper: docs/202305/20230516_006.md
+      - paper: docs/202305/20230516_006.md
+  - 'no': 2
+    name: 认知突破与决策力 —— 制造清晰、承认无知、修补认知黑洞
+    desc: 本章从‘混沌根源’出发，构建认知清晰度的制造路径，揭示管理者‘全能幻觉’与‘认知黑洞’的双重陷阱，提供决策力升级的底层操作系统。
+    nodes:
+    - 'no': 1
+      name: 混沌根源定理：模糊源于认知不清，而非环境复杂
+      desc: 确立‘对未来模糊=人生混沌’的因果链，主张‘制造清晰’是主动行为而非被动等待，奠定认知突破的内驱力基础。
+      role: motivation
+      src:
+      - paper: docs/202305/20230516_004.md
+      - paper: docs/202305/20230516_004.md
+      - paper: docs/202305/M5lpdRp7OoHZAYxuDiicgGtSnpg.md
+    - 'no': 2
+      name: 认知-行动耦合律：清晰度决定行动坚定度，坚定度支撑高耗能挑战
+      desc: 揭示‘认知清晰→行动坚定→高耗能执行’的传导机制，解释为何只有深度认知能支撑穿越周期的困难任务。
+      role: definition
+      src:
+      - paper: docs/202305/20230516_004.md
+      - paper: docs/202305/M5lpdRp7OoHZAYxuDiicgGtSnpg.md
+      - paper: docs/202305/M5lpdRp7OoHZAYxuDiicgGtSnpg.md
+    - 'no': 3
+      name: 承认无能是进阶前提：身居高位的‘脑损伤’、全能幻觉与归因校准法
+      desc: 引入镜像神经元衰退机制，剖析‘运气归因于能力’的系统性偏差，提供‘承认无知→听取建议→知进退’的认知校准三步法。
+      role: method
+      src:
+      - paper: docs/202305/20230516_055.md
+      - paper: docs/202305/20230516_055.md
+      - paper: docs/202305/20230516_055.md
+    - 'no': 4
+      name: 认知黑洞与决策力：抛开评判心、吸收优质信息、乐观构想-悲观计划-乐观实行
+      desc: 定义‘否决即关上认知大门’的黑洞效应，传授‘鸡屎里找鸡蛋’的信息吸收术与三阶段决策模型，规避理性思维对未知的排斥。
+      role: method
+      src:
+      - paper: docs/202305/20230516_056.md
+      - paper: docs/202305/20230516_056.md
+      - paper: docs/202305/M5lpdRp7OoHZAYxuDiicgGtSnpg.md
+    - 'no': 5
+      name: 元认知训练：停留几秒激活理智脑、写作复盘疏解情绪、三维语言重塑思维
+      desc: 提供‘选择前停留几秒’、‘情绪外化书写’、‘积极/和善/开放语言强制输出’三套微操作，从生理层面重塑大脑决策回路。
+      role: method
+      src:
+      - paper: docs/202305/M5lpdRp7OoHZAYxuDiicgGtSnpg.md
+      - paper: docs/202305/M5lpdRp7OoHZAYxuDiicgGtSnpg.md
+      - paper: docs/202305/M5lpdRp7OoHZAYxuDiicgGtSnpg.md
+    - 'no': 6
+      name: 高手习惯即时内化：巴菲特12大特质与个人周计划表
+      desc: 提炼孤独独立、兴趣驱动、大量阅读、复盘等12特质，展示作者2年迭代的周计划表实物，演示‘知行合一+习惯即时内化’的系统化落地。
+      role: experiment
+      src:
+      - paper: docs/202305/M5lpdRp7OoHZAYxuDiicgGtSnpg.md
+      - paper: docs/202305/M5lpdRp7OoHZAYxuDiicgGtSnpg.md
+      - paper: docs/202305/M5lpdRp7OoHZAYxuDiicgGtSnpg.md
+    - 'no': 7
+      name: 学习本质与高效内化工具箱：费曼技巧、关键点触发读书、刻意练习缝合知识
+      desc: 定义学习为‘关联旧知+刻意缝合’，提供关键点触发式读书、费曼技巧输出、番茄工作法精力管理、黄金时间攻克难事、预案式规划等标准化工具链。
+      role: method
+      src:
+      - paper: docs/202305/M5lpdRp7OoHZAYxuDiicgGtSnpg.md
+      - paper: docs/202305/M5lpdRp7OoHZAYxuDiicgGtSnpg.md
+      - paper: docs/202305/M5lpdRp7OoHZAYxuDiicgGtSnpg.md
+    - 'no': 8
+      name: 身心底层升级：冥想增厚灰质、运动后黄金窗口强化神经元、身心合一缓解焦虑
+      desc: 引用科学实证‘冥想增大皮层面积’、‘运动促生神经元’，设计运动后1-2小时高强度脑力作业协议，以‘感受回归当下’化解焦虑。
+      role: method
+      src:
+      - paper: docs/202305/M5lpdRp7OoHZAYxuDiicgGtSnpg.md
+      - paper: docs/202305/M5lpdRp7OoHZAYxuDiicgGtSnpg.md
+      - paper: docs/202305/M5lpdRp7OoHZAYxuDiicgGtSnpg.md
+  - 'no': 3
+    name: 商业模式进化论 —— 从淘客衰退到快团团私域分销闭环
+    desc: 本章以快团团为核心案例，演示商业模式如何因流量分流、佣金下降、搜索失效而结构性衰退，并如何通过私域分销、零账期、自由定价重构利润分配与用户资产权。
+    nodes:
+    - 'no': 1
+      name: 淘客模式结构性衰退因果链：流量分流→预算转移→佣金崩塌→搜索权重失效
+      desc: 构建从宏观渠道多元化到微观买量ROI倒挂的完整因果推导，证明传统淘客模式不可逆衰退的结构性根因。
+      role: proof
+      src:
+      - paper: docs/202305/20230516_053.md
+      - paper: docs/202305/20230516_053.md
+    - 'no': 2
+      name: 快团团八大结构性优势：私域B2B2C模式的降维打击
+      desc: 从成交体验、价格体系、佣金比例、资金效率、用户资产、触达能力、内容形式、定价权八维度，系统对比快团团对标准货架电商与淘客的全方位超越。
+      role: definition
+      src:
+      - paper: docs/202305/20230516_053.md
+      - paper: docs/202305/20230516_053.md
+      - paper: docs/202305/20230516_053.md
+      - paper: docs/202305/20230516_053.md
+    - 'no': 3
+      name: 生态角色定位与七大切入机会：供货/帮卖/文案/工具/刷单/撮合/代运营
+      desc: 按核心能力划分生态位，匹配各角色收益逻辑与风险提示，为不同资源禀赋者提供精准入局坐标。
+      role: method
+      src:
+      - paper: docs/202305/20230516_053.md
+      - paper: docs/202305/20230516_053.md
+      - paper: docs/202305/20230516_053.md
+    - 'no': 4
+      name: 分销端定价权重构利润分配：从固定佣金到‘佣金+加价差价’的双重收益模型
+      desc: 揭示自由定价权如何将分销利润上限从平台固定转变为运营能力决定，激活私域深耕与用户分层定价的内生动力。
+      role: proof
+      src:
+      - paper: docs/202305/20230516_053.md
+      - paper: docs/202305/20230516_053.md
+    - 'no': 5
+      name: 实测数据验证：强触达机制日销千元、有赞防御性模仿、假货合规风险清单
+      desc: 用作者亲测‘不发群日销千元’验证触达价值，用有赞推群团团佐证颠覆性，列举假货/税务/政策风险完成风控拼图。
+      role: experiment
+      src:
+      - paper: docs/202305/20230516_053.md
+      - paper: docs/202305/20230516_053.md
+      - paper: docs/202305/20230516_053.md
+  - 'no': 4
+    name: 平民实体创业标准化手册 —— 消费力套利、选址法则、无人值守3.0模式
+    desc: 本章复盘作者半年开十余店实战，提炼‘消费力套利’核心逻辑，建立从城市筛选、电影院选址、极简装修、佛系运营到首年利润率公式的全流程标准化开店体系。
+    nodes:
+    - 'no': 1
+      name: 消费力套利：三四线城市品质消费心理价位不变、成本显著更低的价格剪刀差
+      desc: 揭示瑞幸/台球/自习室在三四线与一二线城市‘同价异成本’的套利窗口，确立小成本高确定性创业的战略锚点。
+      role: motivation
+      src:
+      - paper: docs/202305/20230516_054.md
+      - paper: docs/202305/20230516_054.md
+    - 'no': 2
+      name: 首年利润率公式与城市筛选模型：租房前即可测算盈利预期的量化决策工具
+      desc: 推导（月价×座位×85%×12）/（年租+软硬件）公式，配套人口/现有店数/对标城市/考研高中/美团闭店率四步筛选法。
+      role: definition
+      src:
+      - paper: docs/202305/20230516_054.md
+      - paper: docs/202305/20230516_054.md
+    - 'no': 3
+      name: 电影院选址法则与实地踩盘SOP：唯一硬指标+双脚丈量+物业利益绑定
+      desc: 确立‘有电影院开1公里内，无则Pass’铁律，详述交通全模拟、户型筛选、物业佣金红包尊重策略，降维打击选址失误率。
+      role: method
+      src:
+      - paper: docs/202305/20230516_054.md
+      - paper: docs/202305/20230516_054.md
+    - 'no': 4
+      name: 谈判签约组合拳与极简装修交付标准：5-7天极速开业的工程化流程
+      desc: 标准化‘波澜不惊看房→极限砍价→半年付筹码→免租装修期→不涨租不卖房’谈判话术，配套固定工艺/材料/品牌/工期的装修包干制。
+      role: method
+      src:
+      - paper: docs/202305/20230516_054.md
+      - paper: docs/202305/20230516_054.md
+    - 'no': 5
+      name: 无人值守3.0模式与佛系运营：超卖策略、志愿者替代保洁、羊毛党造势
+      desc: 构建小程序选座/开门/断电、会员制私域、2倍超卖、小管家送课时管卫生、容忍羊毛党营造氛围的零人力运营闭环。
+      role: method
+      src:
+      - paper: docs/202305/20230516_054.md
+      - paper: docs/202305/20230516_054.md
+      - paper: docs/202305/20230516_054.md
+      - paper: docs/202305/20230516_054.md
+    - 'no': 6
+      name: 实盘回测：龙岩店首年255%/次年638%利润率、汕头vs佛山蓝海验证、物业100元搞定垃圾清运
+      desc: 用真实财务数据验证公式有效性，用同省对标发现汕头蓝海，用物业案例证明‘位卑权重’的利益绑定杠杆。
+      role: experiment
+      src:
+      - paper: docs/202305/20230516_054.md
+      - paper: docs/202305/20230516_054.md
+      - paper: docs/202305/20230516_054.md
+  - 'no': 5
+    name: 银发知识付费红利窗口 —— 都市银发人群画像、降维打击、轻量化课程生产
+    desc: 本章基于渔火2019-2023年深耕实战，描绘‘高付费、强学习、重服务、习惯付费’的都市银发像，拆解视频号测品+外包制作+私域服务的标准化打法，揭示五大细分创新方向。
+    nodes:
+    - 'no': 1
+      name: 都市银发人群四大核心特征与信任迁移假说：母亲账号月销800-1000单的同龄人信任杠杆
+      desc: 定义40-75岁一二三线人群的手机溜/有钱/有闲/爱分享/重服务画像，验证真实长辈人设对机构品牌的信任碾压效应。
+      role: motivation
+      src:
+      - paper: docs/202305/20230516_059.md
+      - paper: docs/202305/20230516_059.md
+    - 'no': 2
+      name: 三阶段演变史与红利窗口期定律：大厂普及认知后、垂直细分60分产品即有机会的2-3年黄金期
+      desc: 复盘萌芽期/野蛮生长/飞速增长三阶段，论证当前‘大厂教育市场+垂直产品匮乏+获客成本低’的最佳入局窗口及关闭预期。
+      role: definition
+      src:
+      - paper: docs/202305/20230516_059.md
+      - paper: docs/202305/20230516_059.md
+    - 'no': 3
+      name: 降维打击式入局：迁移K12/幼教成熟赛道的做课、服务、营销方法论碾压银发赛道初级形态
+      desc: 展示如何将成熟教育赛道的标准化SOP直接复用，因银发用户认知浅、服务标准低，形成‘120分做法打60分市场’的非对称优势。
+      role: method
+      src:
+      - paper: docs/202305/20230516_059.md
+      - paper: docs/202305/20230516_059.md
+    - 'no': 4
+      name: 轻量化课程产品生产线：需求挖掘→MVP验证→大学生/专业外包→创始人把控大纲服务
+      desc: 打破‘懂专业才能卖课’迷思，建立‘懂用户需求即可卖课’的外包生产模式，标准化录播+直播、可下载、永久回看交付规格。
+      role: method
+      src:
+      - paper: docs/202305/20230516_059.md
+      - paper: docs/202305/20230516_059.md
+    - 'no': 5
+      name: 视频号内容测品法与详情页AB测试：绿背景大字长图击败专业设计的转化率实证
+      desc: 演示用视频号低成本测方向（老歌混剪/乐谱/唱谱），用‘懒设计10分钟大字图’碾压‘淘宝1000元专业页’的视觉偏好反常识发现。
+      role: experiment
+      src:
+      - paper: docs/202305/20230516_059.md
+      - paper: docs/202305/20230516_059.md
+    - 'no': 6
+      name: 五大细分创新方向与养狗人群年龄红利：家政、睡眠、旅游、电商、宠物的百亿级蓝海
+      desc: 披露养狗人均龄37岁、宠物狗3000万vs新生儿1000万的人口学红利，规划中老年养宠/家政/助眠/旅拍/电商全产业链切入点。
+      role: extension
+      src:
+      - paper: docs/202305/20230516_059.md
+      - paper: docs/202305/20230516_059.md
+  - 'no': 6
+    name: 个人IP与知识变现体系 —— 百年不改名、现金投票、100-10-5-1验证、私域终点是一对一
+    desc: 本章整合粥左罗、根源、比高、思蒙等多位实战者经验，构建从名字资产化、极低成本试错、课程体系设计、标准化交付SOP到深度一对一运营的个人IP商业化全链路体系。
+    nodes:
+    - 'no': 1
+      name: 全域同名策略与唯一名字复利定律：12年3000+篇内容织就的影响力网络
+      desc: 确立‘能用一辈子就是好名字’判断准则，证明唯一名字×时间跨度的指数级网络效应，反对频繁改名导致的资产归零。
+      role: definition
+      src:
+      - paper: docs/202305/20230516_057.md
+      - paper: docs/202305/20230516_057.md
+      - paper: docs/202305/20230516_057.md
+    - 'no': 2
+      name: 现金投票与先开课再完善：互联网零边际成本下的逆向研发验证法
+      desc: 仅凭主题/价格/时间三要素预售，收款再产出；用微信群滚动交付（两天一课）完成0-1跨越，消除‘备课完美主义’拖延。
+      role: method
+      src:
+      - paper: docs/202305/QPFgdHgZsorQvdxDkl9cw58LnVf.md
+      - paper: docs/202305/QPFgdHgZsorQvdxDkl9cw58LnVf.md
+      - paper: docs/202305/QPFgdHgZsorQvdxDkl9cw58LnVf.md
+    - 'no': 3
+      name: 100-10-5-1验证模型与三阶段师生关系：从学生选师到老师影响生的进化路径
+      desc: 设定100人次付款/10%复购/5期课程/1种进阶课硬指标，配套师生关系三阶段演进模型，判断课程体系是否可持续。
+      role: definition
+      src:
+      - paper: docs/202305/QPFgdHgZsorQvdxDkl9cw58LnVf.md
+      - paper: docs/202305/QPFgdHgZsorQvdxDkl9cw58LnVf.md
+    - 'no': 4
+      name: 全流程标准化交付SOP：确认词机制、固定上课、结业仪式、私发毕业证促复购30%
+      desc: 设计付款后‘确认词’前置规则（开课时间/配合事项/不退费/确认指令），固定时间/红包/心得/优惠券仪式化流程，私发证书将复购从5%提至30%。
+      role: method
+      src:
+      - paper: docs/202305/QPFgdHgZsorQvdxDkl9cw58LnVf.md
+      - paper: docs/202305/QPFgdHgZsorQvdxDkl9cw58LnVf.md
+      - paper: docs/202305/QPFgdHgZsorQvdxDkl9cw58LnVf.md
+    - 'no': 5
+      name: 主编体系与手动分销：福利先行筛选核心助教、私聊打款深化关系的反自动化运营
+      desc: 用课程折扣/咨询权益而非金钱激励主编，5期筛选7-10人核心团队；拒绝自动分销工具，亲自打款聊天牺牲广度换深度，实现整体50%复购。
+      role: method
+      src:
+      - paper: docs/202305/QPFgdHgZsorQvdxDkl9cw58LnVf.md
+      - paper: docs/202305/QPFgdHgZsorQvdxDkl9cw58LnVf.md
+      - paper: docs/202305/QPFgdHgZsorQvdxDkl9cw58LnVf.md
+    - 'no': 6
+      name: 实战手册化标准与陪跑式组织：从航海志愿者到短剧推广257人团队的SOP复制路径
+      desc: 拆解思蒙‘手册先行→种子用户陪跑→话术/FAQ/思维导图/直播课迭代→规模化交付’模型，验证‘实战手册’作为知识资产核心载体的组织化威力。
+      role: experiment
+      src:
+      - paper: docs/202305/20230516_066.md
+      - paper: docs/202305/20230516_066.md
+      - paper: docs/202305/20230516_066.md
+      - paper: docs/202305/20230516_066.md
+    - 'no': 7
+      name: 长价值写作法与感性故事-理性道理双轨制：远离热点、10年生命力内容、润物细无声的认知升级
+      desc: 主张静心阅读/用心关联/持续打磨生产长周期内容，用故事激活感性再传递理性，以作品价值吸引连接而非推销说服，构建第六奇迹影响力。
+      role: extension
+      src:
+      - paper: docs/202305/M5lpdRp7OoHZAYxuDiicgGtSnpg.md
+      - paper: docs/202305/M5lpdRp7OoHZAYxuDiicgGtSnpg.md
+      - paper: docs/202305/M5lpdRp7OoHZAYxuDiicgGtSnpg.md
+    - 'no': 8
+      name: 三无小白的社群跃迁路径：异常值捕捉、最小可行性行动、公开复盘、角色浸入式学习
+      desc: 复盘思蒙从月薪3000到带队257人的全路径：小额试错破冰、公开输出获正反馈、志愿者/教练角色习得运营SOP、异常值信号触发风口决策。
+      role: experiment
+      src:
+      - paper: docs/202305/20230516_066.md
+      - paper: docs/202305/20230516_066.md
+      - paper: docs/202305/20230516_066.md
+  - 'no': 7
+    name: 财富跃迁与风险防守体系 —— 从负债19万到年入百万的多渠道组合、三阶段风控、防守优先
+    desc: 本章融合老吴、二丫、梦宸三条不同起点的财富跃迁实录，建立记账基座、被动收入锚点、三阶段风险测算、保险四件套、双腿走路模型的全周期财务安全与增长体系。
+    nodes:
+    - 'no': 1
+      name: 记账复盘体系与三阶段风险测算：年收入亏损上限→净资产20%上限→标普配置搭台
+      desc: 从流水账起步，构建随资产量级动态升级的风控红线：一阶段守收入、二阶段守净资产引入2倍杠杆、三阶段按标普配置搭建利他平台实现钱生钱。
+      role: definition
+      src:
+      - paper: docs/202305/NsZwdMgSxovqfxxgJqFc5XtXntb.md
+      - paper: docs/202305/NsZwdMgSxovqfxxgJqFc5XtXntb.md
+      - paper: docs/202305/20230516_067.md
+    - 'no': 2
+      name: 五大被动收入支柱实操SOP：经纪佣金、超短线委托、淘宝客裂变、可转债百户代打、四大行存款套利
+      desc: 像素级拆解五大确定性项目：经纪人12-20万/年、淘宝客50万/年（悠哉机器人+自产粉+合伙人制）、可转债6-10万（企业户破限）、银行套利季度20万（自有卡操作/考核信息差）。
+      role: method
+      src:
+      - paper: docs/202305/NsZwdMgSxovqfxxgJqFc5XtXntb.md
+      - paper: docs/202305/NsZwdMgSxovqfxxgJqFc5XtXntb.md
+      - paper: docs/202305/NsZwdMgSxovqfxxgJqFc5XtXntb.md
+      - paper: docs/202305/NsZwdMgSxovqfxxgJqFc5XtXntb.md
+      - paper: docs/202305/NsZwdMgSxovqfxxgJqFc5XtXntb.md
+    - 'no': 3
+      name: 信用价值变现与合伙人制杠杆：征信/授信/人脉→低成本融资→规模化复制风险分摊
+      desc: 揭示‘出资/出技术/出资源’三方分工如何将边际成本降为零，利用他人账户/额度/粉丝实现淘宝客、可转债、存款套利的规模化放大。
+      role: method
+      src:
+      - paper: docs/202305/NsZwdMgSxovqfxxgJqFc5XtXntb.md
+      - paper: docs/202305/NsZwdMgSxovqfxxgJqFc5XtXntb.md
+    - 'no': 4
+      name: 流动性优先原则与三大致命坑实证：融资融券爆仓、消息票梭哈、他人代管账户挪用
+      desc: 立下‘资金不出自有卡、随时可赎回、拒绝融资融券’铁律，用10万亏至1万、300万亏至60万成老赖、30万仅回本80%三大惨案刻印风控底线。
+      role: limitation
+      src:
+      - paper: docs/202305/NsZwdMgSxovqfxxgJqFc5XtXntb.md
+      - paper: docs/202305/NsZwdMgSxovqfxxgJqFc5XtXntb.md
+    - 'no': 5
+      name: 防守优先定理与双腿走路模型：金钟罩（社保+保险四件套）守住城池，副业验证进攻可行性
+      desc: 针对有房贷/幼儿/积蓄有限阶段，证明‘主业防守+副业进攻’边际收益高于裸辞创业，详述保险四件套（重疾/医疗/寿险/意外）、社保不断缴、面试空窗期话术重构。
+      role: method
+      src:
+      - paper: docs/202305/20230516_067.md
+      - paper: docs/202305/20230516_067.md
+      - paper: docs/202305/20230516_067.md
+      - paper: docs/202305/20230516_067.md
+    - 'no': 6
+      name: 少年创业认知跃迁七阶：1元启动→碎片时间资产化→平台红利窗口→向上社交→抄袭模仿超越→单人全链路→风口判断果断转型
+      desc: 梳理梦宸13-20岁路径：QQ赞冷启动、衡水模式碎片时间利用、快手内测期/抖音影视/拼多多带货三波红利捕捉、茗门团队圈层渗透、同行拆解守破离、单人全链路高利润率、三个月无增量果断转型。
+      role: experiment
+      src:
+      - paper: docs/202305/YPhndkBKfocBV2xCfvucevIAn5y.md
+      - paper: docs/202305/YPhndkBKfocBV2xCfvucevIAn5y.md
+      - paper: docs/202305/YPhndkBKfocBV2xCfvucevIAn5y.md
+      - paper: docs/202305/YPhndkBKfocBV2xCfvucevIAn5y.md
+      - paper: docs/202305/YPhndkBKfocBV2xCfvucevIAn5y.md
+      - paper: docs/202305/YPhndkBKfocBV2xCfvucevIAn5y.md
+    - 'no': 7
+      name: 四年财务跃迁曲线与实操性副业优先论：负债19万→年净96万，除主观股票外均可复制
+      desc: 展示2019-2023指数级增长曲线，验证‘淘宝客/可转债/银行套利’等实操性项目的抗周期稳健性，确立‘靠谱真诚积累商机’的底层人格资产。
+      role: experiment
+      src:
+      - paper: docs/202305/20230516_058.md
+      - paper: docs/202305/20230516_058.md
+      - paper: docs/202305/NsZwdMgSxovqfxxgJqFc5XtXntb.md
+      - paper: docs/202305/NsZwdMgSxovqfxxgJqFc5XtXntb.md
+  - 'no': 8
+    name: 名利观重构与终身成长范式 —— 出名是代价、退休即再创业、内向者创造优势
+    desc: 本章颠覆‘名利双收’主流叙事，确立‘名气=赚钱后的代价’、‘退休=二次创业起点’、‘内向=创造赛道优势’的新认知框架，指引高阶段位的生命策略选择。
+    nodes:
+    - 'no': 1
+      name: 名利分离定理：财务自由阈值后，名气转为纯成本项（隐私/安全/精力/舆论风险）
+      desc: 以蔡钰/猫叔/艺术老师/隐退朋友四大案例为证，证明‘钱够用’后主动隐退、物理隔离、社交防火墙是高认知群体的理性最优解。
+      role: proof
+      src:
+      - paper: docs/202305/20230516_005.md
+      - paper: docs/202305/20230516_005.md
+      - paper: docs/202305/20230516_005.md
+    - 'no': 2
+      name: 认知觉醒三层级：主流追名逐利→被迫以隐私换钱→觉醒者识破代价主动选择清福
+      desc: 区分三类人群认知层级，指出‘能觉得钱够用’属于高阶认知稀缺品，揭示主流‘出名是捷径’与觉醒者‘名气是代价’的巨大鸿沟。
+      role: definition
+      src:
+      - paper: docs/202305/20230516_005.md
+      - paper: docs/202305/20230516_005.md
+    - 'no': 3
+      name: 退休即再创业范式：65岁Lily姐的多元身份叠加（团长/DJ/民宿/闲鱼/eBay/大航海四项目）
+      desc: 展示退休非终点而是‘重组存量资源接入增量赛道’的起点，验证银发群体具备高跨境电商潜力（10年eBay经验+语言优势+闲暇时间）。
+      role: extension
+      src:
+      - paper: docs/202305/20230516_011.md
+      - paper: docs/202305/20230516_011.md
+      - paper: docs/202305/20230516_011.md
+    - 'no': 4
+      name: 内向者创造优势与价值交换规律：专注创造吸引连接、利他之心是成功唯一路径
+      desc: 重新定义内向非劣势而是创造潜力，主张‘生产价值内容=生产价值，做有价值的人=成长，贡献社会价值=成功’，以利他心统合写作/成长/成功三位一体。
+      role: extension
+      src:
+      - paper: docs/202305/M5lpdRp7OoHZAYxuDiicgGtSnpg.md
+      - paper: docs/202305/M5lpdRp7OoHZAYxuDiicgGtSnpg.md
+      - paper: docs/202305/M5lpdRp7OoHZAYxuDiicgGtSnpg.md
+    - 'no': 5
+      name: 身心合一与运动后黄金窗口：专注享受当下缓解焦虑、运动促生神经元1-2小时脑力强化
+      desc: 提供‘感受回归当下行动’的焦虑解法，引用科学研究设计‘运动→1-2小时高强度脑力’物理变强协议，从硬件层面升级认知算力。
+      role: method
+      src:
+      - paper: docs/202305/M5lpdRp7OoHZAYxuDiicgGtSnpg.md
+      - paper: docs/202305/M5lpdRp7OoHZAYxuDiicgGtSnpg.md
+      - paper: docs/202305/M5lpdRp7OoHZAYxuDiicgGtSnpg.md
 - 'no': 1
-  chapters: []
+  chapters:
+  - 'no': 1
+    name: 认知重塑与行动力 —— 普通人逆袭的底层操作系统
+    desc: 本章从认知心理学与实战复盘视角出发，拆解普通人如何通过建立“绿灯思维”、控制试错成本、双系统决策与极致行动力，打破阶层固化，在AI浪潮中实现从0到1的跃迁。
+    nodes:
+    - 'no': 1
+      name: 绿灯思维：拥抱变化的认知开关
+      desc: 对比“红灯思维”（习惯性防卫），建立面对新事物“先接受、再内化、后实践”的认知反射弧，打破舒适区惯性。
+      role: motivation
+      src:
+      - paper: docs/202305/20230516_019.md
+      - paper: docs/202305/CBJhdD0dTokH8tx8HKYc1nJSnnc.md
+    - 'no': 2
+      name: 试错成本控制原则：在承受范围内疯狂尝试
+      desc: 设定资金/时间上限（如几十元买号、2K入群），将风险锁定在“多吃几天泡面可恢复”的区间，通过高频低成本试错积累确定性。
+      role: method
+      src:
+      - paper: docs/202305/20230516_019.md
+      - paper: docs/202305/CBJhdD0dTokH8tx8HKYc1nJSnnc.md
+    - 'no': 3
+      name: 双系统决策模型：直觉捕捉+理性验证
+      desc: 基于《认知觉醒》理论，用系统1（潜意识）高速捕捉机会信号，用系统2（逻辑）分析可行性与ROI，克服犹豫与盲目。
+      role: method
+      src:
+      - paper: docs/202305/20230516_019.md
+      - paper: docs/202305/CBJhdD0dTokH8tx8HKYc1nJSnnc.md
+    - 'no': 4
+      name: 信息差半衰期法则：行动力即变现力
+      desc: 信息差商业价值随时间指数衰减，唯有“发现速度×产出速度×分发速度”的极致执行力才能在红利窗口期完成变现闭环。
+      role: theorem
+      src:
+      - paper: docs/202305/CBJhdD0dTokH8tx8HKYc1nJSnnc.md
+    - 'no': 5
+      name: 破圈价值互换模型：输出独特价值而非索取
+      desc: 进入高质量圈层的本质是价值交换，遵循“了解目标-真诚领情-持续努力-及时反馈-完成目标”受助者协议，将单向帮助转为双向共振。
+      role: method
+      src:
+      - paper: docs/202305/CBJhdD0dTokH8tx8HKYc1nJSnnc.md
+    - 'no': 6
+      name: 有效提问协议：尊重他人注意力资源
+      desc: 提问前穷尽自我搜索；单条消息包含完整背景、条件、预期目标，避免多轮往返浪费专家时间。
+      role: method
+      src:
+      - paper: docs/202305/CBJhdD0dTokH8tx8HKYc1nJSnnc.md
+    - 'no': 7
+      name: 实证：应届生两周变现7000元的完整复盘
+      desc: 从加群、买号、调教、分销、写教程、办训练营、建星球、账号分销的全时间线复盘，验证上述认知模型的实战有效性。
+      role: experiment
+      src:
+      - paper: docs/202305/20230516_019.md
+      - paper: docs/202305/CBJhdD0dTokH8tx8HKYc1nJSnnc.md
+  - 'no': 2
+    name: 提示词工程与模型调教 —— 让AI听懂人话并稳定产出
+    desc: 本章系统讲解从结构化提示词模板、参数控制策略，到“调教”大模型形成稳定人设/风格的完整方法论，解决“会用工具”到“驾驭工具”的核心鸿沟。
+    nodes:
+    - 'no': 1
+      name: 结构化提示词模板法：五段式公式与权重语法
+      desc: 将Prompt拆解为[质量词+主体+细节+服饰+环境]结构化模板，配合(词:权重)语法精准控制生成细节，实现复杂意图的标准化表达。
+      role: definition
+      src:
+      - paper: docs/202305/HYrZdLBMRorB0qxKqFFcQ075nWf.md
+      - paper: docs/202305/FJ8HdrA04o2efNx7E1ZcVgehnSe.md
+    - 'no': 2
+      name: 万金油正反向词预设：通用画质增强与避坑指南
+      desc: 提供通用正向词（画质/细节/人脸）与负向词（畸变/水印/低质量）模板，覆盖90%人像/通用生成场景，大幅降低新手调参门槛。
+      role: definition
+      src:
+      - paper: docs/202305/HYrZdLBMRorB0qxKqFFcQ075nWf.md
+      - paper: docs/202305/R2wRd6dN2oUtkOx9I3WcLHAOnzc.md
+    - 'no': 3
+      name: Temperature差异化生成策略：控制确定性与创造性平衡
+      desc: 带货文案建议0.3-0.7（保守连贯），创意文案设0.9（发散）；批量设定不同值生成多版本供筛选，规避查重与同质化。
+      role: method
+      src:
+      - paper: docs/202305/20230516_075.md
+    - 'no': 4
+      name: 结构化卖点迁移Prompt：复刻爆款文案骨架
+      desc: 指令模型先分析种子文案‘卖点表达结构与人群画像’，再迁移至新商品，保持段落结构不变实现‘套用模版’式改写。
+      role: method
+      src:
+      - paper: docs/202305/20230516_075.md
+    - 'no': 5
+      name: ChatGPT中文调教12步法：基于模仿的少样本微调范式
+      desc: 将训练狗指令迁移至LLM：引入背景→预设角色→输入完整案例→反馈学习效果→反馈优化→拆解教学→迭代优化模板→稳定输出，用结构化中文指令替代代码实现人设固化。
+      role: method
+      src:
+      - paper: docs/202305/CBJhdD0dTokH8tx8HKYc1nJSnnc.md
+    - 'no': 6
+      name: 提示词公式化/参数化：Excel批量生成结构化Prompt
+      desc: 利用CONCAT函数将固定指令模板与变量数据分离，实现数据与指令解耦的批量化Prompt工程，配合RPA实现端到端自动化。
+      role: method
+      src:
+      - paper: docs/202305/IZx7dx2CSo9x23xioUFcNaHcnRd.md
+    - 'no': 7
+      name: 人物一致性锚定法：无LoRA条件下的角色固定方案
+      desc: 在所有Prompt中强制固定核心外貌特征词（如发色、瞳色、服饰），无需训练即可维持跨图角色视觉连续性，满足连载/系列化需求。
+      role: method
+      src:
+      - paper: docs/202305/R2wRd6dN2oUtkOx9I3WcLHAOnzc.md
+  - 'no': 3
+    name: Stable Diffusion 实战体系 —— 从零部署到工业化量产
+    desc: 本章提供SD的全生命周期教学：硬件排查、本地/云端多路径部署、核心参数深度解析、ControlNet多模态控制、LoRA训练标准化工作流、自动化批量生成与多账号并行扩容，打造‘喂饭式’到‘工程化’的完整能力跃迁路径。
+    nodes:
+    - 'no': 1
+      name: 部署路径选择：本地整合包 vs 云端免费算力 vs 付费云桌面
+      desc: 对比秋叶整合包（本地高配首选）、Google Colab（零成本白嫖）、青椒云/腾讯云（低配/应急）、RunPod等方案的硬件门槛、成本、稳定性与适用场景。
+      role: method
+      src:
+      - paper: docs/202305/HYrZdLBMRorB0qxKqFFcQ075nWf.md
+      - paper: docs/202305/20230516_076.md
+      - paper: docs/202305/Md2KdAjbDo0cdGxGMtncyb8CnLb.md
+      - paper: docs/202305/R2wRd6dN2oUtkOx9I3WcLHAOnzc.md
+    - 'no': 2
+      name: 核心三要素精讲：大模型、提示词、LoRA的强绑定关系
+      desc: 大模型决定基因画风（真人/二次元/3D），LoRA必须与大模型画风域对齐；提示词结构化模板与权重语法精准控制生成细节。
+      role: definition
+      src:
+      - paper: docs/202305/HYrZdLBMRorB0qxKqFFcQ075nWf.md
+      - paper: docs/202305/20230516_074.md
+    - 'no': 3
+      name: 进阶控制神技：ControlNet多模态结构控制
+      desc: 统一入口下切换预处理器/模型：OpenPose姿势迁移、Canny线稿上色/保边、M-LSD室内结构保持、Depth/Normal空间控制，实现构图/动作/线稿的像素级可控。
+      role: method
+      src:
+      - paper: docs/202305/HYrZdLBMRorB0qxKqFFcQ075nWf.md
+      - paper: docs/202305/ZXvbdq7RGoKEeLxryxAckCtSnPf.md
+    - 'no': 4
+      name: 精细编辑技能包：局部重绘、涂鸦重绘、高清修复、后期超分
+      desc: 蒙版局部重绘换装/换脸；涂鸦重绘像素级指定颜色；高清修复解决大分辨率崩坏；R-ESRGAN/GFPGAN针对动漫/真人分模型超分，构建生成后处理完整链路。
+      role: method
+      src:
+      - paper: docs/202305/HYrZdLBMRorB0qxKqFFcQ075nWf.md
+    - 'no': 5
+      name: LoRA训练标准化五步工作流：从数据到复现的工业级SOP
+      desc: 训练集准备（筛选/裁剪/打标/减标）→ 模型训练 → XYZ Grid测试复盘 → Metadata参数反推 → 业务落地。核心创新：减标签将权重迁移至触发词、自动聚焦裁剪、WD14打标+Dataset
+        Tag Editor减标工具链。
+      role: method
+      src:
+      - paper: docs/202305/ZXvbdq7RGoKEeLxryxAckCtSnPf.md
+    - 'no': 6
+      name: 模型全生命周期管理：获取、存放、鉴别、复现
+      desc: C站筛选下载→按类型存放目录→秋叶解析工具拖拽识别类型→PNG Info/Tagger反推参数→一键复现他人成果，构建资产库管理闭环。
+      role: method
+      src:
+      - paper: docs/202305/HYrZdLBMRorB0qxKqFFcQ075nWf.md
+    - 'no': 7
+      name: 工程化量产体系：Generate Forever + 多账号并行 + 打包下载
+      desc: 单实例无人值守生成→多浏览器/指纹浏览器多账号并行突破单账号算力上限→账号池轮换实现‘无限出图’→代码块打包下载输出目录解决文件获取痛点。
+      role: method
+      src:
+      - paper: docs/202305/20230516_076.md
+      - paper: docs/202305/Md2KdAjbDo0cdGxGMtncyb8CnLb.md
+    - 'no': 8
+      name: 参数调优实证：采样器、步数、分辨率、CFG的边际收益量化
+      desc: 通过X/Y/Z脚本矩阵对比验证：25步后质量边际递减、不同采样器25步趋同、512x512/512x768为显存友好基准、高分辨率修复为低配替代方案。
+      role: experiment
+      src:
+      - paper: docs/202305/HYrZdLBMRorB0qxKqFFcQ075nWf.md
+      - paper: docs/202305/R2wRd6dN2oUtkOx9I3WcLHAOnzc.md
+    - 'no': 9
+      name: 胎教级入门范式：资源预打包+案例驱动教学
+      desc: 提供预打包安装包、模型、提示词资源包，配合‘案例驱动’替代‘参数讲解’，解决新手环境部署、资源获取、认知鸿沟三大痛点，实现即学即用。
+      role: method
+      src:
+      - paper: docs/202305/20230516_021.md
+  - 'no': 4
+    name: RPA + AI 协同自动化 —— 把重复劳动装进生产线
+    desc: 本章聚焦‘低代码RPA+大模型’协作范式，通过可视化拖拽构建端到端自动化流程：Excel数据准备→Prompt批量构建→网页交互自动化（含流式输出等待）→结果回填，将‘从1到100’的规模化执行标准化、工具化。
+    nodes:
+    - 'no': 1
+      name: ChatGPT+RPA协同自动化架构：内容引擎+执行器模式
+      desc: LLM负责内容生成（文案/代码/分析），RPA负责数据搬运、跨应用交互、流程编排，两者通过标准化接口（剪贴板/文件/API）解耦，解决长尾高频办公自动化需求。
+      role: definition
+      src:
+      - paper: docs/202305/20230516_070.md
+      - paper: docs/202305/20230516_075.md
+      - paper: docs/202305/IZx7dx2CSo9x23xioUFcNaHcnRd.md
+    - 'no': 2
+      name: 可视化拖拽式RPA开发：13次拖拽构建文案全流程自动化
+      desc: 影刀RPA关键节点编排：获取网页句柄→打开表格→循环遍历（读Prompt→聚焦输入框→发送→等待流式输出结束→抓取最后一条回复→写回表格），零代码交付端到端流程。
+      role: method
+      src:
+      - paper: docs/202305/20230516_070.md
+      - paper: docs/202305/IZx7dx2CSo9x23xioUFcNaHcnRd.md
+    - 'no': 3
+      name: 需求驱动学习与交付闭环：先验证需求再学技术
+      desc: 发帖对接验证市场需求→接单驱动技术速成（B站官方课程）→交付方案→复用沉淀SOP，形成‘需求-学习-交付’正向飞轮，极大降低技术学习机会成本。
+      role: method
+      src:
+      - paper: docs/202305/20230516_070.md
+      - paper: docs/202305/IZx7dx2CSo9x23xioUFcNaHcnRd.md
+    - 'no': 4
+      name: 手动跑通是自动化前提定律：SOP先行，工具在后
+      desc: 任何RPA项目成功前提是手动标准化流程（SOP）已跑通验证可行；自动化解决规模化（1到100）而非验证可行性（0到1）问题。
+      role: theorem
+      src:
+      - paper: docs/202305/20230516_075.md
+    - 'no': 5
+      name: 工具组合替代单一平台依赖：最佳实践链路拼装
+      desc: 组合专用小工具（热点宝选品、轻抖提取、超级写手生成、一帧秒创视频、RPA分发）构建最优链路，成本效率优于依赖单一大平台或全人工。
+      role: theorem
+      src:
+      - paper: docs/202305/20230516_075.md
+  - 'no': 5
+    name: AI 视频内容生产线 —— 从小说推文到短剧CPS的标准化制造
+    desc: 本章对标短视频平台算法机制，拆解AI小说推文、短剧CPS两大主流赛道的全流程SOP：选题/授权→文案提取/改写→AI绘图/剪辑→配音/特效→多平台分发→SEO霸屏/账号矩阵运营，并给出‘风格化原创’与‘矩阵化搬运’两条路线的ROI对比与避坑指南。
+    nodes:
+    - 'no': 1
+      name: 赛道分层生存法则：女频批量 vs 男频风格化 vs 短剧CPS vs 解压素材
+      desc: 女频（知乎/最右）适合改开头+批量矩阵；男频（番茄/QQ阅读）需提炼精华+高成本制作；短剧CPS核心三要素（选剧/剪辑/账号）；解压素材虽低俗但高变现确定性。新手建议优先跑通闭环，再考虑风格化。
+      role: theorem
+      src:
+      - paper: docs/202305/R2wRd6dN2oUtkOx9I3WcLHAOnzc.md
+      - paper: docs/202305/EL9Fdl8WFoFxaixaJcLcqnXjn7r.md
+    - 'no': 2
+      name: AI小说推文‘一句话一图’公式化制作流程
+      desc: 文案拆解为单句→结构化Prompt（主角+细节+动作+背景）→SD批量生图（DDIM/20-30步/高清修复）→配音情绪适配（爽文禁用低能量音色）→剪映关键帧动态化（推拉摇移消除PPT感）→发布变现。
+      role: method
+      src:
+      - paper: docs/202305/R2wRd6dN2oUtkOx9I3WcLHAOnzc.md
+    - 'no': 3
+      name: 短剧CPS‘虐-反转’循环剪辑公式与三分类解说形态
+      desc: 核心剧情逻辑：一虐一反转刺激情绪起伏，3-6循环后反转前戛然而止引导转化；混剪/全解说/半解说三形态差异化去重，全解说模板法实现画面组合爆破式量产。
+      role: method
+      src:
+      - paper: docs/202305/EL9Fdl8WFoFxaixaJcLcqnXjn7r.md
+    - 'no': 4
+      name: ChatGPT辅助解说文案生产SOP：提取-改写-防违规-配音-合成
+      desc: 提取字幕→ChatGPT改写（同义替换/改名/改数字/调序）→分段投喂规避违规拦截→AI配音→剪映合成，标准化解决文案生产瓶颈与合规风险。
+      role: method
+      src:
+      - paper: docs/202305/EL9Fdl8WFoFxaixaJcLcqnXjn7r.md
+    - 'no': 5
+      name: 去重组合拳与抖音SEO霸屏：构建流量护城河
+      desc: 去重：裁剪/镜像/扫光/加标题/重字幕/调顺序/插叙/混剪素材组合4种以上；SEO：下拉词/相关搜索/大家都在搜系统性植入文案/描述/标签，配合RPA批量发布构建关键词覆盖矩阵。
+      role: method
+      src:
+      - paper: docs/202305/EL9Fdl8WFoFxaixaJcLcqnXjn7r.md
+      - paper: docs/202305/20230516_075.md
+    - 'no': 6
+      name: 账号冷启动与标签养成：高频发布+上热门检测+评论维护
+      desc: 新号判定标准为‘无领域标签’而非注册时间；日更2-4条、多时段点击‘上热门’对抗持续抽查、全回复评论+置顶引导，以量博爆款概率并修正人群模型。
+      role: method
+      src:
+      - paper: docs/202305/EL9Fdl8WFoFxaixaJcLcqnXjn7r.md
+    - 'no': 7
+      name: 实证对比：风格化原创（8小时/条、难矩阵）vs 矩阵化搬运（量大、收益稳）
+      desc: 风格化路线：100%原创、可挂中视频、代入感强，但单条耗时8小时、无法矩阵、收益上限低；矩阵路线：日产几十条、月入十万可复制。新手避坑原则：优先验证闭环，无自动化工作流勿碰高耗时路线。
+      role: experiment
+      src:
+      - paper: docs/202305/R2wRd6dN2oUtkOx9I3WcLHAOnzc.md
+      - paper: docs/202305/EL9Fdl8WFoFxaixaJcLcqnXjn7r.md
+    - 'no': 8
+      name: 实战复盘：自由职业者入局推文的止损决策
+      desc: 从付费陪跑学习、实操跑通0-1，到因制作周期长、难矩阵化、收益天花板低而果断放弃的决策过程，揭示‘文案为王、画面为辅’的本质与付费学习边际效用递减规律。
+      role: experiment
+      src:
+      - paper: docs/202305/20230516_071.md
+  - 'no': 6
+    name: AI 图文变现模型 —— 表情包、头像、设计的商业化闭环
+    desc: 本章聚焦AI绘图的直接商业化路径：Midjourney/SD批量生成表情包/头像/设计稿→平台分发（微信表情开放平台/小红书/抖音）→私域引流（教程钩子/群聊中转/小号留痕）→高客单转化（课程/定制/分销），拆解‘公域获客+私域变现’的标准化打法。
+    nodes:
+    - 'no': 1
+      name: AI表情包批量生成变现模型：从平台分成到私域高客单
+      desc: MJ/SD批量生产（Niji模型/提示词工程）→抠图/配字/格式转换工具链→微信表情平台认证上架（赞赏收益极低）→教程文档钩子引流小红书群聊→小号留微信入私域→售课/定制/分销变现，验证‘平台分发收益极低，私域转化是核心利润来源’。
+      role: method
+      src:
+      - paper: docs/202305/20230516_020.md
+      - paper: docs/202305/FJ8HdrA04o2efNx7E1ZcVgehnSe.md
+    - 'no': 2
+      name: AI辅助设计落地三大主场景：产品设计、AI模特、建筑/分镜
+      desc: 产品设计：Canny+Prompt控制结构生成渲染图；AI模特：ChilloutMix+ControlNet+Inpainting实现真人模特换装/换背景；建筑/分镜：M-LSD/Canny+建筑LoRA保持线条结构风格化重设计。
+      role: method
+      src:
+      - paper: docs/202305/20230516_074.md
+      - paper: docs/202305/ZXvbdq7RGoKEeLxryxAckCtSnPf.md
+    - 'no': 3
+      name: AI头像定制与私域高客单转化实证
+      desc: 30元/单、成交11单、引流36+精准客户，验证‘AI生成→小红书引流→私域成交’路径的正向现金流与可复制性。
+      role: experiment
+      src:
+      - paper: docs/202305/20230516_020.md
+      - paper: docs/202305/FJ8HdrA04o2efNx7E1ZcVgehnSe.md
+  - 'no': 7
+    name: SEO 与 全网流量架构 —— 关键词科研、GPT内容工厂、多平台矩阵
+    desc: 本章建立‘平台无关、流量为本’的全网SEO体系：官方数据源关键词挖掘→GPT+RPA规模化内容生产→多平台（百家号/公众号/网站群/知乎/小红书）分发矩阵→精准搜索流量收割，并给出GPT+SEO站群谷歌收录率60%、2B售前专业度提升、第三方平台占位等进阶组合玩法。
+    nodes:
+    - 'no': 1
+      name: 官方平台关键词数据优先原则：拒绝第三方预估，直连搜索日志
+      desc: 百度关键词规划师、微信指数、抖音创意中心等官方后台数据为唯一决策依据；第三方工具（5118/站长工具）仅供参考，存在长尾覆盖盲区与数值偏差。
+      role: theorem
+      src:
+      - paper: docs/202305/20230516_072.md
+    - 'no': 2
+      name: 需求词与流量词决策分离：定性捕捉+定量验证
+      desc: 搜索框下拉/联想词=需求词（知其然）；官方后台指数=流量词（知其多少）。实战：先用下拉找方向，再用官方工具核实流量决定是否布局。
+      role: method
+      src:
+      - paper: docs/202305/20230516_072.md
+    - 'no': 3
+      name: GPT+RPA+平台自动化内容生产发布模式：关键词库→批量生成→RPA发布→收录排名
+      desc: 输入端关键词库（人工筛选/GPT扩展）→处理端GPT按Prompt批量生成平台调性内容→执行端RPA（影刀）模拟人工登录/编辑/发布/定时→产出端平台收录获取流量，实现7x24h无人值守。
+      role: method
+      src:
+      - paper: docs/202305/20230516_072.md
+    - 'no': 4
+      name: GPT+SEO+站群模式：谷歌SEO实战与60%收录率验证
+      desc: GPT批量生成符合EEAT标准英文内容→RPA自动发布百个级别网站矩阵→谷歌算法收录率达60%→广告联盟/Affiliate/引流变现。关键点：内容质量把控、站群IP/模板去重、索引管理。
+      role: method
+      src:
+      - paper: docs/202305/20230516_072.md
+    - 'no': 5
+      name: GPT辅助2B高客单业务：访谈提纲/行业报告/方案初稿提升专业度
+      desc: 非内容发布场景应用：GPT生成专业访谈稿/分析框架/解决方案→销售会前预习/会中参考→显著提升专业形象与信任度→缩短销售周期、提高转化率。
+      role: method
+      src:
+      - paper: docs/202305/20230516_072.md
+    - 'no': 6
+      name: 知乎/小红书精准选题反向挖掘法：搜索需求导向>推荐算法导向
+      desc: 放弃平台推荐选题→知乎创作中心/5118输入核心词筛选‘有搜索量、有排名潜力、竞争度可控’精准问题→GPT生成高质量回答→布局长尾关键词获取长期被动搜索流量。
+      role: method
+      src:
+      - paper: docs/202305/20230516_072.md
+    - 'no': 7
+      name: ChatGPT四波机会论与应用层最大公约数定理
+      desc: 花爷四波：入门教育/垂直应用/工具开发/多平台大厂。普通人应避开工具层（技术门槛/推广难/合规风险）与多平台层（大厂垄断），聚焦‘GPT+垂直业务’应用层，将AI能力嵌入成熟流程解决效率/流量痛点。
+      role: theorem
+      src:
+      - paper: docs/202305/20230516_072.md
+    - 'no': 8
+      name: 全网SEO‘平台无关、流量为本’公理
+      desc: SEO本质不绑定单一平台，用户在哪搜索就做哪里SEO：挖掘官方关键词→生产高匹配内容→获取站内搜索+外部搜索引擎双重流量。GPT作为通用内容生产力工具无缝适配所有平台。
+      role: theorem
+      src:
+      - paper: docs/202305/20230516_072.md
+  - 'no': 8
+    name: 需求挖掘与产品化交付 —— 发现、验证、解决需求的通用三部曲
+    desc: 本章提炼跨行业、跨周期的通用商业落地思维模型：从生活对话/数据/热点中发现需求→评论区/搜索指数/私信低成本验证真伪→拆解问题、组合现有工具资源（而非硬核自研）低成本解决→流量转化变现。通过‘AI四维预测宝宝长相’、‘碳中和知识付费’、‘为TA点歌’三大实战案例，演示底层逻辑的跨域复用与反脆弱性。
+    nodes:
+    - 'no': 1
+      name: 需求三部曲：发现-验证-解决的通用商业落地模型
+      desc: 发现：留心生活对话/数据/热点；验证：评论区高频提问/搜索指数/私信回复验真伪；解决：拆解问题→组合现有工具资源（资源重组交付法）逐步攻克。核心主张：项目不值钱，挖掘逻辑与思考能力才是持续变现源泉。
+      role: method
+      src:
+      - paper: docs/202305/20230516_073.md
+    - 'no': 2
+      name: 评论区需求验证法：最直接、最低成本的真伪探测器
+      desc: 进入短视频/内容平台搜索关键词，分析评论区高频提问（‘怎么做’、‘多少钱’）、情感表达（‘好想快点看到’）及寻求方案语义，判断需求强度与真伪。
+      role: method
+      src:
+      - paper: docs/202305/20230516_073.md
+    - 'no': 3
+      name: 资源重组交付法：非标服务标准化拆解与供应链整合
+      desc: 不会核心技能（弹唱/专业知识）时，拆解交付物本质（视频而非现场）→利用外部现成资源（唱吧素人音频/合作网络/公开资料）重组交付流程，实现个人能力与业务交付解耦、低成本规模化。
+      role: method
+      src:
+      - paper: docs/202305/20230516_073.md
+    - 'no': 4
+      name: AI提示词迭代优化法：挑最难案例→垫图→找缺陷→加负面词/修饰词→回归测试
+      desc: 针对生成式AI可控性不足，以最难案例为基准迭代Prompt：垫图生成→发现缺陷（皮肤坑洼/肤色不均/不似）→针对性加词→多案例回归→沉淀‘扛打的关键词组’。
+      role: method
+      src:
+      - paper: docs/202305/20230516_073.md
+    - 'no': 5
+      name: 实证案例一：AI四维预测宝宝长相——评论区验证+Prompt迭代+B2B2C模式
+      desc: 评论区‘有软件看长相么’精准验证需求→Prompt迭代解决技术难题→多平台获客→合作9家私立医院，建立稳定高客单B2B2C模式，证明‘不卷平台流量，依然有稳定高单价订单’。
+      role: experiment
+      src:
+      - paper: docs/202305/20230516_073.md
+    - 'no': 6
+      name: 实证案例二：碳中和项目小白极速变现——3天输入+现学现卖+大白话框架化
+      desc: 纯小白3天高强度学习→同步输出大白话/条理化/框架化内容→第3条视频500万播放→2个月变现100万+（资料包/证书/培训/资源对接），验证‘把复杂概念大白话化’即可满足大众入门需求，无需深度专业背景。
+      role: experiment
+      src:
+      - paper: docs/202305/20230516_073.md
+    - 'no': 7
+      name: 实证案例三：为TA点歌零技能交付——招募合作者+剪辑素人音频双路径跑通
+      desc: 不会弹唱，通过‘招募合作弹唱者’与‘剪辑唱吧素人音频’双路径跑通交付，订单接到手软，验证‘核心交付物是视频而非技能’，技能缺口可供应链整合填补。
+      role: experiment
+      src:
+      - paper: docs/202305/20230516_073.md
+    - 'no': 8
+      name: 多项目组合运营的反脆弱性：单一项目周期短，思维模型跨域复用长
+      desc: 连续操盘四维预测、碳中和、点歌、陪诊、数藏、鉴渣、相亲盲盒等无关项目均盈利；单项目（碳中和）因天花板停更但整体收益持续，积累‘只要出手，必有回响’底气，证明思维模型迁移能力强于单一业务护城河。
+      role: experiment
+      src:
+      - paper: docs/202305/20230516_073.md
+  - 'no': 9
+    name: ChatGPT Plus 长期稳定访问基建 —— 网络、身份、支付三位一体合规方案
+    desc: 本章针对OpenAI风控（亚洲IP高危、虚拟卡污染、共享账号封禁）系统性给出‘原生非亚洲IP+美实体手机号+真实美银行卡’三位一体基建方案：DashiSIM多APN漫游卡切换美/欧/新原生IP、UltraMobile
+      $3 PayGo实体卡WiFi Calling长期保号、华美银行Velo零门槛开真借记卡/信用卡、Wise多币种电子卡即时开通，构建跨境业务长期可复用的基础设施资产。
+    nodes:
+    - 'no': 1
+      name: 封号核心判定：IP归属地为第一风控维度
+      desc: 2023年3月大规模封号核心特征为基于IP归属地的地域画像，亚洲IP（台/日/港）命中率约40%，而非账号注册时间或Plus状态为主导。必须规避亚洲IP、拒绝频繁换IP、拒绝一IP多号。
+      role: theorem
+      src:
+      - paper: docs/202305/TSZBdBfynoBINux2htWcefrtnHc.md
+    - 'no': 2
+      name: 网络层：DashiSIM多APN漫游方案获取美/欧/新原生IP
+      desc: 实体卡设置APN（us.dashi/eu.dashi/sg.dashi）在国内漫游走移动5G直连，零月租按需充值，单IP单号固定使用，实测速度快、长期可用。备选：CMLINK新加坡漫游卡（需海外办理激活）。
+      role: method
+      src:
+      - paper: docs/202305/TSZBdBfynoBINux2htWcefrtnHc.md
+    - 'no': 3
+      name: 身份层：Ultra Mobile $3 PayGo实体卡+WiFi Calling长期保号
+      desc: 淘宝/闲鱼购实体卡→官网激活$3套餐→开启WiFi Calling→绑定国内卡自动扣费$5/月→长期保持美号存活接码→支持eSIM转移。实测基于T-Mobile网络，中文客服友好，首年约200+元。
+      role: method
+      src:
+      - paper: docs/202305/TSZBdBfynoBINux2htWcefrtnHc.md
+    - 'no': 4
+      name: 支付层：真实金融身份 > 虚拟卡/临时接码
+      desc: 方案A：华美银行Velo零门槛（无需护照/签证/美号/美地址/预存款）开真实美借记卡/信用卡，FDIC成员资金安全；方案B：Wise护照实名+$20入金即时生成电子借记卡（真实账单地址/CVV），余额充足即可持续续费。虚拟卡共享BIN必然连坐风控，长期不可控。
+      role: method
+      src:
+      - paper: docs/202305/TSZBdBfynoBINux2htWcefrtnHc.md
+    - 'no': 5
+      name: 基建复用价值：解决ChatGPT订阅仅是起点，更是跨境业务长期资产
+      desc: 真实美银行账户+实体手机号不仅解决Plus订阅，更可复用于Facebook/推特/电报注册、跨境开店收款（Wise多币种本地账户）、美区柜面户开设、建立美信用史，边际成本趋零、长期价值远超一次性接码。
+      role: extension
+      src:
+      - paper: docs/202305/TSZBdBfynoBINux2htWcefrtnHc.md
 - 'no': 2
-  chapters: []
+  chapters:
+  - 'no': 1
+    name: 副业认知与项目筛选 —— 从“贪多嚼不烂”到“All in单赛道”
+    desc: 本章梳理普通人副业探索的三阶段进化路径，建立基于成绩、方法论、可复制性、主业关联、个人喜好的五维筛选标准，帮助读者跨出“找到天命项目”这一关键第一步。
+    nodes:
+    - 'no': 1
+      name: 副业成长三阶段模型
+      desc: 将副业历程抽象为‘无项目焦虑期’→‘多项目迷茫期’→‘单赛道聚焦期’的必经路径，揭示注意力分散导致全军覆没的底层逻辑。
+      role: motivation
+      src:
+      - paper: docs/202305/20230516_092.md
+      - paper: docs/202305/RaMIdAe9aoB1XcxwSRocx2mmnad.md
+    - 'no': 2
+      name: 聚焦筛选五维决策标准
+      desc: 定义筛选核心项目的硬性指标：有过成绩、有独到方法论、方法论可复制、与主业关联、个人喜好，形成漏斗式决策模型。
+      role: method
+      src:
+      - paper: docs/202305/RaMIdAe9aoB1XcxwSRocx2mmnad.md
+    - 'no': 3
+      name: 注意力守恒与正反馈循环定律
+      desc: 论证注意力为稀缺资源，分散操作导致单项目投入低于正反馈阈值，唯有聚焦突破阈值才能建立良性增长飞轮。
+      role: proof
+      src:
+      - paper: docs/202305/RaMIdAe9aoB1XcxwSRocx2mmnad.md
+    - 'no': 4
+      name: 主业关联性护城河论
+      desc: 主张最适合All in的副业必与主业技能、资源、认知高度重合，主业提供独到见解来源与低成本试错环境。
+      role: extension
+      src:
+      - paper: docs/202305/RaMIdAe9aoB1XcxwSRocx2mmnad.md
+    - 'no': 5
+      name: 实战复盘：叁斤从月入30元到IP变现2万+的筛选路径
+      desc: 展示作者经历闲鱼、多多视频、视频号等多项目试错失败，最终依据五维标准锁定小红书并实现课程变现2万+的完整决策链路。
+      role: experiment
+      src:
+      - paper: docs/202305/RaMIdAe9aoB1XcxwSRocx2mmnad.md
+      - paper: docs/202305/RaMIdAe9aoB1XcxwSRocx2mmnad.md
+      - paper: docs/202305/RaMIdAe9aoB1XcxwSRocx2mmnad.md
+  - 'no': 2
+    name: 小红书爆款起号 —— 复制爆款基因，让新号‘一发入魂’
+    desc: 本章揭示小红书冷启动的核心悖论：新号不靠原创靠模仿，通过‘复制爆款起号法’、‘养号打标机制’、‘对标账号业务路径拆解’三大标准化动作，实现账号权重快速建立与流量精准获取。
+    nodes:
+    - 'no': 1
+      name: 复制爆款起号法核心原理
+      desc: 论证爆款笔记的选题/标题/封面/合规性基因具有跨账号可迁移性，平台查重机制宽松，新号发布微调后的爆款内容大概率复现爆发。
+      role: definition
+      src:
+      - paper: docs/202305/RhRywNqifi3wjGkc4MacUiwXnxc.md
+      - paper: docs/202305/RhRywNqifi3wjGkc4MacUiwXnxc.md
+    - 'no': 2
+      name: 养号-标签化机制操作SOP
+      desc: 详细拆解冷启动前2-3天的模拟真人行为：搜索核心词、互动领域热门笔记，主动诱导算法打上垂直标签，规避营销号判定。
+      role: method
+      src:
+      - paper: docs/202305/RhRywNqifi3wjGkc4MacUiwXnxc.md
+      - paper: docs/202305/RhRywNqifi3wjGkc4MacUiwXnxc.md
+    - 'no': 3
+      name: 对标账号业务路径逆向工程
+      desc: 指导完整走一遍竞品‘评论引导-私信话术-引流落地页’全流程，逆向拆解商业闭环设计，为自建引流体系提供可直接复用的模板。
+      role: method
+      src:
+      - paper: docs/202305/RhRywNqifi3wjGkc4MacUiwXnxc.md
+    - 'no': 4
+      name: 前5篇非营销内容保护期红线
+      desc: 实测验证新号前2天前5篇必须为纯干货，过早植入营销笔记会导致标签偏离权重受损，是起号存活率关键红线。
+      role: limitation
+      src:
+      - paper: docs/202305/RhRywNqifi3wjGkc4MacUiwXnxc.md
+    - 'no': 5
+      name: 老号冷启动修复可行性验证
+      desc: 展示前期阅读<100的‘废号’经断更+重新养号+复制爆款流程可恢复权重，证明账号权重非不可逆。
+      role: experiment
+      src:
+      - paper: docs/202305/RhRywNqifi3wjGkc4MacUiwXnxc.md
+  - 'no': 3
+    name: 高效内容量产体系 —— AI工作流与SEO蓝海词的工业化生产线
+    desc: 本章构建从选题挖掘、AI伪原创改写、数据驱动标题套用、表格封面标准化，到小红书SEO蓝海词布局的全流程内容工厂，将创作转化为可批量复制、可考核的Prompt工程与关键词工程任务。
+    nodes:
+    - 'no': 1
+      name: 爆款笔记挖掘与素材库建设
+      desc: 使用批量下载工具按关键词抓取笔记，按互动排序筛选非营销性爆款，OCR提取文案录入素材库，实现选题数据化。
+      role: method
+      src:
+      - paper: docs/202305/RhRywNqifi3wjGkc4MacUiwXnxc.md
+    - 'no': 2
+      name: ChatGPT双阶段改写Prompt工程
+      desc: 标准化AI改写协议：第一阶段语义理解对齐（回复‘已准备好’），第二阶段风格化重写（小红书风格/Emoji/生动/不改原意），可扩展阐明/精简/举例指令生成原创正文。
+      role: method
+      src:
+      - paper: docs/202305/RhRywNqifi3wjGkc4MacUiwXnxc.md
+    - 'no': 3
+      name: 数据驱动标题套用法
+      desc: 拒绝AI生成标题，主张从高数据笔记提取标题结构/关键词（如‘潜规则’‘后悔没早点知道’）进行替换组合，或套用爆款标题公式，实测效果优于AI创作。
+      role: method
+      src:
+      - paper: docs/202305/RhRywNqifi3wjGkc4MacUiwXnxc.md
+    - 'no': 4
+      name: 表格封面合集化：零设计门槛的高点击封面范式
+      desc: 利用Excel/腾讯文档将碎片知识整理为结构化表格截图作为封面正文，降低设计门槛，提升信息密度与收藏率，是图文类笔记最易出爆款的封面之一。
+      role: method
+      src:
+      - paper: docs/202305/RhRywNqifi3wjGkc4MacUiwXnxc.md
+      - paper: docs/202305/RhRywNqifi3wjGkc4MacUiwXnxc.md
+    - 'no': 5
+      name: 小红书SEO蓝海词策略与布局式执行
+      desc: 挖掘‘搜索需求大、竞争内容少’的长尾词，生产高权重内容抢占搜索首位截获高意向流量；执行‘无视数据、只占坑’的布局式SEO战术，核心目标是关键词排名而非公域互动指标。
+      role: method
+      src:
+      - paper: docs/202305/RhRywNqifi3wjGkc4MacUiwXnxc.md
+      - paper: docs/202305/RhRywNqifi3wjGkc4MacUiwXnxc.md
+      - paper: docs/202305/RhRywNqifi3wjGkc4MacUiwXnxc.md
+    - 'no': 6
+      name: 关键词全景梳理与蓝海词挖掘实操
+      desc: 按业务维度穷举核心词→批量工具下载爆款笔记→识别‘有搜索无优质内容’蓝海词→优先生产占坑→核心词巩固权重，构建SEO词库资产。
+      role: method
+      src:
+      - paper: docs/202305/RhRywNqifi3wjGkc4MacUiwXnxc.md
+    - 'no': 7
+      name: 零互动笔记精准获客案例验证
+      desc: 展示‘0点赞0收藏’的蓝海词笔记却获大量用户私信‘分享笔记’，证明SEO搜索流量精准度极高，公域互动指标不代表商业价值。
+      role: experiment
+      src:
+      - paper: docs/202305/RhRywNqifi3wjGkc4MacUiwXnxc.md
+  - 'no': 4
+    name: 安全引流与私域成交 —— 形式对抗风控，把流量装进自己的口袋
+    desc: 本章攻克小红书严打引流难题，提供‘表情包话术+分享笔记’与‘互关拉群聊’两套组合拳技术方案，建立‘小号隔离风险、大号收割流量’的账号分工体系，并量化群聊日承接上限，实现封禁期也可引流的鲁棒性。
+    nodes:
+    - 'no': 1
+      name: 表情包话术规避违规技术原理
+      desc: 将敏感引流话术制作为图片表情包发送，结合‘分享笔记’功能传递诱饵，利用非文本形式绕过平台关键词拦截与语义识别，实测持续运行未收违规提醒。
+      role: method
+      src:
+      - paper: docs/202305/RhRywNqifi3wjGkc4MacUiwXnxc.md
+      - paper: docs/202305/RhRywNqifi3wjGkc4MacUiwXnxc.md
+    - 'no': 2
+      name: 互关拉群自动化引流流程标准化
+      desc: 利用‘互关可拉群’及‘群聊历史消息可见’机制：评论区引导互关→后台批量拉群(单群40人/单号5群/日处理200人)→新成员自动阅读历史引流消息，实现禁言期也可操作的高并发承接。
+      role: method
+      src:
+      - paper: docs/202305/RhRywNqifi3wjGkc4MacUiwXnxc.md
+      - paper: docs/202305/RhRywNqifi3wjGkc4MacUiwXnxc.md
+    - 'no': 3
+      name: 小号隔离引流大号收割账号分工模型
+      desc: 小号专职制作引流诱饵承担违规风险→大号正常运营收藏小号笔记→引流时大号‘分享笔记’转发小号内容，实现风险隔离与主号权重保护。
+      role: method
+      src:
+      - paper: docs/202305/RhRywNqifi3wjGkc4MacUiwXnxc.md
+    - 'no': 4
+      name: 私信发送前置检测机制与风控自检指标
+      desc: 发现账号当日前几条私信长按无‘引用/回复’选项即处于隐形限流状态，需停止发送等待恢复，为团队排班提供风控自检标准动作。
+      role: limitation
+      src:
+      - paper: docs/202305/RhRywNqifi3wjGkc4MacUiwXnxc.md
+    - 'no': 5
+      name: 群聊单账号日承接上限量化基准
+      desc: 实测单账号可建5群×40人=日处理200人上限，群满可踢人循环利用，禁言期亦可操作，为团队产能规划提供量化基准。
+      role: experiment
+      src:
+      - paper: docs/202305/RhRywNqifi3wjGkc4MacUiwXnxc.md
+    - 'no': 6
+      name: 企业号抗风险能力实测验证
+      desc: 对比验证升级企业号显著提升抗风险能力，降低营销号判定概率，是矩阵账号标配建议。
+      role: experiment
+      src:
+      - paper: docs/202305/RhRywNqifi3wjGkc4MacUiwXnxc.md
+  - 'no': 5
+    name: 矩阵化横向复制与组织化放大 —— 将个人经验变为组织资产
+    desc: 本章阐述如何将‘选题挖掘、AI改写、封面制作、发布排期、引流话术、风控应对’全流程固化为SOP，实现兼职团队/矩阵账号横向复制，并结合职称赛道地域护城河特性，设计非竞争性加盟扩张模式。
+    nodes:
+    - 'no': 1
+      name: 标准化SOP是矩阵扩张的必要充分条件
+      desc: 论证只有全流程固化为可量化、可考核、可替换的SOP，才能实现矩阵横向复制，将个人经验转化为组织资产。
+      role: proof
+      src:
+      - paper: docs/202305/RhRywNqifi3wjGkc4MacUiwXnxc.md
+    - 'no': 2
+      name: 矩阵化横向复制组织架构
+      desc: 核心账号产出SOP→兼职/员工账号执行‘复制爆款’标准化动作→多账号覆盖关键词/人群→统一引流入口→后端统一转化。
+      role: method
+      src:
+      - paper: docs/202305/RhRywNqifi3wjGkc4MacUiwXnxc.md
+    - 'no': 3
+      name: 职称赛道地域护城河与非竞争性加盟逻辑
+      desc: 揭示职称服务强地域属性天然形成区域护城河，不同城市运营者学习同套方法论不构成竞争，适合标准化教学与加盟模式。
+      role: extension
+      src:
+      - paper: docs/202305/RhRywNqifi3wjGkc4MacUiwXnxc.md
+    - 'no': 4
+      name: 聚光投流适配性前瞻判断
+      desc: 分析高客单价、转化路径标准的赛道理论极适合聚光投放放大，留作规模化后续优化方向。
+      role: extension
+      src:
+      - paper: docs/202305/RhRywNqifi3wjGkc4MacUiwXnxc.md
+  - 'no': 6
+    name: 视频号带货实战体系 —— 从‘自然流赌博’到‘投流科学’的范式跃迁
+    desc: 本章对比自然流与付费投流两大玩法优劣，系统拆解‘短视频挂车投流’的全链路标准化操作：选品渠道、素材混剪去重、随心推测品养模型、千川放量博弈算法，建立‘随心推测品反推千川出价’的跨工具数据复用闭环。
+    nodes:
+    - 'no': 1
+      name: 投流玩法优于自然流的稳定性判断
+      desc: 对比实证：自然流遭遇连续限流账号报废，投流具备稳定、可复制、可放大、不废号四大优势，是当前最优带货路径。
+      role: motivation
+      src:
+      - paper: docs/202305/20230516_082.md
+      - paper: docs/202305/20230516_086.md
+    - 'no': 2
+      name: 选品四大实战渠道与三大避坑红线
+      desc: 整合爆单秘籍选品、跟爆款视频反推、爆款商品榜单、规避高播强竞品/差评比>6-8%/体验分<4.8的标准化选品决策树。
+      role: method
+      src:
+      - paper: docs/202305/20230516_086.md
+    - 'no': 3
+      name: 混剪去重七步标准作业程序(SOP)
+      desc: 针对查重原理(MD5/关键帧/像素/音频)制定七步技术处理流程(调参/特效/变速/镜像/贴纸/换BGM/调色)，实现过原创审核的技术标准化。
+      role: method
+      src:
+      - paper: docs/202305/20230516_086.md
+      - paper: docs/202305/20230516_086.md
+    - 'no': 4
+      name: 螺旋算法/漏斗转化/ECPM竞价底层逻辑
+      desc: 拆解挂车视频评判维度(点击率/转化率/GPV/GPROI/人均观看时长)与ECPM=估算点击率×估算转化率×目标出价×1000的流量分配数学模型。
+      role: definition
+      src:
+      - paper: docs/202305/20230516_086.md
+      - paper: docs/202305/20230516_086.md
+    - 'no': 5
+      name: 随心推全生命周期投放策略
+      desc: 测品期：系统智能投放/自动出价/24h/亏损容忍/堆数据养模型→优化期：ROI目标出价→高峰期：手动出价/2h/1.2倍佣金起步/消耗70%降价5%迭代→过渡期：数据反推千川出价。
+      role: method
+      src:
+      - paper: docs/202305/20230516_086.md
+    - 'no': 6
+      name: 随心推反推千川出价公式跨工具复用
+      desc: 利用随心推跑出稳定数据(均价=总销售额/订单数)计算千川初始出价=均价×佣金率，过新手期(20单)后出价=初始出价/1.2，动态微调，验证跨工具数据复用可行性。
+      role: method
+      src:
+      - paper: docs/202305/20230516_086.md
+      - paper: docs/202305/20230516_086.md
+    - 'no': 7
+      name: 千川计划冷启动与算法博弈标准化动作
+      desc: 搭建：莱卡定向覆盖>5亿/保守出价(佣金/1.2)/开成本保障→学习期：高价亏本+一键起量/高峰期预热→稳定期：正负反馈平衡(降价必加预算/换素材)/规避创意挤压。
+      role: method
+      src:
+      - paper: docs/202305/20230516_086.md
+      - paper: docs/202305/20230516_086.md
+      - paper: docs/202305/20230516_086.md
+      - paper: docs/202305/20230516_086.md
+    - 'no': 8
+      name: 素材为王投流为辅：高点击低转化素材必换原则
+      desc: 实战发现点击率高但不出单素材因价值塑造不到位或市场饱和，直接更换不可纠结，投流只能放大优质素材无法拯救烂素材。
+      role: limitation
+      src:
+      - paper: docs/202305/20230516_086.md
+      - paper: docs/202305/20230516_086.md
+    - 'no': 9
+      name: ECPM竞争力不足导致计划突然不消耗诊断
+      desc: 排除余额/发货率后，核心原因是系统重算ECPM发现点击/转化不理想排名靠后，解决方案为智能放量/优化素材/优化定向商品提升ECPM。
+      role: experiment
+      src:
+      - paper: docs/202305/20230516_086.md
+  - 'no': 7
+    name: 视频号轻量化私域模式 —— 做减法，用‘搬运IP素材+高客单农机’跑通百万销售额
+    desc: 本章复盘‘不追求爆款、不开小店、不直播’的轻量化模式：瞄准农村下沉市场选品高客单农机，创新‘素材反推选品’搬运抖音低粉优质达人IP，构建‘主页留资+企微客服+私域规格图成交’闭环，三个月百万销售额、20万利润、私域沉淀3000好友。
+    nodes:
+    - 'no': 1
+      name: 农村下沉市场选品策略与信息差红利
+      desc: 针对视频号30+二三线用户画像，绕过红海日用品聚焦农机刚需，利用线下渠道匮乏、价格不透明信息差销售高客单非标品，验证‘三农不止帮农民卖货，也可卖给农民’。
+      role: motivation
+      src:
+      - paper: docs/202305/I8BLdIIfbobzkYxCLGBctYqbnae.md
+    - 'no': 2
+      name: 素材反推选品法：颠覆传统选品逻辑的核心方法论
+      desc: 主张‘先找优质传播素材(IP人设/制作过程)，再匹配供应链’，核心判断：能火的只有素材不是品，素材决定人群人群决定转化，搬运验证平台人群匹配度极大降低试错成本。
+      role: method
+      src:
+      - paper: docs/202305/I8BLdIIfbobzkYxCLGBctYqbnae.md
+      - paper: docs/202305/I8BLdIIfbobzkYxCLGBctYqbnae.md
+    - 'no': 3
+      name: IP搬运冷启动模型与原创化平滑过渡
+      desc: 搬运抖音‘低粉高带货’真人IP素材(10W粉以下/个人运营/未入驻视频号)冷启动，权重建立后过渡真人原创出镜实现IP资产自有化，核心判断：不被投诉前能活久一点即可。
+      role: method
+      src:
+      - paper: docs/202305/I8BLdIIfbobzkYxCLGBctYqbnae.md
+    - 'no': 4
+      name: 考古家低粉达人挖掘标准化流程
+      desc: 使用考古家工具筛选：带货标签+粉丝数低(1-5W)+视频达人，定位个人运营/垂直度高/带货数据优异(如1.5W粉带货50W+)且未入驻视频号的蓝海IP。
+      role: method
+      src:
+      - paper: docs/202305/I8BLdIIfbobzkYxCLGBctYqbnae.md
+    - 'no': 5
+      name: 无店重私域转化闭环：企业微信客服零成本挂链路
+      desc: 放弃视频号小店，注册企微绑定视频号(仅发消息无需认证)→配置欢迎语植入微信小商店/有赞链接→用户点击主页客服按钮直接跳转购买，绕过开店门槛与押金。
+      role: method
+      src:
+      - paper: docs/202305/I8BLdIIfbobzkYxCLGBctYqbnae.md
+      - paper: docs/202305/I8BLdIIfbobzkYxCLGBctYqbnae.md
+    - 'no': 6
+      name: 私域规格图+官方背书促单话术针对农村中老年群体
+      desc: 制作‘一图全规格’(尺寸/价格/型号对比)+嵌入购买链接+标注‘官方购买链接’四字→单聊发图+朋友圈高频低文案(3行以内)维护信任，A/B测试验证‘官方’两字显著提升转化率。
+      role: method
+      src:
+      - paper: docs/202305/I8BLdIIfbobzkYxCLGBctYqbnae.md
+      - paper: docs/202305/I8BLdIIfbobzkYxCLGBctYqbnae.md
+    - 'no': 7
+      name: 制作工艺/流水线猎奇素材的流量红利与副作用
+      desc: 利用人性猎奇心理拍摄工厂流水线/特殊工艺视频易获百万播放，但需筛选‘找工作’无效询盘，数据对比验证该素材形态播放量显著优于混剪/口播。
+      role: experiment
+      src:
+      - paper: docs/202305/I8BLdIIfbobzkYxCLGBctYqbnae.md
+      - paper: docs/202305/I8BLdIIfbobzkYxCLGBctYqbnae.md
+    - 'no': 8
+      name: 多平台蓝海分发复利与小红书高成交高合规成本
+      desc: 同素材分发快手/小红书复制流量转化，小红书粉丝少但成交率极高(询价基本成交)，但引流管控极严需物理规避手段(群名/纸条/计算器)，操作繁琐风险高。
+      role: experiment
+      src:
+      - paper: docs/202305/I8BLdIIfbobzkYxCLGBctYqbnae.md
+      - paper: docs/202305/I8BLdIIfbobzkYxCLGBctYqbnae.md
+    - 'no': 9
+      name: 版权投诉利益共生谈判转化供应链合作
+      desc: 面对原创作者投诉采取‘认错+利益分享(带货分成)’策略，将侵权风险转化为‘素材方出内容+运营方出渠道’双赢合作，印证单平台深耕IP常面临变现瓶颈的市场现状。
+      role: method
+      src:
+      - paper: docs/202305/I8BLdIIfbobzkYxCLGBctYqbnae.md
+      - paper: docs/202305/I8BLdIIfbobzkYxCLGBctYqbnae.md
+    - 'no': 10
+      name: 日出10单供应链主动上门临界点验证
+      desc: 观察到大件商品拼多多代发日出10单时上游工厂主动联系对接源头发货，解决利润薄/物流慢/售后难痛点。
+      role: experiment
+      src:
+      - paper: docs/202305/I8BLdIIfbobzkYxCLGBctYqbnae.md
+    - 'no': 11
+      name: 个人创业‘做减法’生存法则
+      desc: 避开高成本/高门槛/高内耗的标准动作(直播/重小店/专业拍摄)，选择‘不直播/不开店/不原创/不囤货’最小阻力路径，核心判断：心理痛苦且赚不到钱必坚持不下去。
+      role: proof
+      src:
+      - paper: docs/202305/I8BLdIIfbobzkYxCLGBctYqbnae.md
+    - 'no': 12
+      name: 视频号人群>兴趣同人群跨品类复购定律
+      desc: 视频号社交属性强算法基于社交图谱，人群标签粘性远高于兴趣标签，建立对特定人群信任后必然高效转化同人群属性下其他品类，实现‘一鱼多吃’。
+      role: theorem
+      src:
+      - paper: docs/202305/I8BLdIIfbobzkYxCLGBctYqbnae.md
+  - 'no': 8
+    name: 抖音短视频带货全形态进化史 —— 从A4书单到划线书单的内容红利捕获与投流接力
+    desc: 本章复盘书单带货四代形态迭代(A4/笔记/讲座/划线)，揭示‘内容形态红利期结束必须依赖投流’的铁律，并拆解真人出镜角色扮演法、场景立体化分级、口播文案低成本获取法，构建内容生产标准化体系。
+    nodes:
+    - 'no': 1
+      name: 书单带货四代形态进化与红利窗口期论
+      desc: A4书单(2019极简丢书)→笔记书单(2021笔记呈现)→讲座书单(2022权威人设)→划线书单(2019至今高光金句可视化)，核心逻辑均为大道至简低成本量产，早期靠自然流后期必须投流维持。
+      role: definition
+      src:
+      - paper: docs/202305/20230516_086.md
+      - paper: docs/202305/20230516_086.md
+    - 'no': 2
+      name: 完播率倒挂机制与手写起号标准化流程
+      desc: 4-7秒高密度文字视频实现用户平均观看时长约2倍视频时长(完播率200%)，触发系统强推荐，适配职场/情感/教育赛道，附带实操案例数据。
+      role: method
+      src:
+      - paper: docs/202305/20230516_086.md
+      - paper: docs/202305/20230516_086.md
+      - paper: docs/202305/20230516_086.md
+    - 'no': 3
+      name: 真人出镜角色扮演法与场景立体化分级
+      desc: 语言层：设定沟通对象(给妈妈聊天/训斥学生/憋尿急说话)调整语气微表情；场景层：拒绝扁平书架，用墙角+绿植/暖光灯/摆件构造景深；工具层：剪映提词器替代硬件。
+      role: method
+      src:
+      - paper: docs/202305/20230516_086.md
+      - paper: docs/202305/20230516_086.md
+      - paper: docs/202305/20230516_086.md
+    - 'no': 4
+      name: 爆款视频五种思维与六大底层传播逻辑
+      desc: 思维层：热点/利他/发散/创造性/复盘五种心法；逻辑层：选品/文案/拍摄/剪辑/投流/主播六大要素缺一不可，形成内容生产全要素清单。
+      role: definition
+      src:
+      - paper: docs/202305/20230516_086.md
+      - paper: docs/202305/20230516_086.md
+    - 'no': 5
+      name: 抖音官方出圈效应与黄金前3秒留人技巧
+      desc: 人群出圈(大众化表达)/内容出圈(反差冲突)/形式出圈(新奇特呈现)，强调前3秒留人、黄金前5秒阐述核心的官方方法论。
+      role: method
+      src:
+      - paper: docs/202305/20230516_086.md
+    - 'no': 6
+      name: 口播文案低成本获取三板斧
+      desc: A.抄袭抖音爆款图文转口播(规避视频非原创判罚，爆率70%+) B.搬运小红书同类目爆款笔记对着镜头读(爆率高) C.蹭热榜/官方活动页流量红利。
+      role: method
+      src:
+      - paper: docs/202305/20230516_086.md
+    - 'no': 7
+      name: A4书单同行单视频赚佣50万与笔记书单自然流实操案例
+      desc: 引用2019年A4书单巅峰期单条视频佣金50万案例，及2021年笔记书单自然流跑出爆款实测，印证早期红利期内容形态极简即可高变现。
+      role: experiment
+      src:
+      - paper: docs/202305/20230516_086.md
+      - paper: docs/202305/20230516_086.md
+    - 'no': 8
+      name: 划线书单投流依赖性验证
+      desc: 观察到划线书单模式虽操作简单，但当前阶段不投流(随心推/千川)则无法起量，印证内容红利期结束后必须依赖付费流量的结论。
+      role: limitation
+      src:
+      - paper: docs/202305/20230516_086.md
+  - 'no': 9
+    name: 小红书电商双玩法阶梯 —— 以‘好物爆款’练权重，转‘垂直精细’沉淀私域
+    desc: 本章提出阶梯式增长路径：前期用‘好物爆款玩法’(平台话题扶持/混剪素材/低价引流/快速起号/练权重)切入，后期转‘垂直精细化玩法’(拆解需求/提炼卖点/锁关键词/拆解对标/持续原创/打造IP/私域沉淀)实现长期高利润盈利。
+    nodes:
+    - 'no': 1
+      name: 好物爆款玩法操作流程与平台话题扶持机制
+      desc: 挖掘跨平台验证爆款好物→混剪去重制作→参与官方话题获流量扶持→百元内低价引单激活权重→逐步调价选品提升利润，验证‘参与话题即送笔记流量’的冷启动有效性。
+      role: method
+      src:
+      - paper: docs/202305/20230516_090.md
+      - paper: docs/202305/20230516_090.md
+      - paper: docs/202305/20230516_090.md
+    - 'no': 2
+      name: 垂直精细化运营六步法与IP人设店构建
+      desc: 拆解用户需求→提炼差异化卖点→锁定SEO关键词→寻找头部对标→拆解对标内容/选品/话术→持续原创输出融入IP人设，构建高转化/长周期/高利润店铺模式。
+      role: method
+      src:
+      - paper: docs/202305/20230516_090.md
+      - paper: docs/202305/20230516_090.md
+      - paper: docs/202305/20230516_090.md
+    - 'no': 3
+      name: 引流品-利润品阶梯定价策略与权重积累规律
+      desc: 前期百元内低价引流品(亏本/微利)激活流量权重，中后期基于权重与粉丝信任上架高客单利润品收割，实测前期千单权重支撑后续利润品自然月出几十单。
+      role: method
+      src:
+      - paper: docs/202305/20230516_090.md
+      - paper: docs/202305/20230516_090.md
+    - 'no': 4
+      name: 混剪起号是精细化运营的必要前置与新手破解路径
+      desc: 论证好物混剪是新手快速建立权重/垂直标签/掌握出单节奏的最优路径，为后续转型原创IP积累数据资产与操盘经验，解决新手选品困境。
+      role: proof
+      src:
+      - paper: docs/202305/20230516_090.md
+      - paper: docs/202305/20230516_090.md
+    - 'no': 5
+      name: 私域是电商资产归属的终局与IP原创内容构建护城河
+      desc: 公域流量归平台不确定，唯有沉淀垂直客户至私域实现多次复购才构建核心资产；纯混剪易举报同质化，原创IP虽起量慢但提升转化率/延长生命周期/规避侵权风险。
+      role: theorem
+      src:
+      - paper: docs/202305/20230516_090.md
+      - paper: docs/202305/20230516_090.md
+    - 'no': 6
+      name: 手机壳低价引流实测数据与话题参与流量扶持现象
+      desc: 实测手机壳日出100+单/单利2-3元验证高单量低利润快起量特征；观察到参与官方话题即给基础流量推送，结合出单源于曝光验证话题玩法冷启动有效性。
+      role: experiment
+      src:
+      - paper: docs/202305/20230516_090.md
+      - paper: docs/202305/20230516_090.md
+    - 'no': 7
+      name: 原创IP店铺抗举报与长周期特性声明
+      desc: 宣称原创IP/人设店铺不易被同行举报、生命周期更长、后期利润更高出单更稳定，但前期起量需时间。
+      role: claim
+      src:
+      - paper: docs/202305/20230516_090.md
+  - 'no': 10
+    name: 小红书无货源电商标准化SOP —— 三个月营收50万的全流程拆解与避坑指南
+    desc: 本章提供从店铺搭建、五步选品法、素材去重二创与封面六大视觉法则、双引擎流量运营(商城搜推+笔记种草)、私域沉淀到全周期避坑清单的完整标准化操作手册，主张‘低成本试错+数据驱动复制放大’。
+    nodes:
+    - 'no': 1
+      name: 资金门槛测算模型与五种店铺类型差异决策
+      desc: 量化启动资金：保证金(1000-20000)+垫付资金(14天回款周期)+工具费；新手建议从个人店起步(门槛低/无需执照)，规避企业店前期合规成本。
+      role: method
+      src:
+      - paper: docs/202305/20230516_030.md
+      - paper: docs/202305/20230516_030.md
+      - paper: docs/202305/20230516_030.md
+    - 'no': 2
+      name: 后台标准化配置清单与商品上架流程
+      desc: 必选动作：信息公示合规/运费宝强制开启/物流模板预设(含偏远不发)/资金账户绑定/客服自动回复分流；上架流程：选品定款→货源对接→SKU规划→3-5倍毛利定价→详情页搭建→发布审核。
+      role: method
+      src:
+      - paper: docs/202305/20230516_030.md
+      - paper: docs/202305/20230516_030.md
+    - 'no': 3
+      name: 五步选品法：定位-选品-定品-测品-优品
+      desc: 定位(资源/兴趣匹配)→选品(跨平台高销量筛选：同行/爆款洗品/热度词三法)→定品(小红书内验证销量/爆款)→测品(上架铺笔记观测)→优品(详情页与笔记内容迭代优化)。
+      role: method
+      src:
+      - paper: docs/202305/20230516_034.md
+      - paper: docs/202305/20230516_030.md
+      - paper: docs/202305/20230516_030.md
+      - paper: docs/202305/20230516_030.md
+    - 'no': 4
+      name: 素材去重二创生产流程与封面六大视觉设计法则
+      desc: 素材获取→去水印→视频剪辑去重(调参/镜像/调速/滤镜/混剪)/图文排版→合规自检；封面法则：放大主体/制造视觉冲击/色彩对比/高饱和度/色块留白/重复排列，决定点击率生死。
+      role: method
+      src:
+      - paper: docs/202305/20230516_030.md
+      - paper: docs/202305/20230516_030.md
+      - paper: docs/202305/20230516_030.md
+      - paper: docs/202305/20230516_034.md
+      - paper: docs/202305/20230516_034.md
+    - 'no': 5
+      name: 文案采集改写SOP与标题关键词组合公式
+      desc: 收集优质笔记→拆解结构(钩子/痛点/方案/引导)→伪原创改写(换词/换序/注入真实体验/植入长尾词)→植入商品卡片；标题公式：核心词+属性词+长尾词+情绪词/数字/符号(≤20字)。
+      role: method
+      src:
+      - paper: docs/202305/20230516_030.md
+      - paper: docs/202305/20230516_030.md
+    - 'no': 6
+      name: 笔记发布养号维护规范与蚂蚁搬家批量铺货
+      desc: 新号养期3-5天→定时发布(早9/中12/晚19-21)→前30分钟人工互动催化→数据分层决策(炸裂加投/一般维持/死笔记隐藏重发)；蚂蚁搬家一键搬运+人工复查敏感图/上家信息/违规词。
+      role: method
+      src:
+      - paper: docs/202305/20230516_030.md
+      - paper: docs/202305/20230516_034.md
+    - 'no': 7
+      name: 双引擎流量运营策略：商城货架+笔记种草闭环
+      desc: 商城端：优化SKU/主图/标题/评价权重承接搜索流量，报名活动/营销工具争取推荐流量；内容端：矩阵号布局长尾词SEO截流+爆款笔记投流放大(薯条/薯店推广)获取推荐流量，形成种草-拔草闭环。
+      role: method
+      src:
+      - paper: docs/202305/20230516_030.md
+      - paper: docs/202305/20230516_030.md
+      - paper: docs/202305/20230516_030.md
+    - 'no': 8
+      name: 私域引流转化话术与逸淘批量发货流程
+      desc: 合规引流：主页简介挂号/粉丝群/集福利→私信自动回复/人工话术引导加微信→朋友圈人设建设→社群/私聊精细运营促复购裂变；逸淘授权→订单同步→一键下单1688→自动回填单号→批量打印面单。
+      role: method
+      src:
+      - paper: docs/202305/20230516_030.md
+      - paper: docs/202305/20230516_034.md
+    - 'no': 9
+      name: 全周期避坑检查清单：笔记/客服/开店/发货/数据平台五大风控红线
+      desc: 系统性规避：笔记层面(违禁词/硬广/搬运过度/频次过高)、客服层面(响应率/纠纷率/承诺发货时效)、开店层面(资质过期/类目错选/品牌侵权)、发货层面(虚假发货/缺货/物流异常/单号复用)、数据平台层面(工具滞后/参考误差)。
+      role: limitation
+      src:
+      - paper: docs/202305/20230516_030.md
+      - paper: docs/202305/20230516_030.md
+      - paper: docs/202305/20230516_030.md
+    - 'no': 10
+      name: 单店百万GMV近40万纯利实战案例与平台扣点成本结构
+      desc: 头部单店自2022年11月测试累计GMV近100万纯利近40万，平台扣佣金5%+渠道费0.7%(销售额过万后)，为利润测算提供硬性参数。
+      role: experiment
+      src:
+      - paper: docs/202305/20230516_034.md
+      - paper: docs/202305/20230516_034.md
+    - 'no': 11
+      name: 个体执照开店蓝V认证规则与运费宝提升转化经验则
+      desc: 一照开三店第2/3店需蓝V认证(600元/年)规避实名占用；开通运费宝降低决策顾虑提升转化，尺寸敏感类目建议强开7天无理由退货。
+      role: experiment
+      src:
+      - paper: docs/202305/20230516_034.md
+      - paper: docs/202305/20230516_034.md
+    - 'no': 12
+      name: 无流量店铺换赛道优于注销重开策略验证
+      desc: 注销需冷冻30天时间成本高，实测直接换类目/重新养号/上架铺笔记可快速冷启动，避免时间沉没。
+      role: experiment
+      src:
+      - paper: docs/202305/20230516_034.md
+  - 'no': 11
+    name: 小红书虚拟资料变现 —— 淘上红选品、词根挖掘与五步私域成交话术
+    desc: 本章聚焦虚拟产品零成本、纯利润属性，拆解‘领域词根三级挖掘’→‘淘宝数据反向选品’→‘小红书原生数据交叉验证’三维选品法，及‘五步私域成交话术’(开场提问/鉴定白嫖/发报价/收钱发货/补差价追销)与‘单品引流-会员升单漏斗’的高客单价转化体系。
+    nodes:
+    - 'no': 1
+      name: 虚拟项目纯利润属性与版权风险隔离论
+      desc: 虚拟产品零边际成本/无库存/无限复售，变现即纯利；版权风险集中于公域电商平台，迁移至微信私域(网盘/群)交付可大幅规避巡查下架风险。
+      role: motivation
+      src:
+      - paper: docs/202305/20230516_033.md
+      - paper: docs/202305/20230516_033.md
+    - 'no': 2
+      name: 词根三级挖掘体系与蓝海赛道联想法
+      desc: 通用词根(启蒙)→行业词根(英语启蒙)→细分领域词根(蓝色考拉/反霸凌启蒙绘本)，基于平台用户画像(宝妈群体)发散联想0-6岁儿童学习场景，结合工具批量挖掘长尾细分词规避红海。
+      role: method
+      src:
+      - paper: docs/202305/20230516_033.md
+      - paper: docs/202305/20230516_033.md
+    - 'no': 3
+      name: 淘上红选品模式与电商数据反向选品法
+      desc: 利用淘宝成熟销量/搜索/转化数据(直通车成交笔数)筛选验证过的虚拟热品迁移至小红书，使用‘名不虚传’等工具以直通车成交笔数为核心指标反向指导内容生产。
+      role: method
+      src:
+      - paper: docs/202305/20230516_033.md
+      - paper: docs/202305/20230516_033.md
+    - 'no': 4
+      name: 三维选品验证指标与小红书原生数据交叉验证
+      desc: 决策依赖搜索人气(需求量)/成交转化(支付意愿)/直通车成交笔数(实锤销量)三指标；确定品类后利用小红书搜索下拉框/笔记总量/竞品对标(点赞>100)/评论区求资源真实度三维交叉验证。
+      role: method
+      src:
+      - paper: docs/202305/20230516_033.md
+      - paper: docs/202305/20230516_033.md
+    - 'no': 5
+      name: 反霸凌启蒙绘本与英语启蒙动画蓝海案例实测
+      desc: 反霸凌启蒙绘本：淘宝直通车成交324单搜索人气高；英语启蒙动画/蓝色考拉：小红书笔记7400+下拉框有联想词竞品点赞>100评论区持续求资源，验证赛道成熟需求与可接受竞争强度。
+      role: experiment
+      src:
+      - paper: docs/202305/20230516_033.md
+      - paper: docs/202305/20230516_033.md
+    - 'no': 6
+      name: 非典型虚拟赛道验证：大白菜U盘装系统教程
+      desc: 通过5118挖掘‘课程’词根延伸出‘大白菜U盘装系统’，小红书搜索有笔记点赞>100评论区持续求购，淘宝有销量，验证泛技能教程类虚拟产品同样适用方法论。
+      role: experiment
+      src:
+      - paper: docs/202305/20230516_033.md
+    - 'no': 7
+      name: 五步私域成交标准化话术流程(SOP)与价格锚定差价升单法
+      desc: 开场提问建立需求→鉴定白嫖筛选意向→发报价单/群对比锚定价值→收钱发货完成首单→补差价追销升单会员(单品15元→会员49.9元补差价34.9元)，配合自动通过/自动回复工具实现低技能门槛规模化转化。
+      role: method
+      src:
+      - paper: docs/202305/20230516_033.md
+      - paper: docs/202305/20230516_033.md
+      - paper: docs/202305/20230516_033.md
+      - paper: docs/202305/20230516_033.md
+    - 'no': 8
+      name: 白嫖用户分层运营策略与边际转化价值论
+      desc: 对拒绝付费白嫖党免费给少量资料建立好感信任纳入私域长期培育，边际成本为零未来转化概率大于直接拉黑。
+      role: extension
+      src:
+      - paper: docs/202305/20230516_033.md
+      - paper: docs/202305/20230516_033.md
+    - 'no': 9
+      name: 赛道生命周期必然枯竭定律与持续挖掘新赛道系统能力
+      desc: 任何单一虚拟赛道必从蓝海变红海至枯竭，长久生存唯一路径是建立持续挖掘新赛道系统能力而非依赖单一爆款，作者团队亲历学科资料赛道蓝海到红海全过程圆满结束佐证。
+      role: limitation
+      src:
+      - paper: docs/202305/20230516_033.md
+      - paper: docs/202305/20230516_033.md
+    - 'no': 10
+      name: 幼师/公开课赛道避坑实证：大热门赛道新手见效显著变差
+      desc: 实测幼师资源证/公开课等大热门赛道因培训机构批量入场同质化严重，新入局者见效显著变差，不建议新手切入。
+      role: limitation
+      src:
+      - paper: docs/202305/20230516_033.md
+  - 'no': 12
+    name: 小红书知识付费IP打造 —— 从‘信息差觉醒’到‘50分变70分服务50-60分’的长期主义
+    desc: 本章复盘漫漫半年涨粉20万年变现40万全过程：打破‘大博主=天选之子’认知壁垒，确立‘垂直于用户而非内容’选题策略，主动暴露弱点建立真实人设，建立爆款选题库与写作SOP工业化生产，广告调性预埋反向定制商业价值，最终沉淀‘忠于自我、真实成长换真实信任’的高阶商业闭环。
+    nodes:
+    - 'no': 1
+      name: 普通人也能做大博主的信息差认知与小红书随时入场论
+      desc: 身边即有百万博主且很普通，大众眼中稀缺知识常是创作者平常认知，信息差天然存在；小红书去中心化推荐基于内容质量而非账号权重/时间，任何时间入场均可分流量。
+      role: motivation
+      src:
+      - paper: docs/202305/WX87d3F4SoVZLHxDNGzcDDVRn6R.md
+      - paper: docs/202305/WX87d3F4SoVZLHxDNGzcDDVRn6R.md
+    - 'no': 2
+      name: 垂直于用户而非垂直于内容的选题策略
+      desc: 内容方向不固定单一学科，而是围绕目标用户全生命周期需求(学习/考研/人际/心理/赚钱)动态调整，解决用户实际痛点，观察来源为评论区和私信。
+      role: method
+      src:
+      - paper: docs/202305/WX87d3F4SoVZLHxDNGzcDDVRn6R.md
+    - 'no': 3
+      name: 缺点即特质：暴露人性弱点建立真实人设的共情机制
+      desc: 主动暴露功利/自卑/焦虑/孤僻等被视为缺点的人性弱点，引发大众共情建立‘真实/有棱角/可信任’IP人设，IP核心公式=共性(普通人)+特性(个性/弱点)=信任与参考价值。
+      role: method
+      src:
+      - paper: docs/202305/WX87d3F4SoVZLHxDNGzcDDVRn6R.md
+      - paper: docs/202305/WX87d3F4SoVZLHxDNGzcDDVRn6R.md
+    - 'no': 4
+      name: 对标账号四步拆解法与爆款选题三要素
+      desc: 搜索核心词→分析内容结构→跟自己经历联系确认IP路径→精准对标3个经历相似起号快粘性高账号全维度拆解；选题>内容，核心抓手‘成就+心理落差/反差感’标题，封面传递专业性/权威性/反差感/普通人逆袭四大价值预期。
+      role: method
+      src:
+      - paper: docs/202305/WX87d3F4SoVZLHxDNGzcDDVRn6R.md
+      - paper: docs/202305/WX87d3F4SoVZLHxDNGzcDDVRn6R.md
+    - 'no': 5
+      name: 用户需求挖掘闭环与个人经历思维导图复盘法
+      desc: 外部反馈(评论/私信)→内部代入(对着过去的自己输出)→内容生产→再获反馈闭环；无外部反馈时站在用户视角推演痛点；将过往经历结构化为思维导图盘点可内容化素材库，解决没内容瓶颈实现日更1-2篇篇篇爆。
+      role: method
+      src:
+      - paper: docs/202305/WX87d3F4SoVZLHxDNGzcDDVRn6R.md
+      - paper: docs/202305/WX87d3F4SoVZLHxDNGzcDDVRn6R.md
+    - 'no': 6
+      name: 网感本质：大量刻意练习后的快速直觉反应
+      desc: 网感非天赋，而是大量刻意练习形成的快速直觉，核心是复盘‘为什么这么做’并保持敏感度持续输出爆款。
+      role: definition
+      src:
+      - paper: docs/202305/WX87d3F4SoVZLHxDNGzcDDVRn6R.md
+    - 'no': 7
+      name: 广告调性预埋策略与真人出镜增强信任
+      desc: 内容调性统一(封面风格)+关键词预埋(发布相关产品攻略引导品牌搜索)+真人出镜增强信任，主动构建品牌方偏好的商业化人设反向定制广告价值(上半部分真人出镜下半部分留广告位)。
+      role: method
+      src:
+      - paper: docs/202305/WX87d3F4SoVZLHxDNGzcDDVRn6R.md
+    - 'no': 8
+      name: 首篇笔记爆款验证标题公式与非垂直内容导致涨粉停滞
+      desc: 首篇《雅思考8分却出不了国》即爆款验证‘成就+心理落差’标题公式；后发日常生活/染发等非垂直内容数据极差，证明早期算法/用户心智要求账号垂直度。
+      role: experiment
+      src:
+      - paper: docs/202305/WX87d3F4SoVZLHxDNGzcDDVRn6R.md
+      - paper: docs/202305/WX87d3F4SoVZLHxDNGzcDDVRn6R.md
+    - 'no': 9
+      name: 搬运信息差内容验证赛道可行性与暴露弱点内容涨粉效率远超正能量
+      desc: 搬运其他平台雅思资料数据非常好验证跨平台信息差+垂直需求快速起号；对标‘不合群女生’爆款后发布暴露弱点笔记单篇1万赞涨粉2万，涨粉转化率远超单纯分享学习内容，证明人性共通弱点是最高阶流量密码。
+      role: experiment
+      src:
+      - paper: docs/202305/WX87d3F4SoVZLHxDNGzcDDVRn6R.md
+      - paper: docs/202305/WX87d3F4SoVZLHxDNGzcDDVRn6R.md
+    - 'no': 10
+      name: 用户需求驱动创作实现篇篇爆款与商业化变现路径迭代
+      desc: 完全依据评论/私信选题实现写得快一篇接一篇爆选题停不下来根本没法不涨粉；变现路径：广告40万/年→知识付费10万/2月→矩阵/卖号/引流高阶玩法，验证IP商业化清晰进阶路径天花板极高。
+      role: experiment
+      src:
+      - paper: docs/202305/WX87d3F4SoVZLHxDNGzcDDVRn6R.md
+      - paper: docs/202305/WX87d3F4SoVZLHxDNGzcDDVRn6R.md
+    - 'no': 11
+      name: 忠于自我内容阶段涨粉放缓但粉丝质量与变现单价显著提升
+      desc: 20万→30万粉速度放缓但吸引数千主动链接无条件信任付费跟随成长的高价值粉丝，部分转化为团队核心/未来合伙人，验证慢即是快真实成长换真实信任的长期主义商业逻辑。
+      role: experiment
+      src:
+      - paper: docs/202305/WX87d3F4SoVZLHxDNGzcDDVRn6R.md
+    - 'no': 12
+      name: 内容即筛选器：人才是目的数据非目的
+      desc: 创作终局非流量变现而是通过真实内容筛选同频人群，真实成长吸引真实伙伴形成信任-付费-共同成长-合伙人高阶闭环，价值远超广告收益。
+      role: theorem
+      src:
+      - paper: docs/202305/WX87d3F4SoVZLHxDNGzcDDVRn6R.md
+  - 'no': 13
+    name: PPT知识付费IP变现 —— 47天16.7万的‘对标拆解+私域精细化’可复制范式
+    desc: 本章拆解木子田0基础47天变现16.7万全过程：对标账号拆解建库→爆款视频四要素制作法(封面/文案/BGM/剪辑)→私域引流钩子设计(源文件/素材包/配色表)→朋友圈三段式运营(专业/生活/营销5:3:2)→高客单价咨询式成交话术(诊断/揭示/方案/案例/促单)→MVP思维先卖再做打磨标品。
+    nodes:
+    - 'no': 1
+      name: 对标账号拆解法与爆款视频四要素制作法
+      desc: 寻找10-20个同赛道头部/腰部账号拆解爆款逻辑建立素材库/选题库/文案库，照搬复制再微创新；封面统一风格大字报突出结果痛点、文案黄金前3秒钩子+干货步骤+引导互动、BGM卡点热榜匹配情绪、剪辑节奏快关键帧标注去水印调色。
+      role: method
+      src:
+      - paper: docs/202305/20230516_085.md
+      - paper: docs/202305/20230516_085.md
+    - 'no': 2
+      name: 私域引流钩子设计法：工具包转化率远高于理论资料
+      desc: 设计高感知价值低获取成本虚拟资源(PPT模板/配色表/素材包/拆解源文件)作为诱饵，多触点引导加微信；实测工具型钩子加微好友通过率及后续成交率显著高于电子书/思维导图。
+      role: method
+      src:
+      - paper: docs/202305/20230516_085.md
+      - paper: docs/202305/20230516_085.md
+    - 'no': 3
+      name: 朋友圈三段式运营法与人设信任资产构建
+      desc: 专业展示(作品/学员反馈/干货)、生活真实(家庭/成长/踩坑)、营销转化(课程预售/限时优惠/名额紧张)按5:3:2穿插发布，打造专业真实有温度人设，朋友圈即店面即人设。
+      role: method
+      src:
+      - paper: docs/202305/20230516_085.md
+      - paper: docs/202305/20230516_085.md
+    - 'no': 4
+      name: 高客单价咨询式成交话术与MVP思维先卖再做
+      desc: 不直接推销课程，通过诊断现状-揭示痛点-提供方案-展示案例-限时锚定五步法引导自我决策，解决信任/价值/紧迫三大异议；课程未完善前先以低价内测版/1对1陪跑售卖用市场验证打磨再规模化交付。
+      role: method
+      src:
+      - paper: docs/202305/20230516_085.md
+      - paper: docs/202305/20230516_085.md
+    - 'no': 5
+      name: 执行力>完美主义与赛道选择决定上限内容细节决定下限
+      desc: 0-1阶段完成比完美重要先发布再修正用市场反馈倒逼升级；PPT赛道具备刚需强/变现路径清晰/复购率高/交付标准化特征是普通人跨阶层优质赛道，但封面统一性/前3秒完播率/引流钩子诱惑力等细节决定能否跑通闭环。
+      role: theorem
+      src:
+      - paper: docs/202305/20230516_085.md
+      - paper: docs/202305/20230516_085.md
+    - 'no': 6
+      name: 私域是放大器公域是放大镜与利他思维护城河
+      desc: 抖音公域筛选精准意向用户(放大镜)私域高频触达深度信任最大化单客价值(放大器)，无私域公域流量归零无公域私域无水源；真心帮用户解决问题而非割韭菜获得口碑裂变高复购抗风险能力。
+      role: theorem
+      src:
+      - paper: docs/202305/20230516_085.md
+      - paper: docs/202305/20230516_085.md
+    - 'no': 7
+      name: 47天变现16.7W实战数据与单条爆款视频带来确定性业绩增量
+      desc: 0粉起号47天通过课程299-999元/陪跑2999-4999元实现16.7万营收；发20条视频第21条PPT动画拆解播放10万+引流300+精准粉丝直接成交几万块，证明垂直干货+强钩子能击穿流量天花板。
+      role: experiment
+      src:
+      - paper: docs/202305/20230516_085.md
+      - paper: docs/202305/20230516_085.md
+    - 'no': 8
+      name: 1对1陪跑验证课程大纲交付标准与统一封面提升主页转粉率
+      desc: 高价1对1陪跑服务种子用户被逼着解决奇葩问题打磨出标准化课程大纲(SOP)和FAQ，后降维打击规模化；统一封面大字报风格固定配色作者头像后主页转粉率从个位数提升至10%+，验证视觉一致性=专业信任感转化逻辑。
+      role: experiment
+      src:
+      - paper: docs/202305/20230516_085.md
+      - paper: docs/202305/20230516_085.md
+  - 'no': 14
+    name: 不出镜个人IP通用方法论 —— 低粉爆款模仿、核心需求桥梁、像素级SOP与私域为王
+    desc: 本章系统复盘‘不讲李’10个月7位数变现全貌：普通人双路径(一技之长IP/资源整合IP)、9类不出镜形式、低粉爆款对标起号最快、核心需求桥梁理论(现状与梦想搭桥)、PPT视频万能内容框架/像素级模仿SOP流水线、私域为王引流防封体系、知识付费三角模型(课/咨/圈)商业测算。
+    nodes:
+    - 'no': 1
+      name: 个人IP成长双路径与不出镜九大可对标形式
+      desc: 一技之长IP(深耕行业经验输出避坑指南)与资源整合IP(盘点公开信息节省决策时间)两条核心路径；列举PPT混剪/虚拟头像/录屏解说等9类不出镜形式，均为几十百万粉丝体量验证可行性。
+      role: definition
+      src:
+      - paper: docs/202305/GUHld91qQobms8x35tbcOUlSnZb.md
+      - paper: docs/202305/20230516_013.md
+    - 'no': 2
+      name: 低粉爆款对标起号法：新号蹭同类新号算法标签红利
+      desc: 起号初期不找头部大V，专寻粉丝1-2万近期新起有单条爆款的‘低粉爆款’账号深度模仿，因双方均为新号无粘性制作简单蹭同类话题极易复制爆发快速打标签，教学员屡试不爽。
+      role: method
+      src:
+      - paper: docs/202305/GUHld91qQobms8x35tbcOUlSnZb.md
+      - paper: docs/202305/20230516_013.md
+      - paper: docs/202305/GUHld91qQobms8x35tbcOUlSnZb.md
+    - 'no': 3
+      name: 核心需求桥梁理论与选题挖掘实操
+      desc: 锁定受众最广核心需求，在用户现状(不会做中视频/过不了审核)与梦想(变现)间搭桥梁；潜入同行交流群挖掘未被解决痛点(如中视频玩家想转型/审核难)针对性输出教程实现精准引爆。
+      role: method
+      src:
+      - paper: docs/202305/GUHld91qQobms8x35tbcOUlSnZb.md
+      - paper: docs/202305/GUHld91qQobms8x35tbcOUlSnZb.md
+    - 'no': 4
+      name: 短视频万能内容框架与像素级模仿SOP流水线
+      desc: 标准化结构：爆点前置+项目简述优势+流量来源内容形式+变现方式项目评价+钩子引流，含开头劝退筛选高质量受众结尾感性共鸣升华IP；PPT排版/剪辑节奏固化为像素级标准(左上角标题/左文右图/双标题栏/底色/转场音效/混剪插入时机)，找好模板直接套用不求原创求效率，单人日产3-5小时高产出。
+      role: method
+      src:
+      - paper: docs/202305/GUHld91qQobms8x35tbcOUlSnZb.md
+      - paper: docs/202305/GUHld91qQobms8x35tbcOUlSnZb.md
+      - paper: docs/202305/GUHld91qQobms8x35tbcOUlSnZb.md
+    - 'no': 5
+      name: 私域为王引流防封组合拳与蓝V卡片实测有效
+      desc: 唯一核心指标盯私域流量增长：内容端结尾植入关键词钩子引导公众号回复领取部分→加客服领完整版；工具端用商加加合规外链卡片比直发微信号稳；防封端：主体蓝V认证抗风险超乎想象+群聊全员禁言+引流仅发卡片零话术+规避敏感词，实测全年稳定引流未封号(早期操作不规范被封2个)。
+      role: method
+      src:
+      - paper: docs/202305/GUHld91qQobms8x35tbcOUlSnZb.md
+      - paper: docs/202305/GUHld91qQobms8x35tbcOUlSnZb.md
+      - paper: docs/202305/GUHld91qQobms8x35tbcOUlSnZb.md
+    - 'no': 6
+      name: 知识付费变现三角模型与私域转化测算
+      desc: 卖课程(低边际成本一锤子买卖易挨骂)/卖咨询(高单价非标服务时间杠杆弱)/卖圈子(高复购资源聚合运营难易变冷群)三模式优劣势对比；私域日增200-500粉测算：卖社群500元/5%转化月入15-37.5万，卖课程2000元/2%转化月入24-60万，结论高客单课程现金流更优但需超值交付能力，社群不建议新手首选。
+      role: method
+      src:
+      - paper: docs/202305/GUHld91qQobms8x35tbcOUlSnZb.md
+      - paper: docs/202305/GUHld91qQobms8x35tbcOUlSnZb.md
+    - 'no': 7
+      name: IP本质即利他降低交易成本与内容框架兼顾筛客留客
+      desc: IP核心商业价值在于持续高价值输出(利他)建立专业可信标签大幅降低后续交易决策成本与信任成本；爆点前置不宜过度标题党吸引急功近利小白破坏粉丝模型，应通过劝退话术筛选高质量受众，结尾良言忠告触动感性共鸣强化IP温度信任，实现理性拆解+感性共鸣双重留存。
+      role: theorem
+      src:
+      - paper: docs/202305/GUHld91qQobms8x35tbcOUlSnZb.md
+      - paper: docs/202305/GUHld91qQobms8x35tbcOUlSnZb.md
+    - 'no': 8
+      name: 标准化SOP是个人IP规模化前提与像素级模仿引发赛道标准化扩散
+      desc: 将PPT排版/剪辑节奏/选题框架/引流话术固化为像素级标准是单人小团队实现日更3-5小时高产出保证质量下限必要条件；作者PPT排版配色结构被大量后来者像素级模仿成为项目拆解赛道事实标准，未维权反鼓励共建生态助人上道反强化自身标杆地位。
+      role: proof
+      src:
+      - paper: docs/202305/GUHld91qQobms8x35tbcOUlSnZb.md
+      - paper: docs/202305/GUHld91qQobms8x35tbcOUlSnZb.md
+    - 'no': 9
+      name: 零投流纯内容跑通变现闭环与中视频赛道痛点验证引爆流量
+      desc: 账号‘不讲李的笔记’从搭建至百万变现全程未投1分钱DOU+单纯靠内容质量，粉丝纯度极高私域日进峰值过千10个月累计7位数；潜入影视解说群挖掘痛点(想转型/过不了审核/收益低)输出中视频运营拆解首条涨粉8000+连更3天打上标签流量稳定，验证核心需求桥梁理论实战有效性。
+      role: experiment
+      src:
+      - paper: docs/202305/GUHld91qQobms8x35tbcOUlSnZb.md
+      - paper: docs/202305/GUHld91qQobms8x35tbcOUlSnZb.md
+  - 'no': 15
+    name: 公众号运营体系与变现阶梯 —— 情感IP起号、引流造势IP强信任、四阶梯进阶
+    desc: 本章基于王大牙近一年实战，构建公众号运营五大板块体系(基础认知/账号搭建/内容定位/引流涨粉/账号运营)，推荐新手切入情感IP号，确立变现倒推定位法与引流变现双轮模型，详细给出注册避坑、后台配置、排版参数、征稿兼职双钩子设计、内外部引流成本控制、社群分层运营、留言功能迁移决策等SOP，并实测广告报价与IP强弱对溢价的决定性影响。
+    nodes:
+    - 'no': 1
+      name: 公众号运营五大板块体系与新手赛道选择公理
+      desc: 系统拆解基础认知/账号搭建/内容定位/引流涨粉/账号运营五维度；综合受众购买力(成年女性高)/内容价值(粘性强题材广)/运营成本(素材源自生活门槛低)三维度，论证情感IP号是零基础新手实现广告变现→IP变现平滑跨越的唯一最优赛道。
+      role: definition
+      src:
+      - paper: docs/202305/VjTFdmoIhoOIuhx4wYUcc1XGn8g.md
+      - paper: docs/202305/VjTFdmoIhoOIuhx4wYUcc1XGn8g.md
+      - paper: docs/202305/VjTFdmoIhoOIuhx4wYUcc1XGn8g.md
+    - 'no': 2
+      name: 变现倒推定位法与引流变现双轮模型
+      desc: 先确定变现方式(广告/分销/自有产品/引流池)再推导定位受众最后决定内容方向，避免为内容而内容；引流负责造势(数据好看冲阅读提报价)IP负责留量(筛选高信任粉丝提高转化率承接高客单)，先有流量IP才能变现无IP仅靠引流天花板低。
+      role: method
+      src:
+      - paper: docs/202305/VjTFdmoIhoOIuhx4wYUcc1XGn8g.md
+      - paper: docs/202305/VjTFdmoIhoOIuhx4wYUcc1XGn8g.md
+    - 'no': 3
+      name: 账号注册后台核心配置清单与排版黄金参数
+      desc: 个人订阅号注册决策点：主体个人/类型订阅号/邮箱唯一/管理员实名绑定/名称头像微信号简介修改次数限制策略；后台四大分栏(原创白名单/自动回复三件套/自定义菜单/合集标签/用户画像/流量主/隐私设置/水印设置)必开项；排版规范：正文15号字两端缩进8字间距1行间距1.75，图文五段式结构色系统一。
+      role: method
+      src:
+      - paper: docs/202305/VjTFdmoIhoOIuhx4wYUcc1XGn8g.md
+      - paper: docs/202305/VjTFdmoIhoOIuhx4wYUcc1XGn8g.md
+    - 'no': 4
+      name: 征稿函与兼职函双钩子设计法与钩子理论
+      desc: 兼职函为对外投放广撒网钩子(含征稿/错别字/在看/转发低门槛任务)，征稿函为内部精筛选钩子(详细投稿规范稿费≥30元)，两者配合实现广撒网精筛选留存写手粉丝闭环；钩子性质决定引来粉丝质量画像。
+      role: method
+      src:
+      - paper: docs/202305/VjTFdmoIhoOIuhx4wYUcc1XGn8g.md
+      - paper: docs/202305/VjTFdmoIhoOIuhx4wYUcc1XGn8g.md
+    - 'no': 5
+      name: 外部引流找车上车成本控制法与内部引流渠道效能排序
+      desc: 建立引流记录表格记录单车成本/涨粉数/单粉成本/阅读带动比；找车(自找博主占首位成本低)>上车(拼车按位置分价)优先级执行，数据复盘筛选高ROI博主类型；实测性价比排序：同量级互推免费>付费单推征稿号按百阅5-8元>联合红包抽奖有违规风险，社群/星球引流质量高但量少成本高不适合冷启动。
+      role: method
+      src:
+      - paper: docs/202305/VjTFdmoIhoOIuhx4wYUcc1XGn8g.md
+      - paper: docs/202305/VjTFdmoIhoOIuhx4wYUcc1XGn8g.md
+    - 'no': 6
+      name: 社群分层运营体系与社群规则前置原则
+      desc: 三层分层：读者群(大容量弱连接蓄水池)/任务兼职群(中容量强协作外包执行)/打卡自律群(小容量高粘性高客单转化前置池)；规则先行：入群前设定准入门槛/发言规范/违规处罚/活动节奏，规则越细致运营介入成本越低混乱概率越小粉丝参与感信任感越强。
+      role: method
+      src:
+      - paper: docs/202305/VjTFdmoIhoOIuhx4wYUcc1XGn8g.md
+      - paper: docs/202305/VjTFdmoIhoOIuhx4wYUcc1XGn8g.md
+    - 'no': 7
+      name: 个人IP强标签打造思路与内容生产黄金节奏
+      desc: 提炼可被瞬间联想的核心人设关键词(如自律搞钱狂魔)，总分结构输出人设文(总述版画像+分项深度展开)建立认知护城河；冷启动期1原创建IP信任+1征稿降成本存量+1转载白名单补频次蹭热度，周更2-3频次平衡质量成本算法活跃度。
+      role: method
+      src:
+      - paper: docs/202305/VjTFdmoIhoOIuhx4wYUcc1XGn8g.md
+      - paper: docs/202305/VjTFdmoIhoOIuhx4wYUcc1XGn8g.md
+    - 'no': 8
+      name: 变现四阶梯进阶定律与广告报价双决定因子
+      desc: L1阅读200-300接直投广告(引流即可IP锦上添花)→L2日增100粉接CPA广告(引流即可IP锦上添花)→L3强IP分销他人产品赚佣金(需强IP)→L4强IP售卖自有课程社群(需强IP)，技能点必须依次点满不可跨级；直投报价=f(阅读量/粉丝粘性购买力女性占比)CPA收入=f(外部引流涨粉量)，IP强弱不影响前两阶段上限但决定能否跨越至L3/L4。
+      role: theorem
+      src:
+      - paper: docs/202305/VjTFdmoIhoOIuhx4wYUcc1XGn8g.md
+      - paper: docs/202305/VjTFdmoIhoOIuhx4wYUcc1XGn8g.md
+    - 'no': 9
+      name: 留言功能迁移获取决策树与投入产出比判断
+      desc: 个人号需先迁移至企业号再迁移入具留言权限老号(需专业机构操作有费用)；建议变现稳定后再开通，前提需满足有粉丝基数+有优质内容+有互动规则设计三条件。
+      role: limitation
+      src:
+      - paper: docs/202305/VjTFdmoIhoOIuhx4wYUcc1XGn8g.md
+    - 'no': 10
+      name: 作者账号广告变现实测数据与案例失重限期IP强化商业跃迁
+      desc: 早期情感号粉丝不多阅读过千单价250-450元/月5-6条；转型IP号后阅读不高单价升至0.3-0.6元/阅验证IP强弱对溢价决定性影响；失重限期半年7w+粉均阅1300+单价0.5-0.7元/阅变现广告+课程社群，对比纯引流情感号8w粉千阅仅靠广告CPA，证明强IP虽粉丝基数小但能解锁高客单价产品变现3000粉产30单vs1万粉产5单效率差。
+      role: experiment
+      src:
+      - paper: docs/202305/VjTFdmoIhoOIuhx4wYUcc1XGn8g.md
+      - paper: docs/202305/VjTFdmoIhoOIuhx4wYUcc1XGn8g.md
+    - 'no': 11
+      name: 案例某可复制情感号纯引流模式天花板验证与广告避坑红线清单
+      desc: 半年近8w粉千阅以上月入四五位数收入纯靠广告/CPA周CPA4000+内容以征稿为主IP弱，验证无IP重引流模式虽快速跑通L1/L2但粉丝粘性低变现上限封死在广告分成无法进阶高客单价；7类高风险广告类别(黑五类/易经迷信/下载理财APP/纯文案文档装文案/后台回复引流QQ群/抖音充值/大牌化妆品打折)均为圈内实测易导致封号违规投诉雷区。
+      role: experiment
+      src:
+      - paper: docs/202305/VjTFdmoIhoOIuhx4wYUcc1XGn8g.md
+      - paper: docs/202305/VjTFdmoIhoOIuhx4wYUcc1XGn8g.md
+  - 'no': 16
+    name: 实体店老板IP化与三域联动 —— 私域内容公域化复用、271内容体系与矩阵号业务链条拆解
+    desc: 本章复盘美业10年老板‘镜子’如何将私域朋友圈文案用小红书技巧复用到公域，实现0涨粉近5000月增收5位数，打通公域获客-私域转化-线下变现三域闭环：高价值定位五要素、账号四件套确定性原则、271内容体系(20%工具合集蹭热点/70%干货建立专业信任/10%人设提高客单)、三字内容生产法(一搜二调三发5分钟出文)、长尾关键词SEO矩阵、零成本电子书裂变引流、C端/B端矩阵号分层布局对应咨询陪跑/店加盟/定制护肤品三条业务线。
+    nodes:
+    - 'no': 1
+      name: 实体老板IP化核心主张：内容资产跨域复用是低成本起号最优解
+      desc: 实体老板时间碎片精力有限，不应另起炉灶生产公域内容，而应将私域/线下沉淀成交文案/专业知识/客户案例直接搬运微调至公域，边际成本最低信任度最高转化路径最短。
+      role: motivation
+      src:
+      - paper: docs/202305/WzBCdY4A8omv2cxsneMcn1lJnEb.md
+    - 'no': 2
+      name: 高价值定位五要素与账号四件套确定性原则
+      desc: 细分赛道/目标客群/解决方案/IP核心竞争力/商业变现路径五要素，定位必须基于既有优势实现线上线下相互赋能；昵称头像简介背景图四件套统一传递我是谁为谁服务提供什么价值凭什么信任，给用户下一步行动确定性预期提升主页转粉率。
+      role: method
+      src:
+      - paper: docs/202305/WzBCdY4A8omv2cxsneMcn1lJnEb.md
+      - paper: docs/202305/WzBCdY4A8omv2cxsneMcn1lJnEb.md
+    - 'no': 3
+      name: 271内容体系与起号期专业信任先行人设弱化原则
+      desc: 起号前1万粉比例：20%工具合集蹭热点(涨粉快)/70%干货知识方法论案例(建立专业信任)/10%个人IP真实人设(提高客单转化)，避免早期过度生活流导致标签模糊粉丝不精准后期商业化困难。
+      role: method
+      src:
+      - paper: docs/202305/WzBCdY4A8omv2cxsneMcn1lJnEb.md
+      - paper: docs/202305/WzBCdY4A8omv2cxsneMcn1lJnEb.md
+    - 'no': 4
+      name: 选题决定论与对标账号采集选题复刻法
+      desc: 选题决定流量上限，起号必须对标点赞1000+爆款选题而非模仿几十赞平庸选题；用后羿采集器导出500个优质对标账号筛选爆款选题直接复刻方向结合自身经验重写。
+      role: method
+      src:
+      - paper: docs/202305/WzBCdY4A8omv2cxsneMcn1lJnEb.md
+      - paper: docs/202305/WzBCdY4A8omv2cxsneMcn1lJnEb.md
+    - 'no': 5
+      name: 三字内容生产法(一搜二调三发)与关键词挖掘布局SOP
+      desc: 极低成本SOP：搜对标爆款文案→结合季节节日环境调整→配图用素材库或实拍店铺实景，5分钟出一篇；免费法利用下拉框相关搜索挖掘长尾词/付费法千瓜灰豚批量导出，强制植入标题首位封面大字正文前200字结尾话题标签形成SEO闭环。
+      role: method
+      src:
+      - paper: docs/202305/WzBCdY4A8omv2cxsneMcn1lJnEb.md
+      - paper: docs/202305/WzBCdY4A8omv2cxsneMcn1lJnEb.md
+      - paper: docs/202305/WzBCdY4A8omv2cxsneMcn1lJnEb.md
+    - 'no': 6
+      name: 电子书裂变引流私域法与零成本引流钩子模型
+      desc: 制作高感知价值电子书(朋友圈文案合集)→笔记尾页评论区放钩子图→引导扫码进群评论领取→群内小号发微信号加好友→私域精细化运营转化；虚拟电子书成本近零合规安全配合群聊中转小号发号流程有效规避违规风险。
+      role: method
+      src:
+      - paper: docs/202305/WzBCdY4A8omv2cxsneMcn1lJnEb.md
+      - paper: docs/202305/WzBCdY4A8omv2cxsneMcn1lJnEb.md
+    - 'no': 7
+      name: 矩阵号本质是业务链条拆解而非单纯账号复制
+      desc: 矩阵布局对应业务上下游不同决策链路(C端种草→B端咨询→B端加盟→C端定制品)，每个账号对应明确变现产品，非单纯追求账号数量流量池叠加。
+      role: theorem
+      src:
+      - paper: docs/202305/WzBCdY4A8omv2cxsneMcn1lJnEb.md
+    - 'no': 8
+      name: 案例主体基础画像成果与工具合集干货类内容验证
+      desc: 镜子美业10年老板0基础起号涨粉近5000月增收5位数打通三域闭环；20%工具合集类(25位博主/文案30句)起号期数据优异验证蹭热点做合集快速获得推流冷启动有效性；70%干货板块聚焦朋友圈文案技巧/配图设计/开店团队管理吸引B端高客单价人群奠定高客单咨询陪跑变现基础。
+      role: experiment
+      src:
+      - paper: docs/202305/WzBCdY4A8omv2cxsneMcn1lJnEb.md
+      - paper: docs/202305/WzBCdY4A8omv2cxsneMcn1lJnEb.md
+      - paper: docs/202305/WzBCdY4A8omv2cxsneMcn1lJnEb.md
+    - 'no': 9
+      name: 引流钩子验证电子书诱饵低成本合规与三字生产法验证非专业创作者日更可行
+      desc: 虚拟电子书钩子成本近零配合群聊中转小号发号流程有效规避违规实现批量低成本导入支撑5位数变现；一搜二调三发压缩单条制作至5分钟解决老板没时间不会写不想拍三大痛点使高频更新日更成为可能维持账号活跃度算法权重。
+      role: experiment
+      src:
+      - paper: docs/202305/WzBCdY4A8omv2cxsneMcn1lJnEb.md
+      - paper: docs/202305/WzBCdY4A8omv2cxsneMcn1lJnEb.md
+    - 'no': 10
+      name: 矩阵号规划验证：单号跑通后按业务链条拆解规模化复制
+      desc: 宣称单号模型跑通已进入矩阵布局阶段，规划3账号分别对应咨询陪跑/店加盟/定制护肤品三条不同客单价业务线预期收入规模化增长，但未提供矩阵运营后具体数据支撑。
+      role: claim
+      src:
+      - paper: docs/202305/WzBCdY4A8omv2cxsneMcn1lJnEb.md
+  - 'no': 17
+    name: 微博IP增长体系 —— 大V转发冷启动、弱连接价值置换、追热点复用资产与粉丝质量分层
+    desc: 本章复盘迎十里从0到90万粉月流水200-350万全历程：微博冷启动依赖外部强分发(大V转发)而非算法，核心在于内容受众匹配度与弱连接价值置换(身份标签/高质量互动/现实社交引荐/资源置换)；小V复利效应远超单次大V转发；追热点输出独树一帜观点规避四大雷区并沉淀长期知识资产；官方运营对接协议获免费热门热搜资源；联合抽奖粉丝质量控制模型区分带货粉与羊毛粉。
+    nodes:
+    - 'no': 1
+      name: 微博冷启动依赖外部强分发定律与大V转发边际递减
+      desc: 微博机制决定自然流量极低，0-10万粉必须依赖大V转发外部强分发介入，无法像抖音/小红书靠算法冷启动；同一大V对同一博主多次转发效果边际递减，需持续开发新大V而非过度依赖单一大V。
+      role: motivation
+      src:
+      - paper: docs/202305/20230516_047.md
+      - paper: docs/202305/20230516_047.md
+    - 'no': 2
+      name: 内容受众匹配度与弱连接价值置换六步法
+      desc: 大V转发效果取决于粉丝画像与内容调性重合度而非粉丝量私交；小博主需通过展示现有身份价值/潜在资源价值/情绪价值换取大V关注转发，核心找到你想要的与对方想要的平衡点；大V破冰六步法：高质量留言私信(自我介绍价值声明互动意愿)/打造高识别度名字头像/尝试付费转发筛选/优先深耕小V弱连接网络/调动现实社交引荐/商业合作落地强连接。
+      role: method
+      src:
+      - paper: docs/202305/20230516_047.md
+      - paper: docs/202305/20230516_047.md
+      - paper: docs/202305/20230516_047.md
+    - 'no': 3
+      name: 账号识别系统与小V复利效应
+      desc: 朗朗上口好记有辨识度名字+风格统一传递人设头像双重记忆点是评论区私信低成本获取大V注意力关键基建；同量级/略低量级博主组成同盟互助圈因互动意愿强成长潜力大隐性大V资源丰富长期复利价值远超单次大V转发，是冷启动核心社交资产。
+      role: method
+      src:
+      - paper: docs/202305/20230516_047.md
+      - paper: docs/202305/20230516_047.md
+    - 'no': 4
+      name: 追热点选题创作法与热点内容复用资产
+      desc: 区分跟随热点与创造热点：选社会层面强情绪共鸣话题输出独树一帜深度观点，规避为追而追内容过少/人云亦云/过度极端站队/纯八卦无洞见四大雷区；重点布局长周期全民热点(综艺/大剧)；热点内容非一次性消耗品，核心观点经典语句思考框架可沉淀长期知识资产后续同类热点举一反三快速复用。
+      role: method
+      src:
+      - paper: docs/202305/20230516_047.md
+      - paper: docs/202305/20230516_047.md
+    - 'no': 5
+      name: 官方运营对接协议与显性算法规则
+      desc: 万级粉丝后主动对接微博后台运营/大V客服中心，遵守内容规范(文字>100字/图文2-3行配图/话题标签≤3个/@用户≤3个)换取免费热门热搜推荐资源，建立长期配合关系获取稳定公域分发。
+      role: method
+      src:
+      - paper: docs/202305/20230516_047.md
+      - paper: docs/202305/20230516_047.md
+    - 'no': 6
+      name: 联合抽奖粉丝质量控制模型与粉丝质量分层
+      desc: 决策框架：核验合作方粉丝画像(带货博主粉丝>纯抽奖博主粉丝)→自主出奖品对方买热搜在精准粉丝池主页开奖→根据变现模式判断ROI：带货/知识付费严禁泛抽奖博主，广告变现酌情使用但核算广告单价覆盖成本；区分精准付费粉(带货知识付费转化高)与泛流量羊毛粉(仅为抽奖占便宜无付费意愿年龄低观点偏激)。
+      role: method
+      src:
+      - paper: docs/202305/20230516_047.md
+      - paper: docs/202305/20230516_047.md
+    - 'no': 7
+      name: 社交关系价值对等公理与热点流量转化门槛论
+      desc: 一切有效商业社交连接本质是价值交换，主动方必须先满足对方需求再索取自身需求，单向索取必然失败；热点流量仅提供曝光入口，能否转化长期粉丝取决于内容是否提供独树一帜观点与情绪共鸣，平庸内容只能蹭流量无法留存粉丝。
+      role: theorem
+      src:
+      - paper: docs/202305/20230516_047.md
+      - paper: docs/202305/20230516_047.md
+    - 'no': 8
+      name: 粉丝质量决定变现上限铁律与微博广告推广真实性存疑
+      desc: 粉丝获取渠道决定画像决定变现上限：精准内容/带货引流粉支撑高客单电商知识付费；抽奖泛娱乐引流粉仅支撑低价广告变现且广告单价通常无法覆盖获客成本；实测投放<1万预算虽涨粉但无法识别真假，多位大V朋友普遍反映粉丝真实性存疑建议谨慎大额投入。
+      role: limitation
+      src:
+      - paper: docs/202305/20230516_047.md
+      - paper: docs/202305/20230516_047.md
+    - 'no': 9
+      name: 个人账号增长曲线与大V转发实战转化数据样本
+      desc: 2019年6月开号10月达10万真粉4个月，后电商变现月流水稳定200-350万；风中的厂长转发带来1000+粉，欧成效多次转发效果不错，少年伯爵追疫情热点单篇转发6.1万赞8w+吸粉5-10万，作者追绿地陈军热点转发1550赞1.6w涨粉3000。
+      role: experiment
+      src:
+      - paper: docs/202305/20230516_047.md
+      - paper: docs/202305/20230516_047.md
+    - 'no': 10
+      name: 小V成长引荐大V链式反应与联合抽奖粉丝质量对比实验
+      desc: 水原十口小V转发引起欧成效大V注意回关频繁转发并引荐大V朋友圈关注获大量精准粉丝验证小V复利效应弱连接网络；两组对照：熊猫大李带货博主联合抽iPhone12出资1w+涨粉3万粉丝优质满意vs付费专业抽奖博主涨粉可观但垃圾粉多无付费意愿年龄低观点偏激带货知识付费效果差。
+      role: experiment
+      src:
+      - paper: docs/202305/20230516_047.md
+      - paper: docs/202305/20230516_047.md
+  - 'no': 18
+    name: 抖音棋牌游戏直播 —— 打牌即内容、COS人设场景差异化、居家轻量化创业闭环
+    desc: 本章拆解抖音斗地主棋牌直播全链路SOP：认知建立→硬件准备→内容策划(残局挑战核心钩子+COS人设+场景搭建+互动话术)→资质获取(游戏直播权限/挂载公司链接/底薪保障)→技术执行(电脑开播流程)→行业前景判断，主张棋牌直播因游戏玩法即天然内容可虚拟人设替代真人出镜天然高互动高停留，显著降低普通人门槛形成长期稳定赛道红利。
+    nodes:
+    - 'no': 1
+      name: 棋牌直播低门槛长期主义定律与残局玩法流量自生长
+      desc: 相对娱乐直播依赖颜值才艺，棋牌直播因打牌即内容可虚拟人设物理场景替代真人出镜具备天然高互动高停留机制，显著降低准入门槛形成长期稳定红利；残局斗地主凭借悬念设定解谜参与感天然产生高互动高停留无需付费投流即可通过算法分发获取精准公域流量实现流量自生长。
+      role: theorem
+      src:
+      - paper: docs/202305/20230516_026.md
+      - paper: docs/202305/20230516_026.md
+    - 'no': 2
+      name: 残局斗地主直播形态与内容差异化制作方法论
+      desc: 以预设残局挑战为核心内容，互动率高停留时长长易做人气可不出镜，是重点推荐切入点；结合COS人设(猪八戒/孙悟空/容嬷嬷)+场景搭建放大优点弥补短板构建辨识度娱乐性，替代传统娱乐直播对颜值才艺依赖。
+      role: method
+      src:
+      - paper: docs/202305/20230516_026.md
+      - paper: docs/202305/20230516_026.md
+      - paper: docs/202305/20230516_026.md
+    - 'no': 3
+      name: 棋牌直播权限体系与底薪保障机制
+      desc: 抖音平台开展棋牌直播所需准入资质授权流程，包含游戏直播权限申请及挂载公司链接变现合作模式；MCN机构为签约主播提供固定收入保障附带时长场观等绩效要求降低前期变现不确定性。
+      role: definition
+      src:
+      - paper: docs/202305/20230516_026.md
+      - paper: docs/202305/20230516_026.md
+    - 'no': 4
+      name: 居家轻量化创业可行性公理与电脑开播技术流程
+      desc: 依托成熟MCN协作体系(提供权限链接底薪)个人仅需基础电脑设备居家环境即可启动实现‘在家即可播挂载即变现’轻量化创业闭环；PC端直播推流场景布局游戏窗口采集音频配置技术实操步骤。
+      role: method
+      src:
+      - paper: docs/202305/20230516_026.md
+      - paper: docs/202305/20230516_026.md
+    - 'no': 5
+      name: 头部玩法验证西游记三国COS赛道红海化与平台政策窗口期
+      desc: 观察头部玩家大量涌入西游记三国IP角色扮演赛道并配合付费投流获取流量，验证商业可行性但预示同质化竞争加剧；当前抖音棋牌直播算法扶持力度大优质内容可自然流分发获客不存在投流现象属于平台生态建设期红利窗口。
+      role: experiment
+      src:
+      - paper: docs/202305/20230516_026.md
+      - paper: docs/202305/20230516_026.md
+  - 'no': 19
+    name: Stable Diffusion 实操入门 —— 奶奶都能听懂的降维教学与参数复现三要素
+    desc: 本章跳过原理直达落地操作，覆盖硬件检测本地云端部署、核心三要素(大模型/提示词/LoRA)、进阶控制(ControlNet多模态/重绘/高清修复)、画质增强后期处理、模型全生命周期管理及脚本矩阵对比法，确立‘实操优先原理按需模板化降维’普及教学最优路径。
+    nodes:
+    - 'no': 1
+      name: 本地一键部署法与云端备选部署法
+      desc: 秋叶整合包解压即用：下载主包依赖包解压非C盘安装依赖启动器显存优化对齐专用GPU内存一键启动报错自动修复；低配非N卡Mac用户用青椒云GPU云平台注册实名新增AIGC尝鲜桌面启动器一键启动用后关机止损。
+      role: method
+      src:
+      - paper: docs/202305/HYrZdLBMRorB0qxKqFFcQ075nWf.md
+      - paper: docs/202305/HYrZdLBMRorB0qxKqFFcQ075nWf.md
+    - 'no': 2
+      name: 大模型决定画风与LoRA画风域强绑定论
+      desc: 大模型决定基因画风(真人二次元3D等)是起笔前必须确定的核心资产；LoRA必须与大模型画风域对齐(真人配真人二次元配二次元)跨域使用会导致画面崩坏风格割裂。
+      role: definition
+      src:
+      - paper: docs/202305/HYrZdLBMRorB0qxKqFFcQ075nWf.md
+      - paper: docs/202305/HYrZdLBMRorB0qxKqFFcQ075nWf.md
+      - paper: docs/202305/HYrZdLBMRorB0qxKqFFcQ075nWf.md
+    - 'no': 3
+      name: 提示词结构化模板法与权重语法
+      desc: 正向提示词五段式模板：质量词+主体+主体细节+服饰配饰+环境构图光影，每段换行英文逗号结尾配合权重语法(词:权重)微调；负面词万能模板含worst
+        quality/bad anatomy/bad hands/extra fingers/watermark等60+标签有效抑制多指畸形肢体画质下降水印残留高频故障。
+      role: method
+      src:
+      - paper: docs/202305/HYrZdLBMRorB0qxKqFFcQ075nWf.md
+      - paper: docs/202305/HYrZdLBMRorB0qxKqFFcQ075nWf.md
+      - paper: docs/202305/HYrZdLBMRorB0qxKqFFcQ075nWf.md
+      - paper: docs/202305/HYrZdLBMRorB0qxKqFFcQ075nWf.md
+    - 'no': 4
+      name: 随机数种子控制底层形状与参数复现三要素论
+      desc: Seed控制最底层初始噪声模式决定基础轮廓构图，值为-1时随机，固定Seed配合其余参数一致可复现同一张图；完整复现需同时满足相同大模型相同LoRA组合权重相同Seed缺一不可，PNG
+        Info/Tagger辅助获取前两者Seed需从元数据读取。
+      role: definition
+      src:
+      - paper: docs/202305/HYrZdLBMRorB0qxKqFFcQ075nWf.md
+      - paper: docs/202305/HYrZdLBMRorB0qxKqFFcQ075nWf.md
+    - 'no': 5
+      name: ControlNet多模态控制法：OpenPose姿势迁移Canny线稿上色M-LSD室内结构保持
+      desc: 统一入口(启用上传参考图预览预处理)下切换预处理器模型实现三大核心场景：OpenPose骨骼关键点精确复现参考图姿态保持面部特征；Canny反转输出颜色白底黑线转黑底白线严格遵循线稿轮廓着色细节丰富无越界；M-LSD提取几何线条切换写实大模型输入风格关键词保持墙面门窗梁柱结构不变实现家具摆放材质色调整体风格化重设计。
+      role: method
+      src:
+      - paper: docs/202305/HYrZdLBMRorB0qxKqFFcQ075nWf.md
+      - paper: docs/202305/HYrZdLBMRorB0qxKqFFcQ075nWf.md
+      - paper: docs/202305/HYrZdLBMRorB0qxKqFFcQ075nWf.md
+      - paper: docs/202305/HYrZdLBMRorB0qxKqFFcQ075nWf.md
+      - paper: docs/202305/HYrZdLBMRorB0qxKqFFcQ075nWf.md
+    - 'no': 6
+      name: 重绘幅度守恒论与局部重绘涂鸦重绘精细编辑
+      desc: 图生图重绘幅度与原图保真度负相关：<0.5微调细节0.6-0.8风格迁移保结构(二次元换装黄金区间)>0.9近似文生图；局部重绘蒙版涂抹指定区域仅对该区域重新生成保持其余不变实现换装换脸；涂鸦重绘进阶允许手绘颜色草稿指定袖子蓝色衣服粉色花纹黄色结合提示词引导生成实现像素级颜色可控。
+      role: method
+      src:
+      - paper: docs/202305/HYrZdLBMRorB0qxKqFFcQ075nWf.md
+      - paper: docs/202305/HYrZdLBMRorB0qxKqFFcQ075nWf.md
+      - paper: docs/202305/HYrZdLBMRorB0qxKqFFcQ075nWf.md
+      - paper: docs/202305/HYrZdLBMRorB0qxKqFFcQ075nWf.md
+    - 'no': 7
+      name: VAE滤镜调色板作用与高分辨率修复显存权衡
+      desc: VAE修正模型自带色彩偏灰饱和度不足推荐通用vae-ft-mse-840000；高分辨率修复两步生成先低分辨率出图再放大细节重绘解决大分辨率直出易崩坏显存不足需权衡显存开销。
+      role: definition
+      src:
+      - paper: docs/202305/HYrZdLBMRorB0qxKqFFcQ075nWf.md
+      - paper: docs/202305/HYrZdLBMRorB0qxKqFFcQ075nWf.md
+      - paper: docs/202305/HYrZdLBMRorB0qxKqFFcQ075nWf.md
+    - 'no': 8
+      name: 后期处理超分辨率模型分类与GFPGAN人脸修复专用性
+      desc: 动漫图用R-ESRGAN 4x+ Anime6B实物真人图用R-ESRGAN 4x+或GFPGAN人脸专用；实测GFPGAN强度=1可在不放大分辨率前提下显著恢复面部清晰度修复压缩伪影但非人脸区域模糊度不改善证实其为人脸域专用增强器；R-ESRGAN
+        4x+ Anime6B对二次元线条锐化色块平滑噪点去除优于通用模型为动漫图修复首选。
+      role: method
+      src:
+      - paper: docs/202305/HYrZdLBMRorB0qxKqFFcQ075nWf.md
+      - paper: docs/202305/HYrZdLBMRorB0qxKqFFcQ075nWf.md
+      - paper: docs/202305/HYrZdLBMRorB0qxKqFFcQ075nWf.md
+    - 'no': 9
+      name: 脚本矩阵对比法量化参数边际收益与模型全生命周期管理
+      desc: X/Y/Z图表对比采样器×步数网格化直观筛选最优设置，实测验证25步后质量提升边际递减不同采样器25步趋同指导低配用户定参25步高速采样器；提示词矩阵对比单词增删效果；模型管理覆盖获取C站筛选图片反推下载存放对应目录鉴别秋叶解析工具拖拽识别类型标准化流程。
+      role: method
+      src:
+      - paper: docs/202305/HYrZdLBMRorB0qxKqFFcQ075nWf.md
+      - paper: docs/202305/HYrZdLBMRorB0qxKqFFcQ075nWf.md
+      - paper: docs/202305/HYrZdLBMRorB0qxKqFFcQ075nWf.md
+      - paper: docs/202305/HYrZdLBMRorB0qxKqFFcQ075nWf.md
+    - 'no': 10
+      name: 秋叶整合包部署成功率高与原理前置即劝退论
+      desc: 遵循解压非C盘安装依赖启动器显存对齐一键启动报错自动修复流程可在满足硬件门槛消费级电脑零报错启动WebUI；教学SD若强制前置扩散模型数学原理会显著提升新手认知门槛导致流失，实操优先原理按需模板化降维是普及教学最优路径。
+      role: experiment
+      src:
+      - paper: docs/202305/HYrZdLBMRorB0qxKqFFcQ075nWf.md
+      - paper: docs/202305/HYrZdLBMRorB0qxKqFFcQ075nWf.md
+  - 'no': 20
+    name: AI公众号写作变现 —— 标题即产品AI为流水线工人、法律赛道黄金洼地
+    desc: 本章复盘月林利用AI标题预生成法配合法律领域选题，30分钟批量产出8篇爆款文章实现日均300元收益：人工筛选高点击率标题库作为Prompt指令输入GPT-4.0批量生成全文实现标题决定内容AI执行填充反向生产流程；法律赛道具备专业门槛高AI擅长检索法条标准化程度高适合模板化商业价值高流量主单价高三重属性完美契合大模型能力边界。
+    nodes:
+    - 'no': 1
+      name: AI标题预生成法核心原理与人工起吸引力大标题法
+      desc: 先人工筛选高点击率标题爆款标题库再将标题作为Prompt指令输入AI批量生成全文，实现标题决定内容AI执行填充反向生产流程大幅降低写作门槛保证爆款率；爆款标题手工打磨：不依赖AI起标题而是人工分析爆款标题库提炼蹭热度案例制造认知反差精准痛点关键词三要素产出高CTR标题作为后续AI生成核心指令。
+      role: method
+      src:
+      - paper: docs/202305/20230516_081.md
+      - paper: docs/202305/20230516_081.md
+    - 'no': 2
+      name: 法律文章套路模板化生产与双账号矩阵并行操作
+      desc: 法律爆款文结构标准化为四段式固定模板：真实案情引入核心法条精准引用法院判决结果还原律师实操避坑建议，AI生成内容只需填充模板槽位保证专业度完读率；同时运营两个GPT-4.0账号配合两个公众号账号左右开弓并行化内容生产分发单人日产8篇爆款文物理基础。
+      role: method
+      src:
+      - paper: docs/202305/20230516_081.md
+      - paper: docs/202305/20230516_081.md
+    - 'no': 3
+      name: 标题即产品AI仅为流水线工人定律与法律赛道黄金洼地论断
+      desc: 标题质量决定文章上限点击率推荐量AI只负责标题框架内填充合格内容，人工把控标题库质量AI执行标准化生产是普通人实现低门槛高产出稳收益唯一可行路径；法律内容具备专业门槛高AI擅长检索法条标准化程度高适合模板化商业价值高流量主单价高三重属性完美契合大模型能力边界是新手切入AI写作变现最优解。
+      role: theorem
+      src:
+      - paper: docs/202305/20230516_081.md
+      - paper: docs/202305/20230516_081.md
+    - 'no': 4
+      name: 单人日产8篇爆款文实测产能与日均300元流量主收益稳定性验证
+      desc: 双GPT-4.0并行配合标题预生成法模板化流程单人30分钟完成8篇1200字法律文章生产润色发布物理疲劳度极低；运营6个多月接触AI写作3个月后推荐流量稳定日收益300元不等拥有10W+爆款记录验证SOP可复制性收益下限。
+      role: experiment
+      src:
+      - paper: docs/202305/20230516_081.md
+      - paper: docs/202305/20230516_081.md
+    - 'no': 5
+      name: 个体户执照注册公众号推流受限的社群共识
+      desc: 评论区多用户反馈讨论使用个体工商户营业执照注册公众号存在不给推流入池或推流效果显著差于个人主体风险，建议新手优先用个人身份证注册。
+      role: limitation
+      src:
+      - paper: docs/202305/20230516_081.md
+  - 'no': 21
+    name: 短剧CPS项目实操 —— 小说推文经验迁移、解说模式降维打击与AI批量化生产
+    desc: 本章复盘惟乔首月1.4万收益实战：利用小说推文经验迁移切入短剧CPS蓝海期(部分剧方100%首充分成)，核心三要素选剧定生死剪辑过原创发布养号；创新解说类短剧视频降低剪辑节奏感要求适合无经验新手更易过原创校验；ChatGPT写文案剪映TTS配音剪映模板智能剪辑实现单人日更10条+批量化流水线；避坑授权辨别账号环境去重标准数据复盘四大清单。
+    nodes:
+    - 'no': 1
+      name: 短剧CPS模式与小说推文迁移同构性
+      desc: 短剧分销推广模式：剪辑片段挂载小程序链接用户充值分成佣金，蓝海期部分剧方给100%首充分成；两项目在内容分发变现模式上同构，利用选品逻辑剪辑套路账号运营经验迁移降低学习成本。
+      role: definition
+      src:
+      - paper: docs/202305/20230516_084.md
+      - paper: docs/202305/20230516_084.md
+    - 'no': 2
+      name: 行动先于完美计划与蓝海期红利捕获窗口
+      desc: 新项目认知不确定性高时下场实操是获取真实反馈打破自我设限唯一路径；平台剧方早期给高额佣金宽松审核是普通新手低成本试错快速正反馈最佳窗口需快下场快迭代快规模。
+      role: motivation
+      src:
+      - paper: docs/202305/20230516_084.md
+      - paper: docs/202305/20230516_084.md
+    - 'no': 3
+      name: 选品决定上限执行决定下限与解说模式新手护城河
+      desc: 剧集自带流量属性题材节奏爽点决定流量天花板选剧定生死，剪辑去重文案钩子发布坚持等执行细节决定最低可行性收益；解说模式通过原创音频二创剪辑更易过原创校验将剪辑技巧门槛转移为文案逻辑门槛可由AI大幅辅助显著降低新手入门门槛。
+      role: theorem
+      src:
+      - paper: docs/202305/20230516_084.md
+      - paper: docs/202305/20230516_084.md
+    - 'no': 4
+      name: 新手解说模式上手四步走与AI批量化生产SOP
+      desc: 选爆款高佣剧→ChatGPT按公式生成分集解说文案(输入剧情梗概输出口语化脚本)→剪映文本朗读外部TTS生成音频→导入剪映智能匹配素材手动按文案切点配剧情片段套用模板出片；建立选题表文案提示词库配音预设剪辑模板库发布清单标准化资产库单条制作压缩至15-20分钟批量导入素材批量喂AI生成10条文案批量合成语音剪映一键成片模板批量替换多账号矩阵定时发布。
+      role: method
+      src:
+      - paper: docs/202305/20230516_084.md
+      - paper: docs/202305/20230516_084.md
+    - 'no': 5
+      name: 核心三要素筛选法与避坑检查清单
+      desc: 选剧维度看佣金比例题材受众匹配素材获取难易；剪辑维度执行剧情剪辑基本公式(前3秒钩子冲突悬念高潮→剧情铺垫→高潮反转→引导下小程序)做好去重处理(镜像调色抽帧加特效)；发布维度一机一号养号定时发布关键词SEO置顶评论引导；避坑：授权只认官方大服务商警惕收费授权二手授权扣量陷阱，账号环境实名一机一号新号刷同城垂类3-5天再发，去重彻底MD5修改镜像翻转调色抽帧加贴纸字幕边框，数据复盘关注完播率点赞转发跳转率数据差先优化前3秒钩子和CTA引导。
+      role: method
+      src:
+      - paper: docs/202305/20230516_084.md
+      - paper: docs/202305/20230516_084.md
+      - paper: docs/202305/20230516_084.md
+    - 'no': 6
+      name: 首月1.4万收益验证与小说推文经验正向迁移
+      desc: 普通社群成员无专业视频背景入场首月实操短剧CPS实现1.4万佣金验证新手解说模式AI工具蓝海期组合拳可行性；背靠小说推文经验快速识别相通之处缩短冷启动周期印证同构业务经验迁移高效性。
+      role: experiment
+      src:
+      - paper: docs/202305/20230516_084.md
+      - paper: docs/202305/20230516_084.md
+    - 'no': 7
+      name: 社群精华帖作为隐性导师与一机一号非绝对硬性约束
+      desc: 明确提及生财精华贴非常有帮助表明高质量社群知识库对新手构建认知框架规避基础错误有显著替代传统导师作用；实测回复最好一机一号也没限那么死平台风控存在灰度空间设备指纹隔离核心非物理设备绝对隔离降低硬件成本焦虑。
+      role: experiment
+      src:
+      - paper: docs/202305/20230516_084.md
+      - paper: docs/202305/20230516_084.md
+  - 'no': 22
+    name: 小红书探店本地生活 —— 探照灯计划红利窗口、女性消费主导溢价与达人商家双边网络飞轮
+    desc: 本章阐述小红书探照灯计划作为本地生活新风口的核心机会：2亿月活高质量女性用户强种草属性补齐团购交易闭环形成差异化优势；基于抖音团购经验复用提出达人探店带货与商家服务商双轨切入策略，拆解爆款探店内容生产三板斧(直拍实拍/对标二剪/图文成片)、女性导向赛道选品定向法(美容美甲咖啡下午茶日咖夜酒)、商家入驻地推服务标准化流程，构建达人联盟商家联盟双边网络飞轮。
+    nodes:
+    - 'no': 1
+      name: 平台红利窗口期理论与女性消费主导本地生活溢价定律
+      desc: 平台战略切入新赛道初期投入千万级流量扶持此时入局边际成本最低流量获取最易商业闭环建立最快是普通人阶层跃迁稀缺窗口；女性用户18-35岁高质量具备更高消费意愿感性决策偏好颜值溢价接受度，精准承接该群体团购客单价转化率显著高于泛流量平台。
+      role: motivation
+      src:
+      - paper: docs/202305/20230516_035.md
+      - paper: docs/202305/20230516_035.md
+    - 'no': 2
+      name: 小红书探照灯计划与城市侦探员达人角色
+      desc: 官方本地生活推广计划：博主图文视频种草引流连接线下商家团购券核销打通种草拔草交易闭环；零粉丝门槛专属链接报名参与直接成为城市侦探员达人，是普通人入局核心身份。
+      role: definition
+      src:
+      - paper: docs/202305/20230516_035.md
+      - paper: docs/202305/20230516_035.md
+    - 'no': 3
+      name: 种草型团购转化差异化优势
+      desc: 区别于抖音直播短视频直接带货模式，小红书依托强种草属性通过高颜值图文视频激发女性用户感性消费实现更高客单价精准转化，团购种草意味着更精准转化更高客单价(小红书东西更贵女人感性颜值消费型生物)。
+      role: method
+      src:
+      - paper: docs/202305/20230516_035.md
+    - 'no': 4
+      name: 爆款探店内容生产三板斧与女性导向赛道选品定向法
+      desc: 零基础新手SOP：直拍实拍法(门头环境特写夸张文案)、对标二剪法(竞品内容二次剪辑去重)、图文成片法(剪映模板批量产出)；基于女性用户画像锁定美容美甲咖啡下午茶小吃露营日咖夜酒等高颜值高客单强社交属性细分品类规避泛美食赛道竞争，实测流量曝光转化明显高于其他方向。
+      role: method
+      src:
+      - paper: docs/202305/20230516_035.md
+      - paper: docs/202305/20230516_035.md
+      - paper: docs/202305/20230516_035.md
+    - 'no': 5
+      name: 商家入驻地推服务标准化流程与达人商家双边网络效应飞轮
+      desc: 针对缺乏互联网基因线下商家提供入驻开通账号代运营培训达人资源对接全链路服务参考抖音本地生活服务商成熟模式快速复制变现；达人聚拢工作室联盟增强议价权获高佣吸引优质商家入驻投放广告任务反哺达人收益成长形成供给端需求端相互强化正向循环。
+      role: method
+      src:
+      - paper: docs/202305/20230516_035.md
+      - paper: docs/202305/20230516_035.md
+    - 'no': 6
+      name: 实测账号跑通验证与零粉起号可行性确认
+      desc: 团队复用抖音团购经验调整小红书探店账号推广方向实测效果非常不错附带后台数据截图佐证美食赛道可行性；官方政策确认达人准入无粉丝量要求仅需专属链接报名降低入局门槛。
+      role: experiment
+      src:
+      - paper: docs/202305/20230516_035.md
+      - paper: docs/202305/20230516_035.md
+    - 'no': 7
+      name: 品牌连锁资源谈判杠杆与全国门店联动规模化路径
+      desc: 拥有全国达人社群资源可反向谈下楠火锅小龙坎等头部品牌连锁商家资源，实现一家品牌拿下全国门店联动的规模化收益放大路径。
+      role: extension
+      src:
+      - paper: docs/202305/20230516_035.md
+  - 'no': 23
+    name: 视频号生态内导流公众号 —— 共情文案卡点剪辑、混剪去重与微信指数权重联动
+    desc: 本章复盘辰风半个月10W+浏览量高效导流公众号全流程：利用视频号公众号同属微信生态可直接绑定跳转无第三方流失高转化率的平台优势；情感文案共情击中25-30岁深夜emo人群痛点配合音乐卡点剪辑(自动长短间隔/手动外部音乐)构建爆款核心；对标抖音视频号万赞爆款文案音频直接复用搬运利用爆款相似性降低选题风险；剪映混剪去重标准化流程(多素材3-4段15-18秒卡点转场BGM边框背景)；视频号绑定公众号同一管理员实现互通原文链接跳转文章微信指数互通提升账号权重。
+    nodes:
+    - 'no': 1
+      name: 生态内导流优于跨平台导流定律与微信指数权重联动
+      desc: 微信生态内视频号到公众号导流因无第三方跳转阻碍平台默许链路短转化率高转化效果好是私域获客性价比最高路径；视频号内容发布与公众号内容互通共同作用于微信指数排名视频号运营可反哺提升公众号搜索权重账号整体权重。
+      role: theorem
+      src:
+      - paper: docs/202305/20230516_078.md
+      - paper: docs/202305/20230516_078.md
+    - 'no': 2
+      name: 共情型文案与卡点剪辑构建爆款核心
+      desc: 精准击中目标人群情绪痛点引发强共鸣促使转发关注的文案类型配合将画面切换特效变化与背景音乐节奏点严格对齐的卡点剪辑技法(自动卡点长短间隔手动卡点外部音乐)是情感类视频号核心竞争力。
+      role: method
+      src:
+      - paper: docs/202305/20230516_078.md
+      - paper: docs/202305/20230516_078.md
+    - 'no': 3
+      name: 爆款跨平台复用公理与爆款文案挖掘迁移法
+      desc: 优质内容具备跨平台迁移性抖音验证过万赞爆款文案音频迁移视频号经二次加工大概率仍具爆款潜质大幅降低选题试错成本；关键词检索抖音视频号高赞爆款文案按目标用户画像筛选直接复用微调文案及配套音频。
+      role: method
+      src:
+      - paper: docs/202305/20230516_078.md
+      - paper: docs/202305/20230516_078.md
+    - 'no': 4
+      name: 剪映卡点混剪标准化流程与多源素材获取去水印工具链
+      desc: 素材去水印下载导入剪映按比例3-4段15-18秒排序选用抖音自带音乐收藏外部音乐设置自动手动卡点对齐转场添加字幕配音边框背景导出压缩包上传规避压缩；聊天记录图源微博截图短视频源微信小程序去水印录屏格式工厂转码长视频源B站下载器多平台分发推兔统一账号人设搭建。
+      role: method
+      src:
+      - paper: docs/202305/20230516_078.md
+      - paper: docs/202305/20230516_078.md
+    - 'no': 5
+      name: 视频号公众号绑定导流技术方案与聊天记录截图卡点音乐形态验证
+      desc: 前置条件同一管理员注册绑定后台关联发布时植入关注公众号图片引导设置原文链接跳转文章利用微信指数互通提升权重；观察对标账号仅发少量视频形式简单聊天记录截图核心靠文案共情音乐转场卡点即获高赞验证轻素材重文案音乐形态可行性。
+      role: method
+      src:
+      - paper: docs/202305/20230516_078.md
+      - paper: docs/202305/20230516_078.md
+    - 'no': 6
+      name: 半个月起号10W+实测案例与视频号广告分成计划变现确认
+      desc: 遵循方法论半个月内达10W+浏览量成功导流公众号验证流程有效性；宣称视频号推出类似流量主广告分成计划可直接变现但暂未找到具体分成规则细节。
+      role: experiment
+      src:
+      - paper: docs/202305/20230516_078.md
+      - paper: docs/202305/20230516_078.md
+    - 'no': 7
+      name: 低门槛混剪原创化门槛论与微信传输压缩画质规避方案
+      desc: 制作门槛低剪映小白可上手但做好门槛高需海量素材筛选卡点设计转场打磨核心竞争力在于用心模仿爆款细节耐心打磨音画同步而非单纯工具操作；实测微信传输压缩画质需打包压缩包经电脑端上传保证清晰度QQ传输不压缩但速度慢需寻找更优工具。
+      role: limitation
+      src:
+      - paper: docs/202305/20230516_078.md
+      - paper: docs/202305/20230516_078.md
+  - 'no': 24
+    name: 公众号矩阵引流与IP化放大 —— 站内外四大玩法、找车上车成本控制、引流沉淀双轮驱动
+    desc: 本章系统梳理辰风一年运营5.6万/2.6万粉账号单日涨粉过万经验：站内征稿函/人设互推/抽奖联动/多平台投放四大玩法，站外全平台同名分发导流，矩阵账号五象限定位(情感/两性/IP/情绪/成长)实现流量最大化风险对冲；核心主张公众号高度闭塞必须依赖外部流量打通，引流与内容沉淀并重，通过博主筛选话术沟通视频制作钩子设计标准化SOP实现低成本高转化获客。
+    nodes:
+    - 'no': 1
+      name: 公众号增长必需外部流量论与引流沉淀双轮驱动论
+      desc: 公众号机制决定高度闭塞单靠内部推荐无法规模化冷启动必须主动站内互推站外投放多平台分发引入外部流量；单纯引流不维护用户(无内容促活无社群运营无朋友圈建设)导致粉丝流失低活跃，只有拉新引流与留存沉淀(内容社群私信)同步进行才能形成可变现资产。
+      role: motivation
+      src:
+      - paper: docs/202305/20230516_080.md
+      - paper: docs/202305/20230516_080.md
+    - 'no': 2
+      name: 征稿函引流玩法与违规风险预警
+      desc: 利用投稿赚稿费利益诱饵在征稿号情感号副业号投放吸引精准用户，征稿号副业号效果最好钱相关吸引力强；但近期平台监管趋势存在违规风险建议暂停操作反映打击力度加大可持续性存疑。
+      role: method
+      src:
+      - paper: docs/202305/20230516_080.md
+      - paper: docs/202305/20230516_080.md
+    - 'no': 3
+      name: 人设互推与矩阵抽奖联动实战数据
+      desc: 同量级同定位IP账号撰写人设软文植入名片福利钩子(关键词领奖)实现粉丝互导信任背书零成本引流；元宵节三个矩阵账号联动抽奖成本<100元实现大号涨粉2000+中号1000+小号800+累计调动4000+用户参与同步关键词回复沉淀社群。
+      role: method
+      src:
+      - paper: docs/202305/20230516_080.md
+      - paper: docs/202305/20230516_080.md
+      - paper: docs/202305/20230516_080.md
+    - 'no': 4
+      name: 抖音博主投放SOP与爆款投放视频制作法
+      desc: 以投稿赚稿费切入角度规避敏感词灰色地带：搜投稿平台关键词找号筛选粉丝1k-5w近期平均点赞评论几百私信谈合作话术促单定制爆款视频脚本发布转化；视频创作模仿博主历史爆款风格准备多套脚本备选不强求口播核心目标原生感最大化博取算法推荐用户信任。
+      role: method
+      src:
+      - paper: docs/202305/20230516_080.md
+      - paper: docs/202305/20230516_080.md
+      - paper: docs/202305/20230516_080.md
+    - 'no': 5
+      name: 投放切入点伪装论与全平台同名分发
+      desc: 严控导流环境下直接硬广极易违规封号必须将推广意图伪装为投稿征稿兼职副业福利分享等用户刚需场景以利他外壳包裹利己核心实现合规边缘高转化获客；小红书抖音头条微博注册统一ID头像将原创内容改编分发通过放钩子福利诱饵引导回流私域实现单次内容生产多次曝光品牌认知叠加。
+      role: method
+      src:
+      - paper: docs/202305/20230516_080.md
+      - paper: docs/202305/20230516_080.md
+    - 'no': 6
+      name: 矩阵账号定位五象限与运营分工模型
+      desc: 情感号美文故事/两性号女性相关热点挂钩/IP号人设赚钱为主/情绪号情绪宣泄内容为王/成长号思维认知破圈成长五大类型差异化定位覆盖不同用户心智实现流量最大化变现多元化；核心人负责定位把控搭建框架方向决策执行层助理代运营作者负责内容生产日常运维，前提已跑通单账号模型再复制放大避免无基础盲目铺开内耗。
+      role: method
+      src:
+      - paper: docs/202305/20230516_080.md
+      - paper: docs/202305/20230516_080.md
+    - 'no': 7
+      name: 矩阵化复制放大商业价值论与抖音单条爆款广告引流万粉案例
+      desc: 矩阵核心价值非账号数量而是流量内部循环最大化大带小单广位多账号售卖提高广告单价运营SOP标准化复制降低边际成本分散封号风险保障资产安全；宣称去年凭借一条爆款抖音广告三天吸引1万+用户关注验证多平台投放引流比抽奖更暴力。
+      role: theorem
+      src:
+      - paper: docs/202305/20230516_080.md
+      - paper: docs/202305/20230516_080.md
+    - 'no': 8
+      name: 抽奖玩法泛粉暴力引流现象与博主投放合作话术有效性
+      desc: 观察市场存在专门抽奖做泛粉暴力引流账号涨粉迅猛伴随高封号风险建议出现玩法快跟进小号操作考虑风险投机策略；实测商务合作投稿切入长期复投承诺话术体系有效降低博主戒备心解决嫌麻烦不好说话痛点建立高效合作关系非理论推演。
+      role: experiment
+      src:
+      - paper: docs/202305/20230516_080.md
+      - paper: docs/202305/20230516_080.md
+    - 'no': 9
+      name: 公私域流量闭环与引流钩子设计落地页构建
+      desc: 视频号抖音公域流量引入公众号私域内容池再沉淀个人微信社群强关系私域最终通过产品商业变现完整链路；内容曝光钩子吸引关键词触发自动回复进群人工社群运营自动化转化链路。
+      role: method
+      src:
+      - paper: docs/202305/20230516_080.md
+      - paper: docs/202305/20230516_080.md
+  - 'no': 25
+    name: 小红书学习资料引流变现 —— 后端朋友圈打造与全周期成交话术库
+    desc: 本章复盘作者4年副业经验通过优化后端朋友圈与成交话术两大杠杆在低客单价高竞争网盘资料赛道实现月入5万+：朋友圈IP人设信任构建法(真实生活碎片工作证明收益截图客户好评资料目录)分层异议处理话术流程(共情认同价值锚定社会背书限时限量闭环引导下单)朋友圈营销节奏发布策略(频次时间段内容比例3:3:2:2置顶分组可见评论区互动)，将标准化资料产品通过精细化私域运营实现高溢价变现。
+    nodes:
+    - 'no': 1
+      name: 后端转化决定上限定律与虚拟产品信任溢价原理
+      desc: 前端流量获取同质化成本上升红海赛道中后端私域运营能力(朋友圈成交力话术转化率)是决定变现上限核心变量而非前端引流技巧；虚拟资料边际成本零定价权完全取决于买家对结果确定性信任度，通过朋友圈系统性展示真人真事交付证明好评将隐性信任转化显性溢价。
+      role: theorem
+      src:
+      - paper: docs/202305/20230516_029.md
+      - paper: docs/202305/20230516_029.md
+    - 'no': 2
+      name: 话术标准化复制规模化公理与全周期私域运营体系
+      desc: 将非标准化的1v1销售沟通沉淀为标准化话术库(SOP)可实现销售动作低成本复制新人快速上手转化率稳定可控是个人IP规模化变现前提；整体方法论：前端小红书精准引流种子用户导入私域微信中端话术即时响应异议处理建立信任后端朋友圈系统性展示价值闭环成交售后服务促进复购裂变。
+      role: method
+      src:
+      - paper: docs/202305/20230516_029.md
+      - paper: docs/202305/20230516_029.md
+    - 'no': 3
+      name: 朋友圈IP人设信任构建法与分层异议处理话术流程
+      desc: 发布真实生活碎片工作证明收益截图客户好评资料目录构建靠谱专业真实人设消除虚拟资源交易信任壁垒；针对贵不贵有没有免费的怕被骗要不要试用等高频异议预设标准化应答逻辑：共情认同价值锚定社会背书限时限量闭环引导下单。
+      role: method
+      src:
+      - paper: docs/202305/20230516_029.md
+      - paper: docs/202305/20230516_029.md
+    - 'no': 4
+      name: 朋友圈营销节奏发布策略与杀出重围差异化策略
+      desc: 规划发布频次时间段黄金时段内容比例人设价值成交互动3:3:2:2置顶分组可见评论区互动引导打造高转化朋友圈；同质化资料赛道不卷前端获客(笔记SEO)而卷后端转化(朋友圈话术服务)构建竞争壁垒。
+      role: method
+      src:
+      - paper: docs/202305/20230516_029.md
+      - paper: docs/202305/20230516_029.md
+    - 'no': 5
+      name: 月入5万+实战验证与飞书文档完整SOP交付物
+      desc: 移动公司项目管理主业者副业操盘小红书资料引流4年通过后端朋友圈话术体系实测月入5万+验证低客单价虚拟资源高变现可行性；飞书文档完整公开话术模板朋友圈布局细节引流操作步骤全套执行手册评论区反馈话术模板都贴了太细致佐证可落地性。
+      role: experiment
+      src:
+      - paper: docs/202305/20230516_029.md
+      - paper: docs/202305/20230516_029.md
+    - 'no': 6
+      name: 版权风险与货源渠道外部关注点
+      desc: 评论区用户关注资料来源渠道如何避免版权问题揭示该模式规模化推广时面临核心合规风险与供应链稳定性挑战提示后端运营之外隐性门槛。
+      role: limitation
+      src:
+      - paper: docs/202305/20230516_029.md
+  - 'no': 26
+    name: 社群杠杆与个人IP资产化 —— 从打工思维到操盘手的跃迁路径
+    desc: 本章综合叁斤、漫漫等案例，阐述高质量付费社群作为认知跃迁加速器的核心价值：提供元认知与异质知识库实现降维打击，加速从打工者向操盘手知识服务商身份转型；将项目经验资产化为个人IP(课程咨询社群文档)构建复制边际成本为零产品矩阵作为抗风险可规模化长期财富载体；社群首帖加精带来的IP冷启动最小闭环高效性。
+    nodes:
+    - 'no': 1
+      name: IP资产化优于项目收益论与个人IP杠杆化
+      desc: 单一项目收益受平台规则市场周期波动大上限受限；将经验资产化为个人IP构建复制边际成本为零产品矩阵是抗风险可规模化估值更高长期财富载体；基于纳瓦尔宝典三种杠杆理论将个人IP定义为第三种杠杆通过公众号引流文档付费课程陪跑服务等数字化资产实现睡后收入。
+      role: theorem
+      src:
+      - paper: docs/202305/RaMIdAe9aoB1XcxwSRocx2mmnad.md
+      - paper: docs/202305/RaMIdAe9aoB1XcxwSRocx2mmnad.md
+    - 'no': 2
+      name: 社群作为认知跃迁加速器与跨项目思维迁移
+      desc: 社群核心价值非提供项目而是提供元认知异质知识库，系统性吸收跨领域验证底层逻辑实现认知维度降维打击避免在低维度内耗加速身份转型；将AI引流电商等项目逻辑迁移应用到核心赛道课程研发项目实操中实现经验复用降维打击。
+      role: method
+      src:
+      - paper: docs/202305/RaMIdAe9aoB1XcxwSRocx2mmnad.md
+      - paper: docs/202305/RaMIdAe9aoB1XcxwSRocx2mmnad.md
+    - 'no': 3
+      name: 引流文档资产化与社群增值型加入产出策略
+      desc: 将碎片化运营经验标准化为可交付数字化引流产品(PDF文档)作为个人IP钩子与信任前置低成本获取精准种子用户转化高客单价课程学员；体验券试水识别思维迁移IP背书双重价值付费加入系统吸收精华帖输出高质量复盘帖建立人设首帖获精华加精将社群知识内化为自有课程体系利用社群资源寻找合伙人合作项目。
+      role: method
+      src:
+      - paper: docs/202305/RaMIdAe9aoB1XcxwSRocx2mmnad.md
+      - paper: docs/202305/RaMIdAe9aoB1XcxwSRocx2mmnad.md
+    - 'no': 4
+      name: 社群首帖加精带来IP冷启动效果与向优秀学习协同氛围
+      desc: 首帖小红书引流逻辑套路拆解获得圈友广泛认可加精成功建立小红书运营专家人设标签直接带来粉丝增长私域引流潜在合作机会验证高质量输出精准社群作为IP冷启动最小闭环高效性；漫漫32万粉复盘帖获得老船长李阳梁靠谱等核心成员高度认可形成先评后看向优秀学习协同学习氛围验证复盘内容圈层内参考价值。
+      role: experiment
+      src:
+      - paper: docs/202305/RaMIdAe9aoB1XcxwSRocx2mmnad.md
+      - paper: docs/202305/WX87d3F4SoVZLHxDNGzcDDVRn6R.md
+  - 'no': 27
+    name: 视频号短视频带货矩阵化实操 —— 身份证合规搭建、物理隔离硬件方案、测品爆款放大与供应链熔断机制
+    desc: 本章复盘东哥从兼职到全职、从单号到20+账号矩阵、累计收益4万+的全过程：深度拆解视频号银发女性高客单画像、一证五号身份证矩阵合规模型、安卓手机双开物理隔离与集中管理硬件方案、测品-爆款-放大三阶段数据驱动决策法、爆款定制链接与SKU阶梯定价策略、短视频引流+直播承接转化模型、店铺体验分风控红线(4.2分/4分生死线)与偏远地区不发货设置、家庭支持解锁身份证红利作为放大物理前提、供应链响应速度决定爆款变现上限、流程化标准化是收益复利唯一路径。
+    nodes:
+    - 'no': 1
+      name: 视频号用户画像：银发女性高客单决策
+      desc: 视频号带货核心流量池特征：女性占比≥85%、50岁以上占比≥80%，决定选品必须聚焦养生、保暖、家居等中老年高频刚需品类。
+      role: definition
+      src:
+      - paper: docs/202305/20230516_024.md
+    - 'no': 2
+      name: 身份证账号矩阵合规模型
+      desc: 基于微信实名规则(一证五号)设计的账号隔离与授权体系：主号(A1)绑定运营者管理子号(A2-A5)，同绑一张银行卡，物理隔离不同人员账号组(A/B/C组)，规避关联封禁风险。
+      role: method
+      src:
+      - paper: docs/202305/20230516_024.md
+    - 'no': 3
+      name: 多账号物理隔离与集中管理硬件方案
+      desc: 单人运营20+账号的硬件基建：安卓手机双开(1机10号)，推荐红米Note 11T 8+128G(~1700元)保障流畅度；账号编号体系(A1-A5)+笔记本手写台账+定期拨打电话保号，实现低成本、高安全的矩阵管理。
+      role: method
+      src:
+      - paper: docs/202305/20230516_024.md
+    - 'no': 4
+      name: 测品-爆款-放大三阶段数据驱动决策法
+      desc: 阶段1：多账号测不同品，视频挂2-3链接，半天看流量；阶段2：出单后即刻电话/留言催发货(2天内发货红线)，监控退款率；阶段3：发现爆款后，多号同发同款引流单店，定制链接/SKU，短视频引流+直播转化，速战速决。
+      role: method
+      src:
+      - paper: docs/202305/20230516_024.md
+    - 'no': 5
+      name: 爆款定制链接与SKU阶梯定价策略
+      desc: 针对爆款商品向商家定制专属链接(主图/SKU/详情/价格可控)，采用‘1份29.9，2份49.9’阶梯价及多规格组合(单罐/多罐/套装)提升客单价与转化率，解决SKU过多导致的决策瘫痪。
+      role: method
+      src:
+      - paper: docs/202305/20230516_024.md
+    - 'no': 6
+      name: 短视频引流+直播承接转化模型
+      desc: 流量分层运营策略：短视频负责低成本获取公域流量爆发，直播间承接高意向流量提升转化率；爆款视频利用3个置顶位(左1>中>右1)权重递减特性动态调序，配合橱窗活动标题引导下单。
+      role: method
+      src:
+      - paper: docs/202305/20230516_024.md
+    - 'no': 7
+      name: 店铺体验分风控红线与偏远地区不发货设置
+      desc: 视频号店铺三大体验分(商品/服务/物流)生存阈值：新店初始4.5分，低于4分触发隐藏下架，合作门槛建议≥4.2分。物流分易因偏远地区发货纠纷拉低，需预设不发货区域规避。
+      role: limitation
+      src:
+      - paper: docs/202305/20230516_024.md
+    - 'no': 8
+      name: 橱窗商品动态排序与长尾搭配运营法
+      desc: 橱窗顶部保留2-3个爆款供选择；叠加高客单(≥30元)、高佣(≥30%)、高销量(>100单)的畅销品作为长尾补充，利用爆款流量溢出带动长尾成交，最大化单用户价值。
+      role: method
+      src:
+      - paper: docs/202305/20230516_024.md
+    - 'no': 9
+      name: 执行力与坚持是跑通0-1的必要条件
+      desc: 在不确定性极强的带货初期，唯有完成完整航海周期、耐过‘无数据’焦虑期、持续复盘迭代，才能触发概率性的爆发节点；方向确定后，需在同一项目多次参加航海，借力群体动能突破。
+      role: proof
+      src:
+      - paper: docs/202305/20230516_024.md
+    - 'no': 10
+      name: 家庭支持是放大规模的关键杠杆
+      desc: 账号矩阵扩张受限于实名主体(身份证/银行卡)，家人的理解与配合(如母亲克服晕车去县城办卡)能解锁‘身份证红利’，将单人上限(5号)突破为家庭矩阵(20+号)，是收益从万级向十万级跃迁的物理前提。
+      role: proof
+      src:
+      - paper: docs/202305/20230516_024.md
+    - 'no': 11
+      name: 供应链响应速度决定爆款变现上限
+      desc: 爆发期内，发货时效是核心变量：48小时内发货是物流分红线，延迟3-5天必引发退款；店铺沟通不畅(私信/电话无回应)会导致‘到手鸭子飞了’(案例中损失数千佣金)。必须建立‘多店铺备选+即时催单+动态切换’的供应链熔断机制。
+      role: proof
+      src:
+      - paper: docs/202305/20230516_024.md
+    - 'no': 12
+      name: 流程化标准化是普通人实现收益复利的唯一路径
+      desc: 将带货拆解为‘发视频、上架、看数据、管店铺、催发货’五大标准动作，通过账号编号、硬件标配、SOP文档化，使‘赚钱的事多做十遍’成为可执行的工程问题，而非依赖运气的赌博。
+      role: theorem
+      src:
+      - paper: docs/202305/20230516_024.md
+    - 'no': 13
+      name: 航海机制对个体坚持的外部约束与正向激励作用
+      desc: 作者参与4次视频号航海(6/8/12月、2月)，仅12月完整跑完并爆发。航海提供‘手册+教练演示+圈友互助+截止日期’的外部结构，将模糊意愿转化为确定性行动。6月跟随郭晓文教练实操出首单800元，12月坚持完周期迎来拐点。
+      role: experiment
+      src:
+      - paper: docs/202305/20230516_024.md
+    - 'no': 14
+      name: 单账号爆发案例：冬季羽绒服/湿巾/茶壶/养生茶/舅舅账号新品
+      desc: 素材记录了5个具体爆款周期的实证数据：1)12月羽绒服/湿巾：单账号400单、佣金3000+，持续月底；2)1月茶壶：80-200元、佣金45%，次日出30单，后持续1.5月、单账号6800元(但因供应链损失数千)；3)3月养生茶：70+单、佣金2300+，定制5
+        SKU阶梯价验证提客单；4)2月舅舅账号：首日10万+播放、销售额8800，持续2月、佣金12000+；5)父母账号合计佣金20000+。验证了‘测品-爆款-放大’路径的可复制性。
+      role: experiment
+      src:
+      - paper: docs/202305/20230516_024.md
+    - 'no': 15
+      name: 供应链失联导致的实发率崩塌与利润流失
+      desc: 茶壶爆款期(30+单)因店铺失联导致实发率仅1/3，虽紧急切换5-6家备选店铺，仍因发货延迟、疫情退货造成数千元佣金实发损失。证明‘催发货’优先级高于‘发视频’，且单一供应链依赖风险极高。
+      role: experiment
+      src:
+      - paper: docs/202305/20230516_024.md
+    - 'no': 16
+      name: 店铺体验分低于4分触发平台隐形惩罚验证
+      desc: 作者亲历2-3款产品因合作店铺分数过低被平台下架/隐藏，导致爆款流量无法转化、佣金直接归零。验证了‘店铺分≥4.2’为硬性准入指标，且物流分易因偏远地区发货纠纷被拖累。
+      role: experiment
+      src:
+      - paper: docs/202305/20230516_024.md
+    - 'no': 17
+      name: 账号管理混乱的低成本物理解决方案
+      desc: 圈友反馈‘6个号忘记哪个手机是哪个号’，作者给出‘贴纸标记手机背面+电子表格台账+流水式编号A1-A5’的组合拳管理法，经实践验证可支撑20+账号单人高效运营。
+      role: claim
+      src:
+      - paper: docs/202305/20230516_024.md
+  - 'no': 28
+    name: 小红书带货矩阵化概率论 —— 博概率核心逻辑、单品打爆SOP、ROI分级投放与跟品策略
+    desc: 本章系统揭示小红书电商‘博概率’本质：单条笔记爆发具有高度不确定性，成功依赖矩阵账号增加试错次数捕捉低概率事件。核心拆解：账号矩阵组织形式、单品打爆标准化流程(测款-挂车-直播-投流组合拳)、ROI投放避坑指南、直播营销红利窗口、选品策略从‘选’转‘跟’的实操路径、付费培训避雷及平台红利期门槛优势判断，为中小商家提供低门槛、可复制的矩阵化操作范式。
+    nodes:
+    - 'no': 1
+      name: 博概率核心定律：单账号方差极大矩阵化将概率转确定性
+      desc: 小红书带货与抖音/视频号同构，核心变量非内容质量单一维度，而是‘曝光概率分布’的尾部捕获。单账号方差极大，唯有矩阵化(N账号×M内容)将概率问题转化为大数定律确定性收益。焦虑单号不爆是认知偏差，30条笔记止损线是理性决策边界。
+      role: theorem
+      src:
+      - paper: docs/202305/20230516_028.md
+    - 'no': 2
+      name: 账号矩阵组织形式与单号30条笔记止损阈值
+      desc: 为应对‘博概率’机制采取的批量化运营策略：注册/养成多个账号同步发布内容，以概率换确定性。建议单号发布30条笔记无进展则注销重来，实现快速试错与资源止损。
+      role: method
+      src:
+      - paper: docs/202305/20230516_028.md
+    - 'no': 3
+      name: 单品打爆标准化流程SOP：5+5组合拳法
+      desc: 具体执行步骤：1.新号养号/起号；2.纯内容视频测款(不挂车)，寻找高互动爆款模板；3.测出模板后，立即开启挂车带货+直播；4.日常维护：每天发布5条内容视频(养标签、引流)+5条电商视频(转化)；5.利用直播间上下划自然流量矫正人群标签，撬动推荐算法推流；6.单品30条笔记无起色则切品/注销号。
+      role: method
+      src:
+      - paper: docs/202305/20230516_028.md
+    - 'no': 4
+      name: 直播间上下划流量占比极高且高转化
+      desc: 观测数据：直播间流量结构中‘上划下划’(信息流推荐入口)占比非常高，该流量池用户标签精准、转化率高，是新号冷启动和人群矫正的核心杠杆，不可忽略。
+      role: experiment
+      src:
+      - paper: docs/202305/20230516_028.md
+    - 'no': 5
+      name: ROI分级投放决策法与100单智能切换分水岭
+      desc: 决策树：判断历史累计出单量 → <100单：小额投放/自定义人群/7天周期/卡赔付止损；≥100单：可尝试智能投放跑人群/大额预算/7天周期/卡赔付。核心原则：宁可漏量不可亏钱(卡赔付)。实测100单是系统人群模型建模成熟的临界点。
+      role: method
+      src:
+      - paper: docs/202305/20230516_028.md
+    - 'no': 6
+      name: 大额ROI投放易跑飞风险与卡赔付止损原则
+      desc: 实测教训：ROI投放(如薯条/聚光)小额测试可行，但大额预算极易失控(跑飞)，导致赔付失控。核心对策：严控单日/单计划预算、设7天周期、实时监控赔付线止损。
+      role: limitation
+      src:
+      - paper: docs/202305/20230516_028.md
+    - 'no': 7
+      name: 跟品双轨验证法：市场验证替代主观判断
+      desc: 选品执行双轨制：轨道一‘多刷’——人工沉浸刷同赛道高互动笔记/直播，感知用户痛点、话术、呈现形式、实时热度；轨道二‘三方工具查’——用蝉妈妈/新红/克劳锐等工具核验近期销量榜、增长率、佣金率、达人带货榜，数据印证主观感知，双轨重合即为跟品标的。
+      role: method
+      src:
+      - paper: docs/202305/20230516_028.md
+    - 'no': 8
+      name: 直播营销红利窗口：图文转直播ROI极高
+      desc: 小红书即将开放‘直播营销’功能(广告投流直播间)带来的平台早期流量扶持期，预判图文转直播ROI将极高，建议提前布局抓住首批红利。
+      role: extension
+      src:
+      - paper: docs/202305/20230516_028.md
+    - 'no': 9
+      name: 市面培训‘知行分离’无实战价值
+      desc: 作者基于行业观察断言：市面上绝大多数小红书带货培训内容停留在‘写标题、选品’等基础理论层面，属于‘听懂了但不会做’的伪知识，报名必要性极低，建议自学实战。
+      role: claim
+      src:
+      - paper: docs/202305/20230516_028.md
+    - 'no': 10
+      name: 矩阵运营物理隔离‘一机一号’为最优解
+      desc: 亲测运维规范：针对‘电脑统一发布是否影响账号’提问，明确‘目前都是手机发’、‘一机一号’，规避了群控工具/云手机/电脑端批量操作触发的风控风险，验证了物理隔离的安全性。
+      role: experiment
+      src:
+      - paper: docs/202305/20230516_028.md
+    - 'no': 11
+      name: 平台门槛红利判断：门槛低于爆发力的战略价值
+      desc: 平台红利评估维度非单一‘爆发力’，而是‘爆发力×门槛倒数×持续性’。小红书虽爆发力<视频号早期，但因‘搬运混剪+矩阵’门槛极低，使得边际收益率(ROI/人力成本)极高，是当前存量博弈环境下中小玩家最优生存生态位。
+      role: theorem
+      src:
+      - paper: docs/202305/20230516_028.md
+    - 'no': 12
+      name: 5+5内容电商组合拳日均产出可行性验证
+      desc: 作者实操验证：新号执行‘每日5条内容视频+5条电商视频’高频发布节奏，虽单条图文仅几百播放量，但组合拳能快速出单、矫正标签、撬动推流，且作者多号复用该SOP均‘测下来非常好用’。
+      role: experiment
+      src:
+      - paper: docs/202305/20230516_028.md
+  - 'no': 29
+    name: 小红书100%安全引流与DSR提升 —— 平台规则利用、短信通道合规触达
+    desc: 本章揭示基于平台原生功能与规则边界的‘100%安全’引流私域及提升DSR评分方法论，适用于小红书博主、电商及视频号电商从业者。核心在于利用平台功能设计(如短信、订单通知等)与规则灰度地带实现合规操作，而非对抗规则，获得社区权威背书与版主加精认证。
+    nodes:
+    - 'no': 1
+      name: 合规性即安全性定理：利用平台规则与功能实现零封号引流
+      desc: 核心主张：只要严格利用平台官方提供的规则与功能边界进行操作，即可实现‘100%安全’(零封号风险)的引流效果，安全性来源于合规性而非隐蔽性。
+      role: theorem
+      src:
+      - paper: docs/202305/20230516_032.md
+    - 'no': 2
+      name: 跨平台通用性主张：视频号电商同适用
+      desc: 关键观点：该引流方法论不局限于小红书，同样适用于视频号电商等内容电商平台，具备跨平台迁移能力。
+      role: extension
+      src:
+      - paper: docs/202305/20230516_032.md
+    - 'no': 3
+      name: 引流与DSR双赢主张
+      desc: 合规引流操作可同步解决电商‘提升DSR’的痛点，引流动作本身即服务体验优化动作。
+      role: extension
+      src:
+      - paper: docs/202305/20230516_032.md
+    - 'no': 4
+      name: 短信通道引流实锤：订单物流短信合规触达
+      desc: 社群大佬金九渊明确点出‘小红书电商短信’为核心载体之一，揭示了利用订单/物流短信合规触达用户的关键技术细节。
+      role: experiment
+      src:
+      - paper: docs/202305/20230516_032.md
+    - 'no': 5
+      name: 社区权威背书验证：版主加精、大佬认可
+      desc: 素材获得社区知名运营者(亦仁-版主加精、金九渊-大佬认可、Cooper-方法论认可)的高度评价与加精置顶，侧面印证该方法论在实战圈层内的有效性与安全性公认度。
+      role: experiment
+      src:
+      - paper: docs/202305/20230516_032.md
+    - 'no': 6
+      name: 方法论可复制性与标准化SOP声明
+      desc: 作者宣称‘自用’且‘全文N多字、预计阅读35分钟’，暗示方法论已自我验证且具备标准化SOP可复制性，但缺乏具体数据支撑。
+      role: claim
+      src:
+      - paper: docs/202305/20230516_032.md
+  - 'no': 30
+    name: 小红书小众高客单价引流实战航海日志 —— 养号起号、爆款创作、安全引流三阶段全过程复盘
+    desc: 本章记录老彭在‘小红书爆款笔记航海’活动中获得第一名、100%精选率的复盘总结，系统覆盖小红书小众高客单价领域从0到1实操全过程：快速起号(冷启动)、高效做号(内容规模化)、安全引流(私域转化)三大模块，实测实现日引流100+，采用‘每日复盘+阶段性总结+全链路公开’的透明化实操方法论，具有极强的教学导向参考价值。
+    nodes:
+    - 'no': 1
+      name: 三阶段运营模型：快速起号-高效做号-安全引流
+      desc: 将小红书账号运营拆解为‘快速起号(冷启动)’、‘高效做号(内容规模化)’、‘安全引流(私域转化)’三个连续且侧重点不同的关键阶段，构建完整认知闭环。
+      role: definition
+      src:
+      - paper: docs/202305/20230516_089.md
+    - 'no': 2
+      name: 航海日志复盘法：完整过程复盘高于零碎技巧
+      desc: 核心主张系统性的从0到1全过程记录(养号、爆款、引流)比单一技巧更具实操参考价值，能帮助学习者建立完整认知闭环。
+      role: method
+      src:
+      - paper: docs/202305/20230516_089.md
+    - 'no': 3
+      name: 小众高客单价领域适合普通人从0到1突围
+      desc: 主张在小红书平台，聚焦小众高客单价赛道，配合标准化SOP(起号-做号-引流)，普通个体也能实现日引流100+的显著商业成果。
+      role: theorem
+      src:
+      - paper: docs/202305/20230516_089.md
+    - 'no': 4
+      name: 航海日志第一名与100%精选率验证
+      desc: 作者的航海日志在‘小红书爆款笔记航海’活动中获得第一名，且日志精选率100%，且有圈友以阅读该日志为日目标，数据支撑其内容质量与实操参考价值被社群高度认可。
+      role: experiment
+      src:
+      - paper: docs/202305/20230516_089.md
+    - 'no': 5
+      name: 日引流100+的实测达成声明
+      desc: 作者宣称通过该套流程实测实现了‘小红书小众领域日引流 100+’的核心业绩指标。
+      role: claim
+      src:
+      - paper: docs/202305/20230516_089.md
+    - 'no': 6
+      name: 社群高互动与细节工具需求验证
+      desc: 评论区出现‘怎样才算养好号’、‘新人想学习’、‘批量下载软件’等具体追问，表明素材激发了强烈的学习意愿与细节工具需求，验证了教学导向内容的稀缺性。
+      role: experiment
+      src:
+      - paper: docs/202305/20230516_089.md
+  - 'no': 31
+    name: 视频号轻量化农产品私域模式 —— 做减法、多平台分发、真心实意服务下沉市场
+    desc: 本章复盘橘子海从短视频电商(抖音/快手模式)转型至微信视频号赛道，将运营模式从‘追求爆款视频+直播带货’调整为‘不追求爆款、不开小店、不直播’的轻量化模式，最终实现三个月变现20万的案例。核心在于通过私域沉淀与多平台分发(视频号+小红书)实现低成本、高确定性的下沉市场农产品(茶叶)销售。
+    nodes:
+    - 'no': 1
+      name: 个人创业‘减法’优于‘加法’定律
+      desc: 对于个人/小团队，放弃高成本、高门槛的直播带货(加法)，转而采用无直播、无小店的轻量化私域模式(减法)，反而能降低运营风险，维持甚至提升收益确定性。
+      role: theorem
+      src:
+      - paper: docs/202305/20230516_079.md
+    - 'no': 2
+      name: 视频号轻量化变现模式：公域引流+私域成交
+      desc: 指不开视频号小店、不做直播、不追求爆款视频，仅通过视频号内容引流至私域(微信个人号/社群)，再通过私域信任转化成交的低成本运营模式。
+      role: definition
+      src:
+      - paper: docs/202305/20230516_079.md
+    - 'no': 3
+      name: 下沉市场农产品IP与信任红利论
+      desc: 针对农村/下沉市场人群，以真实田园生活、产地直发为核心卖点打造的个人IP形象，强调‘真心实意’建立信任感。农村用户对‘真实’、‘产地’、‘人情’信任度极高，不需要专业直播话术和爆款视频技巧，只需真心实意展示产地实况并提供售后保障，即可获得高复购。
+      role: theorem
+      src:
+      - paper: docs/202305/20230516_079.md
+    - 'no': 4
+      name: 多平台素材复用分发：视频号+小红书同步获客
+      desc: 将同一份视频素材同步分发至视频号、小红书等多个公域流量平台，最大化素材ROI，实现跨平台获客。实测小红书亦可出单，验证了‘多平台分发’方法的有效性。
+      role: method
+      src:
+      - paper: docs/202305/20230516_079.md
+    - 'no': 5
+      name: 私域沉淀与信任转化法：朋友圈运营+1v1私聊
+      desc: 放弃公域直播间的即时转化，转而将流量沉淀至微信个人号/群，通过长期的朋友圈运营、1v1私聊服务建立深度信任，实现高客单价、高复购的农产品销售。对比旧模式(直播带货)与新模式(私域成交)实际运营数据发现：放弃直播和小店后，月收益未减少，且运营压力大幅降低。
+      role: method
+      src:
+      - paper: docs/202305/20230516_079.md
+    - 'no': 6
+      name: 普通人低起点逆袭路径验证
+      desc: 作者自身经历(初中学历、进厂流水线、负债、自学设计、无资源启动)印证了‘无学历无背景无资源’的普通人通过‘全力以赴’做内容电商实现阶层跃迁的可行性。
+      role: experiment
+      src:
+      - paper: docs/202305/20230516_079.md
+    - 'no': 7
+      name: 三个月变现20万实证声明
+      desc: 作者宣称采用新模式后，三个月通过视频号赚取20万元。
+      role: claim
+      src:
+      - paper: docs/202305/20230516_079.md
+  - 'no': 32
+    name: 抖音养生号视频带货实操承诺 —— 单月十万佣金、00后创业者半年经验、毫无保留教学
+    desc: 本章记录作者‘微笑’作为00后创业者在抖音养生号赛道半年经验，核心宣称实现单月十万佣金，并承诺提供从0到1的毫无保留教学，引导读者跳转飞书文档查看完整干货内容。社群核心成员(梁靠谱、设计师阿鹏)高度评价与认可，具备社群信任背书。
+    nodes:
+    - 'no': 1
+      name: 抖音养生号视频带货模式
+      desc: 指在抖音平台运营垂直养生领域账号，通过发布短视频内容挂载橱窗商品实现变现的商业模式。
+      role: definition
+      src:
+      - paper: docs/202305/20230516_087.md
+    - 'no': 2
+      name: 对标账号橱窗销量记录法
+      desc: 作者在筛选对标账号时，记录其橱窗每日带货销量数字以评估账号商业价值和选品方向，而非仅关注粉丝量或点赞数。
+      role: method
+      src:
+      - paper: docs/202305/20230516_087.md
+    - 'no': 3
+      name: 养生赛道新人可复制高收益主张
+      desc: 核心主张：普通新人(00后、半年经验)通过标准化SOP操作抖音养生号，可在单月内实现十万佣金收益，且该路径具有强可复制性(‘跟着做也能赚到钱’)。
+      role: theorem
+      src:
+      - paper: docs/202305/20230516_087.md
+    - 'no': 4
+      name: 作者个人实战收益数据声明
+      desc: 作者宣称个人账号在2023年4月实现单月佣金收入十万元人民币。
+      role: claim
+      src:
+      - paper: docs/202305/20230516_087.md
+    - 'no': 5
+      name: 社群认证与社交背书
+      desc: 素材发布于‘生财有术’社群(362赞)，并获得包括社群大V‘梁靠谱’、设计师阿鹏等核心成员的高度评价与认可，具备一定的社群信任背书。
+      role: experiment
+      src:
+      - paper: docs/202305/20230516_087.md
+    - 'no': 6
+      name: 毫无保留教学承诺与飞书文档完整版引流
+      desc: 承诺将半年实战经验毫无保留分享，跟着做也能赚到钱，引导至飞书云文档查看完整教学内容。
+      role: method
+      src:
+      - paper: docs/202305/20230516_087.md
 - 'no': 3
-  chapters: []
+  chapters:
+  - 'no': 1
+    name: 生财有术 —— 社群杠杆加速普通人从0到1
+    desc: 本章以生财有术社群为背景，拆解社群机制（航海、精华帖、贵人链接）如何成为新手跨越认知鸿沟、缩短试错周期、实现商业闭环的核心杠杆。
+    nodes:
+    - 'no': 1
+      name: 小透明逆袭路径：从观望到行动的关键跃迁
+      desc: 作者毛韩从2020年入群‘小透明’到2021年9月启动行动，耗时近一年；真正突破发生在‘开始行动’那一刻，航海仅是催化剂。
+      role: motivation
+      src:
+      - paper: docs/202305/20230516_014.md
+      - paper: docs/202305/Gn5NdifvBorUbdxvGl6ceQgXnpg.md
+    - 'no': 2
+      name: 航海机制：强制执行的外部约束容器
+      desc: 利用航海的‘截止节点、公开承诺、同伴监督、导师点评’四大机制，克服拖延，强制跑通最小商业闭环（0-1），赚到第一桶金。
+      role: method
+      src:
+      - paper: docs/202305/20230516_014.md
+      - paper: docs/202305/Gn5NdifvBorUbdxvGl6ceQgXnpg.md
+    - 'no': 3
+      name: 精华帖逆向拆解法：带着问题去‘偷’成熟模块
+      desc: 不盲目阅读，而是带着‘当前项目卡点’去精华帖拆解‘流量-产品-变现’三大模块，像搭积木一样组合新项目，实现‘以战代练’。
+      role: method
+      src:
+      - paper: docs/202305/20230516_014.md
+      - paper: docs/202305/Gn5NdifvBorUbdxvGl6ceQgXnpg.md
+    - 'no': 4
+      name: 项目-人匹配筛选模型：新手筛选而非挑选
+      desc: 基于‘认知范围内、资源可调动、执行难度可承受、周期可接受’近20项参数，动态筛选匹配当下能力的项目，附飞书工具表单可直接复用。
+      role: method
+      src:
+      - paper: docs/202305/Gn5NdifvBorUbdxvGl6ceQgXnpg.md
+    - 'no': 5
+      name: 贵人链接价值交换模型：让大佬投资产生强正反馈
+      desc: 向上社交非单向索取，而是提供专业/情绪/渠道价值，使贵人投资获得正反馈（支棱、吃水不忘挖井人），形成势力复利。典型案例：梁靠谱与醒醒、苏姐的深度绑定。
+      role: method
+      src:
+      - paper: docs/202305/20230516_016.md
+    - 'no': 6
+      name: 社群复利验证：一年从零到年入200万
+      desc: 心理咨询师根源：依托生财‘好文章+对的人’，一年少走弯路，从一无所有到年入200万，印证社群杠杆加速论。
+      role: experiment
+      src:
+      - paper: docs/202305/20230516_042.md
+    - 'no': 7
+      name: 公域陌生流量私域化闭环：闲鱼SEO霸屏实战
+      desc: 利用闲鱼搜索规则，通过关键词布局、多账号矩阵发布商品/服务信息，占据搜索结果前排位置，实现精准流量被动获取，再引导至私域微信完成转化。
+      role: method
+      src:
+      - paper: docs/202305/20230516_015.md
+      - paper: docs/202305/E0aFdosjUobxU7xEQeCc7y8snyb.md
+    - 'no': 8
+      name: 引流即销售：用卖货套路做拉新，成交率50%+
+      desc: 将引流环节标准化为销售流程：开场建立信任 -> 需求确认/痛点挖掘 -> 方案展示(钩子价值) -> 处理顾虑(安全/价格) -> 明确行动号召(引导加微信/下单)
+        -> 成交后服务交付。7天实测：咨询300+ -> 加微81人(27%) -> 成交41人(50.6%)，平均成交耗时2.6小时。
+      role: method
+      src:
+      - paper: docs/202305/20230516_015.md
+      - paper: docs/202305/E0aFdosjUobxU7xEQeCc7y8snyb.md
+  - 'no': 2
+    name: 认知重构 —— 知识付费创业者的底层操作系统升级
+    desc: 本章聚焦芷蓝等头部玩家的核心心法，揭示知识付费赛道‘试错-筛选-放大’的认知逻辑，重塑创业者对产品、交付、流量、组织、客户的根本认知。
+    nodes:
+    - 'no': 1
+      name: 创业失败必然论与低成本试错定律
+      desc: 创业本质是概率游戏，失败是常态，知识付费边际成本趋近零，应‘多尝试、快失败、低成本、留存活下来的模式’。
+      role: motivation
+      src:
+      - paper: docs/202305/20230516_041.md
+    - 'no': 2
+      name: 核心三件事与外包杠杆：只做阅读、构建体系、生产内容
+      desc: 其余运营、交付、社群维护全外包，用钱买时间换体量放大，形成正向飞轮。
+      role: method
+      src:
+      - paper: docs/202305/20230516_041.md
+    - 'no': 3
+      name: 暴力交付：交付本质是筛选优质用户，而非无限陪伴
+      desc: 优质用户需求简单直接（结果/资源/流量），服务越重往往产品越弱、用户越差。‘永远没有最好的交付，只有更好的用户’。
+      role: definition
+      src:
+      - paper: docs/202305/20230516_041.md
+    - 'no': 4
+      name: 选客户比服务客户重要：99%成功源于客户自我觉醒
+      desc: 筛选‘正在觉醒/已觉醒’客户，稍加助力即成，积累成功案例构建势能吸引同类人。拒绝‘需监督执行’的低质客户。
+      role: method
+      src:
+      - paper: docs/202305/20230516_041.md
+    - 'no': 5
+      name: 认知接口：旧瓶装新酒，降低用户理解门槛
+      desc: 不教育新概念（成本极高），而在用户既有认知框架内植入新工具/新场景。如ChatGPT课不讲原理，只讲‘原流程不变，效率提升10倍’。
+      role: method
+      src:
+      - paper: docs/202305/20230516_041.md
+    - 'no': 6
+      name: 动态定位：定位服务于变现，而非长期主义信仰
+      desc: 判断项目赚钱 -> 定位服务项目 -> 赚钱后升级定位。马云、雷军、腾讯皆通过变更定位实现跃迁。
+      role: method
+      src:
+      - paper: docs/202305/20230516_041.md
+    - 'no': 7
+      name: 组织进化三阶段：零件→设计者→带将者
+      desc: 0-1做关键零件（勤奋），1-N做系统设计者（懒惰/买时间），规模化做带将者（搞定合伙人，合伙人制）。
+      role: extension
+      src:
+      - paper: docs/202305/20230516_041.md
+    - 'no': 8
+      name: 实证：ChatGPT大师课借势单渠道预售60万+、全年预计300万
+      desc: 借风口势+行业势（健身/医美/写作结合）+渠道势（小鹅通），验证借势造势与认知接口的威力。
+      role: experiment
+      src:
+      - paper: docs/202305/20230516_041.md
+    - 'no': 9
+      name: 实证：朋友圈训练营停止→标准化课件+星球答疑，精力释放且营收不降
+      desc: 月入10万的‘有价值垃圾’产品改造后，月销20+单维持营收，腾出精力服务高客单价用户。
+      role: experiment
+      src:
+      - paper: docs/202305/20230516_041.md
+  - 'no': 3
+    name: 闲鱼无货源 —— 从‘捡漏心理’到‘矩阵霸屏’的全周期实战体系
+    desc: 本章整合远方、公子唯心、宅男、云端等多位头部玩家实战，构建闲鱼无货源从选品、建号、上架、引流、转化、矩阵放大到风控规避的完整标准化作业手册（SOP）。
+    nodes:
+    - 'no': 1
+      name: 闲鱼核心用户心理：捡漏、占便宜
+      desc: 选品、定价、文案、标题、图片均需围绕‘低价捡漏’心理设计（清仓、倒闭、批发价、最后几件），击中用户核心动机。
+      role: motivation
+      src:
+      - paper: docs/202305/20230516_097.md
+    - 'no': 2
+      name: 反养号论：养号仅提升买家标签，不提升卖家权重
+      desc: 权重核心=30天销量/点击率/收藏率/好评率/发布时间/售后/违规/二次访问。新号注册完善资料后直接上架，节省时间避免打错标签。
+      role: definition
+      src:
+      - paper: docs/202305/20230516_097.md
+    - 'no': 3
+      name: 一机一卡一号与设备隔离：规避违规关联管控的生存底线
+      desc: 同设备/网络下店铺违规关联受罚；避免使用曾卖过货的旧设备（历史污染导致流量受损），切记踩坑实证。
+      role: method
+      src:
+      - paper: docs/202305/20230516_097.md
+    - 'no': 4
+      name: 垂直店铺专业度信任模型：单店单品类，榜单上榜皆垂直
+      desc: 杂货铺难建立信任；垂直度提升专业感与信任度，配合真实人设（真人头像、专业简介）强化转化。
+      role: method
+      src:
+      - paper: docs/202305/20230516_097.md
+    - 'no': 5
+      name: 三维选品法：榜单复制+蓝海挖掘+多渠道深度了解
+      desc: 1) 复制榜单头部验证品；2) 挖掘‘买家多卖家少’小众蓝海（摩托配件/改装件）；3) 多多/淘宝/同行/抖音/百度深度了解产品细节。
+      role: method
+      src:
+      - paper: docs/202305/20230516_097.md
+    - 'no': 6
+      name: 爆款上架八要素：围绕‘真实’与‘买家心理’的组合拳
+      desc: 标题(高搜词+痛点钩子)、文案(稀缺紧迫)、主图(吸睛真实信息密)、详情图(代入感人设关联)、价格(新品低价引流后涨价)、地址(产地/一二线城市借流量)、标签(补词)、圈子(辅助曝光)。
+      role: method
+      src:
+      - paper: docs/202305/20230516_097.md
+    - 'no': 7
+      name: 矩阵店铺霸屏策略：多账号占据搜索前排垄断流量
+      desc: 7-8个店铺布局同一单品，占据搜索前5/前10多个位置，通过曝光数据预判具体哪个链接会爆单，实现‘必定有一个爆单’。
+      role: method
+      src:
+      - paper: docs/202305/20230516_097.md
+    - 'no': 8
+      name: 创业粉引流闭环：低价虚拟课钩子→文件过大引导加微→5元/个批发变现→分销代理授权裂变
+      desc: 几元钱筛选高意向创业粉，自动发货话术‘文件过大加微信领取’合规迁移私域，回收粉丝5元/个，授权账号免费7天/月费30元招代理滚雪球。
+      role: method
+      src:
+      - paper: docs/202305/20230516_098.md
+    - 'no': 9
+      name: 见面交易转好评策略：规避虚拟商品发货违规、快速提权重
+      desc: 利用‘见面交易’功能规避无物流单号违规，引导买家确认收货给好评，快速提升鱼力值/信用分降低封号概率。
+      role: method
+      src:
+      - paper: docs/202305/20230516_098.md
+    - 'no': 10
+      name: 差评稀释与炼丹机制：利用评价上墙时间差挤落差评
+      desc: 动员老顾客刷长文好评（3天确认收货+臭长好评）制造优质评价标杆；召唤客服(输入12345)投诉违规内容(辱骂/宗教/站外引流)删除差评。
+      role: method
+      src:
+      - paper: docs/202305/20230516_105.md
+    - 'no': 11
+      name: 竞品销量反侧写体系：总销量追踪+咨询转化估算+未屏蔽同行采样
+      desc: 针对闲鱼隐藏销量，追踪店铺总销量增量推算日单量，截图‘我想要’变化结合行业转化率反推，寻找未屏蔽同行校准。
+      role: method
+      src:
+      - paper: docs/202305/20230516_105.md
+    - 'no': 12
+      name: 时间成本选品匹配模型：按可支配时间碎片度匹配品类
+      desc: 重客服型(山地车)需长碎片时间，重运营型(马桶)需深度专注，重财务型(小百货)需标准化流程，重客服转化型(大百货)需高客单长跟进。无最优仅最适配。
+      role: method
+      src:
+      - paper: docs/202305/20230516_105.md
+    - 'no': 13
+      name: 红海规模化策略：账号规模大时主动选红海标品建壁垒
+      desc: 400+店铺蓝海容量不足，转战红海类目通过店群规模化运营建立壁垒。‘号多了蓝海也变红海’。
+      role: extension
+      src:
+      - paper: docs/202305/20230516_105.md
+    - 'no': 14
+      name: 店铺权重双核心指标：转化率进攻 - 售后风险防御
+      desc: 权重正向由‘咨询转单率’驱动，负向由‘退款率/小二介入率’拖累。‘养号/擦亮/签到’边缘动作收益极低。
+      role: definition
+      src:
+      - paper: docs/202305/20230516_105.md
+    - 'no': 15
+      name: 规模化必然导向非核心城市：山东聊城/滨州低成本组建铁三角团队
+      desc: 客服-运营-财务分工：客服组跟进高客单转化，运营组优化图文评价管绩效，财务组比价下单拦截异常。大城市人力成本结构不支撑重客服模式。
+      role: extension
+      src:
+      - paper: docs/202305/20230516_105.md
+    - 'no': 16
+      name: 副业天花板定律：个人全职年入15-20万，有货源优势应切淘宝/拼多多
+      desc: 闲鱼仅作创业跳板；具备核心货源优势者应直接切入天花板百万级平台，副业中位数月入1-2k，头部20%达3-5k。
+      role: limitation
+      src:
+      - paper: docs/202305/20230516_105.md
+    - 'no': 17
+      name: 保姆级教程体系：12大章64小章覆盖全流程
+      desc: 公子唯心深耕6年操盘几百家店铺，将实战经验总结为可复制的标准化操作指南，涵盖养号、选品、文案、发布、客服、发货、售后等全环节。
+      role: method
+      src:
+      - paper: docs/202305/20230516_039.md
+    - 'no': 18
+      name: 二手书合规准入：出版物经营许可证办理避坑指南
+      desc: 无证经营违规概率极高（扣20分下架封号），幸存者效应掩盖99%死亡率。代办个体户套餐1000-1500元包售后，接受地址异常概率事件，年审300元维持，闲鱼仅验证证照编号真伪不穿透核查地址。
+      role: method
+      src:
+      - paper: docs/202305/20230516_038.md
+    - 'no': 19
+      name: 快团团推广大团长模式：卖铲子而非淘金子
+      desc: 分享帮卖二维码抽取0.5%-2%销售额佣金，官方‘帮卖圈子/批量分享’功能支持一次申请200个大团长，配合快团团‘团品’载体化资源沉淀(一分钱拍单永久二维码+便于修改+刷团员销量解锁高阶资源)形成良性循环。
+      role: method
+      src:
+      - paper: docs/202305/20230516_095.md
+      - paper: docs/202305/HUSAdLZRCoBXiMxK0kFc99Qkndg.md
+    - 'no': 20
+      name: 矩阵打法速效公式：当天出单、七天爆单的标准化路径
+      desc: 远方3年实操沉淀，主张‘找有货代发’供应链模式配合矩阵操作，打破‘莫名其妙出单、莫名其妙没单’的不确定性，实现新手快速起量。
+      role: method
+      src:
+      - paper: docs/202305/20230516_037.md
+  - 'no': 4
+    name: 小红书无货源电商 —— ‘三缺’红利期的低成本起量与SEO长尾复利
+    desc: 本章基于卧龙、宅男两位百万实操者经验，系统拆解小红书店铺无货源从开店配置、选品验证、内容工业化生产、双引擎流量（商城+笔记）、私域沉淀到合规避坑的全链路SOP。
+    nodes:
+    - 'no': 1
+      name: 三缺红利期判断：缺商家、缺产品、缺深度服务
+      desc: 用户质量最高平台（2.6亿月活、70%女性、一二线城市），电商体系早期，先入场斩获超额红利，类比10年淘宝/16年抖音。
+      role: motivation
+      src:
+      - paper: docs/202305/20230516_030.md
+      - paper: docs/202305/AVx7dEXmpoRJazx3nH8cceBOnhd.md
+    - 'no': 2
+      name: 资金门槛测算：单店约3000-4000元启动
+      desc: 保证金1000元+垫付资金2000-3000元(7-15天回款周期)+软件费60-200元/月，验证低资金门槛主张。
+      role: definition
+      src:
+      - paper: docs/202305/20230516_030.md
+      - paper: docs/202305/AVx7dEXmpoRJazx3nH8cceBOnhd.md
+    - 'no': 3
+      name: 三维交叉验证选品法：同行+电商爆款+热度词
+      desc: 同行选品(站内销量高个人店)+电商爆款洗品(淘宝/拼多多/抖店榜单→小红书验证销量>500)+热度词选品(千瓜/蝉妈妈/禅小红查热词→站内搜验证)。三通道交叉验证提升成功率。
+      role: method
+      src:
+      - paper: docs/202305/20230516_030.md
+      - paper: docs/202305/AVx7dEXmpoRJazx3nH8cceBOnhd.md
+    - 'no': 4
+      name: 蓝海赛道比值模型：笔记数/互动量比值越小越蓝海
+      desc: 利用千瓜数据导出赛道笔记总数与互动总量计算比值，比值小=供给稀缺需求旺盛，量化筛选蓝海赛道。
+      role: method
+      src:
+      - paper: docs/202305/AVx7dEXmpoRJazx3nH8cceBOnhd.md
+    - 'no': 5
+      name: 内容生产工业化：去‘文艺化’向‘标准化’靠拢
+      desc: 封面六大视觉法则(放大/冲击/对比/饱和度/色块/重复)决定CTR，标题关键词杂交组合公式决定搜索流量，文案‘真情实感>营销话术’吸引精准用户，素材四源二创去重(电商/短视频/站内/自拍)。
+      role: method
+      src:
+      - paper: docs/202305/20230516_030.md
+      - paper: docs/202305/AVx7dEXmpoRJazx3nH8cceBOnhd.md
+    - 'no': 6
+      name: 评论区需求导向：以‘问价/求链/怎么买’为核心指标而非点赞阅读
+      desc: 精准流量代理指标=评论区高购买意图互动量。内容生产KPI='精准获客'而非'出爆款'。
+      role: method
+      src:
+      - paper: docs/202305/AVx7dEXmpoRJazx3nH8cceBOnhd.md
+    - 'no': 7
+      name: 双引擎流量策略：主攻笔记推荐/搜索，商城搜推为辅
+      desc: 商城端优化SKU/主图/标题/评价承接搜索，报名活动争取推荐；内容端矩阵号布局长尾词SEO截流+爆款笔记投流(薯条/薯店推广)获取推荐，形成‘种草-拔草’闭环。
+      role: method
+      src:
+      - paper: docs/202305/20230516_030.md
+      - paper: docs/202305/AVx7dEXmpoRJazx3nH8cceBOnhd.md
+    - 'no': 8
+      name: SEO长尾复利>推荐流量脉冲：搜索流量可持续半年以上
+      desc: 推荐流量脉冲式衰减，搜索流量长尾复利增长（三个月/半年/一年源源不断带来精准客户），长期主义必须以SEO布局为核心。
+      role: theorem
+      src:
+      - paper: docs/202305/AVx7dEXmpoRJazx3nH8cceBOnhd.md
+    - 'no': 9
+      name: 四维SEO排名因子：账号权重+笔记数据+用户行为+内容质量
+      desc: 内容原创度、垂直度、关键词自然植入为核心可控变量。关键词全链路植入：标题(必带)、封面水印、文案开头正文、话题标签(≤5个精准)。
+      role: definition
+      src:
+      - paper: docs/202305/AVx7dEXmpoRJazx3nH8cceBOnhd.md
+    - 'no': 10
+      name: 搜索冷启动刷量战术：小号/亲友搜关键词→筛最新→定位笔记→全套互动行为
+      desc: 模拟真实用户信号加速SEO权重积累。
+      role: method
+      src:
+      - paper: docs/202305/AVx7dEXmpoRJazx3nH8cceBOnhd.md
+    - 'no': 11
+      name: 视频优先分发策略：图文过剩视频稀缺，官方扶持视频流量
+      desc: 主攻视频笔记(含图文混剪视频)获取流量扶持红利，兼顾转化率与获取效率。
+      role: method
+      src:
+      - paper: docs/202305/AVx7dEXmpoRJazx3nH8cceBOnhd.md
+    - 'no': 12
+      name: 退货地址港澳台隔离策略：规避无货源无法真实退货的资损风险
+      desc: 后台退货地址设港澳台，详细地址引导联系客服，防平台自动同意退货导致资损。
+      role: method
+      src:
+      - paper: docs/202305/AVx7dEXmpoRJazx3nH8cceBOnhd.md
+    - 'no': 13
+      name: 私单模式：加商家微信走私单绕过平台订单系统
+      desc: 解决面单隐私、平台短信骚扰及利润压缩问题，商家通常同意(多一渠道多赚钱)。
+      role: method
+      src:
+      - paper: docs/202305/AVx7dEXmpoRJazx3nH8cceBOnhd.md
+    - 'no': 14
+      name: 高复购私域漏斗：退现/优惠券/低价试用装钩子→人设朋友圈运营→LTV最大化
+      desc: 私域是抵御平台规则变动的核心护城河，基本盘可一直吃复购。
+      role: method
+      src:
+      - paper: docs/202305/AVx7dEXmpoRJazx3nH8cceBOnhd.md
+    - 'no': 15
+      name: 违规笔记删除重发优于申诉修改：黑箱不可测，盲目修改易二次违规永久损权重
+      desc: 删除违规笔记发布新合规内容，边际成本最低、权重风险可控。
+      role: limitation
+      src:
+      - paper: docs/202305/AVx7dEXmpoRJazx3nH8cceBOnhd.md
+    - 'no': 16
+      name: 客服话术三大红线：禁提他平台名(罚2000)、禁‘描述不符’承诺(广告法罚10万)、禁明示‘好评返现’
+      desc: 必须用‘小红薯/薯宝宝’称呼，人工回复率≥80%(周考核)防限流。
+      role: limitation
+      src:
+      - paper: docs/202305/AVx7dEXmpoRJazx3nH8cceBOnhd.md
+    - 'no': 17
+      name: 发货罚款红线：超期3-30元/单、缺货5-100元/单，多备1-2家备选供应商
+      desc: 必须同步上游发货时效与库存。
+      role: limitation
+      src:
+      - paper: docs/202305/AVx7dEXmpoRJazx3nH8cceBOnhd.md
+    - 'no': 18
+      name: 实证：单店稳态日销5000-8000元、三个月营收50万(营业额)
+      desc: 卧龙先生实测数据验证SOP可复制稳定性；评论区澄清为营业额非利润，利润率受供应链议价权与流量成本制约。
+      role: experiment
+      src:
+      - paper: docs/202305/20230516_030.md
+      - paper: docs/202305/AVx7dEXmpoRJazx3nH8cceBOnhd.md
+    - 'no': 19
+      name: 五步选品法：定位-选品-定品-测品-优品
+      desc: 宅男总结的标准化选品流程：定位(资源/兴趣匹配) -> 选品(跨平台高销量筛选) -> 定品(小红书内验证销量/爆款) -> 测品(上架铺笔记观测数据)
+        -> 优品(商品详情页与笔记内容迭代优化)。
+      role: method
+      src:
+      - paper: docs/202305/20230516_034.md
+    - 'no': 20
+      name: 伪原创素材生产标准：视频分割打乱转场画中画、图片滤镜消除笔、文案多源杂糅
+      desc: 视频需分割-打乱-转场-画中画(透明度1)；图片需加滤镜调色-消除笔/贴纸遮挡水印文字；文案采用多同行爆款标题/正文/标签杂糅重组。
+      role: method
+      src:
+      - paper: docs/202305/20230516_034.md
+    - 'no': 21
+      name: 退货地址隔离策略：设海外地址迫使买家联系客服分单对应上家退货
+      desc: 将店铺后台退货地址设置为海外地址（如美国纽约），迫使买家发起退款时主动联系客服索要真实地址，商家据此分单对应不同上家退货地址。
+      role: method
+      src:
+      - paper: docs/202305/20230516_034.md
+    - 'no': 22
+      name: 个人店/个体店批量矩阵：低成本店型支撑矩阵化运营
+      desc: 主推低成本店铺类型：个人店(仅需身份证)与个体店(需营业执照，一照开三店、需升级蓝V认证)。适合前期3-5店并行测品类、量产笔记。
+      role: method
+      src:
+      - paper: docs/202305/20230516_034.md
+  - 'no': 5
+    name: 快团团帮卖/推广 —— 私域社群电商的‘卖铲子’与‘信用背书’博弈
+    desc: 本章聚焦快团团平台，对比‘帮卖团长’(自卖货)与‘推广大团长’(卖铲子)两种模式，深度剖析私域信用迁移规律、供应链数据不可信公理、选品验证闭环、危机公关转化信任资产等核心规律。
+    nodes:
+    - 'no': 1
+      name: 帮卖团长模式：无需囤货发货，但需自担售前售后与信用背书责任
+      desc: 区别于淘宝客，团长为客户提供全套服务，个人信誉为商品质量‘隐性担保’。
+      role: definition
+      src:
+      - paper: docs/202305/20230516_094.md
+    - 'no': 2
+      name: 推广大团长模式：一次推广长尾收益，边际成本趋近零
+      desc: 分享帮卖二维码抽取0.5%-2%销售额佣金，官方‘帮卖圈子/批量分享’功能支持一次申请200个大团长，配合快团团‘团品’载体化资源沉淀(一分钱拍单永久二维码+便于修改+刷团员销量解锁高阶资源)形成良性循环。
+      role: method
+      src:
+      - paper: docs/202305/20230516_095.md
+      - paper: docs/202305/HUSAdLZRCoBXiMxK0kFc99Qkndg.md
+    - 'no': 3
+      name: 私域信任迁移定律：信任源于人设与真实消费记录，极易因单次供应链失信归零
+      desc: 团长实质用个人累积信用为非标供应链‘担保’。假货/售后推诿即导致信用破产。
+      role: theorem
+      src:
+      - paper: docs/202305/20230516_094.md
+    - 'no': 4
+      name: 供应链数据不可信公理：头部大团长官方数据(团员/跟团/黑金/授权/讲师)系统性造水分
+      desc: 连续两起案例：12万团员/139万跟团/黑金/授权大团长 & 16万/168万/黑金/官方讲师大团长，售卖MLB包经对物/得物对比均为假货，售后推诿‘库房误发’。平台数据、资质背书系统性失效。
+      role: finding
+      src:
+      - paper: docs/202305/20230516_094.md
+    - 'no': 5
+      name: 五维选品法：数据筛团→定位筛品→自测背书→价格锚定→数据挖爆
+      desc: 新手无甄别能力时，建立‘平台数据筛供给侧→社群数据洞察需求侧→实物小批量测品验证→复投放大’闭环，用真金白银自测换确定性。
+      role: method
+      src:
+      - paper: docs/202305/20230516_094.md
+    - 'no': 6
+      name: 社群冷启动解散重建法：放弃激活幻觉，一键解散僵尸群迁移高意向用户
+      desc: 400人僵尸群解散重建迁移<200人，但链接浏览量显著提升、互动从零变有，验证‘提纯存量优于激活增量’。
+      role: method
+      src:
+      - paper: docs/202305/20230516_094.md
+    - 'no': 7
+      name: 社群价值锚定理论：定位清晰度决定活跃度与留存
+      desc: 仅作‘卖货工具’替代成本极低；附加‘非货币价值’(专业知识/情绪陪伴/生活方式)匹配特定人群，才能建立高粘性、高客单价、低流失私域资产。
+      role: theorem
+      src:
+      - paper: docs/202305/20230516_094.md
+    - 'no': 8
+      name: 积分商城裂变激活法：低门槛高兑换率(300积分换5元)激励晒单/分享
+      desc: 将消费行为转化为公开社交证据，刺激旁观者跟单，形成‘晒单-浏览-下单’飞轮。兑换率高、成本低。
+      role: method
+      src:
+      - paper: docs/202305/20230516_094.md
+    - 'no': 9
+      name: 极致售后护信法：亏佣金保客户，售后即营销、亏损即投资
+      desc: 设‘不卖不支持无理由退换’红线；纠纷时‘少拉扯、快决策、亏佣金、保客户’(亏20元挽回LTV1200元客户)；建立‘事事有回应’高标准响应机制。
+      role: method
+      src:
+      - paper: docs/202305/20230516_094.md
+    - 'no': 10
+      name: 假货危机三步走公关法：即时止损→实锤取证→高标准赔付谈判公开态度
+      desc: 退款道歉+下架全品牌+要求召回在途单→自购正品/第三方对比取证→假一赔三+全额退款已签收单。危机转化为‘重信誉’信任强化信号，评论区赞‘真诚是永远必杀技’。
+      role: method
+      src:
+      - paper: docs/202305/20230516_094.md
+    - 'no': 11
+      name: 高客单价品类雷区规避：品牌鞋服/化妆品等高溢价高仿技术成熟非专业无法辨伪列为雷区
+      desc: 新手团长坚决不碰，规避结构性供应链风险。
+      role: limitation
+      src:
+      - paper: docs/202305/20230516_094.md
+    - 'no': 12
+      name: 爱惜羽毛法则：视个人信誉如羽毛，拒绝短期投机，亏钱保信用换LTV
+      desc: 私域经营是‘细水长流’小店而非‘打一枪换地方’流量生意。
+      role: theorem
+      src:
+      - paper: docs/202305/20230516_094.md
+    - 'no': 13
+      name: 实证：二胎宝妈零资源首月GMV 7万+、北京前1000、最高单客4000+/30单
+      desc: 仅凭私域存量(8000好友+400代购群)执行全套方法论，验证新人冷启动高复现性。
+      role: experiment
+      src:
+      - paper: docs/202305/20230516_094.md
+    - 'no': 14
+      name: 实证：推广大团长月收益指数级增长至日均200+、积累1800+大团长资源
+      desc: 无人直播(相声/脱口秀音频+引导看置顶)单场万人观看、三天互关达1000粉开播；拼多多虚拟店9.9元自动发货蓝海售出几百份；派生代推广/名录倒卖/源头升级三条增收路径。
+      role: experiment
+      src:
+      - paper: docs/202305/HUSAdLZRCoBXiMxK0kFc99Qkndg.md
+  - 'no': 6
+    name: 视频号带货 —— 从自然流‘不废号’到投流‘钱生钱’的范式跃迁
+    desc: 本章对比自然流与付费投流(短视频挂车)两大范式，系统拆解投流模式的团队架构、高客单选品标准、SKU套装策略、素材搬运去重、分级测品(1测/2测)、分层放量(赔付/关停)、黄金时间窗、异常诊断决策树，揭示‘品素决定论(70/30)’与‘门槛提升红利论’。
+    nodes:
+    - 'no': 1
+      name: 自然流高风险实证：连续十几个账号被限流，彻底退出转型投流
+      desc: 自然流不稳定、易限流封号，账号资产易报废。
+      role: motivation
+      src:
+      - paper: docs/202305/20230516_082.md
+      - paper: docs/202305/AxQ8duaITowcrCx54hocWSy4nnb.md
+    - 'no': 2
+      name: 短视频挂车投流核心优势：稳定、可复制、可放大、不废号
+      desc: 账号权重不易受损，长期沉淀复用；付费玩法穿越平台周期，底层逻辑(买流量、算ROI、优化素材品)不变。
+      role: definition
+      src:
+      - paper: docs/202305/20230516_082.md
+      - paper: docs/202305/AxQ8duaITowcrCx54hocWSy4nnb.md
+    - 'no': 3
+      name: 高客单高利润选品标准：利润率>70%、主打新奇特高溢价、排除黑五类功效品
+      desc: 覆盖高昂付费流量成本；后期拓展低客单价玩法。SKU套装化(多件装+价格高到低排序)提升客单利润，低价SKU承接千展消耗。
+      role: method
+      src:
+      - paper: docs/202305/AxQ8duaITowcrCx54hocWSy4nnb.md
+    - 'no': 4
+      name: 矩阵化测品组织架构：3-6人组+人均5台安卓机+专职投手比(3组:1投手)
+      desc: 核心指标‘日测品数/素材数’，头部团队日测70-100品保证高频出爆品。
+      role: method
+      src:
+      - paper: docs/202305/AxQ8duaITowcrCx54hocWSy4nnb.md
+    - 'no': 5
+      name: 三维选品法：拼多多榜单+蝉妈妈数据平台+同行爆品跟投(爆率最高)
+      desc: 新团队建议先跟投同行爆品跑通流程拿正反馈，再自测。
+      role: method
+      src:
+      - paper: docs/202305/AxQ8duaITowcrCx54hocWSy4nnb.md
+    - 'no': 6
+      name: 素材搬运消重SOP：抖音/快手搬运(优选口播)→采集软件解MD5→剪映/CR解搬运痕迹→消重软件解审核重复
+      desc: 目标：高效产出通过审核且转化率高的原创度视频。
+      role: method
+      src:
+      - paper: docs/202305/AxQ8duaITowcrCx54hocWSy4nnb.md
+    - 'no': 7
+      name: 双阶段测品法：1测验品(1000豆/6h/出价900/无定向)→2测探价(2000豆/4-10条/出价阶梯降50)
+      desc: 1测仅验证‘能否出单及ROI’，不达标Pass或换素材；2测核心验证‘最优流速出价’及‘能否放量’，为放量锁定参数。
+      role: method
+      src:
+      - paper: docs/202305/AxQ8duaITowcrCx54hocWSy4nnb.md
+    - 'no': 8
+      name: 视频号赔付机制：达标(6赞/6关注/6单→更新4单)空消耗部分获平台赔付
+      desc: 兜底投放风险，实现‘不太会亏钱’的大额放量策略(高客单适用)。实测两条100元计划卡上赔付。
+      role: method
+      src:
+      - paper: docs/202305/AxQ8duaITowcrCx54hocWSy4nnb.md
+    - 'no': 9
+      name: 关停止损公式：利润>100时消耗达(利润/4-5)未出单关停；利润<100时消耗达(利润/3-5)关停
+      desc: 核心逻辑‘用关停空消耗提高ROI’，适用于低客单小额叠投。
+      role: method
+      src:
+      - paper: docs/202305/AxQ8duaITowcrCx54hocWSy4nnb.md
+    - 'no': 10
+      name: 投放黄金时间窗：测品上午9点前；放量晚上12点建12h计划或凌晨4点建计划效果最佳
+      desc: 体现视频号中老年用户活跃规律与流量分发机制。
+      role: method
+      src:
+      - paper: docs/202305/AxQ8duaITowcrCx54hocWSy4nnb.md
+    - 'no': 11
+      name: 分层放量操盘：高客单走‘大额+卡赔付’不关停；低客单走‘小额叠投+勤关停’
+      desc: 统一执行黄金时间窗、二测出价拉满流速、SKU套装化承接流量。
+      role: method
+      src:
+      - paper: docs/202305/AxQ8duaITowcrCx54hocWSy4nnb.md
+    - 'no': 12
+      name: 投放异常诊断决策树：不过审/不消耗/转化低三大异常的结构化排查动作
+      desc: 不过审→定性品/素材/营销违规；不消耗→查素材重合度/品竞争力/时段/出价/SKU；转化异常→低点击高转化换素材、高点击低转化降价、有转化无利润涨价。
+      role: method
+      src:
+      - paper: docs/202305/AxQ8duaITowcrCx54hocWSy4nnb.md
+    - 'no': 13
+      name: 品素决定论(70/30法则)：品与素材贡献度超70%，投放技巧不超30%，90%问题根因指向品素
+      desc: 测试中遇到的90%疑难杂症(不过审/不消耗/低转化)均为品与素材导致。
+      role: theorem
+      src:
+      - paper: docs/202305/AxQ8duaITowcrCx54hocWSy4nnb.md
+    - 'no': 14
+      name: 数据信仰原则：不相信感觉，只相信数据，测品不达标果断Pass或换素材重测
+      desc: 严禁主观执念续投，控制成本提升团队测品效率的核心纪律。
+      role: theorem
+      src:
+      - paper: docs/202305/AxQ8duaITowcrCx54hocWSy4nnb.md
+    - 'no': 15
+      name: 门槛提升红利论：0粉挂车取消、投放门槛提高、支付ROI内测、赔付标准调整实为‘好事’
+      desc: 清洗无序竞争者，提高准入门槛，利好已跑通标准化流程的专业团队。
+      role: theorem
+      src:
+      - paper: docs/202305/AxQ8duaITowcrCx54hocWSy4nnb.md
+    - 'no': 16
+      name: 实证：新号冷启动曲线(首月3万+→315波动→稳定日销2000+→次月单号8万+净利30% ROI1.8-2.0)
+      desc: 验证‘测品磨合-放量收割’周期规律与成熟期单品经济模型可复制性。
+      role: experiment
+      src:
+      - paper: docs/202305/AxQ8duaITowcrCx54hocWSy4nnb.md
+    - 'no': 17
+      name: 实证：头部团队月利润超100万不少于10个、日测70-100品
+      desc: 印证‘测品量=爆品量=收益上限’规模化逻辑。
+      role: experiment
+      src:
+      - paper: docs/202305/AxQ8duaITowcrCx54hocWSy4nnb.md
+  - 'no': 7
+    name: 抖音养生/知识付费/IP矩阵 —— 同行是最好老师，先抄后超的执行美学
+    desc: 本章融合微笑(养生号)、木子田(PPT IP)、老金(写作BOSS)、纸壳(视频号)等实战案例，提炼‘像素级模仿→人群匹配优化→矩阵置换测品→私域高客单转化’的跨赛道通用打法。
+    nodes:
+    - 'no': 1
+      name: 抖音养生号(中医号)起号三式：混剪/缅怀/图文经方
+      desc: 图文经方+大师音频最快：前3天日更3条、第4天起日更5条，5天千粉精准中老年画像。借势中医大师IP势能，针对中老年群体带货。
+      role: method
+      src:
+      - paper: docs/202305/ZbFEdhEwsoqaNnxXzRicjWQOnkd.md
+    - 'no': 2
+      name: 巨量百应榜单选品+对标账号橱窗销量日志追踪：零延迟跟进爆品
+      desc: 千粉权限进巨量百应筛选：爆款视频-图书教育-图书-作者等级0-近24小时；人工日记录20-30对标账号橱窗销量变化及近24h高赞视频，捕捉爆单信号。月入5-10w+大佬悄悄用的方法。
+      role: method
+      src:
+      - paper: docs/202305/ZbFEdhEwsoqaNnxXzRicjWQOnkd.md
+    - 'no': 3
+      name: 三大带货形式1:1像素级模仿标准：混剪(音画一致+70%画中画)、实拍(逐镜头复刻)、真人出境(图文+音频/二创混剪规避镜头门槛)
+      desc: 相似度做到极致复现爆款概率；混剪存在被原作者举报下架风险。
+      role: method
+      src:
+      - paper: docs/202305/ZbFEdhEwsoqaNnxXzRicjWQOnkd.md
+    - 'no': 4
+      name: 无人直播测品-账号矩阵置换策略：新号千粉上无人直播测3天/日发5条→不爆换新号直播/旧号转短视频→爆品验证后全矩阵切短视频跟品
+      desc: 以账号数量博取起量概率，新号直播权重期易起量出单。4台无人直播日佣稳定过千至数千。
+      role: method
+      src:
+      - paper: docs/202305/ZbFEdhEwsoqaNnxXzRicjWQOnkd.md
+    - 'no': 5
+      name: 面相书籍案例：单品爆发带动月佣破10万，4月20日提前完成目标
+      desc: 4月16日跟进对标‘面相书籍’1:1精细化拍摄当晚日佣破万，全矩阵跟品连续日入过万，峰值日佣2万。
+      role: experiment
+      src:
+      - paper: docs/202305/ZbFEdhEwsoqaNnxXzRicjWQOnkd.md
+    - 'no': 6
+      name: PPT项目拆解IP：0基础47天变现16.7万，单条爆款视频引流300+精准粉首批成交
+      desc: 对标拆解建立素材库/选题库/文案库，爆款四要素(封面统一大字报/文案黄金3秒钩子/BGM卡点/剪辑节奏快)；私域钩子(源文件/模板/素材包/配色表)转化率远高于电子书；朋友圈三段式(专业/生活/营销5:3:2)；咨询式成交五步法(诊断/痛点/方案/案例/促单)。
+      role: experiment
+      src:
+      - paper: docs/202305/20230516_085.md
+    - 'no': 7
+      name: 1对1陪跑验证课程大纲：高价陪跑(2999/4999)打磨SOP+FAQ→降维标品(299/599/999)规模化
+      desc: 在‘被逼着’解决奇葩问题中打磨标准化课程，验证MVP思维。
+      role: method
+      src:
+      - paper: docs/202305/20230516_085.md
+    - 'no': 8
+      name: 统一封面风格显著提升主页转粉率：从个位数到10%+
+      desc: 验证‘视觉一致性=专业信任感’转化逻辑。
+      role: finding
+      src:
+      - paper: docs/202305/20230516_085.md
+    - 'no': 9
+      name: 写作BOSS模式：从写手到老板，搭建获客渠道+私域转化+写手团队+AI降本增效
+      desc: 多平台矩阵(拼多多/淘宝/闲鱼/小红书/抖音/视频号)开店避坑；私域物理隔离微信账号分层定价(微信A接高客单/微信B接拼多多)，同质服务利润差40%+；合规引流话术库(拼多多发文件/截图、闲鱼电话/图片、小红书大小号联动、抖音粉丝群小号托管)；三类客户分级过滤低价比价型；ChatGPT辅助SOP(角色设定→大纲→分段写作→口语化润色→搜爆文要素反哺指令)；写手团队四阶段进化(外包同行→兼职写手→收费招募培训→整合上游渠道成供给中心)。
+      role: method
+      src:
+      - paper: docs/202305/G2Zwdm2H7ol8FYxHEn7c0H2dn3c.md
+    - 'no': 10
+      name: 回忆录代写赛道：高客单(1-2万+)、复购低推荐高、年增长10%蓝海
+      desc: 核心难点在于获客而非写作难度，按方法做年遇2客即可年入5万+。
+      role: extension
+      src:
+      - paper: docs/202305/G2Zwdm2H7ol8FYxHEn7c0H2dn3c.md
+    - 'no': 11
+      name: 315等节点主动下架商品链接避险：保全大店存活，风波过后再上架
+      desc: 平台集中打击虚拟类目生存策略实测有效。
+      role: limitation
+      src:
+      - paper: docs/202305/G2Zwdm2H7ol8FYxHEn7c0H2dn3c.md
+    - 'no': 12
+      name: 服务质量超预期是高复购(70%+)唯一护城河：拒绝一次性生意，定金验收机制建立安全感
+      desc: 单客下单10次以上为常态，LTV最大化。
+      role: theorem
+      src:
+      - paper: docs/202305/G2Zwdm2H7ol8FYxHEn7c0H2dn3c.md
+    - 'no': 13
+      name: 执行力与隐性资本(作息/习惯/读书)决定上限：项目技术含量低，核心竞争力在于长期主义执行力
+      desc: 早睡早起、运动、读书等‘内功心法’支撑身心状态是持续盈利真正护城河。
+      role: theorem
+      src:
+      - paper: docs/202305/ZbFEdhEwsoqaNnxXzRicjWQOnkd.md
+    - 'no': 14
+      name: 团队管理：极度透明+鼓励单干+利益分配谈判
+      desc: 开放核心SOP、鼓励员工出去单干倒逼自身迭代、学会后再谈利益分成，解决情绪利益冲突实现共赢。
+      role: extension
+      src:
+      - paper: docs/202305/ZbFEdhEwsoqaNnxXzRicjWQOnkd.md
+  - 'no': 8
+    name: 快手知识付费 —— 被低估平台的‘短链路正反馈’与‘认知套利’红利
+    desc: 本章基于杨小六(大厂研发转创业)实战，拆解快手知识付费闭环：无需资质/私域、操作步骤少、1-3天出单正反馈；易知课堂零资质入驻(199押金/万粉免)；双维度蓝红海判定法(需求缺口法/ROI法)与赛道双维度分类矩阵(竞争程度×流量来源)；视频混剪去重技术栈、无人直播自动化体系、课程焦虑贩卖论与冲动消费变现模型。
+    nodes:
+    - 'no': 1
+      name: 平台认知套利定理：主流偏见(流量低/用户low/单价低)集体忽视快手，形成结构性红利窗口
+      desc: 竞争强度显著低于抖音/视频号/小红书，适合资源匮乏小白切入。团队操作发现‘非常被低估的赛道’。
+      role: motivation
+      src:
+      - paper: docs/202305/Dy8mdu2JUoyQYRx2UnocHwOinaf.md
+    - 'no': 2
+      name: 短链路正反馈生存法则：闭环最短+正反馈最快(1-3天出单)，建立信心支撑长期主义
+      desc: 少一步骤少很多坑(私域封号劝退)；必须强制执行‘至少跑一个月’止损线，克服频繁切项目死循环。
+      role: method
+      src:
+      - paper: docs/202305/Dy8mdu2JUoyQYRx2UnocHwOinaf.md
+    - 'no': 3
+      name: 易知课堂零资质入驻：无需授课资质、销量评论可编、仅199押金(万粉免)
+      desc: 配合快手小程序挂载实现交易闭环，极大降低准入门槛。
+      role: definition
+      src:
+      - paper: docs/202305/Dy8mdu2JUoyQYRx2UnocHwOinaf.md
+    - 'no': 4
+      name: 双维度蓝红海判定法：需求缺口法(搜索量大内容供给不足)+ROI法(投入低产出高)
+      desc: 打破‘人多即红海’误区，强调需求端与供给端动态匹配。
+      role: method
+      src:
+      - paper: docs/202305/Dy8mdu2JUoyQYRx2UnocHwOinaf.md
+    - 'no': 5
+      name: 赛道双维度分类矩阵：竞争程度(红海/小蓝海/蓝海)×流量来源(自然推荐/搜索主动)
+      desc: 指导不同资源玩家选匹配打法：红海走推荐流量靠量堆、搜索流量靠SEO精打磨。
+      role: method
+      src:
+      - paper: docs/202305/Dy8mdu2JUoyQYRx2UnocHwOinaf.md
+    - 'no': 6
+      name: 红海细分定位法：极致细分寻找用户心智未被占据净土
+      desc: 小学教材→小学英语→五年级英语；女装→微胖女装→162cm微胖→梨形身材微胖。低成本切入建立差异化优势。
+      role: method
+      src:
+      - paper: docs/202305/Dy8mdu2JUoyQYRx2UnocHwOinaf.md
+    - 'no': 7
+      name: 视频混剪去重技术栈：多视频改码率拼接/画中画/掐头去尾变速遮挡调色/实拍屏幕录制(绝对去重但观感差)
+      desc: 配合‘首发搬运国外新视频(3天内)’策略获取原创标签。油管/TikTok一键下载最新视频直接发。
+      role: method
+      src:
+      - paper: docs/202305/Dy8mdu2JUoyQYRx2UnocHwOinaf.md
+    - 'no': 8
+      name: 无人直播自动化成交：不挂车挂小程序不封号规则红利
+      desc: 播放课程录播+语音定时唤醒引导点击小程序购课+投流视频导流，高频强化转化路径。淘宝几块钱买软件教程全套。
+      role: method
+      src:
+      - paper: docs/202305/Dy8mdu2JUoyQYRx2UnocHwOinaf.md
+    - 'no': 9
+      name: 起号核心SOP：找对标先照抄，前两秒有爆点
+      desc: 数据会告诉你答案，先发再修正，用市场反馈倒逼内容升级。
+      role: method
+      src:
+      - paper: docs/202305/Dy8mdu2JUoyQYRx2UnocHwOinaf.md
+    - 'no': 10
+      name: 课程焦虑贩卖论：卖的非知识内容，而是缓解焦虑/获得上进虚假满足的情绪价值
+      desc: 后台总完播率不超10%，用户买买意思意思极少真学。课程销量/评论可自编造(包装安慰剂)。
+      role: theorem
+      src:
+      - paper: docs/202305/Dy8mdu2JUoyQYRx2UnocHwOinaf.md
+    - 'no': 11
+      name: 冲动消费变现模型：擦边诱饵视频引流+低价工具课(如TikTok安装教学)，将生理/心理冲动转化即时购买
+      desc: 近2-3个月兴起，纯视频挂载即可跑通，无人直播优化空间巨大。
+      role: method
+      src:
+      - paper: docs/202305/Dy8mdu2JUoyQYRx2UnocHwOinaf.md
+    - 'no': 12
+      name: 利他链接复利论：社群核心资产是‘人与人链接’而非可复制信息
+      desc: 通过‘毫不私藏利他分享’建立信任连接，获取不可窃取的高阶人脉资源(贵人/合伙人/同路人)。真诚是社交最大杀手锏。
+      role: theorem
+      src:
+      - paper: docs/202305/Dy8mdu2JUoyQYRx2UnocHwOinaf.md
+    - 'no': 13
+      name: 内容即诱饵/课程即解药模型：短视频筛选‘有焦虑/有冲动’人群，课程缓解焦虑
+      desc: 转化率取决于‘诱饵精准度’与‘安慰剂包装度(销量/评论造假)’。
+      role: theorem
+      src:
+      - paper: docs/202305/Dy8mdu2JUoyQYRx2UnocHwOinaf.md
+    - 'no': 14
+      name: 实证：养号非必要性验证(不养号直接发内容同样跑数)、办公软件红海照抄喝汤、编程教学跨平台迁移喝汤吃肉
+      desc: 判断账号权重简易标准：搬运美女视频测播放量>几百。新手出单周期分布：最快当天、最长6天未出单(后续出单)。
+      role: experiment
+      src:
+      - paper: docs/202305/Dy8mdu2JUoyQYRx2UnocHwOinaf.md
+  - 'no': 9
+    name: 二手奢侈品(二奢) —— 重轻资产协同与资金周转杠杆的生死博弈
+    desc: 本章复盘凡响从零入局二奢一年完整历程：十个阶段从试错、野蛮生长、错误决策崩盘、破釜沉舟转型至起死回生。核心揭示‘供应链-中间商-消费者’流通逻辑、三分货盘分层、资金周转杠杆模型、轻重资产协同生存法则、同行社交裂变、鉴定师证书准入资产、全渠道货源地图、分层出货策略、风控三重防线、直播间标准化复制模板。
+    nodes:
+    - 'no': 1
+      name: 二奢赛道‘下行期红利’判断：经济下行催生奢侈品需求旺盛(文明6灵感)、全球40%奢侈品流入中国、头部家族企业天花板低
+      desc: 判断存在巨大结构性机会，适合无背景创业者切入。
+      role: motivation
+      src:
+      - paper: docs/202305/20230516_104.md
+    - 'no': 2
+      name: 资金门槛即唯一硬门槛：无技术/品牌/渠道绝对壁垒，唯一硬门槛是前期资金(或信用卡额度)
+      desc: 有资金有稳定货源即可分羹，鉴定/运营/销售可速成或外包。
+      role: definition
+      src:
+      - paper: docs/202305/20230516_104.md
+    - 'no': 3
+      name: 三分货盘分层理论：全新爆款(高周转薄利/海外买手/专柜折扣/15天物流3天抛售/单件利润1000+) + 中古深库存(非标高毛利/鉴定眼光)
+        + 二奢利润品(现代款标准化中/核心利润)
+      desc: 根据资金实力与团队能力选择匹配货盘结构。
+      role: method
+      src:
+      - paper: docs/202305/20230516_104.md
+    - 'no': 4
+      name: 资金周转杠杆模型：月利润=自有资金×周转次数/月×单次毛利率，资金流动比例3:1(压货:流动)、动销率决定收益上限
+      desc: 150万资金月转300万业务利润30万；日出货3件月转1圈利润5万、9件则15万。非单纯规模扩张。
+      role: definition
+      src:
+      - paper: docs/202305/20230516_104.md
+    - 'no': 5
+      name: 轻重资产协同生存法则：重资产供应链(压货/鉴定/仓储)与轻资产直播间(流量/转化/客服)剥离深度绑定
+      desc: 直播间解决供应链动销率难题，供应链解决直播间货源稳定成本难题，中间商赚‘信息差+资金周转效率差’。
+      role: theorem
+      src:
+      - paper: docs/202305/20230516_104.md
+    - 'no': 6
+      name: 同行社交裂变增长法：建60+同行群、微商相册高频发圈(日更100条详细描述词)、养号1个月+单日加好友≤12人+换群间隔3h/次≤10人+广告图≤3张/4h
+      desc: 同行即客户/供应商/情报源，低成本获取双向流量。
+      role: method
+      src:
+      - paper: docs/202305/20230516_104.md
+    - 'no': 7
+      name: 鉴定师证书准入资产：7天脱产2万学费考证，建立‘小绿牌’标准化信任体系，降低收货风控成本，随行业规范化升值
+      desc: 新人必须考证，不仅为了技能更为信任背书。
+      role: method
+      src:
+      - paper: docs/202305/20230516_104.md
+    - 'no': 8
+      name: 飞阅会决策机制：高频结构化快速决策会议，解决服务/收费/方向/分工关键节点，强制对齐认知压缩试错周期
+      desc: 早期小团队混沌中提取确定性的核心管理工具。
+      role: method
+      src:
+      - paper: docs/202305/20230516_104.md
+    - 'no': 9
+      name: 全渠道货源地图构建法：闲鱼/小红书搜关键词引流加微→微信群/包展/LGE展会线下→奢当家SaaS/大型回收商/洗护平台/日本中古交易所/得物供货→个人卖家直收
+      desc: 建立‘渠道-品类-价格-周转’数据库实现定向找货。
+      role: method
+      src:
+      - paper: docs/202305/20230516_104.md
+    - 'no': 10
+      name: 分层出货分销策略：标品/高周转→闲鱼/得物/同行群批发/固定直播间长供；非标/高毛利→包展/私域高净值/定向直播间；积压尾货→包展清仓/同行低收
+      desc: 核心原则：快进快出，资金不沉淀。
+      role: method
+      src:
+      - paper: docs/202305/20230516_104.md
+    - 'no': 11
+      name: 风控三重防线：闲鱼验货宝(78元含赔)→本地鉴定师(30不包赔/90包赔/软件辅助)→深度绑定鉴定师关系(免费/优先) + 小绿牌标准化流转
+      desc: 将假货风险控制在可承受成本内。
+      role: method
+      src:
+      - paper: docs/202305/20230516_104.md
+    - 'no': 12
+      name: 直播间标准化复制模板：达人流量号(不可复制/全品类联盟/月利15万) vs 精品标品号(可复制/2人配置/垂类二奢包包/月利10万)
+      desc: 以精品号为模板，供应链绑定+切片引流+12小时双场实现团队规模化复制。
+      role: method
+      src:
+      - paper: docs/202305/20230516_104.md
+    - 'no': 13
+      name: 崩盘源于‘重轻失衡与资源错配’：资源倾斜重运营/长周期/低毛利直播部门，导致现金奶牛(同行贸易)断奶、资金链断裂、核心骨干离职
+      desc: 教训：现金流业务优先保障，品牌业务在现金流安全垫之上建设。
+      role: limitation
+      src:
+      - paper: docs/202305/20230516_104.md
+    - 'no': 14
+      name: 革命友谊>商业契约：共同经历生死、相互补位、系统性思考高效执行的信任关系，是穿越周期实现反转根本原因
+      desc: 作者与合伙人、核心骨干建立此类关系，而非依赖商业条款。
+      role: theorem
+      src:
+      - paper: docs/202305/20230516_104.md
+    - 'no': 15
+      name: 实证：崩盘重组后‘轻量化直播’单月GMV 700万→1000万→1500万峰值、月利稳定30万+
+      desc: 裁员至2主播+最低配、无底薪纯分成、外部供应链深度绑定、极致精简+外包供应链+内容引流模式验证可行。
+      role: experiment
+      src:
+      - paper: docs/202305/20230516_104.md
+    - 'no': 16
+      name: 实证：前员工拆分4小团队(各3-5人)反而人均效能利润率更高：中古团月转300万2圈利润60万、定向找货团月利十几万、快进快出团50万资金滚动、门店对接团单人月入十几万
+      desc: 印证‘大公司病’与‘资源错配’是原公司亏损主因，轻量化协作更优。
+      role: experiment
+      src:
+      - paper: docs/202305/20230516_104.md
+    - 'no': 17
+      name: 实证：全新爆款‘15天物流+3天抛售’单件净利1000元、桐庐同行闲鱼模式月GMV200万利润20万资金需100万
+      desc: 资金占用周期短、标品易管、周转极快，100-150万级别中间商最优切入标品。
+      role: experiment
+      src:
+      - paper: docs/202305/20230516_104.md
+  - 'no': 10
+    name: 出海Mediabuy品牌词竞价 —— Google Ads+Awin联盟的‘近零成本套利’单人百万年收入模型
+    desc: 本章深度解析M0hMdjWj3o8WtNxZdv4cLnfenIh素材：利用Google Ads竞价商家品牌词(或竞品词)直接导向联盟链接，品牌词CPC无限接近0(实操稳定0.01当地货币)、EPC很少低于0.01，只要CPC<EPC即稳定盈利。三组真实账户数据验证ROI
+      359%-496%，港币账户成本再降7倍，模式运行十余年非短期漏洞。
+    nodes:
+    - 'no': 1
+      name: 品牌词近零成本定理：极高相关性质量得分满分+缺乏竞争→实际CPC无限接近0(稳定0.01当地货币)
+      desc: 项目高利润的物理基础。
+      role: theorem
+      src:
+      - paper: docs/202305/M0hMdjWj3o8WtNxZdv4cLnfenIh.md
+    - 'no': 2
+      name: 商家品牌词授权光谱：显性允许/默许/仅禁止自有品牌词允许竞品词三层级
+      desc: 项目可行性建立在‘总能找到允许竞价的大品牌Offer’市场现实上。非全违规。
+      role: theorem
+      src:
+      - paper: docs/202305/M0hMdjWj3o8WtNxZdv4cLnfenIh.md
+    - 'no': 3
+      name: CPC/EPC套利数学模型：CPC<EPC即稳定盈利，品牌词CPC压至0.01以下、联盟Offer EPC很少低于0.01$
+      desc: 三组实证：账户组1 ROI368%(佣金5715$/花费1220$)、账户组2 ROI496%(7218$/1210$)、账户组3 ROI359%(3988$/867$)。实时后台快照+单日损益更新佐证自动化运行状态。
+      role: definition
+      src:
+      - paper: docs/202305/M0hMdjWj3o8WtNxZdv4cLnfenIh.md
+    - 'no': 4
+      name: 标准化三步执行流程：准备Google Ads账户(个人/代理)→注册Awin联盟筛选大品牌词Offer申请→创建搜索广告竞价品牌词/竞品词直链联盟追踪链接(无需自建落地页)
+      desc: 降低技术门槛和审核风险。
+      role: method
+      src:
+      - paper: docs/202305/M0hMdjWj3o8WtNxZdv4cLnfenIh.md
+    - 'no': 5
+      name: 极低成本出价策略：最高CPC设0.01当地货币，港币账户成本再降至少7倍(0.01HKD≈0.0013USD)
+      desc: 实现流量成本最小化。
+      role: method
+      src:
+      - paper: docs/202305/M0hMdjWj3o8WtNxZdv4cLnfenIh.md
+    - 'no': 6
+      name: Offer筛选启发式规则：大体量品牌词+允许竞价品牌词+EPC显著>0.01$+双周支付周期(现金流安全)
+      desc: 优先选择Awin等信誉好、大品牌多、允许品牌词竞价的联盟。
+      role: method
+      src:
+      - paper: docs/202305/M0hMdjWj3o8WtNxZdv4cLnfenIh.md
+    - 'no': 7
+      name: 长期可行性断言：模式运行十余年，三方博弈(商家需流量/联盟需推广/Google需广告收)平衡点长期存在
+      desc: 虽受合规收紧影响但平衡点存续。单人年净利破100万‘非常轻松’。
+      role: extension
+      src:
+      - paper: docs/202305/M0hMdjWj3o8WtNxZdv4cLnfenIh.md
+  - 'no': 11
+    name: 生财思维通用方法论 —— 像素级拆解/逆向工程/模仿/小步快跑/批量复制的底层逻辑
+    desc: 本章提炼贯穿全书的‘生财思维’通用方法论：从DGw1dYHSsohHu7x1AXhc4cQVnEN(视频定制直播)等案例中抽象出的发现异常值、像素级拆解逆向工程、像素级模仿、水土不服人群匹配度、废号资产化、流量密码迁移、形式大于内容直播形式可迁移性、复购率核心指标、方法论资产>单个项目收益等核心认知工具。
+    nodes:
+    - 'no': 1
+      name: 异常值发现：在常态分布中识别显著偏离个案(无人播弱交互却高场观高互动高客单)作为潜在机会信号
+      desc: 选品/选题起点方法论。
+      role: motivation
+      src:
+      - paper: docs/202305/DGw1dYHSsohHu7x1AXhc4cQVnEN.md
+    - 'no': 2
+      name: 像素级拆解/逆向工程：对标杆全链路全细节复现式分析(进直播间/扫码/加微/客服话术/下单/交付/朋友圈运营每个像素动作记录还原)
+      desc: 获取完整商业闭环SOP。
+      role: method
+      src:
+      - paper: docs/202305/DGw1dYHSsohHu7x1AXhc4cQVnEN.md
+    - 'no': 3
+      name: 像素级模仿：1:1复刻标杆头像/简介/企微/自动回复/直播间搭建/OBS场景/标点符号，降低认知负荷规避试错快速达及格线
+      desc: 执行层面‘先抄再超’策略。
+      role: method
+      src:
+      - paper: docs/202305/DGw1dYHSsohHu7x1AXhc4cQVnEN.md
+    - 'no': 4
+      name: 水土不服/人群匹配度：同一产品不同平台/年龄层/需求场景转化率巨大差异
+      desc: 调整素材(广州塔→美女试驾)实现人货场匹配，转化率指数级跃升。抖音年轻化vs视频号老年化。
+      role: method
+      src:
+      - paper: docs/202305/DGw1dYHSsohHu7x1AXhc4cQVnEN.md
+    - 'no': 5
+      name: 废号资产化：违规扣分限流即将报废账号作为低成本测试载体，高频短时直播榨取残余流量价值，规避主力账号风险
+      desc: 沉没成本边际收益最大化。
+      role: method
+      src:
+      - paper: docs/202305/DGw1dYHSsohHu7x1AXhc4cQVnEN.md
+    - 'no': 6
+      name: 流量密码可迁移性：美女/试驾梗素材可跨项目迁移(AI虚拟主播/带货)，核心是降低主播技能门槛提高单位时间产出比
+      desc: 直播形式本身具有跨品类复用价值。
+      role: extension
+      src:
+      - paper: docs/202305/DGw1dYHSsohHu7x1AXhc4cQVnEN.md
+    - 'no': 7
+      name: 低成本验证优于完美策划：8元模板+废号+现有电脑<1100元成本跑通商业闭环(首单/百单)，真实交易数据检验需求唯一标准
+      desc: 不到一个月赚2万+，800元电脑第一场回本。
+      role: theorem
+      src:
+      - paper: docs/202305/DGw1dYHSsohHu7x1AXhc4cQVnEN.md
+    - 'no': 8
+      name: 平台风控红利期有窗口期不可对抗只能利用：快进快出榨取价值(废号轮播)而非硬刚平台(蓝V认证/开小店交保证金)
+      desc: 接受项目非长期主义属性，不想和平台对抗。蓝V认证疑系统Bug照样判引流。
+      role: limitation
+      src:
+      - paper: docs/202305/DGw1dYHSsohHu7x1AXhc4cQVnEN.md
+    - 'no': 9
+      name: 形式大于内容：直播形式可迁移性(AE改文字直播→AI绘画/AI聊天/虚拟主播带货)，核心降低主播技能门槛提高产出比
+      desc: 无需主播高强度输出、互动机制强、标准化交付。
+      role: extension
+      src:
+      - paper: docs/202305/DGw1dYHSsohHu7x1AXhc4cQVnEN.md
+    - 'no': 10
+      name: 复购率是非标产品商业模式可行性核心指标：单价30元非标定制视频，无高复购(最多20单/人)LTV无法覆盖获客成本
+      desc: 高复购证明‘情绪价值/社交货币’需求真实性与高频性，是项目从‘赚快钱’向‘做生意’演进基石。
+      role: theorem
+      src:
+      - paper: docs/202305/DGw1dYHSsohHu7x1AXhc4cQVnEN.md
+    - 'no': 11
+      name: 方法论资产>单个项目收益：单个项目生死由外部环境决定不可控，但内化方法论(像素级拆解/模仿/优化/复制)、识别流量密码嗅觉、直播形式抽象模型可跨周期跨赛道复利
+      desc: 获得信心，下次遇到新项目有更大把握。生财思维熏陶让路走得顺畅。
+      role: theorem
+      src:
+      - paper: docs/202305/DGw1dYHSsohHu7x1AXhc4cQVnEN.md
+    - 'no': 12
+      name: 实证：项目单周期盈利<1个月赚2万+、引流微信几百人、单价30元最高复购20单、单场峰值收款1000+、ROI极高
+      desc: 成本8元模板+800元电脑+300元/年企微认证≈1100元。
+      role: experiment
+      src:
+      - paper: docs/202305/DGw1dYHSsohHu7x1AXhc4cQVnEN.md
+    - 'no': 13
+      name: 实证：素材/人群匹配决定性影响验证——同账号同流量同话术下，素材A(广州塔/表白/年轻)日单<3转化率~0.015% vs 素材B(美女试驾/商务/中老年)单场1分钟破万场观收款1000+转化率~0.5-1%
+      desc: 证明‘人货场’匹配度是转化率第一性原理。
+      role: experiment
+      src:
+      - paper: docs/202305/DGw1dYHSsohHu7x1AXhc4cQVnEN.md
+    - 'no': 14
+      name: 实证：废号直播流量表现优于带货期——同批账号带货仅几十场观，切换视频定制稳稳几万场观
+      desc: 侧面证实‘内容/赛道决定流量上限，账号权重仅影响下限’，平台对新颖非带货内容给予冷启动红利。
+      role: experiment
+      src:
+      - paper: docs/202305/DGw1dYHSsohHu7x1AXhc4cQVnEN.md
+    - 'no': 15
+      name: 实证：平台风控触发阈值(单场3-4万场观/超1小时/高频引导加微必触发引流判定直播掐断)、蓝V豁免无效、开小店需保证金资质
+      desc: 该模式属‘灰产/擦边’生命周期短，对抗成本>收益。
+      role: limitation
+      src:
+      - paper: docs/202305/DGw1dYHSsohHu7x1AXhc4cQVnEN.md
+    - 'no': 16
+      name: 实证：主动精准获客转化率高但规模化难——按成交客户画像(老板/销售)主动搜加微信通过率高意向强，但人工耗时耗力单位时间产出低，适合高客单>千元业务
+      desc: 不适合30元低客单价产品。
+      role: limitation
+      src:
+      - paper: docs/202305/DGw1dYHSsohHu7x1AXhc4cQVnEN.md
+    - 'no': 17
+      name: AI虚拟主播为该直播形式最优进化方向：完美替代真人、规避风控/颜值/精力限制、实现7x24小时无人直播
+      desc: 技术终局推演。
+      role: extension
+      src:
+      - paper: docs/202305/DGw1dYHSsohHu7x1AXhc4cQVnEN.md
+  - 'no': 12
+    name: 工具开发与模式复制 —— 从‘巨量百应插件’到‘选品-素材-变现’一体化的商业化闭环
+    desc: 本章复盘U2lPdc1ayoNSPUxgsNfcEXrXn1d素材：自研浏览器插件打通巨量百应后台实现创意中心/选品中心/热门话题爆款视频批量无水印下载，替代考古加/亨亨猫等第三方付费工具；MVP手工验证视频号搬运带货跑通(10条视频出单3.43元)；工具上线后单账号爆发但高不确定性(最坏23.76元/结果可能0)；私域招募小白模式复制受限于执行力与账号质量瓶颈(作者需亲自每天分发素材走QQ防压缩)；成本替代效应量化：单用户年省540元+会员费。
+    nodes:
+    - 'no': 1
+      name: 官方后台数据源优于第三方采集源：巨量百应权威性/实时性/准确性最高，第三方数据二次筛选存在滞后失真
+      desc: 工具切入点核心认知。
+      role: theorem
+      src:
+      - paper: docs/202305/U2lPdc1ayoNSPUxgsNfcEXrXn1d.md
+    - 'no': 2
+      name: 工具即入场券，模式复制才是放大器：自研工具解决获取素材效率成本(省会员费)，但单账号上限有限；私域招募/统一选品分发/标准化SOP模式复制才能突破时间瓶颈指数级放大
+      desc: PS：想赚更多钱，就去复制模式。
+      role: theorem
+      src:
+      - paper: docs/202305/U2lPdc1ayoNSPUxgsNfcEXrXn1d.md
+    - 'no': 3
+      name: 账号权重/运营能力是同素材变现结果核心变量：同素材分发不同账号结果极大方差(当天见效vs 0收益)，素材必要条件，运营能力充分条件
+      desc: 账号养成/标签精准度/发布时机等运营能力决定上限。
+      role: finding
+      src:
+      - paper: docs/202305/U2lPdc1ayoNSPUxgsNfcEXrXn1d.md
+    - 'no': 4
+      name: 需求挖掘验证：星球高频提及‘巨量百应选品’+用户评论‘想下载视频’→购买竞品‘考古加’实测三大硬伤(无法直接下载/数据非一手/依赖第三方下载器)确立自研切入点
+      desc: 市场痛点明确验证。
+      role: experiment
+      src:
+      - paper: docs/202305/U2lPdc1ayoNSPUxgsNfcEXrXn1d.md
+    - 'no': 5
+      name: MVP手工验证：3月份手动搬运约10条视频至视频号实现出单(首单佣金3.43元)，验证商业闭环可行性
+      desc: 工具开发前最小闭环跑通。
+      role: experiment
+      src:
+      - paper: docs/202305/U2lPdc1ayoNSPUxgsNfcEXrXn1d.md
+    - 'no': 6
+      name: 工具上线实战：自用账号进入爆发期但后续展示‘最坏结果23.76元/结果可能0’，揭示单账号运营高不确定性
+      desc: 截图显示视频‘在爆’但收益波动大。
+      role: experiment
+      src:
+      - paper: docs/202305/U2lPdc1ayoNSPUxgsNfcEXrXn1d.md
+    - 'no': 7
+      name: 私域模式复制实验：4.18招募小白统一供料(选品+素材)，最好记录当天发当天见效，但普遍‘最差结果0/小白自己选品难’，作者亲自每天分发素材(走QQ防压缩)，模式复制边际成本高标准化程度低
+      desc: 执行力与账号质量成为瓶颈。
+      role: limitation
+      src:
+      - paper: docs/202305/U2lPdc1ayoNSPUxgsNfcEXrXn1d.md
+  - 'no': 13
+    name: 虚拟资料变现通用方法论 —— 从选品验证到私域高客单成交的标准化闭环
+    desc: 本章融合黄岛主(小红书虚拟)、饭饭(写作店铺/回忆录)、三恒(资料整理引流)、静水流深(Wise推荐套利)等案例，提炼虚拟产品‘零边际成本、可无限复售、跨平台套利’的底层逻辑，构建从赛道挖掘、选品验证、内容生产、私域引流、分层变现到风控规避的通用SOP。
+    nodes:
+    - 'no': 1
+      name: 虚拟产品纯利润属性：零边际成本、无库存压力、可无限复售
+      desc: 变现收入即为纯利润，是互联网创业低门槛首选。
+      role: definition
+      src:
+      - paper: docs/202305/20230516_033.md
+    - 'no': 2
+      name: 淘上红选品模式：利用淘宝成熟销量/搜索/转化数据筛选验证过的虚拟热品，迁移至小红书分发引流
+      desc: 降低选品试错成本，电商平台数据直观展现真实需求。
+      role: method
+      src:
+      - paper: docs/202305/20230516_033.md
+    - 'no': 3
+      name: 词根三级挖掘体系：通用词根→行业词根→细分领域词根，层层递进挖掘长尾蓝海赛道
+      desc: 如启蒙→英语启蒙→蓝色考拉/反霸凌启蒙绘本。
+      role: method
+      src:
+      - paper: docs/202305/20230516_033.md
+    - 'no': 4
+      name: 三维选品验证指标：搜索人气(需求量)+成交转化(支付意愿)+直通车成交笔数(实锤销量)
+      desc: 剔除伪需求，反霸凌启蒙绘本成交笔数324单、搜索人气高，验证为高需求低竞争蓝海品类。
+      role: method
+      src:
+      - paper: docs/202305/20230516_033.md
+    - 'no': 5
+      name: 五步私域成交话术模型：开场提问→鉴定白嫖→发报价→收钱发货→补差价追销升单会员
+      desc: 标准化私域销售流程，单品15元引流，补差价34.9元升级49.9元会员群(500G+资料)，提升LTV。
+      role: method
+      src:
+      - paper: docs/202305/20230516_033.md
+    - 'no': 6
+      name: 白嫖用户分层运营：免费给少量资料建立好感纳入私域池长期培育，等待后续转化时机
+      desc: 拒绝付费用户边际成本为零，互惠心理建立信任账户。
+      role: method
+      src:
+      - paper: docs/202305/20230516_033.md
+    - 'no': 7
+      name: 写作店铺代写模式：闲鱼/淘宝/拼多多/抖音开店售卖定制文案服务(回忆录/演讲稿/公文/软文)
+      desc: 轻资产、无需囤货发货，仅靠键盘和脑子，普通人易复制、门槛低、抗风险强。
+      role: method
+      src:
+      - paper: docs/202305/20230516_049.md
+    - 'no': 8
+      name: 蓝海细分赛道策略：避开红海竞争，聚焦‘写回忆录’、‘写演讲稿’等具体垂直需求
+      desc: 利用人口老龄化红利及特定人群刚需，小团队可深耕利基市场。
+      role: method
+      src:
+      - paper: docs/202305/20230516_049.md
+    - 'no': 9
+      name: 资料整理杠杆模型：复制边际成本近零、可叠加资本/劳动力杠杆，但单纯卖资料天花板低
+      desc: 核心在于利用资料作为‘钩子’筛选高意向付费用户沉淀私域，再通过‘附加产品/解决方案’(咨询/训练营/高客单课程)实现高客单价转化。
+      role: method
+      src:
+      - paper: docs/202305/BzIfdvAQloqLImxjEhKcERAXn5f.md
+    - 'no': 10
+      name: 变现分层漏斗：低价资料(筛选付费意向)→咨询服务(建立信任/挖掘需求)→高客单产品/体系课(核心利润/复利)
+      desc: 三层递进结构，资料只是获取真实用户的媒介，核心是打磨自有产品体系。
+      role: method
+      src:
+      - paper: docs/202305/BzIfdvAQloqLImxjEhKcERAXn5f.md
+    - 'no': 11
+      name: 头条号自动回复引流法：发布爆款贴后自动发送微信号/网盘链接至私信，无人值守、低封号风险规模化引流
+      desc: 利用头条号后台关键词自动回复功能实现全自动化闭环。
+      role: method
+      src:
+      - paper: docs/202305/BzIfdvAQloqLImxjEhKcERAXn5f.md
+    - 'no': 12
+      name: 私域双号风控体系：至少两个微信号分流加好友，配合支付宝/其他收款方式分离收款，规避高频加好友限流及收款风控
+      desc: 避免微信高频加好友限流及高频收款风控导致资金冻结。
+      role: method
+      src:
+      - paper: docs/202305/BzIfdvAQloqLImxjEhKcERAXn5f.md
+    - 'no': 13
+      name: 咨询式成交话术与红包复投模型：低价咨询费(200元)建立信任→问题解决后引导用户自发发红包(88-120元)强化互惠→基于消费能力推荐高客单产品
+      desc: 单用户即时ARPU提升超100%，为后续推销高客单产品铺平道路。
+      role: method
+      src:
+      - paper: docs/202305/BzIfdvAQloqLImxjEhKcERAXn5f.md
+    - 'no': 14
+      name: Wise推荐计划套利：Google/Bing搜索广告竞价品牌词(单次点击成本0.01-0.02英镑)→每笔50英镑佣金，单日佣金超万英镑
+      desc: 利用认知差距与执行力，广告成本可忽略不计，Wise信誉好结算快，适合单人深耕。
+      role: method
+      src:
+      - paper: docs/202305/20230516_050.md
 - 'no': 4
-  chapters: []
+  chapters:
+  - 'no': 1
+    name: 投资择时体系 —— 用单一核心指标穿越牛熊周期
+    desc: 本章建立一套可复用的A股择时框架：摒弃宏观预测与情绪博弈，仅凭「股债性价比」这一锚定指标，结合技术趋势确认拐点，区分系统性与结构性行情，指导普通投资者仅在确定性最高的系统性底部重仓，其余时间小仓位生存。
+    nodes:
+    - 'no': 1
+      name: 择时的本质：非预测，乃性价比轮动
+      desc: 揭示择时不是猜顶底，而是基于股票长期风险溢价逻辑，在股债性价比极端区间进行大类资产配置轮动。
+      role: motivation
+      src:
+      - paper: docs/202305/20230516_045.md
+    - 'no': 2
+      name: 核心锚定指标：股债性价比的定义与计算
+      desc: 定义沪深300股债性价比 = (1/PE_TTM) / 十年国债收益率，长期在1.5-3.0区间波动，>3.0为买入区，<1.5为卖出区。
+      role: definition
+      src:
+      - paper: docs/202305/20230516_045.md
+    - 'no': 3
+      name: 拐点确认辅助工具：技术分析仅用于高位验证
+      desc: 技术分析（均线趋势）不预测，仅在估值已达极端区（接近1.5）时确认趋势反转（跌破支撑），解决“具体拐点数值不可知”问题。
+      role: method
+      src:
+      - paper: docs/202305/20230516_045.md
+    - 'no': 4
+      name: 行情分类识别：系统性底部 vs 结构性底部
+      desc: 用四大风格象限估值一致性判断：四风格均便宜=系统性底部（买什么都赚，适合普通人重仓）；风格分化=结构性底部（仅适合专业选手选品）。
+      role: method
+      src:
+      - paper: docs/202305/20230516_045.md
+    - 'no': 5
+      name: 三大干扰因子清单：宏观、事件、情绪全忽略
+      desc: 列举并论证为何突发事件/地缘、财政货币宏观数据、投资者情绪观察均不应作为择时依据，远期影响已定价于无风险利率。
+      role: limitation
+      src:
+      - paper: docs/202305/20230516_045.md
+    - 'no': 6
+      name: 普通投资者生存法则：仅参与系统性行情
+      desc: 历史年化<25%者，仅在股债性价比>3.0且四风格全便宜时重仓宽基/优质主动基金，其余时间小仓位或空仓，博取确定性贝塔收益。
+      role: method
+      src:
+      - paper: docs/202305/20230516_045.md
+    - 'no': 7
+      name: 实战复盘证据：十年三次逃顶两次抄底
+      desc: 作者实盘验证：2015/2018/2021成功逃顶，2015/2018/2019抄底切换赛道，择时准确率100%，连续十年正收益。
+      role: experiment
+      src:
+      - paper: docs/202305/20230516_045.md
+  - 'no': 2
+    name: 基金选品体系 —— 好公司、好经理、好体系的“三好”筛选法
+    desc: 本章构建主动权益基金筛选的标准化流程：公司维度六大指标、经理维度三大硬指标、体系维度核心铁律（只买<50亿小规模），利用规模优势获取换仓灵活性、打新收益及迷你股超额收益。
+    nodes:
+    - 'no': 1
+      name: 为什么必须买小规模基金：容量约束与超额收益源泉
+      desc: 小规模基金（<50亿，最优<20亿）具备换仓摩擦成本低、享受打新超额收益、可参与迷你股交易三大结构性优势；大规模必然面临收益递减。
+      role: motivation
+      src:
+      - paper: docs/202305/20230516_045.md
+    - 'no': 2
+      name: Step 1：筛选头部基金公司——六大维度定性评估
+      desc: 管规模大、高管投研出身、人才梯队完善、口碑好、价值观长期主义、经理收入高；作者实测分层：强（景顺/易方达等）vs 大而不强（华夏/南方等）。
+      role: method
+      src:
+      - paper: docs/202305/20230516_045.md
+      - paper: docs/202305/20230516_045.md
+    - 'no': 3
+      name: Step 2：公司内部筛选好经理——三大硬指标
+      desc: 长期业绩居前、投决委成员身份（核心决策层）、金牛奖得主（筛掉高波动赌风格经理，如蔡嵩松无金牛奖）。
+      role: method
+      src:
+      - paper: docs/202305/20230516_045.md
+      - paper: docs/202305/20230516_045.md
+    - 'no': 4
+      name: Step 3：好体系否决权——规模>50亿一律不买
+      desc: 将规模上限设为核心否决项，而非参考项；最优标的<20亿，利用小规模结构性优势跑赢大盘。
+      role: method
+      src:
+      - paper: docs/202305/20230516_045.md
+  - 'no': 3
+    name: Web3 实战认知与方法论 —— 从摒弃偏见到落袋为安的完整闭环
+    desc: 本章以 VMPX BRC20 Mint 实战为主线，拆解 Web3 高不确定性环境下的生存法则：认知破偏见、接入 Alpha 信息源、小步试错迭代、动态
+      Gas 博弈、极端环境身心管理、CEX 上线前止盈纪律。
+    nodes:
+    - 'no': 1
+      name: 核心认知跃迁：抛弃偏见去机会多的地方
+      desc: 偏见是捕捉新赛道红利的最大拦路虎；必须强迫自己理解新事物（如 BRC20），前往流动性和热度最高的赛道试错，认知升级先于行动致胜。
+      role: motivation
+      src:
+      - paper: docs/202305/20230516_044.md
+      - paper: docs/202305/Geucd6qWAoGztLx5EOkcKmjWnQg.md
+    - 'no': 2
+      name: 运气表面积与 Alpha 信息源：主动增加遭遇好运的概率
+      desc: 保持好奇心扩大运气表面积；接入高质量社群（如七爷社群）获取已筛选的 Alpha 情报，利用他人筛选体系小步试错，机会总给行动者。
+      role: method
+      src:
+      - paper: docs/202305/Geucd6qWAoGztLx5EOkcKmjWnQg.md
+    - 'no': 3
+      name: 把鞋弄脏：亲身实操获取隐性知识
+      desc: 岸边观望永远学不会；只有下场承担风险（忍受拥堵、卡顿、Gas波动），才能获得 Gas 拉满策略、Mint 进度与网络拥堵关系等隐性知识。
+      role: method
+      src:
+      - paper: docs/202305/Geucd6qWAoGztLx5EOkcKmjWnQg.md
+    - 'no': 4
+      name: BRC20 Mint 标准作业程序 (SOP) 与动态 Gas 博弈模型
+      desc: 全流程 10 步：钱包准备→BTC获取与备用提币方案→平台选择→资料整理与 5-6 遍模拟→小额实战测试 Gas 底价→核心参数设定→开抢多渠道监控→拥堵期动态调
+        Gas→尾部窗口期提高 Gas 锁定区块→打包确认转移。实战发现 Gas 存在动态生死线：拥堵峰值期 550 仍卡死，进度 99.6% 网络缓解时
+        800 成功上车。
+      role: method
+      src:
+      - paper: docs/202305/Geucd6qWAoGztLx5EOkcKmjWnQg.md
+    - 'no': 5
+      name: 谣言套利与信息验证纪律：验证猜想、知行合一、不盲目追涨
+      desc: 面对‘技术破解代币名称’谣言，通过链上数据观察（价格 0.1→0.02→0.08）和创始人辟谣验证虚假性；因平台权限限制（Unisat积分/OG
+        PASS）未参与套利，体现纪律性。
+      role: limitation
+      src:
+      - paper: docs/202305/Geucd6qWAoGztLx5EOkcKmjWnQg.md
+    - 'no': 6
+      name: 极端环境身心管理与落袋为安纪律
+      desc: 长时间高强度博弈中，通过娱乐缓解焦虑、保持生理机能、情绪稳定、外部支持维持决策力在线；浮盈 10 倍时警惕虚空价格、前端崩溃、挂单延迟，克服贪婪及时止盈离场。
+      role: method
+      src:
+      - paper: docs/202305/Geucd6qWAoGztLx5EOkcKmjWnQg.md
+    - 'no': 7
+      name: 实战收益验证与市场微观结构洞察
+      desc: 成本 0.13，峰值 1.3（10倍），撰文时地板价 0.39（3倍）；验证 Gas 非线性阈值、谣言驱动价格畸变、CEX 上线预期与去中心化前端崩溃的套利窗口特征。
+      role: experiment
+      src:
+      - paper: docs/202305/Geucd6qWAoGztLx5EOkcKmjWnQg.md
+  - 'no': 4
+    name: 海外独立站 B2B 获客与成交 —— 内容为王、极速响应、留钩子成交
+    desc: 本章复盘 25 天成交 $4551.7 法国 B 端订单全过程：唯一靠 Google SEO 博客文章获精准流量（不做外链/技术优化）、五维判断询盘真伪、极简表单降低门槛、首轮回复拒绝自嗨执行‘针对问题-给方案-给价值’、留钩子预判需求主动提供测试文件锁单、自有框架内规避价格战实现
+      100% 毛利。
+    nodes:
+    - 'no': 1
+      name: 流量获取公理：内容为王，技术为辅
+      desc: Google 算法已足够智能，唯有持续输出高质量专业博客文章是核心；外链建设、过度技术优化属于低 ROI 行为，2 个月拿到精选摘要第 0
+        名验证有效性。
+      role: motivation
+      src:
+      - paper: docs/202305/VILid7sleoZ6puxkchxcRM9vn6g.md
+      - paper: docs/202305/20230516_100.md
+    - 'no': 2
+      name: 询盘处理 SOP：五维判真 + 极简表单 + 极速响应
+      desc: 邮箱/域名/留言/页面/IP 五维判断真伪；仅设 Email+Message 必填降低门槛；首轮极速响应传递重视信号并抢占候选集（客户群发
+        10 家仅 3 家快速回复）。
+      role: method
+      src:
+      - paper: docs/202305/VILid7sleoZ6puxkchxcRM9vn6g.md
+    - 'no': 3
+      name: 首轮回复反模式：拒绝‘自嗨式’公司介绍
+      desc: 客户不关心你是谁，只关心能解决什么问题；标准动作：确认需求→精简报价单→详细参数→埋设钩子，杜绝罗列规模/产线/销售额的自我介绍。
+      role: method
+      src:
+      - paper: docs/202305/VILid7sleoZ6puxkchxcRM9vn6g.md
+    - 'no': 4
+      name: 留钩子成交法：预判需求、价值前置、跳出价格战
+      desc: 报价后主动承担风险咨询角色：如‘万一买回去不合适？主动提供测试文件建议模拟’，诱导客户回复建立深度连接，将被动报价转为主动技术咨询，锁定高利润成交。
+      role: method
+      src:
+      - paper: docs/202305/VILid7sleoZ6puxkchxcRM9vn6g.md
+    - 'no': 5
+      name: 同行反向拆解选题法：做得不好是机会，做得好拆解超越
+      desc: 推广前调研同行 Google 推广情况：同行做不好直接切入抢排名；同行做好则拆解内容结构/关键词/角度，制定‘做得更好’的内容超越计划。
+      role: method
+      src:
+      - paper: docs/202305/VILid7sleoZ6puxkchxcRM9vn6g.md
+    - 'no': 6
+      name: 单案例全链路复盘：25天、$4551.7、2pcs、100%毛利
+      desc: 3/21 收到法国询盘→4/14 收款，周期 25 天；客户补单邮件明确感谢‘提前考虑模拟测试’，印证留钩子为关键触点；极简表单未阻碍高质量线索获取。
+      role: experiment
+      src:
+      - paper: docs/202305/VILid7sleoZ6puxkchxcRM9vn6g.md
+  - 'no': 5
+    name: 跨境私域变现最小闭环 —— IG+FB 广告引流、WhatsApp 聊单、代购人设、减法启动
+    desc: 本章整合两大实战案例（Albert 太阳镜/门锁、Albert 2000 美元变现），提炼单人可执行的超轻量化跨境 SOP：减法思维启动（无备货/独立站/复杂物流）、INS
+      内容信任前置（40+篇专业贴）、FB 企业户授权个人户抗封体系、低预算广告冷启动（$20/天、消息目标、视频素材）、代购/中间商人设降低防备、SPIN
+      简化版四步聊单话术、B 端客户挖掘复购实现客单价指数级跃升。
+    nodes:
+    - 'no': 1
+      name: 一个人即公司：超轻量化启动清单
+      desc: 1 部手机+1 张 HK 卡+1 台电脑+1 套 FB 账号体系，即可跑通选品-获客-成交-供应链-收款全链路，验证单人跨境创业可行性。
+      role: motivation
+      src:
+      - paper: docs/202305/Nt9IdI0b0okp1MxGKBacQtxSn3e.md
+      - paper: docs/202305/20230516_101.md
+    - 'no': 2
+      name: 减法启动思维：刻意减少前置条件
+      desc: 不囤货、不建站、不解决复杂物流，仅保留核心链路（获客→沟通→代采/一件代发→收款），卖什么/有没有货/物流在哪都不重要，先跑通闭环。
+      role: method
+      src:
+      - paper: docs/202305/Nt9IdI0b0okp1MxGKBacQtxSn3e.md
+    - 'no': 3
+      name: 内容信任前置，广告仅作放大器
+      desc: INS 专业号需预先填充 40+ 篇专业内容（耗时 4 天，日更 5-10 条）建立信任背书，再开广告；素材源自小红书/抖音搬运+ChatGPT
+        翻译本地化，无内容支撑的直接投放转化极低。
+      role: method
+      src:
+      - paper: docs/202305/Nt9IdI0b0okp1MxGKBacQtxSn3e.md
+      - paper: docs/202305/20230516_101.md
+    - 'no': 4
+      name: FB 账号资产与广告资产分离：企业户授权个人户抗封体系
+      desc: 核心资产沉淀在个人号（可生成 N 个主页）和 WhatsApp/INS 私域好友；广告账户与主页视为可消耗耗材，企业户授权机制实现资产与风险隔离，挂了换主页即可继续投放。
+      role: method
+      src:
+      - paper: docs/202305/Nt9IdI0b0okp1MxGKBacQtxSn3e.md
+      - paper: docs/202305/20230516_101.md
+    - 'no': 5
+      name: 低预算 FB 广告冷启动：$20/天、消息目标、宽定向、视频素材
+      desc: 日预算 $20，目标选‘消息’引流至 WhatsApp/INS，受众宽泛依赖算法找人，单次有效对话成本控制 ≤$5；新号跑互动积累像素再转转化目标。
+      role: method
+      src:
+      - paper: docs/202305/Nt9IdI0b0okp1MxGKBacQtxSn3e.md
+      - paper: docs/202305/20230516_101.md
+    - 'no': 6
+      name: 代购/中间商人设：天然站在‘帮客户省钱/避坑’一方
+      desc: 非卖家身份消除推销对抗感，更易成交 $100+ 高客单；成交后自然转型‘全品类采购顾问’推荐非自有产品赚差价，实现 LTV 最大化。
+      role: method
+      src:
+      - paper: docs/202305/20230516_101.md
+    - 'no': 7
+      name: 私域聊单标准化四步法（SPIN 简化版）
+      desc: 1. 介绍产品建立专业感 2. 询问使用场景挖掘需求 3. 询问预算锚定价格 4. 现场阿里巴巴比价报价收单；将复杂销售简化为可复制标准动作。
+      role: method
+      src:
+      - paper: docs/202305/Nt9IdI0b0okp1MxGKBacQtxSn3e.md
+      - paper: docs/202305/20230516_101.md
+    - 'no': 8
+      name: B 端挖掘与复购：从 C 端零售到批发大单的跃迁
+      desc: 通过私域积累识别采购意向客户，引导转为 B 端批发（如门锁 2000 把），利用信任关系锁定长期供应链订单，客单价指数级跃升，二次购买验证复购率。
+      role: extension
+      src:
+      - paper: docs/202305/Nt9IdI0b0okp1MxGKBacQtxSn3e.md
+    - 'no': 9
+      name: 实战数据验证：7天首单、$2000+、有效对话≤$5、物流费$100-300
+      desc: 起号到出单 7 天，日预算 $20 条件下变现 $2000+，单次有效对话成本 ≤$5，欧美正常单票物流费 $100-300 为定价提供关键成本参数。
+      role: experiment
+      src:
+      - paper: docs/202305/Nt9IdI0b0okp1MxGKBacQtxSn3e.md
+      - paper: docs/202305/20230516_101.md
+  - 'no': 6
+    name: Mediabuy 品牌词套利 —— 近零 CPC 与联盟佣金差价的单人美元项目
+    desc: 本章揭示利用 Google Ads 竞价商家品牌词（CPC 近 0.01 当地货币）直链联盟追踪链接（Awin 双周支付）的套利模式：三组实盘账户
+      ROI 359%-496%，核心在于品牌词质量得分极高且无竞争、商家授权光谱（显性允许/默许/允许竞品词）保障合规、港币账户可再降 7 倍成本、单人年入百万轻松达成。
+    nodes:
+    - 'no': 1
+      name: 品牌词近零成本定理：质量得分满分、无竞争、CPC→0
+      desc: 竞价广告主自身品牌词，相关性极高致质量得分满分，且通常无竞对竞价，实际 CPC 稳定在 0.01 当地货币，是项目高利润的物理基础。
+      role: motivation
+      src:
+      - paper: docs/202305/M0hMdjWj3o8WtNxZdv4cLnfenIh.md
+    - 'no': 2
+      name: CPC/EPC 套利数学模型：只要 CPC < EPC 即稳赚
+      desc: 品牌词 CPC 压至 0.01 以下，联盟 Offer EPC 极少低于 0.01，差价即利润；三组实盘：佣金 $5715/$7218/$3988
+        对应花费 $1220/$1210/$867，净利 $4495/$6008/$3121。
+      role: definition
+      src:
+      - paper: docs/202305/M0hMdjWj3o8WtNxZdv4cLnfenIh.md
+    - 'no': 3
+      name: 三步标准化执行流程：开户→筛选 Offer→直链投放
+      desc: 1. 准备 Google Ads 账户（个人/代理）；2. 注册 Awin 等双周支付联盟，筛选大体量品牌词/允许竞价/EPC 高的 Offer
+        并申请通过；3. 创建搜索广告竞价品牌词/竞品词，最终 URL 直填联盟追踪链接（Direct Linking），无需建站。
+      role: method
+      src:
+      - paper: docs/202305/M0hMdjWj3o8WtNxZdv4cLnfenIh.md
+    - 'no': 4
+      name: 商家品牌词授权光谱：并非全禁止，总能找到允许的大品牌
+      desc: 存在显性允许、默许、仅禁止自有品牌词但允许竞品词三层级；项目可行性建立在‘总能找到允许竞价的大品牌 Offer’这一市场现实上，已运行十余年非短期漏洞。
+      role: limitation
+      src:
+      - paper: docs/202305/M0hMdjWj3o8WtNxZdv4cLnfenIh.md
+    - 'no': 5
+      name: 港币账户成本优势与单人百万年收入门槛
+      desc: 港币计费账户 0.01 HKD ≈ 0.0013 USD，成本再降 7 倍（理论推演）；不追求极致规模、仅控制风险比，单人年净利破百万人民币‘非常轻松’。
+      role: extension
+      src:
+      - paper: docs/202305/M0hMdjWj3o8WtNxZdv4cLnfenIh.md
+    - 'no': 6
+      name: Wise 推荐计划同构案例：品牌词低价竞价赚取固定佣金
+      desc: 同构验证：Wise 自带推荐计划（$50/单）+ Google/Bing 品牌词竞价（CPC £0.01-0.02），单日佣金破万英镑，即时结算、无扣量风险，优于广告联盟长账期。
+      role: experiment
+      src:
+      - paper: docs/202305/20230516_050.md
+  - 'no': 7
+    name: 资料整理引流变现 —— 资料是别人的踏脚石，产品必须是自己的
+    desc: 本章确立资料整理商业模式的核心范式：垂直资料作诱饵日均引流 180+ 进私域（公域分发）→ 核心利润来自自有附加产品/解决方案（咨询/训练营/陪伴营）→
+      输入-重构-输出能力建设循环打造个人商业盈利系统，拒绝无脑卖资料的低利润红海。
+    nodes:
+    - 'no': 1
+      name: 引流载体与变现主体分离原则
+      desc: 引流载体（资料）可他人/低成本/标准化；变现主体（产品/服务）必须自有/高价值/解决深层问题。混淆二者陷入‘无脑卖资料’红海。
+      role: motivation
+      src:
+      - paper: docs/202305/20230516_046.md
+    - 'no': 2
+      name: 全链路方法论：选品→整理→分发→引流→后端匹配→系统化
+      desc: 选定垂直赛道资料→高质量加工→公域发布钩子→日均 180+ 进私域→匹配高客单价自有服务（高中资料→高考咨询、英语资料→训练营、阅读资料→读书营）→
+        重构输出打造商业系统。
+      role: method
+      src:
+      - paper: docs/202305/20230516_046.md
+    - 'no': 3
+      name: 输入-重构-输出能力建设循环：整理即学习、输出即护城河
+      desc: 资料整理非单纯搬运，而是‘整理输入（学习/筛选）→ 重构输出（沉淀方法论/开发课程/服务）’过程，训练核心能力构建护城河。
+      role: extension
+      src:
+      - paper: docs/202305/20230516_046.md
+    - 'no': 4
+      name: 实测验证：日均 180+ 精准引流、典型垂直场景产品化案例库
+      desc: 作者实测稳定日均 180+ 引流；三类典型组合模式验证踏脚石理论落地范式。
+      role: experiment
+      src:
+      - paper: docs/202305/20230516_046.md
+  - 'no': 8
+    name: 利基软件工程化开发与冷启动 —— 问题导向、MVP 算账、用户画像决渠道、竞品反向分析
+    desc: 本章提炼黑客马拉松实战沉淀的 Niche 海外软件六步标准化流程：发现痛点→5 Whys 溯源根因→MVP 算账决策方案→三维用户画像→竞品反向三步走选渠道→分阶段冷启动策略；实战落地
+      AI+SEO 标题生成器 Demo 验证可执行性。
+    nodes:
+    - 'no': 1
+      name: 工具源于问题而非技术：别以为软件是万能的
+      desc: 任何工具存在都是为解决问题，解决方案不一定是软件；开发者不应陷入技术至上主义，而应以问题为起点。
+      role: motivation
+      src:
+      - paper: docs/202305/20230516_062.md
+    - 'no': 2
+      name: 5 Whys 根因分析：穿透表象直达本质
+      desc: 连续追问 5 次‘为什么’将用户感知痛点（标）转化为可被软件解决的根本原因（本）；实战：内容营销根因非内容质量，而是符合平台算法的标题/描述。
+      role: method
+      src:
+      - paper: docs/202305/20230516_062.md
+    - 'no': 3
+      name: MVP 算账决策：在约束下聚焦最高优先级
+      desc: 时间/技术/人力成本约束下，聚焦最重要问题构建最小可行性产品，而非追求功能完备；黑客松两天仅解决标题生成核心痛点。
+      role: method
+      src:
+      - paper: docs/202305/20230516_062.md
+    - 'no': 4
+      name: 用户画像三维模型决定渠道分布
+      desc: 公司维度（规模/行业/岗位/采购流程）、个人维度（年龄/技能/兴趣）、互联网偏好（平台/社媒/软件）三维构建画像，画像是渠道选择的前置必要条件。
+      role: method
+      src:
+      - paper: docs/202305/20230516_062.md
+    - 'no': 5
+      name: 竞品反向三步走选渠道：找 Niche 竞品→分析流量渠道→匹配自身能力
+      desc: 利用 SimilarWeb/Ahrefs 统计竞品流量渠道占比排序，冷启动期综合考虑自身能力与渠道匹配度找最优解，稳定期聚焦 Top 几个高效渠道规模化。
+      role: method
+      src:
+      - paper: docs/202305/20230516_062.md
+    - 'no': 6
+      name: AI+SEO 标题生成方案：Topic 提取+高流量检索→AI 二次生成
+      desc: 结合 AI 总结内容 Topic 与 SEO 平台高流量标题数据，再经 AI 生成兼顾高推荐、高搜索、高点击的营销标题，是具体落地实践。
+      role: method
+      src:
+      - paper: docs/202305/20230516_062.md
+    - 'no': 7
+      name: 黑客松两天实战验证：AI 营销标题生成器 Demo
+      desc: 基于自身痛点运用六步法快速落地 Demo，工具链路：内容 Topic 提取 + SEO 高流量标题检索 → AI 二次生成高点击标题，验证流程可执行性。
+      role: experiment
+      src:
+      - paper: docs/202305/20230516_062.md
+  - 'no': 9
+    name: 商业逆向工程与最小可行性验证 —— 8 元成本跑通陌生赛道月入 2 万
+    desc: 本章复盘‘视频定制’冷门项目从零发现到跟通全过程：现象观察发现异常场观→竞品全链路拆解（选题/文案/挂载/引流/交付）→ 8 元极低成本模仿搭建（域名/工具）→
+      数据反馈迭代规模化；验证生财思维迁移性、陌生赛道优于红海、执行力是知识变现关键杠杆。
+    nodes:
+    - 'no': 1
+      name: 商业逆向工程：面对陌生项目的通用验证方法论
+      desc: 现象发现商机→拆解竞品全链路→最小成本快速模仿试错（非原创发明），指导实战跑通没见过的小项目。
+      role: method
+      src:
+      - paper: docs/202305/20230516_064.md
+    - 'no': 2
+      name: 最小可行性验证：8 元成本一个月赚 2 万+
+      desc: 仅投入约 8 元（域名/服务器/工具）启动测试，不追求完美系统，先跑通‘流量-转化-交付’闭环验证需求真实性。
+      role: method
+      src:
+      - paper: docs/202305/20230516_064.md
+    - 'no': 3
+      name: 场观数据作为选品/切入信号的有效性
+      desc: 通过观察竞品直播间/视频‘场观’（在线人数/播放量）异常高企，判断隐性需求存在并决定切入。
+      role: motivation
+      src:
+      - paper: docs/202305/20230516_064.md
+    - 'no': 4
+      name: 生财思维迁移性与执行力杠杆
+      desc: 社群抽象思维模型（逆向工程/MVP）可迁移至具体陌生业务；相同认知下，敢于‘先做再改’、忍受不确定性的执行力是理论转现金流的核心差异因子。
+      role: extension
+      src:
+      - paper: docs/202305/20230516_064.md
+    - 'no': 5
+      name: 详细 SOP 沉淀于飞书：账号搭建、素材来源、话术脚本、引流私域、交付流程、避坑指南
+      desc: 完整逆向拆解细节公开分享但禁止复制，形成可复制的操作手册。
+      role: extension
+      src:
+      - paper: docs/202305/20230516_064.md
+  - 'no': 10
+    name: 巨量百应选品神器与官方数据源替代策略 —— 零成本获取爆款素材
+    desc: 本章介绍基于巨量百应官方数据开发的自动化工具：集成爆款视频筛选、选品决策、无水印下载，替代市面昂贵第三方工具；核心主张工具价值需实战变现验证（已在视频号项目金钱验证），形成‘发现需求-解决问题-工具诞生-工具验证’闭环。
+    nodes:
+    - 'no': 1
+      name: 官方数据源替代第三方工具：零成本获取核心爆款素材
+      desc: 直接利用巨量百应官方数据开发工具，绕过昂贵第三方选品/下载工具，实现选品+爆款素材一体化免费获取。
+      role: motivation
+      src:
+      - paper: docs/202305/20230516_063.md
+    - 'no': 2
+      name: 工具价值验证标准：能否跑通商业闭环产生真实收益
+      desc: 工具有效性不以功能清单为准，而以能否在实际项目（视频号带货）中跑通商业闭环、产生真实收益为唯一标准。
+      role: definition
+      src:
+      - paper: docs/202305/20230516_063.md
+    - 'no': 3
+      name: 需求-工具-验证闭环：从发现选品下载需求到实战验证开放分享
+      desc: 完整产品化路径：发现需求→开发解决问题工具→实战项目验证工具价值→开放分享。
+      role: method
+      src:
+      - paper: docs/202305/20230516_063.md
+    - 'no': 4
+      name: 市场需求验证：用户强烈索要工具获取码
+      desc: 评论区用户普遍感谢并索要工具码，验证集成选品下载工具的强烈刚需。
+      role: experiment
+      src:
+      - paper: docs/202305/20230516_063.md
+  - 'no': 11
+    name: 外部引用索引 —— 语雀文档链接汇总
+    desc: 本章汇总素材库中仅包含外部语雀文档链接、无实质文本内容的条目，供读者自行跳转查阅原始长文档。
+    nodes:
+    - 'no': 1
+      name: 语雀文档：投资/交易相关长文档
+      desc: 外部链接：www.yuque.com/for_lazy/thfiu8/fc3rzl7ia8ury6x3，标题‘海外平台’，疑似包含海外投资或交易平台相关详细内容。
+      role: extension
+      src:
+      - paper: docs/202305/20230516_043.md
+      - paper: docs/202305/20230516_099.md
+    - 'no': 2
+      name: 语雀文档：未分类长文档
+      desc: 外部链接：语雀文档链接（具体 URL 未在素材中展示），标题未知，需读者自行访问核实内容。
+      role: extension
+      src:
+      - paper: docs/202305/20230516_102.md
 - 'no': 5
-  chapters: []
+  chapters:
+  - 'no': 1
+    name: 资料整理商业模型 —— 从“卖资料赚小钱”到“筛选用户造大钱”
+    desc: 本章对比两篇实战复盘，揭示资料整理的商业本质：资料是零边际成本的杠杆钩子，核心利润来自后端自有高附加值产品/服务体系。通过 MVP 思维跑通“选品-引流-私域-分层变现”最小闭环。
+    nodes:
+    - 'no': 1
+      name: 资料整理的杠杆属性与商业定位
+      desc: 基于纳瓦尔杠杆理论，界定资料整理为‘复制边际成本近零’的媒介产品，其核心价值不在于贩卖资料本身，而在于筛选精准付费用户、沉淀私域资产。
+      role: motivation
+      src:
+      - paper: docs/202305/20230516_046.md
+      - paper: docs/202305/BzIfdvAQloqLImxjEhKcERAXn5f.md
+    - 'no': 2
+      name: 引流载体与变现主体分离原则
+      desc: 确立‘资料是别人的（钩子），产品必须是自己的（本体）’的底层逻辑。混淆二者会陷入低利润红海；分离二者才能构建高客单价、复利增长的商业模型。
+      role: definition
+      src:
+      - paper: docs/202305/20230516_046.md
+      - paper: docs/202305/BzIfdvAQloqLImxjEhKcERAXn5f.md
+    - 'no': 3
+      name: 变现分层漏斗设计：资料→咨询→高客单体系
+      desc: 设计三层递进变现路径：低价资料（筛选付费意向/建立信任）→ 低价咨询（深度连接/挖掘需求/互惠红包）→ 高客单产品/训练营/资源对接（核心利润/复利上限）。
+      role: method
+      src:
+      - paper: docs/202305/20230516_046.md
+      - paper: docs/202305/BzIfdvAQloqLImxjEhKcERAXn5f.md
+    - 'no': 4
+      name: 最小可行性商业闭环（MVP）跑通实操
+      desc: 以最快速度验证‘选品定位→渠道操作→私域承接→变现分层’全链路，通过数据复盘（引流量、转化率、客单价、LTV）决定是否加大投入。
+      role: method
+      src:
+      - paper: docs/202305/20230516_046.md
+      - paper: docs/202305/BzIfdvAQloqLImxjEhKcERAXn5f.md
+    - 'no': 5
+      name: 实战数据复盘与避坑指南
+      desc: 4天实测：日均投入2小时，日均引流180+，资料付费转化60%，咨询二次转化30%，单用户ARPU超200元。总结头条号自动回复引流机制、私域双号风控、免费引流低质等关键经验。
+      role: experiment
+      src:
+      - paper: docs/202305/20230516_046.md
+      - paper: docs/202305/BzIfdvAQloqLImxjEhKcERAXn5f.md
+  - 'no': 2
+    name: 知识创作系统 —— 从“囤资料”到“生产知识资产”
+    desc: 本章基于 DIKW 模型与 P.A.R.A 组织法，构建‘收集筛选→萃取内化→动态组织→创作输出’的个人知识生产线，解决‘收藏夹吃灰’与‘搬运工’困境，实现知识复利。
+    nodes:
+    - 'no': 1
+      name: PIM/PKM/知识创作的三层级跃迁
+      desc: 澄清资料整理（PIM，整理他人信息）、知识管理（PKM，加工自有信息）、知识创作（输出原创成果）的本质区别。只有建立以创作输出为导向的系统，才能避免低水平勤奋。
+      role: definition
+      src:
+      - paper: docs/202305/20230516_061.md
+    - 'no': 2
+      name: 克制收集四准则：有用、启发、新颖、私人
+      desc: 基于香农信息论（新颖性=惊讶度）与个人经验独特性，建立信息入库‘漏斗’：仅保留服务于当前/未来项目、能激发灵感、具有惊讶度、属于私人独特思考的素材，拒绝无差别囤积。
+      role: method
+      src:
+      - paper: docs/202305/20230516_061.md
+    - 'no': 3
+      name: 渐进式总结五层法：信息→知识→智慧的标准化萃取
+      desc: 引入 Tiago Forte 五层脚手架：L1 高亮标记 → L2 自语复述（内化） → L3 段落合并（结构化） → L4 核心观点压缩
+        → L5 转化为提问（迁移/智慧）。按素材价值密度决定执行层级，兼顾深度与效率。
+      role: method
+      src:
+      - paper: docs/202305/20230516_061.md
+    - 'no': 4
+      name: 动态 P.A.R.A 组织系统：让笔记流向‘最快用到之处’
+      desc: 摒弃静态分类，采用‘项目→领域→资源→档案’四象限动态流转。决策树：服务当前截止日期项目→Project；服务长期责任领域→Area；其余→Resource；完成/废弃→Archive。组织服务于行动而非分类。
+      role: method
+      src:
+      - paper: docs/202305/20230516_061.md
+    - 'no': 5
+      name: 知识创作系统的实战验证与对比分析
+      desc: 作者实测：基于该系统产出14篇精华帖、统筹2.4万订阅专栏。读者对比反馈：渐进式总结较卢曼卡片笔记法门槛更低、操作指引更强、更难陷入‘通篇搬运’陷阱。
+      role: experiment
+      src:
+      - paper: docs/202305/20230516_061.md
+  - 'no': 3
+    name: 付费即筛选，信任源于交换 —— 私域成交的心理学与话术
+    desc: 本章深度拆解‘付费验证意向→低价咨询建立信任→互惠红包强化连接→高客单转化’的心理机制与标准化话术，将私域运营从‘加好友’升级为‘设计交易路径’。
+    nodes:
+    - 'no': 1
+      name: 付费筛选双重验证：兴趣强度与付费意识
+      desc: 用户哪怕支付 9.9 元，即完成两重筛选：验证对该垂直领域的强兴趣、验证具备知识付费意识。免费用户无法判断付费潜力，且易低估资料商业价值。
+      role: motivation
+      src:
+      - paper: docs/202305/BzIfdvAQloqLImxjEhKcERAXn5f.md
+    - 'no': 2
+      name: 商业信任仅通过价值交换建立
+      desc: 信任不是聊天聊出来的，而是通过‘交付价值-收取对价’的交易循环建立。低价咨询（如200元）是低风险的信任启动器，而非单纯赚取咨询费。
+      role: definition
+      src:
+      - paper: docs/202305/BzIfdvAQloqLImxjEhKcERAXn5f.md
+    - 'no': 3
+      name: 咨询式成交标准化话术与红包复投模型
+      desc: SOP：收取低价咨询费→专业解决问题→引导用户自发发红包（88-120元，互惠心理/沉没成本）→ 基于消费能力画像推荐高客单产品。实测 99%
+        用户发红包，30% 转化高客单。
+      role: method
+      src:
+      - paper: docs/202305/BzIfdvAQloqLImxjEhKcERAXn5f.md
+    - 'no': 4
+      name: 私域运营风控与规模化基建
+      desc: 双号分流加好友（规避频率限制）、支付宝/多渠道分离收款（规避风控冻结）、助理接待标准化 SOP，为规模化引流提供基础设施保障。
+      role: extension
+      src:
+      - paper: docs/202305/BzIfdvAQloqLImxjEhKcERAXn5f.md
+  - 'no': 4
+    name: 垂直赛道产品化案例库与选品决策框架
+    desc: 本章沉淀典型‘资料引流+自有服务变现’的组合模式，提供选品三要素决策法，指导读者根据个人禀赋、用户商业价值、渠道匹配度选择最适合的赛道切入。
+    nodes:
+    - 'no': 1
+      name: 典型垂直场景产品化组合模式库
+      desc: 高中资料→高考志愿填报咨询；英语资料→英语训练营；阅读资料→读书营/社群；商业资料/天涯神贴→商业咨询/高客单课程/资源对接。展示‘踏脚石理论’的多元落地范式。
+      role: experiment
+      src:
+      - paper: docs/202305/20230516_046.md
+      - paper: docs/202305/BzIfdvAQloqLImxjEhKcERAXn5f.md
+    - 'no': 2
+      name: 选品三要素决策法：兴趣/商业价值/渠道匹配
+      desc: 决策框架：1）是否符合个人喜好、擅长及长期规划；2）资料背后用户群体的商业价值可延展性（能否开发高客单后端）；3）目标用户活跃度与渠道流量分发机制的匹配度。
+      role: method
+      src:
+      - paper: docs/202305/BzIfdvAQloqLImxjEhKcERAXn5f.md
+    - 'no': 3
+      name: 输入-重构-输出能力建设循环
+      desc: 资料整理不应止步于搬运，而应形成‘整理输入（学习/筛选）→ 重构输出（沉淀方法论/开发课程/服务）→ 打磨能力/产品体系’的正向飞轮，构建个人核心竞争力护城河。
+      role: extension
+      src:
+      - paper: docs/202305/20230516_046.md
+  - 'no': 5
+    name: 生财技能导航图谱 —— 核心技能清单与学习路径索引
+    desc: 本章汇总生财有术社区核心技能库全景，提供技能分类导航与学习路径索引，作为读者按需检索、系统化构建个人商业能力树的总目录。
+    nodes:
+    - 'no': 1
+      name: 生财技能库全景分类与检索入口
+      desc: 记录生财有术社区沉淀的核心技能清单文档标题与链接，覆盖流量获取、产品变现、私域运营、知识管理、投资理财等核心板块，作为全书知识体系的外部延伸索引。
+      role: definition
+      src:
+      - paper: docs/202305/20230516_012.md
+      - paper: docs/202305/20230516_060.md
 - 'no': 6
-  chapters: []
+  chapters:
+  - 'no': 1
+    name: 认知底座 —— 从“想赚钱”到“会赚钱”的思维重构
+    desc: 本章拆解生财圈核心心法：利他思维、执行力优先、承认无知、个人IP复利。这是普通人跨越“认知鸿沟”，从打工思维转为商业思维的必修课。
+    nodes:
+    - 'no': 1
+      name: 利他思维：商业协作的底层逻辑
+      desc: 优先为用户/合作伙伴创造价值、解决问题，而非单向索取。这是高客单价、高复购业务的基石，也是生财圈文化的核心基因。
+      role: motivation
+      src:
+      - paper: docs/202305/SUMMARY.md
+      - paper: docs/202305/SUMMARY.md
+    - 'no': 2
+      name: 执行力 > 创意/认知：在行动中修正认知
+      desc: 好主意很多，做下去的很少。认知突破的本质是在行动中获得反馈修正认知，而非空想。核心口诀：解决真正的问题，赚钱的事多做十遍。
+      role: method
+      src:
+      - paper: docs/202305/SUMMARY.md
+    - 'no': 3
+      name: 承认无能与无知：成长的起点
+      desc: 普通人逆袭第一步是接纳自己‘无能、无知、无资源’的现实，放下体面，从最微小、最具体、最确定的正反馈动作做起（如抄作业、跟航海、卖资料）。
+      role: motivation
+      src:
+      - paper: docs/202305/SUMMARY.md
+    - 'no': 4
+      name: 个人IP复利策略：百年不改名，全域用同名
+      desc: 个人IP是普通人最高杠杆的资产。统一ID、头像、简介降低用户认知成本，积累品牌复利。出名是赚钱的代价，也是获取信任、降低获客成本的护城河。不出镜也能打造IP（资料号、工具号、笔记号）。
+      role: method
+      src:
+      - paper: docs/202305/SUMMARY.md
+      - paper: docs/202305/SUMMARY.md
+      - paper: docs/202305/SUMMARY.md
+  - 'no': 2
+    name: 训练体系 —— 生财“小航海”项目制训练营模型
+    desc: 本章深度解析‘小航海’作为新手0-1跨越的标准化训练场：目标设定、导师陪跑、SOP抄作业、MVP验证、复盘迭代。这是素材中大量成功案例的共同孵化器。
+    nodes:
+    - 'no': 1
+      name: 小航海模式定义：强制跑通商业闭环的训练营
+      desc: 社群发起的项目制训练营模式，设定明确目标、时间节点与导师陪跑，强制成员在规定周期内跑通0-1商业闭环，解决‘知道却做不到’的执行鸿沟。
+      role: definition
+      src:
+      - paper: docs/202305/SUMMARY.md
+    - 'no': 2
+      name: 小航海项目筛选模型：新手避坑的六大黄金标准
+      desc: 筛选适合新手的项目标准：1.正向现金流快；2.无需复杂供应链/囤货；3.可标准化/SOP化；4.可借力AI工具提效；5.有明确的公域获客路径；6.后端有高复购/高客单产品。
+      role: method
+      src:
+      - paper: docs/202305/SUMMARY.md
+    - 'no': 3
+      name: 新手0-1变现典型路径与实证数据
+      desc: 多位圈友通过参与‘AI资料变现’、‘ChatGPT账号注册/Plus代充’、‘小红书资料引流’等低门槛航海，在1-3个月内实现月入3k-2w+突破，验证了‘跟着航海抄作业’的有效性。
+      role: experiment
+      src:
+      - paper: docs/202305/SUMMARY.md
+    - 'no': 4
+      name: 标准化SOP执行闭环：从认知对齐到规模化放大
+      desc: 整体方法论闭环：认知对齐 -> 赛道筛选 -> 标准化SOP执行 -> 低成本MVP验证 -> 复盘优化 -> 规模化放大。核心战术：公域内容获客
+        -> 私域信任转化 -> 后端高客单产品变现。
+      role: method
+      src:
+      - paper: docs/202305/SUMMARY.md
+  - 'no': 3
+    name: 流量底层架构 —— 公域蓄水池与私域提款机的底层通道
+    desc: 本章建立全平台通用的流量变现底层模型：公域（小红书/抖音/视频号/公众号/闲鱼/海外社媒）获客 -> 私域（微信/社群）沉淀 -> 朋友圈/社群运营
+      -> 高客单/高复购转化。拆解‘钩子设计、诱饵、承接、话术’四大关键动作。
+    nodes:
+    - 'no': 1
+      name: 公私域协同模型：蓄水池与提款机
+      desc: 所有平台玩法最终归宿：公域引流 -> 私域沉淀 -> 朋友圈/社群运营 -> 高客单/高复购转化。资料整理、钩子设计、后端话术、附加产品/服务是私域转化率的核心决定因素。
+      role: definition
+      src:
+      - paper: docs/202305/SUMMARY.md
+    - 'no': 2
+      name: 资料整理引流法：低成本获客的标准化钩子
+      desc: 通过整理高价值垂直领域资料（考证、教程、资源包）作为钩子，在公域平台引流至私域，再通过后端产品/服务变现的标准化流程。实测日均引私域180+用户。
+      role: method
+      src:
+      - paper: docs/202305/SUMMARY.md
+      - paper: docs/202305/SUMMARY.md
+    - 'no': 3
+      name: 小红书‘探照灯计划’/笔记引流SOP：从养号到转化的全链路
+      desc: 针对小红书平台机制的标准化操作：账号养号(设备/环境) -> 垂直领域选题(关键词挖掘) -> 封面/标题/正文/标签/评论区五要素优化 ->
+        诱饵设计(资料/群/号) -> 私域承接(主页/私信/群聊) -> 朋友圈运营/转化话术。
+      role: method
+      src:
+      - paper: docs/202305/SUMMARY.md
+    - 'no': 4
+      name: 多平台矩阵运营：一份内容多平台分发的杠杆
+      desc: 覆盖小红书、抖音、视频号、公众号、闲鱼、快团团、海外社媒（Ins/FB/LinkedIn/TikTok）的矩阵号操作策略，实现一鱼多吃，降低单平台算法风险。
+      role: extension
+      src:
+      - paper: docs/202305/SUMMARY.md
+      - paper: docs/202305/SUMMARY.md
+  - 'no': 4
+    name: AI生产力革命 —— 从‘会用工具’到‘建流水线’的自动化范式
+    desc: 本章揭示AI赚钱的本质：AI是放大器而非救世主。核心竞争力在于‘提示词工程+业务流程拆解+自动化串联’。详细拆解ChatGPT+RPA 13步文案自动化法、SD云端零成本批量出图、AI短剧批量剪辑等可复制的自动化生产线。
+    nodes:
+    - 'no': 1
+      name: AI赚钱第一性原理：放大器而非救世主
+      desc: 单纯会用ChatGPT/MJ不赚钱，必须将业务拆解为标准化SOP，注入Prompt工程，再用RPA/代码/低代码平台串联成自动化流水线。AI降低了‘从0到1’的技能门槛，但提高了‘从1到N’的标准化要求。
+      role: motivation
+      src:
+      - paper: docs/202305/SUMMARY.md
+    - 'no': 2
+      name: ChatGPT+RPA文案自动化13步法：从选题到发布的无人值守
+      desc: 将文案创作拆解为13个结构化提示词节点（选题、大纲、钩子、正文、标题、标签等），配合RPA工具（按键精灵、Auto.js、Coze工作流）实现批量生成、定时发布、数据回收的无人值守流程。
+      role: method
+      src:
+      - paper: docs/202305/SUMMARY.md
+    - 'no': 3
+      name: Stable Diffusion云端零成本批量出图方案
+      desc: 利用Google Colab免费GPU资源，部署SD WebUI (A1111/ComfyUI)，配合模型下载脚本、API调用、定时任务，实现无需本地显卡、无限时长、可编程的批量AI绘图生产线，用于表情包、壁纸、电商图、IP形象生成。
+      role: method
+      src:
+      - paper: docs/202305/SUMMARY.md
+    - 'no': 4
+      name: AI内容自动化流水线全景图：文本、图像、视频三位一体
+      desc: 结合ChatGPT（文本生成）、Midjourney/SD（图像生成）、RPA/自动化工具（剪映、Coze、Make/Zapier），构建从选题、生产、发布到数据反馈的全自动化内容生产系统。覆盖短剧解说、表情包、数字人、SEO文章等场景。
+      role: definition
+      src:
+      - paper: docs/202305/SUMMARY.md
+    - 'no': 5
+      name: AI短剧解说/CPS批量化实证：单人日产50-100条
+      desc: 利用ChatGPT改写剧本+剪映/CapCut自动剪辑+批量发布工具，单人日产50-100条视频，抖音/快手/视频号多平台分发，新手首月变现1.4万+，验证了‘内容标准化+工具杠杆’的可行性。
+      role: experiment
+      src:
+      - paper: docs/202305/SUMMARY.md
+  - 'no': 5
+    name: 实战项目库（上） —— 轻资产电商与内容变现标准化打法
+    desc: 本章收录经过实战验证的轻资产电商模型：小红书无货源/虚拟资料、视频号短视频带货投流、闲鱼矩阵无货源。均具备‘低门槛、可标准化、确定性强、可矩阵放大’特征，附带完整SOP与实证数据。
+    nodes:
+    - 'no': 1
+      name: 平民开店/无货源电商模型：供应链轻量化的底层逻辑
+      desc: 无需囤货、供应链轻量化，利用平台流量红利（小红书店铺、闲鱼、快团团、抖音小店）通过选品、铺货、客服外包实现低风险电商变现。核心优势：试错成本低、可快速复制。
+      role: definition
+      src:
+      - paper: docs/202305/SUMMARY.md
+    - 'no': 2
+      name: 小红书无货源/虚拟资料：单店月纯利30-50万的复现路径
+      desc: 单账号日引100-180+精准粉，后端转化客单价99-2999元，月纯利30万-50万可复现。关键在于选品(考公/考证/职称/育儿/创业)、封面标题点击率、私域话术转化率。虚拟资料边际成本为零，利润率极高。
+      role: experiment
+      src:
+      - paper: docs/202305/SUMMARY.md
+    - 'no': 3
+      name: 视频号短视频挂车投流标准化打法：ROI正向闭环的稳定模型
+      desc: 选品(选品广场/榜单) -> 爆款视频二创/混剪(去重) -> 挂车 -> 千川/投流工具测款(ROI>1.2) -> 放量 -> 矩阵号复制。新号冷启动3-7天，单日投放百元级测款，单账号月佣金10万-20万可稳定复现。核心壁垒：去重剪辑能力与选品判力。
+      role: method
+      src:
+      - paper: docs/202305/SUMMARY.md
+      - paper: docs/202305/SUMMARY.md
+    - 'no': 4
+      name: 闲鱼矩阵霸屏/无货源SOP：确定性收益的工程化拆解
+      desc: 多店铺(7-10个)+ 选品(季节/蓝海/高客单) + 养号(实名/芝麻信用/发帖频次) + 批量发品(工具/手工) + 话术转化(自动回复/引导加微)
+        + 供应链对接(一件代发/1688/拼多多)。单店日出单5-20单，月销千单/店可达成。核心解决：设备环境、供应链稳定性、账号权重三大工程问题。
+      role: method
+      src:
+      - paper: docs/202305/SUMMARY.md
+      - paper: docs/202305/SUMMARY.md
+  - 'no': 6
+    name: 实战项目库（下） —— 知识付费、海外业务与长尾赛道拆解
+    desc: 本章覆盖高客单价知识付费/写作变现、海外独立站B2B/Mediabuy高汇率杠杆项目、二奢/手机壳/写作店铺等非标长尾赛道。展示‘解决具体小问题’即生意的长尾需求威力，以及个人IP与标准化交付结合的高利润模式。
+    nodes:
+    - 'no': 1
+      name: 知识付费/写作变现：个人IP信任背书下的高客单复利路径
+      desc: 通过公众号/小红书/快手引流，售卖99-9999元写作训练营/社群/咨询/模板，实现年入百万/月入5万+。核心三要素：个人IP信任背书 +
+        标准化交付产品(SOP/模板/社群) + 持续内容输出。边际成本趋近零，复利效应强。
+      role: experiment
+      src:
+      - paper: docs/202305/SUMMARY.md
+    - 'no': 2
+      name: 海外独立站B2B冷启动流程：0预算跑通高利润外贸单
+      desc: 细分Niche选品(工具/数据) -> 独立站搭建(Shopify/WP) -> 内容SEO/社媒矩阵(Ins/FB/LinkedIn/TikTok)获客
+        -> 询盘跟进/报价/成交 -> 收款(Wise/Payoneer) -> 复购/转介绍。验证单人/小团队月入$2000-$10000+，汇率杠杆显著。门槛在于英语/工具/合规/收款渠道。
+      role: method
+      src:
+      - paper: docs/202305/SUMMARY.md
+      - paper: docs/202305/SUMMARY.md
+    - 'no': 3
+      name: 海外Mediabuy/Brand Bid：单人出海的联盟营销与竞价实战
+      desc: 利用SEO/社媒/广告投放，跑通海外联盟营销、Brand Bid竞价，月入$2000+。适合单人操作，核心在于流量购买ROI把控与合规收款渠道搭建。
+      role: experiment
+      src:
+      - paper: docs/202305/SUMMARY.md
+    - 'no': 4
+      name: 长尾非标赛道拆解：二奢、手机壳、写作店铺的‘小而美’生意
+      desc: 记录多个非主流赛道实操：二奢奢侈品鉴定/转卖年入300万+；手机壳定制/无货源月入1万+；写作店铺(代写/改简历/文案)年入50万+；快手知识付费保姆级教程。证明‘解决具体小问题’即可生意，长尾需求巨大，竞争较小。
+      role: experiment
+      src:
+      - paper: docs/202305/SUMMARY.md
+    - 'no': 5
+      name: 快团团团长模式：私域社交电商的极致转化
+      desc: 一个热衷搞钱的二胎全职妈妈，如何在一个月成为快团团 GMV 7W 的团长。依托微信群/朋友圈强关系链，选品+预热+开团+复购的高频次运营节奏，客单价低但复购率极高，适合宝妈/社群运营者。
+      role: experiment
+      src:
+      - paper: docs/202305/SUMMARY.md
+  - 'no': 7
+    name: 元数据与导航 —— 周报索引、版权声明与社群入口
+    desc: 本章收录《龙哥赚钱周报》2023年5月期的元数据信息：文档来源链接、更新频率、内容分类标识体系、互动数据统计（点赞/精华/评论）、版权保护声明及社群邀请二维码。作为教材的“前言/附录”部分，帮助读者理解素材的组织结构、溯源路径及社群生态入口。
+    nodes:
+    - 'no': 1
+      name: 周报文献溯源与版权声明
+      desc: 记录周报原始语雀文档链接、更新频率（周更）、版权归属（生财有术/龙哥）及转载授权规则，确立教材素材的权威来源与引用规范。
+      role: definition
+      src:
+      - paper: docs/202305/20230516_000.md
+      - paper: docs/202305/20230516_001.md
+      - paper: docs/202305/20230516_051.md
+      - paper: docs/202305/README.md
+    - 'no': 2
+      name: 内容分类标识体系与检索导航
+      desc: 解析周报采用的中括号分类标签（如[认知]、[AI]、[小红书]、[闲鱼]等）体系，以及README.md提供的期刊级目录索引功能，指导读者如何按专题快速定位本教材各章节对应的原始素材篇目。
+      role: method
+      src:
+      - paper: docs/202305/20230516_001.md
+      - paper: docs/202305/20230516_051.md
+      - paper: docs/202305/README.md
+    - 'no': 3
+      name: 社群互动数据与生态入口
+      desc: 记录周报层面的互动指标（点赞数、精华帖数量、评论图片）及社群邀请二维码，展示付费社群的活跃度证据与读者接入“生财有术”核心社群、参与“小航海”训练营的具体入口路径。
+      role: extension
+      src:
+      - paper: docs/202305/20230516_051.md
