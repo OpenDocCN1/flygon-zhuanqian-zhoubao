@@ -1,0 +1,109 @@
+citation_stats:
+- paper: P057
+  count: 7
+  locations:
+  - 6.3.2
+  - 6.3.4
+  - 6.3.5
+  - 6.3.6
+  - '6.17'
+  - '6.18'
+  - '6.20'
+- paper: P066
+  count: 10
+  locations:
+  - 6.4.2
+  - 6.4.3
+  - 6.4.5
+  - 6.4.6
+  - 6.5.2
+  - 6.5.3
+  - 6.5.5
+  - 6.5.6
+  - '6.17'
+  - '6.18'
+- paper: QPFgdHgZsorQvdxDkl9cw58LnVf
+  count: 24
+  locations:
+  - 6.6.2
+  - 6.6.3
+  - 6.6.5
+  - 6.6.6
+  - 6.7.2
+  - 6.7.3
+  - 6.7.5
+  - 6.7.6
+  - 6.8.2
+  - 6.8.3
+  - 6.8.5
+  - 6.8.6
+  - 6.9.2
+  - 6.9.3
+  - 6.9.5
+  - 6.9.6
+  - '6.17'
+  - '6.18'
+  - '6.20'
+  - 6.3.2
+  - 6.4.2
+  - 6.5.2
+  - 6.6.2
+  - 6.7.2
+- paper: M5lpdRp7OoHZAYxuDiicgGtSnpg
+  count: 26
+  locations:
+  - 6.10.2
+  - 6.10.3
+  - 6.10.5
+  - 6.10.6
+  - 6.11.2
+  - 6.11.3
+  - 6.11.5
+  - 6.11.6
+  - 6.12.2
+  - 6.12.3
+  - 6.12.5
+  - 6.12.6
+  - 6.13.2
+  - 6.13.3
+  - 6.13.5
+  - 6.13.6
+  - 6.14.2
+  - 6.14.3
+  - 6.14.5
+  - 6.14.6
+  - 6.15.2
+  - 6.15.3
+  - 6.15.5
+  - 6.15.6
+  - 6.16.2
+  - 6.16.3
+  - 6.16.5
+  - 6.16.6
+  - '6.17'
+  - '6.20'
+unsupported_claims:
+- location: 6.12.6
+  claim: 行为决策学相关理论支撑：Kahneman & Tversky (1979) 前景理论、Stanovich (2009) 理性商数概念、Tetlock
+    (2005) 超级预测者研究中的开放思维指标。
+  reason: 素材中未找到支撑，标注为[需要补充文献]
+- location: 6.14.6
+  claim: '神经科学实证研究：Lazar et al. (2005) "Meditation experience is associated with increased
+    cortical thickness" (Neuroreport) 证实冥想增厚前额叶皮层；Erickson et al. (2011) "Exercise
+    training increases size of hippocampus and improves memory" (PNAS) 证实有氧运动促海马体神经生成；Cotman
+    & Berchtold (2002) "Exercise: a behavioral intervention to enhance brain health
+    and plasticity" (Trends in Neurosciences) 综述BDNF机制。'
+  reason: 素材中未找到支撑，标注为[需要补充文献]
+missing_concepts:
+- paper: P057
+  concept: 粥左罗12年全网同名的具体操作细节（如微信昵称、公众号、署名文章数量、覆盖形态、用户反馈案例）
+  severity: low
+- paper: P066
+  concept: 思蒙短剧推广项目的具体手册内容结构、陪跑群运营节奏、航海志愿者角色的具体职责、亮宇渠道方反向邀请的细节
+  severity: low
+- paper: QPFgdHgZsorQvdxDkl9cw58LnVf
+  concept: 根源从年负债19万到年入200万的完整时间线、现金投票/先开课再完善的具体操作话术、100-10-5-1模型在各期课程中的实测数据、三阶段师生关系的具体转化动作、确认词/私发毕业证/手动分销的完整SOP话术、主编福利体系与筛选考核细则
+  severity: high
+- paper: M5lpdRp7OoHZAYxuDiicgGtSnpg
+  concept: 认知觉醒23个环环相扣问题的完整推演链条、费曼技巧/关键点触发读书/刻意练习缝合的具体操作步骤、番茄工作法/精力桶管理/黄金时间/预案式规划的实操细节、长价值写作法/双轨制/价值交换规律的底层逻辑、巴菲特12大特质与认知清晰度的映射关系
+  severity: high
