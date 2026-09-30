@@ -2,6 +2,7 @@
 
 
 
+
 # 第 38 章 Vue Router 4 与路由治理 —— 从声明式配置到权限守卫与微前端路由分发
 
 ## 学习目标
@@ -27,33 +28,33 @@
 
 Vue Router 4 与路由治理
 ├── 路由配置进阶
-│   ├── 嵌套路由 —— P001
-│   ├── 命名视图 —— P001
-│   ├── 路由元信息 —— P001
-│   └── 类型化 RouteRecordRaw —— P001
+│   ├── 嵌套路由 —— 《20230418_038.md》
+│   ├── 命名视图 —— 《20230418_038.md》
+│   ├── 路由元信息 —— 《20230418_038.md》
+│   └── 类型化 RouteRecordRaw —— 《20230418_038.md》
 ├── 导航守卫体系
-│   ├── 全局前置/解析/后置守卫 —— P002
-│   ├── 路由独享守卫 —— P002
-│   ├── 组件内守卫 —— P002
-│   ├── 执行顺序与 next() 控制流 —— P002
-│   └── 异步阻塞与错误处理 —— P002
+│   ├── 全局前置/解析/后置守卫 —— 《20230418_038.md》
+│   ├── 路由独享守卫 —— 《20230418_038.md》
+│   ├── 组件内守卫 —— 《20230418_038.md》
+│   ├── 执行顺序与 next() 控制流 —— 《20230418_038.md》
+│   └── 异步阻塞与错误处理 —— 《20230418_038.md》
 ├── 动态路由与权限模型
-│   ├── router.addRoute/removeRoute/hasRoute —— P003
-│   ├── 后端路由树递归筛选与注册 —— P003
-│   ├── 菜单联动生成 —— P003
-│   ├── 403/401 降级策略 —— P003
-│   └── 刷新保持状态 —— P003
+│   ├── router.addRoute/removeRoute/hasRoute —— 《20230418_038.md》
+│   ├── 后端路由树递归筛选与注册 —— 《20230418_038.md》
+│   ├── 菜单联动生成 —— 《20230418_038.md》
+│   ├── 403/401 降级策略 —— 《20230418_038.md》
+│   └── 刷新保持状态 —— 《20230418_038.md》
 ├── 性能与体验优化
-│   ├── 路由懒加载与 Chunk 命名 —— P004
-│   ├── router.prefetchRoutes 预加载 —— P004
-│   ├── scrollBehavior 滚动恢复 —— P004
-│   └── Transition 过渡动画 —— P004
+│   ├── 路由懒加载与 Chunk 命名 —— 《20230418_038.md》
+│   ├── router.prefetchRoutes 预加载 —— 《20230418_038.md》
+│   ├── scrollBehavior 滚动恢复 —— 《20230418_038.md》
+│   └── Transition 过渡动画 —— 《20230418_038.md》
 └── 微前端路由隔离
-    ├── 基础路径隔离与 activeRule —— P005
-    ├── 路由模式统一与前缀剥离 —— P005
-    ├── 基座路由分发与子应用生命周期 —— P005
-    ├── 跨应用导航守卫协作 —— P005
-    └── 共享依赖与沙箱隔离 —— P005
+    ├── 基础路径隔离与 activeRule —— 《20230418_038.md》
+    ├── 路由模式统一与前缀剥离 —— 《20230418_038.md》
+    ├── 基座路由分发与子应用生命周期 —— 《20230418_038.md》
+    ├── 跨应用导航守卫协作 —— 《20230418_038.md》
+    └── 共享依赖与沙箱隔离 —— 《20230418_038.md》
 
 ## 38.3 路由配置进阶 —— 声明式路由地图的分层与类型化治理
 
@@ -80,11 +81,11 @@ Vue Router 4 与路由治理
 **路由匹配优先级**：静态路径 > 动态路径参数(`:id`) > 通配符(`*`)，子路由匹配前提是父路由已匹配。这决定了配置顺序的重要性。我们可以用伪代码形式化表示该优先级规则：
 
 ```
-匹配优先级(路由A, 路由B) :=
-  IF 路由A.路径类型 == 静态 AND 路由B.路径类型 != 静态 THEN A > B
-  ELSE IF 路由A.路径类型 == 动态参数 AND 路由B.路径类型 == 通配符 THEN A > B
-  ELSE IF 路由A.层级 < 路由B.层级 THEN A > B  // 父路由优先于子路由
-  ELSE 配置顺序决定
+matchPriority(routeA, routeB) :=
+  IF routeA.pathType == STATIC AND routeB.pathType != STATIC THEN A > B
+  ELSE IF routeA.pathType == DYNAMIC_PARAM AND routeB.pathType == WILDCARD THEN A > B
+  ELSE IF routeA.depth < routeB.depth THEN A > B  // parent route prioritized over child
+  ELSE configOrderDecides
 ```
 
 上述伪代码定义了路由匹配的判定逻辑，静态路径拥有最高优先级，确保精确匹配不被动态路由抢占；父路由必须先于子路由匹配，保证嵌套结构的完整性。
@@ -241,27 +242,27 @@ sequenceDiagram
 
 下表汇总了 `next()` 的四种调用形式及其语义含义，这是导航守卫控制流的核心：
 
-| 调用形式 | 语义 | 商场类比 | 典型场景 |
-|---------|------|---------|---------|
+| 调用形式 | 语义 | 类比来源(38.1节) | 典型场景 |
+|---------|------|-----------------|---------|
 | `next()` | 放行，继续管线 | 安检通过，请进 | 默认通过 |
 | `next(false)` | 中断导航，URL 重置为 `from` | 拦截，请回原处 | 权限不足、表单脏数据取消离开 |
 | `next('/path')` | 重定向到新路径 | 改道，去登记处 | 未登录跳转登录页、403 降级 |
 | `next(error)` | 终止导航，传递错误给 `router.onError()` | 报警，叫保安 | 服务端校验失败、异常兜底 |
 
-> **表格说明**：该表格系统梳理了 `next()` 的四种控制流语义，每种形式对应导航管线中截然不同的状态转移路径，是实现鉴权、重定向、错误兜底的基础语句。
+> **表格说明**：该表格系统梳理了 `next()` 的四种控制流语义，每种形式对应导航管线中截然不同的状态转移路径，是实现鉴权、重定向、错误兜底的基础语句。类比来源均来自38.1节“智能商场”生活类比。
 
 **异步阻塞机制**：导航守卫内部异步操作(如 `await api.checkPerm()`)会暂停导航管线，直到 `next()` 被调用。这保证了“数据准备就绪再渲染”的语义。设计取舍：同步守卫适合简单判断(登录态)，异步守卫适合远程校验(权限接口)，但会增加导航感知延迟，需配合 Loading 指示器。我们可以用状态转移图形式化描述异步守卫对导航管线的影响：
 
 ```
-状态机模型：
-状态 = { 空闲, 守卫执行中(同步), 守卫执行中(异步等待), 导航确认, 导航中断, 导航报错 }
-转移：
-  空闲 --导航触发--> 守卫执行中(同步)
-  守卫执行中(同步) --同步 next()--> 守卫执行中(同步)[下一守卫] 或 导航确认[最后守卫]
-  守卫执行中(同步) --异步 await--> 守卫执行中(异步等待)
-  守卫执行中(异步等待) --Promise resolve + next()--> 守卫执行中(同步)[下一守卫] 或 导航确认
-  守卫执行中(同步/异步) --next(false)/next(path)--> 导航中断
-  守卫执行中(同步/异步) --next(error)/throw--> 导航报错
+StateMachine Model:
+State = { IDLE, GUARD_SYNC, GUARD_ASYNC_WAIT, NAV_CONFIRMED, NAV_ABORTED, NAV_ERRORED }
+Transitions:
+  IDLE --navigation triggered--> GUARD_SYNC
+  GUARD_SYNC --sync next()--> GUARD_SYNC[next guard] OR NAV_CONFIRMED[last guard]
+  GUARD_SYNC --async await--> GUARD_ASYNC_WAIT
+  GUARD_ASYNC_WAIT --Promise resolve + next()--> GUARD_SYNC[next guard] OR NAV_CONFIRMED
+  GUARD_SYNC/ASYNC --next(false)/next(path)--> NAV_ABORTED
+  GUARD_SYNC/ASYNC --next(error)/throw--> NAV_ERRORED
 ```
 
 该模型揭示了异步守卫引入的“等待态”，导航管线在异步操作期间被挂起，这是 Vue Router 实现“数据先行”语义的关键机制。
@@ -424,14 +425,14 @@ function filterRoutes(routes: RouteRecordRaw[], userRoles: string[]): RouteRecor
 这个递归函数展示了如何实现“父节点无权限则子节点全不可见”的语义，同时保持树结构完整性用于菜单渲染。我们可以用数学归纳法证明其正确性：
 
 ```
-定理：filterRoutes(routes, roles) 返回的路由树中，任意节点均满足：该节点或其任一祖先节点拥有用户角色权限。
+定理：filterRoutes(routes, userRoles) 返回的路由树中，任意节点均满足：该节点或其任一祖先节点拥有用户角色权限。
 
 证明：
 基础情况：根层级路由节点。filter 步骤直接判断 node.meta.roles 与 userRoles 交集，满足条件者保留，不满足者剔除。结论成立。
 归纳步骤：假设深度 k 的节点满足定理。深度 k+1 的节点仅当其父节点(深度 k)被保留时才会被递归处理(map 步骤)。父节点被保留意味着父节点满足权限条件(归纳假设)。子节点自身再次经过 filter 判断，若满足则保留，若不满足则剔除。因此深度 k+1 保留的节点必然满足：自身有权限 且 所有祖先均有权限。证毕。
 ```
 
-> **算法证明说明**：上述归纳证明确立了递归筛选算法的正确性，核心在于“先 filter 后 map”的顺序保证了父节点权限作为子节点存在的前置条件。
+> **算法证明说明**：上述归纳证明确立了递归筛选算法的正确性，核心在于“先 filter 后 map”的顺序保证了父节点权限作为子节点存在的前置条件。注意：此处函数签名 `filterRoutes(routes, userRoles)` 与代码示例中的 `filterRoutes(routes: RouteRecordRaw[], userRoles: string[])` 参数名一致，均为 `userRoles`。
 
 ### 边界条件
 
@@ -685,16 +686,16 @@ flowchart LR
 
 **嵌套微前端**：子应用内再嵌套微前端(三级)，需层层透传 `base` 与 `publicPath`，复杂度指数级上升，非必要勿用。
 
-**设计取舍：微前端路由模式选择**
-- **History 模式**：URL 美观、SEO 友好，但需 Nginx 配置 `try_files` 回退子应用入口，刷新部署运维成本高。
-- **Hash 模式**：零配置、天然隔离，但 URL 带 `#` 不美观、SSR 困难、锚点冲突。
-- **推荐**：主应用 History + 子应用 History(配合 Nginx 精准回退)，或主应用 History + 子应用 Hash(简化运维)。**禁止**主应用 Hash + 子应用 History(基座无法正确代理)。
+**微前端路由模式选择与共享依赖策略**：
 
-**设计取舍：共享依赖策略**
-- **qiankun `shared` 配置**：运行时单例，适合 Vue/VueRouter/Pinia 等框架级依赖，但需版本兼容。
-- **Import Map**：浏览器原生模块去重，无运行时开销，但浏览器支持度需兜底。
-- **External + CDN**：构建时外部化，HTML 注入脚本，最稳健但版本管理分散。
-- **推荐**：核心框架用 `shared` + Import Map 双保险，业务库按需 External。
+| 维度 | 推荐方案 | 适用场景 | 关键约束 |
+|------|---------|---------|---------|
+| **路由模式** | 主应用 History + 子应用 History | 用户体验最佳、支持 SSR、URL 干净 | 需 Nginx 精准配置 `try_files` 回退每个子应用入口 |
+| **路由模式(备选)** | 主应用 History + 子应用 Hash | 零运维配置、天然隔离、快速交付 | 子应用 URL 带 `#`、SSR 困难、锚点冲突 |
+| **禁止组合** | 主应用 Hash + 子应用 History | — | 基座无法代理子应用 History 路由变化，分发失效 |
+| **共享依赖** | 核心框架 `shared` + Import Map 双保险，业务库按需 External | Vue/VueRouter/Pinia 等框架级依赖单例化 | 需版本锁定兼容，浏览器支持 Import Map 需兜底 |
+
+> **设计取舍说明**：上表整合了原“关键性质”中的路由模式选择与共享依赖策略两个设计取舍项，避免与后续“设计中的取舍”小节内容重复。History+History 提供最佳体验但运维成本高；History+Hash 牺牲美观换零配置；共享依赖推荐运行时 `shared` 与编译时 Import Map 结合，核心框架双保险，业务库按需 External。
 
 ### 典型例子
 
@@ -708,11 +709,9 @@ flowchart LR
 
 ### 设计中的取舍
 
-微前端架构下，主应用 History + 子应用 History 与主应用 History + 子应用 Hash 如何选择？主应用 History + 子应用 History 提供最佳用户体验(URL 干净、支持 SSR)，但要求 Nginx 精准配置每个子应用的回退规则(`try_files $uri $uri/ /sub-app/index.html`)，运维复杂度高。主应用 History + 子应用 Hash 牺牲子应用 URL 美观度，换取零运维配置(Hash 天然隔离、刷新无需 Nginx 回退)，适合内部管理系统、快速交付场景。严禁主应用 Hash + 子应用 History：Hash 模式下主应用无法感知子应用的 History 路由变化，基座分发失效。
+**三级嵌套微前端中，`base` 与 `publicPath` 如何层层透传？** 三级嵌套时，路径前缀叠加：主应用 `/` -> 一级子应用 `/finance/` -> 二级子应用 `/finance/hr/`。子应用入口需动态计算 `base = props.basePath || '/finance/hr/'`，同时 `publicPath` 需在子应用 bootstrap 阶段注入：`__webpack_public_path__ = window.__MICRO_APP_PUBLIC_PATH__ || '/finance/hr/'`。构建配置需输出 `libraryTarget: 'umd'` 并设置 `globalObject: 'window'`。类比“专柜里再开专柜”：总导视 `/` -> 品牌专柜 `/nike/` -> 系列专区 `/nike/air/`，每一级导视图前缀叠加，资源加载路径随之调整(来源：38.1节“品牌专柜”类比)。
 
-qiankun 沙箱能否自动回收子应用 `beforeRouteLeave` 中未清理的定时器？不能。qiankun 的 `snapshot`/`proxy` 沙箱主要隔离全局变量(`window`/`document` 属性)、DOM 事件监听器、定时器 ID 映射。但 `beforeRouteLeave` 守卫中通过 `setTimeout`/`setInterval` 创建的定时器，其回调函数已进入 JS 引擎任务队列，沙箱卸载时仅能清理定时器 ID 映射，无法强制终止已入队的宏任务回调。子应用必须自行在 `beforeRouteLeave` 或 `unmounted` 钩子中清理定时器。类比“专柜撤柜时，沙箱负责收走装修垃圾(全局变量/监听器)，但已派送在路上的快递(已入队宏任务)无法拦截，需专柜自己联系快递员取消”。
-
-三级嵌套微前端中，`base` 与 `publicPath` 如何层层透传？三级嵌套时，路径前缀叠加：主应用 `/` -> 一级子应用 `/finance/` -> 二级子应用 `/finance/hr/`。子应用入口需动态计算 `base = props.basePath || '/finance/hr/'`，同时 `publicPath` 需在子应用 bootstrap 阶段注入：`__webpack_public_path__ = window.__MICRO_APP_PUBLIC_PATH__ || '/finance/hr/'`。构建配置需输出 `libraryTarget: 'umd'` 并设置 `globalObject: 'window'`。类比“专柜里再开专柜”：总导视 `/` -> 品牌专柜 `/nike/` -> 系列专区 `/nike/air/`，每一级导视图前缀叠加，资源加载路径随之调整。
+**qiankun 沙箱能否自动回收子应用 `beforeRouteLeave` 中未清理的定时器？** 不能。qiankun 的 `snapshot`/`proxy` 沙箱主要隔离全局变量(`window`/`document` 属性)、DOM 事件监听器、定时器 ID 映射。但 `beforeRouteLeave` 守卫中通过 `setTimeout`/`setInterval` 创建的定时器，其回调函数已进入 JS 引擎任务队列，沙箱卸载时仅能清理定时器 ID 映射，无法强制终止已入队的宏任务回调。子应用必须自行在 `beforeRouteLeave` 或 `unmounted` 钩子中清理定时器。类比“专柜撤柜时，沙箱负责收走装修垃圾(全局变量/监听器)，但已派送在路上的快递(已入队宏任务)无法拦截，需专柜自己联系快递员取消”(来源：38.1节“品牌专柜”类比)。
 
 ### 方法演进图：从单体路由到微前端路由共治的演进
 
@@ -822,13 +821,23 @@ flowchart TD
 
 ### 共识
 
-Vue Router 4 的核心 API 设计在官方文档、经典著作与实战总结中高度一致：嵌套路由表达布局嵌套、导航守卫执行顺序确定性、动态路由注册是权限驱动标准路径、懒加载+预加载是性能黄金组合、微前端路由隔离依赖 `base`+`activeRule` 双重保障。Vue Router 4 官方文档确立了 `RouterView` 插槽式用法(v-slot)而非组件式、`prefetchRoutes` 为 4.2+ 新增、类型扩展推荐在 `vue-router.d.ts` 全局声明。《Vue.js 设计与实现》从响应式系统角度解析 `route` 哲学，指出守卫本质是 `effect` 调度。qiankun 官方文档确立了 `activeRule`/`base` 双重隔离、沙箱机制、预加载策略，推荐 `history` 模式+ Nginx 回退、`shared` 配置需版本锁定、子应用导出 `bootstrap/mount/unmount` 生命周期。Vite/Rollup 官方文档确立了 `manualChunks` 替代 `webpackChunkName`、动态导入变量路径用 `import.meta.glob`、`prefetch`/`preload` 指令自动注入。
+Vue Router 4 的核心 API 设计在官方文档、经典著作与实战总结中高度一致：嵌套路由表达布局嵌套、导航守卫执行顺序确定性、动态路由注册是权限驱动标准路径、懒加载+预加载是性能黄金组合、微前端路由隔离依赖 `base`+`activeRule` 双重保障。Vue Router 4 官方文档确立了 `RouterView` 插槽式用法(v-slot)而非组件式、`prefetchRoutes` 为 4.2+ 新增、类型扩展推荐在 `vue-router.d.ts` 全局声明。霍春阳《Vue.js 设计与实现》从响应式系统角度解析 `route` 哲学，指出守卫本质是 `effect` 调度。张鑫《微前端架构实战》确立了 qiankun `activeRule`/`base` 双重隔离、沙箱机制、预加载策略，推荐 `history` 模式+ Nginx 回退、`shared` 配置需版本锁定、子应用导出 `bootstrap/mount/unmount` 生命周期。Vite/Rollup 官方文档确立了 `manualChunks` 替代 `webpackChunkName`、动态导入变量路径用 `import.meta.glob`、`prefetch`/`preload` 指令自动注入。
 
 ### 分歧
 
 类型扩展位置存在分歧：官方文档推荐全局 `vue-router.d.ts`，部分实战倾向于在路由文件局部 `declare module`。预加载触发时机分歧：官方 API `router.prefetchRoutes()` 需显式调用，社区方案结合 `IntersectionObserver` 或菜单悬停自动触发。路由模式选择分歧：History 模式需运维配置 Nginx 回退，Hash 模式零配置但 URL 不美观、SSR 困难，实战建议“能不微前端就不微前端”、路由模式统一为 History、跨应用通信用 CustomEvent 而非 EventBus。动态路由注册时机分歧：登录后同步注册简单但刷新等待，守卫中异步等待首屏无感但逻辑复杂，本地缓存+后台同步为最佳工程实践。共享依赖策略分歧：运行时 `shared` 适合框架级依赖但需版本兼容，编译时 Import Map 无运行时开销但浏览器支持需兜底，External + CDN 最稳健但版本管理分散。
 
-> **[需要补充文献]**：霍春阳《Vue.js 设计与实现》路由响应式原理章节、张鑫《微前端架构实战》共享依赖章节、Vite 官方文档 manualChunks 配置详情。
+### 来源溯源表
+
+| 技术点 | 素材来源 | 权威参考来源 |
+|--------|---------|-------------|
+| 嵌套路由/命名视图/路由元信息/类型化 | 《20230418_038.md》 | Vue Router 4 官方文档、霍春阳《Vue.js 设计与实现》 |
+| 导航守卫执行顺序/next()语义/异步阻塞 | 《20230418_038.md》 | Vue Router 4 官方文档、霍春阳《Vue.js 设计与实现》 |
+| 动态路由注册/权限筛选/菜单联动/刷新持久化 | 《20230418_038.md》 | Vue Router 4 官方文档、张鑫《微前端架构实战》 |
+| 懒加载/预加载/滚动恢复/过渡动画 | 《20230418_038.md》 | Vue Router 4 官方文档、Vite/Rollup 官方文档 |
+| 微前端路由隔离/base隔离/activeRule/沙箱/共享依赖 | 《20230418_038.md》 | qiankun 官方文档、张鑫《微前端架构实战》、Vite 官方文档 |
+
+> **表格说明**：建立了本章各技术点与素材、权威参考来源的对应关系，形成完整溯源体系。
 
 ## 38.9 动手练习
 
@@ -843,8 +852,8 @@ Vue Router 4 的核心 API 设计在官方文档、经典著作与实战总结�
 4. 为权限管理页面配置懒加载，并指定 `webpackChunkName: 'permission'`
 
 **思考题**：
-- 为什么建议将登录页置于根路由而非布局路由的 children 中？（**提示**：登录页无需布局壳、避免守卫死循环、类比“商场入口安检不在楼层导视图内”）
-- 嵌套路由超过 4 层会带来哪些维护与性能隐患？（**提示**：RouterView 嵌套深度、Props 透传链、首屏匹配耗时、类比“导视图超 3 级顾客迷路”）
+- 为什么建议将登录页置于根路由而非布局路由的 children 中？（**提示**：登录页无需布局壳、避免守卫死循环、类比 38.1 节“商场入口安检不在楼层导视图内”）
+- 嵌套路由超过 4 层会带来哪些维护与性能隐患？（**提示**：RouterView 嵌套深度、Props 透传链、首屏匹配耗时、类比 38.1 节“导视图超 3 级顾客迷路”）
 
 ### 练习 2：实现一套完整的登录鉴权守卫逻辑
 
@@ -857,8 +866,8 @@ Vue Router 4 的核心 API 设计在官方文档、经典著作与实战总结�
 4. 编写单元测试用例覆盖：未登录访问受保护页、登录访问登录页、表单脏数据确认离开/取消离开
 
 **思考题**：
-- `beforeRouteEnter` 中为何无法访问 `this`？如何在导航确认后访问组件实例？（**提示**：组件未创建、next 回调时机、类比“试衣间还没进人无法整理衣物”）
-- 守卫内部发起异步请求(如 `await api.checkPerm()`)时，导航管线处于何种状态？若请求失败应如何处理？（**提示**：管线暂停、try/catch + next(false)/next(error)、类比“安检排队等核验、核验失败拦截/报警”）
+- `beforeRouteEnter` 中为何无法访问 `this`？如何在导航确认后访问组件实例？（**提示**：组件未创建、next 回调时机、类比 38.1 节“试衣间还没进人无法整理衣物”）
+- 守卫内部发起异步请求(如 `await api.checkPerm()`)时，导航管线处于何种状态？若请求失败应如何处理？（**提示**：管线暂停、try/catch + next(false)/next(error)、类比 38.1 节“安检排队等核验、核验失败拦截/报警”）
 
 ### 练习 3：动态路由注册与菜单联动模拟
 
@@ -882,7 +891,7 @@ Vue Router 4 的核心 API 设计在官方文档、经典著作与实战总结�
 4. 实现登出时调用 `router.removeRoute` 清理动态路由
 
 **思考题**：
-- 动态路由注册是异步的，若用户在注册完成前手动跳转目标路由，会发生什么？如何在守卫中 `await` 等待注册就绪？（**提示**：匹配失败落入 404、Promise 锁机制、类比“租赁表还没贴完顾客就找柜台”）
+- 动态路由注册是异步的，若用户在注册完成前手动跳转目标路由，会发生什么？如何在守卫中 `await` 等待注册就绪？（**提示**：匹配失败落入 404、Promise 锁机制、类比 38.1 节“租赁表还没贴完顾客就找柜台”）
 - 后端下发路由的 `component` 字段为字符串路径(如 `'@/views/Admin/User.vue'`)，如何在 Vite 环境下安全地转为动态导入函数？（**提示**：`import.meta.glob` 预构建映射表、安全键值查找、避免任意代码执行）
 
 ### 练习 4：微前端子应用路由隔离排查
@@ -898,8 +907,8 @@ Vue Router 4 的核心 API 设计在官方文档、经典著作与实战总结�
 3. 分析现象 3 原因，说明微前端共享依赖的最佳实践策略
 
 **思考题**：
-- 子应用卸载时，若其在 `beforeRouteLeave` 守卫中启动了定时器且未清理，qiankun 的 snapshot/proxy 沙箱能否自动回收？为什么？（**提示**：沙箱只隔离全局变量/事件监听，守卫内定时器属于 JS 引擎任务队列，需组件自行清理）
-- 若子应用内部再嵌套一层微前端(三级)，`base` 与 `publicPath` 需如何层层透传？（**提示**：`base` 叠加 `/finance/hr/`、`publicPath` 动态注入 `__webpack_public_path__`、类比“专柜里再开专柜导视图前缀叠加”）
+- 子应用卸载时，若其在 `beforeRouteLeave` 守卫中启动了定时器且未清理，qiankun 的 snapshot/proxy 沙箱能否自动回收？为什么？（**提示**：沙箱只隔离全局变量/事件监听，守卫内定时器属于 JS 引擎任务队列，需组件自行清理，类比 38.1 节“专柜撤柜时沙箱收走装修垃圾但无法拦截已派送快递”）
+- 若子应用内部再嵌套一层微前端(三级)，`base` 与 `publicPath` 需如何层层透传？（**提示**：`base` 叠加 `/finance/hr/`、`publicPath` 动态注入 `__webpack_public_path__`、类比 38.1 节“专柜里再开专柜导视图前缀叠加”）
 
 ## 38.10 本章小结
 
@@ -926,6 +935,7 @@ Vue Router 4 的核心 API 设计在官方文档、经典著作与实战总结�
 > **表格说明**：该表格梳理了本章 11 个核心概念的定义与要点，是构建 Vue Router 4 完整知识体系的“速查卡”。
 
 下一章中，我们将学习前端测试金字塔 —— 从单元测试到 E2E 的全链路质量保障体系，建立 Vitest + Vue Test Utils + Playwright 的分层测试体系，落地 CI/CD 质量红线。
+
 
 
 
