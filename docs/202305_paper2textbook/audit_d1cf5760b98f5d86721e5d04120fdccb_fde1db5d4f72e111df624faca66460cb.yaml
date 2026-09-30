@@ -1,0 +1,90 @@
+citation_stats:
+- paper: P001
+  count: 17
+  locations:
+  - '4.1'
+  - '4.2'
+  - '4.3'
+  - '4.7'
+  - '4.8'
+  - '4.9'
+  - '4.10'
+  - '4.11'
+  - '4.12'
+  - '4.13'
+- paper: P002
+  count: 4
+  locations:
+  - '4.2'
+  - '4.4'
+  - '4.10'
+  - '4.13'
+- paper: P003
+  count: 2
+  locations:
+  - '4.2'
+  - '4.5'
+- paper: P004
+  count: 4
+  locations:
+  - '4.2'
+  - '4.7'
+  - '4.8'
+  - '4.10'
+- paper: P005
+  count: 4
+  locations:
+  - '4.2'
+  - '4.6'
+  - '4.10'
+  - '4.13'
+- paper: P006
+  count: 6
+  locations:
+  - '4.2'
+  - '4.3'
+  - '4.8'
+  - '4.9'
+  - '4.10'
+  - '4.13'
+unsupported_claims:
+- location: '4.3'
+  claim: 三四线城市消费支付意愿与一二线持平
+  reason: 素材中仅有作者主观观察和个案引用，缺乏量化实证研究支撑
+- location: '4.4'
+  claim: 电影院选址代表成熟商业聚合能力
+  reason: 素材中未提供商业地产选址模型或头部商管公司内部白皮书作为学术背书
+- location: '4.7'
+  claim: 超卖2倍可借鉴健身房逻辑
+  reason: 素材中未提供收益管理学文献或超卖最优模型作为理论支撑
+- location: '4.8'
+  claim: 羊毛党造氛围利用社会认同效应
+  reason: 素材中未引入社会认同理论、破窗效应逆向应用等学术框架
+- location: '4.6'
+  claim: 物业利益绑定（佣金/红包/尊重）在合规边界内
+  reason: 素材中未引用《反不正当竞争法》《刑法》商业贿赂罪司法解释等法律合规参考
+- location: '4.11'
+  claim: 标准化小店模型可迁移至咖啡/台球/麻辣烫等业态
+  reason: 素材中缺乏业态可标准化程度评估框架、服务蓝图复杂度分级模型等判断工具
+missing_concepts:
+- paper: P001
+  concept: 三四线城市消费支付意愿量化实证研究
+  severity: high
+- paper: P002
+  concept: 电影院选址作为商业聚合度代理指标的有效性学术背书
+  severity: high
+- paper: P004
+  concept: 超卖模型边界与最优参数设定
+  severity: medium
+- paper: P001
+  concept: 羊毛党心理机制与用户自律文化形成的行为经济学解释
+  severity: medium
+- paper: P005
+  concept: 物业租户博弈框架与合规操作边界
+  severity: high
+- paper: P001
+  concept: 现金流与谈判杠杆平衡模型
+  severity: medium
+- paper: P001
+  concept: 非自习室业态标准化可复制性评分卡
+  severity: medium
