@@ -1,0 +1,409 @@
+- 'no': 1
+  name: 认知重塑与行动力 —— 普通人逆袭的底层操作系统
+  desc: 本章从认知心理学与实战复盘视角出发，拆解普通人如何通过建立“绿灯思维”、控制试错成本、双系统决策与极致行动力，打破阶层固化，在AI浪潮中实现从0到1的跃迁。
+  nodes:
+  - 'no': 1
+    name: 绿灯思维：拥抱变化的认知开关
+    desc: 对比“红灯思维”（习惯性防卫），建立面对新事物“先接受、再内化、后实践”的认知反射弧，打破舒适区惯性。
+    role: motivation
+    src:
+    - paper: docs/202305/20230516_019.md
+    - paper: docs/202305/CBJhdD0dTokH8tx8HKYc1nJSnnc.md
+  - 'no': 2
+    name: 试错成本控制原则：在承受范围内疯狂尝试
+    desc: 设定资金/时间上限（如几十元买号、2K入群），将风险锁定在“多吃几天泡面可恢复”的区间，通过高频低成本试错积累确定性。
+    role: method
+    src:
+    - paper: docs/202305/20230516_019.md
+    - paper: docs/202305/CBJhdD0dTokH8tx8HKYc1nJSnnc.md
+  - 'no': 3
+    name: 双系统决策模型：直觉捕捉+理性验证
+    desc: 基于《认知觉醒》理论，用系统1（潜意识）高速捕捉机会信号，用系统2（逻辑）分析可行性与ROI，克服犹豫与盲目。
+    role: method
+    src:
+    - paper: docs/202305/20230516_019.md
+    - paper: docs/202305/CBJhdD0dTokH8tx8HKYc1nJSnnc.md
+  - 'no': 4
+    name: 信息差半衰期法则：行动力即变现力
+    desc: 信息差商业价值随时间指数衰减，唯有“发现速度×产出速度×分发速度”的极致执行力才能在红利窗口期完成变现闭环。
+    role: theorem
+    src:
+    - paper: docs/202305/CBJhdD0dTokH8tx8HKYc1nJSnnc.md
+  - 'no': 5
+    name: 破圈价值互换模型：输出独特价值而非索取
+    desc: 进入高质量圈层的本质是价值交换，遵循“了解目标-真诚领情-持续努力-及时反馈-完成目标”受助者协议，将单向帮助转为双向共振。
+    role: method
+    src:
+    - paper: docs/202305/CBJhdD0dTokH8tx8HKYc1nJSnnc.md
+  - 'no': 6
+    name: 有效提问协议：尊重他人注意力资源
+    desc: 提问前穷尽自我搜索；单条消息包含完整背景、条件、预期目标，避免多轮往返浪费专家时间。
+    role: method
+    src:
+    - paper: docs/202305/CBJhdD0dTokH8tx8HKYc1nJSnnc.md
+  - 'no': 7
+    name: 实证：应届生两周变现7000元的完整复盘
+    desc: 从加群、买号、调教、分销、写教程、办训练营、建星球、账号分销的全时间线复盘，验证上述认知模型的实战有效性。
+    role: experiment
+    src:
+    - paper: docs/202305/20230516_019.md
+    - paper: docs/202305/CBJhdD0dTokH8tx8HKYc1nJSnnc.md
+- 'no': 2
+  name: 提示词工程与模型调教 —— 让AI听懂人话并稳定产出
+  desc: 本章系统讲解从结构化提示词模板、参数控制策略，到“调教”大模型形成稳定人设/风格的完整方法论，解决“会用工具”到“驾驭工具”的核心鸿沟。
+  nodes:
+  - 'no': 1
+    name: 结构化提示词模板法：五段式公式与权重语法
+    desc: 将Prompt拆解为[质量词+主体+细节+服饰+环境]结构化模板，配合(词:权重)语法精准控制生成细节，实现复杂意图的标准化表达。
+    role: definition
+    src:
+    - paper: docs/202305/HYrZdLBMRorB0qxKqFFcQ075nWf.md
+    - paper: docs/202305/FJ8HdrA04o2efNx7E1ZcVgehnSe.md
+  - 'no': 2
+    name: 万金油正反向词预设：通用画质增强与避坑指南
+    desc: 提供通用正向词（画质/细节/人脸）与负向词（畸变/水印/低质量）模板，覆盖90%人像/通用生成场景，大幅降低新手调参门槛。
+    role: definition
+    src:
+    - paper: docs/202305/HYrZdLBMRorB0qxKqFFcQ075nWf.md
+    - paper: docs/202305/R2wRd6dN2oUtkOx9I3WcLHAOnzc.md
+  - 'no': 3
+    name: Temperature差异化生成策略：控制确定性与创造性平衡
+    desc: 带货文案建议0.3-0.7（保守连贯），创意文案设0.9（发散）；批量设定不同值生成多版本供筛选，规避查重与同质化。
+    role: method
+    src:
+    - paper: docs/202305/20230516_075.md
+  - 'no': 4
+    name: 结构化卖点迁移Prompt：复刻爆款文案骨架
+    desc: 指令模型先分析种子文案‘卖点表达结构与人群画像’，再迁移至新商品，保持段落结构不变实现‘套用模版’式改写。
+    role: method
+    src:
+    - paper: docs/202305/20230516_075.md
+  - 'no': 5
+    name: ChatGPT中文调教12步法：基于模仿的少样本微调范式
+    desc: 将训练狗指令迁移至LLM：引入背景→预设角色→输入完整案例→反馈学习效果→反馈优化→拆解教学→迭代优化模板→稳定输出，用结构化中文指令替代代码实现人设固化。
+    role: method
+    src:
+    - paper: docs/202305/CBJhdD0dTokH8tx8HKYc1nJSnnc.md
+  - 'no': 6
+    name: 提示词公式化/参数化：Excel批量生成结构化Prompt
+    desc: 利用CONCAT函数将固定指令模板与变量数据分离，实现数据与指令解耦的批量化Prompt工程，配合RPA实现端到端自动化。
+    role: method
+    src:
+    - paper: docs/202305/IZx7dx2CSo9x23xioUFcNaHcnRd.md
+  - 'no': 7
+    name: 人物一致性锚定法：无LoRA条件下的角色固定方案
+    desc: 在所有Prompt中强制固定核心外貌特征词（如发色、瞳色、服饰），无需训练即可维持跨图角色视觉连续性，满足连载/系列化需求。
+    role: method
+    src:
+    - paper: docs/202305/R2wRd6dN2oUtkOx9I3WcLHAOnzc.md
+- 'no': 3
+  name: Stable Diffusion 实战体系 —— 从零部署到工业化量产
+  desc: 本章提供SD的全生命周期教学：硬件排查、本地/云端多路径部署、核心参数深度解析、ControlNet多模态控制、LoRA训练标准化工作流、自动化批量生成与多账号并行扩容，打造‘喂饭式’到‘工程化’的完整能力跃迁路径。
+  nodes:
+  - 'no': 1
+    name: 部署路径选择：本地整合包 vs 云端免费算力 vs 付费云桌面
+    desc: 对比秋叶整合包（本地高配首选）、Google Colab（零成本白嫖）、青椒云/腾讯云（低配/应急）、RunPod等方案的硬件门槛、成本、稳定性与适用场景。
+    role: method
+    src:
+    - paper: docs/202305/HYrZdLBMRorB0qxKqFFcQ075nWf.md
+    - paper: docs/202305/20230516_076.md
+    - paper: docs/202305/Md2KdAjbDo0cdGxGMtncyb8CnLb.md
+    - paper: docs/202305/R2wRd6dN2oUtkOx9I3WcLHAOnzc.md
+  - 'no': 2
+    name: 核心三要素精讲：大模型、提示词、LoRA的强绑定关系
+    desc: 大模型决定基因画风（真人/二次元/3D），LoRA必须与大模型画风域对齐；提示词结构化模板与权重语法精准控制生成细节。
+    role: definition
+    src:
+    - paper: docs/202305/HYrZdLBMRorB0qxKqFFcQ075nWf.md
+    - paper: docs/202305/20230516_074.md
+  - 'no': 3
+    name: 进阶控制神技：ControlNet多模态结构控制
+    desc: 统一入口下切换预处理器/模型：OpenPose姿势迁移、Canny线稿上色/保边、M-LSD室内结构保持、Depth/Normal空间控制，实现构图/动作/线稿的像素级可控。
+    role: method
+    src:
+    - paper: docs/202305/HYrZdLBMRorB0qxKqFFcQ075nWf.md
+    - paper: docs/202305/ZXvbdq7RGoKEeLxryxAckCtSnPf.md
+  - 'no': 4
+    name: 精细编辑技能包：局部重绘、涂鸦重绘、高清修复、后期超分
+    desc: 蒙版局部重绘换装/换脸；涂鸦重绘像素级指定颜色；高清修复解决大分辨率崩坏；R-ESRGAN/GFPGAN针对动漫/真人分模型超分，构建生成后处理完整链路。
+    role: method
+    src:
+    - paper: docs/202305/HYrZdLBMRorB0qxKqFFcQ075nWf.md
+  - 'no': 5
+    name: LoRA训练标准化五步工作流：从数据到复现的工业级SOP
+    desc: 训练集准备（筛选/裁剪/打标/减标）→ 模型训练 → XYZ Grid测试复盘 → Metadata参数反推 → 业务落地。核心创新：减标签将权重迁移至触发词、自动聚焦裁剪、WD14打标+Dataset
+      Tag Editor减标工具链。
+    role: method
+    src:
+    - paper: docs/202305/ZXvbdq7RGoKEeLxryxAckCtSnPf.md
+  - 'no': 6
+    name: 模型全生命周期管理：获取、存放、鉴别、复现
+    desc: C站筛选下载→按类型存放目录→秋叶解析工具拖拽识别类型→PNG Info/Tagger反推参数→一键复现他人成果，构建资产库管理闭环。
+    role: method
+    src:
+    - paper: docs/202305/HYrZdLBMRorB0qxKqFFcQ075nWf.md
+  - 'no': 7
+    name: 工程化量产体系：Generate Forever + 多账号并行 + 打包下载
+    desc: 单实例无人值守生成→多浏览器/指纹浏览器多账号并行突破单账号算力上限→账号池轮换实现‘无限出图’→代码块打包下载输出目录解决文件获取痛点。
+    role: method
+    src:
+    - paper: docs/202305/20230516_076.md
+    - paper: docs/202305/Md2KdAjbDo0cdGxGMtncyb8CnLb.md
+  - 'no': 8
+    name: 参数调优实证：采样器、步数、分辨率、CFG的边际收益量化
+    desc: 通过X/Y/Z脚本矩阵对比验证：25步后质量边际递减、不同采样器25步趋同、512x512/512x768为显存友好基准、高分辨率修复为低配替代方案。
+    role: experiment
+    src:
+    - paper: docs/202305/HYrZdLBMRorB0qxKqFFcQ075nWf.md
+    - paper: docs/202305/R2wRd6dN2oUtkOx9I3WcLHAOnzc.md
+- 'no': 4
+  name: RPA + AI 协同自动化 —— 把重复劳动装进生产线
+  desc: 本章聚焦‘低代码RPA+大模型’协作范式，通过可视化拖拽构建端到端自动化流程：Excel数据准备→Prompt批量构建→网页交互自动化（含流式输出等待）→结果回填，将‘从1到100’的规模化执行标准化、工具化。
+  nodes:
+  - 'no': 1
+    name: ChatGPT+RPA协同自动化架构：内容引擎+执行器模式
+    desc: LLM负责内容生成（文案/代码/分析），RPA负责数据搬运、跨应用交互、流程编排，两者通过标准化接口（剪贴板/文件/API）解耦，解决长尾高频办公自动化需求。
+    role: definition
+    src:
+    - paper: docs/202305/20230516_070.md
+    - paper: docs/202305/20230516_075.md
+    - paper: docs/202305/IZx7dx2CSo9x23xioUFcNaHcnRd.md
+  - 'no': 2
+    name: 可视化拖拽式RPA开发：13次拖拽构建文案全流程自动化
+    desc: 影刀RPA关键节点编排：获取网页句柄→打开表格→循环遍历（读Prompt→聚焦输入框→发送→等待流式输出结束→抓取最后一条回复→写回表格），零代码交付端到端流程。
+    role: method
+    src:
+    - paper: docs/202305/20230516_070.md
+    - paper: docs/202305/IZx7dx2CSo9x23xioUFcNaHcnRd.md
+  - 'no': 3
+    name: 需求驱动学习与交付闭环：先验证需求再学技术
+    desc: 发帖对接验证市场需求→接单驱动技术速成（B站官方课程）→交付方案→复用沉淀SOP，形成‘需求-学习-交付’正向飞轮，极大降低技术学习机会成本。
+    role: method
+    src:
+    - paper: docs/202305/20230516_070.md
+    - paper: docs/202305/IZx7dx2CSo9x23xioUFcNaHcnRd.md
+  - 'no': 4
+    name: 手动跑通是自动化前提定律：SOP先行，工具在后
+    desc: 任何RPA项目成功前提是手动标准化流程（SOP）已跑通验证可行；自动化解决规模化（1到100）而非验证可行性（0到1）问题。
+    role: theorem
+    src:
+    - paper: docs/202305/20230516_075.md
+  - 'no': 5
+    name: 工具组合替代单一平台依赖：最佳实践链路拼装
+    desc: 组合专用小工具（热点宝选品、轻抖提取、超级写手生成、一帧秒创视频、RPA分发）构建最优链路，成本效率优于依赖单一大平台或全人工。
+    role: theorem
+    src:
+    - paper: docs/202305/20230516_075.md
+- 'no': 5
+  name: AI 视频内容生产线 —— 从小说推文到短剧CPS的标准化制造
+  desc: 本章对标短视频平台算法机制，拆解AI小说推文、短剧CPS两大主流赛道的全流程SOP：选题/授权→文案提取/改写→AI绘图/剪辑→配音/特效→多平台分发→SEO霸屏/账号矩阵运营，并给出‘风格化原创’与‘矩阵化搬运’两条路线的ROI对比与避坑指南。
+  nodes:
+  - 'no': 1
+    name: 赛道分层生存法则：女频批量 vs 男频风格化 vs 短剧CPS vs 解压素材
+    desc: 女频（知乎/最右）适合改开头+批量矩阵；男频（番茄/QQ阅读）需提炼精华+高成本制作；短剧CPS核心三要素（选剧/剪辑/账号）；解压素材虽低俗但高变现确定性。新手建议优先跑通闭环，再考虑风格化。
+    role: theorem
+    src:
+    - paper: docs/202305/R2wRd6dN2oUtkOx9I3WcLHAOnzc.md
+    - paper: docs/202305/EL9Fdl8WFoFxaixaJcLcqnXjn7r.md
+  - 'no': 2
+    name: AI小说推文‘一句话一图’公式化制作流程
+    desc: 文案拆解为单句→结构化Prompt（主角+细节+动作+背景）→SD批量生图（DDIM/20-30步/高清修复）→配音情绪适配（爽文禁用低能量音色）→剪映关键帧动态化（推拉摇移消除PPT感）→发布变现。
+    role: method
+    src:
+    - paper: docs/202305/R2wRd6dN2oUtkOx9I3WcLHAOnzc.md
+  - 'no': 3
+    name: 短剧CPS‘虐-反转’循环剪辑公式与三分类解说形态
+    desc: 核心剧情逻辑：一虐一反转刺激情绪起伏，3-6循环后反转前戛然而止引导转化；混剪/全解说/半解说三形态差异化去重，全解说模板法实现画面组合爆破式量产。
+    role: method
+    src:
+    - paper: docs/202305/EL9Fdl8WFoFxaixaJcLcqnXjn7r.md
+  - 'no': 4
+    name: ChatGPT辅助解说文案生产SOP：提取-改写-防违规-配音-合成
+    desc: 提取字幕→ChatGPT改写（同义替换/改名/改数字/调序）→分段投喂规避违规拦截→AI配音→剪映合成，标准化解决文案生产瓶颈与合规风险。
+    role: method
+    src:
+    - paper: docs/202305/EL9Fdl8WFoFxaixaJcLcqnXjn7r.md
+  - 'no': 5
+    name: 去重组合拳与抖音SEO霸屏：构建流量护城河
+    desc: 去重：裁剪/镜像/扫光/加标题/重字幕/调顺序/插叙/混剪素材组合4种以上；SEO：下拉词/相关搜索/大家都在搜系统性植入文案/描述/标签，配合RPA批量发布构建关键词覆盖矩阵。
+    role: method
+    src:
+    - paper: docs/202305/EL9Fdl8WFoFxaixaJcLcqnXjn7r.md
+    - paper: docs/202305/20230516_075.md
+  - 'no': 6
+    name: 账号冷启动与标签养成：高频发布+上热门检测+评论维护
+    desc: 新号判定标准为‘无领域标签’而非注册时间；日更2-4条、多时段点击‘上热门’对抗持续抽查、全回复评论+置顶引导，以量博爆款概率并修正人群模型。
+    role: method
+    src:
+    - paper: docs/202305/EL9Fdl8WFoFxaixaJcLcqnXjn7r.md
+  - 'no': 7
+    name: 实证对比：风格化原创（8小时/条、难矩阵）vs 矩阵化搬运（量大、收益稳）
+    desc: 风格化路线：100%原创、可挂中视频、代入感强，但单条耗时8小时、无法矩阵、收益上限低；矩阵路线：日产几十条、月入十万可复制。新手避坑原则：优先验证闭环，无自动化工作流勿碰高耗时路线。
+    role: experiment
+    src:
+    - paper: docs/202305/R2wRd6dN2oUtkOx9I3WcLHAOnzc.md
+    - paper: docs/202305/EL9Fdl8WFoFxaixaJcLcqnXjn7r.md
+- 'no': 6
+  name: AI 图文变现模型 —— 表情包、头像、设计的商业化闭环
+  desc: 本章聚焦AI绘图的直接商业化路径：Midjourney/SD批量生成表情包/头像/设计稿→平台分发（微信表情开放平台/小红书/抖音）→私域引流（教程钩子/群聊中转/小号留痕）→高客单转化（课程/定制/分销），拆解‘公域获客+私域变现’的标准化打法。
+  nodes:
+  - 'no': 1
+    name: AI表情包批量生成变现模型：从平台分成到私域高客单
+    desc: MJ/SD批量生产（Niji模型/提示词工程）→抠图/配字/格式转换工具链→微信表情平台认证上架（赞赏收益极低）→教程文档钩子引流小红书群聊→小号留微信入私域→售课/定制/分销变现，验证‘平台分发收益极低，私域转化是核心利润来源’。
+    role: method
+    src:
+    - paper: docs/202305/20230516_020.md
+    - paper: docs/202305/FJ8HdrA04o2efNx7E1ZcVgehnSe.md
+  - 'no': 2
+    name: AI辅助设计落地三大主场景：产品设计、AI模特、建筑/分镜
+    desc: 产品设计：Canny+Prompt控制结构生成渲染图；AI模特：ChilloutMix+ControlNet+Inpainting实现真人模特换装/换背景；建筑/分镜：M-LSD/Canny+建筑LoRA保持线条结构风格化重设计。
+    role: method
+    src:
+    - paper: docs/202305/20230516_074.md
+    - paper: docs/202305/ZXvbdq7RGoKEeLxryxAckCtSnPf.md
+  - 'no': 3
+    name: AI头像定制与私域高客单转化实证
+    desc: 30元/单、成交11单、引流36+精准客户，验证‘AI生成→小红书引流→私域成交’路径的正向现金流与可复制性。
+    role: experiment
+    src:
+    - paper: docs/202305/20230516_020.md
+    - paper: docs/202305/FJ8HdrA04o2efNx7E1ZcVgehnSe.md
+- 'no': 7
+  name: SEO 与 全网流量架构 —— 关键词科研、GPT内容工厂、多平台矩阵
+  desc: 本章建立‘平台无关、流量为本’的全网SEO体系：官方数据源关键词挖掘→GPT+RPA规模化内容生产→多平台（百家号/公众号/网站群/知乎/小红书）分发矩阵→精准搜索流量收割，并给出GPT+SEO站群谷歌收录率60%、2B售前专业度提升、第三方平台占位等进阶组合玩法。
+  nodes:
+  - 'no': 1
+    name: 官方平台关键词数据优先原则：拒绝第三方预估，直连搜索日志
+    desc: 百度关键词规划师、微信指数、抖音创意中心等官方后台数据为唯一决策依据；第三方工具（5118/站长工具）仅供参考，存在长尾覆盖盲区与数值偏差。
+    role: theorem
+    src:
+    - paper: docs/202305/20230516_072.md
+  - 'no': 2
+    name: 需求词与流量词决策分离：定性捕捉+定量验证
+    desc: 搜索框下拉/联想词=需求词（知其然）；官方后台指数=流量词（知其多少）。实战：先用下拉找方向，再用官方工具核实流量决定是否布局。
+    role: method
+    src:
+    - paper: docs/202305/20230516_072.md
+  - 'no': 3
+    name: GPT+RPA+平台自动化内容生产发布模式：关键词库→批量生成→RPA发布→收录排名
+    desc: 输入端关键词库（人工筛选/GPT扩展）→处理端GPT按Prompt批量生成平台调性内容→执行端RPA（影刀）模拟人工登录/编辑/发布/定时→产出端平台收录获取流量，实现7x24h无人值守。
+    role: method
+    src:
+    - paper: docs/202305/20230516_072.md
+  - 'no': 4
+    name: GPT+SEO+站群模式：谷歌SEO实战与60%收录率验证
+    desc: GPT批量生成符合EEAT标准英文内容→RPA自动发布百个级别网站矩阵→谷歌算法收录率达60%→广告联盟/Affiliate/引流变现。关键点：内容质量把控、站群IP/模板去重、索引管理。
+    role: method
+    src:
+    - paper: docs/202305/20230516_072.md
+  - 'no': 5
+    name: GPT辅助2B高客单业务：访谈提纲/行业报告/方案初稿提升专业度
+    desc: 非内容发布场景应用：GPT生成专业访谈稿/分析框架/解决方案→销售会前预习/会中参考→显著提升专业形象与信任度→缩短销售周期、提高转化率。
+    role: method
+    src:
+    - paper: docs/202305/20230516_072.md
+  - 'no': 6
+    name: 知乎/小红书精准选题反向挖掘法：搜索需求导向>推荐算法导向
+    desc: 放弃平台推荐选题→知乎创作中心/5118输入核心词筛选‘有搜索量、有排名潜力、竞争度可控’精准问题→GPT生成高质量回答→布局长尾关键词获取长期被动搜索流量。
+    role: method
+    src:
+    - paper: docs/202305/20230516_072.md
+  - 'no': 7
+    name: ChatGPT四波机会论与应用层最大公约数定理
+    desc: 花爷四波：入门教育/垂直应用/工具开发/多平台大厂。普通人应避开工具层（技术门槛/推广难/合规风险）与多平台层（大厂垄断），聚焦‘GPT+垂直业务’应用层，将AI能力嵌入成熟流程解决效率/流量痛点。
+    role: theorem
+    src:
+    - paper: docs/202305/20230516_072.md
+  - 'no': 8
+    name: 全网SEO‘平台无关、流量为本’公理
+    desc: SEO本质不绑定单一平台，用户在哪搜索就做哪里SEO：挖掘官方关键词→生产高匹配内容→获取站内搜索+外部搜索引擎双重流量。GPT作为通用内容生产力工具无缝适配所有平台。
+    role: theorem
+    src:
+    - paper: docs/202305/20230516_072.md
+- 'no': 8
+  name: 需求挖掘与产品化交付 —— 发现、验证、解决需求的通用三部曲
+  desc: 本章提炼跨行业、跨周期的通用商业落地思维模型：从生活对话/数据/热点中发现需求→评论区/搜索指数/私信低成本验证真伪→拆解问题、组合现有工具资源（而非硬核自研）低成本解决→流量转化变现。通过‘AI四维预测宝宝长相’、‘碳中和知识付费’、‘为TA点歌’三大实战案例，演示底层逻辑的跨域复用与反脆弱性。
+  nodes:
+  - 'no': 1
+    name: 需求三部曲：发现-验证-解决的通用商业落地模型
+    desc: 发现：留心生活对话/数据/热点；验证：评论区高频提问/搜索指数/私信回复验真伪；解决：拆解问题→组合现有工具资源（资源重组交付法）逐步攻克。核心主张：项目不值钱，挖掘逻辑与思考能力才是持续变现源泉。
+    role: method
+    src:
+    - paper: docs/202305/20230516_073.md
+  - 'no': 2
+    name: 评论区需求验证法：最直接、最低成本的真伪探测器
+    desc: 进入短视频/内容平台搜索关键词，分析评论区高频提问（‘怎么做’、‘多少钱’）、情感表达（‘好想快点看到’）及寻求方案语义，判断需求强度与真伪。
+    role: method
+    src:
+    - paper: docs/202305/20230516_073.md
+  - 'no': 3
+    name: 资源重组交付法：非标服务标准化拆解与供应链整合
+    desc: 不会核心技能（弹唱/专业知识）时，拆解交付物本质（视频而非现场）→利用外部现成资源（唱吧素人音频/合作网络/公开资料）重组交付流程，实现个人能力与业务交付解耦、低成本规模化。
+    role: method
+    src:
+    - paper: docs/202305/20230516_073.md
+  - 'no': 4
+    name: AI提示词迭代优化法：挑最难案例→垫图→找缺陷→加负面词/修饰词→回归测试
+    desc: 针对生成式AI可控性不足，以最难案例为基准迭代Prompt：垫图生成→发现缺陷（皮肤坑洼/肤色不均/不似）→针对性加词→多案例回归→沉淀‘扛打的关键词组’。
+    role: method
+    src:
+    - paper: docs/202305/20230516_073.md
+  - 'no': 5
+    name: 实证案例一：AI四维预测宝宝长相——评论区验证+Prompt迭代+B2B2C模式
+    desc: 评论区‘有软件看长相么’精准验证需求→Prompt迭代解决技术难题→多平台获客→合作9家私立医院，建立稳定高客单B2B2C模式，证明‘不卷平台流量，依然有稳定高单价订单’。
+    role: experiment
+    src:
+    - paper: docs/202305/20230516_073.md
+  - 'no': 6
+    name: 实证案例二：碳中和项目小白极速变现——3天输入+现学现卖+大白话框架化
+    desc: 纯小白3天高强度学习→同步输出大白话/条理化/框架化内容→第3条视频500万播放→2个月变现100万+（资料包/证书/培训/资源对接），验证‘把复杂概念大白话化’即可满足大众入门需求，无需深度专业背景。
+    role: experiment
+    src:
+    - paper: docs/202305/20230516_073.md
+  - 'no': 7
+    name: 实证案例三：为TA点歌零技能交付——招募合作者+剪辑素人音频双路径跑通
+    desc: 不会弹唱，通过‘招募合作弹唱者’与‘剪辑唱吧素人音频’双路径跑通交付，订单接到手软，验证‘核心交付物是视频而非技能’，技能缺口可供应链整合填补。
+    role: experiment
+    src:
+    - paper: docs/202305/20230516_073.md
+  - 'no': 8
+    name: 多项目组合运营的反脆弱性：单一项目周期短，思维模型跨域复用长
+    desc: 连续操盘四维预测、碳中和、点歌、陪诊、数藏、鉴渣、相亲盲盒等无关项目均盈利；单项目（碳中和）因天花板停更但整体收益持续，积累‘只要出手，必有回响’底气，证明思维模型迁移能力强于单一业务护城河。
+    role: experiment
+    src:
+    - paper: docs/202305/20230516_073.md
+- 'no': 9
+  name: ChatGPT Plus 长期稳定访问基建 —— 网络、身份、支付三位一体合规方案
+  desc: 本章针对OpenAI风控（亚洲IP高危、虚拟卡污染、共享账号封禁）系统性给出‘原生非亚洲IP+美实体手机号+真实美银行卡’三位一体基建方案：DashiSIM多APN漫游卡切换美/欧/新原生IP、UltraMobile
+    $3 PayGo实体卡WiFi Calling长期保号、华美银行Velo零门槛开真借记卡/信用卡、Wise多币种电子卡即时开通，构建跨境业务长期可复用的基础设施资产。
+  nodes:
+  - 'no': 1
+    name: 封号核心判定：IP归属地为第一风控维度
+    desc: 2023年3月大规模封号核心特征为基于IP归属地的地域画像，亚洲IP（台/日/港）命中率约40%，而非账号注册时间或Plus状态为主导。必须规避亚洲IP、拒绝频繁换IP、拒绝一IP多号。
+    role: theorem
+    src:
+    - paper: docs/202305/TSZBdBfynoBINux2htWcefrtnHc.md
+  - 'no': 2
+    name: 网络层：DashiSIM多APN漫游方案获取美/欧/新原生IP
+    desc: 实体卡设置APN（us.dashi/eu.dashi/sg.dashi）在国内漫游走移动5G直连，零月租按需充值，单IP单号固定使用，实测速度快、长期可用。备选：CMLINK新加坡漫游卡（需海外办理激活）。
+    role: method
+    src:
+    - paper: docs/202305/TSZBdBfynoBINux2htWcefrtnHc.md
+  - 'no': 3
+    name: 身份层：Ultra Mobile $3 PayGo实体卡+WiFi Calling长期保号
+    desc: 淘宝/闲鱼购实体卡→官网激活$3套餐→开启WiFi Calling→绑定国内卡自动扣费$5/月→长期保持美号存活接码→支持eSIM转移。实测基于T-Mobile网络，中文客服友好，首年约200+元。
+    role: method
+    src:
+    - paper: docs/202305/TSZBdBfynoBINux2htWcefrtnHc.md
+  - 'no': 4
+    name: 支付层：真实金融身份 > 虚拟卡/临时接码
+    desc: 方案A：华美银行Velo零门槛（无需护照/签证/美号/美地址/预存款）开真实美借记卡/信用卡，FDIC成员资金安全；方案B：Wise护照实名+$20入金即时生成电子借记卡（真实账单地址/CVV），余额充足即可持续续费。虚拟卡共享BIN必然连坐风控，长期不可控。
+    role: method
+    src:
+    - paper: docs/202305/TSZBdBfynoBINux2htWcefrtnHc.md
+  - 'no': 5
+    name: 基建复用价值：解决ChatGPT订阅仅是起点，更是跨境业务长期资产
+    desc: 真实美银行账户+实体手机号不仅解决Plus订阅，更可复用于Facebook/推特/电报注册、跨境开店收款（Wise多币种本地账户）、美区柜面户开设、建立美信用史，边际成本趋零、长期价值远超一次性接码。
+    role: extension
+    src:
+    - paper: docs/202305/TSZBdBfynoBINux2htWcefrtnHc.md
