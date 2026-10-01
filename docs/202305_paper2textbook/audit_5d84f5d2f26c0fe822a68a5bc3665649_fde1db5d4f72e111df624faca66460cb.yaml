@@ -1,0 +1,50 @@
+citation_stats:
+- paper: P001
+  count: 6
+  locations:
+  - '47.1'
+  - '47.2'
+  - '47.3'
+  - '47.7'
+  - '47.9'
+  - '47.10'
+- paper: P002
+  count: 4
+  locations:
+  - '47.2'
+  - '47.4'
+  - '47.9'
+  - '47.10'
+- paper: P003
+  count: 3
+  locations:
+  - '47.2'
+  - '47.5'
+  - '47.10'
+- paper: P004
+  count: 4
+  locations:
+  - '47.2'
+  - '47.6'
+  - '47.9'
+  - '47.10'
+unsupported_claims:
+- location: '47.5'
+  claim: 同类验证：考公资料、职称论文、育儿课程等赛道，单店月纯利30-50万常态化
+  reason: 素材中未找到支撑，标注为跨章占位引用，非本章素材（P001-P004）支撑
+- location: '47.7'
+  claim: 四种主流引流战术的路径差异可视化...（含第4、16、25章案例）
+  reason: 第4、16、25章引用为跨章引用，数据来源为各章草稿/规划，非本章素材（P001-P004）范围
+missing_concepts:
+- paper: P001
+  concept: 航海日志复盘法的具体模板结构（如每日复盘的固定字段、阶段性总结的框架细节）
+  severity: medium
+- paper: P002
+  concept: 三阶段运营模型中‘高效做号’阶段的内容生产流水线具体工具链（如OCR工具、AI改写提示词、封面制作模版）
+  severity: high
+- paper: P003
+  concept: 小众高客单价赛道的具体选品标准与长尾词挖掘实操方法（如5118/巨量算数/禅小红的具体操作步骤）
+  severity: high
+- paper: P004
+  concept: 养号期‘行为真实’的量化标准（如搜索停留时长分布、互动频次上限、设备指纹检测规避细节）
+  severity: medium
