@@ -1,0 +1,94 @@
+citation_stats:
+- paper: DGw1dYHSsohHu7x1AXhc4cQVnEN.md
+  count: 77
+  locations:
+  - '60.1'
+  - '60.2'
+  - '60.3'
+  - '60.4'
+  - '60.5'
+  - '60.6'
+  - '60.7'
+  - '60.8'
+  - '60.9'
+  - '60.10'
+  - '60.11'
+  - '60.12'
+  - '60.13'
+unsupported_claims:
+- location: '60.1'
+  claim: 生财思维作为普通人逆袭的底层操作系统包含10大核心认知工具
+  reason: 素材中仅支撑核心流程与案例，未系统列举10个工具清单
+- location: '60.2'
+  claim: 概念地图包含直播间转化率优化闭环、朋友圈需求验证法、批量复制/多号矩阵、主动精准获客法(高客单适用)四个子节点
+  reason: 细纲中定义但素材中无系统性论述与原文支撑，已在正文移除
+- location: '60.3'
+  claim: 生财思维核心定义包含批量复制(跑通单模型后，通过多账号、多平台、招募合伙人实现指数级放大)
+  reason: 素材中作者明确表示'项目不太好复制'且未实施批量复制，仅提及废号轮播与买电脑扩充并发
+- location: '60.4'
+  claim: 异常值发现量化判断公式采用μ + k·σ阈值，k∈[2,3]
+  reason: 素材中仅有定性描述'场观1-2万vs几十'，无统计建模细节
+- location: '60.5'
+  claim: 商业闭环拆解清单模版包含公域流量层、承接转化层、交付履约层、私域运营层四层16个节点
+  reason: 素材仅记录'进直播间→扫码→加微信→文案引导→交付→朋友圈'，未细化至16节点
+- location: '60.6'
+  claim: 像素级模仿执行清单包含账号包装、私域承接、直播间搭建(OBS)、话术脚本四大类12项
+  reason: 素材仅列举头像/简介/企微/自动回复/OBS/标点符号等核心动作，未形成标准化清单
+- location: '60.7'
+  claim: 人货场匹配度诊断公式M = 实际转化率/理论最大转化率 × 100%
+  reason: 素材仅有定性对比'日单<3 vs 单场收款1000+'，无量化公式与理论最大值定义
+- location: '60.8'
+  claim: 废号资产化ROI模型包含号池规模n、并发度C、总ROI=(V_residual-额外投入)/额外投入
+  reason: 素材仅有'首场回本800元电脑、后续纯利'片段数据，无完整财务建模
+- location: '60.9'
+  claim: MVP验证成本核算公式C_total = 8+800+0+300+人工时薪×小时数，验证周期≤7天
+  reason: 素材中'不到一个月赚2万'与'首场回本'时间跨度不一致，未明确7天验证周期
+- location: '60.10'
+  claim: 风控触发概率采用Sigmoid模型P_risk = σ(w1·场观/30000 + w2·时长/3600 + w3·引导频次 - θ)
+  reason: 素材仅记录'场观3-4万/时长>1小时/高频引导必触发'经验法则，无数学建模
+- location: '60.11'
+  claim: 直播形式迁移抽象模型包含核心形式层(F1-F4)、内容生成引擎层(E1-E5)、赛道应用层(S1-S5)
+  reason: 素材仅提及'AE改文字→AI绘画/AI聊天/AI虚拟主播'迁移路径，无层级抽象模型
+- location: '60.12'
+  claim: LTV与获客成本盈亏平衡公式LTV = P×R×m，作者实测LTV_max=540元、CAC≈50元、LTV/CAC=10.8
+  reason: 素材仅有'单价30元、最高复购20单、引流几百人'，毛利率m、CAC均为推算值
+- location: '60.13'
+  claim: 方法论资产复利增长模型V_method(t) = V_0×(1+r)^t，r = α×迁移成功率 + β×边际成本递减率 - γ×经验固化衰减率
+  reason: 素材仅定性表述'方法可复制、下次把握更大'，无数学建模与参数校准
+- location: '60.16'
+  claim: 动手练习1要求计算20场直播均值标准差、识别3个异常值、执行像素级拆解、产出报告
+  reason: 素材中无教学练习设计，仅为作者自述实战复盘
+- location: '60.16'
+  claim: 动手练习2要求像素级模仿标杆、冷启动测试3场、水土不服诊断、A/B测试、产出迭代日志
+  reason: 素材中作者仅单账号实操，无A/B测试与标准化日志模版
+- location: '60.16'
+  claim: 动手练习3要求梳理工具清单、产出《作战手册v1.0》、针对2新赛道撰写执行方案
+  reason: 素材中作者后续迁移AI/海外Mediabuy/资料整理为隐性经验，未形成显性手册与方案文档
+missing_concepts:
+- paper: DGw1dYHSsohHu7x1AXhc4cQVnEN.md
+  concept: 朋友圈需求验证法(发素材测单、验证真需求)
+  severity: high
+- paper: DGw1dYHSsohHu7x1AXhc4cQVnEN.md
+  concept: 批量复制/多号矩阵(废号轮播、买电脑扩充并发)
+  severity: high
+- paper: DGw1dYHSsohHu7x1AXhc4cQVnEN.md
+  concept: 主动精准获客法(高客单适用，主动加行业微信、转化率高但耗时)
+  severity: medium
+- paper: DGw1dYHSsohHu7x1AXhc4cQVnEN.md
+  concept: 直播间转化率优化闭环(红包领取/错峰交付/延迟收款/现场交付组合)
+  severity: high
+- paper: DGw1dYHSsohHu7x1AXhc4cQVnEN.md
+  concept: 素材库迭代与朋友圈种草飞轮(100套模板、日更朋友圈、触发复购)
+  severity: high
+- paper: DGw1dYHSsohHu7x1AXhc4cQVnEN.md
+  concept: 风控阈值特征识别(场观3-4万/时长>1小时/高频引导=必封)
+  severity: high
+- paper: DGw1dYHSsohHu7x1AXhc4cQVnEN.md
+  concept: 蓝V认证无效归因(疑系统Bug、非账号权重问题)
+  severity: medium
+- paper: DGw1dYHSsohHu7x1AXhc4cQVnEN.md
+  concept: 开店合规成本核算(保证金几千+资质办理繁琐、成本>收益)
+  severity: medium
+- paper: DGw1dYHSsohHu7x1AXhc4cQVnEN.md
+  concept: 形式迁移边界条件(需匹配平台算法偏好/生成技术成熟度)
+  severity: medium
