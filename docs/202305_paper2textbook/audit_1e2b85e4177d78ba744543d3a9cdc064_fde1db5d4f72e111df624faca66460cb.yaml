@@ -1,0 +1,38 @@
+citation_stats:
+- paper: P001
+  count: 17
+  locations:
+  - '78.1'
+  - 78.2 (x4)
+  - 78.3 (x10)
+- paper: P002
+  count: 2
+  locations:
+  - '78.3'
+  - '78.5'
+unsupported_claims:
+- location: 78.3 核心定义
+  claim: 它覆盖流量获取、产品变现、私域运营、知识管理、投资理财等核心板块
+  reason: P002 确认语雀文档正文为空，无法验证覆盖板块的具体内容
+- location: 78.3 典型使用场景
+  claim: 新手小红书引流学习路径定位：通过图谱定位到"流量获取 → 小红书 → 笔记SEO/钩子设计/私域承接"完整学习路径
+  reason: P002 确认素材正文为空，该具体学习路径细节无法在素材中找到支撑
+- location: 78.3 典型使用场景
+  claim: 老手海外业务能力模块锁定：通过图谱快速锁定"海外业务 → 独立站B2B/Mediabuy → 选品/建站/收款/合规"能力模块
+  reason: P002 确认素材正文为空，该具体能力模块细节无法在素材中找到支撑
+- location: 78.3 方法演进图
+  claim: 节点标注的来源均基于 P001 对社区沉淀现状、学习者困境及图谱功能的描述
+  reason: P001 仅提供标题和链接，未提供社区沉淀现状、学习者困境及图谱功能的具体描述内容
+- location: 78.3 概念溯源流
+  claim: 'S1[P001: 语雀文档标题与链接] --> C1[核心定位: 外部延伸索引]'
+  reason: P001 仅提供标题和链接，未提供核心定位的具体描述内容
+missing_concepts:
+- paper: P001
+  concept: 生财技能导航图谱的具体技能清单内容（如具体技能名称、对应精华帖/周报篇目编号、学习路径节点）
+  severity: high
+- paper: P001
+  concept: 动态更新机制的具体运营SOP（谁维护、更新频率、版本管理方式）
+  severity: high
+- paper: P001
+  concept: 语雀"生财技能"文档的实体内容（完整技能分类体系、层级结构、检索方式）
+  severity: critical
