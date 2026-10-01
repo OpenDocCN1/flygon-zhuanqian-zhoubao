@@ -1,0 +1,27 @@
+citation_stats:
+- paper: docs/202305/20230516_043.md
+  count: 1
+  locations:
+  - ch73.3
+- paper: docs/202305/20230516_099.md
+  count: 1
+  locations:
+  - ch73.3
+- paper: docs/202305/20230516_102.md
+  count: 1
+  locations:
+  - ch73.3
+unsupported_claims:
+- location: ch73.3
+  claim: 素材 20230516_043.md 标题疑似为“海外平台”
+  reason: 素材中仅提到'该素材仅包含一个语雀文档的外部链接引用'，未提供标题信息，全书推测为'海外平台'但无直接证据
+- location: ch73.3
+  claim: 素材 20230516_102.md 标题未知
+  reason: 素材原文明确提到'标题未知'，全书据此列为未知，但属于素材本身缺失而非全书错误
+missing_concepts:
+- paper: docs/202305/20230516_043.md
+  concept: 完整语雀文档URL
+  severity: high
+- paper: docs/202305/20230516_102.md
+  concept: 语雀文档URL及标题
+  severity: high
