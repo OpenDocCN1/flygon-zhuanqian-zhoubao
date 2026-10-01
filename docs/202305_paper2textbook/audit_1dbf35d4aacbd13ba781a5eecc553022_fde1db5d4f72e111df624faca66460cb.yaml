@@ -1,0 +1,85 @@
+citation_stats:
+- paper: P001
+  count: 33
+  locations:
+  - '38.1'
+  - '38.2'
+  - '38.3'
+  - '38.4'
+  - '38.5'
+  - '38.6'
+  - '38.7'
+  - '38.8'
+  - '38.9'
+  - '38.10'
+  - '38.11'
+- paper: P002
+  count: 7
+  locations:
+  - '38.2'
+  - '38.4'
+- paper: P003
+  count: 6
+  locations:
+  - '38.2'
+  - '38.5'
+- paper: P004
+  count: 5
+  locations:
+  - '38.2'
+  - '38.6'
+- paper: P005
+  count: 4
+  locations:
+  - '38.2'
+  - '38.7'
+unsupported_claims:
+- location: '38.3'
+  claim: 短剧CPS蓝海期红利窗口期约2-3个月
+  reason: 素材中未找到具体时间窗口的数据支撑，仅为作者主观判断
+- location: '38.3'
+  claim: 部分剧方提供100%首充分成
+  reason: 素材中虽有提及'有的剧居然给到100%的佣金'，但未说明具体剧方名称、平台政策细节或结算周期
+- location: '38.4'
+  claim: 解说模式视频单条制作耗时15-20分钟，单人日更10条+
+  reason: 素材中仅为作者个人实测数据，缺乏普适性验证，新手实际操作耗时可能远超此标准
+- location: '38.5'
+  claim: 选剧评分公式：佣金权重0.4 + 题材匹配0.4 + 素材易度0.2
+  reason: 素材中未提供该加权公式来源，为教程作者自行设定的经验值
+- location: '38.5'
+  claim: 去重组合拳：镜像翻转+调色+抽帧+贴纸/字幕/边框，修改MD5且保持视觉无违和感
+  reason: 素材中虽列举去重手段，但未实测平台原创检测通过率，'视觉无违和感'为主观标准
+- location: '38.6'
+  claim: AI批量化流水线单条制作压缩至5分钟，效率提升17倍
+  reason: 素材中仅为理论测算数据（手工85分钟vs批量5分钟），未扣除人工抽检、异常处理、账号管理等隐性时间成本
+- location: '38.6'
+  claim: Excel CONCAT参数化Prompt可单次拖拽生成百条差异化Prompt
+  reason: 素材中提供CONCAT公式示例，但未验证ChatGPT API批量调用的稳定性、Token成本及内容去重效果
+- location: '38.7'
+  claim: 红米Note 11T标配机型，一机双开10号，ROI达标再扩
+  reason: 素材中为东哥个人实操配置，未考虑不同业务量级对设备性能要求差异，'一机双开10号'可能违反微信多开协议风控
+- location: '38.7'
+  claim: 去重实操：镜像+调色(对比度+5/饱和度+5/色温-5)+抽帧(每秒删1-2帧)+遮挡关键特征点
+  reason: 素材中为具体参数设定，但未说明不同剧集画风对固定参数的适配性，'色温-5'可能导致肤色异常
+missing_concepts:
+- paper: P001
+  concept: 短剧CPS授权渠道具体对接话术与合同避坑条款
+  severity: high
+- paper: P001
+  concept: 短剧素材版权风险分级：官方素材包/授权切片/自录屏/搬运素材的法律风险对比
+  severity: high
+- paper: P001
+  concept: 解说模式文案Prompt的版本迭代管理机制（A/B测试、数据回流、模板淘汰）
+  severity: medium
+- paper: P001
+  concept: 账号环境隔离的技术方案对比：物理手机/云手机/指纹浏览器/群控系统的成本与风控通过率
+  severity: high
+- paper: P001
+  concept: RPA端到端自动化的异常熔断机制（素材缺失/生成失败/发布报错/封号预警）
+  severity: high
+- paper: P001
+  concept: 短剧CPS佣金结算账期、税务处理、发票合规实操流程
+  severity: medium
+- paper: P001
+  concept: 跨平台分发策略：抖音/快手/视频号/小红书的算法差异化选品与素材适配规则
+  severity: medium

@@ -1,0 +1,98 @@
+citation_stats:
+- paper: P001
+  count: 6
+  locations:
+  - '39.3'
+  - '39.3'
+  - '39.4'
+  - '39.4'
+  - '39.4'
+  - '39.5'
+  - '39.12'
+- paper: P002
+  count: 2
+  locations:
+  - '39.4'
+  - '39.4'
+- paper: P003
+  count: 2
+  locations:
+  - '39.5'
+  - '39.5'
+- paper: P004
+  count: 4
+  locations:
+  - '39.6'
+  - '39.6'
+  - '39.6'
+  - '39.6'
+- paper: P005
+  count: 2
+  locations:
+  - '39.7'
+  - '39.7'
+- paper: P006
+  count: 2
+  locations:
+  - '39.8'
+  - '39.8'
+- paper: P007
+  count: 2
+  locations:
+  - '39.9'
+  - '39.9'
+- paper: P008
+  count: 2
+  locations:
+  - '39.10'
+  - '39.10'
+- paper: P009
+  count: 2
+  locations:
+  - '39.11'
+  - '39.11'
+unsupported_claims:
+- location: '39.3'
+  claim: 红利期通常为 6-18 个月（基于过往抖音本地生活、快团团等平台新业务红利期实证观测周期，《抖音本地生活服务商白皮书》2021-2022、《快手快团团早期增长复盘》晚点LatePost/36氪深度报道）
+  reason: 素材中未找到支撑
+- location: '39.6'
+  claim: 非对称收益模型（作者自建模型，基于平台红利窗口期理论推演）
+  reason: 素材中未找到支撑
+- location: '39.7'
+  claim: QuestMobile《2023 中国移动互联网年度大报告》/《小红书商业价值白皮书》官方发布版数据显示小红书用户一二线城市占比超 60%，人均可支配收入显著高于全网均值
+  reason: 素材中未找到支撑
+- location: '39.11'
+  claim: 参考《中国 MCN 行业发展研究报告》艾瑞/克劳锐/新榜发布版、头部 MCN 遥望/交个朋友/蜂群公开运营分享实录：单运营经理可管 50-100
+    个达人账号，区域负责人可覆盖 500-1000 家商户资源
+  reason: 素材中未找到支撑
+missing_concepts:
+- paper: P001
+  concept: 小红书探照灯计划的具体佣金结算周期和提现规则
+  severity: medium
+- paper: P001
+  concept: 城市侦探员身份的具体申请审核流程与通过率
+  severity: medium
+- paper: P002
+  concept: 种草型团购转化模式下的具体转化率数据对比（小红书vs抖音）
+  severity: high
+- paper: P003
+  concept: 城市侦探员账号违规处罚机制与申诉流程
+  severity: medium
+- paper: P004
+  concept: 平台红利窗口期结束后的具体应对策略与转型路径
+  severity: high
+- paper: P005
+  concept: 女性用户在不同细分品类（美容/餐饮/娱乐）的具体客单价分布数据
+  severity: high
+- paper: P006
+  concept: 三种内容生产形态的具体播放量、完播率、转化率对比实测数据
+  severity: high
+- paper: P007
+  concept: 正向清单品类的具体佣金比例范围与结算周期
+  severity: medium
+- paper: P008
+  concept: 商家入驻服务的具体定价体系（服务费/佣金分成标准）
+  severity: high
+- paper: P009
+  concept: 达人联盟/商家联盟的具体利益分配机制与治理结构
+  severity: high
