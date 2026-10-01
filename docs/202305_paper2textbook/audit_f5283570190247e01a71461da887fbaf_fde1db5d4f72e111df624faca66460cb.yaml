@@ -1,0 +1,521 @@
+citation_stats:
+- paper: '20230516_003'
+  count: 3
+  locations:
+  - '81.3'
+  - '81.8'
+  - '81.12'
+- paper: '20230516_004'
+  count: 2
+  locations:
+  - '81.8'
+  - '81.9'
+- paper: '20230516_005'
+  count: 2
+  locations:
+  - '81.5'
+  - '81.9'
+- paper: '20230516_006'
+  count: 1
+  locations:
+  - '81.12'
+- paper: '20230516_007'
+  count: 1
+  locations:
+  - '81.12'
+- paper: '20230516_009'
+  count: 1
+  locations:
+  - '81.12'
+- paper: '20230516_010'
+  count: 1
+  locations:
+  - '81.12'
+- paper: '20230516_011'
+  count: 1
+  locations:
+  - '81.12'
+- paper: '20230516_013'
+  count: 2
+  locations:
+  - '81.5'
+  - '81.12'
+- paper: '20230516_014'
+  count: 3
+  locations:
+  - '81.3'
+  - '81.3'
+  - '81.12'
+- paper: '20230516_015'
+  count: 1
+  locations:
+  - '81.12'
+- paper: '20230516_016'
+  count: 1
+  locations:
+  - '81.12'
+- paper: '20230516_019'
+  count: 2
+  locations:
+  - '81.3'
+  - '81.12'
+- paper: '20230516_020'
+  count: 1
+  locations:
+  - '81.12'
+- paper: '20230516_021'
+  count: 1
+  locations:
+  - '81.12'
+- paper: '20230516_023'
+  count: 1
+  locations:
+  - '81.12'
+- paper: '20230516_024'
+  count: 2
+  locations:
+  - '81.8'
+  - '81.12'
+- paper: '20230516_026'
+  count: 1
+  locations:
+  - '81.12'
+- paper: '20230516_028'
+  count: 1
+  locations:
+  - '81.12'
+- paper: '20230516_029'
+  count: 1
+  locations:
+  - '81.12'
+- paper: '20230516_030'
+  count: 2
+  locations:
+  - '81.12'
+  - '81.12'
+- paper: '20230516_031'
+  count: 1
+  locations:
+  - '81.12'
+- paper: '20230516_032'
+  count: 1
+  locations:
+  - '81.12'
+- paper: '20230516_033'
+  count: 1
+  locations:
+  - '81.12'
+- paper: '20230516_034'
+  count: 1
+  locations:
+  - '81.12'
+- paper: '20230516_035'
+  count: 1
+  locations:
+  - '81.12'
+- paper: '20230516_037'
+  count: 1
+  locations:
+  - '81.12'
+- paper: '20230516_038'
+  count: 1
+  locations:
+  - '81.12'
+- paper: '20230516_039'
+  count: 1
+  locations:
+  - '81.12'
+- paper: '20230516_041'
+  count: 1
+  locations:
+  - '81.12'
+- paper: '20230516_042'
+  count: 1
+  locations:
+  - '81.12'
+- paper: '20230516_044'
+  count: 1
+  locations:
+  - '81.12'
+- paper: '20230516_045'
+  count: 1
+  locations:
+  - '81.12'
+- paper: '20230516_046'
+  count: 1
+  locations:
+  - '81.12'
+- paper: '20230516_047'
+  count: 1
+  locations:
+  - '81.12'
+- paper: '20230516_048'
+  count: 1
+  locations:
+  - '81.12'
+- paper: '20230516_049'
+  count: 2
+  locations:
+  - '81.12'
+  - '81.12'
+- paper: '20230516_050'
+  count: 1
+  locations:
+  - '81.12'
+- paper: '20230516_053'
+  count: 1
+  locations:
+  - '81.12'
+- paper: '20230516_054'
+  count: 1
+  locations:
+  - '81.12'
+- paper: '20230516_055'
+  count: 1
+  locations:
+  - '81.9'
+- paper: '20230516_056'
+  count: 1
+  locations:
+  - '81.12'
+- paper: '20230516_057'
+  count: 2
+  locations:
+  - '81.5'
+  - '81.12'
+- paper: '20230516_058'
+  count: 1
+  locations:
+  - '81.12'
+- paper: '20230516_059'
+  count: 1
+  locations:
+  - '81.12'
+- paper: '20230516_061'
+  count: 1
+  locations:
+  - '81.12'
+- paper: '20230516_062'
+  count: 1
+  locations:
+  - '81.12'
+- paper: '20230516_063'
+  count: 1
+  locations:
+  - '81.12'
+- paper: '20230516_064'
+  count: 1
+  locations:
+  - '81.12'
+- paper: '20230516_066'
+  count: 1
+  locations:
+  - '81.12'
+- paper: '20230516_067'
+  count: 1
+  locations:
+  - '81.12'
+- paper: '20230516_069'
+  count: 1
+  locations:
+  - '81.12'
+- paper: '20230516_070'
+  count: 2
+  locations:
+  - '81.7'
+  - '81.12'
+- paper: '20230516_071'
+  count: 1
+  locations:
+  - '81.12'
+- paper: '20230516_072'
+  count: 2
+  locations:
+  - '81.6'
+  - '81.12'
+- paper: '20230516_073'
+  count: 1
+  locations:
+  - '81.12'
+- paper: '20230516_074'
+  count: 1
+  locations:
+  - '81.12'
+- paper: '20230516_075'
+  count: 2
+  locations:
+  - '81.7'
+  - '81.12'
+- paper: '20230516_076'
+  count: 1
+  locations:
+  - '81.12'
+- paper: '20230516_078'
+  count: 1
+  locations:
+  - '81.12'
+- paper: '20230516_079'
+  count: 2
+  locations:
+  - '81.12'
+  - '81.12'
+- paper: '20230516_080'
+  count: 1
+  locations:
+  - '81.12'
+- paper: '20230516_081'
+  count: 1
+  locations:
+  - '81.12'
+- paper: '20230516_082'
+  count: 2
+  locations:
+  - '81.12'
+  - '81.12'
+- paper: '20230516_084'
+  count: 1
+  locations:
+  - '81.12'
+- paper: '20230516_085'
+  count: 2
+  locations:
+  - '81.5'
+  - '81.12'
+- paper: '20230516_086'
+  count: 1
+  locations:
+  - '81.12'
+- paper: '20230516_087'
+  count: 1
+  locations:
+  - '81.12'
+- paper: '20230516_089'
+  count: 1
+  locations:
+  - '81.12'
+- paper: '20230516_090'
+  count: 1
+  locations:
+  - '81.12'
+- paper: '20230516_091'
+  count: 1
+  locations:
+  - '81.12'
+- paper: '20230516_092'
+  count: 1
+  locations:
+  - '81.12'
+- paper: '20230516_094'
+  count: 1
+  locations:
+  - '81.12'
+- paper: '20230516_095'
+  count: 1
+  locations:
+  - '81.12'
+- paper: '20230516_097'
+  count: 1
+  locations:
+  - '81.12'
+- paper: '20230516_098'
+  count: 1
+  locations:
+  - '81.12'
+- paper: '20230516_100'
+  count: 1
+  locations:
+  - '81.12'
+- paper: '20230516_101'
+  count: 1
+  locations:
+  - '81.12'
+- paper: '20230516_103'
+  count: 1
+  locations:
+  - '81.12'
+- paper: '20230516_104'
+  count: 1
+  locations:
+  - '81.12'
+- paper: '20230516_105'
+  count: 1
+  locations:
+  - '81.12'
+- paper: AVx7dEXmpoRJazx3nH8cceBOnhd
+  count: 1
+  locations:
+  - '81.12'
+- paper: AxQ8duaITowcrCx54hocWSy4nnb
+  count: 1
+  locations:
+  - '81.12'
+- paper: BzIfdvAQloqLImxjEhKcERAXn5f
+  count: 4
+  locations:
+  - '81.4'
+  - '81.6'
+  - '81.12'
+  - '81.12'
+- paper: CBJhdD0dTokH8tx8HKYc1nJSnnc
+  count: 2
+  locations:
+  - '81.3'
+  - '81.12'
+- paper: DGw1dYHSsohHu7x1AXhc4cQVnEN
+  count: 2
+  locations:
+  - '81.3'
+  - '81.12'
+- paper: Dy8mdu2JUoyQYRx2UnocHwOinaf
+  count: 3
+  locations:
+  - '81.12'
+  - '81.12'
+  - '81.12'
+- paper: EL9Fdl8WFoFxaixaJcLcqnXjn7r
+  count: 2
+  locations:
+  - '81.7'
+  - '81.12'
+- paper: E0aFdosjUobxU7xEQeCc7y8snyb
+  count: 1
+  locations:
+  - '81.12'
+- paper: FJ8HdrA04o2efNx7E1ZcVgehnSe
+  count: 1
+  locations:
+  - '81.12'
+- paper: G2Zwdm2H7ol8FYxHEn7c0H2dn3c
+  count: 1
+  locations:
+  - '81.12'
+- paper: GUHld91qQobms8x35tbcOUlSnZb
+  count: 3
+  locations:
+  - '81.5'
+  - '81.5'
+  - '81.12'
+- paper: Gn5NdifvBorUbdxvGl6ceQgXnpg
+  count: 4
+  locations:
+  - '81.3'
+  - '81.3'
+  - '81.3'
+  - '81.12'
+- paper: HUSAdLZRCoBXiMxK0kFc99Qkndg
+  count: 1
+  locations:
+  - '81.12'
+- paper: HYrZdLBMRorB0qxKqFFcQ075nWf
+  count: 2
+  locations:
+  - '81.7'
+  - '81.12'
+- paper: IZx7dx2CSo9x23xioUFcNaHcnRd
+  count: 1
+  locations:
+  - '81.7'
+- paper: I8BLdIIfbobzkYxCLGBctYqbnae
+  count: 1
+  locations:
+  - '81.12'
+- paper: M5lpdRp7OoHZAYxuDiicgGtSnpg
+  count: 2
+  locations:
+  - '81.9'
+  - '81.12'
+- paper: M0hMdjWj3o8WtNxZdv4cLnfenIh
+  count: 1
+  locations:
+  - '81.12'
+- paper: NsZwdMgSxovqfxxgJqFc5XtXntb
+  count: 1
+  locations:
+  - '81.12'
+- paper: Nt9IdI0b0okp1MxGKBacQtxSn3e
+  count: 1
+  locations:
+  - '81.12'
+- paper: QPFgdHgZsorQvdxDkl9cw58LnVf
+  count: 1
+  locations:
+  - '81.12'
+- paper: RaMIdAe9aoB1XcxwSRocx2mmnad
+  count: 2
+  locations:
+  - '81.8'
+  - '81.12'
+- paper: RhRywNqifi3wjGkc4MacUiwXnxc
+  count: 2
+  locations:
+  - '81.6'
+  - '81.12'
+- paper: R2wRd6dN2oUtkOx9I3WcLHAOnzc
+  count: 1
+  locations:
+  - '81.12'
+- paper: SUMMARY
+  count: 7
+  locations:
+  - '81.1'
+  - '81.3'
+  - '81.4'
+  - '81.5'
+  - '81.6'
+  - '81.7'
+  - '81.12'
+- paper: VjTFdmoIhoOIuhx4wYUcc1XGn8g
+  count: 1
+  locations:
+  - '81.6'
+- paper: VILid7sleoZ6puxkchxcRM9vn6g
+  count: 1
+  locations:
+  - '81.12'
+- paper: WX87d3F4SoVZLHxDNGzcDDVRn6R
+  count: 2
+  locations:
+  - '81.5'
+  - '81.12'
+- paper: WzBCdY4A8omv2cxsneMcn1lJnEb
+  count: 1
+  locations:
+  - '81.12'
+- paper: YPhndkBKfocBV2xCfvucevIAn5y
+  count: 1
+  locations:
+  - '81.12'
+- paper: ZbFEdhEwsoqaNnxXzRicjWQOnkd
+  count: 1
+  locations:
+  - '81.12'
+- paper: ZXvbdq7RGoKEeLxryxAckCtSnPf
+  count: 1
+  locations:
+  - '81.12'
+unsupported_claims:
+- location: '81.3'
+  claim: 正向现金流快排第一，是因为新手现金流断裂是最大死因
+  reason: 素材中未找到该因果论证的直接支撑
+- location: '81.7'
+  claim: 手动跑通是自动化前提（SOP先行，工具在后）
+  reason: 素材中虽有类似表述但未系统论证该因果关系
+- location: '81.9'
+  claim: 镜像神经元衰退导致高位者产生‘全能幻觉’
+  reason: 素材中仅提及该现象，未提供神经科学实证支撑
+missing_concepts:
+- paper: '20230516_014'
+  concept: 小航海项目筛选模型的量化评分表单
+  severity: high
+- paper: GUHld91qQobms8x35tbcOUlSnZb
+  concept: 不出镜IP的9种形式具体操作SOP
+  severity: high
+- paper: BzIfdvAQloqLImxjEhKcERAXn5f
+  concept: 资料整理转化为咨询服务的标准化话术库
+  severity: medium
+- paper: IZx7dx2CSo9x23xioUFcNaHcnRd
+  concept: ChatGPT+RPA 13步自动化的完整伪代码实现
+  severity: high
+- paper: EL9Fdl8WFoFxaixaJcLcqnXjn7r
+  concept: 短剧CPS解说类视频的去重技术参数标准
+  severity: medium
