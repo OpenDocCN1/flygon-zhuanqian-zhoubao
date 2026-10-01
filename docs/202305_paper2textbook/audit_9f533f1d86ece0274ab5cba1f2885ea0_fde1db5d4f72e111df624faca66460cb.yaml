@@ -1,0 +1,169 @@
+citation_stats:
+- paper: P001
+  count: 17
+  locations:
+  - ch80.3
+  - ch80.7
+  - ch80.11
+  - ch80.13
+  - ch80.14
+- paper: P002
+  count: 4
+  locations:
+  - ch80.4
+  - ch80.11
+  - ch80.13
+- paper: P003
+  count: 3
+  locations:
+  - ch80.5
+  - ch80.11
+- paper: P004
+  count: 12
+  locations:
+  - ch80.6
+  - ch80.11
+  - ch80.13
+  - ch80.14
+- paper: P005
+  count: 8
+  locations:
+  - ch80.3
+  - ch80.7
+  - ch80.11
+  - ch80.13
+  - ch80.14
+- paper: P006
+  count: 7
+  locations:
+  - ch80.4
+  - ch80.8
+  - ch80.11
+  - ch80.13
+- paper: P007
+  count: 5
+  locations:
+  - ch80.9
+  - ch80.11
+  - ch80.13
+- paper: P008
+  count: 6
+  locations:
+  - ch80.5
+  - ch80.10
+  - ch80.11
+  - ch80.13
+  - ch80.14
+- paper: P009
+  count: 4
+  locations:
+  - ch80.7
+  - ch80.11
+- paper: P010
+  count: 3
+  locations:
+  - ch80.5
+  - ch80.11
+- paper: P011
+  count: 2
+  locations:
+  - ch80.6
+  - ch80.14
+- paper: P012
+  count: 2
+  locations:
+  - ch80.3
+  - ch80.14
+- paper: P013
+  count: 2
+  locations:
+  - ch80.9
+  - ch80.14
+- paper: P014
+  count: 2
+  locations:
+  - ch80.4
+  - ch80.14
+- paper: P015
+  count: 2
+  locations:
+  - ch80.6
+  - ch80.14
+- paper: P016
+  count: 2
+  locations:
+  - ch80.8
+  - ch80.14
+- paper: P017
+  count: 2
+  locations:
+  - ch80.10
+  - ch80.14
+unsupported_claims:
+- location: ch80.3
+  claim: 筛选标准六维：正向现金流快、无需复杂供应链/囤货、可标准化/SOP化、可借力AI工具提效、有明确的公域获客路径、后端有高复购/高客单产品。
+  reason: 素材中未找到'筛选标准六维'的明确定义，仅在P001中提到'六大筛选标准'但未列出具体内容
+- location: ch80.3
+  claim: 验证路径为认知对齐、赛道筛选、标准化SOP执行、低成本MVP验证、复盘优化、规模化放大。典型周期为1-3个月实现月入3k-2w+突破。
+  reason: 素材中未找到完整的六步验证路径及具体周期数据，仅在P014中提到'认知对齐→赛道筛选→SOP执行→MVP验证→复盘优化→规模化'模型
+- location: ch80.5
+  claim: 7天实测咨询300+ → 加微81人(27%) → 成交41人(50.6%)
+  reason: 该数据来自P015《418拉新...》而非P003或P008声称的'三恒'案例，存在素材归属错误
+- location: ch80.5
+  claim: 朋友圈运营黄金比例：专业展示/生活真实/营销转化 = 5:3:2
+  reason: 素材中仅P085(木子田案例)提到'朋友圈专业/生活/营销=5:3:2'，未见P003或P008支持
+- location: ch80.6
+  claim: ChatGPT+RPA 13步文案自动化法：选题、大纲、钩子、正文、标题、标签等13个结构化节点
+  reason: 素材中P070仅提到'13次拖拽实现文案全流程自动化'，未列出13个具体节点名称
+- location: ch80.6
+  claim: SD云端零成本批量出图：Google Colab免费GPU部署SD WebUI，配合模型下载脚本、API调用、定时任务，无需本地显卡、无限时长、可编程
+  reason: P021和P076描述的是Colab部署SD教程，但'无限时长'与Colab免费版有使用时长限制矛盾
+- location: ch80.10
+  claim: 三恒：资料整理日均引流180+，配合头条号自动回复/私域双号风控/咨询式成交话术，单用户ARPU超200元
+  reason: P046和BzIfdvAQ...docx中三恒案例仅提到'日均引私域180+用户'，未提及头条号自动回复、双号风控、ARPU超200元等细节
+- location: ch80.13 练习3
+  claim: 场景：每日从『即刻/小红书/抖音』热榜抓取Top 10话题 → ChatGPT按固定Prompt改写 → RPA定时发布
+  reason: 素材中无现成'即刻/小红书/抖音热榜抓取+ChatGPT改写+RPA发布'的完整自动化案例，属于教程设计而非素材实证
+missing_concepts:
+- paper: P001
+  concept: 小马宋《创业46条》其余条目（仅引用第13、15、16条）
+  severity: medium
+- paper: P002
+  concept: 粥左罗12年3000+篇内容的具体选题策略、变现产品矩阵
+  severity: medium
+- paper: P003
+  concept: 公私域协同模型在不同平台（抖音/视频号/小红书）的差异化打法
+  severity: high
+- paper: P004
+  concept: AI自动化流水线的ROI测算模型、投入产出比量化标准
+  severity: high
+- paper: P005
+  concept: 视频号带货'选品-素材-投流'的标准化SOP文档
+  severity: medium
+- paper: P006
+  concept: 知识付费'选客户而非服务客户'的具体筛选标准量表
+  severity: high
+- paper: P007
+  concept: 承认无能后的'知进退'具体决策框架（何时放弃/转型/坚持）
+  severity: high
+- paper: P008
+  concept: 资料整理引流法的版权合规操作指引（私域交付合规细节）
+  severity: medium
+- paper: P009
+  concept: 执行力'穿越周期'的心理建设方法（应对挫折/倦怠/诱惑）
+  severity: medium
+- paper: P010
+  concept: 利他思维在'向上社交'中的具体话术模板与边界把控
+  severity: medium
+- paper: P014
+  concept: 毛韩'项目筛选模型'的20项参数完整定义与评分权重
+  severity: high
+- paper: P015
+  concept: 咸鱼SEO霸屏引流的关键词布局策略与账号矩阵搭建细节
+  severity: high
+- paper: P016
+  concept: 盖洛普优势识别在商业决策中的量化应用模型
+  severity: high
+- paper: P017
+  concept: 元认知三微操作的长期训练计划与效果追踪指标
+  severity: medium
