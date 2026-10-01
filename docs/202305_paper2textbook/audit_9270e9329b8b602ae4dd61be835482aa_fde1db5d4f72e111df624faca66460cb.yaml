@@ -1,0 +1,67 @@
+citation_stats:
+- paper: P001
+  count: 18
+  locations:
+  - '75.1'
+  - '75.2'
+  - '75.3'
+  - '75.4'
+  - '75.5'
+  - '75.6'
+  - '75.7'
+  - '75.8'
+  - '75.11'
+- paper: P002
+  count: 7
+  locations:
+  - '75.2'
+  - '75.5'
+  - '75.11'
+- paper: P003
+  count: 5
+  locations:
+  - '75.2'
+  - '75.6'
+  - '75.11'
+- paper: P004
+  count: 3
+  locations:
+  - '75.2'
+  - '75.7'
+  - '75.11'
+unsupported_claims:
+- location: '75.3'
+  claim: 作者老黄牛基于该系统在生财有术社区产出 14 篇精华帖，统筹“生财精选小报童”达 2.4 万订阅。
+  reason: 素材中未找到该具体数据支撑，仅在 P001 中提到“在生财写过 14 篇精华帖，【生财精选小报童】的内容统筹（至今 2 万 4 千多订阅）”，订阅数为
+    2.4 万而非 2.4 万（一致），但“生财精选小报童”在素材中仅在 P001 出现，未在其他素材验证。
+- location: '75.3'
+  claim: 读者林清杰对比反馈：卢曼卡片笔记法门槛高、易陷入“通篇搬运”，而渐进式总结五层法操作指引强、上手快、更难变成搬运工。
+  reason: 素材中仅在 P001 找到林清杰评论，内容为“《卡片笔记法》也看过，一直看不懂怎么用的，总觉得哪里不对，最后放弃思考直接通篇搬运当个搬运工了”，未提及“渐进式总结五层法操作指引强、上手快、更难变成搬运工”。
+- location: '75.5'
+  claim: L2“用自己话复述”是内化的分水岭（费曼技巧内核）
+  reason: 素材 P002 提到“用自己的话对每个高亮或下划线部分写一句话的总结”，并引用“费曼学习法，就是把你看过的知识，用自己话复述，这是一种萃取（内化）的办法”，但未明确表述“L2是内化的分水岭”及“费曼技巧内核”这一定性结论。
+- location: '75.6'
+  claim: P.A.R.A 核心机制：动态流转。新增笔记按“服务当前 Project → 服务长期 Area → 默认 Resource”三步决策树路由；Project
+    完成自动沉入 Archive。
+  reason: 素材 P003 中提到“当我们看到资料时，就可以想：1. 这将在哪个项目（Project）中最有用？2. 如果没有：这将在哪个区域（Area）中最有用？3.
+    如果没有：放在资源吧（Resource）”，但未提及“Project 完成自动沉入 Archive”及“动态流转”机制。
+- location: '75.7'
+  claim: DIKW 模型中 Data→Information 加入“内容”，Information→Knowledge 加入“如何使用”，Knowledge→Wisdom
+    加入“在何时使用”。
+  reason: 素材 P004 中原文为“数据层是最基本的，信息层加入了“内容”，知识层加入了“如何使用”，而智慧层则加入了“在何时使用””，与全书表述一致，但全书将其表述为“核心增量”，属于合理推导，非直接引用。
+missing_concepts:
+- paper: P001
+  concept: 卡片笔记法（卢曼）的具体操作细节与局限性
+  severity: medium
+- paper: P001
+  concept: 香农信息论中“惊讶度”定量计算在笔记实操中的具体判断标准
+  severity: medium
+- paper: P002
+  concept: 渐进式总结五层法中 L3-L5 的具体操作案例与工具支持
+  severity: high
+- paper: P003
+  concept: P.A.R.A 系统中 Resource 与 Area 的边界划分标准、Archive 复用机制
+  severity: high
+- paper: P004
+  concept: DIKW 模型在个人知识管理中的落地量化指标与跨层级跃迁的认知机制
+  severity: high
