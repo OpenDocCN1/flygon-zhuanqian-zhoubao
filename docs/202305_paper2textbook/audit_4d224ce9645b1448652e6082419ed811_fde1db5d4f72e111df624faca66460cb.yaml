@@ -1,0 +1,288 @@
+citation_stats:
+- paper: P001
+  count: 3
+  locations:
+  - ch46.3.2
+  - ch46.3.4
+  - ch46.3.5
+- paper: 龙哥赚钱周报 20230510~20230516
+  count: 12
+  locations:
+  - ch46.3.2
+  - ch46.3.4
+  - ch46.3.5
+  - ch46.5
+  - ch46.6.1
+  - ch46.6.2
+  - ch46.6.3
+  - ch46.7
+  - ch46.7
+  - ch46.7
+  - ch46.7
+  - ch46.7
+- paper: 龙哥赚钱周报 20230516
+  count: 15
+  locations:
+  - ch46.3.2
+  - ch46.3.4
+  - ch46.3.5
+  - ch46.5
+  - ch46.6.1
+  - ch46.6.2
+  - ch46.6.3
+  - ch46.7
+  - ch46.7
+  - ch46.7
+  - ch46.7
+  - ch46.7
+  - ch46.7
+  - ch46.7
+  - ch46.7
+unsupported_claims:
+- location: ch46.3.2
+  claim: 平台风控系统内置“合法业务指纹库”，预置了官方原生功能的发送主体、模板结构、触发逻辑特征向量，并标记为“通过”态。
+  reason: 素材中未找到支撑
+- location: ch46.3.2
+  claim: 平台模型迭代方向为“语义穿透谐音、OCR破解图片、行为建模捕捉异常”
+  reason: 素材中未找到支撑
+- location: ch46.3.5
+  claim: 建议补充各主流电商平台《商家违规管理规范》《短信/消息模板规范》最新版原文，以及平台官方发布的触达率白皮书
+  reason: 素材中未找到支撑
+- location: ch46.3.5
+  claim: 建议补充同类电商合规引流转化率实证研究、平台短信触达率官方白皮书、DSR 与服务通知相关性量化分析报告等
+  reason: 素材中未找到支撑
+- location: ch46.7
+  claim: 下一章中，我们将学习 小红书小众高客单价引流实战航海日志 —— 从养号起号、爆款创作到安全引流的三阶段全过程复盘
+  reason: 素材中未找到支撑
+missing_concepts:
+- paper: 龙哥赚钱周报 20230510~20230516
+  concept: 快团团与淘客的对比分析
+  severity: high
+- paper: 龙哥赚钱周报 20230510~20230516
+  concept: 平民开店手册（无人自习室模式）
+  severity: high
+- paper: 龙哥赚钱周报 20230510~20230516
+  concept: 承认自己的无能和无知（创业46条之13）
+  severity: medium
+- paper: 龙哥赚钱周报 20230510~20230516
+  concept: 白手起家赚到第一个1000万的认知复盘
+  severity: high
+- paper: 龙哥赚钱周报 20230510~20230516
+  concept: 个人IP策略：百年不改名、全域用同名
+  severity: medium
+- paper: 龙哥赚钱周报 20230510~20230516
+  concept: 从负债19万到年净收益近百万的投资方法论
+  severity: high
+- paper: 龙哥赚钱周报 20230510~20230516
+  concept: 中老年知识付费赛道的高利润机会
+  severity: high
+- paper: 龙哥赚钱周报 20230510~20230516
+  concept: 持续创作机器的三个技巧（资料整理→知识管理→知识创作）
+  severity: medium
+- paper: 龙哥赚钱周报 20230510~20230516
+  concept: Niche海外软件工具的6步正确方法
+  severity: medium
+- paper: 龙哥赚钱周报 20230510~20230516
+  concept: 抖音热点宝选品神器与RPA自动化
+  severity: medium
+- paper: 龙哥赚钱周报 20230510~20230516
+  concept: 利用生财思维跑通8块钱成本月赚2w+的小项目（视频定制）
+  severity: high
+- paper: 龙哥赚钱周报 20230510~20230516
+  concept: 从0基础小白到257人团队的生财成长路径
+  severity: high
+- paper: 龙哥赚钱周报 20230510~20230516
+  concept: 意外搞到3万块，不要全职自媒体（攻守之道）
+  severity: high
+- paper: 龙哥赚钱周报 20230516
+  concept: ChatGPT+RPA 13次拖拽实现文案全流程自动化
+  severity: medium
+- paper: 龙哥赚钱周报 20230516
+  concept: AI推文三天百万播放0-1拆解
+  severity: medium
+- paper: 龙哥赚钱周报 20230516
+  concept: ChatGPT结合SEO的关键词挖掘与应用
+  severity: medium
+- paper: 龙哥赚钱周报 20230516
+  concept: AI四维预测思维：把想法变成钱（四维预测/碳中和/为TA点歌）
+  severity: high
+- paper: 龙哥赚钱周报 20230516
+  concept: Stable Diffusion应用场景与模型训练（辅助设计/AI模特/分镜/Lora训练/云端部署）
+  severity: high
+- paper: 龙哥赚钱周报 20230516
+  concept: ChatGPT超级写手批量制作抖音带货文案（热点宝/轻抖/RPA/一帧秒创/SEO霸屏）
+  severity: high
+- paper: 龙哥赚钱周报 20230516
+  concept: Colab+Stable Diffusion云端免费批量出图教程
+  severity: medium
+- paper: 龙哥赚钱周报 20230516
+  concept: 视频号引流逻辑复盘：10W+浏览量半个月起号
+  severity: medium
+- paper: 龙哥赚钱周报 20230516
+  concept: 视频号三个月赚20W（农村下沉市场/搬运IP/私域转化）
+  severity: high
+- paper: 龙哥赚钱周报 20230516
+  concept: 公众号站内外引流涨粉全流程（征稿/人设/抽奖/多平台投放/矩阵）
+  severity: high
+- paper: 龙哥赚钱周报 20230516
+  concept: 公众号法律赛道AI写作：30分钟8篇爆款日入300+
+  severity: medium
+- paper: 龙哥赚钱周报 20230516
+  concept: 视频号最稳定带货玩法：短视频挂车投流全流程
+  severity: high
+- paper: 龙哥赚钱周报 20230516
+  concept: 新手做短剧CPS月入1.4w+（授权/剪辑/选剧/解说/批量/避坑）
+  severity: high
+- paper: 龙哥赚钱周报 20230516
+  concept: 0基础做PPT项目拆解47天变现16.7W（账号/平台/内容/直播/私域/心得）
+  severity: high
+- paper: 龙哥赚钱周报 20230516
+  concept: 从0粉到300w粉、月入3K到10W的心路历程（起号/变现/投流/选品/博弈）
+  severity: high
+- paper: 龙哥赚钱周报 20230516
+  concept: 抖音养生号单月十万佣金复盘（起号/选品/素材/无人直播/踩坑/内功）
+  severity: high
+- paper: 龙哥赚钱周报 20230516
+  concept: 小红书小众领域日引流100+实战（快速起号/高效做号/安全引流）
+  severity: high
+- paper: 龙哥赚钱周报 20230516
+  concept: 小红书电商两种实操玩法（好物爆款/垂直精细化）
+  severity: medium
+- paper: 龙哥赚钱周报 20230516
+  concept: 32万粉小红书博主涨粉变现复盘
+  severity: medium
+- paper: 龙哥赚钱周报 20230516
+  concept: 从0到1副业历程：all in小红书（履历/三阶段/生财放大）
+  severity: high
+- paper: 龙哥赚钱周报 20230516
+  concept: 二胎全职妈妈一个月做快团团GMV 7W（冷启动/选品/售中/售后/信誉危机）
+  severity: high
+- paper: 龙哥赚钱周报 20230516
+  concept: 推荐大团长躺赚佣金日入200+（开通批量/6招推广/资源展现/派生项目）
+  severity: high
+- paper: 龙哥赚钱周报 20230516
+  concept: 闲鱼7店铺霸占前排月销千单（设备/养号/垂直/选品/人设/上架八要素）
+  severity: high
+- paper: 龙哥赚钱周报 20230516
+  concept: 闲鱼创业粉引流日引1000+保姆级教程（整体思路/虚拟资料/自动发货/微信转化/回收粉）
+  severity: high
+- paper: 龙哥赚钱周报 20230516
+  concept: 25天成交海外独立站B2B客户入账$4551.7（SEO/询盘/报价/钩子/成交）
+  severity: high
+- paper: 龙哥赚钱周报 20230516
+  concept: 7天利用Instagram+Facebook私域变现2000刀（账号/广告/素材/话术/成交/收款）
+  severity: medium
+- paper: 龙哥赚钱周报 20230516
+  concept: 被低估的手机壳项目月入1万+暴利拆解
+  severity: medium
+- paper: 龙哥赚钱周报 20230516
+  concept: 新人入局二奢行业一年月利润30W+（心路/供应链/渠道/风控/新人建议）
+  severity: high
+- paper: 龙哥赚钱周报 20230516
+  concept: 4年400+店铺闲鱼运营深度总结六问六答（副业适合度/选品/销量/养号/差评/工作室）
+  severity: high
+- paper: 龙哥赚钱周报 20230516
+  concept: 小红书无货源电商三个月营收50w全拆解（基础/选品/货源/内容/流量/私域/避坑）
+  severity: high
+- paper: 龙哥赚钱周报 20230516
+  concept: 视频号短视频挂车投流全流程跑通（准备/选品/素材/测品/放量/问题/总结）
+  severity: high
+- paper: 龙哥赚钱周报 20230516
+  concept: 资料整理日均引私域180+，核心是提供附加产品解决问题方案
+  severity: high
+- paper: 龙哥赚钱周报 20230516
+  concept: 普通人借助ChatGPT从0变现7k入生财（绿灯思维/试错成本/提问/圈子/行动力/团队）
+  severity: high
+- paper: 龙哥赚钱周报 20230516
+  concept: 利用生财思维8块钱成本跑通视频定制项目（像素级拆解/模仿/优化/放大/总结）
+  severity: high
+- paper: 龙哥赚钱周报 20230516
+  concept: 快手知识付费保姆级教程（账号/平台/内容/直播/课程/起号/部署/赛道/链接）
+  severity: high
+- paper: 龙哥赚钱周报 20230516
+  concept: 418拉新：咸鱼打通陌生流量成交渠道（天龙八部销售法/聆听/探询/产品/成交/知识/习惯/技巧）
+  severity: high
+- paper: 龙哥赚钱周报 20230516
+  concept: 短剧CPS利用ChatGPT批量生产解说视频（流程/核心要素/剪辑公式/解说制作/全解说/半解说/进阶/避坑）
+  severity: high
+- paper: 龙哥赚钱周报 20230516
+  concept: AI批量生成表情包引流变现（同行调研/小红书钩子/MJ生成/抠图配字/微信平台上传/审核）
+  severity: high
+- paper: 龙哥赚钱周报 20230516
+  concept: 写作BOSS项目年入50w保姆级分享（项目认知/平台选择/开店实操/私域对接/写手招募/ChatGPT/风险）
+  severity: high
+- paper: 龙哥赚钱周报 20230516
+  concept: 打造不出镜个人IP 10个月变现7位数（IP定位/低粉爆款/核心需求/私域引流/PPT制作/变现方式）
+  severity: high
+- paper: 龙哥赚钱周报 20230516
+  concept: Web3新赛道BRC20项目VMPX抢购复盘（抓住机会/寻找/实操/谣言/冲/阶段性好事/落袋）
+  severity: medium
+- paper: 龙哥赚钱周报 20230516
+  concept: 新手借助小航海月赚2w方法论（锻造武器/筛选项目/勇敢行动/放大项目/项目筛选模型）
+  severity: high
+- paper: 龙哥赚钱周报 20230516
+  concept: 二胎宝妈快团团推荐大团长躺赚200+复盘
+  severity: high
+- paper: 龙哥赚钱周报 20230516
+  concept: Stable Diffusion终极宝典（安装/模型/关键词/Lora/二次元/涂鸦/换衣/修图/获取咒语/ControlNet/室内设计/VAE/步数/采样/高清修复/分辨率/多图/脚本/C站下载/模型存放/模型识别）
+  severity: high
+- paper: 龙哥赚钱周报 20230516
+  concept: 视频号还能做吗：三个月赚20W（农村下沉/选品/素材/IP/包装/转化/多平台/想法）
+  severity: high
+- paper: 龙哥赚钱周报 20230516
+  concept: ChatGPT+RPA文案自动化13步实现
+  severity: medium
+- paper: 龙哥赚钱周报 20230516
+  concept: Mediabuy Brand Bid单人出海项目（原理/优势/Google Ads/广告联盟/品牌词/低成本/长期/收益）
+  severity: medium
+- paper: 龙哥赚钱周报 20230516
+  concept: 认知突破23步：从混沌到清晰（成长/学习/资源/真正学习/开始/本质/注意点/高效/自制力/计划/理性/情绪/态度/焦虑/高手/冥想/反思/痛苦/运动/改变他人/改变自己/写作/价值/长远/内向优势/巴菲特12特质/周计划）
+  severity: high
+- paper: 龙哥赚钱周报 20230516
+  concept: Colab+Stable Diffusion云端免费自动批量无限出图（部署/大模型/Lora/参数/自动/批量/无限/打包下载）
+  severity: high
+- paper: 龙哥赚钱周报 20230516
+  concept: 从年负债19万到眼光敏锐投资年净收益近百万（记账/亏损测算/投资注意/收入版图/经纪人/股市/淘宝客/可转债/四大行套利/坑/感悟）
+  severity: high
+- paper: 龙哥赚钱周报 20230516
+  concept: 7天Instagram+Facebook私域变现2000刀（准备/账号/广告/素材/话术/成交/收款/核心/门槛）
+  severity: medium
+- paper: 龙哥赚钱周报 20230516
+  concept: 9年传统行业1年转型线上年入200万（契机/转换习惯/混圈/混群/现金投票/先开再完善/交付/体系/主编/沉淀/规则/付款/时间/涨价/引流/建议/总结）
+  severity: high
+- paper: 龙哥赚钱周报 20230516
+  concept: AI推文三天百万播放0-1拆解（前言/为什么/准备/实操/总结/优劣势/放弃原因/兼职香）
+  severity: medium
+- paper: 龙哥赚钱周报 20230516
+  concept: 从0到1副业历程：all in小红书IP（履历/三阶段/生财放大/杠杆）
+  severity: high
+- paper: 龙哥赚钱周报 20230516
+  concept: 小红书职称赛道日引流100+实战（快速起号/高效做号/安全引流/表情包/群聊/SEO/复制爆款/养号/ChatGPT改写/蓝海词）
+  severity: high
+- paper: 龙哥赚钱周报 20230516
+  concept: 如何拥有ChatGPT Plus无需VPN不封号（IP方案/美国手机号/美国银行卡/华美银行/Wise/Dashisim/UltraMobile/虚拟卡/总结）
+  severity: medium
+- paper: 龙哥赚钱周报 20230516
+  concept: 选品神器：巨量百应爆款视频素材批量下载（需求/调研/问题/解决/验证/放大/分享/兑换码）
+  severity: medium
+- paper: 龙哥赚钱周报 20230516
+  concept: 25天成交海外独立站B2B客户$4551.7（SEO/询盘判断/迅速回复/专业报价/留钩子/模拟测试/成交）
+  severity: high
+- paper: 龙哥赚钱周报 20230516
+  concept: 公众号运营五大板块拆解（基础认知/账号搭建/内容定位/引流涨粉/账号运营/变现/类型/人设/排版/逻辑/内部外部/钩子/社群/留言/标准化/表格/广告）
+  severity: high
+- paper: 龙哥赚钱周报 20230516
+  concept: 知识博主小红书半年涨粉20万IP打造复盘（为什么/开始/垂直/对标/用户需求/爆款/广告/缓慢涨粉/忠于自己/真实成长/总结/生财破圈）
+  severity: high
+- paper: 龙哥赚钱周报 20230516
+  concept: 美业人复用朋友圈内容发小红书0涨粉5千月增收5位数（定位/四件套/内容策略/关键词/引流钩子/矩阵/礼物）
+  severity: high
+- paper: 龙哥赚钱周报 20230516
+  concept: 放弃高考选择创业：13岁到20岁七年创业之旅（网赚/低谷/暑假/父母/新视野/疫情/放弃高考/租房/孤独/态度）
+  severity: high
+- paper: 龙哥赚钱周报 20230516
+  concept: Stable Diffusion应用场景与模型训练（产品设计/AI模特/建筑/分镜/训练集/打标/减标/Dreambooth/Lora/测试/参数/元数据/总结）
+  severity: high
+- paper: 龙哥赚钱周报 20230516
+  concept: 抖音养生号单月十万佣金复盘（项目/经历/起号/选品/巨量百应/对标记录/无人直播/转折/踩坑/理解/内功/感恩）
+  severity: high
