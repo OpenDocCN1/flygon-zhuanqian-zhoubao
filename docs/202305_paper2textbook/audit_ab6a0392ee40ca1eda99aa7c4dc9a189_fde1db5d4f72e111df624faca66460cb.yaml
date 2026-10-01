@@ -1,0 +1,57 @@
+citation_stats:
+- paper: RhRywNqifi3wjGkc4MacUiwXnxc
+  count: 56
+  locations:
+  - '22.1'
+  - '22.2'
+  - '22.3'
+  - '22.4'
+  - '22.5'
+  - '22.6'
+  - '22.7'
+  - '22.8'
+  - '22.9'
+  - '22.10'
+  - '22.11'
+  - '22.12'
+  - '22.13'
+  - '22.14'
+  - '22.15'
+unsupported_claims:
+- location: '22.3'
+  claim: 小红书不怎么查重，重发的笔记依然有流量，并且很大概率再次成为爆款
+  reason: 素材中仅为作者主观经验陈述，缺乏平台官方文档或第三方测评数据支撑
+- location: '22.4'
+  claim: 养号2-3天即可完成标签建立，首页推荐变为领域热门内容
+  reason: 素材中仅为操作经验分享，无算法原理文档或官方说明佐证
+- location: '22.9'
+  claim: 蓝海词笔记零点赞零收藏也能判定成功，核心KPI为关键词排名+私信量
+  reason: 素材中为作者团队及同行'老刘'的实测案例，非平台官方指标定义
+- location: '22.10'
+  claim: 单群上限40人、单号5群、日处理200人、禁言期可操作群聊、私信长按无引用回复=隐形限流、企业号显著提升抗风险
+  reason: 素材中为作者实测经验总结，缺乏平台官方规则文档或大规模统计报告支撑
+- location: '22.11'
+  claim: 职称赛道强地域属性天然形成护城河，同套SOP跨城不竞争，适合加盟模式
+  reason: 素材中为作者基于业务属性的主观判断，缺乏行业研报或政策法规文件支撑
+- location: '22.11'
+  claim: 聚光投流理论适配性高，高客单/标准化路径适配投放
+  reason: 素材中为作者前瞻性判断，无投放案例或ROI测算模型佐证
+missing_concepts:
+- paper: RhRywNqifi3wjGkc4MacUiwXnxc
+  concept: 小红书官方推荐算法/查重机制/风控规则的权威技术文档
+  severity: high
+- paper: RhRywNqifi3wjGkc4MacUiwXnxc
+  concept: 账号标签体系与首批推荐流量池精准度的量化实验数据
+  severity: high
+- paper: RhRywNqifi3wjGkc4MacUiwXnxc
+  concept: 群聊功能在账号禁言/限流状态下的可用性官方规则说明
+  severity: high
+- paper: RhRywNqifi3wjGkc4MacUiwXnxc
+  concept: 企业号认证对账号权重/抗风险能力的具体提升幅度对比数据
+  severity: medium
+- paper: RhRywNqifi3wjGkc4MacUiwXnxc
+  concept: 职称评审权限划分的政策法规依据（地域护城河的法律基础）
+  severity: medium
+- paper: RhRywNqifi3wjGkc4MacUiwXnxc
+  concept: 聚光平台在职称/高客单知识付费赛道的投放案例与基准ROI
+  severity: medium
