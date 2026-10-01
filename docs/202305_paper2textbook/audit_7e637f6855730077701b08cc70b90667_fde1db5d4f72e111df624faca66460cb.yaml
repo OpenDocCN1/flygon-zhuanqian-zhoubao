@@ -1,0 +1,56 @@
+citation_stats:
+- paper: Dy8mdu2JUoyQYRx2UnocHwOinaf
+  count: 18
+  locations:
+  - '57.3'
+  - '57.4'
+  - '57.5'
+  - '57.6'
+  - '57.7'
+  - '57.8'
+  - '57.9'
+  - '57.10'
+  - '57.11'
+  - '57.12'
+  - '57.13'
+  - '57.14'
+  - '57.15'
+  - '57.16'
+  - 概念地图
+  - 学习目标
+  - '57.1'
+unsupported_claims:
+- location: '57.5'
+  claim: 需求缺口指数公式：搜索热度 / 内容供给量
+  reason: 素材中未明确给出该公式的数学定义与变量量化标准，仅为文字描述
+- location: '57.5'
+  claim: 预估ROI公式：客单价 × 预估转化率 / 单条视频制作成本
+  reason: 素材中仅有文字描述，未给出具体计算公式与变量定义
+- location: '57.10'
+  claim: 混剪去重分层防御体系包含基础/进阶/终极/发布策略四层
+  reason: 素材中仅列举去重技术点，未系统归纳为四层防御体系
+- location: '57.11'
+  claim: 利他链接飞轮与诱饵-解药转化漏斗存在协同关系
+  reason: 素材中两模型并列阐述，未明确阐述二者间的协同机制与流程
+- location: '57.12'
+  claim: 认知套利窗口期生命周期包含7个阶段
+  reason: 素材中仅描述认知套利现象，未划分生命周期阶段
+missing_concepts:
+- paper: Dy8mdu2JUoyQYRx2UnocHwOinaf
+  concept: 易知课堂具体开店审核时长与通过率数据
+  severity: medium
+- paper: Dy8mdu2JUoyQYRx2UnocHwOinaf
+  concept: 快手小程序挂载课程链接的具体技术参数与限制
+  severity: medium
+- paper: Dy8mdu2JUoyQYRx2UnocHwOinaf
+  concept: 混剪去重各技术手段通过率对比实测数据
+  severity: high
+- paper: Dy8mdu2JUoyQYRx2UnocHwOinaf
+  concept: 无人直播间转化率与人工直播间对比数据
+  severity: high
+- paper: Dy8mdu2JUoyQYRx2UnocHwOinaf
+  concept: 平台风控对虚假销量/评论的具体判定标准与处罚案例
+  severity: high
+- paper: Dy8mdu2JUoyQYRx2UnocHwOinaf
+  concept: 红海细分定位法中"月搜量>100"阈值的来源依据
+  severity: medium
