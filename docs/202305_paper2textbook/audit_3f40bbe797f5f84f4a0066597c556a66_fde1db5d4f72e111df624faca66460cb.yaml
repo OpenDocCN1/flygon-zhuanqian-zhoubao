@@ -1,0 +1,113 @@
+citation_stats:
+- paper: P001
+  count: 17
+  locations:
+  - ch11.3
+  - ch11.13
+  - ch11.14
+- paper: P002
+  count: 12
+  locations:
+  - ch11.4
+  - ch11.9
+  - ch11.13
+  - ch11.14
+- paper: P003
+  count: 4
+  locations:
+  - ch11.2
+  - ch11.12
+  - ch11.13
+- paper: P004
+  count: 11
+  locations:
+  - ch11.5
+  - ch11.6
+  - ch11.7
+  - ch11.11
+  - ch11.13
+- paper: P005
+  count: 1
+  locations:
+  - ch11.7
+- paper: P006
+  count: 14
+  locations:
+  - ch11.2
+  - ch11.5
+  - ch11.8
+  - ch11.11
+  - ch11.12
+  - ch11.13
+- paper: P007
+  count: 3
+  locations:
+  - ch11.9
+  - ch11.13
+- paper: P008
+  count: 8
+  locations:
+  - ch11.4
+  - ch11.10
+  - ch11.13
+- paper: P009
+  count: 28
+  locations:
+  - ch11.3
+  - ch11.5
+  - ch11.6
+  - ch11.7
+  - ch11.9
+  - ch11.11
+  - ch11.13
+  - ch11.14
+- paper: P010
+  count: 4
+  locations:
+  - ch11.2
+  - ch11.12
+  - ch11.13
+unsupported_claims:
+- location: ch11.3
+  claim: 吴东子万字长文：语雀 578 赞，评论区 "大写的牛逼"、"真滴牛"，验证 "胎教级" 教学模式有效性
+  reason: 素材中仅显示 578 赞，评论内容为 "大写的牛逼"、"真滴牛" 等，未直接验证教学模式有效性，属于过度解读
+- location: ch11.4
+  claim: 现在谷歌 colab 禁用 Stable diffusion 相关代码了，继续使用，可能会封禁 colab 功能，需要注意一下的～
+  reason: 素材 P002 评论区提到该风险，但正文未明确证实官方禁令，属于未经证实的传闻
+- location: ch11.8
+  claim: 减标签后权重自动迁移至触发词，推理时仅需一词调用
+  reason: 素材 P006 仅描述现象（权重加到前面的词里），未提供技术原理或实验证据支撑“自动迁移”机制
+- location: ch11.10
+  claim: 账号池经济性：Google 账号批发价极低(几元/个)，边际算力成本趋近零，比买显卡/租云 GPU 成本低 1-2 个数量级
+  reason: 素材 P002、P008 仅提到账号价格低、需买号，未提供成本对比测算数据，属于定性夸大
+- location: ch11.11
+  claim: 基本开了高清修复四张图需要50秒左右
+  reason: 素材 P005 仅为个人显卡（3080ti）实测，非通用基准，未说明批次大小、分辨率等关键参数
+missing_concepts:
+- paper: P001
+  concept: 秋叶整合包的版本锁定机制与冲突规避策略（以包代版、整体迭代）
+  severity: high
+- paper: P002
+  concept: Colab 免费版 T4 GPU 显存上限（16G）对大模型加载多 LoRA 导致 OOM 的限制
+  severity: high
+- paper: P006
+  concept: LoRA 训练中 Clip Skip=2 的作用原理及对训练效果的影响
+  severity: medium
+- paper: P006
+  concept: LoRA 训练 Metadata 中 ss_bucket_info、ss_enable_bucket 等 Bucket 相关字段的含义与用法
+  severity: medium
+- paper: P009
+  concept: 高清修复（Hires Fix）的两阶段生成原理：低分生成结构→放大重绘细节，及重绘幅度对细节保真度的影响
+  severity: high
+- paper: P009
+  concept: VAE 修正色彩偏灰的原理及 vae-ft-mse-840000 的通用性边界
+  severity: medium
+- paper: P009
+  concept: GFPGAN 仅修复人脸、非人脸区域不改善的技术边界与适用场景限制
+  severity: high
+- paper: P008
+  concept: Colab 文件浏览器不支持批量下载的底层原因及 tarfile 打包下载的技术细节
+  severity: medium
+- paper: P010
+  concept: AI 模特换装中 Inpainting 蒙版边缘羽化与 ControlNet OpenPose 关键点对齐的精度要求
+  severity: high
