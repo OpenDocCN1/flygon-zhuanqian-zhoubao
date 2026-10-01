@@ -1,0 +1,50 @@
+citation_stats:
+- paper: P001
+  count: 1
+  locations:
+  - ch17.3
+- paper: P002
+  count: 1
+  locations:
+  - ch17.3
+- paper: P003
+  count: 1
+  locations:
+  - ch17.3
+- paper: P004
+  count: 1
+  locations:
+  - ch17.3
+- paper: P005
+  count: 1
+  locations:
+  - ch17.3
+unsupported_claims:
+- location: ch17.8
+  claim: DashiSIM多APN漫游方案是网络层基建的唯一最优解
+  reason: 素材中未对比其他同类APN漫游卡(如CMLINK、飞猪漫游卡等)的实测数据，仅凭作者主观判断断定为最优
+- location: ch17.8
+  claim: Ultra Mobile $3 PayGo是身份层唯一满足四重约束的最优解
+  reason: 素材中未提供Tello、Mint Mobile等竞品在WiFi Calling漫游稳定性、实测接码成功率的横向对比数据
+- location: ch17.8
+  claim: 华美Velo/Wise支付方案长期风控通过率极高
+  reason: 素材中缺乏大样本量、长周期(6个月以上)的ChatGPT Plus扣款成功率统计数据支撑
+- location: ch17.8
+  claim: 基建复用资产边际成本趋零
+  reason: 未扣除账号维护人力成本、设备折旧、合规风险准备金等隐性成本，边际成本趋零结论缺乏全成本核算支撑
+missing_concepts:
+- paper: P001
+  concept: OpenAI风控策略迭代周期与应对预案
+  severity: high
+- paper: P002
+  concept: DashiSIM在极端网络管制下的熔断机制与备选方案
+  severity: high
+- paper: P003
+  concept: Ultra Mobile实体卡实测在国内主流机型(iPhone 15/安卓旗舰)的WiFi Calling成功率
+  severity: medium
+- paper: P004
+  concept: 华美Velo实体卡邮寄至中国大陆的实测时效与激活成功率
+  severity: medium
+- paper: P005
+  concept: Wise电子卡在ChatGPT Plus/ API高频扣款场景下的单日/单月限额实测
+  severity: medium
