@@ -1,0 +1,68 @@
+citation_stats:
+- paper: P001
+  count: 17
+  locations:
+  - ch41.3
+  - ch41.12
+  - ch41.13
+- paper: P002
+  count: 3
+  locations:
+  - ch41.4
+- paper: P003
+  count: 2
+  locations:
+  - ch41.5
+- paper: P004
+  count: 3
+  locations:
+  - ch41.6
+- paper: P005
+  count: 6
+  locations:
+  - ch41.7
+- paper: P006
+  count: 3
+  locations:
+  - ch41.8
+- paper: P007
+  count: 3
+  locations:
+  - ch41.9
+- paper: P008
+  count: 4
+  locations:
+  - ch41.10
+- paper: P009
+  count: 3
+  locations:
+  - ch41.11
+unsupported_claims:
+- location: ch41.3
+  claim: 作者辰风一年运营出 5.6 万/2.6 万粉账号，单日涨粉过万
+  reason: 素材中未找到支撑该具体数据的来源文档，仅在正文引用中提及
+- location: ch41.5
+  claim: 人设互推内容结构采用总分结构输出人设文（总述版画像+分项深度展开）建立认知护城河
+  reason: 素材中未明确提及该具体结构细节
+- location: ch41.7
+  claim: 单条抖音广告三天引流 1 万+ 粉丝
+  reason: 素材中虽提及该数据但未提供具体验证细节
+- location: ch41.7
+  claim: 博主合作痛点：嫌麻烦、觉得不好说话
+  reason: 素材中仅有作者主观描述，无第三方佐证
+- location: ch41.10
+  claim: 核心人高薪/分红 + 执行层低薪/绩效，单账号边际运营成本随规模递减
+  reason: 素材中未提供具体薪资结构与成本数据支撑
+missing_concepts:
+- paper: P001
+  concept: 视频号广告分成计划具体分成规则与门槛
+  severity: medium
+- paper: P005
+  concept: 抖音博主投放视频脚本模板库
+  severity: high
+- paper: P007
+  concept: 五象限账号间具体的流量互导SOP执行细则
+  severity: high
+- paper: P009
+  concept: 执行层招募/培训/考核的标准化SOP文档
+  severity: high

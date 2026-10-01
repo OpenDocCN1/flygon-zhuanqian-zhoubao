@@ -1,0 +1,29 @@
+citation_stats:
+- paper: P001
+  count: 47
+  locations:
+  - '44.1'
+  - '44.3'
+  - '44.4'
+  - '44.5'
+  - '44.6'
+  - '44.7'
+  - '44.8'
+  - '44.9'
+  - '44.10'
+  - '44.11'
+  - '44.12'
+  - '44.14'
+  - '44.15'
+  - '44.16'
+unsupported_claims: []
+missing_concepts:
+- paper: P001
+  concept: 视频号官方规则变更史料（体验分算法更新、实名制政策调整、直播带货合规新规）
+  severity: high
+- paper: P001
+  concept: 跨平台（抖音/快手/小红书）矩阵带货对比案例
+  severity: high
+- paper: P001
+  concept: 供应链韧性/库存博弈/供应商风控学术文献
+  severity: medium
