@@ -1,0 +1,87 @@
+citation_stats:
+- paper: P001
+  count: 3
+  locations:
+  - '70.3'
+  - '70.4'
+  - '70.11'
+- paper: P002
+  count: 2
+  locations:
+  - '70.4'
+  - '70.11'
+- paper: P003
+  count: 1
+  locations:
+  - '70.5'
+- paper: P004
+  count: 1
+  locations:
+  - '70.6'
+- paper: P005
+  count: 2
+  locations:
+  - '70.7'
+  - '70.7'
+- paper: P006
+  count: 1
+  locations:
+  - '70.8'
+- paper: P007
+  count: 1
+  locations:
+  - '70.9'
+- paper: P008
+  count: 1
+  locations:
+  - '70.10'
+- paper: P009
+  count: 2
+  locations:
+  - '70.2'
+  - '70.11'
+- paper: P010
+  count: 3
+  locations:
+  - '70.2'
+  - '70.12'
+  - '70.12'
+unsupported_claims:
+- location: '70.8'
+  claim: 两阶段 Prompt 工程设计的具体 Python 代码实现（prompt_1、prompt_2 变量）
+  reason: 素材中仅提及 '利用 AI 总结内容的 Topic + SEO 数据服务平台获取高流量相关标题，通过 AI 技术再次生成高传播和高点击的标题'，未提供具体的
+    Prompt 代码实现细节
+- location: '70.8'
+  claim: 规则引擎：过滤/去重/合规检查/平台适配 的具体实现逻辑
+  reason: 素材中未提及规则引擎的具体工程实现细节
+- location: '70.12'
+  claim: 黑客马拉松 48 小时完整执行链路的每一步耗时（如 2h、3h、1h 等精确到小时）
+  reason: 素材中仅提及 'hackthon 是两天时间' 和 '两天内从脑暴 & 挖掘软件 IDEA -> Demo 研发路演'，未提供精确到小时的执行链路复盘表
+- location: '70.12'
+  claim: 工具链路架构图中 LLM1、LLM2、SEO平台/竞品高赞标题库、规则引擎的具体技术实现细节
+  reason: 素材中仅有 Demo 页面截图和高层方案描述，无详细工程架构图与技术细节
+missing_concepts:
+- paper: P001
+  concept: 技术至上主义陷阱在深技术/基础设施项目（如编译器、数据库内核）中的适用性边界条件
+  severity: high
+- paper: P003
+  concept: MVP 算账决策中 '预期价值' 与 '开发成本' 的量化评分标准细则（1-5分制的具体判断依据）
+  severity: high
+- paper: P004
+  concept: 用户画像三维模型在细分市场极小（如仅 10 家潜在客户）时的替代策略：直接逐个拜访而非构建画像
+  severity: medium
+- paper: P005
+  concept: 竞品反向分析中 SimilarWeb/Ahrefs/SEMrush 数据滞后性（月度更新）对捕捉新兴渠道爆发机会的局限性
+  severity: medium
+- paper: P006
+  concept: AI+SEO 标题生成方案中平台算法更新打击 '标题党' 时，规则引擎需快速迭代的具体应对措施（如一致性检查、禁用词表、完读率预测模型）
+  severity: high
+- paper: P007
+  concept: 冷启动/稳定期划分依据为何选单客利润而非时间/用户量的理论来源（引用《The Lean Startup》引擎切换、《Traction》渠道阶段性论述）
+  severity: high
+- paper: P008
+  concept: 营销三问中 '谁>什么>哪里' 优先级的理论来源（定位理论、跨越鸿沟理论）
+  severity: high
+- paper: P010
+  concept: 黑客马拉松作为验证手段的有效性边界（适用于应用层工具/消费级产品，不适用于深技术/重监管/硬件生物技术）
+  severity: medium

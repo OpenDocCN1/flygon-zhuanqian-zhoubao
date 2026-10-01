@@ -1,0 +1,81 @@
+citation_stats:
+- paper: P001
+  count: 7
+  locations:
+  - '66.4'
+  - '66.5'
+  - '66.9'
+  - '66.10'
+  - '66.11'
+  - '66.12'
+  - '66.13'
+- paper: P002
+  count: 22
+  locations:
+  - '66.4'
+  - '66.5'
+  - '66.6'
+  - '66.7'
+  - '66.8'
+  - '66.9'
+  - '66.10'
+  - '66.11'
+  - '66.12'
+  - '66.13'
+  - '66.4'
+  - '66.5'
+  - '66.6'
+  - '66.7'
+  - '66.8'
+  - '66.9'
+  - '66.10'
+  - '66.11'
+  - '66.12'
+  - '66.13'
+- paper: P003
+  count: 2
+  locations:
+  - '66.6'
+  - '66.6'
+- paper: P004
+  count: 2
+  locations:
+  - '66.7'
+  - '66.7'
+- paper: P005
+  count: 1
+  locations:
+  - '66.8'
+- paper: P006
+  count: 1
+  locations:
+  - '66.9'
+- paper: P007
+  count: 0
+  locations: []
+- paper: P009
+  count: 0
+  locations: []
+- paper: P100
+  count: 7
+  locations:
+  - '66.4'
+  - '66.9'
+  - '66.10'
+  - '66.11'
+  - '66.12'
+  - '66.13'
+unsupported_claims:
+- location: '66.4'
+  claim: 作者 2 个月拿到谷歌精选摘要（第 0 名），实现躺拿被动询盘。
+  reason: 素材中未找到支撑
+- location: '66.10'
+  claim: 25 天成交法国客户 $4551.7、2pcs、100% 毛利
+  reason: 素材中未找到支撑
+missing_concepts:
+- paper: P007
+  concept: B2B买家旅程研究报告（如Gartner/Forrester）、Google搜索质量评分指南官方文档
+  severity: high
+- paper: P009
+  concept: 竞品独立站流量公开数据分析报告（SimilarWeb/Ahrefs抓取）、海外B2B决策周期实证研究
+  severity: high
