@@ -1,0 +1,45 @@
+citation_stats:
+- paper: P085
+  count: 12
+  locations:
+  - '56.1'
+  - '56.2'
+  - '56.4'
+  - '56.7'
+  - '56.8'
+  - '56.9'
+  - '56.10'
+- paper: P_G2Z
+  count: 8
+  locations:
+  - '56.2'
+  - '56.3'
+  - '56.5'
+  - '56.7'
+  - '56.8'
+  - '56.9'
+  - '56.10'
+- paper: P_ZbF
+  count: 7
+  locations:
+  - '56.2'
+  - '56.3'
+  - '56.6'
+  - '56.7'
+  - '56.8'
+  - '56.9'
+  - '56.10'
+unsupported_claims:
+- location: '56.8'
+  claim: 注：此处养生号私域运营细节为作者基于素材推测，素材[P_ZbF]未明确提及养生号私域分层定价细节
+  reason: 全书正文明确标注此为作者推测，素材中未直接支撑该论断
+missing_concepts:
+- paper: P085
+  concept: 素材中提到的具体对标账号名称、具体爆款视频案例链接、具体的朋友圈运营排期表、具体的咨询式成交话术全文
+  severity: medium
+- paper: P_G2Z
+  concept: 素材中提到的具体报价表细节、具体的写手招募合同/规则体系、具体的ChatGPT提示词模板、具体的315期间下架操作SOP
+  severity: medium
+- paper: P_ZbF
+  concept: 素材中提到的具体对标账号列表、具体的巨量百应榜单截图数据、具体的混剪去重操作步骤截图、具体的无人直播搭建教程链接、具体的账号注册/养号SOP文档
+  severity: medium
