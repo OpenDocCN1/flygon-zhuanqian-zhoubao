@@ -1,0 +1,136 @@
+citation_stats:
+- paper: P001
+  count: 17
+  locations:
+  - ch58.3
+  - ch58.4
+  - ch58.5
+  - ch58.6
+  - ch58.7
+  - ch58.8
+  - ch58.9
+  - ch58.10
+  - ch58.11
+  - ch58.12
+  - ch58.13
+  - ch58.14
+  - ch58.15
+  - ch58.16
+- paper: P002
+  count: 4
+  locations:
+  - ch58.4
+  - ch58.15
+- paper: P003
+  count: 5
+  locations:
+  - ch58.5
+  - ch58.15
+- paper: P004
+  count: 4
+  locations:
+  - ch58.6
+  - ch58.15
+- paper: P005
+  count: 3
+  locations:
+  - ch58.7
+  - ch58.15
+- paper: P006
+  count: 3
+  locations:
+  - ch58.8
+  - ch58.15
+- paper: P007
+  count: 3
+  locations:
+  - ch58.9
+  - ch58.15
+- paper: P008
+  count: 3
+  locations:
+  - ch58.10
+  - ch58.15
+- paper: P009
+  count: 3
+  locations:
+  - ch58.11
+  - ch58.15
+- paper: P010
+  count: 3
+  locations:
+  - ch58.12
+  - ch58.15
+- paper: P011
+  count: 3
+  locations:
+  - ch58.13
+  - ch58.15
+unsupported_claims:
+- location: ch58.3
+  claim: 作者团队曾打造杭州最大的二手奢侈品同行贸易供应链，曾一度成为抖音二奢类目黑马榜第一名，最高月GMV达到1500万。
+  reason: 素材中未找到支撑'杭州最大'、'黑马榜第一名'等官方/第三方权威数据来源，仅为作者自述。
+- location: ch58.4
+  claim: 中古深库存团队月转300万资金2圈，月利60万。
+  reason: 素材中仅为作者复盘时的口述数据，无财务报表、税务记录等客观佐证材料。
+- location: ch58.5
+  claim: 资金流动比例固定为3:1（压货资金:流动采购资金），即总资金的25%为可自由支配的流动采购资金。
+  reason: 该比例为作者经验总结的经验法则，素材中未给出行业普遍统计数据或理论推导证明其为固定铁律。
+- location: ch58.6
+  claim: 前员工拆分为4个小团队后，人均效能与利润率显著优于大公司耦合模式。
+  reason: 素材仅列举四个团队的粗略利润数据，缺乏人均效能计算细节、同期对照组数据，结论属于作者主观判断。
+- location: ch58.7
+  claim: 建议每个账号至少养一个月，加好友每24小时不超过12人，换群间隔3小时/次≤10人，发广告图≤3张/4小时，朋友圈日更100条。
+  reason: 为作者实测经验参数，微信风控规则动态变化，素材中无官方文档或第三方测评报告佐证其长期有效性。
+- location: ch58.8
+  claim: 鉴定师证书（小绿牌）可将单笔验货成本从78-90元降至0元，且证书含金量随行业规范化升值。
+  reason: 成本降至0元基于'关系免检'理想假设，素材中未统计建立深度绑定关系的时间/机会成本；证书增值为作者预测，无历史交易数据支撑。
+- location: ch58.10
+  claim: L4层级（个人卖家直收）可获得源头、最高毛利、非标货源。
+  reason: 素材中未给出L4层级实际操作案例、毛利率对比数据，仅为理论推演。
+- location: ch58.11
+  claim: 闲鱼/得物上标品甚至随意挂卖也会有商家主动找你收。
+  reason: 属于作者经验之谈，素材中无平台公开数据或第三方实测报告验证'商家主动找收'的概率与频次。
+- location: ch58.12
+  claim: 风控三重防线最终可内化为'小绿牌标准'，实现零摩擦流通。
+  reason: 素材中未说明行业是否已形成统一强制的'小绿牌'标准，亦无监管文件支撑。
+- location: ch58.13
+  claim: 精品标品号2人配置月利10万，可标准化复制；达人流量号月利15万但不可复制。
+  reason: 数据来源于作者自述复盘，未提供多团队、多周期的复制成功率统计，'可复制性'结论缺乏抽样验证。
+missing_concepts:
+- paper: P001
+  concept: 同行贸易（B2B）与直播带货（B2C）的具体财务报表数据（如营收构成、净利率、现金流量表）。
+  severity: high
+- paper: P001
+  concept: 崩盘期（2022年7-11月）的详细资金流水、债务结构、投资方撤资法律文件。
+  severity: high
+- paper: P002
+  concept: 三分货盘在不同时间维度（淡旺季）的动销率、周转天数、毛利率波动数据。
+  severity: medium
+- paper: P003
+  concept: 资金周转杠杆模型在不同资金量级（50万、500万、2000万）下的实测边界条件与失效临界点。
+  severity: high
+- paper: P004
+  concept: 轻重资产协同模式下的法律合同范本（如SLA、利润分成协议、违约条款）、税务筹划方案。
+  severity: high
+- paper: P005
+  concept: 同行社交裂变增长法的ROI测算模型（获客成本CAC、生命周期价值LTV、病毒系数K因子）。
+  severity: medium
+- paper: P006
+  concept: 鉴定师证书（小绿牌）的行业认证主体、监管备案号、历年通过率、继续教育要求。
+  severity: high
+- paper: P007
+  concept: 飞阅会决策机制的会议纪要模板、行动项追踪表、决策复盘归档规范。
+  severity: medium
+- paper: P008
+  concept: 全渠道货源地图的数据库结构设计（字段定义、更新频率、数据清洗SOP）、渠道评分模型权重。
+  severity: high
+- paper: P009
+  concept: 分层出货分销策略中各渠道的结算周期、退货率基准、对账差异处理流程。
+  severity: medium
+- paper: P010
+  concept: 风控三重防线的假阳性/假阴性率统计、理赔拒赔案例库、鉴定师资质分级标准。
+  severity: high
+- paper: P011
+  concept: 精品标品号复制模板的标准化考核指标（如主播话术合规率、中控操作失误率、切片爆款率）、复制失败案例复盘。
+  severity: high
