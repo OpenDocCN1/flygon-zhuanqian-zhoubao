@@ -1,0 +1,70 @@
+citation_stats:
+- paper: P001
+  count: 22
+  locations:
+  - ch1.2
+  - ch1.3
+  - ch1.4
+  - ch1.5
+  - ch1.6
+  - ch1.7
+  - ch1.8
+  - ch1.9
+  - ch1.10
+  - ch1.11
+  - ch1.12
+  - ch1.13
+  - ch1.14
+  - ch1.15
+  - ch1.16
+  - ch1.17
+  - ch1.18
+  - ch1.19
+  - ch1.20
+  - ch1.21
+  - ch1.22
+unsupported_claims:
+- location: ch64.1
+  claim: 股债性价比 = （1/沪深300 PE_TTM）/ 十年国债收益率，该指标长期在 1.5~3.0 之间波动，>3.0 为买入区，<1.5 为卖出区
+  reason: 素材中明确给出定义、区间、阈值，无不支持之处
+- location: ch64.3
+  claim: 股债性价比长期均值约 2.0，A股历史运行区间 1.5~3.0 与之吻合
+  reason: 素材中有美股200年经验支撑，A股数据验证，无不支持之处
+- location: ch64.4
+  claim: 2012年底、2015年6月、2018年2月、2019年初、2021年3月、2022年4/10月的股债性价比、四风格估值、行情性质与结果验证
+  reason: 素材中逐节复盘了这些节点，数据一致
+- location: ch64.5
+  claim: 三好选基法：好公司六维、好经理三硬指标、好体系规模<50亿最优<20亿
+  reason: 素材中完整列出六维、三硬指标、规模阈值及理由
+- location: ch64.6
+  claim: 择时干扰项三类：突发事件/地缘/外盘、宏观数据、情绪观察，均应忽略
+  reason: 素材中明确列出三类及忽略逻辑
+- location: ch64.7
+  claim: 普通投资者生存法则：历史年化<25%仅做系统性底部重仓，其余时间小仓位/空仓
+  reason: 素材中给出判定标准、执行铁律、实盘复盘验证
+- location: ch64.8
+  claim: 引用 Berk & Green (2004)、Fama (1970)、刘栋张洁 (2018)、王汉军陈玮 (2020)、格雷厄姆《聪明的投资者》、Lo
+    & MacKinlay (1999) 作为经典文献对照
+  reason: 这些文献均不在素材 P001 中，属于编写教程时补充的外部引用，未在素材中找到支撑
+missing_concepts:
+- paper: P001
+  concept: 股债性价比分子端若用预测盈利而非滚动盈利的风险
+  severity: medium
+- paper: P001
+  concept: 十年国债收益率因政策强制扭曲（金融压抑）导致分母失真风险
+  severity: high
+- paper: P001
+  concept: 中证风格指数改版导致历史分位点需重新校准的边界条件
+  severity: medium
+- paper: P001
+  concept: 小规模基金流动性风险（申赎受限）与新基金无历史业绩验证的边界条件
+  severity: medium
+- paper: P001
+  concept: 极端黑天鹅（战争休市、货币体系崩溃）超出模型适用范围
+  severity: low
+- paper: P001
+  concept: 结构性行情中持仓基金风格错配导致跑输大盘的风险
+  severity: high
+- paper: P001
+  concept: 技术分析在弱式有效市场假说下的学术争议及本章‘仅确认不预测’的定位依据
+  severity: medium

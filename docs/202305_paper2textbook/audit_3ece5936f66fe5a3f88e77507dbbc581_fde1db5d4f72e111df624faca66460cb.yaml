@@ -1,0 +1,45 @@
+citation_stats:
+- paper: P001
+  count: 6
+  locations:
+  - '69.1'
+  - '69.3'
+  - '69.4'
+  - '69.5'
+  - '69.6'
+  - '69.9'
+- paper: P002
+  count: 3
+  locations:
+  - '69.4'
+  - '69.4'
+  - '69.4'
+- paper: P003
+  count: 3
+  locations:
+  - '69.5'
+  - '69.5'
+  - '69.7'
+- paper: P004
+  count: 3
+  locations:
+  - '69.1'
+  - '69.6'
+  - '69.6'
+unsupported_claims: []
+missing_concepts:
+- paper: P001
+  concept: 天涯神贴等具体资料来源的获取渠道与版权规避细节
+  severity: high
+- paper: P004
+  concept: 头条号自动回复引流法的关键词设置与账号矩阵扩展SOP
+  severity: high
+- paper: P004
+  concept: 私域双号风控体系中备号养号标准与分流比例
+  severity: medium
+- paper: P002
+  concept: 红包复投模型中'消费能力画像'的具体判定标准与工具
+  severity: medium
+- paper: P003
+  concept: 渐进式总结五层法在团队协作场景下的标准化推广流程
+  severity: low
