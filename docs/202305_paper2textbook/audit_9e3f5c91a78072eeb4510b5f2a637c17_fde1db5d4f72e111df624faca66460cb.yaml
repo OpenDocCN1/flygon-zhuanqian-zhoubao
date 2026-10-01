@@ -1,0 +1,65 @@
+citation_stats:
+- paper: P001
+  count: 5
+  locations:
+  - '48.3'
+  - '48.3'
+  - '48.3'
+  - '48.6'
+  - '48.6'
+- paper: P002
+  count: 5
+  locations:
+  - '48.4'
+  - '48.4'
+  - '48.4'
+  - '48.6'
+  - '48.6'
+- paper: P003
+  count: 4
+  locations:
+  - '48.5'
+  - '48.5'
+  - '48.5'
+  - '48.6'
+- paper: P004
+  count: 1
+  locations:
+  - '48.3'
+- paper: P005
+  count: 1
+  locations:
+  - '48.5'
+- paper: P006
+  count: 1
+  locations:
+  - '48.5'
+unsupported_claims:
+- location: '48.3'
+  claim: 作者'橘子海'初中学历、前流水线工人、曾负债几十万，转型轻量化模式后3个月变现20万
+  reason: 素材中仅提到'初中毕业后进过厂，干过流水线'和'也曾负债过几十万'，未明确说明'前流水线工人'身份及'3个月变现20万'的直接因果关系，该表述属于推断性叙述而非素材原文
+- location: '48.5'
+  claim: 小红书引流防封技巧：群名片法、纸条法、计算器法、小号中转、关键词规避
+  reason: 素材P003中仅提到'小红书引流管控极严、操作繁琐、风险高'及用户追问'批量下载软件''怎样才算养好号'，未包含上述具体防封技巧细节，该内容为外部经验补充
+- location: '48.7'
+  claim: 私域规模化瓶颈：单人微信5000好友上限，突破需招募合伙人下沉村级，管理成本指数级上升
+  reason: 素材P002中仅提到'私域规模化瓶颈：单人微信5000好友上限，突破需招募合伙人/代理下沉至村级'，未提及'管理成本指数级上升'，该表述为推断性补充
+missing_concepts:
+- paper: P001
+  concept: 视频号小店/直播带货的具体违规风控案例与申诉流程
+  severity: medium
+- paper: P002
+  concept: 下沉市场农产品定价策略的量化模型（成本加成/竞品对标/心理价位测试）
+  severity: high
+- paper: P003
+  concept: 视频号/小红书/抖音三平台账号矩阵管理的工具化方案（多账号发布/数据聚合/风控监控）
+  severity: high
+- paper: P004
+  concept: 轻量化模式下私域朋友圈运营的内容日历模板与SOP标准化细节
+  severity: medium
+- paper: P005
+  concept: 小红书搜索SEO关键词挖掘的长尾词筛选标准与布局策略
+  severity: high
+- paper: P006
+  concept: 跨平台素材去重技术参数对比表（MD5/视频码率/关键帧/音频指纹）
+  severity: medium
