@@ -1,0 +1,72 @@
+citation_stats:
+- paper: P001
+  count: 99
+  locations:
+  - '36.3'
+  - '36.4'
+  - '36.5'
+  - '36.6'
+  - '36.7'
+  - '36.8'
+  - '36.9'
+  - '36.10'
+  - '36.11'
+  - '36.12'
+  - '36.13'
+  - '36.14'
+  - '36.15'
+  - '36.16'
+  - '36.17'
+  - 36.学习目标
+  - 36.1 生活类比
+  - 36.2 概念地图
+  - 36.3 核心三要素
+  - 36.4 随机数种子
+  - 36.5 ControlNet
+  - 36.6 局部重绘/涂鸦重绘
+  - 36.7 VAE/高分辨率修复
+  - 36.8 后期超分/人脸修复
+  - 36.9 参数复现/PNG Info/Tagger
+  - 36.10 脚本矩阵对比
+  - 36.11 本地/云端部署
+  - 36.12 模型全生命周期管理
+  - 36.13 教学范式
+  - 36.14 多源对照
+  - 36.15 设计中的取舍
+  - 36.16 动手练习
+  - 36.17 本章小结
+- paper: P002
+  count: 2
+  locations:
+  - '36.14'
+  - 36.Stable Diffusion 应用场景和模型训练
+- paper: P003
+  count: 1
+  locations:
+  - 36.AI推文三天百万播放项目拆解
+unsupported_claims:
+- location: '36.5'
+  claim: Canny 模式必须开启“反转输出颜色”才能精准着色
+  reason: 素材 P001 仅提到需开启该选项，未解释原理或不开启的具体后果，属于操作性陈述而非原理性论证
+- location: '36.7'
+  claim: 高分辨率修复 Denoising Strength 建议 0.3-0.5，太低无增强、太高崩坏结构
+  reason: 素材 P001 给出该数值范围，但未提供实测对比或理论支撑，属经验值而非严格推导
+- location: '36.10'
+  claim: 25 步后质量提升边际递减、不同采样器在 25 步趋同
+  reason: 素材 P001 仅陈述实测结论，未给出具体对比图或统计数据，属定性描述
+missing_concepts:
+- paper: P002
+  concept: LoRA 训练全流程（训练集准备、打标、减标、参数配置、测试复盘）
+  severity: high
+- paper: P002
+  concept: ControlNet 模型训练与微调方法
+  severity: medium
+- paper: P002
+  concept: Dreambooth 与 LoRA 训练的对比与适用场景
+  severity: medium
+- paper: P003
+  concept: AI 推文制作中的人物一致性控制（角色统一关键词预设）
+  severity: high
+- paper: P003
+  concept: SD 生成视频的关键帧动画与横移效果实现
+  severity: medium
