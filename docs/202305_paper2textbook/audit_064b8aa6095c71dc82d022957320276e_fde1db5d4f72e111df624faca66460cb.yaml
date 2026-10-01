@@ -1,0 +1,179 @@
+citation_stats:
+- paper: docs/202305/20230516_014.md
+  count: 2
+  locations:
+  - 79.3.2
+  - 79.3.4
+- paper: docs/202305/SUMMARY.md
+  count: 2
+  locations:
+  - 79.3.4
+  - 79.14.1
+- paper: docs/202305/Gn5NdifvBorUbdxvGl6ceQgXnpg.md
+  count: 3
+  locations:
+  - 79.3.4
+  - 79.14.1
+  - 79.3.2
+- paper: docs/202305/DGw1dYHSsohHu7x1AXhc4cQVnEN.md
+  count: 4
+  locations:
+  - 79.3.4
+  - 79.13.2
+  - 79.14.1
+  - 79.3.2
+- paper: docs/202305/20230516_057.md
+  count: 3
+  locations:
+  - 79.4.2
+  - 79.4.4
+  - 79.14.2
+- paper: docs/202305/WX87d3F4SoVZLHxDNGzcDDVRn6R.md
+  count: 3
+  locations:
+  - 79.4.4
+  - 79.5.4
+  - 79.14.2
+- paper: docs/202305/20230516_085.md
+  count: 2
+  locations:
+  - 79.4.4
+  - 79.14.2
+- paper: docs/202305/20230516_046.md
+  count: 3
+  locations:
+  - 79.5.4
+  - 79.6.1
+  - 79.14.3
+- paper: docs/202305/BzIfdvAQloqLImxjEhKcERAXn5f.md
+  count: 4
+  locations:
+  - 79.5.4
+  - 79.6.3
+  - 79.12.3
+  - 79.14.3
+- paper: docs/202305/I8BLdIIfbobzkYxCLGBctYqbnae.md
+  count: 2
+  locations:
+  - 79.5.4
+  - 79.14.3
+- paper: docs/202305/20230516_070.md
+  count: 1
+  locations:
+  - 79.7.2
+- paper: docs/202305/HYrZdLBMRorB0qxKqFFcQ075nWf.md
+  count: 2
+  locations:
+  - 79.7.2
+  - 79.7.2
+- paper: docs/202305/20230516_084.md
+  count: 1
+  locations:
+  - 79.7.2
+- paper: docs/202305/20230516_030.md
+  count: 3
+  locations:
+  - 79.8.2
+  - 79.8.3
+  - 79.8.4
+- paper: docs/202305/20230516_097.md
+  count: 1
+  locations:
+  - 79.8.4
+- paper: docs/202305/20230516_082.md
+  count: 1
+  locations:
+  - 79.9.1
+- paper: docs/202305/AxQ8duaITowcrCx54hocWSy4nnb.md
+  count: 4
+  locations:
+  - 79.9.2
+  - 79.9.3
+  - 79.9.4
+  - 79.9.6
+- paper: docs/202305/20230516_041.md
+  count: 1
+  locations:
+  - 79.10.3
+- paper: docs/202305/M0hMdjWj3o8WtNxZdv4cLnfenIh.md
+  count: 2
+  locations:
+  - 79.11.1
+  - 79.11.1
+- paper: docs/202305/VILid7sleoZ6puxkchxcRM9vn6g.md
+  count: 1
+  locations:
+  - 79.11.2
+- paper: docs/202305/Nt9IdI0b0okp1MxGKBacQtxSn3e.md
+  count: 1
+  locations:
+  - 79.11.3
+- paper: docs/202305/20230516_033.md
+  count: 1
+  locations:
+  - 79.12.2
+unsupported_claims:
+- location: 79.14.1
+  claim: DGw1强调'像素级模仿+数据迭代'为执行核心
+  reason: 素材DGw1dYHSsohHu7x1AXhc4cQVnEN.md中未明确提及'数据迭代'表述，核心为'像素级拆解/逆向工程、像素级模仿、水土不服人群匹配、废号资产化、流量密码迁移'
+- location: 79.14.2
+  claim: 057主张'名字本身不重要，能用一辈子才重要'
+  reason: 素材20230516_057.md原文为'粥左罗这名字，不管是好是坏，能用一辈子它就是好名字'，非'名字本身不重要'
+- location: 79.14.2
+  claim: WX87主张'暴露弱点建立真实信任'
+  reason: 素材WX87d3F4SoVZLHxDNGzcDDVRn6R.md未在提供内容中体现'暴露弱点'策略，仅提及'缺点即特质/IP核心公式=共性+特性'
+- location: 79.14.3
+  claim: I8BL强调'人群标签粘性>内容兴趣标签'
+  reason: 素材I8BLdIIfbobzkYxCLGBctYqbnae.md中未直接对比'人群标签粘性'与'内容兴趣标签'，核心为'IP素材反推选品、多平台分发复利'
+missing_concepts:
+- paper: docs/202305/20230516_014.md
+  concept: 小航海六大筛选标准的具体展开（正向现金流快/无需复杂供应链/可标准化/可借力AI/有明确公域获客路径/后端高复购高客单）
+  severity: high
+- paper: docs/202305/20230516_057.md
+  concept: 个人IP名字的优先级判断准则（如生财小马宋老师取名策略：颜色+水果/动物/植物/行业）
+  severity: medium
+- paper: docs/202305/WX87d3F4SoVZLHxDNGzcDDVRn6R.md
+  concept: 小红书IP运营的具体增长阶段划分（如20万→30万粉速度放缓但吸引高价值合伙人）
+  severity: medium
+- paper: docs/202305/20230516_085.md
+  concept: 朋友圈三段式运营细节（专业/生活/营销 5:3:2）与咨询式成交五步法（诊断/痛点/方案/案例/促单）
+  severity: high
+- paper: docs/202305/20230516_046.md
+  concept: 资料整理商业模型的'输入-重构-输出'能力建设循环具体路径
+  severity: high
+- paper: docs/202305/BzIfdvAQloqLImxjEhKcERAXn5f.md
+  concept: 头条号自动回复引流的具体配置步骤与私域双号风控基建细节（支付宝分离收款）
+  severity: high
+- paper: docs/202305/20230516_070.md
+  concept: ChatGPT+RPA 13步文案自动化的完整节点清单（选题/大纲/钩子/正文/标题/标签/配图/发布/数据回收等）
+  severity: high
+- paper: docs/202305/HYrZdLBMRorB0qxKqFFcQ075nWf.md
+  concept: SD云端部署的完整技术栈（Colab免费GPU/A1111或ComfyUI/模型下载脚本/API调用/定时任务）
+  severity: high
+- paper: docs/202305/20230516_084.md
+  concept: 短剧CPS批量化标准化资产库清单（选题表/文案提示词库/配音预设/剪辑模板库/发布清单）
+  severity: medium
+- paper: docs/202305/20230516_030.md
+  concept: 小红书无货源电商'封面六大视觉法则'与'标题关键词公式'的具体拆解
+  severity: high
+- paper: docs/202305/20230516_097.md
+  concept: 闲鱼矩阵霸屏'曝光数据预判具体哪个链接会爆单'的操作方法
+  severity: medium
+- paper: docs/202305/AxQ8duaITowcrCx54hocWSy4nnb.md
+  concept: 视频号投流'供应链熔断机制'的具体执行SOP（48小时发货红线/店铺体验分≥4.2/偏远地区预设不发货/多店铺备选动态切换）
+  severity: high
+- paper: docs/202305/20230516_041.md
+  concept: 知识付费组织进化三阶段的具体里程碑与动作标准（0-1做零件/1-N做设计者/规模化做带将者）
+  severity: high
+- paper: docs/202305/M0hMdjWj3o8WtNxZdv4cLnfenIh.md
+  concept: Mediabuy品牌词套利'港币账户成本降7倍'的汇率换算逻辑与账户开设合规要点
+  severity: high
+- paper: docs/202305/VILid7sleoZ6puxkchxcRM9vn6g.md
+  concept: B2B独立站'留钩子成交法'的具体话术模板（针对问题→给方案→给价值→留钩子）
+  severity: medium
+- paper: docs/202305/Nt9IdI0b0okp1MxGKBacQtxSn3e.md
+  concept: 超轻量化私域'SPIN简化版四步聊单法'（介绍产品/询问场景/询问预算/现场比价报价）实操细节
+  severity: medium
+- paper: docs/202305/20230516_033.md
+  concept: 五步私域成交话术的'白嫖用户分层运营SOP'（免费给少量资料→建立好感纳入私域池→长期培育等待转化时机）
+  severity: medium
