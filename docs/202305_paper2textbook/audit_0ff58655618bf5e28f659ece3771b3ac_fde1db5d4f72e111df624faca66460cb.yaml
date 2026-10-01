@@ -1,0 +1,68 @@
+citation_stats:
+- paper: P089
+  count: 17
+  locations:
+  - ch30.2
+  - ch30.3
+  - ch30.4
+  - ch30.5
+  - ch30.6
+  - ch30.7
+  - ch30.8
+  - ch30.10
+  - ch30.12
+- paper: RhRywNqifi3wjGkc4MacUiwXnxc (improve)
+  count: 42
+  locations:
+  - ch30.2
+  - ch30.3
+  - ch30.5
+  - ch30.6
+  - ch30.7
+  - ch30.9
+  - ch30.10
+  - ch30.12
+unsupported_claims:
+- location: ch30.5
+  claim: 前5篇纯干货保护期，违规后果为过早植入营销笔记导致账号标签偏离、权重受损、起号失败
+  reason: 素材中未明确给出“违规后果”的具体平台判定依据或实测数据，仅凭经验推断
+- location: ch30.6
+  claim: 蓝海词笔记『0点赞0收藏』却获大量私信
+  reason: 素材中仅有一个工程师职称账号的孤例，缺乏统计样本支撑普遍性结论
+- location: ch30.7
+  claim: 表情包话术持续运行0违规，直接发图秒违规
+  reason: 素材中仅作者自述“试过发图片也提醒违规，所以才做成表情”，未给出对照实验的具体次数、账号数量与时间跨度
+- location: ch30.7
+  claim: 单账号日承接上限量化为200人（5群×40人）
+  reason: 素材中仅为作者估算“目测最多可拉40人”“一个号可以建5个群”，未实测验证群满后踢人循环的成功率与用户体验
+- location: ch30.7
+  claim: 企业号升级后抗风险能力显著提升
+  reason: 素材中仅有一句“我们试过升级成企业号，事实证明确实更抗风险”，缺乏对比数据（如封号率、申诉通过率、权重恢复速度）
+- location: ch30.9
+  claim: 职称赛道地域护城河使得同方法论跨城市复制不产生内卷
+  reason: 素材中仅以成都圈友为单一案例，未覆盖一线城市、跨省业务、平台算法打破地域隔离等反面场景
+missing_concepts:
+- paper: P089
+  concept: 航海日志的具体每日模板结构（目标/动作/数据/复盘/明日目标）
+  severity: high
+- paper: P089
+  concept: 飞书文档完整版的具体章节目录与工具链清单
+  severity: high
+- paper: RhRywNqifi3wjGkc4MacUiwXnxc (improve)
+  concept: ChatGPT双阶段改写Prompt的完整版本（含系统角色设定、Few-shot示例、温度参数建议）
+  severity: high
+- paper: RhRywNqifi3wjGkc4MacUiwXnxc (improve)
+  concept: 表格封面的Excel/腾讯文档模板样式参数（字体、行高、配色、Logo位置）
+  severity: medium
+- paper: RhRywNqifi3wjGkc4MacUiwXnxc (improve)
+  concept: 蓝海词挖掘的具体工具操作步骤（千瓜/禅小红/5118的筛选公式与导出字段）
+  severity: high
+- paper: RhRywNqifi3wjGkc4MacUiwXnxc (improve)
+  concept: 私信前置检测的“长按无引用/回复选项”在不同机型/版本上的表现差异
+  severity: medium
+- paper: RhRywNqifi3wjGkc4MacUiwXnxc (improve)
+  concept: 矩阵化复制的SOP考核指标（如单号日产笔记数、引流转化率、违规率红线）
+  severity: high
+- paper: RhRywNqifi3wjGkc4MacUiwXnxc (improve)
+  concept: 聚光投流的素材准入标准（如过审率、ROI回本周期、素材迭代频次）
+  severity: medium
