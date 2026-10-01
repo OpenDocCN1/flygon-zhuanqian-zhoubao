@@ -1,0 +1,14 @@
+citation_stats:
+- paper: P001
+  count: 5
+  locations:
+  - '72.3'
+  - '72.4'
+  - '72.5'
+  - '72.6'
+  - '72.8'
+unsupported_claims:
+- location: '72.3'
+  claim: 用的好从此不用购买第三方工具，就可以直接下载爆款素材，所谓选品+爆款素材集一身。
+  reason: 素材中未找到支撑
+missing_concepts: []
