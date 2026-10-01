@@ -1,0 +1,55 @@
+citation_stats:
+- paper: P001
+  count: 8
+  locations:
+  - ch40.3
+  - ch40.4
+  - ch40.5
+  - ch40.9
+  - ch40.10
+  - ch40.11
+- paper: P002
+  count: 2
+  locations:
+  - ch40.10
+unsupported_claims:
+- location: ch40.3
+  claim: 转化率可达跨平台导流的 3-5 倍
+  reason: 素材中未找到具体数据支撑该倍数
+- location: ch40.5
+  claim: 视频时长：15-18 秒左右最好
+  reason: 素材中提到'视频时长：15-18 秒左右最好'，但未提供完播率数据支撑该结论
+- location: ch40.5
+  claim: 微信传输强制压缩（码率/分辨率双降）
+  reason: 素材中仅提到'微信它会压缩视频'，未明确说明是码率与分辨率双降
+missing_concepts:
+- paper: P001
+  concept: 视频号橱窗带货的具体选品方法与店铺分维护
+  severity: high
+- paper: P001
+  concept: 视频号投流玩法（随心推/千川）的详细操作SOP
+  severity: high
+- paper: P001
+  concept: 视频号直播带货的起号与承接流程
+  severity: medium
+- paper: P001
+  concept: 公众号征稿函/人设文/抽奖引流的具体话术与风控细节
+  severity: medium
+- paper: P001
+  concept: 闲鱼无货源选品、上架、去重、发货的完整标准化流程
+  severity: high
+- paper: P001
+  concept: 小红书无货源电商的选品工具、笔记制作、SEO关键词布局实操
+  severity: high
+- paper: P001
+  concept: 抖音短视频带货的混剪去重7步法与投流ROI测算模型
+  severity: high
+- paper: P001
+  concept: 快团团帮卖团长的冷启动、选品筛选、售后避坑指南
+  severity: medium
+- paper: P001
+  concept: AI绘画（MJ/SD）的提示词工程、模型训练、云端部署教程
+  severity: high
+- paper: P001
+  concept: 知识付费产品的设计、交付、裂变与私域转化体系
+  severity: high
