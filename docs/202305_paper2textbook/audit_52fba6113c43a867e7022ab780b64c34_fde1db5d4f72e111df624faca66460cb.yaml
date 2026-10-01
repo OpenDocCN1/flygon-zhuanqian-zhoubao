@@ -1,0 +1,524 @@
+citation_stats:
+- paper: 20230516_001.md
+  count: 1
+  locations:
+  - '84.1'
+- paper: 20230516_003.md
+  count: 2
+  locations:
+  - '84.3'
+  - '84.11'
+- paper: 20230516_004.md
+  count: 1
+  locations:
+  - '84.11'
+- paper: 20230516_005.md
+  count: 1
+  locations:
+  - '84.11'
+- paper: 20230516_007.md
+  count: 1
+  locations:
+  - '84.3'
+- paper: 20230516_013.md
+  count: 1
+  locations:
+  - '84.4'
+- paper: 20230516_014.md
+  count: 1
+  locations:
+  - '84.3'
+- paper: 20230516_015.md
+  count: 1
+  locations:
+  - '84.12'
+- paper: 20230516_020.md
+  count: 1
+  locations:
+  - '84.6'
+- paper: 20230516_024.md
+  count: 2
+  locations:
+  - '84.7'
+  - '84.12'
+- paper: 20230516_028.md
+  count: 1
+  locations:
+  - '84.7'
+- paper: 20230516_029.md
+  count: 1
+  locations:
+  - '84.7'
+- paper: 20230516_030.md
+  count: 3
+  locations:
+  - '84.7'
+  - '84.7'
+  - '84.7'
+- paper: 20230516_033.md
+  count: 2
+  locations:
+  - '84.5'
+  - '84.7'
+- paper: 20230516_034.md
+  count: 2
+  locations:
+  - '84.7'
+  - '84.7'
+- paper: 20230516_037.md
+  count: 1
+  locations:
+  - '84.7'
+- paper: 20230516_039.md
+  count: 1
+  locations:
+  - '84.7'
+- paper: 20230516_041.md
+  count: 3
+  locations:
+  - '84.8'
+  - '84.8'
+  - '84.8'
+- paper: 20230516_042.md
+  count: 1
+  locations:
+  - '84.8'
+- paper: 20230516_046.md
+  count: 2
+  locations:
+  - '84.5'
+  - '84.5'
+- paper: 20230516_048.md
+  count: 1
+  locations:
+  - '84.10'
+- paper: 20230516_049.md
+  count: 2
+  locations:
+  - '84.8'
+  - '84.10'
+- paper: 20230516_050.md
+  count: 1
+  locations:
+  - '84.9'
+- paper: 20230516_064.md
+  count: 1
+  locations:
+  - '84.5'
+- paper: 20230516_075.md
+  count: 2
+  locations:
+  - '84.6'
+  - '84.6'
+- paper: 20230516_078.md
+  count: 2
+  locations:
+  - '84.12'
+  - '84.12'
+- paper: 20230516_081.md
+  count: 2
+  locations:
+  - '84.6'
+  - '84.8'
+- paper: 20230516_084.md
+  count: 1
+  locations:
+  - '84.6'
+- paper: 20230516_085.md
+  count: 2
+  locations:
+  - '84.4'
+  - '84.8'
+- paper: 20230516_089.md
+  count: 2
+  locations:
+  - '84.7'
+  - '84.12'
+- paper: 20230516_091.md
+  count: 1
+  locations:
+  - '84.7'
+- paper: 20230516_094.md
+  count: 1
+  locations:
+  - '84.9'
+- paper: 20230516_095.md
+  count: 1
+  locations:
+  - '84.9'
+- paper: 20230516_097.md
+  count: 2
+  locations:
+  - '84.7'
+  - '84.12'
+- paper: 20230516_098.md
+  count: 1
+  locations:
+  - '84.7'
+- paper: 20230516_100.md
+  count: 1
+  locations:
+  - '84.9'
+- paper: 20230516_101.md
+  count: 2
+  locations:
+  - '84.9'
+  - '84.9'
+- paper: 20230516_103.md
+  count: 1
+  locations:
+  - '84.10'
+- paper: 20230516_104.md
+  count: 2
+  locations:
+  - '84.10'
+  - '84.10'
+- paper: 20230516_105.md
+  count: 2
+  locations:
+  - '84.7'
+  - '84.7'
+- paper: AVx7dEXmpoRJazx3nH8cceBOnhd.md
+  count: 1
+  locations:
+  - '84.7'
+- paper: AxQ8duaITowcrCx54hocWSy4nnb.md
+  count: 1
+  locations:
+  - '84.7'
+- paper: BzIfdvAQloqLImxjEhKcERAXn5f.md
+  count: 3
+  locations:
+  - '84.5'
+  - '84.5'
+  - '84.5'
+- paper: CBJhdD0dTokH8tx8HKYc1nJSnnc.md
+  count: 1
+  locations:
+  - '84.3'
+- paper: DGw1dYHSsohHu7x1AXhc4cQVnEN.md
+  count: 2
+  locations:
+  - '84.3'
+  - '84.5'
+- paper: Dy8mdu2JUoyQYRx2UnocHwOinaf.md
+  count: 2
+  locations:
+  - '84.8'
+  - '84.10'
+- paper: E0aFdosjUobxU7xEQeCc7y8snyb.md
+  count: 2
+  locations:
+  - '84.5'
+  - '84.12'
+- paper: EL9Fdl8WFoFxaixaJcLcqnXjn7r.md
+  count: 1
+  locations:
+  - '84.6'
+- paper: FJ8HdrA04o2efNx7E1ZcVgehnSe.md
+  count: 1
+  locations:
+  - '84.6'
+- paper: G2Zwdm2H7ol8FYxHEn7c0H2dn3c.md
+  count: 2
+  locations:
+  - '84.8'
+  - '84.8'
+- paper: Geucd6qWAoGztLx5EOkcKmjWnQg.md
+  count: 1
+  locations:
+  - '84.10'
+- paper: Gn5NdifvBorUbdxvGl6ceQgXnpg.md
+  count: 3
+  locations:
+  - '84.3'
+  - '84.3'
+  - '84.3'
+- paper: GUHld91qQobms8x35tbcOUlSnZb.md
+  count: 3
+  locations:
+  - '84.4'
+  - '84.4'
+  - '84.4'
+- paper: HUSAdLZRCoBXiMxK0kFc99Qkndg.md
+  count: 1
+  locations:
+  - '84.9'
+- paper: HYrZdLBMRorB0qxKqFFcQ075nWf.md
+  count: 3
+  locations:
+  - '84.6'
+  - '84.6'
+  - '84.6'
+- paper: I8BLdIIfbobzkYxCLGBctYqbnae.md
+  count: 1
+  locations:
+  - '84.7'
+- paper: IZx7dx2CSo9x23xioUFcNaHcnRd.md
+  count: 1
+  locations:
+  - '84.6'
+- paper: M0hMdjWj3o8WtNxZdv4cLnfenIh.md
+  count: 2
+  locations:
+  - '84.9'
+  - '84.9'
+- paper: M5lpdRp7OoHZAYxuDiicgGtSnpg.md
+  count: 1
+  locations:
+  - '84.11'
+- paper: Md2KdAjbDo0cdGxGMtncyb8CnLb.md
+  count: 1
+  locations:
+  - '84.6'
+- paper: NsZwdMgSxovqfxxgJqFc5XtXntb.md
+  count: 2
+  locations:
+  - '84.11'
+  - '84.11'
+- paper: Nt9IdI0b0okp1MxGKBacQtxSn3e.md
+  count: 2
+  locations:
+  - '84.9'
+  - '84.9'
+- paper: QPFgdHgZsorQvdxDkl9cw58LnVf.md
+  count: 1
+  locations:
+  - '84.8'
+- paper: RaMIdAe9aoB1XcxwSRocx2mmnad.md
+  count: 1
+  locations:
+  - '84.7'
+- paper: RhRywNqifi3wjGkc4MacUiwXnxc.md
+  count: 1
+  locations:
+  - '84.7'
+- paper: R2wRd6dN2oUtkOx9I3WcLHAOnzc.md
+  count: 1
+  locations:
+  - '84.6'
+- paper: SUMMARY.md
+  count: 5
+  locations:
+  - '84.1'
+  - '84.3'
+  - '84.5'
+  - '84.6'
+  - '84.7'
+- paper: TSZBdBfynoBINux2htWcefrtnHc.md
+  count: 1
+  locations:
+  - '84.10'
+- paper: U2lPdc1ayoNSPUxgsNfcEXrXn1d.md
+  count: 1
+  locations:
+  - '84.7'
+- paper: VILid7sleoZ6puxkchxcRM9vn6g.md
+  count: 1
+  locations:
+  - '84.9'
+- paper: VjTFdmoIhoOIuhx4wYUcc1XGn8g.md
+  count: 1
+  locations:
+  - '84.7'
+- paper: WX87d3F4SoVZLHxDNGzcDDVRn6R.md
+  count: 1
+  locations:
+  - '84.8'
+- paper: WzBCdY4A8omv2cxsneMcn1lJnEb.md
+  count: 1
+  locations:
+  - '84.7'
+- paper: YPhndkBKfocBV2xCfvucevIAn5y.md
+  count: 1
+  locations:
+  - '84.10'
+- paper: ZbFEdhEwsoqaNnxXzRicjWQOnkd.md
+  count: 1
+  locations:
+  - '84.7'
+- paper: ZXvbdq7RGoKEeLxryxAckCtSnPf.md
+  count: 1
+  locations:
+  - '84.6'
+- paper: docs/202305/20230516_001.md
+  count: 1
+  locations:
+  - '84.1'
+- paper: docs/202305/20230516_003.md
+  count: 2
+  locations:
+  - '84.3'
+  - '84.11'
+- paper: docs/202305/20230516_004.md
+  count: 1
+  locations:
+  - '84.11'
+- paper: docs/202305/20230516_005.md
+  count: 1
+  locations:
+  - '84.11'
+- paper: docs/202305/20230516_007.md
+  count: 1
+  locations:
+  - '84.3'
+- paper: docs/202305/20230516_013.md
+  count: 1
+  locations:
+  - '84.4'
+- paper: docs/202305/20230516_014.md
+  count: 1
+  locations:
+  - '84.3'
+- paper: docs/202305/20230516_015.md
+  count: 1
+  locations:
+  - '84.12'
+- paper: docs/202305/20230516_020.md
+  count: 1
+  locations:
+  - '84.6'
+- paper: docs/202305/20230516_024.md
+  count: 2
+  locations:
+  - '84.7'
+  - '84.12'
+- paper: docs/202305/20230516_028.md
+  count: 1
+  locations:
+  - '84.7'
+- paper: docs/202305/20230516_029.md
+  count: 1
+  locations:
+  - '84.7'
+- paper: docs/202305/20230516_030.md
+  count: 3
+  locations:
+  - '84.7'
+  - '84.7'
+  - '84.7'
+- paper: docs/202305/20230516_033.md
+  count: 2
+  locations:
+  - '84.5'
+  - '84.7'
+- paper: docs/202305/20230516_034.md
+  count: 2
+  locations:
+  - '84.7'
+  - '84.7'
+- paper: docs/202305/20230516_037.md
+  count: 1
+  locations:
+  - '84.7'
+- paper: docs/202305/20230516_039.md
+  count: 1
+  locations:
+  - '84.7'
+- paper: docs/202305/20230516_041.md
+  count: 3
+  locations:
+  - '84.8'
+  - '84.8'
+  - '84.8'
+- paper: docs/202305/20230516_042.md
+  count: 1
+  locations:
+  - '84.8'
+- paper: docs/202305/20230516_046.md
+  count: 2
+  locations:
+  - '84.5'
+  - '84.5'
+- paper: docs/202305/20230516_048.md
+  count: 1
+  locations:
+  - '84.10'
+- paper: docs/202305/20230516_049.md
+  count: 2
+  locations:
+  - '84.8'
+  - '84.10'
+- paper: docs/202305/20230516_050.md
+  count: 1
+  locations:
+  - '84.9'
+- paper: docs/202305/20230516_064.md
+  count: 1
+  locations:
+  - '84.5'
+- paper: docs/202305/20230516_075.md
+  count: 2
+  locations:
+  - '84.6'
+  - '84.6'
+- paper: docs/202305/20230516_078.md
+  count: 2
+  locations:
+  - '84.12'
+  - '84.12'
+- paper: docs/202305/20230516_081.md
+  count: 2
+  locations:
+  - '84.6'
+  - '84.8'
+- paper: docs/202305/20230516_084.md
+  count: 1
+  locations:
+  - '84.6'
+- paper: docs/202305/20230516_085.md
+  count: 2
+  locations:
+  - '84.4'
+  - '84.8'
+- paper: docs/202305/20230516_089.md
+  count: 2
+  locations:
+  - '84.7'
+  - '84.12'
+- paper: docs/202305/20230516_091.md
+  count: 1
+  locations:
+  - '84.7'
+- paper: docs/202305/20230516_094.md
+  count: 1
+  locations:
+  - '84.9'
+- paper: docs/202305/20230516_095.md
+  count: 1
+  locations:
+  - '84.9'
+- paper: docs/202305/20230516_097.md
+  count: 2
+  locations:
+  - '84.7'
+  - '84.12'
+- paper: docs/202305/20230516_098.md
+  count: 1
+  locations:
+  - '84.7'
+- paper: docs/202305/20230516_100.md
+  count: 1
+  locations:
+  - '84.9'
+- paper: docs/202305/20230516_101.md
+  count: 2
+  locations:
+  - '84.9'
+  - '84.9'
+- paper: docs/202305/20230516_103.md
+  count: 1
+  locations:
+  - '84.10'
+- paper: docs/202305/20230516_104.md
+  count: 2
+  locations:
+  - '84.10'
+  - '84.10'
+- paper: docs/202305/20230516_105.md
+  count: 2
+  locations:
+  - '84.7'
+  - '84.7'
+unsupported_claims: []
+missing_concepts: []
