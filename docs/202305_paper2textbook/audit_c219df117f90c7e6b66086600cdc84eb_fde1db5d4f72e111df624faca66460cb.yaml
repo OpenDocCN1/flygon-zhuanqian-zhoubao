@@ -1,0 +1,43 @@
+citation_stats:
+- paper: docs/202305/20230516_028.md
+  count: 12
+  locations:
+  - '45.1'
+  - '45.3'
+  - '45.4'
+  - '45.5'
+  - '45.6'
+  - '45.7'
+  - '45.8'
+  - '45.9'
+  - '45.10'
+  - '45.11'
+  - '45.12'
+  - '45.13'
+unsupported_claims:
+- location: '45.3'
+  claim: 曝光概率 P(E|X,W,T) 与点击率 P(C|E,X) 解耦（反事实学习框架，参考《Deep Learning for Recommender
+    Systems》第4章、KDD'19 "Position Bias Estimation")
+  reason: 素材中未找到该学术引用的直接支撑，属于教材作者自行补充的理论框架
+- location: '45.3'
+  claim: 由切比雪夫不等式/中心极限定理，收敛速度由标准差决定：矩阵收益确定性 ∝ 1/√Var(X̄) = √(N×M)/σ
+  reason: 素材中仅定性提及'大数定律确定性收益'，未包含数学推导过程
+- location: '45.5'
+  claim: 直播间上下划流量占直播间总UV的40%-60%，CVR较搜索流量高1.5-2倍，用户标签精准度显著优于付费投流流量
+  reason: 素材中仅提及'占比直播间流量结构非常高'，具体量化数据为教材作者补充
+- location: '45.6'
+  claim: 100单是平台算法完成'冷启动建模'到'成熟建模'的相变临界点，Embedding层收敛需最小正样本量50-200次转化
+  reason: 素材中仅提及'出了100单以上，可以智能让系统跑人群'，统计学依据为教材作者推导补充
+- location: '45.10'
+  claim: 平台横向对比量化估算表中的参数值（如小红书图文矩阵爆发力5、准入门槛2等）
+  reason: 素材中仅定性提及'门槛最低'，量化评分表为教材作者构建
+missing_concepts:
+- paper: docs/202305/20230516_028.md
+  concept: 评论区提及的'电脑统一发布是否影响账号'及'一机一号'运维细节
+  severity: medium
+- paper: docs/202305/20230516_028.md
+  concept: 评论区追问的'做矩阵号是用个人号还是企业号'
+  severity: medium
+- paper: docs/202305/20230516_028.md
+  concept: 直播营销功能开放的具体时间节点及官方政策原文
+  severity: high
