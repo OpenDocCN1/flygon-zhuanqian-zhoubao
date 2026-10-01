@@ -1,0 +1,88 @@
+citation_stats:
+- paper: P001
+  count: 52
+  locations:
+  - '13.1'
+  - '13.2'
+  - '13.3'
+  - '13.4'
+  - '13.5'
+  - '13.6'
+  - '13.7'
+  - '13.8'
+  - '13.9'
+  - '13.10'
+  - '13.11'
+  - '13.12'
+- paper: P002
+  count: 8
+  locations:
+  - '13.1'
+  - '13.7'
+  - '13.8'
+  - '13.9'
+  - '13.10'
+- paper: P003
+  count: 5
+  locations:
+  - '13.4'
+  - '13.5'
+- paper: P004
+  count: 12
+  locations:
+  - '13.2'
+  - '13.3'
+  - '13.4'
+  - '13.6'
+  - '13.7'
+- paper: P005
+  count: 10
+  locations:
+  - '13.1'
+  - '13.7'
+- paper: P006
+  count: 6
+  locations:
+  - '13.8'
+- paper: P007
+  count: 15
+  locations:
+  - '13.2'
+  - '13.3'
+  - '13.9'
+  - '13.10'
+unsupported_claims:
+- location: '13.9'
+  claim: Remotion/FFmpeg/剪映草稿三种视频合成方案的详细技术对比表（包含优劣势分析）
+  reason: 素材中仅提及剪映草稿方案，Remotion/FFmpeg技术细节完全缺失，属于作者外推内容
+- location: '13.10'
+  claim: 作者技术决策日志/架构设计文档/技术选型会议纪要作为补充文献方向
+  reason: 素材中无任何作者内部技术文档记录，仅有公开分享内容
+- location: '13.3'
+  claim: SD模型选型策略中'Everything模型生成人像手部崩坏'的定性结论
+  reason: 素材P001仅提及'Everything模型画人不好看'和'建议用Dark模型'，未具体说明手部崩坏现象
+- location: '13.9'
+  claim: 自动化流水线中'云原生流水线/K8s编排SD集群/Serverless视频合成'的技术架构细节
+  reason: 素材仅提及'腾讯云/青椒云/Colab秋叶整合包'云端部署，无容器编排与Serverless架构细节
+missing_concepts:
+- paper: P001
+  concept: 小说推文授权渠道获取流程（九州/九天/抖音九天剧场等平台开通细节）
+  severity: high
+- paper: P001
+  concept: 视频号/快手/小红书多平台分发差异化运营策略
+  severity: medium
+- paper: P004
+  concept: ControlNet OpenPose/Depth/Canny等预处理器在人物一致性中的具体参数配置
+  severity: high
+- paper: P005
+  concept: 剪映关键帧预设/模板的批量复用操作步骤（如何保存为预设并一键套用）
+  severity: medium
+- paper: P006
+  concept: 微软Azure TTS/云希/云浩宇等音色的API调用参数与SSML情绪标签完整列表
+  severity: high
+- paper: P007
+  concept: RPA/ADB自动化发布模块的反风控策略（设备指纹伪装/行为间隔随机化/账号养号SOP）
+  severity: high
+- paper: P007
+  concept: 小说版权合规白名单获取渠道（正版授权平台/收费标准/收益分成模式）
+  severity: high

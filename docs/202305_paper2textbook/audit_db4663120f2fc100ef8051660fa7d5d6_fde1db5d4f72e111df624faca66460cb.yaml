@@ -1,0 +1,68 @@
+citation_stats:
+- paper: P001
+  count: 10
+  locations:
+  - '15.3'
+  - 15.3.1
+  - 15.3.2
+  - 15.3.3
+  - 15.3.4
+  - '15.4'
+  - '15.6'
+  - '15.7'
+  - '15.11'
+  - '15.11'
+- paper: P002
+  count: 6
+  locations:
+  - '15.4'
+  - 15.4.1
+  - 15.4.4
+  - 15.4.4
+  - 15.4.4
+  - 15.4.4
+- paper: P003
+  count: 3
+  locations:
+  - '15.5'
+  - 15.5.1
+  - 15.5.2
+- paper: P004
+  count: 3
+  locations:
+  - '15.6'
+  - 15.6.1
+  - 15.6.4
+- paper: P005
+  count: 3
+  locations:
+  - '15.7'
+  - 15.7.2
+  - 15.7.3
+- paper: Finding01
+  count: 2
+  locations:
+  - 15.4.4
+  - '15.9'
+- paper: Finding02
+  count: 2
+  locations:
+  - 15.4.4
+  - '15.9'
+- paper: Finding03
+  count: 2
+  locations:
+  - 15.3.1
+  - 15.3.4
+- paper: Finding04
+  count: 2
+  locations:
+  - 15.7.2
+  - 15.7.3
+- paper: Finding05
+  locations:
+  - 15.5.1
+  - '15.9'
+  count: 2
+unsupported_claims: []
+missing_concepts: []

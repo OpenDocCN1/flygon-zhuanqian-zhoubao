@@ -1,0 +1,89 @@
+citation_stats:
+- paper: P001
+  count: 2
+  locations:
+  - '10.3'
+  - '10.4'
+- paper: P002
+  count: 10
+  locations:
+  - '10.1'
+  - '10.3'
+  - '10.4'
+  - '10.5'
+  - '10.6'
+  - '10.7'
+  - '10.8'
+- paper: P003
+  count: 3
+  locations:
+  - '10.3'
+  - '10.4'
+  - '10.5'
+- paper: P004
+  count: 2
+  locations:
+  - '10.6'
+  - '10.7'
+- paper: P005
+  count: 3
+  locations:
+  - '10.6'
+  - '10.7'
+  - '10.9'
+unsupported_claims:
+- location: '10.3'
+  claim: 影刀RPA 13次拖拽实现文案全流程自动化
+  reason: 素材中提到影刀RPA操作简单、13次拖拽完成流程，但未给出具体的13个组件名称及其配置参数的完整清单
+- location: '10.4'
+  claim: ChatGPT中文调教12步法可替代代码实现人设固化
+  reason: 素材P001仅列出12步骤标题，未提供各步骤的具体Prompt话术、预期输出示例及验证方法
+- location: '10.4'
+  claim: 万能负向词模板含60+标签覆盖90%场景
+  reason: 素材P002列举的负向词仅有worst quality/bad anatomy/bad hands/extra fingers/watermark等5个示例，未给出完整60+标签清单及覆盖率测试数据
+- location: '10.5'
+  claim: Excel CONCAT函数批量生成Prompt实现数据指令解耦
+  reason: 素材P003仅给出=CONCAT("写一篇","“",A2,"”的文章，标题+正文")单一公式示例，未说明变量列设计、多变量组合、异常值处理等工程化细节
+- location: '10.6'
+  claim: 一帧秒创生成视频后剪映批量替换本地素材可规避AI选素不准
+  reason: 素材P002仅提到'后面剪映直接替换即可'，未给出批量替换的具体操作步骤、素材命名规范、时间轴对齐方法及效率数据
+- location: '10.6'
+  claim: 关键帧动态化可消除PPT感提升完播率
+  reason: 素材P005仅描述'图片配上文字的末尾，往下拉一点再打上关键帧就能发现图片动起来了'，未提供关键帧参数设置、完播率对比数据、A/B测试结果
+- location: '10.6'
+  claim: Prompt固定核心外貌特征词可维持人物一致性
+  reason: 素材P005仅给出'暗红色眼睛+黑色头发'单一案例，未说明特征词选择原则、不同模型版本的兼容性测试、长序列生成的漂移量测评
+- location: '10.6'
+  claim: SEO霸屏布局通过下拉词/相关搜索系统性植入+RPA批量发布构建关键词覆盖矩阵
+  reason: 素材P002仅提出概念，未给出关键词挖掘工具、去重逻辑、植入密度阈值、账号矩阵规模、收录率及流量转化数据
+- location: '10.9'
+  claim: 手动跑通是自动化前提定律：SOP先行工具在后
+  reason: 素材P002、P003虽多次提及该原则，但未定义'手动跑通'的验收标准（如成功率阈值、异常分支覆盖率）、SOP文档结构模板、从人工SOP到RPA流程的映射规范
+missing_concepts:
+- paper: P002
+  concept: Temperature差异化策略的具体实施细节（如：带货文案0.3-0.7、创意文案0.9的分界依据、多版本生成数量、筛选评分标准、人工复核SOP）
+  severity: high
+- paper: P002
+  concept: 卖点迁移Prompt的结构化输出格式规范（如：JSON Schema定义、字段类型约束、异常处理分支、版本控制机制）
+  severity: high
+- paper: P002
+  concept: 正向词五段式模板的权重语法完整规范（如：权重取值范围、嵌套规则、冲突消解机制、与负向词的优先级关系）
+  severity: medium
+- paper: P003
+  concept: 影刀RPA流式输出等待的具体实现方案（如：监听'重新生成'按钮的选择器、轮询间隔、超时重试策略、输出区域停止变动的判定阈值）
+  severity: high
+- paper: P003
+  concept: RPA异常处理体系（元素失效自愈、风控验证码识别、IP池切换、账号异常隔离、日志审计追踪）
+  severity: high
+- paper: P004
+  concept: 编排层系统化设计细节（定时触发的分布式调度、跨平台发布的状态机、数据回收的幂等性保证、异常重试的指数退避策略）
+  severity: high
+- paper: P004
+  concept: 低成本视频合成策略的工程化落地标准（本地素材库结构化命名规范、剪映批量替换的XML/工程文件操作、素材时长自适应剪辑逻辑、去重参数组合矩阵）
+  severity: high
+- paper: P005
+  concept: 人物一致性锚定的Prompt工程化方法论（核心特征词提取流程、负向特征词配置、ControlNet/OpenPose辅助姿态锁定、跨模型迁移适配层）
+  severity: medium
+- paper: P005
+  concept: 赛道分层生存法则的量化判断指标（如：女频批量/男频风格化/短剧CPS/解压素材的制作周期阈值、单条ROI基准、矩阵账号规模经济拐点）
+  severity: high
