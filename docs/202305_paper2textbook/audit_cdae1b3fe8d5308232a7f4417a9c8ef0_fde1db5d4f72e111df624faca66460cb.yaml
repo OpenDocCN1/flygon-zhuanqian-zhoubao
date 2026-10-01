@@ -1,0 +1,89 @@
+citation_stats:
+- paper: P024
+  count: 105
+  locations:
+  - '27.2'
+  - '27.3'
+  - '27.4'
+  - '27.5'
+  - '27.6'
+  - '27.7'
+  - '27.8'
+  - '27.9'
+  - '27.11'
+- paper: P028
+  count: 105
+  locations:
+  - '27.2'
+  - '27.3'
+  - '27.4'
+  - '27.5'
+  - '27.6'
+  - '27.7'
+  - '27.8'
+  - '27.9'
+  - '27.11'
+- paper: I8BLdIIfbobzkYxCLGBctYqbnae
+  count: 22
+  locations:
+  - '27.2'
+  - '27.3'
+  - '27.5'
+  - '27.6'
+  - '27.7'
+  - '27.8'
+- paper: RhRywNqifi3wjGkc4MacUiwXnxc
+  count: 18
+  locations:
+  - '27.2'
+  - '27.4'
+  - '27.8'
+- paper: AxQ8duaITowcrCx54hocWSy4nnb
+  count: 18
+  locations:
+  - '27.2'
+  - '27.5'
+  - '27.8'
+- paper: P034
+  count: 8
+  locations:
+  - '27.2'
+  - '27.7'
+unsupported_claims:
+- location: '27.3'
+  claim: 视频号用户女性占比 ≥85%，50岁以上占比 ≥80%
+  reason: 素材中未找到支撑该具体数据来源的第三方权威报告，仅为作者自述及图片引用
+- location: '27.4'
+  claim: 安卓双开硬件方案：红米Note 11T 8+128G/1机10号/编号台账/定期保号
+  reason: 素材中未找到该机型为官方推荐或经过大规模验证的硬性标准，仅为作者个人实操经验
+- location: '27.5'
+  claim: 单品30条笔记无起色止损线，背后的概率博弈数学逻辑为(1-p)^30
+  reason: 素材中未提供该止损线的实测数据或平台官方依据，仅为作者理论推演
+- location: '27.6'
+  claim: 定制链接SKU阶梯价：1份29.9元，2份49.9元，客单价与转化率双提升
+  reason: 素材中仅有作者单一案例验证，缺乏对照组或A/B测试数据支撑
+- location: '27.7'
+  claim: 店铺体验分新店4.5分，<4分隐形下架，合作门槛≥4.2分
+  reason: 素材中未找到平台官方公开的评分机制文档，仅为作者实测经验总结
+- location: '27.8'
+  claim: 母亲克服晕车去县城办卡，父母账号合计佣金20000+
+  reason: 素材中仅为作者自述，无第三方佐证或平台后台数据截图
+missing_concepts:
+- paper: P024
+  concept: 视频号自然流与付费投流的ROI对比量化数据
+  severity: high
+- paper: P028
+  concept: 小红书矩阵号物理隔离的具体设备指纹对抗技术细节
+  severity: high
+- paper: I8BLdIIfbobzkYxCLGBctYqbnae
+  concept: 农村下沉市场选品的用户调研标准化问卷模板
+  severity: medium
+- paper: RhRywNqifi3wjGkc4MacUiwXnxc
+  concept: 闲鱼无货源选品的关键词挖掘自动化脚本
+  severity: medium
+- paper: AxQ8duaITowcrCx54hocWSy4nnb
+  concept: 视频号投流计划搭建的ECPM竞争力诊断自动化工具
+  severity: high
+- paper: P034
+  concept: 店铺体验分各维度权重的官方计算公式
+  severity: high
