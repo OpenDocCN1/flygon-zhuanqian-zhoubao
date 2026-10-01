@@ -1,0 +1,225 @@
+citation_stats:
+- paper: P001
+  count: 3
+  locations:
+  - '51.3'
+  - 51.3.2
+  - 51.3.5
+- paper: P002
+  count: 2
+  locations:
+  - '51.4'
+  - 51.4.2
+- paper: P003
+  count: 2
+  locations:
+  - '51.5'
+  - 51.5.2
+- paper: P004
+  count: 2
+  locations:
+  - '51.6'
+  - 51.6.2
+- paper: P005
+  count: 2
+  locations:
+  - '51.7'
+  - 51.7.2
+- paper: P006
+  count: 2
+  locations:
+  - '51.8'
+  - 51.8.2
+- paper: P007
+  count: 2
+  locations:
+  - '51.9'
+  - 51.9.2
+- paper: P008
+  count: 2
+  locations:
+  - '51.10'
+  - 51.10.2
+- paper: P009
+  count: 2
+  locations:
+  - '51.11'
+  - 51.11.2
+- paper: P010
+  count: 2
+  locations:
+  - '51.12'
+  - 51.12.2
+- paper: P011
+  count: 2
+  locations:
+  - '51.13'
+  - 51.13.2
+- paper: P012
+  count: 2
+  locations:
+  - '51.14'
+  - 51.14.2
+- paper: P013
+  count: 2
+  locations:
+  - '51.15'
+  - 51.15.2
+- paper: P014
+  count: 2
+  locations:
+  - '51.16'
+  - 51.16.2
+- paper: P015
+  count: 2
+  locations:
+  - '51.17'
+  - 51.17.2
+- paper: P016
+  count: 2
+  locations:
+  - '51.18'
+  - 51.18.2
+- paper: P017
+  count: 2
+  locations:
+  - '51.19'
+  - 51.19.2
+- paper: P018
+  count: 2
+  locations:
+  - '51.20'
+  - 51.20.2
+- paper: P019
+  count: 1
+  locations:
+  - '51.21'
+- paper: P020
+  count: 1
+  locations:
+  - '51.21'
+- paper: Finding01
+  count: 4
+  locations:
+  - '51.3'
+  - '51.5'
+  - '51.8'
+  - '51.20'
+- paper: Finding02
+  count: 3
+  locations:
+  - '51.5'
+  - '51.9'
+  - '51.12'
+- paper: Finding03
+  count: 2
+  locations:
+  - '51.3'
+  - '51.15'
+- paper: Finding04
+  count: 2
+  locations:
+  - '51.11'
+  - '51.13'
+- paper: Finding05
+  count: 2
+  locations:
+  - '51.12'
+  - '51.14'
+- paper: Finding06
+  count: 3
+  locations:
+  - '51.4'
+  - '51.13'
+  - '51.15'
+- paper: Finding07
+  count: 2
+  locations:
+  - '51.11'
+  - '51.13'
+- paper: Finding08
+  count: 1
+  locations:
+  - '51.6'
+- paper: Finding09
+  count: 2
+  locations:
+  - '51.14'
+  - '51.15'
+unsupported_claims:
+- location: 51.3.5
+  claim: 芷蓝团队发售《ChatGPT大师课》借风口势，小鹅通单渠道预售60万+，全年预计300万
+  reason: 素材中未找到支撑ChatGPT大师课具体销售数据（60万预售、全年300万）的直接证据，仅在章节引用Finding01宣称，未见原始后台数据截图或第三方验证
+- location: 51.5.5
+  claim: 朋友圈训练营月入10万，因高精力消耗被判定为'有价值的垃圾'，改造为999元标准课件后精力释放、营收不降
+  reason: 素材中未找到朋友圈训练营月入10万及改造后营收不降的具体数据支撑，仅在章节引用Finding02宣称
+- location: 51.6.5
+  claim: 芷蓝公开劝退'想躺赚、想速成、不愿学提示词'的人，反而吸引真正想学、愿执行的高质量付费用户
+  reason: 素材中未找到该劝退营销案例的具体转化数据或用户反馈证据，仅在章节引用Finding08宣称
+- location: 51.13.5
+  claim: 合伙人小沫切入'小红书封面美化'单一微小痛点，产品设计为'爆款拆解+模板交付'，无需全流程大课即可变现
+  reason: 素材中未找到小沫封面美化微产品的具体销售数据、转化率或收入金额，仅在章节引用Finding04宣称
+- location: 51.14.5
+  claim: 芷蓝用'100个朋友圈营销技巧/个人IP营销技巧'覆盖长尾词引流加微，收费做减法给具体场景决策/快速反馈
+  reason: 素材中未找到该引流方法的具体加微转化率、客单价或ROI数据，仅在原文摘录中描述
+- location: 51.15.5
+  claim: 芷蓝团队仅2.5人编制运营5000人付费社群+500人合伙人团队，核心杠杆在于模块化学员交付团队+关系财富合伙人网络
+  reason: 素材中未找到团队编制、社群规模、合伙人数量的官方统计或审计数据，仅在章节引用Finding06宣称
+- location: 51.20.5
+  claim: ChatGPT大师课借势发售：借风口势+借行业势（健身/医美/写作结合）+借渠道势（小鹅通），单渠道预售60万+
+  reason: 素材中未找到借势三层具体操作细节及各层势能贡献度量化数据，仅在章节引用Finding01宣称
+missing_concepts:
+- paper: P001
+  concept: 低成本试错的具体止损标准与决策流程（如：单次试错成本上限、连续失败几次后切换赛道的触发条件）
+  severity: high
+- paper: P002
+  concept: 外包对象的筛选标准与SOP建立的具体步骤（如：如何判断任务可标准化、外包人员考核指标、沟通协作机制）
+  severity: high
+- paper: P003
+  concept: 暴力交付下用户投诉/退款的处理SOP及风控红线（如：用户因交付过于简单投诉‘服务不到位’时的应对话术）
+  severity: medium
+- paper: P004
+  concept: 劝退营销的法律合规边界（如：公开拒收特定用户群体是否涉嫌歧视、平台规则红线）
+  severity: medium
+- paper: P005
+  concept: 觉醒者筛选漏斗的量化指标体系（如：咨询费门槛多少最优、诊断问卷各题权重、觉醒度判定阈值）
+  severity: high
+- paper: P006
+  concept: 认知接口设计的A/B测试方法论（如：不同‘旧瓶’话术转化率对比、用户预期管理的具体话术库）
+  severity: medium
+- paper: P007
+  concept: 动态定位变更的用户资产迁移策略（如：老用户如何平滑过渡、人设重塑期的内容衔接节奏）
+  severity: high
+- paper: P008
+  concept: 三阶段跃迁的触发信号量化定义（如：0-1转1-N的具体营收/团队规模/时间阈值）
+  severity: high
+- paper: P009
+  concept: 内容生产的‘到位’标准量化定义（如：多少篇深度长文、多少关键词覆盖、阅读完读率阈值才算‘营到位’）
+  severity: high
+- paper: P010
+  concept: 正反馈路径失效的监控预警机制（如：转化率连续下跌多少天/幅度触发复盘、环境变化扫描频率）
+  severity: high
+- paper: P011
+  concept: 模仿标杆的合规性边界（如：像素级模仿何处构成侵权、如何规避平台‘搬运’判定）
+  severity: high
+- paper: P012
+  concept: 公私域流量漏斗的转化率基准值（如：公域加微率、公众号阅读转粉率、私域成交率行业中位数）
+  severity: medium
+- paper: P013
+  concept: 合伙人利益分配的动态调整模型（如：业绩未达标时分成比例递减公式、退出机制估值方法）
+  severity: high
+- paper: P014
+  concept: 咨询产品化的标准化交付包结构（如：诊断清单模板、标准方案库目录、FAQ文档更新频率）
+  severity: medium
+- paper: P015
+  concept: 二维思考法在团队决策中的落地SOP（如：发散期/收敛期主持人角色、异议记录模板、决策复盘周期）
+  severity: medium
+- paper: P016
+  concept: 创业日记内容化的选题规划与爆款公式（如：每日记录结构模板、高互动话题特征、跨平台分发节奏）
+  severity: medium
+- paper: P017
+  concept: 个人IP触点SOP的自动化工具链选型指南（如：欢迎语自动发送工具、诊断问卷系统、标准路径库管理软件）
+  severity: medium
+- paper: P018
+  concept: 产品见证群的用户筛选标准与运营节奏（如：种子用户画像、每日汇报模板、素材分发合规清单）
+  severity: medium
