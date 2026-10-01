@@ -1,0 +1,100 @@
+citation_stats:
+- paper: P01
+  count: 3
+  locations:
+  - '32.3'
+  - '32.3'
+  - '32.3'
+- paper: P02
+  count: 2
+  locations:
+  - '32.4'
+  - '32.4'
+- paper: P03
+  count: 3
+  locations:
+  - '32.5'
+  - '32.5'
+  - '32.5'
+- paper: P04
+  count: 3
+  locations:
+  - '32.6'
+  - '32.6'
+  - '32.6'
+- paper: P05
+  count: 2
+  locations:
+  - '32.7'
+  - '32.7'
+- paper: P06
+  count: 3
+  locations:
+  - '32.8'
+  - '32.8'
+  - '32.8'
+- paper: P07
+  count: 2
+  locations:
+  - '32.9'
+  - '32.9'
+- paper: P08
+  count: 2
+  locations:
+  - '32.10'
+  - '32.10'
+- paper: P09
+  count: 2
+  locations:
+  - '32.11'
+  - '32.11'
+- paper: P10
+  count: 2
+  locations:
+  - '32.12'
+  - '32.12'
+- paper: P11
+  count: 3
+  locations:
+  - '32.13'
+  - '32.13'
+  - '32.13'
+- paper: P12
+  count: 2
+  locations:
+  - '32.14'
+  - '32.14'
+- paper: P13
+  count: 2
+  locations:
+  - '32.15'
+  - '32.15'
+unsupported_claims:
+- location: '32.3'
+  claim: 情感IP号是新手小白想要变现，比较合适做的类型
+  reason: 素材中未找到支撑该断言的量化对比数据，仅为作者主观判断
+- location: '32.5'
+  claim: 数据好，拼的是人多，1万个粉丝里可能会有5个购买；IP强，拼的就是购买概率高，3000粉丝可能就有30个成交
+  reason: 素材中未提供该转化率对比的实测数据来源，属于作者经验估算
+- location: '32.6'
+  claim: 稿费大于25引流的质量会相对高一些，一般我们设置30打底
+  reason: 素材中未给出该阈值的统计学验证依据，仅为经验之谈
+- location: '32.13'
+  claim: 从1到4技能点依次点满
+  reason: 素材中未论证为何不可并行或逆序发展，仅为作者路径依赖总结
+missing_concepts:
+- paper: P01
+  concept: 情感IP号同质化竞争下的差异化内容策略
+  severity: high
+- paper: P03
+  concept: 引流轮与IP轮的具体KPI拆解与考核机制
+  severity: high
+- paper: P08
+  concept: 找车/上车的标准化商务谈判话术与合同模板
+  severity: medium
+- paper: P11
+  concept: L2向L3跨越的强IP量化判定标准操作化细则
+  severity: high
+- paper: P13
+  concept: 留言功能迁移的具体服务商渠道与避坑指南
+  severity: medium
