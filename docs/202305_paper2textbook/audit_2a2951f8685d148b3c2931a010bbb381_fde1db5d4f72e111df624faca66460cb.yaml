@@ -1,0 +1,55 @@
+citation_stats:
+- paper: P001
+  count: 17
+  locations:
+  - '68.1'
+  - '68.2'
+  - 68.3.1
+  - 68.3.2
+  - 68.3.2
+  - 68.3.2
+  - 68.3.2
+  - 68.3.3
+  - 68.3.3
+  - 68.3.4
+  - 68.3.4
+  - '68.4'
+  - 68.4.2
+  - 68.5.2
+  - 68.6.2
+  - 68.6.3
+  - 68.7.2
+- paper: P002
+  count: 14
+  locations:
+  - '68.1'
+  - '68.2'
+  - 68.3.1
+  - 68.3.2
+  - 68.3.3
+  - 68.3.3
+  - 68.3.5
+  - 68.3.5
+  - 68.3.5
+  - 68.3.6
+  - 68.4.2
+  - 68.5.2
+  - 68.7.2
+  - '68.11'
+unsupported_claims:
+- location: 68.3.2
+  claim: Google Ads 排序公式中的 δ 为 Google 允许的最小计费增量（通常为 0.01 当地货币）
+  reason: 素材中未明确提及 δ 的定义与数值，仅推导出 Actual CPC ≈ 0.01
+missing_concepts:
+- paper: P001
+  concept: Awin 联盟后台 EPC 数据的具体获取路径与筛选界面操作细节
+  severity: medium
+- paper: P001
+  concept: Google Ads 账户开户的具体资质要求与审核避坑指南
+  severity: medium
+- paper: P002
+  concept: Wise 推荐计划的具体申请入口、资格审核条件与佣金提现到账时效
+  severity: high
+- paper: P002
+  concept: Google/Bing 广告后台针对品牌词竞价的合规申诉流程与证据准备清单
+  severity: high
