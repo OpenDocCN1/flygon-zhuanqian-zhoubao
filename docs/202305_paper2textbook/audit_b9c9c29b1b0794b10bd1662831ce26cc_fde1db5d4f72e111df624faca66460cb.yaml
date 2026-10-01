@@ -1,0 +1,33 @@
+citation_stats:
+- paper: P001
+  count: 1
+  locations:
+  - 1.3.2
+- paper: P002
+  count: 1
+  locations:
+  - '1.4'
+- paper: P003
+  count: 1
+  locations:
+  - '1.5'
+- paper: P004
+  count: 1
+  locations:
+  - '1.6'
+- paper: P005
+  count: 1
+  locations:
+  - '1.7'
+- paper: P006
+  count: 1
+  locations:
+  - '1.8'
+unsupported_claims:
+- location: 1.3.2
+  claim: 单纯的卖资料...这是最无脑的一种做法！资料+咨询...基本上对一个咨询客户也会有两个收入...
+  reason: 素材中未找到支撑
+missing_concepts:
+- paper: P001
+  concept: 纳瓦尔定义的'代码与媒体'零边际成本杠杆产品
+  severity: medium
