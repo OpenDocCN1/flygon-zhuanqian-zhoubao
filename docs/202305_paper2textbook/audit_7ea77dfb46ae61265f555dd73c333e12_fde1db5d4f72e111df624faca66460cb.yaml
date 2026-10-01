@@ -1,0 +1,219 @@
+citation_stats:
+- paper: P001
+  count: 21
+  locations:
+  - 53.3.2
+  - 53.3.3
+  - 53.3.5
+  - 53.4.2
+  - 53.5.2
+  - 53.5.3
+  - 53.5.5
+  - 53.5.6
+  - 53.6.2
+  - 53.6.3
+  - 53.7.2
+  - 53.7.3
+  - 53.8.2
+  - 53.8.3
+  - 53.8.5
+  - 53.9.2
+  - 53.9.5
+  - 53.10.2
+  - 53.10.3
+  - 53.11.2
+  - 53.11.3
+  - 53.12.2
+- paper: P002
+  count: 2
+  locations:
+  - 53.4.2
+  - 53.4.3
+- paper: P003
+  count: 25
+  locations:
+  - 53.3.3
+  - 53.4.2
+  - 53.5.2
+  - 53.5.3
+  - 53.5.5
+  - 53.5.6
+  - 53.6.2
+  - 53.6.3
+  - 53.6.5
+  - 53.7.2
+  - 53.7.3
+  - 53.8.5
+  - 53.10.2
+  - 53.10.3
+  - 53.11.2
+  - 53.11.3
+  - 53.11.4
+  - 53.12.2
+  - 53.12.3
+  - 53.12.4
+  - 53.12.5
+- paper: P004
+  count: 14
+  locations:
+  - 53.3.3
+  - 53.5.2
+  - 53.5.3
+  - 53.5.5
+  - 53.5.6
+  - 53.6.2
+  - 53.6.3
+  - 53.7.2
+  - 53.8.2
+  - 53.8.3
+  - 53.8.5
+  - 53.9.5
+  - 53.10.2
+  - 53.10.3
+- paper: P005
+  count: 6
+  locations:
+  - 53.7.2
+  - 53.7.3
+  - 53.7.4
+- paper: P006
+  count: 7
+  locations:
+  - 53.8.2
+  - 53.8.3
+  - 53.9.2
+  - 53.9.3
+  - 53.9.5
+- paper: P007
+  count: 6
+  locations:
+  - 53.9.2
+  - 53.9.3
+  - 53.9.4
+  - 53.9.5
+- paper: P008
+  count: 9
+  locations:
+  - 53.10.2
+  - 53.10.3
+  - 53.10.4
+  - 53.10.5
+- paper: P009
+  count: 8
+  locations:
+  - 53.11.2
+  - 53.11.3
+  - 53.11.4
+  - 53.11.5
+- paper: P010
+  count: 2
+  locations:
+  - 53.7.2
+- paper: P011
+  count: 2
+  locations:
+  - 53.8.5
+- paper: P012
+  count: 2
+  locations:
+  - 53.9.5
+- paper: P013
+  count: 2
+  locations:
+  - 53.10.3
+- paper: P014
+  count: 3
+  locations:
+  - 53.11.3
+  - 53.11.4
+- paper: P015
+  count: 2
+  locations:
+  - 53.12.2
+- paper: P016
+  count: 2
+  locations:
+  - 53.11.3
+- paper: P017
+  count: 2
+  locations:
+  - 53.11.3
+- paper: P018
+  count: 2
+  locations:
+  - 53.12.5
+- paper: P019
+  count: 2
+  locations:
+  - 53.11.5
+- paper: P020
+  count: 2
+  locations:
+  - 53.11.3
+- paper: P021
+  count: 2
+  locations:
+  - 53.12.5
+- paper: P022
+  count: 2
+  locations:
+  - 53.11.3
+- paper: P023
+  count: 2
+  locations:
+  - 53.11.5
+- paper: P024
+  count: 2
+  locations:
+  - 53.11.3
+- paper: P025
+  count: 2
+  locations:
+  - 53.12.5
+- paper: P026
+  count: 2
+  locations:
+  - 53.11.3
+- paper: P027
+  count: 3
+  locations:
+  - 53.11.3
+  - 53.11.5
+unsupported_claims:
+- location: 53.10.3
+  claim: 不建议轻易注销了小红书店铺...注销了，需要 30 天才能够重新开店，时间成本太高了...建议直接换品类去重新测试，选定一个要做的类目，重新养号，重新上架铺笔记就可以了
+  reason: 素材中未找到关于'注销需冷冻30天'的官方规则原文支撑，仅为作者经验之谈
+- location: 53.12.2
+  claim: 小红书销售额过万以上，平台会扣除 5%的佣金+0.7%的渠道费用
+  reason: 素材中虽有作者陈述，但未找到平台官方公示文件作为溯源依据
+- location: 53.12.2
+  claim: 一个个体营业执照可以注册 3 个小红书店铺...在注册第二和第三个店铺的时候，我们要先把这两个小红书账号升级成蓝 V，缴纳 600 元的认证费用才可以继续开店，这样才不会显示实名被占用
+  reason: 素材中虽有作者实操陈述，但未找到平台官方规则文档佐证
+- location: 53.12.2
+  claim: 不会的 前提是你的笔记一定要伪原创或原创 而且小红书平台也比较扶持商家 如果一天发 1 到 3 条太慢了 时间成本太高了 红利项目 就要抓紧去做
+  reason: 素材中仅为作者回复评论时的经验之谈，非平台官方发文规定
+missing_concepts:
+- paper: P001
+  concept: 薯条/薯店投放具体操作SOP与ROI测算模型
+  severity: high
+- paper: P003
+  concept: 蚂蚁搬家/逸淘工具具体参数配置与避坑指南
+  severity: medium
+- paper: P004
+  concept: 禅小红/千瓜数据等工具的会员成本对比与白嫖策略
+  severity: medium
+- paper: P006
+  concept: 头条号自动回复引流技术实现细节与风控规避
+  severity: high
+- paper: P007
+  concept: 私域咨询话术标准化脚本库与客户画像分级体系
+  severity: high
+- paper: P008
+  concept: 小红书违禁词库最新版获取渠道与自检工具推荐
+  severity: high
+- paper: P009
+  concept: 矩阵化组织架构设计：薪酬体系/KPI考核/晋升通道
+  severity: high
+- paper: P014
+  concept: 不出镜IP的PPT模板库与素材库版权合规使用指南
+  severity: medium
