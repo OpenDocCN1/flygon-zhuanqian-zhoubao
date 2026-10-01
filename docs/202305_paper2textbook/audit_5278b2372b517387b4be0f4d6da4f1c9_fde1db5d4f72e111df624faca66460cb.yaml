@@ -1,0 +1,85 @@
+citation_stats:
+- paper: P001-P010 `docs/202305/I8BLdIIfbobzkYxCLGBctYqbnae.md`
+  count: 78
+  locations:
+  - ch24.1
+  - ch24.2
+  - ch24.3
+  - ch24.4
+  - ch24.5
+  - ch24.6
+  - ch24.7
+  - ch24.8
+  - ch24.9
+  - ch24.10
+  - ch24.11
+  - ch24.12
+  - ch24.13
+  - ch24.14
+  - ch24.15
+  - ch24.16
+unsupported_claims:
+- location: ch24.3
+  claim: 选品决策评分模型的权重分配（0.4/0.35/0.25）体现了战略优先级
+  reason: 素材中未提及该模型的权重分配及战略优先级解释，属于教材新增推导内容
+- location: ch24.4
+  claim: 搬运-原创过渡判定逻辑中的三指标触发器（破万播、出单、私域来线≥20）
+  reason: 素材中仅提及'打上垂直标签、单条视频破万播/出单、私域日均咨询≥20人'作为过渡条件，未明确'满足任意两项即可触发'的量化逻辑
+- location: ch24.6
+  claim: 私域转化漏斗模型中'官方'两字带来的信任提升系数（留资率↑15%、咨询转化↑20%、成单率↑35%）
+  reason: 素材中仅提及'加这两个字转化能提升不少'，未给出具体量化系数，属于教材建模新增
+- location: ch24.7
+  claim: 猎奇素材产出标准化流水线的单工厂月产出20-30条差异化素材
+  reason: 素材中仅提及'一工厂可产出数十条差异化视频'，未给出具体20-30条的量化标准
+- location: ch24.8
+  claim: 多平台分发ROI矩阵中的各平台roi_index量化指数（视频号9.2、快手6.5、小红书7.8）
+  reason: 素材中未提供各平台量化ROI指数，属于教材建模新增
+- location: ch24.9
+  claim: 版权谈判博弈收益矩阵中建议20%分成落点及四赢结局
+  reason: 素材中仅提及'提议分成合作'、'带货分成'，未给出具体分成比例区间、建议落点及四赢数学推导
+- location: ch24.10
+  claim: 跨品类复购LTV复利模型中引入trust_multiplier信任倍数量化机制
+  reason: 素材中仅定性描述'人群大于兴趣'、'信任锚点'，未构建量化模型及信任倍数参数
+- location: ch24.11
+  claim: 动作ROI筛选矩阵中7类标准动作的五维打分及综合ROI得分
+  reason: 素材中仅定性提出'做减法'原则，未对标准动作进行量化打分与ROI计算
+- location: ch24.12
+  claim: 供应链跃迁触发器的工程化监控指标（均值≥10、最小值≥8、变异系数<0.3）及利润率跃迁四来源拆解
+  reason: 素材中仅提及'日出10单工厂主动联系'、'利润率升至45%'，未给出监控指标阈值及利润跃迁四来源数学拆解
+missing_concepts:
+- paper: P001-P010 `docs/202305/I8BLdIIfbobzkYxCLGBctYqbnae.md`
+  concept: 视频号小店/直播带货的具体操作细节与避坑指南
+  severity: medium
+- paper: P001-P010 `docs/202305/I8BLdIIfbobzkYxCLGBctYqbnae.md`
+  concept: 拼多多一件代发的具体软件工具（如鲸吞代发）操作教程
+  severity: low
+- paper: P001-P010 `docs/202305/I8BLdIIfbobzkYxCLGBctYqbnae.md`
+  concept: 考古家工具的具体筛选参数设置截图与实操步骤
+  severity: medium
+- paper: P001-P010 `docs/202305/I8BLdIIfbobzkYxCLGBctYqbnae.md`
+  concept: 企业微信客服绑定视频号的详细配置流程图解
+  severity: high
+- paper: P001-P010 `docs/202305/I8BLdIIfbobzkYxCLGBctYqbnae.md`
+  concept: 微信小商店/有赞开店及商品上架完整实操SOP
+  severity: high
+- paper: P001-P010 `docs/202305/I8BLdIIfbobzkYxCLGBctYqbnae.md`
+  concept: 产品规格图的标准化制作模板与设计规范
+  severity: high
+- paper: P001-P010 `docs/202305/I8BLdIIfbobzkYxCLGBctYqbnae.md`
+  concept: 售后兜底的具体话术库与退货运费承担决策树
+  severity: high
+- paper: P001-P010 `docs/202305/I8BLdIIfbobzkYxCLGBctYqbnae.md`
+  concept: 工厂流水线拍摄的固定机位角度、光线参数、时长标准
+  severity: medium
+- paper: P001-P010 `docs/202305/I8BLdIIfbobzkYxCLGBctYqbnae.md`
+  concept: 小红书物理规避引流的具体操作细节与合规红线
+  severity: high
+- paper: P001-P010 `docs/202305/I8BLdIIfbobzkYxCLGBctYqbnae.md`
+  concept: 版权谈判的电子合同模版与独家授权条款范本
+  severity: high
+- paper: P001-P010 `docs/202305/I8BLdIIfbobzkYxCLGBctYqbnae.md`
+  concept: 供应链谈判的标准化数据包模版（月GMV、利润、客单、复购等）
+  severity: high
+- paper: P001-P010 `docs/202305/I8BLdIIfbobzkYxCLGBctYqbnae.md`
+  concept: ERP/订单系统在多品类供应链管理中的选型与配置建议
+  severity: medium
