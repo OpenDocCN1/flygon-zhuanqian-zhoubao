@@ -1,0 +1,59 @@
+citation_stats:
+- paper: P001
+  count: 17
+  locations:
+  - '31.1'
+  - '31.2'
+  - '31.3'
+  - '31.4'
+  - '31.7'
+  - '31.8'
+  - '31.9'
+  - '31.10'
+  - '31.13'
+- paper: P002
+  count: 57
+  locations:
+  - '31.1'
+  - '31.2'
+  - '31.3'
+  - '31.4'
+  - '31.5'
+  - '31.6'
+  - '31.7'
+  - '31.8'
+  - '31.9'
+  - '31.10'
+  - '31.13'
+unsupported_claims:
+- location: '31.5'
+  claim: 作者教学员起不同领域账号均用此法'屡试不爽'
+  reason: 素材中未找到具体教学案例数据支撑
+- location: '31.8'
+  claim: 单人日更3-5小时高产出
+  reason: 素材中未给出具体时间测量数据，仅为作者主观陈述
+- location: '31.9'
+  claim: 全年稳定引流未封号
+  reason: 素材中仅提到早期被封2个号，未提供全年完整运营数据作为支撑
+- location: '31.10'
+  claim: 私域日增200-500粉测算课程现金流最优
+  reason: 测算模型为作者假设推演，素材中无实测转化率数据验证
+- location: '31.12'
+  claim: 练习5中测算公式假设转化率固定
+  reason: 素材中未说明转化率来源，为作者经验拍脑袋数值
+missing_concepts:
+- paper: P002
+  concept: 抖音算法底层逻辑的官方文档支撑
+  severity: high
+- paper: P002
+  concept: 像素级模仿的版权法律风险边界
+  severity: high
+- paper: P002
+  concept: 商加加等工具的合规性官方白皮书
+  severity: high
+- paper: P002
+  concept: 知识付费行业转化率基准数据
+  severity: medium
+- paper: P001
+  concept: 具体学员成功案例的可验证数据
+  severity: medium
