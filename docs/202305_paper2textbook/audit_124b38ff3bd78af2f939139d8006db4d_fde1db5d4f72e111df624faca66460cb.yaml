@@ -1,0 +1,533 @@
+citation_stats:
+- paper: 20230516_003.md
+  count: 1
+  locations:
+  - '82.4'
+- paper: 20230516_004.md
+  count: 1
+  locations:
+  - '82.5'
+- paper: 20230516_005.md
+  count: 1
+  locations:
+  - '82.5'
+- paper: 20230516_006.md
+  count: 1
+  locations:
+  - '82.5'
+- paper: 20230516_007.md
+  count: 1
+  locations:
+  - '82.5'
+- paper: 20230516_009.md
+  count: 1
+  locations:
+  - '82.11'
+- paper: 20230516_010.md
+  count: 1
+  locations:
+  - '82.11'
+- paper: 20230516_011.md
+  count: 1
+  locations:
+  - '82.11'
+- paper: 20230516_013.md
+  count: 1
+  locations:
+  - '82.8'
+- paper: 20230516_014.md
+  count: 1
+  locations:
+  - '82.6'
+- paper: 20230516_015.md
+  count: 1
+  locations:
+  - '82.11'
+- paper: 20230516_016.md
+  count: 1
+  locations:
+  - '82.11'
+- paper: 20230516_019.md
+  count: 1
+  locations:
+  - '82.8'
+- paper: 20230516_020.md
+  count: 1
+  locations:
+  - '82.8'
+- paper: 20230516_021.md
+  count: 1
+  locations:
+  - '82.8'
+- paper: 20230516_023.md
+  count: 1
+  locations:
+  - '82.7'
+- paper: 20230516_024.md
+  count: 2
+  locations:
+  - '82.3'
+  - 82.9.2
+- paper: 20230516_026.md
+  count: 1
+  locations:
+  - '82.11'
+- paper: 20230516_028.md
+  count: 1
+  locations:
+  - 82.9.1
+- paper: 20230516_029.md
+  count: 1
+  locations:
+  - '82.7'
+- paper: 20230516_030.md
+  count: 2
+  locations:
+  - 82.9.1
+  - '82.11'
+- paper: 20230516_031.md
+  count: 1
+  locations:
+  - '82.7'
+- paper: 20230516_032.md
+  count: 1
+  locations:
+  - '82.7'
+- paper: 20230516_033.md
+  count: 1
+  locations:
+  - 82.9.1
+- paper: 20230516_034.md
+  count: 1
+  locations:
+  - 82.9.1
+- paper: 20230516_035.md
+  count: 1
+  locations:
+  - 82.9.1
+- paper: 20230516_037.md
+  count: 1
+  locations:
+  - 82.9.3
+- paper: 20230516_038.md
+  count: 1
+  locations:
+  - 82.9.3
+- paper: 20230516_039.md
+  count: 1
+  locations:
+  - 82.9.3
+- paper: 20230516_041.md
+  count: 1
+  locations:
+  - 82.9.5
+- paper: 20230516_042.md
+  count: 1
+  locations:
+  - '82.5'
+- paper: 20230516_044.md
+  count: 1
+  locations:
+  - '82.11'
+- paper: 20230516_045.md
+  count: 1
+  locations:
+  - '82.11'
+- paper: 20230516_046.md
+  count: 1
+  locations:
+  - '82.7'
+- paper: 20230516_047.md
+  count: 1
+  locations:
+  - '82.11'
+- paper: 20230516_048.md
+  count: 1
+  locations:
+  - 82.9.5
+- paper: 20230516_049.md
+  count: 1
+  locations:
+  - 82.9.5
+- paper: 20230516_050.md
+  count: 1
+  locations:
+  - 82.9.7
+- paper: 20230516_053.md
+  count: 1
+  locations:
+  - '82.11'
+- paper: 20230516_054.md
+  count: 1
+  locations:
+  - '82.11'
+- paper: 20230516_055.md
+  count: 1
+  locations:
+  - '82.5'
+- paper: 20230516_056.md
+  count: 1
+  locations:
+  - '82.5'
+- paper: 20230516_057.md
+  count: 1
+  locations:
+  - '82.5'
+- paper: 20230516_058.md
+  count: 1
+  locations:
+  - '82.11'
+- paper: 20230516_059.md
+  count: 1
+  locations:
+  - '82.11'
+- paper: 20230516_061.md
+  count: 1
+  locations:
+  - '82.11'
+- paper: 20230516_062.md
+  count: 1
+  locations:
+  - '82.11'
+- paper: 20230516_063.md
+  count: 1
+  locations:
+  - '82.11'
+- paper: 20230516_064.md
+  count: 1
+  locations:
+  - '82.10'
+- paper: 20230516_066.md
+  count: 1
+  locations:
+  - '82.11'
+- paper: 20230516_067.md
+  count: 1
+  locations:
+  - '82.11'
+- paper: 20230516_070.md
+  count: 1
+  locations:
+  - '82.8'
+- paper: 20230516_071.md
+  count: 1
+  locations:
+  - '82.11'
+- paper: 20230516_072.md
+  count: 1
+  locations:
+  - '82.11'
+- paper: 20230516_073.md
+  count: 1
+  locations:
+  - '82.3'
+- paper: 20230516_074.md
+  count: 1
+  locations:
+  - '82.8'
+- paper: 20230516_075.md
+  count: 1
+  locations:
+  - '82.8'
+- paper: 20230516_076.md
+  count: 1
+  locations:
+  - '82.8'
+- paper: 20230516_078.md
+  count: 1
+  locations:
+  - '82.7'
+- paper: 20230516_079.md
+  count: 1
+  locations:
+  - 82.9.2
+- paper: 20230516_080.md
+  count: 1
+  locations:
+  - '82.7'
+- paper: 20230516_081.md
+  count: 1
+  locations:
+  - '82.11'
+- paper: 20230516_082.md
+  count: 1
+  locations:
+  - 82.9.2
+- paper: 20230516_084.md
+  count: 1
+  locations:
+  - 82.9.4
+- paper: 20230516_085.md
+  count: 1
+  locations:
+  - 82.9.5
+- paper: 20230516_086.md
+  count: 1
+  locations:
+  - 82.9.5
+- paper: 20230516_087.md
+  count: 1
+  locations:
+  - 82.9.5
+- paper: 20230516_089.md
+  count: 1
+  locations:
+  - 82.9.1
+- paper: 20230516_090.md
+  count: 1
+  locations:
+  - 82.9.1
+- paper: 20230516_091.md
+  count: 1
+  locations:
+  - 82.9.1
+- paper: 20230516_092.md
+  count: 1
+  locations:
+  - 82.9.1
+- paper: 20230516_094.md
+  count: 1
+  locations:
+  - '82.11'
+- paper: 20230516_095.md
+  count: 1
+  locations:
+  - '82.11'
+- paper: 20230516_097.md
+  count: 1
+  locations:
+  - 82.9.3
+- paper: 20230516_098.md
+  count: 1
+  locations:
+  - 82.9.3
+- paper: 20230516_100.md
+  count: 1
+  locations:
+  - 82.9.6
+- paper: 20230516_101.md
+  count: 1
+  locations:
+  - '82.11'
+- paper: 20230516_103.md
+  count: 1
+  locations:
+  - 82.9.8
+- paper: 20230516_104.md
+  count: 2
+  locations:
+  - '82.3'
+  - 82.9.8
+- paper: 20230516_105.md
+  count: 1
+  locations:
+  - 82.9.3
+- paper: AVx7dEXmpoRJazx3nH8cceBOnhd.md
+  count: 2
+  locations:
+  - 82.9.1
+  - '82.11'
+- paper: AxQ8duaITowcrCx54hocWSy4nnb.md
+  count: 1
+  locations:
+  - 82.9.2
+- paper: BzIfdvAQloqLImxjEhKcERAXn5f.md
+  count: 1
+  locations:
+  - '82.7'
+- paper: CBJhdD0dTokH8tx8HKYc1nJSnnc.md
+  count: 3
+  locations:
+  - '82.3'
+  - '82.6'
+  - '82.8'
+- paper: DGw1dYHSsohHu7x1AXhc4cQVnEN.md
+  count: 1
+  locations:
+  - '82.10'
+- paper: Dy8mdu2JUoyQYRx2UnocHwOinaf.md
+  count: 1
+  locations:
+  - '82.11'
+- paper: E0aFdosjUobxU7xEQeCc7y8snyb.md
+  count: 1
+  locations:
+  - '82.11'
+- paper: EL9Fdl8WFoFxaixaJcLcqnXjn7r.md
+  count: 1
+  locations:
+  - 82.9.4
+- paper: FJ8HdrA04o2efNx7E1ZcVgehnSe.md
+  count: 1
+  locations:
+  - '82.8'
+- paper: G2Zwdm2H7ol8FYxHEn7c0H2dn3c.md
+  count: 2
+  locations:
+  - '82.3'
+  - 82.9.5
+- paper: Geucd6qWAoGztLx5EOkcKmjWnQg.md
+  count: 1
+  locations:
+  - '82.11'
+- paper: Gn5NdifvBorUbdxvGl6ceQgXnpg.md
+  count: 3
+  locations:
+  - '82.3'
+  - '82.6'
+  - '82.11'
+- paper: GUHld91qQobms8x35tbcOUlSnZb.md
+  count: 1
+  locations:
+  - '82.8'
+- paper: HUSAdLZRCoBXiMxK0kFc99Qkndg.md
+  count: 1
+  locations:
+  - '82.11'
+- paper: HYrZdLBMRorB0qxKqFFcQ075nWf.md
+  count: 2
+  locations:
+  - '82.8'
+  - '82.11'
+- paper: I8BLdIIfbobzkYxCLGBctYqbnae.md
+  count: 1
+  locations:
+  - 82.9.2
+- paper: IZx7dx2CSo9x23xioUFcNaHcnRd.md
+  count: 1
+  locations:
+  - '82.8'
+- paper: M0hMdjWj3o8WtNxZdv4cLnfenIh.md
+  count: 1
+  locations:
+  - 82.9.7
+- paper: M5lpdRp7OoHZAYxuDiicgGtSnpg.md
+  count: 1
+  locations:
+  - '82.5'
+- paper: Md2KdAjbDo0cdGxGMtncyb8CnLb.md
+  count: 1
+  locations:
+  - '82.8'
+- paper: NsZwdMgSxovqfxxgJqFc5XtXntb.md
+  count: 1
+  locations:
+  - '82.11'
+- paper: Nt9IdI0b0okp1MxGKBacQtxSn3e.md
+  count: 1
+  locations:
+  - '82.11'
+- paper: QPFgdHgZsorQvdxDkl9cw58LnVf.md
+  count: 1
+  locations:
+  - 82.9.5
+- paper: R2wRd6dN2oUtkOx9I3WcLHAOnzc.md
+  count: 1
+  locations:
+  - '82.11'
+- paper: RaMIdAe9aoB1XcxwSRocx2mmnad.md
+  count: 2
+  locations:
+  - '82.3'
+  - '82.7'
+- paper: RhRywNqifi3wjGkc4MacUiwXnxc.md
+  count: 1
+  locations:
+  - 82.9.1
+- paper: SUMMARY.md
+  count: 10
+  locations:
+  - '82.1'
+  - '82.2'
+  - '82.3'
+  - '82.5'
+  - '82.6'
+  - '82.7'
+  - '82.8'
+  - '82.9'
+- paper: TSZBdBfynoBINux2htWcefrtnHc.md
+  count: 1
+  locations:
+  - '82.11'
+- paper: U2lPdc1ayoNSPUxgsNfcEXrXn1d.md
+  count: 1
+  locations:
+  - '82.11'
+- paper: VILid7sleoZ6puxkchxcRM9vn6g.md
+  count: 1
+  locations:
+  - 82.9.6
+- paper: VjTFdmoIhoOIuhx4wYUcc1XGn8g.md
+  count: 1
+  locations:
+  - '82.7'
+- paper: WX87d3F4SoVZLHxDNGzcDDVRn6R.md
+  count: 1
+  locations:
+  - 82.9.1
+- paper: WzBCdY4A8omv2cxsneMcn1lJnEb.md
+  count: 1
+  locations:
+  - '82.7'
+- paper: YPhndkBKfocBV2xCfvucevIAn5y.md
+  count: 1
+  locations:
+  - '82.11'
+- paper: ZXvbdq7RGoKEeLxryxAckCtSnPf.md
+  count: 1
+  locations:
+  - '82.8'
+- paper: ZbFEdhEwsoqaNnxXzRicjWQOnkd.md
+  count: 1
+  locations:
+  - 82.9.5
+unsupported_claims:
+- location: '82.5'
+  claim: 身居高位产生的脑损伤，做高管做老板久了，他的镜像神经元会减少，共情能力会下降。
+  reason: 素材中未找到学术来源支撑该神经科学论断，仅为小马宋个人观点表述
+- location: '82.5'
+  claim: 冥想增厚灰质：每日冥想增加前额叶皮层面积，提升专注力与情绪调节
+  reason: 素材中仅提及'科学实证支撑'但未提供具体研究引用或数据
+- location: '82.5'
+  claim: 运动促生神经元，运动后1-2小时安排高强度脑力作业
+  reason: 素材中未给出具体实验数据或文献来源支撑该时间窗口结论
+- location: '82.8'
+  claim: 港币账户成本优势：0.01 HKD ≈ 0.0013 USD，成本再降7倍(理论推演)
+  reason: 素材中标注为'理论推演'，无实测数据验证汇率套利实际收益
+- location: 82.9.7
+  claim: 单人年净利破百万人民币'非常轻松'
+  reason: 素材中仅为静水流深个人断言，缺乏可复现的操作细节与风险提示
+- location: 82.9.8
+  claim: 崩盘源于'重轻失衡与资源错配'
+  reason: 素材中为凡响事后复盘归因，未提供第三方审计或财务数据佐证
+missing_concepts:
+- paper: 20230516_054.md
+  concept: 消费力套利在非自习室业态(麻辣烫/棋牌室/茶馆/除甲醛/家政/云吞店)的具体验证数据
+  severity: high
+- paper: 20230516_054.md
+  concept: 无人自习室3.0模式中'志愿者用人力换自习时长'的法律合规风险(工伤认定/劳动关系)
+  severity: high
+- paper: 20230516_054.md
+  concept: 商圈选址'电影院周边1公里'法则在县级市/非省会城市的失效边界条件
+  severity: medium
+- paper: 20230516_087.md
+  concept: 抖音养生号'无人直播'违规申诉的具体话术与通过率数据
+  severity: medium
+- paper: 20230516_087.md
+  concept: 面相书籍单品爆发后的供应链稳定性指标(补货周期/缺货率/质检标准)
+  severity: medium
+- paper: 20230516_104.md
+  concept: 二奢行业'鉴定师证书'考取后的商业转化率(证书持有者中实际开展业务比例)
+  severity: high
+- paper: 20230516_104.md
+  concept: 闲鱼验货宝'78元含赔'服务的实际理赔通过率与拒赔理由分布
+  severity: high
+- paper: M0hMdjWj3o8WtNxZdv4cLnfenIh.md
+  concept: Google Ads品牌词竞价账户被封概率与申诉成功率的历史统计数据
+  severity: high
+- paper: M0hMdjWj3o8WtNxZdv4cLnfenIh.md
+  concept: Awin联盟'品牌词授权光谱'中'默许'类商家的合规界定标准与风控红线
+  severity: high
+- paper: DGw1dYHSsohHu7x1AXhc4cQVnEN.md
+  concept: 视频定制项目'废号资产化'操作中账号权重衰减曲线与最优切号频率模型
+  severity: medium
