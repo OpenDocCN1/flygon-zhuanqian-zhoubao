@@ -1,0 +1,120 @@
+citation_stats:
+- paper: P001
+  count: 1
+  locations:
+  - ch65.1
+- paper: P002
+  count: 1
+  locations:
+  - ch65.1
+- paper: P003
+  count: 1
+  locations:
+  - ch65.1
+- paper: P004
+  count: 1
+  locations:
+  - ch65.1
+- paper: P005
+  count: 1
+  locations:
+  - ch65.1
+- paper: P006
+  count: 1
+  locations:
+  - ch65.1
+- paper: P007
+  count: 1
+  locations:
+  - ch65.1
+- paper: P008
+  count: 1
+  locations:
+  - ch65.1
+- paper: P009
+  count: 1
+  locations:
+  - ch65.1
+unsupported_claims:
+- location: ch65.3.1
+  claim: 作者在2021年因坚持"比特币只能存储价值、不能发资产"的偏见，彻底错过了NFT这一波百倍红利。
+  reason: 素材中仅提到作者错过NFT红利，未明确提及"比特币只能存储价值"这一具体偏见内容
+- location: ch65.3.1
+  claim: 素材`docs/202305/20230516_044.md`的开篇即被点明，作者称"5月8号凌晨三点冲#VMPX也是因为最近摒弃了一些偏见后的第一次实战"
+  reason: 素材中无法找到该具体引用内容
+- location: ch65.3.1
+  claim: 在详细复盘素材`docs/202305/Geucd6qWAoGztLx5EOkcKmjWnQg.md`中，作者进一步总结出核心行动准则："答案是：抛掉偏见去机会多的地方"，并坦言"这次看到BRC20我就强迫自己去了解"
+  reason: 素材中无法找到该具体引用内容
+- location: ch65.3.1
+  claim: 素材`docs/202305/20230516_044.md`还强调"文章里面关于Web3里面的思考和框架可复用"
+  reason: 素材中无法找到该具体引用内容
+- location: ch65.4.2
+  claim: 作者在素材中明确写道："你不能改变运气，但是可以改变运气的运气","保持积极好奇心、扩展视野、心态豁达，遇事多想好的一面，少想坏的一面，好运气就会多一点。"
+  reason: 素材中无法找到该具体引用内容
+- location: ch65.5.3
+  claim: 作者之所以重视七爷转发的VMPX消息，**是因为之前在XEN项目中跟随该源获益，完成了信任闭环**。素材记载："昨天看到七爷在群里转发VMPX的相关消息...因为我之前在XEN里面喝了点汤，所以就很重视。"
+  reason: 素材中无法找到该具体引用内容
+- location: ch65.6.4
+  claim: 素材记载："对着教程开始反复模拟（很重要，要不断模拟测试问题）；模拟了五六遍后觉得没大问题时，开始实操"
+  reason: 素材中无法找到该具体引用内容
+- location: ch65.6.4
+  claim: 素材记载："找了几个mint进度80%——90%的项目，走了几遍流程...才理解了教程里面说的gas给底的话，很可能鸡飞蛋打。"
+  reason: 素材中无法找到该具体引用内容
+- location: ch65.6.4
+  claim: 素材记载："基于以上实操，给下一步抢VMPX定了个操作原则：gas拉满抢！"
+  reason: 素材中无法找到该具体引用内容
+- location: ch65.6.4
+  claim: 素材记载："直到mint进度到了99.6%...网络没有那么拥堵了，我把gas调到了800，终于...赶上了末班车"
+  reason: 素材中无法找到该具体引用内容
+- location: ch65.7.4
+  claim: 作者在素材中复盘道："开始前我看到数据平台的gas才250多，所以我第一批冲了10张，把gas翻翻，调到了550...就是不跳出下一步...再去看gas已经飙到了600多"；"直到mint进度到了99.6%...网络没有那么拥堵了，我把gas调到了800，终于...赶上了末班车"
+  reason: 素材中无法找到该具体引用内容
+- location: ch65.8.3
+  claim: 以下为标准化作业程序，每一步均源于作者实战复盘（素材`docs/202305/Geucd6qWAoGztLx5EOkcKmjWnQg.md`）
+  reason: 素材中无法找到该具体引用内容
+- location: ch65.9.3
+  claim: 素材记载："unisat平台的交易市场是测试版本，所以目前只给有20积分或者有OG PASS的人才能交易","应声下跌到0.02...最高冲到0.08，截止发文，稳定在0.04"
+  reason: 素材中无法找到该具体引用内容
+- location: ch65.9.4
+  claim: 素材记载："有人开始转发一群技术人才破解了这个项目的代币名称...创始人后面又发文辟谣","我想验证我的猜想，果然...后来留在创始人推特space听了听...主要目的还是想看热度"
+  reason: 素材中无法找到该具体引用内容
+- location: ch65.10.4
+  claim: 素材记载："战役打到这个份上，好身体和好心态的重要性就体现出来了...我打开了前段时间攒的剧《漫长的季节》，边看边刷新mint页面。""边跟我女朋友视频边等待打包（此处郑重感谢我女朋友给我带来好运气）"
+  reason: 素材中无法找到该具体引用内容
+- location: ch65.11.4
+  claim: 素材记载："落袋为安很重要！别上头！""明天，也就是9号11:00，芝麻开门会上VMPX，一般来说，这种CEX抢上，是因为热度，那么，怎么落袋为安就又是另一门学问了。""平台前端已崩溃，交易页面一直在维护...上午挂单的订单开始陆续显示出来...这种虚空价格也很正常，坑也很多"
+  reason: 素材中无法找到该具体引用内容
+- location: ch65.12.2
+  claim: 作者在素材中直言："Web3圈有98%的项目都是骗人的！！！所以考验的是出入场时机。"
+  reason: 素材中无法找到该具体引用内容
+missing_concepts:
+- paper: P001
+  concept: Web3实战认知与方法论的完整体系框架（认知底座、信息与执行体系、链上实战技术栈、身心与纪律系统）
+  severity: high
+- paper: P002
+  concept: 运气表面积的飞轮模型（曝光-捕获-复利）
+  severity: high
+- paper: P003
+  concept: Alpha信息源的三级过滤体系（信任构建-信号捕获-验证执行）
+  severity: high
+- paper: P004
+  concept: 把鞋弄脏的四阶段内化路径（显性知识获取-低成本试错-隐性知识提炼-实战复用迭代）
+  severity: high
+- paper: P005
+  concept: 动态Gas博弈的非线性阈值函数模型及决策树
+  severity: high
+- paper: P006
+  concept: 谣言套利的验证与免疫闭环（三角验证-纪律执行-规则库更新）
+  severity: high
+- paper: P007
+  concept: 极端环境身心能量管理模型（生理/情绪/外部/环境输入-决策CPU-输出消耗）
+  severity: high
+- paper: P008
+  concept: 落袋为安的预设触发与执行流程（触发条件清单-执行引擎-复盘迭代）
+  severity: high
+- paper: P009
+  concept: BRC20 Mint SOP 10步标准化作业程序
+  severity: high
+- paper: P009
+  concept: Web3生存铁律下的时机选择三要素（早发现-早执行-早离场）
+  severity: high
