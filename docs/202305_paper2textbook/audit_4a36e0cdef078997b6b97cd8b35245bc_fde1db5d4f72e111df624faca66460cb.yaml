@@ -1,0 +1,71 @@
+citation_stats:
+- paper: P005
+  count: 18
+  locations:
+  - '62.3'
+  - '62.4'
+  - '62.6'
+  - '62.7'
+  - '62.8'
+  - '62.9'
+  - '62.10'
+  - '62.11'
+- paper: P033
+  count: 15
+  locations:
+  - '62.1'
+  - '62.2'
+  - '62.3'
+  - '62.4'
+  - '62.5'
+  - '62.6'
+  - '62.7'
+  - '62.8'
+  - '62.9'
+  - '62.10'
+  - '62.11'
+- paper: P046
+  count: 6
+  locations:
+  - '62.1'
+  - '62.2'
+  - '62.3'
+  - '62.7'
+  - '62.8'
+  - '62.11'
+- paper: P049
+  count: 2
+  locations:
+  - '62.1'
+  - '62.11'
+- paper: P050
+  count: 2
+  locations:
+  - '62.1'
+  - '62.11'
+unsupported_claims:
+- location: 学习目标
+  claim: Wise推荐计划套利：Google/Bing搜索广告竞价品牌词（单次点击成本0.01-0.02英镑）→每笔50英镑佣金，单日佣金超万英镑
+  reason: 素材中未找到支撑，标记为[需要补充文献]
+- location: 学习目标
+  claim: 写作店铺/代写模式：闲鱼/淘宝/拼多多/抖音开店售卖定制文案服务，轻资产、无需囤货发货
+  reason: 素材中未找到支撑，标记为[需要补充文献]
+- location: 学习目标
+  claim: 掌握蓝海细分赛道策略：避开红海竞争，聚焦'写回忆录'、'写演讲稿'等具体垂直需求
+  reason: 素材中未找到支撑，标记为[需要补充文献]
+- location: 概念地图
+  claim: Wise推荐计划套利（品牌词低价竞价/单日佣金超万英镑）
+  reason: 素材中未找到支撑，标记为[需要补充文献]
+- location: 概念地图
+  claim: 写作店铺代写模式：闲鱼/淘宝/拼多多/抖音售卖定制文案服务
+  reason: 素材中未找到支撑，标记为[需要补充文献]
+missing_concepts:
+- paper: P049
+  concept: 写作店铺/代写模式（闲鱼/淘宝/拼多多/抖音开店售卖定制文案服务）
+  severity: high
+- paper: P050
+  concept: Wise推荐计划套利模型（Google/Bing竞价品牌词→50英镑佣金）
+  severity: high
+- paper: P049
+  concept: 蓝海细分赛道策略：'写回忆录'、'写演讲稿'等具体垂直需求
+  severity: high
