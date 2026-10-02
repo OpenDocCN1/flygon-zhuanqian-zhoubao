@@ -1,0 +1,106 @@
+paper: docs/202306/BNZsd608eoQZffxlFzccXVVmnbb.md
+desc: 该素材记录了一位开发者基于个人痛点（上班无暇查看知识星球、下班补看效率低）开发的一款轻量级自动化工具：通过爬取知识星球 API（需手动提供 Cookie）获取指定星球的“最新消息”与“风向标”内容，定时推送至企业微信群机器人，支持
+  Linux/Windows 部署，配置采用 INI 文件与 Cron 表达式，提供从注册企业微信、获取 Webhook、抓取 Cookie 到配置修改与后台运行的完整图文教程。
+concepts:
+- name: 知识星球内容实时推送机器人
+  desc: 一种将知识星球指定分类内容（最新话题、风向标）自动抓取并通过企业微信群机器人实时推送至个人微信的轻量级自动化工具，解决用户因时间碎片化导致的信息获取滞后问题。
+  is_original: true
+  excerpt:
+  - 想做一个实时推送的群聊机器人，将生财每天的更新帖子推送到个人微信
+  - 已经支持最新消息和风向标群通知
+  - 平常上班时间忙，然后下班到家去翻历史内容，总感觉好像错过了几个亿似的
+- name: 企业微信群机器人 Webhook 推送
+  desc: 利用企业微信“群机器人”功能，通过配置 Webhook URL（含 robotKey）实现服务端到微信群的消息直连推送，无需公众号认证门槛。
+  is_original: false
+  excerpt:
+  - 目前考虑企业微信的机器和飞书机器人
+  - 已经支持企业微信机器人通知
+  - 新建一个企业群，选择添加机器人，获取webhook地址(修改配置会用到)
+- name: 知识星球非官方 API 爬取
+  desc: 通过浏览器开发者工具手动获取登录后的 Cookie，直接调用知识星球内部 API（如 /v2/groups/{id}/topics、/v2/hashtags/{id}/topics）拉取话题数据，规避官方开放平台限制。
+  is_original: false
+  excerpt:
+  - 调研了知识星球网站api爬取相对简单，传入cookie就能获取自己所加入星球的信息
+  - '获取最新消息 # https://api.zsxq.com/v2/groups/1824528822/topics?scope=all&count=10'
+  - '获取风向标内容风向标 # url = https://api.zsxq.com/v2/hashtags/28514444451481/topics?count=1'
+  - 按f12,选择network，随便点击一个接口，然后获取复制
+- name: INI 配置驱动的定时任务调度
+  desc: 采用 INI 格式配置文件管理三大维度参数（微信机器人 Key、知识星球 API 与 Cookie、Cron 定时频率），程序启动后按 cronTab
+    表达式（如 @every 3600s）周期性执行抓取推送逻辑。
+  is_original: true
+  excerpt:
+  - '[wx] robotKey ='
+  - '[zsxq] url = ... cookie = type = 1'
+  - '[config] cronTab = @every 3600s'
+methods:
+- name: __overview__
+  desc: 端到端自动化流程：1. 用户在企业微信创建群机器人获取 Webhook（robotKey）；2. 用户浏览器登录知识星球抓取 Cookie；3. 用户填写
+    config.ini 配置 API 地址、Cookie、推送类型及 Cron 频率；4. 程序在 Linux/Windows 后台常驻运行，按 Cron 触发，调用知识星球
+    API 获取最新/风向标话题，解析后通过企业微信 Webhook 推送至群聊。
+  excerpt:
+  - 调研了知识星球网站api爬取相对简单，传入cookie就能获取自己所加入星球的信息
+  - 已经支持企业微信机器人通知
+  - 已经支持最新消息和风向标群通知
+  - 支持linux和windows部署使用
+  - nohup /data/wechat/wechatrobot &
+  - ps -ef |grep wechat
+- name: 企业微信机器人接入方法
+  desc: 注册企业微信 -> 新建企业群 -> 群设置添加机器人 -> 复制 Webhook URL 中的 key（UUID 部分） -> 写入配置 [wx]
+    robotKey。
+  excerpt:
+  - 如果没有企业微信可以先注册一个，可以跳过各种企业资质认证
+  - 新建一个企业群，选择添加机器人，获取webhook地址(修改配置会用到)
+  - '[wx] # 微信机器配置(填写webhook后的uuid) robotKey ='
+- name: 知识星球 Cookie 手动获取方法
+  desc: 浏览器访问知识星球网页版 -> F12 打开开发者工具 -> Network 面板 -> 刷新或点击任意请求 -> 在 Request Headers
+    中复制 Cookie 字符串 -> 填入配置 [zsxq] cookie。
+  excerpt:
+  - 暂时没有做扫码登录，目前需要手动登录电脑端知识星球获取cookie
+  - 按f12,选择network，随便点击一个接口，然后获取复制，下图圈的部分
+- name: 配置文件编写与定时调度方法
+  desc: 按 INI 格式填写三段配置：[wx] 机器人 Key、[zsxq] 目标 API URL 与 Cookie、[config] Cron 表达式（默认
+    @every 3600s 即 1 小时），程序读取配置后按周期自动执行。
+  excerpt:
+  - '[wx] robotKey ='
+  - '[zsxq] url = https://api.zsxq.com/v2/hashtags/28514444451481/topics?count=1'
+  - '[zsxq] cookie ='
+  - '[zsxq] type = 1'
+  - '[config] cronTab = @every 3600s'
+- name: Linux 后台部署运维方法
+  desc: 使用 nohup 将编译后的二进制文件放入后台常驻运行，配合 ps -ef | grep 进程名 检查进程存活，实现无运维框架的简单部署。
+  excerpt:
+  - 假设程序部署在data/wechat 目录下，用绝对路径执行
+  - nohup /data/wechat/wechatrobot &
+  - 检查服务是否存在 ps -ef |grep wechat
+theorems:
+- name: 懒人驱动工具进步原则
+  desc: 作者明确指出‘懒才能推动工具进步’，即个人痛点（懒得手动查看、怕错过）是驱动轻量级自动化工具诞生的核心动力。
+  excerpt:
+  - 主要还是太懒，懒才能推动工具进步
+- name: 企业微信机器人门槛优于公众号订阅号
+  desc: 对比公众号订阅号需企业认证、接口受限，企业微信群机器人无需资质认证、即建即用、Webhook 直连，更适合个人开发者快速接入。
+  excerpt:
+  - 机器人最初选择考虑微信公众号推送，但是只有订阅号才有这功能，而且需要企业认证，暂时放弃，目前考虑企业微信的机器
+- name: 分阶段迭代演进策略
+  desc: 规划三阶段演进：第一阶段实现定时基础推送（已完成）；第二阶段增加按分类/标签筛选推送；第三阶段接入 GPT 进行内容总结，体现 MVP 到智能化的渐进式开发思想。
+  excerpt:
+  - 实现一个简单的初版，有定时消息推送，然后考虑按分类信息推送，最后考虑订阅信息和加入gpt总结功能
+findings:
+- name: 工具已跑通核心链路
+  desc: '[evidence] 素材附带运行截图显示程序在 Linux 后台进程存活（ps -ef 输出），且企业微信群内已收到推送消息卡片，证明‘知识星球
+    API -> 解析 -> 企业微信 Webhook’全链路打通。'
+  excerpt:
+  - '运行效果 [图片: 7a7b5fa293c29c052c364be65d7a9c19.png]'
+  - '检查服务是否存在 ps -ef |grep wechat [图片: c5a049b3960c4c42609d49799586372b.png]'
+- name: 配置模板可直接复用
+  desc: '[evidence] 素材给出完整的 config.ini 模板，包含实测可用的 API 地址示例（群 ID 1824528822、话题 ID 28514444451481）、参数说明（type=1
+    解析 talk 内容）、默认 Cron 频率，用户仅需替换 robotKey 与 cookie 即可运行。'
+  excerpt:
+  - '# 获取最新消息 # https://api.zsxq.com/v2/groups/1824528822/topics?scope=all&count=10'
+  - '# 获取风向标内容风向标 url = https://api.zsxq.com/v2/hashtags/28514444451481/topics?count=1'
+  - type = 1
+  - cronTab = @every 3600s
+- name: Cookie 失效需人工维护
+  desc: '[claim] 素材承认‘暂时没有做扫码登录’，Cookie 有效期受限于知识星球登录态，长期运行需定期手动更新 Cookie，这是当前版本的主要运维负债。'
+  excerpt:
+  - 暂时没有做扫码登录，目前需要手动登录电脑端知识星球获取cookie
