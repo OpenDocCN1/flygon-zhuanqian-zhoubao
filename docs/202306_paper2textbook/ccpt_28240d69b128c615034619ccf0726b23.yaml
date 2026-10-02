@@ -1,0 +1,36 @@
+paper: docs/202306/20230627_022.md
+desc: 该素材是一份《ChatGPT 写作变现新手操作指南》的宣传摘要，作者“荷包蛋糕”声称通过 AI 写作实现单月变现 3W+，并计划从产品、价格、渠道、促销（4P营销理论）四个维度拆解新手利用
+  GPT 成为写手赚取第一桶金的实操方法论与案例，核心内容托管于飞书文档链接中。
+concepts:
+- name: AI 写作变现
+  desc: 利用 ChatGPT 等生成式 AI 工具进行内容创作，并通过商业化渠道实现收入获取的过程。
+  is_original: false
+  excerpt:
+  - AI 写作，单月变现 3W+
+  - 新人如何利用 gpt 成为写手 下海赚第一桶金
+- name: 4P 实操框架
+  desc: 将传统营销学 4P 理论（产品、价格、渠道、促销）迁移至 AI 写作变现场景，作为指导新手落地执行的分析框架。
+  is_original: true
+  excerpt:
+  - 我将从 产品 价格 渠道 促销 四个方面 来介绍新人如何利用 gpt 成为写手
+methods:
+- name: __overview__
+  desc: 整体方法论为：基于 4P 营销模型拆解 AI 写作商业化路径，结合项目操盘经验（单月 3W+ 实证），输出标准化新手操作指南（SOP）。
+  excerpt:
+  - 《 GPT 写作变现新手操作指南》 AI 写作，单月变现 3W+，项目操盘经验分享。
+  - 我将从 产品 价格 渠道 促销 四个方面 来介绍新人如何利用 gpt 成为写手 下海赚第一桶金 实操案例
+theorems:
+- name: 新手可复制的 AI 写作致富路径
+  desc: 核心主张：普通新手无需深厚写作功底，只需掌握 GPT 操作技巧并遵循 4P 执行框架，即可快速切入写手赛道实现‘赚第一桶金’（月入 3W+ 级别）。
+  excerpt:
+  - 项目操盘经验分享
+  - 新人如何利用 gpt 成为写手 下海赚第一桶金 实操案例
+findings:
+- name: 单月变现 3W+ 案例背书
+  desc: '[claim] 作者宣称通过该方法实现单月变现 30,000 元以上的收入成果。'
+  excerpt:
+  - AI 写作，单月变现 3W+
+- name: 详细实操 SOP 存放于外部文档
+  desc: '[evidence] 素材正文仅为摘要与目录，核心实操案例、具体提示词、渠道名单等关键交付物托管于飞书文档（https://lv9qj6hfr4z.feishu.cn/docx/GG5MdQYCgoWOhDxdSQbc4zUgnDc），当前素材不包含可执行的细节数据。'
+  excerpt:
+  - https://lv9qj6hfr4z.feishu.cn/docx/GG5MdQYCgoWOhDxdSQbc4zUgnDc
