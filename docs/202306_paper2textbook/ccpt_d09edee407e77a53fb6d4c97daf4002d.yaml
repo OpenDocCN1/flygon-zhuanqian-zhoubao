@@ -1,0 +1,82 @@
+paper: docs/202306/20230613_208.md
+desc: 该素材记录了作者团队基于开源基座模型 LLaMA 与少量高质量指令数据（ShareGPT），通过指令微调手搓私有化部署 ChatGPT 的实战过程与商业判断。核心观点认为：基础模型已具备足够潜力，仅需少量高质量数据对齐即可逼近
+  ChatGPT 效果（引用 LIMA 与 Vicuna 论据）；私有化部署是数据隐私时代的刚性商业需求，但受限于 LLaMA 中文能力不足，短期聚焦出海英文场景，中文版本需等待更强中文基座模型开源。素材详细记录了数据获取（ShareGPT
+  爬取/清洗，区分 GPT-3.5 与 GPT-4 数据）、工程实现（ChatGPT 套娃辅助编码）及团队协作细节。
+concepts:
+- name: 私有化部署 ChatGPT
+  desc: 指在私有服务器或本地硬件（如 U 盘）上独立部署、运行类 ChatGPT 模型，不依赖公有云 API，以满足数据隐私与合规要求的部署模式。
+  is_original: false
+  excerpt:
+  - 目测在未来 6 个月内，将会出现私有独立部署的 chatgpt 版本，甚至装在一个 U 盘类似的硬件当中，即插即用
+  - 在数据隐私保护的时代，私有化部署自己的 chatgpt 永远是一个永恒的大需求
+- name: 基座模型潜力论 / Less Is More for Alignment (LIMA)
+  desc: 指大语言模型在预训练阶段已获得强大通用能力，仅需极少量（如 1000 条）高质量指令数据进行微调（对齐），即可激发其遵循指令、对话交互的能力，无需海量监督数据。
+  is_original: false
+  excerpt:
+  - 基础模型具有了足够的潜力，只需要少量高质量数据微调，就能达到目标水平
+  - 'Facebook 发布了新工作，只需要用 1000 条数据，就可以超过 GPT-3.5 (DaVinci 003) 的水平 LIMA: Less Is More
+    for Alignment'
+- name: ShareGPT 高质量指令数据集
+  desc: 从 ShareGPT 网站用户分享的 ChatGPT 对话链接中爬取、清洗得到的指令微调数据集。素材中特指经过二次清洗、剔除 GPT-3.5 数据、仅保留
+    GPT-4 生成对话的高质量子集。
+  is_original: true
+  excerpt:
+  - 既然 Vicuna 使用了 ShareGPT 的数据，我们可以抓取并进行清洗，筛选所有高质量数据，只要几千条足够
+  - 把 4 挑出来
+- name: ChatGPT 套娃辅助开发
+  desc: 利用 ChatGPT 编写爬虫、数据清洗、格式转换等工程代码，加速训练数据准备与模型训练流程搭建的研发模式。
+  is_original: false
+  excerpt:
+  - 我继续用 ChatGPT 套娃，首先要从 sharegpt.com 这网站上爬一些其他的语料
+  - 简直太丝滑了，gpt3.5 对程序员就比较友好了，通过三个小时的工作，这些数据都被整理出来了
+methods:
+- name: __overview__
+  desc: 基于开源基座模型（LLaMA）+ 高质量指令微调数据（清洗后的 ShareGPT GPT-4 子集）+ 低成本微调训练（参考 Vicuna/LIMA
+    范式）的私有化 ChatGPT 构建全流程。
+  excerpt:
+  - Facebook 开源了 LLaMA 基础模型，从此产生了很多基于 LLaMA 微调的模型，Vicuna 仅用 3 周时间，效果达到 90%+ ChatGPT
+    水平
+  - 既然 Vicuna 使用了 ShareGPT 的数据，我们可以抓取并进行清洗，筛选所有高质量数据，只要几千条足够
+- name: ShareGPT 数据获取与清洗流程
+  desc: 1. 通过 sitemap.xml 遍历 ShareGPT 公开对话链接；2. 利用 Hugging Face 存档数据集补充；3. 编写脚本爬取对话内容；4.
+    利用 ChatGPT 辅助编写清洗逻辑，解析 JSON，提取对话轮次；5. 核心清洗步骤：识别模型版本（GPT-3.5 vs GPT-4），剔除 GPT-3.5
+    数据，仅保留 GPT-4 生成的高质量回复；6. 导出标准指令微调格式（如 JSONL）。
+  excerpt:
+  - 数据来源：https://sharegpt.com/sitemap.xml
+  - 数据来源 2：https://huggingface.co/datasets/philschmid/sharegpt-raw/tree/main/sharegpt_90k_raw_dataset
+  - 提取里边的有用信息格式如下：
+  - 把 4 挑出来
+theorems:
+- name: 私有化部署是 ToB 落地的核心护城河与刚需
+  desc: 在数据隐私法规趋严（GDPR、国内数据安全法）背景下，企业不敢将核心数据上传公有云 API，私有化部署（甚至离线硬件化）是大模型商业化落地的前提条件，市场空间极大。
+  excerpt:
+  - 在数据隐私保护的时代，私有化部署自己的 chatgpt 永远是一个永恒的大需求
+  - toB 商业场景巨大
+- name: 开源基座模型 + 少量高质量数据可复现 ChatGPT 级能力
+  desc: 引用 Vicuna（90%+ ChatGPT 质量）与 LIMA（1000 条数据超越 DaVinci-003）论据，论证“预训练赋能，微调唤醒”范式可行性：不需要从头预训练，仅需获取强基座（LLaMA）并注入高质量指令数据即可低成本获得商用级模型。
+  excerpt:
+  - Vicuna 仅用 3 周时间，效果达到 90%+ ChatGPT 水平
+  - Facebook 发布了新工作，只需要用 1000 条数据，就可以超过 GPT-3.5 (DaVinci 003) 的水平
+  - 基础模型具有了足够的潜力，只需要少量高质量数据微调，就能达到目标水平
+- name: LLaMA 中文能力缺失限制了中文私有化落地，需等待中文基座开源
+  desc: LLaMA 词表与预训练语料以英文为主，中文能力被“阉割”，指令微调无法根本弥补基座语言能力缺失；中文场景私有化部署必须等待具备原生中文能力的开源基座模型（如后续的
+    Chinese-LLaMA, Baichuan, Qwen 等）出现。
+  excerpt:
+  - 'llama 不是说对中文支持比较差么，fine-tuning 能弥补么 闲富 : 不能，basemodel 阉割了中文，所以，做就来以后做出海产品。中文的要等大佬出
+    basemodel 了'
+findings:
+- name: ShareGPT 原始数据集包含混杂模型版本，需二次清洗分离 GPT-4 数据
+  desc: '[evidence] 团队实测发现现有开源 ShareGPT 数据集（如 philschmid/sharegpt-raw）未区分 GPT-3.5
+    与 GPT-4 来源，直接使用会引入低质量数据。作者团队通过重新爬取并编写解析逻辑，成功按模型版本分离数据，验证了“手动清洗提纯 GPT-4 数据”路径的可行性与必要性。'
+  excerpt:
+  - 对的，但是它没有区分 gpt3 和 gpt4，我重新洗了一遍，把 4 挑出来
+- name: ChatGPT 辅助编程可将数据工程开发周期压缩至小时级
+  desc: '[evidence] 作者亲测利用 ChatGPT 编写爬虫、解析、清洗代码，仅耗时 3 小时完成从网页结构分析到结构化数据集导出的全流程，展示了
+    LLM 自举式开发工具链的高效性。'
+  excerpt:
+  - 简直太丝滑了，gpt3.5 对程序员就比较友好了，通过三个小时的工作，这些数据都被整理出来了
+- name: Vicuna 路线在英文出海场景已跑通，商业化验证窗口期约 6 个月
+  desc: '[claim] 基于 Vicuna 90%+ 效果、LIMA 低数据量对齐理论、LLaMA 开源商用许可（后续 Llama 2 明确商用），作者预判私有化
+    ChatGPT 产品将在半年内涌现，建议团队抓住窗口期切入出海 ToB 市场。'
+  excerpt:
+  - 目测在未来 6 个月内，将会出现私有独立部署的 chatgpt 版本，甚至装在一个 U 盘类似的硬件当中，即插即用，toB 商业场景巨大
