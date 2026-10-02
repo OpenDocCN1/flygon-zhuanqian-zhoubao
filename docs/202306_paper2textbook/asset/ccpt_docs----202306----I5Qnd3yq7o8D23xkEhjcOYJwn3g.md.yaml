@@ -1,0 +1,120 @@
+paper: docs/202306/I5Qnd3yq7o8D23xkEhjcOYJwn3g.md
+desc: 该素材是一份面向零基础用户的Chrome插件开发实战指南，核心主张是利用ChatGPT生成代码、人工负责环境配置与错误排查的"人机协作开发模式"，降低非程序员开发浏览器扩展的门槛。素材系统讲解了Manifest
+  V3架构下的核心文件职责、基础Demo构建流程，并通过两个实战案例（标签页自动分组、图片四等分切割）演示了从需求拆解、提示词工程、代码迭代修复到最终打包上线的完整闭环，总结了"需求原子化、上下文喂养、错误反馈循环"等最佳实践。
+concepts:
+- name: 人机协作插件开发模式
+  desc: 一种面向非程序员的开发范式，核心逻辑为：人类负责需求拆解、环境搭建、错误捕获与反馈，ChatGPT负责代码生成、逻辑实现与Bug修复建议，双方通过自然语言交互完成软件交付。
+  is_original: true
+  excerpt:
+  - 本视频的目的绝不是教大家开发怎样精美,功能如何炫酷的插件. 而是讲解任何人都可以结合提示词, 描述相对简单的需求, 让ChatGPT提供代码, 然后逐步排查问题,
+    最终拿到满足需求的插件。
+  - 不需要任何开发经验也可以轻松上手。
+- name: Manifest V3 核心架构组件
+  desc: Chrome扩展Manifest V3版本规定的六大核心文件类型及其职责边界：manifest.json(配置清单)、background.js(Service
+    Worker后台服务)、popup.html/js(弹窗交互)、content-script.js(页面内容脚本注入)、options.html(设置页)、sidepanel.html(侧边栏)。
+  is_original: false
+  excerpt:
+  - manifest.json：插件的主要配置文件...包含几个重要的点：插件名称、描述、版本、图标、需要使用的权限和插件API、指定相关文件
+  - background.js：后台脚本，用于监听浏览器事件进行访问数据，协调任务...该文件可访问所有 插件API。不可以调用全局窗口提供的DOM API。
+  - popup.html：插件的主要交互界面...
+  - content-script.js：插件可以利用该文件，注入代码到主页上...可以访问和修改网页内容
+  - options.html：允许用户配置扩展设置的页面
+  - 'sidepanel.html: 可以在用户的浏览指定页面的过程中协助用户。'
+- name: 提示词工程三要素
+  desc: 针对ChatGPT生成插件代码的高效提示词结构，包含：1. 角色设定（资深Chrome插件开发工程师）；2. 环境约束（Manifest V3, ES6+,
+    无内联脚本）；3. 需求原子化描述（单一功能、明确输入输出、API调用细节）。
+  is_original: true
+  excerpt:
+  - '角色: 你是一位资深的Chrome插件开发工程师, 精通Manifest V3规范...'
+  - '环境约束: 1. 使用Manifest V3版本 2. 使用ES6+语法 3. 遵循Chrome扩展最佳实践 4. 不要使用内联脚本...'
+  - '需求描述: 请帮我开发一个Chrome插件, 功能是: 自动分组标签页...按域名分组...'
+- name: Content Script 与 Popup 通信机制
+  desc: Chrome扩展中内容脚本与弹窗页面跨上下文通信的标准模式：Popup通过chrome.tabs.sendMessage向指定Tab发送消息，Content
+    Script通过chrome.runtime.onMessage监听并执行DOM操作，执行完成后通过sendResponse回调返回结果。
+  is_original: false
+  excerpt:
+  - 'popup.js 中: chrome.tabs.query({active: true, currentWindow: true}, (tabs) =>
+    { chrome.tabs.sendMessage(tabs[0].id, {command: ''splitImage''}, (response) =>
+    { ... }) })'
+  - 'content-script.js 中: chrome.runtime.onMessage.addListener((request, sender, sendResponse)
+    => { if (request.command === ''splitImage'') { ... sendResponse({success: true,
+    count: chunks.length}) } return true; })'
+methods:
+- name: __overview__
+  desc: 零基础Chrome插件开发全流程方法论：环境准备(Chrome+编辑器+ChatGPT) -> 核心架构认知(6大文件职责) -> 基础Demo跑通(Manifest
+    V3 Hello World) -> 实战案例迭代(需求拆解->Prompt编写->代码生成->加载报错->错误反馈GPT->修复验证) -> 发布上线(打包zip->开发者控制台提交)。
+  excerpt:
+  - 首先，你需要安装以下开发工具：Chrome 浏览器(必须)、文本编辑器（如：VS Code, Sublime Text, Atom...）、ChatGPT账号
+    (必须)
+  - 核心文件的讲解...对于我们理解开发过程, 和后期排查错误都起到很大的作用。
+  - 上手一个Demo案例, 有助于找找感觉...编写 manifest.json -> 实现 background.js -> 实现 popup.html 和
+    popup.js
+  - '演示案例1: 自动分组标签页... 演示案例2: 分割图片为四等份'
+  - '利用ChatGPT开发插件的最佳实践: 1. 拆解需求 2. 编写提示词 3. 处理报错 4. 迭代优化'
+- name: ChatGPT驱动的迭代修复循环
+  desc: 解决ChatGPT生成代码不可直接运行的核心方法：1. 复制浏览器开发者工具控制台完整报错堆栈；2. 连同当前完整代码文件一并发送给ChatGPT；3.
+    要求ChatGPT给出修复后的完整文件内容（而非片段）；4. 替换本地文件重新加载插件验证；5. 循环直至功能达标。
+  excerpt:
+  - 最佳实践核心步骤：... 3. 处理报错：将报错信息完整复制给ChatGPT，附带当前代码上下文，要求给出完整修正文件。
+  - 视频中演示：background.js报错 -> 复制报错 -> 发送GPT -> 获取修正代码 -> 替换 -> 重新加载 -> 成功。
+  - 注意：一定要给完整的代码文件，不要只给片段，避免上下文丢失导致新错误。
+- name: 需求原子化拆解法
+  desc: 将复杂插件需求拆解为单一功能点、单一API调用、单一UI交互的最小单元，逐个向ChatGPT提需求、生成代码、集成测试，避免一次性生成大量代码导致逻辑耦合、难以调试。
+  excerpt:
+  - 最佳实践核心步骤：1. 拆解需求：将复杂功能拆解为一个个小的、独立的功能点。
+  - 案例2中：先实现'上传图片并预览' -> 再实现'Canvas切割逻辑' -> 最后实现'打包下载ZIP'，每步独立验证。
+theorems:
+- name: 非程序员可通过自然语言编程完成扩展开发
+  desc: 核心主张：不懂代码语法的普通用户，只要掌握Chrome扩展架构基础概念（文件职责、权限模型、通信机制）与提示词工程技巧，即可驾驭ChatGPT完成从0到1的插件商业化交付。代码能力不再是门槛，架构理解与问题定位能力是新门槛。
+  excerpt:
+  - 不论你是 开发者 还是 没有开发经验的小伙伴，这篇文章都是为你准备的。我们将一步步引导你完成自己的第一个Chrome插件。
+  - 的确可以做, 这篇文章将结合视频带领大家进行实践, 我不做任何主观干涉...
+  - 学习目标：了解插件开发的入门知识、如何编写demo代码、如何定位的问题、结合案例利用ChatGPT快速上手、插件开发的最佳实践
+- name: Manifest V3 是零基础入门的唯一选择
+  desc: 核心主张：教学与实战必须基于Manifest V3（MV3），废弃MV2。理由：Chrome商店已停止接受MV2新插件，MV3引入Service Worker替代持久后台页、移除内联脚本强制CSP安全策略，符合长期维护与上架规范。
+  excerpt:
+  - 'manifest_version: 3'
+  - '环境约束: 1. 使用Manifest V3版本... 4. 不要使用内联脚本（CSP策略禁止）'
+  - 'background: { service_worker: ''background.js'' } // MV3 Service Worker模式'
+- name: 错误定位能力比编码能力更关键
+  desc: 核心主张：在AI辅助开发模式下，开发者的核心价值从"写代码"转移到"读懂报错、定位文件、提供上下文、验证修复"。素材反复强调打开开发者工具查看Console/Network、识别报错行号、区分Background/Content
+    Script/Popup三种上下文的报错来源。
+  excerpt:
+  - 核心文件的讲解稍显枯燥, 但是对于我们理解开发过程, 和后期排查错误都起到很大的作用。
+  - 最佳实践：3. 处理报错：打开开发者工具 -> 查看Console红色报错 -> 根据文件名定位是background、popup还是content-script报错
+    -> 复制完整报错信息给ChatGPT。
+  - 视频案例中多次演示：Manifest配置缺失权限导致API报错、Content Script注入匹配规则错误、Canvas绘图跨域污染报错等定位过程。
+findings:
+- name: 案例一：标签页自动分组插件完整交付
+  desc: '[evidence] 通过"域名分组"原子需求，经历3轮对话迭代：第1轮生成基础分组逻辑但缺少权限声明 -> 第2轮补充tabs/tabGroups权限但分组算法重复创建组
+    -> 第3轮优化幂等性逻辑（查找现有组）并修复MV3 Service Worker生命周期问题，最终实现点击Popup按钮自动整理当前窗口所有标签页功能，验证通过。'
+  excerpt:
+  - '演示案例1: 自动分组浏览器Tab 的配置窗口'
+  - '需求: 按域名自动分组当前窗口标签页'
+  - '迭代过程: 权限报错 -> 算法重复分组 -> 幂等性修复 -> 最终代码可用'
+- name: 案例二：图片四等分切割下载插件跨域难点攻克
+  desc: '[evidence] 实现"将长图切割为4张正方形图片并打包下载"功能，核心难点在于Canvas绘制跨域图片导致toDataURL污染报错。迭代路径：1.
+    直接跨域URL绘图失败；2. 尝试设置crossOrigin=anonymous失败（目标服务器无CORS头）；3. 最终方案：Popup端fetch获取Blob
+    -> 转ObjectURL -> 传递给Content Script -> Canvas绘制ObjectURL(同源) -> 切割生成Blob -> JSZip打包下载。验证了内容脚本可访问页面DOM但受CSP限制，需通过Popup桥接网络请求的架构模式。'
+  excerpt:
+  - '演示案例2: 分割图片为四等份 的上传文件窗口'
+  - '核心报错: Uncaught DOMException: Failed to execute ''toDataURL'' on ''HTMLCanvasElement'':
+    Tainted canvases may not be exported.'
+  - '解决方案: Popup fetch Blob -> createObjectURL -> sendMessage传给Content Script -> Canvas绘制
+    -> toBlob -> JSZip生成zip -> 下载。'
+- name: ChatGPT生成代码的高频缺陷画像
+  desc: '[evidence] 素材实战记录总结出ChatGPT在Chrome插件开发中的四类典型缺陷：1. 版本幻觉：默认生成Manifest V2代码（persistent
+    background、browser_action）；2. 权限盲区：漏声明host_permissions、tabs、activeTab、scripting等必要权限；3.
+    API过时：使用chrome.extension.sendRequest等废弃API替代chrome.runtime.sendMessage；4. 上下文丢失：多轮对话中丢失前文约束（如CSP、ES6、完整文件输出），导致修复代码引入新语法错误。'
+  excerpt:
+  - '最佳实践提示词中强制约束: ''使用Manifest V3版本'', ''不要使用内联脚本'''
+  - '案例1中: GPT初版生成 background: {scripts: [''background.js'']} (MV2写法) -> 修正为 service_worker'
+  - '案例1中: 缺少 permissions: [''tabGroups'', ''tabs''] 导致 chrome.tabGroups API 报错'
+  - '迭代修复中: GPT给出的修正代码片段缺少 import/导出语句，导致模块化报错，需反复要求''给出完整文件内容'''
+- name: 开发者工具多上下文调试技巧验证
+  desc: '[evidence] 实战验证了三种上下文的调试入口差异：Background Service Worker需在chrome://extensions页面点击"Service
+    Worker"链接打开专用DevTools；Popup需右键弹窗选择"检查"; Content Script需在目标网页F12切换顶部下拉框选择对应扩展上下文。掌握此技巧是定位"代码没生效"vs"代码报错"的前提。'
+  excerpt:
+  - '核心文件讲解背景: background.js不可以调用全局窗口提供的DOM API...content-script.js可以访问和修改网页内容'
+  - '最佳实践排查步骤中隐含: ''打开对应上下文的开发者工具查看Console'''
+  - '视频演示: Background报错在Service Worker控制台，Popup报错在弹窗检查器，Content Script报错在页面控制台。'
