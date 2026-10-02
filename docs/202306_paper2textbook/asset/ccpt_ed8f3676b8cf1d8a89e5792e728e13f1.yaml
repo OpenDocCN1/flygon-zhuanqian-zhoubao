@@ -1,0 +1,148 @@
+paper: docs/202306/NeqIdWC9PovqQ6xruAJcErqHnxc.md
+desc: 该素材是一篇名为《ControlNet终极攻略》的实操教程，系统梳理了Stable Diffusion WebUI中ControlNet插件的安装配置、统一操作范式及14种核心预处理器/模型组合的详细用法。文章将ControlNet定位为解决AI绘图随机性、实现“所想即所得”的关键控制层，按功能分类详解了姿势约束、线条约束、空间深度、语义分割、风格迁移、局部重绘、指令编辑及细节增强等八大应用场景，并通过大量对比图演示了每种模型的最佳实践参数、适用边界及组合技巧，旨在降低用户从“抽卡”走向“可控生成”的学习门槛。
+concepts:
+- name: ControlNet控制范式
+  desc: 核心工作流定义：用户提供条件图 -> 选择预处理器提取结构信息 -> 加载对应模型注入SD生成过程 -> 实现对生成图像空间结构/风格/内容的精确控制。
+  is_original: false
+  excerpt:
+  - ControlNet就是你提供一张图片，然后选择一种采集方式，去生成一张新的图片
+  - 上传图片、选模型
+- name: 预处理器-模型配对机制
+  desc: ControlNet运行的基本单元，预处理器负责将输入图像转化为模型可理解的条件图（如骨架、边缘、深度图），模型负责将该条件注入去噪过程，二者通常同名配套使用。
+  is_original: false
+  excerpt:
+  - 一般情况下，预处理器和模型名字一样，是配套使用的
+  - 选中“OpenPose”就会自动帮我们加载预处理器和模型
+- name: 控制权重与引导介入时机
+  desc: 调节ControlNet介入强度与时间窗口的关键参数。权重控制条件约束强度；引导介入时机控制生成初期由提示词主导、后期由ControlNet接管，平衡形态保真与风格自由度。
+  is_original: false
+  excerpt:
+  - 适当把controlnet的权重降低
+  - 设置在0.2~0.3之间就差不多，先生成出来大体的形状再去改变画风
+- name: 多ControlNet协同策略
+  desc: 同时启用多个ControlNet单元解决单一模型局限性的方法，如OpenPose固定姿势+Lineart固定线稿+Shuffle迁移风格，实现姿势、结构、风格的解耦控制。
+  is_original: true
+  excerpt:
+  - 或者用两个controlnet：一个固定线稿，一个影响画风
+  - 它们的具体操作步骤都是差不多的...甚至可以两个或者多个Controlnet一起用
+- name: 随机种子固定策略
+  desc: 在引入ControlNet前先通过固定Seed锁定基础生成模式（大模型、提示词、LoRA确定的潜在空间分布），使ControlNet仅修正空间结构而不改变整体风格与主体特征。
+  is_original: false
+  excerpt:
+  - 为了等一下加上controlnet控制姿势也能生成出来一样的照片，我们要固定照片的随机数种子
+methods:
+- name: __overview__
+  desc: ControlNet全流程标准化操作法：1.基础设置（选大模型、写提示词、加LoRA、固定Seed）；2.开启ControlNet面板；3.上传条件图；4.启用单元；5.选择控制类型/预处理器/模型；6.预览预处理结果；7.调整权重/介入时机等高级参数；8.生成出图。
+  excerpt:
+  - controlnet的使用方法就只有两步：上传图片、选模型
+  - 首先我们先正常的生成出来一张满意的照片...固定照片的随机数种子...上传一张人物姿势的照片...下面的“启用”按钮一定要打开...选中“OpenPose”...点击爆炸按钮...最后点击生成
+- name: OpenPose全系列姿态控制法
+  desc: 针对人体骨骼关键点的分级控制方法库：openpose(身体)、openpose_hand(身体+手指)、openpose_faceonly(面部)、openpose_full(全要素)；配合OpenPose
+    Editor插件实现骨骼节点的可视化手动修正与重投影。
+  excerpt:
+  - 预处理器：openpose / openpose_hand / openpose_faceonly / openpose_full 模型：openpose
+  - 安装“sd-webui-openpose-editor”...点击预处理后的图像旁边的“编辑”按钮，就可以自行去编辑火柴人的节点
+- name: LineArt多模态线稿提取与上色法
+  desc: 针对不同图像域（动漫/素描/写实/线稿）的专用线稿提取策略：lineart_anime/denoise(动漫保线)、lineart_coarse(素描粗线)、lineart_realistic(写实转线稿)、lineart_standard(纯线稿)；支持真人转二次元、线稿上色、风格迁移等双向转换。
+  excerpt:
+  - 动漫：lineart_anime 或 lineart_anime_denoise...素描:lineart_coarse...写实：lineart_realistic...黑白线稿：lineart_standard
+  - 提取动漫的线稿，再重新上色...上传自己的照片，提取出线稿，然后生成自己的二次元头像
+- name: 边缘检测梯度选择法
+  desc: 基于Canny/SoftEdge/MLSD/Scribble四种边缘语义粒度的选型策略：Canny(高频细节全保留/还原度最高) > SoftEdge(软边缘/保留轮廓/留白SD发挥)
+    > MLSD(仅直线/室内建筑专用) > Scribble(涂鸦草图/极低约束/高自由度)。
+  excerpt:
+  - canny可以识别到画面的最多的线条...比较适合二次元照片
+  - softedge只能识别图片大概的轮廓细节，线条比较柔和，这样给SD发挥的空间就比较大
+  - mlsd这个模型只能识别直线，所以只适合拿来做房子的设计
+  - scribble这一个功能和图生图里的涂鸦功能一样
+- name: 空间语义分层控制法
+  desc: Depth(深度图/空间前后关系)、Seg(语义分割/像素级物体类别)、MLSD(几何结构)三维度的室内/场景控制组合拳：MLSD定结构、Depth定空间序、Seg定物体类别且支持PS修改色块后重新生成。
+  excerpt:
+  - 预处理器：depth_leres++ 模型：depth
+  - 预处理器：seg_ofade20k 模型：seg
+  - 可以把seg色块图下载下来，自己到ps或者其他修图软件改照片物体的颜色
+- name: 风格解耦迁移法
+  desc: Shuffle(纹理风格强迁移/需配合介入时机或双ControlNet固结构)、Reference(主体身份一致性/零样本主体迁移/无需模型)、Normal(法线/光照/姿势复刻)、T2I-Adapter
+    Color Grid(色彩分布迁移)四种风格控制维度的分层应用策略。
+  excerpt:
+  - 预处理器：shuffle 模型：shuffle...调整“引导介入时机”的参数设置在0.2~0.3之间
+  - 预处理器：reference 不用模型...可以很好的还原原图的角色
+  - 预处理器：normal_bae 模型：normalbae...参考原图的明暗关系，并且还原原图的姿势
+  - 预处理器：t2ia_color_grid 模型：t2iadapter_color...参考原图的颜色，将原图模糊成马赛克，再生成图片
+- name: Inpaint语感融合重绘法
+  desc: 优于原生图生图局部重绘的ControlNet Inpaint方案：inpaint_global_harmonious(全图协调重绘/融合好但色调漂移)
+    与 inpaint_only(仅掩码区重绘/配合高权重保真)；适用于去水印、换背景、换装等局部编辑。
+  excerpt:
+  - inpaint_global_harmonious预处理器是整张图进行重绘...重绘之后整体融合比较好，但是重绘之后的图片色调会改变
+  - inpaint_only只重绘涂黑的地方...为了重绘之后的图片更像原图，可以把控制权重拉满
+- name: InstructPix2Pix指令驱动编辑法
+  desc: 无需预处理器，直接加载ip2p模型，通过自然语言指令（格式：make it + 目标状态）实现图像的全局风格/季节/属性转换，如“make it winter”、“make
+    it on fire”。
+  excerpt:
+  - 预处理器：无 模型：ip2p
+  - 需要在关键词里面输入：make it.... （让它变成...）比如让它变成冬天，就输入：make it winter
+- name: Tile细节重构与跨域变换法
+  desc: Tile Resample模型的多模态应用：1. 超分/修复(先抽象后重构细节，适合风景/建筑，真人易失真)；2. 涂鸦成图(低分辨率草图生成高细节)；3.
+    真人转动漫/动漫转真人(跨域风格重绘，保留构图重塑纹理)。
+  excerpt:
+  - 预处理器：tile_resample 模型：tile
+  - tile模型的工作原理是先忽略掉照片的一些细节，再加上一些细节
+  - 将自己画的图给SD加工...真人变动漫...动漫变真人
+theorems:
+- name: 三要素协同控制论
+  desc: AI绘图可控性由三大支柱共同决定：提示词奠定全局语义基调、LoRA锚定主体身份特征、ControlNet精细化控制空间结构与像素级细节；三者缺一不可，共同对抗扩散模型的内在随机性。
+  excerpt:
+  - 如果能用好控制出图的三个最关键因素，能让「出图与我们想象的画面一致」概率更高：1.提示词 2.Lora 3.ControlNet
+  - 提示词的作用是奠定整个图的大致画面，Lora的作用是让图片主体符合我们的需求，ControNet的作用是精细化控制整体图片的元素——主体、背景、风格、形式等
+- name: 模型选型决策树原则
+  desc: ControlNet模型选择遵循“目的导向、粒度匹配、组合互补”原则：明确控制目标(姿势/线稿/深度/风格/编辑) -> 选择匹配信息粒度的预处理器(全量/轮廓/语义/骨骼)
+    -> 必要时叠加多单元解耦冲突约束。
+  excerpt:
+  - 用的时候不必拘束于哪一种模型更好，更重要的是你脑海里想要什么样的画面，多去尝试，也可以结合其他模型一起用
+  - 如果你不知道什么情况下用哪个好，可以参考一下我的选择：1.想最大程度还原照片：canny 2.只想控制构图...：softedge 3.真人、素描等照片：lineart
+    4.建筑物装修：mlsd
+- name: ControlNet与LoRA冲突缓解原则
+  desc: 当ControlNet(如OpenPose Face)与LoRA(主体身份)作用于同一语义区域(如人脸)时，会产生身份漂移冲突；解决路径为：降低ControlNet权重、缩短介入时机、或改用Reference-only模式(仅注入身份不注入姿势)。
+  excerpt:
+  - 如果你生成的照片用了Lora，再用controlnet控制表情可能会导致生成出来的照片跟Lora的人不太像，因为生成出来的照片的人物五官和脸型都被controlnet影响了
+- name: 预处理器质量阈值判据
+  desc: 预处理器输出质量直接决定生成上限：若自动检测结果噪声过大(如手指关键点抖动)、结构错误(如遮挡导致骨骼断裂)，必须人工干预(OpenPose Editor)或降级使用低粒度预处理器(仅身体不含手指)，避免“垃圾进，垃圾出”。
+  excerpt:
+  - 如果原图的手指骨骼比较清晰，可以用识别到手指的预处理器，如果识别出来的手指线条比较乱，自己调整也没调整好，那就只识别身体姿势，不然生成出来的照片手指反而更乱了
+  - 有时候预处理器处理出来的火柴人可能会不太准确...这时候我们可以再安装一个插件，这样我们就可以自己去调节预处理之后的火柴人
+findings:
+- name: OpenPose手指控制的双刃剑效应
+  desc: '[evidence] 实测表明：openpose_hand预处理器在源图手部清晰时能有效修正多指/少指问题；但源图手部模糊或遮挡时，噪声关键点会导致生成手部畸变严重于不使用手部控制，需动态选择策略。'
+  excerpt:
+  - 如果原图的手指骨骼比较清晰，可以用识别到手指的预处理器，如果识别出来的手指线条比较乱，自己调整也没调整好，那就只识别身体姿势，不然生成出来的照片手指反而更乱了
+- name: LineArt写实转二次元的身份保真边界
+  desc: '[evidence] 实测发现：lineart_realistic提取真人线稿生成二次元头像时，因人脸几何结构域差异大，需显著降低ControlNet权重(文中未给具体值，但强调“适当降低”)才能平衡相似度与风格化，否则五官僵硬变形。'
+  excerpt:
+  - 因为真人照片换成二次元在五官比例上会不太匹配，这时候我们就要适当把controlnet的权重降低
+- name: Reference模型的零样本主体一致性能力
+  desc: '[evidence] Reference预处理器(无需模型文件)展现出强大的主体身份保持能力：仅输入单张角色图，配合文本描述新动作/表情/服装，即可生成身份高度一致的新姿势图像，实现了“让照片动起来”和“角色扮演”的零样本泛化。'
+  excerpt:
+  - 让坐着的小狗跑起来...选择写实的大模型...关键词里面输入：一只狗在草地上快乐地奔跑
+  - 给SD一张人物角色图，它会根据人物的五官、发型还原这个人物...关键词还可以加上情绪的描述，或者不一样的服装发型
+- name: Shuffle风格迁移的结构破坏副作用
+  desc: '[evidence] Shuffle模型在迁移纹理风格(水墨/油画/赛博朋克)时，会显著改变原图几何结构(构图/比例)；经验证，将引导介入时机延后至0.2-0.3或叠加Lineart/Depth固定结构，可有效缓解结构漂移。'
+  excerpt:
+  - 用shuffle可能会影响自己原图的形状，可以稍微调整一下“引导介入时机”的参数，设置在0.2~0.3之间就差不多，先生成出来大体的形状再去改变画风，或者用两个controlnet：一个固定线稿，一个影响画风
+- name: Inpaint全局协调模式的色调漂移现象
+  desc: '[evidence] 对比测试显示：inpaint_global_harmonious虽融合度优于原生局部重绘，但会导致整图色调偏移(非语义编辑区域颜色改变)；inpaint_only配合高权重(1.0+)可局部精准编辑且保持全局色调稳定。'
+  excerpt:
+  - inpaint_global_harmonious预处理器是整张图进行重绘，重绘之后整体融合比较好，但是重绘之后的图片色调会改变
+  - inpaint_only只重绘涂黑的地方...为了重绘之后的图片更像原图，可以把控制权重拉满
+- name: Tile模型在真人超分上的语义幻觉风险
+  desc: '[evidence] Tile Resample基于“抽象-重构”机制，在风景/建筑/线稿上色表现优异；但用于真人脸部超分时，模型倾向于“脑补”细节导致五官身份丢失(不像原人)，揭示了扩散先验与人脸特异性先验的冲突。'
+  excerpt:
+  - 这个恢复画质的方法可能不太适合真人，因为tile模型的工作原理是先忽略掉照片的一些细节，再加上一些细节，这些SD自己加上去的细节可能会导致生成出来的照片不像原图
+- name: Canny模型的二次元偏好特性
+  desc: '[claim] 作者宣称Canny“识别最多线条、还原度最高”但“比较适合二次元照片”，暗示其高频边缘保留特性与二次元平涂风格契合，但在写实照片上可能引入过多纹理噪声导致生成僵硬。'
+  excerpt:
+  - canny可以识别到画面的最多的线条，这样就可以最大程度的还原照片，但是比较适合二次元照片
+- name: MLSD的纯几何约束边界
+  desc: '[evidence] MLSD预处理器严格过滤非直线信息(植物/瓶子曲线全部丢失)，生成结果仅保留曼哈顿世界几何结构，证实其为严格的“结构布局生成器”而非“图像编辑器”，仅适用于室内设计/建筑草图转渲染。'
+  excerpt:
+  - 这个模型只能识别直线，所以只适合拿来做房子的设计
+  - 看看预处理出来的图，都只有直线，绿色植物和瓶子这些有弧度的线条都会被忽略掉
