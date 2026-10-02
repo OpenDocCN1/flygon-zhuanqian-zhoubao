@@ -1,0 +1,268 @@
+paper: docs/202306/AiXCdetQron13NxHHL6cKSjEn2c.md
+desc: 该素材是一份面向Midjourney等AI绘图工具用户的艺术风格提示词参考集锦，通过固定基础Prompt（'a boy and a girl play
+  infront of the forest'）结合100余个不同风格关键词，直观展示了各风格关键词对画面风格化的具体视觉效果，涵盖知名艺术家个人风格、经典美术流派、流行文化IP风格、影视动画工作室风格、传统媒介技法、游戏美术风格及设计流派等六大类别，为提示词工程中的风格控制提供了大规模的实证对照样本库。
+concepts:
+- name: 风格关键词驱动
+  desc: 核心概念，指通过在提示词中注入特定风格标识符（艺术家名、流派名、IP名、技法名等），强制引导生成模型向目标视觉分布收敛的机制。
+  is_original: false
+  excerpt:
+  - 我们将会使用同一个Prompt：[***] style a boy and a girl play infront of the forest ［里面就是各个风格词]简单粗暴
+  - 齐白石 Qi Baishi
+  - 吴冠中 Wu Guanzhong
+  - 空山基 Hajime Sorayama
+  - 倪传婧 Victo Ngai
+  - 草间弥生 Yayoi Kusama
+  - 佐伯俊男 Toshio Saeki
+  - 井上雄彦 Takehiko inoue
+  - 方力钧 Fang Lijun
+  - 维吉尔·芬莱 Virgil Finlay
+  - 格雷格·托基尼 Greg Tocchini
+  - 彩色玻璃窗 Stainer glass window
+  - 水墨插图 ink illustration
+  - 宫崎骏 Miyazaki Hayao style
+  - 龙珠风格 dragon ball
+  - 火影忍者风格
+  - 死神风格
+  - 梵高 Vincent Van Gogh
+  - 达芬奇 Leonardo Da Vinci
+  - 克劳德莫奈 Claude Monet
+  - 新川洋司 Yoji Shinkawa
+  - 点彩派 pointillism
+  - 绗缝艺术 quilted art
+  - 建筑素描 architectural sketching
+  - 魂系游戏 From Software
+  - 剑与远征 AFK Arena
+  - 新海诚 Makoto Shinkai
+  - 英雄联盟 League of legends
+  - 山本高远 Takato Yamamoto
+  - 山田章博 Yamada Akihiro
+  - 上村松园 Uemura Shoen
+  - 水彩儿童插画 Watercolor children's illustration
+  - 吉卜力风格 Ghibli Studio
+  - 皮克斯 Pixar
+  - 东方山水画 Tradition Chinese Ink Painting
+  - 浮世绘 Japanese Ukiyo-e
+  - 日本漫画风 Japanese comics
+  - 抽象 Abstract
+  - 童话插图 stock illustration style
+  - 梦工厂动画 CGSociety
+  - 梦工厂影业 DreamWorks Pictures
+  - 时尚 Fashion
+  - 日本海报 poster of japanese graphic design
+  - 90年代电视游戏 90s video game
+  - 法国艺术 french art
+  - 日本动画片 Anime
+  - 黑白电影 Pulp Noir
+  - 乡村风格 Country style
+  - riso印刷风 risograph
+  - 设计风 Graphic
+  - 墨水渲染 ink render
+  - 民族艺术 Ethnic Art
+  - 复古黑暗 retro dark vintage
+  - 国风 Tradition Chinese Ink Painting style
+  - 蒸汽朋克 Steampunk
+  - 电影摄影风格 film photography
+  - 概念艺术 concept art
+  - 剪辑 montage
+  - 充满细节 full details
+  - 哥特式黑暗 Gothic gloomy
+  - 写实主义 realism
+  - 黑白 black and white
+  - 统一创作 Unity Creations
+  - 藤子不二雄 Fujiko Fujio
+  - 高桥留美子 Rumiko Takahashi
+  - 鸟山明 Akira Toriyama
+  - 巴洛克时期 Baroque
+  - 印象派 Impressionism
+  - 新艺术风格 Art Nouveau
+  - 新艺术 Rococo
+  - 宝可梦 Pokémon
+  - 星际战甲 Warframe
+  - 旷野之息 botw
+  - 建构主义 Constructivist
+  - 粗犷主义 brutalist
+  - 极简主义 Minimalist
+  - 未来主义 futuristic
+  - 维多利亚时代 Victorian
+  - 欧普艺术 OP Art
+  - 超现实主义 Surrealism
+  - 抽象表现主义 Abstract Art
+  - 立体派 Cubism
+  - 野兽派 Fauvism
+  - 文艺复兴 Renaissance
+  - Apex英雄 APEX
+  - 上古卷轴 The Elder Scrolls
+  - 肖像画 Portraits
+  - 风景画 Landscape
+  - 动漫画 Anime
+  - 科幻画 Sci-fi
+  - 恐怖画 Horror
+  - 概念艺术家 Concept artists
+  - 油画 oil painting
+  - 素描 sketch
+  - 雕塑 ink painting
+  - 印刷版画 Blockprint
+  - 利诺剪裁 Lino cut
+  - 手稿 manuscript
+  - 天空之城 Castle in the Sky
+  - 向量图 Vector
+  - 波普艺术 Pop Art
+  - 大地艺术 Land Art
+  - 涂鸦艺术 Graffiti Art
+  - 等距 isometric
+  - 进击的巨人 Attack on Titan
+  - Q版 chibi
+- name: 基准Prompt对照法
+  desc: 核心概念，指固定主体、动作、场景等内容要素，仅变换风格修饰词，以隔离风格因素对图像生成影响的实验范式。
+  is_original: true
+  excerpt:
+  - 我们将会使用同一个Prompt：[***] style a boy and a girl play infront of the forest ［里面就是各个风格词]简单粗暴
+  - 我们先来看看原本出的图是啥样吧
+- name: 风格迁移保真度
+  desc: 核心概念，隐含于素材中，指风格关键词能否准确复现目标风域的核心视觉特征（如线条、色彩、构图、质感）的程度。
+  is_original: false
+  excerpt:
+  - （隐含于所有风格对比图中，如齐白石的写意笔触、草间弥生的波尔卡圆点、浮世绘的平涂轮廓线等视觉特征的呈现）
+methods:
+- name: __overview__
+  desc: 整体方法论：采用单一基准Prompt（主体：一男一女孩，动作：玩耍，场景：森林前）作为控制变量，系统性注入100+风格关键词，生成图像并排展示，构建风格关键词-视觉效果的映射图谱。
+  excerpt:
+  - 我们将会使用同一个Prompt：[***] style a boy and a girl play infront of the forest ［里面就是各个风格词]简单粗暴
+  - 我们先来看看原本出的图是啥样吧
+- name: 风格分类归档法
+  desc: 将收集的风格关键词按来源属性隐性分类（个人艺术家、美术史流派、商业IP/流行文化、影视工作室、传统媒介/技法、游戏美术、设计流派），便于用户按需检索与风格混合参考。
+  excerpt:
+  - （隐性体现在风格列表的排列顺序中：前段为个人艺术家，中段为IP/工作室/媒介，后段为流派/游戏/题材/技法）
+theorems:
+- name: 风格关键词即强先验
+  desc: 核心主张：在扩散模型中，单个高信息密度的风格关键词（如艺术家名、流派名）即可作为强先验，覆盖基础Prompt的默认审美倾向，决定生成图像的全局风貌（线条、配色、笔触、构图逻辑）。
+  excerpt:
+  - 我们将会使用同一个Prompt：[***] style a boy and a girl play infront of the forest ［里面就是各个风格词]简单粗暴
+  - （全文100+组对比图隐性支撑）
+- name: 风格组合的可叠加性假设
+  desc: 核心主张：素材隐含主张，不同粒度的风格标签（如'油画' + '梵高' + '印象派'）可在Prompt中叠加，产生风格融合效果，为高级提示词工程提供组合语法基础。
+  excerpt:
+  - （隐含于素材提供大量原子化风格标签供用户自由组合的意图中）
+findings:
+- name: 知名艺术家风格辨识度极高
+  desc: '[evidence] 素材展示的齐白石、吴冠中、梵高、莫奈、达芬奇、草间弥生、空山基、井上雄彦、鸟山明、宫崎骏、新海诚、新川洋司、藤子不二雄、高桥留美子等个体艺术家关键词，均能生成高度符合其标志性视觉语言（笔触、色彩、角色设定、线条风格）的图像。'
+  excerpt:
+  - 齐白石 Qi Baishi
+  - 吴冠中 Wu Guanzhong
+  - 空山基 Hajime Sorayama
+  - 倪传婧 Victo Ngai
+  - 草间弥生 Yayoi Kusama
+  - 佐伯俊男 Toshio Saeki
+  - 井上雄彦 Takehiko inoue
+  - 方力钧 Fang Lijun
+  - 维吉尔·芬莱 Virgil Finlay
+  - 格雷格·托基尼 Greg Tocchini
+  - 梵高 Vincent Van Gogh
+  - 达芬奇 Leonardo Da Vinci
+  - 克劳德莫奈 Claude Monet
+  - 新川洋司 Yoji Shinkawa
+  - 山本高远 Takato Yamamoto
+  - 山田章博 Yamada Akihiro
+  - 上村松园 Uemura Shoen
+  - 宫崎骏 Miyazaki Hayao style
+  - 新海诚 Makoto Shinkai
+  - 藤子不二雄 Fujiko Fujio
+  - 高桥留美子 Rumiko Takahashi
+  - 鸟山明 Akira Toriyama
+- name: 美术史流派关键词具备强约束力
+  desc: '[evidence] 印象派、立体派、野兽派、超现实主义、巴洛克、洛可可、文艺复兴、建构主义、极简主义、波普艺术、欧普艺术、抽象表现主义、未来主义、蒸汽朋克、哥特式等流派词，能强制生成符合该流派核心形式语言（如立体派几何解构、印象派光色碎笔、超现实主义异质并置）的图像。'
+  excerpt:
+  - 印象派 Impressionism
+  - 新艺术风格 Art Nouveau
+  - 新艺术 Rococo
+  - 巴洛克时期 Baroque
+  - 建构主义 Constructivist
+  - 粗犷主义 brutalist
+  - 极简主义 Minimalist
+  - 未来主义 futuristic
+  - 维多利亚时代 Victorian
+  - 欧普艺术 OP Art
+  - 超现实主义 Surrealism
+  - 抽象表现主义 Abstract Art
+  - 立体派 Cubism
+  - 野兽派 Fauvism
+  - 文艺复兴 Renaissance
+  - 蒸汽朋克 Steampunk
+  - 哥特式黑暗 Gothic gloomy
+- name: 商业IP与工作室风格具有高度一致性
+  desc: '[evidence] 吉卜力、皮克斯、梦工厂、迪士尼(隐含)、任天堂(宝可梦)、FromSoftware(魂系)、暴雪/拳头(英雄联盟/守望先锋风)、鸟山明(龙珠)、岸本齐史(火影)、久保带人(死神)、谏山创(进击巨人)、宫崎英高(旷野之息/魂系)、Apex英雄、上古卷轴、星际战甲、剑与远征等IP/工作室/游戏关键词，输出画面高度统一于其官方美术设定（角色比例、渲染管线、色彩脚本、线条处理）。'
+  excerpt:
+  - 吉卜力风格 Ghibli Studio
+  - 皮克斯 Pixar
+  - 梦工厂动画 CGSociety
+  - 梦工厂影业 DreamWorks Pictures
+  - 宝可梦 Pokémon
+  - 魂系游戏 From Software
+  - 剑与远征 AFK Arena
+  - 英雄联盟 League of legends
+  - 龙珠风格 dragon ball
+  - 火影忍者风格
+  - 死神风格
+  - 进击的巨人 Attack on Titan
+  - 旷野之息 botw
+  - 星际战甲 Warframe
+  - Apex英雄 APEX
+  - 上古卷轴 The Elder Scrolls
+- name: 传统媒介与技法关键词控制物理质感
+  desc: '[evidence] 油画、水彩、素描、水墨、版画(木刻/铜刻/利诺剪裁)、拼贴/蒙太奇、矢量图、Riso印刷、彩色玻璃、绗缝、建筑素描、手稿、雕塑等关键词，主要控制生成图像的材质感、笔触纹理、色彩层叠逻辑与边缘特征，而非语义内容。'
+  excerpt:
+  - 彩色玻璃窗 Stainer glass window
+  - 水墨插图 ink illustration
+  - 点彩派 pointillism
+  - 绗缝艺术 quilted art
+  - 建筑素描 architectural sketching
+  - 水彩儿童插画 Watercolor children's illustration
+  - 东方山水画 Tradition Chinese Ink Painting
+  - 浮世绘 Japanese Ukiyo-e
+  - 日本漫画风 Japanese comics
+  - riso印刷风 risograph
+  - 设计风 Graphic
+  - 墨水渲染 ink render
+  - 电影摄影风格 film photography
+  - 剪辑 montage
+  - 油画 oil painting
+  - 素描 sketch
+  - 雕塑 ink painting
+  - 印刷版画 Blockprint
+  - 利诺剪裁 Lino cut
+  - 手稿 manuscript
+  - 向量图 Vector
+  - 大地艺术 Land Art
+  - 涂鸦艺术 Graffiti Art
+- name: 题材/体裁标签引导内容生成而非纯风格
+  desc: '[evidence] 肖像画、风景画、科幻画、恐怖画、动漫画、概念艺术、等距视角、Q版(chibi)等标签，往往同时改变画面构图比例、主体聚焦方式、透视角度及细节密度，属于''内容-风格''双重导向标签。'
+  excerpt:
+  - 肖像画 Portraits
+  - 风景画 Landscape
+  - 动漫画 Anime
+  - 科幻画 Sci-fi
+  - 恐怖画 Horror
+  - 概念艺术家 Concept artists
+  - 概念艺术 concept art
+  - 等距 isometric
+  - Q版 chibi
+  - 充满细节 full details
+  - 抽象 Abstract
+  - 童话插图 stock illustration style
+  - 时尚 Fashion
+  - 日本海报 poster of japanese graphic design
+  - 90年代电视游戏 90s video game
+  - 黑白电影 Pulp Noir
+  - 乡村风格 Country style
+  - 复古黑暗 retro dark vintage
+  - 民族艺术 Ethnic Art
+  - 统一创作 Unity Creations
+- name: 基准图揭示模型默认偏好
+  desc: '[evidence] 素材开头展示的''原本出的图''(无风格词)呈现为某种半写实、偏数字艺术感、构图居中的默认风格，印证了模型存在显著的''默认审美基线''，所有风格词均是在对抗或偏移该基线。'
+  excerpt:
+  - 我们先来看看原本出的图是啥样吧
+  - '![](img/861e39541e1b3c83ace00373614251e6.png)'
+- name: 部分风格词存在语义冲突或不可控性
+  desc: '[claim] 素材作者对''星际战甲 Warframe''标注''配这个Prompt有点诡异的画风，不忍直视''，实证表明特定高强度风格词与特定基准Prompt的语义空间可能冲突，导致结构崩解或恐怖谷效应。'
+  excerpt:
+  - 星际战甲 Warframe（配这个Prompt有点诡异的画风，不忍直视）
