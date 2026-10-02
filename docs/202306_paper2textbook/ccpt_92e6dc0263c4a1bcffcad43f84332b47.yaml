@@ -1,0 +1,81 @@
+paper: docs/202306/20230613_275.md
+desc: 该素材为一篇关于 Stable Diffusion (SD) 进阶玩法及商业落地应用的实战经验总结帖，作者基于两个月持续学习构建的全流程认知框架，通过对比
+  Midjourney 确立 SD 的可控性优势，重点阐述了 ControlNet (CN)、LoRA 等核心插件技术在人物换装、换背景等商业场景中的组合应用方法，并明确指出了
+  LoRA 模型版权风险等落地限制条件。
+concepts:
+- name: SD 全流程应用框架
+  desc: 作者经过两个月实践构建的、涵盖 SD 核心功能认知、进阶玩法技巧及商业落地全链路的系统性知识体系。
+  is_original: true
+  excerpt:
+  - 持续学习 stable diffusion2 个月，如今的我已经基本构建起了对 SD 较为全面功能的认识及应用玩法全流程的整体框架
+- name: ControlNet (CN)
+  desc: SD 核心控制插件，用于精准控制图像生成的结构、姿势、深度等条件，是实现商业级可控生成（如人物换装、换背景）的关键技术组件。
+  is_original: false
+  excerpt:
+  - 文中提到的 CN 是指的 SD 中的一个插件，全称叫 controlnet
+  - 6-3 商业落地部分，人物换模特换背景也是通过 controlnet 插件实现的
+- name: LoRA 模型 (Low-Rank Adaptation)
+  desc: 用于微调大模型风格/角色的低秩适配模型，素材中作为实现特定风格化输出的核心手段，但因版权/许可证问题被明确标注为不可商用。
+  is_original: false
+  excerpt:
+  - 后面部分的 LoRA 模型目前没办法商用，仅供参考
+- name: SD 与 Midjourney 核心差异维度
+  desc: 以『可控性』为核心对比维度，确立 SD 在精准控制、本地化部署、插件生态扩展性上的优势，以及 MJ 在审美基线、上手门槛上的优势。
+  is_original: true
+  excerpt:
+  - 对比 midjourney，stable diffusion 有什么优劣势？
+methods:
+- name: __overview__
+  desc: 基于『功能认知 -> 进阶玩法 -> 案例落地』的三阶段实战教学法，结合『SD vs MJ 对比定位』与『插件组合拳（CN+LoRA+Base Model）』技术路线，解决商业级可控生成需求。
+  excerpt:
+  - 本篇主要内容如下：①持续学习...构建起了...整体框架...分享关于 SD 目前较为进阶的玩法及案例应用等的相关思路
+  - ②对比 midjourney...stable diffusion 到底怎么玩？如何将玩法代入应用？
+  - 本篇将以案例逐一讲解
+- name: 商业落地：人物换模特/换背景工作流
+  desc: 利用 ControlNet 插件（可能结合 OpenPose/Depth/Inpaint 等预处理器）锁定人物姿态与结构，替换主体特征（模特）或环境背景，实现电商/广告级定制化出图。
+  excerpt:
+  - 6-3 商业落地部分，人物换模特换背景也是通过 controlnet 插件实现的
+- name: 风格/角色固化：LoRA 微调应用法
+  desc: 加载特定 LoRA 模型注入风格或角色特征，配合基础大模型与 ControlNet 结构控制，快速产出统一风格系列图，但需注意版权合规审查。
+  excerpt:
+  - 后面部分的 LoRA 模型目前没办法商用，仅供参考
+theorems:
+- name: SD 核心竞争力 = 可控性 + 本地化 + 开放生态
+  desc: SD 相对 Midjourney 的核心优势不在于单张图出片率或审美上限，而在于通过 ControlNet 等插件实现的精准可控生成、数据隐私安全的本地化部署能力，以及
+    LoRA 等开放微调生态带来的无限扩展性。
+  excerpt:
+  - 对比 midjourney，stable diffusion 有什么优劣势？
+  - 带你看到不一样的 stable diffusion！
+- name: 工程化落地前置条件：版权合规审查 > 技术可行性
+  desc: 在商业落地环节，技术方案（如 LoRA 微调、特定 Checkpoint 使用）的可行性验证必须后置于模型许可证（License）合规性确认，规避法律风险是落地前提。
+  excerpt:
+  - 后面部分的 LoRA 模型目前没办法商用，仅供参考
+- name: 认知构建路径：全流程框架先行，细节技术点穿插
+  desc: 学习 SD 不应碎片化堆砌参数，而应先建立『功能-玩法-应用』的全局心智模型，再在具体案例中验证 ControlNet、LoRA 等关键节点技术。
+  excerpt:
+  - 构建起了对 SD 较为全面功能的认识及应用玩法全流程的整体框架
+  - 希望能帮大家打开思路，收获经验
+findings:
+- name: ControlNet 为商业落地核心引擎
+  desc: '[evidence] 评论区明确指出『6-3 商业落地部分，人物换模特换背景也是通过 controlnet 插件实现的』，佐证了 CN 在结构保持语义编辑任务中的不可替代性。'
+  excerpt:
+  - 6-3 商业落地部分，人物换模特换背景也是通过 controlnet 插件实现的
+- name: LoRA 模型商用法律风险高
+  desc: '[claim] 作者/评论区明确宣称『LoRA 模型目前没办法商用，仅供参考』，揭示了当前开源社区微调模型版权归属不清、基础模型许可证冲突（如 SD1.5/
+    SDXL 协议限制）导致的商业化隐形门槛。'
+  excerpt:
+  - 后面部分的 LoRA 模型目前没办法商用，仅供参考
+- name: 纯技术文档存在理解门槛，需多模态辅助教学
+  desc: '[evidence] 评论区用户反馈『看不懂，词有点专业』，作者回应『技术性内容没办法通俗解释 而图片的效果和作用能够更让大家直观理解』，印证了生成式
+    AI 工程教学中『参数/节点文本描述』与『视觉结果反馈』结合的必要性。'
+  excerpt:
+  - '徐濠萦的老公 : 看不懂，词有点专业'
+  - '番茄🍅 : 技术性内容没办法通俗解释 而图片的效果和作用能够更让大家直观理解'
+- name: SD 进阶玩法核心在于『插件组合编排』而非单一模型调参
+  desc: '[evidence] 素材标题强调『出图玩法及落地应用大全』，正文强调『进阶玩法及案例应用』，评论区揭示核心技术栈为 ControlNet + LoRA
+    + Base Model 的组合，而非单纯调整 Prompt 或 Sampler 参数。'
+  excerpt:
+  - 《Stable Diffuion 出图玩法及落地应用大全》
+  - 分享关于 SD 目前较为进阶的玩法及案例应用等的相关思路
+  - 人物换模特换背景也是通过 controlnet 插件实现的
+  - 后面部分的 LoRA 模型
