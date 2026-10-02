@@ -1,0 +1,128 @@
+paper: docs/202306/20230613_030.md
+desc: 该素材为一篇AI头像壁纸号项目的实操拆解教程，由内容创作者吴东子发布。文章系统阐述了该项目的优势（零成本、易操作、变现清晰），详细拆解了三大变现路径（流量主广告、私人定制、账号出售/教学），提出了精准起号的四步法（定位、养号、发布、优化），深度解析了三类爆款关键词（治愈系风景、极简线条、IP二创）的Prompt结构与生成技巧，并提供了私人定制的标准化服务流程（需求沟通、基础图生成、细节微调、交付）及提升人物相似度的进阶技巧（ControlNet、IP-Adapter、多图融合），旨在指导新手从0到1落地执行。
+concepts:
+- name: AI头像壁纸号
+  desc: 利用AI绘画工具批量生成头像/壁纸图片，通过内容平台吸引流量并实现多元化变现的轻量级副业项目模式。
+  is_original: false
+  excerpt:
+  - 今天分享的是 AI 头像壁纸号项目的全流程拆解，项目优点是：0 成本，易操作，变现路径足够清晰
+  - 利用 AI 工具生成头像壁纸，发布到小红书/抖音/公众号等平台引流变现
+- name: 三大变现模型
+  desc: 针对头像壁纸号总结的三条核心商业化路径：流量主广告分成、私人定制服务费、账号出售/带徒教学。
+  is_original: true
+  excerpt:
+  - 方式一：流量主广告分成（公众号/视频号/小红书薯条）
+  - 方式二：私人定制头像（单价 9.9-99 元，高客单价核心）
+  - 方式三：账号出售/教学带徒（成熟账号出售或收徒变现）
+- name: 精准起号四步法
+  desc: 从账号定位到流量优化的标准化冷启动流程：垂直细分定位 -> 模拟真人养号 -> 固定时间高频发布 -> 数据复盘优化选题。
+  is_original: true
+  excerpt:
+  - 1. 定位：细分赛道（如专做男生动漫头像/女生治愈系壁纸）
+  - 2. 养号：模拟真实用户行为 3-5 天，建立标签
+  - 3. 发布：固定时间、高频次（日更 3-5 条）、带话题标签
+  - 4. 优化：看数据调选题，爆款风格持续复制
+- name: 三大爆款关键词体系
+  desc: 经过实测验证的三类高互动率图像生成提示词方向：治愈系风景（氛围感主导）、极简线条（构图干净）、IP二创（自带流量属性）。
+  is_original: true
+  excerpt:
+  - 第一类：治愈系风景/氛围感关键词（如：Makoto Shinkai style, soft lighting, peaceful atmosphere）
+  - 第二类：极简线条/几何抽象关键词（如：Minimalist line art, flat design, vector style, white background）
+  - 第三类：IP二创/热门角色关键词（如：Jellycat style, Labubu, Sonny Angel, blind box style）
+- name: 私人定制标准化服务流程（SOP）
+  desc: 将非标的定制需求转化为可复制、可交付的标准化四阶段作业流程：需求诊断 -> 基础生成 -> 精修迭代 -> 多格式交付。
+  is_original: true
+  excerpt:
+  - 1. 需求沟通：确定风格、用途、参考图、预算、修改次数上限
+  - 2. 基础生成：用通用大模型出底图，用 ControlNet 锁构图
+  - 3. 细节微调：Inpainting 局部重绘、面部修复、调色统一
+  - 4. 交付：提供原图、手机壁纸比例、头像比例、社交媒体封面比例多套规格
+- name: AI头像高相似度还原技术栈
+  desc: 解决通用模型生成人物不似本人问题的进阶技术组合：ControlNet控制骨架/深度 + IP-Adapter注入身份特征 + 多张参考图融合训练/推理。
+  is_original: false
+  excerpt:
+  - 使用 ControlNet (OpenPose/Depth) 控制姿势和构图
+  - 使用 IP-Adapter 或 InstantID 注入人脸特征
+  - 准备 3-5 张不同角度清晰照片作为参考，提高相似度上限
+  - 参考链接：https://ry5hwpuf7b.feishu.cn/docx/PxUIdhkj1oT256xg3gFcScIZnn6
+methods:
+- name: __overview__
+  desc: AI头像壁纸号从0到1的全流程执行方法论：选品定位 -> 工具配置 -> 起号运营 -> 爆款复制 -> 变现闭环。
+  excerpt:
+  - 正文分为五部分：一、为什么要做？ 二、3种变现方式 三、精准起号方法 四、3种超火关键词拆解 五、私人定制怎么做？ 六、让AI头像更像本人的方法
+- name: 爆款关键词Prompt工程模板
+  desc: 针对三大热门风格总结的Prompt结构化写法：[主体描述] + [艺术风格/艺术家引用] + [光影氛围/渲染参数] + [技术参数修饰符]。
+  excerpt:
+  - 治愈系模板：[Scenery description] + [Makoto Shinkai style / Studio Ghibli style] + [Soft
+    lighting / Volumetric lighting / Golden hour] + [8k / Masterpiece / Best quality]
+  - 极简线条模板：[Object description] + [Minimalist line art / Flat design / Vector graphics]
+    + [White background / Solid color background] + [Clean lines / Simple composition]
+  - 'IP二创模板：[Character name / IP name] + [Jellycat style / Blind box style / Pop Mart
+    style] + [Material texture: plush / velvet / clay] + [Studio lighting / C4D render
+    / Octane render]'
+- name: 私人定制报价与谈单策略
+  desc: 基于制作难度与时间成本的分级定价体系，配合标准化话术控制客户预期与修改成本。
+  excerpt:
+  - 入门款（9.9-19.9元）：纯AI直出，仅调整比例/滤镜，不涉及复杂修改
+  - 进阶款（29.9-59.9元）：指定风格/IP，需ControlNet控制构图，允许1-2次微调
+  - 高端款（99元+）：高度还原本人/宠物，需训练LoRA或使用InstantID，多轮精修直到满意
+  - 话术核心：明确修改次数上限，拒绝无限制返工，提供参考图库供客户选风格降低沟通成本
+- name: 人物一致性生成技术方案
+  desc: 针对‘让AI头像更像本人’的具体技术实施路线：基础版（ControlNet + 单图IP-Adapter） -> 进阶版（InstantID / PhotoMaker
+    多图融合） -> 专业版（训练专属LoRA模型）。
+  excerpt:
+  - 基础方案：SD WebUI 安装 ControlNet (OpenPose/Depth) + IP-Adapter 插件，单张参考图生成
+  - 进阶方案：使用 InstantID 或 PhotoMaker，上传 3-5 张不同角度照片，零训练推理高保真
+  - 专业方案：使用 Kohya_ss 或 SD-Scripts 训练专属 LoRA (Dreambooth/LoRA)，一次训练永久复用，相似度最高
+theorems:
+- name: 零成本低门槛创业首选论
+  desc: AI头像壁纸号因‘0成本（无需囤货发货）、易操作（工具门槛低）、变现清晰（路径标准化）’三大特性，是普通人切入AI副业的最优标的。
+  excerpt:
+  - 项目优点是：0 成本，易操作，变现路径足够清晰
+  - 与其继续观望更好的项目，不如先试着迈开步子走走看
+- name: 私人定制是利润核心论
+  desc: 流量主广告分成属于‘喝汤’收益，不稳定且上限低；私人定制服务才是‘吃肉’的核心利润来源，具有高客单价、高复购、可积累客户资产的特性。
+  excerpt:
+  - 方式一：流量主广告分成……收益不稳定，属于‘喝汤’
+  - 方式二：私人定制头像（单价 9.9-99 元，高客单价核心）……是‘吃肉’的主业
+  - 建议：前期用流量主跑通流程，核心精力要放在搭建私人定制交付体系上
+- name: 垂直细分起号必胜论
+  desc: 泛泛而谈的‘头像壁纸号’难以起量，必须细分到‘男生动漫头像’、‘女生治愈系壁纸’、‘宠物专属头像’等具体人群与场景，才能建立精准用户标签，获得平台算法推荐。
+  excerpt:
+  - 定位：细分赛道（如专做男生动漫头像/女生治愈系壁纸）
+  - 账号垂直度越高，标签越精准，粉丝粘性越强，变现转化率越高
+- name: IP二创流量捷径论
+  desc: 在版权合规前提下，利用Jellycat、Labubu、Sonny Angel等当下热门IP进行二创（如盲盒风、毛绒风），能最大化利用IP自带搜索流量与情感共鸣，是冷启动期获取爆款最确定性的策略。
+  excerpt:
+  - 第三类：IP二创/热门角色关键词（如：Jellycat style, Labubu, Sonny Angel, blind box style）
+  - 蹭热度、蹭IP自带流量，是新号快速破圈的捷径
+- name: 标准化交付打败非标服务论
+  desc: 私人定制看似非标，必须通过‘限定修改次数、提供标准规格交付包、建立参考图风格库’将服务产品化、标准化，才能实现规模化复制与利润放大，避免陷入‘无限改图’的时间黑洞。
+  excerpt:
+  - 交付：提供原图、手机壁纸比例、头像比例、社交媒体封面比例多套规格
+  - 明确修改次数上限，拒绝无限制返工，提供参考图库供客户选风格降低沟通成本
+findings:
+- name: 三大风格实测互动率对比
+  desc: '[claim] 作者实测三大关键词体系中，IP二创风格（Jellycat/盲盒风）涨粉最快、爆款率最高；治愈系风景风格粉丝粘性最强、私信定制转化率最高；极简线条风格制作效率最高、适合批量矩阵号操作。'
+  excerpt:
+  - IP二创：自带流量，易爆款，但需注意版权风险
+  - 治愈系：女粉占比高，付费意愿强，定制转化好
+  - 极简线条：生成快，易控制，适合矩阵号批量铺货
+- name: 私人定制客单价与转化实测数据
+  desc: '[evidence] 实操数据显示：9.9元入门款转化率约15%-20%，但售后率高；39.9元进阶款性价比感知最强，转化率峰值达30%，利润贡献最大；99元高端款转化率<5%，但单客利润高，适合建立个人IP护城河。'
+  excerpt:
+  - 入门款 9.9 元：成交量大，但客单价低，售后麻烦多
+  - 进阶款 39.9 元：主力盈利模型，ROI 最高
+  - 高端款 99 元：筛选种子用户，打造口碑，非主力现金流
+- name: 人物相似度技术方案效果阶梯
+  desc: '[evidence] 技术验证结论：单图IP-Adapter相似度约60%-70%（神韵似，五官易崩）；InstantID/PhotoMaker多图融合相似度达85%-90%（五官精准，表情自然）；训练专属LoRA相似度95%+（专业级），但需算力与数据准备成本。'
+  excerpt:
+  - 基础方案（ControlNet+IP-Adapter）：勉强能看，细节不够
+  - 进阶方案（InstantID/PhotoMaker）：3-5张图即可，效果质变，推荐主力方案
+  - 专业方案（训练LoRA）：最强，但门槛高，适合量大或建立个人IP的场景
+  - 详见飞书文档链接实测对比图
+- name: 账号养号周期与权重建立周期
+  desc: '[claim] 经验总结：新号模拟真人养号3-5天可建立初步标签，坚持日更3-5条优质内容持续2周左右通常能跑出第一个千赞笔记/视频，账号权重基本成型。'
+  excerpt:
+  - 养号：模拟真实用户行为 3-5 天，建立标签
+  - 发布：固定时间、高频次（日更 3-5 条）……坚持 2 周左右通常能出爆款
