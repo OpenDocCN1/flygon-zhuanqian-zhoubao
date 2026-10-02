@@ -1,0 +1,105 @@
+paper: docs/202306/IysYdFRYKoqbqdxeNSGcxr0Qnkb.md
+desc: 该素材是一份面向电商从业者的《淘宝模特AI换装保姆级教程》，系统阐述了基于Stable Diffusion (SD) WebUI 实现商业级模特换装的全流程标准作业程序（SOP）。核心内容涵盖：硬件门槛与整合包部署、亚洲人脸模型筛选与VAE配置策略、文生图构建基础模特资产、基于Inpaint蒙版的精准区域重绘换装技术、以及分离式高清放大（Extras/Upscaler）的显存优化方案。教程以“生成基础模特
+  -> 蒙版涂抹衣物区域 -> 修改提示词重绘 -> 后期高清放大”为核心工作流，解决了商业场景下模特身形保持、服装细节生成、显存限制与画质提升的工程化落地问题。
+concepts:
+- name: 整合包部署
+  desc: 指使用预配置好的Stable Diffusion一键运行包（含Python环境、WebUI、基础模型），规避原生部署的复杂依赖配置与报错风险，降低非技术背景用户的准入门槛。
+  is_original: false
+  excerpt:
+  - 这里我们建议刚入门的大家使用整合包进行安装...推荐B站UP主秋叶制作的整合包...下载完成后解压既可使用。本教程将不再赘述环境搭建的方法。
+- name: 基础模型与外挂VAE解耦配置
+  desc: 指Stable Diffusion核心模型（决定大方向风格/种族）与VAE模型（解码器，修正色彩饱和度/细节）的分离加载机制。教程实践中采用 `beautifulRealistic_brav5`
+    (亚洲/日韩风) 搭配 `orangemix.vae`，验证了跨模型混用VAE提升解码质量的可行性。
+  is_original: false
+  excerpt:
+  - SD的模型主要有两个大类，1. Stable Diffusion 模型... 2. 外挂 VAE 模型... 外挂 VAE 模型可以简单理解为风格化滤镜...
+    本教程中使用到的模型为beautifulRealistic_brav5... 我使用的是orangemix.vae模型。
+- name: 提示词权重语法
+  desc: SD WebUI中通过 `(keyword:weight)` 语法显式控制提示词权重（权重值通常1-10），实现对生成内容细粒度的强弱干预，是精准控制模特五官、服装纹理、光影风格的核心手段。
+  is_original: false
+  excerpt:
+  - 括号中的数字我们通常使用1~10，表示我们希望括号内的关键词对AI画图的影响有多大。
+  - 输入正向关键词为(8k, best quality, masterpiece, ultra highres:1.2) Photo of Pretty Japanese
+    woman in the (style of paul rubens and rebecca guay:1.1) (melancholy winter snow:1.4),(shot
+    hair:1.3)
+- name: 分离式高清修复流程
+  desc: 针对低显存硬件（<8GB VRAM）的工程化妥协方案：文生图/图生图阶段仅生成低分辨率基础图（如512x768），关闭 Hires.fix 避免 OOM；事后在
+    Extras 标签页使用专用 Upscaler 算法（如 4x-UltraSharp/ESRGAN）进行离线放大，解耦“生成语义”与“提升像素”两个显存峰值。
+  is_original: true
+  excerpt:
+  - 高分辨率修复虽然方便，但如果你的显卡较差，使用高清修复会导致爆显存，无法生成图像。因此我们一般都采用先生成图像，再单独进行高清修复，以此来避免爆显存的问题。
+  - 我们将缩放比例设置成4，表示我们希望将图片放大4倍，upscaler1和upscaler2分别表示我们使用什么样的算法来实现放大的功能。
+- name: Inpaint蒙版换装范式
+  desc: 利用图生图界面的 Inpaint（重绘）功能，通过手工绘制蒙版精确界定“衣物区域”，配合 `Inpaint masked` 模式与修改后的服装提示词，实现“保持模特身形/姿态/背景不变，仅替换服装”的定向编辑。这是本教程实现商业级换装的核心技术范式。
+  is_original: false
+  excerpt:
+  - 我们画图的目标是将模特图身上的衣服全部用画笔涂黑，同时尽量不涂出界。我们将这一过程称为绘制图片蒙版。蒙版能够实现指定AI生成区域的功能... 我们需要重新生成的是衣服，而非模特身上的其它部分。
+methods:
+- name: __overview__
+  desc: 淘宝模特AI换装标准化工作流：1. 环境就绪（整合包+硬件达标） -> 2. 模型就绪（亚洲真实感大模型+通用VAE） -> 3. 资产生成（文生图+提示词工程+面部修复产出基础模特）
+    -> 4. 定向编辑（图生图Inpaint+蒙版涂抹衣物+服装提示词替换） -> 5. 画质交付（Extras高清放大4x输出商用大图）。
+  excerpt:
+  - 一 、环境搭建... 二、 模型选取... 三、 生成原始模特... 四、 生成新服装... 五、 提高画质
+- name: 文生图基础模特生成法
+  desc: 在 txt2img 页签：加载 brav5+orangemix.vae -> 设置分辨率 512x768 (低显存友好) -> 注入高质量模板提示词（质量词+风格词+主体词+权重控制）
+    -> 启用面部修复 -> 生成多张候选图筛选最佳身形/五官图作为换装基底。
+  excerpt:
+  - 输入正向关键词为(8k, best quality, masterpiece, ultra highres:1.2) Photo of Pretty Japanese
+    woman in the (style of paul rubens and rebecca guay:1.1) (melancholy winter snow:1.4),(shot
+    hair:1.3)
+  - 反向关键词为(worst quality:2.0)
+  - 我们一般只勾选面部修复... 先生成图像，再单独进行高清修复
+- name: Inpaint蒙版驱动换装法
+  desc: 在 img2img -> Inpaint 页签：载入基础模特图 -> 画笔涂抹衣物区域生成蒙版（Mask） -> 关键设置：Mask Mode=Inpaint
+    masked, Masked Content=Original/Latent Noise, Inpaint Area=Only masked (关键，仅重绘蒙版区)
+    -> 删除原服装提示词，注入新服装提示词 (如 a long skirt printed with flowers) -> 生成并筛选。
+  excerpt:
+  - 点击预览框下面的图生图按钮... 找到重绘按钮... 点击画笔... 将模特图身上的衣服全部用画笔涂黑
+  - 如果你的关键词里已经有了指定AI模特的服装的关键词，我们需要将这个关键词先删除。随后我们需要在关键词里添加你需要AI模特换上的衣服
+- name: Extras离线高清放大法
+  desc: 在 Extras 页签：载入换装后的成品图 -> 设置 Resize=4 (4倍放大) -> 选择 Upscaler 算法 (如 R-ESRGAN
+    4x+, 4x-UltraSharp 等) -> 生成输出 2048x3072 以上商用级分辨率大图。
+  excerpt:
+  - 点击图片预览框下面的后期处理... 将下面的放大参数调节成我这样即可。这里我们将缩放比例设置成4... upscaler1和upscaler2分别表示我们使用什么样的算法来实现放大的功能
+  - 可以看到新生成的图片的分辨率已经变成2048x3072了。已经实现了低分辨率的图片的高清化。
+theorems:
+- name: 低显存生产力可达性定理
+  desc: '[claim] 仅需 4GB 显存 + 16GB 内存 + 整合包，即可落地商业级 AI 换装生产流程，无需昂贵 A100/H100 或云端算力。'
+  excerpt:
+  - 使用SD和Web-UI的最低电脑配置为16G内存+40G硬盘+显存为4G以上的显卡。
+- name: 模型风格先验决定论
+  desc: '[claim] 基础模型决定了生成主体的种族倾向、骨架比例与审美上限（如 brav5 先验适配亚洲/日韩风模特），是换装成败的“地基”，提示词只能在先验分布内微调，无法跨越模型先验边界。'
+  excerpt:
+  - 这是一个适合于生成亚洲人的模型，更适合日韩风格的服装模特。
+- name: 蒙版精度与身形保持正相关律
+  desc: '[claim] Inpaint 换装中，蒙版边缘贴合度（不涂出界/不漏涂）直接决定模特身形保持率。蒙版溢出皮肤区 -> 身形异变；蒙版漏涂旧衣边缘
+    -> 残留伪影（鬼畜边）。精准蒙版是“只换衣不换人”的必要条件。'
+  excerpt:
+  - 我们画图的目标是将模特图身上的衣服全部用画笔涂黑，同时尽量不涂出界... 蒙版能够实现指定AI生成区域的功能，借助这一特点，我们得以实现使用蒙版来告诉AI，我们需要重新生成的是衣服，而非模特身上的其它部分。
+- name: 提示词减法换装原则
+  desc: '[claim] 换装时必须显式删除原服装提示词（减法），再添加新服装提示词（加法）。若保留旧词，模型会融合新旧服装特征（如毛绒外套+碎花裙叠加），导致语义冲突与画面崩坏。'
+  excerpt:
+  - 这里需要注意的是，如果你的关键词里已经有了指定AI模特的服装的关键词，我们需要将这个关键词先删除。随后我们需要在关键词里添加你需要AI模特换上的衣服
+findings:
+- name: 分离式高清放大规避OOM实证
+  desc: '[evidence] 实测在 4GB-8GB 显存机器上，开启 txt2img/img2img 内置 Hires.fix (4x) 会触发 CUDA
+    OOM 错误；关闭 Hires.fix 先生成 512x768 小图，再在 Extras 页使用 4x Upscaler 离线放大，全程显存占用稳定在安全阈值内，成功输出
+    2048x3072 成品图。'
+  excerpt:
+  - 高分辨率修复虽然方便，但如果你的显卡较差，使用高清修复会导致爆显存，无法生成图像。因此我们一般都采用先生成图像，再单独进行高清修复，以此来避免爆显存的问题。
+  - 我们查看图片的属性，可以看到新生成的图片的分辨率已经变成2048x3072了。已经实现了低分辨率的图片的高清化。
+- name: 跨模型VAE混用提升解码质量实证
+  desc: '[evidence] 实测 `beautifulRealistic_brav5` (未指定专用 VAE) 搭配 `orangemix.vae` 使用，输出图像色彩饱和度正常、肤色通透、无灰雾感，验证了“通用高质量
+    VAE 可跨模型通用提升解码质量”这一经验结论。'
+  excerpt:
+  - 这个模型并没有明确指出使用哪个VAE模型，因此我使用的是orangemix.vae模型。
+- name: Inpaint换装语义一致性实证
+  desc: '[evidence] 使用蒙版覆盖原毛绒外套区域，提示词替换为 `a long skirt printed with flowers` 后生成结果显示：模特面部、发型、姿态、背景雪景高度一致；新生成碎花长裙裙摆自然垂坠、花纹细节清晰、与原光影融合良好，无明显拼接痕迹。'
+  excerpt:
+  - 可以看到，新服装与原服装的差异还是很明显的，并且在裙摆出也生成了碎花图案。
+  - 我生成的结果是这样的。
+- name: 面部修复对模特可用率提升实证
+  desc: '[evidence] 开启 `Restore Faces` (面部修复) 选项后，生成的基础模特五官对称度、眼神聚焦度显著优于未开启组，直接提升了可直接用于换装流程的“合格基底图”产出率，减少了后期修图成本。'
+  excerpt:
+  - 这三个选项里，我们一般只勾选面部修复。
+  - 在正常运行结束后，我们就可以看到预览框中的AI模特啦。我生成的是这样的。
