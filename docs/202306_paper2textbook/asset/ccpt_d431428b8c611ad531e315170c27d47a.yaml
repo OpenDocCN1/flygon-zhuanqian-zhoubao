@@ -1,0 +1,150 @@
+paper: docs/202306/PxUIdhkj1oT256xg3gFcScIZnn6.md
+desc: 该素材是一篇关于“AI头像壁纸号”项目的全流程实操拆解教程，由内容创作者吴东子撰写。文章系统阐述了项目的可行性分析（0成本、易操作、长期蓝海）、三大变现模式（小程序挂载广告收益、私人定制头像服务、收徒卖课知识付费）、基于“抄爆款与异常值+以量取胜”的精准起号策略、三种小红书热门风格（极简、动漫、流光女孩）的
+  Midjourney/Stable Diffusion 关键词拆解、基于 Midjourney 图生图（垫图）功能的私人定制头像两大核心工作流（二次元风格与皮克斯/盲盒风格），以及结合
+  InsightFace Discord 机器人实现“换脸定身”的进阶相似度优化方案。素材以“奶奶都能听懂”为标准，提供了可直接复用的 Prompt 模板、工具链接及分步操作截图指引，是一份面向普通用户的
+  AI 变现落地标准作业程序（SOP）。
+concepts:
+- name: AI头像壁纸号
+  desc: 利用 AI 绘画工具批量生成头像/壁纸内容，发布于小红书等平台获取流量并变现的轻量级副业项目模式，核心优势为 0 成本、易操作、需求长期存在。
+  is_original: false
+  excerpt:
+  - 头像壁纸号一直是一个蓝海项目...随着AI绘画技术面世之后，头像壁纸变得更加容易产出...0成本，易操作，变现路径清晰
+  - 项目优点是：0成本，易操作，变现路径足够清晰
+- name: 异常值选品法
+  desc: 一种内容选题策略：在同类账号的常规数据中，识别出点赞/互动远超平均水平的‘异常值’笔记，拆解其关键词与构图要素进行复刻，以提升出爆款概率。
+  is_original: true
+  excerpt:
+  - 异常值是什么？指的是那些普通的数据中不普通的存在...一个笔记平均在20-30赞的博主，突然做出了一个2000赞的内容...你去挖掘出来，复制，就能大大提升你的成功概率
+- name: 图生图垫图工作流
+  desc: Midjourney 核心功能应用模式：上传参考图 -> 获取图片链接 -> 组合 Prompt（原图链接 + 原图描述 + 目标风格词 + 参数）
+    -> 生成保持原图动作/构图但风格迁移的新图。
+  is_original: false
+  excerpt:
+  - 关键词有三个部分构成，分别是：原图链接+原图描述+出图风格
+  - 把图片拖动到文本框...在链接后面输入一个空格，再往下写关键词...前半部分的关键词就是我们发给midjourney的这张图的描述...输入完描述词之后，就可以输入我们最后想要得到什么风格的图
+- name: InsightFace 换脸定身法
+  desc: 结合 Midjourney 生成风格图与 InsightFace Discord 机器人进行人脸替换的组合技术路线，解决 MJ 图生图无法精准保持人脸身份特征的痛点，实现‘风格由
+    MJ 决定，长相由本人决定’。
+  is_original: true
+  excerpt:
+  - 在midjourney里面，哪怕已经给AI喂图了，出来的照片人物还是太过于随机了，而且经常会不像本人...这时候我们就可以用到一个叫InsightFace的换脸插件
+  - 具体操作步骤：1.用图生图的方法先生成一张照片 2.把换脸机器人邀请到自己的频道 3.上传人脸照片 4.进行人脸的替换
+- name: 三层变现漏斗
+  desc: 针对同一流量池分层变现的商业模型：L1 挂载小程序广告（被动、低客单价、广撒网）；L2 私人定制服务（主动、中高客单价、高客单价）；L3 知识付费收徒（高杠杆、高复利、收割学习需求）。
+  is_original: true
+  excerpt:
+  - 目前有3种变现方式：1.挂载平台 2.私人定制头像 3.收徒卖课
+  - 挂载平台的变现方式是最简单的...但是这种方式一个号的收益是比较低的...私人定制头像...单价跨度还比较大...收徒卖课...产品可以是最简单的关键词、资料包，进阶一点的视频课，或者更高阶的陪跑训练营
+methods:
+- name: __overview__
+  desc: AI 头像壁纸号项目全流程标准化作业程序（SOP），涵盖选品、生产、运营、变现闭环。核心逻辑：工具链标准化 + Prompt 模板化 + 运营策略数学化（以量对冲概率）+
+    变现路径分层化。
+  excerpt:
+  - 正文分为五部分：一、为什么要做头像壁纸号？ 二、AI头像壁纸号3种变现方式 三、AI头像壁纸号精准起号方法 四、三种超火的头像关键词拆解 五、私人定制头像怎么做？
+    六、让AI头像更像本人的方法
+  - 起号的方法就两个字：1.抄 2.量
+- name: 极简风格 Prompt 模板
+  desc: 基于 Midjourney Niji 模型生成极简矢量插画风头像的标准化关键词结构，核心要素：主体特征 + 极简艺术风格词 + 平面/矢量渲染参数。
+  excerpt:
+  - A girl, cold expression, white hair, black clothes, earrings, blue background,minimalist
+    art, plat illustration,vector illustration --niji
+  - 加粗字体可以自由改主体，服装，背景等
+- name: 动漫风格 Prompt 模板
+  desc: 基于 Midjourney Niji 5 模型生成新海诚/迪士尼风格动漫头像的标准化关键词结构，核心要素：角色细节描写 + 怀旧/复古氛围词 + 大师风格引用
+    + 质量增强参数。
+  excerpt:
+  - Cartoon Girl, naive and cute, watery big eyes, long black hair, red bow hair accessories,
+    wearing a white shirt, looking at the sky, nostalgic works, retro style, Disney
+    Animation, Shinkai style, top Quality --niji 5
+  - 加粗字体可以改人物和动作
+- name: 流光女孩生成法
+  desc: 利用微信小程序（如 MewX AI）内置的 Stable Diffusion ControlNet/LoRA 模型一键生成‘流光/赛博朋克’风格美女头像的轻量化替代方案，规避本地部署
+    SD 的硬件门槛。
+  excerpt:
+  - 一般这种图是在Stable Diffusion里面生成的，但是微信小程序也可以做出来一样效果的图...这里用的是小程序“MewX AI”...小程序里面自带了很多种风格的模型，可以选择你喜欢的模型
+  - 非会员每天能生成的张数有限
+- name: 二次元定制头像工作流
+  desc: 基于 MJ 图生图的私人定制标准流程：客户供图（正脸高清） -> 垫图上传 -> 编写三段式 Prompt（链接+原图描述+动漫风格词+iw/s/niji参数）
+    -> 多次重绘抽卡 -> 交付。核心参数 `--iw 2 --s 750 --niji 5` 控制原图相似度与风格化强度。
+  excerpt:
+  - 关键词有三个部分构成，分别是：原图链接+原图描述+出图风格
+  - A beautiful girl with long black wavy hair, wearing a white dress,front view,keeping
+    the same action and posture as the original picture, solid color background, anime
+    style, soft light, super details, Disney characters, art, delicate sheen --iw
+    2 --s 750 --niji 5
+  - 一般很难一次性就出来自己满意的照片，这时候就要多刷新，我们俗称“抽卡”就是这个意思，抽10次总有一次是你心仪的
+- name: 皮克斯/盲盒风格定制工作流
+  desc: 基于 MJ V5.1 模型生成 3D IP 盲盒风格头像的定制流程，Prompt 核心词：`3d character from Disney Pixar,
+    blender, ip, blind box, cinematic edge lighting`，参数 `--v 5.1 --s 750 --q 2 --style
+    raw` 保真度更高、质感更强。
+  excerpt:
+  - A handsome young man, keeping the consistency of action,expression,clothing, shape
+    and appearance of the photos,3d character from Disney Pixar, super detail,blender,
+    soft lighting, ip, blind box, cinematic edge lighting,romantic scenes --v 5.1
+    --s 750 --q 2 --style raw
+  - 生成出来的照片多刷新几次，总会找到一张比较像本人的照片
+- name: InsightFace 捕脸标准流程
+  desc: Discord 端 InsightFace 机器人操作 SOP：邀请 Bot -> `/saveid` 上传标准人脸建立 ID 库 -> `/swapid`
+    目标图替换 -> 输出高相似度成品。解决 MJ 随机性导致的‘不像本人’问题。
+  excerpt:
+  - 点击下面的链接可以把机器人邀请到自己的服务器 https://discord.com/api/oauth2/authorize?client_id=1090660574196674713&permissions=274877945856&scope=bot
+  - 在最下面的文本框输入“/” 点击左边换脸机器人的图标 选择 “/saveid” 的命令...把照片拖动进来...输入“/swapid”的指令...上传一张需要换脸的照片
+    下面输入刚刚上传的人脸的名字
+theorems:
+- name: 蓝海长期主义定律
+  desc: '[claim] 头像壁纸赛道因用户刚需（保存喜欢图片、社交身份展示）而永远存在，结合 AI 降低生产门槛后，属于可长期深耕的蓝海项目，上限取决于平台算法、时机与运营能力。'
+  excerpt:
+  - 头像壁纸号一直是一个蓝海项目...这个项目一定是长期可做的，不过能否做到高上限，会吃平台和时机以及运营
+- name: 爆款复刻论
+  desc: '[claim] 爆款内容具有结构性重复性，新手通过拆解竞品爆款关键词进行‘复刻’（非搬运），比自主创新更快见效、成功率更高。'
+  excerpt:
+  - 爆款都是重复的，比起自己琢磨研究，“抄”爆款会更快见效...找到别人的爆款笔记 尝试拆解他的关键词，然后复刻出来一样风格的头像
+- name: 数学对冲不确定性原理
+  desc: '[claim] 单条内容爆发具有强随机性，通过大幅提高发布量（以量取胜），利用大数定律对冲单次发布的波动风险，长期来看必然产出爆款。'
+  excerpt:
+  - 爆款也是有概率性的...这时候利用数量去对冲概率，相当于用数学思想对抗不确定性...你发的量又大，长期来看，不可能起不来的
+- name: 分层变现最大化定理
+  desc: '[claim] 同一流量池应同时承接三层变现：广告分成（基础保底）、定制服务（高客单）、知识付费（高杠杆），实现流量价值的全谱系榨取。'
+  excerpt:
+  - 目前有3种变现方式：1.挂载平台 2.私人定制头像 3.收徒卖课...如果有能力有时间，可以同时做几个号...这一类单价跨度还比较大...这里面会有一部分人也想学习这是怎么做的，这时就可以进行知识付费
+- name: MJ 垫图三段式 Prompt 结构论
+  desc: '[claim] Midjourney 图生图高质量出图的关键在于 Prompt 严格遵循‘原图链接 + 原图语义描述 + 目标风格修饰词 + 控制参数’的四段式结构，其中语义描述需精准对应原图视觉要素。'
+  excerpt:
+  - 关键词有三个部分构成，分别是：原图链接+原图描述+出图风格...前半部分的关键词就是我们发给midjourney的这张图的描述...输入完描述词之后，就可以输入我们最后想要得到什么风格的图
+- name: 风格解耦换脸论
+  desc: '[claim] AI 定制头像的最优解为‘风格生成与身份保持解耦’：先用 MJ 强大的风模能力生成目标风格底图，再用 InsightFace 精准换脸植入真实身份，二者结合优于单一工具直出。'
+  excerpt:
+  - 在midjourney里面，哪怕已经给AI喂图了，出来的照片人物还是太过于随机了，而且经常会不像本人...这时候我们就可以用到一个叫InsightFace的换脸插件...换脸后的图片会更倾向于本人的样子
+  - 目的是先生成出来一张自己想要的风格、跟本人外形比较相似的照片
+findings:
+- name: 小红书平台验证
+  desc: '[evidence] 素材附带截图显示小红书平台上同类头像壁纸笔记动辄获赞数千至数万，验证了该赛道在该平台存在成熟的流量分发机制与用户付费/下载意愿。'
+  excerpt:
+  - 目前在小红书上流量也很大
+  - 图片截图显示笔记点赞数 1.2w、2.5w 等高互动数据
+- name: 异常值挖掘有效性
+  desc: '[evidence] 作者展示某博主常规笔记 20-30 赞，单条异常笔记 2000 赞的对比截图，实证了‘异常值’现象的客观存在，且博主未刻意运营该异常值，说明其为算法偏好触发的可复用特征。'
+  excerpt:
+  - 一个笔记平均在20-30赞的博主，突然做出了一个2000赞的内容...博主本人没有在意这个异常值
+  - 截图展示了该博主数据分布
+- name: 三大风格关键词实测可用
+  desc: '[evidence] 素材直接给出三套 Prompt 及对应的 MJ 实测出图截图（极简、动漫、流光），证明关键词模板可直接复用产出商业级成品，降低用户冷启动调试成本。'
+  excerpt:
+  - 这里3种小红书热门风格的头像关键词，我都已经帮大家拆解好了
+  - 附带三组风格对应的 MJ 生成结果图
+- name: 定制头像垫图实测案例
+  desc: '[evidence] 以刘亦菲照片与作者自拍为输入，分别演示二次元风格与皮克斯风格的全流程操作及中间态/最终成图，实证了‘垫图+三段式Prompt+抽卡’工作流的可落地性与出图稳定性。'
+  excerpt:
+  - 这里就以刘亦菲的照片作为例子...通过midjourney的垫图功能生成一张卡通头像
+  - 就用“我”的照片给大家看看这种风格的照片该怎么做
+  - 展示了从上传垫图、输入Prompt、到最终刷新出满意成图的完整过程截图
+- name: InsightFace 换脸提升相似度实测
+  desc: '[evidence] 素材展示换脸前后对比图：MJ 直出虽风格正确但人脸偏差大，经 InsightFace 换脸后五官身份特征高度还原，实证了‘风格解耦换脸’方案在提升‘像本人’维度上的显著效果。'
+  excerpt:
+  - 出来的照片人物还是太过于随机了，而且经常会不像本人...换脸后的图片会更倾向于本人的样子
+  - 展示了换脸前后的对比截图
+- name: 私域引流产品设计验证
+  desc: '[claim] 素材展示定制头像定价策略截图：1元引流款、9.9元标准款、高价高服务款，印证了‘引流品+利润品’的产品矩阵设计在私域转化中的实战应用。'
+  excerpt:
+  - 可以做1元钱的引流产品——这里又有引流私域变现的玩法...可以做9.9元的薄利多销 也可以定更高的价格
+  - 截图显示店铺商品价格梯度设置
