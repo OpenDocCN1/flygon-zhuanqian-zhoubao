@@ -1,38 +1,38 @@
-gpt-tool -st -nt paper2textbook docs/202306   -D
-gpt-tool -st -nt paper2textbook docs/202307   -D
-gpt-tool -st -nt paper2textbook docs/202308   -D
-gpt-tool -st -nt paper2textbook docs/202309   -D
-gpt-tool -st -nt paper2textbook docs/202310   -D
-gpt-tool -st -nt paper2textbook docs/202311   -D
-gpt-tool -st -nt paper2textbook docs/202312   -D
-gpt-tool -st -nt paper2textbook docs/202401   -D
-gpt-tool -st -nt paper2textbook docs/202402   -D
-gpt-tool -st -nt paper2textbook docs/202403   -D
-gpt-tool -st -nt paper2textbook docs/202404   -D
-gpt-tool -st -nt paper2textbook docs/202405   -D
-gpt-tool -st -nt paper2textbook docs/202406   -D
-gpt-tool -st -nt paper2textbook docs/202407   -D
-gpt-tool -st -nt paper2textbook docs/202408   -D
-gpt-tool -st -nt paper2textbook docs/202409   -D
-gpt-tool -st -nt paper2textbook docs/202410   -D
-gpt-tool -st -nt paper2textbook docs/202411   -D
-gpt-tool -st -nt paper2textbook docs/202412   -D
-gpt-tool -st -nt paper2textbook docs/202501   -D
-gpt-tool -st -nt paper2textbook docs/202502   -D
-gpt-tool -st -nt paper2textbook docs/202503   -D
-gpt-tool -st -nt paper2textbook docs/202504   -D
-gpt-tool -st -nt paper2textbook docs/202505   -D
-gpt-tool -st -nt paper2textbook docs/202506   -D
-gpt-tool -st -nt paper2textbook docs/202507   -D
-gpt-tool -st -nt paper2textbook docs/202508   -D
-gpt-tool -st -nt paper2textbook docs/202509   -D
-gpt-tool -st -nt paper2textbook docs/202510   -D
-gpt-tool -st -nt paper2textbook docs/202511   -D
-gpt-tool -st -nt paper2textbook docs/202512   -D
-gpt-tool -st -nt paper2textbook docs/202601   -D
-gpt-tool -st -nt paper2textbook docs/202602   -D
-gpt-tool -st -nt paper2textbook docs/202603   -D
-gpt-tool -st -nt paper2textbook docs/202604   -D
-gpt-tool -st -nt paper2textbook docs/202605   -D
-gpt-tool -st -nt paper2textbook docs/202606   -D
-gpt-tool -st -nt paper2textbook docs/202607   -D
+gpt-tool -st -nt -mt 500_000 paper2textbook docs/202306    -t64 -D
+gpt-tool -st -nt -mt 500_000 paper2textbook docs/202307    -t64 -D
+gpt-tool -st -nt -mt 500_000 paper2textbook docs/202308    -t64 -D
+gpt-tool -st -nt -mt 500_000 paper2textbook docs/202309    -t64 -D
+gpt-tool -st -nt -mt 500_000 paper2textbook docs/202310    -t64 -D
+gpt-tool -st -nt -mt 500_000 paper2textbook docs/202311    -t64 -D
+gpt-tool -st -nt -mt 500_000 paper2textbook docs/202312    -t64 -D
+gpt-tool -st -nt -mt 500_000 paper2textbook docs/202401    -t64 -D
+gpt-tool -st -nt -mt 500_000 paper2textbook docs/202402    -t64 -D
+gpt-tool -st -nt -mt 500_000 paper2textbook docs/202403    -t64 -D
+gpt-tool -st -nt -mt 500_000 paper2textbook docs/202404    -t64 -D
+gpt-tool -st -nt -mt 500_000 paper2textbook docs/202405    -t64 -D
+gpt-tool -st -nt -mt 500_000 paper2textbook docs/202406    -t64 -D
+gpt-tool -st -nt -mt 500_000 paper2textbook docs/202407    -t64 -D
+gpt-tool -st -nt -mt 500_000 paper2textbook docs/202408    -t64 -D
+gpt-tool -st -nt -mt 500_000 paper2textbook docs/202409    -t64 -D
+gpt-tool -st -nt -mt 500_000 paper2textbook docs/202410    -t64 -D
+gpt-tool -st -nt -mt 500_000 paper2textbook docs/202411    -t64 -D
+gpt-tool -st -nt -mt 500_000 paper2textbook docs/202412    -t64 -D
+gpt-tool -st -nt -mt 500_000 paper2textbook docs/202501    -t64 -D
+gpt-tool -st -nt -mt 500_000 paper2textbook docs/202502    -t64 -D
+gpt-tool -st -nt -mt 500_000 paper2textbook docs/202503    -t64 -D
+gpt-tool -st -nt -mt 500_000 paper2textbook docs/202504    -t64 -D
+gpt-tool -st -nt -mt 500_000 paper2textbook docs/202505    -t64 -D
+gpt-tool -st -nt -mt 500_000 paper2textbook docs/202506    -t64 -D
+gpt-tool -st -nt -mt 500_000 paper2textbook docs/202507    -t64 -D
+gpt-tool -st -nt -mt 500_000 paper2textbook docs/202508    -t64 -D
+gpt-tool -st -nt -mt 500_000 paper2textbook docs/202509    -t64 -D
+gpt-tool -st -nt -mt 500_000 paper2textbook docs/202510    -t64 -D
+gpt-tool -st -nt -mt 500_000 paper2textbook docs/202511    -t64 -D
+gpt-tool -st -nt -mt 500_000 paper2textbook docs/202512    -t64 -D
+gpt-tool -st -nt -mt 500_000 paper2textbook docs/202601    -t64 -D
+gpt-tool -st -nt -mt 500_000 paper2textbook docs/202602    -t64 -D
+gpt-tool -st -nt -mt 500_000 paper2textbook docs/202603    -t64 -D
+gpt-tool -st -nt -mt 500_000 paper2textbook docs/202604    -t64 -D
+gpt-tool -st -nt -mt 500_000 paper2textbook docs/202605    -t64 -D
+gpt-tool -st -nt -mt 500_000 paper2textbook docs/202606    -t64 -D
+gpt-tool -st -nt -mt 500_000 paper2textbook docs/202607    -t64 -D
