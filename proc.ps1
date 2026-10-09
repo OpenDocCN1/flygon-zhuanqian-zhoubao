@@ -1,7 +1,3 @@
-gpt-tool -st -nt paper2textbook docs/202301-02   -D
-gpt-tool -st -nt paper2textbook docs/202303   -D
-gpt-tool -st -nt paper2textbook docs/202304   -D
-gpt-tool -st -nt paper2textbook docs/202305   -D
 gpt-tool -st -nt paper2textbook docs/202306   -D
 gpt-tool -st -nt paper2textbook docs/202307   -D
 gpt-tool -st -nt paper2textbook docs/202308   -D
