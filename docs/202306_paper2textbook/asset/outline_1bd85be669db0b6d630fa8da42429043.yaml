@@ -1,0 +1,165 @@
+'no': 1
+name: 副业实战方法论 —— 从小白到赚钱的最小闭环
+desc: 本章聚焦普通人如何通过低成本试错、标准化执行、社群杠杆与极致专注，在互联网副业赛道跑通从0到1的商业闭环，并沉淀可复制的方法论资产。
+nodes:
+- 'no': 1
+  name: 新人入场：先赚一元钱，积累正反馈
+  desc: 普通人副业起步不应追求大钱，而应以跑通最小商业闭环（赚到第一元钱）为核心目标，重建自信、验证路径、积累经验资产。
+  role: motivation
+  src:
+  - paper: docs/202306/Bw25drexlowoYaxyqWwc1BZDnbc.md
+  - paper: docs/202306/20230613_169.md
+  - paper: docs/202306/20230613_262.md
+- 'no': 2
+  name: 执行为王：完成比完美更重要
+  desc: 对于新手小白，项目选择不如立即执行关键；只有躬身入局跑通0-1闭环，才能获得正反馈与真经验，前期的执行力是突破新手期最大瓶颈的核心变量。
+  role: method
+  src:
+  - paper: docs/202306/UOviddqFLo82H8xOUX9cgHBLnNK.md
+  - paper: docs/202306/20230613_169.md
+  - paper: docs/202306/20230613_251.md
+- 'no': 3
+  name: 先抄再超：像素级模仿是创新的前提
+  desc: 没有慧根就靠跟。标准化流程先‘像素级抄’跑通基础模型，再在细节节点注入差异化思考实现‘超’，是低门槛项目快速出成果的最优解。
+  role: method
+  src:
+  - paper: docs/202306/UOviddqFLo82H8xOUX9cgHBLnNK.md
+  - paper: docs/202306/20230613_169.md
+  - paper: docs/202306/QPXydAae2o8nYFxuMdbcx8xhngf.md
+  - paper: docs/202306/Yjt0dfSN8ob6Xgxl9z6ct7Kfnqf.md
+- 'no': 4
+  name: 社群杠杆：付费社群是认知跃迁的捷径
+  desc: 高质量付费社群通过沉淀结构化知识、聚集同频人群、提供陪跑指导，能显著降低个体创业者的信息筛选成本和试错成本，是资源匮乏者跨越阶层的关键杠杆。
+  role: method
+  src:
+  - paper: docs/202306/20230613_260.md
+  - paper: docs/202306/Bw25drexlowoYaxyqWwc1BZDnbc.md
+  - paper: docs/202306/QPXydAae2o8nYFxuMdbcx8xhngf.md
+- 'no': 5
+  name: 赛道选择：优势-航海匹配模型
+  desc: 基于个人资源禀赋（擅长技能、可支配资源、性格偏好）反向筛选项目，规避‘在不熟悉领域与别人竞争’，实现人岗匹配最大化执行效率。
+  role: method
+  src:
+  - paper: docs/202306/Bw25drexlowoYaxyqWwc1BZDnbc.md
+  - paper: docs/202306/20230613_251.md
+  - paper: docs/202306/WPV8dkx5NoSXArxQd9YcfBAvnQc.md
+- 'no': 6
+  name: 风向标挖掘：未中标信息往往蕴含更大Alpha
+  desc: 社群风向标板块中标率仅10%，未中标信息往往因发布者未意识到价值、执行细节未披露或平台算法未饱和而蕴含更大机会，新手应建立独立筛选体系主动挖掘长尾价值。
+  role: method
+  src:
+  - paper: docs/202306/RPpmdimVwoz0VLxjMdlcVRKqnme.md
+  - paper: docs/202306/RPpmdimVwoz0VLxjMdlcVRKqnme.md
+  - paper: docs/202306/RPpmdimVwoz0VLxjMdlcVRKqnme.md
+- 'no': 7
+  name: MVP验证：用最小成本跑通商业闭环
+  desc: 在投入大量资源前，用最低成本（如易语言注册器+人工微信交付+小红书测试引流）跑通‘获客-成交-交付-收款’完整闭环，验证需求真实性与付费意愿。
+  role: method
+  src:
+  - paper: docs/202306/MBm6dkcOQoEHHLx5u6ecHpaTngu.md
+  - paper: docs/202306/XfMUdz0TQopqJvxQjducjPKynSf.md
+  - paper: docs/202306/HJTtd44mZoTWPbxQwXncLHW1nje.md
+- 'no': 8
+  name: 极致执行力换时间窗红利
+  desc: 在平台算法权重建立期与竞品服务真空期重叠的关键窗口，投入非线性的极致执行力（全天候秒回、无休），可换取长周期的自然流量权重与销量领先优势。
+  role: method
+  src:
+  - paper: docs/202306/Etbhd8zznojPTVxIrjockDUynfg.md
+  - paper: docs/202306/Etbhd8zznojPTVxIrjockDUynfg.md
+  - paper: docs/202306/20230613_251.md
+- 'no': 9
+  name: SOP标准化：将非标服务固化为可复制流程
+  desc: 将高频非标准化的售前咨询、售后维护、开号指引等问题总结为标准化文档（FAQ/话术库/操作手册），实现单人高强度运营且不降低服务质量。
+  role: method
+  src:
+  - paper: docs/202306/Etbhd8zznojPTVxIrjockDUynfg.md
+  - paper: docs/202306/MBm6dkcOQoEHHLx5u6ecHpaTngu.md
+  - paper: docs/202306/20230613_240.md
+- 'no': 10
+  name: 矩阵化放大：用数量对冲单账号不确定性
+  desc: 通过多账号矩阵并行测试，单账号死亡不影响整体，以量换质、分散风险、放大收益，是规模化运营的核心组织架构。
+  role: method
+  src:
+  - paper: docs/202306/L4OodPeJRoXlJWxPfyjcaq57ndd.md
+  - paper: docs/202306/QPXydAae2o8nYFxuMdbcx8xhngf.md
+  - paper: docs/202306/WPV8dkx5NoSXArxQd9YcfBAvnQc.md
+- 'no': 11
+  name: 信任锚点：无硬背书必造软背书
+  desc: 缺乏名校名企背书的普通创作者，必须主动展示可量化、可视化的‘结果型证据’（资产、收入、数据后台）替代‘资质型证据’，建立初始信任。
+  role: method
+  src:
+  - paper: docs/202306/EmnDdCjCUoycIzxivp1cUyHlnHc.md
+  - paper: docs/202306/20230613_251.md
+  - paper: docs/202306/20230627_048.md
+- 'no': 12
+  name: 长期主义：过程目标对抗结果不确定性
+  desc: 新手阶段应将关注点从不可控的结果指标（播放量、收入）转移到可控的过程指标（更新频率、内容质量迭代、拜访客户数），以行动确定性对抗结果不确定性。
+  role: extension
+  src:
+  - paper: docs/202306/AUFtddQyKozkegxnCmhcLbh2nqn.md
+  - paper: docs/202306/AUFtddQyKozkegxnCmhcLbh2nqn.md
+  - paper: docs/202306/L4OodPeJRoXlJWxPfyjcaq57ndd.md
+- 'no': 13
+  name: 失败即强化特训：公开复盘转化战略资产
+  desc: 高频、真实的失败经历若经由‘公开复盘+外部高维反馈’处理，可转化为不可替代的战略智力资产（认知边界、心理韧性、反脆弱能力）。
+  role: proof
+  src:
+  - paper: docs/202306/AUFtddQyKozkegxnCmhcLbh2nqn.md
+  - paper: docs/202306/20230613_262.md
+  - paper: docs/202306/20230613_168.md
+- 'no': 14
+  name: 红利窗口期：平台政策即机会信号
+  desc: 平台开店门槛降低（取消资质/粉丝要求、押金延后）是官方需求侧最强信号，代表该平台处于商家招募红利期，是普通人低成本试错的最佳切入点。
+  role: motivation
+  src:
+  - paper: docs/202306/VdVPdhexUooxK3xkTbMciwZenLg.md
+  - paper: docs/202306/20230613_241.md
+  - paper: docs/202306/20230613_246.md
+- 'no': 15
+  name: 选品逻辑：需求力大于竞争力即蓝海
+  desc: 判断赛道红蓝海的核心指标：当竞争力大于需求力时为红海；当需求力大于竞争力时为蓝海。选品与引流均需寻找‘需求力>竞争力’的节点。
+  role: method
+  src:
+  - paper: docs/202306/XkFtdo5AsoahWgxKjhDcB0i9npb.md
+  - paper: docs/202306/I4tBdhtiEoffmRxhFdqcB8X0niC.md
+  - paper: docs/202306/CWTGdnwBZoreawxpweSc128UnPe.md
+- 'no': 16
+  name: 需求挖掘：平台搜索下拉词是真实需求镜像
+  desc: 主流平台搜索下拉词基于海量用户行为实时生成，直接反映当下用户真实、具象、高频的需求分布。利用‘关键词+字母联想法’批量采集长尾需求。
+  role: method
+  src:
+  - paper: docs/202306/CWTGdnwBZoreawxpweSc128UnPe.md
+  - paper: docs/202306/CWTGdnwBZoreawxpweSc128UnPe.md
+  - paper: docs/202306/20230627_127.md
+- 'no': 17
+  name: 内容生产：结构复刻大于内容创新
+  desc: 在平台红利期，完全复刻验证过的爆款结构（文案/节奏/音乐/钩子）的成功率远高于原创尝试；核心竞争力在于素材获取与去重执行力，而非内容策划能力。
+  role: method
+  src:
+  - paper: docs/202306/GJh0dHJVgoB1L5xb6p3c5uKVnCf.md
+  - paper: docs/202306/QFpVd2N7Pof208xlclccjeg3n9e.md
+  - paper: docs/202306/IxvMddmtUor51Dx7czKcMo1Nnsd.md
+- 'no': 18
+  name: 私域沉淀：私域流量资产抗周期性验证
+  desc: 在平台算法不可控背景下，只有将用户沉淀在微信群（私域）中，才能拥有数据资产的所有权和长期变现权。停止引流后收益不降，实证私域资产长尾价值。
+  role: extension
+  src:
+  - paper: docs/202306/N147dCBZJoN4sxxAprMcVZZHnWf.md
+  - paper: docs/202306/20230613_240.md
+  - paper: docs/202306/MBm6dkcOQoEHHLx5u6ecHpaTngu.md
+- 'no': 19
+  name: 变现分层：前端低价引流品+后端高价利润品
+  desc: 虚拟资料（低价、标品、自动化交付）作为‘流量收割器’和‘信任建立器’，筛选高意向用户；辅导/培训（高价、非标、高交付）作为‘利润放大器’，通过外包交付解决规模化瓶颈。
+  role: method
+  src:
+  - paper: docs/202306/QPXydAae2o8nYFxuMdbcx8xhngf.md
+  - paper: docs/202306/OEQ3dFox2o7MWqx3TAGcbBl1nnb.md
+  - paper: docs/202306/20230613_242.md
+- 'no': 20
+  name: 风控红线：合规是生存底线
+  desc: 无论SEO排名多高、自动化跑得多顺，一旦触碰平台商标规范、搜索引擎反作弊算法、服务器稳定性底线，即面临降权/封号/清零的不可逆风险。合规成本远低于翻车成本。
+  role: limitation
+  src:
+  - paper: docs/202306/20230613_240.md
+  - paper: docs/202306/L4OodPeJRoXlJWxPfyjcaq57ndd.md
+  - paper: docs/202306/20230613_251.md

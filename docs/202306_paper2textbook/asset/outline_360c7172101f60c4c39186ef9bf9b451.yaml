@@ -1,0 +1,113 @@
+'no': 1
+name: AI赋能内容变现实战 —— 从工具调教到商业闭环
+desc: 本章系统梳理生成式AI在自媒体创作、电商设计、知识付费、技能变现等场景的落地方法论，核心聚焦于“提示词工程标准化、工作流SOP固化、商业模式分层设计”三大支柱，旨在帮助普通人跨越“会用工具”到“靠AI赚钱”的鸿沟，构建可复制、可放大的AI变现能力模型。
+nodes:
+- 'no': 1
+  name: Prompt工程核心范式：从“炼丹”到“写指令”
+  desc: 建立结构化提示词设计标准，涵盖角色定义、任务拆解、约束注入、格式规范四大模块，拒绝模糊指令，实现大模型输出的工业级可控。
+  role: method
+  src:
+  - paper: docs/202306/APhsdunGIoE3j3xfxePcFEwGnhe.md
+  - paper: docs/202306/E28CdvbzAoulmxxLpoZcchBinhm.md
+  - paper: docs/202306/HdvTdpX8hoq4n7xsYEmcwsWxnFf.md
+  - paper: docs/202306/Hk00db5HWo3aMKxBzivcJq4Bnie.md
+  - paper: docs/202306/YiWodiEJuojB70xgK6ncdXHpnmh.md
+  - paper: docs/202306/XHNNdajhloRsH2xt2MKcWEXSnic.md
+- 'no': 2
+  name: 长文本与复杂任务分治策略：切片、压缩、链式推理
+  desc: 攻克上下文窗口限制与长文幻觉，确立“文档切割→两轮清洗→分步转写→风格注入”的标准化长文处理SOP，适配直播稿转短视频、综述报告生成等高价值场景。
+  role: method
+  src:
+  - paper: docs/202306/YiWodiEJuojB70xgK6ncdXHpnmh.md
+  - paper: docs/202306/ATkmdw05so8PnCx0CEIcqEdXnMf.md
+  - paper: docs/202306/GG5MdQYCgoWOhDxdSQbc4zUgnDc.md
+  - paper: docs/202306/YuFvdjdZBobrLpx5FcHcjyiin5g.md
+- 'no': 3
+  name: AI绘图可控生成技术栈：SD/MJ/ControlNet/LoRA工程化落地
+  desc: 系统拆解Stable Diffusion与Midjourney的商业级工作流，重点解析ControlNet结构控制、LoRA微调训练、垫图/换脸定身、分离式高清修复等核心技术组合，解决电商换装、头像定制、表情包生产等场景的“可控性与一致性”难题。
+  role: method
+  src:
+  - paper: docs/202306/20230613_275.md
+  - paper: docs/202306/IysYdFRYKoqbqdxeNSGcxr0Qnkb.md
+  - paper: docs/202306/NeqIdWC9PovqQ6xruAJcErqHnxc.md
+  - paper: docs/202306/LUmKdLd0AofzbcxFRkQcg56Rnnf.md
+  - paper: docs/202306/PxUIdhkj1oT256xg3gFcScIZnn6.md
+  - paper: docs/202306/RFRpdNbcOoN9NqxjlUJcEgB7nTc.md
+  - paper: docs/202306/S9SddaKHMoQEflxP6RucOtqGnCb.md
+  - paper: docs/202306/WbFVdvGkAoo38ZxDumwclWEynRg.md
+- 'no': 4
+  name: 自媒体内容生产标准化流水线：选题、创作、分发、变现全链路
+  desc: 覆盖公众号、小红书、抖音、知乎等主流平台，沉淀“热点锚定→爆款拆解→双角色协作写作→人工精修→算法友好发布→站外导流”的标准化SOP，实现从零粉冷启动到稳定四位数阅读的跃迁。
+  role: method
+  src:
+  - paper: docs/202306/E28CdvbzAoulmxxLpoZcchBinhm.md
+  - paper: docs/202306/HIHVdkYbWoksdhxeBdBc9qNKnAb.md
+  - paper: docs/202306/LjGDdEdDhoyXjUxEiRYcKIdPnMg.md
+  - paper: docs/202306/M0JDdADBAo9PI6xqWY1cTdMHn8g.md
+  - paper: docs/202306/IUDddMgHVozJ7CxwPaUcUDO0nGc.md
+- 'no': 5
+  name: AI写作变现商业模型进化：写手→客服→IP合伙人→工具平台
+  desc: 揭示AI代写副业的三阶段收入跃迁路径，核心在于从“卖劳务”向“卖模版/流量/品牌”转型，配套参数化插件开发、写手群矩阵管理、私域信任溢价等运营体系，验证普通人可实现日入200-300到月入3万的跃升。
+  role: method
+  src:
+  - paper: docs/202306/20230613_272.md
+  - paper: docs/202306/GG5MdQYCgoWOhDxdSQbc4zUgnDc.md
+  - paper: docs/202306/XHNNdajhloRsH2xt2MKcWEXSnic.md
+  - paper: docs/202306/DZundEBSqoCdx2xdBjNc5AA7nye.md
+- 'no': 6
+  name: 垂类AI应用落地案例库：数字人祝福、证件照换装、表情包、儿童绘本、知识库
+  desc: 精选5大高确定性变现赛道，拆解“合规授权+AI生产+分层分销”的商业闭环，提供从技术工作流到渠道变现的可复制执行地图。
+  role: experiment
+  src:
+  - paper: docs/202306/20230613_273.md
+  - paper: docs/202306/ORM5dBBY0o2C7kxT8A3cy7Rsnsd.md
+  - paper: docs/202306/S9SddaKHMoQEflxP6RucOtqGnCb.md
+  - paper: docs/202306/SIDRd6VqIorKSTxzMnxckTWWnyf.md
+  - paper: docs/202306/Zqi3dDa6woRKCUxp9CjcxjHBnGf.md
+- 'no': 7
+  name: AI音频与视频生成实战：声音克隆、3D视频、穿越之旅
+  desc: 系统讲解So-VITS-SVC声音克隆全流程（数据净化、训练监控、推理参数）、LeiaPix 2D转3D动态视频管线、Deforum关键帧调度制作“穿越之旅”视频，解决算力受限、时长漂移、身份保真等工程难点。
+  role: method
+  src:
+  - paper: docs/202306/Un9idqf5go3vSfxhw9tcF6z1nme.md
+  - paper: docs/202306/V3NWdI08Yo4R9lxcIdScEMwanWb.md
+  - paper: docs/202306/Lfjedtd4QoCkBhxkgTfcBsG1np0.md
+  - paper: docs/202306/WbFVdvGkAoo38ZxDumwclWEynRg.md
+- 'no': 8
+  name: 开发者AI协作范式：从Chrome插件到SEO系统的全栈交付
+  desc: 展示非专业全栈开发者借力GPT-4实现跨技术栈（Java/Vue/PHP/WordPress/Linux）快速交付的“副驾驶协作模式”，核心方法论包括需求原子化、上下文工程、Key池轮询熔断、RabbitMQ异步编排、数据投喂增强生成。
+  role: method
+  src:
+  - paper: docs/202306/I5Qnd3yq7o8D23xkEhjcOYJwn3g.md
+  - paper: docs/202306/JZvYd2Qv0oEJsPxcmoXcb13wnsb.md
+- 'no': 9
+  name: 电商财税合规与风控实务：金税四期下的生存法则
+  desc: 基于真实行政处罚案例，系统拆解电商隐匿收入、虚开发票、刷单、直播带货多主体纳税、达人推广无票、公私账混用六大稽查雷区，给出真实申报、三流合一、灵活用工平台代征等五大合规操作指引。
+  role: method
+  src:
+  - paper: docs/202306/BiGGd6N0Zog6dyxpBnoc2MQknsW.md
+- 'no': 10
+  name: ChatGPT Plus账号长期稳用基建：原生IP、实体卡、合规支付三位一体
+  desc: 针对亚洲IP高封禁风险，提出“原生IP漫游卡+UltraMobile保号卡+华美/Wise合规银行卡”的三层基建方案，解决网络身份、设备身份、金融身份三重锚定，构建可复用于海外社媒注册、跨境收付的数字身份资产。
+  role: method
+  src:
+  - paper: docs/202306/TSZBdBfynoBINux2htWcefrtnHc.md
+- 'no': 11
+  name: 认知觉醒与杠杆思维：普通人跨越阶层的底层逻辑
+  desc: 从‘变脑子/眼/耳’三维认知重塑，到‘积累资源/积信用/花时间撬杠杆/向他人借智’四大决策准则，用第一人称实战复盘（4月变现10万、买车决策、单篇文章1:30时间杠杆）证明认知跃迁对执行力与财富显化的决定性作用。
+  role: motivation
+  src:
+  - paper: docs/202306/UAm9djDdWol9ImxIO3mcBucInGg.md
+- 'no': 12
+  name: AI工具生态导航与避坑指南：分类、测评、替代、部署
+  desc: 构建11大类40+工具的实测筛选体系，确立“办公AI为核心杠杆、视频AI待迭代、绘画SD上限高门槛高、写作ChatGPT+Prompt最优、检测成刚需”的工具选型判据，提供私有化部署、共享账号、聚合平台等低成本落地方案。
+  role: extension
+  src:
+  - paper: docs/202306/20230613_268.md
+  - paper: docs/202306/Ey1LdxNTPoilzuxUe0tcxJrInSh.md
+- 'no': 13
+  name: 二三线城市漫展轻资产创业实战：场地分级、商演Live、AIGC周边、NPC志愿者
+  desc: 独家揭秘‘酒店→商场→体育馆→博览中心’五级场地进阶路径，核心打法为‘舞台商演Live填内容+AIGC同人周边高毛利变现+NPC志愿者低成本运营+官方IP借势六步法’，实测单场变现2-20万，可复制性极强。
+  role: experiment
+  src:
+  - paper: docs/202306/20230613_172.md

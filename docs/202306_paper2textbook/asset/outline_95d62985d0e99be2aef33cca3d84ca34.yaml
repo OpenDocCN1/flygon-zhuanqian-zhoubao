@@ -1,0 +1,80 @@
+'no': 1
+name: 内容生产SOP化 —— 从“靠灵感写作”到“工业化组装线”
+desc: 本章系统拆解如何将碎片化的创作经验沉淀为标准化作业程序（SOP），通过“明暗线结构拆解”、“素材库外挂”、“填空题式文案生成”等方法，把依赖天赋的内容创作转化为可复制、可规模化、可交付的工业化生产流程，实现‘人治AI’与‘模板化复制’的双重效率跃迁。
+nodes:
+- 'no': 1
+  name: 商业软文的本质：爆款≠赚钱，暗线定生死
+  desc: 区分追求流量的‘爆款文’与追求转化的‘商业软文’，提出明线（可替换的通用干货）与暗线（不可替代的人设、引导、真实案例）双线结构，揭示转化率取决于暗线植入质量而非明线堆砌量。
+  role: motivation
+  src:
+  - paper: docs/202306/AwMHdgfqxomlshxeCdgcVpEMn9b.md
+  - paper: docs/202306/AwMHdgfqxomlshxeCdgcVpEMn9b.md
+- 'no': 2
+  name: 明暗线拆解法：把大神文章拆成可复用的‘骨架’
+  desc: 对标杆文章进行思维导图拆解，逐段标注明线（知识点）与暗线（决策影响点、人设背书、引导动作），建立可复用的文章框架模版，将‘写作’降维为‘组装’。
+  role: method
+  src:
+  - paper: docs/202306/AwMHdgfqxomlshxeCdgcVpEMn9b.md
+  - paper: docs/202306/20230627_128.md
+- 'no': 3
+  name: 素材库双轨建设法：记录‘知识点’与‘感觉’，延伸关键词建索引
+  desc: 在印象笔记等工具中并行记录‘知识点’（干货理论）与‘感觉’（牛逼、产生购买欲等情绪标签），为每条素材提取多个‘重点关键词’并持续‘延伸’联想标签，解决‘白纸写作’与‘用时找不到’痛点。
+  role: method
+  src:
+  - paper: docs/202306/AwMHdgfqxomlshxeCdgcVpEMn9b.md
+  - paper: docs/202306/20230627_128.md
+- 'no': 4
+  name: 商业软文SOP生产流程（5步法）：替换明线、植入暗线、润色通顺
+  desc: 标准化作业程序：1.拆解标杆成思维导图；2.标注明/暗线；3.搜素材库替换明线（如套用‘开幕雷击’通用开头）；4.植入个人真实案例/数据/引导作为暗线；5.全文润色。实现80%效率提升。
+  role: method
+  src:
+  - paper: docs/202306/AwMHdgfqxomlshxeCdgcVpEMn9b.md
+  - paper: docs/202306/AwMHdgfqxomlshxeCdgcVpEMn9b.md
+- 'no': 5
+  name: 填空题式文案生成法：将爆款抽象为‘固定句式+变量槽位’
+  desc: 四步法SOP：定位账号垂直标签→搜集热门关键词/下拉词→按‘赞藏≥1000+评论区求购’双标准筛选爆款并拆解为四大结构（人群痛点/社交背书/互动代入/关键词种草）→抽象为填空模板代入自有产品关键词口语化输出。
+  role: method
+  src:
+  - paper: docs/202306/EQv0d3JpRobdnWxjrHBccTnFn1c.md
+  - paper: docs/202306/EQv0d3JpRobdnWxjrHBccTnFn1c.md
+  - paper: docs/202306/EQv0d3JpRobdnWxjrHBccTnFn1c.md
+- 'no': 6
+  name: 人治AI协作范式：GPT是工具，人类是‘导演’
+  desc: 核心理念：人类负责审美判断、结构把控、细节指令，AI负责执行生成。通过分层指令工程（续写/扩写细节/大纲控制）、微信搜索联想词优化标题、1:1爆款结构拆解复盘，将AI‘调教’为合格写手，单篇产出从2小时压缩至分钟级。
+  role: method
+  src:
+  - paper: docs/202306/At6WdfFhho8M9hxkqc3cjA0ZnIc.md
+  - paper: docs/202306/20230613_281.md
+  - paper: docs/202306/HBmfd10OXoXvmYxU2nbcYbsin2b.md
+- 'no': 7
+  name: 像素级模仿起号法：新号冷启动不创新，只100%复刻头部同行
+  desc: 起号期对标头部账号全维度复刻（风格、头像、昵称、简介、标签、选题、封面、文案结构），降低试错成本，快速跑通流程。同行是最好的老师，先模仿后超越。
+  role: method
+  src:
+  - paper: docs/202306/VGqDd4WMjoel5HxQFd2chn5znvm.md
+  - paper: docs/202306/VeW2dpUs3oJ46jxtAfncuqChnSW.md
+  - paper: docs/202306/IhOmdAlrXoLKUqx0uiecc778nnd.md
+- 'no': 8
+  name: 结构复刻>内容创新：爆款概率最大化定理
+  desc: 在红利期，完全复刻验证过的爆款结构（文案/节奏/音乐/钩子）成功率远高于原创；核心竞争力在于素材获取与去重执行力。素材稀缺性（首发性/唯一性）决定流量上限，需建立‘素材即弃’机制与分级素材库。
+  role: proof
+  src:
+  - paper: docs/202306/GJh0dHJVgoB1L5xb6p3c5uKVnCf.md
+  - paper: docs/202306/GJh0dHJVgoB1L5xb6p3c5uKVnCf.md
+  - paper: docs/202306/20230613_288.md
+- 'no': 9
+  name: 无案例破局法：用‘量化努力过程’替代‘结果背书’建立信任
+  desc: 新人无成功案例时，详细记录拆解数量、调研深度、请教专家次数等努力细节，以‘过程可靠’建立‘结果可期’的信任感，实现冷启动期的信任锚定。
+  role: extension
+  src:
+  - paper: docs/202306/AwMHdgfqxomlshxeCdgcVpEMn9b.md
+  - paper: docs/202306/AwMHdgfqxomlshxeCdgcVpEMn9b.md
+- 'no': 10
+  name: 内容利用率与素材利用率：把一个爆款说100遍，建立外脑库
+  desc: 核心主张：提高内容利用率（灵魂改编法保留核心改换开头/案例/结构）与素材利用率（三本账体系：收集箱/等待事项/归档资料，日清周清），执行‘带着答案找问题’反向生产，实现一次生产多次收益。
+  role: extension
+  src:
+  - paper: docs/202306/20230627_128.md
+  - paper: docs/202306/20230627_128.md
+  - paper: docs/202306/20230627_128.md
+  - paper: docs/202306/20230627_128.md
