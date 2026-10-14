@@ -1,0 +1,94 @@
+'no': 1
+name: 认知觉醒 —— 从「靠自己」到「借智超车」的财富跃迁
+desc: 本章以认知升级为核心线索，揭示普通人如何通过「三维重塑法」替换大脑预测模型，用「积累/消耗决策过滤器」重构行为准则，并借助「多维视角拼图」规避单一视角盲区，实现从被动试错到主动复利的财富跃迁路径。
+nodes:
+- 'no': 1
+  name: 学习致富：变有钱的本质是学习变有钱
+  desc: 财富增长速度 = 学习速度 × 执行力；只要投入时间/兴趣/精力练习，即可超越 80%~90% 的人，所有赚钱方法皆可习得。
+  role: theorem
+  src:
+  - paper: docs/202306/UAm9djDdWol9ImxIO3mcBucInGg.md
+- 'no': 2
+  name: 借智超车：独断独行=碰运气，向他人借智=拼图认知
+  desc: 认知提升最快路径：开放心态+质疑自己+信赖他人+多维请教（比我强/弱/同级），将个体试错成本降为零。
+  role: theorem
+  src:
+  - paper: docs/202306/UAm9djDdWol9ImxIO3mcBucInGg.md
+- 'no': 3
+  name: 三维认知重塑法：变脑子、变眼睛、变耳朵
+  desc: 操作化执行框架：变脑子（密集系统性学习）、变眼睛（每日必读高质量信息源+输出总结）、变耳朵（物理/社交圈层置换，仅保留创业/搞钱话题），通过输入端全方位替换强制重写大脑预测模型。
+  role: method
+  src:
+  - paper: docs/202306/UAm9djDdWol9ImxIO3mcBucInGg.md
+- 'no': 4
+  name: 积累/消耗资源决策过滤器：唯一评判标准
+  desc: 面对任意选项（消费/投资/合作/时间分配），判断标准："是否在积累信任/人脉/品牌/能力等隐性资源"。买车案例：放弃性价比国产车，选择雷克萨斯作为商业社交信用背书工具。
+  role: method
+  src:
+  - paper: docs/202306/UAm9djDdWol9ImxIO3mcBucInGg.md
+- 'no': 5
+  name: 多维视角拼图咨询法：重大决策标准化流程
+  desc: 1.识别关键决策节点；2.构建三层咨询圈（比我强/弱/同水平）；3.收集全维度判断含反面教材；4.综合偏差修正形成完整认知拼图，将决策胜率从"碰运气"提升至"大概率赢"。
+  role: method
+  src:
+  - paper: docs/202306/UAm9djDdWol9ImxIO3mcBucInGg.md
+- 'no': 6
+  name: 资源积累致富：致富=持续积累资源（信任背书、共同经历、人际网络、个人品牌）
+  desc: 积累资源导致越做越简单/越有钱/越快/越大；消耗资源导致越做越难/越累/越不如意。核心判断：每个动作是积累还是消耗资源。
+  role: theorem
+  src:
+  - paper: docs/202306/UAm9djDdWol9ImxIO3mcBucInGg.md
+- 'no': 7
+  name: 信用本位财富论：钱=交换介质，信用=真实财富
+  desc: 真实财富=信用总量（个人品牌、履约记录、影响力、IP资产）；财富显化路径：积信用→获信用额度（融资/变现/合作）→交换实物/服务。攒钱是错觉，建信用才是正道。
+  role: theorem
+  src:
+  - paper: docs/202306/UAm9djDdWol9ImxIO3mcBucInGg.md
+- 'no': 8
+  name: 时间反杠杆定律：节省时间=浪费时间，极致投入=获得杠杆
+  desc: 低质产出无人关注=零杠杆；高质产出撬动他人时间=正杠杆。核心公式：个人深度投入时间 × 传播复用系数 = 他人累计关注时间。案例：10小时撰写文章撬动1000人×20分钟=333小时他人时间。
+  role: theorem
+  src:
+  - paper: docs/202306/UAm9djDdWol9ImxIO3mcBucInGg.md
+- 'no': 9
+  name: 极致时间投入-杠杆复用法：内容生产操作协议
+  desc: 1.选定高价值单点；2.投入非线性时间（10小时深度打磨）；3.发布高信任度平台；4.量化杠杆比（1:30+）；5.沉淀信用资产（加好友、精选日志、IP标签）。核心反直觉：时间不省反赚，质量换杠杆。
+  role: method
+  src:
+  - paper: docs/202306/UAm9djDdWol9ImxIO3mcBucInGg.md
+- 'no': 10
+  name: 副业4个月变现10万实证：认知觉醒驱动执行力质变
+  desc: 从2月入圈到6月，4个月副业总变现10万+，核心归因于"学习、思维、成就"三大优势，学习占据第一位驱动执行力质变。
+  role: experiment
+  src:
+  - paper: docs/202306/UAm9djDdWol9ImxIO3mcBucInGg.md
+- 'no': 11
+  name: 优势测试反直觉发现：长期从事弱项工作=弥补短板=低效内耗
+  desc: 个人优势测试中"取悦、沟通"排名最后，但从业7-8年婚礼主持人（高强度取悦/沟通岗位），印证强化长板（学习、思维、成就）后业务爆发。
+  role: finding
+  src:
+  - paper: docs/202306/UAm9djDdWol9ImxIO3mcBucInGg.md
+- 'no': 12
+  name: 买车决策资源积累验证：消费决策从"够用/省钱"向"积累信用/品牌溢价"范式转移
+  desc: 预算10万级放弃高性价比国产车，选择20万级雷克萨斯。决策逻辑：车非代步工具，而是商业社交信用背书/个人品牌资产。
+  role: experiment
+  src:
+  - paper: docs/202306/UAm9djDdWol9ImxIO3mcBucInGg.md
+- 'no': 13
+  name: 单篇文章时间杠杆实测：10小时投入撬动333小时他人时间
+  desc: 一篇精华帖投入10小时，产出：1000人完读×20分钟=333小时他人时间；300+点赞，80+加好友；获精选日志、风向标中标、IP标签建立，杠杆比1:30+。
+  role: experiment
+  src:
+  - paper: docs/202306/UAm9djDdWol9ImxIO3mcBucInGg.md
+- 'no': 14
+  name: 信用卡额度即信用变现验证：信用即可随时兑换购买力
+  desc: 持有10万额度信用卡，论证"信用即可随时兑换购买力"：若追求现金，信用额度即可直接提现10万，无需囤积现金。
+  role: finding
+  src:
+  - paper: docs/202306/UAm9djDdWol9ImxIO3mcBucInGg.md
+- 'no': 15
+  name: 航海日志连续精选验证：认真投入→平台认可→流量/信任回流
+  desc: 参加三个航海，连续两天三个日志被评为精选，验证"认真投入时间产出高质量内容→平台算法/人工认可→流量/信任回流"的正向循环。
+  role: experiment
+  src:
+  - paper: docs/202306/UAm9djDdWol9ImxIO3mcBucInGg.md
