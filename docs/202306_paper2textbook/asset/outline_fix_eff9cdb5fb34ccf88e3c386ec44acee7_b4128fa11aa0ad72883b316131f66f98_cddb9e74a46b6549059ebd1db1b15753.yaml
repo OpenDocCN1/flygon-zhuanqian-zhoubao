@@ -1,0 +1,125 @@
+'no': 1
+name: 私域基建体系 —— 让微信成为自动化营销操作系统
+desc: 本章系统拆解微信原生功能组合拳，将通讯工具重构为覆盖用户资产管理、内容触达优化、社群精细化运营、安全合规护城河的私域营销基建体系，解决“知功能、不懂场景、不会组合”的实操痛点。
+nodes:
+- 'no': 1
+  name: 私域运营的底层逻辑：注意力管理与信任分层
+  desc: 私域成功的关键不在于加多少好友、发多少广告，而在于管理自身注意力（折叠群/关注成员/消息提醒）与争取用户注意力（首句钩子/发布间隔/互动权重），并通过备注-标签-描述、分组可见、付费门槛实现用户信任等级的精细分层与差异化价值交付。
+  role: motivation
+  src:
+  - paper: docs/202306/RIWqd7dg3oTe0OxstEacTLgAnff.md
+- 'no': 2
+  name: 工具即基建：微信原生功能深度开发优于外部工具叠加
+  desc: 微信原生功能（收藏、笔记、标签、群管理、安全中心等）已覆盖私域运营90%以上高频需求。深度挖掘原生功能组合拳（单人群+收藏+标签=知识库；标签+群发+备注=CRM）比引入外部SCRM工具更低成本、零迁移风险、数据主权完全可控。
+  role: definition
+  src:
+  - paper: docs/202306/RIWqd7dg3oTe0OxstEacTLgAnff.md
+- 'no': 3
+  name: 单人群：零成本搭建个人知识管理中枢
+  desc: 利用‘面对面建群’或‘邀请好友后踢人’创建仅含自己的群聊，作为私有化的云端收藏夹、资料库、灵感记录本及待办清单，实现多端同步、分类存储、置顶快捷访问，替代专业笔记软件核心功能。
+  role: method
+  src:
+  - paper: docs/202306/RIWqd7dg3oTe0OxstEacTLgAnff.md
+- 'no': 4
+  name: 好友三维标签体系：备注-标签-描述的精准用户画像结构
+  desc: 构建‘备注（身份-昵称-业务）+ 标签（群体属性）+ 描述（详细画像/资料）’的三维结构，支撑精准群发（<200人/标签）、快速检索、分层运营及SOP执行，是私域精细化运营的数据地基。微信单次群发200人上限倒逼标签组精细化运营。
+  role: method
+  src:
+  - paper: docs/202306/RIWqd7dg3oTe0OxstEacTLgAnff.md
+- 'no': 5
+  name: 消息置顶SOP：群内信息的‘黄金曝光位’精细化运营
+  desc: 将群公告与聊天置顶标准化为‘新人引导+核心价值交付+时效性管理’动态机制：置顶高价值内容降低新用户认知成本，及时取消过期置顶避免信息噪音。建群前必须明确目的、设定规则、准备价值（三前置原则）。
+  role: method
+  src:
+  - paper: docs/202306/RIWqd7dg3oTe0OxstEacTLgAnff.md
+- 'no': 6
+  name: 群聊分层过滤与重点突破：折叠群+关注核心成员
+  desc: 利用‘消息免打扰-折叠该群聊’实现低频群物理隔离与批量清理，配合‘关注核心成员（最多4人）’穿透免打扰屏障获取关键信息，构建‘分层过滤+重点突破’的注意力管理模型。
+  role: method
+  src:
+  - paper: docs/202306/RIWqd7dg3oTe0OxstEacTLgAnff.md
+- 'no': 7
+  name: 标签化精准群发操作法：合规触达与转化的标准化流程
+  desc: 基于三维标签体系建立‘单标签<200人’合规群发池，执行‘内容预编辑+标签筛选+引导交互关键词（回复1/2）+及时人工回复+聊天记录备份’标准化流程，规避封号风险，提升触达转化率。
+  role: method
+  src:
+  - paper: docs/202306/RIWqd7dg3oTe0OxstEacTLgAnff.md
+- 'no': 8
+  name: 付费社群筛选与运营模型：付费=筛选+激励+承诺
+  desc: 通过设置入群门槛筛选高意向用户，利用沉没成本激励运营者持续产出，配合‘群规前置+违规即踢+一群一事’严格治理机制，构建高粘性、高转化、可复制的付费社群闭环。
+  role: method
+  src:
+  - paper: docs/202306/RIWqd7dg3oTe0OxstEacTLgAnff.md
+- 'no': 9
+  name: 朋友圈折叠算法对抗策略：六维内容发布策略最大化触达
+  desc: 针对‘同一时间多条折叠、营销内容折叠、复制内容折叠’机制，提出‘首句钩子+表情符+发布间隔控制+图文混排+谐音字规避+高互动权重’六维策略。经验规律：同一时间高频发布、内容重复、复制粘贴痕迹重、营销敏感词命中是四大触发条件。
+  role: method
+  src:
+  - paper: docs/202306/RIWqd7dg3oTe0OxstEacTLgAnff.md
+- 'no': 10
+  name: 朋友圈自定义位置/IP标签化：零成本高曝光个人品牌广告位
+  desc: 利用位置创建功能植入个人品牌口号、课程名、项目名；利用#话题标签聚合内容入口。配合封面视频化/专业化、评论区二次传播，构建立体人设，对抗‘触达不足200人’的社交图谱衰减。
+  role: method
+  src:
+  - paper: docs/202306/RIWqd7dg3oTe0OxstEacTLgAnff.md
+- 'no': 11
+  name: 朋友圈故事化连载运营法：将单条内容转化为长期内容IP
+  desc: 采用‘预告造势（定点发布）+ 标签串联（#故事分享1/2/3）+ 悬念设计’连载制策略，利用算法推荐机制与用户好奇心心理，提升用户粘性与主动搜索行为。
+  role: method
+  src:
+  - paper: docs/202306/RIWqd7dg3oTe0OxstEacTLgAnff.md
+- 'no': 12
+  name: 朋友圈分组可见与动态权限管理：四层权限模型平衡隐私与营销
+  desc: 建立‘公开-部分可见(标签/个人)-不给谁看-仅自己可见’四层权限模型，配合‘发布后修改可见范围’容错机制，实现同一内容库对不同信任层级用户的差异化触达。
+  role: method
+  src:
+  - paper: docs/202306/RIWqd7dg3oTe0OxstEacTLgAnff.md
+- 'no': 13
+  name: 微信原生生产力工具链：采集-加工-输出-传输闭环体系
+  desc: 整合收藏/笔记/备忘录/文件传输助手/长图生成/图片文字识别/边写边译/语音转文字等功能，形成闭环生产力体系，替代第三方工具，降低切换成本，实现数据微信生态内闭环。
+  role: extension
+  src:
+  - paper: docs/202306/RIWqd7dg3oTe0OxstEacTLgAnff.md
+- 'no': 14
+  name: 隐私与资产安全防护体系：全方位账号安全与数据资产保护框架
+  desc: 涵盖青少年模式防拉黑（关系锁定）、应急联系人/安全中心（账号兜底）、授权管理（数据隔离）、查询实名账号（资产清查）、关闭自动扣费/下载（资源保护）、聊天记录迁移导出（数据资产迁移）六大模块。
+  role: extension
+  src:
+  - paper: docs/202306/RIWqd7dg3oTe0OxstEacTLgAnff.md
+- 'no': 15
+  name: 青少年模式反向应用：防拉黑/关系锁定功能的实测可行性
+  desc: 开启青少年模式设置监护人后，被监护人无法单方面删除好友/拉黑，实现‘防拉黑、防删除’的关系锁定，适用于家人、情侣等核心强关系维护，经实测流程可行。
+  role: experiment
+  src:
+  - paper: docs/202306/RIWqd7dg3oTe0OxstEacTLgAnff.md
+- 'no': 16
+  name: 微信收藏‘转存为笔记’：群聊记录结构化沉淀的实测路径
+  desc: 验证‘多选聊天记录→收藏→转存为笔记→转发/复制’完整路径，可将碎片化群聊记录一键转化为结构化文档，支持二次编辑、长图导出、跨平台分享，解决群聊知识‘沉底难寻、难整理’痛点。
+  role: experiment
+  src:
+  - paper: docs/202306/RIWqd7dg3oTe0OxstEacTLgAnff.md
+- 'no': 17
+  name: 长按相册调用系统原相机：提升业务场景拍摄清晰度的隐藏技巧
+  desc: 聊天界面‘+’号菜单中长按‘相册’2秒可直接调用手机系统原生相机（支持锁定对焦、变焦、曝光调节），绕过微信内置压缩相机，显著提升发货单、产品图、会议白板等业务场景拍摄清晰度。
+  role: experiment
+  src:
+  - paper: docs/202306/RIWqd7dg3oTe0OxstEacTLgAnff.md
+- 'no': 18
+  name: 微信‘问一问’：视频号冷启动的高性价比流量入口
+  desc: 利用微信搜一搜内的UGC问答社区，通过AI提示词投喂训练生成符合平台标准（真实、精炼、多媒体、排版舒适）的高质量回答，获取首页推荐与搜一搜曝光，并通过视频号视频挂载引流至私域。
+  role: method
+  src:
+  - paper: docs/202306/DyNYdmVkAodKlZxA2Qacr9gFnTf.md
+  - paper: docs/202306/JcEEdG3REoCSaVx079Dc8EoznXb.md
+- 'no': 19
+  name: 知识星球推送机器人：私域信息自动化同步方案
+  desc: 通过爬取知识星球API（手动获取Cookie）获取最新话题与风向标内容，利用企业微信群机器人Webhook推送至个人微信，解决信息获取滞后问题，支持INI配置与Cron定时调度，可在Linux/Windows后台运行。
+  role: method
+  src:
+  - paper: docs/202306/BNZsd608eoQZffxlFzccXVVmnbb.md
+- 'no': 20
+  name: 微信账号封号风险与异常值机会：从侵入式工具到RPA模拟人工
+  desc: 腾讯风控升级导致Wetool等侵入式营销工具全面失效，模拟人工操作的RPA/无障碍服务方案成为相对安全的过渡方案。iOS与Android微信原生“群发助手”存在系统性功能差异（iOS独占朋友圈置顶，Android支持标签群发且单次可超200人），利用此类平台规则信息差结合技术优势切入私域服务赛道是可行的赚钱路径。
+  role: limitation
+  src:
+  - paper: docs/202306/SswzdpTECoTtaBxuCrdc5mninZd.md
