@@ -1,0 +1,19 @@
+citation_stats:
+- paper: P2XLdJF2yoivV8xUDszcz853nZg
+  count: 10
+  locations:
+  - '21.1'
+  - '21.3'
+  - '21.4'
+  - '21.5'
+  - '21.8'
+  - '21.8'
+  - '21.8'
+  - '21.8'
+  - '21.8'
+  - '21.9'
+unsupported_claims:
+- location: '21.6'
+  claim: 本节原计划引入《从关注特斯拉到实时推送的零代码自动化》与《如何用 IFTTT 打造第二大脑》两篇素材进行多源对照
+  reason: 素材中未找到这两篇素材的真实来源、素材 ID 及核心论点
+missing_concepts: []

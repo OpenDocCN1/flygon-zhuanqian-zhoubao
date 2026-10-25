@@ -1,0 +1,75 @@
+- 'no': 1
+  title: 基础理论与底层逻辑：从流量效率到项目拆解
+  desc: 本部分作为全书的认知地基，从底层逻辑出发，讲解任何项目皆可拆解的六大效率要素（流量、销转、交付、客单、毛利、复购），并引入商业需求分析、项目拆解与量化思维，帮助读者建立可迁移的元能力。
+  papers:
+  - docs/202301-02/NxhWdJj3UoPKvmxaBqkcz8wlntf.md
+  - docs/202301-02/I9OAdzzs2oBliNxsmPjcHnBUnzf.md
+  - docs/202301-02/DNGrdODFBowfk2xwkNCc5GGSnRd.md
+- 'no': 2
+  title: 素材说明与导读：本书资源使用指南
+  desc: 本部分为全书导读，说明素材汇编的背景、阅读方法与检索方式，涵盖赚钱周报的整理逻辑与本书目录信息，帮助读者高效使用后续章节内容。
+  papers:
+  - docs/202301-02/README.md
+  - docs/202301-02/SUMMARY.md
+  - docs/202301-02/20230207_00.md
+- 'no': 3
+  title: 公域流量获取与平台运营实战：抖音、小红书与视频号
+  desc: 聚焦当前主流公域平台的内容生产与流量运营，涵盖短视频带货、无人直播、矩阵化操作、账号起号与SEO玩法等实操方法与案例复盘，是本书核心方法论的集中呈现场域。
+  papers:
+  - docs/202301-02/CGZ4dZq4ZoSFT4xUmFecNpk4nNe.md
+  - docs/202301-02/CZPydiVmgo2odMx0nWecf3DTn6e.md
+  - docs/202301-02/SvdFdfi3VoAiaRxENHNcncEqnif.md
+  - docs/202301-02/JmBgdr705ovHoyxQknRctRaMnKh.md
+  - docs/202301-02/IpCcdJ9NAoAt4pxKKV5c5sfenZc.md
+  - docs/202301-02/Lg2vd5GWHoqhBbxuT5LcThEpncb.md
+  - docs/202301-02/VsjCdIDNJoNRvlxo4OWcJ7bDnO5.md
+  - docs/202301-02/QbBKdHvfiofIUNxDlmjceWbfnqh.md
+  - docs/202301-02/MXPcd58gSoEsTlxFhUVcJ5X7npc.md
+  - docs/202301-02/XuOgdT9o8ongKPxfSMlcfgLbngf.md
+  - docs/202301-02/ZcEdd0xTCo1K5IxwCyLccKUynOb.md
+- 'no': 4
+  title: 私域运营、裂变增长与变现转化系统
+  desc: 构建从公域到私域的转化闭环，系统讲解私域裂变、社群运营、冷启动策略与后端变现链路，覆盖广告心理卡点破除、文案写作等关键转化技能，强化用户关系的沉淀与复利。
+  papers:
+  - docs/202301-02/VAA8dQLTZolMlJx1jxrcKaPrnzd.md
+  - docs/202301-02/HfJEd0huioyShvxowVfcOMQYnHb.md
+  - docs/202301-02/JPRAdLgGFowUE7xargGc8YNjnzh.md
+  - docs/202301-02/ELHqdhiI5oSQAxxItLJctNAhnah.md
+  - docs/202301-02/MUfLdmUlTosj0NxPhlfcjRPHnff.md
+- 'no': 5
+  title: 工具链、自动化与AI赋能：流量获取的技术杠杆
+  desc: 本部分介绍如何利用自动化工具（如IFTTT）与前沿AI技术（如AIGC绘画、文本生成）重构内容生产的效率边界，包括批量生成原创视频、自动分发与图文创作放大等系统实现方案。
+  papers:
+  - docs/202301-02/P2XLdJF2yoivV8xUDszcz853nZg.md
+  - docs/202301-02/KomqdeUMloO1CkxrgADcqGvDnIe.md
+  - docs/202301-02/Zjr6dgbHIoxcp0x21SVcrwlqn8d.md
+- 'no': 6
+  title: 商业变现模式与规模化复制：从单一项目到产业矩阵
+  desc: 深入剖析多种经过验证的商业模式与变现路径，从实体服务、内容电商到跨境直播，讲解如何通过标准化、矩阵化运作实现项目从0到1的跑通与从1到N的规模化放大。
+  papers:
+  - docs/202301-02/E1WGd70YLoaHGfxAYJTc4WoFnsd.md
+  - docs/202301-02/PglAdRMiIoVTRyxc4Q3cw8hvnWf.md
+  - docs/202301-02/FCiidWBeJoLOT1xreYnc9Se4nOf.md
+  - docs/202301-02/C0dydiFPCoBI3LxemwWcXpdxn2e.md
+- 'no': 7
+  title: 行业前沿与未来展望：Web3、IP化与热点趋势追踪
+  desc: 汇聚关于Web3转型、超级IP打造、热点追踪与垂类行业深耕的前瞻性思考，探讨内容经纪、版权运作及新周期下的财富机会，为读者提供面向未来的战略视野。
+  papers:
+  - docs/202301-02/T1Jad4VhIoPc2hxKJxwcUFPOnTc.md
+  - docs/202301-02/HiVkdfBYJo2H5xxWIemcMcMQnLc.md
+  - docs/202301-02/AmKRdF2Z9oQjDExxxuAc18a5nbb.md
+- 'no': 8
+  title: 赚钱周报精华汇编：付费社群实操风向标
+  desc: 汇集多期付费社群赚钱周报的原始整理文档，涵盖各行业实操案例、风向标项目与变现思路，是读者拓宽商业视野、捕捉短期机会的实战素材库。
+  papers:
+  - docs/202301-02/20230207_01.md
+  - docs/202301-02/20230207_02.md
+  - docs/202301-02/20230207_03.md
+  - docs/202301-02/20230207_04.md
+  - docs/202301-02/20230207_05.md
+  - docs/202301-02/20230207_06.md
+  - docs/202301-02/20230207_07.md
+  - docs/202301-02/20230207_08.md
+  - docs/202301-02/20230207_09.md
+  - docs/202301-02/20230207_10.md
+  - docs/202301-02/20230207_11.md

@@ -1,0 +1,129 @@
+citation_stats:
+- paper: P001(ELHqdhiI5oSQAxxItLJctNAhnah)
+  count: 5
+  locations:
+  - '36.2'
+  - '36.28'
+  - '36.29'
+  - '36.30'
+  - '36.36'
+- paper: P001(VAA8dQLTZolMlJx1jxrcKaPrnzd)
+  count: 2
+  locations:
+  - '36.2'
+  - '36.31'
+- paper: P001(20230207_11)
+  count: 2
+  locations:
+  - '36.2'
+  - '36.32'
+- paper: P003(20230207_03)
+  count: 4
+  locations:
+  - '36.2'
+  - '36.14'
+  - '36.21'
+  - '36.36'
+- paper: P005(20230207_05)
+  count: 17
+  locations:
+  - '36.2'
+  - '36.7'
+  - '36.9'
+  - '36.10'
+  - '36.12'
+  - '36.13'
+  - '36.14'
+  - '36.15'
+  - '36.16'
+  - '36.17'
+  - '36.18'
+  - '36.19'
+  - '36.20'
+  - '36.22'
+  - '36.23'
+  - '36.24'
+  - '36.25'
+  - '36.26'
+  - '36.36'
+- paper: P006(20230207_06)
+  count: 21
+  locations:
+  - '36.2'
+  - '36.3'
+  - '36.4'
+  - '36.5'
+  - '36.6'
+  - '36.7'
+  - '36.8'
+  - '36.9'
+  - '36.10'
+  - '36.11'
+  - '36.12'
+  - '36.13'
+  - '36.14'
+  - '36.20'
+  - '36.21'
+  - '36.27'
+  - '36.36'
+- paper: P009(20230207_09)
+  count: 3
+  locations:
+  - '36.2'
+  - '36.10'
+  - '36.22'
+- paper: P011(IpCcdJ9NAoAt4pxKKV5c5sfenZc)
+  count: 2
+  locations:
+  - '36.2'
+  - '36.15'
+- paper: P011(20230207_11)
+  count: 2
+  locations:
+  - '36.2'
+  - '36.18'
+- paper: PglAdRMiIoVTRyxc4Q3cw8hvnWf
+  count: 1
+  locations:
+  - '36.32'
+unsupported_claims:
+- location: '36.27'
+  claim: 内容价值金字塔的三层分别是：给娱乐、给工具、给方法
+  reason: 素材中P006和P005虽提及三层内容价值，但未明确使用'内容价值金字塔'这一术语，且P005中层级描述为'给娱乐、给工具、给方法'，P006中描述为'①给娱乐、②给工具、③给方法'，两者内容一致但术语表述存在差异，章节36.27将其定义为'金字塔结构内容创作法'并关联'史实-方法-心法'三层，与素材中'娱乐-工具-方法'三层模型不完全对应，属于概念扩展而非直接引用。
+- location: '36.31'
+  claim: 团队裂变为树状结构、用户裂变为网状结构，通过战队PK叠加可破解裂变断层
+  reason: 素材P001(VAA8dQLTZolMlJx1jxrcKaPrnzd)中明确提及团队裂变为自上而下的树状结构、用户裂变为自下而上的网状结构，并提出战队PK玩法将两者叠加，实现了3天裂变近6000用户，该主张有素材支撑。
+- location: '36.32'
+  claim: 加盟扩张前需完成单店模型验证、区域模型验证及复制性财务模型达标
+  reason: 素材P001(20230207_11)中提出最新加盟标准包含四点：门店模型测算到位、单店财务模型健康、区域模型验证、区域模型复制性与财务模型达标，与章节主张一致。
+missing_concepts:
+- paper: P001(ELHqdhiI5oSQAxxItLJctNAhnah)
+  concept: 云监工快闪群玩法的具体执行细节（如招募文案、规则设计、打卡机制、复盘格式）
+  severity: high
+- paper: P001(VAA8dQLTZolMlJx1jxrcKaPrnzd)
+  concept: 增长饭局的具体操作流程与话术、战队PK裂变的具体激励机制与执行步骤
+  severity: high
+- paper: P001(20230207_11)
+  concept: 胖龟找房项目的四个发展阶段（1.0-3.0）及各阶段的核心动作、盈利模式、避坑指南
+  severity: high
+- paper: P003(20230207_03)
+  concept: 战略发挥优势法的具体企业案例（如苏联、中国、夫妻炒菜店、鸣梁海战）及操作步骤
+  severity: medium
+- paper: P005(20230207_05)
+  concept: 渣男思维做内容的两个核心原则（撩完就跑、广撒网）及峰终定律的具体应用案例
+  severity: medium
+- paper: P006(20230207_06)
+  concept: 流量切片分析法的横向与纵向具体分析维度、流量合并的实操谈判话术与利益设计
+  severity: high
+- paper: P009(20230207_09)
+  concept: 创业项目匹配度评估的三步法（盘点资源、拆解项目需资源、评估匹配度）及外卖CPS案例复盘细节
+  severity: high
+- paper: P011(IpCcdJ9NAoAt4pxKKV5c5sfenZc)
+  concept: 小红书资料号爆款笔记的连爆技术、杂交标题法、钩子制作与评论区引爆的具体操作SOP
+  severity: high
+- paper: P011(20230207_11)
+  concept: 抖音SEO蓝海选词逻辑、细节优化清单、工业级素材库自动化搭建方法
+  severity: medium
+- paper: PglAdRMiIoVTRyxc4Q3cw8hvnWf
+  concept: 零中介费房屋分享平台的冷启动策略、供应链整合模式、城市扩张标准化流程
+  severity: high

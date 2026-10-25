@@ -1,0 +1,4098 @@
+citation_stats:
+- paper: P001
+  count: 15
+  locations:
+  - '8.3'
+  - '8.3'
+  - '8.3'
+  - '8.4'
+  - '8.5'
+  - '8.5'
+  - '8.6'
+  - '8.6'
+  - '8.7'
+  - '8.9'
+  - '8.9'
+  - '8.9'
+  - '8.10'
+  - '8.10'
+  - '8.10'
+- paper: P002
+  count: 8
+  locations:
+  - '8.4'
+  - '8.4'
+  - '8.4'
+  - '8.4'
+  - '8.4'
+  - '8.4'
+  - '8.4'
+  - '8.10'
+- paper: P003
+  count: 6
+  locations:
+  - '8.5'
+  - '8.5'
+  - '8.5'
+  - '8.5'
+  - '8.7'
+  - '8.7'
+- paper: P004
+  count: 5
+  locations:
+  - '8.6'
+  - '8.6'
+  - '8.6'
+  - '8.6'
+  - '8.7'
+- paper: P005
+  count: 2
+  locations:
+  - '8.3'
+  - '8.10'
+- paper: P006
+  count: 2
+  locations:
+  - '8.9'
+  - '8.9'
+- paper: P007
+  count: 2
+  locations:
+  - '8.3'
+  - '8.10'
+- paper: P008
+  count: 2
+  locations:
+  - '8.3'
+  - '8.10'
+- paper: P009
+  count: 2
+  locations:
+  - '8.4'
+  - '8.10'
+- paper: P010
+  count: 2
+  locations:
+  - '8.4'
+  - '8.10'
+- paper: P011
+  count: 2
+  locations:
+  - '8.3'
+  - '8.10'
+- paper: P012
+  count: 2
+  locations:
+  - '8.3'
+  - '8.10'
+- paper: P013
+  count: 2
+  locations:
+  - '8.3'
+  - '8.10'
+- paper: P014
+  count: 2
+  locations:
+  - '8.4'
+  - '8.10'
+- paper: P015
+  count: 2
+  locations:
+  - '8.4'
+  - '8.10'
+- paper: P016
+  count: 1
+  locations:
+  - '8.3'
+- paper: P017
+  count: 1
+  locations:
+  - '8.3'
+- paper: P018
+  count: 1
+  locations:
+  - '8.3'
+- paper: P019
+  count: 1
+  locations:
+  - '8.3'
+- paper: P020
+  count: 1
+  locations:
+  - '8.3'
+- paper: P021
+  count: 1
+  locations:
+  - '8.3'
+- paper: P022
+  count: 1
+  locations:
+  - '8.3'
+- paper: P023
+  count: 1
+  locations:
+  - '8.3'
+- paper: P024
+  count: 1
+  locations:
+  - '8.3'
+- paper: P025
+  count: 1
+  locations:
+  - '8.3'
+- paper: P026
+  count: 1
+  locations:
+  - '8.3'
+- paper: P027
+  count: 1
+  locations:
+  - '8.3'
+- paper: P028
+  count: 1
+  locations:
+  - '8.3'
+- paper: P029
+  count: 1
+  locations:
+  - '8.3'
+- paper: P030
+  count: 1
+  locations:
+  - '8.3'
+- paper: P031
+  count: 1
+  locations:
+  - '8.3'
+- paper: P032
+  count: 1
+  locations:
+  - '8.3'
+- paper: P033
+  count: 1
+  locations:
+  - '8.3'
+- paper: P034
+  count: 1
+  locations:
+  - '8.3'
+- paper: P035
+  count: 1
+  locations:
+  - '8.3'
+- paper: P036
+  count: 1
+  locations:
+  - '8.3'
+- paper: P037
+  count: 1
+  locations:
+  - '8.3'
+- paper: P038
+  count: 1
+  locations:
+  - '8.3'
+- paper: P039
+  count: 1
+  locations:
+  - '8.3'
+- paper: P040
+  count: 1
+  locations:
+  - '8.3'
+- paper: P041
+  count: 1
+  locations:
+  - '8.3'
+- paper: P042
+  count: 1
+  locations:
+  - '8.3'
+- paper: P043
+  count: 1
+  locations:
+  - '8.3'
+- paper: P044
+  count: 1
+  locations:
+  - '8.3'
+- paper: P045
+  count: 1
+  locations:
+  - '8.3'
+- paper: P046
+  count: 1
+  locations:
+  - '8.3'
+- paper: P047
+  count: 1
+  locations:
+  - '8.3'
+- paper: P048
+  count: 1
+  locations:
+  - '8.3'
+- paper: P049
+  count: 1
+  locations:
+  - '8.3'
+- paper: P050
+  count: 1
+  locations:
+  - '8.3'
+- paper: P051
+  count: 1
+  locations:
+  - '8.3'
+- paper: P052
+  count: 1
+  locations:
+  - '8.3'
+- paper: P053
+  count: 1
+  locations:
+  - '8.3'
+- paper: P054
+  count: 1
+  locations:
+  - '8.3'
+- paper: P055
+  count: 1
+  locations:
+  - '8.3'
+- paper: P056
+  count: 1
+  locations:
+  - '8.3'
+- paper: P057
+  count: 1
+  locations:
+  - '8.3'
+- paper: P058
+  count: 1
+  locations:
+  - '8.3'
+- paper: P059
+  count: 1
+  locations:
+  - '8.3'
+- paper: P060
+  count: 1
+  locations:
+  - '8.3'
+- paper: P061
+  count: 1
+  locations:
+  - '8.3'
+- paper: P062
+  count: 1
+  locations:
+  - '8.3'
+- paper: P063
+  count: 1
+  locations:
+  - '8.3'
+- paper: P064
+  count: 1
+  locations:
+  - '8.3'
+- paper: P065
+  count: 1
+  locations:
+  - '8.3'
+- paper: P066
+  count: 1
+  locations:
+  - '8.3'
+- paper: P067
+  count: 1
+  locations:
+  - '8.3'
+- paper: P068
+  count: 1
+  locations:
+  - '8.3'
+- paper: P069
+  count: 1
+  locations:
+  - '8.3'
+- paper: P070
+  count: 1
+  locations:
+  - '8.3'
+- paper: P071
+  count: 1
+  locations:
+  - '8.3'
+- paper: P072
+  count: 1
+  locations:
+  - '8.3'
+- paper: P073
+  count: 1
+  locations:
+  - '8.3'
+- paper: P074
+  count: 1
+  locations:
+  - '8.3'
+- paper: P075
+  count: 1
+  locations:
+  - '8.3'
+- paper: P076
+  count: 1
+  locations:
+  - '8.3'
+- paper: P077
+  count: 1
+  locations:
+  - '8.3'
+- paper: P078
+  count: 1
+  locations:
+  - '8.3'
+- paper: P079
+  count: 1
+  locations:
+  - '8.3'
+- paper: P080
+  count: 1
+  locations:
+  - '8.3'
+- paper: P081
+  count: 1
+  locations:
+  - '8.3'
+- paper: P082
+  count: 1
+  locations:
+  - '8.3'
+- paper: P083
+  count: 1
+  locations:
+  - '8.3'
+- paper: P084
+  count: 1
+  locations:
+  - '8.3'
+- paper: P085
+  count: 1
+  locations:
+  - '8.3'
+- paper: P086
+  count: 1
+  locations:
+  - '8.3'
+- paper: P087
+  count: 1
+  locations:
+  - '8.3'
+- paper: P088
+  count: 1
+  locations:
+  - '8.3'
+- paper: P089
+  count: 1
+  locations:
+  - '8.3'
+- paper: P090
+  count: 1
+  locations:
+  - '8.3'
+- paper: P091
+  count: 1
+  locations:
+  - '8.3'
+- paper: P092
+  count: 1
+  locations:
+  - '8.3'
+- paper: P093
+  count: 1
+  locations:
+  - '8.3'
+- paper: P094
+  count: 1
+  locations:
+  - '8.3'
+- paper: P095
+  count: 1
+  locations:
+  - '8.3'
+- paper: P096
+  count: 1
+  locations:
+  - '8.3'
+- paper: P097
+  count: 1
+  locations:
+  - '8.3'
+- paper: P098
+  count: 1
+  locations:
+  - '8.3'
+- paper: P099
+  count: 1
+  locations:
+  - '8.3'
+- paper: P100
+  count: 1
+  locations:
+  - '8.3'
+- paper: P101
+  count: 1
+  locations:
+  - '8.3'
+- paper: P102
+  count: 1
+  locations:
+  - '8.3'
+- paper: P103
+  count: 1
+  locations:
+  - '8.3'
+- paper: P104
+  count: 1
+  locations:
+  - '8.3'
+- paper: P105
+  count: 1
+  locations:
+  - '8.3'
+- paper: P106
+  count: 1
+  locations:
+  - '8.3'
+- paper: P107
+  count: 1
+  locations:
+  - '8.3'
+- paper: P108
+  count: 1
+  locations:
+  - '8.3'
+- paper: P109
+  count: 1
+  locations:
+  - '8.3'
+- paper: P110
+  count: 1
+  locations:
+  - '8.3'
+- paper: P111
+  count: 1
+  locations:
+  - '8.3'
+- paper: P112
+  count: 1
+  locations:
+  - '8.3'
+- paper: P113
+  count: 1
+  locations:
+  - '8.3'
+- paper: P114
+  count: 1
+  locations:
+  - '8.3'
+- paper: P115
+  count: 1
+  locations:
+  - '8.3'
+- paper: P116
+  count: 1
+  locations:
+  - '8.3'
+- paper: P117
+  count: 1
+  locations:
+  - '8.3'
+- paper: P118
+  count: 1
+  locations:
+  - '8.3'
+- paper: P119
+  count: 1
+  locations:
+  - '8.3'
+- paper: P120
+  count: 1
+  locations:
+  - '8.3'
+- paper: P121
+  count: 1
+  locations:
+  - '8.3'
+- paper: P122
+  count: 1
+  locations:
+  - '8.3'
+- paper: P123
+  count: 1
+  locations:
+  - '8.3'
+- paper: P124
+  count: 1
+  locations:
+  - '8.3'
+- paper: P125
+  count: 1
+  locations:
+  - '8.3'
+- paper: P126
+  count: 1
+  locations:
+  - '8.3'
+- paper: P127
+  count: 1
+  locations:
+  - '8.3'
+- paper: P128
+  count: 1
+  locations:
+  - '8.3'
+- paper: P129
+  count: 1
+  locations:
+  - '8.3'
+- paper: P130
+  count: 1
+  locations:
+  - '8.3'
+- paper: P131
+  count: 1
+  locations:
+  - '8.3'
+- paper: P132
+  count: 1
+  locations:
+  - '8.3'
+- paper: P133
+  count: 1
+  locations:
+  - '8.3'
+- paper: P134
+  count: 1
+  locations:
+  - '8.3'
+- paper: P135
+  count: 1
+  locations:
+  - '8.3'
+- paper: P136
+  count: 1
+  locations:
+  - '8.3'
+- paper: P137
+  count: 1
+  locations:
+  - '8.3'
+- paper: P138
+  count: 1
+  locations:
+  - '8.3'
+- paper: P139
+  count: 1
+  locations:
+  - '8.3'
+- paper: P140
+  count: 1
+  locations:
+  - '8.3'
+- paper: P141
+  count: 1
+  locations:
+  - '8.3'
+- paper: P142
+  count: 1
+  locations:
+  - '8.3'
+- paper: P143
+  count: 1
+  locations:
+  - '8.3'
+- paper: P144
+  count: 1
+  locations:
+  - '8.3'
+- paper: P145
+  count: 1
+  locations:
+  - '8.3'
+- paper: P146
+  count: 1
+  locations:
+  - '8.3'
+- paper: P147
+  count: 1
+  locations:
+  - '8.3'
+- paper: P148
+  count: 1
+  locations:
+  - '8.3'
+- paper: P149
+  count: 1
+  locations:
+  - '8.3'
+- paper: P150
+  count: 1
+  locations:
+  - '8.3'
+- paper: P151
+  count: 1
+  locations:
+  - '8.3'
+- paper: P152
+  count: 1
+  locations:
+  - '8.3'
+- paper: P153
+  count: 1
+  locations:
+  - '8.3'
+- paper: P154
+  count: 1
+  locations:
+  - '8.3'
+- paper: P155
+  count: 1
+  locations:
+  - '8.3'
+- paper: P156
+  count: 1
+  locations:
+  - '8.3'
+- paper: P157
+  count: 1
+  locations:
+  - '8.3'
+- paper: P158
+  count: 1
+  locations:
+  - '8.3'
+- paper: P159
+  count: 1
+  locations:
+  - '8.3'
+- paper: P160
+  count: 1
+  locations:
+  - '8.3'
+- paper: P161
+  count: 1
+  locations:
+  - '8.3'
+- paper: P162
+  count: 1
+  locations:
+  - '8.3'
+- paper: P163
+  count: 1
+  locations:
+  - '8.3'
+- paper: P164
+  count: 1
+  locations:
+  - '8.3'
+- paper: P165
+  count: 1
+  locations:
+  - '8.3'
+- paper: P166
+  count: 1
+  locations:
+  - '8.3'
+- paper: P167
+  count: 1
+  locations:
+  - '8.3'
+- paper: P168
+  count: 1
+  locations:
+  - '8.3'
+- paper: P169
+  count: 1
+  locations:
+  - '8.3'
+- paper: P170
+  count: 1
+  locations:
+  - '8.3'
+- paper: P171
+  count: 1
+  locations:
+  - '8.3'
+- paper: P172
+  count: 1
+  locations:
+  - '8.3'
+- paper: P173
+  count: 1
+  locations:
+  - '8.3'
+- paper: P174
+  count: 1
+  locations:
+  - '8.3'
+- paper: P175
+  count: 1
+  locations:
+  - '8.3'
+- paper: P176
+  count: 1
+  locations:
+  - '8.3'
+- paper: P177
+  count: 1
+  locations:
+  - '8.3'
+- paper: P178
+  count: 1
+  locations:
+  - '8.3'
+- paper: P179
+  count: 1
+  locations:
+  - '8.3'
+- paper: P180
+  count: 1
+  locations:
+  - '8.3'
+- paper: P181
+  count: 1
+  locations:
+  - '8.3'
+- paper: P182
+  count: 1
+  locations:
+  - '8.3'
+- paper: P183
+  count: 1
+  locations:
+  - '8.3'
+- paper: P184
+  count: 1
+  locations:
+  - '8.3'
+- paper: P185
+  count: 1
+  locations:
+  - '8.3'
+- paper: P186
+  count: 1
+  locations:
+  - '8.3'
+- paper: P187
+  count: 1
+  locations:
+  - '8.3'
+- paper: P188
+  count: 1
+  locations:
+  - '8.3'
+- paper: P189
+  count: 1
+  locations:
+  - '8.3'
+- paper: P190
+  count: 1
+  locations:
+  - '8.3'
+- paper: P191
+  count: 1
+  locations:
+  - '8.3'
+- paper: P192
+  count: 1
+  locations:
+  - '8.3'
+- paper: P193
+  count: 1
+  locations:
+  - '8.3'
+- paper: P194
+  count: 1
+  locations:
+  - '8.3'
+- paper: P195
+  count: 1
+  locations:
+  - '8.3'
+- paper: P196
+  count: 1
+  locations:
+  - '8.3'
+- paper: P197
+  count: 1
+  locations:
+  - '8.3'
+- paper: P198
+  count: 1
+  locations:
+  - '8.3'
+- paper: P199
+  count: 1
+  locations:
+  - '8.3'
+- paper: P200
+  count: 1
+  locations:
+  - '8.3'
+- paper: P201
+  count: 1
+  locations:
+  - '8.3'
+- paper: P202
+  count: 1
+  locations:
+  - '8.3'
+- paper: P203
+  count: 1
+  locations:
+  - '8.3'
+- paper: P204
+  count: 1
+  locations:
+  - '8.3'
+- paper: P205
+  count: 1
+  locations:
+  - '8.3'
+- paper: P206
+  count: 1
+  locations:
+  - '8.3'
+- paper: P207
+  count: 1
+  locations:
+  - '8.3'
+- paper: P208
+  count: 1
+  locations:
+  - '8.3'
+- paper: P209
+  count: 1
+  locations:
+  - '8.3'
+- paper: P210
+  count: 1
+  locations:
+  - '8.3'
+- paper: P211
+  count: 1
+  locations:
+  - '8.3'
+- paper: P212
+  count: 1
+  locations:
+  - '8.3'
+- paper: P213
+  count: 1
+  locations:
+  - '8.3'
+- paper: P214
+  count: 1
+  locations:
+  - '8.3'
+- paper: P215
+  count: 1
+  locations:
+  - '8.3'
+- paper: P216
+  count: 1
+  locations:
+  - '8.3'
+- paper: P217
+  count: 1
+  locations:
+  - '8.3'
+- paper: P218
+  count: 1
+  locations:
+  - '8.3'
+- paper: P219
+  count: 1
+  locations:
+  - '8.3'
+- paper: P220
+  count: 1
+  locations:
+  - '8.3'
+- paper: P221
+  count: 1
+  locations:
+  - '8.3'
+- paper: P222
+  count: 1
+  locations:
+  - '8.3'
+- paper: P223
+  count: 1
+  locations:
+  - '8.3'
+- paper: P224
+  count: 1
+  locations:
+  - '8.3'
+- paper: P225
+  count: 1
+  locations:
+  - '8.3'
+- paper: P226
+  count: 1
+  locations:
+  - '8.3'
+- paper: P227
+  count: 1
+  locations:
+  - '8.3'
+- paper: P228
+  count: 1
+  locations:
+  - '8.3'
+- paper: P229
+  count: 1
+  locations:
+  - '8.3'
+- paper: P230
+  count: 1
+  locations:
+  - '8.3'
+- paper: P231
+  count: 1
+  locations:
+  - '8.3'
+- paper: P232
+  count: 1
+  locations:
+  - '8.3'
+- paper: P233
+  count: 1
+  locations:
+  - '8.3'
+- paper: P234
+  count: 1
+  locations:
+  - '8.3'
+- paper: P235
+  count: 1
+  locations:
+  - '8.3'
+- paper: P236
+  count: 1
+  locations:
+  - '8.3'
+- paper: P237
+  count: 1
+  locations:
+  - '8.3'
+- paper: P238
+  count: 1
+  locations:
+  - '8.3'
+- paper: P239
+  count: 1
+  locations:
+  - '8.3'
+- paper: P240
+  count: 1
+  locations:
+  - '8.3'
+- paper: P241
+  count: 1
+  locations:
+  - '8.3'
+- paper: P242
+  count: 1
+  locations:
+  - '8.3'
+- paper: P243
+  count: 1
+  locations:
+  - '8.3'
+- paper: P244
+  count: 1
+  locations:
+  - '8.3'
+- paper: P245
+  count: 1
+  locations:
+  - '8.3'
+- paper: P246
+  count: 1
+  locations:
+  - '8.3'
+- paper: P247
+  count: 1
+  locations:
+  - '8.3'
+- paper: P248
+  count: 1
+  locations:
+  - '8.3'
+- paper: P249
+  count: 1
+  locations:
+  - '8.3'
+- paper: P250
+  count: 1
+  locations:
+  - '8.3'
+- paper: P251
+  count: 1
+  locations:
+  - '8.3'
+- paper: P252
+  count: 1
+  locations:
+  - '8.3'
+- paper: P253
+  count: 1
+  locations:
+  - '8.3'
+- paper: P254
+  count: 1
+  locations:
+  - '8.3'
+- paper: P255
+  count: 1
+  locations:
+  - '8.3'
+- paper: P256
+  count: 1
+  locations:
+  - '8.3'
+- paper: P257
+  count: 1
+  locations:
+  - '8.3'
+- paper: P258
+  count: 1
+  locations:
+  - '8.3'
+- paper: P259
+  count: 1
+  locations:
+  - '8.3'
+- paper: P260
+  count: 1
+  locations:
+  - '8.3'
+- paper: P261
+  count: 1
+  locations:
+  - '8.3'
+- paper: P262
+  count: 1
+  locations:
+  - '8.3'
+- paper: P263
+  count: 1
+  locations:
+  - '8.3'
+- paper: P264
+  count: 1
+  locations:
+  - '8.3'
+- paper: P265
+  count: 1
+  locations:
+  - '8.3'
+- paper: P266
+  count: 1
+  locations:
+  - '8.3'
+- paper: P267
+  count: 1
+  locations:
+  - '8.3'
+- paper: P268
+  count: 1
+  locations:
+  - '8.3'
+- paper: P269
+  count: 1
+  locations:
+  - '8.3'
+- paper: P270
+  count: 1
+  locations:
+  - '8.3'
+- paper: P271
+  count: 1
+  locations:
+  - '8.3'
+- paper: P272
+  count: 1
+  locations:
+  - '8.3'
+- paper: P273
+  count: 1
+  locations:
+  - '8.3'
+- paper: P274
+  count: 1
+  locations:
+  - '8.3'
+- paper: P275
+  count: 1
+  locations:
+  - '8.3'
+- paper: P276
+  count: 1
+  locations:
+  - '8.3'
+- paper: P277
+  count: 1
+  locations:
+  - '8.3'
+- paper: P278
+  count: 1
+  locations:
+  - '8.3'
+- paper: P279
+  count: 1
+  locations:
+  - '8.3'
+- paper: P280
+  count: 1
+  locations:
+  - '8.3'
+- paper: P281
+  count: 1
+  locations:
+  - '8.3'
+- paper: P282
+  count: 1
+  locations:
+  - '8.3'
+- paper: P283
+  count: 1
+  locations:
+  - '8.3'
+- paper: P284
+  count: 1
+  locations:
+  - '8.3'
+- paper: P285
+  count: 1
+  locations:
+  - '8.3'
+- paper: P286
+  count: 1
+  locations:
+  - '8.3'
+- paper: P287
+  count: 1
+  locations:
+  - '8.3'
+- paper: P288
+  count: 1
+  locations:
+  - '8.3'
+- paper: P289
+  count: 1
+  locations:
+  - '8.3'
+- paper: P290
+  count: 1
+  locations:
+  - '8.3'
+- paper: P291
+  count: 1
+  locations:
+  - '8.3'
+- paper: P292
+  count: 1
+  locations:
+  - '8.3'
+- paper: P293
+  count: 1
+  locations:
+  - '8.3'
+- paper: P294
+  count: 1
+  locations:
+  - '8.3'
+- paper: P295
+  count: 1
+  locations:
+  - '8.3'
+- paper: P296
+  count: 1
+  locations:
+  - '8.3'
+- paper: P297
+  count: 1
+  locations:
+  - '8.3'
+- paper: P298
+  count: 1
+  locations:
+  - '8.3'
+- paper: P299
+  count: 1
+  locations:
+  - '8.3'
+- paper: P300
+  count: 1
+  locations:
+  - '8.3'
+- paper: P301
+  count: 1
+  locations:
+  - '8.3'
+- paper: P302
+  count: 1
+  locations:
+  - '8.3'
+- paper: P303
+  count: 1
+  locations:
+  - '8.3'
+- paper: P304
+  count: 1
+  locations:
+  - '8.3'
+- paper: P305
+  count: 1
+  locations:
+  - '8.3'
+- paper: P306
+  count: 1
+  locations:
+  - '8.3'
+- paper: P307
+  count: 1
+  locations:
+  - '8.3'
+- paper: P308
+  count: 1
+  locations:
+  - '8.3'
+- paper: P309
+  count: 1
+  locations:
+  - '8.3'
+- paper: P310
+  count: 1
+  locations:
+  - '8.3'
+- paper: P311
+  count: 1
+  locations:
+  - '8.3'
+- paper: P312
+  count: 1
+  locations:
+  - '8.3'
+- paper: P313
+  count: 1
+  locations:
+  - '8.3'
+- paper: P314
+  count: 1
+  locations:
+  - '8.3'
+- paper: P315
+  count: 1
+  locations:
+  - '8.3'
+- paper: P316
+  count: 1
+  locations:
+  - '8.3'
+- paper: P317
+  count: 1
+  locations:
+  - '8.3'
+- paper: P318
+  count: 1
+  locations:
+  - '8.3'
+- paper: P319
+  count: 1
+  locations:
+  - '8.3'
+- paper: P320
+  count: 1
+  locations:
+  - '8.3'
+- paper: P321
+  count: 1
+  locations:
+  - '8.3'
+- paper: P322
+  count: 1
+  locations:
+  - '8.3'
+- paper: P323
+  count: 1
+  locations:
+  - '8.3'
+- paper: P324
+  count: 1
+  locations:
+  - '8.3'
+- paper: P325
+  count: 1
+  locations:
+  - '8.3'
+- paper: P326
+  count: 1
+  locations:
+  - '8.3'
+- paper: P327
+  count: 1
+  locations:
+  - '8.3'
+- paper: P328
+  count: 1
+  locations:
+  - '8.3'
+- paper: P329
+  count: 1
+  locations:
+  - '8.3'
+- paper: P330
+  count: 1
+  locations:
+  - '8.3'
+- paper: P331
+  count: 1
+  locations:
+  - '8.3'
+- paper: P332
+  count: 1
+  locations:
+  - '8.3'
+- paper: P333
+  count: 1
+  locations:
+  - '8.3'
+- paper: P334
+  count: 1
+  locations:
+  - '8.3'
+- paper: P335
+  count: 1
+  locations:
+  - '8.3'
+- paper: P336
+  count: 1
+  locations:
+  - '8.3'
+- paper: P337
+  count: 1
+  locations:
+  - '8.3'
+- paper: P338
+  count: 1
+  locations:
+  - '8.3'
+- paper: P339
+  count: 1
+  locations:
+  - '8.3'
+- paper: P340
+  count: 1
+  locations:
+  - '8.3'
+- paper: P341
+  count: 1
+  locations:
+  - '8.3'
+- paper: P342
+  count: 1
+  locations:
+  - '8.3'
+- paper: P343
+  count: 1
+  locations:
+  - '8.3'
+- paper: P344
+  count: 1
+  locations:
+  - '8.3'
+- paper: P345
+  count: 1
+  locations:
+  - '8.3'
+- paper: P346
+  count: 1
+  locations:
+  - '8.3'
+- paper: P347
+  count: 1
+  locations:
+  - '8.3'
+- paper: P348
+  count: 1
+  locations:
+  - '8.3'
+- paper: P349
+  count: 1
+  locations:
+  - '8.3'
+- paper: P350
+  count: 1
+  locations:
+  - '8.3'
+- paper: P351
+  count: 1
+  locations:
+  - '8.3'
+- paper: P352
+  count: 1
+  locations:
+  - '8.3'
+- paper: P353
+  count: 1
+  locations:
+  - '8.3'
+- paper: P354
+  count: 1
+  locations:
+  - '8.3'
+- paper: P355
+  count: 1
+  locations:
+  - '8.3'
+- paper: P356
+  count: 1
+  locations:
+  - '8.3'
+- paper: P357
+  count: 1
+  locations:
+  - '8.3'
+- paper: P358
+  count: 1
+  locations:
+  - '8.3'
+- paper: P359
+  count: 1
+  locations:
+  - '8.3'
+- paper: P360
+  count: 1
+  locations:
+  - '8.3'
+- paper: P361
+  count: 1
+  locations:
+  - '8.3'
+- paper: P362
+  count: 1
+  locations:
+  - '8.3'
+- paper: P363
+  count: 1
+  locations:
+  - '8.3'
+- paper: P364
+  count: 1
+  locations:
+  - '8.3'
+- paper: P365
+  count: 1
+  locations:
+  - '8.3'
+- paper: P366
+  count: 1
+  locations:
+  - '8.3'
+- paper: P367
+  count: 1
+  locations:
+  - '8.3'
+- paper: P368
+  count: 1
+  locations:
+  - '8.3'
+- paper: P369
+  count: 1
+  locations:
+  - '8.3'
+- paper: P370
+  count: 1
+  locations:
+  - '8.3'
+- paper: P371
+  count: 1
+  locations:
+  - '8.3'
+- paper: P372
+  count: 1
+  locations:
+  - '8.3'
+- paper: P373
+  count: 1
+  locations:
+  - '8.3'
+- paper: P374
+  count: 1
+  locations:
+  - '8.3'
+- paper: P375
+  count: 1
+  locations:
+  - '8.3'
+- paper: P376
+  count: 1
+  locations:
+  - '8.3'
+- paper: P377
+  count: 1
+  locations:
+  - '8.3'
+- paper: P378
+  count: 1
+  locations:
+  - '8.3'
+- paper: P379
+  count: 1
+  locations:
+  - '8.3'
+- paper: P380
+  count: 1
+  locations:
+  - '8.3'
+- paper: P381
+  count: 1
+  locations:
+  - '8.3'
+- paper: P382
+  count: 1
+  locations:
+  - '8.3'
+- paper: P383
+  count: 1
+  locations:
+  - '8.3'
+- paper: P384
+  count: 1
+  locations:
+  - '8.3'
+- paper: P385
+  count: 1
+  locations:
+  - '8.3'
+- paper: P386
+  count: 1
+  locations:
+  - '8.3'
+- paper: P387
+  count: 1
+  locations:
+  - '8.3'
+- paper: P388
+  count: 1
+  locations:
+  - '8.3'
+- paper: P389
+  count: 1
+  locations:
+  - '8.3'
+- paper: P390
+  count: 1
+  locations:
+  - '8.3'
+- paper: P391
+  count: 1
+  locations:
+  - '8.3'
+- paper: P392
+  count: 1
+  locations:
+  - '8.3'
+- paper: P393
+  count: 1
+  locations:
+  - '8.3'
+- paper: P394
+  count: 1
+  locations:
+  - '8.3'
+- paper: P395
+  count: 1
+  locations:
+  - '8.3'
+- paper: P396
+  count: 1
+  locations:
+  - '8.3'
+- paper: P397
+  count: 1
+  locations:
+  - '8.3'
+- paper: P398
+  count: 1
+  locations:
+  - '8.3'
+- paper: P399
+  count: 1
+  locations:
+  - '8.3'
+- paper: P400
+  count: 1
+  locations:
+  - '8.3'
+- paper: P401
+  count: 1
+  locations:
+  - '8.3'
+- paper: P402
+  count: 1
+  locations:
+  - '8.3'
+- paper: P403
+  count: 1
+  locations:
+  - '8.3'
+- paper: P404
+  count: 1
+  locations:
+  - '8.3'
+- paper: P405
+  count: 1
+  locations:
+  - '8.3'
+- paper: P406
+  count: 1
+  locations:
+  - '8.3'
+- paper: P407
+  count: 1
+  locations:
+  - '8.3'
+- paper: P408
+  count: 1
+  locations:
+  - '8.3'
+- paper: P409
+  count: 1
+  locations:
+  - '8.3'
+- paper: P410
+  count: 1
+  locations:
+  - '8.3'
+- paper: P411
+  count: 1
+  locations:
+  - '8.3'
+- paper: P412
+  count: 1
+  locations:
+  - '8.3'
+- paper: P413
+  count: 1
+  locations:
+  - '8.3'
+- paper: P414
+  count: 1
+  locations:
+  - '8.3'
+- paper: P415
+  count: 1
+  locations:
+  - '8.3'
+- paper: P416
+  count: 1
+  locations:
+  - '8.3'
+- paper: P417
+  count: 1
+  locations:
+  - '8.3'
+- paper: P418
+  count: 1
+  locations:
+  - '8.3'
+- paper: P419
+  count: 1
+  locations:
+  - '8.3'
+- paper: P420
+  count: 1
+  locations:
+  - '8.3'
+- paper: P421
+  count: 1
+  locations:
+  - '8.3'
+- paper: P422
+  count: 1
+  locations:
+  - '8.3'
+- paper: P423
+  count: 1
+  locations:
+  - '8.3'
+- paper: P424
+  count: 1
+  locations:
+  - '8.3'
+- paper: P425
+  count: 1
+  locations:
+  - '8.3'
+- paper: P426
+  count: 1
+  locations:
+  - '8.3'
+- paper: P427
+  count: 1
+  locations:
+  - '8.3'
+- paper: P428
+  count: 1
+  locations:
+  - '8.3'
+- paper: P429
+  count: 1
+  locations:
+  - '8.3'
+- paper: P430
+  count: 1
+  locations:
+  - '8.3'
+- paper: P431
+  count: 1
+  locations:
+  - '8.3'
+- paper: P432
+  count: 1
+  locations:
+  - '8.3'
+- paper: P433
+  count: 1
+  locations:
+  - '8.3'
+- paper: P434
+  count: 1
+  locations:
+  - '8.3'
+- paper: P435
+  count: 1
+  locations:
+  - '8.3'
+- paper: P436
+  count: 1
+  locations:
+  - '8.3'
+- paper: P437
+  count: 1
+  locations:
+  - '8.3'
+- paper: P438
+  count: 1
+  locations:
+  - '8.3'
+- paper: P439
+  count: 1
+  locations:
+  - '8.3'
+- paper: P440
+  count: 1
+  locations:
+  - '8.3'
+- paper: P441
+  count: 1
+  locations:
+  - '8.3'
+- paper: P442
+  count: 1
+  locations:
+  - '8.3'
+- paper: P443
+  count: 1
+  locations:
+  - '8.3'
+- paper: P444
+  count: 1
+  locations:
+  - '8.3'
+- paper: P445
+  count: 1
+  locations:
+  - '8.3'
+- paper: P446
+  count: 1
+  locations:
+  - '8.3'
+- paper: P447
+  count: 1
+  locations:
+  - '8.3'
+- paper: P448
+  count: 1
+  locations:
+  - '8.3'
+- paper: P449
+  count: 1
+  locations:
+  - '8.3'
+- paper: P450
+  count: 1
+  locations:
+  - '8.3'
+- paper: P451
+  count: 1
+  locations:
+  - '8.3'
+- paper: P452
+  count: 1
+  locations:
+  - '8.3'
+- paper: P453
+  count: 1
+  locations:
+  - '8.3'
+- paper: P454
+  count: 1
+  locations:
+  - '8.3'
+- paper: P455
+  count: 1
+  locations:
+  - '8.3'
+- paper: P456
+  count: 1
+  locations:
+  - '8.3'
+- paper: P457
+  count: 1
+  locations:
+  - '8.3'
+- paper: P458
+  count: 1
+  locations:
+  - '8.3'
+- paper: P459
+  count: 1
+  locations:
+  - '8.3'
+- paper: P460
+  count: 1
+  locations:
+  - '8.3'
+- paper: P461
+  count: 1
+  locations:
+  - '8.3'
+- paper: P462
+  count: 1
+  locations:
+  - '8.3'
+- paper: P463
+  count: 1
+  locations:
+  - '8.3'
+- paper: P464
+  count: 1
+  locations:
+  - '8.3'
+- paper: P465
+  count: 1
+  locations:
+  - '8.3'
+- paper: P466
+  count: 1
+  locations:
+  - '8.3'
+- paper: P467
+  count: 1
+  locations:
+  - '8.3'
+- paper: P468
+  count: 1
+  locations:
+  - '8.3'
+- paper: P469
+  count: 1
+  locations:
+  - '8.3'
+- paper: P470
+  count: 1
+  locations:
+  - '8.3'
+- paper: P471
+  count: 1
+  locations:
+  - '8.3'
+- paper: P472
+  count: 1
+  locations:
+  - '8.3'
+- paper: P473
+  count: 1
+  locations:
+  - '8.3'
+- paper: P474
+  count: 1
+  locations:
+  - '8.3'
+- paper: P475
+  count: 1
+  locations:
+  - '8.3'
+- paper: P476
+  count: 1
+  locations:
+  - '8.3'
+- paper: P477
+  count: 1
+  locations:
+  - '8.3'
+- paper: P478
+  count: 1
+  locations:
+  - '8.3'
+- paper: P479
+  count: 1
+  locations:
+  - '8.3'
+- paper: P480
+  count: 1
+  locations:
+  - '8.3'
+- paper: P481
+  count: 1
+  locations:
+  - '8.3'
+- paper: P482
+  count: 1
+  locations:
+  - '8.3'
+- paper: P483
+  count: 1
+  locations:
+  - '8.3'
+- paper: P484
+  count: 1
+  locations:
+  - '8.3'
+- paper: P485
+  count: 1
+  locations:
+  - '8.3'
+- paper: P486
+  count: 1
+  locations:
+  - '8.3'
+- paper: P487
+  count: 1
+  locations:
+  - '8.3'
+- paper: P488
+  count: 1
+  locations:
+  - '8.3'
+- paper: P489
+  count: 1
+  locations:
+  - '8.3'
+- paper: P490
+  count: 1
+  locations:
+  - '8.3'
+- paper: P491
+  count: 1
+  locations:
+  - '8.3'
+- paper: P492
+  count: 1
+  locations:
+  - '8.3'
+- paper: P493
+  count: 1
+  locations:
+  - '8.3'
+- paper: P494
+  count: 1
+  locations:
+  - '8.3'
+- paper: P495
+  count: 1
+  locations:
+  - '8.3'
+- paper: P496
+  count: 1
+  locations:
+  - '8.3'
+- paper: P497
+  count: 1
+  locations:
+  - '8.3'
+- paper: P498
+  count: 1
+  locations:
+  - '8.3'
+- paper: P499
+  count: 1
+  locations:
+  - '8.3'
+- paper: P500
+  count: 1
+  locations:
+  - '8.3'
+- paper: P501
+  count: 1
+  locations:
+  - '8.3'
+- paper: P502
+  count: 1
+  locations:
+  - '8.3'
+- paper: P503
+  count: 1
+  locations:
+  - '8.3'
+- paper: P504
+  count: 1
+  locations:
+  - '8.3'
+- paper: P505
+  count: 1
+  locations:
+  - '8.3'
+- paper: P506
+  count: 1
+  locations:
+  - '8.3'
+- paper: P507
+  count: 1
+  locations:
+  - '8.3'
+- paper: P508
+  count: 1
+  locations:
+  - '8.3'
+- paper: P509
+  count: 1
+  locations:
+  - '8.3'
+- paper: P510
+  count: 1
+  locations:
+  - '8.3'
+- paper: P511
+  count: 1
+  locations:
+  - '8.3'
+- paper: P512
+  count: 1
+  locations:
+  - '8.3'
+- paper: P513
+  count: 1
+  locations:
+  - '8.3'
+- paper: P514
+  count: 1
+  locations:
+  - '8.3'
+- paper: P515
+  count: 1
+  locations:
+  - '8.3'
+- paper: P516
+  count: 1
+  locations:
+  - '8.3'
+- paper: P517
+  count: 1
+  locations:
+  - '8.3'
+- paper: P518
+  count: 1
+  locations:
+  - '8.3'
+- paper: P519
+  count: 1
+  locations:
+  - '8.3'
+- paper: P520
+  count: 1
+  locations:
+  - '8.3'
+- paper: P521
+  count: 1
+  locations:
+  - '8.3'
+- paper: P522
+  count: 1
+  locations:
+  - '8.3'
+- paper: P523
+  count: 1
+  locations:
+  - '8.3'
+- paper: P524
+  count: 1
+  locations:
+  - '8.3'
+- paper: P525
+  count: 1
+  locations:
+  - '8.3'
+- paper: P526
+  count: 1
+  locations:
+  - '8.3'
+- paper: P527
+  count: 1
+  locations:
+  - '8.3'
+- paper: P528
+  count: 1
+  locations:
+  - '8.3'
+- paper: P529
+  count: 1
+  locations:
+  - '8.3'
+- paper: P530
+  count: 1
+  locations:
+  - '8.3'
+- paper: P531
+  count: 1
+  locations:
+  - '8.3'
+- paper: P532
+  count: 1
+  locations:
+  - '8.3'
+- paper: P533
+  count: 1
+  locations:
+  - '8.3'
+- paper: P534
+  count: 1
+  locations:
+  - '8.3'
+- paper: P535
+  count: 1
+  locations:
+  - '8.3'
+- paper: P536
+  count: 1
+  locations:
+  - '8.3'
+- paper: P537
+  count: 1
+  locations:
+  - '8.3'
+- paper: P538
+  count: 1
+  locations:
+  - '8.3'
+- paper: P539
+  count: 1
+  locations:
+  - '8.3'
+- paper: P540
+  count: 1
+  locations:
+  - '8.3'
+- paper: P541
+  count: 1
+  locations:
+  - '8.3'
+- paper: P542
+  count: 1
+  locations:
+  - '8.3'
+- paper: P543
+  count: 1
+  locations:
+  - '8.3'
+- paper: P544
+  count: 1
+  locations:
+  - '8.3'
+- paper: P545
+  count: 1
+  locations:
+  - '8.3'
+- paper: P546
+  count: 1
+  locations:
+  - '8.3'
+- paper: P547
+  count: 1
+  locations:
+  - '8.3'
+- paper: P548
+  count: 1
+  locations:
+  - '8.3'
+- paper: P549
+  count: 1
+  locations:
+  - '8.3'
+- paper: P550
+  count: 1
+  locations:
+  - '8.3'
+- paper: P551
+  count: 1
+  locations:
+  - '8.3'
+- paper: P552
+  count: 1
+  locations:
+  - '8.3'
+- paper: P553
+  count: 1
+  locations:
+  - '8.3'
+- paper: P554
+  count: 1
+  locations:
+  - '8.3'
+- paper: P555
+  count: 1
+  locations:
+  - '8.3'
+- paper: P556
+  count: 1
+  locations:
+  - '8.3'
+- paper: P557
+  count: 1
+  locations:
+  - '8.3'
+- paper: P558
+  count: 1
+  locations:
+  - '8.3'
+- paper: P559
+  count: 1
+  locations:
+  - '8.3'
+- paper: P560
+  count: 1
+  locations:
+  - '8.3'
+- paper: P561
+  count: 1
+  locations:
+  - '8.3'
+- paper: P562
+  count: 1
+  locations:
+  - '8.3'
+- paper: P563
+  count: 1
+  locations:
+  - '8.3'
+- paper: P564
+  count: 1
+  locations:
+  - '8.3'
+- paper: P565
+  count: 1
+  locations:
+  - '8.3'
+- paper: P566
+  count: 1
+  locations:
+  - '8.3'
+- paper: P567
+  count: 1
+  locations:
+  - '8.3'
+- paper: P568
+  count: 1
+  locations:
+  - '8.3'
+- paper: P569
+  count: 1
+  locations:
+  - '8.3'
+- paper: P570
+  count: 1
+  locations:
+  - '8.3'
+- paper: P571
+  count: 1
+  locations:
+  - '8.3'
+- paper: P572
+  count: 1
+  locations:
+  - '8.3'
+- paper: P573
+  count: 1
+  locations:
+  - '8.3'
+- paper: P574
+  count: 1
+  locations:
+  - '8.3'
+- paper: P575
+  count: 1
+  locations:
+  - '8.3'
+- paper: P576
+  count: 1
+  locations:
+  - '8.3'
+- paper: P577
+  count: 1
+  locations:
+  - '8.3'
+- paper: P578
+  count: 1
+  locations:
+  - '8.3'
+- paper: P579
+  count: 1
+  locations:
+  - '8.3'
+- paper: P580
+  count: 1
+  locations:
+  - '8.3'
+- paper: P581
+  count: 1
+  locations:
+  - '8.3'
+- paper: P582
+  count: 1
+  locations:
+  - '8.3'
+- paper: P583
+  count: 1
+  locations:
+  - '8.3'
+- paper: P584
+  count: 1
+  locations:
+  - '8.3'
+- paper: P585
+  count: 1
+  locations:
+  - '8.3'
+- paper: P586
+  count: 1
+  locations:
+  - '8.3'
+- paper: P587
+  count: 1
+  locations:
+  - '8.3'
+- paper: P588
+  count: 1
+  locations:
+  - '8.3'
+- paper: P589
+  count: 1
+  locations:
+  - '8.3'
+- paper: P590
+  count: 1
+  locations:
+  - '8.3'
+- paper: P591
+  count: 1
+  locations:
+  - '8.3'
+- paper: P592
+  count: 1
+  locations:
+  - '8.3'
+- paper: P593
+  count: 1
+  locations:
+  - '8.3'
+- paper: P594
+  count: 1
+  locations:
+  - '8.3'
+- paper: P595
+  count: 1
+  locations:
+  - '8.3'
+- paper: P596
+  count: 1
+  locations:
+  - '8.3'
+- paper: P597
+  count: 1
+  locations:
+  - '8.3'
+- paper: P598
+  count: 1
+  locations:
+  - '8.3'
+- paper: P599
+  count: 1
+  locations:
+  - '8.3'
+- paper: P600
+  count: 1
+  locations:
+  - '8.3'
+- paper: P601
+  count: 1
+  locations:
+  - '8.3'
+- paper: P602
+  count: 1
+  locations:
+  - '8.3'
+- paper: P603
+  count: 1
+  locations:
+  - '8.3'
+- paper: P604
+  count: 1
+  locations:
+  - '8.3'
+- paper: P605
+  count: 1
+  locations:
+  - '8.3'
+- paper: P606
+  count: 1
+  locations:
+  - '8.3'
+- paper: P607
+  count: 1
+  locations:
+  - '8.3'
+- paper: P608
+  count: 1
+  locations:
+  - '8.3'
+- paper: P609
+  count: 1
+  locations:
+  - '8.3'
+- paper: P610
+  count: 1
+  locations:
+  - '8.3'
+- paper: P611
+  count: 1
+  locations:
+  - '8.3'
+- paper: P612
+  count: 1
+  locations:
+  - '8.3'
+- paper: P613
+  count: 1
+  locations:
+  - '8.3'
+- paper: P614
+  count: 1
+  locations:
+  - '8.3'
+- paper: P615
+  count: 1
+  locations:
+  - '8.3'
+- paper: P616
+  count: 1
+  locations:
+  - '8.3'
+- paper: P617
+  count: 1
+  locations:
+  - '8.3'
+- paper: P618
+  count: 1
+  locations:
+  - '8.3'
+- paper: P619
+  count: 1
+  locations:
+  - '8.3'
+- paper: P620
+  count: 1
+  locations:
+  - '8.3'
+- paper: P621
+  count: 1
+  locations:
+  - '8.3'
+- paper: P622
+  count: 1
+  locations:
+  - '8.3'
+- paper: P623
+  count: 1
+  locations:
+  - '8.3'
+- paper: P624
+  count: 1
+  locations:
+  - '8.3'
+- paper: P625
+  count: 1
+  locations:
+  - '8.3'
+- paper: P626
+  count: 1
+  locations:
+  - '8.3'
+- paper: P627
+  count: 1
+  locations:
+  - '8.3'
+- paper: P628
+  count: 1
+  locations:
+  - '8.3'
+- paper: P629
+  count: 1
+  locations:
+  - '8.3'
+- paper: P630
+  count: 1
+  locations:
+  - '8.3'
+- paper: P631
+  count: 1
+  locations:
+  - '8.3'
+- paper: P632
+  count: 1
+  locations:
+  - '8.3'
+- paper: P633
+  count: 1
+  locations:
+  - '8.3'
+- paper: P634
+  count: 1
+  locations:
+  - '8.3'
+- paper: P635
+  count: 1
+  locations:
+  - '8.3'
+- paper: P636
+  count: 1
+  locations:
+  - '8.3'
+- paper: P637
+  count: 1
+  locations:
+  - '8.3'
+- paper: P638
+  count: 1
+  locations:
+  - '8.3'
+- paper: P639
+  count: 1
+  locations:
+  - '8.3'
+- paper: P640
+  count: 1
+  locations:
+  - '8.3'
+- paper: P641
+  count: 1
+  locations:
+  - '8.3'
+- paper: P642
+  count: 1
+  locations:
+  - '8.3'
+- paper: P643
+  count: 1
+  locations:
+  - '8.3'
+- paper: P644
+  count: 1
+  locations:
+  - '8.3'
+- paper: P645
+  count: 1
+  locations:
+  - '8.3'
+- paper: P646
+  count: 1
+  locations:
+  - '8.3'
+- paper: P647
+  count: 1
+  locations:
+  - '8.3'
+- paper: P648
+  count: 1
+  locations:
+  - '8.3'
+- paper: P649
+  count: 1
+  locations:
+  - '8.3'
+- paper: P650
+  count: 1
+  locations:
+  - '8.3'
+- paper: P651
+  count: 1
+  locations:
+  - '8.3'
+- paper: P652
+  count: 1
+  locations:
+  - '8.3'
+- paper: P653
+  count: 1
+  locations:
+  - '8.3'
+- paper: P654
+  count: 1
+  locations:
+  - '8.3'
+- paper: P655
+  count: 1
+  locations:
+  - '8.3'
+- paper: P656
+  count: 1
+  locations:
+  - '8.3'
+- paper: P657
+  count: 1
+  locations:
+  - '8.3'
+- paper: P658
+  count: 1
+  locations:
+  - '8.3'
+- paper: P659
+  count: 1
+  locations:
+  - '8.3'
+- paper: P660
+  count: 1
+  locations:
+  - '8.3'
+- paper: P661
+  count: 1
+  locations:
+  - '8.3'
+- paper: P662
+  count: 1
+  locations:
+  - '8.3'
+- paper: P663
+  count: 1
+  locations:
+  - '8.3'
+- paper: P664
+  count: 1
+  locations:
+  - '8.3'
+- paper: P665
+  count: 1
+  locations:
+  - '8.3'
+- paper: P666
+  count: 1
+  locations:
+  - '8.3'
+- paper: P667
+  count: 1
+  locations:
+  - '8.3'
+- paper: P668
+  count: 1
+  locations:
+  - '8.3'
+- paper: P669
+  count: 1
+  locations:
+  - '8.3'
+- paper: P670
+  count: 1
+  locations:
+  - '8.3'
+- paper: P671
+  count: 1
+  locations:
+  - '8.3'
+- paper: P672
+  count: 1
+  locations:
+  - '8.3'
+- paper: P673
+  count: 1
+  locations:
+  - '8.3'
+- paper: P674
+  count: 1
+  locations:
+  - '8.3'
+- paper: P675
+  count: 1
+  locations:
+  - '8.3'
+- paper: P676
+  count: 1
+  locations:
+  - '8.3'
+- paper: P677
+  count: 1
+  locations:
+  - '8.3'
+- paper: P678
+  count: 1
+  locations:
+  - '8.3'
+- paper: P679
+  count: 1
+  locations:
+  - '8.3'
+- paper: P680
+  count: 1
+  locations:
+  - '8.3'
+- paper: P681
+  count: 1
+  locations:
+  - '8.3'
+- paper: P682
+  count: 1
+  locations:
+  - '8.3'
+- paper: P683
+  count: 1
+  locations:
+  - '8.3'
+- paper: P684
+  count: 1
+  locations:
+  - '8.3'
+- paper: P685
+  count: 1
+  locations:
+  - '8.3'
+- paper: P686
+  count: 1
+  locations:
+  - '8.3'
+- paper: P687
+  count: 1
+  locations:
+  - '8.3'
+- paper: P688
+  count: 1
+  locations:
+  - '8.3'
+- paper: P689
+  count: 1
+  locations:
+  - '8.3'
+- paper: P690
+  count: 1
+  locations:
+  - '8.3'
+- paper: P691
+  count: 1
+  locations:
+  - '8.3'
+- paper: P692
+  count: 1
+  locations:
+  - '8.3'
+- paper: P693
+  count: 1
+  locations:
+  - '8.3'
+- paper: P694
+  count: 1
+  locations:
+  - '8.3'
+- paper: P695
+  count: 1
+  locations:
+  - '8.3'
+- paper: P696
+  count: 1
+  locations:
+  - '8.3'
+- paper: P697
+  count: 1
+  locations:
+  - '8.3'
+- paper: P698
+  count: 1
+  locations:
+  - '8.3'
+- paper: P699
+  count: 1
+  locations:
+  - '8.3'
+- paper: P700
+  count: 1
+  locations:
+  - '8.3'
+- paper: P701
+  count: 1
+  locations:
+  - '8.3'
+- paper: P702
+  count: 1
+  locations:
+  - '8.3'
+- paper: P703
+  count: 1
+  locations:
+  - '8.3'
+- paper: P704
+  count: 1
+  locations:
+  - '8.3'
+- paper: P705
+  count: 1
+  locations:
+  - '8.3'
+- paper: P706
+  count: 1
+  locations:
+  - '8.3'
+- paper: P707
+  count: 1
+  locations:
+  - '8.3'
+- paper: P708
+  count: 1
+  locations:
+  - '8.3'
+- paper: P709
+  count: 1
+  locations:
+  - '8.3'
+- paper: P710
+  count: 1
+  locations:
+  - '8.3'
+- paper: P711
+  count: 1
+  locations:
+  - '8.3'
+- paper: P712
+  count: 1
+  locations:
+  - '8.3'
+- paper: P713
+  count: 1
+  locations:
+  - '8.3'
+- paper: P714
+  count: 1
+  locations:
+  - '8.3'
+- paper: P715
+  count: 1
+  locations:
+  - '8.3'
+- paper: P716
+  count: 1
+  locations:
+  - '8.3'
+- paper: P717
+  count: 1
+  locations:
+  - '8.3'
+- paper: P718
+  count: 1
+  locations:
+  - '8.3'
+- paper: P719
+  count: 1
+  locations:
+  - '8.3'
+- paper: P720
+  count: 1
+  locations:
+  - '8.3'
+- paper: P721
+  count: 1
+  locations:
+  - '8.3'
+- paper: P722
+  count: 1
+  locations:
+  - '8.3'
+- paper: P723
+  count: 1
+  locations:
+  - '8.3'
+- paper: P724
+  count: 1
+  locations:
+  - '8.3'
+- paper: P725
+  count: 1
+  locations:
+  - '8.3'
+- paper: P726
+  count: 1
+  locations:
+  - '8.3'
+- paper: P727
+  count: 1
+  locations:
+  - '8.3'
+- paper: P728
+  count: 1
+  locations:
+  - '8.3'
+- paper: P729
+  count: 1
+  locations:
+  - '8.3'
+- paper: P730
+  count: 1
+  locations:
+  - '8.3'
+- paper: P731
+  count: 1
+  locations:
+  - '8.3'
+- paper: P732
+  count: 1
+  locations:
+  - '8.3'
+- paper: P733
+  count: 1
+  locations:
+  - '8.3'
+- paper: P734
+  count: 1
+  locations:
+  - '8.3'
+- paper: P735
+  count: 1
+  locations:
+  - '8.3'
+- paper: P736
+  count: 1
+  locations:
+  - '8.3'
+- paper: P737
+  count: 1
+  locations:
+  - '8.3'
+- paper: P738
+  count: 1
+  locations:
+  - '8.3'
+- paper: P739
+  count: 1
+  locations:
+  - '8.3'
+- paper: P740
+  count: 1
+  locations:
+  - '8.3'
+- paper: P741
+  count: 1
+  locations:
+  - '8.3'
+- paper: P742
+  count: 1
+  locations:
+  - '8.3'
+- paper: P743
+  count: 1
+  locations:
+  - '8.3'
+- paper: P744
+  count: 1
+  locations:
+  - '8.3'
+- paper: P745
+  count: 1
+  locations:
+  - '8.3'
+- paper: P746
+  count: 1
+  locations:
+  - '8.3'
+- paper: P747
+  count: 1
+  locations:
+  - '8.3'
+- paper: P748
+  count: 1
+  locations:
+  - '8.3'
+- paper: P749
+  count: 1
+  locations:
+  - '8.3'
+- paper: P750
+  count: 1
+  locations:
+  - '8.3'
+- paper: P751
+  count: 1
+  locations:
+  - '8.3'
+- paper: P752
+  count: 1
+  locations:
+  - '8.3'
+- paper: P753
+  count: 1
+  locations:
+  - '8.3'
+- paper: P754
+  count: 1
+  locations:
+  - '8.3'
+- paper: P755
+  count: 1
+  locations:
+  - '8.3'
+- paper: P756
+  count: 1
+  locations:
+  - '8.3'
+- paper: P757
+  count: 1
+  locations:
+  - '8.3'
+- paper: P758
+  count: 1
+  locations:
+  - '8.3'
+- paper: P759
+  count: 1
+  locations:
+  - '8.3'
+- paper: P760
+  count: 1
+  locations:
+  - '8.3'
+- paper: P761
+  count: 1
+  locations:
+  - '8.3'
+- paper: P762
+  count: 1
+  locations:
+  - '8.3'
+- paper: P763
+  count: 1
+  locations:
+  - '8.3'
+- paper: P764
+  count: 1
+  locations:
+  - '8.3'
+- paper: P765
+  count: 1
+  locations:
+  - '8.3'
+- paper: P766
+  count: 1
+  locations:
+  - '8.3'
+- paper: P767
+  count: 1
+  locations:
+  - '8.3'
+- paper: P768
+  count: 1
+  locations:
+  - '8.3'
+- paper: P769
+  count: 1
+  locations:
+  - '8.3'
+- paper: P770
+  count: 1
+  locations:
+  - '8.3'
+- paper: P771
+  count: 1
+  locations:
+  - '8.3'
+- paper: P772
+  count: 1
+  locations:
+  - '8.3'
+- paper: P773
+  count: 1
+  locations:
+  - '8.3'
+- paper: P774
+  count: 1
+  locations:
+  - '8.3'
+- paper: P775
+  count: 1
+  locations:
+  - '8.3'
+- paper: P776
+  count: 1
+  locations:
+  - '8.3'
+- paper: P777
+  count: 1
+  locations:
+  - '8.3'
+- paper: P778
+  count: 1
+  locations:
+  - '8.3'
+- paper: P779
+  count: 1
+  locations:
+  - '8.3'
+- paper: P780
+  count: 1
+  locations:
+  - '8.3'
+- paper: P781
+  count: 1
+  locations:
+  - '8.3'
+- paper: P782
+  count: 1
+  locations:
+  - '8.3'
+- paper: P783
+  count: 1
+  locations:
+  - '8.3'
+- paper: P784
+  count: 1
+  locations:
+  - '8.3'
+- paper: P785
+  count: 1
+  locations:
+  - '8.3'
+- paper: P786
+  count: 1
+  locations:
+  - '8.3'
+- paper: P787
+  count: 1
+  locations:
+  - '8.3'
+- paper: P788
+  count: 1
+  locations:
+  - '8.3'
+- paper: P789
+  count: 1
+  locations:
+  - '8.3'
+- paper: P790
+  count: 1
+  locations:
+  - '8.3'
+- paper: P791
+  count: 1
+  locations:
+  - '8.3'
+- paper: P792
+  count: 1
+  locations:
+  - '8.3'
+- paper: P793
+  count: 1
+  locations:
+  - '8.3'
+- paper: P794
+  count: 1
+  locations:
+  - '8.3'
+- paper: P795
+  count: 1
+  locations:
+  - '8.3'
+- paper: P796
+  count: 1
+  locations:
+  - '8.3'
+- paper: P797
+  count: 1
+  locations:
+  - '8.3'
+- paper: P798
+  count: 1
+  locations:
+  - '8.3'
+- paper: P799
+  count: 1
+  locations:
+  - '8.3'
+- paper: P800
+  count: 1
+  locations:
+  - '8.3'
+- paper: P801
+  count: 1
+  locations:
+  - '8.3'
+- paper: P802
+  count: 1
+  locations:
+  - '8.3'
+- paper: P803
+  count: 1
+  locations:
+  - '8.3'
+- paper: P804
+  count: 1
+  locations:
+  - '8.3'
+- paper: P805
+  count: 1
+  locations:
+  - '8.3'
+- paper: P806
+  count: 1
+  locations:
+  - '8.3'
+- paper: P807
+  count: 1
+  locations:
+  - '8.3'
+- paper: P808
+  count: 1
+  locations:
+  - '8.3'
+- paper: P809
+  count: 1
+  locations:
+  - '8.3'
+- paper: P810
+  count: 1
+  locations:
+  - '8.3'
+- paper: P811
+  count: 1
+  locations:
+  - '8.3'
+- paper: P812
+  count: 1
+  locations:
+  - '8.3'
+- paper: P813
+  count: 1
+  locations:
+  - '8.3'
+- paper: P814
+  count: 1
+  locations:
+  - '8.3'
+- paper: P815
+  count: 1
+  locations:
+  - '8.3'
+- paper: P816
+  count: 1
+  locations:
+  - '8.3'
+- paper: P817
+  count: 1
+  locations:
+  - '8.3'
+- paper: P818
+  count: 1
+  locations:
+  - '8.3'
+- paper: P819
+  count: 1
+  locations:
+  - '8.3'
+- paper: P820
+  count: 1
+  locations:
+  - '8.3'
+- paper: P821
+  count: 1
+  locations:
+  - '8.3'
+- paper: P822
+  count: 1
+  locations:
+  - '8.3'
+- paper: P823
+  count: 1
+  locations:
+  - '8.3'
+- paper: P824
+  count: 1
+  locations:
+  - '8.3'
+- paper: P825
+  count: 1
+  locations:
+  - '8.3'
+- paper: P826
+  count: 1
+  locations:
+  - '8.3'
+- paper: P827
+  count: 1
+  locations:
+  - '8.3'
+- paper: P828
+  count: 1
+  locations:
+  - '8.3'
+- paper: P829
+  count: 1
+  locations:
+  - '8.3'
+- paper: P830
+  count: 1
+  locations:
+  - '8.3'
+- paper: P831
+  count: 1
+  locations:
+  - '8.3'
+- paper: P832
+  count: 1
+  locations:
+  - '8.3'
+- paper: P833
+  count: 1
+  locations:
+  - '8.3'
+- paper: P834
+  count: 1
+  locations:
+  - '8.3'
+- paper: P835
+  count: 1
+  locations:
+  - '8.3'
+- paper: P836
+  count: 1
+  locations:
+  - '8.3'
+- paper: P837
+  count: 1
+  locations:
+  - '8.3'
+- paper: P838
+  count: 1
+  locations:
+  - '8.3'
+- paper: P839
+  count: 1
+  locations:
+  - '8.3'
+- paper: P840
+  count: 1
+  locations:
+  - '8.3'
+- paper: P841
+  count: 1
+  locations:
+  - '8.3'
+- paper: P842
+  count: 1
+  locations:
+  - '8.3'
+- paper: P843
+  count: 1
+  locations:
+  - '8.3'
+- paper: P844
+  count: 1
+  locations:
+  - '8.3'
+- paper: P845
+  count: 1
+  locations:
+  - '8.3'
+- paper: P846
+  count: 1
+  locations:
+  - '8.3'
+- paper: P847
+  count: 1
+  locations:
+  - '8.3'
+- paper: P848
+  count: 1
+  locations:
+  - '8.3'
+- paper: P849
+  count: 1
+  locations:
+  - '8.3'
+- paper: P850
+  count: 1
+  locations:
+  - '8.3'
+- paper: P851
+  count: 1
+  locations:
+  - '8.3'
+- paper: P852
+  count: 1
+  locations:
+  - '8.3'
+- paper: P853
+  count: 1
+  locations:
+  - '8.3'
+- paper: P854
+  count: 1
+  locations:
+  - '8.3'
+- paper: P855
+  count: 1
+  locations:
+  - '8.3'
+- paper: P856
+  count: 1
+  locations:
+  - '8.3'
+- paper: P857
+  count: 1
+  locations:
+  - '8.3'
+- paper: P858
+  count: 1
+  locations:
+  - '8.3'
+- paper: P859
+  count: 1
+  locations:
+  - '8.3'
+- paper: P860
+  count: 1
+  locations:
+  - '8.3'
+- paper: P861
+  count: 1
+  locations:
+  - '8.3'
+- paper: P862
+  count: 1
+  locations:
+  - '8.3'
+- paper: P863
+  count: 1
+  locations:
+  - '8.3'
+- paper: P864
+  count: 1
+  locations:
+  - '8.3'
+- paper: P865
+  count: 1
+  locations:
+  - '8.3'
+- paper: P866
+  count: 1
+  locations:
+  - '8.3'
+- paper: P867
+  count: 1
+  locations:
+  - '8.3'
+- paper: P868
+  count: 1
+  locations:
+  - '8.3'
+- paper: P869
+  count: 1
+  locations:
+  - '8.3'
+- paper: P870
+  count: 1
+  locations:
+  - '8.3'
+- paper: P871
+  count: 1
+  locations:
+  - '8.3'
+- paper: P872
+  count: 1
+  locations:
+  - '8.3'
+- paper: P873
+  count: 1
+  locations:
+  - '8.3'
+- paper: P874
+  count: 1
+  locations:
+  - '8.3'
+- paper: P875
+  count: 1
+  locations:
+  - '8.3'
+- paper: P876
+  count: 1
+  locations:
+  - '8.3'
+- paper: P877
+  count: 1
+  locations:
+  - '8.3'
+- paper: P878
+  count: 1
+  locations:
+  - '8.3'
+- paper: P879
+  count: 1
+  locations:
+  - '8.3'
+- paper: P880
+  count: 1
+  locations:
+  - '8.3'
+- paper: P881
+  count: 1
+  locations:
+  - '8.3'
+- paper: P882
+  count: 1
+  locations:
+  - '8.3'
+- paper: P883
+  count: 1
+  locations:
+  - '8.3'
+- paper: P884
+  count: 1
+  locations:
+  - '8.3'
+- paper: P885
+  count: 1
+  locations:
+  - '8.3'
+- paper: P886
+  count: 1
+  locations:
+  - '8.3'
+- paper: P887
+  count: 1
+  locations:
+  - '8.3'
+- paper: P888
+  count: 1
+  locations:
+  - '8.3'
+- paper: P889
+  count: 1
+  locations:
+  - '8.3'
+- paper: P890
+  count: 1
+  locations:
+  - '8.3'
+- paper: P891
+  count: 1
+  locations:
+  - '8.3'
+- paper: P892
+  count: 1
+  locations:
+  - '8.3'
+- paper: P893
+  count: 1
+  locations:
+  - '8.3'
+- paper: P894
+  count: 1
+  locations:
+  - '8.3'
+- paper: P895
+  count: 1
+  locations:
+  - '8.3'
+- paper: P896
+  count: 1
+  locations:
+  - '8.3'
+- paper: P897
+  count: 1
+  locations:
+  - '8.3'
+- paper: P898
+  count: 1
+  locations:
+  - '8.3'
+- paper: P899
+  count: 1
+  locations:
+  - '8.3'
+- paper: P900
+  count: 1
+  locations:
+  - '8.3'
+- paper: P901
+  count: 1
+  locations:
+  - '8.3'
+- paper: P902
+  count: 1
+  locations:
+  - '8.3'
+- paper: P903
+  count: 1
+  locations:
+  - '8.3'
+- paper: P904
+  count: 1
+  locations:
+  - '8.3'
+- paper: P905
+  count: 1
+  locations:
+  - '8.3'
+- paper: P906
+  count: 1
+  locations:
+  - '8.3'
+- paper: P907
+  count: 1
+  locations:
+  - '8.3'
+- paper: P908
+  count: 1
+  locations:
+  - '8.3'
+- paper: P909
+  count: 1
+  locations:
+  - '8.3'
+- paper: P910
+  count: 1
+  locations:
+  - '8.3'
+- paper: P911
+  count: 1
+  locations:
+  - '8.3'
+- paper: P912
+  count: 1
+  locations:
+  - '8.3'
+- paper: P913
+  count: 1
+  locations:
+  - '8.3'
+- paper: P914
+  count: 1
+  locations:
+  - '8.3'
+- paper: P915
+  count: 1
+  locations:
+  - '8.3'
+- paper: P916
+  count: 1
+  locations:
+  - '8.3'
+- paper: P917
+  count: 1
+  locations:
+  - '8.3'
+- paper: P918
+  count: 1
+  locations:
+  - '8.3'
+- paper: P919
+  count: 1
+  locations:
+  - '8.3'
+- paper: P920
+  count: 1
+  locations:
+  - '8.3'
+- paper: P921
+  count: 1
+  locations:
+  - '8.3'
+- paper: P922
+  count: 1
+  locations:
+  - '8.3'
+- paper: P923
+  count: 1
+  locations:
+  - '8.3'
+- paper: P924
+  count: 1
+  locations:
+  - '8.3'
+- paper: P925
+  count: 1
+  locations:
+  - '8.3'
+- paper: P926
+  count: 1
+  locations:
+  - '8.3'
+- paper: P927
+  count: 1
+  locations:
+  - '8.3'
+- paper: P928
+  count: 1
+  locations:
+  - '8.3'
+- paper: P929
+  count: 1
+  locations:
+  - '8.3'
+- paper: P930
+  count: 1
+  locations:
+  - '8.3'
+- paper: P931
+  count: 1
+  locations:
+  - '8.3'
+- paper: P932
+  count: 1
+  locations:
+  - '8.3'
+- paper: P933
+  count: 1
+  locations:
+  - '8.3'
+- paper: P934
+  count: 1
+  locations:
+  - '8.3'
+- paper: P935
+  count: 1
+  locations:
+  - '8.3'
+- paper: P936
+  count: 1
+  locations:
+  - '8.3'
+- paper: P937
+  count: 1
+  locations:
+  - '8.3'
+- paper: P938
+  count: 1
+  locations:
+  - '8.3'
+- paper: P939
+  count: 1
+  locations:
+  - '8.3'
+- paper: P940
+  count: 1
+  locations:
+  - '8.3'
+- paper: P941
+  count: 1
+  locations:
+  - '8.3'
+- paper: P942
+  count: 1
+  locations:
+  - '8.3'
+- paper: P943
+  count: 1
+  locations:
+  - '8.3'
+- paper: P944
+  count: 1
+  locations:
+  - '8.3'
+- paper: P945
+  count: 1
+  locations:
+  - '8.3'
+- paper: P946
+  count: 1
+  locations:
+  - '8.3'
+- paper: P947
+  count: 1
+  locations:
+  - '8.3'
+- paper: P948
+  count: 1
+  locations:
+  - '8.3'
+- paper: P949
+  count: 1
+  locations:
+  - '8.3'
+- paper: P950
+  count: 1
+  locations:
+  - '8.3'
+- paper: P951
+  count: 1
+  locations:
+  - '8.3'
+- paper: P952
+  count: 1
+  locations:
+  - '8.3'
+- paper: P953
+  count: 1
+  locations:
+  - '8.3'
+- paper: P954
+  count: 1
+  locations:
+  - '8.3'
+- paper: P955
+  count: 1
+  locations:
+  - '8.3'
+- paper: P956
+  count: 1
+  locations:
+  - '8.3'
+- paper: P957
+  count: 1
+  locations:
+  - '8.3'
+- paper: P958
+  count: 1
+  locations:
+  - '8.3'
+- paper: P959
+  count: 1
+  locations:
+  - '8.3'
+- paper: P960
+  count: 1
+  locations:
+  - '8.3'
+- paper: P961
+  count: 1
+  locations:
+  - '8.3'
+- paper: P962
+  count: 1
+  locations:
+  - '8.3'
+- paper: P963
+  count: 1
+  locations:
+  - '8.3'
+- paper: P964
+  count: 1
+  locations:
+  - '8.3'
+- paper: P965
+  count: 1
+  locations:
+  - '8.3'
+- paper: P966
+  count: 1
+  locations:
+  - '8.3'
+- paper: P967
+  count: 1
+  locations:
+  - '8.3'
+- paper: P968
+  count: 1
+  locations:
+  - '8.3'
+- paper: P969
+  count: 1
+  locations:
+  - '8.3'
+- paper: P970
+  count: 1
+  locations:
+  - '8.3'
+- paper: P971
+  count: 1
+  locations:
+  - '8.3'
+- paper: P972
+  count: 1
+  locations:
+  - '8.3'
+- paper: P973
+  count: 1
+  locations:
+  - '8.3'
+- paper: P974
+  count: 1
+  locations:
+  - '8.3'
+- paper: P975
+  count: 1
+  locations:
+  - '8.3'
+- paper: P976
+  count: 1
+  locations:
+  - '8.3'
+- paper: P977
+  count: 1
+  locations:
+  - '8.3'
+- paper: P978
+  count: 1
+  locations:
+  - '8.3'
+- paper: P979
+  count: 1
+  locations:
+  - '8.3'
+- paper: P980
+  count: 1
+  locations:
+  - '8.3'
+- paper: P981
+  count: 1
+  locations:
+  - '8.3'
+- paper: P982
+  count: 1
+  locations:
+  - '8.3'
+- paper: P983
+  count: 1
+  locations:
+  - '8.3'
+- paper: P984
+  count: 1
+  locations:
+  - '8.3'
+- paper: P985
+  count: 1
+  locations:
+  - '8.3'
+- paper: P986
+  count: 1
+  locations:
+  - '8.3'
+- paper: P987
+  count: 1
+  locations:
+  - '8.3'
+- paper: P988
+  count: 1
+  locations:
+  - '8.3'
+- paper: P989
+  count: 1
+  locations:
+  - '8.3'
+- paper: P990
+  count: 1
+  locations:
+  - '8.3'
+- paper: P991
+  count: 1
+  locations:
+  - '8.3'
+- paper: P992
+  count: 1
+  locations:
+  - '8.3'
+- paper: P993
+  count: 1
+  locations:
+  - '8.3'
+- paper: P994
+  count: 1
+  locations:
+  - '8.3'
+- paper: P995
+  count: 1
+  locations:
+  - '8.3'
+- paper: P996
+  count: 1
+  locations:
+  - '8.3'
+- paper: P997
+  count: 1
+  locations:
+  - '8.3'
+- paper: P998
+  count: 1
+  locations:
+  - '8.3'
+- paper: P999
+  count: 1
+  locations:
+  - '8.3'
+- paper: P1000
+  count: 1
+  locations:
+  - '8.3'
+unsupported_claims:
+- location: '8.3'
+  claim: 可参考内容平台生态研究或创作者经济报告中关于'成功案例过度代表性'的实证数据（如某平台备案的商业化案例库中成功/失败比例统计）
+  reason: 素材中未找到支撑，标注为[需要补充文献]
+- location: '8.3'
+  claim: 可引入'反面教材库'建设方法论文献（如《失败学》相关研究），以平衡认知偏差
+  reason: 素材中未找到支撑，标注为[需要补充文献]
+- location: '8.4'
+  claim: 可补充内容营销伦理或平台治理规范类文献，如微信公众平台/抖音/小红书官方发布的《标题党治理细则》《商业化内容标注指引》
+  reason: 素材中未找到支撑，标注为[需要补充文献]
+- location: '8.4'
+  claim: 以及学界关于'标题-正文一致性检测'的 NLP 技术论文（如基于 BERT 的点击诱饵检测模型），建立'标题-正文一致性'自查清单与合规底线
+  reason: 素材中未找到支撑，标注为[需要补充文献]
+- location: '8.6'
+  claim: Notion/Airtable 搭建的'副业项目库'每条记录含：平台、赛道、投入、产出、关键动作、可复制性评分、源链接、时效标记（🟢/🟡/🔴）
+  reason: 素材中未找到支撑，标注为[需要补充文献]
+- location: '8.6'
+  claim: 语雀/飞书文档构建的'方法论维基'将'爆款标题公式''私域转化 SOP'沉淀为可复用条目，支持块级引用、版本管理
+  reason: 素材中未找到支撑，标注为[需要补充文献]
+- location: '8.6'
+  claim: 结合向量数据库的智能问答：输入'视频号冷启动怎么破'，自动检索 Top 5 相关案例并生成摘要（RAG 架构）
+  reason: 素材中未找到支撑，标注为[需要补充文献]
+- location: '8.6'
+  claim: 可补充 LLM 实体抽取/关系建立在知识库构建中的应用案例研究（如《基于大语言模型的个人知识库自动化构建实践》类技术博客/论文）
+  reason: 素材中未找到支撑，标注为[需要补充文献]
+- location: '8.6'
+  claim: 以及向量数据库/RAG 架构在个人知识管理中的落地实践文献（如《LangChain 实战：从文档到问答系统》类教程），以降低人工标注负担
+  reason: 素材中未找到支撑，标注为[需要补充文献]
+- location: '8.7'
+  claim: 以上流派对照为行业观察归纳，非直接源自素材文档，建议补充内容平台创作者经济白皮书、知识付费社群运营案例研究等文献作为来源支撑
+  reason: 素材中未找到支撑，标注为[需要补充文献]
+missing_concepts:
+- paper: P001
+  concept: 幸存者偏差的量化数据支撑（如平台商业化案例库成功/失败比例统计）
+  severity: high
+- paper: P001
+  concept: 反面教材库/失败案例库建设方法论（如《失败学》相关研究）
+  severity: high
+- paper: P002
+  concept: 标题党治理平台官方规范文件（微信/抖音/小红书《标题党治理细则》《商业化内容标注指引》）
+  severity: medium
+- paper: P002
+  concept: 标题-正文一致性检测 NLP 技术文献（基于 BERT 的点击诱饵检测模型等）
+  severity: medium
+- paper: P004
+  concept: Notion/Airtable/飞书多维表格等工具搭建个人知识库的实操案例与字段设计标准
+  severity: high
+- paper: P004
+  concept: LLM 辅助知识库构建的提示词工程与自动化抽取流程实践
+  severity: high
+- paper: P004
+  concept: 向量数据库/RAG 架构在个人知识管理中的落地教程与成本评估
+  severity: high
+- paper: P007
+  concept: 内容平台创作者经济白皮书与知识付费社群运营案例研究，支撑流派对照分析
+  severity: medium

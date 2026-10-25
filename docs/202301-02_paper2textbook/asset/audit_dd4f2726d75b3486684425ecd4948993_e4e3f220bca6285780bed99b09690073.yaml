@@ -1,0 +1,18 @@
+citation_stats:
+- paper: P001
+  count: 44
+  locations:
+  - ch20.1
+  - ch20.2
+  - ch20.3
+  - ch20.4
+  - ch20.5
+  - ch20.6
+  - ch20.7
+  - ch20.8
+  - ch20.9
+  - ch20.10
+  - ch20.11
+  - ch20.12
+unsupported_claims: []
+missing_concepts: []

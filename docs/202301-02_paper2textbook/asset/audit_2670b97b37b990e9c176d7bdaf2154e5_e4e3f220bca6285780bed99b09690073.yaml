@@ -1,0 +1,62 @@
+citation_stats:
+- paper: P001
+  count: 17
+  locations:
+  - '35.2'
+  - '35.3'
+  - '35.4'
+  - '35.5'
+  - '35.6'
+  - '35.7'
+  - '35.8'
+  - '35.9'
+  - '35.10'
+  - '35.11'
+  - '35.12'
+- paper: P002
+  count: 3
+  locations:
+  - '35.3'
+  - '35.8'
+  - '35.9'
+unsupported_claims:
+- location: '35.4'
+  claim: 真皮制品在日本关税非常高，导致价格长期处于高位，没有被传统外贸倾销过，价格体系没有被打破过
+  reason: 素材中未找到具体HS编码关税税率数值、真皮vs合成革关税对比数据、RCEP等协定下的最新税率变化，仅有作者自述经验
+- location: '35.5'
+  claim: Gore-Tex平替冲锋衣定价39.99美元，客单净利100+元，搜索'Gore-Tex'出现在首页SKU中
+  reason: 素材中仅为作者自述经验数据，缺乏ASIN、BSR排名、广告ACOS、真实净利核算表等可验证数据
+- location: '35.6'
+  claim: 成功的空壳品牌，可以做到10%的复购，净利提升最多达到30%
+  reason: 素材中为作者自述经验数据，未披露样本量、统计周期、品类分布，缺乏第三方佐证
+- location: '35.7'
+  claim: 微创新成功率作者经验估算>50%，原创设计成功率<10%
+  reason: 素材中明确标注为作者经验估算，非统计实证数据
+- location: '35.8'
+  claim: TikTok广告投放ROI极不稳定，即使付费玩家盈利的也不多
+  reason: 素材中引用'TK广告一级代理商的数据'，未披露代理商名称、样本量、统计周期、行业分布
+- location: '35.8'
+  claim: 低价平台（虾皮/速卖通/Temu）卖家算来算去都是亏的
+  reason: 素材中为作者自述核算结论，未提供标准化利润测算模板的实测数据、品类覆盖面、时间周期
+missing_concepts:
+- paper: P001
+  concept: 日本真皮制品HS编码具体税目（如6403.XX）、关税税率数值（真皮制品通常8-30%不等）、合成革关税对比基准、RCEP项下分阶段降税细则
+  severity: high
+- paper: P001
+  concept: Gore-Tex平替案例的ASIN、BSR历史排名、广告投放ACOS、扣除退货后的真实净利核算表、供应链成本结构明细
+  severity: high
+- paper: P001
+  concept: 空壳品牌10%复购率、30%净利提升的样本量、统计周期、品类分布、流失率曲线
+  severity: high
+- paper: P001
+  concept: TikTok Ads官方季度透明度报告、第三方机构白皮书、不同垂类ROI分布数据
+  severity: medium
+- paper: P001
+  concept: 低价平台标准化利润测算模板的实测数据（不同品类、客单价区间的佣金率、广告占比、履约成本、退货率、退货损失率）
+  severity: medium
+- paper: P002
+  concept: 商业模式画布在生财精选项目中的具体落地案例（道/术/器/用四层拆解的完整表格）
+  severity: low
+- paper: P002
+  concept: 5WHY分析法在年度总结中的具体应用模板、能力维度量化指标体系
+  severity: low

@@ -1,0 +1,100 @@
+citation_stats:
+- paper: P001
+  count: 19
+  locations:
+  - ch28.3
+  - ch28.4
+  - ch28.5
+  - ch28.6
+  - ch28.7
+  - ch28.13
+  - ch28.14
+  - ch28.15
+- paper: P004
+  count: 11
+  locations:
+  - ch28.11
+  - ch28.13
+  - ch28.14
+  - ch28.15
+- paper: P006
+  count: 7
+  locations:
+  - ch28.12
+  - ch28.13
+  - ch28.14
+  - ch28.15
+- paper: P017
+  count: 5
+  locations:
+  - ch28.10
+  - ch28.13
+  - ch28.14
+  - ch28.15
+- paper: P022
+  count: 8
+  locations:
+  - ch28.8
+  - ch28.13
+  - ch28.14
+  - ch28.15
+- paper: P024
+  count: 10
+  locations:
+  - ch28.9
+  - ch28.13
+  - ch28.14
+  - ch28.15
+unsupported_claims:
+- location: ch28.1
+  claim: 商场运营总监管理四种业态：限时快闪店区、特色美食街区、中央厨房与智能供应链、招牌母题打造
+  reason: 全书正文为生活类比虚构场景，非真实素材案例，无法溯源至具体素材论证
+- location: ch28.3
+  claim: 2022年12月14日‘行程码下线’热点，作者用12个公众号批量发布96篇文章，单日净增近4.5万粉丝、变现约1万元
+  reason: 素材P001中作者为‘火火’，而非全书正文所述‘作者’，且P001仅提及‘我用12个公众号’未明确指出96篇文章细节
+- location: ch28.6
+  claim: 手动广告位置于‘引导关注文案’下方，利用第一反应与平台误导性推荐拉高RPM
+  reason: P001中明确提及‘点击关注下方公众号进入主页这句话下面’，但未提及‘平台误导性推荐’为作者主观推测
+- location: ch28.7
+  claim: 取关率53.8%，单粉估值0.1元，单日总变现约10000元
+  reason: P001中数据为‘净增粉丝44955、取关52430、流量主6514元、CPS400元、粉丝估值4000元’，但‘单日总变现约10000元’为章节推算非素材原话
+- location: ch28.11
+  claim: IP打造五步法、12345外部框架、内容体系五件套、千万营收模型
+  reason: P004飞书文档无法直接访问，章节内容为二手整理，核心数据（如‘199小课月入400万’）未在公开素材中验证
+- location: ch28.12
+  claim: Web3市场10年创造3万亿美元流动价值，Polychain等机构管理数十亿资金
+  reason: P006为‘可乐’分享建议，非权威数据报告，数据来源未注明出处
+- location: ch28.13
+  claim: 同一概念在不同素材中的异同对比表（如原创优于二剪优于搬运、做人群vs做商品等）
+  reason: 对比表为章节作者综合推导，非直接引用素材原话，P022/P024/P017中未直接对标P001概念
+missing_concepts:
+- paper: P001
+  concept: 公众号SEO长尾词获取三法（微信搜一搜下拉词、相关搜索、5118工具）的具体操作细节与避坑指南
+  severity: high
+- paper: P001
+  concept: 伪原创文章‘关键词颜色调暗淡’的具体色值（如#999999）与算法识别原理
+  severity: high
+- paper: P001
+  concept: 半匹配关键词回复的‘变体词生成逻辑’（如行程卡/行程码/卡/纪念版/生成/链接/获取）
+  severity: high
+- paper: P004
+  concept: IP打造中‘母题’的具体挖掘方法与‘百变题型’生成实操案例
+  severity: high
+- paper: P004
+  concept: 内容体系五件套中‘独创理论’的五大构建方法（理想解法/节点法/词根法/母题法/核心法）的落地模板
+  severity: high
+- paper: P004
+  concept: 千万营收模型中‘私教3万/3个月→私董会5-20万→合伙人20-100万’的转化率与交付SOP
+  severity: high
+- paper: P006
+  concept: Web3转型中‘保护团队弹药’的具体风控指标（如现金储备/杠杆上限/止损线）
+  severity: medium
+- paper: P017
+  concept: RPA采集机器人‘影刀’的脚本开发门槛、维护成本及反爬应对方案
+  severity: medium
+- paper: P022
+  concept: 伪原创二创‘不违规’的具体判定标准（如去重率/改写深度/素材来源合规性）
+  severity: high
+- paper: P024
+  concept: 视频六要素拆解中‘混淆元素’的拍摄规范（时长/频次/内容类型）与原创检测通过阈值
+  severity: high

@@ -1,0 +1,57 @@
+citation_stats:
+- paper: MXPcd58gSoEsTlxFhUVcJ5X7npc
+  count: 15
+  locations:
+  - '13.2'
+  - '13.3'
+  - '13.4'
+  - '13.5'
+  - '13.6'
+  - '13.7'
+  - '13.8'
+  - '13.9'
+  - '13.12'
+unsupported_claims:
+- location: '13.3'
+  claim: 客户终身价值（Customer Lifetime Value，缩写为CLV，此为推导引入的概念，用于描述客户的总收入贡献）
+  reason: 素材中仅有“单客贡献毛利”的概念，全书中“客户终身价值（CLV）”是教学推导时引入的新概念，素材中未找到该术语或定义。
+- location: '13.3'
+  claim: 期望利润（此为推导引入的经营者主观设定参数，可视为预留的安全垫——如果连这部分利润都保不住，这笔生意对你而言就不值得做）
+  reason: 素材中仅提到“单客毛利”和“获客成本”的概念，并未提及“期望利润”这一经营者主观设定参数。
+- location: '13.8'
+  claim: 规模化能力 = 沉淀的流程数量 / 关键人物依赖度（依据素材中“经验需要流程沉淀”的核心概念推导）
+  reason: 素材中只有“流程决定规模复制”的定性描述，没有提出“规模化能力”这一量化公式。该公式是教学整理时新引入的。
+- location: '13.8'
+  claim: 业务放大 = 标准化流程 × 团队成员可复用度（依据素材中“流程决定规模复制”的核心概念推导）
+  reason: 素材中只有“流程决定规模复制”的定性描述，没有提出“业务放大”这一量化公式。该公式是教学整理时新引入的。
+- location: '13.9'
+  claim: 联营合作对象条件 = 有预算 × 有背书 × 变现体系完整（依据素材中“行业冠军的好处就是有预算、有背书、变现体系完整”推导）
+  reason: 素材中列举了行业冠军的三个好处，但未将其定义为“联营合作对象条件”的量化公式。
+- location: '13.6'
+  claim: 留存坏点 = argmax_t( (N_t - N_{t+1}) / N_t ) （依据素材中“某一秒人数骤降”的描述推导，便于数据定位）
+  reason: 素材中仅描述了“留存坏点”是某秒人数骤降的现象，并未给出定义“流失率”和公式。该公式是教学整理时新引入的操作化定义。
+- location: '13.7'
+  claim: 视频产能 = 出镜人可投入时间 × 出镜人表现力（依据素材中“创始人时间投入不足与表现力差距”的论述推导）
+  reason: 素材中仅说明创始人时间有限和表现力不足会导致效率低下，并未给出“视频产能”的量化公式。该公式是教学整理时新引入的。
+- location: '13.7'
+  claim: 商业效率 = 总变现 / ( 运营成本 + 出镜人机会成本 )（依据素材中“创始人IP是坑”的论述推导）
+  reason: 素材中仅提到创始人时间值钱、直播场次跟不上，但没有引入“机会成本”来定量计算“商业效率”。该公式是教学整理时新引入的。
+missing_concepts:
+- paper: MXPcd58gSoEsTlxFhUVcJ5X7npc
+  concept: 短视频爆火要素优先级公式：观众缘 > 表现力 > 文案（选题 > 开头 > 结构 > 结尾） > 场景 > 剪辑
+  severity: high
+- paper: MXPcd58gSoEsTlxFhUVcJ5X7npc
+  concept: “不下牌桌的能力”是团队最重要的能力，具体指“人不断层，不会因为一个IP，一个运营退出不干，而让业务停下来”
+  severity: high
+- paper: MXPcd58gSoEsTlxFhUVcJ5X7npc
+  concept: “创始人IP是坑”的两个具体原因：1. 老板的专业程度不足以弥补表现力差距；2. 老板时间值钱，无法all in抖音
+  severity: high
+- paper: MXPcd58gSoEsTlxFhUVcJ5X7npc
+  concept: 行业冠军联营的具体合作模式：每月服务费+项目分成
+  severity: medium
+- paper: MXPcd58gSoEsTlxFhUVcJ5X7npc
+  concept: 团队搭建的经验：从“零基础”培养剪辑到运营的人才成长路线（剪辑→运营→项目经理）
+  severity: medium
+- paper: MXPcd58gSoEsTlxFhUVcJ5X7npc
+  concept: 选品和选号的标准化流程（通过热点宝找对标、用系统搭建选题库）
+  severity: medium

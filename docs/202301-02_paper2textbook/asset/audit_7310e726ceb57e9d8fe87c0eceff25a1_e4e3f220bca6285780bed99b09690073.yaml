@@ -1,0 +1,55 @@
+citation_stats:
+- paper: P001
+  count: 0
+  locations: []
+- paper: P002
+  count: 4
+  locations:
+  - '12.4'
+  - '12.8'
+  - '12.9'
+- paper: P003
+  count: 4
+  locations:
+  - '12.5'
+- paper: P004
+  count: 5
+  locations:
+  - '12.3'
+  - '12.6'
+- paper: P005
+  count: 5
+  locations:
+  - '12.3'
+  - '12.7'
+  - '12.8'
+- paper: P006
+  count: 1
+  locations:
+  - '12.9'
+- paper: P007
+  count: 0
+  locations: []
+unsupported_claims:
+- location: '12.3'
+  claim: 当用户点击搜索框、输入关键词的那一刻，他的需求已经极其明确——他就是想找解决某个问题的方法、某个品类的推荐、某个话题的解读。
+  reason: 素材原文中并无此具体描述，此处为作者基于素材观点的引申和润色，属于演绎内容。
+- location: '12.7'
+  claim: 同时，依赖平台数据接口，若平台规则调整可能影响采集的稳定性。
+  reason: 文中明确标注“编者按：此句为作者基于行业常识的补充提醒，素材原文未直接提及此风险。”，属于超出素材范畴的作者补充结论。
+- location: '12.9'
+  claim: 有个实操案例表明，SEO从业者通过覆盖多个长尾关键词，在百度等搜索引擎的流量总量可接近甚至超过单一热门关键词的效果。
+  reason: 此处为作者引用外部案例来支持“叠加”观点，素材（如P002关于蓝海词）中并未提及“百度”SEO的实操案例，属于新增论据支撑。
+missing_concepts:
+- paper: P002
+  concept: 信息差壁垒
+  severity: high
+- paper: P003
+  concept: 差异化
+  severity: high
+- paper: P004
+  concept: 低价竞争
+  severity: medium
+- paper: P005
+  concept: 持久性
+  severity: high

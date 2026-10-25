@@ -1,0 +1,65 @@
+citation_stats:
+- paper: VAA8dQLTZolMlJx1jxrcKaPrnzd
+  count: 31
+  locations:
+  - ch18.1
+  - ch18.2
+  - ch18.3
+  - ch18.4
+  - ch18.5
+  - ch18.6
+  - ch18.7
+  - ch18.8
+  - ch18.9
+  - ch18.14
+- paper: HfJEd0huioyShvxowVfcOMQYnHb
+  count: 8
+  locations:
+  - ch18.1
+  - ch18.2
+  - ch18.10
+  - ch18.14
+- paper: ELHqdhiI5oSQAxxItLJctNAhnah
+  count: 11
+  locations:
+  - ch18.1
+  - ch18.2
+  - ch18.8
+  - ch18.10
+  - ch18.11
+  - ch18.14
+unsupported_claims:
+- location: ch18.3
+  claim: 此公式揭示了'目标—要素'的构成关系
+  reason: 素材中未找到明确的公式或相关描述
+- location: ch18.4
+  claim: 三个核心性质
+  reason: 素材中未找到明确的'三个核心性质'的表述
+- location: ch18.5
+  claim: 公式解读
+  reason: 素材中未找到此公式的相关描述
+- location: ch18.7
+  claim: 公式解读
+  reason: 素材中未找到此公式的相关描述
+- location: ch18.9
+  claim: 公式解读
+  reason: 素材中未找到此公式的相关描述
+- location: ch18.10
+  claim: 公式解读
+  reason: 素材中未找到此公式的相关描述
+- location: ch18.11
+  claim: 公式解读
+  reason: 素材中未找到此公式的相关描述
+missing_concepts:
+- paper: VAA8dQLTZolMlJx1jxrcKaPrnzd
+  concept: 知识营销的四个步骤/具体操作方法
+  severity: medium
+- paper: VAA8dQLTZolMlJx1jxrcKaPrnzd
+  concept: 裂变营销的详细机制与具体诱饵设计
+  severity: low
+- paper: ELHqdhiI5oSQAxxItLJctNAhnah
+  concept: 云监工挑战的完整流程
+  severity: medium
+- paper: HfJEd0huioyShvxowVfcOMQYnHb
+  concept: 广告文案的具体写作技巧
+  severity: low

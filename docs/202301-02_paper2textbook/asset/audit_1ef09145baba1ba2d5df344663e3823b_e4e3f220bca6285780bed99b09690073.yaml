@@ -1,0 +1,65 @@
+citation_stats:
+- paper: P001
+  count: 16
+  locations:
+  - '36.1'
+  - '36.3'
+  - '36.4'
+  - '36.5'
+  - '36.9'
+  - '36.11'
+  - '36.13'
+  - '36.15'
+- paper: P002
+  count: 12
+  locations:
+  - '36.1'
+  - '36.4'
+  - '36.6'
+  - '36.7'
+  - '36.8'
+  - '36.9'
+  - '36.10'
+  - '36.13'
+- paper: P003
+  count: 3
+  locations:
+  - '36.12'
+unsupported_claims:
+- location: '36.4'
+  claim: 视频号直播+私域ROI核算公式中，私域进线率60%为合格线
+  reason: P001中提到进线率60%但未明确界定为'合格线'，且公式推导细节与P002存在差异
+- location: '36.6'
+  claim: 流量价值公式为'流量规模×交易相关性×信任度'
+  reason: P002原文为'流量价值=流量规模×交易相关性×信任度'，章节表述一致，但'不轻易连接，但连接必有价值'属于P002作者主观判断，非通用法则
+- location: '36.8'
+  claim: 五位一体成交飞轮源自P002
+  reason: P002中确实出现该飞轮，但P003同步给出'痛点与需求转化'配套论述，章节未标注来源差异
+- location: '36.9'
+  claim: MVP先卖后做验证标准为'聊100人，20-30人付费即通过'
+  reason: P002给出该标准，但P001未提及，且'卖空气'表述在P002中带有道德边界提示，章节未复述
+- location: '36.10'
+  claim: 流量合并核心逻辑为'谁能让流量主赚更多钱谁就拥有其流量'
+  reason: P002原文一致，但'四五年积累流量'为假设性案例，非实测数据
+missing_concepts:
+- paper: P001
+  concept: 抖音本地生活10倍增长空间的具体数据支撑（美团880万商家vs抖音覆盖率）
+  severity: high
+- paper: P001
+  concept: 胎毛纪念品项目从抖音导流2万私域宝妈、7000单变现的完整复盘
+  severity: high
+- paper: P001
+  concept: 抄同行操作细节：以顾客身份套取话术、关键词搜索同行、多渠道验证
+  severity: medium
+- paper: P002
+  concept: 流量切片分析法的横向/纵向具体操作步骤与干预动作
+  severity: high
+- paper: P002
+  concept: 流量合并中'不为我所有，但为我所用'的商务谈判实操细节
+  severity: medium
+- paper: P003
+  concept: 高净值客户痛点'失去掌控权'的心理机制与销售话术实例
+  severity: high
+- paper: P003
+  concept: 需求升维为痛点的三步提问法（现状追问/后果推演/损失量化）
+  severity: medium

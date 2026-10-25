@@ -1,0 +1,66 @@
+citation_stats:
+- paper: HiVkdfBYJo2H5xxWIemcMcMQnLc
+  count: 77
+  locations:
+  - ch33.3
+  - ch33.4
+  - ch33.5
+  - ch33.6
+  - ch33.7
+  - ch33.8
+  - ch33.9
+  - ch33.14
+  - ch33.15
+- paper: T1Jad4VhIoPc2hxKJxwcUFPOnTc
+  count: 29
+  locations:
+  - ch33.2
+  - ch33.10
+  - ch33.11
+  - ch33.12
+  - ch33.13
+  - ch33.14
+unsupported_claims:
+- location: ch33.8
+  claim: 理想解法六步推导公式（Step 1-6）及逐式解释
+  reason: 素材中仅提及理想解法基于TRIZ ARIZ算法，未提供完整六步推导公式及详细逐式解释
+- location: ch33.8
+  claim: 参考文献：Genrich Altshuller《创新算法：TRIZ, 系统创新与技术创造力》及ARIZ-85C标准算法文本
+  reason: 素材中未提及该书名及ARIZ-85C标准算法文本
+- location: ch33.10
+  claim: Web3定义：基于区块链技术的互联网生态，并能实现与现实世界交互的虚拟世界
+  reason: 素材T1Jad4VhIoPc2hxKJxwcUFPOnTc中定义为'一种基于区块链技术的互联网生态，并且还能实现与现实世界交互的虚拟世界'，基本一致但原文表述为'虚拟世界'而非'互联网生态'
+- location: ch33.11
+  claim: 头部机构管理规模：Polychain/Paradigm/a16z/Multicoin/3AC等管理数十亿至数百亿美元
+  reason: 素材中原文为'Polychain、Paradigm、a16z、Multicoin、3AC以及一些其他专精的公司各自管理着数十亿或数百亿美元的资金'，基本一致
+- location: ch33.11
+  claim: 对冲基金配置计划：全球大量对冲基金5年内将7%资产配置Web3，养老金直投酝酿中
+  reason: 素材中原文为'全球大量对冲基金正计划5年内将其资产的7%投入到web3的市场中，巨无霸养老基金也开始酝酿直投了'，基本一致
+- location: ch33.12
+  claim: 作者转型Web3实操路径：扫描风向标/热度词/研报 → 入局初创团队 → 验证可行性 → 链接VC
+  reason: 素材中原文为'2021年上半年开始...时刻留意研报...用金融圈资源找到初创团队...以初学者身份参与...积极参加线上线下分享会，结识到不少行业VC'，基本一致
+- location: ch33.13
+  claim: 熊市生存法则四条：敬畏市场/保护弹药/保护团队/选基建不选应用
+  reason: 素材中原文为'敬畏它，并且与它共舞'、'保护弹药/团队'、'在一个拥有大量资金弹药的基建公司工作绝对不是个坏的选择，这在熊市会是更好的选择'，基本一致
+- location: ch33.14
+  claim: 博商案例：后端积累十几年，199小课只是钩子，赛马机制可学但后端积淀学不来
+  reason: 素材HiVkdfBYJo2H5xxWIemcMcMQnLc中原文为'博商的后端已经积累了十几年，199的小课只是后端几万上百万费用的钩子；赛马机制可以学，但后端没有常年的积淀是学不来的'，基本一致
+missing_concepts:
+- paper: HiVkdfBYJo2H5xxWIemcMcMQnLc
+  concept: 内容经纪理论/内容经纪人培训体系细节（理论/执行/变现/IP/政府/人才六端齐备）
+  severity: high
+- paper: HiVkdfBYJo2H5xxWIemcMcMQnLc
+  concept: IP四级内容架构具体价格带划分（免费→199/299→3w私教/5-20w私董→20w-100w合伙）
+  severity: high
+- paper: HiVkdfBYJo2H5xxWIemcMcMQnLc
+  concept: 1+1+1直播模式具体操作细节（低成本量产/日双播/单场6w/月400w）
+  severity: medium
+- paper: HiVkdfBYJo2H5xxWIemcMcMQnLc
+  concept: 一书一码联合出品人计划具体操作流程（招募1000人/破解版税天花板）
+  severity: medium
+- paper: T1Jad4VhIoPc2hxKJxwcUFPOnTc
+  concept: Web3国内合规约束细节（无币区块链/联盟链/数字藏品/禁止Token融资炒作）
+  severity: high
+- paper: T1Jad4VhIoPc2hxKJxwcUFPOnTc
+  concept: 传统金融转型Web3扫描-入局-验证-链接闭环的具体案例复盘
+  severity: medium

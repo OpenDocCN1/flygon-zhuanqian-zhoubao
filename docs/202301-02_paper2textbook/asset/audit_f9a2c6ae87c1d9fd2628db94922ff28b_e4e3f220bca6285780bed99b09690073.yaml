@@ -1,0 +1,104 @@
+citation_stats:
+- paper: E1WGd70YLoaHGfxAYJTc4WoFnsd.md
+  count: 23
+  locations:
+  - '27.3'
+  - '27.4'
+  - '27.5'
+  - '27.6'
+  - '27.7'
+  - '27.8'
+  - '27.9'
+  - '27.13'
+  - '27.14'
+  - '27.15'
+  - '27.17'
+  - '27.18'
+- paper: PglAdRMiIoVTRyxc4Q3cw8hvnWf.md
+  count: 15
+  locations:
+  - '27.7'
+  - '27.12'
+  - '27.13'
+  - '27.15'
+  - '27.16'
+  - '27.17'
+- paper: FCiidWBeJoLOT1xreYnc9Se4nOf.md
+  count: 13
+  locations:
+  - '27.3'
+  - '27.8'
+  - '27.9'
+  - '27.10'
+  - '27.11'
+  - '27.12'
+- paper: 20230207_01.md
+  count: 1
+  locations:
+  - '27.9'
+- paper: 20230207_02.md
+  count: 1
+  locations:
+  - '27.9'
+- paper: 20230207_03.md
+  count: 1
+  locations:
+  - '27.9'
+- paper: 20230207_04.md
+  count: 1
+  locations:
+  - '27.9'
+- paper: 20230207_05.md
+  count: 1
+  locations:
+  - '27.9'
+- paper: 20230207_06.md
+  count: 1
+  locations:
+  - '27.9'
+- paper: 20230207_07.md
+  count: 1
+  locations:
+  - '27.9'
+- paper: 20230207_08.md
+  count: 1
+  locations:
+  - '27.9'
+- paper: 20230207_09.md
+  count: 1
+  locations:
+  - '27.9'
+- paper: 20230207_10.md
+  count: 1
+  locations:
+  - '27.9'
+- paper: 20230207_11.md
+  count: 1
+  locations:
+  - '27.9'
+unsupported_claims:
+- location: '27.7'
+  claim: 生意的本质是信息差，中介费是伪概念
+  reason: 素材中未明确界定'中介费伪概念'的边界条件，且未提及部分中介提供的增值服务（如法律风控、资金监管）的真实价值
+- location: '27.12'
+  claim: 截流开店导致竞品门店销售额接连下降、店员不敢带客进店
+  reason: 素材仅提供单一案例自述，缺乏第三方验证数据或竞品方回应，因果关系存疑
+- location: '27.17'
+  claim: 汽车广播投入2万无任何效果，获客成本无穷大
+  reason: 素材未披露投放周期、素材质量、受众匹配度等关键变量，结论缺乏严谨对照实验支撑
+- location: '27.16'
+  claim: 招聘白纸大学生优于行业老手，固化思维是负资产
+  reason: 素材仅基于单一房产项目经验，未区分岗位专业度要求（如法务、财务、核心技术岗），结论过度泛化
+missing_concepts:
+- paper: E1WGd70YLoaHGfxAYJTc4WoFnsd.md
+  concept: 私域用户分层运营体系（如RFM模型、生命周期管理）
+  severity: high
+- paper: PglAdRMiIoVTRyxc4Q3cw8hvnWf.md
+  concept: 房产交易全流程合规风控体系（资金监管、产权核验、税务筹划）
+  severity: high
+- paper: FCiidWBeJoLOT1xreYnc9Se4nOf.md
+  concept: TikTok娱乐直播的合规化运营框架（版权风控、平台政策红线、收益结算机制）
+  severity: high
+- paper: 20230207_01.md
+  concept: 付费社群运营的精细化指标体系（留存率、人均贡献、裂变系数）
+  severity: medium

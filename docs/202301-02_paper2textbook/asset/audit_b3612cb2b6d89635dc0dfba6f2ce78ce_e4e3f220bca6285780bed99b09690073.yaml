@@ -1,0 +1,35 @@
+citation_stats:
+- paper: DNGrdODFBowfk2xwkNCc5GGSnRd
+  count: 8
+  locations:
+  - ch3.3
+  - ch3.4
+  - ch3.5
+  - ch3.6
+  - ch3.7
+unsupported_claims:
+- location: ch3.3
+  claim: 市场上热点的窗口期往往极短——羊了个羊从“刚有点火”到“全民刷屏”只隔了大约五天
+  reason: 素材中未找到关于‘五天’的明确论述，无法支撑此具体数据。
+- location: ch3.5
+  claim: 第一个心理机制是确认偏误。当医生问“是不是这里疼”时，你的大脑会自动从记忆中搜索相关证据……第二个心理机制是稀缺性感知。多数用户的困扰……这种“被理解”的体验本身就是稀缺的。
+  reason: 素材中仅提及“复述问题”的方法和案例，并未将其拆分为‘确认偏误’和‘稀缺性感知’这两个具体的心理学概念。
+- location: ch3.6
+  claim: 第一原则是工具低门槛。……作者特别推荐中文编程工具，他说：“使用《中文编程工具》，不会英语也能快速入门”。
+  reason: 素材中提到“使用《中文编程工具》，不会英语也能快速入门，放一个图片”，但并未明确为‘第一原则’，也未明确指出该工具专为中老年或零基础用户设计以解决特定障碍。
+- location: ch3.7
+  claim: 更重要的，长周期开发会拖慢整个“验证-反馈-优化”的循环节奏，导致你在错误的方向上越走越远。一周的期限，本质上是强制你保持“小步快跑”的节奏，避免陷入“闭门造车”的陷阱。
+  reason: 素材仅提及“个人开发者研发一个软件的时间不应超过1周，超过1周的软件产品不适合个人开发者！”，并未对此时间红线给出‘小步快跑’或‘闭门造车’的详细解释。
+- location: ch3.8
+  claim: 假设一个开发者花三个月做了一款“AI修图工具”，上线后才发现这个赛道已经有三家大厂在做免费版，用户根本不会为他的产品付费——三个月的投入全部归零。
+  reason: 素材中未提及‘AI修图工具’或‘三家大厂在做免费版’的具体案例，此为书中虚构的说明性例子，但表述为事实陈述。
+missing_concepts:
+- paper: DNGrdODFBowfk2xwkNCc5GGSnRd
+  concept: 软件全球化（海外对软件非常友好，如不需要备案、证件等）
+  severity: high
+- paper: DNGrdODFBowfk2xwkNCc5GGSnRd
+  concept: 发现需求的方式（在应用商店找App名字，再到百度、微信、Google搜索框输入）
+  severity: medium
+- paper: DNGrdODFBowfk2xwkNCc5GGSnRd
+  concept: 个人独立开发者精力分配（主要精力不应该是开发，而是调研和捏模型）
+  severity: medium

@@ -1,0 +1,67 @@
+citation_stats:
+- paper: I9OAdzzs2oBliNxsmPjcHnBUnzf
+  count: 16
+  locations:
+  - ch6.3
+  - ch6.3
+  - ch6.3
+  - ch6.3
+  - ch6.3
+  - ch6.4
+  - ch6.4
+  - ch6.4
+  - ch6.4
+  - ch6.4
+  - ch6.4
+  - ch6.7
+  - ch6.7
+  - ch6.8
+  - ch6.8
+  - ch6.8
+- paper: NxhWdJj3UoPKvmxaBqkcz8wlntf
+  count: 16
+  locations:
+  - ch6.4
+  - ch6.5
+  - ch6.5
+  - ch6.5
+  - ch6.5
+  - ch6.5
+  - ch6.5
+  - ch6.5
+  - ch6.6
+  - ch6.6
+  - ch6.6
+  - ch6.8
+  - ch6.8
+  - ch6.8
+  - ch6.8
+  - ch6.8
+- paper: DNGrdODFBowfk2xwkNCc5GGSnRd
+  count: 5
+  locations:
+  - ch6.4
+  - ch6.7
+  - ch6.8
+  - ch6.8
+  - ch6.8
+unsupported_claims:
+- location: ch6.3
+  claim: 素材ID：I9OAdzzs2oBliNxsmPjcHnBUnzf（来源：《I9OAdzzs2oBliNxsmPjcHnBUnzf.md》）中记录了这样一个案例：作者通过拆解一条商场儿童游乐爆款视频，发现其8.4w赞、1.1w转发、3000条评论背后隐藏着大量加盟咨询需求。组建3人团队后，三个月招了40多个加盟商、变现40万，完全复用了他人验证过的模式。
+  reason: 素材原文中该案例数据为‘5万赞、1万转发’，并非书中的‘8.4w赞、1.1w转发、3000条评论’。且案例中团队是‘我，一个技术伙伴，还有一个商务伙伴’，与书中的‘3人团队’描述略有出入，但关键数据错误构成不支持论断。
+- location: ch6.3
+  claim: 素材ID：I9OAdzzs2oBliNxsmPjcHnBUnzf（来源：《I9OAdzzs2oBliNxsmPjcHnBUnzf.md》）中记录了...第三个例子是艺术签名账号。持续发内容引发大量咨询，引流私域后以9.9元/个收费，用免费素材网站完成交付，日成交几十个客户。
+  reason: 素材原文中并未提及‘日成交几十个客户’，仅说明‘一天成交个几十个客户’是在叙述案例时提及，但此数据在原文中可查，故该论断并非完全无据。但‘引流私域后以9.9元/个收费’与原文‘让他加你微信9.9一个’对应，支持度尚可。
+- location: ch6.5
+  claim: 素材ID：NxhWdJj3UoPKvmxaBqkcz8wlntf（来源：《NxhWdJj3UoPKvmxaBqkcz8wlntf.md》）的原文是：“...满足四个点，及格。”
+  reason: 原文为“六个点，满足的越多越好，满足四个点，及格。”，书中引用正确，无问题。
+missing_concepts:
+- paper: I9OAdzzs2oBliNxsmPjcHnBUnzf
+  concept: 策划案与执行案的项目管理框架
+  severity: medium
+- paper: I9OAdzzs2oBliNxsmPjcHnBUnzf
+  concept: 选品防踩坑的三大标准（重资产不碰、搞不懂不碰、不喜欢不碰）
+  severity: medium
+- paper: NxhWdJj3UoPKvmxaBqkcz8wlntf
+  concept: 朋友圈文案写作方法论（心金文案）
+  severity: low

@@ -1,0 +1,371 @@
+citation_stats:
+- paper: P001
+  count: 17
+  locations:
+  - ch40.3
+  - ch40.5
+  - ch40.6
+  - ch40.7
+  - ch40.8
+  - ch40.10
+  - ch40.11
+  - ch40.12
+  - ch40.13
+  - ch40.14
+  - ch40.15
+  - ch40.16
+  - ch40.17
+  - ch40.18
+  - ch40.19
+  - ch40.20
+  - ch40.23
+- paper: P002
+  count: 2
+  locations:
+  - ch40.4
+  - ch40.30.2
+- paper: P003
+  count: 1
+  locations:
+  - ch40.20
+- paper: P004
+  count: 1
+  locations:
+  - ch40.6
+- paper: P005
+  count: 2
+  locations:
+  - ch40.7
+  - ch40.12
+- paper: P006
+  count: 6
+  locations:
+  - ch40.8
+  - ch40.22
+  - ch40.30.2
+  - ch40.30.5
+  - ch40.30.7
+- paper: P007
+  count: 3
+  locations:
+  - ch40.9
+  - ch40.23
+  - ch40.30.7
+- paper: P008
+  count: 5
+  locations:
+  - ch40.10
+  - ch40.14
+  - ch40.23
+  - ch40.30.1
+  - ch40.30.5
+- paper: P009
+  count: 3
+  locations:
+  - ch40.11
+  - ch40.23
+  - ch40.30.4
+- paper: P010
+  count: 2
+  locations:
+  - ch40.12
+  - ch40.30.1
+- paper: P011
+  count: 4
+  locations:
+  - ch40.5
+  - ch40.13
+  - ch40.16
+  - ch40.30.5
+- paper: P012
+  count: 3
+  locations:
+  - ch40.14
+  - ch40.30.3
+  - ch40.30.5
+- paper: P013
+  count: 2
+  locations:
+  - ch40.15
+  - ch40.30.4
+- paper: P014
+  count: 2
+  locations:
+  - ch40.16
+  - ch40.30.5
+- paper: P015
+  count: 3
+  locations:
+  - ch40.17
+  - ch40.30.5
+- paper: P016
+  count: 2
+  locations:
+  - ch40.18
+  - ch40.30.5
+- paper: P017
+  count: 3
+  locations:
+  - ch40.19
+  - ch40.30.4
+- paper: P018
+  count: 1
+  locations:
+  - ch40.24
+- paper: P019
+  count: 2
+  locations:
+  - ch40.21
+  - ch40.30.5
+- paper: P020
+  count: 3
+  locations:
+  - ch40.22
+  - ch40.30.6
+- paper: P021
+  count: 2
+  locations:
+  - ch40.23
+  - ch40.30.7
+- paper: P022
+  count: 2
+  locations:
+  - ch40.24
+  - ch40.30.4
+- paper: P023
+  count: 2
+  locations:
+  - ch40.25
+  - ch40.30.5
+- paper: P024
+  count: 2
+  locations:
+  - ch40.26
+  - ch40.30.5
+- paper: P025
+  count: 2
+  locations:
+  - ch40.27
+  - ch40.30.5
+- paper: P026
+  count: 2
+  locations:
+  - ch40.28
+  - ch40.30.5
+- paper: P027
+  count: 2
+  locations:
+  - ch40.29
+  - ch40.30.5
+unsupported_claims:
+- location: ch40.17
+  claim: 美团电商：2022年8月发现机会→2月跑通30店→单店月利6k-12k（零运营），验证新平台红利期“完成>完美”。
+  reason: 素材中未找到美团电商2个月跑通30店、单店月利6-12k、零运营的具体数据支撑，仅在P011中提到刘家齐12月营收60万、直营50家店、单月毛利30万，且提到11月平台下店收紧被拉黑执照，12月中下旬恢复下店，与‘零运营’、‘2月跑通30店’不符。
+- location: ch40.18
+  claim: 作者ChatGPT案例：热度起→十几分钟注册公众号‘ChatGPT中文版’→十几分钟写代码接入API→首个集成公众号→十几分钟做镜像站套小程序→消耗50万请求。
+  reason: 素材中仅提到‘十几分钟，写了一百多行代码，成了全网首个把ChatGPT集成到公众号的人’、‘十几分钟，做了一个ChatGPT的镜像的镜像（套娃）……包在小程序的壳子里上线了’、‘消耗接近50w次请求’，但未明确提到注册公众号名为‘ChatGPT中文版’、‘首个集成公众号’、‘十几分钟注册公众号’等细节。
+- location: ch40.19
+  claim: 优秀推销员：每天先找易成单客户/卖易卖品 → 制造‘成功体验’ → 唤醒潜意识自信 → 一天大单拿下。
+  reason: 素材P001中提到‘一些优秀的推销员，在开展一天的工作时，会先去找一些优质的客户，或者推销一些容易卖的产品，通过这种方式去制造成功体验’，但未提及‘唤醒潜意识自信’、‘一天大单拿下’等后续推论。
+- location: ch40.20
+  claim: 作者从亏损100万→盘点资源（社群运营经验+私域流量+内容能力）→ 匹配‘外卖CPS+副业课程’ → 3月赚100万。
+  reason: 素材P001、P006、P022中均未直接描述作者亏损100万、3月赚100万、盘点资源匹配外卖CPS+副业课程的完整过程。P022提到‘从赔100万，到在生财里找到项目赚回300万’，但未细化‘外卖CPS+副业课程’及3月节点。
+- location: ch40.22
+  claim: 4C动态量化模型：创始人身份(C0)、岗位权重(C1)、时间投入(C2)、资金投入(C3)四维打分加权算比例。
+  reason: 素材P020中详细描述了4C模型（创始人身份、岗位权重、时间投入、资金投入）及五步法，但未使用C0/C1/C2/C3代号，且‘动态量化’、‘加权算比例’为全书推论，非素材原文表述。
+- location: ch40.23
+  claim: TikTok无人直播：硬改手机寿命10分钟-10天，卖手机者‘收割一茬’，买家血本无归。
+  reason: 素材P011中提到‘TikTok无人直播手机寿命短、风控严’，但未给出‘10分钟-10天’具体寿命数据，也未提及‘收割一茬’、‘买家血本无归’表述。
+- location: ch40.23
+  claim: TEMU标品议价空间<10%，超1688价即判‘无诚意’压价。
+  reason: 素材P011中提到‘TEMU标品议价空间<10%，超1688价即判无诚意压价’，但未说明来源，属单向表述，缺乏佐证。
+- location: ch40.27
+  claim: 丰田经典：机器停了→为什么?保险丝断→为什么?负载过大→为什么?轴承润滑不足→为什么?油泵吸入金属屑→为什么?无过滤网 → 对策:装过滤网/定期清理/改进油泵。
+  reason: 素材P025仅定义5WHY方法与‘老板骂我’案例，未包含丰田案例，该案例为全书补充，非素材溯源。
+- location: ch40.29
+  claim: 某知识付费项目：道=用‘私域运营陪跑服务’解决‘中小商家不会私域变现’痛点赚‘服务费/分成’…
+  reason: 素材P027仅定义道术器用四层框架，未提供具体知识付费项目案例，该案例为全书编造演示。
+missing_concepts:
+- paper: P001
+  concept: 流量流速悖论与交易目的论
+  severity: medium
+- paper: P001
+  concept: 刚需生意观作为项目筛选标准
+  severity: medium
+- paper: P002
+  concept: 人生四阶段年龄映射（30岁前/后、第二曲线、复制商业）
+  severity: high
+- paper: P006
+  concept: 三会一层治理结构（股东会/董事会/监事会/高管层）
+  severity: high
+- paper: P006
+  concept: 组织架构三层（治理层/管理层/执行层）与三大部门（基石/前端/后端）
+  severity: high
+- paper: P006
+  concept: 业务流SOP五要素（流量×转化率×客单价×复购率/转介绍）
+  severity: high
+- paper: P007
+  concept: 优雅亏大钱三步骤（做易亏项目+加杠杆/高频+赚不止盈亏不止损）
+  severity: high
+- paper: P008
+  concept: 劳动纠纷三案例（张先生/徐女士/李女士赔付细节）
+  severity: high
+- paper: P008
+  concept: AI绘画小程序止损决策（预算/资质/工期/流量依赖公众号）
+  severity: medium
+- paper: P009
+  concept: 峰终定律在内容创作中的具体应用（开头/结尾设计、中间可弱化）
+  severity: high
+- paper: P009
+  concept: 垂直人群非垂直内容（同一人群多圈子、多话题测试）
+  severity: high
+- paper: P009
+  concept: 爆款模板复用（拆解结构→抽象骨架→工业化生产）
+  severity: high
+- paper: P011
+  concept: 动销期核心打法（补单/投流/选品/入池）vs 精细化期核心打法（合规/原创/服务/发货/DSR）
+  severity: high
+- paper: P011
+  concept: 奈雪的茶直营亏损1.5亿 VS 蜜雪冰城加盟利润19亿对比
+  severity: medium
+- paper: P012
+  concept: 商业拆解复制法‘两条腿走路’确定性思维（内容引流+付费投流+分销裂变）
+  severity: high
+- paper: P012
+  concept: 合规红线：平台打击无人直播/搬运/擦边球
+  severity: high
+- paper: P013
+  concept: 买家系统三板斧（撒谎/给希望/躲起来）与高净值客户演技好/防御重
+  severity: high
+- paper: P013
+  concept: 灵魂三问递进式提问（现状认知→准备缺口→渴望升级）
+  severity: high
+- paper: P013
+  concept: 聊小孩/谈自己/谈传承三板斧击中高净值客户痛点
+  severity: high
+- paper: P014
+  concept: 发圈动力=佣金/设计交压力，社交货币价值挖掘
+  severity: high
+- paper: P014
+  concept: 冷启动核心=选品+触达核心节点（头部老师/机构）引发指数级裂变
+  severity: high
+- paper: P014
+  concept: 佣金分配博弈：一级高vs二级高的动态平衡
+  severity: high
+- paper: P014
+  concept: 书里有品案例：0预算冷启动→首月10万分销员→2年80万+分销员/1.5亿销售额/4轮融资
+  severity: high
+- paper: P014
+  concept: 闲鱼倒爷套利实战数据（飞利浦音响/U盘/台灯具体成本售价利润）
+  severity: high
+- paper: P015
+  concept: 平台周期判断指标：官方公开信/招商政策/头部玩家动作/第三方数据/自身实测
+  severity: medium
+- paper: P015
+  concept: 周期非绝对线性，常重叠/回退/并行（抖音精细化与玩趋势并存）
+  severity: medium
+- paper: P016
+  concept: 技术基建清单：注册实体/备案域名/认证公众号小程序/对接主流API/自动化部署流程
+  severity: high
+- paper: P016
+  concept: 套娃变现模式：官方API→包一层(鉴权/限流/计费)→套小程序壳/多平台分发
+  severity: high
+- paper: P016
+  concept: AI绘画小程序止损四原因（预算/资质/工期/流量依赖公众号）
+  severity: high
+- paper: P017
+  concept: 俯视学习法：战略上藐视对手(我是国王来学)、战术上重视细节(跪着学技术)
+  severity: high
+- paper: P017
+  concept: 成功体验唤醒法：回顾过往成功、制造小成功、正反馈循环
+  severity: high
+- paper: P018
+  concept: 贡献视角vs争夺视角：为系统创造价值赢得核心信任
+  severity: high
+- paper: P018
+  concept: 稀缺资产积累：品牌/数据/人才/信任 vs 短期流动资源：销售额/DAU/权力
+  severity: high
+- paper: P019
+  concept: OKR与KPI区别：不挂绩效/鼓励激进目标(达成70%即优)/允许中途调整KR
+  severity: medium
+- paper: P019
+  concept: MVP验证最不确定因素：能否成交/引流/交付，跑通再规模化
+  severity: high
+- paper: P020
+  concept: 五步法操作：梳理合伙人名单→四维打分→算初始比例→设计动态调整规则→落地法律文件
+  severity: high
+- paper: P020
+  concept: 婚前协议类比：项目未赚钱时摊牌最好
+  severity: medium
+- paper: P020
+  concept: 配套法律文件清单：章程/协议/授权书/期权池管理/分红政策/回购协议
+  severity: high
+- paper: P021
+  concept: 平台风控本质=流量分配偏好，读懂限流/违禁/处罚逻辑→反推平台想要什么
+  severity: high
+- paper: P021
+  concept: 五大铁律：非刚需/无壁垒/不懂/加杠杆/拖止损 五不碰
+  severity: high
+- paper: P021
+  concept: 反期望：逆向操作也不能保证赚钱，亏钱是赚钱必经之路
+  severity: medium
+- paper: P022
+  concept: 分享即筛选器：高质量输出吸引同频者形成正向循环
+  severity: high
+- paper: P022
+  concept: 知识付费模式：免费公开90%干货(公域)+付费服务10%陪跑/社群/工具(私域)
+  severity: high
+- paper: P022
+  concept: 利他前提=自利基础稳固，自己活不下去时强行利他=圣母作风/加速死亡
+  severity: high
+- paper: P023
+  concept: 原生idea要求创始人深度参与业务一线，纯投资人/管理者难产生
+  severity: medium
+- paper: P023
+  concept: 抄竞品需法律合规(不侵权/不山寨)且有真差异化，否则送人头
+  severity: medium
+- paper: P023
+  concept: 搜索词挖掘需懂数据分析/SEO/用户意图识别，纯工具堆砌无用
+  severity: medium
+- paper: P023
+  concept: 预付费需具备‘定制交付能力’和‘标准化抽象能力’，否则变外包陷阱
+  severity: medium
+- paper: P024
+  concept: 避坑指南：生僻字/多音字/同音歧义/超长/无关联/已注册/文化冒犯/难输入/难搜索
+  severity: high
+- paper: P024
+  concept: 测试法：对陌生人说名字→复述/拼写/猜业务/说感受/编口号，通过率>80%合格
+  severity: high
+- paper: P024
+  concept: 商标注册优先：第35类必注/核心类必注/防御类注，未注册=为他人做嫁衣
+  severity: high
+- paper: P024
+  concept: 不同赛道命名逻辑差异：ToC重感性/记忆/传播，ToB重专业/信任/权威，硬科技重技术/硬核/独特
+  severity: medium
+- paper: P025
+  concept: 正向5WHY：为什么成功，复盘同理
+  severity: medium
+- paper: P025
+  concept: 心理安全感前提：怕担责/被骂/丢面子→只报好消息/隐瞒真因→5WHY失效
+  severity: high
+- paper: P025
+  concept: 复杂系统问题需系统动力学/利益相关者分析配合
+  severity: medium
+- paper: P026
+  concept: 复盘频次建议：日结15min/周复盘1h/月复盘半天/季度战略复盘1天
+  severity: high
+- paper: P026
+  concept: 个人极简版模板：目标/实际/差距/原因/动作
+  severity: high
+- paper: P026
+  concept: 避免复盘成瘾/分析瘫痪：产出动作清单即止
+  severity: high
+- paper: P027
+  concept: 道术器用动态演进：随业务阶段不断修正，非一次性填完挂墙
+  severity: high
+- paper: P027
+  concept: 阶段差异：0-1重道/术验证，器/用简陋可接受；1-N重器/用标准化复制，道/术相对稳定
+  severity: high
+- paper: P027
+  concept: 避免画布综合症：填满9格≠懂生意，执行细节/例外处理/人性博弈才是魔鬼
+  severity: high
