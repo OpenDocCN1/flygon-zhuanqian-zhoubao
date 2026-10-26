@@ -1,0 +1,25 @@
+# 用 RPA 结合明星切片打通 BOSS 直聘招聘全链路，一套自动化打法拆解
+
+> 参考原文：[`www.yuque.com/for_lazy/thfiu8/xpbqwnt8fpcogmzv`](https://www.yuque.com/for_lazy/thfiu8/xpbqwnt8fpcogmzv)
+
+## 获赞 42 | RPA + 明星切片 + BOSS 直聘 自动化招聘全流程解析
+
+作者：渣渣浩  
+发布时间：2023-12-14
+
+想把 RPA、明星切片和 BOSS 直聘串成一条可复制的招聘自动化闭环，这篇拆解把整套思路和实操路径做了系统梳理。  
+[`vgcf8zrqd4.feishu.cn/docx/M9lHd769toHVnLxWlC5c5n4dnPq?from=from_copylink`](https://vgcf8zrqd4.feishu.cn/docx/M9lHd769toHVnLxWlC5c5n4dnPq?from=from_copylink)[PRE0]
+
+* * *
+
+读者互动：
+
+Rio：挺有意思的
+
+阿愚呱呱 RPA：内容含金量很高，这套玩法很值得借鉴[强]
+
+纪强 Roger：很强，能加个微信交流吗
+
+渣渣浩：13339993033[PRE1]
+
+* * *
