@@ -1,0 +1,25 @@
+# 波波：抖音流量下一步会怎么走？
+
+> 原文：[`www.yuque.com/for_lazy/thfiu8/esfm6fm3py44zqs0`](https://www.yuque.com/for_lazy/thfiu8/esfm6fm3py44zqs0)
+
+## 波波：聊聊抖音流量下一步演化趋势
+
+作者： 亦仁的收藏夹
+
+日期：2023-11-30
+
+从抖音发展的脉络来看，它的商业化路径非常清晰：起初是广告变现，随后是游戏分发，再到电商爆发，接着是本地生活深耕，而下一个阶段，大概率会落在线索获客与私域沉淀这两件事上。
+
+与此同时，流量的分发逻辑也在悄然切换。早期以兴趣推荐为主的粗放式分发，正在向以搜索为核心的精准式分发靠拢。
+
+[`mp.weixin.qq.com/s/wB4yYsSUKpxm_SgLg7C2kw`](https://mp.weixin.qq.com/s/wB4yYsSUKpxm_SgLg7C2kw)
+
+* * *
+
+评论区：
+
+佳兴 : 这篇文章我也很喜欢
+
+[PRE0]
+
+* * *
