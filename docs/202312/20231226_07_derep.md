@@ -1,0 +1,5 @@
+素材中仅提供了一条原文链接，未包含可供改写的具体内容文本。
+
+> 原文链接：[`www.yuque.com/for_lazy/thfiu8/icrswqpwvcicqyqz`](https://www.yuque.com/for_lazy/thfiu8/icrswqpwvcicqyqz)
+
+请提供完整的原文素材内容，我即可在保持核心观点和关键信息一致的前提下，为您改写为表述迥异、全新的自媒体文案。
