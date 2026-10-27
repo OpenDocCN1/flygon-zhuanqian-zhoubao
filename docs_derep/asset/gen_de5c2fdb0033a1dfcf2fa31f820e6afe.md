@@ -1,0 +1,42 @@
+# 海外客户咨询每天十几条，如何让内容标准化也不乱套？
+
+> 原文：[`www.yuque.com/for_lazy/zhoubao/lbw5mwpf26cuat0d`](https://www.yuque.com/for_lazy/zhoubao/lbw5mwpf26cuat0d)
+
+## 每天十几个海外客户在聊，怎么把内容流程化还不乱？
+
+作者：阿甜（有星球社群）
+
+日期：2024-08-06
+
+今天跟大家聊一个实操话题：当海外咨询量上来，每天要应付十几位客户时，怎么把服务做成流程化又不显得千篇一律。
+
+看完这篇，你大概能带走这几块方法：
+
+1、为每位用户搭建一套统一的标准化作业流程 SOP
+2、为用户建立专属的个人档案库
+3、打造可直接复用的【快捷回复】话术
+4、根据不同定位匹配合适的【参考账号】
+
+文末还整理了一批账号定位方向、内容参考思路，以及每位学员的个性化资料合集。
+
+[`vow6kdbiak.feishu.cn/docx/BNOHdt2AdoxWMmx6XabcJRTmnse?from=from_copylink`](https://vow6kdbiak.feishu.cn/docx/BNOHdt2AdoxWMmx6XabcJRTmnse?from=from_copylink)[PRE0]
+
+[PRE1]
+
+[PRE2]
+
+* * *
+
+评论区：
+
+张大气 : 这是给国外人做小红书课程的培训吗
+
+阿甜（有星球社群） : 主要是台湾客户，他们分散在各地
+
+zhAzha : 阿甜！好久之前就在 B 站关注你了，那时你刚到深圳。刷到你接受峰哥的采访就觉得你很拼。现在发展成这样真的很棒[666][666][666]
+
+阿甜（有星球社群） : 感谢关注，我还在不断试错中~
+
+[PRE3]
+
+* * *
