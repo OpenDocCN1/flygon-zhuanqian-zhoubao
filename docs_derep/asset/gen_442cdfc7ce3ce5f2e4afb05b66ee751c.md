@@ -1,0 +1,30 @@
+# 7000 粉丝的职场号，怎么做到 20 万净收入？
+
+> 原文：[`www.yuque.com/for_lazy/zhoubao/yplat3hc18mggyso`](https://www.yuque.com/for_lazy/zhoubao/yplat3hc18mggyso)
+
+## 如何用 7000 粉的职场小红书账号实现 20 万净利润
+
+作者：自证预言家 Saki
+发布时间：2024-06-11
+
+嗨，生财有术的伙伴们，这里是 Saki 学姐。
+
+我在小红书做职场内容，主打的路线是低粉丝量也能实现高额变现。
+
+今天就把我这个 7000 粉账号从吸粉到成交的全流程拆开来聊，从引流策略、产品设计到最后的变现闭环三个层面，复盘我是怎样拿到 20 万净利润的。
+
+想更系统地了解细节和私域转化的具体做法，我整理了一份飞书文档，方便大家参考借鉴：
+
+[`ri79l0dq322.feishu.cn/docx/EZcPdg0qAouJd6xihi1clJgXnTe?from=from_copylink`](https://ri79l0dq322.feishu.cn/docx/EZcPdg0qAouJd6xihi1clJgXnTe?from=from_copylink)
+
+* * *
+
+评论区精选：
+
+凯辉（龙马） : 很棒
+
+王珣 : 私域转化部分写的很棒，感谢分享[玫瑰]
+
+[PRE0]
+
+* * *
