@@ -1,0 +1,7 @@
+# 赚钱心态系列合集，共计3篇
+
+本期整理的是关于赚钱心态的3篇干货内容。
+
+原文来源：[`www.yuque.com/for_lazy/thfiu8/lck5arzmesazg8bv`](https://www.yuque.com/for_lazy/thfiu8/lck5arzmesazg8bv)
+
+内容来自公众号懒人搜索，由懒人专属群内部分享。
