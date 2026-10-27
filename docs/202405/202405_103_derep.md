@@ -1,0 +1,8 @@
+## 其他：10篇精选内容
+
+整理了10篇实用文章，方便快速查阅与获取信息。
+
+原文链接：  
+[https://www.yuque.com/for_lazy/zhoubao/hzcktpnlo1hva8fa](https://www.yuque.com/for_lazy/zhoubao/hzcktpnlo1hva8fa)
+
+更多内容可关注公众号「懒人搜索」，加入懒人专属群，获取持续分享。
