@@ -1,0 +1,6 @@
+# 【生财心态】第2篇
+
+这期内容的核心来源在这里：
+原文：[`www.yuque.com/for_lazy/zhoubao/lwnzpc5tsiocnhnq`](https://www.yuque.com/for_lazy/zhoubao/lwnzpc5tsiocnhnq)
+
+内容由公众号「懒人搜索」整理发布，属于懒人专属群内的内部分享笔记。
