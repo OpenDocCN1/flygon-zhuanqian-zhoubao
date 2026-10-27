@@ -1,0 +1,15 @@
+# 🤯🐾 240716｜本期趋势速览
+
+> 资料出处：[`www.yuque.com/for_lazy/zhoubao/slragwsqagm38kco`](https://www.yuque.com/for_lazy/zhoubao/slragwsqagm38kco)
+
+先说明一下：文中的【】仅用于区分栏目，具体内容请以各栏目后呈现的帖子为准。
+
+如果想一次查阅更完整的生财资料，可前往【懒人专属群】获取《懒人生财周报》。该合集同时提供往期内容的网页阅读版本与本地保存版本，方便随时回看。
+
+实用工具《懒人手册》：[`lazybook.fun/#/`](https://lazybook.fun/#/)
+
+社群详情与加入说明：[`lazybook.fun/#/blog/group`](https://lazybook.fun/#/blog/group)
+
+近期内容及维护进展：[`lazybook.fun/#/blog/record2`](https://lazybook.fun/#/blog/record2)
+
+[PRE0]
