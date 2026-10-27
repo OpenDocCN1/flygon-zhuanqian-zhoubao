@@ -1,0 +1,30 @@
+# 跨境 COD 项目是不是已经凉了？这套中东 COD 半价投流打法值得看
+
+> 原文：[`www.yuque.com/for_lazy/thfiu8/kraww3nspq5eggdq`](https://www.yuque.com/for_lazy/thfiu8/kraww3nspq5eggdq)
+
+## 跨境 COD 还能做吗？这套半价投流玩法给你答案
+
+作者：Albert  
+发布：2024-02-18
+
+跨境 COD 到底还能不能玩？来聊聊我的实操经验：一个基于中东市场的 COD 半价投流打法，科普结合实战干货。
+
+大家好，我是 Albert，一个连续创业、喜欢折腾的实战派，对我来说搞钱最实际。
+
+本篇的核心思路就是围绕 **中东 COD + 项目拆解 + 落地实操**，给到对跨境 COD 有兴趣的朋友一些思路：如何用更低的 Facebook 投放成本把 COD 跑通，并把利润做到最大化。
+
+完整拆解和操作细节我已整理到飞书文档，感兴趣可以直接移步查阅：
+
+[`vvxlpvbvbp3.feishu.cn/docx/TE32dlXyUosRXIxE37wc1o6mnR4?from=from_copylink`](https://vvxlpvbvbp3.feishu.cn/docx/TE32dlXyUosRXIxE37wc1o6mnR4?from=from_copylink)
+
+* * *
+
+评论区互动：
+
+骷比絨 : 资金安全吗？被封的账户余额还能提现回来吗
+
+Albert : 合规投放、素材不违规基本没问题。账户一旦被封，基本就等于结束，剩余余额是无法退回的。
+
+[PRE0]
+
+* * *
