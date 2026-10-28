@@ -1,0 +1,25 @@
+# 🦝👈 250225 懒人副业周刊
+
+> 来源：[`www.yuque.com/for_lazy/zhoubao/nmob5irgxropvccr`](https://www.yuque.com/for_lazy/zhoubao/nmob5irgxropvccr)
+
+每周固定更新，兼顾生财风向标及额外资料共享。
+
+文中【中括号】代表不同类别，每个帖子都会标注点赞量、是否被评为精华，以及评论配图等信息。
+
+​
+
+本库文档仅限**懒人专属群**内部成员查阅，访问密码会不定时更换。
+
+严禁外传，以免链接失效。如你觉得专属群的价值所在，欢迎带好友一起加入。
+
+[PRE0]
+
+更完整的生财笔记，都在【懒人专属群】的内部资料里~
+
+懒人手册：[`lazybook.fun/#/`](https://lazybook.fun/#/)
+
+懒人专属群介绍：[`lazybook.fun/#/blog/group`](https://lazybook.fun/#/blog/group)
+
+懒人专属群更新日志：[`lazybook.fun/#/blog/record2`](https://lazybook.fun/#/blog/record2)
+
+​

@@ -1,0 +1,33 @@
+# 35岁+老码农实战笔记：用 Cursor 从零搭出 ChatPDF 智能文档问答
+
+原文链接：[`www.yuque.com/for_lazy/zhoubao/fky0lftfgym3ygzz`](https://www.yuque.com/for_lazy/zhoubao/fky0lftfgym3ygzz)
+
+## 35+ 程序员的 Cursor 实战：如何用 AI 撸一个 ChatPDF 出来
+
+作者：宇爱（ai）同行
+发布时间：2025-01-27
+
+嗨，我是宇爱（ai）同行。
+
+最近在 Cursor 航海计划里卷了一圈，亲手把 Cursor 玩了个遍，感慨挺深。作为一个干了多年的老程序员，老实说我一开始对低代码、无代码还有 AI 编程是挺抗拒的，第一反应就是：这玩意儿是不是要抢我饭碗？
+
+后来冷静想想，光排斥没用。与其站着看，不如自己跳进去试试水。就算最后不咋地，至少也是自己亲身验证过。结果越用越上头，Cursor 的能力真的超出了预期。再加上国内 DeepSeek 大模型最近强势爆发，我愈发觉得 AI 辅助编程这条路只会越来越猛。
+
+正好生财有道在搞 AI 编程主题的[#龙珠悬赏](https://wx.zsxq.com/tags/龙珠悬赏/48824518525858)，我就把自己一次完整的实战经验整理出来了：全程只用 Cursor，从零到一做出来一个 ChatPDF 类的智能文档问答产品，最后还部署到了阿里云服务器上。中间踩的坑、思路转变、落地细节都在里面了。
+
+这篇复盘主要涵盖了：
+
+* 产品完整录屏演示，看效果最直观
+* 市面上同类产品的竞品拆解
+* 从零开发到上线的全流程复盘总结
+* 产品延伸的玩法和思路
+* 实战中遇到的常见问题汇总
+
+想了解的老铁，可以直接点我分享的链接看完整版~
+[`aqej8p49ny.feishu.cn/docx/ES9LdKOWkos13OxYOEucD1xlnxe?from=from_copylink`](https://aqej8p49ny.feishu.cn/docx/ES9LdKOWkos13OxYOEucD1xlnxe?from=from_copylink)
+
+* * *
+
+评论区：
+
+暂无评论

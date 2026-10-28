@@ -1,0 +1,12 @@
+# 【其他】6 篇
+
+想第一时间获取整理好的内容合集，可以直接查看原文合集页：
+[`www.yuque.com/for_lazy/zhoubao/ogqpmloih3wdatal`](https://www.yuque.com/for_lazy/zhoubao/ogqpmloih3wdatal)
+
+持续更新资源与干货都在这里，懒人找资源公众号会不定期同步分享，加入懒人专属群也能更快收[content]
+# 【其他】6 篇
+
+本期内容合集的原始出处在这里：
+[`www.yuque.com/for_lazy/zhoubao/ogqpmloih3wdatal`](https://www.yuque.com/for_lazy/zhoubao/ogqpmloih3wdatal)
+
+更多同类整理和资源推送，关注公众号「懒人找资源」即可获取，懒人专属群内也会同步分享更新。

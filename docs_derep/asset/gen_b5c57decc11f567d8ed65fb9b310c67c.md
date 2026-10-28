@@ -1,0 +1,46 @@
+# #龙珠悬赏 AI当手，零基础也能做出能赚钱的小程序
+
+> 原文：[`www.yuque.com/for_lazy/zhoubao/lmx2168umerbx2pd`](https://www.yuque.com/for_lazy/zhoubao/lmx2168umerbx2pd)
+
+## #龙珠悬赏 自从亦仁发了超级标，就开始了各种编程尝试
+
+作者： liliya
+
+日期：2025-01-20
+
+嗨，我是 liliya，一个在生财混了四年的老圈友。亦仁的超级标一出来，我就彻底打开了编程的开关。说实话我之前完全没基础，全靠 AI 带着走，居然真把程序跑通了。很多坑都是自己一点点试出来的，每次搞定一个参数问题，那种成就感直接拉满。熬到凌晨两三点是常态，但当第一个网站上线、智能体跑起来收到一堆好评时，真的太上头了。
+
+现在已经有三个作品落地了，其中第三个已经开始变现。明信片生成的智能体已经接入微信小程序，体验可以先免费试用，后续用点卡付费的方式收钱。推广方面我打算用公众号推文、社群裂变和小红书内容去做冷启动。
+
+目前的成果清单：
+第一个是基于扣子做的「戴上圣诞帽」图生图智能体；
+第二个是参考小排老师的思路，用 BOLT 撸出来的网页版 MBTI 性格测试；
+第三个正在迭代的是「如梦-明信片生成器」，输入一个词就能出明信片风格的文生图，已经在扣子上发布并挂到微信小程序里，还在持续打磨中。
+
+想看我完整的摸索和学习记录，可以直接去飞书看我整理的笔记：‬﻿‍⁤​⁤⁢⁣﻿​​⁣‍﻿⁣‍‌⁣‌​⁡‬‬⁣‌⁢⁡​​﻿⁣﻿⁤‍​‬⁤⁡‍⁢‌‬﻿‬‬‍‬​‬⁤​⁡⁣⁣‌⁣⁢‬⁤⁤‌​﻿​⁢﻿生财超级标
+
+*   飞书云文档
+
+    ​​⁣⁣​‌​⁣⁤⁣‌⁤⁢​⁤‬​⁤⁢⁣​⁡﻿﻿﻿⁤⁢‌‌​⁢⁡[`www.coze.cn/store/agent/7451895885619167251?bot_id=true&bid;=6eqjm55gk5000`](https://www.coze.cn/store/agent/7451895885619167251?bot_id=true&bid;=6eqjm55gk5000)[[`cute-`](https://cute-) rabanadas-b8fad5.netlify.app]([`cute-`](https://cute-) rabanadas-b8fad5.netlify.app)[`www.coze.cn/store/agent/7460556694247129115?bot_id=true&bid;=6f2teda2s4g0b`](https://www.coze.cn/store/agent/7460556694247129115?bot_id=true&bid;=6f2teda2s4g0b)[`ekcwwaypjw.feishu.cn/docx/ZlEDd7FOZoTgJpxnolScNw6qneh?reRdXZ=1`](https://ekcwwaypjw.feishu.cn/docx/ZlEDd7FOZoTgJpxnolScNw6qneh?reRdXZ=1)
+
+[PRE0]
+
+[PRE1]
+
+[PRE2]
+
+[PRE3]
+
+[PRE4]
+
+[PRE5]
+
+* * *
+
+评论区：
+
+易芝 AI|RPA 版 : 666
+
+鱼丸|亦仁助理 : 辛苦开一下文章的阅读权限哦
+
+liliya : 我开了，您看一下行不行？

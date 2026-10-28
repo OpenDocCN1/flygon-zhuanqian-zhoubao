@@ -1,0 +1,7 @@
+# 生财心态 1 篇
+
+这篇关于生财心态的思考，源自懒人周报的原始内容。
+
+原文地址：[`www.yuque.com/for_lazy/zhoubao/hez78crnd2degb5s`](https://www.yuque.com/for_lazy/zhoubao/hez78crnd2degb5s)
+
+相关资源同步在公众号【懒人找资源】发布，懒人专属群内持续分享。

@@ -1,0 +1,16 @@
+# 一篇判断项目是否值得做的文章，让我直接打开了思路的开关
+
+> 参考原文：[`www.yuque.com/for_lazy/zhoubao/xpt8il0vy2q6lgeu`](https://www.yuque.com/for_lazy/zhoubao/xpt8il0vy2q6lgeu)
+
+## 30 赞 读完亦仁的《如何判断一个项目值不值得做？》后，我感觉卡点全通了
+
+作者：深圳阿岳
+发布于：2025-01-22
+
+很感恩亦仁这篇输出。借此聊聊我自己的经历，从生财里的一个小线索，到最终落到 AI 老照片修复赛道上的整个转变路径。[`wwa6ugt6w2.feishu.cn/docx/C3zJdKdiVofvUJx9JCFchBd4npN?from=from_copylink&reRdXZ;=1`](https://wwa6ugt6w2.feishu.cn/docx/C3zJdKdiVofvUJx9JCFchBd4npN?from=from_copylink&reRdXZ;=1)
+
+---
+
+评论区互动：
+
+亦仁：用 AI 润色过的文字，少了一些人情味。
