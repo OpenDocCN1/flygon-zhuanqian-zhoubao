@@ -1,0 +1,258 @@
+# YouTube Shorts 故事号玩法深度拆解
+
+> 来源：[https://yemahuyou.feishu.cn/docx/AiOEdxSxYow1sGxgk3rc7tv0nNc](https://yemahuyou.feishu.cn/docx/AiOEdxSxYow1sGxgk3rc7tv0nNc)
+
+# 故事号到底是什么？
+
+它本质上是把其他文字社媒的帖子搬运过来二次加工成短视频的一种赛道。和国内抖音上常见的知乎热帖、天涯神贴、贴吧经典帖那种呈现逻辑一致，但和小说推文又不一样。内容调性多集中在搞笑、狗血、惊悚这几类，画面上常搭配解压混剪。整体呈现可归为三类：素人叙事风、Reddit风、短信对话风。
+
+也可能是双人一人分饰两角的搞笑演绎，或是对搞笑对话素材做的二次创作，像国内博主把口播梗做成沙雕动画一样，底层逻辑都属于故事号。
+
+这类账号的商业化空间很大，既能吃平台播放分成，也能做CPS、CPA、带货推广和品牌商单。制作门槛低，核心成本几乎都在素材搜集上。
+
+故事号的形态很多，变现也很多样。有的只靠YPP吃广告，有的给第三方引流做CPA/CPM联盟，也能接定制商单。甚至比它更火一段时间的TK小说推文，也是站在故事号这个根基上演化出来的。小说推文更晚出现，但故事号更早、也更长青。
+
+那故事号的优势和劣势分别在哪？
+
+## 优势：
+
+延展性极强，模板固定，选题可以无限换。选题固定，呈现形式也能无限变。这一点后面拆解类型时会讲得更细。商业变现灵活，开收益前就能用CPA类推广撑住现金流。剪辑门槛低，新手也能快速上手，在实操中熟悉平台规则、流量逻辑和基础功能。
+
+## 难点：
+
+起量慢，需要持续了解海外社媒生态，克服素材采集和文案改写的门槛，还要get到文化差异里的梗。把这三点吃透，账号启动会快很多。
+
+## 总评：
+
+形式多样等于可能性更多，曾经爆过的文本可以反复用，复刻风险被稀释。Shorts现在支持三分钟，长内容更利于故事展开，赛道会持续发力，属于低调的老赛道。标签很少，除了背景音乐通常只有标题，采集难度高，但一旦找到一两个对标，基本就撬开了入口。
+
+# 故事号对标参考：
+
+# 故事号风格详解：
+
+在进入细分拆解前，先说归类方式。下面的每个方向都会按 素材收集、正练原创、逆练借鉴 来展开。
+
+做内容出海本身就很吃力。国内看着轻松，海外更卷，要和TK大团队卷、和老外卷、和看好这个赛道的国内团队卷、还和圈内同行卷。
+
+所以技能点必须叠加。不能只会一套工作流。需要懂海外文化，有综合能力，有逆向拆解和结构化思维。
+
+这样才能在这个圈子里打出来。接下来这部分会帮助你系统建立对海外内容的认知，也能让实操路上的技能慢慢沉淀下来，别人带不走、抄不走。
+
+我会手把手教故事号的两大核心分支：Reddit风格和短信风格。涉及AI深度改写、Reddit模板搭建、以及用海外社媒获取名。
+
+Reddit社群：既能拿素材，也能学习文化，还能建立海外交流渠道。
+
+对标采集：熟练用各平台搜索和信息茧房功能，积累对标库。
+
+还包括剪辑技巧和模板化文案的制作方法。你会发现同一个故事，为什么能变成有趣的对话。
+
+## 提示：
+
+下面所有的文案训练方法，都没有限制字数和对话轮次，可能出现配音后去掉停顿超出1分钟的情况，这种情况自行微调提示词、手动删减内容或对话来压缩时长。做TikTok不受影响。Shorts在12月初中旬彻底更新后，3分钟内也都可用。
+
+## Reddit风：
+
+## Reddit风是什么：
+
+把文字平台的内容采集过来二次创作，最多的来源就是Reddit。Reddit是美国的社交新闻讨论和内容评分网站，类似国内贴吧和豆瓣。通过特定社群找到原帖的故事和段子做成二创。
+
+[PRE0]
+
+[PRE1]
+
+纯故事模式+字幕 Reddit开头模版+字幕
+
+#### 需要的材料
+
+*   故事来源
+*   文案
+*   Reddit开头模版
+*   解压素材
+
+### 故事来源：
+
+美国的互动媒体平台很多，Reddit、Quora、The Moth、4chan、8kun、Discord等。Reddit体量最大且支持匿名，可采集素材最多。后续采集以Reddit为例。
+
+Reddit：可以加入Story、AITAH等社群。
+
+#### 怎么找这些社群？
+
+可以翻译后浏览，下方会有大量相似交流组。
+
+[PRE2]
+
+[PRE3]
+
+[PRE4]
+
+[PRE5]
+
+[PRE6]
+
+常用的一批：
+
+https://www.reddit.com/r/BestofRedditorUpdates/
+
+https://www.reddit.com/r/AITAH/
+
+https://www.reddit.com/r/AmItheAsshole/
+
+https://www.reddit.com/r/TrueOffMyChest/
+
+https://www.reddit.com/r/self/
+
+https://www.reddit.com/r/nosleep/
+
+#### Reddit开头模版：
+
+先看模版长什么样：
+
+[PRE7]
+
+你看到这张图会怎么处理？是截下来抹掉文字头像自己P，还是去稿定设计、Canva找模板？
+
+可以用Figma自制，社区里有现成的Reddit模板，可直接用，只是横版需要自行调成竖版。
+
+[PRE8]
+
+[PRE9]
+
+Figma社区的模板非常全，搜Reddit就能找到，组件也很完整，海外模板有需求的都可以在这里找。
+
+https://www.figma.com/
+
+https://www.figma.com/community ##模版界面
+
+##### 模版功能说明：
+
+[PRE10]
+
+[PRE11]
+
+[PRE12]
+
+其他操作自行研究，可以加图标等个性化修改。
+
+###### 不想改的，这里有我调好的模板可直接用：
+
+https://www.figma.com/community/file/1434129226221600298
+
+#### 解压素材：
+
+可以按我的对标关注一个新号，慢慢刷出新素材，建立自己的素材库。
+
+做好故事号，自建素材库是必备。
+
+#### 文案：
+
+##### 正练：
+
+在Reddit找到的故事，浓缩或改写成60秒内的标准文案
+
+例如这个选题：
+
+[PRE13]
+
+[PRE14]
+
+[PRE15]
+
+[PRE16]
+
+###### 文案拆解：
+
+My uncle used to tell the story of the time my grandfather was bitten by Sydney Funnel Web (highly venomous spider) before the antivenom was in use.
+
+My grandfathers coworkers banaged the hand, and three of them bundleed into a car to get him to a hospital in Syndey (they were in Lithgow). Partway through the journey, they get pulled over by a cop for speeding. The cop waltz's up to the passenger door, thinking he just caught some guys hooning around off work. The cop taps the eindow and asks if they knew what speed they were doing. The passenger in the front responds by holding up a jar with the spider inside and points to my grandfathers bandaged hand. The cops eyes go wide as dinner plates, and he follows up with "Right. Uh....follow me." The cop sprints back to his car, slams on his lights and sirens, and escorts them into Sydney in about half the time it would normally take.
+
+They all thought it was hilarious that the fastest the driver had ever driven was chasing a police car.
+
+我叔叔曾经讲述过我祖父在抗蛇毒血清使用之前被悉尼漏斗网（剧毒蜘蛛）咬伤的故事。
+
+我祖父的同事把他的手绑起来，其中三个人挤进一辆汽车，把他送到辛迪的一家医院（他们在利思高）。在旅途的中途，他们因超速被警察拦下。警察华尔兹走到副驾驶门，以为他刚刚抓到一些人下班后四处游荡。警察轻拍eindow，问他们是否知道他们在以什么速度行驶。前面的乘客举起jar里面有蜘蛛，指着我祖父包扎的手。警察的眼睛睁得像餐盘一样大，他接着说：“好的。呃……跟我来。”警察冲向他的车，猛踩警灯和警笛，用了大约一半的时间护送他们进入悉尼。
+
+他们都觉得很有趣，因为司机曾经开得最快的是追逐警车。
+
+这是个搞笑有趣的段子，梗点在于：
+
+1.  警察以为抓到一群无聊超速的司机，澳洲俚语“hooning around”指鲁莽驾驶，执法姿态很严肃。
+2.  看到致命漏斗网后，警察从执法者变成救援者，甚至带头超速护送。
+3.  结局反转：这群人追着警车飙车，创下人生最快纪录，而这段“违法飙车”竟是警察带头完成的。
+
+执法者带头“违法”的反差，和紧急情况下的人性化处理，构成了笑点。
+
+接下来改写，把精华前置，按新逻辑梳理故事，去重并增加趣味性。
+
+我叔叔总爱分享一个惊心动魄的往事。那天他和两个工友开车带着我祖父去医院，因为一只剧毒蜘蛛在利思戈咬伤了祖父。
+
+My uncle loved sharing this thrilling tale. That day, he and two coworkers were driving my grandfather to hospital, after a venomous spider had struck in Lithgow.
+
+一路狂飙中，警车亮起了警灯。我叔叔说当时他正守着装毒蜘蛛的玻璃瓶，一边留意着后座因疼痛冷汗直流的祖父。
+
+During their rush, police lights flashed behind them. My uncle said he was guarding the glass jar with the toxic spider, while watching my grandfather sweating in pain in the back seat.
+
+"你们知道自己超速多少了吗？"警察凑到车窗边，语气里满是责备。他大概以为遇到了几个无所事事的工人。
+
+"Do you realize how far over the limit you were?" The officer leaned towards the window, his tone full of reproach. He probably thought he'd caught some workers slacking off.
+
+叔叔没开口，只是抬起玻璃瓶，又指向祖父缠着绷带的手。警察的表情瞬间从严肃变成了惊恐。
+
+Uncle stayed silent, just raised the jar and gestured toward grandfather's wrapped hand. The officer's expression instantly shifted from stern to alarmed.
+
+下一秒，警笛长鸣。警车开道，他们一路畅通无阻地冲向悉尼。
+
+The next moment, sirens wailed. With the police car leading, they raced unimpeded toward Sydney.
+
+这个故事最精彩的部分，叔叔说，是他们人生中唯一一次，合法地飙到了最高速 - 还是在警车后面。
+
+The best part, uncle would say, was that their one legal chance to hit top speed - came while following a police car.
+
+###### 改写提示词：
+
+这类文案可以用以下提示词改写：
+
+我需要你帮我改写原文故事，改写规则：[字数控制：新文案字数≤原文字数×1.1] + [结构：精华开篇+细节递进+转折+点题] + [保留：人称关系、核心事件] + [替换：每段最多2个关键词重复，用新鲜比喻和动作描写代替常见表达] + [语言：简练句式，清晰主干]
+
+1\. 明确的字数限制
+
+2\. 必要的改写架构
+
+3\. 核心保留要素
+
+4\. 替换原则
+
+5\. 语言要求
+
+确保改写既保持故事精髓，又避免冗长。
+
+以下是原文，请给我改写后中英文对照：
+
+###### Claude 3.5 和chatgpt4o 分别表现：
+
+[PRE17]
+
+[PRE18]
+
+[PRE19]
+
+[PRE20]
+
+通过对比，可以校验提示词是否跑偏，在不同模型上如何调整。例如Claude会用第三人称，需要在提示词里明确修正，达到理想输出格式。
+
+###### 音频配音：
+
+点击↑↑↑这个跳转 后面涉及到音频配音统一跳转这个板块，不再重复讲解。
+
+逆练文案同理，只是原创和直接借鉴的区别。
+
+##### 逆练：
+
+对标文案改写，按自己的模板生成新内容：
+
+###### 步骤：
+
+先选视频，转录成文案，再改写。
+
+###### 案例实操：
+
+原文：
