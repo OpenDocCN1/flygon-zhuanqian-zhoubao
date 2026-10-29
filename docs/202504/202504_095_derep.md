@@ -1,0 +1,20 @@
+# 用 AI 搭上多维表格，文档产出速度直接起飞
+
+> 原文：[`www.yuque.com/for_lazy/zhoubao/pnogs8st32qzoi4g`](https://www.yuque.com/for_lazy/zhoubao/pnogs8st32qzoi4g)
+
+## AI + 多维表格，让文档生产效率翻十倍
+
+作者：阿路 hh  
+发布时间：2025-03-25
+
+最近跟朋友聊到一个基于多维表格的工作流，本来以为就是个小技巧，没想到对方的反应非常夸张，直接被惊到。
+
+既然有这么大的效果，哪怕能帮到一小撮人也值得发出来。接下来就简单聊聊思路，并且附上实操演示。
+
+具体内容可以看飞书文档：[`dvf2zng5ylz.feishu.cn/docx/LbjcdeQLyoo7Y8x0xe0cEW3knC2`](https://dvf2zng5ylz.feishu.cn/docx/LbjcdeQLyoo7Y8x0xe0cEW3knC2)
+
+* * *
+
+评论区：
+
+执笔 : 自动洗稿这里的第一个提取链接里面怎么填写？没有放出来步骤啊啊大佬，补下吧
