@@ -1,0 +1,25 @@
+# 从零到上架：一个 iOS 新手如何靠 AI 啃下那些“奇葩” Bug
+
+> 原文：[`www.yuque.com/for_lazy/zhoubao/yaayuki9gfzop4i4`](https://www.yuque.com/for_lazy/zhoubao/yaayuki9gfzop4i4)
+
+# 从零到上架：一个 iOS 新手如何靠 AI 啃下那些“奇葩” Bug
+
+作者：小武武
+日期：2025-03-30
+
+航海到中段了，我的第一款 iOS 应用终于成功提交审核。说起来我也只是个彻头彻尾的小白，整段开发旅程踩了不少稀奇古怪的坑，甚至有几次差点怀疑人生。不过每一次卡住、排查、搞定，都在逼着我成长。下面就把我一路遇到的雷区和解法分享出来，希望能给同样在 iOS 路上摸索的朋友一点参考。
+
+先说说用 AI 辅助编程这件事。用 Cursor 这类工具的时候，很多人会有“AI 太笨”的错觉。其实根子大多不在模型，在我们自己。老手用 Swift 或 Objective-C 把想法落字是顺手的，但要用大白话把需求描述精准，反而特别费劲。有时候心里会冒出一个念头：要是我把需求说明白的时间都拿去写代码，程序早写完了。描述含糊的话，AI 吐出来的代码往往跑偏，后续改来改去，最后自己上手重写更快。
+
+更难缠的是碰到报错和崩溃。我们很难用自然语言把一个错误讲清楚。刚入门的同学 Debug 时最常出现的就是“这段代码看起来没问题，为什么就是跑不起来？”的无力感。这种局面下，AI 也常常帮不上忙。真正让调试能力变强的是对 Xcode、Console 日志、错误堆栈的理解，而不是一味去问 AI 该怎么做。
+
+下面我准备拆两个我自己踩过的真实案例，复盘当时是怎么一步步把问题揪出来、解决掉的，希望能帮大家少走点弯路。
+
+更多内容，移步飞书:
+[`calibredigital.feishu.cn/docx/R7Ildyhm1ou5KmxF7tDc0DbXntc?from=from_copylink`](https://calibredigital.feishu.cn/docx/R7Ildyhm1ou5KmxF7tDc0DbXntc?from=from_copylink)
+
+* * *
+
+评论区：
+
+暂无评论
