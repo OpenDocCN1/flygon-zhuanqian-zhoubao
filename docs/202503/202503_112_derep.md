@@ -1,0 +1,30 @@
+# 最近全网都在聊的 MCP 到底是什么？为什么它能让 AI 模型真正“动起来”？
+
+最近圈子里热度飙升的 MCP，又是什么来头？为什么一夜之间这么多人都在讨论它？它又凭什么让 AI 模型的能力得到质变？
+
+简单来说，如果把 AI 模型比作一个聪明的大脑，那么建立在 MCP 协议之上的 Agent，就好比是赋予大脑的一双手脚。模型会思考，但 MCP 让它能真正去行动、去调用外部工具、去完成真实世界的事情。
+
+这个话题现在讨论度非常高，原文的深度解析在这里可以参考：[`www.yuque.com/for_lazy/zhoubao/pxz4f3q64ionz5iu`](https://www.yuque.com/for_lazy/zhoubao/pxz4f3q64ionz5iu)
+
+想系统搞懂 MCP 的原理和应用逻辑，可以看这篇完整拆解：[`pk0zg2jkji.feishu.cn/docx/GAGFdqAL2oBfzJxFrASc8ewUn1b?from=from_copylink&reRdXZ;=1`](https://pk0zg2jkji.feishu.cn/docx/GAGFdqAL2oBfzJxFrASc8ewUn1b?from=from_copylink&reRdXZ;=1)
+
+作者：hepingfly  
+发布日期：2025-03-14  
+点赞数：52
+
+---
+
+评论区热度也说明大家都在关注这波变化：
+
+Katao : 这两天刚好也在研究这个协议…给你👍  
+hepingfly : 一起进步[握手]
+
+念明 : 牛逼👍  
+hepingfly : [抱拳]
+
+蓝小俊 : 写得好  
+hepingfly : 谢谢[啤酒]
+
+就叫骷髅 kull : 太牛了
+
+奋斗蟹老板 : 很清晰，正好想了解，感谢。
