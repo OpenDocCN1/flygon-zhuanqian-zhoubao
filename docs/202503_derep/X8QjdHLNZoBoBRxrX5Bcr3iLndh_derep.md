@@ -1,0 +1,11 @@
+# 如何快速完成船员邀请
+
+> 来源：[https://q2wnncqnyh.feishu.cn/docx/X8QjdHLNZoBoBRxrX5Bcr3iLndh](https://q2wnncqnyh.feishu.cn/docx/X8QjdHLNZoBoBRxrX5Bcr3iLndh)
+
+想把流程走得更快更顺，关键就在于工具的搭配顺序。建议先把 QQ 浏览器装好，然后再进行微信的安装。
+
+![](img/78cb5c2fcbdc71e0937255fe5dcd4b9a.png)
+
+这样全部步骤都集中在一个界面里展开，不需要来回跳转，操作体验非常顺手。
+
+![](img/273c97e76cf6bc9162d080f81fed4bbe.png)

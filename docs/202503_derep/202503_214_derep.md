@@ -1,0 +1,26 @@
+# 两个月从零到 YouTube YPP 并拿到银牌奖杯
+
+原帖：[`www.yuque.com/for_lazy/zhoubao/ihlyrwvyf79num9a`](https://www.yuque.com/for_lazy/zhoubao/ihlyrwvyf79num9a)
+
+## 【精华】两个月拿下 YouTube 合作伙伴计划和 10 万订阅银奖牌
+
+作者：硬核花生
+时间：2025-03-03
+
+各位朋友好，我是花生。在生财混了两年多，一直想靠副业给生活减压。时间精力都捉襟见肘，之前参加过几次航海行动，都没能坚持下来。
+
+转机出现在去年。亦仁老大在写《超级标》的过程中提到一个数字：宝宝巴士只是把自家视频搬到 YouTube 上，一年广告分成就高达 5000 万美金。这个信息点直接点燃了我。随后在去年 12 月，生财上线了新的航海项目，我毫不犹豫就报名了。
+
+现在把阶段性成果同步一下：加入航海后一个半月就通过了 YPP 审核，开启收益后二十多天收入就达到了 900 美元，顺带意外拿到了 YouTube 官方寄来的 10 万订阅银质奖牌。
+
+完整复盘我整理在了飞书文档里：[`p7pqvd4m3c.feishu.cn/docx/NsdjdAagDo9x9sxhrv3crml6nUc?from=from_copylink&reRdXZ;=1`](https://p7pqvd4m3c.feishu.cn/docx/NsdjdAagDo9x9sxhrv3crml6nUc?from=from_copylink&reRdXZ;=1)
+
+* * *
+
+评论区精选：
+
+亦仁：星球里第一个公开晒 YouTube 奖牌的，具有里程碑意义
+
+上上签：有点被撬动了
+
+Edward：厉害。B 站式微后，YouTube 的奖牌含金量真的高，懂的人都清楚

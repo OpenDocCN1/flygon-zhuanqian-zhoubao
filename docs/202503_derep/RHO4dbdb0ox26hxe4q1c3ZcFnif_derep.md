@@ -1,0 +1,35 @@
+# 围炉夜谈：我与梁小A（书法行业）
+
+> 来源：[https://jx8j59ahkjb.feishu.cn/docx/RHO4dbdb0ox26hxe4q1c3ZcFnif](https://jx8j59ahkjb.feishu.cn/docx/RHO4dbdb0ox26hxe4q1c3ZcFnif)
+
+这一轮围炉夜谈里，大家把自己的实战心得摊开了聊，焦点都集中在教育赛道上。从虚拟资料的变现路径，到K12的变革动向，再到线上课程的产品搭建、社群的日常运营，以及个人的创业试错，话题覆盖面很广。
+
+一个共识被反复提及：内容能不能打，是生死线。做课程先别追求满分完美，但及格线要拉到70分以上，之后靠持续打磨迭代去吸客留客。光有好内容不够，社群的定价也要敢于灵活，找准用户能接受的甜点价，从而拉升兴趣和付费转化。社群别做成摆设，活动要做实、做透，让参与者觉得值，回本甚至倍增。
+
+项目选择只是起点，真正能走远的，是搞懂这门生意怎么赚钱，并把自己沉淀成行业的明白人。产品这件事上，精细化打磨比堆砌噱头重要十倍。找准用户真实痛点，做成刚需型供给，转化自然会上去，用户口碑也会跟上。
+
+展望下一步，大家的思考趋同：先稳住基本盘，再去做增量。把后端的交付体系梳理顺畅，提高复购和口碑裂变。同时，AI工具如何提效、借力社交平台做分发、如何给自己做清晰的行业定位，以及教育市场未来的走向，也都是讨论里不可回避的议题。
+
+通义：https://lxblog.com/efficiency/U/bMJCP21pRX9H1wii2ajED6uox4JQKijU（电脑打开）
+
+![](img/436a8a73b99ac1c972a698e4e064a4ac.png)
+![](img/b116fe4916aed98832fb7cf59f683973.png)
+![](img/b64c5c2b8fb878e6a4250a54f2570166.png)
+![](img/a73c646eb130cd8f900ff00914acbc64.png)
+![](img/ed3b334ef9ac077be9abc3b34ef5374e.png)
+![](img/c13ce530ab4623f4aecc85aacb2c78ce.png)
+![](img/e022696f7e14b32d62407eacff70ac09.png)
+![](img/1052e66fd71afe8ab831586ecfba6664.png)
+![](img/963bdf0c0ad784e5a7d977f0dcb9a5da.png)
+![](img/ea8874d1f9b07b75fb8eeb496f752c56.png)
+![](img/87a16a890fcf61a028a328cd4eb6e7be.png)
+![](img/9f623efeb3a95a5dbfac78dc591e28b2.png)
+![](img/ec70232055f101b73f1cb931b4ba0063.png)
+![](img/f2b4d99c648be7386950a982ddd91316.png)
+![](img/500b1863b303022fce438e38c08102fe.png)
+![](img/ec7ef7fe02f5aa0cefed33d083bf324c.png)
+![](img/6eba3a4c13c344a3c5781b206fc091e8.png)
+![](img/d23314196ad79058f4005842bc17c035.png)
+![](img/14db334811f2dcec1298f1c181b1a75d.png)
+![](img/33e6a9d1e4865d5b5f1e8a3b2f6c2930.png)
+![](img/bb4f0815723a773f506eb183599462a1.png)
