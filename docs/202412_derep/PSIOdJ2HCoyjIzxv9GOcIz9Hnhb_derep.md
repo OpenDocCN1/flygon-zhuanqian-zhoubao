@@ -2,7 +2,7 @@
 
 AI复制网站如此简单？CopyCoder + Bolt 三句话搞定！
 
-大家好，我是那个总在生财圈子里默默潜水、偷偷学习的小透明——路过蜻蜓。今天鼓起勇气，来跟大家分享一个最近玩得特别上头的骚操作：如何借助 CopyCoder 和 Bolt 这两个 AI 工具，几乎零成本地把一个网站“复制”下来。你没听错，三句话就够。
+大家好，我是那个总在赚钱圈子里默默潜水、偷偷学习的小透明——路过蜻蜓。今天鼓起勇气，来跟大家分享一个最近玩得特别上头的骚操作：如何借助 CopyCoder 和 Bolt 这两个 AI 工具，几乎零成本地把一个网站“复制”下来。你没听错，三句话就够。
 
 先给大家看看我最终做出来的成品效果：https://exquisite-donut-20454b.netlify.app
 
@@ -196,7 +196,7 @@ Create me a complete route structure for the Next.js app router, implementing la
 
 ![](img/857b2fdf9978e0477707f3307d430887.png)
 
-再稍微延伸一下，这个思路不仅能复制网页，还能用来写别的工具。我自己就用 Cursor 和 Windsurf 做过不少小项目。比如因为报名了生财的 YouTube 航海，顺便做了一个带登录注册功能的网站：http://www.maotools.org
+再稍微延伸一下，这个思路不仅能复制网页，还能用来写别的工具。我自己就用 Cursor 和 Windsurf 做过不少小项目。比如因为报名了赚钱的 YouTube 航海，顺便做了一个带登录注册功能的网站：http://www.maotools.org
 
 ![](img/57099b70d0d7e8653cc1d1a61aa0fba0.png)
 ![](img/e9c29603ed162b20ee7bb8287926e292.png)

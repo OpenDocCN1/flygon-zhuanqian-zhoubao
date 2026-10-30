@@ -26,7 +26,7 @@
 
 下面说下怎么用 web 端 API 拿数据。
 
-之前生财的 AI 编程课里有类似的爬虫模块，航海手册也写过不少，这里不重复。以 List 接口为例：打开你要监控的 List，按 F12 打开控制台，在页面上随便找一段文字复制（比如我找的是“Open science is”），然后在控制台按 Ctrl+F 搜索这段文字，就能定位到返回推文数据的接口——它叫 `ListLatestTweetsTimeline`。
+之前赚钱的 AI 编程课里有类似的爬虫模块，航海手册也写过不少，这里不重复。以 List 接口为例：打开你要监控的 List，按 F12 打开控制台，在页面上随便找一段文字复制（比如我找的是“Open science is”），然后在控制台按 Ctrl+F 搜索这段文字，就能定位到返回推文数据的接口——它叫 `ListLatestTweetsTimeline`。
 
 ![](img/c36ecefc12e27ac7f64beb6509ded33a.png)
 

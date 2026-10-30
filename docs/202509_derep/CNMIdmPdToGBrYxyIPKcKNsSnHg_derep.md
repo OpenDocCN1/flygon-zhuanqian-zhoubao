@@ -12,7 +12,7 @@
 
 ### APIcore是什么
 
-简单来说，这是生财圈友“书虫”自己搭的一个API中转站。网址放这儿：https://api.apicore.ai
+简单来说，这是赚钱圈友“书虫”自己搭的一个API中转站。网址放这儿：https://api.apicore.ai
 
 ![](img/b40a69442f0644377904df870ecccf65.png)
 

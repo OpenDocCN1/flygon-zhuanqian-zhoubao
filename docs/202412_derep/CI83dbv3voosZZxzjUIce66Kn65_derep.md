@@ -2,7 +2,7 @@
 
 > 来源：[https://xqya1zd76f2.feishu.cn/docx/CI83dbv3voosZZxzjUIce66Kn65](https://xqya1zd76f2.feishu.cn/docx/CI83dbv3voosZZxzjUIce66Kn65)
 
-大家好，我是竹子，生财节目策划人，也在带12月YouTube航海营。
+大家好，我是竹子，赚钱节目策划人，也在带12月YouTube航海营。
 
 这篇笔记的灵感来自社群里的一个风向标账号，因为我长期在AI赛道，第一眼看到就觉得，这类号用AI来打简直太顺手了！非常感谢这位圈友提供的灵感，让我能迅速把方法整理出来～
 

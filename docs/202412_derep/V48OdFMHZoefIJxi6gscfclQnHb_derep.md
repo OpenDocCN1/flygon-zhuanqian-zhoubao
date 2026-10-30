@@ -120,7 +120,7 @@ AI生成出来的音频，听起来确实很像真人，但有个问题：需要
 
 ### 6、看知识星球
 
-如果你加入了付费的AI知识星球，也可以多看看里面的内容。拿生财有术举例，网页版（https://scys.com/search?query=zz8LD8ZUnw158c3YZtruXhdFKxvZe1UrHGjKTk964ZoqqbQEpm1N4N2）搜AI，点“精华”和“中标”，就能淘到很多干货。
+如果你加入了付费的AI知识星球，也可以多看看里面的内容。拿赚钱有术举例，网页版（https://scys.com/search?query=zz8LD8ZUnw158c3YZtruXhdFKxvZe1UrHGjKTk964ZoqqbQEpm1N4N2）搜AI，点“精华”和“中标”，就能淘到很多干货。
 
 ![](img/4174a1ec873818d722e51bf5b05c6b8f.png)
 
@@ -258,12 +258,12 @@ AI能让强者更强，帮我们省下大量时间和精力。哪怕你不打算
 
 大家一起搞钱，冲冲冲！
 
-附上我在生财有术的往期作品：
+附上我在赚钱有术的往期作品：
 
 1、手把手教你如何成为小红书小说博主  
 https://scys.com/articleDetail/xq_topic/184218548821282
 
-2、我用生财教我的方法做短剧  
+2、我用赚钱教我的方法做短剧  
 https://scys.com/articleDetail/xq_topic/584514518515224
 
 往期视频：如何做短剧推广视频  

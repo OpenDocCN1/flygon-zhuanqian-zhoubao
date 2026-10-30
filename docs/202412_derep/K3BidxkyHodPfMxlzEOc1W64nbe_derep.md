@@ -26,7 +26,7 @@
 
 ![](img/871008d675885f13d9cea942f27bf51d.png)
 
-数据采集这块算是唯一没在这次用 Cursor 现写的部分——之前写那两篇采集文章，正好覆盖了亦仁老大提过的第一个超级标的公众号和推特详情数据，就把那边的逻辑直接搬过来了。采回来的原始数据可以一键 AI 改写，再顺手扔进素材库。
+数据采集这块算是唯一没在这次用 Cursor 现写的部分——之前写那两篇采集文章，正好覆盖了龙哥老大提过的第一个超级标的公众号和推特详情数据，就把那边的逻辑直接搬过来了。采回来的原始数据可以一键 AI 改写，再顺手扔进素材库。
 
 之前分享的采集文章：https://ia0969wpr2.feishu.cn/docx/UCQMd2zt0oZIJuxiPhec5ugAnsh  
 https://ia0969wpr2.feishu.cn/docx/VF9xdLsdQoTjqWxTM2PcszOqnPb

@@ -115,4 +115,4 @@ https://www.winrobot360.com/share/activity?inviteUserUuid=5cd282a5-32eb-426f-ad5
 
 做 RPA 的、做短视频带货的、做直播带货的朋友，欢迎交流，微信：cooperhgp。
 
-老规矩，加我时备注“生财有术”~
+老规矩，加我时备注“赚钱有术”~

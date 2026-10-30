@@ -2,7 +2,7 @@
 
 > 来源：[https://wfftwwt027.feishu.cn/docx/C5SedRs3LoSnOex9xDFc9Cvgnff](https://wfftwwt027.feishu.cn/docx/C5SedRs3LoSnOex9xDFc9Cvgnff)
 
-大家好，我是珍妮，这次的思路和生财圈陈铭Ivy一起打磨出来的，她的精华帖在这里：https://t.zsxq.com/12tvEOFgZ 感兴趣可以看看。
+大家好，我是珍妮，这次的思路和赚钱圈陈铭Ivy一起打磨出来的，她的精华帖在这里：https://t.zsxq.com/12tvEOFgZ 感兴趣可以看看。
 
 我们聚焦教育赛道，核心是留学这条线。22年给第三方机构做过1500万GMV，自营也做了160万+。到今年8月前，团队只做两件事，只走小红书。A业务3个全职+1个兼职，B业务1个兼职+2个外籍全职+一堆中英临时兼职，再加上我和Ivy，核心就9个人。
 

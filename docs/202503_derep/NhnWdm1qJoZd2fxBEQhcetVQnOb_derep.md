@@ -2,7 +2,7 @@
 
 > 来源：[https://d6ua7sbe4d.feishu.cn/docx/NhnWdm1qJoZd2fxBEQhcetVQnOb](https://d6ua7sbe4d.feishu.cn/docx/NhnWdm1qJoZd2fxBEQhcetVQnOb)
 
-大家好，生财的伙伴们。
+大家好，赚钱的伙伴们。
 
 我是七鹿，曾经在国内上市科技公司负责产品，现在是七只鹿游戏的联合创始人，这一年一直在做H5小游戏出海。
 

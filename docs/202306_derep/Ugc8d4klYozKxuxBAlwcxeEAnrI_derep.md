@@ -96,7 +96,7 @@ https://chrome.google.com/webstore/detail/harpa-ai-chatgpt-chrome-a/eanggfilgoaj
 
 ![](img/bbe396454f5212deb7c4e8a28b19c51c.png)
 
-### 2、拆解精华帖“从失败到成功变现，生财新人成功变现四位数的航海收获”
+### 2、拆解精华帖“从失败到成功变现，赚钱新人成功变现四位数的航海收获”
 链接：https://t.zsxq.com/0eLACqAK5
 
 ![](img/10c03ba43643574cdd5b6759436f5583.png)

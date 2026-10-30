@@ -2,7 +2,7 @@
 
 > 来源：[https://gpbr9zf6b9.feishu.cn/docx/DEF5dOfXgoPWkgxD74mcb5SqnUh](https://gpbr9zf6b9.feishu.cn/docx/DEF5dOfXgoPWkgxD74mcb5SqnUh)
 
-大家好，我是浩少，生财入圈还没满一年，参与过两届公众号爆文航海，成绩中规中矩，近期主攻 YouTube Shorts。
+大家好，我是浩少，赚钱入圈还没满一年，参与过两届公众号爆文航海，成绩中规中矩，近期主攻 YouTube Shorts。
 
 关于 Shorts 项目的整体打法，可以回看 2024 年 12 月的航海手册，里面覆盖了新手几乎会遇到的一切坑。今天只聚焦达人秀赛道里一个非常吃香的题材——一个人从小到老边舞边变老的视频，怎么实现复刻。思路很直接，按流程走就能上手，纯属个人经验分享。
 
@@ -32,7 +32,7 @@ HitPaw Watermark Remover图片视频智能去除水印软件
 
 核心工作是为每个年龄段挑一张代表性画面。懒人用法是老马教练的场景拆解工具，也能自己看完视频手动截图，方便怎么来都行。
 
-生财圈友专属视频场景拆解工具.rar
+赚钱圈友专属视频场景拆解工具.rar
 链接：https://pan.baidu.com/s/1AJrJIX4DLudvbneAhMQPIA?pw...
 提取码：62j4
 

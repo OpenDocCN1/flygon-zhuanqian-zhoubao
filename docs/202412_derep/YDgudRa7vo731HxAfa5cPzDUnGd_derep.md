@@ -44,7 +44,7 @@
 
 * * *
 
-1. 爆款型超级单品，例如此前刷屏的“背背佳”[生财圈友@饲养园 风向标引用]
+1. 爆款型超级单品，例如此前刷屏的“背背佳”[赚钱圈友@饲养园 风向标引用]
 
 ![](img/2e8a6ff62927fd0b57c6ebea9a61450c.png)
 
@@ -209,7 +209,7 @@ B.高级去重：Coze接入飞书实现自动化改写
 
 ## 1.影刀自学入口
 
-1.生财航海：https://scys.com/view/docx/JFr3d0suxoUH6dxLkyycF9nYnPN
+1.赚钱航海：https://scys.com/view/docx/JFr3d0suxoUH6dxLkyycF9nYnPN
 2.影刀学院：https://college.yingdao.com/lesson
 
 * * *

@@ -166,7 +166,7 @@ ChatGPT 与 Claude 用法类似，按常规流程即可。
 
 ![](img/273e0255e3530f399e0d516204791c26.png)
 
-Prompt 来自枫晓陌在生财的分享，感谢。
+Prompt 来自枫晓陌在赚钱的分享，感谢。
 
 notebooklm 中间输出示例：
 
@@ -414,11 +414,11 @@ https://microsoftedge.microsoft.com/addons/detail/%E6%B2%89%E6%B5%B8%E5%BC%8F%E7
 
 关于资料搜集，主要的信息源有两个方向：
 
-## 生财有术
+## 赚钱有术
 
 * 2022年6月发布的YouTube航海资料，其中航海手册和高手领航直播答疑，对新人建立认知和快速解惑帮助很大。
 https://scys.com/activity/landing/before?id=132
-* 书情大佬整理的生财有术内关于YouTube的相关帖子合集。
+* 书情大佬整理的赚钱有术内关于YouTube的相关帖子合集。
 https://scys.com/articleDetail/xq_topic/211854441415841
 
 ## YouTube

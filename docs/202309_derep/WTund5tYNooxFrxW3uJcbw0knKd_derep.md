@@ -38,4 +38,4 @@ https://azure.microsoft.com/zh-cn/free
 ![](img/ba5a02260f05beea761aac230e6ecdc2.png)
 以上就是完整的 Azure 免费配音实操流程了。这是我的第一次教程撰写，难免有疏漏之处，欢迎大家指正补充，有任何疑问也欢迎留言交流。
 
-祝各位创作顺利，生财有道
+祝各位创作顺利，赚钱有道

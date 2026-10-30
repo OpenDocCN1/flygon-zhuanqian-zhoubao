@@ -2,7 +2,7 @@
 
 > 来源：[https://ywvkyh9wtq.feishu.cn/docx/OcaKd4cw3oylcFxpFrmc1ZovnLu](https://ywvkyh9wtq.feishu.cn/docx/OcaKd4cw3oylcFxpFrmc1ZovnLu)
 
-参加过几次生财的线下聚会，好几位朋友都问过我同一个问题：怎么做到业务被砍完了还能全身而退，还拿满补偿。
+参加过几次赚钱的线下聚会，好几位朋友都问过我同一个问题：怎么做到业务被砍完了还能全身而退，还拿满补偿。
 
 说实话，他们看我眼神里的那股渴望，我只在十几年前支教时见过🤦‍♂️
 

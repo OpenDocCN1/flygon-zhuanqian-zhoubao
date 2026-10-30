@@ -2,7 +2,7 @@
 
 > 来源：[https://y3my0b87ql.feishu.cn/docx/BLUAdCjefoXZuzxkXUVcT0uwn1g](https://y3my0b87ql.feishu.cn/docx/BLUAdCjefoXZuzxkXUVcT0uwn1g)
 
-做YouTube Shorts，最头疼的就是视频质量不稳定。为了让生财圈友少走弯路，我干脆把市面上的主流视频模型都拉出来遛了一圈，结合赛道精选帖和各大评测，再加上自己的实际体验，今天直接给结论。
+做YouTube Shorts，最头疼的就是视频质量不稳定。为了让赚钱圈友少走弯路，我干脆把市面上的主流视频模型都拉出来遛了一圈，结合赛道精选帖和各大评测，再加上自己的实际体验，今天直接给结论。
 
 先说结论：**我推荐快手的可灵1.0 API**，代码已经封装好了，填上自己的token就能直接跑，省心省力。
 

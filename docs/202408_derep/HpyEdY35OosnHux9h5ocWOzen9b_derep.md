@@ -2,7 +2,7 @@
 
 > 来源：[https://d1jpewyavi.feishu.cn/docx/HpyEdY35OosnHux9h5ocWOzen9b](https://d1jpewyavi.feishu.cn/docx/HpyEdY35OosnHux9h5ocWOzen9b)
 
-生财圈的伙伴们好，我是老旺。久等了，今天的拆解来了。
+赚钱圈的伙伴们好，我是老旺。久等了，今天的拆解来了。
 
 最近《黑神话：悟空》的流量直接炸裂，我也赶着这波热度写了这篇干货，帮大家多角度看热度、找思路，在流量和变现上多拿一点额外收益。
 

@@ -2,7 +2,7 @@
 
 > 来源：[https://i2mok5xev6.feishu.cn/docx/Y0hGduYtnot9WIxB1excr6S0nde](https://i2mok5xev6.feishu.cn/docx/Y0hGduYtnot9WIxB1excr6S0nde)
 
-大家好，我是Hugh，在生财混了一年多。今年2月起全职all in视频号带货，到现在单品类GMV已突破25w，净利润15w+。下面这几个核心账号的成交表现，大家可以参考。
+大家好，我是Hugh，在赚钱混了一年多。今年2月起全职all in视频号带货，到现在单品类GMV已突破25w，净利润15w+。下面这几个核心账号的成交表现，大家可以参考。
 
 ![](img/83d01af7df4fd06a9414afd3e6eac9f5.png)
 

@@ -253,7 +253,7 @@ dic = {key1 : value1, key2 : value2 }
 
 如果你也对影刀 RPA 感兴趣，欢迎来一起唠唠～我是 Leeka，持续研究 RPA。点赞过 100，下篇帖子马上安排。
 
-V：Leeka56（备注：生财，会更快通过哟！）
+V：Leeka56（备注：赚钱，会更快通过哟！）
 
 ## 更多 Leeka 的 RPA 玩法
 

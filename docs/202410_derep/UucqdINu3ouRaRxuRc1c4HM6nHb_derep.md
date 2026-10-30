@@ -2,7 +2,7 @@
 
 > 来源：[https://jwc04jmpug6.feishu.cn/docx/UucqdINu3ouRaRxuRc1c4HM6nHb](https://jwc04jmpug6.feishu.cn/docx/UucqdINu3ouRaRxuRc1c4HM6nHb)
 
-各位好，我叫巧克力，7月11号才正式成为生财的一员，纯纯的新面孔。
+各位好，我叫巧克力，7月11号才正式成为赚钱的一员，纯纯的新面孔。
 
 承蒙团队抬爱给了这次亮相的机会，我想把自己的实操过程摊开来聊一聊。假如你同样刚进圈、对虚拟资料这条线有兴趣却迟迟没迈出第一步，但愿我这点经验能帮你撬开一道缝。
 

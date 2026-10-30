@@ -111,7 +111,7 @@ n8n的工作流本质上是JSON文件，所以我们能看到很多模板可以�
 六、学习资料自取
 
 最后，把我整理的一些n8n相关资料分享出来：
-- 生财的n8n相关帖子
+- 赚钱的n8n相关帖子
 - n8n自动化剪辑思路：https://poe.com/chat/loh4ox79tpg1rg5num
 - n8n+飞书自动化：https://mp.weixin.qq.com/s/NpXu6lNRhhYd5JUyhH7X0g
 - 袋鼠帝AI客栈n8n合集：https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzkwMzE4NjU5NA==&action=getalbum&album_id=3931445404583133190&scene=126&sessionid=408581405#wechat_redirect

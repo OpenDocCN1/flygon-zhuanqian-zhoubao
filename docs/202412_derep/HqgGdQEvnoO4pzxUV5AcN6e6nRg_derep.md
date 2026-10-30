@@ -209,11 +209,11 @@ https://www.tiktok.com/@animaldance0711/video/7421795597981601042
 
 之前还分享过几个实操技能，感兴趣的可以继续研究：
 
-【生财技能】AI动物故事视频复刻与批量生产
+【赚钱技能】AI动物故事视频复刻与批量生产
 https://wx.zsxq.com/group/1824528822/topic/2858241444858581
 
-【生财技能】抛弃显卡！ComfyUI+Flux 纯网页跑图喂饭级教程
+【赚钱技能】抛弃显卡！ComfyUI+Flux 纯网页跑图喂饭级教程
 https://wx.zsxq.com/group/1824528822/topic/4848244528852218
 
-【生财技能】海螺AI图生视频如何用RPA提升10倍速高效产出视频？
+【赚钱技能】海螺AI图生视频如何用RPA提升10倍速高效产出视频？
 https://wx.zsxq.com/group/1824528822/topic/2858211254588441

@@ -2,7 +2,7 @@
 
 > 来源：[https://k8274sonr5.feishu.cn/docx/N3ZQdjlgQouy79xPITHcFEVun7k](https://k8274sonr5.feishu.cn/docx/N3ZQdjlgQouy79xPITHcFEVun7k)
 
-这篇复盘最初只是想给自己收个尾，记录一次 Cursor 航海的体感。后来因为几篇阶段性日志被教练@蘑菇 和领队@海伦 看到并邀请正式复盘，我就把航海期间积累的 Cursor 实操经验补了进来。把它当成 Cursor 航海手册的延伸材料来看就行，希望能让正在学或准备学 Cursor 的生财伙伴少走一些弯路。
+这篇复盘最初只是想给自己收个尾，记录一次 Cursor 航海的体感。后来因为几篇阶段性日志被教练@蘑菇 和领队@海伦 看到并邀请正式复盘，我就把航海期间积累的 Cursor 实操经验补了进来。把它当成 Cursor 航海手册的延伸材料来看就行，希望能让正在学或准备学 Cursor 的赚钱伙伴少走一些弯路。
 
 * * *
 

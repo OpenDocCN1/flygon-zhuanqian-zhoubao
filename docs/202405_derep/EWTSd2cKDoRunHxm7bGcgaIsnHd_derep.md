@@ -2,7 +2,7 @@
 
 > 来源：[https://riupvml5qjl.feishu.cn/docx/EWTSd2cKDoRunHxm7bGcgaIsnHd](https://riupvml5qjl.feishu.cn/docx/EWTSd2cKDoRunHxm7bGcgaIsnHd)
 
-大家好，我是轻舟。在生财混了快一年半了，摸过的赛道不在少数，但如果让我给刚起步的朋友选一个最容易跑通0-1的方向，我会毫不犹豫推荐AI写作。
+大家好，我是轻舟。在赚钱混了快一年半了，摸过的赛道不在少数，但如果让我给刚起步的朋友选一个最容易跑通0-1的方向，我会毫不犹豫推荐AI写作。
 
 算一下时间，我做这个方向刚好到第三个月。两个月下来，背着的20万债务已经还掉了5万，还剩15万。能找到一条真正适合自己的路，真的要谢谢这个圈子。
 

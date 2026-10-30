@@ -2,7 +2,7 @@
 
 > 来源：[https://tpsqdzww1o.feishu.cn/docx/NBxRd0I9No8mtyxYUJgcilkgnWd](https://tpsqdzww1o.feishu.cn/docx/NBxRd0I9No8mtyxYUJgcilkgnWd)
 
-大家好，我是王百万。山东青岛人，今年四月才正式加入生财。
+大家好，我是王百万。山东青岛人，今年四月才正式加入赚钱。
 
 说实话，入圈之前我挺膨胀的。在我认识的同龄人里，我觉得自己已经算混得不错了。结果一进来，看到一群年入百万、月入几十万的大哥大姐，我的自满直接被拍碎了。刘姥姥进大观园的既视感，瞬间清醒。
 

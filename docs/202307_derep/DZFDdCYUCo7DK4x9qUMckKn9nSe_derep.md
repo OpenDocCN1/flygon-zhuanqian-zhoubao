@@ -2,7 +2,7 @@
 
 > 来源：[https://uklrrqhpyq.feishu.cn/docx/DZFDdCYUCo7DK4x9qUMckKn9nSe](https://uklrrqhpyq.feishu.cn/docx/DZFDdCYUCo7DK4x9qUMckKn9nSe)
 
-各位朋友好，我是乔橘，继续聊生财。
+各位朋友好，我是乔橘，继续聊赚钱。
 
 上回跟大家拆解的 00 后用盲盒交友 30 天赚 23 万的案例，被选为精华。配方还在，味道变了。这次是我最近两周实测的新打法，项目正处上升期，立刻整理出来跟大家同步。
 
@@ -172,4 +172,4 @@
 
 最后，别再等明天了，现在就打开抖音剪辑发布。
 
-一起生财有术~
+一起赚钱有术~

@@ -2,7 +2,7 @@
 
 > 来源：[https://m08zlw24sg0.feishu.cn/docx/CgBSdyEDooCZ75xOsafc0CsunYy](https://m08zlw24sg0.feishu.cn/docx/CgBSdyEDooCZ75xOsafc0CsunYy)
 
-11月底，亦仁在我的笔记下方留言，希望我针对小红书广告变现做一次拆解，我觉得这个方向很有价值，于是启动了。
+11月底，龙哥在我的笔记下方留言，希望我针对小红书广告变现做一次拆解，我觉得这个方向很有价值，于是启动了。
 
 实操起来才知道难度不小，我前后投入了二十多小时，手动梳理了近1800位博主的蒲公英后台数据，才把基础表格跑通。
 

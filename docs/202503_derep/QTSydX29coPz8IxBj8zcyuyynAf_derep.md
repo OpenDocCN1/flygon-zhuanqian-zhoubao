@@ -2,7 +2,7 @@
 
 > 来源：[https://dmrbcelpjz.feishu.cn/docx/QTSydX29coPz8IxBj8zcyuyynAf](https://dmrbcelpjz.feishu.cn/docx/QTSydX29coPz8IxBj8zcyuyynAf)
 
-大家好，我是Longer，专注生财有术 RPA 教学。
+大家好，我是Longer，专注赚钱有术 RPA 教学。
 
 今天拆解一波近期涨粉极快的养生垂类玩法。
 

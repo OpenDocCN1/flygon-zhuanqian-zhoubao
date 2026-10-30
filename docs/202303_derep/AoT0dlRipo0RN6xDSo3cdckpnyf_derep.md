@@ -2,7 +2,7 @@
 
 > 来源：[https://tgxl0sxo7f.feishu.cn/docx/AoT0dlRipo0RN6xDSo3cdckpnyf](https://tgxl0sxo7f.feishu.cn/docx/AoT0dlRipo0RN6xDSo3cdckpnyf)
 
-大家好，我是吉果，插画师，也是被迫营业的生财透明人。最近朋友圈又多了一个身份标签：艺术二维码设计师。
+大家好，我是吉果，插画师，也是被迫营业的赚钱透明人。最近朋友圈又多了一个身份标签：艺术二维码设计师。
 
 这个标签是怎么来的？说起来有点偶然。最近在整理旧图翻到自己很早之前做的艺术二维码，当天朋友圈没啥内容可发，随手就丢了上去。
 

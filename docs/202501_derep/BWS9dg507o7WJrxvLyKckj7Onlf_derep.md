@@ -2,7 +2,7 @@
 
 > 参考原文：[https://pwlr18sdky7.feishu.cn/docx/BWS9dg507o7WJrxvLyKckj7Onlf](https://pwlr18sdky7.feishu.cn/docx/BWS9dg507o7WJrxvLyKckj7Onlf)
 
-亦仁前阵子用一颗龙珠悬赏 AI 编程做产品的实践者，恰好我刚靠纯 AI 协作把一个 Chrome 扩展送上了商店，全程零手写代码。这个契机让我想把整套流程整理成 SOP，供圈友参考。
+龙哥前阵子用一颗龙珠悬赏 AI 编程做产品的实践者，恰好我刚靠纯 AI 协作把一个 Chrome 扩展送上了商店，全程零手写代码。这个契机让我想把整套流程整理成 SOP，供圈友参考。
 
 ## 一、SOP 总览
 

@@ -1,6 +1,6 @@
 自由职业入门手册：先别急着辞职，看看你适不适合
 
-今天想和你聊一份很有分量的实操手册——《自由职业者入门手册》。它来自一位深圳的99年知识管理专家，江湖人称“生财课代表”的七小。七小擅长把碎片信息整合成知识产品，这份手册就是他帮你梳理出的自由职业避坑指南。![](img/e7002d640c4b2671eab7a071c079ad5e.png)
+今天想和你聊一份很有分量的实操手册——《自由职业者入门手册》。它来自一位深圳的99年知识管理专家，江湖人称“赚钱课代表”的七小。七小擅长把碎片信息整合成知识产品，这份手册就是他帮你梳理出的自由职业避坑指南。![](img/e7002d640c4b2671eab7a071c079ad5e.png)
 
 手册的打开方式很清晰：如果你对自由职业还停留在道听途说的层面，先从“你适不适合”看起；如果你已经决定踏上这条路，后面还有赚钱逻辑、发展路径、财务社保、生活系统和项目资源。可以说，从萌生想法到真正落地，每一个环节都有人替你踩过坑。无论你是初来乍到，想凭兴趣做点小尝试，还是想升级为超级个体、甚至组建自己的团队，这里都有对应的阶段可以参考。
 
@@ -264,6 +264,6 @@
 
 只要在路上，哪怕暂时不赚钱，你也一定在成长。这些经验和教训，跨平台、跨行业都能复用。等你发现自己能把一套逻辑挪到任何地方，你还有什么好焦虑的？每天只需问自己一个问题：今天比昨天进步了一点点吗？有，就值得开心。
 
-最后，关于去哪找项目。除了生财项目库之外，国内有不少自由职业社区和远程招聘平台，比如甜薪工场、电鸭、由己、云队友、圆领等，网址分别是：txgc.com、eleduck.com、7working.com、duiyou360.com、superthem.com。国外也有成熟的市场：Toptal、Fiverr、Guru、Upwork、FlexJobs、Freelancer等，网址分别是：toptal.com、fiverr.com、guru.com、growtal.com、upwork.com、flexjobs.com、freelancer.com，还有一个面向女性自由职业者的平台：jobs.freelancingfemales.com。
+最后，关于去哪找项目。除了赚钱项目库之外，国内有不少自由职业社区和远程招聘平台，比如甜薪工场、电鸭、由己、云队友、圆领等，网址分别是：txgc.com、eleduck.com、7working.com、duiyou360.com、superthem.com。国外也有成熟的市场：Toptal、Fiverr、Guru、Upwork、FlexJobs、Freelancer等，网址分别是：toptal.com、fiverr.com、guru.com、growtal.com、upwork.com、flexjobs.com、freelancer.com，还有一个面向女性自由职业者的平台：jobs.freelancingfemales.com。
 
 记住，别等万事俱备才开始。你的价值，值得被明码标价，也值得被更多人看见。

@@ -2,7 +2,7 @@
 
 > 来源：[https://dlku560qaz.feishu.cn/docx/FpIndCXmWokNFUxcraacD1lYn3e](https://dlku560qaz.feishu.cn/docx/FpIndCXmWokNFUxcraacD1lYn3e)
 
-很开心能加入生财这个圈子，我是舒未读，在深圳一家私企做底层开发，每天就是代码牛马。
+很开心能加入赚钱这个圈子，我是舒未读，在深圳一家私企做底层开发，每天就是代码牛马。
 
 你有没有发现，朋友圈里总能刷到那种公众号，一个主题一直爆，单篇10万+，而且热度能延续好几个月甚至更久。
 

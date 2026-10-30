@@ -166,7 +166,7 @@ James Clear 说过：“Over long time frames, simply staying in the game is imp
 
 我是 Leeka，一直在研究 RPA 如何降本增效。如果你也在做类似的事，欢迎来聊聊。
 
-V：Leeka56 备注生财圈友，会更快通过！
+V：Leeka56 备注赚钱圈友，会更快通过！
 
 本次机器人下载链接：Leeka-小红书养号RPA机器人 密码：Leeka56
 

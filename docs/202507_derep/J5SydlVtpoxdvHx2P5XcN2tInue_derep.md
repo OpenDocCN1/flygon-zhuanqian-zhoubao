@@ -136,7 +136,7 @@ let i = 0; const intervalId = setInterval(() => { const elements = document.quer
 
 工具入口： https://api.winrobot360.com/redirect/robot/share?inviteKey=d62359c6b8ef0d7b
 
-进入后口令填写：生财有术
+进入后口令填写：赚钱有术
 
 ##### 1 基础设置
 

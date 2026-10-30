@@ -2,7 +2,7 @@
 
 > 来源：[https://rztam6ckur.feishu.cn/docx/IZx7dx2CSo9x23xioUFcNaHcnRd](https://rztam6ckur.feishu.cn/docx/IZx7dx2CSo9x23xioUFcNaHcnRd)
 
-4月12号我在生财有术丢了一条关于 RPA 资源对接的信息，本来就想验证两件事：
+4月12号我在赚钱有术丢了一条关于 RPA 资源对接的信息，本来就想验证两件事：
 
 1、市场上到底有没有人真的需要这个；
 2、用伙伴们的真实痛点来倒逼自己学 RPA，并给出解决方案。
