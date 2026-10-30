@@ -1,0 +1,5 @@
+# 【n8n】合集更新：9 篇内容整理
+
+相关源文可参考：[`www.yuque.com/for_lazy/zhoubao/py777vrhzidovc9b`](https://www.yuque.com/for_lazy/zhoubao/py777vrhzidovc9b)
+
+这里是来自公众号「懒人找资源」的整理汇总，专为懒人用户准备的干货分享。更多同类内容会在懒人专属群里持续更新。
