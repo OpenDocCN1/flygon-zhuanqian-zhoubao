@@ -1,0 +1,15 @@
+# PiPiADS 广告投放知识库
+
+> 信息来源：[https://za6kyadmdr.feishu.cn/docx/QYCldFQWtoux5UxelmYcMEFTnKc](https://za6kyadmdr.feishu.cn/docx/QYCldFQWtoux5UxelmYcMEFTnKc)
+
+# 🎯 愿景与目标
+
+# ⛳️ 知识空间概览
+
+# ⭐️ 常用资料与链接
+
+# 💡 知识空间使用指南
+
+若在使用过程中遇到疑问，或有内容需要补充与探讨，欢迎随时联系皮皮广告团队，我们会及时响应。
+
+![](img/8e4fff22c9898bddae5f940193c608af.png)
