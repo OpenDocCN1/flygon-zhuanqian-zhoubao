@@ -1,0 +1,39 @@
+# Reddit 需求挖掘 AI Agent
+
+> 原文：[`www.yuque.com/for_lazy/zhoubao/rys7sxd5a3hoxzcz`](https://www.yuque.com/for_lazy/zhoubao/rys7sxd5a3hoxzcz)
+
+## (精华帖)(34 赞)Reddit 需求挖掘 AI Agent
+
+作者： 四喜
+
+日期：2025-01-17
+
+Reddit 需求挖掘 AI Agent 各位朋友好，我是四喜，去年10月才加入生财，第一次来这里投稿交流，还请大家多多指点！
+
+前天刷到亦仁老师发布的龙珠悬赏活动，就把自己最近闲暇时搭出来的一套专门挖掘 Reddit 海外社区用户痛点的 AI Agent 拿出来分享一下，也想借此机会听听各位大佬的建议，帮我把这玩意儿打磨得更好。
+
+为了方便大家理解，我暂时给它起了个代号叫 Reddit Agent，更完整的介绍和使用方法我整理在了飞书文档里，有兴趣的可以去 #龙珠悬赏 #AI 板块查看。
+
+#AI 应用[`zcnzawlx2ndr.feishu.cn/docx/AUxIdF9X0oYRQ4xvjoUcm0llnHd?from=from_copylink&reRdXZ;=1`](https://zcnzawlx2ndr.feishu.cn/docx/AUxIdF9X0oYRQ4xvjoUcm0llnHd?from=from_copylink&reRdXZ;=1)
+
+* * *
+
+评论区：
+
+长庚 : 没权限打开
+
+四喜 : 首次发飞书文档，权限我再检查下
+
+四喜 : 应该修复好了
+
+长庚 : 能看了，感谢
+
+紀子 : 往变现上想的话，是不是可以打包成付费订阅的 Newsletter？感觉这种挖掘海外需求的工具国外用户应该也不少。
+
+我知道有博主专门做 Google 算法更新资讯的 Newsletter，订阅分不同等级收费，挺赚钱的
+
+四喜 : 这个思路挺好的！方便分享一下那个博主叫什么吗？我去研究研究[色] 多谢！
+
+老彭 : 今年 AI agent 这一块肯定要爆
+
+紀子 : coreupdates.com 我记岔了，他们不是订阅制，是靠 sponsor 赞助收费，这个模式也可以参考
