@@ -63,7 +63,7 @@ https://hbr.org/2016/09/know-your-customers-jobs-to-be-done?ref=blog.helpdocs.io
 
 # 怎么用
 
-1. 打开赚钱有术官网 scys.com
+1. 打开龙哥盟官网 scys.com
 2. 进入某个中标风向标的详情页，注意不是列表页
 3. 滚动到正文下方，分析结果会自动展开
 

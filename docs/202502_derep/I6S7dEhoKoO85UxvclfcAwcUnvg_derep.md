@@ -2,7 +2,7 @@
 
 > 来源：[https://lxkvj39q93t.feishu.cn/docx/I6S7dEhoKoO85UxvclfcAwcUnvg](https://lxkvj39q93t.feishu.cn/docx/I6S7dEhoKoO85UxvclfcAwcUnvg)
 
-哈喽各位，我是做AI企业赋能的佳文，也是赚钱有术的GPT提效导师、coze和ComfyUI的带练教练。
+哈喽各位，我是做AI企业赋能的佳文，也是龙哥盟的GPT提效导师、coze和ComfyUI的带练教练。
 
 对，就是那个零基础被阿紫教练手把手带起来做小游戏的非程序员。
 

@@ -186,7 +186,7 @@
 +   [零成本搞定热榜提醒！半小时配置，之后每天自动送上门](OU6edYOnnophrpx6GOsc6Ur6nsc_derep.md)
 +   [用 n8n 搭了一套焦点新闻自动采集管道：从需求到落地全复盘](OtVWwoJ4fiH2F0koGJ9coLKnnef_derep.md)
 +   [那颗龙珠只是序章：复盘之后，我更想聊聊这两个身份给我的隐藏礼物](PMGjw9dL9in70hkvCJRcO5CanTg_derep.md)
-+   [24小时内在小红书跑通生意闭环：给普通人的拆解笔记【赚钱有术线下Mini航海精华整理】](PdH1wLzVDi5Vlik6PGYcZJi8nRe_derep.md)
++   [24小时内在小红书跑通生意闭环：给普通人的拆解笔记【龙哥盟线下Mini航海精华整理】](PdH1wLzVDi5Vlik6PGYcZJi8nRe_derep.md)
 +   [五个平台同步做的实战复盘：围绕极致利他做增长](PfrewkxHwiMMcDkfTlkcWDlcn9e_derep.md)
 +   [从迷茫试错到海上开荒：小红书家纺赛道我的0-1实战复盘](QURRw1GIXiYsAakZNshcwrYJneb_derep.md)
 +   [('两个搞钱真相，带你重启100%执行力和源源不断心力', (2, 27))](QWzgdjDUGoSal1xii08cTuIXnEb_derep.md)

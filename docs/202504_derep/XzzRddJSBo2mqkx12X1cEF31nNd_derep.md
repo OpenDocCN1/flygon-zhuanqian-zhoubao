@@ -78,7 +78,7 @@
 
 ## 3. 小白版航海手册之 Cloudflare 使用
 
-WEB航海手册 赚钱有术·资料文档 https://scys.com/view/docx/EECxdMzegoy8AAxVkq5cm9sTnvd#Sj7JdF5kyodEahxZzsfcJm8Bnjd 中对应章节是3.3.3.3，绑定域名后托管网站，共20张截图。前置工作已完成：
+WEB航海手册 龙哥盟·资料文档 https://scys.com/view/docx/EECxdMzegoy8AAxVkq5cm9sTnvd#Sj7JdF5kyodEahxZzsfcJm8Bnjd 中对应章节是3.3.3.3，绑定域名后托管网站，共20张截图。前置工作已完成：
 
 1. 域名已购买 dreamimage.art
 2. 代码已上传至 Github 仓库名为 aidanghang

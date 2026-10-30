@@ -101,7 +101,7 @@
 
 往期精华文章：
 
-1. https://t.zsxq.com/0eK5P83vF【赚钱使用实例&锦囊】从搞钱新手到最懂新手的男人，我在赚钱有术的三年
+1. https://t.zsxq.com/0eK5P83vF【赚钱使用实例&锦囊】从搞钱新手到最懂新手的男人，我在龙哥盟的三年
 
 1. https://t.zsxq.com/0cterLU8z【新人参加见面会后必读】如何正确利用见面会获得的信息？
 
@@ -109,7 +109,7 @@
 
 1. https://t.zsxq.com/0bxyNOlWA 【手把手带你把一篇精华帖转化成可执行的SOP，抓住下次来临的红利】
 
-1. https://t.zsxq.com/03UbAyJAE【如何利用赚钱有术，抓住视频号带货的红利】
+1. https://t.zsxq.com/03UbAyJAE【如何利用龙哥盟，抓住视频号带货的红利】
 
 1. https://t.zsxq.com/fU3F2jU 《抖音引流Tips合集：鱼钩思维+企业号专属引流方式+常见误区》
 

@@ -1,6 +1,6 @@
 # 用AI批量写短篇：从找对标到月入过万的完整实操指南
 
-素材出处：赚钱有术团队出品的飞书手册《AI短篇小说实战手册》，原文链接：https://shengcaiyoushu01.feishu.cn/docx/BeqOd1MtjoE04SxhkS3cs2S9n7e  
+素材出处：龙哥盟团队出品的飞书手册《AI短篇小说实战手册》，原文链接：https://shengcaiyoushu01.feishu.cn/docx/BeqOd1MtjoE04SxhkS3cs2S9n7e  
 主理人：盟主君  
 发布时间：2025年1月21日  
 查找技巧：在电脑端按 Ctrl+F/command+F，输入关键词即可定位到对应小节。

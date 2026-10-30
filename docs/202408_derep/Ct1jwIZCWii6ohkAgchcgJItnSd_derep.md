@@ -2,7 +2,7 @@
 
 > 来源：[https://va802z4imkx.feishu.cn/docx/FVKpdz0eOoAe0FxJWwjcPvrMnUh](https://va802z4imkx.feishu.cn/docx/FVKpdz0eOoAe0FxJWwjcPvrMnUh)
 
-大家好，我是少波，四月份才入驻赚钱有术。
+大家好，我是少波，四月份才入驻龙哥盟。
 
 来到这里就像打开了一扇门，认识了一批很合拍的人。信息密度确实大，有时候会跟不上节奏，但那种持续学习的快感，远比刷朋友圈强太多，也更愿意在这里吸收新方法、新思路来打磨自己。
 

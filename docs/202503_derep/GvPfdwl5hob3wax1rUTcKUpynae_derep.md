@@ -2,7 +2,7 @@
 
 > 来源：[https://h4zarzxodm.feishu.cn/docx/GvPfdwl5hob3wax1rUTcKUpynae](https://h4zarzxodm.feishu.cn/docx/GvPfdwl5hob3wax1rUTcKUpynae)
 
-大家好，我是谢无敌，闪亮猫传媒创始人。2023年我跟着赚钱有术的播客航海，独立做了档个人栏目【谢无敌茶访谈】，佛系更新的情况下粉丝也破了一万。
+大家好，我是谢无敌，闪亮猫传媒创始人。2023年我跟着龙哥盟的播客航海，独立做了档个人栏目【谢无敌茶访谈】，佛系更新的情况下粉丝也破了一万。
 
 ![](img/9fd5174fc0e6649b2773ea59e86bde04.png)
 

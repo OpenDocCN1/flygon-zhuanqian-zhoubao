@@ -1,8 +1,8 @@
-# 24小时内在小红书跑通生意闭环：给普通人的拆解笔记【赚钱有术线下Mini航海精华整理】
+# 24小时内在小红书跑通生意闭环：给普通人的拆解笔记【龙哥盟线下Mini航海精华整理】
 
 > 来源：[https://g8ekpu7h0l.feishu.cn/docx/Po7bdEp3UoRKJ6xwgK4cLYdInBh](https://g8ekpu7h0l.feishu.cn/docx/Po7bdEp3UoRKJ6xwgK4cLYdInBh)
 
-这篇是我在赚钱有术线下航海分享后整理的文字稿，全文约2.3万字。
+这篇是我在龙哥盟线下航海分享后整理的文字稿，全文约2.3万字。
 
 关于如何在一天之内于小红书搭建起可变现的体系，灵感来自《The Million Dollar Weekend》。
 

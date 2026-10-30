@@ -1,6 +1,6 @@
 # 当RPA遇上ChatGPT：赚钱日报周报全自动生成，还能量身定制推送，我是怎么做到的？
 
-> 折腾了近十天，踩了一路的坑，终于把“赚钱有术”的日报/周报、关键词推送、甚至合集整理全部交给了机器人。这中间有太多可以聊的细节，今天分享给你。
+> 折腾了近十天，踩了一路的坑，终于把“龙哥盟”的日报/周报、关键词推送、甚至合集整理全部交给了机器人。这中间有太多可以聊的细节，今天分享给你。
 
 先说个背景：赚钱圈内聊RPA的帖子其实已经不少了，鱼丸还专门整理过一份合集。很多人看完精华帖后，自己上手影刀，把业务流程自动化效率提了好几倍。这里把主流能用的RPA工具捋一捋，发现国外产品居多，尤其是一些小众工具。本质上都是低代码自动化，说白了就是把英文代码翻译成能拖拽的功能块和中文指令。
 
@@ -42,7 +42,7 @@
   https://www.uibot.com.cn/  
 - 账户：Uibot、ChatGPT Plus、科学上网工具  
   https://chat.openai.com/  
-- 状态：已登录赚钱有术、已登录知识星球、已加入星球  
+- 状态：已登录龙哥盟、已登录知识星球、已加入星球  
   https://search01.shengcaiyoushu.com/  
   https://wx.zsxq.com/dweb2/index/group/1824528822
 
@@ -142,7 +142,7 @@ https://chrome.google.com/webstore/detail/automa/infppggnoaenmfagbfknfkancpbljcc
 
 至于为什么还要做这些延展思路的机器人？既然想到了，不如就做出来，也是在等有缘人交流。
 
-据我所知，目前只有赚钱有术和淘金之路这两个知识星球搭建了自己的搜索引擎系统。其他大量星球，似乎都在靠人工统计做周报。
+据我所知，目前只有龙哥盟和淘金之路这两个知识星球搭建了自己的搜索引擎系统。其他大量星球，似乎都在靠人工统计做周报。
 
 现在机器人来了：RPA + GPT 完全可以部署自动定制化日报 + 定期周报，星主只需要做最后的删减。
 
@@ -156,7 +156,7 @@ https://chrome.google.com/webstore/detail/automa/infppggnoaenmfagbfknfkancpbljcc
   https://www.yingdao.com/client-download/  
 - 账户：影刀、ChatGPT Plus、科学上网工具  
   https://chat.openai.com/  
-- 状态：已登录赚钱有术、已登录知识星球、已加入星球  
+- 状态：已登录龙哥盟、已登录知识星球、已加入星球  
   https://search01.shengcaiyoushu.com/  
   https://wx.zsxq.com/dweb2/index/group/1824528822
 

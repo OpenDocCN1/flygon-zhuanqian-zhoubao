@@ -457,4 +457,4 @@ Advanced Data Analysis
 
 本文用Code Interpreter编程来做Python工具开发，本质上是提供一种思路的探讨。实际编程时，大家还是要根据具体情况，选择最适合自己的技术方案。
 
-最后祝各位赚钱有术！
+最后祝各位龙哥盟！

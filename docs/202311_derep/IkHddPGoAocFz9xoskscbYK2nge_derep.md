@@ -63,7 +63,7 @@ https://new.qq.com/rain/a/20230628A007D500?no-redirect=1
 参考白皮书：「AIGC的机会到底在何处？」
 https://mp.weixin.qq.com/s?__biz=MzI5MjE4NzYzNw==&mid=2247485825&idx=1&sn=79f5b5aa504f707d49f4d2ab15424df7&chksm=ec04751bdb73fc0d86776656ce64f5a13c4561a41f2339c1f2697288f168f3e5e7fc17e25125&scene=21#wechat_redirect
 
-✅社群类：赚钱有术、AI破局俱乐部、AGI Playground 交流群（极客公园）
+✅社群类：龙哥盟、AI破局俱乐部、AGI Playground 交流群（极客公园）
 
 ✅真人交流类：投资人、创业者、媒体记者、大学教授和研究员
 

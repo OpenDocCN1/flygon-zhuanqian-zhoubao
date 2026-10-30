@@ -106,7 +106,7 @@
 - obsidian：读写我的 Obsidian 资料库
 - wechat-daily：生成微信群聊日报和高价值讨论
 - daily-demand-report：逐日抓取需求线索
-- scys-content-access：访问赚钱有术内容
+- scys-content-access：访问龙哥盟内容
 - market-research-miniprogram：做小程序方向调研
 
 但我平时根本不会去想这些技能包的名字。大半都是 Hermes 根据我的日常习惯自己创建的。

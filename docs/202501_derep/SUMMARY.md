@@ -271,7 +271,7 @@
 +   [第一步：生成AI图片](ENf1dPx82oCySxxvoXtczRmGnRc_derep.md)
 +   [用本地 Issue 管理，让 Cursor 真正进入自动驾驶模式](EaSxdZ6vNoFBLVxFkG0chs4Unjf_derep.md)
 +   [用 AI 让经典影视角色张嘴说话，对口型二创新玩法拆解](EcNhdm2dWoxc9wxLSuccpMaWnX4_derep.md)
-+   [🛥️ 赚钱有术 · 时间管理航海问答精华整理](EnntdgKczoxr7jxXjftcwKELnyh_derep.md)
++   [🛥️ 龙哥盟 · 时间管理航海问答精华整理](EnntdgKczoxr7jxXjftcwKELnyh_derep.md)
 +   [同样的赛道，为什么总有人先跑出来？](FJhsdlSJwoD2kjxSAjFcNycMnLb_derep.md)
 +   [把社交从“害怕”变成“工具”：内向人也能把场面稳住](FWs2d3EVmo6kz7xxC4DcoevQn5c_derep.md)
 +   [订阅号小IP的进阶之路：不搞发售不造势，靠几篇热文卖出上千份付费专栏](FemodH9yQoCl2txvAvuc4cJHn0g_derep.md)

@@ -191,7 +191,7 @@
 +   [靠小程序躺赚一年，我到底经历了什么？](L8sxdC6wYorZO1xVgNbc39L4nvf_derep.md)
 +   [不起眼却闷声赚钱的生意：整合本地服务，2个月纯利30万+（蓝狐分享）](LSvldmb3QojJhSx1yk3cytnAn0f_derep.md)
 +   [《视频号带货的实战打法全拆解》@李诚Sonic](LXNmdLtO6oOP3dx7l9GcsVfPnSb_derep.md)
-+   [('赚钱有术 | 风向标精选（3.20-3.23）', (2, 25))](MZqUdSJumoQZwtxLCatcDJ1snze_derep.md)
++   [('龙哥盟 | 风向标精选（3.20-3.23）', (2, 25))](MZqUdSJumoQZwtxLCatcDJ1snze_derep.md)
 +   [零基础也能搞定的短剧CPS变现：一部手机一个月收入过万的实操拆解](MwIYdeZNio8bWUxAEGCcOhO2nlc_derep.md)
 +   [('进赚钱8个月，翻遍了所有的精华帖，盘点拆解赚钱的赚钱方法！', (2, 31))](NQrwdjKZ4oOEFpxGD1Hcjc9wnwf_derep.md)
 +   [别让输入法拖慢你的脑子，试试双拼](ODcddHpnqoogiuxw7WqcMbv1nJb_derep.md)

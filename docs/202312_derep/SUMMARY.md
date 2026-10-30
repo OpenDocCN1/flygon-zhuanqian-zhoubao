@@ -256,7 +256,7 @@
 +   [二、先把账户准备到位](BrhOdDvBKoalyvxvuJWcztnJnY0_derep.md)
 +   [一、为什么说视频号口播带货正处在红利期](CXdxdRBwQo0UXvxQLDschE2pndd_derep.md)
 +   [年底数据盘点怎么写才有冲击力？我把方法教给了ChatGPT，效果惊艳](Cog7dQw6AolHHEx63U1ck2gYnUh_derep.md)
-+   [【赚钱有术拆解】抖音直播素材搬运到小红书做无人化的实操笔记](D93Kd24RXoekhWxWJgMcfQC8nNf_derep.md)
++   [【龙哥盟拆解】抖音直播素材搬运到小红书做无人化的实操笔记](D93Kd24RXoekhWxWJgMcfQC8nNf_derep.md)
 +   [尾声 · 过去履历回顾](Dfx7dLwpno9kWYxqLjRcBx2bn8d_derep.md)
 +   [('干货分享-教你用影刀 RPA 批量抓取抖音爆款视频数据', (2, 29))](EMj4dzYAlo08nKxUiZecR1ESngg_derep.md)
 +   [月入上万的快手磁力聚星，新手照抄就能跑](ESkwd8SlLoUQIGxUUbVcLZeRnkb_derep.md)

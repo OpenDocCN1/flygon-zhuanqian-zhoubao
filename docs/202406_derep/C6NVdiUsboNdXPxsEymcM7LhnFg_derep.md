@@ -2,7 +2,7 @@
 
 > 来源：[https://htsuhz76ht.feishu.cn/docx/C6NVdiUsboNdXPxsEymcM7LhnFg](https://htsuhz76ht.feishu.cn/docx/C6NVdiUsboNdXPxsEymcM7LhnFg)
 
-先要感谢我的贵人梁靠谱和理白先生，正是他们把我带进了赚钱有术这个圈子，没有他们就没有这篇分享。
+先要感谢我的贵人梁靠谱和理白先生，正是他们把我带进了龙哥盟这个圈子，没有他们就没有这篇分享。
 
 先做个【自我介绍】：
 

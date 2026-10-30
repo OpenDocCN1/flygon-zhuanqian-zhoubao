@@ -1,4 +1,4 @@
-# 【赚钱有术拆解】抖音直播素材搬运到小红书做无人化的实操笔记
+# 【龙哥盟拆解】抖音直播素材搬运到小红书做无人化的实操笔记
 
 > 来源：[https://ibimo1rg20.feishu.cn/docx/D93Kd24RXoekhWxWJgMcfQC8nNf](https://ibimo1rg20.feishu.cn/docx/D93Kd24RXoekhWxWJgMcfQC8nNf)
 

@@ -229,5 +229,5 @@
 3. 如何判断自己的创业项目好不好？：https://wx.zsxq.com/dweb2/index/topic_detail/182844115125482  
 4. 判断项目行不行的极简方法：https://wx.zsxq.com/dweb2/index/topic_detail/184214255522812  
 5. 如何分析一个互联网项目的可行性？能否值得去做？：https://wx.zsxq.com/dweb2/index/topic_detail/241158845554181  
-6. 为什么你进了「赚钱有术」，还是赚不到钱？：https://wx.zsxq.com/dweb2/index/topic_detail/185255552411582  
+6. 为什么你进了「龙哥盟」，还是赚不到钱？：https://wx.zsxq.com/dweb2/index/topic_detail/185255552411582  
 7. 5月小航海项目筛选模型：https://wchekk4hs9.feishu.cn/base/TpsBbwxhYaplTWsUGmpc6k6QnXc

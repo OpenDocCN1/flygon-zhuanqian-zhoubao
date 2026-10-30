@@ -4,7 +4,7 @@
 
 视频版教程在2023年9月14日完成更新：
 
-首发赚钱有术知识星球：https://t.zsxq.com/12BipfnkM
+首发龙哥盟知识星球：https://t.zsxq.com/12BipfnkM
 
 视频里会用到两款辅助小工具。
 

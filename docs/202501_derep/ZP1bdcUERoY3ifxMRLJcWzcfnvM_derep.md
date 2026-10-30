@@ -2,7 +2,7 @@
 
 > 来源：[https://he1n2jedb5.feishu.cn/docx/ZP1bdcUERoY3ifxMRLJcWzcfnvM](https://he1n2jedb5.feishu.cn/docx/ZP1bdcUERoY3ifxMRLJcWzcfnvM)
 
-先自报家门：我是李白，赚钱有术的老圈友了，编号5916。白天我在一家大厂做海外商业化平台的产品经理，工龄7年。
+先自报家门：我是李白，龙哥盟的老圈友了，编号5916。白天我在一家大厂做海外商业化平台的产品经理，工龄7年。
 
 去年从AI开始重写内容行业的那一刻起，我意识到这是个机会，于是用业余时间跑去做了AI写稿变现。两个多月挣到4w多，光是航海那阵子就进了2w+，还拿了个人榜第一。
 
