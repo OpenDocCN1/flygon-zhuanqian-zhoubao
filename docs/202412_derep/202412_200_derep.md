@@ -1,0 +1,7 @@
+# AI 领域 精选合集 · 共 10 篇干货
+
+这次给大家汇总的是一组围绕人工智能展开的主题文章合集，一共 10 篇，内容干货密度很高。
+
+> 参考来源：[`www.yuque.com/for_lazy/zhoubao/uuu0nt97ul8uvrmg`](https://www.yuque.com/for_lazy/zhoubao/uuu0nt97ul8uvrmg)
+
+想第一时间获取这类资源合集，可以关注公众号「懒人找资源」，里面有懒人专属群的持续分享。
