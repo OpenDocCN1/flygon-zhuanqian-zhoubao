@@ -1,3 +1,5 @@
+# ('图像API工作流3_OpenAI（全能4种）', (2, 24))
+
 OpenAI绘图全家桶接入ComfyUI？这三个模型能批量出图了！连支付都变得接地气
 
 如果你最近在追AI绘画圈的动态，应该已经听到消息：OpenAI放出了GPT-Image-1 API，跟ChatGPT 4o里的图像模型是同款。而ComfyUI这次也够给力，直接上了原生API节点（测试版），等于在ComfyUI里内置了一条通往OpenAI最新图像能力的高速路。

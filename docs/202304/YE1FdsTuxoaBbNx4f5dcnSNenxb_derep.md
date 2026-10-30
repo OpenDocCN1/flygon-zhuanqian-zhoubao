@@ -1,3 +1,5 @@
+# ('chatgpt plus 最新保姆级开通教程', (2, 24))
+
 ChatGPT Plus 开通实操全记录：我一次成功，踩坑和细节都给你整理好了
 
 最近我也被ChatGPT Plus的订阅支付卡住了。原本想用Depay，但它的系统一直维护，KYC认证根本没法完成，所以我最后换到了NoBepay平台。
