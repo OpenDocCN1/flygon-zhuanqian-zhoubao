@@ -1,6 +1,6 @@
 # 41天从0到2万粉，我用AI工具号验证了这套自媒体起号逻辑
 
-来源：[https://x0jfcqhoq5e.feishu.cn/docx/J3JWdJF1VoQG3wx5BGlcHhCQnBf](https://x0jfcqhoq5e.feishu.cn/docx/J3JWdJF1VoQG3wx5BGlcHhCQnBf)
+
 
 大家好，我是柠檬，现居杭州。
 

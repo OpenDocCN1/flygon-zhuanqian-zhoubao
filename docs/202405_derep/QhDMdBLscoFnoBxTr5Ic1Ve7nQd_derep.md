@@ -1,6 +1,6 @@
 # 捕捉异常信号：两周内做出两条百万播放视频，AI数字人视频号带货实现四位数收益复盘
 
-来源：https://wpzqvl5zm0.feishu.cn/docx/QhDMdBLscoFnoBxTr5Ic1Ve7nQd
+
 
 # 前言
 

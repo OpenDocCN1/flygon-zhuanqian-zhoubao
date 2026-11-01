@@ -1,6 +1,6 @@
 # 别让“远洋捕捞”把创业成果拖进铁窗
 
-来源：[https://ga48invstw.feishu.cn/docx/YAsMdChCcoJRgFxf2G7cBqpEnSp](https://ga48invstw.feishu.cn/docx/YAsMdChCcoJRgFxf2G7cBqpEnSp)
+
 
 丁邱洁律师：面向出海与跨境电商经营者的风险自救笔记 20241101
 
@@ -51,7 +51,7 @@
 
 ![](img/665c45fb5636edd05a92286248463105.png)
 
-来源：经济观察报
+
 
 2、九月深耕非洲的知名跨境电商企业传音控股财务负责人被留置，案件进展至今未披露；
 ![](img/1e76c8e4e8c450a9676de5533f0379e5.png)
@@ -60,7 +60,7 @@
 
 ![](img/4a3e44905d8a055693e8bc67ea9d8a22.png)
 
-来源：网络
+
 
 # 4、律师团队经手的实务案例及体会
 

@@ -1,6 +1,6 @@
 # 一场关于10万+标题的拆解课，贝拉告诉我们：爆款从来不是靠套公式
 
-来源：[https://ewtk6agpo4c.feishu.cn/docx/KPZqd0J7rog41nxbfMscZ9hxnBe](https://ewtk6agpo4c.feishu.cn/docx/KPZqd0J7rog41nxbfMscZ9hxnBe)
+
 
 来赚钱联合办公刚满一周，我就赶上了最值的周五内部分享会。说是大佬云集也不为过，每个人身上都自带干货，氛围感拉满。
 

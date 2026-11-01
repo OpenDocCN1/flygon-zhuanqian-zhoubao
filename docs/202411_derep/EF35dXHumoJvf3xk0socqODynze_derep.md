@@ -1,6 +1,6 @@
 # 咨询师真正的护城河，不是咨询本身，而是一门课
 
-来源：https://oee5lr7gsk.feishu.cn/docx/EF35dXHumoJvf3xk0socqODynze
+
 
 这篇大概5000字，读完需要几分钟。
 

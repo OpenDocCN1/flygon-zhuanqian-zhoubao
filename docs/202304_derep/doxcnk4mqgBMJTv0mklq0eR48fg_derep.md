@@ -81,7 +81,7 @@ Caoz：
 
 先建立一个底层认知：万物皆交易。
 
-来源：https://wx.zsxq.com/dweb2/index/topic_detail/582511151218254
+
 
 刘小排：
 
@@ -94,7 +94,7 @@ Caoz：
 
 这些词本质上是同义词。听着别扭？商业世界的真相就是如此。我三十岁后才看透。
 
-来源：https://articles.zsxq.com/id_59tz5lf5aadw.html
+
 
 明白：
 
@@ -106,11 +106,11 @@ Caoz：
 
 所以要想赚钱，先想清楚：要做哪件「事」，才能带来钱。
 
-来源：https://wx.zsxq.com/dweb2/index/topic_detail/118818854252482
+
 
 做自己擅长的，把技能打通，再谈变现
 
-来源：https://wx.zsxq.com/dweb2/index/topic_detail/844145541882282
+
 
 拱卒：
 
@@ -118,7 +118,7 @@ Caoz：
 
 想赚到一百万，就要思考：如何为他人创造远超一百万的价值。利他是最大的利己。
 
-来源：https://wx.zsxq.com/dweb2/index/topic_detail/582855588185544
+
 
 花爷：
 
@@ -130,13 +130,13 @@ Caoz：
 
 信息差的“差”，就差在圈层隔绝上。社会越发达，圈层越多，信息差越好赚钱。
 
-来源：https://wx.zsxq.com/dweb2/index/topic_detail/548814145851214
+
 
 纵横：
 
 生意的本质是流量，交易的本质是信任。
 
-来源：https://wx.zsxq.com/dweb2/index/topic_detail/182848115558552
+
 
 把这些观点提炼成关键词：
 
@@ -172,7 +172,7 @@ Caoz：交易、资源、买家、稀缺、影响力、信用
 
 从这个角度看，创业是不是容易多了？
 
-来源：https://wx.zsxq.com/dweb2/index/topic_detail/818221142114152
+
 
 我的理解是：眼里看到的，都是潜在商品，关键是谁买、怎么卖。
 
@@ -282,7 +282,7 @@ V先生：
 
 明白这三点，就能找到“卖什么给谁”的切入点，信息不对称、交付不便利、信用不传递就是赚钱的机会。
 
-来源：https://wx.zsxq.com/dweb2/index/topic_detail/215128812554251
+
 
 ## 5）赚钱和圈层有什么关系？
 
@@ -296,7 +296,7 @@ V先生：
 
 大家常说“赚不到认知之外的钱”。认知差由三要素构成：资源差、技术差、信息差。
 
-来源：https://wx.zsxq.com/dweb2/index/topic_detail/585244142288214
+
 
 刘小排：
 
@@ -308,7 +308,7 @@ V先生：
 
 商业模式只有两种：自己创造价值卖给消费者，或做中间商传递价值。
 
-来源：https://articles.zsxq.com/id_0l9wqp7m2fj9.html
+
 
 由此推导：
 

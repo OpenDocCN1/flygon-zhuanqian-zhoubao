@@ -1,6 +1,6 @@
 # 从一篇万赞资料笔记到首月5000+：一个工科生做小红书职场IP的从零冷启动实操拆解
 
-来源：[https://v70d3vec3r.feishu.cn/docx/SJm6d7GmboTxwtx6TV5cL0PfnWe](https://v70d3vec3r.feishu.cn/docx/SJm6d7GmboTxwtx6TV5cL0PfnWe)
+
 
 大家好，我是小猪哥。
 

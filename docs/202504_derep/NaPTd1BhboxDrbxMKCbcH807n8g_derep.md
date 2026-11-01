@@ -1,6 +1,6 @@
 # 实地走访墨西哥：被市场低估的出海新坐标
 
-来源：https://throughone.feishu.cn/docx/NaPTd1BhboxDrbxMKCbcH807n8g
+
 
 大家好，我是 Sky老思，目前聚焦 TikTok 这一赛道。最近美国关税波动让在美团队的经营承压，而年初 TikTok 正式放开墨西哥站点，这个动作让我产生现场验证的冲动。
 

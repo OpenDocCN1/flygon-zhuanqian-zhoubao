@@ -1,6 +1,6 @@
 # 杭州传术师闭门会笔记：学事、做事、连结人的完整复盘
 
-来源：[https://e5nmp70vrx.feishu.cn/docx/TpuOdmKD0odoutxGYciccGv5nPb](https://e5nmp70vrx.feishu.cn/docx/TpuOdmKD0odoutxGYciccGv5nPb)
+
 
 我是绿子，成都。刚从杭州的传术师线下见面会回来，这次特意做了归纳，从个人成长、商业打法到人脉经营，提炼出几条可以直接落地的收获。没能到场的朋友，可以看看有没有能用上的部分。
 

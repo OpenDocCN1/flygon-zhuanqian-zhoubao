@@ -1,6 +1,6 @@
 # 风向标拆解第 2 期：月入 10 万刀的 AI 工具站，到底赢在了哪一步
 
-来源：https://el6alnvd1j.feishu.cn/docx/SOCld2l0solNJ8xICwYcJb9TnFf
+
 
 先给工具站小白补一课，为什么现在一堆人扎堆出海做 AI 工具站。
 

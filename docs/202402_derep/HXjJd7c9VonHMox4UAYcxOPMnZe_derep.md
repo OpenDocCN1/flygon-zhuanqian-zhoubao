@@ -1,6 +1,6 @@
 # 知识付费里真正难的，不是讲得多好，而是反对问题怎么接
 
-来源：[https://oee5lr7gsk.feishu.cn/docx/HXjJd7c9VonHMox4UAYcxOPMnZe](https://oee5lr7gsk.feishu.cn/docx/HXjJd7c9VonHMox4UAYcxOPMnZe)
+
 
 全文共：6288 字
 预计阅读时间：12.314分钟

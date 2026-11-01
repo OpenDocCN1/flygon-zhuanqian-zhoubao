@@ -1,6 +1,6 @@
 # AI 洗稿方法论与提示词迭代实战
 
-来源：[https://u604y5x4sg.feishu.cn/docx/Q7xBdUutNoJx4rxV9iccIZSCnef](https://u604y5x4sg.feishu.cn/docx/Q7xBdUutNoJx4rxV9iccIZSCnef)
+
 
 大家好，我是哆元。
 

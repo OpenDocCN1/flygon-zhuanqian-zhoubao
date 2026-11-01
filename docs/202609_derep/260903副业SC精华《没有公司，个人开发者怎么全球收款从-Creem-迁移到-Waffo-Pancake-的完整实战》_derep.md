@@ -1,6 +1,6 @@
 # Creem 被风控后，我把收款切到 Waffo Pancake 的实操全记录
 
-来源：公众号懒人搜索 / 懒人专属群精选 整理
+
 懒人微信：lazyhelper1
 
 ![](img/67c37faeb967b1478183a189236a069f_0_0.png)
