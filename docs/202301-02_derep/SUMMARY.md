@@ -35,7 +35,7 @@
 +   [抖音引微信的自动化路径拆解与账号风控](QbBKdHvfiofIUNxDlmjceWbfnqh_derep.md)
 +   [抽盒玩法高频困惑全解析：选平台、养护号、练播间、控风险、搞复制](SvdFdfi3VoAiaRxENHNcncEqnif_derep.md)
 +   [金融老兵离场，在Crypto世界里找到第二次职业生涯](T1Jad4VhIoPc2hxKJxwcUFPOnTc_derep.md)
-+   [一、重新理解微信好友](VAA8dQLTZolMlJx1jxrcKaPrnzd_derep.md)
++   [增长女黑客阿may：无资源无资本，如何结合私域裂变和个人品牌，搞定冷启动流量难题](VAA8dQLTZolMlJx1jxrcKaPrnzd_derep.md)
 +   [七天十万粉、五万现金，我是从围观席上杀出来的](VsjCdIDNJoNRvlxo4OWcJ7bDnO5_derep.md)
 +   [如何通过抖音卖几百万非遗拓片](XuOgdT9o8ongKPxfSMlcfgLbngf_derep.md)
 +   [小说推文进阶玩法：用精细化运营，把出单变成常态](ZcEdd0xTCo1K5IxwCyLccKUynOb_derep.md)
