@@ -1,4 +1,4 @@
-# ('聊聊我对Google Cash的一点个人看法', (2, 24))
+# 聊聊我对Google Cash的一点个人看法
 
 接触Google Cash这个圈子差不多三个月了，有点个人体会想聊聊。这个行当，有人叫MediaBuy，有人叫Brand Bid，也有人干脆把它归到Affiliate Marketing的范畴里。
 

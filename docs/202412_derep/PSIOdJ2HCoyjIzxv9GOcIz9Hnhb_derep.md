@@ -1,4 +1,4 @@
-# ('利用AI工具copycoder + bolt 三句话复制想要复制的网站', (2, 37))
+# 利用AI工具copycoder + bolt 三句话复制想要复制的网站
 
 AI复制网站如此简单？CopyCoder + Bolt 三句话搞定！
 

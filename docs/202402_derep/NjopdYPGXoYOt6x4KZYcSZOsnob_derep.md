@@ -1,4 +1,4 @@
-# ('视频2', (2, 5))
+# 视频2
 
 素材中仅提供了视频2的来源链接：https://shengcaiyoushu01.feishu.cn/docx/NjopdYPGXoYOt6x4KZYcSZOsnob，但未包含具体文字内容。
 

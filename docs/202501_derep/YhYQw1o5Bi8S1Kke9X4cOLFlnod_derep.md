@@ -1,4 +1,4 @@
-# ('中美 AI 模型的真实对比，我深度测评了 Claude、Deepseek、 智谱清言、kimi', (2, 49))
+# 中美 AI 模型的真实对比，我深度测评了 Claude、Deepseek、 智谱清言、kimi
 
 中美AI模型大PK！实测Claude、DeepSeek、智谱清言、Kimi，谁才是六边形战士？
 

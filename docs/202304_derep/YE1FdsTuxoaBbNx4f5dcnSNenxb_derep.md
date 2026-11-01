@@ -1,4 +1,4 @@
-# ('chatgpt plus 最新保姆级开通教程', (2, 24))
+# chatgpt plus 最新保姆级开通教程
 
 ChatGPT Plus 开通实操全记录：我一次成功，踩坑和细节都给你整理好了
 

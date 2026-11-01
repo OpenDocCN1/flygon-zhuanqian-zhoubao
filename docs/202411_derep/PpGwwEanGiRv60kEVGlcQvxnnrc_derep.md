@@ -1,4 +1,4 @@
-# ('Youtube shorts（0-1小白教程）', (2, 25))
+# Youtube shorts（0-1小白教程）
 
 刷到AI做视频就划走的朋友，先别急。
 

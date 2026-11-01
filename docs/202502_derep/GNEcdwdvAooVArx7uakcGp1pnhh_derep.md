@@ -1,4 +1,4 @@
-# ('YouTube航海14天开通YPP，我用的是同中求异', (2, 28))
+# YouTube航海14天开通YPP，我用的是同中求异
 
 ![](img/c12eda3dbc3d63f7c66d482680a362af.png)
 

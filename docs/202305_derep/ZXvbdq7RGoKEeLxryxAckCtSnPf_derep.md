@@ -1,4 +1,4 @@
-# ('Stable Diffusion 应用场景和模型训练', (2, 28))
+# Stable Diffusion 应用场景和模型训练
 
 最近参加了一场干货满满的线下分享，主题是Stable Diffusion的应用与模型训练。趁着热乎，我把重点整理了出来，希望能帮你少走弯路。
 
