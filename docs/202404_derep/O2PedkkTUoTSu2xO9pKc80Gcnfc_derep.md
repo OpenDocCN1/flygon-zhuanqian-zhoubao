@@ -1,3 +1,5 @@
+# AI柴犬剧情短视频，ChatGPT+剪映，一个Prompt全部搞定
+
 之前给大伙儿介绍过AI猫咪剧情短视频的玩法，我自己其实也一直在实操，同步发到小红书、抖音、TikTok、YouTube、Instagram这些平台，数据都很能打。小红书上拿过800多个赞，YouTube那边的Shorts基本每条都能破百赞，这可真不是光说不练的效果。
 
 ![](img/f0e257834886567ceedd45bad063da6c.png)
