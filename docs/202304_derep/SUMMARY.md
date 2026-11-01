@@ -192,7 +192,7 @@
 +   [做一期公益送书活动的高效 SOP 复盘](Ro5mdEccUoXd4oxSbzYcZXCrnfh_derep.md)
 +   [我是如何靠赚钱对接优质资源 成功变现日入上千的案例分享](SFqBdG2bpoLKf8xeOWMcUNxVn4d_derep.md)
 +   [3月8日《如何2个月时间快团团帮卖佣金8万》贾璐luca](SYkqdYJ4FoEXOlxQpitcWY8Rnqg_derep.md)
-+   [生财有术｜第七期新人指南](SnZDdyUsFoxTP0x9wCPcdAX5nWc_derep.md)
++   [龙哥盟｜第七期新人指南](SnZDdyUsFoxTP0x9wCPcdAX5nWc_derep.md)
 +   [无专业，无定位，无爱好的全职妈妈，20个月，变现170万+的经历分享](THh7dtp6uoEKloxVqwncmmwBn1b_derep.md)
 +   [飞书如何为MCN机构打通业务堵点](VQuGd5TikoAEaAxqMSJc4gslnye_derep.md)
 +   [赚钱航海230218](WhpFdcM8NotQqvxuqIacwEuUnbb_derep.md)

@@ -81,7 +81,7 @@
 +   [微信养号防封全攻略：从注册到运营，这些细节能救你的号](PqFwd1rnGoy9VZxPmKNcZnjenqe_derep.md)
 +   [01年女大毕业后在家备考，从0开始做小红书虚拟资料垂直赛道，3个月变现7w＋](Q6ASdyh2voRYSRxAK55cHe0bnJd_derep.md)
 +   [中医考证避坑指南：非科班拿证，这8个坑千万别踩](TGzGdvSBHoAmTuxLT8qcTZxmnnc_derep.md)
-+   [加入生财1年，我凭竖屏思维导图逆袭，都做了哪些？](TiR3dk8MboSn2RxcZmlccOppntV_derep.md)
++   [加入赚钱1年，我凭竖屏思维导图逆袭，都做了哪些？](TiR3dk8MboSn2RxcZmlccOppntV_derep.md)
 +   [83万单背后的增长密码：Halara TikTok美国小店爆单全拆解](Tm3mdOxhNo8e22xHIfncOFiznde_derep.md)
 +   [一家茶室靠“相亲”做出月利润600万？完整复盘来了](UKNSdMBMfo6KQNxy5bDcH6LrnDb_derep.md)
 +   [10分钟用AI制作山海经神话短视频，红利期赛道，起号优选](UrXsdv8w7oWhGrxIhRVcj7AanWd_derep.md)

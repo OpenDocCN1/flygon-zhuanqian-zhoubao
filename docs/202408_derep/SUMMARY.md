@@ -308,7 +308,7 @@
 +   [用废号做矩阵，我在小红书把自媒体引流玩明白了](Vwhyd4Ctpom71uxmOW8cEuOPn9g_derep.md)
 +   [试错二十万，撬动千万盘面：一个冷门陪驾品类的城市起量复盘](WYTPwaalSiWYOjkXkhjcl8zWnTg_derep.md)
 +   [10分钟写30条卖货型短视频文案？核心只有两个字：性价比](WedAwjIKViPZkokeF6FcgRi2nAb_derep.md)
-+   [AI 工作流，赋能我的十倍增长（生财）](WrLzd55GwoJWWdxGD7Nc4KbHnxe_derep.md)
++   [AI 工作流，赋能我的十倍增长（赚钱）](WrLzd55GwoJWWdxGD7Nc4KbHnxe_derep.md)
 +   [单条视频点赞4600+、引来上百人私信，这种“吸金内容”是怎么用ChatGPT写出来的？](X3PSdImlZop3IDxm07KcSHLLnXg_derep.md)
 +   [Windows 专属！剪映批量剪辑神器使用全攻略](XaZ4dJ202oVXR5xvbmdcNseonEh_derep.md)
 +   [赚钱这件事，从终点往起点倒着规划](Xnr9dGr31o7iwwxa4nIcZQiJnFe_derep.md)

@@ -256,7 +256,7 @@
 +   [用碎片时间把赚钱玩明白：一个职场人的六式打法复盘](VTfvwpnZSi4HNEky0nSceTTanef_derep.md)
 +   [从AI萌新到畅销书作者，我是怎么过来的，你也可以复制](VwhrwoBa3iv3OYkHHNMcSf0enuf_derep.md)
 +   [飞书多维表格 DeepSeek 字段免费续命玩法](VxE0dSRRso9GhexzMWuccCoBnub_derep.md)
-+   [如何借助生财 AI 小组，拥抱 AI 变现机会？](WlYUdNOdAo8nH0xaLTWcfnhEnLc_derep.md)
++   [如何借助赚钱 AI 小组，拥抱 AI 变现机会？](WlYUdNOdAo8nH0xaLTWcfnhEnLc_derep.md)
 +   [《零基础21天突破，AI＋拆书的道与术》](WtTfdUgUooI8Ygx11PhcxlwanEd_derep.md)
 +   [把AI数字人做出生活气息和灵魂感，这套实操我亲自跑通了](X0v3dHV3gozQStxAa6ucyW3ynQd_derep.md)
 +   [从被动裁员到自给自足，我在赚钱的两年实战笔记](X7lFdr3Hro43mqxqf0YcM3gOn5U_derep.md)

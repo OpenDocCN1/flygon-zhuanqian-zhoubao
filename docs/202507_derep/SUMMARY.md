@@ -264,7 +264,7 @@
 +   [从吐到怀疑人生，到被教练点名表扬：我的第一次航海，真香了](NqxTdZIS9o5YT4xTteHcucWlnUb_derep.md)
 +   [从大厂HR到AI写作接单：我的0到1实操复盘](O03dderEGo8Z4VxN4ZRcT2QFn1b_derep.md)
 +   [航海总结网页怎么做？这份回忆感满满的教程，手把手教你复刻](OE0BdLyxboiLKGxa16JcfBy3n5d_derep.md)
-+   [【生财技能】一线实战经验，总结AI写作项目的100个核心问题和解决方案](OkJ2dudNLoKNEMxpHhLcP9SJnwf_derep.md)
++   [【赚钱技能】一线实战经验，总结AI写作项目的100个核心问题和解决方案](OkJ2dudNLoKNEMxpHhLcP9SJnwf_derep.md)
 +   [一键搬运对标号！用 Coze + 飞书多维表格自动抓取小红书作者和笔记全数据](P4wodYFJhoshKUx0APecAzs7nDb_derep.md)
 +   [用人工智能做内容，月度营收破十万：从生产效率到商业闭环的完整路径](P6uCwKXbHirva5kZauHcJq1mnbe_derep.md)
 +   [京东家电代下新手实操手册](PMFOwda9ni4qyYky7mLcB7URn6c_derep.md)

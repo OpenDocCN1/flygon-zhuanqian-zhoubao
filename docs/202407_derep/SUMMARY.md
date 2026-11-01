@@ -321,7 +321,7 @@
 +   [从秃头程序员到百万播放博主：我如何在30天里跑通视频号](N0U2dR4YWogFltxZY7rcULfqnYd_derep.md)
 +   [入局短剧CPS仅用3个月，团队人均月入1.5万，累计变现80万](NKV4dWBM1oNhTXxduMGcreX0nmh_derep.md)
 +   [灰豚数据小红书使用教程及玩法](NQeyw7ZP0ig4J7ktv3ZcyuIfnCh_derep.md)
-+   [加入生财3个月，参加了2场航海，生意放大了10倍](NSI2dZu4hojlDPxcYrOcPxA7nSf_derep.md)
++   [加入赚钱3个月，参加了2场航海，生意放大了10倍](NSI2dZu4hojlDPxcYrOcPxA7nSf_derep.md)
 +   [视频号带货航海日入过万复盘](NX80dV4eloBqWpx9r6ucU3R8nfh_derep.md)
 +   [短视频引流变现项目-每天躺赚1k轻轻松松](NgbWdNGTBoLN38xozlAcvrvvnEN_derep.md)
 +   [别再硬干了，让工具替你把自媒体跑起来](NlN7d1NWdomGubxhHcNc2jEpnje_derep.md)

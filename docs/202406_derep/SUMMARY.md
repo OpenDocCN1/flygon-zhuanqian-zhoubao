@@ -241,7 +241,7 @@
 +   [裸辞all in视频号带货，入局2个月打出12w+佣金](EMKKdBcYQoCVNnxi8HJcw3FSnqd_derep.md)
 +   [7千粉丝赚到20万净利，我的3个变现秘诀](EZcPdg0qAouJd6xihi1clJgXnTe_derep.md)
 +   [真正有用的内容，其实就那么一两句！我做互联网十几年的经验之谈！](EZkDdfGwxozlkJxndTCcsaUcnWb_derep.md)
-+   [《生财新人指南》2024版](EftvdA6K3oyEHNx24uvczhUNn6G_derep.md)
++   [《赚钱新人指南》2024版](EftvdA6K3oyEHNx24uvczhUNn6G_derep.md)
 +   [从校园代购到多线百万收益：我用“阿米巴式组织法”完成零现金扩张](EwhLdFonFoxLuBxjuZUcBxNonxd_derep.md)
 +   [一元钱搭起RPA+AI流水线，让Excel里的批量智能处理像喝水一样顺手](F2Bjd7IvMoNbyAxVzzccvauAnXd_derep.md)
 +   [新人做私域IP如何让赚到第一桶金](FDVodQ4lpozBmWx4OvAciAErnM5_derep.md)

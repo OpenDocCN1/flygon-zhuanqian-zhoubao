@@ -316,7 +316,7 @@
 +   [手工复原一个 Shorts 爆款 AI 视频，我花了 4 小时](CBBpdId00o2k0fxM7ilcLCyhnOh_derep.md)
 +   [两年不到新增约2万家，无人值守桌球是门好生意吗？我用5间店跟你算笔细账](CD3vwWf1qiQoVXkiSh1c8hZPnro_derep.md)
 +   [写到让人拍案叫绝的产品文案，到底靠什么？](CeKFdvH8to4EIxx2j0CcIfkRnxc_derep.md)
-+   [【生财技能】我知道副业很重要，但是却找不到坚持的动力？](CkDSdRvhKoHS35xUq1Hcwre3nCc_derep.md)
++   [【赚钱技能】我知道副业很重要，但是却找不到坚持的动力？](CkDSdRvhKoHS35xUq1Hcwre3nCc_derep.md)
 +   [赚钱分享：为什么这家财税公司能在小红书精准捕获200+高意向线索？答案藏在定制化合规产品里](DMq7dsAOeoj9PCxGFg3cSmxJnGb_derep.md)
 +   [【赚钱思维】原来再好的赚钱机会都接不住，比起能力的问题，更严重的是思维出现了偏差。](DOQ9dFBX5oHNmGxuDvDc76cunwb_derep.md)
 +   [避坑指南！老板和设计师千万别踩字体、图片侵权的雷](DfzydbYIRoKlwvxoCiTchKd1nwf_derep.md)

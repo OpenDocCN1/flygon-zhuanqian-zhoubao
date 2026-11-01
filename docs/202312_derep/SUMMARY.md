@@ -263,7 +263,7 @@
 +   [2023年收官月了，先把个人养老金的退税窗口搞清楚：今年的钱必须在12月31日前缴进去，税是明年才退](ETsIdRXNpoYsmRxaEvBcQ5ipnke_derep.md)
 +   [手把手教你使用影刀RPA批量获取小红书低粉爆款的商品！全自动解放双手！](EkcLdKXHSowEJ1xsX67csVhunad_derep.md)
 +   [8000字拆解｜零成本一年吸粉10万+，从0到1打造可盈利的短视频图文IP](FqIpdNxlPoXw48xbsF0cS3DJnof_derep.md)
-+   [【生财有术分享】小红书无人直播挂商品及开播实操](GBFzdVwApow0sgxgboDclKotn2e_derep.md)
++   [【龙哥盟分享】小红书无人直播挂商品及开播实操](GBFzdVwApow0sgxgboDclKotn2e_derep.md)
 +   [《独家揭秘：仅发售600人，轻松变现12w+，我是怎么做到的？（深度复盘最简发售模型）》](GTngdLlD8oBPrfxNOlkc29JMn1b_derep.md)
 +   [实体门店如何做好抖音同城获客？](GVjddmZJToqPNhxPzR7crTBzn0S_derep.md)
 +   [如何申请国外edu邮箱](H2XKdLTlwouvUCxy7XxcETiEnL9_derep.md)
