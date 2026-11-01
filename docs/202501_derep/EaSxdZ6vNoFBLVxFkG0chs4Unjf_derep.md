@@ -1,6 +1,6 @@
 # 用本地 Issue 管理，让 Cursor 真正进入自动驾驶模式
 
-> 来源：[https://rxas35pmvn.feishu.cn/docx/EaSxdZ6vNoFBLVxFkG0chs4Unjf](https://rxas35pmvn.feishu.cn/docx/EaSxdZ6vNoFBLVxFkG0chs4Unjf)
+
 
 12 月那波航海结束后，不少非技术背景的朋友已经能上手 Cursor 写代码了，但用着用着总会卡住。人和 Cursor 怎么配合、怎么让它别瞎跑，是几乎所有人都绕不开的痛点。
 

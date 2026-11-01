@@ -1,6 +1,6 @@
 # 普通人入局年入百万的AI讲师赛道：全链路实战拆解与六大模块
 
-> 来源：[https://w91h2gmtrn.feishu.cn/docx/Epcmdcw4booK0FxUAe2c9e8dnFy](https://w91h2gmtrn.feishu.cn/docx/Epcmdcw4booK0FxUAe2c9e8dnFy)
+
 
 阅读前说明：
 

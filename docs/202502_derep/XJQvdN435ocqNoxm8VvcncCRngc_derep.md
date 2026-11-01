@@ -1,6 +1,6 @@
 # 四十岁从头来：17年打工生涯的终点，竟是我人生重启的起点
 
-> 来源：[https://balfcirt91j.feishu.cn/docx/XJQvdN435ocqNoxm8VvcncCRngc](https://balfcirt91j.feishu.cn/docx/XJQvdN435ocqNoxm8VvcncCRngc)
+
 
 年初刷到一条短视频，讲了一个叫小林妈妈的女人。她才28岁，独自带着两个娃，其中一个是先天性心脏病的男孩，另一个是刚会走路的女孩。大冬天的，她们一家三口在重庆街头摆摊卖烤苕皮。抖音上“爱画画的子衿”也曾分享过她的故事。镜头里的那个女孩笑得灿烂，完全看不出背后藏着怎样的苦。
 

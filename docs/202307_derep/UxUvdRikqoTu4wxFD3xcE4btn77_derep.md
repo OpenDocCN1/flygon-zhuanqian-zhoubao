@@ -1,6 +1,6 @@
 # 把 ChatGPT 讲清楚，提问方式才是决定性因素
 
-> 来源：[https://l0lupq5bcjq.feishu.cn/docx/UxUvdRikqoTu4wxFD3xcE4btn77](https://l0lupq5bcjq.feishu.cn/docx/UxUvdRikqoTu4wxFD3xcE4btn77)
+
 
 各位好，我是峰兄。
 

@@ -1,6 +1,6 @@
 # 6月小红书航海营里，我手搓的几件 mac 实战小工具
 
-> 来源：[https://irxd56ii8t.feishu.cn/docx/Or5KdxkPlodU70xpPbQczyUynF9](https://irxd56ii8t.feishu.cn/docx/Or5KdxkPlodU70xpPbQczyUynF9)
+
 
 大家好，我是香君，赚钱的新人。
 

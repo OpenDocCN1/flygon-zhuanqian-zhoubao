@@ -1,6 +1,6 @@
 # 如果回到三十岁创业，龙哥会给自己哪些提醒
 
-> 来源：[https://pcuddnfsui.feishu.cn/docx/HxBWdbw8Yowwgjxr0JUcJ8dtn0b](https://pcuddnfsui.feishu.cn/docx/HxBWdbw8Yowwgjxr0JUcJ8dtn0b)
+
 
 关键词：c 赚钱 分享 特质 观点 机会 圈子 生态 世界 定位 勇气 视野 年轻人 投资 印象 主义 商业定位 商业价值
 

@@ -1,6 +1,6 @@
 # 如何让自媒体内容既吸粉又带单？用这一套选题思路就能打通流量和转化（附可直接套用的AI方法）
 
-> 来源：[https://balfcirt91j.feishu.cn/docx/NgvzdmIOHowt1Txj1aicJGvfn8g](https://balfcirt91j.feishu.cn/docx/NgvzdmIOHowt1Txj1aicJGvfn8g)
+
 
 商业导师张琦说过一句话：未来，任何一个行业都能被知识化。
 

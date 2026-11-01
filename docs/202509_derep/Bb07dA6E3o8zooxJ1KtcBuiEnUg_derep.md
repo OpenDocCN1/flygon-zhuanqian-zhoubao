@@ -1,6 +1,6 @@
 # 知识IP如何把垂直公众号小号跑通：从持续发文到私域变现的复盘
 
-> 来源：[https://wajc9k860mx.feishu.cn/docx/Bb07dA6E3o8zooxJ1KtcBuiEnUg](https://wajc9k860mx.feishu.cn/docx/Bb07dA6E3o8zooxJ1KtcBuiEnUg)
+
 
 最近龙哥老师提到垂直小号的打法，我看完很有触动，和自己过去十二个月做的事几乎重合。朋友把截屏发过来，说这不就是在写你嘛，催我去参加垂直小号大航海。感谢主办方的邀请，今天把这一年的实践做一次梳理。
 

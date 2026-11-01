@@ -2,7 +2,7 @@
 
 想把小红书直播从手机搬到电脑上，但点进去一头雾水？这篇保姆级攻略把每一步都拆清楚了，照着做就能顺利上线开播。
 
-> 来源：[https://oghxok13aq.feishu.cn/docx/P5xId1tlwoQQrYxh8SKcukUynjh](https://oghxok13aq.feishu.cn/docx/P5xId1tlwoQQrYxh8SKcukUynjh)
+
 
 # 第一步，先进小红书官网后台
 

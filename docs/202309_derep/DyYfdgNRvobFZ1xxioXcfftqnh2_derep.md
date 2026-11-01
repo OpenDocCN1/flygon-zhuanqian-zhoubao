@@ -1,6 +1,6 @@
 # 小说推文视频玩法全拆解，新手是否还能做？
 
-> 来源：[https://yf4niapxuw.feishu.cn/docx/DyYfdgNRvobFZ1xxioXcfftqnh2](https://yf4niapxuw.feishu.cn/docx/DyYfdgNRvobFZ1xxioXcfftqnh2)
+
 
 大家好，我是云珞。
 

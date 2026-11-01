@@ -2,7 +2,7 @@
 
 @Leeka
 
-> 来源：[https://ktuszl372b.feishu.cn/docx/BgxOdsgqNom98UxMctVcJHbunrb](https://ktuszl372b.feishu.cn/docx/BgxOdsgqNom98UxMctVcJHbunrb)
+
 
 嗨，我是 Leeka，影刀认证优秀工程师，也是 Uibot 认证工程师，很高兴能作为 8 月抖音图文项目的教练跟大家见面。
 

@@ -1,6 +1,6 @@
 # 视频号做内容变现的航海指南
 
-> 来源：[https://k4h4dcpi91.feishu.cn/docx/VlR0dRPw1onLDCxevL5cbaWTnph](https://k4h4dcpi91.feishu.cn/docx/VlR0dRPw1onLDCxevL5cbaWTnph)
+
 
 大家好，我是李百万。感谢赚钱，记录了我从0到1再到1到10的成长。
 

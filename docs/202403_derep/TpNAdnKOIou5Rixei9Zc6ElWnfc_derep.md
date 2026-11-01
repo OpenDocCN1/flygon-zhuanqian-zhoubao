@@ -1,6 +1,6 @@
 # 从零到一玩转AI数字人全套实操
 
-> 来源：[https://vow6kdbiak.feishu.cn/docx/TpNAdnKOIou5Rixei9Zc6ElWnfc](https://vow6kdbiak.feishu.cn/docx/TpNAdnKOIou5Rixei9Zc6ElWnfc)
+
 
 请勿滥用该技术，并遵守法律法规！特别声明：课程是教学和答疑，不做任何变现保证！
 

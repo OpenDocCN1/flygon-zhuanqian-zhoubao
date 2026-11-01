@@ -1,6 +1,6 @@
 # 我的“第二大脑”选型实录：5000字深度测评，帮你避开AI知识库的坑
 
-> 引用来源：[https://jid6vvjfdm.feishu.cn/docx/UZ8Pdt6uXoKEndx9bghct2o4nhd](https://jid6vvjfdm.feishu.cn/docx/UZ8Pdt6uXoKEndx9bghct2o4nhd)
+
 
 大家好，我是河林，98年出生，INFJ人格，坐标杭州。
 

@@ -1,6 +1,6 @@
 # 美区TikTok Shop掘金手册
 
-> 来源：[https://kvtg1zi247l.feishu.cn/docx/UqLydYGxKoJxE3x8QSCc8nofnYd](https://kvtg1zi247l.feishu.cn/docx/UqLydYGxKoJxE3x8QSCc8nofnYd)
+
 
 # 项目概览
 

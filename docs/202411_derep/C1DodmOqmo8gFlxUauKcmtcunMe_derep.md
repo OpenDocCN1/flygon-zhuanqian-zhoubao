@@ -1,6 +1,6 @@
 # 《从零搭起你的向上社交系统》 （重读《送东阳马生序》，你可能全看错了）
 
-> 来源：[https://mcn09clzx4g2.feishu.cn/docx/C1DodmOqmo8gFlxUauKcmtcunMe](https://mcn09clzx4g2.feishu.cn/docx/C1DodmOqmo8gFlxUauKcmtcunMe)
+
 
 朋友你好，这篇文档是我放出来的唯一一份关于向上社交的深度拆解。
 

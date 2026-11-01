@@ -1,6 +1,6 @@
 # 体验Manus：一把抓写作、数据分析与PPT的AI能否真的省心
 
-> 来源：[https://strczxjzdj.feishu.cn/docx/B4GUddHYfoH0Ndxp3M6cUuG9nSc](https://strczxjzdj.feishu.cn/docx/B4GUddHYfoH0Ndxp3M6cUuG9nSc)
+
 
 # 开场
 

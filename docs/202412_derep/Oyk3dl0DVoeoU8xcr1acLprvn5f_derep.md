@@ -1,6 +1,6 @@
 # 折腾了四年无人直播，终究是视频号这条路最香！附赠完整实操脑图
 
-> 来源：[https://r7weuqivm5.feishu.cn/docx/Oyk3dl0DVoeoU8xcr1acLprvn5f](https://r7weuqivm5.feishu.cn/docx/Oyk3dl0DVoeoU8xcr1acLprvn5f)
+
 
 跟我熟的赚钱老友都知道，我在无人直播这条赛道里已经深耕四年了。从义乌那间逼仄的小单间，到如今杭州五百平的团队办公室，平台也从快手切到抖音再回快手，反反复复试错、大起大落。直到今年9月，一个同行私聊我一句：你做视频号无人了吗？这句话点醒了我，原来这块机会一直都在。
 

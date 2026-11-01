@@ -1,6 +1,6 @@
 # 虚拟资料卖不动了？试试把内容做成实体，实操复盘来了
 
-> 来源：[https://a033a8trbo.feishu.cn/docx/IsqTdvX6bolp8IxkqclcWWIWnTh](https://a033a8trbo.feishu.cn/docx/IsqTdvX6bolp8IxkqclcWWIWnTh)
+
 
 （全文约1.4万字，阅读约45分钟，目录可跳转）
 

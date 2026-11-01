@@ -1,6 +1,6 @@
 # 同一条航线，根本不是同一份作业
 
-> 来源：[https://gd7vhvhxq16l.feishu.cn/docx/IJWTdJ5bAoefzcxfXyKcsm0WnBd](https://gd7vhxq16l.feishu.cn/docx/IJWTdJ5bAoefzcxfXyKcsm0WnBd)
+
 
 在赚钱动态里翻东西时，偶然看到@澄哥发的帖子
 #航海好事# @澄歌

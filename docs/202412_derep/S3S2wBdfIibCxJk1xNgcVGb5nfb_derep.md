@@ -1,6 +1,6 @@
 # 小红书广告变现全景解码
 
-> 来源：[https://m08zlw24sg0.feishu.cn/docx/CgBSdyEDooCZ75xOsafc0CsunYy](https://m08zlw24sg0.feishu.cn/docx/CgBSdyEDooCZ75xOsafc0CsunYy)
+
 
 11月底，龙哥在我的笔记下方留言，希望我针对小红书广告变现做一次拆解，我觉得这个方向很有价值，于是启动了。
 

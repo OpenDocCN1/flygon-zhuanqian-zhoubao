@@ -1,6 +1,6 @@
 # 那一年，十分钟到手十二万美元，第四章连载
 
-> 来源：[https://tj51bxige8.feishu.cn/docx/UVYLdjUyuo60vQx69SecPd7ZnTg](https://tj51bxige8.feishu.cn/docx/UVYLdjUyuo60vQx69SecPd7ZnTg)
+
 
 大家好，我是静水流深，目前在英文工具站担任教练。
 

@@ -1,6 +1,6 @@
 # 00后大学生靠小红书做境外高端游，2个月12单 gmv32w+ 纯利3w+，我的实操复盘
 
-> 来源：[https://ci4gfx0d76u.feishu.cn/docx/AwYadBHy6oII4txYjUkcoR0knrc](https://ci4gfx0d76u.feishu.cn/docx/AwYadBHy6oII4txYjUkcoR0knrc)
+
 
 大家好，我是北哥。00后在校大学生，2023年4月加入赚钱，潜水一年多。今天把我做高端境外游跑通的过程摊开说，2个月出了12单，gmv32w+，净赚3w+，到底是怎么做的。
 

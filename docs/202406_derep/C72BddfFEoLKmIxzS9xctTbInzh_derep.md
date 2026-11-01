@@ -1,6 +1,6 @@
 # 短剧批量混剪的底层逻辑与实操SOP全解析
 
-> 来源：[https://ijarxpcwej.feishu.cn/docx/C72BddfFEoLKmIxzS9xctTbInzh](https://ijarxpcwej.feishu.cn/docx/C72BddfFEoLKmIxzS9xctTbInzh)
+
 
 之前我分享过一套短剧混剪的流程，当时篇幅有限没讲透，细节问题也被问爆了。这次把最近的实战经验和思路都整理出来沉淀一下。
 

@@ -1,6 +1,6 @@
 # 10分钟搞定！671B满血DeepSeek私人专属版，腾讯云新品免费白嫖一个月
 
-> 来源：[https://k0tidc5ov25.feishu.cn/docx/EZ8xdTelGo0okWxgqFDcadKNnSb](https://k0tidc5ov25.feishu.cn/docx/EZ8xdTelGo0okWxgqFDcadKNnSb)
+
 
 腾讯云昨晚刚上线的低代码新工具，已经可以无缝接入小程序、官网、订阅号等场景。核心玩法和详细情况如下。
 

@@ -1,6 +1,6 @@
 # 《小红书冷门蓝海：p掉路人，12天观察5天实操，收入1159，私域沉淀260人》
 
-> 来源：[https://qnfoes1o78.feishu.cn/docx/TXwrdLSEIoSsUhxAD9icDXRqnoI](https://qnfoes1o78.feishu.cn/docx/TXwrdLSEIoSsUhxAD9icDXRqnoI)
+
 
 各位圈友大家好，我是林歌，白天在杭州做电商，晚上在平潭跑民宿。
 

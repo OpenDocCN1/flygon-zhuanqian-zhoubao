@@ -1,6 +1,6 @@
 # 不拍视频、不直播、不露脸，靠“剪素材”半年赚70w+，这个闲鱼式副业太适合新人了！（保姆级教程）
 
-> 来源：[https://own4m8h9o3k.feishu.cn/docx/TXSrdRQSPoJcHfxSjBHc1rxxnVG](https://own4m8h9o3k.feishu.cn/docx/TXSrdRQSPoJcHfxSjBHc1rxxnVG)
+
 
 ### 兄弟姐妹们，掏心窝子讲一句：网上真能让你搞到钱的项目，掰着手指头数都数得过来。大部分打着“带你赚钱”旗号的，其实是想赚你的钱。
 

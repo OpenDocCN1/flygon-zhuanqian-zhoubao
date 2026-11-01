@@ -1,6 +1,6 @@
 # 83万单背后的增长密码：Halara TikTok美国小店爆单全拆解
 
-> 来源：[https://za6kyadmdr.feishu.cn/docx/Tm3mdOxhNo8e22xHIfncOFiznde](https://za6kyadmdr.feishu.cn/docx/Tm3mdOxhNo8e22xHIfncOFiznde)
+
 
 Halara US 在2月的小店销量榜中位列第五，本次拆解就以这家店为样本来看它是怎么跑出来的。
 

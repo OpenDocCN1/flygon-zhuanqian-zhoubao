@@ -1,6 +1,6 @@
 # 零露脸零拍摄，靠 ChatGPT+Canva 可画 10分钟就能搞定100条短视频
 
-> 来源：[https://dik4wr1hyrw.feishu.cn/docx/TqsVd7NCKojm41xJtoacP5Ienkf](https://dik4wr1hyrw.feishu.cn/docx/TqsVd7NCKojm41xJtoacP5Ienkf)
+
 
 最近刷到一波配风景的金句视频，感觉效果很不错，就去 YouTube 上找了下制作思路，还真有现成的玩法。工具组合很简单，就是 ChatGPT 3.5 搭配 Canva 可画，记得提前做好网络环境。
 

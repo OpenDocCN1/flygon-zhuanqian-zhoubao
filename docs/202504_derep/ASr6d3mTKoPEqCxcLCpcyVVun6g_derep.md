@@ -1,6 +1,6 @@
 # 玩不腻的游戏库怎么来？老站长分享7个实用招数
 
-> 来源：https://ppn3f2zvoq.feishu.cn/docx/ASr6d3mTKoPEqCxcLCpcyVVun6g
+
 
 我是PeterZEN，去年8月第一次参加【chatgpt+海外工具】航海，从挖需求、做开发、搞推广、做变现一路走过来，赚到了人生第一笔美元。当时AI写代码还不太好使，我一边自学html/css/javascript，一边用免费的ChatGPT硬撑，做了第一个网站，也拿到了第一笔美金。
 

@@ -1,6 +1,6 @@
 # 抖音最后的红利洼地：打造月入5万、可批量复制的同城电商IP
 
-> 来源：[https://i0h0efctgt0.feishu.cn/docx/ADUrdLAlQoPBzWxvNilcQ2xxnjh](https://i0h0efctgt0.feishu.cn/docx/ADUrdLAlQoPBzWxvNilcQ2xxnjh)
+
 
 # 开场白
 

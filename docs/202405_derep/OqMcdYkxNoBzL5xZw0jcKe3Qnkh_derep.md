@@ -1,6 +1,6 @@
 # 新手副业首选：网盘拉新项目从0到1实操指南
 
-> 来源：[https://z7h6phhn3p.feishu.cn/docx/OqMcdYkxNoBzL5xZw0jcKe3Qnkh](https://z7h6phhn3p.feishu.cn/docx/OqMcdYkxNoBzL5xZw0jcKe3Qnkh)
+
 
 大家好，我是一网，在赚钱Club混迹三年，多数时间潜水看帖。当时想找网盘拉新项目的完整教程，翻遍站内也没看到。后来自己跑通了整个流程，想着不少圈友可能也需要，就写了这篇。
 

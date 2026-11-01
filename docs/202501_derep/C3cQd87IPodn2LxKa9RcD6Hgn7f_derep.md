@@ -1,6 +1,6 @@
 # 新手妈妈灵姗：用一张思维导图，我把2024年六位数的副业年终盘点做完了
 
-> 来源：[https://gism31za7q.feishu.cn/docx/C3cQd87IPodn2LxKa9RcD6Hgn7f](https://gism31za7q.feishu.cn/docx/C3cQd87IPodn2LxKa9RcD6Hgn7f)
+
 
 大家好，我是边打工边赚钱的新手宝妈灵姗。
 

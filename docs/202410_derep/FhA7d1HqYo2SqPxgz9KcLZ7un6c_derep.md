@@ -1,6 +1,6 @@
 # Coze/扣子零代码搭MVP：让公众号自动提炼要点并定时送达微信，附8000字实操手记
 
-> 来源：[https://v0bko2tq65.feishu.cn/docx/FhA7d1HqYo2SqPxgz9KcLZ7un6c](https://v0bko2tq65.feishu.cn/docx/FhA7d1HqYo2SqPxgz9KcLZ7un6c)
+
 
 各位好，我是拔刀刘，Coze提效大航海的带队教练。
 

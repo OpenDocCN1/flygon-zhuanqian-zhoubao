@@ -1,6 +1,6 @@
 # 用影刀RPA配合AI，把龙哥盟的风向标和精华帖变成每日早报
 
-> 来源：[https://ia0969wpr2.feishu.cn/docx/AUFMd8clbopM7GxwnBfc3jqtnRc](https://ia0969wpr2.feishu.cn/docx/AUFMd8clbopM7GxwnBfc3jqtnRc)
+
 
 此前我分享过一套基于影刀+Claude的方案，可以自动抓取龙哥盟的风向标与精华帖并推送到微信以及飞书群组，原帖链接见上文。
 

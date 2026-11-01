@@ -1,6 +1,6 @@
 # 三周不到，5个电商榜单登顶，成交额冲破七位数：一次新书发售的完整复盘
 
-> 来源：[https://fcjmogm9bc.feishu.cn/docx/XHKUdoHCpoTEYsxi6aYcj9Y4nBc](https://fcjmogm9bc.feishu.cn/docx/XHKUdoHCpoTEYsxi6aYcj9Y4nBc)
+
 
 # 开篇
 

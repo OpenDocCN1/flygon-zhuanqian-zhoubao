@@ -1,6 +1,6 @@
 # 海外产品篇：盈利方式哪些？怎么做？
 
-> 来源：[https://bwvzbvg3i3.feishu.cn/docx/USJqdlHxRo5QHRxSV1KcWezqn8d](https://bwvzbvg3i3.feishu.cn/docx/USJqdlHxRo5QHRxSV1KcWezqn8d)
+
 
 大家好，我是书虫，自我介绍就略过，有兴趣可以去看我之前的帖子
 

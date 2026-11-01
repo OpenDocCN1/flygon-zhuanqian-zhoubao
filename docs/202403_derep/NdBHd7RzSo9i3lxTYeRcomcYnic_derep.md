@@ -1,6 +1,6 @@
 # 30岁+普通文科生，我靠AI从0到日用离不开，还靠它变现
 
-> 来源：[https://vliajwma3m.feishu.cn/docx/NdBHd7RzSo9i3lxTYeRcomcYnic](https://vliajwma3m.feishu.cn/docx/NdBHd7RzSo9i3lxTYeRcomcYnic)
+
 
 AI内容创作，难道只属于程序员和理工男的世界吗？
 

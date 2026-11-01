@@ -1,6 +1,6 @@
 # 三、公众号批量上传机器人
 
-> 来源：[https://fqlleg2dnfa.feishu.cn/docx/J6pRd5hzMo98j2xIwOocSawpnCf](https://fqlleg2dnfa.feishu.cn/docx/J6pRd5hzMo98j2xIwOocSawpnCf)
+
 
 ### 一、 总览
 

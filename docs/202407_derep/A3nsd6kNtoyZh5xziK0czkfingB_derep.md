@@ -1,6 +1,6 @@
 # 在马来西亚把 TikTok 直播间做到月入十万马币，关键是这套打法
 
-> 来源：[https://l6zk1q2529.feishu.cn/docx/A3nsd6kNtoyZh5xziK0czkfingB](https://l6zk1q2529.feishu.cn/docx/A3nsd6kNtoyZh5xziK0czkfingB)
+
 
 先放一组真实跑出来的数字：单场直播做到 6000 马币以上，单个直播间平均每月稳定在 10 万马币以上。这不是靠某个主播天赋异禀，而是从搭团队、选人、定品、控供应链，到每天的执行细节，整个系统磨合出来的结果。
 

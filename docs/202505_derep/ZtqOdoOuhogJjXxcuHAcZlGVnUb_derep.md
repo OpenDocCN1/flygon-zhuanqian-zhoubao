@@ -1,6 +1,6 @@
 # 把 Coze 和剪映连通后，批量做竖屏动画能有多省事？这份搭建手册请收好
 
-> 来源：[https://ngppuxr565.feishu.cn/docx/ZtqOdoOuhogJjXxcuHAcZlGVnUb](https://ngppuxr565.feishu.cn/docx/ZtqOdoOuhogJjXxcuHAcZlGVnUb)
+
 
 做短视频最熬人的环节就是剪片。最近 Coze 开放了跟剪映的联动能力，两个工具之间的搬运工作可以全部交给系统跑，省出来的时间够我多规划好几个选题。
 

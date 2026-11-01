@@ -1,6 +1,6 @@
 # 2024年澳洲 TikTok 电商市场洞察：半闭环内测下的新机会
 
-> 来源：[https://za6kyadmdr.feishu.cn/docx/XCTZd4Mblo9N6fxsiVOcsPQXnWb](https://za6kyadmdr.feishu.cn/docx/XCTZd4Mblo9N6fxsiVOcsPQXnWb)
+
 
 澳洲市场正迎来电商半闭环功能的内测期，下面这份调研汇总了当下可落地的关键信息。
 

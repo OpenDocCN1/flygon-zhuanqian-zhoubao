@@ -1,6 +1,6 @@
 # 从职场小白到小红书1100单：一次自我觉醒的电商航行复盘
 
-> 来源：[https://aea4xjvozr.feishu.cn/docx/VHMGdK5gPojcBDxU7vwcDyS1n1b](https://aea4xjvozr.feishu.cn/docx/VHMGdK5gPojcBDxU7vwcDyS1n1b)
+
 
 大家好，我是丹丹。航海之前我在一家少儿教育机构上班，小红书店铺也是利用在职的碎片时间跟着项目慢慢搭起来的。
 

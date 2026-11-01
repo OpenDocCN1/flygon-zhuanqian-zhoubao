@@ -1,6 +1,6 @@
 # 别再做大号了，700粉的垂直小号+小程序，我每天稳定到账百元
 
-> 来源：[https://rcn71rsvb3w5.feishu.cn/docx/Q4xYdSUJZo2S3GxtK1nc4nyUnbd](https://rcn71rsvb3w5.feishu.cn/docx/Q4xYdSUJZo2S3GxtK1nc4nyUnbd)
+
 
 大家好，我是盟主君，一个靠AI干活养家的90后。
 

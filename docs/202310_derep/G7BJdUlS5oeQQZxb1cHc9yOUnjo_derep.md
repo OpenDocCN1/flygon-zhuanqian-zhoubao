@@ -1,6 +1,6 @@
 # 公众号情感文10万+，我靠的其实是这套ChatGPT商用指令
 
-> 来源：[https://xq6mz7nkknp.feishu.cn/docx/G7BJdUlS5oeQQZxb1cHc9yOUnjo](https://xq6mz7nkknp.feishu.cn/docx/G7BJdUlS5oeQQZxb1cHc9yOUnjo)
+
 
 嗨，我是台风，一个AI魔法师，现在主要深耕AI自媒体这块儿，也是GPT航海项目的教练。
 

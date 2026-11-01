@@ -1,6 +1,6 @@
 # 3个月从0到2万粉，公众号单月引流2000人，我把整套个人IP打法摊开了说
 
-> 来源：[https://v00gv8edzj.feishu.cn/docx/QQ5vdVzP3o5qEBxx9PpcIaj5nBL](https://v00gv8edzj.feishu.cn/docx/QQ5vdVzP3o5qEBxx9PpcIaj5nBL)
+
 
 赚钱的各位朋友大家好，我是黄黄。
 

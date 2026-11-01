@@ -1,6 +1,6 @@
 # 风向标项目拆解第3期：爆款手作饰品的生意经都在哪儿-Sukie
 
-> 来源：[https://k881v1y7m5.feishu.cn/docx/BvEwdkixzoaXsJxxPT3cgAAWnic](https://k881v1y7m5.feishu.cn/docx/BvEwdkixzoaXsJxxPT3cgAAWnic)
+
 
 本期拆解的框架如下
 

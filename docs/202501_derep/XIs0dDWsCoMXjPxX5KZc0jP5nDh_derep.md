@@ -1,6 +1,6 @@
 # 微信好友上限卡住了？用这套方法把关系整理得更顺手
 
-> 来源：[https://fvxoq23qyuq.feishu.cn/docx/XIs0dDWsCoMXjPxX5KZc0jP5nDh](https://fvxoq23qyuq.feishu.cn/docx/XIs0dDWsCoMXjPxX5KZc0jP5nDh)
+
 
 大家好，我是做了7年创业的小乐。从2016年开始玩公众号，2017年底彻底裸辞转自由职业，现在手上打理着50多个公众号矩阵，全网粉丝累计40万，专攻公域流量运营。2021年4月入驻赚钱。
 

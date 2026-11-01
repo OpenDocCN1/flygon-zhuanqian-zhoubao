@@ -1,6 +1,6 @@
 # 一天搭好：RPA + Claude 组合，我做出了一款小红书爆款商品挖掘器
 
-> 来源：[https://ia0969wpr2.feishu.cn/docx/Q5JbdWDvRohrbax45HscbUBHnVd](https://ia0969wpr2.feishu.cn/docx/Q5JbdWDvRohrbax45HscbUBHnVd)
+
 
 想做变现，选品永远是第一关。怎么找细分赛道、怎么挖冷门爆款，是每个想赚钱的人都绕不开的话题。最近我在小红书搜商品关键词时，撞见了几款让我完全没想到的产品。
 

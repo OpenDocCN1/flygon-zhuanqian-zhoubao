@@ -1,6 +1,6 @@
 # 用AI搭配思维模型，找到解题的新路径
 
-> 来源：[https://zzi7a49xoa.feishu.cn/docx/TA9bdK4N2oIfC5xHnyXcn3cFn7e](https://zzi7a49xoa.feishu.cn/docx/TA9bdK4N2oIfC5xHnyXcn3cFn7e)
+
 
 嗨，我是熊猫Jay 🐼，日常围绕AI办公提效与提示词研究。这次想和你聊聊一个很有意思的组合：AI与思维模型如何配合，帮助我们跳出常规套路，找到问题的另类解法。
 

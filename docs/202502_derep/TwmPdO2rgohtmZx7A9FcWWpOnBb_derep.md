@@ -1,6 +1,6 @@
 # 花不到一百块，自己动手做一个专属的私人AI语音助手
 
-> 来源：[https://hez86518tv.feishu.cn/docx/TwmPdO2rgohtmZx7A9FcWWpOnBb](https://hez86518tv.feishu.cn/docx/TwmPdO2rgohtmZx7A9FcWWpOnBb)
+
 
 | 版本 | 更新描述 | 作者 | 更新日期 |
 

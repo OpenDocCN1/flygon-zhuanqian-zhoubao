@@ -1,6 +1,6 @@
 # 别让这五个坑，提前终结你的网赚之路
 
-> 来源：[https://uwdpzjnryu8.feishu.cn/docx/BiEBd6DQGoKaLlx7TCpco5NpnAb](https://uwdpzjnryu8.feishu.cn/docx/BiEBd6DQGoKaLlx7TCpco5NpnAb)
+
 
 # 开场话
 

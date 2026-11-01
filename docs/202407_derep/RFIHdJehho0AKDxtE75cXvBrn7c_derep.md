@@ -1,6 +1,6 @@
 # 在航海实战里，如何每天都能感受到在进步？
 
-> 来源：[https://pznme756ly.feishu.cn/docx/RFIHdJehho0AKDxtE75cXvBrn7c](https://pznme756ly.feishu.cn/docx/RFIHdJehho0AKDxtE75cXvBrn7c)
+
 
 大家好，我是明白。
 

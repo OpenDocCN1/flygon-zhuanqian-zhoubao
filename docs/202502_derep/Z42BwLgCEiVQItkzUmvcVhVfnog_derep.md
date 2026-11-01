@@ -1,6 +1,6 @@
 # Coze 零成本搭一个迷你版吐槽大会
 
-> 来源：[https://gida8fb9mrg.feishu.cn/docx/BsPmdnUV6owzozx6d2Uc0aMXnSd](https://gida8fb9mrg.feishu.cn/docx/BsPmdnUV6owzozx6d2Uc0aMXnSd)
+
 
 最近在精华帖里刷到一个用 AI 工具从零做起的吐槽网站：https://t.zsxq.com/dBAYN
 看完有点上头，就顺手用 Coze 也复刻了一遍。如今 Coze 除了能做智能体，还能直接做应用，功能很全了。

@@ -1,6 +1,6 @@
 # 单人两天搞定90篇精华帖：我用AI做导图的完整实践记录
 
-> 来源：[https://k170ac9yh31.feishu.cn/docx/BDi6dttI3oXMvUx4PLDc8Gh2nGh](https://k170ac9yh31.feishu.cn/docx/BDi6dttI3oXMvUx4PLDc8Gh2nGh)
+
 
 # 写在前面
 

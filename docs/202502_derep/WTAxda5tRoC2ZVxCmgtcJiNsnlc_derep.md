@@ -1,6 +1,6 @@
 # 零代码背景，我如何借助 Cursor 打造 AI 出海工具站并实现美元变现
 
-> 来源：[https://tjvomspfav.feishu.cn/docx/WTAxda5tRoC2ZVxCmgtcJiNsnlc](https://tjvomspfav.feishu.cn/docx/WTAxda5tRoC2ZVxCmgtcJiNsnlc)
+
 
 大家好，我是阿西，一名互联网运营从业者。完全没有编程基础的情况下，我自学 Cursor 搭建海外工具站，站点上线约半个月就收到首笔付费，实现了盈利。同时我在即刻、X、普刊运营相关账号【阿西_出海】，持续输出出海与 AI 方面的内容，多篇被官方推荐，在 X 平台阅读量多次破万。
 

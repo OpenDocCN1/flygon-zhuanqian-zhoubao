@@ -1,6 +1,6 @@
 # 别整虚的，互联网变现就靠这两件事
 
-> 来源：[https://icbny036uy.feishu.cn/docx/RO6TdFEv5o9PaNxVkwqcRQrfnee](https://icbny036uy.feishu.cn/docx/RO6TdFEv5o9PaNxVkwqcRQrfnee)
+
 
 # 一、用最小成本验证闭环
 

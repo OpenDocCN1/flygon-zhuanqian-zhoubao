@@ -1,6 +1,6 @@
 # 去掉AI味的文案与长文创作提示词实操全解，含小红书用法
 
-> 来源：[https://u604y5x4sg.feishu.cn/docx/XpmvdbSCGoF7gixIKRHcPVwXnlg](https://u604y5x4sg.feishu.cn/docx/XpmvdbSCGoF7gixIKRHcPVwXnlg)
+
 
 大家好，我是哆元，主攻AI在小红书上的应用研究。
 

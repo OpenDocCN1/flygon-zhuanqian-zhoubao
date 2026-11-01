@@ -1,6 +1,6 @@
 # 小红书店铺实操全记录：从选品到稳定出单的打法拆解
 
-> 来源：[https://fcf4a0devm.feishu.cn/docx/I4tBdhtiEoffmRxhFdqcB8X0niC](https://fcf4a0devm.feishu.cn/docx/I4tBdhtiEoffmRxhFdqcB8X0niC)
+
 
 大家好，我是小毛。
 

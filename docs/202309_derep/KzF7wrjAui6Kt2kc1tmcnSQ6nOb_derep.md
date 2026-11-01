@@ -1,6 +1,6 @@
 # 航海手记 | 龙哥盟 · 社群发起人课程复盘
 
-> 来源：[https://fqlleg2dnfa.feishu.cn/docx/IhLJdhlCjo6BB7x7BzNcxzp8nqz](https://fqlleg2dnfa.feishu.cn/docx/IhLJdhlCjo6BB7x7BzNcxzp8nqz)
+
 
 龙哥盟航海【社群发起人】，内容共创，版权归全体。
 

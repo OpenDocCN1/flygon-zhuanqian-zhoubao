@@ -1,6 +1,6 @@
 # 航海总结网页怎么做？这份回忆感满满的教程，手把手教你复刻
 
-> 原文参考：[飞书文档链接](https://fmu80oi2fx.feishu.cn/docx/OE0BdLyxboiLKGxa16JcfBy3n5d)
+
 
 ## 先看看成品效果
 

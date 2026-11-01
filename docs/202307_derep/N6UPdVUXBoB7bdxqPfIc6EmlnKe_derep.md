@@ -1,6 +1,6 @@
 # 用AI撸百家号动态的实操复盘：我是怎么做到月入一千到两千的
 
-> 来源：[https://hdn8pwdl1l.feishu.cn/docx/N6UPdVUXBoB7bdxqPfIc6EmlnKe](https://hdn8pwdl1l.feishu.cn/docx/N6UPdVUXBoB7bdxqPfIc6EmlnKe)
+
 
 最近用AI做公众号，流量意外地不错，日常到账大概在三百到一千五之间，和头部作者比起来差了不少，但坚持几个月下来收益也很可观。
 

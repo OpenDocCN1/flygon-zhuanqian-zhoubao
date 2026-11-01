@@ -1,6 +1,6 @@
 # 五个月玩转闲鱼二手书：从选品到高客单的实战复盘
 
-> 来源：[https://nrsagciwti.feishu.cn/docx/KIIxdokwYoE4uax1Tk4ceTBxnlf](https://nrsagciwti.feishu.cn/docx/KIIxdokwYoE4uax1Tk4ceTBxnlf)
+
 
 今天把我深耕闲鱼二手书半年的实操经验整理出来，主要是几套能快速跑出正向反馈的选品打法，希望能帮助刚入局的朋友更快拿到结果，建立信心。正是靠这套思路，我个人也完成了副业闭环，更重要的是在此过程中沉淀出了一套电商选品与运营的方法论，也为后续做副业打下了基础能力。
 

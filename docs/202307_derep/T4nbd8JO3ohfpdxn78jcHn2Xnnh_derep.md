@@ -1,6 +1,6 @@
 # 从抖音截流到快手变现：一套利益绑定模型带非技术新人一年做到2亿GMV
 
-> 来源：[https://kkehvdiodf.feishu.cn/docx/T4nbd8JO3ohfpdxn78jcHn2Xnnh](https://kkehvdiodf.feishu.cn/docx/T4nbd8JO3ohfpdxn78jcHn2Xnnh)
+
 
 ## 前言自述
 

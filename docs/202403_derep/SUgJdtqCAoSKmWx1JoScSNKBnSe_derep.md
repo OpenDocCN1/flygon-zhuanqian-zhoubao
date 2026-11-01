@@ -1,6 +1,6 @@
 # 11个月赚到20万，引流8000+精准家长老师，这个小学资料项目我全盘拆给你看
 
-> 来源：[https://rb2nh1gqd0.feishu.cn/docx/SUgJdtqCAoSKmWx1JoScSNKBnSe](https://rb2nh1gqd0.feishu.cn/docx/SUgJdtqCAoSKmWx1JoScSNKBnSe)
+
 
 大家好，我是拾一。
 

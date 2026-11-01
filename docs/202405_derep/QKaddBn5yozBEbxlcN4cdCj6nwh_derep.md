@@ -1,6 +1,6 @@
 # 初进赚钱，怎样快速锁定自己的方向？
 
-> 来源：[https://f0ym6s15nt1.feishu.cn/docx/QKaddBn5yozBEbxlcN4cdCj6nwh](https://f0ym6s15nt1.feishu.cn/docx/QKaddBn5yozBEbxlcN4cdCj6nwh)
+
 
 # 一、写在前面
 

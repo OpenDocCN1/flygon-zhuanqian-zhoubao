@@ -1,6 +1,6 @@
 # 风向标拆解第 3 期--手艺人垂类知识付费是一个小而美的生意吗？--榴莲小象
 
-> 来源：[https://cinp728gco.feishu.cn/docx/OlhRdU5TLoACc6xNACac9BqGnyh](https://cinp728gco.feishu.cn/docx/OlhRdU5TLoACc6xNACac9BqGnyh)
+
 
 # 一、项目背景
 

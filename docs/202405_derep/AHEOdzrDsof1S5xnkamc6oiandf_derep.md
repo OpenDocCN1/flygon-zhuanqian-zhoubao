@@ -1,6 +1,6 @@
 # 《能做一千年的蓝海副业，成本极低，万物都能做成PPT》
 
-> 来源：[https://pafbirwkuk2.feishu.cn/docx/AHEOdzrDsof1S5xnkamc6oiandf](https://pafbirwkuk2.feishu.cn/docx/AHEOdzrDsof1S5xnkamc6oiandf)
+
 
 # 本文加粗部分为核心原理与落地要点。
 

@@ -1,6 +1,6 @@
 # 不会代码也能发布网站？我用Cursor一步步把想法变成了现实
 
-> 原文来源：[https://wm1881zs6s.feishu.cn/docx/YHm9d8S1fom7f1xoQ4Ic4D26n4b](https://wm1881zs6s.feishu.cn/docx/YHm9d8S1fom7f1xoQ4Ic4D26n4b)
+
 
 先做个自我介绍，我是大臣。这一期航海活动跟着大伙一起玩起了Cursor，没想到竟然真的做出了一个能解决自己实际需求的小工具。
 

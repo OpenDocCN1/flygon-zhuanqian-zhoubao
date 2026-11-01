@@ -1,6 +1,6 @@
 # 线上美业，起步两万现在月净赚十万
 
-> 来源：[https://ancab4z106.feishu.cn/docx/E1WGd70YLoaHGfxAYJTc4WoFnsd](https://ancab4z106.feishu.cn/docx/E1WGd70YLoaHGfxAYJTc4WoFnsd)
+
 
 我是夕子，1993年出生，完全靠自己打拼。用不到两万元启动，现在每月稳定赚十万以上，也在新一线城市安稳落脚，置业买车组建家庭。
 

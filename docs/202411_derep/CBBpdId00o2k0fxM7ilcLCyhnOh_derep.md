@@ -1,6 +1,6 @@
 # 手工复原一个 Shorts 爆款 AI 视频，我花了 4 小时
 
-> 来源：[https://qrm33w1izc.feishu.cn/docx/CBBpdId00o2k0fxM7ilcLCyhnOh](https://qrm33w1izc.feishu.cn/docx/CBBpdId00o2k0fxM7ilcLCyhnOh)
+
 
 先看一下复刻前后对比
 

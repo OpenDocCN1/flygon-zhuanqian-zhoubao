@@ -1,6 +1,6 @@
 # 视频号直播想开播带货？千粉门槛已上线，这几条路可以走
 
-> 来源：[https://uiv0uqamjmc.feishu.cn/docx/Oyqsdiq0LotmvSx4llwc3z25nie](https://uiv0uqamjmc.feishu.cn/docx/Oyqsdiq0LotmvSx4llwc3z25nie)
+
 
 大家好，我是小马哥。
 

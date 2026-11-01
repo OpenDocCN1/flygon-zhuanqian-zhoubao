@@ -1,6 +1,6 @@
 # 工业物资零库存网销：一段从零起步的亲历复盘
 
-> 来源：[https://pob104eb8b.feishu.cn/docx/GmZAdYXoRoiatgxAoXBc5FQ8n6c](https://pob104eb8b.feishu.cn/docx/GmZAdYXoRoiatgxAoXBc5FQ8n6c)
+
 
 # 一、这个项目到底做什么
 

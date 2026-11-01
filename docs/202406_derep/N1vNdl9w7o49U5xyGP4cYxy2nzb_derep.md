@@ -1,6 +1,6 @@
 # 小红书新人如何用像素级复刻，撬动首个40万+播放
 
-> 来源：[https://dqez6wornz.feishu.cn/docx/N1vNdl9w7o49U5xyGP4cYxy2nzb](https://dqez6wornz.feishu.cn/docx/N1vNdl9w7o49U5xyGP4cYxy2nzb)
+
 
 # 我的成绩
 

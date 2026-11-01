@@ -1,6 +1,6 @@
 # 从一条风向标到全国性风口：30+位同行跟着跑出500万级GMV的青年夜校实战复盘
 
-> 来源：[https://vub1ul9ufi.feishu.cn/docx/QfpadWIPMoqdYxxyVEAcGjI6nqh](https://vub1ul9ufi.feishu.cn/docx/QfpadWIPMoqdYxxyVEAcGjI6nqh)
+
 
 3月杭州航海家年会，门口偶遇龙哥。他主动打趣说：“不言，你们的夜校玩得不错，我听说跟你学的不少圈友都已经做到几十万了。”
 

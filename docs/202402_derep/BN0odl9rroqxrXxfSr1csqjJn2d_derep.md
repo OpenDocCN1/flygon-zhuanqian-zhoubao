@@ -1,6 +1,6 @@
 # AI代写接单进阶笔记：渠道、沟通、交付与提示词实战
 
-> 来源：[https://irvnps9bwl.feishu.cn/docx/BN0odl9rroqxrXxfSr1csqjJn2d](https://irvnps9bwl.feishu.cn/docx/BN0odl9rroqxrXxfSr1csqjJn2d)
+
 
 ## 0. 写在前面
 

@@ -1,6 +1,6 @@
 # 小红书获客引流实操方案
 
-> 来源：[https://d1nvyplw9g7.feishu.cn/docx/LymIdItuwo6hSqxZxlncZWoDnpe](https://d1nvyplw9g7.feishu.cn/docx/LymIdItuwo6hSqxZxlncZWoDnpe)
+
 
 # 一、平台竞品账号拆解
 

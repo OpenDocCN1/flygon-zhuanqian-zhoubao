@@ -1,6 +1,6 @@
 # 两年50多场聚会，我从萌新变成了“连接器”
 
-> 原文出处：[https://rx0xuq19kud.feishu.cn/docx/B8g4dAbAuo1kLcxXdKkcCj36nnf](https://rx0xuq19kud.feishu.cn/docx/B8g4dAbAuo1kLcxXdKkcCj36nnf)
+
 
 大家好，我是胖大魔。
 

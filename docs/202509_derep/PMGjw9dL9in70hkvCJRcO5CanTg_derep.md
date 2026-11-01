@@ -1,6 +1,6 @@
 # 那颗龙珠只是序章：复盘之后，我更想聊聊这两个身份给我的隐藏礼物
 
-> 来源：[https://cbwtkywz24.feishu.cn/docx/NsfFdTURno5dHCxCwhtcb3W7nCe](https://cbwtkywz24.feishu.cn/docx/NsfFdTURno5dHCxCwhtcb3W7nCe)
+
 
 嗨！我是Lucia，先通报个好消息：前阵子我写的一篇内容，拿到了一颗龙珠。谢谢每一位看过的、给我点赞的、帮忙转发的圈友。快乐一个人吞下去多浪费，按老规矩，咱们复盘里见，爱大家！
 

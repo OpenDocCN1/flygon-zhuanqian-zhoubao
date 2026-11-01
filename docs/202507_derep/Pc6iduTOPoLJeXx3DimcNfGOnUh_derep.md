@@ -1,6 +1,6 @@
 # 从0到月入10万：直播切片全流程实操指南（附避坑经验）
 
-> 来源：[https://nmui3kskc0.feishu.cn/docx/Pc6iduTOPoLJeXx3DimcNfGOnUh](https://nmui3kskc0.feishu.cn/docx/Pc6iduTOPoLJeXx3DimcNfGOnUh)
+
 
 # 00：我是谁
 

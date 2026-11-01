@@ -1,6 +1,6 @@
 # 达人秀神作「X的一生：一人从幼年跳到白头」复刻实操拆解
 
-> 来源：[https://gpbr9zf6b9.feishu.cn/docx/DEF5dOfXgoPWkgxD74mcb5SqnUh](https://gpbr9zf6b9.feishu.cn/docx/DEF5dOfXgoPWkgxD74mcb5SqnUh)
+
 
 大家好，我是浩少，赚钱入圈还没满一年，参与过两届公众号爆文航海，成绩中规中矩，近期主攻 YouTube Shorts。
 

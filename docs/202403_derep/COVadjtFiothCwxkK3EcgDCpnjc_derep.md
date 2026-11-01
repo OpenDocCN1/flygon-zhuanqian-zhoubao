@@ -1,6 +1,6 @@
 # 年入两亿GMV的隐藏赛道，本地生活正成为新的流量洼地
 
-> 来源：[https://s12is4u3s19.feishu.cn/docx/COVadjtFiothCwxkK3EcgDCpnjc](https://s12is4u3s19.feishu.cn/docx/COVadjtFiothCwxkK3EcgDCpnjc)
+
 
 ## 一、前言
 

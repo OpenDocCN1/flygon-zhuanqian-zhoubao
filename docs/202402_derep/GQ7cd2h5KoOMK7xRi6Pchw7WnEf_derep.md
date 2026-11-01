@@ -1,6 +1,6 @@
 # 风向标拆解第3期—小红书单品50w+爆卖，卖光腿神器的店铺利润真相—安静
 
-> 来源：[https://m8d4z9nx0g.feishu.cn/docx/GQ7cd2h5KoOMK7xRi6Pchw7WnEf](https://m8d4z9nx0g.feishu.cn/docx/GQ7cd2h5KoOMK7xRi6Pchw7WnEf)
+
 
 ✅ 流量到底靠什么来？
 ✅ 产品端是怎么打的？

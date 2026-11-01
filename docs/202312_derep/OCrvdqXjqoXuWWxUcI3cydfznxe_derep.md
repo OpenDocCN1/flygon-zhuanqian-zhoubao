@@ -1,6 +1,6 @@
 # 从零搭建一个项目实操打卡营，我是如何做到营收2万+、147人报名、上岸率85%的全过程拆解
 
-> 来源：[https://cxqeimz77vr.feishu.cn/docx/OCrvdqXjqoXuWWxUcI3cydfznxe](https://cxqeimz77vr.feishu.cn/docx/OCrvdqXjqoXuWWxUcI3cydfznxe)
+
 
 大家好，我是饭饭。
 

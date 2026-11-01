@@ -1,6 +1,6 @@
 # 用小红书群聊截流创业粉的实操思路
 
-> 来源：[https://dte8en3l2y.feishu.cn/docx/YfqQdgwwvo51OYxWey2c412lnMf](https://dte8en3l2y.feishu.cn/docx/YfqQdgwwvo51OYxWey2c412lnMf)
+
 
 这个打法并不只局限于创业人群，换个关键词就能把其他垂类精准用户也拉过来。
 

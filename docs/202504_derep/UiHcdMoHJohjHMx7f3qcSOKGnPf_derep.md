@@ -1,6 +1,6 @@
 # 零工龄白手起家，把 AI 代写做到行业前列——掩体不计划2025年3月海南见面会
 
-> 来源：[https://xxhypdubtd.feishu.cn/docx/UiHcdMoHJohjHMx7f3qcSOKGnPf](https://xxhypdubtd.feishu.cn/docx/UiHcdMoHJohjHMx7f3qcSOKGnPf)
+
 
 掩体，1996年生，创业八年，AI 代写领域头部玩家
 

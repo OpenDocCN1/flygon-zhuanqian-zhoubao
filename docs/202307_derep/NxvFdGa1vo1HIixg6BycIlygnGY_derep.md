@@ -1,6 +1,6 @@
 # 找到属于自己的坐标怎么找
 
-> 来源：[https://imste3bktg.feishu.cn/docx/NxvFdGa1vo1HIixg6BycIlygnGY](https://imste3bktg.feishu.cn/docx/NxvFdGa1vo1HIixg6BycIlygnGY)
+
 
 提语：
 

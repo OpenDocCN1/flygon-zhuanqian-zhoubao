@@ -1,6 +1,6 @@
 # 半个月进账8000+，没出过爆款的小红书虚拟资料玩法，新手照做也能跑
 
-> 来源：[https://jwc04jmpug6.feishu.cn/docx/UucqdINu3ouRaRxuRc1c4HM6nHb](https://jwc04jmpug6.feishu.cn/docx/UucqdINu3ouRaRxuRc1c4HM6nHb)
+
 
 各位好，我叫巧克力，7月11号才正式成为赚钱的一员，纯纯的新面孔。
 

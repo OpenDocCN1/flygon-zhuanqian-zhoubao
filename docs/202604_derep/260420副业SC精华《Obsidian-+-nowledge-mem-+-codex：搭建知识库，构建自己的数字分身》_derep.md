@@ -447,7 +447,7 @@ allowed-tools: Read, Write, Edit, Glob, Grep, Bash
 The free and flexible app for your private thoughts.
 
 > [Get Obsidian for macOS]
-> (https://github.com/obsidianmd/obsidian-releases/releases/download/v1.12.7/Obsidian-1.12.7.dmg)
+
 
 00_收件箱/Clippings
 

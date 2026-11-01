@@ -1,6 +1,6 @@
 # 折腾 Cursor 安装的那些糟心经历
 
-> 来源：[https://kcnw69vrcnma.feishu.cn/docx/P6V4dWxK0oMMf2xvqy0cHzgSnZe](https://kcnw69vrcnma.feishu.cn/docx/P6V4dWxK0oMMf2xvqy0cHzgSnZe)
+
 
 ## 系统版本门槛先卡住人
 

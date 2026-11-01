@@ -1,6 +1,6 @@
 # 五天破百万的理财营发售复盘：快闪群+朋友圈+1v1，如何把积累变成爆发
 
-> 来源：[https://a0nfyti51f.feishu.cn/docx/J8xZdIGEronfDwx1AtMcNrTYnXe](https://a0nfyti51f.feishu.cn/docx/J8xZdIGEronfDwx1AtMcNrTYnXe)
+
 
 大家好，我是梅子。上一次在圈子里输出复盘，还是去年的7月27号，https://t.zsxq.com/18iLrX2G0
 那次分享的是年收入36万的运营总结。这次要讲的是一个更猛的结果：5天做到百万营收，覆盖高客单和中客单。配图里是先跑出来的高客单群，高客单群发售期间招了近50人，客单2万；中客单群是在一个月后才开，当场发售前50个名额基本是当天秒没。我主打的是培训交付，所以基本等于利润。

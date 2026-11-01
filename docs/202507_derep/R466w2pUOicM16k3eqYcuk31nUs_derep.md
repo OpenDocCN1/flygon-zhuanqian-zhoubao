@@ -1,6 +1,6 @@
 # 万字拆解：Youtube长视频从0到10的全链路打法
 
-> 来源：[https://rcnceg0u9uzz.feishu.cn/docx/Tq09dAKTPoUueUxz3hyc0NbCnPb](https://rcnceg0u9uzz.feishu.cn/docx/Tq09dAKTPoUueUxz3hyc0NbCnPb)
+
 
 下面进入正文。这篇文章聚焦长视频的系统思路，聊到短视频的部分只是用来辅助说明，并不打算做成一套短视频教程。
 

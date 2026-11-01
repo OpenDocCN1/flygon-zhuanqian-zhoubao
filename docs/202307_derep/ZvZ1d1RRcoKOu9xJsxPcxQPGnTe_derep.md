@@ -1,6 +1,6 @@
 # 没靠一单爆款，抖音养生号六月也稳稳拿到3.7万佣金复盘
 
-> 来源：[https://s31nx3n9vr.feishu.cn/docx/ZvZ1d1RRcoKOu9xJsxPcxQPGnTe](https://s31nx3n9vr.feishu.cn/docx/ZvZ1d1RRcoKOu9xJsxPcxQPGnTe)
+
 
 大家好，我是猫嘉，01年的广西女生，大四一毕业就全职做网赚，现在主攻抖音养生赛道。
 

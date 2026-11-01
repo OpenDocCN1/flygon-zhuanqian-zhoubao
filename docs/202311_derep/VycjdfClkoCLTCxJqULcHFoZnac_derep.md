@@ -1,6 +1,6 @@
 # 公众号：别再自嗨写文了，把规则用起来就能变现
 
-> 来源：[https://y3my0b87ql.feishu.cn/docx/VycjdfClkoCLTCxJqULcHFoZnac](https://y3my0b87ql.feishu.cn/docx/VycjdfClkoCLTCxJqULcHFoZnac)
+
 
 # 开场白
 

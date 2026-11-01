@@ -1,6 +1,6 @@
 # 为什么长途航海是普通人最稳的破局点？一次抖音达人7天破万GMV的实操复盘
 
-> 来源：[https://eim9fzbtjyh.feishu.cn/docx/UitldngxkoI0xWxMg1zc61Nsn7g](https://eim9fzbtjyh.feishu.cn/docx/UitldngxkoI0xWxMg1zc61Nsn7g)
+
 
 # 先做个自我介绍
 

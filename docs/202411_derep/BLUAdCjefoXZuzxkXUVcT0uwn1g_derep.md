@@ -1,6 +1,6 @@
 # 第三弹实测：AI Shorts视频生成，到底该选谁？
 
-> 来源：[https://y3my0b87ql.feishu.cn/docx/BLUAdCjefoXZuzxkXUVcT0uwn1g](https://y3my0b87ql.feishu.cn/docx/BLUAdCjefoXZuzxkXUVcT0uwn1g)
+
 
 做YouTube Shorts，最头疼的就是视频质量不稳定。为了让赚钱圈友少走弯路，我干脆把市面上的主流视频模型都拉出来遛了一圈，结合赛道精选帖和各大评测，再加上自己的实际体验，今天直接给结论。
 

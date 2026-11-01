@@ -1,6 +1,6 @@
 # 3天狂揽60万曝光，净赚600多，我是怎么把闲鱼跑起来的
 
-> 来源：[https://wm1881zs6s.feishu.cn/docx/GzA5dil24obsNVxTqRvcUrOTnJc](https://wm1881zs6s.feishu.cn/docx/GzA5dil24obsNVxTqRvcUrOTnJc)
+
 
 # 作者自述
 

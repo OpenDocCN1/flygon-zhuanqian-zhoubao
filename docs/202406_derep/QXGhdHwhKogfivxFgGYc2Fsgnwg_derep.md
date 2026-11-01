@@ -1,6 +1,6 @@
 # 用一场游戏把AI黑话讲明白，学会这8点就能跟人聊到飞起【更新版】
 
-> 来源：[https://atbs4xk1uw.feishu.cn/docx/QXGhdHwhKogfivxFgGYc2Fsgnwg](https://atbs4xk1uw.feishu.cn/docx/QXGhdHwhKogfivxFgGYc2Fsgnwg)
+
 
 版本号：v3.01
 

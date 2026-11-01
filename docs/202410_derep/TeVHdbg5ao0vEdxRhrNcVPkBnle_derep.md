@@ -1,6 +1,6 @@
 # 🍀 PRD 模板
 
-> 参考：[https://www.feishu.cn/docx/TeVHdbg5ao0vEdxRhrNcVPkBnle](https://www.feishu.cn/docx/TeVHdbg5ao0vEdxRhrNcVPkBnle)
+
 
 # 开篇提示
 

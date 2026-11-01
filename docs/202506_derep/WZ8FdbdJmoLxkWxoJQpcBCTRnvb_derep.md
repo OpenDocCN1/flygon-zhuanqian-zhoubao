@@ -1,6 +1,6 @@
 # 实业并没有死透，这条路依然能让一个屌丝逆袭、娶富婆，我拆给你看
 
-> 来源：[https://zhangmei.feishu.cn/docx/WZ8FdbdJmoLxkWxoJQpcBCTRnvb](https://zhangmei.feishu.cn/docx/WZ8FdbdJmoLxkWxoJQpcBCTRnvb)
+
 
 很久没在龙哥盟发干货了。今年AI全场爆了，我也说过，与其卷AI，不如去投资AI。赛道一旦有了确定性预期，建仓就是最佳时间点。年初我就转去做投资，等贸易摩擦尘埃落定、仓位完成之后，这才又回到创业的路上。
 

@@ -1,6 +1,6 @@
 # 在 AI 产品赛道里，如何借力头部社群实现长期势能
 
-> 来源：[https://wandouyin.feishu.cn/docx/PeAVd2x1RoeeS4xhb3kco17nnzb](https://wandouyin.feishu.cn/docx/PeAVd2x1RoeeS4xhb3kco17nnzb)
+
 
 ## 开场
 

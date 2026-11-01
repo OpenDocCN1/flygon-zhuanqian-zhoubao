@@ -1,6 +1,6 @@
 # AI＋公众号故事爆文，一个小团队15天做到日入2.1W＋，入池率90%，我把全流程拆给你看
 
-> 来源：[https://n28vbku1px.feishu.cn/docx/R611dzwEtoq73pxSyUycMgV4nIg](https://n28vbku1px.feishu.cn/docx/R611dzwEtoq73pxSyUycMgV4nIg)
+
 
 你好，我是暖暖，写故事这条路走了5年，手头矩阵号攒了80万粉丝。先感谢赚钱这个平台，让我有机会看到一批又一批新人在公众号爆文赛道上冒出头来，成绩相当亮眼。
 

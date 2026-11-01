@@ -1,6 +1,6 @@
 # 小红书做高客单，我们是怎么把转化做到7-10%的
 
-> 来源：[https://ht16ej1tui.feishu.cn/docx/IKFSdqm0aohi0YxLIXTclIyinyb](https://ht16ej1tui.feishu.cn/docx/IKFSdqm0aohi0YxLIXTclIyinyb)
+
 
 大家好，我是陈铭ivy。过去四年我几乎把全部精力都放在了小红书的高客单生意上。
 

@@ -1,6 +1,6 @@
 # 2024年12月 使用 Cursor 航海时踩过的坑以及解决办法汇总
 
-> 来源：[https://ggoff9gymx.feishu.cn/docx/OuWgdGxyZoE9zgx7FbCcTlExnXc](https://ggoff9gymx.feishu.cn/docx/OuWgdGxyZoE9zgx7FbCcTlExnXc)
+
 
 希望这篇记录能给同样在航海的伙伴们一些参考
 

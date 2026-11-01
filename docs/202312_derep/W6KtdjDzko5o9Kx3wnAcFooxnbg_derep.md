@@ -1,6 +1,6 @@
 # 九成号手都在人工刷？我把小红书养号交给影刀RPA做了自动驾驶
 
-> 来源：[https://ktuszl372b.feishu.cn/docx/W6KtdjDzko5o9Kx3wnAcFooxnbg](https://ktuszl372b.feishu.cn/docx/W6KtdjDzko5o9Kx3wnAcFooxnbg)
+
 
 十一月航海开新航线，我跟进了小红书出游赛道。矩阵账号起步阶段都需要先做养号，让系统判定为活跃身份，权重上来后，后续笔记的推送才会有优势。
 

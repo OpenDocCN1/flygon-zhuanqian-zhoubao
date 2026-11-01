@@ -1,6 +1,6 @@
 # 用AI编程把小红书做成自动化的方式
 
-> 来源：[https://ec2mz96esm.feishu.cn/docx/VOxMdJeRJoznWgx4laucH1Iyneb](https://ec2mz96esm.feishu.cn/docx/VOxMdJeRJoznWgx4laucH1Iyneb)
+
 
 # 自我介绍
 

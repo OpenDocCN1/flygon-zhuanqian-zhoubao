@@ -1,6 +1,6 @@
 # 【实战拆解：跟随赚钱风向标做代找图书，6天到手2400，小白也能快速上手的副业】
 
-> 来源：[https://kqubish8iq0.feishu.cn/docx/AKtEdmiFTonN2hxKDYZc9NdunUc](https://kqubish8iq0.feishu.cn/docx/AKtEdmiFTonN2hxKDYZc9NdunUc)
+
 
 大家好，我是龙珠圈友飞掌柜。受圈内付费电子书这个风向的启发，最近我接了个代找图书的活儿，6天就变现2400块。感谢圈友们的点拨，类似的风向在赚钱里还有很多，今天把我跑通的实操过程完整复盘一下：
 

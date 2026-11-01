@@ -1,6 +1,6 @@
 # 10元引流品撬动5000+加粉与近50万流水：自由职业指数型增长拆法
 
-> 来源：[https://j7329dxmbu.feishu.cn/docx/GTo6drjueoAU0YxhmWhcB7vqnnt](https://j7329dxmbu.feishu.cn/docx/GTo6drjueoAU0YxhmWhcB7vqnnt)
+
 
 嗨，这里是赚钱龙珠圈的立心。曾在大厂负责产品，离职一年半后单月收入过六位。现在专注职场转身和自由职业陪跑。
 

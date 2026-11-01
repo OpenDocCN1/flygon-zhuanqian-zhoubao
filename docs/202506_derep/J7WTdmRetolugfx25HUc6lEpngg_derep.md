@@ -1,6 +1,6 @@
 # 用 Trae 搭桥，把多账号矩阵管理工具无缝连上 MultiPost 自动发布
 
-> 来源：[https://udxxg5rx5m.feishu.cn/docx/J7WTdmRetolugfx25HUc6lEpngg](https://udxxg5rx5m.feishu.cn/docx/J7WTdmRetolugfx25HUc6lEpngg)
+
 
 连上 MultiPost 之后，
 矩阵端负责管账号和环境：切换号源、给每个子窗口分配独立浏览器环境、独立 IP、独立指纹与缓存，然后把标题、文案、素材喂给插件；

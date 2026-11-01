@@ -1,6 +1,6 @@
 # 不写一行代码，我用 Cursor 两天做成一个网站并上线了
 
-> 来源参考：[https://bwvzbvg3i3.feishu.cn/docx/SOSNdArHSobMpGx87oxcETeZn2b](https://bwvzbvg3i3.feishu.cn/docx/SOSNdArHSobMpGx87oxcETeZn2b)
+
 
 说实话，我的编程底子真的挺一般，谈不上完全零基础，但也就懂某个很小的方向，离“独立开发一大堆功能”还差得远，更别提那些以前压根没碰过的东西。
 

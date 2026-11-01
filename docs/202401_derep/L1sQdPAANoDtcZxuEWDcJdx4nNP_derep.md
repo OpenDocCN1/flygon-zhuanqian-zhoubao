@@ -1,6 +1,6 @@
 # 从校园摆烂到大四初试创业赚到六位数：一名00后学生的复盘与感悟
 
-> 来源：[https://b0mbxbbhstw.feishu.cn/docx/L1sQdPAANoDtcZxuEWDcJdx4nNP](https://b0mbxbbhstw.feishu.cn/docx/L1sQdPAANoDtcZxuEWDcJdx4nNP)
+
 
 # 零、开场白
 

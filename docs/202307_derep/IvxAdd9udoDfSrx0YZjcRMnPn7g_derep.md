@@ -1,6 +1,6 @@
 # “抑郁症”和“拳头”之间，我靠一套搞钱底层逻辑，在闲鱼找到了出口
 
-> 原文出处：[https://d8ez8yi1x2.feishu.cn/docx/IvxAdd9udoDfSrx0YZjcRMnPn7g](https://d8ez8yi1x2.feishu.cn/docx/IvxAdd9udoDfSrx0YZjcRMnPn7g)
+
 
 内容速览
 

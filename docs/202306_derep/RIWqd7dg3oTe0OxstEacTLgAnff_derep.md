@@ -1,6 +1,6 @@
 # 私域效率跃升：100个微信高阶用法，让你的运营事半功倍
 
-> 来源：[https://dakhb269es.feishu.cn/docx/RIWqd7dg3oTe0OxstEacTLgAnff](https://dakhb269es.feishu.cn/docx/RIWqd7dg3oTe0OxstEacTLgAnff)
+
 
 圈友们好，我是萝卜。很开心能在这篇帖子里跟大家见面，也要感谢圈子提供的优质交流环境，感谢老师@靠谱的持续打磨与建议。
 

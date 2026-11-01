@@ -1,6 +1,6 @@
 # 一个重庆全职宝妈的民宿实操笔记：从3间房到月入3万+
 
-> 来源：[https://fwsgkdbb3og.feishu.cn/docx/VF75dim8AoRcaKxq9fGceh90nyg](https://fwsgkdbb3og.feishu.cn/docx/VF75dim8AoRcaKxq9fGceh90nyg)
+
 
 大家好，我是糖糖家，重庆本地的全职妈妈。2022年4月入了赚钱，后厨潜水一年多，今年才开始发声，也去参加了线下聚会。学历不高，星球里那些高精尖项目我基本看不懂，看到群里大佬动辄月入几万上十万，自己既焦虑又热血。
 

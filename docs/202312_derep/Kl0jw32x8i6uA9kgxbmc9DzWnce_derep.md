@@ -1,6 +1,6 @@
 # 从0起步做视频号电商，我如何用半年时间把日GMV做到3万+
 
-> 来源：[https://vxqm3o3stzd.feishu.cn/docx/LKzbdxS3DopmiRxwYj2cGAElnbg](https://vxqm3o3stzd.feishu.cn/docx/LKzbdxS3DopmiRxwYj2cGAElnbg)
+
 
 # 一个新手的自我介绍
 

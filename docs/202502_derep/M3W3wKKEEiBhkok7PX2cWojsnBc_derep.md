@@ -1,6 +1,6 @@
 # 一个月做出AI目标教练：从想法到MVP的实战复盘
 
-> 来源：[https://kwi1nir3wz0.feishu.cn/docx/HQ0ldQK7soS5H3xzx79cezMdneh](https://kwi1nir3wz0.feishu.cn/docx/HQ0ldQK7soS5H3xzx79cezMdneh)
+
 
 我们团队原本就带着个人成长的内容基因出发，我和PuleiPai各在小红书运营着一个万粉账号。基于这份积累，我们把第一站瞄准了 Productivity 赛道。
 

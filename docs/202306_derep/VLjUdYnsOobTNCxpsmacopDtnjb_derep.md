@@ -1,6 +1,6 @@
 # 两个月用AI私有化落地赚到73万，我把过程拆开了说
 
-> 来源：[https://vfqxua5lvd.feishu.cn/docx/VLjUdYnsOobTNCxpsmacopDtnjb](https://vfqxua5lvd.feishu.cn/docx/VLjUdYnsOobTNCxpsmacopDtnjb)
+
 
 大家好，我是云飞，盈腾科技创始人，也是赚钱老成员。
 

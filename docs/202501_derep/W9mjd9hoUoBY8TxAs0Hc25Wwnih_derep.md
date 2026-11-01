@@ -1,6 +1,6 @@
 # LLM使用指南：扒开GPT的运作真相与踩坑清单，写作效率直接拉满
 
-> 来源：[https://y0arjkskpp.feishu.cn/docx/W9mjd9hoUoBY8TxAs0Hc25Wwnih](https://y0arjkskpp.feishu.cn/docx/W9mjd9hoUoBY8TxAs0Hc25Wwnih)
+
 
 # 开场
 

@@ -1,6 +1,6 @@
 # 用 3000 人小私域撬动月入 16 万+，我到底踩对了哪几步？
 
-> 来源：[https://vwyrp1o8uqk.feishu.cn/docx/KiRTdVlGboboEExNIVdccbVqnSg](https://vwyrp1o8uqk.feishu.cn/docx/KiRTdVlGboboEExNIVdccbVqnSg)
+
 
 大家好，我是私域文姐，专注帮 I 人用不硬销的方式做私域。
 

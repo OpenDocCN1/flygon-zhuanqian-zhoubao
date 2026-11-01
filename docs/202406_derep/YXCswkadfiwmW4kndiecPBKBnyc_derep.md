@@ -1,6 +1,6 @@
 # 一篇搞定Kimi全攻略：让国产超长大模型帮你把效率直接拉满
 
-> 来源：[https://eqsdsj0h4eo.feishu.cn/docx/H3KedT5RLoxSbIxTpgucUNLAnuh](https://eqsdsj0h4eo.feishu.cn/docx/H3KedT5RLoxSbIxTpgucUNLAnuh)
+
 
 在文本类大模型里，ChatGPT 4.0一直被视作性能天花板。但最近在国内圈子里真正炸街的，是Kimi。跟其他同类产品比，Kimi最打动人的地方在于两点：一是大文件吞得下，单次可吃进200万字中文，全球范围内能做到这个量级的很少，资料不用拆分也能一次处理；二是记忆很稳，对话上下文能长时间保持一致。
 

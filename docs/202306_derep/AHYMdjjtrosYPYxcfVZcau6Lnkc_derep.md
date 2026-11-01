@@ -1,6 +1,6 @@
 # 视频号做定制款，7天拿下3.5万佣金，我是怎么跑通的
 
-> 来源：[https://ahbod9jk6n.feishu.cn/docx/AHYMdjjtrosYPYxcfVZcau6Lnkc](https://ahbod9jk6n.feishu.cn/docx/AHYMdjjtrosYPYxcfVZcau6Lnkc)
+
 
 # 一、起步阶段：两次测品踩坑后的经验沉淀
 

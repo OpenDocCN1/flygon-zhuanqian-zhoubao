@@ -1,6 +1,6 @@
 # 从程序员到小红书电商小爆发：我用两年时间踩完的坑
 
-> 来源：[https://mpiymj8zzz.feishu.cn/docx/SCzxdrAfyohWyIxBG5Oc5Rdnn0x](https://mpiymj8zzz.feishu.cn/docx/SCzxdrAfyohWyIxBG5Oc5Rdnn0x)
+
 
 大家好，我是林汐然，朋友们都叫我汐汐、汐然。以前网名叫啷里个浪，这个名字给不少朋友带来困扰，不知道该怎么称呼我，所以改了。
 

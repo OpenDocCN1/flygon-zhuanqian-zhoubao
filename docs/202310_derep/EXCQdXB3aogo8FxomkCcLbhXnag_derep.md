@@ -1,6 +1,6 @@
 # 国庆一周在闲鱼卖投影幕布，净赚6158元的实操拆解
 
-> 来源：[https://d8ez8yi1x2.feishu.cn/docx/EXCQdXB3aogo8FxomkCcLbhXnag](https://d8ez8yi1x2.feishu.cn/docx/EXCQdXB3aogo8FxomkCcLbhXnag)
+
 
 大家好，我叫小雨，目前在闲鱼全职带货已经四年，带过上万名学员，做的是一个万人的指导团队。月流水稳定在3-5万，累计通过闲鱼变现数十万。
 

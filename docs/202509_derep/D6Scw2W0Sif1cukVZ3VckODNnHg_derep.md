@@ -1,6 +1,6 @@
 # 40天从零到千粉，我的公众号小白起号实录
 
-> 来源：[https://ucnv9lx0aamj.feishu.cn/docx/Gu5xdbA3HoCU81xJN5Icj7dCnfc](https://ucnv9lx0aamj.feishu.cn/docx/Gu5xdbA3HoCU81xJN5Icj7dCnfc)
+
 
 我没有做过自媒体，也没碰过公众号，更没有发动过朋友帮忙转发。仅仅用40天，一个彻底的外行小白，就把账号做到了1000+粉丝，还收到了商单询盘和资料成交。今天把全过程拆开讲清楚。
 

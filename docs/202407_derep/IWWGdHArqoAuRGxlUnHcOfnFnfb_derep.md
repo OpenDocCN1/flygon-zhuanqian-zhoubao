@@ -1,6 +1,6 @@
 # 4个月从失业救助到月入4万，我把小红书做成个体服务生意的过程复盘
 
-> 来源：[https://ffnudxerwe.feishu.cn/docx/IWWGdHArqoAuRGxlUnHcOfnFnfb](https://ffnudxerwe.feishu.cn/docx/IWWGdHArqoAuRGxlUnHcOfnFnfb)
+
 
 见帖赚钱，我是颜乐乐。2022年4月入圈，至今在赚钱的第三个年头，也是我开始自由职业的第一年。
 

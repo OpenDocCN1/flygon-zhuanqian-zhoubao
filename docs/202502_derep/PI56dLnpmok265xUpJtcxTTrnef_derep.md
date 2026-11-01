@@ -1,6 +1,6 @@
 # 用 Cursor 搭了一套闲鱼全自动运营流水线
 
-> 来源：[https://yawxxwt3iq1.feishu.cn/docx/PI56dLnpmok265xUpJtcxTTrnef](https://yawxxwt3iq1.feishu.cn/docx/PI56dLnpmok265xUpJtcxTTrnef)
+
 
 # 写在前面
 

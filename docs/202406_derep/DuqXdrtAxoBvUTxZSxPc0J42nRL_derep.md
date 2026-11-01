@@ -1,6 +1,6 @@
 # 一部旧手机就能起步的“本地便民号”，凭什么让人多赚一笔？
 
-> 来源：[https://hx0exm7xfp9.feishu.cn/docx/DuqXdrtAxoBvUTxZSxPc0J42nRL](https://hx0exm7xfp9.feishu.cn/docx/DuqXdrtAxoBvUTxZSxPc0J42nRL)
+
 
 眼下，各类社群和兴趣圈子正处在风口上。只要能经营起一个有活力、有凝聚力的群体，工作与生活的边界就能被彻底打散——校园里那些信息集散号、各类微信群的群主，都尝到了这种甜头。
 

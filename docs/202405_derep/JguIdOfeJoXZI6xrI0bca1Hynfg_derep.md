@@ -1,6 +1,6 @@
 # 半年入局赚钱：一个普通人的认知重塑手记
 
-> 来源：[https://lqhefhcsx54.feishu.cn/docx/JguIdOfeJoXZI6xrI0bca1Hynfg](https://lqhefhcsx54.feishu.cn/docx/JguIdOfeJoXZI6xrI0bca1Hynfg)
+
 
 # 一、自我介绍
 

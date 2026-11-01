@@ -1,6 +1,6 @@
 # 爆款拆解：暖心长者插画+视频号收益分成实操全流程
 
-> 来源：[https://bcn7jh9fl49y.feishu.cn/docx/REG8d0y8gohOVqx7ajncg15PnAc](https://bcn7jh9fl49y.feishu.cn/docx/REG8d0y8gohOVqx7ajncg15PnAc)
+
 
 # 一、起盘背景与数据验证
 

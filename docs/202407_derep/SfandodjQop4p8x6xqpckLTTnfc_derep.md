@@ -1,6 +1,6 @@
 # 不走寻常路，如何用 ChatGPT 做反向营销？
 
-> 来源：[https://balfcirt91j.feishu.cn/docx/SfandodjQop4p8x6xqpckLTTnfc](https://balfcirt91j.feishu.cn/docx/SfandodjQop4p8x6xqpckLTTnfc)
+
 
 做营销时，品牌习惯把自己说得高大上：销量第一、品质顶尖、口碑爆棚。
 

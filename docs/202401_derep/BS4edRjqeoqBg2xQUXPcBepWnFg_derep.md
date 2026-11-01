@@ -1,6 +1,6 @@
 # 小红书送礼赛道拆解：低粉账号也能吃到钱吗？
 
-> 来源：[https://btd7lq93bx.feishu.cn/docx/BS4edRjqeoqBg2xQUXPcBepWnFg](https://btd7lq93bx.feishu.cn/docx/BS4edRjqeoqBg2xQUXPcBepWnFg)
+
 
 嗨，大家好，我是丸子。入冬以来小红书风向标已连续中了三条，这次就认领了送礼方向来做拆解。今年刚从人大硕士毕业，主业勉强够用，副业折腾小半年后月入过万已经稳定三月有余，能长久就再来更新。
 

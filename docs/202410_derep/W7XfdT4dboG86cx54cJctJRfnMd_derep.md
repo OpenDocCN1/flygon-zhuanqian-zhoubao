@@ -1,6 +1,6 @@
 # 【失败复盘】带着四万人规模的团队，我是怎么把一手好牌打烂的
 
-> 来源：[https://oee5lr7gsk.feishu.cn/docx/W7XfdT4dboG86cx54cJctJRfnMd](https://oee5lr7gsk.feishu.cn/docx/W7XfdT4dboG86cx54cJctJRfnMd)
+
 
 全文共：12,188 字
 预计阅读时间：8.88 分钟

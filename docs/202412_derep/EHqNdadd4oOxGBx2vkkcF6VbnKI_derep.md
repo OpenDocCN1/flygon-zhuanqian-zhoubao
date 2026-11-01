@@ -1,6 +1,6 @@
 # 从零搭建养老行业认知地图：我的信息追踪实战笔记 第二版 2025/1/27 更新
 
-> 来源：[https://rx0xuq19kud.feishu.cn/docx/EHqNdadd4oOxGBx2vkkcF6VbnKI](https://rx0xuq19kud.feishu.cn/docx/EHqNdadd4oOxGBx2vkkcF6VbkcF6VbnKI)
+
 
 说到养老这件事，我最深的体感就是信息差太离谱。想认真研究一下，市场上要么是一片空白，要么是千篇一律的复读内容，看完只觉得没得到实锤。
 

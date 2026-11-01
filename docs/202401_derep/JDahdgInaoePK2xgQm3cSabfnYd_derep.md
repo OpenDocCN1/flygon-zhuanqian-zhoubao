@@ -1,6 +1,6 @@
 # 带你认识这款正在成型的电商视频全能助手
 
-> 来源：[https://xq23zki45o8.feishu.cn/docx/JDahdgInaoePK2xgQm3cSabfnYd](https://xq23zki45o8.feishu.cn/docx/JDahdgInaoePK2xgQm3cSabfnYd)
+
 
 电商做视频最怕的就是重复劳动，剪一次发一次，手工导出、拼接、加水印全靠人盯着。现在这套视频综合处理工具就是为了解决这个痛点而来的，它会持续迭代升级，目标很明确：把电商伙伴们在日常运营里遇到的那些特殊视频需求，一次性打包解决。
 

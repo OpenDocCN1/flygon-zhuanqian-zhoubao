@@ -1,6 +1,6 @@
 # 《两千粉冷启动7天直播场观破万，我到底抓住了哪几个关键点？7天螺旋起号全复盘》
 
-> 来源：[https://b16xnqwk20.feishu.cn/docx/EHJWdFbQBoMSbAxvtGwcjdyqnlg](https://b16xnqwk20.feishu.cn/docx/EHJWdFbQBoMSbAxvtGwcjdyqnlg)
+
 
 赚钱圈的伙伴们好，我是宋老师，账号叫宋老师帮你做课。
 

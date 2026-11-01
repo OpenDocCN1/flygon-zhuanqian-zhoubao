@@ -1,6 +1,6 @@
 # 一篇能撕开认知迷雾，重塑人生的文章
 
-> 来源：[https://iv8irdz7945.feishu.cn/docx/M5lpdRp7OoHZAYxuDiicgGtSnpg](https://iv8irdz7945.feishu.cn/docx/M5lpdRp7OoHZAYxuDiicgGtSnpg)
+
 
 如何完成一次真实的认知跃迁？
 

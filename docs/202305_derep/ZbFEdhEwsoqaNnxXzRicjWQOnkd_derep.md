@@ -1,6 +1,6 @@
 # 抖音中医养生号：30天佣金破10万的实操复盘
 
-> 来源：[https://ka8a2qs38ja.feishu.cn/docx/ZbFEdhEwsoqaNnxXzRicjWQOnkd](https://ka8a2qs38ja.feishu.cn/docx/ZbFEdhEwsoqaNnxXzRicjWQOnkd)
+
 
 大家好，我是微笑，00后，河南人，目前全职做抖音养生号半年了。今天把我一个月做到10万佣金的方法，完整拆给你看。
 

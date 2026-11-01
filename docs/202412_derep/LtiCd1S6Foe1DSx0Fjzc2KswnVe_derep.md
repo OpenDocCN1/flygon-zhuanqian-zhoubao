@@ -1,6 +1,6 @@
 # 从银行裸辞到小红书爆款频出：我是如何用15天做到阅读量破百万的？
 
-> 来源：[https://ifgkbusm0u.feishu.cn/docx/LtiCd1S6Foe1DSx0Fjzc2KswnVe](https://ifgkbusm0u.feishu.cn/docx/LtiCd1S6Foe1DSx0Fjzc2KswnVe)
+
 
 ## 先说说我是谁
 

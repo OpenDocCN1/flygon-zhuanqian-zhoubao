@@ -1,6 +1,6 @@
 # 单月营收迈过20万，AI代写实战拆解，附实操变现路径
 
-> 来源：[https://cxqeimz77vr.feishu.cn/docx/THUxdSPu9oYbxvxq0P4cszDwn05](https://cxqeimz77vr.feishu.cn/docx/THUxdSPu9oYbxvxq0P4cszDwn05)
+
 
 大家好，我是饭饭。
 

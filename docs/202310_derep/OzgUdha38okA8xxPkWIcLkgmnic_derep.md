@@ -1,6 +1,6 @@
 # 小红书做商业，我用两招把项目做到月入百万+，复盘给你们看
 
-> 来源：[https://s0udwk13bl8.feishu.cn/docx/OzgUdha38okA8xxPkWIcLkgmnic](https://s0udwk13bl8.feishu.cn/docx/OzgUdha38okA8xxPkWIcLkgmnic)
+
 
 大家好，我是昊子。之前做过投资和战略，全网商业粉丝十万出头，现在主阵地在小红书，担任青澜咨询的创始人，专注做小红书的商业化变现。
 

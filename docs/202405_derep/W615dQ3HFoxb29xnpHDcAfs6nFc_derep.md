@@ -1,6 +1,6 @@
 # 垂直小众赛道做知识付费，首月GMV破15万，我踩过的关键点
 
-> 来源：[https://yzlfc64lat.feishu.cn/docx/W615dQ3HFoxb29xnpHDcAfs6nFc](https://yzlfc64lat.feishu.cn/docx/W615dQ3HFoxb29xnpHDcAfs6nFc)
+
 
 大家好，我是佩龙 Peron。
 

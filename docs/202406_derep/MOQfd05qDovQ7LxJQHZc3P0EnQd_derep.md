@@ -1,6 +1,6 @@
 # 公众号爆文项目实操复盘：一个号、50篇原创、11篇10万+、月入2.2万+
 
-> 来源：[https://zqqtm0kx8fq.feishu.cn/docx/MOQfd05qDovQ7LxJQHZc3P0EnQd](https://zqqtm0kx8fq.feishu.cn/docx/MOQfd05qDovQ7LxJQHZc3P0EnQd)
+
 
 # 1. 先晒成绩
 

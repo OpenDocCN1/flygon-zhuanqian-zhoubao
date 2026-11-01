@@ -1,6 +1,6 @@
 # 无痛跳槽到小红书做高客单，我是怎么把龙哥盟用活的
 
-> 来源：[https://ncn18orsgwl2.feishu.cn/docx/BUnTdpDZrorgnwxdYbMcpLbbnxb](https://ncn18orsgwl2.feishu.cn/docx/BUnTdpDZrorgnwxdYbMcpLbbnxb)
+
 
 大家好，我是珍妮子。借助龙哥盟，我完成了一次几乎零成本的职业切换。现在的主线业务，是为那些已经跑通0到1的高客单IP做流量放大和私域成交，并从中拿到签单提成。涉及的赛道包括留学、旅行、房产、教育等多个高客单领域。
 

@@ -1,6 +1,6 @@
 # 小红书实战避坑指南——叁斤高频问答合集
 
-> 来源：[https://p03a4vs9s2.feishu.cn/docx/IkpcdPywzoTEF9xSvqScDhDVn0g](https://p03a4vs9s2.feishu.cn/docx/IkpcdPywzoTEF9xSvqScDhDVn0g)
+
 
 Halo，我是叁斤，95后自由职业者，公众号：叁斤，微信：Msan53
 

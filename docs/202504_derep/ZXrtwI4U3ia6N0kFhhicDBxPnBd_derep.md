@@ -1,6 +1,6 @@
 # 私域没沉淀，公域还没起来，新手怎么边实战边拿到第一笔收入？
 
-> 来源：[https://yxy2hhcyyby.feishu.cn/docx/EomGdZozPoMIedx4b9Ccfc7gn8d](https://yxy2hhcyyby.feishu.cn/docx/EomGdZozPoMIedx4b9Ccfc7gn8d)
+
 
 家人们好，我是开卷，很高兴又来跟大家聊聊。
 

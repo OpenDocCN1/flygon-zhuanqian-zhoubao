@@ -1,6 +1,6 @@
 # 🔥一键把爆款变成AI成片：可复用的内容自动化生产线
 
-> 参考资料：[https://r0rel9lqdms.feishu.cn/docx/ApaJdYIkcohPKXxgVXLchBoSnwf](https://r0rel9lqdms.feishu.cn/docx/ApaJdYIkcohPKXxgVXLchBoSnwf)
+
 
 最近把 @super 黄 和 @一泽 分享的方法做了个拼接，弄出了一套点一下就能跑完的AI视频生成流水线。用起来还算顺手，也能搬到别的模板化场景里。觉得这条路子值得拆开聊，欢迎想一起打磨流程或定制效果的朋友来交流。👏🌹
 

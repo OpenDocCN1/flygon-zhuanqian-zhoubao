@@ -1,6 +1,6 @@
 # 视频号“儿女祝福”赛道闷声做，起号一周单日破1500+的实操全流程
 
-> 来源：[https://o0yvn3o31a.feishu.cn/docx/PLped9nHNonAMnxA5yBcBgMBnTb](https://o0yvn3o31a.feishu.cn/docx/PLped9nHNonAMnxA5yBcBgMBnTb)
+
 
 大家好，我是黄岛主。
 

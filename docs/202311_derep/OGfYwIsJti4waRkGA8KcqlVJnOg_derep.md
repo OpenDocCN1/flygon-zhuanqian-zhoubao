@@ -1,6 +1,6 @@
 # 1800+流量聚拢，230+成交落地，抖音团购群发售完整复盘SOP
 
-> 来源：[https://n28vbku1px.feishu.cn/docx/POfYdKWVvofzrIx6954cbNt2nDh](https://n28vbku1px.feishu.cn/docx/POfYdKWVvofzrIx6954cbNt2nDh)
+
 
 大家好，我是清一，很高兴在这里跟大家聊聊。
 

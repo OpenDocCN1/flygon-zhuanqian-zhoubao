@@ -1,6 +1,6 @@
 # 10分钟上手土豆君头像代码，找到你的专属头像
 
-> 来源：[https://ba9gvofzgow.feishu.cn/docx/E78Wdhxy5oGGGWx4w8xcmv9On3e](https://ba9gvofzgow.feishu.cn/docx/E78Wdhxy5oGGGWx4w8w8xcmv9On3e)
+
 
 大家好，我是林幻雨。
 

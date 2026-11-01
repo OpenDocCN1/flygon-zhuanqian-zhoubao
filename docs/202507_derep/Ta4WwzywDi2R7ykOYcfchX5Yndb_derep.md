@@ -1,6 +1,6 @@
 # 《B站好物新手破局指南》：三天拿下首单，拆解五大变现流派助你省掉九成试错
 
-> 来源：[https://awev3u2sjb8.feishu.cn/docx/C8A5d0TD1odIANx4SyEcid3mnhc](https://awev3u2sjb8.feishu.cn/docx/C8A5d0TD1odIANx4SyEcid3mnhc)
+
 
 大家好，我是AI德华。
 

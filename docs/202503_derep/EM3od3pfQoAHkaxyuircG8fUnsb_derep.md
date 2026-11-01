@@ -1,6 +1,6 @@
 # 从利他到利己再到利他：说服高岭之花来当分享嘉宾的实操笔记
 
-> 来源：[https://tiiac9xs4t1.feishu.cn/docx/EM3od3pfQoAHkaxyuircG8fUnsb](https://tiiac9xs4t1.feishu.cn/docx/EM3od3pfQoAHkaxyuircG8fUnsb)
+
 
 大家好，我是浙大吴美律。最近和赚钱团队的子安木木聊了聊，才发现自己今年筹办线下活动的心态，和去年截然不同。经她鼓励，我把这次心路和经验整理出来，希望能给同样做活动委员的朋友一点参考。
 

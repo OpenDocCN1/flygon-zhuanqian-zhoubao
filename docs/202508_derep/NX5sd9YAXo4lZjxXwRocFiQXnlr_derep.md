@@ -1,6 +1,6 @@
 # 零基础新手照搬星球帖子玩法，小红书虚拟电商30天入账1500+
 
-> 内容出处：[https://q369eg2asg.feishu.cn/docx/NX5sd9YAXo4lZjxXwRocFiQXnlr](https://q369eg2asg.feishu.cn/docx/NX5sd9YAXo4lZjxXwRocFiQXnlr)
+
 
 先上真东西。几个从零开始的小伙伴（含我本人）的后台截图，全都没P过。
 

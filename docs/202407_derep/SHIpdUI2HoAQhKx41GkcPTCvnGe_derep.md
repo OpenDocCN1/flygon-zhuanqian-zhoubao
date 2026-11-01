@@ -1,6 +1,6 @@
 # 我在AI培训第一线蹲了三个月，看到的变现机会其实变了
 
-> 来源：[https://w91h2gmtrn.feishu.cn/docx/SHIpdUI2HoAQhKx41GkcPTCvnGe](https://w91h2gmtrn.feishu.cn/docx/SHIpdUI2HoAQhKx41GkcPTCvnGe)
+
 
 先说前言：
 

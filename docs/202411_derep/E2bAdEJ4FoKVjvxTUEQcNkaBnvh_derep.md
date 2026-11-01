@@ -1,6 +1,6 @@
 # 电商创业思路图谱＋义乌机遇实地自检（星球版）
 
-> 来源：[https://vow6kdbiak.feishu.cn/docx/E2bAdEJ4FoKVjvxTUEQcNkaBnvh](https://vow6kdbiak.feishu.cn/docx/E2bAdEJ4FoKVjvxTUEQcNkaBnvh)
+
 
 # 特别说明
 

@@ -1,6 +1,6 @@
 # 风向标拆解第二期-霸王餐到底还能不能玩了-文少
 
-> 来源：[https://xpjursanoo.feishu.cn/docx/L0Nld2z2Hobr7yxztnWcq8tDnLq](https://xpjursanoo.feishu.cn/docx/L0Nld2z2Hobr7yxztnWcq8tDnLq)
+
 
 大家好，我是文少。去年418入圈的赚钱老新人，带过几期志愿者，现在主要在做视频号和抖音的无人直播。这次风向标选题终于轮到我了，来交作业。最近我专门花了几天时间去探了下外卖霸王餐这条线，整理了一些实操观察，分享给大家参考一下。
 

@@ -1,6 +1,6 @@
 # 面试前请务必读完这份 AI 提示词工程师面试通关指南
 
-> 来源：[https://f5zm66ijlf.feishu.cn/docx/L8j3dKVzao88MHx7up4cazvXnGc](https://f5zm66ijlf.feishu.cn/docx/L8j3dKVzao88MHx7up4cazvXnGc)
+
 
 大家好，我是 Lisa，目前定居深圳。先前玩过 AI 绘画，也关注过珠宝兴趣标签，这次想把十几年职场沉淀下来的面试心得拿出来分享。
 

@@ -1,6 +1,6 @@
 # 0到1孵化本地生活招商品牌，一年做到千万级变现的流量复盘
 
-> 来源：[https://avk9oq3bp6v.feishu.cn/docx/PeCBd7SwYoPyxvx5a2AcNtvcnXd](https://avk9oq3bp6v.feishu.cn/docx/PeCBd7SwYoPyxvx5a2AcNtvcnXd)
+
 
 前言：
 

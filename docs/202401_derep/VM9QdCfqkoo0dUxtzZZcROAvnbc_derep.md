@@ -1,6 +1,6 @@
 # 年报图文详解 —— 兼职副业拆解
 
-> 来源：[https://p0xfhvmcoj.feishu.cn/docx/VM9QdCfqkoo0dUxtzZZcROAvnbc](https://p0xfhvmcoj.feishu.cn/docx/VM9QdCfqkoo0dUxtzZZcROAvnbc)
+
 
 想把年报这件事变成一份能变现的小副业？其实流程并不复杂，个体户和企业的操作路径完全一致。每年1月到6月，就是给上一年营业执照做年度公示的窗口期，跟着下面这套步骤走就行。
 

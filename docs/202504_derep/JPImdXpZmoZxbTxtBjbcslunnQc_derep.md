@@ -1,6 +1,6 @@
 # 用 DeepSeek 做一面镜子，用个人优势切出 AI 自媒体专属赛道
 
-> 来源：[https://s296cam1nz.feishu.cn/docx/JPImdXpZmoZxbTxtBjbcslunnQc](https://s296cam1nz.feishu.cn/docx/JPImdXpZmoZxbTxtBjbcslunnQc)
+
 
 Hello，我叫米斗，品牌商业增长顾问，AI视觉营销设计师，分享能解决实际问题的AI工具/方法！请多多指教~
 

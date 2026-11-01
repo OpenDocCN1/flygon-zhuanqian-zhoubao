@@ -1,6 +1,6 @@
 # 网盘拉新项目全拆解：渠道、代理、真实单价一次说透
 
-> 文章来源：[https://lx3gy9plhrh.feishu.cn/docx/OyiJdz6HOofKJSxagi7cFF1pngg](https://lx3gy9plhrh.feishu.cn/docx/OyiJdz6HOofKJSxagi7cFF1pngg)
+
 
 赚钱的兄弟姐妹们，我是闰土，一个地道的东北哈尔滨人。先交代下背景：我从2022年11月5号入局网盘拉新，到现在满打满算干了一年多。5月6号我做过一次分享，之后陆陆续续有不少圈友来问我怎么开后台、怎么做分销，今天就一次性把网盘拉新的赚钱门道、代理模式和市场真实价格讲透。
 

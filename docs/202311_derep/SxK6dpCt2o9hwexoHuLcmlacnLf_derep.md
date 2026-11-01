@@ -1,6 +1,6 @@
 # 评论里藏着流量密码：用AI拆解评论，让内容效果稳定提升30%
 
-> 来源：[https://d033dn5rsad.feishu.cn/docx/SxK6dpCt2o9hwexoHuLcmlacnLf](https://d033dn5rsad.feishu.cn/docx/SxK6dpCt2o9hwexoHuLcmlacnLf)
+
 
 大家好，我是亚汶。2016年入行电商，虽有小成果，后来更偏爱科技，便转回本行做科技创业。现在主要用AI工具给内容营销团队赋能，手感上转化和互动平均能拉高30%左右。
 

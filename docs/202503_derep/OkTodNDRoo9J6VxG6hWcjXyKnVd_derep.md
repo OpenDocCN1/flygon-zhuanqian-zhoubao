@@ -1,6 +1,6 @@
 # 历史名人“活过来”怼人短视频的实操拆解
 
-> 来源：[https://st2uphf6p5.feishu.cn/docx/OkTodNDRoo9J6VxG6hWcjXyKnVd](https://st2uphf6p5.feishu.cn/docx/OkTodNDRoo9J6VxG6hWcjXyKnVd)
+
 
 哈喽各位，我是雷鸣哥。最近那波历史人物复活开骂的短视频全网炸了，连人民日报系的官媒都在转发。
 

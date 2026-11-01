@@ -1,6 +1,6 @@
 # 自媒体首战一个半月，端午前夜单场破五千：新手发售的完整复盘手记
 
-> 来源：[https://oprlej7lc1.feishu.cn/docx/X8BEd8X7joEKaZxbTsBc26Gfnrf](https://oprlej7lc1.feishu.cn/docx/X8BEd8X7joEKaZxbTsBc26Gfnrf)
+
 
 起步一个半月，端午期间放售社群课，单场到账5300+。这次是我在玩赚赛道的第一笔营收。以下是我给同样起步的新人写的发售实操心法，全文约3309字，阅读约3分钟。
 

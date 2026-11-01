@@ -1,6 +1,6 @@
 # 一面会思考的镜子，照出的是生意还是未来
 
-> 来源：[https://wandouyin.feishu.cn/docx/KJLhdMlPdoVgV2x1188cd3Wxn8b](https://wandouyin.feishu.cn/docx/KJLhdMlPdoVgV2x1188cd3Wxn8b)
+
 
 大家好，我是刘笑长，喜欢笑，做增长。
 

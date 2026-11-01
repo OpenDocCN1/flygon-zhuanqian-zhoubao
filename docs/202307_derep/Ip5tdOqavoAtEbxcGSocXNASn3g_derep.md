@@ -1,6 +1,6 @@
 # 靠搬运多多视频，我现在月入过万 1
 
-> 来源：[https://qrto9cl5vl.feishu.cn/docx/Ip5tdOqavoAtEbxcGSocXNASn3g](https://qrto9cl5vl.feishu.cn/docx/Ip5tdOqavoAtEbxcGSocXNASn3g)
+
 
 大家好，我是G。算起来在网上折腾有五六年了。
 

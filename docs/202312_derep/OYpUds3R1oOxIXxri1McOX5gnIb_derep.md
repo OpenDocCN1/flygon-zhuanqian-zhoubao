@@ -1,6 +1,6 @@
 # 小红书无人直播新打法实战复盘：7天单号GMV破2万的完整路径
 
-> 来源：[https://e102r8ejz5v.feishu.cn/docx/OYpUds3R1oOxIXxri1McOX5gnIb](https://e102r8ejz5v.feishu.cn/docx/OYpUds3R1oOxIXxri1McOX5gnIb)
+
 
 非常感谢书豪对无人直播思路的拆解。在小红书11月严打搬运混剪、无货源笔记几乎拿不到流量的环境下，这个玩法给了新方向。照着操作一周，单账号单款GMV就过了2万。虽然距离书豪的25万差距明显，但模式跑通后，只靠扩机器和扩号就能放大。目前我已经加了第二台设备、第二账号在测试。
 

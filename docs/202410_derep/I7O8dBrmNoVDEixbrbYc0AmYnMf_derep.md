@@ -1,6 +1,6 @@
 # 从月入3千到15天赚1.5W：一个三线宝妈在抖音带货圈的“逆袭”手记
 
-> 来源：[https://nneqojylf4.feishu.cn/docx/I7O8dBrmNoVDEixbrbYc0AmYnMf](https://nneqojylf4.feishu.cn/docx/I7O8dBrmNoVDEixbrbYc0AmYnMf)
+
 
 老实说，我从没想过有一天自己也能以“圈友”的身份坐在这儿分享经验，哈哈！
 

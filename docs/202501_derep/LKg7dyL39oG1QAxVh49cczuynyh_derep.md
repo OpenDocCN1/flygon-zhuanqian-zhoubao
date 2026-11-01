@@ -1,6 +1,6 @@
 # 网盘拉新全域实操SOP手册【真·保姆级·7万字+视频】
 
-> 来源：[https://fvmonet6krp.feishu.cn/docx/LKg7dyL39oG1QAxVh49cczuynyh](https://fvmonet6krp.feishu.cn/docx/LKg7dyL39oG1QAxVh49cczuynyh)
+
 
 教程篇幅很长，先把目录放前面，方便手机端回头查阅~
 

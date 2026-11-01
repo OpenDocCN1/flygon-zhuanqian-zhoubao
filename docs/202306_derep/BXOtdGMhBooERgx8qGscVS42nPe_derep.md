@@ -1,6 +1,6 @@
 # 用代码把闲鱼二手书玩成自动收钱机：我的程序员式躺赚实验
 
-> 来源：[https://r2rmt6mopc.feishu.cn/docx/BXOtdGMhBooERgx8qGscVS42nPe](https://r2rmt6mopc.feishu.cn/docx/BXOtdGMhBooERgx8qGscVS42nPe)
+
 
 大家好，我是华少，赚钱的潜水员，三年了。
 

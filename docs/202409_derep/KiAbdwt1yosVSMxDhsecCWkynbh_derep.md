@@ -1,6 +1,6 @@
 # 用微信豆把广告素材导进视频号直播间的实操打法
 
-> 来源：[https://gjoli5kpqu.feishu.cn/docx/KiAbdwt1yosVSMxDhsecCWkynbh](https://gjoli5kpqu.feishu.cn/docx/KiAbdwt1yosVSMxDhsecCWkynbh)
+
 
 大家好，我是牛公子。
 

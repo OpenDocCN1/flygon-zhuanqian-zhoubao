@@ -1,6 +1,6 @@
 # 从0到3店GMV破十万，我的小红书航海实战复盘
 
-> 来源：[https://hi428l7bh89.feishu.cn/docx/Rxr2dIdWBok4fexbSlIcwIG5n5d](https://hi428l7bh89.feishu.cn/docx/Rxr2dIdWBok4fexbSlIcwIG5n5d)
+
 
 先做个自我介绍，我叫小刀。
 

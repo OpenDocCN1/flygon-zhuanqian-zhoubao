@@ -1,6 +1,6 @@
 # 逛完这么多号后，我对赚钱这件事的看法
 
-> 来源：[https://ywvkyh9wtq.feishu.cn/docx/VhA7drb7uo4urNxfpnbcLUSWnVc](https://ywvkyh9wtq.feishu.cn/docx/VhA7drb7uo4urNxfpnbcLUSWnVc)
+
 
 先把最近给我带来认知冲击的几篇内容拎出来，致敬一下原作者。
 

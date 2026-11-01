@@ -1,6 +1,6 @@
 # 每天半小时玩转公众号爆文，30倍回本的实操笔记
 
-> 来源：[https://vr05r707r7.feishu.cn/docx/DTR9dbmheoJJkbxcbuRc9qCgnxe](https://vr05r707r7.feishu.cn/docx/DTR9dbmheoJJkbxcbuRc9qCgnxe)
+
 
 # 1、开场自白
 

@@ -1,6 +1,6 @@
 # 全面复盘“配图+金句”公众号玩法，从零到变现的操作全流程
 
-> 来源：[https://o0yvn3o31a.feishu.cn/docx/XIfOdbuxAo6fevxCoeHcvcUgnvh](https://o0yvn3o31a.feishu.cn/docx/XIfOdbuxAo6fevxCoeHcvcUgnvh)
+
 
 大家好，我是黄岛主！
 

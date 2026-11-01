@@ -1,6 +1,6 @@
 # 1个人的小红书知识IP，单月最高7位数，我究竟乘了什么风
 
-> 来源：[https://ucn1ygqr2fby.feishu.cn/docx/B9LXdFZbjoq8Jnxd65Tcvgr1n3c](https://ucn1ygqr2fby.feishu.cn/docx/B9LXdFZbjoq8Jnxd65Tcvgr1n3c)
+
 
 大家好，我是Yolo，用三句话先自我介绍：
 

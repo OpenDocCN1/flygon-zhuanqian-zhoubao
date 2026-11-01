@@ -1,6 +1,6 @@
 # 一个 RPA 工作流，打通小绿书、小红书与公众号内容发布
 
-> 原文链接：[https://b121w2zgwyx.feishu.cn/docx/BqDcdNkcZok1R6xVCLZcQxApn9g](https://b121w2zgwyx.feishu.cn/docx/BqDcdNkcZok1R6xVCLZcQxApn9g)
+
 
 ## 之前的工具，做了哪些升级？
 

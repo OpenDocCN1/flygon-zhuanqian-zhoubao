@@ -1,6 +1,6 @@
 # 用 DeepSeek 搭建小红书内容流水线
 
-> 参考资料：[https://gq2psr73l6v.feishu.cn/docx/U9qWdTwlSofTHYxNBnacHXCvncg](https://gq2psr73l6v.feishu.cn/docx/U9qWdTwlSofTHYxNBnacHXCvncg)
+
 
 ## 一、做出更吸睛的小红书标题
 

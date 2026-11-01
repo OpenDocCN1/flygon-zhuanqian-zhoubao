@@ -1,6 +1,6 @@
 # 从0到7万+：我用7天把AI绘画社群跑通的完整复盘
 
-> 来源：[https://gmvlvqwibh.feishu.cn/docx/TgLQd1akzop6RnxYKWicblrkntc](https://gmvlvqwibh.feishu.cn/docx/TgLQd1akzop6RnxYKWicblrkntc)
+
 
 大家好，我是沧海大表哥，全网同名。曾经在电商公司做设计经理，裸辞一年后转做设计师赛道的IP教练，现在在带一个叫“自由人”的社群，帮设计师做副业和创业转型。
 

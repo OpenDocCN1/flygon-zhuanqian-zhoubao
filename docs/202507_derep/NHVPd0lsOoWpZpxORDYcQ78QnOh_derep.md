@@ -1,6 +1,6 @@
 # 零基础搭上AI写作，如何做到快速接单变现
 
-> 来源：[https://fl0l41i319.feishu.cn/docx/NHVPd0lsOoWpZpxORDYcQ78QnOh](https://fl0l41i319.feishu.cn/docx/NHVPd0lsOoWpZpxORDYcQ78QnOh)
+
 
 大家好，我是甜甜。5月跟着航海项目开始尝试代写工作。
 

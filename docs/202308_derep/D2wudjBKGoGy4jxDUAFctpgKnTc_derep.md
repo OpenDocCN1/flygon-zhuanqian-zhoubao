@@ -1,6 +1,6 @@
 # 半个月把赚钱门票打回来：微信读书撬近两千精准读书粉、跑出八个群的复盘
 
-> 来源：[https://h7i1q54cm3.feishu.cn/docx/D2wudjBKGoGy4jxDUAFctpgKnTc](https://h7i1q54cm3.feishu.cn/docx/D2wudjBKGoGy4jxDUAFctpgKnTc)
+
 
 各位赚钱伙伴好，我是许帅，今年刚进圈。先说句心里话，赚钱的风向标确实是金矿，看到就得立刻上手，光看不做等于白走。
 

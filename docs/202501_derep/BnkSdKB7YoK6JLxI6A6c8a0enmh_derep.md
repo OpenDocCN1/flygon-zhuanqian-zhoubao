@@ -1,6 +1,6 @@
 # 拼多多二手书店群实操：三个月冲到头部，我的踩坑笔记
 
-> 来源：[https://q2srbwoeiz.feishu.cn/docx/BnkSdKB7YoK6JLxI6A6c8a0enmh](https://q2srbwoeiz.feishu.cn/docx/BnkSdKB7YoK6JLxI6A6c8a0enmh)
+
 
 大家好，我是田二，在郑州，程序员出身，做过几轮创业。
 

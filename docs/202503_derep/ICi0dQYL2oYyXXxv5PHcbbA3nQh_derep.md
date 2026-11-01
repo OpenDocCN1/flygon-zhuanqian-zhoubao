@@ -1,6 +1,6 @@
 # 在赚钱潜水5年，我把建筑师的工牌换成了小红书卖货链接
 
-> 来源：[https://lz4u7ofjfz.feishu.cn/docx/ICi0dQYL2oYyXXxv5PHcbbA3nQh](https://lz4u7ofjfz.feishu.cn/docx/ICi0dQYL2oYyXXxv5PHcbbA3nQh)
+
 
 大家好，我是齐亚子。2020年4月第一次上岸赚钱，到现在已经续费了整整五年。这五年里我一直在看、一直在试赛道，却一次都没在社区发声。直到最近几个月在小红书电商这条路上有了点像样的结果，我才觉得可以把经历摊开讲一下。
 

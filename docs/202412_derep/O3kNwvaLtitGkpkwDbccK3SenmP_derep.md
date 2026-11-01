@@ -1,6 +1,6 @@
 # 风向标是怎么被我“挖”出来的：10个私货拆解复盘
 
-> 来源：[https://qjv17b58t3.feishu.cn/docx/HqzHdnf1jotZBNxrbmHcxWvwn3c](https://qjv17b58t3.feishu.cn/docx/HqzHdnf1jotZBNxrbmHcxWvwn3c)
+
 
 🤝 嗨，我是老彭
 

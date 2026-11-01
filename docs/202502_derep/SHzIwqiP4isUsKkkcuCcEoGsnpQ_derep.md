@@ -1,6 +1,6 @@
 # DeepSeek 官方 13 组提示词实战拆解，新手也能秒变提问高手
 
-> 来源：[https://zzi7a49xoa.feishu.cn/docx/QbF1dnuUkoltG8xQp35c6M3ZnPf](https://zzi7a49xoa.feishu.cn/docx/QbF1dnuUkoltG8xQp35c6M3ZnPf)
+
 
 再强的模型，也怕问得不对。会不会提问，直接决定了 AI 能帮你做到什么程度。
 

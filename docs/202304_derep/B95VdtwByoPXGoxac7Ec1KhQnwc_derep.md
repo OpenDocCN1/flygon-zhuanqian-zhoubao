@@ -1,6 +1,6 @@
 # 用商标做资产配置，能否做到被动持续收款？
 
-> 来源：[https://muhrswhdsi.feishu.cn/docx/B95VdtwByoPXGoxac7Ec1KhQnwc](https://muhrswhdsi.feishu.cn/docx/B95VdtwByoPXGoxac7Ec1KhQnwc)
+
 
 我叫finley菲尼，进入赚钱圈三年，目前人在深圳，同时运营两家知产与跨境服务公司，多年专注全球品牌资产的搭建。累计服务过数千家出海企业，自己名下实缴持有的境外与国内标识约五百件。伴随跨境电商加速扩张，我逐步摸索出一套以海外标识为核心的变现路径。这不是单纯的玩法复制，而是在红海里寻找结构性机会，让商标从成本中心变成可循环的现金流。
 

@@ -1,6 +1,6 @@
 # 飞书多维表格 DeepSeek 字段免费续命玩法
 
-> 来源：[https://lxkvj39q93t.feishu.cn/docx/VxE0dSRRso9GhexzMWuccCoBnub](https://lxkvj39q93t.feishu.cn/docx/VxE0dSRRso9GhexzMWuccCoBnub)
+
 
 大家好，我是做企业AI培训的佳文。
 

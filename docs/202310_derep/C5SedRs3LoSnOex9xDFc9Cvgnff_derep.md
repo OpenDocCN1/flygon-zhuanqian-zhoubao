@@ -1,6 +1,6 @@
 # 9个人撬动小红书教育赛道年GMV 1600万，我们的实战拆解
 
-> 来源：[https://wfftwwt027.feishu.cn/docx/C5SedRs3LoSnOex9xDFc9Cvgnff](https://wfftwwt027.feishu.cn/docx/C5SedRs3LoSnOex9xDFc9Cvgnff)
+
 
 大家好，我是珍妮，这次的思路和赚钱圈陈铭Ivy一起打磨出来的，她的精华帖在这里：https://t.zsxq.com/12tvEOFgZ 感兴趣可以看看。
 

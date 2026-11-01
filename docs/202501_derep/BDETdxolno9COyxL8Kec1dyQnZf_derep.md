@@ -1,6 +1,6 @@
 # 没梯子也能玩 AI 编程？国企程序员的低配 Cursor 替代方案
 
-> 来源：[https://dxg04ukow4.feishu.cn/docx/BDETdxolno9COyxL8Kec1dyQnZf](https://dxg04ukow4.feishu.cn/docx/BDETdxolno9COyxL8Kec1dyQnZf)
+
 
 # 先说背景
 

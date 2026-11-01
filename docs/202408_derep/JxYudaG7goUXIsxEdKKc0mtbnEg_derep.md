@@ -1,6 +1,6 @@
 # 体育老师跨界视频号：7天从0到百万播放，单品GMV冲破5万+的实战复盘
 
-> 来源：[https://c3kvccg2ub.feishu.cn/docx/JxYudaG7goUXIsxEdKKc0mtbnEg](https://c3kvccg2ub.feishu.cn/docx/JxYudaG7goUXIsxEdKKc0mtbnEg)
+
 
 大家好，我是春哥。现居长沙，视频号带货做了1年多，累计变现超20万。经常被问爆款怎么来的，今天就用我这次参加【视频号带货】航海的真实经历，给你拆解一下关键做法，希望能帮到你。
 

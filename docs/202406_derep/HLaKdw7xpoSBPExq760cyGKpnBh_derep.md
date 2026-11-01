@@ -1,6 +1,6 @@
 # 做了2000多天，我的副业长成什么样
 
-> 来源：[https://mmxdvhf07x.feishu.cn/docx/HLaKdw7xpoSBPExq760cyGKpnBh](https://mmxdvhf07x.feishu.cn/docx/HLaKdw7xpoSBPExq760cyGKpnBh)
+
 
 大家好，我是Tilly。先做个自我介绍，我现在主业是互联网产品经理，已经干了9年，待过大小公司，也踩过社区、K12、互联网医疗、O2O、NFT、元宇宙、AI、政务SaaS这些坑。入行第2年我就看明白了，产品经理本质上就是在实现老板的想法，并不能改变世界。于是我调整心态，把工作当成一份养活自己的饭碗，空闲时间全用来琢磨副业。
 

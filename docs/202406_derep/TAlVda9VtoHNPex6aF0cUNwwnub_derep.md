@@ -1,6 +1,6 @@
 # 【实操分享】日引流破百，我在用这12个小红书低风险引流打法
 
-> 来源：[https://nuw023zscw.feishu.cn/docx/TAlVda9VtoHNPex6aF0cUNwwnub](https://nuw023zscw.feishu.cn/docx/TAlVda9VtoHNPex6aF0cUNwwnub)
+
 
 大家好，我是张嘉嘉，正在做自媒体创业，帮职场人和个体创业者把自媒体IP孵化成可变现的资产。教育、情感、职场、企业管理、收纳整理等多个赛道，我都跑通过小红书从流量到变现的完整闭环。
 

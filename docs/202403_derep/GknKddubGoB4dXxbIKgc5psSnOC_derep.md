@@ -1,6 +1,6 @@
 # 用影刀RPA搞定20台手机抖音批量发片，我是这样做到的
 
-> 来源：[https://ood4bblwty.feishu.cn/docx/GknKddubGoB4dXxbIKgc5psSnOC](https://ood4bblwty.feishu.cn/docx/GknKddubGoB4dXxbIKgc5psSnOC)
+
 
 ## 1、项目背景与机器人能力
 

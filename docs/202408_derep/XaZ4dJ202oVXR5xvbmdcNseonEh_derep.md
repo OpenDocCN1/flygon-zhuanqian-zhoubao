@@ -1,6 +1,6 @@
 # Windows 专属！剪映批量剪辑神器使用全攻略
 
-> 来源：[https://olftqb2ldn.feishu.cn/docx/XaZ4dJ202oVXR5xvbmdcNseonEh](https://olftqb2ldn.feishu.cn/docx/XaZ4dJ202oVXR5xvbmdcNseonEh)
+
 
 ## 安装包获取
 

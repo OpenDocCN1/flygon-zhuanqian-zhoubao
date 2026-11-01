@@ -1,6 +1,6 @@
 # 一张艺术感十足的二维码，到底能给我带来多少流量？——我的艺术二维码实战笔记
 
-> 来源：[https://tgxl0sxo7f.feishu.cn/docx/AoT0dlRipo0RN6xDSo3cdckpnyf](https://tgxl0sxo7f.feishu.cn/docx/AoT0dlRipo0RN6xDSo3cdckpnyf)
+
 
 大家好，我是吉果，插画师，也是被迫营业的赚钱透明人。最近朋友圈又多了一个身份标签：艺术二维码设计师。
 

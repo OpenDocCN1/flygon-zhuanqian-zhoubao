@@ -1,6 +1,6 @@
 # 荷包蛋组夜话复盘 | 副业焦虑怎么破？先把心态调过来，再去找乐趣
 
-> 来源：[https://lv9qj6hfr4z.feishu.cn/docx/JoF8dZ7yHoo7ikxxcZ7cBCV0nMb](https://lv9qj6hfr4z.feishu.cn/docx/JoF8dZ7yHoo7ikxxcZ7cBCV0nMb)
+
 
 布道传术 成人达己
 

@@ -1,6 +1,6 @@
 # 风向标拆解第2期：K12升学规划，卷点正在往哪走？-Bob
 
-> 来源：[https://zyf4pciaqe.feishu.cn/docx/Gtnzdpqn1of2AJxfn47cmSxinih](https://zyf4pciaqe.feishu.cn/docx/Gtnzdpqn1of2AJxfn47cmSxinih)
+
 
 升学规划到底在规划什么？
 

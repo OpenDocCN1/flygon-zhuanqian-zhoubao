@@ -1,6 +1,6 @@
 # 新人入局得物，单号实操走通，两个月做到破万引流变现
 
-> 来源：[https://udxxg5rx5m.feishu.cn/docx/KXdsdKeSEoBj5cxMsxocqFR8nXe](https://udxxg5rx5m.feishu.cn/docx/KXdsdKeSEoBj5cxMsxocqFR8nXe)
+
 
 大家好，我是施仁。
 

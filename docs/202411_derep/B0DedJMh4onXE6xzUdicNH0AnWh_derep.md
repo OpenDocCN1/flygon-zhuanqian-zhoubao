@@ -1,6 +1,6 @@
 # 【航海好事】 八期新手踏出舒适圈第一步，线下同城夜校航海复盘
 
-> 来源：[https://c2z3ysmn07.feishu.cn/docx/B0DedJMh4onXE6xzUdicNH0AnWh](https://c2z3ysmn07.feishu.cn/docx/B0DedJMh4onXE6xzUdicNH0AnWh)
+
 
 各位圈内朋友好，我是饮茶，又叫老陈，赚钱第8期新人。
 

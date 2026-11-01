@@ -1,6 +1,6 @@
 # 高客单活体猫生意：抖音引流+一件代发，单笔净赚五千多，一个月轻松七万起
 
-> 来源：[https://su6efgs0z3.feishu.cn/docx/TEcYdMEqVopFuTx7RYxcIYs6nmh](https://su6efgs0z3.feishu.cn/docx/TEcYdMEqVopFuTx7RYxcIYs6nmh)
+
 
 上周专门开车去南沙面见赚钱圈里的杰哥，聊完才发现，原来做高价活体猫做成现金流机器，门槛没想象中那么高，路径却很清晰。
 

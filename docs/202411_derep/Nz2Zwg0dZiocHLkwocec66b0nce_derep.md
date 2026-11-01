@@ -1,6 +1,6 @@
 # 用 Cursor 我是怎么零基础把 YouTube 视频下载工具从无到有做出来的
 
-> 来源：[https://jhsbi41509.feishu.cn/docx/EpLEdOqdYoSrJsxpbAbcNBuJnrh](https://jhsbi41509.feishu.cn/docx/EpLEdOqdYoSrJsxpbAbcNBuJnrh)
+
 
 大家好，我是红哥 Frank，在赚钱混了快两年了。工作一直很忙，参与感不高。最近抽了几天时间上手 Cursor，意外做出了两个小东西：一个是贪吃蛇，一个是 YouTube 在线视频下载器。写下这篇是想把从零到一的完整路径复盘出来，给同样想学 Cursor 的赚钱伙伴一点实操信心。我能搞定，你也能。
 

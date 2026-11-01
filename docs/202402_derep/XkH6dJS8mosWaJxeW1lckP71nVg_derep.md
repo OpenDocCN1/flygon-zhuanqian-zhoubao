@@ -1,6 +1,6 @@
 # 🔥风向标项目复盘 | 躺平也能变现？一份苹果自动记账快捷指令卖出12万的底层逻辑
 
-> 来源：[https://j1enqkovxlavxlg.feishu.cn/docx/XkH6dJS8mosWaJxeW1lckP71nVg](https://j1enqkovxlg.feishu.cn/docx/XkH6dJS8mosWaJxeW1lckP71nVg)
+
 
 拆解任何一个能赚钱的账号，都绕不开这四件事：
 

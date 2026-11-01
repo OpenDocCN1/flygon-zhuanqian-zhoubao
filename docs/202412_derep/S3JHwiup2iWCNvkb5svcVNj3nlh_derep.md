@@ -1,6 +1,6 @@
 # 公众号日更一年复盘：从追爆文到做自己，我是怎么走过来的
 
-> 来源：[https://uxem6iksdzz.feishu.cn/docx/X3b9dXVymoYFVpxKvhZci6fnnsU](https://uxem6iksdzz.feishu.cn/docx/X3b9dXVymoYFVpxKvhZci6fnnsU)
+
 
 大家好，我是大何，这已经是我第二次以赚钱航海教练的身份来跟大家聊了。航海也接近尾声，受领队邀请，在这最后的阶段，跟大家聊点自己的实操心得。
 

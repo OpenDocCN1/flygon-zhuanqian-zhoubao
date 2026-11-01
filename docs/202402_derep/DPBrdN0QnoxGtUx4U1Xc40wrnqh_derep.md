@@ -1,6 +1,6 @@
 # 视频号卖知识课能爆单的底层打法拆解——以阿翰案例为例
 
-> 来源：[https://opc8tu4qr0.feishu.cn/docx/DPBrdN0QnoxGtUx4U1Xc40wrnqh](https://opc8tu4qr0.feishu.cn/docx/DPBrdN0QnoxGtUx4U1Xc40wrnqh)
+
 
 # 案例拆解
 

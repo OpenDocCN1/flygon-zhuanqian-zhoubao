@@ -1,6 +1,6 @@
 # 搞钱人的颈椎自救实录：别等脖子废了，才想起身体这根“赚钱之根”
 
-> 来源：`https://giwb0zv0cv.feishu.cn/docx/C5YOdSCh3oMzEVxAYZCcEKbTn8c`
+
 
 各位圈内朋友，今天这篇聊聊我自己颈椎从出事到恢复的全过程，都是真金白银换来的教训。
 

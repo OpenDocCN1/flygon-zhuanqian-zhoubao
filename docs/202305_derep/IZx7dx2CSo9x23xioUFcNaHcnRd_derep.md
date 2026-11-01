@@ -1,6 +1,6 @@
 # 13次拖拽，ChatGPT+RPA把文案流水线跑通了
 
-> 来源：[https://rztam6ckur.feishu.cn/docx/IZx7dx2CSo9x23xioUFcNaHcnRd](https://rztam6ckur.feishu.cn/docx/IZx7dx2CSo9x23xioUFcNaHcnRd)
+
 
 4月12号我在龙哥盟丢了一条关于 RPA 资源对接的信息，本来就想验证两件事：
 

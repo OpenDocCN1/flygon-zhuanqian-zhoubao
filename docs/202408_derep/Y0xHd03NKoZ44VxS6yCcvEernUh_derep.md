@@ -1,6 +1,6 @@
 # 视频号带货：从实战航行到结果兑现
 
-> 来源：[https://xunyue66.feishu.cn/docx/Y0xHd03NKoZ44VxS6yCcvEernUh](https://xunyue66.feishu.cn/docx/Y0xHd03NKoZ44VxS6yCcvEernUh)
+
 
 # 用数据说话的航行
 

@@ -1,6 +1,6 @@
 # 开营文稿案例
 
-> 来源：[https://kwj3fkh7ymf.feishu.cn/docx/Oq8OdjYLgoBJTNxwA3WcM52kn4i](https://kwj3fkh7ymf.feishu.cn/docx/Oq8OdjYLgoBJTNxwA3WcM52kn4i)
+
 
 ### 开营文稿
 

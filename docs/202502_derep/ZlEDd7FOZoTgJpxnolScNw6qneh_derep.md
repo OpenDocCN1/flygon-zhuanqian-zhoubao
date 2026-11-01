@@ -1,6 +1,6 @@
 # 赚钱超级标
 
-> 来源：[https://ekcwwaypjw.feishu.cn/docx/ZlEDd7FOZoTgJpxnolScNw6qneh](https://ekcwwaypjw.feishu.cn/docx/ZlEDd7FOZoTgJpxnolScNw6qneh)
+
 
 大家好，我是 liliya，一个在赚钱圈子里摸爬滚打四年的老朋友。自从龙哥抛出超级标这个命题，我就彻底陷进去了编程的坑里。说实话我零基础，全靠 AI 带着走，却真的把程序跑通了。很多卡点都是自己啃出来的，搞定后那种膨胀感太上头了。好几次为了调一个参数硬是肝到凌晨两三点，等网站能正常上线、智能体流畅运转，再看到用户的一堆好评，那种成就感真的难以形容。
 

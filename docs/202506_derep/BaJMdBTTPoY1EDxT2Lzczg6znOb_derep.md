@@ -1,6 +1,6 @@
 # 在小红书做虚拟生意，先吃透这套底层规则
 
-> 来源：[https://zcnzawlx2ndr.feishu.cn/docx/BaJMdBTTPoY1EDxT2Lzczg6znOb](https://zcnzawlx2ndr.feishu.cn/docx/BaJMdBTTPoY1EDxT2Lzczg6znOb)
+
 
 把做生意比作比赛，下场前把规则摸透，才能知道得分点在哪。想在小红书里做虚拟生意，先搞清楚平台的运行逻辑，后续才有机会把项目跑通。
 

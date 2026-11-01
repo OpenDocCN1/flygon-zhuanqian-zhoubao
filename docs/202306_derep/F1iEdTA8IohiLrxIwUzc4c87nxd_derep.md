@@ -1,6 +1,6 @@
 # 闲鱼无货源也能做到日入千元的底层思路拆解
 
-> 来源：[https://t8g8dj5sso.feishu.cn/docx/F1iEdTA8IohiLrxIwUzc4c87nxd](https://t8g8dj5sso.feishu.cn/docx/F1iEdTA8IohiLrxIwUzc4c87nxd)
+
 
 开场先说个现状。
 

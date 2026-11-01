@@ -1,6 +1,6 @@
 # 视频号口播带货监管收紧后，AI数字人这条路还能走吗
 
-> 来源：[https://tokzg1oqtr.feishu.cn/docx/QN3Jd5BGpoE9WMxAH8pcVlOun0f](https://tokzg1oqtr.feishu.cn/docx/QN3Jd5BGpoE9WMxAH8pcVlOun0f)
+
 
 最近全网都在传一个冷启动打法：用AI虚拟的俄罗斯女生做口播带货。第一眼看过去几乎以为是真人出镜，神态和口型衔接都很自然。抖音、快手、视频号都是重灾区，不少号在20天左右就能起量，涨粉曲线相当漂亮。
 

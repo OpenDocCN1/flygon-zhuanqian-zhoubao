@@ -1,6 +1,6 @@
 # 原创短视频如何实现规模化产出？我的带货矩阵自动化实战拆解
 
-> 来源：[https://f2rgk22rcn.feishu.cn/docx/JmBgdr705ovHoyxQknRctRaMnKh](https://f2rgk22rcn.feishu.cn/docx/JmBgdr705ovHoyxQknRctRaMnKh)
+
 
 这篇想聊一个有点意思的操盘案例。
 

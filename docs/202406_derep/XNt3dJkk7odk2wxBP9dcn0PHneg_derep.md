@@ -1,6 +1,6 @@
 # 短视频带货评论区被质疑时，如何借助 ChatGPT 生成回应，把危机变成交
 
-> 来源：[https://balfcirt91j.feishu.cn/docx/XNt3dJkk7odk2wxBP9dcn0PHneg](https://balfcirt91j.feishu.cn/docx/XNt3dJkk7odk2wxBP9dcn0PHneg)
+
 
 逛电商时，大多数人都会先翻差评区。
 

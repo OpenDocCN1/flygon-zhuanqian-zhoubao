@@ -1,6 +1,6 @@
 # 三天上头条：我用抖音搜索SEO做到被动GMV 1.2万的全套打法
 
-> 来源：[https://uqlqfu18jy.feishu.cn/docx/UmKfdykB9oavtTxLh5McUyrMnML](https://uqlqfu18jy.feishu.cn/docx/UmKfdykB9oavtTxLh5McUyrMnML)
+
 
 前段时间我把一次抖音SEO的实测数据丢到风向标上，结果中标了。不少圈里人私信问我这是运气还是真有路子。我直接说：有方法论，而且能复刻。下面把从想法到落地的完整思路，一次性摊开。
 

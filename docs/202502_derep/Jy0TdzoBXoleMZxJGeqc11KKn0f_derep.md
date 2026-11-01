@@ -1,6 +1,6 @@
 # 用剪映 AI 数字人做口播引流，3 分钟出一支，批量起号全流程拆解
 
-> 来源：[https://ox9k4rncex0.feishu.cn/docx/Jy0TdzoBXoleMZxJGeqc11KKn0f](https://ox9k4rncex0.feishu.cn/docx/Jy0TdzoBXoleMZxJGeqc11KKn0f)
+
 
 # 开场先说点心里话
 

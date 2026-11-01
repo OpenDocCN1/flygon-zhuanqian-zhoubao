@@ -1,6 +1,6 @@
 # 从零到初步验证：哔哩哔哩好物悬赏实战复盘与对标拆解
 
-> 来源：[https://ebw2eafswx.feishu.cn/docx/WMqdds5YOo98k4x1LjdcR1Jon2e](https://ebw2eafswx.feishu.cn/docx/WMqdds5YOo98k4x1LjdcR1Jon2e)
+
 
 # 开篇：为何称之为0到0.1的跨越
 

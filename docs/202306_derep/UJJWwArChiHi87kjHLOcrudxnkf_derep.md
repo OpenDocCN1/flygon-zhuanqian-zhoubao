@@ -1,6 +1,6 @@
 # 视频号零基础小白的7天破圈实录：从负债边缘到日入过万
 
-> 来源：[https://fratpz6j6z.feishu.cn/docx/Eix9dCAI4oHeUxxRkEGcoYWUnFd](https://fratpz6j6z.feishu.cn/docx/Eix9dCAI4oHeUxxRkEGcoYWUnFd)
+
 
 # 自我介绍
 

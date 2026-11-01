@@ -1,6 +1,6 @@
 # 拆书笔记卡壳？别硬写，用这个 AI 傻瓜流程，5 分钟就能出一版像样的稿子
 
-> 来源：[https://w194sny3eli.feishu.cn/docx/X4ucdpobWoEBTHxcLJbcS8PQnSb](https://w194sny3eli.feishu.cn/docx/X4ucdpobWoEBTHxcLJbcS8PQnSb)
+
 
 这是一篇曾帮助上万名读者解决问题的热门帖子
 

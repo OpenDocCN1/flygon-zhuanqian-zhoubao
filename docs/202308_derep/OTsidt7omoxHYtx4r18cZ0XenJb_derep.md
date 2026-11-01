@@ -1,6 +1,6 @@
 # 月销6万 纯赚2万！新手也能玩转的美团美妆外卖冷门掘金法
 
-> 来源：[https://vy3iffqs82.feishu.cn/docx/OTsidt7omoxHYtx4r18cZ0XenJb](https://vy3iffqs82.feishu.cn/docx/OTsidt7omoxHYtx4r18cZ0XenJb)
+
 
 # 开场白
 

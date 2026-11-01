@@ -1,6 +1,6 @@
 # 短视频带货一年，我把流水干到了30倍，这三个月悟到的事
 
-> 来源：[https://bqwkrkc6dh.feishu.cn/docx/Ac7HdDG2TokddQxPA8Ic1YcAnnc](https://bqwkrkc6dh.feishu.cn/docx/Ac7HdDG2TokddQxPA8Ic1YcAnnc)
+
 
 我是 lip 老姜。近三个月，依旧死磕教辅短视频这个赛道。
 

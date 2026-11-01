@@ -1,6 +1,6 @@
 # 风向标拆解第 3 期——小红书 PPT 模板生意拆解·言果
 
-> 来源：[https://k4lvv97n87.feishu.cn/docx/YGuOdHL23oj7IRx5j15cFQSGnOe](https://k4lvv97n87.feishu.cn/docx/YGuOdHL23oj7IRx5j15cFQSGnOe)
+
 
 # 1. 赛道与平台选择逻辑
 

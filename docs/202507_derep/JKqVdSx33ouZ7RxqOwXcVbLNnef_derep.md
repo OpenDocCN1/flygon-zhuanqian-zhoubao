@@ -1,6 +1,6 @@
 # 别让AI抢走你的脑子：用好AI文案，只需守住这一个核心地位
 
-> 来源：[https://lag410zsdtc.feishu.cn/docx/JKqVdSx33ouZ7RxqOwXcVbLNnef](https://lag410zsdtc.feishu.cn/docx/JKqVdSx33ouZ7RxqOwXcVbLNnef)
+
 
 今天聊一个我被坑无数次才悟透的事情：怎么把AI训练成你的御用风格克隆机，而不是一个东施效颦的拙劣模仿者。
 

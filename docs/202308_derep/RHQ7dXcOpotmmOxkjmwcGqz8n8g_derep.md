@@ -1,6 +1,6 @@
 # 《从小红书航海到月入2万+：我是如何把书法爱好，变成手写婚书这条精准变现赛道》
 
-> 来源：[https://l4dbgu9i0d.feishu.cn/docx/RHQ7dXcOpotmmOxkjmwcGqz8n8g](https://l4dbgu9i0d.feishu.cn/docx/RHQ7dXcOpotmmOxkjmwcGqz8n8g)
+
 
 赚钱的各位朋友，大家好！
 

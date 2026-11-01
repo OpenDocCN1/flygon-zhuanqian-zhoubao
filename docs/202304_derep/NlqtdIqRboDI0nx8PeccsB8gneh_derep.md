@@ -1,6 +1,6 @@
 # 我把赚钱学到的方法，直接用来做短剧开单了
 
-> 来源：[https://yf4niapxuw.feishu.cn/docx/NlqtdIqRboDI0nx8PeccsB8gneh](https://yf4niapxuw.feishu.cn/docx/NlqtdIqRboDI0nx8PeccsB8gneh)
+
 
 最近在试水短剧，第一天晚上就把视频发了上去，没想到第二天一早订单就来了。这种立竿见影的反馈太爽了。
 

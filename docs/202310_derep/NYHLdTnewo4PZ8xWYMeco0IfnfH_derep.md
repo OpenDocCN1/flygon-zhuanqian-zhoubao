@@ -1,6 +1,6 @@
 # 写之前，先把脑子重启一遍
 
-> 来源：[https://eqc9f6vzuhv.feishu.cn/docx/NYHLdTnewo4PZ8xWYMeco0IfnfH](https://eqc9f6vzuhv.feishu.cn/docx/NYHLdTnewo4PZ8xWYMeco0IfnfH)
+
 
 # 开场白
 

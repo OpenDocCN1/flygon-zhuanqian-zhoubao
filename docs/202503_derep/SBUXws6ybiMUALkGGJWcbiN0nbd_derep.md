@@ -1,6 +1,6 @@
 # 老板避雷手册5：红书运营用人的完整避坑路径
 
-> 来源：[https://ncn18orsgwl2.feishu.cn/docx/Cp7CdUqTyoSMSYxh69kcf4vwnj8](https://ncn18orsgwl2.feishu.cn/docx/Cp7CdUqTyoSMSYxh69kcf4vwnj8)
+
 
 我是珍妮。靠1500块钱起步，留学和房产两个方向都碰过，既做自己的项目，也接其他公司的代运营，拿得出手的案例还算有一些。
 

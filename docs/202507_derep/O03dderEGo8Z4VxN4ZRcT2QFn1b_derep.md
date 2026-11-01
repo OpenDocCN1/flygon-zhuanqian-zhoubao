@@ -1,6 +1,6 @@
 # 从大厂HR到AI写作接单：我的0到1实操复盘
 
-> 来源：[https://og53xet0f4.feishu.cn/docx/O03dderEGo8Z4VxN4ZRcT2QFn1b](https://og53xet0f4.feishu.cn/docx/O03dderEGo8Z4VxN4ZRcT2QFn1b)
+
 
 认识一下，我是涛仔。曾经在大厂做HR，现在是一名在路上持续试错的自由职业者。
 

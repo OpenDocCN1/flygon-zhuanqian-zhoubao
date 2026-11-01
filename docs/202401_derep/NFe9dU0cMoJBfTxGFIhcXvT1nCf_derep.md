@@ -1,6 +1,6 @@
 # 用复盘把工作效率拉满的正确姿势
 
-> 来源：[https://w9h8opubld.feishu.cn/docx/NFe9dU0cMoJBfTxGFIhcXvT1nCf](https://w9h8opubld.feishu.cn/docx/NFe9dU0cMoJBfTxGFIhcXvT1nCf)
+
 
 ## 一、为什么必须复盘
 

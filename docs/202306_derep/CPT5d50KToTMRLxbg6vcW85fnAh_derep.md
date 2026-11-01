@@ -1,6 +1,6 @@
 # 自媒体运营神器免费领，链接在下面可以直接拿
 
-> 来源：[https://udxxg5rx5m.feishu.cn/docx/CPT5d50KToTMRLxbg6vcW85fnAh](https://udxxg5rx5m.feishu.cn/docx/CPT5d50KToTMRLxbg6vcW85fnAh)
+
 
 先说清楚一件事：这个工具目前已经不再更新维护，后续所有功能都会整合到新的一款全能型软件里。
 

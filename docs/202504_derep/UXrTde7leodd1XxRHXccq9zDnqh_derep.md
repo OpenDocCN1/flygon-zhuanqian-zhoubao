@@ -1,6 +1,6 @@
 # 2025年3月赚钱【AI应用·Web网站开发】资料全梳理
 
-> 资料来源：https://ccav9ey9jd.feishu.cn/docx/UXrTde7leodd1XxRHXccq9zDnqh
+
 
 想靠AI快速上手做网站，先把这波实操经验和坑都收好。这份整理来自赚钱4群结营阶段的真实问答，覆盖工具选型、需求获取到上线部署，全是可直接用的干货。
 

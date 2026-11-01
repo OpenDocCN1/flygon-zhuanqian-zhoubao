@@ -1,6 +1,6 @@
 # 零代码上手！靠 Cursor + 一个工具，我把俄罗斯方块做出来了
 
-> 来源：[https://rxas35pmvn.feishu.cn/docx/BfKjd0H8NoP5WRxa1VUcP267nig](https://rxas35pmvn.feishu.cn/docx/BfKjd0H8NoP5WRxa1VUcP267nig)
+
 
 上次聊到用 LocalIssues 来驱动项目开发，评论区有不少朋友说概念有点抽象看不太懂。所以这次我直接录了个实操演示，用最直观的方式给大家讲清楚。
 

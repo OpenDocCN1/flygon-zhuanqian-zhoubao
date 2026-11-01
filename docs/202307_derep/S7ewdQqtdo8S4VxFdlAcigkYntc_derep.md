@@ -1,6 +1,6 @@
 # 全职宝妈靠公众号精准引流做到百万变现，这套小白可复制的方法论分享给你
 
-> 来源：[https://p00to5ni4e8.feishu.cn/docx/S7ewdQqtdo8S4VxFdlAcigkYntc](https://p00to5ni4e8.feishu.cn/docx/S7ewdQqtdo8S4VxFdlAcigkYntc)
+
 
 大家好，很高兴在这里和大家交流。
 

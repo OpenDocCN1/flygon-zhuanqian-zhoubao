@@ -1,6 +1,6 @@
 # 一台电脑撬动千间直播，一月矩阵变现十万+：百度数字人直播的实操拆解
 
-> 来源：[https://yalr0qngor9.feishu.cn/docx/XwSAd87RDoKkNex60Dxcx0fWnde](https://yalr0qngor9.feishu.cn/docx/XwSAd87RDoKkNex60Dxcx0fWnde)
+
 
 嗨，我是糖豆豆，互联网里摸爬滚打快八年的老兵。
 

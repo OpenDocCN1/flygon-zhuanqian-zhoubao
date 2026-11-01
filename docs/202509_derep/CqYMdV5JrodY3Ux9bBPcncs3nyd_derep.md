@@ -1,6 +1,6 @@
 # 我从零做B站好物深海圈，2条视频就日入破千，3天回本门票，10天奔着破万去，我到底踩中了什么？
 
-> 来源：[https://psborr04us.feishu.cn/docx/CqYMdV5JrodY3Ux9bBPcncs3nyd](https://psborr04us.feishu.cn/docx/CqYMdV5JrodY3Ux9bBPcncs3nyd)
+
 
 # 前言
 

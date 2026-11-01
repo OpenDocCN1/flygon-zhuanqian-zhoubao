@@ -1,6 +1,6 @@
 # 第二周进入分化期，船员打卡率怎么稳住？
 
-> 来源：[https://fanlei666.feishu.cn/docx/BKWpdX6rqo58kJxrsMCcxTrjn8e](https://fanlei666.feishu.cn/docx/BKWpdX6rqo58kJxrsMCcxTrjn8e)
+
 
 ## 航海进入中期，状态开始两极化
 

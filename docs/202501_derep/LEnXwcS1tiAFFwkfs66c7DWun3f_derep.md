@@ -1,6 +1,6 @@
 # 【新手复盘】小红书虚拟资料航海第一次0到1，赚到首桶金💰
 
-> 来源：[https://zcnu3g5zn3md.feishu.cn/docx/ZNAldClrFo2jJAxf0BNcUCcTnfQ](https://zcnu3g5zn3md.feishu.cn/docx/ZNAldClrFo2jJAxf0BNcUCcTnfQ)
+
 
 大家好，我是柚柚可乐。
 

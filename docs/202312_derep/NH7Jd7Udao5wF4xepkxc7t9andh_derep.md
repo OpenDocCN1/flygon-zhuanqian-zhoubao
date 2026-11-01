@@ -1,6 +1,6 @@
 # 从个人IP到超级个体，我用小红书流量技能，给30多家企业做成线下内训、游学与深度合作
 
-> 来源：[https://gifi56ymyi6.feishu.cn/docx/NH7Jd7Udao5wF4xepkxc7t9andh](https://gifi56ymyi6.feishu.cn/docx/NH7Jd7Udao5wF4xepkxc7t9andh)
+
 
 大家好，我是文静。现在我一方面带个人做小红书IP，另一方面也为企业做线下内训，并且跟不少行业头部企业以流量技术入股的方式深度绑定。
 

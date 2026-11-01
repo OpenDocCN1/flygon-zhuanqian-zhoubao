@@ -1,6 +1,6 @@
 # 从小红书撬动2700万营收后：留学赛道现在还能不能做？我的全景复盘
 
-> 来源：[https://ht16ej1tui.feishu.cn/docx/N3xWdm6iLoiDyZxWWUEcGW5SnLc](https://ht16ej1tui.feishu.cn/docx/N3xWdm6iLoiDyZxWWUEcGW5SnLc)
+
 
 大家好，我是珍妮。1500块起步，22-23年教育赛道在小红书累计做到2700万营收。我是这条业绩背后的操盘人，也是《老板避雷手册》那篇帖子的作者。
 

@@ -1,6 +1,6 @@
 # 用 Cursor 撸了一个小红书笔记采集插件，直接开源送给大家
 
-> 来源：[https://udxxg5rx5m.feishu.cn/docx/QpG9dRKDioZCjZxKTOBcrUPcnRg](https://udxxg5rx5m.feishu.cn/docx/QpG9dRKDioZCjZxKTOBcrUPcnRg)
+
 
 前段时间自己在做测试项目，刚好缺一个能批量抓取小红书笔记的工具。之前一直受不了易语言那套，于是留意到了最近很火的 Cursor，想着就拿它来练手，顺手给自己搭了个小红书笔记下载助手，现在免费分享出来。
 

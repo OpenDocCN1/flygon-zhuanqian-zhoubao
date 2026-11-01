@@ -1,6 +1,6 @@
 # 小红书卖高端水果，不想做低价走量就照这套打法
 
-> 来源：[https://rm1nv0sw1r.feishu.cn/docx/Ew3TdYNZxoxO5axIU5Gcxz02nXb](https://rm1nv0sw1r.feishu.cn/docx/Ew3TdYNZxoxO5axIU5Gcxz02nXb)
+
 
 # 案例拆解
 

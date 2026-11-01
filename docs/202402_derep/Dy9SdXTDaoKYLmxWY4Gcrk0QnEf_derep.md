@@ -1,6 +1,6 @@
 # 风向标拆解第3期-机会9-枫
 
-> 来源：[https://qf8xr66n0a.feishu.cn/docx/Dy9SdXTDaoKYLmxWY4Gcrk0QnEf](https://qf8xr66n0a.feishu.cn/docx/Dy9SdXTDaoKYLmxWY4Gcrk0QnEf)
+
 
 # 一款 Notion 模板，真的能做到年入17万美金吗？
 

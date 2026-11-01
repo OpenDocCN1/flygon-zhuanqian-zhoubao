@@ -1,6 +1,6 @@
 # 从零到百万利润的小红书带货操作手册 副本
 
-> 来源：[https://n4dbdw6xhe.feishu.cn/docx/CRs6df7ZQoiI1UxI9nIcKWYznKb](https://n4dbdn6xhe.feishu.cn/docx/CRs6df7ZQoiI1UxI9nIcKWYznKb)
+
 
 这是一份以小红书操盘视角打磨的带货方法论，帮你把笔记带货从0到1跑通。
 

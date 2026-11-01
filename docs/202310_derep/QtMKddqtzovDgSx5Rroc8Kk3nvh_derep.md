@@ -1,6 +1,6 @@
 # 108张竖版知识地图：记录我的8月航海学习，也聊聊制作与后续可能
 
-> 原文出处：https://dakhb269es.feishu.cn/docx/QtMKddqtzovDgSx5Rroc8Kk3nvh
+
 
 ## 从个人记录到公开分享
 

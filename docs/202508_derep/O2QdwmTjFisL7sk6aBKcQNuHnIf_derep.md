@@ -1,6 +1,6 @@
 # 从大厂离职到专家IP：一个垂直领域研究人的两年三次转身
 
-> 来源：[https://rcnm43d7lghx.feishu.cn/docx/SDdcd4dcdooXF5xeyFqcfy8BnDb](https://rcnm43d7lghx.feishu.cn/docx/SDdcd4dcdooXF5xeyFqcfy8BnDb)
+
 
 龙哥上周刚发了第10条超级标，巧的是这条路我也刚走完一轮。于是我在星巴克坐了一天，手写了这篇接近万字的复盘。
 

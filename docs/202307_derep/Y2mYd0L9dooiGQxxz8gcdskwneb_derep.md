@@ -1,6 +1,6 @@
 # 1分钟就能做出AI艺术二维码，新手也能上手（实操贴）
 
-> 来源：[https://tjqtxsd47u.feishu.cn/docx/Y2mYd0L9dooiGQxxz8gcdskwneb](https://tjqtxsd47u.feishu.cn/docx/Y2mYd0L9dooiGQxxz8gcdskwneb)
+
 
 嗨，大家好，我是火星人。
 

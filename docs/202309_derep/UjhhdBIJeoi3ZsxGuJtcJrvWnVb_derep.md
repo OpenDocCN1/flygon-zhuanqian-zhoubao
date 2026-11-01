@@ -1,6 +1,6 @@
 # 那一年，我十分钟赚到了100万（12万美元）连载之八
 
-> 来源：[https://tj51bxige8.feishu.cn/docx/UjhhdBIJeoi3ZsxGuJtcJrvWnVb](https://tj51bxige8.feishu.cn/docx/UjhhdBIJeoi3ZsxGuJtcJrvWnVb)
+
 
 各位朋友，我是静水流深，英文工具站的教练组成员。
 

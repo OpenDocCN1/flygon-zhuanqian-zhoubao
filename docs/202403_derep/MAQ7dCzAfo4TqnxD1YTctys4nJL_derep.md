@@ -1,6 +1,6 @@
 # 一个从0到负数的实战复盘：我想明白了，赚到100万以前我缺的不是机会
 
-> 来源：[https://wxbxp20afbt.feishu.cn/docx/MAQ7dCzAfo4TqnxD1YTctys4nJL](https://wxbxp20afbt.feishu.cn/docx/MAQ7dCzAfo4TqnxD1YTctys4nJL)
+
 
 这是我第一次把自己的踩坑路公开出来写成复盘，算是一份从负数起步的思考笔记。
 

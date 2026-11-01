@@ -1,6 +1,6 @@
 # 【干货】用 ChatGPT 搭上 Zapier，这套自动化组合拳有多香？
 
-> 来源：[https://zzi7a49xoa.feishu.cn/docx/H4L5dC5VFozWrlx6sI7cmnRpn8e](https://zzi7a49xoa.feishu.cn/docx/H4L5dC5VFozWrlx6sI7cmnRpn8e)
+
 
 ## 一、为什么要把两者绑在一起
 

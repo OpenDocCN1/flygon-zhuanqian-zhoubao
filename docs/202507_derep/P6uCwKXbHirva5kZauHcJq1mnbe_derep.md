@@ -1,6 +1,6 @@
 # 用人工智能做内容，月度营收破十万：从生产效率到商业闭环的完整路径
 
-> 参考资料：[https://aiawaken.feishu.cn/docx/WTIFdDITHoqyn9xyb2bcF2mHnif](https://aiawaken.feishu.cn/docx/WTIFdDITHoqyn9xyb2bcF2mHnif)
+
 
 ## 你用它做过内容，真正收到过钱吗？
 

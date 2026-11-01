@@ -1,6 +1,6 @@
 # 用团长联系方式做冷启动，一周内把小众资料卖到日入三位数
 
-> 来源：[https://qirenjiangxin.feishu.cn/docx/RBo6dSQZnoLZkaxn7eGch1fWnMh](https://qirenjiangxin.feishu.cn/docx/RBo6dSQZnoLZkaxn7eGch1fWnMh)
+
 
 这篇文章的核心不是项目有多大，而是在于怎么从一个极简的切口去试水。卖快团团团长资料本身体量很小，我目前也只是做到了把联系方式打包售卖这一层，其实玩法还能再往下挖。希望看到这篇内容的伙伴能多交流一下，咱们一起把这个小赛道玩出更多可能性。
 

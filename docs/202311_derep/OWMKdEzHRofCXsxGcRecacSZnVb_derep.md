@@ -1,6 +1,6 @@
 # 260人零成本入局，我用3个月把得物好物种草玩成了副业现金流
 
-> 来源：[https://jvx6nnxr4va.feishu.cn/docx/OWMKdEzHRofCXsxGcRecacSZnVb](https://jvx6nnxr4va.feishu.cn/docx/OWMKdEzHRofCXsxGcRecacSZnVb)
+
 
 大家好，我是小又。
 

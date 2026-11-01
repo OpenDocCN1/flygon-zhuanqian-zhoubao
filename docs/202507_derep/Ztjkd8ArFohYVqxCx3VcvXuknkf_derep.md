@@ -1,6 +1,6 @@
 # 小红书家电团购实操：一个月跑通全流程的复盘
 
-> 来源：[https://yltzksi0dk.feishu.cn/docx/Ztjkd8ArFohYVqxCx3VcvXuknkf](https://yltzksi0dk.feishu.cn/docx/Ztjkd8ArFohYVqxCx3VcvXuknkf)
+
 
 我是赚钱社区四年的老成员，基地在江苏南通。南通人称国际家纺之都，可我这几年一直没碰家纺电商。项目做过不少，三年前做车商时发过一篇关于豪车代购模式的复盘，当时抖音单月卖出15台车，链接是https://scys.com/articleDetail/xq_topic/415542852225428。现在新车市场透明化严重，银行车贷高息高返的玩法也被叫停，利润缩水明显。顺带说下，最近接触到一批做2020-2022年二手车出口俄罗斯的朋友，价差能翻倍以上，有兴趣可以对接。
 

@@ -1,6 +1,6 @@
 # 用 AI 批量做毕业答辩 PPT，小白也能做到月入过万的完整拆解
 
-> 来源：[https://wwnciidgzqc.feishu.cn/docx/WPqodaHrEomEXAx5gAWc7JJpnhb](https://wwnciidgzqc.feishu.cn/docx/WPqodaHrEomEXAx5gAWc7JJpnhb)
+
 
 # 一、我是谁
 

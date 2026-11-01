@@ -1,6 +1,6 @@
 # 深耕私域十年斩获八位数营收，我用5步3力跑通私域闭环，业绩直接翻倍
 
-> 来源：[https://w191e236q6t.feishu.cn/docx/CiVadxhB0ojxB7xsdxTcehPanqe](https://w191e236q6t.feishu.cn/docx/CiVadxhB0ojxB7xsdxTcehPanqe)
+
 
 嗨，我是清一。加入龙哥盟的第二年，正好是我把知识付费从0到1跑通，然后从1到100放大的那年。
 

@@ -1,6 +1,6 @@
 # 【赚钱技能】新人进群后，怎么请教和互动才不尴尬又能被记住
 
-> 来源：[https://oee5lr7gsk.feishu.cn/docx/ONpMdFl2oo9GXsxtHa3cZVnInKc](https://oee5lr7gsk.feishu.cn/docx/ONpMdFl2oo9GXsxtHa3cZVnInKc)
+
 
 全文共：8,105 字
 

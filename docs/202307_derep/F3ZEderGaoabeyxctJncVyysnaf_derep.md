@@ -1,6 +1,6 @@
 # 闲鱼二手书进阶玩法：从个人月入过万到工作室年入百万
 
-> 来源：[https://qingling21.feishu.cn/docx/F3ZEderGaoabeyxctJncVyysnaf](https://qingling21.feishu.cn/docx/F3ZEderGaoabeyxctJncVyysnaf)
+
 
 大家好，我是老瞿Qu，龙哥盟里玩二手书最熟的人，也是这次闲鱼二手书航海与续航的带队教练。前两天收到一条来自学员的微信，聊到他已经跑到个人瓶颈，我才觉得是时候把闲鱼二手书2.0的实操逻辑整理出来，带大家一起从月入过万往年入百万走。
 

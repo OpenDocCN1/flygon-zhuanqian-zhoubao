@@ -1,6 +1,6 @@
 # 用GPT写出10万+爆款：结构化指令让AI听话照做的实操手册
 
-> 来源：[https://xq6mz7nkknp.feishu.cn/docx/Rux5d3lw3o132RxKE4DcNuO2nIe](https://xq6mz7nkknp.feishu.cn/docx/Rux5d3lw3o132RxKE4DcNuO2nIe)
+
 
 大家好，我是台风，一名专注AI自媒体的GPT魔法师，目前担任GPT航海项目的教练。
 

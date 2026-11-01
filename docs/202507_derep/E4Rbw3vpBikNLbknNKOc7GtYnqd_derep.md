@@ -1,6 +1,6 @@
 # Claude Code 实战上手指南
 
-> 来源：[https://t16jzwqrzjx.feishu.cn/docx/RiP6dxBNCoiERExpBWLcyZUsnym](https://t16jzwqrzjx.feishu.cn/docx/RiP6dxBNCoiERExpBWLcyZUsnym)
+
 
 # 安装与启动 Claude Code
 

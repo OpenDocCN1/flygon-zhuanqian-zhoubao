@@ -1,6 +1,6 @@
 # 低粉高变现的小红书商业IP，怎么玩才不走弯路？
 
-> 来源：[https://shengcaiyoushu01.feishu.cn/docx/Um52dXCVYoPu12xGGTAc8H66n2e](https://shengcaiyoushu01.feishu.cn/docx/Um52dXCVYoPu12xGGTAc8H66n2e)
+
 
 先做个自我介绍，方便大家了解视角。
 

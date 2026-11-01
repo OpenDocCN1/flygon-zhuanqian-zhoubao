@@ -1,6 +1,6 @@
 # 做 AI 视频，你离不开这些工具
 
-> 来源：[https://gida8fb9mrg.feishu.cn/docx/F7pVdaafmoWco6xWDELcMheknEb](https://gida8fb9mrg.feishu.cn/docx/F7pVdaafmoWco6xWDELcMheknEb)
+
 
 # 提示词与创意发起
 

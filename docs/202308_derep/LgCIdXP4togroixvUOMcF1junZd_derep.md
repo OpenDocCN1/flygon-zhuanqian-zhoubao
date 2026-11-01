@@ -1,6 +1,6 @@
 # 借上微信问一问这波红利，我带了800多个同学，一个月做到千万级曝光，全套打法拆给你！
 
-> 来源：[https://k088r3bn2w.feishu.cn/docx/LgCIdXP4togroixvUOMcF1junZd](https://k088r3bn2w.feishu.cn/docx/LgCIdXP4togroixvUOMcF1junZd)
+
 
 大家好，我是小可爱，日常深耕小红书资料整理、朋友圈转化、群发售、裂变玩法。
 

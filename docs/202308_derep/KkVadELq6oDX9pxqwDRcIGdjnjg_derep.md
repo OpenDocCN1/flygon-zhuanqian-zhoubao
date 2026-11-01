@@ -1,6 +1,6 @@
 # 【实战】3_1_ChatGPT环境搭建从零到通的完整拆解
 
-> 来源：[https://atbs4xk1uw.feishu.cn/docx/KkVadELq6oDX9pxqwDRcIGdjnjg](https://atbs4xk1uw.feishu.cn/docx/KkVadELq6oDX9pxqwDRcIGdjnjg)
+
 
 收录于 AI实战教程 合集
 

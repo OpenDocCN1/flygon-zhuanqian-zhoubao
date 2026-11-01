@@ -1,6 +1,6 @@
 # 闲鱼卖电动车的实操赚钱法：从0到月入5k+的完整拆解
 
-> 来源：[https://zf7r28t8wa.feishu.cn/docx/YKLYdKRMUoHLmLxUhFdctbOZnAA](https://zf7r28t8wa.feishu.cn/docx/YKLYdKRMUoHLmLxUhFdctbOZnAA)
+
 
 “杨老师别讲大道理了，直接给我123步骤，我照着做就能收款。”
 

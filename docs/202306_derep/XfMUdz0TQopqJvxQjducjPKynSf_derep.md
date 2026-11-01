@@ -1,6 +1,6 @@
 # 裸辞一年，从带娃宝妈到月入过万：我用自媒体把生活改写了
 
-> 来源：[https://jvx6nnxr4va.feishu.cn/docx/XfMUdz0TQopqJvxQjducjPKynSf](https://jvx6nnxr4va.feishu.cn/docx/XfMUdz0TQopqJvxQjducjPKynSf)
+
 
 大家好，我是小又，一个想左手扛娃、右手创业的普通女人。
 

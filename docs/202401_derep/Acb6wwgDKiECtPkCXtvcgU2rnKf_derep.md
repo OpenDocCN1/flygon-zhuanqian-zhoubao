@@ -1,6 +1,6 @@
 # 小红书做新西兰留学，两个月从0到变现7w+的实操拆解
 
-> 来源：[https://psude5ndf7.feishu.cn/docx/VvNHd1srmo8NOSxWH45c02zSnKh](https://psude5ndf7.feishu.cn/docx/VvNHd1srmo8NOSxWH45c02zSnKh)
+
 
 大家好，我是龙哥盟第五期成员兼志愿者碧琳，99年出生，目前在杭州漂着，主攻小红书留学赛道。
 

@@ -1,6 +1,6 @@
 # 用 AI 协作写一篇文章，单天收入 4722 元，这可能就是写作的下一站
 
-> 来源：[https://aiawaken.feishu.cn/docx/JZJxdXMGUoTAYIxhf1Lci71lnpe](https://aiawaken.feishu.cn/docx/JZJxdXMGUoTAYIxhf1Lci71lnpe)
+
 
 大家好，我是周知。
 

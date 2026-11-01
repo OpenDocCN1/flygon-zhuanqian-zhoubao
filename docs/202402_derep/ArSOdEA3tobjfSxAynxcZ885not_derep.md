@@ -1,6 +1,6 @@
 # 风向标拆解第3期 | 月销50万+件的玩具爆款店铺，赚钱逻辑全拆解
 
-> 来源：[https://v8h7wrse38.feishu.cn/docx/ArSOdEA3tobjfSxAynxcZ885not](https://v8h7wrse38.feishu.cn/docx/ArSOdEA3tobjfSxAynxcZ885not)
+
 
 ## 一、项目缘起
 

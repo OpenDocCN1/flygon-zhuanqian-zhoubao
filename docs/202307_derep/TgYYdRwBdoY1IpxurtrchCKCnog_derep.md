@@ -1,6 +1,6 @@
 # 本地家教牵线一个月撬动7000+流水，保姆级拆解同城中介玩法
 
-> 来源：[https://l45krcw9v3.feishu.cn/docx/TgYYdRwBdoY1IpxurtrchCKCnog](https://l45krcw9v3.feishu.cn/docx/TgYYdRwBdoY1IpxurtrchCKCnog)
+
 
 大家好，我是九歌。做自媒体起家，长期深耕互联网项目和同城流量。最近刚把一个小众但体量很大的赛道跑通——同城家教中介。只跑了一个月，流水就到7000多，单笔最高信息费拿了720。下面把整套打法拆给你看。
 

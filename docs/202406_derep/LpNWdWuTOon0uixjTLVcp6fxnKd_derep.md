@@ -1,6 +1,6 @@
 # 素描风亲子号：短视频冷启动全流程拆解
 
-> 来源：[https://ixy2s5ruvqf.feishu.cn/docx/LpNWdWuTOon0uixjTLVcp6fxnKd](https://ixy2s5ruvqf.feishu.cn/docx/LpNWdWuTOon0uixjTLVcp6fxnKd)
+
 
 大家好，我是云天，入群到现在已经第三年了。三年时间跟着社群的公开课和内部大咖的干货，实操经验和营收都翻了好几倍。
 

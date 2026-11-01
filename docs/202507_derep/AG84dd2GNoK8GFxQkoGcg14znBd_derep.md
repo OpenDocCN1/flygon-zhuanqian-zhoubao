@@ -1,6 +1,6 @@
 # 外卖CPS冲浪指南：新手推客实操手册
 
-> 文章出处：[https://vpbq24ngx4.feishu.cn/docx/AG84dd2GNoK8GFxQkoGcg14znBd](https://vpbq24ngx4.feishu.cn/docx/AG84dd2GNoK8GFxQkoGcg14znBd)
+
 
 龙哥那边的「超级标」一露面，热度肉眼可见地爆炸。想入局外卖CPS的人一波接一波，但大部分人连门往哪开都摸不着。
 

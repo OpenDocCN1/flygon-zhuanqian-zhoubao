@@ -1,6 +1,6 @@
 # 在职暗中启动陪诊项目，半年营收破十万，糯米如何借助赚钱打开第二赛道
 
-> 来源：[https://f8f5eqx2mx.feishu.cn/docx/AubodhBdioLH3tx2LRecK98anbb](https://f8f5eqx2mx.feishu.cn/docx/AubodhBdioLH3tx2LRecK98anbb)
+
 
 各位好，我是糯米，白天是医药代表，晚上是陪诊公司创始人。
 

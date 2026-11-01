@@ -1,6 +1,6 @@
 # 自我介绍如何让人记住你并想继续聊下去
 
-> 来源：[https://hweyhwsfryb.feishu.cn/docx/YJGHde9DAoOI6YxgKVMcNKclnMc](https://hweyhwsfryb.feishu.cn/docx/YJGHde9DAoOI6YxgKVMcNKclnMc)
+
 
 大家好，我是溪言，一个小镇做题家的出身，如今在媒体做记者。最近作为面试里年龄最小的候选人，我拿下了一个项目 Offer。回头看，从曾经的普通学生、社恐新手，到能和各行各界的人对话，履历未必最亮眼，但我靠着合适的表达方式，换来了成绩和信任。
 

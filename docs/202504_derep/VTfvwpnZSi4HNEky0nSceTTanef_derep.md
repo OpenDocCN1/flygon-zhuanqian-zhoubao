@@ -1,6 +1,6 @@
 # 用碎片时间把赚钱玩明白：一个职场人的六式打法复盘
 
-> 来源：[https://shengcaiyoushu01.feishu.cn/docx/W0FHdoQYgo3UPPxyQxocgfVWnkd](https://shengcaiyoushu01.feishu.cn/docx/W0FHdoQYgo3UPPxyQxocgfVWnkd)
+
 
 先做个自我介绍。我是飞掌柜，在赚钱圈里混，平时白天是上市公司金融IT的咨询顾问，业余在做AI写作和AI培训。妥妥的典型打工人，上有父母要照顾，下有孩子要养，房贷车贷压着。主业这几年天花板越来越明显，想动又动不了，于是把目光放到了副业上。想通过一个靠谱的圈子找个能落地的项目，周末挤出点时间多赚点钱，顺便开开眼界，给自己升个级。
 

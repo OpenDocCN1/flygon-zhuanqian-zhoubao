@@ -1,6 +1,6 @@
 # 小红书店铺/笔记违规避坑与自救指南
 
-> 来源：[https://hi428l7bh89.feishu.cn/docx/UMCFdTRpVofcENxXBcVcb5PrnEe](https://hi428l7bh89.feishu.cn/docx/UMCFdTRpVofcENxXBcVcb5PrnEe)
+
 
 各位朋友好，我是小刀。
 

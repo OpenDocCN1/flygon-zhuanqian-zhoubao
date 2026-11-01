@@ -1,6 +1,6 @@
 # 四步把GPT训成小红书标题工厂——胎教式实操手册
 
-> 来源：[https://fjt9w880tn.feishu.cn/docx/XxczdnuchoE7JtxZrO8cn4eGncb](https://fjt9w880tn.feishu.cn/docx/XxczdnuchoE7JtxZrO8cn4eGncb)
+
 
 # 开场白
 

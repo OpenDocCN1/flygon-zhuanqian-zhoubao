@@ -1,6 +1,6 @@
 # 用腾讯云大模型知识引擎玩转 MCP：从零到上线的实操笔记
 
-> 来源：[https://iik3odicycr.feishu.cn/docx/FHzldqyfXo3jogx6w07cSshPnnh](https://iik3odicycr.feishu.cn/docx/FHzldqyfXo3jogx6w07cSshPnnh)
+
 
 ## 先聊清楚 MCP 到底在解决什么问题
 

@@ -1,6 +1,6 @@
 # 半自动化让视频从 40 分钟压缩到 10 分钟：我的一套 AI 助推日语账号生产流水线全披露
 
-> 来源：[https://ccav9ey9jd.feishu.cn/docx/VKardJt9goLf0txpzFscV7Ybnlh](https://ccav9ey9jd.feishu.cn/docx/VKardJt9goLf0txpzFscV7Ybnlh)
+
 
 大家好，我是亿舟ovo，原名一舟，因为李姓大神的存在被迫改名。
 

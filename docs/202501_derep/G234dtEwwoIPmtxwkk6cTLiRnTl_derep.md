@@ -1,6 +1,6 @@
 # 【AI写作】新手也能上手！私域谈单实战心法与成交案例拆解
 
-> 来源：[https://lv9qj6hfr4z.feishu.cn/docx/G234dtEwwoIPmtxwkk6cTLiRnTl](https://lv9qj6hfr4z.feishu.cn/docx/G234dtEwwoIPmtxwkk6cTLiRnTl)
+
 
 荷包蛋深耕私域写作业务五年，把自己在私域拉单过程中总结的思路和真实成交案例整理出来了。希望对你有启发。
 

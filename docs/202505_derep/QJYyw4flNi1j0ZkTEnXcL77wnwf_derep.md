@@ -1,6 +1,6 @@
 # 赚钱首航两周就开单，两个月回本：一个前教师转战小红书电商的实战复盘
 
-> 来源：[https://jcnij8knaobf.feishu.cn/docx/XZjYdnKJ3oJfPAxYQjtctX8Wnhz](https://jcnij8knaobf.feishu.cn/docx/XZjYdnKJ3oJfPAxYQjtctX8Wnhz)
+
 
 大家好，我是薇薇。25年2月底裸辞，入场赚钱。入行前我在一所民办中学教了十年书，其中八年担任中层管理，曾牵头全国教育协会的全国大会，操盘过万人级的音乐晚会，也带过上百场大型活动。
 

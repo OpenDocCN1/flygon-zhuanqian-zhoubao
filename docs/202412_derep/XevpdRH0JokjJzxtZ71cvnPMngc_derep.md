@@ -1,6 +1,6 @@
 # 用 Coze 一键搭小程序！零代码做一个海报生成器并上架微信实操课【上】
 
-> 来源：[https://b121w2zgwyx.feishu.cn/docx/XevpdRH0JokjJzxtZ71cvnPMngc](https://b121w2zgwyx.feishu.cn/docx/XevpdRH0JokjJzxtZ71cvnPMngc)
+
 
 Coze 最新开放了应用创建与小程序发布能力，虽然目前版本还在 Beta 内测阶段，但上手体验却相当惊艳。
 

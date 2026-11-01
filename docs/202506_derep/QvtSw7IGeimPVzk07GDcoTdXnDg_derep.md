@@ -1,6 +1,6 @@
 # 从传统建材到电商首单：一个小白的赚钱航海实战笔记
 
-> 来源：[https://kcndi6nr56uo.feishu.cn/docx/I0MSdgUaXo23C5xbt11cuiEJnIh](https://kcndi6nr56uo.feishu.cn/docx/I0MSdgUaXo23C5xbt11cuiEJnIh)
+
 
 ## 一、起航前夜：被行业逼出来的转型
 

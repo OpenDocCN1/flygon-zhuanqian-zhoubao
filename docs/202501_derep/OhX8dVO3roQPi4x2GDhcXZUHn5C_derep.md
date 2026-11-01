@@ -1,6 +1,6 @@
 # 【AI+视频号】聊聊七个变现关键点
 
-> 来源：[https://tx0vqocm3fc.feishu.cn/docx/OhX8dVO3roQPi4x2GDhcXZUHn5C](https://tx0vqocm3fc.feishu.cn/docx/OhX8dVO3roQPi4x2GDhcXZUHn5C)
+
 
 龙哥盟的朋友你好，我是陈先生。
 

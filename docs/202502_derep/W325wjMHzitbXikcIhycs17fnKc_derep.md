@@ -1,6 +1,6 @@
 # 用爱好+技能+AI，我给自己造了一个跑步配速器小程序
 
-> 来源：[https://te74jxs21s.feishu.cn/docx/VGbMdLd8xokh8Dx4Jj5c5KP2n9f](https://te74jxs21s.feishu.cn/docx/VGbMdLd8xokh8Dx4Jj5c5KP2n9f)
+
 
 大家好，我是小Q，一个跑步上瘾的程序员。
 

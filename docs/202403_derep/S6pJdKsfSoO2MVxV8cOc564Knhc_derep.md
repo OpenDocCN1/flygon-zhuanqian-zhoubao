@@ -1,6 +1,6 @@
 # 用一套AI人设，让“数字同事”24小时免费帮你冲业绩
 
-> 来源：[https://szxb4qbve7.feishu.cn/docx/S6pJdKsfSoO2MVxV8cOc564Knhc](https://szxb4qbve7.feishu.cn/docx/S6pJdKsfSoO2MVxV8cOc564Knhc)
+
 
 最近我在给线下房产经纪人做AI实战辅导。现在做房产销售，基本都押宝在短视频获客上。可市场不景气，门店根本养不起专业的写手和剪辑团队。经纪人白天要带看、谈客，晚上回家还要扒对标账号、抄文案、拍素材，累到怀疑人生。
 

@@ -1,6 +1,6 @@
 # 拼多多开店全程实操手册
 
-> 来源：[https://lv9qj6hfr4z.feishu.cn/docx/LvvkdB1f2ohYbkx1AgxcYIc9nmg](https://lv9qj6hfr4z.feishu.cn/docx/LvvkdB1f2ohYbkx1AgxcYIc9nmg)
+
 
 第一章 入驻与实名认证
 

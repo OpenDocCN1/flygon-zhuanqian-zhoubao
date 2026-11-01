@@ -1,6 +1,6 @@
 # 三天从风向标到变现：我用信息整合跑出的第一个MVP，甚至有人主动聊投资
 
-> 来源：[https://geu1ykwep8.feishu.cn/docx/RebJdOMkCo0VY4x24IYcgjxpnue](https://geu1ykwep8.feishu.cn/docx/RebJdOMkCo0VY4x24IYcgjxpnue)
+
 
 大家好，我是赚钱第五期成员高杰。过去两年，我基本泡在风向标里，很少写过完整的复盘。借着这期线下聚会的契机，我把一次实战的经历梳理出来，也算是给刚进来的新人一点参考。龙哥那句话我一直记着：何以解忧，唯有实战。
 

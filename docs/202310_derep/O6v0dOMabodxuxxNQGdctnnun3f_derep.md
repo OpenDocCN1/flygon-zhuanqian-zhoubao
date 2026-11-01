@@ -1,6 +1,6 @@
 # 零基础玩转影刀RPA：15分钟自动拉取200条小红书笔记，电商自媒体提效攻略
 
-> 来源：[https://ih195hg9y3.feishu.cn/docx/O6v0dOMabodxuxxNQGdctnnun3f](https://ih195hg9y3.feishu.cn/docx/O6v0dOMabodxuxxNQGdctnnun3f)
+
 
 各位朋友，我是阿盛，现居广州。去年起专心研究影刀RPA，已在这套自动化工具上落地了上百个实用案例，也顺利加入了影刀官方优质开发者社区。
 

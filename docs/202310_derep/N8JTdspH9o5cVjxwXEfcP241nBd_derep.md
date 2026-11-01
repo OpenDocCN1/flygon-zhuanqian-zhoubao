@@ -1,6 +1,6 @@
 # 凌晨刷到108单的那个清晨，刘皇叔把爆单拆成三步走
 
-> 来源：[https://ex549imveny.feishu.cn/docx/N8JTdspH9o5cVjxwXEfcP241nBd](https://ex549imveny.feishu.cn/docx/N8JTdspH9o5cVjxwXEfcP241nBd)
+
 
 多年后再回想起抖音的推送，2023年10月19日早晨的情形仍很清晰。猿推推在手机上连续震动，提醒异常频繁地跳了出来。
 

@@ -1,6 +1,6 @@
 # 普通人也能把小红书做到10万+，我用亲身经历示范了全过程
 
-> 来源：[https://ccn8e4v677xb.feishu.cn/docx/Rj4kdlz62oKh9axQyVNcSbLxnXd](https://ccn8e4v677xb.feishu.cn/docx/Rj4kdlz62oKh9axQyVNcSbLxnXd)
+
 
 # 一，自己先说清楚
 

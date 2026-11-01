@@ -1,6 +1,6 @@
 # 抖音本地推实操拆解：视频+图文批量获客的当下风口项目
 
-> 来源：[https://mvdaj1881kj.feishu.cn/docx/Z2gldbBtfoQjNcx4EGVcD2jyn6c](https://mvdaj1881kj.feishu.cn/docx/Z2gldbBtfoQjNcx4EGVcD2jyn6c)
+
 
 先做个前置说明：
 

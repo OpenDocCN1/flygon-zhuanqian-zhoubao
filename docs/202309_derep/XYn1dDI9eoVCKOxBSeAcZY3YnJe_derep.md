@@ -1,6 +1,6 @@
 # 续篇 · 微信成交率提升的25个实操要点（26-50）
 
-> 来源：[https://oee5lr7gsk.feishu.cn/docx/XYn1dDI9eoVCKOxBSeAcZY3YnJe](https://oee5lr7gsk.feishu.cn/docx/XYn1dDI9eoVCKOxBSeAcZY3YnJe)
+
 
 全文约 6,888 字，阅读时长约 15 分钟
 

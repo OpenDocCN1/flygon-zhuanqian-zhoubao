@@ -643,7 +643,7 @@ AI 编程的本质不是许愿，而是先把思路讲明白，再在真实使�
 ## 四、商品详情接口和字段解析
 
 > **商品接口：**
-> `https://mall.xiaohongshu.com/api/store/jpd/edit/detail/h5/toc?version=0.0.5&item_id={商品 ID}`
+
 > 从 `data.template_data[0]` 中解析：
 
 - 商品标题：优先 `descriptionMain.name`，回退 `descriptionH5.name`。

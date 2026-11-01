@@ -1,6 +1,6 @@
 # 热点转瞬即逝？我用AI十分钟搞定一篇瓜文（黄晓明叶珂实操）
 
-> 来源：[https://die28mmde0k.feishu.cn/docx/VGoXdFXmooasHUxsZ0icAD2WnGe](https://die28mmde0k.feishu.cn/docx/VGoXdFXmooasHUxsZ0icAD2WnGe)
+
 
 大家好，我是安七。毕业第一年，靠“AI+内容”这条道跑到了七位数。最近黄晓明和叶珂公开了恋情，这个瓜在娱乐榜上挂了好几天。做热点号、娱乐号的伙伴，这颗流量糖别不捡。
 

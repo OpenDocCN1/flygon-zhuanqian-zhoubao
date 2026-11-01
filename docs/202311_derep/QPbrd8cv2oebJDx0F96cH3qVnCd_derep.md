@@ -1,6 +1,6 @@
 # 7天把6个微信群塞满，靠夜校话题撸了2万+，这波风口我是怎么吃的
 
-> 来源：[https://vub1ul9ufi.feishu.cn/docx/QPbrd8cv2oebJDx0F96cH3qVnCd](https://vub1ul9ufi.feishu.cn/docx/QPbrd8cv2oebJDx0F96cH3qVnCd)
+
 
 # 夜校到底是什么东西
 

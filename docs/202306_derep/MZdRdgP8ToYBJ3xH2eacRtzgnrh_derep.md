@@ -1,6 +1,6 @@
 # 一个人做小红书电商，月入6k的实操打法
 
-> 来源：[https://wxm1taza3m.feishu.cn/docx/MZdRdgP8ToYBJ3xH2eacRtzgnrh](https://wxm1taza3m.feishu.cn/docx/MZdRdgP8ToYBJ3xH2eacRtzgnrh)
+
 
 大家好，我是行一。既做小红书引流私域，也在做科技类目电商玩法，目前小红书店铺两个月下来纯利破10万。
 

@@ -1,6 +1,6 @@
 # B站带货的二次思考——被拷问之后的清醒
 
-> 来源：[https://htw0q56th7.feishu.cn/docx/Dxk3dBaWXoUwrfxBfQqczwOQn6f](https://htw0q56th7.feishu.cn/docx/Dxk3dBaWXoUwrfxBfQqczwOQn6f)
+
 
 在评论区回复了龙哥之后，一夜过去我就开始后悔。只要我把想法公开，就等于在跟赚钱社区里对好货项目提出质疑的精华帖正面交锋。而这份质疑只是我个人的主观判断，并非带着一个确定的答案去挑战所谓的“权威”。
 

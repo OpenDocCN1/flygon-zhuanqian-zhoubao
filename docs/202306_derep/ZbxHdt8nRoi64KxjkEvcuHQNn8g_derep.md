@@ -1,6 +1,6 @@
 # 我在闲鱼做露营装备一年，月入过万的冷门赛道全复盘
 
-> 来源：[https://vb5bdj4t4a.feishu.cn/docx/ZbxHdt8nRoi64KxjkEvcuHQNn8g](https://vb5bdj4t4a.feishu.cn/docx/ZbxHdt8nRoi64KxjkEvcuHQNn8g)
+
 
 大家好，我是吉良吉颖。去年捕捉到龙哥聊到的露营经济信号后，我开始在闲鱼深耕露营装备这个品类。
 

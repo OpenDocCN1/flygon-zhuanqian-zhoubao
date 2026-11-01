@@ -1,6 +1,6 @@
 # 【麦洛实操拆解】视频号微信豆小额投放撬动免费自然流
 
-> 来源：[https://gdvgrp25bx.feishu.cn/docx/Npzqde1ZnopS0OxJbEQcakk3n9c](https://gdvgrp25bx.feishu.cn/docx/Npzqde1ZnopS0OxJbEQcakk3n9c)
+
 
 大家好，我是长期做视频号带货的麦洛。上半年几乎没有对外做过系统性的视频号分享，全力在忙自营业务和培训。随着年底临近，平台上冒出了新的操作空间，今天就把我的观察和做法摊开聊聊。
 

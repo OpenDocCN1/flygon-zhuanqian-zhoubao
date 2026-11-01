@@ -1,6 +1,6 @@
 # 用漏斗模型做 TikTok 美区跟卖，资料类店铺累计出单 8000 美元
 
-> 来源：[https://ghlf0s3q3l.feishu.cn/docx/IShhdieKWoMzpixNtXYcfnIYntf](https://ghlf0s3q3l.feishu.cn/docx/IShhdieKWoMzpixNtXYcfnIYntf)
+
 
 # 前言
 

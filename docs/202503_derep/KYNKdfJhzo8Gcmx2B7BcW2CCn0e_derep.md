@@ -1,6 +1,6 @@
 # 用零代码、零基础、全AI 28天做出来一个塔罗付费站 复盘全记录
 
-> 来源：[https://ojox2l5smt.feishu.cn/docx/KYNKdfJhzo8Gcmx2B7BcW2CCn0e](https://ojox2l5smt.feishu.cn/docx/KYNKdfJhzo8Gcmx2B7BcW2CCn0e)
+
 
 #### 一、项目缘起
 

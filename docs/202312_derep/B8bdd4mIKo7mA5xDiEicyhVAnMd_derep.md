@@ -1,6 +1,6 @@
 # 小红书小儿推拿赛道 23篇笔记17篇爆文的经验分享
 
-> 来源：[https://ovjdv8vh9g8.feishu.cn/docx/B8bdd4mIKo7mA5xDiEicyhVAnMd](https://ovjdv8vh9g8.feishu.cn/docx/B8bdd4mIKo7mA5xDiEicyhVAnMd)
+
 
 各位好，我是better。过去在平台上运营过母婴、萌宠、旅行、护肤等多个垂类。
 

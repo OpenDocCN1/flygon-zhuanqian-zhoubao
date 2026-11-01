@@ -1,6 +1,6 @@
 # 用技术，还是靠技术吃饭？一个老IT人的自白与突围笔记
 
-> 来源：[https://w91h2gmtrn.feishu.cn/docx/CmIldVALRo1J7Yxj3TPcCAiLnee](https://w91h2gmtrn.feishu.cn/docx/CmIldVALRo1J7Yxj3TPcCAiLnee)
+
 
 阅读提示：
 

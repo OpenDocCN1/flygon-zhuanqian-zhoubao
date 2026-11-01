@@ -1,6 +1,6 @@
 # 412 山东见面会 · 梁靠谱：千万级 IP 的私域成交，人人可复制的赚钱道法术器
 
-> 来源：https://ivqdpm5g5of.feishu.cn/docx/LPBMdXacgoti8pxLsHRcFd5QnBc
+
 
 # 嘉宾介绍
 

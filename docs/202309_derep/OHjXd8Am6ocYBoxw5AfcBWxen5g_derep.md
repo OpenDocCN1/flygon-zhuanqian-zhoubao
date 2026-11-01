@@ -1,6 +1,6 @@
 # 230914：别把生成式工具养废了，先把生意盘清楚
 
-> 来源：[https://fjt9w880tn.feishu.cn/docx/OHjXd8Am6ocYBoxw5AfcBWxen5g](https://fjt9w880tn.feishu.cn/docx/OHjXd8Am6ocYBoxw5AfcBWxen5g)
+
 
 # 开场
 

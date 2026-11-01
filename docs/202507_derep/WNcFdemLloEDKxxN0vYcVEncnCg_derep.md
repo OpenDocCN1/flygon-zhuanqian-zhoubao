@@ -1,6 +1,6 @@
 # 开了对公户的个体户/公司执照，自行零成本注销+减资全套打法
 
-> 来源：[https://q369eg2asg.feishu.cn/docx/WNcFdemLloEDKxxN0vYcVEncnCg](https://q369eg2asg.feishu.cn/docx/WNcFdemLloEDKxxN0vYcVEncnCg)
+
 
 个体执照注销要收五百起？公司注销要一千五起？资金充裕的老板可跳过，下面把已经走过对公、开过票的个体户和公司，如何自己免费注销，以及公司减资的完整链路说清楚。
 

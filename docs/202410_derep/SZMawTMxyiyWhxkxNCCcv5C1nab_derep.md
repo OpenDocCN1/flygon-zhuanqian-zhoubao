@@ -1,6 +1,6 @@
 # 出海项目必备：海外社媒研究工具全景手册【含工具清单、官网、优劣势、适用场景及付费方式】
 
-> 来源：[https://duuxkmjwsy.feishu.cn/docx/QAiHd40viosLIyxplC2cKlMinBb](https://duuxkmjwsy.feishu.cn/docx/QAiHd40viosLIyxplC2cKlMinBb)
+
 
 做海外市场研究，选对平台工具比盲目投放更重要。下面这份清单覆盖了当前出海团队最常用的8大品类社媒研究工具，每类都整理了工具名称、官网入口、优缺点、使用场景和收费情况，帮助你快速判断投入产出比。
 

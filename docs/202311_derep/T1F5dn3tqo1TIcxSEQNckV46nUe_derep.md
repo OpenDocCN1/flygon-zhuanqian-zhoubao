@@ -1,6 +1,6 @@
 # 用AI撬动拼多多写作单店，月入过万的可复制打法全拆解
 
-> 来源：[https://cxqeimz77vr.feishu.cn/docx/T1F5dn3tqo1TIcxSEQNckV46nUe](https://cxqeimz77vr.feishu.cn/docx/T1F5dn3tqo1TIcxSEQNckV46nUe)
+
 
 大家好，我是饭饭，赚钱的龙珠群友。长期在电商赛道摸索，最近全面拥抱AI，在赚钱首席医官梁靠谱的指导下，我的写作店铺越做越稳，很快摸清了方向，也在赚钱连发数篇精华。
 

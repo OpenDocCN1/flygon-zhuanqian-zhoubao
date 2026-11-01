@@ -1,6 +1,6 @@
 # 用IP+内容+活动破局，普通职场人也能日入3万：一次四天近8万实操复盘
 
-> 来源：[https://j7329dxmbu.feishu.cn/docx/W7nudn38IoxRuyxz1tpcrJOZnnd](https://j7329dxmbu.feishu.cn/docx/W7nudn38IoxRuyxz1tpcrJOZnnd)
+
 
 大家好，我是赵立心，原名AI君，95后，前大厂产品经理。做个人IP两年多，离职一年半，月入稳定六位数，现在主做职场个人IP孵化教练。
 

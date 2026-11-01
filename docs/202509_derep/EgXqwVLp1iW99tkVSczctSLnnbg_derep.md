@@ -1,6 +1,6 @@
 # 公众号流量主实战拆解：一年600多篇原创，10万粉，单号赚37万，这三条路子你必须懂
 
-> 来源：[https://p2tkpuv6qm.feishu.cn/docx/ViOldC1dQofa9DxXu8ucNtPbnth](https://p2tkpuv6qm.feishu.cn/docx/ViOldC1dQofa9DxXu8ucNtPbnth)
+
 
 大家好，我是格子。做自媒体这三年，我一直只看公众号流量主这一个变现方式。
 

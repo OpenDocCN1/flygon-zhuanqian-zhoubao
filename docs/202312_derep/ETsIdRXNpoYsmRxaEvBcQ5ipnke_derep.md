@@ -1,6 +1,6 @@
 # 2023年收官月了，先把个人养老金的退税窗口搞清楚：今年的钱必须在12月31日前缴进去，税是明年才退
 
-> 来源：[https://dvynhp7ntg.feishu.cn/docx/ETsIdRXNpoYsmRxaEvBcQ5ipnke](https://dvynhp7ntg.feishu.cn/docx/ETsIdRXNpoYsmRxaEvBcQ5ipnke)
+
 
 # 个人养老金制度为何要出来
 

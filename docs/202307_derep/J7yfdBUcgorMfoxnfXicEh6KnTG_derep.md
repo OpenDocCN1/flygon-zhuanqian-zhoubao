@@ -1,6 +1,6 @@
 # 数据化思维到底怎么练？从亚马逊看懂一套可复制的方法论
 
-> 来源：[https://infinitereshaping.feishu.cn/docx/J7yfdBUcgorMfoxnfXicEh6KnTG](https://infinitereshaping.feishu.cn/docx/J7yfdBUcgorMfoxnfXicEh6KnTG)
+
 
 最近小紫在跟不同企业交流时听到一个高度重合的痛点：
 

@@ -1,6 +1,6 @@
 # 用打字小游戏入门网页开发：HTML 零基础第一课
 
-> 来源：[https://a0u2vshvubw.feishu.cn/docx/LN65dxcxwoArrtxQYAxcBld8n9c](https://a0u2vshvubw.feishu.cn/docx/LN65dxcxwoArrtxQYAxcBld8n9c)
+
 
 ![](img/b38d4a794b255f0a31ca105c7e27e8fc.png)
 

@@ -1,6 +1,6 @@
 # 解锁增长密码：用矛盾论把自由职业做到月入十万
 
-> 来源：[https://k170ac9yh31.feishu.cn/docx/AGxedAyn9owkkixRB1EcCxqNn8e](https://k170ac9yh31.feishu.cn/docx/AGxedAyn9owkkixRB1EcCxqNn8e)
+
 
 # 写在前面
 

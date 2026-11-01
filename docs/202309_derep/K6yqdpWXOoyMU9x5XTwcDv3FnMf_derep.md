@@ -1,6 +1,6 @@
 # 小红书流量越来越难做？用矩阵玩法把账号做成流量池
 
-> 来源：[https://nivut760ftk.feishu.cn/docx/K6yqdpWXOoyMU9x5XTwcDv3FnMf](https://nivut760ftk.feishu.cn/docx/K6yqdpWXOoyMU9x5XTwcDv3FnMf)
+
 
 大家好，我是艾小飞，专注小红书私域引流这条路。
 

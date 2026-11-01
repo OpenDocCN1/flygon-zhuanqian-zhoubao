@@ -1,6 +1,6 @@
 # 没有公司背景的个体，如何把高客单做到累计300万？
 
-> 来源：[https://oee5lr7gsk.feishu.cn/docx/ZOaJdJTSuoflJfxSVIwc5xpCnNh](https://oee5lr7gsk.feishu.cn/docx/ZOaJdJTSuoflJfxSVIwc5xpCnNh)
+
 
 全文共：14,093 字
 

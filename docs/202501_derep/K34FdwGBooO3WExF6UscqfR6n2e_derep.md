@@ -1,6 +1,6 @@
 # 零基础的我，靠 GPT 两小时搭出一个能用的 PDF 压缩小工具
 
-> 来源：[https://evrkenoajfn.feishu.cn/docx/K34FdwGBooO3WExF6UscqfR6n2e](https://evrkenoajfn.feishu.cn/docx/K34FdwGBooO3WExF6UscqfR6n2e)
+
 
 大家好，我是保山。
 

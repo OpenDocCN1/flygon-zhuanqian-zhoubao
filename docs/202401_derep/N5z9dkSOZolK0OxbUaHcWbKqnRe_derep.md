@@ -1,6 +1,6 @@
 # 【AI职场提效系列 01】职场邮件不用愁，AI 3分钟搞定高质量草稿
 
-> 来源：[https://rd0u3iwcii.feishu.cn/docx/N5z9dkSOZolK0OxbUaHcWbKqnRe](https://rd0u3iwcii.feishu.cn/docx/N5z9dkSOZolK0OxbUaHcWbKqnRe)
+
 
 嗨，大家好，我是云诚。接下来我会连载一套面向职场人的 AI 提效打法，今天先从最刚需的场景开讲。
 

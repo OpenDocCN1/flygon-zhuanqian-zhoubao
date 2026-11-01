@@ -1,6 +1,6 @@
 # 《把生活过成一场自己的游戏：快乐的人生设计手册》
 
-> 来源：[https://shengcaiyoushu01.feishu.cn/docx/ZatSdqHCGoLqp4xQjNJcBwpJngf](https://shengcaiyoushu01.feishu.cn/docx/ZatSdqHCGoLqp4xQjNJcBwpJngf)
+
 
 大家好，我是正义蟹不肉。
 

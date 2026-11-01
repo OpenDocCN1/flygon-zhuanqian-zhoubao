@@ -1,6 +1,6 @@
 # 剪映新手变现实操｜我用十年剪辑经验摸到的接单底线，亲测能长期做
 
-> 来源：[https://uilrwnzy0o.feishu.cn/docx/Rcxrd3qZUo6KvZxIWPtcrEqqnqf](https://uilrwnzy0o.feishu.cn/docx/Rcxrd3qZUo6KvZxIWPtcrEqqnqf)
+
 
 # 写这篇的初衷
 

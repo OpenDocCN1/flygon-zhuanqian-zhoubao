@@ -1,6 +1,6 @@
 # 情人节做CP裂变，2周布局拉新300+、变现5W+，社群主如何用CP经济撬动营收
 
-> 来源：[https://fcjmogm9bc.feishu.cn/docx/OkyOdA1zqo6J7oxQUFBcSDrqnUK](https://fcjmogm9bc.feishu.cn/docx/OkyOdA1zqo6J7oxQUFBcSDrqnUK)
+
 
 大家好，我是理白。情人节前两周出手，足够把一场CP社群裂变搭起来。本文就结合我去年3月14日白色情人节那次操作复盘，当时靠CP营销为社群净增300人，变现超过5万。给做线上陪伴型社群的同行一个可落地的引流、转化与承接思路。
 

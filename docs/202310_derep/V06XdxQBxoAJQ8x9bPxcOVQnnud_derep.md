@@ -1,6 +1,6 @@
 # 六个月 All in 小红书，从持续烧钱到月入几十万
 
-> 来源：[https://f6uz5wrpjh.feishu.cn/docx/V06XdxQBxoAJQ8x9bPxcOVQnnud](https://f6uz5wrpjh.feishu.cn/docx/V06XdxQBxoAJQ8x9bPxcOVQnnud)
+
 
 大家好，我是牧歌。
 

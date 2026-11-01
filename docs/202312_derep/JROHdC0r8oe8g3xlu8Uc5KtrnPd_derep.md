@@ -1,6 +1,6 @@
 # 12天做出23.6万，小红书电商怎么科学测品？
 
-> 来源：[https://hi428l7bh89.feishu.cn/docx/JROHdC0r8oe8g3xlu8Uc5KtrnPd](https://hi428l7bh89.feishu.cn/docx/JROHdC0r8oe8g3xlu8Uc5KtrnPd)
+
 
 各位朋友好，我是小刀，先快速交代一下背景。
 

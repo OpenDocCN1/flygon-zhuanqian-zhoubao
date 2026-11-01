@@ -1,6 +1,6 @@
 # 从50万到1000万，核桃编程7个月突围，给还在小作坊里打转的创始人3个自检
 
-> 来源：[https://wi1v74w740.feishu.cn/docx/C9u1dBlXzoK4j6xRtmfceGrXnqd](https://wi1v74w740.feishu.cn/docx/C9u1dBlXzoK4j6xRtmfceGrXnqd)
+
 
 哈喽大家好，我是深耕在线教育七年的许老师。上次写了《借鉴在线教育公司的扩张路径和组织模式，做一个赚钱商学院，会是个10X战略吗？》，意外拿到精华，还被龙哥老师点赞，也引来不少私聊咨询。
 

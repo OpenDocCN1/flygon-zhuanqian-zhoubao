@@ -1,6 +1,6 @@
 # YPP通过以后别掉以轻心，这个坑踩中就直接被拔掉收益
 
-> 来源：[https://rlwxa0zgke.feishu.cn/docx/Do5cd3IuCoENewxsWmgcr3rknif](https://rlwxa0zgke.feishu.cn/docx/Do5cd3IuCoENewxsWmgcr3rknif)
+
 
 ![](img/c9b2f057e2cfeb5324d49da3f59320b4.png)
 

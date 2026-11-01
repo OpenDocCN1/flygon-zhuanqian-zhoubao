@@ -1,6 +1,6 @@
 # 高流量站点是如何被做出来的
 
-> 来源：[https://n08odc0f7x.feishu.cn/docx/MtBBdayjloU9oix1vXOc9Fgmnb5](https://n08odc0f7x.feishu.cn/docx/MtBBdayjloU9oix1vXOc9Fgmnb5)
+
 
 现阶段做权重站，圈子里大致分成了三路打法。
 

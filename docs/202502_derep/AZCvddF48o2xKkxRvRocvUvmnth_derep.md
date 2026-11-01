@@ -1,6 +1,6 @@
 # 用清迈打卡数字游民的第一站，真的比想象中更香
 
-> 来源：[https://e1lvpjb5e3.feishu.cn/docx/AZCvddF48o2xKkxRvRocvUvmnth](https://e1lvpjb5e3.feishu.cn/docx/AZCvddF48o2xKkxRvRocvUvmnth)
+
 
 原本只想试水一月，没想到一住就上头。把清迈当成远程办公的起跳点，性价比真的高，整体开销比大理还要友好，体验却明显更上一层。唯一让人犹豫的，是出境后的安全感，尤其王星事件之后，很多人会问东南亚还敢去吗。我的感受是，听到的版本和身处其中的版本完全不一样。别因为担心而裹足不前，带着焦虑出发也玩不好。
 

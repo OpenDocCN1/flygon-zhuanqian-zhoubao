@@ -1,6 +1,6 @@
 # 没有一句外语也能读懂全世界：靠翻译工具把语言墙拆掉
 
-> 来源：[https://fieghf3pzz6.feishu.cn/docx/HOCtd11SuoJfXFxBNxlcESQ0nwe](https://fieghf3pzz6.feishu.cn/docx/HOCtd11SuoJfXFxBNxlcESQ0nwe)
+
 
 【昵称】AI 同行侠-文卓
 

@@ -1,6 +1,6 @@
 # 一篇 AI 电商视觉站的增长拆解
 
-> 来源：[https://fcnxaqqm1njv.feishu.cn/docx/ZthDdnHwyob9CDxTaiec1RgQnAf](https://fcnxaqqm1njv.feishu.cn/docx/ZthDdnHwyob9CDxTaiec1RgQnAf)
+
 
 大家好，我是小北。最近在小排老师的深海圈浸泡了俩月，身边不少朋友都在吐槽产品推不动、变现难。我自己在运营抖音和小红书的 AI 账号，找对标时顺手扒了扒一些接了 AI 工具广告的博主，于是整理出这份拆解。希望能给你一点启发，有纰漏的地方欢迎指正。
 

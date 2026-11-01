@@ -1,6 +1,6 @@
 # 22小时从0到1上线AI工具站，拿下黑客松二等奖的实战拆解
 
-> 来源：[https://ppn3f2zvoq.feishu.cn/docx/LWKIdpwPoo0zwtxXbh0cQNe2n2g](https://ppn3f2zvoq.feishu.cn/docx/LWKIdpwPoo0zwtxXbh0cQNe2n2g)
+
 
 嗨，我是PeterZEN。这是我头一次参加Hackathon，过程很满，感触也很深。
 

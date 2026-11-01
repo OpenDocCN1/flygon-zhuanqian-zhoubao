@@ -1,6 +1,6 @@
 # 私域特卖群搭建全流程实操笔记
 
-> 来源：[https://xj40e92zg0.feishu.cn/docx/BVORdBGGIoFkIixSXuPcewaJnsb](https://xj40e92zg0.feishu.cn/docx/BVORdBGGIoFkIixSXuPcewaJnsb)
+
 
 大家好，我是李同学，团队整体月流水稳定在千万级，自营的私域特卖群单群月销也能做到50-60万。
 

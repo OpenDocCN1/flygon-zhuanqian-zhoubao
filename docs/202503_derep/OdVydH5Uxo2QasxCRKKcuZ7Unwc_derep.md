@@ -1,6 +1,6 @@
 # 一次租房押金维权，我把200元的“清洁费”追回了一半
 
-> 来源：[https://r9r259cvxs.feishu.cn/docx/OdVydH5Uxo2QasxCRKKcuZ7Unwc](https://r9r259cvxs.feishu.cn/docx/OdVydH5Uxo2QasxCRKKcuZ7Unwc)
+
 
 年后工作地点从义乌挪到杭州，房租正好卡在2月底到期。退房那天我把房间打扫得干干净净，房东却说不在家晚点看。拖了好多天后，他忽然以地面没擦干净为由，直接扣了我200元卫生费。
 

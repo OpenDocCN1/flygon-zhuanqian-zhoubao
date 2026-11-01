@@ -1,6 +1,6 @@
 # n8n 搭一条流水线，公众号爆款文章批量下草稿箱
 
-> 来源：[https://ab0970hp44.feishu.cn/docx/QD2FdMcITolHGQxRnXjcWo9KnEd](https://ab0970hp44.feishu.cn/docx/QD2FdMcITolHGQxRnXjcWo9KnEd)
+
 
 # 先说下背景
 

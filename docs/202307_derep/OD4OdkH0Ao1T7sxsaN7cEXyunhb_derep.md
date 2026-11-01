@@ -1,6 +1,6 @@
 # 一键搞定！抖音合集100条视频批量去水印下载，真的YYDS
 
-> 来源：[https://aqoyanyhfa.feishu.cn/docx/OD4OdkH0Ao1T7sxsaN7cEXyunhb](https://aqoyanyhfa.feishu.cn/docx/OD4OdkH0Ao1T7sxsaN7cEXyunhb)
+
 
 最近有个做短剧搬运的朋友跟我吐槽：每次要搬运一个抖音合集，都得手动把链接一个个复制出来，再去找去水印工具逐条处理，费时费力还容易手滑出错。
 

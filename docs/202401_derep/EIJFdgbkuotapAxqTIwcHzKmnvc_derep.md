@@ -1,6 +1,6 @@
 # 新手公众号从0到1变现，常被问的20个问题合集
 
-> 来源：[https://die28mmde0k.feishu.cn/docx/EIJFdgbkuotapAxqTIwcHzKmnvc](https://die28mmde0k.feishu.cn/docx/EIJFdgbkuotapAxqTIwcHzKmnvc)
+
 
 大家好，我是安七。七这个字，寓意踏实顺利。
 

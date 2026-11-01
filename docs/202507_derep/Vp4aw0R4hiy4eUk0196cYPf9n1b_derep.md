@@ -1,6 +1,6 @@
 # AI故事视频制作全拆解：出稿、分镜、出片，一篇讲透
 
-> 整理自圈友拾文的原帖，原文链接：[AI短剧/故事类视频创作（启蒙帖）](https://bcn7jh9fl49y.feishu.cn/docx/JHpEdS1CZoL3VPxJwnycjlLWn2S)
+
 
 先分享件开心事。最近在社群里收到不少朋友的正反馈，说实话还挺激动。
 

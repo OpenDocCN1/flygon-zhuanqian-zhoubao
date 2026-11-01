@@ -1,6 +1,6 @@
 # 一次服务后，让客户主动发两条朋友圈，我就把业绩做到了近一万
 
-> 来源：[https://dqez6wornz.feishu.cn/docx/WJPddShXfoXqaNxjSurcXEMvnMf](https://dqez6wornz.feishu.cn/docx/WJPddShXfoXqaNxjSurcXEMvnMf)
+
 
 很高兴能在这里跟大家交流，我是广州的摄影师海盐。跟大家说句心里话，线上沟通再多，也抵不过一次线下真实的见面，线下带来的连接力真的太强了。
 

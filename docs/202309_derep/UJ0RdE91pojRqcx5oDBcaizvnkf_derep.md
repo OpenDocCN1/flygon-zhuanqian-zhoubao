@@ -1,6 +1,6 @@
 # 一条问一问就让我拿到28万次曝光，公众号涨粉1600+，全过程我摊开说
 
-> 来源：[https://yf4niapxuw.feishu.cn/docx/UJ0RdE91pojRqcx5oDBcaizvnkf](https://yf4niapxuw.feishu.cn/docx/UJ0RdE91pojRqcx5oDBcaizvnkf)
+
 
 大家好，我是云珞。
 

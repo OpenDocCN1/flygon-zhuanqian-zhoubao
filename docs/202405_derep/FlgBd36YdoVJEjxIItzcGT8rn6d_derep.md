@@ -1,6 +1,6 @@
 # 小红书女装创业踩坑实录：投了几万块，满打满算只成交1单
 
-> 来源：[https://z1zu4xvq1ns.feishu.cn/docx/FlgBd36YdoVJEjxIItzcGT8rn6d](https://z1zu4xvq1ns.feishu.cn/docx/FlgBd36YdoVJEjxIItzcGT8rn6d)
+
 
 2023年5月我加入赚钱社区，基本都是潜水状态。那一年我正忙着换房、装修，等房子收尾了才开始琢磨下一步要干点什么，不想一直躺平下去。
 

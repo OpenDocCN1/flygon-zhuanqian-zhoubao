@@ -1,6 +1,6 @@
 # 不投钱、不上征信的搞钱路子，一个月多赚3-6万？我是真跑通了！
 
-> 来源：[https://wiizueiq5ks.feishu.cn/docx/Fwm9dDPJwoBuCfxdAiYcP0HinRe](https://wiizueiq5ks.feishu.cn/docx/Fwm9dDPJwoBuCfxdAiYcP0HinRe)
+
 
 圈友们好，我是老吴，一个在金融圈里专挑“犄角旮旯”赚钱的人。说真的，我跟龙哥盟的缘分，比加入的时间还要早。当时跟朋友唠嗑，聊到赚钱这个圈子，我顺手把自己在银行摸爬滚打多年攒下的那套“无风险套利”心法，托朋友发了篇文章。没成想反响出奇的好，三月份那会儿，光靠这一波关注，当月就进账了一万块。
 

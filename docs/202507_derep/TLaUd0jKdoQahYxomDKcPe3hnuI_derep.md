@@ -1,6 +1,6 @@
 # 手机在手半小时搞定！小白一周靠公众号流量主撸到1700+的完整复盘
 
-> 来源：[https://wv82w5mav4.feishu.cn/docx/TLaUd0jKdoQahYxomDKcPe3hnuI](https://wv82w5mav4.feishu.cn/docx/TLaUd0jKdoQahYxomDKcPe3hnuI)
+
 
 大家好，我是天乐。潜水很久的我，终于忍不住站出来实操了。效果比预期好太多，这条路真的是躺平式副业的香饽饽，今天把全套拆解喂到嘴边，各位还在观望的朋友赶紧动起来，手脏一点才有钱赚！
 

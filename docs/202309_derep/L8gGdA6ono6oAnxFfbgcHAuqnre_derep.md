@@ -1,6 +1,6 @@
 # 用AI三分钟搞定亚马逊广告报表筛选，初阶实操全流程
 
-> 来源：[https://h8sakm73dz.feishu.cn/docx/L8gGdA6ono6oAnxFfbgcHAuqnre](https://h8sakm73dz.feishu.cn/docx/L8gGdA6ono6oAnxFfbgcHAuqnre)
+
 
 贵司的高阶运营，每一天有多久耗在亚马逊广告报表的拆解上？
 

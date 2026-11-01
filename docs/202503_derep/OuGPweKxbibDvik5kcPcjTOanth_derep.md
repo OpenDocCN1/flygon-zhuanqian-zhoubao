@@ -1,6 +1,6 @@
 # Tempo Labs：一款让你用设计软件的思路来改前端代码的AI工具
 
-> 来源：[https://hqhhkfm2ink.feishu.cn/docx/HqwWdRfXKo25FVxA2GIc8xfHnCH](https://hqhhkfm2ink.feishu.cn/docx/HqwWdRfXKo25FVxA2GIc8xfHnCH)
+
 
 # 一、认识 Tempo Labs
 

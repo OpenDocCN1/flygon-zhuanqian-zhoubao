@@ -1,6 +1,6 @@
 # 我给新手的唯一建议：先从AI写作开始
 
-> 来源：[https://riupvml5qjl.feishu.cn/docx/EWTSd2cKDoRunHxm7bGcgaIsnHd](https://riupvml5qjl.feishu.cn/docx/EWTSd2cKDoRunHxm7bGcgaIsnHd)
+
 
 大家好，我是轻舟。在赚钱混了快一年半了，摸过的赛道不在少数，但如果让我给刚起步的朋友选一个最容易跑通0-1的方向，我会毫不犹豫推荐AI写作。
 

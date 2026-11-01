@@ -1,6 +1,6 @@
 # 视频号小店做达人分销，我用3个月跑到60万的实战复盘
 
-> 来源：[https://oj5ckuh05s.feishu.cn/docx/EzOZdlvI4oSuD8xdS2VcQ7tVnFc](https://oj5ckuh05s.feishu.cn/docx/EzOZdlvI4oSuD8xdS2VcQ7tVnFc)
+
 
 视频号小店的达人分销模式，现在普通人也能直接上手跑起来。单人干肯定拼不过团队矩阵，但平台正处在红利窗口期，流量、类目、产品三重红利同时存在，新手入场的成本和门槛都比其他渠道低很多。
 

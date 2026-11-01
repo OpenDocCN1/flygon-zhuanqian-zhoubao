@@ -1,6 +1,6 @@
 # 从医美孵化到TikTok出海：30天4000粉拿下300万的实操复盘
 
-> 来源：[https://he1l3flk3v.feishu.cn/docx/M0Bldi0Y1oVXSRxxPJ1c3H6YnYf](https://he1l3flk3v.feishu.cn/docx/M0Bldi0Y1oVXSRxxPJ1c3H6YnYf)
+
 
 加入赚钱社区时，Liza正处在转型期。她此前做的业务是孵化医美医生KOL，靠医生个人形象做前端引流，再与私立医院后端承接，最终一年营收约3000万。
 

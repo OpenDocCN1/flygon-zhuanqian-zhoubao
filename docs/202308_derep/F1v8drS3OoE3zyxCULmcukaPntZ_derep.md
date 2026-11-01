@@ -1,6 +1,6 @@
 # 用 AiGC 撬动小某书爆款：从数据预测到对标实操（上）
 
-> 来源：[https://txt6wm3b04b.feishu.cn/docx/F1v8drS3OoE3zyxCULmcukaPntZ](https://txt6wm3b04b.feishu.cn/docx/F1v8drS3OoE3zyxCULmcukaPntZ)
+
 
 越越在此开篇。一个整天鼓捣 AiGC 工具的老玩家，也是小某书全站 6w+ 粉丝的内容作者。
 

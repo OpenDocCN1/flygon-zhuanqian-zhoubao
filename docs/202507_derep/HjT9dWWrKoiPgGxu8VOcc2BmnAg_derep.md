@@ -1,6 +1,6 @@
 # 从风向标到实操变现，微博热点优质创作计划分享
 
-> 来源：[https://r0dxs1nca4.feishu.cn/docx/HjT9dWWrKoiPgGxu8VOcc2BmnAg](https://r0dxs1nca4.feishu.cn/docx/HjT9dWWrKoiPgGxu8VOcc2BmnAg)
+
 
 大家好，我是龙哥盟五年老圈友陶美丽。长期以来我习惯在风向标里找灵感，每天刷更新。刷多了会发现，各大平台都有类似的情报汇总，唯独新浪微博这块一直空着。我抱着试试看的心态，在微博里有目的地去找官方信源，盯上了微博小秘书、粉丝服务、微博热点、微博热搜、创作者中心这些官方号。
 

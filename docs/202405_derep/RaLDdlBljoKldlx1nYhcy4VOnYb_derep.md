@@ -1,6 +1,6 @@
 # 三年蛰伏，一路从零起步，开到七家，整体扭亏为盈
 
-> 来源：[https://bdjcnhllb0.feishu.cn/docx/RaLDdlBljoKldlx1nYhcy4VOnYb](https://bdjcnhllb0.feishu.cn/docx/RaLDdlBljoKldlx1nYhcy4VOnYb)
+
 
 当初为何要做共享空间
 

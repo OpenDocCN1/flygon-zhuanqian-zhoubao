@@ -1,6 +1,6 @@
 # 用 SD 一把梭，小红书爆款头像壁纸批量刷屏的极简打法
 
-> 来源：[https://wurchmz1an.feishu.cn/docx/XiwmdQFijotSRAxrBv8c1dLmndr](https://wurchmz1an.feishu.cn/docx/XiwmdQFijotSRAxrBv8c1dLmndr)
+
 
 要问小红书 3 月份最卷、最火的头像壁纸题材是什么？
 

@@ -1,6 +1,6 @@
 # 「AI科普」小白也能看懂GPT和人工智能，NLP、预训练、机器学习、深度学习、神经网络……这些到底是什么？
 
-> 来源：[https://njmseq3llu.feishu.cn/docx/YxEadWahyoxIqfxbJ2dcvL21nNf](https://njmseq3llu.feishu.cn/docx/YxEadWahyoxIqfxbJ2dcvL21nNf)
+
 
 身为产品经理或非技术从业者，想对GPT和背后涉及的AI体系建立一个可用的整体认知，却发现市面上的介绍要么过于学术，要么过于肤浅，还常常把自然语言处理、深度学习等核心概念一笔带过。我把自己通过学习沉淀下来的理解整理出来，分享给同样有需求的你。
 

@@ -1,6 +1,6 @@
 # 25个让微信成交更容易的小方法
 
-> 来源：[https://oee5lr7gsk.feishu.cn/docx/JHdGdT6oHo3zL2xx4qBcIdCSn6b](https://oee5lr7gsk.feishu.cn/docx/JHdGdT6oHo3zL2xx4qBcIdCSn6b)
+
 
 线上做了一年多，从线下搬到线上，首年营收做到220万。
 

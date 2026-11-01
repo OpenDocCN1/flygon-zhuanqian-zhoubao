@@ -1,6 +1,6 @@
 # 公众号爆文自动化全套代码开源交付
 
-> 来源：[https://tjhy5ng53f.feishu.cn/docx/EaSSd0KJsoHDysxItnFc3xsgnAh](https://tjhy5ng53f.feishu.cn/docx/EaSSd0KJsoHDysxItnFc3xsgnAh)
+
 
 各位伙伴好，我是圈内第五期成员毛韩，编号21985。
 

@@ -1,6 +1,6 @@
 # 从零到双阶 YPP 的 30 天实操复盘
 
-> 来源：[https://fhoceqi5xe.feishu.cn/docx/H00JdVgKzobFOzx7H1jcuiqMnPJ](https://fhoceqi5xe.feishu.cn/docx/H00JdVgKzobFOzx7H1jcuiqMnPJ)
+
 
 ## 成果简述
 

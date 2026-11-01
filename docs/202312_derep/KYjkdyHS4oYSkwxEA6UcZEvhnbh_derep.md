@@ -1,6 +1,6 @@
 # 别再用“专家视角”做教程了，先用用户的眼睛、普通人的脚去设计
 
-> 来源：[https://vgcf8zrqd4.feishu.cn/docx/KYjkdyHS4oYSkwxEA6UcZEvhnbh](https://vgcf8zrqd4.feishu.cn/docx/KYjkdyHS4oYSkwxEA6UcZEvhnbh)
+
 
 教程好不好，不是看你塞了多少干货，而是看学的人能不能上手。
 

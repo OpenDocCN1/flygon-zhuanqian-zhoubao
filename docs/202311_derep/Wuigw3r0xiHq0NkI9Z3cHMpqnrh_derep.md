@@ -1,6 +1,6 @@
 # GPTs 时代开启：后 GPT 时代的玩法全解析
 
-> 来源：[https://t3vl04fm23.feishu.cn/docx/WXfLdq9gDoVnwTx9MP9coSlTnJe](https://t3vl04fm23.feishu.cn/docx/WXfLdq9gDoVnwTx9MP9coSlTnJe)
+
 
 # 一、最颠覆的变化：定制版 GPT 人人都能造
 

@@ -1,6 +1,6 @@
 # 从国内IP厮杀到海外蓝海，我用3个月撬动了千万房产营收
 
-> 来源：[https://mlndzkxzwc.feishu.cn/docx/I3NXdxFaQoMeWBxvjh1cychEnNh](https://mlndzkxzwc.feishu.cn/docx/I3NXdxFaQoMeWBxvjh1cychEnNh)
+
 
 大家好，我是苏夏，做IP操盘这件事已经摸爬滚打了几年。
 

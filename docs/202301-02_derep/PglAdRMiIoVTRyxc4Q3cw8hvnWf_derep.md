@@ -1,6 +1,6 @@
 # 三年创业路，两年拿到天使，月入15万+，我是怎么靠“0中介费”做起个人房屋分享平台的
 
-> 来源：[https://v0ln6e97jg.feishu.cn/docx/PglAdRMiIoVTRyxc4Q3cw8hvnWf](https://v0ln6e97jg.feishu.cn/docx/PglAdRMiIoVTRyxc4Q3cw8hvnWf)
+
 
 大家好，我是秋冬，洛阳本地人。加入赚钱圈也快两年了，毕业后我在便利店行业深耕了七八年，正好赶上那批最早进入这个赛道的从业者。
 

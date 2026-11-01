@@ -1,6 +1,6 @@
 迭代记录 003｜一条提示词工作流，让微信公号爆文批量产出
 
-> 来源：[https://w194sny3eli.feishu.cn/docx/AQUydV8V3oYihuxSXfKcKvxKnob](https://w194sny3eli.feishu.cn/docx/AQUydV8V3oYihuxSXfKcKvxKnob)
+
 
 分享者：枫晓陌。持有微软人工智能认证。未来一年，我计划把 AI 用到 100 个真实工作场景里，带大家看看技术到底能省下多少时间。
 

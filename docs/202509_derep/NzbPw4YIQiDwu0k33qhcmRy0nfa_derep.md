@@ -1,6 +1,6 @@
 # 用 AI 把公众号做成个人品牌：从数据洞察到内容爆破的完整方法论
 
-> 来源：[https://aiawaken.feishu.cn/docx/AFjAdJNfookYMbxvCw7cSf9HnLd](https://aiawaken.feishu.cn/docx/AFjAdJNfookYMbxvCw7cSf9HnLd)
+
 
 我是周知，
 

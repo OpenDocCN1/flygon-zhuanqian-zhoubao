@@ -1,6 +1,6 @@
 # 八年深耕公众号，我把个人IP做成稳定现金流的复盘
 
-> 来源：[https://hez86518tv.feishu.cn/docx/InStdK39zoSRgZxW5SycviYXnUe](https://hez86518tv.feishu.cn/docx/InStdK39zoSRgZxW5SycviYXnUe)
+
 
 | 版本 | 更新描述 | 作者 | 更新日期 |
 | V1.0 | 新建文档 | 科学羊 | 2025-07-24 |

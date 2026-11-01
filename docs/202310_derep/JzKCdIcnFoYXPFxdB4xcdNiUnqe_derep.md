@@ -1,6 +1,6 @@
 # 用影刀RPA把公众号内容做到多平台分发的全流程拆解
 
-> 来源：[https://p8y34fwle2.feishu.cn/docx/JzKCdIcnFoYXPFxdB4xcdNiUnqe](https://p8y34fwle2.feishu.cn/docx/JzKCdIcnFoYXPFxdB4xcdNiUnqe)
+
 
 ## 一、先搞懂影刀 RPA 是什么
 

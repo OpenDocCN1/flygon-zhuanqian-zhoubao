@@ -1,6 +1,6 @@
 # 从0到1做情感脱单课，3天用课程围观群撬动7000+，保姆级复盘带你复制这条情感赛道入局路线
 
-> 来源：[https://q2cz7tlxd4.feishu.cn/docx/Uys0d8iMLoEFUvxsRbPcPkMEn9e](https://q2cz7tlxd4.feishu.cn/docx/Uys0d8iMLoEFUvxsRbPcPkMEn9e)
+
 
 嗨，我是96年的圈友好天气，线上线下都自认社牛，对恋爱这件事特别上头。长期研究女性亲密关系、个人成长与疗愈，核心就是帮你重塑对两性关系的认知，拿回选择幸福的能力。
 

@@ -1,6 +1,6 @@
 # 外面卖到几千块的货拉拉倒单玩法，我给你拆开了讲清楚
 
-> 来源：[https://qaigu0wmxc.feishu.cn/docx/N8mqdFdkCokYFUxTlr1cl6RhnHc](https://qaigu0wmxc.feishu.cn/docx/N8mqdFdkCokYFUxTlr1cl6RhnHc)
+
 
 最近知识圈里在流传的这套物流套利打法，我是听学员实操反馈整理出来的。
 

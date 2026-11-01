@@ -1,6 +1,6 @@
 # 复制一下，内容自动落进表格：我用n8n搭的零阻力灵感收集方案
 
-> 来源：[https://oet21ud8a2.feishu.cn/docx/DYrDd6QPooYWP2xTYmQcHqrZnTf](https://oet21ud8a2.feishu.cn/docx/DYrDd6QPooYWP2xTYmQcHqrZnTf)
+
 
 先简单交代背景：我是富百，坐标赚钱，平时也在YouTube的“深海圈”当教练，做自动化相关的事，最排斥低效重复。
 

@@ -1,6 +1,6 @@
 # 半个月6万落地：同城脱单项目实操拆解
 
-> 来源：[https://oi14sdxswt1.feishu.cn/docx/DjR6dv6JfozBmbxNvZfcjtxXnNh](https://oi14sdxswt1.feishu.cn/docx/DjR6dv6JfozBmbxNvZfcjtxXnNh)
+
 
 # 我为何入圈
 

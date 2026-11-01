@@ -1,6 +1,6 @@
 # 向阳明借个招：赚钱效率翻十倍，可能吗？
 
-> 原文来源：[https://pznme756ly.feishu.cn/docx/Se0Adl1q4oONQlxkAcCcdZpMn1d](https://pznme756ly.feishu.cn/docx/Se0Adl1q4oONQlxkAcCcdZpMn1d)
+
 
 最近有不少朋友跟我倒苦水，说心里特别矛盾——
 

@@ -1,6 +1,6 @@
 # 风向标拆解第3期｜小红书单品破60万件，这家穿搭号的持续爆单逻辑
 
-> 来源：[https://ba9gvofzgow.feishu.cn/docx/LntKdvQ7noyHmcxHDgpc87Cln8f](https://ba9gvofzgow.feishu.cn/docx/LntKdvQ7noyHmcxHDgpc87Cln8f)
+
 
 大家好，我是林幻雨。本期拆解的是小红书上一个单品累计销量突破六十万件的穿搭账号。
 

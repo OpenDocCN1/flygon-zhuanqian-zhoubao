@@ -1,6 +1,6 @@
 # 小红书全域引流实操全攻略，从0到放量
 
-> 来源：[https://gcgmtxu52n.feishu.cn/docx/KLLhdEcfqoQm2bx5YwGcyPuVnDg](https://gcgmtxu52n.feishu.cn/docx/KLLhdEcfqoQm2bx5YwGcyPuVnDg)
+
 
 说实话，现在做获客，小红书是启动最快、最省钱的赛道之一。各个平台都有自己的红利周期，小红书的特点就是投入门槛低、反馈速度快，十几分钟就能涨十几个粉丝，按粉丝变现来算，几百块的收益十分钟就能到手。
 

@@ -1,6 +1,6 @@
 # 0基础小白用AI代写两个月回本5倍，我是怎么把一张门票变现1.4万的
 
-> 来源：[https://zfp3rk26eg.feishu.cn/docx/FxyLdsscOooQTgxvj8PcEMdjnVe](https://zfp3rk26eg.feishu.cn/docx/FxyLdsscOooQTgxvj8PcEMdjnVe)
+
 
 大家好，我是登登。2023年12月底，我踏进了赚钱，彼时已经离职空窗了五个月。
 

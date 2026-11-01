@@ -1,6 +1,6 @@
 # 红包封面项目全拆解——从0到变现的实操路径
 
-> 来源：[https://mw1ctv1p4w.feishu.cn/docx/Tdf9dMXH4oBzeLxKUoZcPODLnyk](https://mw1ctv1p4w.feishu.cn/docx/Tdf9dMXH4oBzeLxKUoZcPODLnyk)
+
 
 大家好，我是无岸。
 

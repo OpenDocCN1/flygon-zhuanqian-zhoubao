@@ -1,6 +1,6 @@
 # 云中江树 | LangGPT 社区年度分享：AI 交流的艺术
 
-> 来源：[https://langgptai.feishu.cn/docx/D5AAdUKRyoM43DxjKC7ccm3XnMf](https://langgptai.feishu.cn/docx/D5AAdUKRyoM43DxjKC7ccm3XnMf)
+
 
 ![](img/76f072ba4e562c9041f098fdf42c0ae1.png)
 

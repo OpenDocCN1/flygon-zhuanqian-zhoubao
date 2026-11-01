@@ -1,6 +1,6 @@
 # 人设，才是个人IP最值钱的那块资产
 
-> 来源：[https://p8tchgpz2u.feishu.cn/docx/TPn4dQXTjokcKkxSvdyc9r7mnmh](https://p8tchgpz2u.feishu.cn/docx/TPn4dQXTjokcKkxSvdyc9r7mnmh)
+
 
 先自我介绍，我叫靠谱，常驻销售培训领域。过去一年，我给上千位付费学员梳理过转化体系，也给上百家企业做过团队销售内训。期间读完几本书，重刷了几部老剧，顺带把巴黎奥运会从头追到尾。
 

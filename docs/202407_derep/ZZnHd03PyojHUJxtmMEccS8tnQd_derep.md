@@ -1,6 +1,6 @@
 # 用ChatGPT写Python爬虫，赚钱AI编程航海里藏着哪些可落地的机会？
 
-> 来源：[https://kxgiimtbac.feishu.cn/docx/ZZnHd03PyojHUJxtmMEccS8tnQd](https://kxgiimtbac.feishu.cn/docx/ZZnHd03PyojHUJxtmMEccS8tnQd)
+
 
 最近我加入了龙哥盟组织的“AI编程·爬虫”航海训练营。加入之前，我就已经在ChatGPT编程这条路上做了不少尝试，也在赚钱社区里发布过3篇相关心得，其中有两篇被加精：
 

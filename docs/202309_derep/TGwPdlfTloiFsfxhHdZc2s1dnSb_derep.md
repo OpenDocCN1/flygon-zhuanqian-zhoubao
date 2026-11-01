@@ -1,6 +1,6 @@
 # 如何打造理财类IP（一）|长图文如何快速建立信任感？
 
-> 来源：[https://aa16nizk1e.feishu.cn/docx/TGwPdlfTloiFsfxhHdZc2s1dnSb](https://aa16nizk1e.feishu.cn/docx/TGwPdlfTloiFsfxhHdZc2s1dnSb)
+
 
 大家好，我是lemon，长期深耕互联网金融行业。
 

@@ -1,6 +1,6 @@
 # 用焦虑当燃料，三月航海我赚到了第一笔美元
 
-> 来源：[https://er7flrttos.feishu.cn/docx/ExTediltCoy3bIxvw3AcsrZLnyg](https://er7flrttos.feishu.cn/docx/ExTediltCoy3bIxvw3AcsrZLnyg)
+
 
 全文12209字
 

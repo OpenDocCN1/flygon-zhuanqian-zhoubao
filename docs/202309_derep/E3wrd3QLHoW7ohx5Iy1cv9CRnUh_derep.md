@@ -1,6 +1,6 @@
 # 零代码基础也能让GPT帮你搞定批量提问脚本
 
-> 来源：[https://sm0o7z3mka.feishu.cn/docx/E3wrd3QLHoW7ohx5Iy1cv9CRnUh](https://sm0o7z3mka.feishu.cn/docx/E3wrd3QLHoW7ohx5Iy1cv9CRnUh)
+
 
 大家好，我是十九。这是我的第一次开口分享，难免有点小激动。
 

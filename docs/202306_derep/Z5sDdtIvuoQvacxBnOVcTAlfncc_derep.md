@@ -1,6 +1,6 @@
 # 超级SEO助手公测邀请：内容自动化的新玩法
 
-> 来源：[飞书文档](https://hs741f1tsz.feishu.cn/docx/Z5sDdtIvuoQvacxBnOVcTAlfncc)
+
 
 SEO这门手艺，说到底并没有多玄乎，它就是一项基础能力，真正拉开差距的是肯不肯下功夫学、能不能踏实去执行。而把SEO做到位的核心，无非是真正理解并满足用户的需求。——白杨SEO
 

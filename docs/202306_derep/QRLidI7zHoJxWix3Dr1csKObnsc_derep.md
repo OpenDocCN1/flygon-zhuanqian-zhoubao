@@ -1,6 +1,6 @@
 # 小红书单月引1.3万、年到账1000万+的实操拆解
 
-> 来源：[https://v4y8yg9y6n.feishu.cn/docx/QRLidI7zHoJxWix3Dr1csKObnsc](https://v4y8yg9y6n.feishu.cn/docx/QRLidI7zHoJxWix3Dr1csKObnsc)
+
 
 大家好，我是佳能，线上教育赛道全域增长负责人，赚钱潜水用户，谢无敌老师实战营成员@谢无敌。今天把小红书起号和团队运转的打法拆开讲。
 

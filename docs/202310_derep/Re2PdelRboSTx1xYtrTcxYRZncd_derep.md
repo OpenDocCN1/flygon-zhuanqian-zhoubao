@@ -1,6 +1,6 @@
 # 从0到变现！得物好物分享实战笔记1.0
 
-> 来源：[https://p03a4vs9s2.feishu.cn/docx/Re2PdelRboSTx1xYtrTcxYRZncd](https://p03a4vs9s2.feishu.cn/docx/Re2PdelRboSTx1xYtrTcxYRZncd)
+
 
 大家好，我是叁斤，运营公众号：叁斤
 

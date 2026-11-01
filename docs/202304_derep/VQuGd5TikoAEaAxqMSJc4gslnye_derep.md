@@ -1,6 +1,6 @@
 # 飞书如何为MCN机构打通业务堵点
 
-> 来源：[https://d24gxr9obe.feishu.cn/docx/VQuGd5TikoAEaAxqMSJc4gslnye](https://d24gxr9obe.feishu.cn/docx/VQuGd5TikoAEaAxqMSJc4gslnye)
+
 
 # MCN行业全景
 

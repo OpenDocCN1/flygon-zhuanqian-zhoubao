@@ -1,6 +1,6 @@
 # 想就别想了，先把点子砸成现金
 
-> 来源：[https://y3my0b87ql.feishu.cn/docx/CCZ1dDUbYoYgu6xj9GLcgAQrndh](https://y3my0b87ql.feishu.cn/docx/CCZ1dDUbYoYgu6xj9GLcgAQrndh)
+
 
 海航收官没多久，龙珠第三期悬赏又重启了。把我这轮踩坑的经验摊出来，重点讲怎么用 AI 编程把脑子里嗡嗡转的想法迅速落地。
 

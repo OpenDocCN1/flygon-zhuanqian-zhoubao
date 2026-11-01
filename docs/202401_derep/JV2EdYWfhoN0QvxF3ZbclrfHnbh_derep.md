@@ -1,6 +1,6 @@
 # 土逗的图文排版自动化工具
 
-> 来源：[https://xq23zki45o8.feishu.cn/docx/JV2EdYWfhoN0QvxF3ZbclrfHnbh](https://xq23zki45o8.feishu.cn/docx/JV2EdYWfhoN0QvxF3ZbclrfHnbh)
+
 
 # 一、先看效果演示，视频下载见文末
 

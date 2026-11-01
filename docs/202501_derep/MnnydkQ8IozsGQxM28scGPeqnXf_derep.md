@@ -1,6 +1,6 @@
 # 【赚钱新人必看】罗卜携20+伙伴半年共创200+张精华帖思维导图
 
-> 来源：[https://dakhb269es.feishu.cn/docx/MnnydkQ8IozsGQxM28scGPeqnXf](https://dakhb269es.feishu.cn/docx/MnnydkQ8IozsGQxM28scGPeqnXf)
+
 
 共创人员（排序不分先后）：
 

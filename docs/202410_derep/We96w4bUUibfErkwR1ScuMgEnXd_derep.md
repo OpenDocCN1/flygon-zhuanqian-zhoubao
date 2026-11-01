@@ -1,6 +1,6 @@
 # 我们口中常说的“东南亚市场”，到底存不存在？
 
-> 来源：[https://zcndrp2kur9p.feishu.cn/docx/VRGKd2lvHoiVPNxeewTcfXOKn1f](https://zcndrp2kur9p.feishu.cn/docx/VRGKd2lvHoiVPNxeewTcfXOKn1f)
+
 
 东南亚，华人旧称南洋，地理上指亚洲东南部。范围涵盖中南半岛与马来群岛，是由缅甸、泰国、柬埔寨、老挝、越南、菲律宾、马来西亚、新加坡、文莱、印度尼西亚、东帝汶这11个国家共同构成，版图约457万平方公里。——百度百科
 

@@ -1,6 +1,6 @@
 # 抖音冷门赛道实操拆解：9.9一份的毛选资料包，单号日入百元级玩法全解析
 
-> 来源：[https://o0yvn3o31a.feishu.cn/docx/CL7Ldi0mEo6Wl9xcU0Kcy5Z5nog](https://o0yvn3o31a.feishu.cn/docx/CL7Ldi0mEo6Wl9xcU0Kcy5Z5nog)
+
 
 大家好，我是黄岛主。
 

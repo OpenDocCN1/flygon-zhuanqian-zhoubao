@@ -1,6 +1,6 @@
 # 用AI像素级复刻对标公众号，11天变现破万的实操拆解-赠对话提示词
 
-> 来源：[https://dlku560qaz.feishu.cn/docx/FpIndCXmWokNFUxcraacD1lYn3e](https://dlku560qaz.feishu.cn/docx/FpIndCXmWokNFUxcraacD1lYn3e)
+
 
 很开心能加入赚钱这个圈子，我是舒未读，在深圳一家私企做底层开发，每天就是代码牛马。
 

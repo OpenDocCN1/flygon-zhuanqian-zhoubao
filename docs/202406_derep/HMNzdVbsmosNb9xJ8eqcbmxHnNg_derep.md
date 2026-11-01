@@ -1,6 +1,6 @@
 # 公众号爆文一年变现百万，我的从零到爆规模化实操复盘
 
-> 来源：[https://maoge17888.feishu.cn/docx/HMNzdVbsmosNb9xJ8eqcbmxHnNg](https://maoge17888.feishu.cn/docx/HMNzdVbsmosNb9xJ8eqcbmxHnNg)
+
 
 # 一、开场白
 

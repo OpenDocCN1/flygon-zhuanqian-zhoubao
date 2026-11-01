@@ -1,6 +1,6 @@
 # Reddit 出海实战：从公开记录到社区共建的增长路径
 
-> 来源：[https://u0ry0qxjdd.feishu.cn/docx/DsEDdHohgoYi9mxTCcNcXj6enph](https://u0ry0qxjdd.feishu.cn/docx/DsEDdHohgoYi9mxTCcNcXj6enph)
+
 
 对于独立开发者和一人创业团队来说，真正难的往往不是把产品做出来，而是找到第一批用户，并让增长持续发生。
 

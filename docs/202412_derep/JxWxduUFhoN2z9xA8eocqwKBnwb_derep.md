@@ -1,6 +1,6 @@
 # 用 AIGC 做 TikTok 原创带货，单日破百单！海外短视频变现真成刚需了！保姆级拆解
 
-> 来源：[https://xa06j6z232m.feishu.cn/docx/JxWxduUFhoN2z9xA8eocqwKBnwb](https://xa06j6z232m.feishu.cn/docx/JxWxduUFhoN2z9xA8eocqwKBnwb)
+
 
 大家好，我是 Lisa，90 后福建人，现定居深圳深耕跨境三年，如今全身心投入 AI+出海赛道。
 

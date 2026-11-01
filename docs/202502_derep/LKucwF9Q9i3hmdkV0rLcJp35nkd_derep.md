@@ -1,6 +1,6 @@
 # 【AI 编程零基础】5 分钟上手 Cursor，跟着做一个 2048 小游戏
 
-> 来源：[https://lw0qdvkpi9l.feishu.cn/docx/JFUcdPn5tostdXxcIcMcTxu5ned](https://lw0qdvkpi9l.feishu.cn/docx/JFUcdPn5tostdXxcIcMcTxu5ned)
+
 
 嗨，朋友们好！
 

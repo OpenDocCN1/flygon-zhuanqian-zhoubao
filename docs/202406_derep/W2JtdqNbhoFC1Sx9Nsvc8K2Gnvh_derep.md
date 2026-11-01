@@ -1,6 +1,6 @@
 # HTML格式文章怎么安全发到公众号？全流程拆解
 
-> 来源：[https://ex5bha8e8ip.feishu.cn/docx/W2JtdqNbhoFC1Sx9Nsvc8K2Gnvh](https://ex5bha8e8ip.feishu.cn/docx/W2JtdqNbhoFC1Sx9Nsvc8K2Gnvh)
+
 
 # 先把HTML还原成可编辑的图文
 

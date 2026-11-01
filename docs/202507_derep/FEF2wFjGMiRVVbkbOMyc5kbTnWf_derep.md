@@ -1,6 +1,6 @@
 # 别人还在打基础，你已玩转进阶！Claude Code 的 14 个实操秘籍
 
-> 来源：[https://sqm685cmohb.feishu.cn/docx/P3a3dMF64oiLdCxRcXGcujUknTf](https://sqm685cmohb.feishu.cn/docx/P3a3dMF64oiLdCxRcXGcujUknTf)
+
 
 大家好，我是志辉，搞了 10 年大数据架构，现在专注 AI 编程。
 

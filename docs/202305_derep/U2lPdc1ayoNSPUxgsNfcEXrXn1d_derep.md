@@ -1,6 +1,6 @@
 # 一款能直接下爆款的巨量百应神器，选品+搬运一步到位[C级]
 
-> 来源：[https://qv4zhbe2wa.feishu.cn/docx/U2lPdc1ayoNSPUxgsNfcEXrXn1d](https://qv4zhbe2wa.feishu.cn/docx/U2lPdc1ayoNSPUxgsNfcEXrXn1d)
+
 
 看完这篇实操，你能带走：
 

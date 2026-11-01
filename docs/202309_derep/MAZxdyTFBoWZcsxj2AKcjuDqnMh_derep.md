@@ -1,6 +1,6 @@
 # 从参数流到 XML 标签：我的 Claude 折腾手记
 
-> 来源：[https://jx8v8j88mr6.feishu.cn/docx/MAZxdyTFBoWZcsxj2AKcjuDqnMh](https://jx8v8j88mr6.feishu.cn/docx/MAZxdyTFBoWZcsxj2AKcjuDqnMh)
+
 
 我是李拜日。产品经理，高龄待业，正以零基础身位闯进提示词工程这片新大陆。
 

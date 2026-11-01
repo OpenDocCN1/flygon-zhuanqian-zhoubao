@@ -1,6 +1,6 @@
 # 一次AI提效工具的踩坑与相见恨晚清单
 
-> 来源：[https://jkq1wag4vg.feishu.cn/docx/TZHWdhZ1CoKJWYxMqxNcFfXRnqb](https://jkq1wag4vg.feishu.cn/docx/TZHWdhZ1CoKJWYxMqxNcFfXRnqb)
+
 
 DeepSeek的席卷式走红，让AI工具的门槛被彻底拉低。大家都在用，用得也越来越顺手。但这到底是让信息更公平了，还是让懂得用的人跑得更快、拉开了认知差？
 

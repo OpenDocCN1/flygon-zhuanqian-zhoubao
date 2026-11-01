@@ -1,6 +1,6 @@
 # TikTok广告投放4天赚1.5万，实操拆解全记录
 
-> 来源：[https://u0b7kwavgo7.feishu.cn/docx/M53jds3eYo2D3hxY4juc7OhEnFb](https://u0b7kwavgo7.feishu.cn/docx/M53jds3eYo2D3hxY4juc7OhEnFb)
+
 
 这次把整个打法整理成一张思维导图，下面结合“7A内裤”这个案例，把重点拆开讲清楚。
 

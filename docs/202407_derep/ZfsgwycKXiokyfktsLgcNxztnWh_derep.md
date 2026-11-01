@@ -1,6 +1,6 @@
 # 当经济下行、内卷拉满时，如何用朋友圈文案杀出重围，实现逆转？
 
-> 来源：[https://i57kjq9bu0.feishu.cn/docx/DTjidnYGzoFk1exhTq2ctpdfnCc](https://i57kjq9bu0.feishu.cn/docx/DTjidnYGzoFk1exhTq2ctpdfnCc)
+
 
 哈喽，各位好，我是静文。大三在读，同时也在做朋友圈文案陪跑教练，用朋友圈做起来的第一年，已经实现六位数变现。
 

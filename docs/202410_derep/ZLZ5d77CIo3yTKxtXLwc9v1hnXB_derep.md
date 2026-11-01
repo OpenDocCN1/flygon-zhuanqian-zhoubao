@@ -1,6 +1,6 @@
 # 哪些课程更好卖？怎么起一个自带流量的课名？AI 真的是取名神器
 
-> 来源：[https://d037mrmszsw.feishu.cn/docx/ZLZ5d77CIo3yTKxtXLwc9v1hnXB](https://d037mrmszsw.feishu.cn/docx/ZLZ5d77CIo3yTKxtXLwc9v1hnXB)
+
 
 👀 上期跟大家聊了做课需要哪些 AI 工具⬇️
 

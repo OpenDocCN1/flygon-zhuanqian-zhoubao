@@ -1,6 +1,6 @@
 # 一个小众社交App的0到盈利实战拆解
 
-> 来源：[https://h0v0176ep4x.feishu.cn/docx/FSxRdzPiaoD0rAxvmlWc5ArTnkd](https://h0v0176ep4x.feishu.cn/docx/FSxRdzPiaoD0rAxvmlWc5ArTnkd)
+
 
 大家好，我是超人。做了十年APP研发，键盘敲过的代码以千万行计，独立上线的产品超过一百个，最拿手的就是把一个模糊的点子快速变成可用的原型。
 

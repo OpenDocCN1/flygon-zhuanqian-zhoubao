@@ -1,6 +1,6 @@
 # Gmarket 新店 30 天实战路线：先做出单店模型，再谈放大
 
-> 资料来源：[https://zwl0d6izlw5.feishu.cn/docx/S1FmdrbWsoIYApx9mAoceFQjn2g](https://zwl0d6izlw5.feishu.cn/docx/S1FmdrbWsoIYApx9mAoceFQjn2g)
+
 
 做韩国电商，很多人一开始就想着多开店、铺更多货，结果忙了很久，却没有验证出一套真正能赚钱的方法。
 

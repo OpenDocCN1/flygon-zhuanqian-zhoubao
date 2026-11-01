@@ -1,6 +1,6 @@
 # 当了妈才懂：带娃也能把抖音橱窗做到一年11万单，我的实战复盘
 
-> 来源：[https://oq06a188yq7.feishu.cn/docx/E5KpdR0WDo0guIx7RjKcFM66njK](https://oq06a188yq7.feishu.cn/docx/E5KpdR0WDo0guIx7RjKcFM66njK)
+
 
 # 先自我介绍一下
 

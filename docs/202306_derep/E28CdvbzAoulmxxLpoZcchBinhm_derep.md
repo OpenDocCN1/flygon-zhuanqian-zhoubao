@@ -1,6 +1,6 @@
 # 《零基础小白也能靠ChatGPT做出90分小红书笔记，生产效率飙升30倍》
 
-> 来源：[https://qdrlbziuml.feishu.cn/docx/E28CdvbzAoulmxxLpoZcchBinhm](https://qdrlbziuml.feishu.cn/docx/E28CdvbzAoulmxxLpoZcchBinhm)
+
 
 嗨，各位同学，看到这条就是缘分。我是赚钱群里的比比先森，现在主攻小红书高客单引流成交的教学工作。之前参与过把新媒体头部博主的小红书做涨10w+粉、变现破百w的项目，也带过千名以上学员拿到小红书的首桶金，今年也是小红书运营航海教练团的一员。
 

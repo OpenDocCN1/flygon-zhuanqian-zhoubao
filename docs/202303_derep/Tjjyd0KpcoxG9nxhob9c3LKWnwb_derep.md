@@ -1,6 +1,6 @@
 # 为了在赚钱圈被龙哥看见，我一年搞到6张证、18个闲鱼号专门卖二手书
 
-> 来源：[https://gik6yjl7o7e.feishu.cn/docx/Tjjyd0KpcoxG9nxhob9c3LKWnwb](https://gik6yjl7o7e.feishu.cn/docx/Tjjyd0KpcoxG9nxhob9c3LKWnwb)
+
 
 哈喽，我是小游，深圳一个靠卖二手旧书糊口的潮汕女生。
 

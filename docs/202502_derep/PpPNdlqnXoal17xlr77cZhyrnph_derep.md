@@ -1,6 +1,6 @@
 # 用AI工作流让美股财报分析自动化
 
-> 来源：[https://zcnzawlx2ndr.feishu.cn/docx/PpPNdlqnXoal17xlr77cZhyrnph](https://zcnzawlx2ndr.feishu.cn/docx/PpPNdlqnXoal17xlr77cZhyrnph)
+
 
 大家好，我是四喜。最近搭了一套AI工作流，今天想和大家聊聊AI在金融实务里能怎么落地，以及这套流程的大体架构。分享重心放在应用思路和设计逻辑上，不会深入到工具操作和参数调优层面。
 

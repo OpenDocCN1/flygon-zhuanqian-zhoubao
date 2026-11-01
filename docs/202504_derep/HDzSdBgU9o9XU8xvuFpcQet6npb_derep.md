@@ -1,6 +1,6 @@
 # 从0到月销18W｜小红书站内电商的爆款公式拆解
 
-> 来源：[https://hte5jh8fk0.feishu.cn/docx/HDzSdBgU9o9XU8xvuFpcQet6npb](https://hte5jh8fk0.feishu.cn/docx/HDzSdBgU9o9XU8xvuFpcQet6npb)
+
 
 先交代一下背景。我是温妮，98年生人，常驻杭州，主业是电商摄影师，通俗讲就是替淘宝、小红书店主拍商品图和产品视频。
 

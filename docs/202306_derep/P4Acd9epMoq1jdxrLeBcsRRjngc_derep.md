@@ -1,6 +1,6 @@
 # 37天撬动8万8佣金：从0到1用抖音图文矩阵杀出中医红海
 
-> 来源：[https://mymkbeayzl.feishu.cn/docx/P4Acd9epMoq1jdxrLeBcsRRjngc](https://mymkbeayzl.feishu.cn/docx/P4Acd9epMoq1jdxrLeBcsRRjngc)
+
 
 大家好，我是九月，目前全职深耕抖音的中老年垂类，目前主做中医养生方向已经接近一年时间。
 

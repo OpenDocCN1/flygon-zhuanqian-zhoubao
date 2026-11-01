@@ -1,6 +1,6 @@
 # YouTube还能怎么变现？8条实操路径拆解
 
-> 来源：[https://y1em4gkc5yu.feishu.cn/docx/WJjpdMbcCoqAHRxCe7PcxaHCntf](https://y1em4gkc5yu.feishu.cn/docx/WJjpdMbcCoqAHRxCe7PcxaHRxCe7PcxaHCntf)
+
 
 大家口中的油管，YouTube，作为全球第二大搜索入口，即便近几年被TikTok分流，月活依然稳定在20亿以上。中长视频的统治地位没人撼动，就连21年7月上线的 Shorts 也成了新的流量赛道。今天把在 YouTube上实现收入的8种常见做法，系统梳理一遍。
 

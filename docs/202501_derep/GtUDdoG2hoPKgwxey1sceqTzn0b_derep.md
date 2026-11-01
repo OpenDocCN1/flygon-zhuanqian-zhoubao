@@ -1,6 +1,6 @@
 # 一篇本意只是自用的 Windows 节点搭建笔记，怎么就给我带来了腾讯云七千多的意外到账
 
-> 来源：[https://udxxg5rx5m.feishu.cn/docx/GtUDdoG2hoPKgwxey1sceqTzn0b](https://udxxg5rx5m.feishu.cn/docx/GtUDdoG2hoPKgwxey1sceqTzn0b)
+
 
 说实话，在动笔之前我纠结了很久，生怕大家会误读当初写那篇教程的初衷。但这段经历太值得讲了，还是写下来吧。
 

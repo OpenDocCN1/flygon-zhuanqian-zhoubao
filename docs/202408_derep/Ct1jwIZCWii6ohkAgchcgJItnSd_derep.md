@@ -1,6 +1,6 @@
 # 用0.01元包邮拿下正版实体书，我是怎么玩的
 
-> 来源：[https://va802z4imkx.feishu.cn/docx/FVKpdz0eOoAe0FxJWwjcPvrMnUh](https://va802z4imkx.feishu.cn/docx/FVKpdz0eOoAe0FxJWwjcPvrMnUh)
+
 
 大家好，我是少波，四月份才入驻龙哥盟。
 

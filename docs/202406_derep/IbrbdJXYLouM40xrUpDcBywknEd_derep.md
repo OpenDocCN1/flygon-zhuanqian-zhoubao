@@ -1,6 +1,6 @@
 # 用同城实体发售撬动百千万级现金流，你身边的下一个洼地
 
-> 来源：[https://aso41gpxhm.feishu.cn/docx/IbrbdJXYLouM40xrUpDcBywknEd](https://aso41gpxhm.feishu.cn/docx/IbrbdJXYLouM40xrUpDcBywknEd)
+
 
 大家好，我是孙策。老朋友都知道，我前几年主力战场在线下拉新。
 

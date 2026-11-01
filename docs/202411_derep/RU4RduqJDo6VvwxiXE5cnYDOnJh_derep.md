@@ -1,6 +1,6 @@
 # 让零基础也能用 Cursor 啃下复杂项目
 
-> 来源：[https://vqxvy65apk2.feishu.cn/docx/RU4RduqJDo6VvwxiXE5cnYDOnJh](https://vqxvy65apk2.feishu.cn/docx/RU4RduqJDo6VvwxiXE5cnYDOnJh)
+
 
 大家好，我是阿紫。今天这篇笔记想解决一个很具体的问题：一个只会敲键盘、会点鼠标的普通人，能不能借助 Cursor 把一个工程量不小的项目做下来。简单的练手当然可以，本文主要讲复杂的。
 

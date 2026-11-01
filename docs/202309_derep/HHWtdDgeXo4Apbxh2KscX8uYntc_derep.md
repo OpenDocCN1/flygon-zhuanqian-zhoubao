@@ -1,6 +1,6 @@
 # 30岁失业后，我靠小红书无货源把局面扳了回来
 
-> 来源：[https://ulhriz6sf7.feishu.cn/docx/HHWtdDgeXo4Apbxh2KscX8uYntc](https://ulhriz6sf7.feishu.cn/docx/HHWtdDgeXo4Apbxh2KscX8uYntc)
+
 
 大家好，我是蛋宝，刚在6月加入龙哥盟。
 

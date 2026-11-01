@@ -1,6 +1,6 @@
 # 我搞了个智能体，公众号文章一键变身小绿书卡片，终于不用手动截图了！
 
-> 来源：[https://b121w2zgwyx.feishu.cn/docx/EQqQdi79woDZJbxyogZctCASnzC](https://b121w2zgwyx.feishu.cn/docx/EQqQdi79woDZJbxyogZctCASnzC)
+
 
 前阵子，我把公众号发文这个动作接进了扣子空间的MCP调用，本来只是做个自用的小工具，顺手分享了一下，没想到评论区一堆人喊“我也要”。要是你还没看过那篇，可以翻一翻。
 

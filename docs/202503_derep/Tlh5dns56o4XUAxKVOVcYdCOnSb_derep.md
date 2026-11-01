@@ -1,6 +1,6 @@
 # 小白第一次上线在线站：和 Cursor 这种顶级 AI 程序员同事硬刚一周的复盘
 
-> 来源：[https://oqe2a3ttv4.feishu.cn/docx/Tlh5dns56o4XUAxKVOVcYdCOnSb](https://oqe2a3ttv4.feishu.cn/docx/Tlh5dns56o4XUAxKVOVcYdCOnSb)
+
 
 ## 一、起心动念
 

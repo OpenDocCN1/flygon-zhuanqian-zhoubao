@@ -1,6 +1,6 @@
 # 京东外卖商家拓展指南：政策、流程、渠道与风险一次讲清
 
-> 资料来源：[https://jx8j59ahkjb.feishu.cn/docx/HnijdTy7TotdVBxvBHDc057dnie](https://jx8j59ahkjb.feishu.cn/docx/HnijdTy7TotdVBxvBHDc057dnie)
+
 
 ## 开始之前，先看这几句话
 

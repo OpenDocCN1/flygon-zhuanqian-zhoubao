@@ -1,6 +1,6 @@
 # 盘一盘：我如何把校园早中晚餐到寝做到日单破万、日赚过万
 
-> 来源：[https://ua10f6r1eif.feishu.cn/docx/W46XdJX7to4oRXxpWwLckfU3nTc](https://ua10f6r1eif.feishu.cn/docx/W46XdJX7to4oRXxpWwLckfU3nTc)
+
 
 # 早餐到寝实操篇
 

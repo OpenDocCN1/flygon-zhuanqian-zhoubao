@@ -1,6 +1,6 @@
 # 【AI写作】普通人上手最快的AI变现路径
 
-> 来源：[https://uibsm1uo6r.feishu.cn/docx/TvpydmW9ToDIY0xQnwVcD7Wmncg](https://uibsm1uo6r.feishu.cn/docx/TvpydmW9ToDIY0xQnwVcD7Wmncg)
+
 
 # 先说结果，再讲过程
 

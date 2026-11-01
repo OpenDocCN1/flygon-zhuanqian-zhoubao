@@ -1,6 +1,6 @@
 # 用 AI 数字人做信息流广告，我 4 天撬动 30 万消耗的实战复盘
 
-> 来源：[https://bnb422zi7t.feishu.cn/docx/NMdlddS0hoAAI4xBMLXcZyzFnGg](https://bnb422zi7t.feishu.cn/docx/NMdlddS0hoAAI4xBMLXcZyzFnGg)
+
 
 大家好，我是 layman，职场普通人，赚钱社区的潜水用户。这次把自己从 AI 门外汉到用数字人做信息流投放，4 天内单条素材消耗冲到 30 万的过程完整摊开，第一次写长文，表达不熟练，多包涵。
 

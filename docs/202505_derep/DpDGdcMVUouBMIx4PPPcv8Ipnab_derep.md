@@ -1,6 +1,6 @@
 # 用 AI+RPA 搞定 YouTube 动物故事自动化，我的实战全记录
 
-> 来源：[https://wm1881zs6s.feishu.cn/docx/DpDGdcMVUouBMIx4PPPcv8Ipnab](https://wm1881zs6s.feishu.cn/docx/DpDGdcMVUouBMIx4PPPcv8Ipnab)
+
 
 # 1. 开篇说在前头
 

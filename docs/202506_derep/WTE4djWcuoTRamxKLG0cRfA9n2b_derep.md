@@ -1,6 +1,6 @@
 # 从0到日入千元只用12天，我的高报航海实战复盘
 
-> 来源：[https://jf9cp2suas.feishu.cn/docx/WTE4djWcuoTRamxKLG0cRfA9n2b](https://jf9cp2suas.feishu.cn/docx/WTE4djWcuoTRamxKLG0cRfA9n2b)
+
 
 # 一、我是怎么来的
 

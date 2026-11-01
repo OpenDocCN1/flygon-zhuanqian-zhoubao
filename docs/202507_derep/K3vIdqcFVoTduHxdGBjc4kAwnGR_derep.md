@@ -1,6 +1,6 @@
 # 把 Git Worktree 当成“实习生小隔间”，我是怎么做到并行无干扰开发的
 
-> 来源：[https://rxas35pmvn.feishu.cn/docx/K3vIdqcFVoTduHxdGBjc4kAwnGR](https://rxas35pmvn.feishu.cn/docx/K3vIdqcFVoTduHxdGBjc4kAwnGR)
+
 
 大家好，我是大铭。今天不聊具体的技术点，我们聊聊开发者的通病：被不断打断。
 

@@ -1,6 +1,6 @@
 # 赚到五十万的实战笔记：小红书无人直播的红利与坑位全拆解
 
-> 来源：[https://dkl7w7ir14.feishu.cn/docx/HEtJdnpXho3qOoxkrJjcn5lVnWg](https://dkl7w7ir14.feishu.cn/docx/HEtJdnpXho3qOoxkrJjcn5lVnWg)
+
 
 先说前提，只聊项目怎么落地，怎么踩坑。账号注册这些基础操作，自己去搜就行。看之前必须认清一点，任何项目想浅尝辄止最后都白干。接下来的内容我会按这六块展开：
 

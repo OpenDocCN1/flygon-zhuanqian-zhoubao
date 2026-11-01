@@ -1,6 +1,6 @@
 # 近十亿曝光不到一年，Aelfric Eden 社媒引流的打法拆解
 
-> 来源：[https://z8qt74rchp.feishu.cn/docx/CustdlXWloBJiRxUhj4c0SPmnif](https://z8qt74rchp.feishu.cn/docx/CustdlXWloBJiRxUhj4c0SPmnif)
+
 
 pipiads 大数据监测显示，广告主 Aelfric Eden 在多平台的投放累计曝光逼近十亿，时间跨度却不足一年。如此体量的声量是如何跑出来的？下面拆开来看。
 

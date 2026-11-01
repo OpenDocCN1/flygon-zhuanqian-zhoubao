@@ -1,6 +1,6 @@
 # 用 GPT-4 做一遍 Twitter 用户画像拆解，全程实操复盘
 
-> 来源：[https://ia0969wpr2.feishu.cn/docx/UAJod7O8oo8Fj4xIVlec5huFnhg](https://ia0969wpr2.feishu.cn/docx/UAJod7O8oo8Fj4xIVlec5huFnhg)
+
 
 先交代一下起因。过去几个月我一直在盯 Twitter 上几个核心关键词和头部大 V，一方面是捕捉一手实时信息，另一方面是攒素材学习做自媒体。到现在手里大概沉淀了100多万条相关推文、2万多篇长文，以及22万个推特用户的基本信息，这批数据就是后面所有分析的底座。
 

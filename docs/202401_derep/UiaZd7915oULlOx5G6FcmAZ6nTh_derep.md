@@ -1,6 +1,6 @@
 # 风向标拆解第 2 期--许山山--月入十万美金的 AI 工具究竟打通了哪些环节
 
-> 来源：[https://vo2ca68sdm.feishu.cn/docx/UiaZd7915oULlOx5G6FcmAZ6nTh](https://vo2ca68sdm.feishu.cn/docx/UiaZd7915oULlOx5G6FcmAZ6nTh)
+
 
 # 案例拆解
 

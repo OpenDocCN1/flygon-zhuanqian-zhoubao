@@ -1,6 +1,6 @@
 # 普通人如何用 AI 图像抓住这波新红利：两条变现路线全拆解
 
-> 来源：[https://wosa79zedo.feishu.cn/docx/VRXzdMSJWoKY9jxxyW9c1kxlnLh](https://wosa79zedo.feishu.cn/docx/VRXzdMSJWoKY9jxxyW9c1kxlnLh)
+
 
 ## 1. AI 图像生成，把创作主导权交给了普通人
 

@@ -1,6 +1,6 @@
 # 海外私域 Discord 实操指南
 
-> 来源：[https://sbu67xqbm4.feishu.cn/docx/Vn4vdRXgBoKgsWxCzktc4rThnce](https://sbu67xqbm4.feishu.cn/docx/Vn4vdRXgBoKgsWxCzktc4rThnce)
+
 
 # 一、入门篇
 

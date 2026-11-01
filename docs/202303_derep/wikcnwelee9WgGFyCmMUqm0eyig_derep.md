@@ -1,6 +1,6 @@
 # 数字人直播到底能不能玩？从技术到实操全拆解
 
-> 来源：[https://jingyijuejin.feishu.cn/docx/PtLId31Z8obw2gxV5xvcy0UhnQh](https://jingyijuejin.feishu.cn/docx/PtLId31Z8obw2gxV5xvcy0UhnQh)
+
 
 最近刷抖音，数字人直播间是越来越常见了。看着跟真人几乎没区别，口型同步、动作自然，不懂行的人根本分不出真假。
 

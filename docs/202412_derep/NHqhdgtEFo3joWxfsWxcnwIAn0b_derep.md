@@ -1,6 +1,6 @@
 # 小红书靠合同模板做私域，单份近7块、客单上百的实操拆解
 
-> 来源：[https://o0yvn3o31a.feishu.cn/docx/NHqhdgtEFo3joWxfsWxcnwIAn0b](https://o0yvn3o31a.feishu.cn/docx/NHqhdgtEFo3joWxcsWxcnwIAn0b)
+
 
 # 各位朋友大家好，我是黄岛主！
 

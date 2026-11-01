@@ -1,6 +1,6 @@
 # 大一，我靠一个圈外人没听过的冷门赛道，赚到了人生第一笔2000+
 
-> 来源：[https://ucn2qlukhvo8.feishu.cn/docx/VjmAdmMfEovpeWxYOUKc6P2jntb](https://ucn2qlukhvo8.feishu.cn/docx/VjmAdmMfEovpeWxYOUKc6P2jntb)
+
 
 各位好，我是Christina，也可以叫我Tina。去年双十一价格上涨前我入了赚钱，现在人在上海某双一流，大一在读。
 

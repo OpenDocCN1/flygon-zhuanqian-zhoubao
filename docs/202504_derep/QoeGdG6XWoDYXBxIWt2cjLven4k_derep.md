@@ -1,6 +1,6 @@
 # 小红书虚拟商品数据拆解笔记
 
-> 来源：[https://fiazd3hbob.feishu.cn/docx/QoeGdG6XWoDYXBxIWt2cjLven4k](https://fiazd3hbob.feishu.cn/docx/QoeGdG6XWoDYXBxIWt2cjLven4k)
+
 
 ### 一、数据长什么样
 

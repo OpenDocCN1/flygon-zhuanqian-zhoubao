@@ -1,6 +1,6 @@
 # 半年做到一万精准粉丝，变现20万：写作博主的小红书复盘
 
-> 来源：[https://bd5shvz1qn.feishu.cn/docx/EoiedT1iZozZvOxArLBcbCIpnBg](https://bd5shvz1qn.feishu.cn/docx/EoiedT1iZozZvOxArLBcbCIpnBg)
+
 
 我是舒丽，近期在赚钱社群里分享了自己在小红书的实操。我从2022年3月才开始操作，短短5个月累计到1万名精准关注，同期知识产品收入达到20万。如果你在做知识IP、想借助小红书做冷启动和导流，这份复盘可以参考。
 

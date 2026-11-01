@@ -1,6 +1,6 @@
 # 【AI绘画】无须N卡A卡！浏览器里就能玩的顶级AI绘图实战
 
-> 来源：[https://sg0n3b2id7.feishu.cn/docx/KomqdeUMloO1CkxrgADcqGvDnIe](https://sg0n3b2id7.feishu.cn/docx/KomqdeUMloO1CkxrgADcqGvDnIe)
+
 
 嗨，我是屋顶瓦，今天分享一套在 Google Colab 上畅玩 AI 绘画的完整打法，干货密度很高，跟着做就能立刻上手。废话少说，直接进入正题。
 

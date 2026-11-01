@@ -1,6 +1,6 @@
 # 从零到变现：红包封面项目全流程拆解与实战笔记
 
-> 来源：[https://rb2nh1gqd0.feishu.cn/docx/Y2aNdfwtgo0yRxx10GOcCZofn1f](https://rb2nh1gqd0.feishu.cn/docx/Y2aNdfwtgo0yRxx10GOcCZofn1f)
+
 
 # 开场白
 

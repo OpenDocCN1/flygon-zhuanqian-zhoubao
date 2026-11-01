@@ -1,6 +1,6 @@
 # 小红书影视号做流量主，小白无门槛拿到的首笔 5000 元，完整复盘
 
-> 来源：[https://o16m4rgdmt3.feishu.cn/docx/R2U7d6Kj1oZ0SyxE4K3c9UtNnYe](https://o16m4rgdmt3.feishu.cn/docx/R2U7d6Kj1oZ0SyxE4K3c9UtNnYe)
+
 
 ## 零成本搞钱的唯一捷径
 

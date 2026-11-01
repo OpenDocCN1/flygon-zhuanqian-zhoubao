@@ -1,6 +1,6 @@
 # 百度AI数字人直播0到1全流程拆解
 
-> 来源：[https://fcnkpev7kpfd.feishu.cn/docx/NwhmdoMHEoVkYRxpZLRc1wKPnUh](https://fcnkpev7kpfd.feishu.cn/docx/NwhmdoMHEoVkYRxpZLRc1wKPnUh)
+
 
 很久没见了~
 

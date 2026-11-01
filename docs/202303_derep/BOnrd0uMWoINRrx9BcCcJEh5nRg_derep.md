@@ -1,6 +1,6 @@
 # 新手也能日更百条原创带货视频，这款批量剪辑利器你值得拥有
 
-> 来源：[https://bh5pm72xfy.feishu.cn/docx/BOnrd0uMWoINRrx9BcCcJEh5nRg](https://bh5pm72xfy.feishu.cn/docx/BOnrd0uMWoINRrx9BcCcJEh5nRg)
+
 
 # 开篇说两句
 

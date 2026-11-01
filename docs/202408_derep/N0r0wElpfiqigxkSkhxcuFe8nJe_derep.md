@@ -1,6 +1,6 @@
 # 本地夜校这条线还能卷，讲透从小红书引流到后端变现的完整打法
 
-> 来源：[https://k8ujba4r5x.feishu.cn/docx/KkjtdSL87obZa9x4xqkcRgbanoP](https://k8ujba4r5x.feishu.cn/docx/KkjtdSL87obZa9x4xqkcRgbanoP)
+
 
 这篇内容在年内已经分享过一版，现在是升级复盘版。圈里朋友们好，我是八斤。如果你正准备亲自操盘本地夜校的项目，建议把下面这套实操思路过一遍，这是我踩坑后沉淀下来的落地方法。
 

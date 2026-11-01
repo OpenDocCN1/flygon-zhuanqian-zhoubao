@@ -1,6 +1,6 @@
 # 3月8日《如何2个月时间快团团帮卖佣金8万》贾璐luca
 
-> 来源：[https://r7weuqivm5.feishu.cn/docx/SYkqdYJ4FoEXOlxQpitcWY8Rnqg](https://r7weuqivm5.feishu.cn/docx/SYkqdYJ4FoEXOlxQpitcWY8Rnqg)
+
 
 感谢赚钱静伟的邀请，能站在这里分享快团团的一些实战心得，既受宠若惊也倍感荣幸。在这么多前辈面前谈经验，实在是班门弄斧，先做个简短自我介绍，也希望能多交些赚钱的朋友。
 

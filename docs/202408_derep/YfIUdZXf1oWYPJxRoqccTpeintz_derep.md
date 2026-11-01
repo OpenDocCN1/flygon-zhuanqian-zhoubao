@@ -1,6 +1,6 @@
 # 把奔袭战搬到同城实体发售，我们这样打
 
-> 来源：[https://aso41gpxhm.feishu.cn/docx/YfIUdZXf1oWYPJxRoqccTpeintz](https://aso41gpxhm.feishu.cn/docx/YfIUdZXf1oWYPJxRoqccTpeintz)
+
 
 先自我介绍一下：我叫孙策，是龙哥盟五年成员，也在私董会。
 

@@ -1,6 +1,6 @@
 # DeepSeek Janus全攻略：本地部署+在线体验，文生图/图生文小白也能秒上手
 
-> 来源：[https://duuxkmjwsy.feishu.cn/docx/T7zjdlpNeoB6cax9X1Wcso2Dnke](https://duuxkmjwsy.feishu.cn/docx/T7zjdlpNeoB6cax9X1Wcso2Dnke)
+
 
 ## 想一键拿走的工作流
 

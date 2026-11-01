@@ -1,6 +1,6 @@
 # 2024年，小红书哪些赛道该撤了，哪些赛道还能捞金？留学转行2个月卖出1亿的实战复盘
 
-> 来源：[https://ht16ej1tui.feishu.cn/docx/JUtKd8BmSoSV6KxotikcGqbZndf](https://ht16ej1tui.feishu.cn/docx/JUtKd8BmSoSV6KxotikcGqbZndf)
+
 
 小红书留学板块到底还能不能玩？2024年哪些赛道在掉头向下，哪些在悄悄往上走？什么时候是提桶跑路的黄金窗口？截至24年8月20日，40多个高客单赛道的卷度到底有多凶？蓝海赛道怎么找？
 

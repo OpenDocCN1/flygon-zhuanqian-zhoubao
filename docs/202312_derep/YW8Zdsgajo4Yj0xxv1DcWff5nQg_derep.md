@@ -1,6 +1,6 @@
 # 用赚钱知识库+内容输出，让知识IP效率起飞的25条实操心法
 
-> 来源：[https://x6n09emgmm.feishu.cn/docx/YW8Zdsgajo4Yj0xxv1DcWff5nQg](https://x6n09emgmm.feishu.cn/docx/YW8Zdsgajo4Yj0xxv1DcWff5nQg)
+
 
 大家好，我是赚钱圈友Andrew，知识管理教练，《知识管理五维模型》的提出者。
 

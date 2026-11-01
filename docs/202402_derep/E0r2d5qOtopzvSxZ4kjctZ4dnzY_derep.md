@@ -1,6 +1,6 @@
 # 00后视频号做AI知识付费直播复盘：三个月卖2000单，流水40万
 
-> 来源：[https://rfgsytrye6.feishu.cn/docx/E0r2d5qOtopzvSxZ4kjctZ4dnzY](https://rfgsytrye6.feishu.cn/docx/E0r2d5qOtopzvSxZ4kjctZ4dnzY)
+
 
 大家好，我叫锦亿，00后，在广州生活，2022年大学毕业。我的经历大概是这样的：在视频号上做AI相关的知识付费，靠直播卖课，第一周就有了转化。2024年10月到12月这三个月，主打199元的AI入门课，总共卖出约2000份，流水达到40万。下面的截图是当时的记录：
 

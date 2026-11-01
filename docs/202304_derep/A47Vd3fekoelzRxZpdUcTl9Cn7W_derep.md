@@ -1,6 +1,6 @@
 # 从副业到县城同类第一，我的这几年腊肉经
 
-> 来源：[https://y2w73sabxw.feishu.cn/docx/A47Vd3fekoelzRxZpdUcTl9Cn7W](https://y2w73sabxw.feishu.cn/docx/A47Vd3fekoelzRxZpdUcTl9Cn7W)
+
 
 我是阿黛，土家族宜昌人，现在定居郑州，目前是赚钱新人。
 

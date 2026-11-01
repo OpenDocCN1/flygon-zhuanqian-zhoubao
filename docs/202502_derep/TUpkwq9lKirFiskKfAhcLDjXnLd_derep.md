@@ -1,6 +1,6 @@
 # 目标拎清+借助航海加速执行力：21天Cursor带我做到四位数变现，个人榜单第二
 
-> 来源：[https://ewtk6agpo4c.feishu.cn/docx/Q2mid908HoP2z9xVWWbc7rZUnTd](https://ewtk6agpo4c.feishu.cn/docx/Q2mid908HoP2z9xVWWbc7rZUnTd)
+
 
 大家好，我是林悦己Cheer，12月的航海复盘拖到现在才整理，确实拖得有点久，幸好没鸽。
 

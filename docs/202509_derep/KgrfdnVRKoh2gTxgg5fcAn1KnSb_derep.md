@@ -1,6 +1,6 @@
 # 首条笔记即变现，小红书小白也能用的 Coze/N8N 仿写自动化教程
 
-> 来源：[https://bqrx3wjikn.feishu.cn/docx/KgrfdnVRKoh2gTxgg5fcAn1KnSb](https://bqrx3wjikn.feishu.cn/docx/KgrfdnVRKoh2gTxgg5fcAn1KnSb)
+
 
 最近在做公众号二创自动化时忽然想到，文字能做洗稿，那配图能不能也做同款？
 

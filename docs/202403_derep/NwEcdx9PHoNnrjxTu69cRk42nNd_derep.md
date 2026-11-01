@@ -1,6 +1,6 @@
 # 亚马逊转化谈到最后，都是在谈价格
 
-> 来源：[https://blrwwxfhox.feishu.cn/docx/NwEcdx9PHoNnrjxTu69cRk42nNd](https://blrwwxfhox.feishu.cn/docx/NwEcdx9PHoNnrjxTu69cRk42nNd)
+
 
 我叫小紫，跨境这条路走了七年。
 

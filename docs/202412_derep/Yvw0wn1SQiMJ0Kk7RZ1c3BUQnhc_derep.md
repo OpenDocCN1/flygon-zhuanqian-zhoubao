@@ -1,6 +1,6 @@
 # 转转2.0二手机玩法拆解：我从二手数码老兵到月入几十万毛利的实操笔记
 
-> 来源：[https://ycncle3i0u5j.feishu.cn/docx/H9GldbOUmoaHlZxMNPzcPjN6noC](https://ycncle3i0u5j.feishu.cn/docx/H9GldbOUmoaHlZxMNPzcPjN6noC)
+
 
 各位赚钱的伙伴们好，我是成都做二手数码的山人。入行到现在12年了，新机倒过手，维修摊位开过，赛格档口摆过，二手机直播也播过。现在重心放在二手机同行批发、回收、实时竞拍以及转转2.0这块，零售和直播也在慢慢跟进。
 

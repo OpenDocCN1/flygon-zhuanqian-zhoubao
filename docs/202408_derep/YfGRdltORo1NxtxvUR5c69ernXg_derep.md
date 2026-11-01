@@ -1,6 +1,6 @@
 # 7年做课经验沉淀：一套能直接拿去用的知识产品打造逻辑
 
-> 来源：[https://qfkv7opheu.feishu.cn/docx/YfGRdltORo1NxtxvUR5c69ernXg](https://qfkv7opheu.feishu.cn/docx/YfGRdltORo1NxtxvUR5c69ernXg)
+
 
 我是大卷，做知识付费课程制作这行已经很多年了。最近手头清闲，把今年立的Flag兑现一下，干脆把这些年摸索出来的方法论捋出来。目标只有一个：让普通人也能把自己的专业变成可复用的知识资产。
 

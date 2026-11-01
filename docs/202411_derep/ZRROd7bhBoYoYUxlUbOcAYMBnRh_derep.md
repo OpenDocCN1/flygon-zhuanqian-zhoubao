@@ -1,6 +1,6 @@
 # 公众号文章、小绿书一条流程搞定：生成、配图、排版、发布（附最新 RPA 脚本）
 
-> 原文链接：[https://b121w2zgwyx.feishu.cn/docx/ZRROd7bhBoYoYUxlUbOcAYMBnRh](https://b121w2zgwyx.feishu.cn/docx/ZRROd7bhBoYoYUxlUbOcAYMBnRh)
+
 
 之前我陆续搭建了公众号自动发布、小绿书内容生成，以及把小红书内容转换成小绿书等工作流和脚本。实际部署后，大家反馈了不少使用上的难点：
 

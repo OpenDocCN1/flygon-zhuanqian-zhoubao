@@ -1,6 +1,6 @@
 # 出海第1天：从岸上小白到海上独行 — 我的航海成长实录①
 
-> 来源：[https://scnsk912rm25.feishu.cn/docx/Bpk8djuaxoNMYdxkJzEcC4rxnbe](https://scnsk912rm25.feishu.cn/docx/Bpk8djuaxoNMYdxkJzEcC4rxnbe)
+
 
 出发前总觉得准备得差不多了，结果真正开船，各种稀奇古怪的问题还是把“充分准备”的念头打回原形。
 

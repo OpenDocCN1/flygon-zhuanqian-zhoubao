@@ -1,6 +1,6 @@
 # 用三天撬动抖音起号，四维彩超时光AI绘画赛道：百万播放背后的引流与变现全拆解
 
-> 来源：[https://tviaco1ik6k.feishu.cn/docx/JRawdxHJnoLJsQx2NCWcGAkNnVf](https://tviaco1ik6k.feishu.cn/docx/JRawdxHJnoLJsQx2NCWcGAkNnVf)
+
 
 # 一、我是谁，以及为什么入局这个赛道
 

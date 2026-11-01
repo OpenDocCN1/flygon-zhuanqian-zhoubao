@@ -1,6 +1,6 @@
 # 把手弄脏，真正下场 | 2025福州分享实录
 
-> 来源：[https://shengcaiyoushu01.feishu.cn/docx/P8ZWds59Yo64HXxSLbLcwTcGnwc](https://shengcaiyoushu01.feishu.cn/docx/P8ZWds59Yo64HXxSLbLcwTcGnwc)
+
 
 各位好，我是坤汀，赚钱是有术龙哥的合伙人，也是今年福州场见面会的发起人。
 

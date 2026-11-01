@@ -1,6 +1,6 @@
 # 别再把人脉想成好友列表了，这其实是个误区
 
-> 来源：[https://zx8am088wt.feishu.cn/docx/Icxedehb4oAbxXxJOmbcVdVFnAA](https://zx8am088wt.feishu.cn/docx/Icxedehb4oAbxXxJOmbcVdVFnAA)
+
 
 人脉到底指什么？难道就是手机通讯录里那一长串名字？
 

@@ -1,6 +1,6 @@
 # 如何把一套两万块的定制指令调教出来
 
-> 来源：[https://fl2dhgx3i3.feishu.cn/docx/IpjydwIVwoC5xcxbUcoc90gcnlc](https://fl2dhgx3i3.feishu.cn/docx/IpjydwIVwoC5xcxbUcoc90gcnlc)
+
 
 今天把吃饭的绝活摊开讲，就是那套报价两万的定制指令，我到底是怎么把它喂出来的。
 

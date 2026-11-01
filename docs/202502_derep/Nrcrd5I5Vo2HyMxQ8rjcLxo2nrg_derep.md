@@ -1,6 +1,6 @@
 # 油管创作者必看！YouTube CEO 亲自划出2025年的四条主线
 
-> 来源：[https://rlwxa0zgke.feishu.cn/docx/Nrcrd5I5Vo2HyMxQ8rjcLxo2nrg](https://rlwxa0zgke.feishu.cn/docx/Nrcrd5I5Vo2HyMxQ8rjcLxo2nrg)
+
 
 前言：文章结构 1、油管CEO2025中文版报告 2、油管CEO2025中文版报告解读
 

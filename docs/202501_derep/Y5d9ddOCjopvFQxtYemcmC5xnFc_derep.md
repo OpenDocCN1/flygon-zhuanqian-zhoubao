@@ -1,6 +1,6 @@
 # 小白怎么从零启动一个赚钱的付费陪伴群
 
-> 来源：[https://dqez6wornz.feishu.cn/docx/Y5d9ddOCjopvFQxtYemcmC5xnFc](https://dqez6wornz.feishu.cn/docx/Y5d9ddOCjopvFQxtYemcmC5xnFc)
+
 
 我做了三年陪伴群，到现在更新了四百多篇笔记，变现累计大概在5万到7万之间。我不是大神，只是把自己从小白起步做群的实操经验摊开讲。如果你也零社群经验，却想试试做自己的付费群，这篇应该能帮你少走弯路。
 

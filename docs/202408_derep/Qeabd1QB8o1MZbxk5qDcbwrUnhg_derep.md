@@ -1,6 +1,6 @@
 # 8_2_写作项目规避AIGC审查的落地方法全拆解
 
-> 来源：[https://atbs4xk1uw.feishu.cn/docx/Qeabd1QB8o1MZbxk5qDcbwrUnhg](https://atbs4xk1uw.feishu.cn/docx/Qeabd1QB8o1MZbxk5qDcbwrUnhg)
+
 
 版本号：v3.01
 

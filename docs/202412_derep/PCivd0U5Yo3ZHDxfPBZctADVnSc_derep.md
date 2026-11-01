@@ -1,6 +1,6 @@
 # 别急着说公众号没戏了！科技号的红利还在，还能靠 AI 批量吃到流量
 
-> 来源：[https://i23vi4cvyf.feishu.cn/docx/PCivd0U5Yo3ZHDxfPBZctADVnSc](https://i23vi4cvyf.feishu.cn/docx/PCivd0U5Yo3ZHDxfPBZctADVnSc)
+
 
 嗨，我是柒，也有人叫我晓智。炼丹家AI工具的发起人，长期深耕 AI 写作、AI 绘画相关内容，累计服务用户超10万。
 

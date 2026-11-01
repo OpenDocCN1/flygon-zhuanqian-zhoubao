@@ -1,6 +1,6 @@
 我反复验证过的一套挑项目思路，帮我把几万块滚成了百万年收
 
-> 来源：[https://u16gtzbrexc.feishu.cn/docx/IZcwdkr5Xoe77bxau6lcJVsXnUg](https://u16gtzbrexc.feishu.cn/docx/IZcwdkr5Xoe77bxau6lcJVsXnUg)
+
 
 做内容这几年，总有人跑来问我：千易，你是怎么找到能赚钱的事的？说实话，我也不是天生就会，以前一样交过不少学费。一路跌跌撞撞，才慢慢摸出一点门道。如果你现在正发愁没方向，不知道哪儿有机会，或者试了很多回都没做成，那这篇值得你认真看完。
 

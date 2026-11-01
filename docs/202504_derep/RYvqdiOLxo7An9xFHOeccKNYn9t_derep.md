@@ -1,6 +1,6 @@
 # 《跟着航海找痛点，用 Cursor 拼出一个游戏站 iframe 抓取神器》
 
-> 来源：[https://ubmao208bn.feishu.cn/docx/RYvqdiOLxo7An9xFHOeccKNYn9t](https://ubmao208bn.feishu.cn/docx/RYvqdiOLxo7An9xFHOeccKNYn9t)
+
 
 大家好，我是这期 Web 编程航海的参与者。入圈三年有余，长文还是头一回发出来。今天这篇就是想把自己踩过的坑和做出来的东西分享给同一条船上的伙伴们，少说废话，直接上干货。
 

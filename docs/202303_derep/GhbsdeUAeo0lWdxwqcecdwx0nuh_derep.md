@@ -1,6 +1,6 @@
 # 用ChatGPT，把知乎好物推荐做成半自动流水线
 
-> 来源：[https://aqoyanyhfa.feishu.cn/docx/GhbsdeUAeo0lWdxwqcecdwx0nuh](https://aqoyanyhfa.feishu.cn/docx/GhbsdeUAeo0lWdxwqcecdwx0nuh)
+
 
 # 一、为什么要做这件事
 

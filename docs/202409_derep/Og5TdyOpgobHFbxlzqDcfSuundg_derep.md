@@ -1,6 +1,6 @@
 # 半天半：用 Cursor 和 AI 拼出来一个能用的小产品
 
-> 来源：[https://rxas35pmvn.feishu.cn/docx/Og5TdyOpgobHFbxlzqDcfSuundg](https://rxas35pmvn.feishu.cn/docx/Og5TdyOpgobHFbxlzqDcfSuundg)
+
 
 # 产品从哪里来
 

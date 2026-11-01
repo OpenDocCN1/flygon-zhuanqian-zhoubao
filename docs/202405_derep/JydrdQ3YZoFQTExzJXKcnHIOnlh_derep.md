@@ -1,6 +1,6 @@
 # 用41条指令搞定小红书养号，7天让账号权重悄悄起飞
 
-> 来源：[https://x0gnb2e1yj.feishu.cn/docx/JydrdQ3YZoFQTExzJXKcnHIOnlh](https://x0gnb2e1yj.feishu.cn/docx/JydrdQ3YZoFQTExzJXKcnHIOnlh)
+
 
 😁嗨，各位朋友，我是RPA研究院的商叁。今天这期内容，专门拆解一套面向小红书的自动化养号RPA方案，从零到一教你如何搭建。
 

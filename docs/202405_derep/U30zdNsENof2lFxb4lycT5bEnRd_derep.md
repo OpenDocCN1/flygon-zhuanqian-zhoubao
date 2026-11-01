@@ -1,6 +1,6 @@
 # 从大厂 P8 到 AI 自媒体：一个架构师如何用半年撬动 40 万+变现
 
-> 来源：[https://eqsdsj0h4eo.feishu.cn/docx/U30zdNsENof2lFxb4lycT5bEnRd](https://eqsdsj0h4eo.feishu.cn/docx/U30zdNsENof2lFxb4lycT5bEnRd)
+
 
 我叫大全，90 后两个孩子的爸爸。211 法学院毕业后自学转码，2015 年至今深耕 IT 编程与架构将近十年，前喜马拉雅架构师。
 

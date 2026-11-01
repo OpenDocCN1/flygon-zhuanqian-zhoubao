@@ -1,6 +1,6 @@
 # 把DeepSeek当成玄学水晶创业导师和命理助手，我一年做到200万营收
 
-> 来源：[https://r7weuqivm5.feishu.cn/docx/OJJsd880moeUPSxlVd7c5BchnVb](https://r7weuqivm5.feishu.cn/docx/OJJsd880moeUPSxlVd7c5BchnVb)
+
 
 先做个自我介绍，我是贾璐Luca，创业已经十年。
 

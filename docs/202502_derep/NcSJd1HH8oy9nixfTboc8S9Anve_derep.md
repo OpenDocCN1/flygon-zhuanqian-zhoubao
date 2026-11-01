@@ -1,6 +1,6 @@
 # 【航海复盘】两个月Shein实战：从跟船员到组长，我带队拿下月GMV 4.5万+，正在向星辰大海进发
 
-> 来源：[https://las1d27yuu.feishu.cn/docx/NcSJd1HH8oy9nixfTboc8S9Anve](https://las1d27yuu.feishu.cn/docx/NcSJd1HH8oy9nixfTboc8S9Anve)
+
 
 大家好，我是老横。这次来和大家分享一下Shein大航海的完整复盘。过往我主要深耕跨境营销，在这一块积累了一些经验，这次很荣幸能参与到航海项目里来。
 

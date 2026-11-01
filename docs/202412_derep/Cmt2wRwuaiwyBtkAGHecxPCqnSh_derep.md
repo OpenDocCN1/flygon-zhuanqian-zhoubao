@@ -1,6 +1,6 @@
 # 用标准撬动十倍增长：一个被低估的增长杠杆
 
-> 来源：[https://vy7zcdp134.feishu.cn/docx/GpxMdblYAoPONMxED3Xc4trinNn](https://vy7zcdp134.feishu.cn/docx/GpxMdblYAoPONMxED3Xc4trinNn)
+
 
 大家好，我是阿黎。本职工作就是做行业标准，广西标准化协会2020年建库时首批入库的专家，参与并主导过11项标准落地实施，对这件事有比较深的体感。
 

@@ -1,6 +1,6 @@
 # 用500块租来的40平小屋，我是怎么把自己做成稳定变现的小红书家居博主的
 
-> 来源：[https://p0962rpnyyw.feishu.cn/docx/YXIWdYygvoBVUnxrrEDcXHlEnce](https://p0962rpnyyw.feishu.cn/docx/YXIWdYygvoBVUnxrrEDcXHlEnce)
+
 
 # 这篇内容比较长，是我反复打磨出来的经验帖。我想用它告诉大家，如何借助自己现有的住处起步做家居博主，并最终实现持续性的变现。做博主没有先来后到，关键在于你什么时候开始行动。下面我会用零基础的角度，把做家居博主的底层逻辑拆开讲，希望你看完之后能有“原来家居也能这么玩”的顿悟。
 
@@ -19,7 +19,7 @@
 
 # 用500元租来的40㎡小屋，我是怎么把自己做成稳定变现的小红书家居博主的
 
-> 来源：[https://p0962rpnyyw.feishu.cn/docx/YXIWdYygvoBVUnxrrEDcXHlEnce](https://p0962rpnyyw.feishu.cn/docx/YXIWdYygvoBVUnxrrEDcXHlEnce)
+
 
 # 以下内容篇幅较长，是我长期沉淀后的实操分享。我希望能教会大家如何依托自己的居住空间起步做家居博主，并实现可长期变现的结果。做这件事没有所谓的最佳时机，决定权在你何时开始行动。下面我会从零基础视角出发，把家居博主的底层逻辑讲清楚，让你读完后产生“原来家居博主还能这样做”的感觉。
 

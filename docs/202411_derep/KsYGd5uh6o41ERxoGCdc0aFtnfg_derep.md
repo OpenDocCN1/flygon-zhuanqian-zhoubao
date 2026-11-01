@@ -1,6 +1,6 @@
 # 做一个很普通的短视频
 
-> 来源：[https://gida8fb9mrg.feishu.cn/docx/KsYGd5uh6o41ERxoGCdc0aFtnfg](https://gida8fb9mrg.feishu.cn/docx/KsYGd5uh6o41ERxoGCdc0aFtnfg)
+
 
 # 最终呈现
 

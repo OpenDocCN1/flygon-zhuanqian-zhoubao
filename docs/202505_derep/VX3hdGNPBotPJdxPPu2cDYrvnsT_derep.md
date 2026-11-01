@@ -1,6 +1,6 @@
 # 公众号做满一个月，一篇文章干到27万阅读，我把经验全盘托出
 
-> 原文出处：[https://parwc0x6nb.feishu.cn/docx/VX3hdGNPBotPJdxPPu2cDYrvnsT](https://parwc0x6nb.feishu.cn/docx/VX3hdGNPBotPJdxPPu2cDYrvnsT)
+
 
 大家好，我是刘同学。关注我比较久的朋友都清楚，4月1号之前我从没提过公众号这回事儿——毕竟以前没碰过，一窍不通，自然也聊不出什么干货。
 

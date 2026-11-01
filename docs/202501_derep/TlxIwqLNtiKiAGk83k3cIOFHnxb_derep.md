@@ -1,6 +1,6 @@
 # 主角光环不再是小说专利：用 AI 把王阳明的知行合一拆成可用的工作流
 
-> 来源：[https://aiawaken.feishu.cn/docx/X24DdCgI3oJ7JGxib14cVeYdnAb](https://aiawaken.feishu.cn/docx/X24DdCgI3oJ7JGxib14cVeYdnAb)
+
 
 嗨，我是周知
 

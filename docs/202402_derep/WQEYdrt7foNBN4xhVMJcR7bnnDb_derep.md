@@ -1,6 +1,6 @@
 # 复盘｜公众号爆文写作12月航海 · 结束后的继续航行指南
 
-> 来源：[https://y3my0b87ql.feishu.cn/docx/WQEYdrt7foNBN4xhVMJcR7bnnDb](https://y3my0b87ql.feishu.cn/docx/WQEYdrt7foNBN4xhVMJcR7bnnDb)
+
 
 12月航海收官都快两周了，你的手还在键盘上么？
 

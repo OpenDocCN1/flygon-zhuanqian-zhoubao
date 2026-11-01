@@ -1,6 +1,6 @@
 # 2024 年本地生活商家实操手册·终极版（赚钱专享）
 
-> 来源：[https://pegsoswrxe.feishu.cn/docx/T9ZndxNRyoEdtGxG1BwcxN04nRr](https://pegsoswrxe.feishu.cn/docx/T9ZndxNRyoEdtGxG1BwcxN04nRr)
+
 
 # 前言
 

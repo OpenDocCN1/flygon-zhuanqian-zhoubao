@@ -1,6 +1,6 @@
 # GitHub Copilot 使用指南
 
-> 来源：[https://sif8f6uboze.feishu.cn/docx/BzLFdNeVwopZkvxDM24cdLrVnTe](https://sif8f6uboze.feishu.cn/docx/BzLFdNeVwopZkvxDM24cdLrVnTe)
+
 
 # Copilot 究竟是什么
 

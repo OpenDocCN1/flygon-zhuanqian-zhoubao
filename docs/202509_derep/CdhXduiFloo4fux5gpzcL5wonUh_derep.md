@@ -1,6 +1,6 @@
 # 从零到九十七家，再到主动清盘：一个产品人视角的千万级连锁复盘
 
-> 来源：[https://ymcncqsd4u.feishu.cn/docx/CdhXduiFloo4fux5gpzcL5wonUh](https://ymcncqsd4u.feishu.cn/docx/CdhXduiFloo4fux5gpzcL5wonUh)
+
 
 ### 《四年把VR连锁做到全国前三，为何在最高点选择归零？》
 

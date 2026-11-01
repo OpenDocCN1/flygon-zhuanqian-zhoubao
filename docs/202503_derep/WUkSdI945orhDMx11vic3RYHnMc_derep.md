@@ -1,6 +1,6 @@
 # 用一套通用提示词模板，AI一键生成7类高质HTML：从PPT到交互组件
 
-> 来源：[https://ry6uq5vtyu.feishu.cn/docx/WUkSdI945orhDMx11vic3RYHnMc](https://ry6uq5vtyu.feishu.cn/docx/WUkSdI945orhDMx11vic3RYHnMc)
+
 
 Claude 3.7 在审美把握、SVG 绘制以及在线配图能力上的跃升，让近期涌现的 HTML 创作案例异常活跃。可问题也随之而来：每个示例的指令都繁复冗长，仿佛要反复打磨，且不同品类的 HTML 指令各不相同，学习成本很高。
 

@@ -1,6 +1,6 @@
 # 4周累计4万+收入！我0成本带100多名新手用AI做大众点评投稿实现首份变现
 
-> 来源：[https://zb30cprf4w.feishu.cn/docx/MEZZd1AmCow4k2xdS2gc64G5nEh](https://zb30cprf4w.feishu.cn/docx/MEZZd1AmCow4k2xdS2gc64G5nEh)
+
 
 # 开篇
 

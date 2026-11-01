@@ -1,6 +1,6 @@
 # 《从三次濒临倒闭到月销破百万，我们在抖音女装直播的实战笔记》
 
-> 来源：[https://shengcaiyoushu01.feishu.cn/docx/Cv1JdoQtGobPiVxSNglcTSBnn4f](https://shengcaiyoushu01.feishu.cn/docx/Cv1JdoQtGobPiVxSNglcTSBnn4f)
+
 
 # 正文
 

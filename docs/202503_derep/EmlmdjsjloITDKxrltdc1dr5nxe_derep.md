@@ -1,6 +1,6 @@
 # 一个摆摊自媒体账号，如何做到百万级变现
 
-> 来源：[https://ii2nqsn27p.feishu.cn/docx/EmlmdjsjloITDKxrltdc1dr5nxe](https://ii2nqsn27p.feishu.cn/docx/EmlmdjsjloITDKxrltdc1dr5nxe)
+
 
 赚钱的伙伴们好，我是成成。最近的精力都放在摆摊自媒体这条线上，边摆摊边拍短视频卖小吃配方。目前我们手上的几个小吃品类，都已经把对应培训号做到品类第一梯队。
 

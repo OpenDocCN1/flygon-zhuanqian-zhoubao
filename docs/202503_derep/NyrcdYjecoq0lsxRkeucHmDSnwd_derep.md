@@ -1,6 +1,6 @@
 # DY作品采集工具使用指南：偏向数据洞察的分析型软件
 
-> 来源：[https://da6r699qsri.feishu.cn/docx/NyrcdYjecoq0lsxRkeucHmDSnwd](https://da6r699qsri.feishu.cn/docx/NyrcdYjecoq0lsxRkeucHmDSnwd)
+
 
 #### 欢迎来到江湖数据、江湖工具箱旗下的 DY 采集工具。这款程序的定位是 DY 领域的数据拆解。
 

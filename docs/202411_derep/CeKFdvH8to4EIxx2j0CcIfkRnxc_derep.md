@@ -1,6 +1,6 @@
 # 写到让人拍案叫绝的产品文案，到底靠什么？
 
-> 来源：[https://mcn09clzx4g2.feishu.cn/docx/CeKFdvH8to4EIxx2j0CcIfkRnxc](https://mcn09clzx4g2.feishu.cn/docx/CeKFdvH8to4EIxx2j0CcIfkRnxc)
+
 
 练手 IP 两三个月，把一篇万字长文打磨出来，有人评价说放在万元付费区里也算顶尖水准。我是怎么做到的？
 

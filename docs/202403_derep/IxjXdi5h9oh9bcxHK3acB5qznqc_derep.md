@@ -1,6 +1,6 @@
 # 单号半年佣金破130万，新手进场视频号该怎么选赛道？
 
-> 来源：[https://vgn94ta1w5.feishu.cn/docx/IxjXdi5h9oh9bcxHK3acB5qznqc](https://vgn94ta1w5.feishu.cn/docx/IxjXdi5h9oh9bcxHK3acB5qznqc)
+
 
 大家好，我是阿豪。很久没出来更新了，今天就聊聊视频号当下的机会和打法。如果你也在关注这个赛道，这篇内容会帮你快速理清思路。
 

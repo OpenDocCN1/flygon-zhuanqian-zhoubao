@@ -1,6 +1,6 @@
 # 干货1.0｜用腾讯元宝/豆包解锁行业与公司调研，一键提升选择力
 
-> 原文来源：[https://vliajwma3m.feishu.cn/docx/IkHddPGoAocFz9xoskscbYK2nge](https://vliajwma3m.feishu.cn/docx/IkHddPGoAocFz9xoskscbYK2nge)
+
 
 先说三遍：
 

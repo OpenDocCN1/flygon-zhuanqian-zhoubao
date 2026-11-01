@@ -1,6 +1,6 @@
 # 5天全流程复盘，关于京东外卖项目的「指南/避坑」
 
-> 来源：[https://ox9k4rncex0.feishu.cn/docx/RUFidx1nNoGyZBxMIorctj56nRd](https://ox9k4rncex0.feishu.cn/docx/RUFidx1nNoGyZBxMIorctj56nRd)
+
 
 # 前言
 

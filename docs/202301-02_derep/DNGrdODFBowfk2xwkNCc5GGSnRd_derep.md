@@ -1,6 +1,6 @@
 # 把空气卖成产品：从需求钓鱼到做局变现的底层逻辑
 
-> 来源：[https://szzs4fdjd8.feishu.cn/docx/DNGrdODFBowfk2xwkNCc5GGSnRd](https://szzs4fdjd8.feishu.cn/docx/DNGrdODFBowfk2xwkNCc5GGSnRd)
+
 
 *   分享人：@小千哥
 

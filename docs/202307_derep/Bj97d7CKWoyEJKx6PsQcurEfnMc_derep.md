@@ -1,6 +1,6 @@
 # Google Ads 账号被封？我用 3 个月的实操，总结了这些避坑经验
 
-> 来源：[https://viuejh8h99y.feishu.cn/docx/Bj97d7CKWoyEJKx6PsQcurEfnMc](https://viuejh8h99y.feishu.cn/docx/Bj97d7CKWoyEJKx6PsQcurEfnMc)
+
 
 做 Google Ads 的人，最怕的就是凌晨起来看邮件，发现账号给封了。那种焦虑感，我太懂了。自己摸爬滚打了三个月，踩了不少坑，也攒了一些实战心得，今天一次性摊开讲给大家听。
 

@@ -1,6 +1,6 @@
 # 写公众号到现在，我才明白它真的可以当成一个养老项目
 
-> 来源：[https://ma0g2u36irl.feishu.cn/docx/THvFdFRzvooCF5xvZeecXFZUnuh](https://ma0g2u36irl.feishu.cn/docx/THvFdFRzvooCF5xvZeecXFZUnuh)
+
 
 最近状态很不错，有两件事让我挺有感触。
 

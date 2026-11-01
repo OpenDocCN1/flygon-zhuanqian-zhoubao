@@ -1,6 +1,6 @@
 # 从教育到保险，我用小红书半年0成本做到月均咨询5k+的复盘
 
-> 来源：[https://a7dillyimr.feishu.cn/docx/XttDdp7sDo4RltxwJVXcDFNrnkc](https://a7dillyimr.feishu.cn/docx/XttDdp7sDo4RltxwJVXcDFNrnkc)
+
 
 ## 一、个人背景
 

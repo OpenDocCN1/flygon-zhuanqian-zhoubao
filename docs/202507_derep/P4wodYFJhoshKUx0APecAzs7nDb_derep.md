@@ -1,6 +1,6 @@
 # 一键搬运对标号！用 Coze + 飞书多维表格自动抓取小红书作者和笔记全数据
 
-> 来源：[https://uixclcu6udc.feishu.cn/docx/P4wodYFJhoshKUx0APecAzs7nDb](https://uixclcu6udc.feishu.cn/docx/P4wodYFJhoshKUx0APecAzs7nDb)
+
 
 大家好，我是乔今，这次分享的是我正在深耕的 AI 效率提升与私域获客方向的第 3 篇实战笔记：《AI 工作流实战 | Coze 联动飞书多维表格，批量采集小红书博主账号与笔记数据》。
 

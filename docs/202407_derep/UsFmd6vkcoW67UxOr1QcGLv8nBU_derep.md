@@ -1,6 +1,6 @@
 # 从内耗到定位清晰：我用盖洛普优势测评给自己“做减法”
 
-> 来源：[https://m76za4xx2c.feishu.cn/docx/UsFmd6vkcoW67UxOr1QcGLv8nBU](https://m76za4xx2c.feishu.cn/docx/UsFmd6vkcoW67UxOr1QcGLv8nBU)
+
 
 大家好，我是凤娇。今天想把过去21天沉淀下来的心得摊开聊聊。
 

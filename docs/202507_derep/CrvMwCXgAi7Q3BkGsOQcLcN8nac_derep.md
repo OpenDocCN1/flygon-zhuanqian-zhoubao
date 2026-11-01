@@ -1,6 +1,6 @@
 # 单号十五天从千万级冲到上亿播放，我是怎么走过来的？
 
-> 来源：[https://evzhcmy02e.feishu.cn/docx/WeGidiN6boSwXPxYjFvcs5Bvn4e](https://evzhcmy02e.feishu.cn/docx/WeGidiN6boSwXPxYjFvcs5Bvn4e)
+
 
 # 开场
 

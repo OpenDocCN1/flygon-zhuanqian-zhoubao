@@ -1,6 +1,6 @@
 # YouTube未来的打法已经变了
 
-> 来源：[https://rlwxa0zgke.feishu.cn/docx/JTAwdmGDAoxODdxAdgmc36lwnR6](https://rlwxa0zgke.feishu.cn/docx/JTAwdmGDAoxODdxAdgmc36lwnR6)
+
 
 我是在2025年6月28号、29号跟着圈友哥飞跑活动，回头结合自己实操的经验，总结出YouTube接下来会怎么玩。
 

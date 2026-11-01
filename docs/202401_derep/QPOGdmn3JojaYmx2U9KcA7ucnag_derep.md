@@ -1,6 +1,6 @@
 # 私域做成人用品，一个月稳定过10万的完整打法拆解
 
-> 来源：[https://fc8b1fft88.feishu.cn/docx/QPOGdmn3JojaYmx2U9KcA7ucnag](https://fc8b1fft88.feishu.cn/docx/QPOGdmn3JojaYmx2U9KcA7ucnag)
+
 
 先问大家一个问题，如果现在让你进军情趣赛道，你会怎么选？
 A.开线下实体店；B.搞无人自助店；C.做淘宝京东这类电商；D.做私域小程序闭环

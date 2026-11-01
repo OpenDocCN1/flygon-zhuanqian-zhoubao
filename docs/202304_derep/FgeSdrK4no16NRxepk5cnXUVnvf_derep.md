@@ -1,6 +1,6 @@
 # 新人入局赚钱，我的实操笔记与避坑记录
 
-> 来源：[https://airv1tukxm.feishu.cn/docx/FgeSdrK4no16NRxepk5cnXUVnvf](https://airv1tukxm.feishu.cn/docx/FgeSdrK4no16NRxepk5cnXUVnvf)
+
 
 本文是我刚加入赚钱这几天，从体验、困惑到方法上的梳理，分为以下几个部分展开：
 

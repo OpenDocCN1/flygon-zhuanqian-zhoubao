@@ -1,6 +1,6 @@
 # 一套指令词，让AI帮你搞定小红书爆款？我整理了最完整的实操流程（价值3W）
 
-> 来源：[https://w194sny3eli.feishu.cn/docx/SVQddpNw5o1PCKx2MyXcCm2kncP](https://w194sny3eli.feishu.cn/docx/SVQddpNw5o1PCKx2MyXcCm2kncP)
+
 
 哈喽，我是枫晓陌，微软认证AI工程师。接下来一年，我打算用AI深入100个不同工作场景，带大家感受AI带来的效率革命。
 

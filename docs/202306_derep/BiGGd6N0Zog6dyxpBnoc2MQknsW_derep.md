@@ -1,6 +1,6 @@
 # 金税四期收紧后，电商老板该怎么自保？
 
-> 来源：[https://d2dfqmvn0e.feishu.cn/docx/BiGGd6N0Zog6dyxpBnoc2MQknsW](https://d2dfqmvn0e.feishu.cn/docx/BiGGd6N0Zog6dyxpBnoc2MQknsW)
+
 
 过去几年，税务监管的节奏明显提速。金税四期叠加严征管，“以数治税”已从概念变成日常操作。大数据监控网越织越密，网红主播被追缴巨额税款、直播电商与社交电商批量被查的新闻不断，财税隐患随时可能引爆。
 

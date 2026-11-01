@@ -1,6 +1,6 @@
 # 天涯神贴掘金实战复盘：从0到千人同飞的风口执行笔记
 
-> 来源：[https://ixj2n96xjg.feishu.cn/docx/HY99dPzghoqnTTxZYzJcisDgnxh](https://ixj2n96xjg.feishu.cn/docx/HY99dPzghoqnTTxZYzJcisDgnxh)
+
 
 # 第一部分 从双人验证到千人共跑
 

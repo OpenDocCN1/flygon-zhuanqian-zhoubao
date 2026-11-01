@@ -1,6 +1,6 @@
 # 借助 AI 提速写教案：从航海学习到实际交付
 
-> 来源：[https://icnlcuvvkj7r.feishu.cn/docx/YTvCd795oorrK4xMTVccUuDSnUb](https://icnlcuvvkj7r.feishu.cn/docx/YTvCd795oorrK4xMTVccUuDSnUb)
+
 
 ## 1. 我和 AI 写作的缘分
 

@@ -1,6 +1,6 @@
 # 微博优质创作计划资格拿下攻略
 
-> 来源：[https://gd7vhxq16l.feishu.cn/docx/Uj7hdsoMEo9vPXxhf81cmuWRnJf](https://gd7vhxq16l.feishu.cn/docx/Uj7hdsoMEo9vPXxhf81cmuWRnJf)
+
 
 各位好，我是亦小亮。最近后台很多人私信问我微博优质创作计划怎么入围，今天把我踩过的坑和实操方法一次性整理出来，供大家参考。
 

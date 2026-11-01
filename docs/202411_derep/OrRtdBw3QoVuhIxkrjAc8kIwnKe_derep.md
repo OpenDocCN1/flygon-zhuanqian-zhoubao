@@ -1,6 +1,6 @@
 # 看遍了无数赚钱教程，为什么钱包还是空的？答案只有一个：会变现的知识才算数
 
-> 来源：[https://o16m4rgdmt3.feishu.cn/docx/OrRtdBw3QoVuhIxkrjAc8kIwnKe](https://o16m4rgdmt3.feishu.cn/docx/OrRtdBw3QoVuhIxkrjAc8kIwnKe)
+
 
 这个世界到处都在谈钱，几乎每一篇推送、每一个群聊都在喊赚钱。标题一个比一个抓人：日入过万、月入十万，点进去像打开了一扇财富之门。可是刷完几百篇，真正能落到口袋里的又有几个？很多人就像在黑夜里被无数灯光晃眼，最后还是找不到归岸的路。
 

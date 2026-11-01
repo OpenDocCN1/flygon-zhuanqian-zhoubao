@@ -1,6 +1,6 @@
 # 抓住 AI 绘画这阵风，我现在月入 5 万+
 
-> 来源：[https://ovyhcgsmdu.feishu.cn/docx/Zjr6dgbHIoxcp0x21SVcrwlqn8d](https://ovyhcgsmdu.feishu.cn/docx/Zjr6dgbHIoxcp0x21SVcrwlqn8d)
+
 
 我尽量用最直白的方式把这件事讲透。
 

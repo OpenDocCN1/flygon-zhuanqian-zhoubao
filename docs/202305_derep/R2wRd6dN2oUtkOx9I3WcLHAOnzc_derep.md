@@ -1,6 +1,6 @@
 # 三天百万播放的AI小说推文拆解：新手0到1实操笔记
 
-> 来源：[https://ei8pv02rhq.feishu.cn/docx/R2wRd6dN2oUtkOx9I3WcLHAOnzc](https://ei8pv02rhq.feishu.cn/docx/R2wRd6dN2oUtkOx9I3WcLHAOnzc)
+
 
 ### 一、开场说明
 

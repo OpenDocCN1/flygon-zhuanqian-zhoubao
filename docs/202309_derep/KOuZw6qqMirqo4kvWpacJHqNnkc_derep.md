@@ -1,6 +1,6 @@
 # 13天跑通GPT写作全流程：一份可复制的7步SOP
 
-> 原文来源：[https://fieghf3pzz6.feishu.cn/docx/Xr3ddEQwXorWJpx9rcRcTZO1nXf](https://fieghf3pzz6.feishu.cn/docx/Xr3ddEQwXorWJpx9rcRcTZO1nXf)
+
 
 【昵称】AI 同行侠-文卓
 

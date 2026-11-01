@@ -1,6 +1,6 @@
 # 自由职业卡在瓶颈，如何做一个小而美的“一人公司”，用团队杠杆撬出百万利润
 
-> 来源：[https://fcjmogm9bc.feishu.cn/docx/Lc3ydCiAbo1MFWx2Z3acoKktnsd](https://fcjmogm9bc.feishu.cn/docx/Lc3ydCiAbo1MFWx2Z3acoKktnsd)
+
 
 ![](img/92c1a1b9dba9d7c88fc2686814f4a007.png)
 

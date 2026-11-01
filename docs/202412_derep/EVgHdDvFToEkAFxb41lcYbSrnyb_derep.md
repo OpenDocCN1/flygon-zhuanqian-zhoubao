@@ -1,6 +1,6 @@
 # 三场视频号直播撬动200万，区域实体门店实现十倍增长
 
-> 来源：[https://aso41gpxhm.feishu.cn/docx/EVgHdDvFToEkAFxb41lcYbSrnyb](https://aso41gpxhm.feishu.cn/docx/EVgHdDvFToEkAFxb41lcYbSrnyb)
+
 
 最近服务了一个区域连锁的实体品牌，把旗下三个片区的门店串联起来做了三场视频号直播，全程借助AI提效。
 

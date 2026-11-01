@@ -1,6 +1,6 @@
 # 用 DeepSeek 给自己造一支 AI 小团队
 
-> 来源：[https://fhfh1eo8ab.feishu.cn/docx/DMTndwEdsovgJ1xA3DBc1OrRneb](https://fhfh1eo8ab.feishu.cn/docx/DMTndwEdsovgJ1xA3DBc1OrRneb)
+
 
 ## 开场白
 

@@ -1,6 +1,6 @@
 # 别把年会当成行政任务：一次操盘，把人心盘活，明年自然爆发
 
-> 来源：[https://sv5wqvnml89.feishu.cn/docx/Vg6Ldm6sjo5CRZxcaKPcqxBhnOc](https://sv5wqvnml89.feishu.cn/docx/Vg6Ldm6sjo5CRZxcaKPcqxBhnOc)
+
 
 距离年末还有大概两个月，市面上一片年会筹备声。不少创始人把这件事直接甩给行政，自己只打算年关露面颁个奖就走，实则把全年最好的情绪收口机会拱手让人。年会一年一回，是老板真正能站C位、把团队情绪拧成一股绳的时刻。必须亲自挂帅，把时间精力押上去。
 

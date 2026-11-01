@@ -1,6 +1,6 @@
 # 零基础0代码，用AI搞定小红书爆款内容采集
 
-> 来源：[https://b16xnqwk20.feishu.cn/docx/DQqvdWm7ToGbfYxv0SKc4CwjnQe](https://b16xnqwk20.feishu.cn/docx/DQqvdWm7ToGbfYxv0SKc4CwjnQe)
+
 
 新年好！先来个喜庆的开场。大家好，我是宋老师，ID就是宋老师帮你做课。过去三年我带过的知识付费赛道创作者超过2万，靠多平台多账号矩阵沉淀了将近10万私域。
 

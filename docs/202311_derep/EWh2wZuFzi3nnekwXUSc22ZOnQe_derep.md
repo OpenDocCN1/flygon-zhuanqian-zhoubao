@@ -1,6 +1,6 @@
 # 1000+单小报童3天达成：我们是怎么把共创、分销和交付跑通的
 
-> 来源：[https://duuxkmjwsy.feishu.cn/docx/R1PRd45cnoLYnzx1SNPcyJXQnpg](https://duuxkmjwsy.feishu.cn/docx/R1PRd45cnoLYnzx1SNPcyJXQnpg)
+
 
 大家好，我是玩赚合伙人来来。设计从业20年，教学10年，正在担任玩赚12月AI绘画训练营教练，也在龙哥盟、破局俱乐部担任AI绘画航海教练，是AI探索家成员、AI绘画图书作者、长江商学院特邀讲师、阿里巴巴集团银牌淘拍档。
 

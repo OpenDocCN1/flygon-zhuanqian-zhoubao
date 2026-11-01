@@ -1,6 +1,6 @@
 # 一个普通人公众号日更1000天的写作方法论
 
-> 来源：[https://fp22b5b6ot.feishu.cn/docx/IRnqd3xQZoqeugxTwtocspz7nCb](https://fp22b5b6ot.feishu.cn/docx/IRnqd3xQZoqeugxTwtocspz7nCb)
+
 
 大家好，我是正记录Beta。曾是程序员，现全职自由两年多，目前主攻「1对1脱单陪跑」，陪你开启甜甜的恋爱。
 

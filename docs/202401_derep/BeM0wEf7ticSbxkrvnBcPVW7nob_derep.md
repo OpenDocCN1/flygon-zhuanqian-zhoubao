@@ -1,6 +1,6 @@
 # 小红书做送礼号，到底能不能赚钱？——罗破帽拆解
 
-> 来源：[https://rtsb53rqg1.feishu.cn/docx/GpUFdhNBloHZQzx1jUJcGJnCnxd](https://rtsb53rqg1.feishu.cn/docx/GpUFdhNBloHZQzx1jUJcGJnCnxd)
+
 
 # 一、供需两端都在放量
 

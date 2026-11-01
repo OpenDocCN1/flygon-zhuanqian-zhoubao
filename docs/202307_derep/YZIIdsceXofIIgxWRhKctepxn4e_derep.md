@@ -1,6 +1,6 @@
 # 美团二类医疗店群：八个月从零到月赚三十万，我的慢速复盘
 
-> 来源：[https://e8bqmagdu0.feishu.cn/docx/YZIIdsceXofIIgxWRhKctepxn4e](https://e8bqmagdu0.feishu.cn/docx/YZIIdsceXofIIgxWRhKctepxn4e)
+
 
 赚钱的伙伴们好，我是木格。今天把我们美团这条路的真实走法摊开讲讲。过去八个月，从起步到现在月度利润稳定在三十万以上，是怎么一步步走过来的，哪些坑踩过，哪些选择坚持了。【文末会附上运营思路和开店流程】
 

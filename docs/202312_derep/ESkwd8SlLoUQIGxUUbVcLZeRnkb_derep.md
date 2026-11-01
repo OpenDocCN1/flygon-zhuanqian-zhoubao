@@ -1,6 +1,6 @@
 # 月入上万的快手磁力聚星，新手照抄就能跑
 
-> 来源：[https://dte8en3l2y.feishu.cn/docx/ESkwd8SlLoUQIGxUUbVcLZeRnkb](https://dte8en3l2y.feishu.cn/docx/ESkwd8SlLoUQIGxUUbVcLZeRnkb)
+
 
 这篇干货是专门写给零基础小白的，思路我已经拆到极致，你只管照做补位就行。
 

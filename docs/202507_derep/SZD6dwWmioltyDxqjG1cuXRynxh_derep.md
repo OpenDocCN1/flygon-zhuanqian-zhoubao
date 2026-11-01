@@ -1,6 +1,6 @@
 # 用一个物理公式，把创业的成败算清楚
 
-> 来源：[https://ly5achi80l.feishu.cn/docx/SZD6dwWmioltyDxqjG1cuXRynxh](https://ly5achi80l.feishu.cn/docx/SZD6dwWmioltyDxqjG1cuXRynxh)
+
 
 有没有一套可以贯穿创业全流程的决策方法？
 

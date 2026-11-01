@@ -1,6 +1,6 @@
 # 00后女生如何靠AI写作做到月入十万：写作方法拆解（仅限内容创作，不谈分发）
 
-> 来源：[https://lv9qj6hfr4z.feishu.cn/docx/QrELdRNJkobfqIxNgC9cnMuNnyh](https://lv9qj6hfr4z.feishu.cn/docx/QrELdRNJkobfqIxNgC9cnMuNnyh)
+
 
 ### 教育类文章的AI指令用法【6.9 补充】
 

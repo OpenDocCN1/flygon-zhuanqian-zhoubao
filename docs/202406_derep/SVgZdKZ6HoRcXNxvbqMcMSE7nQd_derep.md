@@ -1,6 +1,6 @@
 # 把握信息差的考试资料赛道，小红书引流到私域的一整套打法
 
-> 来源：[https://o0yvn3o31a.feishu.cn/docx/SVgZdKZ6HoRcXNxvbqMcMSE7nQd](https://o0yvn3o31a.feishu.cn/docx/SVgZdKZ6HoRcXNxvbqMcMSE7nQd)
+
 
 大家好，我是黄岛主。
 

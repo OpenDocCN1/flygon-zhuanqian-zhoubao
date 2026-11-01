@@ -1,6 +1,6 @@
 # 我是如何用一个 AI 测试小程序拿到第一桶金的
 
-> 来源：[https://htjxcky601.feishu.cn/docx/IBgodjmBjoZyZMxzllHc8UKXnPe](https://htjxcky601.feishu.cn/docx/IBgodjmBjoZyZMxzllHc8UKXnPe)
+
 
 有没有那种无聊刷手机时冒出的灵感，最后却意外变现的经历？我就有一次。
 

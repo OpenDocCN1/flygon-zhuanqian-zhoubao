@@ -1,6 +1,6 @@
 # 冷门赛道闷声赚：给输入法做“换皮”生意，流量的长尾正在被收割
 
-> 来源：[https://ib7ibjauw4.feishu.cn/docx/ERhcdOeiNoIhFPx90rtc6f7lnuh](https://ib7ibjauw4.feishu.cn/docx/ERhcdOeiNoIhFPx90rtc6f7lnuh)
+
 
 背景：本文首次发布于AI探索家新牛马之光第四期项目组。全部内容由Penny调研并撰写。
 

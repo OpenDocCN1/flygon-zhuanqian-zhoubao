@@ -1,6 +1,6 @@
 # 从零起盘电商，如何真的跑起来
 
-> 来源：[https://qingling21.feishu.cn/docx/ZTobd06Zzod1xNxOwKvc1oTznFb](https://qingling21.feishu.cn/docx/ZTobd06Zzod1xNxOwKvc1oTznFb)
+
 
 大家好，我是老瞿Qu。今天就用我做了两年的闲鱼二手书实战经验，来拆解一下一个电商项目从0到1到底怎么起量。
 

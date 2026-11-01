@@ -1,6 +1,6 @@
 # 从零到30天变现5万+，我用禅修文旅把小红书做成了变现机器
 
-> 来源：[https://b3k2jeijqy.feishu.cn/docx/G3HFd8l1xoK63SxEB7lcCwrInRD](https://b3k2jeijqy.feishu.cn/docx/G3HFd8l1xoK63SxEB7lcCwrInRD)
+
 
 ## 一、我是谁，为什么选小红书
 

@@ -1,6 +1,6 @@
 # 万物皆可成剧本，借对手直播快速起量指南
 
-> 来源：[https://kkehvdiodf.feishu.cn/docx/IvRMdAOWmoQzO3x1SD4ct8t5n5b](https://kkehvdiodf.feishu.cn/docx/IvRMdAOWmoQzO3x1SD4ct8t5n5b)
+
 
 # 手播间怎么把竞品打法抄过来用
 

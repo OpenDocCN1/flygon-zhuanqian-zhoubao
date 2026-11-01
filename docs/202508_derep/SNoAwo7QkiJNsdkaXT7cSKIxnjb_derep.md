@@ -1,6 +1,6 @@
 # 赚钱小白 5天跑通小红书小说带货0到1 全流程拆解
 
-> 来源：[https://jcn4pvtuwhaq.feishu.cn/docx/TlZodgqq3oys4cxd9u3cYCzzn3g](https://jcn4pvtuwhaq.feishu.cn/docx/TlZodgqq3oys4cxd9u3cYCzzn3g)
+
 
 大家好，我是Dustin，昵称达斯汀，99年，广东中山人。
 

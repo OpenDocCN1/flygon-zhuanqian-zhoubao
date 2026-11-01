@@ -1,6 +1,6 @@
 # 龙哥盟 0919 会员日 | 年度好书圈友共推合集
 
-> 来源：[https://ivqd5pmg5of.feishu.cn/docx/JiP3d1ajnoSx7gxq2bsc9xx0n5b](https://ivqd5pmg5of.feishu.cn/docx/JiP3d1ajnoSx7gxq2bsc9xx0n5b)
+
 
 会员日刚落下帷幕，圈友们的年度书单已经开始集中火力汇总了。因为微信读书单本上限卡在 500 本，这次的推荐总量直接拆成了多个清单同步进行。
 

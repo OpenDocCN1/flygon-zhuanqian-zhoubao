@@ -1,6 +1,6 @@
 # 条形马：从数字博弈的创业，到自我生长的有机状态
 
-> 来源：[https://cakdtk71pix.feishu.cn/docx/ImptdtPF1o6jeSxlDPrck9kfnch](https://cakdtk71pix.feishu.cn/docx/ImptdtPF1o6jeSxlDPrck9kfnch)
+
 
 嘉宾：条形马，连续创业者、写作者。
 

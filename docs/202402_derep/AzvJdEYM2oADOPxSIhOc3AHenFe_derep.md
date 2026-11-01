@@ -1,6 +1,6 @@
 # 第一次尝试知识付费就做到月入过万，我的5点实战复盘
 
-> 来源：[https://mjizjbkmh8.feishu.cn/docx/AzvJdEYM2oADOPxSIhOc3AHenFe](https://mjizjbkmh8.feishu.cn/docx/AzvJdEYM2oADOPxSIhOc3AHenFe)
+
 
 赚钱的伙伴们好，我是智慧，目前大三在读飞行员，副业做闲鱼iPad电商运营，也在带iPad电商私教陪跑。十月、十一月，受赚钱邀请发了在赚钱的第一篇精华帖后，顺势推出了年度知识社群和首期私教服务。社群招满90人，私教首期收了20位，知识付费单月营收就破万了。
 

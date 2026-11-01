@@ -1,6 +1,6 @@
 # 上次拆解单号自然流月入1.8万的身心灵国学变现后，收到一波圈友落地反馈，我把他们的实操结果提炼成了这套做项目的思维和打法
 
-> 来源：[https://m7vzu30d1s.feishu.cn/docx/JP6NdRwz8oycMdxSTs3cTTX5nrg](https://m7vzu30d1s.feishu.cn/docx/JP6NdRwz8oycMdxSTs3cTTX5nrg)
+
 
 ## 一、前言
 

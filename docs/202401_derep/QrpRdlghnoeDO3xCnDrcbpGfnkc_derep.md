@@ -1,6 +1,6 @@
 # 风向标拆解第2期——TikTok海外红人还有戏吗？Choco视角
 
-> 来源：[https://opdmf8eocv.feishu.cn/docx/QrpRdlghnoeDO3xCnDrcbpGfnkc](https://opdmf8eocv.feishu.cn/docx/QrpRdlghnoeDO3xCnDrcbpGfnkc)
+
 
 社交浪潮之下，TikTok已成为海外最具爆发力的内容阵地之一。其短视频形态和全球化分发能力，让创作者得以跨越国界与不同文化背景的观众产生连接。平台上，众多海外红人靠差异化内容吸粉过百万，热度视频更在无形中左右着用户的购买选择。相较传统投放，红人营销以高互动、低成本著称，既能为独立站导来精准流量，也是品牌信任背书的重要来源。
 

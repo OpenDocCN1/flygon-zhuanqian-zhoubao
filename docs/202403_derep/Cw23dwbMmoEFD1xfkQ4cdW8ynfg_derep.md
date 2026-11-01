@@ -1,6 +1,6 @@
 # 数字人书单带货能不能做？怎么做出能卖的？一套完整实操流程拆给你
 
-> 来源：[https://pe3zzbrwvl.feishu.cn/docx/Cw23dwbMmoEFD1xfkQ4cdW8ynfg](https://pe3zzbrwvl.feishu.cn/docx/Cw23dwbMmoEFD1xfkQ4cdW8ynfg)
+
 
 此文档仅供赚钱内部交流学习使用，侵权倒卖、非法传播一律追究法律责任。咨询/举报微信：jingdu2024
 

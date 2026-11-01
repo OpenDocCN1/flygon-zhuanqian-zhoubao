@@ -914,7 +914,7 @@ curl -X POST http://www.ainotecard.com/api/cards \
 
 获取所有卡片：
 curl -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3ZTdGVzdHVzZXIiLCJpYXQiOjE3NDI5MTcxMDIsImV4cCI6MTc0NTUwOTEwMn0.56xTLFmO6nz9E_j0kBuWlWfrogux_ZQRpsCbGBOiI4U" \
->   http://www.ainotecard.com/api/cards
+
 [{"_id":"67e2cf29fb5860cda98adc29","user":"67e2cdd6fb5860cda98adc26","title":"测试卡片","content":"这是一个测试卡片的内容","tags":["测试","示例"],"category":"未分类","isAIGenerated":false,"createdAt":"2025-03-25T15:43:37.241Z","updatedAt":"2025-03-25T15:43:37.242Z","__v":0}]
 
 使用AI生成卡片的命令如下：

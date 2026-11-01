@@ -1,6 +1,6 @@
 # 视频号做知识付费，如何在周期里做成一门稳定生意
 
-> 来源：[https://fu92l5vu3n.feishu.cn/docx/OgF5du89qoxX4qxj2DGchnFknNh](https://fu92l5vu3n.feishu.cn/docx/OgF5du89qoxX4qxj2DGchnFknNh)
+
 
 大家好，我是耿一凡，苏州在做项目的98年创业者。
 

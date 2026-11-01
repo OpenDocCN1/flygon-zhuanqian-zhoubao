@@ -1,6 +1,6 @@
 # 0订单三个月后，我靠一张“减法”牌，把新西兰旅游盘活了
 
-> 来源：[https://tnqr6xnium.feishu.cn/docx/NM57dMnudoVU41xev4ecjpa3nge](https://tnqr6xnium.feishu.cn/docx/NM57dMnudoVU41xev4ecjpa3nge)
+
 
 我是易寒，一个在新西兰安了家的旅游创业者。在圈子里也算老面孔了，给赚钱航海当过小红书教练，写过三篇还算拿得出手的分享：
 

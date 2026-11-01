@@ -1,6 +1,6 @@
 # 快手数字人带货付费单品打爆实操全流程
 
-> 来源：[https://s94d3ho0dr.feishu.cn/docx/N510dMHW4os001xx6KOcqmfQneg](https://s94d3ho0dr.feishu.cn/docx/N510dMHW4os001xx6KOcqmfQneg)
+
 
 大家好，我是迪伟，先简单做个自我介绍。
 

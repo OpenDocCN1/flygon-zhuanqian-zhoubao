@@ -1,6 +1,6 @@
 # 8.14直播【新人做网站，一周快速变现】
 
-> 来源：[https://c109zlmg0zn.feishu.cn/docx/YER6d0JqFovIJ9xP0gPcF6zTnWf](https://c109zlmg0zn.feishu.cn/docx/YER6d0JqFovIJ9xP0gPcF6zTnWf)
+
 
 # 一、我是谁，先自我介绍一下
 

@@ -1,6 +1,6 @@
 # 航海常见问答整理
 
-> 资料来源：[https://gcnig3i8358l.feishu.cn/docx/PLeed8vUcoBjK3xvL5cc31tHnrg](https://gcnig3i8358l.feishu.cn/docx/PLeed8vUcoBjK3xvL5cc31tHnrg)
+
 
 ## 一个更轻量、也更好用的版本
 

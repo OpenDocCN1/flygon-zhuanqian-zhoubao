@@ -1,6 +1,6 @@
 # 5 天 800+ 收益，外卖 CPS 新手从零起号实战复盘
 
-> 来源：[https://pcndievlt02e.feishu.cn/docx/OK4ndaX2HoiE6lxVgoIc7YLUnpb](https://pcndievlt02e.feishu.cn/docx/OK4ndaX2HoiE6lxVgoIc7YLUnpb)
+
 
 # 写在前面
 

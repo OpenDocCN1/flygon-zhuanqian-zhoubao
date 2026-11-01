@@ -1,6 +1,6 @@
 # 一个人3个月做到300万的销冠，把15年销售经验浓缩成6个关键点
 
-> 来源：[https://e0d1s6n90do.feishu.cn/docx/Glf4dOmSjo6T9SxM6hzcW5llnie](https://e0d1s6n90do.feishu.cn/docx/Glf4dOmSjo6T9SxM6hzcW5llnie)
+
 
 嗨，我是糖糖。
 

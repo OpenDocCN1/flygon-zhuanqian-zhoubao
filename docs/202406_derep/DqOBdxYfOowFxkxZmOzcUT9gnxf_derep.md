@@ -1,6 +1,6 @@
 # 两周3500+订阅，近10万GMV：一次小报童爆款发售的完整复盘
 
-> 来源：[https://eqsdsj0h4eo.feishu.cn/docx/DqOBdxYfOowFxkxZmOzcUT9gnxf](https://eqsdsj0h4eo.feishu.cn/docx/DqOBdxYfOowFxkxZmOzcUT9gnxf)
+
 
 大家好，我是大全。90后两个孩子的爸爸，曾经的BAT大厂架构师，现在是AI万人实操教练。入行AI不到90天就做到月入10万，AI自媒体全网粉丝3万，累计付费学员超5000人，半年副业流水接近40万。
 

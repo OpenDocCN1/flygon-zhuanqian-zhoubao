@@ -1,6 +1,6 @@
 # 把一所大学变成你的现金流：校园墙玩法全拆解
 
-> 来源：[https://hx0exm7xfp9.feishu.cn/docx/WGg5d1uMyoX6mtxDf1kcYZLBnLe](https://hx0exm7xfp9.feishu.cn/docx/WGg5d1uMyoX6mtxDf1kcYZLBnLe)
+
 
 赚钱的各位朋友大家好，我是去年11月才加入赚钱的新人。翻了很多精华帖，关于校园这块的实操分享却很少。今天就把我这几年在高校里做的校园墙/表白墙项目拆给大家。
 

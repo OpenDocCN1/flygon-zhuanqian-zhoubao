@@ -1,6 +1,6 @@
 # 从关掉七家店到年入千万，二手手机这条路他是怎么走出来的？
 
-> 来源：[https://vfqxua5lvd.feishu.cn/docx/JQ0odvpOLo4JQxxNiQ5cDBqSnWc](https://vfqxua5lvd.feishu.cn/docx/JQ0odvpOLo4JQxxNiQ5cDBqSnWc)
+
 
 ## 零：开场
 

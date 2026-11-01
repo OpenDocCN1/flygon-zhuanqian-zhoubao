@@ -1,6 +1,6 @@
 # 深度拆解：当编程被智能接管，工程化如何成为关键
 
-> 来源：[https://chaojifeng.feishu.cn/docx/ROKgdTmcmoxholx2lpkcL8SJndd](https://chaojifeng.feishu.cn/docx/ROKgdTmcmoxholx2lpkcL8SJndd)
+
 
 大家好，我是超级峰，目前在北京这边蛰伏，身份是一个名不见经传的产品负责人。
 

@@ -1,6 +1,6 @@
 # 我的 AI 实战心得，有干货也有坑
 
-> 来源：[https://p28ciwe7j6.feishu.cn/docx/ADOudD4mro850nxyMnfcmxt6nlu](https://p28ciwe7j6.feishu.cn/docx/ADOudD4mro850nxyMnfcmxt6nlu)
+
 
 大家好，今天就跟大家分享一下我这些年折腾 AI 项目的真实经历，每一条都是踩过坑、赚过钱才总结出来的。
 

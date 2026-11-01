@@ -1,6 +1,6 @@
 # 农村夜晚治愈怀旧风，视频号从剪辑到赚钱全流程拆解
 
-> 来源：[https://o0yvn3o31a.feishu.cn/docx/JF6hdR8fhoYAGwx3aI5cAIm1nst](https://o0yvn3o31a.feishu.cn/docx/JF6hdR8fhoYAGwx3aI5cAIm1nst)
+
 
 大家好，我是黄岛主。
 

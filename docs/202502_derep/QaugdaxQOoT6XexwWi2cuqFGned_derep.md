@@ -1,6 +1,6 @@
 # Temu半托管玩法全拆解：从入场逻辑到落地实操
 
-> 来源：[https://ecnc60ezdxic.feishu.cn/docx/QaugdaxQOoT6XexwWi2cuqFGned](https://ecnc60ezdxic.feishu.cn/docx/QaugdaxQOoT6XexwWi2cuqFGned)
+
 
 Hello，各位赚钱圈的朋友，新年好！我是Darren。这两年Temu热度一直很高，今天就结合我们团队的真实经历，跟大家聊聊Temu半托管这个模式的底层逻辑，希望能给正在观望的朋友一些参考。
 

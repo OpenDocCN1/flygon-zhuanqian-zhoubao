@@ -1,6 +1,6 @@
 # 借势《黑神话：悟空》7天起盘，40位美金合伙人入场，营收34000+，我把一个游戏服务赛道做到平台TOP1
 
-> 来源：[https://zyr90ttkjb.feishu.cn/docx/To8Cdv7VuopfuSxWnc3cNGG8nRf](https://zyr90ttkjb.feishu.cn/docx/To8Cdv7VuopfuSxWnc3cNGG8nRf)
+
 
 赚钱的伙伴们好，我是凳子哥，目前在做跨境电商自选超市和美金变现工作室。
 

@@ -1,6 +1,6 @@
 # 闲鱼虚拟资料到底能不能零成本变现？一个地产人从零到1600元的实操复盘
 
-> 来源：[https://ncnxi4u4wp2p.feishu.cn/docx/LertdZZ2EobRWuxtnzec1xqBnRp](https://ncnxi4u4wp2p.feishu.cn/docx/LertdZZ2EobRWuxtnzec1xqBnRp)
+
 
 大家好，我是南星。
 

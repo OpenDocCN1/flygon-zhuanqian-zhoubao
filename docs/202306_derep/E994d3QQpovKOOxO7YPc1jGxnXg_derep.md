@@ -1,6 +1,6 @@
 # 错过一次平台红利，就等于错过一波躺赚的窗口
 
-> 来源：[https://xsej9se9cv.feishu.cn/docx/E994d3QQpovKOOxO7YPc1jGxnXg](https://xsej9se9cv.feishu.cn/docx/E994d3QQpovKOOxO7YPc1jGxnXg)
+
 
 「所有最容易赚钱的时机，都是平台在放量做数据的时候。那段时间基本就是捡钱，挂个链接就能成交」
 

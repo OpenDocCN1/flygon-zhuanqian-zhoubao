@@ -1,6 +1,6 @@
 # 60台手机换来4869个精准客资：小红书矩阵废号流全复盘
 
-> 来源：[原始链接](https://qxgrvndnbk.feishu.cn/docx/ZyHudga8iojiknxtn80cxwGJnTb)
+
 
 我是更绪，长期深耕小红书。年初给自己立了个规矩：2025年在社区输出10篇高质量实操文，这是第二篇。
 

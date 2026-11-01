@@ -1,6 +1,6 @@
 # 《月薪6000，离职三年赚到七位数：普通人的小成本事业实操》
 
-> 来源：https://pszs5i3hhd.feishu.cn/docx/P1j7d7k7eoLqDGxuZP3c3TjBnHf
+
 
 # 【我是谁】
 

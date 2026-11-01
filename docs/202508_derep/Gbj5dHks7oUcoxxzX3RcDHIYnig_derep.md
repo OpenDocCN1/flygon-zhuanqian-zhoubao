@@ -1,6 +1,6 @@
 # 从零起步学AI的公开养成记：无代码背景，我是怎么一路实操把AI变现、做产品的？
 
-> 来源：[https://shengcaiyoushu01.feishu.cn/docx/Gbj5dHks7oUcoxxzX3RcDHIYnig](https://shengcaiyoushu01.feishu.cn/docx/Gbj5dHks7oUcoxxzX3RcDHIYnig)
+
 
 大家好，我是赚钱内容负责人七天，也给自己起了个外号叫学习AI练习生七天可AI多。很久没有复盘自己的AI学习日常了。
 

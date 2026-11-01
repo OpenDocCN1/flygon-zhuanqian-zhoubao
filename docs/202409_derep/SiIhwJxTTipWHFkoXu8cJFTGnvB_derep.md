@@ -1,6 +1,6 @@
 # 用饿了么拉新副业，我是怎么做到每月稳定5k的
 
-> 来源：[https://fcnzyo4fd2j9.feishu.cn/docx/UL6kdEqiEoQmSrxmwVQcaKtGnwe](https://fcnzyo4fd2j9.feishu.cn/docx/UL6kdEqiEoQmSrxmwVQcaKtGnwe)
+
 
 相信很多人逛奶茶店、华莱士、网吧这类地方时，都遇到过饿了么的地推小姐姐。她们开口第一句话通常是：帅哥美女，手机用没用过饿了么？或者最近一年点过外卖吗？如果回答没用过，就会让你下载注册，说新用户可以免费帮你点一杯奶茶、一个汉堡。
 

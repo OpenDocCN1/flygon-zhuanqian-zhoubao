@@ -1,6 +1,6 @@
 # 让每一笔投放都花得明白：小红书聚光引流实战笔记
 
-> 来源：[https://ht16ej1tui.feishu.cn/docx/EH1xdsKsWov8KYxHCticAU9Wn3d](https://ht16ej1tui.feishu.cn/docx/EH1xdsKsWov8KYxHCticAU9Wn3d)
+
 
 大家好，我是ivy酱，长期在小红书做矩阵运营。目前手上十几个号都在跑聚光投放，我这边的私信成本能稳定在10元左右一条，同行普遍要花30-60元一条。如果你也在找一条既安全又省钱的小红书引流路子，这篇干货应该能帮你少踩坑。
 

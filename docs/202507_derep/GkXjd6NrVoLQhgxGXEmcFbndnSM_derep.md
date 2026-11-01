@@ -1,6 +1,6 @@
 # 用 Cursor 一把做成飞书字段捷径插件：跳过 Coze 资源点限制的完整实操
 
-> 来源：[https://vpbq24ngx4.feishu.cn/docx/GkXjd6NrVoLQhgxGXEMcFbndnSM](https://vpbq24ngx4.feishu.cn/docx/GkXjd6NrVoLQhgxGXEmcFbndnSM)
+
 
 # 前言
 

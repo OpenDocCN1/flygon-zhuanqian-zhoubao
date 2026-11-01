@@ -1,6 +1,6 @@
 # 30天入门YouTube美元项目：一份面向新手的AI工具与自动化实践指南
 
-> 来源：[https://txt6wm3b04b.feishu.cn/docx/L5KXdFjhdoLhguxFpqZceXD8nSd](https://txt6wm3b04b.feishu.cn/docx/L5KXdFjhdoLhguxFpqZceXD8nSd)
+
 
 大家好，我是越越。
 

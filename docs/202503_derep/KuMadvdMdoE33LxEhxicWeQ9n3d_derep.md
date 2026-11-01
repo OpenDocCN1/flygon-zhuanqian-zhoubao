@@ -1,6 +1,6 @@
 # 用 Claude 3.7 做可视化，这几套玩法太实用了
 
-> 来源：[https://vo2ca68sdm.feishu.cn/docx/KuMadvdMdoE33LxEhxicWeQ9n3d](https://vo2ca68sdm.feishu.cn/docx/KuMadvdMdoE33LxEhxicWeQ9n3d)
+
 
 说实话，Claude 3.7 在可视化这块的表现直接拉满。本文就是把我自己摸索和汇总到的几组实操案例整理出来，分享给大家。
 

@@ -1,6 +1,6 @@
 # 从18年入局到20万粉，我把公众号涨粉的实战方法论全拆开了
 
-> 来源：[https://kyjhe9yxvm.feishu.cn/docx/DJZLdYf1WoRWsyxI6i5c2yegngd](https://kyjhe9yxvm.feishu.cn/docx/DJZLdYf1WoRWsyxI6i5c2yegngd)
+
 
 # 先做个自我介绍
 

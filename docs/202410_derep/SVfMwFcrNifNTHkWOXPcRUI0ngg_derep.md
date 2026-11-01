@@ -1,6 +1,6 @@
 # 四小时搞定一个完全陌生的赛道
 
-> 来源：[https://ywfmllgra2k.feishu.cn/docx/Q9JMdOh4xo9x6zxmlojcNQ1Qnab](https://ywfmllgra2k.feishu.cn/docx/Q9JMdOh4xo9x6zxmlojcNQ1Qnab)
+
 
 本文作者：小鹅 ，转载发布请联系作者获取授权
 

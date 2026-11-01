@@ -1,6 +1,6 @@
 # 社群专属表情包，从零到一怎么搞？
 
-> 来源：[https://ys5n5rzrv4.feishu.cn/docx/I01Md03OHou3MHxAAtHczufLn2b](https://ys5n5rzrv4.feishu.cn/docx/I01Md03OHou3MHxAAtHczufLn2b)
+
 
 # 先搞清楚，社群表情包到底有什么用
 

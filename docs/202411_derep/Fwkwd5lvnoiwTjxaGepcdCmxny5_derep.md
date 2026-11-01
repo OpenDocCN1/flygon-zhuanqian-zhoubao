@@ -1,6 +1,6 @@
 # 录制课程需要哪些设备？从低预算到专业配置，一次讲清楚
 
-> 参考来源：[https://d037mrmszsw.feishu.cn/docx/Fwkwd5lvnoiwTjxaGepcdCmxny5](https://d037mrmszsw.feishu.cn/docx/Fwkwd5lvnoiwTjxaGepcdCmxny5)
+
 
 双11快到了，如果你正准备录制课程，或者希望以后把课程搬到直播间销售，这篇可以先收藏起来。设备不一定越贵越好，但选购时最好别只盯着眼前的录制需求，也要给后续升级留出空间。
 

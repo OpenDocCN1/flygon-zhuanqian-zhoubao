@@ -1,6 +1,6 @@
 # 风向标拆解第3期 | 小红书卖童裙：2600粉如何靠直播卖出1000+件
 
-> 来源：[https://cjd2a3timl.feishu.cn/docx/YvMtdVG1XoA8FGxgm9ucbg0RnEg](https://cjd2a3timl.feishu.cn/docx/YvMtdVG1XoA8FGxgm9ucbg0RnEg)
+
 
 今天拆的这个号，账号名叫星月公主，专注做洛丽塔风儿童裙子。玩法很典型：小红书只做图文视频引流，不挂车，全部转化走直播带货。
 

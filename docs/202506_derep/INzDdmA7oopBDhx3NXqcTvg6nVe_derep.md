@@ -1,6 +1,6 @@
 # 从设计稿到可运行代码：手把手教你把 Figma 官方 MCP 接到 Cursor 上
 
-> 来源：[https://chaojifeng.feishu.cn/docx/INzDdmA7oopBDhx3NXqcTvg6nVe](https://chaojifeng.feishu.cn/docx/INzDdmA7oopBDhx3NXqcTvg6nVe)
+
 
 Figma 上周正式上线了基于 Dev Mode 的官方 MCP 原生接入。告别过去那种装插件、配端口、时不时掉线的第三方方案，现在官方提供了更稳、更省心、功能也更完整的原生能力。
 

@@ -1,6 +1,6 @@
 # 小红书MCN操盘实战：矩阵首月破百万粉，单月营收破十万，拆解稳定接商单的方法
 
-> 来源：[https://tuhr2ryzy9.feishu.cn/docx/QlH9dXCZdoGhBSxohvBcTukPnlc](https://tuhr2ryzy9.feishu.cn/docx/QlH9dXCZdoGhBSxohvBcTukPnlc)
+
 
 各位做生意的朋友，小红书目前依然是转化力最强的种草阵地。品牌主很愿意把预算投进来做声量，所以用矩阵账号集中做内容分发再承接广告，已然成为一条可复制的变现路径。
 

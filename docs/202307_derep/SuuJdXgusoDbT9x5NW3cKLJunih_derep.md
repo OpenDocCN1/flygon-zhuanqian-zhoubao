@@ -1,6 +1,6 @@
 # AI绘画红利期怎么吃？从引流到变现的实操全流程
 
-> 来源：[https://d1jpewyavi.feishu.cn/docx/SuuJdXgusoDbT9x5NW3cKLJunih](https://d1jpewyavi.feishu.cn/docx/SuuJdXgusoDbT9x5NW3cKLJunih)
+
 
 大家好，我是老旺，长期深耕AIGC流量增长的实战派。今天把我正在跑的AI绘画商业项目拆开了讲，偏操作、偏落地，你可以直接套用到自己的盘子里一起分杯羹。内容我尽量写全写细，欢迎来拍砖打分。
 

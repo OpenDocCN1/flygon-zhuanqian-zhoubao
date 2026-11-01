@@ -1,6 +1,6 @@
 # 一小时撬动一个月流量！AI批量打磨爆款图文笔记的完整打法
 
-> 来源：[https://i23vi4cvyf.feishu.cn/docx/Ah4jdgjlbo7wBNx4KqDc5YNunMc](https://i23vi4cvyf.feishu.cn/docx/Ah4jdgjlbo7wBNx4KqDc5YNunMc)
+
 
 大家好，我是晓智，做 AI 写作、绘画和海报生成的工具开发者。
 

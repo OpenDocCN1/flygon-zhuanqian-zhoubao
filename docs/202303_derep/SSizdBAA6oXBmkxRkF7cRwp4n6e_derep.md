@@ -1,6 +1,6 @@
 # 上岸复盘：11条航海线、211次打卡，如何用21天完成一次重启
 
-> 来源：[https://w91h2gmtrn.feishu.cn/docx/SSizdBAA6oXBmkxRkF7cRwp4n6e](https://w91h2gmtrn.feishu.cn/docx/SSizdBAA6oXBmkxRkF7cRwp4n6e)
+
 
 阅读提示：
 

@@ -1,6 +1,6 @@
 # 用RPA跑通招聘全链路：从Boss平台到切片项目的一次完整记录
 
-> 出处：[https://vgcf8zrqd4.feishu.cn/docx/M9lHd769toHVnLxWlC5c5n4dnPq](https://vgcf8zrqd4.feishu.cn/docx/M9lHd769toHVnLxWlC5c5n4dnPq)
+
 
 最近复盘，想起马斯克在“面试和选人”上说过的话，回头看我以前写的东西，确实太空了，没有细节，全是态度。
 

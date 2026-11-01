@@ -1,6 +1,6 @@
 # 内容生产的新上限！飞书多维表格 x DeepSeek R1 组合出击
 
-> 来源：[https://svox0dxsvym.feishu.cn/docx/PeSPdjiOCoAWEmxIWtEcvTrXnEb](https://svox0dxsvym.feishu.cn/docx/PeSPdjiOCoAWEmxIWtEcvTrXnEb)
+
 
 最近社区里都在刷飞书多维表格搭配 DeepSeek R1 做批量出文的用法，效果真的猛到离谱。
 

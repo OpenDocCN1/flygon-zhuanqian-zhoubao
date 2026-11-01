@@ -1,6 +1,6 @@
 # 新手做 YouTube：两个月解锁高级档 YPP 复盘（附可复用提示词模板）
 
-> 来源：[https://xpjursanoo.feishu.cn/docx/Qo8edhH1GojDnvxKPZecSXNOnug](https://xpjursanoo.feishu.cn/docx/Qo8edhH1GojDnvxKPZecSXNOnug)
+
 
 文少，龙哥盟第 7 期学员。现在靠自己接项目谋生，主阵地是微信短视频平台和 YouTube 频道。
 

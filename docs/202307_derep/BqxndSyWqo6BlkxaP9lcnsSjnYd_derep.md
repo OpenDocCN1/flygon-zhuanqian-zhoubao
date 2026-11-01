@@ -1,6 +1,6 @@
 # 别被AIGC骗了，真正的钱在这三把剑之外
 
-> 来源：[https://w91h2gmtrn.feishu.cn/docx/BqxndSyWqo6BlkxaP9lcnsSjnYd](https://w91h2gmtrn.feishu.cn/docx/BqxndSyWqo6BlkxaP9lcnsSjnYd)
+
 
 读前说明：
 

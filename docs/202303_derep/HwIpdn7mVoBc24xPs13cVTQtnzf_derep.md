@@ -1,6 +1,6 @@
 # 98后河北小村青年：从辍学到月入数万的自我迭代笔记
 
-> 参考来源：[https://crse5s1mvs.feishu.cn/docx/HwIpdn7mVoBc24xPs13cVTQtnzf](https://crse5s1mvs.feishu.cn/docx/HwIpdn7mVoBc24xPs13cVTQtnzf)
+
 
 一个初中便离开校园的农村孩子，如何摸索进线上生意圈，把月薪从几千块拉到三五万区间，并与一批头部玩家建立联系？这是一份关于不给自己设边界的真实样本。
 

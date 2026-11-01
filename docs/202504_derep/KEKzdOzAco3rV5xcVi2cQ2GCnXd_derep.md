@@ -1,6 +1,6 @@
 # 拆解 YouTube 推荐逻辑
 
-> 来源：[https://rlwxa0zgke.feishu.cn/docx/KEKzdOzAco3rV5xcVi2cQ2GCnXd](https://rlwxa0zgke.feishu.cn/docx/KEKzdOzAco3rV5xcVi2cQ2GCnXd)
+
 
 做 YouTube 时，很多人习惯把国内的运营套路直接搬过来，用在海外平台上。说白了，这就是典型的刻舟求剑。真正要想减少自我误判，先把 YouTube 的推荐意图搞清楚。
 

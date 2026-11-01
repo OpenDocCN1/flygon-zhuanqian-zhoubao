@@ -1,6 +1,6 @@
 # 【2024.12航海】AI动物故事类 YouTube Shorts 从零起步实操复盘
 
-> 来源：[https://vebcgzyylx.feishu.cn/docx/A7lSd5SxwoDX20xdqBccgk8LnMh](https://vebcgzyylx.feishu.cn/docx/A7lSd5SxwoDX20xdqBccgk8LnMh)
+
 
 大家好，我是 Kennan恺南，11月才加入赚钱的新人。入圈后迎来一轮又一轮的信息轰炸，我最终挑选了一个与本职工作能产生关联的 AI 赛道。很幸运赶上12月的航海，这是我第一次参与，收获真的很大。
 

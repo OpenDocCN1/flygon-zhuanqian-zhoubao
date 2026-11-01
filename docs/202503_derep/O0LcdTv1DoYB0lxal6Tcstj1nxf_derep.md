@@ -1,6 +1,6 @@
 # 长视频三月冲上高级YPP，我把整套打法拆开了
 
-> 来源：[https://oet21ud8a2.feishu.cn/docx/O0LcdTv1DoYB0lxal6Tcstj1nxf](https://oet21ud8a2.feishu.cn/docx/O0LcdTv1DoYB0lxal6Tcstj1nxf)
+
 
 大家好，我是富百。上周刚用长视频把第一个YPP拿下。最近看到站内很多人在聊Shorts怎么做，也有人开始摸索长视频的路子，这里把我这段时间的实操流程整理出来，供想入场的朋友参考，少踩点坑。
 

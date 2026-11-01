@@ -1,6 +1,6 @@
 # 月入上万？玩着“车祸模拟器”也能在海外变现的冷门赛道
 
-> 来源：[https://hez86518tv.feishu.cn/docx/TnWYdJIU9obuiOx1YpbcU0ZWnLe](https://hez86518tv.feishu.cn/docx/TnWYdJIU9obuiOx1YpbcU0ZWnLe)
+
 
 | 版本 | 更新描述 | 作者 | 更新日期 |
 

@@ -1,6 +1,6 @@
 # 从负债十九万，到年净收益逼近百万的眼光是怎么练出来的
 
-> 来源：[https://wiizueiq5ks.feishu.cn/docx/NsZwdMgSxovqfxxgJqFc5XtXntb](https://wiizueiq5ks.feishu.cn/docx/NsZwdMgSxovqfxxgJqFc5XtXntb)
+
 
 大家好，我是老吴。金融圈的老兵，曾在股份制商业银行担任网点负责人，零售业务很熟。2017年起开始做副业，第一条副业线就是股票经纪人，到现在还在做。表面看是业内人，实际日子过得并不宽裕。买房、换车、结婚、生娃、装修，现金流被掏空，月月紧巴。银行的业绩指标又压得人喘不过气。我的转变过程就不展开细说了。
 

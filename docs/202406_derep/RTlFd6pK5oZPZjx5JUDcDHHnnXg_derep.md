@@ -1,6 +1,6 @@
 # AI 与数据分析的深度结合，14 个实战场景带你把效率拉满
 
-> 来源：[https://uyna8i1s6g.feishu.cn/docx/RTlFd6pK5oZPZjx5JUDcDHHnnXg](https://uyna8i1s6g.feishu.cn/docx/RTlFd6pK5oZPZjx5JUDcDHHnnXg)
+
 
 大家好，我是 Sky 陈天，目前是一名 AI 讲师兼 AI 业务提效顾问。今天来聊聊 AI 如何真正赋能数据分析。
 

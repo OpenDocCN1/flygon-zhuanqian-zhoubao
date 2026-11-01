@@ -1,6 +1,6 @@
 # 赚钱第二年，我把自媒体收益做到了怎样的水平
 
-> 来源：[https://nppwiv0upp.feishu.cn/docx/EKQ9dh2zLo4yRwxU7SGcnXDknjd](https://nppwiv0upp.feishu.cn/docx/EKQ9dh2zLo4yRwxU7SGcnXDknjd)
+
 
 各位赚钱的伙伴大家好，我是十一。如今加入赚钱已满两年，上一次复盘距今正好一年。赶在续费的关键时间点，我想把过去12个月在自媒体这条路上走过的弯路和收获做个梳理，也向圈里的朋友们同步一下项目进展。表达可能不够精炼，还请多多包涵。先把去年的回顾放这里方便衔接。
 

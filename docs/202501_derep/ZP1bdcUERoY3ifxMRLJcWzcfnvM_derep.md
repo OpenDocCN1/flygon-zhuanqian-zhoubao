@@ -1,6 +1,6 @@
 # 从零切入AI写稿变现，两个月入账4w+，我把整条链路给你盘透了
 
-> 来源：[https://he1n2jedb5.feishu.cn/docx/ZP1bdcUERoY3ifxMRLJcWzcfnvM](https://he1n2jedb5.feishu.cn/docx/ZP1bdcUERoY3ifxMRLJcWzcfnvM)
+
 
 先自报家门：我是李白，龙哥盟的老圈友了，编号5916。白天我在一家大厂做海外商业化平台的产品经理，工龄7年。
 

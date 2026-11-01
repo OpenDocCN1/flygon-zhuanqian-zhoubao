@@ -1,6 +1,6 @@
 # 用 B 站撬动高净值创业粉的暴力引流法
 
-> 来源：[https://hxrdzf4a0ay.feishu.cn/docx/OU9JdcT0aoWnBMxFCRKcjZdSnuh](https://hxrdzf4a0ay.feishu.cn/docx/OU9JdcT0aoWnBMxFCRKcjZdSnuh)
+
 
 【互联网IP】聚川（原IP小鱼）
 

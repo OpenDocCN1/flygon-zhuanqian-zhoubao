@@ -1,6 +1,6 @@
 # 普通人也能自制虚拟主播带货短视频的操作思路
 
-> 来源：[https://ovumyiw67u1.feishu.cn/docx/ZIQSdEEbQoqn4sxIbA5ciUYSnlh](https://ovumyiw67u1.feishu.cn/docx/ZIQSdEEbQoqn4sxIbA5ciUYSnlh)
+
 
 # 开场白
 

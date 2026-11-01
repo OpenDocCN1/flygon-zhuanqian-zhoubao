@@ -1,6 +1,6 @@
 # 从被动裁员到自给自足，我在赚钱的两年实战笔记
 
-> 来源：[https://xqya1zd76f2.feishu.cn/docx/X7lFdr3Hro43mqxqf0YcM3gOn5U](https://xqya1zd76f2.feishu.cn/docx/X7lFdr3Hro43mqxqf0YcM3gOn5U)
+
 
 # 一、我是谁
 

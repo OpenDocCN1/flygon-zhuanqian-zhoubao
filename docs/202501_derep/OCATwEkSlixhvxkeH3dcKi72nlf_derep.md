@@ -1,6 +1,6 @@
 # 房子之后，AI 才是普通人最该上手的杠杆
 
-> 原文出处：[点击查看](https://aiawaken.feishu.cn/docx/JyaedrTWvoRCp3xTskJcpNQhnhh)
+
 
 这套内容计划拆成两篇来写：
 

@@ -1,6 +1,6 @@
 # 我把自己当成甩手掌柜，让AI来教我用Claude Code
 
-> 来源：[https://t16jzwqrzjx.feishu.cn/docx/QJFEdSLDgoTaDLxY0oicEU5qn1b](https://t16jzwqrzjx.feishu.cn/docx/QJFEdSLDgoTaDLxY0oicEU5qn1b)
+
 
 最近在给自己的提示词管理助手做重构和升级，Cursor的额度被我刷爆了，顺带制造了成堆的Bug。看着满屏的报错，我开始怀疑自己到底会不会用AI写代码。
 

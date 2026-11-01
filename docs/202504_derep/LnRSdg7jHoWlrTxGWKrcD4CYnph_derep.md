@@ -1,6 +1,6 @@
 # 把Luke圈友的红书提示词套路，迁移到自己的业务上做内容提炼全流程
 
-> 来源：[https://unpke5o6so.feishu.cn/docx/LnRSdg7jHoWlrTxGWKrcD4CYnph](https://unpke5o6so.feishu.cn/docx/LnRSdg7jHoWlrTxGWKrcD4CYnph)
+
 
 太感谢Luke圈友把自用的小红书提示词拿出来分享了，出现得刚刚好，正好帮我解开了困扰我整整一周的关键词拆解难题。
 

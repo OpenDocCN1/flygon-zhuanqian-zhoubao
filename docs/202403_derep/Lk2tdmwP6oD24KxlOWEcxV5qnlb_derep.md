@@ -1,6 +1,6 @@
 # 从负债20万到月入2万+：我用AI写作一个月翻身的实战复盘
 
-> 来源：[https://riupvml5qjl.feishu.cn/docx/Lk2tdmwP6oD24KxlOWEcxV5qnlb](https://riupvml5qjl.feishu.cn/docx/Lk2tdmwP6oD24KxlOWEcxV5qnlb)
+
 
 在赚钱待满一年了，我也就发过一条风向标和一篇帖子。一直觉得自己没什么拿得出手的成绩，所以很少开口。上周发了那篇关于AI写作的风向标，没想到意外中标后，收到一堆点赞和夸奖，属实有点受宠若惊。
 

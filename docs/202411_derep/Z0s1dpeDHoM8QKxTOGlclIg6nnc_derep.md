@@ -1,6 +1,6 @@
 # 当你看懂赚钱的复利逻辑，成长速度会直接翻十倍
 
-> 来源：[https://pznme756ly.feishu.cn/docx/Z0s1dpeDHoM8QKxTOGlclIg6nnc](https://pznme756ly.feishu.cn/docx/Z0s1dpeDHoM8QKxTOGlclIg6nnc)
+
 
 前阵子龙哥转了一篇内容：https://t.zsxq.com/XPfLs，里面有句话让我印象很深：我坚信，任何时候都能直接面向市场赚到钱的能力，是一个人最大的底气和自信。我同样坚信，每个龙哥盟的伙伴，只要持续学习和实战，都能拥有这样的能力，都能持续赚到钱。
 

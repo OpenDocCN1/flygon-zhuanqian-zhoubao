@@ -1,6 +1,6 @@
 # 视频号涨粉实操：新手也能快速拿到正反馈的保姆级打法
 
-> 来源：[https://rm1nv0sw1r.feishu.cn/docx/IZLid1QW0olfErxVEUqcyQ5xnZe](https://rm1nv0sw1r.feishu.cn/docx/IZLid1QW0olfErxVEUqcyQ5xnZe)
+
 
 市面上总有人说视频号是新蓝海，但对刚入场的新人来说，最怕的就是长时间没动静。没有正反馈，坚持不下去。
 

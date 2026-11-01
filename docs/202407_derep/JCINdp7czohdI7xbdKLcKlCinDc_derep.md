@@ -1,6 +1,6 @@
 # 闲鱼虚拟项目自动化：我用影刀打通了爆款采集、去水印到自动上架的整条链路
 
-> 来源：[https://riodtlbegu.feishu.cn/docx/JCINdp7czohdI7xbdKLcKlCinDc](https://riodtlbegu.feishu.cn/docx/JCINdp7czohdI7xbdKLcKlCinDc)
+
 
 最近在实操闲鱼虚拟电商这条赛道，手动跑下来一套流程下来很吃时间。
 

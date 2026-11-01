@@ -1,6 +1,6 @@
 # 从零到上线：AI图片站全流程拆解及前端打磨实操
 
-> 来源：[https://bcn5ot9wwnew.feishu.cn/docx/HRlJd95FqoIT9lx4X1oc4gEonwd](https://bcn5ot9wwnew.feishu.cn/docx/HRlJd95FqoIT9lx4X1oc4gEonwd)
+
 
 大家好，我是念明。今天把我做 AI 图片站的完整经历和前端优化的经验整理出来，和大家同步一下。为了提高阅读效率，本文全程精简叙述，不加任何冗余。
 

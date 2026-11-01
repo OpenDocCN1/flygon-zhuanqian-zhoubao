@@ -1,6 +1,6 @@
 # 用一套直播间，打遍全平台：我如何把一个主播的工资，变成五倍收入
 
-> 来源：[https://tetizappan.feishu.cn/docx/YK5VdrD46ojmdIxoeJKcKfOqnPL](https://tetizappan.feishu.cn/docx/YK5VdrD46ojmdIxoeJKcKfOqnPL)
+
 
 # 开场白：
 

@@ -1,6 +1,6 @@
 # 从零搭建年入千万级职业教育在线平台，我踩过的六个关键环节
 
-> 来源：[https://yqqb1l50gj.feishu.cn/docx/A4UGdiBqBoH4T0xnkW5c0Nxtnkh](https://yqqb1l50gj.feishu.cn/docx/A4UGdiBqBoH4T0xnkW5c0Nxtnkh)
+
 
 很多人问我，职业教育线上项目到底怎么做才能做大。我从2014年入局，亲手操盘过一个医考类品牌从无到有，到爆发期一年做到1500万流水。起因很简单，彼时国家对持证医疗人才的政策导向明确，我们就锁定了执业医师、执业药师、健康管理师这条赛道。
 

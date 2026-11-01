@@ -1,6 +1,6 @@
 # 3 天、20 万字长谈，我把完整的自己交给了 AI，换回一份 6 万字的深度剖析报告
 
-> 来源：[https://wgpt6awo7z.feishu.cn/docx/KPAzd04U1oT3ezxE936c7swpnpc](https://wgpt6awo7z.feishu.cn/docx/KPAzd04U1oT3ezxE936c7swpnpc)
+
 
 一套拿来就能用的提问体系，帮你借 AI 之力完成一次彻底的自我审视，并由此锚定个人成长的具体航向。
 

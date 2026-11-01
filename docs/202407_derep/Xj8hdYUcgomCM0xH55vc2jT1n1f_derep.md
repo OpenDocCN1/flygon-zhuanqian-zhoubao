@@ -1,6 +1,6 @@
 # 10分钟口述撸出一篇剧评，不用AI也不用熬夜看剧，13分钟视频带你走完全套实操
 
-> 来源：[https://xcozwbpl16.feishu.cn/docx/Xj8hdYUcgomCM0xH55vc2jT1n1f](https://xcozwbpl16.feishu.cn/docx/Xj8hdYUcgomCM0xH55vc2jT1n1f)
+
 
 ## 到底谁更适合走口述路线写剧评？
 

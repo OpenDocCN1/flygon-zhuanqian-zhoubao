@@ -1,6 +1,6 @@
 # 在闲鱼搞泛IP周边生意 | 实战攻略
 
-> 来源：[https://shengcaiyoushu01.feishu.cn/docx/ELrJdUeKFoEPRqxz4KJcCrStnRf](https://shengcaiyoushu01.feishu.cn/docx/ELrJdUeKFoEPRqxz4KJcCrStnRf)
+
 
 ![](img/f9d678c69a7e2fd3fd168325fee69b34.png)
 

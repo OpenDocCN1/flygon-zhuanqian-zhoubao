@@ -1,6 +1,6 @@
 # 零代码，开发一个类Copycoder编程提示词插件
 
-> 来源：[https://jks4lzcz64.feishu.cn/docx/FceYd0SOroEdagxla0DcUlIynNc](https://jks4lzcz64.feishu.cn/docx/FceYd0SOroEdagxla0DcUlIynNc)
+
 
 社区里最近刷到一篇自述，讲一位做 AI 产品运营的从业者邬轼，如何从被编程教材劝退的普通人，靠着生成式编程工具一路搞出了一个接近 Copycoder 思路的浏览器插件。整个从小白到作者的跃迁脉络，细节很值得拆解。
 

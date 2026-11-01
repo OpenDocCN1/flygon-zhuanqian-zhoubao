@@ -1,6 +1,6 @@
 # 《一年做到百万GMV，视频号挂车投流实战复盘》
 
-> 来源：[https://md8vbz6pkh.feishu.cn/docx/K1ovdE2QyoKkIUxXcOHcEJC7n5c](https://md8vbz6pkh.feishu.cn/docx/K1ovdE2QyoKkIUxXcOHcEJC7n5c)
+
 
 # 一、开场自我介绍
 

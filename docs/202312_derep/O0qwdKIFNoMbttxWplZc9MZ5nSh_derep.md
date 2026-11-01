@@ -1,6 +1,6 @@
 # 闲鱼曝光怎么来的？快速出单的精髓其实藏在这两大提升思路里
 
-> 来源：[https://wi0p58be3a2.feishu.cn/docx/O0qwdKIFNoMbttxWplZc9MZ5nSh](https://wi0p58be3a2.feishu.cn/docx/O0qwdKIFNoMbttxWplZc9MZ5nSh)
+
 
 大家好，我是甜橙。22年6月毕业后一直深耕闲鱼无货源高利润选品与自媒体变现，欢迎来到我的闲鱼实操频道。
 

@@ -1,6 +1,6 @@
 # 我把情侣聊天记录做成了一份“恋爱论文”，20小时搞定出海版MVP
 
-> 原文出处：[https://ewtk6ag4po4c.feishu.cn/docx/ZYTldUeUuoQI77xUqMhcmaCRnzh](https://ewtk6ag4po4c.feishu.cn/docx/ZYTldUeUuoQI77xUqMhcmaCRnzh)
+
 
 大家好，我是Cheer（林悦己）。这期想跟你分享一个我用AI做编程变现的真实项目——**「情侣聊天记录可视化报告」**。
 

@@ -1,6 +1,6 @@
 # 《零基础21天突破，AI＋拆书的道与术》
 
-> 来源：[https://eqc9f6vzuhv.feishu.cn/docx/WtTfdUgUooI8Ygx11PhcxlwanEd](https://eqc9f6vzuhv.feishu.cn/docx/WtTfdUgUooI8Ygx11PhcxlwanEd)
+
 
 工具已经普及时，拆书这门手艺为何仍要保留？
 

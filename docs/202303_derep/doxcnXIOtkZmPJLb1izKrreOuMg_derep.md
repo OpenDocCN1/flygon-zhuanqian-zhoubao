@@ -1,6 +1,6 @@
 # 用 RPA 实现 Amazon POST 的批量化推送 | AMZ 与 RPA
 
-> 来源：[https://i0ejcw7gsm.feishu.cn/docx/doxcnXIOtkZmPJLb1izKrreOuMg](https://i0ejcw7gsm.feishu.cn/docx/doxcnXIOtkZmPJLb1izKrreOuMg)
+
 
 2023.07.27 更新
 

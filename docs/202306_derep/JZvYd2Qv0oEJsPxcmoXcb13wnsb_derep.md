@@ -1,6 +1,6 @@
 # 用 GPT 搭了一套全自动写文发布流水线，实战过程全记录
 
-> 来源：[https://vchmk6v2g8.feishu.cn/docx/JZvYd2Qv0oEJsPxcmoXcb13wnsb](https://vchmk6v2g8.feishu.cn/docx/JZvYd2Qv0oEJsPxcmoXcb13wnsb)
+
 
 最近脑子里冒了个点子就直接动手了，借助 GPT 撸了一个自动化工具。思路很简单：我只丢一个关键词进去，后端自动生成标题、自动生成正文、最后自动推送到 WordPress 博客，整条链路完成 SEO 内容的自动生产与自动上线。
 

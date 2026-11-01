@@ -1,6 +1,6 @@
 # 【YouTube新人进阶指南】30天拿下千万Shorts播放，快速达成高级YPP
 
-> 来源：[https://mcnr6xiwpsl7.feishu.cn/docx/CAYIdt3fJoBw8mxL8HJcJ4sEn60](https://mcnr6xiwpsl7.feishu.cn/docx/CAYIdt3fJoBw8mxL8HJcJ4sEn60)
+
 
 大家好，我是逸尘，一个YouTube新人。刚结束航海的第二天，我的第23支作品就破了千万播放，目前累计播放已超六千万，订阅突破五万。
 

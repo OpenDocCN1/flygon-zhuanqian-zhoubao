@@ -1,6 +1,6 @@
 # AI思考｜01 发展看似神速，实则缓慢的AI时代
 
-> 来源：[https://t16jzwqrzjx.feishu.cn/docx/F4IfdHceHo59POxde7LcyrKhnUh](https://t16jzwqrzjx.feishu.cn/docx/F4IfdHceHo59POxde7LcyrKhnUh)
+
 
 # 开场
 

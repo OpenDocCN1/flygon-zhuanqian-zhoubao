@@ -1,6 +1,6 @@
 # ChatGPT如何重塑跨境电商实操与商业机会
 
-> 来源：[https://o85jza6ej5.feishu.cn/docx/HgjLdWdxHo8ezoxv9iLc4HSwnAh](https://o85jza6ej5.feishu.cn/docx/HgjLdWdxHo8ezoxv9iLc4HSwnAh)
+
 
 大家好，我是Joey，长期深耕跨境电商。今天很荣幸受邀在小航海分享一下我的实践心得。
 

@@ -1,6 +1,6 @@
 # 从0到150万GMV，一个职场宝妈团长给新手的5条团购生存法则
 
-> 来源：[https://mx7hw2ql0k9.feishu.cn/docx/IQyfdJ47yogHqoxA2dPcau7BnNe](https://mx7hw2ql0k9.feishu.cn/docx/IQyfdJ47yogHqoxA2dPcau7BnNe)
+
 
 我是小野，用卖包浆豆腐起家做到150万GMV的宝妈团长。
 

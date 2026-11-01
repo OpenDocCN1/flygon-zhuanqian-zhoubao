@@ -1,6 +1,6 @@
 # 三千粉也能做到月入五千：我的小红书AI账号接单实录
 
-> 来源：[https://m747n4suou.feishu.cn/docx/XOu6dm9LxoBx9yxYnHdcWBtXnHg](https://m747n4suou.feishu.cn/docx/XOu6dm9LxoBx9yxYnHdcWBtXnHg)
+
 
 ## 一、现阶段的数据盘点
 

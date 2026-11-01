@@ -1,6 +1,6 @@
 # 从10家濒死到一年新增80家：一家茶饮品牌的逆盘操作全记录
 
-> 来源：[https://to2gggwkin.feishu.cn/docx/TDDIdznLfoYOvkxw4FScZdpLnJg](https://to2gggwkin.feishu.cn/docx/TDDIdznLfoYOvkxw4FScZdpLnJg)
+
 
 先自我介绍一下，我是VV，经营一家做餐饮品牌内容和流量落地的策划公司，过去服务过的餐饮客户超过一百家。今天分享一个这两年我团队深度陪跑的饮品加盟品牌案例，讲清楚我们到底是怎么把它从死亡线上拉回来，并在不利环境下实现爆发式增长的。
 

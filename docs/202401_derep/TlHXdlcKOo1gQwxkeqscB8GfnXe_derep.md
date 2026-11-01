@@ -1,6 +1,6 @@
 # 视频号【出镜人身份验证】卡住了？搬运混剪博主的自救笔记
 
-> 来源：[https://dls8hvx5jh.feishu.cn/docx/TlHXdlcKOo1gQwxkeqscB8GfnXe](https://dls8hvx5jh.feishu.cn/docx/TlHXdlcKOo1gQwxkeqscB8GfnXe)
+
 
 大家好，我是阿橘。最近整理了一套关于出镜人身份验证的实操经验，亲测可行，我手上8个账号全部成功解开限制，朋友圈里不少同行也靠这招把号救了回来。
 

@@ -1,6 +1,6 @@
 # 女神节一周撬动800+人群，三家私域社群联名实操全拆解
 
-> 来源：[https://iqwin9cn5r.feishu.cn/docx/LbaXdlAmZofpQTxPBNNcwHg4nod](https://iqwin9cn5r.feishu.cn/docx/LbaXdlAmZofpQTxPBNNcwHg4nod)
+
 
 大家好，我是梵野。38女神节联名项目收尾三天了，这次我把从0到1的联名拉新全流程梳理出来，专门给想做陪伴型社群的同学看，尤其是私域新手，或是已经有百人规模却卡在增长的群主。
 

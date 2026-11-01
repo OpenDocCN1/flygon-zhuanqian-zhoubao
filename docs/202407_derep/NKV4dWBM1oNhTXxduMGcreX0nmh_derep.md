@@ -1,6 +1,6 @@
 # 入局短剧CPS仅用3个月，团队人均月入1.5万，累计变现80万
 
-> 来源：[https://acn4nlu22jdy.feishu.cn/docx/NKV4dWBM1oNhTXxduMGcreX0nmh](https://acn4nlu22jdy.feishu.cn/docx/NKV4dWBM1oNhTXxduMGcreX0nmh)
+
 
 大家好，我是林北北，目前主攻短剧CPS赛道，也是短剧追风联盟的发起人。
 

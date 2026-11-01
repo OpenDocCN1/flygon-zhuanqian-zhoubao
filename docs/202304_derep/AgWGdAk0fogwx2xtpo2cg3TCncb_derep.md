@@ -1,6 +1,6 @@
 # 用GPT把“照抄爆款口播”变成流水线：最省心的抖音复制工
 
-> 来源：[https://fjt9w880tn.feishu.cn/docx/AgWGdAk0fogwx2xtpo2cg3TCncb](https://fjt9w880tn.feishu.cn/docx/AgWGdAk0fogwx2xtpo2cg3TCncb)
+
 
 大家好，我是小凡。AI浪潮里，抢先上车的才有机会吃到第一波红利。这篇内容是我给刚进赚钱的新朋友的一点干货，也是我近期在GPT实操里的最新心得。
 

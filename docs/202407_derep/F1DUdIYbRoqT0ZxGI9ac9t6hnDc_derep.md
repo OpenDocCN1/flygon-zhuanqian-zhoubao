@@ -1,6 +1,6 @@
 追完《玫瑰的故事》，我请ChatGPT当“逻辑回怼师”，专治那些让你憋屈的话
 
-> 来源：[https://balfcirt91j.feishu.cn/docx/F1DUdIYbRoqT0ZxGI9ac9t6hnDc](https://balfcirt91j.feishu.cn/docx/F1DUdIYbRoqT0ZxGI9ac9t6hnDc)
+
 
 你知道“抬杠”这门技术在古代的代表人物是谁吗？很多资料会指向苏格拉底，那位总在广场上拉着人一问一答的雅典智者。
 

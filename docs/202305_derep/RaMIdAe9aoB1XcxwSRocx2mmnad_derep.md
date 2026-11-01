@@ -1,6 +1,6 @@
 # 从零到押注单一赛道：我的副业沉淀路径
 
-> 来源：[https://p03a4vs9s2.feishu.cn/docx/RaMIdAe9aoB1XcxwSRocx2mmnad](https://p03a4vs9s2.feishu.cn/docx/RaMIdAe9aoB1XcxwSRocx2mmnad)
+
 
 大家好，我是叁斤，赚钱第七期的一名普通从业者。先前发布的《全行业通用：笔记平台引流思路拆解》后，加了我不少同行。聊下来发现一个共性：很多人想做额外收入，却一直卡在起步。
 

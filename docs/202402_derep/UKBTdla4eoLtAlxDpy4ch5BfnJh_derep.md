@@ -1,6 +1,6 @@
 # 风向标拆解第三期：年后重启，花艺绿植号是不是又能冲了？——晓蓉
 
-> 来源：[https://p2heh212tb.feishu.cn/docx/UKBTdla4eoLtAlxDpy4ch5BfnJh](https://p2heh212tb.feishu.cn/docx/UKBTdla4eoLtAlxDpy4ch5BfnJh)
+
 
 大家好，我是晓蓉。今天拆的这个赛道，是花艺与绿植类账号在春节之后的窗口期。
 

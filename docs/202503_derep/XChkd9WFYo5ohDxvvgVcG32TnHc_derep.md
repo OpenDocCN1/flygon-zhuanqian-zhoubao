@@ -1,6 +1,6 @@
 # 一个奔五实体店老板，零基础玩转直播七个月做到月销13万的复盘笔记
 
-> 来源：[https://r3f52rq7nv.feishu.cn/docx/XChkd9WFYo5ohDxvvgVcG32TnHc](https://r3f52rq7nv.feishu.cn/docx/XChkd9WFYo5ohDxvvgVcG32TnHc)
+
 
 # 前言与经营数据
 

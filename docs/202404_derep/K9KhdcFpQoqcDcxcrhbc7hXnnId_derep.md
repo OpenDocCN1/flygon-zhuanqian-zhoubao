@@ -1,6 +1,6 @@
 # 给新手看的 Web3变现实操笔记
 
-> 来源：[https://uklrrqhpyq.feishu.cn/docx/K9KhdcFpQoqcDcxcrhbc7hXnnId](https://uklrrqhpyq.feishu.cn/docx/K9KhdcFpQoqcDcxcrhbc7hXnnId)
+
 
 大家好，我是乔橘
 

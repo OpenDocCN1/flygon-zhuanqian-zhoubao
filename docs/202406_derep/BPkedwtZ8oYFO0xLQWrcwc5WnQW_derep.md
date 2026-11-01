@@ -1,6 +1,6 @@
 # 2024下半年，小红书变现的10个关键词
 
-> 来源：[https://qdrlbziuml.feishu.cn/docx/BPkedwtZ8oYFO0xLQWrcwc5WnQW](https://qdrlbziuml.feishu.cn/docx/BPkedwtZ8oYFO0xLQWrcwc5WnQW)
+
 
 大家好，我是比比先森。参与过国内第一本小红书运营畅销书《爆款小红书》的编撰，也操盘过20万粉丝级的商业IP，累计变现过百万。
 

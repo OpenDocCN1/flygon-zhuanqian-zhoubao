@@ -1,6 +1,6 @@
 # 2天1夜GPT线下实战营全流程复盘：从赔钱也要做，到复盘再做更大
 
-> 来源：[https://w91h2gmtrn.feishu.cn/docx/LpZidqiwvodqYOxeA2pc3rPxnhe](https://w91h2gmtrn.feishu.cn/docx/LpZidqiwvodqYOxeA2pc3rPxnhe)
+
 
 阅读提示：
 

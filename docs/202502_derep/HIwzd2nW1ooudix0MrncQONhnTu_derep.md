@@ -1,6 +1,6 @@
 # 一键把 DeepSeek 搬进 WPS，办公效率直接起飞
 
-> 来源：[https://ys8xnr7kn3.feishu.cn/docx/HIwzd2nW1ooudix0MrncQONhnTu](https://ys8xnr7kn3.feishu.cn/docx/HIwzd2nW1ooudix0MrncQONhnTu)
+
 
 ## 让 Word 和 DeepSeek 组合办公，工作流彻底改变
 

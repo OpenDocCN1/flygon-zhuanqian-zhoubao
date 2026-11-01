@@ -1,6 +1,6 @@
 # 0基础上手，用Cursor做出来一个Excel自动填表的小工具
 
-> 来源：[https://qnfoes1o78.feishu.cn/docx/QDnsd1MZVoieAzxQwuUcOxs1n2e](https://qnfoes1o78.feishu.cn/docx/QDnsd1MZVoieAzxQwuUcOxs1n2e)
+
 
 ## 起点：
 

@@ -1,6 +1,6 @@
 # 《用一招AB人设对话截流，流量成本砍掉七成，一个月吸粉一千五、变现三十万的实操全流程》
 
-> 来源：[https://srlk36049t.feishu.cn/docx/JsWydjTNkoW9FmxWVA6cZ7KdnPh](https://srlk36049t.feishu.cn/docx/JsWydjTNkoW9FmxWVA6cZ7KdnPh)
+
 
 先看实操结果：
 

@@ -1,6 +1,6 @@
 # 老板避雷指南｜从年营收1100万的实战里，聊聊怎么筛掉不合适的人、商与搭档
 
-> 来源：[https://ht16ej1tui.feishu.cn/docx/XNE6dvDVLoFx0dxnrFScxOvsnOb](https://ht16ej1tui.feishu.cn/docx/XNE6dvDVLoFx0dxnrFScxOvsnOb)
+
 
 2023年对我和Ivy来说是动荡的一年。两人先后大病，我躺了两个月，她拖了半年，核心同事又意外怀孕，只能紧急补人手并带教。
 

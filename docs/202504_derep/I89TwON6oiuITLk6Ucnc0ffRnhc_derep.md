@@ -1,6 +1,6 @@
 # MAC端强制休息神器 Time Out，怎么把吓人的图标和锁定弹窗一起换掉
 
-> 来源：[https://iik3odicycr.feishu.cn/docx/QgDed3FcBo71eUxbWAJc5zCsnib](https://iik3odicycr.feishu.cn/docx/QgDed3FcBo71eUxbWAJc5zCsnib)
+
 
 ## 为什么想折腾它
 

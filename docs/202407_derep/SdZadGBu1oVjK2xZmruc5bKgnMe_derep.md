@@ -1,6 +1,6 @@
 # 小白入局视频号口播航海，5 月起号 20 天破 10 万 GMV 的复盘
 
-> 来源：[https://bw54wz1lzj.feishu.cn/docx/SdZadGBu1oVjK2xZmruc5bKgnMe](https://bw54wz1lzj.feishu.cn/docx/SdZadGBu1oVjK2xZmruc5bKgnMe)
+
 
 大家好，我是式钦。副业折腾两年，换了十几个赛道都没起色，这次参加 5 月的口播带货航海，算是第一次吃到像样的正反馈。我的第一条口播从 5 月 16 号开始发，到 6 月 3 号才迎来首爆，截止 6 月 20 号累计 GMV 破 10 万，长尾还在持续出单。后面流量趋缓，但依然有稳定成交。数据细节如下：
 

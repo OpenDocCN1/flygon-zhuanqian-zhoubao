@@ -1,6 +1,6 @@
 # 如何在扣子里快速搭出可直接变现的工作流？
 
-> 来源：[https://vchmk6v2g8.feishu.cn/docx/JCDudPovUoit4zxepo9cMezAnFh](https://vchmk6v2g8.feishu.cn/docx/JCDudPovUoit4zxepo9cMezAnFh)
+
 
 最近圈子里分享的扣子工作流教程不少，但绝大多数都卡在火柴人这条路上。火柴人心理学类内容大家基本都用即梦来出图，实话说即梦的成片率很不稳定，想抽到一张满意的图得反复尝试，对强迫症患者很不友好。
 

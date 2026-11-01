@@ -1,6 +1,6 @@
 # 【初体验Cursor】让AI编程帮我搭起YouTube Shorts对标分析工具
 
-> 来源：[https://v3m0vzf1tz.feishu.cn/docx/QRFodTL7Zo8gCUxX8sXcakFCngb](https://v3m0vzf1tz.feishu.cn/docx/QRFodTL7Zo8gCUxX8sXcakFCngb)
+
 
 # 开场白
 

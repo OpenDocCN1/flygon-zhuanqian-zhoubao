@@ -1,6 +1,6 @@
 # TikTok 国际中视频变现全流程实操指南
 
-> 来源：[https://spg0xsnzv2.feishu.cn/docx/Iq5Vd2nlPop8zHxrBBWcCbxgnSh](https://spg0xsnzv2.feishu.cn/docx/Iq5Vd2nlPop8zHxrBBWcCbxgnSh)
+
 
 # 有任何问题可加作者VX:lanmao-9527
 

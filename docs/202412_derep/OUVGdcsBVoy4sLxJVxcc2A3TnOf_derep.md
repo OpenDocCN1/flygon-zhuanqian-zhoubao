@@ -1,6 +1,6 @@
 # 龙哥盟 12月航海 小红书引流 教育资料赛道 实操复盘
 
-> 来源：https://im4rf4hmff.feishu.cn/docx/OUVGdcsBVoy4sLxJVxcc2A3TnOf
+
 
 大家下午好，我是家明表哥。家乡在广东中山，伟人孙中山的故里，欢迎各位来中山走走。
 

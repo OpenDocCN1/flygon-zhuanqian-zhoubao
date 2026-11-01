@@ -1,6 +1,6 @@
 # 直接抄作业！小红书接单号起号打法：7天破千粉，单月到手两千（避坑全记录）
 
-> 来源：[https://urh4zarsm8.feishu.cn/docx/XJWWdz0FsoGEAhxZNSScpRZ9nfb](https://urh4zarsm8.feishu.cn/docx/XJWWdz0FsoGEAhxZNSScpRZ9nfb)
+
 
 大家好，我是东篱。上个月我用一个正念打卡号把粉丝做到了7000+。账号主要服务备考党和高压职场人群，内容方向是「每日治愈配图+鸡汤金句」。评论区我常放「今日打卡」任务，把留存和粘性拉满了。
 

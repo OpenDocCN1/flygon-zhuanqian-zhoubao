@@ -1,6 +1,6 @@
 # 502 Teacher AI
 
-> 来源：[https://vz1gcav68m.feishu.cn/docx/Gk6NdKbMIo8PJgxZGfMchbQkn5b](https://vz1gcav68m.feishu.cn/docx/Gk6NdKbMIo8PJgxZGfMchbQkn5b)
+
 
 # 更新日志
 

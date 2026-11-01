@@ -1,6 +1,6 @@
 # 13岁起步，20岁月入六位数：我用七年时间从1块钱撬开创业世界
 
-> 来源：[https://nt29oth9w1.feishu.cn/docx/YPhndkBKfocBV2xCfvucevIAn5y](https://nt29oth9w1.feishu.cn/docx/YPhndkBKfocBV2xCfvucevIAn5y)
+
 
 大家好，我是梦宸，现在是04年的大一新生，老家在河北廊坊一个普通的县城，出生平平，可骨子里一直不甘平庸。
 

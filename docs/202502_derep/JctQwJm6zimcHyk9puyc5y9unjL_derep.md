@@ -1,6 +1,6 @@
 # 排队无望时用这 9 个免费入口，让 DeepSeek R1 直接开聊
 
-> 来源：[https://zzi7a49xoa.feishu.cn/docx/RQFNdiFGfoPH8nxlzfacuaPIn2b](https://zzi7a49xoa.feishu.cn/docx/RQFNdiFGfoPH8nxlzfacuaPIn2b)
+
 
 “DeepSeek 又挂了！”
 最近在各个 AI 讨论群里，这句话出现的频率有点高。

@@ -1,6 +1,6 @@
 # 从0到2300+付费用户：一套能反复套用的节日引流玩法复盘
 
-> 来源：[https://fzn5pqhhq.feishu.cn/docx/CkXPdZ5VLougj2xPyqTcMWqWn7u](https://fzn5pqhhq.feishu.cn/docx/CkXPdZ5VLougj2xPyqTcMWqWn7u)
+
 
 大家好，我是波波。
 

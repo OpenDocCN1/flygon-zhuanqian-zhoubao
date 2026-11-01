@@ -1,6 +1,6 @@
 # 用 AI 工作流做公众号，45 天涨粉 1.4 万的体感复盘
 
-> 来源：[https://aiawaken.feishu.cn/docx/Afpydi2q6oiLFxxIJ0wciLWanej](https://aiawaken.feishu.cn/docx/Afpydi2q6oiLFxxIJ0wciLWanej)
+
 
 这次拆成上下两部分来讲。
 

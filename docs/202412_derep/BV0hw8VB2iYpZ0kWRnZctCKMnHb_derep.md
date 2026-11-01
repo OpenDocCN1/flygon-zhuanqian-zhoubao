@@ -35,7 +35,7 @@
 
 > 我想做一个在线的B站视频下载工具网站，主要功能如下：
 >
-> 1. 用户打开网址，在输入框粘贴一个B站视频链接（https://www.bilibili.com 下的视频URL），点击【解析视频】按钮后，能解析出这些参数：封面大图、视频标题、视频描述、上传时间、Up主、视频分辨率、文件大小、播放量、点赞数、收藏数、投币数、转发数、弹幕数等。请把字段名称和对应值一起展示，例如“上传日期：2024-11-18”。字段名在上，值在下，最好用表格形式呈现，每个字段前配一个小图标，更美观。
+
 >
 > 2. 用户要能选下载清晰度，所以需要一个下拉列表，列出所有可用的清晰度。
 >
@@ -168,7 +168,7 @@ mkdir -p bilibili-download/{static/{css,js,img},templates,database}
 
 继续找AI解决：
 
-> 1、视频封面图没有解析并正确显示出来；2、有几个字段没有值，是0，实际视频URL是有值的，我测试的URL是：@https://www.bilibili.com/video/BV1L1zJYHET3/?spm_id_from=333.1007.tianma.1-1-1.click&vd_source=9b4215a6fed2d68ee59316b639bf92d2
+
 
 ![](img/9532a270e4cb01209dea7d5d0fa1dd9e.png)
 
@@ -178,7 +178,7 @@ mkdir -p bilibili-download/{static/{css,js,img},templates,database}
 
 继续追问AI：
 
-> 现在解析视频的字段信息OK了，但视频封面图在前端没展示出来。请看控制台的错误：缩略图是 main.js:89 Failed to load thumbnail: http://i0.hdslb.com/bfs/archive/2838d3453555136abd5db2dae2602ec44b2cb319.jpg 。请分析并修复。
+
 
 ![](img/a1fbc2205c5bdeac6f7cd0ddcfa38ff5.png)
 

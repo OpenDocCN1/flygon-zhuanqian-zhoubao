@@ -1,6 +1,6 @@
 # 成交比流量更值钱：把顶尖销售的打法，沉淀成一套可复制的SOP
 
-> 来源：https://kkehvdiodf.feishu.cn/docx/IYbtdXEiHovCP7x9w8Hc9jEhnGd
+
 
 # 先说下我是谁
 

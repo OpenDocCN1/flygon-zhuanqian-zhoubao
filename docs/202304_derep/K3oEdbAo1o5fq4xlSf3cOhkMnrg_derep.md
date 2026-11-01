@@ -1,6 +1,6 @@
 # 普通人也能做付费社群：我用2个月把19.9涨到199，收了200+人，变现近万
 
-> 来源：[https://pbw5yhoa0k.feishu.cn/docx/K3oEdbAo1o5fq4xlSf3cOhkMnrg](https://pbw5yhoa0k.feishu.cn/docx/K3oEdbAo1o5fq4xlSf3cOhkMnrg)
+
 
 大家好，我是新侠。本职工作在苹果供应链的一家上市公司做中层，带20多个工程师和50多个一线普工，平时擅长数据分析和团队管理。副业则是在网上折腾各种小项目。
 

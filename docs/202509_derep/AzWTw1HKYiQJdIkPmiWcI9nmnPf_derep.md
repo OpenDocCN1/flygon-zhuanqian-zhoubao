@@ -1,6 +1,6 @@
 # API_KEY 的防线不够厚：一次被绕过认证疯狂刷量的实战止损记录
 
-> 来源：[https://acnwscsrr4nu.feishu.cn/docx/JsxPdd6WGoW8HCxyLUOczdUmnRe](https://acnwscsrr4nu.feishu.cn/docx/JsxPdd6WGoW8HCxyLUOczdUmnRe)
+
 
 最近群里又有人反馈，站点被绕过前端校验，直接狂怼上游接口导致费用暴涨。
 

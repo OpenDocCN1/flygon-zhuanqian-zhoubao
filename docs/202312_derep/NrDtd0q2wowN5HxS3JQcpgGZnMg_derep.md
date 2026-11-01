@@ -1,6 +1,6 @@
 # 影刀 RPA 做到随问随答的思路 @Leeka
 
-> 来源：[https://ktuszl372b.feishu.cn/docx/NrDtd0q2wowN5HxS3JQcpgGZnMg](https://ktuszl372b.feishu.cn/docx/NrDtd0q2wowN5HxS3JQcpgGZnMg)
+
 
 # 一、GPT 够强却被额度卡住
 

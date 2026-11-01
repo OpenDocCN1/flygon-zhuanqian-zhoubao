@@ -1,6 +1,6 @@
 # 用 ChatGPT 搭一个 Chrome 插件，零基础也能做到
 
-> 来源：[https://zzi7a49xoa.feishu.cn/docx/I5Qnd3yq7o8D23xkEhjcOYJwn3g](https://zzi7a49xoa.feishu.cn/docx/I5Qnd3yq7o8D23xkEhjcOYJwn3g)
+
 
 # 核心思路
 

@@ -1,6 +1,6 @@
 # 一个月2350万，我靠盖洛普把销售死结打开了
 
-> 来源：[https://q07m9lrm5ih.feishu.cn/docx/XvZrdPRGcoy3VyxjkASciGXNnEh](https://q07m9lrm5ih.feishu.cn/docx/XvZrdPRGcoy3VyxjkASciGXNnEh)
+
 
 大家好，我是橙子是锦鲤呀。
 

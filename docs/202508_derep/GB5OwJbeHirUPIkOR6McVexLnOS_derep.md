@@ -1,6 +1,6 @@
 # 从零到百万营收：AI客服实战拆解全记录
 
-> 来源：[https://x17vtyqjqbl.feishu.cn/docx/VBHJdcYY1odVEfxO43IcYkAdnGe](https://x17vtyqjqbl.feishu.cn/docx/VBHJdcYY1odVEfxO43IcYkAdnGe)
+
 
 今年我们的AI客服业务迎来爆发式增长，营收从个位数直接拉到百万级，增速超过十倍。
 

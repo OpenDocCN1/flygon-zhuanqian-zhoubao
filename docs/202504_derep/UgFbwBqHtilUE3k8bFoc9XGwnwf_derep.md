@@ -1,6 +1,6 @@
 # 没背景没人脉，毕业一年也能靠龙哥盟走出0-1
 
-> 来源：[https://shengcaiyoushu01.feishu.cn/docx/GsTjdHdWvoQemoxXFmlcs3CGnXe](https://shengcaiyoushu01.feishu.cn/docx/GsTjdHdWvoQemoxXFmlcs3CGnXe)
+
 
 # 先说我是谁
 

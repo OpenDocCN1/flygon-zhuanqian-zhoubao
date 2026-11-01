@@ -1,6 +1,6 @@
 # 临时起意搞一场年终直播，三天变现1.2万，我踩过的坑和复盘
 
-> 来源：[https://b0attp331p.feishu.cn/docx/MbdtdpvZ8obWQwxmJl2cZ0KUndf](https://b0attp331p.feishu.cn/docx/MbdtdpvZ8obWQwxmJl2cZ0KUndf)
+
 
 大家好，见字如面，见我发财。我是做自媒体IP孵化与新个体创业的张可粒，连续两年年入百万。
 

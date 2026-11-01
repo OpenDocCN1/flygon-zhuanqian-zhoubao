@@ -1,6 +1,6 @@
 # 帮儿子所在幼儿园做小红书招生后，我看懂了操盘手赚“安稳钱”的正确打开方式和常见误区
 
-> 来源：[https://ncn18orsgwl2.feishu.cn/docx/Yoradi6G4oDvgQxWChXcnrAinFd](https://ncn18orsgwl2.feishu.cn/docx/Yoradi6G4oDvgQxWChXcnrAinFd)
+
 
 大家好，我是珍妮。履历上是留学转房产，后来被行业里的前辈一路带飞，接触过美业、教育等多个赛道。有的盘子我变成了自营，有的盘子我继续以代运营的方式在做，借着代运营也在不断孵化操盘手。
 

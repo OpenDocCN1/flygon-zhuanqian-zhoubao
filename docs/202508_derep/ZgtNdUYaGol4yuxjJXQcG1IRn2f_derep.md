@@ -1,6 +1,6 @@
 # 35岁被裁后，我用这套组合拳把 TikTok 流量变成站点订单
 
-> 来源：[飞书文档](https://oktm46nqfx.feishu.cn/docx/ZgtNdUYaGol4yuxjJXQcG1IRn2f)
+
 
 这篇文章是从卖家的角度，把 TikTok 从入门到完成成交的整条链路做了梳理，尤其适合中小商家照着落地；走达人方向的朋友也可以参考。目标只有一个：让更多人在这上面赚到钱。
 

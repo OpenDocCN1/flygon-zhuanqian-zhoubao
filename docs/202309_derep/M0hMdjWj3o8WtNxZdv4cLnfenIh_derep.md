@@ -1,6 +1,6 @@
 # 单人出海也能稳定变现的玩法：Mediabuy 品牌词投放
 
-> 来源：[https://tj51bxige8.feishu.cn/docx/M0hMdjWj3o8WtNxZdv4cLnfenIh](https://tj51bxige8.feishu.cn/docx/M0hMdjWj3o8WtNxZdv4cLnfenIh)
+
 
 先用三组实操数据给大家感受下收益结构：
 

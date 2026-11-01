@@ -1,6 +1,6 @@
 # 单号月入过万，单篇笔记涨粉近三百，为什么说得物依旧是普通人最容易起飞的自媒体赛道
 
-> 来源：[https://jvx6nnxr4va.feishu.cn/docx/Vu77d8PU3o44zuxpTaIcOF6UnCf](https://jvx6nnxr4va.feishu.cn/docx/Vu77d8PU3o44zuxpTaIcOF6UnCf)
+
 
 大家好，我是小又。
 

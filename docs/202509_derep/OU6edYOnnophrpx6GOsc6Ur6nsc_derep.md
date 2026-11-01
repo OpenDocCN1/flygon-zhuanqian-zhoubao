@@ -1,6 +1,6 @@
 # 零成本搞定热榜提醒！半小时配置，之后每天自动送上门
 
-> 来源：[https://l0xoaai7d9t.feishu.cn/docx/OU6edYOnnophrpx6GOsc6Ur6nsc](https://l0xoaai7d9t.feishu.cn/docx/OU6edYOnnophrpx6GOsc6Ur6nsc)
+
 
 大家好，我是 Nancy。
 

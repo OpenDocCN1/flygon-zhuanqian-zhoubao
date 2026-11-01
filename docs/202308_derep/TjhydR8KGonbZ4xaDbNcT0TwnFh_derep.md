@@ -1,6 +1,6 @@
 # 2023版小红书新手起步指南【钱友会】
 
-> 来源：[https://n5tg88533s.feishu.cn/docx/TjhydR8KGonbZ4xaDbNcT0TwnFh](https://n5tg88533s.feishu.cn/docx/TjhydR8KGonbZ4xaDbNcT0TwnFh)
+
 
 手册说明
 

@@ -1,6 +1,6 @@
 # 微信问一问进入2.0变现期，用个人优势搭建一套自动化的流量收割系统
 
-> 来源：[https://dsehhuudnp.feishu.cn/docx/IgZhdk6ZwoUx3DxtqjccdWfinZc](https://dsehhuudnp.feishu.cn/docx/IgZhdk6ZwoUx3DxtqjccdWfinZc)
+
 
 # 先做个自我介绍
 

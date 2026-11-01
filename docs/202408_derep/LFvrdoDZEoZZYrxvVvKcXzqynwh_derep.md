@@ -1,6 +1,6 @@
 # 闲鱼虚拟店做起来了：单日净赚两百多，自动发货躺着也能收钱
 
-> 来源：[https://riodtlbegu.feishu.cn/docx/LFvrdoDZEoZZYrxvVvKcXzqynwh](https://riodtlbegu.feishu.cn/docx/LFvrdoDZEoZZYrxvVvKcXzqynwh)
+
 
 有人说这个标题太直白不够吸睛，我偏要试试效果。
 

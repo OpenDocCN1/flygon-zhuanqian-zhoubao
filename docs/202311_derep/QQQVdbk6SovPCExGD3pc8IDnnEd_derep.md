@@ -1,6 +1,6 @@
 # 小红书选品的核心逻辑：为什么你挑的货总是卖不动？
 
-> 来源：[https://hi428l7bh89.feishu.cn/docx/QQQVdbk6SovPCExGD3pc8IDnnEd](https://hi428l7bh89.feishu.cn/docx/QQQVdbk6SovPCExGD3pc8IDnnEd)
+
 
 朋友们好，我叫小刀，先同步一下背景。在抖音做半无人直播，我和合作主播们累计拿下的GMV已经超过3000万。今年5月转战小红书电商，到10月新开的店铺里，已经有5家单品销量突破5000单。
 

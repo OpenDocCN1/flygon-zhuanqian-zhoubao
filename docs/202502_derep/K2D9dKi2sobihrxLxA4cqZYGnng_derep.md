@@ -1,6 +1,6 @@
 # 3分钟搞定AI精准对话：7套万能指令模板，让表达更高效不再跑偏
 
-> 来源：[https://fvxoq23qyuq.feishu.cn/docx/K2D9dKi2sobihrxLxA4cqZYGnng](https://fvxoq23qyuq.feishu.cn/docx/K2D9dKi2sobihrxLxA4cqZYGnng)
+
 
 大家好，我是小乐。2021年4月加入赚钱社群，程序员出身创业七年。2015年做技术开发，2016年起运营公众号，2017年底辞职成为自由职业者。现在手握50余个公众号矩阵，全网粉丝超40万，长期深耕公域流量，拥有十年新媒体经验，目前全力投入AI领域。
 

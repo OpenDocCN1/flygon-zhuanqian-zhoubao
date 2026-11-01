@@ -1,6 +1,6 @@
 # 零显卡也能跑 Flux！ComfyUI 网页端批量绘图实战手记
 
-> 来源：[https://ktnwm6ohjn.feishu.cn/docx/NXfsdsEx9oVQ5HxotDQcpbFInnd](https://ktnwm6ohjn.feishu.cn/docx/NXfsdsEx9oVQ5HxotDQcpbFInnd)
+
 
 大家好，我是土豆君，平时就爱折腾工具。
 

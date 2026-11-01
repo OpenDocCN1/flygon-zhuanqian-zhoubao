@@ -1,6 +1,6 @@
 # 零基础用 GPT 搭出爬虫，代码都不用自己敲
 
-> 来源：[https://bc8fd5oefm.feishu.cn/docx/F8VxdpYUxovdgkxVeTpcPZLXn4P](https://bc8fd5oefm.feishu.cn/docx/F8VxdpYUxovdgkxVeTpcPZLXn4P)
+
 
 大家好，我是亮仔
 

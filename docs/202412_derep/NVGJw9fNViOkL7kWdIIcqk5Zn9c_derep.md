@@ -1,6 +1,6 @@
 # 用 Cursor 搞定浏览器插件开发
 
-> 来源：[https://hqhhkfm2ink.feishu.cn/docx/UEFrdZDK7oLtskxyxpwcVssInMe](https://hqhhkfm2ink.feishu.cn/docx/UEFrdZDK7oLtskxyxpwcVssInMe)
+
 
 # 1、环境准备
 

@@ -1,6 +1,6 @@
 # 别再卡在灰豚/考古类数据站了，这套思路直接上手
 
-> 来源：[https://bc8fd5oefm.feishu.cn/docx/SrOXdYezPogfRnx4wnAcb3w8nVR](https://bc8fd5oefm.feishu.cn/docx/SrOXdYezPogfRnx4wnAcb3w8nVR)
+
 
 本文共拆成三块来看，
 第一块，干嘛要去爬这类数据中转站

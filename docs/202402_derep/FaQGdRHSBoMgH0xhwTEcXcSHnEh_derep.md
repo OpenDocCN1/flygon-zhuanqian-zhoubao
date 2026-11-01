@@ -1,6 +1,6 @@
 # 七日五万加：海外数字人从翻车到回血的实操复盘
 
-> 来源：[https://pe3zzbrwvl.feishu.cn/docx/FaQGdRHSBoMgH0xhwTEcXcSHnEh](https://pe3zzbrwvl.feishu.cn/docx/FaQGdRHSBoMgH0xhwTEcXcSHnEh)
+
 
 大家好，我是Pony。去年加入赚钱后基本就是潜水状态，一年多几乎没有存在感。这次鼓起勇气，把过去七天跌宕起伏的实操全盘摊开。
 

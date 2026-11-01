@@ -1,6 +1,6 @@
 # 负债求职期，我靠小报童分销撬动半年百万流水，净赚40万+
 
-> 来源：[https://ie5wfc519n.feishu.cn/docx/TDbIdnYvToSNzpxp1CGcG7cwn1b](https://ie5wfc519n.feishu.cn/docx/TDbIdnYvToSNzpxp1CGcG7cwn1b)
+
 
 大家好，我是水龙，也是赚钱新圈的成员。上期我分享的文化衫打法得到了很多朋友的认可，甚至被官方公众号收录。那篇之后，我把文化衫业务主要聚焦在为自媒体IP做定制。在服务的过程中，我自己摸索出了自媒体变现的路径。
 

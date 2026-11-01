@@ -1,6 +1,6 @@
 # 别人都在刷项目，我却靠一个积分榜把门票翻了4倍
 
-> 来源：[https://eqc9f6vzuhv.feishu.cn/docx/Ifz1dXrkso0swUx5AY1cyBmUnGd](https://eqc9f6vzuhv.feishu.cn/docx/Ifz1dXrkso0swUx5AY1cyBmUnGd)
+
 
 晚上好呀各位圈友，很开心又遇到你了。
 

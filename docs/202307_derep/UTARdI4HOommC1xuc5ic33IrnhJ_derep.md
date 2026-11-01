@@ -1,6 +1,6 @@
 # 先做功课、定制心意礼、线下深聊：一个赚钱新人可复制的同城破冰打法
 
-> 来源：[https://fcjmogm9bc.feishu.cn/docx/UTARdI4HOommC1xuc5ic33IrnhJ](https://fcjmogm9bc.feishu.cn/docx/UTARdI4HOommC1xuc5ic33IrnhJ)
+
 
 大家好，我是赚钱龙珠圈友理白。线上我算社牛，线下却有点社恐。5月27日是我第一次去福州同城会，用定制书籍破冰的方式，很快就跟一群有钱、有见识、有格局的圈友建立了联系，碰撞出了好几条新业务思路，也为以后合作埋下了种子。
 

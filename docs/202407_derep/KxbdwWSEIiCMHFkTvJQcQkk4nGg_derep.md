@@ -1,6 +1,6 @@
 # 《4天卖出6万，靠的不是话术，是把自卑的自己翻盘成月度销冠》
 
-> 来源：[https://lxfgt1wpdnk.feishu.cn/docx/YYQ5dDZSWoStYbx6s2hcZMm8n6b](https://lxfgt1wpdnk.feishu.cn/docx/YYQ5dDZSWoStYbx6s2hcZMm8n6b)
+
 
 嗨，大家好，我是花花。
 

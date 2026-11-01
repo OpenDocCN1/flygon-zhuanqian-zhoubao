@@ -1,6 +1,6 @@
 # 小红书从0起号到月入15万：半个月起店出单的完整实操拆解
 
-> 来源：[https://nwtzrwy6dsb.feishu.cn/docx/SHp2dGZtLoBQ11x1KaRceprgnOh](https://nwtzrwy6dsb.feishu.cn/docx/SHp2dGZtLoBQ11x1KaRceprgnOh)
+
 
 先做个简单自我介绍，我叫大龙，00后，去年七月刚从学校毕业。
 

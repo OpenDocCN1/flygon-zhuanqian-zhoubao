@@ -1,6 +1,6 @@
 # 一条短视频撬动全网：Youtube Shorts 一鱼多吃实操复盘，单条变现3000+、粉丝破10万、播放5千万
 
-> 来源：[https://rcnceg0u9uzz.feishu.cn/docx/QzqUdxyUNopPn0xFDPfcoIoPnud](https://rcnceg0u9uzz.feishu.cn/docx/QzqUdxyUNopPn0xFDPfcoIoPnud)
+
 
 # 写在前面
 

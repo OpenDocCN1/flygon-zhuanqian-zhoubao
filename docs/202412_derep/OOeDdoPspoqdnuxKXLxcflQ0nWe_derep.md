@@ -1,6 +1,6 @@
 # 7天靠ChatGPT撸出一个AI私域模拟器App，直接到手1万+
 
-> 来源：[https://wandouyin.feishu.cn/docx/OOeDdoPspoqdnuxKXLxcflQ0nWe](https://wandouyin.feishu.cn/docx/OOeDdoPspoqdnuxKXLxcflQ0nWe)
+
 
 大家好，我是刘笑长。
 

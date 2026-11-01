@@ -1,6 +1,6 @@
 # 25天拿下一个海外独立站B2B订单，入账4551.7美元，我到底踩对了哪几步？
 
-> 来源：[https://w09ipxgwb2.feishu.cn/docx/VILid7sleoZ6puxkchxcRM9vn6g](https://w09ipxgwb2.feishu.cn/docx/VILid7sleoZ6puxkchxcRM9vn6g)
+
 
 ![](img/b0b8a6a93ba67d79ce9915f9dbfed545.png)
 

@@ -1,6 +1,6 @@
 # 用废号做矩阵，我在小红书把自媒体引流玩明白了
 
-> 来源：[https://giwb0zv0cv.feishu.cn/docx/Vwhyd4Ctpom71uxmOW8cEuOPn9g](https://giwb0zv0cv.feishu.cn/docx/Vwhyd4Ctpom71uxmOW8cEuOPn9g)
+
 
 很久没出来说话了。上一次分享已经是去年了，一眨眼过去整整一年。去年三月刚从杭州聚会回来，颈椎就彻底炸了，躺了一年多，焦虑抑郁一起上。靠看书自救、看病折腾，终于缓过来了。想说的是，我们这群常年对着电脑手机的人，颈腰问题迟早会找上门，能早预防早干预就早一点。
 

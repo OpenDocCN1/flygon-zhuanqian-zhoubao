@@ -1,6 +1,6 @@
 # 小红书做虚拟店，冷门品才是弯道超车的捷径，这4套打法直接抄
 
-> 来源：[https://tvwjtflpi4w.feishu.cn/docx/TCrxdLajPoj2eSxGDnicna29nMb](https://tvwjtflpi4w.feishu.cn/docx/TCrxdLajPoj2eSxGDnicna29nMb)
+
 
 # 一、什么叫真正的冷门虚拟品
 

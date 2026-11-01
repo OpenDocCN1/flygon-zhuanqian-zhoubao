@@ -1,6 +1,6 @@
 # 十天内拿到首个正反馈：一个纯小白的跨境游小红书实操复盘
 
-> 来源：[https://fxx6d3i9bl.feishu.cn/docx/MhEfdzV4GobIUWx5RvOce2fCnyb](https://fxx6d3i9bl.feishu.cn/docx/MhEfdzV4GobIUWx5RvOce2fCnyb)
+
 
 # 前言
 

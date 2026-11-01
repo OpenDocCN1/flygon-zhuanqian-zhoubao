@@ -1,6 +1,6 @@
 # 零代码背景也能靠AI撸出Python算法，把费比管得更准
 
-> 来源：[https://wsbj757q14.feishu.cn/docx/JbvtdIwxjobzZxxiyw8cQZY4nqc](https://wsbj757q14.feishu.cn/docx/JbvtdIwxjobzZxxiyw8cQZY4nqc)
+
 
 大家好，我是来一，正在一家年营收破百亿的电商公司担任数据产品负责人，平时特别喜欢把AI大模型的落地玩法琢磨透。之前已经连载过几篇实践笔记：
 

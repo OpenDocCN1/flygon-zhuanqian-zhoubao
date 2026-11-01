@@ -1,6 +1,6 @@
 # 300位线下店主实战复盘：小红书到底怎样才能把流量变成客户
 
-> 来源：[https://h4zarzxodm.feishu.cn/docx/GvPfdwl5hob3wax1rUTcKUpynae](https://h4zarzxodm.feishu.cn/docx/GvPfdwl5hob3wax1rUTcKUpynae)
+
 
 大家好，我是谢无敌，闪亮猫传媒创始人。2023年我跟着龙哥盟的播客航海，独立做了档个人栏目【谢无敌茶访谈】，佛系更新的情况下粉丝也破了一万。
 

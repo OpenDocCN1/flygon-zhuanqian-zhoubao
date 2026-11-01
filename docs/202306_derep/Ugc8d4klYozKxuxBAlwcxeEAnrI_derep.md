@@ -1,6 +1,6 @@
 # 三分钟上手！这款GPT浏览器神器，让阅读与学习瞬间提速
 
-> 来源：[https://idxal7pugq.feishu.cn/docx/Ugc8d4klYozKxuxBAlwcxeEAnrI](https://idxal7pugq.feishu.cn/docx/Ugc8d4klYozKxuxBAlwcxeEAnrI)
+
 
 ## 〇、挖到的宝藏工具
 

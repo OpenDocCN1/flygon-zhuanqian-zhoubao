@@ -1,6 +1,6 @@
 # Anthropic 官方指南：想让 AI 更好用，先别急着加戏
 
-> 来源：[https://aiawaken.feishu.cn/docx/KnIddyK9jowzHdxqW2JcgfSqnoe](https://aiawaken.feishu.cn/docx/KnIddyK9jowzHdxqW2JcgfSqnoe)
+
 
 你好，我是老周。最近我去翻了 Anthropic 发布的报告，官方给出的结论有点反直觉：
 

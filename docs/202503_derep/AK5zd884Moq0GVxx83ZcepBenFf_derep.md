@@ -1,6 +1,6 @@
 # YouTube大动作上线：长视频中贴片广告自动寻位，创作者收益迎来新变量
 
-> 来源：[https://rlwxa0zgke.feishu.cn/docx/AK5zd884Moq0GVxx83ZcepBenFf](https://rlwxa0zgke.feishu.cn/docx/AK5zd884Moq0GVxx83ZcepBenFf)
+
 
 前言：紧盯YouTube官方动向很重要，就在昨天我刚捕捉到这条更新提示
 

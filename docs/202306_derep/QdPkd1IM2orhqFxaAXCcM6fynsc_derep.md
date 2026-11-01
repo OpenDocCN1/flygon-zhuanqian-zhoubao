@@ -1,6 +1,6 @@
 # 位置再好，门头不说话，客人也会走过路过不进来看
 
-> 来源：[https://h24wtd3rug.feishu.cn/docx/QdPkd1IM2orhqFxaAXCcM6fynsc](https://h24wtd3rug.feishu.cn/docx/QdPkd1IM2orhqFxaAXCcM6fynsc)
+
 
 总有人在吐槽：地段花了大价钱拿下，租金扛得住，人流也看着不少，就是没人往里迈。这到底是为什么？
 

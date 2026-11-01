@@ -1,6 +1,6 @@
 # 小红书虚拟资料引流到本地商家合作，我的实操笔记
 
-> 来源：[https://jwc04jmpug6.feishu.cn/docx/Qp0RdQdajoZJ4AxZafJcv7e5nFg](https://jwc04jmpug6.feishu.cn/docx/Qp0RdQdajoZJ4AxZafJcv7e5nFg)
+
 
 大家好，我是巧克力。2025年7月11日正式成为赚钱的新成员，9月份第一次跟着【小红书虚拟资料引流】航海做项目，主攻考研赛道，最终拿到优秀学员。没想到年底被邀在12月担任航海教练，这段经历要特别感谢赚钱。
 

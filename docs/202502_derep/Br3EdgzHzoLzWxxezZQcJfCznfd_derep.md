@@ -1,6 +1,6 @@
 # 移民赛道突变：17年老兵为何从线下转战线上，三个月做到500万GMV
 
-> 来源：[https://doaumdpwbp.feishu.cn/docx/Br3EdgzHzoLzWxxezZQcJfCznfd](https://doaumdpwbp.feishu.cn/docx/Br3EdgzHzoLzWxxezZQcJfCznfd)
+
 
 大家好，我是安琪。在开口分享经历之前，真的想先说声谢谢。非常感恩龙哥盟的创始人龙哥，给了一个像我这样刚入自媒体的新手如此好的学习和展示平台。也要感谢那位把我引荐给珍妮子的朋友，珍妮子对我的帮助简直是点石成金。在这个网红遍地走的时代，她硬是为我这个门外汉打开了一扇门，让我从迷茫里走出来，看见了更广阔的可能。
 

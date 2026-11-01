@@ -1,6 +1,6 @@
 # 从0到月入过万：我的闲鱼虚拟产品实操复盘
 
-> 来源：[https://fayabc6ou7j.feishu.cn/docx/XkbXdq2RwoxyP9xgMc2cEzE4nMh](https://fayabc6ou7j.feishu.cn/docx/XkbXdq2RwoxyP9xgMc2cEzE4nMh)
+
 
 大家好，我是媚子。
 

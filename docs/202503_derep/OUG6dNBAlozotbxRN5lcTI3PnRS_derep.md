@@ -1,6 +1,6 @@
 # 双号高级YPP达成：动物示警赛道从试错到放量的复盘记录
 
-> 来源：[https://ab7ctae1sc.feishu.cn/docx/OUG6dNBAlozotbxRN5lcTI3PnRS](https://ab7ctae1sc.feishu.cn/docx/OUG6dNBAlozotbxRN5lcTI3PnRS)
+
 
 # 总览
 

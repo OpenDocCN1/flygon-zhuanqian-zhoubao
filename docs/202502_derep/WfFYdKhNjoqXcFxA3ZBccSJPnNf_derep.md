@@ -1,6 +1,6 @@
 # 用Cursor零基础搭出小红书图文批量工厂
 
-> 来源：[https://si7o8nqh3o3.feishu.cn/docx/WfFYdKhNjoqXcFxA3ZBccSJPnNf](https://si7o8nqh3o3.feishu.cn/docx/WfFYdKhNjoqXcFxA3ZBccSJPnNf)
+
 
 大家好，我是千久！一个不懂代码也能做工具的实践者。今天带你拆解一套小红书图文批量生产的搭建思路，用Cursor就能完成。整体门槛不高，难点集中在调试阶段容易卡住。核心就在于选型，两条路：一种是借助内置的 python-pptx 库，跑起来快但文字样式、排版精度很难把控；另一种是调用本地的 PowerPoint，通过 COM 接口操控，效果更贴近真实但隐藏窗口时极易触发死循环。
 

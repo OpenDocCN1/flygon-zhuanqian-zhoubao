@@ -1,6 +1,6 @@
 # 同样的赛道，为什么总有人先跑出来？
 
-> 来源：[https://majl4i7pcp.feishu.cn/docx/FJhsdlSJwoD2kjxSAjFcNycMnLb](https://majl4i7pcp.feishu.cn/docx/FJhsdlSJwoD2kjxSAjFcNycMnLb)
+
 
 我已经跟了不少期的航海，过去一直站在船员位置上看操作。第一次被推上教练位，说实话手心全是汗。我担心自己讲错了，担心一次点评把圈友带偏。犹豫之余还是问了自己一句：人家能成，我为什么不行？
 

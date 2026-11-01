@@ -1,6 +1,6 @@
 # 闲鱼网页新消息提醒插件实战制作记录
 
-> 来源：[https://w63nbfedzw.feishu.cn/docx/HN2Md8wzaomnG0xf71tcdbYynTf](https://w63nbfedzw.feishu.cn/docx/HN2Md8wzaomnG0xf71tcdbYynTf)
+
 
 # 开头
 

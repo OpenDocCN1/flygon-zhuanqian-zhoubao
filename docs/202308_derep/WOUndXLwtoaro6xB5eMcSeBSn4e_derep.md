@@ -1,6 +1,6 @@
 # 0基础入局小红书旅游赛道，首周流水6.2万的复盘拆解
 
-> 出处：[https://r6kr7evxni.feishu.cn/docx/WOUndXLwtoaro6xB5eMcSeBSn4e](https://r6kr7evxni.feishu.cn/docx/WOUndXLwtoaro6xB5eMcSeBSn4e)
+
 
 大家好，我是阿渡。年初在赚钱社区分享过两篇干货，一篇讲普通人逆袭经历，一篇讲助听器线下门店如何用小红书获客，有兴趣可以翻看：
 

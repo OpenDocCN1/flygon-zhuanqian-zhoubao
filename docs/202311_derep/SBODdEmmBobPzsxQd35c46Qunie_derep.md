@@ -1,6 +1,6 @@
 # 一个资质普通的女生，用三件成功的尝试，30岁前收割了第一个100万
 
-> 来源：[https://e1lvpjb5e3.feishu.cn/docx/SBODdEmmBobPzsxQd35c46Qunie](https://e1lvpjb5e3.feishu.cn/docx/SBODdEmmBobPzsxQd35c46Qunie)
+
 
 先做个简单的自我介绍。
 

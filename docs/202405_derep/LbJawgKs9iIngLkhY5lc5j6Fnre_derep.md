@@ -1,6 +1,6 @@
 # 小红书高客单赛道实战拆解：香港身份项目的内容与转化玩法
 
-> 来源：[https://sjs3mbt2d0.feishu.cn/docx/KbDHdQ2XRoJEEexYgbUcFDp4nAf](https://sjs3mbt2d0.feishu.cn/docx/KbDHdQ2XRoJEEexYgbUcFDp4nAf)
+
 
 本拆解聚焦私域沉淀+高客单变现的模型，拆解范围不涉及IP孵化、直播带货及信息流广告投放。IP与直播的成功要素复制难度高，故本篇只讲可批量复制的内容打法，即图文+短视频在小红书平台的可操作路径。红海打法的迁移往往能在蓝海赛道产生放大效应。
 

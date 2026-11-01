@@ -1,6 +1,6 @@
 # 风向标拆解第3期：靠“偷懒”变现，一个双击记账快捷指令的赚钱逻辑
 
-> 来源：[https://v5848xh6xy.feishu.cn/docx/DFA9dsTVzoQPPsxnnCdcCvg8nuf](https://v5848xh6xy.feishu.cn/docx/DFA9dsTVzoQPPsxnnCdcCvg8nuf)
+
 
 # 一、一个靠偷懒卖爆的记账小工具
 

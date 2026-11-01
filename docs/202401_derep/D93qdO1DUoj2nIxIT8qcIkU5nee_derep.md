@@ -1,6 +1,6 @@
 # 以AI助力撰稿，配合职聊平台承接订单，月收益6000+的可行路径
 
-> 来源：[https://cxqeimz77vr.feishu.cn/docx/D93qdO1DUoj2nIxIT8qcIkU5nee](https://cxqeimz77vr.feishu.cn/docx/D93qdO1DUoj2nIxIT8qcIkU5nee)
+
 
 各位伙伴好，我是饭饭。
 

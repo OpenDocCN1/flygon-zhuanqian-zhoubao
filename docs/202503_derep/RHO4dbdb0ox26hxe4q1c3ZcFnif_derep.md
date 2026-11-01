@@ -1,6 +1,6 @@
 # 围炉夜谈：我与梁小A（书法行业）
 
-> 来源：[https://jx8j59ahkjb.feishu.cn/docx/RHO4dbdb0ox26hxe4q1c3ZcFnif](https://jx8j59ahkjb.feishu.cn/docx/RHO4dbdb0ox26hxe4q1c3ZcFnif)
+
 
 这一轮围炉夜谈里，大家把自己的实战心得摊开了聊，焦点都集中在教育赛道上。从虚拟资料的变现路径，到K12的变革动向，再到线上课程的产品搭建、社群的日常运营，以及个人的创业试错，话题覆盖面很广。
 

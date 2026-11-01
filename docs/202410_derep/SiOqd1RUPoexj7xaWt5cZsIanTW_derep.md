@@ -1,6 +1,6 @@
 # 出国游带货实操拆解
 
-> 来源：[https://e2nzhrhs9a.feishu.cn/docx/SiOqd1RUPoexj7xaWt5cZsIanTW](https://e2nzhrhs9a.feishu.cn/docx/SiOqd1RUPoexj7xaWt5cZsIanTW)
+
 
 大家好，我是段天涯，目前主攻高客单业务。
 

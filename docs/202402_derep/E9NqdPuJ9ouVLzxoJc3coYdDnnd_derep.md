@@ -1,6 +1,6 @@
 # 用AI把长文阅读提速：让GPT成为你的私人读书管家
 
-> 来源：[https://t16jzwqrzjx.feishu.cn/docx/E9NqdPuJ9ouVLzxoJc3coYdDnnd](https://t16jzwqrzjx.feishu.cn/docx/E9NqdPuJ9ouVLzxoJc3coYdDnnd)
+
 
 # 开场说在前头
 

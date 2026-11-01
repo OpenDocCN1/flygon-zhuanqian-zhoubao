@@ -1,6 +1,6 @@
 # 越不焦虑，越不拖延：把执行力变成一套可复用的系统
 
-> 来源：[https://d8ez8yi1x2.feishu.cn/docx/OxO5dfvHAoOFbHxPfSmcSASYnlf](https://d8ez8yi1x2.feishu.cn/docx/OxO5dfvHAoOFbHxPfSmcSASYnlf)
+
 
 大家好，我是小雨，20岁宝妈，同时创业带娃。靠自媒体做到月入3-5W，目前已经带了1万+学员在做。很多人问我怎么做到的，核心其实就一个字：执行。
 

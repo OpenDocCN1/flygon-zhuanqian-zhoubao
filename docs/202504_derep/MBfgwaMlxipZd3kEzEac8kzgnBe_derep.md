@@ -1,6 +1,6 @@
 # 一年不到从赚钱小白到能带人，我是怎么走过来的
 
-> 来源：[https://shengcaiyoushu01.feishu.cn/docx/Nb0MdPiUGovvAUxSBEJckzzXnNf](https://shengcaiyoushu01.feishu.cn/docx/Nb0MdPiUGovvAUxSBEJckzzXnNf)
+
 
 # 一、我是谁
 

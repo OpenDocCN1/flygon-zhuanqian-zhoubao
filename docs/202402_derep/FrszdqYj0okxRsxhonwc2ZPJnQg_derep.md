@@ -1,6 +1,6 @@
 # 一个人把婚礼从零搭到竣工，省下3万块的完整复盘
 
-> 来源：[https://j44nyrp7oj.feishu.cn/docx/FrszdqYj0okxRsxhonwc2ZPJnQg](https://j44nyrp7oj.feishu.cn/docx/FrszdqYj0okxRsxhonwc2ZPJnQg)
+
 
 大家好，我是艺荷，90后自由职业者，也是签约平台的写作者。
 

@@ -1,8 +1,8 @@
 # Midjourney 新手入门手册（完整流程版）
 
-> 来源：[https://vxcni1izs8.feishu.cn/docx/ATzUdYFxCo8QtbxMAIaceDJmnQc](https://vxcni1izs8.feishu.cn/docx/ATzUdYFxCo8QtbxMAIaceDJmnQc)  
+
 > 内容出品人：天辉  
-> 手册出品方：AI绘画联盟团队（https://t.zsxq.com/0ceTb4Cgm）  
+
 > 出品时间：2023 年 03 月 16 日  
 
 这本手册的目的，是带大家快速进入 AI 绘图的入门场景，一边打好基础，一边积累常用的词汇表达。如果你希望能立刻跳到特定内容，可以用 Ctrl+F / command+F 直接搜索「关键字/词」，很快就能定位。

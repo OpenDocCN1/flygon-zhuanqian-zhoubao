@@ -1,6 +1,6 @@
 # 风向标拆解第2期｜小红书身心灵账号如何变现赚钱——拆解华尔街之狼
 
-> 来源：[https://qc7u7ru59d.feishu.cn/docx/HtTAdpRpDowFawxyo2DcUv9znif](https://qc7u7ru59d.feishu.cn/docx/HtTAdpRpDowFawxyo2DcUv9znif)
+
 
 注：以下案例中的人还没通过我的好友，通过之后我会把后端的产品和利润计算补上。大家先凑合看，见谅。😭😭😭
 

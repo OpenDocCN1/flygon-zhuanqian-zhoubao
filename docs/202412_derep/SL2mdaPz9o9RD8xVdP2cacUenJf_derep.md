@@ -1,6 +1,6 @@
 # 数字人玩转视频号航海，两条视频破20万播放，GMV破7000 实战复盘
 
-> 来源：[https://lqpqitvyxqr.feishu.cn/docx/SL2mdaPz9o9RD8xVdP2cacUenJf](https://lqpqitvyxqr.feishu.cn/docx/SL2mdaPz9o9RD8xVdP2cacUenJf)
+
 
 # 我是谁
 

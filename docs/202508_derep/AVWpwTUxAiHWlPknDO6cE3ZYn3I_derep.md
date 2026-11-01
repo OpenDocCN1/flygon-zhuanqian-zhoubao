@@ -1,6 +1,6 @@
 # 一个人带 AI 撬动首月月入过千、七十天斩获一万用户
 
-> 来源：[https://lcn6h7hs2n83.feishu.cn/docx/QjlsdSUqPoAxbrxLTpJcfbmZn2b](https://lcn6h7hs2n83.feishu.cn/docx/QjlsdSUqPoAxbrxLTpJcfbmZn2b)
+
 
 核心战绩：
 

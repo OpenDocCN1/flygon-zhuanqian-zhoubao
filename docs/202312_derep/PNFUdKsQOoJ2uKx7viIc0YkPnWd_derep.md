@@ -1,6 +1,6 @@
 # 从零到首单利润7000+：大四生用小红书笔记撬动境外游精准客户的实操拆解
 
-> 来源：[https://m0f9nvch48s.feishu.cn/docx/PNFUdKsQOoJ2uKx7viIc0YkPnWd](https://m0f9nvch48s.feishu.cn/docx/PNFUdKsQOoJ2uKx7viIc0YkPnWd)
+
 
 # 先说下我是谁
 

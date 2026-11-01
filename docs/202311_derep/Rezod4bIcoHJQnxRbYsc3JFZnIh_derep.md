@@ -1,6 +1,6 @@
 # 九成人都忽略的小红书封号雷区，号没发出去就凉了
 
-> 来源：[https://nivut760ftk.feishu.cn/docx/Rezod4bIcoHJQnxRbYsc3JFZnIh](https://nivut760ftk.feishu.cn/docx/Rezod4bIcoHJQnxRbYsc3JFZnIh)
+
 
 ![](img/d196fa18fafe25aa82a43073c7e5e4bf.png)
 

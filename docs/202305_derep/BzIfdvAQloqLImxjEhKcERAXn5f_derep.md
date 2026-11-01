@@ -1,6 +1,6 @@
 # 实操复盘：4天资料整理撬动日均180+私域进群，关键不是资料本身，是后端附加方案！
 
-> 来源：[https://t6lslyeg22.feishu.cn/docx/BzIfdvAQloqLImxjEhKcERAXn5f](https://t6lslyeg22.feishu.cn/docx/BzIfdvAQloqLImxjEhKcERAXn5f)
+
 
 # 为什么资料整理是当下的高杠杆入口？
 

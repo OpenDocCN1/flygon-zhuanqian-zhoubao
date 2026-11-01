@@ -1,6 +1,6 @@
 # 我用 Cursor 打了一个公众号代运营分发文章的小程序
 
-> 来源：[https://si06f5z4e71.feishu.cn/docx/H4FCdSgpGoZuWZxXEeFcjVlkn6f](https://si06f5z4e71.feishu.cn/docx/H4FCdSgpGoZuWZxXEeFcjVlkn6f)
+
 
 点子是怎么来的
 

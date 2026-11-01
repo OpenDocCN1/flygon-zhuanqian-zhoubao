@@ -1,6 +1,6 @@
 # 用飞书多维表格+DeepSeek，把重复工作变成批量流水线
 
-> 来源：[https://u604y5x4sg.feishu.cn/docx/Tjyod2OWxodVoKx609cclGP8nDf](https://u604y5x4sg.feishu.cn/docx/Tjyod2OWxodVoKx609cclGP8nDf)
+
 
 大家好，我是哆元
 

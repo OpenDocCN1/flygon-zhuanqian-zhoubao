@@ -1,6 +1,6 @@
 # 用AI产品拆解，彻底搞懂MVP该怎么规划
 
-> 来源：[https://bqmg6drbq77.feishu.cn/docx/Ifafdu8awoS9YXxRh4ScjTw2nHc](https://bqmg6drbq77.feishu.cn/docx/Ifafdu8awoS9YXxRh4ScjTw2nHc)
+
 
 ![](img/786a9cc3816abe3612a1e3c89b31b41b.png)
 

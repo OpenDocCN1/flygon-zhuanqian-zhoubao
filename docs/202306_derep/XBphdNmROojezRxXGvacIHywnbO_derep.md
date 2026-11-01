@@ -1,6 +1,6 @@
 # 一个对公账户收齐50个公众号流量主收益，账号与收款全搞定
 
-> 来源：[https://wirt1hqfsv.feishu.cn/docx/XBphdNmROojezRxXGvacIHywnbO](https://wirt1hqfsv.feishu.cn/docx/XBphdNmROojezRxXGvacIHywnbO)
+
 
 各位同行大家好，我是花甲刺客，一直深耕搜一搜赛道的老玩家。
 

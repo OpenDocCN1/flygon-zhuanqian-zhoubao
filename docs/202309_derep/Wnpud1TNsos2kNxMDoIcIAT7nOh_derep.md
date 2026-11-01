@@ -1,6 +1,6 @@
 # 零囤货首秀破600，上海日式跳蚤市场我是怎么玩转的
 
-> 来源：[https://cwtgtn5fe5d.feishu.cn/docx/Wnpud1TNsos2kNxMDoIcIAT7nOh](https://cwtgtn5fe5d.feishu.cn/docx/Wnpud1TNsos2kNxMDoIcIAT7nOh)
+
 
 ![](img/d1ca47e2eef847d25ca7f0301808fab8.png)
 

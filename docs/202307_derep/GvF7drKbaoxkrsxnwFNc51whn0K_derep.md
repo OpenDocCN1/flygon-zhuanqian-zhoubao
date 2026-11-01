@@ -1,6 +1,6 @@
 # 十几分钟上手AI绘图，用Stable Diffusion做出流光出片效果
 
-> 来源：[https://vchmk6v2g8.feishu.cn/docx/GvF7drKbaoxkrsxnwFNc51whn0K](https://vchmk6v2g8.feishu.cn/docx/GvF7drKbaoxkrsxnwFNc51whn0K)
+
 
 最近那种光影感十足的SD作品在网上到处都是，相关的教学帖也铺天盖地。可惜绝大多数教程都直接一句“用Stable Diffusion就能做”，却不讲从零开始怎么跑起来。
 

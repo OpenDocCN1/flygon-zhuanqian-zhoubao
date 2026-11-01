@@ -1,6 +1,6 @@
 # 准备了一年，高考季七天入账三万+：我的志愿填报实战复盘
 
-> 来源：[https://dimxr3clz1.feishu.cn/docx/FDhJdtZjvovSkRxM3EScsAkAnsf](https://dimxr3clz1.feishu.cn/docx/FDhJdtZjvovSkRxM3EScsAkAnsf)
+
 
 我们总是失败，但偶尔会赢 - 尼古拉斯.涛
 

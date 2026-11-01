@@ -1,6 +1,6 @@
 # Sora 影像＋数字人开口：一次跨界联动的实操拆解
 
-> 来源：[https://vow6kdbiak.feishu.cn/docx/V5RQdya7ZoawKhxkAlfctX5Gnch](https://vow6kdbiak.feishu.cn/docx/V5RQdya7ZoawKhxkAlfctX5Gnch)
+
 
 最近把 Sora 生成的影像和数字人嘴型同步做成了一条演示视频。
 

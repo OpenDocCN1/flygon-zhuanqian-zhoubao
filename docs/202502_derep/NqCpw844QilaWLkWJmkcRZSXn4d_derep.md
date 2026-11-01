@@ -1,6 +1,6 @@
 # 用AI在微博上跑了54天，我涨了6600多粉
 
-> 来源：[https://nvztw3c0cgc.feishu.cn/docx/QBQ6dMDXyoArWExScCwczNFhnnf](https://nvztw3c0cgc.feishu.cn/docx/QBQ6dMDXyoArWExScCwczNFhnnf)
+
 
 大家好，我是自在
 

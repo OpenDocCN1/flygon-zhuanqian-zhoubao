@@ -1,6 +1,6 @@
 # 零基础也能搞定：用 Cursor AI 全程上手闲鱼采集插件开发实战
 
-> 来源：[https://evun4wpmxl9.feishu.cn/docx/HyGYdJvmFoExGnx3MY2cs9rrnvf](https://evun4wpmxl9.feishu.cn/docx/HyGYdJvmFoExGnx3MY2cs9rrnvf)
+
 
 AI 真的卷起来了，现在身边认可它的人只多不少。
 

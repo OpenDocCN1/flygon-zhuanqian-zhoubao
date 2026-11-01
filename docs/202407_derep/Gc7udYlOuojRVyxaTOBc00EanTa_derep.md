@@ -1,6 +1,6 @@
 # 别瞎考了，先搞清楚证的价值层级
 
-> 来源：[https://lxkvj39q93t.feishu.cn/docx/Gc7udYlOuojRVyxaTOBc00EanTa](https://lxkvj39q93t.feishu.cn/docx/Gc7udYlOuojRVyxaTOBc00EanTa)
+
 
 # 先做个自我介绍
 

@@ -1,6 +1,6 @@
 # 抖音蓝海选品的实操打法
 
-> 来源：[https://kib0lcw2xe.feishu.cn/docx/T744dgW9yoT00VxzZIXccdUlnCd](https://kib0lcw2xe.feishu.cn/docx/T744dgW9yoT00VxzZIXccdUlnCd)
+
 
 赚钱的伙伴们大家好，我是古辛，目前在负责选品航海的教练工作，今天聊聊团队现在正在跑的抖音选品思路。
 

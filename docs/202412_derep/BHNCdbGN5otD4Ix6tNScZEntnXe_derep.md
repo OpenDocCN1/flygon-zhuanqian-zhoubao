@@ -1,6 +1,6 @@
 # 十天突破两千粉：我用 AI+音乐在 YouTube 的起号实战拆解
 
-> 来源：[https://o3r5flroio.feishu.cn/docx/BHNCdbGN5otD4Ix6tNScZEntnXe](https://o3r5flroio.feishu.cn/docx/BHNCdbGN5otD4Ix6tNScZEntnXe)
+
 
 ### 1. 起点与结果
 

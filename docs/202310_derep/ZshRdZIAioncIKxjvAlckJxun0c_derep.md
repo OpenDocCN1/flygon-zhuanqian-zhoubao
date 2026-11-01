@@ -1,6 +1,6 @@
 # 2小时半搞定！微软×领英「生成式AI职业证书」速通实操笔记
 
-> 来源：[https://kqubish8iq0.feishu.cn/docx/ZshRdZIAioncIKxjvAlckJxun0c](https://kqubish8iq0.feishu.cn/docx/ZshRdZIAioncIKxjvAlckJxun0c)
+
 
 # 开头先说清
 

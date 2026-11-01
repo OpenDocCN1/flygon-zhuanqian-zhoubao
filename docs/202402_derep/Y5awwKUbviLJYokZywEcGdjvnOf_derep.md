@@ -1,6 +1,6 @@
 # 风向标拆解第3期：把爸妈带上巡演路，老年研学这块蛋糕怎么吃
 
-> 来源：[https://bxuta4nuw1a.feishu.cn/docx/F1BZd0h1koVm8PxUH9lcVS1Nneh](https://bxuta4nuw1a.feishu.cn/docx/F1BZd0h1koVm8PxUH9lcVS1Nneh)
+
 
 最近在刷直播，弹幕里全是“学书法”“学唱歌”“学朗诵”“学走秀”。起得早一点你就能看到，成片的直播间正用这些内容填满退休人群的空闲时光。
 

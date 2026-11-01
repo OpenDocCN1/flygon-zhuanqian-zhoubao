@@ -1,6 +1,6 @@
 # 从设计岗到闲鱼到30万+，这两年副业路我踩了哪些坑（上）
 
-> 来源：[https://p2ls2mp3ij.feishu.cn/docx/XmpOd4X0Qos10mxeT3pccrKvnad](https://p2ls2mp3ij.feishu.cn/docx/XmpOd4X0Qos10mxeT3pccrKvnad)
+
 
 # 一、我是谁
 

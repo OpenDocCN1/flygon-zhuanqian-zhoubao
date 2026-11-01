@@ -1,6 +1,6 @@
 零基础也能上手的GPT约稿赚钱完整教程
 
-> 原帖地址：https://lv9qj6hfr4z.feishu.cn/docx/GG5MdQYCgoWOhDxdSQbc4zUgnDc
+
 
 上次发的那篇主要讲了我的赚钱思路和整体框架，评论区有不少人说我光谈模式不给干货。行，今天这篇就来点能直接照做的，把那些用得上的细节全摊开讲清楚。
 

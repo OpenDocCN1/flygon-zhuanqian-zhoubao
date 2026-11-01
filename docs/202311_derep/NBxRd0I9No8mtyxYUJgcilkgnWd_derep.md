@@ -1,6 +1,6 @@
 # 从汽修学徒到青岛首付180万，00后五年互联网实战路：我不是大佬，只是个先走一步的过来人
 
-> 来源：[https://tpsqdzww1o.feishu.cn/docx/NBxRd0I9No8mtyxYUJgcilkgnWd](https://tpsqdzww1o.feishu.cn/docx/NBxRd0I9No8mtyxYUJgcilkgnWd)
+
 
 大家好，我是王百万。山东青岛人，今年四月才正式加入赚钱。
 

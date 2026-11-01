@@ -1,6 +1,6 @@
 # 海外私域带货全拆解：Instagram+Facebook私域闭环实操复盘
 
-> 来源：[https://vvxlpvbvbp3.feishu.cn/docx/C5CbdXWifo7ahUx3uDccqyxmnre](https://vvxlpvbvbp3.feishu.cn/docx/C5CbdXWifo7ahUx3uDccqyxmnre)
+
 
 大家好，我是 Albert。
 

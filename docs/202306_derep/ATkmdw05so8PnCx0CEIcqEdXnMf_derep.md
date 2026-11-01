@@ -1,6 +1,6 @@
 # 别急着喂资料！先让GPT教你，再让它写：抖音18个爆款密码这样用才真香
 
-> 来源：[https://fjt9w880tn.feishu.cn/docx/ATkmdw05so8PnCx0CEIcqEdXnMf](https://fjt9w880tn.feishu.cn/docx/ATkmdw05so8PnCx0CEIcqEdXnMf)
+
 
 我是小凡。平时分享最多的是怎么训练GPT、怎么让它帮我们写东西，最近我正在打磨一套“小红书+GPT”系统课，也一直在用ChatGPT做自媒体内容，攒了不少素材。但今天不谈写文案，谈一个更底层的问题：你自己都没读懂抖音爆款逻辑，凭什么能把GPT教明白？
 

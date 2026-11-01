@@ -1,6 +1,6 @@
 # 如何在小红书用80个矩阵号跑起来：蓝V批量注册、货源批量谈判、视频批量混剪全流程拆解
 
-> 来源：[https://halulxp5w5.feishu.cn/docx/PPcrdO11CodhE3xr2jZcP26tnTd](https://halulxp5w5.feishu.cn/docx/PPcrdO11CodhE3xr2jZcP26tnTd)
+
 
 # 一、蓝V矩阵账号的批量搭建方法
 

@@ -1,6 +1,6 @@
 # Temu半托管，下一波红利窗口已经打开
 
-> 来源：[https://ivvygw9y2ti.feishu.cn/docx/MBE0dbCrIorcKJxImPkcAlh7n8b](https://ivvygw9y2ti.feishu.cn/docx/MBE0dbCrIorcKJxImPkcAlh7n8b)
+
 
 各位朋友大家好，见字如面，我是七喜。今天跟大家聊点干货。
 

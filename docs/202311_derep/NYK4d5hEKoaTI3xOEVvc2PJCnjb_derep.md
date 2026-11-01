@@ -1,6 +1,6 @@
 # 高客单境外游，手把手保姆级实操全流程，直接照做就能出单
 
-> 来源：[https://xsej9se9cv.feishu.cn/docx/NYK4d5hEKoaTI3xOEVvc2PJCnjb](https://xsej9se9cv.feishu.cn/docx/NYK4d5hEKoaTI3xOEVvc2PJCnjb)
+
 
 不水文不凑字数，全是干货。
 

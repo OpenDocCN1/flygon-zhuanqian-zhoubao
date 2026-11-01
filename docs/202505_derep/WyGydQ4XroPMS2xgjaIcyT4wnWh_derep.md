@@ -1,6 +1,6 @@
 # 一个人靠AI做自媒体航海，0基础起步，6天变现，我是怎么跑通的？
 
-> 来源：[https://qq8alk00fg.feishu.cn/docx/WyGydQ4XroPMS2xgjaIcyT4wnWh](https://qq8alk00fg.feishu.cn/docx/WyGydQ4XroPMS2xgjaIcyT4wnWh)
+
 
 # 🤖️ 为什么入局
 

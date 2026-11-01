@@ -1,6 +1,6 @@
 # 从杭州线下小航海到 All in n8n：我为什么押注 AI 后端大脑
 
-> 来源：[https://yneq2bf840.feishu.cn/docx/LgvidgoaXoLRPrxwbY3cHzarnie](https://yneq2bf840.feishu.cn/docx/LgvidgoaXoLRPrxwbY3cHzarnie)
+
 
 大家好，我是 KKKK。过去大家认识我，多半是因为我做的海外 AI Web 项目合集。
 

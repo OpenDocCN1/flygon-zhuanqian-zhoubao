@@ -1,6 +1,6 @@
 # 大一在读如何用拼多多短视频带货，3个月做到4.6万
 
-> 来源：[https://nt29oth9w1.feishu.cn/docx/UxijdXqjdo534cxOAibczDESnpf](https://nt29oth9w1.feishu.cn/docx/UxijdXqjdo534cxOAibczDESnpf)
+
 
 大家好，我是梦宸，现在大一在读，河北廊坊人，目前在天津上学。
 

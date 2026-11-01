@@ -1,6 +1,6 @@
 # 五分钟，用 Cursor 帮我把头像从 5000 人大图里揪了出来
 
-> 来源：[https://ktnwm6ohjn.feishu.cn/docx/NqmkdxL5Zo1Ih8xGBKfcIpLAnOh](https://ktnwm6ohjn.feishu.cn/docx/NqmkdxL5Zo1Ih8xGBKfcIpLAnOh)
+
 
 https://t.zsxq.com/R3nuz
 

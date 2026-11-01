@@ -1,6 +1,6 @@
 # 两年航海复盘：细节里的服务手艺与效率打法
 
-> 来源：[https://akm6yioxpn.feishu.cn/docx/VDGwdQZyJoXtFyxX92EcSmIQnbf](https://akm6yioxpn.feishu.cn/docx/VDGwdQZyJoXtFyxX92EcSmIQnbf)
+
 
 大家好，我是赫连雨彤，赚钱圈服务两年多。借赚钱九周年的节点，用第八期志愿服务做一次复盘，和大家一起交流。
 

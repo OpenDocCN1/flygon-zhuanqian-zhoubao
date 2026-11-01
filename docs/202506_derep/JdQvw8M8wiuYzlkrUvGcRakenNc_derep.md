@@ -1,6 +1,6 @@
 # 持续向上的赛道：做租房改造服务的全流程拆解
 
-> 来源：[https://z1wm8o8luj6.feishu.cn/docx/MVHudeia7oCth8x6rq2c4jKvnqg](https://z1wm8o8luj6.feishu.cn/docx/MVHudeia7oCth8x6rq2c4jKvnqg)
+
 
 各位朋友好，我是Luke林，本名林俊杰，唱歌不在行，小挣青年负责人，主打帮助年轻人赚到第一桶小钱。
 

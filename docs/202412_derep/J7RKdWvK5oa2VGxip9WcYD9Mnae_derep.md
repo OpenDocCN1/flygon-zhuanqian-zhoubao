@@ -1,6 +1,6 @@
 # 构建真正有效的智能体
 
-> 来源：[https://rxas35pmvn.feishu.cn/docx/J7RKdWvK5oa2VGxip9WcYD9Mnae](https://rxas35pmvn.feishu.cn/docx/J7RKdWvK5oa2VGxip9WcYD9Mnae)
+
 
 原链接：
 

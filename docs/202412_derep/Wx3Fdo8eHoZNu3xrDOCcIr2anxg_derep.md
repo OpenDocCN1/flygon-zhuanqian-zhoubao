@@ -1,6 +1,6 @@
 # 一个下午搭好 plt 转 PDF 的小站，我把 Cursor 当员工使
 
-> 来源：[https://lnq9nfegw4.feishu.cn/docx/Wx3Fdo8eHoZNu3xrDOCcIr2anxg](https://lnq9nfegw4.feishu.cn/docx/Wx3Fdo8eHoZNu3xrDOCcIr2anxg)
+
 
 大家好，我是 David，一个干了不少年码农的老兵。之前小排老师讲过用 cursor 撸一个很小的页面，我这次的难度高了一点点，也顺手记录一下实操过程。
 

@@ -1,6 +1,6 @@
 # 从30人审核小组到50国内容中台：一个老圈友的两年AI落地复盘
 
-> 来源：[https://q5hwxkwgss.feishu.cn/docx/Aw0FdFCnQoXQf9xwae6cbNsBnbg](https://q5hwxkwgss.feishu.cn/docx/Aw0FdFCnQoXQf9xwae6cbNsBnbg)
+
 
 圈友大家好，我是陈亮，成都基地，已在赚钱待了6年。
 

@@ -1,6 +1,6 @@
 # 风向标拆解第3期 | 小红书50w+爆款案例：光腿神器
 
-> 来源：[https://cinlqbndr6j.feishu.cn/docx/UaXwdyS23obBZXxZfMxcuJKwnuh](https://cinlqbndr6j.feishu.cn/docx/UaXwdyS23obBZXxZfMxcuJKwnuh)
+
 
 # 背景
 

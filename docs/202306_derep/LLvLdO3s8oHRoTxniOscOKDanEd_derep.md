@@ -1,6 +1,6 @@
 # 《AI变现异常值案例库》第1期：5条赛道10个样本，给副业一点点子
 
-> 原始来源：[https://ry5hwpuf7b.feishu.cn/docx/LLvLdO3s8oHRoTxniOscOKDanEd](https://ry5hwpuf7b.feishu.cn/docx/LLvLdO3s8oHRoTxniOscOKDanEd)
+
 
 《AI变现异常值案例库，5种方向10个案例，副业项目灵感启发》
 

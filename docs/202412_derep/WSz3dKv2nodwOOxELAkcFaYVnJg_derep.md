@@ -1,6 +1,6 @@
 # 四年潜水，写下我的两个千万级K12项目复盘
 
-> 来源：[https://yxlg5m8r086.feishu.cn/docx/WSz3dKv2nodwOOxELAkcFaYVnJg](https://yxlg5m8r086.feishu.cn/docx/WSz3dKv2nodwOOxELAkcFaYVnJg)
+
 
 各位赚钱的朋友大家好，我是十一，目前在深圳做一家教育科技公司，聚焦中小学赛道，公司定位是非学科、非教培，完全不受双减影响。过去几年我们陆续跑出了两个用户量过千万的业务，一个服务的是老师端，一个面向的是家长和学生。
 

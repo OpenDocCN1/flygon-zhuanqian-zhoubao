@@ -1,6 +1,6 @@
 # 《从平台视角拆解推文引流与提效玩法》
 
-> 来源：[https://dvfan273t0n.feishu.cn/docx/QlUMdZfACoJhFNxp97RcvXygntf](https://dvfan273t0n.feishu.cn/docx/QlUMdZfACoJhFNxp97RcvXygntf)
+
 
 做小说推文，真正决定成败的环节往往不是剪辑水平也不是文案技巧，而是能否把流量有效接走。今天换个思路，从平台的逻辑出发，聊聊如何把引流这件事做得更顺滑。
 

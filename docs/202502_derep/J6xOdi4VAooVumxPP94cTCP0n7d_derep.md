@@ -1,6 +1,6 @@
 # 零基础也能玩转 DeepSeek：我的自学实践笔记
 
-> 来源：[https://ipjk6u8gkk.feishu.cn/docx/J6xOdi4VAooVumxPP94cTCP0n7d](https://ipjk6u8gkk.feishu.cn/docx/J6xOdi4VAooVumxPP94cTCP0n7d)
+
 
 大家好😆，这里是 DeepSeek 探索研习社，我是辛亥。
 

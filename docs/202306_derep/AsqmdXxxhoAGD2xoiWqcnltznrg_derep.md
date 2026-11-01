@@ -1,6 +1,6 @@
 # 图文二创还能玩哪些赛道？两套打法帮你把全盘理清楚
 
-> 来源：[https://y2mt3o47i3.feishu.cn/docx/AsqmdXxxhoAGD2xoiWqcnltznrg](https://y2mt3o47i3.feishu.cn/docx/AsqmdXxxhoAGD2xoiWqcnltznrg)
+
 
 大家好，我是郭晓文，圈里人叫我最懂新手的那个。
 

@@ -1,6 +1,6 @@
 # 小红书开始收紧无货源模式，商家出路在哪
 
-> 来源：[https://nivut760ftk.feishu.cn/docx/F1KndzfdhoDGBTx4tWkcR6Uznne](https://nivut760ftk.feishu.cn/docx/F1KndzfdhoDGBTx4tWkcR6Uznne)
+
 
 各位同行大家好，我是艾小飞，专注小红书私域截流与电商实操。
 

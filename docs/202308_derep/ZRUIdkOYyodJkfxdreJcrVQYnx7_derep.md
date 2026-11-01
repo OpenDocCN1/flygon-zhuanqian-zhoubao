@@ -1,6 +1,6 @@
 # 直播间卖一张手机卡，年入百万真不是玩笑
 
-> 来源：[https://rad7nmnpd6.feishu.cn/docx/ZRUIdkOYyodJkfxdreJcrVQYnx7](https://rad7nmnpd6.feishu.cn/docx/ZRUIdkOYyodJkfxdreJcrVQYnx7)
+
 
 大家好，我是阿阳，95后，哈尔滨出来的创业者。现在的主业就死磕一张小小的手机卡，已经深耕通信赛道两年多。虽然入场算晚，但正好赶上了线上办卡比线下套餐便宜太多的红利期。大家现在普遍双卡双待，主号负责通话，副号专刷流量，这个刚需就直接把市场做大了。
 

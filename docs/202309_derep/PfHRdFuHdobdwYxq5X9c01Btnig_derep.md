@@ -1,6 +1,6 @@
 # 三个月近400万销售额的微信视频号优选联盟实操复盘
 
-> 来源：[https://uz0876tefy.feishu.cn/docx/PfHRdFuHdobdwYxq5X9c01Btnig](https://uz0876tefy.feishu.cn/docx/PfHRdFuHdobdwYxq5X9c01Btnig)
+
 
 通过微信视频号小店接入优选联盟，3个月累计GMV逼近400万。净利维持在20%左右，基本零成本启动，且无需自备库存和处理发货。今天拆解一下这套模式的盈利逻辑。
 

@@ -1,6 +1,6 @@
 # 10年内容人、两本书作者拆解：爆款选题到底怎么长出来的
 
-> 来源：[https://shengcaiyoushu01.feishu.cn/docx/CtmxdygV8oizIjxgojocK4Axnrd](https://shengcaiyoushu01.feishu.cn/docx/CtmxdygV8oizIjxgojocK4Axnrd)
+
 
 大家好，我是七天。曾操盘《精进：如何成为一个很厉害的人》的百万级营销，在网易、阿里做内容运营五年，同时也是两本畅销书的作者。《大大的城市，小小的我》卖出了繁体版权，《别在成长的年纪选择平庸》拿到2018年当当新人作家。
 

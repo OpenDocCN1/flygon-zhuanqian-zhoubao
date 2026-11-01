@@ -1,6 +1,6 @@
 # 第一次当视频号带货长航海志愿者，我把自己坑惨了：47天翻车全复盘
 
-> 来源：[https://lqhefhcsx54.feishu.cn/docx/BQ4LdvuwmoV66AxvEmSc4vGJn3g](https://lqhefhcsx54.feishu.cn/docx/BQ4LdvuwmoV66AxvEmSc4vGJn3g)
+
 
 大家好，我是薄荷Heidi，2024年6月视频号带货长航海47天志愿者。
 

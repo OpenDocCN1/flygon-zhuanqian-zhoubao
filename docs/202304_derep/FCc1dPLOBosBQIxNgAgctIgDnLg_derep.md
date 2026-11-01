@@ -1,6 +1,6 @@
 # 我在赚钱一周内，用漏斗筛出真正能做的项目
 
-> 来源：[https://trvzn3ack7.feishu.cn/docx/FCc1dPLOBosBQIxNgAgctIgDnLg](https://trvzn3ack7.feishu.cn/docx/FCc1dPLOBosBQIxNgAgctIgDnLg)
+
 
 # 开场
 

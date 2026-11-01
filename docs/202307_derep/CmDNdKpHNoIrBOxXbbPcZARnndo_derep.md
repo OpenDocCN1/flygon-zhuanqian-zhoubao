@@ -1,6 +1,6 @@
 # Windows Copilot 开发者预览版上车全攻略
 
-> 来源：[https://cufj3zjdqv.feishu.cn/docx/CmDNdKpHNoIrBOxXbbPcZARnndo](https://cufj3zjdqv.feishu.cn/docx/CmDNdKpHNoIrBOxXbbPcZARnndo)
+
 
 今年五月底的 Build 大会上，微软官宣 Windows Copilot 要来了，升级后的系统将自带 GPT 小助手，日后用 AI 几乎像伸手拿筷子一样顺手。
 

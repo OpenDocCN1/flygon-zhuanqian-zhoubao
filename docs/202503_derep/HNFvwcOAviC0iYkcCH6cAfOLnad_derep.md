@@ -1,6 +1,6 @@
 # 六次换赛道后才摸到 YouTube 高级合伙人门槛的复盘
 
-> 来源：[https://lcnqe9bq2wgy.feishu.cn/docx/ZskYddLKyoni8mxPzSIcIvvCnOe](https://lcnqe9bq2wgy.feishu.cn/docx/ZskYddLKyoni8mxPzSIcIvvCnOe)
+
 
 # 一、开篇背景
 

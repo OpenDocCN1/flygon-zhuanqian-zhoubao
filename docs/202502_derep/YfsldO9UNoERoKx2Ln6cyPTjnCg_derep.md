@@ -1,6 +1,6 @@
 # 利用AI挖掘用户短期内刚需问题。通过AI进行高效答题引流。
 
-> 来源：[https://udxxg5rx5m.feishu.cn/docx/YfsldO9UNoERoKx2Ln6cyPTjnCg](https://udxxg5rx5m.feishu.cn/docx/YfsldO9UNoERoKx2Ln6cyPTjnCg)
+
 
 作者自述，2019年就为第一个引流项目搭建过一套自动答题工具，目标是把内容分发到该平台。
 

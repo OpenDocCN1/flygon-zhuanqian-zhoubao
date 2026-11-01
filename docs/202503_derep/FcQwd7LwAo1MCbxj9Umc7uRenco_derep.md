@@ -1,6 +1,6 @@
 # 2小时撸下3万块｜盖哥的AI提效实战拆解，看完直接开干
 
-> 来源：[https://ewtk6agpo4c.feishu.cn/docx/FcQwd7LwAo1MCbxj9Umc7uRenco](https://ewtk6agpo4c.feishu.cn/docx/FcQwd7LwAo1MCbxj9Umc7uRenco)
+
 
 上周孵化组的内部分享，我本只打算去蹭个AI小技巧。结果第二场，sky盖哥一开口就给我整破防了。10万一场课的实力，根本不是tips那么简单。
 

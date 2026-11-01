@@ -1,6 +1,6 @@
 # 包租婆副业起号笔记：从中介到月入近2万的二房东实操
 
-> 来源：[https://wq71epaod4q.feishu.cn/docx/DvzYduRlVot6DdxNVImcGVWPnvc](https://wq71epaod4q.feishu.cn/docx/DvzYduRlVot6DdxNVImcGVWPnvc)
+
 
 大家好，我是金珠，目前在浙江嘉兴嘉善的小镇上做二房东，今天聊聊我这条副业是怎么跑起来的。
 

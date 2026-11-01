@@ -1,6 +1,6 @@
 # 中期复盘｜YouTube AI Shorts 私教陪跑一个月实战复盘
 
-> 来源：[https://ncnmu5q1eqm9.feishu.cn/docx/TFiJdd9TcoELvxxJATJcqREGnAb](https://ncnmu5q1eqm9.feishu.cn/docx/TFiJdd9TcoELvxxJATJcqREGnAb)
+
 
 大家好，我是 Gary 曹淦，龙哥盟 YouTube Shorts 航海项目的私教陪跑教练，主攻 AI 内容出海这条赛道。
 

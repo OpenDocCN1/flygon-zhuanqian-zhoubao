@@ -1,6 +1,6 @@
 # 2个月、每天2小时，小红书香港代购月净赚1.5万+：一个普通人的实操复盘
 
-> 来源：[https://mcn7wq4d3bpm.feishu.cn/docx/G51DdbGmuo4kCPxXVGjc6WBanDl](https://mcn7wq4d3bpm.feishu.cn/docx/G51DdbGmuo4kCPxXVGjc6WBanDl)
+
 
 大家好，我是花岗岩，平时就喜欢琢磨怎么把空闲时间变现，找第二增长曲线。最近跑通的一个小项目，跟大家复盘一下：
 

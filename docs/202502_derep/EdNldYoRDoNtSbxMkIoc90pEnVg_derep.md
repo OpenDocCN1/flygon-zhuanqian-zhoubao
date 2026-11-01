@@ -1,6 +1,6 @@
 # 20篇笔记做起来，帮家里牛肉打包店干出持续不断的同城客流
 
-> 来源：[https://cdmxxedltu.feishu.cn/docx/EdNldYoRDoNtSbxMkIoc90pEnVg](https://cdmxxedltu.feishu.cn/docx/EdNldYoRDoNtSbxMkIoc90pEnVg)
+
 
 大家好，我是蓝子鱼，从22年第一届小红书航海开始就系统玩小红书，到现在一直没停。
 

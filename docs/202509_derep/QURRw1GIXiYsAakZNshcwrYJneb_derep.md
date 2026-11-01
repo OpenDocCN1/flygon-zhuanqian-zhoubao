@@ -1,6 +1,6 @@
 # 从迷茫试错到海上开荒：小红书家纺赛道我的0-1实战复盘
 
-> 来源：[https://wv3ifdby2n1.feishu.cn/docx/MkCvdVnY2onj2exo146cFahFned](https://wv3ifdby2n1.feishu.cn/docx/MkCvdVnY2onj2exo146cFahFned)
+
 
 先感谢 @龙哥盟 给到一个真正能学东西的社群，感谢这次小红书航海的发起人、导师和运营团队。
 

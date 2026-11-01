@@ -1,6 +1,6 @@
 # 聊一个能持续做的接广玩法，普通人也能上手
 
-> 来源：[https://bwvzbvg3i3.feishu.cn/docx/V3yXdZZTeoRPNpxBGKVcQJMgn9d](https://bwvzbvg3i3.feishu.cn/docx/V3yXdZZTeoRPNpxBGKVcQJMgn9d)
+
 
 前段时间跑了一趟杭州，参加了一场线下聚会，当时应下一位朋友，说好了要在这边写一篇实操分享帖。结果回来之后一直没想好写什么。
 

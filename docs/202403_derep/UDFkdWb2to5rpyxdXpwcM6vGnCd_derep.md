@@ -1,6 +1,6 @@
 # TikTok 投放实战笔记（一）：用 20 美金撬动第一波测试
 
-> 来源：[https://almava1awg.feishu.cn/docx/UDFkdWb2to5rpyxdXpwcM6vGnCd](https://almava1awg.feishu.cn/docx/UDFkdWb2to5rpyxdXpwcM6vGnCd)
+
 
 # 开场白
 

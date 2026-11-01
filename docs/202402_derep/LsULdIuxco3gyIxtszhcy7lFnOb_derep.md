@@ -1,6 +1,6 @@
 # 傅小闲思维篇 赚钱这件事我是怎么看的
 
-> 来源：[https://w7z4ecauyy.feishu.cn/docx/LsULdIuxco3gyIxtszhcy7lFnOb](https://w7z4ecauyy.feishu.cn/docx/LsULdIuxco3gyIxtszhcy7lFnOb)
+
 
 哈喽，又是我傅小闲。距离上回更新隔了一个多月了。上次写完帖子就倒下了，烧了好久还没好。刚缓过来就被一堆测项目的事儿淹没，年底这阵子莫名其妙格外忙，团队一下开了好几个新方向，正好撞上之前航海的时间段……
 

@@ -1,6 +1,6 @@
 # 一招蒙版，搞定短视频和图文的去重难题
 
-> 来源：[https://lg8bbsytxl.feishu.cn/docx/DXJUdP4txlXxTa2kcFnEBnEf](https://lg8bbsytxl.feishu.cn/docx/DXJUdP4txlXxTa2kcFnEBnEf)
+
 
 视频版教程在2023年9月14日完成更新：
 

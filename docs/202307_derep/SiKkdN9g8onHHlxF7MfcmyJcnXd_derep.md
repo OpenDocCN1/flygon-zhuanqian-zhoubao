@@ -2,7 +2,7 @@
 
 # 懒人福音：手把手教你用AI全自动“流水线”产出小说推文动画，零基础也能玩
 
-> 来源：[https://aoa1k0usso.feishu.cn/docx/SiKkdN9g8onHHlxF7MfcmyJcnXd](https://aoa1k0usso.feishu.cn/docx/SiKkdN9g8onHHlxF7MfcmyJcnXd)
+
 
 你是不是也幻想过，把一部小说变成吸睛的推文动画视频，或者批量生成高颜值美女壁纸，却苦于不会剪辑、不懂绘画？今天分享的这套“傻瓜式”全自动方案，门槛低到超乎你想象，纯纯的效率神器。
 

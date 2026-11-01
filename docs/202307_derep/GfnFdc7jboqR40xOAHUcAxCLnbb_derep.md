@@ -1,6 +1,6 @@
 # 抖音养生赛道带货实战：如何连续三月稳定拿下10万佣金复盘
 
-> 来源：[https://ka8a2qs38ja.feishu.cn/docx/GfnFdc7jboqR40xOAHUcAxCLnbb](https://ka8a2qs38ja.feishu.cn/docx/GfnFdc7jboqR40xOAHUcAxCLnbb)
+
 
 各位朋友好，我是微笑，河南00后创业者，主攻养生垂类做了9个月，今天把6月份的真实操作和踩坑经验彻底拆开讲。
 

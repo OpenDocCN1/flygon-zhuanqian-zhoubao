@@ -1,6 +1,6 @@
 # 从零到单号月入30万：我在抖音同城带货房产的完整复盘
 
-> 来源：[https://g007onhtw72.feishu.cn/docx/Rtd7dHRYkoWyAOxjViFcNrWAnbO](https://g007onhtw72.feishu.cn/docx/Rtd7dHRYkoWyAOxjViFcNrWAnbO)
+
 
 当整个楼市进入低谷期，我用一个同城房产号完成了从月度零成交到整年1500万成交额的逆转。最高单月佣金12万，单个账号累计收益超过30万，这就是我这三年深耕短视频同城变现的实战记录。
 

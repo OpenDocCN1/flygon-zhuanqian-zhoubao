@@ -1,6 +1,6 @@
 # 小红书电商选品，这5招我亲测有效，小白也能直接上手！
 
-> 原文链接：[https://kib0lcw2xe.feishu.cn/docx/NgNMdnLj7olH6Rxl4qTcaxeInph](https://kib0lcw2xe.feishu.cn/docx/NgNMdnLj7olH6Rxl4qTcaxeInph)
+
 
 各位做小红书的朋友们好，我是古辛。之前写过一篇抖音选品的干货，结果被不少兄弟吐槽“说了等于没说”，当时还挺尴尬的。所以今天干脆换个思路，把我们现在实际在跑的小红书选品方法整理成一篇合集，希望能给正在做小红书的你一点启发。
 

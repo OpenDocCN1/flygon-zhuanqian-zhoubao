@@ -1,6 +1,6 @@
 # 手把手拆解 | 用AI把《甄嬛传》做成3D动画短视频的完整实操
 
-> 来源：[https://nyol5qf3ak.feishu.cn/docx/QOoxd6vQpoSylbxlXjkccNDTnHg](https://nyol5qf3ak.feishu.cn/docx/QOoxd6vQpoSylbxlXjkccNDTnHg)
+
 
 最近打开小红书、抖音就能刷到一波魔改《甄嬛传》，3D动画版、吉卜力风、蜡笔小新风全都有。随便看一个博主的作品
 

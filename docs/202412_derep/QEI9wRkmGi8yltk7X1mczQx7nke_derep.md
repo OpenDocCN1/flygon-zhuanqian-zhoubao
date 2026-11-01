@@ -1,6 +1,6 @@
 # 一个AI小白，如何在7天内做出6个能用的应用：我的实战复盘
 
-> 来源：[https://gnmzzv7764.feishu.cn/docx/NtVcdh1oKoVWPOxgsbpcOxgZnvS](https://gnmzzv7764.feishu.cn/docx/NtVcdh1oKoVWPOxgsbpcOxgZnvS)
+
 
 大家好，我是Lucas。接触Cursor和AI编程还不到一个月，纯业余玩家。过去一直想摸透互联网产品的玩法，却一直缺一个合适的切口。加入龙哥盟后，我才真正有机会下场实操，也很感谢这个平台给了我试错的空间。
 

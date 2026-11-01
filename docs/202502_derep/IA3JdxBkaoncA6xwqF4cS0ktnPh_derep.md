@@ -1,6 +1,6 @@
 # DeepSeek爆火后，普通人能抓住哪些机会？AI红利时代如何分一杯羹
 
-> 来源：[https://bh5pm72xfy.feishu.cn/docx/IA3JdxBkaoncA6xwqF4cS0ktnPh](https://bh5pm72xfy.feishu.cn/docx/IA3JdxBkaoncA6xwqF4cS0ktnPh)
+
 
 去年七月，我就曾在文章末尾写过，AI正处在红利窗口期，几乎任何赛道都值得被AI重新梳理一遍。
 

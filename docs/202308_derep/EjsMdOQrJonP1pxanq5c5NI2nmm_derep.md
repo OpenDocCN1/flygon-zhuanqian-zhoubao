@@ -1,6 +1,6 @@
 # 小红书国学赛道破百加引流实操拆解
 
-> 来源：[https://wxm1taza3m.feishu.cn/docx/EjsMdOQrJonP1pxanq5c5NI2nmm](https://wxm1taza3m.feishu.cn/docx/EjsMdOQrJonP1pxanq5c5NI2nmm)
+
 
 大家好，我是行一，02年出生的大学生，大学前三年就拿到人生第一个百万，现在手上运营着一家小红书电商工作室和一家流量公司。流量公司主要做私域引流，直营方向集中在国学粉和商业粉，自我定位是流量操盘手。
 

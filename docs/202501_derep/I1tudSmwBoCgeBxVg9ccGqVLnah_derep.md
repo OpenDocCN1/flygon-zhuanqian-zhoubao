@@ -1,6 +1,6 @@
 # 千城：用闲鱼电影票代下自动化撬开年底现金流，完整操作指南已放上
 
-> 来源：[https://el8yuvd870.feishu.cn/docx/I1tudSmwBoCgeBxVg9ccGqVLnah](https://el8yuvd870.feishu.cn/docx/I1tudSmwBoCgeBxVg9ccGqVLnah)
+
 
 临近年底，身边一拨人都在问现在还有什么能快速见钱的路子。
 

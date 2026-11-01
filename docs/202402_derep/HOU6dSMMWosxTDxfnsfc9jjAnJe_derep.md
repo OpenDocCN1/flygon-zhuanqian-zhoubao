@@ -1,6 +1,6 @@
 # 风向标拆解第3期--靠Notion模板年入百万美金，靠整理资料做生意到底怎么玩的--三七
 
-> 来源：[https://ya5b4wqif4w.feishu.cn/docx/HOU6dSMMWosxTDxfnsfc9jjAnJe](https://ya5b4wqif4w.feishu.cn/docx/HOU6dSMMWosxTDxfnsfc9jjAnJe)
+
 
 # 一、项目要搞懂的背景
 

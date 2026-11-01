@@ -1,6 +1,6 @@
 # 没认真做两个月，TikTok全托管就月入过万？我的实操复盘
 
-> 来源：[https://lpt8zt3scl.feishu.cn/docx/Tvsxdt6gSoobVvxP6FwcCLB0nwd](https://lpt8zt3scl.feishu.cn/docx/Tvsxdt6gSoobVvxP6FwcCLB0nwd)
+
 
 大家好，我是大郑，95后，创业这条路一直没停过。电商就是我混的主要战场。毕业后在深圳入局跨境，先后做过亚马逊、速卖通等几个主流平台，成绩平平，竞争也越来越卷。后来转战国内抖音电商，算是攒到第一桶金。
 

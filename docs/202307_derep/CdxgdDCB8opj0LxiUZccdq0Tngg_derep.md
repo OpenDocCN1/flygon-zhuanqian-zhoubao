@@ -1,6 +1,6 @@
 # 心态稳住就赢了：我用最后一周把电商新手期做到3000+的实操复盘
 
-> 来源：[https://pu6uadh9h1.feishu.cn/docx/CdxgdDCB8opj0LxiUZccdq0Tngg](https://pu6uadh9h1.feishu.cn/docx/CdxgdDCB8opj0LxiUZccdq0Tngg)
+
 
 # 先做个自我介绍
 

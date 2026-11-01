@@ -1,6 +1,6 @@
 # 运营层面的隐形失误，会让你一年少赚五百万
 
-> 来源：[https://ht16ej1tui.feishu.cn/docx/TEiLdqr5BopyvDxB4IZcC0arnSf](https://ht16ej1tui.feishu.cn/docx/TEiLdqr5BopyvDxB4IZcC0arnSf)
+
 
 嗨，我是珍妮，教育赛道年GMV 1100万-1600万的幕后操盘人，和陈铭ivy一起创业。
 

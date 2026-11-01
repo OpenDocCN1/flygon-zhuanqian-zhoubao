@@ -1,6 +1,6 @@
 # 用 AI 做健身系美女视觉账号的起号思路
 
-> 来源：[https://svj4gxvm0v3.feishu.cn/docx/BW8xduJEwoLyMfxyWe5cEYTbnWb](https://svj4gxvm0v3.feishu.cn/docx/BW8xduJEwoLyMfxyWe5cEYTbnWb)
+
 
 想把AI生成的健身美女内容玩起来，关键在于两点：挑准生成工具，以及把提示词拆成可复用的模块。
 

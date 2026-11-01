@@ -1,6 +1,6 @@
 # 小红书宠物科普，我是怎么靠个人IP在红海里活下来的
 
-> 来源：[https://zk4z8m1b5w.feishu.cn/docx/WD48dMmEEofQmQxb2lccCJ2znsf](https://zk4z8m1b5w.feishu.cn/docx/WD48dMmEEofQmQxb2lccCJ2znsf)
+
 
 # 一、我是谁
 

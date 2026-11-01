@@ -1,6 +1,6 @@
 # 抖音作品一收藏就被“整理”进飞书表格？去水印＋自动归档，iPhone 就能搞定
 
-> 原教程：https://vpbq24ngx4.feishu.cn/docx/QijEdbj9MoFBf0xdZuFcXA2Kndg
+
 
 # 先来看效果
 

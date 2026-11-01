@@ -1,6 +1,6 @@
 # 02年小伙：辍学后闯荡互联网一年多，从修车学徒到“涨粉回收”，靠执行力翻了身
 
-> 来源：[https://pvve2lmzyop.feishu.cn/docx/DsQDdY6qeortWTxMRxGchlXknFf](https://pvve2lmzyop.feishu.cn/docx/DsQDdY6qeortWTxMRxGchlXknFf)
+
 
 先打个招呼：我是02年生的，初中没念完就离开学校了。2022年6月开始接触互联网，做到2023年3月初，基本就不再亲手管账号了。前前后后攒下十几万粉丝，靠变现到手差不多6万块。搞过一个199块的社群，一共50个人，在知识星球搜“老孟创业社”能找到我，现在手里还捏着一张免费星球邀请码。眼下主要做涨粉回收，头条号、视频号和小红书都收。
 

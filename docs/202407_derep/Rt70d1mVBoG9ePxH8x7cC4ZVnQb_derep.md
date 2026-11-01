@@ -1,6 +1,6 @@
 # 私域二次转化的核心变量：用合理的触达，把复购率拉升2倍以上
 
-> 来源：[https://oee5lr7gsk.feishu.cn/docx/Rt70d1mVBoG9ePxH8x7cC4ZVnQb](https://oee5lr7gsk.feishu.cn/docx/Rt70d1mVBoG9ePxH8x7cC4ZVnQb)
+
 
 全文共：9,671 字
 预计阅读时间：9.43 分钟

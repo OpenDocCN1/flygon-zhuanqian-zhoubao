@@ -1,6 +1,6 @@
 # 用ChatGPT写爆款爽文的4步操盘法，让读者瞬间上头
 
-> 来源：[https://balfcirt91j.feishu.cn/docx/J1t5dSQ2OonAApxAoSnchhconcb](https://balfcirt91j.feishu.cn/docx/J1t5dSQ2OonAApxAoSnchhconcb)
+
 
 最近那篇讲小说写作的笔记发出后，私信被挤爆了。
 

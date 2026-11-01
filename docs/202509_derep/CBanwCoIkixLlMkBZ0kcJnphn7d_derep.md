@@ -1,6 +1,6 @@
 # 单图图文的冷启动与规模化生产思路
 
-> 来源：[https://yippqgu3nw.feishu.cn/docx/CT8WdSJMEobysNx2fYFck6lDn5e](https://yippqgu3nw.feishu.cn/docx/CT8WdSJMEobysNx2fYFck6lDn5e)
+
 
 我是新城。
 

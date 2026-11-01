@@ -1,6 +1,6 @@
 # 那一年，我十分钟到手100万美金 连载第六章
 
-> 来源：[https://tj51bxige8.feishu.cn/docx/LmPfdKlcXouBKgxV3QWc7gFwnad](https://tj51bxige8.feishu.cn/docx/LmPfdKlcXouBKgxV3QWc7gFwnad)
+
 
 大家好，我是静水流深，也在英文工具站做教练。
 

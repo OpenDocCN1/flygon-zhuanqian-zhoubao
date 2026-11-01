@@ -1,6 +1,6 @@
 # AI小和尚实战拆解：单月播放量突破3亿，利润超过10万的项目方法论
 
-> 参考资料：[飞书文档](https://wx2u2tsq8q8.feishu.cn/docx/FNsodj2s7oM7SpxiJlhcNiBinvg)
+
 
 ## 开篇
 

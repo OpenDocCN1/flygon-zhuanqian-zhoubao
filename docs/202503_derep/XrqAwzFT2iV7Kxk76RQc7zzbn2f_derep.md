@@ -1,6 +1,6 @@
 # 用标签批量扒爆款 Shorts 和对标号，这个神器来了
 
-> 来源：[https://gpbr9zf6b9.feishu.cn/docx/DeaCdva9qoilWDxicPTcmRXznWe](https://gpbr9zf6b9.feishu.cn/docx/DeaCdva9qoilWDxicPTcmRXznWe)
+
 
 # 为什么要做这个工具
 

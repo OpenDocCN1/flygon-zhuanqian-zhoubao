@@ -1,6 +1,6 @@
 # 官网老提示“服务器繁忙”？这套硅基流动 + Cherry Studio 组合，让你本地就能稳定用上 DeepSeek 级体验
 
-> 来源：[https://aqoyanyhfa.feishu.cn/docx/A9y0d0ciToqfD5x6vHHcdDo3nXb](https://aqoyanyhfa.feishu.cn/docx/A9y0d0ciToqfD5x6vHHcdDo3nXb)
+
 
 大家好，我是大胡子RPA。昨天上班一开工就用RPA去调用 DeepSeek，结果一整天都在和“服务器繁忙”搏斗，效率直接被拖垮。被卡住没必要硬等，这里分享一个我已经在用的替代打法：不用登录官网，直接用硅基流动的 API 配合 Cherry Studio 做一个属于自己的AI工作台，用起来更顺手、更稳。
 

@@ -1,6 +1,6 @@
 # 传统行业借力抖音起盘实录：从线下转线上，一年做到500万营收
 
-> 来源：[https://p1m39y7kqh.feishu.cn/docx/Q76YdX281oFz0BxJnbicxnuTnZc](https://p1m39y7kqh.feishu.cn/docx/Q76YdX281oFz0BxJnbicxnuTnZc)
+
 
 认识一下，我是河南做农村别墅施工的小王。今天把我们从纯线下干到线上引流，再用一年时间做到500万营收的经历摊开讲一下。
 

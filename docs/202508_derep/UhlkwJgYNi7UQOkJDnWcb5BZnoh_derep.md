@@ -1,6 +1,6 @@
 # 素人0投放做小红书，一年做到104万 GMV，4个翻车坑和2个坚持心法
 
-> 来源：[https://uwk2kh7dn8u.feishu.cn/docx/JJjPdocqfoY18DxAxl9clqasntg](https://uwk2kh7dn8u.feishu.cn/docx/JJjPdocqfoY18DxAxl9clqasntg)
+
 
 ## 一、关于我
 

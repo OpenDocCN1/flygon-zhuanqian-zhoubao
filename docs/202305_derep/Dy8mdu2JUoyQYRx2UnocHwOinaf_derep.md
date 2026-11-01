@@ -1,6 +1,6 @@
 # 小白也能闭环起来的快手知识付费：全流程拆解
 
-> 来源：[https://uwdpzjnryu8.feishu.cn/docx/Dy8mdu2JUoyQYRx2UnocHwOinaf](https://uwdpzjnryu8.feishu.cn/docx/Dy8mdu2JUoyQYRx2UnocHwOinaf)
+
 
 # 一、开场话
 

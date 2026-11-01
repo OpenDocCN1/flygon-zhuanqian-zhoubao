@@ -1,6 +1,6 @@
 # 历经4个月打磨丨小红书安全导流实操全流程
 
-> 来源：[https://p03a4vs9s2.feishu.cn/docx/QoBodm5c9oADqKx3zkIcsaGWnJf](https://p03a4vs9s2.feishu.cn/docx/QoBodm5c9oADqKx3zkIcsaGWnJf)
+
 
 大家好，我是叁斤，公众号同名叁斤。主战场在小红书，今年平台对站外跳转的管控明显收紧。因为业务需要，我从3月起就开始研究最新的导流打法。
 

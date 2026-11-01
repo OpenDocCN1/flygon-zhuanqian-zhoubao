@@ -1,6 +1,6 @@
 # 新公司法落地后，赚钱老板们必须搞懂的45个关键点
 
-> 来源：[https://e3pb2qx3lv.feishu.cn/docx/Rh1vdvUX0oTV41xAOmncoRQZnUb](https://e3pb2qx3lv.feishu.cn/docx/Rh1vdvUX0oTV41xAOmncoRQZnUb)
+
 
 新公司法已于2023年12月29日完成修订并生效，它是我国社会主义市场经济运行的基石性法律。赚钱圈里不少朋友走的是超级个体路线，但一旦触及融资、合伙，就绕不开公司法里关于股东责任、股权流转、利润分配、表决权等一系列规则。
 

@@ -1,6 +1,6 @@
 # 一年做 IP，我拿到人生第一份百万成绩单
 
-> 来源：[https://wxm1taza3m.feishu.cn/docx/RQ8Tdrx8doQD8Bx4lWEcjCaEnqg](https://wxm1taza3m.feishu.cn/docx/RQ8Tdrx8doQD8Bx4lWEcjCaEnqg)
+
 
 各位圈内朋友好，我是行一，02 年在校大学生，一个始终在路上自我迭代的学习者。
 

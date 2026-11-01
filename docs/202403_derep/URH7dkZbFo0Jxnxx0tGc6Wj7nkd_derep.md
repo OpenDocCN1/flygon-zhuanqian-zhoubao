@@ -1,6 +1,6 @@
 # 0成本打造专属AI虚拟网红，Fooocus全流程上手指南
 
-> 来源：[https://dik4wr1hyrw.feishu.cn/docx/URH7dkZbFo0Jxnxx0tGc6Wj7nkd](https://dik4wr1hyrw.feishu.cn/docx/URH7dkZbFo0Jxnxx0tGc6Wj7nkd)
+
 
 虚拟网红这两年已经成了行业标配，宝马都请了 Lil Miquela 来代言，可见热度有多高。今天就用一套完全免费的方案，手把手教你用 Fooocus 生成属于自己的 AI 虚拟人。
 

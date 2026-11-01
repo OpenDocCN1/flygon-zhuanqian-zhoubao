@@ -1,6 +1,6 @@
 # 五个平台同步做的实战复盘：围绕极致利他做增长
 
-> 来源：[https://rwv5r1k6f2.feishu.cn/docx/S858dxMwsoGB3pxohgAcZkiwn4f](https://rwv5r1k6f2.feishu.cn/docx/S858dxMwsoGB3pxohgAcZkiwn4f)
+
 
 ## 同时操盘五大账号的真实体感
 

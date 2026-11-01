@@ -1,6 +1,6 @@
 # 零成本玩转小红书水贝黄金中间商？我朋友首月GMV破13万的实操拆解
 
-> 来源：[https://zxnpytr8vbe.feishu.cn/docx/PPChdHgCUo88RLxXtugcBA5Qnhd](https://zxnpytr8vbe.feishu.cn/docx/PPChdHgCUo88RLxXtugcBA5Qnhd)
+
 
 大家好，我是每天都在小红书里瞎琢磨的金喜。先放点已验证的成绩单给大家参考，祝我们都能步步向花、暴富暴富！day day up!!
 

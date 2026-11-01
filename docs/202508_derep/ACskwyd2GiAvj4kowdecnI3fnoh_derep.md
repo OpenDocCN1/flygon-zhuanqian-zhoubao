@@ -1,6 +1,6 @@
 # 我把做小红书 AI 智能体的全套打法开源了，附带可直接用的提示词
 
-> 来源：[https://g8ekpu7h0l.feishu.cn/docx/D5g8dYpiQoclKvxPPz6cwbBDnfe](https://g8ekpu7h0l.feishu.cn/docx/D5g8dYpiQoclKvxPPz6cwbBDnfe)
+
 
 大家好，我是 luke，好久没更新了。
 

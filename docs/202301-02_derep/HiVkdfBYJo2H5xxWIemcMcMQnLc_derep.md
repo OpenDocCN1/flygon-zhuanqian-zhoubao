@@ -1,6 +1,6 @@
 # IP如何做到风骨体面且年入千万
 
-> 来源：[https://z5uufnsl6h.feishu.cn/docx/HiVkdfBYJo2H5xxWIemcMcMQnLc](https://z5uufnsl6h.feishu.cn/docx/HiVkdfBYJo2H5xxWIemcMcMQnLc)
+
 
 优质的合作从一场自我介绍开始，欢迎对年入千万感兴趣的IP来一起聊一聊。
 

@@ -1,6 +1,6 @@
 # 互联网人自救手册：身体篇
 
-> 来源：[https://p8tchgpz2u.feishu.cn/docx/OSS3dwoeeogJYixmVoUcuLkNnre](https://p8tchgpz2u.feishu.cn/docx/OSS3dwoeeogJYixmVoUcuLkNnre)
+
 
 大家好，我是梁靠谱。2008年考进天津医科大学，2019年进入全国百佳三甲医院开始工作，内外妇儿全转过，ICU也干了三年。十几年下来，累计为上万人看过诊，也运营了三年多的免费问诊星球，处理过不少身体和心理上的困扰，有自己的一亩三分地。
 

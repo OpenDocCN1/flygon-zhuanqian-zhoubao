@@ -1,6 +1,6 @@
 # 你写的营销文案一读就有“机器味”？大概率卡在了这一步：没有把“人味儿”的方法论喂给AI（附董宇辉式指令2.0实操版）
 
-> 来源：[https://balfcirt91j.feishu.cn/docx/FWe5dvqIPoxP5vxMIqOcwPZbnKg](https://balfcirt91j.feishu.cn/docx/FWe5dvqIPoxP5vxMIqOcwPZbnKg)
+
 
 经常有人跑来问我同一个问题：我让AI帮忙写卖货文案，明明指令也给了，怎么一读就冒出一股AI味儿？
 

@@ -1,6 +1,6 @@
 # 小红书做出境游，三周从零起步做到12万预成交的实操拆解
 
-> 来源：[https://ovjdv8vh9g8.feishu.cn/docx/ULbAdXJWVosx2rxeiZ4c9MjNncd](https://ovjdv8vh9g8.feishu.cn/docx/ULbAdXJWVosx2rxeiZ4c9MjNncd)
+
 
 大家好，我是七月入圈的better。
 

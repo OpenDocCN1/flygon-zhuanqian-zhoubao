@@ -1,6 +1,6 @@
 # 用两个月拿到 YouTube YPP 并领到银奖牌的实战复盘
 
-> 来源：[https://p7pqvd4m3c.feishu.cn/docx/NsdjdAagDo9x9sxhrv3crml6nUc](https://p7pqvd4m3c.feishu.cn/docx/NsdjdAagDo9x9sxhrv3crml6nUc)
+
 
 # 一、起因
 

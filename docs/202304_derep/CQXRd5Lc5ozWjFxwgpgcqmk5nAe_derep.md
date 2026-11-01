@@ -1,6 +1,6 @@
 # 抖音弹幕游戏直播，风口已经形成，未来两年最吸金的直播形态
 
-> 来源：[https://xn5qnsyzkj.feishu.cn/docx/CQXRd5Lc5ozWjFxwgpgcqmk5nAe](https://xn5qnsyzkj.feishu.cn/docx/CQXRd5Lc5ozWjFxwgpgcqmk5nAe)
+
 
 大家好，我是羚羊先生，赚钱5期成员。上期在赚钱还在深耕美妆赛道，曾输出过一篇从零起步做品牌，一年做到500万营收的复盘。
 

@@ -1,6 +1,6 @@
 # AI自媒体：让GPT写作指令真正起效的进阶方法论-台风航海分享
 
-> 来源：[https://xq6mz7nkknp.feishu.cn/docx/TPscdI2OmoXISCxcdVpcZYMqnWh](https://xq6mz7nkknp.feishu.cn/docx/TPscdI2OmoXISCxcdVpcZYMqnWh)
+
 
 各位好，我是台风，AI魔法师，GPT航海项目的带教教练。
 

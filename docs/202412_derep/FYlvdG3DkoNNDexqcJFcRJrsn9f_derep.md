@@ -1,6 +1,6 @@
 # 小红书做幼教班本PPT，单价19.9起定制能溢价到30+，我把一条龙实操拆给你看
 
-> 来源：[https://o0yvn3o31a.feishu.cn/docx/FYlvdG3DkoNNDexqcJFcRJrsn9f](https://o0yvn3o31a.feishu.cn/docx/FYlvdG3DkoNNDexqcJFcRJrsn9f)
+
 
 # 各位好，我是黄岛主！
 

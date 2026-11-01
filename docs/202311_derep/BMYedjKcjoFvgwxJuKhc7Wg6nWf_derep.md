@@ -1,6 +1,6 @@
 # 从朋友圈静默成交到月入3万+：一位知识管理教练的颗粒度复盘
 
-> 来源：[https://x6n09emgmm.feishu.cn/docx/BMYedjKcjoFvgwxJuKhc7Wg6nWf](https://x6n09emgmm.feishu.cn/docx/BMYedjKcjoFvgwxJuKhc7Wg6nWf)
+
 
 大家好，我是赚钱圈的 Andrew。做了多年知识管理教练，也在钻研“知识管理五维模型”。
 

@@ -1,6 +1,6 @@
 # 💰第一次把拉新当成项目来做，我拿下了战队前五
 
-> 来源：[https://hjlrkivx2z.feishu.cn/docx/XxrMdtxK0o18iPxDJRPc6WHBnog](https://hjlrkivx2z.feishu.cn/docx/XxrMdtxK0o18iPxDJrPc6WHBnog)
+
 
 先简单自我介绍一下，
 

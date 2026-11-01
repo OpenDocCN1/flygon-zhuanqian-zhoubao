@@ -1,6 +1,6 @@
 # 踏上赚钱之船以后：一名AI布道者的三段航程与回归
 
-> 来源：[https://shengcaiyoushu01.feishu.cn/docx/UFkEdbdbKoVNMNxKzdbczl4Snec](https://shengcaiyoushu01.feishu.cn/docx/UFkEdbdbKoVNMNxKzdbczl4Snec)
+
 
 # 自我介绍
 

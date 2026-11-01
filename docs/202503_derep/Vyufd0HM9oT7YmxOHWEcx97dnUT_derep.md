@@ -1,6 +1,6 @@
 # 用一段提示词，把长文章变成精美知识卡片
 
-> 来源：[https://t16jzwqrzjx.feishu.cn/docx/Vyufd0HM9oT7YmxOHWEcx97dnUT](https://t16jzwqrzjx.feishu.cn/docx/Vyufd0HM9oT7YmxOHWEcx97dnUT)
+
 
 ## 写在前面
 

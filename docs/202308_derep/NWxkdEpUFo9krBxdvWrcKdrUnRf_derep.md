@@ -1,6 +1,6 @@
 # 把AI提示词用到极致：一套零门槛的微头条副业玩法拆解（从注册到10W+）
 
-> 来源：[https://o0yvn3o31a.feishu.cn/docx/NWxkdEpUFo9krBxdvWrcKdrUnRf](https://o0yvn3o31a.feishu.cn/docx/NWxkdEpUFo9krBxdvWrcKdrUnRf)
+
 
 AI现在有多火，不用我多说了。我们团队也在跟着做，目前驻扎在百家号和头条号两个阵地，只要认真执行，产出10W+阅读的内容是很常见的事。相比之下，我更推荐头条号里的动态频道——它上手更快，单价的回报对副业来说也算体面。今天把这套打通方法完整讲一遍。
 

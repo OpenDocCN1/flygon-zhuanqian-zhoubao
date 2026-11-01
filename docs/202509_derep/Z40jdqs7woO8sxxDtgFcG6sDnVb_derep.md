@@ -1,6 +1,6 @@
 # 出海学徒实录：四个月攒下零点零一刀，十五天冲破一千刀
 
-> 来源：[https://zhizhe888.feishu.cn/docx/Z40jdqs7woO8sxxDtgFcG6sDnVb](https://zhizhe888.feishu.cn/docx/Z40jdqs7woO8sxxDtgFcG6sDnVb)
+
 
 # 一、开篇说明
 

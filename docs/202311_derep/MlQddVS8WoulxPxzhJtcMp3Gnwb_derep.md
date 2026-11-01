@@ -1,6 +1,6 @@
 # 吃胖30斤后才明白：我停不下来的不是筷子，是想被父亲看见
 
-> 来源：[https://n28vbku1px.feishu.cn/docx/MlQddVS8WoulxPxzhJtcMp3Gnwb](https://n28vbku1px.feishu.cn/docx/MlQddVS8WoulxPxzhJtcMp3Gnwb)
+
 
 你有没有发现，减肥这件事，像一场和自己拉锯多年的烂账？
 

@@ -1,6 +1,6 @@
 # 用 TikTok 个人号撬动广告返现：35% 返利，单个号最高返 300 美金的操作全拆解
 
-> 来源：[https://vvxlpvbvbp3.feishu.cn/docx/VDxndAdN2oMZdDxnm6CcwoGPnFh](https://vvxlpvbvbp3.feishu.cn/docx/VDxndAdN2oMZdDxnm6CcwoGPnFh)
+
 
 # 错过了四年，再次回头发现 TikTok 依旧香
 

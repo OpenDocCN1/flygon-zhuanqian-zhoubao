@@ -1,6 +1,6 @@
 # 一个做了三年视频的人，聊聊 YPP 到底该怎么玩
 
-> 来源：[https://parwc0x6nb.feishu.cn/docx/Q6IJdDUwro4sGSx9wGrccuaunjg](https://parwc0x6nb.feishu.cn/docx/Q6IJdDUwro4sGSx9wGrccuaunjg)
+
 
 做了三年内容，我才慢慢看懂 YPP 这条赛道。它不是把国内爆款直接搬家就能吃香的平台，玩法完全不一样。
 

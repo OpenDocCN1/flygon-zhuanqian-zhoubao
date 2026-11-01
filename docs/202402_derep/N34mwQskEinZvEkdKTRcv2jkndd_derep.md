@@ -1,6 +1,6 @@
 # 风向标拆解第3期——躺着也能变现，iPhone一键记账快捷指令是怎么卖爆的--十七
 
-> 来源：[https://y098ow0zio.feishu.cn/docx/QoeodQIUvoJJgVx2anec2vmsn4c](https://y098ow0zio.feishu.cn/docx/QoeodQIUvoJJgVx2anec2vmsn4c)
+
 
 ## 产品来历
 

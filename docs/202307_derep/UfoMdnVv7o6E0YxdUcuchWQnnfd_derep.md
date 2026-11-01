@@ -1,6 +1,6 @@
 # 从0到1做出能扫的艺术二维码：我跑了几百张图后总结的实操笔记
 
-> 来源：[https://i2iygt5qes.feishu.cn/docx/UfoMdnVv7o6E0YxdUcuchWQnnfd](https://i2iygt5qes.feishu.cn/docx/UfoMdnVv7o6E0YxdUcuchWQnnfd)
+
 
 近半年AI绘画几乎是坐火箭在往上冲，Midjourney和Stable Diffusion稳稳占据了两大热门位置。围绕它们衍生的创意玩法也层出不穷。半个多月前，站内就有圈友在聊艺术二维码怎么玩，我当时一边感叹技术迭代太快，一边又被自己的硬件配置卡住。电脑小白一个，云端部署看着就头大，也没有SD使用经验，只能干看着。
 

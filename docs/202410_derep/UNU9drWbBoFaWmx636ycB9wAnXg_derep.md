@@ -1,6 +1,6 @@
 # 从零上手 Cursor：零代码搭建官网与谷歌插件的实战笔记
 
-> 来源：[https://qoc4h6bgpc.feishu.cn/docx/UNU9drWbBoFaWmx636ycB9wAnXg](https://qoc4h6bgpc.feishu.cn/docx/UNU9drWbBoFaWmx636ycB9wAnXg)
+
 
 最近我拿到用户增长运营师考证的官方授权代理资质，需要一个能证明资质、承载推广以及做百度收录的落地页。原本的思路是先出原型，找设计外包做高保真稿，再配合前端和后端开发。结果在调研中接触到 Cursor，发现它可以用自然语言指令直接产出可运行的代码，试了一下效果很顺手，省下了设计和前端的人工成本。
 

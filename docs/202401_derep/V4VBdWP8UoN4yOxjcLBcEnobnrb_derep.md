@@ -1,6 +1,6 @@
 # 一条剧情就能自然流破6万+，我把自然流的底层拆开了
 
-> 来源：[https://tb9qrhlhl7.feishu.cn/docx/V4VBdWP8UoN4yOxjcLBcEnobnrb](https://tb9qrhlhlhl7.feishu.cn/docx/V4VBdWP8UoN4yOxjcLBcEnobnrb)
+
 
 大家好，我是杭州龙珠的书豪，目前在小红书和快手做店铺和直播带航海教练，也是航海家俱乐部的一员。
 

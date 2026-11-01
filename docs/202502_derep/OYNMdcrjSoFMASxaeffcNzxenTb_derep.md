@@ -1,6 +1,6 @@
 # 图文详解：教你离线在本地电脑跑通 DeepSeek
 
-> 来源：[https://wosa79zedo.feishu.cn/docx/OYNMdcrjSoFMASxaeffcNzxenTb](https://wosa79zedo.feishu.cn/docx/OYNMdcrjSoFMASxaeffcNzxenTb)
+
 
 DeepSeek 今年春节一夜爆火，随之而来的就是服务器频繁宕机、排队回复。更关键的是，官网服务条款里明确写着用户上传的内容都会纳入数据采集范围，涉及隐私的信息并不适合直接在网页版里输入。
 

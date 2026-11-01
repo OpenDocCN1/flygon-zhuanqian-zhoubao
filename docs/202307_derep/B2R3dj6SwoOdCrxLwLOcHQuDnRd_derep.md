@@ -1,6 +1,6 @@
 # MJ 5.2 的 Zoom Out 如何用来做成一段流畅视频
 
-> 来源：[https://ycgc2f717o.feishu.cn/docx/B2R3dj6SwoOdCrxLwLOcHQuDnRd](https://ycgc2f717o.feishu.cn/docx/B2R3dj6SwoOdCrxLwLOcHQuDnRd)
+
 
 Midjourney 最新上线的 5.2 版本，最让人兴奋的就是 Zoom Out 缩放功能被大幅强化。从中延伸出的玩法很多，不仅能把画面外延，还能让同一个主体换上不同场景。这期就带你实操一遍，用 Zoom Out 拼出一组连续画面，再合成视频。
 

@@ -1,6 +1,6 @@
 # 用90轮AI对话拿下跨专业硕士论文写作，5位数收入的实操复盘
 
-> 来源：[https://sxtad4dpgi.feishu.cn/docx/MsVIdpg4kokPWtxXYYOc7RENnzg](https://sxtad4dpgi.feishu.cn/docx/MsVIdpg4kokPWtxXYYOc7RENnzg)
+
 
 在AI写作航海活动中，我个人排名来到第17名，小组内排名第一。这是我第一次写帖子，多少有些紧张。今天就把这次航海期间，如何用90次左右的AI对话完成一篇跨专业硕士论文、3天内拿到5位数收益的完整思路拆解出来。
 

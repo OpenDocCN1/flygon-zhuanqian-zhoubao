@@ -1,6 +1,6 @@
 # PiPiADS 广告投放知识库
 
-> 信息来源：[https://za6kyadmdr.feishu.cn/docx/QYCldFQWtoux5UxelmYcMEFTnKc](https://za6kyadmdr.feishu.cn/docx/QYCldFQWtoux5UxelmYcMEFTnKc)
+
 
 # 🎯 愿景与目标
 

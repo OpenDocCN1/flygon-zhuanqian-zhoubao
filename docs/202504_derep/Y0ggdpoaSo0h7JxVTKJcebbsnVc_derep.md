@@ -1,6 +1,6 @@
 # 新手别瞎冲！这3个AI实操心法，能让你上手速度翻5倍
 
-> 来源：[https://s296cam1nz.feishu.cn/docx/Y0ggdpoaSo0h7JxVTKJcebbsnVc](https://s296cam1nz.feishu.cn/docx/Y0ggdpoaSo0h7JxVTKJcebbsnVc)
+
 
 大家好，我是米斗，专注品牌商业增长和AI视觉营销的实战派，平时就爱捣鼓能落地的AI工具和方法，期待交流~
 

@@ -1,6 +1,6 @@
 60天变现5万，视频号做娱乐号的全套玩法拆解
 
-> 来源：[https://k874t2qh8w.feishu.cn/docx/LOqwdvj9IoGBnqx4sqbcgGM1ntd](https://k874t2qh8w.feishu.cn/docx/LOqwdvj9IoGBnqx4sqbcgGM1ntd)
+
 
 各位朋友好，我叫辰风。这篇分享的主角是我带过的一位学员，吖吖。她现在全网加起来大约15万粉，实际用时约60天，光是视频号这一个平台，就到账5万块。接下来的内容，大部分来自她的实战复盘。
 

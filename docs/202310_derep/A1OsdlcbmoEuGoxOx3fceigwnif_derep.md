@@ -1,6 +1,6 @@
 # 用小红书笔记反向撬动一手货源，我是怎么高效搞定上游的
 
-> 来源：[https://nivut760ftk.feishu.cn/docx/A1OsdlcbmoEuGoxOx3fceigwnif](https://nivut760ftk.feishu.cn/docx/A1OsdlcbmoEuGoxOx3fceigwnif)
+
 
 找得到好货、拿得到好价，是做品最揪心的事。
 

@@ -1,6 +1,6 @@
 # 用影刀把小红书店铺带货跟款效率拉满 十倍起步
 
-> 来源：[https://tb9qrhlhl7.feishu.cn/docx/LDgXdlFkxoXgZqxCRtmc1m9LnPf](https://tb9qrhlhl7.feishu.cn/docx/LDgXdlFkxoXgZqxCRtmc1m9LnPf)
+
 
 当下这阶段，批量多店铺多账号运营就得靠影刀来扛，效率直接拉到十倍以上。
 

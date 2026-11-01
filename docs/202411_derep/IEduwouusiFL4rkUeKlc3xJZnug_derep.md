@@ -1,6 +1,6 @@
 # YouTube 长视频频道调研 · 实操 · 工具全景拆解
 
-> 来源：[https://kcnha77wofo0.feishu.cn/docx/VgPGdd956oHWR6x2H8zcB2W2nKb](https://kcnha77wofo0.feishu.cn/docx/VgPGdd956oHWR6x2H8zcB2W2nKb)
+
 
 # 一、为什么锁定英文长视频
 

@@ -1,6 +1,6 @@
 # 实体想做大，必须把抖音玩起来，
 
-> 来源：[https://aso41gpxhm.feishu.cn/docx/Mv1Xds3Esoz7VrxaxoiciLmsn0f](https://aso41gpxhm.feishu.cn/docx/Mv1Xds3Esoz7VrxaxoiciLmsn0f)
+
 
 ### 跃迁的关键在于拥抱抖音
 

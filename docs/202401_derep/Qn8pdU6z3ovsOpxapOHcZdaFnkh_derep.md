@@ -1,6 +1,6 @@
 # 风向标拆解第2期 | K12升学赛道里的细分爆款：小学数学思维课的生意逻辑 —— 以胡小群为例
 
-> 来源：[https://p15jpqstgg.feishu.cn/docx/Qn8pdU6z3ovsOpxapOHcZdaFnkh](https://p15jpqstgg.feishu.cn/docx/Qn8pdU6z3ovsOpxapOHcZdaFnkh)
+
 
 # K12升学规划的细分战场
 

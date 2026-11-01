@@ -1,6 +1,6 @@
 # 快手无人直播技术 C级
 
-> 来源：[https://qv4zhbe2wa.feishu.cn/docx/Qzd8dBqErofp9axqQRCckvWKnog](https://qv4zhbe2wa.feishu.cn/docx/Qzd8dBqErofp9axqQRCckvWKnog)
+
 
 先给结论：看完这篇，你就能拿到一套快手无人值守直播的完整操作思路。这套玩法的核心价值在于可复制、可迁移、举一反三，能帮你快速把新号拉起来。希望对你有用。
 

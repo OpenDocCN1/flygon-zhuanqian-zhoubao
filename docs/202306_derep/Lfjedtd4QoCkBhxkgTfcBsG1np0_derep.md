@@ -1,6 +1,6 @@
 # 《瞬息全宇宙，一套笔记教你把爆款做出来》
 
-> 来源：[https://ry5hwpuf7b.feishu.cn/docx/Lfjedtd4QoCkBhxkgTfcBsG1np0](https://ry5hwpuf7b.feishu.cn/docx/Lfjedtd4QoCkBhxkgTfcBsG1np0)
+
 
 《瞬息全宇宙全套实操，手把手带你拍出百万赞同款》
 

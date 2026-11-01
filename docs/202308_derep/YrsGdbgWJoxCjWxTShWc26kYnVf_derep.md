@@ -1,6 +1,6 @@
 # 用治愈风景航拍动图撬动流量，7天10万粉，星图广告到手1万，完整拆解来了
 
-> 来源：[https://ixy2s5ruvqf.feishu.cn/docx/YrsGdbgWJoxCjWxTShWc26kYnVf](https://ixy2s5ruvqf.feishu.cn/docx/YrsGdbgWJoxCjWxTShWc26kYnVf)
+
 
 # 开场致意
 

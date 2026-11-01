@@ -1,6 +1,6 @@
 # AI + 公众号矩阵，一个月跑通项目，变现1 万 + 复盘
 
-> 来源：[https://ev0ft8k60w2.feishu.cn/docx/MdGjdeGoWoxP89xzb8KcSTTnntf](https://ev0ft8k60w2.feishu.cn/docx/MdGjdeGoWoxP89xzb8KcSTTnntf)
+
 
 我叫伟豪，现阶段以自由身份谋生，最大的不安就是收入能否维持在全职时的水准。
 

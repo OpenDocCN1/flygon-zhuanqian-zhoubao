@@ -1,6 +1,6 @@
 # 孙策：一次视频号直播发售，实体店如何实现一场200万收款
 
-> 来源：[https://shengcaiyoushu01.feishu.cn/docx/Pr4kdNqHEoQuffxxkyzcFk6en9e](https://shengcaiyoushu01.feishu.cn/docx/Pr4kdNqHEoQuffxxkyzcFk6en9e)
+
 
 ## 嘉宾介绍
 

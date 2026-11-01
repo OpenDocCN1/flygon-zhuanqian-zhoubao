@@ -1,6 +1,6 @@
 # 咨询师如何用专家式成交做到十倍变现？
 
-> 来源：[https://lxfgt1wpdnk.feishu.cn/docx/GPaqdwufyoxmSfxzvi9cuQFmn2d](https://lxfgt1wpdnk.feishu.cn/docx/GPaqdwufyoxmSfxzvi9cuQFmn2d)
+
 
 哈喽，我是花花教练。
 

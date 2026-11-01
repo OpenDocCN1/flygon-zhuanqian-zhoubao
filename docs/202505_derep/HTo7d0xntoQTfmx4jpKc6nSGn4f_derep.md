@@ -1,6 +1,6 @@
 # 一句话搞定公众号全流程：当我把公众号接口接入MCP后，搜索-写稿-配图-排版-发稿全自动化了
 
-> 来源：[https://b121w2zgwyx.feishu.cn/docx/HTo7d0xntoQTfmx4jpKc6nSGn4f](https://b121w2zgwyx.feishu.cn/docx/HTo7d0xntoQTfmx4jpKc6nSGn4f)
+
 
 扣子空间这波更新来得有点快。两天前我还在吐槽，空间里的MCP扩展太少还不能自己定，结果现在就解开了。
 

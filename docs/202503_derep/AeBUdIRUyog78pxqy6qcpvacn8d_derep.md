@@ -1,6 +1,6 @@
 # 一个零基础的我，用 4.5 小时就把游戏站上线了
 
-> 来源：[https://qwnby0kfq0v.feishu.cn/docx/AeBUdIRUyog78pxqy6qcpvacn8d](https://qwnby0kfq0v.feishu.cn/docx/AeBUdIRUyog78pxqy6qcpvacn8d)
+
 
 大家好，我叫思齐，入圈赚钱已经一年多。去年三月有幸去到杭州参加千人线下聚会，那种全员冲向变现的氛围，真的给我上了一课。
 

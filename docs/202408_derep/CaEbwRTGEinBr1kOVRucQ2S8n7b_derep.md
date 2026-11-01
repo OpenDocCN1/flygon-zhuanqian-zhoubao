@@ -1,6 +1,6 @@
 # 用手搓逻辑做AI，公众号爆文怎么“人工制造”——【独家首发】手搓板工具上线
 
-> 来源：[https://ovumyiw67u1.feishu.cn/docx/F5Bdddp9boJqKAxZp8PcuPZ6naf](https://ovumyiw67u1.feishu.cn/docx/F5Bdddp9boJqKAxZp8PcuPZ6naf)
+
 
 ## 开场白
 

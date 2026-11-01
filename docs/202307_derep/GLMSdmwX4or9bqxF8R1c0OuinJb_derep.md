@@ -1,6 +1,6 @@
 # 电商新媒体矩阵的 AI 降本增效实操拆解
 
-> 来源：[https://yjl4lwvs75.feishu.cn/docx/GLMSdmwX4or9bqxF8R1c0OuinJb](https://yjl4lwvs75.feishu.cn/docx/GLMSdmwX4or9bqxF8R1c0OuinJb)
+
 
 大家好，我是陈思成。
 

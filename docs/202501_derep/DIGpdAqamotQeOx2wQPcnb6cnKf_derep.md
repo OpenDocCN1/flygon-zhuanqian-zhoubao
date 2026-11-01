@@ -1,6 +1,6 @@
 # 扣子实战拆解：如何用一键生成新年春联海报
 
-> 来源：[https://mb8jo3jay5.feishu.cn/docx/DIGpdAqamotQeOx2wQPcnb6cnKf](https://mb8jo3jay5.feishu.cn/docx/DIGpdAqamotQeOx2wQPcnb6cnKf)
+
 
 最近在给一个做大学生及社会工作者英语学习 APP 的客户搭建智能体，他们参加鸿蒙应用大赛已经进决赛了，想在产品里再加点有创意的 AI 功能，大家有没有好点子可以交流一下？目前已经上线的是一套剧本杀智能体。
 

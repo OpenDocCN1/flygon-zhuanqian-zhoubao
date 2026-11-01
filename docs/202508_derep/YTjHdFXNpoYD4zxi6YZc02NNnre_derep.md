@@ -1,6 +1,6 @@
 # 别再傻读精华帖了，致命细节藏在这4个缝隙里
 
-> 来源：[https://vz6cwy4ffd.feishu.cn/docx/YTjHdFXNpoYD4zxi6YZc02NNnre](https://vz6cwy4ffd.feishu.cn/docx/YTjHdFXNpoYD4zxi6YZc02NNnre)
+
 
 今年7月，赚钱里两篇帖子直接把我打醒了，再加上去年那几篇被顶起来的精华。
 

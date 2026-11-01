@@ -1,6 +1,6 @@
 # 裸辞半年零收入，靠一个野路子翻身：3个月赚了8万多，全盘复盘
 
-> 来源：https://iqkghbz2ppm.feishu.cn/docx/LUz5dSOS8obAdfxkqD1cPUzinpb
+
 
 圈友好呀，我是兰兰，做过互联网HRBP。
 

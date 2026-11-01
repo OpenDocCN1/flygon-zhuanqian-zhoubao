@@ -1,6 +1,6 @@
 # 从小白到月入4万+，我用3个月在视频号里踩过的坑，我帮你填平了
 
-> 来源：[https://rxxy4o2wwcf.feishu.cn/docx/OGbvdpwhKonziwxrsKGc5gaDnCf](https://rxxy4o2wwcf.feishu.cn/docx/OGbvdpwhKonziwxrsKGc5gaDnCf)
+
 
 先说声谢谢，@梁靠谱 @李千万 @芷蓝 ，这三个月能少走弯路，多亏了三位老师的点拨。
 

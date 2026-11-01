@@ -1,6 +1,6 @@
 # 封号之后，我不找中介自己办下了出版零售许可（实操全记录）
 
-> 来源：[https://c0we6nulzy.feishu.cn/docx/IDR8dATyXopVTJx0FHCceKynnyC](https://c0we6nulzy.feishu.cn/docx/IDR8dATyXopVTJx0FHCceKynnyC)
+
 
 qiaoyan，赚钱圈两年资深潜水员，今天头一回上来冒泡。这篇内容如果没有@何遇 的催促，可能永远安静躺在我的草稿箱里。
 

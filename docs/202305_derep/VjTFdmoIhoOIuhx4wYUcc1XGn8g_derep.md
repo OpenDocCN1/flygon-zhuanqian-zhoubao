@@ -1,6 +1,6 @@
 # 从认知到变现，用五个维度拆解一个能稳定赚钱的公号怎么起盘
 
-> 来源：[https://n28vbku1px.feishu.cn/docx/VjTFdmoIhoOIuhx4wYUcc1XGn8g](https://n28vbku1px.feishu.cn/docx/VjTFdmoIhoOIuhx4wYUcc1XGn8g)
+
 
 哈喽，兄弟们好，我是王大牙。
 

@@ -1,6 +1,6 @@
 # 一人公司该怎么挑一个能做的行业
 
-> 来源：[https://d1wt7yv10ce.feishu.cn/docx/SrWVdMWC7oBMJ5x5LKMcsMvdnhn](https://d1wt7yv10ce.feishu.cn/docx/SrWVdMWC7oBMJ5x5LKMcsMvdnhn)
+
 
 经常会听到一句至理名言：选对赛道比埋头苦干更重要。为什么是选择先于努力？
 

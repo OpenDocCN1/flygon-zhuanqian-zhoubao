@@ -1,6 +1,6 @@
 # 如何打磨出百万级互动的评论区？
 
-> 来源：[https://j9murflfbi.feishu.cn/docx/QO5WdOVGpoYf4jxkWLrcfyVpnQf](https://j9murflfbi.feishu.cn/docx/QO5WdOVGpoYf4jxkWLrcfyVpnQf)
+
 
 先做个自我介绍，我是丁丁，内容圈摸爬滚打快八年了，带团队从零起步做起过几个百万量级IP。离职前在世界500强做内容运营总监，现在自己开了工作室，专注给客户做IP和流量的咨询陪跑。
 

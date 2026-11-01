@@ -1,6 +1,6 @@
 # 15天探店闭环：从日亏到日赚6000+，我的3年线下推广实战谈
 
-> 来源：[https://mxm6pm7z7sk.feishu.cn/docx/AZkidNlc2ohmtOxxejYcgpw9nnh](https://mxm6pm7z7sk.feishu.cn/docx/AZkidNlc2ohmtOxxejYcgpw9nnh)
+
 
 ## 先做个自我介绍
 

@@ -1,6 +1,6 @@
 # 手把手：用ChatGPT写出一套主播直播话术
 
-> 来源：[飞书原文](https://ixzs13ngb9.feishu.cn/docx/HIHVdkYbWoksdhxeBdBc9qNKnAb)
+
 
 ## 直播间的输赢，很多时候就压在一份稿上
 

@@ -1,6 +1,6 @@
 # 宠物攻略解说视频复刻：Youtube shorts 制作实操
 
-> 来源：[https://e6tnf5bko1.feishu.cn/docx/AuCedbFOToNQIsx95GHcG7kmn3k](https://e6tnf5bko1.feishu.cn/docx/AuCedbFOToNQIsx95GHcG7kmn3k)
+
 
 大家好，我是龙，赚钱第8期新圈友~
 

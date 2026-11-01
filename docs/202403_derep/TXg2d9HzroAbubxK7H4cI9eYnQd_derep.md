@@ -1,6 +1,6 @@
 # 抓住考研调剂风口，普通人也能快速起量
 
-> 来源：[https://mf312aayjy.feishu.cn/docx/TXg2d9HzroAbubxK7H4cI9eYnQd](https://mf312aayjy.feishu.cn/docx/TXg2d9HzroAbubxK7H4cI9eYnQd)
+
 
 # 一、实操复盘
 

@@ -1,6 +1,6 @@
 # 智能内容创作的道与术：图像/视频模型横评及实战技巧
 
-> 来源：[https://ncnmu5q1eqm9.feishu.cn/docx/R8PYdlpLvo5ZLhxySqEc8Pz9n6d](https://ncnmu5q1eqm9.feishu.cn/docx/R8PYdlpLvo5ZLhxySqEc8Pz9n6d)
+
 
 # 开场话
 

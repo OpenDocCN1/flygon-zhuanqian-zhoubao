@@ -1,6 +1,6 @@
 # 用6000字把公众号IP的选题问题讲透
 
-> 来源：[https://gd7vhxq16l.feishu.cn/docx/HD8ZdR1Qpovuqlx5YetcW7mlnD3](https://gd7vhxq16l.feishu.cn/docx/HD8ZdR1Qpovuqlx5YetcW7mlnD3)
+
 
 公众号航海我已经跑了两年，是存活时间最长的那艘船。我本人也经历了七期，1期带队，6期当教练。可航海手册也好，高手领航也罢，对选题的拆解一直都不够细。这期航海主题又回到IP，选题的重要性就更被放大了。
 

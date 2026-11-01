@@ -1,6 +1,6 @@
 # 新手实操小红书一周破千粉，单号播放量快两百万的复盘笔记
 
-> 来源：[https://ixhrdc36mw.feishu.cn/docx/WwCYdgEzCoyaetxmTPTcAcyLn2g](https://ixhrdc36mw.feishu.cn/docx/WwCYdgEzCoyaetxmTPTcAcyLn2g)
+
 
 大家好，我是阿酷，这次跟大家聊聊我最近上手小红书的真实踩坑经历，以及美女IP账号的跑法。
 

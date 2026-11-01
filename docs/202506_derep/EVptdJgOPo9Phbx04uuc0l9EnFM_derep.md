@@ -1,6 +1,6 @@
 # Sora API 批量生图工具 V1.0 完整上手指南
 
-> 来源：[https://wm1881zs6s.feishu.cn/docx/EVptdJgOPo9Phbx04uuc0l9EnFM](https://wm1881zs6s.feishu.cn/docx/EVptdJgOPo9Phbx04uuc0l9EnFM)
+
 
 ## 安装前准备
 

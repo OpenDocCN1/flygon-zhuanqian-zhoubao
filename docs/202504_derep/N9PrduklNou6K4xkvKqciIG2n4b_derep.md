@@ -1,6 +1,6 @@
 # 手把手教你：用手机一键把小红书商品抓进飞书多维表格
 
-> 来源：[https://d912sxp8dd.feishu.cn/docx/N9PrduklNou6K4xkvKqciIG2n4b](https://d912sxp8dd.feishu.cn/docx/N9PrduklNou6K4xkvKqciIG2n4b)
+
 
 更新：现在能抓取小红书商品的最新销量数据
 更新：新增手机端小红书笔记采集方案

@@ -1,6 +1,6 @@
 # 2.4万粉做自创品牌月销破百万：老实人做自媒体也能赢？
 
-> 来源：[https://m08zlw24sg0.feishu.cn/docx/PcmWdK18aoxxGIxC1B0cDSKWnyw](https://m08zlw24sg0.feishu.cn/docx/PcmWdK18aoxxGIxC1B0cDSKWnyw)
+
 
 自媒体圈里，流传着两句看似合理的“铁律”。
 

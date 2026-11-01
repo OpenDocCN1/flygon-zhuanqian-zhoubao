@@ -1,6 +1,6 @@
 # 去香港办一张外币卡，究竟值不值得？我的完整实测攻略
 
-> 来源：[https://e1hu1wy3gm.feishu.cn/docx/BnNxd7oSSotQiUx4U3vc0RJanod](https://e1hu1wy3gm.feishu.cn/docx/BnNxd7oSSotQiUx4U3vc0RJanod)
+
 
 这次办香港汇丰账户，过程并没有想象中顺利。
 

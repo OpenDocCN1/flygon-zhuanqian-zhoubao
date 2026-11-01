@@ -1,6 +1,6 @@
 # 【AI写作变现】带妈妈和兄弟姐妹一起做AI，月入轻松破3W+
 
-> 来源：[https://j1ohuigiiff.feishu.cn/docx/RckWdJJAHojjZwxw8tUc9seWndf](https://j1ohuigiiff.feishu.cn/docx/RckWdJJAHojjZwxw8tUc9seWndf)
+
 
 ![](img/ca90cbd41766c6a951399d1aac7f451b.png)
 

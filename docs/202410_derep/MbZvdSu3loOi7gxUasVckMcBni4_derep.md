@@ -1,6 +1,6 @@
 # AI音乐变现实录：投入360小时，收益能否达到4万元？
 
-> 来源：[https://btr2ioqltz.feishu.cn/docx/MbZvdSu3loOi7gxUasVckMcBni4](https://btr2ioqltz.feishu.cn/docx/MbZvdSu3loOi7gxUasVckMcBni4)
+
 
 ## 作者说明
 

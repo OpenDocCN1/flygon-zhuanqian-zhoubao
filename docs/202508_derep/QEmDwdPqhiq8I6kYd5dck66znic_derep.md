@@ -1,6 +1,6 @@
 # 快手AI短视频带货实战拆解
 
-> 来源：[https://wql5ixa4cw.feishu.cn/docx/YAKAdyFvLouDxdxYoqRclTDEndg](https://wql5ixa4cw.feishu.cn/docx/YAKAdyFvLouDxdxYoqRclTDEndg)
+
 
 # 开场白
 

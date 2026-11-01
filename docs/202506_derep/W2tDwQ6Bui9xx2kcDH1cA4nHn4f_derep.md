@@ -1,6 +1,6 @@
 # 从写代码的90后到操盘AI智能体：400万订单背后的完整复盘，全套打法拿去抄
 
-> 来源：[https://s0d3redrubi.feishu.cn/docx/GdTZdlrI9oz51Ux33PdcfIsknce](https://s0d3redrubi.feishu.cn/docx/GdTZdlrI9oz51Ux33PdcfIsknce)
+
 
 先做个简单自我介绍。
 

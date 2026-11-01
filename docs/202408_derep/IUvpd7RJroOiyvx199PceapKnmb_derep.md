@@ -1,6 +1,6 @@
 # 想入局互联网？这份从0到N的实战路线值得收藏
 
-> 来源：[https://bh5pm72xfy.feishu.cn/docx/IUvpd7RJroOiyvx199PceapKnmb](https://bh5pm72xfy.feishu.cn/docx/IUvpd7RJroOiyvx199PceapKnmb)
+
 
 互联网从不缺干货，无论哪个赛道都堆满了教程和案例。难的是把零散的信息拼成一套能落地的打法。正因如此，这份互联网创业宝典才显得弥足珍贵，它是我这十多年实操沉淀下来的系统笔记。
 

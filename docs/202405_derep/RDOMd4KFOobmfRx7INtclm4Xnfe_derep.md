@@ -1,6 +1,6 @@
 # 我眼中的行动力：从龙哥的一则帖子说起
 
-> 来源：[https://vz6cwy4ffd.feishu.cn/docx/RDOMd4KFOobmfRx7INtclm4Xnfe](https://vz6cwy4ffd.feishu.cn/docx/RDOMd4KFOobmfRx7INtclm4Xnfe)
+
 
 ## 先说下我是谁
 

@@ -1,6 +1,6 @@
 # 四个人一起做了一个 AI 吐槽大会
 
-> 来源：[https://ktnwm6ohjn.feishu.cn/docx/GvqJdkriyoFdFJxiETCcvC8ynQd](https://ktnwm6ohjn.feishu.cn/docx/GvqJdkriyoFdFJxiETCcvC8ynQd)
+
 
 大家好，我是土豆君，全栈出身。去年基本没什么产出，今年算是重新开工了。
 

@@ -1,6 +1,6 @@
 # 用 AI 搞养生向短视频的实操拆解
 
-> 来源：[https://kecr953yuc.feishu.cn/docx/ECO1dDsrto7TAyxVgJmcWVOLnZc](https://kecr953yuc.feishu.cn/docx/ECO1dDsrto7TAyxVgJmcWVOLnZc)
+
 
 # 开场白
 

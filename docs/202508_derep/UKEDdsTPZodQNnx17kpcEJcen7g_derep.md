@@ -1,6 +1,6 @@
 # 民生赛道流量主冷启动打法：先用轻内容做信任，再切长文变现
 
-> 来源：[https://k874t2qh8w.feishu.cn/docx/UKEDdsTPZodQNnx17kpcEJcen7g](https://k874t2qh8w.feishu.cn/docx/UKEDdsTPZodQNnx17kpcEJcen7g)
+
 
 大家好，我是辰风。今天拆解一套我在实操中验证过的起号思路，方向主要放在养老、民生、社会议题上，配合流量主变现，节奏偏快。
 

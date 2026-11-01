@@ -1,6 +1,6 @@
 # 用 GPT 搭脚本，用影刀 RPA 执行：零代码也能玩转爬虫与自动化
 
-> 来源：[https://bc8fd5oefm.feishu.cn/docx/S2IRdpmbtouaGMxrCIwcg1Rynzf](https://bc8fd5oefm.feishu.cn/docx/S2IRdpmbtouaGMxrCIwcg1Rynzf)
+
 
 ## 前言
 

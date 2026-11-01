@@ -1,6 +1,6 @@
 # 靠AI老照片修复做到近六位数GMV，我踩对的几步
 
-> 来源：[https://wwa6ugt6w2.feishu.cn/docx/LKkOd6g1coQvuzxNDzfcCCeBnQe](https://wwa6ugt6w2.feishu.cn/docx/LKkOd6g1coQvuzxNDzfcCCeBnQe)
+
 
 ## 一、这份生意，高门槛看不上，低门槛玩不转
 

@@ -1,6 +1,6 @@
 # 《瞬息全宇宙》从零到爆款的实操拆解
 
-> 来源：[https://ry5hwpuf7b.feishu.cn/docx/WbFVdvGkAoo38ZxDumwclWEynRg](https://ry5hwpuf7b.feishu.cn/docx/WbFVdvGkAoo38ZxDumwclWEynRg)
+
 
 《瞬息全宇宙视频怎么拍？手把手教你做出百万播放》
 

@@ -1,6 +1,6 @@
 # 从零起步，小红书聚光投放三个月，我做到了月利润15w+
 
-> 来源：[https://j1ohuigiiff.feishu.cn/docx/PeNhdxzU2oVQXTxnBYucK46KnBd](https://j1ohuigiiff.feishu.cn/docx/PeNhdxzU2oVQXTxnBYucK46KnBd)
+
 
 # 纸上得来终觉浅，绝知此事要躬行
 

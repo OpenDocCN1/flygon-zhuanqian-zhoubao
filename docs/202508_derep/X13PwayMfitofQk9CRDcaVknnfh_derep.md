@@ -1,6 +1,6 @@
 # 【视频号图书口播带货】矩阵化+流程提效，月佣稳过1万的实操复盘
 
-> 来源：[https://iqlk6ti4oem.feishu.cn/docx/XTmddEzcFoBM1FxkDEncwFpNnih](https://iqlk6ti4oem.feishu.cn/docx/XTmddEzcFoBM1FxkDEncwFpNnih)
+
 
 先碎碎念一下缘起，这是我第一次在赚钱做公开复盘，所以把我是怎么跟赚钱搭上线的也顺带写了，有点流水账。
 

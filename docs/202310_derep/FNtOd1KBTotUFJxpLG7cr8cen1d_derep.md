@@ -1,6 +1,6 @@
 # 我用1000天日更，把知识做成了100万的变现
 
-> 来源：[https://grkhqdru9g.feishu.cn/docx/FNtOd1KBTotUFJxpLG7cr8cen1d](https://grkhqdru9g.feishu.cn/docx/FNtOd1KBTotUFJxpLG7cr8cen1d)
+
 
 大家好，我是逆熵增者。
 

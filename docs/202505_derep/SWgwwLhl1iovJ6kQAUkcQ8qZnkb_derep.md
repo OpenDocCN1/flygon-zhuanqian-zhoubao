@@ -1,6 +1,6 @@
 # 二十不惑——在赚钱的第二年，随便聊聊
 
-> 来源：[https://ywfmllgra2k.feishu.cn/docx/X7T2dBldGob7HkxhQAOcqKStnRg](https://ywfmllgra2k.feishu.cn/docx/X7T2dBldGob7HkxhQAOcqKStnRg)
+
 
 有时候会觉得人生的走向很奇妙。
 

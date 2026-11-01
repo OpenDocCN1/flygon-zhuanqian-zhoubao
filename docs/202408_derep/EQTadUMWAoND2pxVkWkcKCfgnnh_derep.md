@@ -1,6 +1,6 @@
 # 节日营销怎么玩？七夕一天收入四位数，摄影师变现复盘拆解
 
-> 来源：[https://dqez6wornz.feishu.cn/docx/EQTadUMWAoND2pxVkWkcKCfgnnh](https://dqez6wornz.feishu.cn/docx/EQTadUMWAoND2pxVkWkcKCfgnnh)
+
 
 怀着一点忐忑启动这次七夕写真项目，算是我一次新的合作尝试。过程中踩了坑也拿到了结果，今天把完整的思考和操作方法整理出来，希望能给同样在做个人变现的朋友一些参考。
 

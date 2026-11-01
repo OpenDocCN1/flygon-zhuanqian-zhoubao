@@ -1,6 +1,6 @@
 # 把握流量刚需做被动现金流：流量包充值项目全拆解
 
-> 来源：[https://yuy9xiw6kc.feishu.cn/docx/PekrdkrOVoueKCxVyMXcwiZ7ntd](https://yuy9xiw6kc.feishu.cn/docx/PekrdkrOVoueKCxVyMXcwiZ7ntd)
+
 
 大家好，我是深潜。关注赚钱有段时间了，我加入得算晚，正式入圈是在今年四月。最近看到群里不少大佬在聊虚拟资料变现，今天我就把自己前几年实操过的、属于虚拟赛道里一个经典案例“流量包充值”分享出来。
 

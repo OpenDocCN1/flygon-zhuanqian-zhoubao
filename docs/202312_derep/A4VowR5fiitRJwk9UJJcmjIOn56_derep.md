@@ -1,6 +1,6 @@
 # 清迈长居实操笔记
 
-> 来源：[https://q4u7b61cya.feishu.cn/docx/Zne6dEy92oq2rIxmpTxcXLzAnIh](https://q4u7b61cya.feishu.cn/docx/Zne6dEy92oq2rIxmpTxcXLzAnIh)
+
 
 很多人第一次把清迈当作远程工作的落脚点，原因无外乎开销可控、气候宜人、节奏慢，更有一批全世界的数字游牧者常年驻扎于此。出发前把下面这些事理顺，能省掉不少现场麻烦。
 

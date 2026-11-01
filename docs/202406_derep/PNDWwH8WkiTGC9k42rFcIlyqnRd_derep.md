@@ -1,6 +1,6 @@
 # 💰零成本起步做播客，一年吸粉过万、变现30万+，我是怎么走过来的？
 
-> 来源：[https://hjlrkivx2z.feishu.cn/docx/ImW1dRfNMoprELxOKQsc1zzZn6d](https://hjlrkivx2z.feishu.cn/docx/ImW1dRfNMoprELxOKQsc1zzZn6d)
+
 
 大家好，我是当小时。去年经由靠谱拉新进入赚钱，参加了播客制作与商业访谈的航海，收获不小。
 

@@ -1,6 +1,6 @@
 # 新手10分钟也能做出破百粉的视频🚀
 
-> 来源：[https://htk589sgsw.feishu.cn/docx/N9uidQnNgoqfMaxizGFcnu0cnFg](https://htk589sgsw.feishu.cn/docx/N9uidQnNgoqfMaxizGFcnu0cnFg)
+
 
 ![](img/8437c8e308d098c6e7afe9cc03634dda.png)
 

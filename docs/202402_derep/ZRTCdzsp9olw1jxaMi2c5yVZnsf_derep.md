@@ -1,6 +1,6 @@
 # 风向标拆解第3期｜靠卖 Notion 模板一年入百万美金，资料整理变现到底怎么玩 - 韧而远行
 
-> 来源：[https://zx5eujk7gcw.feishu.cn/docx/ZRTCdzsp9olw1jxaMi2c5yVZnsf](https://zx5eujk7gcw.feishu.cn/docx/ZRTCdzsp9olw1jxaMi2c5yVZnsf)
+
 
 大家好，我是远行，赚钱的萌新一枚。今天从一个小白视角，来复盘一个很有意思的案例。
 

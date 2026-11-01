@@ -1,6 +1,6 @@
 # 小白也能快速上手、闭环最短的AI写作变现方向：做降重+降AIGC的一站式服务
 
-> 来源：[https://strczxjzdj.feishu.cn/docx/AaezdWaEWo0OSYxCzMJcQUJrnSh](https://strczxjzdj.feishu.cn/docx/AaezdWaEWo0OSYxCzMJcQUJrnSh)
+
 
 大家好，我是陈bu懂。
 

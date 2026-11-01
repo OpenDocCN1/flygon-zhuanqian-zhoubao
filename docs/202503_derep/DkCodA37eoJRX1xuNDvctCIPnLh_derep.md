@@ -1,6 +1,6 @@
 # YouTube频道如何起量？把推广拆成三条路径，收好不迷路
 
-> 来源：[https://rlwxa0zgke.feishu.cn/docx/DkCodA37eoJRX1xuNDvctCIPnLh](https://rlwxa0zgke.feishu.cn/docx/DkCodA37eoJRX1xuNDvctCIPnLh)
+
 
 把引流思路抽象一下，其实就三类打法：等来、自己上、付费买。
 

@@ -1,6 +1,6 @@
 # 用主动社交破局，我从百万负债走到稳定变现，过上想要的生活
 
-> 来源：[https://oee5lr7gsk.feishu.cn/docx/IoHgdLSmxoTou3xe72tceHUQn4b](https://oee5lr7gsk.feishu.cn/docx/IoHgdLSmxoTou3xe72tceHUQn4b)
+
 
 # 前言
 

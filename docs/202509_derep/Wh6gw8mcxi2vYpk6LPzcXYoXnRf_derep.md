@@ -1,6 +1,6 @@
 # 【喂饭级指南】一套思路吃透AI多镜头短视频创作
 
-> 来源：[https://bcn7jh9fl49y.feishu.cn/docx/KXVYdrSTxo1vTnxrr0UcjNY2ngf](https://bcn7jh9fl49y.feishu.cn/docx/KXVYdrSTxo1vTnxrr0UcjNY2ngf)
+
 
 # 一、先认清：单镜头和多镜头差在哪
 

@@ -1,6 +1,6 @@
 # 走了两年的弯路，12月小红书店终于GMV破5万
 
-> 来源：[https://i7ps6a5omq.feishu.cn/docx/Q9Z8d6tUmo11ugxDe6Fc8OkPnsg](https://i7ps6a5omq.feishu.cn/docx/Q9Z8d6tUmo11ugxDe6Fc8OkPnsg)
+
 
 从7月摸索到现在，算上停停开开，加起来也做了好几个月。120多条笔记砸下去，12月7号才迎来第一次日破千。眼下12月整体GMV已经站上5万，日常稳定在2千左右，峰值能冲到4千+。
 

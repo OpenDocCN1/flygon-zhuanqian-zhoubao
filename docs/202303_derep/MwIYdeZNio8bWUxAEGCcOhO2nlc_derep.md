@@ -1,6 +1,6 @@
 # 零基础也能搞定的短剧CPS变现：一部手机一个月收入过万的实操拆解
 
-> 来源：[https://g6oie6h368.feishu.cn/docx/MwIYdeZNio8bWUxAEGCcOhO2nlc](https://g6oie6h368.feishu.cn/docx/MwIYdeZNio8bWUxAEGCcOhO2nlc)
+
 
 大家好，我是清欢。
 

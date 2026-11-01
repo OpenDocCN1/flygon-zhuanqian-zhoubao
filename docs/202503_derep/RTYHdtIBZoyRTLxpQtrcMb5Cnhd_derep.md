@@ -1,6 +1,6 @@
 # 读懂 App Store 榜单：海外营销人的一线雷达
 
-> 来源：[https://jt0evptqde.feishu.cn/docx/RTYHdtIBZoyRTLxpQtrcMb5Cnhd](https://jt0evptqde.feishu.cn/docx/RTYHdtIBZoyRTLxpQtrcMb5Cnhd)
+
 
 # App Store 榜单到底是什么
 

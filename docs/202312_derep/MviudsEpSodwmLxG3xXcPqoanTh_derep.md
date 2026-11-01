@@ -1,6 +1,6 @@
 # 用不到高成本，抖音教育直播一年做到300万利润的轻量玩法拆解
 
-> 来源：[https://wq43syvo98.feishu.cn/docx/MviudsEpSodwmLxG3xXcPqoanTh](https://wq43syvo98.feishu.cn/docx/MviudsEpSodwmLxG3xXcPqoanTh)
+
 
 航海即将启程，本次航线里新加了【抖音教育直播】赛道。与伙伴们聊下来，发现对这个赛道的认知存在不少偏差，所以在开船前连夜把思路整理成这篇拆解。
 

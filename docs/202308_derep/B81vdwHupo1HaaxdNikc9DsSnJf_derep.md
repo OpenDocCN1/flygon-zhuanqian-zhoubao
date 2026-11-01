@@ -1,6 +1,6 @@
 # ChatGPT三招速成高质量读后感：从没读过书到完整出稿，全流程拆解【更新_20240612_1021】
 
-> 来源：[https://atbs4xk1uw.feishu.cn/docx/B81vdwHupo1HaaxdNikc9DsSnJf](https://atbs4xk1uw.feishu.cn/docx/B81vdwHupo1HaaxdNikc9DsSnJf)
+
 
 收录于 AI写作变现教程 合集
 

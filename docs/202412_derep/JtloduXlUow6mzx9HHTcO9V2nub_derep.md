@@ -1,6 +1,6 @@
 # 单枪匹马靠聚光投流，12个月沉淀4万粉丝私域，完整复盘
 
-> 来源：[https://qxgrvnd4nbk.feishu.cn/docx/JtloduXlUow6mzx9HHTcO9V2nub](https://qxgrvnd4nbk.feishu.cn/docx/JtloduXlUow6mzx9HHTcO9V2nub)
+
 
 各位圈友好，我是更绪，四川南充出发，现主攻小红书赛道，擅长内容结合投放拿客资做转化。
 

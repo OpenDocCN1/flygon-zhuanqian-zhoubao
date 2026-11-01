@@ -1,6 +1,6 @@
 # 【保姆级拆解】零基础起盘一条高交付感的陪跑训练营
 
-> 来源：[https://y2mt3o47i3.feishu.cn/docx/MUfLdmUlTosj0NxPhlfcjRPHnff](https://y2mt3o47i3.feishu.cn/docx/MUfLdmUlTosj0NxPhlfcjRPHnff)
+
 
 当一个项目被你跑通后，脑子里很容易冒出一个念头：把方法复制出去，通过带人来放大变现。但真正拉开序幕后，反差往往很大。
 

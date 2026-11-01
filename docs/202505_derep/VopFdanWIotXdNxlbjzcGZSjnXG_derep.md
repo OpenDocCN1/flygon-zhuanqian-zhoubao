@@ -1,6 +1,6 @@
 # 龙哥点醒一件事：飞书多维表格+AI，这块蛋糕被严重低估了
 
-> 来源：[https://lxs5t23nn0p.feishu.cn/docx/VopFdanWIotXdNxlbjzcGZSjnXG](https://lxs5t23nn0p.feishu.cn/docx/VopFdanWIotXdNxlbjzcGZSjnXG)
+
 
 大家好，我是书生。过去三天我几乎是熬夜刷完了飞书多维表格的基础教程，把零碎的想法整理成这篇笔记，希望能和大家一起聊聊。
 

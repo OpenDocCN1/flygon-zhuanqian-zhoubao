@@ -1,6 +1,6 @@
 # 从运营经理到双线生长，我用21天航海把副业跑通了
 
-> 来源：[https://ikaff6c84v.feishu.cn/docx/QjUHdUVF2oppZMxo1XEcAoAqnxf](https://ikaff6c84v.feishu.cn/docx/QjUHdUVF2oppZMxo1XEcAoAqnxf)
+
 
 00 先说前提
 

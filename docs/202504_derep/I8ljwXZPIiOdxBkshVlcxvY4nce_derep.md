@@ -1,6 +1,6 @@
 # 内向者也能在互联网找到位置：我的同城组局实战笔记
 
-> 来源：[https://shengcaiyoushu01.feishu.cn/docx/Lu9YdEs4Oo5O05x91EkcdfaBnaf](https://shengcaiyoushu01.feishu.cn/docx/Lu9YdEs4Oo5O05x91EkcdfaBnaf)
+
 
 # 胖大魔的来信
 

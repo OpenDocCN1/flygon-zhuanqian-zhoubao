@@ -1,6 +1,6 @@
 # 5分钟制作漫画小说短视频，小说推文项目，全流程手把手教学
 
-> 来源：[https://dik4wr1hyrw.feishu.cn/docx/MJoqduZwQoIWZcxnQQjcp60UnKd](https://dik4wr1hyrw.feishu.cn/docx/MJoqduZwQoIWZcxnQQjcp60UnKd)
+
 
 说到以漫画形式演绎小说的短视频，我们先来看看头部账号的表现，互动数据都很亮眼，这类内容确实在爆发。
 

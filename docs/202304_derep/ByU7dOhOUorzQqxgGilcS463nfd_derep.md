@@ -1,6 +1,6 @@
 # 95后上班族靠抖音中老年书单号做副业，兼职俩月变现5万+的实战复盘
 
-> 来源：[https://ki9cyy7wy03.feishu.cn/docx/ByU7dOhOUorzQqxgGilcS463nfd](https://ki9cyy7wy03.feishu.cn/docx/ByU7dOhOUorzQqxgGilcS463nfd)
+
 
 先做个自我介绍：
 

@@ -1,6 +1,6 @@
 # 现象级MMORPG游戏里，变现的切口藏在哪
 
-> 来源：[https://fgsd3oxjki.feishu.cn/docx/OZ53d6t4vovziPxkUyZc8qrNnjc](https://fgsd3oxjki.feishu.cn/docx/OZ53d6t4vovziPxkUyZc8qrNnjc)
+
 
 大家好，我是姚麻。好久没在赚钱更新了，正好杭州线下见面会要来了，先来刷个存在感。
 

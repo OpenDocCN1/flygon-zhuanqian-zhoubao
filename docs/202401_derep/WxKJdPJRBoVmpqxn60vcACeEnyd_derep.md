@@ -1,6 +1,6 @@
 # 2023-12月风向标项目拆解
 
-> 来源：[https://ikxlvgnngc.feishu.cn/docx/WxKJdPJRBoVmpqxn60vcACeEnyd](https://ikxlvgnngc.feishu.cn/docx/WxKJdPJRBoVmpqxn60vcACeEnyd)
+
 
 风向标拆解第2期
 

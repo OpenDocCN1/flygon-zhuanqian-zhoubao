@@ -1,6 +1,6 @@
 # 还能玩跨境 COD 吗？这套半价引流的中东 COD 打法，干货+实操全放这
 
-> 来源：[https://vvxlpvbvbp3.feishu.cn/docx/TE32dlXyUosRXIxE37wc1o6mnR4](https://vvxlpvbvbp3.feishu.cn/docx/TE32dlXyUosRXIxE37wc1o6mnR4)
+
 
 各位老铁，我是 Albert
 

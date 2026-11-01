@@ -1,6 +1,6 @@
 # 我自己造了个轮子：从飞书MCP到自研人生教练MCP v3，我花了一天
 
-> 来源：[https://o90p05z3t4.feishu.cn/docx/MYXAdWRGzoS2iLxmIKScRQ5jnlh](https://o90p05z3t4.feishu.cn/docx/MYXAdWRGzoS2iLxmIKScRQ5jnlh)
+
 
 大家好，我是做Agent的成峰。上周的人生教练Agent v1、v2刚发出去，这几天我一直在看大家的反馈和使用情况，最后还是决定自己动手，搞出了一个专属的人生教练MCP组件。
 

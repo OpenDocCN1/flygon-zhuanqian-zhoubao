@@ -1,6 +1,6 @@
 # 【复盘长文】单兵起步两月净利5万+：小白切入文案变现从0到10的完整打法
 
-> 来源：[https://atbs4xk1uw.feishu.cn/docx/WtbIdsHSJozucPxaUsic3nEWnCc](https://atbs4xk1uw.feishu.cn/docx/WtbIdsHSJozucPxaUsic3nEWnCc)
+
 
 # 一、开篇总览
 

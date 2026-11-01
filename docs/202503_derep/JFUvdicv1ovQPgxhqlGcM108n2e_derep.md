@@ -1,6 +1,6 @@
 # 7天把龙哥的风向标跑通，1000块到手
 
-> 来源：[https://sxdb3vfjo5y.feishu.cn/docx/JFUvdicv1ovQPgxhqlGcM108n2e](https://sxdb3vfjo5y.feishu.cn/docx/JFUvdicv1ovQPgxhqlGcM108n2e)
+
 
 手绘漫剪这个赛道，最初是上个月底我媳妇刷到后跟我说的，她觉得形式挺有意思，也打算闲暇时试试水。
 

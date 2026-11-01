@@ -1,6 +1,6 @@
 # 风向标拆解第3期——年后重启，花艺绿植号还能不能玩？小Q
 
-> 来源：[https://te74jxs21s.feishu.cn/docx/MKKgdgp1Vo6F16xjzDDcxLJSnLc](https://te74jxs21s.feishu.cn/docx/MKKgdgp1Vo6F16xjzDDcxLJSnLc)
+
 
 这是我第一次尝试做项目拆解，手感很生，所以先照着模板的框架写，引子也先照搬，方便自己上手。
 

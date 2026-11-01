@@ -1,6 +1,6 @@
 # 图片会说话进阶版实操拆解：小和尚、老者类视频的提速玩法
 
-> 来源：[https://ixy2s5ruvqf.feishu.cn/docx/EBUudHloWoYZzoxG6hTcw8W1nvh](https://ixy2s5ruvqf.feishu.cn/docx/EBUudHloWoYZzoxG6hTcw8W1nvh)
+
 
 嗨，各位朋友，我是云天。
 

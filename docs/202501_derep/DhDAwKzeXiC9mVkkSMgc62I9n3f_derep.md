@@ -1,6 +1,6 @@
 # 给第一次打开 Reddit 的小白，一份实战入门指南
 
-> 来源：[https://qjv17b58t3.feishu.cn/docx/L3mbdU39BoQgrqxI2Dlcizz9nRb](https://qjv17b58t3.feishu.cn/docx/L3mbdU39BoQgrqxI2Dlcizz9nRb)
+
 
 # 海外社媒运营 · Reddit 新手篇
 

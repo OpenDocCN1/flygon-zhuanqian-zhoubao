@@ -1,6 +1,6 @@
 # 个体户执照线上注销全记录：从卡壳到搞定
 
-> 来源：[https://w63nbfedzw.feishu.cn/docx/SWjJdUHzloxKjCxplUsc7AYpnXc](https://w63nbfedzw.feishu.cn/docx/SWjJdUHzloxKjCxplUsc7AYpnXc)
+
 
 先说下这篇记录的诞生经过：2024年12月31日就起了草，写完前半段便因审核搁置，中间还撞上元旦放假；1月2日补交完毕，随后几天没动静，1月7日登录系统一查，执照已经是注销状态。
 

@@ -1,6 +1,6 @@
 # 2024年小红书怎么玩？从流量到变现的7个关键判断
 
-> 来源：[https://m08zlw24sg0.feishu.cn/docx/Sd8Tdoh8votCXAxJSXUciolsnlb](https://m08zlw24sg0.feishu.cn/docx/Sd8Tdoh8votCXAxJSXUciolsnlb)
+
 
 想在小红书拿到流量、沉淀影响力、最终实现变现，关键还是先搞懂这个生态的底层逻辑，以及自己在里面扮演什么角色。只有摸清规则，才能持续稳定地吃到结果。
 

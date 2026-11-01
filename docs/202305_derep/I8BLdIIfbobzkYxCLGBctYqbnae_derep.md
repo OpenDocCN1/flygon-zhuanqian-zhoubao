@@ -1,6 +1,6 @@
 # 视频号还能搞吗？三个月靠它赚了20万，我把方法摊开了说
 
-> 来源：[https://k93b5ikes3.feishu.cn/docx/I8BLdIIfbobzkYxCLGBctYqbnae](https://k93b5ikes3.feishu.cn/docx/I8BLdIIfbobzkYxCLGBctYqbnae)
+
 
 大家好，我是橘子海。2021年我进了龙哥盟的圈子，到21年底就离职了。去年年初开始做短视频带货，全网茶业IP粉丝累计15万+，但说实话，卖货效果一般。
 

@@ -1,6 +1,6 @@
 # YouTube首航复盘：一个素人如何成为航海者的真实笔记
 
-> 来源：[https://p76vqogctb.feishu.cn/docx/VGMXdJilGohhUVx3AmgczwXYnHf](https://p76vqogctb.feishu.cn/docx/VGMXdJilGohhUVx3AmgczwXYnHf)
+
 
 从零基础到上线的这段心路
 

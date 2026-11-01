@@ -1,6 +1,6 @@
 # 文章总结卡 2.0 正式上线：全量适配 Deepseek V3，质感直追 Claude 3.7，再添竖版适配手机端阅读
 
-> 来源：[https://t16jzwqrzjx.feishu.cn/docx/Q0Vnd9GYboXU5pxmdyHcHlB2noh](https://t16jzwqrzjx.feishu.cn/docx/Q0Vnd9GYboXU5pxmdyHcHlB2noh)
+
 
 # 写在前面
 

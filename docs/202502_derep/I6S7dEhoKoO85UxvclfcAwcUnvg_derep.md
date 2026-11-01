@@ -1,6 +1,6 @@
 # 牛马们有救了！DEEPSEEK x WPS 组合拳，把办公效率拉满
 
-> 来源：[https://lxkvj39q93t.feishu.cn/docx/I6S7dEhoKoO85UxvclfcAwcUnvg](https://lxkvj39q93t.feishu.cn/docx/I6S7dEhoKoO85UxvclfcAwcUnvg)
+
 
 哈喽各位，我是做AI企业赋能的佳文，也是龙哥盟的GPT提效导师、coze和ComfyUI的带练教练。
 

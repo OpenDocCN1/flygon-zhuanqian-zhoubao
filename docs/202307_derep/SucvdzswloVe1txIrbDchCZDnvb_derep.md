@@ -1,6 +1,6 @@
 # 儿童时间管理 发售文稿
 
-> 来源：[https://kwj3fkh7ymf.feishu.cn/docx/SucvdzswloVe1txIrbDchCZDnvb](https://kwj3fkh7ymf.feishu.cn/docx/SucvdzswloVe1txIrbDchCZDnvb)
+
 
 ### 发红包
 
@@ -13,7 +13,7 @@
 
 # 儿童时间管理 发售文稿
 
-> 来源：[https://kwj3fkh7ymf.feishu.cn/docx/SucvdzswloVe1txIrbDchCZDnvb](https://kwj3fkh7ymf.feishu.cn/docx/SucvdzswloVe1txIrbDchCZDnvb)
+
 
 ### 发红包
 

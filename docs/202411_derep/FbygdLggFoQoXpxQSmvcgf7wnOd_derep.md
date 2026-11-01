@@ -1,6 +1,6 @@
 # 从垫底出单到业绩第二，厦门同城夜校线下航海实操复盘
 
-> 来源：[https://cx05zf1grzt.feishu.cn/docx/FbygdLggFoQoXpmQSmvcgf7wnOd](https://cx05zf1grzt.feishu.cn/docx/FbygdLggFoQoXpmQSmvcgf7wnOd)
+
 
 大家好，我是阿钦。这次我跟着天盈教练一起做同城夜校项目，组里还有三位合伙人奶油、咪咪和小埋。
 

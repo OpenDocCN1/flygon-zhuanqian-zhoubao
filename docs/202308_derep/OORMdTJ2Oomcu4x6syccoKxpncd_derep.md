@@ -1,6 +1,6 @@
 # TK视频激励计划全攻略：月入十万的实战问答手册
 
-> 来源：[https://l0fh547dko.feishu.cn/docx/OORMdTJ2Oomcu4x6syccoKxpncd](https://l0fh547dko.feishu.cn/docx/OORMdTJ2Oomcu4x6syccoKxpncd)
+
 
 我是路途，又见面了。
 

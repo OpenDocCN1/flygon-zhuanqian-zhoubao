@@ -1,6 +1,6 @@
 # 视频号+抖音 全域自热引流实操拆解
 
-> 来源：[https://thctbhym4b.feishu.cn/docx/EQItdN1GvogV3rxGEGVcOjrcngh](https://thctbhym4b.feishu.cn/docx/EQItdN1GvogV3rxGEGVcOjrcngh)
+
 
 自热的本质从来不是跟平台硬刚，而是精准击穿用户的心理防线。
 

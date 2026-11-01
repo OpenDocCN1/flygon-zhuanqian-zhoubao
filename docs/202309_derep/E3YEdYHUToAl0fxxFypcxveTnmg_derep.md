@@ -1,6 +1,6 @@
 # 从0到涨粉：微信问一问实战拆解【周彦充出版】
 
-> 来源：[https://ii2lwcovfc.feishu.cn/docx/E3YEdYHUToAl0fxxFypcxveTnmg](https://ii2lwcovfc.feishu.cn/docx/E3YEdYHUToAl0fxxFypcxveTnmg)
+
 
 我从2023年8月5号开始组队打卡做微信问一问，到现在还在持续探索。期间我也跟另外两个团队一起跑通过流程，亲手验证了这套玩法确实能带来粉丝增长。
 

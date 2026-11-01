@@ -1,6 +1,6 @@
 # 小红书无货源实操拆解：一个单品如何做到80%+利润率
 
-> 来源：[https://kds96nqxnz.feishu.cn/docx/UaxldXPH4ogRHexIo56cIeEmnGc](https://kds96nqxnz.feishu.cn/docx/UaxldXPH4ogRHexIo56cIeEmnGc)
+
 
 嗨，我是Zoey，目前在多个平台做搬运混剪变现的老号手。今天把我最近在小红书跑无货源的完整思路摊开讲，希望对你有参考价值。
 

@@ -1,6 +1,6 @@
 # 打造你的爆款感知素材库，从收集到复用到变现
 
-> 来源：[https://vow6kdbiak.feishu.cn/docx/KcbNdxvEMoycd4xu7Rjc6UsLngd](https://vow6kdbiak.feishu.cn/docx/KcbNdxvEMoycd4xu7Rjc6UsLngd)
+
 
 # 素材库实操展示
 

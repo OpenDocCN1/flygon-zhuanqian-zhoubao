@@ -1,6 +1,6 @@
 # 24小时内在小红书刷出1000篇笔记的实操思路
 
-> 来源：[https://thctbhym4b.feishu.cn/docx/DjkXdDB0ionwItxHgpbc1QmGnTb](https://thctbhym4b.feishu.cn/docx/DjkXdDB0ionwItxHgpbc1QmGnTb)
+
 
 大家好，我是鹏哥。
 

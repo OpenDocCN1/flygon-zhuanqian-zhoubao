@@ -1,6 +1,6 @@
 # 把 Python 脚本变成 EXE，可执行程序打包实战
 
-> 来源：[https://ewlsj0fnyfz.feishu.cn/docx/IbJ4dwZdwonsIXxO1gvc7kFNnXe](https://ewlsj0fnyfz.feishu.cn/docx/IbJ4dwZdwonsIXxO1gvc7kFNnXe)
+
 
 # 一、作者自述
 

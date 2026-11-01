@@ -1,6 +1,6 @@
 # 0成本起盘小红书付费社群，一个月变现8万+的实操复盘
 
-> 来源：[https://wxqp5aw3pm.feishu.cn/docx/K4zfd2djsoEAdWxTaXrceSf9nLf](https://wxqp5aw3pm.feishu.cn/docx/K4zfd2djsoEAdWxTaXrceSf9nLf)
+
 
 # 从0到1涨粉，我是怎么跑通的
 

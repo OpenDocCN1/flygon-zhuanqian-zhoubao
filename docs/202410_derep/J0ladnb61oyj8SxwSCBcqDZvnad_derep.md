@@ -1,6 +1,6 @@
 # B站百位AI垂类创作者视频全量抓取与内容转写实践
 
-> 来源：[https://ia0969wpr2.feishu.cn/docx/J0ladnb61oyj8SxwSCBcqDZvnad](https://ia0969wpr2.feishu.cn/docx/J0ladnb61oyj8SxwSCBcqDZvnad)
+
 
 此前完成过一篇关于公众号AI KOL 十万＋稿件的抓取与拆解，灵感来自龙哥提出的首个超级标签。这次把视角转向视频端。
 

@@ -1,6 +1,6 @@
 # 面试前请务必完整读完这份 AI 提示词工程师面试通关笔记
 
-> 来源：[https://f5zm66ijlf.feishu.cn/docx/R7XfdUtRkoblhpx4Ar8cKH2dnPh](https://f5zm66ijlf.feishu.cn/docx/R7XfdUtRkoblhpx4Ar8cKH2dnPh)
+
 
 大家好，我是 Lisa，现在在深圳工作。
 

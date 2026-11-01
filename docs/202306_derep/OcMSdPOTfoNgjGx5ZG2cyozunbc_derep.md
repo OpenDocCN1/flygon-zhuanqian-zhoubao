@@ -1,6 +1,6 @@
 # 零成本启动一部手机就能跑的APP拉新副业，从0到月入上万的实操拆解
 
-> 来源：[https://wuhj79yd1i.feishu.cn/docx/OcMSdPOTfoNgjGx5ZG2cyozunbc](https://wuhj79yd1i.feishu.cn/docx/OcMSdPOTfoNgjGx5ZG2cyozunbc)
+
 
 大家好，我是麦子，在这个圈子里混了三期。17年开始摸索至今，宝妈、中医、教师、副业、签名等粉我都带过变现，亲身跑通了闭环，所以一直主张流量即是基本盘。
 

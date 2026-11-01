@@ -1,6 +1,6 @@
 # 小红书薯店蓝海掘金实战笔记
 
-> 来源：[https://j0l90ocbq2.feishu.cn/docx/KYsydDw88oirurx58abcMievnVg](https://j0l90ocbq2.feishu.cn/docx/KYsydDw88oirurx58abcMievnVg)
+
 
 大家好，我是叶声，在赚钱混迹多年，项目做过不少，航海也上了几回，可惜一直没打出亮眼成绩。今年把重心放到小红书店铺的蓝海赛道上，终于撞出了点小火花，今天就把这段踩坑后的心得摊开说。
 

@@ -1,6 +1,6 @@
 # 小白也能玩转的视频动画重绘去重法，自动化批量出片稳过原创审核
 
-> 来源：[https://puojikpj98.feishu.cn/docx/SwPAdrelzo5Nhbx1KBvcoL4Wnbd](https://puojikpj98.feishu.cn/docx/SwPAdrelzo5Nhbx1KBvcoL4Wnbd)
+
 
 # 开篇话
 

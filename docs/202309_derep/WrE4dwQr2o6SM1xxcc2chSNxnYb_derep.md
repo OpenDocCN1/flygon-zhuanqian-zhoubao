@@ -1,6 +1,6 @@
 # 抖店体验分三天拉到4.8？福利品拉分，单均成本只要一两块
 
-> 来源：[https://o0x89t6r9s.feishu.cn/docx/WrE4dwQr2o6SM1xxcc2chSNxnYb](https://o0x89t6r9s.feishu.cn/docx/WrE4dwQr2o6SM1xxcc2chSNxnYb)
+
 
 # 各位抖店老板们好，我是江河
 

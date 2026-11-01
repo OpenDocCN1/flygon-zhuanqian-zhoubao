@@ -1,6 +1,6 @@
 # 一只好蟹的线上突围：蟹塘二代的实战笔记
 
-> 原文地址：[https://mg8sdlq5qo.feishu.cn/docx/NYNcdufjro44Mzx5PQCcXkb8nAd](https://mg8sdlq5qo.feishu.cn/docx/NYNcdufjro44Mzx5PQCcXkb8nAd)
+
 
 各位圈友，我是帅彬，在常州一家交通国企任职。工作经历很杂：工地上的白帽子、红帽子都戴过，水电活也干过，在南京当过地铁调度，进过苏宁做产品、销售，还写过程序，算是到处乱窜的打工人。
 

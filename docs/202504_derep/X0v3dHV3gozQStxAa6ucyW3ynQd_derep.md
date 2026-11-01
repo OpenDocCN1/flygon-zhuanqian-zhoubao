@@ -1,6 +1,6 @@
 # 把AI数字人做出生活气息和灵魂感，这套实操我亲自跑通了
 
-> 来源：[https://wppopmriov.feishu.cn/docx/X0v3dHV3gozQStxAa6ucyW3ynQd](https://wppopmriov.feishu.cn/docx/X0v3dHV3gozQStxAa6ucyW3ynQd)
+
 
 ![](img/d6756695a15b2bdbbf4eed63d34ce115.png)
 

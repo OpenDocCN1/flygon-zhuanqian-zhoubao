@@ -1,6 +1,6 @@
 # 从心理小白裸辞到9个月变现20万，我踩过的坑与翻身的路
 
-> 来源：[https://fqq9yxxwwp.feishu.cn/docx/IjuDdQ5meofB6Jx5QhAcTtQVnOb](https://fqq9yxxwwp.feishu.cn/docx/IjuDdQ5meofB6Jx5QhAcTtQVnOb)
+
 
 ## 一.认识我
 

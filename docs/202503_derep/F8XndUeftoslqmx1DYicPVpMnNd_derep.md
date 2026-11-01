@@ -1,6 +1,6 @@
 # 微信生态银发女装生意复盘：从一年亏掉160万到月销500万
 
-> 来源：[https://sanshenghui.feishu.cn/docx/F8XndUeftoslqmx1DYicPVpMnNd](https://sanshenghui.feishu.cn/docx/F8XndUeftoslqmx1DYicPVpMnNd)
+
 
 ## 起点：一次偶然的试验
 

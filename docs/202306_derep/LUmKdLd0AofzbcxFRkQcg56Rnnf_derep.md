@@ -1,6 +1,6 @@
 # Lora模型定制全流程指南：从素材准备到调优实测
 
-> 来源：[https://ry5hwpuf7b.feishu.cn/docx/LUmKdLd0AofzbcxFRkQcg56Rnnf](https://ry5hwpuf7b.feishu.cn/docx/LUmKdLd0AofzbcxFRkQcg56Rnnf)
+
 
 《保姆级Lora炼丹教程，一站式整合包，让你实现真人模特定制》
 

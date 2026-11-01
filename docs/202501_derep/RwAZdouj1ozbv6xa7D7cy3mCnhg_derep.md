@@ -1,6 +1,6 @@
 # 刀乐哥火了之后，我用一周时间狂发6条视频，流量和变现一起收割
 
-> 来源：[https://vow6kdbiak.feishu.cn/docx/RwAZdouj1ozbv6xa7D7cy3mCnhg](https://vow6kdbiak.feishu.cn/docx/RwAZdouj1ozbv6xa7D7cy3mCnhg)
+
 
 说实话，我这种ENFP的冲劲自己都怕了，一现热点脑子立刻转起来，手也停不下来。
 

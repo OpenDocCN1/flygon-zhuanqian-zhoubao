@@ -1,6 +1,6 @@
 # YT Shorts 复盘：动物预警赛道爆款拆解与万能提示词方案
 
-> 来源：[https://n0qps32pq8.feishu.cn/docx/W6fYdvWp9owtbjxvbUkcGrkQn2g](https://n0qps32pq8.feishu.cn/docx/W6fYdvWp9owtbjxvbUkcGrkQn2g)
+
 
 # 开场心路
 

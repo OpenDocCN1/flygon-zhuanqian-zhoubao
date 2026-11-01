@@ -1,6 +1,6 @@
 # 用“钩子打法”一年把公域导进3万私域粉，卖课变现300万是什么体感？附完整制作流程
 
-> 来源：[https://b16xnqwk20.feishu.cn/docx/UqEwdWkaKo1Y8cxsU4NcLbrsnre](https://b16xnqwk20.feishu.cn/docx/UqEwdWkaKo1Y8cxsU4NcLbrsnre)
+
 
 全文6300字
 

@@ -1,6 +1,6 @@
 # 用外国脸吸睛的数字人带货玩法拆解
 
-> 来源：[https://xedd8sfx3z.feishu.cn/docx/N3uEdpHSloERVXxQ9QFczCJNnbd](https://xedd8sfx3z.feishu.cn/docx/N3uEdpHSloERVXxQ9QFczCJNnbd)
+
 
 # 数字人带货到底是什么？
 

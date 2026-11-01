@@ -1,6 +1,6 @@
 # 以小说 AI 工作流为切口，Cursor 与 Windsurf 我为何站队 Cursor（重写版）
 
-> 来源：[https://aiawaken.feishu.cn/docx/ZmGXd6FzHoTXFrxAOldcvqXFnig](https://aiawaken.feishu.cn/docx/ZmGXd6FzHoTXFrxAOldcvqXFnig)
+
 
 真正沉下去用过 Cursor 之后，
 

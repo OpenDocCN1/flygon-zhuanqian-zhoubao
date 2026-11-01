@@ -1,6 +1,6 @@
 # 聚光获客实战拆解：教育培训考公赛道3天把开口成本从180压到40，一周多招满学员
 
-> 来源：[https://u8a4pf28ca.feishu.cn/docx/SGl6dS0UEosdZrxGGY5clyh6nyc](https://u8a4pf28ca.feishu.cn/docx/SGl6dS0UEosdZrxGGY5clyh6nyc)
+
 
 大家好，我是小铭同学。身为一名赚钱圈的新人操盘手，我在中高客单赛道累计GMV接近千万，聚光线索投放ROI长期稳定在10以上，主打去人设化的冷启动获客。今天就聊聊小红书聚光在中高客单品类里的落地方法。
 

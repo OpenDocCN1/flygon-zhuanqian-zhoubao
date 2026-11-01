@@ -1,6 +1,6 @@
 # 98年辞职小伙押注视频号航海，2个月做知识付费实现6万+变现
 
-> 来源：[https://fu92l5vu3n.feishu.cn/docx/N6cidKPTFoaknix5WRxcdg4VnSg](https://fu92l5vu3n.feishu.cn/docx/N6cidKPTFoaknix5WRxcdg4VnSg)
+
 
 赚钱圈的朋友们大家好。今天我就把自己从零开始做视频号知识付费的全套经历，完整拆解给大家。如果你也在考虑入局真人口播，那这篇一定能帮到你。
 

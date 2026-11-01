@@ -1,6 +1,6 @@
 # 不露脸、不投流，我靠内容型IP跑通百万变现
 
-> 来源：[https://jngw0yct19.feishu.cn/docx/GUHld91qQobms8x35tbcOUlSnZb](https://jngw0yct19.feishu.cn/docx/GUHld91qQobms8x35tbcOUlSnZb
+
 
 在当下自媒体环境里，把“人设”做成资产，再让资产产生收益，是很多人真正赚到钱的路径。
 

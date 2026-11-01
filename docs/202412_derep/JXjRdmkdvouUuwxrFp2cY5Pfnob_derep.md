@@ -1,6 +1,6 @@
 # 视频号手绘情感语录赛道拆解：用AI手绘快速涨粉，创作者计划也能吃到收益
 
-> 来源：[https://o0yvn3o31a.feishu.cn/docx/JXjRdmkdvouUuwxrFp2cY5Pfnob](https://o0yvn3o31a.feishu.cn/docx/JXjRdmkdvouUuwxrFp2cY5Pfnob)
+
 
 # 大家好，我是黄岛主！
 

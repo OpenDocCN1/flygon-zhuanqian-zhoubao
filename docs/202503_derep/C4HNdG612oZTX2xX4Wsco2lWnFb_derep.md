@@ -1,6 +1,6 @@
 # 手机里的一场光影秀：用AI零基础拍出影楼级换装大片，还能变现
 
-> 来源：[https://yf4niapxuw.feishu.cn/docx/C4HNdG612oZTX2xX4Wsco2lWnFb](https://yf4niapxuw.feishu.cn/docx/C4HNdG612oZTX2xX4Wsco2lWnFb)
+
 
 躺在沙发上刷着短视频时，你是不是也幻想过自己能拥有那种杂志大片的质感？其实不需要去影楼排队，也不需要买专业相机。现在一套AI工具就能把你从普通人秒变古风美女、都市丽人，甚至把家里的猫咪拍成高定写真，更重要的是，这些内容完全可以做成副业来变现。
 

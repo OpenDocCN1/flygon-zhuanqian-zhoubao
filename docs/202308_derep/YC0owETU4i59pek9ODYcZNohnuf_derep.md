@@ -1,6 +1,6 @@
 # 从飞书妙记到通义听悟：我的工作学习笔记为什么换了阵地
 
-> 来源：[https://superhuang.feishu.cn/docx/AoxId5jKWouzKIxp5VgcgOpcnQD](https://superhuang.feishu.cn/docx/AoxId5jKWouzKIxp5VgcgOpcnQD)
+
 
 用通义听悟，我几乎把所有音视频都先扔进去转成文字，再让AI帮忙提炼要点。效率的提升是显而易见的。
 

@@ -1,6 +1,6 @@
 # 用 ChatGPT 复刻董宇辉式带货表达
 
-> 来源：[https://balfcirt91j.feishu.cn/docx/ETw9dnfutoUfyxxVGiLcdsetn0e](https://balfcirt91j.feishu.cn/docx/ETw9dnfutoUfyxxVGiLcdsetn0e)
+
 
 在直播带货的喧嚣里，董宇辉成了一种不同寻常的存在。他不靠大声吆喝、不靠倒计时制造焦虑，而是坐下来和你谈理想、谈远方、谈生活，把商品背后的人文温度与情怀，用诗意散文般的口吻娓娓道来。整个直播间听起来不像在卖东西，更像是在聆听一段动人的美文。
 

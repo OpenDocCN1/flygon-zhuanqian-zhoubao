@@ -1,6 +1,6 @@
 # 用 AI 跑同城直播发售，实体生意迎来新机会
 
-> 来源：[https://aso41gpxhm.feishu.cn/docx/RmH5djOSKo9AmdxnAUQc6viJnHg](https://aso41gpxhm.feishu.cn/docx/RmH5djOSKo9AmdxnAUQc6viJnHg)
+
 
 大家好，我是孙策。
 

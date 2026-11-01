@@ -1,6 +1,6 @@
 # 零基础新人也能玩转 YouTube 长视频：AI 音乐 LoFi 的冷启动打法
 
-> 来源：[https://qjv17b58t3.feishu.cn/docx/NkoZdYO75oujnrxMPhfcmreZnah](https://qjv17b58t3.feishu.cn/docx/NkoZdYO75oujnrxMPhfcmreZnah)
+
 
 # 先说前提
 

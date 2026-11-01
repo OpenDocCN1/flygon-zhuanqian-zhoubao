@@ -1,6 +1,6 @@
 # n8n 从入门到上手实战全攻略·认知-熟悉-实践三步走
 
-> 来源：[https://rcnawx71yojy.feishu.cn/docx/HP9ZdhWOfoVvQRxdLgzc16bJnQf](https://rcnawx71yojy.feishu.cn/docx/HP9ZdhWOfoVvQRxdLgzc16bJnQf)
+
 
 大家好，我是骑司Chase
 

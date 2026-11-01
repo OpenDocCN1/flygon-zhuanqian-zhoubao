@@ -1,6 +1,6 @@
 # 好友仅一千二，我靠朋友圈半年做到了14万+，这条路可以复制
 
-> 来源：[https://bokm2adr1g.feishu.cn/docx/KzUMduAqLo5y21xgihUclePjnMe](https://bokm2adr1g.feishu.cn/docx/KzUMduAqLo5y21xgihUclePjnMe)
+
 
 大家好，我是小鹿。很高兴在这里跟大家见面。
 

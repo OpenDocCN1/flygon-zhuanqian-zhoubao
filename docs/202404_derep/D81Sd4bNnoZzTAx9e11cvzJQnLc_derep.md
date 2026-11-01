@@ -1,6 +1,6 @@
 # 从月入45万到单月247万：我们2个人团队的短视频突围笔记
 
-> 来源：[https://bqwkrkc6dh.feishu.cn/docx/D81Sd4bNnoZzTAx9e11cvzJQnLc](https://bqwkrkc6dh.feishu.cn/docx/D81Sd4bNnoZzTAx9e11cvzJQnLc)
+
 
 大家好，我是Lip。三个月前我在这发过一篇《3个月拿到结果，新人入局抖音教辅资料带货经验分享》。
 

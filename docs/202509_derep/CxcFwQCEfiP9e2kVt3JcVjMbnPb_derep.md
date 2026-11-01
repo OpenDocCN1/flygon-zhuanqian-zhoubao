@@ -1,6 +1,6 @@
 # 新手入局小红书虚拟电商：原创虚拟产品全盘拆解
 
-> 来源：[https://p03a4vs9s2.feishu.cn/docx/PVLGdsCrUo17UTxfY7pcRWhknhf](https://p03a4vs9s2.feishu.cn/docx/PVLGdsCrUo17UTxfY7pcRWhknhf)
+
 
 大家好，我是叁斤，又来聊我最熟的虚拟电商了。这5次带小红书虚拟资料航海下来，我越来越确定一件事情：这个项目被严重低估了。
 

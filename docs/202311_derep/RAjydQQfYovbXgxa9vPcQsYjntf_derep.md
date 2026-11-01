@@ -1,6 +1,6 @@
 # 给推广文案注入清晰可感的细节，说服力直接拉满
 
-> 来源：[https://balfcirt91j.feishu.cn/docx/RAjydQQfYovbXgxa9vPcQsYjntf](https://balfcirt91j.feishu.cn/docx/RAjydQQfYovbXgxa9vPcQsYjntf)
+
 
 文案里改动一个小地方，传播效果就能天差地别，你信吗？
 

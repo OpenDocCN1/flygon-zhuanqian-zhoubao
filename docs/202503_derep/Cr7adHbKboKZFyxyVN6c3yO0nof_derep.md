@@ -1,6 +1,6 @@
 # 把 DeepSeek 写出来的“机器味”洗掉，写出让人愿意停留的暖文案
 
-> 来源：[https://b80fa9wrsf.feishu.cn/docx/Cr7adHbKboKZFyxyVN6c3yO0nof](https://b80fa9wrsf.feishu.cn/docx/Cr7adHbKboKZFyxyVN6c3yO0nof)
+
 
 大家好，我是李思念，创业做了十一年，心金文案的发起者。
 

@@ -1,6 +1,6 @@
 # 用影刀RPA + 百度墨斗鱼 + 指纹浏览器 + GPT 打造全自动躺赚流水线
 
-> 来源：[https://px1hmn4sqj.feishu.cn/docx/KIHRdQMZDokB2WxaXtfcw1Yrnb](https://px1hmn4sqj.feishu.cn/docx/KIHRdQMZDokB2WxaXtfcw1Yrnb)
+
 
 百度墨斗鱼这条赛道其实运营已久，只是玩法一直在迭代。最新的迭代思路是把指纹浏览器、影刀RPA和GPT组合起来，让整套上传赚钱的动作实现无人值守、省心省力。这一套组合拳不仅适用于墨斗鱼，同样能迁移到其他项目上，比如上期航海课里的闲鱼二手书批量上架，自动抓取ISBN、去水印、整理上下架；也可以做小红书笔记定时采集发布、店铺订单自动填单发货、客服自动回复等，应用场景非常多。
 

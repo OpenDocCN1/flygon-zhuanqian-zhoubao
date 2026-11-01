@@ -1,6 +1,6 @@
 # 解放双手，任何人都能复制的 AI 短视频自动化打法
 
-> 来源：[https://gpbr9zf6b9.feishu.cn/docx/BVU0dMDPfoL3NkxPLYucg5LWnxf](https://gpbr9zf6b9.feishu.cn/docx/BVU0dMDPfoL3NkxPLYucg5LWnxf)
+
 
 大家好，我是 Jiahao。现在在 Gary 和 方波妮 教练的带跑下，全力冲刺做一名合格的 YouTuber。短短一个多月实战下来，已经顺利拿到两个 YPP，更多还在路上。
 

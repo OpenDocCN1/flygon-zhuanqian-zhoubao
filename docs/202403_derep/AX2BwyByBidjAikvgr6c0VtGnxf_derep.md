@@ -1,6 +1,6 @@
 # 在小县城开一家自创奶茶店，我摸索了一年的真实体感
 
-> 来源：[https://kwkjrjutr5r.feishu.cn/docx/YYowdupnRovRk6xdjZMc5txtnWd](https://kwkjrjutr5r.feishu.cn/docx/YYowdupnRovRk6xdjZMc5txtnWd)
+
 
 县城还能不能做自创茶饮？我还在路上试探。
 

@@ -1,6 +1,6 @@
 # 公众号小白首次出海即爆，单篇6千+，单号变现破万，手写也能爆，AI加持更省力，我到底做了什么？
 
-> 来源：[https://yxy2hhcyyby.feishu.cn/docx/RxTKd79OTo3kBdx3x5Xcfztfncf](https://yxy2hhcyyby.feishu.cn/docx/RxTKd79OTo3kBdx3x5Xcfztfncf)
+
 
 赚钱互助！
 

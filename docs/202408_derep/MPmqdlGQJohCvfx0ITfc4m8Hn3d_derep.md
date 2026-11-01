@@ -1,6 +1,6 @@
 # 从零起步到摸到爆款门道：我的视频号口播航海全记录
 
-> 来源：[https://x0cr0t4ciy.feishu.cn/docx/MPmqdlGQJohCvfx0ITfc4m8Hn3d](https://x0cr0t4ciy.feishu.cn/docx/MPmqdlGQJohCvfx0ITfc4m8Hn3d)
+
 
 赚钱今年连续开了三期长线航海，我全程跟上了。
 

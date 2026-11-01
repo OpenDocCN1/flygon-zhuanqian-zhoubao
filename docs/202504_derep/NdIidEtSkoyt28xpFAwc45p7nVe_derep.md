@@ -1,6 +1,6 @@
 # 《漫展活动运营手册》| 一本覆盖漫展全流程的实操指南
 
-> 来源：[https://x8v5nxpql1.feishu.cn/docx/NdIidEtSkoyt28xpFAwc45p7nVe](https://x8v5nxpql1.feishu.cn/docx/NdIidEtSkoyt28xpFAwc45p7nVe)
+
 
 # 一、内容前言📣
 

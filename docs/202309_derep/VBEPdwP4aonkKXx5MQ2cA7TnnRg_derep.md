@@ -1,6 +1,6 @@
 # 同城信息流实操复盘：靠一对一家教上门，我们三人团队做到了月入20万
 
-> 来源：[https://jnbsgdsqir.feishu.cn/docx/VBEPdwP4aonkKXx5MQ2cA7TnnRg](https://jnbsgdsqir.feishu.cn/docx/VBEPdwP4aonkKXx5MQ2cA7TnnRg)
+
 
 大家好，我是天道。一个90后连续创业者，有8年互联网实战经验，现在主攻商业私域引流和同城信息流赛道。在赚钱社区潜伏了一年半，默默学习，从未发过帖，一方面是圈内大神太多，另一方面之前的项目不便于公开。
 

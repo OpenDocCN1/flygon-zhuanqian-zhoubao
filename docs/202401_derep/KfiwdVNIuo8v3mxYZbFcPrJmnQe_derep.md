@@ -1,6 +1,6 @@
 # 从日入几百到累计25W+：我们这30天做小红书无人直播的完整复盘
 
-> 来源：https://iqwin9cn5r.feishu.cn/docx/KfiwdVNIuo8v3mxYZbFcPrJmnQe
+
 
 ## 写在前面
 

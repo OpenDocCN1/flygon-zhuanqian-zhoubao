@@ -1,6 +1,6 @@
 # 如何借助GPT把公众号文章做成10万+
 
-> 来源：[https://szxb4qbve7.feishu.cn/docx/M1Y0dQxznoLNEoxki13czVEWn3d](https://szxb4qbve7.feishu.cn/docx/M1Y0dQxznoLNEoxki13czVEWn3d)
+
 
 # 先说下我的背景
 

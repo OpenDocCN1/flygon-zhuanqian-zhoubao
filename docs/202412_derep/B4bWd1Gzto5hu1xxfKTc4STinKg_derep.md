@@ -1,6 +1,6 @@
 # 一天造出冲上 App Store 摄影榜107名的 App，我是怎么做到的
 
-> 来源：[https://chaojifeng.feishu.cn/docx/B4bWd1Gzto5hu1xxfKTc4STinKg](https://chaojifeng.feishu.cn/docx/B4bWd1Gzto5hu1xxfKTc4STinKg)
+
 
 大家好，我是超级峰，现居北京，一个籍籍无名的产品经理。
 

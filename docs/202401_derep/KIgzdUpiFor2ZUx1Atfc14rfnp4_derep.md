@@ -1,6 +1,6 @@
 # 美区TikTok达人联动拆解：从Anker爆单案例看起量打法
 
-> 来源：[https://za6kyadmdr.feishu.cn/docx/KIgzdUpiFor2ZUx1Atfc14rfnp4](https://za6kyadmdr.feishu.cn/docx/KIgzdUpiFor2ZUx1Atfc14rfnp4)
+
 
 Anker在12月小店销量榜冲到第44位，这次就以Anker的美区红人投放路径做一次复盘，文末会附上实操经验和Anker近期建联的500位达人联系方式。
 

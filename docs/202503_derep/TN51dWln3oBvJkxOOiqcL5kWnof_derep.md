@@ -1,6 +1,6 @@
 # 一个退伍老兵的同城实体发售60天实战手记：从懵懂到8千多变现
 
-> 来源：[https://pxnncqmeelz.feishu.cn/docx/TN51dWln3oBvJkxOOiqcL5kWnof](https://pxnncqmeelz.feishu.cn/docx/TN51dWln3oBvJkxOOiqcL5kWnof)
+
 
 大家好，我是森林。服役八年，去年9月退伍。
 

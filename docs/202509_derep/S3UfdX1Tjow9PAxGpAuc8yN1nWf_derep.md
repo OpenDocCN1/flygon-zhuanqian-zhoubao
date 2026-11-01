@@ -1,6 +1,6 @@
 # n8n实战：打造AI一键排版，公众号美化全自动
 
-> 来源：[https://b121w2zgwyx.feishu.cn/docx/S3UfdX1Tjow9PAxGpAuc8yN1nWf](https://b121w2zgwyx.feishu.cn/docx/S3UfdX1Tjow9PAxGpAuc8yN1nWf)
+
 
 上一期我带大家搭好了AI写稿并自动推送到公众号的整套流，现在内容能出稿了，但都是裸文本，样式全无，看起来很糙。
 

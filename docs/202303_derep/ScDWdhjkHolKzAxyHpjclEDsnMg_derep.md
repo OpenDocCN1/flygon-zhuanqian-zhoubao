@@ -1,6 +1,6 @@
 # 陪诊赛道到底怎么赚钱？一份来自一线实操者的拆解
 
-> 来源：[https://oen722req0.feishu.cn/docx/ScDWdhjkHolKzAxyHpjclEDsnMg](https://oen722req0.feishu.cn/docx/ScDWdhjkHolKzAxyHpjclEDsnMg)
+
 
 陪诊这个赛道近一年迎来爆发，很多人问我到底能怎么变现。今天我就把自己在广州跑医院一年多的实战经验，全部摊开了说。
 

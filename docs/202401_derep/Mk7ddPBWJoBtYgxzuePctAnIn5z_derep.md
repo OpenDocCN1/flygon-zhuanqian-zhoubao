@@ -1,6 +1,6 @@
 # 半年做小红书带货新西兰旅游，成交超260万，我把实操全盘托出
 
-> 来源：[https://tnqr6xnium.feishu.cn/docx/Mk7ddPBWJoBtYgxzuePctAnIn5z](https://tnqr6xnium.feishu.cn/docx/Mk7ddPBWJoBtYgxzuePctAnIn5z)
+
 
 从7月初入局到现在，半年时间我主攻新西兰旅游，个人自成交金额已突破260W+。跟团客单价稳定在2W上下，定制游则普遍在10W左右。8月起我开始带一批圈内伙伴一起做，短时间内已有不少人跑出成绩，并且决定长期深耕。赚钱官方也相继邀请我担任11月、12月航海训练营小红书旅游赛道的教练，和1000多位圈友一起拆解这个赛道。
 

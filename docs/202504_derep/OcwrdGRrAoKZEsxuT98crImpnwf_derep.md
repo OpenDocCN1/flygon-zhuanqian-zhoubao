@@ -1,6 +1,6 @@
 # 小红书图文量产“作弊码”：一套方法让爆款内容可复制
 
-> 素材出处：[https://i23vi4cvyf.feishu.cn/docx/OcwrdGRrAoKZEsxuT98crImpnwf](https://i23vi4cvyf.feishu.cn/docx/OcwrdGRrAoKZEsxuT98crImpnwf)
+
 
 我是晓智，平时泡在各种 AI 创作工具里，也自己做了炼丹家 AI 这个产品，专注写文案、画图、出海报这类活儿。
 

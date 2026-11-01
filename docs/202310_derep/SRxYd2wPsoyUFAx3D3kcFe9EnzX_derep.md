@@ -1,6 +1,6 @@
 # 卡在首句？用这套六步拆解法，让AI一分钟给出抓眼球的开篇
 
-> 来源：[https://balfcirt91j.feishu.cn/docx/SRxYd2wPsoyUFAx3D3kcFe9EnzX](https://balfcirt91j.feishu.cn/docx/SRxYd2wPsoyUFAx3D3kcFe9EnzX)
+
 
 我家孩子读五年级，每次作文都卡在第一句话。面对空白页面发呆两小时也不敢动笔。要做内容的人大概都有同感，最难啃的永远是开场白。
 

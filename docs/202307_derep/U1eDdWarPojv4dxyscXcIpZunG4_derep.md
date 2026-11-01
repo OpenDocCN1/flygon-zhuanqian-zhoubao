@@ -1,6 +1,6 @@
 # 【技术图文教学】零基础也能玩转SD，做小红书抖音爆款隐形引流图
 
-> 来源：[https://txtvyc0oe3h.feishu.cn/docx/U1eDdWarPojv4dxyscXcIpZunG4](https://txtvyc0oe3h.feishu.cn/docx/U1eDdWarPojv4dxyscXcIpZunG4)
+
 
 先做个自我介绍，我花名玉米，主要在做AIGC的探索和落地。
 

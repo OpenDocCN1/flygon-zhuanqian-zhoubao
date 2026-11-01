@@ -1,6 +1,6 @@
 # 当全网都在冲爆文时，我选择做分析师：靠拆解案例把图文账号做成稳定现金流
 
-> 来源：[https://xmstzq7itd.feishu.cn/docx/CZ8odN5lvoQTHcxyRioco8jvnSc](https://xmstzq7itd.feishu.cn/docx/CZ8odN5lvoQTHcxyRioco8jvnSc)
+
 
 各位赚钱的朋友大家好，我是胡慧。职场那几年我在几家公司负责过微信公号、微博、抖音等平台的内容运营。2023年转做全职创作者后，因为更擅长图文，便把精力集中在图文变现上。当时平台的推荐分发很强，追10万+、做爆文成了圈内主流打法。
 

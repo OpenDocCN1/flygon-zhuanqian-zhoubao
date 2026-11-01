@@ -1,6 +1,6 @@
 # 流量主这条路，我选择用长期主义走到底
 
-> 来源：[https://vz6cwy4ffd.feishu.cn/docx/VFxnd8yKnoAV0oxAgjrct0ben4d](https://vz6cwy4ffd.feishu.cn/docx/VFxnd8yKnoAV0oxAgjrct0ben4d)
+
 
 自我介绍一下，我是周威，目前在杭州城西三墩附近。过去的身份是高考刷题的卷王、35岁的大厂员工，后来觉得不甘心，三年前裸辞在家自己摸索创业方向，一直在试错。直到加入赚钱，思路才逐渐清晰。
 

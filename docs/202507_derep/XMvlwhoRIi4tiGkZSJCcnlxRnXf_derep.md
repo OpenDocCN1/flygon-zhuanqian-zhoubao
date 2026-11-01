@@ -1,6 +1,6 @@
 # 宝剑锋从磨砺出——YouTube 赚钱实战深海圈三个月复盘纪实
 
-> 来源：[https://ncnmu5q1eqm9.feishu.cn/docx/BO85dU5ypo9pdJxJ7MpcgB8Cnzc](https://ncnmu5q1eqm9.feishu.cn/docx/BO85dU5ypo9pdJxJ7MpcgB8Cnzc)
+
 
 # 开篇寄语
 

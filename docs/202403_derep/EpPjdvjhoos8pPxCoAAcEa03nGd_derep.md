@@ -1,6 +1,6 @@
 # 0粉0作品一个人开播30天，视频号纯自然流做到70万GMV
 
-> 来源：[https://hq4ghawgsqs.feishu.cn/docx/EpPjdvjhoos8pPxCoAAcEa03nGd](https://hq4ghawgsqs.feishu.cn/docx/EpPjdvjhoos8pPxCoAAcEa03nGd)
+
 
 跟圈友说一声，我是李嗯嗯，单枪匹马的个体户，新手主播。
 

@@ -1,6 +1,6 @@
 # 利用碎片时间操盘抖音星图短剧，新号一个月实现十万级变现
 
-> 来源：[https://mvh6uii5p7e.feishu.cn/docx/MlWddFhNeozTwwx8cizcfCAZnnf](https://mvh6uii5p7e.feishu.cn/docx/MlWddFhNeozTwwx8cizcfCAZnnf)
+
 
 赚钱的朋友们好，我是唐杰。上一次在群里聊快手聚星已经过去一年多，这次想复盘一下抖音星图短剧的实操。仅靠闲暇时间，一个从零起步的新号，一个月内把收益做到十万左右的打法就先分享出来。
 

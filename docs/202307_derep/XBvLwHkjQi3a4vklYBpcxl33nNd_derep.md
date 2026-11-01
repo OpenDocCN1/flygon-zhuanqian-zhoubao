@@ -1,6 +1,6 @@
 # 一段提示词，让AI秒变你的Python私教，小白也能直接上手
 
-> 来源：[https://xjfih5idi1.feishu.cn/docx/KdNRdNoeuoZ8Idx3b73c5qHVnJe](https://xjfih5idi1.feishu.cn/docx/KdNRdNoeuoZ8Idx3b73c5qHVnJe)
+
 
 只分享对你有用的东西
 

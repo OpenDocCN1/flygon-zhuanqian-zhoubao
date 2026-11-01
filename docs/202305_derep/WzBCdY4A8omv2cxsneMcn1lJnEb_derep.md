@@ -1,6 +1,6 @@
 # 把朋友圈搬上小红书，美业老板0起步半年吸粉近5000，月增收5位数丨小红书IP全案100个
 
-> 来源：[https://n28vbku1px.feishu.cn/docx/WzBCdY4A8omv2cxsneMcn1lJnEb](https://n28vbku1px.feishu.cn/docx/WzBCdY4A8omv2cxsneMcn1lJnEb)
+
 
 hi，这里是文静的小红书IP全案100个。今天这篇拆解的主角叫镜子。她开了10年线下美业门店，去年才开始认真学朋友圈运营和小红书玩法。做法很简单：把原本只发在朋友圈的素材，套上小红书的表达方式，搬到公域去用。
 

@@ -1,6 +1,6 @@
 # 做一期公益送书活动的高效 SOP 复盘
 
-> 来源：[https://kwj3fkh7ymf.feishu.cn/docx/Ro5mdEccUoXd4oxSbzYcZXCrnfh](https://kwj3fkh7ymf.feishu.cn/docx/Ro5mdEccUoXd4oxSbzYcZXCrnfh)
+
 
 公益送书本质上是内容种草+私域引流的组合拳。流程跑顺了，书能送出去，群能涨人，信任也能沉淀下来。下面是一套可复制的操作路径，分三阶段展开。
 

@@ -1,6 +1,6 @@
 # 零产品起步的新手，如何用战略思维靠小学生打卡项目两月撬动1W+，跑通最小MVP
 
-> 来源：[https://htsuhz76ht.feishu.cn/docx/C6NVdiUsboNdXPxsEymcM7LhnFg](https://htsuhz76ht.feishu.cn/docx/C6NVdiUsboNdXPxsEymcM7LhnFg)
+
 
 先要感谢我的贵人梁靠谱和理白先生，正是他们把我带进了龙哥盟这个圈子，没有他们就没有这篇分享。
 

@@ -1,6 +1,6 @@
 # 04届大学生入局小红书电商，我是怎么连着找到几个爆品的？
 
-> 来源：[https://ncnzfd0tar04.feishu.cn/docx/IanKdnesXolen0xSLr3cVjBRnTc](https://ncnzfd0tar04.feishu.cn/docx/IanKdnesXolen0xSLr3cVjBRnTc)
+
 
 大家好，我是小加里奥。04年的大三在读生，加入赚钱半年。去年5月开始深耕小红书电商，操盘过多个账号，累计GMV超25万，净利润超10万。
 

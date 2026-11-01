@@ -1,6 +1,6 @@
 # AI自媒体Mini航海复盘：百余位学员拿到商单
 
-> 来源：[https://bchje44bsl.feishu.cn/docx/RJd7d5wbLoixN0xhQS5cWVSWnsf](https://bchje44bsl.feishu.cn/docx/RJd7d5wbLoixN0xhQS5cWVSWnsf)
+
 
 各位好，我是令狐峰，朋友们都叫我令狐。很荣幸担任本期航海的主教练，带了360人实操AI自媒体。副手是@hawli和@杨辉，我们团队在小红书的投放记录已累计数千条合作笔记。
 

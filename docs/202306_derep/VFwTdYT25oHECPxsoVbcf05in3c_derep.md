@@ -1,6 +1,6 @@
 # 五个月做高客单闲鱼的实战复盘与收益记录
 
-> 来源：[https://cxf1s7tdub.feishu.cn/docx/VFwTdYT25oHECPxsoVbcf05in3c](https://cxf1s7tdub.feishu.cn/docx/VFwTdYT25oHECPxsoVbcf05in3c)
+
 
 # 开场白
 

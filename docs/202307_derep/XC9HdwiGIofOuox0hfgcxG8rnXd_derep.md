@@ -1,6 +1,6 @@
 # 个人养老金拉新
 
-> 来源：[https://g5usx6i4u7.feishu.cn/docx/XC9HdwiGIofOuox0hfgcxG8rnXd](https://g5usx6i4u7.feishu.cn/docx/XC9HdwiGIofOuox0hfgcxG8rnXd)
+
 
 2022年年底我跑过一轮银行渠道的养老金拉新，模式就是接任务做推广、每天盯数据。那个版本开户要填一堆资料、上传证明，门槛不低，所以单价才给得高。
 

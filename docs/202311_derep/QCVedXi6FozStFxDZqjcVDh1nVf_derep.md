@@ -1,6 +1,6 @@
 # 从零到上线，我是怎么做出来的一个 GPTs 导航站
 
-> 来源：[https://gczff68td0.feishu.cn/docx/QCVedXi6FozStFxDZqjcVDh1nVf](https://gczff68td0.feishu.cn/docx/QCVedXi6FozStFxDZqjcVDh1nVf)
+
 
 ![](img/92bba16cc5fb6115af24aa8fbf2cc68a.png)
 

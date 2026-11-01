@@ -1,6 +1,6 @@
 # 风头过去了，知识付费这门生意还能做吗
 
-> 来源：[https://fs4xcvw5u9.feishu.cn/docx/KxuIdMr5noo7oexcna1cbpgRnlh](https://fs4xcvw5u9.feishu.cn/docx/KxuIdMr5noo7oexcna1cbpgRnlh)
+
 
 最近被问得最多的一句话是：风口已过，知识付费还有意义吗？
 

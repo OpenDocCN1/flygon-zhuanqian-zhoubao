@@ -1,6 +1,6 @@
 # 【航海好事】从自动驾驶程序员到跨境电商新手：两个月摸通 Shein 全托管
 
-> 来源：[https://u0u31gqf3j8.feishu.cn/docx/FGxodf6S1oggccxkPqYc6LgPnud](https://u0u31gqf3j8.feishu.cn/docx/FGxodf6S1oggccxkPqYc6LgPnud)
+
 
 # 缘起
 

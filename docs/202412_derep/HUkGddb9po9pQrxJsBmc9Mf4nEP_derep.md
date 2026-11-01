@@ -1,6 +1,6 @@
 # 长沙专升本书小红书获客，我们从调研到跑了一个月的最新复盘
 
-> 原文档：[https://awipdqiyi88i.feishu.cn/docx/HUkGddb9po9pQrxJsBmc9Mf4nEP](https://awipdqiyi88i.feishu.cn/docx/HUkGddb9po9pQrxJsBmc9Mf4nEP)
+
 
 这篇文章聊两件事：一是动手前我们做的市场摸底，二是实际投放一个月后看到的现象和思考。
 

@@ -1,6 +1,6 @@
 # 用小粉号撬动高客单，同城小红书精准导流实战复盘
 
-> 来源：[https://gq2psr73l6v.feishu.cn/docx/HvQYdXuZsop5OUxpDLocjlnKnhh](https://gq2psr73l6v.feishu.cn/docx/HvQYdXuZsop5OUxpDLocjlnKnhh)
+
 
 # 一、先做个自我介绍
 

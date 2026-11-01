@@ -1,6 +1,6 @@
 # 合肥两日学习转化复盘｜森林
 
-> 来源：https://pxnncqmeelz.feishu.cn/docx/DnLddLyVkoEzRJxWdZ0cw7KCn4c
+
 
 # 开场白
 

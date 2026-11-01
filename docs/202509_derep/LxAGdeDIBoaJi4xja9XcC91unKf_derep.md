@@ -1,6 +1,6 @@
 # 新手也能轻松搞定：给 N8N 接上知识库，这篇保姆级教程请收好
 
-> 来源：[https://a0u2vshvubw.feishu.cn/docx/LxAGdeDIBoaJi4xja9XcC91unKf](https://a0u2vshvubw.feishu.cn/docx/LxAGdeDIBoaJi4xja9XcC91unKf)
+
 
 大家好，我是千寻，这次航海的教练。这几天一直在忙着解答船员们的各种问题，帖子也就耽搁了。眼瞅着航海快收尾了，赶紧抽空写点干货，帮大家更顺手地把 N8N 这个宝贝用起来。
 

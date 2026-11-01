@@ -1,6 +1,6 @@
 # ChatGPT满周岁：我在一线趟过的路，和看到的真金白银
 
-> 来源：[https://w91h2gmtrn.feishu.cn/docx/PjhZdayZHoCFLExTorMctg3vnTe](https://w91h2gmtrn.feishu.cn/docx/PjhZdayZHoCFLExTorMctg3vnTe)
+
 
 阅读提示：
 1、全文约五千字，配图不少，建议PC端打开，阅读体验更好。

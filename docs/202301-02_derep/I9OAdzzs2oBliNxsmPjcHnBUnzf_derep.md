@@ -1,6 +1,6 @@
 # 万字复盘:一个普通职场人，下班后靠拆解，7年拆了500个项目，复制成功30+，副业收入破百万
 
-> 来源：[https://evs6m7y1q3.feishu.cn/docx/I9OAdzzs2oBliNxsmPjcHnBUnzf](https://evs6m7y1q3.feishu.cn/docx/I9OAdzzs2oBliNxsmPjcHnBUnzf)
+
 
 大家好，我是秦汉唐，私域深耕七年，擅长私域运营、商业模型拆解与复制。
 

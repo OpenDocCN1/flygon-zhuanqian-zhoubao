@@ -1,6 +1,6 @@
 # Coze上手第一天，我就撸出了小红书图文采集神器，成就感直接拉满！
 
-> 来源：[https://hc66d27gc1.feishu.cn/docx/U7hPdd8MWoPQ0kxpBCJcG59dn1f](https://hc66d27gc1.feishu.cn/docx/U7hPdd8MWoPQ0kxpBCJcG59dn1f)
+
 
 哈喽，我是克克。纯新手，刚报了九月这期「Coze + 多维表格」航海营。
 

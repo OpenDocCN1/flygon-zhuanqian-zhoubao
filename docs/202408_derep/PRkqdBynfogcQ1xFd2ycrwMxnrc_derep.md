@@ -1,6 +1,6 @@
 # 抖音矩阵掘金？拆开看其实就是个影视带货的老套路
 
-> 来源：[https://bv4kqmk3tll.feishu.cn/docx/PRkqdBynfogcQ1xFd2ycrwMxnrc](https://bv4kqmk3tll.feishu.cn/docx/PRkqdBynfogcQ1xFd2ycrwMxnrc)
+
 
 先简单自我介绍一下，我是小龙，目前在读计算机专业，处于实习期。一直对社群运营、个人IP打造这类东西挺上心的。
 

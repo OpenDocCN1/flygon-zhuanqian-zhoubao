@@ -1,6 +1,6 @@
 # 用美区 Apple ID 搞定 ChatGPT 注册与 Plus 充值全流程
 
-> 来源：[https://hs88nuws9z.feishu.cn/docx/CqmRdM1C1omOJixepDwclpwunTe](https://hs88nuws9z.feishu.cn/docx/CqmRdM1C1omOJixepDwclpwunTe)
+
 
 # 先说难点
 

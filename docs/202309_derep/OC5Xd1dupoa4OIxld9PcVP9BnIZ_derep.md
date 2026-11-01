@@ -1,6 +1,6 @@
 # 用精细化打法把淘宝免费搜索流量吃下来
 
-> 来源：[https://ndrgazngqw.feishu.cn/docx/OC5Xd1dupoa4OIxld9PcVP9BnIZ](https://ndrgazngqw.feishu.cn/docx/OC5Xd1dupoa4OIxld9PcVP9BnIZ)
+
 
 各位好，我是祁元，一个在淘系里摸爬滚打的运营人，话比较多但都是干货。
 

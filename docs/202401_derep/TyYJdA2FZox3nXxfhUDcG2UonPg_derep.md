@@ -1,6 +1,6 @@
 # 夫妻档做英语培训，靠小红书闷声月入20万
 
-> 来源：[https://bmy4tfqyf1.feishu.cn/docx/TyYJdA2FZox3nXxfhUDcG2UonPg](https://bmy4tfqyf1.feishu.cn/docx/TyYJdA2FZox3nXxfhUDcG2UonPg)
+
 
 各位赚钱圈友，我是郑韩，许久没动笔了。这次聊聊今年我们在英语赛道上玩小红书的一些心得，希望能给打算靠小红书获客的朋友一点启发。
 

@@ -1,6 +1,6 @@
 # 自媒体新手上路，先弄明白这三件事
 
-> 来源：[https://m08zlw24sg0.feishu.cn/docx/AloOddLbjoZZy2x81EJcbN9bnGo](https://m08zlw24sg0.feishu.cn/docx/AloOddLbjoZZy2x81EJcbN9bnGo)
+
 
 ![](img/3c03c0c593e7c9ce5eddf138f5a18b40.png)
 

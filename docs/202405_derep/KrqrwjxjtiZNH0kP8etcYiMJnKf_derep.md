@@ -1,6 +1,6 @@
 # 小红书精细化运营怎么做？
 
-> 来源：[https://hadad3oapn3.feishu.cn/docx/PpOHdPCzKoIQdoxQYIlc3bnvnMf](https://hadad3oapn3.feishu.cn/docx/PpOHdPCzKoIQdoxQYIlc3bnvnMf)
+
 
 大家好，我是李校长，校长会创始人，也是小红书头部MCN的操盘人，高客单项目一直是我在带队做的。最近私信里反复被问到一个问题：小红书内容怎么搭建才算专业？今天就把我对小红书精细化打法的理解，整理成一篇实操干货发出来。
 

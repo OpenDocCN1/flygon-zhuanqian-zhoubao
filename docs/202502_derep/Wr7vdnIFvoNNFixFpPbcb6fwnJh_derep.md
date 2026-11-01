@@ -1,6 +1,6 @@
 # 24小时自动推流，我的YouTube直播一天涨粉五六千的方法
 
-> 来源：[https://o3r5flroio.feishu.cn/docx/Wr7vdnIFvoNNFixFpPbcb6fwnJh](https://o3r5flroio.feishu.cn/docx/Wr7vdnIFvoNNFixFpPbcb6fwnJh)
+
 
 # 直播间实时数据照
 

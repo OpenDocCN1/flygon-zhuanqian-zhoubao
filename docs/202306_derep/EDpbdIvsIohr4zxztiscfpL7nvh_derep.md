@@ -1,6 +1,6 @@
 # 小红书护肤赛道实操复盘：一条笔记拉来300+精准咨询，10万+到手
 
-> 来源：[https://ancab4z106.feishu.cn/docx/EDpbdIvsIohr4zxztiscfpL7nvh](https://ancab4z106.feishu.cn/docx/EDpbdIvsIohr4sxztiscfpL7nvh)
+
 
 做好前端内容和后端转化，一条笔记就能带来300多个咨询，变现轻松过10万。5月31号那条视频到现在，私域已经进来了300多个人，客单1500，成交66人以上，累计变现10万+，典型的低粉丝高转化案例。
 

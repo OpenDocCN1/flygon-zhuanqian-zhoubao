@@ -1,6 +1,6 @@
 # 时来运转：从0到1做彩票预测项目的一路实操与迭代
 
-> 来源：[https://xq8zkieg4ir.feishu.cn/docx/Trq7dCxwTozQqwx0Ed0cqudrnHe](https://xq8zkieg4ir.feishu.cn/docx/Trq7dCxwTozQqwx0Ed0cqudrnHe)
+
 
 # 一、纵然反复思量彩票，我对彩票依旧念念不忘
 

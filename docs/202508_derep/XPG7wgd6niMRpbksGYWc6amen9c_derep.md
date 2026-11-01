@@ -1,6 +1,6 @@
 # 快手好物全站微投流挂车：一个正反馈快、长效稳的新流量变现打法
 
-> 来源：[https://vwzxb5qdvr.feishu.cn/docx/XbTQdvGHwoR32axFNY9cpxHNnnf](https://vwzxb5qdvr.feishu.cn/docx/XbTQdvGHwoR32axFNY9cpxHNnnf)
+
 
 ## 开篇说一下背景
 

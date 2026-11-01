@@ -1,6 +1,6 @@
 # 内容生意做到高收入的六个底层密码
 
-> 来源：[https://b16xnqwk20.feishu.cn/docx/O3vBdevO8ov0JbxyptWcg9RbnNQ](https://b16xnqwk20.feishu.cn/docx/O3vBdevO8ov0JbxyptWcg9RbnNQ)
+
 
 各位新朋友老朋友，见字如面，我是老宋。
 

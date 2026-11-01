@@ -1,6 +1,6 @@
 # 【项目开源】靠AI工作流打爆公众号图文馆，月入5W+的蓝海玩法全拆解
 
-> 来源：[https://aiawaken.feishu.cn/docx/NSxndZqgyopnUhxSbnoc2rI6nGh](https://aiawaken.feishu.cn/docx/NSxndZqgyopnUhxSbnoc2rI6nGh)
+
 
 手册主理人：
 

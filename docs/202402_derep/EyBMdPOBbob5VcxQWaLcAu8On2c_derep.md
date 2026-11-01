@@ -1,6 +1,6 @@
 # 一天私域自动到账4万+，不靠推销也能成交的底层逻辑
 
-> 来源：[https://b80fa9wrsf.feishu.cn/docx/EyBMdPOBbob5VcxQWaLcAu8On2c](https://b80fa9wrsf.feishu.cn/docx/EyBMdPOBbob5VcxQWaLcAu8On2c)
+
 
 大家好，我是思念。
 

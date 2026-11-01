@@ -1,6 +1,6 @@
 # 最新提醒！最近做MediaBuy的你，如果也被Google Ads标记了，这份经验或许能用上
 
-> 来源：[https://viuejh8h99y.feishu.cn/docx/Yt2wdNfYLoVKBgxtj83ch9Z2nHb](https://viuejh8h99y.feishu.cn/docx/Yt2wdNfYLoVKBgxtj83ch9Z2nHb)
+
 
 废话不多说，直接进入主题。
 

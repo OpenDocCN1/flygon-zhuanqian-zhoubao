@@ -1,6 +1,6 @@
 # 小红书做禅旅，一周到手7万+的从0到1实操拆解
 
-> 来源：[https://b3k2jeijqy.feishu.cn/docx/IC2WdG8KnoZbqNxDq0wcdBG1nHg](https://b3k2jeijqy.feishu.cn/docx/IC2WdG8KnoZbqNxDq0wcdBG1nHg)
+
 
 ## 一、开场自我介绍
 

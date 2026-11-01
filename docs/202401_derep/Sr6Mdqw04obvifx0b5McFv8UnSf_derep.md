@@ -1,6 +1,6 @@
 # 风向标拆解第 2 期 -- 机会7：一款月入10万美元的AI工具是怎么炼成的 -- 叉叉敌
 
-> 来源：[https://y3my0b87ql.feishu.cn/docx/Sr6Mdqw04obvifx0b5McFv8UnSf](https://y3my0b87ql.feishu.cn/docx/Sr6Mdqw04obvifx0b5McFv8UnSf)
+
 
 # 前言
 

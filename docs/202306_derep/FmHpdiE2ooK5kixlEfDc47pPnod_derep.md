@@ -1,6 +1,6 @@
 # 十九岁，手里握着第一桶金
 
-> 来源：[https://zwbfnc29pf1.feishu.cn/docx/FmHpdiE2ooK5kixlEfDc47pPnod](https://zwbfnc29pf1.feishu.cn/docx/FmHpdiE2ooK5kixlEfDc47pPnod)
+
 
 十九与百万放在一起本该格格不入，却真实地落在了我身上。你好，我是高尚坏孩，十九岁，双非大二在读。
 

@@ -1,6 +1,6 @@
 # 两年实战沉淀：让 Cursor 真正好用的 30 条心法与实操
 
-> 来源：[https://ry6uq5vtyu.feishu.cn/docx/QJHgd9na1oKDQVxHyVVc9fDYnyf](https://ry6uq5vtyu.feishu.cn/docx/QJHgd9na1oKDQVxHyVVc9fDYnyf)
+
 
 我用 AI 编程已经两年多，期间用它撸了大量业务工具。今天把亲测有效的 30 个打法整理出来，帮你让 Cursor 变得更顺手、更靠谱，快速进入心流状态。
 

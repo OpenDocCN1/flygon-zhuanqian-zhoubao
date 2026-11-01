@@ -1,6 +1,6 @@
 # 把 YouTube Shorts 打造成可复制的自动化产线
 
-> 来源：[https://ia0969wpr2.feishu.cn/docx/ELcgdUKJToK95YxuoCUc33XVnzh](https://ia0969wpr2.feishu.cn/docx/ELcgdUKJToK95YxuoCUc33XVnzh)
+
 
 各位好，我是钱塘江鲤。受龙哥的超级标点醒，最近一段周期我一直在琢磨 Shorts 的 AI 化运营。摸索下来，整套作业链路已被我逐步跑通并固化为一套自动流水线。起初觉得这块的技术门槛不高，也还没跑出亮眼的成绩，一直不好意思分享。直到两天前和@土豆君聊天聊到此事，得他鼓劲后才决定把当下的做法整理出来，供同样在探索这条赛道的人参考。
 

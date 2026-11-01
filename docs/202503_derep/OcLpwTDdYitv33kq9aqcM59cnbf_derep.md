@@ -1,6 +1,6 @@
 # 线下同城发售实战复盘：从销售新人到10天进账近2万，我做对了什么？
 
-> 来源：[https://iq64gi1kezp.feishu.cn/docx/AZ8FdRJHuoE22Hxwvw7cvl5WnAb](https://iq64gi1kezp.feishu.cn/docx/AZ8FdRJHuoE22Hxwvw7cvl5WnAb)
+
 
 大家好，我是天豪。
 

@@ -1,6 +1,6 @@
 # 小红书搞钱新赛道：拆解一个可复制的身心灵账号变现路径
 
-> 来源：[https://wfxjxt5sza.feishu.cn/docx/YEoYdq6dhoLMOOxSTetcvlj5nEc](https://wfxjxt5sza.feishu.cn/docx/YEoYdq6dhoLMOOxSTetcvlj5nEc)
+
 
 ## 为什么现在是身心灵的窗口期
 

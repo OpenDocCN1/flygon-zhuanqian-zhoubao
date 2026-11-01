@@ -1,6 +1,6 @@
 # 风向标拆解第3期：一个Notion模板如何做到年入百万美金？拆解Thomas Frank的资料整理变现全案
 
-> 来源：[https://kibt1a72me.feishu.cn/docx/PiaFdtvhloCP3uxAA6IcxPqMneb](https://kibt1a72me.feishu.cn/docx/PiaFdtvhloCP3uxAA6IcxPqMneb)
+
 
 今天拆的这个案例，是目前全球最会赚钱的Notion博主 Thomas Frank。他的玩法堪称出海知识变现的教科书，一鱼多吃，把资料整理生意做成了完整的商业生态。模板销售只是入口，后面还串联了YouTube、课程、分销、广告和工具站。如果你想学海外的知识付费，这套路子非常值得抄作业。
 

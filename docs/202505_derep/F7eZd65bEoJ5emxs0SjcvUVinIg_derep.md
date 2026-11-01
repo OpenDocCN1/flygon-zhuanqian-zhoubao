@@ -1,6 +1,6 @@
 # 从个人笔记到 AI 驱动的创作引擎：知识库搭建实战全流程
 
-> 来源：[https://ox9k4rncex0.feishu.cn/docx/F7eZd65bEoJ5emxs0SjcvUVinIg](https://ox9k4rncex0.feishu.cn/docx/F7eZd65bEoJ5emxs0SjcvUVinIg)
+
 
 全文约 1.5 万字，建议在电脑端阅读。
 

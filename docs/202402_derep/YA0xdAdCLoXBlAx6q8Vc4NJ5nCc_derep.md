@@ -1,6 +1,6 @@
 # 风向标拆解第3期 - 老年研学需求被满足的机会如何 - Daemon
 
-> 来源：[https://iy8tus37tl.feishu.cn/docx/YA0xdAdCLoXBlAx6q8Vc4NJ5nCc](https://iy8tus37tl.feishu.cn/docx/YA0xdAdCLoXBlAx6q8Vc4NJ5nCc)
+
 
 这套拆解框架的目的是帮你透彻看懂一个项目的底层逻辑。
 

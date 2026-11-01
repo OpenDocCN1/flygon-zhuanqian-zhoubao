@@ -1,6 +1,6 @@
 # 3个月靠AI把人生首马跑进4小时，小白也能复制的打法
 
-> 来源：[https://fl2dhgx3i3.feishu.cn/docx/UQvcdjFOIo4zK8xQQiYcmK7sndy](https://fl2dhgx3i3.feishu.cn/docx/UQvcdjFOIo4zK8xQQiYcmK7sndy)
+
 
 AI健康管家早已不是健身圈的玩具，它正在重塑医疗级健康管理的逻辑。用数据说话、用模型定制个人方案，专业教练制的壁垒被打破，精英才能享有的系统化身体管理，现在普通人也能用。跑步、抗病、日常体能，全流程都能被精准掌控。
 

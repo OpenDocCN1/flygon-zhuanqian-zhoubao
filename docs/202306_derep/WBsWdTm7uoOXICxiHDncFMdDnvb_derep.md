@@ -1,6 +1,6 @@
 # 从三人起步到首个一百万元：我的两年半拆解笔记
 
-> 来源：[https://mv61xmj001b.feishu.cn/docx/WBsWdTm7uoOXICxiHDncFMdDnvb](https://mv61xmj001b.feishu.cn/docx/WBsWdTm7uoOXICxiHDncFMdDnvb)
+
 
 各位好，我是苗子，一名一直在创业路上试错的人。
 

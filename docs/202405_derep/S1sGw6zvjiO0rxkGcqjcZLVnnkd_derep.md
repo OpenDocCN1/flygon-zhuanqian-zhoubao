@@ -1,6 +1,6 @@
 # 【胎教级教程】AI提示词底层逻辑一文通
 
-> 来源：[https://j1ohuigiiff.feishu.cn/docx/PUCnd8KlkoChTtx4VL4cxyX2neb](https://j1ohuigiiff.feishu.cn/docx/PUCnd8KlkoChTtx4VL4cxyX2neb)
+
 
 # 纸上得来终觉浅，绝知此事要躬行
 

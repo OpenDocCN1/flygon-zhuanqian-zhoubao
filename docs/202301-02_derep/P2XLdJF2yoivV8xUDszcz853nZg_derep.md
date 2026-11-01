@@ -1,6 +1,6 @@
 # 用 IFTTT 把 Twitter 大 V 的动态实时推送到邮箱、企业微信或钉钉
 
-> 来源：[https://yq9pu32e9v.feishu.cn/docx/P2XLdJF2yoivV8xUDszcz853nZg](https://yq9pu32e9v.feishu.cn/docx/P2XLdJF2yoivV8xUDszcz853nZg)
+
 
 前段时间我对象提了个需求：能不能让某个推特账号发新动态后，几秒钟内就能出现在微信里？这样就能第一时间捕捉 Web3 圈内头部玩家的动向，跟着他们一起布局项目。
 

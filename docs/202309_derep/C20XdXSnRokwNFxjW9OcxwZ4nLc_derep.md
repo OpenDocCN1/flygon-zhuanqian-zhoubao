@@ -1,6 +1,6 @@
 # 用AI画宠物一个月拿400块，MVP验证全过程摊开说 - 上集
 
-> 来源：[https://uyna8i1s6g.feishu.cn/docx/C20XdXSnRokwNFxjW9OcxwZ4nLc](https://uyna8i1s6g.feishu.cn/docx/C20XdXSnRokwNFxjW9OcxwZ4nLc)
+
 
 大家好，我是sky陈天，在一家大数据独角兽做产品运营，995作息。2025年4月18日入了龙哥盟，算是新人，5月正式开启副业，6月参加了AI自媒体加小红书运营航海，也报了优势挖掘营。在赚钱几位大佬的拆解下，我把方向锚定在AI企业内训和AI转型效率顾问上。本篇复盘的是航海期间我实操的AI绘画宠物项目。
 

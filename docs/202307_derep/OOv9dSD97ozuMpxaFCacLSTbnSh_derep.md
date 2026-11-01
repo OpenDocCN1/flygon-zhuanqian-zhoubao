@@ -1,6 +1,6 @@
 # 小红书电商实操全攻略
 
-> 来源：[https://go6xq64elg.feishu.cn/docx/OOv9dSD97ozuMpxaFCacLSTbnSh](https://go6xq64elg.feishu.cn/docx/OOv9dSD97ozuMpxaFCacLSTbnSh)
+
 
 # 一、账号与产品的定位打法
 

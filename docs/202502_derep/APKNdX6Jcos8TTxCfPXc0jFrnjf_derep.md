@@ -1,6 +1,6 @@
 # 蓝海新入口：京东外卖拉新，一单最高170元+ — ZSXQ
 
-> 来源：[https://bzpjac2aeq.feishu.cn/docx/APKNdX6Jcos8TTxCfPXc0jFrnjf](https://bzpjac2aeq.feishu.cn/docx/APKNdX6Jcos8TTxCfPXc0jFrnjf)
+
 
 京东外卖刚刚起步，这两天正是空白期。现阶段入驻完全免费，佣金也免收，商家数量稀少上榜推荐很容易，一笔新商入驻奖励能到170元以上，扶持力度拉满，商家几乎没有拒绝的理由。多开一条渠道，抢在人群涌入前卡位，现在入局等于占坑。
 

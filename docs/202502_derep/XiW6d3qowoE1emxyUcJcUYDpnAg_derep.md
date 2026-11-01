@@ -1,6 +1,6 @@
 # 开工第一周就上手！9个让 DeepSeek 真正为你干活的实操心法
 
-> 来源：[https://k0wy0o3bj59.feishu.cn/docx/XiW6d3qowoE1emxyUcJcUYDpnAg](https://k0wy0o3bj59.feishu.cn/docx/XiW6d3qowoE1emxyUcJcUYDpnAg)
+
 
 音频版本：
 

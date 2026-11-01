@@ -1,6 +1,6 @@
 # 小红书十个常见误区合集，承认问题太难了！
 
-> 来源：[https://qxgrvnd4nbk.feishu.cn/docx/RqzhdH0oGoO0pNxGbPCcebwmnoc](https://qxgrvnd4nbk.feishu.cn/docx/RqzhdH0oGoO0pNxGbPCcebwmnoc)
+
 
 各位圈友好，我是更绪，四川南充人，去年刚毕业，现在在福建武夷山做创业，长期卡在小红书上，主要靠笔记和投放拿线索、卖货。
 

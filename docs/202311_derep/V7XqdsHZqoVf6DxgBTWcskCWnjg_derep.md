@@ -1,6 +1,6 @@
 # 把复杂任务拆碎喂给 AI：用 Prompt Chain 让工作变轻松
 
-> 来源：[https://zi6nfl20s5u.feishu.cn/docx/V7XqdsHZqoVf6DxgBTWcskCWnjg](https://zi6nfl20s5u.feishu.cn/docx/V7XqdsHZqoVf6DxgBTWcskCWnjg)
+
 
 原本只是想记录一下，一个做提示词的人是怎么优雅地搞定一份作业的。写着写着才发现，里面藏的东西比表面看起来多得多，于是顺手把 Prompt Chain 的思路也一起拎了出来。
 

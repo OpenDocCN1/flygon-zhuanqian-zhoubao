@@ -1,6 +1,6 @@
 # 从0到1组建一支能放大业绩的销售正规军
 
-> 来源：[https://wi1v74w740.feishu.cn/docx/P8eZdlowxoS609xtGecc5umUnmd](https://wi1v74w740.feishu.cn/docx/P8eZdlowxoS609xtGecc5umUnmd)
+
 
 大家好，我是许老师。之前带过两轮少儿编程从0到1的项目，比较擅长教培行业的获客到成交模型，也踩过不少销售团队搭建的坑。
 

@@ -1,6 +1,6 @@
 # 给拥有7000人总部团队的企业做线下小红书内训，我把实体商家最常卡住的5个点梳理出来了
 
-> 来源：[https://r1f6bwsgrwd.feishu.cn/docx/BuW3dYm8qoXpu0xBmwLcJ33jnJh](https://r1f6bwsgrwd.feishu.cn/docx/BuW3dYm8qoXpu0xBmwLcJ33jnJh)
+
 
 哈喽，我是做小红书流量的文静。刚结束了一场当地行业龙头的线下内训，对象是实体门店的店长团队。整场下来两天，聊的全是落地执行里的实操痛点。
 

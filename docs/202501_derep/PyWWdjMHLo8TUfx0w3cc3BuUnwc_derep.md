@@ -1,6 +1,6 @@
 # 这可能是我们这一代最值得押注的机会
 
-> 来源：[https://fvxoq23qyuq.feishu.cn/docx/PyWWdjMHLo8TUfx0w3cc3BuUnwc](https://fvxoq23qyuq.feishu.cn/docx/PyWWdjMHLo8TUfx0w3cc3BuUnwc)
+
 
 大家好，我是小乐。做程序员七年，2016年起玩公众号，2017年底辞职转做自由职业，现在操盘50多个公众号矩阵，全网粉丝40万左右，一直在做公域流量。2021年4月入驻赚钱。
 

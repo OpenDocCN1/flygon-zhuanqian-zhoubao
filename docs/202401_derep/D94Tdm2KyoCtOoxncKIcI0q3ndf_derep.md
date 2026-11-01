@@ -1,6 +1,6 @@
 # 如何拥有一张香港银行卡
 
-> 来源：[https://bqrxa67uifc.feishu.cn/docx/D94Tdm2KyoCtOoxncKIcI0q3ndf](https://bqrxa67uifc.feishu.cn/docx/D94Tdm2KyoCtOoxncKIcI0q3ndf)
+
 
 大家好，我是Andy，日常聚焦AI、出海、个人品牌与数码游民等话题，也在做海外留学与AI项目变现，主要经验集中在投放和私域运营。今天跟大家聊的是怎么拿到一张香港银行卡。
 

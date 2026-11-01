@@ -1,6 +1,6 @@
 # 唐老师亲拆：我做小学教辅资料三年，如何做到日引千人、日赚四位数
 
-> 来源：[https://j1qgjdbztlj.feishu.cn/docx/MN4zdPIKEoRZaBxbEJscSyGtnze](https://j1qgjdbztlj.feishu.cn/docx/MN4zdPIKEoRZaBxbEJscSyGtnze)
+
 
 各位朋友好，我是唐老师。
 

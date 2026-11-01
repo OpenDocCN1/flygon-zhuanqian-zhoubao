@@ -1,6 +1,6 @@
 # 10 天从零起步，我如何把视频号做成 ChatGPT 垂类头部
 
-> 来源：[https://t1s1gqtac2.feishu.cn/docx/PEaud24YioXVx3xe09rcXJVMnjb](https://t1s1gqtac2.feishu.cn/docx/PEaud24YioXVx3xe09rcXJVMnjb)
+
 
 大家好，我是轻松学长。2 月 8 号我正式进入 ChatGPT 赛道，十天内账号就站稳视频号同类赛道的头部位置。到现在，视频号累计涨粉 9W+，单场直播最高观看人数突破 20W+，导流到私域企微/个人微信超 8k+，直接变现已达 2w+。
 

@@ -1,6 +1,6 @@
 # 我终于碰到一个能做长久、又真心喜欢的副业：玄学水晶珠宝
 
-> 来源：[https://r7weuqivm5.feishu.cn/docx/A2dMdbiuNoCDQZxJZTkcovNhn7d](https://r7weuqivm5.feishu.cn/docx/A2dMdbiuNoCDQZxJZTkcovNhn7d)
+
 
 大家好，我是贾璐Luca。创业十年，同时也是个二胎妈妈。
 

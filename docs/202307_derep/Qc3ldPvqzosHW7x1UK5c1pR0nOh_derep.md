@@ -1,6 +1,6 @@
 # 从圈内一篇干货文章到单场 1.8 万 GMV、净赚 7000+，我复盘了一遍视频号的爆款打法
 
-> 来源：[https://tjivb5uf6y.feishu.cn/docx/Qc3ldPvqzosHW7x1UK5c1pR0nOh](https://tjivb5uf6y.feishu.cn/docx/Qc3ldPvqzosHW7x1UK5c1pR0nOh)
+
 
 # 一、简单的自我介绍
 

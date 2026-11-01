@@ -1,6 +1,6 @@
 # 电商卖货从0到1实操指南：个人单干也行，团队复制也行
 
-> 来源：[https://gvnaena9t3p.feishu.cn/docx/DSvWd0pPLoYJ5DxdCuVc5Vran8c](https://gvnaena9t3p.feishu.cn/docx/DSvWd0pPLoYJ5DxdCuVc5Vran8c)
+
 
 先简单自我介绍一下，我是晴子，97年，创业摸爬滚打了13年。手机流量卡、刷单、美甲、直播、电商、外贸、开厂、线下实体挨个试过，踩坑无数才走到现在。我的公众号是晴子bosss，微信 v: profits99
 

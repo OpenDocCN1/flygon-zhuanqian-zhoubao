@@ -1,6 +1,6 @@
 # 让笔记封面成为持续吸流的“印刷机”
 
-> 来源：[https://urh4zarsm8.feishu.cn/docx/FHAPdo8u1ohgb4x98ZvcIQUrnNb](https://urh4zarsm8.feishu.cn/docx/FHAPdo8u1ohgb4x98ZvcIQUrnNb)
+
 
 带 AI 自媒体实操一段时间后，最常听到的困惑是：明明内容有料，却卡在封面要怎么做。
 

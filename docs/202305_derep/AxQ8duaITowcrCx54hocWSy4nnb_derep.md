@@ -1,6 +1,6 @@
 # 《从零到一跑通全流程，当前视频号带货最稳的打法——短视频挂车投流》
 
-> 来源：[https://md8vbz6pkh.feishu.cn/docx/AxQ8duaITowcrCx54hocWSy4nnb](https://md8vbz6pkh.feishu.cn/docx/AxQ8duaITowcrCx54hocWSy4nnb)
+
 
 大家好，我是纸壳。过去踩过不少风口，也吃过不少亏。现阶段把重心全放在视频号带货上，自然流、直播、付费投放都做过，该撞的墙基本都撞遍了。
 

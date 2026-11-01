@@ -1,6 +1,6 @@
 # Coze 扩容方案：手搓一个专属 LLM 外挂，3000 字超细实操
 
-> 来源：[https://aiawaken.feishu.cn/docx/ZKevd3IAioOeMzxaZZbcq85OnYg](https://aiawaken.feishu.cn/docx/ZKevd3IAioOeMzxaZZbcq85OnYg)
+
 
 # 作者寄语
 

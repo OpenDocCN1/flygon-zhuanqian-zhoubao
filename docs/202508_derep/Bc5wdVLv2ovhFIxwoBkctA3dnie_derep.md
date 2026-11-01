@@ -1,6 +1,6 @@
 # 扣子工作流 1：初上手就能用的 AI 自动化雏形
 
-> 来源：[https://o0tqwvct3e.feishu.cn/docx/Bc5wdVLv2ovhFIxwoBkctA3dnie](https://o0tqwvct3e.feishu.cn/docx/Bc5wdVLv2ovhFIxwoBkctA3dnie)
+
 
 把工作流用好，不止是把手头活放掉，更关键的是产出质量往往比手工做得更稳。
 

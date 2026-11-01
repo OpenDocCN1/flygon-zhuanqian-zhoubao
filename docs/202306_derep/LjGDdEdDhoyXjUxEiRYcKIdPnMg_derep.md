@@ -1,6 +1,6 @@
 # 用 ChatGPT 撬动微信公众号热点流量：一篇新手也能复制的实操笔记
 
-> 来源：[https://y3my0b87ql.feishu.cn/docx/LjGDdEdDhoyXjUxEiRYcKIdPnMg](https://y3my0b87ql.feishu.cn/docx/LjGDdEdDhoyXjUxEiRYcKIdPnMg)
+
 
 2023.4.18 我刚加入赚钱，正在参与「ChatGPT+自媒体」航海行动。写文章的过程里踩过不少坑，调完方法后终于尝到甜头，比如从个位数的曝光一路冲到四位数。把这套能用的经验彻底拆开，供和我一样起步的同学参考。
 

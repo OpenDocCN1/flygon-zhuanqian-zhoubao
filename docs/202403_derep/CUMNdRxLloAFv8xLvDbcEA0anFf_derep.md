@@ -1,6 +1,6 @@
 # 从采集到分发：基于影刀RPA搭建heygen数字人全链路实操
 
-> 来源：[https://ia0969wpr2.feishu.cn/docx/CUMNdRxLloAFv8xLvDbcEA0anFf](https://ia0969wpr2.feishu.cn/docx/CUMNdRxLloAFv8xLvDbcEA0anFf)
+
 
 大家好，我是钱小鲤。近期用影刀跑了几套自动化机器人，今天把正在线上的部分流程整理出来分享。内容不做噱头也不谈变现，只是把真实跑通的环节摊开讲，希望对同行有参考价值。
 

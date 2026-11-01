@@ -1,6 +1,6 @@
 # 用2个月盘了1万个直播间，我找到了普通人也能做的抖音免费流量直播机会
 
-> 来源：[https://u16gtzbrexc.feishu.cn/docx/KVDQd0hxzoo6EFxLGO7cEI9LnpM](https://u16gtzbrexc.feishu.cn/docx/KVDQd0hxzoo6EFxLGO7cEI9LnpM)
+
 
 大家好，我是千易。上期我复盘了去年的内容型直播项目，益仁大哥帮忙做了精华，谢谢各位圈友的关注和支持。
 

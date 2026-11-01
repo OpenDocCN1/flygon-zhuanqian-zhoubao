@@ -1,6 +1,6 @@
 # 电商新手闯入SHEIN全托管：从几千块试错，到小众类目月毛利稳定5-6万
 
-> 来源：[https://yoyxm8hqv4.feishu.cn/docx/DaAod9SlroFMCix4sWfcDpdPnvg](https://yoyxm8hqv4.feishu.cn/docx/DaAod9SlroFMCix4sWfcDpdPnvg)
+
 
 大家好，我是Emma梦婷，赚钱四年圈友，也是一名赚钱航海家。
 

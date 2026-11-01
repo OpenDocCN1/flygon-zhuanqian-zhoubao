@@ -1,6 +1,6 @@
 # 零基础也能用的ChatGPT角色指令操盘手手册｜附免费生成工具
 
-> 来源：[https://xq6mz7nkknp.feishu.cn/docx/APhsdunGIoE3j3xfxePcFEwGnhe](https://xq6mz7nkknp.feishu.cn/docx/APhsdunGIoE3j3xfxePcFEwGnhe)
+
 
 大家好，我是台风，一个专注于用魔法咒语打造ChatGPT角色的实践者，想做ChatGPT角色模式在国内普及的推动者之一。
 

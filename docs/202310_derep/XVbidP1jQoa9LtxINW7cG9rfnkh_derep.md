@@ -1,6 +1,6 @@
 # 12天、1300块左右，普通人也能搞定一家美国公司
 
-> 来源：[https://cijczs95il.feishu.cn/docx/XVbidP1jQoa9LtxINW7cG9rfnkh](https://cijczs95il.feishu.cn/docx/XVbidP1jQoa9LtxINW7cG9rfnkh)
+
 
 想在美国挂个公司名，听起来很高门槛，其实走对路子，半个月内就能把主体跑通，下面是我实操下来的一套低成本路线。
 

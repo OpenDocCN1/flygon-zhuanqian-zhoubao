@@ -1,6 +1,6 @@
 # 00后自由职业者实录：借助智能工具做PPT，月净利达到1.7W（上篇）
 
-> 原始资料：[飞书文档](https://hjue9evklt.feishu.cn/docx/JP7VdLVQGonCNFxuCPzcdk7qnhf)
+
 
 嗨，我是Livia。
 

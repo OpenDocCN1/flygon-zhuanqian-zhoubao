@@ -1,6 +1,6 @@
 # 从底层逻辑到落地实操，飞书多维表格全景拆解
 
-> 来源：[https://bvvp9yto7k.feishu.cn/docx/WTS3dCaqAoVH23x5kNQcva1Encb](https://bvvp9yto7k.feishu.cn/docx/WTS3dCaqAoVH23x5kNQcva1Encb)
+
 
 七月初飞书未来无限大会刚落幕，热度还没散，我就写过一篇跟进的解读，回响出乎意料地大。七天也来找我聊过，想让我把心得整理出来，于是便有了这篇稿子。
 

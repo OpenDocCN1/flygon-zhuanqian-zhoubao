@@ -1,6 +1,6 @@
 # 别先学写笔记，先把账号定位赚到钱！ChatGPT 15分钟搞定小红书精准定位
 
-> 来源：[https://dvicfjbl5q.feishu.cn/docx/IUDddMgHVozJ7CxwPaUcUDO0nGc](https://dvicfjbl5q.feishu.cn/docx/IUDddMgHVozJ7CxwPaUcUDO0nGc)
+
 
 不管你是想做副业变现，还是要为自己的品牌引流，刚打算入场小红书，就一定要看这篇。很多零基础的人第一反应是：先去学怎么用ChatGPT写笔记。其实顺序反了。我做了12年自媒体，经验告诉我，第一步必须是账号定位。定位一旦清晰，你就已经赢过了大半的新手。这也是为什么有人入局2-3个月就能拿下首单、甚至出爆款。
 

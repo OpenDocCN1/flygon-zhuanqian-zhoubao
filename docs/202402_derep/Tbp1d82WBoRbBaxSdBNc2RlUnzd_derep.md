@@ -1,6 +1,6 @@
 # 4天盲订，150人围观，54人下单，22万到账：一场合伙人产品的全流程复盘
 
-> 来源：[https://zwbfnc29pf1.feishu.cn/docx/Tbp1d82WBoRbBaxSdBNc2RlUnzd](https://zwbfnc29pf1.feishu.cn/docx/Tbp1d82WBoRbBaxSdBNc2RlUnzd)
+
 
 大家好，我是高尚坏孩。大三在读，19岁做到人生第一个百万，20岁自驾环游大半个中国，现在主攻品牌操盘和私域虚拟产品的变现。
 

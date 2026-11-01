@@ -1,6 +1,6 @@
 # 小红书没流量？别只怪内容不行，可能是你在不知不觉中踩雷了
 
-> 来源：[https://nivut760ftk.feishu.cn/docx/R3FZdZAbsokg2Px0MD5cp4S0nVc](https://nivut760ftk.feishu.cn/docx/R3FZdZAbsokg2Px0MD5cp4S0nVc)
+
 
 哈喽，我是艾小飞，专注小红书引流这块。
 

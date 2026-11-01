@@ -1,6 +1,6 @@
 # n8n 商业化思考复盘：从工具到生意的关键判断
 
-> 来源：[https://yneq2bf840.feishu.cn/docx/I9C5doe4hoVelTxA56GcxroLnpf](https://yneq2bf840.feishu.cn/docx/I9C5doe4hoVelTxA56GcxroLnpf)
+
 
 最近沉浸在 n8n 的世界里，过周末还受邀去航海家大会聊了聊对这条路的看法。n8n 对我而言早已不只是提效工具，更关键的问题是：这条赛道能不能做成生意？我能不能围绕它做成一门可持续的生意？
 

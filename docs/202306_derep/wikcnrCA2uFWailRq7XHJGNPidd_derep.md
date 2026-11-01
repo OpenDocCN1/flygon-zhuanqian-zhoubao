@@ -1,6 +1,6 @@
 # 💰收了20w服务费，三个月把饰品号做到品类销冠，这波操盘我直呼好家伙
 
-> 来源：[https://hjlrkivx2z.feishu.cn/docx/IMzSdE39eoVBX1xwLzgcKTnDnme](https://hjlrkivx2z.feishu.cn/docx/IMzSdE39eoVBX1xwLzgcKTnDnme)
+
 
 最近在剪一期播客，顺手翻了翻之前的操盘记录。这个小红书配饰类目的代运营案子，投资回报率高到我自己都忍不住反复确认了好几遍。
 

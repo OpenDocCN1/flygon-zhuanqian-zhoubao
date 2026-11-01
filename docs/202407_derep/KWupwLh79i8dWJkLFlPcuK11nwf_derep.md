@@ -1,6 +1,6 @@
 # 用影刀RPA玩转剪映图文AI：把批量文案变成成片的自动化工作流
 
-> 来源：[https://kwut14otear.feishu.cn/docx/RzBMdbsyZosL1vxCDRmclw0onOc](https://kwut14otear.feishu.cn/docx/RzBMdbsyZosL1vxCDRmclw0onOc)
+
 
 一、这套自动化工具是什么
 

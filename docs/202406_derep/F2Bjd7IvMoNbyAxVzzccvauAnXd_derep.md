@@ -1,6 +1,6 @@
 # 一元钱搭起RPA+AI流水线，让Excel里的批量智能处理像喝水一样顺手
 
-> 来源：[https://ia0969wpr2.feishu.cn/docx/F2Bjd7IvMoNbyAxVzzccvauAnXd](https://ia0969wpr2.feishu.cn/docx/F2Bjd7IvMoNbyAxVzzccvauAnXd)
+
 
 是不是常常被这些事拖住：把用户评论一条条抠出来、把素材改写成产品文案、从长篇内容里抽出要点…… 听起来不大，但做起来就是个无底洞。最近我自己就卡在同一个点上：已经爬好了小红书的笔记和评论，想基于这些原始数据判断用户偏好，再结合过往爆款做二次创作。可一条条手动复制、粘贴到提示词里再生成，效率低到让人想放弃。能不能让Excel直接批量跑起来？
 

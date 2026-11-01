@@ -1,6 +1,6 @@
 # 用 AI 代写 + 中介打法 = 爆款生意 —— 7 天跑通并拿到第一笔收入
 
-> 来源：[https://ry6uq5vtyu.feishu.cn/docx/VRWOd0D61ocEZPxc7CrcQjvUnab](https://ry6uq5vtyu.feishu.cn/docx/VRWOd0D61ocEZPxc7CrcQjvUnab)
+
 
 ![](img/914b588e57e4761583d6122deeb60dca.png)
 

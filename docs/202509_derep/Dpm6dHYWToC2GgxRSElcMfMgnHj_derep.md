@@ -1,6 +1,6 @@
 # n8n 实战：从零搭建 AI 写稿 + 一键推送公众号的自动化流水线
 
-> 来源：[https://b121w2zgwyx.feishu.cn/docx/Dpm6dHYWToC2GgxRSElcMfMgnHj](https://b121w2zgwyx.feishu.cn/docx/Dpm6dHYWToC2GgxRSElcMfMgnHj)
+
 
 ## 写在前面
 

@@ -1,6 +1,6 @@
 # 双人实操，一个月做到百万流水的内容型直播复盘
 
-> 来源：[https://u16gtzbrexc.feishu.cn/docx/PRECdeiekoc66UxtFk0cVCaQnMh](https://u16gtzbrexc.feishu.cn/docx/PRECdeiekoc66UxtFk0cVCaQnMh)
+
 
 大家好，我是千易。今天把我们团队过去一年跑通的项目拿出来细聊，也跟大家做个交流。我们用 2 个人，把内容型直播做到单月 100W+ 的营收。
 

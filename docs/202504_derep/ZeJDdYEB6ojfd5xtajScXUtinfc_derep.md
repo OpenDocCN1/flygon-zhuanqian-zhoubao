@@ -1,6 +1,6 @@
 # 0元起住杭州临平：毕业生可申请的免租公寓实操笔记
 
-> 来源：[https://jx8j59ahkjb.feishu.cn/docx/ZeJDdYEB6ojfd5xtajScXUtinfc](https://jx8j59ahkjb.feishu.cn/docx/ZeJDdYEB6ojfd5xtajScXUtinfc)
+
 
 ![](img/430e45fcf44b31ca124b1796f5ff5094.png)
 

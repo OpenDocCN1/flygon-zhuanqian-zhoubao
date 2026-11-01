@@ -1,6 +1,6 @@
 # 把“让客户换车”这个难题丢给ChatGPT后，文案思路一下子通了
 
-> 来源：[https://balfcirt91j.feishu.cn/docx/DNEudMfhco4aZsxZcVrcn4osn5c](https://balfcirt91j.feishu.cn/docx/DNEudMfhco4aZsxZcVrcn4osn5c)
+
 
 这个实操案例的灵感，源自我前几天去修电动车的一次经历。
 

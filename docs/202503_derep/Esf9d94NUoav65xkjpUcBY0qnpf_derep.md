@@ -1,6 +1,6 @@
 # 零 iOS 经验的人，凭什么做出一款小而美的 App？
 
-> 来源：[https://vqxvy65apk2.feishu.cn/docx/Esf9d94NUoav65xkjpUcBY0qnpf](https://vqxvy65apk2.feishu.cn/docx/Esf9d94NUoav65xkjpUcBY0qnpf)
+
 
 大家好，我是阿紫。上个月我一直在琢磨同一个问题：完全不会 iOS 编程的人，还能做出精致的 App 吗？
 

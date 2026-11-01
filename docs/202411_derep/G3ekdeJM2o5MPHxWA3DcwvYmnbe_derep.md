@@ -1,6 +1,6 @@
 # 不花钱的AI人像摊位速成术：一天上手，第二天开张
 
-> 来源：[https://ib7ibjauw4.feishu.cn/docx/G3ekdeJM2o5MPHxWA3DcwvYmnbe](https://ib7ibjauw4.feishu.cn/docx/G3ekdeJM2o5MPHxWA3DcwvYmnbe)
+
 
 原文首次发布时间为2024年11月，于赚钱：
 

@@ -1,6 +1,6 @@
 # 从200个微信好友起家，两度濒临倒闭，创业六年，我到底经历了什么？
 
-> 来源：[https://uuy7p3hra0.feishu.cn/docx/IGgadlE6doqGm7xZnZn24chTWbnMb](https://uuy7p3hra0.feishu.cn/docx/IGgadlE6doqGm7xZn24chTWbnMb)
+
 
 我是阿may，我辈科技创始人，外号“增长女黑客”，1990年生于广东湛江吴川，一个名不见经传的小城。
 

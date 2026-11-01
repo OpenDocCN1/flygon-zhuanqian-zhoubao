@@ -1,6 +1,6 @@
 # 以修行的心态谈赚钱：普通人年入百万，已是天花板（上下篇合集）
 
-> 来源：[https://unpke5o6so.feishu.cn/docx/SHCgd7UVCoon9dx6zQUcozjineb](https://unpke5o6so.feishu.cn/docx/SHCgd7UVCoon9dx6zQUcozjineb)
+
 
 做人，首要是收心。心一静下来，才能做其他事。
 

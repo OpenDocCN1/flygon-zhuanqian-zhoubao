@@ -1,6 +1,6 @@
 # 第七期还没开，我就靠白嫖赚钱把第一张门票赚到了
 
-> 来源：[https://gq2psr73l6v.feishu.cn/docx/Yjt0dfSN8ob6Xgxl9z6ct7Kfnqf](https://gq2psr73l6v.feishu.cn/docx/Yjt0dfSN8ob6Xgxl9z6ct7Kfnqf)
+
 
 # 一、【自我介绍】
 

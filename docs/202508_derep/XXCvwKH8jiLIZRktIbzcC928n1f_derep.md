@@ -1,6 +1,6 @@
 # 用 Fellou 这款 AI 浏览器在小红书上批量搞定选题和竞品分析，真的比我想象的还省事
 
-> 来源：[https://p03a4vs9s2.feishu.cn/docx/DXybdgEb1oVfdUxnphTc5iPqn0s](https://p03a4vs9s2.feishu.cn/docx/DXybdgEb1oVfdUxnphTc5iPqn0s)
+
 
 给 AI 浏览器一句指令，就能把小红书的账号拆解和爆款挖掘全自动跑完，操作门槛到底有多低？
 

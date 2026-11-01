@@ -1,6 +1,6 @@
 # 用 AI 做 PPT，我把月收入稳定在了 7000+，这套打法直接复刻
 
-> 来源：[https://cxqeimz77vr.feishu.cn/docx/QPhmd9EwzosEnKxCr7lcdocmnn0](https://cxqeimz77vr.feishu.cn/docx/QPhmd9EwzosEnKxCr7lcdocmnn0)
+
 
 大家好，我是饭饭，赚钱的二年级老学员，去年入圈到现在一路收割。
 

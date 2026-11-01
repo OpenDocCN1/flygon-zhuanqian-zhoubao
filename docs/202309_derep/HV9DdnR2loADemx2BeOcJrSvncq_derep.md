@@ -1,6 +1,6 @@
 # 从零开始认识结构化 Prompt：指令工程师的入门指南
 
-> 来源：[https://y71mjizjk5.feishu.cn/docx/HV9DdnR2loADemx2BeOcJrSvncq](https://y71mjizjk5.feishu.cn/docx/HV9DdnR2loADemx2BeOcJrSvncq)
+
 
 大家好，我是陈少安，现在在一家互联网公司做企业培训师，接下来想把培训的专业结合起来，做指令工程方向的培训师。
 

@@ -1,6 +1,6 @@
 # 我的数字人变现实战：从起步反复试错到月入破百万的路径复盘
 
-> 来源：[https://pe3zzbrwvl.feishu.cn/docx/WiiydzuHgoWeCAxRlCucBXyKn6e](https://pe3zzbrwvl.feishu.cn/docx/WiiydzuHgoWeCAxRlCucBXyKn6e)
+
 
 大家好，我是PONY，数字人赛道的一名老玩家。说实话，我到今年2月才真正把数字人当成主业来做。头一个星期全是撞墙期，各种翻车，最后才抓住转机，拿下人生第一笔数字人收入：5万块。想了解我前面踩过的坑，可以去翻我之前在赚钱写的旧文，有详细过程。
 

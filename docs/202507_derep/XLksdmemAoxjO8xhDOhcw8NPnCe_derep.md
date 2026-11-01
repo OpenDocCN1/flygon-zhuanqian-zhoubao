@@ -1,6 +1,6 @@
 # 3个月4个App上架后，我才明白AI编程的真实门槛
 
-> 来源：[https://chaojifeng.feishu.cn/docx/XLksdmemAoxjO8xhDOhcw8NPnCe](https://chaojifeng.feishu.cn/docx/XLksdmemAoxjO8xhDOhcw8NPnCe)
+
 
 我至今都记得那个崩溃的深夜。鸭霸单词里一个看似简单的跳转，从单词书列表点进播放页，特定情况下就会直接闪退。
 

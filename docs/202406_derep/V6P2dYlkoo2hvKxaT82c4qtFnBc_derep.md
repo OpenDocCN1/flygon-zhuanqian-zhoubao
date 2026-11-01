@@ -1,6 +1,6 @@
 # 两年半时间，我从副业小白到年入30万，再到年入百万
 
-> 来源：[https://ogsvnukdtf.feishu.cn/docx/V6P2dYlkoo2hvKxaT82c4qtFnBc](https://ogsvnukdtf.feishu.cn/docx/V6P2dYlkoo2hvKxaT82c4qtFnBc)
+
 
 大家好，我叫江天，这个网名源自毛主席的词句“寥廓江天万里霜”，寄托了我在面对困难时保持豁达的心愿。
 

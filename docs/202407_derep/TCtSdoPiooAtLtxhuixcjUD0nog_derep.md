@@ -1,6 +1,6 @@
 # 花7000块进了一个“生意互助会”，我把它的全套玩法扒了个底朝天
 
-> 文章来源：[https://ooldqbgx5t.feishu.cn/docx/TCtSdoPiooAtLtxhuixcjudOG0nog](https://ooldqbgx5t.feishu.cn/docx/TCtSdoPiooAtLtxhuixcjudOG0nog)
+
 
 先自我介绍一下：我是莎拉，常驻深圳。
 

@@ -1,6 +1,6 @@
 # 病了也能更省钱：医保与就医的实操避坑笔记
 
-> 来源：[https://yapsq9774vc.feishu.cn/docx/SkXedKBzPokQUSxqJ6ncRDhNnJh](https://yapsq9774vc.feishu.cn/docx/SkXedKBzPokQUSxqJ6ncRDhNnJh)
+
 
 大家好，我是佳佳。
 

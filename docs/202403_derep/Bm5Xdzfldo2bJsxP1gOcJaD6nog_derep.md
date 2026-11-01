@@ -1,6 +1,6 @@
 # 截流获客 SOP：一眼就能看懂的实战打法
 
-> 来源：[https://dwxxd0xelf9.feishu.cn/docx/Bm5Xdzfldo2bJsxP1gOcJaD6nog](https://dwxxd0xelf9.feishu.cn/docx/Bm5Xdzfldo2bJsxP1gOcJaD6nog)
+
 
 我自己实操过用截流方式来拿情感粉、创业粉、兼职粉，效果出乎意料的好。门槛低、复制快、投入少。配合兼职团队试跑了两个月，顺利实现了几十万的利润。
 

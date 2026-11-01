@@ -1,6 +1,6 @@
 # 50多场私域群发售操盘实战复盘，累计业绩破400万，整个发售方法论全拆给你
 
-> 来源：[https://pqu5cbjcjoy.feishu.cn/docx/NsmTddUE4oMS0HxApSLcAdpLn4d](https://pqu5cbjcjoy.feishu.cn/docx/NsmTddUE4oMS0HxApSLcAdpLn4d)
+
 
 赚钱的伙伴们好，我是彩卉。非常感谢赚钱这个平台给我分享的机会，也要特别感谢理白老师、靠谱老师在我定位梳理和内容打磨上手把手的托举，感谢芷蓝姐在思路上不断点醒和答疑，感谢小鹿协助润色和传播。
 

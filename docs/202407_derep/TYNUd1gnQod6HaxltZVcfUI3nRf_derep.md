@@ -1,6 +1,6 @@
 # 知网AI智能写作平台上线，AI写作真的要起飞了
 
-> 来源：[https://lxkvj39q93t.feishu.cn/docx/TYNUd1gnQod6HaxltZVcfUI3nRf](https://lxkvj39q93t.feishu.cn/docx/TYNUd1gnQod6HaxltZVcfUI3nRf)
+
 
 # 关于我
 

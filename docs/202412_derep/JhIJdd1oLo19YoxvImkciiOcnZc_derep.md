@@ -1,6 +1,6 @@
 # 认知清楚却执行不了，差的其实是惯性
 
-> 来源：[https://pznme756ly.feishu.cn/docx/JhIJdd1oLo19YoxvImkciiOcnZc](https://pznme756ly.feishu.cn/docx/JhIJdd1oLo19YoxvImkciiOcnZc)
+
 
 赚钱第8期老圈友，在此分享一次反复被验证的体悟：把赚钱的认知真正落到行动上，关键不在于懂得多少，而在于惯性如何牵引你。
 
@@ -359,44 +359,43 @@ B 学到一个东西，贴在眼前高频看高频用。
 我是明白，加入龙哥盟到第 8 期了，圈内编号是 20。程序员出身，现在自己创业，运营一个成长社群，叫《日新月异俱乐部》。下面的文章是过去几年陆续发在龙哥盟的，也算是一条成长轨迹，想看的话点开即可——
 
 > 2024 年
-> 1. [详解：写作和赚钱的 4 个关系！看完你一定会忍不住想开始写！](https://t.zsxq.com/192OLDlds)
-> 2. [7 年赚钱拉新 1100 +，我只做对了一件事](https://t.zsxq.com/19SqL7McC)
-> 3. [赚钱急于求成的心态，该如何破除？](https://t.zsxq.com/wD6k5)
-> 4. [如何借鉴其他行业经验拓展赚钱思路](https://t.zsxq.com/3wd8r)
-> 5. [参加航海实战，如何让自己每天都有正反馈？](https://t.zsxq.com/9e2ns)
-> 6. [当思考成为习惯，赚钱会更容易](https://t.zsxq.com/19vgyk7cp)
+
+
+
+
+
+
 >
 > 2023 年
-> 1. [身体残疾卧床 3 年，我在人生最低谷加入龙哥盟，有哪些成长？](https://t.zsxq.com/19KWDvzz0)
+
 >
 > 2021 年
-> 1. [复盘｜龙哥 3 年前的帖子，帮我每月被动收入 1 万块](https://t.zsxq.com/19jaotwbv)
-> 2. [嘉宾问答｜“想去更好的公司，我该如何利用好时间？”](https://t.zsxq.com/1952Q3a92)
-> 3. [2883 人向朋友介绍龙哥盟时，说得最多的 16 个词](https://t.zsxq.com/19MYWwvCl)
+
+
+
 >
 > 2020 年
-> 1. [产品想要获得更大收益，应该不断向用户的真实需求靠近](https://t.zsxq.com/19kQ7NILy)
-> 2. [我的2019：普通人如何培养自己的用户视角？](https://t.zsxq.com/19fyFdZRL)
-> 3. [如何通过分析成功案例，帮自己建立赚钱清单](https://t.zsxq.com/19FNjtIjB)
-> 4. [思路详解：如何为某个细分领域用户提供产品，并赚钱](https://t.zsxq.com/19qoI1QQB)
-> 5. [学习和赚钱是什么关系？](https://t.zsxq.com/19uQcuMzJ)
-> 6. [5000 字深度拆解｜Manchuan 公众号 2 个月涨粉百万，普通人如何复制？](https://t.zsxq.com/19cD1keUB)
+
+
+
+
+
+
 >
 > 2019 年
-> 1. [在龙哥盟，普通人如何从 0 到 1，培养赚钱思维](https://t.zsxq.com/19rA0kWrD)
-> 2. [龙哥盟第 3 期，我是如何做到邀请 245 个用户的？](https://t.zsxq.com/1968tlTAx)
-> 3. [公众号和抖音之间的赚钱机会](https://t.zsxq.com/19OfzDckK)
-> 4. [可复制，零门槛｜如何借别人的流量，打造一个稳定的被动收入系统](https://t.zsxq.com/19sVRn6Yx)
-> 5. [做自己擅长的事，把技能树打通，然后再去赚钱](https://t.zsxq.com/19evWC1Xl)
-> 6. [信息整合：一个可复用，低门槛的成熟商业模式](https://t.zsxq.com/192zoSooT)
-> 7. [产品名字，只有一个目的：降低用户认知成本](https://t.zsxq.com/19QUBrDOT)
-> 8. [数据是需求的抽象化｜帮你快速找到 100 个赚钱思路](https://t.zsxq.com/19QrIpsuC)
+
+
+
+
+
+
+
+
 >
 > 2018 年
-> 1. [分享一下，抓取其他微信号的方式，而且是精准粉](https://t.zsxq.com/19sKQT9bF)
-> 2. [如何几乎零成本做到 1w 多付费学员？](https://t.zsxq.com/198XWAGhV)
-> 3. [36 个小而美赚钱项目之一：蛋黄酥白皮书](https://t.zsxq.com/19G4PKUXr)
+
+
+
 >
 > 2017 年
-> 1. [一个零成本，为公众号增粉，并高转化率为付费社群，进而再次付费转化加入小密圈的案例](https://t.zsxq.com/19WJ8NILt)
-> 2. [一款软件，webscraper，帮助非技术领域的朋友，做到爬虫可以做的事情](https://t.zsxq.com/19RSl40n5)
+

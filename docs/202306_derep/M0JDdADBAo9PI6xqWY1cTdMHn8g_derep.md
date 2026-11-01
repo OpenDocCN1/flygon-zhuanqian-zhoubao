@@ -1,6 +1,6 @@
 # 全网疯传！我用ChatGPT挖出了999+赞的选题秘密，3招搞定爆款（联网实战版）
 
-> 原文出处：[https://fjt9w880tn.feishu.cn/docx/M0JDdADBAo9PI6xqWY1cTdMHn8g](https://fjt9w880tn.feishu.cn/docx/M0JDdADBAo9PI6xqWY1cTdMHn8g)
+
 
 做小红书也好，玩抖音也罢，最要命的一个问题是什么？
 

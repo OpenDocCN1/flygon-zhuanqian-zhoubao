@@ -1,6 +1,6 @@
 # 低成本低风险搞定项目号卡与备用机，我的实操打法分享
 
-> 来源：[https://awqj4zdv04n.feishu.cn/docx/RkModMO2LoFwafxUGkpcxonlnLh](https://awqj4zdv04n.feishu.cn/docx/RkModMO2LoFwafxUGkpcxonlnLh)
+
 
 最近带小红书虚拟资料相关的人聊下来，发现大家最容易卡在两个点上：注册用的手机号卡怎么选，流量怎么解决，以及用来养号的备用机买哪种不踩坑。说实话，这一块不用过度焦虑，关键就是掌握几个实操的小细节和信息差，点透了就能轻松启动。
 

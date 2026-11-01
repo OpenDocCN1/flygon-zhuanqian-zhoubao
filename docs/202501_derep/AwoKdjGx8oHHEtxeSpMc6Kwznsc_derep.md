@@ -1,6 +1,6 @@
 # 热度持续的私域直播，到底在玩什么 
 
-> 来源：[https://aso41gpxhm.feishu.cn/docx/AwoKdjGx8oHHEtxeSpMc6Kwznsc](https://aso41gpxhm.feishu.cn/docx/AwoKdjGx8oHHEtxeSpMc6Kwznsc)
+
 
 ![](img/9c7f7612a8a7f0a6176da1a34c13ffeb.png)
 

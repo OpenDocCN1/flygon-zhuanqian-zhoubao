@@ -1,6 +1,6 @@
 # 《四个月闲鱼小赛道撬动70万利润，我的复盘笔记》
 
-> 来源：[https://fziji6736b.feishu.cn/docx/Mn3mdhRVToEbIhx4bzkcvBoNnbf](https://fziji6736b.feishu.cn/docx/Mn3mdhRVToEbIhx4bzkcvBoNnbf)
+
 
 # 先说我是谁
 

@@ -1,6 +1,6 @@
 # AI提效｜02 通义听悟，让音视频处理效率直接翻两倍的利器
 
-> 来源：[https://t16jzwqrzjx.feishu.cn/docx/TKW9dmMjSop7MvxPVhVctTChnvh](https://t16jzwqrzjx.feishu.cn/docx/TKW9dmMjSop7MvxPVhVctTChnvh)
+
 
 # 开场
 

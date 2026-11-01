@@ -1,6 +1,6 @@
 # 一年裸辞创业，我把知识管理做到月入5万：一切都归功于朋友圈
 
-> 来源：[https://x6n09emgmm.feishu.cn/docx/MrQHdCS6uoz2R8xy5c3c7kI2nLg](https://x6n09emgmm.feishu.cn/docx/MrQHdCS6uoz2R8xy5c3c7kI2nLg)
+
 
 大家好，我是Andrew，现任知识管理教练，也是“知识管理五维模型”的提出者。
 

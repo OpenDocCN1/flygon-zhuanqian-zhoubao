@@ -1,6 +1,6 @@
 # 用AI写作接单：从零到变现的完整实操攻略
 
-> 来源：[https://fcnzyo4fd2j9.feishu.cn/docx/IkMTdscEHoOVr6xXG0ncbDi8nIe](https://fcnzyo4fd2j9.feishu.cn/docx/IkMTdscEHoOVr6xXG0ncbDi8nIe)
+
 
 哈喽各位朋友，大家好，我是馆主。今天这期内容，我要拆解一个当下很能做的副业赛道：AI写作+接单代写。
 

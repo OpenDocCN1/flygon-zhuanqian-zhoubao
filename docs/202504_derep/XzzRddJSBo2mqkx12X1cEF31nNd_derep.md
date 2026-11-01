@@ -1,6 +1,6 @@
 # 3月AI航海：一个文科老兵的网站上站踩坑实录
 
-> 来源：[https://ekcwwaypjw.feishu.cn/docx/XzzRddJSBo2mqkx12X1cEF31nNd](https://ekcwwaypjw.feishu.cn/docx/XzzRddJSBo2mqkx12X1cEF31nNd)
+
 
 大家好，我是liliya，赚钱老成员第四年，这次参加了AI Web航海。有幸把4个站点都推上去了，3个是游戏站，1个是AI绘画工具导航站。现阶段流量几乎为零，也没有产生收入，但全程的学习和实操收获极大。熟悉了从零到上站的完整链路，对年轻人来说可能轻而易举，对我这个文科出身的年长新手而言，却是一次不小的挑战。
 

@@ -1,6 +1,6 @@
 # 复盘笔记：我们如何用同城流量把一家社区咖啡店做成了10倍增长
 
-> 来源：[https://kv6btk7fh2.feishu.cn/docx/Ls7udq0AXozYz8xMBVQcu6Uqnwe](https://kv6btk7fh2.feishu.cn/docx/Ls7udq0AXozYz8xMBVQcu6Uqnwe)
+
 
 做实体，绕不开一个现实：每一个公域平台从起势到衰竭，节奏都差不多。作为门店经营者，关键就在于读清平台走到哪一步，然后用对方法、踩准时机。红利来时要快，红利退时要收。
 

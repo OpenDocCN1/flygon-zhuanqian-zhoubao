@@ -1,6 +1,6 @@
 # 体制内人如何靠一个公众号副业做到月入过万的真实拆解
 
-> 来源：[https://s943jw76tw.feishu.cn/docx/VYOVdb8dJorrq0xtg3ZcEmx2nec](https://s943jw76tw.feishu.cn/docx/VYOVdb8dJorrq0xtg3ZcEmx2nec)
+
 
 我现在主业是国企金融体系的一名从业者。副业是从2022年开始做的。当时未婚单身，正好撞上被催婚的高峰期，身边结了婚的没结婚的，都爱来找我聊聊情感上的困扰，吐槽的抱怨的都有。
 

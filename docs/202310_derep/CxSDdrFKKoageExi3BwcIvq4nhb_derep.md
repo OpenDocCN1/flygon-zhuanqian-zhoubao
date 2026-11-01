@@ -1,6 +1,6 @@
 # 从一个老乡闲聊开始，我做公务员资料项目两年出十万单的实操复盘
 
-> 来源：[https://gzwzdskj.feishu.cn/docx/CxSDdrFKKoageExi3BwcIvq4nhb](https://gzwzdskj.feishu.cn/docx/CxSDdrFKKoageExi3BwcIvq4nhb)
+
 
 赚钱的伙伴们好，我是郭耀天，外号郭少。入圈五年，这两年重心都在虚拟资源上，在赚钱上分享得很少。
 

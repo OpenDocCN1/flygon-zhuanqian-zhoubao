@@ -1,6 +1,6 @@
 # 【AI创作】我用AI写出一部爽文，挣到了人生第一笔小说稿费，全流程思路拆解
 
-> 来源：[https://lv9qj6hfr4z.feishu.cn/docx/VEZQdB4oRo0xIlxQgxscQibLng9](https://lv9qj6hfr4z.feishu.cn/docx/VEZQdB4oRo0xIlxQgxscQibLng9)
+
 
 各位好，我是写过五年字却始终绕开小说的荷包蛋。年前刚好有个小说单子递到手上，抱着试一把的心态接了，没想到真拿下了这几年头一笔非熟领域的稿费。书在番茄已上架，800元也到账了。借这个机会，把我的操作过程、怎么思考的、踩过哪些坑，全都捋一遍，希望对大家有参考价值。
 

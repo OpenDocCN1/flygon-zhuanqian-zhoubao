@@ -1,6 +1,6 @@
 # 两天线下集训收官，抖音SEO陪跑计划效果炸裂
 
-> 来源：[https://bchje44bsl.feishu.cn/docx/CZPydiVmgo2odMx0nWecf3DTn6e](https://bchje44bsl.feishu.cn/docx/CZPydiVmgo2odMx0nWecf3DTn6e)
+
 
 非常开心首次与「龙哥盟」联手打造的「抖音SEO陪跑计划」线下两天课顺利收官。这次落地反馈极强，甚至当场就有老板验证出结果。
 

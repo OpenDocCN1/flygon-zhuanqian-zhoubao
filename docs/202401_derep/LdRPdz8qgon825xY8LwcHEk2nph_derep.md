@@ -1,6 +1,6 @@
 # 手握一副烂牌，他用6年逆天改命：敢行动的人，永远有第二春
 
-> 来源：[https://jv3ue06ua1.feishu.cn/docx/LdRPdz8qgon825xY8LwcHEk2nph](https://jv3ue06ua1.feishu.cn/docx/LdRPdz8qgon825xY8LwcHEk2nph)
+
 
 ![](img/01f1fe9c6a6f86471731a98f658564a0.png)
 

@@ -1,6 +1,6 @@
 # 30天B站好物实战，我用一单佣金把深海圈门票赚回来，到底哪一步走对了
 
-> 来源：[https://px1hmn4sqj.feishu.cn/docx/CH4xdxHLYolvx3xsXTRcfb1YnFc](https://px1hmn4sqj.feishu.cn/docx/CH4xdxHLYolvx3xsXTRcfb1YnFc)
+
 
 # 一、走过的路
 

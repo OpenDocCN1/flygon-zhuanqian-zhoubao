@@ -1,6 +1,6 @@
 # 从0起步，用一年时间把跨境电商做到千万业绩的实战复盘与全流程拆解
 
-> 来源：[https://qadc4ffica.feishu.cn/docx/XW7ddvBisofp0kx7n8Ocu6Bunme](https://qadc4ffica.feishu.cn/docx/XW7ddvBisofp0kx7n8Ocu6Bunme)
+
 
 各位朋友大家好，我是秋白。去年在义乌跑市场时，我感受到跨境赛道机会很多，于是和我的搭档南星一起深耕这条线。
 

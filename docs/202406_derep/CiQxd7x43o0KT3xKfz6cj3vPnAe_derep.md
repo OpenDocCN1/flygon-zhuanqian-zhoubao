@@ -1,6 +1,6 @@
 # 一文看懂AI与ChatGPT：从入门到落地的深度指南（2024最新修订版）
 
-> 素材来源：[https://atbs4xk1uw.feishu.cn/docx/CiQxd7x43o0KT3xKfz6cj3vPnAe](https://atbs4xk1uw.feishu.cn/docx/CiQxd7x43o0KT3xKfz6cj3vPnAe)
+
 
 版本：v3.01  
 更新日期：2024.07.24  

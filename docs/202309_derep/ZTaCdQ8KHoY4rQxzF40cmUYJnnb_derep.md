@@ -1,6 +1,6 @@
 # 没有海外银行卡也能拿下 ChatGPT Plus 的实操路径
 
-> 来源：[https://h8sakm73dz.feishu.cn/docx/ZTaCdQ8KHoY4rQxzF40cmUYJnnb](https://h8sakm73dz.feishu.cn/docx/ZTaCdQ8KHoY4rQxzF40cmUYJnnb)
+
 
 因为特殊原因，内地用户开通 ChatGPT Plus 常常被卡在支付环节。这份教程会把绕过这道坎的具体做法讲清楚，让你也能加入使用顶配 GPT-4 的人群。
 

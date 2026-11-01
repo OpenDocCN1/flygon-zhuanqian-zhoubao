@@ -1,6 +1,6 @@
 # 从 0 到 1 跑通日投 300 万、7 天 ROI 提升 10%+ 的 App 智能投放闭环
 
-> 来源：[https://wandouyin.feishu.cn/docx/Rc3hdHtBJoz5IGxQcoHcIDxjnzh](https://wandouyin.feishu.cn/docx/Rc3hdHtBJoz5IGxQcoHcIDxjnzh)
+
 
 大家好，我是刘笑长。爱笑，擅长做增长。
 

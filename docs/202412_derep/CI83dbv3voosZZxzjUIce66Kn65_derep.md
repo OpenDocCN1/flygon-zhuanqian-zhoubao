@@ -1,6 +1,6 @@
 # 10分钟带你AI复刻一个小红书10万粉账号！
 
-> 来源：[https://xqya1zd76f2.feishu.cn/docx/CI83dbv3voosZZxzjUIce66Kn65](https://xqya1zd76f2.feishu.cn/docx/CI83dbv3voosZZxzjUIce66Kn65)
+
 
 大家好，我是竹子，赚钱节目策划人，也在带12月YouTube航海营。
 

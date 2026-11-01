@@ -1,6 +1,6 @@
 # 零成本撬动高客单的五种自媒体引流套路：知识付费、药材私域、留学佣金、显化变现、剪辑带货
 
-> 来源：[https://swh7uo861x5.feishu.cn/docx/U67Wd1ImBoLqmZxwoq1ckW7Jnwg](https://swh7uo861x5.feishu.cn/docx/U67Wd1ImBoLqmZxwoq1ckW7Jnwg)
+
 
 # 案例1：用“免费估价药方”做钩子，把看中医的人导到私域卖药材
 

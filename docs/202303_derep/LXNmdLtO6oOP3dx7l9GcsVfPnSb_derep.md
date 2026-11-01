@@ -1,6 +1,6 @@
 # 《视频号带货的实战打法全拆解》@李诚Sonic
 
-> 来源：[https://xunyue66.feishu.cn/docx/LXNmdLtO6oOP3dx7l9GcsVfPnSb](https://xunyue66.feishu.cn/docx/LXNmdLtO6oOP3dx7l9GcsVfPnSb)
+
 
 感谢赚钱，见到不少老面孔，也认识了很多新伙伴，很高兴一起参加这次视频号航海。
 

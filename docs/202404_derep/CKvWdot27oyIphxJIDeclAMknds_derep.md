@@ -1,6 +1,6 @@
 # 程序员首战社群快闪发售，3天破万营收的全景复盘
 
-> 来源：[https://t49loc6gg0.feishu.cn/docx/CKvWdot27oyIphxJIDeclAMknds](https://t49loc6gg0.feishu.cn/docx/CKvWdot27oyIphxJIDeclAMknds)
+
 
 我叫董董，做程序员8年，北漂至今。写代码的思维烙在我骨子里：凡是重复的事，就该让机器干。
 

@@ -1,6 +1,6 @@
 # 从0到月入20万又果断离场，潮玩直播这波风口，我们是这样踩过来又放手的
 
-> 来源：[https://bqpvansxdfo.feishu.cn/docx/UpvS2dO1CoKui4xqrKWchHPNnIT](https://bqpvansxdfo.feishu.cn/docx/UpvS2dO1CoKui4xqrKWchHPNnIT)
+
 
 各位好，我是赚钱圈子第9期的老成员阿莫。2018年入局抖音短视频带货，一条视频最高给我带来过40万的佣金收入；2020年转做女装直播，月销冲到200万。可到了2022年之后，整个人陷入了躺平状态，利润太低看不上眼，利润高的又怕麻烦不想碰。直到去年，我才重新收拾心情，认认真真再出发。
 

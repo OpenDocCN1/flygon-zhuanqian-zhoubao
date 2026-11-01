@@ -1,6 +1,6 @@
 # 公域引流+私域变现，知识付费怎样才能跑出可持续的高利润组合拳？
 
-> 来源：[https://i4avwea6mr.feishu.cn/docx/SwWDdjdcSoDRI0x57cgcR71BnYb](https://i4avwea6mr.feishu.cn/docx/SwWDdjdcSoDRI0x57cgcR71BnYb)
+
 
 大家好，我是小林。五年来一直在教育一线滚打，从K12到启蒙再到成人赛道，做过社群、销售、直播运营。运营这活就是哪里需要往哪里搬。
 

@@ -1,6 +1,6 @@
 # 30天用私域卖课做到60万，到底是什么感觉
 
-> 来源：[https://b16xnqwk20.feishu.cn/docx/XXOodPIP3o2KROxOCtEcKPH9nL2](https://b16xnqwk20.feishu.cn/docx/XXOodPIP3o2KROxOCtEcKPH9nL2)
+
 
 全文5500字
 

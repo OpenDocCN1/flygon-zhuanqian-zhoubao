@@ -1,6 +1,6 @@
 # 新人搞钱认知搭建：把零散的赚钱信息装进你的方法论
 
-> 来源：[https://trvzn3ack7.feishu.cn/docx/EnMvdgCPboEplRxJPdXcMUrznbf](https://trvzn3ack7.feishu.cn/docx/EnMvdgCPboEplRxJPdXcMUrznbf)
+
 
 # 开场白
 

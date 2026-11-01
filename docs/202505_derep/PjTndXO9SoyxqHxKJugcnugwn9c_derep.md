@@ -1,6 +1,6 @@
 # 数字人口播流水线搭建指南：扣子、飞书多维表与蝉镜协同实操
 
-> 参考资料：[https://w63nbfedzw.feishu.cn/docx/PjTndXO9SoyxqHxKJugcnugwn9c](https://w63nbfedzw.feishu.cn/docx/PjTndXO9SoyxqHxKJugcnugwn9c)
+
 
 ## 开篇：把口播制作交给流程
 

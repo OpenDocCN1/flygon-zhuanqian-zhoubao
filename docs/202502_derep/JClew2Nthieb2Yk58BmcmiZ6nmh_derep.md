@@ -1,6 +1,6 @@
 # 两个月深耕东北线，20多单到手，转化逻辑全拆给你看
 
-> 来源：[https://f1prgchx24s.feishu.cn/docx/RZfIdA6SooQHyux24lPcQK20nLd](https://f1prgchx24s.feishu.cn/docx/RZfIdA6SooQHyux24lPcQK20nLd)
+
 
 # 一、自我介绍
 

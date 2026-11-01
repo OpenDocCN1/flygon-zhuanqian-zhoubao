@@ -1,6 +1,6 @@
 # 复盘：小红书引流卖资料 26 天，纯变现 6907.76 元
 
-> 来源：[https://avt9va2pkj4.feishu.cn/docx/Rf35dYa1WoakDwxzqP8cIKTvnvg](https://avt9va2pkj4.feishu.cn/docx/Rf35dYa1WoakDwxzqP8cIKTvnvg)
+
 
 大家好，我是稳稳。7 月 5 号加入赚钱，来自湖北宜昌。这次 9 月航海，是我第二次上船，也顺利把小红书引流项目从 0 跑通到 1。
 

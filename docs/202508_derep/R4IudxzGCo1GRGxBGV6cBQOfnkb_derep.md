@@ -1,6 +1,6 @@
 # 圈内专属福利 | 一键跨平台统一收藏完整方案
 
-> 来源：[https://lv13e2iljbk.feishu.cn/docx/R4IudxzGCo1GRGxBGV6cBQOfnkb](https://lv13e2iljbk.feishu.cn/docx/R4IudxzGCo1GRGxBGV6cBQOfnkb)
+
 
 与「coze+多维表格」相关的系列内容合集：
 

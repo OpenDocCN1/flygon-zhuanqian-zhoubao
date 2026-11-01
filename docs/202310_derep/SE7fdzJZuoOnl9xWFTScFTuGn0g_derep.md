@@ -1,6 +1,6 @@
 # 靠一份公文资料库，我把副业做到月入过万
 
-> 来源：[https://cgcrkx5tvc.feishu.cn/docx/SE7fdzJZuoOnl9xWFTScFTuGn0g](https://cgcrkx5tvc.feishu.cn/docx/SE7fdzJZuoOnl9xWFTScFTuGn0g)
+
 
 大家好，我是长庆。这两年我一直深耕公文写作副业。说实话，这个赛道对体制内在职的公务员、事业编、国企员工特别友好，兼职宝妈、在校大学生和想找额外收入的上班族也能上手。
 

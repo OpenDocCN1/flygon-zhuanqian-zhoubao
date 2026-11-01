@@ -1,6 +1,6 @@
 # 校园小红书无人直播，10天GMV破30万实操拆解
 
-> 来源：[https://b0mbxbbhstw.feishu.cn/docx/ZaqudvFmSopCfkxFX6ycKcp6nAf](https://b0mbxbbhstw.feishu.cn/docx/ZaqudvFmSopCfkxFX6ycKcp6nAf)
+
 
 # 一、自我介绍
 

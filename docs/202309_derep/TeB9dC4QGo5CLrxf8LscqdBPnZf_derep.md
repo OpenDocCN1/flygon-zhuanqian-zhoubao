@@ -1,6 +1,6 @@
 # 用 AI 数字人做短视频变现，这条赛道现在正红
 
-> 来源：[https://ixy2s5ruvqf.feishu.cn/docx/TeB9dC4QGo5CLrxf8LscqdBPnZf](https://ixy2s5ruvqf.feishu.cn/docx/TeB9dC4QGo5CLrxf8LscqdBPnZf)
+
 
 # 开场说在前头
 

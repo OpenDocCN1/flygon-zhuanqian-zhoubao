@@ -1,6 +1,6 @@
 # 8个月赚到40万：流水线工人转战短视频的真实复盘
 
-> 出处：[https://y2mt3o47i3.feishu.cn/docx/Ixx1dnbCVo4ZA8xrMcqcUYsGn8d](https://y2mt3o47i3.feishu.cn/docx/Ixx1dnbCVo4ZA8xrMcqcUYsGn8d)
+
 
 我原先在昆山一家电子厂的生产线上干活，和老婆长期两地分居，去年3月实在扛不住这种日子，索性辞了工作，回老家全力研究短视频。
 

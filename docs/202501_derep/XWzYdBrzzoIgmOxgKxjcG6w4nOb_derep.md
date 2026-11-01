@@ -1,6 +1,6 @@
 # YouTube Shorts 赚钱12月航海：从0到跑通 YPP 的实战复盘
 
-> 来源：[https://n1ajno67u7.feishu.cn/docx/XWzYdBrzzoIgmOxgKxjcG6w4nOb](https://n1ajno67u7.feishu.cn/docx/XWzYdBrzzoIgmOxgKxjcG6w4nOb)
+
 
 ## 收获概览
 先放一张现阶段的战绩截图

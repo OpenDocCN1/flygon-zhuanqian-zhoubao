@@ -1,6 +1,6 @@
 # 圈友反馈【少儿科学探索实验室】诈骗事件完整梳理
 
-> 来源：[https://rpwuka3jlf.feishu.cn/docx/O6SgdboPtotv6axFJc3cNMgFnog](https://rpwuka3jlf.feishu.cn/docx/O6SgdboPtotv6axFJc3cNMgFnog)
+
 
 # 核心结论：
 

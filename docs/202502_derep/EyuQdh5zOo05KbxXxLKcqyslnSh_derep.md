@@ -1,6 +1,6 @@
 # 非程序员靠 cursor + windsurf，3 天搞定一个多语言站
 
-> 来源：[https://u0yrmcie7v.feishu.cn/docx/EyuQdh5zOo05KbxXxLKcqyslnSh](https://u0yrmcie7v.feishu.cn/docx/EyuQdh5zOo05KbxXxLKcqyslnSh)
+
 
 上周飞哥群里抛出了一个赛道词 fiech codes，让大家去抢做站点。结果关键词一放出来，10 分钟不到能用的域名基本就被秒没了。
 

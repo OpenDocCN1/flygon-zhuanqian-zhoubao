@@ -1,6 +1,6 @@
 # 用绿幕手播打爆抖音单品，小白也能上手的全套打法
 
-> 来源：[https://v1e5tzw5w2.feishu.cn/docx/DDfydGAL7oJppXxDx0BcMGnaneg](https://v1e5tzw5w2.feishu.cn/docx/DDfydGAL7oJppXxDx0BcMGnaneg)
+
 
 ## 一、关于我先交个底
 

@@ -1,6 +1,6 @@
 # 48小时实战复盘：10个Prompt，10个产品，有的落地，有的被我放弃
 
-> 来源：[https://shengcaiyoushu01.feishu.cn/docx/DxphdHaAno3X6cxiwlLcIASNnue](https://shengcaiyoushu01.feishu.cn/docx/DxphdHaAno3X6cxiwlLcIASNnue)
+
 
 # 零、前言
 

@@ -1,6 +1,6 @@
 # 公众号流量主别再死磕长文了，豆包+剪映就能把AI漫画跑通，日入四位数真不是梦
 
-> 来源：[https://p2tkpuv6qm.feishu.cn/docx/R4rodS884oPwuhxFbFQcfb93nCe](https://p2tkpuv6qm.feishu.cn/docx/R4rodS884oPwuhxFbFQcfb93nCe)
+
 
 嗨，各位同行大家好，我是格子，自媒体这条路走了三年，公众号流量主变现一直是我的主战场。
 

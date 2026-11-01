@@ -1,6 +1,6 @@
 # 借AI写微信群发文案，再也不怕被拉黑，回复率蹭蹭往上涨
 
-> 来源：[https://balfcirt91j.feishu.cn/docx/W60ZdU1YwoiJyzx2C3ycQriSnke](https://balfcirt91j.feishu.cn/docx/W60ZdU1YwoiJyzx2C3ycQriSnke)
+
 
 做私域运营的都明白这种尴尬：新品上架，赶紧把卖点和价格拼成一段话群发出去，结果无人问津。隔天再发就提示“消息被拒收”，人已经被移出通讯录了。
 

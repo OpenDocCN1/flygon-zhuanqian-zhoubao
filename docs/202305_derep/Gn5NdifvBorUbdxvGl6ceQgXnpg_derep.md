@@ -1,6 +1,6 @@
 # 新手小白如何借助赚钱小航海把月收入做到2万：我的真实复盘与项目筛选模型拆解
 
-> 来源：[https://wchekk4hs9.feishu.cn/docx/Gn5NdifvBorUbdxvGl6ceQgXnpg](https://wchekk4hs9.feishu.cn/docx/Gn5NdifvBorUbdxvGl6ceQgXnpg)
+
 
 各位朋友好，我是来自郑州的毛韩。2020年进入赚钱，2021年9月才真正动手，到现在已经把一个项目跑通，月净赚稳定在2万元左右，并且保持着每月近20%的增幅。
 

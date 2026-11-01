@@ -1,6 +1,6 @@
 # 《婚礼三周前，我用一场发售把婚庆成本赚回来，还多攒了嫁妆》
 
-> 来源：[https://b0attp331p.feishu.cn/docx/FUYqdHQDkoq9PCxm736c23HWnVf](https://b0attp331p.feishu.cn/docx/FUYqdHQDkoq9PCxm736c23HWnVf)
+
 
 各位朋友，字字都是实话，我是张可粒，做自媒体IP孵化与个体创业内容，专注帮人把影响力变成现金流，全网粉丝20万，连续年入百万。
 

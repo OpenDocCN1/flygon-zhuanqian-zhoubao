@@ -1,6 +1,6 @@
 # 我的AI编程半年实战复盘：从Cursor小白到Windsurf上手
 
-> 来源：[https://e13olyk8kby.feishu.cn/docx/Zd0yd7N4LosvQ8x4XwecDt51nuf](https://e13olyk8k8X4XwecDt51nuf)
+
 
 ## 起点
 

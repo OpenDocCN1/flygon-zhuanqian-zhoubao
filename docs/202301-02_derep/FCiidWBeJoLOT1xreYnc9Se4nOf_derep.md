@@ -1,6 +1,6 @@
 # TikTok 娱乐睡播项目复盘：单间日流水800美金，时均100美金的可复制玩法
 
-> 来源：[https://sbu67xqbm4.feishu.cn/docx/FCiidWBeJoLOT1xreYnc9Se4nOf](https://sbu67xqbm4.feishu.cn/docx/FCiidWBeJoLOT1xreYnc9Se4nOf)
+
 
 这波分享建议给以下人群参考：
 

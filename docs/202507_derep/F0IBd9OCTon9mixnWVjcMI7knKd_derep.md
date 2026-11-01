@@ -1,6 +1,6 @@
 # 做新媒体账号，记住这三个字就够了，亲测能用
 
-> 来源：[https://hq5823whbx.feishu.cn/docx/F0IBd9OCTon9mixnWVjcMI7knKd](https://hq5823whbx.feishu.cn/docx/F0IBd9OCTon9mixnWVjcMI7knKd)
+
 
 ### 做新媒体账号，记住这三个字就够了，亲测能用，
 

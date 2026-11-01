@@ -1,6 +1,6 @@
 # 小报童首发 9 天破 1500 订阅：一个中小 IP 的实操复盘
 
-> 来源：[https://viy7tklh1i.feishu.cn/docx/IfyQdYk46ofRbnxEnM3c9IOunad](https://viy7tklh1i.feishu.cn/docx/IfyQdYk46ofRbnxEnM3c9IOunad)
+
 
 大家好，我是小六六，赚钱 2 期学员，白天在上海做程序媛，晚上做自媒体已经两年半了。
 

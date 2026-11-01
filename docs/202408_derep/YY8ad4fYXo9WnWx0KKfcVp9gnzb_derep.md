@@ -1,6 +1,6 @@
 # 从留学赛道杀出来，我们用2个月在新蓝海赚到一个小目标
 
-> 来源：[https://ht16ej1tui.feishu.cn/docx/YY8ad4fYXo9WnWx0KKfcVp9gnzb](https://ht16ej1tui.feishu.cn/docx/YY8ad4fYXo9WnWx0KKfcVp9gnzb)
+
 
 2024年，这批行业和岗位的业绩已经在掉头，或者正在掉头的路上。
 

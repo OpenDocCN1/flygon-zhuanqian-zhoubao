@@ -1,6 +1,6 @@
 # 靠AI流水线写短篇小说，我上个月签约100篇，月入破四位数
 
-> 来源：[https://szxb4qbve7.feishu.cn/docx/ArZHdgfKdozG8ExxHeOconZLnQb](https://szxb4qbve7.feishu.cn/docx/ArZHdgfKdozG8ExxHeOconZLnQb)
+
 
 兄弟们，我回来了。上个月我发过一篇关于用短篇小说慢慢做副业的实操帖，当时很多朋友私信我问百家号付费订阅怎么玩，我都有回复。
 

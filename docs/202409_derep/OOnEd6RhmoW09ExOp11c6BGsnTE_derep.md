@@ -1,6 +1,6 @@
 # 从0到20万：我在小红书卖虚拟资料的完整复盘
 
-> 来源：[https://a033a8trbo.feishu.cn/docx/OOnEd6RhmoW09ExOp11c6BGsnTE](https://a033a8trbo.feishu.cn/docx/OOnEd6RhmoW09ExOp11c6BGsnTE)
+
 
 全文约9300字，下面组件点击可以直接跳转：
 

@@ -1,6 +1,6 @@
 # 从小白到日单破百：我用两个月把小红书电商从零跑通，选品-测品-AI提效全记录
 
-> 来源：[https://sahxia8w0z4.feishu.cn/docx/D5LmdYXy9owAd4x3avwc53rLnAd](https://sahxia8w0z4.feishu.cn/docx/D5LmdYXy9owAd4x3avwc53rLnAd)
+
 
 大家好，我是仙。加入赚钱一年，参加过不少场航海，直到今年才在小红书电商上真正打出成绩。3月报了小红书航海，5月正式all in，6月开始零星出单，7-8月两个月GMV冲到45万，利润率超50%，类目直接做到行业前列。
 

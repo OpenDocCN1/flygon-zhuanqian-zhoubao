@@ -1,6 +1,6 @@
 # 「新手视角」第一次当航海志愿者，我到底学到了什么？
 
-> 来源：[https://wiz662adgxu.feishu.cn/docx/VP7QdhrmPoFAmkx6l3RceuhNnMg](https://wiz662adgxu.feishu.cn/docx/VP7QdhrmPoFAmkx6l3RceuhNnMg)
+
 
 # 一、开场自述
 

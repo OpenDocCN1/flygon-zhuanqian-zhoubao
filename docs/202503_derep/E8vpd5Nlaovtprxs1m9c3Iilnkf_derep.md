@@ -1,6 +1,6 @@
 # 2万元出发，4个月走过3国：一份适合年轻人的极限省钱旅行攻略
 
-> 来源：[https://rjs9i4i6z4.feishu.cn/docx/E8vpd5Nlaovtprxs1m9c3Iilnkf](https://rjs9i4i6z4.feishu.cn/docx/E8vpd5Nlaovtprxs1m9c3Iilnkf)
+
 
 去年6月底裸辞，9月临时起意，带着约2万元踏上旅程。没想到这一走就是4个月，国内一路经过重庆、成都、甘肃、新疆、西藏，随后前往尼泊尔和韩国，最后回到深圳。
 

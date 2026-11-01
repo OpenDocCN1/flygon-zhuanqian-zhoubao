@@ -1,6 +1,6 @@
 # 从零搭建小红书商单号，4个月实操总结如何做到月入6-8k
 
-> 来源：[https://zdmlu8bof3.feishu.cn/docx/TPaddcr5JoF2WRxse7scO1wInne](https://zdmlu8bof3.feishu.cn/docx/TPaddcr5JoF2WRxse7scO1wInne)
+
 
 大家好，我是棠溪。做小红书接商单大概4个多月，目前累计变现7k+。成绩不算顶尖，但踩过的坑不少，今天就把成套的做法整理出来，供刚入局的朋友参考。
 

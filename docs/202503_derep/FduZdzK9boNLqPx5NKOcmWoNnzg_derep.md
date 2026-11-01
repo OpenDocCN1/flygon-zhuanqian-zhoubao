@@ -1,6 +1,6 @@
 # 用 RooCode + Copilot + MCP 给自己搭一个 Manus 替代体
 
-> 来源：[https://b121w2zgwyx.feishu.cn/docx/FduZdzK9boNLqPx5NKOcmWoNnzg](https://b121w2zgwyx.feishu.cn/docx/FduZdzK9boNLqPx5NKOcmWoNnzg)
+
 
 整套实操我花了两天时间从零跑通，想一次成型的话最好空出一段完整的专注时段来弄。
 

@@ -1,6 +1,6 @@
 # 小白也能快速上手的 小红书暗引流打法
 
-> 来源：[https://nivut760ftk.feishu.cn/docx/IIHKdKoEnoQmETx3bp4cv8byn9g](https://nivut760ftk.feishu.cn/docx/IIHKdKoEnoQmETx3bp4cv8byn9g)
+
 
 上周跟大家聊过“投票引流”的思路后，反响不错。
 

@@ -1,6 +1,6 @@
 # MAC也能上RPA？用云电脑搞定，不用换机也不用折腾双系统
 
-> 来源：[https://ih195hg9y3.feishu.cn/docx/XC0Rd0Vt2oU3Pqx3HJuc98BYn3d](https://ih195hg9y3.feishu.cn/docx/XC0Rd0Vt2oU3Pqx3HJuc98BYn3d)
+
 
 不少把Mac当主力机的伙伴，一头扎进RPA学习就先遇到了坎。UiBot压根没有Mac版本，影刀虽然出了Mac版，可功能完整度和稳定性跟Windows版比起来明显打折。
 

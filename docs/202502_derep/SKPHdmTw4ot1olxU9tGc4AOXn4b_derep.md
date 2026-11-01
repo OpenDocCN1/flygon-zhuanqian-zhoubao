@@ -1,6 +1,6 @@
 # 【航海好事】Shein 新店实操：两个月做到日均百单的航海笔记
 
-> 来源：[https://p1wans6rb9.feishu.cn/docx/SKPHdmTw4ot1olxU9tGc4AOXn4b](https://p1wans6rb9.feishu.cn/docx/SKPHdmTw4ot1olxU9tGc4AOXn4b)
+
 
 ## 先自我介绍一下
 

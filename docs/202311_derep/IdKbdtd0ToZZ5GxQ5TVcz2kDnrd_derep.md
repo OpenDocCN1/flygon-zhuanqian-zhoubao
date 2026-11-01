@@ -1,6 +1,6 @@
 # 双十一7天卖出58个名额：我的得物终身陪伴群发售全记录
 
-> 来源：[https://jvx6nnxr4va.feishu.cn/docx/IdKbdtd0ToZZ5GxQ5TVcz2kDnrd](https://jvx6nnxr4va.feishu.cn/docx/IdKbdtd0ToZZ5GxQ5TVcz2kDnrd)
+
 
 大家好，我是“左手带娃、右手做自媒体”的全职宝妈小又。
 

@@ -1,6 +1,6 @@
 # 拆解妙鸭相机：从 FaceChain 技术到爆款 AI 产品的运营逻辑
 
-> 来源：[https://krn426yw69.feishu.cn/docx/GN7QdxsPzo9UBuxQ2k1cPYUHnoh](https://krn426yw69.feishu.cn/docx/GN7QdxsPzo9UBuxQ2k1cPYUHnoh)
+
 
 大家好，我是墨文，灵创 AI 的创始人。过去一年我一直深耕图像 AI 赛道，灵创 AI 在 2023 年 9 月 3 日突破百万用户，社群规模超过 3 万。我们算是第一批吃到 AIGC 红利的团队。
 

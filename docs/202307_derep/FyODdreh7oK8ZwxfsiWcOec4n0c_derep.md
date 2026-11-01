@@ -1,6 +1,6 @@
 # 一个信息差，让三人小队在淘宝上拿到30万+的回报
 
-> 来源：[https://u0yrmcie7v.feishu.cn/docx/FyODdreh7oK8ZwxfsiWcOec4n0c](https://u0yrmcie7v.feishu.cn/docx/FyODdreh7oK8ZwxfsiWcOec4n0c)
+
 
 大家好，我是西昂。现在主要在做数字产品类的变现。
 

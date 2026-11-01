@@ -1,6 +1,6 @@
 # 用 ChatGPT 快速产出产品类博客：从选题到落地的实操路径
 
-> 来源：[https://viuejh8h99y.feishu.cn/docx/GpUodUFZHoULIGxKxtYckwI9ncg](https://viuejh8h99y.feishu.cn/docx/GpUodUFZHoULIGxKxtYckwI9ncg)
+
 
 ChatGPT 火了之后，很多人被它的生成能力震惊，也有一批人开始研究怎么把它变成生产力。作为做海外广告优化的从业者，学会用它来高效写博客，已经是基本功了。
 

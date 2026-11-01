@@ -1,6 +1,6 @@
 # 大多数人都踩过的坑：MCP 根本不能在 Claude Code 里面装
 
-> 来源：[https://o90p05z3t4.feishu.cn/docx/IbqKdR5Dwoc8TFxgJNHcnIVdnKl](https://o90p05z3t4.feishu.cn/docx/IbqKdR5Dwoc8TFxgJNHcnIVdnKl)
+
 
 上周五晚上十一点，我还在屏幕前干瞪眼。
 

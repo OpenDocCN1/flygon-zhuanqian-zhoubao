@@ -1,6 +1,6 @@
 # 热点二剪+AI漫画化撬动视频号分成收益实操拆解
 
-> 来源：[https://fiazd3hbob.feishu.cn/docx/M8J1dvi9aoB8wvx9xHqcED1Dnhi](https://fiazd3hbob.feishu.cn/docx/M8J1dvi9aoB8wvx9xHqcED1Dnhi)
+
 
 前两天看到龙哥大佬在风向标里放出的这个方向 https://scys.com/articleDetail/xq_topic/8858115581141512 ，我立马拿来验证，到现在已经能看见钱进账了。群里聊完怕细节散掉，这里把我跑通的完整路径整理清楚，给还在找门路的朋友一个可复制的参考。
 

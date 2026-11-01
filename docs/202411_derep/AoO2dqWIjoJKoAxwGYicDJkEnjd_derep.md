@@ -1,6 +1,6 @@
 # 新号冷启动：闲鱼虚拟资源从0到放量，选品与自动化操作拆解
 
-> 来源：[https://el8yuvd870.feishu.cn/docx/AoO2dqWIjoJKoAxwGYicDJkEnjd](https://el8yuvd870.feishu.cn/docx/AoO2dqWIjoJKoAxwGYicDJkEnjd)
+
 
 我是在闲鱼深耕八年多的实操者，曾担任赚钱首期航海项目的主讲，也参与过多个航海训练营课程与实战手册的编写。今天把虚拟资料类目新店铺从起步到规模化跑量的完整做法整理出来。
 

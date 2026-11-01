@@ -1,6 +1,6 @@
 # 不懂代码也能做网站：从创建项目到上线，手把手带你走一遍
 
-> 教程来源：[https://b121w2zgwyx.feishu.cn/docx/Kr7UdQgAgoV8Wrx8uHQcvo4Cn0g](https://b121w2zgwyx.feishu.cn/docx/Kr7UdQgAgoV8Wrx8uHQcvo4Cn0g)
+
 
 DeepSeek R1 在推理和代码生成方面表现出色，许多人已经用它写程序、做小工具。不过，写出代码只是起点。要让网站真正运行起来，还要处理部署环境、服务器和域名等问题，对没有技术背景的人来说并不轻松。
 

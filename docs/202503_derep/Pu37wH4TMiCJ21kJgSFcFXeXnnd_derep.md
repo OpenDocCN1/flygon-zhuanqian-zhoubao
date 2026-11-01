@@ -1,6 +1,6 @@
 # 让AI成为你的内容放大器：从灵感到收入的完整方法
 
-> 参考资料：[原文链接](https://rcn71rsvb3w5.feishu.cn/docx/WWgldHymDoB5UuxnSMuc5nbbnMh)
+
 
 大家好，我是盟主君，一名90后创业者，也是在内容项目中借助智能工具实现累计收入20万+的人。
 

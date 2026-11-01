@@ -1,6 +1,6 @@
 # 从商业咨询到疗愈赛道：我在小红书5个月图文变现20万+的实操复盘
 
-> 来源：[https://n28vbku1px.feishu.cn/docx/DdTfd4RpEotMHGxO49OcF6Q7n5T](https://n28vbku1px.feishu.cn/docx/DdTfd4RpEotMHGxO49OcF6Q7n5T)
+
 
 大家好，我是西瓜姐，高海霞，树叶有光的创始人。连续创业者，全网首创六有人生创富系统，专注金钱关系疗愈与疗愈师培养，陪跑过无数CEO。
 

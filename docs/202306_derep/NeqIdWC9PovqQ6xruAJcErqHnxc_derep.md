@@ -1,6 +1,6 @@
 # 《ControlNet 完全掌握手册》
 
-> 来源：[https://ry5hwpuf7b.feishu.cn/docx/NeqIdWC9PovqQ6xruAJcErqHnxc](https://ry5hwpuf7b.feishu.cn/docx/NeqIdWC9PovqQ6xruAJcErqHnxc)
+
 
 《一周啃下15个ControlNet模型，我的实战笔记》
 

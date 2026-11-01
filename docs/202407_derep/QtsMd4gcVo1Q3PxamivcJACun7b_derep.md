@@ -1,6 +1,6 @@
 # 老板避雷指南④：卖合伙人产品，我用2个半月卖出122万后的血泪复盘
 
-> 来源：[https://ht16ej1tui.feishu.cn/docx/QtsMd4gcVo1Q3PxamivcJACun7b](https://ht16ej1tui.feishu.cn/docx/QtsMd4gcVo1Q3PxamivcJACun7b)
+
 
 大家好，我是珍妮。22-23年我和赚钱的老朋友陈铭Ivy在教育赛道做到了2700万营收，我负责幕后操盘。
 

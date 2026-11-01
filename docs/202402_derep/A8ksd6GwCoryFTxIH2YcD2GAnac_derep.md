@@ -1,6 +1,6 @@
 # 爆款标题采集工具源码放送，自己动手造轮子
 
-> 来源：[https://ex5bha8e8ip.feishu.cn/docx/A8ksd6GwCoryFTxIH2YcD2GAnac](https://ex5bha8e8ip.feishu.cn/docx/A8ksd6GwCoryFTxIH2YcD2GAnac)
+
 
 # 前言
 

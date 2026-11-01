@@ -1,6 +1,6 @@
 # 没学过设计的工科生，如何用生成式图像接单赚到第一笔副业收入
 
-> 来源：[https://jcn1z4p9gwo4.feishu.cn/docx/CtWvdCcAQoTYHmxRIhBc0p5Gn9c](https://jcn1z4p9gwo4.feishu.cn/docx/CtWvdCcAQoTYHmxRIhBc0p5Gn9c)
+
 
 ## 一、我为什么会进入这个领域
 

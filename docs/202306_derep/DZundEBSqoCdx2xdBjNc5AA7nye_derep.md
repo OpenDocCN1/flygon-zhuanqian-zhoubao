@@ -1,6 +1,6 @@
 # 普通人也能复制的 ChatGPT 行业变现打法，月入5W+的方法论拆解
 
-> 来源：[https://nvsbvagfu2y.feishu.cn/docx/DZundEBSqoCdx2xdBjNc5AA7nye](https://nvsbvagfu2y.feishu.cn/docx/DZundEBSqoCdx2xdBjNc5AA7nye)
+
 
 我就是那个从互联网零基础的婚礼从业者，到三个月内靠两个项目起势，月营收破5W的品牌操盘手。
 

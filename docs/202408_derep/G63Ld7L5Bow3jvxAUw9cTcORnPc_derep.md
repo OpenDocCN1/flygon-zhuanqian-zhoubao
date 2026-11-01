@@ -1,6 +1,6 @@
 # 从00后大二女生到日更10万+：一年时间，她如何把公众号做成稳定现金流？
 
-> 来源：[https://die28mmde0k.feishu.cn/docx/G63Ld7L5Bow3jvxAUw9cTcORnPc](https://die28mmde0k.feishu.cn/docx/G63Ld7L5Bow3jvxAUw9cTcORnPc)
+
 
 嗨，伙伴们好，我是安七，应届毕业生，一年实现双百万营收。
 

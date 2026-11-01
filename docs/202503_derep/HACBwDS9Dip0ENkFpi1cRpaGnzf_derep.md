@@ -1,6 +1,6 @@
 # 告别“金鱼记忆”：让你的 AI 编程助手真正记住你的项目
 
-> 来源：[https://hqhhkfm2ink.feishu.cn/docx/UHEdd1ROeof5JBxFJvJcBOwQn4b](https://hqhhkfm2ink.feishu.cn/docx/UHEdd1ROeof5JBxFJvJcBOwQn4b)
+
 
 大家好，我是阿杰。用过 Cursor 这类 AI 编程工具的朋友应该都懂这种无力感：上一轮对话刚纠正了 bug，下一轮换个窗口或重启一次，它就跟没事人一样又问了一遍。这几个月我沉迷于赚钱的 Cursor 航海营后，用 Cursor 写代码的频率暴涨，这份“失忆焦虑”也跟着放大。
 

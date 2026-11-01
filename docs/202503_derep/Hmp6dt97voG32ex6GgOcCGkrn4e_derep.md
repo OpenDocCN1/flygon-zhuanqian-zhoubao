@@ -1,6 +1,6 @@
 # 从1000到2万+，我靠这套私域发售流程，变现几十万
 
-> 来源：[https://ie5wfc519n.feishu.cn/docx/Hmp6dt97voG32ex6GgOcCGkrn4e](https://ie5wfc519n.feishu.cn/docx/Hmp6dt97voG32ex6GgOcCGkrn4e)
+
 
 做自媒体这行，不会玩私域裂变就等于赤手空拳上战场。过去这一年，我亲自操盘了十几场发售，好友从当初的1000人涨到了现在的2万多，累计变现大几十万。说实话，私域发售就是IP撬动高收益的核心杠杆。
 

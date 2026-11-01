@@ -1,6 +1,6 @@
 # 418 公域拉新实战复盘：我用咸鱼把陌生流量直接成交
 
-> 来源：[https://f8nnmv2amz.feishu.cn/docx/E0aFdosjUobxU7xEQeCc7y8snyb](https://f8nnmv2amz.feishu.cn/docx/E0aFdosjUobxU7xEQeCc7y8snyb)
+
 
 大家都在 418 用朋友圈、公众号、社群做私域拉新，我选择了一条冷门路，在咸鱼上接公域陌生流量做转化，效果出乎意料。
 

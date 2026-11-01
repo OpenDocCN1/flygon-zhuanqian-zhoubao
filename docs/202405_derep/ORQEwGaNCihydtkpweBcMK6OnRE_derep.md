@@ -1,6 +1,6 @@
 # 把提示词变成你的AI员工，从零到变现的实战笔记
 
-> 来源：[https://j1ohuigiiff.feishu.cn/docx/IIecdUwpcoNDxJxUcq7c23UBn0f](https://j1ohuigiiff.feishu.cn/docx/IIecdUwpcoNDxJxUcq7c23UBn0f)
+
 
 # 亲手操练才明白，空想总会跑偏
 

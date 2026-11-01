@@ -1,6 +1,6 @@
 # 搜索套利从零起步的实操速成手册
 
-> 来源：[https://kw06hox1wb0.feishu.cn/docx/ZZm8dOQNuoWsB0xiLN9c44uTnYe](https://kw06hox1wb0.feishu.cn/docx/ZZm8dOQNuoWsB0xiLN9c44uTnYe)
+
 
 最近社群里谈流量套利的声音越来越多，这个玩法在各大论坛和谷歌上都能搜到海量资料，基本都是服务商、广告主代理、追踪工具、自动化工具等在输出内容。
 

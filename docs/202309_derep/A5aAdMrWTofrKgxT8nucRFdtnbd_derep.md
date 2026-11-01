@@ -1,6 +1,6 @@
 # 一个不起眼的习惯，让我的可支配资产多了三百万
 
-> 来源：[https://wiizueiq5ks.feishu.cn/docx/A5aAdMrWTofrKgxT8nucRFdtnbd](https://wiizueiq5ks.feishu.cn/docx/A5aAdMrWTofrKgxT8nucRFdtnbd)
+
 
 * 各位，我是吴哥。金融和互联网两个行业都待过，原来在一家股份行网点负责管理，主要接触零售业务。2017年起开始做副业，第一份尝试是股票经纪，到现在还在坚持。明明是圈内人，收入也就比普通职场人高一点点。成家后置业、购车、结婚、生子、装修，现金流一直很紧。银行的业绩压力也很大。至于如今的状态，就不多赘述了。
 

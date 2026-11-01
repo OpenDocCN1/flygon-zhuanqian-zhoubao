@@ -1,6 +1,6 @@
 # 风向标拆解第 3期--小红书爆款，售卖件数50W+的店铺到底是怎么赚钱的--闵一
 
-> 来源：[https://uwc2n3yxpc.feishu.cn/docx/MvkkdMrgjoj4hkxGu8ncw4CpnTg](https://uwc2n3yxpc.feishu.cn/docx/MvkkdMrgjoj4hkxGu8ncw4CpnTg)
+
 
 小红书上经常刷到鲨鱼裤80万+、打底衫50万+的成交数据，一家店只死磕一个爆品就能赚得盆满钵满。也有“春节一次性20件套”这类百货话题，靠小玩意儿卖出10万+。到底这种高销量店铺是怎么跑起来的？是靠矩阵铺货、请达人带货，还是图文+无人直播？
 

@@ -1,6 +1,6 @@
 # 赚钱第一单：用AI+数据分析知识付费，两个月到5万
 
-> 来源：[https://kwi1nir3wz0.feishu.cn/docx/KRjYdyQOgoq2otxGAQ1cxCRNnhd](https://kwi1nir3wz0.feishu.cn/docx/KRjYdyQOgoq2otxGAQ1cxCRNnhd)
+
 
 各位好，我是来交作业的。入局赚钱后做的第一笔正经生意，算是成功收官了。金额不算大，在场的大佬们可能看不上，但对我而言意义完全不一样，这是我第一次真正面向市场做一件事，从无到有跑通了整个商业闭环。
 

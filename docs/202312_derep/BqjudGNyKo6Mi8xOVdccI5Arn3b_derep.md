@@ -1,6 +1,6 @@
 # 0基础上手AI数字人，视频号8天发9条，单条阅读破23万是怎么打磨出来的？
 
-> 来源：[https://pzt1wh07h5.feishu.cn/docx/BqjudGNyKo6Mi8xOVdccI5Arn3b](https://pzt1wh07h5.feishu.cn/docx/BqjudGNyKo6Mi8xOVdccI5Arn3b)
+
 
 大家好，我是🍑，网名云桃桃。结合社群里关于数字人的精华干货，加上自己摸索一点点方法，完全没基础的我从11月26日开始在视频号试水，8天共发了9条作品，就有了单篇23w+阅读量，一周涨粉超1500+的结果。
 

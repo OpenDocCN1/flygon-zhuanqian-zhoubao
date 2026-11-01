@@ -1,6 +1,6 @@
 # 小红书资料号变现复盘：7天圈粉6000+、到手3w+，新手也能落地的完整打法
 
-> 来源：[https://giwb0zv0cv.feishu.cn/docx/IpCcdJ9NAoAt4pxKKV5c5sfenZc](https://giwb0zv0cv.feishu.cn/docx/IpCcdJ9NAoAt4pxKKV5c5sfenZc)
+
 
 这篇内容的目标很纯粹：给同样刚起步的小白讲透小红书运营的基本逻辑，以及资料号的完整操作方法。
 

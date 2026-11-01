@@ -1,6 +1,6 @@
 # YouTube Shorts实战拆解：我的自动养号打法与一路踩坑记录
 
-> 来源：[https://ocn3v0tggugm.feishu.cn/docx/MuHFd18GroC5vox8Cp8cGOtDnNg](https://ocn3v0tggugm.feishu.cn/docx/MuHFd18GroC5vox8Cp8cGOtDnNg)
+
 
 ## 写在前面
 

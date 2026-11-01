@@ -1,6 +1,6 @@
 # 从信息差套利到体系化操盘：我的赚钱路径复盘
 
-> 来源：[https://shengcaiyoushu01.feishu.cn/docx/W39cdbBzzohvcoxJ2GLcMr9Kn5d](https://shengcaiyoushu01.feishu.cn/docx/W39cdbBzzohvcoxJ2GLcMr9Kn5d)
+
 
 @润宇
 

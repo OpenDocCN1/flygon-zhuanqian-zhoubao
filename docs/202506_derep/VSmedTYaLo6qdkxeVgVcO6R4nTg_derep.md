@@ -1,6 +1,6 @@
 # 🧠👐 给文科生也看得懂的 RPA+AI 实战：小红书热榜自动搬家到飞书
 
-> 来源：[https://r0rel9lqdms.feishu.cn/docx/VSmedTYaLo6qdkxeVgVcO6R4nTg](https://r0rel9lqdms.feishu.cn/docx/VSmedTYaLo6qdkxeVgVcO6R4nTg)
+
 
 最近被一个点点通透了：
 

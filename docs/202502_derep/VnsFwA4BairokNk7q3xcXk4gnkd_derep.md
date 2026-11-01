@@ -1,6 +1,6 @@
 # 5分钟带你搞定满血 DeepSeek R1 个人知识库，本地也能跑
 
-> 来源：[https://zzi7a49xoa.feishu.cn/docx/DZ0ydDEkgohZqXx5GgocReSLnLf](https://zzi7a49xoa.feishu.cn/docx/DZ0ydDEkgohZqXx5GgocReSLnLf)
+
 
 近期私信里反复被问到同一个问题：DeepSeek 怎么本地搭一个属于自己的知识库。
 

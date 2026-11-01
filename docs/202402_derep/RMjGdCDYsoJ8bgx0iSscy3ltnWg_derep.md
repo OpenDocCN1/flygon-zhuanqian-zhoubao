@@ -1,6 +1,6 @@
 # 关于远程办公的高效团队管理，你想知道的都在这里
 
-> 来源：[https://q4u7b61cya.feishu.cn/docx/RMjGdCDYsoJ8bgx0iSscy3ltnWg](https://q4u7b61cya.feishu.cn/docx/RMjGdCDYsoJ8bgx0iSscy3ltnWg)
+
 
 开篇：
 

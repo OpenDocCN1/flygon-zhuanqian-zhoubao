@@ -1,6 +1,6 @@
 # 我把 ChatGPT-4 的视觉能力扒了个底朝天
 
-> 来源：[https://k0z8o16zas8.feishu.cn/docx/GgNGd7ZepotzU5xoQu6cGp8cnJg](https://k0z8o16zas8.feishu.cn/docx/GgNGd7ZepotzU5xoQu6cGp8cnJg)
+
 
 ![](img/32dae72b8a1ea833473c1b5ce84b48b0.png)
 

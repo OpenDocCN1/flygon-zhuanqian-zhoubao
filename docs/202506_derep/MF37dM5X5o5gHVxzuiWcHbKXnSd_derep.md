@@ -1,6 +1,6 @@
 # 在小红书做虚拟资料，选品才是起跑线
 
-> 来源：[https://zcnzawlx2ndr.feishu.cn/docx/MF37dM5X5o5gHVxzuiWcHbKXnSd](https://zcnzawlx2ndr.feishu.cn/docx/MF37dM5X5o5gHVxzuiWcHbKXnSd)
+
 
 选品最怕卡在原地反复纠结。记住两件事：多看，多动手。
 

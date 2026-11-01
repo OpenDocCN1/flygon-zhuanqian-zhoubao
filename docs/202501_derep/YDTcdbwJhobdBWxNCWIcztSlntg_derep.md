@@ -1,6 +1,6 @@
 # 被播放量逼到动手写代码，零基础做 YouTube Shorts，我搞了 4 个脚本翻身
 
-> 来源：[https://e0kfxhrvey2.feishu.cn/docx/YDTcdbwJhobdBWxNCWIcztSlntg](https://e0kfxhrvey2.feishu.cn/docx/YDTcdbwJhobdBWxNCWIcztSlntg)
+
 
 来聊一聊最近折腾 Shorts 的真实状态。不敢说有什么经验，毕竟我离 YPP 的门槛还隔着十万八千里。
 

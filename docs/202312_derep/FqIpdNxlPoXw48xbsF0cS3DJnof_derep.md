@@ -1,6 +1,6 @@
 # 8000字拆解｜零成本一年吸粉10万+，从0到1打造可盈利的短视频图文IP
 
-> 来源：[https://oq30tjbwlph.feishu.cn/docx/FqIpdNxlPoXw48xbsF0cS3DJnof](https://oq30tjbwlph.feishu.cn/docx/FqIpdNxlPoXw48xbsF0cS3DJnof)
+
 
 大家好，我是丁小翼。今年刚加入赚钱社群的新面孔，三十岁后从七月份起把副业当主业在做，目标是四十岁前实现财务自由提前退休。
 

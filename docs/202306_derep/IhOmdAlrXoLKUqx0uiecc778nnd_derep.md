@@ -1,6 +1,6 @@
 # 50岁起步小红书零基础实操丨我妈从不会用软件到月入5位数全记录
 
-> 来源：[https://bmy4tfqyf1.feishu.cn/docx/IhOmdAlrXoLKUqx0uiecc778nnd](https://bmy4tfqyf1.feishu.cn/docx/IhOmdAlrXoLKUqx0uiecc778nnd)
+
 
 ![](img/d94fc7dd2067219a3bb06afbe736796b.png)
 

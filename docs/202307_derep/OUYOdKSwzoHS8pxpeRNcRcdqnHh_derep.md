@@ -1,6 +1,6 @@
 # 【技术向】一文讲透如何用SD制作出来高质量艺术二维码
 
-> 来源：[https://hdjmn9shgs.feishu.cn/docx/OUYOdKSwzoHS8pxpeRNcRcdqnHh](https://hdjmn9shgs.feishu.cn/docx/OUYOdKSwzoHS8pxpeRNcRcdqnHh)
+
 
 大家好，我是明月。
 

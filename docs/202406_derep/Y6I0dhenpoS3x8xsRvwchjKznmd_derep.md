@@ -1,6 +1,6 @@
 # 从职场宝妈到月入五位数：我在赚钱一年多的真实突围笔记
 
-> 来源：[https://vnng84yf44.feishu.cn/docx/Y6I0dhenpoS3x8xsRvwchjKznznmd](https://vnng84yf44.feishu.cn/docx/Y6I0dhenpoS3x8xsRvwchjKznmd)
+
 
 赚钱的伙伴们好，我是小伞。
 

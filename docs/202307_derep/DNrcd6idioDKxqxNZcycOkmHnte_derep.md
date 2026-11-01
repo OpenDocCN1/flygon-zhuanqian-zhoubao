@@ -1,6 +1,6 @@
 # 那一年，我十分钟就到手了100万，12万美元 连载 第三章
 
-> 来源：[https://tj51bxige8.feishu.cn/docx/DNrcd6idioDKxqxNZcycOkmHnte](https://tj51bxige8.feishu.cn/docx/DNrcd6idioDKxqxNZcycOkmHnte)
+
 
 各位好，我是静水流深，目前在做英文工具站的教练。
 

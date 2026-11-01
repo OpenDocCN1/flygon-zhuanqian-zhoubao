@@ -1,6 +1,6 @@
 # 小红书做塔罗，佛系测试也能月入过万
 
-> 来源：[https://wn6w5rrjx5.feishu.cn/docx/IGVTdJtkIo4Oyhx80EAcrT6pnJc](https://wn6w5rrjx5.feishu.cn/docx/IGVTdJtkIo4Oyhx80EAcrT6pnJc)
+
 
 前阵子偶然刷到一个塔罗变现的玩法，抱着试试看的心态去复刻。结果操作不到一个月，半小时私占单价99元就成交了12单。小红书的群里已经积累了三四百人，从群到微信的转化大概是5个人里能出来1到2个付费。更夸张的是，全部素材我只花了三个小时就把一周的量做完了。
 

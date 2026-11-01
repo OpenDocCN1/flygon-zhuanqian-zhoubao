@@ -1,6 +1,6 @@
 # 【AI写提示词教程】会玩AI的人，才在时间上赢了@米斗设计
 
-> 来源：[https://s296cam1nz.feishu.cn/docx/L3E6dfIQ4oRUQox5Ya5cSGfWnFe](https://s296cam1nz.feishu.cn/docx/L3E6dfIQ4oRUQox5Ya5cSGfWnFe)
+
 
 嗨，我是米斗，AI商业提效实战教练。我的打法是把AI、设计和内容结合起来，专门帮中小创作者和品牌方把个人IP做起来，把产品卖出去。
 

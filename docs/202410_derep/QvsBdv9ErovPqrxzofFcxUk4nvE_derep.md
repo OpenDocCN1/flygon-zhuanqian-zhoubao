@@ -1,6 +1,6 @@
 # 别再拼爆款了！小红书卖虚拟资料，关键词布局才是核心密码
 
-> 来源：[https://qxgrvnd4nbk.feishu.cn/docx/QvsBdv9ErovPqrxzofFcxUk4nvE](https://qxgrvnd4nbk.feishu.cn/docx/QvsBdv9ErovPqrxzofFcxUk4nvE)
+
 
 各位朋友好，我是更绪，四川南充人，现在在福建武夷山做茶叶生意。之前我写过一篇复盘，梳理了从今年4月开始在小红书卖虚拟资料的全过程，里面也聊了不少实操方法。奈何文字表达的局限性，加上很多人脑子里还装着抖音的推荐逻辑，对我想说的重点总是不太能get到。
 

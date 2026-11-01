@@ -1,6 +1,6 @@
 # 实体店做同城短视频的实操方法论
 
-> 来源：[https://xsej9se9cv.feishu.cn/docx/Dq1gdPXKUo3uBAx00rNc6LdWnLb](https://xsej9se9cv.feishu.cn/docx/Dq1gdPXKUo3uBAx00rNc6LdWnLb)
+
 
 几乎所有还在线下忙活的实体老板，大半辈子都陷在自己的专业里，装修、餐饮、美业、工厂……对线上获客基本一窍不通。恰恰是这个空窗期，让你只要比隔壁店稍微懂一点点，就能吃下方圆6公里甚至整个城市的线上流量。
 

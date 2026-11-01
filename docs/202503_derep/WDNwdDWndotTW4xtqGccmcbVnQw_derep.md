@@ -1,6 +1,6 @@
 # 不会代码也能行！我用影刀 RPA 和 Kimi 拿下了飞书多维表格批量操作
 
-> 来源：[https://ktuszl372b.feishu.cn/docx/WDNwdDWndotTW4xtqGccmcbVnQw](https://ktuszl372b.feishu.cn/docx/WDNwdDWndotTW4xtqGccmcbVnQw)
+
 
 各位朋友好，我是 Leeka，平时靠影刀 RPA 接点副业活儿，也教别人怎么用。
 

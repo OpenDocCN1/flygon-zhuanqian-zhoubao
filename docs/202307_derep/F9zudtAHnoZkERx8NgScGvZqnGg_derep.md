@@ -1,6 +1,6 @@
 # 新手也能上手：用影刀RPA一天搞定孔夫子500本二手书ISBN抓取
 
-> 来源：[https://ngppuxr565.feishu.cn/docx/F9zudtAHnoZkERx8NgScGvZqnGg](https://ngppuxr565.feishu.cn/docx/F9zudtAHnoZkERx8NgScGvZqnGg)
+
 
 ### 开场白
 

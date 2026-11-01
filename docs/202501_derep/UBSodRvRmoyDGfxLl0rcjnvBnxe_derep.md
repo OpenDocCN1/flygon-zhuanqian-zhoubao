@@ -1,6 +1,6 @@
 # 微信电商又松口了，私域的路子被重新打开了！
 
-> 来源：[https://i6mtbju8w7.feishu.cn/docx/UBSodRvRmoyDGfxLl0rcjnvBnxe](https://i6mtbju8w7.feishu.cn/docx/UBSodRvRmoyDGfxLl0rcjnvBnxe)
+
 
 ## 微信电商体系完成了一次系统性打通，小店、小程序、公众号、视频号开始协同运转
 

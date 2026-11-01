@@ -1,6 +1,6 @@
 # 亲子研学赛道，跑通百万级模型的复盘
 
-> 来源：[https://pghe992qie.feishu.cn/docx/Mzm0dyT91oTeFkxVNl2cjpsQnwe](https://pghe992qie.feishu.cn/docx/Mzm0dyT91oTeFkxVNl2cjpsQnwe)
+
 
 大家好，我是星城。曾三次参加过赚钱小红书航海，也在龙珠俱乐部和现在的航海家群体里。最近把精力都放在项目执行上，很少露面。赚钱一直是我做事的底气，遇到卡点时常会去搜关键词、找人取经。
 

@@ -1,6 +1,6 @@
 # 《AI变现异常值案例库》第2期
 
-> 来源：[https://ry5hwpuf7b.feishu.cn/docx/ORM5dBBY0o2C7kxT8A3cy7Rsnsd](https://ry5hwpuf7b.feishu.cn/docx/ORM5dBBY0o2C7kxT8A3cy7Rsnsd)
+
 
 《AI异常值案例库第2期：5个可复制的灵感、一种新获客打法和产品形态》
 

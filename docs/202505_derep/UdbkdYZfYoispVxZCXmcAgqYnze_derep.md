@@ -1,6 +1,6 @@
 # AIDSO 爱搜：新媒体搜索增长实战指南
 
-> 资料来源：[https://s12is4u3s19.feishu.cn/docx/UdbkdYZfYoispVxZCXmcAgqYnze](https://s12is4u3s19.feishu.cn/docx/UdbkdYZfYoispVxZCXmcAgqYnze)
+
 
 出品：爱搜团队（抖查查原班团队），运营基地位于北京、杭州。
 

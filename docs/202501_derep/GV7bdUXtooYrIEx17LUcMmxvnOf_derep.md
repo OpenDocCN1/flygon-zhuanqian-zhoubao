@@ -1,6 +1,6 @@
 # 零代码也能玩转AI编程！我用Cursor从小白到做出抖音24小时自动回复插件
 
-> 来源：[https://evun4wpmxl9.feishu.cn/docx/GV7bdUXtooYrIEx17LUcMmxvnOf](https://evun4wpmxl9.feishu.cn/docx/GV7bdUXtooYrIEx17LUcMmxvnOf)
+
 
 说实话，我之前连一行代码都写不出来。
 
