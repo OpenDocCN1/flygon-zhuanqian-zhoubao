@@ -93,7 +93,7 @@ https://www.yeyucloud.com/215 （无小火箭）
 - 在软件里选择“代理”模式。
 - 测试IP归属地，可以用whatismyipaddress.com、scamalytics.com、uutool.cn、ipjiance.com、ping0.cc，手机端用whoer.net、ipip.net。
 - 免费节点别用，容易被TK标记。建议用独享IP，月费大约60-200元。
-- 魔法上网要自行解决，可以咨询电信移动营业厅，有跨境出海业务。
+- 🪜要自行解决，可以咨询电信移动营业厅，有跨境出海业务。
 
 注册TikTok账号：
 - 推荐用邮箱注册，Gmail或Outlook，年龄设18岁以上。

@@ -223,7 +223,7 @@ AI 编程真正的坑，从来不是代码写不出来，而是写出来就失�
 
 三件套怎么配合，我用 pngtrid.com 的真实流水线给你拆开看。
 
-第一步，用 gstack 把方向想明白。进 Claude Code 打 /office-hours，跟它聊你的想法。比如我想做一个面向国内的 AI 生图站，价格要合理，不用翻墙。gstack 不会拍胸脯说开干，它会一连串追问把你逼清醒：目标用户到底是设计师还是电商卖家？用 Stable Diffusion 还是 Midjourney API？定价是免费加付费还是纯付费？获客靠 SEO 还是社群？把模糊的冲动变成可执行的方案。
+第一步，用 gstack 把方向想明白。进 Claude Code 打 /office-hours，跟它聊你的想法。比如我想做一个面向国内的 AI 生图站，价格要合理，不用🪜。gstack 不会拍胸脯说开干，它会一连串追问把你逼清醒：目标用户到底是设计师还是电商卖家？用 Stable Diffusion 还是 Midjourney API？定价是免费加付费还是纯付费？获客靠 SEO 还是社群？把模糊的冲动变成可执行的方案。
 
 第二步，用 GSD 把项目切碎。想清楚后输 /gsd-new-project，把产品方案喂进去，AI 会自动生成项目骨架并切成若干 Phase。接着用 /gsd-plan-phase 做细化。它会给出类似这样的拆分：Phase 0 基础搭建一天，Next.js+Tailwind+数据库+登录+基础布局；Phase 1 核心功能三天，生图集成+生成队列+展示下载；Phase 2 付费系统两天，微信/ Stripe 接入+会员额度+回调；Phase 3 上线准备一天，SEO+性能+部署 Vercel。每個 Phase 都带验收标准，比如 Phase1 的标准就是能输入提示词、点生成、看到图、能下载。
 

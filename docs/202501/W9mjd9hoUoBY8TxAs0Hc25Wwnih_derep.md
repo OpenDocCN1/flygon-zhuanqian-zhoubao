@@ -187,7 +187,7 @@ Llama 3.2：顶级开源之一，自行部署可关注
 ## 中国
 
 深度求索
-Deepseek V3：2024-12-26发布，目前最强开源模型，超越4o、Claude 3.5 Sonet、Gemini 2.0 Flash。缺点是不支持多模态。免费免翻墙：https://chat.deepseek.com/
+Deepseek V3：2024-12-26发布，目前最强开源模型，超越4o、Claude 3.5 Sonet、Gemini 2.0 Flash。缺点是不支持多模态。免费免🪜：https://chat.deepseek.com/
 
 月之暗面
 Kimi：国内最受欢迎之一，免费，搜索能力突出，图片识别比Deepseek好。https://kimi.moonshot.cn/
@@ -203,8 +203,8 @@ Kimi：国内最受欢迎之一，免费，搜索能力突出，图片识别比D
 
 ## 法国
 
-Mistral：非美中之外最强，免费有网页搜索，不用翻墙，适合查国外论文。https://chat.mistral.ai/
+Mistral：非美中之外最强，免费有网页搜索，不用🪜，适合查国外论文。https://chat.mistral.ai/
 
 # 怎么选
 
-我个人主力是Claude 3.5 Sonet。Deepseek V3刚出，能力很猛，免费且免翻墙，值得试用。
+我个人主力是Claude 3.5 Sonet。Deepseek V3刚出，能力很猛，免费且免🪜，值得试用。

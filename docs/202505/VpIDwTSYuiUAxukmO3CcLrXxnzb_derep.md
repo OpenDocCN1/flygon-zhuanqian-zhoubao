@@ -83,7 +83,7 @@
 
 1\. 打开 https://gemini.google.com/
 
-2\. 备好科学上网环境和 Google 账号
+2\. 备好🪜环境和 Google 账号
 
 3\. 把提示词加上你的长文内容一起贴进去
 

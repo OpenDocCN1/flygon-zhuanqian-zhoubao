@@ -255,7 +255,7 @@
 +   [文旅餐饮矩阵运营复盘](Ai44wXLnRiGaYKkxhtzc4a27nMf_derep.md)
 +   [热度持续的私域直播，到底在玩什么](AwoKdjGx8oHHEtxeSpMc6Kwznsc_derep.md)
 +   [两年50多场聚会，我从萌新变成了“连接器”](B8g4dAbAuo1kLcxXdKkcCj36nnf_derep.md)
-+   [没梯子也能玩 AI 编程？国企程序员的低配 Cursor 替代方案](BDETdxolno9COyxL8Kec1dyQnZf_derep.md)
++   [没🪜也能玩 AI 编程？国企程序员的低配 Cursor 替代方案](BDETdxolno9COyxL8Kec1dyQnZf_derep.md)
 +   [用 AI 做健身系美女视觉账号的起号思路](BW8xduJEwoLyMfxyWe5cEYTbnWb_derep.md)
 +   [没写过一行代码：我用 AI 做了一款 Obsidian 插件](BWS9dg507o7WJrxvLyKckj7Onlf_derep.md)
 +   [新人破0-1实录：我用小红书虚拟资料在半个月里拿到第一笔收入](BYBod3P2lo9njbxWULvchTbOnjd_derep.md)

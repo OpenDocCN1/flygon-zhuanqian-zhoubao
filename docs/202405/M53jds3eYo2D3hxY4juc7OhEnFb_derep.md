@@ -75,7 +75,7 @@
 ### 2）更换商品标题
 
 标题可以用ChatGPT来生成差异化版本。我常用的第三方插件在这里：
-POE-AI 语言模型集合（无限制使用chatgpt3.0需要科学上网）：https://poe.com/chatgpt
+POE-AI 语言模型集合（无限制使用chatgpt3.0需要🪜）：https://poe.com/chatgpt
 
 ![](img/53efc72a633b9c82ad0dc03b1736901f.png)
 

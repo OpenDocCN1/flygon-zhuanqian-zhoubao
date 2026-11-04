@@ -31,7 +31,7 @@ https://wx.zsxq.com/tags/%E7%9C%9F%E9%9C%80%E6%B1%82/88844514141542
 ### 💻 AI工具使用基础
 
 **Cursor入门要点**
-续杯机制已调整，现在需要付费续费。银联卡可直接充值，不必非走WildCard。上手前一定要先建一个项目，页面才会和教程对应。非Mac设备也能装，和VSCode共存不冲突。界面全黑反光难受就去设置改主题，快捷键Ctrl+Shift+P调主题色。旧版教程里的Composer和Long Context Chat已合并，新版用Agent即可。Composer功能已并入Chat，设置里找不到属正常。Cursor本身不用科学上网。模型偶尔会自动跳回，如3.7用量高时常见。加载转圈慢就检查网络重试。代码一直Generating半小时不动，直接停止重跑。Accept a Tab功能点一下Accept或底部Accept File即可。邮箱登录建议用Google邮箱，163/QQ偶尔登录不了。Codebase Indexing慢是正常情况，索引完成就快了。现在的Ask Agent就对应以前的Chat+Composer。
+续杯机制已调整，现在需要付费续费。银联卡可直接充值，不必非走WildCard。上手前一定要先建一个项目，页面才会和教程对应。非Mac设备也能装，和VSCode共存不冲突。界面全黑反光难受就去设置改主题，快捷键Ctrl+Shift+P调主题色。旧版教程里的Composer和Long Context Chat已合并，新版用Agent即可。Composer功能已并入Chat，设置里找不到属正常。Cursor本身不用🪜。模型偶尔会自动跳回，如3.7用量高时常见。加载转圈慢就检查网络重试。代码一直Generating半小时不动，直接停止重跑。Accept a Tab功能点一下Accept或底部Accept File即可。邮箱登录建议用Google邮箱，163/QQ偶尔登录不了。Codebase Indexing慢是正常情况，索引完成就快了。现在的Ask Agent就对应以前的Chat+Composer。
 
 **Claude、Bolt等工具怎么选**
 Cursor已内置Claude，单纯写代码不建议再单独买Claude账号。Claude是聊天大模型，Cursor是编程 IDE。真正要不要额外买Claude，看个人工作量，小排访谈里有详细对比。做简单单文件项目如导航手册的游戏站，Claude就够用。Poe里的Claude 3.7只是聊天，写复杂多文件还是得靠Cursor。Trae虽然能免费用Claude 3.7，但新手更建议先从Claude或Cursor入手，教程匹配度更高。Trae改长代码容易失控，效果不佳还是建议买Cursor Pro。模型聚合站可参考 monica.im，但模型只能在站内用，无法导入Cursor。最新版Claude已支持联网。Bolt预览失败多半是加载问题，刷新或点站内刷新按钮即可。换浏览器看不到关联项目是因为Cookie没带过去，建议下载到本地查看。官网Claude相对稳定，Monica里偶尔网络错误断联，复杂项目宁可选Cursor自带环境。

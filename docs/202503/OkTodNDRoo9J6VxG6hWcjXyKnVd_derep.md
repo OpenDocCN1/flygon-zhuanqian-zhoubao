@@ -20,7 +20,7 @@
 
 二、要用到的工具
 
-1、https://viggle.ai/login 这个是AI换脸生成视频的网站，需要翻墙，每天送5次免费额度
+1、https://viggle.ai/login 这个是AI换脸生成视频的网站，需要🪜，每天送5次免费额度
 
 ![](img/08a2cf2f09be06fffcacbd4b842bee5b.png)
 

@@ -44,10 +44,10 @@
 
 ### 第二步：非自己账号，用工具爬取
 
-如果不是自己的账号，可以用付费工具；不想花钱的话，我试过免费插件 **thunderbit**，但需要科学上网。操作流程：
+如果不是自己的账号，可以用付费工具；不想花钱的话，我试过免费插件 **thunderbit**，但需要🪜。操作流程：
 
 1. 下载Chrome浏览器：https://www.google.com/intl/zh-CN/chrome/
-2. 挂梯子/开魔法
+2. 挂🪜/开魔法
 3. 在地址栏输入：https://chromewebstore.google.com/search/thunderbit?hl=zh-CN&utm_source=ext_sidebar ，点击安装
 4. 在Chrome里打开你的对标账号主页，比如赚钱的抖音：https://www.douyin.com/user/MS4wLjABAAAAtW6-fPBMOJM5J18bMOscVHeBRMu8bUARLjlGOcOEt5o?from_tab_name=main
 5. 如果对方作品超过100条（比如3000条），需要在当前页面不停往下拉，直到全部作品加载完

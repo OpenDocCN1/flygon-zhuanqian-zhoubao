@@ -137,7 +137,7 @@
 
 AISTudio：https://aistudio.google.com/
 
-【以上入口均需要科学上网，自行解决】
+【以上入口均需要🪜，自行解决】
 
 豆包：https://www.doubao.com/chat/
 

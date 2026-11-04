@@ -77,7 +77,7 @@ Token 究竟是什么？简单说它可以是词、标点、汉字，模型处�
 
 ## 四、Lambda.chat
 
-有科学上网条件的用户想求聊天极速，直上 Lambda.chat。
+有🪜条件的用户想求聊天极速，直上 Lambda.chat。
 
 无需看参数面板，也不用写代码，点开即用。
 
@@ -132,7 +132,7 @@ NVIDIA 用 HGX H200 部署满血 R1，推理速度拉到 3,872 Token/s！🚀
 
 ## 八、阿里云百炼平台
 
-需梯子的备用池，有少量免费额度。
+需🪜的备用池，有少量免费额度。
 
 地址：https://api.together.ai/playground/chat/deepseek-ai/DeepSeek-R1
 

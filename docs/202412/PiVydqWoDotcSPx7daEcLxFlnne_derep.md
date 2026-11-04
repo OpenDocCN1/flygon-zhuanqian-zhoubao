@@ -265,7 +265,7 @@ c、参考哪类内容？
 
 ### 1、准备工具
 
-国内有kimi、豆包，国外有ChatGPT、Claude，四选一即可。不能科学上网就用kimi或豆包，视频演示也以这两个为例。
+国内有kimi、豆包，国外有ChatGPT、Claude，四选一即可。不能🪜就用kimi或豆包，视频演示也以这两个为例。
 
 kimi
 网页版：https://kimi.moonshot.cn/

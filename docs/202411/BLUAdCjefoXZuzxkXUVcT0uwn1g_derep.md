@@ -46,7 +46,7 @@
 
 ![](img/6a6adf377c832f54337dda43689ea37b.png)
 
-付款后记得**关掉梯子**，否则控制台页面打不开：https://klingai.kuaishou.com/console
+付款后记得**关掉🪜**，否则控制台页面打不开：https://klingai.kuaishou.com/console
 
 官网没给现成的lib，我手写了一个，改成自己的key和secret直接就能用。
 

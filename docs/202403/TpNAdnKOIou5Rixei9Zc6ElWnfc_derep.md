@@ -223,7 +223,7 @@ https://www.bilibili.com/video/BV1DS421N7Ph/?spm_id_from=333.337.search-card.all
 录制一段视频，动作幅度别太大。需要声音克隆时环境要安静，背景避免动态物体，防止穿帮
 
 ### 克隆外国人
-需科学上网，去YouTube找粉丝量小的创作者，根据内容找匹配的IP。下载可用 https://y2meta.app/
+需🪜，去YouTube找粉丝量小的创作者，根据内容找匹配的IP。下载可用 https://y2meta.app/
 
 https://www.youtube.com/
 

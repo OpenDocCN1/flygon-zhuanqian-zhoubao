@@ -39,7 +39,7 @@
 工具旁的标记（该工作仍在推进中）：
 
 👍 → 个人推荐
-🕸 → 需科学上网
+🕸 → 需🪜
 💰 → 付费
 🔤 → 纯英文站
 
@@ -57,7 +57,7 @@
 
 **Zlibrary** 👍🕸
 
-免费线上图书馆，目前藏书 1200 万册以上、文章 8400 万篇以上，学科覆盖文学、历史、科学等；支持约 28 种语言，包括中文。绝大多数资源免注册即可直接下载，也支持按标题、作者、ISBN 等条件筛选，体验相当流畅。缺点是访问需要科学上网。
+免费线上图书馆，目前藏书 1200 万册以上、文章 8400 万篇以上，学科覆盖文学、历史、科学等；支持约 28 种语言，包括中文。绝大多数资源免注册即可直接下载，也支持按标题、作者、ISBN 等条件筛选，体验相当流畅。缺点是访问需要🪜。
 
 入口：
 
@@ -70,7 +70,7 @@ https://1lib.sk/
 
 **安娜的档案** 👍🕸
 
-非营利、开源的综合检索工具，把 Z-Library、Library Genesis、Sci-Hub 等知名库整合到一起，可在同一入口查找书籍、论文、漫画、杂志。收录电子书总量超过 40 万册；中英文内容均支持免登录下载，不限制数量。访问同样需要科学上网。
+非营利、开源的综合检索工具，把 Z-Library、Library Genesis、Sci-Hub 等知名库整合到一起，可在同一入口查找书籍、论文、漫画、杂志。收录电子书总量超过 40 万册；中英文内容均支持免登录下载，不限制数量。访问同样需要🪜。
 
 入口：
 
@@ -198,7 +198,7 @@ https://zh.annas-archive.org/
 
 - **UDACITY** 🔤：英文课程库，从入门到进阶都覆盖，打开速度略慢，可配翻译插件使用。
   https://www.udacity.com/school/artificial-intelligence
-- **Google AI** 🕸：Google 官方 AI 学习平台，英文，需科学上网。
+- **Google AI** 🕸：Google 官方 AI 学习平台，英文，需🪜。
   https://ai.google/
 - **Coursera**：大型开放课程平台，人工智能力量雄厚，机器学习的课非常多。
   https://www.coursera.org/courses?query=artificial%20intelligence
@@ -250,7 +250,7 @@ https://zh.annas-archive.org/
 
 ##### 资讯层（看动态、追热点）
 
-- **TechURLs**：科技新闻“全集站”，把 Hacker News、Reddit/tech 等海外信息源全部聚合在一起，还支持用“AI”“大模型”这类关键词筛选。想蹲第一手海外 AI 资讯又不想科学上网，来这就对了。
+- **TechURLs**：科技新闻“全集站”，把 Hacker News、Reddit/tech 等海外信息源全部聚合在一起，还支持用“AI”“大模型”这类关键词筛选。想蹲第一手海外 AI 资讯又不想🪜，来这就对了。
   https://techurls.com/
 - **机器之心**：中文 AI 圈的资深媒体，既翻译海外优质内容，也输出原创深度分析，技术解读与行业报告都很扎实。
   https://www.jiqizhixin.com/
@@ -1122,7 +1122,7 @@ https://xmt.a5.cn/diy/zengfenfuwu.html
 
 ( 2) fiverr
 
-可委托海外模特拍摄产品图/视频，增强国际背书，约100元/分钟，需翻墙。
+可委托海外模特拍摄产品图/视频，增强国际背书，约100元/分钟，需🪜。
 
 网址：https://www.fiverr.com/
 
@@ -1259,7 +1259,7 @@ https://xmt.a5.cn/diy/zengfenfuwu.html
 
 1. Google AutoDraw
 链接：https://www.autodraw.com/
-说明：随手涂鸦也能变成像样插画，简单易用，但需要科学上网。
+说明：随手涂鸦也能变成像样插画，简单易用，但需要🪜。
 
 2. 淘宝服务市场·字体
 链接：https://fuwu.taobao.com/ser/list.htm?searchType=service&firstCategory=57030001&secondCategory=205779207&sort=default_sort&sortDesc=true&pageSize=30&currentPage=1&tracelog=category
