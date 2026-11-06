@@ -11,7 +11,7 @@
 +   [221129 龙哥赚钱周报](20230207_09.md)
 +   [221122 龙哥赚钱周报](20230207_10.md)
 +   [221115 龙哥赚钱周报](20230207_11.md)
-+   [公众号追热点复盘：通过行程码一天涨粉4万+，直接变现6K+](AmKRdF2Z9oQjDExxxuAc18a5nbb.md)
++   [👸号追热点复盘：通过行程码一天涨粉4万+，直接变现6K+](AmKRdF2Z9oQjDExxxuAc18a5nbb.md)
 +   [初创公司如何科学量化股权分配？股权分配五步法教你不再踩坑！！！](C0dydiFPCoBI3LxemwWcXpdxn2e.md)
 +   [有了这两个AI机器人,还怕做不好带货短视频?](CGZ4dZq4ZoSFT4xUmFecNpk4nNe.md)
 +   [「抖音SEO」2天线下大课圆满结束](CZPydiVmgo2odMx0nWecf3DTn6e.md)

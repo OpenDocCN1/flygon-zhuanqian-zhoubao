@@ -27,9 +27,9 @@ NoBepay注册地址：https://nobepay.com/app/login?type=azmzep&code=D3BFA23
 第一次登录会提示你用手机验证码，直接选择验证码登录就行。
 
 第四步：认证。
-登录后要关注公众号、填写问卷，再做KYC认证。![](img/e7945902b3c172d8c3cbfb0a6ce895ce.png)
+登录后要关注👸号、填写问卷，再做KYC认证。![](img/e7945902b3c172d8c3cbfb0a6ce895ce.png)
 
-- 关注公众号的时候，记得用注册时填写的那个微信去关注。![](img/3b19ecbf3e2f1bee321cfbc85f1359ff.png)
+- 关注👸号的时候，记得用注册时填写的那个微信去关注。![](img/3b19ecbf3e2f1bee321cfbc85f1359ff.png)
 - 问卷内容不用太纠结，按实际情况随便选就好。![](img/6e7405d51d524abb2cce88a247f64e03.png)
 - 最后用微信扫码，完成KYC认证。![](img/84864e56bfb64afba460a0ce032bb35c.png)
 

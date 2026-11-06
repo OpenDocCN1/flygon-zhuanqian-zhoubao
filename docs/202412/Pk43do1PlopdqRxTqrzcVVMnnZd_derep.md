@@ -150,12 +150,12 @@ Q7. 明年想给另一半安排几份小惊喜？把大致时间点写出来，�
 3. 《如何通过分析成功案例，帮自己建立赚钱清单》 https://t.zsxq.com/19FNjtIjB
 4. 《思路详解：如何为某个细分领域用户提供产品，并赚钱》 https://t.zsxq.com/19qoI1QQB
 5. 《学习和赚钱是什么关系？》https://t.zsxq.com/19uQcuMzJ
-6. 《5000 字深度拆解 | Manchuan 公众号 2 个月涨粉百万，普通人如何复制？》https://t.zsxq.com/19cD1keUB
+6. 《5000 字深度拆解 | Manchuan 👸号 2 个月涨粉百万，普通人如何复制？》https://t.zsxq.com/19cD1keUB
 
 2019年度（8篇）
 1. 《在龙哥盟，普通人如何从 0 到 1，培养赚钱思维》 https://t.zsxq.com/19rA0kWrD
 2. 《龙哥盟第 3 期，我是如果做到邀请 245 个用户的？》https://t.zsxq.com/1968tlTAx
-3. 《公众号和抖音之间的赚钱机会》 https://t.zsxq.com/19OfzDckK
+3. 《👸号和抖音之间的赚钱机会》 https://t.zsxq.com/19OfzDckK
 4. 《可复制，零门槛 | 如何借别人的流量，打造一个稳定的被动收入系统》https://t.zsxq.com/19sVRn6Yx
 5. 《做自己擅长的事，把技能树打通，然后再去赚钱》https://t.zsxq.com/19evWC1Xl
 6. 《信息整合：一个可复用，低门槛的成熟商业模式》https://t.zsxq.com/192zoSooT
@@ -168,5 +168,5 @@ Q7. 明年想给另一半安排几份小惊喜？把大致时间点写出来，�
 3. 《36 个小而美赚钱项目之一：蛋黄酥白皮书》https://t.zsxq.com/19G4PKUXr
 
 2017年度（2篇）
-1. 《一个零成本，为公众号增粉，并高转化率为付费社群，进而再次付费转化加入小密圈的案例》 https://t.zsxq.com/19WJ8NILt
+1. 《一个零成本，为👸号增粉，并高转化率为付费社群，进而再次付费转化加入小密圈的案例》 https://t.zsxq.com/19WJ8NILt
 2. 《一款软件，webscraper，帮助非技术领域的朋友，做到爬虫可以做的事情》 https://t.zsxq.com/19RSl40n5

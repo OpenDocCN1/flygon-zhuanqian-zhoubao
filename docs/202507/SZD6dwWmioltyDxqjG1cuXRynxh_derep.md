@@ -235,7 +235,7 @@ https://scys.com/articleDetail/xq_topic/8852488228128112
 
 ## 航海手册拆解
 
-### 小红书电商 - 虚拟产品
+### 📕电商 - 虚拟产品
 
 ![](img/cbea4e23cab51863ca2b2eb39223e58e.png)
 

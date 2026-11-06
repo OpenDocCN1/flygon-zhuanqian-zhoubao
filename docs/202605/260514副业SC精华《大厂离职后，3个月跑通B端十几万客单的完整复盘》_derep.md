@@ -4,7 +4,7 @@
 
 **260514 副业 SC 精华**
 
-公众号懒人搜索，[懒人专属群](https://mp.weixin.qq.com/s/69425fXJqQw87YvZg0y3QA) 独享
+👸号懒人搜索，[懒人专属群](https://mp.weixin.qq.com/s/69425fXJqQw87YvZg0y3QA) 独享
 
 懒人微信：lazyhelperl
 

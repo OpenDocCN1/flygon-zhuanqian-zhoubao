@@ -483,7 +483,7 @@ async def main():
     await page.setViewport({'width': 1920, 'height': 1080})
     await page.setUserAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36')
 
-    # 打开小红书首页
+    # 打开📕首页
     await page.goto('https://www.xxx.com/') ### 目标网站修改成需要爬取网页的链接 ###
 
     # 等待用户手动登录
@@ -1121,7 +1121,7 @@ pyinstaller -F -w image2video.py
 
 我亲自测试过，这个exe用起来很顺手，轻轻松松就把图片转成了带淡出效果的特效视频。
 
-那这类可执行程序到底有什么用？除了自己用，已经有圈友在闲鱼、小红书这些平台上卖Python爬虫工具赚钱了：
+那这类可执行程序到底有什么用？除了自己用，已经有圈友在闲鱼、📕这些平台上卖Python爬虫工具赚钱了：
 
 ![](img/16adb12dfddd2f6845bfa8804c7bdedd.png)
 

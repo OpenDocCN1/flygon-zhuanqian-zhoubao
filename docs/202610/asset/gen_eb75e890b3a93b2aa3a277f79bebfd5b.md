@@ -73,7 +73,7 @@
 
 [https://lazyso.com/insider/](https://lazyso.com/insider/)
 
-认同价值、准备好立即行动的，扫码加我微信（lazyhelper1）
+认同价值、准备好立即行动的，扫码加我🛰️（lazyhelper1）
 
 备注：【实操上车】，不闲聊
 
@@ -81,4 +81,4 @@
 
 [PRE1]
 
-微信：lazyhelper1
+🛰️：lazyhelper1

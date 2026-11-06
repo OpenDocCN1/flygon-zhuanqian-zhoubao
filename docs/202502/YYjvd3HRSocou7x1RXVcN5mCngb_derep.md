@@ -2,7 +2,7 @@
 
 ![](img/c513df501ffd3cab47d2bbcf3a65c35b.png)
 
-最近，小红书上冒出了一大批靠“AI宠物艺术照”吸睛的账号。他们发各种把猫咪狗狗画成欧洲贵族风格的图片，吸引用户点赞关注，再把想定制的人引到私域，一张写真卖60左右，流量和收入都赚到了。
+最近，📕上冒出了一大批靠“AI宠物艺术照”吸睛的账号。他们发各种把猫咪狗狗画成欧洲贵族风格的图片，吸引用户点赞关注，再把想定制的人引到私域，一张写真卖60左右，流量和收入都赚到了。
 
 这份实战手册会给想入局的朋友拆解具体玩法。如果想快速定位某个问题，用Ctrl+F/Command+F搜索关键词是最快的方式。
 
@@ -18,7 +18,7 @@
 
 可以说，AI宠物写真是一门同时吃到“情感”和“猎奇”红利的小生意。
 
-不过，想入场得先知道几个门槛。这个项目要同时用Midjourney、PS和Stable Diffusion三款工具，安装过程比较复杂，本文不细说安装步骤，建议直接到电商平台找人远程装好，省时省力。而且项目主要靠小红书引流，结果不确定性很高：有人不到100粉就变现了，有人发了几十条都石沉大海，还有人引流后账号被处理。建议合理评估后再决定要不要尝试。
+不过，想入场得先知道几个门槛。这个项目要同时用Midjourney、PS和Stable Diffusion三款工具，安装过程比较复杂，本文不细说安装步骤，建议直接到电商平台找人远程装好，省时省力。而且项目主要靠📕引流，结果不确定性很高：有人不到100粉就变现了，有人发了几十条都石沉大海，还有人引流后账号被处理。建议合理评估后再决定要不要尝试。
 
 ![](img/611be89d519a823a4523c9594cb48007.png)
 
@@ -26,7 +26,7 @@
 
 第一步，找参考图。
 
-我们需要找一些“欧洲贵族风”的宠物图片作为模板。小红书和Etsy是两个不错的渠道，后者最好用英文搜索。在小红书搜索关键词“欧洲贵族风+宠物”，能看到不少相关笔记；在Etsy搜“European noble style pet”之类，也会出现很多商品。挑一张自己喜欢的风格，截图存下来备用。
+我们需要找一些“欧洲贵族风”的宠物图片作为模板。📕和Etsy是两个不错的渠道，后者最好用英文搜索。在📕搜索关键词“欧洲贵族风+宠物”，能看到不少相关笔记；在Etsy搜“European noble style pet”之类，也会出现很多商品。挑一张自己喜欢的风格，截图存下来备用。
 
 ![](img/76c55cda718d984ddc6a3719afef4416.png)
 ![](img/73c341878cee4de2bf2e101d6e6f4242.png)
@@ -47,7 +47,7 @@
 
 第三步，写提示词。
 
-把参考图上传到Midjourney（Discord版本），选择“describe”功能，它会自动生成4版提示词。用微信自带的截图翻译功能读一下，从中挑一个合适的版本。注意两点：第一，确认主体描述跟自家宠物一致。比如参考图是白猫，而你的猫是银渐层、粉鼻子，有点像波斯猫和银渐层混种，那就必须把主体改成“A silver gradient cat with a pink nose, similar to a Persian cat and a silver gradient cat”。第二，提示词要尽量详细，把所有细节都堆进去。比如“巴洛克风格写实油画、深色背景”这些描述都可以合并使用。整合后的最终提示词大概是：A white A silver gradient cat with a pink nose, similar to a Persian cat and a silver gradient cat dressed as the Queen of Spain, a realistic oil painting portrait with a gold and pink dress and a silver crown, set against a background of dark brown, light beige, pink, and green colors Realistic oil portrait painting in the style of Baroque, with a dark background.. --ar 99:124
+把参考图上传到Midjourney（Discord版本），选择“describe”功能，它会自动生成4版提示词。用🛰️自带的截图翻译功能读一下，从中挑一个合适的版本。注意两点：第一，确认主体描述跟自家宠物一致。比如参考图是白猫，而你的猫是银渐层、粉鼻子，有点像波斯猫和银渐层混种，那就必须把主体改成“A silver gradient cat with a pink nose, similar to a Persian cat and a silver gradient cat”。第二，提示词要尽量详细，把所有细节都堆进去。比如“巴洛克风格写实油画、深色背景”这些描述都可以合并使用。整合后的最终提示词大概是：A white A silver gradient cat with a pink nose, similar to a Persian cat and a silver gradient cat dressed as the Queen of Spain, a realistic oil painting portrait with a gold and pink dress and a silver crown, set against a background of dark brown, light beige, pink, and green colors Realistic oil portrait painting in the style of Baroque, with a dark background.. --ar 99:124
 
 当然，现在AI工具强大了，也可以直接把参考图喂给Claude或Kimi，让它们帮你写提示词，一步到位，省去各种手动步骤。
 
@@ -209,11 +209,11 @@ LibLIb: https://www.liblib.art/
 
 实操掌握后，就可以考虑做号吸粉，最终实现交易。
 
-本节以小红书为例，围绕“人设定位”、“内容方向”和“变现定位”给出案例参考，供你借鉴。
+本节以📕为例，围绕“人设定位”、“内容方向”和“变现定位”给出案例参考，供你借鉴。
 
 ### 3.1 人设定位
 
-做宠物接单的小红书账号，大致可分为三种方向；
+做宠物接单的📕账号，大致可分为三种方向；
 
 #### 3.1.1 定位一：「专家型」选手
 
@@ -285,7 +285,7 @@ LibLIb: https://www.liblib.art/
 
 ![](img/323700a125bee3f7ac3606882239d845.png)
 
-这种形式在小红书很有优势，因为它能强力带动评论区互动，而小红书的评论权重高于点赞收藏，有助于笔记获得更多曝光。
+这种形式在📕很有优势，因为它能强力带动评论区互动，而📕的评论权重高于点赞收藏，有助于笔记获得更多曝光。
 
 ![](img/0477086bdb5717205e5d5533da098283.png)
 
@@ -299,7 +299,7 @@ AI 宠物写真变现主要有【个人号引流私域】和【开店铺】两�
 
 ⭕️ 优点：
 
-1.  小红书号无需实名，有手机号即可注册，方便做矩阵，号废了可注销重开
+1.  📕号无需实名，有手机号即可注册，方便做矩阵，号废了可注销重开
 
 1.  用户沉淀在私域，可反复变现
 

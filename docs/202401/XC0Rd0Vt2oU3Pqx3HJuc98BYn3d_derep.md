@@ -60,7 +60,7 @@ uibot：https://down.uibot.com.cn/OFFICIAL/UiBot/6.0.1/UiBot_Community_Official_
 
 WPS：https://platform.wps.cn/
 
-微信PC版：https://pc.weixin.qq.com/
+🛰️PC版：https://pc.weixin.qq.com/
 
 数据采集完成后，可在云桌面里打开“此电脑”，直接把结果拖到本地磁盘，也能反向把本地文件传上去。
 

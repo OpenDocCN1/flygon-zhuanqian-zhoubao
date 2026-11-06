@@ -192,7 +192,7 @@ git clone https://github.com/heygen-com/hyperframes.git
 
 https://lazyso.com/insider/
 
-认同价值、准备好下场的人，扫码加我微信（lazyhelper1）
+认同价值、准备好下场的人，扫码加我🛰️（lazyhelper1）
 
 备注：【实操上车】，不闲聊
 

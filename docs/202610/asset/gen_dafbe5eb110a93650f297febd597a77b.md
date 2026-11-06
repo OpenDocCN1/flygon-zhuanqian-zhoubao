@@ -66,7 +66,7 @@
 
 https://lazyso.com/insider/
 
-认可这套价值、也准备动手的人，扫码加微信（lazyhelper1），备注：【实操上车】，不闲聊。
+认可这套价值、也准备动手的人，扫码加🛰️（lazyhelper1），备注：【实操上车】，不闲聊。
 
 [PRE3]
 

@@ -44,7 +44,7 @@ JanusFlow-1.3B 图像识别 https://huggingface.co/spaces/deepseek-ai/JanusFlow-
 
 ### 1. 搭建 ComfyUI 环境
 
-参考来来的公众号教程完成 ComfyUI 安装。
+参考来来的👸号教程完成 ComfyUI 安装。
 
 ### 2. 安装 Janus 插件
 

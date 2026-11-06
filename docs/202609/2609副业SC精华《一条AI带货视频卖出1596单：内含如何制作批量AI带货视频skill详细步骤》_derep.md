@@ -1,6 +1,6 @@
 # 单条智能短片卖出 1596 单，我把整套打法打包成了可复用 Skill
 
-> 整理：公众号懒人搜索·懒人专属群精选 | 微信：lazyhelperl
+> 整理：👸号懒人搜索·懒人专属群精选 | 微信：lazyhelperl
 
 ![](img/1fde39a9ec05341a59a2a3d0fc0cb74f_0_0.png)
 ![](img/1fde39a9ec05341a59a2a3d0fc0cb74f_0_1.png)

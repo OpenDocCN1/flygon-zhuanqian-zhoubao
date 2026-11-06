@@ -459,7 +459,7 @@ Restore purchases（恢复购买）的意思是重新读取你原来在苹果这
 
 https://lazyso.com/insider/
 
-认同价值、准备好下场干活的，扫码加我微信（lazyhelper1）。
+认同价值、准备好下场干活的，扫码加我🛰️（lazyhelper1）。
 
 备注：【实操上车】，不闲聊。
 

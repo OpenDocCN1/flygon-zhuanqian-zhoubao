@@ -22,7 +22,7 @@
 
 为让观察更直观，借助 Claude 做了可视化图，并为每个号生成独立的画像报告。
 
-后续会逐步开放这批内容数据、模型提示词与处理流程。下一步计划把采集面扩展到小红书、抖音、X 等平台，持续同步头部创作者的产出。
+后续会逐步开放这批内容数据、模型提示词与处理流程。下一步计划把采集面扩展到📕、抖音、X 等平台，持续同步头部创作者的产出。
 
 ## 二、案例拆解：卡兹克的破圈节奏
 
@@ -212,7 +212,7 @@ merger = PdfMerger()
 # 创建目录
 toc = []
 
-# 对每个公众号进行分析
+# 对每个👸号进行分析
 for i, nickname in enumerate(df['nick_name'].unique(), 1):
     account_df = df[df['nick_name'] == nickname]
 
@@ -220,10 +220,10 @@ for i, nickname in enumerate(df['nick_name'].unique(), 1):
     temp_pdf = BytesIO()
     with PdfPages(temp_pdf) as pdf:
 
-        # 1\. 公众号基本信息
+        # 1\. 👸号基本信息
         plt.figure(figsize=(12, 6))
         info = {
-            '公众号名称': nickname,
+            '👸号名称': nickname,
             '最早文章日期': account_df['send_time'].min().strftime('%Y-%m-%d'),
             '最新文章日期': account_df['send_time'].max().strftime('%Y-%m-%d'),
             '平均阅读数': f"{account_df['read_view'].mean():.2f}",
@@ -233,7 +233,7 @@ for i, nickname in enumerate(df['nick_name'].unique(), 1):
         }
         plt.text(0.1, 0.1, '\n'.join([f'{k}: {v}' for k, v in info.items()]), {'fontsize': 12})
         plt.axis('off')
-        plt.title(f'公众号基本信息 - {nickname}')
+        plt.title(f'👸号基本信息 - {nickname}')
         pdf.savefig()
         plt.close()
 
@@ -424,15 +424,15 @@ const getActiveAccounts = async () => {
           setSelectedUsername(result.data[0].username);
         }
       } else {
-        console.error("获取活跃公众号失败:", result.message);
+        console.error("获取活跃👸号失败:", result.message);
         setActiveAccounts([]);
       }
     } else {
-      console.error("获取活跃公众号失败: 服务器响应错误");
+      console.error("获取活跃👸号失败: 服务器响应错误");
       setActiveAccounts([]);
     }
   } catch (error) {
-    console.error("获取活跃公众号失败:", error);
+    console.error("获取活跃👸号失败:", error);
     setActiveAccounts([]);
   } finally {
     setIsLoading(false);
@@ -499,7 +499,7 @@ useEffect(() => {
 
     return (
 
-# 公众号名称：{stats.wechatNickname}
+# 👸号名称：{stats.wechatNickname}
 
           最早文章日期
           {new Date(stats.earliestArticleDate).toLocaleDateString('zh-CN')}
@@ -738,15 +738,15 @@ const getActiveAccounts = async () => {
           setSelectedUsername(result.data[0].username);
         }
       } else {
-        console.error("获取活跃公众号失败:", result.message);
+        console.error("获取活跃👸号失败:", result.message);
         setActiveAccounts([]);
       }
     } else {
-      console.error("获取活跃公众号失败: 服务器响应错误");
+      console.error("获取活跃👸号失败: 服务器响应错误");
       setActiveAccounts([]);
     }
   } catch (error) {
-    console.error("获取活跃公众号失败:", error);
+    console.error("获取活跃👸号失败:", error);
     setActiveAccounts([]);
   } finally {
     setIsLoading(false);
@@ -813,7 +813,7 @@ useEffect(() => {
 
     return (
 
-# 公众号名称：{stats.wechatNickname}
+# 👸号名称：{stats.wechatNickname}
 
           最早文章日期
           {new Date(stats.earliestArticleDate).toLocaleDateString('zh-CN')}
@@ -1016,7 +1016,7 @@ async function getWechatArticlesByUsername(username: string): Promise {
   }
 }
 
-// 获取公众号文章数据
+// 获取👸号文章数据
 
 async function fetchData(userName: string): Promise <wechatarticle>{
   const conn = await getDbConnection();
@@ -1366,7 +1366,7 @@ async function getWechatArticlesByUsername(username: string): Promise {
   }
 }
 
-// 获取公众号文章数据
+// 获取👸号文章数据
 
 async function fetchData(userName: string): Promise <wechatarticle>{
   const conn = await getDbConnection();

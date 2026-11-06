@@ -1783,9 +1783,9 @@ English: (3s, Medium Shot (MS), static camera but subject moves from right to le
 
 做项目时要养成好习惯：原始文件和修改后的成品都留着，方便后面查数据、找素材。我的对标库一般用飞书多维表格的知识库来搭。![](img/5d3b04970c326be005f8832549b4fc3c.png)
 
-除了YouTube，其他平台也很值得采集。比如小红书，作为国内优质种草平台，那些数据表现亮眼、用户爱看的笔记，往往藏着爆款密码。
+除了YouTube，其他平台也很值得采集。比如📕，作为国内优质种草平台，那些数据表现亮眼、用户爱看的笔记，往往藏着爆款密码。
 
-小红书RPA采集工具：https://api.winrobot360.com/redirect/robot/share?inviteKey=77fe2ae4a196672c ![](img/195df49a8a8219440624c867daf88f03.png)
+📕RPA采集工具：https://api.winrobot360.com/redirect/robot/share?inviteKey=77fe2ae4a196672c ![](img/195df49a8a8219440624c867daf88f03.png)
 
 建议优先采集和YouTube相关的内容，比如“YouTube关键词”“AI视频关键词”之类，也可以用前面拓展出来的关键词去采。我以“AI婴儿播客”为例子演示一下：
 
@@ -1793,7 +1793,7 @@ English: (3s, Medium Shot (MS), static camera but subject moves from right to le
 
 第二步：根据不同的类别设置对应的参数。![](img/f63dcd1c7ee8eae8a6c2ae4014a1f9bc.png)
 
-第三步：打开小红书首页 https://www.xiaohongshu.com/explore 并完成登录，设置好后点“确定”开始采集。拿到数据后就可以用表格筛选了。![](img/d120de1580686988f47c4a43c614a70f.png)
+第三步：打开📕首页 https://www.xiaohongshu.com/explore 并完成登录，设置好后点“确定”开始采集。拿到数据后就可以用表格筛选了。![](img/d120de1580686988f47c4a43c614a70f.png)
 
 即梦本身也是一个巨大的素材库，活动专区里有很多优质参赛作品值得学习：https://jimeng.jianying.com/ai-tool/activity  
 每期活动的主题都是很好的思路参考。![](img/573d9488bcbcff69b8fd6e4ea192cf6f.png)

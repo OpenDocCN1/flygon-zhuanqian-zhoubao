@@ -14,7 +14,7 @@
 
 【知识星球】链接：https://wx.zsxq.com/dweb2/index/topic_detail/815251285585242
 
-【公众号】链接：https://mp.weixin.qq.com/s/XIOHauYjxwesDQQq6KfVXw
+【👸号】链接：https://mp.weixin.qq.com/s/XIOHauYjxwesDQQq6KfVXw
 
 顺着文末的联系方式，我加了西琳君的微信。那时候我什么都不懂，连“钩子”都没听过，但胜在胆子大，什么奇怪问题都敢问。西琳君是龙珠圈子里的老成员，我那时对这个社区毫无概念，结果聊了没几句，他就主动提出要送我一张入场券。
 

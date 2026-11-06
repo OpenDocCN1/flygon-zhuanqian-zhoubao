@@ -340,10 +340,10 @@ MCP 全称 Model Context Protocol，可以理解为给 AI 装“插件”的通�
 claude mcp add playwright -s user -- npx @playwright/mcp@latest
 ```
 
-拿打开小红书来演示：
+拿打开📕来演示：
 
 ```
-在浏览器里打开小红书,搜索“Claude Code”,按照浏览量多的前面排序，将前10的结果总结给我
+在浏览器里打开📕,搜索“Claude Code”,按照浏览量多的前面排序，将前10的结果总结给我
 ```
 
 搜索结果：

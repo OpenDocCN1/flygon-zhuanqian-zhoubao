@@ -56,7 +56,7 @@ Hand-drawn illustration style, retain original composition precisely, soft ink l
 *   粉丝达到100
 有爆款自然涨，着急的话可以小额加速。我没有买粉，自己操作。
 先给微信豆充值，20元基本够用，1:10入口在此：https://scys.com/articleDetail/xq_topic/4848282411241818
-再开视频号语音直播放音乐发福袋涨粉，每次几分钱即可，具体手法见：https://scys.com/articleDetail/xq_topic/1525142211141452 。该教程原版带公众号引流，去掉公众号环节就是纯涨粉。我播了半小时，分批发了5毛福袋，涨了二十多个粉丝。
+再开视频号语音直播放音乐发福袋涨粉，每次几分钱即可，具体手法见：https://scys.com/articleDetail/xq_topic/1525142211141452 。该教程原版带👸号引流，去掉👸号环节就是纯涨粉。我播了半小时，分批发了5毛福袋，涨了二十多个粉丝。
 思路都是赚钱圈前辈分享的，实在想不通就问AI。
 
 *   累计发布10条及以上视频

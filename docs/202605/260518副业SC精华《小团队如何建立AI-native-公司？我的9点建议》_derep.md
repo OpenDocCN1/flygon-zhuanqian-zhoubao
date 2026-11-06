@@ -2,7 +2,7 @@
 
 260518 副业 SC 精华
 
-整理：公众号懒人搜索，[懒人专属群](https://t.cn/xxxx)精选
+整理：👸号懒人搜索，[懒人专属群](https://t.cn/xxxx)精选
 
 懒人微信：lazyhelperl
 

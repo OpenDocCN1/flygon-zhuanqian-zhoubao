@@ -97,7 +97,7 @@
 
 希望对你有用。
 
-公众号：郭晓文
+👸号：郭晓文
 
 往期精华文章：
 
@@ -115,7 +115,7 @@
 
 1. https://t.zsxq.com/niQ7iIe【红包封面售卖】一周时间，搭建一个自裂变的赚钱系统
 
-1. https://t.zsxq.com/RRrfqJE 【操作手册】公众号1个多月时间做到几乎篇篇5w+，进阶版「manchuan」玩法
+1. https://t.zsxq.com/RRrfqJE 【操作手册】👸号1个多月时间做到几乎篇篇5w+，进阶版「manchuan」玩法
 
 1. https://t.zsxq.com/uZnyr7I 抖音月均播放量4个亿的短视频创作心法
 

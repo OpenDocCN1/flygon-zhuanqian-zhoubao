@@ -372,7 +372,7 @@ ChatGPT+海外工具手册：https://search01.shengcaiyoushu.com/docx/QItLdm0dRo
 
 个人优势挖掘航海手册：https://search01.shengcaiyoushu.com/docx/Veowd58y9ohkIxxu7QAcqVVwn1d
 
-## 公众号爆文写作航海导图（6份）
+## 👸号爆文写作航海导图（6份）
 
 ![](img/51528eed3d69e67dc1173de32febd544.png)
 
@@ -386,7 +386,7 @@ ChatGPT+海外工具手册：https://search01.shengcaiyoushu.com/docx/QItLdm0dRo
 
 ![](img/44f8e515b1d47992f68639a38e2ffced.png)
 
-公众号爆文写作航海手册：https://search01.shengcaiyoushu.com/docx/NsOsdqrm1oaIrcxGlEpcNqhJnlM
+👸号爆文写作航海手册：https://search01.shengcaiyoushu.com/docx/NsOsdqrm1oaIrcxGlEpcNqhJnlM
 
 导图里有疑问或看不懂的地方，建议直接去对应航海手册对照原文。
 
@@ -484,8 +484,8 @@ ChatGPT+海外工具手册：https://search01.shengcaiyoushu.com/docx/QItLdm0dRo
 
 1. 自学梳理知识点，输出知识卡片。
 2. 读完一本书后产出阅读笔记、知识卡片、阅读地图。
-3. 把嘉宾分享做成导图解构在社交平台分发，投放公众号/小红书/今日头条等。
-4. 用导图做图文笔记，分发到抖音/小红书/视频号/公众号。
+3. 把嘉宾分享做成导图解构在社交平台分发，投放👸号/📕/今日头条等。
+4. 用导图做图文笔记，分发到抖音/📕/视频号/👸号。
 5. 事件时间线、企业架构图、旅行规划、会议纪要、项目拆解等定制需求。
 6. 竖屏思维导图马拉松共创、导图训练营、企业导图定制、1V1辅导等。
 7. 导图+AI的组合玩法，持续延展。

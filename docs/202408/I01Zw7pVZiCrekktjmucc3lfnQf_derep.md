@@ -74,7 +74,7 @@
 像流程图助手、思维导图助手、动图生成助手、快递网点查询助手……多安几个，你的智能体战斗力直线上升。
 ![](img/2bbc36f7a552f8cdea6d382c3974dd1d.png)
 
-4. 知识库配置：可以传自己的资料，也能放网页地址，还能授权读取公众号文章和微博，让它们成为智能体的“大脑”。
+4. 知识库配置：可以传自己的资料，也能放网页地址，还能授权读取👸号文章和🧣，让它们成为智能体的“大脑”。
 ![](img/de94d9353893401102bc6a05a724ae96.png)
 
 这一步很重要，因为AI原来只靠训练数据，实时信息或针对性内容完全不行，必须靠你上传资料“喂”给它。
@@ -182,7 +182,7 @@
 
 ### 八、意犹未尽再说几个
 
-还有很多我常用的东西：GPTS怎么玩、怎么让AI洗小红书的文案、一键搬运TikTok视频（https://ssstik.io/en-1#google_vignette）、AI做Excel（app.formulabot.com）、输入TikTok链接自动生成商品视频（https://www.jogg.ai/?fpr=xm7e5）、AI生成证件照（https://pfpmaker.com/）。
+还有很多我常用的东西：GPTS怎么玩、怎么让AI洗📕的文案、一键搬运TikTok视频（https://ssstik.io/en-1#google_vignette）、AI做Excel（app.formulabot.com）、输入TikTok链接自动生成商品视频（https://www.jogg.ai/?fpr=xm7e5）、AI生成证件照（https://pfpmaker.com/）。
 
 说实话，这些我天天用，已经不太觉得AI有多震撼了。真正被冲击到的一次，是今年8.10赚钱航海家组织的蝉妈妈AI垂类游学。
 ![](img/5818d594fe8a0680522e068f946f01e3.png)

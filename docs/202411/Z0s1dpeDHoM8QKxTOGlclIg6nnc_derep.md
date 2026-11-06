@@ -506,7 +506,7 @@
 
 1.  《学习和赚钱是什么关系？》https://t.zsxq.com/19uQcuMzJ
 
-1.  《5000 字深度拆解 | Manchuan 公众号 2 个月涨粉百万，普通人如何复制？》 https://t.zsxq.com/19cD1keUB
+1.  《5000 字深度拆解 | Manchuan 👸号 2 个月涨粉百万，普通人如何复制？》 https://t.zsxq.com/19cD1keUB
 
 2019年（x8）
 
@@ -514,7 +514,7 @@
 
 1.  《龙哥盟第 3 期，我是如果做到邀请 245 个用户的？》 https://t.zsxq.com/1968tlTAx
 
-1.  《公众号和抖音之间的赚钱机会》https://t.zsxq.com/19OfzDckK
+1.  《👸号和抖音之间的赚钱机会》https://t.zsxq.com/19OfzDckK
 
 1.  《可复制，零门槛 | 如何借别人的流量，打造一个稳定的被动收入系统》 https://t.zsxq.com/19sVRn6Yx
 
@@ -536,6 +536,6 @@
 
 2017年（x2）
 
-1.  《一个零成本，为公众号增粉，并高转化率为付费社群，进而再次付费转化加入小密圈的案例》 https://t.zsxq.com/19WJ8NILt
+1.  《一个零成本，为👸号增粉，并高转化率为付费社群，进而再次付费转化加入小密圈的案例》 https://t.zsxq.com/19WJ8NILt
 
 1.  《一款软件，webscraper，帮助非技术领域的朋友，做到爬虫可以做的事情》 https://t.zsxq.com/19RSl40n5

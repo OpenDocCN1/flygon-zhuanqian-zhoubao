@@ -104,7 +104,7 @@ Remark:这个数据看起来很正常,没什么特别价值，但是这个是我
 
 围绕评论看选题，用一篇文章做示范。
 
-小红书文章ID:tps://www.xiaohongshu.com/explore/6369f1750000000009001664?xhsshare=CopyLink
+📕文章ID:tps://www.xiaohongshu.com/explore/6369f1750000000009001664?xhsshare=CopyLink
 标题：希望所有毛孔粗大的姐妹都能刷到这篇！
 发布时间：2022/11/8 14:17:50
 评论总量684条，我抽样286条做分析

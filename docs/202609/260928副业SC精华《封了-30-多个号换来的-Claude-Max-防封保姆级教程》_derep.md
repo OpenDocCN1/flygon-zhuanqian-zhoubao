@@ -367,7 +367,7 @@ Pro 激活后即可将 Claude Code 接入。
 
 全程为英文。
 
-若看不懂，可给 Bit 浏览器装沉浸式翻译插件，或用微信截图：框住页面后点击工具栏箭头所指的「翻译」按钮，整页即可译成中文。
+若看不懂，可给 Bit 浏览器装沉浸式翻译插件，或用🛰️截图：框住页面后点击工具栏箭头所指的「翻译」按钮，整页即可译成中文。
 
 接着系统会推荐几个解决方案，均可忽略，直接点击左下角「Get more help」。
 
@@ -461,11 +461,11 @@ Pro 激活后即可将 Claude Code 接入。
 
 - 查看圈子完整数字资产与入场门槛：
 [https://lazyso.com/insider/](https://lazyso.com/insider/)
-认同价值、准备好下场实操的，扫码加我微信（lazyhelper1）
+认同价值、准备好下场实操的，扫码加我🛰️（lazyhelper1）
 备注：【实操上车】，不闲聊
 
 ![](img/bcfece54a310330e5a8cfb5ef0657559_32_0.png)
 
 ![](img/bcfece54a310330e5a8cfb5ef0657559_32_1.png)
 
-微信：lazyhelper1
+🛰️：lazyhelper1

@@ -121,7 +121,7 @@
 
 ![](img/33b29e9d12258fd6252053a8b6b3f86e.png)
 
-把这些流量沉淀到公众号、私域里，着急变现可以直接卖账号。后期做内容、卖产品服务同样可行。
+把这些流量沉淀到👸号、私域里，着急变现可以直接卖账号。后期做内容、卖产品服务同样可行。
 
 ![](img/c9253d728a1ecb1e27eba4e31266e887.png)
 
@@ -233,9 +233,9 @@
 
 ![](img/bb89eab0ee1779a8abe6262b94cd5830.png)
 
-引导关注公众号/微信领取完整资料，开通网盘拉新赚收益。熟练后可做代练、陪玩服务。
+引导关注👸号/微信领取完整资料，开通网盘拉新赚收益。熟练后可做代练、陪玩服务。
 
-## 7、公众号爆文
+## 7、👸号爆文
 
 写资讯、攻略、教程、壁纸等低难度内容分发。
 
@@ -326,7 +326,7 @@
 怎么找买家：
 
 1、主动私信博主问需不需要，按要求录制
-2、在咸鱼、小红书挂售
+2、在咸鱼、📕挂售
 
 ![](img/322af92c95ebab632df5414a6bc836f9.png)
 
@@ -627,7 +627,7 @@ https://mp.weixin.qq.com/s/tr9tI8PeVA88Y2Hq3-4vYg
 
 如果你还想借着热点做点小生意，下面的开店教程也能用上：
 
-小红书入驻指南：https://pan.quark.cn/s/eb763cf2b426
+📕入驻指南：https://pan.quark.cn/s/eb763cf2b426
 视频号小店入驻：https://channels.weixin.qq.com/shop/ssr/applyments/storeOpeningGuidelines
 抖音小店入驻：https://fxg.jinritemai.com/enter?btm_ppre=a0.b0.c0.d0&btm_pre=a1032.b72953.c6917.d80091&btm_show_id=1d112c5a-2d3c-42c4-b9f5-95857fd4516b
 淘宝开店说明：https://pan.quark.cn/s/c713d483b80c

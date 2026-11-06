@@ -285,9 +285,9 @@
 2023年的文章精华六则
 1. 《私域的意义不是管理，而是经营》 https://t.zsxq.com/19WEsfSq1
 1. 精华《9年传统行业 1 年时间，从一无所有，到年入 200 万》 https://t.zsxq.com/10nmEr1cA
-1. 精华《25个提高微信成交率的小技巧》 https://t.zsxq.com/11AgRW24F
+1. 精华《25个提高🛰️成交率的小技巧》 https://t.zsxq.com/11AgRW24F
 1. 精华《35 个让私域收入翻 3 倍的技巧》 https://t.zsxq.com/11FmV2aqZ
-1. 精华《续篇 - 25个提高微信成交率的小技巧（26 - 50）》 https://t.zsxq.com/13yRbmUwo
+1. 精华《续篇 - 25个提高🛰️成交率的小技巧（26 - 50）》 https://t.zsxq.com/13yRbmUwo
 1. 《 私域话题：涨价之后，如何回复以及留住客户？》 https://t.zsxq.com/11UJk9HxQ
 1. 精华《成为自由职业者的20个必备特质 》 https://t.zsxq.com/14XTxhh15
 1. 《 36个让私域成交率翻倍的实战指南！ 》 https://t.zsxq.com/17zSrYzvk
@@ -307,7 +307,7 @@
 1. 精华《用这 13 个思维，我做过的副业全都成功变现！》 https://t.zsxq.com/1q1Re
 1. 精华《如何找到靠谱的人，让项目成功几率提升十倍？》 https://t.zsxq.com/hJZfN
 1. 《私域筛选流程小尝试，四位数产品课程，转化率40%》 https://t.zsxq.com/o2dJx
-1. 《 30个『提高5倍微信成交率』的小技巧 》 https://t.zsxq.com/oThQB
+1. 《 30个『提高5倍🛰️成交率』的小技巧 》 https://t.zsxq.com/oThQB
 1. 《私域话题—引流来的客户，用什么样的话术，可以提高2倍成交率？》 https://t.zsxq.com/RuaIy
 1. 精华《如何处理退费(反对)问题，让高客单产品的退费率大幅降低？》 https://t.zsxq.com/X2PEX
 1. 《如何善待恶贵人，增加项目赚钱的稳定度？》 https://t.zsxq.com/aspYc

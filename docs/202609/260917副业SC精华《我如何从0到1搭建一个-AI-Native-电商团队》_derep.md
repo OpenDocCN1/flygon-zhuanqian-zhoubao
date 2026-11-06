@@ -259,6 +259,6 @@
 - 查阅圈子完整数字资产与上车门槛:
 [https://lazyso.com/insider/](https://lazyso.com/insider/)
 
-认同价值、准备好实操的，扫码加我微信（lazyhelper1）
+认同价值、准备好实操的，扫码加我🛰️（lazyhelper1）
 备注：【实操上车】，不闲聊
 ![](img/983912d97a25462c64fe8793a75d7cca_23_0.png)
