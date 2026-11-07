@@ -42,7 +42,7 @@ https://arc.tencent.com/zh/ai-demos/faceRestoration
 这样，爆款小和尚图片就能按你的“咒语”批量生产了。后面再结合上一期教的方法，就可以剪出视频。
 
 接下来，再聊一个高阶玩法。我也把教学资料放到了网盘里，先给你链接：
-链接：https://pan.baidu.com/s/1F_Y6ggy8-m6lQQnmofpICw?pwd=tvs9
+链接：https://pan.baidu.com/s/1F_Y6ggy8-m6l🐧nmofpICw?pwd=tvs9
 提取码：tvs9
 （来自百度网盘超级会员V10的分享）
 
@@ -71,7 +71,7 @@ https://arc.tencent.com/zh/ai-demos/faceRestoration
 对了，我是80后互联网创业者，专注内容自媒体引流、网赚项目分享、短视频营销及变现。为了便于你保存学习，我也把完整版教程整理成了网盘文件：
 
 百度网盘版本教程
-链接：https://pan.baidu.com/s/1F_Y6ggy8-m6lQQnmofpICw?pwd=tvs9
+链接：https://pan.baidu.com/s/1F_Y6ggy8-m6l🐧nmofpICw?pwd=tvs9
 提取码：tvs9
 
 写这么多，其实就是想告诉你：如果你对我的“思维语录图片会说话”项目感兴趣，不妨直接去操作一遍。这类视频现在的流量相当可观，真正动手会发现，操作起来并不复杂。市面上有人拿这个项目做培训，收费499到999，完全没必要花那个冤枉钱。你看完我这份拆解，基本就能自己上手了。有问题的话，随时来找我交流，我很乐意帮你。

@@ -34,7 +34,7 @@
 点进节点配置订阅地址。
 
 一个是百度热搜：https://rss.aishort.top/?type=baidu
-一个是微信最新文章：https://rss.aishort.top/?type=wasi
+一个是🛰️最新文章：https://rss.aishort.top/?type=wasi
 
 需要更多内容就多加几个 RSS 节点，多配几条地址就行。
 ![](img/eba8c5e2decb3826edd1fed785f26faf.png)

@@ -8,7 +8,7 @@
 
 👸号省心检索，[懒人专属群独享](http://www.wechat.com)
 
-懒人微信：lazyhelper
+懒人🛰️：lazyhelper
 
 ![](img/60627124b1dc1801af0ad71b618915fb_0_0.png)
 

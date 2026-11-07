@@ -2,13 +2,13 @@
 
 > 260105 副业 SC 精华
 > 👸号懒人搜索，懒人专属群独享
-> 懒人微信：lazyhelper1
+> 懒人🛰️：lazyhelper1
 
 ![](img/2dc578132a0f9b2cc23125f1f12a5c2b_0_0.png)
 
 ![](img/2dc578132a0f9b2cc23125f1f12a5c2b_0_1.png)
 
-微信：lazyhelper1
+🛰️：lazyhelper1
 
 ## 写在前面
 

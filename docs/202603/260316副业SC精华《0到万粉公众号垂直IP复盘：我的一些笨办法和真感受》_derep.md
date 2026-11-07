@@ -6,7 +6,7 @@
 
 👸号懒人搜索，懒人专属群独享
 
-懒人微信:lazyhelper1
+懒人🛰️:lazyhelper1
 
 ![](图片)
 
@@ -176,7 +176,7 @@ $ 谷歌 A +0.74% 加自选
 https://hk57gvIx7u.feishu.cn/docx/H0kRdZbSbolBR0xkaXtcuVE0nJg
 ```
 
-认同价值、准备下场干的，扫码加我微信
+认同价值、准备下场干的，扫码加我🛰️
 
 备注：【实操上车】
 
@@ -184,4 +184,4 @@ https://hk57gvIx7u.feishu.cn/docx/H0kRdZbSbolBR0xkaXtcuVE0nJg
 
 ![](图片)
 
-微信:lazyhelper1
+🛰️:lazyhelper1

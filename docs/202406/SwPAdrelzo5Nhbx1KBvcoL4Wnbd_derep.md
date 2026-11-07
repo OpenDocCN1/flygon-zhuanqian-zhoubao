@@ -202,7 +202,7 @@ AE、PR：负责画面重绘核心操作。
 
 ![](img/9e6ddbc21b717dbb4981ec953fc7b5ee.png)
 
-微信视频号
+🛰️视频号
 
 ![](img/5c85219acecbbf18c71759d8225b8b9c.png)
 

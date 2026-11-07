@@ -489,7 +489,7 @@
 
 https://lazyso.com/insider/
 
-认可价值、准备好下场干的朋友，扫码加我微信（lazyhelper1）
+认可价值、准备好下场干的朋友，扫码加我🛰️（lazyhelper1）
 
 备注：【实操上车】，非诚勿扰。
 

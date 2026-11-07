@@ -236,7 +236,7 @@ SKU结构跑顺之后，最明显的变化有三个：
 
 https://lazyso.com/insider/
 
-如果认可价值、准备好下场开干的，加我微信：lazyhelper1
+如果认可价值、准备好下场开干的，加我🛰️：lazyhelper1
 
 ![](img/fc01c78c3c1c402c3970fd4c638b7176_30_0.png)
 

@@ -4,7 +4,7 @@
 
 整理：👸号懒人搜索，懒人专属群精选
 
-懒人微信：lazyhelper1
+懒人🛰️：lazyhelper1
 
 # 前言
 
@@ -641,7 +641,7 @@ https://eoeo.xyz/register?aff=ZRJG8W67LNAM
 
 https://lazyso.com/insider/
 
-认可这个价值的、准备立刻下场干的，扫码加我微信：lazyhelper1。
+认可这个价值的、准备立刻下场干的，扫码加我🛰️：lazyhelper1。
 
 备注填写：【实操上车】，不接受闲聊。
 

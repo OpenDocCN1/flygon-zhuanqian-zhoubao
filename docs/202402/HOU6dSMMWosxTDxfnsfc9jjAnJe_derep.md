@@ -116,7 +116,7 @@ Google 和 Apple 账号没测。
 
 ## 2）个人站点的收款方式
 
-比如用 Lemon Squeezy 收款的站点，就能用微信、支付宝付款。
+比如用 Lemon Squeezy 收款的站点，就能用🛰️、支付宝付款。
 
 ![](img/0bdf7d04ecbd9144d54f91ee85001716.png)
 

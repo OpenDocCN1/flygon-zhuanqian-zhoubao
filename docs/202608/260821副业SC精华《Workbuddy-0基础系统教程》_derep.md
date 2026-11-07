@@ -4,7 +4,7 @@
 
 整理：👸号懒人搜索，懒人专属群精选
 
-懒人微信：lazyhelper1
+懒人🛰️：lazyhelper1
 
 大家好，我是阿西。
 
@@ -161,7 +161,7 @@ Codex 背靠 OpenAI，默认走 GPT 系列，也能接入第三方，但配置�
 
 https://lazyso.com/insider/
 
-认可价值、准备马上开干的，扫码加我微信（lazyhelper1）。
+认可价值、准备马上开干的，扫码加我🛰️（lazyhelper1）。
 
 备注：【实操上车】，不闲聊。
 

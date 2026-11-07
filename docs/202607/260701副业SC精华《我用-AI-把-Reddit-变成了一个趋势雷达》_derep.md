@@ -6,7 +6,7 @@
 
 整理：👸号懒人搜索，懒人专属群精选
 
-懒人微信：lazyhelper1
+懒人🛰️：lazyhelper1
 
 我靠模型把 Reddit 变成了我的早期预警系统
 
@@ -178,6 +178,6 @@ Reddit 能捕捉原声，但不能单独下结论。我会再看三处：
 
 https://lazyso.com/insider/
 
-认同价值、准备好下场干活的，扫码加我微信（lazyhelper1）
+认同价值、准备好下场干活的，扫码加我🛰️（lazyhelper1）
 
 备注：【实操上车】，不闲聊

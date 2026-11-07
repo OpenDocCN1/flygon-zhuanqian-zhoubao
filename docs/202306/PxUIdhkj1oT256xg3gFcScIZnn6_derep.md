@@ -80,7 +80,7 @@ Cartoon Girl, naive and cute, watery big eyes, long black hair, red bow hair acc
 ![](img/5cc774920e27746f5aef3c899a93597c.png)
 
 ### 3. 流光女孩
-📕上的“流光女孩”也是一大爆款类型。这类图通常来自Stable Diffusion，但微信小程序也能生成相近效果。我试用的是小程序“MewX AI”（不是广告背书，其他国产AI绘画小程序也可以）。
+📕上的“流光女孩”也是一大爆款类型。这类图通常来自Stable Diffusion，但🛰️小程序也能生成相近效果。我试用的是小程序“MewX AI”（不是广告背书，其他国产AI绘画小程序也可以）。
 ![](img/c2df136c6fe60642880cc9232b1a8c4a.png)
 ![](img/c63ab9de642b9ce80d065dc64273d864.png)
 

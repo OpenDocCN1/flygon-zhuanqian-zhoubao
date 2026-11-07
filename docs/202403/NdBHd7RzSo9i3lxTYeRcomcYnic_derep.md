@@ -18,7 +18,7 @@ AI内容创作，难道只属于程序员和理工男的世界吗？
 
 ![](img/e1b97b95c0eee80e2ce2acc4701281d6.png)
 
-先聊聊两者在我这的差异。手机上因为涉及到是否需要翻墙，能用上的选择就有限。
+先聊聊两者在我这的差异。手机上因为涉及到是否需要🪜，能用上的选择就有限。
 
 起初我用的是文心一言，体验也不错，用起来很顺。但总觉得反应慢半拍，回答偏官方，深度不够。
 
@@ -54,11 +54,11 @@ AI内容创作，难道只属于程序员和理工男的世界吗？
 
 ## 二、AI结合自媒体：Monica、通义听悟、Kimichat、百川大模型
 
-Monica网址，需翻墙：https://monica.im/home
+Monica网址，需🪜：https://monica.im/home
 
-通义听悟网址，有微信小程序：https://tingwu.aliyun.com/home Kimichat
+通义听悟网址，有🛰️小程序：https://tingwu.aliyun.com/home Kimichat
 
-Kimichat，有微信小程序：https://kimi.moonshot.cn/chat/clo2dbhp2k12ua98ruhg
+Kimichat，有🛰️小程序：https://kimi.moonshot.cn/chat/clo2dbhp2k12ua98ruhg
 
 百川大模型网址：https://www.baichuan-ai.com/chat?sid=1660326
 

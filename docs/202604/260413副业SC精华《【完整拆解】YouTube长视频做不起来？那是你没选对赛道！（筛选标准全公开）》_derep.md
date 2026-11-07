@@ -3,7 +3,7 @@
 👸号懒人搜索 · 懒人专属群独享
 【全拆解】YouTube长视频为什么做不起来？是赛道这一关就没过（筛选标准公开）
 260413 副业SC精华
-懒人微信：lazyhelper1
+懒人🛰️：lazyhelper1
 
 ![img/8578fd4f39a3b060529c670dfc601066_0_0.png](img/8578fd4f39a3b060529c670dfc601066_0_0.png)
 
@@ -73,7 +73,7 @@
 
 想查看圈子完整数字资产与上车门槛：https://lazyso.com/insider/
 
-认同价值、准备好下场干活的，扫码加我微信：lazyhelper1
+认同价值、准备好下场干活的，扫码加我🛰️：lazyhelper1
 
 ![img/8578fd4f39a3b060529c670dfc601066_11_0.png](img/8578fd4f39a3b060529c670dfc601066_11_0.png)
 

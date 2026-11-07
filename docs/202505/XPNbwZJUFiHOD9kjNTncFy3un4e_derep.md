@@ -34,7 +34,7 @@
 
 ChatGPT官网：[https://chatgpt.com/](https://chatgpt.com/)
 
-国内打不开的话，可以用镜像站，效果基本一样，我用的就是下面这个，QQ邮箱就能注册。
+国内打不开的话，可以用镜像站，效果基本一样，我用的就是下面这个，🐧邮箱就能注册。
 
 AI镜像站：[https://chendandan.ai1.bar/](https://chendandan.ai1.bar/)
 

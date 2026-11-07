@@ -101,6 +101,6 @@
 
 https://lazyso.com/insider/
 
-认可价值、准备好撸起袖子干活的，扫码加微信（lazyhelper1）
+认可价值、准备好撸起袖子干活的，扫码加🛰️（lazyhelper1）
 
 备注：【实操上车】，非诚勿扰。

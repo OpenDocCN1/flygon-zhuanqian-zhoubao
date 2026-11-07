@@ -529,7 +529,7 @@ async def main(args: Args) -> Output:
 
 先从插件市场搜索“👸号”，找到`wx_access_token`这个节点并添加。![](img/843e47c712c8f136c3874cf25aa9bf78.png)
 
-接着登录微信公众平台（https://mp.weixin.qq.com/），注意要用👸号账号，不是订阅号随便登。进到“设置与开发”→“开发接口管理”页面。![](img/769b5594830469818e75dc6759dbe485.png)
+接着登录🛰️公众平台（https://mp.weixin.qq.com/），注意要用👸号账号，不是订阅号随便登。进到“设置与开发”→“开发接口管理”页面。![](img/769b5594830469818e75dc6759dbe485.png)
 
 点“IP白名单”右侧的“查看”，把代码块里的IP复制进白名单。![](img/55951eb4e36d812e933b634fad654fe5.png)
 ```
@@ -569,7 +569,7 @@ async def main(args: Args) -> Output:
 
 ### 1. 找到插件
 
-在插件市场搜索“微信👸号API”，找到`add_material`节点并添加。![](img/cb5f8c57aa847e747bc966a34851f5a1.png)
+在插件市场搜索“🛰️👸号API”，找到`add_material`节点并添加。![](img/cb5f8c57aa847e747bc966a34851f5a1.png)
 
 ### 2. 设置入参（选择批处理模式）
 
@@ -585,7 +585,7 @@ async def main(args: Args) -> Output:
 
 ### 1. 找到对应节点
 
-从“微信👸号API”插件里找到`add_newspic_draft`，点击添加。![](img/8825340595a0c79bd0f0337985eb6f6d.png)
+从“🛰️👸号API”插件里找到`add_newspic_draft`，点击添加。![](img/8825340595a0c79bd0f0337985eb6f6d.png)
 
 ### 2. 设置入参
 

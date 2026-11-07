@@ -21,7 +21,7 @@ NoBepay注册地址：https://nobepay.com/app/login?type=azmzep&code=D3BFA23
 第一步：打开上面的链接，把网页语言切换成中文。![](img/9b8bb62fa37b85021c6f0b5482f7d9bb.png)
 
 第二步：注册。
-用已经实名过的微信号和手机号来注册，邀请码填：D3BFA23。
+用已经实名过的🛰️号和手机号来注册，邀请码填：D3BFA23。
 
 第三步：登录。![](img/a5f994fd5508b6ba325d18301aa183d8.png)
 第一次登录会提示你用手机验证码，直接选择验证码登录就行。
@@ -29,9 +29,9 @@ NoBepay注册地址：https://nobepay.com/app/login?type=azmzep&code=D3BFA23
 第四步：认证。
 登录后要关注👸号、填写问卷，再做KYC认证。![](img/e7945902b3c172d8c3cbfb0a6ce895ce.png)
 
-- 关注👸号的时候，记得用注册时填写的那个微信去关注。![](img/3b19ecbf3e2f1bee321cfbc85f1359ff.png)
+- 关注👸号的时候，记得用注册时填写的那个🛰️去关注。![](img/3b19ecbf3e2f1bee321cfbc85f1359ff.png)
 - 问卷内容不用太纠结，按实际情况随便选就好。![](img/6e7405d51d524abb2cce88a247f64e03.png)
-- 最后用微信扫码，完成KYC认证。![](img/84864e56bfb64afba460a0ce032bb35c.png)
+- 最后用🛰️扫码，完成KYC认证。![](img/84864e56bfb64afba460a0ce032bb35c.png)
 
 第五步：充值。
 点头像，再点“快速充值”。![](img/e5cbabb0f69668d85b3cb344c6eb95f3.png)
@@ -39,7 +39,7 @@ NoBepay注册地址：https://nobepay.com/app/login?type=azmzep&code=D3BFA23
 充值方式有人民币、USDT、美金三种。![](img/a1656de79d4dcf3e42ebfd564e318354.png)
 人民币500元起充，而且不能提现，所以更推荐用USDT。USDT就是泰达币，和美元按1:1锚定，1U就等于1美元。
 
-点USDT充值后，会得到一个充值二维码和充值地址。这个地址只能用USDT交易，支付宝、微信都没办法直接付款，所以还要先注册欧易平台去买USDT。![](img/287ebecce0cec59ce9df6e669197c279.png)
+点USDT充值后，会得到一个充值二维码和充值地址。这个地址只能用USDT交易，支付宝、🛰️都没办法直接付款，所以还要先注册欧易平台去买USDT。![](img/287ebecce0cec59ce9df6e669197c279.png)
 
 三、欧易买USDT
 

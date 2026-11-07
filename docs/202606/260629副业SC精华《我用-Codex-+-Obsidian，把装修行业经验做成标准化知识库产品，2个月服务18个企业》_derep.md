@@ -190,6 +190,6 @@
 
 https://lazyso.com/insider/
 
-认同价值、准备好下场干活的，扫码加微信（lazyhelper1）。
+认同价值、准备好下场干活的，扫码加🛰️（lazyhelper1）。
 
 备注：【实操上车】，不闲聊。

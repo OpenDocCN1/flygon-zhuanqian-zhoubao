@@ -24,7 +24,7 @@
 
 视频号下载麻烦一些，可以用这个开源工具：https://github.com/ltaoo/wx_channels_download ，我也把本地包放出来了，需要的自取，杀毒软件可能误报，谨慎的去官网下载。
 
-使用流程：解压后以管理员身份启动，首次会提示安装证书，确认即可。之后每次都要管理员权限启动，然后在微信里打开目标作品，页面会自动出现下载入口，点击即可。
+使用流程：解压后以管理员身份启动，首次会提示安装证书，确认即可。之后每次都要管理员权限启动，然后在🛰️里打开目标作品，页面会自动出现下载入口，点击即可。
 
 ![](img/8fc390f93bb33a116109b244424412fe.png)
 下载完成的素材统一放到工作文件夹里集中管理，后续剪辑直接调用。去重逻辑放在后面。
@@ -43,7 +43,7 @@ Hand-drawn illustration style, retain original composition precisely, soft ink l
 ![](img/fabe35032784072fb9f9952ca1c4da35.png)
 ![](img/ae14d41c3c55bff3b1d9feb07d568b71.png)
 
-另外微信搜“定格漫画”能找到不少现成的方法。
+另外🛰️搜“定格漫画”能找到不少现成的方法。
 
 操作步骤：导入参考图-开启智能参考-生图模型选图片2.0 Pro：
 ![](img/2b52f9f910d425db1be9d7f1f7bc5faa.png)
@@ -55,7 +55,7 @@ Hand-drawn illustration style, retain original composition precisely, soft ink l
 
 *   粉丝达到100
 有爆款自然涨，着急的话可以小额加速。我没有买粉，自己操作。
-先给微信豆充值，20元基本够用，1:10入口在此：https://scys.com/articleDetail/xq_topic/4848282411241818
+先给🛰️豆充值，20元基本够用，1:10入口在此：https://scys.com/articleDetail/xq_topic/4848282411241818
 再开视频号语音直播放音乐发福袋涨粉，每次几分钱即可，具体手法见：https://scys.com/articleDetail/xq_topic/1525142211141452 。该教程原版带👸号引流，去掉👸号环节就是纯涨粉。我播了半小时，分批发了5毛福袋，涨了二十多个粉丝。
 思路都是赚钱圈前辈分享的，实在想不通就问AI。
 

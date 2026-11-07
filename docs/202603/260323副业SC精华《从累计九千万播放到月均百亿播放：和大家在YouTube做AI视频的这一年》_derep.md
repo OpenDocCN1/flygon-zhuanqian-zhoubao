@@ -860,12 +860,12 @@ AI同质化频道我们也有十几个，累计亏损过万刀。心疼是自然
 
 📎 查阅圈子完整数字资产与上车门槛：https://lazyso.com/insider/
 
-认同价值、准备好立刻动手的，扫码加我微信（lazyhelper1）
+认同价值、准备好立刻动手的，扫码加我🛰️（lazyhelper1）
 
 ![](img/f9a1ff38208d03f0de513a1c0151bd32_68_0.png)
 
 ![](img/f9a1ff38208d03f0de513a1c0151bd32_68_1.png)
 
-微信：lazyhelper1
+🛰️：lazyhelper1
 
 备注：【实操上车】，不闲聊

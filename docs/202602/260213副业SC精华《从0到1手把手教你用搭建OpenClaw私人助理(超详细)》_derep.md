@@ -8,7 +8,7 @@
 
 👸号懒人搜索，懒人专属群独享
 
-懒人微信：lazyhelper1
+懒人🛰️：lazyhelper1
 
 ![](img/90cd1a4407105b53ae09ead01bb0eb7c_0_0.png)
 
@@ -41,7 +41,7 @@
 
 OpenClaw 的逻辑是把这一串动作交给系统。用户描述目标，系统自行规划步骤并调用不同能力完成闭环。这一转变正对应 AI 从“信息回应”向“任务代理”的演进。
 
-除此之外，OpenClaw 支持接入 Discord、WhatsApp、企业微信、飞书等常见沟通渠道。Discord 本身具备强扩展性，能挂载机器人与自动化流程，与 OpenClaw 结合后形成了一个可随时下指令的 AI 工作台，这也是出圈的关键。
+除此之外，OpenClaw 支持接入 Discord、WhatsApp、企业🛰️、飞书等常见沟通渠道。Discord 本身具备强扩展性，能挂载机器人与自动化流程，与 OpenClaw 结合后形成了一个可随时下指令的 AI 工作台，这也是出圈的关键。
 
 我近期在 X 上也收集了不少使用者的反馈。
 
@@ -327,9 +327,9 @@ https://discord.com/developers/applications
 
 # 三、进阶部署与常用操作
 
-## 3.1 云端 + 企业微信
+## 3.1 云端 + 企业🛰️
 
-除了本地 Mac Mini，也可将 OpenClaw 部署在云服务器，再对接企业微信实现远程操控。我曾测试过腾讯云海外轻量服务器：
+除了本地 Mac Mini，也可将 OpenClaw 部署在云服务器，再对接企业🛰️实现远程操控。我曾测试过腾讯云海外轻量服务器：
 
 https://cloud.tencent.com/act/pro/double12-2025
 
@@ -339,11 +339,11 @@ https://cloud.tencent.com/act/pro/double12-2025
 
 安装流程与本地基本一致。
 
-若要接入企业微信，需先申请企业开发者权限，再通过相关接口调用 Agent，大致效果如下：
+若要接入企业🛰️，需先申请企业开发者权限，再通过相关接口调用 Agent，大致效果如下：
 
 ![](img/bbox_34_22_829_214.png)
 
-企业微信的详细配置本文暂不展开，感兴趣后续再整理。
+企业🛰️的详细配置本文暂不展开，感兴趣后续再整理。
 
 ## 3.2 常用指令清单
 
@@ -511,7 +511,7 @@ openclaw gateway start
 
 ![](图片)
 
-微信：lazyhelp1
+🛰️：lazyhelp1
 
 ![](图片)
 

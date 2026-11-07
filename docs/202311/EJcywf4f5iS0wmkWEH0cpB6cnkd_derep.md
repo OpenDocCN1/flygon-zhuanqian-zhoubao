@@ -40,7 +40,7 @@
 
 - 软件：Uibot（+插件）、Excel/WPS、谷歌浏览器  
   https://www.uibot.com.cn/  
-- 账户：Uibot、ChatGPT Plus、科学上网工具  
+- 账户：Uibot、ChatGPT Plus、🪜工具  
   https://chat.openai.com/  
 - 状态：已登录龙哥盟、已登录知识星球、已加入星球  
   https://search01.shengcaiyoushu.com/  
@@ -88,7 +88,7 @@ Uibot不像影刀有“相似元素循环”，所以代码量被拉高了很多
 
 结果第一步就卡了三天。赚钱搜索引擎和知识星球都不让抓取帖子详细信息，RPA锁不住页面元素。换Automa插件来抓，元素太多照样卡死。最后退回Uibot，只能取到三部分数据，大量信息叠在一起，ChatGPT连正则表达式都提取不出详情。所以最早那版只能是粗略版。
 
-后来所有问题基本都解决了，代价就是代码量大。最完美形态是VPS + RPA：我用腾讯云VPS，把机器人放在云端，24小时不间断跑，定制消息就发到一个独立微信号上，完全不用人管。
+后来所有问题基本都解决了，代价就是代码量大。最完美形态是VPS + RPA：我用腾讯云VPS，把机器人放在云端，24小时不间断跑，定制消息就发到一个独立🛰️号上，完全不用人管。
 
 #### Uibot自动抓取信息 → ChatGPT整理周报（耗时1h+，全自动）
 
@@ -114,13 +114,13 @@ https://chrome.google.com/webstore/detail/automa/infppggnoaenmfagbfknfkancpbljcc
 
 - RPA稳定性高度依赖电脑环境，换机器后要重新调试。
 - Uibot没有Mac版，建议用Windows或腾讯云VPS。
-- 没有科学上网工具打不开ChatGPT；IP不稳定或速度太慢会卡顿报错。
+- 没有🪜工具打不开ChatGPT；IP不稳定或速度太慢会卡顿报错。
 
 #### 影刀机器人注意事项
 
 - Excel文件要先绑定。
 - 主题帖在sheet1，风向标在sheet2。
-- 必须开科学上网才能打开GPT。
+- 必须开🪜才能打开GPT。
 - 所有账号要默认登录。
 - 影刀切换页面靠搜索引擎，关闭页面靠zsxq，所以其他相似无关标签页必须关掉。
 
@@ -154,7 +154,7 @@ https://chrome.google.com/webstore/detail/automa/infppggnoaenmfagbfknfkancpbljcc
 
 - 软件：影刀（+插件）、Excel/WPS、谷歌浏览器  
   https://www.yingdao.com/client-download/  
-- 账户：影刀、ChatGPT Plus、科学上网工具  
+- 账户：影刀、ChatGPT Plus、🪜工具  
   https://chat.openai.com/  
 - 状态：已登录龙哥盟、已登录知识星球、已加入星球  
   https://search01.shengcaiyoushu.com/  
@@ -206,7 +206,7 @@ https://chrome.google.com/webstore/detail/automa/infppggnoaenmfagbfknfkancpbljcc
 
 ---
 
-## 第三篇：订阅关键词，个性化赚钱日报推送微信（含历史精华帖和每日新增帖）
+## 第三篇：订阅关键词，个性化赚钱日报推送🛰️（含历史精华帖和每日新增帖）
 
 ### 极简教程
 
@@ -220,13 +220,13 @@ https://chrome.google.com/webstore/detail/automa/infppggnoaenmfagbfknfkancpbljcc
 
 - 可以单独获取某个标签或板块下的帖子，也可以只取最新一条。
 - 帖子信息（标题、链接、标签、正文大纲、作者）交给GPT，按你给的prompt筛选出想要的结果。
-- 通过企业微信/个人微信/🐧/飞书，发送到个人或社群。
+- 通过企业🛰️/个人🛰️/🐧/飞书，发送到个人或社群。
 
 这套思路对全平台通用。如果换成代码脚本化，通过API对接，速度会更快。
 
 ### 实操问题 & 注意事项
 
-- 同一台电脑上调试稳定后就比较省心，换电脑则需要重新调整参数清单（比如增加微信账户）。
+- 同一台电脑上调试稳定后就比较省心，换电脑则需要重新调整参数清单（比如增加🛰️账户）。
 - 不能太频繁地刷新和循环，可能会触发风控。
 
 ### 后续优化

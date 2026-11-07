@@ -4,7 +4,7 @@
 
 👸号懒人搜索，懒人专属群独享
 
-懒人微信：lazyhelper1
+懒人🛰️：lazyhelper1
 
 ![](img/fa8ceb10bc052a3c1f6326038d3cbdbf_0_0.png)
 
@@ -398,7 +398,7 @@ AI 做的东西不对，别只点个叉就完了，直接把问题指出来。�
 
 https://lazyso.com/insider/
 
-认同这个价值、已经准备好下场实操的，扫码添加我的微信 lazyhelper1
+认同这个价值、已经准备好下场实操的，扫码添加我的🛰️ lazyhelper1
 
 ![](bbox=[118, 763, 767, 872])
 

@@ -6,7 +6,7 @@
 
 整理：👸号懒人搜索，懒人专属群精选
 
-懒人微信：lazyhelper1
+懒人🛰️：lazyhelper1
 
 ![](img/6ae5e11df88ace768d21ea1ad177343a_0_0.png)
 
@@ -129,7 +129,7 @@
 
 https://lazyso.com/insider/
 
-如果你认可这类内容，也已经准备开始执行，可以扫码添加微信：lazyhelper1
+如果你认可这类内容，也已经准备开始执行，可以扫码添加🛰️：lazyhelper1
 
 添加时备注：【实操上车】，不闲聊
 

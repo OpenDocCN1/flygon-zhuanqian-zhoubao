@@ -6,7 +6,7 @@
 
 👸号懒人搜索，[懒人专属群](https://mp.weixin.qq.com/s/69425fXJqQw87YvZg0y3QA) 独享
 
-懒人微信：lazyhelperl
+懒人🛰️：lazyhelperl
 
 ![](img/d08f2cfb61b27a603a4f7c79c2320c45_0_0.png)
 
@@ -271,7 +271,7 @@ content-structure 推荐长文/短文结构并说明理由。
 👉 查看圈子数字资产清单和加入门槛：
 https://lazyso.com/insider/
 
-觉得有价值、准备立刻下场实操的，直接扫码加我微信 lazyhelper1
+觉得有价值、准备立刻下场实操的，直接扫码加我🛰️ lazyhelper1
 
 ![](img/d08f2cfb61b27a603a4f7c79c2320c45_19_0.png)
 

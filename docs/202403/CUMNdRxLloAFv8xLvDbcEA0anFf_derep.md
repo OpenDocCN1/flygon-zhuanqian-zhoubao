@@ -211,7 +211,7 @@ HeyGen现已加入人机验证，可参考影刀社区帖子：https://www.yingd
 
 也可使用GPTs替代，有不少RPA操作ChatGPT的内容创作教程，此处不再赘述。
 
-先注册 coze.com，需科学上网。
+先注册 coze.com，需🪜。
 
 按自身工作流用GPT-128K搭了一个简化workflow结构：
 

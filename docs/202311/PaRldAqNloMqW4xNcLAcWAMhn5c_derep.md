@@ -39,11 +39,11 @@
 第三步，附上影刀的完整代码。代码包括以下几个流程：
 - 主流程：![](img/225e7260d1801216359b5fc90d10aa97.png)![](img/5e3c2b27738bb524b795dccfbd528a16.png)![](img/1db65a27b5be45a622aa2163988a7e08.png)![](img/e746a88cff096ed73cd7bdbfdda99c55.png)![](img/7cf72fcf966bdcd671da2b8b9508e85d.png)![](img/050011d1938dced9c1932b6f70c82743.png)
 - 监控流程：![](img/5c43062bbad2f0546c9603983a93c8e2.png)![](img/8a02cbca8863c702c5d1809a41e72aee.png)![](img/ffdc296464865cf7d63c4d4373c3b51d.png)
-- 检查微信是否存在流程：![](img/fb9705d6ffd85581287441e153ef9e14.png)
+- 检查🛰️是否存在流程：![](img/fb9705d6ffd85581287441e153ef9e14.png)
 - 配置流程：![](img/36b8f5f423285fb82a8677af7c12f69a.png)![](img/49d2e2fdaf24d0907935a49f60b8e4df.png)![](img/3e053df0851e85ecfbe3d515c193ddec.png)
 - 筛选流程：![](img/7981eeed3e11ab9cf86726919f3b4ed1.png)![](img/d93aabaaf9bb6d4f0cd04dc121d78e99.png)![](img/c9016cefe815c2ae794878e6ae68650c.png)![](img/c479ed7fc8e8909a98fc895b4b39bf73.png)![](img/db99c61f5d13755b02a122147e146d62.png)![](img/448086155411a7a51841aef7292b3115.png)![](img/26676bd22341f5210f4a195d3934fad1.png)
-- 微信发送流程：![](img/3dc61f265a50d5043f32ee424ba78695.png)![](img/7d285644223c1cb39e194e6e20efa93e.png)
+- 🛰️发送流程：![](img/3dc61f265a50d5043f32ee424ba78695.png)![](img/7d285644223c1cb39e194e6e20efa93e.png)
 
-至于原理：最早这个方案是设计成发微信通知的，后来我试了飞书，发现比微信好用太多，所以微信部分如果你会写代码，可以自己删减一下。
+至于原理：最早这个方案是设计成发🛰️通知的，后来我试了飞书，发现比🛰️好用太多，所以🛰️部分如果你会写代码，可以自己删减一下。
 
 第一次分享，排版不周，大家将就着看吧，希望对你有帮助。

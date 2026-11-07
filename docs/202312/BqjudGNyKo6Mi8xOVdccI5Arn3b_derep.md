@@ -113,7 +113,7 @@
 
 ## 3.5 生成数字人
 
-用heygen官网，需魔法上网。登录后选create video，竖屏，text script里粘贴英文稿，选数字人形象、背景，背景在element-image选项卡里选。声音我常用jenny，试听没问题就提交。
+用heygen官网，需🪜。登录后选create video，竖屏，text script里粘贴英文稿，选数字人形象、背景，背景在element-image选项卡里选。声音我常用jenny，试听没问题就提交。
 
 ![](img/fcf6e3d6b551884eabc45d7f6a6d5a4b.png)
 

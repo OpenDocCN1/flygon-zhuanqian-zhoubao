@@ -4,7 +4,7 @@
 
 整理：👸号懒人搜索，懒人专属群精选 
 
-懒人微信：lazyhelper1 
+懒人🛰️：lazyhelper1 
 
 ## 你卡住的并不是工具，而是用法
 
@@ -204,7 +204,7 @@ SERP 特征：有没有精选摘要、People Also Ask、视频、图片，是否
 
 https://lazyso.com/insider/
 
-认同这价值，也准备好下场流汗的，可以加我微信（lazyhelper1）。
+认同这价值，也准备好下场流汗的，可以加我🛰️（lazyhelper1）。
 
 备注：【实操上车】，不闲聊，不围观。
 

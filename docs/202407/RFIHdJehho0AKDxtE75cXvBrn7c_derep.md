@@ -317,7 +317,7 @@
 
 1.  《如何通过分析成功案例，帮自己建立赚钱清单》 https://t.zsxq.com/19FNjtIjB
 
-1.  《思路详解：如何为某个细分领域用户提供产品，并赚钱》 https://t.zsxq.com/19qoI1QQB
+1.  《思路详解：如何为某个细分领域用户提供产品，并赚钱》 https://t.zsxq.com/19qoI1🐧B
 
 1.  《学习和赚钱是什么关系？》 https://t.zsxq.com/19uQcuMzJ
 
@@ -343,7 +343,7 @@
 
 2018年（x3）
 
-1.  《分享一下，抓取其他微信号的方式，而且是精准粉》 https://t.zsxq.com/19sKQT9bF
+1.  《分享一下，抓取其他🛰️号的方式，而且是精准粉》 https://t.zsxq.com/19sKQT9bF
 
 1.  《如何几乎零成本做到1w多付费学员？》 https://t.zsxq.com/198XWAGhV
 

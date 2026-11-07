@@ -162,16 +162,16 @@
 2023年：
 01｜私域贵在经营，不在管理 → https://t.zsxq.com/19WEsfSq1
 02｜实业9年，转型第一年就赚到200万 → https://t.zsxq.com/10nmEr1cA
-03｜25个方法，让微信端的成交比例往上走 → https://t.zsxq.com/11AgRW24F
-04｜35个法子，把微信里的生意放大3倍 → https://t.zsxq.com/11FmV2aqZ
-05｜微信用得好，成交有套路：第26到50招 → https://t.zsxq.com/13yRbmUwo
+03｜25个方法，让🛰️端的成交比例往上走 → https://t.zsxq.com/11AgRW24F
+04｜35个法子，把🛰️里的生意放大3倍 → https://t.zsxq.com/11FmV2aqZ
+05｜🛰️用得好，成交有套路：第26到50招 → https://t.zsxq.com/13yRbmUwo
 06｜产品涨价了，怎么跟客户交代才能留住人 → https://t.zsxq.com/11UJk9HxQ
 07｜想从坐班变成自雇，先看这20条 → https://t.zsxq.com/14XTxhh15
 08｜36条实操经验，让成交数据在私域里翻倍 → https://t.zsxq.com/17zSrYzvk
 09｜已经备好了引流产品，怎么聊出升单机会 → https://t.zsxq.com/17ocUJEFA
 10｜做课程生意，怎么化解异议，让用户持续回购 → https://t.zsxq.com/181fSc5rv
 
-很庆幸遇到龙哥盟，很多坑不用自己亲手踩一遍；时间久了，也沉淀出一些能复用的方法。想找人聊聊这些话题的话，我的微信是：AF54094。
+很庆幸遇到龙哥盟，很多坑不用自己亲手踩一遍；时间久了，也沉淀出一些能复用的方法。想找人聊聊这些话题的话，我的🛰️是：AF54094。
 
 ![](img/e0df5eef7974f0319cabc8f6853c95e9.png)
 

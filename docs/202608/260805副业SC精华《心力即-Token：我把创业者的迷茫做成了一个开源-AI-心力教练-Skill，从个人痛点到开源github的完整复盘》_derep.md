@@ -6,7 +6,7 @@
 
 整理：👸号懒人搜索，懒人专属群精选
 
-懒人微信：lazyhelper1
+懒人🛰️：lazyhelper1
 
 大家好，我是七天，相信不少赚钱的朋友都认识我了，目前在赚钱负责线下聚会。发起近三百场线下交流后，我发现大家遇到的卡点不仅在业务打法，更在心力层面。所以我用一周时间做出了第一版 AI 心力教练 Skill，已放到 GitHub，大家下载后可以接入自己的 Codex 或 Hemers 使用。
 
@@ -242,7 +242,7 @@ GitHub：https://github.com/zhaocathy1221-hash/ai-heartpower-coach
 
 https://lazyso.com/insider/
 
-认可价值、准备动手的，扫码加我微信（lazyhelper1）。
+认可价值、准备动手的，扫码加我🛰️（lazyhelper1）。
 
 备注：【实操上车】，不闲聊。
 

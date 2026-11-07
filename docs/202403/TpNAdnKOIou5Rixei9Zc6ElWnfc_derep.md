@@ -519,7 +519,7 @@ https://kimi.moonshot.cn/（AI改稿实操演示，不用魔法）
 
 ![](img/e74fd0c9d3aed69dbef2a7851051052e.png)
 
-视频号下载用WeChatVideoDownloader（付费软件），在电脑端微信里打开视频号就能抓取。
+视频号下载用WeChatVideoDownloader（付费软件），在电脑端🛰️里打开视频号就能抓取。
 
 ![](img/25d6e687bb7902abfb5947b704e2ab39.png)
 

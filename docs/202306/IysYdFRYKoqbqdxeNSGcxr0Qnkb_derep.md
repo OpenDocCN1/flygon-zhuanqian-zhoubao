@@ -30,7 +30,7 @@ SD的模型主要分两种：
 
 ### 2. 去哪里找模型
 
-推荐去C站（https://civitai.com）找，不过需要科学上网。本教程用的主模型是`beautifulRealistic_brav5`，很适合生成亚洲人，尤其是日韩系服装模特。VAE用的是`orangemix.vae`，这两个模型文末都放了网盘链接，不用梯子也能下。
+推荐去C站（https://civitai.com）找，不过需要🪜。本教程用的主模型是`beautifulRealistic_brav5`，很适合生成亚洲人，尤其是日韩系服装模特。VAE用的是`orangemix.vae`，这两个模型文末都放了网盘链接，不用🪜也能下。
 
 下载完成后，打开SD安装目录，进入`models`文件夹。
 
@@ -173,7 +173,7 @@ a long skirt printed with flowers
 
 ## 六、模型下载链接
 
-最后把用到的模型分享给你，不用科学上网也能下：
+最后把用到的模型分享给你，不用🪜也能下：
 
 **VAE模型**
 链接：https://pan.baidu.com/s/1g7ydaAvW0SNNR3g71_mS3Q

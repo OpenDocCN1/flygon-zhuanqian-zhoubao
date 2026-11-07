@@ -148,7 +148,7 @@ Q7. 明年想给另一半安排几份小惊喜？把大致时间点写出来，�
 1. 《产品想要获得更大收益，应该不断向用户的真实需求靠近》 https://t.zsxq.com/19kQ7NILy
 2. 《 我的2019：普通人如何培养自己的用户视角？》https://t.zsxq.com/19fyFdZRL
 3. 《如何通过分析成功案例，帮自己建立赚钱清单》 https://t.zsxq.com/19FNjtIjB
-4. 《思路详解：如何为某个细分领域用户提供产品，并赚钱》 https://t.zsxq.com/19qoI1QQB
+4. 《思路详解：如何为某个细分领域用户提供产品，并赚钱》 https://t.zsxq.com/19qoI1🐧B
 5. 《学习和赚钱是什么关系？》https://t.zsxq.com/19uQcuMzJ
 6. 《5000 字深度拆解 | Manchuan 👸号 2 个月涨粉百万，普通人如何复制？》https://t.zsxq.com/19cD1keUB
 
@@ -163,7 +163,7 @@ Q7. 明年想给另一半安排几份小惊喜？把大致时间点写出来，�
 8. 《数据是需求的抽象化 | 帮你快速找到 100 个赚钱思路 》https://t.zsxq.com/19QrIpsuC
 
 2018年度（3篇）
-1. 《分享一下，抓取其他微信号的方式，而且是精准粉》 https://t.zsxq.com/19sKQT9bF
+1. 《分享一下，抓取其他🛰️号的方式，而且是精准粉》 https://t.zsxq.com/19sKQT9bF
 2. 《如何几乎零成本做到1w多付费学员？》https://t.zsxq.com/198XWAGhV
 3. 《36 个小而美赚钱项目之一：蛋黄酥白皮书》https://t.zsxq.com/19G4PKUXr
 

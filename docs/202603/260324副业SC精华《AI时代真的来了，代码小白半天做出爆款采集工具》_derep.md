@@ -4,7 +4,7 @@
 
 👸号懒人搜索，懒人专属群独享
 
-懒人微信：lazyhelper1
+懒人🛰️：lazyhelper1
 
 ![图片](img/a818639bc7f869c8dd5396f73f245466_0_0.png)
 
@@ -354,12 +354,12 @@ AI 时代本质上是洗牌期。
 
 https://lazyso.com/insider/
 
-认可价值、准备好下场干活的，扫码加我微信 (lazyhelper1)
+认可价值、准备好下场干活的，扫码加我🛰️ (lazyhelper1)
 
 ![图片](img/image_placeholder.png)
 
 ![图片](img/image_placeholder.png)
 
-微信：lazyhelper1
+🛰️：lazyhelper1
 
 备注：【实操上车】，不闲聊

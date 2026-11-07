@@ -4,7 +4,7 @@
 
 - 260901 副业 SC 精华
 - 整理：👸号懒人搜索，懒人专属群精选
-- 懒人微信：lazylhelper1
+- 懒人🛰️：lazylhelper1
 
 ![](img/ecc22a7c3fd9fa322f40515e77e777f3_0_0.png)
 
@@ -241,7 +241,7 @@ https://docs.qq.com/sheet/DYVWNwaVJZV2ZxTW13?tab=q1ans7&t=1786896546003&nrc=1
 
 查阅圈子完整数字资产与上车门槛：https://lazyso.com/insider/
 
-认同价值、准备好下场干活的，扫码加我微信（lazyhelper1），备注【实操上车】，不闲聊。
+认同价值、准备好下场干活的，扫码加我🛰️（lazyhelper1），备注【实操上车】，不闲聊。
 
 ![](img/ecc22a7c3fd9fa322f40515e77e777f3_24_0.png)
 ![](img/ecc22a7c3fd9fa322f40515e77e777f3_24_1.png)

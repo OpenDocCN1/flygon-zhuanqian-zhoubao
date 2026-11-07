@@ -18,7 +18,7 @@
 
 # 第一部分：把Stable Diffusion WebUI部署到Colab
 
-*   提前准备好梯子账号和Google账号
+*   提前准备好🪜账号和Google账号
 
 *   用Google账号登录后，打开下面这份Colab笔记，直接点运行
 

@@ -4,13 +4,13 @@
 
 👸号懒人搜索，懒人专属群独享  
 
-懒人微信：lazyhelper1  
+懒人🛰️：lazyhelper1  
 
 ![](img/8284453fc0f38b4f189e835287d8dd31_0_0.png)  
 
 ![](img/8284453fc0f38b4f189e835287d8dd31_0_1.png)  
 
-**微信：** lazyhelper1  
+**🛰️：** lazyhelper1  
 
 大家好，我是九歌，目前在南宁创业。
 

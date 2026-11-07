@@ -4,7 +4,7 @@
 
 👸号懒人搜索，懒人专属群独享
 
-懒人微信：lazyhelper1
+懒人🛰️：lazyhelper1
 
 ![](img/5610b38f3d0c9fde9207704ae8454a3e_0_0.png)
 
@@ -662,7 +662,7 @@ Eagle 可以按照不同产品、场景和素材类型建立文件夹。安装�
 
 ![](img/5610b38f3d0c9fde9207704ae8454a3e_28_1.png)
 
-微信：lazyhelper1
+🛰️：lazyhelper1
 
 这就是你对抗信息噪音的壁垒。
 

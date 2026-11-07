@@ -94,7 +94,7 @@ The highest quality, masterpiece, ultimate detail,
 
 出图后缩小看，字就显形了：“牛逼”“东子真帅”“东子666”。下次还可以做个“东子真不要脸”。![](img/99fabb6854e726161b23f5f63364f40a.png)![](img/d493796ccdf2bc4917a0a9e0b5a8b313.png)![](img/76ddfb3f78647c02e056a5e5a6338b5c.png)
 
-用微信号做图也是这套方法，比如“wudongzi”（非真实微信号，仅做演示）。![](img/78cad911641aacfb464bf17e0c03914c.png)![](img/9e728aa39351dee1cf0b3c7aca6d5fb2.png)![](img/76acdc57be458e3a599931634e9ba49f.png)
+用🛰️号做图也是这套方法，比如“wudongzi”（非真实🛰️号，仅做演示）。![](img/78cad911641aacfb464bf17e0c03914c.png)![](img/9e728aa39351dee1cf0b3c7aca6d5fb2.png)![](img/76acdc57be458e3a599931634e9ba49f.png)
 
 ### 玩法四：光影文字
 

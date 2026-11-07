@@ -2,13 +2,13 @@
 
 👸号：懒人搜索  
 懒人专属群，仅限内部交流  
-微信：lazyhelper1  
+🛰️：lazyhelper1  
 
 ![](img/59a5d3d105ba14e4e0d14a7e12fbe3ab_0_0.png)
 
 ![](img/59a5d3d105ba14e4e0d14a7e12fbe3ab_0_1.png)
 
-微信号再报一次：lazyhelper1。
+🛰️号再报一次：lazyhelper1。
 
 大家好，我是星空海绵。
 
@@ -347,7 +347,7 @@ B站通常存在两条主要成交路径：
 
 👸号：懒人搜索  
 懒人专属群独享  
-微信：lazyhelper1
+🛰️：lazyhelper1
 
 B站的商业化流量，并不是简单地把内容展示给更多人。一次投放能否带来成交，关键在于系统会怎样理解你的目标。
 

@@ -6,7 +6,7 @@
 
 整理：👸号懒人搜索，懒人专属群精选
 
-懒人微信：lazyhelper1
+懒人🛰️：lazyhelper1
 
 ## 我的油管经历
 
@@ -154,7 +154,7 @@ https://github.com/ihmily/DouyinLiveRecorder/releases 感谢萧炎大佬分享�
 
 https://lazyso.com/insider/
 
-如果你认同价值并准备实操，扫码加我微信 lazyhelper1。
+如果你认同价值并准备实操，扫码加我🛰️ lazyhelper1。
 
 备注：【实操上车】，不闲聊。
 

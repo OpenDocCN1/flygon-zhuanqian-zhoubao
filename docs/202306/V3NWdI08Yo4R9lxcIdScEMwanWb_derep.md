@@ -43,7 +43,7 @@
 
 第三步，为每个镜头写好Midjourney提示词，生成想象中的画面。![](img/2597447c082533c48cd69b0ea729ec9a.png)
 
-这里给大家推荐一个小工具，是我自己做的ChatGPT提示词应用，专门用来输出Midjourney描述词，微信打开就能用：https://zelinai.com/s/kavvHSjs2nZSiufjajw2vT ![](img/bed54b1676bf1a5ca83d548d39538b7f.png)
+这里给大家推荐一个小工具，是我自己做的ChatGPT提示词应用，专门用来输出Midjourney描述词，🛰️打开就能用：https://zelinai.com/s/kavvHSjs2nZSiufjajw2vT ![](img/bed54b1676bf1a5ca83d548d39538b7f.png)
 
 第四步，把生成的每一张图片丢进LeiaPix，转换成具有3D立体效果的视频片段。![](img/e53c21de6c34e1dfb810d77ee662cc1f.png)![](img/b313ae7ac188a888f9d6d56d71b7a302.png)
 

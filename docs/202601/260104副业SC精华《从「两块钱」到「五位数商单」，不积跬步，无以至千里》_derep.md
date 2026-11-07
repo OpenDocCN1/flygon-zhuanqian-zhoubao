@@ -4,7 +4,7 @@
 
 👸号懒人搜索，**懒人专属群**独享
 
-懒人微信：lazyhelperl
+懒人🛰️：lazyhelperl
 
 ![](img/85e574269662ba99fe22eac2dc851062_0_0.png)
 

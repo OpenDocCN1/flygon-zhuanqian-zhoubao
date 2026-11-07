@@ -127,9 +127,9 @@
 
 ![](img/5229baeb1a2aa0d15263c8abe178caf1.png)
 
-5. 绑定银行卡和微信/支付宝收款。先绑定银行卡，然后才能申请微信支付，审核通过后就能使用。
+5. 绑定银行卡和🛰️/支付宝收款。先绑定银行卡，然后才能申请🛰️支付，审核通过后就能使用。
 银行卡直达链接：https://ark.xiaohongshu.com/app-merchant/card-manage/home
-微信开通直达链接：https://ark.xiaohongshu.com/app-merchant/third-settle/regist/wechat/apply
+🛰️开通直达链接：https://ark.xiaohongshu.com/app-merchant/third-settle/regist/wechat/apply
 支付宝开通直达链接：https://ark.xiaohongshu.com/app-merchant/third-settle/regist/alipay/apply
 注意：主营类目填默认的“零售批发”即可。
 
@@ -225,7 +225,7 @@
 
 ![](img/aae4309011a1e43f83b0ee0b0f2ccb7e.png)
 
-📕店铺的主图，需要先从手机端转发到微信，在微信里打开链接，再用哈士奇下载。
+📕店铺的主图，需要先从手机端转发到🛰️，在🛰️里打开链接，再用哈士奇下载。
 
 ![](img/bb097b0ca85a60cace428ba97ca8d507.png)
 ![](img/abb09c36578db86dc1d9a49545855ec5.png)
@@ -376,11 +376,11 @@
 
 1、把素材变成图片
 
-素材到位后，直接截图存成图。电脑微信或QQ的截图功能就能搞定。
+素材到位后，直接截图存成图。电脑🛰️或🐧的截图功能就能搞定。
 
 ![](img/f2388b902d3eb6fd32068d0366b46498.png)
 
-电脑微信聊天框里有个小剪刀图标，点一下就能截屏保存。
+电脑🛰️聊天框里有个小剪刀图标，点一下就能截屏保存。
 
 截图的时候尽量保持尺寸接近，后面统一处理起来省事。
 

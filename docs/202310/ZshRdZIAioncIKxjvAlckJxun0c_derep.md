@@ -12,7 +12,7 @@
 2.  这次我刻意用 Claude 和 ChatGPT 来解题，一是把原本 3小时49分课程 + 30分钟小测 + 1小时40分终考的整天消耗压缩下来；二是顺带验证一下，用生成式 AI 去应付生成式 AI 的题目，命中率到底如何；
 3.  工具给出的答案是中文，我建议你一定要过一遍眼睛。翻译、复述、粘贴这几个动作本身就是复习，全程保持思考。实操下来，全神贯注 2个半小时，学完+拿证完全够用。
 
-【考试入口】https://www.linkedin.com/learning/paths/career-essentials-in-generative-ai-by-microsoft-and-linkedin（需科学上网，建议用 Google 邮箱或微软邮箱登录）
+【考试入口】https://www.linkedin.com/learning/paths/career-essentials-in-generative-ai-by-microsoft-and-linkedin（需🪜，建议用 Google 邮箱或微软邮箱登录）
 
 # 证书是什么来头
 

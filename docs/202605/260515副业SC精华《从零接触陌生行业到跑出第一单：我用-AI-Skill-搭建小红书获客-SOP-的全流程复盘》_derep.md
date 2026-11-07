@@ -4,7 +4,7 @@
 
 **👸号懒人搜索，[懒人专属群](https://t.cn/A6qX5Y2w)独享**
 
-**懒人微信：**lazyhelperl
+**懒人🛰️：**lazyhelperl
 
 ![](img/9b89d833347640c11543757682f4b54e_0_0.png)
 
@@ -513,4 +513,4 @@ REAL PhD 先知全...
 👉 查看圈内数字资产清单和加入门槛：
 https://lazyso.com/insider/
 
-认同这个价值、已经准备好实战的，直接扫码添加我微信：lazyhelperl
+认同这个价值、已经准备好实战的，直接扫码添加我🛰️：lazyhelperl

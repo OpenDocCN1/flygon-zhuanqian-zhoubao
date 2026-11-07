@@ -4,7 +4,7 @@
 
 # 260106 副业 SC 精华 > 👸号懒人搜索，懒人专属群独享
 
-懒人微信：[LazyHelper1](mailto:lazyhelper1)
+懒人🛰️：[LazyHelper1](mailto:lazyhelper1)
 
 ![img/04b81f7a1acf0593459438070e817600_0_0.png](img/04b81f7a1acf0593459438070e817600_0_0.png)
 
@@ -392,7 +392,7 @@ Step4配图风格：保存收藏向图片，分析风格输出中英双格式：
 
 ![](img/04b81f7a1acf0593459438070e817600_21_1.png)
 
-微信：lazyhelperl
+🛰️：lazyhelperl
 
 这里，希望成为你应对信息过载时的一道防线。
 

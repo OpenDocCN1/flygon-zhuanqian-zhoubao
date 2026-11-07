@@ -4,7 +4,7 @@
 
 整理：👸号懒人搜索，懒人专属群精选
 
-懒人微信：lazyhelper1
+懒人🛰️：lazyhelper1
 
 大家好，我是 Tao，法律专业出身。
 
@@ -387,7 +387,7 @@ PS：感谢叁斤老师、朝暮、Ken的催稿，一起龙哥盟！
 
 https://lazyso.com/insider/
 
-认同价值、准备好干活的，扫码加我微信（lazyhelper1）
+认同价值、准备好干活的，扫码加我🛰️（lazyhelper1）
 
 备注：【实操上车】，不闲聊
 

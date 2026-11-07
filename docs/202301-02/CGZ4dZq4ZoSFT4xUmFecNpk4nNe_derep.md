@@ -113,6 +113,6 @@ RPA 确实好用。之前我分享过用后羿采集器做知乎相关的数据�
 
 https://www.winrobot360.com/share/activity?inviteUserUuid=5cd282a5-32eb-426f-ad50-4b3eaa9edc70
 
-做 RPA 的、做短视频带货的、做直播带货的朋友，欢迎交流，微信：cooperhgp。
+做 RPA 的、做短视频带货的、做直播带货的朋友，欢迎交流，🛰️：cooperhgp。
 
 老规矩，加我时备注“龙哥盟”~

@@ -59,7 +59,7 @@
 用户在哪里触达
 
 * 自营阵地：自建网站、App，掌控力强，变现规则自定义，但流量需自建。
-* 他方平台：如Poki、Facebook Instant Games、微信小游戏，有现成用户池，但受规则制约。
+* 他方平台：如Poki、Facebook Instant Games、🛰️小游戏，有现成用户池，但受规则制约。
 * 专业游玩平台：Poki、CrazyGames、itch等，用户本来就为玩游戏而来。
 * 移动分发平台：Google Play、App Store、Steam等，覆盖面广。
 * 社交内容平台：TikTok、YouTube、Discord、Facebook等，社交属性强。

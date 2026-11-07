@@ -88,4 +88,4 @@ https://union.bytedance.com/open/portal/?appId=3000
 
 以上内容希望能为你判断抖音直播项目提供参考。
 
-微信：jlwh91，欢迎交流探讨。
+🛰️：jlwh91，欢迎交流探讨。

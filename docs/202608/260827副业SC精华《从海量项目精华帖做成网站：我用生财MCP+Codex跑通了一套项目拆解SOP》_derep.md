@@ -6,7 +6,7 @@
 
 整理：👸号懒人搜索，懒人专属群精选
 
-懒人微信：lazyhelper1
+懒人🛰️：lazyhelper1
 
 ## 写在前面
 
@@ -328,6 +328,6 @@ SOP 写给人看，开发文档写给 Codex 和开发 Agent 看，两者不能�
 
 👉 查看圈子完整资产与加入门槛：https://lazyso.com/insider/
 
-认同价值、准备好动手的，加我微信（lazyhelper1），备注“想动手”，谢绝闲聊。
+认同价值、准备好动手的，加我🛰️（lazyhelper1），备注“想动手”，谢绝闲聊。
 
 ![](img/f49afc6a7fe39d7cb0171252af62ce89_38_0.png)

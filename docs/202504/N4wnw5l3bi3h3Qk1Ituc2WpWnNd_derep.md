@@ -67,7 +67,7 @@ https://scys.com/content/collection?id=IfRPIqBQ&from=1
 https://scys.com/articleDetail/xq_topic/588555582285524
 芷蓝老师 《100 个朋友圈营销技巧》
 https://scys.com/articleDetail/xq_topic/588555582285524
-杨涛老师 《微信生态中细致运营的一百条小技巧》
+杨涛老师 《🛰️生态中细致运营的一百条小技巧》
 https://scys.com/articleDetail/xq_topic/51558582585224
 我的贴子《6个月发了1000条朋友圈变现15W，总结一下我的经验。》
 https://scys.com/articleDetail/xq_topic/2855451514151441
@@ -76,7 +76,7 @@ https://scys.com/articleDetail/xq_topic/2855288542822141
 
 （2）公域引流怎么做
 
-微信好友不够用，就必须做公域。现在最简单的是📕+👸号，就算不会拍视频、不敢露脸，图文也能获客。具体打法可以看赚钱航海手册。
+🛰️好友不够用，就必须做公域。现在最简单的是📕+👸号，就算不会拍视频、不敢露脸，图文也能获客。具体打法可以看赚钱航海手册。
 
 📕引流：https://scys.com/activity/landing/3041?tabIndex=0
 👸号爆文写作(ip)：https://scys.com/activity/landing/4664?tabIndex=0

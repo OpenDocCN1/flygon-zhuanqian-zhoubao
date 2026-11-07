@@ -393,7 +393,7 @@ https://www.xiaohongshu.com/explore/686b8be3000000000d0191af?xsec_token=ABXEISvN
 https://www.xiaohongshu.com/explore/66a4dc02000000002701f889?xsec_token=ABZ2cevI79jA7LKXEOtR8omsruRxOpOjCtJwVc_PEjPrs=&xsec_source=pc_user
 
 常见问题：
-截图模糊、封面色彩杂乱：https://www.xiaohongshu.com/user/profile/644de044000000000f00615e?xsec_token=YBmcyr8QQzxf9c3Y6VZ3xQuEHyI0Fu1vjevHJ5BzzYFso=&xsec_source=app_share&xhsshare=WeixinSession&appuid=644de044000000000f00615e&apptime=1747637460&share_id=2785665cf6ec46ecb76a13ddcf96c7ce&share_channel=wechat&wechatWid=426d85f882f82463a69950266e5311cd&wechatOrigin=menu
+截图模糊、封面色彩杂乱：https://www.xiaohongshu.com/user/profile/644de044000000000f00615e?xsec_token=YBmcyr8🐧zxf9c3Y6VZ3xQuEHyI0Fu1vjevHJ5BzzYFso=&xsec_source=app_share&xhsshare=WeixinSession&appuid=644de044000000000f00615e&apptime=1747637460&share_id=2785665cf6ec46ecb76a13ddcf96c7ce&share_channel=wechat&wechatWid=426d85f882f82463a69950266e5311cd&wechatOrigin=menu
 自行DIY封面：https://www.xiaohongshu.com/explore/683746c1000000002301fa42?xsec_token=ABdAjc_rQXMnoqx4eLCwwaYdR2zSOG0aFNuOI4XOvhh0c=&xsec_source=pc_user
 内页大字覆盖资料：https://www.xiaohongshu.com/explore/67fa1cc5000000001b0382c5?xsec_token=ABTy6XK8nAX5S1I3xtGw9xtuW1bq3m1s1xNhqeVQ0DXlk=&xsec_source=pc_user
 文案冗长营销感强：https://www.xiaohongshu.com/explore/68761ce90000000011001342?xsec_token=ABfSpGaKh5gr_0hFcpijv7aWm1pdyzP62UEKVy3aBlJSc=&xsec_source=pc_search&source=web_user_page
