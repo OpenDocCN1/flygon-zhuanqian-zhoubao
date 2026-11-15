@@ -1,86 +1,136 @@
 # 嫌 Cursor 导出提示词麻烦？我直接用 Cursor 撸了一个一键导出插件，附 31 条完整开发提示词
+
 ## Cursor 提示词导出插件：让项目交互记录不再难找难复制
+
 作者： 龙哥
+
 日期：2024-12-16
+
 ### 一、为什么要做这个插件
+
 赚钱社区里不少朋友用 Cursor 造出了很赞的项目，还会把开发过程写成笔记分享出来。写这类复盘时，最头疼的就是怎么把项目里和 AI 的对话提示词整理出来。Cursor 本身并没有提供便捷的导出入口，连全选复制都做得不顺手。
+
 要是有个一键把某个项目的全部提示词清单导出来的功能就好了，不仅自己复盘省事，还能通过学习别人的提问思路加速成长。于是我直接用 Cursor 搭了个适合在 Cursor 内部使用的提示词导出插件。
+
 ### 二、怎么想的、怎么做出来的
+
 第一步先上网搜有没有现成方案。很快发现了一个开源项目：[GitHub - somogyijanos/cursor-chat-export: Export your chats from Cursor to Markdown.](https://github.com/somogyijanos/cursor-chat-export)
+
 这个项目是个 Python 脚本，单靠脚本跑起来比插件麻烦不少，再加上 Cursor 更新频率很高，该脚本是 4 个月前的产物，现在基本不可用了。不过拿来拆解学习逻辑非常合适。本身不会写代码的话，也可以把这段代码丢给 Cursor 让它吃透，照着思路再定制自己的插件。
+
 ### 三、插件实际导出效果，以及使用 Cursor 的一些体感
+
 **使用 Cursor 的感觉：做小项目时，提示词可以很随便，AI 理解力很强基本都能接上。项目复杂度上去后，就需要多轮打磨才能达到预期。**
+
 本次导出的内容里只包含了我这边的输入，没有包含 AI 的回覆。回覆信息量大且每次不完全一致，保存价值相对有限。
+
 我自己的提问记录比较零散，拿去参考主要是看思路走向。只要抓住核心逻辑，再复刻出同样功能的插件并不算难。
+
 我的实现路径大致是：
+
 先让 Cursor 研读 GitHub - somogyijanos/cursor-chat-export: Export your chats from Cursor to Markdown. 的实现方式，再基于其思路改写成 Cursor 插件。鉴于原工具在新版 Cursor 上已经失效，需要重新定位提示词的存储位置。这部分定位我没有完全交给 Cursor，自己很快查到了最新版 Cursor 中提示词对应的位置，然后明确告诉 Cursor 插件里该怎么接入。对于零基础的朋友来说，这一步也可以直接甩给 Cursor，让它帮忙分析。小技巧：把数据库文件直接丢给 Cursor 分析，它能更快定位到提示词所在。
+
 下面是我用成品插件导出的本次插件开发过程的 Prompts，仅供参考～
+
 # Cursor Prompts - Cursor_Prompt_Export
+
 导出时间: 2024/12/16 15:15:35
+
 ## Prompt 1
+
 ```
 我想写一个 Cursor 编辑器的 Prompt 导出插件，也就是 vscode 的插件，专注于导出 cursor 编辑器里用户和 ai 的交互内容，包括 chat 和 composer 里的内容
 ```
+
 ## Prompt 2
+
 ```
 @Codebase 参考项目里是一个开源工具，review 代码并给出具体实现过程
 ```
+
 ## Prompt 3
+
 ```
 这是工具代码
 ```
+
 ## Prompt 4
+
 ```
 @cursor-chat-export-main review 整个项目，给出实现逻辑
 ```
+
 ## Prompt 5
+
 ```
 能否用 vscode 插件来实现这个功能
 ```
+
 ## Prompt 6
+
 ```
 分析一下这个 json 文件
 ```
+
 ## Prompt 7
+
 ```
 将每一条 text 提取出来
 ```
+
 ## Prompt 8
+
 ```
 从 1.json 里按顺序提取出所有 text 并生成新的文件 prompt.md
 ```
+
 ## Prompt 9
+
 ```
 继续提取
 ```
+
 ## Prompt 10
+
 ```
 继续
 ```
+
 ## Prompt 11
+
 ```
 可以一次全部提取出剩余的吗
 ```
+
 ## Prompt 12
+
 ```
 写一个 py 脚本，从 1.json 里提取出全部 text 值并按顺序写入到新的 md 文件里
 ```
+
 ## Prompt 13
+
 ```
 写一个 vscode 插件，实现如下功能：1、 @config.yml
 根据这个文件里的不同平台的目录位置，遍历这个目录下边的所有目录；2、遍历出来的目录里如果同时包含有 workspace.json 和 state.vscdb 两个文件的话，进行下一步；3、state.vscdb 是个 sqlite 文件，里边有一个表是“ItemTable”，这个表里有两列，key 和 value，如果 key 值有“aiService.prompts”，进行下一步；4、解析 workspace.json，示例文件
 @workspace.json
 ，提取出“Cursor_Prompt_Export”，也就是目录的最后一段，插件展示出所有这个提取出的字段让用户选择是否导出，如果用户选择导出，将对应目录下的 state.vscdb 文件里 ItemTable 表里的 aiService.promptskey 值对应的 value 导出成 json 文件
 ```
+
 ## Prompt 14
+
 ```
 使用 npmrc 设置源为清华源
 ```
+
 ## Prompt 15
+
 ```
 如何测试一下插件效果
 ```
+
 ## Prompt 16
+
 ```
 > cursor-prompt-export@0.0.1 compile
 > tsc -p ./
@@ -95,15 +145,21 @@ src/extension.ts:141:50 - error TS18046: 'row' is of type 'unknown'.
 ~~~
 Found 3 errors in the same file, starting at: src/extension.ts:61
 ```
+
 ## Prompt 17
+
 ```
 接下来怎么调试
 ```
+
 ## Prompt 18
+
 ```
 我想直接安装这个插件来看看效果
 ```
+
 ## Prompt 19
+
 ```
 WARNING A 'repository' field is missing from the 'package.json' manifest file.
 Use --allow-missing-repository to bypass.
@@ -112,60 +168,93 @@ ERROR Extension entrypoint(s) missing. Make sure these files exist and aren't
 ignored by '.vscodeignore':
 extension/out/extension.js
 ```
+
 ## Prompt 20
+
 ```
 为什么 src 下有两个文件，一个 js 一个 ts
 ```
+
 ## Prompt 21
+
 ```
 让用户选择导出目录
 ```
+
 ## Prompt 22
+
 ```
 将导出的文件改成 md 文件，解析 json 里的 text，按照顺序放到 md 文件里，每一条 text 作为 md 里的一个代码块
 ```
+
 ## Prompt 23
+
 ```
 添加容错机制：1、如果 @config.yml 里指示的目录为空，让用户选择 Cursor workspaceStorage 目录；
 ```
+
 ## Prompt 24
+
 ```
 给插件添加一下功能描述
 ```
+
 ## Prompt 25
+
 ```
 去掉反馈与建议部分
 ```
+
 ## Prompt 26
+
 ```
 插件的描述里还有反馈与建议吗
 ```
+
 ## Prompt 27
+
 ```
 现在是同时导出了 json 和 md 文件吗
 ```
+
 ## Prompt 28
+
 ```
 只导出 md 文件就可以，同时修改 readme
 ```
+
 ## Prompt 29
+
 ```
 用户选择需要导出哪个时，不用展示原始的文件目录
 ```
+
 ## Prompt 30
+
 ```
 1、还能看到具体的路径；2、工作区名称显示支持中文
 ```
+
 ## Prompt 31
+
 ```
 更新 publisher 为 Rand0mWalk，去掉 repository 中的 url
 ```
+
 ### 四、成品与源码获取
+
 文章里无法直接传文件，我把资料放到了网盘：[`pan.quark.cn/s/e69e4dad4408`](https://pan.quark.cn/s/e69e4dad4408)
+
 如平台对外链有限制，麻烦管理员直接把链接移除即可。网盘内容干净无广告，放心下载。
+
 ### 五、如何安装使用
+
 从网盘下载 **cursor-prompt-export-0.0.1.vsix_** 后，直接问 Cursor 怎么装就好，把 AI 工具用进日常工作流里。
+
 插件安装完成后，插件页会有详细的使用说明，网盘里的源码包中也附带了完整的 README 文档。
+
 * * *
+
 评论区：
+
 暂无评论

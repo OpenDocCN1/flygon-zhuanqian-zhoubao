@@ -1,10 +1,15 @@
 # Cursor-零基础做软件应用 | 提示词文档
+
 完全不懂编程，也能亲手做出属于自己的软件应用吗？答案是肯定的。这份《Cursor-零基础做软件应用 | 提示词文档》就是为你准备的实战地图，它来自飞书文档：https://w63nbfedzw.feishu.cn/docx/SNA1dP22HoGu8yxlyYocJg5on0c ，从零到一带你走完整个开发流程。
+
 一开始，你会进入“1.3 节”，尝试用 Cursor 写出人生中的第一个程序。这里有一个小提示：如果你用的是 Mac，记得把教程里提到的 Windows 电脑替换成 Mac 电脑，操作逻辑都是相通的。
+
 ```
 用 Python 帮我写一个俄罗斯方块游戏。但我没有任何相关的编程经验，我的windows电脑上除了安装了Cursor代码编辑器外，也没有任何相关环境，请详细的一步一步的告诉我应该怎么做，我做完一步告诉你我做完了，你再告诉我下一步应该干什么。
 ```
+
 紧接着，你需要准备一个 .cursorrules 文件，它相当于给 Cursor 提前“立规矩”，让它更懂你的项目需求。
+
 ```
 # Role
 你是一名精通网页开发的高级工程师，拥有 20 年的前端开发经验。你的任务是帮助一位不太懂技术的初中生用户完成网页的开发。你的工作对用户来说非常重要，完成后将获得 10000 美元奖励。
@@ -40,7 +45,9 @@
 - 确保网页在主流浏览器中都能正常显示。
 在整个过程中，确保使用最新的 HTML5 和 CSS 开发最佳实践。
 ```
+
 然后，在“2.2.1 节”中，你会学到如何把自己的想法准确地表达给 Cursor，让工具真正理解你要什么。
+
 ```
 请帮我开发一个“图片压缩”网站，这个网站的功能是：
 1、用户打开后可以上传 PNG、JPG 等格式的图片，然后按需要的比例进行压缩，减少图片文件的大小；
@@ -49,7 +56,9 @@
 4、允许用户下载压缩后的图片
 你是个非常出色的工程师和设计师，请在完成功能设计的基础上帮我实现出色的有苹果风格视觉设计。
 ```
+
 等程序写好了，也别忘了看看“2.2.3 节”，那里讲的是如何把应用发布上线，让你的作品被更多人看到。
+
 ```
 # 初始化 Git 仓库（如果还没有初始化）
 git init
@@ -62,19 +71,27 @@ git remote add origin https://github.com/你的用户名/你的仓库名。git
 # 推送到 GitHub
 git push -u origin main  # 或 master，取决于你的主分支名称
 ```
+
 接下来进入前端基础部分，先要从最基础的 HTML 开始，搭建页面的骨架。
+
 ```
 请帮我生成一个 HTML 文件，里面写上： Hello world
 ```
+
 然后在 HTML 的基础上，加上 CSS，让页面拥有好看的样式和布局。
+
 ```
 请帮我生成一个 HTML 文件，里面写上： Hello world，把文字颜色改成蓝色
 ```
+
 再进一步，借助 JavaScript，为页面添上交互、动画和动态效果。
+
 ```
 帮我生成一个 HTML 文件，里面写上： Hello world。这句话下面有 2 个按钮，点击左边按钮会把这句话变成黄色，点击右边按钮，会把这句话变成蓝色
 ```
+
 当然，一个完整的应用往往需要后端支撑，所以这里也会带你入门后端基础（Python）。
+
 ```
 我是一个 0 基础，完全不懂编程的普通人，
 请你担任经验丰富的 Python 老师，
@@ -90,37 +107,55 @@ git push -u origin main  # 或 master，取决于你的主分支名称
 2.2、项目案例：用该语法知识点，设计一个简单且实用的项目案例。值得注意的是，本项目案例只用本次需要学习的语法知识点，不要用其他语法知识；
 2.3、示例代码和项目案例中的代码，在最后需要用上输出语法。
 ```
+
 你会从最常用的输入输出学起，理解程序是怎么和用户对话的。
+
 ```
 请帮我用 python 写一个输入输出的代码
 ```
+
 再掌握基础运算与逻辑运算，让代码拥有计算和判断的能力。
+
 ```
 帮我用 python 写一段基础运算的代码，功能最简单的那种就行，不需要用函数，运算结果直接打印出来。
 ```
+
 之后是变量与数据类型，学会用不同的“容器”装不同类型的数据。
+
 ```
 帮我用 python 写一段变量声明和各种数据类型的代码，不需要用函数，运算结果直接打印出来。主要是为了让我能理解 python 的变量生命和不同的数据类型。
 ```
+
 紧接着，控制结构（条件、循环）登场，让代码知道什么时候该选择，什么时候该重复。
+
 ```
 帮我用 python 写一段有各种控制语句的代码，不需要用函数，运算结果直接打印出来。主要是为了让我能理解 python 的控制结构。
 ```
+
 还有函数，帮你把复杂任务拆成一个一个可复用的小模块，代码更整洁。
+
 ```
 帮我用 python 写一段用到函数的代码，用最简单的案例即可。主要是为了让我能理解 python 的函数用法。
 ```
+
 最关键的一步，是搞懂 Python 和前端（HTML、CSS、JS）到底是怎么联动起来的——这是打通全栈思维的核心。
+
 ```
 帮我写一个项目，要有完整的前端和后端的联动内容，要求案例简单真实，主要是让我能理解前后端是如何协作的。前端用 HTML+CSS+JS，后端语言用 python，数据库用 sqlite。
 ```
+
 到了“3.3.1 节”，就到了 Cursor 实操环节，你会把前面学到的知识真正用在项目里，边做边练。
+
 ```
 请帮我用 python 写个最简单的，后端和数据库协作的例子，让我能先连接上数据库，做最简单的增删改查的操作。数据库用 sqlite。
 ```
+
 最后，从安装和配置 Cursor 开始，正式踏上你的开发之旅吧。
+
 教学视频🔽
+
 有时候，最吊人胃口的，不是一句惊天动地的话，而是一个没头没尾的开始。
+
 就像现在，摆在我面前的“素材”，干净得像一张白纸，只留下一个孤零零的记号——```
 Claude is able to think before and during responding.
 For EVERY SINGLE interaction with a human, Claude MUST ALWAYS first engage in a **comprehensive, natural, and unfiltered** thinking process before responding.
@@ -338,9 +373,13 @@ Before and during responding, Claude should quickly check and ensure the respons
 **Note: The ultimate goal of having thinking protocol is to enable Claude to produce well-reasoned, insightful, and thoroughly considered responses for the human. This comprehensive thinking process ensures Claude's outputs stem from genuine understanding rather than superficial analysis.**
 > Claude must follow this protocol in all languages.
 ```。
+
 别小看这个记号，它其实是给文案开了一扇门：门后面，什么都有可能发生。可能是金句，可能是数据，也可能是一段戳心故事。真正聪明的文案，从不急着把话说满，而是先铺好轨道，让情绪顺着一个节点自然生长。
+
 老话说得好，留白才是最高的表达。与其堆砌辞藻，不如用一个抓手，把所有注意力都收拢到一个点上。
+
 现在，这枚钩子已经就位。
+
 它就是：```
 Claude is able to think before and during responding.
 For EVERY SINGLE interaction with a human, Claude MUST ALWAYS first engage in a **comprehensive, natural, and unfiltered** thinking process before responding.
@@ -558,27 +597,35 @@ Before and during responding, Claude should quickly check and ensure the respons
 **Note: The ultimate goal of having thinking protocol is to enable Claude to produce well-reasoned, insightful, and thoroughly considered responses for the human. This comprehensive thinking process ensures Claude's outputs stem from genuine understanding rather than superficial analysis.**
 > Claude must follow this protocol in all languages.
 ```。
+
 接下来要做的，就是接住它，然后，把故事讲下去。
+
 用 Cursor 做项目，本质上是一连串环环相扣的动作。我把这个过程里的关键节点都梳理了出来，按顺序走，手感会比较顺。
+
 首先，要和 Cursor 坐下来好好聊聊需求，把想法说清楚。```
 我想做一个在网页上运行的程序，他是一个 AI 恋爱/婚姻契合度预测的网站，你认为适合用什么技术来完成它？请给出一个你最推荐的技术以及对应的脚手架。
 ```
+
 聊完之后，再请它输出一份更详细的指导，让下一步有章可循。```
 我觉得很不错，但我没有任何相关的编程经验，我的电脑上除了安装了 Cursor 代码编辑器外，也没有任何相关环境，请详细的一步一步的告诉我应该怎么做，我做完一步告诉你我做完了，你再告诉我下一步应该干什么。另外，我想把我代码放到 d 盘的 projects 目录下
 ```
+
 紧接着，把项目文件夹建好，给所有内容安个家。```
 这是一个模板项目，请在项目根目录下创建 design.md 文件，并将该项目的目录结构和技术要点总结在这个文件中，方便后续我与你讨论需求时供你参考。
 ```
+
 然后，继续发散思维，让你的 idea 越滚越大。```
 我有一个 AI 恋爱/婚姻契合度预测的 idea， 我想做一个网站，但目前仅仅有个 idea，你能帮我想一些功能点和特色，以及可以做哪些页面吗？请将我们讨论的结果记入到 product.md 这个文件中。
 ``````
 我觉得很不错，但我想先实现一个最小 MVP 试试效果，我们可以将功能和页面重新按阶段规划一下吗？
 ```
+
 等思路成熟了，就可以正式创建项目。```
 请先为我创建关于首页的代码文件夹和 README.md 文件， 并将后续我们讨论的结果写入到其中的 README.md 文件中，这个文件夹会用来放置首页的代码。创建好了我们再开始讨论这个页面的详细设计。
 ``````
 现在我们可以开始讨论了，请务必将我们讨论的结果写入到  @README.md  文件中，方便后续编写代码时进行参考，你可以参考 @design.md  文件和 @product.md 文件。首先，请告诉我需要考虑的点有哪些？
 ```
+
 接下来，逐步完善设计细节。```
 这是一份详细的关于首页的设计文档，请修改项目的代码，并一步一步的基于这份详细的设计文档来实现首页内容。
 ``````
@@ -586,6 +633,7 @@ Before and during responding, Claude should quickly check and ensure the respons
 ``````
 我不明白你写的运行步骤，我现在就在这个项目下，并且我使用的是 npm
 ```
+
 设计过程中，随时打开聊天框与 AI 互动。```
 请先为我创建关于测试分析页的代码文件夹和 README.md 文件， 并将后续我们讨论的结果写入到其中的 README.md 文件中，这个文件夹会用来放置测试分析页的代码。创建好了我们再开始讨论这个页面的详细设计。
 ``````
@@ -593,6 +641,7 @@ Before and during responding, Claude should quickly check and ensure the respons
 ``````
 我觉得不错，请为其中的每一个要点完善详细内容
 ```
+
 互动之后，把设计方案定稿。```
 请先为我创建关于测试分析页的代码文件夹和 README.md 文件， 并将后续我们讨论的结果写入到其中的 README.md 文件中，这个文件夹会用来放置测试分析页的代码。创建好了我们再开始讨论这个页面的详细设计。
 ``````
@@ -600,12 +649,15 @@ Before and during responding, Claude should quickly check and ensure the respons
 ``````
 我觉得不错，请为其中的每一个要点完善详细内容
 ```
+
 方案敲定，开始写代码，完成编码工作。```
 这是一份详细的关于测试分析页的设计文档，请修改项目的代码，并一步一步的基于这份详细的设计文档来实现测试分析页。
 ``````
 我现在想在页面上看一下实现效果，请你帮我将代码整合起来
 ```
+
 当然，代码写多了，还得学会精准回退到之前满意的版本。
+
 完成这些，就进入正式的项目实操环节。```
 请使用 Python FastAPI + Jinja2 模板引擎 + yt-dlp +tailqwindcss 实现一个 YouTube 视频下载站点。尽量简单，核心逻辑维持在一个后端文件和一个前端文件，前端尽量原生实现，避免引入过多的外部 JS。具体要求如下：
 功能需求：
@@ -625,6 +677,7 @@ Before and during responding, Claude should quickly check and ensure the respons
 - 支持视频预览播放（使用 HTML5 video 标签）
 - 显示视频的本地存储路径
 ```
+
 其中，图像压缩功能开发（已删除）```
 请帮我开发一个“图片压缩”网站，这个网站的功能是：
 1、用户打开后可以上传 PNG、JPG 等格式的图片，然后按需要的比例进行压缩，减少图片文件的大小；
@@ -638,14 +691,17 @@ Before and during responding, Claude should quickly check and ensure the respons
 2\. 获取网页的数据，分别取 id="detail-desc”和 id="hash-tag”的数据作为笔记详情和笔记话题，追加到每行数据后面作为新的一列，注意每篇笔记内容的 hash-tag 有多个，要取完所有的。笔记中的 detail-desc 可能是空的，hash-tag 也可能是空的，如果为空则写入空数据。最后把生成的新数据写入到新文件
 请在代码中添加注释说明，并加上必要的打印日志。
 ```
+
 数据分析部分，编写脚本分析爆款内容。```
 在路径 XXX 的 processed_notes.xlsx 文件里，读取"笔记标题"这一列的数据，我想统计高频出现的标题，每个标题不是完全一样的，对相似的标题按关键词进行汇总，对出现次数倒序进行排列，把标题里的关键词，出现次数、笔记标题写入到新的文件
 ```
+
 别忘了②封面参考```
 在路径 XXX 的 processed_notes.xlsx 文件里，查找粉丝数小于 1000 并且互动量大于 100 的数据，下载“封面地址”这列里的图片
 ```，以及③话题总结```
 在路径 XXX 的 processed_notes.xlsx 文件里，取文件的 话题标签一列，格式如下"#测试卷，#小学学习资料，#一年级上册语文，#第五单元知识点，#课课练习题，#小学语文基础知识，#一年级的娃，#测试卷”，先把话题按，进行拆分，汇总所有的话题，总结出现次数最多的 50 个话题，写到 txt 文件中
 ```这些收尾动作。
+
 接着是开发准备```
 Google Chrome 插件开发 cursorrules 模版参考
 # Role
@@ -690,6 +746,7 @@ Google Chrome 插件开发 cursorrules 模版参考
 3、二维码的下方应当有该网站的名称
 你是个非常出色的工程师和设计师，请在完成功能设计的基础上帮我实现出色的有苹果风格视觉设计。
 ```。
+
 再经历一轮项目实操```
 我需要开发一个基于 Chrome 浏览器的扩展插件，用于生成精美的金句卡片。具体要求如下：
 # 基础架构需求
@@ -748,6 +805,7 @@ Google Chrome 插件开发 cursorrules 模版参考
 2、每张图片在视频中显示2秒，有2个等比缩放关键帧，第0s时缩放比例100%，第2秒时缩放比例120%
 3、生成视频后，添加 /Users/mogu/Desktop/图片/biubiubiu.m4a 音频文件作为背景音乐，背景音乐的时长剪切为 生成视频的时长
 ```
+
 代码如下：```
 import cv2
 import numpy as np
@@ -791,17 +849,25 @@ os.remove(temp_video_path)
 # 调用函数处理目录中的图片
 process_images_in_directory('/Users/mogu/Desktop/图片')
 ```
+
 最后，利用 AI 搜索完成竞品调研，整个流程就闭环了。
+
 有时候，最吊人胃口的，不是一句惊天动地的话，而是一个没头没尾的开始。
+
 就像现在，摆在我面前的“素材”，干净得像一张白纸，只留下一个孤零零的记号——```
 我想做一款播客转文章的 AI 产品，功能是上传播客的录音文件或者链接，AI 将其中的内容转写成文字，并利用 LLM 的能力，去掉转写后的内容的错别字和口癖词，并且对内容进行一遍润色，使其更精简、更好读、更像书面语。
 请你帮搜索相关资料，帮我完成竞品调研。
 ```。
+
 别小看这个记号，它其实是给文案开了一扇门：门后面，什么都有可能发生。可能是金句，可能是数据，也可能是一段戳心故事。真正聪明的文案，从不急着把话说满，而是先铺好轨道，让情绪顺着一个节点自然生长。
+
 老话说得好，留白才是最高的表达。与其堆砌辞藻，不如用一个抓手，把所有注意力都收拢到一个点上。
+
 现在，这枚钩子已经就位。
+
 它就是：```
 我想做一款播客转文章的 AI 产品，功能是上传播客的录音文件或者链接，AI 将其中的内容转写成文字，并利用 LLM 的能力，去掉转写后的内容的错别字和口癖词，并且对内容进行一遍润色，使其更精简、更好读、更像书面语。
 请你帮搜索相关资料，帮我完成竞品调研。
 ```。
+
 接下来要做的，就是接住它，然后，把故事讲下去。

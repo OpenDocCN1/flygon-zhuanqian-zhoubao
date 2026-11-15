@@ -1,117 +1,231 @@
 # 详细拆解YouTube shorts 故事号类型
+
 做 YouTube 短视频，很多人一上来就聊小说推文，但真正更早跑通、也更稳的，其实是“故事类账号”。它说穿了并不复杂：从海外文字社区里翻帖子，再加工成短视频。你可以把它理解成英文版的“知乎神贴视频 / 贴吧热帖视频 / 天涯神贴视频”，但它和小说推文并不是一个东西。内容多以搞笑、离奇、惊悚为主，画面上常配减压类混剪。目前常见的外壳有三种：旁白解说式、Reddit 界面式、短信对话式。
+
 还有一种形态，是一个人分饰两角演搞笑对话，或者把搞笑段子二次加工成动画短片——就像国内博主把口播内容做成沙雕动画一样，底层逻辑都是“故事类内容”。
+
 这类型账号的商业张力也很大：既能拿平台播放分成（YPP），也能做 CPS、CPA、带货、产品推广、定制商单，而且制作门槛不高，真正花时间的是素材库的积累。后来 TikTok 上热闹过一阵的小说推文，其实就是从故事类账号的基础上长出来的变体；故事类账号出现得更早，生命周期也更持久。
+
 先帮大家客观梳理一下利弊。
+
 有利的地方在于：
+
 - 延展性很强：模板不动，选题可以不断换；选题不动，画面形式可以不断换。这一点后面拆具体风格时会看得更清楚。
+
 - 变现多样：收益权限还没开通时，也能靠 CPA 这类广告单先撑住现金流，给自己留出成长期。
+
 - 剪辑简单：新手能快速上手，同时摸清平台流量逻辑、基础规则和功能。
+
 难点也很明显：
+
 - 起号偏慢，需要钻研海外社媒，解决采集和文案加工能力，还要能读懂文化差异产生的梗；把这几关过了，账号起步才会明显提速。
+
 综合来看：它的视觉形式足够丰富，所以可玩空间大。曾经跑出过流量的文本，可以反复拿出来翻新，复刻风险低。Shorts 新规支持 3 分钟之后，故事类账号能放进更多情节，未来还有冲劲，属于那种低调但长期有产出的老赛道。这类内容通常不打标签，偶尔配一首背景音乐，再加一个标题，想扒并不容易；可一旦找到一两个标杆账号，就等于摸到了门道。
+
 下面正式进入风格拆解。每个风格我都会按三条线讲：素材整理、正向原创练习、反向借鉴练习。
+
 内容出海这件事，本身就不轻松。它不意味着躲开了内卷，反而可能比国内更卷：你要和 TK 的成熟团队卷，和海外本地创作者卷，还要和未来大量涌入的国内团队卷，甚至和赚钱圈友卷。所以，多给自己加技能点非常关键。只靠一套简单工作流远远不够，你需要懂海外文化，有跨平台信息整合能力，也要具备逆向思维和拆解能力。这样才可能从人群里跑出来。这个板块，就是为了帮大家补上这些能力，同时也会让你在实操中攒下一些别人抢不走的本事。
+
 接下来我会手把手拆解两个核心分支：Reddit 流、短信流。内容包括：AI 深度改稿、Reddit 模板搭建、用海外社媒平台抓取信息。Reddit 群组的意义不只是拿素材，还是你接触海外文化、建立海外交流渠道的窗口；而采集对标，则需要你熟练使用不同平台的搜索功能和信息流推荐机制，慢慢养出属于自己的对标库。当然，里面也会涉及剪辑套路和模板化文案的写法。你会发现，一段平常的故事，是怎么变成有来有回的对话的。
+
 先提醒一句：以下的文案改写训练，没有限制字数和对话轮次。如果你配完音、去完气口后超出 60 秒，请自行调整 prompt，或者手动删减内容和对话来压缩时长。TikTok 这边不太用操心；Shorts 规则彻底更新后，大约 12 月上中旬，只要控制在 3 分钟以内也没问题。
+
 ### Reddit 流
+
 它的核心逻辑，是把传统文字平台上的帖子拿来做二次创作，其中 Reddit 贡献的素材量最大。Reddit 是美国一个集新闻、讨论、评分于一体的社区型网站，类似国内的贴吧加豆瓣。通过进入特定群组，你可以挖到大量值得改编的故事和段子。
+
 ![](img/zhuanqian_9fbc1c09c20ad5e15ea392467e8b575e.png)
+
 ![](img/zhuanqian_b5e4ed3f57dada2712fecc352c1c90b9.png)
+
 上面两张图分别是“纯故事 + 字幕”和“Reddit 开头模板 + 字幕”的效果。
+
 做 Reddit 流需要四样东西：
+
 - 故事出处
+
 - 改写后的文案
+
 - Reddit 开头模板
+
 - 解压向画面素材
+
 故事去哪儿找？美国有大量交互式文字平台，比如 Reddit、Quora、The Moth、4chan、8kun、Discord。其中 Reddit 体量最大，又能匿名发言，所以可采集的故事最丰富。下面涉及素材采集的讲解，我默认以 Reddit 为例。你可以先加入 Story、AITAH 这类群组。
+
 具体怎么找更多群组？打开翻译功能去浏览，系统会顺藤摸瓜给你推很多同类交流区。
+
 ![](img/zhuanqian_82153e7d62e6689a782e0de753a17561.png)
+
 ![](img/zhuanqian_c4332a77236135417f3728e3e26641f8.png)
+
 ![](img/zhuanqian_177e03fcbcdebdfbe36c8b995a267bed.png)
+
 ![](img/zhuanqian_21d2439285900281fbab09458d76b8a2.png)
+
 ![](img/zhuanqian_39f285a93e2ff811fa90aa85f72a263d.png)
+
 这里顺便分享几个我常用的：
+
 https://www.reddit.com/r/BestofRedditorUpdates/
+
 https://www.reddit.com/r/AITAH/
+
 https://www.reddit.com/r/AmItheAsshole/
+
 https://www.reddit.com/r/TrueOffMyChest/
+
 https://www.reddit.com/r/self/
+
 https://www.reddit.com/r/nosleep/
+
 #### Reddit 开头模板怎么弄
+
 先看模板长什么样：
+
 ![](img/zhuanqian_0a3033e23b1b4107ca36113d51464f20.png)
+
 看到这张图，你的第一反应是不是截图、抠图、抹掉文字和头像，再自己去 P？或者去稿定设计、Canva 上找现成的版式？其实有个更省事的方式：用 Figma 自制。Figma 社区里已经有现成的 Reddit 模板，组件很全，唯一的小问题是原始版本是横版，需要你手动改成竖版。
+
 ![](img/zhuanqian_99393df4b7c72ff44780a38c353c56f0.png)
+
 ![](img/zhuanqian_4c1d1f8d78c67c5bba45986037c3a7e0.png)
+
 这个在线工具的社区里有大量模板，搜索 Reddit 就能看到，组件相当齐全。如果以后有海外风格模板的需求，也可以常去这里面淘。
+
 https://www.figma.com/
+
 https://www.figma.com/community
+
 ##### 模板的界面和操作
+
 ![](img/zhuanqian_066ddad7f8d2e9f0d993f8b323c621a0.png)
+
 ![](img/zhuanqian_064c1490a19e3097742b3aaaf8345671.png)
+
 ![](img/zhuanqian_1a763cc9718b3ffa2a6bdcf850843c97.png)
+
 其他细节你可以自己研究，比如加上一些图标，或按自己的审美调整。
+
 如果不想自己改，我这里有一份调好的模板，打开网址就能直接用：
+
 https://www.figma.com/community/file/1434129226221600298
+
 #### 解压素材去哪找
+
 一个有效的笨办法：用新号把对标账号都关注一遍，再多刷一阵，系统就会慢慢推相关工作流给你。遇见合适的画面就收集起来，逐步搭出自己的素材库。想做好故事类账号，自己的素材库几乎等于刚需。
+
 #### 文案：正向原创练习
+
 先把 Reddit 里看到的故事，压缩或改写成适合 60 秒左右讲完的脚本。举个例子，某个帖子的选题是这样的：
+
 ![](img/zhuanqian_1f7f3964de5d6d7c9fe781156a448341.png)
+
 ![](img/zhuanqian_89ec6a93cd4eab649fdb81adb2a8b68d.png)
+
 ![](img/zhuanqian_9bc29e8029721087af7b6409f1fd9636.png)
+
 ![](img/zhuanqian_de7b4a54d6c68f50725fd49bc9b342f9.png)
+
 原帖大意如下：
+
 一个 Reddit 用户讲过家族往事：当年抗蛇毒血清还没有普及，他的祖父被悉尼漏斗网蜘蛛咬了，同事用纱布裹住手，让三个人挤进一辆车，从 Lithgow 往悉尼赶。半路上，车速太快，警笛声跟了上来。警官走向车窗，以为是揪住了几个下班后乱飙车的年轻人；结果副驾驶举起了装蜘蛛的罐子，又指了指那只缠满绷带的手。警官眼睛瞬间瞪大，只说了一句“好，跟我走”，随后冲回警车、拉响警笛，一路开道把他送进悉尼，时间比常规状态少了一半。最让全家人笑到不行的，是司机这辈子开得最快的一次，居然是在警车后面跟出来的。
+
 这个故事的梗点有三层：
+
 1. 警察一开始以为抓到的是几个无所事事的超速青年，摆出的姿态是公事公办。
+
 2. 当他看到那只致命的漏斗网蛛后，角色立刻转换：执法者变成了救人的人，甚至主动带队超速。
+
 3. 收尾反转：一行人追着警车狂飙，创下了个人车速纪录，而这场“违法式狂飙”恰恰是警察本人领的队。
+
 执法者带头“违规”，是天然的幽默开关；再加上紧急状况下的人情味，整个故事一下子就活了。
+
 接下来进入改写环节，把最有吸引力的部分放在开头，再按新的叙述线理顺。这样既能去重，也能让笑点更聚拢。示范如下：
+
 关于那次澳洲毒蛛惊魂，叔叔讲过很多回。那天祖父在 Lithgow 被致命毒蛛咬伤，叔叔和两位朋友赶紧开车往医院赶。
+
 My uncle told that spider story many times. On that day, my grandfather was bitten by a deadly spider in Lithgow, so my uncle and two friends rushed him toward the hospital.
+
 开出没多久，他们就被警车追了上来。叔叔说，他当时正守着那只装蜘蛛的玻璃罐，后座上的祖父已经痛得满头冷汗。
+
 Before long, a police car came up behind them. Uncle said he was watching over the glass jar holding the spider, while my grandfather sat in the back, sweating from the pain.
+
 “你们不知道刚才开得多快吗？”警员凑到车窗边，语气里全是斥责，大概以为拦下的是几个闲得发慌的飙车青年。
+
 “Do you have any idea how fast you were going?” The officer leaned in, sounding annoyed, probably thinking he had stopped some bored street racers.
+
 叔叔没接话，只把手里的玻璃罐抬起来，又朝祖父包着纱布的手指了指。警员的表情瞬间从严肃变成震惊。
+
 Uncle said nothing. He simply lifted the jar and pointed to my grandfather’s wrapped hand. The officer’s face changed from stern to shocked in a heartbeat.
+
 然后警笛就响了。巡逻车一路领跑，把他们顺利送进悉尼。
+
 Then the siren started. With the patrol car leading the way, they made it into Sydney without delay.
+
 叔叔说，最有意思的结尾是：他们这辈子唯一一次开到了极限速度，却是在警车后面。
+
 The punchline, as my uncle put it: the only time they ever drove at top speed, they were following a police car.
+
 这种改写可以套用下面的指令模板：
+
 > 我需要你帮我改写原文故事，改写规则：[字数控制：新文案字数≤原文字数×1.1] + [结构：精华开篇+细节递进+转折+点题] + [保留：人称关系、核心事件] + [替换：每段最多2个关键词重复，用新鲜比喻和动作描写代替常见表达] + [语言：简练句式，清晰主干]
+
 拆开来看就是五个约束：
+
 1. 明确字数上限；
+
 2. 约定改写结构；
+
 3. 点出必须保留的要素，比如人称、关键情节；
+
 4. 规定替换规则，避免同一段里堆叠重复关键词，多换新鲜比喻和动作描写；
+
 5. 限定语言风格，追求句子精炼、主干清晰。
+
 这样既能守住故事的核心，也不会写得拖沓。把同样的指令分别发给 Claude 3.5 和 GPT-4o，你会看到两种不同风格的输出：
+
 ![](img/zhuanqian_6b5bc9b20c567ae3093f75e37effe6c6.png)
+
 ![](img/zhuanqian_f208ff49ec4c6ed7ecb5aff315caa09d.png)
+
 ![](img/zhuanqian_4e5da5bf13ba243d016e783ec00dfbe8.png)
+
 ![](img/zhuanqian_90b0b38a1334706bec2f305049eaef09.png)
+
 对比之后，你就能判断自己的 prompt 是否有偏差，也能发现不同模型需要怎样微调。比如 Claude 有时会擅自改成第三人称，这时你要在 prompt 的上下文里给出明确修正，直到它输出你想要的效果。
+
 配音部分，点击上方那串箭头跳转到对应章节；后面再配音，这一节可以直接复用，不再展开讲。
+
 #### 文案：反向借鉴练习
+
 反向练习其实就是把“自己创作”换成“改编别人已经验证过的文案”。核心步骤不变：先挑一条视频，把对白转录成文字，再按你自己调好的模板改写成新内容。操作流程总结成四个动作：选视频 → 转文案 → 改写 → 生成新稿。下面放一个案例，原文我截取到这里，方便你感受这个过程。
+
 原文：
+
 我到现在都忘不了那个下午，一个孩子在我眼皮底下走了，而我后来选择了沉默。
+
 我教的是初中。那天放学前的考试时间，阳光平平无奇。午休后，有个学生推门进来，满身大汗。外面天很冷，这景象本身就不对劲。我让他先去擦一下脸，但总觉得哪里不对。
+
 考试进行到一半，他晃晃悠悠走到讲台前，手死死攥着一支铅笔，好像那是他唯一的支撑。眼神涣散，问我一句：“你在放什么歌？”
+
 我下意识回他：“是妈妈与爸爸乐队的歌。”
+
 他没接话，反而更木了，声音很轻地说：“我能打个电话吗？我想给家里打个电话。”
+
 话音未落，人就直挺挺倒在我面前。
+
 资源警官和校医冲进来，救护车很快就到了。可我清楚地看到，他已经没了呼吸。
+
 事后，孩子的父母来找我求证每一个细节，校长也一同在场。聊到临终前说了什么时，我照实转述了他的两句话。
+
 但他们听岔了，把“我能打电话回家”理解成了“我想打电话给妈妈和爸爸”。当他们当场崩溃痛哭时，我看着他们绝望的表情，终究没能说出真相。后来他们告诉我，孩子早在三岁之后就再也没这么称呼过父母了。
+
 医院的结论是脑动脉瘤破裂，疑似数周前一次头部撞击诱发的。那孩子最终被火化，而那天的画面，我这辈子都摆脱不了。
+
 * * *
+
 悲剧本身就自带重量，加上低沉的背景音乐，情绪很容易被推到顶点。那我们就换一种讲法讲一遍。
+
 想让改编后的故事不丢魂，又能让人眼前一亮？请记住这些原则：篇幅得克制，新稿最多比原稿长一成；开头先放亮点，中间慢慢铺细节，设计一个转折，结尾点题收束；人物称呼、关系以及关键事件，一个都不能改；同一段里重复出现的关键词不能超过两个，多用鲜活比喻，细细描摹动作，以取代俗套表达；句式简短，主干清楚。做到这几点，故事就稳了。```确保改写既保持故事精髓，又避免冗长。最重要的，人称描述视角不要改变。
 以下是原文，请给我改写后中英文对照：
 ![](img/zhuanqian_e3c9d0d82ff9a791314fe8ea2c484c10.png)
@@ -296,179 +410,349 @@ shorts总播放量: 648,376,040次
 因为方便配音，后期只需要把对应对话切出来就好，当然本篇讲解全部为手动操作，力求新人上手就会，自动化一概不讲，有能力小伙伴自行改良。在最下方我会给到自动化的思路，点击跳转。
 ### 标准化模版套用
 ```
+
 **1. 精华提炼**
+
 - 核心点1(故事主题): 婚姻日常里的一次餐桌错位被放大成边界感冲突，表面是早餐器具与咖啡份量，内核是“共同生活”与“独立自理”的认知差。黑色幽默在于双方都自认体贴，却把关心做成了冷漠。
+
 - 核心点2(关键冲突): 他习惯把关爱落到双份准备上，她习惯先把自己安置好再假设对方能自理。沟通路径从直说到调侃再到沉默，都被道歉、反问或轻描淡写接住，形成僵局。
+
 - 核心点3(情感转折): 自我怀疑期后，他发现她对外部来客会过度周到，对挚友会提前备餐。最终她坦承不是不在乎，而是长期独居让她把“能自理”误读为“不需要被纳入”。
+
 - 核心点4(结局指向): 没有彻底修复，只达成表达方式的共识。第二天她照例备了双份，却把他的那份锁进保温箱且钥匙失踪，荒诞感被延续。
+
 **2. 模板应用**
+
 - 选定模板号：#02 恶作剧威胁 交叉 #05 误解情境 与 #10 背叛发现 的质询线。
+
 - 背景设定：婚后第二年周末清晨，他醒来面对空杯与水槽残局。她默认他会自搞定，他以“第二套餐具是否传说”开调侃，埋下伏笔。
+
 - 发展过程：围绕咖啡杯数、餐具归属、提醒设置进行试探性拉扯。聊天记录显示她曾为朋友预留早餐，触发首次反转。
+
 - 高潮冲突：他以聚会影像为证据质问，为何能记住他人偏好却忽略枕边人。她解释把他的独立解读为无需投喂，构成二次认知逆转。
+
 - 结局处理：约定更明确的沟通规则，但并未真正弥合。第二天双份准备里的一份被锁箱，钥匙不知去向，留下悬念。
+
 **3. 情绪递增**
+
 困惑→失落→荒诞→恼火→大笑→逆转→再逆转→苦笑收尾
+
 **4. 角色设计**
+
 - A角色 周远：细腻体贴，习惯用细节表达在乎，缺陷是回避正面冲突，偏好暗示且易自我否定。
+
 - B角色 林岚：独立高效，自我管理强，缺陷是把“你能行”等同于“你不需要”。反套路在于对外人极具照顾力。
+
 - 配角 小孟：朋友线，通过聊天记录与聚会影像推动真相揭露。
+
 - 反差：他把爱写在餐具和咖啡里，她把爱投在大事和他人身上。
+
 **5. 变量元素**
+
 - [手机界面] 置于他展示提醒设置后的对话，用于佐证她确实记录过此事。
+
 - [聊天记录截图] 置于质问朋友留餐后的对话，作为第一次反转证据。
+
 - [派对照片] 置于聚会照顾力对质中，推动重大反转。
+
 每个变量仅出现一次，与对话直接关联。
+
 **6. 对话结构**
+
 开场铺垫 7 轮，建立清晨场景与差异
+
 推进发展 9 轮，冲突升级并引入聊天记录反转
+
 核心高潮 9 轮，以照片对质完成认知逆转
+
 收尾结局 7 轮，商定沟通但以锁箱收束
+
 合计 32 轮
+
 **7. 完整对话**
+
 ### English Version
+
 #### Opening
+
 A: “Did you cook for two or am I on my own for breakfast?”
+
 B: “I had coffee and toast. You were still out, I thought you’d handle it.”
+
 A: “I wake up starving, you know that.”
+
 B: “You’re good at handling yourself.”
+
 A: “Handling is easy. Remembering there’s another person is different.”
+
 B: “Are we really fighting about bread?”
+
 A: “No, I’m just checking if the second set of cutlery is a myth.”
+
 B: “Just say you’re hungry.”
+
 #### Development
+
 A: “I did. I asked if you wanted me to grab sandwiches.”
+
 B: “You asked me. I already ate.”
+
 A: “Fine. Sink full, one K-cup, kitchen looks raided.”
+
 B: “I wasn’t trying to hurt you.”
+
 A: “I know. That’s why it hurts, it lands uninvited.”
+
 B: “So you want me to stop doing things for you?”
+
 A: “I don’t want us to keep score.”
+
 B: “You’ve been keeping a list, haven’t you?”
+
 A: “A nudge.” [Phone screen] “It says ‘Brew for two’.”
+
 B: “That’s my nudge.”
+
 A: “On your phone.”
+
 B: “I set it after you said it bothered you.”
+
 A: “Then why was it snoozed?”
+
 B: “For about the length of our marriage.”
+
 #### Climax
+
 A: “I don’t need a chef. I just want a heads-up before the dishes vanish.”
+
 B: “You think I never think about you?”
+
 A: “Sometimes I feel like an optional add-on.”
+
 B: “That’s not fair.”
+
 A: “Then explain this.” [Chat screenshot] “Last month you saved food for Meng because he had an early train.”
+
 B: “He told me the night before.”
+
 A: “I’ve told you plenty of times I get up hungry.”
+
 B: “You’re right. Sorry.”
+
 A: “Sorry is easy. One-plate mornings don’t change.”
+
 B: “Look at this.” [Party photo] “At Meng’s birthday I made sure everyone ate because you said you hate hosts who forget guests.”
+
 A: “You remembered everyone’s preferences.”
+
 B: “I thought you didn’t need that kind of care. You always manage.”
+
 A: “I manage because the food is gone first.”
+
 B: “I genuinely thought you liked doing things your way.”
+
 A: “I like being included. That’s not a rescue request.”
+
 B: “I didn’t exclude you. I just assumed you were fine.”
+
 A: “And I assumed marriage meant no paperwork for breakfast.”
+
 B: “So we both guessed. Bread took the hit.”
+
 #### Ending
+
 A: “Let’s be concrete. If you cook, ask me. I’ll answer.”
+
 B: “And if I’m up first, I’ll ask you too. No forms.”
+
 A: “I’ll stop hinting and say when it stings.”
+
 B: “Helpful. Sometimes I hear the joke and miss the point.”
+
 A: “So we’re not fixed?”
+
 B: “No. But we named toast as a recurring issue.”
+
 A: “You made two portions today?”
+
 B: “Yes. Yours is in the insulated box so you won’t miss it.”
+
 A: “Great. Where’s the key?”
+
 B: “No idea. I did set a phone reminder though.”
+
 ### 中文版本
+
 #### 开场
+
 A：“你是只给自己做，还是要我自己对付早餐？”
+
 B：“我喝了咖啡，吃了吐司。你还在睡，我以为你会自己搞定。”
+
 A：“我醒来就饿，你知道的。”
+
 B：“你自己照顾自己挺在行的。”
+
 A：“会搞定是本事。记得家里还有人是另一回事。”
+
 B：“我们真要为面包吵吗？”
+
 A：“不是。我只是确认第二套餐具是不是传说。”
+
 B：“直接说你想吃不就好了。”
+
 #### 推进
+
 A：“我说过。我问你要不要我去买三明治。”
+
 B：“你问的是我，我已经吃完了。”
+
 A：“好。水槽满了，咖啡一杯，厨房像被洗劫。”
+
 B：“我没想伤你。”
+
 A：“我知道。正因如此才难受，它总是自己上门。”
+
 B：“那你想我以后什么都不管？”
+
 A：“我不想把日子过成记分板。”
+
 B：“你是不是在记账？”
+
 A：“只是个小提示。”[手机界面]“上面写着：‘两杯。’”
+
 B：“那是我设的。”
+
 A：“在你手机上。”
+
 B：“你说这事让你难受后我设的。”
+
 A：“那怎么被拖延了？”
+
 B：“大概拖延到了我们结婚为止。”
+
 #### 高潮
+
 A：“我不要私人厨师。只希望盘子没了前你能想起我还在。”
+
 B：“你觉得我从没想过你？”
+
 A：“有时候我像个可选项。”
+
 B：“这不公平。”
+
 A：“那解释下这个。”[聊天记录截图]“上个月小孟早班车，你给他留了吃的。”
+
 B：“他前一晚说的。”
+
 A：“我不止一次说过我早上饿。”
+
 B：“你说得对。对不起。”
+
 A：“道歉很容易。一人份的问题没变。”
+
 B：“看看这个。”[派对照片]“小孟生日那天我招呼大家，是因为你说过最怕主人忘了客人。”
+
 A：“你连大家口味都记得。”
+
 B：“我以为你不需要这种照顾。你一直挺能自理。”
+
 A：“能自理是因为东西先没了。”
+
 B：“我真以为你喜欢自己安排。”
+
 A：“我喜欢被纳入考量，不是被救援。”
+
 B：“我没排斥你，只是以为你没事。”
+
 A：“我还以为结婚不用走流程申请早餐。”
+
 B：“所以我们都在猜，面包背锅。”
+
 #### 收尾
+
 A：“试着具体点。你做东西时问我一声，我会答。”
+
 B：“我先起也问你。别搞成问卷。”
+
 A：“我会不再拐弯，直接说哪里不舒服。”
+
 B：“有帮助。有时我只听见笑话，漏了里面的话。”
+
 A：“所以还没修好？”
+
 B：“没。但至少确认了吐司是顽疾。”
+
 A：“今天做了双份？”
+
 B：“对。你的那份装保温箱了，免得你吃不到。”
+
 A：“好。钥匙呢？”
+
 B：“不知道。倒是手机里设了提醒。”
+
 ```
 #### 正练：
 如果不使用标准化模版，那我们怎么才能创作出来这套东西，首先我们现在reddit上找到一个故事比如这个：
 ```
+
 After two years of marriage, my (38M) wife (36F) has not adjusted to being an us. How can I communicate to her that this is hurting me?
+
 For all I know, I may be making a huge deal out of nothing, but it's frustrating me, so I want to see if there's a good way forward.
+
 Essentially my wife and I have been living together for three years and married for two. My wife has been on her own for most of her life. So, she's used to taking care of her and nobody else.
+
 For example. I'll cook dinner for us and put plates out on the table. When the food is done, I'll grab a fork, knife, and napkin for each of us, open the fridge and ask her if she wants something to drink. She'll inform me that she already got something. I'll walk over to the table to find that she got herself a drink, cutlery, and a napkin but didn't put anything down for me or offer me a drink. If she cooks, it's about 50-50 if she'll give me silverware and never gives me a drink.
+
 She always gets up early on weekends, whereas I like to sleep in a little bit as I'm up early every weekday. Usually 40 - 60 minutes after her. I will wake up hungry and ask my wife if she wants me to order breakfast sandwiches. She, usually sitting there with a cup of coffee, will inform me that she's already made breakfast for herself and is no longer hungry, but to feel free to get something for myself.
+
 She makes a single cup with a K-Cup so there's no pot to get another cup from for myself, everything to make breakfast is in the sink and wet, and there's no indication that she even thought for a moment that I would want to eat breakfast too.
+
 I've, multiple times, tried to approach this in different ways. If I'm direct, she keeps cutting me off by apologizing and saying she didn't do it deliberately, but nothing changes. If I do it in an aloof lighthearted way, "Oops, I guess you didn't realize I would be eating too?" She gets upset, asks if I want her to make me breakfast, and says she doesn't want me upset all day. If I say nothing, she assumes I'm sad, says she doesn't want me to be angry at her, and says that I'm making a big deal over nothing.
+
 We have, overall, a very good marriage. We support each other, we have the same goals, and our division of labor and chores works very well. I know that sounds very business like, and maybe I'm not describing it well, but the issue is a very small part of our marriage. Not worth throwing everything away over, but enough that it bothers me and no matter how I bring it up, nothing changes.
+
 I feel like in so many interactions that we have, my first thought is to make sure she is taken care of as well as or better than I am. Her first thought is to make sure that she is taken care of and I am not even an afterthought. I feel like I have to remind her that I exist some days. At the same time, without going into to much detail, I am neurodivergent and I may be creating a giant nothing in my head.
+
 Is there a good way to communicate with her that this hurts me without her feeling like I'm being dramatic? I don't want to start not doing for her because that's contrary to my nature and I feel like it's going to create resentment on both sides. I had a college girlfriend break up with me when I pulled back and began matching what I perceived to be her effort in our relationship because she said I wasn't trying anymore.
+
 Tl;Dr I take care of my wife and myself every time I do something. My wife worries about herself and leaves me to fend for myself. No matter how I broach this, the behavior does not change.
+
 ```
 ```
+
 结婚两年后，我（38M）的妻子（36F）还没有适应成为我们。我该如何向她传达这让我很痛苦？
+
 据我所知，我可能在无中生有，但这让我感到沮丧，所以我想看看是否有好的前进方式。
+
 基本上，我和我的妻子已经同居三年，结婚两年了。我的妻子大部分时间都是一个人生活。所以，她习惯了照顾她而不是别人。
+
 例如，我会为我们做晚餐并把盘子放在桌子上。当食物吃完后，我会为我们每个人拿一把叉子、一把刀和一张餐巾纸，打开冰箱问她是否想要喝点什么。她会告诉我她已经有东西了。我会走到桌子旁，发现她给自己买了一杯饮料、餐具和一张餐巾纸，但没有为我放下任何东西或给我一杯饮料。如果她做饭，如果她给我银器而从不给我饮料，大约是五五开。
+
 她总是在周末早起，而我喜欢睡懒觉，因为我每个工作日早起。通常比她晚40-60分钟。我会饿着肚子醒来，问我妻子是否想让我点早餐三明治。她通常坐在那里喝咖啡，会告诉我她已经为自己做了早餐，不再饿了，但可以自由地为自己买些东西。
+
 她用K-Cup做了一个杯子，所以没有锅可以再给我拿一杯，所有做早餐的东西都在水槽里，而且没有迹象表明她曾经想过我也想吃早餐。
+
 我已经尝试过多次以不同的方式处理这个问题。如果我直言不讳，她会通过道歉和说她不是故意这样做来打断我，但什么都不会改变。如果我以一种冷漠轻松的方式这样做，“哎呀，我猜你没有意识到我也会吃东西？”她会生气，问我是否想让她给我做早餐，并说她不想让我整天都心烦意乱。如果我什么都不说，她会认为我很难过，说她不想让我生她的气，并说我在无事生非。
+
 【餐桌上永远缺的那双筷子】
+
 晚上七点，我做好了番茄牛腩面。端上桌，她已经开始吃了。我转身从厨房拿了自己的筷子，坐下来。她抬头说：“今天这面不错。”我没告诉她，碗里多出来的那块牛腩，是我特意留给她的。
+
 先声明一下：我和她的婚姻，整体上真的没什么问题。目标一致，家务分工也磨合得挺顺，日子过得像一台运转良好的双人机器。这形容听起来有点冷冰冰的，但我确实想不出更贴切的描述。
+
 只是，这台机器里总有一粒小砂子。它占的比例不大，小到谁都会说“为这个不值得”，但它天天在。说不上痛，就是硌人。
+
 我们之间的相处有一套固定模式：我做事的时候，脑子里第一个想的是她——她够不够吃、汤凉没凉、要不要再加个菜；她做事的时候，脑子里第一个想的也是她——她自己。至于我，她好像默认我是个成年人，能自己搞定一切。
+
 我也是个神经发散的人，脑海里念头本来就多，偶尔还会冒出一大片空白，像老电视的雪花屏。有时候她终于反应过来跟我搭句话，我会在心里愣一下：哦，原来我也在这个画面里。
+
 我不是没试过沟通。但每次话到嘴边，就咽了回去。我怕说出来显得矫情、戏剧化。我也真的不想收回那些照顾她的本能——那不是我的天性，硬憋着只会让两个人都难受。
+
 大学时谈过一个女朋友，后来分手了。分手时她说：你不再努力了。其实我只是试了试，把照顾人的节奏放缓一点，看看对方会不会主动走过来一步。结果两个人都愣在原地，然后就没有然后了。
+
 现在的我也差不多：既不敢说，也改不了，更放不下。我知道，就算我说出口，她大概率还是那个样子。可我又清楚地知道，这不足以让我推翻整段婚姻。它只是……一直在。
+
 ```
 这个故事描述了一位丈夫在婚姻中感受到的被忽视和不被重视。尽管他们的婚姻总体来说很好，但在一些日常小事上，妻子总是优先考虑自己，而很少考虑到丈夫的需求。例如，吃饭时妻子会只为自己准备餐具和饮料，周末自己做早餐后也不会为丈夫留下任何东西。
 丈夫尝试过不同的沟通方式，但都以失败告终。直接沟通妻子会道歉但不会改变，轻松的提醒会让妻子觉得他小题大做，而沉默则会被误解为生气。这让丈夫感到沮丧和受伤，因为他觉得自己在妻子心中不是优先考虑的对象，甚至像不存在一样。
@@ -575,57 +859,107 @@ Him: Wrong direction, but A+ for effort! 🤣
 情绪链设计： 困惑（日常琐事）→烦躁（积累不满）→愤怒（爆发）→醒悟（理解）→和解（但带着现实的不完美） 这点不够夸张 没有感受到强烈反转 出人意料的结局 以及笑点 避免过于理想化的结局
 ###### 改善后英文：
 ```
+
 所以，我偶尔会在心里把这件事排演成一场戏。如果情绪有逻辑曲线，大概是这样：日常琐事里一点点困惑，积攒成烦躁，再在某顿饭的某个瞬间突然引爆；引爆之后冒出一个荒谬的真相，紧跟着是一个更大的身份反转；最后，以黑色幽默的方式，自我和解。
+
 至于那场戏具体长什么样？大概是——
+
 我：“我做了晚饭，要帮你端一碗吗？”
+
 “我已经吃上了！味道不错！”
+
 “那我猜，你又没帮我拿筷子。”
+
 “厨房不就在那儿吗？你自己拿一下会怎样？”
+
 “会怎样？会让我觉得，我老婆偶尔也能想到我。”
+
 “拜托，你说得像我犯了什么天条一样。”
+
 “你知道吗，我一直在记录。过去47次吃饭，你给我拿过筷子：0次。”
+
 “你连这个都数？！太吓人了吧。”
+
 “吓人？你把我当透明人才吓人。咱家狗都比我受待见。”
+
 “我早上还给狗添过水呢。”
+
 “对啊！你记得给狗添水，就记不起你丈夫还没动筷。”
+
 “因为狗不会拿个小本本记我有多少次没照顾它。”
+
 “我找了私家侦探。”
+
 “你疯了吧？！”
+
 “我想搞明白，你对所有朋友都这样，还是只对我这样。”
+
 “你……那侦探查到什么了？”
+
 “查到一个挺有意思的东西。你每天给那个‘瑜伽老师’带咖啡，是几个意思？”
+
 “完了……我可以解释。”
+
 “请。我现在真的开始怀疑，你压根就不在乎我。”
+
 “那个‘瑜伽老师’……是我失散多年的双胞胎妹妹。”
+
 “你什么？！”
+
 “我们很小就分开了，去年才相认。我只是想多陪陪她。”
+
 “所以那些多出来的早餐……”
+
 “都是给她做的。我其实一直在练习怎么对人好，只是还没轮到你。”
+
 “为什么要瞒着我？”
+
 “她是哑剧演员。我猜你会觉得这件事有点好笑。”
+
 “比‘我以为我老婆不爱我’还好笑吗？”
+
 “这样说来的话……好像是没那么好笑了。”
+
 “所以这段时间，我在这里像个怨妇一样纠结……”
+
 “而我在跟哑剧妹妹享受天伦之乐？……嗯，确实有点滑稽。”
+
 “我真是又想哭又想笑。”
+
 “别哭了，起码她跟你说哑语的时候，你会意识到我一张嘴有多动听。”
+
 “不好笑。不过……她也这么不会照顾人吗？”
+
 “蛮奇怪的，她对摆餐具这事儿执着得要命，每顿饭都像餐厅摆盘。”
+
 “所以，你就是那个基因突变体？‘照顾能力为零’的那种？”
+
 “我更愿意称之为‘不拿叉子’基因。”
+
 ```
 ###### 改善后中文:
 ```
+
 当然，这只是我的脑内小剧场。现实里没有双胞胎妹妹，我也没有请什么私家侦探。我依然会每天给她盛汤，依然会一边摆筷子一边告诉自己：这就是生活。
+
 不过，我也偷偷做了一个决定：如果哪天她突然问我一句——“你拿筷子了吗？”我一定会愣好久，然后说：“忘了拿。”不是因为我不需要，而是那一刻，我真的会忘了。
+
 生活有时候比段子还离谱——尤其是当你的另一半突然雇了私家侦探，或者隔壁邻居突然告诉你，你家房子多了那么1.46英寸。今天这两个黑色幽默小剧场，送给所有曾被人与人之间的“较真”砸得一头包的人。
+
 第一个故事，关于婚姻里的“看不见”。
+
 最开始，丈夫只是觉得心冷。他冲妻子吼：“你根本把我当空气！咱家狗都比我受宠！”妻子眼都不抬：“别扯了，我今早还给它倒了水。”丈夫更来气：“你看！你记得给狗喂水，怎么就想不起你还有个老公？”妻子淡定地补刀：“大概是因为狗不会做表格，一条一道地记录我的过失吧。”
+
 这句话扎心了，丈夫决定查个究竟。他偷偷雇了私家侦探，想知道妻子是对谁都爱答不理，还是只针对他。侦探跟了几天，回来报告：“先生，您太太每天早晨都去买两杯咖啡，其中一杯是给她的瑜伽教练的。”丈夫火冒三丈：“我那个独立的老婆，难道只对别人上心？”妻子听他这么说，急了：“我能解释！”
+
 她坦白，那个“瑜伽教练”其实是她的同卵双胞胎妹妹。她每天清晨都会多做一份早餐，给那个去年才相认的妹妹，想补上错过的时光。丈夫整个人都懵了：“你从来没提过你有个妹妹！”妻子低声道：“我一直在练习怎么对一个人好，只是还没轮到练习你。”
+
 丈夫又问：“为什么要瞒着？”妻子支支吾吾：“因为……她是个默剧演员，我怕你知道了会觉得我们全家都很怪。”丈夫啼笑皆非：“这比‘我老婆恨我’还怪吗？”妻子想了想：“如果你非要这么说的话……也算合情合理。”丈夫笑也不是，哭也不是：“我都不知道我该什么表情了。”妻子咧开嘴：“至少，她对你的冷漠方式你是熟悉的——和妹妹给你的‘冷战’一模一样。”
+
 丈夫不甘心：“那她会忽略餐桌上少一把叉子吗？”妻子摇头：“她对餐具摆放有很深的执念，少一把叉子她能急哭。”丈夫总结：“所以，遗传了坏基因的人是你？”妻子耸耸肩：“确切地说，是不在乎叉子基因。”
+
 这场由“电子表格”引发的侦探大戏，没有真正破案，却让两个人都松了一口气。原来妻子并没有把他当空气，只是她的世界，不止他一个人，还有一个用默剧补足亲情的小妹妹。挺好，至少丈夫不用再怀疑自己是不是疯了——他只是输给了一个默剧演员。
+
 ```
 好，这个段子，对我来说是及格的，天马行空多层反转，可以留住观众，那么下一步我该怎么做，我需要把对话整理好，A，和B，分开，这样方便我配音，在后期的时候手动一句话一句话剪出来。现在我们根据对话来提炼文本：
 ##### 提炼对话提示词：
@@ -686,9 +1020,13 @@ More like the "doesn't give a fork" genes
 那么逆练功法的步骤就是，猜解文本对话，创造新的文本对话，重新整理对话角色。
 ##### 下面是实操演示环节：
 ```
+
 换一个场景。一个屋主被邻居找上门，对方开口就是一句：“你家房子越界了，多出1.46英寸。”屋主一脸茫然：“你搞错了吧？灌木丛不是界标吗？”邻居早有准备：“错！我手里有文件，还量过每一寸。”屋主摊手：“就算多了一点点，我能拿自己的房子怎么办？”邻居理直气壮：“搬走啊。你知道1.46英寸是多少空间吗？”屋主急了：“移栋房子要几万美元，而且今天都周四了！”邻居不为所动：“那是你的问题。周五之前必须搬，否则，法庭见。”
+
 到了周五，房子当然还在原地。邻居真的报了警。警察来听完陈述，看了看现场，对房主开口：“看起来，你……”邻居立刻打断：“主语，换成她！”警察也很配合：“……她要去坐牢了。罪名是——犯蠢。”邻居还不忘嘲讽：“你搬来前这儿好好的，现在多了一个又胖又惹人厌的家伙。”临走时，他又补了一刀：“别让肥皂掉了。”
+
 屋主站在原地，心里只有一个字：“不。”
+
 ```
 ##### 猜解提示词：
 这是一个爆款短信风格的对话文本，请你根据对话的文本，来猜测，它里面有几个角色呢？我只需要对话的角色，提到的其他人物，如果没有对话的表达，那么就不算在角色中，另外你要详细拆解表达的故事情节，以及情感链条是怎么样的？以下是文本:
@@ -718,28 +1056,51 @@ More like the "doesn't give a fork" genes
 ##### 逆练成品对话文案：
 那我们就得到了这次修改后比较完美的对话：
 ```
+
 如果你看到这里，可能会说：“这邻居也太离谱了吧。”别急，还有更离谱的版本。
+
 这一次，邻居不拿文件，改用数据轰炸。他一开口就说：“你家房子超界1.46英寸，这半年我一天没漏，每天量一次，一共攒了182个数据点，还有照片、图表，喏，我刚做了个幻灯片！”房主嘴角抽搐：“等等，你每天什么时候来量的？”邻居挺了挺胸：“凌晨三点，这个点测出来最准！”房主笑了：“所以，你承认自己私闯民宅，一共182次？”邻居有点慌：“那、那不是重点！重点是房子超界！”房主这次不慌了：“你确定真要闹大吗？不如让警察来算算，谁该进去。”
+
 空气安静了几秒。剩下的事，就交给想象力吧——毕竟，这种“较真”的结局，往往比剧集还要魔幻。
+
 你看，无论是夫妻还是邻居，人和人之间的麻烦，就藏在那些看似微不足道的细节里：一句没倒的水、一英寸的误差、一份多余的早餐、一次凌晨的测量。把它们放到荒诞的放大镜下，你会忍不住笑出来，笑完又觉得好像懂了点什么——生活不就是这样，一边较真，一边和解吗？问题未必当场解决，可荒诞本身就是某种回答。
+
 邻居：你那房子整整侵占了我家地皮1.46英寸！这六个月里，我天天都在量！
+
 房主：等一下……你是说，你连续半年、每天准时来量我的房子？这听起来……有点瘆人啊。
+
 邻居：事实就是事实！我记录了182次！你要么自己处理，要么等着倒霉！
+
 房主：我捋一捋——你花了182天，就为了盯这1.46英寸？
+
 邻居：我可是有照片为证的！你只剩到周五的时间了！我每天凌晨三点来量，那时候数据最准！
+
 房主：所以你凌晨三点，跑进我的院子来搞测量？
+
 邻居：这叫严谨！我还专门做了演示文稿呢！
+
 房主：那也就是说，你承认自己悄悄溜进我的私人地盘，一共182回？
+
 邻居：那些都不关键！重点是一点儿四六英寸！我现在就报警！
+
 房主：报警？行啊，请便。
+
 邻居：警察同志已经在路上了！我已经跟他们举报你的房子越界！
+
 房主：你真确定要这么干？要不要先想想，你半夜三更私闯别人家182次，这账该怎么算？
+
 邻居：这个……这个不重要！警察要抓的是你！你猜猜谁会进局子？
+
 房主：我猜肯定不是我。毕竟我这儿存了整整182个夜晚的监控录像。
+
 邻居：可是……可是……那1.46英寸！他们绝对会把你铐走！
+
 邻居：等下……私闯民宅……182次……哦，糟糕……
+
 房主：放宽心，监狱里应该不会计较你那1.46英寸的地儿。
+
 邻居：（音量更低了）……不要……
+
 ```
 有趣吧？ 原版中是邻居对房主威胁捡肥皂，通过修改添加元素，就换了一个意思，并且多了一个爽点，无理取闹的邻居得到了惩罚。
 好，有了对话文本还是老路子，提炼对话去ai配音，等待下一步即可。忘记步骤的跳转这里。

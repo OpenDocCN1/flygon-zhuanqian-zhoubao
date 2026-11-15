@@ -1,122 +1,241 @@
 # 用 Cursor 打通数据分析与项目架构可视化：从图表生成到代码理解
+
 大家好，我是Time。
+
 在日常开发和数据分析中，我们经常会遇到一个共同问题：信息明明已经存在，却很难被快速理解。
+
 代码写在那里，新同事却不知道从哪里看起；项目架构藏在文件和函数之间，开会时只能靠口头描述；拿到一份数据集，也不知道应该选择什么图表、如何提炼结论。
+
 过去，文档、图表和代码往往是分开维护的。现在，借助 Cursor、Python 可视化库和 Mermaid，我们可以尝试把这些工作连接起来：让 AI 协助编写代码、选择图表、解释结果，并将软件结构转化为更直观的图形。
+
 本文主要分享两个方向：
+
 1. 使用 Cursor 完成 Python 数据可视化；
+
 2. 使用 Cursor 和 Mermaid 实现软件项目可视化。
+
 ![](img/zhuanqian_518d18b29373b290eabbab3725b52550.png)
+
 # 一、为什么要做可视化？
+
 ## 1. 软件项目可视化的价值
+
 项目规模较小时，很多信息可以直接通过交流解决。但当代码量增加、参与人员变多之后，仅靠代码和口头说明就会变得非常吃力。
+
 你可能遇到过这样的情况：
+
 - 新成员拿到项目后，不知道核心模块之间如何协作；
+
 - 代码已经修改，原有文档却一直没有同步；
+
 - 讨论系统架构时，每个人脑中想象的结构并不一致；
+
 - 出现问题后，很难迅速定位涉及的模块和调用链。
+
 理论上，大家都知道应该补充文档、绘制架构图、维护流程说明。可现实往往是：
+
 - 文档编写耗时，容易拖延；
+
 - 画图需要打开其他工具，操作成本较高；
+
 - 代码和文档分别维护，时间一长就逐渐失真。
+
 但如果完全不做这些工作，项目继续扩张后，问题会更加明显：
+
 - 新人上手速度变慢；
+
 - 团队沟通成本上升；
+
 - 系统维护和故障排查更加困难；
+
 - 修改一个功能时，不清楚哪些部分会受到影响。
+
 我最近比较常用的一种方式，是把 Cursor 和 Mermaid 结合起来使用。
+
 Cursor 可以协助我们理解代码、生成说明和编写图表代码；Mermaid 则可以用文本描述流程图、时序图、类图等结构。这样一来，写代码的同时就能补充可视化说明，而且图表内容更容易纳入版本管理。
+
 简单来说，这套组合能够带来几个好处：
+
 - 编写代码时顺便完善项目文档；
+
 - 用文本快速生成结构清晰的图表；
+
 - 代码、说明和图表之间更容易保持同步；
+
 - 降低团队成员理解项目的门槛。
+
 本文后面会重点展示软件和数据相关的可视化实践。为了避免仅凭个人经验进行展示，我也提前向一些圈友请教，确认这些图表类型在实际工作中确实具有使用价值。
+
 ## 2. 数据可视化同样重要
+
 最开始，我计划只介绍软件项目可视化。但在和圈友A以及阿紫老师交流后，我发现数据可视化同样适合用 Cursor 进行辅助，因此又补充了相关案例。
+
 数据可视化并不只是把数据“画出来”，更重要的是通过合适的图表发现趋势、比较差异、识别异常，并帮助他人理解分析结果。
+
 ![](img/zhuanqian_66174cf6cf4f0edf160405ce79f0d791.png)
+
 ![](img/zhuanqian_f8a2870da8c442b610f7c8c5d3bf8bba.png)
+
 ![](img/zhuanqian_b267cd6521754a4d1ccc9d72c1f95292.png)
+
 ## 3. 使用前的准备
+
 本文默认读者已经完成以下准备：
+
 - 安装并能够使用 Cursor；
+
 - 掌握基本的提问方式；
+
 - 知道如何安装插件；
+
 - 能够在 Cursor 中创建、修改和运行代码。
+
 如果你完全没有编程基础，可以先参考我9月份发布的文章：
+
 《0代码AI编程重塑你的编程体验：Cursor使用教程》
+
 近期，圈友@阿紫也分享了一篇非常值得阅读的内容。她结合零基础学习者常见的卡点，详细讲解了如何从需求出发，让 Cursor 理解并完成一个完整项目：
+
 《如何让小白学会用Cursor完成复杂项目》
+
 如果你是专业程序员，需要维护较复杂的软件项目，还可以参考圈友@大铭的文章：
+
 《程序员视角下的Cursor软件深度使用与维护经验分享》
+
 # 二、用 Python 学习数据可视化
+
 无论是自己写项目，还是阅读和改造别人的代码，学习数据可视化的基本过程都比较类似：
+
 1. 先认识常见图表；
+
 2. 了解图表适合表达什么；
+
 3. 使用示例数据进行练习；
+
 4. 再把方法迁移到真实数据集；
+
 5. 最后根据分析目的选择合适的图表。
+
 ## 1. 从简单示例开始
+
 对于刚接触数据可视化的人，可以先让 Cursor 生成一些基础案例，通过运行结果建立直观认识。
+
 例如，可以直接输入：
+
 > 请使用 Matplotlib 和 Seaborn 编写数据可视化示例代码，分别创建 Python 文件保存。
+
 ![](img/zhuanqian_6f2ee1f7e3d3a8b676bc878afed3ed77.png)
+
 ![](img/zhuanqian_cf5c796a79f4f87346d77617041676bd.png)
+
 ![](img/zhuanqian_98e574aca7e1aae61dab14d4a846a21c.png)
+
 这里使用的库只是入门示范。真正进行分析时，应该结合数据类型、分析目标和展示对象选择工具。
+
 ### Matplotlib：基础绘图能力
+
 Matplotlib 是 Python 生态中非常经典的绘图库，适合绘制折线图、柱状图、散点图、饼图等常见图形，也是许多其他可视化工具的基础。
+
 ![](img/zhuanqian_f0bf401969696fa8b8724e90e17d60a8.png)
+
 ### Seaborn：更适合统计分析
+
 Seaborn 建立在 Matplotlib 之上，默认样式更美观，也提供了许多适用于统计分析的图表。
+
 可以先问 Cursor：
+
 > Seaborn 最具代表性的十种可视化图表有哪些？
+
 得到图表类型后，再继续要求：
+
 > 请用 Python 编写代码，展示 Seaborn 中这十种典型可视化图表，并创建一个新的 py 文件。
+
 如果一次把十张图放在同一张画布上，通常会影响阅读，可以进一步调整布局：
+
 > 请将前面十个图表重新排列，每四个图表放在一张图中。
+
 ![](img/zhuanqian_e685259a2580effc37f016673b989e34.png)
+
 ![](img/zhuanqian_1ec4169c22d80771212948fe4693e43c.png)
+
 由于散点图、折线图和柱状图等内容与 Matplotlib 的示例较为接近，我后来将重点放在以下类型上：
+
 - 条形图；
+
 - 箱线图；
+
 - 小提琴图；
+
 - 热力图；
+
 - 回归图；
+
 - 联合分布图；
+
 - 计数图；
+
 - 核密度图。
+
 这些图表可以组合成两张大图，同时再单独展示完整的联合图和成对关系图。
+
 ![](img/zhuanqian_b50ca7b6a992faaaa61258c5c4d1b576.png)
+
 ![](img/zhuanqian_bbb5acbf4c86b74b116862dac643b583.png)
+
 ![](img/zhuanqian_34356a1ed99282f59fcb75228ae5ce76.png)
+
 ![](img/zhuanqian_032c8cb325641c8413617be7a6f9322f.png)
+
 以上案例的代码也可以直接保存、运行和修改。
+
 需要注意的是，看到图表“好看”并不等于真正理解它。专业分析中至少要做到以下一点：
+
 - 明确知道自己要表达什么，再选择对应图表；
+
 - 如果不理解某个图表，就让 Cursor 解释图表的含义、适用场景以及当前数据对应的结论。
+
 只有理解图表，才有可能向客户、同事或领导准确说明分析结果。
+
 ### Plotly：更丰富的交互体验
+
 如果希望图表具备悬停提示、缩放、筛选或者三维旋转等功能，可以尝试 Plotly。
+
 ![](img/zhuanqian_d1a6287704dd8b0f795986dc591973f5.png)
+
 ![](img/zhuanqian_10e887acc8dd3ff02a4ca59dc0d834f9.png)
+
 ![](img/zhuanqian_242f6e073969cd26c79464f7c9205c0a.png)
+
 Plotly 生成的图表通常支持更强的交互效果。例如，鼠标移动到图表元素上时可以显示具体数据，三维散点图也可以进行放大、缩小和旋转。
+
 本次示例主要用于展示不同图表类型，因此没有进一步进行界面美化和交互优化。实际项目中，还可以继续调整主题、标签、筛选条件和布局。
+
 ## 2. 从示例图表过渡到真实数据
+
 前面的代码通常只有几行，适合学习和展示，但并不能直接代表真实工作流程。
+
 实际分析往往需要面对：
+
 - 数据从哪里获取；
+
 - 数据字段分别代表什么；
+
 - 是否存在缺失值和异常值；
+
 - 哪种图表最适合当前问题；
+
 - 图表最终应该如何解释。
+
 Seaborn 自带了一些适合练习的数据集，例如：
+
 - `tips`
+
 - `flights`
+
 - `iris`
+
 这些数据集主要用于教学、练习和演示。
+
 ```
 import seaborn as sns
 import matplotlib.pyplot as plt
@@ -147,145 +266,280 @@ plt.title("2\. 箱线图 (Box Plot)", fontproperties=chinese_font)
 plt.xlabel("星期", fontproperties=chinese_font)
 plt.ylabel("账单分布", fontproperties=chinese_font)
 ```
+
 ![](img/zhuanqian_098ebf6794f17cdb3d604a62e52caaf6.png)
+
 可以继续询问 Cursor：
+
 > 如何利用 tips、flights 或 iris 数据集系统学习数据可视化？
+
 ![](img/zhuanqian_9d6fe40374c0c60cc6d84bb7ff51bf83.png)
+
 例如：
+
 - 使用 `histplot` 观察数值的分布；
+
 - 使用 `heatmap` 展示矩阵或相关关系；
+
 - 使用 `regplot` 添加回归线，观察变量之间的趋势。
+
 除了内置数据集，也可以使用 Hugging Face 上的开源数据。
+
 这里以 `fka/awesome-chatgpt-prompts` 为例。这个数据集看起来主要收集了 ChatGPT 提示词，但刚开始接触时，可能并不清楚如何下载和使用。
+
 可以把数据集页面链接交给 Cursor，并询问：
+
 > 如何下载并读取这个 Hugging Face 数据集？
+
 ![](img/zhuanqian_5b27eeec0b9aaf62b6756a1c30e0066b.png)
+
 ![](img/zhuanqian_8ac6df493b439a77ae9ebef97024e8c1.png)
+
 ![](img/zhuanqian_dae594b32bc594ab019339cfe8fb2791.png)
+
 完成下载和环境配置后，再将加载数据集、访问数据的代码复制到 Cursor 中运行。
+
 ![](img/zhuanqian_1031124074fd2170e1a6184a5916cb4c.png)
+
 如果能够正常读取并打印数据，就说明数据加载成功，可以进入分析阶段。
+
 ![](img/zhuanqian_c44d75f93d03c68eeed34a1e2b13e1dd.png)
+
 接下来，可以先不急着画图，而是让 Cursor 根据数据内容提出建议：
+
 > 请读取 fka/awesome-chatgpt-prompts 数据集，并推荐适合专业分析的可视化图表。当前只需要说明图表类别和每种图表能够表达的含义，不需要编写代码。
+
 ![](img/zhuanqian_72ad1fc33185a389f4fe89a7a01c3ffe.png)
+
 ## 3. 以提示词数据集为例进行分析
+
 ### 词云图：观察高频词汇
+
 由于这个数据集主要由文本句子构成，因此词云图是一个比较自然的选择。
+
 可以这样要求 Cursor：
+
 > 请先绘制词云图，再根据词云结果分析数据中出现频率较高的词汇和可能反映的使用场景。
+
 ![](img/zhuanqian_1f61f1b6f588f80d1c10d8e1aa9c2e42.png)
+
 ![](img/zhuanqian_70f0b2fe7d831cd3b13f92ca684a1cf6.png)
+
 从分析结果中，可以初步观察到：
+
 - `help`、`write`、`explain`、`act`、`create` 等词出现较多；
+
 - 用户经常要求 GPT 进行写作、解释、扮演角色和执行任务；
+
 - 提示词中大量使用动作类动词；
+
 - 常见应用场景包括教育学习、专业工作、创意写作和文件处理等。
+
 如果某些依赖库尚未安装，可以让 Cursor 直接给出安装命令。
+
 ![](img/zhuanqian_831a0af1733b378929158ce5350b9ad3.png)
+
 完成安装后运行代码：
+
 ![](img/zhuanqian_5ae42b178bee5ae476dd5bb791d698ef.png)
+
 ![](img/zhuanqian_758fce33775282ee0cbfee953e0841cf.png)
+
 通过词云，可以比较直观地观察高频词。不过，词云更适合展示“哪些词出现得多”，并不一定能完整说明词语之间的关系。
+
 因此，还可以继续让 Cursor 结合原始数据进行更深入的解释。
+
 ![](img/zhuanqian_f4ee6b406a7a6efefd1e6e545491f104.png)
+
 ### 条形图：比较类别出现次数
+
 接下来尝试绘制条形图。
+
 ```
 绘制形图 (Bar Plot)
 用途:展示角色(act)的分布情况
 意义:直观显示不同角色的出现频次，帮助理解数据集中最常见的角色类型
 ```
+
 ![](img/zhuanqian_637b2403305bdf3e966a3498db340b73.png)
+
 如果生成的图表难以理解，不要只凭感觉下结论，可以直接追问：
+
 > 我无法理解这张条形图，请结合实际数据解释图表含义，确保解释与数据一致。
+
 ![](img/zhuanqian_b9f45d628f93e3f394f614ca6e1a4c17.png)
+
 ![](img/zhuanqian_5a5bb6b3ea609c463f5217f8b44eb627.png)
+
 根据 Cursor 的解释，如果发现展示方式不够清楚，还可以让它调整代码和标签。
+
 ![](img/zhuanqian_16db16ea5198203784d750081fc41b19.png)
+
 ![](img/zhuanqian_1db4f243470632b493a6e39f77ecc28b.png)
+
 从修改后的结果来看，由于数据量较小，许多角色只出现了一次，只有个别角色出现两次。因此，图表中频数较低是数据本身造成的，并不一定代表绘图错误。
+
 ### 其他图表：让 Cursor 辅助探索
+
 还可以直接询问：
+
 > 针对这个数据集，还有哪些合适的图表？请说明每种图表的用途。
+
 ![](img/zhuanqian_4b9f8f08a0ace35d585686c5432ca7e3.png)
+
 ![](img/zhuanqian_35c06387865393432d2b0e4943b9787f.png)
+
 ![](img/zhuanqian_ebbab1f2772c93bf40681266bb81bc18.png)
+
 从推荐结果可以看出：
+
 - 条形图和词云图都适合快速观察高频信息；
+
 - 不同图表可能从不同角度呈现相同现象；
+
 - 有些图表虽然形式不同，但表达的分析重点比较接近；
+
 - 提示词长度分布图可以帮助我们了解文本长度范围。
+
 例如，本次数据中，大多数提示词长度集中在约300至600个单词之间，其中约450个单词附近的频率相对较高。
+
 通过这个案例可以看到，Cursor 不仅能写出绘图代码，还可以协助我们完成数据读取、图表选择、结果解释和代码调整。
+
 # 三、软件项目可视化实践
+
 ## 1. Mermaid 是什么？
+
 软件项目可视化并不是新概念。过去，很多团队使用 UML 设计和描述系统结构。现在，Mermaid 也成为一种非常方便的文本化绘图工具。
+
 Mermaid 基于 JavaScript，可以使用类似 Markdown 的文本语法定义图表，并在支持的环境中实时渲染。
+
 ![](img/zhuanqian_f77eddea981efad4da676d85954dace0.png)
+
 它的核心理念可以概括为：
+
 > 用代码描述图表，让图表能够像代码一样被修改和管理。
+
 Mermaid 具有以下特点：
+
 - 使用文本编写图表；
+
 - 支持流程图、时序图、类图、状态图等多种类型；
+
 - 便于提交到 Git 进行版本控制；
+
 - 修改文本后可以快速重新渲染；
+
 - 适合与项目文档结合使用。
+
 在编辑器中，可以安装以下插件：
+
 - `Markdown Preview Mermaid Support`：在 Markdown 中预览 Mermaid 图表；
+
 - `Mermaid Markdown Syntax Highlighting`：为 Mermaid 语法提供高亮显示。
+
 ![](img/zhuanqian_89135a8577fb3990283d1d7035770948.png)
+
 ![](img/zhuanqian_fe4fe353a7271d5f7464ce9052a8ca41.png)
+
 ## 2. 为什么要给代码配图？
+
 在文章前面，我们已经提到过流程图、时序图、类图等图表的价值，但还可以让 Cursor 给出更系统的解释。
+
 直接询问：
+
 > 请解释为什么需要为代码绘制流程图、时序图、类图等可视化图表。
+
 ![](img/zhuanqian_f77a4b71fd357eab1b88e67f60b604ed.png)
+
 ![](img/zhuanqian_7a6dc4125aee1c351b351e46bf9125e1.png)
+
 ![](img/zhuanqian_1b7cb867abda09f01470aedb1d4c8c47.png)
+
 Cursor 的第一版回答通常已经能够覆盖主要原因，例如：
+
 - 帮助理解业务流程；
+
 - 展示模块之间的依赖关系；
+
 - 说明对象和类之间的结构；
+
 - 描述系统之间的调用过程；
+
 - 降低新成员阅读代码的难度；
+
 - 促进团队在同一结构上进行讨论；
+
 - 便于后续维护和排查问题。
+
 如果回答只围绕某几个图表展开，也可以继续补充要求：
+
 > 请不要只介绍流程图、时序图和类图，请扩展到更多常见的软件项目图表，并说明它们分别适合解决什么问题。
+
 ![](img/zhuanqian_074e8e0308ffdb077a6475a4c9b7d595.png)
+
 ![](img/zhuanqian_55d046a5277c9f08af55d306423b58f9.png)
+
 最后，再根据 Cursor 的回答进行人工整理，就能形成更完整的项目可视化说明。
+
 ## 3. 常见图表：流程图
+
 流程图是软件开发中最容易接触、也最常用的图表之一。
+
 它主要通过节点和箭头表示业务步骤、判断条件、数据流向以及执行顺序。
+
 ![](img/zhuanqian_a0974447dd3cc11323b638a392bb6d00.png)
+
 流程图适合用于：
+
 - 描述用户操作路径；
+
 - 展示业务处理逻辑；
+
 - 说明数据从输入到输出的变化；
+
 - 分析程序中的条件分支；
+
 - 帮助团队快速了解系统运行过程。
+
 一个好的流程图，不需要把所有代码细节都画出来，而应该突出关键节点和主要关系。
+
 它能够帮助我们：
+
 - 在系统设计阶段梳理思路；
+
 - 让复杂逻辑更容易被理解；
+
 - 让团队成员围绕同一张图进行沟通；
+
 - 在修改代码前提前发现流程中的问题；
+
 - 为后续文档、测试和维护提供参考。
+
 后续还可以继续使用 Cursor 生成时序图、类图、状态图、架构图和数据流图，并根据项目实际情况选择合适的表达方式。
+
 通过 Cursor 与 Mermaid 的结合，软件项目可视化不再是“额外做一份文档”，而可以成为开发过程中的一部分：代码变更时同步调整图表，图表变化时也能反过来帮助我们检查设计是否清晰。
+
 这也是数据可视化和软件项目可视化共同的价值——把隐藏在数据和代码中的结构，转换成更容易阅读、讨论和维护的形式。
+
 Mermaid 用一套简洁的声明式语法来定义节点、连线和箭头，并且能处理多方向箭头以及子图之间的链接关系。
+
 ```
 ````mermaid
+
 flowchart TD
+
 A[用户提问] --> B{是否有缓存}
+
 B -->|是| C[返回缓存]
+
 B -->|否| D[查询向量库]
+
 D --> E[生成SQL]
+
 E --> F[执行查询]
+
 F --> G[返回结果]
+
 ````
 ```
 ![](img/zhuanqian_eacc1c80eee73ef1cac1ea3d3f5924e7.png)
@@ -301,14 +555,23 @@ F --> G[返回结果]
 时序图（Sequence Diagram）属于交互图的一种，重点刻画多个进程之间的调用顺序与配合方式。
 ```
 ````mermaid
+
 sequenceDiagram
+
 actor U as 用户
+
 participant A as API
+
 participant D as 数据库
+
 U->>+A: 发送请求
+
 A->>+D: 查询数据
+
 D-->>-A: 返回数据
+
 A-->>-U: 响应结果
+
 ````
 ```
 ![](img/zhuanqian_7c04070c4284b06f1928e5084b1d4ec2.png)
@@ -325,18 +588,31 @@ A-->>-U: 响应结果
 类图是 UML 中的静态结构图，通过类、属性、方法以及对象之间的关系来展示系统结构。它既是面向对象建模的基础，也常用于概念建模、代码生成前的详细设计，甚至可用于数据建模。
 ```
 ````mermaid
+
 classDiagram
+
 class VannaBase {
+
 <>
+
 +generate_sql()
+
 +train()
+
 }
+
 class VectorStore {
+
 <<interface>>
+
 +add_data()
+
 +query()
+
 }
+
 VannaBase <|-- VectorStore
+
 ````</interface>
 ```
 ![](img/zhuanqian_4dcfed98e7092eaa5e8801af7a9779d7.png)
@@ -353,22 +629,36 @@ VannaBase <|-- VectorStore
 甘特图以条形方式显示项目进度，清晰标出各项任务从开始到结束的周期。该图最早由 Karol Adamiecki 于 1896 年提出，后来 Henry Gantt 在 1910 年代又独立开发出来。
 ```
 ````mermaid
+
 gantt
+
 title 项目计划
+
 section 阶段1
+
 任务1    :a1, 2024-01-01, 30d
+
 任务2    :after a1, 20d
+
 ````
 ```
 ```
 ````mermaid
+
 gantt
+
 title 项目里程碑
+
 dateFormat  YYYY-MM-DD
+
 section 开发
+
 需求分析     :a1, 2024-01-01, 30d
+
 架构设计     :a2, after a1, 20d
+
 编码实现     :a3, after a2, 40d
+
 ````
 ```
 ![](img/zhuanqian_72a538ad29c140bb94e27c75a0c380a9.png)
@@ -381,11 +671,17 @@ section 开发
 饼图，也称圆形图，用扇区面积或弧长来表示不同类别的数值比例。最早的饼图通常被认为来自 William Playfair 于 1801 年出版的统计手册。
 ```
 ````mermaid
+
 pie
+
 title 项目分布
+
 "A" : 40
+
 "B" : 30
+
 "C" : 30
+
 ````
 ```
 ![](img/zhuanqian_769fd113ef4ed32fa361ff949e02df43.png)
@@ -397,12 +693,19 @@ title 项目分布
 状态图用于描述系统在有限个状态之间的切换规律，是计算机科学中分析系统行为的常用工具。有些系统天然就是有限状态，有些则是一种合理抽象。
 ```
 ````mermaid
+
 stateDiagram-v2
+
 [] --> Still
+
 Still --> Moving
+
 Moving --> Still
+
 Moving --> Crash
+
 *    Crash --> [*]
+
 ````
 ```
 ![](img/zhuanqian_c2b6cd89d00904f01ed71b661b0bf5fd.png)
@@ -414,9 +717,13 @@ Moving --> Crash
 ER 模型用来描述某个知识领域中关注的事物分类与联系。基本 ER 图由实体类型和实体实例之间的关系组成，是数据库设计的重要工具。
 ```
 ````mermaid
+
 erDiagram
+
 CUSTOMER ||--o{ ORDER : places
+
 ORDER ||--|{ LINE-ITEM : contains
+
 ````
 ```
 ![](img/zhuanqian_9033be3b6e3c7cd96e302c43f0d4edc4.png)
@@ -428,13 +735,21 @@ ORDER ||--|{ LINE-ITEM : contains
 用户旅程图会详尽记录用户为完成某项任务，在系统或网站中经历的全部步骤。它既能呈现当前的真实工作流，也能帮助发现未来可优化的环节。
 ```
 ````mermaid
+
 journey
+
 title 用户购物流程
+
 section 浏览
+
 找到商品: 5: Me
+
 section 购买
+
 下单: 3: Me
+
 支付: 5: Me
+
 ````
 ```
 ![](img/zhuanqian_73c1bb8c0a2275e3eea695176780e8ef.png)
@@ -457,12 +772,19 @@ PS：这种图我过去接触较少，所以不太确定它在真实业务里的
 画系统架构时，可以用流程图展示整体拓扑，用类图表示模块依赖，用 ER 图理清数据结构。
 ```
 ````mermaid
+
 flowchart TB
+
 A[前端] --> B[API网关]
+
 B --> C[服务1]
+
 B --> D[服务2]
+
 C --> E[(数据库)]
+
 D --> E
+
 ````
 ```
 ![](img/zhuanqian_cc2a2270a8ef92850c870fd908a192ea.png)
@@ -474,20 +796,35 @@ D --> E
 排查性能瓶颈时，时序图有助于还原调用链，流程图可以梳理处理逻辑，状态图则能追踪状态变化。
 ```
 ````mermaid
+
 sequenceDiagram
+
 participant C as Client
+
 participant S as Server
+
 participant R as Redis
+
 participant D as DB
+
 C->>+S: 请求数据
+
 S->>+R: 查询缓存
+
 R-->>-S: 缓存命中
+
 alt 缓存未命中
+
 S->>+D: 查询数据库
+
 D-->>-S: 返回数据
+
 S->>R: 更新缓存
+
 end
+
 S-->>-C: 返回结果
+
 ````
 ```
 ![](img/zhuanqian_dffcfb545b0145d0616e67e636fbf800.png)
@@ -499,15 +836,25 @@ S-->>-C: 返回结果
 跨职能协作时，甘特图用于同步排期，流程图用于统一工作流，时序图用于展示多方协作顺序。
 ```
 ````mermaid
+
 gantt
+
 title 团队协作计划
+
 dateFormat YYYY-MM-DD
+
 section 前端
+
 开发     :a1, 2024-01-01, 30d
+
 section 后端
+
 开发     :a2, 2024-01-15, 30d
+
 section 测试
+
 测试     :a3, 2024-02-01, 20d
+
 ````
 ```
 ![](img/zhuanqian_5207eaceb2bd7579345b0f1dc08fc504.png)
@@ -624,17 +971,29 @@ Mermaid 的初衷是“用最简单的语法表达信息”，所以在创建图
 下面从项目不同阶段出发，梳理不同角色可能用到的图表。
 ## 产品经理
 ````mermaid
+
 journey
+
 title 产品需求分析
+
 section 调研
+
 用户访谈: 5: PM
+
 竞品分析: 4: PM
+
 section 规划
+
 需求梳理: 5: PM
+
 原型设计: 4: PM
+
 section 验证
+
 用户测试: 3: PM
+
 数据分析: 4: PM
+
 ````
 ```
 ![](img/zhuanqian_b411181d73f373781b337f68d596696a.png)
@@ -645,16 +1004,27 @@ section 验证
 ## 项目经理
 ```
 ````mermaid
+
 gantt
+
 title 项目排期规划
+
 dateFormat YYYY-MM-DD
+
 section 规划
+
 需求评审     :a1, 2024-01-01, 5d
+
 section 开发
+
 前端开发     :a2, after a1, 15d
+
 后端开发     :a3, after a1, 20d
+
 section 测试
+
 系统测试     :a4, after a2 a3, 10d
+
 ````
 ```
 ![](img/zhuanqian_54be719ab033c0a378100bec5bf493c2.png)
@@ -669,18 +1039,31 @@ section 测试
 *   流程图：系统设计
 ```
 ````mermaid
+
 flowchart TB
+
 subgraph 前端层
+
 A[Web] --> B[Mobile]
+
 end
+
 subgraph 服务层
+
 C[Gateway] --> D[Service]
+
 end
+
 subgraph 数据层
+
 E[(Database)] --> F[Cache]
+
 end
+
 B --> C
+
 D --> E
+
 ````
 ```
 ![](img/zhuanqian_d67fb67e1f88b15f9cb5d38892d6cf94.png)
@@ -691,14 +1074,23 @@ D --> E
 *   状态图：状态流转
 ```
 ````mermaid
+
 sequenceDiagram
+
 participant C as Client
+
 participant S as Service
+
 participant D as Database
+
 C->>+S: 请求数据
+
 S->>+D: 查询
+
 D-->>-S: 返回
+
 S-->>-C: 响应
+
 ````
 ```
 ![](img/zhuanqian_ce874141d920d3e40f4ce35bc8f4fcac.png)
@@ -709,14 +1101,23 @@ S-->>-C: 响应
 *   时序图：接口测试
 ```
 ````mermaid
+
 stateDiagram-v2
+
 [] --> 待测试
+
 待测试 --> 测试中
+
 测试中 --> 通过
+
 测试中 --> 失败
+
 失败 --> 修复中
+
 修复中 --> 待测试
+
 *    通过 --> [*]
+
 ````
 ```
 ![](img/zhuanqian_e3055fd54b86594f893a333b0d1cc78c.png)
@@ -727,12 +1128,19 @@ stateDiagram-v2
 *   状态图：系统监控
 ```
 ````mermaid
+
 flowchart LR
+
 A[监控] -->|告警| B{处理}
+
 B -->|自动| C[自愈]
+
 B -->|手动| D[干预]
+
 C --> E[恢复]
+
 D --> E
+
 ````
 ```
 ![](img/zhuanqian_c91e8d2dd553421b461c5a41f11b38cd.png)
@@ -743,13 +1151,21 @@ D --> E
 *   状态图：界面状态
 ```
 ````mermaid
+
 flowchart LR
+
 A[首页] --> B[列表页]
+
 B --> C[详情页]
+
 C --> D[购买页]
+
 D --> E[支付页]
+
 style A fill:#f9f,stroke:#333
+
 style E fill:#bbf,stroke:#333
+
 ````
 ```
 ![](img/zhuanqian_ca1936f61df6d02bcb0a5fac5dcafb49.png)
@@ -764,17 +1180,29 @@ style E fill:#bbf,stroke:#333
 #### （1）用户旅程图 (Journey)
 ```
 ````mermaid
+
 journey
+
 title 用户转化漏斗
+
 section 获客
+
 浏览广告: 5: User
+
 点击链接: 4: User
+
 section 转化
+
 注册账号: 3: User
+
 首次购买: 2: User
+
 section 留存
+
 复购: 1: User
+
 推荐他人: 1: User
+
 ````
 ```
 ![](img/zhuanqian_cdecd094a9f7fab884e2cacb69c2a12a.png)
@@ -785,13 +1213,21 @@ section 留存
 #### （2）饼图 (Pie)
 ```
 ````mermaid
+
 pie
+
 title 用户来源分布
+
 "自然搜索" : 35
+
 "社交媒体" : 25
+
 "付费广告" : 20
+
 "直接访问" : 15
+
 "其他渠道" : 5
+
 ````
 ```
 ![](img/zhuanqian_a75ef267b52fd9f78222d811da94c6b0.png)
@@ -802,14 +1238,23 @@ title 用户来源分布
 #### （3）流程图 (Flowchart)
 ```
 ````mermaid
+
 flowchart TD
+
 A[营销活动] --> B{用户行为}
+
 B -->|注册| C[新用户]
+
 B -->|浏览| D[潜在用户]
+
 B -->|流失| E[流失用户]
+
 C --> F[转化策略]
+
 D --> G[触达策略]
+
 E --> H[召回策略]
+
 ````
 ```
 ![](img/zhuanqian_9e99488e3f67eb8a0c3c2ab8a4ecd7b3.png)
@@ -820,16 +1265,27 @@ E --> H[召回策略]
 #### （4）甘特图 (Gantt)
 ```
 ````mermaid
+
 gantt
+
 title 运营活动排期
+
 dateFormat YYYY-MM-DD
+
 section 618活动
+
 预热期     :a1, 2024-06-01, 7d
+
 主活动     :a2, after a1, 10d
+
 复盘总结   :a3, after a2, 3d
+
 section 新品发布
+
 物料准备   :b1, 2024-06-05, 5d
+
 发布活动   :b2, after b1, 7d
+
 ````
 ```
 ![](img/zhuanqian_5f2e5ed2060d9b3b682dabecf1559390.png)
@@ -840,16 +1296,27 @@ section 新品发布
 #### （5）状态图 (State)
 ```
 ````mermaid
+
 stateDiagram-v2
+
 [*] --> 潜在用户
+
 潜在用户 --> 新注册
+
 新注册 --> 首购用户
+
 首购用户 --> 复购用户
+
 首购用户 --> 流失用户
+
 复购用户 --> 忠实用户
+
 复购用户 --> 流失用户
+
 流失用户 --> 召回用户
+
 召回用户 --> 复购用户
+
 ````
 ```
 ![](img/zhuanqian_148258282b2c6d2645aa1536ca25a29a.png)
@@ -861,59 +1328,104 @@ stateDiagram-v2
 #### （1）活动策划
 ```
 ````mermaid
+
 flowchart LR
+
 A[目标设定] --> B[方案设计]
+
 B --> C[资源准备]
+
 C --> D[活动执行]
+
 D --> E[效果评估]
+
 E --> F[复盘优化]
+
 ````
 ```
 ![](img/zhuanqian_79344778a75a91c85091f1e8cd9ae246.png)
 #### （2）数据分析
 ```
 ````mermaid
+
 pie
+
 title 活动效果分析
+
 "完成目标" : 45
+
 "部分完成" : 30
+
 "未达标" : 25
+
 ````
 ```
 ![](img/zhuanqian_306f705eec23c20b329a2fb4b16f6105.png)
 #### （3）用户运营
 ```
 ````mermaid
+
 journey
+
 title 会员成长体系
+
 section 新手期
+
 注册: 5: Member
+
 完善资料: 4: Member
+
 section 成长期
+
 首次消费: 3: Member
+
 积分累积: 3: Member
+
 section 成熟期
+
 等级提升: 4: Member
+
 权益使用: 5: Member
+
 ````
 ```
+
 ![](img/zhuanqian_932b596401f6d2994dcbfca49c2dadc1.png)
+
 ### 运营决策支持
+
 | 渠道分析 | 用户分析 | 活动分析 |
+
 | 投放效果评估 | 行为轨迹 | 参与度 |
+
 ### 建议使用场景
+
 | 日常工作 | 战略规划 | 团队协作 |
+
 | 活动策划：流程图 | 用户旅程：Journey图 | 任务分配：甘特图 |
+
 * * *
+
 # 结语
+
 以上，仅涉及到数据可视化和Mermaid的基础用法，各个图表均可使用其语言/语法进行高级设置。
+
 希望这篇文章能帮助大家使用 Cursor 进行代码可视化的学习和应用。
+
 如果你有任何问题或建议，欢迎在评论区留言交流！
+
 欢迎大家交流链接，可以通过鱼丸找到我。
+
 # 参考资源
+
 *   Cursor 官方文档
+
 *   Mermaid 官方文档
+
 *   VANNA-MAIN 项目
+
 *   huggingface.co
+
 *   Seaborn官方教程
+
 ```

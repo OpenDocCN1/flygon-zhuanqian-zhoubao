@@ -1,48 +1,93 @@
 # 文章总结卡 2.0 正式上线：全量适配 Deepseek V3，质感直追 Claude 3.7，再添竖版适配手机端阅读
+
 # 写在前面
+
 上周我们先行放出了 AI 文章总结卡 和 AI 自我介绍总结卡之后，我和大魔、相柳、辛亥就拉起了提示词攻坚小组，核心目标就是深挖怎样才能把提示词写得更到位。
+
 ![](img/zhuanqian_1fd6f15a0cd75acfacade6dff150d741.png)
+
 ![](img/zhuanqian_0974ac89ceee630581ff6ec879c991be.png)
+
 ![](img/zhuanqian_2769e6d1020a0df115028325ba6095b4.png)
+
 在对文章总结卡进行迭代升级的同时，我们也同步在尝试能否用 AI 卡片方案来解决教育类落地页的问题。最初的打算是一口气把这两个成果一起发布。
+
 不过在实测后我们发现，教育落地页想要做到真正合格，单靠一个提示词是不够的，很可能需要一套由多个提示词协同工作的工程化方案来支撑。
+
 目前我们做出来的版本更接近于精致海报，并不能称得上是完整的落地页。
+
 ![](img/zhuanqian_b25466028729115f8be213aa994a4c99.png)
+
 ![](img/zhuanqian_d40d4317eb8ca0d7b03e6f98fa139f1d.png)
+
 所以我们决定先把教育卡片的项目搁置回炉，重新梳理逻辑。今天先把刚刚打磨好的 文章总结卡 2.0 版本拿出来跟大家分享。
+
 本次 2.0 升级主要包含三点：
+
 1. 卡片整体视觉焕新，图标、字体、配色与版式排布都做了全面优化。
+
 2. 新增竖版 750px 宽度不限高的卡片样式，长文章兼容性更强，手机端浏览体验更友好。
+
 3. 全系卡片已完成 Deepseek V3 适配，生成效果已达到与 Claude 3.7 相当的水平。
+
 # 一、AI 文章总结卡 V2.0 版本详解
+
 ## 1.1 视觉层全面升级：图标 + 字体 + 配色 + 版式
+
 旧版 V1 视觉示例，模型为 Claude 3.7
+
 ![](img/zhuanqian_229cefd44e7c2687a16026c9c1cc711d.png)
+
 ![](img/zhuanqian_2ce4626df1c02b6db9c6d16bdb9471e7.png)
+
 新版 V2 视觉示例，模型为 Claude 3.7
+
 ![](img/zhuanqian_7f3298c72c367c48d2d5491da2a80113.png)
+
 ![](img/zhuanqian_7ca5c40cebaeb50a0cf958f973f482e8.png)
+
 ## 1.2 横版 1080 x 800 卡片 示意
+
 Claude 3.7 生成效果
+
 ![](img/zhuanqian_426c85ef9db4a6a8326daa67336cc99b.png)
+
 ![](img/zhuanqian_6e821148c3c1d64ab150bee892b0e4b5.png)
+
 ![](img/zhuanqian_c35832091a082744bc4c7e7af6509263.png)
+
 Deepseek V3 生成效果
+
 ![](img/zhuanqian_50541b5d37eb5fba162decafdd5acab2.png)
+
 ![](img/zhuanqian_247dfd856ed5fb1e1c2d9dac6538adca.png)
+
 ![](img/zhuanqian_c544f1236271d3a2c228ef2ab16138cb.png)
+
 ## 1.3 竖版 750 x 不限高 卡片 示意
+
 Claude 3.7 生成效果
+
 ![](img/zhuanqian_6b80e01f853917f395d69bc125c4241d.png)
+
 Deepseek V3 生成效果
+
 ![](img/zhuanqian_fc95f087bc1ab6ac6d60aa83dfe6dc07.png)
+
 ![](img/zhuanqian_f43d25456ab41aa9d5852c5483622e21.png)
+
 ![](img/zhuanqian_607b1d41ad90772da2da1c955e0cd00b.png)
+
 # 二、提示词获取
+
 本版本提示词同时兼容 Claude 3.7 与 Deepseek V3。
+
 注意：Deepseek V3 需使用 0324 版本更新后的模型，官方与 API 端已支持，如需通过第三方平台调用请确认模型版本号。
+
 提示词复制链接：
+
 ## 2.1 横版 1080 x 800 卡片 提示词
+
 ```
 # 文章概念卡片设计师提示词
 ## 核心定位
@@ -135,9 +180,13 @@ Deepseek V3 生成效果
 * **备用字体**：Tahoma, Arial, Roboto等系统字体
 ### HTML基础结构
 ```html
+
 文章概念卡片
+
 <main class="flex-grow flex flex-col gap-6 overflow-hidden">
+
 </main>
+
 ```
 ### 溢出防护技术
 * **固定尺寸容器**：使用Tailwind的固定尺寸类（w-card、h-card）
@@ -165,7 +214,9 @@ Deepseek V3 生成效果
 ## 以下为文章内容
 [在这里粘贴需要总结的文章内容]
 ```
+
 ## 2.2 竖版 750 x 不限高 卡片 提示词
+
 ```
 # 文章概念卡片设计师提示词（响应式版）
 ## 核心定位
@@ -262,9 +313,13 @@ Deepseek V3 生成效果
 * **备用字体**：Tahoma, Arial, Roboto等系统字体作为降级方案
 ### HTML基础结构
 ```html
+
 文章概念卡片
+
 <main class="flex-grow flex flex-col gap-6">
+
 </main>
+
 ```
 ### 内容优化技术
 * **渐进式布局**：使用Flexbox和Grid实现内容自适应布局
@@ -295,39 +350,75 @@ Deepseek V3 生成效果
 ## 以下为文章内容
 [在这里粘贴需要总结的文章内容]
 ```
+
 # 三、抽卡平台
+
 想看最终呈现，所有平台都得先把 html 文件导出来本地打开，平台自带的预览因为兼容性问题，效果基本不准。
+
 1. Claude 可用的入口：Claude 3.7 官网、API 接口、Cursor 编辑器。
+
 2. Deepseek 可用的入口：Deepseek 官网、API。注意 V3 模型需使用 0324 及之后的版本，Deepseek 官网和自家 API 已完成更新，若你调用的是第三方平台 API，请自行核对模型版本号。
+
 单独说一下 Claude 的使用习惯：必须导出为 HTML 再在浏览器里打开，当前版本的在线预览不支持还原真实效果。
+
 ![](img/zhuanqian_e94c346c53f95bab854e1f9668611307.png)
+
 ![](img/zhuanqian_a87063865fec511c9d42b203a5977805.png)
+
 ![](img/zhuanqian_78fd8603175da568636de041bf058724.png)
+
 Deepseek 的流程是把生成的代码复制出来，新建一个 html 文件粘贴进去保存后打开即可查看。
+
 ![](img/zhuanqian_0ded693779cccd734ca69a802c386aff.png)
+
 ![](img/zhuanqian_eb68b500880218a3bd18f542b8b71697.png)
+
 ![](img/zhuanqian_d0fb3a7fc79cd01530d0667e79a7e6a5.png)
+
 ![](img/zhuanqian_abdb8d8e3ac676010f864ac8710dabf7.png)
+
 # 四、Cursor 微调增加图片
+
 把已经导出的 html 文件和对应的素材图放在同一个目录下，直接让 Cursor 帮你把图片补进去就行。
+
 ![](img/zhuanqian_c14f48a59033b3eb590ac5281abcf6e1.png)
+
 下面是具体的微调示范：
+
 ![](img/zhuanqian_5b7bdc23e89600ba8c669b4d8ed89dfa.png)
+
 ![](img/zhuanqian_829a8b43f1f9d542cd223951b7514046.png)
+
 # 五、提示词技巧：萃取与融合
+
 在本次调试过程中我们遇到一个典型情况：提示词 A 稳定性极强，成品基本不出错；提示词 B 设计感很出色，但波动大、很容易崩。
+
 折腾了很久 B 还是稳定不下来，于是我们换了思路，把 B 的优点移植到 A 的框架里。
+
 在保证稳定性的前提下，去做视觉上的进阶优化。
+
 ![](img/zhuanqian_e9147138b41b605be2c1ecf3f99a22da.png)
+
 ![](img/zhuanqian_f634098c4d0d1343588fc53bbe68cba6.png)
+
 我们把这个做法命名为 萃取与融合。
+
 让 A 持续吸收 B 的设计风格，同时不去动 A 里负责稳定性的因子，最终才有了文章总结卡 2.0 版本，并在此基础上又扩展出了竖版卡片。
+
 ![](img/zhuanqian_f581c3f5519e59485b73fdd2adfa988d.png)
+
 靠着模型的理解能力，提示词的迭代算是比较顺利地完成了。完成后我却卡在了一个问题上。
+
 我问大家，也问自己，提示词到底是什么？它存在的意义是什么？
+
 绕来绕去，我觉得最贴切的还是 Transformer 论文里的那句老话：
+
 Attention is all you need
+
 提示词本质上就是碳基对硅基注意力的分配方式。提示词长短不是评判好坏的标准，核心在于能否成功激活。
+
 把 AI 放在一个边界清晰的小范围内，让它把潜力全部发挥出来。
+
 ![](img/zhuanqian_bf2f40874f9cf3a68efca8e9d13aa6fd.png)
+
 对 AI 来说，创造和稳定并没有本质区别，只是激活区域不同。通过提示词的约束，我们把注意力聚焦到目标范围内，从而得到高质量的输出。
