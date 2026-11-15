@@ -1,7 +1,7 @@
 # 我用AI做PPT，被老板奖励了1000块：全套思路+工具实测分享
 大家好，我是龙哥Jay。因为公司内部要搞一次培训，我顺手整理了一份“AI高效生成PPT”的实战指南，没想到课程效果出奇的好，不仅帮同事们解决了痛点，老板还直接发了个1000元红包作为鼓励。今天我把这套方法完整分享出来，希望能给同样被PPT折磨的你一些启发。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a1ec7ab498ce2bac2ccd66a35d53756b.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b1e1f2c84459bc4be639f4783f6b1c1b.png>
+![](img/zhuanqian_a1ec7ab498ce2bac2ccd66a35d53756b.png)
+![](img/zhuanqian_b1e1f2c84459bc4be639f4783f6b1c1b.png)
 不管你是PPT老手，还是平时很少碰PPT的小白，可能都遇到过这些场景：突然接到一个汇报任务，手头工作一堆，却还要花大把时间做幻灯片；或者明明积累了不少素材，可一旦涉及陌生领域，依然无从下手；又或者做出来的PPT总差点意思，不仅自己不满意，听众也提不起兴趣。其实，这些问题AI都能帮你解决大半。
 现在市面上的AI PPT工具，基本都内置了大量精美模板，覆盖各行各业的设计需求。你只需要输入一个主题或大纲，它就能自动生成可用的幻灯片，结构、排版、视觉风格一气呵成，既省去了你从零构思的功夫，也让最终成品更专业、更有辨识度。
 先把我用下来觉得最靠谱的5款工具摆在这儿，大家按需取用：
@@ -24,8 +24,8 @@
 ## 任务3: 请告诉我不合格的PPT的几个要素, 用于警醒大家
 ## 任务4: 请给不同受众人群一些建议,和学习写PPT的路线
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a1814986fc9934ae302365b1bac0ed9e.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a7dbbd876d67fad4ff6665373d13f32f.png>
+![](img/zhuanqian_a1814986fc9934ae302365b1bac0ed9e.png)
+![](img/zhuanqian_a7dbbd876d67fad4ff6665373d13f32f.png)
 在正式开工之前，有一点很关键：先搞清楚一份“优秀PPT”到底长什么样，避免踩坑。我当时就让AI帮我梳理了优秀PPT的关键要素、不合格PPT的常见毛病，还针对不同岗位（比如软件工程师、实施人员、销售）设计了定制化的学习路径。这样后续的每一步都会更有方向感。
 顺便提一句，市面上绝大多数AI生成PPT的工具，底层逻辑都是同一套四步流程：
 1. 让AI生成PPT大纲
@@ -63,7 +63,7 @@
 1\. '描述: 在回应用户之前，你将始终提醒自己角色的设定和提醒的内容。'
 2\. '提醒: 用户的语言是<language>，遵循的规则是<rules>。'</rules></language></workflow></language></rules>
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6615d139dd46e1150f818ff1ace98f19.png>
+![](img/zhuanqian_6615d139dd46e1150f818ff1ace98f19.png)
 ## 第一步：让AI生成PPT大纲
 要想让AI输出高质量大纲，提示词必须给足“料”。当时我参考LangGPT做了一份结构化的“培训文档助手”提示词模板，大家可以直接套用，也可以继续丰富。用ChatGPT GPT-4来演示，其他AIGC工具也同理。
 大纲内容建议用Markdown语法来写，规则很简单：一个`#`是一级标题，两个`##`是二级标题，`-`代表无序列表，也就是要点。这样AI输出的内容就能被主流PPT工具直接识别。
@@ -75,17 +75,17 @@
 # 背景: 目前AI生成PPT的工具日益火爆, 市面上有很多AI工具可以帮助人们快速搭建PPT,并且有一些工具生成PPT比较美观. 但是工具之间多少存在一些差异. 所以我召开本次AI工具生成PPT的培训, 讲解主流的三个AI工具: MindShow、爱设计、闪击.
 # 目的: 按照<受众人群>的PPT能力, 使用PPT的不同频率,以及他们渴望通过培训得到的知识, 帮我设计本次“AI工具生成PPT”的培训大纲
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_35e27524d47154be81fa72582dbc3315.png>
+![](img/zhuanqian_35e27524d47154be81fa72582dbc3315.png)
 除了提示词，还得把受众分析作为关键信息扔给AI。不同人群的痛点不同，你的PPT侧重点自然也不一样。这一步千万别省，它直接决定后续内容的精准度。
 ## 第二步：手动优化大纲
 AI生成了初稿，别急着做PPT，先动手优化。优化的核心原则只有一条：紧扣本次培训的目标。就我们这次来说，目标就是解决不同人群的痛点，帮大家降本增效。
 具体怎么优化？一方面把大纲改得更完整，另一方面可以继续追问AI，让它帮你提取每个章节的核心要点。这样一来，下一步导入工具时生成的PPT元素会更丰富。
 比如我把优化后的大纲整理成了下图的样式，用的就是Markdown语法。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_750ff29bf91fe991109bfd8d9bad3fda.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5689d3e24b6e7426d0fb2c04e0b2d5b2.png>
+![](img/zhuanqian_750ff29bf91fe991109bfd8d9bad3fda.png)
+![](img/zhuanqian_5689d3e24b6e7426d0fb2c04e0b2d5b2.png)
 有人可能会问：既然优化大纲也花时间，那第一步“让AI生成大纲”是不是多此一举？真不是。AI的价值在于帮你“开脑洞”，特别是当你对主题毫无头绪、或者完全陌生的时候，它能瞬间给你提供参考框架。但人工优化也不能跳过，因为AI不可能完全了解你脑中那些关键信息，遗漏和偏差都需要你来修正。
 接下来，让AI逐个章节输出内容，并提取要点。以“培训简介”为例你会发现，一篇PPT其实是一篇文章的浓缩版，有了AI的加持，你几乎是在“边写文边做PPT”，效率翻倍。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_58237543759e8cd5ba1e2aa4a1797957.png>
+![](img/zhuanqian_58237543759e8cd5ba1e2aa4a1797957.png)
 提取出来的要点，直接从大段文字里挑重点即可，这些内容就是未来PPT页面上的核心元素。其他章节的要点提取方式完全一致，一个个来就好。
 最终，带要点的完整大纲长这样：
 ```
@@ -162,80 +162,80 @@ AI生成了初稿，别急着做PPT，先动手优化。优化的核心原则只
 ## 第三步：导入大纲，一键生成PPT
 这一步我们以“爱设计”为例演示。其他工具的操作逻辑都差不多，基本都是基于Markdown语法的内容来生成PPT，只是入口和名字不太一样。
 具体步骤：在爱设计里选择“文档秒变PPT”，把上一步做好的带要点大纲直接导入，然后挑选模板、点击生成，一份像模像样的PPT就出来了。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f45e5e8459e881e78c20c79d292b60ba.png>
+![](img/zhuanqian_f45e5e8459e881e78c20c79d292b60ba.png)
 ## 第四步：整体结构优化
 生成PPT只是起点。下载之后，记得按照公司规范和个人审美，替换字体、调整图片、删改内容，直到它真正符合你的预期为止。这一步没有捷径，但相比从头做，已经节省了至少百分之八十的时间。
 ## 爱设计实操指南
 网址是 https://ppt.isheji.com/?code=ysslhaqllp&as=invite，国内站点，不用魔法，注册登录就能用。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ec980e0c597bdf776645233533bff0d5.png>
+![](img/zhuanqian_ec980e0c597bdf776645233533bff0d5.png)
 它提供两种生成方式：
 第一种：导入大纲和要点。选择“文档秒变PPT”，然后“导入本地大纲”，把带要点的Markdown文件传上去，AI会自动解析并生成PPT。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_926eaef8f5a99fba754a86c8bb993870.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1029033cfb93b8d57de7a60b7235e20d.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5cd4e873c1623175018953870aa72b12.png>
+![](img/zhuanqian_926eaef8f5a99fba754a86c8bb993870.png)
+![](img/zhuanqian_1029033cfb93b8d57de7a60b7235e20d.png)
+![](img/zhuanqian_5cd4e873c1623175018953870aa72b12.png)
 第二种：输入主题自动生成大纲和要点。你只需要输入主题，点击“开始生成”，AI会给你自动配好大纲，然后再一键生成PPT。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_364b1208efbcc7e1927e7179cb7d4a55.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3f4eafe60174c9845152561e225a13a9.png>
+![](img/zhuanqian_364b1208efbcc7e1927e7179cb7d4a55.png)
+![](img/zhuanqian_3f4eafe60174c9845152561e225a13a9.png)
 点击“生成PPT”之后，选择你喜欢的模板。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e61a8020462bda0799148368b169c469.png>
+![](img/zhuanqian_e61a8020462bda0799148368b169c469.png)
 应用模板，等待生成。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f46d206c898c6f9f124f43b41082c85e.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f4080c26fa6e995ce25ac7fc35c4024f.png>
+![](img/zhuanqian_f46d206c898c6f9f124f43b41082c85e.png)
+![](img/zhuanqian_f4080c26fa6e995ce25ac7fc35c4024f.png)
 生成完成后点击“编辑”，就能对每一页进行微调了。
 整套流程走下来，你会发现：AI不是来替代你做决策的，而是帮你把“从无到有”的低价值时间统统省掉，让你能把精力放在真正重要的内容打磨上。我从一份内部培训材料，到拿到老板的额外奖励，靠的就是这套方法。
 如果你也被PPT折腾过，不妨现在就去试试这些工具。哪怕只用一个，你的效率都会大不一样。希望这份指南能帮到你，也期待看到你做出漂亮的PPT。
 每次一提做PPT，很多人头就开始大：找模板、配图、调排版，一搞就是半天。AI加入之后，这个流程被大大压缩。今天我就结合亲测体验，聊聊5款值得关注的AI PPT工具，以及它们背后那条通用打法。
 先记住核心方法论：不管换哪个工具，基本都可以按“准备好大纲/主题→让AI生成并完善大纲→挑模板→一键生成PPT→导出文件”的路径走。方向对了，工具选什么都顺手。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bbe110e0b142083eaef98dc4dfce272b.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a0f175ddcb36e16c024ca462d48b2b98.png>
+![](img/zhuanqian_bbe110e0b142083eaef98dc4dfce272b.png)
+![](img/zhuanqian_a0f175ddcb36e16c024ca462d48b2b98.png)
 拿实际导出的页面来感受一下：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_82f27082571b25b22137e000cb5d290f.png>
+![](img/zhuanqian_82f27082571b25b22137e000cb5d290f.png)
 # MindShow
 ## 访问入口
 国内直连，不用🪜，打开这个地址就行：
 https://www.mindshow.fun/#/home
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_be63f5a879487173535e2bfc7ac970be.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b6a20ab967dedd0d84d0b2e698b0560b.png>
+![](img/zhuanqian_be63f5a879487173535e2bfc7ac970be.png)
+![](img/zhuanqian_b6a20ab967dedd0d84d0b2e698b0560b.png)
 ## 内容输入方式
 操作上依旧是两种思路：
 - 直接导入已经写好的大纲和要点
 - 只丢一个主题，让AI来生成大纲
 ### 直接导入已有大纲
 大纲在手的话，直接传上去即可。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7a2087216c02bfc3efa67a008f2b0fe2.png>
+![](img/zhuanqian_7a2087216c02bfc3efa67a008f2b0fe2.png)
 ### 只给主题，让AI自己长大纲
 先输入主题。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2ec2bef388b10f9509970cb5cef37241.png>
+![](img/zhuanqian_2ec2bef388b10f9509970cb5cef37241.png)
 AI会给出它生成的大纲。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f0d62ccba53354bf4a5cdcbae663d399.png>
+![](img/zhuanqian_f0d62ccba53354bf4a5cdcbae663d399.png)
 你还可以挑几个章节让AI扩写。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_879d5e765c6a21d4c0780a4427bbe49b.png>
+![](img/zhuanqian_879d5e765c6a21d4c0780a4427bbe49b.png)
 这是扩写后的实际效果。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_436ae93521ea4cd7220c0a4ede6007cb.png>
+![](img/zhuanqian_436ae93521ea4cd7220c0a4ede6007cb.png)
 ## 挑模板，一键生成幻灯片
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d3bb4e2334458ecd9033a0063f68500d.png>
+![](img/zhuanqian_d3bb4e2334458ecd9033a0063f68500d.png)
 ## 文件导出
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_39fcc841bf540f29ab5b57d21b624e0f.png>
+![](img/zhuanqian_39fcc841bf540f29ab5b57d21b624e0f.png)
 # 闪击
 ## 访问入口
 同样是国内直连、免🪜：
 https://ppt.isheji.com/?code=ysslhaqllp&as=invite
 不过我准备的大纲和“闪击”的语法有些不太兼容，可以先参考官方的使用说明：https://zhuanlan.zhihu.com/p/607583650
 ## 挑选模板
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c8d8d8d4fad3c9ed9ab0f417208e1188.png>
+![](img/zhuanqian_c8d8d8d4fad3c9ed9ab0f417208e1188.png)
 ## 大纲适配与输入
 把之前的大纲改写成符合“闪击”语法的格式。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_eee63818cd603ef4701acd83d550b0d5.png>
+![](img/zhuanqian_eee63818cd603ef4701acd83d550b0d5.png)
 ## 生成幻灯片
 点击“文本转PPT”，然后在提示框里选择“确定”。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_07914ab63394055dad52f7fd07d8dd99.png>
+![](img/zhuanqian_07914ab63394055dad52f7fd07d8dd99.png)
 转换完的PPT就出来了。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7ff20edd5800ceabb83582870155d13a.png>
+![](img/zhuanqian_7ff20edd5800ceabb83582870155d13a.png)
 之后还能在线直接编辑。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f1494577434eb82649338c1afff36ed5.png>
+![](img/zhuanqian_f1494577434eb82649338c1afff36ed5.png)
 ## 导出须知
 导出有限制：PPT需要会员才能下载。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f095c92c78fee04ee35e317fc89eeb60.png>
+![](img/zhuanqian_f095c92c78fee04ee35e317fc89eeb60.png)
 # ProcessOn
 ## 访问入口
 https://www.processon.com/
@@ -251,31 +251,31 @@ https://www.processon.com/
 2. 打开Xmind，把这个md文件导入。
 3. 在ProcessOn里导入Xmind文件。
 用“导入”的方式新建一个思维导图。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c1ef7e05d32208b586543e95000ff80f.png>
+![](img/zhuanqian_c1ef7e05d32208b586543e95000ff80f.png)
 选中准备好的Xmind文件。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d5e8ac8396d937ebca31b681939af4ac.png>
+![](img/zhuanqian_d5e8ac8396d937ebca31b681939af4ac.png)
 导入成功。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4d38eef5f9c697f0858e4f40bb40b041.png>
+![](img/zhuanqian_4d38eef5f9c697f0858e4f40bb40b041.png)
 ### 输入主题，AI自动生成
 新建思维导图。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_726162f14ce7b654c29963207ced8204.png>
+![](img/zhuanqian_726162f14ce7b654c29963207ced8204.png)
 输入主题，再点击“AI帮我创作”。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2b86b9eceeb09e73b2f166389da832ec.png>
+![](img/zhuanqian_2b86b9eceeb09e73b2f166389da832ec.png)
 生成完成。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_29818fa9d3267a113b67d9dd0404807f.png>
+![](img/zhuanqian_29818fa9d3267a113b67d9dd0404807f.png)
 ## 选模板并下载为PPT
 点击“下载”，导入格式选择“PPT文件”。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4a378907ac3bce8c3e9555d90a52cb4c.png>
+![](img/zhuanqian_4a378907ac3bce8c3e9555d90a52cb4c.png)
 选好模板，再点击下载。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2d7fc3f706670ae85607152a877907d9.png>
+![](img/zhuanqian_2d7fc3f706670ae85607152a877907d9.png)
 如果你喜欢用ProcessOn但没有会员，可以找某宝买一天会员临时用。
 # WPS AI
 ## 先申请内测
 目前要先申请内测，一般要等1到2天。申请地址：https://ai.wps.cn/
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c9041dc0f17025c481fddf3f1112bb97.png>
+![](img/zhuanqian_c9041dc0f17025c481fddf3f1112bb97.png)
 ## 下载客户端或走金山在线
 目前支持Windows、安卓、iOS；虽然不支持Mac，但可以用金山文档在线体验。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_776181469f79f5c7a3fb82b0397a94a4.png>
+![](img/zhuanqian_776181469f79f5c7a3fb82b0397a94a4.png)
 ## Windows、安卓、iOS
 我是Mac用户，其他平台的具体操作就不一步步演示了，总体和下面的“金山在线”类似，官方文档在这里：https://home.wps.cn/topic/2498?chan=aiwps01
 ## 金山在线
@@ -354,28 +354,28 @@ https://www.processon.com/
 2\. Q&A环节
 ```
 输入主题：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a78886e1f6621daff74b959843f95a13.png>
+![](img/zhuanqian_a78886e1f6621daff74b959843f95a13.png)
 AI输出大纲：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2f3c998f9b003e7bc96013f509b3e58f.png>
+![](img/zhuanqian_2f3c998f9b003e7bc96013f509b3e58f.png)
 ### 输入主题，自动生成大纲
 也可以导入PPT进行改写，这种方式主要用于换主题、改具体内容。
 新建PPT。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ffc4077c8e2d4dd8730c79b4252553b9.png>
+![](img/zhuanqian_ffc4077c8e2d4dd8730c79b4252553b9.png)
 选择空白PPT，或导入已有PPT。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6623b8fbf79fb0f567b6c71c865d4e03.png>
+![](img/zhuanqian_6623b8fbf79fb0f567b6c71c865d4e03.png)
 进入PPT编辑页面。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8689dbc2c1e2082fc064c5f5548bf63f.png>
+![](img/zhuanqian_8689dbc2c1e2082fc064c5f5548bf63f.png)
 生成后的效果在这里。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a2fea713d30cffff70788681c3c7903c.png>
+![](img/zhuanqian_a2fea713d30cffff70788681c3c7903c.png)
 ## 生成幻灯片
 生成后的幻灯片质量确实不错。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3b15173a2bfbeaac0cffe5577e894d82.png>
+![](img/zhuanqian_3b15173a2bfbeaac0cffe5577e894d82.png)
 ## 美化主题
 可以更换主题、改写内容，整体效果超出预期。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_acd65119e9b81c674f109a72b7373287.png>
+![](img/zhuanqian_acd65119e9b81c674f109a72b7373287.png)
 ## 下载导出
 点击“分享”，选择“下载为pptx文件”，存到本地后还能继续精修。除了需要内测资格，WPS AI几乎没有别的短板，大家可以去薅一波。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_93981199c24ba26ae915264fb1317c94.png>
+![](img/zhuanqian_93981199c24ba26ae915264fb1317c94.png)
 # 总结
 有了AI加持，做PPT这件事变得更省心也更高效。这些工具形态各异，但背后的主线其实高度一致：AI辅助生成PPT的核心思路。
 我这次实测的五大AI PPT工具分别是MindShow、爱设计、闪击、ProcessOn、WPS AI。它们各有各的特点和适合场景：

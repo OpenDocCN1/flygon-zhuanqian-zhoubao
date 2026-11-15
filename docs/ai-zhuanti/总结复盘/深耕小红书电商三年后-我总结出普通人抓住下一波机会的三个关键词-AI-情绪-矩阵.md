@@ -60,7 +60,7 @@ AI 在小红书电商中的主要用途，集中在两方面：
 这种方法的核心是：手上有一张对标图片，再结合自己的产品图，通过 AI 进行重新创作。
 当然，也可以完全让 AI 自由生成画面，比如直接要求它把某个发饰放到模特头上。但这种“完全无参考”的生成方式，爆款概率往往低于基于成熟爆款进行改造。
 简单来说，有对标，成功率通常更高；完全凭空创作，试错成本会更大。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6d58b8967c133bfa703bd7ef51da886e_21_0.png>
+![](img/zhuanqian_6d58b8967c133bfa703bd7ef51da886e_21_0.png)
 ## 第二张牌：情绪
 “情绪”不仅可以用来写文案，也可以帮助我们判断产品。
 ### 1. 用情绪来选品
@@ -160,7 +160,7 @@ AI 在小红书电商中的主要用途，集中在两方面：
 这类产品本质上是在“卖画面”。
 比如手链、耳饰、戒指等，如果产品本身不够好看，文案再精彩也很难弥补。
 很多时候，一张有吸引力的图片，配上简单标题和短文案，就可能完成种草。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6d58b8967c133bfa703bd7ef51da886e_22_0.png>
+![](img/zhuanqian_6d58b8967c133bfa703bd7ef51da886e_22_0.png)
 因此，做颜值型产品，对审美能力要求较高。平时喜欢关注穿搭、饰品、家居和漂亮物件的人，往往更容易找到合适的内容角度。
 ### 第二类：具备明确用途
 这类商品能够解决用户的某项需求。
@@ -170,7 +170,7 @@ AI 在小红书电商中的主要用途，集中在两方面：
 3. 具体痛点；
 4. 玄学需求；
 5. 季节场景。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6d58b8967c133bfa703bd7ef51da886e_23_0.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6d58b8967c133bfa703bd7ef51da886e_23_1.png>
+![](img/zhuanqian_6d58b8967c133bfa703bd7ef51da886e_23_0.png)![](img/zhuanqian_6d58b8967c133bfa703bd7ef51da886e_23_1.png)
 其中，痛点类和玄学类内容比较容易涉及违规表达，不建议新手一开始就挑战。
 情绪价值类产品前面已经介绍过，基础功能类则更适合新手从日常用品中寻找方向。
 ### 第三类：便宜、容易产生占便宜心理
@@ -244,7 +244,7 @@ AI 在小红书电商中的主要用途，集中在两方面：
 我常用的笨办法是图片拆解，四张视角一起看，大图中小图全视角，照着模仿。
 等你再熟练一点，能从一张封面里分辨出哪些元素是促爆的、哪些是拖后腿的，就开始做保留和替换，有爆款元素就留着，非爆款元素就换掉，这就是进阶的创新。
 比如卖眼镜和卖手链，可以共用同一个内容壳子：才 x 块，却被当成高价礼物。封面形式也一样：纸袋里装满产品，俯拍。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6d58b8967c133bfa703bd7ef51da886e_27_0.png>
+![](img/zhuanqian_6d58b8967c133bfa703bd7ef51da886e_27_0.png)
 我前面提过的那些情绪向笔记，都很适合横移到别的品类去用。
 熟练度上来说，现在一天稳定产出 30 条 AI+实拍混搭的笔记，对我来说是常规操作。
 ## 📖📖 运营关键点
@@ -254,18 +254,18 @@ AI 在小红书电商中的主要用途，集中在两方面：
 ### 📖 1、商品链接建设
 先说链接，因为链接直接决定转化。我们一般会把销量控在 10 到 100 之间。
 对测评期已经出单的链接，建议补三个带图好评，最好配三张图，文字 20 字以上。优质的好评会沉到笔记评论区里，对转化有直接加成。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6d58b8967c133bfa703bd7ef51da886e_28_0.png>
+![](img/zhuanqian_6d58b8967c133bfa703bd7ef51da886e_28_0.png)
 ### 📖 2、笔记评论区运营
 小红书的推流是 CES 体系，评论权重非常大。笔记能不能炸，评论区能不能带起来是关键。把人工干预玩明白，爆文率能提升 30%-50%。
 常用的一招是抽免单或发惊喜回馈券。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6d58b8967c133bfa703bd7ef51da886e_29_0.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6d58b8967c133bfa703bd7ef51da886e_29_1.png>
+![](img/zhuanqian_6d58b8967c133bfa703bd7ef51da886e_29_0.png)![](img/zhuanqian_6d58b8967c133bfa703bd7ef51da886e_29_1.png)
 这类话术有一定风险，用的时候多换表达，降低被判定概率。
 人工干预讲究快，得常盯数据。手机端用千帆，进【数据-内容】选【实时】，电脑端千帆【数据-笔记-我的笔记】选实时数据按发布时间排，就能看到今天笔记的出单情况。设置好后基本每天都能看。
 当天数据有延迟，看不到也不用慌，等会再刷。发了笔记出单却不知道是哪篇，以笔记的“小眼睛”数据为准即可。
 除了引导评论，还有几种布局可以一起做。
 **01- 蹲反馈类**
 让感兴趣的人去评论区蹲反馈，提升互动。带动一个人蹲，就可能带动整篇流量。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6d58b8967c133bfa703bd7ef51da886e_30_0.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6d58b8967c133bfa703bd7ef51da886e_30_1.png>
+![](img/zhuanqian_6d58b8967c133bfa703bd7ef51da886e_30_0.png)![](img/zhuanqian_6d58b8967c133bfa703bd7ef51da886e_30_1.png)
 比如这种话术：
 1. 关于我刚打开小红书就花了 9.9💰这件事
 2. 已下单 莫辜负
@@ -278,7 +278,7 @@ AI 在小红书电商中的主要用途，集中在两方面：
 可以去小红书同款、抖音同款的点赞视频评论区里挖。
 ### 📖 3、笔记裂变运营
 发笔记不是盲发，要看平台数据和自己账号数据，对表现好的内容模型做裂变。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6d58b8967c133bfa703bd7ef51da886e_31_0.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6d58b8967c133bfa703bd7ef51da886e_31_1.png>
+![](img/zhuanqian_6d58b8967c133bfa703bd7ef51da886e_31_0.png)![](img/zhuanqian_6d58b8967c133bfa703bd7ef51da886e_31_1.png)
 建议每天定三个点查数据：上午 9 点、下午 2 点、晚上 6 点，看自己笔记和同行笔记的表现。
 再统一一下小红书电商的基础认知。
 ### 📖 1、开店门槛
@@ -297,7 +297,7 @@ AI 在小红书电商中的主要用途，集中在两方面：
 总结一下，新手别投放，纯自然流就够了。
 ### 📖 3、货源问题
 现在 90% 的品都能在 1688 上找到。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6d58b8967c133bfa703bd7ef51da886e_34_0.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6d58b8967c133bfa703bd7ef51da886e_34_1.png>
+![](img/zhuanqian_6d58b8967c133bfa703bd7ef51da886e_34_0.png)![](img/zhuanqian_6d58b8967c133bfa703bd7ef51da886e_34_1.png)
 有些人觉得拼多多可能更便宜，但拼多多商家代发很难谈，还是建议走 1688。
 这里有一份供应商沟通的文档，平时不常聊供应商的可以学一下。
 供应商沟通话术&注意事项 供应商沟通话术 & 注意事项 【小刀轻创工作室】
@@ -308,14 +308,14 @@ AI 在小红书电商中的主要用途，集中在两方面：
 整体来说，小红书电商是长线生意，要跟着平台变化，用平台鼓励的方式拿结果。
 抖音已经很卷了，但依然有人赚钱。小红书只要平台不说停，就有无限机会。
 最后分享一个最近感动的反馈。是之前月薪 3000 多的一个小伙伴，做小红书后给我发的信息，我觉得很有力量。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6d58b8967c133bfa703bd7ef51da886e_36_0.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6d58b8967c133bfa703bd7ef51da886e_36_1.png>
+![](img/zhuanqian_6d58b8967c133bfa703bd7ef51da886e_36_0.png)![](img/zhuanqian_6d58b8967c133bfa703bd7ef51da886e_36_1.png)
 这是她当时在日记本里写的话。
 我知道大家现在可能焦虑、迷茫、困惑，但这些都会随着行动消散。
 我 23 年开始做小红书，24 年 3 月下定决心提着一个箱子从北京回济南扩大项目。
 当时住酒店找场地，第一个济南员工面试时场地都没定，到现在已经有近 50 个并肩作战的小伙伴。
 不是想显摆，是想告诉大家，当年我提着行李箱一个人来时，也充满未知。
 但路在脚下，迈出一步，四面八方都是前方！！！
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6d58b8967c133bfa703bd7ef51da886e_37_0.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6d58b8967c133bfa703bd7ef51da886e_37_1.png>
+![](img/zhuanqian_6d58b8967c133bfa703bd7ef51da886e_37_0.png)![](img/zhuanqian_6d58b8967c133bfa703bd7ef51da886e_37_1.png)
 希望大家无论做小红书还是其他项目，都能拿到想要的结果；希望大家想退缩的时候，这个逆袭的经历能给你一点力量。
 最后最后，分享一段话。
 以上，共勉。
@@ -323,6 +323,6 @@ AI 在小红书电商中的主要用途，集中在两方面：
 看完 SOP，你会觉得懂了。但 90% 的人实操第一步就卡住。
 工具和教程只是最低级的壁垒，真正的壁垒是立刻动手和圈层信息差。
 我们不聊虚的，只做商业闭环拆解和 AI 效率压榨。系统里已沉淀 1000+ 跑通的套利实战局。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6d58b8967c133bfa703bd7ef51da886e_38_0.png>
+![](img/zhuanqian_6d58b8967c133bfa703bd7ef51da886e_38_0.png)
 # 微信（）
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6d58b8967c133bfa703bd7ef51da886e_39_0.png>
+![](img/zhuanqian_6d58b8967c133bfa703bd7ef51da886e_39_0.png)

@@ -5,11 +5,11 @@
 跟大家复盘一下我组建内容团队的实战打法，可以直接照做。
 随着AI工具和剪辑工具越来越卷，剪辑门槛已经降到冰点。
 先把整体思路捋清楚：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b19d43f82dbf2eb42c861f595f2f10c9.png>
+![](img/zhuanqian_b19d43f82dbf2eb42c861f595f2f10c9.png)
 关于项目现状：做自然流的团队，基本都卡在同一批坑里
 **1：账号启动慢 2：收益波动大 3：流量变现养不活人**
 不管是做电商带货，还是平台创作者分成，或是帮App做推广，真正快速见效、拿到大结果的团队是少数。大多数账号都卡在200播放卡几个月。**根源其实就一点，对平台规则的理解、对流量的感知、对内容的把握**。这三点对于公司或个人来说，本质就是网感和对赛道本身的熟悉度。方法大家都懂，关键怎么把学习曲线压到最短？
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4a787b5c0364faf6348d96782ef4c57b.png>
+![](img/zhuanqian_4a787b5c0364faf6348d96782ef4c57b.png)
 **一、降低新人网感培养成本的办法**
 解决逻辑：**学习的本质就是模仿，先对标再超越**
 已经跑通的对标账号自带结果和持续推流机制，直接模仿拆解，能最快上手，最少走弯路。
@@ -18,17 +18,17 @@
 开始点赞、评论、互动，主动喂数据给算法，让它把同赛道内容源源不断推给你。
 第二步 把盘点的头部账号做拆解，提炼出共通点和脚本模板 共通点包括：BGM、脚本结构、标题写法、文案风格 字幕提取工具: [`getsubs.cc`](https://getsubs.cc)
 音乐提取工具：[`tiksave.io/`](https://tiksave.io)
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f7295049ef19875768d91c1c8e7294f3.png>
+![](img/zhuanqian_f7295049ef19875768d91c1c8e7294f3.png)
 第三步 结合搜索和推荐，找到最近起量、正在上升期的新号。老号权重已经起来，发什么都有播放加粉丝加持，参考价值有限。要找近一周、近一个月才起来的新号，做1:1的复刻。
 第四步 用 pipiads 查看广告投放素材。花钱投放且跑出结果的素材，学习价值极高。以美区举例，1000播放的通用cpm在5-12美金，能做到几十万、几百万播放的广告主，绝对值得深度研究。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7c4da62555ceeee115dec2c3149af743.png>
+![](img/zhuanqian_7c4da62555ceeee115dec2c3149af743.png)
 **特别强调**：**一定要研究独立站投放TikTok拿到大结果的玩家素材**原因在于，相比自带基础销量和短链路的闭环小店，独立站投TikTok广告对素材要求更高，从素材到落地页的全链路难度更大，这类团队的打法更值得抄作业。
 网感的问题到这里基本解决。接下来怎么系统化提炼脚本、做准备？真的需要高配人才吗？
 对大部分电商团队来说，并不需要。
 **内容准备实操**
 **第一步，用GPT投喂提炼脚本框架**
 怎么投喂网上教程很多，自己搜一下就行。团队里用3.5版本基本就够用了。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5bbd49b6b234a134c8eab8da11f76a06.png>
+![](img/zhuanqian_5bbd49b6b234a134c8eab8da11f76a06.png)
 **注意：把所有整理好的脚本统一沉淀到飞书文档库，方便后续调用。**
 第二步，整理标签和音乐
 音乐上可以去 tikstar 视频库-带货视频榜-标签库-音乐库 搜索对标账号，同步标签并持续更新热歌
@@ -37,12 +37,12 @@
 （1）复刻爆款 （2）纯原创创意生产 （3）有技巧的搬运混剪。
 **复刻爆款**
 先从简单易上手、易起号的套路开始，降低试错门槛。当你对平台流量足够敏感，会发现内容形式非常多元，需要持续延展。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2f7c5b7b8807a5a1e12b0aa6509e8257.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_706c45d6fc4f88bec0cdd0bcb09be456.png>
+![](img/zhuanqian_2f7c5b7b8807a5a1e12b0aa6509e8257.png)
+![](img/zhuanqian_706c45d6fc4f88bec0cdd0bcb09be456.png)
 举个例子，我每天找赛道的时间是固定的两小时，然后就进入复刻环节。复刻初期不要贪多求难，不要想着要买昂贵的摄影设备、搭建完美场景。一部手机+一个灯+几张布就能出效果，场景还能用AI直接换。内容部分，也能全程用AI闭环，从生成文案到图片再到视频。我们已经验证过，可行。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_706c45d6fc4f88bec0cdd0bcb09be456.png>
+![](img/zhuanqian_706c45d6fc4f88bec0cdd0bcb09be456.png)
 ai 工具导航站：[Toolify.com](http://Toolify.com)
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1bddaa62d68a7b8e580cb52d1a69c3ed.png>
+![](img/zhuanqian_1bddaa62d68a7b8e580cb52d1a69c3ed.png)
 **纯原创创意内容**
 不同团队有不同的创意打法，这块和复刻逻辑类似，这里不多展开。有技巧的搬运混剪
 关于搬运混剪：
@@ -84,5 +84,5 @@ ai 工具导航站：[Toolify.com](http://Toolify.com)
 请问这个派单是指?
 拾壹贰 : 赛选出几个人人选后，直接去裂变，因为他身边也有很多这样的人，但是不断的降低成本，是这个原理吧
 拾壹贰 : 时间成本可能会高一点
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_21de372a77ea1f441c613f7316831ae1.png>
+![](img/zhuanqian_21de372a77ea1f441c613f7316831ae1.png)
 * * *

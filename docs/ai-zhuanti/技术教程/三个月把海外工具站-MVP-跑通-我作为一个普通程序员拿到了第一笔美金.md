@@ -8,12 +8,12 @@
 后来看到航海宣传海报上写着有带人做网站的实操课，正好对口我的技术背景，就直接入圈了。
 说白了，我进来的目的很单纯：想跟着实操，也想认识一些在这个赛道已经跑出结果的前辈。还真来对了。4 月份刚进群我就开始埋头啃了一个多月的航海手册，还报名了 5 月的工具站航海和 8 月的志愿者。
 航海结束时我还没出成绩，但那颗种子已经种下了。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_abe6dee965fe41688310b8afd4fb8bbf.png>
+![](img/zhuanqian_abe6dee965fe41688310b8afd4fb8bbf.png)
 到现在为止我用业余时间搭了两个站，其中一个已经靠 Google Ads 把 MVP 闭环跑通，并且真的给我带来人生第一笔美金收入。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_904f8b35b513d57cc9d5f00eacf3a7a0.png>
+![](img/zhuanqian_904f8b35b513d57cc9d5f00eacf3a7a0.png)
 ## 海外工具站凭什么被我选中
 1. 是龙哥老师长期看好的方向
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6ef739aae4b5f1b1f799d17661c7fc02.png>
+![](img/zhuanqian_6ef739aae4b5f1b1f799d17661c7fc02.png)
 1. 赚美元的体感像打了 7 倍杠杆的股票，还不会爆仓，体验一次就上头
 2. 门槛比国内低很多，不用折腾备案和层层审核
 3. 能做睡后收入，有复利属性。指挥一群服务器 24 小时替你干活
@@ -21,11 +21,11 @@
 >
 > 官方的每期航海手册是必读的。需求挖掘、页面搭建、站内优化、部署上线、广告变现这些技术环节，我个人补充推荐哥飞的小白入门合集。文档写得很细，每一步都有截图，有一点开发基础就能照着做。
 >
-> <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b74c53a4a6a797e0f47bdb936f419cca.png>
+> ![](img/zhuanqian_b74c53a4a6a797e0f47bdb936f419cca.png)
 >
 > 时间允许的话，建议把哥飞最近一期的航海视频也补一下。里面有不少案例拆解和现场实操，能拓宽视野。
 >
-> <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_06dd2909405b6327dde0a2da2aa17409.png>
+> ![](img/zhuanqian_06dd2909405b6327dde0a2da2aa17409.png)
 >
 > 哥飞属于高产型创作者。我是那种一旦认可一个人的内容就会全方位追更的类型。他的公众号、即刻、Twitter、朋友圈都在持续输出，强烈建议关注。哥飞也有自己的付费社群，经济条件许可的话可以考虑加入。此处应有广告费。
 >
@@ -37,15 +37,15 @@
 >
 > 在 V2ex 发帖的核心是真诚和负责，特别是要认真回复每一条评论。
 >
-> <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_802d2d99fa343aa621a5046c8ba23e62.png>
+> ![](img/zhuanqian_802d2d99fa343aa621a5046c8ba23e62.png)
 >
 > V2ex 堪称藏龙卧虎，评论里经常有大神现身，还很耐心地写长评，点评非常专业。
 >
-> <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ace28fe71edb98f5f291ff64ae97dbb7.png>
+> ![](img/zhuanqian_ace28fe71edb98f5f291ff64ae97dbb7.png)
 >
-> <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9bbbc1dc2da12614b9f3fecd56df9b17.png>
+> ![](img/zhuanqian_9bbbc1dc2da12614b9f3fecd56df9b17.png)
 >
-> <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_231fcdab455ccec89835b2e6c3c95618.png>
+> ![](img/zhuanqian_231fcdab455ccec89835b2e6c3c95618.png)
 >
 > V2ex 不仅带来了首波浏览量，还给了我很多具体可落地的改进建议。我的第二版就是在吸收这些反馈后打磨出来的。
 >
@@ -53,11 +53,11 @@
 >
 > 在 Github 发起「产品自荐」，被标记为 weekly 就能出现在周刊的工具栏里。我的经验是，只要站点不敷衍，有真实价值，上榜概率很高。
 >
-> <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_727592e7e0226093007c61ba1c80e567.png>
+> ![](img/zhuanqian_727592e7e0226093007c61ba1c80e567.png)
 >
 > 周五上线当天就贡献了 1.2k+ 访问，隔周的周五又来了几百流量。
 >
-> <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bf082c0150f719f27efcce260ee5117a.png>
+> ![](img/zhuanqian_bf082c0150f719f27efcce260ee5117a.png)
 >
 > ### AI 导航站
 >
@@ -68,7 +68,7 @@
 >
 > 靠近有结果的人，你离成功就更近。最快的方式就是花钱进他的付费圈子。我自己的例子：去年 11 月第一次申请 Google Ads，一直被拒，判定为低质量站点，当时我只有一个单页。
 >
-> <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_015527506180e5542216fff251d2124c.png>
+> ![](img/zhuanqian_015527506180e5542216fff251d2124c.png)
 >
 > 网上说法是域名注册满三个月就能过，因为 Google 自己靠广告吃饭。熬到三个月后二次申请还是被拒，差点想放弃。后来我自己焦虑地研究竞品一个多月，给站里加了导航、登录、隐私等页面。
 >
@@ -114,7 +114,7 @@
 >
 > 最后转赚钱「普神」的一句话：努力去撞击世界，成败都是反馈。
 >
-> <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b3b0bb2bc04379e034fab292d58a4f8c.png>
+> ![](img/zhuanqian_b3b0bb2bc04379e034fab292d58a4f8c.png)
 >
 > * * *
 >
@@ -129,6 +129,6 @@
 > TingTing : 感谢分享！写得很清楚很好呀，不需要担心自己的文笔！
 > 林家少爷 : 加油，同参加海外站航海，目前还在争取在这个赛道赚到第一块钱
 >
-> <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_21de372a77ea1f441c613f7316831ae1.png>
+> ![](img/zhuanqian_21de372a77ea1f441c613f7316831ae1.png)
 >
 > * * *

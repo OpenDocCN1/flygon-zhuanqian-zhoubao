@@ -1,7 +1,7 @@
 # 非洲AMA现场纪要｜一笔八位数学费、投资打法与创业取舍
 260904 副业 SC 精华
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_60e5b31142932c3bb3f155e06608670d_0_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_60e5b31142932c3bb3f155e06608670d_0_1.png>
+![](img/zhuanqian_60e5b31142932c3bb3f155e06608670d_0_0.png)
+![](img/zhuanqian_60e5b31142932c3bb3f155e06608670d_0_1.png)
 > **小懒判断**｜已经跑出稳定现金流、想给自己补上投资第二条腿的人可以细看；还在为当下生存发愁、或者指望抄一份具体标的清单跟单的人建议先跳过。最值得拿走的操作是那个重仓底线：先把家庭未来二十年的生活开销锁死，动不了的部分拿出来后，余下的资金才有资格谈重仓。最大坑是把段永平、王川的持仓清单当成作业照搬——人家的资金属性和你完全不在一个频道，先弄清自己的钱在哪个体系里再说。
 上个月带着418那批赚钱销冠团去非洲，路上安排了一场接近两小时的AMA。大家现场抛问题，我把这些年踩过的坑和现在的想法说了一遍。回来整理后觉得信息密度很高，先拆成几篇发，这篇是第一篇。
 ## 01 最贵的那次交学费
@@ -57,5 +57,5 @@
 我们不做无效讨论，只拆商业闭环和AI效率压榨。系统内已沉淀1000+跑通的套利实战案例。
 - 查看圈子完整数字资产与入群门槛：
 https://lazys.com/insider/
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_60e5b31142932c3bb3f155e06608670d_7_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_60e5b31142932c3bb3f155e06608670d_7_1.png>
+![](img/zhuanqian_60e5b31142932c3bb3f155e06608670d_7_0.png)
+![](img/zhuanqian_60e5b31142932c3bb3f155e06608670d_7_1.png)

@@ -1,11 +1,11 @@
 # 从 0 到月入百万美金：我用 AI 重构了一套谷歌广告系统，Shopify 独立站做到 128 万美金
 260324 副业 SC 精华
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8bb868b85ddd13175ba3a3d8e452e060_0_0.png>
+![](img/zhuanqian_8bb868b85ddd13175ba3a3d8e452e060_0_0.png)
 各位好，我是龙哥，一直深耕跨境出海领域。今天想和你聊聊，我怎样借力 AI 把谷歌广告重新做了一遍，让一个 Shopify 独立站月销冲到 128 万美金。
 先说成绩，不铺垫。
 刚刚过去的这个月，店铺后台里能明确归因到谷歌广告的成交额，正好是 128 万美金。
 这个数字没掺水——不是总 GMV，没算自然流量、EDM、联盟客那部分。纯粹是广告系统直接带来的、后台能核对的真金白银。至于整体盘子多大，先留个悬念。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8bb868b85ddd13175ba3a3d8e452e060_0_1.png>
+![](img/zhuanqian_8bb868b85ddd13175ba3a3d8e452e060_0_1.png)
 > [今年 1 月其实卖得更好，但现在是 3 月，就截最近 30 天的数据吧]
 ## 不懂 utm 的朋友，花 30 秒看完这段
 广告链接和邮件里那些一串串的尾部参数，就是 utm。它的职责是告诉后台：访客从哪来、点了什么、属于哪个渠道。这样每一笔订单都能找到源头。下面这张图，我筛的就是谷歌广告这一栏。
@@ -74,7 +74,7 @@ Break-even ROAS——广告要跑到的底线，低于它就不值得放量。
 打法一：重排广告系列结构。
 新手最常见的手法是所有产品塞进一个 Shopping 系列，让系统自己挑。这等于把薯片、洗衣液、计生用品堆在同一排货架，算法根本不知道该推谁。
 我的分法是按利润率和转化率切三层：高利润高转化的单独开系列，给足预算；中部的归一组；低利润低转化的要么停投，要么留极小预算慢慢试。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8bb868b85ddd13175ba3a3d8e452e060_10_0.png>
+![](img/zhuanqian_8bb868b85ddd13175ba3a3d8e452e060_10_0.png)
 打法二：把 Feed 磨细。
 Shopping 广告的成败，九成看 Product Feed。标题、描述、图、价、类目，每一栏都直接影响匹配。
 我的标题公式：核心关键词放最前面。别写“xxx Pro 2000”这种型号开头，要写“Pet Training Collar with Remote – Pro 2000 – WiFi Dog Collar”。很多品牌站只写品牌名+型号，用户搜都搜不到你。
@@ -101,7 +101,7 @@ PMax 是 Google 的全渠道智能投放，会自动把广告铺到搜索、Shop
 第三招，开新市场。
 早期我只投美国。美国跑稳后，开始测加拿大、英国、澳洲。英语市场用户行为和美国人高度相似，策略几乎能平移，竞争却低得多。
 加拿大和澳洲给了我一个惊喜：CPC 只有美国的 60%，转化率却差不多。我立刻把这两个地区的出价调高 15%，同样预算下 ROAS 比美国高出 40%。后来德国、法国也陆续试了，反馈都不错。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8bb868b85ddd13175ba3a3d8e452e060_14_0.png>
+![](img/zhuanqian_8bb868b85ddd13175ba3a3d8e452e060_14_0.png)
 ### 阶段五：品牌护城河（月销 100 万+）
 目标：从买流量升级到建品牌，把竞争门槛垒高。
 过了 100 万这条线，我们撞到一个现实：单靠谷歌买量，增长有硬顶。关键词就那么多，对手还在不断加价，CPC 只会越来越贵。
@@ -109,7 +109,7 @@ PMax 是 Google 的全渠道智能投放，会自动把广告铺到搜索、Shop
 我干了几件事：
 第一，加大品牌搜索词的投放。用户直接搜你品牌名的时候，CPC 极低，转化极高。我在 YouTube 和社交媒体上做品牌曝光，就是想让更多人记住我的名字。
 一个月后，3 月初，品牌搜索趋势开始抬头了。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8bb868b85ddd13175ba3a3d8e452e060_16_0.png>
+![](img/zhuanqian_8bb868b85ddd13175ba3a3d8e452e060_16_0.png)
 第二，上 YouTube 广告。YouTube 是谷歌生态里的视频阵地，最适合产品展示和品牌叙事。我录了一批产品使用场景的视频，投 In-stream 广告。直接转化不算高，但品牌搜索量和网站直接访问量都上来了。
 第三，做私域和邮件。谷歌广告拉来的每个客户，都得想办法留住。我用 Klaviyo 搭了完整的自动化邮件流：新客欢迎、弃购挽回、老客复购、交叉销售。这套东西每个月贡献 15%-20% 的营收，成本几乎为零。
 另外，品牌词搜索广告我也一直在加码。
@@ -139,7 +139,7 @@ PMax 是 Google 的全渠道智能投放，会自动把广告铺到搜索、Shop
 五，客单价同步往上抬。
 只看转化率是不完整的。从几十万做到上百万，不可能只靠“多来几单”。每一单还得更值钱。
 我们上了套装、捆绑、加价购、满减、购物车推荐。最后 CVR 在涨，AOV 也在涨。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8bb868b85ddd13175ba3a3d8e452e060_19_0.png>
+![](img/zhuanqian_8bb868b85ddd13175ba3a3d8e452e060_19_0.png)
 ## 踩过的坑，我帮你排一下
 ### 坑一：死磕低 CPC
 很多人把 CPC 当生命线，觉得点一下越便宜越好。真不是。
@@ -252,7 +252,7 @@ ChatGPT 能够生成 RSA 标题、描述、促销语、附加信息和站点链�
 > 5）可以反向指导落地页优化的用户表达。
 它不一定每次都能给出完全正确的判断，但通常可以把杂乱的信息先整理出结构，再由我进行复核。
 AI 的价值，很多时候不是替你做最终决策，而是把“混乱的一堆数据”变成“可以逐项处理的问题”。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8bb868b85ddd13175ba3a3d8e452e060_27_0.png>
+![](img/zhuanqian_8bb868b85ddd13175ba3a3d8e452e060_27_0.png)
 ## 五、把卖家表达转换成用户语言
 这对 Shopify 独立站尤其重要。
 很多页面并不是信息不足，而是始终站在卖家的角度说话：
@@ -285,11 +285,11 @@ AI 的价值，很多时候不是替你做最终决策，而是把“混乱的�
 ## 六、用自动化工具批量制作产品素材
 产品图片会直接影响用户对品牌的第一印象。请专业摄影师拍摄一套完整素材，成本往往不低，因此我会用自动化工具辅助制作。
 这是我使用 n8n 搭建的自动工作流：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8bb868b85ddd13175ba3a3d8e452e060_30_0.png>
+![](img/zhuanqian_8bb868b85ddd13175ba3a3d8e452e060_30_0.png)
 这样既减少了设计和拍摄成本，也缩短了素材生产周期。
 生活方式图片方面，我会使用 Midjourney。例如销售家居收纳盒时，可以生成这样的场景：北欧风格的温馨客厅，沙发旁摆放着收纳盒，里面整齐收纳遥控器和杂志。
 经过持续调试提示词、风格和模型后，生成效果已经相当接近真实拍摄：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8bb868b85ddd13175ba3a3d8e452e060_30_1.png>
+![](img/zhuanqian_8bb868b85ddd13175ba3a3d8e452e060_30_1.png)
 目前我的素材组合大致是：
 - 图片：Midjourney + Canva；
 - 视频：Runway ML + CapCut；
@@ -326,4 +326,4 @@ Peace out!
 这里不讨论空泛理论，只拆解商业闭环，并持续挖掘 AI 在实际业务中的效率空间。系统内部已经沉淀了 1000+ 个验证过的套利实战案例。
 ### 👉 查看圈子完整数字资产与加入门槛：
 认可这套价值、准备亲自执行的朋友，可以扫码添加我的微信（）。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_qr_code.png>
+![](img/zhuanqian_qr_code.png)

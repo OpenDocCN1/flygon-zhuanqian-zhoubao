@@ -15,9 +15,9 @@
 不过好在 GPT 可以当一个随时在线的协作者。我不会 PHP，就直接把需求抛给它，让它帮我把活干了。
 我用的是第三方对接的 GPT 4.0，原来的聊天记录已经清掉了，下面内容仅供参考。
 同样的需求，我让 4.0 来回，得到的结果是：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ce4152f136ace923d546b0668d329efb.png>
+![](img/zhuanqian_ce4152f136ace923d546b0668d329efb.png)
 而 3.5 的回答是：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f38c3f0bede4e974973aab0fbcff6ebc.png>
+![](img/zhuanqian_f38c3f0bede4e974973aab0fbcff6ebc.png)
 一眼能看出差距，4.0 更准也更靠谱。这不是说 3.5 不能用，而是 4.0 的能力明显更强。
 我本身就是个技术小白，PHP 没碰过，WordPress 也没经验，全程靠和 GPT 沟通，把整体架构一步步搭起来。
 PHP 环境搭好后，我开始配置本地调试环境。用的小皮面板 phpstudy_pro，按 GPT 给的步骤在本地装好了 WordPress，方便我随时调试。
@@ -25,11 +25,11 @@ PHP 环境搭好后，我开始配置本地调试环境。用的小皮面板 php
 ### 2、技术选型
 个人精力有限，我走的是懒人路线。直接用了现成的若依框架，CURD 和复杂的前端页面全靠一键生成。
 如果你还在重复造轮子做 CURD，那真的要警惕被替代的风险了。AI 工具的普及和技术迭代就是在逼我们提高效率。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e0cf225a55b43373ca708e8b5c443e23.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b3a6a09586ae6bac498526c695e7cb99.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_615e520a428a5a3d41ba0543564e88d4.png>
+![](img/zhuanqian_e0cf225a55b43373ca708e8b5c443e23.png)
+![](img/zhuanqian_b3a6a09586ae6bac498526c695e7cb99.png)
+![](img/zhuanqian_615e520a428a5a3d41ba0543564e88d4.png)
 我也没做过 GPT 对接，猜想大概率有现成方案。果然在 GitHub 上搜到一堆案例库，我只要 Java 的对接方式，就找到了专门对接 GPT 的 Java 依赖包。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ebb9dbea548621a5e573790c44c25afe.png>
+![](img/zhuanqian_ebb9dbea548621a5e573790c44c25afe.png)
 照着文档调通就行了，我还给原作者打赏了一杯奶茶的钱，毕竟能省不少时间。
 想自己动手开发的话，建议先去 GitHub 逛逛，绝大多数需求都有人做过，别重复造轮子。
 ## 三、开发中踩过的坑
@@ -37,15 +37,15 @@ PHP 环境搭好后，我开始配置本地调试环境。用的小皮面板 php
 这是我第一次用若依框架开发，也是第一次对接 GPT，还有两年多没碰过 Vue 了，各种报错层出不穷。
 对不熟悉的部分，我直接把错误日志甩给 GPT，让它诊断。报错信息越详细，它给的答案就越准。
 比如前端启动时经常出现依赖版本不兼容的问题，我直接粘给 GPT，它立刻给出解决方案，比我自己去百度谷歌快多了，毕竟英语也不好，看英文资料吃力。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_045e0645cdab1206665a67e84fe2b3de.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_69f710d0d79bc19827576455df2bc3a8.png>
+![](img/zhuanqian_045e0645cdab1206665a67e84fe2b3de.png)
+![](img/zhuanqian_69f710d0d79bc19827576455df2bc3a8.png)
 ### 网络类坑
 OpenAI 接口不稳定，延迟高，有时还连不上。解决办法就是做反向代理，相关资料 GitHub 上也有，感兴趣的可以自己研究。再一次感谢开源大佬们的分享。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_10a121bd55a69415c263b368b8691d45.png>
+![](img/zhuanqian_10a121bd55a69415c263b368b8691d45.png)
 ### 数据库设计坑
 设计数据库其实挺耗时的，这块我也让 GPT 帮忙，前提是要把需求描述得足够清晰。
 我跟 GPT 交流时都是长段落描述，因为每次请求成本不低，如果一次不到位还得返工。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6d8f052742977c4cc2ab783f3dc313e9.png>
+![](img/zhuanqian_6d8f052742977c4cc2ab783f3dc313e9.png)
 问得越多，它理解得越透。
 ### Linux 环境坑
 本地有个环境始终装不上 RabbitMQ，后来按 GPT 建议装了 VMware Workstation Pro，单独起了一个 Linux 虚拟机。

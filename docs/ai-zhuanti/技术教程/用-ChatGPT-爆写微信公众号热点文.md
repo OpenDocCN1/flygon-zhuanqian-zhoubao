@@ -18,13 +18,13 @@
 2. 新榜热榜 [https://www.newrank.cn/](https://www.newrank.cn)
 3. 微信搜一搜自带的热点
 提示：微信热点其实就是搜一搜页面的发现入口，截图里排在最前的那条。如果没显示，去底部「页面设置」打开即可。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c653ec7a52c26c684c4254963f79e443.png>
+![](img/zhuanqian_c653ec7a52c26c684c4254963f79e443.png)
 以微信自带热点举例来演示。近期热点条目很多，我挑了第3条：「浙江一处长地铁猥亵他人 被拘 12 日」，这类带「性」元素的社会新闻自带高点击潜力。拓展阅读可参考2023年3月航海的公众号爆文写作手册：[https://search01.shengcaiyoushu.com/docx/NHgUdKMcLoPz0VxSz8LcspWqnsg](https://search01.shengcaiyoushu.com/docx/NHgUdKMcLoPz0VxSz8LcspWqnsg)
 # 2. 找同题材的爆款
 点进选中的热点后，会回到微信搜一搜，记得切换到「文章」Tab，才能看到稿件信息。用电脑操作更顺手，直接把完整话题词原封不动复制到搜一搜。第一页基本都是通稿，往下翻就能看到10W+的稿子。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_91b16ea0b6bfe7604906634e72abb879.png>
+![](img/zhuanqian_91b16ea0b6bfe7604906634e72abb879.png)
 多刷几分钟，3~10分钟内通常能筛出一批参考。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7bdd7e41b1a068b5d2ae8b0348292ab9.png>
+![](img/zhuanqian_7bdd7e41b1a068b5d2ae8b0348292ab9.png)
 这类新闻事件往往出现得快，真正的高阅读稿件还没起来，此时入场，抢占空白窗口，比跟风更有机会冲10W+。把热点主线和已有的爆款写法结合，形成自己的角度，胜算会更高。
 别犹豫，下场才有数据。
 # 3. 用 ChatGPT 拆解并写稿
@@ -32,19 +32,19 @@
 ### 训练角色 A
 先找一篇待参考的爆款，训练AI扮演模仿者，用ChatGPT分析文章风格。提示词如下：
 注意：把原文主体用 （xx） 或 “““xx””” 等格式框起来，方便模型识别边界。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f595447dda162704ec7e5e9c72fecbfc.png>
+![](img/zhuanqian_f595447dda162704ec7e5e9c72fecbfc.png)
 训练出的角色A「客观报道风格」效果如下：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_01ff44774a4721d2a189a0e3963d704e.png>
+![](img/zhuanqian_01ff44774a4721d2a189a0e3963d704e.png)
 ### 角色 B
 再用提示词训练一个点评型角色B，专门分析热点事件、挖掘逻辑和深层问题。
 我不是专业评论员，考虑难免片面。但ChatGPT能提供相对全面的视角和框架。这里我借助了 aicosplay 来设计角色。[https://role.aicosplay.com.cn/zh?](https://role.aicosplay.com.cn/zh)
 具体提示词信息：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_588469507275e2e1b96d52b3b41f0ccd.png>
+![](img/zhuanqian_588469507275e2e1b96d52b3b41f0ccd.png)
 ### 开始写文章
 1. 字数控制在1200字左右为宜，完读率更高。
 2. 直接上组合提示词，可复制粘贴：
 括号内填入具体事件内容，让角色A与角色B的洞察融合，示例如下。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a03db4849aa07032a1c2e618e84974be.png>
+![](img/zhuanqian_a03db4849aa07032a1c2e618e84974be.png)
 Bingo，初稿出来了。别急，还差最后的润色。
 Tips：
 1. 生成中断或字数不足时，输入「继续」即可，通常1~3次足够，勿过度。
@@ -66,14 +66,14 @@ Tips：
 ### 标题
 标题决定点击。平台是算法分发，没点击就没有一切。
 爆款标题模板可参照航海手册截图。最近我用「万万没想到，xxxx」这套，阅读量直接翻了十几倍。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_050e901122b3fd7cba088e620d7bf6d7.png>
+![](img/zhuanqian_050e901122b3fd7cba088e620d7bf6d7.png)
 可结合ChatGPT批量出标题，提示词如下：
 并请为上述文章给出20个具备传播力的标题，读者看到就想点开，字数控制在30字内。可参考
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b6ee81b21a5b53c2b36c1366eeeb7340.png>
+![](img/zhuanqian_b6ee81b21a5b53c2b36c1366eeeb7340.png)
 标题生成的思路也可参考这篇：[)
 把文中「小红书」替换为「公众号」，并在结尾加入更符合公众号调性的钩子。
 生成效果如下：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ee803db8c5c0335d053c533222d6067d.png>
+![](img/zhuanqian_ee803db8c5c0335d053c533222d6067d.png)
 至此稿件基本成型，最后一步是发布。
 # 5. 文章发布
 ### 属性设置

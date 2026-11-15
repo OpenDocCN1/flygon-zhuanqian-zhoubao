@@ -26,7 +26,7 @@ faster-whisper 地址：https://github.com/SYSTRAN/faster-whisper
 pip install faster-whisper
 ```
 如下即为安装完成
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_505bc3d09b03d80cff836489f8eb6ea0.png>
+![](img/zhuanqian_505bc3d09b03d80cff836489f8eb6ea0.png)
 运行官方示例，首次加载会自动下载模型。我用的是 large-v3，准确率最高但转录慢，4 分钟视频约需 20 秒，sensevoice 基本不会超过 5 秒，且 whisper 的识别精度会更高一些。
 网络不佳时可先从 Hugging Face 手动下载模型再本地加载，
 ```
@@ -44,18 +44,18 @@ for segment in segments:
 print("[%.2fs -> %.2fs] %s" % (segment.start, segment.end, segment.text))
 ```
 这时运行脚本测试转录，文案已成功输出。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_062179d833d4891287eb68e7659dc8f7.png>
+![](img/zhuanqian_062179d833d4891287eb68e7659dc8f7.png)
 ## SenseVoice 安装
 sensevoice 的部署相对繁琐一些，先到项目页 https://github.com/FunAudioLLM/SenseVoice
 一、使用 git 克隆代码
 git clone https://github.com/FunAudioLLM/SenseVoice.git
 没有 git 的话直接下载 zip 也可以
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5303f34113f01d8b94d5b8f60d45acb5.png>
+![](img/zhuanqian_5303f34113f01d8b94d5b8f60d45acb5.png)
 二、创建环境和安装依赖：
 1. 安装 Miniconda（已有 conda 可跳过）
 下载地址: https://docs.anaconda.com/miniconda/
 安装成功后执行 conda --version 能看到版本号
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_893e47f16289028d323ff105b9ead7e2.png>
+![](img/zhuanqian_893e47f16289028d323ff105b9ead7e2.png)
 2. 创建虚拟环境并装依赖：
 ```
 conda create -n sensevoice python=3.8
@@ -65,9 +65,9 @@ conda activate sensevoice
 ```
 pip install -r requirements.txt
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e1d0b8bb6f51f3a41fbbe6a4070259a0.png>
+![](img/zhuanqian_e1d0b8bb6f51f3a41fbbe6a4070259a0.png)
 安装完后可启动 Web UI，通过浏览器打开 http://127.0.0.1:7860/ 即可看到服务已就绪
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fba8bfa1c02ee645b51697cb5d7b1c71.png>
+![](img/zhuanqian_fba8bfa1c02ee645b51697cb5d7b1c71.png)
 若要嵌入工作流，建议用 API/模块调用。官方也提供 API 启动方式，可指定 GPU 运行。测试时发现纯内存转录单次占用可达 40G 以上，对普通主机不友好，故暂不推荐。
 API 启动方式：
 ```
@@ -83,17 +83,17 @@ fastapi run --port 50000
 1. 打开环境变量：右键“此电脑”-属性-高级系统设置-环境变量
 2. 编辑系统变量 Path：找到 Path，点编辑
 3. 新增 ffmpeg bin 目录：例如 E:\ffmpeg-6.1.1-full_build\bin，按实际路径填写
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1514cf5c15fa41ca949eebff6bd71d4d.png>
+![](img/zhuanqian_1514cf5c15fa41ca949eebff6bd71d4d.png)
 配置完成后打开 CMD，输入 `ffmpeg –version`，能返回版本信息即安装成功。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_32d43186170a60d67d6a546f7e389859.png>
+![](img/zhuanqian_32d43186170a60d67d6a546f7e389859.png)
 ## 端到端自动化组装
 上一步采集好的链接可以直接丢进脚本目录，或从自有素材库读取，按业务逻辑自定义即可。我的做法是用 Cursor 生成了一套脚本：后台线程批量负责视频下载，前端多线程负责转录，两者解耦，转录速度直接拉满。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fcedc261542cc85275fb32545d4f0fac.png>
+![](img/zhuanqian_fcedc261542cc85275fb32545d4f0fac.png)
 下图是 5 线程并发时的硬件占用，GPU 在 30-60% 之间浮动，效率很稳。图二是 3 线程并发转录 100 条抖音/小红书/B站视频，总耗时约 6 分钟，其中还包含几个 3G 大小、长达一小时的 B站视频。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5fd87294f4c33c3c6293df98571ad675.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7a63ae3149d4298c2808053b14c030f6.png>
+![](img/zhuanqian_5fd87294f4c33c3c6293df98571ad675.png)
+![](img/zhuanqian_7a63ae3149d4298c2808053b14c030f6.png)
 再开到 5 个线程，转录约一千条视频耗时 40 分钟左右，GPU 从未突破 60%。sensevoice 会自动标注情绪和背景音乐，用 emoji 体现，转录速度和准确度比较均衡，后续再用大模型对文案做优化重写即可。整体效果完全达到预期。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8d25a06bf28302f72d7858b699a2d599.png>
+![](img/zhuanqian_8d25a06bf28302f72d7858b699a2d599.png)
 完整下载+转录脚本已整理好，代码基本靠 Cursor 一次生成。8666 端口为视频解析服务，基于前文提到的爬虫部署；8000 端口为 sensevoice 转录服务，同样可替换为 faster-whisper。脚本如下：
 ```
 def whisper(file_path):
@@ -352,10 +352,10 @@ main()
 ```
 平时做批量音视频转写，用来跑后台任务确实省心，但操作层面还是有优化空间。我琢磨着下一步就做一个更友好的GUI，把整个流程打磨得更顺手。
 不过零散的日常视频也挺多的，每次单独搞又麻烦。索性一步到位，在飞书和微信里各挂一个机器人，需要时直接丢给它就好。下面是我自己跑通的效果。实现方式可以选择开源的wechatpy，也可以走hook协议，技术细节就不展开了。GitHub上搜“wechatpy”能翻到很多改好的项目，找个现成的版本稍作调整，用小号就能直接用起来。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3dd902cf625b72bf93f21443ba948fdc.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5755bb177a9236874b6c60d33e2ad121.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_516f08750c21df3e3e8f7a3b88e52baf.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4eaa1484e3c9a2e91ad32fb4d3601d63.png>
+![](img/zhuanqian_3dd902cf625b72bf93f21443ba948fdc.png)
+![](img/zhuanqian_5755bb177a9236874b6c60d33e2ad121.png)
+![](img/zhuanqian_516f08750c21df3e3e8f7a3b88e52baf.png)
+![](img/zhuanqian_4eaa1484e3c9a2e91ad32fb4d3601d63.png)
 接下来的计划：
 1. 智能分析：把AI加进来，自动做主题分类、文案二次润色，还能顺带完成分发。
 2. 实时监控：上线一套监控机制，第一时间捕捉最新爆款文案。

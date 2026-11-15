@@ -13,12 +13,12 @@
 第一步的采集，钱塘江鲤大佬原方案是用影刀。我这边直接让Cursor写 Python 爬虫。需要说明的是，Cursor虽然能根据我的爬虫需求生成框架，但定位页面元素的具体逻辑仍需人工点拨。得益于我对前端的一点了解，我直接给了它 XPath 路径
 //*[@id="content"]/ytm-shorts-lockup-view-model-v2/ytm-shorts-lockup-view-model/a/@href
 让它抓取所有链接。Cursor随即完成了代码，并自动引入 Selenium 来模拟下拉滚动、加载新内容。跑通一次后就能稳定出结果，不得不说只要提示够专业，Cursor的执行力非常惊人。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_00eca561fa00035032c0a922a9e0144d.png>
+![](img/zhuanqian_00eca561fa00035032c0a922a9e0144d.png)
 上图以 ai 标签页为例，初次加载抓到 72 条链接，随后每往下滚一次就新增约 36 条。但我发现 ai 标签页滚动到约 750 条左右就停止刷新了，所以我在脚本里加了最多尝试 5 次就自动退出的保护逻辑。不同标签的上限似乎不一样，有懂行的朋友欢迎交流原因。
 采集结果文档如下：
 第二步的频道分析
 有了视频链接清单后，我选择用 YouTube Data API v3 来获取频道信息。优点是接口直接、速度快，拿到的订阅、播放等核心指标足以支撑对标。缺点是返回字段有限，且存在调用配额限制。值得一提的是，我在需求里并未明确指定用 API v3，Cursor自行判断选用了该方案，省了我不少调研时间。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_81c792e98dfbde19957ed4797a1e6bd5.png>
+![](img/zhuanqian_81c792e98dfbde19957ed4797a1e6bd5.png)
 上图是频道信息抓取的运行截图。这里有个限制：YouTube Data API 每天 1 万次调用上限，实际跑到 200 多个视频左右就会被拦住。所以本演示只取前 100 个频道做分析。脚本里我设置了每 2 秒一次请求，100 个频道约耗时 2 分 20 秒，和钱塘江鲤大佬的效率相比还有优化空间。另外部分频道的 Shorts 数量与实际页面显示有出入，可能跟 API 数据延迟有关。
 结果文档如下：
 # 复盘思考

@@ -9,4 +9,4 @@
 小魏：文心一言我觉得应该有 3.5 水平了吧？
 春风十里：没有，完全不够。
 小魏：我拿它写公司简介、商业策划和方案，用起来感觉比 3.5 好用。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1c37d505930596d12a88ab23e11aa07a.png>
+![](img/zhuanqian_1c37d505930596d12a88ab23e11aa07a.png)

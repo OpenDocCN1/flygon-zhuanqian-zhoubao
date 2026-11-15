@@ -12,7 +12,7 @@
 我们直接进入主题。
 # 一、Prompt Chain 到底是什么
 这次的起点很简单。我打开 WPS 看那份文档，密密麻麻的文字，全读一遍效率极低。于是先让 WPS AI 帮我做速览和提炼，迅速拿到一份行动清单。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4afebdae0096f67a28d0e5cf502cead8.png>
+![](img/zhuanqian_4afebdae0096f67a28d0e5cf502cead8.png)
 任务清单（人类）：
 1.  阅读文章，了解《工程经济学》课程的三大类知识点。
 1.  根据个人兴趣，在三大类知识点中各选择一个知识点进行深入学习。
@@ -26,24 +26,24 @@ Prompt Chain 也就是提示词链，是处理复杂作业的一种思路：把�
 单一提示词一旦面对 token 上限、逻辑链过长或信息过载，往往会不稳定。而链式拆分能让每一环只专注一件事，减少混乱，也方便定位出错环节。换句话说，现在的模型还不够“一句话搞定一切”，得用多轮、链式的方式推进。
 另外，拆链还能兼顾成本和产品化。比如不核心的环节用较轻量模型做，关键环节再上更强的模型，本次总结文档、列清单这种低敏感任务，我直接用 WPS AI 就够了。
 要提醒的是，Prompt Chain 也不是万能药。有些环节超出了大模型的理解范围，就得靠其他工具或人工介入。无论是思维链还是提示链，内核都是拆分。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3b215b2207bff126fba51a5000efd845.png>
+![](img/zhuanqian_3b215b2207bff126fba51a5000efd845.png)
 # 二、先规划再开干
 在动手前，先想清楚哪些环节适合交给 AI，哪些必须自己来。先定路线，再执行，事半功倍。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_82bd548ef0b883dbc994d05095c527f2.png>
+![](img/zhuanqian_82bd548ef0b883dbc994d05095c527f2.png)
 1.  阅读文章，了解《工程经济学》课程的三大类知识点。
 WPS AI 在推理和逻辑上比较吃力，我把原文复制给 ChatGPT，让它帮我梳理三大类知识。
 （协同多款 AI 完成复杂任务）
 Prompt1:
 这是一份大学课程的作业要求，首先，阅读文章，帮我了解《工程经济学》课程的三大类知识点。我一点都没学过。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f9301fc0f6eb5bd7eb656df3344c93d9.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_dcfa66517b4eaacd66f3c71eac869c02.png>
+![](img/zhuanqian_f9301fc0f6eb5bd7eb656df3344c93d9.png)
+![](img/zhuanqian_dcfa66517b4eaacd66f3c71eac869c02.png)
 内容我看不太懂，不过只是为了交作业，不必真的吃透，于是直接跳过深入学习。
 # 三、挑最省力的知识点
 1.  根据个人兴趣，在三大类知识点中各选择一个知识点进行深入学习。
 既然是应付作业，那就选最简单、最好写的。
 Prompt2:
 考虑所选知识点的概念、计算与应用，并基于个人实际生活、工作、见闻，从这三大类知识点中各选择一个最简单、最容易完成、最快完成的知识点。只选择出知识点即可
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_53fa6e0ec1ae8f69b7d5ea8437c6d8df.png>
+![](img/zhuanqian_53fa6e0ec1ae8f69b7d5ea8437c6d8df.png)
 ### 第一类：基础经济知识
 名义利率 vs 实际利率：
 ### 第二类：经济评价指标
@@ -59,10 +59,10 @@ Prompt2:
 Prompt3:
 我选的第一个知识点是“名义利率 vs 实际利率”。
 在深入理解该知识点的概念、计算与应用的基础上，基于个人实际生活、工作、见闻，编写该知识点的应用题目，并针对题目做出详细解答。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6eaeb24decf978aded3c6183d4a0c1db.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_dda6aeb4eccb0439b72c52f1622f9989.png>
+![](img/zhuanqian_6eaeb24decf978aded3c6183d4a0c1db.png)
+![](img/zhuanqian_dda6aeb4eccb0439b72c52f1622f9989.png)
 得到题目和答案后，让它写入 Word。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_190cb960ff155b66a37e7fc65a919d56.png>
+![](img/zhuanqian_190cb960ff155b66a37e7fc65a919d56.png)
 ## 二）第二个知识点
 Prompt4:
 第二类：经济评价指标
@@ -70,8 +70,8 @@ Prompt4:
 在深入理解该知识点的概念、计算与应用的基础上，基于个人实际生活、工作、见闻，编写该知识点的应用题目，并针对题目做出详细解答。
 完成之后，将题目和解答过程添加到 word 中
 第一次我把写答案和写入文档分开，是担心一次对话信息太多。实际体验后发现没必要，于是后来把两步合在一起进行，更灵活。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c61f4514119eeabb1689aab4e739afcc.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6fb289e71fec7b56e7757e9d511ba548.png>
+![](img/zhuanqian_c61f4514119eeabb1689aab4e739afcc.png)
+![](img/zhuanqian_6fb289e71fec7b56e7757e9d511ba548.png)
 ## 三）第三个知识点
 Prompt6:
 下一个：第三类：工程经济评价——财务分析和经济分析
@@ -79,7 +79,7 @@ Prompt6:
 到这时 AI 已经熟悉流程，提示词不必写得那么细。结果与前两次类似，这里就不展示图片了。
 # 五、收尾检查
 把更新完第三个知识点的文档下载下来，打开看一眼。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_67da2b46d2a6a1e858e6bb1165111965.png>
+![](img/zhuanqian_67da2b46d2a6a1e858e6bb1165111965.png)
 没有大问题，手工微调一下格式就可交付。
 # 六、复盘
 这次实践不只演示了 Prompt Chain 的用法，也再次验证了分治法在任务管理里的普适性。这种思路远不止写报告有用。
@@ -107,4 +107,4 @@ AI 确实能处理大量信息和复杂任务，但本质仍是人类智慧的�
 我想传达的是：AI 很强大，但不是万能的。不要对它抱有不切实际的期待，要理解边界，在现有条件下最大化价值。通过理解局限，我们能更好地塑造其未来，让它在提升效率的同时符合价值和伦理。
 未来，人机协作会成为常态。理解 AI 的潜力和边界，是每个人的共同责任。让我们一起拥抱这个挑战，打造和谐共存的工作方式。
 最后，介绍一下我自己~
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c7f32b458e37fa905624d525e63faffe.png>
+![](img/zhuanqian_c7f32b458e37fa905624d525e63faffe.png)

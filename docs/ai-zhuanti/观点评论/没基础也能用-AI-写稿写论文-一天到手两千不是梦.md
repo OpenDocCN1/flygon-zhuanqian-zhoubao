@@ -17,19 +17,19 @@ AI 工具这两年已经在小范围内悄悄普及了，有公司在用，有�
 >
 > 打开 WPS，新建一个智能文档，把客户的需求梳理一下，提炼出关键词直接粘进去
 >
-> <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9dc5633e824b8d4cd36753a40b099ac2.png>
+> ![](img/zhuanqian_9dc5633e824b8d4cd36753a40b099ac2.png)
 >
 > AI 产出目标题目
 >
-> <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4915a36b56df332c327f6b3d36fee6e0.png>
+> ![](img/zhuanqian_4915a36b56df332c327f6b3d36fee6e0.png)
 >
 > >
 >
 > 1.  **第二步：选一个顺眼的标题，生成初稿大纲**
 >
-> <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_aabddbb05b70eac24bf4ce7315970ccb.png>
+> ![](img/zhuanqian_aabddbb05b70eac24bf4ce7315970ccb.png)
 >
-> <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f2d36be3079518933b0f2c5a03cc516d.png>
+> ![](img/zhuanqian_f2d36be3079518933b0f2c5a03cc516d.png)
 >
 > >
 >
@@ -37,11 +37,11 @@ AI 工具这两年已经在小范围内悄悄普及了，有公司在用，有�
 >
 > 把每个小点都改成完整句式，这样后面扩写时 AI 不会乱编
 >
-> <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cd8a9b15bd4d4ceddc1a80fa893a1a1f.png>
+> ![](img/zhuanqian_cd8a9b15bd4d4ceddc1a80fa893a1a1f.png)
 >
 > 1.  **第四步：逐条进行“续写”**
 >
-> <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bea75fba5346eb0d69648bcb8c74193f.png>
+> ![](img/zhuanqian_bea75fba5346eb0d69648bcb8c74193f.png)
 >
 > 1.  **第五步：交付**
 >
@@ -67,6 +67,6 @@ AI 工具这两年已经在小范围内悄悄普及了，有公司在用，有�
 > A 孟世扬 : 我试了下电脑版没有 AI 功能，手机版有，是不是版本不一样还是会员等级问题？
 > 歧黄之后 : 需要去申请，ai.wps.cn
 >
-> <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1c37d505930596d12a88ab23e11aa07a.png>
+> ![](img/zhuanqian_1c37d505930596d12a88ab23e11aa07a.png)
 >
 > * * *

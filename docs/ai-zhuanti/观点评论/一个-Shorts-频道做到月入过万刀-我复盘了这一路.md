@@ -3,7 +3,7 @@
 这张截图是我在七月底保存的，当时 Shorts 单个频道已经突破一万美金收入。原本那时候就想把过程整理出来，但项目一忙，这件事就一直拖到了现在。
 这次写下完整复盘，不是为了展示结果，而是想把一路走来的方法、判断、试错，以及心态变化都讲清楚。
 新一轮航海即将开始。如果你刚准备进入 Shorts，希望下面这些经验能帮你少踩一些坑。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c29c323c06fef864dae9605e741fb9be.png>
+![](img/zhuanqian_c29c323c06fef864dae9605e741fb9be.png)
 ## 新频道起步，最需要注意的几件事
 大多数新频道，最初都会从研究和复刻爆款开始。
 但问题也随之而来：
@@ -87,9 +87,9 @@ Shorts 申请 YPP，核心考核指标是“有效观看次数”，不是视频
 用高潮、反转或情绪共鸣完成收束，让观众获得释放，从而更容易点赞、评论和分享。
 很多高播放视频，本质上都在遵循这条逻辑。
 例如，开头直接呈现掉下悬崖、被推下飞机等高冲突画面，用强烈的负面情绪把用户牢牢吸引住。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c8aa2414536d68bc76c2545015b7782b.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0b4bd10568c6ebe7a62773c884525092.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b5efbd271bb6dca4b7bd73f3ba4745cf.png>
+![](img/zhuanqian_c8aa2414536d68bc76c2545015b7782b.png)
+![](img/zhuanqian_0b4bd10568c6ebe7a62773c884525092.png)
+![](img/zhuanqian_b5efbd271bb6dca4b7bd73f3ba4745cf.png)
 真正决定观众是否留下来的，往往不是画面有多复杂，而是情绪是否持续变化。
 所以，前期不要急着依赖工具批量生成。先通过手动拆解，理解爆款如何制造情绪起伏；等真正掌握规律之后，再用工具提升效率。
 ## 我做 Shorts，经历了四个阶段
@@ -101,7 +101,7 @@ Shorts 申请 YPP，核心考核指标是“有效观看次数”，不是视频
 因为一条视频能爆，往往并不是某一个具体角色带来的，而是背后的情绪曲线发挥了作用。
 当你围绕一个有效模型持续输出，账号会逐渐形成内容势能，后续视频的播放量也会越来越高。
 后来，1000 万+播放的视频开始频繁出现，其中还有两条视频的观看次数超过了 1 亿。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b3ad06d6e5cd4b154cae029c6aafba60.png>
+![](img/zhuanqian_b3ad06d6e5cd4b154cae029c6aafba60.png)
 不过，大约在 5 月底到 6 月初，平台因为儿童安全问题集中清理了一批视频，我的频道也收到了一次警告，账号受到影响。
 因此，6 月的播放量明显下滑，收入也同步下降。
 ### 第二阶段：熟练掌握工具，建立别人难以复制的优势
@@ -136,9 +136,9 @@ Shorts 申请 YPP，核心考核指标是“有效观看次数”，不是视频
 所以我建议每天写一些和项目有关的内容，包括：
 想法、心得、踩坑、变化、测试结果、观察、总结，以及暂时没有答案的问题。
 我已经累计写下六万多字。只要发现新的东西，就会及时记录。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2d85b8111af12a189dd53ff7985d1b19.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ba12901340fb3cf5d53c17c54472442b.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_115e013319893452c3eb370a3e5d5e01.png>
+![](img/zhuanqian_2d85b8111af12a189dd53ff7985d1b19.png)
+![](img/zhuanqian_ba12901340fb3cf5d53c17c54472442b.png)
+![](img/zhuanqian_115e013319893452c3eb370a3e5d5e01.png)
 更多过程就不逐一展示了。我做 YouTube 走过的每一步，在那份文档里基本都留下了痕迹。
 ### 第四阶段：应对 7 月 15 日的新政策
 7 月初，YouTube 更新了 YPP 相关政策，明确表示从 7 月 15 日起，将进一步打击批量生产和重复性内容。

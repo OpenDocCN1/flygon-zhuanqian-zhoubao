@@ -13,19 +13,19 @@ PPT这块就没那么惊艳了。生成出来的PPT更像是白板框架，格�
 ## Manus实操
 提示词
 我现在想写一篇1500余华《活着》读后感，请你上网搜索素材撰写一篇
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d00ef4774756be30a0e082ffff6a92c3.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_466e3408a66b1239f09f2c9afa9d5c8e.png>
+![](img/zhuanqian_d00ef4774756be30a0e082ffff6a92c3.png)
+![](img/zhuanqian_466e3408a66b1239f09f2c9afa9d5c8e.png)
 体验反馈
 稿件本身可用度大约九成，但字数严重超标，需要自行删减。导出的是Word文件，不过内部格式是md，需要复制到Word里再排版后才能交付。
 ## DeepSeek实操
 提示词
 我现在想写一篇1500余华《活着》读后感，请你撰写一篇
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_48feb64189fbe037985db27f14aee676.png>
+![](img/zhuanqian_48feb64189fbe037985db27f14aee676.png)
 体验反馈
 生成稿件的可用度也在九成左右，后续只要微调标题，复制到Word里简单排一下就能交。
 ## ChatGPT实操
 我现在想写一篇1500余华《活着》读后感，请你撰写一篇
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1b8f336774286c7eda684571339f1e47.png>
+![](img/zhuanqian_1b8f336774286c7eda684571339f1e47.png)
 体验反馈
 直接生成的稿件九成可用，后续只需统一标题，拷贝到Word调整格式即可。
 ## 小结
@@ -37,17 +37,17 @@ PPT这块就没那么惊艳了。生成出来的PPT更像是白板框架，格�
 提示词
 本文建立了岭回归模型。模型以商业银行的总资产收益率(ROA）为被解释变量，以金融科技指数为核心解释变量，并控制GDP增速、消费者物价指数、不良贷款率、不良贷款拨备覆盖率等宏观经济变量以及银行内部管理水平变量;请你用文件中的数据实现总资产收益率(ROA）和金融科技指数、GDP增速、消费者物价指数、不良贷款率、不良贷款拨备覆盖率的描述性统计
 只要求描述性统计，它却额外给出了相关性分析
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b85f35abd24f2cec074f3c87393241e6.png>
+![](img/zhuanqian_b85f35abd24f2cec074f3c87393241e6.png)
 ### 图表输出
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_66191a7ba5855c85792aa006f9d0f0e4.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8d1c208d4d668182278df629d3c2d8f8.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d4f41220ed9aa558155e725e979fc251.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3bf60bdc123b7cdd5684634a7af1d7f3.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_276885ddb6ebd3ef10c70d1d180939a5.png>
+![](img/zhuanqian_66191a7ba5855c85792aa006f9d0f0e4.png)
+![](img/zhuanqian_8d1c208d4d668182278df629d3c2d8f8.png)
+![](img/zhuanqian_d4f41220ed9aa558155e725e979fc251.png)
+![](img/zhuanqian_3bf60bdc123b7cdd5684634a7af1d7f3.png)
+![](img/zhuanqian_276885ddb6ebd3ef10c70d1d180939a5.png)
 ### 表格与分析结果
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_751f2592949216ce05d49e6923d53b63.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_78778f2148938e407999268d6ab4a709.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_77f1a0bd6f49e07763d8faf94407e422.png>
+![](img/zhuanqian_751f2592949216ce05d49e6923d53b63.png)
+![](img/zhuanqian_78778f2148938e407999268d6ab4a709.png)
+![](img/zhuanqian_77f1a0bd6f49e07763d8faf94407e422.png)
 体验反馈
 耗时约20分钟，结果无误，并直接给出Excel表格和MD格式的描述统计文档，可用度接近90%。后续只需要在表格和文档上做格式微调即可。
 ## AI + SPSS实操

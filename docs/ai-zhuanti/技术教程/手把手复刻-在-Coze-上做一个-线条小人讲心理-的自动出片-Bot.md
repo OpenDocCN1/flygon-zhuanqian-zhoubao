@@ -3,13 +3,13 @@
 ## 这个 Bot 是怎么来的
 最初是 @一泽 贡献了一条思路：把 Coze 和剪映连在一起，规模化制作心理内容短片。我照做时发现我的账号没有团队专区，调通的流程没法直接转发给朋友。于是把流程改造成了 Bot 形态：对方只要收到链接、登录，马上就能用，不用自己复制节点。
 体验入口：https://www.coze.cn/s/lgQe-JYtWiM/
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_098eaafb849978e526caf1cfcfae7a7c.png>
+![](img/zhuanqian_098eaafb849978e526caf1cfcfae7a7c.png)
 演示一下：输入“夜里刷短视频越刷越精神，是什么心理机制”，Bot 会把背后的原理拆开，整理成镜头台本、双语文字稿和绘图指令，再交给剪映联动端合成一个带图和声音的工程文件。
 ## 现在能做到什么程度
 Bot 的产出基本可以拿来直接用。想再打磨的话，我列了几个方向：片头和片尾挂固定模板；画面上去掉全部文字；后期统一铺 BGM；接入视频类插件，把静态图变成动效。
 使用前有个关键提醒：剪映联动端个人面板里的目录，要和剪映偏好设置中的草稿存放路径保持一致，不然把链接粘进去后，剪映会找不到带图和声音的工程。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5a997b298bfb45d7a1d7d35fe357b594.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b0b24ca285726a354b6f967244d91dd1.png>
+![](img/zhuanqian_5a997b298bfb45d7a1d7d35fe357b594.png)
+![](img/zhuanqian_b0b24ca285726a354b6f967244d91dd1.png)
 ## 搭建步骤详解
 整个搭建分为两段：先处理后端流程，再配置前端 Bot。
 ### 第一段：后端流程 huochairendemo
@@ -25,11 +25,11 @@ Bot 的产出基本可以拿来直接用。想再打磨的话，我列了几个�
 - 片头第一句必须带上标题，例如“这期要聊的是{{title}}”；
 - 对镜头台本还要做一轮复核：动作描绘是否清楚、时长分配是否合理，节奏是否顺畅。
 另外，绘图模型可以换成 Pro 版通用模型，出图的稳定性会明显更好。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_273ba70e6555da7a86589d940ab72d89.png>
+![](img/zhuanqian_273ba70e6555da7a86589d940ab72d89.png)
 ### 第二段：前台 Bot 组装
 流程就绪后，开始配置用户面对的 Bot。核心是三个模块：人设、流程触发、欢迎语。
 #### 1. 人设
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_dba098c53bd482d6990c743e88699a65.png>
+![](img/zhuanqian_dba098c53bd482d6990c743e88699a65.png)
 给 Bot 套用的头衔是：一位擅长把心理知识讲明白的教授型博主，沟通风格偏口语。工作节奏定为三步：
 - 先接收用户的疑问，梳理出其中的心理要点，并给出简短解释；
 - 再请用户圈定一个本期的话题关键字；
@@ -37,16 +37,16 @@ Bot 的产出基本可以拿来直接用。想再打磨的话，我列了几个�
 还要在行为边界上卡住两点：只要对方圈定了话题，就必须马上进入出片流程，不能停在解释环节反复兜圈；与心理无关的内容一律不回应。
 #### 2. 流程触发
 在 Bot 后台挂上 huochairendemo 节点，把上一步圈定的话题作为输入参数传给流程。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_35eaf4839403fc3efb95ae038858d728.png>
+![](img/zhuanqian_35eaf4839403fc3efb95ae038858d728.png)
 #### 3. 欢迎语
 也可以采用这样的欢迎语：你好，我是心理知识助手。不管你是情绪低落、碰到关系难题，还是只是好奇某个心理现象，我都能用最直白的方式讲清楚。玩法分三步：先描述你的处境，再挑一个心仪话题，最后为你产出一条知识向短片。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ea2fc76f65c99234d68ac36af00c3cb2.png>
+![](img/zhuanqian_ea2fc76f65c99234d68ac36af00c3cb2.png)
 配完之后基本可以试运行。我前面调整了很多轮，正常情况下出片质量已经够用。
 ### 换赛道怎么迁移
 这套结构的核心价值在于：把内容结构固化成模板，让 Bot 按模板出图、出文案、合片。所以不只是心理话题，像医疗健康、运动塑形、萌宠日常、个人成长这类方向，也都能套用。要改的主要是流程里的镜头台本、绘图模型和配音模块，其余节点基本不必动。
 甚至不依赖 AI 出图：直接建一个“文案生成 + 配音字幕”的流程，产出台本后再用实拍镜头剪进去，效果同样成立。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_574dbc2fa8ec8362de1402655353c820.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1337d763630643428b3c026a32e6629e.png>
+![](img/zhuanqian_574dbc2fa8ec8362de1402655353c820.png)
+![](img/zhuanqian_1337d763630643428b3c026a32e6629e.png)
 ### 复盘体会
 最后留下几条实践感受：
 - 想要流程产出稳定，Prompt 必须按个人尺度反复调，不能一版就收手；

@@ -9,45 +9,45 @@ Prompt 在交互中承担三大职责：
 2. 控制方向：通过设计特定的 Prompt，你能把 AI 的思路引向某个话题或思考路径。
 3. 决定输出质量：提示词越清楚、越细致，AI 给出的答案往往越精准、越可靠。
 常见 Prompt 类型有哪些？带你快速看 10 个高频场景：
-描述性 Prompt——用于描述或查询具体信息。示例：“描述埃菲尔铁塔的历史。” <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a5aeed8bd3973afd10135299b32216da.png>
-创造性 Prompt——用于激发新想法、让脑洞打开。示例：“创造一个关于未来城市的故事。” <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_566ad9033e6ce488a514b0f7bb61717a.png>
-指令性 Prompt——让 AI 执行明确的操作。示例：“将这段文本翻译成法语。” <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_219586c0d7586810e5da4a06bc555118.png>
-探索性 Prompt——用于深入探讨某个主题。示例：“探索全球变暖对极地生物的影响。” <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0180023d1fc18163c6fdcbbe55826629.png>
-情感性 Prompt——用于表达或探讨情绪感受。示例：“写一首表达失落情感的诗。” <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9d1a34aa8da69f262566ead7f54077b7.png>
-问题解答 Prompt——用于解决具体疑难。示例：“如果一个圆的半径是 5 米，那么它的面积是多少？” <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_15a6ef3563fc50919b49375294d93d38.png>
-新版界面的右侧还新增了“执行分析步骤”功能，用起来相当顺手：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8f2c1cd9060acdb60dd0f224576f46cd.png>
-编程/代码 Prompt——处理编程或技术问题。示例：“写一个 Python 脚本来排序一个数字列表。” <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cd99ffec34aea114fc8e88d3a55144cb.png>
-咨询性 Prompt——用于获取分析、建议或洞察。示例：“给一位希望提高时间管理技能的专业人士提供建议。” <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8e0e3709d9e100d7e43b6968a0e54f02.png>
-图像生成 Prompt——用于创作或改造图像。示例：“生成一幅描述太阳系的图像。” <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_665784cab595fdc5753029e818a59033.png>
+描述性 Prompt——用于描述或查询具体信息。示例：“描述埃菲尔铁塔的历史。” ![](img/zhuanqian_a5aeed8bd3973afd10135299b32216da.png)
+创造性 Prompt——用于激发新想法、让脑洞打开。示例：“创造一个关于未来城市的故事。” ![](img/zhuanqian_566ad9033e6ce488a514b0f7bb61717a.png)
+指令性 Prompt——让 AI 执行明确的操作。示例：“将这段文本翻译成法语。” ![](img/zhuanqian_219586c0d7586810e5da4a06bc555118.png)
+探索性 Prompt——用于深入探讨某个主题。示例：“探索全球变暖对极地生物的影响。” ![](img/zhuanqian_0180023d1fc18163c6fdcbbe55826629.png)
+情感性 Prompt——用于表达或探讨情绪感受。示例：“写一首表达失落情感的诗。” ![](img/zhuanqian_9d1a34aa8da69f262566ead7f54077b7.png)
+问题解答 Prompt——用于解决具体疑难。示例：“如果一个圆的半径是 5 米，那么它的面积是多少？” ![](img/zhuanqian_15a6ef3563fc50919b49375294d93d38.png)
+新版界面的右侧还新增了“执行分析步骤”功能，用起来相当顺手：![](img/zhuanqian_8f2c1cd9060acdb60dd0f224576f46cd.png)
+编程/代码 Prompt——处理编程或技术问题。示例：“写一个 Python 脚本来排序一个数字列表。” ![](img/zhuanqian_cd99ffec34aea114fc8e88d3a55144cb.png)
+咨询性 Prompt——用于获取分析、建议或洞察。示例：“给一位希望提高时间管理技能的专业人士提供建议。” ![](img/zhuanqian_8e0e3709d9e100d7e43b6968a0e54f02.png)
+图像生成 Prompt——用于创作或改造图像。示例：“生成一幅描述太阳系的图像。” ![](img/zhuanqian_665784cab595fdc5753029e818a59033.png)
 音频/视频 Prompt——用于生成或编辑音视频。示例：“创建一个关于太阳系的短视频。”需要提醒的是，目前的 GPT 还不能直接完成这类创作，但已经有不少工具可以做到，比如 Pika、Pixverse，以及最近大热的 Sora。
 二、Token 是什么？它和 Prompt 有什么关系？
 如果说 Prompt 是你对 AI 说的话，那 Token 就是 AI 世界里“文字的碎片”。想象一本书被剪成一个个小纸片，每张纸片上可以是一个字、一个词或一个短语；GPT 正是靠这些碎片来识别语义、拼装语言。
 Token 在 GPT 中主要起三方面作用：
 1. 理解语义：模型通过分析 Token，像孩子学语言一样逐渐掌握词语的用法和组合方式。
 2. 生成回复：收到你的输入后，模型会把你的话拆成 Token，再重新组合成答案。
-3. 提升效率：Token 化让模型能像拼图那样快速处理海量文本。 <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3e063c417d0d4d9770a791c539907ea8.png>
+3. 提升效率：Token 化让模型能像拼图那样快速处理海量文本。 ![](img/zhuanqian_3e063c417d0d4d9770a791c539907ea8.png)
 需要特别说明：GPT 实际使用的 Token 化方法并不是我们日常理解的中文分词，而是基于 BPE 算法实现的，底层逻辑比较复杂。想深入了解的可以看这篇：https://zhuanlan.zhihu.com/p/620426699 为了便于入门，我们可以先简单分成字级、词级、子词三大类来理解。
-- 字级 Token：最小粒度。比如中文里每一个汉字都可能是一个 Token。 <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6576f2576eeded53cd2adc47d38537df.png>
+- 字级 Token：最小粒度。比如中文里每一个汉字都可能是一个 Token。 ![](img/zhuanqian_6576f2576eeded53cd2adc47d38537df.png)
 你看上图，每个汉字都对应了一个 Token。
-- 词级 Token：在英语等语言中，一个单词可视为一个 Token。 <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3c8a1a2193d7b976e7a054dd782db0bf.png>
-像“中国”虽然是两个汉字，但在特定情况下只算一个 Token。 <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9260ea504f8b08b42f11390a6ab679c5.png>
+- 词级 Token：在英语等语言中，一个单词可视为一个 Token。 ![](img/zhuanqian_3c8a1a2193d7b976e7a054dd782db0bf.png)
+像“中国”虽然是两个汉字，但在特定情况下只算一个 Token。 ![](img/zhuanqian_9260ea504f8b08b42f11390a6ab679c5.png)
 再看英文示例：空格加上 red 这 4 个字符，合计就是一个 Token。
-- 子词 Token：把复杂词继续拆成更小的单元，处理生僻词时特别有用。 <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a676b4b4865aa4069c2643170a15be06.png>
-例如“工程师”这个双字词，在拆分后可能变成 3 个 Token，因为“师”被拆成了两个 Token 的组合。 <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_312a77d50d960f571544c7017fd3c664.png>
+- 子词 Token：把复杂词继续拆成更小的单元，处理生僻词时特别有用。 ![](img/zhuanqian_a676b4b4865aa4069c2643170a15be06.png)
+例如“工程师”这个双字词，在拆分后可能变成 3 个 Token，因为“师”被拆成了两个 Token 的组合。 ![](img/zhuanqian_312a77d50d960f571544c7017fd3c664.png)
 三、Token 的实际应用：计费、限制与提示词策略
 理解 Token 到底有什么实际意义？先记下一个换算关系：100 个 Token 大约等于 75 个英文单词，或约等于 100 个汉字。
 1. Token 怎么计算？
 OpenAI 的 Token 消耗统计包含两部分：你提交给模型的输入 Token 数，以及模型生成回复的输出 Token 数。例如，你输入花费了 100 Token（约 100 个汉字），模型回复花费了 200 Token（约 200 个汉字），那么这次交互一共消耗 300 Token。
 2. 最大 Token 限制是多少？
-不同模型的承载能力不一样。官方文档在 https://platform.openai.com/docs/models/gpt-4-and-gpt-4-turbo 中写得很清楚： <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_daf26c6383b604901a82a5096fb67bfb.png> <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_311e7fd997954db530f310d59ec19c3a.png>
+不同模型的承载能力不一样。官方文档在 https://platform.openai.com/docs/models/gpt-4-and-gpt-4-turbo 中写得很清楚： ![](img/zhuanqian_daf26c6383b604901a82a5096fb67bfb.png) ![](img/zhuanqian_311e7fd997954db530f310d59ec19c3a.png)
 GPT-3.5 的 Token 上限约 4096，差不多相当于 3072 个英文单词或 4096 个汉字。
 GPT-4 的 Token 上限约 8192，大约对应 6144 个英文单词或 8192 个汉字。
 3. 超过 Token 上限会怎样？
 一旦对话内容超过模型的承载上限，模型就会开始“忘记”较早的对话内容，因为它的记忆容量只能容纳有限 Token。为了给新内容腾出空间，旧信息会被挤出。这就好比孩子听一个超长的故事，听到后面，前面的情节已然模糊。所以在长对话中，维护对话结构的连贯性极其重要。
 4. 怎样查看自己用了多少 Token？
-OpenAI 专门提供了 Tokenizer 工具：https://platform.openai.com/tokenizer <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_350650d0d9943b2cc350ae3851372589.png>
+OpenAI 专门提供了 Tokenizer 工具：https://platform.openai.com/tokenizer ![](img/zhuanqian_350650d0d9943b2cc350ae3851372589.png)
 中文场景下基本接近 1:1。比如我输入了 331 个汉字，工具统计为 337 个 Token。
-再看英文输入：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_aabf460bf4b705126c7809d9b87b866e.png>
+再看英文输入：![](img/zhuanqian_aabf460bf4b705126c7809d9b87b866e.png)
 我大概输入了 700 个英文字母，最终统计是 149 个 Token，折算下来大约每 4 个字母等于 1 个 Token。
 5. Token 限制给提示词创作的启发
 - 控制有效记忆长度：明白模型可能记不清太久之前的内容，所以在长对话里不要指望它还记得你最初的所有要求。
@@ -55,19 +55,19 @@ OpenAI 专门提供了 Tokenizer 工具：https://platform.openai.com/tokenizer 
 - 重要信息要重复：在连续多轮对话中，关键信息值得在不同节点简要重申，帮助模型维持记忆。
 - 合理分段提交：大段文本或复杂任务最好拆开处理，或定期总结已讨论内容，让模型始终处于清晰语境中。
 四、时效性困境：GPT 为什么不知道今天发生了什么？
-GPT 是一个基于历史数据训练出来的模型，它的知识库固定在数据采集的某个时间节点，无法自动实时更新。 <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_909ad1de7a97efb9c9f0bc31ccafcdb6.png>
+GPT 是一个基于历史数据训练出来的模型，它的知识库固定在数据采集的某个时间节点，无法自动实时更新。 ![](img/zhuanqian_909ad1de7a97efb9c9f0bc31ccafcdb6.png)
 如果你问它最新的新闻、流行梗或科技动态，它大概率给不出新鲜答案，甚至可能用“过时情报”误导你。
-比较好的解决办法，是选用带联网功能的 AI 工具。比如 GPT-4 默认对话框已经集成了上网能力，可以实时抓取信息。 <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ffef92bb8a86dd87aa24cdbaf4b88a70.png>
+比较好的解决办法，是选用带联网功能的 AI 工具。比如 GPT-4 默认对话框已经集成了上网能力，可以实时抓取信息。 ![](img/zhuanqian_ffef92bb8a86dd87aa24cdbaf4b88a70.png)
 但这里必须明确一点：联网工具展示的是“现搜”的内容，并不是模型训练库里新增了数据。也就是说，GPT 的底料并没有因为联网而更新。
-不妨看看 GPT 如何解释自己的局限：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_42fc129a718927529c78d5c5eb886264.png>
-再把联网版和非联网版的回答放在一起对比，本质差别马上清楚：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_70dfc8e07032157774591bb5e3bd4fc4.png>
+不妨看看 GPT 如何解释自己的局限：![](img/zhuanqian_42fc129a718927529c78d5c5eb886264.png)
+再把联网版和非联网版的回答放在一起对比，本质差别马上清楚：![](img/zhuanqian_70dfc8e07032157774591bb5e3bd4fc4.png)
 理解了时效性问题，你就不会再把 AI 的每句话都当成“最新真相”。
 五、幻觉问题：为什么 AI 会一本正经地胡说八道？
 所谓幻觉，指的是模型生成的文本没有忠实于原文，或不符合客观事实。简单说，它可能在知识空白时编造出看起来合理的答案。
 从类型看，幻觉通常有三种表现：
-- 输入冲突：生成内容和用户给出的前提相矛盾。 <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0bb5c070232d2c656d8acf8d22ba6ea9.png>
-- 语境冲突：生成内容和之前已经说过的内容互相打脸。 <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_30961a88f87ce47fc600a0bfd5f2ac42.png>
-- 事实冲突：生成内容与已知世界知识明显相悖。 <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f705000c9f0b5b74d03b93cd82d5e27c.png> <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8933cb589237ff74589cf385d8b0035c.png>
+- 输入冲突：生成内容和用户给出的前提相矛盾。 ![](img/zhuanqian_0bb5c070232d2c656d8acf8d22ba6ea9.png)
+- 语境冲突：生成内容和之前已经说过的内容互相打脸。 ![](img/zhuanqian_30961a88f87ce47fc600a0bfd5f2ac42.png)
+- 事实冲突：生成内容与已知世界知识明显相悖。 ![](img/zhuanqian_f705000c9f0b5b74d03b93cd82d5e27c.png) ![](img/zhuanqian_8933cb589237ff74589cf385d8b0035c.png)
 幻觉从哪里来？主要有四个原因：
 1. 模型缺少相关知识，或者把虚假关联（比如位置靠近、高频共现）误当成了事实，这与训练数据的分布密切相关。
 2. 模型容易高估自身能力，它给错误答案时的自信程度往往和对答案时一样高。
@@ -103,48 +103,48 @@ AI最让人头疼的毛病之一，是“嘴硬”。哪怕它完全不知道答
 长内容切成小段。把复杂问题拆开给，或者时不时总结一下前面聊到哪儿了，让它处理得有条不紊。
 还有一条捷径：与其每次重新嘱咐，不如做一个定制的GPTs，把你想要的个人资料和沟通偏好统统装进去，让它一上来就进入状态，压根没有忘记的机会。
 那么具体怎么设定呢？在GPT-4.0的界面上，先找到“Custom instructions”（定制说明）入口。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_18e15db761e743f2f4b71dbbb2682f2e.png>
+![](img/zhuanqian_18e15db761e743f2f4b71dbbb2682f2e.png)
 接下来会看到两栏需要填写的区域。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fc4b8f662c3db6cf83ce3512a0342eb2.png>
+![](img/zhuanqian_fc4b8f662c3db6cf83ce3512a0342eb2.png)
 左侧的窗口用来交代“我是谁”。你可以写下自己所在的城市、当前的职业、闲暇时喜欢做什么、哪类话题能让你滔滔不绝、最近正在追逐的目标……这些越详细，模型越懂你。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a5199ab344937ac5e3ada68e7d7231f8.png>
+![](img/zhuanqian_a5199ab344937ac5e3ada68e7d7231f8.png)
 右边的窗口则用来规定“怎么答”。语气偏庄重还是偏俏皮？回复要长篇大论还是三言两语？该用哪种称呼？碰到有争议的议题，模型是该有鲜明立场还是压根不做评判？全在这儿说清楚。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b55de25865dbac52de49536abb59ca09.png>
+![](img/zhuanqian_b55de25865dbac52de49536abb59ca09.png)
 再往新版本看，GPT还推出了更省事的“记忆”开关。路径是：设置→个性化→记忆。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5a588ebce8dab337185c9e9647ca61cc.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_241d8ad6a452056ce7f2caca9fccac00.png>
+![](img/zhuanqian_5a588ebce8dab337185c9e9647ca61cc.png)
+![](img/zhuanqian_241d8ad6a452056ce7f2caca9fccac00.png)
 刚打开时，Memory里干干净净，什么都没有。想让它记住什么事情，直接对它说“我每天午休后要开例会，以后别忘了”这种话就行。等屏幕上跳出“Memory updated”的提示，就说明写入成功了。此后随时可以回到记忆管理页，点“Manage”查看里面存了哪些，个别条目不对劲也能单独删除。
 来看一下实测表现：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_410aa70be80411924364318f00662094.png>
+![](img/zhuanqian_410aa70be80411924364318f00662094.png)
 存进去的内容怎么取用？它支持给记忆内容起别名，用起来非常顺手。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4ef796aa1c1a383ab3a1453abd764d13.png>
+![](img/zhuanqian_4ef796aa1c1a383ab3a1453abd764d13.png)
 另起一段全新的对话，看看它能不能想起你？答案是能。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2f8c68a79e7ce38eab382b06bbcde35d.png>
+![](img/zhuanqian_2f8c68a79e7ce38eab382b06bbcde35d.png)
 有一点得特别注意：这部分累积的对话信息在GPTs里调动不了。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_dff535323d4751ae4091e2b79cac2139.png>
+![](img/zhuanqian_dff535323d4751ae4091e2b79cac2139.png)
 我亲测下来，这个功能的妙处在于让模型的回应更有温度。更妙的是，你可以把几条惯用的美化文字指令整个存进去，以后只需一句话就能唤醒，不用再翻找现成的文案模板库。对轻量用户来说，这比另行搭建GPTs省力得多，后者的成本反而显得高。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2d8611101d445663243b8c14d8ab40ff.png>
+![](img/zhuanqian_2d8611101d445663243b8c14d8ab40ff.png)
 理解了长度上限这回事，你就能明白：聊得久了GPT会像失忆一般，那实在怨不得它。
 【关于押韵】
 让AI写押韵的文字，就像让程序员写诗——能押上，但总透着别扭。现代大模型写文章不在话下，一碰到韵律工整的要求，立刻露怯。
 毛病出在三个环节：为了凑韵脚，硬塞一些并不贴切的字眼，读起来生硬；古诗的平仄节拍难以兼顾，念着不顺；为守住格式，内容被牺牲，诗意和深度都没了。
 改进的办法有三条：把韵律要求写具体，比如“请按ABAB韵式写一首四行小诗”；丢给它几篇范文，让它照着路子仿写；别忘了在指令里提醒它“内容厚度跟韵律同样要紧”。拿古诗创作来说，给模型一个韵脚要求，它的表现大致是这样：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1221747c5d349fa64739c36f90fca8d5.png>
+![](img/zhuanqian_1221747c5d349fa64739c36f90fca8d5.png)
 即便AI没法像资深诗人那样靠灵感和直觉写作，给它清晰的框架、再经人工修改打磨，照样能在韵律创作上助你一臂之力。
 【关于字数】
 “差不多一百字吧”——AI听到这种要求，经常给你回到二百字开外。原因在于，模型优化回答的第一标准是内容是否靠谱，字数从来不在它的考虑范围内。
 对付这个毛病，有几个递增的招数。
 头一着，把字数直接写进问题里，比如“写一段约百字的个人介绍”。可别以为写了“约”字它就一定规矩，照样可能放飞自我。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0925843b6f27f17ee696ba4b6bb24569.png>
+![](img/zhuanqian_0925843b6f27f17ee696ba4b6bb24569.png)
 再进一步，把要求嵌进结构里。比如“提出三点省钱建议，每一点控制在20字内”，它会老实很多。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_506db1b9e97617a83dcc26f855f3b602.png>
+![](img/zhuanqian_506db1b9e97617a83dcc26f855f3b602.png)
 结构还能更细。比如“分三句陈述环保的紧迫性，每句控制在35字内”。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ca41c8731e816df4fc8b8982829854de.png>
+![](img/zhuanqian_ca41c8731e816df4fc8b8982829854de.png)
 即便如此，AI对字数的拿捏依然谈不上精准，所以动手删改的准备还是要的。理解了AI在这方面的局限，再学会相应调整用法，用起工具来才更顺手。
 【关于修辞】
 AI写的东西时常带着一股“机器味”：句子都对，读起来却乏味。具体表现在三方面：一是措辞套路化，想让人眼前一亮很难；二是缺失真人执笔时那种情感浓度和个体视角；三是让它在诗歌、小说这类高度原创的任务上放得开，更是难为它。
 改善的方法也挺直接：想要什么味道，就在指令里点明——幽默、正式、忧郁都行；拿一段风格相近的作品贴给它模仿；别指望一步到位，把写作这件事拆成几个环节，边写边修正。不妨看一组现场示范：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_50c5e479b0c4b7b3fe49a44390e35223.png>
+![](img/zhuanqian_50c5e479b0c4b7b3fe49a44390e35223.png)
 把AI的生成速度跟人的审美结合在一起，就能调出既流畅又耐读的文字。
 【关于边界失控】
 你千叮咛万嘱咐“别写太长”“别谈政治”“别用术语”，它偏偏全犯一遍，这就是边界失控。后果通常是：产出跑偏、违背你定下的底线，甚至踩到合规的雷区。
@@ -157,13 +157,13 @@ AI写的东西时常带着一股“机器味”：句子都对，读起来却乏
 最后分享一个通用解法，我把它叫做“出声推理”。核心逻辑很简单：别让模型直接给结果，而是逼它把推理过程一步步吐出来。碰上复杂的活儿，这种按部就班的推演能极大提升正确率。
 具体操作分四步：先把大问题拆成小块；再把各步骤串成清晰的思维链；接着一步步演算，把每步算出的结果先记下来；最后根据它的回答调整追问方向，逐步逼近正确答案。
 这招还能提升模型的可解释性。不过，思维链也不是对任何体量的模型都灵光。有些实验显示，参数规模不足时，硬逼着模型一步步推演，效果反而不如直接给答案；要等参数涨到数百亿这个级别，思维链的增益才真正显现。说起来，最朴素的触发方式就是在问题末尾加一句“Let's think step by step”。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7ba4a054aa9fd27b74db33d27e132a68.png>
+![](img/zhuanqian_7ba4a054aa9fd27b74db33d27e132a68.png)
 中文环境同样管用：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ae3729d06102b1a42ad78c16db616ea3.png>
+![](img/zhuanqian_ae3729d06102b1a42ad78c16db616ea3.png)
 效果有多夸张？有人拿MultiArith数学题库做测试，加了这句提示后，答题正确率从18%冲到79%，接近四倍。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1cf2793df5edf5f6404a4afb86ea43f7.png>
+![](img/zhuanqian_1cf2793df5edf5f6404a4afb86ea43f7.png)
 需要说明的是，这个招数并非包治百病。它擅长的是多步运算、逻辑推演、策略设计这类硬核题目；搁在简单口算、常识判断或者大部分不依赖推理的杂项任务上，基本没什么增益。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d1e6b647658a037b7d3a225e46653fb3.png>
+![](img/zhuanqian_d1e6b647658a037b7d3a225e46653fb3.png)
 你完全可以照着这个思路设计自己的提示模板。比如让模型分别写出方案A和方案B各自成立的证据，再要求它把两边证据放在一起比一比，看哪边更站得住。也可以直接给它一个填写模板，让它按格式产出。
 掌握AI的这些软肋与解法，用起来才不至于抓瞎。与其被它的“一本正经”唬住，不如学会几招调教工夫，让它在你的手里服服帖帖。
 你是不是也遇到过这种情况：同样一个问题，让AI多“想”一步，答案质量天差地别？今天咱们接着聊怎么把大模型的潜力彻底榨干。
@@ -196,11 +196,11 @@ IRS指南：
 （2）在逐个考虑每个标准后，最终答案表述为：“因为以下原因，答案可能是肯定的。”
 因为丰田普锐斯普锐姆满足所有申请联邦税收抵免的标准，所以答案可能是“是”。
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_936b0aec45ae89e41401783b3a4aab24.png>
+![](img/zhuanqian_936b0aec45ae89e41401783b3a4aab24.png)
 ## 4、实际案例：多说一句话，效果大不同
 假设你提了一个需要多步计算或逻辑推导的问题，第一次直接问，模型给了一个平铺直叙的答案；第二次你在提示词末尾加上“请一步一步思考，并把过程写出来”，结果往往让人眼前一亮。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d456c19ff43e511acce851b4885297d0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2768f49e70a5ce533d3ea88a4d01ab08.png>
+![](img/zhuanqian_d456c19ff43e511acce851b4885297d0.png)
+![](img/zhuanqian_2768f49e70a5ce533d3ea88a4d01ab08.png)
 很明显，后一次的回答质量要高出不少。所以啊，以后用的时候建议顺手加上这么一句。不过大全也观察到一个现象：对于算术类问题，稍微好一点的模型其实已经内置了类似指令，这时候你再加可能就感觉不到太大差别了。
 局限就聊到这儿，接下来进入实战干货。有任何想法，欢迎加微信「daquan365」随时交流。
 # 二、实战技巧｜让模型“多想几层”，再给你综合答案
@@ -215,7 +215,7 @@ IRS指南：
 我们拿“为什么远程办公在当今社会越来越受欢迎？”来试验一下。
 ### 不加思考指令的简单问法
 直接问：“为什么远程办公在当今社会越来越受欢迎？”
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9abc09f57b7d8714aa5fc6f9599ccdbf.png>
+![](img/zhuanqian_9abc09f57b7d8714aa5fc6f9599ccdbf.png)
 可以看到，模型给出来的答案比较散，而且大多是大而化之的空话，缺乏具体分析。
 那大全换一种玩法，用上“逐步推理+综合理由”的提示词，再看看效果：
 ### 用了“逐步推理”的 Prompt
@@ -263,7 +263,7 @@ IRS指南：
 以“请描述您希望我们详细分析并得出可靠结论的问题或情境。”为开场白，等待用户输入后，按照上述工作流程开始逐步推理。
 ```
 ### 模型根据这个 Prompt 生成的结果
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b691438563739413514cf38873aab70f.png>
+![](img/zhuanqian_b691438563739413514cf38873aab70f.png)
 ## 4、效果分析
 - **一步一步来**：模型没有脱口而出一个总结，而是先列举出好几个原因，再逐个分析每个原因的重要性和内在逻辑。
 - **多角度覆盖**：它把技术发展、疫情催生、工作生活平衡、企业降本等维度都纳入了考量，保证回答不偏科。

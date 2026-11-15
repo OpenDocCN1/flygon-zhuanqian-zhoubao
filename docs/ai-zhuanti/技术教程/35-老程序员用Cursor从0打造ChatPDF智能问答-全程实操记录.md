@@ -1,108 +1,108 @@
 # 35+老程序员用Cursor从0打造ChatPDF智能问答，全程实操记录
 ChatGPT火起来之后，我这个35+的老程序员也时刻关注着大模型的技术走向和商业机会。早前还专门学过刀姐的ChatGPT课程，收获不小。在企业里混了这么多年，低代码平台见过也用得不少，但大多数都吹得过头，一遇到稍微复杂的业务就撑不住。随着AI能力越来越强，我日常写SQL、优化代码、整理会议纪要，基本都会借助ChatGPT、智谱清言这类工具。真正让我感受到AI编程威力的，是偶然看到阿里通义灵码的广告，第一次体验就有点被震撼到。后来发现赚钱航海推出了AI编程实战项目，我几乎没有犹豫就报名了——这篇文章就是整个过程的复盘。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a2706fdbe144cbcd5b7ee68e626fc1b3.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_da6f7776d55a0bedd74f2a9ec4dc7654.png>
+![](img/zhuanqian_a2706fdbe144cbcd5b7ee68e626fc1b3.png)
+![](img/zhuanqian_da6f7776d55a0bedd74f2a9ec4dc7654.png)
 ## 为什么偏偏选了智能文档问答？
 ChatGPT发布已经挺长时间了，但真正落地的大模型应用还是不多。目前市面上跑得通的商业案例，大多集中在智能客服和智能问数，核心本质都是RAG。我个人平时喜欢看技术类书籍，经常遇到将近一千页的大厚书，还要求在短时间内掌握并实际运用。除了把碎片时间全用上，之前一直没什么好办法。于是我就琢磨：能不能自己做一个用大模型辅助高效阅读的工具？这时候，之前体验过的chatPDF产品浮现在脑海里——能快速生成大纲、摘要，还能直接针对文档提问。我觉得这个思路可以再深挖一层，于是决定用Cursor把这个“提升阅读效率”的梦想落地。
 ## 竞品分析：别人是怎么做的？
 动手之前，总得先想清楚几件事：这类产品有没有市场？别人是怎么变现的？他们的优点和短板在哪，我有没有机会超越？
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_449fdca2d1808d700d751beb920c9ee2.png>
+![](img/zhuanqian_449fdca2d1808d700d751beb920c9ee2.png)
 综合排名和相关性，我重点锁定了chatpdf.com作为对标产品。它的主要功能包括：文档上传与解析、智能问答、文档总结、多语言支持、多文件支持、圈选解释。其中多文件支持、圈选解释、多语言支持是它比较亮眼的地方。收费模式方面，免费用户每天只有2个文档上传额度，想解锁更多就得升级会员，具体费用见下图。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_64d6a9bebc1afd5190923c71a4d00f11.png>
+![](img/zhuanqian_64d6a9bebc1afd5190923c71a4d00f11.png)
 这是2024年9月到11月的产品流量分析：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8d93bbfe8011b16cfecd791653933993.png>
+![](img/zhuanqian_8d93bbfe8011b16cfecd791653933993.png)
 这是同期流量来源渠道：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8800689149c465e6a275e3e2501f08cd.png>
+![](img/zhuanqian_8800689149c465e6a275e3e2501f08cd.png)
 基于这些数据，我做了点粗略推算。总月访问量约565.3万，月独立访客约174.8万，跳出率48.95%。跳出用户大约是85.3万；没跳出的用户约89.5万。用总访问量减去跳出用户的一次访问，再除以没跳出的用户数，估算出未跳出用户的月均访问次数约为5.36次。初步判断：这个产品的用户需求相当旺盛，月均访问近5次也说明粘性不错，功能应该比较对口，而且收费模式清晰，完全可以直接参考借鉴。
 再看看做这类产品要花哪些钱，主要成本是嵌入模型、对话模型和云服务器。
 | 成本类目 | 方案一 | 方案二 | 方案三 |
 | 嵌入模型 | 本地部署 | SiliconFlow免费嵌入模型 | 调用OpenAI嵌入模型 |
 | 对话模型 | 本地部署 | SiliconFlow免费对话模型 | DeepSeek V3 / OpenAI GPT4系列 |
 | 云服务器 | 阿里云/腾讯云等 | 38元/月的轻量级服务器 | 199元服务器，地域选香港 |
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0f98fe53a0bccdb6e7223a4b27486ff4.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_dad6c0f9c46b26d856d6eab5fd8b7dff.png>
+![](img/zhuanqian_0f98fe53a0bccdb6e7223a4b27486ff4.png)
+![](img/zhuanqian_dad6c0f9c46b26d856d6eab5fd8b7dff.png)
 因为前期流量不会太大，但问答质量必须过硬，我目前的搭配是：嵌入模型用SiliconFlow的免费版本，对话模型用DeepSeek V3，价格实惠，性价比很高；云服务器先用阿里云轻量级2核2G，一个月只要38元。等以后业务量上去了，再升级配置也不迟。定价方面，我打算在DeepSeek V3的Token费用基础上适当加价，把软件开发、维护和服务器成本都算进去。目前收费模块还没做，最终方案还没定，后续会重点研究。
 ## 最终成果长什么样？
 产品功能演示视频（手机端建议双击全屏观看）：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e2e43e2a906a7b7afd516aaa17db5796.png>
+![](img/zhuanqian_e2e43e2a906a7b7afd516aaa17db5796.png)
 核心亮点功能有四个：文档一键生成脑图、文章深度总结、文章问题深度挖掘，以及DeepSeek V3大模型底座。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2926b4594041294b9fd93ba27470048f.png>
+![](img/zhuanqian_2926b4594041294b9fd93ba27470048f.png)
 ## 开发过程中的关键动作
 ### 一、环境安装配置
 先从官网下载Cursor：https://www.cursor.com/
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_aaad51845a6d911122a1a1ef2517032d.png>
+![](img/zhuanqian_aaad51845a6d911122a1a1ef2517032d.png)
 进入官网后，点“DOWNLOAD”或“DOWNLOAD FOR WINDOWS”按钮下载，完成后双击安装文件安装。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7271c44b2cea9d76ea55aa104b13ac0b.png>
+![](img/zhuanqian_7271c44b2cea9d76ea55aa104b13ac0b.png)
 安装好会自动打开设置界面。Keyboard栏选你常用的编辑器，比如我用惯IDEA，就选Jetbrains，这样Cursor快捷键就和IDEA一致。Language for AI选中文。Codebase-wide那个选项保持默认即可。然后点“Continue”。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f9795a517360067671eb16eacb80ef79.png>
+![](img/zhuanqian_f9795a517360067671eb16eacb80ef79.png)
 接着会弹出新界面，点蓝色的“Use Extensions”按钮，它会自动安装VS Code扩展。这个过程大概3-5分钟，装完出现隐私选项。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8a3115b1d67fcca1c2f51e7d78454c50.png>
+![](img/zhuanqian_8a3115b1d67fcca1c2f51e7d78454c50.png)
 考虑到数据安全，我选了私有模式。私有模式下，你的提问和代码不会被官方或第三方存储。继续点“Continue”，弹出注册框。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5a6e90acddde02e710b4d96ff98435d3.png>
+![](img/zhuanqian_5a6e90acddde02e710b4d96ff98435d3.png)
 点“Sign Up”会打开浏览器，直接用GitHub账号注册即可。注册成功会自动跳转到新页面。这里有个小插曲：我之前一直用QQ邮箱注册，死活不成功，后来换GitHub授权，一次就过了。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d34cf378d44e4ba1ee4848ef199bc01c.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_51ccdcc250982436aa4845943a39bdf9.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4a2956f44b92d1274888300061f00eff.png>
+![](img/zhuanqian_d34cf378d44e4ba1ee4848ef199bc01c.png)
+![](img/zhuanqian_51ccdcc250982436aa4845943a39bdf9.png)
+![](img/zhuanqian_4a2956f44b92d1274888300061f00eff.png)
 在新页面选“YES，LOG IN”，客户端随即更新显示。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3989540df64d6f8686dcd8ff9ac3ff51.png>
+![](img/zhuanqian_3989540df64d6f8686dcd8ff9ac3ff51.png)
 再装一个中文插件，让界面切换成简体中文。重启之后，环境配置就完成了。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fc5fa472e08f761d73ba5c42770573f1.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6119820a5791af41e4bf39d32a0c2c9a.png>
+![](img/zhuanqian_fc5fa472e08f761d73ba5c42770573f1.png)
+![](img/zhuanqian_6119820a5791af41e4bf39d32a0c2c9a.png)
 ### 二、版本管理
 Cursor用久了，经常遇到代码反复重写后想回退到某个版本，却找不到办法。我的解决方案是把Cursor和GitHub集成起来，高效管理版本。这里有个血泪建议：只要代码有一点点小改动，而且自己觉得满意，就立刻提交。别总想憋个大的一起提交——等代码被AI改得面目全非、想回都回不去的时候，你就明白及时提交有多重要了。
 先安装Gitlens插件。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_214a1696d9774f8ef54015fce5ff3c5c.png>
+![](img/zhuanqian_214a1696d9774f8ef54015fce5ff3c5c.png)
 然后初始化仓库；有问题的代码，可以直接放弃更改。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2943a260691ba5712dc6be31bd459f50.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7617ba8423895198637a0e232be940a5.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4e0adf8299b9c3436f3a5d5242382ff1.png>
+![](img/zhuanqian_2943a260691ba5712dc6be31bd459f50.png)
+![](img/zhuanqian_7617ba8423895198637a0e232be940a5.png)
+![](img/zhuanqian_4e0adf8299b9c3436f3a5d5242382ff1.png)
 接着提交到GitHub远程仓库。先在GitHub上创建仓库，如果不想公开代码，就设为private。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e38d19c2006759505589ad1bd4e1e9a6.png>
+![](img/zhuanqian_e38d19c2006759505589ad1bd4e1e9a6.png)
 填写仓库信息，保存。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_57fc5fcc2c44cb0acde9fadf2064b366.png>
+![](img/zhuanqian_57fc5fcc2c44cb0acde9fadf2064b366.png)
 复制仓库地址备用。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7e537643d64951ee237d00315b40dabc.png>
+![](img/zhuanqian_7e537643d64951ee237d00315b40dabc.png)
 回到Cursor，添加远程存储库，粘贴地址、命名、回车。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8a5c3e9cf8381c9abf0664a0a20a92b4.png>
+![](img/zhuanqian_8a5c3e9cf8381c9abf0664a0a20a92b4.png)
 然后把代码推送上去。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_55d4a91cddd3a9c61f7bed4b65f28613.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_942af5f501b4b3ef8e0e29b78061fd7e.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_77b25b1dd27db4f95025673d255182ce.png>
+![](img/zhuanqian_55d4a91cddd3a9c61f7bed4b65f28613.png)
+![](img/zhuanqian_942af5f501b4b3ef8e0e29b78061fd7e.png)
+![](img/zhuanqian_77b25b1dd27db4f95025673d255182ce.png)
 如果要构建新版本，可以创建新分支，具体操作如下：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4eb39d369cb509d5eb749f8bb2950499.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9441b6ebb96493d9f1d5319083e8fee9.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_afa8542fb502cc88664b825faffd85cb.png>
+![](img/zhuanqian_4eb39d369cb509d5eb749f8bb2950499.png)
+![](img/zhuanqian_9441b6ebb96493d9f1d5319083e8fee9.png)
+![](img/zhuanqian_afa8542fb502cc88664b825faffd85cb.png)
 在Cursor里切换到新分支即可。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f7ce5685ab5630957b79bfd4da53aa1d.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1b89bade4a30ed33ad744d60d372f47e.png>
+![](img/zhuanqian_f7ce5685ab5630957b79bfd4da53aa1d.png)
+![](img/zhuanqian_1b89bade4a30ed33ad744d60d372f47e.png)
 到这儿，基于Cursor和GitHub分支的版本管理就基本讲完了。
 ### 三、初始工程构建
 先去bolt.new官网注册。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_364f1f141532b7bef9d20c816055c974.png>
+![](img/zhuanqian_364f1f141532b7bef9d20c816055c974.png)
 然后在对话框里描述需求。我的提示词大致是：想做一个智能文档问答的Web网站，期望采用llamaindex、PyPDF2、vue、openai、Chroma技术栈，界面参考附件截图。我还自己找了一个比较喜欢的文档对话参考站，截图后上传到对话窗口，作为提示词补充。因为我有技术背景，所以直接指定了适合企业级生产的技术栈。
 给没技术背景的朋友一个TIPS：不用自己硬设定技术栈，直接让它帮你推荐最合适的，一样能拿到满意的结果。
 接下来下载生成好的代码。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cc1ff6b0ae85ad3871b1acc1b1b8a0d5.png>
+![](img/zhuanqian_cc1ff6b0ae85ad3871b1acc1b1b8a0d5.png)
 在Cursor里导入这个工程。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_92f507850067307199b549a725a52843.png>
+![](img/zhuanqian_92f507850067307199b549a725a52843.png)
 然后让AI做源码分析。我的提示词是：@Codebase 这是一个智能文档问答的Web网站模板项目，请在项目根目录下创建design.md，总结该项目的目录结构和技术要点，方便后续讨论需求时参考。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_79a7feab4cb5bc52d7de111ebdae8ab3.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3a322dae5e486487323ace9ae98ea192.png>
+![](img/zhuanqian_79a7feab4cb5bc52d7de111ebdae8ab3.png)
+![](img/zhuanqian_3a322dae5e486487323ace9ae98ea192.png)
 再尝试启动项目。按它给的启动步骤一步步来；如果报错，就把完整错误信息丢到聊天框，按它给的修复方案执行就行。
 【提示词】如何启动该项目
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b7f59ac75079abad6ca40a0e109f135a.png>
+![](img/zhuanqian_b7f59ac75079abad6ca40a0e109f135a.png)
 大模型Key申请方面，我一开始用的是OpenAI模型，因为网络原因，就通过代理站买的key，链接是https://api.juheai.top。一直用着感觉还行，别的渠道没太试过，大家可以根据自己的情况选择。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cf30260a9446a82272a7e6a07dc8680c.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_04449c1090ec9c4613d6ec061f1ab52c.png>
+![](img/zhuanqian_cf30260a9446a82272a7e6a07dc8680c.png)
+![](img/zhuanqian_04449c1090ec9c4613d6ec061f1ab52c.png)
 项目的模型密钥配置在.env文件里，按个人渠道修改即可。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6d4abfc26cafa76c37a37208f42d2fbc.png>
+![](img/zhuanqian_6d4abfc26cafa76c37a37208f42d2fbc.png)
 最终界面效果如下：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_83f0b5991d4b5f6f71f6c1c541e9a225.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_80a248f69cc293aa866cdcb464e35b52.png>
+![](img/zhuanqian_83f0b5991d4b5f6f71f6c1c541e9a225.png)
+![](img/zhuanqian_80a248f69cc293aa866cdcb464e35b52.png)
 到这里，通过bolt和Cursor，智能文档问答的初始工程就搭建完成并验证通过了。后续所有功能迭代，都是在这个版本基础上让Cursor继续演进的。
 ### 四、软件开发背景知识
 正式动手之前，先给小白们科普一下软件的内部结构，这样和Cursor对话时也能更专业一点。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d51f09e2a4647cddfae0bfc45e93dc95.png>
+![](img/zhuanqian_d51f09e2a4647cddfae0bfc45e93dc95.png)
 以“用户通过浏览器访问智能文档问答网站的登录功能”为例，背后大致是这样的流程：
 1. 浏览器发起请求：你在地址栏输入登录页网址，浏览器就会去请求对应页面内容。
 2. 前端Nginx代理：请求先到Nginx，它像“门卫”一样接住请求，检查格式、来源是否合法；如果后端有多个实例，它还能做负载均衡，把请求合理分配到不同服务上。确认没问题后，把请求转发给后端Uvicorn容器。
@@ -123,13 +123,13 @@ Cursor用久了，经常遇到代码反复重写后想回退到某个版本，�
 核心思想：产品思维
 常用技巧：
 1.  直接找目标产品的竞品界面，把界面截图上传给 Cursor，借助视觉参考来辅助描述需求
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_302c8843ed536873256556ad9961011b.png>
+![](img/zhuanqian_302c8843ed536873256556ad9961011b.png)
 1.  采用通用表述，激活大模型已有知识来支撑需求描述
 参考示例：我希望问答窗口的交互体验和 ChatGPT 保持一致
 1.  利用现有 AI 工具如豆包来生成功能描述初稿
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5ee3e61d16020bda175d1a79f0372184.png>
+![](img/zhuanqian_5ee3e61d16020bda175d1a79f0372184.png)
 1.  通过 Cursor 的 Chat 窗口挖掘产品亮点功能
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6dc1f07977976fd95665ddd2d3b4b7fb.png>
+![](img/zhuanqian_6dc1f07977976fd95665ddd2d3b4b7fb.png)
 ### 5.5.2 代码编写
 核心思想：耐心
 常用技巧：
@@ -137,10 +137,10 @@ Cursor用久了，经常遇到代码反复重写后想回退到某个版本，�
 解决方案：审视需求是否过重，能否拆得更细；自述需求是否足够清晰，必要时可请产品同事帮忙校准
 2、出现异常如何快速定位
 解决方案：1、尽量完整地把错误信息输入给 Cursor，条件允许时附上相关代码；2、若问题边界不清晰，可让 Cursor 输出详细日志辅助定位，将带日志的信息再喂给 Cursor 能更快找到根因
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_af23da6b104e3cce32839680898d3fad.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_63222fad0638f97ccb9bffc8a556612d.png>
+![](img/zhuanqian_af23da6b104e3cce32839680898d3fad.png)
+![](img/zhuanqian_63222fad0638f97ccb9bffc8a556612d.png)
 3、某个需求不知如何向 Cursor 精准表达
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e8c5c1b4b86f563e9d066d6aceb6178c.png>
+![](img/zhuanqian_e8c5c1b4b86f563e9d066d6aceb6178c.png)
 ### 5.5.3 Reject or Accept all
 核心思想：用心看
 常用技巧：1、务必仔细阅读 Cursor 输出的改动说明，若发现它改动了已完成的功能或与预期不符，直接 Reject；符合预期再考虑 Accept all。目前 Cursor 还支持基于某次对话回滚。2、有时 Cursor 会出现异常，如 applying 失败，需认真查看返回状态再谨慎决策。
@@ -151,7 +151,7 @@ Cursor用久了，经常遇到代码反复重写后想回退到某个版本，�
 核心思想：仔细
 常用技巧：
 1、在新增功能时，要求 Cursor 不去触碰现有功能，从而保障原有功能稳定
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f72d3bf223463b7ef5ce9c2e858496fc.png>
+![](img/zhuanqian_f72d3bf223463b7ef5ce9c2e858496fc.png)
 2、一个新功能调通后，务必把之前的老功能全部过一遍。曾多次出现新功能可用但把旧功能破坏的情况。准备提交版本前，确认全部功能符合预期。
 ### 5.5.6 版本管理
 核心思想：及时提交
@@ -160,14 +160,14 @@ Cursor用久了，经常遇到代码反复重写后想回退到某个版本，�
 2、Cursor 支持按会话回退，若想回到某次对话的状态，可直接使用该功能快速恢复代码。
 3、国内用户建议使用码云或自建 GitLab。实测 GitHub 同步时常慢或失败，码云则更顺畅。
 ### 5.5.7 部署上线
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bd73debba96fa3f24063f12b2e8bed22.png>
+![](img/zhuanqian_bd73debba96fa3f24063f12b2e8bed22.png)
 核心思想：怎么方便怎么来
 常用技巧：
 1、直接让 Cursor 生成一键部署启动脚本，推荐 Docker 部署，可大幅减少兼容性问题
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3cf6357cd81c3f3f4b3692d9e0dd6416.png>
+![](img/zhuanqian_3cf6357cd81c3f3f4b3692d9e0dd6416.png)
 2、云服务器选型
 个人常用阿里云，且新用户活动较多。我现在的智能文档问答系统就部署在一台 38 元/年 的轻量服务器上。若需面向海外用户，可考虑企业版 199 套餐，支持香港节点，或选用腾讯云等平台的境外服务器。阿里云使用细节可参考官方文档，此处不展开。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a603c2960cb81f02c671b716ba60b75b.png>
+![](img/zhuanqian_a603c2960cb81f02c671b716ba60b75b.png)
 3、Docker 部署新手常见问题
 *   基础镜像选择：
 让 Cursor 制作镜像时要注意基础镜像匹配。部署时因 Cursor 默认用了不匹配的 Python 基础镜像，走了不少弯路。建议一开始就明确告知期望的基础镜像版本，可显著提升效率。
@@ -183,17 +183,17 @@ Cursor 本质仍是大模型，属于自然语言序列到代码序列的映射�
 AI 编程依然是编程，只是代码由 AI 生成。关键架构设计、数据库建模、模块划分、整体运行逻辑仍然重要。具备这些思维就能驾驭 AI 生成的代码，上线到生产环境更安心。对已知的实现方式，能给出更详细指令，就能减少弯路。
 # 七、拓展延伸
 完成首个完全由 Cursor 开发的 0-1 版本后，我想先分享给缺乏企业级开发经验的朋友一个完整的企业级软件开发流程，帮助建立全局认知，明确缺口与可 AI 化的环节，心中有数。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_90e70a1620c06ce35a0e11d242296b67.png>
+![](img/zhuanqian_90e70a1620c06ce35a0e11d242296b67.png)
 在代码与部署脚本全部由 Cursor 完成之后，结合企业级流程，还能有许多环节借助 AI 提效，举例如下：
 收集需求：汇总同类产品的官方使用手册、宣传文案等材料构建知识库，接入联网搜索能力，可打造一个自动生成产品需求的智能体。输入大致产品描述即可输出一份接近产品经理水平的详细功能说明书，按版本拆分后丢给 Cursor 编码，能缓解新手需求描述不清的问题。
 原型设计：推荐工具 MasterGo AI【AI 生成界面】。例如把当前火热的 Deepseek 官网登录页截图发给 MasterGo，它能生成多个方案页面，并支持多前端框架切换与代码自动生成，效果与截图高度接近。下面是相关截图感受。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1487c85348b450c9955336726fd2bfd2.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5a5e1010577b930b9648d68deedb6353.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fd51d4112acc7f4da4c7daf271735125.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3d1511871fe13ca97ba9dc7381c22906.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3abcb5e83d34c6539fed1ea1147fc688.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_976a936b1c4d95cc3c975a3c8c4e74e2.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5a082c44dfe1e09aef82c546adb3f731.png>
+![](img/zhuanqian_1487c85348b450c9955336726fd2bfd2.png)
+![](img/zhuanqian_5a5e1010577b930b9648d68deedb6353.png)
+![](img/zhuanqian_fd51d4112acc7f4da4c7daf271735125.png)
+![](img/zhuanqian_3d1511871fe13ca97ba9dc7381c22906.png)
+![](img/zhuanqian_3abcb5e83d34c6539fed1ea1147fc688.png)
+![](img/zhuanqian_976a936b1c4d95cc3c975a3c8c4e74e2.png)
+![](img/zhuanqian_5a082c44dfe1e09aef82c546adb3f731.png)
 完成开发后上线到生产环境，需重点确认是否满足生产要求，否则用户量上升后问题会集中爆发。
 业务数据持久化，建议使用 MySQL、PostgreSQL 等企业级数据库。Cursor 可能实现了功能，但底层使用 SQLite 等轻量数据库，上线后数据量增大或版本升级时易丢失数据并产生性能瓶颈，且不利于横向纵向扩展。建议初期就选用标准企业级数据库，自行设计表结构也有利于后续数据分析。
 数据权限隔离，切忌不同用户可互相访问数据，这是生产环境大忌。务必验证多用户数据隔离是否生效。
@@ -214,4 +214,4 @@ AI 编程依然是编程，只是代码由 AI 生成。关键架构设计、数�
 1.  .cursorrules 的作用与写法
 .cursorrules 是配置文件，用于指导 Cursor 在代码生成时遵循特定规则与标准。通过定义项目背景、编码规范、库偏好等，确保生成代码与项目需求契合。
 写法建议参考示例或在此基础上个性化修改，示例地址：https://cursor.directory/
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5310ab0681212fabfb35b092d8eb6e97.png>
+![](img/zhuanqian_5310ab0681212fabfb35b092d8eb6e97.png)

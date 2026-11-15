@@ -10,9 +10,9 @@
 - 两个月后，拿到某AI头部公司的AIGC设计师offer。
 下面，我把踩过的坑和沉淀下来的方法，完整地拆给你。
 ## 一、第一单：既意外又合理
-这单客户是从小红书刷到我的作品，然后在后台留言谈合作。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_dcecf1e96664af1e73ad36399530d7a3.png>
-我们来回沟通了好几轮，敲定了视频时长、题材、分工、制作周期、沉没成本，最终报价也明确了：基础费用2000元，精修再加500元。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_25edf36e47272319aaaf97104a211e79.png>
-客户的需求是这样的：一支3分钟以内的纪录片，主题是“用视频展现一个中学生的文字世界，展示他写的内容，以及由文字构建出的想象空间”。对方不要求高画质，愿意自己提供剧本和配音，并辅助出分镜图，10天交片。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7300dee0a9a28fe6f312da57cd09e81a.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_835834346be02a6801765b927ba6c0df.png>
+这单客户是从小红书刷到我的作品，然后在后台留言谈合作。![](img/zhuanqian_dcecf1e96664af1e73ad36399530d7a3.png)
+我们来回沟通了好几轮，敲定了视频时长、题材、分工、制作周期、沉没成本，最终报价也明确了：基础费用2000元，精修再加500元。![](img/zhuanqian_25edf36e47272319aaaf97104a211e79.png)
+客户的需求是这样的：一支3分钟以内的纪录片，主题是“用视频展现一个中学生的文字世界，展示他写的内容，以及由文字构建出的想象空间”。对方不要求高画质，愿意自己提供剧本和配音，并辅助出分镜图，10天交片。![](img/zhuanqian_7300dee0a9a28fe6f312da57cd09e81a.png)![](img/zhuanqian_835834346be02a6801765b927ba6c0df.png)
 翻译一下这个需求：3分钟大概等于150个镜头。通常1分钟就有40-50个镜头，而每个镜头还要用AI“抽卡”2-5次。所谓抽卡，就是用AI视频软件做图生视频时存在失败率，得多试几次。
 片子类型和题材，直接决定了难度和工作量。企业宣传片、产品广告片重画质；剧情片重分镜和人物动作。这会决定你选用哪款AI视频工具，也决定分镜试错的钱包厚度。客户不追求高画质，但要尽量贴近剧本，所以需要选人物动作表现更稳的AI软件。
 客户自带剧本，但不参与分镜，只做验收——这就是典型的“戴着镣铐跳舞”。没有视频经验、不熟悉分镜逻辑的人，我不建议硬接。客户心里可能已经有了画面，你可能要花更多时间沟通细节，利润上也要适当让一点。
@@ -23,24 +23,24 @@
 ### 剧本阶段
 客户给的剧本，往往是有bug的。可能是剧情逻辑不通，也可能是画面衔接不上。遇到这种情况，一定要和对方聊一次剧情，最好电话沟通，语气要客气，请他站在编剧角度讲一讲戏。你既要把剧情问题指出来，也要顺手给出修改方案。
 ### 分镜阶段
-剧本确认没问题后，第一件事是定画风。AI常见的画风有3D动画、电影风格、模拟真人、插画风。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9bebde4df6c435c911243c89e708a44e.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ccb8de85116088206998da8fba2dc1ea.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d29fe0a88ab81dda9c52b4d3fdd954dd.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2a899b2c04a754a609ea9bdb679180a5.png>
+剧本确认没问题后，第一件事是定画风。AI常见的画风有3D动画、电影风格、模拟真人、插画风。![](img/zhuanqian_9bebde4df6c435c911243c89e708a44e.png)![](img/zhuanqian_ccb8de85116088206998da8fba2dc1ea.png)![](img/zhuanqian_d29fe0a88ab81dda9c52b4d3fdd954dd.png)![](img/zhuanqian_2a899b2c04a754a609ea9bdb679180a5.png)
 我们的最终方案是：视频前半段用“中学生在公交车上遇见中式诡异事件”做剧情，后半段变成创作采访，整体画风采用真人写实。
 理解剧本之后，我开始啃最费神的分镜图。
-如果客户自带分镜描述词，那就轻松多了，你只需按描述出图。最理想的状态，是每个分镜都让客户“四选一”，这样一来，一稿发过去要改的地方最少。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1de713ce8ddb1674c44d1f0161ad2fbf.png>
-我用主角出场的第一个镜头做案例，生成了3种画风、共16个形象，客户选出了其中一个，并给了修改意见。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bb2de3ad46084ab83a2ad3b532abb287.png>
+如果客户自带分镜描述词，那就轻松多了，你只需按描述出图。最理想的状态，是每个分镜都让客户“四选一”，这样一来，一稿发过去要改的地方最少。![](img/zhuanqian_1de713ce8ddb1674c44d1f0161ad2fbf.png)
+我用主角出场的第一个镜头做案例，生成了3种画风、共16个形象，客户选出了其中一个，并给了修改意见。![](img/zhuanqian_bb2de3ad46084ab83a2ad3b532abb287.png)
 如果客户脑海里没有准确画面，那就要靠你的语言描述能力去引导。每出一个分镜图，都要等客户做四选一，这个过程漫长又损耗精力。这个项目，我最终做了80个分镜。分镜定稿后，流程就顺畅多了。
 提醒：分镜一敲定，就可以收定金了。我在这个项目里收的是60%全款。
 ### AI视频制作阶段
 分镜定了，AI视频反而变得机械。空镜我一般用Runway、可灵；有人的镜头会用到可灵、Pixverse、即梦；必要时再补一些特效手段。
 虽然通常要严格按分镜来执行，但AI出视频总有随机性，偶尔会给你惊喜。惊喜出现时，往往意味着脚本要微调。为了连戏，之前提前做的某些画面可能就要废弃。
-而且，客户很少对第一稿满意。举个例子，下面这个镜头让我重跑了无数遍，沟通了三次。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ca5f7c374e42be9174f0df89706b4175.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2bfb3c94ea2353fa770620c966b7e73b.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ef9918e3a54f22649197a01d1e1f7cca.png>
+而且，客户很少对第一稿满意。举个例子，下面这个镜头让我重跑了无数遍，沟通了三次。![](img/zhuanqian_ca5f7c374e42be9174f0df89706b4175.png)![](img/zhuanqian_2bfb3c94ea2353fa770620c966b7e73b.png)![](img/zhuanqian_ef9918e3a54f22649197a01d1e1f7cca.png)
 第一稿交付时，客户对一个棺材镜头特别不满意，而且特别执着，说这是全片核心，要求几乎一字不改地呈现。
 问题来了：分镜阶段的AI根本不认识棺材。我往Midjourney里喂了好几遍参考图，都没反应。后来换成Ideogram，付费开通手绘功能，我整整画了一晚上的棺材。画了几十张出殡图，才终于逼近客户要的效果。
 结果AI视频软件又闹脾气。客户要的是“出殡队伍把棺材摔到地上，棺材里的老太太还被甩出来”。这个画面明显违背AI社区的公序良俗，直接生成根本不可能。我就开始想办法“骗”AI：先让AI生成“出殡队伍行进中缓缓放下棺材”，再把“缓缓”的部分加速，制造快速掉落的错觉；接着用一个木盒子掉落摔开的特写镜头接在后面，营造出棺材摔开的假象；再切到主角惊恐反应，进一步加强情绪。结尾处，我还做了一个“棺材板被盖上”的镜头，然后倒放成“棺材板被掀开”的效果。最后又加了5层恐怖音效、2种背景音乐。这一套组合拳下来，AI和观众都被骗了，客户也相当满意。
 除了这种必须死磕的镜头，其他环节客户基本愿意配合，也有一定容错。毕竟大家都希望项目能顺利推进。
 ### 超出预期的加分项
-客户起初说自己配音，但真正操作起来难度很大，效果也不专业。我们磨合了几天的音频素材，始终不过关。我剪得痛苦，客户听得难受。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ad3047eaedce5c7f2463dfe13a026546.png>
-反复沟通后，客户决定用克隆声音。一个小时，解决了我们三天的工作量。客户当场感叹“科技改变生活”，预算也直接提到3000元。工具用的是Eleven Lab，除了克隆声音，它还可以生成专业配音音色和自制音效，从此再也不用满世界找音效。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_eddd39a3d598b069ae436f9d649f310e.png>
+客户起初说自己配音，但真正操作起来难度很大，效果也不专业。我们磨合了几天的音频素材，始终不过关。我剪得痛苦，客户听得难受。![](img/zhuanqian_ad3047eaedce5c7f2463dfe13a026546.png)
+反复沟通后，客户决定用克隆声音。一个小时，解决了我们三天的工作量。客户当场感叹“科技改变生活”，预算也直接提到3000元。工具用的是Eleven Lab，除了克隆声音，它还可以生成专业配音音色和自制音效，从此再也不用满世界找音效。![](img/zhuanqian_eddd39a3d598b069ae436f9d649f310e.png)
 第一个商单，到这里就复盘完了。为了让AI视频流程更清楚，我再用一个播放量1万的小爆款，带大家完整走一遍。
 ## 二、拆解一条1万播放的爆款
 先看最终成片，再聊幕后。
@@ -52,17 +52,17 @@
 别看成片只有20多秒，前期创意和剧本构思用掉两三天。创意这件事真的很玄，想不出来就是出不来。卡壳的时候，我会去刷新闻、看短视频、听TED演讲，等待灵感自己冒出来。
 创意方向定了以后，最重要的一步是设计结局。哪怕只有20秒，也要有一个完整收尾——温情的也好，反转的也好，有趣的也好，核心是传达作品的主题。
 ### 分镜：自由记录，严肃落地
-接下来是漫长的分镜环节。我平时不会开那种正式Excel表——那种东西是给客户看的。真创作时，我恨不得想到就记：先在白纸上乱涂，再在备忘录里随意写几个镜头号。怎么自由怎么来，把脑子里的画面记录下来，直到它在脑海里像电影一样顺畅。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5856dd3eca1f8b9ce565943ef444513a.png>
+接下来是漫长的分镜环节。我平时不会开那种正式Excel表——那种东西是给客户看的。真创作时，我恨不得想到就记：先在白纸上乱涂，再在备忘录里随意写几个镜头号。怎么自由怎么来，把脑子里的画面记录下来，直到它在脑海里像电影一样顺畅。![](img/zhuanqian_5856dd3eca1f8b9ce565943ef444513a.png)
 最后，再把脑海中那些画面整理成一张严谨的分镜表：镜头号、景别、角度、结构、主体动作、背景、镜头时长，一项都不能少。
 这么做是为了帮我们记住画面。后续制作时，如果不看分镜，几乎不可能连贯还原最初的想法。前面创作有多随意，后面的记录就要有多精确。
 分镜表的第一条原则：第一个镜头尽量说明地点。比如厨房场景，要先交代清楚环境。然后拍厨房里不同位置、不同品种的猫，用不同的景别、构图、角度去拍，避免观众连续看到重复画面。
 在猫咪之间还要穿插“罐头位置”的镜头。比如小猫对着某个方向叫之后，紧接着切到一个柜子或厨房岛，让观众明白，小猫是在对某个东西感兴趣。
 另外，同一只猫尽量别超过三次出场，这样可以保持画面新鲜感。
-最后，就是按照已确定的剧本，把所有分镜图制作并整理出来。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1297bc65d55ceee24dc79c8b8826c933.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f6e4ffcc751d5b7b4e0da5c1d79f0ebe.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a0bf6c562d8bf0c2dfdbaba844e8b3ba.png>
+最后，就是按照已确定的剧本，把所有分镜图制作并整理出来。![](img/zhuanqian_1297bc65d55ceee24dc79c8b8826c933.png)![](img/zhuanqian_f6e4ffcc751d5b7b4e0da5c1d79f0ebe.png)![](img/zhuanqian_a0bf6c562d8bf0c2dfdbaba844e8b3ba.png)
 ### 视频制作：一致性才是终极难题
 到了视频制作环节，我根据分镜表把每个分镜画面做出来，再通过图生视频生成动态镜头。
-最大的卡点，是人物一致性。反复试错后，我的经验是：一开始就让AI图片软件生成同一个人物的白底三视图。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4ab0c9d14ab0c7debd7d031b051b0c8b.png>
-接着保留你需要的那个角度，用局部重绘功能，把白色背景和另外两个角度擦掉，再添加背景描述词，生成你想要的人物角度+背景。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5a2e7bb8410538648e68b6e43a348d65.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f984de9229f9a0380ad481466facb18d.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0075cf0d138732766752e9bc90e00058.png>
+最大的卡点，是人物一致性。反复试错后，我的经验是：一开始就让AI图片软件生成同一个人物的白底三视图。![](img/zhuanqian_4ab0c9d14ab0c7debd7d031b051b0c8b.png)
+接着保留你需要的那个角度，用局部重绘功能，把白色背景和另外两个角度擦掉，再添加背景描述词，生成你想要的人物角度+背景。![](img/zhuanqian_5a2e7bb8410538648e68b6e43a348d65.png)![](img/zhuanqian_f984de9229f9a0380ad481466facb18d.png)![](img/zhuanqian_0075cf0d138732766752e9bc90e00058.png)
 AI视频软件也不要在一棵树上吊死。Veo2、Sora、Runway、Pixverse、可灵，都可以排队试试。不同镜头可能需要不同软件支持。实在试不出来，就参考我前面“骗AI”的思路，或者直接调整剧情。
 用分镜图生成视频时，要保证镜头里的动作完整准确，同时每个镜头尽量别超过1.5秒。短视频的一般规律是：单个镜头不超过1.9秒，观众对作品的耐心上限是2秒。如果你不在前3秒里放到第三个镜头，观众随时可能划走。所以前三个镜头最好控制在1.2秒到1.5秒，最大程度降低划出率。
 如果镜头本身是静态的，可以用推拉摇移来增加可看性。方法是用缩放、位移关键帧，人工做出运镜效果。

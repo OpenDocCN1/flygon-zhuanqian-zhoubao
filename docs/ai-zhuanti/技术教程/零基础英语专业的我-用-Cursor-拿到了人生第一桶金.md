@@ -6,17 +6,17 @@
 # 第一款作品：用 Cursor 做出来贪吃蛇
 就搁置了一天。2024 年 11 月 14 日，我在赚钱看到一篇帖子：《如何让吴佳文用 Cursor 完成一个复杂项目》。看到连小白都能照着走，我心想我也可以试试。
 于是照着步骤一步步来，还真把贪吃蛇游戏给跑出来了。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a229ac7ec21cc5e5b6f5df38cf0a62c0.png>
+![](img/zhuanqian_a229ac7ec21cc5e5b6f5df38cf0a62c0.png)
 当我亲眼看到自己写的程序能跑起来时，那种自己动手造软件的快感特别强烈。我也开始琢磨，能不能做出真正好用的工具。
 # 想法诞生：做一个更顺手的 YouTube 下载工具
 我本身就在做 YouTube Shorts 的 AI 赛道，每天都要扒对标账号的视频。群里大家常分享的一个下载站是 https://ytshorts.savetube.me/zh/29-youtube-video-downloader-1keen2
 但实际用起来体验很差。页面一打开就是铺天盖地的弹窗广告，入口藏得很深，一眼根本找不到要粘贴链接的地方。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5cb2a0fe50ea443162c69e24bccc481f.png>
+![](img/zhuanqian_5cb2a0fe50ea443162c69e24bccc481f.png)
 而且整个下载流程要走四步：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_389c94459db639de7f1baa07b024cf14.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7db6e8b52f5f1acb45b65471d96b6eff.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e5712e00ac1319a6e8527b9d00e2b05c.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ad6b0420a376921578ad9e8f485dc86b.png>
+![](img/zhuanqian_389c94459db639de7f1baa07b024cf14.png)
+![](img/zhuanqian_7db6e8b52f5f1acb45b65471d96b6eff.png)
+![](img/zhuanqian_e5712e00ac1319a6e8527b9d00e2b05c.png)
+![](img/zhuanqian_ad6b0420a376921578ad9e8f485dc86b.png)
 广告一直蹦，步骤又繁琐，效率特别低。于是我决定，自己做一个更干净、更直接的下载小工具。
 ## 第一步 先把需求想清楚
 这是用 AI 工具最关键的一步。在动手前，我先明确自己要什么。
@@ -25,10 +25,10 @@
 能生成一个能下载 Youtube 视频的 APP 吗
 ## 第二步 照着 Cursor 的引导一步步做
 Cursor 立刻给了方案
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ac4b4d0615050c49f41c951d471cc946.png>
+![](img/zhuanqian_ac4b4d0615050c49f41c951d471cc946.png)
 然后提示我安装一个 python 文件
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3d2146a77e9ad302ab04bee3f0a652e2.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9cef66415db2c0cf2e4c99c96e5a7fb8.png>
+![](img/zhuanqian_3d2146a77e9ad302ab04bee3f0a652e2.png)
+![](img/zhuanqian_9cef66415db2c0cf2e4c99c96e5a7fb8.png)
 它还详细说明了这款程序的特点：
 简单的图形界面
 支持输入 YouTube 视频链接
@@ -51,21 +51,21 @@ Cursor 立刻给了方案
 需要我详细解释任何部分吗？
 ## 第三步 保持“不懂就问”的节奏
 说实话，连 Python 文件怎么跑我都不知道
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cd85289cf35a136133547b3bd63ea213.png>
+![](img/zhuanqian_cd85289cf35a136133547b3bd63ea213.png)
 这时候 Cursor 就像个很有耐心的老师马上解答了
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d3e75f56c09cbde7ea9d19f465875f08.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cafb54f541c0f4ed3bf5aeb44e1278c3.png>
+![](img/zhuanqian_d3e75f56c09cbde7ea9d19f465875f08.png)
+![](img/zhuanqian_cafb54f541c0f4ed3bf5aeb44e1278c3.png)
 我照着操作启动后，还是报了错，我立刻把报错信息丢回去
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_eff6fbfcd5745783a5e0a304d503aa30.png>
+![](img/zhuanqian_eff6fbfcd5745783a5e0a304d503aa30.png)
 Cursor 根据错误码帮我重新调试
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0a26bfe0cf5ffbfe10e2efeb0ac0d740.png>
+![](img/zhuanqian_0a26bfe0cf5ffbfe10e2efeb0ac0d740.png)
 最后，这款 YouTube 下载 App 终于成型了。只需要在界面里粘贴分享链接，选好保存路径，几乎一秒就能把视频拿下。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_45946200c15b8800dccfbe7a20465223.png>
+![](img/zhuanqian_45946200c15b8800dccfbe7a20465223.png)
 # 首次变现尝试：咸鱼卖出两单后被判违规
 产品出来了，我忍不住想验证下能不能靠它赚钱。当天下午我就挂到了咸鱼，意外的很快收到了 2 单。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_847c48ddd09aab649a2e943e60db6f8d.png>
+![](img/zhuanqian_847c48ddd09aab649a2e943e60db6f8d.png)
 美好的开局没持续多久，晚上咸鱼就判定违规了 /(ㄒoㄒ)/~~
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c42408a2bf07bae74685f7f788a73b6a.png>
+![](img/zhuanqian_c42408a2bf07bae74685f7f788a73b6a.png)
 如果有朋友知道怎么规避这类风险，欢迎交流分享。
 回到赚钱，我每天都像海绵一样吸收圈里的干货，感恩大家的输出。也是被一句话感动：是什么拯救过你，就试着用它去拯救世界。赚钱打开了我的认知，我也想把自己这点小经验回馈给大家。
 祝所有圈友 龙哥盟。

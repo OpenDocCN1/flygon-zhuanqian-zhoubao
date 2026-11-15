@@ -71,5 +71,5 @@ AI 不是银弹，但它确实可以让一个人少被廉价重复劳动消耗�
 评论区：
 林元陸 : 哈哈，没想到咱们在这儿撞上了。😂
 朱诚逸 : 毕竟是爱学习的人
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1c37d505930596d12a88ab23e11aa07a.png>
+![](img/zhuanqian_1c37d505930596d12a88ab23e11aa07a.png)
 * * *

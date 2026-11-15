@@ -18,46 +18,46 @@ ChatGPT是由OpenAI推出的自然语言处理工具，能基于预训练的模�
 🪜工具比较敏感，平台经常变动，馆主另写了一篇专门讲这个。
 3、注册ChatGPT
 设备装好🪜后，在浏览器输入：https://chatgpt.com/，对话框输入“你好呀”，回车，恭喜你进入AI世界。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_af090efb257f6905281dc48bbd67396d.png>
+![](img/zhuanqian_af090efb257f6905281dc48bbd67396d.png)
 但这只是入门，真正用好它必须完成注册。
 国内手机号和邮箱基本已无法注册GPT，需要另辟蹊径。馆主提供一套可行方案：先用虚拟接码平台获取海外手机号，注册一个Gmail，再用Gmail注册GPT。步骤如下。
 3.1、获取海外虚拟号码
 打开接码网站，在浏览器输入：https://sms-activate.guru/cn，点击右上角【注册】，填入国内QQ邮箱或网易邮箱，设密码，点击【注册】。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_79775716b6b3da897caad345ccc59837.png>
+![](img/zhuanqian_79775716b6b3da897caad345ccc59837.png)
 SMS会把激活邮件发到邮箱，点击链接中的【确认】。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7128b050fc8da127a30ed9f6c3462194.png>
+![](img/zhuanqian_7128b050fc8da127a30ed9f6c3462194.png)
 如果点击后报错，没关系，直接复制链接到浏览器打开即可完成注册。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c3639be1b4b9dff61044487352c00f28.png>
+![](img/zhuanqian_c3639be1b4b9dff61044487352c00f28.png)
 3.2、注册Gmail邮箱
 1.进入GPT页面点击【注册】，选择【继续使用Google登录】。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4c646df77660f188b0f0de296a2a6675.png>
+![](img/zhuanqian_4c646df77660f188b0f0de296a2a6675.png)
 2.创建Google账号
 *   没有Google账号就点【创建账号】
 *   姓名可填网名，尽量别用真名
 *   出生日期和性别随意填写
 *   Gmail账号名可自选也可让系统生成
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9d29e01d52bd3eedc87e7c849437eb8d.png>
+![](img/zhuanqian_9d29e01d52bd3eedc87e7c849437eb8d.png)
 *   设置密码，设置完记在备忘录里备查
 *   绑定手机号，这里就用接码平台的海外号码
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_27f23c8180e990bece168acd8cacb73f.png>
+![](img/zhuanqian_27f23c8180e990bece168acd8cacb73f.png)
 *   先给接码网站充值，这个站是俄罗斯的，用卢布结算。点右上角+号选支付宝，充2美元约15人民币即可扫码支付。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f7c36f1ee121b8be2f2bfb8fd7d6c587.png>
+![](img/zhuanqian_f7c36f1ee121b8be2f2bfb8fd7d6c587.png)
 左侧输入Google点搜索，选第一个Google服务，打开后选一个国家手机号，点击购物车，选择【通过短信】，点【买】，再点顶部【激活】，把号码复制到Gmail验证框。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_37b0f5f41468e4a639d576494d24c387.png>
+![](img/zhuanqian_37b0f5f41468e4a639d576494d24c387.png)
 等待接码平台返回验证码，填入Gmail即可完成注册，用该邮箱登录GPT即可。
 ps：🪜节点要和购买的号码国家一致，比如买的是印尼号码，🪜就选印尼节点，这样才能正常收验证码。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d4f9b85778c044b005a61b572b08c1de.png>
+![](img/zhuanqian_d4f9b85778c044b005a61b572b08c1de.png)
 恭喜你，ChatGPT账号到手，AI写作之旅正式开启！
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6f1be694c15af455e92b8106eef9706d.png>
+![](img/zhuanqian_6f1be694c15af455e92b8106eef9706d.png)
 # 二、ChatGPT基础操作
 1、网页功能
 *   新聊天：相当于和某位好友1对1私聊
 *   重命名：给对话起个别名，方便区分
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_dd91b8e5fdc5f27d0f30e822f4161925.png>
+![](img/zhuanqian_dd91b8e5fdc5f27d0f30e822f4161925.png)
 *   点击头像进入设置
 *   全部删除：相当于一键清空全部聊天记录
 *   记忆：打开等于群聊模式，上下文共享；关闭就是纯1对1模式
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9e34675843477d7f551b798adc79a114.png>
+![](img/zhuanqian_9e34675843477d7f551b798adc79a114.png)
 # 三、AI写作方法论
 1、对AI的底层认知
 *   吃透AI原理+学会调教AI
@@ -80,7 +80,7 @@ ChatGPT本质上是一个知识储备量巨大的智能助理，你直接问宽�
 举例说明角色扮演的使用：
 普通提问：
 请你扮演《我不》的大冰，你必须了解大冰的所有知识。请你用大冰的语气和我打招呼。使用大冰的说话方式、思维、词汇和我沟通。只能像大冰那样回答，不要写任何解释。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fd99d6a556aa12ac25f643738a815aff.png>
+![](img/zhuanqian_fd99d6a556aa12ac25f643738a815aff.png)
 结构化提问方式：
 【角色】
 请你扮演xxxx，你必须了解xx的所有知识。
@@ -89,7 +89,7 @@ ChatGPT本质上是一个知识储备量巨大的智能助理，你直接问宽�
 【要求】
 1、xxxxx
 2、xxxxxx
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3b950eb40081c309aa297790a0480544.png>
+![](img/zhuanqian_3b950eb40081c309aa297790a0480544.png)
 这就是角色扮演的模板化逻辑。一个疑问是：文案类型很多，广告设计、动漫设计等，角色怎么选？
 最简单的方法是遇事不决问GPT，用“无中生有”指令让它帮你推荐可选角色。
 指令示例：
@@ -101,7 +101,7 @@ ChatGPT本质上是一个知识储备量巨大的智能助理，你直接问宽�
 写作中遇到不懂的点，直接问GPT。不知道该扮演什么角色，就让它推荐。
 案例指令：
 我想让你帮我写一个市场分析文案，但据说要给你一个角色让你扮演，才会更好，我应该让你扮演什么角色呢？
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bf7c91398ae20e778654f5e6d39ac453.png>
+![](img/zhuanqian_bf7c91398ae20e778654f5e6d39ac453.png)
 这就是角色生成器常用指令，抽象成模板：
 【角色】
 请你扮演一个角色生成器
@@ -124,14 +124,14 @@ ChatGPT本质上是一个知识储备量巨大的智能助理，你直接问宽�
 *   点进任意商品咨询客服：你好，招写手吗
 *   店铺招聘中会给你发微信二维码
 *   加上后简单刷单就被拉进派单群，客服会告知规则
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d46496a3d847b4ad7f88a4db389c4a8a.png>
+![](img/zhuanqian_d46496a3d847b4ad7f88a4db389c4a8a.png)
 2、打工思维：自产自销引流
 想全职做，就别去接二手低价单。要在互联网平台主动获客引流。例：闲鱼
 *   在闲鱼注册账号发布商品，说明你能写xxx文体
 *   客户年底加班被老板催写报告，闲鱼搜索写作，看到你的店排名前三就下单
 *   初步沟通后拉到微信详谈需求，出价成交后交付稿件
 同理可延伸到小红书、抖音、快手等。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9915c37884f31ecd219a3d8b7d6d3560.png>
+![](img/zhuanqian_9915c37884f31ecd219a3d8b7d6d3560.png)
 3、中介思维：第三方写手
 客户太多自己写不过来，就做中介。负责引流获客，把单子分发给下游写手赚差价。
 4、老板思维：工作室模式

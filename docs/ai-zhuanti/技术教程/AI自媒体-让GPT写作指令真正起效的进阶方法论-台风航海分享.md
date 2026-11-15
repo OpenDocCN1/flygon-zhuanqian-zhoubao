@@ -67,7 +67,7 @@ ChatGPT确实强，但它有通用模型、云端共享、概率生成、记忆�
 我们既是导师也是审稿人，要清楚它的优缺点，每次下任务都要把方法论和最佳实践讲透，1、2、3点要求说清。
 既然是AI写作场景，那针对自媒体内容创作的方法论和提示词设计就至关重要。
 我把文章拆解到像素级，提炼出AI写作的内容骨架：语言风格、内容结构、写作技巧、观点态度、核心关键词。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d0868d77ecc394338199eae32ab63cb1.png>
+![](img/zhuanqian_d0868d77ecc394338199eae32ab63cb1.png)
 对照一下你现在用的指令，是否覆盖了这些写作框架要素。
 设定越细，模板约束和可预期性就越强。
 # 四、GPT指令进阶之路：从学徒逆袭到大导师
@@ -82,21 +82,21 @@ ChatGPT确实强，但它有通用模型、云端共享、概率生成、记忆�
 布置任务T：任务方向与预期效果
 提出要求R：语言风格、内容结构、写作技巧、参考样例、创作流程
 以下是<gpt>的可视化呈现。</gpt>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d8e336ff2445926d76eb418cded0ddda.png>
+![](img/zhuanqian_d8e336ff2445926d76eb418cded0ddda.png)
 <gpt>该方法论我曾写过5000字长文，包含大量指令实例。</gpt>
 <gpt>5000字教程</gpt>
 地址：
 （二）ChatGPT指令生成器
 我做过两个辅助学习提示词的工具。
 很多朋友偏爱“角色生成器”，角色扮演是早期最火的玩法，我也是靠它获得关注。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c912eb14846c2e250330b4a2526816eb.png>
+![](img/zhuanqian_c912eb14846c2e250330b4a2526816eb.png)
 ChatGPT角色生成器
 网址：https://role.aicosplay.com.cn/zh
 但在写作场景，我更推“ChatGPT指令生成器”，能直接拿到更落地的写作建议。
 举个例子，让它“写一篇夫妻情感文章”，结构描述已比较细了。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9237ed739c685e4ccce80b37b84f803a.png>
+![](img/zhuanqian_9237ed739c685e4ccce80b37b84f803a.png)
 再升级要求“写一篇夫妻情感文章，需兼顾内容结构、语言风格、写作技巧”，效果再看。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e528c5baa26719a95576b41c6a97d947.png>
+![](img/zhuanqian_e528c5baa26719a95576b41c6a97d947.png)
 不满意就多跑几次，别替我省钱。
 ChatGPT指令生成器
 网址：https://ai.gptprompts.com.cn/zh
@@ -105,17 +105,17 @@ ChatGPT指令生成器
 处于起步期，已能察觉ChatGPT的短板并做针对性调教。
 比如我之前写的《ChatGPT七夕劝退信》初级指令，要求很少，输出却很惊艳。
 大家感受下文笔。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4fad7699234434df35e413c823ee475a.png>
+![](img/zhuanqian_4fad7699234434df35e413c823ee475a.png)
 指令里只给了三点：“段落过渡自然；表达口语化，语气温柔亲切；多用金句”。
 ## （二）中级魔法师
 中级玩家能提炼文案风格，或结合成熟写作方法论写指令，也懂人设口吻、名人风格对稿子的影响。
 例如下面这条小红书文案指令，把平台特征描述得很准，还融入了东北妹子人设。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ab5e3bb1462ea853b6df120d2778ce90.png>
+![](img/zhuanqian_ab5e3bb1462ea853b6df120d2778ce90.png)
 仅给出“ysl经典口红”关键词，出来的稿子口音感十足。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fa8de48bf1dc379337941a4de5d1fe3b.png>
+![](img/zhuanqian_fa8de48bf1dc379337941a4de5d1fe3b.png)
 中级阶段也会玩“模仿爆款风格”的指令，谁能拒绝致敬式学习的快感呢…
 把风格命名为“风格A”，是不是很熟悉？
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_16ec20279eddd1267d13c0d260b25bbb.png>
+![](img/zhuanqian_16ec20279eddd1267d13c0d260b25bbb.png)
 然后问题来了，ChatGPT总结完风格，多写两篇就忘了，得重新跑学习流程……
 哎，记忆力怎么这么拉胯！
 当你开始抱怨这点时，恭喜你，离高级魔法师的大门不远了。
@@ -126,7 +126,7 @@ ChatGPT指令生成器
 这个层面基本都会用结构化提示词写法，固化成一条条指令如起标题一条、写文章一条，约束强且省对话空间。每个人理解不同。
 高级玩家也非常重视人类方法论，会把自己的「写作方法论」融合进提示指令。
 例如我写的“情感故事作家”，专用于公众号情感爆文，按BRTR模块固化，并植入定制方法论。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a8e815a759dd293bf0e429528cd76183.png>
+![](img/zhuanqian_a8e815a759dd293bf0e429528cd76183.png)
 公众号情感爆文写作：“情感故事作家”提示指令
 地址：
 高级玩家有个小习惯：不纠结记忆，一言不合就开新会话框。

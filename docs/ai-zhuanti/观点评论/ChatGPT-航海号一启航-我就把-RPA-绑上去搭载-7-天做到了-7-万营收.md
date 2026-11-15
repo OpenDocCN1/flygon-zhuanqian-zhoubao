@@ -13,7 +13,7 @@ ChatGPT 本身的文本质量很高，但当需求升级到要更快更便宜地
 先把数据摊开说清楚。
 #### 1.1 这次卖的是什么
 不是单纯讲 ChatGPT 怎么用，而是一套加速方案：在已经会用 ChatGPT 的前提下，用自动化把内容生产效率提升 10 倍。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1dfb19c4f65e8fa6ae9c2993fe24ea40.png>
+![](img/zhuanqian_1dfb19c4f65e8fa6ae9c2993fe24ea40.png)
 #### 1.2 收入情况
 变现总额：7 万
 新增付费学员：35 人
@@ -34,10 +34,10 @@ ChatGPT 本身的文本质量很高，但当需求升级到要更快更便宜地
 受圈内氛围影响去试用了一下，体验远超预期，立刻开始思考怎么放大它的价值。
 #### 2.3 自动化是放大器
 我多年都在玩自动化，不写代码也常年用 RPA 打通流程。自动化就是做内容量级的优势，靠大力出奇迹。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ffd730c731c2d0b657ac5b8021122dd8.png>
+![](img/zhuanqian_ffd730c731c2d0b657ac5b8021122dd8.png)
 ChatGPT 的生成质量是第一梯队，特别适合用 RPA 把威力放大。
 把输入和输出流程梳理清楚后，就能用 RPA 实现自动输入、自动抓取保存。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e9d7bc4262bc3fa3655be8cac56f1138.png>
+![](img/zhuanqian_e9d7bc4262bc3fa3655be8cac56f1138.png)
 机器人还能做智能判断，比如内容不完整就自动下「续写」指令。功能看似简单，却省掉大量重复劳动。人工一天弄 100 篇，人都要被耗散了。
 重复操作交给机器人，人只负责验收和优化，这才是正确分工。
 #### 2.4 先做了一个内部工具
@@ -47,12 +47,12 @@ ChatGPT 的生成质量是第一梯队，特别适合用 RPA 把威力放大。
 #### 2.5 航海来得太及时
 ChatGPT 航海对我来说是关键补课。航海当天我就发文招生，既加速了训练营上线，也极大完善了交付内容。
 我对 ChatGPT 的认知其实很浅，航海里 80% 的知识都是在航海资料库里学的。快速过一遍资料库，把自己的认知整理成解决方案，再融入训练营。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_06788ef1640325c6036b0a5f1b15806c.png>
+![](img/zhuanqian_06788ef1640325c6036b0a5f1b15806c.png)
 没有航海这块内容，训练营会缺一大块根基。
 #### 2.6 当天官宣、当天收钱
 3 月 3 日航海启动仪式当天，公众号+朋友圈同时发文开启报名。
 这次训练营卖的是解决方案，不是信息差。我结合实战给了几个能代入的具体场景。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_67c02f95ed6f3978742a7c1b2fe74198.png>
+![](img/zhuanqian_67c02f95ed6f3978742a7c1b2fe74198.png)
 来的学员基本都是奔着可落地的方案来的，不是来听 ChatGPT 科普的。所以定价 1980，在那波 ChatGPT 内容里已经算高价了，照样一周进了 35 个新会员。
 ## 三、复盘总结
 据说这次航海里变现排前列的之一。下面是我的几点体会：
@@ -65,8 +65,8 @@ ChatGPT 航海对我来说是关键补课。航海当天我就发文招生，既
 #### 3.2 故事比机器人值钱
 机器人本身不值钱，值钱的是背后的一整套玩法。我喜欢讲「思路×流程×自动化」的打通，机器人只是载体。
 把思路和流程一起交付，价值感才起来。这是给 RPA+ChatGPT 讲的故事。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0f4159d3a86e8b0f859ecafc724ec8d8.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c6d30fa2f8bd6ce54260b2e8d97599c7.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_67c02f95ed6f3978742a7c1b2fe74198.png>
+![](img/zhuanqian_0f4159d3a86e8b0f859ecafc724ec8d8.png)![](img/zhuanqian_c6d30fa2f8bd6ce54260b2e8d97599c7.png)
+![](img/zhuanqian_67c02f95ed6f3978742a7c1b2fe74198.png)
 #### 3.3 借势要快，第一个吃螃蟹
 我可能是全网最早推出 RPA+ChatGPT 付费交付的人。
 这次没做外部推广，只在朋友圈和公众号发了几篇，转化依然超出预期。

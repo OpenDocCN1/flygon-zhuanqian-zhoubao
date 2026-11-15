@@ -1,11 +1,11 @@
 # 一小时撬动一个月流量！AI批量打磨爆款图文笔记的完整打法
 大家好，我是龙哥，做 AI 写作、绘画和海报生成的工具开发者。
 今天带来一个非常实操的批量生产方法，让你用 1 小时的时间，就把接下来一个月的爆款图文笔记全部备好，账号涨粉和推流变得很顺畅。举个例子，有一个做心理学的账号，只靠 29 条图文笔记就涨到 16 万粉丝，总获赞收藏冲到 18 万，几乎条条都是高互动。我拆解后发现，核心其实就一条：用真诚的干货输出去积累信任。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9d3dad912be3b0ea2789385dd95fe7c6.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3fc0b05664f592d3f0837a5e5bd5c83e.png>
+![](img/zhuanqian_9d3dad912be3b0ea2789385dd95fe7c6.png)
+![](img/zhuanqian_3fc0b05664f592d3f0837a5e5bd5c83e.png)
 像心理学这种需求持续攀升的赛道还有一大堆，只要保持笔记视觉风格高度统一，就能快速起号。起号之后变现路径很宽：接商单、账号转让、卖书卖课、服务引流，或是导流私域去做高客单的心理咨询，都能跑通。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_58b6930e5526e3b8e6e6789d2474a631.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5c32c66499ef562923cc0e91a96c508f.png>
+![](img/zhuanqian_58b6930e5526e3b8e6e6789d2474a631.png)
+![](img/zhuanqian_5c32c66499ef562923cc0e91a96c508f.png)
 # 进入实操环节
 下面我用 4 步拆解怎么批量产出吸睛图文，让账号快速起量。
 # 本次会用到的工具
@@ -13,63 +13,63 @@
 ②炼丹家海报：https://poster.liandanjia.com/
 # 操作路线图
 ①批量产出选题。②模仿对标风格写文案。③批量制作笔记封面。④批量制作笔记内页配图。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6842f1ca73c55aff14f5c169578b63a2.png>
+![](img/zhuanqian_6842f1ca73c55aff14f5c169578b63a2.png)
 内容比较细，建议先收藏回头慢慢看。
 # 第一步：一次性批量搞定选题
 先锁定目标赛道，用炼丹家AI进行选题批量生成。打开工具后下指令，让它直接输出 50 条选题，并整理成表格形式。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_eb4535eddae5bf5db97c3e1fac9c7281.png>
+![](img/zhuanqian_eb4535eddae5bf5db97c3e1fac9c7281.png)
 不到几秒，炼丹家AI就把 50 条心理学效应相关选题一次性吐出来了，直接复制到 Excel 里保存好。
 # 第二步：生成对标风格的文案
 这里有两种高效做法。一种是把对标账号的文案丢给 AI 学习风格，再让它按表格结构把前面 50 个选题的内页文案全部写出来。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1faf3a4f016cd365f8e23120c58914bf.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_82fbfb70d5aaf78ef6dbc986e74aa1c6.png>
+![](img/zhuanqian_1faf3a4f016cd365f8e23120c58914bf.png)
+![](img/zhuanqian_82fbfb70d5aaf78ef6dbc986e74aa1c6.png)
 学习分析完成后，先让它输出几条测试风格是否对味。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8d25723e8e93d35add5ba81f1b0aca1a.png>
+![](img/zhuanqian_8d25723e8e93d35add5ba81f1b0aca1a.png)
 确认风格没问题后，就把剩余选题全部按同一结构批量创作。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a7ce3fac1fca0950d02c53958a7ec00f.png>
+![](img/zhuanqian_a7ce3fac1fca0950d02c53958a7ec00f.png)
 效率和质量都相当在线。
 另一种做法是，让 AI 依据那 50 个选题，按照你指定的文案延展类型进行扩写，为后面内页配图的数据准备素材。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_20c0fb35461a7fca77fde529a36fb4a3.png>
+![](img/zhuanqian_20c0fb35461a7fca77fde529a36fb4a3.png)
 核对内容符合预期后，再让 AI 把全部选题展开成对应的内页文案，最后整理成表格交付。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1ee21ee5a257855043465818afbc24b0.png>
+![](img/zhuanqian_1ee21ee5a257855043465818afbc24b0.png)
 把结果复制到第二个 Excel 文件里备份。
 小提示：有时候表格复制到 Excel 会自动换行，这是因为文本里带了手动换行符或回车符。可以先把内容粘到 Word 里，把 ^l 和 ^p 替换成一个临时字符，粘到 Excel 再替换回来，就能恢复正常格式了。
 # 第三步：批量制作笔记封面
 打开炼丹家海报，新建设计，选择 小红书配图 1242x1660 尺寸。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4fcfc89a54c7e2b5b65bf9a004652c26.png>
+![](img/zhuanqian_4fcfc89a54c7e2b5b65bf9a004652c26.png)
 先搭一个基础封面模板，然后点顶部 批量套版设计。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0649aa16c0a4388e4993abeb1cf403e0.png>
+![](img/zhuanqian_0649aa16c0a4388e4993abeb1cf403e0.png)
 进入批量设计器后，选定需要替换的文字或元素，点击下一步。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_43a705a64474b19174b3f3037e0a7bae.png>
+![](img/zhuanqian_43a705a64474b19174b3f3037e0a7bae.png)
 支持上传 Excel 表格，选择追加数据或覆盖数据。这里的表格就是我们第一步整理好的选题表，只要列结构对应就能自动关联，非常省事。
 不确定格式的话，可以先导出一个模板，按要求填好再导入。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f481fc2ce877bc488e6e43f7b9ef75a9.png>
+![](img/zhuanqian_f481fc2ce877bc488e6e43f7b9ef75a9.png)
 确认数据无误后，点击生成批量套版作品，会进入最终预览页，不用改就直接点右上角下载，勾选需要的画板即可。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_afbd70915dca2cf02dcc7e20ebfdda83.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_eb18edd757a82b13c6df7367747a1f30.png>
+![](img/zhuanqian_afbd70915dca2cf02dcc7e20ebfdda83.png)
+![](img/zhuanqian_eb18edd757a82b13c6df7367747a1f30.png)
 50 张封面就这样迅速完成。
 额外说明：如果封面需要替换图片素材，也可以用同样表格方式操作。素材不够的话，还可以用炼丹家AI绘画来生成，后面会补充。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7908dd754606754649f62af112469db7.png>
+![](img/zhuanqian_7908dd754606754649f62af112469db7.png)
 # 第四步：批量制作笔记内页配图
 流程和第三步几乎一样。打开炼丹家海报，新建设计或选用已有的内页模板，点击左上角 批量套版设计。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4d6b820589b09c362daeee49f0a230a7.png>
+![](img/zhuanqian_4d6b820589b09c362daeee49f0a230a7.png)
 进入批量设计器，选择替换项后下一步。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_506a05474f902421f17713c35cc4f827.png>
+![](img/zhuanqian_506a05474f902421f17713c35cc4f827.png)
 导入 Excel 表格，这次导入的是第二步保存的“对标风格文案”表格，选择全量覆盖。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4a6133b4dc29a71ca0ff35020cc64228.png>
+![](img/zhuanqian_4a6133b4dc29a71ca0ff35020cc64228.png)
 数据检查无误后，点击生成批量套版作品，进入预览页，直接下载即可。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_01c2acdd6e4d3629ebc37947d84a9599.png>
+![](img/zhuanqian_01c2acdd6e4d3629ebc37947d84a9599.png)
 按照这个逻辑，100 多个选题的内页配图也能瞬间批量完成。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_759d8d91751c2d76740846d5c9617110.png>
+![](img/zhuanqian_759d8d91751c2d76740846d5c9617110.png)
 这套四步法，用 AI 高效批量生产图文笔记，对视觉统一的爆款流量号特别友好，提效感很强。
 # 补充：海报缺素材怎么办
 可以直接用炼丹家AI绘画生成，输入画面描述和风格模型，就能快速出图。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6768918569778d2a325d0ab5eb139346.png>
+![](img/zhuanqian_6768918569778d2a325d0ab5eb139346.png)
 需要透明背景图，可以用炼丹家海报 - AI工具 - AI抠图功能。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7d27ec8f2e78704a806b3428eefa343e.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f0a1a7510820c5146e69d68bb7f99cc7.png>
+![](img/zhuanqian_7d27ec8f2e78704a806b3428eefa343e.png)
+![](img/zhuanqian_f0a1a7510820c5146e69d68bb7f99cc7.png)
 也可以用炼丹家AI - 智能修图 - 抠图功能。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_41b95ff4e3e508b570e87e588b3594cd.png>
+![](img/zhuanqian_41b95ff4e3e508b570e87e588b3594cd.png)
 把素材提前统一处理好，后续工作会更顺畅。
 # 最后说两句
 真正有价值的工具，必须能解决具体的业务问题，我也会持续打磨细分能力。2025 一起加油。

@@ -19,7 +19,7 @@ AI执行一通，然后没依旧没有安装
 ## 正确的做法
 牢记这条铁律：所有 MCP 的增删改查，都必须在退出 Claude Code 之后执行。
 先退出： /exit
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8eaadc3948692920742976b1e899a60c.png>
+![](img/zhuanqian_8eaadc3948692920742976b1e899a60c.png)
 # 方法二：命令太长记不住？让 AI 代写
 ## 痛点：参数一大串根本背不下来
 MCP 的安装语法确实吓人，比如：
@@ -61,15 +61,15 @@ claude mcp add-json feishu '{
 ```
 第二步：开启 Cursor 的 Agent 模式，它就会按你的需求生成安装指令
 这样你就不用手动拼 JSON 了，复制出来直接在终端里执行就行。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d6998cfc6ae2790fb36850c6564550fe.png>
+![](img/zhuanqian_d6998cfc6ae2790fb36850c6564550fe.png)
 # 方法三：怎么确认装上了
 查看已启用的服务器列表
 claude mcp list
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_858a01688ecea945270b0d37d5510ec6.png>
+![](img/zhuanqian_858a01688ecea945270b0d37d5510ec6.png)
 # 方法四：不需要的服务怎么卸掉
 ## 卸载指令
 claude mcp remove <要移除的mcp名称>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5922c52f7d6ebf669b9f19894a4d21ef.png>
+![](img/zhuanqian_5922c52f7d6ebf669b9f19894a4d21ef.png)
 # 终极省心方案：一套文档搞定所有 MCP
 看到这儿，你可能还是觉得步骤多。
 告诉你个好消息！
@@ -169,7 +169,7 @@ claude mcp add-json feishu '{
 @mcp指南.md
 安装飞书 MCP：详情
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ab8d1f653fcd7d420ea9a7ff1e254fd6.png>
+![](img/zhuanqian_ab8d1f653fcd7d420ea9a7ff1e254fd6.png)
 3\. 让 Agent 自动处理
 Cursor 会读取这份模板，自动生成正确指令，甚至可以直接帮你执行
 从此以后，你就不用再死记各种命令格式了，相当于拥有一位 24 小时在线的 MCP 安装助理。

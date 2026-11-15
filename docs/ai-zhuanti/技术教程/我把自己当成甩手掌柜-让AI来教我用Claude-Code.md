@@ -1,11 +1,11 @@
 # 我把自己当成甩手掌柜，让AI来教我用Claude Code
 最近在给自己的提示词管理助手做重构和升级，Cursor的额度被我刷爆了，顺带制造了成堆的Bug。看着满屏的报错，我开始怀疑自己到底会不会用AI写代码。
 回头复盘过去两周的协作方式，我才发现问题出在我身上。一直以来都是我充当总指挥，Cursor去啃大块的需求，Claude Code负责收尾打磨页面样式。可我经常一拍脑门就让AI重构，明明小修一下就能用的功能非要推倒重来。结果两周折腾下来，项目没怎么往前走，全是我在瞎指挥。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f996c1ed4d56efd82a68aca78b13bfa7.png>
+![](img/zhuanqian_f996c1ed4d56efd82a68aca78b13bfa7.png)
 于是我换了个打法：需求我来提，代码怎么拆、怎么落地完全交给AI。Claude Code正好有Plan和Execute两种工作模式，我就让它按这个节奏自己跑，我只负责协作，不再干预它的规划执行。
 换法之后效果立竿见影。不到一个小时，我就把困扰我很久的飞书授权过期问题彻底解决了，还顺带把多维表格的增删改查全补上了，系统也在过程中被一点点微重构得更干净。
 这让我意识到Claude Code的上限很高，想把它用明白，我得先把协作配合练好。于是我去翻了官方文档和一些优秀的实操案例，想给自己补个课。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_45dc5ef6091619c53e6d45a7d76c4cab.png>
+![](img/zhuanqian_45dc5ef6091619c53e6d45a7d76c4cab.png)
 文档一打开就是密密麻麻的指令说明，我第一反应就是抗拒。翻半天估计也记不住几个要点，照我的习惯也就是扫两眼就跳过去了。后来我想，与其硬啃，不如找个AI按文档给我出十几个可直接上手的场景练习，这样学得快得多。
 高频实操才是我最有效的学习路径。所以我做了个“学习导航器”提示词，它的核心不是讲概念，而是把文档拆成可执行的训练任务：
 1. 先输出一份学习路线图，明确每个阶段要掌握什么；
@@ -13,31 +13,31 @@
 3. 我把实践结果贴回去，它再来复盘点评，完成闭环。
 下面就用我自己学Claude Code的过程来演示，这个导航器是怎么把官方文档变成落地项目的。
 首先它会先给我一张学习地图，每个阶段对应一个可实践的案例。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5347451eb491a0f83a000bec373e4d0a.png>
+![](img/zhuanqian_5347451eb491a0f83a000bec373e4d0a.png)
 进入实操环节，它会手把手带我走流程，最关键的是它会直接给出在Claude Code里可用的指令，我只要照着跑出结果就行。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2008979890d2123e1076595d67ef3b97.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b6e0a37c9b16bc159969e2a83f6ba8e1.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_07428ea3ead1f976d1d3c2236d38636b.png>
+![](img/zhuanqian_2008979890d2123e1076595d67ef3b97.png)
+![](img/zhuanqian_b6e0a37c9b16bc159969e2a83f6ba8e1.png)
+![](img/zhuanqian_07428ea3ead1f976d1d3c2236d38636b.png)
 Claude Code跑完后，我会把文字说明和截图一起丢给“学习导航器”，它会拆解Claude Code的操作逻辑，解释它为什么这么做。
 把官方文档吃透后，我对Claude Code的基础能力已经很熟了，接下来想看看高手在真实项目里是怎么玩的。于是我找了刘小排老师的公众号文章，让“学习导航器”继续带我做进阶训练。
 第一个进阶内容就是Claude Code的Bypassing Permissions模式。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d119ce40791a65af8f4f21ff0f9851d2.png>
+![](img/zhuanqian_d119ce40791a65af8f4f21ff0f9851d2.png)
 开启后Claude Code的权限被放开，它可以直接操作本机。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_83dc8a0451426ab38e3c3f2438fd25a5.png>
+![](img/zhuanqian_83dc8a0451426ab38e3c3f2438fd25a5.png)
 我当时还没搞懂这个模式到底能干嘛，导航器紧接着给了我一个任务：让Claude Code自动安装 Playwright MCP。想起上次我手动装这个MCP折腾了两小时，成功率还低，这次自动化会不会好点心里没底。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9b044b239dd8a53099f7ffe79c7c7fcf.png>
+![](img/zhuanqian_9b044b239dd8a53099f7ffe79c7c7fcf.png)
 抱着试试看的心态输入了指令，没几分钟Claude Code就回我说装好了，速度快得让我有点不信。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f623b437de7a710466f6f50b334d02ac.png>
+![](img/zhuanqian_f623b437de7a710466f6f50b334d02ac.png)
 我去检查本地服务列表，又实际调用测试了一下，MCP确实在跑，能正常用。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9e441a175ace2b771b3eccb94beb9d58.png>
+![](img/zhuanqian_9e441a175ace2b771b3eccb94beb9d58.png)
 原来在Bypassing Permissions模式下，Claude Code不仅能读懂系统环境，还能把复杂的安装任务高效完成。几天前我还在吐槽装MCP太难用，现在看来是我的用法太生疏了Orz
 学完之后我把这个“学习导航器”提示词分享给了朋友无涯，让他测一下。他用它来学习《内在动机》这本书，Claude同样自动生成学习蓝图、提炼重点，带着他一步步做深度思考。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2b26a3f5f4f4e263dc22d79955475712.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bd835fb26a9752bf22d9e59367de2b0c.png>
+![](img/zhuanqian_2b26a3f5f4f4e263dc22d79955475712.png)
+![](img/zhuanqian_bd835fb26a9752bf22d9e59367de2b0c.png)
 看来这套方法不只适合编程，读书学习上也一样好用。
 下面分享怎么用“学习导航器”开启高效率的践行学习：
 1. 打开链接选择Gemini 2.5 Pro模型：https://aistudio.google.com/
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_574942c4a98de7324b40f5e9d1482c4f.png>
+![](img/zhuanqian_574942c4a98de7324b40f5e9d1482c4f.png)
 2. 把你想学的资料丢给Gemini，让学习导航器带你实操。
 下面是完整的“学习导航器”提示词，直接复制到Gemini 2.5 Pro里就能用。
 ```
@@ -89,17 +89,17 @@ Claude Code跑完后，我会把文字说明和截图一起丢给“学习导航
 > **你 (AI):** “你好！我将作为你的私人导师，启动‘罗盘计划’，通过对话一步步带你精通一个新工具。请先把你想学习的工具的官方文档URL或相关文本内容发给我，我来为你分析和规划学习路径。”
 ```
 在打磨这个提示词的过程中，我撞到一个坑：Claude Code官方文档分散在几十个独立页面，结构很碎。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_057d85ee427357d26528f76352cbccc7.png>
+![](img/zhuanqian_057d85ee427357d26528f76352cbccc7.png)
 以前我会老老实实手动搬运，把每个页面复制到飞书里拼成一个完整的文档再给AI。现在我第一反应是把任务丢给Cursor，问它有没有更聪明的办法。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_76285a6a9f157c03297785cc438b8ca3.png>
+![](img/zhuanqian_76285a6a9f157c03297785cc438b8ca3.png)
 Cursor几分钟就写好了一个轻量的爬虫脚本，一键就能把全部文档抓下来整理成一份完整材料，直接拿去喂AI。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8494c36284d67ea1dcec8cb3ef07fa15.png>
+![](img/zhuanqian_8494c36284d67ea1dcec8cb3ef07fa15.png)
 自己动手我至少要花半小时当搬运工，交给AI几分钟就搞定。这种差距让我彻底改了习惯。
 遇到困难时先别急着自己想，先问AI有没有思路。后面装Gemini CLI的时候也是，我不想看任何教程，直接让Cursor出个安装方案并自己执行。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_019a5528de82e40d43c3c0a74bb74d52.png>
+![](img/zhuanqian_019a5528de82e40d43c3c0a74bb74d52.png)
 装完遇到网络问题，继续让Cursor去探路找解法。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_74b1c0b7bbee980a51d7ab181e611f85.png>
+![](img/zhuanqian_74b1c0b7bbee980a51d7ab181e611f85.png)
 最后在Cursor的帮助下，我顺利用上了Gemini CLI。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4345bd34c8a1ae34aea6f6ecaad6b610.png>
+![](img/zhuanqian_4345bd34c8a1ae34aea6f6ecaad6b610.png)
 AI时代真的要学会“懒”一点，多让AI参与协作，效率才会真正上去。
 附件：

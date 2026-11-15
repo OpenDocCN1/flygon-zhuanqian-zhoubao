@@ -1,5 +1,5 @@
 # Creem 被风控后，我把收款切到 Waffo Pancake 的实操全记录
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_67c37faeb967b1478183a189236a069f_0_0.png>
+![](img/zhuanqian_67c37faeb967b1478183a189236a069f_0_0.png)
 > 小懒判断 | 遇到 Creem 封号导致收款中断的出海个人开发者可以直接照做，还没上线站点的先收藏备用，审核核心在于你能否提供真实可访问的产品站点。最有参考价值的是那张费率清单：国际信用卡 3.9% 加 0.5 美元，2.99 美元的低价包因固定手续费占比接近两成，定价前务必先算清楚。最易翻车的点是 AIGC 合规评审，法律页面表述空泛、AUP 未覆盖六大禁止类型或缺少举报邮箱，首次提交基本会被驳回。
 各位好，我是龙哥。赚钱社区六年老成员。
 小排老师第二期 AI 编程深海圈学员，深海圈千刀户认证。
@@ -25,7 +25,7 @@ https://pancake.waffo.ai
 官方文档地址：
 https://docs.waffo.ai
 官方给我的说法是：Pancake 专为 AI 个人开发者和初创设计，不强制公司主体；只要品类不在禁限清单内即可提交店铺审核，由风控后续判断。AIGC 类目审查更细，周期也更长。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_67c37faeb967b1478183a189236a069f_2_0.png>
+![](img/zhuanqian_67c37faeb967b1478183a189236a069f_2_0.png)
 ### Waffo Pancake 到底是什么
 先说背景。Waffo 总部在香港，是全球支付与商业化平台，Waffo Pancake 是其面向开发者与数字产品的 MoR 方案。按 Waffo 2026 年 1 月公告，公司累计融资 3000 万美元，投资方包括 Illuminate Financial、高榕资本、HSBC、BAI Capital；官网同时披露香港 MSO 牌照与 PCI DSS 认证。
 Pancake 并非普通支付网关，而是 Merchant of Record，简称 MoR。
@@ -127,37 +127,37 @@ https://docs.waffo.ai/zh/mor/prohibited-products
 打开：
 https://pancake.waffo.ai
 我的填写：身份个人；国家中国；产品类目 SaaS；计费模式订阅制。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_67c37faeb967b1478183a189236a069f_10_0.png>
+![](img/zhuanqian_67c37faeb967b1478183a189236a069f_10_0.png)
 务必按实际情况填写。团队明确提醒，审核对象是该产品网站，通过后不支持换成完全不同站点。
 ### 第 3 步：创建商店与首个商品
 商店名正常填写。起初不必建全套套餐，我先建最低价体验包：一次性购买 $2.99。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_67c37faeb967b1478183a189236a069f_11_0.png>
+![](img/zhuanqian_67c37faeb967b1478183a189236a069f_11_0.png)
 先用一个真实低价商品跑通测试支付、Webhook 与点数发放，再补其他套餐，排错更简单。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_67c37faeb967b1478183a189236a069f_12_0.png>
+![](img/zhuanqian_67c37faeb967b1478183a189236a069f_12_0.png)
 随后进入 Dashboard 配置 API 密钥与代码接入，其他设置可后续完善。
 ### 第 4 步：按指引完成 Dashboard 设置
 Dashboard 右下角有新手指南，共 9 步。我习惯每一步截图给 Codex，让 AI 核对网站实际情况后再操作。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_67c37faeb967b1478183a189236a069f_12_1.png>
+![](img/zhuanqian_67c37faeb967b1478183a189236a069f_12_1.png)
 审核填写部分，我简单列出我的做法供对照。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_67c37faeb967b1478183a189236a069f_13_0.png>
+![](img/zhuanqian_67c37faeb967b1478183a189236a069f_13_0.png)
 业务类型选个人。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_67c37faeb967b1478183a189236a069f_13_1.png>
+![](img/zhuanqian_67c37faeb967b1478183a189236a069f_13_1.png)
 地区选中国，协议全部同意。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_67c37faeb967b1478183a189236a069f_13_2.png>
+![](img/zhuanqian_67c37faeb967b1478183a189236a069f_13_2.png)
 业务详情选“已准备好”。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_67c37faeb967b1478183a189236a069f_14_0.png>
+![](img/zhuanqian_67c37faeb967b1478183a189236a069f_14_0.png)
 有无付费用户如实选择。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_67c37faeb967b1478183a189236a069f_14_1.png>
+![](img/zhuanqian_67c37faeb967b1478183a189236a069f_14_1.png)
 姓名用全拼，如张三写 Zhang San。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_67c37faeb967b1478183a189236a069f_14_2.png>
+![](img/zhuanqian_67c37faeb967b1478183a189236a069f_14_2.png)
 店铺名沿用之前默认值，固定一个名字，不要随意修改。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_67c37faeb967b1478183a189236a069f_14_3.png>
+![](img/zhuanqian_67c37faeb967b1478183a189236a069f_14_3.png)
 联系邮箱用网站域名邮箱，需验证，必须准确。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_67c37faeb967b1478183a189236a069f_15_0.png>
+![](img/zhuanqian_67c37faeb967b1478183a189236a069f_15_0.png)
 填写完整域名。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_67c37faeb967b1478183a189236a069f_15_1.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_67c37faeb967b1478183a189236a069f_15_2.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_67c37faeb967b1478183a189236a069f_16_0.png>
+![](img/zhuanqian_67c37faeb967b1478183a189236a069f_15_1.png)
+![](img/zhuanqian_67c37faeb967b1478183a189236a069f_15_2.png)
+![](img/zhuanqian_67c37faeb967b1478183a189236a069f_16_0.png)
 Pancake 会询问现有客户、商家名称、业务介绍、产品详情、目标用户、定价与网站链接等。可让 AI 结合产品撰写，重点是让审核员快速看懂五件事：
 1. 你是谁；
 2. 产品做什么；
@@ -168,37 +168,37 @@ Pancake 会询问现有客户、商家名称、业务介绍、产品详情、目
 AIGC 审核接口：
 https://docs.waffo.ai/zh/api-reference/endpoints/content-safety/scan-prompt
 自检通过不等于人工一定通过，这是基本门槛。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_67c37faeb967b1478183a189236a069f_16_1.png>
+![](img/zhuanqian_67c37faeb967b1478183a189236a069f_16_1.png)
 最后确认手续费即可提交审核。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_67c37faeb967b1478183a189236a069f_17_0.png>
+![](img/zhuanqian_67c37faeb967b1478183a189236a069f_17_0.png)
 我的审核约半天回复。务必留意邮箱，首次被退回概率很大，修改后继续申请。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_67c37faeb967b1478183a189236a069f_17_1.png>
+![](img/zhuanqian_67c37faeb967b1478183a189236a069f_17_1.png)
 ## 四、审核通过后的代码接入
 别忘了，支付还未完全接入。Waffo 对 AI 友好，接入只需对 AI 说一句话。
 ```
 Read https://docs.waffo.ai/llms-full.txt, load the official Waffo Pancake skill from https://docs.waffo.ai/zh/integrate/skill, and integrate Waffo Pancake payments into the current project.
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_67c37faeb967b1478183a189236a069f_18_0.png>
+![](img/zhuanqian_67c37faeb967b1478183a189236a069f_18_0.png)
 很快接入成功。
 ### 创建并映射商品
 将网站付费产品加入，包括一次性与订阅类型。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_67c37faeb967b1478183a189236a069f_18_1.png>
+![](img/zhuanqian_67c37faeb967b1478183a189236a069f_18_1.png)
 以上就是我的迁移全过程。若你正面临同样问题，希望能少走弯路。最后再次强调：支付政策、费率、出金通道会变，请以官方最新口径为准。祝收款顺利，出海赚钱！
 Creem 毫无征兆地关停，让一大批开发者被迫紧急迁移收款方案，我也是其中一员。最终在 Waffo 上把整套收款流程重新拉通，这篇复盘按步骤记录关键操作，希望能帮你避坑。
 第一步是商品配置。Waffo 要求每件商品都建立独立的 Product ID，价格不能作为判定依据，Product ID 也不该出现在前端。正确做法是在后端维护一张映射表，让自家套餐编号对应 Waffo 商品 ID，前端只认套餐编号。
 第二步，创建 Checkout 的动作要在服务端完成。Waffo 提供了一套 TypeScript SDK，将 Merchant ID 与 Private Key 都留在服务端发起请求，拿到托管收银台 URL 后再抛给前端跳转。Private Key 的存放没有第二种选择：只能放在服务端的 Secret 区域，客户端一律禁止持有。
 第三步，配置 Webhook。进入 Pancake Dashboard，切到 设置 → Webhooks → Production，Payload 格式选 Raw。一次性积分包至少要捕获 order.completed 事件。订阅模式建议把以下事件全部挂上：subscription.canceled、subscription.canceling、subscription.uncanceled、subscription.past_due、subscription.payment_succeeded、subscription.updated、subscription.activated。退款场景再加退款类事件。
 第四步，配置提款账户。先看示意图。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_67c37faeb967b1478183a189236a069f_20_0.png>
+![](img/zhuanqian_67c37faeb967b1478183a189236a069f_20_0.png)
 需要提交的信息包括：姓名拼音、中文姓名、身份证号码、所在国家/地区。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_67c37faeb967b1478183a189236a069f_20_1.png>
+![](img/zhuanqian_67c37faeb967b1478183a189236a069f_20_1.png)
 收款方式二选一：支付宝或银行卡。
 填完信息后先做支付验证，可以拿自己的微信扫码下一单。海外银行卡也可用，Waffo 在邮件中的说法是覆盖 160+ 国家；而 MoR 说明文档里目前的数字是 173。这类数值会持续变化，以提交申请那天的 Dashboard 上真实开放的支付国家和方式为准。
 正式上线前，将右上角的开关拨到生产模式。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_67c37faeb967b1478183a189236a069f_20_2.png>
+![](img/zhuanqian_67c37faeb967b1478183a189236a069f_20_2.png)
 随后进入 API & 开发模块，创建生产级 key 即可。如果对 key 配置没有把握，同样可以让 AI 代劳，官方连提示词都备好了。
 整套流程到这就结束了。从 Creem 关停开始，到 Waffo 上收到第一笔真实款项，希望这篇手记能帮你避掉那些最典型的坑。祝早日审核通过、稳定出金！作者：龙哥。有问题来评论区聊，想私下交流可以找鱼丸。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_67c37faeb967b1478183a189236a069f_21_0.png>
+![](img/zhuanqian_67c37faeb967b1478183a189236a069f_21_0.png)
 附录：官方入口与文档索引全集
 以下仅保留 Waffo 的官方渠道信息。如果文中的说法和后台界面不一致，请以申请当天 Dashboard 的展示、官方说明文档以及客服的书面答复为准。
 **① 入口与账号**
@@ -258,5 +258,5 @@ Creem 毫无征兆地关停，让一大批开发者被迫紧急迁移收款方�
 **⑧ AI 可读资料**
 - https://docs.waffo.ai/llms.txt（官方索引）
 - https://docs.waffo.ai/llms-full.txt（完整文档）
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_67c37faeb967b1478183a189236a069f_27_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_67c37faeb967b1478183a189236a069f_27_1.png>
+![](img/zhuanqian_67c37faeb967b1478183a189236a069f_27_0.png)
+![](img/zhuanqian_67c37faeb967b1478183a189236a069f_27_1.png)

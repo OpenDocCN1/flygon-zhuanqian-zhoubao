@@ -3,7 +3,7 @@
 大家好，我是龙哥。
 过去一年半，我把市面上能玩的工具基本都上手过：闲鱼、RPA、Coze、飞书多维表格、n8n、Obsidian、Cursor、Claude Code、AI编程、智能体定制。
 其中一部分确实变现了。
-早年在闲鱼做高客单实物时，觉得选品、上架太耗时间，就自学RPA，把“找爆款→飞书表格整理→自动上架”这套链路做成了半自动。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a01d319e5d5b054105cb5904bc49bf53_0_0.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a01d319e5d5b054105cb5904bc49bf53_0_1.png>
+早年在闲鱼做高客单实物时，觉得选品、上架太耗时间，就自学RPA，把“找爆款→飞书表格整理→自动上架”这套链路做成了半自动。![](img/zhuanqian_a01d319e5d5b054105cb5904bc49bf53_0_0.png)![](img/zhuanqian_a01d319e5d5b054105cb5904bc49bf53_0_1.png)
 后来又接了不少Coze智能体、飞书自动化、AI编程的定制单，累计下来也有十几万的体量。
 所以这篇不是否定AI，也不是抬闲鱼。自动化、工作流、大模型这些红利，我都吃到过。
 只是今年我做了一个反直觉的选择：把大部分定制业务砍掉，把注意力重新拉回闲鱼。
@@ -54,4 +54,4 @@
 ————分割线————
 看完会觉得懂了，但实操第一步就会卡。工具和教程只是入门，真正的差距是执行速度和信息层级。
 👉 查看圈子数字资产与入场门槛：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a01d319e5d5b054105cb5904bc49bf53_17_0.png>
+![](img/zhuanqian_a01d319e5d5b054105cb5904bc49bf53_17_0.png)

@@ -31,7 +31,7 @@ Behavior = Motivation + Ability + Prompt
 行为 = 动机 + 能力 + 提示
 三者缺一不可，少一个行为就启动不了。
 举个最常见的例子：系安全带
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0ff3b404712307fbf4f7f21c3c89e400.png>
+![](img/zhuanqian_0ff3b404712307fbf4f7f21c3c89e400.png)
 1.  动机：为了安全，减少伤亡风险。
 2.  能力：车里有安全带，都会系。
 3.  提示：车启动的提示音、上车后自然的坐姿动作。
@@ -48,10 +48,10 @@ Behavior = Motivation + Ability + Prompt
 2.  行动带来的利弊，比如交税
 3.  外部环境，比如朋友都在做
 当两个动机对冲，就会像跷跷板一样左右摇摆。比如我想戒甜食，又真的很想吃蛋糕。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_141926621de1bc6c3b9436346fd6146b.png>
+![](img/zhuanqian_141926621de1bc6c3b9436346fd6146b.png)
 #### 2）动机上头快，下头也快
 很强的动机能让你做一次性的硬事，比如辞职、赶飞机、把垃圾食品全扔掉。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4e13ba2fe339c8de84bc5bc384797f35.png>
+![](img/zhuanqian_4e13ba2fe339c8de84bc5bc384797f35.png)
 但它很难长期在线，冲到顶点后迅速回落。坚持不住不是你的错，是动机的工作方式。
 #### 3）动机波动不可控
 可预测的：双11、618前网购欲望自然抬头。
@@ -67,7 +67,7 @@ Behavior = Motivation + Ability + Prompt
 5.  找到合适的提示
 6.  执行后立刻庆祝
 流程图如下：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bd08ec209172af35ab9eb740028f9513.png>
+![](img/zhuanqian_bd08ec209172af35ab9eb740028f9513.png)
 # 三、从零开始做一次行为设计
 我以“改善腰部疼痛”作为愿望来演示。
 ## 一）先分清愿望和行为
@@ -100,8 +100,8 @@ Behavior = Motivation + Ability + Prompt
 8.  专业按摩：高影响，高难度
 9.  换枕头床垫：低影响，低难度
 焦点图：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_893deb5303a5c89bb20bd2482f7aedd3.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7f49522f773b308dc3ac1cd933d6e9ec.png>
+![](img/zhuanqian_893deb5303a5c89bb20bd2482f7aedd3.png)
+![](img/zhuanqian_7f49522f773b308dc3ac1cd933d6e9ec.png)
 最匹配的是“定期腰部拉伸”和“久坐定时起身”。我合并成：每次起身时做3-5个腰部拉伸。这个动作同时满足影响、能力、动机三条件。
 ## 四）把难度调到能做
 先看能力五要素：时间、资金、体力、脑力、日程。
@@ -118,7 +118,7 @@ Behavior = Motivation + Ability + Prompt
 *   入门步骤：双手扶腰
 *   缩小规模：先做1个拉伸
 常见例子参考：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1582d0363dc31d538157d19be7767c3e.png>
+![](img/zhuanqian_1582d0363dc31d538157d19be7767c3e.png)
 ## 五）找到“对”的提示
 三大提示类型：
 | 类型 | 定义 | 例子 | 评价 |
@@ -134,7 +134,7 @@ Behavior = Motivation + Ability + Prompt
 2.  频率匹配：一天上厕所很多次，和饮水习惯也吻合
 3.  主题匹配：上厕所是休息节点，和拉伸放松同频
 锚点示意：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e7487ccd705ca66ff55a3bae4a83cd87.png>
+![](img/zhuanqian_e7487ccd705ca66ff55a3bae4a83cd87.png)
 ## 六）做完立刻庆祝
 福格第二原则：帮人感受到成功。大脑靠庆祝来编码新习惯。
 庆祝规则：说点什么或做点什么，让自己感觉好。

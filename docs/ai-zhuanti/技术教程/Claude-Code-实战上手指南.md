@@ -52,14 +52,14 @@ claude
 1.  Windows 用户：
 1.  同时按下 Win + R 打开“运行”窗口。
 1.  输入 powershell 回车，进入 PowerShell 窗口。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e411dab82f0a6c8ab5c901f613effbae.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7913fc03fface149fa90b6f10c3579e2.png>
+![](img/zhuanqian_e411dab82f0a6c8ab5c901f613effbae.png)
+![](img/zhuanqian_7913fc03fface149fa90b6f10c3579e2.png)
 1.  macOS 用户：
 1.  同时按下 Command ⌘ + 空格键，调出 Spotlight 搜索框。
 1.  输入 Terminal。
 1.  在结果中点击“终端”打开。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a66d3b9786564e1d1ceb3062ae3de390.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9afc5737eaf21fe5b9176f37263b6499.png>
+![](img/zhuanqian_a66d3b9786564e1d1ceb3062ae3de390.png)
+![](img/zhuanqian_9afc5737eaf21fe5b9176f37263b6499.png)
 ### 第二步：准备运行环境 Node.js
 Claude Code 运行在 Node.js 这个平台上，必须先确保平台可用。
 1.  检查版本
@@ -69,20 +69,20 @@ node -v
 ```
 1.  判断结果
 *   若显示版本号 >= v18.x.x，例如 v22.17.0，说明环境已就绪，可直接跳到 1.3 节。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_781b7d5e2ad4cdfc09e4b172c680f9bf.png>
+![](img/zhuanqian_781b7d5e2ad4cdfc09e4b172c680f9bf.png)
 *   若提示 command not found 或版本低于 v18，请按下面步骤安装。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_79ffa3794ad9eb86e43b84c57eb13849.png>
+![](img/zhuanqian_79ffa3794ad9eb86e43b84c57eb13849.png)
 1.  安装流程
 1.  访问官网： 在浏览器打开 Node.js 官方网站 https://nodejs.org/
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_307deb33f09167f7f4efda00918db89d.png>
+![](img/zhuanqian_307deb33f09167f7f4efda00918db89d.png)
 1.  下载包： 点击“GET Node.js”按钮，选择带有 LTS 标识的安装包下载。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7bcda9e2a01b708ebb365c8f8664bbdd.png>
+![](img/zhuanqian_7bcda9e2a01b708ebb365c8f8664bbdd.png)
 1.  运行安装： 双击下载文件，按普通软件安装流程一路下一步即可，保持默认设置。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fc281bd39235db2bb91b385cf13c69a5.png>
+![](img/zhuanqian_fc281bd39235db2bb91b385cf13c69a5.png)
 1.  验证安装：
 *   完全关闭并重新打开终端，这一步很重要！！！
 *   再次执行 node -v 回车。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9a6d3760a69302ed5233e71cac74ccb4.png>
+![](img/zhuanqian_9a6d3760a69302ed5233e71cac74ccb4.png)
 *   若能看到 v18 及以上版本号，说明底层环境搭建成功。
 ### 第三步：安装 Claude Code
 1.  执行安装命令
@@ -92,33 +92,33 @@ npm install -g @anthropic-ai/claude-code
 ```
 1.  等待完成
 安装会从网络拉取文件，耗时取决于网速，几十秒到数分钟不等。终端回到命令提示符即代表安装完成。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_aecc63b7ebb235f5cd2e1bfc49fc937d.png>
+![](img/zhuanqian_aecc63b7ebb235f5cd2e1bfc49fc937d.png)
 若出现报错，可把终端内容复制给 ChatGPT 让它协助排查：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_43b276109931de97fe431fadce9497f6.png>
+![](img/zhuanqian_43b276109931de97fe431fadce9497f6.png)
 1.  安装校验
 执行帮助命令确认安装是否成功：
 ```
 claude -h
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_38a221f378bc74204c0eb788c37f5213.png>
+![](img/zhuanqian_38a221f378bc74204c0eb788c37f5213.png)
 若输出一长串 Claude Code 用法说明而非 command not found，则说明 AI 编程助手已成功部署到本地。
 ## 启动 Claude Code
 启动前先把项目文件夹定位好。
 1.  输入 cd
 *   打开终端，输入 cd 后加一个空格。
 *   输入后不要按回车！！！
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_590e428097b36c56e0161634cc90c114.png>
+![](img/zhuanqian_590e428097b36c56e0161634cc90c114.png)
 1.  定位项目文件夹
 *   在桌面或文件管理器中，找到存放代码的项目目录，只需看到文件夹图标即可。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_87d717d0c5c776211c3ed8fb6f8871f5.png>
+![](img/zhuanqian_87d717d0c5c776211c3ed8fb6f8871f5.png)
 1.  拖拽定位
 *   将文件夹直接拖拽到终端窗口。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b94f7ed491c95161e43afb9869b08aca.png>
+![](img/zhuanqian_b94f7ed491c95161e43afb9869b08aca.png)
 *   会自动在 cd 后面补全路径。
 *   回车进入该目录。
 1.  启动 Claude Code
 *   在终端输入 claude 回车启动
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_96f0d9800120593963b096b7bb2349a8.png>
+![](img/zhuanqian_96f0d9800120593963b096b7bb2349a8.png)
 # Claude Code 指令速查手册
 本章整理了 Claude Code 的常用指令，帮助你快速掌握操作方式。
 ## 核心对话控制
@@ -632,32 +632,32 @@ MCP（Model Context Protocol）能帮助 Claude 连接外部服务。与 hooks �
 遇到这样的写法，Claude 会立刻把 code-reviewer 找过来处理。
 ## 一套五步实操流程
 最后，分享一套我常用的五步式做法，并用“提示词管理助手”这个项目做演示，看看 Claude Code 如何被真正用起来。
-总体顺序是：先建立项目文档，再写 PRD，接着做实施规划，然后进入编码，最后做回归测试与问题修复。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bd83fb8d93db2029c447a9f335dc1ca9.png>
+总体顺序是：先建立项目文档，再写 PRD，接着做实施规划，然后进入编码，最后做回归测试与问题修复。![](img/zhuanqian_bd83fb8d93db2029c447a9f335dc1ca9.png)
 ### 第 1 步：生成项目文档
-进入项目后，第一件事是让 Claude 产出项目文档。用到的命令是 /init，它会自行扫描项目并生成 claude.md。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f165335615101839a88a189b7e5acb76.png>
-这份文档的颗粒度往往让人惊喜。模块的主要结构会被逐项拆解，各个目录的用途与路径也会被记录下来。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_de52e8a3e0a30373e8a96f73cafc40a3.png>
-claude.md 对所有会话都生效，地位类似 Cursor 的规则文件。它存在的意义是给模型提供更充足的背景信息，让后续改动更切合实际。此外，/init 的用途并不限于首次初始化；每次完成一个版本，再运行一次 /init，它也会把新增内容并入 claude.md。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8345f7a80df28891d69bf3399cc64f7b.png>
+进入项目后，第一件事是让 Claude 产出项目文档。用到的命令是 /init，它会自行扫描项目并生成 claude.md。![](img/zhuanqian_f165335615101839a88a189b7e5acb76.png)
+这份文档的颗粒度往往让人惊喜。模块的主要结构会被逐项拆解，各个目录的用途与路径也会被记录下来。![](img/zhuanqian_de52e8a3e0a30373e8a96f73cafc40a3.png)
+claude.md 对所有会话都生效，地位类似 Cursor 的规则文件。它存在的意义是给模型提供更充足的背景信息，让后续改动更切合实际。此外，/init 的用途并不限于首次初始化；每次完成一个版本，再运行一次 /init，它也会把新增内容并入 claude.md。![](img/zhuanqian_8345f7a80df28891d69bf3399cc64f7b.png)
 我个人的工作习惯是：每完成一个迭代，先推一次 GitHub，再执行 /init。
 ### 第 2 步：整理 PRD
 关于 PRD 的提示词和范例，我在“小白AI编程指南”里已经写过，此处不再重复。这里我更想聊的是，如何与 Claude 高效地敲定需求。
-有了 claude.md 之后，Claude 已经掌握项目的主要架构、文件布局和模块分工，因此讨论需求会非常顺利。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4d0dd22b46fa5ccde3a2682ed9880165.png>
-比如图中标红的内容就是我的新需求。模型会先参考 claude.md，再通读一遍整体代码，然后给出自己的分析。这种讨论方式非常贴近真实的开发协同，且能很快得到可执行的结论。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d96b4072358722f82e03d13acb924227.png>
-它会先给出提醒，再列出几条由浅入深的路径；最后综合权衡后，建议从第一个方案起步，并把背后的逻辑讲清楚。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b591d3dba2d61e6f2a61c662825ef5a5.png>
+有了 claude.md 之后，Claude 已经掌握项目的主要架构、文件布局和模块分工，因此讨论需求会非常顺利。![](img/zhuanqian_4d0dd22b46fa5ccde3a2682ed9880165.png)
+比如图中标红的内容就是我的新需求。模型会先参考 claude.md，再通读一遍整体代码，然后给出自己的分析。这种讨论方式非常贴近真实的开发协同，且能很快得到可执行的结论。![](img/zhuanqian_d96b4072358722f82e03d13acb924227.png)
+它会先给出提醒，再列出几条由浅入深的路径；最后综合权衡后，建议从第一个方案起步，并把背后的逻辑讲清楚。![](img/zhuanqian_b591d3dba2d61e6f2a61c662825ef5a5.png)
 我认为需求讨论能这么顺畅，核心原因还是模型对项目理解得足够到位。
 ### 第 3 步：制定实施计划
 Claude Code 共有三种工作形态：default、plan、Auto-accept。日常对话一般在 default 下进行；按 shift+tab 可以切换形态。当界面左下角出现 plan 字样时，就是进入了以规划为主的模式。
-我们围绕前面提到的第一个方案，切到该模式来制作实施计划。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3fbc102b603ed702edcb33cc237e30bf.png>
-进入规划后，它会先把现有代码库完整读一遍，确保对现状心中有数。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3c9b67b64a11b3c20b9e11a5595826d5.png>
-之后，它会输出一份分步骤的实施计划。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f1a6d629d8c834b35ef5d1115e9cf254.png>
+我们围绕前面提到的第一个方案，切到该模式来制作实施计划。![](img/zhuanqian_3fbc102b603ed702edcb33cc237e30bf.png)
+进入规划后，它会先把现有代码库完整读一遍，确保对现状心中有数。![](img/zhuanqian_3c9b67b64a11b3c20b9e11a5595826d5.png)
+之后，它会输出一份分步骤的实施计划。![](img/zhuanqian_f1a6d629d8c834b35ef5d1115e9cf254.png)
 这份计划看完后，我心里会踏实很多，因为它把相关点都考虑到了。若愿意采纳，就回 yes；若还有异议，就回 no，继续调整。
 ### 第 4 步：编码执行
-计划确认后，就可以进入编码阶段。这个步骤基本可以“离手”，让模型连续执行，完成后再切回来查看即可。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_91be314e08ccdfca403af1e7470eaf90.png>
+计划确认后，就可以进入编码阶段。这个步骤基本可以“离手”，让模型连续执行，完成后再切回来查看即可。![](img/zhuanqian_91be314e08ccdfca403af1e7470eaf90.png)
 期间几乎不需要逐个点击确认，模型会自行完成大部分工作，人类只需要在事后进行验证和反馈。
 ### 第 5 步：回归与反馈
 最后是测试与问题跟进。有一点要留意：Claude Code 运行在终端中，无法通过截图交流。为了让反馈更有效，请尽量用文字把现象、报错和复现步骤写清楚。
 在使用Claude Code反馈bug时，我总觉得有点不顺手——截图得先存好，再通过@文件名的方式发给AI，才能让它看到故障现象，多了一道手续。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_eba953556310a98d9af7fdc07c00164c.png>
+![](img/zhuanqian_eba953556310a98d9af7fdc07c00164c.png)
 但如果你把上面五个步骤完整过一遍，应该就会认同我的判断：Claude Code让编程这门手艺的效率直接翻了一倍。原因在于，Claude Code为AI提供了更大的上下文承载量。我正是借助这点，把人与AI之间的协作路径重新梳理了一遍，才换来质变般的产出提升。
 说到底，在AI浪潮已至的当下，最重要的本事不是写代码，而是懂得如何与AI并肩工作。
 顺便分享一个优质学习入口：Claude Code官方和吴恩达老师的公开课，地址在这——https://learn.deeplearning.ai/courses/claude-code-a-highly-agentic-coding-assistant/lesson/66b35/introduction
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_27ac4ac31838a2aa13f37fef5a29befd.png>
+![](img/zhuanqian_27ac4ac31838a2aa13f37fef5a29befd.png)

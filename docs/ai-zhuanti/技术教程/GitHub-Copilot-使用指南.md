@@ -45,49 +45,49 @@ Copilot 是 GitHub 面向程序员打造的 AI 编程助手，在编码过程中
 ## 申请 Copilot Chat 选配
 个人版与企业版流程类似，企业版优势是无需排队等待。个人版通常等待约半个月以上。
 开通后可申请 Chat 功能，地址 https://github.com/features/preview ，通过页面入口提交申请。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_30b9ef84bb075668a03cf395fefc2781.png>
+![](img/zhuanqian_30b9ef84bb075668a03cf395fefc2781.png)
 一般等待约一个月，审核通过后会收到标题为 You’re now in the GitHub Copilot chat private beta! 的邮件，内含安装指引：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_91d17cbf5c569b8071691ac7a3a2b2ac.png>
+![](img/zhuanqian_91d17cbf5c569b8071691ac7a3a2b2ac.png)
 ## 安装
 ### Visual Studio
 1、确认使用 Visual Studio 2022 17.5.1 或更高版本。
 2、搜索安装扩展 GitHub Copilot。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_67d49d449be7a090ebdf0053ebe13a03.png>
+![](img/zhuanqian_67d49d449be7a090ebdf0053ebe13a03.png)
 点击 Trust Workspace & Install。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b7e9c51e6cee66fe2dde66e89d41a62d.png>
+![](img/zhuanqian_b7e9c51e6cee66fe2dde66e89d41a62d.png)
 3、搜索安装扩展 GitHub Copilot Chat。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e93576a47c624a8f7ee885e92f01b786.png>
+![](img/zhuanqian_e93576a47c624a8f7ee885e92f01b786.png)
 4、重启软件并用 GitHub 账号登录授权。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e87e471776ede6665315963d515a1e9b.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6dcfbd13ca460e9655abf88bc9d6984b.png>
+![](img/zhuanqian_e87e471776ede6665315963d515a1e9b.png)
+![](img/zhuanqian_6dcfbd13ca460e9655abf88bc9d6984b.png)
 输入账号/密码登录。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_aef121b69c6b76acbea7231cad00319a.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bbad315446a2a10c2601a58f750ec553.png>
+![](img/zhuanqian_aef121b69c6b76acbea7231cad00319a.png)
+![](img/zhuanqian_bbad315446a2a10c2601a58f750ec553.png)
 点击 Open。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_921b0e3ee994a0f8e0dad44c3f90d3fc.png>
+![](img/zhuanqian_921b0e3ee994a0f8e0dad44c3f90d3fc.png)
 使用本地服务器验证，点击 Yes。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7aedda057e094c673199e28ec7a91e58.png>
+![](img/zhuanqian_7aedda057e094c673199e28ec7a91e58.png)
 浏览器打开显示已登录。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6673f427860144b554c1706ffb3f60d3.png>
+![](img/zhuanqian_6673f427860144b554c1706ffb3f60d3.png)
 显示设备授权码，点击 Copy & Continue to GitHub
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ab535c8c3ca742e77c8736d691630a47.png>
+![](img/zhuanqian_ab535c8c3ca742e77c8736d691630a47.png)
 在浏览器中输入设备授权码并点击 Continue。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d93dfa2d6da591e5c527923f45bffaac.png>
+![](img/zhuanqian_d93dfa2d6da591e5c527923f45bffaac.png)
 选择 Authorize Visual-Studio-Code 授权设备。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5edb5bd38b7f94ec291455c264ca66b9.png>
+![](img/zhuanqian_5edb5bd38b7f94ec291455c264ca66b9.png)
 授权成功。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_499ace52756f4777427273512a1f5792.png>
+![](img/zhuanqian_499ace52756f4777427273512a1f5792.png)
 4、校验功能。
 GitHub Copilot 聊天窗口会出现在视图菜单中，未申请 Chat 功能则不会显示。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_729579510d23ed2152743ac3dc467af6.png>
+![](img/zhuanqian_729579510d23ed2152743ac3dc467af6.png)
 验证打开代码文件时，右键菜单顶部是否出现 Copilot 按钮。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ca44561748dae1b12910d62d16397119.png>
+![](img/zhuanqian_ca44561748dae1b12910d62d16397119.png)
 ### Visual Studio Code - Insiders
 1、下载安装 Visual Studio Code - Insiders，使用最新版。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1c23e4c5cf705e54ae7f7ba2e6d4e892.png>
+![](img/zhuanqian_1c23e4c5cf705e54ae7f7ba2e6d4e892.png)
 2、在 VS Code Insiders 中安装 GitHub Copilot 和 GitHub Copilot Chat 插件，步骤与 Visual Studio 类似。
 3、安装成功后，首页左侧会出现聊天菜单。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4a5ceba15749182356217d121f0f7a84.png>
+![](img/zhuanqian_4a5ceba15749182356217d121f0f7a84.png)
 ### JetBrains IDEs
 支持的 IDE 包括：
 *   IntelliJ IDEA Ultimate/Community/Educational
@@ -107,57 +107,57 @@ GitHub Copilot 聊天窗口会出现在视图菜单中，未申请 Chat 功能�
 *   WebStorm
 以 IntelliJ IDEA 为例：
 1、打开已有项目。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_537100fa7b1ef49d47c572f21bd9e624.png>
+![](img/zhuanqian_537100fa7b1ef49d47c572f21bd9e624.png)
 2、在插件市场搜索 Copilot 并安装。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8f060304eeb6a42e55f464860290ef33.png>
+![](img/zhuanqian_8f060304eeb6a42e55f464860290ef33.png)
 3、安装完成后点击 Restrat IDE。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a99d131cd33092d2cc6953ccade7e5be.png>
+![](img/zhuanqian_a99d131cd33092d2cc6953ccade7e5be.png)
 4、重启后点击 GitHub Copilot，选择 Login to GitHub。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0ecd42102e6dfa5d62ba358a2378a103.png>
+![](img/zhuanqian_0ecd42102e6dfa5d62ba358a2378a103.png)
 获取设备授权码。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_903207a5a54ccb050865023e3ab3c2e8.png>
+![](img/zhuanqian_903207a5a54ccb050865023e3ab3c2e8.png)
 在浏览器完成验证。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8f4b21c04e86a6346b97cb91dad8e2c5.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_daafa7b032368a94266eb61aab91fd81.png>
+![](img/zhuanqian_8f4b21c04e86a6346b97cb91dad8e2c5.png)
+![](img/zhuanqian_daafa7b032368a94266eb61aab91fd81.png)
 设备授权成功。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0b6f42633b8523a027be60cc01db81a9.png>
+![](img/zhuanqian_0b6f42633b8523a027be60cc01db81a9.png)
 # 初次体验
 ## 基于注释自动生成
 每写一行注释，Copilot 就会在光标位置给出建议，如下图：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_79f257a6f2bd4ff8cd36a82a28ccf577.png>
+![](img/zhuanqian_79f257a6f2bd4ff8cd36a82a28ccf577.png)
 按 Tab 即可自动补全。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_254540c82f3017ed22e9ef81fbea9899.png>
+![](img/zhuanqian_254540c82f3017ed22e9ef81fbea9899.png)
 ## 基于已有代码自动补全
 根据上下文自动续写代码。此处演示计算两个日期的间隔。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bbe5b7bc94ce3310f51f2b78751d2369.png>
+![](img/zhuanqian_bbe5b7bc94ce3310f51f2b78751d2369.png)
 计算结果为相差 1 天。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_60ef910493eac048d28c0f246371986e.png>
+![](img/zhuanqian_60ef910493eac048d28c0f246371986e.png)
 # Copilot Chat 初体验
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9ab981717f64b029ab090c024ffada00.png>
+![](img/zhuanqian_9ab981717f64b029ab090c024ffada00.png)
 发送后获得 Copilot 的回复。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_04cb9f508817d10e23f95aa5571e9c78.png>
+![](img/zhuanqian_04cb9f508817d10e23f95aa5571e9c78.png)
 可选择 Copy 代码片段。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0eeb64cb6dee5c7eff5c06c117102e5c.png>
+![](img/zhuanqian_0eeb64cb6dee5c7eff5c06c117102e5c.png)
 将代码插入到光标位置。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_455903908d0e4f18f1db724c2a903de6.png>
+![](img/zhuanqian_455903908d0e4f18f1db724c2a903de6.png)
 更多操作：插入到新文件或在控制台运行。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f58b3bd2bb96cce8cf6a2c8ca25b942d.png>
+![](img/zhuanqian_f58b3bd2bb96cce8cf6a2c8ca25b942d.png)
 处理后的代码。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_eaa6a873b6cfc5575217e608be3a6deb.png>
+![](img/zhuanqian_eaa6a873b6cfc5575217e608be3a6deb.png)
 运行成功。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8b37f3206d86cc0c08898f2c89e51d7d.png>
+![](img/zhuanqian_8b37f3206d86cc0c08898f2c89e51d7d.png)
 # 基础功能
 ## SQL 编写
 在注释中写清需求，输入 CREATE 关键字，Copilot 会提示完整的建表语句，十分便捷。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_02146707a41e53948378ba816e8af576.png>
+![](img/zhuanqian_02146707a41e53948378ba816e8af576.png)
 ## 正则编写
 新建 regex.js 文件，用于正则校验工具，测试如下场景：
 *   是否为数字
 *   是否为邮箱地址
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3f1527337b007174dac68fcadc45fa07.png>
+![](img/zhuanqian_3f1527337b007174dac68fcadc45fa07.png)
 ## Cron 编写
 Cron 脚本编写较为繁琐，可借助 Copilot 完成。先写说明文档，模型即可给出脚本建议。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a5a928f46c2a7df80c6c00c10d0f7082.png>
+![](img/zhuanqian_a5a928f46c2a7df80c6c00c10d0f7082.png)
 # 进阶功能
 下面介绍开发中的常用场景：代码解释、单元测试、Bug 修复，结合实际更易体现价值。
 ## Copilot Chat 指令概览
@@ -174,22 +174,22 @@ Copilot 学习能力强，可结合上下文解释代码含义，对源码或注
 1.  选中代码
 2.  打开 chat 菜单
 3.  输入关键词及提示词
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c9d1d4d3342a4b53b4e26826e66ef453.png>
+![](img/zhuanqian_c9d1d4d3342a4b53b4e26826e66ef453.png)
 查看 Copilot 的回答。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_96f8a66754823b68e0f027e8534e8af8.png>
+![](img/zhuanqian_96f8a66754823b68e0f027e8534e8af8.png)
 再以 Java 源码为例，让其解释 ArrayList.clone() 方法：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f3d880a6958c188db156248d7819a52f.png>
+![](img/zhuanqian_f3d880a6958c188db156248d7819a52f.png)
 ## 单元测试生成
 以 VS Code 为例，借助 Copilot 快速生成测试用例。
 ### JS 代码
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bc3a6e51c1970ca32fe55d63e48bc772.png>
+![](img/zhuanqian_bc3a6e51c1970ca32fe55d63e48bc772.png)
 ### Java 代码
 选中代码，输入指令并说明用例目的，即可生成测试代码。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5880b0a3598e7bfa5f452d58971b3168.png>
+![](img/zhuanqian_5880b0a3598e7bfa5f452d58971b3168.png)
 ## Bug 修复
 上一步生成的测试用例运行时抛出 Exception java.util.ConcurrentModificationException，需要修复。
 选中问题代码，输入指令及提示词调整代码。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e32dcbc6cc1b5d426ee16cc4e55d193b.png>
+![](img/zhuanqian_e32dcbc6cc1b5d426ee16cc4e55d193b.png)
 修改后代码运行正常，无错误。
 # 常见问题
 ## Copilot Chat 无法正常工作

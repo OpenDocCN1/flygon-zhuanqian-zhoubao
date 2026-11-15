@@ -5,18 +5,18 @@
 技术圈有时候就是这么拧巴：越想在每个环节加码，最后反而容易被自己绊倒。
 整份报告的核心思路，其实就这一句话：
 ### 一条被反复验证的方法论
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8e84faa0b77c4c8aa09fa190d938d1de.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fc1d0cb3a489671ecdd8a6aeb49f5a54.png>
+![](img/zhuanqian_8e84faa0b77c4c8aa09fa190d938d1de.png)
+![](img/zhuanqian_fc1d0cb3a489671ecdd8a6aeb49f5a54.png)
 下面是我在 AI 辅助下重新梳理的通俗版本。
 * * *
 ### 全篇的论证逻辑
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b9256f7b513ecea2cf16f1eea68a713f.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f2f4453a441780be28471c64b5f5fb5c.png>
+![](img/zhuanqian_b9256f7b513ecea2cf16f1eea68a713f.png)
+![](img/zhuanqian_f2f4453a441780be28471c64b5f5fb5c.png)
 * * *
 ### 解读一：Agent 到底是什么
 #### 原文
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d027397c2faa5495f2a5bbbe74797e0e.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6e5c083167153987c70b271e68c1ec88.png>
+![](img/zhuanqian_d027397c2faa5495f2a5bbbe74797e0e.png)
+![](img/zhuanqian_6e5c083167153987c70b271e68c1ec88.png)
 #### 说人话
 **实例一：准备晚餐**
 先看高配路线：
@@ -56,8 +56,8 @@ Anthropic 想传递的态度很直接：用 AI 做事的正确姿势，不是把
 - 生成代码
 - 查资料并汇总成汇报
 #### 两类最常见的形态
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6adc9eef33be58dcad9cd3fde5cc8ee2.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_53c45807930cd00145fa19774a13632d.png>
+![](img/zhuanqian_6adc9eef33be58dcad9cd3fde5cc8ee2.png)
+![](img/zhuanqian_53c45807930cd00145fa19774a13632d.png)
 #### 动手前，先问自己一个问题
 这件事真的需要动用 Agent 吗？
 很多工作，你用一段清晰的提示词，加上几次简单确认就能完成，没必要专门搭一套系统。
@@ -113,13 +113,13 @@ Anthropic 想传递的态度很直接：用 AI 做事的正确姿势，不是把
 * * *
 ### 解读二：给 Agent 打好地基
 #### 原文
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_aa92cbb33253fe6e8f3600ed5c47eaa6.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1c0d3d94631fc7d38262d604ccdcf91a.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c63b00f577514473c6f249f315608123.png>
+![](img/zhuanqian_aa92cbb33253fe6e8f3600ed5c47eaa6.png)
+![](img/zhuanqian_1c0d3d94631fc7d38262d604ccdcf91a.png)
+![](img/zhuanqian_c63b00f577514473c6f249f315608123.png)
 #### 说人话
 你可以把 Agent 的构建过程理解成带新人：先教会基本技能，再给工具，最后放手让它独立作业。
 **初始技能点**
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5a5906daed5e4f8a605e8dddd0f8083c.png>
+![](img/zhuanqian_5a5906daed5e4f8a605e8dddd0f8083c.png)
 ```
 就像人类需要：
 - 眼睛(看资料)
@@ -197,14 +197,14 @@ AI：
 * * *
 ### 五种协作模式：接力、分流、并发、调度、闭环
 #### 原文
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6a22767a7846941a392014614423c7a0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7c35e811e7571803eb495eb931af59bd.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d88bbef7a40e2c8a0c604f97f4db1b78.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f0b9c446fa98481be190007c0b85a86a.png>
+![](img/zhuanqian_6a22767a7846941a392014614423c7a0.png)
+![](img/zhuanqian_7c35e811e7571803eb495eb931af59bd.png)
+![](img/zhuanqian_d88bbef7a40e2c8a0c604f97f4db1b78.png)
+![](img/zhuanqian_f0b9c446fa98481be190007c0b85a86a.png)
 #### 说人话
 这五种模式，可以对应一个小部门里的不同分工。
 **模式一：接力链**
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_06234f267fe7584e851e061ccebcc2e6.png>
+![](img/zhuanqian_06234f267fe7584e851e061ccebcc2e6.png)
 好比田径接力赛，每一棒都有明确任务：
 - A 完成阶段性输出
 - B 接着处理
@@ -222,7 +222,7 @@ AI：
 - 需要高准确度
 ```
 **模式二：智能分流**
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f2c6b701b3d9e4666be3739f5e09fde3.png>
+![](img/zhuanqian_f2c6b701b3d9e4666be3739f5e09fde3.png)
 好比酒店前台，先判断来客是什么类型，再领到对应的楼层或柜台。
 ```
 例子：客服系统
@@ -237,7 +237,7 @@ AI：
 - 要控制成本
 ```
 **模式三：并发并行**
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d57bce46aa9867bef20f54f76d982924.png>
+![](img/zhuanqian_d57bce46aa9867bef20f54f76d982924.png)
 好比同时开几个小组做交叉评审，一个任务拆成多块，多个视角同时往前推。
 ```
 例子：代码审查
@@ -253,7 +253,7 @@ AI：
 - 要求高准确度
 ```
 **模式四：中央调度**
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6435a46c7c3cc9392e3ecc4112b98796.png>
+![](img/zhuanqian_6435a46c7c3cc9392e3ecc4112b98796.png)
 好比项目负责人把任务拆解开，分派给不同组员，再统一收回成果。
 ```
 例子：编程项目
@@ -272,7 +272,7 @@ AI：
 - 任务不固定
 ```
 **模式五：评审循环**
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c86aa16e0f0c5f33fd7240a7c1ee587e.png>
+![](img/zhuanqian_c86aa16e0f0c5f33fd7240a7c1ee587e.png)
 好比老手带新人：新人先出初稿，老手给批注，新人再按批注修改，如此反复。
 ```
 例子：写文章
@@ -288,7 +288,7 @@ AI：
 - 有明确标准
 ```
 #### 怎么选出最合适的那一款
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d98e0cb10add88cabeed44f0def3d080.png>
+![](img/zhuanqian_d98e0cb10add88cabeed44f0def3d080.png)
 ```
 简单任务：用提示链
 分类任务：用路由
@@ -318,9 +318,9 @@ AI：
 ```
 * * *
 ### 进阶话题：Agent 的完全体长什么样
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f8353b4cdac53f0321412ab5bc86a8b7.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_10e17fe861b557b12aadeec103a8b8fe.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9c6ca71515e3723300c0fe37a86855f4.png>
+![](img/zhuanqian_f8353b4cdac53f0321412ab5bc86a8b7.png)
+![](img/zhuanqian_10e17fe861b557b12aadeec103a8b8fe.png)
+![](img/zhuanqian_9c6ca71515e3723300c0fe37a86855f4.png)
 #### 说人话
 到了这个层级，Agent 已经可以独立执行一整条任务链，并根据反馈不断调整自己的动作。你可以把它当成一位全权负责的远程管家。
 **运行方式**
@@ -333,7 +333,7 @@ AI：
 5\. 完成后汇报
 ```
 **更直观的类比**
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0a2b041f8c6410867ae082c04daf6930.png>
+![](img/zhuanqian_0a2b041f8c6410867ae082c04daf6930.png)
 ```
 普通AI：
 像个听命令的机器人
@@ -347,7 +347,7 @@ AI：
 ```
 **一个具体案例**
 以代码生成工具为例：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_99702faf8a460cb14079d2fa33ce8b21.png>
+![](img/zhuanqian_99702faf8a460cb14079d2fa33ce8b21.png)
 ```
 任务：修改代码bug
 工作过程：

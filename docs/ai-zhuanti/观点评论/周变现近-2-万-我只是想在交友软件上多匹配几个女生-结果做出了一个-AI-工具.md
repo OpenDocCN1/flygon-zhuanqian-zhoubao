@@ -2,7 +2,7 @@
 大家好，我是 Logan。
 最近两周，我做了一个叫「AI 展示面大师」的小项目，累计收入接近 2 万元。
 其中包括 100 多笔 69 元的产品购买、部分用户后续充值，以及一笔 8,000 元的代运营服务单。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8f3ca65ba7f3bc62bd3d4b6fa6226ef6_0_0.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8f3ca65ba7f3bc62bd3d4b6fa6226ef6_0_1.png>
+![](img/zhuanqian_8f3ca65ba7f3bc62bd3d4b6fa6226ef6_0_0.png)![](img/zhuanqian_8f3ca65ba7f3bc62bd3d4b6fa6226ef6_0_1.png)
 这件事最值得分享的，并不是“我用 AI 写了个网页，两周赚了两万”。
 真正重要的是，我完整走了一遍从需求发现、产品制作、定价、获客到交付的 AI 变现流程。
 而这一切的起点，只是一个很普通的个人需求：我想让自己在交友软件上获得更多匹配。
@@ -11,11 +11,11 @@
 想谈恋爱，但身边异性资源不多；平时不太拍照；手机相册里找不出几张适合放在交友软件上的照片的男生。
 很多人并不是条件差，也不是不想展示自己，而是不会拍照。
 相册里可能有工作截图、旅游随手拍、吃饭照片和模糊自拍。真正需要放到 Soul、牵手、青藤、抖音、小红书或者朋友圈时，却发现没有几张拿得出手的生活照。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8f3ca65ba7f3bc62bd3d4b6fa6226ef6_1_0.png>
+![](img/zhuanqian_8f3ca65ba7f3bc62bd3d4b6fa6226ef6_1_0.png)
 但在交友软件上，陌生人认识你的第一步，通常不是聊天，而是先看头像和主页照片。
 照片拍得不好，别人可能根本不会继续了解你。
 所以，“展示面”其实就是别人还没认识你之前，通过你的照片、朋友圈和社交主页，对你形成的初步印象。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8f3ca65ba7f3bc62bd3d4b6fa6226ef6_2_0.png>
+![](img/zhuanqian_8f3ca65ba7f3bc62bd3d4b6fa6226ef6_2_0.png)
 过去，解决这个问题往往要靠线下约拍：
 租豪车、跑车或高级酒店，再请摄影师拍摄一天，最后从大量照片里挑出几张能用的。
 这种方式当然有市场，但问题也很明显：
@@ -28,7 +28,7 @@
 AI 给我的机会，是把这套很重的服务拆轻。
 用户只需要上传一张自己的脸部照片，再上传一张喜欢的穿搭、场景或风格参考图，然后输入简单描述，就能生成一张更有氛围感的社交照片。
 它不是把普通人变成明星，也不是改变五官、伪造身份，而是在尽量保留本人特征的前提下，优化穿搭、光线、环境和整体审美。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8f3ca65ba7f3bc62bd3d4b6fa6226ef6_3_0.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8f3ca65ba7f3bc62bd3d4b6fa6226ef6_3_1.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8f3ca65ba7f3bc62bd3d4b6fa6226ef6_3_2.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8f3ca65ba7f3bc62bd3d4b6fa6226ef6_3_3.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8f3ca65ba7f3bc62bd3d4b6fa6226ef6_3_4.png>
+![](img/zhuanqian_8f3ca65ba7f3bc62bd3d4b6fa6226ef6_3_0.png)![](img/zhuanqian_8f3ca65ba7f3bc62bd3d4b6fa6226ef6_3_1.png)![](img/zhuanqian_8f3ca65ba7f3bc62bd3d4b6fa6226ef6_3_2.png)![](img/zhuanqian_8f3ca65ba7f3bc62bd3d4b6fa6226ef6_3_3.png)![](img/zhuanqian_8f3ca65ba7f3bc62bd3d4b6fa6226ef6_3_4.png)
 对于不擅长拍照、不知道该如何呈现自己的用户来说，这已经足够有价值。
 ## 02 从自己的问题开始，不等于只能做自己用过的产品
 很多人听到“从自身需求出发”，会误以为必须做一个自己亲身经历过的项目。
@@ -68,7 +68,7 @@ AI 给我的机会，是把这套很重的服务拆轻。
 3. 点击生成；
 4. 新用户可以先免费体验一次；
 5. 想继续使用，再购买生成次数。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8f3ca65ba7f3bc62bd3d4b6fa6226ef6_8_0.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8f3ca65ba7f3bc62bd3d4b6fa6226ef6_8_1.png>
+![](img/zhuanqian_8f3ca65ba7f3bc62bd3d4b6fa6226ef6_8_0.png)![](img/zhuanqian_8f3ca65ba7f3bc62bd3d4b6fa6226ef6_8_1.png)
 我给自己设置的判断标准很简单：
 用户付费后，能不能在几分钟内完成第一次生成？
 生成结束后，他是否清楚下一步该做什么？
@@ -176,7 +176,7 @@ AI 生图很少能做到一次成功，通常需要多次生成，再从大量�
 这才决定了项目有没有机会扩大。
 ## 06 真正差点让我放弃的，不是开发，而是承接流量
 如果问我这段时间最崩溃的时刻是什么，答案不是写网页，也不是调接口。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8f3ca65ba7f3bc62bd3d4b6fa6226ef6_6_0.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8f3ca65ba7f3bc62bd3d4b6fa6226ef6_6_1.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8f3ca65ba7f3bc62bd3d4b6fa6226ef6_6_2.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8f3ca65ba7f3bc62bd3d4b6fa6226ef6_6_3.png>
+![](img/zhuanqian_8f3ca65ba7f3bc62bd3d4b6fa6226ef6_6_0.png)![](img/zhuanqian_8f3ca65ba7f3bc62bd3d4b6fa6226ef6_6_1.png)![](img/zhuanqian_8f3ca65ba7f3bc62bd3d4b6fa6226ef6_6_2.png)![](img/zhuanqian_8f3ca65ba7f3bc62bd3d4b6fa6226ef6_6_3.png)
 过去我做内容和引流，通常一个账号不行就换另一个，所以一开始并没有认真考虑私域承接的容量问题。
 在我看来，内容爆了、用户主动咨询，当然是好事。
 但后来我才明白：
@@ -306,4 +306,4 @@ AI 的机会，不是凭空制造需求，而是把原本沉重的流程变轻�
 工具和教程是最容易被取代的壁垒，真正拉开差距的是“立刻执行”和“圈层信息差”。
 我们只拆商业闭环，只压 AI 效率，不聊概念。内部已沉淀 1000+ 真正跑通的套利实战案例。
 👉 查看圈子数字资产全貌与加入门槛：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8f3ca65ba7f3bc62bd3d4b6fa6226ef6_21_0.png>
+![](img/zhuanqian_8f3ca65ba7f3bc62bd3d4b6fa6226ef6_21_0.png)

@@ -3,8 +3,8 @@
 但结果并不只有成功。
 靠短视频开通的两个 YPP，后来分别因为儿童相关问题和内容同质化被取消。如今，我正在从 Shorts 转向长视频，重新摸索一条更稳定、更合规的内容路径。
 所以，这篇文章不是“如何快速靠 YouTube 赚钱”的教程，而是一次完整的项目复盘：我如何从一个完全不懂 YouTube 的新手起步，如何跑出破亿播放，为什么两个 YPP 最终没有保住，以及如果重新开始，我会继续做什么、坚决避免什么。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_955ca63296757247f02221994dc333d0_0_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_955ca63296757247f02221994dc333d0_1_0.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_955ca63296757247f02221994dc333d0_1_1.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_955ca63296757247f02221994dc333d0_1_2.png>
+![](img/zhuanqian_955ca63296757247f02221994dc333d0_0_0.png)
+![](img/zhuanqian_955ca63296757247f02221994dc333d0_1_0.png)![](img/zhuanqian_955ca63296757247f02221994dc333d0_1_1.png)![](img/zhuanqian_955ca63296757247f02221994dc333d0_1_2.png)
 ## 一、1 亿播放与两次失去 YPP，构成了我这一年的全部经历
 ### 1.1 接到分享邀请时，我第一反应是犹豫
 当杨哥邀请我做 YouTube 运营分享时，我其实并没有特别兴奋，更多的是不安。
@@ -59,12 +59,12 @@ AI 可以帮助创作者提高效率，但不能替代内容本身的改编、�
 从发布第一条视频，到达到高级 YPP 的门槛，我用了 69 天。
 这期间，我第一次完整跑通了从选题、制作、发布到获得流量和变现的闭环。
 频道早期每天大约有 5 万到 10 万播放，普通视频一般在 2 万到 3 万之间，表现好的可以达到 10 万左右。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_955ca63296757247f02221994dc333d0_6_0.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_955ca63296757247f02221994dc333d0_6_1.png>
+![](img/zhuanqian_955ca63296757247f02221994dc333d0_6_0.png)![](img/zhuanqian_955ca63296757247f02221994dc333d0_6_1.png)
 真正推动频道跨过门槛的，是一条千万级视频。
 它发布初期只有 100 多万播放，过了一个多月后又获得了一轮推荐，最终涨到 3600 万。更重要的是，这条视频并没有在爆发后迅速归零，接近一年后依然能够持续获得长尾流量。
 开通 YPP 后，频道每天大约有几美元收入，RPM 约为 0.03。
 虽然金额不高，却让我第一次确认：一条已经发布的内容，能够在不继续投入制作时间的情况下，持续产生收入。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_955ca63296757247f02221994dc333d0_7_0.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_955ca63296757247f02221994dc333d0_7_1.png>
+![](img/zhuanqian_955ca63296757247f02221994dc333d0_7_0.png)![](img/zhuanqian_955ca63296757247f02221994dc333d0_7_1.png)
 这次经历带给我的最大信心，不只是“我开通了 YPP”，而是验证了这条路径确实能被普通人跑通：
 AI 生产内容，YouTube 分发流量，YPP 完成变现。
 ### 2.1.3 关键动作：保留爆款结构，但加入自己的变化
@@ -77,7 +77,7 @@ AI 生产内容，YouTube 分发流量，YPP 完成变现。
 开通 YPP 后，达人秀赛道的流量开始下降，我又尝试了印度故事、耶稣相关视频等方向。
 其中一些视频也取得了百万甚至千万播放，但当时我没有意识到，内容中出现的儿童形象和危险情节，可能已经触及 YouTube 的创收政策。
 10 月 23 日，我查看收益后台时发现，第一个 YPP 被终止，平台给出的理由是“鼓动对未成年人的不受欢迎的关注”。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_955ca63296757247f02221994dc333d0_9_0.png>
+![](img/zhuanqian_955ca63296757247f02221994dc333d0_9_0.png)
 那一刻我才发现，自己之前一直混淆了两件事：
 视频能够正常发布，并不代表它长期合规；别人做过并且获得了高播放，也不意味着你照着做就一定安全。
 没有立刻受到处罚，只能说明风险暂时还没有暴露，不代表内容没有问题。
@@ -101,12 +101,12 @@ AI 生产内容，YouTube 分发流量，YPP 完成变现。
 第二个频道的增长速度远超第一个。
 运营到第 14 天，频道累计观看量达到 2900 万，并满足高级 YPP 的申请条件。
 开通收益后，连续 8 天每天收入都超过 80 美元。与第一个频道每天几美元的收入相比，这让我第一次看到 AI Shorts 在短期内快速放大收益的可能性。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_955ca63296757247f02221994dc333d0_11_0.png>
+![](img/zhuanqian_955ca63296757247f02221994dc333d0_11_0.png)
 其中一条视频在发布约 20 天后突破 1 亿播放。
 这个结果看起来很遥远，但它确实发生在一个制作并不复杂、每天投入时间只有一两个小时的频道上。
 不过，播放量和收入之间的差距也非常明显。
 这条视频前 6000 万播放发生在开通 YPP 之前，因此没有产生广告收益；YPP 开通后新增的约 4000 万播放，RPM 约为 0.02，最终收入为 571 美元。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_955ca63296757247f02221994dc333d0_12_0.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_955ca63296757247f02221994dc333d0_12_1.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_955ca63296757247f02221994dc333d0_12_2.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_955ca63296757247f02221994dc333d0_12_3.png>
+![](img/zhuanqian_955ca63296757247f02221994dc333d0_12_0.png)![](img/zhuanqian_955ca63296757247f02221994dc333d0_12_1.png)![](img/zhuanqian_955ca63296757247f02221994dc333d0_12_2.png)![](img/zhuanqian_955ca63296757247f02221994dc333d0_12_3.png)
 这组数据让我看清了 Shorts 的两面：
 它可以在很短时间内制造极大的播放量，但高播放并不等于高收入。
 ### 2.2.3 为什么增长这么快：多个条件同时出现
@@ -124,15 +124,15 @@ AI 生产内容，YouTube 分发流量，YPP 完成变现。
 与此同时，越来越多同类频道因为内容相似度过高而失去 YPP。
 我的频道当时还没有被处罚，这让我产生了侥幸心理。我知道直接拆解爆款、反复套用相同提示词已经存在风险，却舍不得删除已有内容，也不愿意放弃当时高效的生产方式。
 后来我尝试用 AI 对脚本进行二次改写，但流量依旧不稳定。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_955ca63296757247f02221994dc333d0_14_0.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_955ca63296757247f02221994dc333d0_14_1.png>
+![](img/zhuanqian_955ca63296757247f02221994dc333d0_14_0.png)![](img/zhuanqian_955ca63296757247f02221994dc333d0_14_1.png)
 以前一条视频拿到 3 万播放并不难，后来很多视频只能获得几千播放。频道每隔一段时间就会发生一次流量腰斩，收入也从每天几十美元降到了几美元。
 2026 年 2 月 24 日，第二个 YPP 最终因为同质化内容被取消。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_955ca63296757247f02221994dc333d0_15_0.png>
+![](img/zhuanqian_955ca63296757247f02221994dc333d0_15_0.png)
 这一次我没有第一次那么震惊，反而有一种压力释放的感觉。因为在收到通知之前，我已经长时间处于“账号什么时候会出问题”的焦虑里。
 ### 2.2.5 如果重新来过，我不会继续拿账号安全下注
 如果重新做这一阶段，我仍然会追热点、尝试新工具，也会保持较高的测试频率。
 但我不会继续直接复用提示词，更不会因为一种方法短期有效，就把它当成可持续能力。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_955ca63296757247f02221994dc333d0_16_0.png>
+![](img/zhuanqian_955ca63296757247f02221994dc333d0_16_0.png)
 当 12 月 18 日第一次出现明显限流时，我应该立即做三件事：
 1. 停止继续生产高度相似的内容；
 2. 对已发布视频进行风险排查，处理高风险作品；
@@ -157,7 +157,7 @@ AI 生产内容，YouTube 分发流量，YPP 完成变现。
 考虑到潜在风险，我选择暂停更新。
 没想到停更约两周后，其中一条视频又获得了新一轮推荐，播放量涨到 1500 万，频道累计播放达到 2600 万，重新具备申请 YPP 的条件。
 但这一次，我没有提交申请。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_955ca63296757247f02221994dc333d0_18_0.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_955ca63296757247f02221994dc333d0_18_1.png>
+![](img/zhuanqian_955ca63296757247f02221994dc333d0_18_0.png)![](img/zhuanqian_955ca63296757247f02221994dc333d0_18_1.png)
 ### 2.3.3 内容方式开始改变：从复制形式，到重新表达
 这一阶段，我开始真正意识到改编的重要性。
 我不再只是替换画面，而是尝试调整故事脚本、人物关系和情绪发展；也不再每条视频都更换角色，而是通过固定角色塑造频道风格。
@@ -213,7 +213,7 @@ AI 降低了内容生产的门槛，却没有降低判断的重要性。
 - 每隔两三天更新一次，把更多精力放在选题、脚本和包装上；
 - 重点查看封面点击率、平均观看时间以及流量来源；
 - 对有数据反馈的方向继续迭代，长时间没有反馈的内容暂时停止。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_955ca63296757247f02221994dc333d0_21_0.png>
+![](img/zhuanqian_955ca63296757247f02221994dc333d0_21_0.png)
 长视频不是靠单纯增加发布数量就能解决问题。
 标题与封面负责让观众产生点击，开头决定观众是否愿意继续，脚本和内容质量则决定他们能够停留多久。
 #### 2.4.4 踩坑：把短视频的反馈速度套用到长视频
@@ -309,7 +309,7 @@ Sora2让流程变得简单许多。
 #### 3.6.2 重点关注小频道中的异常爆款
 同时对比频道订阅量、平时的视频表现和爆款播放量。
 一个频道越普通，单条内容的数据越突出，就越值得深入拆解。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_955ca63296757247f02221994dc333d0_29_0.png>
+![](img/zhuanqian_955ca63296757247f02221994dc333d0_29_0.png)
 #### 3.6.3 优先选择观众一眼能理解的题材
 尽量选择不需要复杂背景、不依赖长对白，仅通过画面就能传达冲突和情绪的内容。
 #### 3.6.4 判断AI是否能够放大内容优势
@@ -395,17 +395,17 @@ Viewstats可用于查看热门频道和视频，SocialBlade可以辅助了解频
 无论是长视频还是短视频，都需要关注流量来源、互动数据、观众画像、收入以及RPM。
 **（1）流量来源与互动表现**
 **（2）观众画像**
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_955ca63296757247f02221994dc333d0_36_0.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_955ca63296757247f02221994dc333d0_36_1.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_955ca63296757247f02221994dc333d0_36_2.png>
+![](img/zhuanqian_955ca63296757247f02221994dc333d0_36_0.png)![](img/zhuanqian_955ca63296757247f02221994dc333d0_36_1.png)![](img/zhuanqian_955ca63296757247f02221994dc333d0_36_2.png)
 **（3）收益与RPM**
 这些信息可以帮助判断：平台将内容推给了什么人，这批观众是否真正感兴趣，以及他们对应的商业价值如何。
 #### 4.6.2 Shorts重点关注观看比例
 短视频首先要解决的是观众会不会马上划走，然后才是他们究竟看了多长时间。
 我会重点查看平均观看时长百分比，以判断观众愿意停留多久、完整看完的比例有多高。如果开头铺垫太慢，就需要通过删减和提速，让前三秒更紧凑，从而改善留存表现。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_955ca63296757247f02221994dc333d0_37_0.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_955ca63296757247f02221994dc333d0_37_1.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_955ca63296757247f02221994dc333d0_37_2.png>
+![](img/zhuanqian_955ca63296757247f02221994dc333d0_37_0.png)![](img/zhuanqian_955ca63296757247f02221994dc333d0_37_1.png)![](img/zhuanqian_955ca63296757247f02221994dc333d0_37_2.png)
 #### 4.6.3 长视频重点观察点击率和留存
 长视频的第一道门槛，是观众是否愿意点击，因此要关注封面点击率。
 产生点击之后，还要继续分析平均观看时长、平均观看百分比以及流量来源。如果曝光量很高但点击率偏低，问题通常出在标题或封面；如果点击率不错，却很快流失，则更可能是开头设计或内容质量存在问题。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_955ca63296757247f02221994dc333d0_38_0.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_955ca63296757247f02221994dc333d0_38_1.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_955ca63296757247f02221994dc333d0_38_2.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_955ca63296757247f02221994dc333d0_38_3.png>
+![](img/zhuanqian_955ca63296757247f02221994dc333d0_38_0.png)![](img/zhuanqian_955ca63296757247f02221994dc333d0_38_1.png)![](img/zhuanqian_955ca63296757247f02221994dc333d0_38_2.png)![](img/zhuanqian_955ca63296757247f02221994dc333d0_38_3.png)
 数据不是用来简单给视频判定好坏的，而是帮助我们明确下一条内容该优化哪个环节。
 ### 4.7 YPP如何开通：达到门槛只是拥有申请资格
 #### 4.7.1 YPP的开通门槛
@@ -433,7 +433,7 @@ YouTube会持续审核频道内容，如果违反创收政策，即使已经获�
 YouTube 本身就是最大的素材库，可通过首页推荐持续刷目标赛道，也能用关键词和标签检索，再按近期发布筛选。
 #### 5.1.2 Viewstats：快速定位热门视频和频道
 - 网址：https://www.viewstats.com/
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_955ca63296757247f02221994dc333d0_41_0.png>
+![](img/zhuanqian_955ca63296757247f02221994dc333d0_41_0.png)
 #### 5.1.3 SocialBlade：查看频道收益情况
 - 网址：https://socialblade.com/
 #### 5.1.4 Google Trends：横向比对关键词热度
@@ -443,11 +443,11 @@ YouTube 本身就是最大的素材库，可通过首页推荐持续刷目标赛
 找到参考后，需要把视频保存下来，方便后续拆解和剪辑对照。
 #### 5.2.1 Yt1ss：网页端下载
 - 网址：https://yt1ss.pro/zh-cn199/
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_955ca63296757247f02221994dc333d0_42_0.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_955ca63296757247f02221994dc333d0_42_1.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_955ca63296757247f02221994dc333d0_42_2.png>
+![](img/zhuanqian_955ca63296757247f02221994dc333d0_42_0.png)![](img/zhuanqian_955ca63296757247f02221994dc333d0_42_1.png)![](img/zhuanqian_955ca63296757247f02221994dc333d0_42_2.png)
 - 优点：免费、可选清晰度、短长视频都可、支持单独导出音频、文件以标题命名。
 #### 5.2.2 硬核去水印小程序：手机端下载
 - 微信搜索即可使用
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_955ca63296757247f02221994dc333d0_43_0.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_955ca63296757247f02221994dc333d0_43_1.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_955ca63296757247f02221994dc333d0_43_2.png>
+![](img/zhuanqian_955ca63296757247f02221994dc333d0_43_0.png)![](img/zhuanqian_955ca63296757247f02221994dc333d0_43_1.png)![](img/zhuanqian_955ca63296757247f02221994dc333d0_43_2.png)
 - 优点：国内网络可用、免费。
 特别说明：下载对标是为了研究选题、脚本、镜头和节奏，不是去水印后直接搬运。YouTube 对版权和重复内容审核严格，直接搬运易触发版权主张，也会伤害频道推荐。对标可以拆解，素材不能挪用；内核可借鉴，成片不能复制。
 ### 5.3 脚本拆解与改编：Google AI Studio、DeepSeek
@@ -457,7 +457,7 @@ YouTube 本身就是最大的素材库，可通过首页推荐持续刷目标赛
 本次实操以它为主，可直接粘贴 YouTube 链接完成：
 - 视频内容概括；
 - 故事结构拆解；
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_955ca63296757247f02221994dc333d0_44_0.png>
+![](img/zhuanqian_955ca63296757247f02221994dc333d0_44_0.png)
 - 核心冲突提炼；
 - 人物动作分析；
 - 分镜脚本生成；
@@ -471,7 +471,7 @@ YouTube 本身就是最大的素材库，可通过首页推荐持续刷目标赛
 #### 5.3.2 DeepSeek：作为备选改编工具
 - 网址：https://www.deepseek.com/
 现场部分伙伴无法访问 Google 服务，我也准备了替代方案。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_955ca63296757247f02221994dc333d0_45_0.png>
+![](img/zhuanqian_955ca63296757247f02221994dc333d0_45_0.png)
 我会先提供拆解后的提示词，让大家用 DeepSeek 等国内模型完成脚本改写，再生成图、视频提示词。关键不是让模型同义替换，而是重构表达：
 - 换人物关系；
 - 换故事场景；
@@ -484,7 +484,7 @@ YouTube 本身就是最大的素材库，可通过首页推荐持续刷目标赛
 想固定人设和场景时，可先出图再图生视频，可控性更高。提示词可先由 Google AI Studio 初稿，再人工优化。本阶段主要产出两类图。
 #### 5.4.1 角色图：保持形象统一
 做系列或角色 IP 时，先确定发型、服装、年龄、表情和画风。角色越稳定，后续一致性越好，频道辨识度也更高。但为避免同质化，单频道最好运营多个不同角色 IP。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_955ca63296757247f02221994dc333d0_46_0.png>
+![](img/zhuanqian_955ca63296757247f02221994dc333d0_46_0.png)
 #### 5.4.2 首帧图：掌控场景与风格
 首帧是用户刷到时的第一眼。制作时重点关注：
 - 主体是否足够突出；
@@ -496,7 +496,7 @@ YouTube 本身就是最大的素材库，可通过首页推荐持续刷目标赛
 ### 5.5 视频生成：即梦、千问
 - 即梦：https://jimeng.jianying.com/
 - 千问：https://www.qianwen.com/
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_955ca63296757247f02221994dc333d0_47_0.png>
+![](img/zhuanqian_955ca63296757247f02221994dc333d0_47_0.png)
 #### 5.5.1 文生视频：快速验证创意
 无需提前准备图片，直接输入提示词生成。适合测试动作、情节和视觉概念，速度快，但角色和场景一致性相对弱。
 #### 5.5.2 图生视频：把控人设与首帧
@@ -506,7 +506,7 @@ YouTube 本身就是最大的素材库，可通过首页推荐持续刷目标赛
 ### 5.6 剪辑优化：剪映
 - 剪映6.0免安装版：
 - 链接:https://pan.baidu.com/s/1WViTa99yj-gXruodcrpjLw?pwd=7ek2 提取码：7ek2
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_955ca63296757247f02221994dc333d0_48_0.png>
+![](img/zhuanqian_955ca63296757247f02221994dc333d0_48_0.png)
 AI 原片通常不能直接发，需要基础加工。剪辑目的是解决明确问题，而非堆特效。
 #### 5.6.1 加快开头节奏
 删掉无效停顿，把最具冲突和视觉吸引的画面前置。Shorts 前三秒很关键。
@@ -523,17 +523,17 @@ YouTube Shorts 封面多在手机端选择，我习惯把封面画面放在第�
 最后一步是建频道并发布。
 #### 5.7.1 登录并创建账号
 进入 https://www.youtube.com/ 用 Google 账号登录。无账号则按提示填写姓名、生日、性别、密码、手机号，完成验证并设置 Gmail。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_955ca63296757247f02221994dc333d0_50_0.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_955ca63296757247f02221994dc333d0_50_1.png>
+![](img/zhuanqian_955ca63296757247f02221994dc333d0_50_0.png)![](img/zhuanqian_955ca63296757247f02221994dc333d0_50_1.png)
 #### 5.7.2 创建并装修频道
 点右上角头像，填写频道名和标识名。完成后设置头像、封面图和简介，可参考对标并用 AI 辅助生成。
 【AI 生成频道名提示词示例】
 你是一个资深YouTube运营专家，我现在要创建一个关于【达人秀变身】赛道的频道，需要你帮我想10个简洁、好记的英文频道名字，以下是一些名字的参考:【xxx,xxx,xxx,……】（将模板中的【】替换为你的赛道和对标频道名参考）
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_955ca63296757247f02221994dc333d0_51_0.png>
+![](img/zhuanqian_955ca63296757247f02221994dc333d0_51_0.png)
 #### 5.7.3 完成基础设置
 进入 YouTube Studio，频道设置中把国家地区改为美国，高级设置选“非面向儿童”。同一 Google 账号可在“高级设置—管理 YouTube 账号—创建新频道”下添加多个频道。
 #### 5.7.4 上传并发布视频
 上传后填写标题和话题。标题可参考对标或 AI 生成，话题优先选相关且热度高的。确认详情和发布时间后发布。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_955ca63296757247f02221994dc333d0_52_0.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_955ca63296757247f02221994dc333d0_52_1.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_955ca63296757247f02221994dc333d0_52_2.png>
+![](img/zhuanqian_955ca63296757247f02221994dc333d0_52_0.png)![](img/zhuanqian_955ca63296757247f02221994dc333d0_52_1.png)![](img/zhuanqian_955ca63296757247f02221994dc333d0_52_2.png)
 ## 6 若现在带新手从零开始，我会这样安排
 如果重来做 YouTube 短视频，我不会一开始建很多账号，也不会同时测多个完全不同的赛道。新手需要的不是一份看起来完整却执行不了的复杂体系，而是一条能尽快闭环的最短路径：选赛道→找对标→拆脚本→改编脱敏→生成图片→生成视频→剪辑发布→数据复盘→合规排查。先跑通一次闭环，再根据数据决定是否多开频道。
 ### 6.1 第一步：先锁定一个赛道，不要贪多
@@ -592,7 +592,7 @@ YouTube Shorts 封面多在手机端选择，我习惯把封面画面放在第�
 时间仅供参考，有人两周达标，有人三个月仍在验证。关键是数据是否持续正向反馈。
 ## 7 失去 YPP 两次后总结的避坑清单
 两次被移出 YPP 后，我最大的体感是：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_955ca63296757247f02221994dc333d0_53_0.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_955ca63296757247f02221994dc333d0_53_1.png>
+![](img/zhuanqian_955ca63296757247f02221994dc333d0_53_0.png)![](img/zhuanqian_955ca63296757247f02221994dc333d0_53_1.png)
 拿到 YPP 的那一刻并不可怕，可怕的是拿到之后还能不能一直合规地赚到钱。
 我做了两次频道，也丢掉了两次 YPP。表面看一个是儿童安全，一个是同质化违规，根上都指向同一种误判：
 把“暂时没被处理”，当成了“这件事没问题”。
@@ -626,7 +626,7 @@ YouTube 复查时，往往会重点看播放最高、最新发布、观看时长
 [内嵌电子表格——无法获取表格信息]
 频道 90 天内累计 3 次未解除的版权警告，账号和关联号都有被封的风险。注意，删除收到警告的视频，通常并不会自动解除警告。
 别把“先发了再说”当成策略。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_955ca63296757247f02221994dc333d0_65_0.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_955ca63296757247f02221994dc333d0_65_1.png>
+![](img/zhuanqian_955ca63296757247f02221994dc333d0_65_0.png)![](img/zhuanqian_955ca63296757247f02221994dc333d0_65_1.png)
 上图是我因达人秀音乐问题收到的版权主张
 长视频要重点自查四类素材：视频片段、图片素材、音乐/音效、字体。其中视频和音乐最致命。
 影视剧、综艺、短剧、他人的视频片段，哪怕简单剪辑也不等于有权使用和变现。音乐建议用 YouTube 自带的免版税音频或正规免版权源。
@@ -665,12 +665,12 @@ AI 视频每一步看起来简单，实操却很容易卡：Google AI Studio 打
 线下最怕浪费时间在注册登录上。我提前整理了飞书文档「6.6 YouTube AI 视频实操和工具分享」，包含对标视频、制作流程、拆解改编提示词、常用工具清单，方便现场即查即用。
 分享前一天我把即梦、千问、Google AI Studio 的链接发到群里，提醒大家提前注册登录，减少现场排队和找回密码的时间。
 考虑到部分同学无法使用海外工具，我准备了 Google AI Studio 拆解后的分镜提示词。无法使用时，可直接用 DeepSeek 等国内工具改编，再生成图和视频提示词。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_955ca63296757247f02221994dc333d0_71_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_955ca63296757247f02221994dc333d0_71_1.png>
+![](img/zhuanqian_955ca63296757247f02221994dc333d0_71_0.png)
+![](img/zhuanqian_955ca63296757247f02221994dc333d0_71_1.png)
 视频生成主用即梦，另测试了千问作为备用，有免费额度，速度快，适合现场快速试错。线下不是比工具强弱，而是给每个卡点准备第二条路。
 #### 现场流程
 实操分为三段：把对标变成脚本，把脚本变成画面，把画面变成成片。亲手走一圈，卡点才会被看见。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_955ca63296757247f02221994dc333d0_72_0.png>
+![](img/zhuanqian_955ca63296757247f02221994dc333d0_72_0.png)
 #### 现场最容易卡住的细节
 大家的问题都很具体，都是第一次做 AI 视频的真实坑：
 Google AI Studio 无法拆解视频：点左上角 Playground 粘贴链接，1小时以上的长视频解析常失败，可下载后附件上传分析。
@@ -693,7 +693,7 @@ Google AI Studio 无法拆解视频：点左上角 Playground 粘贴链接，1�
 “引导特别好，现场氛围棒，学到之前没了解的 Shorts 内容。”
 也有同学晒出发布数据：一条视频收获 1115 观看和 15 位订阅。数据不大，但说明方法真的被用起来了。
 为了这次分享，我准备了近 100 页 PPT、工具清单、提示词、飞书文档和备用方案。看到群里不断出现“感谢浅夏老师无私分享”“没有随随便便的成功”，才觉得所有的准备都值了。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_955ca63296757247f02221994dc333d0_78_0.png>
+![](img/zhuanqian_955ca63296757247f02221994dc333d0_78_0.png)
 一次好的分享，价值不在于有多少人记住了要点，而是是否有人听完就真的去做了。
 ### YouTube AI 视频并非人人皆宜，却是锻炼内容能力的绝佳沙盘
 有人问我现在做 YouTube AI 视频还值不值得，我不会用一个简单的 yes 或 no 来回答。
@@ -785,4 +785,4 @@ YouTube AI 短视频最显著的特征就是不确定性。
 工具和教程只是入门级壁垒，真正的壁垒是“立刻开干”与“圈层信息差”。
 我们不做空谈，只做商业闭环拆解与 AI 效率榨取。内部已沉淀 1000+ 跑通的套利实战案例。
 👉 查看圈子数字资产与入场门槛：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_955ca63296757247f02221994dc333d0_86_0.png>
+![](img/zhuanqian_955ca63296757247f02221994dc333d0_86_0.png)

@@ -1,9 +1,9 @@
 # 普通人能做 ChatGPT 相关海外工具的 IDEA 方向
 想靠 ChatGPT 在海外市场找机会？普通人也能上手，关键是找准方向。这次分享来自一位在 SaaS 领域摸爬滚打 8 年的老手——子木（二哥），他曾在有赞、售后宝这类公司任职，也做过工具产品，对“软件出海”颇有心得。下面把这些干货重新梳理一遍，角度和说法都换一换，但核心观点不变。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0a404258513c0e88dc22ca94b81bb6e5.png>
+![](img/zhuanqian_0a404258513c0e88dc22ca94b81bb6e5.png)
 ## 先想明白：工具站靠什么赚钱？
 不管做什么，赚钱离不开两个基本盘：**流量**和**产品**。光有产品没人看不行，光有流量没产品承接也不行。对应到 ChatGPT 海外工具站，赚钱路径分两种：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ec43d6cdccdcbc9ffc9203cdca87b960.png>
+![](img/zhuanqian_ec43d6cdccdcbc9ffc9203cdca87b960.png)
 ### 一、靠“流量”变现
 思路是：做一个**免费**的 ChatGPT 相关工具站，用实用功能把人吸引过来，然后通过挂广告、分销、联盟推广（Affiliate）、发卡导流等方式把钱赚了。比如 [https://decompilertool.com/](https://decompilertool.com/) 、[https://sharegpt.com/](https://sharegpt.com/) 这类站点，本质就是“拿工具换流量，拿流量换收益”。
 这类玩法的要点：
@@ -48,6 +48,6 @@ ChatGPT 海外工具站，赚钱要么靠免费工具吸流量（广告、联盟
 - 《英文工具站的复盘：认知、流量、心态方向（更适合程序员）》
 - 《跳出程序员思维：如何应对上手英文工具站的几点误区》
 感兴趣可以去找来读读。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9cf536111525bb01c64107682ea0b31a.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1fa02ac0d6313a47ea8933ffa87700f8.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_536d99763453bb5d9315daa98d7380c2.png>
+![](img/zhuanqian_9cf536111525bb01c64107682ea0b31a.png)
+![](img/zhuanqian_1fa02ac0d6313a47ea8933ffa87700f8.png)
+![](img/zhuanqian_536d99763453bb5d9315daa98d7380c2.png)

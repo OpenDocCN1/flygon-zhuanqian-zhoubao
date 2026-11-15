@@ -6,15 +6,15 @@
 **1. 把细节喂够，别让AI“读心”**
 提问越具体，答案越有用。先把背景交代清楚，再说明你想要什么类型的信息，必要时补充相关领域情况；最忌讳的是抛出一个又大又空的问句。
 比如你只问：“我身体不太舒服，这是怎么回事？”——这个问题太模糊了，AI只能先反问你一堆问题。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8b9f28f55838276b5ac879974af82748.png>
+![](img/zhuanqian_8b9f28f55838276b5ac879974af82748.png)
 换成：“我最近三天出现发热、咳嗽、乏力，既没有过敏史，也没有慢性病，这些症状可能是什么原因？”——它就能直接给出有方向的分析。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_86e6df7bac3303d338655b2eaf565dc6.png>
+![](img/zhuanqian_86e6df7bac3303d338655b2eaf565dc6.png)
 **2. 给AI一个角色，回答立刻“入戏”**
 让AI扮演特定身份，等于给它装上一个“视角滤镜”，回答的专业性和深度都会变强。操作也不难：先说清角色，再补一点角色背景，最后用符合这个身份的语境去提问。
 比如普通问法：“请介绍一下第一次世界大战的主要原因。”
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_660114e0a2f5172fddb87f91028d3169.png>
+![](img/zhuanqian_660114e0a2f5172fddb87f91028d3169.png)
 换成带角色的问法：“假如你是一位专注20世纪欧洲史的历史学家，请解释第一次世界大战的主要起因。”
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_829bfdbec1689348082ed301118800e4.png>
+![](img/zhuanqian_829bfdbec1689348082ed301118800e4.png)
 再看两个更日常的例子：
 - “家庭医生怎么评估和处理轻度头痛和疲劳？”不如说“作为一名有10年临床经验的全科医生，你会如何处理轻度头痛和乏力的症状？”
 - “推荐点学Python的资源吧”不如说“以资深编程教师的身份，给零基础初学者推荐学习Python的最佳资源和练习路径。”
@@ -61,7 +61,7 @@
 大师，什么是大海？
 ```
 #### 2）使用效果
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c213f6a53aaa95affa9324463db006e8.png>
+![](img/zhuanqian_c213f6a53aaa95affa9324463db006e8.png)
 可以看出，模型严格按照我们的要求输出了内容，虽然这种回答难以用语言明确描述，这就是所谓的“少样本 （Few-shot）”提示方法。
 # 三、框架
 ## 一）ICIO 框架
@@ -71,7 +71,7 @@
 输入数据（Input Data）
 输出引导（Output Indicator）
 ### 2、详细含义：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_12c142165fa8e6695415ebea89913663.png>
+![](img/zhuanqian_12c142165fa8e6695415ebea89913663.png)
 ### 3、示例
 ```
 AI看到这个“一问一答”的示范，就会自觉对齐语气和句式。
@@ -120,7 +120,7 @@ Tips：这里通过设定详细的输出引导，为 AI 模型提供了清晰的
 ```
 同样的结构，你完全可以复制一份，换成自己的任务需求，变成你的专属提示词模板：
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a7c7fcadeda2b144ec8d1ebc5fe8586b.png>
+![](img/zhuanqian_a7c7fcadeda2b144ec8d1ebc5fe8586b.png)
 # 五、总结
 以上我们通过开始介绍提示词是什么，再到提示词局限性，之后讲了提示词技巧，最后再给大家拆解了一个案例，按照这个思路来学习，我相信你应该学会了如何更好的向 ChatGPT 提问了。
 我是龙哥，如果有知乎起号，公众号起号，以及 AI 提示词相关的问题，欢迎加我个人微信「DQ-Prompt」与我产生链接。

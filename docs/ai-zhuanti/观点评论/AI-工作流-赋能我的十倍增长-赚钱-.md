@@ -13,9 +13,9 @@
 写的时候还不停地改提示词，改到怀疑人生。
 一周下来，他只完成3篇文章，没一篇满意的。而以前不用AI，他一周能稳定写5-6篇，质量还算过得去。
 阿杰的问题，不是AI不行，是他没有一套完整的打法。大量的时间都浪费在换工具、调提示词上。今天试这个，明天试那个，看似一直在忙，实际上是在打游击战。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_17c70967e05bb7919139483c38e8189e.png>
+![](img/zhuanqian_17c70967e05bb7919139483c38e8189e.png)
 真正要破局，靠的不是某个“更牛的AI”，而是把工作流程化，让AI在每一个环节里各就各位。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_848d29afae74a941dcbd6d2e47feb543.png>
+![](img/zhuanqian_848d29afae74a941dcbd6d2e47feb543.png)
 二、AI工作流，到底是什么？
 先理解“工作流”。说白了，就是把一件大任务拆成多个步骤，步骤之间环环相扣，上一个产出喂给下一个环节。
 拿公众号写作来举例，一篇文章从0到发布，通常要经历：
@@ -24,12 +24,12 @@
 AI工作流呢？就是在这条链路的每一步里，接入最擅长干这件事的AI工具。想标题用点子多的模型，写正文用文笔好的模型，校对错字病句用专门的AI纠错工具……
 每个环节都让“最合适的那双手”来做，整体效率自然最大化。
 总想找一个万能AI解决所有问题，就像让一个篮球中锋去游自由泳，根本行不通。把对的人放在对的位置，团队才能赢。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e92a86b441b14bcf031ab922de7b7e6a.png>
+![](img/zhuanqian_e92a86b441b14bcf031ab922de7b7e6a.png)
 有人说：AI写出来的东西，没有灵魂。
 我承认，至少现阶段是这样。但它能帮你用极短时间，从0分快速写到70分；你再在70分的基础上，加入自己的判断和阅历，打磨到80分。这比一个人面对空白文档，硬憋到80分，快太多了。
 而且，随着模型能力和提示词水平的提升，未来AI完全有可能直接给出80分的初稿。到那时，先跑通AI工作流的人，只需要在原有流程里把旧工具换成新工具，就能立刻吃到技术红利；而那些还没建立流程意识的人，等新东西出来了才开始学，已经落后一大截。
 强者恒强、慢者更慢的马太效应，在AI时代只会更明显。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c41a4b15968eb35049aa57a325ec26db.png>
+![](img/zhuanqian_c41a4b15968eb35049aa57a325ec26db.png)
 三、搭建AI工作流，需要三种能力
 想玩转AI工作流，你至少要具备三种能力。
 第一层：熟悉各种AI工具。
@@ -39,9 +39,9 @@ AI工作流呢？就是在这条链路的每一步里，接入最擅长干这件
 第三层：搭建AI智能体。
 智能体就像你雇来的数字员工。你把工作步骤设定好，它自动调用工具、按顺序执行任务，全程不需要你盯着。你只需要下指令、验结果。
 这三层是一层一层进阶的。你可以对照一下，自己现在停在哪一层？
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_da0cbb3e0dfdf0fc19bb532a9cd3fd70.png>
+![](img/zhuanqian_da0cbb3e0dfdf0fc19bb532a9cd3fd70.png)
 找到差距，多学多练多交流，你也能一步步升级。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_314535cf4f3cdaaf23aa5d5780462b89.png>
+![](img/zhuanqian_314535cf4f3cdaaf23aa5d5780462b89.png)
 四、搭建AI工作流，四步就够
 别想太复杂，按下面四步走，你就能拥有第一版AI工作流。
 第1步：找一个你熟悉的工作场景。
@@ -56,7 +56,7 @@ AI工作流呢？就是在这条链路的每一步里，接入最擅长干这件
 遇到问题，就解决当下这个问题：工具不好用，可能是提示词不行，也可能是工具本身不适合；工作流效率低，就去学智能体，或者找懂的人帮忙。
 别总想着一口气吃成胖子。你当下面临的问题，只是怎么拆解工作场景、选什么工具提效，而不是“AI太复杂我学不会”。
 真正的阻碍，往往不是AI，而是你想得太多。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_750a3638b9253af647c3b7f99cde7baa.png>
+![](img/zhuanqian_750a3638b9253af647c3b7f99cde7baa.png)
 五、公众号写作实操：工具与流程示范
 接下来我用公众号写作这个场景，手把手带你把整套流程跑一遍。
 先备好三样工具。
@@ -65,41 +65,41 @@ Mac用户推荐Arc浏览器；Windows用户不用折腾，用现有浏览器就�
 Arc的核心价值，是把常用网页收进独立“空间”，避免开一堆标签页分散注意力。就像飞行员的检查清单，整个流程标准化、清晰化，不用想着“下一步用什么”。
 注意：Arc需要你能访问谷歌网络，并开启全局代理。如果你的网络条件不允许，直接跳过，用浏览器收藏夹一样能达到效果。
 安装注册Arc后，你会进入主界面。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7d8d8b188a1e70c33ac1bebba0aaec14.png>
+![](img/zhuanqian_7d8d8b188a1e70c33ac1bebba0aaec14.png)
 点击左下角“+”号，创建一个新空间。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8a479a847703d8290890d08a4bbe52e8.png>
+![](img/zhuanqian_8a479a847703d8290890d08a4bbe52e8.png)
 给这个空间起个名，比如“公众号写作”。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_60d8654b8005620678b568a4ff9a8627.png>
+![](img/zhuanqian_60d8654b8005620678b568a4ff9a8627.png)
 创建完成，你就拥有了一个专属的工作台。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0ef91023e70ee2e23b0d437ed200e182.png>
+![](img/zhuanqian_0ef91023e70ee2e23b0d437ed200e182.png)
 接着，在这个空间里建几个文件夹，给网页分类。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1dc5c9f1de2508b5403b0bfbdcb9ec0e.png>
+![](img/zhuanqian_1dc5c9f1de2508b5403b0bfbdcb9ec0e.png)
 比如按“选题”“写作”“发布”来划分，一切按你的习惯来。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7c504eb6c4d136fd31ccc9a27e2a36c1.png>
+![](img/zhuanqian_7c504eb6c4d136fd31ccc9a27e2a36c1.png)
 打开微信公众平台，把网址拖拽到“发布”文件夹里固定住。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_31303201f47b00c9555a9076aef29fac.png>
+![](img/zhuanqian_31303201f47b00c9555a9076aef29fac.png)
 固定之后，就算误关了页面，公众号后台也随时能取出来用。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_858978130ef437856ff49a415cccc06a.png>
+![](img/zhuanqian_858978130ef437856ff49a415cccc06a.png)
 做到这一步，浏览器的准备工作就完成了。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_63e86386e3111aaaee3d8017dda2f712.png>
+![](img/zhuanqian_63e86386e3111aaaee3d8017dda2f712.png)
 如果你用普通浏览器，操作逻辑完全一样：把常用网页整理到收藏夹栏，随用随点。一样能减少干扰，让工作节奏稳定下来。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4be1d2732448ea4903e612896b7ed9bd.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_69a1abc9c2970d6dcf1c919535279bc2.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_54626396590053ac7e84d16eea733078.png>
+![](img/zhuanqian_4be1d2732448ea4903e612896b7ed9bd.png)
+![](img/zhuanqian_69a1abc9c2970d6dcf1c919535279bc2.png)
+![](img/zhuanqian_54626396590053ac7e84d16eea733078.png)
 （2）飞书文档
 写作需要趁手的编辑器。别折腾Obsidian这类高门槛工具了，除非你本就很熟练。更推荐直接用飞书客户端或网页版飞书文档，开写即可，在线同步、方便省事。
 （3）迅捷Markdown编辑器
 先别被“Markdown”吓到，你不需要现在学它，按步骤操作就行。
 打开迅捷Markdown官网，微信扫码登录，新建一个Markdown文档。免费版只能建一个文档，但完全够用了，千万别充会员。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3e777669a4d87a371ba5222c7b5ee747.png>
+![](img/zhuanqian_3e777669a4d87a371ba5222c7b5ee747.png)
 新建后，你会看到它的编辑界面。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_037761be14592925d933b7641b769dcb.png>
+![](img/zhuanqian_037761be14592925d933b7641b769dcb.png)
 把飞书文档里的文章全选复制，粘贴进来。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6c8d781acb775d9ecbf10fff109f1a96.png>
+![](img/zhuanqian_6c8d781acb775d9ecbf10fff109f1a96.png)
 你会发现，标题和图片格式都被完整保留了下来。这里就是后面排版环节的“格式中转站”。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_679e1f3735495bc6b20efefa42b814d7.png>
+![](img/zhuanqian_679e1f3735495bc6b20efefa42b814d7.png)
 到这里，工具全部就位。它们整整齐齐地躺在Arc空间（或你的收藏夹）里，随用随取，整个写作流程的起点已经铺好。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_682d878a251a7095c57e5a1d861c971a.png>
+![](img/zhuanqian_682d878a251a7095c57e5a1d861c971a.png)
 六、为什么非要把流程拆开？
 聊完了实操，再聊一个底层问题：你为什么要拆流程？
 四个理由，一个比一个实在。
@@ -120,20 +120,20 @@ Arc的核心价值，是把常用网页收进独立“空间”，避免开一�
 祝你也早日拥有，每天多出来的那一小时。
 我一直在琢磨，AI 能不能把“运营一个微信公号”这种看似复杂的任务，拆成一张清清楚楚的流程图？于是我就试了试。操作很简单：我把我之前写的内容全都丢给 Claude，然后问它——写一篇公号文章，具体要走哪些步骤？每一步里面还要做什么动作？
 刚开始 Claude 回复的只是一层粗框架，中间环节看着很虚。这没关系，我继续追问了一句“能不能把每个环节再展开”，它就开始给你逐条细化。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_baf3f4e805c5620fd1eb30d707e7b84d.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7c755fded70ee8a81c198c1e272959aa.png>
+![](img/zhuanqian_baf3f4e805c5620fd1eb30d707e7b84d.png)
+![](img/zhuanqian_7c755fded70ee8a81c198c1e272959aa.png)
 我又换了个应用场景测试：如果任务换成制作 PPT，或者是撰写学术论文，AI 也能同样把流程拆开吗？试了试，完全可行。
 看来，在搭建智能流程的第一步——也就是“把一项任务拆成可操作的小步骤”——AI 就能明显提升效率，根本不用等到后面。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7e5a5f88c235fce4a8448493e2ad573e.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_375482a8c45f967b3ffd438294d520e0.png>
+![](img/zhuanqian_7e5a5f88c235fce4a8448493e2ad573e.png)
+![](img/zhuanqian_375482a8c45f967b3ffd438294d520e0.png)
 拆完只是纸面清单，我更建议你把它画出来。图形比纯文字直观，记忆也更久。我自己就按照实际情况用 Xmind 做了一张时间轴，整体脉络一眼就能看到底。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_94a9a8d624703c23cd7c1aeb9467ed23.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_55ea7940bd4185d1444ae8010b5bf1f0.png>
+![](img/zhuanqian_94a9a8d624703c23cd7c1aeb9467ed23.png)
+![](img/zhuanqian_55ea7940bd4185d1444ae8010b5bf1f0.png)
 到这里，我们拿到了搭建智能流程的第一个产物：工作的详细步骤清单。这份清单并不会闲置，它会直接作为底稿，进入下一步的框架搭建。
 * * *
 等等，之前我们说过，做任何事之前先想想“这里能不能让 AI 出点力”。那画流程图，AI 似乎也能画呀。但按照埃隆·马斯克做事的五大原则，首要是质疑需求。我们真的需要 AI 来代笔画图吗？
 画图这个动作，本质上是让你自己把逻辑走一遍。亲手画一次，脑子里的印象才足够深。要是让 AI 来画，这一层主动思考就错过了。另外一个现实原因是，目前 AI 生成的流程图风格粗糙，想要改点什么还很费劲。下面这张是我让 Claude3.5 生成的样例，效果嘛……你们自己感受吧 hhh。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4e418e5d3c7d38b565326e728be87b78.png>
+![](img/zhuanqian_4e418e5d3c7d38b565326e728be87b78.png)
 # 六、把工具接入流程
 前面花了不少篇幅在讲拆分，但拆分只是起跑线。接下来，我们要在拆好的流程上，把合适的 AI 工具一个个接进去，让整套流程真正“智能”起来。
 这里有个不能绕开的原则：先把传统流程弄明白，再考虑在哪里加 AI。
@@ -153,18 +153,18 @@ AI 顶多是“锦上添花”的辅助，真正的地基是你对业务的理�
 2. 找参照：找出同赛道里做得优秀的账号；
 3. 随手记：遇到好内容马上存下来；
 4. 归类整理：定期把零散内容收进统一库里。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b3fb084087c11d2147f6dce6faf79e9d.png>
+![](img/zhuanqian_b3fb084087c11d2147f6dce6faf79e9d.png)
 小零件拆到位，接下来该配什么工具就一目了然：
 1. 明确读者：交给 AI 做用户画像；
 2. 找参照：用元宝快速搜索相关账号；
 3. 随手记：直接用微信群接收；
 4. 归类整理：用飞书文档搭建选题库。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4a72b9f5622905b36da78b4bbf21eb60.png>
+![](img/zhuanqian_4a72b9f5622905b36da78b4bbf21eb60.png)
 下面逐个来说。
 ## 7.2 让 AI 帮你分析公号定位
 选题前，先要站在读者角度想：你的内容给谁看？他们遇到什么困难？凭什么来看你？别只顾自己写得爽，要解决的是真实问题。我的读者是一群想借助 AI 提高效率的上班族，那他们会在什么时间、什么场景下需要阅读我这类内容呢？
 每次动手前，都应该问一句：这一步 AI 能帮我做点什么？现在，我需要切换到读者视角来审视公号定位，这一步正适合交给 AI。于是我把本文内容当“背景资料”发过去，再让它基于这些信息做定位分析。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6b2b0807dd4e05d81f726c02e1378a88.png>
+![](img/zhuanqian_6b2b0807dd4e05d81f726c02e1378a88.png)
 如果你想直接复制使用，我写了一份公号定位分析助手的提示词，可粘贴到 ChatGPT4o、Claude、kimichat 里运行。可复制版本：
 ```
 #Role
@@ -227,12 +227,12 @@ AI 顶多是“锦上添花”的辅助，真正的地基是你对业务的理�
 然后按照来一步步执行任务。
 ```
 下面是实际测试效果，我更推荐用 Claude 跑。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bf60599359db16725df003d99bb1d0d7.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_490233cb4bcdf167aaffc50e26583e35.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_41b93846c1694c683e15d40f146c2ab4.png>
+![](img/zhuanqian_bf60599359db16725df003d99bb1d0d7.png)
+![](img/zhuanqian_490233cb4bcdf167aaffc50e26583e35.png)
+![](img/zhuanqian_41b93846c1694c683e15d40f146c2ab4.png)
 ## 7.3 找对标账号与被验证的选题
 提示词里有一行，是请 AI 输出一组[搜索关键词]。别小看它，接下来的搜索就靠这组词。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_300c4f4b9958dd1468e58e63c146f835.png>
+![](img/zhuanqian_300c4f4b9958dd1468e58e63c146f835.png)
 ### 7.3.1 为什么非要寻找对标号？
 所谓对标号，就是那些定位与你相近、但已经做得比你好、阅读量也稳定的公号。它们的存在，等于替你试验了哪些选题在市场上有需求。
 举个例子，你想做一个 AI 工具分享号，那就先搜索“AI 工具”这四个字，看看排在前面的是哪些号——这些都是现成的对标号。然后点进去，研究它们最近发了什么内容，哪些文章数据特别漂亮。那些数据好看的文章，就是我们要学的对标文。
@@ -246,42 +246,42 @@ AI 顶多是“锦上添花”的辅助，真正的地基是你对业务的理�
 你读过的优秀文章越多，你脑子里的“选题模型”就会越准，慢慢会对什么内容有潜力变得特别敏感。
 ### 7.3.2 用微信群做随手记
 具体怎么通过微信搜一搜来找“对标文”？操作很简单：打开微信搜一搜，输入关键词，再点“文章”标签页，然后一篇篇看就行。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fce4e583954c4ee46efc9a4534728987.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_92b637a1ec3ab27d1b38e90ca15fdc25.png>
+![](img/zhuanqian_fce4e583954c4ee46efc9a4534728987.png)
+![](img/zhuanqian_92b637a1ec3ab27d1b38e90ca15fdc25.png)
 看的时候不能只看热闹，还要解决“怎么存下来”的问题。如果没有一套沉淀机制，你刷到的选题过两天就忘干净了。这套机制可以分成两层：随手记 + 定期整理入选题库。
 先说随手记。你刷公号的时候，往往不在电脑旁边，不太可能停下来打开文档做记录。更高效的方法是：先大量刷，往一个临时收集区里丢，等有空了再统一整理。而且先攒着还有个好处——如果你最先看到了一篇阅读量 4000 的文章，觉得不错就立刻收进选题库，结果后面又刷到同题材但阅读量 5 万的，你还得跑回去改。与其来回折腾，不如先囤着，最后集中挑最好的。
 这个临时收集区不需要装新软件，用微信自带的“群聊”功能就能跑。发起群聊，选“面对面建群”，随便输入几个数字作为密码，再把群名改成“选题收集”之类就行。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_055c801ad284b1a42fcb1c8b9f8fdfba.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_303a3ae9d12a875bfb597a9839202475.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0e5e2a26dbdaaddd6c8b3c624ed8edee.png>
+![](img/zhuanqian_055c801ad284b1a42fcb1c8b9f8fdfba.png)
+![](img/zhuanqian_303a3ae9d12a875bfb597a9839202475.png)
+![](img/zhuanqian_0e5e2a26dbdaaddd6c8b3c624ed8edee.png)
 接下来，刷到阅读量不错的文章，直接点“转发”，扔进这个群。记得在转发时打上标签，并写一句“为什么收藏它”。要是不写，等过半个月再回头看，你可能完全想不起当初的意图。
 我习惯用这几个标签：#选题、#标题、#异常值。比如 #选题 表示这篇文章可以储备为选题；#标题 表示标题写法值得学习；#异常值 则用来标记一个反常现象：这个号平时也就几百阅读，这篇却冲到 2 万，说明背后肯定有文章。
 然后写原因，比如“标题不咋地，但阅读量高”——这就说明选题本身很强。我如果借用这个选题，再换个更吸引人的标题，是不是也很容易有流量？
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3de1f413181d161105cc500f59bdc9ae.png>
+![](img/zhuanqian_3de1f413181d161105cc500f59bdc9ae.png)
 再比如下面这篇，内容的信息量很密，但写得很长，看风格搞不好就是 AI 生成的。可它照样阅读过万。我琢磨了一下，很可能因为标题里带了“万字长文”这个字眼。下次我发长内容，也会考虑把这个词加进标题。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b73f9ec01a869410922a5b3385327e30.png>
+![](img/zhuanqian_b73f9ec01a869410922a5b3385327e30.png)
 除了标题和选题，如果你在文章里看到特别有感觉的句子，也可以单独选中，再转发进群。比如某个作者的点赞引导语很自然，我就只转那一句，后面整理时更容易找到重点。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d0cc79b7b668710aa2884319ca9e9bf0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f01c03778130b14b4197d5ae3c3cb7c6.png>
+![](img/zhuanqian_d0cc79b7b668710aa2884319ca9e9bf0.png)
+![](img/zhuanqian_f01c03778130b14b4197d5ae3c3cb7c6.png)
 ## 7.4 借助 AI 追踪对标号的爆款
 刷文章时别只看单篇，最好点开作者主页，整体观察他的账号数据。看他是一个做了好几年的成熟大号，还是刚起步的小号。如果是大号，阅读量高是粉丝体量堆出来的，参考价值不大。我们要留意的是“低粉爆款”——粉丝不多，却突兀地冒出一篇高阅读文章。
 怎么判断？看“异常值”。一个号的文章平时只有几百阅读，突然有一篇到了几万，这就是异常值。一般情况下，号主也会把自己表现最好的文章放到“作者精选”里，顺着这里找异常值非常方便。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_52916935a347cf21137a0ac8a387197f.png>
+![](img/zhuanqian_52916935a347cf21137a0ac8a387197f.png)
 一个号可能不只有一篇异常值，那怎么快速把它的标题、阅读量全部拿到手？用 RPA 写爬虫，对普通人来说门槛太高。我想到一个朴素的办法：长截图 + 中文识别能力够强的大模型，比如 kimi chat。
 ChatGPT 我尝试过，不行。长一点的图片发过去会被压缩，图里的小字基本识别不出来。后来我盯上了飞书客户端自带的截图工具，它的“长截图”功能真是好用。打开飞书，点头像进设置，在快捷键设置里能找到：Windows 默认 Ctrl+Shift+A，Mac 默认 Alt+Shift+A，你也能按习惯改掉。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a9e5a51fb29b2a83a4b642cc5035783d.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_be294123353148d6d2ba24bc033844b6.png>
+![](img/zhuanqian_a9e5a51fb29b2a83a4b642cc5035783d.png)
+![](img/zhuanqian_be294123353148d6d2ba24bc033844b6.png)
 然后在电脑微信里，打开对标号的微信公号的主页，进入下面这个作者界面（我拿微信官方号演示一下）。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1ffcd7b5081b82def14b8ccffa9afcb1.png>
+![](img/zhuanqian_1ffcd7b5081b82def14b8ccffa9afcb1.png)
 如果你的手机支持长截图，用手机操作也可以。但我不太推荐，因为手机上一打开微信，很容易被各种红点、信息流、小程序广告带走注意力。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5d08d923a3325365e815c1abb0f171a5.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e54ab6f4cc15eb1520aae6c853d9adb1.png>
+![](img/zhuanqian_5d08d923a3325365e815c1abb0f171a5.png)
+![](img/zhuanqian_e54ab6f4cc15eb1520aae6c853d9adb1.png)
 ## 7.5 搭建选题库与标题库
 打开飞书文档，新建一个空白文档。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_196f5ae9baad0ca24c8f74ef6de4da1a.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_59ee3adf7e502fc0f8670671ec317631.png>
+![](img/zhuanqian_196f5ae9baad0ca24c8f74ef6de4da1a.png)
+![](img/zhuanqian_59ee3adf7e502fc0f8670671ec317631.png)
 然后复制下面这个模板，粘贴到你的新建文档里。模板里的字段维度是我按自己的需要列的，你可以完全按自己的情况改。没有统一标准，适合自己就好。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0ed5afa149d448e37817427fe066f15c.png>
+![](img/zhuanqian_0ed5afa149d448e37817427fe066f15c.png)
 ## 7.6 让 AI 帮你追踪对标号
 （本节继续，见后续内容。）
 在写作这件事上，很多人的第一反应是：找个好用的 AI 工具，把活全丢给它。
@@ -314,9 +314,9 @@ ChatGPT 我尝试过，不行。长一点的图片发过去会被压缩，图里
 要做到这一点，前提是先亲手跑通过整个写作流程。如果你连文章结构怎么搭、爆款文案有什么套路都心里没底，你怎么分辨 AI 给的建议是金玉良言还是胡说八道？你不被它带偏谁被带偏？万一哪天 AI 服务宕了，或者来了个 AI 根本听不懂的特殊需求，你还能不能写出东西来？
 所以说，先自己动手跑一遍流程，你才能对 AI 发号施令。只有亲身趟过这条河，你才知道哪里水深、哪里水浅，也才知道该让 AI 在哪段帮你搭桥。
 你驾驭工具，而不是被工具牵制。AI 很强，但真正的护城河，永远是你的思考力与创造力。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e857e3bcce8175dcf12dfa5ab5c424cb.png>
+![](img/zhuanqian_e857e3bcce8175dcf12dfa5ab5c424cb.png)
 还有一个相当实用的补充——找资料这步，可以用腾讯元宝来提速。腾讯元宝是腾讯混元大模型的一款 AI 助手，主打 AI 搜索、AI 总结、AI 写作，尤其能搜到公众号平台上的文章内容。想找什么，直接给它指令：“去公众号搜索关于「关键词」的文章”，它能帮你快速圈出相关的号主与文章，作为拆解对标的弹药库，效率直接成倍放长。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0e088b8395d7fa25ebce885a42e634ae.png>
+![](img/zhuanqian_0e088b8395d7fa25ebce885a42e634ae.png)
 聊完了 AI 和写作的分工边界，真正实操时你会发现：如果拆解板块看得手痒，别急，后面马上拆给你看。
 ```
 0、数据分析 看一下这篇文章的数据怎么样，先大概了解一下它是怎么爆起来的。
@@ -332,19 +332,19 @@ ChatGPT 我尝试过，不行。长一点的图片发过去会被压缩，图里
 10、解决痛点 文章解决了读者什么具体问题?怎么解决的?
 ```
 下面就用一篇真实拆解，完整演示这套解剖流程。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b1f28602df01f3a1c43afbfde97c0e61.png>
+![](img/zhuanqian_b1f28602df01f3a1c43afbfde97c0e61.png)
 看数据层面：转发三千九百多，点赞才三百出头，这种悬殊比通常意味着内容有极强的“利他性”，读者看完第一反应是值得分享给朋友。另一种可能是时效性拉满，比如刚发布了重磅消息，大家急着扩散。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_471e88eb9606a5a6f781d4802fc8d436.png>
+![](img/zhuanqian_471e88eb9606a5a6f781d4802fc8d436.png)
 看结构层面：全文就是典型的“总—分”格局，开头说明写文动机，中间按每个平台的用法、免费额度、优缺点依次交代，最后不需要额外收尾，干干净净。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_23c9a4555de6c741480182e63ac62c2f.png>
+![](img/zhuanqian_23c9a4555de6c741480182e63ac62c2f.png)
 是的，架构一点也不花哨，但数据偏偏就是爆了。背后的真正原因，还得继续往深挖。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9ccb86d1d63f1931f7bff86f91080cd2.png>
+![](img/zhuanqian_9ccb86d1d63f1931f7bff86f91080cd2.png)
 开篇那段有讲究。作者立了一个“只推荐官方可靠服务”的 flag，把自己的内容与“早晚会 404 的镜像站”撇清关系，这种“我很靠谱”暗示，是收藏与转发的隐形推手。它同时还能勾起读者的好奇心：“我一直用的不会是镜像站吧？”——这就忍不住往下看了。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_008e72d87e6f58c9bb82d40c440efc3d.png>
+![](img/zhuanqian_008e72d87e6f58c9bb82d40c440efc3d.png)
 结尾倒是干脆，全文没有传统意义的结束语，完读率反而被抬高了。引导关注的区块放在开头，引导点赞的设计留在结尾，这种位置设置值得直接抄作业。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0947a8fcd37ba1d403e5f2d792453442.png>
+![](img/zhuanqian_0947a8fcd37ba1d403e5f2d792453442.png)
 评论区也是个宝地。读者的问题，就是下一个选题的方向。有人吐槽会员开通门槛高、不会搞，那“手把手教你开通”就可以成为一篇新的文章选题。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_89d026c13964377b13f90bb5317a8b4d.png>
+![](img/zhuanqian_89d026c13964377b13f90bb5317a8b4d.png)
 发布时间恰好踩在 OpenAI 发布会的同一天，热点蹭得刚刚好。内容本身或许只是中规中矩，但发布时机让整篇内容踩中了势能。
 ```
 1\. 开篇介绍
@@ -372,7 +372,7 @@ ChatGPT 我尝试过，不行。长一点的图片发过去会被压缩，图里
 5\. 互动环节:你最喜欢哪种使用方法?
 ```
 列完大纲后，再对着那份大纲一步步执行——到这里，AI 还做不了核心的书写部分。真正动手写作时，就算再不擅长，也必须亲自上阵。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_dd1a5beb4f203ce2a92b13aff09f61b4.png>
+![](img/zhuanqian_dd1a5beb4f203ce2a92b13aff09f61b4.png)
 写到文末，记下两句话：先拆工作流，再让 AI 加入；先亲手跑通流程，再放手让 AI 辅助。心甘情愿让 AI 发光发热，但方向盘永远握在自己手里。
 ```
 0、数据分析 看一下这篇文章的数据怎么样，先大概了解一下它是怎么爆起来的。
@@ -407,24 +407,24 @@ ChatGPT 我尝试过，不行。长一点的图片发过去会被压缩，图里
 9、与热点结合 有没有结合当下热点?怎么结合的?
 10、解决痛点 文章解决了读者什么具体问题?怎么解决的?
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e8ae314501f6073f920201849083f861.png>
+![](img/zhuanqian_e8ae314501f6073f920201849083f861.png)
 Claude3.5 很快就给出了一份分析结果，整体质量还挺亮眼。
 但这时候，最该做的不是把 AI 给的几条结论原封不动誊到笔记本上，而是真正地“做决策”。说白了，你得逐条掂量：AI 说的这些，哪些是我能用上的？哪些看起来有理，实则对我来说毫无用处？记下来却不落地，那记它干什么呢？
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fda39b91bd8b97d77eb6a4f936c6c68c.png>
+![](img/zhuanqian_fda39b91bd8b97d77eb6a4f936c6c68c.png)
 另外，看 AI 的建议时，一定要对照着原文来读。毕竟 AI 也有犯迷糊的时候，偶尔会一本正经地胡说八道。
 你要是怕来回切换麻烦，直接分屏显示就行，这样一目了然。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b3c0397041a547527060eaf5010c7928.png>
+![](img/zhuanqian_b3c0397041a547527060eaf5010c7928.png)
 ### 8.3.2 注入个人特色
 还记得我们之前聊过的“AI 赋能公众号定位”那套提示词吗？就是 4.2 节里的那套。
 上一小节，我们只提取了 AI 给的关键词；这次，轮到「公众号定位」这个部分登场了。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3427de2ce17ac1e95f1bb1a8d9abbc37.png>
+![](img/zhuanqian_3427de2ce17ac1e95f1bb1a8d9abbc37.png)
 还是老规矩：所有 AI 给出的内容，都要经过你的“决策”这一关，你自己才是最终拍板的人。
 咱们来认真看看这套内容策略吧。
 短视频？专家访谈？我自己的公众号根本就没做这些，统统划掉。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_65972c6e2325d93e75062418d04498d4.png>
+![](img/zhuanqian_65972c6e2325d93e75062418d04498d4.png)
 要点列表、互动问题、小测验，一个也不需要。
 那些选题建议？建议得挺好，下次别建议了，反正跟我也对不上。隐私安全？跟我有什么关系。什么“不要过度吹捧某个工具”？不，我偏要夸 Claude。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_56a6b3953ce190cf1f47092e495d9838.png>
+![](img/zhuanqian_56a6b3953ce190cf1f47092e495d9838.png)
 删掉了这些无关内容，剩下的差不多就是：
 ```
 [目标受众分析]：
@@ -473,8 +473,8 @@ AI与传统工作方法的效率对比
 这里填写你的公众号定位
 """
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b3a58d35fc2c8035710d34e0f34d76a0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b25af71db03194b25ab29d7a032aa44b.png>
+![](img/zhuanqian_b3a58d35fc2c8035710d34e0f34d76a0.png)
+![](img/zhuanqian_b25af71db03194b25ab29d7a032aa44b.png)
 还是那句老话：把 AI 给你的结果挨个“决策”一遍。
 就拿这篇参考文章来说，我可以结合 AI 的建议，做这么几个选择：
 可以结合人设，把重心从“介绍 GPT-4o 本身”挪到“AI 工具怎么帮你提升效率”上来；
@@ -488,17 +488,17 @@ AI与传统工作方法的效率对比
 1. 开头加一个“快速选择指南”省流版，帮读者迅速找到适合自己的方法；
 2. 额外加一节，专门对比 GPT-4o 和其他 AI 模型在工作场景下的表现差异。
 把我这两个选择丢给 Claude，让它帮你把大纲列出来。具体的效果，直接看图。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_11792574c1606e3a24e6c5b828a48cfd.png>
+![](img/zhuanqian_11792574c1606e3a24e6c5b828a48cfd.png)
 当然，AI 给的大纲只是一个草稿，肯定要再根据我的需求东改改、西调调，然后才能真正上手用。
 ### 8.3.4 用 AI 来查找资料
 写文章难免要引用一些背景信息。比如我写「橙篇」那篇稿子时，就得交代一下橙篇到底是什么工具，它又是怎么来的。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c3edf1056410b1ed58c6571ba95594a7.png>
+![](img/zhuanqian_c3edf1056410b1ed58c6571ba95594a7.png)
 要是搁以前，用传统搜索引擎搜“橙篇”，慢吞吞不说，还容易看到一堆无效结果。
 现在借用 AI 就快多了，我推荐用秘塔 AI 搜索，链接放这儿：
 https://metaso.cn/
 提示词也简单，就一句话：请用一小段话介绍 XXX。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c2b4ba124d5bcad67aa4ca1391ef0f88.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8652f693afc84e1aeed90f28732436d5.png>
+![](img/zhuanqian_c2b4ba124d5bcad67aa4ca1391ef0f88.png)
+![](img/zhuanqian_8652f693afc84e1aeed90f28732436d5.png)
 除了上面这些辅助写作的思路，还有不少能借力的地方：比如让 AI 帮你润色句子；写着写着卡壳了，可以叫 AI 出出主意；初稿写完了，还能拿给 AI 打磨打磨。
 ## 8.5 总结
 嗯，这两节讲了这么多，你可能会看得头晕：怎么这么繁琐？我平时写作哪要想这么多步骤？
@@ -515,20 +515,20 @@ https://metaso.cn/
 只有这样，你才能真正打造出一套既适合自己、又能提升效率的写作工作流。
 # 九、AI 写作打磨文章
 说到打磨文章，同样先把流程拆开，再逐个环节接入 AI 工具。步骤我就不重复了，直接看流程图。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_254de50ecc2840f602484f8aec1f85ea.png>
+![](img/zhuanqian_254de50ecc2840f602484f8aec1f85ea.png)
 ## 9.1 Claude3.5 设置
 登录 Claude3.5 以后，别急着开始用，先按照下面的图示，把 Artifacts 功能打开。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7ebf6881149c52167273b9c6d29ac562.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6555edb257ff1b8666797a2106897236.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9596d815e9ad81f91a014e6dff884fcb.png>
+![](img/zhuanqian_7ebf6881149c52167273b9c6d29ac562.png)
+![](img/zhuanqian_6555edb257ff1b8666797a2106897236.png)
+![](img/zhuanqian_9596d815e9ad81f91a014e6dff884fcb.png)
 ## 9.2 AI 润色词句
 就拿“润色一段话”来举例。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1f8687c93e2868f4d8cd8a646885d2b1.png>
+![](img/zhuanqian_1f8687c93e2868f4d8cd8a646885d2b1.png)
 Claude 3.5 的输出效果，大概就是这样的：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4c51499528f98bb4afd26067d8c9f162.png>
+![](img/zhuanqian_4c51499528f98bb4afd26067d8c9f162.png)
 不过要注意，这次 Claude 有点自己加戏了，它自作主张给段落添了个开头和结尾。
 最好的办法是，假装没看见它多出来的内容——它输出归输出，我用不用另说，最终拍板的人还是我。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0dca830a302f5b36a165d6d6bbb398e5.png>
+![](img/zhuanqian_0dca830a302f5b36a165d6d6bbb398e5.png)
 ## 9.3 AI 打磨优化文章
 用同样的方式，我们还能让 AI 帮我们打磨整篇文章。
 这里有个小提醒：润色词语和打磨全文，最好放在同一个聊天窗口里进行。这样到了打磨那一步，就不必再重新把你的文章复制发一次了。
@@ -551,15 +551,15 @@ Claude 3.5 的输出效果，大概就是这样的：
 ## Attention
 使用Artifacts，使用 Markdown 语法
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_97544fb99938f084d057a4f4d1de6df9.png>
+![](img/zhuanqian_97544fb99938f084d057a4f4d1de6df9.png)
 ## 9.4 安装插件
 如果你经常跟 Claude 打交道，多半会发现它有个小毛病：特别爱用英文标点，什么英文逗号、英文冒号、英文问号，经常冒出来。
 作为一个有点强迫症的人，每次把 Claude 写的内容复制过来，都得手动把这些英文符号改成中文的，实在是太浪费时间了。所以我就让 AI 帮我写了一个油猴脚本来做自动转换。
 方法很简单：先点击管理面板。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2fd869ac78a79af6a2ccc8694deb3aef.png>
+![](img/zhuanqian_2fd869ac78a79af6a2ccc8694deb3aef.png)
 然后点那个➕号。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0784fadd00b27249d2fc4ea3a87fd8ef.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_555d077a29b608afa77da58a97da0da8.png>
+![](img/zhuanqian_0784fadd00b27249d2fc4ea3a87fd8ef.png)
+![](img/zhuanqian_555d077a29b608afa77da58a97da0da8.png)
 把下面这段代码替换进去就行：
 可复制版本：
 ```
@@ -645,13 +645,13 @@ document.body.appendChild(button);
 ```
 点一下右侧屏幕的🌟按键，就能把句子中间的句号批量替换成中文逗号
 Claude 写稿时常常还没讲完就丢一个句号，这种标点有时要留着，比如成段落时就必须用；有时又显得多余，所以我把它做成可开关的按钮，想换就换。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9e5a07c7d77d4971bd8e611222fb5d2e.png>
+![](img/zhuanqian_9e5a07c7d77d4971bd8e611222fb5d2e.png)
 * * *
 其实还有个更省心的办法，用飞书文档自带的文字排版助手，一键把所有英文符号改掉。
 等内容写完再统一处理也完全来得及。
 也正因为这点，我一直主张写作就选飞书文档。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c2c4ba69d681f2a66b8b6f610767af43.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b2a028d9d29095b4a950da64e64c7010.png>
+![](img/zhuanqian_c2c4ba69d681f2a66b8b6f610767af43.png)
+![](img/zhuanqian_b2a028d9d29095b4a950da64e64c7010.png)
 ## 9.5 总结
 到这一步，我们已经梳理完了如何借助 AI 来处理写作过程中的各种卡点。
 AI 可以帮我们打开思路、加快节奏，但最终拍板的人始终是自己。
@@ -659,17 +659,17 @@ AI 可以帮我们打开思路、加快节奏，但最终拍板的人始终是�
 光看没用，多实践，下次写稿就直接用上。
 再额外补充几条实操小技巧：
 1、正在使用 Arc 浏览器的朋友，可以开启分屏，左边放一个 Claude 窗口，右边放飞书文档。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1f42aaf48f0a59dc3b8848313ed4b531.png>
+![](img/zhuanqian_1f42aaf48f0a59dc3b8848313ed4b531.png)
 如果你用的是 Edge 浏览器，点击这个图标即可开启分屏。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_de606fb22c9b6a1b2d1365f03fa86ecb.png>
+![](img/zhuanqian_de606fb22c9b6a1b2d1365f03fa86ecb.png)
 其余浏览器我没深入研究，大家自行查阅相关教程。
 2、跟 Claude 交流时，偶尔会觉得它在摸鱼，输出的质量让人不敢恭维，这时可以点下面的 Retry，让它重新生成
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2bf160232583f8effdb3099d9b8983a5.png>
+![](img/zhuanqian_2bf160232583f8effdb3099d9b8983a5.png)
 反复重试还是不理想，就说明提示词需要调整，点 Edit 去优化一下
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c76b45f595b885fc3e8c721b8d24082e.png>
+![](img/zhuanqian_c76b45f595b885fc3e8c721b8d24082e.png)
 # 十、起标题&封面图
 先把流程拆开，再谈工具使用，我就不展开了，直接上流程图。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1398b828c9a359f533a97817ed2ced86.png>
+![](img/zhuanqian_1398b828c9a359f533a97817ed2ced86.png)
 ## 10.1 标题
 ### 10.1.1 AI 取标题
 指望 AI 直接给出一个真正能爆的标题不太现实，它对“爆款”的理解还不够到位。我更建议把 AI 当成提供标题灵感的助手，这样使用效果会更顺手。
@@ -710,12 +710,12 @@ AI 可以帮我们打开思路、加快节奏，但最终拍板的人始终是�
 请严格遵循[workflow]流程开始工作。
 ```
 ChatGPT4o 的效果：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9920ecee240d64571389246e035335e2.png>
+![](img/zhuanqian_9920ecee240d64571389246e035335e2.png)
 Claude3.5 的效果：
 Claude 写的标题更有网络感，所以这个提示词更适合在 Claude 中使用。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ed572fd404e35debac1e6a185b8eefdb.png>
+![](img/zhuanqian_ed572fd404e35debac1e6a185b8eefdb.png)
 下面是 Claude3 Opus 的表现：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_348de5a610848dc3b2d15a7bd35e80b7.png>
+![](img/zhuanqian_348de5a610848dc3b2d15a7bd35e80b7.png)
 果然，写作模型越强效果越好，Claude 3 Opus 生成的标题读起来更贴近人工撰写。
 因此我比较建议你开通一个 Claude 3 Opus 账号，某宝月租168元其实不贵，能省下不少时间。
 ### 10.1.2 AI 标题评分
@@ -730,32 +730,32 @@ AI 助手总是偷懒不干活？只需在提示词中加入这几个字，立�
 Kimi 输出内容总爱偷工减料？只需在提示词中加入这几个字，它立马兢兢业业干活，超好用！
 想要 AI 认真干活不偷懒？试试在提示词里加入这句话，效果立竿见影！
 提示词里的这个小秘密，让 AI 不敢有丝毫懈怠偷懒，生成内容质量爆棚！
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ffb87a8db4955aac276bd76d07d55dfd.png>
+![](img/zhuanqian_ffb87a8db4955aac276bd76d07d55dfd.png)
 不过分数仅供参考，最终决策还是要人来定，过度依赖工具很容易沦为 AI 的傀儡。
 壹伴的标题评分需要 VIP，一年几百块，性价比一般。
 你可以去闲鱼搜“壹伴日租”，租一个号体验。我建议租一天，因为有时一天后账号无人续租，你就能继续免费使用好几天。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_57afd0dc2ea6c562a3463f9f9d82d5dd.png>
+![](img/zhuanqian_57afd0dc2ea6c562a3463f9f9d82d5dd.png)
 打开壹伴官网：https://yiban.io/，点击安装小插件，里面有各浏览器的安装说明，按步骤操作即可。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_93a062a6ffebb3912f7c1bc4b8b88a61.png>
+![](img/zhuanqian_93a062a6ffebb3912f7c1bc4b8b88a61.png)
 安装完成后，在公众号文章编辑器里就能找到标题评分入口。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_606d2e6e2284373a23c2e7f06485be10.png>
+![](img/zhuanqian_606d2e6e2284373a23c2e7f06485be10.png)
 点击智能录入可以批量导入标题，一次最多十条。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_36d5791cbc0a2953894367ec2be828b0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e78406185c8c94c0cd2b86f2c50174d4.png>
+![](img/zhuanqian_36d5791cbc0a2953894367ec2be828b0.png)
+![](img/zhuanqian_e78406185c8c94c0cd2b86f2c50174d4.png)
 ## 10.2 封面图
 封面图真的不必耗费太多精力，别在上面浪费过多时间。
 ### 10.2.1 封面模板
 我的公众号一直沿用同一套封面模板，写新文章时改动几个字就能直接复用。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_080c96f6cbacbc3f51ee255af88639d7.png>
+![](img/zhuanqian_080c96f6cbacbc3f51ee255af88639d7.png)
 我制作封面用的工具是可画：https://www.canva.cn/
 登录后点「创建设计」---「微信公众号封面」
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_11272d390504b490e37818b80f25d83f.png>
+![](img/zhuanqian_11272d390504b490e37818b80f25d83f.png)
 进入后点「品牌」，先设置一个底色，然后在中间加入文字即可。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_51846219a8e412d290ad2fcccafb09ec.png>
+![](img/zhuanqian_51846219a8e412d290ad2fcccafb09ec.png)
 后续细节我就不多介绍了，我也不希望封面撞衫，大家按自己的偏好做一套模板即可。
 ### 10.2.2 搜索图片
 如果你不喜欢模板，想要更贴合内容的封面，还有一种思路，就是按文章主题去找匹配的图片。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_137136761c8c8e6ad655f9c2201ba7fd.png>
+![](img/zhuanqian_137136761c8c8e6ad655f9c2201ba7fd.png)
 一般人会去哪里找？
 *   百度图片搜索？
 *   谷歌图片搜索？
@@ -764,21 +764,21 @@ nonono，最快的办法是“去有鱼的地方钓鱼”！
 哪里封面最多？当然是公众号。直接搜索同行的封面，直接借鉴就行。
 比如我之前那篇讲 Claude 的文章，直接在微信搜一搜“Claude”。
 你会发现第三张图那种带表情包风格的搞怪图，在百度、谷歌上基本搜不到。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8b2dfca040b40cfabdda84477596e95a.png>
+![](img/zhuanqian_8b2dfca040b40cfabdda84477596e95a.png)
 点开一看，这张图本身就在正文里，直接复制过来使用就行。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ff7247c74926e893797d0f684887fd44.png>
+![](img/zhuanqian_ff7247c74926e893797d0f684887fd44.png)
 如果正文里没有封面图怎么办？
 还记得之前安装的壹伴浏览器插件吗，打开文章后插件里有个“查看封面”按钮，点一下就能保存。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_76c30aa943ce534b21e8f8718e7b976c.png>
+![](img/zhuanqian_76c30aa943ce534b21e8f8718e7b976c.png)
 不过我发现壹伴浏览器插件抓取封面需要会员，没会员时就用不了，所以我找了其他获取微信公众号文章封面的办法。
 最快的方式就是搜索，而现在搜索最快的是用 AI 搜索工具，我用的是秘塔 AI 搜索。
 一搜就找到了一个在线工具。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_792c0b7d96738070f0c524052eace8d2.png>
+![](img/zhuanqian_792c0b7d96738070f0c524052eace8d2.png)
 这个工具只要输入文章链接就能导出封面，非常好用。
 工具链接：https://www.mgpaiban.com/tool/wxfm.html
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ec9fd7f80c6360d96accbe28c441fb87.png>
+![](img/zhuanqian_ec9fd7f80c6360d96accbe28c441fb87.png)
 为了以后不用再找，我已经把这个网址收藏到文件夹里了
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_50a6c3f8ca0b2437cd198c0ce095313d.png>
+![](img/zhuanqian_50a6c3f8ca0b2437cd198c0ce095313d.png)
 # 十一、文章排版
 ## 11.1 排版
 每个人都有自己的排版习惯，这里我就分享一下我的做法，效率还可以，但没有标准答案，你可以按自己的方式来。
@@ -791,67 +791,67 @@ nonono，最快的办法是“去有鱼的地方钓鱼”！
 这里我录了个视频，看起来更直观。
 ### 11.1.1 飞书➡️迅捷
 先在飞书文档里把内容编辑好。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fd2b575d8a8477c26a0740530c5c71d1.png>
+![](img/zhuanqian_fd2b575d8a8477c26a0740530c5c71d1.png)
 然后打开迅捷 Markdown 编辑器，网址：https://www.liuchengtu.com/home/myfile/?creactfile=Markdown
 使用微信扫码登录
 进去后新建一个 Markdown 文档，没充会员只能新建一个，不过一个已足够用，不要充会员！
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0afa563f8d5e5b562e0e70c6a06b51aa.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9224b6d07c7fd3462dd6e1ec6ba66df0.png>
+![](img/zhuanqian_0afa563f8d5e5b562e0e70c6a06b51aa.png)
+![](img/zhuanqian_9224b6d07c7fd3462dd6e1ec6ba66df0.png)
 进去后把飞书文档的内容全部复制粘贴进来。
 你会发现图片和标题格式都保留了，这就是中转站的作用。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c94309aaa5769901b070782b8f6f8c8b.png>
+![](img/zhuanqian_c94309aaa5769901b070782b8f6f8c8b.png)
 可以看到图片和标题格式都完整带了过来，后续排版时会用到这个中转环节。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_db47f87ab2a382beab901674153d657e.png>
+![](img/zhuanqian_db47f87ab2a382beab901674153d657e.png)
 先把迅捷里带图文排版的那部分内容原样复制下来。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d61ab02366a132a27aec20c859094089.png>
+![](img/zhuanqian_d61ab02366a132a27aec20c859094089.png)
 ### 11.1.2 迅捷➡️Markdown 公众号排版器
 打开微信的 Markdown 在线编辑器，进入后[content]
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_db47f87ab2a382beab901674153d657e.png>
+![](img/zhuanqian_db47f87ab2a382beab901674153d657e.png)
 先把迅捷里带图文排版的那部分内容原样复制下来。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d61ab02366a132a27aec20c859094089.png>
+![](img/zhuanqian_d61ab02366a132a27aec20c859094089.png)
 ### 11.1.2 迅捷➡️Markdown 公众号排版器
 打开微信的 Markdown 在线编辑器，进入后会看到站长放的一个示例文章：
 左边是 Markdown 源代码区，右边是实时渲染的排版预览。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f979f4b1abddfe89de2c5fa4a720d790.png>
+![](img/zhuanqian_f979f4b1abddfe89de2c5fa4a720d790.png)
 我们要做的，就是把迅捷里复制好的内容，直接粘到左侧代码区，它会自动解析成 Markdown 源码，右侧立刻就能看到排版效果。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9655f6b0993361d921399238dbb0ceb3.png>
+![](img/zhuanqian_9655f6b0993361d921399238dbb0ceb3.png)
 左上角的「样式」菜单可以调字体，比如换成衬线体，观感会更沉稳。审美因人而异，我自己一般保持默认。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_dceda6bfd5195835b4bcaf5ee87e5fcf.png>
+![](img/zhuanqian_dceda6bfd5195835b4bcaf5ee87e5fcf.png)
 字体大小、文字颜色这些也能在这里调整。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2ae06e4409c02f831f1e272b385ff2da.png>
+![](img/zhuanqian_2ae06e4409c02f831f1e272b385ff2da.png)
 微信自带的编辑器主题偏少，觉得不够好看的话，可以试试这个：
 https://Markdown.com.cn/editor/
 主题多得挑花眼。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6f61ccf31151b0627dcb4964c7e67e7b.png>
+![](img/zhuanqian_6f61ccf31151b0627dcb4964c7e67e7b.png)
 另外，也可以先用墨滴：https://editor.mdnice.com/ 把主题搭好再用。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_af1ea781b12bbdefc080bc444d83c19c.png>
+![](img/zhuanqian_af1ea781b12bbdefc080bc444d83c19c.png)
 ### 11.1.3 Markdown 公众号排版器➡️公众号后台
 页面右上角点「复制」，把拿到的内容直接粘进公众号编辑器，就大功告成了～
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2e414e9b20ea02075be4c0c8462cf3d2.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0e39f8a0499d228e8fb1bac32f004269.png>
+![](img/zhuanqian_2e414e9b20ea02075be4c0c8462cf3d2.png)
+![](img/zhuanqian_0e39f8a0499d228e8fb1bac32f004269.png)
 ### 11.1.4 注意事项
 1、飞书文档的图片链接有有效期，
 飞书里那条又长又乱的链接其实就是图片文件，但是一段时间后链接会失效，图片就显示不出来了。
 这时候需要重新打开飞书文档，全选再复制一次。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7c0779c392bc56fc92c5bcdbaa97aa65.png>
+![](img/zhuanqian_7c0779c392bc56fc92c5bcdbaa97aa65.png)
 2、用这种方式排版，有时图片会卡在公众号后台，提示「图片无法加载」
 解决办法：
 1️⃣点重试，多试几次
 2️⃣手动补图，把飞书文档里的原图手动拖进公众号后台
 ### 11.1.5 AI 提效
 排版完的文章里，小标题层级很清晰，重点词还是绿色加粗的。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_51071ebf64003c3e080d6813a0bfe993.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_85a42c6157f7df2435028be46d59a97a.png>
+![](img/zhuanqian_51071ebf64003c3e080d6813a0bfe993.png)
+![](img/zhuanqian_85a42c6157f7df2435028be46d59a97a.png)
 这其实是因为我在飞书写的时候，就提前用了二级标题和加粗。
 下面就是一个二级标题的样式
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_65eabcb86866e9b7a78e33954062752e.png>
+![](img/zhuanqian_65eabcb86866e9b7a78e33954062752e.png)
 这就是加粗的效果
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_eee7579a75a7c6c1f044196aeca702ec.png>
+![](img/zhuanqian_eee7579a75a7c6c1f044196aeca702ec.png)
 那 AI 能如何分担这部分工作呢？
 我们都知道，写公众号给重点句加粗，能帮助读者快速抓住核心。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_74175386e1e29605c45ebcf03fccd475.png>
+![](img/zhuanqian_74175386e1e29605c45ebcf03fccd475.png)
 但我自己在飞书写作时，经常忘记给要突出的句子加粗，最后只能回到公众号里，用格式刷一个个补。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7bacab8a951d82306417c4004ec36098.png>
+![](img/zhuanqian_7bacab8a951d82306417c4004ec36098.png)
 所以我就想，能不能让 AI 帮我把这件事自动化。
 于是有了下面的做法。
 注意！！！这个方法需要 ChatGPT4o，以及一点 Markdown 基础。如果你没用过 ChatGPT4o，也不太懂 Markdown，或者你本来就有加粗重点的习惯，那建议直接跳过。不要为了用 AI 而用 AI，花的时间反而更多。
@@ -859,19 +859,19 @@ https://Markdown.com.cn/editor/
 首先，打开这个 GPTs https://chatgpt.com/g/g-auDv1yCnb-wen-zhang-markdown-pai-ban-da-shi
 打不开的话就别强求，直接跳过。
 然后，把从迅捷 Markdown 编辑器复制出来的文章内容，喂给这个 GPTs。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5b399c1e297cdf4800d5d3c9a696874e.png>
+![](img/zhuanqian_5b399c1e297cdf4800d5d3c9a696874e.png)
 它会先读一遍原文，然后列出建议加粗的句子和建议引用的句子，交给你确认。
 这里先说明引用格式，长这样。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9f28b0d9861cd6d74d9236434363dfd1.png>
+![](img/zhuanqian_9f28b0d9861cd6d74d9236434363dfd1.png)
 你可以对照列表，看看加粗建议是否合理，比如第七句的：
 “从上面的例子中，我们可以总结出一个让 AI 变乖、更努力工作的提示词模板：”
 如果觉得不合适，直接告诉 GPT 你的选择。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c7e3aa6a632cba37aced0eb8dceb11e2.png>
+![](img/zhuanqian_c7e3aa6a632cba37aced0eb8dceb11e2.png)
 确认后，GPT 就会输出排好版的文章，给重点句加上加粗标记，给引用句加上引用标记。
 完成后点「复制代码」，再把这段内容粘回微信 Markdown 排版器里。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_86b0a2e092faa9b46f399de0d6ffd3cb.png>
+![](img/zhuanqian_86b0a2e092faa9b46f399de0d6ffd3cb.png)
 后面步骤就跟前面讲的一模一样了。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_381180296a45ec88a7250be03bc36c91.png>
+![](img/zhuanqian_381180296a45ec88a7250be03bc36c91.png)
 ## 11.2 配图
 ### 11.2.1 自己搜图
 图文结合的文章更易读，读者也更愿意往下看。
@@ -898,9 +898,9 @@ https://Markdown.com.cn/editor/
 2、给我多个图库搜索相关关键词？
 3、给我多个免费图库的搜索直达链接（填入关键词），点击即可跳转到搜索该关键词的页面
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7334c71d54c46944d76b4e6a3cc3c3b7.png>
+![](img/zhuanqian_7334c71d54c46944d76b4e6a3cc3c3b7.png)
 点这个链接就能直接去到免费图库的搜索页。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e6ae86a6a28edded19ca3c3a3b2f921a.png>
+![](img/zhuanqian_e6ae86a6a28edded19ca3c3a3b2f921a.png)
 我在图库里稍微翻了翻，很快就筛出几张很契合本文的图。
 比以前自己硬想要省心太多，而且这些图库的素材大多可商用，版权风险也小了。
 总结就是：让 AI 读完文章给出配图建议和关键词，再拿着关键词去免费图库快速找图。

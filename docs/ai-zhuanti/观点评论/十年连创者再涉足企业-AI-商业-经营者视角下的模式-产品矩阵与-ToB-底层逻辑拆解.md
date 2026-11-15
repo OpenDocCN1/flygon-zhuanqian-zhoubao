@@ -1,16 +1,16 @@
 # 十年连创者再涉足企业 AI 商业：经营者视角下的模式、产品矩阵与 ToB 底层逻辑拆解
 各位好，我是龙哥。创业十年，跨行跨赛道多轮实战，项目成活率长期保持在 90% 以上。
 目前主业仍是女裤批发，手握两处实体批发档口及一座 2400㎡ 的生产基地。同时也在系统性研究并落地企业级 AI 服务业务。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3664ce210b6fcd236ea5abd4abd04b5a_0_0.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3664ce210b6fcd236ea5abd4abd04b5a_0_1.png>
+![](img/zhuanqian_3664ce210b6fcd236ea5abd4abd04b5a_0_0.png)![](img/zhuanqian_3664ce210b6fcd236ea5abd4abd04b5a_0_1.png)
 前不久，我在龙哥盟杭州联合办公空间进行了一场两小时多的线下分享，主题为「老板视角下的企业 AI 服务设计逻辑」。本文即为现场内容的整理复盘，并补充了当时未及展开的部分，献给赚钱圈的伙伴。
 我不谈技术细节，想聊的是十年做生意的实战坑点、沉淀出的底层判断与思维习惯。核心聚焦「老板思维」与「商业模型」，以多行业经营者的身份聊企业 AI 服务该怎么设计，为还在做 OPC 或处在创业初期的朋友提供一些参考。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3664ce210b6fcd236ea5abd4abd04b5a_1_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3664ce210b6fcd236ea5abd4abd04b5a_2_0.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3664ce210b6fcd236ea5abd4abd04b5a_2_1.png>
+![](img/zhuanqian_3664ce210b6fcd236ea5abd4abd04b5a_1_0.png)
+![](img/zhuanqian_3664ce210b6fcd236ea5abd4abd04b5a_2_0.png)![](img/zhuanqian_3664ce210b6fcd236ea5abd4abd04b5a_2_1.png)
 ## 一、市场上常见的三个卡点
 分享伊始，我向到场者提问：「目前在做企业 AI 服务，且客单价在一万以内的，请举手。」
 举手者不少。通过接触，我发现独立创业者普遍卡在三处：
 - 其一，客单偏低。绝大多数交付定价集中在数百到数千区间，想达成五万营收，需要完成数十到上百笔订单。单月百单的工作量是什么体感？一旦交付偏重，要么忙不过来，要么个人时间被完全吞没。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3664ce210b6fcd236ea5abd4abd04b5a_3_0.png>
+![](img/zhuanqian_3664ce210b6fcd236ea5abd4abd04b5a_3_0.png)
 - 其二，履约过重。大量创作者处于纯 OPC 形态，既定策略、写代码、搞销售、做售后皆一人承担。新客跟进与老客维护撞期，就只能顾此失彼。售后维护和商务对接时间冲突，基本处于手忙脚乱状态。
 - 其三，方向不明。有人想进入却不知切入点，有人做了半年以上仍说不清：「我的方案到底解决了企业的哪种真实痛点？」「垂直行业里可落地的真实业务场景是什么？」
 坦白讲，这三点我都踩过。这并不是 AI 本身的问题，而是「生意结构」与「对企业本质的理解」问题。结构性难题需要老板思维来解决，不是堆工具就能解决。
@@ -35,7 +35,7 @@
 为何过去总单打独斗？说白了就一句话，我总认为这件事只有我能做好。不是缺团队意识，也不是不愿招人，是放不下心态。招了人也忍不住自己上手，总觉得他人做不出我那样的质量。
 21 年受挫后我才真正敢放手。后来的项目我强迫自己结果导向、优化流程，让合伙人及员工自主运转，我只做决策与验收。从「我做所有事」到「我搭系统，让他人跑我对结果负责」。
 心态的转变比技能提升更难。老板思维迭代的关键，不是有没有，而是愿不愿意把亲自下场当成阶段性手段。老板前期更该冲在前线，但要清楚什么阶段干什么事，什么时候冲锋，什么时候交棒。若永远冲在交付一线，和螺丝钉打工有何区别？
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3664ce210b6fcd236ea5abd4abd04b5a_7_0.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3664ce210b6fcd236ea5abd4abd04b5a_7_1.png>
+![](img/zhuanqian_3664ce210b6fcd236ea5abd4abd04b5a_7_0.png)![](img/zhuanqian_3664ce210b6fcd236ea5abd4abd04b5a_7_1.png)
 ### 2.3 自检的三道题
 会上留了三个问题，整理如下：
 1. 你的项目离开你整整一个月，能否正常运转？比如我自己，四月份基本一个月不在档口与工厂，业务照常跑。能做到这一点，才算有点老板的样子。
@@ -77,10 +77,10 @@ OPC 想做得刚好即止，老板想做大做强。这是两种世界观。
 | 迁移动作 | 把杭州深圳的成熟原创国风供应链模型迁移到湖州，做高客单批发，结合自身加工厂与上下游资源切入。 |
 | 结果 | 客户质量高，款式风格受认可，本地具备代表性。 |
 当时湖州做这套的几乎只有我们一家。事并不复杂，关键是同时看到「成熟模型 + 不成熟市场 + 我有迁移资源」这三点，需要跨行业视野与大量积累。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3664ce210b6fcd236ea5abd4abd04b5a_15_0.png>
+![](img/zhuanqian_3664ce210b6fcd236ea5abd4abd04b5a_15_0.png)
 左两张是我第一家店，当时约 20 平。右图是第二家店，近 50 平。
 ### 3.4 模型自检三问
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3664ce210b6fcd236ea5abd4abd04b5a_16_0.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3664ce210b6fcd236ea5abd4abd04b5a_16_1.png>
+![](img/zhuanqian_3664ce210b6fcd236ea5abd4abd04b5a_16_0.png)![](img/zhuanqian_3664ce210b6fcd236ea5abd4abd04b5a_16_1.png)
 1. 你对标的模型是否足够成熟、优质？
 2. 你想去的目标市场是否确实还不成熟？
 3. 你有没有把这个模型落地改造的资源？
@@ -155,7 +155,7 @@ OPC 想做得刚好即止，老板想做大做强。这是两种世界观。
 3. AI 硬件落地
 比如销售 AI 工牌，尺寸像普通工牌，带小屏和录音，可对接大模型。能做对话记录分析、客户心理判断、实时策略推送、知识库联动。还有 AI 接待台、AI 前台等垂直硬件。需求真实且付费意愿明确，可以往里发散。
 这些都是老板在真实场景里提的需求，不是杜撰。可以用前面的方法论再拆一遍，找到自己的切入点。最后想清楚自己想要什么、擅长什么。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3664ce210b6fcd236ea5abd4abd04b5a_29_0.png>
+![](img/zhuanqian_3664ce210b6fcd236ea5abd4abd04b5a_29_0.png)
 八、五个自检问题
 1. 你熟悉哪些行业和资源？企业 AI 服务最容易启动的方式，就是从你已深耕的行业切入。别只混 AI 圈，走出去接触真实企业的老板，再用选模式的核心公式和三个审查问题去判断机会。
 2. 你要服务的到底是企业的哪个要素？To B 服务的是组织能力，组织能力的核心是流程、协作、可复制、可沉淀。你的产品在提升哪一块？

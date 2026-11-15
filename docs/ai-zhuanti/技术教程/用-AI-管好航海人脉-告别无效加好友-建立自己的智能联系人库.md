@@ -13,7 +13,7 @@
 但真正操作起来，问题很快就出现了。
 群里可能有几百人，按照顺序逐个添加、逐一回复，不仅耗时，而且非常容易混乱。加得越多，越记不清每个人是谁，也不知道之前聊过什么。
 更重要的是，社群通常都会明确禁止恶意引流和营销。我们需要做的是建立有价值的真实连接，而不是无差别加人、群发话术。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d4e3b5ada267a4f56b5d744097e24681.png>
+![](img/zhuanqian_d4e3b5ada267a4f56b5d744097e24681.png)
 刚开始，我采用的是最传统的方法：阅读自我介绍，然后按顺序添加好友，再复制一套固定的话术。
 可当联系人数量逐渐增加后，我发现自己根本无法准确记住每个人。很多人最后只会安静地躺在通讯录里，既没有继续交流，也没有真正形成连接。
 正好那段时间我在使用 ima，也看过「本子在隔壁」分享的联系人管理思路，于是产生了一个想法：
@@ -22,11 +22,11 @@
 ## 二、具体怎么做？
 ### Step 01：先把完整的自我介绍整理成一张长图
 航海破冰结束后，领队和志愿者通常会在禁言群里，把所有圈友的自我介绍汇总整理好。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3006403279c7efc4d32f702029a19732.png>
+![](img/zhuanqian_3006403279c7efc4d32f702029a19732.png)
 接下来，需要把这份内容保存下来。
 如果使用安卓手机，直接调用系统自带的滚动截屏功能即可，截完后可以直接进入下一步。
 如果是苹果手机，可以使用 Picsew 来完成长截图。操作方式和普通录屏比较接近，只是在选择工具时改为 Picsew。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f34ce4893c1d996645d5ce37366dc13b.png>
+![](img/zhuanqian_f34ce4893c1d996645d5ce37366dc13b.png)
 这类工具通常会有免费次数或功能限制。Picsew 的 Pro 版本是一次性 15 元永久订阅。
 如果希望尽量降低成本，也可以尝试搭配其他滚动截屏 App，或者通过闲鱼等渠道寻找解决方案。
 ### Step 02：用 Kimi 读取图片中的文字
@@ -35,22 +35,22 @@
 就长截图文字识别和结构化整理而言，我个人感觉 Kimi 1.5 的表现相当不错。其他模型也可以尝试，大家完全可以根据自己的使用习惯进行选择。
 不过，后来我发现 ima 知识库对表格格式的处理并不算理想。把表格复制进去之后，排版容易出现错乱。
 如果不介意格式问题，表格版本也能直接使用。但我个人比较在意资料的整洁度，所以重新调整了提示词，要求 Kimi 用 Markdown 格式输出。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bbea8f7d9ec9a65eece851f8cc646394.png>
+![](img/zhuanqian_bbea8f7d9ec9a65eece851f8cc646394.png)
 这样处理之后，所有内容就会被拆分成一段段清晰的文本，后续导入知识库会更加方便。
 ```
 将图片中的信息进行提取，以Markdown形式输出，相邻两个联系人用"---"分割。
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d83ef6faefd40f10638c81503ef3b129.png>
+![](img/zhuanqian_d83ef6faefd40f10638c81503ef3b129.png)
 ### Step 03：把整理后的内容放进 ima 知识库
 接下来就是建立自己的联系人资料库。
 #### 1. 新建一条笔记
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4eb6dacb4206ea8e8a9c16b67eda765d.png>
+![](img/zhuanqian_4eb6dacb4206ea8e8a9c16b67eda765d.png)
 #### 2. 粘贴整理好的 Markdown 内容，并将笔记加入知识库
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_09f95c97dcdf3e5bacbde65c0a7592de.png>
+![](img/zhuanqian_09f95c97dcdf3e5bacbde65c0a7592de.png)
 #### 3. 直接基于知识库进行提问
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_907d7153f8e6bfc48363c773fc90ff94.png>
+![](img/zhuanqian_907d7153f8e6bfc48363c773fc90ff94.png)
 整个流程可以参考下面的视频教程：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d18ded887c6192e010627b45d7403f9a.png>
+![](img/zhuanqian_d18ded887c6192e010627b45d7403f9a.png)
 完成之后，你就拥有了一个可以随时查询的 AI 人脉库。
 比如你可以询问：
 - 群里有哪些人正在做短视频？
@@ -67,7 +67,7 @@
 ```
 我想链接XX圈友，请帮我生成添加好友话术，以及添加成功后的第一句。
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c5391bf57877c8e46ed2d255044a914d.png>
+![](img/zhuanqian_c5391bf57877c8e46ed2d255044a914d.png)
 当然，具体表达最好结合自己的实际情况进行修改，不建议完全照搬 AI 的结果。
 我更建议大家把 AI 当作一个辅助工具，先让它提供几种可能的表达方向，再由自己选择最合适的方式。
 毕竟，AI 可以帮助我们提高效率，却不应该替我们完成所有表达。

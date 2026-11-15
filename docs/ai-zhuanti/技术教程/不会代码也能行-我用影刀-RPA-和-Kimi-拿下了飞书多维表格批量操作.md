@@ -29,21 +29,21 @@
 兄弟的情况是：每天得从公司系统里把下属前一天的绩效数据导出来，然后一条条填进飞书多维表格，供多方同步查阅。他说这种场景 Excel 根本顶不上，只能上多维表格，还问我影刀能不能直接操作它。
 我起初觉得没什么难度——多维表格不就是个网页版 Excel 吗，影刀又有现成指令，分分钟搞定。
 结果刚上手，就被现实撞了一下腰。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1674e33d7658034b17c04d591a35926f.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5c3c7548f477bf6a18f0c77fb7909833.png>
+![](img/zhuanqian_1674e33d7658034b17c04d591a35926f.png)
+![](img/zhuanqian_5c3c7548f477bf6a18f0c77fb7909833.png)
 打开影刀一瞧，飞书相关的指令被划成四大类：【飞书多维表】、【飞书电子表格】、【飞书电子表格（RPA）】、【飞书多维表格（RPA）】。
 我在网上翻了一阵，发现【飞书多维表格（RPA）】是后出的新版指令，后面我就用它了。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4f2e0ff2e988a6e104f8a294805e16e6.png>
+![](img/zhuanqian_4f2e0ff2e988a6e104f8a294805e16e6.png)
 把【飞书多维表格（RPA）】展开一琢磨，影刀能对多维表格做的事就三大类：加、删、改。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ff44ab035ee76da1f2a3091334b97408.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d58ed4d62f2afff8e432a46856443d77.png>
+![](img/zhuanqian_ff44ab035ee76da1f2a3091334b97408.png)
+![](img/zhuanqian_d58ed4d62f2afff8e432a46856443d77.png)
 【加】新增记录、添加数据表、添加字段、新增多条记录
 【删】删除一个数据表、删除视图、删除字段、删除记录、批量删除记录
 【改】更新记录、更新数据表、更新视图、更新字段、更新多条记录
 挺有意思。看似和 Excel 差不多，但影刀处理两者的指令逻辑完全不同。多维表格自动化可以说是个从零起步的新领域，Excel 那套思路搬不过来。
 举个例子，我日常最爱的 Excel 指令【列上第一个可用行】，放多维表格里就完全不灵。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9f421c7b9c0fa0d9790af4f5cfcc7785.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f50727b76c039a9031100fccc67e6736.png>
+![](img/zhuanqian_9f421c7b9c0fa0d9790af4f5cfcc7785.png)
+![](img/zhuanqian_f50727b76c039a9031100fccc67e6736.png)
 ## 2.1 先把行话搞清楚
 进了新地盘，第一件事是认字。我必须先搞清多维表格那些专业词分别代表什么，不然连搜都不知道怎么搜。
 飞书官方文档其实写得很全，但全到让人望而却步。对一个编程小白来说，开发者后台的完整教程和天书没啥区别。
@@ -55,12 +55,12 @@
 *   记录
 *   数据表ID
 *   视图ID
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9418fab435d9a1023b57cfb2c7081574.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_76e4757d5a7a2d5c7e69b341d0b1abb1.png>
+![](img/zhuanqian_9418fab435d9a1023b57cfb2c7081574.png)
+![](img/zhuanqian_76e4757d5a7a2d5c7e69b341d0b1abb1.png)
 我不认识它们，就让 Kimi 来当翻译。
 参考提示词：
 我是飞书多维表格的纯新手，完全不懂里面的术语含义。请用最通俗的语言告诉我：数据表是什么？视图是什么？记录是什么？字段是什么？数据表ID和视图ID怎么获取？为了确保信息准确，请先参考飞书官方文档，再输出大白话版本的解释
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_01827e35b9d6b03bd38e3fd4b3889751.png>
+![](img/zhuanqian_01827e35b9d6b03bd38e3fd4b3889751.png)
 Kimi 给的答案如下（我做了简要转述）：
 **数据表**——多维表格里用来装数据的"容器"。你可以把它理解成一个仓库，里面放不同类目的信息。打个比方，"任务管理"这个多维表格里，可以建一个"任务详情"数据表，专门记录每个任务的名称、负责人、截止日期等。
 **视图**——同一份数据的"换装"。数据不变，但可以从不同角度看。还是拿"任务详情"说事儿，你可以建一个"进行中任务"视图只显示还没做完的任务，再建一个"已完成任务"视图只看做完的。
@@ -89,22 +89,22 @@ Kimi 给的答案如下（我做了简要转述）：
 ## 2.2 先认对象，再下动作
 在影刀里操作 Excel 或 Word 有一个固定套路：一开始必须先锁定操作对象——你要动哪个文件。
 整套逻辑归纳成一句话：WHO - WHAT - HOW。前面的增删改属于 HOW（怎么操作），但首先得确定 WHO（操作对象），然后才轮到 WHAT（做什么动作）。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b7a497a421dee50a14954c61cca9efc5.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b94114e8dcce983103ce7454761ed3f5.png>
+![](img/zhuanqian_b7a497a421dee50a14954c61cca9efc5.png)
+![](img/zhuanqian_b94114e8dcce983103ce7454761ed3f5.png)
 多维表格也是同理。得先让影刀知道，本节课的对象是哪一个多维表格。
 【飞书多维表格（RPA）】指令集里恰好有个【建立多维表格连接】，看名字就知道是用来"认对象"的。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_86e30cc8b7b440ab8879c5dc6820a48a.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d6131283f19f4827cc82ffd0b35a26d3.png>
+![](img/zhuanqian_86e30cc8b7b440ab8879c5dc6820a48a.png)
+![](img/zhuanqian_d6131283f19f4827cc82ffd0b35a26d3.png)
 点进去仔细看，又碰上几个生面孔：【应用 ID】、【应用 secret】、【多维表格 ID】。我心说，给个链接、分个权限不就得了，怎么这么多讲究？
 事实证明，事情没我想的那么简单。
 ## 2.3 官方学习中心来答疑
 影刀有个不错的地方：官方指令都配了详细说明。我于是打开【建立多维表格连接】的文档，研究到底要填什么。
 建立多维表格连接的文档：建立表格连接 - 影刀帮助中心
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_860128377226e9a7ba3198097d1543f1.png>
+![](img/zhuanqian_860128377226e9a7ba3198097d1543f1.png)
 读完说明才恍然：通过影刀操作多维表格，本质上不是模拟人工点击网页，而是调用飞书开放的 API，这就要过一道鉴权关——你得先拿到访问凭证（token）。
 但有意思的是，飞书没有偷懒给每个表格单独发 token。真要那样，开发者每换一个多维表格就要重新配一套，累死个人。
 飞书的方案是：建一个应用，给应用一次性配好权限（比如"可编辑多维表格"），再把需要操作的多维表格挂到应用名下。后续所有操作都走这个应用的身份，省得每个表单独折腾。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_90e6a6d41a87ddbf74d5c5939cd4d3c9.png>
+![](img/zhuanqian_90e6a6d41a87ddbf74d5c5939cd4d3c9.png)
 打个比方：大门加门禁，刷卡通过后，到了自家门口再拿钥匙开门。一套凭证管进小区，一把钥匙管开家门。
 完整的鉴权配置流程如下：
 1. 创建应用
@@ -113,55 +113,55 @@ Kimi 给的答案如下（我做了简要转述）：
 4. 调试接口（影刀指令自带，不用管）
 5. 事件订阅（影刀指令自带，不用管）
 6. 日志检索（影刀指令自带，不用管）
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9c2e343df69f89a0eae0df90e1bde1b1.png>
+![](img/zhuanqian_9c2e343df69f89a0eae0df90e1bde1b1.png)
 这套机制的好处：一个应用能同时挂多个多维表格或电子表格，不必为每张表反复填不同的 token。
 ## 2.4 配置实操
 纸上谈兵到此为止，接下来动真格。理论对不对，跑一遍才知道。
 ### 2.4.1 新建企业应用
 让影刀拿到操作权的前提，是去飞书开放平台创建一个企业应用。
 登录开发者后台：开发者后台 - 飞书开放平台
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_430d104048b05cd0480edd576c2b65a0.png>
+![](img/zhuanqian_430d104048b05cd0480edd576c2b65a0.png)
 应用建好后，刚才在影刀里让填的【应用 ID】和【应用 secret】就有现成的了（飞书里叫【app ID】和【app Secret】）。
 不过此时页面会提示：应用还没发布，眼下这些配置都还作不了数。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_79ac1e476b542cf51247eb1ebfdc2f45.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_76d029d1ef46e1f3a6ceddad15c1b2d0.png>
+![](img/zhuanqian_79ac1e476b542cf51247eb1ebfdc2f45.png)
+![](img/zhuanqian_76d029d1ef46e1f3a6ceddad15c1b2d0.png)
 新建的应用默认一块白板，没有任何权限，必须手动开通再发布，才能上岗工作。拿门卡类比：刚发下来的卡是空的，得先激活、和门锁绑定。
 ### 2.4.2 给应用开权限
 回到主线目标——让影刀能读写多维表格，那就在权限管理里把【多维表格】相关的权限全选上。如果还想让应用以后也能操作飞书电子表格，顺手一起开了也行。
 操作路径：【权限管理】-【开通权限】-【多维表格】-全选-【确认开通权限】
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_afe8973f2f46240b6fd25caee4210fde.png>
+![](img/zhuanqian_afe8973f2f46240b6fd25caee4210fde.png)
 ### 2.4.3 发布版本
 权限勾完了，就可以发布应用了。现在的流程基本是秒过，保存提交就完事。
 （框住的地方按提示填就成）
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8c0f1979665af3ff40f171e64394331f.png>
+![](img/zhuanqian_8c0f1979665af3ff40f171e64394331f.png)
 先别大意：应用权限就绪不等于万事大吉，应用和目标多维表格之间还没搭上关系。下一步得把它们"绑"在一起。
 ### 2.4.4 把多维表格绑到应用上
 回到你要操作的那张多维表格，点右上角的【...】-【更多】-【添加文档应用】
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_74cdc11fb968e7cfa86f4697c2654de7.png>
+![](img/zhuanqian_74cdc11fb968e7cfa86f4697c2654de7.png)
 搜索刚才创建的应用，加入时可选【可编辑】或【可管理】权限。
 两种权限的差别在于：可管理允许邀请协作者，可编辑只能对表格内容做增删改。我通常选可编辑——反正 API 已经够用了，也没必要额外拉人协作。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_55ec4db14a6da6c6f1b6dde713c9350e.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2f9ccbae8ab02890fef23342b934aa8d.png>
+![](img/zhuanqian_55ec4db14a6da6c6f1b6dde713c9350e.png)
+![](img/zhuanqian_2f9ccbae8ab02890fef23342b934aa8d.png)
 点【添加】后，多维表格和应用就算正式"牵手"了。
 看到这里如果你觉得大功告成，那就天真了。一个多维表格里能建多个数据表，一个数据表里又能建多个视图。做自动化操作时，必须让机器人精确落位到具体的数据表和视图，才能在对的地方加内容。
 所以，下一个要解决的问题浮出水面：怎么告诉影刀，你该在哪个数据表里动手？下次接着聊。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_11c78a2de6d433c5f458ac8b1c98838a.png>
+![](img/zhuanqian_11c78a2de6d433c5f458ac8b1c98838a.png)
 承接上文影刀的配置要点，除了【应用 ID】和【应用 Secret】之外，还差一个能够让影刀精准定位的【多维表格 ID】没有落地。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d5d1efd1656a8cfb2c37f168a128f270.png>
+![](img/zhuanqian_d5d1efd1656a8cfb2c37f168a128f270.png)
 这个【多维表格 ID】，也就是飞书里说的 table ID，才是把影刀和目标表格关联起来的关键坐标。
 ### 2.4.5 如何锁定要用的多维表格、视图
 我们现在打开的多维表格，本质上就是一个浏览器网页。不同表格文档，其实就是不同的网页，页面的差异最终都落在了网址上。
 所以我尝试从链接入手对比差异。先新建了两个表格，一个叫【测试】，一个叫【数据表】，分别打开观察地址栏。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a7f7b3bc54ccfa6c55f210ae3ae58a58.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c74dcfcae5561a6ded6b9618ec9eff32.png>
+![](img/zhuanqian_a7f7b3bc54ccfa6c55f210ae3ae58a58.png)
+![](img/zhuanqian_c74dcfcae5561a6ded6b9618ec9eff32.png)
 对比后发现，前缀完全一致，变化都集中在问号后面的参数部分：
 *   表格【测试】的链接后缀是：table=tbl5BrSUj9YZF3C7&view=vewv6JHyIL
 *   表格【数据表】的链接后缀是：table=tbla6VQN6xraqrQR&view=vewA6g7bAi
 再看同一个表格里的不同视图，参数又有什么不同呢
 【表 格】table=tbla6VQN6xraqrQR&view=vewWcHcFYE
 【表格2】table=tbla6VQN6xraqrQR&view=vewdjbkBfa
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f95a883f796a34f6f04fb9331b5bdca7.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7a45b3f52056e7d827993ffc255106b3.png>
+![](img/zhuanqian_f95a883f796a34f6f04fb9331b5bdca7.png)
+![](img/zhuanqian_7a45b3f52056e7d827993ffc255106b3.png)
 两次对比能得出两个规律：
 ① 同一多维表格 App 下，不同数据表，是通过 table= 与 &view 之间的那段字符来区分的
 ② 同一数据表内，不同视图，则由 &view= 后面的那段字符来区分
@@ -170,94 +170,94 @@ Kimi 给的答案如下（我做了简要转述）：
 经检索验证，这个推断是成立的。接下来就只剩怎么稳定拿到它。
 #### 数据表 table
 多维表格的数据容器就是数据表，一个 App 至少一个，最多多个。每个数据表都有唯一的 table_id，在同一个 App 内唯一，全局不一定唯一。可通过表格 URL 直接读取，也可调用列出数据表接口获取。下图高亮处即为该数据表的唯一标识。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8ebd598dc76b3da0709726e6279443d6.png>
+![](img/zhuanqian_8ebd598dc76b3da0709726e6279443d6.png)
 #### 视图 view
 视图是数据的呈现方式，包含表格视图、看板视图、画册视图、甘特视图、表单视图等。一个数据表至少一个视图。每个视图都有唯一的 view_id，在多维表格内唯一，全局不一定唯一。可通过 URL 读取，也可通过列出视图接口获取。注意，嵌入到文档里的多维表格暂时拿不到 view_id。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_dd01d0a4c781bb11af57a4fe86902c7b.png>
+![](img/zhuanqian_dd01d0a4c781bb11af57a4fe86902c7b.png)
 #### 表单视图 form
 表单视图是多维表格的一种视图形态，作用类似问卷收集。每个表单都有唯一的 form_id，而 form_id 其实就是该视图的 view_id，获取方式完全一致。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0854c896a6e6a26a4b5b6dc59b7f590e.png>
+![](img/zhuanqian_0854c896a6e6a26a4b5b6dc59b7f590e.png)
 综合来看，先前的判断是准确的：飞书多维表格的 table_id 就是网址中 table= 与 &view 之间的字符串。至此，影刀指令所需的【应用 ID】、【应用 Secret】、【多维表格 ID】三件套全部齐备，影刀就能连上指定表格了！
 至此，我们就已经成功用影刀连接上我们指定的飞书多维表格啦！
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3390822a55b43010ceca4c17fc1030c2.png>
+![](img/zhuanqian_3390822a55b43010ceca4c17fc1030c2.png)
 ## 2.5 用影刀对数据表进行操作
 连上之后，下一步就是用影刀对指定数据表做增删改。这部分细节很多，建议细看，文末我会说我一共踩了多少坑 TAT。
 按操作 Excel 的习惯，我们通常会告诉影刀，在哪个文件哪个 Sheet 的某一行某一列改。但在飞书里，表头不是 A、B、C 列。
 影刀提供了【添加记录】、【更新记录】等指令，这时又冒出一个新名词【记录 ID】
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_637c7028c64e0ec6b60ebae0ad00a544.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_36b7755b5d4e1dedf6492480be3fa3f1.png>
+![](img/zhuanqian_637c7028c64e0ec6b60ebae0ad00a544.png)
+![](img/zhuanqian_36b7755b5d4e1dedf6492480be3fa3f1.png)
 飞书多维表格里如何定位行？这就牵涉到行也有自己的 ID。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b9392abc3100388557d9f49c28e68bb1.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fdead133d3b2a8e2d25820822600471f.png>
+![](img/zhuanqian_b9392abc3100388557d9f49c28e68bb1.png)
+![](img/zhuanqian_fdead133d3b2a8e2d25820822600471f.png)
 怎么办？检索后得知，影刀里说的【记录 ID】对应的就是飞书多维表格里每一行独有的 Record ID。
 原来每一行都有身份证了。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bb2be7640c7c617c67ae4606f0f740a2.png>
+![](img/zhuanqian_bb2be7640c7c617c67ae4606f0f740a2.png)
 弄清【记录 ID】等于飞书的 record ID 后，核心问题变成怎么拿到它。官方给出的办法很直接。
 【场景】把记录 ID 用于外部或第三方平台的索引、新增、修改、删除
 【说明】用 RECORD_ID 函数就能取出每一行的 ID，在第三方对接时可作为索引列快速匹配。每条 ID 在各自数据表内唯一。
 【公式】RECORD_ID ()
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7705bc2e02200b3888709e4ec1ab626d.png>
+![](img/zhuanqian_7705bc2e02200b3888709e4ec1ab626d.png)
 我们在数据表里新增一列，类型选【公式】，公式写 RECORD_ID()
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c4c1216e0d4afd98ffca4377220bbdbe.png>
+![](img/zhuanqian_c4c1216e0d4afd98ffca4377220bbdbe.png)
 起初我以为记录 ID 就像 Excel 行号，不同表相同行号应该相同，这样更方便。实际测试发现，同个多维表格里两个不同数据表，各自取前 10 行的记录 ID 完全不一样。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9eb003d83a44b3626fa0d9348bc8f879.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_85d667547a77933742694dbaddddb344.png>
+![](img/zhuanqian_9eb003d83a44b3626fa0d9348bc8f879.png)
+![](img/zhuanqian_85d667547a77933742694dbaddddb344.png)
 为求证，我让 Kimi 帮忙查证并解释
 Kimi 的结论：不同数据表中，即使行号相同，记录 ID 也不相同。飞书官方说明是“每一个 ID 在每一个数据表中都是唯一的”。也就是说记录 ID 的唯一性范围是数据表级别，而非整个 App。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0c2f6a644b7fd068811737f6af3abdc8.png>
+![](img/zhuanqian_0c2f6a644b7fd068811737f6af3abdc8.png)
 好吧，不同表相同行号的记录 ID 不一样，操作会复杂一点，但一步步来就行。
 ### 2.5.1 添加记录
 连上表格后最常用的是新增记录。用影刀往指定数据表里加一行信息。
 前面提到，记录本质就是一行，新增记录就是新增一行。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3c93028ffafa48f6e78189a7dcf402ee.png>
+![](img/zhuanqian_3c93028ffafa48f6e78189a7dcf402ee.png)
 比如想新增一行，【文本】列填【Leeka讲RPA】，【日期】列填【2025-02-20】
 影刀要求把内容整理成字典格式：{"列名":"内容"}
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5a4d8a906bebc5bd806f3f908747692d.png>
+![](img/zhuanqian_5a4d8a906bebc5bd806f3f908747692d.png)
 于是我填的是：{"文本":"Leeka讲RPA","日期":"2025-02-20"}
 注意：影刀里所有符号必须用英文半角，否则会报错。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f47393b5a9a937e33fdc7f6b85d4fae9.png>
+![](img/zhuanqian_f47393b5a9a937e33fdc7f6b85d4fae9.png)
 运行一下，正常写入
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_24c492f4ed22ce6dff3acfffca35195e.png>
+![](img/zhuanqian_24c492f4ed22ce6dff3acfffca35195e.png)
 如果数据表列很多，但只想填部分列，就只在字典里写对应的列名即可。
 例如只在【文本】列写入【机器人流程自动化】，影刀配置就是：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e0af7e071afbca497ec3c4d0463f2360.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_39d36a67e1bc1d798c2c36900570121f.png>
+![](img/zhuanqian_e0af7e071afbca497ec3c4d0463f2360.png)
+![](img/zhuanqian_39d36a67e1bc1d798c2c36900570121f.png)
 ### 2.5.2 删除记录
 细心的人会发现，【新增记录】是直接在末尾追加，不会先检查是否空行。如果想先清空行再新增，该怎么做？
 总不能每次都手动进表格找记录 ID 再逐条删吧，太费劲。
 影刀自然有办法，我找到了【列出记录（筛选）】，先通过已知条件查出对应的记录 ID，再做修改。官方筛选教程也附上了。
 现在要解决的是，如何让影刀帮我筛选出空白行？
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_47f17d9dcda56a385d290efdbd2487e1.png>
+![](img/zhuanqian_47f17d9dcda56a385d290efdbd2487e1.png)
 常用筛选公式：
 记录筛选的指南 - 服务端 API - 开发文档 - 飞书开放平台
 这个资源正好解决之前的痛点，先删空行再新增。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7e1e9ea391d156894a4eb6ed05588b20.png>
+![](img/zhuanqian_7e1e9ea391d156894a4eb6ed05588b20.png)
 按飞书给的公式，我成功让影刀定位到空行的记录 ID 列表
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0ff855417a2aeac190c8aa6fecf09c05.png>
+![](img/zhuanqian_0ff855417a2aeac190c8aa6fecf09c05.png)
 拿到空行记录 ID 后，直接用影刀的【批量删除记录】一键清空
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_053a967768684f78b8db44dcc996ee2f.png>
+![](img/zhuanqian_053a967768684f78b8db44dcc996ee2f.png)
 这时可能会问，如果要删的不是空行，而是特定内容的行呢？
 比如要删除【测试】数据表里，文本列值为【机器人流程自动化】的那一行。
 步骤是：
 1、先筛选出该文本所在行的 Record ID
 2、用影刀【删除记录】指令删除
 （说明：删除记录是删整行，若只想清空单元格内容要用【更新记录】）
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7979308c88e73d3b19226f0d23455a49.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_116204d86d8cdd9617bd0a96cba7f288.png>
+![](img/zhuanqian_7979308c88e73d3b19226f0d23455a49.png)
+![](img/zhuanqian_116204d86d8cdd9617bd0a96cba7f288.png)
 实际操作一下，整行轻松被删掉
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_85f460a6f67f3d42bfe78541327a72bf.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_969d73a8e4d7fbdf945c15b7578bb8ab.png>
+![](img/zhuanqian_85f460a6f67f3d42bfe78541327a72bf.png)
+![](img/zhuanqian_969d73a8e4d7fbdf945c15b7578bb8ab.png)
 ### 2.5.3 更新记录
 更新记录就是把已有数据改写，既可以填空白，也可以覆盖旧值。有两种典型情况：
 1.  表格已有内容，需要修改
 2.  表格没有内容，需要新增
 第一种情况下，行对应的 record_ID 本身已知，直接改即可。如果流程里需要先找行，再改，就在前面加一个【列出记录（筛选）】。
 例如把【测试】数据表第一行的日期从【2025-02-20】改成【2049-12-31】，操作如下：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9618e0232a927fcdbf145b3a35c75ce2.png>
+![](img/zhuanqian_9618e0232a927fcdbf145b3a35c75ce2.png)
 要留意，【列出记录（筛选）】的输出是一个列表，不是一个单一值，所以在选取具体记录 ID 时要指明“列表中的某一项”，否则会报错。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_53118364af05586f5b910c5d663fc029.png>
+![](img/zhuanqian_53118364af05586f5b910c5d663fc029.png)
 成功，影刀已在指定表格里完成更新
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8951516c744811cc1674fe02f4c0c3ff.png>
+![](img/zhuanqian_8951516c744811cc1674fe02f4c0c3ff.png)
 # 结语
 看到这里的你，应该已经跃跃欲试想用影刀控制飞书多维表格了。受篇幅限制，本帖只讲了如何借助影刀自带指令和 AI 帮助，把飞书多维表格做【增】、【删】、【改】的核心思路。
 除了操作步骤，我更想传递一个观念：你完全可以把已掌握的技能作为跳板，去学习新技能。

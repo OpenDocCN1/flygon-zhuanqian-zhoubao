@@ -29,9 +29,9 @@
 `vibrant califonia flower`
 意思是“充满活力的加利福尼亚花朵”。
 输完直接按回车即可。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d0a8abad23ba59fafbe1d5a8d88c0ef5.png>
+![](img/zhuanqian_d0a8abad23ba59fafbe1d5a8d88c0ef5.png)
 画面会开始一点点生成。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0645c37b8efc8c3c814fca94df9a98f4.png>
+![](img/zhuanqian_0645c37b8efc8c3c814fca94df9a98f4.png)
 这就是 Midjourney 最核心的一步。所有和 AI 绘图相关的操作，本质上都绕不开它。一分钟不到，你就能产出一张图。
 ### 04.2 付费订阅
 Midjourney 的免费额度非常有限，想多用一些功能，就得付费订阅。
@@ -41,7 +41,7 @@ Midjourney 的免费额度非常有限，想多用一些功能，就得付费订
 - 基础版：10 美元/月，适合少量出图、轻度使用
 - 标准版：30 美元/月，适合大量出图、重度使用
 - 企业版：60 美元/月，适合重要图片、保密使用
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0741948baf535b5ee207d190d279c6ed.png>
+![](img/zhuanqian_0741948baf535b5ee207d190d279c6ed.png)
 如果直接按年订阅，还能在原价基础上打八折。这一节先聊到这里，更详细的说明会在后面逐步展开。
 ## 05 绘图：先把“描述”这件事搞明白
 如果你还没把核心操作跑通，可以先看一眼这篇飞书文档：
@@ -56,12 +56,12 @@ Prompt 本质上是一个很短的文本短语，用来告诉机器你想画出�
 - The big tree beside the street
 - 🤖
 直接在输入框里发出去就行。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e665f08d0d79774dba230a288a921751.png>
+![](img/zhuanqian_e665f08d0d79774dba230a288a921751.png)
 #### 进阶 Prompt
 更高级一点的提示词，可以包含一个或多个图片链接、多段文本描述，以及一个或多个参数。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d0c373e26d846938a2f1f2b0c8de1afb.png>
+![](img/zhuanqian_d0c373e26d846938a2f1f2b0c8de1afb.png)
 所谓“Image Prompts”，也就是大家常说的图生图、垫图。你可以通过上传图片，告诉 Midjourney 自己想要的信息：构图、色彩、风格、人物形象，都能参考。下面这个演示是在苹果设备上完成的，但网页端和电脑端的逻辑都一样。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9b7f78ed8b432f53e31e6d365a576e3e.png>
+![](img/zhuanqian_9b7f78ed8b432f53e31e6d365a576e3e.png)
 Prompt Text 就是你要生成图片的文字描述。
 Parameters 则是改变生成方式的参数。参数放在提示词最末尾，固定格式一般是 `--` 加英文字符。
 比如：
@@ -91,20 +91,20 @@ Midjourney 对语法和句子结构不敏感，但对用词非常敏感。尽量
 有时候，一个词就够了；但在奔放的默认风格之外，合适的修饰词会大幅改变画面气质。
 比如同样是画一只猫，就有无数种表现方式。
 - 指定艺术媒介，是营造时尚感的好办法。颜料、蜡笔、刮板、印刷机、亮片、墨水、彩纸，都能带来完全不同的质感。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_260f437b411ee5535105315beff93a88.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_720e224f79d11e785ac9e17f44cbbfb2.png>
+![](img/zhuanqian_260f437b411ee5535105315beff93a88.png)
+![](img/zhuanqian_720e224f79d11e785ac9e17f44cbbfb2.png)
 - 精确描述，能帮助你获得观感正确的画面。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5d166f15b421ebef15f01c62238f30cf.png>
+![](img/zhuanqian_5d166f15b421ebef15f01c62238f30cf.png)
 - 不同时代有不同的视觉风格，让 AI 去一次“时间旅行”，往往很出彩。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3a364691c8630a101f820a16ceb9c1a3.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c5024fc1553cab3fa23b4ae4abbfb4ad.png>
+![](img/zhuanqian_3a364691c8630a101f820a16ceb9c1a3.png)
+![](img/zhuanqian_c5024fc1553cab3fa23b4ae4abbfb4ad.png)
 - 加入情绪词，可以让角色瞬间“有灵魂”。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ab380e1464a23415548d2b8ed5512d74.png>
+![](img/zhuanqian_ab380e1464a23415548d2b8ed5512d74.png)
 - 用颜色说话，会直接改变整张图的氛围。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7489f9c51bcd4f8c80f7defa1abc7e98.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5fc54c0326a3ac39497c0f30aaa04d6f.png>
+![](img/zhuanqian_7489f9c51bcd4f8c80f7defa1abc7e98.png)
+![](img/zhuanqian_5fc54c0326a3ac39497c0f30aaa04d6f.png)
 - 换一个环境，整个画面的调性也会随之改变。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_26186a1038da538badf2fe6c0e648ed5.png>
+![](img/zhuanqian_26186a1038da538badf2fe6c0e648ed5.png)
 上面只是入门参考，更多修饰词组合，可以自己在实战里继续摸索。
 ## 06 Blend：不用写提示词，也能融合图像
 ### 06.1 Blend 是什么？
@@ -113,10 +113,10 @@ Blend 功能很好理解：不需要描述词，直接把 2 到 5 张图丢进�
 另外，为了让融合效果更好，输入的两张图最好保持比例一致。
 ### 06.2 怎么用？
 输入“/blend”，从弹出的选项里选中 blend，然后按提示上传图片，最后点击发送，AI 就会开始生成。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8f2a63c172e307eaa22fdef928eb9cd2.png>
+![](img/zhuanqian_8f2a63c172e307eaa22fdef928eb9cd2.png)
 ### 06.3 怎么改比例？
 点击“more”按钮，找到“dimensions”，就可以调整图像的长宽比例。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cedcea64e48c534a0b74dbd9f8dc4c91.png>
+![](img/zhuanqian_cedcea64e48c534a0b74dbd9f8dc4c91.png)
 ## 07 模型与分辨率扩大
 ### 07.1 模型怎么选？
 目前 Midjourney 有 1、2、3、4、5 这几个常规版本，数字越大，模型越新；另外还有 Niji（动漫）、Test、Testp 等特殊模型。
@@ -131,43 +131,43 @@ Blend 功能很好理解：不需要描述词，直接把 2 到 5 张图丢进�
 - `--testp`
 #### v5 模型
 `--v 5` 的一致性非常高，擅长理解自然语言提示，而且能生成更高分辨率的图像。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_651a7a19da772d193b3af3a671a58269.png>
+![](img/zhuanqian_651a7a19da772d193b3af3a671a58269.png)
 #### v4 模型
 `--v 4` 是 Midjourney 当前默认使用的模型。也就是说，如果你不带后缀，就会默认使用它。
 v4 对动物、地点、物体等内容有更多知识积累，处理小细节的能力更强，也能应对包含多个角色或对象的复杂提示。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_dc60f3fddcc3b71fccf5b2180d8ba6e0.png>
+![](img/zhuanqian_dc60f3fddcc3b71fccf5b2180d8ba6e0.png)
 v4 内部又分成 4a、4b、4c 三个版本，彼此有细微差别。用法是加后缀：
 - `--style 4a`
 - `--style 4b`
 - `--style 4c`
 其中 `--style 4c` 等价于 `--v 4`。
 对比效果如下：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9f066ba9bb52ec7710aac36eb203624b.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1227448f6338742cdc5c8a552aa72f31.png>
+![](img/zhuanqian_9f066ba9bb52ec7710aac36eb203624b.png)
+![](img/zhuanqian_1227448f6338742cdc5c8a552aa72f31.png)
 #### 旧模型
 v1、v2、v3、hd 这些老版本，也有各自的风格和适用场景。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c65d71e7c5fcc3418f26f5b8fe853a8a.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_495858d1fc124d6ac477dcb058c08094.png>
+![](img/zhuanqian_c65d71e7c5fcc3418f26f5b8fe853a8a.png)
+![](img/zhuanqian_495858d1fc124d6ac477dcb058c08094.png)
 #### Niji 动漫模型
 `--niji` 是 Midjourney 和 Spellbrush 合作的产物，专门用于动画与插画风格。它对动漫、动漫审美有更深入的理解，尤其在动态镜头、动作场景、人物中心构图上表现很强。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_42daed7b93d72e3f2f2344670d03a246.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_479f718d2ec12c3b30136aa8f3172a8d.png>
+![](img/zhuanqian_42daed7b93d72e3f2f2344670d03a246.png)
+![](img/zhuanqian_479f718d2ec12c3b30136aa8f3172a8d.png)
 #### Test 测试模型
 Midjourney 偶尔会临时放出一些新模型，给社区做测试和反馈。
 目前可用的测试模型有两个：test 和 testp。它们可以和 `--creative` 参数一起使用，带来更多样化的组合效果。
 - test 风格更强烈
 - testp 更偏写实
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b61e46697e0b1279ec461f486c81f9cb.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0f3def540041b07796640fbaf588c602.png>
+![](img/zhuanqian_b61e46697e0b1279ec461f486c81f9cb.png)
+![](img/zhuanqian_0f3def540041b07796640fbaf588c602.png)
 #### 怎么切换模型？
 很简单，在描述词后面追加对应后缀就行。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_45f707826c74407fc028a853f717f671.png>
+![](img/zhuanqian_45f707826c74407fc028a853f717f671.png)
 也可以用 `/settings` 命令来设置。菜单里会出现 MJ Version 1/2/3/4、Niji Mode、MJ Test、MJ Test Photo 等选项，点一下就能完成切换。
 ### 07.2 分辨率扩大
 Midjourney 会先生成一张低分辨率“四宫格”预览图。生成后，你可以通过旁边的按钮继续操作。
 - U1、U2、U3、U4：放大对应位置的那张图
 - V1、V2、V3、V4：以对应位置的图为基础，再延伸生成 4 张新图
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_05fb209b1f689271e7179ef8c402be6e.png>
+![](img/zhuanqian_05fb209b1f689271e7179ef8c402be6e.png)
 点击 U 按钮放大图片后，还会出现新的放大选项，继续叠加细节。
 ## 08 后面的内容还会继续长出来
 刚才提到的完整目录里，后面还有：
@@ -181,36 +181,36 @@ Midjourney 会先生成一张低分辨率“四宫格”预览图。生成后，
 这些板块，后面会一点一点补全。
 但我想提醒你：先别急着等“完全体”，先把第一张图跑出来，再去感受命令和参数的差异。今天这些内容，已经足够帮你从 0 到 1 跨出第一步。
 动手之后，好事才会真的发生。如果你在练习过程中用到哪个片段觉得有用，欢迎顺手把你的经验写下来，标注好章节号，然后 @ 天辉。你留下的每一笔，都会让这份手册继续长大，最终成为更多人伸手就能用的 AI 绘画工具书。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9adcef55183d814e9944c37b0619dfe0.png>
+![](img/zhuanqian_9adcef55183d814e9944c37b0619dfe0.png)
 在默认 1:1 构图的设定下，各类放大方案的效果对照如下，左侧为原始网格，右侧为处理后的结果：
 从左到右，代表放大前后
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d827ee507861b16c5dd8d104df3085e5.png>
+![](img/zhuanqian_d827ee507861b16c5dd8d104df3085e5.png)
 3.2.1 默认的 U 阶放大 U1、U2、U3、U4
 这套方案是平滑提升细节与画幅的常规手段，整体清晰度会逐步增强，画面尺寸也会同步变大。初版网格里若存在瑕疵或微小元素，在放大完成时往往会被重新演绎。
 操作方式：直接点按 U1、U2、U3、U4 按钮即可
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_de91a0ef94c0e0430af6037232750b58.png>
+![](img/zhuanqian_de91a0ef94c0e0430af6037232750b58.png)
 3.2.2 Light Upscale 轻量放大
 偏向少量纹理与细节的强化，甚至可以用来压制细节。风格更柔和，噪点感更低。
 操作方式：使用 Light Upscale Redo 按钮，或在提示词尾部追加 --uplight
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_52a6dded98c7cad2a871d62e55ab57ad.png>
+![](img/zhuanqian_52a6dded98c7cad2a871d62e55ab57ad.png)
 3.2.3 Beta Upscale 轻细节放大
 额外增加的细节不多，对人像、光滑材质的放大尤为友好，画面保持度高。
 操作方式：点击 Beta Upscale Redo 按钮，或在提示词尾部追加 --upbeta
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_52a6dded98c7cad2a871d62e55ab57ad.png>
+![](img/zhuanqian_52a6dded98c7cad2a871d62e55ab57ad.png)
 3.2.4 Upscale to Max 最大化放大
 该功能源自 v1、v2、v3、hd 时代的专用按钮，能够把图片强行拉大并堆叠更多细节，现行模型已不支持使用
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a9623c1c9a83616d30f487cbca0ffe8b.png>
+![](img/zhuanqian_a9623c1c9a83616d30f487cbca0ffe8b.png)
 3.2.5 Niji 模型自带的 U 阶放大 U1、U2、U3、U4
 原理同 3.2.1，但专为 --niji 动漫模型优化。针对插画与日系风格进行了调校，放大后线条与色彩保持更稳。
 操作方式：点按 U1、U2、U3、U4，或在参数中加上 --upanime
 3.2.6 Remaster 重塑
 可以理解为旧图用新模型再造。专门服务于曾用 v1、v2、v3 模型生成的放大图。Remaster 会把原始图的构图信息与 --test 模型的表现力按 --test 与 --creative 的逻辑融合，再次升级。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5a01689a364f805f89f0be7b8f73c994.png>
+![](img/zhuanqian_5a01689a364f805f89f0be7b8f73c994.png)
 （右为重塑后的图像）
 ## 四、出图命令
 ### 4.1 命令总览
 命令的触发格式是在聊天框输入 “/+英文关键词”，在弹出菜单中选中后发送即可调用对应功能。最广为人知的绘图入口是 /imagine。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d0a8abad23ba59fafbe1d5a8d88c0ef5.png>
+![](img/zhuanqian_d0a8abad23ba59fafbe1d5a8d88c0ef5.png)
 除此之外还有一系列功能按钮，按首字母排序，其中蓝色标注的为高频使用命令
 4.1.1
 ### /ask
@@ -274,9 +274,9 @@ Midjourney 会先生成一张低分辨率“四宫格”预览图。生成后，
 #### 4.2.1 基础信息查询 /info
 可查看当前排队任务、运行中任务、订阅类型、到期时间等
 动图演示：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a402bdf2723388c46be5527968f9677e.png>
+![](img/zhuanqian_a402bdf2723388c46be5527968f9677e.png)
 静态展示：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e2ebc4ababda6604109c426af0c281ec.png>
+![](img/zhuanqian_e2ebc4ababda6604109c426af0c281ec.png)
 界面会显示剩余使用时长，例如本例还剩 14.98h 的 fast 模式时长
 4.2.2 付费订阅查询 /subscribe
 用于查看当前订阅状态并完成续订
@@ -288,17 +288,17 @@ Midjourney 会先生成一张低分辨率“四宫格”预览图。生成后，
 ### 4.3 设置与预设
 #### 4.3.1 默认选项修改 /settings
 频繁手动调整很费时间，用该指令可一键设定默认行为
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fce1591979acd444f2e055f35a802f2c.png>
+![](img/zhuanqian_fce1591979acd444f2e055f35a802f2c.png)
 按钮变绿即表示后续无需重复输入命令或参数，系统会默认套用
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_15b95ca41fd2151c7462084a4b6d77cf.png>
+![](img/zhuanqian_15b95ca41fd2151c7462084a4b6d77cf.png)
 1、2、3、4、5、niji、MJ Test、MJ Test Photo 对应不同模型，选中后就无需每次写 --v 4 等参数
 其余按钮对应的参数关系如下：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d05969446bdd810046c4db1af64bfbe2.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8a94d2db77b2dfbcb0ab43612691e5e0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7af15a8af533c0bd21491766cfa4ab63.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3d35ae6e3926fdf2b6dad826247d739f.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c588416ae857a9816e96255481e3712a.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_daf88d005cef5a4a28ebc90c5a4fd089.png>
+![](img/zhuanqian_d05969446bdd810046c4db1af64bfbe2.png)
+![](img/zhuanqian_8a94d2db77b2dfbcb0ab43612691e5e0.png)
+![](img/zhuanqian_7af15a8af533c0bd21491766cfa4ab63.png)
+![](img/zhuanqian_3d35ae6e3926fdf2b6dad826247d739f.png)
+![](img/zhuanqian_c588416ae857a9816e96255481e3712a.png)
+![](img/zhuanqian_daf88d005cef5a4a28ebc90c5a4fd089.png)
 4.3.2 自定义参数集 /prefer 系列
 通过 prefer 命令把常用参数固化到提示词末尾
 /prefer auto_dm      任务完成后自动推送到私聊
@@ -308,13 +308,13 @@ Midjourney 会先生成一张低分辨率“四宫格”预览图。生成后，
 4.3.2.1 Prefer Option
 /prefer option set <名称> <值>
 创建一个快捷参数，把多个参数打包成一个词
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9967b56a3bab292e3af0c731a39af3c8.png>
+![](img/zhuanqian_9967b56a3bab292e3af0c731a39af3c8.png)
 例如设置后相当于执行了 /prefer option set mine --hd --ar 7:4，之后只要写 --mine 就会自动带上 --hd 与 --ar 7:4
 注，示例中的 --hd 已属旧参数，7:4 在新模型上也不太通用，但机制完全相同
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_be16efdbc3648d631ddf66981b316e7b.png>
+![](img/zhuanqian_be16efdbc3648d631ddf66981b316e7b.png)
 若想删除自定义参数，只需用相同设置把 value 部分清空并发送即可
 /prefer option list 发送后会展示当前所有自定义参数的映射关系
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_be16efdbc3648d631ddf66981b316e7b.png>
+![](img/zhuanqian_be16efdbc3648d631ddf66981b316e7b.png)
 #### 4.3.2.2 Prefer Suffix
 /prefer suffix 可让所有提示词自动带上指定后缀
 例如： /prefer suffix --uplight --video
@@ -323,31 +323,31 @@ Midjourney 会先生成一张低分辨率“四宫格”预览图。生成后，
 当作品积累变多时，可通过 Job ID 找回并继续编辑
 关键是定位到自己生成的图对应的 Job_ID，一串字符，别人生成的图不可用
 使用示例：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c5d3a37f67fa4166b96c9fc0226fc3ae.png>
+![](img/zhuanqian_c5d3a37f67fa4166b96c9fc0226fc3ae.png)
 4.4.1 从个人主页查找
 [https://www.midjourney.com/app/](https://www.midjourney.com/app/)
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_62a9397a118ac80a1132ebb999b11c7b.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bdf042f24ff2f0e98f7c523e5acc0992.png>
+![](img/zhuanqian_62a9397a118ac80a1132ebb999b11c7b.png)
+![](img/zhuanqian_bdf042f24ff2f0e98f7c523e5acc0992.png)
 4.4.2 从图片链接解析
 例如链接为
 [https://www.midjourney.com/app/users/381590592095911946/?jobId=](https://www.midjourney.com/app/users/381590592095911946?jobId=)9333dcd0-681e-4840-a29c-801e502ae424
 其中绿色部分即为 Job_ID
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0b5ccecb14a92dd9332c4aa433e4a6e9.png>
+![](img/zhuanqian_0b5ccecb14a92dd9332c4aa433e4a6e9.png)
 4.4.3 从文件名提取
 下载的图片文件名中常携带相关信息，可直接复制使用
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_83d06ae6e2f7e5873c6d0b0165e46224.png>
+![](img/zhuanqian_83d06ae6e2f7e5873c6d0b0165e46224.png)
 4.4.4 通过 Discord 表情找回
 在图片下方发送 📧 反应，机器人会返回对应的图片信息
 发送方式参考下图👇
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7d3fba8441e0ee7be299e8bbd2ae6361.png>
+![](img/zhuanqian_7d3fba8441e0ee7be299e8bbd2ae6361.png)
 Job_ID 位于此处👇
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c1f6619cdc7cf49dd80af7f2a7b7e145.png>
+![](img/zhuanqian_c1f6619cdc7cf49dd80af7f2a7b7e145.png)
 若找不到右侧信息，可在该位置查看
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9d60620748f0d97bf35293a0f15b2c03.png>
+![](img/zhuanqian_9d60620748f0d97bf35293a0f15b2c03.png)
 ## 五、出图参数
 ### 5.1 参数总表
 以下参数直接影响生成结果，位于提示词的橘黄色区域
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d0c373e26d846938a2f1f2b0c8de1afb.png>
+![](img/zhuanqian_d0c373e26d846938a2f1f2b0c8de1afb.png)
 当前可用参数：
 --ar, --chaos, --no, --q, --seed, --stop, --style, --stylize, --uplight, --upbeta, --niji, --hd, --test, --testp, --v, --creative, --iw, --sameseed, --video
 已弃用参数：
@@ -382,9 +382,9 @@ Job_ID 位于此处👇
 #### 5.1.1.10 Beta 放大 --upbeta
 结果更贴近原始网格，细节增幅有限，见本文 3.2.3
 v4 模型默认参数及可调范围
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2562a02a0da64804f89e4461a141c448.png>
+![](img/zhuanqian_2562a02a0da64804f89e4461a141c448.png)
 v5 模型默认参数及可调范围
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d97938eb0a7644dc89028f0c0dad29a0.png>
+![](img/zhuanqian_d97938eb0a7644dc89028f0c0dad29a0.png)
 #### 5.1.2 模型相关参数
 Midjourney 会定期推送新模型，不同模型擅长不同题材
 #### 5.1.2.1 Niji --niji
@@ -408,46 +408,46 @@ Midjourney 会定期推送新模型，不同模型擅长不同题材
 #### 5.1.3.4 视频 --video
 保存生成过程中的四张图进度视频，发送 ✉️ 时同步输出
 不同模型可用参数及可调范围对照表
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f4762d97455f5541feaa7a97b7cb732e.png>
+![](img/zhuanqian_f4762d97455f5541feaa7a97b7cb732e.png)
 ### 5.2 比例参数详解 --ar
 --aspect 或 --ar 用来改变生成图像的宽高比
 宽高比以冒号分隔两个整数表示，如 7:4 或 4:3
 正方形为 1:1，无论像素是 1000×1000 还是 1500×1500，比值不变
 默认比值为 1:1
 必须使用整数写法，如 --ar 139:100 而非 --ar 1.39:1
-在 Midjourney 的创作世界里，纵横比决定了画面最终的“骨架”与视觉结构。分辨率上升时，部分宽高比例可能会发生细微变化。开始之前，先把各类模型支持的纵横比范围看清楚，心里有数。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2092ae784942d3a4dc95368e958d6789.png> 想要直观看懂纵横比，一张示意图就足够了。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_619ce017e64a15befc3dcdaf702dd3c8.png> 实际操作也很简单：在描述词末尾加上相应后缀，例如 `--ar 2:3` 即可生效。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_af97fd8153f7e299be31666a2fa63075.png>
-接着聊聊 chaos 参数，它控制的是初始图像网格的变异强度。数值拉得越高，结果往往越出人意料，构图也更天马行空；数值偏低时，出图则更稳定、更可控。默认情况下 chaos 的取值为 0，可设定范围是 0 到 100。比如 `--chao 24`，输入“西瓜猫头鹰杂合”这类描述，就能感受到它的作用。低 chaos 数值下的表现为：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3fd08bda3c9299c11e912bf3f83ba03c.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ba5289969f838861e15670d801fb4433.png>；高 chaos 数值下的表现为：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_213f4dddfda37b0182a65c1b96e4e78a.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7ec7703b2f3e869295b2231281cb1582.png>；而当 chaos 调高到极端值时：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9ec536a3d1495ab703cbdbbd01c4d16a.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1c6f3533a2b825c780c5593f5fa5fbf5.png>。使用方法很简单，`--chaos` 和缩写 `--c` 皆可。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_92b76ed93a37a4803a708adf6c3d9988.png>
-关于质量参数 q 值，它直接决定了出图所投入的计算时间。质量调高，耗时更久，细节也更丰富，同时会增加 GPU 算力消耗；但质量设置不会影响分辨率本身。别以为高品质就一定是最好的，有时候为了适配特定画面，低质量反而能带来惊喜。比如追求手绘的抽象感时，低质量可能更合适；而建筑类的表现，往往高品质能够呈现更多结构与纹理细节。建议多试试不同的档位，找到最适合的组合。v4 版本的木森林测试效果可见：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e7da72222ea86ea77204d1976db3fef0.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_41254a198d88e68071a81359cbdfac1e.png>；v5 版本的牡丹花测试效果可见：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6bc9cadb196d3fd18716fdf0a34eedb9.png>；不同模型与参数兼容性的测试结果参考：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0fa98e558db8cb57c23682ff3740b85b.png>。使用方式有两个：其一，直接在聊天框里加后缀，比如 `--q 0.25`、`--q 0.5`、`--q 1`、`--q 2`。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5ffb6a05c85d7e3c158ceea213b59839.png> 其二，用 `/settings` 设置默认为 Half、Base 或 High quality。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fce1591979acd444f2e055f35a802f2c.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_13b3d2ba63317ee9ea23af02b2310a41.png>
-关于种子参数，Midjourney 会用一个随机数值生成类似电视雪花般的视觉噪声场，作为出图的起始点。这个种子号可以自定义，通过 `--seed` 或 `--sameseed` 指定。当提示词和种子号完全相同时，生成的图像往往是相似的。seed 可填写的整数范围是 0 到 4294967295，且种子值只影响初始生成的网格。需要注意的是，v1、v2、v3、test 和 testp 版本存在随机性，只能生成相似但不完全相同的图；而 v4、v5 与 niji 模型在提示词、种子和参数固定的时候，可以完全重写出一样的画面。看下面这个例子：“青瓷猫头鹰水罐”。如果保持随机种子，即使其他条件不变，三次生成的结果也会截然不同：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_295afdbba36ed494e7d25385b2c9c626.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_45ef68760187e8dc2864ead1ad97e1ad.png>。如果要固定画面，只需把 seed 设为定值，比如 `--seed 123`，在 v4、v5 和 niji 模型下，无论重复多少次，图像都会一模一样：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a90600f1a4c713d64beee680c425afc2.png>。sameseed 与 seed 的差异在于，seed 只影响网格中第一张图的出生，而 sameseed 会让四张图全部统一遵循同一个起点。sameseed 同样取值 0 到 4294967295，但只兼容 v1、v2、v3、test 和 testp 模型。固定 sameseed 前后的对比如下：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b07940c131aacf6761aefc9cc8caa263.png>；固定 seed 前后的对比如下：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8520fe390b7fe91b646a21f12d9ff687.png>。想要寻找某个图片对应的种子值，只需要在目标图片上添加一个✉表情反应即可，操作细节可参照前文 4.4.4 章节。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6a6697ab3b3ebba9cda0d652c5d0a797.png> 在聊天框中输入 `--seed 12345` 就可以直接套用这个种子。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_769af08df040d83229686e3e95c8d4f4.png>
-stop 参数的用途很直白——它允许你提前终止生图过程，用百分比来控制工作停止的节点。设定值越靠前，图像往往越模糊、细节越少。stop 的默认值是 100，可调整范围是 10 到 100。但这个参数只对初始生成过程有效，放大阶段不会响应它。举个例子：“橡子飞溅艺术画”。基础用法效果展示：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e7b860ee1e2df0d68b9358f374ce4aa0.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_931487c0f7a1b85d7cad4ca982e255ee.png>。进阶玩法是：即便放大时 stop 不再生效，但如果初始图像停止在更柔和、更不精细的状态，最终放大结果的细节程度也会受影响。这里展示的是使用 Beta Upscale 的效果：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9660249e7845023a12bbe14099c823a4.png>。具体使用方式，同样是在聊天框加后缀，比如 `--stop 90`。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9e5782647f2937b3fd8b316433539444.png>
-风格参数 stylize（或缩写 s）决定了 Midjourney Bot 在艺术性方面的训练强度。数值低时，画面紧紧贴合你的文字描述，但艺术感较弱；数值越高，画面越富有艺术表现力，却可能偏离提示词本身。不同模型对于 stylize 的默认值和可调范围各有不同，具体可以看这里：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6c2d3cce753f8e46d1564b6acab81b95.png>。在 v4 模型上的效果，以“无花果插图”为例：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f2d389be9ea754dec6fd813229d13296.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7dcd67d9127d3ac277707111cc286280.png>；在 v5 模型上的效果，以“无花果的彩色等线图”为例：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a7fdb214607801f608dddc37695ebf7a.png>。使用方式也有两种，一是直接在聊天框加后缀，如 `--s 1000`：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6e103fc9b6f3f28db918454301a71974.png>；二是通过 `/settings` 设定默认风格，比如 Style low、Style med、Style high 或 Style very high：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fce1591979acd444f2e055f35a802f2c.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4a2f7db598d4f58ef06a0e7d9e8a3114.png>。
-tile 平铺参数生成的图像能够作为重复瓷砖使用，常用于制作无缝织物、壁纸或纹理图案。tile 在 v1、v2、v3 和 v5 模型中均可使用，每次只生成一张独立贴图。想要得到多张拼贴在一起的完整效果，可以借助 pycheung 等人的在线工具：[链接](https://www.pycheung.com/checker/)。来看在 test 和 testp 模型上的表现，彩色虎纹与破碎的纸板玫瑰：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_44da4138b2c07f4e50256a257032ae38.png>。在 v5 模型上，苔藓涂鸦与水彩锦鲤的效果如下：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_953307b3fb9a9fa713edef07288bcf99.png>。使用时，只需在描述词后加上 `--tile`：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_abb54174a820eaa3316adadd7fde63b5.png>。
-版本参数可以通过 `--v` 或 `--version` 来指定模型。Midjourney 会不断迭代模型以提升出图的效率、一致性和整体质量。默认情况下会使用最新版本——但测试版除外，比如虽然 v5 已发布，理论上目前主流仍是 v4。每个模型各有长处，word 中选择 `--v 5` 就能切换新模型。不同模型间的对比，已经在 3.1 章节中详细展示过。具体操作：在聊天框后缀中加入 `--v` 参数并跟上编号，例如 `--v 4`。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_45f707826c74407fc028a853f717f671.png>
-video 参数允许你保存生成四张初始图像的进度短视频。操作方式同样是通过添加✉️表情来触发，它会同步生成并发送视频。注意，这只适用于初始生成阶段，无法记录放大过程；并且目前只有 v1、v2、v3、test 和 testp 这几个模型支持。举例来说，“充满活力的加州花”和“奇异蕨类植物素描”的视频效果都非常不错：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1f2c1353cb4ab34823c50a161380df7f.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a11dc60a531d42d6039b7edd2867d23f.png>。具体获取流程为：第一步给描述词末尾加上 `--video`；第二步等待图像生成结束；第三步在目标图上添加信封反应（操作同 4.4.4 章节）；<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5bbf5aa65de812497b945eaaacb25849.png> 之后就能拿到下载链接了。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c2810a8f80b2a3aac308684403c9e79e.png>
-再往前走一步，进阶图生图可以说是创作中极其好用的玩法。你可以把图像当作提示词的一部分，用它来引导画面的结构、风格或配色。图像提示可以单独使用，也可以与文本描述混合，甚至可以把不同风格的图片组合在一起，获得意想不到的效果。更高级的玩法，还能叠加多个图像 URL、多段文本以及多个参数。基础操作流程是：先上传一张图片，然后在 prompt 输入框出现后，把上传好的图像拖拽进聊天框，系统会自动生成对应图片链接；你可以同时添加多张参考图。接着在链接后面继续写描述词和参数，确认后发送即可开始生成。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9b7f78ed8b432f53e31e6d365a576e3e.png>
-比如在 v4 和 v5 模型下，图生图的表现各有千秋。这些新模型会把图像当作生图的起点，因此结构、配色和构图上都更贴近参考素材——但有时候也会显得有些刻板，各有利弊。以下面这些基础素材为例：阿波罗雕像、复古花卉插图、恩斯特·海克尔的水母与地衣、北斋的《巨浪》。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_685a97f153a8c4631689b448e48591d9.png> 在 v4 模式下尝试雕像与花、水母的组合：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_60b950ba6ac9b4c2ea88fe936578a45e.png>；雕像配苔藓、雕像配波浪：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2499d98ace3ccb81c3fe3ea37eafb3df.png>；甚至雕像加苔藓再加花的叠加：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f41abe33dc5e03c048d0f461b94e73eb.png>。切到 v5 模式后，同样的组合呈现出更细腻的质感：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f25d0f6718436e750619f3645dab40ea.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f76595b0552c5d087b165fba6b6213f9.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9480fc8a687fab279c677db6b992f82b.png>。
-而在更早期 v3 模型中，图生图更偏向抽象精神，图像更多是视觉灵感参考，并非严格的出发点。这里便涉及“图像权重”的概念。权重越高，参考图对成图的影响力也越大。`--iw` 专门用于调节这一权重。早期的 Midjourney 版本就用它来控制图像 URL 的强度，默认值是 0.25，可变范围从 -10000 到 10000；数值越大，参考图的存在感越强。举个例子，当你输入“图像链接 + vibrant California poppies --v 3 --iw <数值>”时，iw 数值的不同会呈现完全不同的风格。左上角是上传的参考图，右侧是不同权重下的生成结果：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3e0fc05ab2d925d7bb1c76eb0e88b169.png>。另一组向日葵测试也类似，左上角仍然为参考原图：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_91148ce39100d99277ed2d844af49c27.png>。
-最后是 Remix 修图参数。启用 Remix 后，用户可以随时更改提示词、参数、模型版本等，它会借助初始图像的整体组成，作为新 Job 的一部分继续演化。这在改变光影、变换环境或重塑主题时特别有效。Remix 目前是实验性功能，未来可能被调整或移除，但目前可以正常使用。打开方式一：直接在聊天框调用 `/prefer remix`；<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_33a09ee227cab44c4df3ef851af752f7.png> 方式二：在 `/settings` 中找到 Remix mode 并点击开启，变绿后就意味着成功启用。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fce1591979acd444f2e055f35a802f2c.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ba5df290e532d3c7ffa0ee0813ad5192.png> 启用后，涉及 V1 到 V4 以及 Make Variations 操作时，系统都会先弹出文本框，允许你基于原有描述进行调整修改。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_05fb209b1f689271e7179ef8c402be6e.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f3f189d78bf775ba6d463853afbed97b.png>
+在 Midjourney 的创作世界里，纵横比决定了画面最终的“骨架”与视觉结构。分辨率上升时，部分宽高比例可能会发生细微变化。开始之前，先把各类模型支持的纵横比范围看清楚，心里有数。![](img/zhuanqian_2092ae784942d3a4dc95368e958d6789.png) 想要直观看懂纵横比，一张示意图就足够了。![](img/zhuanqian_619ce017e64a15befc3dcdaf702dd3c8.png) 实际操作也很简单：在描述词末尾加上相应后缀，例如 `--ar 2:3` 即可生效。![](img/zhuanqian_af97fd8153f7e299be31666a2fa63075.png)
+接着聊聊 chaos 参数，它控制的是初始图像网格的变异强度。数值拉得越高，结果往往越出人意料，构图也更天马行空；数值偏低时，出图则更稳定、更可控。默认情况下 chaos 的取值为 0，可设定范围是 0 到 100。比如 `--chao 24`，输入“西瓜猫头鹰杂合”这类描述，就能感受到它的作用。低 chaos 数值下的表现为：![](img/zhuanqian_3fd08bda3c9299c11e912bf3f83ba03c.png)![](img/zhuanqian_ba5289969f838861e15670d801fb4433.png)；高 chaos 数值下的表现为：![](img/zhuanqian_213f4dddfda37b0182a65c1b96e4e78a.png)![](img/zhuanqian_7ec7703b2f3e869295b2231281cb1582.png)；而当 chaos 调高到极端值时：![](img/zhuanqian_9ec536a3d1495ab703cbdbbd01c4d16a.png)![](img/zhuanqian_1c6f3533a2b825c780c5593f5fa5fbf5.png)。使用方法很简单，`--chaos` 和缩写 `--c` 皆可。![](img/zhuanqian_92b76ed93a37a4803a708adf6c3d9988.png)
+关于质量参数 q 值，它直接决定了出图所投入的计算时间。质量调高，耗时更久，细节也更丰富，同时会增加 GPU 算力消耗；但质量设置不会影响分辨率本身。别以为高品质就一定是最好的，有时候为了适配特定画面，低质量反而能带来惊喜。比如追求手绘的抽象感时，低质量可能更合适；而建筑类的表现，往往高品质能够呈现更多结构与纹理细节。建议多试试不同的档位，找到最适合的组合。v4 版本的木森林测试效果可见：![](img/zhuanqian_e7da72222ea86ea77204d1976db3fef0.png)![](img/zhuanqian_41254a198d88e68071a81359cbdfac1e.png)；v5 版本的牡丹花测试效果可见：![](img/zhuanqian_6bc9cadb196d3fd18716fdf0a34eedb9.png)；不同模型与参数兼容性的测试结果参考：![](img/zhuanqian_0fa98e558db8cb57c23682ff3740b85b.png)。使用方式有两个：其一，直接在聊天框里加后缀，比如 `--q 0.25`、`--q 0.5`、`--q 1`、`--q 2`。![](img/zhuanqian_5ffb6a05c85d7e3c158ceea213b59839.png) 其二，用 `/settings` 设置默认为 Half、Base 或 High quality。![](img/zhuanqian_fce1591979acd444f2e055f35a802f2c.png)![](img/zhuanqian_13b3d2ba63317ee9ea23af02b2310a41.png)
+关于种子参数，Midjourney 会用一个随机数值生成类似电视雪花般的视觉噪声场，作为出图的起始点。这个种子号可以自定义，通过 `--seed` 或 `--sameseed` 指定。当提示词和种子号完全相同时，生成的图像往往是相似的。seed 可填写的整数范围是 0 到 4294967295，且种子值只影响初始生成的网格。需要注意的是，v1、v2、v3、test 和 testp 版本存在随机性，只能生成相似但不完全相同的图；而 v4、v5 与 niji 模型在提示词、种子和参数固定的时候，可以完全重写出一样的画面。看下面这个例子：“青瓷猫头鹰水罐”。如果保持随机种子，即使其他条件不变，三次生成的结果也会截然不同：![](img/zhuanqian_295afdbba36ed494e7d25385b2c9c626.png)![](img/zhuanqian_45ef68760187e8dc2864ead1ad97e1ad.png)。如果要固定画面，只需把 seed 设为定值，比如 `--seed 123`，在 v4、v5 和 niji 模型下，无论重复多少次，图像都会一模一样：![](img/zhuanqian_a90600f1a4c713d64beee680c425afc2.png)。sameseed 与 seed 的差异在于，seed 只影响网格中第一张图的出生，而 sameseed 会让四张图全部统一遵循同一个起点。sameseed 同样取值 0 到 4294967295，但只兼容 v1、v2、v3、test 和 testp 模型。固定 sameseed 前后的对比如下：![](img/zhuanqian_b07940c131aacf6761aefc9cc8caa263.png)；固定 seed 前后的对比如下：![](img/zhuanqian_8520fe390b7fe91b646a21f12d9ff687.png)。想要寻找某个图片对应的种子值，只需要在目标图片上添加一个✉表情反应即可，操作细节可参照前文 4.4.4 章节。![](img/zhuanqian_6a6697ab3b3ebba9cda0d652c5d0a797.png) 在聊天框中输入 `--seed 12345` 就可以直接套用这个种子。![](img/zhuanqian_769af08df040d83229686e3e95c8d4f4.png)
+stop 参数的用途很直白——它允许你提前终止生图过程，用百分比来控制工作停止的节点。设定值越靠前，图像往往越模糊、细节越少。stop 的默认值是 100，可调整范围是 10 到 100。但这个参数只对初始生成过程有效，放大阶段不会响应它。举个例子：“橡子飞溅艺术画”。基础用法效果展示：![](img/zhuanqian_e7b860ee1e2df0d68b9358f374ce4aa0.png)![](img/zhuanqian_931487c0f7a1b85d7cad4ca982e255ee.png)。进阶玩法是：即便放大时 stop 不再生效，但如果初始图像停止在更柔和、更不精细的状态，最终放大结果的细节程度也会受影响。这里展示的是使用 Beta Upscale 的效果：![](img/zhuanqian_9660249e7845023a12bbe14099c823a4.png)。具体使用方式，同样是在聊天框加后缀，比如 `--stop 90`。![](img/zhuanqian_9e5782647f2937b3fd8b316433539444.png)
+风格参数 stylize（或缩写 s）决定了 Midjourney Bot 在艺术性方面的训练强度。数值低时，画面紧紧贴合你的文字描述，但艺术感较弱；数值越高，画面越富有艺术表现力，却可能偏离提示词本身。不同模型对于 stylize 的默认值和可调范围各有不同，具体可以看这里：![](img/zhuanqian_6c2d3cce753f8e46d1564b6acab81b95.png)。在 v4 模型上的效果，以“无花果插图”为例：![](img/zhuanqian_f2d389be9ea754dec6fd813229d13296.png)![](img/zhuanqian_7dcd67d9127d3ac277707111cc286280.png)；在 v5 模型上的效果，以“无花果的彩色等线图”为例：![](img/zhuanqian_a7fdb214607801f608dddc37695ebf7a.png)。使用方式也有两种，一是直接在聊天框加后缀，如 `--s 1000`：![](img/zhuanqian_6e103fc9b6f3f28db918454301a71974.png)；二是通过 `/settings` 设定默认风格，比如 Style low、Style med、Style high 或 Style very high：![](img/zhuanqian_fce1591979acd444f2e055f35a802f2c.png)![](img/zhuanqian_4a2f7db598d4f58ef06a0e7d9e8a3114.png)。
+tile 平铺参数生成的图像能够作为重复瓷砖使用，常用于制作无缝织物、壁纸或纹理图案。tile 在 v1、v2、v3 和 v5 模型中均可使用，每次只生成一张独立贴图。想要得到多张拼贴在一起的完整效果，可以借助 pycheung 等人的在线工具：[链接](https://www.pycheung.com/checker/)。来看在 test 和 testp 模型上的表现，彩色虎纹与破碎的纸板玫瑰：![](img/zhuanqian_44da4138b2c07f4e50256a257032ae38.png)。在 v5 模型上，苔藓涂鸦与水彩锦鲤的效果如下：![](img/zhuanqian_953307b3fb9a9fa713edef07288bcf99.png)。使用时，只需在描述词后加上 `--tile`：![](img/zhuanqian_abb54174a820eaa3316adadd7fde63b5.png)。
+版本参数可以通过 `--v` 或 `--version` 来指定模型。Midjourney 会不断迭代模型以提升出图的效率、一致性和整体质量。默认情况下会使用最新版本——但测试版除外，比如虽然 v5 已发布，理论上目前主流仍是 v4。每个模型各有长处，word 中选择 `--v 5` 就能切换新模型。不同模型间的对比，已经在 3.1 章节中详细展示过。具体操作：在聊天框后缀中加入 `--v` 参数并跟上编号，例如 `--v 4`。![](img/zhuanqian_45f707826c74407fc028a853f717f671.png)
+video 参数允许你保存生成四张初始图像的进度短视频。操作方式同样是通过添加✉️表情来触发，它会同步生成并发送视频。注意，这只适用于初始生成阶段，无法记录放大过程；并且目前只有 v1、v2、v3、test 和 testp 这几个模型支持。举例来说，“充满活力的加州花”和“奇异蕨类植物素描”的视频效果都非常不错：![](img/zhuanqian_1f2c1353cb4ab34823c50a161380df7f.png)![](img/zhuanqian_a11dc60a531d42d6039b7edd2867d23f.png)。具体获取流程为：第一步给描述词末尾加上 `--video`；第二步等待图像生成结束；第三步在目标图上添加信封反应（操作同 4.4.4 章节）；![](img/zhuanqian_5bbf5aa65de812497b945eaaacb25849.png) 之后就能拿到下载链接了。![](img/zhuanqian_c2810a8f80b2a3aac308684403c9e79e.png)
+再往前走一步，进阶图生图可以说是创作中极其好用的玩法。你可以把图像当作提示词的一部分，用它来引导画面的结构、风格或配色。图像提示可以单独使用，也可以与文本描述混合，甚至可以把不同风格的图片组合在一起，获得意想不到的效果。更高级的玩法，还能叠加多个图像 URL、多段文本以及多个参数。基础操作流程是：先上传一张图片，然后在 prompt 输入框出现后，把上传好的图像拖拽进聊天框，系统会自动生成对应图片链接；你可以同时添加多张参考图。接着在链接后面继续写描述词和参数，确认后发送即可开始生成。![](img/zhuanqian_9b7f78ed8b432f53e31e6d365a576e3e.png)
+比如在 v4 和 v5 模型下，图生图的表现各有千秋。这些新模型会把图像当作生图的起点，因此结构、配色和构图上都更贴近参考素材——但有时候也会显得有些刻板，各有利弊。以下面这些基础素材为例：阿波罗雕像、复古花卉插图、恩斯特·海克尔的水母与地衣、北斋的《巨浪》。![](img/zhuanqian_685a97f153a8c4631689b448e48591d9.png) 在 v4 模式下尝试雕像与花、水母的组合：![](img/zhuanqian_60b950ba6ac9b4c2ea88fe936578a45e.png)；雕像配苔藓、雕像配波浪：![](img/zhuanqian_2499d98ace3ccb81c3fe3ea37eafb3df.png)；甚至雕像加苔藓再加花的叠加：![](img/zhuanqian_f41abe33dc5e03c048d0f461b94e73eb.png)。切到 v5 模式后，同样的组合呈现出更细腻的质感：![](img/zhuanqian_f25d0f6718436e750619f3645dab40ea.png)![](img/zhuanqian_f76595b0552c5d087b165fba6b6213f9.png)![](img/zhuanqian_9480fc8a687fab279c677db6b992f82b.png)。
+而在更早期 v3 模型中，图生图更偏向抽象精神，图像更多是视觉灵感参考，并非严格的出发点。这里便涉及“图像权重”的概念。权重越高，参考图对成图的影响力也越大。`--iw` 专门用于调节这一权重。早期的 Midjourney 版本就用它来控制图像 URL 的强度，默认值是 0.25，可变范围从 -10000 到 10000；数值越大，参考图的存在感越强。举个例子，当你输入“图像链接 + vibrant California poppies --v 3 --iw <数值>”时，iw 数值的不同会呈现完全不同的风格。左上角是上传的参考图，右侧是不同权重下的生成结果：![](img/zhuanqian_3e0fc05ab2d925d7bb1c76eb0e88b169.png)。另一组向日葵测试也类似，左上角仍然为参考原图：![](img/zhuanqian_91148ce39100d99277ed2d844af49c27.png)。
+最后是 Remix 修图参数。启用 Remix 后，用户可以随时更改提示词、参数、模型版本等，它会借助初始图像的整体组成，作为新 Job 的一部分继续演化。这在改变光影、变换环境或重塑主题时特别有效。Remix 目前是实验性功能，未来可能被调整或移除，但目前可以正常使用。打开方式一：直接在聊天框调用 `/prefer remix`；![](img/zhuanqian_33a09ee227cab44c4df3ef851af752f7.png) 方式二：在 `/settings` 中找到 Remix mode 并点击开启，变绿后就意味着成功启用。![](img/zhuanqian_fce1591979acd444f2e055f35a802f2c.png)![](img/zhuanqian_ba5df290e532d3c7ffa0ee0813ad5192.png) 启用后，涉及 V1 到 V4 以及 Make Variations 操作时，系统都会先弹出文本框，允许你基于原有描述进行调整修改。
+![](img/zhuanqian_05fb209b1f689271e7179ef8c402be6e.png)
+![](img/zhuanqian_f3f189d78bf775ba6d463853afbed97b.png)
 ### 6.2.2.2 实操演示：修改内容词
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8ebe0d5775c2513d67b219e295b6bb01.png>
+![](img/zhuanqian_8ebe0d5775c2513d67b219e295b6bb01.png)
 ① 点击 Make Variations 按钮。
 ② 把描述词改成“pile of cartoon owls”（也就是“一堆卡通猫头鹰”）。
 ③ 按下 Submit 提交，系统会在保留原图基础结构的同时，生成一堆猫头鹰👇
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e0b4c03b696d4c91ea8f9945060b7adb.png>
+![](img/zhuanqian_e0b4c03b696d4c91ea8f9945060b7adb.png)
 ### 6.2.2.3 实操演示：修改模型词
 其他步骤保持不变，只是在最后输入提示词时加上 `--test`（相当于额外修改了模型参数）。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_45b48d5445fcf7e650e495f13b1010b5.png>
+![](img/zhuanqian_45b48d5445fcf7e650e495f13b1010b5.png)
 ### 6.2.2.3 实操演示：修改主题、修改绘图媒介
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a61c63ef482f5ef9246150e92e81baba.png>
+![](img/zhuanqian_a61c63ef482f5ef9246150e92e81baba.png)
 ### 6.2.3 Remix 搭配参数修改
 在 Remix 模式下，你可以自由添加或删除参数，但前提是这些参数必须互相契合，且数值不能超出可变范围。
 还记得前面提到的参数-模型匹配表吗？只有在各自影响范围内的参数才能真正生效。
 - 左列：初始生成时的参数，负责生成 4 张小图。
 - 右列：后续变化时的参数，负责放大分辨率、二次变化等操作。
 Remix 能够修改的范围，也同样遵循这张表。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a9241b6c7dcede50d5aebd1bac10bceb.png>
+![](img/zhuanqian_a9241b6c7dcede50d5aebd1bac10bceb.png)
 ### 6.3 复杂提示词（多样 Prompt）
 #### 6.3.1 多样提示词基础
 Midjourney Bot 支持用 `::` 作为分隔符，把两个或多个独立概念分开来处理。
@@ -455,22 +455,22 @@ Midjourney Bot 支持用 `::` 作为分隔符，把两个或多个独立概念�
 举个例子：提示词 `hot dog` 如果连在一起，Bot 会把它当成一个整体，生成一张美味的热狗图；但如果写成 `hot:: dog`，两个概念就会被分开，得到一只“温暖的狗”的图片。
 注意：双冒号之间不要有空格，直接写 `::`。
 这种多提示符写法适用于模型版本 1、2、3、4 以及 niji。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c53252a64581d7385102f1909cabb332.png>
+![](img/zhuanqian_c53252a64581d7385102f1909cabb332.png)
 左边这张图，`cupcake illustration` 被当成一个整体，出来的是“杯子蛋糕插图”的图像；
 右边这张图，把 `cup` 和 `cake` 分开看，蛋糕就被放进了杯子里。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cbbd19745eac44e6d60c1ef6b4365b48.png>
+![](img/zhuanqian_cbbd19745eac44e6d60c1ef6b4365b48.png)
 如果再进一步，把 `cup`、`cake`、`illustration` 三个词全部拆开，系统就会在杯子里生成一个蛋糕，并且配上花、蝴蝶这类常见的插图元素。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f31e5c7c059a83f407e180e042db992e.png>
+![](img/zhuanqian_f31e5c7c059a83f407e180e042db992e.png)
 #### 6.3.2 描述词权重
 当你用 `::` 拆开提示词后，可以在双冒号后面直接加数字，用来指定这一部分的相对权重。
 - 模型 1、2、3 只接受整数权重，比如 `::2`。
 - 模型 4 可以接受小数权重，比如 `::1.2`。
 - 没有指定时，权重默认为 1。
 比如 `hot:: dog` 会生成一条“热的狗”；如果改成 `hot::2 dog`，`hot` 的重要性是 `dog` 的两倍，结果就变成一条“非常热的狗”。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_68883cec42a43d8a9fbd8b7e6a301f06.png>
+![](img/zhuanqian_68883cec42a43d8a9fbd8b7e6a301f06.png)
 注意：权重看的是相对比例，而不是具体数值。
 例如 `hot` 权重 2 + `dog` 权重 1，和 `hot` 权重 100 + `dog` 权重 50，效果是完全一样的。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_59ee5dd559ae2dfa2d809658bf6e2f90.png>
+![](img/zhuanqian_59ee5dd559ae2dfa2d809658bf6e2f90.png)
 #### 6.3.3 负向描述词
 如果某些元素你不想要，可以直接去掉。做法是给这个词一个负权重。
 比如把 `red` 设为 `-0.5`，画面里的红色程度就会明显下降。
@@ -480,14 +480,14 @@ Midjourney Bot 支持用 `::` 作为分隔符，把两个或多个独立概念�
 ### 七、获得免费出图时长
 你可能没注意到，给图片评分也能赚免费出图时长！
 在任何页面，你都可以点 😊 来给你喜欢的画面投票。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ff8f11577e3c5df12580a16932166615.png>
+![](img/zhuanqian_ff8f11577e3c5df12580a16932166615.png)
 每天，评分排名前 1000 的用户，可以获得 1 小时的免费 Fast 模式时长。
 高评分的图片会出现在社区的 Rank 版块里。
 如果你当天进入了最高评分者名单，当赠送时长到账时，会收到 Midjourney Bot 机器人的消息提醒。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5192b779632f0c51aa78b575c2c273a7.png>
+![](img/zhuanqian_5192b779632f0c51aa78b575c2c273a7.png)
 Web 端评分入口：
 [https://www.midjourney.com/app/ranking/](https://www.midjourney.com/app/ranking/)
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_195d5c74dbed80679a7931fc271921f6.png>
+![](img/zhuanqian_195d5c74dbed80679a7931fc271921f6.png)
 运气好的话，就能看到免费时长到账啦👇
 好啦，关于 Midjourney 的基础内容，这次就分享到这里。
 评论区的读者也很给力：有人直接点赞，说学到了；有人觉得内容太扎实，强烈建议加精；有人在催更 SD 的详细教程；还有人希望整理成飞书云链接，方便慢慢研究。

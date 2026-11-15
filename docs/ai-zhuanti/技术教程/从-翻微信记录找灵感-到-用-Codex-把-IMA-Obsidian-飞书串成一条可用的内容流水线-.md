@@ -7,31 +7,31 @@
 知识库版：
 https://my.feishu.cn/wiki/space/7668857880593829100?ccm_open_type=lark_wiki_spaceLink&open_tab_from=wiki_home
 ⬇⬇先看几个阅览图，更有感觉知道接下来要说什么、做什么！
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_76aa1412b4e7216bb5de9751ea8d5a74_0_0.png>
+![](img/zhuanqian_76aa1412b4e7216bb5de9751ea8d5a74_0_0.png)
 社群对应的官网
 内容工作台
 航海家圈友参照做的“作业”
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_76aa1412b4e7216bb5de9751ea8d5a74_1_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_76aa1412b4e7216bb5de9751ea8d5a74_1_1.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_76aa1412b4e7216bb5de9751ea8d5a74_1_2.png>
+![](img/zhuanqian_76aa1412b4e7216bb5de9751ea8d5a74_1_0.png)
+![](img/zhuanqian_76aa1412b4e7216bb5de9751ea8d5a74_1_1.png)
+![](img/zhuanqian_76aa1412b4e7216bb5de9751ea8d5a74_1_2.png)
 随时跟微信机器人对话，读取微信聊天记录，然后帮我找到适合我的选题。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_76aa1412b4e7216bb5de9751ea8d5a74_2_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_76aa1412b4e7216bb5de9751ea8d5a74_2_1.png>
+![](img/zhuanqian_76aa1412b4e7216bb5de9751ea8d5a74_2_0.png)
+![](img/zhuanqian_76aa1412b4e7216bb5de9751ea8d5a74_2_1.png)
 一条文章生成许多个「语料块」
 反向链接关联
 AI 一键生成高质量「公众号」，并且做自动排版，并且推送到「公众号草稿箱」，直接手动编辑下发布即可。
 正式开始。
 ## 一、起点的那场不算酷的分享
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_76aa1412b4e7216bb5de9751ea8d5a74_3_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_76aa1412b4e7216bb5de9751ea8d5a74_3_1.png>
+![](img/zhuanqian_76aa1412b4e7216bb5de9751ea8d5a74_3_0.png)
+![](img/zhuanqian_76aa1412b4e7216bb5de9751ea8d5a74_3_1.png)
 7 月 26 日，我在龙哥盟航海家线下大课上，展示了我正在使用的运转方式：如何调取电脑里的微信历史，如何把手机与网络内容送进知识库，再由 AI 进行整理调用。
 轮到我时现场人已不多，我心里没底：内容不花哨，没有“输入一句立刻变现”的桥段，会不会只对我自己有效。
 分享结束后有人说：“石老师，你讲得太好了。”也有人说：“没白等到最后。”
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_76aa1412b4e7216bb5de9751ea8d5a74_4_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_76aa1412b4e7216bb5de9751ea8d5a74_4_1.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_76aa1412b4e7216bb5de9751ea8d5a74_5_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_76aa1412b4e7216bb5de9751ea8d5a74_5_1.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_76aa1412b4e7216bb5de9751ea8d5a74_5_2.png>
+![](img/zhuanqian_76aa1412b4e7216bb5de9751ea8d5a74_4_0.png)
+![](img/zhuanqian_76aa1412b4e7216bb5de9751ea8d5a74_4_1.png)
+![](img/zhuanqian_76aa1412b4e7216bb5de9751ea8d5a74_5_0.png)
+![](img/zhuanqian_76aa1412b4e7216bb5de9751ea8d5a74_5_1.png)
+![](img/zhuanqian_76aa1412b4e7216bb5de9751ea8d5a74_5_2.png)
 那一刻我才明白，这套做法的价值被低估了。
 很多人缺的不是更多 AI 软件，而是一条能长期持续的路径：
 - 今天存下的东西明天还能检索到；
@@ -66,8 +66,8 @@ Codex 负责调度。它把入口和仓库连接起来，完成读取、整理�
 5. 让 Codex 从原文拆出一句独立观点；
 6. 用这点观点写一条朋友圈或短视频开头；
 7. 成品放飞书，再打开检查一遍。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_76aa1412b4e7216bb5de9751ea8d5a74_9_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_76aa1412b4e7216bb5de9751ea8d5a74_9_1.png>
+![](img/zhuanqian_76aa1412b4e7216bb5de9751ea8d5a74_9_0.png)
+![](img/zhuanqian_76aa1412b4e7216bb5de9751ea8d5a74_9_1.png)
 走完这七步，我才算确认这条链路通了。
 过去我容易把“接口返回成功”当成完成。后来发现，创建成功可能只是云文档生成了；同步成功也可能只是一个登录后才显示的空链接；文件在 Obsidian 里，也可能正文缺了一半。
 我的验收标准很笨但有效：在目标端重新搜索、打开、从头读到尾。写进去不等于能用，能找到、能打开、内容完整才算数。
@@ -99,8 +99,8 @@ IMA 是第一站，后续手动或用 Codex 批量拉到 Obsidian，原文和加
 电脑链路：微信本地数据 → yichen-wechat-local-vault → Codex → Obsidian 或飞书
 想在手机微信远程下指令时才加 Hermes：手机微信指令 → Hermes → 本地 Vault → Codex → 返回结果
 Hermes 是入口调度，不是数据库。Codex 是执行大脑，不自带微信记录。层级分清后排错更容易。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_76aa1412b4e7216bb5de9751ea8d5a74_13_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_76aa1412b4e7216bb5de9751ea8d5a74_13_1.png>
+![](img/zhuanqian_76aa1412b4e7216bb5de9751ea8d5a74_13_0.png)
+![](img/zhuanqian_76aa1412b4e7216bb5de9751ea8d5a74_13_1.png)
 基于本机微信聊天记录生成「社群活跃统计罗盘」
 手机端如何跟微信机器人对话读取微信聊天记录，下面有实操环节，详细讲解安装配置。
 ### 4. 自己写过的文档：直进 Obsidian 再分发
@@ -384,7 +384,7 @@ IMA 原文 → Obsidian 标准素材卡 → 15 个可追溯语料块 → 5 个�
 如果内容只是被收藏，那它永远是原料；只有当它变成你的观点、作品、方案，甚至帮你解决了一个真实问题，它才真正成为你的知识。
 我现在做的，不只是一套高效的内容系统，更是一套贯穿产品和变现的业务系统。以产品和变现为终点，倒推设计内容系统。
 希望这篇文章能给你一点启发。哪怕只有一点点，也足够了。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_76aa1412b4e7216bb5de9751ea8d5a74_37_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_76aa1412b4e7216bb5de9751ea8d5a74_37_1.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_76aa1412b4e7216bb5de9751ea8d5a74_37_2.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_76aa1412b4e7216bb5de9751ea8d5a74_38_0.png>
+![](img/zhuanqian_76aa1412b4e7216bb5de9751ea8d5a74_37_0.png)
+![](img/zhuanqian_76aa1412b4e7216bb5de9751ea8d5a74_37_1.png)
+![](img/zhuanqian_76aa1412b4e7216bb5de9751ea8d5a74_37_2.png)
+![](img/zhuanqian_76aa1412b4e7216bb5de9751ea8d5a74_38_0.png)

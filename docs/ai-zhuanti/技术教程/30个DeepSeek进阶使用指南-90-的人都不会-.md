@@ -1,10 +1,10 @@
 # 30个DeepSeek进阶使用指南，90%的人都不会！
 ### DeepSeek R1 深度使用手册：这 30 个技巧，多数人还没掌握
-从 DeepSeek R1 上线的那天起，我就明白，这不只是一款新 AI 工具，更像是一把钥匙，重新打开工作、学习和生活方式的想象空间。短短几周，它的热度炸裂式增长：在包含日本、美国在内的 140 个国家和地区，一路冲上 App Store 榜首，甚至让硅谷那些靠着 AI 吃饭的巨头们都有点坐不住。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_217b8293d67f8a5c40607ccfb1cb94ad.png>
-我更愿意把它看作一个信号：国产模型已经不再是追赶者，而是开始定义未来。作为长期混迹科技圈的人，这种变化让我又兴奋又感慨。兴奋，是因为我们自己人做出的技术，终于能让全球用户眼前一亮；感慨，是因为连从前不关注科技产品的亲戚朋友，都来问我“DeepSeek 到底是什么？真的那么神？”这大概就是技术真正走进日常的样子。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cb261da3f610c47114c03beb6162d3d1.png>
+从 DeepSeek R1 上线的那天起，我就明白，这不只是一款新 AI 工具，更像是一把钥匙，重新打开工作、学习和生活方式的想象空间。短短几周，它的热度炸裂式增长：在包含日本、美国在内的 140 个国家和地区，一路冲上 App Store 榜首，甚至让硅谷那些靠着 AI 吃饭的巨头们都有点坐不住。![](img/zhuanqian_217b8293d67f8a5c40607ccfb1cb94ad.png)
+我更愿意把它看作一个信号：国产模型已经不再是追赶者，而是开始定义未来。作为长期混迹科技圈的人，这种变化让我又兴奋又感慨。兴奋，是因为我们自己人做出的技术，终于能让全球用户眼前一亮；感慨，是因为连从前不关注科技产品的亲戚朋友，都来问我“DeepSeek 到底是什么？真的那么神？”这大概就是技术真正走进日常的样子。![](img/zhuanqian_cb261da3f610c47114c03beb6162d3d1.png)
 很多人知道它厉害，却被网上的信息绕晕了。有人把它吹成全能神，有人吐槽它这里不好那里不行。为了让想上手的你少走弯路，我花了好几天把 DeepSeek 的能力、用法和进阶技巧重新梳理了一遍，剔掉噪音，只留干货。这篇文章会从基础认知讲到实战技巧，帮你把 R1 真正用起来，让它变成你的“第二大脑”。
 ### 先把 DeepSeek 看明白
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_823d7ed7489cec045c0f0b789954f16d.png>
+![](img/zhuanqian_823d7ed7489cec045c0f0b789954f16d.png)
 DeepSeek（深度求索）是一家 2023 年成立的中国科技公司，目标直指通用人工智能 AGI。核心团队里有多名 AI 领域的顶尖科学家和工程师，主攻大语言模型、多模态等方向。它最受关注的产品包括：
 - R1 系列：提供 7B、67B 等不同规模的对话模型，长上下文、复杂推理、多轮对话都能扛，部分权重已经开源。
 - V2 系列：把高性能和低成本做到了一个惊人平衡，推理速度更快，API 价格比 GPT-4 便宜得多。
@@ -52,24 +52,24 @@ rbac_config = {
 ### 30 个进阶技巧，建议收藏
 #### 一、把问题问得更清楚
 1. 大问题拆小问题。与其问“自媒体账号怎么运营”，不如拆成“账号定位→内容选题→流量获取→变现方式”，逐个击破。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c325356b4d66e845e555146a7ead7ae8.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9c820643cfc804674f670ee9754ab1d7.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d4d93e932d764e9c3a79ab252948fc06.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a9eceed72205f5e8a7859de681b5b2b6.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_731e2f65d7dbb5abcd4ff64f8da7cd12.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e01dfaf24eb41a8fbc37489a93a2cdb3.png>
+![](img/zhuanqian_c325356b4d66e845e555146a7ead7ae8.png)
+![](img/zhuanqian_9c820643cfc804674f670ee9754ab1d7.png)
+![](img/zhuanqian_d4d93e932d764e9c3a79ab252948fc06.png)
+![](img/zhuanqian_a9eceed72205f5e8a7859de681b5b2b6.png)
+![](img/zhuanqian_731e2f65d7dbb5abcd4ff64f8da7cd12.png)
+![](img/zhuanqian_e01dfaf24eb41a8fbc37489a93a2cdb3.png)
 2. 用 5W1H 追问细节：Who、What、When、Where、Why、How，把模糊问题变成具体问题。
 3. 先问“是不是”，再问“为什么”。比如提到“这个方法无效”之前，先确认“它有没有被正确执行”。
 #### 二、高效沟通要讲策略
 1. 预设场景法。不要空泛地问“怎么提升转化率”，要问“在用户日均 UV 不到 100 的情况下，怎么提升转化率”。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8bc66587435ca78490e1604095afffc8.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e232d156875b453f8417f9736ff8d1ed.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d99d4a7babdbcb33324965c18f676adf.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_75118e687295e2429f64df2669050ff1.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_95cfde57e1b271f4c66def32a5797142.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ac0e2e43be960c499a7688f8ad61a8f8.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_aa4a056d5649a8b0df4f275223d5b4f8.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e6776d842f55b6e48e03f4a2a0e66cde.png>
+![](img/zhuanqian_8bc66587435ca78490e1604095afffc8.png)
+![](img/zhuanqian_e232d156875b453f8417f9736ff8d1ed.png)
+![](img/zhuanqian_d99d4a7babdbcb33324965c18f676adf.png)
+![](img/zhuanqian_75118e687295e2429f64df2669050ff1.png)
+![](img/zhuanqian_95cfde57e1b271f4c66def32a5797142.png)
+![](img/zhuanqian_ac0e2e43be960c499a7688f8ad61a8f8.png)
+![](img/zhuanqian_aa4a056d5649a8b0df4f275223d5b4f8.png)
+![](img/zhuanqian_e6776d842f55b6e48e03f4a2a0e66cde.png)
 2. 提供选择式提问。比如“这个问题更适合用 SWOT 分析，还是 PDCA 模型解决？”把答案范围缩小，回答质量更高。
 3. 阶梯式追问。从“数据下降了”开始，一路问到“哪个指标最严重→关联哪些部门→当前应对措施是什么”，层层深入。
 #### 三、让逻辑思考更深一点

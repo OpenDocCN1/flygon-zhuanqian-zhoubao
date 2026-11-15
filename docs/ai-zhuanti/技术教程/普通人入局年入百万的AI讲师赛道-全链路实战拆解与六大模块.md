@@ -5,7 +5,7 @@
 3、篇幅较长且配图附件较多，建议使用电脑浏览器阅读，效率更高。
 大家好，我是龙哥。
 从2023年5月开始，我正式切入人工智能培训方向。当时有机会参与了刀姐和SKY首期AIGC讲师的线下训练营，也算国内早一批深耕该赛道的人。我在过去两年里在这个领域取得了阶段性结果，并沉淀了不少可复用的经验，下面把实操过程系统分享。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9561e0d2a0a1ff71a9720f8904bcf51d.png>
+![](img/zhuanqian_9561e0d2a0a1ff71a9720f8904bcf51d.png)
 人工智能的真正落地，等同于人才的落地。当前及未来，无论市场还是企业，对AI人才的需求都在持续放量。尤其是今年年初DeepSeek爆火后，相关培训需求迎来井喷，这既是一段红利窗口，也标志着AI时代进入高速扩张期。
 我们不该做旁观者，而应成为参与者与见证者。愿这篇文章能为正在做或准备进入该赛道的朋友提供参考。
 # 1、商业定位
@@ -19,38 +19,38 @@ K12赛道堪称又爱又恨，人群庞大需求旺盛，但大部分流量被�
 传统K12课程无非语数外提分、少儿编程/记忆力提升等学习力方向。结合AI来看，我特别看好AI+少儿编程的结合体。
 去年暑期我做过一期AI亲子活动，也和机构联合推出面向14-15岁群体的《AI编程与游戏制作》课程。近期又在和渠道合作推广面向中小学的《AI编程入门与应用》，市场反馈都不错，正处于需求红利期。
 相关大纲与介绍同步分享供参考：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6f7289c3f4b6625c269b968fecc98691.png>
+![](img/zhuanqian_6f7289c3f4b6625c269b968fecc98691.png)
 《AI亲子课》
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c088180a7148d758698c6949ba7cca01.png>
+![](img/zhuanqian_c088180a7148d758698c6949ba7cca01.png)
 《AI编程与游戏制作》
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_999e8f175c766538edeedfdf70d78cba.png>
+![](img/zhuanqian_999e8f175c766538edeedfdf70d78cba.png)
 《AI编程应用》
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b099be85d54dde340a7cc2aaff3a3540.png>
+![](img/zhuanqian_b099be85d54dde340a7cc2aaff3a3540.png)
 《DeepSeek中小学使用》
 ### 2、面向高校在校生：AI求职就业课程
 大学生就业培训和K12一样属于刚需。传统就业培训市场虽大但已高度内卷。若用AI切入细分岗位，可形成差异化弯道超车。
 例如产品、研发、运维、运营这四大核心岗位，通过AI构建体系化、专业化就业课程，是一个很有前景的方向。
 知乎持续在公域推广AI大模型开发就业课程两年有余：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3e9bfb6e29e44b512b63bae7863cf107.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5d6d783a1ece4a6063c02b3889ecf757.png>
+![](img/zhuanqian_3e9bfb6e29e44b512b63bae7863cf107.png)
+![](img/zhuanqian_5d6d783a1ece4a6063c02b3889ecf757.png)
 头部IT教培机构达内也上线了大模型开发课程：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_66cf64309c5aab8fd07bd6671cae270a.png>
+![](img/zhuanqian_66cf64309c5aab8fd07bd6671cae270a.png)
 抖音上也能经常刷到网易云课堂的AI产品经理课程：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_51e6b1bf37b03b3cf76fd3232ada044b.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c75fe9034e9aaeb58cae28aa7490c6fb.png>
+![](img/zhuanqian_51e6b1bf37b03b3cf76fd3232ada044b.png)
+![](img/zhuanqian_c75fe9034e9aaeb58cae28aa7490c6fb.png)
 亦有圈友分享过相关风向标：AI产品经理培训市场火爆。
 ### 3、面向在职人群：AI技能进阶
 为职场人提供技能进阶服务，帮助其掌握核心能力、提升竞争力，也是可行的方向。需注意，技能进阶通常面向有经验的在职者，周期一般为2-7天；而求职就业课程面向零基础未就业者，周期至少两个月以上。
 去年职场人群的AI数据训练师进阶课十分火热，去年11月有圈友发过风向标帖获得142点赞：面向新职业AI的就业培训，招生规模持续攀升。
 去年7月我曾调研过该课程，早期海报文案等资料均留存，现一并分享：
 去年我还与国内一家头部IT教培机构合作，为IT运维推出垂直技能进阶项目，反馈良好。课纲课表无保留分享：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c87aafabfed2a426246035a38d2b18e4.png>
+![](img/zhuanqian_c87aafabfed2a426246035a38d2b18e4.png)
 除机构合作外，高校市场同样重要。高校面向师生的AI技能进阶课程需求旺盛，我使用的课程大纲也直接分享：
 ## 1.2、企业端
 除教育端外，企业内训是另一个主战场。现在是企业AI内训的红利期，重申三遍：红利期、红利期、红利期！
 提示词+办公应用，在赚钱圈内已是常识。但赚钱本质是信息差小圈子，整体领先市场1-2年。市场上大量企业仍未真正用上AI，特别是国企与传统非互联网企业。随着DeepSeek引爆，国内企业应用AI的速度大幅提升，培训需求激增。我们这批讲师最近数月排课基本满载，正是风口所致。
 我收到的需求，约九成集中在提示词+办公应用场景：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8e7911c74a9b149d54e0a4e119dc21f7.png>
+![](img/zhuanqian_8e7911c74a9b149d54e0a4e119dc21f7.png)
 除通用培训外，越来越多企业需要面向特定岗位的定制服务，比如HR、财务、产品、研发、运营、高管、老板总裁班等，对内容专业度要求更高。
 除通用与垂直岗位外，还有带解决方案的培训模式。此前sky在航海家分享过，针对鞋服公司的AI设计培训+解决方案，客单价可达10万/天。
 再以今年3月30日杭州航海家AI大会为例，包子老师线下课定价4999，现场瞬间招募百余人。其课程本质也是带解决方案。AI技能本身价值有限，市场更关心AI如何结合直播、短视频打通工作流。业务理解+AI落地，才决定应用上限。
@@ -60,9 +60,9 @@ K12赛道堪称又爱又恨，人群庞大需求旺盛，但大部分流量被�
 最赚钱的生意是教人赚钱。为想赚钱的人提供赚钱的AI工具，即给掘金者卖铲子、卖水，是用AI变现的优质路径。
 “AI获客”一词去年兴起，已被广泛讨论。核心是用AI数字人、AI矩阵、AI短视频、定制AI手机、AI鼠标、AI智能体、AI系统等工具打包成营销获客解决方案。
 借助红利期面向企业主、操盘手、个体创业者，通过直播投流或短视频投流、招商加盟等方式引流，开两天一夜或三天两夜线下课，客单价多在1980、2980。核心变现并非课费，而是后端工具平台与定制陪跑服务。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b4fbdf661217adc482ac66797e691799.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b1d6851d2653e691024d6fe248d8750e.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_370108dbe4ca856ef3e169c737b71dd0.png>
+![](img/zhuanqian_b4fbdf661217adc482ac66797e691799.png)
+![](img/zhuanqian_b1d6851d2653e691024d6fe248d8750e.png)
+![](img/zhuanqian_370108dbe4ca856ef3e169c737b71dd0.png)
 该赛道同样有价值。AI自媒体、AI智能体、AI爆文、AI视频号、AI小红书，选择一个细分赛道，为老板与创业者提供垂直服务，市场空间可观。
 # 2、获客路径
 确定商业方向后，第一步要解决的是如何获取精准流量，而非先闭门造课。这点极其关键。很多时候一份大纲就能开始售卖。
@@ -74,7 +74,7 @@ K12赛道堪称又爱又恨，人群庞大需求旺盛，但大部分流量被�
 身边圈层是最早的种子用户。我本人即靠身边资源，与几家多年合作的机构从0到1跑通。
 圈层资源是冷启动的核心。特别是赚钱圈友，善用平台与圈子，是启动最快的方式。通过朋友圈、公众号、线下活动让他人知晓你在做AI培训，跑通0到1至关重要。
 就我近两周的案例，有位圈友主动找我深度合作：他们前端流量强但无交付能力，我们优势互补，一拍即合。流量问题由此解决。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f0cbca100035f3a7e21150b3b9615674.png>
+![](img/zhuanqian_f0cbca100035f3a7e21150b3b9615674.png)
 结果背后是什么？第一，讲师需具备强课程设计与交付能力，专业是基础。第二，关键在于盘活身边资源，能链接到更多有流量的伙伴。当时我问他如何知晓我，他说数位大佬推荐。
 在专业扎实的前提下，让圈内人了解你的业务，形成口碑与主动推荐，才算真正盘活资源。
 怎么做？本质是勤能补拙。新加入赚钱的圈友，多写帖子、多参加航海做志愿者/领队/教练、多组局，多链接、多利他，让他人看到你的能量与价值。
@@ -89,7 +89,7 @@ K12赛道堪称又爱又恨，人群庞大需求旺盛，但大部分流量被�
 ## 2.2、与流量型机构合作
 流量型机构指教培机构、有企业资源的服务商、高校等。他们有影响力与稳定客群。合作模式为他们负责前端获客，我们负责后端开发交付，效率较高。
 寻找方式：把简历优化好后在Boss直聘上主动接触招AI讲师的机构与公司。只要在平台发布招聘，基本都有明确需求。我多家重要合作即由此而来。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4dc0ded62dfb544223827ebb7ef19dd9.png>
+![](img/zhuanqian_4dc0ded62dfb544223827ebb7ef19dd9.png)
 ## 2.3、与内容型博主合作
 指AI自媒体博主。龙哥此前发过AI自媒体超级标，他们借助风口做大，各平台账号变现多靠广告商单。
 目前AI培训需求增多，企业与机构常通过公域找博主承接培训，这类需求门槛较高，与博主合作由我们交付，既不伤粉性价比又高。
@@ -152,19 +152,19 @@ B端企业内训的成交逻辑不同，更强调“卖讲师，课程同质化�
 # 4、课程产品
 成交后进入内容开发阶段。课程质量取决于AI专业内功，唯一办法就是大量阅读和实操，比如把赚钱社区的AI干货帖全部过一遍并亲手复现，水平自然进阶。
 内容开发不要闭门造车。要找标杆、抄作业。2023年我做首期线下AI课时，几乎把市面上所有AI课件看遍。实用技巧：拼多多、淘宝搜“AI课程”，几十块能买到大量盗版课，对素材匮乏的人是宝库：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6139c4d02c6745082db7bac1e7411e74.png>
+![](img/zhuanqian_6139c4d02c6745082db7bac1e7411e74.png)
 另外持续刷赚钱帖子，课程案例里很大一部分来源于赚钱干货和航海手册。
 我每年拿出30%收入用于学习，付费买时间。付费不仅买经验素材，还能买人脉圈层。无论盗版还是正版付费，本质都是积累内容素材库。但要有竞争力，还需要自己的理解。好的课程产品具备四个维度。
 ## 4.1、体系化
 培训课和知识付费的关键区别在于体系化。知识付费解决点技能，培训课要做结构化、层层递进的知识架构。
 体系化不是目录罗列，而是宏观架构。以AI内训为例，我的设计框架是：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_59049fbd89acc8ab1d4bb9e46435d3c2.png>
+![](img/zhuanqian_59049fbd89acc8ab1d4bb9e46435d3c2.png)
 这七层对应AI应用七个阶段，企业可根据自身成熟度挑选模块。单拎一层也能继续拆解，比如提示词实战。很多同行只教模板，这很初级。我设计的提示词体系包含6大分支，可撑一整天：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_12dc0ce61814e4aff141e4b5712155f1.png>
+![](img/zhuanqian_12dc0ce61814e4aff141e4b5712155f1.png)
 交付时不一定全讲，以客户需求为导向精选，核心是体系完整。
 ## 4.2、专业性
 专业体现在广度和深度。体系化是广度，微观细节是深度。举提示词底层逻辑一页为例：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_14d40353af67f628a501eb364b1e08bf.png>
+![](img/zhuanqian_14d40353af67f628a501eb364b1e08bf.png)
 每个关键词的深度讲解体现专业厚度。PPT呈现同样重要，AI讲师的PPT不能丑，工具本身就能做精美课件。
 ## 4.3、通俗性
 专业不等于晦涩。技术原理对非技术学员可不讲，或用大白话翻译。理解越深，表达越通俗。

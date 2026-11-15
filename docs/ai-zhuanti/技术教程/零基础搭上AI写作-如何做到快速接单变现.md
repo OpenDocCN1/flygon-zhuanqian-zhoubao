@@ -17,8 +17,8 @@
 ### 1.首战在哪打：淘宝/天猫海投
 直接去淘宝、天猫私信客服就行，别怕被拒。一家不行还有下一家。
 我就是批量投递，一共联系了40多家店铺，最终进群成功大概15家。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fe747ac3f8637fff3fc790b93cff26dc.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fbc30d4aeb12e5fa1a5d09a72823ac77.png>
+![](img/zhuanqian_fe747ac3f8637fff3fc790b93cff26dc.png)
+![](img/zhuanqian_fbc30d4aeb12e5fa1a5d09a72823ac77.png)
 这个环节有两点必须记住：
 *   做好表格追踪。面试群里很多店铺都要下单好评，单号钱都会退。如果同时面好几家，很容易搞混谁下过单。建议先加客服微信留存，再下单。因为很多店铺最后都是同一个客服，重复下单很浪费。
 *   面试没那么可怕。面试基本就问你擅长写什么，可以写擅长的方向，也写喜欢的类型，写得越全越好。作品集不是硬性要求，被问到就把以前做的项目截图发过去，大多不会深究。
@@ -33,14 +33,14 @@
 # 三、交付怎么搞定？以教学设计为例
 接单第一件事，搞清楚客户要什么！
 要明确做什么、要达到什么质量和字数标准、用什么格式输出、什么时候交。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2f07c10f0223b0d52ffb838d2eab788b.png>
+![](img/zhuanqian_2f07c10f0223b0d52ffb838d2eab788b.png)
 我的第一单就是土布创意制作的教学设计，包含教学设计方案+说课稿+讲课PPT。以下就以这单为例子展开。
 ### 教学设计
 我第一次做教学设计，连基本框架都不清楚。于是先去网上搜了一下教学设计的标准模板和包含内容，再开始用AI来做。
 *   1.1 先告诉GPT你的需求，让它给出可以扮演的专业角色
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ea981c31798b02b7a3083f537462b506.png>
+![](img/zhuanqian_ea981c31798b02b7a3083f537462b506.png)
 *   1.2 让它扮演指定角色，按照要求出一份教学设计方案，可以补充更具体的细节让任务更准
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bda3441283c5894a2089ca0fa75f73ab.png>
+![](img/zhuanqian_bda3441283c5894a2089ca0fa75f73ab.png)
 *   1.3 找一个参考模板，对照模板手动调整格式和顺序。
 到这一步，教学设计就完成了。
 人工润色要点
@@ -51,9 +51,9 @@
 我是严格按照航海手册里的任务拆解法一步步完成的。
 *   2.1 让AI先学习刚才定好的教学设计方案
 *   2.2 用“角色+任务+要求”的方式，让GPT先出说课稿的大纲
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f7ffccaffa4d9503c4229ba9d5a7e1c3.png>
+![](img/zhuanqian_f7ffccaffa4d9503c4229ba9d5a7e1c3.png)
 *   2.3 手动梳理大纲后，再让GPT分段生成，最后汇总成初稿
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9001719d2b80924c7715d25987a296a0.png>
+![](img/zhuanqian_9001719d2b80924c7715d25987a296a0.png)
 *   2.4 人工通读，把语句理顺，控制到目标字数。
 小提示：第一次写说课稿不知道篇幅，可以先不设字数限制，让AI多写一点，后期删减比补字更省事。
 人工润色要点
@@ -62,12 +62,12 @@
 * * *
 ### 课件PPT
 *   3.1 让GPT基于教学设计提炼课程大纲
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4f551bab4fedf7fe8e53f779197c490f.png>
+![](img/zhuanqian_4f551bab4fedf7fe8e53f779197c490f.png)
 *   3.2 把大纲复制到WPS AI，一键生成PPT框架
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_699c226ca989830a7a31435fadc16f35.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4c69e1ef12786a9457cacbccbbbfe4e5.png>
+![](img/zhuanqian_699c226ca989830a7a31435fadc16f35.png)
+![](img/zhuanqian_4c69e1ef12786a9457cacbccbbbfe4e5.png)
 *   3.3 选一个契合主题的模板套用并导出
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4ba91c84655775a833892c4f43d4c835.png>
+![](img/zhuanqian_4ba91c84655775a833892c4f43d4c835.png)
 选模板时要注意风格匹配，下载后检查图片是否合适，不合适的自行替换。AI生成的PPT偏理论，实操部分要根据客户需求手动补充。
 # 四、交付环节怎么走？
 初稿完成后先加上水印，WPS里可以直接加。加完水印再发给客户确认。

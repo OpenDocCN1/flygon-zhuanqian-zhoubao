@@ -72,7 +72,7 @@ OpenAI 官方推荐的做法是“先检索、后生成”：先在本地文件�
 所以，做问答系统和内部资料库，优先走向量检索。下面重点讲这条路线。
 ### 4. 向量是什么？
 向量可以理解为一串数字，它能表示文本、音乐、视频等各类内容。做法是调用嵌入模型（例如 OpenAI 的 Ada），把内容转换成向量，然后存起来备用。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f3d70aaeb6adc93585af65f7266d6e1b.png>
+![](img/zhuanqian_f3d70aaeb6adc93585af65f7266d6e1b.png)
 举个生活中的例子：你面前有一箱积木，想找“小轿车”和“公交车”。它们都能载人移动，算是相近概念，这就是含义接近。再比如“小轿车”和“公路”，概念并不相同，但因为车在路上跑，人们也会觉得它们相关联。
 ### 5. 大文件如何进入上下文？
 巨型 PDF 没法整篇塞给模型。做法是切块，逐块转成向量，放进向量数据库。
@@ -83,8 +83,8 @@ OpenAI 官方推荐的做法是“先检索、后生成”：先在本地文件�
 开源社区里热门的“LangChain + ChatGLM”问答项目，正是这个思路。
 ## 四、完整链路
 一句话版本：加载文件 → 读取文字 → 分块 → 文本转向量 → 问题转向量 → 找出最相近的若干片段 → 拼成指令 → 交给模型生成回答。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c642f40576f2ab60672a1f72342a74d8.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c14b355eca81dc1d14347942bf210504.png>
+![](img/zhuanqian_c642f40576f2ab60672a1f72342a74d8.png)
+![](img/zhuanqian_c14b355eca81dc1d14347942bf210504.png)
 核心在于向量检索。资料进库时要做向量，提问时也要做向量，再从库里取最匹配的片段，和问题一起交给模型。常见指令格式如下：
 ```
 """
@@ -106,32 +106,32 @@ ChatGLM 由智谱公司推出。这家公司源自清华大学计算机系，曾
 更详细的内容可参考知乎文章：https://zhuanlan.zhihu.com/p/627509623
 ## 六、算力设备怎么配？
 跑这类项目离不开 GPU。要么自购或租用物理主机，要么使用云厂商的 GPU 实例。如果只是验证流程，不必买实体设备，一台主流 GPU 主机通常要几万到几十万元。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f3b232561338b0ebc0004577195e29be.png>
+![](img/zhuanqian_f3b232561338b0ebc0004577195e29be.png)
 阿里云有一个限时免费体验通道：https://free.aliyun.com 。无论是新账号还是老账号，只要没申请过 PAI-DSW 资源，都能领取 5000CU 额度，三个月内有效。
 #### 第一步：选择第一个项目并进入
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_be2b675707b372bd925a78bee5f73456.png>
+![](img/zhuanqian_be2b675707b372bd925a78bee5f73456.png)
 #### 第二步：查看体验页面
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a468ddeb31a987ab98b85b76df5d5236.png>
+![](img/zhuanqian_a468ddeb31a987ab98b85b76df5d5236.png)
 #### 第三步：如果提示没有权限开通 PAI，请联系主账号
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e29eed1bb5d3fac2b93f3ab37f916888.png>
+![](img/zhuanqian_e29eed1bb5d3fac2b93f3ab37f916888.png)
 #### 第四步：到 NAS 试用页面确认是否有文件存储资源包资格，有就直接申请
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ad92d8cea67f65289bfc58923020e6b5.png>
+![](img/zhuanqian_ad92d8cea67f65289bfc58923020e6b5.png)
 完成之后，再刷新 PAI 开通页面，通常就能继续创建项目空间了。
 当你在服务角色授权模块里看到“去授权”按钮时，直接点击，并按照页面指引为PAI完成授权。搞定后，回到开通页面刷新一下，再继续后续开通操作。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d42760dca066b6db2c80621d97e3e20f.png>
+![](img/zhuanqian_d42760dca066b6db2c80621d97e3e20f.png)
 开通完成后，进入PAI控制台，在默认工作空间里创建DSW实例。关键参数按照你的需要设置，其余保持默认即可。具体可参考“创建及管理DSW实例”文档。这里提醒一下：创建DSW实例需要等一会儿，具体时长跟当前资源量有关。如果你所在的地域资源不够用，可以换个支持免费试用的地域去申请，再创建实例。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_250aee2d31efa4857f4913be1acea61f.png>
+![](img/zhuanqian_250aee2d31efa4857f4913be1acea61f.png)
 ## 五、离线私有部署实战项目
 前面演示Embedding训练流程时，用的是目前很火的LangChain+ChatGLM方案，开源项目文档写得挺全，还配有交流群。但自己体验下来，发现操作有点繁琐，对零基础的人来说不太友好；而且训练效果平平，回答有时也不太到位。所以这次就不讲LangChain+ChatGLM了，换另一套方案：Wenda+ChatGLM。
 底层大模型没变，还是ChatGLM，但应用框架从LangChain换成了Wenda。换完之后，步骤明显简化，训练效果也更突出，大家待会儿看看展示就明白了。
 ### 建立个人知识库索引
 在项目根目录下新建一个 txt 文件夹，把你的个人知识库文件都放进去。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3ef8f5069e09aee69765354bd342da06.png>
+![](img/zhuanqian_3ef8f5069e09aee69765354bd342da06.png)
 ### 效果展示
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9f8ee6c1b232755aa122a352b4812bba.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b5043d6f8617a1121e7e9bf4809d049d.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_473cf57bc87dee54b1e20954e6d4a449.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ab12d079e81718dbc0afbd15efbdfefa.png>
+![](img/zhuanqian_9f8ee6c1b232755aa122a352b4812bba.png)
+![](img/zhuanqian_b5043d6f8617a1121e7e9bf4809d049d.png)
+![](img/zhuanqian_473cf57bc87dee54b1e20954e6d4a449.png)
+![](img/zhuanqian_ab12d079e81718dbc0afbd15efbdfefa.png)
 从展示可以看到，用闻达平台搭建的企业私有知识库，回答时会优先从你喂进去的数据里找答案；如果找不到，才会让大模型去生成。这样一来，回复的准确度就更有保障。
 补充一点：上面说得不太严谨，本质其实是——先把知识库内容做 embedding，存进向量库；你每次提问也会做 embedding，再通过向量相关性算法（比如余弦相似度）找出最匹配的几个片段，把这些片段作为上下文，连同你的问题一起作为 prompt 抛给 LLM，最后由 LLM 把嵌入了本地知识的答案返回给你。
 如果你对训练自己的私有模型感兴趣，或者有私有化部署专属模型的需求，欢迎一起交流。我还帮朋友乔帮主做了一个AI版乔帮主，也欢迎各位向帮主提问。

@@ -22,8 +22,8 @@ AI到底怎样才能真正进入实体门店，而不是只停留在演示和概
 2. 深度了解顾客；
 3. 提升员工沟通与成交能力。
 先把最关键的环节做好，AI才有可能真正为门店创造价值。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cd0e528d590ce0554ccf11ab9cb62791.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_329ed2a977175139a4a774eee87ef152.png>
+![](img/zhuanqian_cd0e528d590ce0554ccf11ab9cb62791.png)
+![](img/zhuanqian_329ed2a977175139a4a774eee87ef152.png)
 ## 二、用IMA知识库，解决员工“不会说”的问题
 美容行业里，沟通能力往往直接影响成交结果。
 同样的产品、同样的项目，不同美容师介绍出来，顾客的接受程度可能完全不同。
@@ -38,12 +38,12 @@ AI到底怎样才能真正进入实体门店，而不是只停留在演示和概
 - 消费频率；
 - 常见需求和抗拒点。
 简单来说，就是把门店多年积累的经验，整理成一个可以随时调用的“智能大脑”。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9e0150f34c6a929ac2ed4ba544c61e64.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2e3ee1173a7fce2c380f296fdc902336.png>
+![](img/zhuanqian_9e0150f34c6a929ac2ed4ba544c61e64.png)
+![](img/zhuanqian_2e3ee1173a7fce2c380f296fdc902336.png)
 接着，我设计了一套门店夕会流程。
 每天顾客服务结束后，员工会集中分析第二天需要服务的顾客，并提前准备沟通方案。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8b6f5a2dcd8f4549465d8e6ad029ab26.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_79341b59cd69487dca711ad75be9292a.png>
+![](img/zhuanqian_8b6f5a2dcd8f4549465d8e6ad029ab26.png)
+![](img/zhuanqian_79341b59cd69487dca711ad75be9292a.png)
 具体操作并不复杂：
 美容师只需要把第二天要服务的顾客资料输入IMA，包括顾客姓名、当前需求、历史消费情况和可能存在的抗拒点。
 提示词也不需要写得很复杂，一句话就够了：
@@ -51,9 +51,9 @@ AI到底怎样才能真正进入实体门店，而不是只停留在演示和概
 XX明天做XX项目，我想让她买XX项目，我该怎么铺垫，她会有哪些反对意见？说人话
 ```
 下面看一个实际案例：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_482cf276d26290731f40d087ba9ba9d7.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_96a4857452efccc6ae59b27a1500b3fe.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3143aebc2deece8f284b208bb52fd07b.png>
+![](img/zhuanqian_482cf276d26290731f40d087ba9ba9d7.png)
+![](img/zhuanqian_96a4857452efccc6ae59b27a1500b3fe.png)
+![](img/zhuanqian_3143aebc2deece8f284b208bb52fd07b.png)
 比如，A老师第二天要服务3位顾客。
 她只需要把这3位顾客的基本情况、需求和顾虑分别输入知识库，再让AI针对每个人生成沟通话术。
 接下来，美容师需要把AI生成的话术熟悉并背下来，第二天进行打卡。
@@ -94,7 +94,7 @@ XX明天做XX项目，我想让她买XX项目，我该怎么铺垫，她会有�
 但直接让AI生成文章，常常会遇到一个问题：
 内容虽然完整，却容易读起来生硬，缺少真实感和品牌特色。
 所以，我用Coze搭建了一套长文写作工作流。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_713cc10ef8936d0324658efc39c29b27.png>
+![](img/zhuanqian_713cc10ef8936d0324658efc39c29b27.png)
 这套工作流的使用方式很简单。
 只需要输入两个信息：
 - 文章主题；
@@ -197,15 +197,15 @@ XX明天做XX项目，我想让她买XX项目，我该怎么铺垫，她会有�
 首先设置输入内容，包括：
 - 店铺名称；
 - 文章主题。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6e58c8d10fdf6a4900848d388552f960.png>
+![](img/zhuanqian_6e58c8d10fdf6a4900848d388552f960.png)
 ### 2. 输出提示节点
 由于长文生成需要一定时间，可以增加一个输出节点，让工作流在生成过程中提示：
 “文章正在生成，请稍候。”
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ce32be32172cb7c254ad5571bf8b502d.png>
+![](img/zhuanqian_ce32be32172cb7c254ad5571bf8b502d.png)
 ### 3. 先生成文章大纲
 这里使用的是Kimi模型。
 它比较适合长文本处理，可以根据开始节点输入的店铺名称和文章主题，先生成完整文章结构。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3a6bbfc80f3c9b22d23cb2af613756e2.png>
+![](img/zhuanqian_3a6bbfc80f3c9b22d23cb2af613756e2.png)
 模型提示词可以这样设计：
 ```
 你是一个专门负责生成文章大纲的AI助手。你的任务是根据用户提供的主题,快速生成一个结构清晰、层次分明、**贴合美容院内容特点**的文章大纲。
@@ -231,11 +231,11 @@ XX明天做XX项目，我想让她买XX项目，我该怎么铺垫，她会有�
 这里有一个关键设置：
 输出格式必须选择“字符串”。
 因为后面需要对文章大纲进行拆分，并通过循环节点逐段生成正文。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_dc3f1ae39566fb2f1f6dbf643950a520.png>
+![](img/zhuanqian_dc3f1ae39566fb2f1f6dbf643950a520.png)
 ### 4. 单独生成文章标题
 接着增加一个大模型节点。
 我使用的是豆包，让它读取文章大纲，再根据内容生成多个适合公众号的标题。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3641427f877b1b7005c5a8d6967bd3da.png>
+![](img/zhuanqian_3641427f877b1b7005c5a8d6967bd3da.png)
 ### 5. 用循环节点分段生成正文
 这是整个工作流里最重要的一步。
 大纲模型输出的内容是JSON数组，每一个大纲段落都被放在引号中。
@@ -252,9 +252,9 @@ XX明天做XX项目，我想让她买XX项目，我该怎么铺垫，她会有�
 }
 ```
 整体循环结构如下：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f6d86a0c03016e8d833ff4fbc8d24838.png>
+![](img/zhuanqian_f6d86a0c03016e8d833ff4fbc8d24838.png)
 它的作用，是根据文章大纲逐段生成内容，再把各段文章拼接成一篇完整长文。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6dd460fee05d079428f1e6a91b6b4c64.png>
+![](img/zhuanqian_6dd460fee05d079428f1e6a91b6b4c64.png)
 由于前面生成的大纲本质上是一个数组，所以这里的循环类型必须选择“数组循环”。
 其中最关键的是中间变量。
 假设文章大纲被拆成6段：
@@ -266,7 +266,7 @@ XX明天做XX项目，我想让她买XX项目，我该怎么铺垫，她会有�
 中间变量，就是前面几次循环已经生成的内容。
 因为大纲输出时，每一段都被引号包裹，所以在循环节点中，需要正确引用对应的数组元素。
 循环内部的正文生成节点，可以这样设置：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_18f9a0f26a2efe46a94bc87ce4d58835.png>
+![](img/zhuanqian_18f9a0f26a2efe46a94bc87ce4d58835.png)
 正文生成提示词需要明确告诉模型：
 - 当前正在生成哪一部分；
 - 前文已经写了什么；
@@ -301,14 +301,14 @@ AI并不一定要一开始就做得很复杂。
 请记住，你生成的内容应当是该大纲部分的完整内容，而不是概要或总结。内容的长度应与大纲层级相适应，通常为200字左右，但可以根据主题的复杂程度和重要性进行适当调整。
 准备好后，请等待用户提供具体的四个输入变量，然后开始创作相应的文章内容。
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fce5b181d0fa24a6e4dbd2eab1a80eb9.png>
+![](img/zhuanqian_fce5b181d0fa24a6e4dbd2eab1a80eb9.png)
 接着是各部分模块的展示。
 文本加工部分：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_11188b3c38146aaa2c776a747f619a17.png>
+![](img/zhuanqian_11188b3c38146aaa2c776a747f619a17.png)
 参数登记部分：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_807765b0da009a6168a6fe3087bf125f.png>
+![](img/zhuanqian_807765b0da009a6168a6fe3087bf125f.png)
 最后的收尾输出部分：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4af45c262c72b82f4dd74c5c2847e572.png>
+![](img/zhuanqian_4af45c262c72b82f4dd74c5c2847e572.png)
 配置完成后，系统会把题目与正文内容合并返回。相比从前靠手工整理、复制粘贴的方式，这种自动化模式能节省不少时间，尤其适合需要高频更新的运营场景。
 ## 二、面向门店的图文内容自动产出链路
 第二套方案面向美容、养生类的线下门店。使用方式很直接：提供身体部位和门店名，大约半分钟就能得到一组可发布素材，包括配图、文案和话题标签。
@@ -319,13 +319,13 @@ AI并不一定要一开始就做得很复杂。
 4. 日常维护的四个重点，这篇给你讲透
 5. 原来胸型还可以这样悄悄变好看✨
 生成的效果界面见下：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_edcd3b9e990a13af9338e8cb17a97b45.png>
+![](img/zhuanqian_edcd3b9e990a13af9338e8cb17a97b45.png)
 正文往往采用更口语化的表达：从生活场景切入，比如在健身房更衣间听到他人讨论“那位姐妹的胸型真好看”，从而引出对上半身状态的在意；再写自己的多次体验：去店里做过二十余次保养，感觉比买十件内衣更值；第一次检测时，被告知乳腺代谢速度比同龄人慢了不少，当时就决定办卡；接着描述服务过程中会用温热的掌心配合植物精油进行按摩，沿着腋窝向锁骨方向做上提疏导，整个人仿佛在做一场放松护理；之后提到店里的立体塑形项目，利用弱电流脉冲和红外照射来唤醒胸部组织，护理师把它比作“帮胸部找回年轻时的记忆”；坚持大约半年，经期前的不适感也缓解了，选购内衣时不再纠结；最后说明门店会结合生理周期切换重点，例假结束后侧重充盈护理，排卵期则转向紧致提升；整套流程走下来，不仅体态有变化，连身边的人也能感受到那股自信。
 标签可以这样组合：
 #胸部保养 #璞悦门店 #女性体态 #线条管理 #淋巴疏通
 这套方案采用聊天交互式结构，后续如果要迁移到微信生态里的轻应用，会比较方便。
 整体流程示意如下：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b7343905b63ed8795b5b0d63894f7c34.png>
+![](img/zhuanqian_b7343905b63ed8795b5b0d63894f7c34.png)
 再把几段 Prompt 指令整理出来，方便对照：
 主引擎设定：
 ```
@@ -440,20 +440,20 @@ wenan= "下垂是你的，外扩也是你的，不挺拔也是你的"
 ```
 这套链路本身不复杂，真正需要反复调试的，集中在排版画布部分。不同尺寸、样式和视觉基调，往往要多次调整才能稳定输出。
 相关截图如下：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ab9f8d3795898f4d8ea3c2b05bee2138.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_60efc8b4a24cd58eb018287cad71c8d6.png>
+![](img/zhuanqian_ab9f8d3795898f4d8ea3c2b05bee2138.png)
+![](img/zhuanqian_60efc8b4a24cd58eb018287cad71c8d6.png)
 这里提醒一个容易忽略的细节：想让最终结果直接渲染成图片，而不是给出一串跳转网址，输入时应使用 `![]()` 这类嵌入标记。
 ## 三、面部与风水评估自动化链路
 第三套面向脸部状态解读与风水分析。结构上比前两套更简洁，但指令设计相对费时。想得到稳定可靠的输出，建议围绕角色设定、分析范围、最终答复格式几个方面来回打磨。
 其中，脸部状态判断与风水分析两路分支单元，必须搭载具备视觉理解能力的引擎，以便读取传入的图像资料并继续分析。
 链路总览：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2a3a928cf533ea499d052f325e14ea8d.png>
+![](img/zhuanqian_2a3a928cf533ea499d052f325e14ea8d.png)
 搭建时需要留意以下要点：起始模块统一接收文件，类型务必指向图像，JPG 或 PNG 均可；图像内容分别送往对应的视觉分析分支；对最终答复的结构、语气和措辞做统一规范。
 面部状态与风水分析对应的模块截图：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_015d5a60edc0dd6fd54b487f017c89e5.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_162a05f4a28b92f8742cfdba65baeaed.png>
+![](img/zhuanqian_015d5a60edc0dd6fd54b487f017c89e5.png)
+![](img/zhuanqian_162a05f4a28b92f8742cfdba65baeaed.png)
 资料从起始模块上传，文件类型务必指向图像：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3c6ee87d317a56d09564348b55704467.png>
+![](img/zhuanqian_3c6ee87d317a56d09564348b55704467.png)
 脸部状态解读指令：
 ```
 # 角色
@@ -674,130 +674,130 @@ wenan= "下垂是你的，外扩也是你的，不挺拔也是你的"
 ```
 # 四、用 Coze 搭建微信小程序
 前面把 3 个工作流准备完成后，就可以继续在 Coze 中把它们组合成一个应用，并进一步发布为微信小程序。下面按照页面结构，梳理整个小程序的搭建过程。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7836407979f9331e4cd1810338c0b211.png>
+![](img/zhuanqian_7836407979f9331e4cd1810338c0b211.png)
 ## 第一页：主页面
 首页主要放置 4 个功能按钮，这些按钮可以从左侧的输入组件和推荐组件中找到：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_58313d4e462b41fbd25a19475bf61d0a.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_81d431b45130d850272726cc5e7804a6.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c64f0759979c33a0d88b3241897485e0.png>
+![](img/zhuanqian_58313d4e462b41fbd25a19475bf61d0a.png)
+![](img/zhuanqian_81d431b45130d850272726cc5e7804a6.png)
+![](img/zhuanqian_c64f0759979c33a0d88b3241897485e0.png)
 右侧是按钮的配置区域：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d7e8bdac2c55d6c69bf7c10873aa52d9.png>
+![](img/zhuanqian_d7e8bdac2c55d6c69bf7c10873aa52d9.png)
 按钮的样式选择基础款即可，按钮文字直接填写对应的功能标签，后续也可以根据实际需要修改。图标既可以使用系统图标库，也可以从本地上传。
 在布局位置上，我选择的是绝对定位，这样可以按照自己的想法自由排版，另外两种定位方式则属于相对固定的位置。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_35b2d0b49c9401da60452765db4b0300.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6de164e82825926fe328fc295e6a4169.png>
+![](img/zhuanqian_35b2d0b49c9401da60452765db4b0300.png)
+![](img/zhuanqian_6de164e82825926fe328fc295e6a4169.png)
 按钮的宽高、颜色等参数，都可以按照页面设计和个人需求进行调整。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_19057f1a1f838dfadee93139c7820d18.png>
+![](img/zhuanqian_19057f1a1f838dfadee93139c7820d18.png)
 禁用状态和加载状态，后面会详细说明。
 首页最关键的配置在“事件”部分，它位于顶部“属性”旁边：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_aeae8e3cc8965b71738d3788cc562694.png>
+![](img/zhuanqian_aeae8e3cc8965b71738d3788cc562694.png)
 首先新建一个页面，然后为按钮添加“页面跳转”事件。这样，用户点击相应按钮后，就能进入指定功能页面。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4576c5d5dc8c428bc07d1dc78690610a.png>
+![](img/zhuanqian_4576c5d5dc8c428bc07d1dc78690610a.png)
 ## 第二页：公众号文章生成
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_37dbbebf7b4db686fd5a780b3f8769e7.png>
+![](img/zhuanqian_37dbbebf7b4db686fd5a780b3f8769e7.png)
 页面顶部的两个文本框，使用的是多行输入组件。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0edd976f500f5ccfab1c7b3ff218cd91.png>
+![](img/zhuanqian_0edd976f500f5ccfab1c7b3ff218cd91.png)
 选中组件后，可以在右侧修改相关设置。其中，占位文案就是用户尚未输入内容时，显示在文本框里的提示文字。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6ca4d47248ee09ab6291a2e84bb0f380.png>
+![](img/zhuanqian_6ca4d47248ee09ab6291a2e84bb0f380.png)
 中间需要放置一个按钮，这个按钮的作用是触发工作流。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_66cf691e783dc35c1b4eb4d5b42ba37c.png>
+![](img/zhuanqian_66cf691e783dc35c1b4eb4d5b42ba37c.png)
 按钮的基础配置和首页类似：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5b2f4307984dff5f22dddfca87974537.png>
+![](img/zhuanqian_5b2f4307984dff5f22dddfca87974537.png)
 需要重点设置的是“禁用”和“加载”两种状态。
 ### 1. 设置禁用状态
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d53cd991149ae1ca67bd26f431946fd2.png>
+![](img/zhuanqian_d53cd991149ae1ca67bd26f431946fd2.png)
 点击组件旁边的“X”图标：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6f2f4998f6b8bdba3f40e5aea2b01d13.png>
+![](img/zhuanqian_6f2f4998f6b8bdba3f40e5aea2b01d13.png)
 此时会显示文本结构组件。
 为什么要增加这一步？因为调用工作流之前，必须先获得主题和店铺名称。如果用户没有填写这些信息，就不应该允许工作流直接运行，因此需要给生成按钮增加限制条件。
 也就是说，当文本框中没有主题内容时，生成按钮应当处于不可点击状态。选中文本框内容后，在前面添加“！”，就表示“当文本框为空时”，此时生成按钮会被禁用。这个逻辑初看可能有些绕，实际操作一遍就容易理解：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a0135bf4a2a69e9ad4310faea2abb11b.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_69da95b4ab4de58f9c63390f86422d78.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_aa851c0eb0a2ed3b396a64cd096c3b22.png>
+![](img/zhuanqian_a0135bf4a2a69e9ad4310faea2abb11b.png)
+![](img/zhuanqian_69da95b4ab4de58f9c63390f86422d78.png)
+![](img/zhuanqian_aa851c0eb0a2ed3b396a64cd096c3b22.png)
 没有输入内容时，生成按钮无法使用；填写内容后，按钮恢复可点击，这就是禁用态的配置效果。
 ### 2. 设置加载状态
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5031fc2dfb22569b834aed75b494c620.png>
+![](img/zhuanqian_5031fc2dfb22569b834aed75b494c620.png)
 加载状态同样需要点击组件旁边的“X”进行设置。完成配置后，工作流运行期间，按钮就会显示加载中的状态，避免用户误以为没有反应而重复点击。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_57e48c85cf2e01912e23e1702b9da43e.png>
+![](img/zhuanqian_57e48c85cf2e01912e23e1702b9da43e.png)
 设置时，选择被调用的工作流，再指定对应文件即可：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a11c59ffe9230f7a756021f6ed656c7d.png>
+![](img/zhuanqian_a11c59ffe9230f7a756021f6ed656c7d.png)
 ### 3. 配置点击事件
 新建一个事件，事件类型选择“点击时”，执行动作选择“调用工作流”。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_36b2a4859b5197afda32fbf946786fb3.png>
+![](img/zhuanqian_36b2a4859b5197afda32fbf946786fb3.png)
 这里的两个入参，分别对应页面上方的两个多行输入框。可以直接从左侧页面结构中找到对应组件，并完成绑定。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fb3e875f766fdd6d8f48e31e1abeb425.png>
+![](img/zhuanqian_fb3e875f766fdd6d8f48e31e1abeb425.png)
 配置完成后，点击按钮就能正式调用工作流。
 那么，工作流返回的内容要放在哪里呢？
 ### 4. 添加容器与 Markdown
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2745a6bb3ffb713d65102679b47e144f.png>
+![](img/zhuanqian_2745a6bb3ffb713d65102679b47e144f.png)
 首先添加一个容器，用来划分和承载内容区域；然后在容器内部放入 Markdown 组件。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4b68f2abdff08e3eecc56acd4360ac8b.png>
+![](img/zhuanqian_4b68f2abdff08e3eecc56acd4360ac8b.png)
 Markdown 组件需要绑定工作流的返回结果。点击旁边的“X”，找到工作流输出，也就是返回数据，并将其绑定到 Markdown 中。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c347016ab81d775346e3b404516194d4.png>
+![](img/zhuanqian_c347016ab81d775346e3b404516194d4.png)
 下方的溢出设置选择“滚动”，这样生成内容较多时，用户也可以在区域内上下浏览。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7673d970a693a6e68e20ed3a4489209d.png>
+![](img/zhuanqian_7673d970a693a6e68e20ed3a4489209d.png)
 完成之后，工作流生成的文字就会显示出来。如果还想对结果进行调整，可以继续添加预览和修改功能。
 ### 5. 预览与修改按钮
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9f7054c65f103f1aacc1dfa22105a6e4.png>
+![](img/zhuanqian_9f7054c65f103f1aacc1dfa22105a6e4.png)
 按钮的禁用条件，可以绑定到上方 Markdown 中的内容。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_636d4932a793f39dfac1e9158fcedf4a.png>
+![](img/zhuanqian_636d4932a793f39dfac1e9158fcedf4a.png)
 这里需要配置 3 个事件：1 个页面跳转事件，以及 2 个控制组件的事件。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_93b0250c3589ad37db754988a61fe33a.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d954154c1c6d9314de2c2841cc539bf3.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_653e13a6b827c56c66065e43b46ecea5.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b872d129ae756887516d7c9f13717230.png>
+![](img/zhuanqian_93b0250c3589ad37db754988a61fe33a.png)
+![](img/zhuanqian_d954154c1c6d9314de2c2841cc539bf3.png)
+![](img/zhuanqian_653e13a6b827c56c66065e43b46ecea5.png)
+![](img/zhuanqian_b872d129ae756887516d7c9f13717230.png)
 这样一来，用户点击按钮后，既可以跳转到修改页面，也能把当前文案复制下来。
 ## 第三页：修改生成文案
 第三页的结构比较简单，由一个多行输入框和两个按钮组成：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1abef01bd2e5aaa0cf047623fbe0e29e.png>
+![](img/zhuanqian_1abef01bd2e5aaa0cf047623fbe0e29e.png)
 ### 1. 配置文本框
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_92fe48e36dc617dfbf74bbf172f76a55.png>
+![](img/zhuanqian_92fe48e36dc617dfbf74bbf172f76a55.png)
 将上一页生成的内容放入多行输入框中，用户可以直接在这里编辑和调整。
 ### 2. 一键复制按钮
 复制按钮的禁用条件，可以绑定到上方文本框中的文字内容；对应事件则设置为“控制组件—复制到剪贴板”。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_94586ad0bf2f20ee30f11d2cdafefe3a.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_688a18e1dc24c9034cd7d073d23ad4e7.png>
+![](img/zhuanqian_94586ad0bf2f20ee30f11d2cdafefe3a.png)
+![](img/zhuanqian_688a18e1dc24c9034cd7d073d23ad4e7.png)
 ### 3. 再次生成按钮
 再次生成按钮的禁用逻辑与前面相同，仍然根据文本框是否有内容进行判断。它的事件设置为重新跳转到第二页。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5b7548ba03319f03a864c7a9d3825e22.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b61e39dcf41f8441318b1c0e86c3efb1.png>
+![](img/zhuanqian_5b7548ba03319f03a864c7a9d3825e22.png)
+![](img/zhuanqian_b61e39dcf41f8441318b1c0e86c3efb1.png)
 ## 第四页：小红书图文
 这一页主要放置两个图片占位组件和两个按钮。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_50f38acc4def7151e404bc26260935bf.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3f807192b73625b70324a099afb10346.png>
+![](img/zhuanqian_50f38acc4def7151e404bc26260935bf.png)
+![](img/zhuanqian_3f807192b73625b70324a099afb10346.png)
 图片直接通过本地上传即可，同时勾选“支持大图”，这样用户在小程序中点击图片时，就能够放大查看。
 按钮的事件设置为页面跳转，新建一个页面后绑定即可。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cdf5c45da8b4cc7c1b958aee8f0c5f83.png>
+![](img/zhuanqian_cdf5c45da8b4cc7c1b958aee8f0c5f83.png)
 ## 第五页：图文生成
 第五页使用 AI 组件，选择“AI 对话”功能，调用前面制作好的“一键生成小红书图文”对话流。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bb59868074e35c7714401b56afc2866a.png>
+![](img/zhuanqian_bb59868074e35c7714401b56afc2866a.png)
 进入设置后，直接选择对应的对话流：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c93e54185caee78b7786b6033262edf4.png>
+![](img/zhuanqian_c93e54185caee78b7786b6033262edf4.png)
 完成配置后，就可以直接调用。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a102973197db5d354694b7bf343f6b7b.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_304a0f8408d4ad6fddcc292fe1f10286.png>
+![](img/zhuanqian_a102973197db5d354694b7bf343f6b7b.png)
+![](img/zhuanqian_304a0f8408d4ad6fddcc292fe1f10286.png)
 ## 第六页：面诊页面
 面诊页由 3 个图片上传组件、1 个多行文本输入框和 1 个按钮组成。这里需要注意，使用的是图片上传组件，而不是前面页面中的普通图片组件。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c312d8c5f5efeb727a9d208531f7a91c.png>
+![](img/zhuanqian_c312d8c5f5efeb727a9d208531f7a91c.png)
 按钮需要同时设置页面跳转、调用面诊工作流，以及禁用状态。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_845402a956024ace02b1547747c50a57.png>
+![](img/zhuanqian_845402a956024ace02b1547747c50a57.png)
 ## 第七页：诊断结果
 结果页使用导航组件中的标签栏，因为面诊结果需要分成 5 段内容分别展示。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7b9457ec89b033a2d87f7ca99bcd4a62.png>
+![](img/zhuanqian_7b9457ec89b033a2d87f7ca99bcd4a62.png)
 用户上传照片并填写生日后，就可以生成面诊结果。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d058f20ba19b84db4cdadb3f19e22110.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cae9325412af30dcd2aa1bb8a23d7251.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_90b630df3bdbed4ed25bfbdcff67d32e.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bc91d6a6a31a55f61466368a436264a8.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_58795751f2276b827031e09bb378865b.png>
+![](img/zhuanqian_d058f20ba19b84db4cdadb3f19e22110.png)
+![](img/zhuanqian_cae9325412af30dcd2aa1bb8a23d7251.png)
+![](img/zhuanqian_90b630df3bdbed4ed25bfbdcff67d32e.png)
+![](img/zhuanqian_bc91d6a6a31a55f61466368a436264a8.png)
+![](img/zhuanqian_58795751f2276b827031e09bb378865b.png)
 有了这套工具，店长在与顾客交流时，就能获得更多沟通切入口，也能更准确地掌握顾客需求和沟通节奏。
 # 五、发布到微信小程序
 所有页面制作完成后，点击右上角的“发布”：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3da8d0ef591c5777d6e262d69215cfcb.png>
+![](img/zhuanqian_3da8d0ef591c5777d6e262d69215cfcb.png)
 在发布选项中勾选微信小程序：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a0245c27e822242ebd6280d99c98d365.png>
+![](img/zhuanqian_a0245c27e822242ebd6280d99c98d365.png)
 然后务必点击小程序旁边的“配置”，绑定自己的小程序 AppID。完成绑定后，再进行发布。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7123372f1108e8a50379dc8aaedb5958.png>
+![](img/zhuanqian_7123372f1108e8a50379dc8aaedb5958.png)
 通常等待大约一天，小程序就可以正式上线。
 # 六、关于“实体门店 + AI”的一些思考
 1. 我自己的门店已经开始使用 AI，实际在引流环节确实节省了不少精力，整体效率提升非常明显。

@@ -27,33 +27,33 @@
 ### 2.1 新建会话
 **什么时候用**：开启一个全新话题时，建议新开窗口，避免旧上下文干扰。每个话题独立成窗，界面干净，互不串味。只要账号还在，退出登录后会话依然保留。所以，不同话题尽量分开，相似话题可共用。
 **具体操作**：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6b5c228726f5cbe192cba6f36fe8dc3c.png>
+![](img/zhuanqian_6b5c228726f5cbe192cba6f36fe8dc3c.png)
 ### 2.2 删除单个会话
 **什么时候用**：窗口太多太杂时，可以删掉不需要的会话。但删除后所有聊天记录都会消失，无法恢复。
 **具体操作**：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ded533882b3fed6c83190101b9b103e7.png>
+![](img/zhuanqian_ded533882b3fed6c83190101b9b103e7.png)
 ### 2.3 给会话重命名
 **什么时候用**：重要会话起个清晰的名字，方便日后检索和复用。
 **具体操作**：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3dfe3d421691883f5821416796fc0543.png>
+![](img/zhuanqian_3dfe3d421691883f5821416796fc0543.png)
 ### 2.4 清空所有会话
 **什么时候用**：窗口堆积成灾时，可用一键清除功能。
 **具体操作**：先点左下角三个点，进入 Settings & Beta，再点 General，最后点 Clear。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_662195d9681da4dfb07de695e9916f66.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_41f5b7597de34ff9b1fddf06de257ad8.png>
+![](img/zhuanqian_662195d9681da4dfb07de695e9916f66.png)
+![](img/zhuanqian_41f5b7597de34ff9b1fddf06de257ad8.png)
 ### 2.5 分享会话
 **什么时候用**：想让别人看到你和模型的完整对话过程，可以分享链接。
 **具体操作**：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_381c19f2cc53fba5e5e2af77a6beb682.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3862d15f3dc46eacb23fa89d35c1c8f0.png>
+![](img/zhuanqian_381c19f2cc53fba5e5e2af77a6beb682.png)
+![](img/zhuanqian_3862d15f3dc46eacb23fa89d35c1c8f0.png)
 生成链接形如 https://chat.openai.com/share/324f76ba-f1a8-41c8-8909-ac128a0953d0 ，对方点开即可查看，自己也能回看。链接无需登录，但需要🪜环境。
 ## 3 向ChatGPT提问的策略
 ### 3.1 语义清晰，少让模型猜
 模型不是人类，很多行话和潜台词它听不懂。把需求说清楚，它需要猜测的次数就越少，命中率就越高。
 **反例**：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8337f4329a48fd4f4be6634740c78fa7.png>
+![](img/zhuanqian_8337f4329a48fd4f4be6634740c78fa7.png)
 **正例**：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0353ca1d8ecbb83be5e4e15fc6701284.png>
+![](img/zhuanqian_0353ca1d8ecbb83be5e4e15fc6701284.png)
 ### 3.2 去掉废话，直击核心
 多余语句会干扰模型抓重点。它像小朋友，你铺垫太多，它的注意力反而跑偏。而且超长输入和输出都会拖慢速度、拉低质量。所以提问要短，意图要准。
 **错误示范**：想了解牛顿，就从“历史上的著名物理学家”开始铺垫，一口气要求介绍生平、教育、成就、哲学观点、对现代物理的影响等，还要“尽可能详细”。又长又绕，效果反而差。
@@ -61,13 +61,13 @@
 ### 3.3 简洁之外，让要求更具体
 模型知识库太大，问题越泛，答案就越泛；问题越具体，越容易定位到你想要的那一个点。
 **调整前**：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3f769d7b070f72995db9a7089f3aa0dd.png>
+![](img/zhuanqian_3f769d7b070f72995db9a7089f3aa0dd.png)
 比如只告诉模型“想起个像‘星辰’那样有美感的名字”，却不说明孩子性别，它可能默认给出偏男孩的名字。而你的宝宝是女孩，“星辰”更像男名。补充“这是个女孩”后，候选名就会精准很多。
 **调整后**：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_08dbe08bc971f137176830dd4e4206d7.png>
+![](img/zhuanqian_08dbe08bc971f137176830dd4e4206d7.png)
 答案自然更贴合需求。
 **官方演示**：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_dfaae3e97c5e976f38aaea8f146d5dfe.png>
+![](img/zhuanqian_dfaae3e97c5e976f38aaea8f146d5dfe.png)
 ### 3.4 复杂任务要拆解
 原理是链式思考（Chain of Thought）：一步一步想、一步一步算，比一次性硬刚更可靠。
 拆法有两种：
@@ -76,12 +76,12 @@
 最典型的是字数限制：模型单次只能输出约1000字，想让它一口气写5000字不现实，必须拆成几次。
 **示例一：同一条Prompt里做多步操作**
 我设计过一条指令，让模型先阅读一段新闻，再用一句话概括并加前缀“总结:”，接着把这句话翻译成英文，加上前缀“翻译:”。新闻内容是关于百度网盘基于文心大模型升级并推出AI助理“云一朵”的消息。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f80da8988ae44d6336f73539b16748af.png>
+![](img/zhuanqian_f80da8988ae44d6336f73539b16748af.png)
 **示例二：把一道让GPT-3.5翻车的题拆开算**
 以前我们喜欢用一道“牛奶加水”的数学题来区分GPT-3.5和GPT-4。GPT-4可以直接算对，GPT-3.5却容易错。原因是完整计算链对GPT-3.5来说太长，一步到位容易乱。
 原版指令让模型在脑子里完成多轮“喝一半、加水”之后，一次性回答总共喝了多少杯水、多少杯奶。拆解后的指令则把整个过程切成几个小问题，每次只算当前阶段的奶和水数量，模型就能逐步算对。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3df8d0bb2241b220bf6d744041c63209.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3a39078410da202c40c5586eb718a105.png>
+![](img/zhuanqian_3df8d0bb2241b220bf6d744041c63209.png)
+![](img/zhuanqian_3a39078410da202c40c5586eb718a105.png)
 拆解思路大致是：
 ```
 【任务】按顺序作答。
@@ -90,75 +90,75 @@
 2. 再喝掉一半混合液后补满水，这时水是多少杯？奶是多少杯？
 3. 最后全部喝光，水一共多少杯？奶一共多少杯？
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_dec5baed1fb0bd1572ac9d724af80f6d.png>
+![](img/zhuanqian_dec5baed1fb0bd1572ac9d724af80f6d.png)
 如果需求更复杂，比如写一篇深度长文发公众号或知乎，你还可以把大任务拆成：爆款标题、素材收集、框架搭建、爆点设计、开头留人、结尾引流等子任务，逐个交给模型完成。
 深度原创文章的核心，是你心里有想表达的观点，AI负责搜集素材、润色文案、补灵感、做部分创作。每一步如何精细设计需要单独教程讲解，这里先记住“大任务变小任务”的思维。
 ### 3.5 让中间步骤对用户不可见
 大任务拆成多步后，模型通常会每一步都输出过程。如果你只想看最终结果，不想看内部推理，可以在指令中要求“对我保密”。
 **不隐藏的版本**：给模型设计一条四段指令——先自己解题，再和学生的解法做对比，判断对错；如果错了，想一个不直接透露答案的提示；最后输出提示。题目是一道不放回抽球的概率题，学生给出了一个错误解法。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_df2183223f9da40d598ab92ec4771803.png>
+![](img/zhuanqian_df2183223f9da40d598ab92ec4771803.png)
 **隐藏的版本**：同样四段指令，但注明前几步的思考、对比、设计提示过程都不许写出来，只能在最后输出提示。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3b6a414bd5cd8aa14b3ce95b1346195e.png>
+![](img/zhuanqian_3b6a414bd5cd8aa14b3ce95b1346195e.png)
 这样模型就会直接给出引导方向，而不是把答案和盘托出。
 ### 3.6 给一个正向示例，让它照着学
 当你不知道怎么用语言描述要求时，直接给模型一个高质量示例，它就能模仿出相似的风格与结构。示例贵精不贵多，最好再配合一个反向示例，告诉它“不要这样写”。
 比如先给它一句关于“耐心”的优美排比句，再请它用同样的句式写“海洋”，模型就能领悟你要的语感。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1ff1c7302c8b8fbf852cb82270e216b2.png>
+![](img/zhuanqian_1ff1c7302c8b8fbf852cb82270e216b2.png)
 反向示例不是不能用，但效果通常不如正向示例精准。
 ### 3.7 投喂素材：让输出贴近你的语料
 想让模型基于指定资料作答或写作，就把素材直接发给它。素材越精准，输出越靠谱。
 素材的构成比例会影响输出方向：如果素材有80%在讲A维度、20%在讲B维度，模型生成的内容大概率也是A维度为主。若想输出变成五五开，就要先调整素材里的占比。
 举例：你想让它回答“如何用AI制作视频”，可以先给一段关于Runway开放Gen-1/Gen-2、以及一位博主用Midjourney生成图片再转成视频的素材，再提问。模型就能从素材中提取答案，而不是凭空编。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e49694dcf528532c8d4912318f3c9b76.png>
+![](img/zhuanqian_e49694dcf528532c8d4912318f3c9b76.png)
 为什么不建议喂太长的原文？因为模型记忆有限，输入超过约4000个汉字就容易答非所问。普通需求下，可以把长文拆成几段，逐段压缩后再组合。
 读后感的教程里，海盐只让大家投喂小说简介，就是这个原理。模型的生成机制是“下一个字更可能出现”。喂了1万字原著，它总结出的1000字推荐文可能全是原文细节，反而没有文采。高质量推荐文靠的是个性化观点和写作手法，而不是复述剧情。只给它故事简介，再教它写作技巧，反而更容易产出优质内容。
 ### 3.8 指定输出字数
 对字数有要求，直接告诉模型，不用不好意思。
 **示例**：用20个字概括三引号里的文本。
 8月8日，一则来自企业信息平台的消息显示，网之易信息技术（北京）有限公司已提交“网易玉言”商标的注册申请，该商标的国际分类归为网站服务，当前状态为申请中。很多人或许还不太了解“玉言”，其实它是网易伏羲实验室推出的中文预训练大模型。据此前媒体披露，这项模型的相关技术已经逐步落地到网易集团内部多个业务场景，涵盖文字游戏、智能NPC、文本辅助创作、音乐辅助创作、美术设计，以及互联网搜索推荐等。从应用范围来看，网易正试图将大模型能力融入内容生产的方方面面，而这次商标申请，也像是“玉言”从技术走向品牌的一个新注脚。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d4aa6a6c7142d815bf8e66458fa7d902.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9c24bb56ba9e53a668e2058abf7010af.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1a6ec01ffb493e93ef055101f1dbab4e.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_61bd0e9715df940892d54cc3e8df2ca4.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2c5a04c150f7a0065ee1cf956156bbe9.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bfcf08af6496ffbe6709deb474c15b9f.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_36d838bf18b509eb640b522d75bb16a4.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0f1e6e1254d30eb33bb73da47ef608fa.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_35ea5f1f2350f95c990e6e6060c55304.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f112c15d9d0044ca936099d29c83696e.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a0243b944fe2ba90781f99d99da18a27.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4c67910b767a7f6497bfd0c3bf642194.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e2a5b2fde0e1c5535e4539a3c47732b1.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_76fbea26759fb0f374c03470c4b27958.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f7f7bf3eae0e8778c3c071daadb38cdd.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_63d36091af74be03d8f5634c0b2ba09f.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_186ba24b96bd0275b6532aa68ab9d28f.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ee0e4d37cf85c2b49f1cca385ececf3a.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c4ab7c6c6736b5bfce9f31cc9d1a0b81.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_55cfef06fabe715f5e9422961691f80f.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7392d3fad77907d4cc6bc0b5185d00e0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_afa1b8c82dc23f01ef18e6b5b486aac3.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a75fc02ca7c7f250eb931495b1e6b371.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_dd2f030670d9ff132a056746e8536353.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ad34b60fb8298f5a49062ece5cf41867.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c2be4bd91b747274f6a3922310b1b135.png>
+![](img/zhuanqian_d4aa6a6c7142d815bf8e66458fa7d902.png)
+![](img/zhuanqian_9c24bb56ba9e53a668e2058abf7010af.png)
+![](img/zhuanqian_1a6ec01ffb493e93ef055101f1dbab4e.png)
+![](img/zhuanqian_61bd0e9715df940892d54cc3e8df2ca4.png)
+![](img/zhuanqian_2c5a04c150f7a0065ee1cf956156bbe9.png)
+![](img/zhuanqian_bfcf08af6496ffbe6709deb474c15b9f.png)
+![](img/zhuanqian_36d838bf18b509eb640b522d75bb16a4.png)
+![](img/zhuanqian_0f1e6e1254d30eb33bb73da47ef608fa.png)
+![](img/zhuanqian_35ea5f1f2350f95c990e6e6060c55304.png)
+![](img/zhuanqian_f112c15d9d0044ca936099d29c83696e.png)
+![](img/zhuanqian_a0243b944fe2ba90781f99d99da18a27.png)
+![](img/zhuanqian_4c67910b767a7f6497bfd0c3bf642194.png)
+![](img/zhuanqian_e2a5b2fde0e1c5535e4539a3c47732b1.png)
+![](img/zhuanqian_76fbea26759fb0f374c03470c4b27958.png)
+![](img/zhuanqian_f7f7bf3eae0e8778c3c071daadb38cdd.png)
+![](img/zhuanqian_63d36091af74be03d8f5634c0b2ba09f.png)
+![](img/zhuanqian_186ba24b96bd0275b6532aa68ab9d28f.png)
+![](img/zhuanqian_ee0e4d37cf85c2b49f1cca385ececf3a.png)
+![](img/zhuanqian_c4ab7c6c6736b5bfce9f31cc9d1a0b81.png)
+![](img/zhuanqian_55cfef06fabe715f5e9422961691f80f.png)
+![](img/zhuanqian_7392d3fad77907d4cc6bc0b5185d00e0.png)
+![](img/zhuanqian_afa1b8c82dc23f01ef18e6b5b486aac3.png)
+![](img/zhuanqian_a75fc02ca7c7f250eb931495b1e6b371.png)
+![](img/zhuanqian_dd2f030670d9ff132a056746e8536353.png)
+![](img/zhuanqian_ad34b60fb8298f5a49062ece5cf41867.png)
+![](img/zhuanqian_c2be4bd91b747274f6a3922310b1b135.png)
 想用AI帮你干活，但总觉得差了点意思？问题可能不在AI，而在你给的指令。今天咱们聊聊提示词里那些能让你效率翻倍的实用“套路”。
 先讲核心心态：别指望一步登天。就像增肌一样，需要持续给身体刺激，耐心积累，定期记录围度变化并调整训练计划。学提示词也一样，要长期实践，边用边复盘，每月给自己设个小目标，看看哪里还能优化。
-好，进入正题。第一个大杀器：润色。你说话很随意？没关系，让GPT帮你把大白话变成专业文案。它能根据你的要求替换角色、更换语气。比如“专业性？气氛组？猛男音？应有尽有”——通过角色转换，让同段文字瞬间拥有不同风格。这其实就是角色扮演法的具体应用，以后会单独细说，现在你只需记住“润色”这个常用功能。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6f4186e599b47724cc29a0568c12a803.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e82cfb16acc0ea18d75f009051dc2d96.png>
-再举个例子。曾有博主吐槽Meta头显“压鼻子”“手势识别不流畅”，还把“看到恐龙吓到尖叫”的糗事写进测评。如果你想反馈给产品团队，可以直接让GPT把这段口语吐槽改写成一封有理有据的商业建议邮件，分分钟显得专业又克制。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2f1b0a68c875c3e16fa366118a3b9e10.png>
-第二个功能：翻译。别再用百度翻译了，GPT本身就是你的私人语言官。法文诗、日语说明书、西班牙语邮件，都能翻译得很有韵味，还能帮你判断一段陌生文字究竟是哪国语言。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_90d333e59c0f1b3eef30171c3633d1d3.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ecd061a33f15180cb57ccb4d822dfd55.png>
-第三个功能：拼写检查。写自媒体文案最怕错别字和病句。让GPT通读一遍，把“游荡”改成“流畅”，把别扭的语法捋顺，比人工校对还仔细。比如拳头手机的新品发布文，AI就能轻松揪出问题并修正。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b0fa46228e89f7c1b2a6e39f7efad533.png>
-第四个功能：个性化提取。你以为AI只能聊天？错了。把淘宝评论丢给它，它就能提取30个关键词并生成词云，还能用你指定的字体渲染。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a7e8937d728168196aac603be4954c3e.png> 这操作有多神奇？<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_da9475ad508ae0e1caa8d4cce18ffd03.png> 友情提示，要是普通GPT3.5用户，直接让它列关键词就好，只是没那么炫酷而已。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_689b2982b113977fec09b704271eda90.png>
-接下来，你还可以让AI针对同一批评论，专门提取技术部门关心的摘要——比如键盘的灯光方案、屏幕可玩性、驱动更新等，每条不超过20个字，再配合上传的中文字体文件生成词云。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_77cc052fdb0e494102e4a517889ce24b.png> 同理，也能生成一版客服部门关心的摘要，比如售后响应速度、客服态度、物流包装等，格式要求完全一致。一套流程下来，各部门各取所需。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_16b64adf5b9bb75b5fd96351716f4597.png> 最后，还能从产品详情里精准抓出“连接模式”“轴体参数”并输出成JSON，连代码都不用写。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fde49bb75b09e5328bae75f96c7d4590.png> 比如键盘支持2.4GHz无线、蓝牙5.1、有线三种连接；轴体采用COOLKILLER冰刃轴，触觉力度60±10gf等。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0d4a2b4a934aa67d55b4dda0625e6d6a.png>
-大写的完美！<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f2c82682f023b1bf3515e09213715dc2.png> 程序员再也不用写复杂正则去匹配数据了。普通人学会这招，瞬间拥有数据分析师的能力。从一篇政策报告里提取20个主题词，也是几秒钟的事。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e854ffb4027c395214bfa87e81484a19.png>
-第五个功能：评判。想快速了解一部电影的口碑？把所有影评扔给GPT，它会自动打上“好评”“中评”“差评”，并附上不超过20字的理由。比如对《封神》的几篇评论，AI能一针见血地抓重点。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_152c3edb6044fa996d846143ccc959df.png> 这招还能用来分析电商产品评论区，帮你过滤掉无用评价，只留下有用的参考。甚至可以把GPT插件商店里的插件全部AI分类，再通过API监控变化，第一时间收到上新或下架通知。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_02b7450fc67dd2f0e421cf25a5f5e0a3.png>
-第六个功能：格式转换。让GPT把文字变成Markdown、JSON、HTML，轻松搞定网页展示和代码开发。比如把“位右移”那段技术说明转成JSON，再把JSON转成带标题的HTML网页——过程就像变魔术。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6b514c0f9429615d204c67d8c94dda48.png> 你只需要一句提示词，连下载文件都帮你生成好。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1e61283bf32d82695717bcda4cf254a8.png> 用Code Interpreter模式，点一下就能预览效果。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a5da746d39fb62d1dd45d38f53e18408.png> 打开浏览器，一份漂亮的表格直接呈现。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_00d10d710378911e766c1f67ee483b4b.png>
+好，进入正题。第一个大杀器：润色。你说话很随意？没关系，让GPT帮你把大白话变成专业文案。它能根据你的要求替换角色、更换语气。比如“专业性？气氛组？猛男音？应有尽有”——通过角色转换，让同段文字瞬间拥有不同风格。这其实就是角色扮演法的具体应用，以后会单独细说，现在你只需记住“润色”这个常用功能。![](img/zhuanqian_6f4186e599b47724cc29a0568c12a803.png)
+![](img/zhuanqian_e82cfb16acc0ea18d75f009051dc2d96.png)
+再举个例子。曾有博主吐槽Meta头显“压鼻子”“手势识别不流畅”，还把“看到恐龙吓到尖叫”的糗事写进测评。如果你想反馈给产品团队，可以直接让GPT把这段口语吐槽改写成一封有理有据的商业建议邮件，分分钟显得专业又克制。![](img/zhuanqian_2f1b0a68c875c3e16fa366118a3b9e10.png)
+第二个功能：翻译。别再用百度翻译了，GPT本身就是你的私人语言官。法文诗、日语说明书、西班牙语邮件，都能翻译得很有韵味，还能帮你判断一段陌生文字究竟是哪国语言。![](img/zhuanqian_90d333e59c0f1b3eef30171c3633d1d3.png)
+![](img/zhuanqian_ecd061a33f15180cb57ccb4d822dfd55.png)
+第三个功能：拼写检查。写自媒体文案最怕错别字和病句。让GPT通读一遍，把“游荡”改成“流畅”，把别扭的语法捋顺，比人工校对还仔细。比如拳头手机的新品发布文，AI就能轻松揪出问题并修正。![](img/zhuanqian_b0fa46228e89f7c1b2a6e39f7efad533.png)
+第四个功能：个性化提取。你以为AI只能聊天？错了。把淘宝评论丢给它，它就能提取30个关键词并生成词云，还能用你指定的字体渲染。![](img/zhuanqian_a7e8937d728168196aac603be4954c3e.png) 这操作有多神奇？![](img/zhuanqian_da9475ad508ae0e1caa8d4cce18ffd03.png) 友情提示，要是普通GPT3.5用户，直接让它列关键词就好，只是没那么炫酷而已。![](img/zhuanqian_689b2982b113977fec09b704271eda90.png)
+接下来，你还可以让AI针对同一批评论，专门提取技术部门关心的摘要——比如键盘的灯光方案、屏幕可玩性、驱动更新等，每条不超过20个字，再配合上传的中文字体文件生成词云。![](img/zhuanqian_77cc052fdb0e494102e4a517889ce24b.png) 同理，也能生成一版客服部门关心的摘要，比如售后响应速度、客服态度、物流包装等，格式要求完全一致。一套流程下来，各部门各取所需。![](img/zhuanqian_16b64adf5b9bb75b5fd96351716f4597.png) 最后，还能从产品详情里精准抓出“连接模式”“轴体参数”并输出成JSON，连代码都不用写。![](img/zhuanqian_fde49bb75b09e5328bae75f96c7d4590.png) 比如键盘支持2.4GHz无线、蓝牙5.1、有线三种连接；轴体采用COOLKILLER冰刃轴，触觉力度60±10gf等。![](img/zhuanqian_0d4a2b4a934aa67d55b4dda0625e6d6a.png)
+大写的完美！![](img/zhuanqian_f2c82682f023b1bf3515e09213715dc2.png) 程序员再也不用写复杂正则去匹配数据了。普通人学会这招，瞬间拥有数据分析师的能力。从一篇政策报告里提取20个主题词，也是几秒钟的事。![](img/zhuanqian_e854ffb4027c395214bfa87e81484a19.png)
+第五个功能：评判。想快速了解一部电影的口碑？把所有影评扔给GPT，它会自动打上“好评”“中评”“差评”，并附上不超过20字的理由。比如对《封神》的几篇评论，AI能一针见血地抓重点。![](img/zhuanqian_152c3edb6044fa996d846143ccc959df.png) 这招还能用来分析电商产品评论区，帮你过滤掉无用评价，只留下有用的参考。甚至可以把GPT插件商店里的插件全部AI分类，再通过API监控变化，第一时间收到上新或下架通知。![](img/zhuanqian_02b7450fc67dd2f0e421cf25a5f5e0a3.png)
+第六个功能：格式转换。让GPT把文字变成Markdown、JSON、HTML，轻松搞定网页展示和代码开发。比如把“位右移”那段技术说明转成JSON，再把JSON转成带标题的HTML网页——过程就像变魔术。![](img/zhuanqian_6b514c0f9429615d204c67d8c94dda48.png) 你只需要一句提示词，连下载文件都帮你生成好。![](img/zhuanqian_1e61283bf32d82695717bcda4cf254a8.png) 用Code Interpreter模式，点一下就能预览效果。![](img/zhuanqian_a5da746d39fb62d1dd45d38f53e18408.png) 打开浏览器，一份漂亮的表格直接呈现。![](img/zhuanqian_00d10d710378911e766c1f67ee483b4b.png)
 最后，再分享三个提示词常用格式，让你的指令更精准。
-第一，三引号。当你给的文字里含有引号或特殊符号，GPT很容易犯迷糊。用英文三引号把待处理文本包起来，边界清清楚楚。比如让GPT用三个对仗工整且字数相同的排比句总结文案，它就不会找错对象。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_42ed6a85b16784e116fc4045bf368dfe.png>
-第二，XML标签。一次要处理两段相关文本怎么办？用<文章>标签隔开，GPT再也不会搞混谁是谁。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7fe9c054842ee95af77cf751dd354e1d.png>
-第三，小节标题。别再写一长串小作文了。把任务拆成“角色设定”“处理步骤”“输出要求”等几个小节，结构清晰，AI理解更准。甚至可以用Markdown标题来强化层次感。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7a002df7c3f2612fc6845015e98cc4c1.png>
+第一，三引号。当你给的文字里含有引号或特殊符号，GPT很容易犯迷糊。用英文三引号把待处理文本包起来，边界清清楚楚。比如让GPT用三个对仗工整且字数相同的排比句总结文案，它就不会找错对象。![](img/zhuanqian_42ed6a85b16784e116fc4045bf368dfe.png)
+第二，XML标签。一次要处理两段相关文本怎么办？用<文章>标签隔开，GPT再也不会搞混谁是谁。![](img/zhuanqian_7fe9c054842ee95af77cf751dd354e1d.png)
+第三，小节标题。别再写一长串小作文了。把任务拆成“角色设定”“处理步骤”“输出要求”等几个小节，结构清晰，AI理解更准。甚至可以用Markdown标题来强化层次感。![](img/zhuanqian_7a002df7c3f2612fc6845015e98cc4c1.png)
 怎么样？这些技巧不用全背下来，只要用熟一两个，AI的交付质量就能明显提升。赶紧去试试吧。
 很多人写指令，习惯一长段全砸给模型。可模型也需要“呼吸感”——你把要点讲清楚、把边界划明白，它理解起来就容易得多。
 JSON、YAML 这类格式虽然严谨，却更贴近程序员；对普通用户来说，门槛有些高。这篇文章介绍一种人人都能上手的方法：用大白话 + 小节标题，把指令拆成结构分明的几个部分。
@@ -173,7 +173,7 @@ JSON、YAML 这类格式虽然严谨，却更贴近程序员；对普通用户�
 标题：
 于冰谈快手 AI 战略：重注大语言模型
 把【摘要】和【标题】分开，模型就不会混淆“背景材料”和“待改写的对象”，指令的指向变得非常明确。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d5428a7fbdabfa72bc6917d318a615c3.png>
+![](img/zhuanqian_d5428a7fbdabfa72bc6917d318a615c3.png)
 当然，像这种简短任务，分不分节对结果影响不大；你也完全可以不分。指令越复杂、越容易产生歧义，分节的价值就越明显。
 ### 案例二：让模型扮演角色
 未经整理的版本：
@@ -324,17 +324,17 @@ Markdown 的写法天然适合组织信息。把同样的角色扮演需求写�
 ### 推荐一个小工具：Noi
 电脑端用 ChatGPT 的朋友，可以关注开源项目 Noi。它最大的价值是把对话记录一键导出到本地，账号万一出状况，聊天内容也不会凭空消失。工具支持三大桌面系统，导出格式涵盖 Markdown、PDF、PNG。
 操作流程很简单：打开 https://github.com/lencx/Noi，按系统选择安装包；安装时一路继续，但建议手动指定安装目录（如 D 盘），路径不要包含中文；启动后登录账号，把它当成浏览器里打开的 ChatGPT 官网来用；需要保存对话时，导出即可。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_10f478841385d5d8a15bc70cb905045d.png>
+![](img/zhuanqian_10f478841385d5d8a15bc70cb905045d.png)
 感谢项目作者 lencx。
 ### 绕不开的五个局限
 #### 其一：输出内容会重复
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_981cd5e0209b9ec5aeca40f0b514415f.png>
+![](img/zhuanqian_981cd5e0209b9ec5aeca40f0b514415f.png)
 这更像是生成阶段的小毛病，许多人都遇到过。不必重启，让它继续生成完，最后把重复段落删掉。曾有人删完重复内容后剩 1022 字，基本符合要求（尽管字数统计有时并不准确）。后面还会介绍更高级的解决方法；不过这个基础手段很常用，先记住。
 #### 其二：中文字数统计不准
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9f07784702cc9d8e3c0f510f4e4c557f.png>
+![](img/zhuanqian_9f07784702cc9d8e3c0f510f4e4c557f.png)
 OpenAI 官方也承认：模型对所有语言的字符计数都只能给出近似值，有时偏差还相当大；不过它统计段落数量和要点个数是准确的。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_885cdafabe2f8b71bf44477dd29e5d61.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d7de9ca8947de9c10c8cca250dcfd4c7.png>
+![](img/zhuanqian_885cdafabe2f8b71bf44477dd29e5d61.png)
+![](img/zhuanqian_d7de9ca8947de9c10c8cca250dcfd4c7.png)
 对策是借用现成的统计工具。Word 自带字数统计，或者访问在线字数统计小工具：http://zishu.qianwanku.com/。文案通常有明确的字数目标，比如不少于 1000 字，这类工具能帮你快速核对。
 #### 其三：重写和改写效果不佳
 根源常在原文太短。假设原文只有 100 字，模型可用的信息就这么点，改写只是在有限的字词间打转。这是因为模型的底层机制是预测“下一个更可能出现的字”。
@@ -351,17 +351,17 @@ OpenAI 官方也承认：模型对所有语言的字符计数都只能给出近�
 ### 更深一层：为什么有人用不好 AI
 这个话题要先从两类反馈说起。
 第一类反馈是“方法迁移卡壳”。看完读后感案例，有人想把它用到自己的场景里，结果卡在第一步，无从下手。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_11db33c64e8f661fe7ac4be475437ebf.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_05c2b90b3cf5d0b852c433e49440c5d1.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_42f5bf9d1844bc450f3b08db8325a008.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cd2bbeafe57f5beb27fa3b0792197451.png>
+![](img/zhuanqian_11db33c64e8f661fe7ac4be475437ebf.png)
+![](img/zhuanqian_05c2b90b3cf5d0b852c433e49440c5d1.png)
+![](img/zhuanqian_42f5bf9d1844bc450f3b08db8325a008.png)
+![](img/zhuanqian_cd2bbeafe57f5beb27fa3b0792197451.png)
 第二类反馈，则是关于 AI 本身的理解偏差。
 “为什么这套方法只能用来写读书心得？”“AI是不是就只能写写文章？”“它的边界究竟在哪里？”“普通人要不要入局？”“怎么靠它赚到钱？”每次发完AI相关内容，后台总有人抛出这些疑问。这些问题看似分散，指向的却是同一件事：很多人对AI的根本认知，从一开始就偏了。
 我收到的反馈也很有意思。有人拿着模板套用，说省了不少力气；也有人很沮丧，说换个场景就不会了，甚至觉得AI只能写点心得，能干的事情太有限。这两类说法方向相反，病因却完全相同——没弄懂AI的运行内核。只要把这个内核补上，哪些事可以交给它、哪些事该自己判断、为什么结果不理想，你都能自己找到答案，不必再追着别人问。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_15542329bd0afbb10aae7abbde7d340e.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_16599c20027455e3a395f3ae6995b678.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_03af4e2ce13cc9a3089d3d6005ddedd6.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ee3e9a421c5183e85638052130a34a9e.png>
+![](img/zhuanqian_15542329bd0afbb10aae7abbde7d340e.png)
+![](img/zhuanqian_16599c20027455e3a395f3ae6995b678.png)
+![](img/zhuanqian_03af4e2ce13cc9a3089d3d6005ddedd6.png)
+![](img/zhuanqian_ee3e9a421c5183e85638052130a34a9e.png)
 当时我拿“读书心得”做演示，是想用一个最小例子把方法讲透，让大家看到这套生成文字的玩法可以平移到其他领域。但我漏掉了一个前提：很多人连“怎么平移”都找不到支点。他们缺的不是套路，而是使用AI之前需要先建立的最基础认知。所以在谈高级技巧之前，必须先把这块补上。这一部分如果真看懂了，你对大模型的理解，会超过不少天天刷资讯的人。
 常见的现象是：新手总觉得AI像个笨小孩，答非所问，写出来的东西又空又平；高手却觉得，AI让熟悉的工作提速八成，还能带自己快速进入陌生领域，像多了一个24小时不下班的助理。我不是什么顶尖高手，但每天开着两三个账号并行使用GPT，已经很习惯。现在打开搜索框的次数少了不止一半，遇到问题先问它。等到AI联网、查证能力再成熟一些，传统搜索被取代一点也不奇怪。盖茨也做过类似判断：这场变革会像个人电脑、网络和手机一样，重新定义工作、学习、出行、医疗和交流方式。
 既然还有人觉得它没用，那我们就仔细看看新手和高手差在哪里。
@@ -377,7 +377,7 @@ OpenAI 官方也承认：模型对所有语言的字符计数都只能给出近�
 那怎么让AI发挥最大价值？我最初用GPT时，也是从多轮对话开始摸索，没有捷径。后来渐渐发觉，有些问法在同类任务里反复奏效，于是我把它们整理成固定句式，每次只需替换关键信息，慢慢沉淀成可复用的模板。遇到相似任务时，直接套用并做修改审核就行。这个习惯来自程序员的复用思维，本质上是把好用的经验固化下来。
 当然，不是所有工作都值得做模板。临时性的文档、一次性的杂活，每次内容都不同，把当时的关键对话保存好、方便以后查找就够了，不必为了结构化而结构化。
 关于个人发展与AI变现，很多人还在观望。其实答案绕不开两条：一是行业积累，二是驾驭AI的能力。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b9ce34e4c8bae90db0a57aa24867e489.png>
+![](img/zhuanqian_b9ce34e4c8bae90db0a57aa24867e489.png)
 程序员如果业务扎实，再用好AI，只会越来越值钱；如果只想靠旧经验混日子，就算没有AI，技术换代也会淘汰人。AI和过去出现的很多技术一样，不神秘也不可怕，别被焦虑带着走就好。
 再说一个普通上班族小张。他看到网上到处是AI课程，越看越慌。实际上，到今天真正下场的人依然不多；多数人只是学了个皮毛，没解决自己的真实问题，慢慢就搁下了。所以不必慌张。学AI的目标感和实用性，比学习的姿态重要得多。每个人身上都有可迁移的经验，哪怕看起来平常。比如一位宝妈，备婚、育儿、挑奶粉、选童装这些点滴经验，对准备结婚的年轻人来说就是宝。她完全可以把经验变成对话问答，或者写成内容投稿给母婴媒体，甚至自己开账号，用AI辅助产出，再接广告带货。
 再说到头像定制。最早靠它赚到钱的人，多半本来就是做设计或修图的，他们有客户积累和审美判断，才会顺势用AI提效。让一个教师或医生凭空想到这个玩法，不太现实。就算现在入场的人变多了，也还有空间：别人做头像，你就做主题写真，山林、都市、复古、赛场、儿童动漫风；别人做标准照，你就做带剧情的婚纱主题，星际、海底、古风、童话；还能把一对情侣从相识到求婚的故事写成文字，再用AI生成插画，做成婚礼现场播放的绘本。生日、节日想送点特别的，也能用这套组合做出搞笑或动人的礼物。
@@ -387,9 +387,9 @@ OpenAI 官方也承认：模型对所有语言的字符计数都只能给出近�
 顺便说清一个概念。网上所说的Prompt、指令、描述语，其实都是你输入给AI的那段话，不必咬文嚼字。重要的是把身份、目标、边界说清楚。
 为什么身份设定这么关键？因为大模型是一个庞大的资料池，你问得越宽，它越容易给出四平八稳的空话。一旦你给了身份，它会在相关领域里搜索和调用知识，回答会实在很多。接着再给一个具体目标，它知道该把力气用在哪儿；再补上约束条件，它就知道什么能做、什么不能做。身份、目标、边界，三者相互配合。比如“请你当老师”和“请你当一名经验丰富的高考英语口语老师”，效果差别很大。
 举个例子。你新建一个对话窗口，输入：请你扮演《狮子王》里的辛巴，用辛巴的语气、说话习惯和用词，和我寒暄一句。只用辛巴的方式回应，不要写任何解释。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_26307feebc14080284c63320b9224c3d.png>
+![](img/zhuanqian_26307feebc14080284c63320b9224c3d.png)
 错误示例：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_54bd3f4e56dd76fb6fe1534a6c09a3a9.png>
+![](img/zhuanqian_54bd3f4e56dd76fb6fe1534a6c09a3a9.png)
 这句话看起来一点都不玄，其实就是正常沟通。所谓技巧，不过是从大量有效案例里提取出的共同点。道理通了，应用自然就顺了。
 有没有一种可能：你总觉得提示词写不好，不是因为你不够聪明，而是思路一直卡在“把所有东西硬塞给AI”这个习惯里。
 真正好用的提示词，往往不是凭空“设计”出来的，而是先有了一批被验证过的优秀实战案例，再有人从这些经验里提炼出可复制的规律。你会发现，像角色扮演法这样的实战案例，跟前文推演出的3条原则是完全对得上的。先有经验，后有理论，这才是提示词技巧的正确打开方式。
@@ -418,7 +418,7 @@ OpenAI 官方也承认：模型对所有语言的字符计数都只能给出近�
 请你扮演一位专家级的提示词生成器。你的任务，是使用【prompt构建框架】帮我生成最优秀的prompt。我会告诉你我要写什么内容，你需要先思考怎样超预期地写出来；如果是比较正式的内容，还要考虑引入相关时政政策来抬高维度。思考完毕后，把最重要的维度提炼出来，写进【prompt构建框架】的“要求”中。你给出的prompt必须最有价值、最能落地。当你和我互动后，你的输出要严格遵守【prompt构建框架】的格式，不许输出多余的话。
 请先和我打招呼，只需要说：“嗨，主人，我是你的专属prompt生成器，请说出你的需求，我来帮助你生产最有效的prompt。”
 使用示例：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_617f54b5ed8d3edf6652ba57b1e75db6.png>
+![](img/zhuanqian_617f54b5ed8d3edf6652ba57b1e75db6.png)
 顺便提醒一句：要求部分可能是自动生成的，不一定每句都有用，具体要不要保留，必须靠实际测试来判断。
 学会了角色扮演法，也别以为万事大吉。角色扮演的真正意义，是让GPT从庞大的知识库里精准调取你需要的垂类知识，同时用你要求的口吻说话。但你可能会遇到另一个更头疼的问题：明明有个任务想让GPT做，自己却怎么都描述不清，总是词不达意。这才是真正需要调教的地方。
 第一个解法：直接提问法。
@@ -432,8 +432,8 @@ OpenAI 官方也承认：模型对所有语言的字符计数都只能给出近�
 “我想让你帮我写一个xxx，但据说要给你一个角色让你扮演，才会更好，我应该让你扮演什么角色呢?”
 然后再补一句：
 “请扮演资深广告创意人，为我公司新开发的键盘‘机械姬’写一个简短有力的创意广告文案，突出‘技术与中国文化的结合’。”
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1f4962ecc8a1544d2c9a566ba9be2af5.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_834062f59f4c6aefe8c44199e3c369a2.png>
+![](img/zhuanqian_1f4962ecc8a1544d2c9a566ba9be2af5.png)
+![](img/zhuanqian_834062f59f4c6aefe8c44199e3c369a2.png)
 把这次经验抽象一下，就有了一个通用模板：
 【提示词模板：角色生成器】
 【角色】：
@@ -444,13 +444,13 @@ OpenAI 官方也承认：模型对所有语言的字符计数都只能给出近�
 再看一个例子：用ChatGPT联网采集新闻素材。假设你想找3条2023年8月15日的AI重大新闻，并且按固定格式整理出来。
 提示词可以直接写成：
 请扮演新闻媒体资深编辑，现在要在互联网上搜索3条2023年8月15日的AI重大新闻。要求：1.格式为发生时间、20字新闻摘要、新闻参考链接。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a7cc0356094ed2ceb694c8a362d16aeb.png>
+![](img/zhuanqian_a7cc0356094ed2ceb694c8a362d16aeb.png)
 这个提示词里其实已经用了角色扮演法，只是没有加小标题而已。不复杂的任务，完全可以不用格式。新手可能会先让GPT随便搜一下，结果发现输出长篇大论、格式难看，于是再加入“要求”去约束；两轮下来，一个通用模板也就炼好了。
 如果你经常要搜索新闻，这个模板可以复用。把日期、数量、格式抽成变量就行。还可以让GPT访问你指定的网站，但要注意：GPT联网本质是靠爬虫抓取数据，如果网站禁止OpenAI爬虫访问，它就拿不到数据。所以最好提前测试，整理出一份你自己的常用权威网站清单。采集到一半如果因为长度中断，直接说“继续输出”就好了。
 还有第三个场景：把ChatGPT当知识科普工具。比如大家经常搜“量子力学是什么”，但找到的解释往往又长又难懂。不如让GPT扮演小学老师，给小学生讲：
 请你扮演一名中国的小学科学老师，给小学生科普一下什么是量子力学。
 要求：1.使用一个常见的游戏小故事来做比喻，让小朋友都能听懂。2.字数不能太多，小孩子记忆力有限，太长了会忘记。3.最后给出和故事相对应的、科学官方的解释，有对比才会更清晰。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b02ed73ed2bcb53c3057a2a5eb79c25b.png>
+![](img/zhuanqian_b02ed73ed2bcb53c3057a2a5eb79c25b.png)
 为什么选“给小学生讲”这个角度？因为小学生都能听懂的话，你大概率也能听懂。这就是实践带来的直觉。如果直接问GPT“什么是量子力学”，它大概率会给出冷冰冰的、像朗读科研报告一样的答案。一旦换成小学老师角色，效果立刻不一样。当然，如果科普的是近两年的新概念，记得开启联网功能，因为ChatGPT默认的知识截止日期是2021年9月。
 这套提示词，对普通人做科普已经够用了。对要求极致内容质量的人来说，它输出的是灵感和初稿，可能省下约50%的工作量；要做到专业级、无歧义，还需要逐句打磨、反复择优，并且和权威资料对照。但如果你走“大力出奇迹”路线，60分就满足，那直接套用这个思路也完全没问题。
 除了直接提问法，还有两个补充技巧要了解。
@@ -500,46 +500,46 @@ OpenAI 官方也承认：模型对所有语言的字符计数都只能给出近�
 *   1.1.2.1.情景七 完全匹配
 "搜索文本"
 双引号要求结果必须包含完全相同的文本，中英文双引号均可
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c395b3d38fc4aaa3216ce7fa4454edde.png>
+![](img/zhuanqian_c395b3d38fc4aaa3216ce7fa4454edde.png)
 使用""后：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5a594d04812072328670b15c76f1db9c.png>
+![](img/zhuanqian_5a594d04812072328670b15c76f1db9c.png)
 *   1.1.2.8.情景八 排除干扰词
 A -B
 找包含 A 但不包含 B 的结果，A 后面空格不能少
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6ffa96dafac61d607e9b23d88243456c.png>
+![](img/zhuanqian_6ffa96dafac61d607e9b23d88243456c.png)
 使用 -后：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e63c0e5e1526561d91da65f75b003ba5.png>
+![](img/zhuanqian_e63c0e5e1526561d91da65f75b003ba5.png)
 *   1.1.2.9.情景九 指定文件类型
 搜索文本 filetype:文件类型
 或
 filetype:文件类型 搜索文本
 注意空格和英文冒号不能省
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_04bace9359c661ca66f1c278c0d210f9.png>
+![](img/zhuanqian_04bace9359c661ca66f1c278c0d210f9.png)
 使用filetype后：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f3bfd80c6dabbe9ed78374d10dd66dc9.png>
+![](img/zhuanqian_f3bfd80c6dabbe9ed78374d10dd66dc9.png)
 *   1.1.2.10.情景十 限定网站
 site:指定网站的地址 搜索文本
 或
 搜索文本 site:指定网站的地址
 对站内搜索弱的网站特别实用
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d6d4c25fec1c1472f71f259b80ac18cb.png>
+![](img/zhuanqian_d6d4c25fec1c1472f71f259b80ac18cb.png)
 使用site后：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ca181735f193e54f0b4e486f9d93c517.png>
+![](img/zhuanqian_ca181735f193e54f0b4e486f9d93c517.png)
 *   1.1.2.11.只搜标题
 intitle:关键词
 只想看标题里出现关键词的结果就用这个
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9c7bbfdf6644c82159b4ccd6fa167980.png>
+![](img/zhuanqian_9c7bbfdf6644c82159b4ccd6fa167980.png)
 使用intitle后：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fa972fc989a07f44a0ffdd20678e8fcf.png>
+![](img/zhuanqian_fa972fc989a07f44a0ffdd20678e8fcf.png)
 *   1.1.2.12.搜书名或电影名
 《关键词》
 名字辨识度不高的书籍或电影，用书名号更准
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ffe4e06d8f7f067c95c4474e1358a799.png>
+![](img/zhuanqian_ffe4e06d8f7f067c95c4474e1358a799.png)
 使用《》后：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_88239a480deb1bc0cc0be0112490fc59.png>
+![](img/zhuanqian_88239a480deb1bc0cc0be0112490fc59.png)
 *   1.1.2.13.指定时间区间
 各大网站基本都支持，只是在不同位置
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b89c093ab273fae07c653930859a7441.png>
+![](img/zhuanqian_b89c093ab273fae07c653930859a7441.png)
 *   1.1.2.14.指定图片尺寸
 关键词 imagesize:宽x高
 例如：柳岩 imagesize:580x588 会返回指定像素的图片
@@ -860,9 +860,9 @@ https://search.chongbuluo.com/
 ### 目标怎么设才不白设？
 凡是又大又空的目标，都要先缩小，再交给模型完成。例如处理家庭内部矛盾，反面做法是笼统地问“怎么解决”；正面做法是把问题拆成几个具体场景，逐一请模型给出高情商沟通建议。
 #### 反面做法
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0cca4d004eb480c465acbc77ffb67292.png>
+![](img/zhuanqian_0cca4d004eb480c465acbc77ffb67292.png)
 #### 正面做法
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_996204ab5979b7489f89fdfb6ae4a299.png>
+![](img/zhuanqian_996204ab5979b7489f89fdfb6ae4a299.png)
 细心的话会发现，即便是在“布置目标”，里面也自然嵌入了人设和边界约束。
 ### 边界约束的更多用途
 除了身份，边界约束还能用在结构、篇幅、语气、格式和内容维度上。
@@ -1124,8 +1124,8 @@ SEO优化
 - **智谱**：部分内容生成质量比文心一言略胜一筹。
 - **讯飞星火**：输出精准，用词简练，不拖泥带水。
 接下来，让子弹飞一会儿——聊几个有意思的争议：
-给GPT小费，真的能让输出变好吗？<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3e7e76bc42e4766a00cc6b329666c49e.png>
-夸它几句，效果就会翻倍吗？<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bb9e38c0aa89da874dd424a00add061f.png>
+给GPT小费，真的能让输出变好吗？![](img/zhuanqian_3e7e76bc42e4766a00cc6b329666c49e.png)
+夸它几句，效果就会翻倍吗？![](img/zhuanqian_bb9e38c0aa89da874dd424a00add061f.png)
 关于提示词到底该不该结构化，圈子里吵得挺凶。我的看法是：当你用提示词用到“人剑合一”的境界，确实可以摆脱形式，出口成章。这就像和领导汇报——列条理清楚，不列条理但能让对方秒懂，都算本事。不过，一旦提示词需要反复使用、持续迭代，结构化就很有优势了：模块分明，哪怕AI输出效果差不多，你后续阅读、修改都会省力不少。
 掌握这些，基本就拿捏了ChatGPT的使用精髓，所有应用都逃不开这套终极调教心法。
 好了，这期分享到这里。内容整理自Cheese海盐芝士的实战积累，首发于杭州，2024年6月12日凌晨。喜欢的话记得点赞，给创作者发射一束脑电波，你的认可就是最大的创作动力！我们下期再见。

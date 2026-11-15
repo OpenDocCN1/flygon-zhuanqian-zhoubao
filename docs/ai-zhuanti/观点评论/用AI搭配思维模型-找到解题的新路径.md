@@ -20,7 +20,7 @@ AI时代已经到来，借助模型的能力边界，我们只需弄清：某个
 * 系统思考类：例如反馈回路、杠杆点，用于理解复杂系统的运行与关联。
 * 心理类：例如认知偏差、习惯养成，揭示心智与行为的规律。
 * 学习与创新类：例如费曼学习法、思维导图，促进吸收、理解与创意产生。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cbe88e336a733773352bc031aeacdfd3.png>
+![](img/zhuanqian_cbe88e336a733773352bc031aeacdfd3.png)
 ## 它的价值在哪里？
 如果底层模型本身就有偏或狭窄，那后续的思考与行动很可能失去意义。
 所以模型决定了我们看待事物的视角，也决定了解题效率。
@@ -42,10 +42,10 @@ AI时代已经到来，借助模型的能力边界，我们只需弄清：某个
 下面回顾几个高频模型，理论部分会略显枯燥，下一节会结合AI来实战。
 ## 费曼学习法
 以诺贝尔物理奖得主理查德·费曼命名，核心是通过“教学”来深化理解。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4f435b580cbcb68703ed4dbef02061a1.png>
+![](img/zhuanqian_4f435b580cbcb68703ed4dbef02061a1.png)
 ### 定义
 费曼法的本质是：学习必须闭环，输入后要有输出才算完整。单纯看、听，知识只是被大脑记录。只有能用自己的话讲给下一个人听，并让对方真正理解，才算掌握。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a072f9f6abd14cec7b364040d080a04a.png>
+![](img/zhuanqian_a072f9f6abd14cec7b364040d080a04a.png)
 大致流程：
 1. 选定概念：挑一个想搞懂的知识点。
 2. 教给他人：用通俗语言向非专业人士解释。
@@ -65,11 +65,11 @@ AI时代已经到来，借助模型的能力边界，我们只需弄清：某个
 为什么有些人思考与表达既严谨又清晰？多半对MECE有清晰把握，哪怕不知名字，也做到了互不重叠、全面覆盖。
 ### 定义
 MECE，即相互独立、完全穷尽。用于分析或组织信息时，要求各部分之间不重叠，同时能完整覆盖整体。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6660c677adcb5bf2b6b3c51781ae0126.png>
+![](img/zhuanqian_6660c677adcb5bf2b6b3c51781ae0126.png)
 举例：策划一次大型聚会准备食物。
 1. 相互独立：把食物划分为肉类、蔬菜、甜点、饮品、水果、主食、其他七大类，每类摆放独立，米饭不会同时出现在主食和甜点。
 2. 全面覆盖：每类都要有足够选择，如肉类含牛肉、鸡肉、猪肉，蔬菜含沙拉、炒蔬，满足多样口味。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7b097448ebe65115d5618c01f93b6c5a.png>
+![](img/zhuanqian_7b097448ebe65115d5618c01f93b6c5a.png)
 提示：分类时可设置“其他”作为兜底，用来收纳不重要或暂时未想到的类别，既保证严谨又避免纠结弱相关信息。
 ### 应用场景
 * 问题拆解，系统化分析。
@@ -82,7 +82,7 @@ MECE，即相互独立、完全穷尽。用于分析或组织信息时，要求�
 ## SMART原则
 ### 定义
 SMART用于设定高质量目标，包含具体、可测、可实现、相关、有时限五要素，提升目标质量与执行效率。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d8c4d9e4112c83624cc2347a8f24bc42.png>
+![](img/zhuanqian_d8c4d9e4112c83624cc2347a8f24bc42.png)
 各要素含义：
 * 具体：目标是什么，减少模糊。
 * 可测：进度与成果可量化。
@@ -109,11 +109,11 @@ SMART用于设定高质量目标，包含具体、可测、可实现、相关、
 ## SWOT分析
 ### 定义
 由海因茨·韦里克提出，用于识别优势、劣势、机会、威胁的策略工具，广泛应用于营销、管理和个人发展。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e6060450e8c899d9827a1e112189fda2.png>
+![](img/zhuanqian_e6060450e8c899d9827a1e112189fda2.png)
 常见误区：用时间维度区分内外，把现在有利/不利当优势/劣势，未来有利/不利当机会/威胁，这是错的。
 正确坐标：内部/外部 × 有利/不利。内部有利=优势，内部不利=劣势，外部有利=机会，外部不利=威胁。是否未来取决于分析对象与外部变化。
 收集四象限信息后还不够，需要组合推导行动：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_227b9295627f5aa9cd47cf77f211233d.png>
+![](img/zhuanqian_227b9295627f5aa9cd47cf77f211233d.png)
 * 用哪些优势抓住什么机会
 * 用什么机会化解哪些劣势
 * 用哪些优势规避什么危机
@@ -132,7 +132,7 @@ SMART用于设定高质量目标，包含具体、可测、可实现、相关、
 ## 六顶思考帽
 ### 定义
 爱德华·德·波诺提出，将思考拆分为六种模式，用不同颜色帽子代表，帮助多角度审视问题。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4476d6093f0c1f5f1fbe18c6e6c06ce6.png>
+![](img/zhuanqian_4476d6093f0c1f5f1fbe18c6e6c06ce6.png)
 六顶含义：
 * 白帽信息：只收集事实，保持中立，不评论。
 * 红帽情感：直接表达直觉与感受，无需解释。
@@ -225,24 +225,24 @@ SMART 原则并未在提示词中明写，但收集问题的思路其实就是 S
 #### 1）GPT-4
 建议优先用 GPT-4，稳定性更好，输出质量也更高。
 1、初始化提示词
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1c9bf21ddb431152afce03e668ce2f38.png>
+![](img/zhuanqian_1c9bf21ddb431152afce03e668ce2f38.png)
 2、回复主要目标或问题
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2e16c85758c15d4709ea0345fe900b64.png>
+![](img/zhuanqian_2e16c85758c15d4709ea0345fe900b64.png)
 3、回复SMART原则的每个问题
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a642d1632127bc7ba757ca45f6a8ca4b.png>
+![](img/zhuanqian_a642d1632127bc7ba757ca45f6a8ca4b.png)
 4、得到整体计划
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_340df98077dfbea517549dc77e70edfc.png>
+![](img/zhuanqian_340df98077dfbea517549dc77e70edfc.png)
 #### 2）文心 4.0
 如果受网络限制不便使用 GPT-4，也可选用百度的文心 4.0。文心 4.0 偶尔会出现波动，使用时注意甄别。
 1、初始化提示词
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a4871425224a8d04f8f61bc97a2e83d8.png>
+![](img/zhuanqian_a4871425224a8d04f8f61bc97a2e83d8.png)
 2、回复主要问题或目标
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d203f20856b372864e6194867b90cd01.png>
+![](img/zhuanqian_d203f20856b372864e6194867b90cd01.png)
 3、回复 SMART 原则的每个问题
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0acf8e67859b4ad20b8b5dabed261342.png>
+![](img/zhuanqian_0acf8e67859b4ad20b8b5dabed261342.png)
 4、得到详细的计划
 计划相当细致，文心这次生成的质量超出预期。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4779da23140cb6c1474ec7d4e20614ed.png>
+![](img/zhuanqian_4779da23140cb6c1474ec7d4e20614ed.png)
 ### 4、小结
 在这个例子里，AI 帮我制定了完整的英语提升方案。
 从目标的厘清、资源的准备，到按日按周设置可量化的标准，最后给出中肯的建议，整体结果很满意。
@@ -257,7 +257,7 @@ SMART 原则并未在提示词中明写，但收集问题的思路其实就是 S
 更关键的是，对整条价值链的运作、自己所处的位置和价值，很多人的认知很模糊。
 特别是在大环境不好的时候，反脆弱能力的高低，其实取决于对价值链的理解深度和自身定位的清晰度。
 而个人 IP 的价值就在于，能用较小的成本，完整体验从价值创造到价值传递再到被尊重的整个链路。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_267307dedbb7e6d5e21f73c4aa786bf0.png>
+![](img/zhuanqian_267307dedbb7e6d5e21f73c4aa786bf0.png)
 半年多前，我也只是个小透明。知道 AI 很强，却不懂变现，也不会根据优势做定位，进而聚焦学习某个领域实现变现。
 如果能回到半年前，我会用 AI + 六顶思考帽 的多维思考模型，来完成个人 IP 定位并规划未来。
 ### 2、提示词
@@ -297,19 +297,19 @@ GPT-4:
 #### 1）GPT-4
 建议使用 GPT-4，稳定性和质量更佳。
 1、初始化提示词
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_71a35e468eca01d2be61857517123680.png>
+![](img/zhuanqian_71a35e468eca01d2be61857517123680.png)
 2、回答每顶帽子对应的问题
 重点在于借助 AI 帮我们补全维度，避免遗漏，获得更全面的视角。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a254d8ad8525f47653a9d9316b3c4967.png>
+![](img/zhuanqian_a254d8ad8525f47653a9d9316b3c4967.png)
 3、最终得到答案和建议
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_889a73d6b0b3a5b3a1a6557ca623c0e6.png>
+![](img/zhuanqian_889a73d6b0b3a5b3a1a6557ca623c0e6.png)
 #### 2）文心 4.0
 1、初始化提示词
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a3f3498dd765b01a8842fa674fcde40b.png>
+![](img/zhuanqian_a3f3498dd765b01a8842fa674fcde40b.png)
 2、回答每顶帽子对应的问题
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6a3ae680d621eb6548647fef42a44878.png>
+![](img/zhuanqian_6a3ae680d621eb6548647fef42a44878.png)
 3、得到答案和建议
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e710a6a3f17f1685c69c888dbf3d5ec1.png>
+![](img/zhuanqian_e710a6a3f17f1685c69c888dbf3d5ec1.png)
 ### 4、小结
 该案例中，六顶思考帽提供了多角度的思考框架，并引导出关键问题。把思考结果喂给 AI 后，最终得到令人满意的结论和建议。
 正如开头所说，人有惰性。有了 AI 辅助，无论个人决策还是团队会议，都能更全面地拆解问题，找到更优解。
@@ -376,24 +376,24 @@ GPT-4 ：
 #### 1）GPT - 4
 建议使用 GPT-4，稳定性更好，质量更高。
 1、初始化提示词
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_664c5155a6f47c372e17bdff93eb1fd8.png>
+![](img/zhuanqian_664c5155a6f47c372e17bdff93eb1fd8.png)
 2、回答核心问题和期望目标
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_55d1b0af3d18566abc060ea397b617f5.png>
+![](img/zhuanqian_55d1b0af3d18566abc060ea397b617f5.png)
 3、回答内部优势、劣势，外部机会、危机
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4d5a76b49075e98f657852aa864962bd.png>
+![](img/zhuanqian_4d5a76b49075e98f657852aa864962bd.png)
 4、得到总结、分析和建议
 效果很满意。汇报还没开始，老板看完图就竖起了大拇指（手动狗头~）
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f1b2bb163e83b4f7708ede3c8fdc10a1.png>
+![](img/zhuanqian_f1b2bb163e83b4f7708ede3c8fdc10a1.png)
 #### 2）文心 4.0
 国内文心 4.0 的质量尚可接受，偶尔不稳定。
 1、初始化提示词
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_975ce6326a38c54bc975dfe551164701.png>
+![](img/zhuanqian_975ce6326a38c54bc975dfe551164701.png)
 2、回答核心问题和期望目标
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bbcf3ab26024e62a1c8dd7fcaa5db9c3.png>
+![](img/zhuanqian_bbcf3ab26024e62a1c8dd7fcaa5db9c3.png)
 3、回答内部优势、劣势，外部机会、危机
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_85d35f18ee1a16a85652618b27578119.png>
+![](img/zhuanqian_85d35f18ee1a16a85652618b27578119.png)
 4、得到总结和分析
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e3a4d704e39eb96b0b94937f1a2323e4.png>
+![](img/zhuanqian_e3a4d704e39eb96b0b94937f1a2323e4.png)
 ### 4、小结
 通过案例，使用 AI + SWOT 分析能帮助梳理内部外部优劣，并给出具有指导性的建议。拿着这份材料做业务决策汇报，会更有底气。
 可以把你或朋友遇到的战略规划、竞品分析、职业发展等类似问题，交给 AI + SWOT 来分析。
@@ -412,19 +412,19 @@ GPT-4 ：
 文件下载地址：https://pan.quark.cn/s/9fa5e298e1a7
 ## 二）GPT-4 实践
 1、输入提示词。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_18d5d9070346851a0417a54c61b1e30f.png>
+![](img/zhuanqian_18d5d9070346851a0417a54c61b1e30f.png)
 2、提供问题和文件。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1377180e8715c9dd6f17714b82faa54b.png>
+![](img/zhuanqian_1377180e8715c9dd6f17714b82faa54b.png)
 3、选择某个模型做深入分析。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ecba6a2f56930cf0f9253e83137e2f6f.png>
+![](img/zhuanqian_ecba6a2f56930cf0f9253e83137e2f6f.png)
 ## 三）月之暗面 Kimi
 选择月之暗面的原因是它处理大文件能力强。地址：https://kimi.moonshot.cn/
 1、输入提示词。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5ba66ef2f67be15f0153d85d408b3bc5.png>
+![](img/zhuanqian_5ba66ef2f67be15f0153d85d408b3bc5.png)
 2、提供文件和问题，得到初步的答案。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4f1241fd961c0461a40dc5323ce9f82a.png>
+![](img/zhuanqian_4f1241fd961c0461a40dc5323ce9f82a.png)
 3、选择某个模型做深入分析。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_14ad682702a920fddd9054e4f378922b.png>
+![](img/zhuanqian_14ad682702a920fddd9054e4f378922b.png)
 ## 四）小结
 这样即便不会写提示词，也能通过输入提示词+上传知识库文件快速获得初步建议。当然，质量不及前几个案例。
 提示词设计得尽量简单，便于理解，大家可按需优化，或封装成自己的 GPTs 快速使用。

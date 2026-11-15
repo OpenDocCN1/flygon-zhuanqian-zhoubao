@@ -3,7 +3,7 @@
 我先拿了一张后台管理系统的设计稿当例子。目标很明确：让 AI 照着原图的风格和版面去生成 HTML，最好能像“复制粘贴”一样接近。
 ## 第一步：把参考图交给 AI，并给出清晰的指令
 先把设计图上传给 AI，再配上提示词。参考图我放在这里：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f002902c31bfc05d1ae0aceb1fb3e35c.png>
+![](img/zhuanqian_f002902c31bfc05d1ae0aceb1fb3e35c.png)
 我用的第一版指令是这样的：
 ```
 你是一位资深前端开发工程师,UI/UX设计师。
@@ -26,9 +26,9 @@
 参考UI设计图,根据设计图的布局和配色,完成上面的模板页面代码.
 ```
 这版指令里最关键的点就是“技术规格”，我会把图标、图片、样式、图表这些规则全部约束清楚。顺带一提，AI 必须得具备图像理解能力，所以建议优先选 Claude、Gemini、GPT 这种多模态大模型。我自己换过好几款，最后发现复刻 UI 最像的还是 Claude-3.5 Sonnet。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b95a675b94c4c202319500ecaebee3b8.png>
+![](img/zhuanqian_b95a675b94c4c202319500ecaebee3b8.png)
 生成初版效果：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3f9857e0c982b8eecd1af66088c74a02.png>
+![](img/zhuanqian_3f9857e0c982b8eecd1af66088c74a02.png)
 坦白讲，整体已经很像了，但主内容区的布局还是有点对不上。
 ## 第二步：加强页面布局的约束
 于是我在第二版指令里补上了页面布局的说明：
@@ -67,13 +67,13 @@
 参考UI设计图,根据设计图的布局和配色,完成上面的模板页面代码.
 ```
 这次的改动核心就是页面布局提示词。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cfa52a25ca4e4104d5e41c0017ccc551.png>
+![](img/zhuanqian_cfa52a25ca4e4104d5e41c0017ccc551.png)
 可以看到，主体区域的内容基本就和参考图一致了。
 ## 第三步：局部细节再用指令微调
 有些小细节也需要单独处理。比如页面上那四个数据卡片，AI 默认做成了纯色背景，但参考图里其实是渐变效果。这种偏差用一条补充指令就能修正：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7836bc793b0f68d686d1c8f1c19869c2.png>
+![](img/zhuanqian_7836bc793b0f68d686d1c8f1c19869c2.png)
 调整后的效果在这里：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_aadcc3ab9d71deef6df176e06c61a048.png>
+![](img/zhuanqian_aadcc3ab9d71deef6df176e06c61a048.png)
 ## 第四步：把风格沉淀成设计规范文档
 如果你想把这种设计风格复用到其他项目，最好的方式就是让 AI 把刚才生成的网页直接变成一份设计规范文档。我这边用的是 Claude 3.7-sonnet：
 ```

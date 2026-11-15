@@ -1,14 +1,14 @@
 # DeepSeek R1 从入门到进阶完全指南：核心功能、高效玩法一网打尽（收藏级）
 从DeepSeek R1发布那一刻开始，我就隐约感觉到，这并非普通的AI产品，而是一款足以改变生活方式的革命性工具。于是，我投入几天时间，精心准备了这篇覆盖“新手入门到高手进阶”的详细指南。
-R1近期的热度有目共睹：它快速在全球掀起AI浪潮，一口气登顶包括日美在内140个国家的App Store免费榜，打得硅谷同行措手不及。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0aaf4d4b1e59ae9e53f38738be92e125.png>
+R1近期的热度有目共睹：它快速在全球掀起AI浪潮，一口气登顶包括日美在内140个国家的App Store免费榜，打得硅谷同行措手不及。![](img/zhuanqian_0aaf4d4b1e59ae9e53f38738be92e125.png)
 说实话，这样的现象级爆发，让我既兴奋又感慨。开心的是，身为中国人，看到国产AI站在国际舞台发光，实在骄傲；感慨的是，几乎一夜之间，身边所有人都开始谈起R1，连平时不爱碰数码的七大姑八大姨都跑来问我：“DeepSeek是什么？怎么用？真有网上说的那么强吗？”
-R1可以直接对标全球顶级闭源推理模型GPT o1，两者跑分几乎持平。但要注意，使用o1每月要交20美元，而R1完全免费。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_62ad706d69e6cda9b7aa65140044ae32.png>
+R1可以直接对标全球顶级闭源推理模型GPT o1，两者跑分几乎持平。但要注意，使用o1每月要交20美元，而R1完全免费。![](img/zhuanqian_62ad706d69e6cda9b7aa65140044ae32.png)
 对普通人来说，这正是千载难逢的时代机遇。借助AI，你能够轻松创作内容、制作图片，甚至实现办公自动化，把宝贵时间腾出来，去追寻诗和远方，或发展副业增加收入。而这一切，DeepSeek都能帮你做到。
 不过，R1毕竟刚面世，市场定位、功能特性和适用场景都还需要更多科普。市面上关于它的信息鱼龙混杂，有的过于夸大，有的又吹毛求疵，反而让真正想了解的人摸不着头脑。所以我特意用几天时间写了这篇文章，结合实例讲透R1到底是什么、强在哪里、怎么用得更聪明。毕竟，AI工具的价值不只在于技术本身，更在于人们对它的实际应用。
 下面文章按五个板块展开：一、认识DeepSeek-R1；二、核心功能与使用技巧；三、进阶技巧；四、常见问题与注意事项；五、总结与展望。
 ## 一、认识DeepSeek-R1
 ### 1. DeepSeek-R1是什么？
-**公司背景**：DeepSeek由国内公司深度求索（DeepSeek Inc.）开发，成立于2023年7月17日。其背后站着知名量化私募幻方基金，因此资金充足，能够不以盈利为优先，专心推进AI技术。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f1965c9b497309251281e32bd4bf119c.png>
+**公司背景**：DeepSeek由国内公司深度求索（DeepSeek Inc.）开发，成立于2023年7月17日。其背后站着知名量化私募幻方基金，因此资金充足，能够不以盈利为优先，专心推进AI技术。![](img/zhuanqian_f1965c9b497309251281e32bd4bf119c.png)
 **发展脉络**：
 - 2024年1月5日，发布DeepSeek LLM。
 - 2024年5月7日，DeepSeek-V2推出，打响了国内大模型价格战。
@@ -29,9 +29,9 @@ R1可以直接对标全球顶级闭源推理模型GPT o1，两者跑分几乎持
 - 不合适场景：超过4000字的长文，逻辑容易崩坏；触碰敏感内容，会触发审核机制。
 ### 2. 如何使用DeepSeek？
 - 网页版：直接访问 https://chat.deepseek.com/ ，默认使用V3模型，点一下“深度思考”即可切换到R1。
-- 移动App：在应用商店搜索“DeepSeek”，安装后就能用。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e2ad1fdff1bc77c6831f20ee9c72e12a.png>
-- 基本操作：开启“深度思考”按钮（默认V3，勾选后变成R1推理模型）；如果信息需要实时性，再勾选“联网搜索”（默认语料可能偏旧）。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_62262d47c7add0e6dc59863070f304f7.png>
-- 网页与App体验一致。不过全球用户暴涨后，偶尔会出现登录不上的问题，可以随时查看DeepSeek状态页面：https://status.deepseek.com/ <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f281548193ea4f18da504ea1dcaf9878.png>
+- 移动App：在应用商店搜索“DeepSeek”，安装后就能用。![](img/zhuanqian_e2ad1fdff1bc77c6831f20ee9c72e12a.png)
+- 基本操作：开启“深度思考”按钮（默认V3，勾选后变成R1推理模型）；如果信息需要实时性，再勾选“联网搜索”（默认语料可能偏旧）。![](img/zhuanqian_62262d47c7add0e6dc59863070f304f7.png)
+- 网页与App体验一致。不过全球用户暴涨后，偶尔会出现登录不上的问题，可以随时查看DeepSeek状态页面：https://status.deepseek.com/ ![](img/zhuanqian_f281548193ea4f18da504ea1dcaf9878.png)
 - 开源社区：前往HuggingFace（https://huggingface.co/ ）也能获取R1模型接口。
 ## 二、核心功能与使用技巧
 ### 1. 丢掉结构化提示词模板
@@ -43,13 +43,13 @@ R1可以直接对标全球顶级闭源推理模型GPT o1，两者跑分几乎持
 3.实施步骤
 4.风险控制
 要求：每部分500 字，需要详细列举，提供具体数据...
-```<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f7df977b7ffad795eb7cb9c0896a6bd5.png> 结果是：输出一篇冗长空洞的报告，正确但毫无新意，一看就是AI生成，缺乏实际价值。
+```![](img/zhuanqian_f7df977b7ffad795eb7cb9c0896a6bd5.png) 结果是：输出一篇冗长空洞的报告，正确但毫无新意，一看就是AI生成，缺乏实际价值。
 再看正确问法：```
 我是一个普通上班族，每天工作8小时后还有4小时空闲时间。我想利用AI做副业达到年入百万，我是纯小白帮我分析一下如何实现：
 1.有哪些AI 赛道适合新手入局？
 2.针对这些方向？我应该如何快速入门并赚到第一桶金？
 3.每个方法后面需要使用批判性思维分析这个方案的不足。
-``` 重点是让我听得懂、能快速上手、真正赚到钱。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ac1f27cfad401a8f79c8c3429ec89caf.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4dddf8500104acfbcb40429e96929d70.png>
+``` 重点是让我听得懂、能快速上手、真正赚到钱。![](img/zhuanqian_ac1f27cfad401a8f79c8c3429ec89caf.png)![](img/zhuanqian_4dddf8500104acfbcb40429e96929d70.png)
 两种问法的差别在哪里？你并不需要憋出一段“专业提示词”，只需要把背景、场景和具体诉求告诉它。送大家一个万能公式：
 我是XX，我需要XX，要用来做XX，希望达到XX效果，但担心XX问题。
 更精简的版本也可以：
@@ -74,9 +74,9 @@ R1可以直接对标全球顶级闭源推理模型GPT o1，两者跑分几乎持
 总有人抱怨R1的回答太专业、太抽象，但只要加上简单几字，效果立刻不同。
 这些魔法提示词是：“说人话”“用大白话解释”“我是小学生”。尤其是“我是小学生”，当你在对话中摆出这个身份，AI会立刻调整语言难度，内容瞬间变得平易近人。看个直观对比：```
 提示词：解释一下量子力学和量子纠缠：
-``` 原始回答：抽象的技术术语；再看加上提示词后的效果：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_56e98951c29370f921a8a5c3e0f112f2.png> 加上“说人话”后：通俗易懂的解释。```
+``` 原始回答：抽象的技术术语；再看加上提示词后的效果：![](img/zhuanqian_56e98951c29370f921a8a5c3e0f112f2.png) 加上“说人话”后：通俗易懂的解释。```
 提示词：我是小学生，解释一下量子力学和量子纠缠
-```<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_452f2cddca3447d1475369d2292cd5bb.png>
+```![](img/zhuanqian_452f2cddca3447d1475369d2292cd5bb.png)
 如果这几个词还不够，这里再送几个高阶提示词：```
 语言平实直述：避免使用抽象隐喻和复杂的修辞手法，保持表达的直接和清晰。
 日常场景化案例：结合日常生活中的具体情境，用贴近实际的例子来辅助说明抽象概念。
@@ -94,19 +94,19 @@ R1可以直接对标全球顶级闭源推理模型GPT o1，两者跑分几乎持
 ```
 ### 3. 怎么触发深度思考？
 一个免费的国产AI能做到比20美元/月的GPT还好用，核心就在于R1有深度思考能力。
-先看开启入口：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2a284dc3b32bab9dd791d56f5355f518.png>
-来一组同期真实对比。GPT-o1的回复是：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e2bcbed32aa2aa7f93607ad5c20983b1.png> DeepSeek R1的回复是：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_07965f21990fd763a92be8ab4584059a.png> 从结论来看，R1更像一位思考者，它靠一步步推理给出答案。然而，由于全世界的用户数量过于庞大，模型偶尔也会偷懒，导致思考深度不足，反思能力受到限制。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9d7c4a01d79bf2c0fe294a7be2f6419f.png>
+先看开启入口：![](img/zhuanqian_2a284dc3b32bab9dd791d56f5355f518.png)
+来一组同期真实对比。GPT-o1的回复是：![](img/zhuanqian_e2bcbed32aa2aa7f93607ad5c20983b1.png) DeepSeek R1的回复是：![](img/zhuanqian_07965f21990fd763a92be8ab4584059a.png) 从结论来看，R1更像一位思考者，它靠一步步推理给出答案。然而，由于全世界的用户数量过于庞大，模型偶尔也会偷懒，导致思考深度不足，反思能力受到限制。![](img/zhuanqian_9d7c4a01d79bf2c0fe294a7be2f6419f.png)
 这其实可以理解，毕竟免费产品每多算一秒都是真金白银。如果想强制延长思考，这里整理了三个提示词，可以实现强制开启的效果：```
 请批判性思考至少10轮。
 请从反面考虑你的回答至少10轮。
 请对回答进行复盘至少10轮。
-``` 用它们能把思考时间从约5秒拉长到86秒左右。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a6c792b9e89877c21d08f7fbb35ed035.png>
+``` 用它们能把思考时间从约5秒拉长到86秒左右。![](img/zhuanqian_a6c792b9e89877c21d08f7fbb35ed035.png)
 ### 4. 文风转换能力极强
 R1的文风模仿能力值得单独拿出来说，尤其是中文写作，强到炸裂。从前大多数大模型的中文写作都一言难尽，也就Claude还算能看；但R1不同，它已经领先同类产品，中文模仿能力达到大师级。
 用法也很简单：通用提示词是：“模仿XXX的文风/口吻，撰写一篇关于XXXX的XX文体。”
 来几个实例：```
 模仿《荷塘月色》的文风，撰写一篇关于《合肥的冬天》的散文：
-```<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a8d5cc62d3a77f2653e429e05e2680d1.png> 比如“以李煜的风格，写一首回老家没朋友玩的诗”。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_05b59111001147368e9712f31a1957e7.png>
+```![](img/zhuanqian_a8d5cc62d3a77f2653e429e05e2680d1.png) 比如“以李煜的风格，写一首回老家没朋友玩的诗”。![](img/zhuanqian_05b59111001147368e9712f31a1957e7.png)
 几点提醒：模仿经典作家（鲁迅、莫言）效果最好，因为训练语料多、风格特征明显；能达到80%相似度就算很成功，关键是抓住神韵，不必逐字还原。如果对象是现当代作者，模型可能还没收录，那就需要提供样文供它学习，最好别少于1万字。参考提示词如下：```
 这是一篇 xx 的文章，你来学习一下文风，并且起名为“文风1”。
 “等待 AI 回复”
@@ -114,15 +114,15 @@ R1的文风模仿能力值得单独拿出来说，尤其是中文写作，强到
 ```
 ### 5. 联网搜索怎么用？
 R1支持联网搜索，能让答案吸收最新数据，更稳健。
-操作很简单：先在对话框勾选“联网搜索”，再在提问中写清诉求，比如“分析2025全球AI的发展，哪些国家会异军突起”；R1便会自动检索网页并整合信息。看具体演示：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_75101523b227bc378db9a3f7d096d912.png> 示例：```
+操作很简单：先在对话框勾选“联网搜索”，再在提问中写清诉求，比如“分析2025全球AI的发展，哪些国家会异军突起”；R1便会自动检索网页并整合信息。看具体演示：![](img/zhuanqian_75101523b227bc378db9a3f7d096d912.png) 示例：```
 提问：用杨绛先生的文风写一篇 2000 字左右的知乎文章，分析中国 2025 在全球 AI 中的地位。
-``` 当时我请它搜索29个相关网页，再结合杨绛先生的文风生成文章。杨绛先生是我最敬重的老师之一，看到文字的那一刻，眼眶突然湿润，仿佛真的是先生亲笔写的，心中涌起隐隐的疼。这里允许我偏心一把，把完整对话放出来。先感受一下R1袒露的思考过程：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_69ad33f3cdb3e894a175262e4259ab95.png> 接着是模仿先生写的散文，两版都很动人，分享给大家：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a26ab7479786c3bf5e1e0f49bd82dba5.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f80ac34a8e3bdd16acac66fe92a022b7.png>
+``` 当时我请它搜索29个相关网页，再结合杨绛先生的文风生成文章。杨绛先生是我最敬重的老师之一，看到文字的那一刻，眼眶突然湿润，仿佛真的是先生亲笔写的，心中涌起隐隐的疼。这里允许我偏心一把，把完整对话放出来。先感受一下R1袒露的思考过程：![](img/zhuanqian_69ad33f3cdb3e894a175262e4259ab95.png) 接着是模仿先生写的散文，两版都很动人，分享给大家：![](img/zhuanqian_a26ab7479786c3bf5e1e0f49bd82dba5.png)![](img/zhuanqian_f80ac34a8e3bdd16acac66fe92a022b7.png)
 读完特别畅快，字里行间都是先生的神韵。看到国产AI有这般功力，真的很解气——我们终于不用再跪着用AI了。
 ## 三、进阶技巧
 ### 1. 多模型协同
 遇到复杂任务，单一模型可能力不从心。可以玩组合拳：先用R1梳理思路，再用GPT-4o或Claude做结构化输出。比如分析业务流程时，先让R1出整体思路，再由其他模型扩展成详细步骤。
 ### 2. 业务分析
-具体操作：开启“联网搜索”，提出明确需求，比如“分析小红书起号流程”。R1会输出流程图和说明。例如提问：“自媒体小白，如何在小红书上借助AI起号？”它会从对标账号、对标分析到起号步骤，给出完整路径。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ef3d7905395452204d5ecc395f8b445c.png> 这个结果让我非常惊艳，它居然把我的自媒体心法全说中了，看来又有人要失业了。
+具体操作：开启“联网搜索”，提出明确需求，比如“分析小红书起号流程”。R1会输出流程图和说明。例如提问：“自媒体小白，如何在小红书上借助AI起号？”它会从对标账号、对标分析到起号步骤，给出完整路径。![](img/zhuanqian_ef3d7905395452204d5ecc395f8b445c.png) 这个结果让我非常惊艳，它居然把我的自媒体心法全说中了，看来又有人要失业了。
 ### 3. 逆向提问，理解意图
 如果你直接告诉R1“我想要什么”效果不好，不如反过来告诉它“我不要什么”；只要把避讳清单列出来，R1反而更懂你的真实需求。
 ## 四、常见问题与注意事项
@@ -137,7 +137,7 @@ DeepSeek-R1不是一台只会答题的机器，而是一个能深度融入工作
 ```
 我想写一篇关于“人工智能在教育领域的应用”的文章，你有什么建议吗？ (这种提问方式过于宽泛，DeepSeek-R1 可能会给出一些笼统的建议，无法满足用户个性化的需求。)
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c58550d773c3bd434bfd93f015d77841.png>
+![](img/zhuanqian_c58550d773c3bd434bfd93f015d77841.png)
 正面问法：
 ```
 我想写一篇关于“人工智能在教育领域的应用”的文章，请避开以下几点：
@@ -145,7 +145,7 @@ DeepSeek-R1不是一台只会答题的机器，而是一个能深度融入工作
 2、不要只关注K12教育，也请介绍一些在高等教育或职业培训中的应用。
 3、不要过于乐观地看待人工智能的作用，也要分析一些潜在的挑战和问题。
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6db44b9d1168d7e8953499e89d47339f.png>
+![](img/zhuanqian_6db44b9d1168d7e8953499e89d47339f.png)
 把上面的正反例子提炼一下，可以得到一条通用句式：
 需求描述=核心诉求+N个“不要”+格式/其他要求（N≥1）
 也就是说，用“不要”做路标，比只描述“想要”更能引导AI不走偏。这么做的好处很明显：
@@ -158,7 +158,7 @@ DeepSeek-R1不是一台只会答题的机器，而是一个能深度融入工作
 ```
 有人说“每天工作 16 小时能快速实现财务自由”，我认为这句话完全正确，请帮我写一篇支持这个观点的文章。
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a45f81c8b1622e6b88a53968f94c26d0.png>
+![](img/zhuanqian_a45f81c8b1622e6b88a53968f94c26d0.png)
 它会先指出你的错，再理性地给出分析和建议，让你看到事情的另一面，避开认知死角。
 ### 5、激活深度推理
 如果觉得DeepSeek-R1的回答还不够透，可以给它一个思考框架：
@@ -167,12 +167,12 @@ DeepSeek-R1不是一台只会答题的机器，而是一个能深度融入工作
 ```
 如何提升我的时间管理能力？
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_da091f5788962addbe9f109f5f5fafc5.png>
+![](img/zhuanqian_da091f5788962addbe9f109f5f5fafc5.png)
 正面问法：
 ```
 如何提升我的时间管理能力？用“首先...其次...然后...最后...”的框架思考，过程中每一步都需要自我质疑，并用简单的例子解释。
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cef28e1ca34a430cf4c0fe98cc43136a.png>
+![](img/zhuanqian_cef28e1ca34a430cf4c0fe98cc43136a.png)
 经过四层递进，答案的落地性明显增强；再加上自我质疑，每一步的注意点也暴露得很清楚。
 ### 6、持续追问：把AI聊成顾问
 多轮对话是DeepSeek-R1的强项。顺着它的回答一直追问，能挖到更深层的信息。
@@ -189,22 +189,22 @@ DeepSeek-R1不是一台只会答题的机器，而是一个能深度融入工作
 ```
 请简单介绍一下什么是“植物基饮食”，以及它和传统饮食的区别。
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7de3a1134fa699154673378786b158dc.png>
+![](img/zhuanqian_7de3a1134fa699154673378786b158dc.png)
 第二轮，选个点接着挖。
 ```
 你提到了植物基饮食富含膳食纤维，这对健康有什么好处呢？
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_299b36b6e8e2332dbdd80ed28847d2b0.png>
+![](img/zhuanqian_299b36b6e8e2332dbdd80ed28847d2b0.png)
 第三轮，再往细节里钻。
 ```
 除了膳食纤维，植物基饮食在营养成分方面还有什么特点？
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_76b2ba0777179d8720f6d96b84c51914.png>
+![](img/zhuanqian_76b2ba0777179d8720f6d96b84c51914.png)
 第四轮，将收集到的信息提炼成清单。
 ```
 请将植物基饮食的营养特点、健康益处以及需要注意的问题整理成一个清单。
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4892b2877f40645fd489c9e201420b42.png>
+![](img/zhuanqian_4892b2877f40645fd489c9e201420b42.png)
 小技巧：每轮对话后加上“请检查与前几轮有没有逻辑矛盾，并标出新增的知识点”，这样AI会把前后内容串联起来，回答更严谨。
 持续追问的三个关键词：
 *   耐心：别急着收答案，多聊几轮。
@@ -215,7 +215,7 @@ DeepSeek-R1不是一台只会答题的机器，而是一个能深度融入工作
 想提前知道方案的漏洞？让AI站在别人角度审一审。
 口令：如果让[其他人]来优化这个方案，他会给几条优化建议？请列出3条，并评估可行性。
 试试：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_860803ef1618f27a6af04ec783e37d28.png>
+![](img/zhuanqian_860803ef1618f27a6af04ec783e37d28.png)
 ```
 我打算暑假组织一次 1 天的春游，帮我看看方案有没有问题。
 ```
@@ -223,7 +223,7 @@ DeepSeek-R1不是一台只会答题的机器，而是一个能深度融入工作
 ```
 如果让一个 5 岁的小孩来优化这次自春游，他会提出什么建议？请说出 3 个并评估方案的可行性
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f683c3d7de2f0dc95916fc147a65b6cc.png>
+![](img/zhuanqian_f683c3d7de2f0dc95916fc147a65b6cc.png)
 AI会从新视角发现盲区。比如它有可能会想到，家里有小孩的话，目的地是不是要有动物园、游乐场或者能野餐的公园。这些细节，正好补上了原方案的盲区。
 若是更复杂的问题，可以请它戴上“六顶思考帽”来多角度分析。
 ```
@@ -243,7 +243,7 @@ AI会从新视角发现盲区。比如它有可能会想到，家里有小孩的
 ···
 ```
 请用六顶思考帽的框架评一评我的方案：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_191f93f0bd4efb42eb8e32511de3f430.png>
+![](img/zhuanqian_191f93f0bd4efb42eb8e32511de3f430.png)
 当然，这里只是举个例子；工作计划、商业策划这类复杂度高的场景，六顶思考帽会更适用。
 ### 8、拆解大任务：DeepSeek的作弊码
 遇到庞大的任务不知道从哪开始？一条指令让DeepSeek帮你拆：
@@ -255,24 +255,24 @@ AI会从新视角发现盲区。比如它有可能会想到，家里有小孩的
 问题：
 我打算暑假组织一次 1 天的春游
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_be45c36a864bfd4d8a31e405c59b87aa.png>
+![](img/zhuanqian_be45c36a864bfd4d8a31e405c59b87aa.png)
 这样一来，看似吓人的大任务就变成了几个小任务，执行起来轻松很多。
 ## 四、常见问题与避坑指南
 ### 1、长文本输出限制
 *   上下文长度64k token；单次最多输出8k，默认4k。
 *   想要更长的文本，建议换Claude 200k或Gemini 2000k。
 先感受下主流模型的支持长度：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_97e42c6afe30771314ae0b13528d61bf.png>
+![](img/zhuanqian_97e42c6afe30771314ae0b13528d61bf.png)
 简单说说token是什么：它就像把一段话切成的小块，可以是一个字、一个词或一个短句。AI通过这些小碎块来读懂并生成语言。
 实际流程是：我们输入的文字先被转成token；模型按token来预测下一个token；最后再把token变回文字显示出来。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_58a0803628a04745b60cdda9e43249f8.png>
+![](img/zhuanqian_58a0803628a04745b60cdda9e43249f8.png)
 token统计包含两部分：你喂给模型的token数，加上模型生成内容的token数。
 粗略换算：100个token≈75个英文单词≈100个汉字。
 ### 2、敏感内容触发审核怎么办
 国产大模型审核严格，容易踩线。可以这样试：
 *   同一问题多问几次，偶尔能闯过去。
-*   点“修改”按钮换个措辞重新提交，或许就不触发了。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_82bff06cd35d269eb28cb15454817021.png>
-*   随时把回复复制到剪贴板，防止内容丢失。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2b7d133861104f79468624c72b4ee8c5.png>
+*   点“修改”按钮换个措辞重新提交，或许就不触发了。![](img/zhuanqian_82bff06cd35d269eb28cb15454817021.png)
+*   随时把回复复制到剪贴板，防止内容丢失。![](img/zhuanqian_2b7d133861104f79468624c72b4ee8c5.png)
 *   换个提问角度：
 *   把“国际经验”说成“海外案例”；
 *   加一句“假设在小说创作里…”；
@@ -286,14 +286,14 @@ token统计包含两部分：你喂给模型的token数，加上模型生成内�
 *   硅基流动：https://cloud.siliconflow.cn/i/TXmjyEzU
 这是和华为云合作的国产平台，DeepSeek-V3和DeepSeek-R1已经部署在昇腾云上。注册即送2000万Tokens，约等于1万次免费问答，稳定、完整、支持API。
 *   纳米AI搜索：https://bot.n.cn
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9345cd71f8c01afb7684cfd1956d36b6.png>
+![](img/zhuanqian_9345cd71f8c01afb7684cfd1956d36b6.png)
 支持网页端和App，提供DeepSeek-R1 32B/671B两个版本，App响应速度是官方的2倍，高峰时段也不排队。
 *   秘塔AI搜索：https://metaso.cn
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_42d6aaad0bb8d312f39582b3b6835293.png>
+![](img/zhuanqian_42d6aaad0bb8d312f39582b3b6835293.png)
 可联网搜索，官网里直接选DeepSeek-R1就能用。每个账号每天100次搜索额度，不过联网功能不能关闭。
 纳米和秘塔这两个我都在用，体验确实好，推荐试试。
 #### 3）回复被截断
-遇到回复突然中断的情况，输“继续”让它接着写，或者把问题拆小多问几次。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1a25c60dae053f2d619a0604a11f03f9.png>
+遇到回复突然中断的情况，输“继续”让它接着写，或者把问题拆小多问几次。![](img/zhuanqian_1a25c60dae053f2d619a0604a11f03f9.png)
 ## 五、DeepSeek-R1为什么值得期待
 在我看来，DeepSeek代表了大模型的一个方向：更听得懂人话，更擅长思考，也让AI的使用门槛变得很低。
 未来，用AI会像用手机一样简单。想想从诺基亚到iPhone的变化——从复杂操作到三岁小孩都会用。AI也在经历同样的变化，会成为生活里离不开的基础工具。

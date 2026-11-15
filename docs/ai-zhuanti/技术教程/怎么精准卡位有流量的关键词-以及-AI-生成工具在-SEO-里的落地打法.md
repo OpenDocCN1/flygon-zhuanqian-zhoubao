@@ -4,17 +4,17 @@
 日期：2023-05-05
 做全平台 SEO 的人都清楚，平台规则要懂，但更核心的，是摸准目标用户到底在搜索框里打了什么词。
 怎么把关键词找准？我在白杨 SEO 上海线下闭门会上分享过一套思路，总结起来一句话：先看平台自己给的数据，再做取舍。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_da40dc0dc84b3c836cc258e8d5f431e5.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8bc6e264a1d740275eee6d8df0462db2.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_103b19c61be7a5d36dbd2616e67ba5d4.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_dac4e8fa7ab6f94c054cd92374d78118.png>
+![](img/zhuanqian_da40dc0dc84b3c836cc258e8d5f431e5.png)
+![](img/zhuanqian_8bc6e264a1d740275eee6d8df0462db2.png)
+![](img/zhuanqian_103b19c61be7a5d36dbd2616e67ba5d4.png)
+![](img/zhuanqian_dac4e8fa7ab6f94c054cd92374d78118.png)
 先用官方数据做参考是有原因的。市面上很多第三方词库、指数工具，本质还是估算值或者爬接口，覆盖不全、延迟也多。搜索框联想可以帮我们洞察用户真实需求面，但它看不出这个词到底有没有搜索量，流量大小才是决定要不要做的关键指标。
 接下来聊聊生成式 AI 在我日常 SEO 工作里的实际用法，目前还在探索期，用得不多，但已经形成了几条比较清晰的线。
 关于我在 GPT、文心一言这类创作工具的运用，现在主要集中在以下几个场景：
 1、公众号选题和内容打磨。之前做微信搜一搜相关的选题，比如微信 SEO 操作指南、GPT 与 SEO 的关系对比等，都是先用 AI 抛思路、拟标题，再人工校准。目标是吃到微信搜一搜的自然流量。
 2、站点文章和百家号生产。白杨 SEO 博客里网络营销板块的部分内容，以及我自己做的大闸蟹、家装类站点，都在用 AI 起稿。百家号这边新开了个企业认证号，专门用来承接百度搜索流量。
 3、知乎回答与小红书笔记。小号在知乎上的回答基本都是 AI 辅助输出。选问题不靠系统推荐，而是自己用关键词去搜，或者用 5118 这类工具先筛一遍，确保是精准搜索流量词。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_77478919ca5720f60b267307f93e7fd5.png>
+![](img/zhuanqian_77478919ca5720f60b267307f93e7fd5.png)
 线下聚会里关于 AI 落地的几个案例片段
 1、GPT+RPA+百家号做品牌声量。先用 GPT 根据人工提前筛选好的关键词，或直接让 GPT 扩词，然后批量出内容，再用 RPA 工具，比如影刀 RPA 来模拟人工发布到百家号，最后配合推广。现阶段主要服务于品牌曝光和占位。
 2、GPT+RPA+SEO+网站的站群思路。这是老王分享的经验，他早期做过上百个国内站、过千个公众号，现在重心转向谷歌 SEO。做法是让 GPT 直接生产内容，通过 RPA 批量上站。头部站点在谷歌的收录率能达到 60% 左右，目标先把基础流量跑起来。

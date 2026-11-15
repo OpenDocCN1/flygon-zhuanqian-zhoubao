@@ -2,20 +2,20 @@
 你们敢信吗？一首天后级别的原创MV，现在用AI十分钟就能搞定！
 我是龙哥，一个靠着AI赚了20多万的创业者。今天想跟大家聊聊我最新挖到的宝藏玩法，保准你看完直呼“卧槽”。
 先说说我的心病——我在YouTube上有个音乐频道，整整一年没更新了。结果昨天手贱打开后台一看，好家伙，这流量居然还在涨，甚至比我预期的还要猛。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d822fd8ccb8008afef5092f9e2b9dc69.png>
+![](img/zhuanqian_d822fd8ccb8008afef5092f9e2b9dc69.png)
 可这数据越漂亮，我心里越堵得慌。因为里面全是经典老歌翻唱，油管根本不给你开通广告分成，这泼天的流量全都白瞎了，一分钱没赚着！那种感觉就像满地都是金子，你却只能干看着捡不起来。
 但！是！就在昨天，我无意中发现AI居然能独立创作歌曲了！那一刻我感觉自己又看到了光，那是一种久旱逢甘霖的激动，感觉这座灯塔终于出现了！废话不多讲，教程直接给你们安排上：
 第一步：登录Suno，用谷歌账号就行，系统每天白送50积分，够你做10首歌。网址在这儿 https://app.suno.ai/
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6bf89ea295a4ea92506c8086d2b73c2f.png>
+![](img/zhuanqian_6bf89ea295a4ea92506c8086d2b73c2f.png)
 第二步：点“create”进入创作页面。它给你准备了两条路：
 路线一：直接打个想法进去，比如“写一首走心的情歌”，系统就懂你的意思。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b20a3f1889eba1c1b4eccfcad028376b.png>
+![](img/zhuanqian_b20a3f1889eba1c1b4eccfcad028376b.png)
 下方还能勾选配乐乐器模型，比如钢琴、贝斯、电子音效什么的，随你自由搭配，让AI按这个风格给你配器。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_08bc78d9606563663ae5345d3b217106.png>
+![](img/zhuanqian_08bc78d9606563663ae5345d3b217106.png)
 路线二：自己动手写词，然后把歌词粘贴进去，再填上你想要的曲风，民谣、摇滚、轻音乐……统统都能指定。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f6dafe565386f5173744f0d0f47308c3.png>
+![](img/zhuanqian_f6dafe565386f5173744f0d0f47308c3.png)
 第三步：点生成，等个几秒钟，它直接“吐”给你两首歌，10个积分就这么花掉了，只需要几分钟。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2325d7630bfac07e3b1c7919f0bf644e.png>
+![](img/zhuanqian_2325d7630bfac07e3b1c7919f0bf644e.png)
 第四步：歌词这块我有私藏技巧！我都是先丢给GPT，让它先吸收我参考的歌词的意境和韵律结构，再按照我的风格需求重新创作出独一无二的新词，这个组合拳打下来，歌词质感直接拉满。
 ```
 # 角色

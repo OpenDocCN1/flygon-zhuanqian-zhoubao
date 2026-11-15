@@ -2,19 +2,19 @@
 > 应龙哥邀请在龙哥盟的分享稿。原版发在博客《人生的塞尔达时期》，技术细节较多。飞书文档 Agent 难以直接阅读，感兴趣可把博客链接丢给 Agent 让它解读。本版为圈友精简版，去掉了实现层，只留思路。核心就一句：**当 Token 还在打折时，把它沉淀为代码、服务和工作流这类能持续产生利息的生产资料。**
 ## 额度告急的那晚
 最近公众号更新很少，原因很直白：正陷在薅羊毛里。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_afb9d4149e8cfc044abb86c06ec15fe0_0_0.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_afb9d4149e8cfc044abb86c06ec15fe0_0_1.png>
+![](img/zhuanqian_afb9d4149e8cfc044abb86c06ec15fe0_0_0.png)![](img/zhuanqian_afb9d4149e8cfc044abb86c06ec15fe0_0_1.png)
 Claude Code 的一周额度撞线，Fable 5 也用完，Codex 的周期额度同样见底，Kimi Code 跑到 94%。备用的 GLM 余量 63%，Grok 余量 32%，DeepSeek 和百炼还算宽松，但主力全停了。
 正好趁恢复空窗，把想法整理出来。
 ## 一、进入人生塞尔达阶段
 玩过旷野之息的人都懂那种上头感：脑子里只有地图上未点亮的区域，吃饭睡觉都往后排，抬头就三点。
 玩家常说“想要一个没玩过塞尔达的大脑”。因为内容终有尽头，通关后那种新鲜感便回不来了。
 最近我又找回了类似状态。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_afb9d4149e8cfc044abb86c06ec15fe0_1_0.png>
+![](img/zhuanqian_afb9d4149e8cfc044abb86c06ec15fe0_1_0.png)
 可以说进入了个人的塞尔达时期。好奇心把一天塞满，去碰不同方向、解决真实问题，经常和 Agent 聊到凌晨一两点。我的底层假设很朴素：只要数据在网上、模型训练时见过，原则上都可以用 Agent 试。之前的软件篇硬件篇就是这么试出来的。
 整个七月作息被两件事牵着走：Claude Code 里 Fable 5 的有效期，和 Codex 的重置时间。7 月 10 日新周期开始，为避免作废集中消耗，连续数天合计日均 40 亿以上。
 注意，这 40 亿是 20x 套餐的上限被吃满，不是体力扛不住。
 这是我自建的用量看板。近 30 天总处理量含缓存，按 API 价格折算约
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_afb9d4149e8cfc044abb86c06ec15fe0_2_0.png>
+![](img/zhuanqian_afb9d4149e8cfc044abb86c06ec15fe0_2_0.png)
 等价 27,000 多美金——这只是等价估算，不是真实花销，我实际支出就是两个 200 美元订阅。从 Agent 视角看 Claude Code 与 Codex 各占一半；从模型视角看 gpt-5.6-sol 占 33%，Sonnet 5 占 24%，Opus 4.8 占 18.6%，Fable 5 占 5.6%。
 由奢入俭难。额度降下来后像被抽空，下意识先问“这事能不能让 Agent 办”，徒手操作的肌肉记忆都快丢了。
 这种构建的快感比游戏更上头，更容易进入心流。与塞尔达不同的是，这片大陆每天都在扩张，永远有新角落可探。
@@ -61,12 +61,12 @@ Skill 好坏取决于写法和模型能力，两者缺一不可，短板就会�
 流程图如下：
 整个流程我只做两件事：出事后在飞书回“去查”，修完在批准卡点“合并”。诊断、修复、提交、自动化测试、另一 Agent 复审，全部 Agent 完成。
 三条规矩：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_afb9d4149e8cfc044abb86c06ec15fe0_9_0.png>
+![](img/zhuanqian_afb9d4149e8cfc044abb86c06ec15fe0_9_0.png)
 第一，自动化检查不通过不上线。测试通过、改动量受限、核心基础设施文件不可触碰，任一不满足直接打回。
 第二，写代码与挑毛病的人不能是同一个。提交后自动触发测试与独立 Agent 复审，会有界面的项目会自动模拟用户操作并录屏。写审分离，避免自我感觉良好。
 第三，被叫出时必须是万事俱备只差拍板。提交后飞书只出现无按钮的进度卡，全部通过后按钮才出现，中间不打扰。
 体系运转后
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_afb9d4149e8cfc044abb86c06ec15fe0_10_0.png>
+![](img/zhuanqian_afb9d4149e8cfc044abb86c06ec15fe0_10_0.png)
 大部分决策只剩两类：定方向、做放行。执行不再需要插手。
 我的开发模式变为：先跟 Agent 聊一两小时，把目标、架构、取舍聊透，然后丢长程任务。短三五小时，长数十小时。三条硬规：先写验收标准再改动、每次改动小而完整、写审分离。
 靠此可同时推进约十个项目。消耗看起来吓人：高峰半小时刷两三亿；Codex 取消 5 小时限额后，一天跑完 20x 套餐一周额度是常态。
@@ -89,7 +89,7 @@ Kimi 699：审美能打，工具待成熟。K3 前端审美国产最强，整体
 | DeepSeek | API 按量 | 程序化服务便宜劳力 | 如第三章所说日成本不到十块 |
 | 百炼 Coding Plan | 199 | 简单任务 | 支持多模态，凑合用 |
 ## 六、大航海时代：你的行业离 Agent 还有多远
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_afb9d4149e8cfc044abb86c06ec15fe0_14_0.png>
+![](img/zhuanqian_afb9d4149e8cfc044abb86c06ec15fe0_14_0.png)
 前面聊的都是我自己的使用经验、取舍逻辑。把视角拉远到整个产业，其实同一套判断依然适用，这可以算做《跑在熊前面的日子》的延续。接下来有几个观察，特别想分享给正在琢磨“AI 在我所处的赛道到底能不能落地”的人。
 ### 方向没变，落地会很慢
 先给出结论：大势不可逆，智能体进入社会生产体系是确定的。但节奏可能比想象中更漫长，卡点主要在两层。
@@ -122,4 +122,4 @@ Kimi 699：审美能打，工具待成熟。K3 前端审美国产最强，整体
 工具和教程只是入门级的门槛，真正的门槛是立刻行动和圈层的信息差。
 我们不做空谈，只拆商业闭环和 AI 效率压榨。内部已沉淀 1000+ 跑通的套利实战案例。
 👉 查看圈子完整数字资产与入场门槛：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_afb9d4149e8cfc044abb86c06ec15fe0_19_0.png>
+![](img/zhuanqian_afb9d4149e8cfc044abb86c06ec15fe0_19_0.png)

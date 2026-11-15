@@ -40,8 +40,8 @@
 工具和教程只是最低级的壁垒，真正的壁垒是“立刻动手”和“圈层信息差”。
 我们不聊虚的，只做商业闭环的拆解与 AI 效率的压榨。系统内已沉淀 1000+ 跑通的套利实战局。
 👉 查阅圈子完整数字资产与上车门槛：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f96264a45d5752f5f6af9a09cc45b605_0_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f96264a45d5752f5f6af9a09cc45b605_0_1.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f96264a45d5752f5f6af9a09cc45b605_2_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f96264a45d5752f5f6af9a09cc45b605_2_1.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f96264a45d5752f5f6af9a09cc45b605_6_0.png>
+![](img/zhuanqian_f96264a45d5752f5f6af9a09cc45b605_0_0.png)
+![](img/zhuanqian_f96264a45d5752f5f6af9a09cc45b605_0_1.png)
+![](img/zhuanqian_f96264a45d5752f5f6af9a09cc45b605_2_0.png)
+![](img/zhuanqian_f96264a45d5752f5f6af9a09cc45b605_2_1.png)
+![](img/zhuanqian_f96264a45d5752f5f6af9a09cc45b605_6_0.png)

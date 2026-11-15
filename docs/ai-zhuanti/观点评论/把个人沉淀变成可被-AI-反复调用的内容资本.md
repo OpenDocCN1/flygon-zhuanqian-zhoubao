@@ -9,9 +9,9 @@ https://scys.com/articleDetail/xq_topic/22811428254242421
 虚拟资料产品变现玩法：https://scys.com/articleDetail/xq_topic/5845845554115844
 今年三月前后，我做了一次业务中台的升级。把过往的项目复盘、用户咨询、内容复盘和阅读摘记，逐步沉进 Codex 与 Obsidian 构成的私密知识库。下图是我现在在用的智能作业框架。
 这不只是资料库，而是一套可落地的商业作业中台：Codex 负责思考与执行，Obsidian 负责长期记忆，Hermes 与飞书 CLI 负责把中台连向业务现场。经验、案例、素材和用户回流被重构成一套能持续产出、复盘、决策与变现的闭环，后续还会继续迭代。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_162fd6e2c9e1e23643e016559287667b_0_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_162fd6e2c9e1e23643e016559287667b_1_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_162fd6e2c9e1e23643e016559287667b_1_1.png>
+![](img/zhuanqian_162fd6e2c9e1e23643e016559287667b_0_0.png)
+![](img/zhuanqian_162fd6e2c9e1e23643e016559287667b_1_0.png)
+![](img/zhuanqian_162fd6e2c9e1e23643e016559287667b_1_1.png)
 整体来看，中台主要做三件事。第一，把历史项目经验、用户提问、案例素材与产品思路收敛进来；第二，让 Codex 基于真实原料参与选题判断、结构搭建与脚本生成；第三，把上线后的数据、评论、私信等回流写进中台，作为下一轮创作与产品判断的输入。
 跑通后，我围绕 Codex+Obsidian 的账号累计播放已破百万。
 这次的反馈让我意识到，读者真正关心的不只是某个工具，而是一个更底层的问题：如何把长年积累的知识、经历与项目，转化为能被智能系统持续调用的个人资产。
@@ -98,7 +98,7 @@ https://scys.com/articleDetail/xq_topic/22811428254242421
 - 是否有可重复的生产路径，换一份素材仍能按同样方法产出？
 - 结果能否回流，数据、评论、用户问题是否影响下一轮创作？
 我把个体品牌的智能内容中台拆成五层加闭环：方向层、资产层、认知层、生产层、反馈层。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_162fd6e2c9e1e23643e016559287667b_11_0.png>
+![](img/zhuanqian_162fd6e2c9e1e23643e016559287667b_11_0.png)
 ### 第一层：方向层
 解决模型为谁、为什么生产内容。至少回答：服务谁？对方正经历什么问题？我能给出什么独特价值？想建立什么认知？内容最终连接什么产品或业务？
 方向不清，模型越强内容越散。内容边际成本趋零，但判断力与内容价值成本在上升。模型能填充血肉，不能决定灵魂，没锚定只会产出“正确的废话”。
@@ -372,4 +372,4 @@ AI 并不能解决内容混乱，它只会把混乱放大
 工具和教程永远是最低门槛，真正拉开差距的是立刻动手与圈层信息差
 我们不聊虚的，只做商业闭环拆解与AI效率压榨。系统内已沉淀1000+跑通的套利实战局
 👉 查阅圈子完整数字资产与上车门槛：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_162fd6e2c9e1e23643e016559287667b_42_0.png>
+![](img/zhuanqian_162fd6e2c9e1e23643e016559287667b_42_0.png)

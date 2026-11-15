@@ -35,38 +35,38 @@ Filesystem MCP 的作用很直观：它可以帮助 AI 理解你的文件夹和�
 访问：
 https://smithery.ai/server/@smithery-ai/filesystem
 进入 Filesystem MCP 的介绍页面。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_70efc3c9d92e0b47d018ecac4647dcd2.png>
+![](img/zhuanqian_70efc3c9d92e0b47d018ecac4647dcd2.png)
 ### 第二步：切换到 Cursor 配置页
 点击页面中的 **Cursor** 选项卡，然后填写允许访问的目录。
 例如：
 ```text
 /Users/liyihang/Downloads/cursortest/pixpof
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b8ba72e94da2cfe324338deb4e15a686.png>
+![](img/zhuanqian_b8ba72e94da2cfe324338deb4e15a686.png)
 ### 第三步：保存并连接
 点击 **Save and Connect**。
 ### 第四步：复制安装命令
 页面会生成对应的客户端安装命令，将它复制下来。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2ab6af9c35cc6c1574492dad44a13f90.png>
+![](img/zhuanqian_2ab6af9c35cc6c1574492dad44a13f90.png)
 ### 第五步：在终端执行命令
 打开命令行工具，执行以下内容：
 ```bash
 npx -y @smithery/cli@latest install @smithery-ai/filesystem --client cursor --config "{\"allowedDirs\":\"/Users/liyihang/Downloads/cursortest/pixpof\""
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0f319020684ce175f2e008c88205da64.png>
+![](img/zhuanqian_0f319020684ce175f2e008c88205da64.png)
 ### 第六步：创建 Cursor 的 MCP 配置文件
 进入你准备启用 MCP 的项目，在项目根目录下建立 `.cursor` 文件夹，并在其中创建：
 ```text
 .cursor/mcp.json
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b0a7d63c827c0f8c9e74e28afd4b1cc7.png>
+![](img/zhuanqian_b0a7d63c827c0f8c9e74e28afd4b1cc7.png)
 ### 第七步：检查是否安装成功
 打开 Cursor 设置，依次进入：
 ```text
 Cursor → Setting → Cursor Setting → MCP
 ```
 如果列表中出现 **filesystem** 服务，说明注册已经完成。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2b5df1e1bc44eb9e8d10eeae0ea429f1.png>
+![](img/zhuanqian_2b5df1e1bc44eb9e8d10eeae0ea429f1.png)
 ## 2. 调用 Filesystem MCP
 安装完成后，就可以让 Cursor 分析指定目录了。
 ### 第一步：打开 AI 面板
@@ -77,7 +77,7 @@ Cursor → Setting → Cursor Setting → MCP
 ```text
 使用 filesystem MCP，帮我分析 /Users/liyihang/Downloads/cursortest/pixpof/Tests/Unit/Skills 目录的文件树结构。
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_94328fe60e8d0f388bb1654c2a175a60.png>
+![](img/zhuanqian_94328fe60e8d0f388bb1654c2a175a60.png)
 Cursor 会通过 Filesystem MCP 访问对应路径，并返回目录层级和文件结构分析。
 ### 环境准备提醒
 许多 MCP 服务使用 Node.js 或 Python 编写，因此运行前需要准备相应的开发环境。

@@ -9,8 +9,8 @@
 9 月得知龙哥盟开设了「AI写作」航海后，我马上报名了。我参加的初衷有两个：提升 AI 写作能力，以及结识更多同行。这既是一个系统学习的机会，也能让我跳出原有视野，了解更多行业实践。
 学习期间，我特别关注进阶内容，包括更复杂的提示词设计、如何用 AI 辅助创意构思，以及怎样把 AI 写作嵌入更完整的内容生产流程。这些正是我此前自学时比较难深入的部分。经过一段时间学习和实践，我的写作能力明显提高了。
 比如，现在我可以针对教案设计更精准的提示词，让 AI 生成的内容更贴合主题，也更符合实际需求；在创意构思上，我也更懂得如何引导 AI，让它成为思考和创作的帮手。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_434203be98ae70177f5acef42f656f12.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3805c8f7bb8663735a9f3293992574ee.png>
+![](img/zhuanqian_434203be98ae70177f5acef42f656f12.png)
+![](img/zhuanqian_3805c8f7bb8663735a9f3293992574ee.png)
 航海手册的内容很实在，干货也足。经过这段时间的训练，我感觉自己的 AI 写作能力上了一个台阶，尤其是提示词的使用，变得更有条理，也更有效率。
 接下来，我会聊聊这次航海带来的收获、实操结果和一些个人体会。
 如果你也对写作有兴趣，想试着用 AI 提升效率，甚至探索变现，不妨继续往下看。
@@ -27,16 +27,16 @@
 这正好回应了用户的痛点：把耗时的初稿工作交给工具，人再把精力放到真正重要的优化环节。
 我一直相信，AI 的意义不只是帮助人赚钱，更重要的是为人提供助力。比如让教案成为教师的得力助手，帮助他们把工作做得更好。能通过 AI 提高效率、减轻负担，甚至创造新的就业机会，是我很看重的价值。至于由此获得收入，我更愿意把它看作额外的收获，而不是唯一目的。
 我觉得教师朋友或对此感兴趣的圈友，可能会喜欢这类内容，也欢迎大家交流。如果这个系列反响不错，之后我还可以继续写教案写作细节、进阶方法和客户沟通思路。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e9f2ee4bc8fbd0045a57ce0d4e6b057e.png>
+![](img/zhuanqian_e9f2ee4bc8fbd0045a57ce0d4e6b057e.png)
 补充介绍一下自己，也方便大家认识我这位赚钱新人。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_559659da93934fb557a67e3d541ce058.png>
+![](img/zhuanqian_559659da93934fb557a67e3d541ce058.png)
 放一张照片，和大家混个脸熟。
 ## 3. 航海实践成果与个人体会
 ### 3.1 教案业务结果
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_16b426c27504726a0ee49564536c8a61.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2e44e174f0eecce6810ee3495439f57b.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a5c00a1aaa3b82e6a451f7626e7dca08.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cae3882098b980dc39cc476190d72791.png>
+![](img/zhuanqian_16b426c27504726a0ee49564536c8a61.png)
+![](img/zhuanqian_2e44e174f0eecce6810ee3495439f57b.png)
+![](img/zhuanqian_a5c00a1aaa3b82e6a451f7626e7dca08.png)
+![](img/zhuanqian_cae3882098b980dc39cc476190d72791.png)
 ### 3.2 收获与思考
 结合目前的市场反馈，我认为，个人独立承接教案业务，若能覆盖全流程、打通三个端口，月收入大致有机会做到 2 万元左右。
 这次 AI 写作航海让我收获不少。回头看，我最大的感受是：AI 写作并非只是在学一项工具技能，它也会改变我们的工作方式和思考习惯。
@@ -139,13 +139,13 @@ Claude 在处理长文本和逻辑推演方面有自己的优势，在语言表�
 3. 提供教材内容，让 AI 了解本节课的主题和知识点。
 4. 如果是日常教案，可以先用基础流程生成初稿，再进行检查和调整。
 ### 6.1 按提示词生成基础栏目
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1022ba7b1368209436191e97f0f74add.png>
+![](img/zhuanqian_1022ba7b1368209436191e97f0f74add.png)
 ### 6.2 添加教材素材：《桂花雨》
 教材素材可自行下载。
 ### 6.3 根据模板生成教学过程
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9933bae8cd37c5f9e94f83c3889082c0.png>
+![](img/zhuanqian_9933bae8cd37c5f9e94f83c3889082c0.png)
 ### 6.4 补齐板书设计与教学反思
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e34a6d73a6995ec4823bee4b8693ae8a.png>
+![](img/zhuanqian_e34a6d73a6995ec4823bee4b8693ae8a.png)
 ### 6.5 查看最终成稿
 这个案例从开始到生成初稿，用时大约 10 分钟。相比之下，一份常规教案往往需要至少几个小时准备，有时甚至需要 3 到 4 天。
 当然，AI 生成的内容只是初稿。接下来还要按照客户要求进行人工修改，加入自己的思考和创意。以目前的体验来看，日常教学场景下，这样的初稿已经可以作为不错的起点。

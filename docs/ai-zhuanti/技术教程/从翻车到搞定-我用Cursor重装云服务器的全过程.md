@@ -7,10 +7,10 @@
 - 服务器已经准备好了，想搭建API、部署网页。
 ## 第一步：重装服务器系统
 重装系统之前，系统选择很关键。我当时直接选了Ubuntu，一方面CentOS官方已经停止维护，另一方面如果本机Windows配置一般，CentOS用起来也费劲。重装时设置好登录密码就好。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_97839ff5e635963c4a180ac61facd883.png>
+![](img/zhuanqian_97839ff5e635963c4a180ac61facd883.png)
 系统重装完成后，打开本地终端（Terminal）。以云服务器IP地址11.22.33.44为例，执行下面的命令：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_36a262d8b9e1e77a27a17475601f4940.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_35f39f1ed52be7773b5858173841b9ef.png>
+![](img/zhuanqian_36a262d8b9e1e77a27a17475601f4940.png)
+![](img/zhuanqian_35f39f1ed52be7773b5858173841b9ef.png)
 ```
 ssh root@11.22.33.44 -p 22
 ```
@@ -55,8 +55,8 @@ v                   v
 ```
 web前端我已经用工具做好网站页面了，如何确认它用的什么框架？
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ceab5af379ba9a83211ac10235b7a662.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_457fda440eca0284bf302564e59db7d7.png>
+![](img/zhuanqian_ceab5af379ba9a83211ac10235b7a662.png)
+![](img/zhuanqian_457fda440eca0284bf302564e59db7d7.png)
 ## 第三步：安装宝塔面板
 接下来就是在服务器上装宝塔面板。打开终端，登录云服务器，然后根据系统版本执行对应的下载命令。Ubuntu系统：
 ```
@@ -68,17 +68,17 @@ if [ -f /usr/bin/curl ];then curl -sSO https://download.bt.cn/install/install_pa
 ```
 命令来源可以参考宝塔官方下载页：https://www.bt.cn/new/download.html
 安装完成后，宝塔会给出管理面板的URL、用户名和密码。把地址复制到浏览器里打开，用给的账号密码登录。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ddce0c5c591ae444b2f44a19c54276b6.png>
+![](img/zhuanqian_ddce0c5c591ae444b2f44a19c54276b6.png)
 一登录上去，宝塔会推荐一键安装组合套装。航海手册里用的是LNMP，可以参考，但我打算完全按Cursor的建议来装，所以直接忽略了一键安装，把弹窗关掉就行。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d162d2f9549b7dc7ade97ee516b1fc10.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6892cb06d5728e00e2db8b6ce8d02a58.png>
+![](img/zhuanqian_d162d2f9549b7dc7ade97ee516b1fc10.png)
+![](img/zhuanqian_6892cb06d5728e00e2db8b6ce8d02a58.png)
 接下来进入软件商店，安装这几个配置项：
 - Nginx 1.18以上（推荐1.20），我直接选了最新的1.24；
 - Node.js 16以上（推荐16.14.0），我选了16.9.0；
 - MongoDB 5以上，我装了7.0；
 - PM2管理器。
 这里有个坑要注意：PM2管理器计划于2023年12月31日下架，如果之后再用，得去【网站->Node项目】里操作。另外，下载Node.js之前，得先安装Node.js版本管理器，而且装Node.js时会自带PM2，所以不用再单独下载PM2管理器了。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d2dbc1b8f080754c7f4b28943ffca14c.png>
+![](img/zhuanqian_d2dbc1b8f080754c7f4b28943ffca14c.png)
 ### 排查常见问题：Node版本不一致
 如果你发现命令行里的Node.js版本和面板里设置的不一致，可以这样处理：
 1. 先到宝塔面板里确认Node.js路径，一般是 `/www/server/nodejs/bin/node`。
@@ -98,20 +98,20 @@ source ~/.bashrc
 为什么要配置安全组？简单说，云服务器的IP有很多端口，安全组就是一个门禁，只放行我们需要的端口，其他都挡在外面。
 举个例子，我们之前用SSH连服务器的时候，命令里有个 `-p 22`，就是走的22号端口。如果没配置安全组，这个端口可能无法从外部访问。安装宝塔面板后，面板也会提示：请在安全组放行xxxxx端口。比如它用 `IP:33871` 访问管理界面，那就要在安全组里把33871放行。
 安全组的配置方法不复杂：去云服务器控制台找到“安全组”入口，新建一个安全组。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e6b9a196b49270b316f5ba5fb186c68f.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_faa84be4cb151490809611ea073ae7fc.png>
+![](img/zhuanqian_e6b9a196b49270b316f5ba5fb186c68f.png)
+![](img/zhuanqian_faa84be4cb151490809611ea073ae7fc.png)
 名称和标签可以随意填，自己看得懂就行。比如名称写项目名，标签注明开放了哪些端口。
 建完安全组后，点击“配置规则”，然后新建规则：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4ee04f4bc18d1d6395bbe14b2c3f80a9.png>
+![](img/zhuanqian_4ee04f4bc18d1d6395bbe14b2c3f80a9.png)
 常用协议和端口基本都列出来了，按需勾选就行：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ebbcff7aff88d65796eef5ec29945871.png>
+![](img/zhuanqian_ebbcff7aff88d65796eef5ec29945871.png)
 现阶段我们需要开放这些端口：
 - 80（HTTP）
 - 443（HTTPS）
 - 22（SSH）
 - 宝塔面板端口
 规则配好后，回到安全组列表，在“管理实例”里选择“新增关联”，把安全组绑到我们的云服务器上。这样规则就生效了。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_886d8912c700dceb17be456669993ef8.png>
+![](img/zhuanqian_886d8912c700dceb17be456669993ef8.png)
 ## 第五步：部署Web页面（iOS可忽略）
 如果你的重心是全栈，这里就是重头戏。部署Web页面分几步走。
 ### 上传现有的HTML页面
@@ -121,7 +121,7 @@ mkdir -p /www/wwwroot/ainotecard/{api,public,logs,data,scripts}
 chmod -R 755 /www/wwwroot/ainotecard
 chown -R www:www /www/wwwroot/ainotecard
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bc726a1cd30a8f7fe7fe1524b1a87661.png>
+![](img/zhuanqian_bc726a1cd30a8f7fe7fe1524b1a87661.png)
 ### 配置Nginx站点
 第一步：创建必要的目录结构和文件。如果目录还不存在，就先到宝塔文件管理器里把它们建好。然后在这些目录下新建文件，比如在 `/www/wwwroot/ainotecard/api/` 目录下新建 `server.js`，填入服务端代码。同样在 `/api` 目录下创建 `package.json`，写入依赖信息。
 ```
@@ -183,11 +183,11 @@ npm install
 - Node版本：v16.9.0
 - 启动文件：`/www/wwwroot/ainotecard/api/server.js`
 - 运行目录：`/www/wwwroot/ainotecard/api`
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_970e727dcadc45ef729373752342dc5f.png>
+![](img/zhuanqian_970e727dcadc45ef729373752342dc5f.png)
 第四步：测试基本功能。项目添加完后，在Node项目管理页面点击“启动”，等状态变成“正在运行”，然后在浏览器里访问 `http://服务器IP:3000/api/test`，如果能看到 `{"message":"服务器运行正常"}`，说明服务已经正常启动。
 注意：如果浏览器访问不到，多半是因为我们还没在安全组里放行3000端口。去安全组把3000端口加上就好。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9b265f42c39c2907ed3df83a91e7fc82.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5d8d0377d06f288bc817ac7bd3146362.png>
+![](img/zhuanqian_9b265f42c39c2907ed3df83a91e7fc82.png)
+![](img/zhuanqian_5d8d0377d06f288bc817ac7bd3146362.png)
 添加完后可以再回终端确认一下防火墙状态：
 ```
 # 查看UFW防火墙状态
@@ -195,19 +195,19 @@ sudo ufw status
 # 如果3000端口未开放，可以添加规则
 sudo ufw allow 3000/tcp
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c32fc2fd70adb918a81ffff271dd8d65.png>
+![](img/zhuanqian_c32fc2fd70adb918a81ffff271dd8d65.png)
 放行后，再访问 `http://ip:3000/api/test` 就能看到JSON响应了。通过域名访问也一样，比如 `http://域名:3000/api/test`。
 两种访问方式都返回了 `{"message":"服务器运行正常"}`，说明Node.js服务已经正确运行，且能从外部访问。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_32f28ced565c896c07f427cb7c6a5f90.png>
+![](img/zhuanqian_32f28ced565c896c07f427cb7c6a5f90.png)
 第五步：设置Nginx反向代理。这一步其实是在宝塔面板里操作：
 1. 在“网站”里选择“PHP项目”，点击“添加站点”，填好域名，PHP版本选“纯静态”，提交即可。
 2. 在网站列表找到刚创建的站点，点击右侧“设置”，找到左侧菜单里的“反向代理”选项（如果没看到，可能要展开“更多功能”）。
 3. 点击“添加反向代理”，打开高级功能，填写代理名称，比如“api”，然后保存。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a479af1057ea5f4a67b77d3cf686c441.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2f72f3a3df749b05b58ecd7382a5a89a.png>
+![](img/zhuanqian_a479af1057ea5f4a67b77d3cf686c441.png)
+![](img/zhuanqian_2f72f3a3df749b05b58ecd7382a5a89a.png)
 到这里，整个服务器的部署流程就清晰了。通过重装系统解决环境冲突，用Cursor规划开发，再用宝塔面板做可视化管理，最后一步一步把Web服务跑起来。整个过程其实没有想象中那么复杂，关键是按顺序来，不要跳过安全组和依赖安装这些基础环节。希望这篇攻略能帮到正在折腾云服务器的你。
-最近折腾 Node 服务的转发规则时，被一个细节绊住。先说宝塔里的设置方法：目标地址写成 http://127.0.0.1:3000，即本地 Node 进程的监听地址；发出方域名沿用系统默认的 $host；转发路径填写 /api，意指所有以 /api 开头的请求都导向 Node 进程，其余参数维持原样，点下保存即可。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_39c226b308898c3cac22631b9db4b85c.png>
-设置完成后，形如 http://你的域名/api/xxx 的请求会进入 http://127.0.0.1:3000/api/xxx 的处理流程，也就是落到 Node 服务上。需要留意的是，这里生效的是域名触发的转发；如果直接用 IP 拼凑 http://ip/api/xxx 并不会走这条规则，也无需刻意处理。用浏览器打开 http://域名/api/test 能正常返回，就代表转发生效。之所以会出现这种现象，是因为宝塔默认的转发策略仅作用于域名，IP 形式的访问不会被送到对应端口。当时我自检很久都没找到症结，后来在航海群求助，两位同行一眼就点出了关键。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_35ae0dab67cbf5e5f93ce7b5d142fc9d.png>
+最近折腾 Node 服务的转发规则时，被一个细节绊住。先说宝塔里的设置方法：目标地址写成 http://127.0.0.1:3000，即本地 Node 进程的监听地址；发出方域名沿用系统默认的 $host；转发路径填写 /api，意指所有以 /api 开头的请求都导向 Node 进程，其余参数维持原样，点下保存即可。![](img/zhuanqian_39c226b308898c3cac22631b9db4b85c.png)
+设置完成后，形如 http://你的域名/api/xxx 的请求会进入 http://127.0.0.1:3000/api/xxx 的处理流程，也就是落到 Node 服务上。需要留意的是，这里生效的是域名触发的转发；如果直接用 IP 拼凑 http://ip/api/xxx 并不会走这条规则，也无需刻意处理。用浏览器打开 http://域名/api/test 能正常返回，就代表转发生效。之所以会出现这种现象，是因为宝塔默认的转发策略仅作用于域名，IP 形式的访问不会被送到对应端口。当时我自检很久都没找到症结，后来在航海群求助，两位同行一眼就点出了关键。![](img/zhuanqian_35ae0dab67cbf5e5f93ce7b5d142fc9d.png)
 下面进入第四部分，服务端底层搭建。
 先把所需包装好，同时把工程目录搭起来。```
 cd /www/wwwroot/ainotecard/api
@@ -722,7 +722,7 @@ curl -X POST http://www.ainotecard.com/api/ai/generate \
 >   -d '{"prompt":"人工智能的基础知识","template":"summary"}'
 {"user":"67e2cdd6fb5860cda98adc26","title":"摘要: 人工智能的基础知识","content":"原文: 人工智能的基础知识\n\n摘要: 这是对上述内容的简明摘要。包含主要观点和关键信息。\n\n关键点:\n- 第一个要点\n- 第二个要点\n- 第三个要点","tags":["AI生成","summary"],"category":"自动生成","isAIGenerated":true,"_id":"67e2d12bfb5860cda98adc2d","createdAt":"2025-03-25T15:52:11.362Z","updatedAt":"2025-03-25T15:52:11.363Z","__v":0}
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_53f980fa9af2f89958493b578c7392ca.png>
+![](img/zhuanqian_53f980fa9af2f89958493b578c7392ca.png)
 ## 当前已上线的接口清单汇总：
 1.  GET /api/test - 检测服务端是否在线
 2.  POST /api/auth/register - 新建账号
@@ -743,13 +743,13 @@ curl: (7) Failed to connect to 域名 port 443: Connection refused
 ```
 HTTP 协议下的服务已经跑通了，接下来要做 HTTPS 加密访问，就得给站点装上 SSL 证书
 打开宝塔面板，进入 网站 栏目，找到对应站点，点击 SSL 证书，当前显示未部署状态
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_454900b459e44a033367688531db35af.png>
+![](img/zhuanqian_454900b459e44a033367688531db35af.png)
 进入证书管理页后，选择 Let's Encrypt 进行免费证书申请
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4b3e3a9faffdd6484af9f9b8461c5a97.png>
+![](img/zhuanqian_4b3e3a9faffdd6484af9f9b8461c5a97.png)
 验证方式选用 文件验证，点击 申请证书 按钮提交
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2d8eeab217bd99d5eae64796bc212af2.png>
+![](img/zhuanqian_2d8eeab217bd99d5eae64796bc212af2.png)
 证书申请成功后，勾选 强制 HTTPS 重定向，并打开 到期提醒功能，证书周期为 90 天，到期前会收到通知来此续签，最后点击 保存
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_78d4328a6e51ae317a23d1a566a139d2.png>
+![](img/zhuanqian_78d4328a6e51ae317a23d1a566a139d2.png)
 SSL 配置完成之后，再次用 https 域名去访问接口，验证是否正常
 ```
 curl https://域名/api/test

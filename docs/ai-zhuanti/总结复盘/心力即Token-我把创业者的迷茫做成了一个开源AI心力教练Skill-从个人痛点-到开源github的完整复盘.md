@@ -6,10 +6,10 @@
 内测用户的回馈主要集中在：
 - 映照出自己之前没察觉到的特质
 - 把模糊的感觉转译成清晰的文字
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7fec0387115b696fb9bbf29c6ce1e3cb_0_0.png>
+![](img/zhuanqian_7fec0387115b696fb9bbf29c6ce1e3cb_0_0.png)
 - 情绪被层层拆解后出现了可落地的思路，有一种被看见、被承接的安稳感。
 目前仍在早期试用阶段，反馈来自少量真实体验者，还不算严谨的效果验证。我更在意三件事：用完后是否能更准确地描述卡点、是否能锁定一个更精准的问题、是否产生一个真实可执行的微行动。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7fec0387115b696fb9bbf29c6ce1e3cb_1_0.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7fec0387115b696fb9bbf29c6ce1e3cb_1_1.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7fec0387115b696fb9bbf29c6ce1e3cb_1_2.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7fec0387115b696fb9bbf29c6ce1e3cb_1_3.png>
+![](img/zhuanqian_7fec0387115b696fb9bbf29c6ce1e3cb_1_0.png)![](img/zhuanqian_7fec0387115b696fb9bbf29c6ce1e3cb_1_1.png)![](img/zhuanqian_7fec0387115b696fb9bbf29c6ce1e3cb_1_2.png)![](img/zhuanqian_7fec0387115b696fb9bbf29c6ce1e3cb_1_3.png)
 后续我会围绕这三点持续收案例做迭代。
 大家好，我是龙哥，目前在赚钱负责线下聚会。过去一个月赚钱已发起330场线下活动，我和很多创业者、个体创作者深入聊过。聊得越多越发现，路上走不顺不全是方法问题。
 有人手上握着多个可行方向却不知收敛；有人项目已跑起来，遇到限流、增长停滞、收入波动就陷入否定自己；有人不是缺下一步，而是累到不敢松手。表象不同，根源相近：在不确定、复杂抉择、长期压力与强烈情绪面前，很难独自完成结构化自省。为此我用一周做出首版 AI 心力教练 Skill，并开源到 GitHub。
@@ -51,7 +51,7 @@ github 地址：https://github.com/zhaocathy1221-hash/ai-heartpower-coach
 - 隐性需要：没明说但反复出现的需要
 - 适合进入的模式：该先释放、先决策澄清、先处理自我怀疑还是先验证需求
 - 当前不适合做什么：状态乱时别急着重决策；能量低时别堆行动计划
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7fec0387115b696fb9bbf29c6ce1e3cb_7_0.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7fec0387115b696fb9bbf29c6ce1e3cb_7_1.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7fec0387115b696fb9bbf29c6ce1e3cb_7_2.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7fec0387115b696fb9bbf29c6ce1e3cb_7_3.png>
+![](img/zhuanqian_7fec0387115b696fb9bbf29c6ce1e3cb_7_0.png)![](img/zhuanqian_7fec0387115b696fb9bbf29c6ce1e3cb_7_1.png)![](img/zhuanqian_7fec0387115b696fb9bbf29c6ce1e3cb_7_2.png)![](img/zhuanqian_7fec0387115b696fb9bbf29c6ce1e3cb_7_3.png)
 **第三步：进入对应教练模式**
 有了画像后，AI 会带你进入匹配模式。能量透支就先做能量账户或释放清空；方向太多进机会过载；反复“我是不是不行”进自我怀疑；纠结“用户会不会买”进真实需求模式。因为很多人卡住不是缺方法，而是用错了处理模式。需要被接住时却被要求立刻行动；需要验证需求时却在自我攻击；只是机会太多却以为是自己不够坚定。
 **第四步：充分表达 + 结构化聆听**
@@ -67,7 +67,7 @@ github 地址：https://github.com/zhaocathy1221-hash/ai-heartpower-coach
 # 3、两段真实对话场景
 **案例一：从“创业方向太多”到“产品结构变清楚”**
 我最初问的是健康睡眠、AI 心力教练、创业者陪伴、内容产品哪个更合适。表面是方向选择。Skill 先识别出“机会过载模式”。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7fec0387115b696fb9bbf29c6ce1e3cb_10_0.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7fec0387115b696fb9bbf29c6ce1e3cb_10_1.png>
+![](img/zhuanqian_7fec0387115b696fb9bbf29c6ce1e3cb_10_0.png)![](img/zhuanqian_7fec0387115b696fb9bbf29c6ce1e3cb_10_1.png)
 它帮我看到，这几个方向不是并列，而是链条：AI 心力教练是核心能力，创业者陪伴是人群，健康睡眠是切口，内容产品是获客交付形态。从“我要选哪个”的焦虑，转向更准确的问题：用什么切口验证核心能力。随后我表达对“创业者陪伴不够商业化”的担忧，Skill 把问题切到用户真实需求与商业化验证：不是不喜欢陪伴，是担心它有价值却难收费、难规模化。于是产品被拆出：低价诊断作筛选器；中价 7 天陪跑负责收入；高价 30 天创始人心力陪跑负责利润与案例。
 这个案例的价值在于：不是给出方向答案，而是看清我真正卡在机会过载、商业化担忧、定价焦虑还是产品形态不清。
 **案例二：从“线香带货能不能做”到“我是否适合这个场景”**
@@ -78,7 +78,7 @@ github 地址：https://github.com/zhaocathy1221-hash/ai-heartpower-coach
 # 4、产品迭代经历
 起初我设想用户直接进入咨询提问。但真实教练一次不会解决所有问题，需要先澄清本次要解决的问题。因此我调整为先用 7 个问题梳理状态，再聚焦方向。
 先测评识别状态，再匹配模式，再教练，再输出行动。测评从获客工具变成产品一环。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7fec0387115b696fb9bbf29c6ce1e3cb_13_0.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7fec0387115b696fb9bbf29c6ce1e3cb_13_1.png>
+![](img/zhuanqian_7fec0387115b696fb9bbf29c6ce1e3cb_13_0.png)![](img/zhuanqian_7fec0387115b696fb9bbf29c6ce1e3cb_13_1.png)
 后来我加了模式切换机制。因为表达过程中问题会变。开始可能是“方向太多不知道选哪个”，像是机会过载。聊着可能变成“怕不够商业化”，转向用户真实需求。再聊下去可能变成“我怕做不起来”，转向自我怀疑。
 好教练不能死守一个模式，也不能乱跳。需要在每轮对话识别重心是否迁移。我感觉我们已从“机会过载”走到“用户真实需求”，因为问题不再是“选哪个”，而是“用户会不会买”。要不要切过去专门处理？
 这个设计让用户在对话中逐渐学会：我现在正在处理什么。这也是心力教练想培养的能力：少依赖 AI，越能听清自己。
@@ -126,5 +126,5 @@ GitHub：https://github.com/zhaocathy1221-hash/ai-heartpower-coach
 工具和教程是最不值钱的护城河，真正的壁垒是立刻开干，以及圈层里的信息差。
 我们只拆商业闭环，只榨 AI 效率。系统里已经沉淀了 1000+ 跑通的套利实战。
 ❤ 查阅圈子数字资产与入场门槛：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7fec0387115b696fb9bbf29c6ce1e3cb_18_0.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7fec0387115b696fb9bbf29c6ce1e3cb_18_1.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7fec0387115b696fb9bbf29c6ce1e3cb_21_0.png>
+![](img/zhuanqian_7fec0387115b696fb9bbf29c6ce1e3cb_18_0.png)![](img/zhuanqian_7fec0387115b696fb9bbf29c6ce1e3cb_18_1.png)
+![](img/zhuanqian_7fec0387115b696fb9bbf29c6ce1e3cb_21_0.png)

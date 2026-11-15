@@ -15,7 +15,7 @@
 手机和电脑当然也能录音，软件也可以完成转写、总结和整理。但飞书录音豆依然找到了自己的位置。
 为什么？
 因为真正需要记录时，它少了很多中间步骤。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3af638614db2317169fbe5e8eebe914e_0_0.png>
+![](img/zhuanqian_3af638614db2317169fbe5e8eebe914e_0_0.png)
 如果用手机录音，通常要先拿出手机、解锁、找到 App，再点击录音。短短几步，就可能让刚刚冒出来的想法彻底消失。
 而录音豆把这一过程压缩成了一个动作：按下按钮，先把内容留下，后续再交给 AI 处理。
 所以今天想和大家聊聊：AI 时代，那些看似不起眼的小产品，为什么也可能成为机会。
@@ -34,7 +34,7 @@
 表面上看，这只是一个显示信息的小屏幕，但它对应的是一个越来越普遍的使用场景。
 现在，Claude 有额度，Codex 有额度，API 有额度，账号也有各种限制。与此同时，任务在持续运行，终端日志不断刷新，项目还在推进。
 信息越来越多，反而更容易被忽略。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3af638614db2317169fbe5e8eebe914e_1_0.png>
+![](img/zhuanqian_3af638614db2317169fbe5e8eebe914e_1_0.png)
 对于重度 AI 用户来说，额度本身就是生产资料。
 还剩多少、什么时候恢复、今天用了多少，这些数据本来就需要反复确认。把它们放到桌面上，抬头就能看到，已经足够解决问题。
 这个案例最值得学习的地方，不是硬件本身，而是它抓住了一个非常具体的高频场景。
@@ -42,7 +42,7 @@
 ## 案例二：VibeCoding 状态灯，让 AI 的工作进度变得可见
 第二个案例，是一款面向 AI 程序员的桌面提示灯。
 作者看到类似创意后，自己很快做出了一个版本。硬件部分并不复杂，使用三通道 USB GPIO 模块驱动，再让 Codex 编写 Python 脚本，将软件运行状态映射成不同颜色。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3af638614db2317169fbe5e8eebe914e_2_0.png>
+![](img/zhuanqian_3af638614db2317169fbe5e8eebe914e_2_0.png)
 红色、黄色、绿色，摆在电脑旁边，就像一个迷你版交通信号灯。
 评论区同样出现了不少延伸需求：
 - 有人表示自己直接接了一块屏幕；
@@ -62,7 +62,7 @@ AI 编程时，很多关键状态都藏在终端窗口里：
 - 播放与暂停；
 - 音量调节；
 - 音乐控制。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3af638614db2317169fbe5e8eebe914e_3_0.png>
+![](img/zhuanqian_3af638614db2317169fbe5e8eebe914e_3_0.png)
 这条内容的数据并不算特别夸张，但评论区里已经出现了明确的购买意愿，有人直接询问在哪里可以买到。
 我顺便看了一下 M5Stack 的官方产品，会发现它的模块化生态已经相当成熟。
 StickC Plus、Base、Core、各种传感器、显示屏和外壳，都可以直接购买。
@@ -75,8 +75,8 @@ Spotify 控制器解决的事情很简单：播放音乐、调节音量。
 它解决的同样不是宏大的问题：用户不必每次打开 App、寻找入口，只需转动旋钮，就可以完成控制。
 还有一种早期 AI 语音硬件，目前正在招募内测用户。
 它的使用方式也很直接：按一下，对着设备说出灵感、待办或日程，再让 AI 帮你整理内容、查询信息，或者继续处理刚才说到的事情。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3af638614db2317169fbe5e8eebe914e_5_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3af638614db2317169fbe5e8eebe914e_5_1.png>
+![](img/zhuanqian_3af638614db2317169fbe5e8eebe914e_5_0.png)
+![](img/zhuanqian_3af638614db2317169fbe5e8eebe914e_5_1.png)
 把这些产品放在一起，就能看出它们共同解决的是什么：
 - Claude、Codex 的额度，过去需要打开页面查询，现在看一眼桌面屏幕即可；
 - AI 编程的运行状态，过去要切回终端确认，现在通过灯光就能感知；
@@ -144,4 +144,4 @@ M5Stack、ESP32、小型显示屏、按钮、旋钮、传感器和 USB 模块，
 这里不讨论空泛概念，只拆解商业闭环，持续挖掘 AI 工具带来的效率与变现机会。目前，系统内已经沉淀了 1000+ 个跑通的套利实战案例。
 👉 查阅圈子完整数字资产与上车门槛：
 如果你认同这套价值，并已经准备好亲自下场，欢迎扫码添加我的微信（）。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3af638614db2317169fbe5e8eebe914e_8_0.png>
+![](img/zhuanqian_3af638614db2317169fbe5e8eebe914e_8_0.png)

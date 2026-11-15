@@ -1,13 +1,13 @@
 # 新手做 YouTube：两个月解锁高级档 YPP 复盘（附可复用提示词模板）
 文少，龙哥盟第 7 期学员。现在靠自己接项目谋生，主阵地是微信短视频平台和 YouTube 频道。
 六月的 YouTube Shorts 活动，我头一回报名就冲进个人总榜第二，连续签到 21 天，最后顺利解锁高级档 YPP。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ec24a162141239b259bb4a5676807f5d.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_15a8371368de43fa914fa517cd67aca7.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bab1a564a05e9223dccadc22fb33c686.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f9c8e3ddf4ac53075c84fc235a74f634.png>
+![](img/zhuanqian_ec24a162141239b259bb4a5676807f5d.png)
+![](img/zhuanqian_15a8371368de43fa914fa517cd67aca7.png)
+![](img/zhuanqian_bab1a564a05e9223dccadc22fb33c686.png)
+![](img/zhuanqian_f9c8e3ddf4ac53075c84fc235a74f634.png)
 活动进行中，有工作人员来问我，能不能在群里给船员做一次优秀学员分享。可当时我连初级档 YPP 的影子都没看见，手头只有几条破百万观看的片子；加上原来的救婴儿题材已经被明确叫停，真拿不出太多干货，于是回绝了。
 结果转型后一切提速：收官日初级档达成，高级档随后也开了，第一笔美金顺利落袋——这项目算是走通了。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_08d93f73db48793c6737a01d5dc1c23f.png>
+![](img/zhuanqian_08d93f73db48793c6737a01d5dc1c23f.png)
 既然补分享，就干脆写篇完整复盘，也算给这次体验留个纪念。
 老规矩：下笔之前，请先把官方手册从头到尾读一遍，别跳过任何一节。你会遇到的绝大多数问题，那本手册基本都能解答。
 本篇按五个部分走：
@@ -24,8 +24,8 @@
 难免有点低落，但没时间沮丧。当晚我物色好新的参考号，次日（活动首日）发布了一条全新内容。接着一路做到收官，终于触到初级档的门槛。
 按这个速度计算：初级档用了 21 天，高级档则约三十天后自动开通。
 此时频道总观看量接近 6000 万：破千万的片子有两条，百万级约莫 10 条，最高单条也过了 1000 万。高级档前天下午才生效，所以广告分成不多——截图是第一笔收益到账。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0fc24b8f160c41e089b7879643c456c2.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0a34ddf8388f06dbe0d41fd72579cc68.png>
+![](img/zhuanqian_0fc24b8f160c41e089b7879643c456c2.png)
+![](img/zhuanqian_0a34ddf8388f06dbe0d41fd72579cc68.png)
 当初刚准备入场时，我看到的要求是：
 - 初级档：500 订阅用户，横屏内容累计观看 3000 小时，或竖屏内容累计观看 300 万次；
 - 高级档：1000 订阅用户，横屏内容累计观看 4000 小时，或竖屏内容累计观看 1000 万次。
@@ -33,7 +33,7 @@
 注意：竖屏内容的播放量不会计入横屏观看时长；初级档只开放会员功能和带货权限，广告分成属于高级档。
 很多人开局应该和我一样，看着这些数字直接头皮发麻，担心一周期内凑不够，下一考核周期又要从头再来。
 后来问过教练才知道：只要 90 天内通过初级档，高级档对应的 4000 小时指标会顺延为 12 个月。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_90d2165ab81ecda4212def1e75e79dac.png>
+![](img/zhuanqian_90d2165ab81ecda4212def1e75e79dac.png)
 换句话说，初级一旦到手，时间压力基本解除，后续只要数据齐了，系统会自动升到高级。
 当时我给自己的策略是：先把初级拿下，万一卡时长，之后用横屏内容慢慢堆。
 这么一想，心里踏实多了。
@@ -47,14 +47,14 @@
 所以你看，YouTube 的准入门槛，真被很多人想复杂了。
 ### 2. 选题：怎么物色参考对象与内容方向
 想省事的话，新手可以直接照抄官方手册里推荐的主题，常见选择基本都排在那里。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b70b3a727dfa38299ddcce1f95d3519b.png>
+![](img/zhuanqian_b70b3a727dfa38299ddcce1f95d3519b.png)
 我现在的主类是动物故事，更早则是救婴儿方向。
 这里单独提一句：让婴儿出现在险境、再由动物出手相救的设定，如今已经过不了 YPP。若还在做，建议先把已发内容慢慢转私密，等新方向稳定后再清掉旧作，最后按新数据去申请。
 我找方向的方法很笨，纯手动：先搜索，再喂推荐。
 比如当下神话动物二创、萌宠搞笑混剪、ASMR 都挺热，我就用中英文关键词去搜，再顺着内容页的标签去找同类作者。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bd210e9abbc0d826aac53a82ceea50ef.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f9ade59e60a8e2d5ee04808de00c2ee0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_68b6cbb314b9f3fb6ac03781eb6d224e.png>
+![](img/zhuanqian_bd210e9abbc0d826aac53a82ceea50ef.png)
+![](img/zhuanqian_f9ade59e60a8e2d5ee04808de00c2ee0.png)
+![](img/zhuanqian_68b6cbb314b9f3fb6ac03781eb6d224e.png)
 遇到满意的内容就点赞或关注，再回到 Shorts 的推荐流继续刷，把真人感强、非 AI 风、不喜欢的作品统一“不喜欢”。重复几轮，系统推给我的基本就成了 AI 类内容。
 我筛选参考号的标准大概是这样：
 - 7 天内能看到一条百万次观看的作品；
@@ -62,10 +62,10 @@
 - 大多数作品稳定在 10 万次观看以上，数据越漂亮越好；
 - 可复制性要强，不能依靠强 IP 或真人出镜。
 符合这些条件的账号，我就会直接收进参考库，比如下面这些：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_99f08781421353a9f8a269aa340877e7.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_72e1ec195d18fc09810b0373e7967f7c.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7ac591490dab06527aa39750b095e7f8.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1ff1d36460448a76721e8dd55f3c3e55.png>
+![](img/zhuanqian_99f08781421353a9f8a269aa340877e7.png)
+![](img/zhuanqian_72e1ec195d18fc09810b0373e7967f7c.png)
+![](img/zhuanqian_7ac591490dab06527aa39750b095e7f8.png)
+![](img/zhuanqian_1ff1d36460448a76721e8dd55f3c3e55.png)
 另外，官方手册里也有对标分析工具，有兴趣的可以自己去翻。我是不喜欢折腾工具的人，让我研究一个工具，不如拿那点时间去多刷几个参考号。找到适合自己的节奏就行。
 ### 3. 实操：一条横屏内容如何从 0 到 1
 最近我的内容画风大致长这样：
@@ -143,8 +143,8 @@
 ▸ 用户输入：「[在此插入您的故事梗概]」</apartment_balcony_03></calico_cat_01></golden_retriever_01></suburban_street_01></calico_cat_01>
 ```
 记得自己改下狗狗和猫的特征，比如换成其它品种和颜色，或者把小猫换成其它动物都行，把这个提示词发给deepseek、chatgpt或者gemini等大模型，然后描述一下故事梗概就行了，越详细越好。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_eebc9a604e1fcda33c497be958d32fa0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_01c245795d280d228b4d371f0104cb39.png>
+![](img/zhuanqian_eebc9a604e1fcda33c497be958d32fa0.png)
+![](img/zhuanqian_01c245795d280d228b4d371f0104cb39.png)
 第一次发送后，后面直接在对话框里面输入你的故事梗概就行，不用每次都发提示词。
 以下是deepseek给我的结果：
 ```
@@ -183,22 +183,22 @@
 就像现在，摆在我面前的“素材”，干净得像一张白纸，只留下一个孤零零的记号——```
 image_prompt就是文生图的提示词，video_motion就是图生视频的提示词。
 我们依次复制每个镜头的提示词到豆包生成图片，即梦更新后越来越傻了，感觉没有豆包生成的好（严重怀疑即梦的生图能力权重给到豆包了），生成好后选择其中一个适合的就行，如果觉得生成不行，可以微调提示词。（下面的文生图提示词我基本没调）
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_447892c6dc30a5eca8ea03bef4edd067.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_927861389b3bd0cd1cb121202abe1216.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d13990169834653f66fda47556476ed4.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_dce0f6dc64071f51de768a9e9e39addb.png>
+![](img/zhuanqian_447892c6dc30a5eca8ea03bef4edd067.png)
+![](img/zhuanqian_927861389b3bd0cd1cb121202abe1216.png)
+![](img/zhuanqian_d13990169834653f66fda47556476ed4.png)
+![](img/zhuanqian_dce0f6dc64071f51de768a9e9e39addb.png)
 所有镜头图片生成好后下载下来，把水印截掉，之前还可以用无水印插件下载，但是现在豆包更新了，水印直接帖在生成后的图片了，只有下载后把水印截掉。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8ee384bf73af0c607857de0cec77f4f8.png>
+![](img/zhuanqian_8ee384bf73af0c607857de0cec77f4f8.png)
 水印截掉后，我们在豆包重新开一个窗口选择视频生成，上传参考图，当然可灵和其它视频模型也行。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fb269715e64d6b8a1d01a9a6763dc2fe.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_26a53e4a461e544013f91da6a78c162a.png>
+![](img/zhuanqian_fb269715e64d6b8a1d01a9a6763dc2fe.png)
+![](img/zhuanqian_26a53e4a461e544013f91da6a78c162a.png)
 然后复制Deepseek给的对应的图生视频提示词，记得自己微调一下，不要直接无脑复制。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a5a9efdf9ac645b3ef0288e618da7d71.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_98e407e531485d140bc66ce780c9da4a.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a269aacdb7a1f88d7f54b8cb4e1189b9.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0b87dc9be694954d92f51b2cc0a049bb.png>
+![](img/zhuanqian_a5a9efdf9ac645b3ef0288e618da7d71.png)
+![](img/zhuanqian_98e407e531485d140bc66ce780c9da4a.png)
+![](img/zhuanqian_a269aacdb7a1f88d7f54b8cb4e1189b9.png)
+![](img/zhuanqian_0b87dc9be694954d92f51b2cc0a049bb.png)
 所有视频生成后我们放到剪映进行剪辑+音效，图生视频也有水印，记得在剪映截掉。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5640bd8e1a7940c202cd9a8ff683eb15.png>
+![](img/zhuanqian_5640bd8e1a7940c202cd9a8ff683eb15.png)
 最后我们来看看效果：
 当然，还有些细节可以优化一下，比如小猫刚开始没有项圈，但在镜头4的时候带了项圈，然后镜头4的小猫毛发不是湿的。
 这些细节可以在生图的时候再优化一下，但是不影响大局，用户在观看的时候其实并不关心你这个是不是AI生成的或者镜头有什么穿帮环节，最重要的还是故事内容本身。
@@ -209,35 +209,35 @@ image_prompt就是文生图的提示词，video_motion就是图生视频的提�
 方法都是通用的，无非就是改下提示词，多加几个镜头而已。
 视频制作好后就可以去发布了，标题和简介可以参考对标，标签最好不要加“cute”，容易被判成「面向儿童」。
 然后下面的选项选择「不是面向儿童」，「是」加工的内容，类型「宠物和动物」，其它几个随便选就行。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_49f7da0eb4feaffbbeddc7428e13a2c8.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b5e4c3981f0fe3e6311d05ea62b39d85.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9168bd83c2e0bc331e975ed1f750238c.png>
+![](img/zhuanqian_49f7da0eb4feaffbbeddc7428e13a2c8.png)
+![](img/zhuanqian_b5e4c3981f0fe3e6311d05ea62b39d85.png)
+![](img/zhuanqian_9168bd83c2e0bc331e975ed1f750238c.png)
 我第一次发的视频选择了面向儿童，所以才导致视频发出去一晚上才十几个播放量，这个大家注意一下。
 然后还有个细节要注意一下，就是剪映里面的草稿和豆包或者即梦下载下来的视频源文件不要删，后面申诉会用到（如果ypp审核没过的话）。
 ### 四、ypp审核没过怎么办？
 在满500粉，shorts有效播放量达到300w后就去申请初级ypp，如果之前有版权问题或者违规的视频记得删掉，然后再去申请ypp。
 我第一次申请的时候也是提示没过，原因是利用他人内容。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e21ef1459a987ced111bac66817a574c.png>
+![](img/zhuanqian_e21ef1459a987ced111bac66817a574c.png)
 没办法，AI生成的视频大概率会出现这种情况，如果想避免这种情况，在ypp进度200w的时候可以在视频加人头像增加原创率。
 加人头像的方法航海手册里面也有，详细可看手册里的这个视频教程，从第8分钟开始看。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5656bfe74852cea5090a5ca046423ad5.png>
+![](img/zhuanqian_5656bfe74852cea5090a5ca046423ad5.png)
 那已经被判利用他人内容的怎么办呢？
 这种情况只有申诉，申诉是要上传一条视频，证明这个内容是你原创的，可以先看看波妮教练这个帖子：https://scys.com/articleDetail/xq_topic/1525145154284412 ，上面三个链接视频都可以2倍速快速看一下，然后再去申诉。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2c790e03b3606836df835d9baaed8f74.png>
+![](img/zhuanqian_2c790e03b3606836df835d9baaed8f74.png)
 首先心态一定要放平，人在江湖走，哪能不挨刀，我第一次就过了的话不还没机会写这部分对吧哈哈哈。
 youtube不是特意针对你，youtube是机审+人工审核的，如果人工没办法100%确定你的内容是原创的，那么他们会偏向于能不过就不过。
 这里也说下我是怎么申诉的，首先电脑下载一个腾旭会议，选择录屏，然后选择人像+屏幕开始录制，屏幕的头像记得拖到右下角或者左下角。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7c0e8d94ed046e22447ba174c9b3b63c.png>
+![](img/zhuanqian_7c0e8d94ed046e22447ba174c9b3b63c.png)
 然后录制的流程大概是先来到你的频道主页，简单介绍一下你的这个频道主要是做什么内容的，可以点进你视频看一下。
 接着来到youtube工作室-创收里面说下你没通过的原因是什么。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1bca1db7b65cb7952f094a43366b8f3a.png>
+![](img/zhuanqian_1bca1db7b65cb7952f094a43366b8f3a.png)
 然后再来到豆包或者即梦说一下你文生图和图生视频阶段是怎么样的。
 这个说完后再来到剪映草稿里面，展示一下你之前视频的剪辑工程，可以多看几个，然后再来到你放源素材的文件，也就是你从即梦或者豆包下载下来的视频，可以多点几个看看并说明这个是无声的，声音是剪映后期配的。
 最后再次强调说你的视频不是利用他人内容，都是自己原创制作的，然后打打感情牌说自己是第一次做youtube，还有很多地方需要学习，但我会用心去做好这个账号的，希望平台能再次帮我审核通过巴拉巴拉一堆这种.....你们懂的~
 录制完成后放到剪映里面剪辑一下，把中文字幕加上，ypp是有中文审核员的，时间控制在3分钟以上，5分钟以内，可以变速。
 最后上传申诉就行了，有一个地方要特别注意，提交申诉后，你频道之前发布的视频就不要再删了，删了的话youtube是不会审核你的申诉的。
 提交之后一周内就会有结果，我是大概三天左右就收到审核邮件了。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0be8fd443f3f4a079f79299c6f2efa49.png>
+![](img/zhuanqian_0be8fd443f3f4a079f79299c6f2efa49.png)
 ### 五、写在最后
 最后来聊聊心态方面。
 说实话，在这两个多月中，我的心态也崩过。
@@ -264,22 +264,22 @@ youtube不是特意针对你，youtube是机审+人工审核的，如果人工�
 它就是：```
 image_prompt就是文生图的提示词，video_motion就是图生视频的提示词。
 我们依次复制每个镜头的提示词到豆包生成图片，即梦更新后越来越傻了，感觉没有豆包生成的好（严重怀疑即梦的生图能力权重给到豆包了），生成好后选择其中一个适合的就行，如果觉得生成不行，可以微调提示词。（下面的文生图提示词我基本没调）
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_447892c6dc30a5eca8ea03bef4edd067.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_927861389b3bd0cd1cb121202abe1216.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d13990169834653f66fda47556476ed4.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_dce0f6dc64071f51de768a9e9e39addb.png>
+![](img/zhuanqian_447892c6dc30a5eca8ea03bef4edd067.png)
+![](img/zhuanqian_927861389b3bd0cd1cb121202abe1216.png)
+![](img/zhuanqian_d13990169834653f66fda47556476ed4.png)
+![](img/zhuanqian_dce0f6dc64071f51de768a9e9e39addb.png)
 所有镜头图片生成好后下载下来，把水印截掉，之前还可以用无水印插件下载，但是现在豆包更新了，水印直接帖在生成后的图片了，只有下载后把水印截掉。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8ee384bf73af0c607857de0cec77f4f8.png>
+![](img/zhuanqian_8ee384bf73af0c607857de0cec77f4f8.png)
 水印截掉后，我们在豆包重新开一个窗口选择视频生成，上传参考图，当然可灵和其它视频模型也行。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fb269715e64d6b8a1d01a9a6763dc2fe.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_26a53e4a461e544013f91da6a78c162a.png>
+![](img/zhuanqian_fb269715e64d6b8a1d01a9a6763dc2fe.png)
+![](img/zhuanqian_26a53e4a461e544013f91da6a78c162a.png)
 然后复制Deepseek给的对应的图生视频提示词，记得自己微调一下，不要直接无脑复制。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a5a9efdf9ac645b3ef0288e618da7d71.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_98e407e531485d140bc66ce780c9da4a.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a269aacdb7a1f88d7f54b8cb4e1189b9.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0b87dc9be694954d92f51b2cc0a049bb.png>
+![](img/zhuanqian_a5a9efdf9ac645b3ef0288e618da7d71.png)
+![](img/zhuanqian_98e407e531485d140bc66ce780c9da4a.png)
+![](img/zhuanqian_a269aacdb7a1f88d7f54b8cb4e1189b9.png)
+![](img/zhuanqian_0b87dc9be694954d92f51b2cc0a049bb.png)
 所有视频生成后我们放到剪映进行剪辑+音效，图生视频也有水印，记得在剪映截掉。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5640bd8e1a7940c202cd9a8ff683eb15.png>
+![](img/zhuanqian_5640bd8e1a7940c202cd9a8ff683eb15.png)
 最后我们来看看效果：
 当然，还有些细节可以优化一下，比如小猫刚开始没有项圈，但在镜头4的时候带了项圈，然后镜头4的小猫毛发不是湿的。
 这些细节可以在生图的时候再优化一下，但是不影响大局，用户在观看的时候其实并不关心你这个是不是AI生成的或者镜头有什么穿帮环节，最重要的还是故事内容本身。
@@ -290,35 +290,35 @@ image_prompt就是文生图的提示词，video_motion就是图生视频的提�
 方法都是通用的，无非就是改下提示词，多加几个镜头而已。
 视频制作好后就可以去发布了，标题和简介可以参考对标，标签最好不要加“cute”，容易被判成「面向儿童」。
 然后下面的选项选择「不是面向儿童」，「是」加工的内容，类型「宠物和动物」，其它几个随便选就行。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_49f7da0eb4feaffbbeddc7428e13a2c8.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b5e4c3981f0fe3e6311d05ea62b39d85.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9168bd83c2e0bc331e975ed1f750238c.png>
+![](img/zhuanqian_49f7da0eb4feaffbbeddc7428e13a2c8.png)
+![](img/zhuanqian_b5e4c3981f0fe3e6311d05ea62b39d85.png)
+![](img/zhuanqian_9168bd83c2e0bc331e975ed1f750238c.png)
 我第一次发的视频选择了面向儿童，所以才导致视频发出去一晚上才十几个播放量，这个大家注意一下。
 然后还有个细节要注意一下，就是剪映里面的草稿和豆包或者即梦下载下来的视频源文件不要删，后面申诉会用到（如果ypp审核没过的话）。
 ### 四、ypp审核没过怎么办？
 在满500粉，shorts有效播放量达到300w后就去申请初级ypp，如果之前有版权问题或者违规的视频记得删掉，然后再去申请ypp。
 我第一次申请的时候也是提示没过，原因是利用他人内容。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e21ef1459a987ced111bac66817a574c.png>
+![](img/zhuanqian_e21ef1459a987ced111bac66817a574c.png)
 没办法，AI生成的视频大概率会出现这种情况，如果想避免这种情况，在ypp进度200w的时候可以在视频加人头像增加原创率。
 加人头像的方法航海手册里面也有，详细可看手册里的这个视频教程，从第8分钟开始看。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5656bfe74852cea5090a5ca046423ad5.png>
+![](img/zhuanqian_5656bfe74852cea5090a5ca046423ad5.png)
 那已经被判利用他人内容的怎么办呢？
 这种情况只有申诉，申诉是要上传一条视频，证明这个内容是你原创的，可以先看看波妮教练这个帖子：https://scys.com/articleDetail/xq_topic/1525145154284412 ，上面三个链接视频都可以2倍速快速看一下，然后再去申诉。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2c790e03b3606836df835d9baaed8f74.png>
+![](img/zhuanqian_2c790e03b3606836df835d9baaed8f74.png)
 首先心态一定要放平，人在江湖走，哪能不挨刀，我第一次就过了的话不还没机会写这部分对吧哈哈哈。
 youtube不是特意针对你，youtube是机审+人工审核的，如果人工没办法100%确定你的内容是原创的，那么他们会偏向于能不过就不过。
 这里也说下我是怎么申诉的，首先电脑下载一个腾旭会议，选择录屏，然后选择人像+屏幕开始录制，屏幕的头像记得拖到右下角或者左下角。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7c0e8d94ed046e22447ba174c9b3b63c.png>
+![](img/zhuanqian_7c0e8d94ed046e22447ba174c9b3b63c.png)
 然后录制的流程大概是先来到你的频道主页，简单介绍一下你的这个频道主要是做什么内容的，可以点进你视频看一下。
 接着来到youtube工作室-创收里面说下你没通过的原因是什么。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1bca1db7b65cb7952f094a43366b8f3a.png>
+![](img/zhuanqian_1bca1db7b65cb7952f094a43366b8f3a.png)
 然后再来到豆包或者即梦说一下你文生图和图生视频阶段是怎么样的。
 这个说完后再来到剪映草稿里面，展示一下你之前视频的剪辑工程，可以多看几个，然后再来到你放源素材的文件，也就是你从即梦或者豆包下载下来的视频，可以多点几个看看并说明这个是无声的，声音是剪映后期配的。
 最后再次强调说你的视频不是利用他人内容，都是自己原创制作的，然后打打感情牌说自己是第一次做youtube，还有很多地方需要学习，但我会用心去做好这个账号的，希望平台能再次帮我审核通过巴拉巴拉一堆这种.....你们懂的~
 录制完成后放到剪映里面剪辑一下，把中文字幕加上，ypp是有中文审核员的，时间控制在3分钟以上，5分钟以内，可以变速。
 最后上传申诉就行了，有一个地方要特别注意，提交申诉后，你频道之前发布的视频就不要再删了，删了的话youtube是不会审核你的申诉的。
 提交之后一周内就会有结果，我是大概三天左右就收到审核邮件了。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0be8fd443f3f4a079f79299c6f2efa49.png>
+![](img/zhuanqian_0be8fd443f3f4a079f79299c6f2efa49.png)
 ### 五、写在最后
 最后来聊聊心态方面。
 说实话，在这两个多月中，我的心态也崩过。

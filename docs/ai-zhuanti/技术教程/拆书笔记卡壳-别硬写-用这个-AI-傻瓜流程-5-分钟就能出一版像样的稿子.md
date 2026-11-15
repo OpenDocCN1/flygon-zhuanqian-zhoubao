@@ -7,13 +7,13 @@
 看到群里不少人跃跃欲试，我就顺手整理了一套 prompt 分享给大家～
 现在写读书笔记还能变现吗？
 给几个可以落地的思路！相信你脑子转一转，就能再联想到更多玩法，大家都是明白人，就不多展开了。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9d799c2732c3be260ac9a763eb05904c.png>
+![](img/zhuanqian_9d799c2732c3be260ac9a763eb05904c.png)
 但现实是很多人要么写得很平庸，要么写一篇笔记要耗费大半天。那咋办？
 我把市面上常用的拆书框架，比如 5W1H、蒙太奇、笛卡尔分析、洋葱阅读法这些，全部封装进了 prompt 里。即使你是零基础小白，也能快速冲到及格线60分，发挥好了拿个80分也不难。
 剩下的分差，就靠个人的打磨了。AI 再厉害也只是个工具。它模拟不出你独有的审美和共鸣，做不到百分百贴合你的品味。
 设计思路是什么？说实话拆书方法论我也不是全懂。那就让 AI 去搜、让网络去补。先凑齐一套可用的方法，再从中挑。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2653450305a5ce583f64c90c615f459a.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_db6f266efd19350ab73bb1a455bb00fe.png>
+![](img/zhuanqian_2653450305a5ce583f64c90c615f459a.png)
+![](img/zhuanqian_db6f266efd19350ab73bb1a455bb00fe.png)
 我同时问了几款 AI，得到的答案各有侧重，挑自己顺眼的那套就行。
 如果你手里本来就有私藏方法论，或者找到更好的框架，直接把它提炼成 prompt 用就完事了。
 下面是我总结出来的实操路径。
@@ -177,9 +177,9 @@ new.introduction()
 ```
 ## prompt 0.2 可选参考
 workflow 这部分可以根据你的实际需求做微调，其他模块也是同理。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_59c6ca4ff2803a75b98dfa2dc7637f2b.png>
+![](img/zhuanqian_59c6ca4ff2803a75b98dfa2dc7637f2b.png)
 例如把 workflow 改成下面的样子，结构不变，内容更顺手。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9fc796cc1d45ea2a9c2313a62d668cf5.png>
+![](img/zhuanqian_9fc796cc1d45ea2a9c2313a62d668cf5.png)
 ```
 # Role: 书籍拆解大师
 ## Background
@@ -327,42 +327,42 @@ new.introduction()
 该演示还详细说明了prompt0.4的操作流程。
 1、输入prompt，进入初始化模式；
 如果没有进入，强调让它遵守指令，可以复制workflow区块给它
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4ea862e4bef93a3b022ea2cf511bbf7c.png>
+![](img/zhuanqian_4ea862e4bef93a3b022ea2cf511bbf7c.png)
 2、输入书籍
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8edfcc364cbcb09b1897b7359d2a5b8a.png>
+![](img/zhuanqian_8edfcc364cbcb09b1897b7359d2a5b8a.png)
 3、不满意询问寻求更多答案
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fe7c4861d2671616caa96f309149c8e0.png>
+![](img/zhuanqian_fe7c4861d2671616caa96f309149c8e0.png)
 4、选择喜欢的方法
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a7431aaf65ec0bc63c758a304a317776.png>
+![](img/zhuanqian_a7431aaf65ec0bc63c758a304a317776.png)
 5、让它根据4生成大纲
 大纲不好就换就优化就给建议
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_13e1fdd3edef4ac2c9ea3e6668de45cd.png>
+![](img/zhuanqian_13e1fdd3edef4ac2c9ea3e6668de45cd.png)
 6、要求分块创作输出
 图片里应该是<适当引用原文>少打字了幸好对结果的影响不大
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9bb1c00810eb911f3662a2c694559e98.png>
+![](img/zhuanqian_9bb1c00810eb911f3662a2c694559e98.png)
 7、不好的地方可以让AI自动找出并选择优化
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_42aa55bb68b83f6a82467b1416d13425.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_62af65263b8b182cb10250c2a72a7b12.png>
+![](img/zhuanqian_42aa55bb68b83f6a82467b1416d13425.png)
+![](img/zhuanqian_62af65263b8b182cb10250c2a72a7b12.png)
 8、继续，重复之前1、7的步骤
 偷懒的时候就提醒AI
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bfe1d6ab72a927692aa1aadbe9ae5f2a.png>
+![](img/zhuanqian_bfe1d6ab72a927692aa1aadbe9ae5f2a.png)
 补充使用说明：
 1、prompt任意板块都可以用你喜欢的内容更改，但最好不要大改
 2、workflow可以按照你喜欢的操作流程来设计
 3、没有好的优化建议的时候，可以让AI替你提意见，而后直接让它帮你优化，如果有，就直接提。
 eg:
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2ac7c6415e5b374622185d413bc3632f.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_34bb7053ba1db7686e9b507b6a819403.png>
+![](img/zhuanqian_2ac7c6415e5b374622185d413bc3632f.png)
+![](img/zhuanqian_34bb7053ba1db7686e9b507b6a819403.png)
 4、生成的内容不满意，你可以让它使用各种风格润色，幽默、大白话、鲁迅、王小波都可以……如果生成内容不满意，可在prompt中增加小样本训练，即样本演示。
 5、AI生成内容还是会胡编乱造，如果对真实性有严格要求，一定要手动检查
 6、AI只是工具，可以把你从0分的水平提到50-60分，偶尔会有80分的表现，但如果再进阶，只能靠自身修炼了。
 7、如果你发现一次 prompt 发过去后，AI 并没有按你想要的方式给出结果，别急着重来一遍，直接在对话里强调“请严格按照指令执行”，让它回到初始状态重新理解任务。实际上每个环节都可以加上这种提醒，必要时让它自行修正输出。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5439819920588642f7b389e9e3e6bd5c.png>
+![](img/zhuanqian_5439819920588642f7b389e9e3e6bd5c.png)
 举个例子，就像前面那张图里展示的情况，GPT-3.5 明显跑偏了，没有执行要求。这时只要在对话中补一句 <请你遵守指令>，就能把它拉回来，让输出恢复正常。用下来基本都有效，目前还没碰到完全失灵的情况，当然也无法保证百分百不出意外。
 另外一种做法是把完整的 workflow 流程直接复制粘贴回去投喂给它，也能起到唤醒作用，让它重新进入正确轨道。
 https://chat.openai.com/share/1a883177-2eb2-411e-be29-fc56fe976f9c
 前面分享的操作演示，基本上把常用的使用诀窍都涵盖了，关键还是要看清流程和具体做法。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d1e2bd4cdf6235f0e490048c8dd9c42a.png>
+![](img/zhuanqian_d1e2bd4cdf6235f0e490048c8dd9c42a.png)
 8、结构化 prompt 确实更稳，但本质上它仍是一个“文字接力机器”。时间长了它就会出现“不听话”的情况，这时候就需要适度给它施压或提示，比如在对话框里追加“请把重复率控制在30%以下”、“篇幅要达到1200字”、“请务必遵守指令”之类的约束条件。
 9、对于 AI 生成内容的重复率是否达标心里没底时，最稳妥的做法还是拿去第三方查重平台检测一下。
 帮助了 700+人的高赞贴

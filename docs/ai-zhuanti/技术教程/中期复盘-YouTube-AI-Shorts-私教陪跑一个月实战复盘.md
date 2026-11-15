@@ -10,39 +10,39 @@
 累计 43 个账号已开通 YPP，涉及 31 位学员，开通率 29.8%，人均 0.41 个 YPP 账号；
 其中 21 个达到高级 YPP，4 个达到初级 YPP，18 个已达标待系统更新，基本均为高级 YPP，YouTube 数据更新通常在一周内完成。
 需要强调的是，YPP 通行的审核周期普遍在半年至一年。以上 30 余位新开通学员中，除个位数在陪跑前已开通外，其余皆在陪跑期内达成，这在过往油管陪跑案例中实属罕见。先向为结果付出努力的全体学员与赚钱同学致敬，你们真的很强！
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f2c5a6cb9adc4cc1136b1624b38da524.png>
+![](img/zhuanqian_f2c5a6cb9adc4cc1136b1624b38da524.png)
 学员 YouTube 账号数据总览，22 天新增播放量约 2.6 亿，累计播放量达 3.5 亿。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1280c1638e5bfe66939429d929b94219.png>
+![](img/zhuanqian_1280c1638e5bfe66939429d929b94219.png)
 部分学员在开通 YPP 后的收益截图：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_143b69aeb22ecc0a989e6cbc3a93ac20.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_27065d712df438356fb404c69be70223.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_93eecdee492f98f842f6402e8bb51bd8.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0542a477727b74bd91446b7c0cd70b90.png>
+![](img/zhuanqian_143b69aeb22ecc0a989e6cbc3a93ac20.png)
+![](img/zhuanqian_27065d712df438356fb404c69be70223.png)
+![](img/zhuanqian_93eecdee492f98f842f6402e8bb51bd8.png)
+![](img/zhuanqian_0542a477727b74bd91446b7c0cd70b90.png)
 # 二、交付体系如何搭建
 方波妮教练与我如何设计这次首届私教陪跑，让大家能在正确赛道上稳定发力？诞生背景坤汀哥已有介绍，这里聚焦交付环节的具体打法。
 整体交付拆分为四大模块：
 ## 2.1 私教陪跑手册
 手册是这次陪跑的核心弹药库，覆盖赛道筛选、内容生产、运营打法、变现路径、常见问题等全流程，并根据学员反馈与新挖掘的玩法持续迭代。目前纯文字部分已达 5.5 万字。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a66e12d45948016f374528848d560235.png>
+![](img/zhuanqian_a66e12d45948016f374528848d560235.png)
 这份资料目前在国内应该是覆盖最全、最前沿的 AI 油管实操指南。目录预览如下：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a81482d2c6e4f1509e686c41e2d6d55a.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a025363bf73539ef17e173be385c58b0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cd321a61eca468734944354abc158b0f.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e8ba5d4b74c4687451cdc9a7427a15fd.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5888bd83d9a37abd085998d8e687a7eb.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_51e55ad51296f604632da7ead271ad3e.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_55e7eb6ce169eb23d0508fb662ef3a16.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ff9d7be471790eb8a2e2f6b4d7b18791.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3a76322b39261e96729976c02cd1e6f0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6e5f5946f1f77c0ced4770b24dd7e6cd.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_47034a792b39eb19dbfb6fb88aca459f.png>
+![](img/zhuanqian_a81482d2c6e4f1509e686c41e2d6d55a.png)
+![](img/zhuanqian_a025363bf73539ef17e173be385c58b0.png)
+![](img/zhuanqian_cd321a61eca468734944354abc158b0f.png)
+![](img/zhuanqian_e8ba5d4b74c4687451cdc9a7427a15fd.png)
+![](img/zhuanqian_5888bd83d9a37abd085998d8e687a7eb.png)
+![](img/zhuanqian_51e55ad51296f604632da7ead271ad3e.png)
+![](img/zhuanqian_55e7eb6ce169eb23d0508fb662ef3a16.png)
+![](img/zhuanqian_ff9d7be471790eb8a2e2f6b4d7b18791.png)
+![](img/zhuanqian_3a76322b39261e96729976c02cd1e6f0.png)
+![](img/zhuanqian_6e5f5946f1f77c0ced4770b24dd7e6cd.png)
+![](img/zhuanqian_47034a792b39eb19dbfb6fb88aca459f.png)
 陪跑启动前，我们提前锁定了 5 个以上航海手册未覆盖、门槛较高且具备蓝海潜力的赛道，并配对爆款标杆账号。筛选标准之严苛，可见下图：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cdd0e5af24bdfa3f4ed07a3140eaf193.png>
+![](img/zhuanqian_cdd0e5af24bdfa3f4ed07a3140eaf193.png)
 为何要如此严格？多数人做油管往往道听途说赛道，未经验证就照搬对标开干，忽略了最基础的原则：起步选错方向，后续再怎么努力也只是偏离更远。仍有部分学员在陪跑中沿用旧习惯，需要回到手册与陪跑指引上来。
 赛道与对标确认后，剩下的就是持续做内容，静待结果。因此手册在赛道选择、对标研究与内容制作上的篇幅占比最大，目的就是把“路”铺好。
 同时，手册针对“爆款复刻”和“推流逻辑”两大痛点，结合我们同赛道的大量实操沉淀，做了系统化拆解，既是加速器也是定心丸，助力更快触达爆款与 YPP，也帮助学员建立对账号生命周期的全局观。
 变现层面除 YPP 外，手册还梳理了音乐商单、联盟营销及国内平台分发等路径。例如 @NANA 学员一条视频在视频号斩获 4000 万+ 播放、2600+ 元收益，且数据仍在上涨；多平台累计粉丝与播放量相当可观。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_96f196c741312f473d36fb2cdab1bf36.png>
+![](img/zhuanqian_96f196c741312f473d36fb2cdab1bf36.png)
 还有大量细节与巧思未尽述，陪跑结束后我们会择优提炼回流至航海手册。顺带宣传一下，对手册感兴趣的伙伴请关注下一期私教陪跑。本次手册凝聚百余位学员与教练心血，是 YouTube 航海手册的 Pro Max 版本，仅对陪跑学员开放。
 ## 2.2 1 对 1 咨询
 为解决起号与运营关键卡点，每位学员提供两次一对一咨询机会。这是我们最头疼也最看重的一环。
@@ -50,10 +50,10 @@
 价值何在？陪跑的本质除了陪伴教学，更在于提供“开天眼”式的复盘视角。视野受限时人容易做短期最优但长期次优的决策。1 对 1 让我们能近距离观察个案问题，从微观与宏观双视角给出方向性指导，为整体交付提供关键反馈。
 咨询流程要求学员先自检问题，梳理账号与对标库，锁定卡点后再约谈。会飞书共享屏幕演示，现场解答并整理文档、录屏回看。
 以下为咨询产出文档样本，对学员与我们都极具参考价值：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7964e30fa45443bc38ab196057d0fab9.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0579e1a5a7e34332801fbfe4b8226b97.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b11eac8c0518ec025687483d85ad5813.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3cf34f662a7dc5ed2804c66a061a1e07.png>
+![](img/zhuanqian_7964e30fa45443bc38ab196057d0fab9.png)
+![](img/zhuanqian_0579e1a5a7e34332801fbfe4b8226b97.png)
+![](img/zhuanqian_b11eac8c0518ec025687483d85ad5813.png)
+![](img/zhuanqian_3cf34f662a7dc5ed2804c66a061a1e07.png)
 ## 2.3 每周直播
 直播是陪跑交付的重要补充，手册虽全面，直播的信息密度与即时互动是文字无法替代的。一个半月周期内，共设 6 场周四直播。
 第一周聚焦赛道与对标，助力快速启动；
@@ -61,24 +61,24 @@
 第四周分享最新运营策略与新赛道玩法，放大流量冲击 YPP；
 第五周即上周，讲解 YPP 开通技巧并开启选修模块，让大家少走弯路。
 每场均含数据分享与答疑，数据分享帮助学员抬头看天，答疑确保手册内容吃透。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_aeed63b4752f7bc3e090e08f1d446700.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4a21b8b3d4ee5bcdc2b9a0dfda0e914e.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7923a564defe78292e62a806dedff8d5.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_faa44b1240132e2636068fd53ba8e01a.png>
+![](img/zhuanqian_aeed63b4752f7bc3e090e08f1d446700.png)
+![](img/zhuanqian_4a21b8b3d4ee5bcdc2b9a0dfda0e914e.png)
+![](img/zhuanqian_7923a564defe78292e62a806dedff8d5.png)
+![](img/zhuanqian_faa44b1240132e2636068fd53ba8e01a.png)
 这些直播与回放将在本次陪跑结束后继续发挥长效价值。
 ## 2.4 加餐分享
 加餐分享是方波妮教练与我推动的共创机制，邀请在陪跑中取得独创成果的学员分享心得与打法，为大家提供行动指引与精神激励。
 如 @coco 分享 X 的一生实现路径；
 @茜茜 分享多赛道试错后开通 YPP 的经验，赚钱帖子：
 @李香君 分享 AI 提效 15 分钟制作 AI 达人秀视频的工作流，赚钱精华帖：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_03d11e8ee2a721bbf1ce5dc043ec9478.png>
+![](img/zhuanqian_03d11e8ee2a721bbf1ce5dc043ec9478.png)
 加餐让学员身份从参与者转为分享者与共建者，部分内容沉淀为精华帖。这也是私教陪跑的核心目标之一：共创，师徒同修，亦师亦友。AI 内容出海水深，个体局限明显，只有链接高手与资源，共创探索，才能走得更远。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b900758f51350c45d2fafee7fda8f1c0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4112fda5ef826d1bffefb758b6bd4136.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0c03c4c4f5951589600aef18b93bfd4d.png>
+![](img/zhuanqian_b900758f51350c45d2fafee7fda8f1c0.png)
+![](img/zhuanqian_4112fda5ef826d1bffefb758b6bd4136.png)
+![](img/zhuanqian_0c03c4c4f5951589600aef18b93bfd4d.png)
 本周已安排 @NANA 分享国内短视频平台玩法；@逸凡风顺 分享 AI 动物赛道的爆点拆解与万能提示词模板搭建，敬请期待。越分享越幸运！
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d1221cf6ac8c4ff4fed2bfff5f4e1ff6.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_99f4225a54ddfae3248a64fd6748685c.png>
+![](img/zhuanqian_d1221cf6ac8c4ff4fed2bfff5f4e1ff6.png)
+![](img/zhuanqian_99f4225a54ddfae3248a64fd6748685c.png)
 ## 2.5 共创群
 承接加餐机制，共创群应运而生。借鉴赚钱传术师群模式，采用筛选制，鼓励学员互助分享，仅向积极互助、热心分享且已开通 YPP 的学员开放邀请。
 群内聚焦油管变现新打法、爆款路径与 AI 长视频挖掘，从数人起步扩张至二十余人，产出多场加餐与优质共创内容，部分成果将同步至赚钱 YouTube 小组。大家已从各自为战转向分工协作，按兴趣与专长深耕。虽然体量尚小，但未来有望成长为与传术师群同级别的集合体，在国内乃至国际油管圈拥有姓名。

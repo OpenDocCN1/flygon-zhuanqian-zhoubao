@@ -3,13 +3,13 @@
 3 月在航海期间，我用豆包出图加手工剪做了 7 条图书号视频，发完就再也没点开过视频号。没想到 7 月初，视频号带货助手发来结算通知，第一条视频居然在 6 月悄然出单。佣金不低，还有长尾效应，这条路能长期做下去。
 于是我重新翻了精华帖和航海手册，又刷到 Twitter 上三条全程 AI 生成视频的实操帖，心动直接开干。
 1. Codex + Hyperframes：拆解抖音爆款，吃上自媒体这碗饭！
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1dd536f87d92a7caadc10955ee672e9e_0_0.png>
+![](img/zhuanqian_1dd536f87d92a7caadc10955ee672e9e_0_0.png)
 2. Codex 自动化剪辑从 0 到 1，开源我在抖音赚了 5W+ 的剪辑工作流【万字长文】
 3. 用 AI 做了一个月视频，想跟你分享这套没人讲的心法
 起初卡在 token 配额，一天做不了几条像样的成片，精力全耗在音色打磨、节奏把控、BGM 选择以及声画字幕同不同步上。唯一目标是把基准定下来，保证最终效果能稳定复刻。等 OpenAI 撤掉 5 小时限制后，单日消耗直接冲到之前一周的量级，token 用量稳定在上亿级别。
 上周晚上把 Codex 跟飞书多维表格连起来，一次性塞进 30 多本书名。Codex 自动抓书讯、写脚本、生成画面、合成配音配乐，完成一条再自动进入下一条。半夜起身看球，刚好赶上周配额重置就启动了自动任务。早上 9 点醒来，作业进度相当可观。
 ## 实操心法：别自己琢磨，统统丢给 AI
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1dd536f87d92a7caadc10955ee672e9e_1_0.png>
+![](img/zhuanqian_1dd536f87d92a7caadc10955ee672e9e_1_0.png)
 我技术小白，人又极懒，能让 AI 做的绝不亲手。整篇稿子写起来卡壳，因为全程就是我跟 Codex 说想要什么、标准是什么、哪里不对，让它去实现。看对话截图就懂，压根没什么高阶 prompt，全是直白口语：我要这个，你给我做。
 所以这篇更像是一份思路参考，真上手才有体感。
 P.S. 文字部分是我自己手敲的，Codex 写文章能力太拉。觉得有收获，欢迎点赞评论投币😁
@@ -19,7 +19,7 @@ P.S. 文字部分是我自己手敲的，Codex 写文章能力太拉。觉得有
 把上面三篇帖子全部喂给它，学完再部署。起初我只喂了一篇，效果很一般，三篇一起消化效果才好。
 ### 3、先拿一本书做样片，调出可复用的基准
 让 Codex 拆解对标视频的画面、关键帧、镜头节奏和音频。有了前置知识，丢一个书名进去就能开始做。首版基本不达标，要不断给反馈指出问题。几个关键点：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1dd536f87d92a7caadc10955ee672e9e_3_0.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1dd536f87d92a7caadc10955ee672e9e_3_1.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1dd536f87d92a7caadc10955ee672e9e_3_2.png>
+![](img/zhuanqian_1dd536f87d92a7caadc10955ee672e9e_3_0.png)![](img/zhuanqian_1dd536f87d92a7caadc10955ee672e9e_3_1.png)![](img/zhuanqian_1dd536f87d92a7caadc10955ee672e9e_3_2.png)
 **1）脚本是根基**
 Codex 写脚本水平一般，很容易写成硬推销风。要复刻效果，直接把这段指令丢过去：
 > 我们测试《书名》的图书短视频。先不要生成视频。
@@ -63,7 +63,7 @@ Codex 写脚本水平一般，很容易写成硬推销风。要复刻效果，�
 ### 5、上线并记录数据
 成片看着过关就直接发布，看市场反馈。别在一部视频的细枝末节上反复打磨，太费 token。被完美主义卡住不如快速迭代。可以测试不同画风、不同声线，最终沉淀出账号特色。发布数据和互动数据同样记在飞书表里，方便复盘。
 完整流程回顾：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1dd536f87d92a7caadc10955ee672e9e_8_0.png>
+![](img/zhuanqian_1dd536f87d92a7caadc10955ee672e9e_8_0.png)
 ## 收尾
 整个过程就一句话：想做什么、怎么改，用大白话跟 Codex 说。人的工作只有提需求、定标准、给反馈，其余全交出去。没有玄学 prompt，就是说人话。
 这几天共产出 90 多条视频，前两三天都在找对标、磨标准，后面成功率持续攀升。现在最大瓶颈是 Plus 会员配额不够😁😁。
@@ -75,4 +75,4 @@ Codex 写脚本水平一般，很容易写成硬推销风。要复刻效果，�
 看完 SOP 你可能觉得懂了，但 90% 的人实操第一步就卡住。
 我们只聊商业闭环拆解和 AI 效率榨取。体系内已沉淀 1000+ 跑通的套利实战案例。
 😁 查看数字资产与入群门槛：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1dd536f87d92a7caadc10955ee672e9e_11_0.png>
+![](img/zhuanqian_1dd536f87d92a7caadc10955ee672e9e_11_0.png)

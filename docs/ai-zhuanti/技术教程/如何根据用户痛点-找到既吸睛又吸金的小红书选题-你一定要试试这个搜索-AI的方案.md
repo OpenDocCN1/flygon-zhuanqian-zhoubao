@@ -1,13 +1,13 @@
 # 如何根据用户痛点，找到既吸睛又吸金的小红书选题？你一定要试试这个搜索+AI的方案
 你有没有发现，那些在小红书上把个人IP做得风生水起的人，其实个个都是“人性操控大师”？这本事，跟某些骗子的套路如出一辙。就拿我最近的经历说吧——家里房子挂出去招租，差点让一个“杀猪盘”给套路了。对方自称深圳高管，被派到长沙，公司报销房租，张口就说要一次性付清一年。听起来是不是神仙租客？结果聊着聊着露了馅，被我识破，气得直接拉黑。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3cf6f4e2d97f566d2fd420bc64619c89.png>
+![](img/zhuanqian_3cf6f4e2d97f566d2fd420bc64619c89.png)
 回头一查，网上这样的案例一抓一大把。骗子们的惯用伎俩是：先跟你混熟，然后不经意透露点“金融内幕”，诱惑你去买理财，最后卷钱跑路。气归气，但冷静下来，你还真得佩服他们的洞察力——能精准锁定目标客户（毕竟房东普遍有点经济实力），又能抓住目标人群的核心诉求（想快点租出去、想遇到靠谱租客），然后量身定制圈套。
 做IP的博主，其实干的也是同一件事：找到你的精准受众，戳中他们的痛处，再喂给他们对胃口的干货。
 可问题来了：人海茫茫，上哪儿找这些人？怎么知道他们到底在烦什么？答案就藏在“搜索”这个动作里。
 还是拿我那个招租的案例说事。我当初是怎么断定对方是骗子的？就是去搜了一下“帮别人租房、微博联系是骗子吗”，结果真相大白。所以你看，搜索能帮你“捕获”那些正在烦恼的人。而搜索的第一步，就是选对关键词。
 假如你是个租房领域的博主，想吸引租房人群、顺便做家居带货，那你肯定会用“租房”当起点。但光有起点还不够：搜“租房”的人那么多，我怎么知道他们具体在找什么？哪些搜索内容跟我的领域相关，能让我快速变现？
 这里要分享一个从龙哥盟大佬“比比先森”那里学来的招：关键词 + a/b/c……还是拿租房打比方，你往“租房”后面依次加上a、b、c，下拉框就会蹦出一堆真实搜索词：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7f0e56a0a2c40e968448882e391944c6.png>
+![](img/zhuanqian_7f0e56a0a2c40e968448882e391944c6.png)
 把那些跟你领域沾边的组合词挑出来，大功告成。这些词背后，全是用户实打实的痛点。但新手可能又会哀嚎：光看到词，我还是不知道痛点具体是啥，更不知道咋扩展成选题啊？
 别急，这就教你用“搜索+AI”搞定一切，直接帮你锁定人群、批量生成爆款选题。我连“喂饭”级教程都给你准备好了。
 ## 01 人群痛点+选题提示词
@@ -39,18 +39,18 @@
 租房付定金要注意什么吗？
 租房付了定金不想租了
 下面就是AI的实际执行过程。（我用的是ChatGPT4o）
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_87e223567af11b70ef86b3c73796f9f0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_51a600977afdf70a54beaca9cb4ca192.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7033048227cd294e9ea9ce61ce9555dc.png>
+![](img/zhuanqian_87e223567af11b70ef86b3c73796f9f0.png)
+![](img/zhuanqian_51a600977afdf70a54beaca9cb4ca192.png)
+![](img/zhuanqian_7033048227cd294e9ea9ce61ce9555dc.png)
 说实话，它提的问题相当到位——我要是代入用户视角，也特别想知道这些答案。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5d9582acdd011866e0d00b30664ce2d4.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d294654b33eacbf085ae4638fe52437a.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f90fe7c75d08191d7a0ef34b255df67d.png>
+![](img/zhuanqian_5d9582acdd011866e0d00b30664ce2d4.png)
+![](img/zhuanqian_d294654b33eacbf085ae4638fe52437a.png)
+![](img/zhuanqian_f90fe7c75d08191d7a0ef34b255df67d.png)
 最终它给到了一份完整选题：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b7d166b2cd10b75a8eec361341412dca.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1763262e09aafa106293fa704bcc3d5c.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8c5f5be3fc7f0fd54b86f47a25931eed.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_19b5c9fbfc3fd8e12fabd450eb28d1d5.png>
+![](img/zhuanqian_b7d166b2cd10b75a8eec361341412dca.png)
+![](img/zhuanqian_1763262e09aafa106293fa704bcc3d5c.png)
+![](img/zhuanqian_8c5f5be3fc7f0fd54b86f47a25931eed.png)
+![](img/zhuanqian_19b5c9fbfc3fd8e12fabd450eb28d1d5.png)
 太绝了！不到两分钟，一个月的内容选题全齐了。更贴心的是，它还顺手排好了优先级：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0cddd8c58f6352eadc2c6ad491e7646d.png>
+![](img/zhuanqian_0cddd8c58f6352eadc2c6ad491e7646d.png)
 照着这些选题去写内容，还怕吸引不到目标用户、实现不了变现？赶紧去试试这个“搜索+AI”的懒人方案吧！

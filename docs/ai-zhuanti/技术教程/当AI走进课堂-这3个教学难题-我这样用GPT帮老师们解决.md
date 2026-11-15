@@ -5,19 +5,19 @@
 ## 案例一：批量起草学期评语
 带小学班的老师，每到期末都有一项大工程：全班四十多个学生，每人要写大约两百字的评语，还要求风格各不同。坐在电脑前一条条硬写，既费时间，又容易写到后面人云亦云。
 我的解决思路，是把GPT当成一个“擅长模仿的学习者”。先挑一批质量很好的评语作为范文丢给它，让它分析这些范文的表达方式和结构，再照着这个风格批量写出新的评语。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8899f0ba90ea7406cd090b329a9eebcc.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a898222e661cbb5b6a581b965bea7111.png>
+![](img/zhuanqian_8899f0ba90ea7406cd090b329a9eebcc.png)
+![](img/zhuanqian_a898222e661cbb5b6a581b965bea7111.png)
 这样生成的初稿，老师只需要针对每个学生的实际情况做些个性化微调，比完全从白纸开始写要轻松得多。
 ## 案例二：论坛发言稿+PPT，一套流程搞定
 期末阶段，有些老师会被安排参加教学论坛，既要写一篇发言稿，还得准备配套的演示文稿。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fdc732225295b434ff46c4708c473011.png>
+![](img/zhuanqian_fdc732225295b434ff46c4708c473011.png)
 具体操作分两步。
 第一步，先把主题锁定住。我们选的题目是：“怎么设计有效的激励方法，让学生持续保持学习热情？班上有几个孩子做事总拖拖拉拉，反复催促也没用，应该怎么引导？”
 第二步，让ChatGPT围绕这个主题生成一份完整的发言稿。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f62e8e5a40c7a98272cb825a0420144d.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_da9fa652c73d5ce0ec0dda0fa4a55de8.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cbe48297ea2de3f583ebc240881c1a05.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f0a33aa3ea258c469970c7439b1b9ea9.png>
+![](img/zhuanqian_f62e8e5a40c7a98272cb825a0420144d.png)
+![](img/zhuanqian_da9fa652c73d5ce0ec0dda0fa4a55de8.png)
+![](img/zhuanqian_cbe48297ea2de3f583ebc240881c1a05.png)
+![](img/zhuanqian_f0a33aa3ea258c469970c7439b1b9ea9.png)
 拿到讲稿后，我没有直接让它做PPT，而是把稿子内容重新喂进去，同时附上一套“AI PPT大纲格式规范”，让它按规范输出可以直接粘贴到PPT生成平台的内容。我用的提示词大致如下：
 “现在请你扮演一位PPT制作专家，我会给你主题和内容，请你严格按下面的格式输出大纲。
 说明：
@@ -44,10 +44,10 @@
 ### 核心提醒
 - 激励方式要丰富、灵活
 - 关注个体差异，因材施教”
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_817f295f994909d150e3ee754557378b.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_947a21fcfbc01e9c0c549b2921dfbcac.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7873cdfc0ebc94ae49973cf3c658ea31.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4792b086ffa373f813cc5f4416de4ef9.png>
+![](img/zhuanqian_817f295f994909d150e3ee754557378b.png)
+![](img/zhuanqian_947a21fcfbc01e9c0c549b2921dfbcac.png)
+![](img/zhuanqian_7873cdfc0ebc94ae49973cf3c658ea31.png)
+![](img/zhuanqian_4792b086ffa373f813cc5f4416de4ef9.png)
 按这个格式整理出来的初稿，放进AI PPT工具里再调一调版式，很快就能得到一套结构完整的演示文稿。
 ## 案例三：主题班会教案，AI帮着搭框架
 班主任经常要上主题班会，主题一般由当地教育局或学校指定，其中一个常见类别是“生命教育课”。这类课不讲具体的知识点，而是想让孩子获得更多生活层面的素养，可惜既没有教材，也没有统一教案，老师们只能自己查资料、设计流程，备课压力不小。
@@ -74,16 +74,16 @@
 3. 最后生成一份内容齐整的教案文档，同时给出反馈意见，指出其中值得肯定和需要调整的地方，并提供一些改进思路或拓展活动。
 ##Initialization
 以“教案生成器”的身份开始对话，严格遵守上述规则，默认使用中文。先向用户问好，再介绍自己的功能与工作流程。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cde8ab0a5a44ab6bcff9240464683322.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a3d5154fa25d0a698c79544678c6c5c3.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_700ce2c4acbd4e022f2e1a0cacd2e380.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_23afd3f9c74d9014170c4b13a9d89409.png>
+![](img/zhuanqian_cde8ab0a5a44ab6bcff9240464683322.png)
+![](img/zhuanqian_a3d5154fa25d0a698c79544678c6c5c3.png)
+![](img/zhuanqian_700ce2c4acbd4e022f2e1a0cacd2e380.png)
+![](img/zhuanqian_23afd3f9c74d9014170c4b13a9d89409.png)
 ## 案例四：作文批量点评，先从“转文字”开始
 我有位朋友教语文，一个人带两个班，每班大约四十个学生。孩子们每周都会交一篇作文，老师需要逐篇阅读、写评语。批改量大、周期长，是她每周最重的一项负担。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_509c2b0c7721bc18320786e4c759b436.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b33bb67968b7553e841ee961b1085c56.png>
+![](img/zhuanqian_509c2b0c7721bc18320786e4c759b436.png)
+![](img/zhuanqian_b33bb67968b7553e841ee961b1085c56.png)
 刚开始，我试着让ChatGPT直接看作文的图片并进行分析，效果不太理想。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c52bf12967a4afaa9110839aac8fbb0b.png>
+![](img/zhuanqian_c52bf12967a4afaa9110839aac8fbb0b.png)
 后来我换了条路：先用微信或飞书的图片转文字功能，把作文照片转成纯文本，再配合下面这套“作文点评助手”提示词，交给ChatGPT来做辅助分析。
 #Role: 作文点评助手
 ##Profile
@@ -108,8 +108,8 @@
 6. 给出鼓励性评语：无论作文水平如何，都要用正向、友善的话语收尾，保护学生的写作兴趣。
 ##Initialization
 以“作文点评助手”的身份开启对话，严格遵守上述规则，默认使用中文交流。先向教师问好，再简要说明工作流程。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2d22da59563a6e8929246eab40c02f98.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a90da165dce070943a432de318ee62c0.png>
+![](img/zhuanqian_2d22da59563a6e8929246eab40c02f98.png)
+![](img/zhuanqian_a90da165dce070943a432de318ee62c0.png)
 ## 最后分享几点体会
 除了上面这些场景，我还参与过不少学校活动的设计：比如为诗词大会配图，让学生看着画面说诗句；帮学校策划年会流程；写活动报道和新媒体推文等等。
 在和一线老师不断交流的过程中，新的需求会不断冒出来，不同学科的老师使用AI的方法也各有各的门道。但核心逻辑其实是相通的：只要工作里涉及到“写”，或者说只要需要生成文本，AI就能从旁帮上忙。关键还是看我们会不会提要求、会不会“投喂”好的样例。把这两件事做好，AI才能真正成为对的人手。

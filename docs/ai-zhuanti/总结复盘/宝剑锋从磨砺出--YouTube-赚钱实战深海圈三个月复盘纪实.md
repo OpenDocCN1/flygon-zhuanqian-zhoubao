@@ -3,76 +3,76 @@
 各位朋友好，我是 Gary 曹淦，和方波妮共同担任 YouTube 赚钱深海圈的主教练。
 从 3 月 12 日深海圈正式开舱算起，到今天已满三个多月。磨砺出锋芒，苦寒来梅香。留意我们推送的老朋友，应该能感受到每一次分享都在发生改变。下面先上硬核数据，这是私教陪跑启动阶段、深海圈 4 月底与 6 月底三次实地采集的对比。
 *   1 月 YouTube 私教陪跑启动摸底：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0c05971c1d96546e9bdc2425221e2668.png>
+![](img/zhuanqian_0c05971c1d96546e9bdc2425221e2668.png)
 *   4 月底 YouTube 深海圈问卷：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0925735e234f2662c507b3340c337b51.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b5e663b70f1fa9a3ed8a88ce5d9bda33.png>
+![](img/zhuanqian_0925735e234f2662c507b3340c337b51.png)
+![](img/zhuanqian_b5e663b70f1fa9a3ed8a88ce5d9bda33.png)
 *   6 月底 YouTube 深海圈问卷：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_41eef9b584c1132197a08c645fc12caf.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9b11ca89414303c774339d1f22487f02.png>
+![](img/zhuanqian_41eef9b584c1132197a08c645fc12caf.png)
+![](img/zhuanqian_9b11ca89414303c774339d1f22487f02.png)
 与此同时，龙哥老师刚发布了超级标 08：YouTube AI 中长视频。赚钱团队邀请我们为 08 提供一线实战素材，下列为圈友本月自发汇总的部分收益披露。
 ## AI Shorts 商业化
 6 月份圈内公开的 Shorts 频道流水，已有成员借助 AI Shorts 实现单月五千美元的收入。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b86414e5896df6b3279c60a61b3edef2.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_473cd165de6011dabed343f9d4ac0269.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3e91c6a9d8f736508a38b3851323a77b.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f20e01a205a30dfbda9ec6d296bfbf92.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_757b82ffccdcecdb5db8884a24337a74.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0d0f0d85410b8f1b17f72913704d6b32.png>
+![](img/zhuanqian_b86414e5896df6b3279c60a61b3edef2.png)
+![](img/zhuanqian_473cd165de6011dabed343f9d4ac0269.png)
+![](img/zhuanqian_3e91c6a9d8f736508a38b3851323a77b.png)
+![](img/zhuanqian_f20e01a205a30dfbda9ec6d296bfbf92.png)
+![](img/zhuanqian_757b82ffccdcecdb5db8884a24337a74.png)
+![](img/zhuanqian_0d0f0d85410b8f1b17f72913704d6b32.png)
 ## AI 长视频 商业化
 YouTube 深海圈 运气选手走得远教练，220 万播放 AI 长视频收益：https://www.youtube.com/watch?v=AXWBe4Bmv9A
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4de361768f380971fbce5f3376d627f2.png>
+![](img/zhuanqian_4de361768f380971fbce5f3376d627f2.png)
 YouTube 深海圈 ISLAND 教练的单条 AI 长视频，RPM 高达 6.36
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8eb5f103ae836ab66a980ff1a12b01f1.png>
+![](img/zhuanqian_8eb5f103ae836ab66a980ff1a12b01f1.png)
 YouTube 深海圈 小芬教练的 AI 长视频近一月收益
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_af199f16b817c005c65be1f2da46bd18.png>
+![](img/zhuanqian_af199f16b817c005c65be1f2da46bd18.png)
 YouTube 深海圈 NaNa 教练的 AI 长视频近一月收益
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3708030f86f5164fc5b7b1598ea81c36.png>
+![](img/zhuanqian_3708030f86f5164fc5b7b1598ea81c36.png)
 YouTube 深海圈 困困教练的 AI 长视频近两月收益
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_70d3a83e1606099ae3d0072a53de262e.png>
+![](img/zhuanqian_70d3a83e1606099ae3d0072a53de262e.png)
 既有陪伴我们从起步走来的老成员，也有近期才接触赚钱、初识深海圈的新伙伴。为让大家看清这几个月发生了什么，这里做一次整体汇报。
 # 推进时间轴
 从私教陪跑的 1 个月，到深海圈的 3 个月，主线进展如下：
 ## 1 月中旬：YouTube AI Shorts 私教陪跑开启
 初版陪跑手册成型，主教练为我与方波妮，两人。报名 104 人，开营回收 70+ 份有效问卷，累计播放 9000 万+，斩获 2 个高级 YPP、3 个初级 YPP。
 2 月中旬：连办数场直播，拆解多条赛道与实操教程。从 1 月 16 日开跑至 2 月 15 日，累计 43 个账号通过 YPP 审核，31 人成功开通，人均 0.41 个，开通率 29.8%。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_28970d857aa6683e9eadc11c46fd4596.png>
+![](img/zhuanqian_28970d857aa6683e9eadc11c46fd4596.png)
 ## 2 月底：YouTube AI Shorts 私教陪跑收官
 建立 YPP 申诉审核小组与实战小组机制，共办 6 场专场直播，12 次优秀学员加餐分享，打磨出 17 篇复盘帖，其中 10 篇入选精华。70 余位成员最终达成 107 个 YPP 账号。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_13fa6822426d894e9132b65a624e24ef.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_974587adde8cb6934a64b4ad90a6d19f.png>
+![](img/zhuanqian_13fa6822426d894e9132b65a624e24ef.png)
+![](img/zhuanqian_974587adde8cb6934a64b4ad90a6d19f.png)
 ## 3 月底：YouTube 深海圈正式启动
 社群体量扩张，我与方波妮已无法独立交付，随后联合赚钱搭建教练体系，选拔优秀学员担任实习教练。新增账号移除与版权申诉审核机制，验证 YPP 规模化可行性，掌握爆款 Shorts 制作能力，并初步打开 AI 长视频方向。工作室单月 30+ YPP，深海圈整体 150+ YPP。
 Youtube 长视频赛道之猴子达人秀制作攻略：https://scys.com/articleDetail/xq_topic/4845554115242118
 Youtube 爆款元素重组打法&版权警示应对策略：https://scys.com/articleDetail/xq_topic/1524445218244182
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6fd022d3ded3698d7d5ea49a43c52d05.png>
+![](img/zhuanqian_6fd022d3ded3698d7d5ea49a43c52d05.png)
 ## 4 月底：YouTube 深海圈首次问卷
 YPP 累计 200+。涌现 AI 微电影、海外 AI 自媒体、困困 AIP 玩法分享，以及首个 2.5 亿播放 Shorts 的诞生与傻瓜式复刻教程，单条收益 3.5 万美元。
 YouTube 魔法女孩虚拟 IP 打造，赚到第一千美元：https://scys.com/articleDetail/xq_topic/8852451555221842
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8f7febe56760a4535664ae1cd2850a00.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a54713b0231fda5fefa6632b619c7045.png>
+![](img/zhuanqian_8f7febe56760a4535664ae1cd2850a00.png)
+![](img/zhuanqian_a54713b0231fda5fefa6632b619c7045.png)
 ## 5 月底：深海圈首次迭代升级
 YPP 突破 250+，近十位亿播成员。基于 4 月底问卷反馈，重构手册内容框架，开设首期新人营。开展数字人玩法、自动化一二期、AI 工具横评与技巧分享，重塑小组共建机制，设立风向标机制，并开启首次公域直播。
 从 0 手把手教你用 n8n 打造自动化生图动作流：https://scys.com/articleDetail/xq_topic/5125585851588524
 任何人都可以复刻的高效 AI 视频制作工作流：https://scys.com/articleDetail/xq_topic/5121848225154524
 AI 图片视频工具测评与常用创作技巧讲解：https://scys.com/articleDetail/xq_topic/5125414222521284
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ba9158b3af939850c4ef58b0354e492b.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3c9853e7ff55afdf7ab41697a2cbf790.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_680f7713a40ced710052143efdc60ae9.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_293d31e37f4541cdde311422f74e8cc2.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d9819772c65318b8f7c31ed342e4250d.png>
+![](img/zhuanqian_ba9158b3af939850c4ef58b0354e492b.png)
+![](img/zhuanqian_3c9853e7ff55afdf7ab41697a2cbf790.png)
+![](img/zhuanqian_680f7713a40ced710052143efdc60ae9.png)
+![](img/zhuanqian_293d31e37f4541cdde311422f74e8cc2.png)
+![](img/zhuanqian_d9819772c65318b8f7c31ed342e4250d.png)
 ## 6 月底：300+ YPP，20 余位亿播成员
 集中输出运气&酷拉 4000 美元 AI 达人秀长视频、山海经、疗愈猫猫等中长视频赛道复制攻略。完成深圳、北京两场线下聚会，AI 传术师线上线下各一次分享。
 美国山海经中长视频赛道分享：https://scys.com/articleDetail/xq_topic/8852445514518152
 YouTube 猫咪疗愈长视频拆解：https://scys.com/articleDetail/xq_topic/8852445548148582
 通过 AI 傻瓜式模仿一个长视频频道：https://scys.com/articleDetail/xq_topic/8852445442481842
 打造你的第一个百万爆款长视频：https://scys.com/articleDetail/xq_topic/1524115488251212
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b4f503e6ffbf10aa50ec98abce5bd47e.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_91fc4692094cc65e440a23e51fa35191.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_32183c737947ad0d34e335e5a836c56f.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1c129d824ef736bb91a4bdffb342a398.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f8fdacf3129b71901069bd6f44ca4a54.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3cbfdaea3a3193ac6ddf50b13cd6485c.png>
+![](img/zhuanqian_b4f503e6ffbf10aa50ec98abce5bd47e.png)
+![](img/zhuanqian_91fc4692094cc65e440a23e51fa35191.png)
+![](img/zhuanqian_32183c737947ad0d34e335e5a836c56f.png)
+![](img/zhuanqian_1c129d824ef736bb91a4bdffb342a398.png)
+![](img/zhuanqian_f8fdacf3129b71901069bd6f44ca4a54.png)
+![](img/zhuanqian_3cbfdaea3a3193ac6ddf50b13cd6485c.png)
 # 我们在做的事情
 ## 总原则：以 AI 内容为切口，保持进化，搭建工具库，始终站在认知最前沿
 AI 对内容生产带来的本质改变有三项：
@@ -86,48 +86,48 @@ AI 既是加速器，也是淘汰器。赛道里真正的护城河是什么？
 信息差：YouTube 规则、AI 进展、内容趋势、出海环境，始终领先一步，才能做出可被复制的模式；
 学习力与行动力：这两项决定以上能力能否落地。
 基于此，从 1 月起我们持续在深海圈各渠道共享 AI 资讯与工具，降低信息差，让大家先懂 AI、再会 AI、最后用好 AI。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_73e539f00cbfe91961305ae282fa18a4.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b398d5c3ec1c524cfa1a8b919e356f74.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_572208f77a7e4967ab2bd0e8c1e5860a.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_050bee13047aeeb87ca23d81a6b6836d.png>
+![](img/zhuanqian_73e539f00cbfe91961305ae282fa18a4.png)
+![](img/zhuanqian_b398d5c3ec1c524cfa1a8b919e356f74.png)
+![](img/zhuanqian_572208f77a7e4967ab2bd0e8c1e5860a.png)
+![](img/zhuanqian_050bee13047aeeb87ca23d81a6b6836d.png)
 自动化是绕不开的话题。我们的共识是，绝大多数人做自动化工具的消费者就够了。因此会定期邀请邵先森、李香君等自动化高手来搭建并演示工作流，教会大家用自动化提效创作。文中附上的两张图分别是李香君的 n8n 生图工作流与邵先森的达人秀变身出图工作流，原文链接在前文已给出。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_48fe42df6fdc32fff3dac816d8d350c0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_50ac309ff883cf3d2ebe16f42c9c2659.png>
+![](img/zhuanqian_48fe42df6fdc32fff3dac816d8d350c0.png)
+![](img/zhuanqian_50ac309ff883cf3d2ebe16f42c9c2659.png)
 ## 新人入场：补齐信息差，选对赛道，做有效努力
 做了两张示意图，供大家体会。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ddb2f23c894fed07343496f5740de230.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e7c73edf1899446f66c99d2172dd9ccf.png>
+![](img/zhuanqian_ddb2f23c894fed07343496f5740de230.png)
+![](img/zhuanqian_e7c73edf1899446f66c99d2172dd9ccf.png)
 AI 迭代很快，但它补不上训练集之外的信息差，也教不会真正零基础的普通人。
 这半年我加入了多个 YouTube 社群，发现不少去年 11、12 月就入场的小伙伴，做了很多号仍未起量，甚至至今不清楚如何处理 IP 问题、环境隔离、赛道选择。不是他们不够努力，而是国内 YouTube 的信息差过大，大量问题 AI 根本回答不了，因缺乏训练数据与公开信源。
 新人入场最该做的是补齐信息差、选准方向、投入有效努力。从私教陪跑到航海再到深海圈新人营，我们输出的赛道与教程均经过时效性验证，意味着你遇到的问题基本都有解，赛道足够多元，避免内部内卷。
 没有包治百病的妙招，但通过社群交流、直播干货、教练 1v1、手册体系等多重交付，我们帮助学员打牢基础、避开弯路，缩短试错周期。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_964f7cc902c9c483856f8928e514a315.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8af8b9fda4aa12ce66875139542b096f.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5133531f6e79cee53ef289bd0b0ea178.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_dd133ec3eac2fbec0faf53828ceee2d6.png>
+![](img/zhuanqian_964f7cc902c9c483856f8928e514a315.png)
+![](img/zhuanqian_8af8b9fda4aa12ce66875139542b096f.png)
+![](img/zhuanqian_5133531f6e79cee53ef289bd0b0ea178.png)
+![](img/zhuanqian_dd133ec3eac2fbec0faf53828ceee2d6.png)
 ## 高手进阶：从给方法到给信息，助大家走出自己的路
 赚钱 YouTube 深海圈本质是社群产品。陪跑服务是前期信息差未对齐、基础技能未熟练的阶段性需求。我们会持续为打基础的新人提供 0 到 1 陪跑。
 但打完基础后，更需要的是信息、资源、杠杆和同行陪伴。AI 赛道里，差的往往就是一个信息差加一个执行的念头。
 以小圈为例，我分享对标账号后，他一天内完成微创新上线，随后十多天持续优化要素，半个月后单条触达 2.5 亿播放。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_db03073099fab84028b0ce94e3c6a476.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9c07084ca095926c59e7e7321cbed84d.png>
+![](img/zhuanqian_db03073099fab84028b0ce94e3c6a476.png)
+![](img/zhuanqian_9c07084ca095926c59e7e7321cbed84d.png)
 类似案例还有困困，起初做常规达人秀，有了思路后迅速固定人设向 AIP 转型，同时切入长视频，入圈两个月即斩获近两千美元。相关文章可参考 https://scys.com/articleDetail/xq_topic/8852451555221842
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f7e6a8b70b8a85c7f68b9139335839ea.png>
+![](img/zhuanqian_f7e6a8b70b8a85c7f68b9139335839ea.png)
 前几个月我们邀请大厂 AI 电影设计师裘裘分享 AI 商业微电影制作，邀请 AI MCN 机构负责人贺小波与 30 万+ 粉丝 AI 自媒体博主汤姆 cc 分享海外 AI 自媒体现状与实操，邀请 JOGGAI 产品负责人大东与我共同拆解数字人玩法，目的就是提供前沿信息与思路框架，让大家在擅长领域走出自己的路径。
 以下为 imageFX+JOGGAI 的演示案例，制作粗糙但足以展示一条清晰的海外 AI 自媒体路线。
 ## 分享共创：从加餐分享到实战小组，用人才杠杆保持领先
 从私教陪跑至今，高手分享一直是我们的传统。早期多为 0 到 1 赛道教程，现在更多聚焦自动化、前沿信息与变现玩法。形式也从图文加餐转向直播，因直播更具互动，可产生文字无法替代的思维碰撞。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a0a2ac9b733a43237eb4f0320d44e9c8.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_64e7f6504733186122326a78bcefb430.png>
+![](img/zhuanqian_a0a2ac9b733a43237eb4f0320d44e9c8.png)
+![](img/zhuanqian_64e7f6504733186122326a78bcefb430.png)
 随着教练与圈友在细分赛道深耕，出现对垂直交流的需求。于是我们启动共创精英小组机制。首个小组由轻舟教练携特邀嘉宾裘裘老师带队，聚焦精品 AI 微电影，以各平台比赛为任务制目标。未来将陆续推出更多垂类小组，严格筛选，助力有意愿有能力的伙伴在高手陪伴下深度创作。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_95827c97a8958b2991d3109c1dce136b.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_73807ba4f2b0d6583402ee34b296cb6b.png>
+![](img/zhuanqian_95827c97a8958b2991d3109c1dce136b.png)
+![](img/zhuanqian_73807ba4f2b0d6583402ee34b296cb6b.png)
 近一个月内，根据需求增设 7 个实战小组，优选精力充沛、执行力强的伙伴探索前沿玩法并定期直播复盘，将个人试错转化为集体资产，放大时间杠杆。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2d959b2c3a999d0f97fb8b46db4a18e6.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f3042c335b330dd7f38916eb7f2fc088.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d0322734434ac5efb6f993393c6a618f.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bf798a9354a0753370a2db805471f59b.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_106ad3ddaab778be1655568567227ab2.png>
+![](img/zhuanqian_2d959b2c3a999d0f97fb8b46db4a18e6.png)
+![](img/zhuanqian_f3042c335b330dd7f38916eb7f2fc088.png)
+![](img/zhuanqian_d0322734434ac5efb6f993393c6a618f.png)
+![](img/zhuanqian_bf798a9354a0753370a2db805471f59b.png)
+![](img/zhuanqian_106ad3ddaab778be1655568567227ab2.png)
 ## 教练矩阵：由二人组扩展至二十人团队，实现社群运营与赛道探索的双向放大
 若你了解赚钱YouTube深海圈的发展脉络，便会清楚私教陪跑初期，整个交付体系仅靠我与波妮两人支撑。进入深海圈阶段后，短短数月内，我们从一批有实战成果且乐于输出的成员中，逐步扩充出接近十位策略教练与十余位答疑教练，最终形成如今约二十人的教练团队。
 双人作战的承载上限很低。私教陪跑属于从零起步的冷启动阶段，我们把几乎全部精力都投进每周直播、资料撰写、一对一辅导以及群内答复。想要抽身去尝试新赛道、寻找新的变现路径，只能通过极度压缩个人休息时间来挤出空间，那段时间几乎全天在线，常到整层办公区最后离开的人就是我。
@@ -142,7 +142,7 @@ AI 迭代很快，但它补不上训练集之外的信息差，也教不会真�
 *   私藏人间与六只猫教练，早期把故事类、解说类账号做到千万级播放；
 *   花生教练是首位斩获银牌的成员；AS教练首个将孔雀模型打造成爆款要素；富百教练首个以长视频开通YPP；island教练首个实现AI长视频高RPM；新近加入的风儿、彤宇、慕容等教练亦各有所长……
 没有这批教练的持续投入，就没有今日的深海圈。他们同时在社群交付与项目孵化两个层面为圈群提供增幅，让我们能够争取更优资源、捕捉更前沿信息、搭建更完善的运营机制，从而反向赋能教练与圈友。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c63e9cc0d0630b40409427e3ca3b94db.png>
+![](img/zhuanqian_c63e9cc0d0630b40409427e3ca3b94db.png)
 ## 平台加持：从运营资源到信任背书，深海圈深耕交付的底气来源
 最后一个也是最关键的维度，自然是赚钱的全面支持。
 说来唏嘘，我个人的转折点正是看到龙哥哥发布的YouTube AI Shorts超级案例并亲自实操的那一刻。不少圈友也大致见证了我与波妮的成长轨迹：从首个达人秀YPP精华贴（24天7万粉，开通YPP，108刀收益帖：
@@ -160,4 +160,4 @@ AI 迭代很快，但它补不上训练集之外的信息差，也教不会真�
 YouTube深海圈报名入口： https://scys.com/view/form/z27Vzvp2
 烦请认真如实填写表单，我们会进行审核。
 本周四晚间七点，深海圈将邀请优秀成员连麦分享，欢迎对YouTube深度经营感兴趣的朋友围观，扫码预约直播。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e81503c67181b3eb35b2e4c39a68546e.png>
+![](img/zhuanqian_e81503c67181b3eb35b2e4c39a68546e.png)

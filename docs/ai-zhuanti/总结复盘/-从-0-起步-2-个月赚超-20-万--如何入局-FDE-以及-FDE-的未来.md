@@ -11,7 +11,7 @@
 ## 一、我是谁
 大家好，我是龙哥。
 副业履历里，高中时期做过心理咨询，大学做过养生课题，GMV 破 400 万。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d8027bbf443c959176503284cccf7b0f_0_0.png>
+![](img/zhuanqian_d8027bbf443c959176503284cccf7b0f_0_0.png)
 2023 年初入赚钱，首月就做到 10 万月入，后面陆续发过不少精华帖，还运营过一个 500 人左右的社群。
 主业经历上，我曾在字节跳动 Coze AI 担任底层 Workflow 引擎工程师，也做过美团后端研发架构师。
 现在带领北京深循科技，核心团队里有大厂工程师和医学顾问。目前已跑通三甲医院、国家级科研院所、互联网头部大厂美团等客户的交付。
@@ -19,7 +19,7 @@
 帖子里我还提到望京中心租了间办公室，当时里头只有我一个人，空荡荡的。现在办公室已经坐满人[f2]，合作的 FDE 常常被挤到外侧工位，仅仅隔了一个月。这种变化，足以说明 FDE 的需求有多猛。
 小红书我是【苍述结了月薪】，直播和订单经历的视频都在上面，欢迎去看。
 我们与 MT 的合作情况：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d8027bbf443c959176503284cccf7b0f_2_0.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d8027bbf443c959176503284cccf7b0f_2_1.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d8027bbf443c959176503284cccf7b0f_2_2.png>
+![](img/zhuanqian_d8027bbf443c959176503284cccf7b0f_2_0.png)![](img/zhuanqian_d8027bbf443c959176503284cccf7b0f_2_1.png)![](img/zhuanqian_d8027bbf443c959176503284cccf7b0f_2_2.png)
 美团的项目是按项目制排期的，内部需求旺盛，现在基本处于排队状态。我们全职工程师目前 4 人，同时并行的项目最多到 4 个，具体限制后面会讲。到 G 端的项目就不方便展示了，小红书我也发过一些交付侧的复盘。之后赚钱北京线下局，我们也会尝试闭门聊项目细节。
 ## 二、零基础如何入场 FDE
 FDE 这个赛道很极端：有单子的团队天天忙不过来，没单子的团队可能长期冷启动。我们现在就是属于前者。
@@ -81,4 +81,4 @@ FDE 的模式决定了想多交付就得加人，怎么加人又降风险是另�
 工具和教程只是基础壁垒，真正的壁垒是立刻开干和圈层信息差。
 我们不聊虚的，只拆商业闭环和 AI 效率压榨。圈子里已沉淀 1000+ 跑通的套利实战。
 👉 查看圈子数字资产与入场门槛：
-# <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d8027bbf443c959176503284cccf7b0f_16_0.png>
+# ![](img/zhuanqian_d8027bbf443c959176503284cccf7b0f_16_0.png)

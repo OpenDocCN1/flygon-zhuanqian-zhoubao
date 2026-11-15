@@ -6,7 +6,7 @@
 本文主要分享两个方向：
 1. 使用 Cursor 完成 Python 数据可视化；
 2. 使用 Cursor 和 Mermaid 实现软件项目可视化。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_518d18b29373b290eabbab3725b52550.png>
+![](img/zhuanqian_518d18b29373b290eabbab3725b52550.png)
 # 一、为什么要做可视化？
 ## 1. 软件项目可视化的价值
 项目规模较小时，很多信息可以直接通过交流解决。但当代码量增加、参与人员变多之后，仅靠代码和口头说明就会变得非常吃力。
@@ -35,9 +35,9 @@ Cursor 可以协助我们理解代码、生成说明和编写图表代码；Merm
 ## 2. 数据可视化同样重要
 最开始，我计划只介绍软件项目可视化。但在和圈友A以及阿紫老师交流后，我发现数据可视化同样适合用 Cursor 进行辅助，因此又补充了相关案例。
 数据可视化并不只是把数据“画出来”，更重要的是通过合适的图表发现趋势、比较差异、识别异常，并帮助他人理解分析结果。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_66174cf6cf4f0edf160405ce79f0d791.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f8a2870da8c442b610f7c8c5d3bf8bba.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b267cd6521754a4d1ccc9d72c1f95292.png>
+![](img/zhuanqian_66174cf6cf4f0edf160405ce79f0d791.png)
+![](img/zhuanqian_f8a2870da8c442b610f7c8c5d3bf8bba.png)
+![](img/zhuanqian_b267cd6521754a4d1ccc9d72c1f95292.png)
 ## 3. 使用前的准备
 本文默认读者已经完成以下准备：
 - 安装并能够使用 Cursor；
@@ -61,13 +61,13 @@ Cursor 可以协助我们理解代码、生成说明和编写图表代码；Merm
 对于刚接触数据可视化的人，可以先让 Cursor 生成一些基础案例，通过运行结果建立直观认识。
 例如，可以直接输入：
 > 请使用 Matplotlib 和 Seaborn 编写数据可视化示例代码，分别创建 Python 文件保存。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6f2ee1f7e3d3a8b676bc878afed3ed77.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cf5c796a79f4f87346d77617041676bd.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_98e574aca7e1aae61dab14d4a846a21c.png>
+![](img/zhuanqian_6f2ee1f7e3d3a8b676bc878afed3ed77.png)
+![](img/zhuanqian_cf5c796a79f4f87346d77617041676bd.png)
+![](img/zhuanqian_98e574aca7e1aae61dab14d4a846a21c.png)
 这里使用的库只是入门示范。真正进行分析时，应该结合数据类型、分析目标和展示对象选择工具。
 ### Matplotlib：基础绘图能力
 Matplotlib 是 Python 生态中非常经典的绘图库，适合绘制折线图、柱状图、散点图、饼图等常见图形，也是许多其他可视化工具的基础。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f0bf401969696fa8b8724e90e17d60a8.png>
+![](img/zhuanqian_f0bf401969696fa8b8724e90e17d60a8.png)
 ### Seaborn：更适合统计分析
 Seaborn 建立在 Matplotlib 之上，默认样式更美观，也提供了许多适用于统计分析的图表。
 可以先问 Cursor：
@@ -76,8 +76,8 @@ Seaborn 建立在 Matplotlib 之上，默认样式更美观，也提供了许多
 > 请用 Python 编写代码，展示 Seaborn 中这十种典型可视化图表，并创建一个新的 py 文件。
 如果一次把十张图放在同一张画布上，通常会影响阅读，可以进一步调整布局：
 > 请将前面十个图表重新排列，每四个图表放在一张图中。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e685259a2580effc37f016673b989e34.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1ec4169c22d80771212948fe4693e43c.png>
+![](img/zhuanqian_e685259a2580effc37f016673b989e34.png)
+![](img/zhuanqian_1ec4169c22d80771212948fe4693e43c.png)
 由于散点图、折线图和柱状图等内容与 Matplotlib 的示例较为接近，我后来将重点放在以下类型上：
 - 条形图；
 - 箱线图；
@@ -88,10 +88,10 @@ Seaborn 建立在 Matplotlib 之上，默认样式更美观，也提供了许多
 - 计数图；
 - 核密度图。
 这些图表可以组合成两张大图，同时再单独展示完整的联合图和成对关系图。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b50ca7b6a992faaaa61258c5c4d1b576.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bbb5acbf4c86b74b116862dac643b583.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_34356a1ed99282f59fcb75228ae5ce76.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_032c8cb325641c8413617be7a6f9322f.png>
+![](img/zhuanqian_b50ca7b6a992faaaa61258c5c4d1b576.png)
+![](img/zhuanqian_bbb5acbf4c86b74b116862dac643b583.png)
+![](img/zhuanqian_34356a1ed99282f59fcb75228ae5ce76.png)
+![](img/zhuanqian_032c8cb325641c8413617be7a6f9322f.png)
 以上案例的代码也可以直接保存、运行和修改。
 需要注意的是，看到图表“好看”并不等于真正理解它。专业分析中至少要做到以下一点：
 - 明确知道自己要表达什么，再选择对应图表；
@@ -99,9 +99,9 @@ Seaborn 建立在 Matplotlib 之上，默认样式更美观，也提供了许多
 只有理解图表，才有可能向客户、同事或领导准确说明分析结果。
 ### Plotly：更丰富的交互体验
 如果希望图表具备悬停提示、缩放、筛选或者三维旋转等功能，可以尝试 Plotly。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d1a6287704dd8b0f795986dc591973f5.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_10e887acc8dd3ff02a4ca59dc0d834f9.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_242f6e073969cd26c79464f7c9205c0a.png>
+![](img/zhuanqian_d1a6287704dd8b0f795986dc591973f5.png)
+![](img/zhuanqian_10e887acc8dd3ff02a4ca59dc0d834f9.png)
+![](img/zhuanqian_242f6e073969cd26c79464f7c9205c0a.png)
 Plotly 生成的图表通常支持更强的交互效果。例如，鼠标移动到图表元素上时可以显示具体数据，三维散点图也可以进行放大、缩小和旋转。
 本次示例主要用于展示不同图表类型，因此没有进一步进行界面美化和交互优化。实际项目中，还可以继续调整主题、标签、筛选条件和布局。
 ## 2. 从示例图表过渡到真实数据
@@ -147,10 +147,10 @@ plt.title("2\. 箱线图 (Box Plot)", fontproperties=chinese_font)
 plt.xlabel("星期", fontproperties=chinese_font)
 plt.ylabel("账单分布", fontproperties=chinese_font)
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_098ebf6794f17cdb3d604a62e52caaf6.png>
+![](img/zhuanqian_098ebf6794f17cdb3d604a62e52caaf6.png)
 可以继续询问 Cursor：
 > 如何利用 tips、flights 或 iris 数据集系统学习数据可视化？
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9d6fe40374c0c60cc6d84bb7ff51bf83.png>
+![](img/zhuanqian_9d6fe40374c0c60cc6d84bb7ff51bf83.png)
 例如：
 - 使用 `histplot` 观察数值的分布；
 - 使用 `heatmap` 展示矩阵或相关关系；
@@ -159,36 +159,36 @@ plt.ylabel("账单分布", fontproperties=chinese_font)
 这里以 `fka/awesome-chatgpt-prompts` 为例。这个数据集看起来主要收集了 ChatGPT 提示词，但刚开始接触时，可能并不清楚如何下载和使用。
 可以把数据集页面链接交给 Cursor，并询问：
 > 如何下载并读取这个 Hugging Face 数据集？
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5b27eeec0b9aaf62b6756a1c30e0066b.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8ac6df493b439a77ae9ebef97024e8c1.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_dae594b32bc594ab019339cfe8fb2791.png>
+![](img/zhuanqian_5b27eeec0b9aaf62b6756a1c30e0066b.png)
+![](img/zhuanqian_8ac6df493b439a77ae9ebef97024e8c1.png)
+![](img/zhuanqian_dae594b32bc594ab019339cfe8fb2791.png)
 完成下载和环境配置后，再将加载数据集、访问数据的代码复制到 Cursor 中运行。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1031124074fd2170e1a6184a5916cb4c.png>
+![](img/zhuanqian_1031124074fd2170e1a6184a5916cb4c.png)
 如果能够正常读取并打印数据，就说明数据加载成功，可以进入分析阶段。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c44d75f93d03c68eeed34a1e2b13e1dd.png>
+![](img/zhuanqian_c44d75f93d03c68eeed34a1e2b13e1dd.png)
 接下来，可以先不急着画图，而是让 Cursor 根据数据内容提出建议：
 > 请读取 fka/awesome-chatgpt-prompts 数据集，并推荐适合专业分析的可视化图表。当前只需要说明图表类别和每种图表能够表达的含义，不需要编写代码。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_72ad1fc33185a389f4fe89a7a01c3ffe.png>
+![](img/zhuanqian_72ad1fc33185a389f4fe89a7a01c3ffe.png)
 ## 3. 以提示词数据集为例进行分析
 ### 词云图：观察高频词汇
 由于这个数据集主要由文本句子构成，因此词云图是一个比较自然的选择。
 可以这样要求 Cursor：
 > 请先绘制词云图，再根据词云结果分析数据中出现频率较高的词汇和可能反映的使用场景。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1f61f1b6f588f80d1c10d8e1aa9c2e42.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_70f0b2fe7d831cd3b13f92ca684a1cf6.png>
+![](img/zhuanqian_1f61f1b6f588f80d1c10d8e1aa9c2e42.png)
+![](img/zhuanqian_70f0b2fe7d831cd3b13f92ca684a1cf6.png)
 从分析结果中，可以初步观察到：
 - `help`、`write`、`explain`、`act`、`create` 等词出现较多；
 - 用户经常要求 GPT 进行写作、解释、扮演角色和执行任务；
 - 提示词中大量使用动作类动词；
 - 常见应用场景包括教育学习、专业工作、创意写作和文件处理等。
 如果某些依赖库尚未安装，可以让 Cursor 直接给出安装命令。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_831a0af1733b378929158ce5350b9ad3.png>
+![](img/zhuanqian_831a0af1733b378929158ce5350b9ad3.png)
 完成安装后运行代码：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5ae42b178bee5ae476dd5bb791d698ef.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_758fce33775282ee0cbfee953e0841cf.png>
+![](img/zhuanqian_5ae42b178bee5ae476dd5bb791d698ef.png)
+![](img/zhuanqian_758fce33775282ee0cbfee953e0841cf.png)
 通过词云，可以比较直观地观察高频词。不过，词云更适合展示“哪些词出现得多”，并不一定能完整说明词语之间的关系。
 因此，还可以继续让 Cursor 结合原始数据进行更深入的解释。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f4ee6b406a7a6efefd1e6e545491f104.png>
+![](img/zhuanqian_f4ee6b406a7a6efefd1e6e545491f104.png)
 ### 条形图：比较类别出现次数
 接下来尝试绘制条形图。
 ```
@@ -196,21 +196,21 @@ plt.ylabel("账单分布", fontproperties=chinese_font)
 用途:展示角色(act)的分布情况
 意义:直观显示不同角色的出现频次，帮助理解数据集中最常见的角色类型
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_637b2403305bdf3e966a3498db340b73.png>
+![](img/zhuanqian_637b2403305bdf3e966a3498db340b73.png)
 如果生成的图表难以理解，不要只凭感觉下结论，可以直接追问：
 > 我无法理解这张条形图，请结合实际数据解释图表含义，确保解释与数据一致。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b9f45d628f93e3f394f614ca6e1a4c17.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5a5bb6b3ea609c463f5217f8b44eb627.png>
+![](img/zhuanqian_b9f45d628f93e3f394f614ca6e1a4c17.png)
+![](img/zhuanqian_5a5bb6b3ea609c463f5217f8b44eb627.png)
 根据 Cursor 的解释，如果发现展示方式不够清楚，还可以让它调整代码和标签。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_16db16ea5198203784d750081fc41b19.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1db4f243470632b493a6e39f77ecc28b.png>
+![](img/zhuanqian_16db16ea5198203784d750081fc41b19.png)
+![](img/zhuanqian_1db4f243470632b493a6e39f77ecc28b.png)
 从修改后的结果来看，由于数据量较小，许多角色只出现了一次，只有个别角色出现两次。因此，图表中频数较低是数据本身造成的，并不一定代表绘图错误。
 ### 其他图表：让 Cursor 辅助探索
 还可以直接询问：
 > 针对这个数据集，还有哪些合适的图表？请说明每种图表的用途。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4b9f8f08a0ace35d585686c5432ca7e3.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_35c06387865393432d2b0e4943b9787f.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ebbab1f2772c93bf40681266bb81bc18.png>
+![](img/zhuanqian_4b9f8f08a0ace35d585686c5432ca7e3.png)
+![](img/zhuanqian_35c06387865393432d2b0e4943b9787f.png)
+![](img/zhuanqian_ebbab1f2772c93bf40681266bb81bc18.png)
 从推荐结果可以看出：
 - 条形图和词云图都适合快速观察高频信息；
 - 不同图表可能从不同角度呈现相同现象；
@@ -222,7 +222,7 @@ plt.ylabel("账单分布", fontproperties=chinese_font)
 ## 1. Mermaid 是什么？
 软件项目可视化并不是新概念。过去，很多团队使用 UML 设计和描述系统结构。现在，Mermaid 也成为一种非常方便的文本化绘图工具。
 Mermaid 基于 JavaScript，可以使用类似 Markdown 的文本语法定义图表，并在支持的环境中实时渲染。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f77eddea981efad4da676d85954dace0.png>
+![](img/zhuanqian_f77eddea981efad4da676d85954dace0.png)
 它的核心理念可以概括为：
 > 用代码描述图表，让图表能够像代码一样被修改和管理。
 Mermaid 具有以下特点：
@@ -234,15 +234,15 @@ Mermaid 具有以下特点：
 在编辑器中，可以安装以下插件：
 - `Markdown Preview Mermaid Support`：在 Markdown 中预览 Mermaid 图表；
 - `Mermaid Markdown Syntax Highlighting`：为 Mermaid 语法提供高亮显示。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_89135a8577fb3990283d1d7035770948.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fe4fe353a7271d5f7464ce9052a8ca41.png>
+![](img/zhuanqian_89135a8577fb3990283d1d7035770948.png)
+![](img/zhuanqian_fe4fe353a7271d5f7464ce9052a8ca41.png)
 ## 2. 为什么要给代码配图？
 在文章前面，我们已经提到过流程图、时序图、类图等图表的价值，但还可以让 Cursor 给出更系统的解释。
 直接询问：
 > 请解释为什么需要为代码绘制流程图、时序图、类图等可视化图表。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f77a4b71fd357eab1b88e67f60b604ed.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7a6dc4125aee1c351b351e46bf9125e1.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1b7cb867abda09f01470aedb1d4c8c47.png>
+![](img/zhuanqian_f77a4b71fd357eab1b88e67f60b604ed.png)
+![](img/zhuanqian_7a6dc4125aee1c351b351e46bf9125e1.png)
+![](img/zhuanqian_1b7cb867abda09f01470aedb1d4c8c47.png)
 Cursor 的第一版回答通常已经能够覆盖主要原因，例如：
 - 帮助理解业务流程；
 - 展示模块之间的依赖关系；
@@ -253,13 +253,13 @@ Cursor 的第一版回答通常已经能够覆盖主要原因，例如：
 - 便于后续维护和排查问题。
 如果回答只围绕某几个图表展开，也可以继续补充要求：
 > 请不要只介绍流程图、时序图和类图，请扩展到更多常见的软件项目图表，并说明它们分别适合解决什么问题。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_074e8e0308ffdb077a6475a4c9b7d595.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_55d046a5277c9f08af55d306423b58f9.png>
+![](img/zhuanqian_074e8e0308ffdb077a6475a4c9b7d595.png)
+![](img/zhuanqian_55d046a5277c9f08af55d306423b58f9.png)
 最后，再根据 Cursor 的回答进行人工整理，就能形成更完整的项目可视化说明。
 ## 3. 常见图表：流程图
 流程图是软件开发中最容易接触、也最常用的图表之一。
 它主要通过节点和箭头表示业务步骤、判断条件、数据流向以及执行顺序。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a0974447dd3cc11323b638a392bb6d00.png>
+![](img/zhuanqian_a0974447dd3cc11323b638a392bb6d00.png)
 流程图适合用于：
 - 描述用户操作路径；
 - 展示业务处理逻辑；
@@ -288,10 +288,10 @@ E --> F[执行查询]
 F --> G[返回结果]
 ````
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_eacc1c80eee73ef1cac1ea3d3f5924e7.png>
+![](img/zhuanqian_eacc1c80eee73ef1cac1ea3d3f5924e7.png)
 | 核心价值 | 主要优势 | 典型场景 | 基础方向 |
 | 直观呈现处理链路 | 让团队理解保持一致 | 业务流程 | TB/TD：自上而下 |
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_59dbcf47e734d869b195cc1bd62da36e.png>
+![](img/zhuanqian_59dbcf47e734d869b195cc1bd62da36e.png)
 基本用法：
 *   TB/TD——自上而下
 *   BT——自下而上
@@ -311,7 +311,7 @@ D-->>-A: 返回数据
 A-->>-U: 响应结果
 ````
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7c04070c4284b06f1928e5084b1d4ec2.png>
+![](img/zhuanqian_7c04070c4284b06f1928e5084b1d4ec2.png)
 它能够：
 *   还原交互的先后次序
 *   界定各方职责边界
@@ -339,7 +339,7 @@ class VectorStore {
 VannaBase <|-- VectorStore
 ````</interface>
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4dcfed98e7092eaa5e8801af7a9779d7.png>
+![](img/zhuanqian_4dcfed98e7092eaa5e8801af7a9779d7.png)
 它的核心价值：
 *   呈现类之间的关联
 *   约定接口行为
@@ -371,8 +371,8 @@ section 开发
 编码实现     :a3, after a2, 40d
 ````
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_72a538ad29c140bb94e27c75a0c380a9.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cf353c93fc19e818be9a5fb546906eb7.png>
+![](img/zhuanqian_72a538ad29c140bb94e27c75a0c380a9.png)
+![](img/zhuanqian_cf353c93fc19e818be9a5fb546906eb7.png)
 适合用在：
 *   项目排期
 *   时间规划
@@ -388,7 +388,7 @@ title 项目分布
 "C" : 30
 ````
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_769fd113ef4ed32fa361ff949e02df43.png>
+![](img/zhuanqian_769fd113ef4ed32fa361ff949e02df43.png)
 适合用在：
 *   数据比例展示
 *   构成分析
@@ -405,7 +405,7 @@ Moving --> Crash
 *    Crash --> [*]
 ````
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c2b6cd89d00904f01ed71b661b0bf5fd.png>
+![](img/zhuanqian_c2b6cd89d00904f01ed71b661b0bf5fd.png)
 适合用在：
 *   状态机建模
 *   生命周期管理
@@ -419,7 +419,7 @@ CUSTOMER ||--o{ ORDER : places
 ORDER ||--|{ LINE-ITEM : contains
 ````
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9033be3b6e3c7cd96e302c43f0d4edc4.png>
+![](img/zhuanqian_9033be3b6e3c7cd96e302c43f0d4edc4.png)
 适合用在：
 *   数据库结构设计
 *   实体关系梳理
@@ -437,7 +437,7 @@ section 购买
 支付: 5: Me
 ````
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_73c1bb8c0a2275e3eea695176780e8ef.png>
+![](img/zhuanqian_73c1bb8c0a2275e3eea695176780e8ef.png)
 适合用在：
 *   用户体验研究
 *   流程体验改进
@@ -465,7 +465,7 @@ C --> E[(数据库)]
 D --> E
 ````
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cc2a2270a8ef92850c870fd908a192ea.png>
+![](img/zhuanqian_cc2a2270a8ef92850c870fd908a192ea.png)
 推荐图表：
 *   流程图：系统拓扑
 *   类图：模块依赖
@@ -490,7 +490,7 @@ end
 S-->>-C: 返回结果
 ````
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_dffcfb545b0145d0616e67e636fbf800.png>
+![](img/zhuanqian_dffcfb545b0145d0616e67e636fbf800.png)
 推荐图表：
 *   时序图：完整调用链
 *   流程图：流程梳理
@@ -510,7 +510,7 @@ section 测试
 测试     :a3, 2024-02-01, 20d
 ````
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5207eaceb2bd7579345b0f1dc08fc504.png>
+![](img/zhuanqian_5207eaceb2bd7579345b0f1dc08fc504.png)
 推荐图表：
 *   甘特图：排期同步
 *   流程图：工作流规范
@@ -527,35 +527,35 @@ section 测试
 vanna-ai 是近一周在 GitHub 获得 410 stars（累计 11.8k stars）的开源项目，采用 MIT 许可，是一个面向 SQL 生成等场景的 Python RAG（检索增强生成）框架。介绍视频与 GitHub 链接如下。
 ### 先梳理逻辑，再交给 Mermaid 画出来
 先让 Chat 整体理解这个项目，再用 Mermaid 完成可视化。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7a6243a4c4d63d64fd36cd392eb281e0.png>
+![](img/zhuanqian_7a6243a4c4d63d64fd36cd392eb281e0.png)
 由于关联了 @Codebase，Chat 会读取仓库内的全部文件，而不只是代码文件，处理流程如下：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bc25c077c96f936e22b02124d6aa5c70.png>
+![](img/zhuanqian_bc25c077c96f936e22b02124d6aa5c70.png)
 Chat 返回的内容能够快速说明项目功能与架构，同时给出工作流程、训练过程和关键代码位置，质量很高：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5c19fb8c0b3b28fa07f938ccaaacb5b2.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_48ae519d155c6834411fbaa83b732c8f.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_654604be6e38ecf2d3f055739492247c.png>
+![](img/zhuanqian_5c19fb8c0b3b28fa07f938ccaaacb5b2.png)
+![](img/zhuanqian_48ae519d155c6834411fbaa83b732c8f.png)
+![](img/zhuanqian_654604be6e38ecf2d3f055739492247c.png)
 ### 从不同角度绘图
 #### （1）项目流程图
 ```
 梳理VANNA-MAIN的完整逻辑流程，创建 mermaid_flow.md文件到根目录，同时在mermaid_flow.md中使用绘制mermaid项目流程图
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fbfb8a66f35235fba9cfcbd46d8fb0e2.png>
+![](img/zhuanqian_fbfb8a66f35235fba9cfcbd46d8fb0e2.png)
 Cursor 回答后，点击 Apply 即可自动生成对应的 Markdown 文档，内容会预写入该文件；继续点击 Accept 便可完整接受答案。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_38e087ce8b8f351a84c881f6d566743c.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2360c11cb6b5b06bddb022345a67124d.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_37a7673d1e9fb0bb7ac3ce37467650bd.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4fe6842f7dea6fd813fa491e37d4ebd2.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ded247b4436d6af5b12890d89bd00e8b.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_184bf39dd645c73ca789b0f7d1729956.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f5c96baff47d30883588f0439974eaa1.png>
+![](img/zhuanqian_38e087ce8b8f351a84c881f6d566743c.png)
+![](img/zhuanqian_2360c11cb6b5b06bddb022345a67124d.png)
+![](img/zhuanqian_37a7673d1e9fb0bb7ac3ce37467650bd.png)
+![](img/zhuanqian_4fe6842f7dea6fd813fa491e37d4ebd2.png)
+![](img/zhuanqian_ded247b4436d6af5b12890d89bd00e8b.png)
+![](img/zhuanqian_184bf39dd645c73ca789b0f7d1729956.png)
+![](img/zhuanqian_f5c96baff47d30883588f0439974eaa1.png)
 第一次回答质量不错，但画的是比较宽泛的流程，并不完全符合预期；所以我加上“Flowchart”作为限定，重新提问，提示词如下：
 ```
 梳理VANNA-MAIN的完整逻辑流程，创建 mermaid flow,md文件到根目录，同时在mermaid flow.md中使用绘制mermaid项目流程图(Flowchart)
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8bd80b73810397583f7ad18ba17835e4.png>
+![](img/zhuanqian_8bd80b73810397583f7ad18ba17835e4.png)
 这次回答只绘制了 Flowchart，把主线流程、训练链路和业务相关流程都画了出来，还补充了异常处理分支，体验很好。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2536aed2687c10bdd4a835ea6df50164.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_44135e0b86e56ecfef175f310347f867.png>
+![](img/zhuanqian_2536aed2687c10bdd4a835ea6df50164.png)
+![](img/zhuanqian_44135e0b86e56ecfef175f310347f867.png)
 ```
 完整整理[苏苏]角色逻辑的时序图，用terminal帮我创建mermaid_sequence.md文件到根目录
 ```
@@ -565,8 +565,8 @@ Cursor 回答后，点击 Apply 即可自动生成对应的 Markdown 文档，�
 @Codebase 完整梳理全流程的时序图，{只输出```mermaid.md```图表}，并帮我创建mermaid_sequence.md 文件到根目录
 ```
 Cursor 的回答和生成的 Mermaid 图如下：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f52e765b6b0e17839544a3439ddaaaab.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a249225f1353ba28dd4c902e0b97e347.png>
+![](img/zhuanqian_f52e765b6b0e17839544a3439ddaaaab.png)
+![](img/zhuanqian_a249225f1353ba28dd4c902e0b97e347.png)
 各组件含义说明：
 | 组件名 | 说明 |
 | User（用户） | 系统的最终使用者 |
@@ -593,12 +593,12 @@ Cursor 的回答和生成的 Mermaid 图如下：
 ```
 梳理VANNA-MAIN的完整代码，创建 mermaid_classDiagrams.md文件到根目录，同时在mermaid_classDiagrams.md中绘制mermaid项目Class diagrams图
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e18255539d79c2d79c7d006e185e4214.png>
+![](img/zhuanqian_e18255539d79c2d79c7d006e185e4214.png)
 生成结果如下：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_69d73d1d8024a2314c5d91666d6d49a9.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5625e59f607fc92b2932410b8a7189cb.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_137e613410cd8372ea6e4d5fc8306db4.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_593410df7962830232dc1e1431a52a32.png>
+![](img/zhuanqian_69d73d1d8024a2314c5d91666d6d49a9.png)
+![](img/zhuanqian_5625e59f607fc92b2932410b8a7189cb.png)
+![](img/zhuanqian_137e613410cd8372ea6e4d5fc8306db4.png)
+![](img/zhuanqian_593410df7962830232dc1e1431a52a32.png)
 # 四、 Mermaid 使用建议（持续补充中）
 图表设计应遵循几条基本准则：内容简洁、重点清晰、颜色适度、布局美观。
 （1）让图表信息更精炼
@@ -637,7 +637,7 @@ section 验证
 数据分析: 4: PM
 ````
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b411181d73f373781b337f68d596696a.png>
+![](img/zhuanqian_b411181d73f373781b337f68d596696a.png)
 常用图表：
 *   用户旅程图：用户体验
 *   流程图：业务流程
@@ -657,7 +657,7 @@ section 测试
 系统测试     :a4, after a2 a3, 10d
 ````
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_54be719ab033c0a378100bec5bf493c2.png>
+![](img/zhuanqian_54be719ab033c0a378100bec5bf493c2.png)
 常用图表：
 *   甘特图：项目进度
 *   流程图：工作流程
@@ -683,7 +683,7 @@ B --> C
 D --> E
 ````
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d67fb67e1f88b15f9cb5d38892d6cf94.png>
+![](img/zhuanqian_d67fb67e1f88b15f9cb5d38892d6cf94.png)
 ## 开发工程师
 常用图表：
 *   时序图：接口交互
@@ -701,7 +701,7 @@ D-->>-S: 返回
 S-->>-C: 响应
 ````
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ce874141d920d3e40f4ce35bc8f4fcac.png>
+![](img/zhuanqian_ce874141d920d3e40f4ce35bc8f4fcac.png)
 ## 测试工程师
 常用图表：
 *   状态图：测试流程
@@ -719,7 +719,7 @@ stateDiagram-v2
 *    通过 --> [*]
 ````
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e3055fd54b86594f893a333b0d1cc78c.png>
+![](img/zhuanqian_e3055fd54b86594f893a333b0d1cc78c.png)
 ## 运维工程师
 常用图表：
 *   流程图：部署流程
@@ -735,7 +735,7 @@ C --> E[恢复]
 D --> E
 ````
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c91e8d2dd553421b461c5a41f11b38cd.png>
+![](img/zhuanqian_c91e8d2dd553421b461c5a41f11b38cd.png)
 ## UI/UX设计师
 常用图表：
 *   流程图：页面流转
@@ -752,7 +752,7 @@ style A fill:#f9f,stroke:#333
 style E fill:#bbf,stroke:#333
 ````
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ca1936f61df6d02bcb0a5fac5dcafb49.png>
+![](img/zhuanqian_ca1936f61df6d02bcb0a5fac5dcafb49.png)
 ## 产品运营：详细举例
 运营人员通常关注数据分析、用户行为和业务流程，以下是他们最常用的 Mermaid 图表类型：
 图表的作用：
@@ -777,7 +777,7 @@ section 留存
 推荐他人: 1: User
 ````
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cdecd094a9f7fab884e2cacb69c2a12a.png>
+![](img/zhuanqian_cdecd094a9f7fab884e2cacb69c2a12a.png)
 用途：
 *   分析用户行为路径
 *   识别转化瓶颈
@@ -794,7 +794,7 @@ title 用户来源分布
 "其他渠道" : 5
 ````
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a75ef267b52fd9f78222d811da94c6b0.png>
+![](img/zhuanqian_a75ef267b52fd9f78222d811da94c6b0.png)
 用途：
 *   渠道分析
 *   用户画像
@@ -812,7 +812,7 @@ D --> G[触达策略]
 E --> H[召回策略]
 ````
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9e99488e3f67eb8a0c3c2ab8a4ecd7b3.png>
+![](img/zhuanqian_9e99488e3f67eb8a0c3c2ab8a4ecd7b3.png)
 用途：
 *   活动流程设计
 *   用户分层策略
@@ -832,7 +832,7 @@ section 新品发布
 发布活动   :b2, after b1, 7d
 ````
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5f2e5ed2060d9b3b682dabecf1559390.png>
+![](img/zhuanqian_5f2e5ed2060d9b3b682dabecf1559390.png)
 用途：
 *   活动排期
 *   资源规划
@@ -852,7 +852,7 @@ stateDiagram-v2
 召回用户 --> 复购用户
 ````
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_148258282b2c6d2645aa1536ca25a29a.png>
+![](img/zhuanqian_148258282b2c6d2645aa1536ca25a29a.png)
 用途：
 *   用户生命周期
 *   会员等级变化
@@ -869,7 +869,7 @@ D --> E[效果评估]
 E --> F[复盘优化]
 ````
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_79344778a75a91c85091f1e8cd9ae246.png>
+![](img/zhuanqian_79344778a75a91c85091f1e8cd9ae246.png)
 #### （2）数据分析
 ```
 ````mermaid
@@ -880,7 +880,7 @@ title 活动效果分析
 "未达标" : 25
 ````
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_306f705eec23c20b329a2fb4b16f6105.png>
+![](img/zhuanqian_306f705eec23c20b329a2fb4b16f6105.png)
 #### （3）用户运营
 ```
 ````mermaid
@@ -897,7 +897,7 @@ section 成熟期
 权益使用: 5: Member
 ````
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_932b596401f6d2994dcbfca49c2dadc1.png>
+![](img/zhuanqian_932b596401f6d2994dcbfca49c2dadc1.png)
 ### 运营决策支持
 | 渠道分析 | 用户分析 | 活动分析 |
 | 投放效果评估 | 行为轨迹 | 参与度 |

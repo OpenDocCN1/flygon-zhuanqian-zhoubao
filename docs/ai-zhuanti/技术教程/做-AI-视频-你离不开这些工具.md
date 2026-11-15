@@ -44,11 +44,11 @@ GPTs 是 ChatGPT 的插件市场，和 Kimi 不一样，这里是别人调好的
 长处：直接用现成智能体，技巧要求低也能拿到像样的结果
 短处：需要🪜，需要账号
 ### Video shooting script：负责输出分镜
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6f2412bea03d82299906c9c7965492c6.png>
+![](img/zhuanqian_6f2412bea03d82299906c9c7965492c6.png)
 ### Midjourney v6.1 Prompt Generator：为每个分镜生成具体画面指令
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c552f90bf6cefdfe0c074634465d9e04.png>
+![](img/zhuanqian_c552f90bf6cefdfe0c074634465d9e04.png)
 ### Luma/Gen-3/Kling promt enchancer：上传前后两张图，自动生成首尾帧提示
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_64d9f15d1fc11f38af58e51dc5f8eca6.png>
+![](img/zhuanqian_64d9f15d1fc11f38af58e51dc5f8eca6.png)
 # 文生图
 ## 即梦：即梦官网
 即梦 AI 是字节跳动旗下剪映推出的全链路 AI 创作平台。
@@ -56,11 +56,11 @@ GPTs 是 ChatGPT 的插件市场，和 Kimi 不一样，这里是别人调好的
 1. 每天免费额度充足，单张消耗低，可批量出图
 2. 中文体验友好，可选模型、自定义尺寸、支持垫图
 图片生成
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_196322d9d77aeeccf03479962217466a.png>
+![](img/zhuanqian_196322d9d77aeeccf03479962217466a.png)
 参考图
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_255f238d30a033ee37a424399d5e1c70.png>
+![](img/zhuanqian_255f238d30a033ee37a424399d5e1c70.png)
 智能画布：抠图、扩图、局部重绘
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_983d6bff00e6dc0d377b1e0f978c7dd9.png>
+![](img/zhuanqian_983d6bff00e6dc0d377b1e0f978c7dd9.png)
 ## 秒画：官网地址
 秒画出自商汤，基于自研 Artist 绘画大模型。
 官方飞书文档：
@@ -68,14 +68,14 @@ GPTs 是 ChatGPT 的插件市场，和 Kimi 不一样，这里是别人调好的
 1. 提供免费额度，参数可自定义程度高
 2. 有灵感广场，可一键复刻同款
 3. 支持局部重绘与图片延展
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a0cd34c9393e76524a44ef7aae106ebb.png>
+![](img/zhuanqian_a0cd34c9393e76524a44ef7aae106ebb.png)
 灵感广场，能快速做出同款
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_80a30174e1893eda96c045fa70c9e70b.png>
+![](img/zhuanqian_80a30174e1893eda96c045fa70c9e70b.png)
 ## 悠船：悠船官网
 悠船是 Midjourney 官方推出的国内中文版图像生成工具，靠文字描述出图。
 长处：中文友好，功能完整，支持图生图、风格参考、角色参考、人物一致性。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_10f4769f04615fa029927b2ff32bc11c.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_63608afe23d4406f1c2c1a51ded931fb.png>
+![](img/zhuanqian_10f4769f04615fa029927b2ff32bc11c.png)
+![](img/zhuanqian_63608afe23d4406f1c2c1a51ded931fb.png)
 ## 吐司：吐司官网
 吐司是国内的 AI 绘画模型分享社区兼在线生图平台。
 长处：
@@ -83,27 +83,27 @@ GPTs 是 ChatGPT 的插件市场，和 Kimi 不一样，这里是别人调好的
 2. 新手友好，内置大量现成工具与工作流，直接点开就能跑
 3. 老手友好，支持模型训练
 4. 可反推图片提示词
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_62c3c2a0fd548d07239bddb6c49a763f.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8c8ec1ccb895483826a48abd020d0599.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_22214d1256b35b6c2de08ca334e27c91.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5068d3c3e89d7659ad5883cdd83b669f.png>
+![](img/zhuanqian_62c3c2a0fd548d07239bddb6c49a763f.png)
+![](img/zhuanqian_8c8ec1ccb895483826a48abd020d0599.png)
+![](img/zhuanqian_22214d1256b35b6c2de08ca334e27c91.png)
+![](img/zhuanqian_5068d3c3e89d7659ad5883cdd83b669f.png)
 ## 可灵：官方地址
 长处：中文友好，上手简单，支持文生图、图生图，每日有一定额度，单次可出多张
 短处：免费视频条数有限，且近期视频生成偶发报错，提示免费通道饱和
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d3d4c7878e12fb4cd231df4c87fe83f1.png>
+![](img/zhuanqian_d3d4c7878e12fb4cd231df4c87fe83f1.png)
 ## Runninghub：官网地址
 Runninghub 是无需本地部署的在线创作环境，托管 ComfyUI，上面有很多现成图流。
 OpenArt 有不少工作流但无法运行。哩布哩布可以用，但次数受限。
 长处：中文友好，免费可无限用，直接运行即可。
 首页汇聚大量工作流
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2b17868b410b1aa40c41eb047812b300.png>
+![](img/zhuanqian_2b17868b410b1aa40c41eb047812b300.png)
 点进去看似复杂，实际只要替换图片后点右上角运行就行
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3487ca3ec7cbeb6b4eff38cc61164e81.png>
+![](img/zhuanqian_3487ca3ec7cbeb6b4eff38cc61164e81.png)
 ## KRER：官网地址
 KRER 是海外产品，界面英文，提示词需英文。
 长处：图片增强、区域修改、图片融合、图片流畅转视频
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2ac5370b55ba7976ce4336a0e64a07e8.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0d50e72d951807f6bbebbe3e963b7e8a.png>
+![](img/zhuanqian_2ac5370b55ba7976ce4336a0e64a07e8.png)
+![](img/zhuanqian_0d50e72d951807f6bbebbe3e963b7e8a.png)
 ## Midjourney 官网：
 长处：绘画圈的标杆，出图质量顶尖
 短处：需🪜，价格偏高
@@ -112,7 +112,7 @@ KRER 是海外产品，界面英文，提示词需英文。
 短处：部署步骤繁琐，生成速度受本地硬件限制
 ## 平面转 3D：官网地址
 操作直观，上传图片即可生成
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f32b5ca98bb99397ecd2151d90a8454a.png>
+![](img/zhuanqian_f32b5ca98bb99397ecd2151d90a8454a.png)
 # 音乐
 ## Mubert：https://mubert.com/
 长处：
@@ -120,31 +120,31 @@ KRER 是海外产品，界面英文，提示词需英文。
 2. 按图片生成音乐
 3. 按歌曲链接仿写新曲
 短处：曲目中常混杂 Mubert 歌词，疑似需付费会员才能去除
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c10234baf1854f9a06cefc51ba9242aa.png>
+![](img/zhuanqian_c10234baf1854f9a06cefc51ba9242aa.png)
 ## Soundraw：https://soundraw.io/
 免费可制作，导出需付费
 特点是可以自行调整节拍
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ef4188533772736cc41f66d546dbfd64.png>
+![](img/zhuanqian_ef4188533772736cc41f66d546dbfd64.png)
 ## 网易天音：https://tianyin.music.163.com/#/
 1. 支持多种创作方式
 2. 网易 AI 作词支持实时改词、换歌手、换风格
 3. 作品可上传网易平台产生收益
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0e796ef558cec866d61265a8ebe2e90f.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5a841d3bf9ff8630d3f24006eb349fbc.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_75b42d1f96f632e66c8d3e9fc4f5c670.png>
+![](img/zhuanqian_0e796ef558cec866d61265a8ebe2e90f.png)
+![](img/zhuanqian_5a841d3bf9ff8630d3f24006eb349fbc.png)
+![](img/zhuanqian_75b42d1f96f632e66c8d3e9fc4f5c670.png)
 ## Suno：https://suno.com/
 每日 50 积分，可做约十首 2-3 分钟歌曲，歌词可用 Kimi 生成
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_23c0e37d4a9709e154bfe927c069d01b.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2e2297f4033836f9aa13936bb5d69bc1.png>
+![](img/zhuanqian_23c0e37d4a9709e154bfe927c069d01b.png)
+![](img/zhuanqian_2e2297f4033836f9aa13936bb5d69bc1.png)
 ## Udio: https://www.udio.com/home
 每日 10 积分，可制作 5 首歌
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_51223614c0f10331dad082d082352952.png>
+![](img/zhuanqian_51223614c0f10331dad082d082352952.png)
 ## 海绵音乐: https://www.haimian.com/featured
 暂未看到充值入口，生成时会附带封面图，导出时封面一并导出
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b04271bce256e866537044ee28aa933e.png>
+![](img/zhuanqian_b04271bce256e866537044ee28aa933e.png)
 ## BGM 猫: https://bgmcat.com/home
 按标签生成轻音乐，操作简洁
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_045faa866a43ab0575faf44072246656.png>
+![](img/zhuanqian_045faa866a43ab0575faf44072246656.png)
 # 图生视频
 Prompt 精准公式 = 主表现物 + 空间场景 + 动作变化 + 镜头运动 + 美感氛围
 举例：
@@ -154,40 +154,40 @@ Prompt 精准公式 = 主表现物 + 空间场景 + 动作变化 + 镜头运动 
 ## 海螺 AI：官网地址
 长处：界面简洁，支持导出，目前免费但需排队
 短处：水印明显
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d90f1aedf88415a2cd689d7ea8d837b9.png>
+![](img/zhuanqian_d90f1aedf88415a2cd689d7ea8d837b9.png)
 ## 可灵：官网地址
 长处：每日有一定免费额度，支援文生视频、图生视频，自定义参数丰富
 短处：免费视频数量很少，免费额度时常出问题
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_78533ca5542d1f53bb1efeeba5542b6a.png>
+![](img/zhuanqian_78533ca5542d1f53bb1efeeba5542b6a.png)
 ## 即梦：即梦官网
 长处：功能齐全，支援文生视频、图生视频、对口型、首尾帧
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7ca94de53cc1f9804cc37f3444f8db14.png>
+![](img/zhuanqian_7ca94de53cc1f9804cc37f3444f8db14.png)
 ## Luma：官网地址
 长处：每月 30 次视频生成，操作简单，支援无水印导出
 短处：晚高峰时免费额度无法使用
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_288dfb67d714dcf10b6ca9ece17d49c9.png>
+![](img/zhuanqian_288dfb67d714dcf10b6ca9ece17d49c9.png)
 ## Runway：官网地址
 特点：支援视频重绘、艺术字视频、末帧特效添加
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bd3f472adc6fd6124c82879656999cae.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e3e359a9d7da8b7da7bbb323b5ff49f2.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e820af6fbe8bf2f0d2266b785bd9ac46.png>
+![](img/zhuanqian_bd3f472adc6fd6124c82879656999cae.png)
+![](img/zhuanqian_e3e359a9d7da8b7da7bbb323b5ff49f2.png)
+![](img/zhuanqian_e820af6fbe8bf2f0d2266b785bd9ac46.png)
 ## Pika: 官网地址
 内置多种特效，如爆炸、融化
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8b78b7556ca1a906b3fa9a023f422c51.png>
+![](img/zhuanqian_8b78b7556ca1a906b3fa9a023f422c51.png)
 ## Domoai：官方地址
 视频转绘：把真实视频动作转为动漫风格
 不过价格偏高
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b71a00cac73bc1571af89d7e7adddd6e.png>
+![](img/zhuanqian_b71a00cac73bc1571af89d7e7adddd6e.png)
 ## deforum：官网地址
 配合 GPTs：deforum animator
 能轻松做出炫酷、卡点的 AI 视频，但费用较高且无免费额度
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e59442d0f34957a458deea20e11f58be.png>
+![](img/zhuanqian_e59442d0f34957a458deea20e11f58be.png)
 # 剪映
 无论哪个 AI 平台，即便付费，也多只能生成几秒片段，想做出长视频，就必须借助传统工具合成，最常用的是剪映。
 除了拼接视频，常用功能还有：
 音乐 + 音效
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4c1435e25dad04bb02c2d1006a584b2c.png>
+![](img/zhuanqian_4c1435e25dad04bb02c2d1006a584b2c.png)
 文字 + 朗诵
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_06e8d4592202bbcd07b09475a6e484b8.png>
+![](img/zhuanqian_06e8d4592202bbcd07b09475a6e484b8.png)
 变速
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_920ad9f0c205b55c3b63ecd9df0dacaa.png>
+![](img/zhuanqian_920ad9f0c205b55c3b63ecd9df0dacaa.png)

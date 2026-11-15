@@ -7,11 +7,11 @@
 打个比方，你是个在迷茫期徘徊的创业者。
 人生教练不会直接拍板说你该往左还是往右，它会把一群顶尖思想家摆到你面前，用不断的追问、引导、抛观点，把你慢慢推到豁然开朗的那个瞬间——“啊，原来答案在我心里”。
 就连这篇文章下面关于AI OS的讨论，也是我先抛个想法，然后扔给智囊团反复聊出来的。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9fd034a06f285f5b48f7d412d6deb979.png>
+![](img/zhuanqian_9fd034a06f285f5b48f7d412d6deb979.png)
 现在人生教练的交流群里已经有三百多个人了，大家玩得都挺上头。
 昨天我在群里随口问了句“现在还有几个人在用？”
 有个朋友回我：“还没来得及上手。”
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_945a8334bae03ee1d11db2bcc85b152f.png>
+![](img/zhuanqian_945a8334bae03ee1d11db2bcc85b152f.png)
 再加上飞书MCP这次迭代的方向，跟我心里的预期有点偏差。
 所以我就直接用了半天时间，重做了一个只干一件事的MCP：人生教练。
 用上我这个版本的好处很明显：
@@ -41,18 +41,18 @@ cursor 安装MCP的方法：网址
 claude code 安装MCP的方法：网址
 ### 2.对话里输入“启动人生教练”
 AI会根据关键词自动触发MCP拉取规则，原理就跟下图一样。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e6d8f208f1c3ccadf5e19df6b4c4d397.png>
+![](img/zhuanqian_e6d8f208f1c3ccadf5e19df6b4c4d397.png)
 能看到 Called start_lifecoach ，说明它正在去取运行指令。
 ### 3.接上你的记忆，让AI更懂你
 对话时把你的记忆文件带进来，AI会自动归纳整理。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4506e61810fa9b05506fe197cf173d43.png>
+![](img/zhuanqian_4506e61810fa9b05506fe197cf173d43.png)
 当问题和你的过往记忆有关联时，AI会把两者一起纳入思考。
 ## 在MCP上死磕了一圈，我看到了AI的几个大方向
 因为我一直在MCP上实操，通过人生教练这个小项目，我捕捉到了一些很有意思的趋势。
 ### 记忆：AI OS最值钱的资产
 这是我最大的体感——记忆很可能就是未来AI OS的核心壁垒。
 现在的AI就像《初恋五十次》里的女主，每次见面都像第一次认识。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fe5ed0300264b46359cc0176af8fdecf.png>
+![](img/zhuanqian_fe5ed0300264b46359cc0176af8fdecf.png)
 你得反复自我介绍：“你好，我是...”
 电影里女主靠写日记来记住一切，我们现在用AI也一样，得把经历及时记录下来，不然AI就忘了。
 短视频靠浏览记录喂出你爱看的内容，AI靠记忆也能把回答的命中率做上去。

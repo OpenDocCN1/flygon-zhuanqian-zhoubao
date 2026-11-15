@@ -2,17 +2,17 @@
 # 开场心路
 大家好，我是龙哥，12月 YouTube 航海的一员。从加入航海到现在，我的心态一路在变：先是兴奋上手实操，然后怀疑，再到激动，接着焦虑，最后变得笃定。起因是航海开跑前后几天，我试了完全不同的两个方向。之前做过内容，所以在看完老马教练的《YouTube Shorts 赛道选择与收益解读》后，我先走了解说类 Shorts，挑了与教练案例不同的工厂解说路线。数据起步不错，第一支就拿到4万多播放，后续大多破万。没过多久，账号直接进入0播放期，新老视频一起被停推。硬撑几日无果后，第一条线宣告失败。
 重新梳理赚钱圈内关于 YouTube 的讨论，我才意识到自己漏掉了关键信息，
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a1a995cabf66632ba4b96ab8757e3b04.png>
+![](img/zhuanqian_a1a995cabf66632ba4b96ab8757e3b04.png)
 龙哥大佬提出的风向标是：用 AI 生成各类视频，搬到 YouTube 和 Shorts 去挂广告分成。我当时只盯住“广告、分成”几个字，没留意到“AI 生成”四个字。恰好自己也想补 AI 技能，索性借着航海把 AI 应用也学起来，于是开启了第一个 AI Shorts 赛道。
 # Shorts AI 赛道的选择
 ## 航海数据自报
 先说成绩。航海期间主攻 AI Shorts，8天冲到初级 YPP 标准，18天达到高级 YPP 标准。单支最高播放约3470万，涨粉18万+，累计播放量在6000万+左右。收益就不晒了，期间踩坑太多，实际到手并不理想，后面会逐一讲到。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7e9c84fab532b8aa06480a71d73acd9a.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a80fdafee28175e2f73ba5b02eac3d22.png>
+![](img/zhuanqian_7e9c84fab532b8aa06480a71d73acd9a.png)
+![](img/zhuanqian_a80fdafee28175e2f73ba5b02eac3d22.png)
 ## 如何锁定 AI 动物预警
 看过方波妮教练的《YouTube Shorts 项目实操：从 0 到 1 跑通账号，12 天收获 2700+订阅与 90 万+播放》，竹子的《YouTube Shorts 实操指南：AI 宝宝走秀与 Magic 变身视频制作》，以及老马教练的《YouTube Shorts 赛道选择与收益解读》后，我最初入局的是达人变身秀。选择它纯粹因为航海手册里是教练验证过的赛道。但理科男的特质让我对做这种内容提不起劲，实操中就是敷衍式产出，为了完成而完成。随便放两支航海初期做的变身秀，大家感受一下。
 随后我想找一个能坚持做的方向。随意刷了一阵油管后，我注意到第一个对标频道：快乐探险家。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7562cd985a468509f83f58c4f096bde9.png>
+![](img/zhuanqian_7562cd985a468509f83f58c4f096bde9.png)
 点进去看注册时间、视频数量等航海手册里强调的对标指标，发现频道虽然注册较早，但这个细分类型的投放时间并不长，播放表现却很亮眼。接着我按标签进一步深挖同类频道。可惜当时同赛道账号很少，找了很久只锁定三个，而且航海手册里未曾提及。但数据都不差。综合判断后，我决定对标这个账号的形式开干。工具、方法直接照搬圈友分享的资源。
 数据很快给了反馈，前几支都在1.5万播放上下。不断对标拆解、精炼提示词后，第6到7支时出现首个小爆款，86万播放。这让我坚信赛道有流量潜力。接下来的一周里，陆续出现几十万、几百万级别的视频。
 在创作过程中，我逐步归纳出自己理解的爆款要素。
@@ -23,8 +23,8 @@ AI 动物示警、AI 动物救援这类内容，本质是靠共情和情绪共�
 反复看对标和自己的片子后，我发现差异点在于“像不像真拍”。对标账号几乎能以假乱真，我的片子一眼就能看出 AI 感。上两支做对比，一支2.6万播放，一支3400多万播放。去掉运气因素，第二个视频的画面色彩更接近实拍，让用户误以为不是 AI 产物。评论区也印证了这一点，这类视频一旦爆，评论基本都是观众分享自己的真实经历。相信做同赛道的朋友已经猜到我的账号了。
 建议：文生图阶段要把色彩搭配放在第一位，力求还原相机实拍的观感，画面明亮但不过曝。
 下面放两张图直观感受色彩对真实感的影响，后面我会讲我的做法。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e3a9b7ac3ed9ccbe1ba511402f873567.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_358a14c986579f1eba7c629ec8eb901b.png>
+![](img/zhuanqian_e3a9b7ac3ed9ccbe1ba511402f873567.png)
+![](img/zhuanqian_358a14c986579f1eba7c629ec8eb901b.png)
 ### 真实度
 #### 文生图真实度
 这点贯穿全流程，从文生图到图生视频。第一步文生图，提示词写法不同、绘图工具不同，结果差异很大，后面会分享我用过的软件。
@@ -35,15 +35,15 @@ AI 动物示警、AI 动物救援这类内容，本质是靠共情和情绪共�
 ### 适度特写
 实操验证后我发现，适当加入特写或近距离镜头，能明显提升代入感。我通常会把动物异常行为的分镜单独做一个特写，或把镜头稍稍推近。无论是图生视频的细节质感，还是整体观感，都会有惊喜。放两张图感受下，近距离确实更容易让人沉浸。
 这只是我的体感，因人而异，大家自行测试。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0a235283276667a465f3f3ad0f4d1fac.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_33c79e6618d31ad64f6a0f3c170c0de4.png>
+![](img/zhuanqian_0a235283276667a465f3f3ad0f4d1fac.png)
+![](img/zhuanqian_33c79e6618d31ad64f6a0f3c170c0de4.png)
 ### 清晰度
 有些伙伴会疑惑：我生成的图已经很清晰甚至是超清，为什么成片看着总有种糊感？这问题多半不在源图，而在图生视频和剪辑环节。
 #### 图生视频阶段
 不同平台的模型推理方式不同，部分模型在生成时会主动损失画质。图生视频不会因为你喂 4K 图就输出 4K 视频，高清图主要是帮助模型更好识别和理解提示。大部分输出在 720P 或 1080P 左右，部分平台对会员开放更高画质，比如可灵的 35 灵感值档、即梦会员高画质、智谱清言会员等。根据预算选择画质损失最小的方案。
 #### 剪辑阶段
 分镜剪辑和加音效本身对画质影响不大。即便为了去水印把画面放大到 105%，再把 Y 轴调到 -70 到 -80 左右，也不会明显糊掉。最关键的是导出参数。以剪映为例，我的做法是 4K 60 帧导出，码率用推荐值即可。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ca93455b6ce5c2794813186659f99f94.png>
+![](img/zhuanqian_ca93455b6ce5c2794813186659f99f94.png)
 ### 分镜结构
 我目前常用 5-6 个分镜组合：动物拦车 + 动物与车互动中景车外视角 + 动物与车互动近景特写车内向外拍 + 灾难镜头主角车辆与动物二选一入画 + 动物近景特写可选 + 温情收尾。按这个结构控制时长在 22-26 秒之间，节奏比较稳。
 # 创作工具与使用感受
@@ -53,11 +53,11 @@ AI 动物示警、AI 动物救援这类内容，本质是靠共情和情绪共�
 思路：先对对标视频做分镜拆解，整理出自己的分镜需求，再把分镜图上传给 GPT 让它反推提示词。
 说明一下为何不用 MJ、SD 反推：一来我对 MJ、SD 不熟，二来它们反推的词经常混乱。GPT 能识别图片，反推准确度更高。DeepSeek 我不用它做主推，因为它只能识别图片里的文字，无法整体理解画面。选用 GPT 的主要原因是想固定提示词的结构，因为词序会影响权重。让 GPT 用中英文对照输出，便于后续修改和优化。
 比如我想做“狗趴在窗外”的分镜，自己写一直出不来。把想法和对标图一起丢给 GPT，才拿到理想效果。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_119c75ab4c5f5040989bd5a9e4e5adba.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8d986bbfd5b40fd7e9167ac6a9e65e89.png>
+![](img/zhuanqian_119c75ab4c5f5040989bd5a9e4e5adba.png)
+![](img/zhuanqian_8d986bbfd5b40fd7e9167ac6a9e65e89.png)
 再比如我想做侧面镜头拍摄车头坠入坑里，对标里没有这个镜头，我就找一张侧面网图让它推理提示词。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d120abe593b71a7086845f1debeba3b6.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6a36f02712ef4497783112b7f16da0b1.png>
+![](img/zhuanqian_d120abe593b71a7086845f1debeba3b6.png)
+![](img/zhuanqian_6a36f02712ef4497783112b7f16da0b1.png)
 即便如此，GPT 给的词也不一定一次到位。这时 DeepSeek 就派上用场，把 GPT 的提示词丢进去，把生成后出现的问题一起描述，让它帮忙优化。最近 DeepSeek 很火，试了一下效果不错，基本能实现想要的效果。
 但光靠复制粘贴每天都要重复操作，必须整理成自己的模板，才能真正降本增效。具体模板后面会详细展开。
 ## 文生图绘画工具
@@ -67,7 +67,7 @@ AI 动物示警、AI 动物救援这类内容，本质是靠共情和情绪共�
 自己电脑跑不动 F1 模型，我用的是 liblib 在线端 https://www.liblib.art/sd
 大模型：绘梦写实摄影大模型、F.1 基础模型、星流 Star-Alpha 大模型
 Lora 模型：纪实摄影 F.1、蔚蓝 Blue 高清动物摄影大模型
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_af44bdd9bce978cf11d88aa4db89d310.png>
+![](img/zhuanqian_af44bdd9bce978cf11d88aa4db89d310.png)
 * Midjourney
 用的是 v6.1，有时会出图过度清晰、色彩过饱和甚至发黑。遇到色彩偏离预期时，我会先用 SD 生成一张参考图，再用 MJ 的 --sref 加图链接做风格参考，这样质感会接近 SD。目前还没找到更好的 MJ 调色方法。
 无论是 SD 还是 MJ，文生图阶段我优先看色彩和真实感，其次才是主体变形或站位。
@@ -103,7 +103,7 @@ gazing inside the car, the glass is clear with faint reflections,
 outside is a 温馨的农场的自然环境，
 focus on the 德国牧羊犬's face"
 slightly blurred background, realistic details, Film Photography,4k quality,
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_353fd9550f6f2a1a47797d799793802d.png>
+![](img/zhuanqian_353fd9550f6f2a1a47797d799793802d.png)
 后续分镜都可以用同一套模板，只需更换汉字部分的主体和环境，镜头和画质部分保持不变即可。这样生产速度和通过率都会显著提升。
 分镜头1：动物拦车
 一只 [动物] 站在乡间公路上,
@@ -177,29 +177,29 @@ The image is in cinematic composition, realistic style, ,Film Photography,4k qua
 # 视频制作全流程
 ## 文生图
 把提示词模板复制到翻译工具，修改主体与环境要素后得到各分镜提示词，再用绘图软件出图，我常用的是 stable diffusion，具体模型与 lora 参见 3.2 部分。可得到分镜图
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8c11a87aa6325b65f84c86b08ce3b9c8.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_16c3af2d280305a9987da85d01c70f34.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4795c7e88f270ffca14ffb38e1159c1a.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e37394c1f02478229ef8e80205805527.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_84f265567a88ed12957d572d8639d623.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b5c08db095fa38b01d4b030596de3b4f.png>
+![](img/zhuanqian_8c11a87aa6325b65f84c86b08ce3b9c8.png)
+![](img/zhuanqian_16c3af2d280305a9987da85d01c70f34.png)
+![](img/zhuanqian_4795c7e88f270ffca14ffb38e1159c1a.png)
+![](img/zhuanqian_e37394c1f02478229ef8e80205805527.png)
+![](img/zhuanqian_84f265567a88ed12957d572d8639d623.png)
+![](img/zhuanqian_b5c08db095fa38b01d4b030596de3b4f.png)
 ## 图生视频
 随后用海螺 AI / 可灵 AI 将分镜图生成片段，图生视频提示词基本固定，需留意先后顺序与权重，权重变化会影响画面运动。
 可灵 AI 我采用标准模式，比高品质模式更省成本。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d6efd1467058893586c02d624cc47d7e.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4a6d9d2f6bb7ac43d248fbbfcbb07990.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ed6e758517456511d92c903cdf6aa259.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c03e98ec6797023fa893c201c86c8759.png>
+![](img/zhuanqian_d6efd1467058893586c02d624cc47d7e.png)
+![](img/zhuanqian_4a6d9d2f6bb7ac43d248fbbfcbb07990.png)
+![](img/zhuanqian_ed6e758517456511d92c903cdf6aa259.png)
+![](img/zhuanqian_c03e98ec6797023fa893c201c86c8759.png)
 ## 剪辑配音
 与达人秀不同，达人秀一条 BGM 就行，动物示警需按进度严格匹配音效。
 把生成片段按顺序导入剪映，全选后先统一 1.2 倍速，使节奏更紧凑。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a48a3650e2efe80ec7c98d350e7f6f0d.png>
+![](img/zhuanqian_a48a3650e2efe80ec7c98d350e7f6f0d.png)
 再逐段检查，剪掉首秒静止影响流畅的部分，随后进行音效配音。
 音效可直接在剪映自带库中搭配。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9b4966d86b625a6fd7798de561daf916.png>
+![](img/zhuanqian_9b4966d86b625a6fd7798de561daf916.png)
 在搜索框检索所需音效素材。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0685baecd521520ca875f156f4e9b42b.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_184b806fdbf808db98379e7edd94e4de.png>
+![](img/zhuanqian_0685baecd521520ca875f156f4e9b42b.png)
+![](img/zhuanqian_184b806fdbf808db98379e7edd94e4de.png)
 常用音效有：环境白噪音、犬吠、委屈叫声、焦急叫声、舔舐声、拉布拉多玩耍声、汽车喇叭、刹车声、发动机怠速声、海浪拍打声等，按视频与审美自行搭配。
 亦可按表现调节色彩等，最后以 4K 60 帧导出。
 # 从起号到首个 100 美金的心得与问题
@@ -212,7 +212,7 @@ The image is in cinematic composition, realistic style, ,Film Photography,4k qua
 0 播耽误我最久。第一个号做得不错时开始扩号，遇到过首条就 0 播、数据正常数日后突然 0 播、连历史视频也不再推荐。总结原因如下：
 0 播 ≠ 0 推荐
 视频 0 播放时，先看 YouTube 工作室 - 内容 - 覆盖面，若推流次数为个位数但播放为 0，说明账号基本正常，可继续更新观察。若推流为 0，播放自然为 0，则账号、IP、内容三者至少有一项异常，需逐项排查或直接换号，多为账号问题。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8a6dda93965b2da04a6cd0449e91e45f.png>
+![](img/zhuanqian_8a6dda93965b2da04a6cd0449e91e45f.png)
 ### 频道是否被收录
 视频能播放的前提是频道被收录，若频道搜不到，视频也难被推荐，新频道收录约需 24 小时内。发视频前最好完成频道装修，头像、简介、名称齐全。
 首条 0 播可先观察，有时隔两天才开始推。
@@ -224,7 +224,7 @@ The image is in cinematic composition, realistic style, ,Film Photography,4k qua
 此情况出现在新号、自建节点时，注册养号发布内容网络未变，IP 固定，初期流量稳定破万，三四天后新内容 0 推荐。暂无理想解法，只能换号应对。
 ## YPP 开通
 我很快达到初级 YPP 条件，但首次申请被拒，理由为重复利用他人内容。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e608dd7fdca2d8364cae39b67cbabdb4.png>
+![](img/zhuanqian_e608dd7fdca2d8364cae39b67cbabdb4.png)
 当时心态崩了，正准备申诉，却因删视频、改头像昵称导致不符合申诉要求而放弃。感谢教练方波妮的指点让我宽心不少。
 一个月后重新申请，当晚提交次日通过。为提高通过率，我做了以下调整供参考：
 * 1. 视频左下角加入人头实拍镜头，每条随机截取数十秒加入。

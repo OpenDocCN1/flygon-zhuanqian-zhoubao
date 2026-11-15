@@ -2,15 +2,15 @@
 7 月 3 号，出海鼓励师哥飞做了一场长达两个半小时的直播，主题是《SEO 友好的 AI 原生 CMS 思考和实践》。看完后我脑子里嗡的一声，赶紧把要点整理成笔记，不然后劲过了就忘。
 ## 1. 用外链交换换来低成本的自动化增长
 woy.ai 的页面提交机制设计得非常精妙。提交时只要填写的 AI 工具官网里带了 woy.ai 的反向链接，就能直接通过审核。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c06e2cf8ed9046546724f1e11d873b2e.png>
+![](img/zhuanqian_c06e2cf8ed9046546724f1e11d873b2e.png)
 如果官网没有外链，系统就会弹出付费窗口：每月 9.9 美元，无限次提交。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_051332be1436f3b20c1ec56a2a09ab52.png>
+![](img/zhuanqian_051332be1436f3b20c1ec56a2a09ab52.png)
 一招两吃。免费通道让站长用外链置换收录，付费通道让急于上线的玩家花小钱无限刷。9.9 美元的定价远低于市面上其他导航站的收费。更狠的是，这个不限次数的额度还能被二次包装，变成“AI 工具收录代发服务”去赚差价。
 对提交方和导航站来说都是划算买卖。尤其免费策略，站长几乎零成本地帮 woy.ai 换来了外链和产品信息，典型的边际成本为零的增长。说白了，这就是把增长黑客用在外链数量上，而不是用户数上。
 哥飞透露，仅靠这个打法，woy.ai 两个月内 DR 干到 58，引荐域名 155 个。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f0f9e17b4676fe1000ea5ede5cefc692.png>
+![](img/zhuanqian_f0f9e17b4676fe1000ea5ede5cefc692.png)
 另一个同路人 tap4.ai 也走类似路线，两个月 DR 冲到 50，引荐域名 128 个。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6b75aeab955cad04ba73653dc3dad2af.png>
+![](img/zhuanqian_6b75aeab955cad04ba73653dc3dad2af.png)
 当然不能神化这招。市场上不乏照搬做法却没起来的导航站，我判断关键在于内容本身的含金量和前期的种子外链基础，没有这两样，外链来了也留不住权重。
 ## 2. 让 AI 生成真正 SEO 友好的内容
 核心思路是先爬后洗再生成。先用爬虫自动抓取待收录产品的公开信息，再人工补齐缺口，汇总成参考资料喂给 AI 清洗整理。
@@ -24,7 +24,7 @@ SEO 三要素 title、description 等，也由 AI 基于参考资料生成。这
 ## 3. 别让 AI 乱打标签，要用搜索量驱动
 直接让 AI 自由发挥打标签，结果往往是搜不到的冷门词，这对 SEO 毫无价值。
 我自己做导航站时就吃过亏。后来改成研究头部站的做法，比如 theresanaiforthat.com。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_80981ad588d7b49631a849ad0a2eddc9.png>
+![](img/zhuanqian_80981ad588d7b49631a849ad0a2eddc9.png)
 它用 task 作为一种细粒度标签，数量远超工具本身，很多 task 下只有 1 个工具。这类词搜索量理论上很低，但像 TAAFT 这种 DR 74 的大站，也可能是在刻意造词抢占先机。
 哥飞的解法是先行汇集一批高热度的标签关键词作为白名单，再让 AI 依据参考资料在白名单里做匹配。准确率上去，排名机会自然变大。
 标签是多语存储的，而且不是直译。不同语言的标签是基于该语言的真实搜索数据采集，再配上标签说明辅助 AI 理解，进一步提升命中率。
@@ -33,7 +33,7 @@ SEO 三要素 title、description 等，也由 AI 基于参考资料生成。这
 直播演示时我注意到标签列表页里有几个隐形的小工具：移除当前标签、把指定工具强制归类到某标签。功能很轻，但用起来飞快。
 这比从零搭一个完整管理后台省心省力，又比直接改数据库安全高效多了。
 给开发者的启发是，面对重复性杂活，先想想能不能用几行代码做个小面板自用。别在非核心体验上过度打磨，比如样式美化，时间花在刀刃上更划算。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0f08f3b0fd73732103689d4428440e79.png>
+![](img/zhuanqian_0f08f3b0fd73732103689d4428440e79.png)
 ## 5. 结语
 整场分享的核心只有一个：以真正对用户有价值为前提做 SEO，再用 AI 原生 CMS 来承载。让 AI 负责它擅长的重复劳动，人类负责投喂高质量参考。信息被清洗、聚合、重组后，比对手更有料，谷歌才会更偏爱，用户才会更停留，飞轮就转起来了。
 受限于篇幅和我的理解深度，很多细节没展开。感谢哥飞的干货输出，完整回放可以在微信视频号搜索“哥飞出海”查看直播回放。

@@ -1,9 +1,9 @@
 # 从 AI 小白到单价 5 位数的商单，我只靠一条“不变”的心法
 大家好，我是龙哥。之前写过一篇分享，讲我怎么从只会跟 AI 聊天，做到累计 1.4w 的提示词商单。今天这篇算是“迟到的第二课”，我想掏心窝子聊聊，真正帮我拿下 3k、4k、5k 定制单的底层逻辑。
 先说个有意思的事：我现在做内容，已经不全是自己动手了。我的“自媒体创业小团队”里，有负责选题的“灵感猎手”、写脚本的“文案织匠”、起标题的“标题设计师”……它们全是我用 AI 搭起来的数字员工。工作流大概长这样：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9c3fdcd7e8bebe075b34aac67f2e8554.png>
+![](img/zhuanqian_9c3fdcd7e8bebe075b34aac67f2e8554.png)
 图1 AI 自媒体工作流
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f6345d525a3b62ec4238ca3881e681d5.png>
+![](img/zhuanqian_f6345d525a3b62ec4238ca3881e681d5.png)
 图2 嵌入至工作流中的 AI 助手
 你可能会说，这不就是让 AI 打工吗？对，但前提是，你得先学会当一个好老板。
 ## 把 AI 当成第一天来上班的实习生
@@ -12,22 +12,22 @@
 同时，你得清楚这员工的短板：语言理解常常停在表面，常识推理也容易掉链子。它是“偏科尖子生”，不是“全能通才”。把那些它擅长的、重复性高的活交给它，真正需要判断力的地方，自己拿主意。做到这一点，人机协作就成功了一半。
 ## 让 AI 解决复杂任务的“三板斧”
 **第一板斧：拆解。** 任务越复杂，越要切碎。大问题切成小问题，难度降下来了，方向也清楚了，还不容易漏掉细节。比如策划年会，先定主题、排日程、设计活动、写演讲稿、安排场地餐饮、制作邀请函……切成六步，AI 就不会两眼一抹黑。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_69c8e10d1d4b93d2b54003bc2c007303.png>
+![](img/zhuanqian_69c8e10d1d4b93d2b54003bc2c007303.png)
 （拆解数学题的示意图，可对应此处）
 **第二板斧：逻辑。** 拆归拆，不能乱拆。每步之间要有因果关系，像搭桥一样环环相扣。前面没站稳，后面直接塌。
 **第三板斧：展示。** 千万别只看 AI 给的最终结论。要让 AI 把整个思考过程“说”出来。大模型本质上是在做“词汇接龙”：根据上文预测下一个最合适的词。它没有隐藏的内心活动，说即是想，想即是说。你让它一步步讲，它就更可能一步步按逻辑走。你也才能发现它哪里错了，好帮它修正。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_be4d1ade2bcacaa44522e50354bd9104.png>
+![](img/zhuanqian_be4d1ade2bcacaa44522e50354bd9104.png)
 （AI 词汇接龙原理图，可对照理解）
 ## 进阶心法：思维链（CoT）
 这三板斧不是我在玄学，它们背后有一个正经学术名词——思维链（Chain of Thought）。说白了，就是让 AI 学会“分步推理”，像你做数学题一样，把计算过程一步步写在草稿纸上。它不是简单的问题-答案模式，而是“输入问题—思维链—输出结论”。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cfdb557679a294127a3ed07bc068ed40.png>
+![](img/zhuanqian_cfdb557679a294127a3ed07bc068ed40.png)
 （思维链提示模式示意）
 这个概念来自 2022 年谷歌研究员 Jason Wei 等人的论文《Chain-of-Thought Prompting Elicits Reasoning in Large Language Models》。论文发现，只要你要求在提示里“展示工作过程”，AI 在复杂推理任务上的准确率就会明显提升。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0d3271eba8233eea703dce21a517d215.png>
+![](img/zhuanqian_0d3271eba8233eea703dce21a517d215.png)
 （论文截图）
 那怎么用思维链？两个技巧。
 **技巧一：零样本提示。** 简单任务不用举例，直接下指令：“Let's think step by step”“请展示思考步骤”。比如一道数学题，你光让 AI 答，它可能信口开河；加上一句“一步步解释你怎么算的”，它就能规规矩矩写出步骤和答案。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2d495a65220a9072c1b8d570253e07a9.png>
+![](img/zhuanqian_2d495a65220a9072c1b8d570253e07a9.png)
 （标准提示与 CoT 提示对比图）
 ```
 小明有25 个苹果,吃了5 个,又买了3袋，每袋有8个苹果，现在小明有几个?
@@ -157,12 +157,12 @@ C ≈ 31.42厘米
 # 四、实战：让模型复刻董老师的直播带货内容
 理解链式思考是什么之后，大家应该也摸到了处理复杂问题的核心门道，四步走：拆分、给样例、亮过程、讲逻辑。
 下面用一个真实案例，展示一套能搬到别处去用的通用解法。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bdabb3c6398fb12942c9ca859b6042dc.png>
+![](img/zhuanqian_bdabb3c6398fb12942c9ca859b6042dc.png)
 ## 一、先把目标和诉求定清楚
 这次以“复刻董老师的直播带货内容”为例；这里所说的董老师，就是素材里那位知识型主播。我们要为某户外露营用品品牌做一套适配稿件。
 动笔前先想清楚：为什么要做这篇内容？希望它起到什么作用？
 只有目标与诉求都明确，后续才不会白费功夫。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_31922badc3647bf8bd4b259835e7a1f2.png>
+![](img/zhuanqian_31922badc3647bf8bd4b259835e7a1f2.png)
 按“什么都能交给模型”的思路，这一步同样可以让模型代劳。下面这段提问，就是用来帮我们理清需求的：
 ```
 # Role: 需求分析专家
@@ -209,7 +209,7 @@ C ≈ 31.42厘米
 1. 一是给模型做知识体检：看它认不认识我们要模仿的对象。若认识，就再核验理解是否一致；若不认识，就把定义、案例、背景资料“喂”给它补课。
 2. 二是让模型提前“热脑”。语言模型本质上是在做逐字接龙，提前熟悉任务，能提升它对后续内容的掌握度。这本身就是链式思考——一步一步推，逐步深入，最后逼近目标，执行起来也更准。
 模型回应：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5f2cf5cf234d3d3c4cafe411bf96e230.png>
+![](img/zhuanqian_5f2cf5cf234d3d3c4cafe411bf96e230.png)
 目标需求都清晰了，双方认知也同步了，大方向基本清晰。
 但要真正复刻出董老师的味道，还得继续把任务细分，找一条能落地的路径。
 ## 二、操作路径从哪里找
@@ -225,12 +225,12 @@ C ≈ 31.42厘米
 我们即将开启直播卖货，我的目标是结合我们品牌的特性，仿照董宇辉带货文案撰写一篇带货文案，请你详细告诉我完成这一目标的具体工作流程和成熟方法。
 ```
 模型反馈：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8a02702d42862537765751e37757a0d3.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8c78d7a7b6ffbb3e157fdedf7eee3ad3.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5708bac4be1f73dc8e13363580f9711d.png>
+![](img/zhuanqian_8a02702d42862537765751e37757a0d3.png)
+![](img/zhuanqian_8c78d7a7b6ffbb3e157fdedf7eee3ad3.png)
+![](img/zhuanqian_5708bac4be1f73dc8e13363580f9711d.png)
 这份清单虽然不能一步到位，但用来当起点框架足够，后续可自行增删补全。
 阶段记录：3. 拆分路径已定
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7ac37e644f373cd9d4642ff7840f2ce8.png>
+![](img/zhuanqian_7ac37e644f373cd9d4642ff7840f2ce8.png)
 ## 三、敲定复刻打法
 想拿到更靠谱的打法，可以综合几类工具的答案，再让模型汇总一遍。具体提问如下：
 ```
@@ -241,7 +241,7 @@ C ≈ 31.42厘米
 请你综合这些回答,提炼出一个最优的仿写董宇辉风格的带货文案方法论,并以清单的形式呈现。
 ```
 最终仍要靠人来筛选：删掉多余步骤，补上遗漏要点，调整先后顺序，形成下面这套打法：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_908144d474a4bc88cde5a9f8bfdc4416.png>
+![](img/zhuanqian_908144d474a4bc88cde5a9f8bfdc4416.png)
 ## 四、把打法翻译成分步指令
 接下来，把上面这套打法拆成多个子指令：
 动作1
@@ -315,7 +315,7 @@ C ≈ 31.42厘米
 并将以上所分析的董宇辉风格的带货文案特点称为【YHWA】，即宇辉文案
 ```
 模型反馈：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_22b694c4425ec715b84d9cbd86636535.png>
+![](img/zhuanqian_22b694c4425ec715b84d9cbd86636535.png)
 ### ② 明确这次的模拟主题与目标
 ```
 基于以下信息，请提取5-8个关键词和2-3个主题,这些将用于创作仿写【YHWA】。
@@ -324,13 +324,13 @@ C ≈ 31.42厘米
 - 目标受众：喜爱户外活动的年轻人、亲子家庭、寻求逃离都市生活的白领
 ```
 模型反馈：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ead441e9af6f78bf2eb905d0f380e849.png>
+![](img/zhuanqian_ead441e9af6f78bf2eb905d0f380e849.png)
 ### ③ 搭出内容骨架
 ```
 基于前面对示例文案所分析的6个方面的特点，结合对上面所提取的关键词和主题,构建一个符合【YHWA】结构的写作框架,请确保框架体现了【YHWA】风格特点,并包含了我们的关键词和主题。
 ```
 模型反馈：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8225cfa40b14510d1a6be6d81ac0a96f.png>
+![](img/zhuanqian_8225cfa40b14510d1a6be6d81ac0a96f.png)
 ### ④ 写出正文初稿
 ```
 请根据之前构建的文案框架,撰写一篇仿【YHWA】文案初稿。要求:
@@ -340,7 +340,7 @@ C ≈ 31.42厘米
 4\. 确保文案能引发情感共鸣,突出产品优势,并激发行动
 ```
 模型反馈：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_68ea099a16abeac915a68ff910b508a0.png>
+![](img/zhuanqian_68ea099a16abeac915a68ff910b508a0.png)
 ### ⑤ 给初稿打分
 ```
 请以批判的、严厉的视角对你所撰写的文案与【YHWA】做一个评估,并打分(1-5分,5分为最高)。
@@ -355,29 +355,29 @@ C ≈ 31.42厘米
 请列出具体的得分,并指出文案还有哪些地方需要改进，确保本文案和【YHWA】一模一样，让别人看了误以为是原作所写。
 ```
 模型反馈：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f611c2a7b1ded1725c88b0b645a152aa.png>
+![](img/zhuanqian_f611c2a7b1ded1725c88b0b645a152aa.png)
 ### ⑥ 按评分迭代修改
 ```
 根据上一步的评估结果,请对文案做进一步的优化和改进,力求在各个维度都达到最佳效果。
 优化后,请再次评估文案质量,并给出最终得分。
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a53ac2686b10044f1dcdabf85ec56f30.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6c012e2f48e541bf1719f1cf6319c6e0.png>
+![](img/zhuanqian_a53ac2686b10044f1dcdabf85ec56f30.png)
+![](img/zhuanqian_6c012e2f48e541bf1719f1cf6319c6e0.png)
 看到模型给出的修改意见，我又继续追问了下去：
 ```
 为什么还差0.5分，一步步思考，并列出具体的原因
 ```
 模型回应：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c42e93bfdd145d89399bd2fe9d1dfa61.png>
+![](img/zhuanqian_c42e93bfdd145d89399bd2fe9d1dfa61.png)
 还可以继续一轮一轮地追问，把内容打磨到位：
 ```
 根据上一步的评价和思考结果,请对文案做进一步的优化和改进,力求在各个维度都达到最佳效果。
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c5b462b4ca988004cc1429ef648e6237.png>
+![](img/zhuanqian_c5b462b4ca988004cc1429ef648e6237.png)
 经过这轮引导，模型分步搞定了复刻任务。可以看到，把完整命题切成多个环节，每步产出都交给下一步使用，最终质量会更稳、更可控。
 这六个环节串成一条闭合思考链：大命题拆成小动作，逐级推进、彼此承接，最后都通向同一个目标。
 阶段记录：5. 指令模板已沉淀
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d9e3506b5deb350a3590e26e39703fee.png>
+![](img/zhuanqian_d9e3506b5deb350a3590e26e39703fee.png)
 ## 五、把打法沉淀成模板
 流程跑通后，把指令设计经验整理成一块可复用的模板。以后再有类似的复刻需求，直接套模板，效率会明显提升。
 具体可以从两个方向入手：​
@@ -386,7 +386,7 @@ C ≈ 31.42厘米
 这样做有两个好处：
 1、所有环节的指令都能随时修正、灵活调优；
 2、模型产出的内容质量会更稳定。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1de638db10fb0f2572b82639ddcdaa30.png>
+![](img/zhuanqian_1de638db10fb0f2572b82639ddcdaa30.png)
 图3 指令链
 ### （二）搭出结构化 Prompt
 把角色、任务、背景、输出格式等字段固定下来，再组合成模板，方便重复调用。
@@ -425,9 +425,9 @@ C ≈ 31.42厘米
 ### 三）把提示词做成智能助手
 当这些 Prompt 成熟后，就能进一步封装成智能体，参考图4，或者直接做成工作流。比如借助 Coze、Dify 这类平台，一键生成一个好用的聊天机器人 BOT，参考图5，这就等于给 Prompt 穿上了一件漂亮的外衣。
 如此一来，你就能在任何时间、任何地点，随时唤起这个智能助手来分担工作。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_79ecd2069b648e51b974e4e978a314ed.png>
+![](img/zhuanqian_79ecd2069b648e51b974e4e978a314ed.png)
 图4 创建GPTs/智能体
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bf6f55c53b44a3d4b6fbb53c6b3e4777.png>
+![](img/zhuanqian_bf6f55c53b44a3d4b6fbb53c6b3e4777.png)
 图5 创建工作流、BOT
 通过上面这个实操案例，我们完整演示了如何用提示工程的方法论，让 AI 完成一次董宇辉风格带货文案的仿写。整个执行路径可以归纳为以下几步：
 1. 先把任务的目标和需求想清楚
@@ -438,7 +438,7 @@ C ≈ 31.42厘米
 从中可以看出，复杂任务的本质就是拆解成若干个环环相扣的子任务，用递进式的 Prompt 引导 AI 逐步交付，这套逻辑完全可以迁移到其他任何复杂问题上。
 分享到这里就结束了，趁着现在印象还新鲜，赶紧上手试试吧，也欢迎把你的实践反馈告诉我。
 如果你觉得这篇内容对你有帮助的话，麻烦在离开前点个👍支持一下，这会是我持续输出好内容的动力。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1776456b842eeeb9ca6fe44142498f19.png>
+![](img/zhuanqian_1776456b842eeeb9ca6fe44142498f19.png)
 我们正在寻找对AI提示词感兴趣的你~
 * * *
 ## 👍 点个赞再走哦~ 👍

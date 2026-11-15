@@ -1,7 +1,7 @@
 # Coze 扩容方案：手搓一个专属 LLM 外挂，3000 字超细实操
 # 作者寄语
 大家好，我是龙哥，一直在研究怎么和 AI 更好地配合，让自己变得更强。下面是我的自我介绍：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_29579e3101cfc811644d64d587a11360.png>
+![](img/zhuanqian_29579e3101cfc811644d64d587a11360.png)
 # 为什么要给工作流换个大脑
 PS：只想看干货的同学可以直接跳到【实操流程】
 先说说为什么要自己做一个【插件形态的大模型】节点。
@@ -10,7 +10,7 @@ PS：只想看干货的同学可以直接跳到【实操流程】
 Coze 本质是一个 AI 流程搭建平台，而插件就是给流程扩容的外挂。就像一个创业团队需要招更强的人才一样，插件就是把你想要的大模型招进团队。
 有了插件，你就可以把 Agent 的推理能力从默认模型里解放出来。用国内模型不顺手？换一个更匹配当前任务的模型即可。
 说白了，就是让你的工作流能接入任何你想要的大模型。Claude、GPT-4，随便选。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b40f562e59c9766a7fae0aadc5b5266e.png>
+![](img/zhuanqian_b40f562e59c9766a7fae0aadc5b5266e.png)
 这些东西，光看是学不会的，得上手做。
 # 5 分钟搭出你的第一个外接模型插件，真的能做到
 ## Coze IDE：新手也能上手的开发环境
@@ -22,17 +22,17 @@ Coze 本质是一个 AI 流程搭建平台，而插件就是给流程扩容的�
 ### 新建插件
 先进入【工作空间】，确定插件要放在哪个空间。个人空间和团队空间的区别很简单：
 个人空间的插件只能自己调用，团队空间的插件可以给团队里的小伙伴共享。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ea630122c47deffb54ffdb29970c725e.png>
+![](img/zhuanqian_ea630122c47deffb54ffdb29970c725e.png)
 这里演示个人空间，界面右上角点新增资源，直接选【插件】。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_89131ad8a9356abaeae26c552600f635.png>
+![](img/zhuanqian_89131ad8a9356abaeae26c552600f635.png)
 在新建插件页，填写基本配置。插件类型选【云端插件】，语言选 Python。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2913976fc839117c84568e55a13b6498.png>
+![](img/zhuanqian_2913976fc839117c84568e55a13b6498.png)
 接着选择在 IDE 里新建工具。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c901d58287a9e470376bca530e8ae967.png>
+![](img/zhuanqian_c901d58287a9e470376bca530e8ae967.png)
 填好工具的基础信息后提交。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_99c46e8c9567bd25157f28d2be34670b.png>
+![](img/zhuanqian_99c46e8c9567bd25157f28d2be34670b.png)
 看到这个页面，说明插件的骨架已经建好了。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_34c4206ebe8d3da7c6601102a95203b3.png>
+![](img/zhuanqian_34c4206ebe8d3da7c6601102a95203b3.png)
 ### 选定 Claude 接口
 这次以 Claude 为例演示外部模型接入：
 小白补课：API 是什么？
@@ -42,15 +42,15 @@ API 就是一套调用别的程序能力的接口，Coze 通过几行代码就�
 ### 用 AI 帮你写插件代码
 我用的是国内一家提供 Claude API 中转的平台：https://api.mjdjourney.cn
 注册登录后进入后台，点击令牌。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9964921b4c078124060e1f5cc3260725.png>
+![](img/zhuanqian_9964921b4c078124060e1f5cc3260725.png)
 新建一个令牌，按需配置好参数。创建完后点请求示例：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e1a61aea4b4797a48c2aeda620f5f2cc.png>
+![](img/zhuanqian_e1a61aea4b4797a48c2aeda620f5f2cc.png)
 选 Python SDK，再选你要用的 Claude 模型。模型列表可以在【账户】里查看，点即可复制。把示例代码先复制下来备用。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c9623cb35f56da11a4abc8adf8a2501c.png>
+![](img/zhuanqian_c9623cb35f56da11a4abc8adf8a2501c.png)
 打开 Kimi，https://kimi.moonshot.cn，把 Coze 插件页面的代码框架丢进去。
 告诉它你要实现什么功能，让它帮你补全。报错了就把报错信息一起丢给它，让它改。
 下面是全程修改记录：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c81fb59898c1d4f3782df938773e8e3c.png>
+![](img/zhuanqian_c81fb59898c1d4f3782df938773e8e3c.png)
 请严格参照我给你的代码格式
 ```from runtime import Args
 from typings.extra_model.extra_model import Input, Output
@@ -128,7 +128,7 @@ result = {
 return result
 ```
 这是 Coze 内的运行效果：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6b4e2500a2897adbd62079ba8166ff61.png>
+![](img/zhuanqian_6b4e2500a2897adbd62079ba8166ff61.png)
 上图的代码可直接拿去跑，留意标注的注意事项，测试用例⬇️
 ```
 {
@@ -140,13 +140,13 @@ return result
 ### 元数据配置与发布
 设置元数据 -> 保存 -> 测试 -> 发布。
 点开【元数据】按钮，按下图填写，填完保存。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4c3e12f09fed1f5c90008769122437a7.png>
+![](img/zhuanqian_4c3e12f09fed1f5c90008769122437a7.png)
 再次测试通过后就点击发布！
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9d643749de4a3c052a839a580cfc82c9.png>
+![](img/zhuanqian_9d643749de4a3c052a839a580cfc82c9.png)
 发布后，在工作流里直接调用这个外接的 Claude 节点即可。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_eb26fdafcc064bcd2ef8b9c527525e7c.png>
+![](img/zhuanqian_eb26fdafcc064bcd2ef8b9c527525e7c.png)
 运行效果如下：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_87814aa5475bbe00c5f73593e52f6706.png>
+![](img/zhuanqian_87814aa5475bbe00c5f73593e52f6706.png)
 到这一步，外接大模型插件就完整上线了！
 # 总结
 1.  写代码不是程序员专属，你不需要会编程。

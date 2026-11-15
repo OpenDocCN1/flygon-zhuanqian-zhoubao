@@ -13,18 +13,18 @@
 其中，信息图生成项目最有代表性。
 一位几乎没有编程基础的朋友，最初希望做一个“多 Agent 协作生成高质量信息图”的工具。他先尝试让 Manus 参与开发，后来发现 Manus 生成的信息图效果并不理想，于是改用 Claude 来实现多 Agent 协作和结果评审机制。
 项目后续还借助 Manus 调研热门技术网站的设计风格，并让它直接生成一套视觉效果较为酷炫的前端页面。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_439fea5fbd334cb5d86c80e0ac326366.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0b83834d5861c8308d6dfd95d293b1f6.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_80de62459b102cd0e334e28f1bb0155c.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cb1b2307804de79c2492ddc0782bc928.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_39c545c66794e9c5810b0a3cee8a71d3.png>
+![](img/zhuanqian_439fea5fbd334cb5d86c80e0ac326366.png)
+![](img/zhuanqian_0b83834d5861c8308d6dfd95d293b1f6.png)
+![](img/zhuanqian_80de62459b102cd0e334e28f1bb0155c.png)
+![](img/zhuanqian_cb1b2307804de79c2492ddc0782bc928.png)
+![](img/zhuanqian_39c545c66794e9c5810b0a3cee8a71d3.png)
 最终效果确实相当不错，生成结果的质量也很高。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c9f4b9e8f08ab52adcc6f86e019205c2.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6db68e7084f7a6416d706ba7e75e0559.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b00163e52191a8c8efff8a80ff019d05.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f572c141825b87a29ed000db07b26059.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_59ad20960a4669e106a1b3ab7d947fdb.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_66af320649e244341bf216673044dbae.png>
+![](img/zhuanqian_c9f4b9e8f08ab52adcc6f86e019205c2.png)
+![](img/zhuanqian_6db68e7084f7a6416d706ba7e75e0559.png)
+![](img/zhuanqian_b00163e52191a8c8efff8a80ff019d05.png)
+![](img/zhuanqian_f572c141825b87a29ed000db07b26059.png)
+![](img/zhuanqian_59ad20960a4669e106a1b3ab7d947fdb.png)
+![](img/zhuanqian_66af320649e244341bf216673044dbae.png)
 当然，它也存在一个明显问题：生成速度太慢。一次完整生成几乎要等待十分钟，可能与多个 Agent 同时参与分析、生成和评审有关。
 感兴趣的朋友可以体验一下：
 https://salesgrow.ai/
@@ -54,7 +54,7 @@ https://salesgrow.ai/
 于是，他产生了一个想法：
 **能不能直接把自己的产品设想交给 Manus，让它帮忙做成一个真正的工具？**
 而且，他一开始就选择了一个并不简单的方向：通过多个 Agent 协同工作，再利用思考、评审和打分机制，自动生成质量更高的信息图。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ce68a60675d51a9d15347fe1f2e77f73.png>
+![](img/zhuanqian_ce68a60675d51a9d15347fe1f2e77f73.png)
 让我意外的是，他真的把项目做了出来。
 当然，过程中并不是一帆风顺。尤其在把 Python 功能接入网站时，他遇到了不少困难，甚至因为不懂代码而走过一些弯路。但最后，他仍然成功上线了一个可以使用的多 Agent 信息图生成网站。
 后来我才了解到，Manus 最初生成的图片效果并不理想，多 Agent 生成部分最终是用 Claude 完成的。Manus 则主要帮助他研究页面风格、完善前端，并生成了相当有吸引力的界面。
@@ -191,22 +191,22 @@ Code Interpreter 可以在虚拟环境中运行 Python 程序。
 接下来是 Bolt.new 和 V0.dev。
 我曾经想做一个单词助记网站，用来解决自己和孩子学习英语时遇到的问题。
 我按照小排老师提供的 Prompt 模板，先整理好产品需求。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7d7b476cf34227b3d9a06159ad54c0f1.png>
+![](img/zhuanqian_7d7b476cf34227b3d9a06159ad54c0f1.png)
 这次使用的是 openrouter.ai 上的 deepseek/deepseek-chat 模型，示例代码则参考了相关网站提供的 API 示例。
 把 Prompt 交给 Bolt.new 后，网站很快就生成了一个初始版本。接着再通过几轮简单对话修改，就可以得到一个基础可用的单词助记工具。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f5f64a1b38a039c69e1ef31ce04338fc.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7c4db4f4742deab3109518f4eb08eb70.png>
+![](img/zhuanqian_f5f64a1b38a039c69e1ef31ce04338fc.png)
+![](img/zhuanqian_7c4db4f4742deab3109518f4eb08eb70.png)
 它的功能并不复杂，但已经足够说明问题：对于产品原型和简单工具，AI 可以大幅缩短从想法到成品之间的距离。
 圈友们也做出了不少有意思的作品：
 ### @杨昌：从日常抱怨中发现需求
 https://no404.vercel.app/
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d5303723fb33b2b5788ed84aa69807dc.png>
+![](img/zhuanqian_d5303723fb33b2b5788ed84aa69807dc.png)
 ### @冬七：用“放青松”帮助记住“放轻松”
 https://for-rest.dev/
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5d00ec7ad7b8a4122e061ce2deb870dd.png>
+![](img/zhuanqian_5d00ec7ad7b8a4122e061ce2deb870dd.png)
 ### @猫嘉：AI 管理碎片化笔记
 https://clipbot-prototype.vercel.app/
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1e95d1fbb259b36ce35be2fa7745dbc1.png>
+![](img/zhuanqian_1e95d1fbb259b36ce35be2fa7745dbc1.png)
 ### @银河星游：AI RPG 文字冒险游戏
 https://www.aistoryengine.app/
 这些作品都是深海圈里比较优秀的实践。
@@ -244,16 +244,16 @@ Manus 接到任务后，并没有直接输出一大段代码，而是先把项�
 - 在后台配置 API；
 - 在后台管理 Prompt；
 - 通过 Shortcode 输出前端内容。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5476e39cb6d1fda56e6aa294cd04c1fb.png>
+![](img/zhuanqian_5476e39cb6d1fda56e6aa294cd04c1fb.png)
 前端页面 Shortcode：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9250837a335befa098b04b3bccf66597.png>
+![](img/zhuanqian_9250837a335befa098b04b3bccf66597.png)
 后台设置页面：
 需要说明的是，如果有人觉得这个插件的界面不够漂亮，那主要不是 Manus 的问题，而是我的需求描述不够具体。
 我当时并没有在 Prompt 中明确提出 UI 风格、页面布局、视觉层次和交互细节，AI 自然只能按照一个相对基础的方向来完成。
 这也说明了一点：
 **Agent 的能力很强，但它最终呈现出的效果，往往取决于我们给出的目标是否足够清楚。**
 后来，Manus 正好开始收费，而且订阅价格并不低。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0bc121440a500313bd8fc20931402867.png>
+![](img/zhuanqian_0bc121440a500313bd8fc20931402867.png)
 # 最后的一些想法
 Agent 编程并不是让不会编程的人瞬间变成专业开发者，也不是完全不需要思考地把所有事情交给 AI。
 它更像是一种新的协作方式：
@@ -270,12 +270,12 @@ Agent 编程并不是让不会编程的人瞬间变成专业开发者，也不�
 不过，Manus目前已经调整了收费方案，订阅价格比过去低了不少，免费用户的使用条件也友好许多。新注册账号会获得初始积分，每日登录和使用还能领取额外积分。
 当时，圈友超级峰正好发布了一篇教程，介绍如何把Cursor配置成类似Manus的任务规划型智能体：
 【全网首发】复刻Manus！保姆级AI编程教程
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_23672bc4e3af1b132c0694899c74ba88.png>
+![](img/zhuanqian_23672bc4e3af1b132c0694899c74ba88.png)
 我按照教程把这套方法应用到实际编程中，体验下来效果相当不错。后来，我一直沿用这种Agent式开发流程。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_eb9e0abbbb19f66598f2df6702017ad5.png>
+![](img/zhuanqian_eb9e0abbbb19f66598f2df6702017ad5.png)
 在这个过程中，我还持续优化了Manus生成信息图的插件：增加后台配置、操作记录等功能，同时接入GPT-4o图片生成能力，并正式上线。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d7e672803b60c294b7a05712521a3eaa.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f1892cd4aaed5558c2290105ddb33337.png>
+![](img/zhuanqian_d7e672803b60c294b7a05712521a3eaa.png)
+![](img/zhuanqian_f1892cd4aaed5558c2290105ddb33337.png)
 ### 用Next.js打造AI视频生成网站
 接下来，我们换一个项目，给Manus提出更具体的UI设计要求，并加入多语言支持，看看它能不能完成一个视觉质量更高的AI视频生成站点。
 这次依然参考小排老师在深海圈航海手册中提供的Prompt：
@@ -325,30 +325,30 @@ fs.writeFile("my-image.png", output);
 ```
 技术栈指定为Next.js，API则接入Replicate的kling-v1.6-standard，网站功能和示例代码都参考该API的官方案例。
 整个过程比预想中顺利。经过三轮对话，Manus就完成了一个支持双语切换的AI视频生成网站，界面效果也基本达到了预期。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_55f2c48e8770471a71ddcaa8e0bf2fbb.png>
+![](img/zhuanqian_55f2c48e8770471a71ddcaa8e0bf2fbb.png)
 当然，后续还需要继续优化。我们又进行了八轮对话，重点解决首帧图片、参考图片上传，以及视频生成期间的进度展示等问题。
 上传首帧图片并生成Prompt：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c1ecb94743a835a29ffae0662312d0de.png>
+![](img/zhuanqian_c1ecb94743a835a29ffae0662312d0de.png)
 完成视频生成：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3a0de0d1da2e86a5e95e505acaffac1c.png>
+![](img/zhuanqian_3a0de0d1da2e86a5e95e505acaffac1c.png)
 下载最终视频：
 整体生成效果还算不错。如果把同样的流程换成谷歌Veo 3的API，画面质量或许会更进一步，但Veo 3目前的API价格确实太高。
 下面是本次Manus对话记录，以及它在虚拟计算机中的执行过程：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_86d98d65699d6113bce187a914e33ed6.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_dac5a7bef747426414d8c2654b94a117.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_77a7342bb83273bb1a477078418d31ff.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_acc901157b17bd5c63924e21dff6c2ea.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0292603a786757ee2bf06f9df207b5fb.png>
+![](img/zhuanqian_86d98d65699d6113bce187a914e33ed6.png)
+![](img/zhuanqian_dac5a7bef747426414d8c2654b94a117.png)
+![](img/zhuanqian_77a7342bb83273bb1a477078418d31ff.png)
+![](img/zhuanqian_acc901157b17bd5c63924e21dff6c2ea.png)
+![](img/zhuanqian_0292603a786757ee2bf06f9df207b5fb.png)
 Manus虚拟计算机的操作流程：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_696b4358c303d9a3a7942018b2aa80b6.png>
+![](img/zhuanqian_696b4358c303d9a3a7942018b2aa80b6.png)
 任务执行录屏：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3231bb3eac99613d24a9b88727d7f328.png>
+![](img/zhuanqian_3231bb3eac99613d24a9b88727d7f328.png)
 这次经历中还有一个比较有意思的细节：让Manus修复Bug时，它不一定只盯着最近一次修改的代码。它会先分析问题可能产生的原因，必要时回到更早的版本检查代码，再从根源处进行调整。
 这一点和Cursor的常规编程体验不太一样，Manus在某些时候确实更像一个会主动判断和回溯的协作者。
 ### 重做良辰美教练的网站界面
 接着，我们再测试一个改版任务。
 良辰美教练开源了一个包含登录、支付等完整流程的图片生成网站：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_901da6667df49b55a6c0382456c439a6.png>
+![](img/zhuanqian_901da6667df49b55a6c0382456c439a6.png)
 Github地址：
 https://github.com/CharlieLZ/flux-kontext-template
 这一次，我们希望Manus在不破坏原有功能逻辑的前提下，对这个开源项目进行整体视觉升级。先准备好发送给Manus的需求Prompt：
@@ -394,9 +394,9 @@ Manus首先生成了一个版本，也就是后面所说的版本1。整体方�
 - 尽可能保留附件开源代码中的所有功能逻辑不变
 ```
 这一次，我特别强调生成图片页面和价格展示页面的细节，也必须符合整体设计规范。最终，Manus输出了新版界面，也就是版本2。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c362d58172ae3ae942821c82cbe6aa63.png>
+![](img/zhuanqian_c362d58172ae3ae942821c82cbe6aa63.png)
 版本1
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b096bd051d762125746f44944b98f579.png>
+![](img/zhuanqian_b096bd051d762125746f44944b98f579.png)
 版本2
 ### Manus目前还做不到什么
 那么，Manus是不是已经可以实现所有想法和需求了？

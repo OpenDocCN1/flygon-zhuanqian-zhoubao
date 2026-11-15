@@ -23,38 +23,38 @@
 # 第二步：用爬虫工具把资料抓下来
 资料要可靠、充足、实时，最方便的渠道是第三方信息平台提供的公开内容。
 这里推荐一款免费、稳定、不需要写代码的爬虫软件，对新手特别友好。具体用法可以看官方说明：https://www.bazhuayu.com/tutorial8/hottutorial/gnd
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4abf7c08758117f107dcc41e9248d374.png>
+![](img/zhuanqian_4abf7c08758117f107dcc41e9248d374.png)
 下面用一个第三方信息平台做演示：内容仅用于演示，使用各类信息站点时务必遵守规则，别乱来！
 新用户去首页点“拉新领会员”，能拿三天免费试用权限；想进一步深挖，建议升级成付费版本。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ae4781cf2d9951800bc40639125de7d3.png>
+![](img/zhuanqian_ae4781cf2d9951800bc40639125de7d3.png)
 抓取时的字段名称，要和后面 AI 分析时用的字段名称保持统一，否则会对不上。我自己在用的字段清单如下。抓笔记和抓博主主页的方法，需要你多花时间自己练；如果实在搞不定，我可以提供规则层面的指导。最后所有抓到的结果，一律统一导出成 CSV 文档。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0ce952240843b7ac6319c2bafadaf248.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5c5577cb03f9c32948a67e838aeb4075.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_509604c095a6ab240794185ae67ebb38.png>
+![](img/zhuanqian_0ce952240843b7ac6319c2bafadaf248.png)
+![](img/zhuanqian_5c5577cb03f9c32948a67e838aeb4075.png)
+![](img/zhuanqian_509604c095a6ab240794185ae67ebb38.png)
 # 第三步：观察全站流量风向
 近期话题在涨什么、热词在涨什么，基本能看出流量正往哪个方向吹。把最近四个星期的话题增量排行、热词增量排行和总体流量排行分别导出来。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_16652111d2b80afbe3a3bca4c999e092.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_999930bdfedaca1df0046081773b6f55.png>
+![](img/zhuanqian_16652111d2b80afbe3a3bca4c999e092.png)
+![](img/zhuanqian_999930bdfedaca1df0046081773b6f55.png)
 # 第四步：给文档起好名、归好类
 想让后面分析不乱套，先把这些文档统一编号和归档。
 - 话题文件分别存为：话题2.csv、话题3.csv、话题4.csv、话题5.csv。
 - 热词文件分别存为：热词2.csv、热词3.csv、热词4.csv、热词5.csv。
 - 笔记和博主资料汇总成一个文件：原始资料A.csv。
 尽量把所有文档放进一个独立文件夹，命名要短、要容易辨认。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_dbcf42e59ddb0831cb37ef033354e07d.png>
+![](img/zhuanqian_dbcf42e59ddb0831cb37ef033354e07d.png)
 # 第五步：清洗数据，别怕麻烦
 整理和清洗资料，是整个预处理的重头戏。核心目标是把错值、缺失项、不一致的地方找出来并修好，让整体质量过关。
 这一步可以交给 AI 代劳，也可以在 Excel 里手工完成。具体操作可以参考网上的清洗教程，过程中务必把最初保存的原始文档和清洗后的新文档都留好。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5397afe5701dc526c0301c6a913a42e4.png>
+![](img/zhuanqian_5397afe5701dc526c0301c6a913a42e4.png)
 # 让 AI 接过分析棒
 ## 先搭环境
 代码解释器（Code Interpreter）以 GPT-4 为内核，算数学、画热力图、跑分析都能做，出来的结果质量很高。
 准备步骤很简单：开通 GPT Plus → 打开代码解释器 → 上传你的资料包。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ce56b0c1453bc826f2535651f40c9aee.png>
+![](img/zhuanqian_ce56b0c1453bc826f2535651f40c9aee.png)
 ## 分批把资料传上去
 点面板上的上传按钮，一次最多能传 10 份资料，大部分格式都能识别。切记不要一次性全扔进去，要按顺序分批来。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_661512c910f99229852cfceb38bef609.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_aa49dcf5220bd010343b49f2cc1717a4.png>
+![](img/zhuanqian_661512c910f99229852cfceb38bef609.png)
+![](img/zhuanqian_aa49dcf5220bd010343b49f2cc1717a4.png)
 ## 先让 AI 读资料
 给 AI 发一条学习指令，让它先把已有资料读完，并给出理解反馈。之后每个小环节，都必须让它先表态，再往下走。
 ```
@@ -66,7 +66,7 @@
 3\. 完成学习后，回复“OK”以确认。
 要求：在整个过程中，请确保使用中文与用户进行交互。
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_612347b6542d505f9baff3d997080fb6.png>
+![](img/zhuanqian_612347b6542d505f9baff3d997080fb6.png)
 话题和热词资料，也按同样方式继续传：
 ```
 任务：学习多个文件的内容及其结构。
@@ -77,7 +77,7 @@
 4\. 当接收到关键词【热词】，选择并理解【热词2】、【热词3】、【热词4】和【热词5】这四个文件。
 5\. 一直学习不用征求我的建议，学习完毕后只回复"OK"表示已经完成学习任务。
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c69085e7bc39eb5f574ee628fdd61492.png>
+![](img/zhuanqian_c69085e7bc39eb5f574ee628fdd61492.png)
 人工清洗总会有漏网之鱼，但别担心，它读数据时自己还会再做一轮修正。
 ```
 任务：对【数据集A】进行数据清洗。
@@ -89,22 +89,22 @@
 数据清洗完成后，保存并下载【数据集A】。
 输出：回答“OK”并提供【数据集A】的下载链接。
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_82ea32039114387489c0c7738ffa8bea.png>
+![](img/zhuanqian_82ea32039114387489c0c7738ffa8bea.png)
 AI 毕竟是机器，所以每个环节都让它复查一遍。把重新生成的【A资料包】下载下来，做一次备份和核对，避免清洗环节出偏差。
 ## 教 AI 弄懂表头含义
 先让 AI 搞清楚每一列叫什么、对应什么含义。上传一份“列名定义文档”，这份文档可以由 AI 根据资料自动生成，用来解释所有列名的意思和用途。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_917cf381f390be0ba2fe0068cfdc4c84.png>
+![](img/zhuanqian_917cf381f390be0ba2fe0068cfdc4c84.png)
 ```
 学习【列名定义】和【数据集A】中列名定义与用途。学习完毕后，只回复“OK”，无需过多解释。
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d92e64b4ab08c7f4a7998bb5fd60c9b3.png>
+![](img/zhuanqian_d92e64b4ab08c7f4a7998bb5fd60c9b3.png)
 把它学到的内容拉出来测试一遍，发现理解有偏差就及时纠正。
 ```
 解释【点赞量】的含义
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_654b063eda49c7595f43c663b3782b82.png>
+![](img/zhuanqian_654b063eda49c7595f43c663b3782b82.png)
 如果它说找不到对应字段，就用同一条指令再学一次。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4567920eae8d714af3579a39aca8ba7c.png>
+![](img/zhuanqian_4567920eae8d714af3579a39aca8ba7c.png)
 ## 教 AI 分清资料类别
 明确告诉 AI，这份资料包里到底是什么结构：【A资料包】= 爆款笔记内容 + 博主账号信息。
 ```
@@ -114,19 +114,19 @@ AI 毕竟是机器，所以每个环节都让它复查一遍。把重新生成�
 【点赞量】、【收藏量】、【评论量】、【 分享量】
 为【爆文笔记详细信息】，其余字段为【博主详细信息】，学习完毕只回答“OK”。
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_469a3e214c33d1fbfa5f1f20011daa08.png>
+![](img/zhuanqian_469a3e214c33d1fbfa5f1f20011daa08.png)
 同样检查一下它的掌握程度，有错立刻改：
 ```
 【分享量】是属于哪个信息？
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_340f9f0a4881088c3aa27c8382dac917.png>
+![](img/zhuanqian_340f9f0a4881088c3aa27c8382dac917.png)
 ## 教 AI 弄明白能做什么分析
 再往下，要让它清楚，基于这份资料可以展开哪些维度的分析。
 ```
 请你基于【数据集A】、【话题】、【热词】数据集学习、分析，详细介绍你能够完成的数据分析类型？
 同时输出简单易懂的GPT指令。
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_10a85d42d1781312ecb5daff2af4743e.png>
+![](img/zhuanqian_10a85d42d1781312ecb5daff2af4743e.png)
 ```
 1\. 使用Descriptive Statistics对【数据集A】、【话题】、【热词】等数据集进行描述性统计分析，获取数据的总体分布、中位数、均值、方差等关键指标。
 2\. 应用Time Series Analysis对小红书平台的发展趋势进行分析，识别潜在的季节性、趋势和周期性。
@@ -138,8 +138,8 @@ AI 毕竟是机器，所以每个环节都让它复查一遍。把重新生成�
 8\. 根据上述分析，为小红书初级博主提供切实可行的运营策略建议，帮助他们调整和优化运营方向。
 ```
 这个 AI 能做的分析方向非常多，平时多向它抛问题，能力边界会被不断撑大。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_39994dc75fad063a6910af52356e10df.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_244c00b3a6075f83bf3f6461b588edc4.png>
+![](img/zhuanqian_39994dc75fad063a6910af52356e10df.png)
+![](img/zhuanqian_244c00b3a6075f83bf3f6461b588edc4.png)
 ## 开始训练模型
 现在进入评分和模型训练环节：
 ```
@@ -160,16 +160,16 @@ AI 毕竟是机器，所以每个环节都让它复查一遍。把重新生成�
 ```
 指令文本还要继续打磨，尤其是“爆款”该怎么定义、参数该怎么给。
 整个流程跑起来会有点久，但不用管，它会按数据情况自己微调。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_aa447259d3b4e34c0f6e00cdcbbeee0c.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cf04415bfde0e6caca968bc88e286e51.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_871d4954522f9a0f94a8fbd503c2269a.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b2c80449102bd5849dcda0e5f73b3243.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_678fef08acdebd834c485c30197d0be2.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6906d4f4323eb72ec736ac2e7a93d644.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_87c434f05aee95cb4574645a77d8657b.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3de5c9a267ef98af55220488b9f539d8.png>
+![](img/zhuanqian_aa447259d3b4e34c0f6e00cdcbbeee0c.png)
+![](img/zhuanqian_cf04415bfde0e6caca968bc88e286e51.png)
+![](img/zhuanqian_871d4954522f9a0f94a8fbd503c2269a.png)
+![](img/zhuanqian_b2c80449102bd5849dcda0e5f73b3243.png)
+![](img/zhuanqian_678fef08acdebd834c485c30197d0be2.png)
+![](img/zhuanqian_6906d4f4323eb72ec736ac2e7a93d644.png)
+![](img/zhuanqian_87c434f05aee95cb4574645a77d8657b.png)
+![](img/zhuanqian_3de5c9a267ef98af55220488b9f539d8.png)
 它的纠错能力很强，计算过程里遇到错误会自动修正和调试，完全不用你操心。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c66a810b37052d7840d583ff44832803.png>
+![](img/zhuanqian_c66a810b37052d7840d583ff44832803.png)
 等最终得分算出来，再把你的具体目标抛给它：
 ```
 背景：综合评分越高，笔记和博主的质量及发展潜力越大，更值得用户关注和学习。
@@ -190,7 +190,7 @@ AI 毕竟是机器，所以每个环节都让它复查一遍。把重新生成�
 【差异化综合评分】：
 【优化建议】
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_80d2c8ce51ea1a4431cabb8fe209b161.png>
+![](img/zhuanqian_80d2c8ce51ea1a4431cabb8fe209b161.png)
 重要提示！！
 以上判断只停留在数据层面。真正要定参考账号，还得回到笔记本身、图片风格、主页调性、垂直度和评论区氛围上去综合考量。常规操作是：先用数据圈出 20 个备选账号，再逐个点进主页分析风格、专注度和互动情况，最后才锁定最终参考号。
 ## 把规则固定下来

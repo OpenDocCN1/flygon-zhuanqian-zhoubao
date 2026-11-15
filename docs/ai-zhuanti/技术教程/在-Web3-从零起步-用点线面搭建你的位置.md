@@ -26,14 +26,14 @@ PS：Web3 项目繁多，公链、板块、玩法各异，尤其是合约和土�
 就像德州扑克，能一击制胜的牌局只有一两把，但背后需要无数次的尝试来支撑。不过没必要全试，Web3 标的数量太多，沿着你已有的点做延展更高效，大致有两种做法。
 ## 横向找相似标的
 也就是常说的板块。我们用 Rootdata 来举例：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2b81375d6e74d3c75f40b02efefc19d6.png>
+![](img/zhuanqian_2b81375d6e74d3c75f40b02efefc19d6.png)
 上图呈现了不同板块：AI、链游、LSD、Depin 等。点进去每个板块，背后都有大量同类项目。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_83591ffe666e4b53039394f23e081f4d.png>
+![](img/zhuanqian_83591ffe666e4b53039394f23e081f4d.png)
 以链游板块的 Magic 为例，相似标的包括 Octogamex、GhostNFT 等，数据一目了然，网站还整理好了相关信息，研究成本很低。
 思路是：以你吃透的那个点为中心，向外找相似标的，挑出三五个你感兴趣的，收集经济模型、投资机构、团队、链上数据等信息持续跟踪，结合教练指导做取舍。
 ## 纵向钻垂直生态
 也就是常说的生态。我们用 DefiLlama 来说明：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c07af200624c8b26b821c167a9ae9b30.png>
+![](img/zhuanqian_c07af200624c8b26b821c167a9ae9b30.png)
 上图展示了 Solana 生态的数据，包括 TVL 和前十生态项目。
 你可以先研究 Solana 再研究其内部项目，也可以先从生态里某个项目入手再反推整个生态。目标是把这个生态吃透：有哪些 DEX，有哪些原生 NFT 蓝筹，有哪些 DeFi、链游、Depin 项目等。
 到这个阶段已非常耗精力。当你把一个生态研究透了，其他生态的基本套路也差不多，一通百通。
@@ -51,5 +51,5 @@ PS：是选成熟优质标的，还是早期 Alpha？因人而异。但土狗和
 * * *
 评论区：
 李响啊 : 太棒啦
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_21de372a77ea1f441c613f7316831ae1.png>
+![](img/zhuanqian_21de372a77ea1f441c613f7316831ae1.png)
 * * *

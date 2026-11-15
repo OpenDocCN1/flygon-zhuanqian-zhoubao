@@ -4,12 +4,12 @@
 👇 正文开始～
 * * *
 最近刷精华帖，应该不少人都留意到这种看起来很像代码的指令：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f7473a6d6de5ff612c9360cbac8d4a12.png>
+![](img/zhuanqian_f7473a6d6de5ff612c9360cbac8d4a12.png)
 图片来源于：李书生
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2fff83756b9516d8d82f5e1d65ac1eb7.png>
+![](img/zhuanqian_2fff83756b9516d8d82f5e1d65ac1eb7.png)
 图片来源于：枫晓陌
 🤔 看完是不是有点陌生？是不是觉得像在写程序？又好奇它到底是怎么来的？我们以前见到的更多是这种纯文字的指令：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6a2935385d61d7efb1814f7058b5b23d.png>
+![](img/zhuanqian_6a2935385d61d7efb1814f7058b5b23d.png)
 其实前者就是大家口中的结构化 prompts。
 * * *
 目录：
@@ -20,7 +20,7 @@
 # 一、结构化 prompts 是什么
 ## 1. 结构化意味着什么
 按 GPT-4 的说法，结构化就是按照事先约定的格式和模式来组织信息，让信息更容易被理解、分析和处理。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cdd0d329298ae60261a0ba8983bcc6ec.png>
+![](img/zhuanqian_cdd0d329298ae60261a0ba8983bcc6ec.png)
 通俗讲，就是用 AI 更习惯的编程式语言，把我们想要的和不想要的要素都填进去，让模型快速抓住重点，给出更精准的输出。
 ## 2. 通用结构与说明
 一份常见的结构化 prompts 通常包含：角色、目标、约束条件、技能、执行流程等模块。
@@ -72,7 +72,7 @@ A：不用担心，文章第三部分我会分享一个提效神器，先卖个�
 （2）效率更高，模型更快读懂需求，响应更快，省时间；
 （3）迭代更方便，后续优化只需在对应位置改动即可。
 注：迭代后记得更新版本号，看着自己的 prompt 越来越好用，那种成就感很强😄
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f5348262dd2234a3defcd7f473d613b5.png>
+![](img/zhuanqian_f5348262dd2234a3defcd7f473d613b5.png)
 现在字节、网易等不少大厂内部也开始推广结构化 Prompt，建议大家提前了解。
 * * *
 # 三、怎么高效使用结构化 prompts
@@ -99,19 +99,19 @@ A：不用担心，文章第三部分我会分享一个提效神器，先卖个�
 ```
 ✅ 复制方式：
 鼠标移到模板右侧，点击【复制】：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_31f93f41e8cd694d6709dd92719d46aa.png>
+![](img/zhuanqian_31f93f41e8cd694d6709dd92719d46aa.png)
 # 2. 填写时常会遇到的卡点
 很多人会问：有些字段我不知道怎么写怎么办？
 比如【设置技能】，我对某个领域不熟，却要写相关指令，怎么破？
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_113aa2a517e35fc543941d4418fe6177.png>
+![](img/zhuanqian_113aa2a517e35fc543941d4418fe6177.png)
 其实门槛已经很低了，这里推荐一个高效工具——得到学习助手。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5640567e23a17c19d940ce9f21e25ee7.png>
+![](img/zhuanqian_5640567e23a17c19d940ce9f21e25ee7.png)
 得到学习助手是什么？
 它是由得到 App 打造的智能学习辅助工具，能解答学习问题，提供靠谱的学习资源和建议。
 网页版：https://ai.dedao.cn/
 手机端路径：【我的】-【得到工作台】-【学习助手】
 它的核心优势是内容质量高，输出更真实专业，部分结果还会标注【内容来源】，能有效减少信息误差。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ec526a3e11c7c14709e0dce6f41806e0.png>
+![](img/zhuanqian_ec526a3e11c7c14709e0dce6f41806e0.png)
 # 四、结构化 prompts VS 文字型 prompts
 🤔 既然结构化这么好，是不是就不用学文字型了？
 借用那句老话：不管黑猫白猫，抓到老鼠就是好猫。

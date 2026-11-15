@@ -17,7 +17,7 @@ Prompt 可以理解为你对 AI 的指令棒，问得清晰，返的才专业。
 ```
 请帮我生成一个“Linux 助手”的提示词
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_86cbb16dfc524cc88a9d8dce25a9e7a9.png>
+![](img/zhuanqian_86cbb16dfc524cc88a9d8dce25a9e7a9.png)
 解读：
 本质是用一个提示词去孵化更强的提示词。官方示范里建议用 Markdown 格式输出，结构清晰，后续好改好分享。
 不熟悉 Markdown 的话，可以去掉格式要求这一条，直接让它生成就行。
@@ -39,7 +39,7 @@ Prompt 可以理解为你对 AI 的指令棒，问得清晰，返的才专业。
 ```
 美国的饮食还习惯么。
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e22b8fdc4e5f4b7441aa90c37de48777.png>
+![](img/zhuanqian_e22b8fdc4e5f4b7441aa90c37de48777.png)
 解读：
 这是官方的标准用法，背景和说话风格都可以自由替换。把人设、性格、语境描述得越具体，对话越沉浸。
 例如想让 AI 扮演一位儒雅的古文大家，可以这样写：
@@ -66,7 +66,7 @@ Prompt 可以理解为你对 AI 的指令棒，问得清晰，返的才专业。
 ```
 请帮我生成“中国农业情况”这篇文章的大纲
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2c1597af4c8948fcf412ac92590ee5d2.png>
+![](img/zhuanqian_2c1597af4c8948fcf412ac92590ee5d2.png)
 解读：
 非常适合写文章、做营销文案、写论文提纲。只需要换主题就能用。
 比如写《AI 对未来教育的冲击》，可以这样改：
@@ -83,7 +83,7 @@ Prompt 可以理解为你对 AI 的指令棒，问得清晰，返的才专业。
 ```
 假设诸葛亮死后在地府遇到了刘备，请模拟两个人展开一段对话。
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b16b1ae258e57653555f842a78bb7cc4.png>
+![](img/zhuanqian_b16b1ae258e57653555f842a78bb7cc4.png)
 解读：
 可以用来模拟小说对话、历史会面、虚构故事发展等。
 想让古代皇帝和现代人聊天：
@@ -104,7 +104,7 @@ Prompt 可以理解为你对 AI 的指令棒，问得清晰，返的才专业。
 ```
 请生成”希腊酸奶“的宣传标语
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_caca2e89533264e31f2e5157c06f7b9e.png>
+![](img/zhuanqian_caca2e89533264e31f2e5157c06f7b9e.png)
 解读：
 适合产品推广、品牌传播等场景。
 推广一款咖啡，可以这样调整：
@@ -125,7 +125,7 @@ Prompt 可以理解为你对 AI 的指令棒，问得清晰，返的才专业。
 ```
 牛顿第一定律：任何一个物体总是保持静止状态或者匀速直线运动状态，直到有作用在它上面的外力迫使它改变这种状态为止。 如果作用在物体上的合力为零，则物体保持匀速直线运动。 即物体的速度保持不变且加速度为零。
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b469415918dd57ed8de053bdd1a091ad.png>
+![](img/zhuanqian_b469415918dd57ed8de053bdd1a091ad.png)
 解读：
 不只是字面直译，还会兼顾语气和风格，让译文自然流畅。
 需要商务正式风格：
@@ -142,7 +142,7 @@ Prompt 可以理解为你对 AI 的指令棒，问得清晰，返的才专业。
 ```
 模仿李白的风格写一首七律.飞机
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_47bba28c53c2dc36ab3004fde9faa1c7.png>
+![](img/zhuanqian_47bba28c53c2dc36ab3004fde9faa1c7.png)
 解读：
 可以指定风格或主题，模仿古体诗也可以写现代自由诗。
 模仿杜甫的风格：
@@ -169,7 +169,7 @@ Prompt 可以理解为你对 AI 的指令棒，问得清晰，返的才专业。
 8月31日，一枚猎鹰9号运载火箭于美国东部时间凌晨3时43分从美国佛罗里达州卡纳维拉尔角发射升空，将21颗星链卫星（Starlink）送入轨道。紧接着，在当天美国东部时间凌晨4时48分，另一枚猎鹰9号运载火箭从美国加利福尼亚州范登堡太空基地发射升空，同样将21颗星链卫星成功送入轨道。两次发射间隔65分钟创猎鹰9号运载火箭最短发射间隔纪录。
 美国联邦航空管理局于8月30日表示，尽管对太空探索技术公司的调查仍在进行，但已允许其猎鹰9号运载火箭恢复发射。目前，双方并未透露8月28日助推器着陆失败事故的详细信息。尽管发射已恢复，但原计划进行五天太空活动的“北极星黎明”（Polaris Dawn）任务却被推迟。美国太空探索技术公司为该任务正在积极筹备，等待美国联邦航空管理局的最终批准后尽快进行发射。
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a217297b43d7ecb32e32bbfd967111a2.png>
+![](img/zhuanqian_a217297b43d7ecb32e32bbfd967111a2.png)
 解读：
 常用 JSON 格式，便于程序后续处理和分析。也可以换成 XML、YAML 或 Markdown，核心是结构化。
 整理社交媒体评论：
@@ -210,7 +210,7 @@ Prompt 可以理解为你对 AI 的指令棒，问得清晰，返的才专业。
 ```
 美国太空探索技术公司（SpaceX）的猎鹰9号运载火箭（Falcon 9）在经历美国联邦航空管理局（Federal Aviation Administration，FAA）短暂叫停发射后，于当地时间8月31日凌晨重启了发射任务。
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fab458170f8ca58629010f0651b3b1ef.png>
+![](img/zhuanqian_fab458170f8ca58629010f0651b3b1ef.png)
 解读：
 可对新闻、文章、产品评论等进行归类。以前做公众号舆情分析就用过类似思路。
 分类社交媒体帖子：
@@ -228,7 +228,7 @@ Prompt 可以理解为你对 AI 的指令棒，问得清晰，返的才专业。
 ```
 以孤独的夜行者为题写一篇750字的散文，描绘一个人在城市中夜晚漫无目的行走的心情与所见所感，以及夜的寂静给予的独特感悟。
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_40a1d9788d97e54a388ecf1b7e8dc086.png>
+![](img/zhuanqian_40a1d9788d97e54a388ecf1b7e8dc086.png)
 解读：
 重点是情感和意象。结合角色扮演使用，文风会更稳定。
 写一篇关于旅行的散文：
@@ -261,7 +261,7 @@ Prompt 可以理解为你对 AI 的指令棒，问得清晰，返的才专业。
 ```
 对代码进行修改，来实现纠错、注释、调优等。
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_33c1a49ea6af0c91aea589d7b5bf871b.png>
+![](img/zhuanqian_33c1a49ea6af0c91aea589d7b5bf871b.png)
 解读：
 适合代码调优和 Bug 修复。很多产品经理靠改开源代码快速出产品，就是这套打法。
 优化性能：
@@ -286,7 +286,7 @@ else dp[i][j] = max(dp[i - 1][j], dp[i - 1][j - weight[i]] + value[i]);
 }
 ```
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b03d6c3f5d6a2eb870d856665f656f5a.png>
+![](img/zhuanqian_b03d6c3f5d6a2eb870d856665f656f5a.png)
 解读：
 适合新手理解复杂逻辑。我的常用工作流是：先用代码解释理清开源项目的整体思路，找到可改点，再用代码改写，最后用代码生成补功能。
 不懂某个算法：

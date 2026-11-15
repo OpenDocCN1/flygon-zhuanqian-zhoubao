@@ -14,13 +14,13 @@
 # wasm到底是什么？
 WebAssembly，简称wasm，你可以把它理解成一种跑在浏览器里的低级编程语言。
 ## 编程语言也分两类
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_336a84ada0d21935d69cb056658983d7.png>
+![](img/zhuanqian_336a84ada0d21935d69cb056658983d7.png)
 一类是编译型语言，它会提前把高级语言翻译成机器码，所以真正运行的时候直接执行机器码，那速度自然就快。
 另一类是解释型语言，它得在运行的时候才一步步翻译执行，所以多了一道编译的工序，速度自然就慢一些。
 咱们开发网站用的JavaScript，就是典型的解释型语言。要是遇上计算量特别大的任务，它的速度会比编译型语言慢上整整一个数量级。所以浏览器环境里，太需要一种计算效率远超JS的语言了。
 传统的电脑上有汇编语言（Assembly），那是一种低级语言，能直接跟硬件打交道（你看雷军当年写的代码就知道了），所以跑起来特别快。后来Web端也搞出了类似的WebAssembly。
 再一个，几乎主流编程语言都能编译成WebAssembly。这里就体现出wasm的另一个优势了——它能直接借用其他语言现成的库。JavaScript再怎么说也就一种语言，很多场景下，它根本找不到好用的库来用。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0a2c60f9dc3f5f826df6d60faa0151c6.png>
+![](img/zhuanqian_0a2c60f9dc3f5f826df6d60faa0151c6.png)
 ### 哪些任务算“计算密集型”？
 下面列一些典型场景，你要是没技术背景，就看第一列，大概了解它擅长干嘛就行。里面有专业名词也不用管。
 ### 小彩蛋：雷军1994年写的代码（汇编语言）
@@ -4062,7 +4062,7 @@ CDN 会把这些文件复制到全球多个加速节点。用户访问时，系�
 接下来可以用 `ffmpeg.wasm` 制作一个简单的视频编辑工具。
 最终效果示例：
 https://video-editor-wasm-nine.vercel.app/
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_38adee99faefe3336e51398c2e279a73.png>
+![](img/zhuanqian_38adee99faefe3336e51398c2e279a73.png)
 实现方式并不复杂。打开 V0、Bolt.new、same.new、Cursor 或 Claude Code 等 AI 开发工具，新建项目，然后输入下面的提示词：
 ```
 # 开发一个基于 WebAssembly 的在线视频编辑器
@@ -4277,14 +4277,14 @@ Rust 则是凭借自身实力获得广泛认可：它拥有很强的性能、相
 ### 小知识：Stack Overflow 的语言偏好调查
 在相关统计图中，蓝色通常代表“未来计划使用”，红色标记则表示“过去一年使用过，并且仍然愿意继续使用”。
 从图表可以看出，Rust 的认可度非常高。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ec90fe412512ddd6143487a7569d3379.png>
+![](img/zhuanqian_ec90fe412512ddd6143487a7569d3379.png)
 ### 实战：用 Rust 编写图像处理 Wasm 工具
 下面以 Rust 为例，其他语言的整体思路也类似。
 我们要制作的是一个运行在浏览器中的图像处理工具，不依赖远程 API，就可以完成多种图片操作。
 示例项目：
 https://wasm-image-demo.vercel.app/
 这里先展示其中三项功能，实际上，基于 Wasm 还能扩展出更多图像处理能力。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b45e0cc1500f0c70a8b70b8c3c76b1c2.png>
+![](img/zhuanqian_b45e0cc1500f0c70a8b70b8c3c76b1c2.png)
 接下来，我们从零开始创建一个属于自己的 Wasm 项目。
 #### 第一步：建立 Web 项目
 使用 V0、Bolt.new、same.new、Cursor 或 Claude Code 等 AI 开发工具创建新项目。
@@ -4295,7 +4295,7 @@ https://wasm-image-demo.vercel.app/
 #### 把项目先拉到本地
 如果你现在用的是 V0、Bolt.new 或者 same.new 这类在线编辑器，第一步先把工程同步到 git 仓库，然后在本地执行 git clone 把代码拿下来。
 用 Cursor、VS Code 等编辑器打开本地项目后，在项目根目录下新建一个文件夹，名字随意，常见的叫法是「rust-wasm」。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_16c8b05d121f6c7709bea6c4bf0c6b2f.png>
+![](img/zhuanqian_16c8b05d121f6c7709bea6c4bf0c6b2f.png)
 #### 让 AI 来写核心的 Wasm 逻辑
 直接把下面这段需求提示丢给 AI，让它帮你生成对应的 Rust Wasm 代码：
 ```

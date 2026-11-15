@@ -3,40 +3,40 @@
 最近不少跨境卖家都在感叹：全托管越来越难做了。
 关税政策变化、Temu美国全托业务调整、平台流量向半托模式倾斜、投放收缩等因素叠加，很多店铺的订单量都出现明显下滑。以我自己为例，去年Temu每天还能稳定出400—500单，今年已经减少到200—300单左右。
 与此同时，行业里的铺货效率却越来越高。过去一个店铺靠人工制图、上架，几百到几千个产品已经不少；现在借助自动化工具，一天铺出上千款、单店积累几万款商品已经不稀奇。部分卖家甚至通过多店矩阵运营，几十到上百个店铺同时铺品，竞争强度可想而知。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_badd5d6b33350d87424f4778194d7e0a.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d880344bed4b2c0d03ce56c1cb4f8371.png>
+![](img/zhuanqian_badd5d6b33350d87424f4778194d7e0a.png)
+![](img/zhuanqian_d880344bed4b2c0d03ce56c1cb4f8371.png)
 在这样的环境下，全托管还有没有机会？
 我原本也开始怀疑，甚至把更多精力转到了Shein，Temu则基本处于“吃老本”的状态。直到最近观察到一个POD店铺，才重新认识了AI图像技术在定制电商中的价值。
 ## 一、一个借助AI快速增长的POD店铺
 这个店铺主营照片定制产品：买家上传自己的照片，商家利用AI将其转换成皮克斯、吉卜力等卡通风格，再制作成海报。
 以前，这类业务需要设计师逐张处理，人工费用高、交付速度慢，很难适应全托管平台的节奏。如今借助AI，制作成本大幅下降，效率也得到了提升，尤其是GPT-4o推出后，人物转绘的质量有了明显改善。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_449a50856d852c3347d631c8d3b22831.png>
+![](img/zhuanqian_449a50856d852c3347d631c8d3b22831.png)
 店铺于今年3月20日开设，约三个月时间累计售出2.3万件，平均每天约230单。由于店铺前期订单较少，目前实际日销已经达到350单以上。
 其中一款爆品于4月27日前后上架，正好处在Temu美国站调整时期，但目前销量已经超过1万件，日均订单在160单以上。也就是说，美国站的变化并没有阻止这款产品继续增长。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5cbebfabed92b04fa3b47090b1430a8e.png>
+![](img/zhuanqian_5cbebfabed92b04fa3b47090b1430a8e.png)
 值得注意的是，这个店铺并没有铺很多产品，当前仅有103款左右。虽然覆盖了多种转绘风格，但真正贡献销量的，主要还是皮克斯风格。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4d1a4e59f080b727ce6fe2f8d95d86d7.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9257b022dd7d5c230f25ecf447165d1b.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_317d5ffe2278411e7d93001beb41a9fa.png>
+![](img/zhuanqian_4d1a4e59f080b727ce6fe2f8d95d86d7.png)
+![](img/zhuanqian_9257b022dd7d5c230f25ecf447165d1b.png)
+![](img/zhuanqian_317d5ffe2278411e7d93001beb41a9fa.png)
 从平台核价情况看，它的价格普遍高于同类卖家。核心原因在于，店铺主图直接展示了“原照片”和“AI成品”的对比效果。
 这种展示方式有三个优势：
 - 图片原创度更高；
 - 与同行常见产品图形成明显区隔；
 - 买家能够直观看懂产品卖点。
 因此，即使产品售价更高，也更容易获得平台较好的核价。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2d35e6d36f6f1cde1b21f35d936e50c6.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_89dd64656936235c022ef347ba0514db.png>
+![](img/zhuanqian_2d35e6d36f6f1cde1b21f35d936e50c6.png)
+![](img/zhuanqian_89dd64656936235c022ef347ba0514db.png)
 以店铺销量最高的产品为例，两个主力SKU在加拿大站的前端价格分别约为8.84加元和18.05加元。按较保守的1.6倍估算，对应核价约为14加元和28.9加元。
 参考1688同类产品价格，两个SKU的成本大约为7.41元和19.87元，实际采购成本还有进一步下降空间。粗略计算，每单平均毛利按7.5元估算，日销350单时，每天毛利约2625元，一个月接近7.9万元。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3f419b7058f9ae350c07ffe27e28b903.png>
+![](img/zhuanqian_3f419b7058f9ae350c07ffe27e28b903.png)
 如果Temu后续恢复美国站全托业务，这类店铺还有机会获得额外增长。
 而且，这并不是孤立案例。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_00415c3af27b7d3fc4ccb7e49ef7b161.png>
+![](img/zhuanqian_00415c3af27b7d3fc4ccb7e49ef7b161.png)
 Temu上还有店铺开店不到五个月，仅凭19个产品卖出1.2万件，其中一款皮克斯风格产品上线四个月，销量达到6000件。
 Shein同样出现了类似机会。有卖家推出辛普森风格定制品，上架两个月，美国站销量超过1100件，包含其他站点后，日均订单约100单。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f583d974f6f3cacf671ef027375fd849.png>
+![](img/zhuanqian_f583d974f6f3cacf671ef027375fd849.png)
 Etsy上也已经出现多个相关Bestseller产品。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_23a6b2b634e2d24ce34ed62e464ec9ea.png>
+![](img/zhuanqian_23a6b2b634e2d24ce34ed62e464ec9ea.png)
 这些案例说明，AI图像定制并不局限于某一个平台，也不是单个卖家的偶然运气。
 ## 二、从0到1，怎样搭建一个AI定制产品店铺
 下面以Temu为例，简单拆解一下整个流程。
@@ -44,14 +44,14 @@ Etsy上也已经出现多个相关Bestseller产品。
 POD的特点是“一单一图”。每个买家上传的照片不同，商家需要根据订单逐张生成成品。
 在刚开始测试项目时，订单量不大，可以先人工操作。但当店铺进入稳定增长阶段后，批量处理能力就会变成关键，否则大量时间都会耗在制图上。
 目前来看，GPT-4o在照片转绘方面的表现比较突出。很多时候，只需要输入类似“请将这张图片转换为皮克斯风格”的简单指令，就能得到质量不错的结果。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_dc4cc8ec7f1afbcde3a36660a0637aea.png>
+![](img/zhuanqian_dc4cc8ec7f1afbcde3a36660a0637aea.png)
 不过，直接使用ChatGPT官网也有两个限制：
 第一，图片生成次数并非无限。免费用户限制更明显，即便是Plus用户，也存在使用上限。前期可以先用多个账号测试，基本能够满足小规模需求。
 第二，生成速度不算快。网络状态不好时，一张图片可能需要等待几分钟，订单增加后效率会受到影响。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5e78f1ffb1dcdb0b7bf9f9ed606d9039.png>
+![](img/zhuanqian_5e78f1ffb1dcdb0b7bf9f9ed606d9039.png)
 另一个选择是Flux-Kontext，或者使用接入相关模型的第三方网站。具体工具可以参考相关开源项目和教程。
 不过从实际效果看，Flux-Kontext在皮克斯风格转绘上，暂时与GPT-4o仍有一定差距。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5e81ffdc6125c8c92d988222d8704253.png>
+![](img/zhuanqian_5e81ffdc6125c8c92d988222d8704253.png)
 例如 Kie.ai 提供了在线生成入口，成本甚至比Flux-Kontext更低，单张图片约两毛钱，还支持微信支付。
 可以使用下面这段英文提示词：
 Create a high-quality Pixar-style 3D animated image for this photo with these specific requirements:
@@ -63,14 +63,14 @@ Use a warm, inviting color palette
 Apply the high production quality of Pixar studios
 Style references: Toy Story, Finding Nemo, The Incredibles, Coco, Soul
 Quality: Photorealistic 3D animation quality
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_791f11d2efb01e32bf2ca09e5b357937.png>
+![](img/zhuanqian_791f11d2efb01e32bf2ca09e5b357937.png)
 ### 2. 发布Temu定制产品
 Temu的开店流程这里不再展开，之前的相关航海手册可以作为参考。
 店铺开通后，如果要销售定制商品，账户内需要准备2000元保证金。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_353a92cb26356354445c49870fb55284.png>
+![](img/zhuanqian_353a92cb26356354445c49870fb55284.png)
 除了账户预留的1000元之外，可用余额也需要保持在1000元以上。
 发布产品时，要勾选“定制品”选项，并选择对应工艺。如果产品属于印刷类，一般选择基础工艺即可。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6f44943daa0a6d6abe08365dd22dd7b9.png>
+![](img/zhuanqian_6f44943daa0a6d6abe08365dd22dd7b9.png)
 具体规则可以查看TEMU定制品相关说明。
 ### 3. 制作高点击率主图
 这类定制产品的图片通常包括：
@@ -81,17 +81,17 @@ Temu的开店流程这里不再展开，之前的相关航海手册可以作为�
 - SKU展示图；
 - 买家上传图片的规范说明。
 其中最重要的是首图、场景图和尺寸图。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f8679bb031b572fc6ba1ab0a251ac20d.png>
+![](img/zhuanqian_f8679bb031b572fc6ba1ab0a251ac20d.png)
 工具方面，Canva、创客贴、PPT、Photoshop都可以使用。没有必要过度追求工具，选择自己最熟悉的即可。
 首图可以将AI生成后的成品效果放大展示，同时在旁边设置一个小窗口，放入买家原图或示例原图。这样能让消费者一眼看到“普通照片变成定制成品”的变化，增强点击意愿。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8d373a73810786421c56d8f3f841b73b.png>
+![](img/zhuanqian_8d373a73810786421c56d8f3f841b73b.png)
 场景图则可以通过PS套版，也可以用PPT完成。比如在海报或产品所在区域绘制形状，再通过图片填充替换原有画面。
 如果不熟悉设计软件，也可以使用一些POD选品平台提供的在线设计器，例如Hicustom。
 主图尽量使用原创素材。原创图片不仅能降低侵权和同质化风险，也更有机会获得较好的平台核价。
 ### 4. 产品标题
 如果追求效率，可以直接让AI辅助生成标题；如果希望做得更细，则需要认真研究同类商品的关键词组合、使用场景和表达方式。
 案例中使用的是KIMI。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_010232d8f25543908d70e797d14bc368.png>
+![](img/zhuanqian_010232d8f25543908d70e797d14bc368.png)
 ### 5. 产品定价
 定价时，可以根据平台核价逻辑进行反推。
 先用平台可能采用的倍率乘以前端售价，再参考估算结果进行申报，之后根据成本、竞争情况和利润空间进行小幅调整。
@@ -100,7 +100,7 @@ Temu的开店流程这里不再展开，之前的相关航海手册可以作为�
 发布商品 → 审核 → 核价 → 配置定制模板 → 平台选品 → 确认上架。
 产品核价通过后，还要完成定制模板配置，否则商品无法正式进入平台销售。
 可以在商品列表中找到定制模板入口，签署相关协议，填写模板信息。模板结构可以参考同行的成熟做法，配置完成后再补充库存数量。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c0f9f8a114c3166020c678904c965409.png>
+![](img/zhuanqian_c0f9f8a114c3166020c678904c965409.png)
 ### 7. 供应链与发货
 供应商寻找、生产、发货等环节涉及内容较多，这里暂不一一展开。
 如果没有做过Temu，建议先把平台航海手册、高手分享和圈友经验多看几遍，熟悉定制品规则、履约流程和平台处罚机制，再开始实际操作。
@@ -120,7 +120,7 @@ Temu的开店流程这里不再展开，之前的相关航海手册可以作为�
 ### 3. 测试全托广告
 如果产品核价较高、利润空间也比较充足，可以尝试投放全托广告。
 尤其是在平台逐步扩大广告投放站点范围后，广告可能成为进一步放大销量的手段。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a992e9f6c0ce85cea48b4efabd852d92.png>
+![](img/zhuanqian_a992e9f6c0ce85cea48b4efabd852d92.png)
 当然，广告测试需要控制预算，先观察投入产出，再决定是否扩大投放。
 ### 4. 扩充品类与平台
 AI转绘不一定只能做海报。
@@ -142,7 +142,7 @@ AI转绘不一定只能做海报。
 定制品通常属于急采，平台对到货时间要求比较严格。
 例如基础工艺产品，广东仓可能要求72小时内到货，义乌仓甚至要求48小时。只要供应链或物流稍有延误，就可能触发罚款。
 去年春节期间，我就因为平台爆仓、物流人员不足等问题，出现过多笔延迟订单，后台累计罚款达到一两千元。后来通过申诉才得以解除。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_916aa563020bb6c631c6f608dae18980.png>
+![](img/zhuanqian_916aa563020bb6c631c6f608dae18980.png)
 因此，供应商是否稳定、节假日是否有备用方案，必须提前确认。
 ### 2. 平台持续压价
 全托平台的价格竞争不会停止。
@@ -157,7 +157,7 @@ AI转绘不一定只能做海报。
 - AI转绘效果；
 - 打印清晰度；
 - 成品与买家预期的匹配度。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_12380fad52e4977af9e1431482ee731f.png>
+![](img/zhuanqian_12380fad52e4977af9e1431482ee731f.png)
 ### 4. 合规标签
 标签问题同样可能导致无法入库，并产生约为申报价三倍的罚款。
 需要特别注意：
@@ -167,7 +167,7 @@ AI转绘不一定只能做海报。
 ### 5. 重复铺货
 虽然不同买家上传的照片不同，但如果产品本质上都是同一种海报或同一种定制形式，平台仍可能将其识别为重复铺货。
 目前看到的主要影响是单品下架，但对店铺整体是否会产生更大影响，还需要继续观察。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c92d3f6e0c51af93528daa406cdcd66a.png>
+![](img/zhuanqian_c92d3f6e0c51af93528daa406cdcd66a.png)
 上架时，可以从风格、使用场景、产品形态和目标人群等角度做区分，尽量避免大量高度相似的商品同时出现。
 ## 五、最后的建议
 小白能不能做？

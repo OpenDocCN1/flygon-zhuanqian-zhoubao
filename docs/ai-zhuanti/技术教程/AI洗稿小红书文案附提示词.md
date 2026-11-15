@@ -13,9 +13,9 @@
 8. 加入个人经验或权威观点：让内容更有说服力，也更有作者特色。
 这 8 条里，有一部分是 AI 直接给我的，用下来总觉得有些方式没那么顺手，甚至还会带偏结果。所以这次我不想直接沿用旧版，而是先做减法。我把 8 种砍到 3 种，只留下自己常用的，其余先放一边。
 接着，我让 AI 帮忙补充一些新的洗稿思路。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_998b9cead2082a920e231b3d1a5226d4.png>
+![](img/zhuanqian_998b9cead2082a920e231b3d1a5226d4.png)
 它给出来的内容，我贴在这里。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e5a04457b492a16b6e5c7877cbe7c9e7.png>
+![](img/zhuanqian_e5a04457b492a16b6e5c7877cbe7c9e7.png)
 整合之后，我手里多了 4 种方法：
 第一种，同义词替换。把原句里的关键词换成近义表达，保留意思的同时让文字看起来不同。
 案例：“这家餐厅味道很好”可以改成“这家餐厅的菜品口味很赞”。
@@ -72,9 +72,9 @@
 ```
 结果实测下来，效果有点一般，部分句子基本原样没动。
 于是我做了一个反向操作：让 AI 自己分析，这个提示词到底卡在哪个环节。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_13c1c2488e95075e3f4c8fa4ea71c6f6.png>
+![](img/zhuanqian_13c1c2488e95075e3f4c8fa4ea71c6f6.png)
 它给出来的建议，我放在了下面。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c3fb62c005cd884931355b75278fc72d.png>
+![](img/zhuanqian_c3fb62c005cd884931355b75278fc72d.png)
 顺着它的反馈，我又补了两种方法，把总数扩展到了 6 种：
 第五种，分句重组。长句拆成短句，或短句合并成长句，改变表达节奏。
 案例：“今天天气不错，要不去走走？”可以改成“今天天气挺好，我们出去转一圈吧。”
@@ -142,13 +142,13 @@
 5. 看到用户发来的文案后才能开始改写，不能自己提前输出。
 ```
 这次测试用的范文，是一篇讲“城市选择”的小红书笔记。大意为：博主是 00 后创业个体户，把北京、上海、广州排除之后，发现深圳和杭州才是更适合创业的“双子星”，理由包括成本低、城市开放、搞钱氛围浓，还特别提到了杭州政府的办事效率。原文内容我放在下面。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_aab26eb98ca924e5ce5bfe44437fed7a.png>
+![](img/zhuanqian_aab26eb98ca924e5ce5bfe44437fed7a.png)
 我把这段文案放进提示词里跑，效果如下。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fa019c5d1a25415abcc7e1ea4c9c8d8c.png>
+![](img/zhuanqian_fa019c5d1a25415abcc7e1ea4c9c8d8c.png)
 从输出结果看，比初代稳定了不少，能感受到文字明显被重新组织过。
 之后我又想试试 Kimi 能不能跑通。
 结果出现了一个小插曲：因为提示词里带了“洗稿”两个字，Kimi 直接拒绝执行。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4b83cff907565f84cd923f650af20021.png>
+![](img/zhuanqian_4b83cff907565f84cd923f650af20021.png)
 解决办法其实很简单——“洗稿”换个同义词，改成“二创”就行。
 我把提示词里所有“洗稿”都改成了“二创”，其他内容不变，Kimi 就能正常工作了。完整版也贴在下面，方便大家直接复制。
 ```
@@ -209,5 +209,5 @@
 4. 必须看到文案后再输出，不能自行生成。
 ```
 Kimi 跑出来的结果也不错，基本可以放心用。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9b36eba8c41c0a542a0309360fa02e6d.png>
+![](img/zhuanqian_9b36eba8c41c0a542a0309360fa02e6d.png)
 好，这次就分享到这儿。我是哆元，一直专注研究 AI 和短视频、种草平台的结合，目前已经把标题、正文、配图、素人笔记这些流程都跑通了。之后有新玩法，我会再回来更新。

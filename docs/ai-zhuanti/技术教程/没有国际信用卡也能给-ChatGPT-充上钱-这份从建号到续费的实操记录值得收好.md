@@ -104,25 +104,25 @@ Apple Gift Card 在国内常写作苹果礼品卡。购买后获得一组兑换�
 付款前再核对四项：卡是否为美国区；美元金额是否充足；销售方和到账方式是否清晰；退款或有条件不可退规则自己能否接受。
 该环节可在中国内地常规网络下完成，不需要🪜。若页面拦截支付，请勿反复提交。
 提示“该品牌正在补仓中，暂时无法支付”说明该卡暂时缺货，而不是支付宝或 Apple 账户出了毛病。先不要反复付款，稍等或第二天再看。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5f1f9024a043ae4722f64dd25c60a340_0_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5f1f9024a043ae4722f64dd25c60a340_6_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5f1f9024a043ae4722f64dd25c60a340_8_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5f1f9024a043ae4722f64dd25c60a340_8_1.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5f1f9024a043ae4722f64dd25c60a340_8_2.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5f1f9024a043ae4722f64dd25c60a340_8_3.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5f1f9024a043ae4722f64dd25c60a340_8_4.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5f1f9024a043ae4722f64dd25c60a340_9_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5f1f9024a043ae4722f64dd25c60a340_9_1.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5f1f9024a043ae4722f64dd25c60a340_10_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5f1f9024a043ae4722f64dd25c60a340_10_1.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5f1f9024a043ae4722f64dd25c60a340_10_2.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5f1f9024a043ae4722f64dd25c60a340_10_3.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5f1f9024a043ae4722f64dd25c60a340_13_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5f1f9024a043ae4722f64dd25c60a340_13_1.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5f1f9024a043ae4722f64dd25c60a340_14_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5f1f9024a043ae4722f64dd25c60a340_14_1.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5f1f9024a043ae4722f64dd25c60a340_15_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5f1f9024a043ae4722f64dd25c60a340_15_1.png>
+![](img/zhuanqian_5f1f9024a043ae4722f64dd25c60a340_0_0.png)
+![](img/zhuanqian_5f1f9024a043ae4722f64dd25c60a340_6_0.png)
+![](img/zhuanqian_5f1f9024a043ae4722f64dd25c60a340_8_0.png)
+![](img/zhuanqian_5f1f9024a043ae4722f64dd25c60a340_8_1.png)
+![](img/zhuanqian_5f1f9024a043ae4722f64dd25c60a340_8_2.png)
+![](img/zhuanqian_5f1f9024a043ae4722f64dd25c60a340_8_3.png)
+![](img/zhuanqian_5f1f9024a043ae4722f64dd25c60a340_8_4.png)
+![](img/zhuanqian_5f1f9024a043ae4722f64dd25c60a340_9_0.png)
+![](img/zhuanqian_5f1f9024a043ae4722f64dd25c60a340_9_1.png)
+![](img/zhuanqian_5f1f9024a043ae4722f64dd25c60a340_10_0.png)
+![](img/zhuanqian_5f1f9024a043ae4722f64dd25c60a340_10_1.png)
+![](img/zhuanqian_5f1f9024a043ae4722f64dd25c60a340_10_2.png)
+![](img/zhuanqian_5f1f9024a043ae4722f64dd25c60a340_10_3.png)
+![](img/zhuanqian_5f1f9024a043ae4722f64dd25c60a340_13_0.png)
+![](img/zhuanqian_5f1f9024a043ae4722f64dd25c60a340_13_1.png)
+![](img/zhuanqian_5f1f9024a043ae4722f64dd25c60a340_14_0.png)
+![](img/zhuanqian_5f1f9024a043ae4722f64dd25c60a340_14_1.png)
+![](img/zhuanqian_5f1f9024a043ae4722f64dd25c60a340_15_0.png)
+![](img/zhuanqian_5f1f9024a043ae4722f64dd25c60a340_15_1.png)
 如果单张面额不足，就分几次购买多张美国区礼品卡，逐张放入账户，余额自然相加。
 余额提示：正常买入并成功入库的余额不会因为搁置太久而被清零。但余额一旦进入，就绑定在这个美国区 Apple 账户上，不能移给别的账户，也不能换回现金（法律另有规定除外）。美国区礼品卡只能用于美国区账户和美国区消费。以后想变更 Apple 账户的国家或地区，必须先花光账户中的余额；如果余额小于任何一件商品的价格，请联络 Apple 技术支持。正因如此，首次下单只买实际需要的金额就好。详细政策请查 Apple 美国区礼品卡条款和“更改国家或地区”说明。
 信息确认无误后，就在支付宝内完成付款。请勿进行私下转账，也不要把 Apple 密码、ChatGPT 密码、短信验证码、远程控制权限交给卖家。
@@ -286,9 +286,9 @@ Restore purchases（恢复购买）的意思是重新读取你原来在苹果这
 这里不聊虚的东西，只拆商业闭环，只聊怎么把 AI 的效率用到极致。社群里已经沉淀了 1000+ 经过验证的套利实战案例。
 👉 了解圈子的完整数字资产和上车门槛：
 有时候，最吊人胃口的，不是一句惊天动地的话，而是一个没头没尾的开始。
-就像现在，摆在我面前的“素材”，干净得像一张白纸，只留下一个孤零零的记号——<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5f1f9024a043ae4722f64dd25c60a340_37_0.png>。
+就像现在，摆在我面前的“素材”，干净得像一张白纸，只留下一个孤零零的记号——![](img/zhuanqian_5f1f9024a043ae4722f64dd25c60a340_37_0.png)。
 别小看这个记号，它其实是给文案开了一扇门：门后面，什么都有可能发生。可能是金句，可能是数据，也可能是一段戳心故事。真正聪明的文案，从不急着把话说满，而是先铺好轨道，让情绪顺着一个节点自然生长。
 老话说得好，留白才是最高的表达。与其堆砌辞藻，不如用一个抓手，把所有注意力都收拢到一个点上。
 现在，这枚钩子已经就位。
-它就是：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5f1f9024a043ae4722f64dd25c60a340_37_0.png>。
+它就是：![](img/zhuanqian_5f1f9024a043ae4722f64dd25c60a340_37_0.png)。
 接下来要做的，就是接住它，然后，把故事讲下去。

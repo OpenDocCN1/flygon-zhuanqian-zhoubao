@@ -7,7 +7,7 @@
 ## 二、关卡一：让系统自己完成改写
 先做最小闭环，解决“给一个链接，还你一篇内容”的问题。
 整体骨架可以这样理解：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_02848012204c522e012885c2081cfd61.png>
+![](img/zhuanqian_02848012204c522e012885c2081cfd61.png)
 链路中需要这些模块：
 - 谷歌表格触发器：监听表格变化，当新增链接或字段被修改时启动流程。
 - 状态字段更新：在开始处理前把该行状态置为“处理中”，便于追踪进度，也防止重复消费。
@@ -18,29 +18,29 @@
 - 代码处理模块：完成字段整理、格式清洗、数据拼接等操作。
 - 回写表格：把生成结果和状态更新到原行。
 对应到 n8n 画布上，流程示意如下：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2c0805172472513fc07f757d30669a76.png>
+![](img/zhuanqian_2c0805172472513fc07f757d30669a76.png)
 做完这一步，内容生产方式已经从“手工复制粘贴”变成了“表格驱动”。
 ## 三、关卡二：接入公号发布
 改写完成只是前半场，真正容易踩坑的是发布环节。腾讯对最终提交的数据有严格的格式约束，所以需要额外增加几个模块。
 新增模块如下：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_17e1fbbe3d6869f80747fc300228e14a.png>
+![](img/zhuanqian_17e1fbbe3d6869f80747fc300228e14a.png)
 先做版式转换：AI 直接生成的文本默认是普通文本，必须转成微信接口认可的 HTML 结构，包括标题层级、段落、加粗、引用、列表、图片占位等。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c40dee644fe00df6700945e15f043499.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ac7966e41b2e28a5ef420b124a13bfa4.png>
+![](img/zhuanqian_c40dee644fe00df6700945e15f043499.png)
+![](img/zhuanqian_ac7966e41b2e28a5ef420b124a13bfa4.png)
 然后是内文插图：按段落主题调用图像模型生成配图，再把图片传到短期素材通道，拿到 URL 后写回 HTML 正文，确保前端能正常加载。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_762d8efadf8bdece3ae08f4965c2dbed.png>
+![](img/zhuanqian_762d8efadf8bdece3ae08f4965c2dbed.png)
 封面要单独处理：生成封面后，通过长期素材能力上传，并保存资源标识，方便发布时调用。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0cd141ceb2dc09562397bb31ea856449.png>
+![](img/zhuanqian_0cd141ceb2dc09562397bb31ea856449.png)
 经过这些处理，一篇内容连同插图、封面会被组装成一条完整的发布请求。
 ## 四、关卡三：从单篇变成连续作业
 单篇自动化已经能省很多事，但真正体现产能的是连续作业。这需要在流程中加入多行数据顺序执行的逻辑，让表格里的每条链接都按顺序走完全部流程。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7a474d05cf6ea8425dad0455d30fdde5.png>
+![](img/zhuanqian_7a474d05cf6ea8425dad0455d30fdde5.png)
 顺序执行的好处是每篇都能稳定跑完，也便于观察进度。当前优先采用逐条处理而非并发，核心考虑是避免触发接口限流，让运行更可控。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4d210a9d5ed45bf03059ac77f1ccf33d.png>
+![](img/zhuanqian_4d210a9d5ed45bf03059ac77f1ccf33d.png)
 ## 五、搭建思路：五段心法比模板更重要
 很多朋友拿到现成模板，复制到个人空间只要几分钟。可一旦遇到报错、数据对不上、接口超时，就不知道从哪里下手。
 模板只能告诉你拼装步骤，而下面这套方法解释的是背后的设计逻辑，以及报错后该往哪里排查。这套心法我在 n8n 线下 mini 航海中首次提出：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2361d02202ac3a1c9d9ad51a38d57c2b.png>
+![](img/zhuanqian_2361d02202ac3a1c9d9ad51a38d57c2b.png)
 ### 1. 把目标切碎
 不要指望一次搭一个庞然大物。先把业务目标拆成若干小块。
 拿公号改写来说，可以切成这样几种动作：读链接、抓正文、提炼信息、重写文章、起标题、写导语、制作插图、制作封面、组装全文、转换成微信要求的格式、上传并发布、更新任务状态。每块动作都能对应一个或多个模块。

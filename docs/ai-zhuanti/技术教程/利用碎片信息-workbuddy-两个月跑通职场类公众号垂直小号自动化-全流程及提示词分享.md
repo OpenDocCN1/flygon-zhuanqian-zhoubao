@@ -1,7 +1,7 @@
 # 利用碎片信息+workbuddy，两个月跑通职场类公众号垂直小号自动化，全流程及提示词分享
 ## 零散素材如何变成内容流水线：我用 WorkBuddy 运营职场类公众号的实战记录
 260910 副业 SC 精华
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6ae5e11df88ace768d21ea1ad177343a_0_0.png>
+![](img/zhuanqian_6ae5e11df88ace768d21ea1ad177343a_0_0.png)
 **小懒判断** 这套方法更适合愿意研究工具、调整流程、持续测试的人。若你期待注册账号后完全不管就有收益，可能会失望。
 这次案例最有参考价值的地方，不是“用了哪个模型”，而是先把成熟账号的历史内容整理成一套可调用的写作资料，再让 AI 在动笔前寻找相近主题的优质范例。这样做之后，5 个号每月大约只需投入 2 小时维护，单号最高达到 1.1 万阅读，目前相对稳定在 1000+。
 当然，流程也有明显的失败点：如果只把标题丢给 AI，却不调整指令，连续产出十篇后很容易变成千篇一律的模板文，缺乏真实感。选题方面，与其凭空琢磨，不如优先研究同赛道已经验证过的数据表现。
@@ -10,9 +10,9 @@
 - 每周集中用 20 分钟完成一周内容的发布安排；
 - 其中一个账号已经完成流量主验证，其他账号虽然更新时间较短，但近几天的基础阅读大多在 150 左右；
 - 已跑通账号曾出现 1.1 万阅读的单篇内容，近期平均表现保持在 1000+。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6ae5e11df88ace768d21ea1ad177343a_1_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6ae5e11df88ace768d21ea1ad177343a_1_1.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6ae5e11df88ace768d21ea1ad177343a_1_2.png>
+![](img/zhuanqian_6ae5e11df88ace768d21ea1ad177343a_1_0.png)
+![](img/zhuanqian_6ae5e11df88ace768d21ea1ad177343a_1_1.png)
+![](img/zhuanqian_6ae5e11df88ace768d21ea1ad177343a_1_2.png)
 # 需要准备什么
 整个过程并不复杂，关键在于提前准备好三样东西：
 - 一个你能读懂、且已经连续经营一年以上的公众号。它的日常数据相对平稳，偶尔还能出现高表现内容；
@@ -66,10 +66,10 @@
 我自己的工具路线也换过几次：从 Cursor，到 augment、kiro、Codex，再到 WorkBuddy，整体花费并不高，但依然有机会接触到能力很强的模型。
 ## 4. 贴图类账号也值得观察
 寻找参考案例时，我还看到了一批以图片内容为主的账号。它们的生态有点像早期的小红书，不少账号正在尝试通过内容获取外部流量，如图：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6ae5e11df88ace768d21ea1ad177343a_4_0.png>
+![](img/zhuanqian_6ae5e11df88ace768d21ea1ad177343a_4_0.png)
 # 分割线
 很多人读完这类流程，会产生一种“已经掌握方法”的错觉。真正开始执行时，却常常在资料整理、工具配置或第一篇内容上停住。
 软件和教程只是入场条件，持续执行以及及时获得一手信息，才更可能拉开差距。
 这里不做空泛讨论，重点放在商业路径拆解、自动化流程搭建和 AI 使用效率提升。目前系统里已经整理了 1000+ 个经过验证的套利实战案例。
 - 查看圈子内完整数字资产与加入要求：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6ae5e11df88ace768d21ea1ad177343a_5_0.png>
+![](img/zhuanqian_6ae5e11df88ace768d21ea1ad177343a_5_0.png)

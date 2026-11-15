@@ -1,7 +1,7 @@
 # 24 小时内从想法到首单：用小红书跑通安卓 MVP 的最小闭环
 260106 副业 SC 精华
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_36adba5d6489b28bd96a954c32baeea9_0_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_36adba5d6489b28bd96a954c32baeea9_0_1.png>
+![](img/zhuanqian_36adba5d6489b28bd96a954c32baeea9_0_0.png)
+![](img/zhuanqian_36adba5d6489b28bd96a954c32baeea9_0_1.png)
 嗨，我是龙哥。今天聊一个我闲暇时随手做的副业测试：原本只是给自己用的锁屏清单工具，萌生收费念头到收到第一笔付款，间隔不到一天。没走教科书式的产品流程，思路有点乱，但验证链路很清晰，分享出来供参考。
 ## 一、闭环如何运转
 逻辑很简单：把打包好的安卓安装包放到夸克网盘，再把网盘链接挂到小红书个人售卖，并绑定对应笔记。一单成交可拿双份收益：小红书售卖收入 + 夸克拉新分成。

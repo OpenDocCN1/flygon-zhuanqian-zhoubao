@@ -15,41 +15,41 @@
 先说一下网址：[https://www.shutterstock.com/zh/](https://www.shutterstock.com/zh/)
 Shutterstock 是老牌的在线创意素材库，里面有海量高质量的照片、插画、矢量、视频和音频，供个人和商业使用。它的素材库覆盖面很广，广告、出版、网页、演示等场景都能找到参考，可以快速捕捉到行业的视觉规律。
 打开页面后需要🪜，然后点 浏览--> 图片--> 选择品类
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c8aefbd76d4a032fbea1237e77c37229.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9297f4aa285560453f5b83f2626e1836.png>
+![](img/zhuanqian_c8aefbd76d4a032fbea1237e77c37229.png)
+![](img/zhuanqian_9297f4aa285560453f5b83f2626e1836.png)
 分类非常丰富，可以自行逛逛。我就直接进入正题，用手提包来举例。直接用搜索框输入「手提包」
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_296020b094b064ac5705e4823703d4e0.png>
+![](img/zhuanqian_296020b094b064ac5705e4823703d4e0.png)
 就会跳转到结果页
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2b95df635165fcf3fdf332a1c6d43fbb.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_34336c5b2621516e963ff2d553c2f883.png>
+![](img/zhuanqian_2b95df635165fcf3fdf332a1c6d43fbb.png)
+![](img/zhuanqian_34336c5b2621516e963ff2d553c2f883.png)
 页面里有大量筛选标签和关键词。把鼠标悬停在图片上，会看到浮现的“关键词”提示。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6278cdeca3de3c19fb6ad8988664c113.png>
+![](img/zhuanqian_6278cdeca3de3c19fb6ad8988664c113.png)
 点进去往下拉，就能看到整段的关键词列表
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_241a36d204f8eb69efc9a7a652463ac5.png>
+![](img/zhuanqian_241a36d204f8eb69efc9a7a652463ac5.png)
 这段词可以直接复制到 MJ 去试效果。为了省事可以把网页语言切成英文再复制。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9e3b632f4f9b264b24abf8d47f043ad9.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e044a10268d747d8071e4e5cae985731.png>
+![](img/zhuanqian_9e3b632f4f9b264b24abf8d47f043ad9.png)
+![](img/zhuanqian_e044a10268d747d8071e4e5cae985731.png)
 ## 二、实操讲解
 了解了网站用法后，我们来实操一次。假设甲方要一个包包的宣传图，我们就以这个需求来演示。
 我先挑了一个词丢进 MJ 看看效果。
 原图里看到的描述是：环保米色时尚帆布手提袋隔离在白色背景上。可重复使用的杂货袋和购物。模型的设计模板。正面视图
 能看出这是机器翻译的中文，直接用会有些别扭，所以我会稍微调整一下语序和逻辑，让它更通顺。
 关键词：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_85fa3bf2c4c7c012532afde56fbf7fae.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_32d0557294b90100dc6c6b5dc9e7d21e.png>
+![](img/zhuanqian_85fa3bf2c4c7c012532afde56fbf7fae.png)
+![](img/zhuanqian_32d0557294b90100dc6c6b5dc9e7d21e.png)
 效果还算不错对吧？不过这个帆布袋不是我想要的，我想要类似 LV 风格的手提包怎么办？比如直接搜：棕色牛皮手提包
 挑一个我觉得还行的图点进去，获取关键词后复制。这里是英文的，就保持原样不用改。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4a7a1be309b0bb4e8df2e2432902a28f.png>
+![](img/zhuanqian_4a7a1be309b0bb4e8df2e2432902a28f.png)
 要注意，这个关键词描述的并不是单纯的包，而是整个画面构图。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3c264979483eaeff3f1fdd6139b3a34b.png>
+![](img/zhuanqian_3c264979483eaeff3f1fdd6139b3a34b.png)
 先不管，直接丢进 MJ
 关键词：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9481c6b1b52e1d5765aac0a9c7763fe4.png>
+![](img/zhuanqian_9481c6b1b52e1d5765aac0a9c7763fe4.png)
 出来的图和原图包差距挺大的。这时要先想清楚目标：你是要“保留背景的整体画面”，还是要“出一个和原图相似的包”。
 如果想要保留背景，就保留背景相关的描述，其它部分改写；如果想要包本身像原图，就重点改写包的描述。
 我这里以突出“手提包”本身为例做调整。因为只是示例，我对专业术语掌握有限，没有做完全还原，大家也可以用垫图的方式去逼近想要的商品。
 关键词：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c6688537af13f32c3e949a5e88168b3c.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4611cbd7ad6d13d4f444d13c77489ad1.png>
+![](img/zhuanqian_c6688537af13f32c3e949a5e88168b3c.png)![](img/zhuanqian_4611cbd7ad6d13d4f444d13c77489ad1.png)
 ## 三、商品关键词的两种常见写法
 做商业定制时，得按甲方需求来组织商品描述。在 Midjourney 里生成商品，比较常用的有两种思路：
 ### 1. 摄影写法
@@ -94,32 +94,32 @@ Shutterstock 是老牌的在线创意素材库，里面有海量高质量的照�
 珠宝设计
 摄影写法：
 关键词：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e763ff812033a561826d6b3235d639dd.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_20e84be44ab1cc47cbe5231f2d01ce5e.png>
+![](img/zhuanqian_e763ff812033a561826d6b3235d639dd.png)
+![](img/zhuanqian_20e84be44ab1cc47cbe5231f2d01ce5e.png)
 工艺品写法：
 关键词：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b97f7d46e5bdfb503d63fa13175c966b.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6a2104df50a00bedb596017a89c27f14.png>
+![](img/zhuanqian_b97f7d46e5bdfb503d63fa13175c966b.png)
+![](img/zhuanqian_6a2104df50a00bedb596017a89c27f14.png)
 沙发设计
 摄影写法：
 关键词：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a557294890e96bf9d2da9c4285380988.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3e99484555a20aaec46486b5672bdc4a.png>
+![](img/zhuanqian_a557294890e96bf9d2da9c4285380988.png)
+![](img/zhuanqian_3e99484555a20aaec46486b5672bdc4a.png)
 工艺品写法：
 关键词：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4937bebed65a95450f7c6ed2ed52b442.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_865d27a17ff7dd4569d6750b2525278b.png>
+![](img/zhuanqian_4937bebed65a95450f7c6ed2ed52b442.png)
+![](img/zhuanqian_865d27a17ff7dd4569d6750b2525278b.png)
 ## 四、隐藏内容 商品描述的第三种玩法
 上面两种之外，还能怎么玩？当然可以。
 除了知名设计师，还能直接调用知名品牌，甚至两者结合，形成“请某位著名设计师为某个品牌设计产品”的思路。
 栗子1：源自知名品牌的产品
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_85011befb7baf1fd8fac75b5b0719382.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_eeb7824dc421c62efaff330aca3d99ff.png>
+![](img/zhuanqian_85011befb7baf1fd8fac75b5b0719382.png)
+![](img/zhuanqian_eeb7824dc421c62efaff330aca3d99ff.png)
 栗子2：来自著名设计师操刀的知名品牌产品
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f1abbfce087d78b7e8b1041944b7844d.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b290370e666e96b1a925ee2277e6d1f2.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2bf116ab0bdab95b9fc71550549545cc.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8c6a4692f07d6aa831e605ea2d52292b.png>
+![](img/zhuanqian_f1abbfce087d78b7e8b1041944b7844d.png)
+![](img/zhuanqian_b290370e666e96b1a925ee2277e6d1f2.png)
+![](img/zhuanqian_2bf116ab0bdab95b9fc71550549545cc.png)
+![](img/zhuanqian_8c6a4692f07d6aa831e605ea2d52292b.png)
 提示：并非所有设计师都能起效。部分品牌调性太强难以改变，也有些设计师风格未被 MJ 所学习。侵权风险需自行甄别。
 以上就是非设计背景小伙伴快速找到设计思路的方法和技巧，希望能帮到你。另外要记住，目前在商业应用中，MJ 做概念图、思路图非常高效，但落地仍离不开工业设计师和工厂配合。尺寸、材质、安全、国标等细节都需要实操验证。
 评论区：

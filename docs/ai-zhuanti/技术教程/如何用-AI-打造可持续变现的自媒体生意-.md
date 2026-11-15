@@ -1,16 +1,16 @@
 # 如何用 AI 打造可持续变现的自媒体生意？
 这篇文章其实源自二月份在长沙的一次线下交流。当时受七天老师邀请，我和赚钱圈子里的朋友们面对面聊了聊怎么做 AI 内容这门生意。结束后不少现场的朋友说收获很大，我就把整套内容整理出来，连同答疑一起放在这里，希望能帮到更多正在观望或者已经入局的人。
 先交代一下我自己的经历。2023 年四月我加入赚钱，五月份在风向标里看到一个挺有意思的项目：用人工智能把 B 超里模糊的影像转化成宝宝可能的长相。就靠这个玩法，我赚到了七万多，算是摸到了 AI 内容变现的门道。后来我又试过二手书、短视频带货、海外平台视频，基本都能跑通，但都没沉下心来坚持。2024 年我把重心放到了小红书，那会儿自己带娃，挤不出太多时间，一整年只更新了三十多篇，涨粉一千多，偶尔接点广告。真正的转折点是 2025 年，我开始稳定输出，全年发了 160 多篇笔记，单篇合作的报价从两百块一路涨到两千，最高一篇挣了五千多，之后连续半年每个月广告收入都稳定在一万以上。可以说，这条路是能走通的。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_98c74c4b17b672513486f00aeef7fd75_0_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_98c74c4b17b672513486f00aeef7fd75_0_1.png>
+![](img/zhuanqian_98c74c4b17b672513486f00aeef7fd75_0_0.png)
+![](img/zhuanqian_98c74c4b17b672513486f00aeef7fd75_0_1.png)
 今天这篇文章要聊的，是怎么把 AI 内容做成一个不依赖运气、能长期运转的生意。从怎么获取流量，到后端怎么设计产品，完整链路我都会讲清楚。
 先亮一下这个项目的基本情况：
 - 赛道：AI 内容创业
 - 成果：累计变现六位数，连续半年单月广告收益过万，单篇笔记最高入账 5k+
 - 现状：做 AI 教学内容的人越来越多，内容同质化明显，但“AI 加垂直行业解决方案”仍然很少人做
 - 机会点：深耕某个具体行业，用 AI 解决那个行业里真实存在的痛点
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_98c74c4b17b672513486f00aeef7fd75_2_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_98c74c4b17b672513486f00aeef7fd75_2_1.png>
+![](img/zhuanqian_98c74c4b17b672513486f00aeef7fd75_2_0.png)
+![](img/zhuanqian_98c74c4b17b672513486f00aeef7fd75_2_1.png)
 ![](image)
 ![](image)
 **第一部分：2026 年，这一行还有多少空间？**
@@ -31,10 +31,10 @@
 做泛 AI 内容的创作者，已经卷成红海；做垂直行业落地的，依旧是蓝海。
 机会的重心正在从“展示 AI 有多炫”转向“AI 能为某类人解决什么实际问题”。一句话概括，就是结果导向压倒技术表演。只看热闹的东西，比如 AI 做的透视海报，火了几天就过去了，真正愿意为它掏钱的，基本只有设计师和同行博主。而“教别人把 AI 用在具体场景里解决问题”，才是稀缺能力。
 ![](image)
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_98c74c4b17b672513486f00aeef7fd75_5_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_98c74c4b17b672513486f00aeef7fd75_6_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_98c74c4b17b672513486f00aeef7fd75_7_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_98c74c4b17b672513486f00aeef7fd75_7_1.png>
+![](img/zhuanqian_98c74c4b17b672513486f00aeef7fd75_5_0.png)
+![](img/zhuanqian_98c74c4b17b672513486f00aeef7fd75_6_0.png)
+![](img/zhuanqian_98c74c4b17b672513486f00aeef7fd75_7_0.png)
+![](img/zhuanqian_98c74c4b17b672513486f00aeef7fd75_7_1.png)
 **第二部分：AI 内容生意，到底怎么赚钱？**
 我习惯把变现拆成两段来看：前端的流量生意，和后端的产品生意。
 整体链路是这样运转的：先聚流量，再建立信任，然后交付方案，最后形成复购。口碑又会反过来增强信任，这是一个正向循环。
@@ -49,29 +49,29 @@
 还有一种是国产替代方案梳理。比如国外某款工具用不了，国内的哪款能顶上。这类内容制作起来很简单，但下沉市场非常买单，数据往往很亮眼。
 ![](image)
 ![](image)
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_98c74c4b17b672513486f00aeef7fd75_11_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_98c74c4b17b672513486f00aeef7fd75_11_1.png>
+![](img/zhuanqian_98c74c4b17b672513486f00aeef7fd75_11_0.png)
+![](img/zhuanqian_98c74c4b17b672513486f00aeef7fd75_11_1.png)
 变现出口也有三个：品牌合作的固定费用、拉新带来的分成、以及工具销售的利润分成。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_98c74c4b17b672513486f00aeef7fd75_11_2.png>
+![](img/zhuanqian_98c74c4b17b672513486f00aeef7fd75_11_2.png)
 合作方式分三种。第一种是打包一口价，价格一般是粉丝数量的 10% 到 20%，数据特别好的还能往上谈。通过官方平台接单和私下接单报价逻辑不一样，走官方的要预留 10% 的服务费，还要留出 30% 到 40% 的返点空间。
 第二种是底薪加提成。一些 AI 产品和博主签订长期合作协议，发一篇指定选题的笔记，给一笔基础稿费，再加上按 14 天内的互动量乘系数结算，上限两万。
 第三种是纯粹按效果分成。只有互动数据好才有收入，如果手头没有更好的选择，这种也值得做，发出去有数据就有钱，还能给账号持续供内容。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_98c74c4b17b672513486f00aeef7fd75_12_0.png>
+![](img/zhuanqian_98c74c4b17b672513486f00aeef7fd75_12_0.png)
 接单有几个经验之谈。第一，能走官方平台就走官方平台。虽然会被抽走 10% 的服务费，但对账号更安全。私下接 AI 相关的推广现在容易遭到限流。而且走官方结算更快，甲方得先付款下单，笔记完成七天后款项自动到账。第二，大品牌的单子可以放心接，但那些叫不上名字的小公司要谨慎。体验完产品再决定，功能跟不上、体验很差的，最好别碰，公司大概率也不稳定，结款容易拖。产品做得好就另说，但要提前确认结算周期和方式，签好合同，保护自己。
 接下来聊聊后端。这是很多内容创作者忽略的部分。
 绝大多数 AI 博主目前还停留在靠广告变现的阶段。但广告收入跟粉丝量紧紧绑定，而且依赖你的数据表现。想单篇赚到一千以上，粉丝量基本得过万。这条路走起来比较慢。所以我建议，在做账号的同时就想清楚后端要卖什么产品，以产品销售为目标来倒推内容方向。
 后端的闭环结构是：内容把人吸引过来，通过引流转化到私域，然后成交产品，再用社群留住人，最后客户的真实案例又变成新内容的素材。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_98c74c4b17b672513486f00aeef7fd75_14_0.png>
+![](img/zhuanqian_98c74c4b17b672513486f00aeef7fd75_14_0.png)
 后端产品的常见形态有三类：
 第一类，知识型。围绕不同人群设计课程，比如图像生成、视频创作、编程辅助、PPT 制作、知识库搭建等，也可以做成资料包、提示词合集这种轻量产品。
 第二类，服务型。包括一对一私教或陪跑，通常按季度或年度收费，交付重、客单价高；一次性咨询，解决完问题还能有机会转化成更高客单的服务；企业培训，这个需要一点资源积累；还有内容代运营。
 第三类，社群型。提供实操答疑、分享新出现的好用工具、拆解最新的赚钱案例，让用户感到物有所值。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_98c74c4b17b672513486f00aeef7fd75_14_1.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_98c74c4b17b672513486f00aeef7fd75_15_0.png>
+![](img/zhuanqian_98c74c4b17b672513486f00aeef7fd75_14_1.png)
+![](img/zhuanqian_98c74c4b17b672513486f00aeef7fd75_15_0.png)
 **第三部分：怎么从零想清楚你的方向？**
 我从自己的经验里提炼出一个定位公式：你愿意长期聊的话题 + 用户愿意付钱解决的问题 + AI 能显著提升效率的环节。这三者的交叉点，就是最适合你的方向。
 拿现场一个朋友的例子来说，他对飞书多维表格很感兴趣。我当时就问他：多维表格能在哪里帮人省时间？比如帮自媒体运营批量抓取某个关键词下面跑出来的爆款选题，或者批量收集竞品账号的笔记文案，再批量改写成自己的内容。这些事情手动操作可能要好几天，用多维表格十几分钟就搞定了。如果你自己就愿意为这种省时间付费，那就证明这个方向有人买单，那你就可以围绕它来做内容。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_98c74c4b17b672513486f00aeef7fd75_16_0.png>
+![](img/zhuanqian_98c74c4b17b672513486f00aeef7fd75_16_0.png)
 还可以把更复杂的情况拆成三个问题，反复问自己：
 1. 我最熟悉哪个行业的哪群人？
 2. 这群人眼下最头疼的环节是什么？
@@ -79,7 +79,7 @@
 用一句话来概括就是：特定的人群 + 高频出现的场景 + 极其具体的痛点解法。
 下面分享几个我观察到的成功案例，给大家做个参照。
 **AI + 亲子教育**。有个账号叫北大星星妈咪，内容聚焦 AI 在孩子学习中的应用，最近挂出一门课程，专门讲 2026 年的 AI 育儿方法，十节课定价 99 块，已经卖掉八十多份，后面还能继续扩展成系列。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_98c74c4b17b672513486f00aeef7fd75_16_1.png>
+![](img/zhuanqian_98c74c4b17b672513486f00aeef7fd75_16_1.png)
 ![](image)
 **AI + 设计提效**。有个叫海苔设计的账号，博主本身是设计师，用手绘草图加 AI 生成来做海报，效率高了很多，也在卖 AIGC 设计课程，教同行用 AI 把工作提速。
 ![](image)
@@ -91,23 +91,23 @@
 ![](image)
 ![](image)
 **AI + PPT 制作**。分享 NotebookLM 做出的 PPT 效果炸裂，商店里卖提示词全家桶和配套教程。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_98c74c4b17b672513486f00aeef7fd75_19_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_98c74c4b17b672513486f00aeef7fd75_19_1.png>
+![](img/zhuanqian_98c74c4b17b672513486f00aeef7fd75_19_0.png)
+![](img/zhuanqian_98c74c4b17b672513486f00aeef7fd75_19_1.png)
 **AI + 自由职业探索**。分享各种用 AI 赚钱的野路子，后端可以做副业社群、知识星球，也可以卖项目实操课。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_98c74c4b17b672513486f00aeef7fd75_19_2.png>
+![](img/zhuanqian_98c74c4b17b672513486f00aeef7fd75_19_2.png)
 还有一个我自己实操过的方向：AI 赋能课堂教学。我做过一系列内容，专门讲老师可以用 AI 做什么，很垂直，吸引来的几乎全是老师粉。评论区经常有人问怎么做，我就在商店挂了定制视频、教程文档和成片出售，一直都在出单。老师的核心需求很简单，无非是课文转视频、数字人口播这类，做起来也不难，一个视频收一百到三百，按难度和需求定价就行。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_98c74c4b17b672513486f00aeef7fd75_19_3.png>
+![](img/zhuanqian_98c74c4b17b672513486f00aeef7fd75_19_3.png)
 关于爆款的打造，我总结了一个常用的内容结构，大部分做得好的同行也在用这个框架：先抛出一个超出预期的结果，勾起好奇心；再快速演示关键动作，让人觉得“我上我也行”；最后留一个关注的理由。拆解几篇你欣赏的爆款，会发现基本都是这个思路。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_98c74c4b17b672513486f00aeef7fd75_20_0.png>
+![](img/zhuanqian_98c74c4b17b672513486f00aeef7fd75_20_0.png)
 最后说两句掏心窝的话。AI 这个赛道，永远不会等你“完全看懂”了再让你进场。信息差每天都在产生，也每天都在被人吃掉。与其纠结自己是不是太晚，不如先选定一个小小的垂类切口，用上面的定位方法跑起来。红利的本质，从来不是某个时间窗口，而是你能不能持续下场干活、真实地解决一批人的问题。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_98c74c4b17b672513486f00aeef7fd75_21_0.png>
+![](img/zhuanqian_98c74c4b17b672513486f00aeef7fd75_21_0.png)
 开头三秒亮出成品
 打开视频，不要铺垫，直接把成果拍在观众脸上：
 一套质感拉满的智能生成海报，或是一张商品素白底图直接变身宣传主视觉；
 一支完成度极高的智能生成短片；
 一份从框架到排版全部自动完成的演示文稿；
 一个账号从冷到热的数据变化对照图。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_98c74c4b17b672513486f00aeef7fd75_21_1.png>
+![](img/zhuanqian_98c74c4b17b672513486f00aeef7fd75_21_1.png)
 这四类内容一出现，看视频的人会立刻生出“这个我也想学”的冲动，收藏、点赞、停留都会随之而来。
 内容难度怎么踩，取决于你想筛出什么样的人。越通俗、观感越精致的内容，越能把大批没有基础的用户吸引进来；难度门槛暴露得越明显，靠近你的就越会是同行和技术控。所以动手前先决定：你是想放大曝光，还是想给自己的产品导流？
 我拿自己的内容举例。有一条视频，一天内获得了上千次互动，新增了 170 多位关注者。课程链接放在留言区后，带来 200 多次商品浏览和几十次加购。
@@ -128,7 +128,7 @@
 播完比例 | 3.5% | 10.7%
 前 2 秒跳出 | |
 新增关注 | |
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_98c74c4b17b672513486f00aeef7fd75_23_0.png>
+![](img/zhuanqian_98c74c4b17b672513486f00aeef7fd75_23_0.png)
 另一个例子更夸张，一共才拍了几个镜头，操作步骤看着一点不难，互动量直接冲上万。评论区许多人跑来问：成品能卖吗？能不能定做？接不接广告？这条内容收割的基本都是零基础用户。
 ![](bbox=[63, 89, 845, 260])
 可选第二步：一句话点醒观众
@@ -147,7 +147,7 @@
 第五步：留下钩子
 “完整口令 / 整套流程我已经打包好了，想要的评论区见——”
 ### 3.3 智能工具做内容，主要帮四件事
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_98c74c4b17b672513486f00aeef7fd75_25_0.png>
+![](img/zhuanqian_98c74c4b17b672513486f00aeef7fd75_25_0.png)
 ① 找内容方向
 要喂给它的东西：
 你想做什么，或者账号的主攻方向；
@@ -155,7 +155,7 @@
 这批人正在被什么问题困扰。
 它能还给你的：
 若干个可做的话题，以及一长串痛点清单。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_98c74c4b17b672513486f00aeef7fd75_26_0.png>
+![](img/zhuanqian_98c74c4b17b672513486f00aeef7fd75_26_0.png)
 通用句式：“我是一名人工智能博主，主攻____，想解决____在____场景下的____困扰，请给我规划 20 个适合在种草社区传播的选题方向。”
 套进我的情况就是：“我主攻用智能技术提升自媒体图文产出效率，目标人群是被手工排版拖慢速度的内容创作者，请基于这个背景给我 20 个选题方向。”
 ② 拟文稿
@@ -169,18 +169,18 @@
 开头抓住人的三秒；
 画面拆解；
 口播词。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_98c74c4b17b672513486f00aeef7fd75_26_1.png>
+![](img/zhuanqian_98c74c4b17b672513486f00aeef7fd75_26_1.png)
 实际用的时候，把甲方给的需求简报传上去，同时把你的要求一项项说清楚：内容落在什么场景、稿子怎么组织、语气是什么调性。生成完不能直接用，要改成自己的说话方式。如果你的语料样本足够多，也可以交上去让它模仿你的风格。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_98c74c4b17b672513486f00aeef7fd75_27_0.png>
+![](img/zhuanqian_98c74c4b17b672513486f00aeef7fd75_27_0.png)
 ③ 做首图
 要喂给它的东西：
 基础素材图片；
 关键词、标题、排版要求、整体视觉方向。
 它能还给你的：
 无需二次处理就能直接使用的封面。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_98c74c4b17b672513486f00aeef7fd75_27_1.png>
+![](img/zhuanqian_98c74c4b17b672513486f00aeef7fd75_27_1.png)
 我近期常用的模型是 Gemini 系里的 nano banana pro：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_98c74c4b17b672513486f00aeef7fd75_27_2.png>
+![](img/zhuanqian_98c74c4b17b672513486f00aeef7fd75_27_2.png)
 ![](bbox=[78, 31, 839, 220])
 即梦也可以顶一顶，只是最终质感还是比 nano banana pro 差一些。
 ![](bbox=[68, 318, 829, 568])
@@ -213,17 +213,17 @@ nano banana pro 上线之后，图配文的制作门槛又被压低了一大截�
 ![](bbox=[62, 568, 848, 759])
 视频教学可以参考：旅游、亲子、实体产品种草……只要你的内容形态需要图配文，这套方法就能复用。
 不同赛道的图配文案例：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_98c74c4b17b672513486f00aeef7fd75_31_0.png>
+![](img/zhuanqian_98c74c4b17b672513486f00aeef7fd75_31_0.png)
 又一个不同赛道的图配文案例：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_98c74c4b17b672513486f00aeef7fd75_31_1.png>
+![](img/zhuanqian_98c74c4b17b672513486f00aeef7fd75_31_1.png)
 最后说两句实在话。人工智能内容创作现在确实卷，同质化随处可见。想在这里长期待下去，最好切入一个人群的具体麻烦，用智能工具把麻烦拆掉，然后把自己获取热度的能力和可售卖的产品绑在一起，形成一个不断转动的循环。
 要做长期生意，注意两点：
 别追风口，去做能解决问题的方案；
 别只盯流量，把产品那半边补齐。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_98c74c4b17b672513486f00aeef7fd75_31_2.png>
+![](img/zhuanqian_98c74c4b17b672513486f00aeef7fd75_31_2.png)
 行动建议：找一个真正让你头疼的题目，用智能工具去解，今天就开始。
 ### 现场答疑：事先收集的问题 + 现场提问
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_98c74c4b17b672513486f00aeef7fd75_32_0.png>
+![](img/zhuanqian_98c74c4b17b672513486f00aeef7fd75_32_0.png)
 虚拟人长视频怎么做？
 先把人物造型敲定，再去选一个虚拟人口型平台。眼下体验靠前的是 heygen，国内的供应商也很多，可以多比较。成本大概一分钟几块钱，技术成熟后还有下降空间。
 新手怎么学这些智能工具？

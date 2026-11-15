@@ -1,8 +1,8 @@
 # 官网老提示“服务器繁忙”？这套硅基流动 + Cherry Studio 组合，让你本地就能稳定用上 DeepSeek 级体验
 大家好，我是龙哥。昨天上班一开工就用RPA去调用 DeepSeek，结果一整天都在和“服务器繁忙”搏斗，效率直接被拖垮。被卡住没必要硬等，这里分享一个我已经在用的替代打法：不用登录官网，直接用硅基流动的 API 配合 Cherry Studio 做一个属于自己的AI工作台，用起来更顺手、更稳。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_22abd70c27684cd5241faea59dae81b4.png>
+![](img/zhuanqian_22abd70c27684cd5241faea59dae81b4.png)
 我现在本地搭好的 DeepSeek 平替效果大概是这样：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_18c54a370b8cf43e251aa49b273d88ec.png>
+![](img/zhuanqian_18c54a370b8cf43e251aa49b273d88ec.png)
 * * *
 ### 一、官网不稳到底卡在哪？
 *   流量高峰扛不住：用户暴涨加上偶发维护，页面容易转圈、报错。
@@ -25,11 +25,11 @@ Cherry Studio 是一个面向普通用户的 AI 应用搭建工具，拖拽式�
 **Step 1：搞定硅基流动的 API 账号**
 1.  进入硅基流动官网注册开发者账号，目前无需实名，后期人多可能会收紧。
 2.  登录控制台后创建 API Key，并领取免费试用额度。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8cdcf7d46ef93b9674964626eb520f06.png>
+![](img/zhuanqian_8cdcf7d46ef93b9674964626eb520f06.png)
 **Step 2：在 Cherry Studio 里接入模型**
 1.  Cherry Studio 官网下载有点慢，这里我放了网盘备份：https://pan.quark.cn/s/c1cbbfaeb285
 2.  打开软件后粘贴你的 API Key，手动添加 DeepSeek 的 R1 和 V3 模型。
 3.  完成 R1 模型的基础设置。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2175a19cd5728447966955a067c694ac.png>
+![](img/zhuanqian_2175a19cd5728447966955a067c694ac.png)
 搞定之后，我又能顺畅地开聊了。
 我是龙哥，专注 AI + RPA 落地实战，欢迎一起聊聊 DeepSeek 的本地化玩法。

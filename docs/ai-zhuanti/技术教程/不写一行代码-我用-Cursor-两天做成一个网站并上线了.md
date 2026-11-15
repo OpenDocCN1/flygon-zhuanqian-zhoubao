@@ -1,135 +1,135 @@
 # 不写一行代码，我用 Cursor 两天做成一个网站并上线了
 说实话，我的编程底子真的挺一般，谈不上完全零基础，但也就懂某个很小的方向，离“独立开发一大堆功能”还差得远，更别提那些以前压根没碰过的东西。
 某天刷到龙哥大佬发的第三个“超级标”，第一反应是：这事儿能搞。毕竟过去一年多，我一直在和各种 AI 产品打交道，Cursor 什么来头我很清楚，只是始终没动手深挖。直到这帖子出现，又看到有位刚拿了精华帖的大佬，用 Cursor 做的产品直接在小红书爆了，还冲进了 App Store 前 20。那种“看到身边人跑通”的感觉，比任何教程都提气——原来脑子里的想法，是真的可以被活生生做出来的，而不只是停留在想象里。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cd26e14a67ff92ac64145d8b15067c90.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1e1bfd277cd4e261679f3994854b9bf1.png>
+![](img/zhuanqian_cd26e14a67ff92ac64145d8b15067c90.png)
+![](img/zhuanqian_1e1bfd277cd4e261679f3994854b9bf1.png)
 于是简单补了点功课就开干了。先把 Cursor 装好：https://www.cursor.com/
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cfef71792e3dc6f9b0f77d2322b686ec.png>
+![](img/zhuanqian_cfef71792e3dc6f9b0f77d2322b686ec.png)
 唯一让我卡住的是登录环节——不挂🪜好像登不进去，反正我是没找到别的办法。要是有类似困惑的，评论区可以聊聊。🪜怎么搞，淘宝搜一下就能解决，这点事我就不啰嗦了。说句实在话，你既然打算认真学这个，搞定网络是最基本的觉悟——以后做海外站、出海搞流量，“🪜”才是一切的起点。
 # 一、先从浏览器插件下手
 龙哥的“超级标”里列了几类 AI 产品：AI 网站、AI App、AI 插件。扫一眼就能判断，插件是门槛最低的，我自然就选了它。
 当时有个特别烦的场景：电脑上没登微信也没登 QQ，需要截图提取文字的时候，完全没招。偏偏很多网页和文档设了“禁止复制”，你就只能干瞪眼。痛点既然实实在在存在，那就动手自己做个截图 OCR 插件算了。
 作为 Cursor 纯新手，提问方式非常笨拙，也非常直白：先让它搭个最简单版本，再一点点加需求。别一上来就追求完美主义，指望一句话生成一个终稿——如果你对工具已经足够熟练，当然能更精准地表达需求，但新手阶段，把“迭代”当默认姿势就好。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2398e5a3cbe7cd795249692f576a7eb1.png>
+![](img/zhuanqian_2398e5a3cbe7cd795249692f576a7eb1.png)
 写的过程中但凡报错，就把错误信息原封不动丢给它，让它自己修，一步一补丁地往前推进。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8bc6426403984b02bb0922514a1f1bde.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_af97007af5312f78c6ba702e4ebbd216.png>
+![](img/zhuanqian_8bc6426403984b02bb0922514a1f1bde.png)
+![](img/zhuanqian_af97007af5312f78c6ba702e4ebbd216.png)
 没花多久，v1 版本就出来了。截图功能正常，OCR 却始终不干活。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2fc2c2839155c4f5c63c3770197a29ae.png>
+![](img/zhuanqian_2fc2c2839155c4f5c63c3770197a29ae.png)
 我问 Cursor 怎么解决，它给的方案有点绕，太劝退新手了，继续追问：有没有更简单、更适合小白的路子？
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_33d5d9e568d81264da3510bd264ceaed.png>
+![](img/zhuanqian_33d5d9e568d81264da3510bd264ceaed.png)
 这次它换了个方向——让我注册百度 AI，因为那边有现成的、开箱即用的 OCR API，只需要把接口接进来就行。我照着它给的教程一步步操作：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a37251a1785cb342a12f5f670344e903.png>
+![](img/zhuanqian_a37251a1785cb342a12f5f670344e903.png)
 成功拿到了百度 AI 的 API Key 和 Secret Key，接下来就好办了。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_56a0115b56a118a45ff683360b781905.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_73fef7801284a319d436447c8893404b.png>
+![](img/zhuanqian_56a0115b56a118a45ff683360b781905.png)
+![](img/zhuanqian_73fef7801284a319d436447c8893404b.png)
 最新版插件终于出炉：把两个 Key 填进去保存，
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_95a4a49d818795836d9f6444e7a5ea52.png>
+![](img/zhuanqian_95a4a49d818795836d9f6444e7a5ea52.png)
 然后截图、识别，浏览器界面上的文字都能准确提取出来。那个“没微信没 QQ 就截不了字”的痛点，算是彻底解决了。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e85c130810acc84b3956bde735f7700b.png>
+![](img/zhuanqian_e85c130810acc84b3956bde735f7700b.png)
 做完之后我还研究过怎么上架谷歌应用商店，结果发现要交 5 美元，想想算了——就这体量，也没指望靠它收费。但这不重要，重要的是：这是我第一回做插件。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_947613b24748ced96cc290152c3211d7.png>
+![](img/zhuanqian_947613b24748ced96cc290152c3211d7.png)
 从灵感到可用版本，只用了一个多小时。一个从未碰过浏览器插件开发的人，能做到这个速度，放以前想都不敢想。
 这个经历给了我很大触动——那到底是什么样的需求，真真切切一大堆人都在用？而且 Cursor 完全可以实现？很快我想起一个高频场景：很多人经常被小文件处理烦到，比如图片压缩、图片编辑之类的。更要命的是，我一年前还真花 298 块买过一款同类工具。那问题来了：这玩意儿，我能不能用 Cursor 复刻一个？
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a153ed13118bad08f35542cef8aa17cd.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_dcd39b5bc152379db289ad70f79fc140.png>
+![](img/zhuanqian_a153ed13118bad08f35542cef8aa17cd.png)
+![](img/zhuanqian_dcd39b5bc152379db289ad70f79fc140.png)
 # 二、我的第一款正式产品
 ## 2.1 开发过程回顾
 有了对标产品，一切就变得非常具体。第一步，分析对方的界面布局和交互逻辑，把它们一一描述成文字。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c994c6f7945b3c01def0a0c777aadac3.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5ea4e06071357736c3c40cef5231b9ac.png>
+![](img/zhuanqian_c994c6f7945b3c01def0a0c777aadac3.png)
+![](img/zhuanqian_5ea4e06071357736c3c40cef5231b9ac.png)
 将这些描述作为提示词发给 Cursor，一个基础版网站就这样出来了。地基打好了，后面就是逐个功能往上垒。说实话我依然很小白，遇到没做过的东西还是会有畏难心理——但畏难不等于停步，我就挑最简单的几个功能先试水。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_69b0525c0c9c58b66e9e97e39d6aa7d0.png>
+![](img/zhuanqian_69b0525c0c9c58b66e9e97e39d6aa7d0.png)
 我选了自己认为最容易的三个功能，开始动手实践。下面是当时的对话和对应产出，过程中当然不会一帆风顺，遇 bug 就让 Cursor 修复，哪里的效果不符合预期，直接提出来改：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e9540f21f7b397f3a28b33d42163d4f2.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_87f5eaa4c664b5f56c3129683ccb6e1a.png>
+![](img/zhuanqian_e9540f21f7b397f3a28b33d42163d4f2.png)
+![](img/zhuanqian_87f5eaa4c664b5f56c3129683ccb6e1a.png)
 比如做出 JSON 功能后，不知道有没有效果？直接把生成任务丢给 GPT 出样测一测就行。现在真的太方便了，缺哪块都能找到对应的 AI 来补位。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_dede4b012efc6759df63d8e1030f72c9.png>
+![](img/zhuanqian_dede4b012efc6759df63d8e1030f72c9.png)
 按这个模式反复开发更多功能时，我撞上了第一大墙：有些功能纯前端根本无法实现。要么得调 API，要么得前端+后端配合，要么用 Python 脚本处理本地文件。
 于是我在开发新功能前，会先在 GPT 那边问一下可行性、拿到实现思路，再到 Cursor 里告诉它“我要什么功能，按什么思路做”。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9c4c749c24ca336d349024ff03f22d0d.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4d6b2fe41df162adaf3184f52464d239.png>
+![](img/zhuanqian_9c4c749c24ca336d349024ff03f22d0d.png)
+![](img/zhuanqian_4d6b2fe41df162adaf3184f52464d239.png)
 比如想实现在左侧栏点某个选项、右侧出现不同类别的效果？直接在 Cursor 里说就行。指令要敢用，要灵活用——Cursor 确实很强，而且它下一步还会主动给你优化建议，帮你把网站做得更像样。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4df0cafeb45622d1b99c2df2d52e8c0b.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_412c0647828394d0b18c2a87c33c33b8.png>
+![](img/zhuanqian_4df0cafeb45622d1b99c2df2d52e8c0b.png)
+![](img/zhuanqian_412c0647828394d0b18c2a87c33c33b8.png)
 就这样，绝大多数界面型功能都完成了。前后花了将近两天，30 多个功能已经落地。我本来是想全部照搬复刻的，但“后端”这块我是真没碰过。有些功能光靠前端没法做，也就是前面提到的：调 API、前后端结合、或本地 Python 处理，我目前先把能靠前端实现的部分全做了。
 那这些功能做完之后，怎么让别人能访问到？
 这里有一个便捷方案——2023 年初那阵子 GPT 镜像特别火，我当时就试过在 GitHub 上拿代码上传到 Vercel 部署，所以这次可以照搬这个经验。接下来手把手走一遍：
 ## 2.2 注册 GitHub 并上传文件
 先去 GitHub：https://github.com/
 记住一点：得挂🪜才能正常访问使用。不挂也有办法，嫌麻烦的可以去 B 站搜教程；但我是真心建议你备一个——都打算做海外站了，🪜就是最基础的基础。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a446d568fe233d16b57ff859c2d598ac.png>
+![](img/zhuanqian_a446d568fe233d16b57ff859c2d598ac.png)
 没注册的，直接点击注册即可。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9ec7a2707572f0248b48976445742351.png>
+![](img/zhuanqian_9ec7a2707572f0248b48976445742351.png)
 填好你想要的账号密码信息：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9ee5d0ee0d4d4970fc23b25ff18cb3d3.png>
+![](img/zhuanqian_9ee5d0ee0d4d4970fc23b25ff18cb3d3.png)
 去邮箱收件箱完成认证：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_56d5fe0ff8c233012e4fa6ffb6c23bc0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_617c0fa94d55a12b25af5ba2e6ae2ae6.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3daf6742461e128a988ecc494ec5a347.png>
+![](img/zhuanqian_56d5fe0ff8c233012e4fa6ffb6c23bc0.png)
+![](img/zhuanqian_617c0fa94d55a12b25af5ba2e6ae2ae6.png)
+![](img/zhuanqian_3daf6742461e128a988ecc494ec5a347.png)
 注册好并登录后，点击“创建项目”：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_105b50d186d0e37494fee23b51d554ec.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_71409e23bce2a017a19019c3caa68570.png>
+![](img/zhuanqian_105b50d186d0e37494fee23b51d554ec.png)
+![](img/zhuanqian_71409e23bce2a017a19019c3caa68570.png)
 然后选择“上传文件”：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2d1b03def5ecd97faaf0006eb925e518.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_60f83ea084ad1ed05fd8485c454a0df2.png>
+![](img/zhuanqian_2d1b03def5ecd97faaf0006eb925e518.png)
+![](img/zhuanqian_60f83ea084ad1ed05fd8485c454a0df2.png)
 把刚才 Cursor 生成的这些文件，全部拖进 GitHub 仓库里：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_504785b3e68848e7b23ce505a238db8a.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_51676562a514db99100a1f2531ba2e3b.png>
+![](img/zhuanqian_504785b3e68848e7b23ce505a238db8a.png)
+![](img/zhuanqian_51676562a514db99100a1f2531ba2e3b.png)
 上传成功、看到多出来的这些文件，就说明仓库这步完成了。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d9a7e4f0c094605eaa3a1b47ccc81811.png>
+![](img/zhuanqian_d9a7e4f0c094605eaa3a1b47ccc81811.png)
 ## 2.3 部署到 Vercel
 打开 Vercel 官网：https://vercel.com/login
 它和 GitHub 不一样，不用额外注册——直接用 GitHub 账号登录就行：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a720a43b401a584272d4fde675802f49.png>
+![](img/zhuanqian_a720a43b401a584272d4fde675802f49.png)
 进来之后，点击“添加项目”：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_98f93f6ac3ab35e32219c56b5b211417.png>
+![](img/zhuanqian_98f93f6ac3ab35e32219c56b5b211417.png)
 把你刚才建好的 GitHub 项目找出来，点“Import”进来，再点“Deploy”开始部署即可：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_45c21c049aab0a1ff790bedd85623ce4.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9aeda12370a23819edd599cc84017551.png>
+![](img/zhuanqian_45c21c049aab0a1ff790bedd85623ce4.png)
+![](img/zhuanqian_9aeda12370a23819edd599cc84017551.png)
 弹出这个界面就表示部署成功了。点击“Continue to Dashboard”：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5352c8668c9844a50ce11c0c94f37b79.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_87ce76e889349a85229b7bb75a24e538.png>
+![](img/zhuanqian_5352c8668c9844a50ce11c0c94f37b79.png)
+![](img/zhuanqian_87ce76e889349a85229b7bb75a24e538.png)
 打开生成地址，网站已经能正常访问：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c4f072df1d1b7c950714c250fdb26605.png>
+![](img/zhuanqian_c4f072df1d1b7c950714c250fdb26605.png)
 到这一步其实已经可以发给用户体验了——就是域名太丑，一串随机字母让人记不住。正经运营的话，得弄一个好记又顺口的域名。继续，安排！
 我推荐小白直接用腾讯云，跟着走就行，大神请随意。
 ## 2.4 绑定自己的域名，正式上线
 打开腾讯云官网：https://cloud.tencent.com/，建议微信扫码登录：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_015d24134a4b80fb0aa1eef3ef1422ed.png>
+![](img/zhuanqian_015d24134a4b80fb0aa1eef3ef1422ed.png)
 如果是第一次用、还没实名认证，先按流程完成实名：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8b2e9f998caf9b1713e65a4a049c6056.png>
+![](img/zhuanqian_8b2e9f998caf9b1713e65a4a049c6056.png)
 实名完大概是这个画面，接下来就可以买域名了：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e060372f80efa52d2948c091af1db526.png>
+![](img/zhuanqian_e060372f80efa52d2948c091af1db526.png)
 回腾讯云首页搜“域名”：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_43779f7bef3e52a92736396261f3ba6c.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a10c0119561bef874e47622ace6c20fc.png>
+![](img/zhuanqian_43779f7bef3e52a92736396261f3ba6c.png)
+![](img/zhuanqian_a10c0119561bef874e47622ace6c20fc.png)
 然后点击“立即注册”，输入你想要的域名，比如我选的是：shuchong888。后缀也能自己挑，价格差别很大，我选了 top，便宜够用就行，以后需要再换：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_900511125c546f0d132969dee1358588.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7a183da6cac598e69990c6eb256e1585.png>
+![](img/zhuanqian_900511125c546f0d132969dee1358588.png)
+![](img/zhuanqian_7a183da6cac598e69990c6eb256e1585.png)
 确认好后，加入购物车，下单、支付：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3b5c0e10fbfae560acf2a000967a8e71.png>
+![](img/zhuanqian_3b5c0e10fbfae560acf2a000967a8e71.png)
 接着访问：https://www.dnspod.cn/，解析域名要用到它。用微信登录即可，和腾讯云是一家的。进入“管理控制台” → “我的域名”→ 解析：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8bbbf7bc99500fe23e176b798e9f7509.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_309a28d0edf56ded7a98f57f6bdbdea3.png>
+![](img/zhuanqian_8bbbf7bc99500fe23e176b798e9f7509.png)
+![](img/zhuanqian_309a28d0edf56ded7a98f57f6bdbdea3.png)
 同时回到 Vercel：进入“Settings” → “Domains”：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_901c1c250b35ee22f19cfd2490afb32e.png>
+![](img/zhuanqian_901c1c250b35ee22f19cfd2490afb32e.png)
 点“添加域名”以后，会出现两条需要解析的数据记录：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_573d349b5738cf16996c81585735c140.png>
+![](img/zhuanqian_573d349b5738cf16996c81585735c140.png)
 再回到腾讯云解析页面，点击“添加记录”，把 Vercel 给的两条记录照抄填进去：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_31a4b53bbcc7fc94f268f85f284ad9b3.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7766bbf572585c3e6c913685d4970c36.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_81b005ac530cddc22d27dd4a71ca393d.png>
+![](img/zhuanqian_31a4b53bbcc7fc94f268f85f284ad9b3.png)
+![](img/zhuanqian_7766bbf572585c3e6c913685d4970c36.png)
+![](img/zhuanqian_81b005ac530cddc22d27dd4a71ca393d.png)
 填充完毕，大概等十分钟左右，你的专属域名就能顺利打开网站了。
 我的最终地址是：https://www.shuchong888.top/
 优点：免费托管，只花域名钱，服务器钱全省了；缺点：确实有点慢，毕竟是 Vercel 免费版。
 如果你问我的第一款产品算不算做完了——我的答案是：算。哪怕它还相当初级、很多功能并未完善，但“从 0 到 1”的全流程我已经完整走通：从做网站到上线发布，每一步都亲测有效。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fff4c858572632e8abb6fc7b0c1da675.png>
+![](img/zhuanqian_fff4c858572632e8abb6fc7b0c1da675.png)
 ## 2.5 两天高效交付，一行代码没写
 开发期间我开了 Cursor 会员，两天里用掉 290 次快速请求配额，整个网站就完成了。真的，这个网站没有手写一行代码，全靠 Cursor。这件事本身就说明它的可行性有多高。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d3bf016ed81efd8cc036e52c11648929.png>
+![](img/zhuanqian_d3bf016ed81efd8cc036e52c11648929.png)
 关于接下来：我打算在这款产品上，把当初剩下那些功能继续补齐。但我也想说句实话——有些东西光靠纯前端，真的做不出来。所以我下一步得好好补一补后端怎么玩，或者研究直接调 API。搞完了还是挂在这个域名上。顺利的话，应该还会再写一篇完整记录：从 0 到 1 做产品，究竟要走每一步。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e75b293eeb41312aaf1724495243fdd7.png>
+![](img/zhuanqian_e75b293eeb41312aaf1724495243fdd7.png)
 如果你觉得有哪个功能特别值得开发、现在又没人做得好的，可以评论区留言，我尽量把需求记录下来，之后逐个去捣鼓。
 目前这个产品是完全免费使用的。定个标准：没有把我那款 298 元的工具复刻到 95% 的体验之前，我不会碰收费。真等哪天功能做得比它还顺手，而且我有能力把后端、用户登录、支付通道都打通了，再考虑商业化也不迟。
 # 三、用 Cursor 能做哪些事来变现？
@@ -139,8 +139,8 @@
 我加了大量 AI 交流群，但说实话，经常看到有人报出各种数据，我心里是打问号的：这些账号到底拿去做啥了？真能赚钱吗？带着这个疑问做了些调研，也和懂行的朋友深聊过几轮，才摸到关键门道。
 举个例子：有一款音乐生成工具，官网是 suno.com。你看到的 sunoai-music.com 其实只是个镜像站。做这个镜像的原理并不复杂：先在官网注册、充值会员，通过逆向手段拿到它的 API，再接入到自己的镜像网站里，就大功告成了。
 而且这个镜像做得非常精致：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9711ff06180c11ddfd0cc9756717d6e1.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bcde29159a71a2d5f3e1dde1bf737cfc.png>
+![](img/zhuanqian_9711ff06180c11ddfd0cc9756717d6e1.png)
+![](img/zhuanqian_bcde29159a71a2d5f3e1dde1bf737cfc.png)
 关键是镜像站的价格还能更便宜——中间自然就留出了一大块利润空间。功能一模一样，但正版贵的用户，很可能精准地被引到这边来。再加上它的 SEO 做得极好，搜索结果紧挨着官网，甚至就排在第一页的显眼位置。
 当然，Suno 只是一个代表。类似的还有：AI 绘画、AI 视频，以及最基础的 AI 对话类产品（ChatGPT、Claude 的镜像站），都属于同一种模式。
 这条路的想象空间，可能比很多“看得见”的还大——只要敢尝试，工具就在手边，剩下的，全是执行。

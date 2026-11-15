@@ -1,6 +1,6 @@
 # 用一套通用提示词模板，AI一键生成7类高质HTML：从PPT到交互组件
 Claude 3.7 在审美把握、SVG 绘制以及在线配图能力上的跃升，让近期涌现的 HTML 创作案例异常活跃。可问题也随之而来：每个示例的指令都繁复冗长，仿佛要反复打磨，且不同品类的 HTML 指令各不相同，学习成本很高。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_74b8656957f24d571e54a8c3b5a0bff1.png>
+![](img/zhuanqian_74b8656957f24d571e54a8c3b5a0bff1.png)
 这张海报也是本次模板的产出。
 于是我花了大半天把即刻、公众号等平台上走红的 HTML 案例收集下来拆解，消耗了不少额度，最终归纳出下面这套通用指令框架。用它便能产出精致的演示文稿、求职简历、个人名片、高保真原型、知识点卡片、动态交互模块等各类网页应用。
 为何偏爱 HTML？
@@ -157,7 +157,7 @@ Claude 3.7 在审美把握、SVG 绘制以及在线配图能力上的跃升，�
 ## 正确打开方式：让模型为你写指令
 这套框架并非直接套用，而是用来让 AI 生成专属指令的“指令”。
 例如近期为朋友做站，我把框架交给模型并输入朋友的需求描述，模型立刻输出了一份新指令。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_729ce6e43e945109cfee82a105e48864.png>
+![](img/zhuanqian_729ce6e43e945109cfee82a105e48864.png)
 随后用这份新指令在 Claude 中生成 HTML，效率提升明显。
 想把 HTML 做得好看，仍需实践：
 1. 由简入繁：从小型项目入手，理解各模块作用
@@ -169,10 +169,10 @@ Claude 3.7 在审美把握、SVG 绘制以及在线配图能力上的跃升，�
 我用该框架生成了演示文稿、数据报告、高保真原型、知识卡片、名片，直接可用。
 ### 生成演示文稿
 要讲“快速入门 Cursor”，不再手写 PPT，输入指令后即可得到可用的演示稿：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_897198d7d9e7cca4db223c3048e5b861.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0626f15ddac3b56f04ad0ad1e60d04b8.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e26315ca07d515c6ea0bae611711704e.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d4e84c37e6fd3f70e7d9b633301dd392.png>
+![](img/zhuanqian_897198d7d9e7cca4db223c3048e5b861.png)
+![](img/zhuanqian_0626f15ddac3b56f04ad0ad1e60d04b8.png)
+![](img/zhuanqian_e26315ca07d515c6ea0bae611711704e.png)
+![](img/zhuanqian_d4e84c37e6fd3f70e7d9b633301dd392.png)
 PPT 指令：
 ```
 # 角色：演示设计专家
@@ -213,8 +213,8 @@ PPT 指令：
 阅读长文时常遇到不匹配或读不下去的问题，可让 AI 将文章转为精美卡片。
 我把 DataFun 的直播稿《终于有人讲透了用户分析方法论》喂给模型：
 原文：https://mp.weixin.qq.com/s/xBNUYPPqnVTyI0NkbTtUWg
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_72ab5e33a3fc01abfb4161c822ad95da.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_30621fde1eda6605cbc38514337ea9d9.png>
+![](img/zhuanqian_72ab5e33a3fc01abfb4161c822ad95da.png)
+![](img/zhuanqian_30621fde1eda6605cbc38514337ea9d9.png)
 知识卡片指令：
 ```
 # 角色：概念卡片设计师
@@ -253,7 +253,7 @@ PPT 指令：
 ```
 ### 可打印简历
 求职时无需找模板调格式，输入指令即可得到规范美观的简历：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6ea20ed5b0664a7b8f5444f48be2f6ce.png>
+![](img/zhuanqian_6ea20ed5b0664a7b8f5444f48be2f6ce.png)
 简历指令：
 ```
 # 角色：简历设计专家
@@ -291,9 +291,9 @@ PPT 指令：
 ```
 ### 数据分析报告
 现在我已很少做 PPT，直接为业务方生成结构清晰的 HTML 页面，阅读体验更好：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b0c7eefc6f9f38db303f35808796b4a3.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4ff4ccdb18063ec32e0bb3937b8df72a.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_77616e30b95d67d9b3c1fb36f5a595aa.png>
+![](img/zhuanqian_b0c7eefc6f9f38db303f35808796b4a3.png)
+![](img/zhuanqian_4ff4ccdb18063ec32e0bb3937b8df72a.png)
+![](img/zhuanqian_77616e30b95d67d9b3c1fb36f5a595aa.png)
 关于数据分析报告的提示词：
 ```
 # 角色：数据可视化专家
@@ -332,7 +332,7 @@ PPT 指令：
 - 确保图表颜色对色盲用户友好
 ```
 ### 分享个性名片
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ca4ca7671aae0b16262f41fb81ddc501.png>
+![](img/zhuanqian_ca4ca7671aae0b16262f41fb81ddc501.png)
 个人名片提示词：
 ```
 # 角色：数字名片设计师
@@ -373,7 +373,7 @@ PPT 指令：
 ```
 ### 高保真原型UI
 小红书刷到一款很魔性的健康类App「一起拉屎」，我立马让AI用这套方法生成了一整套界面原型：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_27b2defc259dd5881f046b30f5412549.png>
+![](img/zhuanqian_27b2defc259dd5881f046b30f5412549.png)
 高保真原型UI提示词：
 ```
 # 角色：交互设计专家
@@ -414,7 +414,7 @@ PPT 指令：
 ### 动态互动组件
 这部分是真正吃透了HTML的优势，特别适合做教学类场景。之前分享过的就是把高中物理里难以理解的抽象概念，用动画的方式具象化。
 下面我直接演示了一个雷雨场景的模拟效果：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_13a10a0dfbd46304ffc636c757f3ad17.png>
+![](img/zhuanqian_13a10a0dfbd46304ffc636c757f3ad17.png)
 动态互动提示词：
 ```
 # 角色：UI交互设计师

@@ -1,8 +1,8 @@
 # 【YouTube新人进阶指南】30天拿下千万Shorts播放，快速达成高级YPP
 大家好，我是龙哥，一个YouTube新人。刚结束航海的第二天，我的第23支作品就破了千万播放，目前累计播放已超六千万，订阅突破五万。
 此前我在平台发过一篇入门帖：https://scys.com/articleDetail/xq_topic/5125442228188414 本来想等到百万播放再发，却没拿到精华，有些遗憾。现在回头看，那阶段做的确实还不成熟。所以这次推出进阶版——从0到1如何做出百万甚至千万级的爆款。本篇在旧文基础上做了大量补充完善，思路更完整，不用再回头翻。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_31e9d774c4911b33b606d09fb0746489.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_018aa0bda99b5b926a2783a565cfcc47.png>
+![](img/zhuanqian_31e9d774c4911b33b606d09fb0746489.png)
+![](img/zhuanqian_018aa0bda99b5b926a2783a565cfcc47.png)
 # 一、开场说点实在话
 表面看，我只用了25天，发出23条短视频，其中一条就冲到六千多万播放，效率好像很高对吧？
 实际上背后是我对一个一级细分赛道做了深度迭代，并挖掘出十几个以上的二级细分赛道，每个三级赛道基本都是迭代后才发布的作品。本篇我先讲操作，再谈感悟，希望能给你一些启发。
@@ -21,7 +21,7 @@
 1.多开几个号刷Shorts，专门找自己看了会爽、做完会觉得愉快的视频。
 2.点进视频下方的标签，一个个进去看，同类爆款是否稀少，越少越蓝海。
 3.看到喜欢的就点赞订阅，系统会继续推同类。如果发现这类内容最近持续爆，播放高但数量少，很可能就是方向。几个账号一起刷，能筛出几条感兴趣的方向，最后选一个最优的下手。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_785281cf2b08a7879ef34e76d4271363.png>
+![](img/zhuanqian_785281cf2b08a7879ef34e76d4271363.png)
 总结一句话：同类少、订阅多、播放高、自己喜欢。
 # 二、拆解爆款
 拆解利器我用的是Google AI Studio：https://aistudio.google.com/
@@ -31,15 +31,15 @@
 ## 1.用GAS做对标频道的整体画像
 GAS一次可上传十个视频，操作很简单，直接把对标频道的爆款视频链接复制进来粘贴就行。记住，链接塞得越多，分析越全面。
 注意点是历史最多只能保留十个视频，但你可以在对话里把多余的删掉继续上传，之前的记忆还在。这个技巧非常好用。但别超过十个，否则会报internal error，删掉就正常了。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cd7f8f1f337c68e5dad2f4f7742874df.png>
+![](img/zhuanqian_cd7f8f1f337c68e5dad2f4f7742874df.png)
 上图是我拆解一支视频的做法，把对标账号播放120万以上的视频全部丢进GAS分析，一个对话大概能吃20w Token。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_dfb7db5d183c5b6a69fe868ebbc759bf.png>
+![](img/zhuanqian_dfb7db5d183c5b6a69fe868ebbc759bf.png)
 这样就能清晰知道这个爆款频道的核心内容是什么，用什么方式制作。
 GAS会把细节掰开揉碎讲给你听。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_88073efe747c92bef02bf45f7b50a265.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c70c2c0f895484ba38ecd1a7df2a2572.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4466508de7de573d9ad4bf99482bddf5.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_499dac28b5d150b16e9e65d44c82087a.png>
+![](img/zhuanqian_88073efe747c92bef02bf45f7b50a265.png)
+![](img/zhuanqian_c70c2c0f895484ba38ecd1a7df2a2572.png)
+![](img/zhuanqian_4466508de7de573d9ad4bf99482bddf5.png)
+![](img/zhuanqian_499dac28b5d150b16e9e65d44c82087a.png)
 做完这一轮，这个频道讲什么、为什么火、用了哪些套路，就基本摸透了。
 ## 2.对照自身能否胜任
 再去看对标的爆款，注意每个细节：内容脚本、音效、BGM、转场、滤镜、特效，看自己能不能复现。如果做不到但又很想做，就把视频丢给GAS，让它告诉你某一段用了什么技术、怎么实现的。看得懂GAS的解释，就说明你能做。能力都是做出来的，敢下场才有成长。No what, no why, just how to do it！
@@ -71,7 +71,7 @@ GAS给出的提示词往往太简，元素不足，需要优化。比如：
 ### 2）即梦批量出图
 参考李澹归老师另一篇帖子https://scys.com/articleDetail/xq_topic/2852211242585521 我补充几点注意：
 1.每次重登必须重新点“添加账号”
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0bb2514dceec89e28f0c7771aee5f6a0.png>
+![](img/zhuanqian_0bb2514dceec89e28f0c7771aee5f6a0.png)
 2.有时候页面显示空白，不用重生，图片其实在网页端即梦里已经生成了。
 ### 3）付费批量工具
 有需要可以试Chrome插件：AutoGPT，支持GPT/即梦/MJ等自动批量出图。官方文档：https://www.yuque.com/autojourney/docs/pkil2i72vcqfweld
@@ -87,19 +87,19 @@ GAS给出的提示词往往太简，元素不足，需要优化。比如：
 https://online.niuxuezhang.cn/online-photo-watermark-remover/detail/
 https://www.arkthinker.com/zh/watermark-remover/
 缺点是一次只能处理一张，可同时开两个用。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1e9ca4d9d5c5678b5953846d4e745fb2.png>
+![](img/zhuanqian_1e9ca4d9d5c5678b5953846d4e745fb2.png)
 ## 4.人物一致性
 我用即梦做的是山海经主题，主体无一致性要求。但故事类通常需要稳定的人物。
 我试过很多工具，结论是：
 不充MJ的前提下，最佳选择是GPT和Runway。
 把主体参考图上传，让它以此为主体去生成对应提示词的画面即可。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3b135ad6e1bea62fc268d059e47b97a1.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_54287fc8790f5d3b67e9c70f4d83e6b9.png>
+![](img/zhuanqian_3b135ad6e1bea62fc268d059e47b97a1.png)
+![](img/zhuanqian_54287fc8790f5d3b67e9c70f4d83e6b9.png)
 GPT单号生成量有限，Runway单次消耗积分较高，免费玩法就多开号，不差钱就用Auto工具加速。
 # 四、图生视频
 ## 1.图生视频提示词
 这里很多人会犯错，在生图时就顺手写了图生视频提示词，其实这样不准。正确做法是等所有图片齐了，再统一丢回GAS，让它根据图片顺序和故事生成提示词。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d54a8078a8837eb8ac5a348750765642.png>
+![](img/zhuanqian_d54a8078a8837eb8ac5a348750765642.png)
 因为我之前已喂过提示词，所以这里不再重复。我的常用提示词是：
 你先给这些图片进行排序，然后根据故事内容给出最合适的用即梦图生视频的提示词（提示词要求如下：运镜方式【拉进、拉远、左推摇镜、环绕运镜、跟随运镜等等】+人物或主体的动作+人物的表情【所有的人物可以指动物主体】，所有的提示词都要连贯的用一句话输出，不要有非必要的形容词
 ## 2.图生视频平台
@@ -107,7 +107,7 @@ GPT单号生成量有限，Runway单次消耗积分较高，免费玩法就多�
 综合排名：海螺>可灵>即梦>智谱清言/豆包
 即梦Pro模型贵且效果一般，不推荐。即梦的音乐生成现在免费，一个视频可配三段音效，很香。
 多薅海螺的羊毛，性价比最高。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e5672963056851cd34979e950e6b4a92.png>
+![](img/zhuanqian_e5672963056851cd34979e950e6b4a92.png)
 白嫖党也能玩得很开心。
 # 五、剪辑
 ## 1.GAS辅助剪辑
@@ -115,13 +115,13 @@ GPT单号生成量有限，Runway单次消耗积分较高，免费玩法就多�
 ## 2.音效搭配
 动物类视频没有字幕，音效占成败的30%。找不到合适的音效时：
 1）丢链接给GAS，让它分析并推荐音效名称，再去剪映搜索，命中率高。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7735dc8febde3c2494a773eb775eb9e1.png>
+![](img/zhuanqian_7735dc8febde3c2494a773eb775eb9e1.png)
 2）去爱给网https://www.aigei.com/ 找免费商用音效，试听下载。
 ## 3.剪辑细节对齐
 剪完别自我感觉良好，去对比对标视频的转场、音效、色彩差异，逐项修正。
 # 六、复盘与提升
 别急着上传。把成品最后丢给GAS，让它对照对标爆款进行点评，找出不足再优化。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_229ff364fecc0c198b9ff5971bf979fd.png>
+![](img/zhuanqian_229ff364fecc0c198b9ff5971bf979fd.png)
 我的常用提示词：
 * * *
 除最后一只猫的素材外，封面上带有“2016 / 2021 / 2160”标识的片段，都是我自己制作的。其余部分参考了一个美国频道里的热门山海经风格作品，那些长视频的播放成绩普遍超过百万。我目前也是按照这个频道的创作方式进行学习。
@@ -133,19 +133,19 @@ GPT单号生成量有限，Runway单次消耗积分较高，免费玩法就多�
 最后还要检查细节：字幕有没有错字，字号是否易读，样式是否统一，片头片尾以及每一次衔接是否存在明显瑕疵。只有内容、画面、声音和细节彼此配合，作品才会显得完整，而不是“素材拼接”出来的成片。
 顺便说一下，上面这套评判维度的后半部分，是我让 Gemini 整理出来的长内容质量检查清单。如果大家感兴趣，之后可以单独分享。
 之后，GAS 给了我一批具体修改意见：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8a968bf0dc70d0b21a7bcff5612de54a.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_aa081b0fa4627eeb5344b4073ebf9d60.png>
+![](img/zhuanqian_8a968bf0dc70d0b21a7bcff5612de54a.png)
+![](img/zhuanqian_aa081b0fa4627eeb5344b4073ebf9d60.png)
 建议数量比较多，这里就不逐项贴出来了。我按照它的方向，在剪映中重新调整了一轮，最终得到第二个版本，之后才正式发布到 YouTube。
 这里提醒一下：如果只是为了让别人帮忙诊断成片，导出时用 480p、25fps 就足够了。诊断重点在内容、节奏和结构，不需要浪费时间等待高清文件上传。
 # 七、发布前的设置
 ## 1.导出参数
 诊断版可以直接采用我这组参数。分辨率不用追求太高，这个环节本身不会影响后续播放表现。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_127f79e8383178d3c12b7ee8eca1f7d2.png>
+![](img/zhuanqian_127f79e8383178d3c12b7ee8eca1f7d2.png)
 ## 2.标题与简介怎么处理
 ### 1）GAS
 标题承担着被发现的任务。加入更贴合搜索习惯的关键词，用户在检索相关内容时，更容易看到你的作品。
 简介的作用不完全一样。它未必直接带来搜索流量，但如果把故事背景、剧情脉络或观看重点交代清楚，观众理解内容后，互动意愿可能会更高。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_30e32643a8e3e4ba46d4df228f3a1bee.png>
+![](img/zhuanqian_30e32643a8e3e4ba46d4df228f3a1bee.png)
 ### 2）参考同类作品，再做轻量调整
 可以先观察同类型高表现作品的标题、简介、标签和表情符号是怎样组合的，再按照相近的表达逻辑搭建自己的版本。主体信息不要随意改动，交给 AI 做语言润色即可。
 我平时使用豆包插件，直接在网页端操作比较方便。具体步骤可以参考这篇内容：
@@ -162,11 +162,11 @@ https://scys.com/articleDetail/xq_topic/8852484828841522
 https://scys.com/articleDetail/xq_topic/8852484828841522
 ## 1.怎样保存参考视频
 下面是一个参考作品的页面：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fc58a1d1d85ed66dc80a116d0bee817b.png>
+![](img/zhuanqian_fc58a1d1d85ed66dc80a116d0bee817b.png)
 先点击顶部地址栏。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_674cc4b7f92798a8c450f4429ad016dc.png>
+![](img/zhuanqian_674cc4b7f92798a8c450f4429ad016dc.png)
 把网址里的“ube”删除，再按回车。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e1bdd655cdd0f08eb90dd917e943c097.png>
+![](img/zhuanqian_e1bdd655cdd0f08eb90dd917e943c097.png)
 页面会出现下载入口，可以分别保存视频或提取声音。
 免费版本通常只能导出到 480p，音频上限约为 128kbit/s；付费方案最高可到 8K，年付折算约 9 美元/月，月付约 12 美元/月，更适合长期大量使用的人。如果只是拿来提取旁白或背景音乐，免费规格一般已经够用。
 如果对超高清没有要求，也可以试试：
@@ -174,23 +174,23 @@ https://tiqu.cc/
 至于去除水印等操作，前文已经提到，这里就不重复展开。
 ## 2.用 Canva 设计缩略图和画面素材
 长内容的缩略图值得单独打磨。比如下面这张：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5db7372c89d355a318ed9182e2c0612f.png>
+![](img/zhuanqian_5db7372c89d355a318ed9182e2c0612f.png)
 它就是我用 Canva 重新整理出来的。
 我的做法是先生成一张 16:9 的画面，再用即梦进行扩图，改成 9:16 时记得开启超清。之后在闲鱼购买一个 Canva 会员，就可以直接套用相关的 YouTube 缩略图模板：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3d2b4a601fb0994795a9c3fbd5a023e6.png>
+![](img/zhuanqian_3d2b4a601fb0994795a9c3fbd5a023e6.png)
 接下来把前面生成的图拖进画布，调整位置、大小和层级，最后导出高清文件即可。
 ## 3.Canva 也能参与视频内容制作
 除了缩略图，Canva 还可以用来制作视频中的道具画面。
 比如我之前那段“熊猫最后的回忆”里，出现过一张信件：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_68312f5c78a9175b58adb1b7619d9d79.png>
+![](img/zhuanqian_68312f5c78a9175b58adb1b7619d9d79.png)
 这张信也是在 Canva 中完成的。找一个牛皮纸风格的模板，替换文字并加入英文内容，就能做出类似效果。剪辑时再配合关键帧，让信件产生移动、推进或轻微变化，画面就会更有生命力。
 # 九、根据数据持续调整
 每天最好抽时间回看前一天的表现，手机端和电脑端都可以操作。现阶段我主要关注以下三类数据：
 1. **继续观看**：这是判断留存的重要指标。播放成绩特别高的作品，往往能维持较好的观看比例。我会重点寻找观众明显流失的时间点，再回头检查那里的叙事、画面或节奏。
 2. **热门地区**：不同地区的观众会影响收益结构。大规模传播时出现印度等地区的流量很常见，没有必要过度规避。
 3. **观看次数**：它能帮助判断作品整体的触达情况，和前两项结合起来看更有意义。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b581d876986972b8f8c46935fb2e901b.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_05c695fb73be3b7ecb0311e1a38ddace.png>
+![](img/zhuanqian_b581d876986972b8f8c46935fb2e901b.png)
+![](img/zhuanqian_05c695fb73be3b7ecb0311e1a38ddace.png)
 不用把后台所有指标都研究一遍，先围绕这几项建立自己的复盘习惯：找到问题、记录原因、修改下一条作品，再观察结果。
 # 十、关于频道成长的一些认识
 ## 1.不要只盯着单条作品
@@ -250,7 +250,7 @@ https://www.youtube.com/@Meow0786
 大家好，我是逸尘，今年十八岁，亏了五位数。
 那时的我，几乎没有积累。
 现在：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_52564726321b3228b85c63e7711bae0f.png>
+![](img/zhuanqian_52564726321b3228b85c63e7711bae0f.png)
 自我介绍：
 【微信昵称】逸尘
 【所在地区】重庆渝北
@@ -262,7 +262,7 @@ https://www.youtube.com/@Meow0786
 实际上，我现在掌握的东西远不止这些，这里就不逐项列举了。
 赚钱给我的收获，早已超过最初购买门票的金额。
 我也曾在朋友圈给自己立下一个目标：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_82ff4afbce8e386e73557c35c7b59f6d.png>
+![](img/zhuanqian_82ff4afbce8e386e73557c35c7b59f6d.png)
 再说说它带给我的几种变化。
 ## 1.看见更大的世界
 如果没有这段经历，我可能会沿着一条相对稳定的路径走下去。也许未来某个时刻我仍然会改变，但大概率不会这么快。

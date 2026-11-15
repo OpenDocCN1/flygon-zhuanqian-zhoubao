@@ -8,7 +8,7 @@
 以 AI 内容为例，只要掌握了正确的方法，即使没有专门老师带，也可以通过研究已有爆款，快速摸清内容模式。
 这里最重要的工具之一，就是 Google AI Studio，以下简称 GAS。
 关于它的基础界面和功能，可以参考其他创作者整理的教程，我这里就不重复展开了。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4c4a42804e598bbdc6c3ce5cf268a191.png>
+![](img/zhuanqian_4c4a42804e598bbdc6c3ce5cf268a191.png)
 ## 2.批量导入爆款视频进行分析
 GAS 支持一次添加多个视频。最简单的方式，就是把目标频道中表现最好的视频链接集中复制下来，再粘贴到对话框里。
 建议尽量多放一些样本。参考视频越丰富，GAS 能够提炼出的规律就越完整，包括：
@@ -21,15 +21,15 @@ GAS 支持一次添加多个视频。最简单的方式，就是把目标频道�
 目前一次最多可以保留十个视频。不过，这个限制并不代表只能分析十条。
 如果已经达到上限，可以在后续对话中删除部分旧视频，再继续加入新的素材。之前的聊天记忆通常仍会保留，因此可以分批完成分析。
 但要注意，历史记录里的视频数量不能超过十个，否则可能出现 internal error。遇到这种情况，删除多余视频后，通常就能继续使用。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c97c3ad08de3ab6f6d5d37946a8869bb.png>
+![](img/zhuanqian_c97c3ad08de3ab6f6d5d37946a8869bb.png)
 我这次制作的视频，就是把目标账号中播放量超过 120 万的作品，集中交给 GAS 进行分析。单个对话大约会消耗 20 万 Token，因此素材越多，分析结果也会越细致。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0791293585a75037b97f471d5ee4c44d.png>
+![](img/zhuanqian_0791293585a75037b97f471d5ee4c44d.png)
 经过这一步，你可以基本弄清楚一个爆款频道究竟在讲什么、为什么能够吸引观众，以及如果自己想做类似内容，应当采用什么制作路径。
 GAS 通常会把内容拆得非常具体，从整体框架到具体执行方式，都会给出相应建议。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_28fbadc4d2939b3f4b16b1c86fe84685.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1ae52d3540a8916c106f2bcf77655429.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fb2cb16f46f4f1f7939199d2d7fc0f3c.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6c69bdbfba6f3752c49bd93c8561025f.png>
+![](img/zhuanqian_28fbadc4d2939b3f4b16b1c86fe84685.png)
+![](img/zhuanqian_1ae52d3540a8916c106f2bcf77655429.png)
+![](img/zhuanqian_fb2cb16f46f4f1f7939199d2d7fc0f3c.png)
+![](img/zhuanqian_6c69bdbfba6f3752c49bd93c8561025f.png)
 当你确认这个方向在自己的能力和工具范围内可以完成，就可以进入下一步。
 # 二、先定故事，再开始制作
 ## 1.让 GAS 根据对标内容帮你构思
@@ -41,7 +41,7 @@ GAS 已经记住了前面的视频内容和分析结果，这时可以把自己�
 请给出三个具有明显差异、足够怪异且具备传播潜力的故事方案，让我进行选择或修改。
 如果第一次生成的内容不理想，可以继续补充自己的限制条件，让 GAS 重新设计。但有一个原则不能忘：不要完全脱离目标爆款的内容逻辑，不能变成毫无关联的自由创作。
 最后，通常可以让它把故事整理成一段简短的剧情概述。这个阶段非常关键，因为后续所有镜头、图片和视频，都会建立在这个故事之上。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a280ae6a4bad9533b056ef9261aabd40.png>
+![](img/zhuanqian_a280ae6a4bad9533b056ef9261aabd40.png)
 ## 2.前三秒和前十秒，决定观众是否留下
 短视频也好，长视频也好，开头都是最需要投入精力的地方。
 前三秒负责让观众停下来，前十秒则决定观众是否继续看。因此，开头不能慢慢铺垫，而要尽快呈现反常、奇特、有冲击力的画面或情节。
@@ -51,8 +51,8 @@ GAS 已经记住了前面的视频内容和分析结果，这时可以把自己�
 - 观众难以预料的场景
 - 直接抛出冲突或悬念
 下面这两幕之所以有吸引力，就是因为它们一开始就展示了不常见的主体和环境，观众不需要等很久，就能意识到“这里有故事”。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_52eca5e9ab2c1a92735ecca899515b55.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_edb654d95f6e96d41367171588371fa2.png>
+![](img/zhuanqian_52eca5e9ab2c1a92735ecca899515b55.png)
+![](img/zhuanqian_edb654d95f6e96d41367171588371fa2.png)
 # 三、用 GAS 设计文生图分镜
 故事确认后，就要把它拆分成一个个静态镜头。
 这一步建议继续参考目标频道，让 GAS 帮你分析：
@@ -73,7 +73,7 @@ GAS 已经记住了前面的视频内容和分析结果，这时可以把自己�
 6. **光影 Lighting**：光线来源、色调、氛围以及明暗关系。
 7. **参数 Parameters**：清晰度、画面比例、细节质量等要求。
 提示词可以要求中英文同时生成，并且直接输出为一整段，方便复制到生图工具中使用。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cf0b5861b26a4cf5458834a5997f4f21.png>
+![](img/zhuanqian_cf0b5861b26a4cf5458834a5997f4f21.png)
 ## 2.保持角色、场景和画面逻辑稳定
 分镜提示词中，有几个细节非常容易被忽略。
 ### 角色描述必须重复
@@ -106,13 +106,13 @@ GAS 已经记住了前面的视频内容和分析结果，这时可以把自己�
 https://www.yuque.com/autojourney/docs/pkil2i72vcqfweld
 Chrome 商店可以搜索：AutoGPT
 即梦生图我使用的是会员功能，通常建议选择一积分的标清模式。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5771d50ac2611699cf3479dad380a35a.png>
+![](img/zhuanqian_5771d50ac2611699cf3479dad380a35a.png)
 如果对清晰度有更高要求，也可以使用超清功能，让画面更加锐利。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1fe25d259b4d73d7a72244735fe9a774.png>
+![](img/zhuanqian_1fe25d259b4d73d7a72244735fe9a774.png)
 ## 2.处理图片水印
 即使开通会员，即梦图片左上角仍可能保留“AI”水印，因此后续通常需要进行处理。
 这里推荐三个可以尝试的免费工具。如果对画质要求不高，可以使用 Google 商店中的插件，但它只能输出 720p，对我来说清晰度不够理想。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e6a739f2eab5c7429a301b3db98e4d9f.png>
+![](img/zhuanqian_e6a739f2eab5c7429a301b3db98e4d9f.png)
 下面两个工具的画质相对稳定：
 - https://online.niuxuezhang.cn/online-photo-watermark-remover/detail/
 - https://www.arkthinker.com/zh/watermark-remover/
@@ -125,8 +125,8 @@ Chrome 商店可以搜索：AutoGPT
 2. Runway
 这两个工具在角色参考方面表现比较稳定。
 具体做法是，先上传一张确定好的角色参考图，再告诉工具：后续提示词中的主体，都要使用这张图中的角色。之后，再附上每个分镜的文生图描述。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1078df87a3ed3404fa42a678ba2f9623.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0f788430b5c7b72be5ec47ed5ed14f52.png>
+![](img/zhuanqian_1078df87a3ed3404fa42a678ba2f9623.png)
+![](img/zhuanqian_0f788430b5c7b72be5ec47ed5ed14f52.png)
 当然，这些工具也有使用限制。
 GPT 一个账号大约只能生成十张左右的图片；Runway 最高支持 1080p，但每次会消耗积分，720p 大约消耗 5 积分，1080p 大约消耗 8 积分。
 如果预算有限，只能多准备几个账号；如果不太在意成本，也可以结合前面提到的自动化工具，提高批量制作速度。
@@ -138,7 +138,7 @@ GPT 一个账号大约只能生成十张左右的图片；Runway 最高支持 10
 2. 把这些图片重新上传到 Google AI Studio
 3. 让 GAS 根据真实画面，逐张生成图生视频提示词
 4. 再把提示词交给图生视频工具制作
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9c81faaa10ec76fc7fae094cb5b159fa.png>
+![](img/zhuanqian_9c81faaa10ec76fc7fae094cb5b159fa.png)
 这样做的好处是，GAS 能够基于已经生成的画面设计动作，不容易出现提示词和实际图片不匹配的问题。
 ## 2.图生视频提示词需要包含哪些内容
 相比文生图，图生视频提示词除了描述画面，还必须说明时间变化、主体动作和镜头运动。
@@ -159,7 +159,7 @@ GPT 一个账号大约只能生成十张左右的图片；Runway 最高支持 10
 **可灵 > 即梦 > 智谱清言**
 即梦最近推出了 Pro 模型，单次需要 50 积分，我暂时还没有舍得尝试。但从模型定位来看，效果可能会进一步提升。
 即梦还有一个比较实用的新功能：可以自动生成音效。目前这个功能仍然比较友好，一条视频可以生成三个音效，对于不想额外购买音效素材的创作者来说很方便。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1d52301b2d59da808be2bca33edd65ba.png>
+![](img/zhuanqian_1d52301b2d59da808be2bca33edd65ba.png)
 # 六、剪辑阶段：让 GAS 也参与进来
 ## 1.用 GAS 学习复杂剪辑效果
 很多新手会把剪辑看成最难的一步，尤其是看到对标视频中的回忆片段、特殊转场和节奏效果时，往往不知道该如何复现。
@@ -171,7 +171,7 @@ GPT 一个账号大约只能生成十张左右的图片；Runway 最高支持 10
 因为画面中没有人物对话和字幕来解释情节，声音就承担了很大一部分叙事功能。合适的环境音、动作音和情绪音效，甚至可能影响视频最终效果的三成左右。
 但音效选择往往不容易。剪映音效库很大，却不一定知道该搜索什么关键词。
 这时候可以把视频片段或剧情描述交给 GAS，让它为每一个镜头推荐适合的音效类型和搜索名称。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bd21d8403ed7f1630c74853e941023f5.png>
+![](img/zhuanqian_bd21d8403ed7f1630c74853e941023f5.png)
 之后，只要按照它给出的关键词到剪映音效库中搜索，通常比自己盲目翻找更高效。
 # 七、发布前别急着上传，先做一次复盘
 视频剪完并不意味着制作结束。
@@ -186,7 +186,7 @@ GPT 一个账号大约只能生成十张左右的图片；Runway 最高支持 10
 - 转场是否自然
 - 情绪是否逐步推进
 - 结尾是否具有记忆点
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9de244ad6ff26c9cb9569fd83501a1c2.png>
+![](img/zhuanqian_9de244ad6ff26c9cb9569fd83501a1c2.png)
 我的提示词大致是：
 除了最后一个带有 2016、2021、2160 标志的猫咪视频是我自己制作的，其余视频均来自一个美国 YouTube 山海经频道，并且都是播放量超过 120 万的长视频。我的作品参考了这个频道。
 现在我准备把视频发布到 YouTube，但我觉得成片的吸引力还不够。请你对比前面上传的爆款视频，全面分析我的作品存在的问题，并给出具体修改建议。
@@ -207,8 +207,8 @@ GPT 一个账号大约只能生成十张左右的图片；Runway 最高支持 10
 - 字幕是否准确、易读、美观
 - 视频从开头到结尾是否保持完整度和专业感
 GAS 会根据这些维度给出一份修改清单。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6834730c96d1f8ad0066a97df6d66433.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_887329a97555b44de05d19382f62d134.png>
+![](img/zhuanqian_6834730c96d1f8ad0066a97df6d66433.png)
+![](img/zhuanqian_887329a97555b44de05d19382f62d134.png)
 建议通常会比较多，不必一次全部修改完。可以先挑最影响观感的问题，在剪映中完成调整，再导出第二版重新检查。
 这里还有一个小技巧：用于诊断的视频，不需要输出高分辨率。选择 480p、25fps 基本就够了。这样既能减少文件体积，也能加快上传和分析速度。
 # 八、发布视频时的设置
@@ -216,12 +216,12 @@ GAS 会根据这些维度给出一份修改清单。
 最终发布时可以根据自己的需求选择合适的清晰度。
 但如果只是交给 GAS 做诊断，没有必要导出高分辨率版本。480p、25fps 足以让它判断节奏、画面和结构，不会因为文件太大而浪费时间。
 正式上传时，按照自己的成片需求导出即可。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ec9012cf7abdae52b1d93dfd7ba5682a.png>
+![](img/zhuanqian_ec9012cf7abdae52b1d93dfd7ba5682a.png)
 ## 2.让 GAS 协助生成标题和简介
 标题不仅是视频的门面，也会影响搜索曝光。
 一个包含核心关键词、符合观众搜索习惯的标题，更容易让潜在观众找到视频。可以把故事内容、目标受众和参考频道交给 GAS，让它一次生成多个标题方案，再选择最适合的版本。
 视频简介虽然不一定直接带来更多曝光，但它可以帮助观众快速理解剧情和主题。特别是故事类视频，如果简介把核心冲突和看点描述清楚，可能会提升观众的认可度和点赞意愿。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e9afc5f415a9283b7d4c389c78602145.png>
+![](img/zhuanqian_e9afc5f415a9283b7d4c389c78602145.png)
 # 九、最后总结
 用 AI 做 YouTube 视频，并不是把素材丢进工具里等待结果，而是一套完整的生产流程：
 1. 找到合适赛道
@@ -246,11 +246,11 @@ Google AI Studio 可以用来拆解爆款、构思故事、设计分镜、生成
 ## 1.如何下载 YouTube 视频与音频
 群里经常有人询问 YouTube 视频该怎么保存。其实有一个操作非常简单的工具，只是很多人还不知道，今天直接分享给大家。
 打开目标 YouTube 视频页面后，复制顶部的网址。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bc30364ecc4c394c4639fd96c549007c.png>
+![](img/zhuanqian_bc30364ecc4c394c4639fd96c549007c.png)
 接着点击浏览器上方的地址栏。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8cf0ea68e7f4499df332b729e67c249e.png>
+![](img/zhuanqian_8cf0ea68e7f4499df332b729e67c249e.png)
 把网址中的“ube”删掉，再按下回车键。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8a94ce1eaa3ab282ed67ba25e0e36d3a.png>
+![](img/zhuanqian_8a94ce1eaa3ab282ed67ba25e0e36d3a.png)
 随后页面会跳转到下载界面，视频和音频都可以单独保存。
 需要说明的是，免费版本存在一定限制：视频最高支持 480p，音频最高为 128kbit/s。如果愿意付费，最高可以下载 8K 清晰度的视频。价格方面，包年折算下来每月 9 美元，包月则是 12 美元，更适合对画质要求较高、或者经常处理素材的用户。
 如果只是偶尔提取音频，或者对清晰度没有特别高的要求，免费功能基本已经够用了。
@@ -261,16 +261,16 @@ https://tiqu.cc/
 ## 2.用 Canva 设计 YouTube 封面
 长视频的封面很值得花时间优化。一个清晰、有重点、视觉吸引力强的封面，往往会直接影响观众是否愿意点击。
 比如我之前做过的一张封面：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2d5429fc8238a937cfc5269ee3149e16.png>
+![](img/zhuanqian_2d5429fc8238a937cfc5269ee3149e16.png)
 这张图是我用 Canva 进一步调整完成的。
 我的做法是：先在制作视频时生成一张 16:9 的画面，再借助即梦进行扩图，将它调整成 9:16 的比例。处理时记得勾选或添加超清效果，成片会更加清晰。
 之后可以在闲鱼上购买一个 Canva 会员，价格通常很低，我当时花了一块钱。开通后，就能直接选择 YouTube 封面模板：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_723b37ca81d454b16181437c0b1609c6.png>
+![](img/zhuanqian_723b37ca81d454b16181437c0b1609c6.png)
 接下来把前面生成的图片导入 Canva，再按照自己的想法进行组合和排版即可。整个过程不复杂，基本拖拽几下就能完成，最后选择高清格式导出。
 ## 3.Canva 也能参与视频内容制作
 Canva 不只是用来做封面，它同样可以制作视频中的一些画面素材。
 比如我之前做的“熊猫最后一个回忆”片段里，有一个信件画面：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3095bbedacc97f9062772b86372edfc3.png>
+![](img/zhuanqian_3095bbedacc97f9062772b86372edfc3.png)
 这封信就是用 Canva 完成的。操作方法很简单，先搜索一个牛皮纸风格的模板，然后替换文字内容，加入英文文案，再根据视频节奏设置关键帧，就能做出类似的动态效果。
 当然，关于如何进一步提升 YouTube 视频制作能力，以及怎样系统获取更多创作认知，其实还有不少内容可以分享。只是这一部分涉及的内容比较多，也属于另一个主题，后面再单独整理一篇。
 如果这次分享对你有所帮助，欢迎顺手点个赞赞！😘❤️

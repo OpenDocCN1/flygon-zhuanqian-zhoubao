@@ -4,20 +4,20 @@
 应鱼丸的邀请，我把我们做企业智能体定制这件事，从获客到成交的完整打法讲清楚。
 这段时间正好比较闲，就把从公域引流、电商承接私域、筛选高潜老板、深度沟通、需求拆解、定制交付到最终成交和转介绍的整条路径摊开讲。我们只是一个起步不久的小团队，但这套方法跑通后完全可以复制。照着走一遍，基本能复刻出相似的效果。
 ## 一、我们是谁，以及在 AI 赛道走到了哪一步
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3336a1d1e59c03ad0e8fc698571f679e_0_0.png>
+![](img/zhuanqian_3336a1d1e59c03ad0e8fc698571f679e_0_0.png)
 先交代个背景。我们团队已经在市面上摸爬滚打五六年了。我是 97 年出生的，毕业后就一直在电商行业做服务类业务，做了三四年左右，主要做软件和会员相关的虚拟服务。也正是在这段经历里，我积累了第一手的虚拟电商运营经验，天猫是我们的主阵地。
 GPT 爆火的那波，我们是第一批吃到红利的商家。那时平台风控松，流量极大，我们不仅拿到了 AI 赛道的首笔启动资金，更直观地感受到 AI 对社会和行业的颠覆性冲击。从那一刻起我们就定了调：接下来几年只做 AI。做什么形态不重要，重要的是必须在 AI 赛道里。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3336a1d1e59c03ad0e8fc698571f679e_1_0.png>
+![](img/zhuanqian_3336a1d1e59c03ad0e8fc698571f679e_1_0.png)
 这几年我们一路试错，从倒卖海外的 AI 产品，到做大模型 API 中转、建官网接流量，再到现在的企业 AI 化改造，每一步都踩过坑，也积累了一些可用的经验。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3336a1d1e59c03ad0e8fc698571f679e_2_0.png>
+![](img/zhuanqian_3336a1d1e59c03ad0e8fc698571f679e_2_0.png)
 为什么会放弃零售分销和 API 中转，转而做企业端改造？因为零售和会员客单太低、利润薄；API 又受政策和价格冲击太大，到 2026 年，这条路已经不赚钱了。
 真正的拐点在去年。在卖 API 和 AI 会员的过程中，我们意外沉淀了一批真实的企业客户。接触下来发现，企业主对 AI 充满渴望却又极度焦虑：想用，但不知道从哪里开始，自己的业务到底哪些环节能被 AI 替代也不清楚。他们有需求、有预算，却缺一个能落地的翻译者。企业 AI 化改造的机会，就是从这个空档里长出来的。
 ## 二、企业 AI 服务为何正处在风口
 今年的信号非常明确：两家顶尖大模型公司亲自下场做企业改造。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3336a1d1e59c03ad0e8fc698571f679e_3_0.png>
+![](img/zhuanqian_3336a1d1e59c03ad0e8fc698571f679e_3_0.png)
 Anthropic 在 5 月 4 日联合高盛、黑石、Hellman & Friedman 共同成立一家 AI 原生的企业服务公司，拿到 15 亿美元资本，直接把工程师和 Claude 嵌入中型企业的核心流程，模式接近 Palantir 的前置部署。
 OpenAI 在 5 月 11 日成立 OpenAI Deployment Company，融资超 40 亿美元，用 Forward Deployed Engineers 进驻企业、重建流程、把 AI 沉入业务核心。企业业务目前已占 OpenAI 收入的 40% 以上。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3336a1d1e59c03ad0e8fc698571f679e_4_0.png>
+![](img/zhuanqian_3336a1d1e59c03ad0e8fc698571f679e_4_0.png)
 连最懂模型的公司都在砸重金做服务，说明一件事：通用模型想真正跑进企业，服务层面的壁垒和需求非常庞大。这是一门极重的服务生意。今年他们砸 40 亿和 15 亿去啃的都是大型企业，这恰好证明企业 AI 改造是刚需，但绝大多数企业自己做不了。
 而这些巨头瞄准的都是大客户，对国内中小微、本地老板、个体经营者根本覆盖不到。这正是普通团队和个人可以切入的空间。
 一组数据：国内中小微企业超 6000 万户，个体户 1.2-1.3 亿户，经营主体合计近 1.9 亿。C 端 AI 普及率约 20%，而 B 端真正实现降本增效的比例不到 3%。
@@ -27,11 +27,11 @@ OpenAI 在 5 月 11 日成立 OpenAI Deployment Company，融资超 40 亿美元
 先把我们的变现链路拆开。我们手上有多渠道流量，所以链路比较顺。
 新媒体端，我们在 B 站、抖音、小红书用图文和创始人 IP 进行获客。
 在二类电商和传统电商平台，先用 AI 会员等小额产品做前置成交，把用户拉进私域。进入私域后，通过朋友圈运营、客服分层，给用户打标签，再定向推送不同产品。之后用公众号做二次三次触达，结合朋友圈、视频号、微信小绿书不断强化 IP 感知，从而激活有智能体定制需求的人群。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3336a1d1e59c03ad0e8fc698571f679e_6_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3336a1d1e59c03ad0e8fc698571f679e_7_0.png>
+![](img/zhuanqian_3336a1d1e59c03ad0e8fc698571f679e_6_0.png)
+![](img/zhuanqian_3336a1d1e59c03ad0e8fc698571f679e_7_0.png)
 ## 四、实操全链路：从公域到成交再到转介绍
 ### 阶段一·获客：公域做 IP 和短视频
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3336a1d1e59c03ad0e8fc698571f679e_8_0.png>
+![](img/zhuanqian_3336a1d1e59c03ad0e8fc698571f679e_8_0.png)
 电商平台我们会售卖 AI 相关产品来承接私域。比如淘宝个性化定制类目可以加微信，部分类目不行，要找能加微信的品类去做承接。现在微信视频号也能挂企业微信引流，效果很不错。
 新媒体端我们打的是“AI 如何改造企业”类的干货。抖音上我们主做小微商家爱看的主题，比如“超级 AI 员工”“AI 获客、转化、成交”，这些话题普适性强，既能吸量也能筛选精准人群。吸进来后，通过主页引导进入私域，再靠朋友圈和深度沟通建立信任。
 下面把“公域 IP + 短视频”拆成可复制的动作：
@@ -58,10 +58,10 @@ OpenAI 在 5 月 11 日成立 OpenAI Deployment Company，融资超 40 亿美元
 **分析需求，翻译成 AI 能做的事：**把一堆人话诉求整理成“AI 能承担的具体任务清单”，逐条评估可行性和人效替代。能省多少人力时间，就是报价时的核心价值锚点。
 一个小技巧：电话会议全程录音，结束后用 AI 生成总结和初版方案发回给客户确认。既能避免理解偏差，也能让客户亲眼看到我们的工作方式里已经在用 AI 降本增效，信任加分。
 这个是我们给客户的官网介绍页，正规感很重要，是建立信任的基础
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3336a1d1e59c03ad0e8fc698571f679e_14_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3336a1d1e59c03ad0e8fc698571f679e_14_1.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3336a1d1e59c03ad0e8fc698571f679e_14_2.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3336a1d1e59c03ad0e8fc698571f679e_14_3.png>
+![](img/zhuanqian_3336a1d1e59c03ad0e8fc698571f679e_14_0.png)
+![](img/zhuanqian_3336a1d1e59c03ad0e8fc698571f679e_14_1.png)
+![](img/zhuanqian_3336a1d1e59c03ad0e8fc698571f679e_14_2.png)
+![](img/zhuanqian_3336a1d1e59c03ad0e8fc698571f679e_14_3.png)
 ### 阶段三·成交：报价 → 合同 → 转化 → 收款
 需求和方案对齐后，就要变现。我们按“报价 → 合同 → 转化 → 收款”走。
 **报价，三要素一个铁律：**价格按任务复杂度、定制工时、以及能为客户节省的成本来定。前两者决定成本，后者决定客户支付意愿。把节省的钱做成价值锚，说成投资而不是成本，比如“一年省一个全职人力”。再通过沟通摸出客户心理价，最后落在双方都能接受的区间。铁律：报价一定放在深度沟通之后，一上来就报价基本等于把人吓跑。
@@ -69,7 +69,7 @@ OpenAI 在 5 月 11 日成立 OpenAI Deployment Company，融资超 40 亿美元
 **转化，靠信心不靠降价：**客户犹豫时别降价，降价显得没底气。要用方案、案例、资质和专业度去推动。配合适度的紧迫感：档期、名额。如果仍难成交，可提供小场景试点，做出效果后再追加，降低门槛。
 **收款，保护自己的铁律：**先收定金再开工，尾款交付前给。定金不到位不开工，尾款不到位不交付。这点极重要。
 ### 阶段四·交付与裂变：交付 → 转介绍
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3336a1d1e59c03ad0e8fc698571f679e_16_0.png>
+![](img/zhuanqian_3336a1d1e59c03ad0e8fc698571f679e_16_0.png)
 **交付：**智能体具体怎么定制我们另文详讲。但先说结论：大部分企业需求并不复杂，梳理清业务流程后，借助 Claude Code 和 Codex 就能完成七八成定制，剩下部分找个程序员补齐即可。交付前我们会录一段视频带客户完整跑一遍链路，降低售后成本。流程守住：尾款付清才正式交付。
 交付时我们还埋了个心机：给客户颁发“第 XX 位完成 AI 化改造的老板”证书，大多数人愿意晒朋友圈，口碑和转介绍就自然带出来了。
 **转介绍：**证书之外我们还会：
@@ -117,4 +117,4 @@ OpenAI 在 5 月 11 日成立 OpenAI Deployment Company，融资超 40 亿美元
 工具和教程是最廉价的壁垒，真正的壁垒是“立刻动手”和“圈层信息差”。
 这里不聊虚的，只做商业闭环拆解和 AI 效率压榨，系统里已经沉淀了 1000+ 跑通的套利实战局。
 👉👉 查阅圈子完整数字资产与上车门槛：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3336a1d1e59c03ad0e8fc698571f679e_24_0.png>
+![](img/zhuanqian_3336a1d1e59c03ad0e8fc698571f679e_24_0.png)

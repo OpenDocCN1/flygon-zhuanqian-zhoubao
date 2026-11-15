@@ -55,8 +55,8 @@ CDN优先采用字节跳动http://cdn.bytedance.com加速资源加载，性能�
 ```
 读取整个项目文件，我要增加可选功能：混剪视频长度自动匹配音频长度，音频文件在一个音频文件夹中随机选取
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9759cea6703b37a8afda21e649051d77.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6dcd51b351a440afa68a2ce5f79f4109.png>
+![](img/zhuanqian_9759cea6703b37a8afda21e649051d77.png)
+![](img/zhuanqian_6dcd51b351a440afa68a2ce5f79f4109.png)
 ```
 # 初始化 Git 仓库
 git init

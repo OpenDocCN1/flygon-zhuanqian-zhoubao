@@ -13,7 +13,7 @@ Cursor 确实能让零基础的人做出能解决自己场景的小应用，但�
 学 Cursor 的过程就是不断被问题追着跑的过程，很多项目就是卡在一个点上动不了。这时必须直面它，并想办法把它拆开。
 我在这次航海里常用的通用解法是：
 1）第一时间翻航海手册和精选日志。你在 0 到 1 使用 Cursor 时碰到的绝大多数坑，手册里基本都有答案。群里也有人做复盘沉淀，比如我就是因为复盘日志被认可，也从同期成员@Lucas 的日志里学会了 GitHub+Vercel+Cloudflare 免费部署并上线的方法；
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3f6d528ae8ea7abd8ae24c963f1a90a6.png>
+![](img/zhuanqian_3f6d528ae8ea7abd8ae24c963f1a90a6.png)
 2）善用搜索工具和航海群提问。手册覆盖不到的，就得自己去找。我个人的提问顺序一般是：
 * 先问 Cursor，同一个软件里最方便，代码运行类的很多问题它能直接解；
 * 再问 ChatGPT、Kimi 等大模型；
@@ -36,12 +36,12 @@ Cursor 还能和其他工具混搭出很多玩法，比如 Cursor+Figma 做实�
 装好 Cursor 后先别急着写代码，先把下面几项检查一遍，调好之后使用体验会大幅提升。
 ### 1）装一个中文插件
 默认界面是英文，不习惯可以装一个简体中文插件，安装方式和 VSCode 几乎一样，装完重启即可。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_015dc22e0aa5117f00ee2ef0fab2175f.png>
+![](img/zhuanqian_015dc22e0aa5117f00ee2ef0fab2175f.png)
 ### 2）配置 Rules for AI
 Rules 的作用类似给 GPT、Kimi 写 Prompt，就是给 AI 设定对话方向和输出要求，让结果更贴合预期。
 Cursor 里有两种规则：
 第一种是全局规则，对所有项目生效。可在左上角 Cursor-首选项-Cursor Settings 打开，或直接点右上角 Settings 进入 Cursor Settings 找到 Rules for AI，填入规则内容：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ee63ce0c34d381d37e350f6736d3baed.png>
+![](img/zhuanqian_ee63ce0c34d381d37e350f6736d3baed.png)
 ```
 Always respond in 中文
 代码注释
@@ -49,11 +49,11 @@ Always respond in 中文
 ```
 “Always respond in 中文”是为了和国内用户更好的沟通；
 “代码注释 -使用 JSDoc注释”是为了让代码更易读，对新手尤其重要。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f6595041fd68639f79bf33656155921d.png>
+![](img/zhuanqian_f6595041fd68639f79bf33656155921d.png)
 第二种是单项目规则，只对当前项目生效，文件名为.cursorrules，结构类似 Prompt：角色+目标+流程+限制要求，但更偏技术栈限定。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_587a4d30a3998f62253a256d0b09de9d.png>
+![](img/zhuanqian_587a4d30a3998f62253a256d0b09de9d.png)
 注意：长期使用.cursorrules 的人要记得在 Cursor Settings-General-Rules for AI 中打开“Include .cursorrules file”，否则不会生效。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_240f87703c53dd2af9c688b8b82ad523.png>
+![](img/zhuanqian_240f87703c53dd2af9c688b8b82ad523.png)
 .cursorrules 需要针对具体技术栈撰写，初学者往往不知道怎么选栈，所以入门时很难写好。有两种解法：
 第一种是先不写，直接开干。这就是“先下场”的逻辑。简单项目有无规则差别不大，绕点弯路也能完成。
 第二种是用 AI 生成。把范例丢给 AI 让它帮你补全。比如航海里有教练@花生 提供的网页开发 .cursorrules 范例：
@@ -141,7 +141,7 @@ Always respond in 中文
 ### 3）开启 Codebase Indexing
 做多文件项目时常会报错，这时需要 Cursor 对全盘文件进行分析。在 Cursor Settings-Features-Codebase Indexing 中打开“Index new folders by default”。
 开启后文件会被上传到 Cursor 服务器分析，如果不想核心文件或无关文件被索引，可添加到下面的 Ignore files。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f8882f8c397ae8af4748d07d866f4673.png>
+![](img/zhuanqian_f8882f8c397ae8af4748d07d866f4673.png)
 ## 2、需求沟通篇
 配置完成后就可以正式上手。刚开始别刻意追求技巧，先把手弄脏，技巧是实操后自然长出来的。
 ### 1）前期多沟通，把需求对齐
@@ -161,9 +161,9 @@ Always respond in 中文
 ```
 我希望绿色打钩出现和消失的地方是在截图的红色区域（也就是浮窗上面），而不是蓝色区域（二维码上面）
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1dca99fd03359e984e5e8defb2a36f9e.png>
+![](img/zhuanqian_1dca99fd03359e984e5e8defb2a36f9e.png)
 这次需求就被准确实现了。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b472425efe5c657dd912b334d185a94c.png>
+![](img/zhuanqian_b472425efe5c657dd912b334d185a94c.png)
 ### 4）给建议而非下命令
 除非你对技术方案 100% 确定，否则与 cursor 沟通时更建议用“这个方案怎么样”的探讨方式，从中筛选出最优解，而不是直接下命令把其他可能性堵死。
 cursor 的优势是知识面宽，人类的优势是经验独特且更清楚当下的资源限制。所以前期充分让 AI 发散，等需求收敛后再用指令约束它做高效开发会更顺。
@@ -190,7 +190,7 @@ cursor 的优势是知识面宽，人类的优势是经验独特且更清楚当�
 3.明确每次迭代的目标及任务明细
 ```
 实际对话效果如下图所示，我是把 prompt 放在了 Rules for AI 里：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_364b6b9439bc05f6409563c6db4fc3f8.png>
+![](img/zhuanqian_364b6b9439bc05f6409563c6db4fc3f8.png)
 ### 5）Chat 和 Composer 分工使用
 cursor 提供了 Chat 和 Composer 两种工作模式。我的用法是先用 Chat 把整体产品架构、技术选型等细节聊成熟，形成相对稳定的方案后再切到 Composer 执行，效率会高很多。两者侧重点不同：
 *   Chat 模式：主要用于对话交流，可以问代码相关问题并获取即时反馈和建议。
@@ -234,9 +234,9 @@ git 初始化或项目开发时，cursor 容易一次性甩出一堆终端指令
 对大部分新人而言，代码执行是难关，掌握下面三个技巧能降低不少阻力。
 ### 1）开启 iterate on lints
 终端报错时很多人习惯把大段报错复制到 Composer 分析。其实 cursor 有代码检查并修复功能，只是早期默认关闭，路径是“Cursor Settings-Features-Chat & Composer-iterate on lints”
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_69179ae0526bb58b31c2a38e5f26d7da.png>
+![](img/zhuanqian_69179ae0526bb58b31c2a38e5f26d7da.png)
 写复盘时发现最新版上线了 bug finder 功能，据官方介绍这是个实验性功能，可分析当前分支与主分支的代码变更，但消耗会比较高。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7222c5447b1de2ae42f3ef261a486c20.png>
+![](img/zhuanqian_7222c5447b1de2ae42f3ef261a486c20.png)
 ### 2）输出日志
 运行代码遇到 bug 在所难免，为了更快定位，可以要求 cursor：
 ```
@@ -244,11 +244,11 @@ git 初始化或项目开发时，cursor 容易一次性甩出一堆终端指令
 ```
 ### 3）先 save 再 accept
 不用急着点 accept all，先点 save all 验证无误后再 accept all，效率更高。若不小心点了 accept all，也可以用 checkpoint 恢复。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c646c5c274f27dc72854880a88883bbf.png>
+![](img/zhuanqian_c646c5c274f27dc72854880a88883bbf.png)
 ### 4）后期尝试看代码
 项目后期可以试着读代码，不需要达到开发者的水平，能理解运行逻辑即可，对推进项目很有帮助。
 以 Youtube 本地下载站新增的批量移除功能为例，从截图能看出实现顺序：先在后端添加删除 API，再在前端实现删除功能。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7fb11d530789dcc86dcd34a6e34e35f2.png>
+![](img/zhuanqian_7fb11d530789dcc86dcd34a6e34e35f2.png)
 后端按业务定义并新增“删除”程序接口供前端调用，前端依设计图构建界面并通过 API 与后端交互，更新如剩余视频数量等数据。
 拆解后大致是：
 *   前端任务：
@@ -264,7 +264,7 @@ git 初始化或项目开发时，cursor 容易一次性甩出一堆终端指令
 用久了 cursor 都会遇到一个问题：代码被改坏了，怎么回到之前正常版本？大方向两种做法，一种是 cursor 自带的 checkpoint，一种是用 git 管理。
 ### 1）善用 checkpoint
 Composer 模式自带 checkpoint，Chat 模式没有。它会在每次输出新代码时记录节点。当对话几轮后效果变差，可找到改动前的 checkpoint，点击右侧 check out，即可把所有文件恢复到该消息之前。这是 cursor 里最简单的代码管理方式。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4029a41a3e039f8fa54cfc9c2227b33b.png>
+![](img/zhuanqian_4029a41a3e039f8fa54cfc9c2227b33b.png)
 ### 2）学会 git 管理
 AI 上下文限制让 checkpoint 有局限，更科学的做法是学会 git。配合工具大致分三类：
 *   git 命令 + Gitlens 插件
@@ -280,7 +280,7 @@ AI 上下文限制让 checkpoint 有局限，更科学的做法是学会 git。�
 *   2）远程仓库–>fetch–>使用 refs/remotes 记录远程分支末端 commit_id 与本地仓库–>merge–>工作区
 *   3）远程仓库–>pull–>同步远程分支记录、本地仓库和工作区
 示意图如下：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e74a4e3be15ab05b444abccb4e16a401.png>
+![](img/zhuanqian_e74a4e3be15ab05b444abccb4e16a401.png)
 图源：CSDN@阚学霸
 这里重点讲第一部分流程及指令：
 1、初始化仓库：
@@ -324,16 +324,16 @@ git reset 还分三种：
 cursor 对新用户赠送的 fast requests 很快就会用完，Pro 订阅 20 美刀对部分人压力不小，于是有人去平台买共享账号，但风险高，容易封号或点数清零。
 好消息是 Cursor 支持自定义 API，坏消息是 composer 等专有能力会受限。若想尝试自定义 API，可参考如下：
 第一步：在 Deepseek 开发者平台或 SiliconFlow 申请 API Key，新用户有 500 万 tokens 额度，付费也便宜，约 2 元百万 tokens
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cb4135682c3b4975b60ab6a0d3cff2c6.png>
+![](img/zhuanqian_cb4135682c3b4975b60ab6a0d3cff2c6.png)
 第二步：打开 cursor settings -> 左侧 Models -> 点击 Add Models，模型名需与 api 调用名一致。然后关闭其他模型，避免验证失败
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cf2a870154f60a3213505ffd3de5c5de.png>
+![](img/zhuanqian_cf2a870154f60a3213505ffd3de5c5de.png)
 第三步：在下方 OpenAI API Key 处填入 key，点击 Override OpenAI Base URL，输入对应 api 地址，点击 Save 和 Verify
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cc19543ea338026c66be2e5436545efe.png>
+![](img/zhuanqian_cc19543ea338026c66be2e5436545efe.png)
 完成后即可开始写代码。
 # 三、cursor 航海项目分析&常见卡点
 ## 1、cursor 航海项目的设计分析
 航海进程走到三分之一时，我发现项目顺序和类型选择都别有深意。后续补充学习相关知识后整理如下：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_007ee7c8ecdf4dc94ccb3941091c820e.png>
+![](img/zhuanqian_007ee7c8ecdf4dc94ccb3941091c820e.png)
 从项目类型看，本次航海包括：
 *   本地运行的小游戏，如俄罗斯方块
 *   仅涉及前端交互的工具站，如图片压缩网站
@@ -351,7 +351,7 @@ cursor 对新用户赠送的 fast requests 很快就会用完，Pro 订阅 20 �
 ### 坑一：Python 版本和 pip 指令“打架”
 如果你本来兴致勃勃地按照 Cursor 给的命令装依赖，结果终端噼里啪啦报错，那大概率不是代码的问题，而是 pip 和 Python 版本对不上。
 这种情况在以下场景里非常常见：用 Pygame 写小型游戏、用 OpenCV/Pillow 做图像处理、用 Pandas/NumPy 做数据分析、用 Flask/Django/FastAPI 搭 Web 服务，或者用 PyTorch/TensorFlow 做模型训练。Cursor 不会主动检测你机器上装的 Python 是哪个版本，也不管你的环境变量是怎么配的，它只是“依据直觉”给出一个通用指令——那自然就可能有偏差。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5d21bb44cc0c7eac2bf90030ec53e96c.png>
+![](img/zhuanqian_5d21bb44cc0c7eac2bf90030ec53e96c.png)
 其实只要理解了版本之间的关系，这个问题就不难解决：
 1.  pip 指令跟你最初安装的 Python 版本绑定。如果你装的是 Python 3.x，就优先用 `pip3` 来装库；如果是最古老的 Python 2.x，才用 `pip`。
 2.  如果你的电脑上同时存在 Python 2 和 Python 3，那就最好用 `pip` 和 `pip3` 分开管理，最稳妥的办法是建一个虚拟环境，避免库冲突。
@@ -360,7 +360,7 @@ cursor 对新用户赠送的 fast requests 很快就会用完，Pro 订阅 20 �
 ### 坑二：找不到网页里的标签
 抓取小红书、抖音这类社交媒体的内容时，最难的就是定位页面标签。拿当时抓取小红书爆款笔记来说，标签获取难倒了不少人。
 其实秘诀很简单：在页面空白处点右键，Mac 选“检查”（Windows 按 F12，或选“检查代码”），浏览器会弹出“开发者工具”。Chrome、Firefox、Safari 这些主流浏览器都内置了这个工具，专门用来查看网页的 HTML、CSS 和 JavaScript。如果你打开是纯英文界面，先选上方的 **Elements** 选项（中文版叫“元素”），然后直接按 `Ctrl+F` 呼出搜索框，输入 `detail-title` 或 `detail-desc`，就能定位到笔记的标题和描述，标签字段 `hash-tag` 就在这段代码更下面一点的位置。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_25336be215ad7d9345e6ea5ea8174776.png>
+![](img/zhuanqian_25336be215ad7d9345e6ea5ea8174776.png)
 有小伙伴说搜了 `detail-desc` 还是看不到 `hash-tag`，多半是因为代码被折叠了。你只需点一下那个向右的三角形，等它变成向下，标签就会露出来。
 ### 坑三：找页面 Cookie，千万别走错标签页
 做爬虫的时候，cookie 是绕不开的一环，尤其当你需要的还是登录后才能看的内容。还是拿小红书举例——如果你直接问 Cursor 怎么找 cookie，它可能会给两条路线：一条是通过“开发者工具 → Network”，另一条是“开发者工具 → Application”。我必须提醒你：**别选后者。**
@@ -368,7 +368,7 @@ cursor 对新用户赠送的 fast requests 很快就会用完，Pro 订阅 20 �
 - **Application** 里的 Storage 区域，展示的是当前域名下所有已存储的 cookie。你可以看到每个 cookie 的名称、值、域、路径、过期时间、大小，以及 HttpOnly、Secure、SameSite 等属性。也可以在这个面板里新增、编辑、删除 cookie。
 - **Network** 面板则记录每一次网络请求的完整信息，包括请求头、响应头、查询参数等。这里能看到某个请求真正发送给服务器的 cookie——也就是我们需要的那个。但注意，Network 面板主要是查看和分析，不支持直接编辑。
 所以正确做法是：打开开发者工具的 **Network** 选项卡，刷新一下当前小红书页面，列表里会冒出一批“Name”记录。选最顶上的那条（通常带蓝色图标，也可以看它的文件名是不是对应笔记 URL 末尾那串字符）。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_575cb234a54b77d8e94552d31caac75f.png>
+![](img/zhuanqian_575cb234a54b77d8e94552d31caac75f.png)
 点中它，在右侧面板的 Headers 里，往下拉找到 **Request Headers**，看到“Cookie”那一行，直接复制就好，然后粘贴到 Cursor 生成的 .py 文件对应的位置里。
 ### 坑四：反复“加载已解压的扩展程序”，太低效了
 我做网页复制插件时不懂浏览器插件开发，每次代码更新都要重复一遍“加载已解压的扩展程序”操作。后来才明白，开发模式下的插线更新和正式发布是两码事：

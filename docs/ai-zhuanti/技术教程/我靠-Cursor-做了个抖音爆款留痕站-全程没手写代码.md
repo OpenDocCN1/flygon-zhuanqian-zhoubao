@@ -7,31 +7,31 @@
 3. 这类给运营提效的小网站，基本都能照着这个套路快速做完。
 ## 需求是从哪里来的
 我有这样一套固定动作：每天定时采集约 100 位对标账号近 3 天的表现，整理进 Excel，再发邮件出去。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3920f9de9d40f5aa762232f4dbe1798b.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_04a68aa778f74dfcf20a6c43a0cc93a4.png>
+![](img/zhuanqian_3920f9de9d40f5aa762232f4dbe1798b.png)
+![](img/zhuanqian_04a68aa778f74dfcf20a6c43a0cc93a4.png)
 采集虽然一直在跑，但账号数量差不多一百个，表格里的信息太密，根本看不出哪些爆品正在快速起量；想做分组、标签和筛选也都不好用。
 于是我想换一种思路：每个作品只要被采集一次，就在存储里追加一条留痕记录。
 这事的价值在于——带货短视频里，选品基本决定生死。当这些留痕记录汇总起来，运营能直接看到同行作品的上涨轨迹，也能更快跟上爆款脚本和拍摄思路。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0f7ba46b5010cebfc5e104537bf1e69c.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5842664a9507088a01254e60f0442aae.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f7d57c288e3bdb89d8cb91afa9fb5036.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c14b8bfbcad5de7f5dfc9c237dc03ae5.png>
+![](img/zhuanqian_0f7ba46b5010cebfc5e104537bf1e69c.png)
+![](img/zhuanqian_5842664a9507088a01254e60f0442aae.png)
+![](img/zhuanqian_f7d57c288e3bdb89d8cb91afa9fb5036.png)
+![](img/zhuanqian_c14b8bfbcad5de7f5dfc9c237dc03ae5.png)
 ## 先找 ChatGPT 把需求理清楚
 我习惯先把想法整理成一份可执行的需求说明，再往下走。
 框架方面，我选了 Next.js。它最近热度高，很多 AI 产品站都在用；更关键的是能接到 Vercel 的免费托管，代码改完就能实时更新。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9ed0ae3ebca7838664e3ba86e493632d.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_064207551e1b3456bfe12c9c766a5a1a.png>
+![](img/zhuanqian_9ed0ae3ebca7838664e3ba86e493632d.png)
+![](img/zhuanqian_064207551e1b3456bfe12c9c766a5a1a.png)
 ## 再用 bolt 画一套免费原型
 之前看到有人在社群里分享，用 bolt.new 做出来的前端页面很合我胃口，直接圈粉。
 工具链接：bolt.new
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c988c52355d7da25616dee3bc2c2f82e.png>
+![](img/zhuanqian_c988c52355d7da25616dee3bc2c2f82e.png)
 我只让 bolt 出原型，真实功能还是交给 Cursor 来写。原型只是把页面布局和点击交互演示出来，不接任何后端数据。
 原型界面演示略。
 ## 用 Cursor 落地功能
 ### 先把 Cursor Rules 备好
 我从一个开源项目里拿了一套现成的 Cursor Rules，再根据自己的项目环境做了调整。
 有了 Rules，AI 会按统一的风格和规范输出，代码结构和质量更稳，后续沟通成本也少很多。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6e3c7163b4d2fa04c891d519435123d9.png>
+![](img/zhuanqian_6e3c7163b4d2fa04c891d519435123d9.png)
 ### 把功能做完
 我把整理好的需求说明、bolt 生成的原型代码，以及刚才那套 Rules 一股脑交给 Cursor，让它直接产出功能代码。
 模型通常用 Claude 3.7 或 Claude 4.0。这套组合的编码表现确实强，来回聊几轮基本就能跑通。遇到报错就把报错内容原样贴回去，让它自己修，绝大多数问题都能解决。
@@ -62,20 +62,20 @@ Supabase 适合快速把后端凑齐，注册登录、认证、存储、接口�
 这套免费方案拿来做练手项目、个人站点或者跑通想法都挺合适。真需要更高配置或多人协作时，再升级付费套餐就行。国内访问海外节点（比如日韩）延迟偏高，但整体可用。
 配套视频：B 站搜 “Supabase 教程” 能找到不少。
 官网：supabase.com
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fd5fc2fff352218e777cbba630eec8ab.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3c030f730e86264f25177c9961a4d353.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7aad631552298d44348cde2ec4ec531c.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0bf8bacc2f38934f197c1201942dbf71.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b1214737c516ba4673e2c64fa2aa5052.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4a06dd5d5e85a50abca63c58b2670598.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_21562f45ed22854434084ba686f8e18a.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8003926c243faef33a45568042e9aa8a.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d4b0ebaa7b4938cc4d9d3c00e3bab06e.png>
+![](img/zhuanqian_fd5fc2fff352218e777cbba630eec8ab.png)
+![](img/zhuanqian_3c030f730e86264f25177c9961a4d353.png)
+![](img/zhuanqian_7aad631552298d44348cde2ec4ec531c.png)
+![](img/zhuanqian_0bf8bacc2f38934f197c1201942dbf71.png)
+![](img/zhuanqian_b1214737c516ba4673e2c64fa2aa5052.png)
+![](img/zhuanqian_4a06dd5d5e85a50abca63c58b2670598.png)
+![](img/zhuanqian_21562f45ed22854434084ba686f8e18a.png)
+![](img/zhuanqian_8003926c243faef33a45568042e9aa8a.png)
+![](img/zhuanqian_d4b0ebaa7b4938cc4d9d3c00e3bab06e.png)
 把 Cursor 生成的建表 SQL 复制到 Supabase 里执行，表结构就算就位了。
 ### 打开邮箱登录认证
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d7b0e3a5aa328d69afca4b662b63f2a9.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_dec349de3075dd8e49321bd79a5d65e6.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_10e6b5743d80874e2f6b0e1fff60b380.png>
+![](img/zhuanqian_d7b0e3a5aa328d69afca4b662b63f2a9.png)
+![](img/zhuanqian_dec349de3075dd8e49321bd79a5d65e6.png)
+![](img/zhuanqian_10e6b5743d80874e2f6b0e1fff60b380.png)
 在控制台里把邮箱密码登录打开即可。
 ## 用 Vercel 发布上线，也是免费
 Vercel 跟 Next.js 配合得很顺，官方模板库也有一堆现成示例。
@@ -119,13 +119,13 @@ Vercel 免费档（Hobby）面向个人用户和小型项目，要点如下：
 值: production
 环境: Production (只选择生产环境)
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f2341ef77231d917778d22a0e10138ee.png>
+![](img/zhuanqian_f2341ef77231d917778d22a0e10138ee.png)
 ## 开启自动发布
 打开这个开关后，我们只要把代码推到 GitHub，平台就会立刻构建并发布，非常省心。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_dbdb46d8ba9f7e1fd4d9f2301dd197bc.png>
+![](img/zhuanqian_dbdb46d8ba9f7e1fd4d9f2301dd197bc.png)
 ## 绑定域名
 我用的域名买自国内服务商，加了一段子域名前缀，解析到 Vercel 就算完成。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_661459b965092c0d10d47e06baa1af9c.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ec3cafa0792547cb6b5df1fc052bd484.png>
+![](img/zhuanqian_661459b965092c0d10d47e06baa1af9c.png)
+![](img/zhuanqian_ec3cafa0792547cb6b5df1fc052bd484.png)
 ## 最后
 「这波经验若能帮到你，记得回社群给个赞👍」

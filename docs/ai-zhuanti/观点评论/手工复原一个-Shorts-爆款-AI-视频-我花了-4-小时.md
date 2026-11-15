@@ -16,36 +16,36 @@
 这次我是用豆包来做图片分析和出图，用 runway 来做图生视频。
 ## 3.1 用豆包拆解描述词
 把截好的图直接丢给豆包，让它描述画面。它能概括出整体构图、主体、配色、光影、风格和背景，但细节会比较粗。要想补服装细节、表情神态，就得继续追问。想把表情动作也复刻到位，描述词就得反复微调。而我最头疼的就是这一步，写出来的词常常和脑子里预期的有那么一点点偏差。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_524ddf7b5c959a2d920635c93971ff39.png>
+![](img/zhuanqian_524ddf7b5c959a2d920635c93971ff39.png)
 ## 3.2 描述词调优时遇到的坑
 我最开始想做像素级还原，干脆让它写一个相似度 90% 的提示词，然后再小修小改。结果出来的效果和之前差不多。想想也正常，几句话很难覆盖上千像素的信息。所以我放弃了追求完全一致的想法，后来连可灵也测了，同样一段描述，不同平台出来的画风天差地别。应该是模型差异决定的。能有 70-80% 的相似度我就认了，毕竟同一个平台也做不出 100% 一样的图。
 关键词和实际效果对不上
 我说要猫咪抬脚踹人，它纹丝不动；让它坐下，它也不坐；想让自行车倒在地上，我把能想到的词全塞进去，它就是竖着立。总结了几种典型状况：
 1. 平台识别不到这个词。踢人、抬腿没反应，换成“奔跑”，画面看起来就像在踢。
 2. 平台本身就不太吃这个设定。比如猫咪骑车的场景，我想让车倒地，试了无数种说法都不行，
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_99d27f2de9eaf990adbf19179263400a.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_74ba2875a449c5b79b5bd33956f9e7d8.png>
+![](img/zhuanqian_99d27f2de9eaf990adbf19179263400a.png)
+![](img/zhuanqian_74ba2875a449c5b79b5bd33956f9e7d8.png)
 做着做着我都开始怀疑自己，是不是我表达有问题。转念一想，我是赚钱人，不能自我怀疑。于是我现场拍了一张真实倒地的自行车照片丢进去，让它先读图再生成，甚至照着它给的建议去调倾斜角度，还是不行。说明平台能看懂，但做不到，那就放弃，换个平台再试。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_497dafa450f27c700447c402d8c691bd.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f2008c53c5a0a8f8cc6d68a88e1a9997.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_10e709495fb5af4e7cc76e7a74dab270.png>
+![](img/zhuanqian_497dafa450f27c700447c402d8c691bd.png)
+![](img/zhuanqian_f2008c53c5a0a8f8cc6d68a88e1a9997.png)
+![](img/zhuanqian_10e709495fb5af4e7cc76e7a74dab270.png)
 最后的结果就是猫摔了，车还好端端地立着，倒也符合物理逻辑。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0f6f339a8983c11e5c63b276b57a7b05.png>
+![](img/zhuanqian_0f6f339a8983c11e5c63b276b57a7b05.png)
 3. 描述词的结构不对位。关键词放的位置不同，结果也不同。最懂自己模型的还是模型本身，直接问它就行，
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_54c4cc40332e4783a683905391ba85e8.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a5f79706357c0f41cd4bcc63cedeb2db.png>
+![](img/zhuanqian_54c4cc40332e4783a683905391ba85e8.png)
+![](img/zhuanqian_a5f79706357c0f41cd4bcc63cedeb2db.png)
 当生成的图和你想要的不一样时，有时候不是词不够，是词的位置没放对。对照平台的推荐结构调整一下顺序，往往一次就过了。
 比如我想要猫咪坐在梳妆台上，之前怎么改都生成不出来。后来按建议把猫咪放到第二主体位置，并明确写出它的空间关系，一次就成功了。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4c9542de271cc836cc06fd4ac265cd5d.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_dacbf725ea3dcf030f3c00bdd2e08746.png>
+![](img/zhuanqian_4c9542de271cc836cc06fd4ac265cd5d.png)
+![](img/zhuanqian_dacbf725ea3dcf030f3c00bdd2e08746.png)
 ## 3.3 保持人物/角色风格统一
 这是个有剧情的视频，主体必须一直是同一个人/同一只猫。豆包每次读图给出的描述细节都不一样，有时候衣服没了，有时候猫的类型变了，颜色都换了。所以第一次把主体定好后，就把那段描述复制下来，后面每张图的描述里都强制带上，能省很多试错成本。
 ## 3.4 图片比例怎么控
 要出 9:16 的竖屏图，如果先生成再改比例，画面会被拉变形。用平台自带的扩展功能就不一样，比例改了内容基本不变。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_22fb8fecd56d04da55f35348252adb3c.png>
+![](img/zhuanqian_22fb8fecd56d04da55f35348252adb3c.png)
 # 4. 图转视频
 图定下来后就开始动了。我用的是 runway，可灵我也试过，流畅度没 runway 丝滑。操作很简单，上传图片，把豆包生成的中文描述直接用豆包翻译成英文丢进去，没做其他改动，
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a26fa9375439aed1b0deb598b74a5d04.png>
+![](img/zhuanqian_a26fa9375439aed1b0deb598b74a5d04.png)
 生成很快，下好就完事。把所有关键帧按同样流程跑一遍，就得到一串小视频。
 # 5. 剪辑成片
 直接剪映里拼就行了，加个背景音乐，把每段时长和节奏微调一下，成品就出来了。

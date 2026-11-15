@@ -14,19 +14,19 @@ https://cloud.siliconflow.cn/i/mpN7Zqif
 你我都能额外拿到2000万token。实话实说，我自己用得太顺手，最后干脆充值了，感谢大家支持🌹
 ### 配置方法
 - **第一步，填好API Key**：在Cherry Studio中找到模型服务设置，把Key粘贴进去，具体界面见下：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e1500ace2c88391fa855b1ddfbc57a9a.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4326a37162bf8941ee3fffeedbc59dbb.png>
+![](img/zhuanqian_e1500ace2c88391fa855b1ddfbc57a9a.png)
+![](img/zhuanqian_4326a37162bf8941ee3fffeedbc59dbb.png)
 - **第二步，获取硅基流动API Key**：到硅基流动控制台，生成并复制你的专属Key，跟着截图操作就行：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6aadf956dc4392f201ea9747720b86ad.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cac9cc0db83915f0c1f7194aeeab46b3.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b8c13ce83fb9b7177595076822271126.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_de8bb82a448b2a51989b0b82c7226627.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8516ddab4610995a5cb151c139fb68d7.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d0fa19d5773289c9b3f46567a479ef2c.png>
+![](img/zhuanqian_6aadf956dc4392f201ea9747720b86ad.png)
+![](img/zhuanqian_cac9cc0db83915f0c1f7194aeeab46b3.png)
+![](img/zhuanqian_b8c13ce83fb9b7177595076822271126.png)
+![](img/zhuanqian_de8bb82a448b2a51989b0b82c7226627.png)
+![](img/zhuanqian_8516ddab4610995a5cb151c139fb68d7.png)
+![](img/zhuanqian_d0fa19d5773289c9b3f46567a479ef2c.png)
 - **第三步，开始使用**：回到Cherry Studio对话窗口，选好模型即可畅快聊天：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f08c201f958fde73f6b1981e92585aaf.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_47591df82a78e25180b6f74a4a6637f0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_39c6826805ac558add8cd65e94562e01.png>
+![](img/zhuanqian_f08c201f958fde73f6b1981e92585aaf.png)
+![](img/zhuanqian_47591df82a78e25180b6f74a4a6637f0.png)
+![](img/zhuanqian_39c6826805ac558add8cd65e94562e01.png)
 ## 手机端就用这套：Chatbox 加硅基流动
 目前Cherry Studio没有手机版，所以我手机上换成了Chatbox，日常使用完全够用。
 **下载Chatbox AI**：https://chatboxai.app/zh
@@ -36,16 +36,16 @@ https://cloud.siliconflow.cn/i/mpN7Zqif
 邀请码：mpN7Zqif
 注册成功后照样双方各送2000万token。
 **手机端配置**：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_923edc288138f202b0ef481d351b3906.png>
+![](img/zhuanqian_923edc288138f202b0ef481d351b3906.png)
 ## 还想玩点花的？Cherry Studio知识库+智能体了解一下
 如果只是聊天还不够，Cherry Studio还能用来搭个人知识库，官方教程放这里了：
 https://docs.cherry-ai.com/knowledge-base/knowledge-base
 具体界面效果：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_65458c0a6af75491d16c889c0bc79b4e.png>
+![](img/zhuanqian_65458c0a6af75491d16c889c0bc79b4e.png)
 除了知识库，你也可以在里面创建专属智能体，相当于定制一个自己的AI助手：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6821c004a0e826098d3ee93060380ad6.png>
+![](img/zhuanqian_6821c004a0e826098d3ee93060380ad6.png)
 如果不想从零开始，它还带了一个智能体库，里面有不少现成角色可选，调用起来特别顺畅：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ce23b59b1f061e298a68c8fbc4d97715.png>
+![](img/zhuanqian_ce23b59b1f061e298a68c8fbc4d97715.png)
 关于智能体的用法，之前专门写过一篇详细介绍。大家在实操中觉得有用的话，欢迎登录飞书账号给文档点个赞，你们的鼓励我都会看到🌹
 我最初也是技术小白，所以分享时尽量讲得通俗，有说得不到位的地方，还请各位多指正🙏
 另外，我的另一篇文档在私域已经破千浏览了，大家有兴趣的话也可以去看看~

@@ -5,11 +5,11 @@
 ## ① Kimi
 如果有条件直接打开：https://kimi.moonshot.cn
 要是网络环境不需要特殊手段，那用Kimi最省事。国内这些大模型里，我日常用得最多的就是它，支撑课程制作足够。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d70e5114cfbcce14a9102f51a89c5998.png>
+![](img/zhuanqian_d70e5114cfbcce14a9102f51a89c5998.png)
 ## ② GPT
 入口在：https://chat.openai.com/chat
 GPT的话，预算允许就上GPT-4o，手感非常顺。免费版GPT拿来做课，坦白说不如Kimi给力。充值GPT Plus有个省钱法子：支付宝里搜“Pockyt Shop”小程序，买苹果充值卡，免手续费，按汇率折算就行～
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3dac97acb02d4187310d0efe04dad64c.png>
+![](img/zhuanqian_3dac97acb02d4187310d0efe04dad64c.png)
 ## ③ Claude
 官网：https://www.anthropic.com/
 Claude更适合写故事类爆款文章，它的Prompt更贴近日常说话，文字细腻、有温度，出来的内容人情味更浓，AI腔比较淡。等课纲框架出来后，让Claude帮忙补充具体讲述内容，效果很赞。不过Claude同样需要魔法，还得付费。没这些条件的同学直接用Kimi就够，后续我会给大家准备“去AI味”的Prompt，达到类似效果，不影响。
@@ -20,7 +20,7 @@ Claude更适合写故事类爆款文章，它的Prompt更贴近日常说话，�
 <4> 今天聊的是大模型，做课还会用到其他AI工具和平台，后面慢慢讲。而且这类模型迭代特别快，我会持续跟踪前沿动态，从实操出发，不断更新推荐清单。
 # 两套Prompt框架直接套用，迈出做课第一步
 先说说Prompt是什么。有朋友可能没接触过，别急着翻搜索引擎，直接问AI就好，这是我很建议大家养成的使用习惯。不信你看我是怎么问Kimi的，再看看它的回答：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fe2c3de5d44ff2746155e396540fa55b.png>
+![](img/zhuanqian_fe2c3de5d44ff2746155e396540fa55b.png)
 大家可以品一下Kimi的回复，基本符合我的要求：讲得明白、说得通俗、重点够清晰。这里有个小细节不知道你发现没——我提问之前，先把课纲内容喂给了它。这样AI能准确理解问题的来龙去脉，回答自然更靠谱。这属于和AI协作的小技巧，也是它的思维方式，值得反复体会。
 知道了Prompt的概念，下面进入正题：两种经典的写法，【BRTRS法】和【LangGPT结构化写法】。之后我们也会直接给出打磨好的做课Prompt，你可以直接套用到每一个能提效的做课环节。但前提是，得先搞懂这两种框架的基本原理。
 ## ① BRTRS法
@@ -58,7 +58,7 @@ S：Study，学习。丢一个范本给它，让AI照着例子模仿。
 第九讲：录课没那么复杂，用对工具和素材，高效呈现效果惊艳
 第十讲：课程上架全新技巧，简单好用，成本更低
 🎯让Kimi跑一下，看看效果：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_96a524441c34167b19ab87c6f504b491.png>
+![](img/zhuanqian_96a524441c34167b19ab87c6f504b491.png)
 生成得怎么样？是不是还挺像样？如果你真打算做《AI少儿入门指南》这门课，这个大纲的参考价值还是蛮大的。当然，刚才演示的是最基础的用法，很多细节没来得及打磨。后面的教学里，我们会把精细调校过的做课Prompt模板直接拿出来分享。
 ## ② LangGPT结构化写法
 ●【LangGPT结构化框架长这样】
@@ -120,7 +120,7 @@ S：Study，学习。丢一个范本给它，让AI照着例子模仿。
 第九讲：录课没那么复杂，用对工具和素材，高效呈现效果惊艳
 第十讲：课程上架全新技巧，简单好用，成本更低
 🎯来看看LangGPT写法下，Kimi给出的课纲效果：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7ab0230f6d6c4781b180bf2c1b0d5e79.png>
+![](img/zhuanqian_7ab0230f6d6c4781b180bf2c1b0d5e79.png)
 效果是不是也在线？真拿它去做《AI少儿入门指南》，参考价值应该不小。觉得有收获的话，记得给半目老师点个赞，也欢迎在评论区写下你的想法或问题，只要时间允许，我会尽量逐条回复。你们的热度是我继续输出干货的动力！
 ⚠️留意一下：跑LangGPT时，AI有时候会“偷懒”，不老老实实执行Workflows。碰到这种情况，把这段指令发给它就好：
 请按Workflow来输出：

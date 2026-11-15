@@ -2,7 +2,7 @@
 是不是常常被这些事拖住：把用户评论一条条抠出来、把素材改写成产品文案、从长篇内容里抽出要点…… 听起来不大，但做起来就是个无底洞。最近我自己就卡在同一个点上：已经爬好了小红书的笔记和评论，想基于这些原始数据判断用户偏好，再结合过往爆款做二次创作。可一条条手动复制、粘贴到提示词里再生成，效率低到让人想放弃。能不能让Excel直接批量跑起来？
 恰好这次航海期主打AI+编程，我就照着AI编程的思路，撸了一个小工具来帮自己解套。
 过去处理这类指定列的Excel数据，我主要靠 Notion 或飞书。比如飞书多维表格里，可以对某列内容调用内置AI做分析或创作。但说实话，这两家的体验都有天花板：流程不够自由、一次性处理的条数受限。更关键的是模型层面，Notion AI 和飞书豆包和市面上的 GPT-4o、Gemini Pro 相比，能力差距明显。要真当成生产力工具用，还差得远。而飞书和Notion目前只允许用自带模型，无法按任务需求切换不同擅长的模型，定制化几乎为零。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b51f3d066eca4cb690b43a257e6800b6.png>
+![](img/zhuanqian_b51f3d066eca4cb690b43a257e6800b6.png)
 基于这个痛点，用影刀+RPA思路结合Python脚本调用AI API，完全可以把飞书、Notion表格里那种对列数据做AI处理的体验搬出来，而且成本更低、自由度更高，批量分析与处理的效率能直接拉满。
 这种打通Excel与大模型的流水线能干什么？
 *   爬取回来的小红书、抖音评论，一键跑情感分类，好评差评瞬间分清，不用人工通读。
@@ -10,11 +10,11 @@
 *   设定好专属 Prompt，给采集到的文案批量做改写、扩写、风格迁移。
 *   面对海量文章、报告，自动抽取核心要点生成精简摘要，信息过载的问题迎刃而解。
 以上只是常见场景的冰山一角。下面我就拿采集到的小红薯笔记评论做实操演示，用AI判定评论的情感倾向。Prompt完全可自定，既能做情感判断，也能挖掘评论背后的隐性需求，具体怎么用看你业务需要。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cd1d6318bd90e772830c58fffcc730aa.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8a77d8602847e3a021a964d194988a75.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ebd64df9532b6bc9e0c21401b186afd1.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_44620394468cc5f1c2404a7adedb7043.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_34e927b74eb3cc86404a1e29d144d810.png>
+![](img/zhuanqian_cd1d6318bd90e772830c58fffcc730aa.png)
+![](img/zhuanqian_8a77d8602847e3a021a964d194988a75.png)
+![](img/zhuanqian_ebd64df9532b6bc9e0c21401b186afd1.png)
+![](img/zhuanqian_44620394468cc5f1c2404a7adedb7043.png)
+![](img/zhuanqian_34e927b74eb3cc86404a1e29d144d810.png)
 我会在文末公开这次脚本的生成 Prompt。哪怕你零编程基础，把它丢给 GPT-4 或 Claude 也能快速跑出可用代码，再根据实际反馈微调即可。
 这背后传递的信号很清晰：数据处理不再是程序员的专利。把重复劳动交给自动化，每个人都能低门槛玩转数据分析，从数据里扒出真正有价值的洞察，让数据替你做决策、用数据预判趋势、优化策略，真正把数据的价值握在自己手里。
 下面是我最终落地的原始提示词，直接复制给 Claude 3 或 GPT-4，按返回结果迭代几轮就能跑通整套流程，有兴趣的朋友可以照做复现。

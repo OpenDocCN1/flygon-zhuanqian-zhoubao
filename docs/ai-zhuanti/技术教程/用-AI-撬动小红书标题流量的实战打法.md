@@ -50,7 +50,7 @@
 ```
 封装成 GPTs：https://chatgpt.com/g/g-3j5KZx2XV-xiao-hong-shu-biao-ti-sheng-cheng-zhu-shou
 跑出来的效果
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9238e06b22aa794a46df0df54d714106.png>
+![](img/zhuanqian_9238e06b22aa794a46df0df54d714106.png)
 按知识库生成的标题就出来了。
 不过要提醒，公式也有保质期，过度依赖陈旧模板会掉点击。所以要定期抓取新数据更新公式库。
 接下来讲行业侧的公式怎么抓。
@@ -59,7 +59,7 @@
 这个环节对 AI 操作和灰豚数据的熟练度要求比较高，GPT4 体验会更顺。
 ### 先拿到行业标题样本
 以养生为例，用灰豚数据平台采集
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f5248212e21e34538d5db1c8ca4e7207.png>
+![](img/zhuanqian_f5248212e21e34538d5db1c8ca4e7207.png)
 操作路径如下：
 1. 进入笔记搜索
 2. 输入行业关键词
@@ -69,7 +69,7 @@
 6. 商业笔记可不限
 看数量后导出，需要个人版会员以上，哆元之前发的福利就能用上
 注意平台最多导出 1000 条，但对做公式提炼已经够用了
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5e96924c211d224daf2bc7a76d8fad0e.png>
+![](img/zhuanqian_5e96924c211d224daf2bc7a76d8fad0e.png)
 整理字段后，保留对标题分析有用的信息即可。
 拿到的这批数据能做很多事，这里只做一件事：提炼标题公式。
 ### 提示词参考
@@ -118,9 +118,9 @@
 提炼规律是输出为：句子加XX的形式
 ```
 把爆款标题丢给 AI
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_30fb8932747af80f16ce500b4ac39321.png>
+![](img/zhuanqian_30fb8932747af80f16ce500b4ac39321.png)
 模型就会开始归纳
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b784d1437973e715f426e2b5a679d1ca.png>
+![](img/zhuanqian_b784d1437973e715f426e2b5a679d1ca.png)
 得到模板后，有两种用法：直接套用，或整理成知识库再接入第一部分的生成提示词。
 ## 三、二创标题
 很多时候爆款标题改一改就能复用。
@@ -173,7 +173,7 @@
 ```
 注意这里需要关联前面的知识库
 实测效果
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b34f193e831f2ea718a5ee8754627077.png>
+![](img/zhuanqian_b34f193e831f2ea718a5ee8754627077.png)
 学标题不能只学套路，还要懂它为什么好。下一部分就是拆解人性。
 ## 四、爆款标题拆解助手
 拆公式只是表层，真正想提升的是理解标题背后的人性触发点。用 AI 来做这种拆解，学习效率很高。
@@ -206,7 +206,7 @@
 1、引导用户输入小红书完整标题
 2、深呼吸，一步一步思考输出
 豆包跑出来的效果
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9b86cff51e9c2369d066e3e8543e3140.png>
+![](img/zhuanqian_9b86cff51e9c2369d066e3e8543e3140.png)
 横向表格看着累，所以开始迭代。
 提示词迭代有个好习惯：不要在原版本上直接改，复制一份新建版本，这样改动轨迹清晰，方便回溯。
 我让它改成纵向输出。
@@ -228,7 +228,7 @@
 ##要求：
 必须输出纵向表格
 怎么改要求都没用，还是老样子
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_475c4fc0199b6c2ad2c0168a62886e26.png>
+![](img/zhuanqian_475c4fc0199b6c2ad2c0168a62886e26.png)
 这时候别硬扛，给一个格式示例最直接。
 #### 第三版提示词参考（迭代中）
 ##角色：
@@ -251,14 +251,14 @@
 1、引导用户输入小红书完整标题
 2、深呼吸，一步一步思考输出
 豆包这下能对上了
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6c23aecafda9d479011c96ae6e8e74fb.png>
+![](img/zhuanqian_6c23aecafda9d479011c96ae6e8e74fb.png)
 换到 Kimi 就又乱了
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f25e186a27a3f59fc44a0d2054c612bd.png>
+![](img/zhuanqian_f25e186a27a3f59fc44a0d2054c612bd.png)
 GPT4 倒是能按格式出
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_93b4406f51054ab13ae13ed25b7e50e6.png>
+![](img/zhuanqian_93b4406f51054ab13ae13ed25b7e50e6.png)
 很多人到这会放弃，其实可以让 AI 自己给修改建议。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d579056c7891f62fc8de059d3eb6898b.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_13e8fa6fcecca245cfa26ba01dbd1b5b.png>
+![](img/zhuanqian_d579056c7891f62fc8de059d3eb6898b.png)
+![](img/zhuanqian_13e8fa6fcecca245cfa26ba01dbd1b5b.png)
 据此再改一版
 #### 第四版提示词参考（迭代中）
 ##角色：
@@ -283,7 +283,7 @@ GPT4 倒是能按格式出
 ##注意：
 1、严格根据用户提供的标题来拆解
 Kimi 这回正常了
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ef730f71ff8487a9cf773e4134a4513a.png>
+![](img/zhuanqian_ef730f71ff8487a9cf773e4134a4513a.png)
 到这里格式问题基本解决，还能继续优化。
 比如让模型先用文本把思考过程写出来，再输出表格。因为表格会压缩信息，提前的文本链路能保留更多洞察。
 #### 第五版提示词参考（迭代中）
@@ -313,39 +313,39 @@ Kimi 这回正常了
 ##注意：
 1、先提前以文本输出详细的步骤思考，最后再以表格输出
 豆包效果
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0feaec9610efd1709c57120801e15eca.png>
+![](img/zhuanqian_0feaec9610efd1709c57120801e15eca.png)
 多测几款工具挑最稳的
 Kimi 测试
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c8db59eda6bbcdb75aface11f1456509.png>
+![](img/zhuanqian_c8db59eda6bbcdb75aface11f1456509.png)
 到这里已经迭代了 5 个版本，能感受到无论是运营还是写提示词，都是靠无数次小迭代堆出来的。
 优化完思考链条后，下一步可以再丰富输入维度，让拆解更准、更有迁移价值。
 #### 最后一步提示词迭代
 很多人以为哆元什么都知道，其实还真不是。有些提示词细节，靠自己想破头也未必完善，这时候就得让AI来帮我们二次打磨。大家集中注意力，我们进入正题。
 不同的AI工具有各自的强项，不能只盯着一家用，索性把主流工具都拉出来挨个实测一遍。
 先从豆包开始，让它帮我们优化提示词。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6079fc8e93e997cc848484aa22433693.png>
+![](img/zhuanqian_6079fc8e93e997cc848484aa22433693.png)
 它给出的结果出来了。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fdbc73cf31c2b1555267df639543e238.png>
+![](img/zhuanqian_fdbc73cf31c2b1555267df639543e238.png)
 怎么说呢，这个版本确实做了不少改进，比如输出格式里的占位符、整个输出流程，还有末尾的注意事项，都比原来清晰了不少。
 废话不多说，直接复制到新窗口里跑一下实际效果。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_67818de227f4f0382e04ab6e36fd88eb.png>
+![](img/zhuanqian_67818de227f4f0382e04ab6e36fd88eb.png)
 我有感觉，确实比之前那个版本进步了一些。
 接下来轮到Kimi上场，看看它能怎么改。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ae4e2b7220418e3afaa15118c3af98d5.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0ad78bd7a242efe05c92e70f9ebdc1a2.png>
+![](img/zhuanqian_ae4e2b7220418e3afaa15118c3af98d5.png)
+![](img/zhuanqian_0ad78bd7a242efe05c92e70f9ebdc1a2.png)
 好家伙，Kimi这版直接把提示词动了大手术，改动幅度相当大。不过其中也冒出了不少优化灵感。先不管太多，直接拉去测试看看。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7db92f9c4158849bf0fbb2002d8e6a37.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_65563b8400700a889ba0e3a876e31da3.png>
+![](img/zhuanqian_7db92f9c4158849bf0fbb2002d8e6a37.png)
+![](img/zhuanqian_65563b8400700a889ba0e3a876e31da3.png)
 怎么说呢，部分内容还算能用，但最后那个表格的输出结果，确实没达到心理预期。
 继续，换GPT4o再试一把。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7827d0692e1d503586437dab98e20cfa.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_00d5c90d3c6836f523223ed2b396b700.png>
+![](img/zhuanqian_7827d0692e1d503586437dab98e20cfa.png)
+![](img/zhuanqian_00d5c90d3c6836f523223ed2b396b700.png)
 个人感觉GPT4这个优化版本就靠谱多了，至少逻辑更顺。再来验证一下实际效果。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_79db3b8c7ff595cea3383f8d8a1b6d7b.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c3569560b1b03bd86413ba49c551927c.png>
+![](img/zhuanqian_79db3b8c7ff595cea3383f8d8a1b6d7b.png)
+![](img/zhuanqian_c3569560b1b03bd86413ba49c551927c.png)
 还真挺不错的，它给了一堆分析标题的角度。这时候我们又追加了一句指令，让AI再多挖一些分析维度出来。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_87ed09cfbef592cb920ee00a67639fd2.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d072a9b2413011dc525bc8a4fce44c53.png>
+![](img/zhuanqian_87ed09cfbef592cb920ee00a67639fd2.png)
+![](img/zhuanqian_d072a9b2413011dc525bc8a4fce44c53.png)
 这样一来，手上的参考维度就丰富多了。
 最后，哆元综合这三个工具的产出，亲自操刀做了个融合优化版。
 ### 最终版提示词参考
@@ -415,15 +415,15 @@ Kimi 测试
 ```
 来展示一下效果。注意，AI输出的东西不一定百分之百准确，但它能带来启发和学习价值，这个很关键。
 先看Kimi的。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5ccca1d07439c5cacb649a98c1789e18.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5a5b39487802fca4cce0402df3822a7a.png>
+![](img/zhuanqian_5ccca1d07439c5cacb649a98c1789e18.png)
+![](img/zhuanqian_5a5b39487802fca4cce0402df3822a7a.png)
 再看看豆包这边。
 豆包
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_08b3e25f7f3f3da94cb7652108b64810.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_04b6640c5b0a23380cebfbd9831f7c89.png>
+![](img/zhuanqian_08b3e25f7f3f3da94cb7652108b64810.png)
+![](img/zhuanqian_04b6640c5b0a23380cebfbd9831f7c89.png)
 然后是GPT4。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_656b1b8bc9e4474d53263e41dd885982.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_dced8346ee2aa994a5520f783345eef1.png>
+![](img/zhuanqian_656b1b8bc9e4474d53263e41dd885982.png)
+![](img/zhuanqian_dced8346ee2aa994a5520f783345eef1.png)
 到这里先告一个段落。其实还有很多可以继续打磨的空间，但走到这一步，我们已经捞到了大量的灵感与参考资料。
 不知道大家发现没有，整个过程完全没被某一个工具绑死，我们把多个AI工具串联起来用，同时把结构化提示词、迭代记录、示例注入、反哺式学习这些技巧也都串进去了。
 相信看完这一篇，多多少少都能带走点东西。后面哆元还会持续输出更多实用干货，记得蹲一波。

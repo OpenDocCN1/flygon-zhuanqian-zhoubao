@@ -4,7 +4,7 @@
 本期就来介绍一种完全免费的方法：使用 Google Analytics 监测海外网站数据。
 如果你的网站已经运行了几个月，也可以考虑使用更完善的分析工具，例如 AITDK 谷歌插件。
 ## 先看看最终效果
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_68ad4ab8372c41150cae48fe793e703c.png>
+![](img/zhuanqian_68ad4ab8372c41150cae48fe793e703c.png)
 ## Google Analytics 能做什么？
 Google Analytics 虽然免费，但功能相当全面。对于新站来说，以下几类数据尤其值得关注。
 ### 1. 查看流量来源
@@ -57,9 +57,9 @@ Google Analytics 虽然免费，但功能相当全面。对于新站来说，以
 访问：
 https://analytics.google.com/analytics/
 如果尚未登录，需要先使用 Google 账号登录。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6dc3dcaa24bec5efae7a9e8c8b7a01ed.png>
+![](img/zhuanqian_6dc3dcaa24bec5efae7a9e8c8b7a01ed.png)
 进入后台后，点击左下角的设置按钮，再点击设置页面中的“媒体资源”。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_17d8148dcdb4dc046149865eb921a80a.png>
+![](img/zhuanqian_17d8148dcdb4dc046149865eb921a80a.png)
 ## 第二步：填写媒体资源名称
 “媒体资源名称”可以理解为网站在 Google Analytics 里的备注名称，主要是方便你日后管理和识别。
 不必过度纠结，填写一个自己看得懂的名称即可。
@@ -72,7 +72,7 @@ https://analytics.google.com/analytics/
 1. 名称建议不少于 4 个字符，且不要超过 100 个字符。
 2. 中文、英文或数字都可以。
 3. 这个名称主要供自己查看，访客不会看到。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_56d98a3b4416957a8aae7e0dbd2d85b0.png>
+![](img/zhuanqian_56d98a3b4416957a8aae7e0dbd2d85b0.png)
 ## 第三步：选择行业和业务规模
 根据网站实际内容，选择最接近的行业类别。
 常见选项包括：
@@ -87,31 +87,31 @@ https://analytics.google.com/analytics/
 - 其他业务活动：没有合适分类时选择
 例如，我的网站主要提供拉布布壁纸图片，可以选择“购物”。
 如果你做的是 AI 绘画、AI 视频等内容，则可以考虑选择“艺术与娱乐”。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_38dae1525e0640bcccf414f99aae81e7.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cc040dbee0477a4db24935d78bdf197b.png>
+![](img/zhuanqian_38dae1525e0640bcccf414f99aae81e7.png)
+![](img/zhuanqian_cc040dbee0477a4db24935d78bdf197b.png)
 ## 第四步：设置业务目标
 接下来，系统会让你选择网站的业务目标。
 这些选项基本都是按照字面理解即可。理论上可以全部勾选，但官方更建议选择 1—2 项，这样系统推荐的报告和分析方式会更加贴合你的实际需求。
 官方说明可参考：
 https://support.google.com/analytics/answer/12924488?hl=zh-Hans
 也就是 GA4 中的“业务目标”设置。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5f4c43535472782af53ff29c3181f3f8.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b7acfd40fa03d7460db78219e1c17ef0.png>
+![](img/zhuanqian_5f4c43535472782af53ff29c3181f3f8.png)
+![](img/zhuanqian_b7acfd40fa03d7460db78219e1c17ef0.png)
 ## 第五步：选择数据收集平台
 因为我们搭建的是海外网站，所以这里选择“网站”。
 随后填写网站地址，包括网站 URL 等信息，然后点击右上角的“创建并继续”。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ddd0481fa9ae59be06d671cb5e412337.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_91f05d0bd82574b428825b9f9d40036e.png>
+![](img/zhuanqian_ddd0481fa9ae59be06d671cb5e412337.png)
+![](img/zhuanqian_91f05d0bd82574b428825b9f9d40036e.png)
 ## 第六步：创建数据流
 进入数据流设置页面后，继续添加网站数据流。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3c2fa5c091020d0539c72ebd46e5c895.png>
+![](img/zhuanqian_3c2fa5c091020d0539c72ebd46e5c895.png)
 ## 第七步：安装追踪代码
 创建完成后，Google Analytics 会生成一段代码，需要放到网站中。
 如果网站包含多个页面，就需要确保每个页面的 `head` 元素中都加入这段代码。
 如果网站只有一个主页面，添加一次通常就可以。
 不熟悉代码也没关系，可以直接让 Cursor 协助完成。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b72f9459e9120a0e71ae00031777773b.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d95c3d88fa0f72b819167ca97fb682f4.png>
+![](img/zhuanqian_b72f9459e9120a0e71ae00031777773b.png)
+![](img/zhuanqian_d95c3d88fa0f72b819167ca97fb682f4.png)
 下面是让 Cursor 自动添加代码时可以使用的提示词。
 ```
 请帮我把 Google Analytics 提供的追踪代码，添加到这个项目的所有页面中。具体要求如下：
@@ -122,7 +122,7 @@ https://support.google.com/analytics/answer/12924488?hl=zh-Hans
 ```
 代码修改完成后，将内容提交到 GitHub，再由 Vercel 自动完成部署。
 需要注意的是，代码部署后不会马上显示数据。一般要等待 1—2 天，很多情况下第二天就能看到结果。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_dde86149e3ab8e3e47285abfa1756b8a.png>
+![](img/zhuanqian_dde86149e3ab8e3e47285abfa1756b8a.png)
 后续只需要定期进入 Google Analytics，观察网站的访问量、流量来源、热门页面和用户行为，就能逐步判断网站哪些地方表现不错，哪些地方还需要优化。
 新站上线只是起点，持续看数据，才知道接下来应该往哪里发力。
 祝大家早日迎来属于自己的“泼天流量”！

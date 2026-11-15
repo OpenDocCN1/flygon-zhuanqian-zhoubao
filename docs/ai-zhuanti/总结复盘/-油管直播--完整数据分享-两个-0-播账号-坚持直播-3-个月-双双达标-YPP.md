@@ -11,7 +11,7 @@
 4 月底报名深海圈的油管直播项目，第一次吃到正向反馈。
 到 7 月底，我手里在跑的 3 个油管直播号，有 2 个已经达标 YPP，一个拿下高级，一个拿下初级。跟顶尖玩家比起来不值一提。
 但鉴于不少圈友正准备入局直播，或正卡在 0 播的瓶颈期，我把这份 0 播账号的完整数据拿出来，供大家参考。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fcd37496a4e91b40ef3d81318afe2e2d_0_0.png>
+![](img/zhuanqian_fcd37496a4e91b40ef3d81318afe2e2d_0_0.png)
 油管直播最大的痛点，就是直播间一直 0 播，断断续续 0 播。这篇内容，我就用自己两个从 0 开始的账号数据，来推演一套直播推流的时间线。
 ## 为什么做油管直播
 直播给账号带来的三层价值：
@@ -26,15 +26,15 @@
 内测后我精简到 3 个号持续运营，到 7 月 20 日的数据如下：
 ## 0 播要熬多久才会推流？推流时间线拆解
 内测结束后复盘时，我怀疑推流和粉丝量强相关。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fcd37496a4e91b40ef3d81318afe2e2d_2_0.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fcd37496a4e91b40ef3d81318afe2e2d_2_1.png>
+![](img/zhuanqian_fcd37496a4e91b40ef3d81318afe2e2d_2_0.png)![](img/zhuanqian_fcd37496a4e91b40ef3d81318afe2e2d_2_1.png)
 内测期间有流量的 2 个号，粉丝都已经 500+。
 而数据特别好的圈友，基本都是用做过 Shorts、粉丝基数大的老号来开播。
 为了验证这个假设，我用两个账号做了对照。
 账号 1，5 月 1 日新注册，0 粉起步，持续开播，从未中断。
 账号 2，2025 年 12 月 20 日注册，起播时有 31 个订阅。内测结束后多次断更，用发短视频的方式养号，再恢复直播。
 ## 账号 1：全程不断播的数据截图
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fcd37496a4e91b40ef3d81318afe2e2d_3_0.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fcd37496a4e91b40ef3d81318afe2e2d_3_1.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fcd37496a4e91b40ef3d81318afe2e2d_3_2.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fcd37496a4e91b40ef3d81318afe2e2d_3_3.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fcd37496a4e91b40ef3d81318afe2e2d_3_4.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fcd37496a4e91b40ef3d81318afe2e2d_3_5.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fcd37496a4e91b40ef3d81318afe2e2d_4_0.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fcd37496a4e91b40ef3d81318afe2e2d_4_1.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fcd37496a4e91b40ef3d81318afe2e2d_4_2.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fcd37496a4e91b40ef3d81318afe2e2d_4_3.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fcd37496a4e91b40ef3d81318afe2e2d_4_4.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fcd37496a4e91b40ef3d81318afe2e2d_4_5.png>
+![](img/zhuanqian_fcd37496a4e91b40ef3d81318afe2e2d_3_0.png)![](img/zhuanqian_fcd37496a4e91b40ef3d81318afe2e2d_3_1.png)![](img/zhuanqian_fcd37496a4e91b40ef3d81318afe2e2d_3_2.png)![](img/zhuanqian_fcd37496a4e91b40ef3d81318afe2e2d_3_3.png)![](img/zhuanqian_fcd37496a4e91b40ef3d81318afe2e2d_3_4.png)![](img/zhuanqian_fcd37496a4e91b40ef3d81318afe2e2d_3_5.png)
+![](img/zhuanqian_fcd37496a4e91b40ef3d81318afe2e2d_4_0.png)![](img/zhuanqian_fcd37496a4e91b40ef3d81318afe2e2d_4_1.png)![](img/zhuanqian_fcd37496a4e91b40ef3d81318afe2e2d_4_2.png)![](img/zhuanqian_fcd37496a4e91b40ef3d81318afe2e2d_4_3.png)![](img/zhuanqian_fcd37496a4e91b40ef3d81318afe2e2d_4_4.png)![](img/zhuanqian_fcd37496a4e91b40ef3d81318afe2e2d_4_5.png)
 ## 账号 1 推流时间线
 - 5 月 7 日起播，一直 0 播。
 - 5 月 30 日，直播回放开始以长视频形式被展示，每场回放约 1000+ 展示，播放 10-20 个左右，但直播间依旧 0 播。
@@ -42,7 +42,7 @@
 - 7 月 1 日更换赛道后迎来小爆发，观看量从前一天的 130 直接跃到 4464，翻了 40 倍。
 - 7 月 19 日，直播累计时长达到油管 4000 小时门槛。
 ## 对照组 账号 2：断播养号后再重启的数据截图
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fcd37496a4e91b40ef3d81318afe2e2d_6_0.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fcd37496a4e91b40ef3d81318afe2e2d_6_1.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fcd37496a4e91b40ef3d81318afe2e2d_6_2.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fcd37496a4e91b40ef3d81318afe2e2d_6_3.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fcd37496a4e91b40ef3d81318afe2e2d_6_4.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fcd37496a4e91b40ef3d81318afe2e2d_6_5.png>
+![](img/zhuanqian_fcd37496a4e91b40ef3d81318afe2e2d_6_0.png)![](img/zhuanqian_fcd37496a4e91b40ef3d81318afe2e2d_6_1.png)![](img/zhuanqian_fcd37496a4e91b40ef3d81318afe2e2d_6_2.png)![](img/zhuanqian_fcd37496a4e91b40ef3d81318afe2e2d_6_3.png)![](img/zhuanqian_fcd37496a4e91b40ef3d81318afe2e2d_6_4.png)![](img/zhuanqian_fcd37496a4e91b40ef3d81318afe2e2d_6_5.png)
 ## 对照组 账号 2 推流时间线
 账号 2 起步不纯净。2025 年 12 月 20 日注册，曾发长视频，数据多数被隐藏。31 订阅起播。
 内测结束后多次停播，期间发短视频养号。
@@ -50,7 +50,7 @@
 - 5 月 8 日，直播回放开始有长视频展示，直播间仍 0 播。
 - 6 月 3 日停播。
 - 6 月 15 日恢复开播，受账号 1 的启发测试恢复效果，直播间果然开始推流，单场观看在 100-200 区间。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fcd37496a4e91b40ef3d81318afe2e2d_7_0.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fcd37496a4e91b40ef3d81318afe2e2d_7_1.png>
+![](img/zhuanqian_fcd37496a4e91b40ef3d81318afe2e2d_7_0.png)![](img/zhuanqian_fcd37496a4e91b40ef3d81318afe2e2d_7_1.png)
 - 7 月 1 日同样更换赛道迎来爆发，第一场 139 观看，第二场直接 5099 观看。
 - 7 月 19 日，直播累计时长达到 3000 小时门槛。
 ## 时间线总结
@@ -80,4 +80,4 @@ https://github.com/ihmily/DouyinLiveRecorder/releases 感谢萧炎大佬分享�
 工具和教程只是基础门槛，真正的门槛是立刻动手和圈层的信息差。
 我们不空谈，只拆商业闭环和 AI 效率。社群内已沉淀 1000+ 跑通的套利实战。
 👉 查看圈子数字资产与入群门槛：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fcd37496a4e91b40ef3d81318afe2e2d_11_0.png>
+![](img/zhuanqian_fcd37496a4e91b40ef3d81318afe2e2d_11_0.png)

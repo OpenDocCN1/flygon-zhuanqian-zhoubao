@@ -4,7 +4,7 @@
 主要涉及模块有：图像流、工作流、画板、大模型、图像生成。
 先说一个原则：设计先行，编码在后。说白了就是，先想清楚，再动手。
 我先定义了输入和输出。输入很简单：节日名称，比如中秋、国庆。输出是一张节日配图。我构想的成品是：一张节日氛围的底图，上方是祝福语，比如“中秋快乐”，下方是一首五言绝句。
-这是我预想的效果图：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5ad8b057f1307cdddf8f16c208e3a486.png>
+这是我预想的效果图：![](img/zhuanqian_5ad8b057f1307cdddf8f16c208e3a486.png)
 Ps：我的审美真的一般，如果你觉得配图效果很烂，你是对的。但请记住，这次的重点不是构图，学会之后你可以自己改。
 如果是你，你会怎么实现它？不妨先花半分钟想一想。
 根据输出效果，我把它拆成了四个问题：
@@ -17,26 +17,26 @@ Ps：我的审美真的一般，如果你觉得配图效果很烂，你是对的
 那诗句又怎么来？这个简单，让大模型写诗就行：输入节日 → 大模型 → 诗句。
 祝福语也一样：输入节日 → 大模型 → 祝福语。
 最后怎么组合？请出Coze里最让人“上头”的功能：画板。
-问题拆完了，画个草图总结一下：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b5eef72acfcf99923c47b4ac3ce0c493.png>
-进入实践环节。由于大模型节点在工作流里，图像生成在图像流里，所以需要把流程图切开。红色框框内是图像流部分，外面的是工作流部分。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_43b556c21834f5ef09bce429593bfb06.png>
+问题拆完了，画个草图总结一下：![](img/zhuanqian_b5eef72acfcf99923c47b4ac3ce0c493.png)
+进入实践环节。由于大模型节点在工作流里，图像生成在图像流里，所以需要把流程图切开。红色框框内是图像流部分，外面的是工作流部分。![](img/zhuanqian_43b556c21834f5ef09bce429593bfb06.png)
 从图里也能看出，图像流需要三个参数：祝福语、诗句、Prompt。我先创建一个图像流，按流程把节点摆好，暂时不管参数。这里我额外加了一个“提示词优化”节点，它会把输入的Prompt转成英文短语。
-图像流的节点排好之后长这样：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2904e6c0c299cdf957062f4c8e5bf0fb.png>
-接下来先做画板，因为画板是最终成品，先做它就能确定最终需要哪些参数。我建了一个3:4的画板，也就是宽1080、高1440：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c2c48cf613e8c189cd59624410623466.png>
-这里遇到的第一个问题：引用图片是正方形，而画板是长方形，得让图片铺满整个画板。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1ae66c9cd9877390d6e6eaa839c7ebb7.png>
-解决办法是，先随便生成一张3:4的图片作为预览图，可以用任意图像生成节点来生成：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e492fc9855c31b6e19e2729881584458.png>
-然后把图片上下左右四个中心点拉到最边缘：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_819094b6b54e6603351b524f310607ca.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5ee32d57964c5382aeb6056e244dd43a.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_42ae8b306cb52438d0697800aaf370ae.png>
+图像流的节点排好之后长这样：![](img/zhuanqian_2904e6c0c299cdf957062f4c8e5bf0fb.png)
+接下来先做画板，因为画板是最终成品，先做它就能确定最终需要哪些参数。我建了一个3:4的画板，也就是宽1080、高1440：![](img/zhuanqian_c2c48cf613e8c189cd59624410623466.png)
+这里遇到的第一个问题：引用图片是正方形，而画板是长方形，得让图片铺满整个画板。![](img/zhuanqian_1ae66c9cd9877390d6e6eaa839c7ebb7.png)
+解决办法是，先随便生成一张3:4的图片作为预览图，可以用任意图像生成节点来生成：![](img/zhuanqian_e492fc9855c31b6e19e2729881584458.png)
+然后把图片上下左右四个中心点拉到最边缘：![](img/zhuanqian_819094b6b54e6603351b524f310607ca.png)![](img/zhuanqian_5ee32d57964c5382aeb6056e244dd43a.png)![](img/zhuanqian_42ae8b306cb52438d0697800aaf370ae.png)
 这样图片就铺满整个画布了。
-接着配祝福语。祝福语有长有短，怎么保证它始终居中？只要选择“多行文本（默认格式）”，把宽度拉满，文字选居中就行。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4a7f80e92a114a507de3d86b03cacd63.png>
-字体颜色和透明度，我选了白色、透明度90（就是红色圈住的按钮）：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f66e813cd9c3ed50bd901a9e7a26d783.png>
-由于Coze的文本框不识别换行符，为了让诗句能一半在上、一半在下，必须把诗句拆成两个参数：content_upper 和 content_lower。配置方式跟祝福语一样，字号48。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5ddcf6e15a292fcce2989ed63776c2fd.png>
-整个画板最麻烦的部分，到这里就配好了。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5980e686e9670f5fa1da96660b086f71.png>
-再把其他几个节点稍微配置一下，整个图像流就完成了。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9182de9582cac44ecf1f4b5cce1991d6.png>
+接着配祝福语。祝福语有长有短，怎么保证它始终居中？只要选择“多行文本（默认格式）”，把宽度拉满，文字选居中就行。![](img/zhuanqian_4a7f80e92a114a507de3d86b03cacd63.png)
+字体颜色和透明度，我选了白色、透明度90（就是红色圈住的按钮）：![](img/zhuanqian_f66e813cd9c3ed50bd901a9e7a26d783.png)
+由于Coze的文本框不识别换行符，为了让诗句能一半在上、一半在下，必须把诗句拆成两个参数：content_upper 和 content_lower。配置方式跟祝福语一样，字号48。![](img/zhuanqian_5ddcf6e15a292fcce2989ed63776c2fd.png)
+整个画板最麻烦的部分，到这里就配好了。![](img/zhuanqian_5980e686e9670f5fa1da96660b086f71.png)
+再把其他几个节点稍微配置一下，整个图像流就完成了。![](img/zhuanqian_9182de9582cac44ecf1f4b5cce1991d6.png)
 试运行一下，能跑通就发布。
-接着做工作流部分。工作流的难点主要在提示词编写。同样，先创建工作流，按之前草图把节点串好，加入刚做好的图像流。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_78219f034326ee30dddce6f225374310.png>
+接着做工作流部分。工作流的难点主要在提示词编写。同样，先创建工作流，按之前草图把节点串好，加入刚做好的图像流。![](img/zhuanqian_78219f034326ee30dddce6f225374310.png)
 这里遇到第一个难题：图像流需要诗句的上半句和下半句，而我预想生成诗句的节点是输出整首诗。解决方式有两种：一是用代码把诗切成上下两半；二是让大模型输出时就以上下句的格式返回。本着能不多写代码就尽量不写代码的原则，我选了第二种，也就是让大模型按特定格式（比如JSON）输出。
 方案定了，就该写系统提示词了。不会写提示词？没关系，提示词也可以让大模型帮你写。
 下面展示我这个“半吊子”是怎么一步步和AI对线的。
-第一轮，我让它帮我设计一个“输入节日、输出五言绝句”的系统提示词。AI给了一版基础提示词，我把它放进“人设与回复”里开始测试。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_24751e371f1026bac1ba2f5d4a2d358b.png>
+第一轮，我让它帮我设计一个“输入节日、输出五言绝句”的系统提示词。AI给了一版基础提示词，我把它放进“人设与回复”里开始测试。![](img/zhuanqian_24751e371f1026bac1ba2f5d4a2d358b.png)
 测试后发现了几个问题：
 - 它总是自己创作，但我更希望优先引用历史名人的诗句；
 - 它会输出诗意解释，这启发我，可以顺便让它同步生成AI绘画的提示词；
@@ -57,7 +57,7 @@ Ps：我的审美真的一般，如果你觉得配图效果很烂，你是对的
 - 下两句诗：同上
 这个模板做出来后，后面工作流只需把文字往里填即可。
 ## 二、工作流：三个 AI 节点各司其职
-先按下面的结构把工作流连起来：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b24b8f7524e5f3e4001a8316fa00f66c.png>
+先按下面的结构把工作流连起来：![](img/zhuanqian_b24b8f7524e5f3e4001a8316fa00f66c.png)
 ### 1. 识别节点
 用户输入的东西五花八门，所以第一站先让 AI 判断这是哪个节日。提示词里要强调：只输出节日名，不要解释。比如收到“八月十五”，它直接回“中秋”。
 ### 2. 诗句节点
@@ -74,28 +74,28 @@ Ps：我的审美真的一般，如果你觉得配图效果很烂，你是对的
 "image_prompt": "细雨蒙蒙的清明乡间小路，行人撑伞，远处杏花村庄，既有春天的生气又有淡淡的哀思。"
 }
 ```
-这样一来，绘画提示词也由 AI 一并生成，之前单独设置的“prompt 生成”节点就可以删掉了，直接改成输出多个字段就行。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_37b26f1ad3768f5c4f5a6d444aa849b7.png> Coze 还提供了一个便利功能：从提示词里复制 JSON 文本，直接导入数据结构，省去手工建字段的麻烦。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_04e1f3918d824d41c10c4b55dc91272b.png>
+这样一来，绘画提示词也由 AI 一并生成，之前单独设置的“prompt 生成”节点就可以删掉了，直接改成输出多个字段就行。![](img/zhuanqian_37b26f1ad3768f5c4f5a6d444aa849b7.png) Coze 还提供了一个便利功能：从提示词里复制 JSON 文本，直接导入数据结构，省去手工建字段的麻烦。![](img/zhuanqian_04e1f3918d824d41c10c4b55dc91272b.png)
 ### 3. 问候语节点
 这个节点根据节日性质决定祝福语：喜庆类返回“快乐”，祭奠类返回“安康”，国庆则写“十一快乐”（因为“国庆”在 Coze 是敏感词）。比如中秋快乐、端午安康。
 ## 三、串联与发布
 把识别、诗句、问候语三个节点首尾相连，再让工作流调用前面建好的图像流，把文字填进去，最后从结束节点输出。整体结构就是上面那张图。点试运行，输入“清明”“端午”试试，没问题就发布。
 ## 四、绑定 Bot
-在 Coze 里创建一个 Bot，模式选“单 Agent”，然后在资源区添加刚做好的工作流：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8a80fac8869c2212241cf1e5fb4a2739.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c9d87024df0ca3f35d41b68dcdb70e5b.png>
-绑定后就能直接聊天试玩了，输入节日名称，自动出图加祝词。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bcd77fddc4897442e17b78b986b48ef5.png>
+在 Coze 里创建一个 Bot，模式选“单 Agent”，然后在资源区添加刚做好的工作流：![](img/zhuanqian_8a80fac8869c2212241cf1e5fb4a2739.png)![](img/zhuanqian_c9d87024df0ca3f35d41b68dcdb70e5b.png)
+绑定后就能直接聊天试玩了，输入节日名称，自动出图加祝词。![](img/zhuanqian_bcd77fddc4897442e17b78b986b48ef5.png)
 ## 五、快速复现版
 下面把可复现的配置完整列出来，方便你直接照抄。
-图像流整体图和画板设置：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5822e3f781e5e1a6a08e3c8a74ecafa2.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_190859c7da200b9537df6a45f7158f58.png>
-工作流整体图：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_855569984160674ebf88319721449467.png>
+图像流整体图和画板设置：![](img/zhuanqian_5822e3f781e5e1a6a08e3c8a74ecafa2.png)![](img/zhuanqian_190859c7da200b9537df6a45f7158f58.png)
+工作流整体图：![](img/zhuanqian_855569984160674ebf88319721449467.png)
 各节点提示词如下：
-- 识别节日节点：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d8b45747cdc5343783e892da3b70e3da.png>
+- 识别节日节点：![](img/zhuanqian_d8b45747cdc5343783e892da3b70e3da.png)
 系统提示词：你是一位精通中国节日的AI助手，根据用户输入判断最可能的中国节日，只输出节日名，不解释。
-- 生成诗句节点：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_668f738eaab57b1df8921a2fdbb13160.png>
+- 生成诗句节点：![](img/zhuanqian_668f738eaab57b1df8921a2fdbb13160.png)
 系统提示词：你是精通古典诗词的AI助手，优先提供历史上关于该节日的著名五言绝句，若无合适作品再自行创作。输出JSON，字段包括content_upper、content_lower、image_prompt，且不能出现国庆、国旗等关键词。示例见上文清明JSON。
-- 问候词节点：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ee1734fd5145b0e943047b3df3b765c1.png>
+- 问候词节点：![](img/zhuanqian_ee1734fd5145b0e943047b3df3b765c1.png)
 系统提示词：根据节日类型输出祝福语，喜庆类说“快乐”，祭奠类说“安康”，国庆节输出“十一快乐”。
-- 图像流节点：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_71665fb65381c8f539a376fbe2df09ce.png>
+- 图像流节点：![](img/zhuanqian_71665fb65381c8f539a376fbe2df09ce.png)
 连接第一步创建的图像流，把诗句和问候词作为参数传给画板上的文本层。
-- 结束节点：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_39ac43a628b5e6250ff9f569cf042928.png>
+- 结束节点：![](img/zhuanqian_39ac43a628b5e6250ff9f569cf042928.png)
 输出方式参考这里：```
 ![]({{output}})
 ```

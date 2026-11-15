@@ -18,28 +18,28 @@
 这种打法就是把困惑丢过去，它即时回应，不满意就继续深挖，直到闭环。
 我常用的两类案例：
 ### （1）生活习惯重塑
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_67ec568e0acc1620b71b8112df83c517.png>
+![](img/zhuanqian_67ec568e0acc1620b71b8112df83c517.png)
 我觉得还有疑问，于是继续追问。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c139c1bb12d08b573d8aa52ad41188a4.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_35b239388f266f3629d20fd33c6d1e1f.png>
+![](img/zhuanqian_c139c1bb12d08b573d8aa52ad41188a4.png)
+![](img/zhuanqian_35b239388f266f3629d20fd33c6d1e1f.png)
 后续对话篇幅较长就不全展开了。总之就像找了个永不嫌烦的陪练，陪我一起排查习惯养成的问题根源。
 最终反馈是，关于早睡这个老毛病，经过反复迭代方案，我基本能稳定在十点半前上床了。
 ### （2）天赋盘点
 **先让它自我界定：先问盖洛普优势教练能做些什么，它就按自己说的框架来输出。**
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e0cb845d9d0aa71dd6b4be9fc25c84eb.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_78e26160280e9a34eec77d19b8209efb.png>
+![](img/zhuanqian_e0cb845d9d0aa71dd6b4be9fc25c84eb.png)
+![](img/zhuanqian_78e26160280e9a34eec77d19b8209efb.png)
 **随后可以让它横向比较不同才干，并给出落地的应用思路。**
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9adc4f72e3c3a95adb0363915413bdd9.png>
+![](img/zhuanqian_9adc4f72e3c3a95adb0363915413bdd9.png)
 **碰到具体卡点时，还能反向调用已有优势来破解。**
 比如我当时遇到的这个情况：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_74423258a65836c6bdcf415e3d8ffd32.png>
+![](img/zhuanqian_74423258a65836c6bdcf415e3d8ffd32.png)
 ## （二）启发型：借提问推动
 这类用法它不会直接下结论，而是抛给你一连串开放问题，你回应后它再继续牵引，直到你自己得出答案。
 看这个片段：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_57bb5b552aa8a7ba51f3185b4e9f3e75.png>
+![](img/zhuanqian_57bb5b552aa8a7ba51f3185b4e9f3e75.png)
 还有一次聊到赚钱方向，在它逐步追问下，我把模糊想法拆成了可执行的颗粒度目标，还设置了打卡提醒。最后它甚至追着问我“提醒设置好了吗？”逼我落实到行动。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3f619f12ff7376b408392c2e3431cc8a.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_967162df53514d7d2fcd8327593c619d.png>
+![](img/zhuanqian_3f619f12ff7376b408392c2e3431cc8a.png)
+![](img/zhuanqian_967162df53514d7d2fcd8327593c619d.png)
 # 三、AI 代替真人当导师的爽点与痛点
 **爽点很明显：成本低、随时在、零社交压力。**
 ChatGPT Plus 每月一百多块，对比动辄上千的真人导师，性价比差距很大。
@@ -57,12 +57,12 @@ ChatGPT Plus 每月一百多块，对比动辄上千的真人导师，性价比�
 手机端直接用自带语音输入，网页端在 Chrome 装个语音插件。
 2. ios 系统输入框旁边就有语音按钮。
 3. 网页端我用的这个插件
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_901650938266896901cd31c8195c3196.png>
+![](img/zhuanqian_901650938266896901cd31c8195c3196.png)
 装好后底部会出现麦克风图标，按住就能语音转文字；旁边的小喇叭还能让它把回复读出来。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7b679b5192b198ea2fb701e249dcc558.png>
+![](img/zhuanqian_7b679b5192b198ea2fb701e249dcc558.png)
 以上就是我这几个月的真材实料探索，欢迎一起交流迭代~
 * * *
 评论区：
 暂无评论
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1c37d505930596d12a88ab23e11aa07a.png>
+![](img/zhuanqian_1c37d505930596d12a88ab23e11aa07a.png)
 * * *

@@ -477,4 +477,4 @@ Token revenue 产品就是一个案例。在整个制作过程中，没有写过
 工具和教程只能算入门门槛，真正拉开差距的，是能不能马上行动，以及能不能获得高质量的圈层信息。
 这里不讨论空泛概念，只拆解商业闭环，研究如何把 AI 效率压到更高。系统内已经沉淀了 1000+ 个完成验证的套利实战案例。
 👉 查看圈子完整数字资产与加入门槛：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ea621ebd44a19e56f01cd31055af5e19_68_0.png>
+![](img/zhuanqian_ea621ebd44a19e56f01cd31055af5e19_68_0.png)

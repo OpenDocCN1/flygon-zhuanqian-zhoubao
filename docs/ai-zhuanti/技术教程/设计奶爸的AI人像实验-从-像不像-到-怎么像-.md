@@ -5,77 +5,77 @@
 ## 为什么偏偏选儿童写真？
 AI绘图工具刚露头时，我作为设计师，第一反应是危机感。于是我麻利地学了MJ，又把SD也啃了下来，还付费跟过几位真正靠AI赚到钱的人，研究他们背后的逻辑。
 坦白说，我也喜欢MJ，像下面这张“罗刹精英”就是MJ的手笔。但在人像定制这个赛道上，想建立商业差异，核心只有两个字：像。够像，才有资格筑高门槛、造护城河。因此必须靠SD把“像”和“创意主题策划”这两件事同时做扎实。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_672eaecedde4db4b04d350b6adac39e7.png>
+![](img/zhuanqian_672eaecedde4db4b04d350b6adac39e7.png)
 我的脾气是先干了再说，于是就这么开始了实验。成人方向的模型和教程市面上不缺，技术本身不复杂；但儿童案例太少，我一路跌跌撞撞，多亏一位朋友不厌其烦地帮我想办法，真心感激。
 再聊聊需求端。按受众切分，大约有四类：宠物；孩子（低龄宝宝的优先级高于大童）；情侣、亲子这类带情感附加的组合；以及成人单人。按使用场景切分，有手机壁纸、头像、写真（形象照、IP联名、节日主题风格等，这种看起来不算硬需求）；头像定制还能延伸出表情包、手工制品、POD产品，甚至定制绘本。以上只是我的个人判断，未必全面，欢迎讨论。我是凭兴趣选了“孩子方向+主题风格策划”作为切入点，后续再按市场反馈调整。
 ## 先谈“像”：MJ里的几条路
 正式开工之前，我在理解AI技术上花了不少时间。MJ这边，我试过四种常见套路。
 ### 1. 卡通人物
 优点是能抓住一点神似，MJ的模型库够大，创意方向多，很容易出有趣的艺术效果。这种偏萌的风格对儿童类目天然友好，但说实话，已经有些做烂了。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_db842fe53b325dfdf71ceb8c6073d93f.png>
+![](img/zhuanqian_db842fe53b325dfdf71ceb8c6073d93f.png)
 ### 2. 3D人物
 上手容易，效果也还行。我这张是随手生成的，离惊艳还有距离。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e1bca058a05387c81b3147e43f7ad237.png>
+![](img/zhuanqian_e1bca058a05387c81b3147e43f7ad237.png)
 ### 3. 扁平极简
 做过一款小某书上火过的头像风格，年轻用户比较买账。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_df055e03b3e49372f232a48f12a34bed.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e9525701daf090f565adba6737cdd05c.png>
+![](img/zhuanqian_df055e03b3e49372f232a48f12a34bed.png)
+![](img/zhuanqian_e9525701daf090f565adba6737cdd05c.png)
 提示词核心是极简扁平矢量、猫、日式留白、红色背景之类，我分别跑了 expressive 和 cute 两个方向。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b636c8ea4ecc4d504ff4ef679ec1bbcb.png>
+![](img/zhuanqian_b636c8ea4ecc4d504ff4ef679ec1bbcb.png)
 另外还用亲子合照垫了一张装饰画风的图。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_462ec3aead1b355d2c0cbc023ef495c5.png>
+![](img/zhuanqian_462ec3aead1b355d2c0cbc023ef495c5.png)
 ### 4. 真实摄影风+换脸
 小某书上不少账号都这么玩：有的卖课，买家多是影楼；有的接高级定制。好处是风格多样、艺术感强，一张底图可反复换脸，而且家长反馈，比SD的Roop插件像得多。弱点则是难以稳定输出真人级效果，依赖后期修图，且只有正脸角度贴合得比较好，价格也卖不高。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_87a4b7100486de1aedf8a3d2c9cb4712.png>
+![](img/zhuanqian_87a4b7100486de1aedf8a3d2c9cb4712.png)
 像雪中持剑的汉服女孩、提着灯笼的汉服女孩这类题材，都是这个玩法里很常见的例子。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3057431de6283f1ebf30a8a1e1acde83.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1e96959874bd3d07e304162781b2c742.png>
+![](img/zhuanqian_3057431de6283f1ebf30a8a1e1acde83.png)
+![](img/zhuanqian_1e96959874bd3d07e304162781b2c742.png)
 ### 小结
 前面三种方向，我帮朋友做过，自己也发过朋友圈和小某书，反馈平平。它们的通病都是：不够像，出图要反复抽卡、效率不高，门槛低导致竞争激烈。如果做不到“特别像”的级别，就谈不上惊艳，很多APP自己就能实现。而第四种MJ换脸，是市面上最常见的路子，方法简单、效果不差，偶尔会有一眼AI的破绽；但家长接受度挺高，也确实比SD的Roop像很多。不介意这个小缺点的话，新手可以拿它先练手。
 ## 再看“像”：SD里的几轮尝试
 SD这边，我也试过不同方案。
 ### 1. 照片转绘成盲盒风
 拿朋友孩子的照片做转绘，原片不方便公开。发型、头饰、裙子、鞋子这些小细节，靠提示词基本都还原了。提示词里主要用了故宫、古装、chibi、full body等标签，外加blindbox_v1mix这个LoRA。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_102d968f746648bb65f57e9462458b72.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_647cdee19d8768f481e25871e62d9a45.png>
+![](img/zhuanqian_102d968f746648bb65f57e9462458b72.png)
+![](img/zhuanqian_647cdee19d8768f481e25871e62d9a45.png)
 ### 2. 合影转卡通
 合影有情感加成，但多人同框对模型和技术的要求会高出不少。SD直接跑多人场景经常翻车，出来的脸都很吓人。反而是某些基于SD的小程序，选二次元风格效果还行，有兴趣的可以试试。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_128a52b93310d1928d9e66d4d69bd243.png>
+![](img/zhuanqian_128a52b93310d1928d9e66d4d69bd243.png)
 ### 3. 用Roop插件换脸
 我从liblib.ai找了一个质量不错的儿童写真大模型，不换脸直接出图，质感确实能打，不会一眼假，比MJ生成的图逼真得多。下图就是模型直出图和棚拍精修图的对比，已经非常接近。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e3b5b49abb3557f69ad9435468693011.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d141262a9ece3ad4a3401d7dccc3d5e8.png>
+![](img/zhuanqian_e3b5b49abb3557f69ad9435468693011.png)
+![](img/zhuanqian_d141262a9ece3ad4a3401d7dccc3d5e8.png)
 实际测试的标签大概包括女孩、帽子、裙子、棕色头发、户外、法式连衣裙等。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a669aa47dc6ad1531c3e1e18536dc7ef.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_41965168c3a8095d033c0ded903dae21.png>
+![](img/zhuanqian_a669aa47dc6ad1531c3e1e18536dc7ef.png)
+![](img/zhuanqian_41965168c3a8095d033c0ded903dae21.png)
 但换脸环节就露怯了：因为涉及孩子照片，我不放原片，结果就是家长基本认不出自家孩子。看来现在的插件对孩子换脸的支持还不到位，或许是我还没找到最好用的那款。如果有靠谱工具，欢迎推荐。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7860652bd59c9b45cb0066fc40a64057.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_dfaeaa5160793230d9c15722d3f18008.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2a9c9fd70cdab93ab3e688962fb24bb2.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_933debcb0868bda6d28586ca1910fa84.png>
+![](img/zhuanqian_7860652bd59c9b45cb0066fc40a64057.png)
+![](img/zhuanqian_dfaeaa5160793230d9c15722d3f18008.png)
+![](img/zhuanqian_2a9c9fd70cdab93ab3e688962fb24bb2.png)
+![](img/zhuanqian_933debcb0868bda6d28586ca1910fa84.png)
 ### 4. 定制炼丹：最终解法
 这条路把“像”的问题真正解决了，门槛高，但效果好；代价是前期投入的时间成本大，真人质感的成片也还得继续打磨。
 主题策划做得好会非常加分，可以从孩子普遍有共鸣的切入点入手，比如热门职业、玩具；也可以卡节日节点，国庆、圣诞、万圣、春节都是朋友圈刷屏高峰。
 例如中秋主题，我做了汉服提灯的画面：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0afd5560a45853aa39ab4cfd7bdb4bc9.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_deaff27168b5d5e6be4a9213b99ca607.png>
+![](img/zhuanqian_0afd5560a45853aa39ab4cfd7bdb4bc9.png)
+![](img/zhuanqian_deaff27168b5d5e6be4a9213b99ca607.png)
 国庆主题，则尝试了军装少年的形象：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6e39b06d0d1ef2b30b2ceb9e3eb083a4.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cbb3c7ceb3da8f6493229bd7a3d3cc11.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bd873d676dfe3ea57a04d61d4fbf3508.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a88aec7110d687926229e3ba90f6c82f.png>
+![](img/zhuanqian_6e39b06d0d1ef2b30b2ceb9e3eb083a4.png)
+![](img/zhuanqian_cbb3c7ceb3da8f6493229bd7a3d3cc11.png)
+![](img/zhuanqian_bd873d676dfe3ea57a04d61d4fbf3508.png)
+![](img/zhuanqian_a88aec7110d687926229e3ba90f6c82f.png)
 同一张照片，搭配不同的大模型、ip-adapter 和 LoRA，出图效果会有明显差异。其中迪士尼风格主题配这三种采样方法，是我测试下来最稳的一组；下图就是三种采样的对比记录。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_dfefb2a4ff4c3649ec827a67f219146d.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_355c800e0d6bf2b5eb8158768cc989de.png>
+![](img/zhuanqian_dfefb2a4ff4c3649ec827a67f219146d.png)
+![](img/zhuanqian_355c800e0d6bf2b5eb8158768cc989de.png)
 ## 儿童LoRA训练：屡败屡战的实录
 刚开始接触LoRA训练时，我也觉得它高深莫测，还专门报了一个IP方向的炼丹课程。实际操作过几次后，发现难度没有想象中那么大，反而挺有趣。工具用的是秋叶的LoRA训练界面，很顺手。
 数据准备上，我收集了大约25张人像照片作为训练集，做了裁剪、尺寸统一和打标签等预处理。
 底模选择是成败关键。我试了SD1.5基础模型、麦橘、儿童写真三款，结果SD1.5最像真人，另外两个都很难贴近孩子真实的长相。目前训练了5次仍不理想，还在反复排查原因。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1e4a9483326c7df2416204837e0b9f38.png>
+![](img/zhuanqian_1e4a9483326c7df2416204837e0b9f38.png)
 训练完成后，生成环节其实很有创造力：通过调整输入参数，可以控制风格走向。出图后我会做颜色校正和细节增强。上图是加了插件后的对比，固定seed值 + after detail + 高清修复，细节明显饱满了很多。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9de2d9f599c47a634538eaeaf8b5092b.png>
+![](img/zhuanqian_9de2d9f599c47a634538eaeaf8b5092b.png)
 需要说明的是，我最终想得到的不是真人风格模型，而是偏动漫的质感。试过好几款大模型后，目前最合我意的是 checkpointYesMix 这款动漫模型，之后肯定还会继续尝试其他底模。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_80b7d085d19d80587ea56bd88aa6e21c.png>
+![](img/zhuanqian_80b7d085d19d80587ea56bd88aa6e21c.png)
 这组作品里出现了一个身着中国军装的少年，胸前缀着醒目的五角星徽章，姿态挺拔，透出对祖国守卫的坚定。画面背后是一幅用淡雅水墨勾勒出的江河山水，与他坚毅的神情形成对照。旁边一面硕大的红旗迎风飘扬，象征着革命精神与民族凝聚力。整张图是半身照，却把少年的决心与对家国的深情全都点出来了。
 5、复盘与持续学习
 用 SD 做写真类作品时总会有失手的时刻，也想往 SDXL 上尝试，但受限于显卡和内存配置，目前暂时吃不消。炼丹这条路门槛确实不低，我的打算就是先在 SD 的 Lora 训练上多下功夫打磨，待条件成熟后再去系统学习 SDXL。

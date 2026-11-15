@@ -3,20 +3,20 @@
 大家好，我是@是茂宇呀，在赚钱社区潜水快一年了。最近小有进展，想把这套打法拿出来聊聊。今天分享的就是一条用 n8n 做到的公众号内容批量生产思路。
 在折腾 n8n 的过程中，我顺手搭了个专门用来生成公众号稿件的自动化流程。用法很简单，只需要丢一个主题进去，系统就能自动把成稿投进公众号草稿箱。一次运行就能把 100 篇图文稿一次性塞进草稿，就像下面这样：
 *   这是工作流
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a7fecd474b70e48524c80e483a9ee7a3.png>
+![](img/zhuanqian_a7fecd474b70e48524c80e483a9ee7a3.png)
 *   工作流日志
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_75bb07136583454b74d622e3a8376527.png>
+![](img/zhuanqian_75bb07136583454b74d622e3a8376527.png)
 ### 运行效果，这边平均 3-4 分钟就能产出 1 篇
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_debf2bcb052c3bbc2e1ffce249f8f07c.png>
+![](img/zhuanqian_debf2bcb052c3bbc2e1ffce249f8f07c.png)
 ### 生成好的稿件，配图和底部署名信息都齐全
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_20ff85a02061dab390002223a6a28e1b.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_865218ee972810a8ee9cf783b8bc2dbc.png>
+![](img/zhuanqian_20ff85a02061dab390002223a6a28e1b.png)
+![](img/zhuanqian_865218ee972810a8ee9cf783b8bc2dbc.png)
 我把操作过程录成了视频放到 B 站，结果一下子来了不少私信。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_de8c0cd112ea7101f6f07301546ad670.png>
+![](img/zhuanqian_de8c0cd112ea7101f6f07301546ad670.png)
 这个读者只想要流程序列
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_46a7e07448d9dd07974b49c07fd98141.png>
+![](img/zhuanqian_46a7e07448d9dd07974b49c07fd98141.png)
 这个则是希望做深度定制的客户
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_921650047c470c12de13f581eb885d6c.png>
+![](img/zhuanqian_921650047c470c12de13f581eb885d6c.png)
 # 进一步的想法
 和这些沟通下来，我越发觉得这套流程有很大的延展空间。像医疗、教育、金融、法律这类账号，版式基本固定但对更新频率要求很高；也有公司想靠海量内容迅速覆盖行业长尾词，提升搜索权重。
 除此之外，一些聚焦细分的垂类号也非常适合用这套方式来养。想象空间其实挺大的，值得继续打磨。

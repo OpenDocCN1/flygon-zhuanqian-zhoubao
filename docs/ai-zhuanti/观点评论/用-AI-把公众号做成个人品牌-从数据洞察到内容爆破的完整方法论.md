@@ -25,12 +25,12 @@
 一句话总结我的认知：公众号不是单纯的内容渠道，而是微型品牌的分发生态。
 * * *
 ## 运营公众号即打造品牌
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_32211d2aa83296633c5a22a95dddaf08.png>
+![](img/zhuanqian_32211d2aa83296633c5a22a95dddaf08.png)
 公众号的 Slogan：再小的个体，也有自己的品牌
 这个平台的底层设计，就是帮助个人或团队建立品牌资产
 当年这句话彻底点燃了我。那公众号里的个人品牌到底是什么？
 看一个号最终给读者呈现的是什么？
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a8fa8a7862567ffcf27b16cc6b3b8111.png>
+![](img/zhuanqian_a8fa8a7862567ffcf27b16cc6b3b8111.png)
 账号名。
 旧思路：起个好听顺耳的。像“清风徐来”“岁月静好”。
 品牌思路：抢占心智。比如“刘润”，两个字就等于商业顾问。
@@ -59,7 +59,7 @@
 *   标题风格
 *   文章风格
 逻辑关系如下：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e9aed678f2ca6f510958637b6c8d8a0f.png>
+![](img/zhuanqian_e9aed678f2ca6f510958637b6c8d8a0f.png)
 ### 1、账号名称
 起号名称的意义相当于给孩子取名，事关长期。
 *   热点借势命名，短周期收割
@@ -79,7 +79,7 @@
 账号命名避坑：
 *   起名前先在微信检索关键词，看同类账号类型，部分词已被腾讯限流
 例如关键词“大师兄”，检索出来多为股票类限流内容或擦边产品，那这个词就被限流，不建议使用
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e13051e9e6eeb1ae83c04ddb80ed1120.png>
+![](img/zhuanqian_e13051e9e6eeb1ae83c04ddb80ed1120.png)
 *   牵涉“主旋律”元素的名称需提交证明材料审核，如“国*旗”“集结号”等，最好规避
 *   与知名品牌重名也需提交证明，如“小米”，含该元素就需审核
 为节省时间，起名环节尽量规避风险。公众号一年仅两次改名机会，慎用！
@@ -113,7 +113,7 @@
 微信封面分两种：2.35：1 和 1:1。
 *   2.35：1：头条推文封面，用于订阅列表、内容推荐、转发卡片
 *   1:1：次条推文及转发卡片封面，用于消息列表与推荐
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9c3f08443ced00823b69604138447809.png>
+![](img/zhuanqian_9c3f08443ced00823b69604138447809.png)
 *   色彩统一性
 注意整体配色。比如头像主色是蓝色，封面优先用蓝色系。这种统一感提升视觉专业度。
 *   主题与风格呼应，一致性
@@ -134,15 +134,15 @@
 *   用大白话，别堆术语
 *   突出价值，别只说你提供什么
 案例参考：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_017130bb4c7951867b143ac9f2bee35f.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_08f9384e8142ea0e516fa8b1011ffffc.png>
+![](img/zhuanqian_017130bb4c7951867b143ac9f2bee35f.png)
+![](img/zhuanqian_08f9384e8142ea0e516fa8b1011ffffc.png)
 *   与账号名称相互呼应，对名称做补充说明
 *   明确账号价值
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5537696ab1b54973ef564c20ea95d086.png>
+![](img/zhuanqian_5537696ab1b54973ef564c20ea95d086.png)
 *   身份
 *   主打内容
 *   可获得价值
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_00485d88a80c40677d0b464780b21e5e.png>
+![](img/zhuanqian_00485d88a80c40677d0b464780b21e5e.png)
 *   企业号，采用文字头像
 *   说明功能并提供价值
 简介避坑：
@@ -177,7 +177,7 @@
 *   排版格式
 * * *
 ## 品牌化案例拆解
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0ac6002ffcbe281f0eb7811f153c6c99.png>
+![](img/zhuanqian_0ac6002ffcbe281f0eb7811f153c6c99.png)
 ### 案例一——罗辑思维
 你怎么看罗振宇？
 可能有两种声音：一派觉得是知识网红贩卖焦虑，一派觉得是终身学习践行者。
@@ -188,7 +188,7 @@
 他卖的是一个符号——“终身学习者”的符号。在做“罗振宇”这个 IP。
 “得到”估值超 20 亿。罗振宇这个名字就值 10 个亿。
 品牌的力量在于，流量会枯竭，品牌会增值。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_689aa44437d3dba2f5d2cd0ff4166bd7.png>
+![](img/zhuanqian_689aa44437d3dba2f5d2cd0ff4166bd7.png)
 拆解如下：
 第一，账号名即认知锤
 “罗辑思维”而非“逻辑思维”。一字之差，把个人品牌钉进账号名。每当有人说“逻辑思维”，都会被纠正，这就是免费传播。
@@ -207,11 +207,11 @@
 ### 再看两个赛道案例
 反向的猫
 简介：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_388ad2d15f3ffa10943a87a4cc5f077f.png>
+![](img/zhuanqian_388ad2d15f3ffa10943a87a4cc5f077f.png)
 头像：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e27c2780a49a55e46d027f9ea2ebfb7f.png>
+![](img/zhuanqian_e27c2780a49a55e46d027f9ea2ebfb7f.png)
 封面：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4036cac6b37a3ea44a0f9a5f1d0f6eb2.png>
+![](img/zhuanqian_4036cac6b37a3ea44a0f9a5f1d0f6eb2.png)
 头像与封面
 *   风格统一：头像与封面视觉统一，建立强品牌识别
 *   差异化：相比同业，封面更具独特吸引力
@@ -229,15 +229,15 @@
 *   拓展：结合热点，分析社会现象
 *   深度：提供社会经济洞察
 排版风格：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7317b4c2fb55ad26e025734a31ba5857.png>
+![](img/zhuanqian_7317b4c2fb55ad26e025734a31ba5857.png)
 摒弃传统结构
 每句话都是一次表达，一个观点，适合快节奏阅读，符合网络文化。
 开头总有一句总结，再打招呼，像电台故事的引子，便于“听”代替“看”。
 留钩子：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1fcb76e6c90485dbb3e15e246a64c369.png>
+![](img/zhuanqian_1fcb76e6c90485dbb3e15e246a64c369.png)
 变现除了流量主，文末留联系方式导私域。
 职场赢姐
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_58fbeadc589a16fbda4783b42735bb79.png>
+![](img/zhuanqian_58fbeadc589a16fbda4783b42735bb79.png)
 账号名称
 *   名称：职场赢姐
 *   特点：简洁明了，直接点明定位与受众
@@ -271,13 +271,13 @@
 *   内容质量决定是否被放大，1W 以上
 * * *
 ## IP 爆文长什么样？
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3845ec4e73980145ff66e8454be643cb.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a01804837da1d36aaee39da017edd24a.png>
+![](img/zhuanqian_3845ec4e73980145ff66e8454be643cb.png)
+![](img/zhuanqian_a01804837da1d36aaee39da017edd24a.png)
 公众号页面：推荐好文章，你的关注，你朋友关注
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5950bc08b761304cca1911b1a19916de.png>
+![](img/zhuanqian_5950bc08b761304cca1911b1a19916de.png)
 看到一个标题，你会不会觉得手比脑子快，还没想清楚就戳了进去？
 爆款内容的表面功夫，照葫芦画瓢人人都会；可它真正生效的底层机制，多数人其实从未看清。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_aa5bf4a44465047caf5754dd38769293.png>
+![](img/zhuanqian_aa5bf4a44465047caf5754dd38769293.png)
 标题要有一击即中的效果，靠的不是“震惊”“万万没想到”这类轰炸词汇，而是一个精巧的“钩子+悬念+利益点”结构。
 拿《读懂中元，才知人这一生，从何处来，往何处去》举例——“读懂中元”负责勾起好奇心；“从何处来，往何处去”制造了思考的引线；而中间那四个字“才知”，则在暗示：读完这篇，你会得到某种领悟。
 封面也是一样门道。系统把文章推荐到你面前，第一印象来自切入点。
@@ -292,12 +292,12 @@
 不过要提醒一句：反直觉不是睁眼说瞎话，没有扎实逻辑支撑的反常识，只会变成笑话。
 说到底，爆款是一次精确制导的情绪和价值交付。那篇中元节文章，标签是民俗科普，内核却是趁节日情感浓度最高的时点，把现代人对“生死”的茫然和对“意义”的渴求卖给了读者——这是它真正的胜负手。
 AI辅助写作也是这个顺序：先立选题，再找切入角度就是观点，最后一步才是遣词造句。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4ef47f983484f058cb88b9f3d2011911.png>
+![](img/zhuanqian_4ef47f983484f058cb88b9f3d2011911.png)
 拿我公众号早期摸索期举例。
 当时我锁定的方向是AI流程自动化，定标题的原则是：蹭得上热点、给得出干货。排版、插图、封面和正文，统一用AI调出了一套专属视觉风格。另外，我把热点事件梳理成干货盘点，套用演讲稿式的行文逻辑，靠着读者的转发把文章推进入流量分发通道。
 * * *
 ## 流量机制的本质
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a2fa8543ec2d62da1b167535e86202f8.png>
+![](img/zhuanqian_a2fa8543ec2d62da1b167535e86202f8.png)
 公众号的流量究竟从哪里来？直觉答案是：读者撑起来的。
 但现实是——公众号日活三亿这个数字听着唬人，读者的打开意愿却早已被短视频瓜分干净。如果还指望靠订阅关系，你的文章只会躺在消息列表里落灰。
 真正的变化是：订阅逻辑逐渐失效，推荐分发（和头条系类似的算法模式）已经成为中坚力量。换言之，内容本身的价值，权重已经压过了粉丝基数。
@@ -310,7 +310,7 @@ AI辅助写作也是这个顺序：先立选题，再找切入角度就是观点
 分享率 = 情绪共振 × 社交货币价值。什么样的文章人们愿意转？两种：一种是“这话说到我心坎里了但我自己说不出来”，靠情绪共振；另一种是“转出去显得我视角独特/有共情力”，靠社交货币。拿《你没穷过，你不懂》来说：经历过贫穷的人转，是因为共鸣；没穷过的人转，是在表达自己的同理心。
 * * *
 ## 数据分析的价值
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0e1dc2cc0a8a9fe4c637c0a0a1ba8e7a.png>
+![](img/zhuanqian_0e1dc2cc0a8a9fe4c637c0a0a1ba8e7a.png)
 借助5个数据维度，我们就能像体检一样，给文章做一次定位诊断。
 第一，看阅读量。假如连粉丝基数的10%都不到，说明连最支持你的人都提不起兴趣，这时候该动刀的是选题策略。
 第二，看阅读来源分配。健康的比例大致是：公众号消息30%、朋友圈40%、看一看30%。如果“公众号消息”的比重超过60%，说明你只是在吃存量，没打入新圈层；如果“朋友圈”的路由低于20%，说明文章天生缺少社交基因；如果“推荐”一项是零，则代表算法还没有发现你。
@@ -318,7 +318,7 @@ AI辅助写作也是这个顺序：先立选题，再找切入角度就是观点
 第四，看完读率。这可能是最被冷落、却最被算法器重的指标——它直接反映内容质量。想让更多人看完，有三招：开头埋个悬念“底有彩蛋”；中间安排反转“但事情远不止如此”；结尾来一记回马枪“还记得开头那个问题吗？”
 第五，看阅读后的关注转化。普通文章约0.5%，优质文章能到2%，爆款可以冲5%以上。如果阅读量好看但转粉率惨不忍睹，那说明文章是“图热闹”而非“给价值”——大家看完就走了，不觉得你有值得长期关注的资本。
 ### 表面数据 vs 核心数据
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_56e715619880dd4aacf7608bfd69eb73.png>
+![](img/zhuanqian_56e715619880dd4aacf7608bfd69eb73.png)
 大家习惯盯着的“门面数据”：阅读量、粉丝数、点赞数。看着舒服，但对做决策帮不上忙。
 真正决定命运的，是几个“内功数据”：
 第一，阅读来源的构成。前面说过基础比例，这里补一个关键细节：如果“看一看”的流量突然抬头，别高兴得太早也别无视——这可能意味着你被扔进了算法的“优质内容池”。微信会筛选高质量内容进池子，给到优先推荐位。一旦入池，你后面的文章也会沾光，持续获得流量倾斜。入池的门槛是：完读率超60%、分享率超5%、收藏率超3%、账号无违规前科。
@@ -332,56 +332,56 @@ AI辅助写作也是这个顺序：先立选题，再找切入角度就是观点
 靠直觉做内容，心里永远是虚的。让数据成为你的副驾，才知道下一脚油门该往哪踩。
 分析数据，不是为了清算昨天，而是为了校准明天的方向。
 ### 数据分析工具：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4918d83ab37a85e28db166ec9f8a1cc8.png>
+![](img/zhuanqian_4918d83ab37a85e28db166ec9f8a1cc8.png)
 最常用的数据后台其实是公众号自带的：网页端公众号后台 + 手机端“公众号助手”APP。第三方工具方面：
 笔迹数据（免费，电脑端访问）：https://www.bijiandata.com/dc/v53e930y
 新榜：https://www.newrank.cn/
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8266a800d810f0c40431efa5451055a9.png>
+![](img/zhuanqian_8266a800d810f0c40431efa5451055a9.png)
 * * *
 # 公众号内容 - AI 写长文和图文
 目前公号平台上跑得主流的形态有这么几类：
 长文赛道（通常2000-5000字）
 图文卡片（以视觉元素为主）
 条漫类（更受年轻读者偏爱）
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_83416c50e27c03a63bc4d286b35199ac.png>
+![](img/zhuanqian_83416c50e27c03a63bc4d286b35199ac.png)
 长文写作和图文设计，我在之前的内容里都拆过实操流程，这篇聚焦在开源工具的用法上。
 # （AI 写长文）
 ### 文档目录：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2132e33ef896c2898dace5971ddab926.png>
+![](img/zhuanqian_2132e33ef896c2898dace5971ddab926.png)
 把“公众号优化工具箱”单独拎出来讲。
 地址：https://www.coze.cn/s/ptTWjkbWgvo/（手机和电脑端都能打开）
 额度：每天有20次免费调用。
 操作模块拆解：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3753d1d3f834647ab140677988677ae3.png>
+![](img/zhuanqian_3753d1d3f834647ab140677988677ae3.png)
 风格解析：把对标文章的写作风格做成结构化提取
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4f2c340069d3665b09a7381c1baec908.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fda5fd64438e5f54f504fe4f37cb2719.png>
+![](img/zhuanqian_4f2c340069d3665b09a7381c1baec908.png)
+![](img/zhuanqian_fda5fd64438e5f54f504fe4f37cb2719.png)
 喂进去：你想学习的范文原文，或者对标文章的公众号链接。拿出来的：拆解好的风格要素清单。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f4cef292805fc50c0562fff2217415b8.png>
+![](img/zhuanqian_f4cef292805fc50c0562fff2217415b8.png)
 账号诊断：把你在运营上卡壳的问题、后台数据截图喂进去，系统会给出入门级诊断与建议：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_40d3585f2740893729748f75b96100c1.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c64368ec76194098650aafb433587402.png>
+![](img/zhuanqian_40d3585f2740893729748f75b96100c1.png)
+![](img/zhuanqian_c64368ec76194098650aafb433587402.png)
 标题优化：扔进来原标题，系统帮你改成更贴合IP调性的标题。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f7f0c4d360e535f4d91caef596beacde.png>
+![](img/zhuanqian_f7f0c4d360e535f4d91caef596beacde.png)
 选题探索：丢入赛道定位｜对标选题方向｜对标文章的链接，系统会发散出新选题。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3607a8ac86fe47c3bff7f3d8833b7cc4.png>
+![](img/zhuanqian_3607a8ac86fe47c3bff7f3d8833b7cc4.png)
 文章生成：组合“行文风格 + 标题”作为输入，直接产出成稿。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6d044f80a3881ca16157d501b9d6f8dd.png>
+![](img/zhuanqian_6d044f80a3881ca16157d501b9d6f8dd.png)
 另外还有一个选择：智能笔尖。这个是付费产品，圈友想试可以找我拿折扣价。
 地址：https://www.aibijian.com/dc/v53e930y
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3d5ca7899ec9d84d7bb9d8c38bd42faf.png>
+![](img/zhuanqian_3d5ca7899ec9d84d7bb9d8c38bd42faf.png)
 # （AI 写图文）
 ### 文档目录：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_71da24ec8a04860e8c46edf88fe0eb40.png>
+![](img/zhuanqian_71da24ec8a04860e8c46edf88fe0eb40.png)
 个人判断：现阶段最适配的场景是把知识卡片放进小绿书，或者作为长文的配图体系来用。
 #### AI 工具：AI 认知图解
 地址：https://xiaojuexing.com/register?invite=ST5TDFB7HR（电脑端打开）
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9d9c8be66845f58dfc1432574917761a.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f7c604428ebe8758f59aaae4ce8e1fb8.png>
+![](img/zhuanqian_9d9c8be66845f58dfc1432574917761a.png)
+![](img/zhuanqian_f7c604428ebe8758f59aaae4ce8e1fb8.png)
 #### 文案可视化｜认知图解 COZE 版
 地址：https://www.coze.cn/s/Xt9o3MDxL5Q/（手机端使用）
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4de6c053343bdc1575f1101a7c83543d.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bdaac7e01c304ae50437ef1d2b22e0a8.png>
+![](img/zhuanqian_4de6c053343bdc1575f1101a7c83543d.png)
+![](img/zhuanqian_bdaac7e01c304ae50437ef1d2b22e0a8.png)
 把一段文字输入进去，就能自动生成可视化卡片。
 小红书和公众号的配图逻辑其实同源——用有信息增量的图去触发转发动作，撬动更大的流量池。
 * * *
@@ -395,19 +395,19 @@ AI辅助写作也是这个顺序：先立选题，再找切入角度就是观点
 免费且开源的漫画生成工具：
 超级图图，地址：https://www.coze.cn/s/dozwtrJczzA/
 ### 文档目录：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c74b08b15fe1e17582dd2e813657833c.png>
+![](img/zhuanqian_c74b08b15fe1e17582dd2e813657833c.png)
 * * *
 # 公众号提示词和 AI 写作文章合集
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_45b3b0c8c38d86f735f3b9ecfc0a2a91.png>
+![](img/zhuanqian_45b3b0c8c38d86f735f3b9ecfc0a2a91.png)
 关于AI写作的更多工具与提示词合集，可以在我的公众号「纵所周知 101」里搜索历史文章查看。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c9d5fa963edae32139f3a144769f96f9.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6f3757d05e85b24d988f06c198d14f81.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e96b7213337f83d9bfce17a9b3696000.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7849638cf96a0215255a873d2df2d0da.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0baadc6a8d765c6a331c3a4b0102b3e2.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_120841630f2dbdf9c3aa47fd5d02899e.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d35b997b36b3f2a4752bb66e16db6170.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7677f87b2abb59ed00843a4a99276551.png>
+![](img/zhuanqian_c9d5fa963edae32139f3a144769f96f9.png)
+![](img/zhuanqian_6f3757d05e85b24d988f06c198d14f81.png)
+![](img/zhuanqian_e96b7213337f83d9bfce17a9b3696000.png)
+![](img/zhuanqian_7849638cf96a0215255a873d2df2d0da.png)
+![](img/zhuanqian_0baadc6a8d765c6a331c3a4b0102b3e2.png)
+![](img/zhuanqian_120841630f2dbdf9c3aa47fd5d02899e.png)
+![](img/zhuanqian_d35b997b36b3f2a4752bb66e16db6170.png)
+![](img/zhuanqian_7677f87b2abb59ed00843a4a99276551.png)
 * * *
 # 最后
 公众号真正的复利公式：

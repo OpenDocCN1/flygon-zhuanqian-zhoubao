@@ -3,30 +3,30 @@
 # 一，工具长啥样能干嘛
 https://gamingtoolshub.top/ 这是我在本次航海里做的第二件作品。说白了就是一个抓源小助手，能帮你从别的游戏站点页面里扒出 iframe、embed，或者藏在名为 game_url 的 JSON 里的真实游戏源地址。
 可采集的站点清单我整理在了飞书文档里。不同站点的反爬策略不一样，有的页面是动态渲染的，有的国内根本打不开，需要单独写逻辑。所以如果你们也在做游戏站出海，欢迎一起补充站点，我来把功能补全。目前支持的功能点有：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_61e9096c52e94bfd109b09ca0ceb5f15.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6ed105e32b6334dcb187edbe13566917.png>
+![](img/zhuanqian_61e9096c52e94bfd109b09ca0ceb5f15.png)
+![](img/zhuanqian_6ed105e32b6334dcb187edbe13566917.png)
 顺带做了个小功能，能直接拿到游戏封面图的可用 src 链接，避免你直接搬图结果显示裂开。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c063f00f4856d820c3fe454e75c7f876.png>
+![](img/zhuanqian_c063f00f4856d820c3fe454e75c7f876.png)
 今天群里就有伙伴反馈效果不错，很有成就感：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f9d44de775542e4aa63cad737f152fc4.png>
+![](img/zhuanqian_f9d44de775542e4aa63cad737f152fc4.png)
 # 二，这个工具是怎么冒出来的
 参加航海的都知道，航海手册第一课就是先把自己的游戏站搭起来。我也是照着手册一步步走，上线了自己的站点，第一道坎就卡在了找游戏源。看到一个喜欢的游戏，想搬到自己站上，结果找 iframe 找得头都大了。
 大家都知道要找 iframe，但真上手才知道多费劲。当时我编程水平也就 for、while 能写写，完全没做过网站，本来没打算做抓取工具，想着先把 Cursor 熟练再说。
 于是我先花了大概 5 天做了航海的第一款练习作，一款在线图像增强工具。起因很简单，我喜欢摄影，朋友里也有玩摄影的，聊天时发现大家对快速美化有需求，就拿来练手。效果大概像下面这样：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1dc7ea53d75c0c1ce43e9cf2cebdd3db.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_68d618c493c586e77e3046b6698b77ca.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_59049bcdd420775d13a8fc4239b6dd4b.png>
+![](img/zhuanqian_1dc7ea53d75c0c1ce43e9cf2cebdd3db.png)
+![](img/zhuanqian_68d618c493c586e77e3046b6698b77ca.png)
+![](img/zhuanqian_59049bcdd420775d13a8fc4239b6dd4b.png)
 市面上类似工具不少，但能和朋友圈结合起来玩也有点意思。ps：第一款工具的流量后来发给朋友，她说要转给所有找她拍照的模特。
 关键不在于工具本身，而是这个过程让我明白大家基本都是用最基础的 HTML、CSS、JavaScript 组合实现，而 bolt.new 给我生成的初版却是 Next.js 框架。当时我完全不懂，但页面颜值太高舍不得扔。结果发现因为路由和静态构建的问题一直部署不上线。
 从那之后我就开始啃 Next.js 基础、API 调用、反爬虫思路、Worker 代理、微信屏蔽申诉流程等等。每个卡点都得耗很久，但这些经验后来都成了做抓取工具的底子。我觉得选个难一点的技术栈虽然问题更多，但进步速度会快很多。
 后来每天刷航海群，总能看到有人问“怎么搞到游戏 iframe”。直播时也有人反复提这个问题。虽然有人已经意识到这块需求了，但一直没人填上。我开始觉得自己学的东西大概能试试，于是用一天时间把这个抓取工具搭出来了。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_710d02f08778d1bc6a57cccc98af5451.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f0dd4cce4055f32112d005e38f3899ad.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bc37c31d1757767506ae7d2305adae22.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_66300272f3a0235e2b8bcf6e58d6b6e7.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7bee0114a2d2d6e6093f4ecd48ed68a0.png>
+![](img/zhuanqian_710d02f08778d1bc6a57cccc98af5451.png)
+![](img/zhuanqian_f0dd4cce4055f32112d005e38f3899ad.png)
+![](img/zhuanqian_bc37c31d1757767506ae7d2305adae22.png)
+![](img/zhuanqian_66300272f3a0235e2b8bcf6e58d6b6e7.png)
+![](img/zhuanqian_7bee0114a2d2d6e6093f4ecd48ed68a0.png)
 图片 src 的功能也是从群里的闲聊里捕捉到的：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_039e8dbac0e4678b3dd2a448e4a64903.png>
+![](img/zhuanqian_039e8dbac0e4678b3dd2a448e4a64903.png)
 # 三，小白如何用 Cursor 复刻这种工具
 我现在也只是入门水平，下面是我做 Web 工具的大致套路，仅供参考：
 1. 先和 DeepSeek 捋需求。把我想做的东西跟他聊一下，聊透后再让他扮演顶级 UI/UX 设计师，给我一份给 Bolt.new 的精准提示词。

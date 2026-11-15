@@ -25,17 +25,17 @@ Gemini 是谷歌推出的 AI 大模型，其中 Gemini Advanced 属于付费高�
 注册步骤其实不复杂：打开 https://accounts.google.com/signup ，点“创建账号”，依次填好姓名、用户名、密码，完成手机验证，再补充备用邮箱、生日、性别，最后同意服务条款，注册成功后会直接自动登录。
 如果手机号这步卡住了，自己的中国号码搞不定，可以找赚钱鱼丸要我的联系方式，我教你怎么处理，这里不方便展开。
 注册完成之后，强烈建议去做一件事：到 https://myaccount.google.com/ 修改地址。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_568a0ea23cdec0690ada181ed0bb2fe3.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f5412ca60115cb7a68050ce208407f94.png>
+![](img/zhuanqian_568a0ea23cdec0690ada181ed0bb2fe3.png)
+![](img/zhuanqian_f5412ca60115cb7a68050ce208407f94.png)
 进入「个人信息」，找到「地址」一栏，点「其他」：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b424f4771f12c9240171259892f8ecba.png>
+![](img/zhuanqian_b424f4771f12c9240171259892f8ecba.png)
 随便填一个地址进去。如果不知道填什么，可以直接用后面那张支付卡的账单地址。这时候也可以顺手打开 https://gemini.google.com 登录一下。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3d07a0e89ea055186f8ad771b96adb09.png>
+![](img/zhuanqian_3d07a0e89ea055186f8ad771b96adb09.png)
 # 三、准备一张海外虚拟支付卡
 接下来需要用到一张国外支付卡，国内银行卡是付不了的。但人在国内，远程申请一张实体海外卡又太麻烦，所以通常用虚拟卡：不能转账，不能购物，但可以用来给各种热门海外应用充值会员，比如推特、GPT、Claude、Netflix 这些。
 已经有海外卡的朋友，可以跳过这一节。
 我用的是 WildCard 野卡：https://yeka.ai/i/XABST3JL （走我的邀请链接能便宜 1 美元）
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_123657fdf04ba63783900684d059abbf.png>
+![](img/zhuanqian_123657fdf04ba63783900684d059abbf.png)
 注册好账号之后，在后台选择开卡就可以了。费用方面：一年卡 9.9 美元，两年卡 14.99 美元。我个人开了 1 年，因为两年也就比一年便宜 5 美元；而且现在产品迭代太快，说不定明年有更好的选择。
 开卡时填写的姓名，尽量和谷歌账号保持一致。开完之后一定记得充值，最低要充 5 美元。为什么？这个教育优惠虽然显示扣 0 美元，但刷卡时依然会产生一笔 0 元交易，卡里没钱就会失败。
 # 四、搞一个美国 edu 教育邮箱
@@ -52,34 +52,34 @@ Gemini 是谷歌推出的 AI 大模型，其中 Gemini Advanced 属于付费高�
 前面材料都备齐了，下面开始正式操作。记住：全程挂魔法，节点选美国。
 **Step 1：进入申请入口**
 打开 https://one.google.com/explore-plan/ai-premium-student ，点击「验证学生身份」。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f533714a6216730a68cb51cd546acabc.png>
+![](img/zhuanqian_f533714a6216730a68cb51cd546acabc.png)
 **Step 2：填写 edu 教育邮箱**
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5c052335d4681474095abfd3bec48c3d.png>
+![](img/zhuanqian_5c052335d4681474095abfd3bec48c3d.png)
 把买来的美国学校邮箱填进去，然后去邮箱收验证码。
 **Step 3：填入验证码**
 收到验证码后，填回页面，资格就会解锁。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_209123002f45e9596e7de66a23ff5828.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0f5a31038edada181c80574e29f4a6b0.png>
+![](img/zhuanqian_209123002f45e9596e7de66a23ff5828.png)
+![](img/zhuanqian_0f5a31038edada181c80574e29f4a6b0.png)
 如果页面提示“此账号不符合使用 Google One AI 高级版方案的条件”，先别慌，大概率是节点不够干净。换个更纯净的美国节点再试一次。
 **Step 4：绑定虚拟卡并完成支付**
 点「添加卡」，填入卡片信息；同时打开 WildCard，在「我的卡片」里选「Gemini」，点「下一步」，然后按照野卡页面上的教程，把对应字段一一填好。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_409a5a0c38db82ad2ca8e8dfca67dd38.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d9bf0c555a9a0e877c12dce53d699f26.png>
+![](img/zhuanqian_409a5a0c38db82ad2ca8e8dfca67dd38.png)
+![](img/zhuanqian_d9bf0c555a9a0e877c12dce53d699f26.png)
 **Step 5：搞定，开始享受 Gemini Advanced**
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_474fd0c3cc7205355b588f14e28e70ee.png>
+![](img/zhuanqian_474fd0c3cc7205355b588f14e28e70ee.png)
 # 六、我的真心话，以及一个好消息
 我真的强烈建议大家去薅这波羊毛。用过 Gemini 2.5 Pro 之后，你就会知道它有多能打。
 算一笔账：野卡开卡 80 元 + edu 邮箱 140 元 = 220 元人民币。这个价格，也就是国外主流 AI 产品两个月的会员费。而且野卡开完以后，还能继续给其他海外 App 充值；美国 edu 邮箱到手后，以后也可以去参加别的教育优惠。这笔投入一点不浪费。
 当然，如果你实在想当“等等党”，这里也有个好消息：谷歌官方已经表示，未来会开放更多国家/地区的教育优惠。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d9717b4d11c9fab3621ac91cd2cf80a7.png>
+![](img/zhuanqian_d9717b4d11c9fab3621ac91cd2cf80a7.png)
 美国教育邮箱在市场上已经算比较贵的一批了。等更多地区开放后，价格大概率会被打下来；不过大概率不会有中国区。如果你愿意等，等政策放开后去买低价成品号也行。
 但站在我的角度，我还是想劝你：别等了，现在就去操作。220 元人民币真的不贵，没必要犹豫。成品号终究不如自己的号，Gemini 有记忆功能，聊天记录越久，它越懂你。
 再举个例子：之前很火的 Lenny's newsletter，就是那个花 100 美元送一堆年度会员的产品。最开始大家冲着 Cursor 年会员去，现在呢？
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4da53417542e7ae3adfe2b7a97b05d88.png>
+![](img/zhuanqian_4da53417542e7ae3adfe2b7a97b05d88.png)
 才一天，Cursor 大礼包就被薅光了。所以，好机会真的要趁早。
 # 七、额外福利：教育优惠羊毛合集送给你
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_51e93b011682c2290627acbcca4e0534.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d0c8e5e62edf5596c68a4bf4c44cd28e.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8671fa11b0113e60dee484b1fe79f7c3.png>
+![](img/zhuanqian_51e93b011682c2290627acbcca4e0534.png)
+![](img/zhuanqian_d0c8e5e62edf5596c68a4bf4c44cd28e.png)
+![](img/zhuanqian_8671fa11b0113e60dee484b1fe79f7c3.png)
 上面这份清单，是我用 Gemini 的 Deep Research 功能调研出来的，把主流支持教育优惠的产品整理到了一起。我自己实测过，大部分都真实可用。
 祝大家都能顺利拿下这 15 个月会员，省下这笔钱！

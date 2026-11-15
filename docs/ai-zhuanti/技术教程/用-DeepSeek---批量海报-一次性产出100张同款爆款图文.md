@@ -1,10 +1,10 @@
 # 用 DeepSeek + 批量海报，一次性产出100张同款爆款图文
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a0320219c1b59edf4041696ce1583482.png>
+![](img/zhuanqian_a0320219c1b59edf4041696ce1583482.png)
 大家好，我是龙哥！AI写作、绘画、海报方向的工具炼丹人。
 DeepSeek 现在是真的火，输出质量超出预期太多。今天就拆解一下，我怎么用 DeepSeek 配合炼丹家海报工具，几分钟内把一百张不同样式的海报批量做出来。
 对标的就是小红书的爆款书单号、资料整理号这类图文结构高度固定的赛道。套路打通后，效率直接拉满，新媒体账号起号也变得特别顺滑。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0973d445ffca716f9ffc9b6fc23f0085.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_70ad426e61fd1e376cb80851fcc77dad.png>
+![](img/zhuanqian_0973d445ffca716f9ffc9b6fc23f0085.png)
+![](img/zhuanqian_70ad426e61fd1e376cb80851fcc77dad.png)
 先说说这类图文常见的变现打法：
 好物带货做佣金
 小红书自带带货能力，给书挂上链接，读者通过链接下单就能自动结算佣金。选品要挑有热度、有话题度的书，《围城》《追风筝的人》这类经典更容易引发共鸣。
@@ -26,56 +26,56 @@ DeepSeek 现在是真的火，输出质量超出预期太多。今天就拆解�
 ③ AI SVG 图片生成器：https://svg.la/zh/
 # 实操路线：
 ① 批量产出金句主题。② 批量生成配图。③ 批量生成笔记。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3b29fae246edefec60dbecc23daa4111.png>
+![](img/zhuanqian_3b29fae246edefec60dbecc23daa4111.png)
 内容细节较长，建议先收藏再慢慢看。
 # 第一步：批量生成主题金句
 先确定对标赛道，然后用炼丹家AI批量出选题金句。打开工具后直接输入指令，
 根据沃尔特・艾萨克森所著《埃隆马斯克传》，请帮我提取50条本书中的经典金句，输出为表格，字段一：主题金句（中文），字段二：金句来源（例如：——《埃隆马斯克传》）。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bbeb3120a8a68e02ca97b88caf8ccea3.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bca5ad8606a678a53d9bdf07b0eb2b65.png>
+![](img/zhuanqian_bbeb3120a8a68e02ca97b88caf8ccea3.png)
+![](img/zhuanqian_bca5ad8606a678a53d9bdf07b0eb2b65.png)
 提示词可以灵活改。上面指令里设置了金句来源，是为了方便做多书混排的书单号。改成这样也行：请帮我整理50条畅销书中的经典金句，要求书籍不重复，同样以表格输出，字段一：主题金句（中文），字段二：金句来源（例如：——《埃隆马斯克传》）。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a41071df764a7a3654cfb984d3920bce.png>
+![](img/zhuanqian_a41071df764a7a3654cfb984d3920bce.png)
 炼丹家AI的DeepSeek R1模型会基于清晰的思考链，一次性给出50条主题金句。复制下来存进Excel备用。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3feabaa97674b5351650eab5f7a235eb.png>
+![](img/zhuanqian_3feabaa97674b5351650eab5f7a235eb.png)
 注：①炼丹家AI对话有默认上下文长度限制，需要的话去“对话设置”里把长度调到最大100000 token，防止中途因上下文超限中断输出。
 ②复制表格到Excel时偶尔会分行，是因为文本里带了手动换行符或回车符。解决办法是先粘到Word里，把换行符 ^l 和回车符 ^p 替换成一个临时字符，粘进Excel后再替换回换行符即可。
 # 第二步：生成配图素材
 书单类图文通常会搭配统一风格的图片，让整体更精致也更吸睛，比如透明底的作者头像、不同主题的配图等。
 需要透明底人像，可用炼丹家海报 - AI工具 - AI抠图。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a16040b10aca4ffc34a4656a0bb6b32d.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5339cbeddb5fa82ba206200cf3f9eb1b.png>
+![](img/zhuanqian_a16040b10aca4ffc34a4656a0bb6b32d.png)
+![](img/zhuanqian_5339cbeddb5fa82ba206200cf3f9eb1b.png)
 也可以用炼丹家AI - 智能修图 - 抠图功能操作。
 注：元素差异大的素材，用点选抠图效率更高。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2aae360a30cad855edd331665aa477d7.png>
+![](img/zhuanqian_2aae360a30cad855edd331665aa477d7.png)
 主题配图可以用炼丹家AI绘画生成，输入画面描述词并选择风格模型，就能快速出图。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d41e8082c57b3a5dc8b5486c982a5f52.png>
+![](img/zhuanqian_d41e8082c57b3a5dc8b5486c982a5f52.png)
 如果想要可无限放大的矢量素材，就用AI SVG图片生成器，填入画面描述、尺寸、填充色，即可生成SVG矢量图，方便二次编辑，非常适配小红书、小绿书的风格需求。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5cc1c4abb9a8dff8166b6255dd4da462.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fee1b9a2301884738f9e0a2d9f011750.png>
+![](img/zhuanqian_5cc1c4abb9a8dff8166b6255dd4da462.png)
+![](img/zhuanqian_fee1b9a2301884738f9e0a2d9f011750.png)
 把所有需要替换的元素提前统一处理好，后面批量会省很多事。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ab82eed065cbd313d4f5339fefa048e4.png>
+![](img/zhuanqian_ab82eed065cbd313d4f5339fefa048e4.png)
 这里我先随意生成了一些素材，方便后续演示。
 # 第三步：批量生成笔记
 打开炼丹家海报，点击右上角新建设计 - 小红书配图 1242x1660。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f12b1175cc41364b9e0b22cb9d9f3031.png>
+![](img/zhuanqian_f12b1175cc41364b9e0b22cb9d9f3031.png)
 在模板 - 小红书封面里挑一个合适风格，内容右下角插入一张图片，从“我的 - 资源管理”里添加，然后点上方“批量套版设计”。
 注：海报上可替换的元素按需调整，我这里把金句和金句来源拆成了两个独立图层，方便后续对应表格字段替换。
 进入炼丹家批量设计器后，选择需要替换的项，点击下一步。
 注：①文字和图片都支持批量替换。
 ②如果表格列顺序和海报图层顺序不一致会导致错位，建议先在海报编辑里调整图层优先级，再考虑调整表格排序。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e052355b6c8968b526fea5e76fd0eb41.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bb7183362cbdf8a63651705b7fe6dfcf.png>
+![](img/zhuanqian_e052355b6c8968b526fea5e76fd0eb41.png)
+![](img/zhuanqian_bb7183362cbdf8a63651705b7fe6dfcf.png)
 表格带图后的标准格式如下。
 注：图片必须嵌入到单元格内，才能正确对应。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7298947b4c21f37f6457f17fc494f64f.png>
+![](img/zhuanqian_7298947b4c21f37f6457f17fc494f64f.png)
 支持导入Excel表格，可选追加新数据或全量覆盖。表格结构只要和之前整理的行列一致即可自动关联。不确定格式时，可以先导出模板，按模板整理后再导入。
 把编辑好的表格导入，数据匹配成功后即可关联。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e44bb3a13714c77a2f01257b706d9d57.png>
+![](img/zhuanqian_e44bb3a13714c77a2f01257b706d9d57.png)
 确认数据无误后，点击生成批量套版作品，进入最终预览页，确认无误后点击右上角下载作品，勾选所需画板即可导出。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4eafc8d756f1a338e51c1a611cbcdef9.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5315f415e144d9af4f480d48a93c6d70.png>
+![](img/zhuanqian_4eafc8d756f1a338e51c1a611cbcdef9.png)
+![](img/zhuanqian_5315f415e144d9af4f480d48a93c6d70.png)
 就这样，50篇笔记一次性完成。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d746ed81626ad39911adf7d7b5536807.png>
+![](img/zhuanqian_d746ed81626ad39911adf7d7b5536807.png)
 以上三步，就是利用AI实现图文笔记的工业化生产，特别适合视觉统一、结构固定的爆款账号，提效感非常明显。
 资料整理类内容也很容易触发用户互动，进而进入更高流量池。
 注：小红书的推荐评分公式为 CES = 点赞数×1 + 收藏数×1 + 评论数×4 + 关注数×8，分数越高排名越靠前。

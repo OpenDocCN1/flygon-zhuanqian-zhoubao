@@ -7,17 +7,17 @@
 把这个话题放在最前面，是想先交代清楚我的频道目前处于什么位置，方便你按需索取；与此同时，也想给大家提供一个可以参考的坐标。无论做什么内容，最初的定位和目标设定永远是最重要的。
 从长视频这个维度来看，我目前还属于小博主。为什么要强调这点？因为我确信头部博主的运营逻辑，可能会推翻我接下来提到的一部分结论。但对我们大多数人来说，小博主是通往大博主的必经之路。
 所谓小博主阶段，用互联网黑话来说，就是已经完成长视频的0-1和1-10这两个里程碑。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_55bb643e16ac501aa40fe9c52c9b947e.png>
+![](img/zhuanqian_55bb643e16ac501aa40fe9c52c9b947e.png)
 ### 1.1.1　什么是0-1？怎么判断自己达标？
 结论：自然推流的播放量稳定破千。
 关键词有两个：自然推流、稳定。自然推流，是指没有依靠短视频引流带来的流量。如果短带长真的把流量带起来了，之后的长视频也会被系统识别为自然推流，所以这一点一定要盯紧。自然推流的来源主要是浏览功能和推荐视频两块，浏览功能对应首页推荐，推荐视频对应播放页右侧的相关推荐。等到粉丝量上来以后，频道页的推荐流量也会逐渐增加。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_071e1478f83c63bc70b74f35df888a06.png>
+![](img/zhuanqian_071e1478f83c63bc70b74f35df888a06.png)
 稳定，意味着不是偶尔冒出一支破千的视频，而是每部新发布的长视频，都能在赛道规定的推流窗口期内快速破千。要知道现在还属于0-1阶段，破千之后推流大概率就停了，哪怕各项数据看起来还可以，也就卡在五千以内上不去了。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a3b3b20a0bfaa3f9f91ad57634ad8252.png>
+![](img/zhuanqian_a3b3b20a0bfaa3f9f91ad57634ad8252.png)
 ### 1.1.2　什么是1-10？怎么判断自己达标？
 结论：自然推流的播放量稳定过万。
 关键词没有变。区别在于，这个阶段可能会跑出十几万甚至几十万的爆款，但还没有出现百万级的内容。当然不同赛道之间有差异，但差距没有shorts那么大。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_433ee836bfe626df78ccd78ae32a4760.png>
+![](img/zhuanqian_433ee836bfe626df78ccd78ae32a4760.png)
 ### 1.1.3　10-50、50-100又是怎样？
 坦白讲，这是我还没抵达的远方。不过逻辑上可以推演：10-50阶段，应该手握多条百万爆款，新视频发布后大概率直接冲到十万以上。50-100阶段，应该已经是通过长视频运营出来的数十万到百万粉博主，带有明显IP属性，换创意、换内容形式都能稳得住，不能再单看播放量，而应该以粉丝规模和商业价值来丈量。
 平台上大博主一抓一大把，头部效应显而易见。如果只看中长视频，抛开短视频的干扰，你可以从对标列表里再筛出一份新名单。现在就去做。
@@ -27,8 +27,8 @@
 或许你从一开始就瞄准了长视频，想求一个稳健的基本盘。
 或许你正在做长短结合的双轨频道。
 我属于第三种。下面是我5月和6月的长视频收入，基数不算大，但在稳步向好；6月比5月翻倍，主要原因是5月跑出了几条爆款，正好对应我上面提到的1-10阶段。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fcb3d1b4c22eff4f6be1c9383c379b0a.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_73e1b17d38b0de0cc93e6ea18112a780.png>
+![](img/zhuanqian_fcb3d1b4c22eff4f6be1c9383c379b0a.png)
+![](img/zhuanqian_73e1b17d38b0de0cc93e6ea18112a780.png)
 不管怎样，我们都要算一笔性价比的账，去量化金钱与精力的关系。为什么？因为时间是固定的，也是最公平的标尺。你完全可以用单位时间收入来衡量，然后优先选择那些投入小、产出大的内容规划。
 准确地说，我算的不只是长视频的钱，而是整个频道的总账。
 ### 1.2.1　内容的收入对比
@@ -39,7 +39,7 @@
 *   那在长视频和短视频之间做选择时，真正的核心变量是什么？答案是难度。难度能不能判断？可以，但同样要放到时间维度上去衡量。
 *   当下：做一条166万播放的短视频，跟做一条10万播放的长视频，哪个投入更大？哪个当下收益更多？
 *   长期：持续产出多条166万短视频，跟持续产出多条10万长视频，哪个投入更大？哪边睡后收入更可观？
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ab9c3351d30413dcb15eb133e6f9ffce.png>
+![](img/zhuanqian_ab9c3351d30413dcb15eb133e6f9ffce.png)
 ### 1.2.2　频道的收入规划
 频道月收入 = 长视频月收入 + 短视频月收入
 = 长视频总播放×RPM + 短视频总互动播放×RPM
@@ -58,10 +58,10 @@
 *   第4条13万播放，发布至今48天，还在继续推流
 持续被推流的感觉是不是很棒？时间维度上的收益，你现在应该也有体感了吧。目前来看，只要做的是非时效性内容，长视频的推流周期理论上是没有上限的；而短视频这边大家都很熟悉了，推流期大概一周，基本不会超过一个月。
 现在请回到自己的频道和赛道，你应该知道接下来怎么规划内容了。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_555bb2e0be43af20c3c295e5301d041a.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e5065c610df97c33b773ce7f7893b107.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fd93a33879962c2c5a1a364a41637521.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_574091f26564ee8641ad108dc922d018.png>
+![](img/zhuanqian_555bb2e0be43af20c3c295e5301d041a.png)
+![](img/zhuanqian_e5065c610df97c33b773ce7f7893b107.png)
+![](img/zhuanqian_fd93a33879962c2c5a1a364a41637521.png)
+![](img/zhuanqian_574091f26564ee8641ad108dc922d018.png)
 “道”的部分到此结束。希望长视频的目标和收入规划，已经在你们心里埋下一颗待办的种子。
 # 第二章　长视频的法
 ## 2.1　赛道怎么选？
@@ -96,8 +96,8 @@
 假如这个赛道直接没了……
 再要我想假如，我也想不出来了。
 假如流量下滑，前面提到的那些拓展方向，是不是可以开始动手试了？假如名人IP翻车，保留名人的“刻板印象”，换成动漫形象再来演绎，大家一看就懂，是不是就绕开了问题？假如赛道没落，你现有的能力能不能迁移到新赛道，比如宝宝播客。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e18af2dee63f9ed54b46f61e64bceaef.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_00899e7bd21263295bdce2154659a845.png>
+![](img/zhuanqian_e18af2dee63f9ed54b46f61e64bceaef.png)
+![](img/zhuanqian_00899e7bd21263295bdce2154659a845.png)
 当然，我们不能保证每个问题都有完美解法，但兵来将挡、水来土掩。做长视频就注定会撞上无数复杂的麻烦，一遇到事就撤退，那还怎么往大博主进阶？所以我不建议你频繁切换赛道，你的第一直觉应该是正向迁移、向外延展。
 ## 2.2　有短视频频道，想转长视频怎么办？
 ### 2.2.1　短视频和长视频到底是什么关系？
@@ -106,19 +106,19 @@
 *   短带长为什么带不起长视频的稳定流量？
 *   短视频爆了到底对长视频有没有帮助？
 我也是做名人搞笑内容的，但长视频观众和短视频观众完全是两拨人。没错，长短视频是分开推流的。等频道逐渐壮大后，它们唯一的重合点，就是发布时都会优先推给自己的频道粉丝，而粉丝的喜好甚至直接决定你的推流。所以粉丝才是根本，没有粉丝的时候，最该抓住的是目标观众，你的核心任务就是把这些目标观众转化成频道粉丝。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_901fd59a026516db318242286e0aec15.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_de76f4406740d4593da6499aa8ad8584.png>
+![](img/zhuanqian_901fd59a026516db318242286e0aec15.png)
+![](img/zhuanqian_de76f4406740d4593da6499aa8ad8584.png)
 既然观众不一样，那长短视频的关系就很明确了。以这个为前提，我们可以做哪些事情？下面结合我的亲身实验来一个个说：
 1.  把爆款短视频做成合集发长视频，可行吗？
 答案：可行，而且建议你立刻去测，成本几乎为零。虽然长短视频的粉丝重合度不高，但只要内容能破圈，无论载体是什么，可能都有人看。下面这两条就是3分钟和8分钟的短视频合集版长视频。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7cc2133f59d36a702b8265b8e80e1dc6.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e9e4ba52a9246872a51a47989edd1837.png>
+![](img/zhuanqian_7cc2133f59d36a702b8265b8e80e1dc6.png)
+![](img/zhuanqian_e9e4ba52a9246872a51a47989edd1837.png)
 那条3分钟的合集，帮我完成了长视频观众的冷启动，你看它和前面展示的长视频粉丝画像是不是很接近？
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3c0f4fa5f8d1f4690aea22008cd9f57f.png>
+![](img/zhuanqian_3c0f4fa5f8d1f4690aea22008cd9f57f.png)
 这个现象直接就回答了“短视频爆了到底对长视频有没有帮助”——肯定有，它不仅能拔高账号权重，还有机会帮你完成冷启。
 2.  只靠拼凑爆款短视频，就算做长视频吗？
 答案：不算。这种做法的意义，只是帮你去验证观众喜好，顺便评估这个赛道值不值得持续投入。它只是一个阶段性手段，而不是目标。真正要做长视频，还是得认真对待、长期执行。既然欧美观众已经被验证过喜欢这类内容，那是不是就可以直接做独立的长视频搞笑内容了？这正是我当时的想法。所以我没有继续做对标，而是跟我的大模型导师一起，朝着原创搞笑的方向开干。5月8日开跑，第三天（5月11日）做了一条印巴热点搞笑内容，顺利破千；之后保持两天一条的节奏输出，很快就迎来了爆款，基本每次发布都能预期破万。最近流量有点回落，一方面是我内容本身的问题，另一方面我发现之前短视频对标的大号，也开始做长视频了，并且直接复刻了我那条40万播放的内容。二十万粉的号都来抄我了，小号更不用说。看来又得卷起来做优化了，实惨。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b2c93f43f0ac9affc9b10c32bdb9f406.png>
+![](img/zhuanqian_b2c93f43f0ac9affc9b10c32bdb9f406.png)
 3.  长视频对内容质量和创意的要求更高
 *   短视频有多条千万爆款甚至上亿，为什么我发长视频就没有流量？
 *   短带长为什么带不起长视频的稳定流量？
@@ -126,12 +126,12 @@
 ### 2.2.2　用选择粉丝的思路来定位长视频赛道
 我现在做的名人搞笑长视频，其实是在shorts积累了一波粉丝数据后，拉长时间做流量梯度观察，才总结出来的经验：
 当时我做了一些百万爆款，发现这些内容的主力观众都在美国；而当视频突破千万播放后，印度观众迅速超越。这个时候我就开始琢磨：既然我想做高RPM的欧美粉丝（是不是真的高，做了才知道，事实证明也就1），而且我现在shorts做的东西恰好也是他们喜欢的，那么长视频如果做类似的内容，是不是也能把这些欧美目标观众留下来？有了这个判断，我很快就去试了，且很快就拿到了正反馈，就像前面说的那样。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_346644e417e7f6407fad6cf27cb13c4e.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e5564e1bc555bfd745f98f9492df3f70.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0513bae786177125487aa4721212b5d5.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_82a86f8f2f20971f3746850d870f1533.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_285113156d057add8cd1b61bc15f094b.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cb23bd670f2509b9228302ecbbc836ba.png>
+![](img/zhuanqian_346644e417e7f6407fad6cf27cb13c4e.png)
+![](img/zhuanqian_e5564e1bc555bfd745f98f9492df3f70.png)
+![](img/zhuanqian_0513bae786177125487aa4721212b5d5.png)
+![](img/zhuanqian_82a86f8f2f20971f3746850d870f1533.png)
+![](img/zhuanqian_285113156d057add8cd1b61bc15f094b.png)
+![](img/zhuanqian_cb23bd670f2509b9228302ecbbc836ba.png)
 在这之前，我还试过下面几个长视频方向：
 动物示警
 天使宝宝
@@ -151,21 +151,21 @@ GTA动起来、GTA转绘
 ### 3.1.1　选题和创意，不止来源于对标
 #### 3.1.1.1　从X和Reddit找灵感
 X上的内容也能直接变成创作素材。以特朗普的X为例子，我做过一条宝宝播客形式的长视频，这支也拿到了2000多播放，离冷启动是不是很近了？而且这还是一条彻头彻尾的原创脑洞内容。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ec04af80eb115f7225932345392db155.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cb4fc8b7146296e36629bb75744497a7.png>
+![](img/zhuanqian_ec04af80eb115f7225932345392db155.png)
+![](img/zhuanqian_cb4fc8b7146296e36629bb75744497a7.png)
 类似的，有一次我在Reddit刷到一条新闻，立刻决定拿它来做内容。那条本来是对标改编，但我在里面融入了自己的创意，随后发现评论区很多欧美观众都读懂了我的讽喻。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_08e0a7dcfae37da6bc69e3efbbd82b32.png>
+![](img/zhuanqian_08e0a7dcfae37da6bc69e3efbbd82b32.png)
 #### 3.1.1.2　从国内平台取素材
 这是我刷到的小红书话题。同样地，抖音、快手、视频号上也都有类似的内容。你可以关注赛道关键词去主动抓取信息。我之前也用过特朗普话题下的创意来做内容，这些都是送上门的子弹。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2315c40898f7851e6b080d9e7ce53302.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cce9797dc4b29ddc879ff4d8b6e9f16b.png>
+![](img/zhuanqian_2315c40898f7851e6b080d9e7ce53302.png)
+![](img/zhuanqian_cce9797dc4b29ddc879ff4d8b6e9f16b.png)
 #### 3.1.1.3　让大模型当你的导师
 我那条40万播放的长视频，就是跟大模型导师一起共创出来的。刚发布时流量并不算大，但当播放突破一万后，我就有种“这个可以做系列”的感觉。于是我把Gemini 2.5 Pro导师的创意温度调到2，在同一个对话窗口里前后又一起创作了5条以上的长视频，效果都相当不错。那一刻我好像找到了属于自己的路，也顺利让长视频突围进了1-10阶段。现在已经有越来越多的人在抄我了——朋友们，我也没赚到什么大钱，就已经被盯上了，哈哈。其实我想说的是，爆款就藏在你过去那些大大小小的AI资产里，尤其在你已经跑出过爆款的前提下，要学会挖掘，也要学会总结。
 每天都要在耳边响起我的声音：你那条爆款视频，做到打满100万token了吗？回答我！
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_79dd56a19426bf69d87f934444a54a72.png>
+![](img/zhuanqian_79dd56a19426bf69d87f934444a54a72.png)
 ### 3.1.2 你真的读懂评论区了吗？
 我曾经用 Cursor 做了一个评论采集工具。视频发布后，评论会自动整理成一份本地 CSV 文件。拿到这份数据后，就可以交给大模型导师，让它帮你进一步拆解观众反馈，寻找内容爆火的真正原因，并从中延伸出新的创作方向。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_41c0e5518c85c3778bb56df4b3681c53.png>
+![](img/zhuanqian_41c0e5518c85c3778bb56df4b3681c53.png)
 下面这份文件，记录的是一条播放量达到2600万的原创 Shorts 评论。
 这条视频的灵感，其实来自我小区楼下的一架跷跷板。每天倒垃圾都会路过，偶尔也会上去玩一会儿。没想到，视频发布之后，跷跷板逐渐成了这个赛道里的一个固定梗，后来还出现了大量模仿作品。
 现在我想把这条视频的评论交给你分析，帮我总结它为什么能够爆火，并进一步产出相关创意。请你先给出一个完整的分析框架。
@@ -249,22 +249,22 @@ AI 生成的逼真画面，让观众产生惊奇、质疑和探索欲。
 ### 3.2.1 一个容易被忽略的流量入口：首页帖子
 你有没有留意过，YouTube 首页除了推荐视频，还专门留出了帖子展示区域？
 有些帖子能获得数千点赞。结合后续数据来看，它们的展示量很可能已经超过百万。既然平台愿意提供这样的曝光入口，我们为什么不认真经营？
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ce3a962c41e27d363d1e2076d9c882b3.png>
+![](img/zhuanqian_ce3a962c41e27d363d1e2076d9c882b3.png)
 经过一段时间测试，我发现表现更好的形式往往不是直接发布视频，而是采用图片帖子。
 假设你想推广刚刚上线的视频，可以采用：
 **吸引人的文案 + 视频链接 + 一张冲击力最强的图片**
 而不是直接把视频以视频帖的形式挂上去。很多时候，一张足够抓眼球的图片，反而更容易让用户停留、点击，也能顺带带来新的关注。
 我一共发布了25条帖子，累计获得约110万次展示，收获3000多个赞，并新增365位粉丝。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_93038ca5965630b51a810b86a49c5cca.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4ab44b4a297167fc95f2b7ac3a3dbeed.png>
+![](img/zhuanqian_93038ca5965630b51a810b86a49c5cca.png)
+![](img/zhuanqian_4ab44b4a297167fc95f2b7ac3a3dbeed.png)
 ### 3.2.2 YouTube 首页的隐藏入口：官方合集
 如果你用电脑打开 YouTube 首页持续浏览，可能会在页面上方或中间看到一个专门为你整理的推荐合集。
 点进去之后，里面往往会聚集一批主题相近的视频。其他用户的首页也会出现类似内容，这说明 YouTube 正在根据用户兴趣，自动建立分类推荐。
 这对创作者来说是一个很有价值的观察窗口。
 你可以研究自己所在赛道的官方推荐合集，看看哪些视频被平台收录、哪些选题被放在一起、哪些内容结构反复出现。能够进入官方合集的作品，往往都值得作为创意和方向的参考。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_696780eb278fd4eb1ac91bbdb6e42a3d.png>
+![](img/zhuanqian_696780eb278fd4eb1ac91bbdb6e42a3d.png)
 被平台编入合集之后，确实会让人感受到一种特别的成就感。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_79647f84a4c78ca5a532ebc7f7d09e01.png>
+![](img/zhuanqian_79647f84a4c78ca5a532ebc7f7d09e01.png)
 ### 3.2.3 你的播放列表建立了吗？
 很多人只关注单条视频，却忽略了播放列表。
 当你搜索一个关键词时，结果页面里出现的不仅有视频，也会有播放列表。而且确实存在一批用户，习惯通过播放列表连续观看内容。
@@ -272,7 +272,7 @@ AI 生成的逼真画面，让观众产生惊奇、质疑和探索欲。
 如果频道里出现大爆款，播放列表的数据表现可能会更加明显，老高就是一个典型参考。
 我想强调的是，这些工作看起来不刺激，也不一定会立刻带来结果，却都是频道运营中不可缺少的基础建设。
 追逐短视频爆款时，很多人只盯着下一条能不能爆，却忽略了长期内容体系。而长视频和频道经营，往往会在未来某一天，让你庆幸自己当初把这些基础工作做好了。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bee54ee052f742c0084e56249b09a8c5.png>
+![](img/zhuanqian_bee54ee052f742c0084e56249b09a8c5.png)
 # 4 长视频的工具
 ## 4.1 GPT-O3：依然是那个强力选手
 ### 4.1.1 从频道监测到创意收集，一次完成
@@ -282,23 +282,23 @@ X 平台上的内容又该怎样持续观察？
 打开 GPT-O3，把它作为一个 Agent 使用，这些原本琐碎、重复的工作都可以交给它完成。
 你不需要一开始就用一句话把所有要求讲得完美。更有效的方式，是和它进行多轮交流，逐步明确你的目标、字段、筛选条件和输出格式。
 可以先讨论整体结构，再让它生成一个样本预览，确认样本符合预期后，再让它正式运行。比如：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bef63399b5b783de5d1df3efb965be49.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_78e7e8f6c503ecbcec2a28b70e080202.png>
+![](img/zhuanqian_bef63399b5b783de5d1df3efb965be49.png)
+![](img/zhuanqian_78e7e8f6c503ecbcec2a28b70e080202.png)
 设置完成后，你可以收到 GPT 的推送，也可以同步接收邮件提醒。
 至于还能延伸出哪些玩法，就留给大家继续挖掘了。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9e001a2b18588d2f9c432c36a05087e3.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_196e014820af049ece2e298cfe394829.png>
+![](img/zhuanqian_9e001a2b18588d2f9c432c36a05087e3.png)
+![](img/zhuanqian_196e014820af049ece2e298cfe394829.png)
 ### 4.1.2 批量生成图片，真的用过吗？
 很多人都有用 GPT 生图的需求，但也经常吐槽它的速度：确实不算快。
 不过，如果你本来就在同时处理多项任务，那么等待时间就没有那么难以接受。更关键的是，GPT 支持批量生成图片，这一点非常适合内容生产。
 我第一次发现这个功能时，兴奋到直接发了一条赚钱朋友圈。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d83e4706c3b5aba4c041185dbc101682.png>
+![](img/zhuanqian_d83e4706c3b5aba4c041185dbc101682.png)
 打开 O3 后，只要把任务交代清楚，就可以暂时去处理其他事情。当然也不能完全不管，中途仍然要回来确认，因为它可能会要求你做选择，也可能遇到网络超时。
 可以这样下达任务：
 **请根据下面的文生图指令词，按照顺序，依次生成指定尺寸比例的图片。**
 指令词：xxxx
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_440a1d69238dd39b2a96825bfa3aed12.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8076d6f309bb4c810a78cdcfb9d0bb85.png>
+![](img/zhuanqian_440a1d69238dd39b2a96825bfa3aed12.png)
+![](img/zhuanqian_8076d6f309bb4c810a78cdcfb9d0bb85.png)
 ## 4.2 内容体感：大模型应该是教练，而不是打杂助手
 先说几句可能有点“煽动性”的话：
 如果你把大模型只当助手，它最多帮你提高执行速度。问题在于，你自己仍然是整个系统的上限。一个人怎么可能比得上读过海量资料、能够快速比较无数方案的大模型？
@@ -327,9 +327,9 @@ X 平台上的内容又该怎样持续观察？
 比如，有时图片无法生成，问题并不明显。你可能会选择把结果重新交给大模型，让它继续修改。但有些只是几个形容词触发了限制，反复修改反而会把原本清晰的画面结构打乱。
 这类小问题，完全可以自己处理。
 当你足够熟悉自己的赛道，很多调整几乎一眼就能完成。比如删掉“强烈”“敌对”“对峙”等带有冲突意味的表达，画面可能立刻就能顺利生成。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5c8c56a2182422609a787ba26d9165fb.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9c1904fd7ebf8dc5899320902f570a2f.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d73033f1c456d53c0180082c0be9495e.png>
+![](img/zhuanqian_5c8c56a2182422609a787ba26d9165fb.png)
+![](img/zhuanqian_9c1904fd7ebf8dc5899320902f570a2f.png)
+![](img/zhuanqian_d73033f1c456d53c0180082c0be9495e.png)
 ## 4.4 选择通用模板，还是建立自己的独特方法？
 这里我想反过来问一个问题：
 真的存在一套放之四海而皆准的通用指令词吗？
@@ -349,10 +349,10 @@ X 平台上的内容又该怎样持续观察？
 比如我发现，想让特朗普变成光头，最有效的表达是：
 **A newly bald**
 其他类似“光头”的说法，可能效果都不稳定；即便拿光头图片去 Remix，也未必能达到预期。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d14f6787a3f140a24ac808a85f4277d0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_89bb71614327ff3fb3940010047f8598.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0c6173ed18b50a2798ad89d2c2b1025b.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bb0eefc3eef6f9b761e03330f6c7b3d3.png>
+![](img/zhuanqian_d14f6787a3f140a24ac808a85f4277d0.png)
+![](img/zhuanqian_89bb71614327ff3fb3940010047f8598.png)
+![](img/zhuanqian_0c6173ed18b50a2798ad89d2c2b1025b.png)
+![](img/zhuanqian_bb0eefc3eef6f9b761e03330f6c7b3d3.png)
 你在自己的赛道里，应该也会逐渐积累出类似的关键词。
 这些只有你掌握、别人不容易复制的细节，最终会变成真正的内容壁垒。
 所以，与其迷信万能提示词，不如不断积累属于自己的特殊经验。

@@ -21,10 +21,10 @@ DeepSeek 本身就带有蒸馏技术的影子。面对这般纷繁嘈杂的信�
 ## 清华大学第五弹
 ## DeepSeek 官方提示词库
 https://api-docs.deepseek.com/zh-cn/prompt-library/
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7e6a4de250c03acd946f00759f888421.png>
+![](img/zhuanqian_7e6a4de250c03acd946f00759f888421.png)
 要说谁最了解 DeepSeek，那一定是官方自己！！！虽然实际用下来效果算不上惊艳，但跟着提示词库去理解它的运转逻辑，还是能有不少收获。
 # 2. 遇到 “服务器繁忙，请稍后再试。” 时怎么办
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_aae015a59edf9d8c86fcc94b80b4ba10.png>
+![](img/zhuanqian_aae015a59edf9d8c86fcc94b80b4ba10.png)
 DeepSeek 曲线绕行平替：
 1.  秘塔搜索👍：https://metaso.cn
 1.  360 纳米 AI 搜索👍：https://www.n.cn/
@@ -47,7 +47,7 @@ DeepSeek 曲线绕行平替：
 🚫 为需要魔法【不要公开讨论，有需要可以搜索 SDKDNS：https://air1.sdkdns13.com/register?aff=wdIJnkbB】
 下面这张表还收录了许多平台已接入 DeepSeek 的国内应用。
 官网挤不进去的时候完全可以拿来应急。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_029c968b6cfad4cb3358f1430f3fe7e6.png>
+![](img/zhuanqian_029c968b6cfad4cb3358f1430f3fe7e6.png)
 # 3. 我用过且印象深刻的 AI 工具
 在所有选择里，硅基流动应该算目前能免费用 token 而且和原版差距最小的那一个。根据我和大魔的交流与实测，Pro 版本调用 API 时稳定度明显更好，只是要付费。如果你追求长期稳定使用，这个版本值得考虑，而且和自建部署相比，Pro 的性价比要高出不少。不过它不存对话记录，建议平时养成习惯，聊完就把有价值的会话粘贴到自己的文档里。
 硅基流动注册链接：https://cloud.siliconflow.cn/i/nF8tPrnV
@@ -55,42 +55,42 @@ DeepSeek 曲线绕行平替：
 Genspark:https://www.genspark.ai/invite?invite_code=ZmEyZTdjNDFMODRmMkw1MzE0TDdiZGJMZGRhMzgwNjMzZWY0
 Monica AI
 https://monica.im/invitation?c=LAPIRW08 注册完会自动询问是否配置 Edge 浏览器的扩展插件，装好后在 Edge 中进行搜索，就能看到 Monica 给出的 AI 回复。最重要的是，Monica 是年费订阅制，汇集了目前市面上的主流模型，一年 800 元，实际效果不打半点折扣。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_dd5d260ee762885d01cb158e2833f130.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_88320e6a0664de90088cfd1cc70b1baa.png>
+![](img/zhuanqian_dd5d260ee762885d01cb158e2833f130.png)
+![](img/zhuanqian_88320e6a0664de90088cfd1cc70b1baa.png)
 【PS：我还是比较小白的 AI 用户，大佬求轻喷，我继续努力】
 # 4. 极客时间官方的 DeepSeek 知识库，内容相当完整
 资料非常系统地介绍了 DeepSeek，还提供了不少信息来源和玩法延伸，写自己的知识库时可当作很好的补充素材。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2466e678da6b952105f0c1796bd14460.png>
+![](img/zhuanqian_2466e678da6b952105f0c1796bd14460.png)
 # 5. DeepSeek 本地部署实录
 ## 用 Ollama 在本地部署（必选）
 进入 Ollama 官方网站
 https://ollama.com/
 把 Ollama 下载回来
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a231ab8adb2b1d2f5f77b83a8e80c3c4.png>
+![](img/zhuanqian_a231ab8adb2b1d2f5f77b83a8e80c3c4.png)
 按照自己的操作系统选择相应的安装包，我这边是 Windows，所以下载的是第三个。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ea22b73363bae1d08d75756eb0c1d8e6.png>
+![](img/zhuanqian_ea22b73363bae1d08d75756eb0c1d8e6.png)
 装好之后再次回到 Ollama 首页，点击 models
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_50c7cff653a5c0cea0ecc97cf2e3251a.png>
+![](img/zhuanqian_50c7cff653a5c0cea0ecc97cf2e3251a.png)
 就能看到 DeepSeek-r1 的身影【其实不用刻意翻找，它热度这么高，一直停留在第一屏】
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_28070c7f5e16a52cf207c23de8c62835.png>
+![](img/zhuanqian_28070c7f5e16a52cf207c23de8c62835.png)
 点进去有各种规格的版本，选一个你显卡扛得住的即可。拿不准自己电脑配置的话就先从 7B 开始，也可以网上查一查。查看方法：电脑设置——>系统——>屏幕——>高级显示器设置——>显示器 1 的显示配置属性
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3ad8e3c7482705dc4300fdd9f50eb1b5.png>
+![](img/zhuanqian_3ad8e3c7482705dc4300fdd9f50eb1b5.png)
 我这台电脑显存是 8gb
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d47eed9c4f4f8d7b047236e88585b7b7.png>
+![](img/zhuanqian_d47eed9c4f4f8d7b047236e88585b7b7.png)
 搞清自己的显存大小再照着挑选就行。
 这里要感谢山禾老师的那期视频，我完全是跟着它完成了本地部署。他给出了和电脑配置对应的模型推荐表格【【教程】DeepSeek 本地免费部署教程，丝滑不卡顿！带你解锁隐藏功能！】 https://www.bilibili.com/video/BV1viFaeBE3z/?share_source=copy_web&vd_source=5f460572c698d74f4cc7345ffe32e76a
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c8ab518a73a3499032bec017e7d4e25b.png>
+![](img/zhuanqian_c8ab518a73a3499032bec017e7d4e25b.png)
 我自己选的是 7B 规格
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f147329184c2d56e9ed34f466afd1567.png>
+![](img/zhuanqian_f147329184c2d56e9ed34f466afd1567.png)
 提醒一下，7B 模型属于基于 qwen2.5 对 DeepSeek 做的蒸馏版本，说直白点就是低配版，日常使用完全没问题，但遇到特别复杂的问题就有些力不从心了。
 选定版本后，把红框里的命令行复制下来
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_551be8574c57bec031852f86058c20c8.png>
+![](img/zhuanqian_551be8574c57bec031852f86058c20c8.png)
 Windows 系统按 win+r 召出运行窗口，输入 cmd 回车
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5e0bade6be9916ba3beb0d6055bb921a.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8baeff875cf6afa0f47bff1102adfa47.png>
+![](img/zhuanqian_5e0bade6be9916ba3beb0d6055bb921a.png)
+![](img/zhuanqian_8baeff875cf6afa0f47bff1102adfa47.png)
 把刚复制的内容粘进去执行：ollama run deepseek-r1:7b
 回车后会出现一段下载任务，然后进度条慢慢跑起来，等它跑完就能直接开聊了
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5eada07f245571dfa77685e20a3d6269.png>
+![](img/zhuanqian_5eada07f245571dfa77685e20a3d6269.png)
 安装时的默认路径是 C 盘，如果空间吃紧可以把模型另存到别的分区，不知道具体操作的话，直接把问题抛给 deepseek 就行【实际上，每一步卡住问他他都能给你处理】
 这是我询问 deep seek 他给我的处理方案
 你可以通过以下步骤将 Ollama 的模型存储路径迁移到其他盘符，从而避免占用 C 盘空间：
@@ -129,86 +129,86 @@ mklink /J "C:\Users\<用户名>\.ollama" "D:\ollama"
 以上，本地部署就算完成了。不过自带对话框实在太过朴素，我们可以装一个智能体方案【chatbox】
 ## 一个更省事的新部署路径
 第一步，下载aingdeskhttps://www.aingdesk.com/zh/
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0c9c1a9bd7a3f069eb7cbc71ef86112a.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f0bebdaa93d4bda97e6a38a89a266209.png>
+![](img/zhuanqian_0c9c1a9bd7a3f069eb7cbc71ef86112a.png)
+![](img/zhuanqian_f0bebdaa93d4bda97e6a38a89a266209.png)
 点开设置，它能直接识别出你的处理器、内存、显卡等信息，选起模型来特别方便。里面集成了大量主流模型，对新手很友好。
 由于我提前装好了 7B 版的 DeepSeek 模型，这个工具还能帮我执行删除操作，方便我腾出空间去试其他模型。
 点进任意模型，会发现底层还是跳转到 ollama 上去，所以完全不必担心代码或数据结构搞不清楚
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ea383d7a070fdcef70a901d451420509.png>
+![](img/zhuanqian_ea383d7a070fdcef70a901d451420509.png)
 【图为近期讨论度很高的欧洲模型 mistral AI，目前只看见有 7B 的版本】
 网址https://chat.mistral.ai/chat
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4075c9d9bea2eaeb8af788b8afed174c.png>
+![](img/zhuanqian_4075c9d9bea2eaeb8af788b8afed174c.png)
 aingdesk 也能让你直接跟已经部署好的模型对话，唯一的短板是不能接第三方的 API，但因为它自带的模型足够多，玩起来花样还是很足的！
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2bf0f7efa20c1ea4710509db34745f1f.png>
+![](img/zhuanqian_2bf0f7efa20c1ea4710509db34745f1f.png)
 ## chatbox 本地部署方案
 打开 chatbox 官网
 https://chatboxai.app/zh
 选择网页版【也可以下载本地客户端，看你个人偏好，我选择装在本地】
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cdffcf271fc31c570dd173d088371f19.png>
+![](img/zhuanqian_cdffcf271fc31c570dd173d088371f19.png)
 然后点左下角【设置】
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e261e148a4d9e3199d7f433ecfd7dfdb.png>
+![](img/zhuanqian_e261e148a4d9e3199d7f433ecfd7dfdb.png)
 模型提供方选择 Ollama
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_18e92932c033c7fac7975037aef7e5d8.png>
+![](img/zhuanqian_18e92932c033c7fac7975037aef7e5d8.png)
 之前装好的 ollama DeepSeek R1：7B 会自动识别出来
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_31bd5ea35a4375239fe349daca83e33c.png>
+![](img/zhuanqian_31bd5ea35a4375239fe349daca83e33c.png)
 确认模型之后就可以保存开始使用了！
 ## 硅基流动 silicon flow 的 Deepseek 模型 API 调用玩法
 https://docs.siliconflow.cn/usercases/use-siliconcloud-in-chatbox
 官方给的教程已经写得很清楚了，我就直接把链接放上来。
 简单说，第一步先去 API 密钥区生成一个 Key，然后备注好这个 Key 的用途
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c980d8e11239aa291d7b416d488d3887.png>
+![](img/zhuanqian_c980d8e11239aa291d7b416d488d3887.png)
 再去 chatbox 的设置里，把模型提供方改成 siliconflow
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9e4354c1978c6aee91b6dd0241ec5d51.png>
+![](img/zhuanqian_9e4354c1978c6aee91b6dd0241ec5d51.png)
 更新：现在选好提供方之后其他设置全部自动带出，再也不用一个个手填，一步到位【下面这段可以不用看了】
 我实际操作时卡住的地方是第五步
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_987bf04d8f244a105b6dcb01af28edfe.png>
+![](img/zhuanqian_987bf04d8f244a105b6dcb01af28edfe.png)
 第五步的操作和刚才 ollama 本地部署时遇到的步骤差不多
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f397cc781e0fdad06418f61ca11fff0a.png>
+![](img/zhuanqian_f397cc781e0fdad06418f61ca11fff0a.png)
 需要把想调用的模型代码填进去。
 硅基流动的模型代码在哪里找呢？
 以我调用的 deepseek R1 为例
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ce71b13b4f2f6b49237dc553573aa1e4.png>
+![](img/zhuanqian_ce71b13b4f2f6b49237dc553573aa1e4.png)
 点开之后能看到一个复制按钮，点它把内容复制下来，然后粘贴到刚刚第五步的模型区域保存，就可以正常使用了
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c85aec84c231828bdd54014144a1ba32.png>
+![](img/zhuanqian_c85aec84c231828bdd54014144a1ba32.png)
 如果你翻不到，还可以去官方文档里 https://docs.siliconflow.cn/api-reference/chat-completions/chat-completions 找到
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_80b08aa4f298c8c767a2f6d3b019487e.png>
+![](img/zhuanqian_80b08aa4f298c8c767a2f6d3b019487e.png)
 这个【Available options:】 选项中列出的就是所有可以调用的模型，直接复制这里的代码也没问题。
 记得别把 API 密钥弄混了，一个密钥只能绑定一个模型
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7187411348b2305b1443db5a9def732e.png>
+![](img/zhuanqian_7187411348b2305b1443db5a9def732e.png)
 要是密钥跟模型对不上，运行时会直接报错。【因为我就报错过】
 最后再提一句，chatbox 是有手机版的，你可以先在手机上装好，用网页版把硅基流动的 API 配置流程走完，再到手机客户端里选好模型提供方并粘贴 API 密钥保存，这样就能在手机上用到满血版的 Deepseek 啦～
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_93138213de66a7b292584157998f55c0.png>
+![](img/zhuanqian_93138213de66a7b292584157998f55c0.png)
 最近后台总有人问我DeepSeek能不能看图、能不能算命。今天我就一次性讲清楚，顺便把火山云调用R1模型的完整流程拆解给你看。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5acf2e1cf76dfda5c228c2837550c298.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_03fef10ddcaaeb3b149ce5b0d530cad8.png>
+![](img/zhuanqian_5acf2e1cf76dfda5c228c2837550c298.png)
+![](img/zhuanqian_03fef10ddcaaeb3b149ce5b0d530cad8.png)
 先说重点：DeepSeek的pro版本，免费赠送的token额度根本没法用，你得真金白银充值才行。至于大魔同学有没有自行充值去测试，咱就不知道了hhh。另外，目前DeepSeek还不是多模态，你丢张图片给它，它顶多通过OCR把图片中的文字抠出来，但图片里蕴含的逻辑关系，它完全读不懂。所以想让它直接看图分析，基本不准。需要说明的是，这个OCR能力仅限官网，API调用大概率是不支持的。这条提醒先放着，等DeepSeek哪天升级成多模态，我再来删。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e4617c90d735d9361cc6091e34eb0d9f.png>
+![](img/zhuanqian_e4617c90d735d9361cc6091e34eb0d9f.png)
 ## 火山云DeepSeek R1调用教程
 先说第一步：打开火山引擎DeepSeek R1模型页面。网址给你放在这儿：https://console.volcengine.com/ark/region:ark+cn-beijing/model/detail?Id=deepseek-r1
 进页面后，广告别理，选首个DeepSeek-R1，点一下那个带箭头的“推理”按钮。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4bfec5883d7df63572529942426f24ee.png>
+![](img/zhuanqian_4bfec5883d7df63572529942426f24ee.png)
 页面跳转后，检查一下“确认接入”按钮能不能点。如果点不了，按照提示购买开通即可，注意这一步是不收费的。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_17a15db83c6607b0bddd6028d9569f7f.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_884b4c81bc54330f52b16b9f0751f532.png>
+![](img/zhuanqian_17a15db83c6607b0bddd6028d9569f7f.png)
+![](img/zhuanqian_884b4c81bc54330f52b16b9f0751f532.png)
 开通之后点击“确认接入”，就能看到已经分配好的API列表。因为我之前开通过一次，所以界面上有两个记录。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b7b833caeeb23b1f052cb406d360ff62.png>
+![](img/zhuanqian_b7b833caeeb23b1f052cb406d360ff62.png)
 来，到这里先停下，集中注意力，这里超级容易出错。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5455b87259a9f2c111c67adc889e92f4.png>
+![](img/zhuanqian_5455b87259a9f2c111c67adc889e92f4.png)
 注意左上角的模型ID，建议你先复制下来，后面要用。右下角选中“选择API Key并复制”，这个操作可以拿到属于你的API Key。如果你之前折腾过硅基流动的API，对这个流程绝对不会陌生。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b9201c6f6f70603a68e5d4c02b7ca68d.png>
+![](img/zhuanqian_b9201c6f6f70603a68e5d4c02b7ca68d.png)
 因为我之前已经建过一个了，所以你们看到的界面跟我这不太一样。从上往下按红色方框的提示依次点击，把名称换成自己容易识别的名字（默认是创建时间命名的）。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_78fe0e55fd99e9376045f7253c753a7a.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_98b36100ddb3416016255d23b82b0087.png>
+![](img/zhuanqian_78fe0e55fd99e9376045f7253c753a7a.png)
+![](img/zhuanqian_98b36100ddb3416016255d23b82b0087.png)
 接着点开小眼睛图标，复制好API，就可以和ChatBox联动了。火山云的接口地址是固定的：https://ark.cn-beijing.volces.com/api/v3，这个千万别搞错。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_57b66521ae285333db9e31080f948e9e.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5cbc96b73c303267e4ac03710bae26fa.png>
+![](img/zhuanqian_57b66521ae285333db9e31080f948e9e.png)
+![](img/zhuanqian_5cbc96b73c303267e4ac03710bae26fa.png)
 剩下的一些参数，你就按自己喜好调整就行。保存后就能直接用，速度飞快，火山云果然名不虚传。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f26edd771f34405882e2bf855c8710fc.png>
+![](img/zhuanqian_f26edd771f34405882e2bf855c8710fc.png)
 假如你得到的回复是这个样子的：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c33e18cafc95c2898f45b50a57ad27fa.png>
+![](img/zhuanqian_c33e18cafc95c2898f45b50a57ad27fa.png)
 建议你把下面那个按钮打开：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_31fb182d648521e40add1dda8a1e320d.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f702a86077164bf5cecaa0418c4d7b85.png>
+![](img/zhuanqian_31fb182d648521e40add1dda8a1e320d.png)
+![](img/zhuanqian_f702a86077164bf5cecaa0418c4d7b85.png)
 ## 用DeepSeek测算八字的几种玩法
 接下来进入重磅环节，给大家分享几个测八字的提示词，顺便说说它们的优缺点。
 ### 第1招：普通版，直接提问
@@ -223,10 +223,10 @@ https://docs.siliconflow.cn/usercases/use-siliconcloud-in-chatbox
 - 西方占星术与血型学：熟悉十二星座、行星宫位，能解星盘，还会结合血型分析性格和行为模式，并把血型特征与八字、星象等命理结合。
 - 职业素养：具备心理学知识，善于沟通倾听，客观公正，不误导人，保持谦逊和正能量，同时坚持因人而异，对具体情况保持开放态度。
 这个提示词不限于八字，你可以拿来测紫微斗数、星盘、占星等等。重点是每个主题开一个新对话，这样不会互相干扰。多测几个方向，再对照结果，看哪个更贴合实际，然后顺着那个方向继续追问。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3934598998947927399d56fe2a518924.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_02d26fa8ca4b70d0d2cb3fcd6509e0e9.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_625e1be497217b25a68861358985b179.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f477f5928ddd8041f91a6d2329997fc6.png>
+![](img/zhuanqian_3934598998947927399d56fe2a518924.png)
+![](img/zhuanqian_02d26fa8ca4b70d0d2cb3fcd6509e0e9.png)
+![](img/zhuanqian_625e1be497217b25a68861358985b179.png)
+![](img/zhuanqian_f477f5928ddd8041f91a6d2329997fc6.png)
 上面是我跑出来的案例截图，你可以一边看输出一边纠正，然后继续提问。
 ### 第3招：引经据典+特殊规则
 这一招要求DeepSeek化身为资深命理学家，熟读《三命通会》《渊海子平》《滴天髓征义》《穷通宝鉴》《子平真诠评注》这些经典。你给它提供出生时间（精确到分钟）、性别、出生地，然后请它完成：
@@ -242,7 +242,7 @@ https://docs.siliconflow.cn/usercases/use-siliconcloud-in-chatbox
 ░ ▒ ███████ ░ ░░
 弱 中 极强 弱 弱
 ```
-接下来排大运、验证历史事件，再预测未来五年。原文特别长，我就不全放出来了。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2569fc7d883548715349a3ac0f5af017.png> 不过要小心，它参考的经典大多是书房派，无论哪一派都有各自的局限。我个人感觉这个输出有些问题，比如五行能量的强弱分析并不完全准确（本人有半年集中学命理的经验），外行可能看不出来。建议你多批判它，多反问几次，让它自己纠错。
+接下来排大运、验证历史事件，再预测未来五年。原文特别长，我就不全放出来了。![](img/zhuanqian_2569fc7d883548715349a3ac0f5af017.png) 不过要小心，它参考的经典大多是书房派，无论哪一派都有各自的局限。我个人感觉这个输出有些问题，比如五行能量的强弱分析并不完全准确（本人有半年集中学命理的经验），外行可能看不出来。建议你多批判它，多反问几次，让它自己纠错。
 ### 第4招：盲派铁口直断，前事测验
 这个提示词的核心是让DeepSeek用盲派技法来分析。比如你可以说：“我是男性，八字是癸X壬X己X辛X。请用盲派技巧逐步分析八字，分析我的一生运势、体貌特征、时间节点和事件，越详细越好。着重分析大运能赚多少钱，包括学业和婚姻，建立准确的关系模型后输出结果。请诚实评价，不用温和的措辞。”
 盲派和传统书房派不同，它不太讲究用神、格局那套东西，追求“铁口直断”，直接把你过去、现在、未来的事情像念判决书一样说出来。但正因为这样，盲派也经常出错。所以你可以主动提供前事来定盘，比如：“我在xx年发生了xx事，请结合这件事修正我的命盘。”
@@ -258,10 +258,10 @@ https://docs.siliconflow.cn/usercases/use-siliconcloud-in-chatbox
 所以用 DS 看八字，理想前提是你自己懂点易理，能第一时间发现它跑偏，再一直换角度追问。
 实操上，可以先让 DS 推前两步大运，你用真实记忆去校准；校准完了，再让它推后面几步大运。
 我当时的提问记录如下（DS 现在不能导出对话，略烦）：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_05e3bf56f7ef7bc39770bfb90b2542ee.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cd960a917a1952447003fe25d12df973.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_829aa0ab278bcf8839ad69a09cfdeaeb.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e7a32db732e374c9c09dfe01544c25a1.png>
+![](img/zhuanqian_05e3bf56f7ef7bc39770bfb90b2542ee.png)
+![](img/zhuanqian_cd960a917a1952447003fe25d12df973.png)
+![](img/zhuanqian_829aa0ab278bcf8839ad69a09cfdeaeb.png)
+![](img/zhuanqian_e7a32db732e374c9c09dfe01544c25a1.png)
 这是用 1.1 普通版正常提问的结果。
 还可以发散思路。比如直接问它：“你能看出这个人有几个兄弟姐妹？”一旦它答错，你就能拿正确信息去纠偏。
 纠偏指令可以直接用：“他/她有X个兄弟姐妹，请你结合这件事修正你的推理过程，确定这个命盘。”
@@ -280,7 +280,7 @@ DS 给出结果后，可以继续追问：
 奇门排盘需要出生时间。要是没有，就记录你起疑那一刻的时间：心里突然特别想测这件事，马上抬头看手机/表，记下几点几分，用这个时间排盘。排完就不要再改了。起盘时间以起疑时间为准。
 老话说得好：没有疑问，不要起卦；没有困惑，不要测算。
 下面这张，是我用奇门测合作能不能成的结果：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8348f40544d40afe07ec271c7b08695a.png>
+![](img/zhuanqian_8348f40544d40afe07ec271c7b08695a.png)
 接着聊梅花易数、大六壬、六爻。它们都能用来判断眼前这件事的成败与走向。
 我个人对梅花熟一些。梅花易数在古代接近于纯粹的数学，所以把起卦扔给 DS 完全可行，R1 模型本来就好在数据推理。不过我也建议你再用 Kimi 起一次卦，做交叉验证。（我试过硅基流动的 DS 和官网 DS 同时起，前者的卦象错了一个。）
 起卦方法常见两种：
@@ -291,33 +291,33 @@ DS 给出结果后，可以继续追问：
 但要注意：同一件事不能反复占。问完能不能成，也别接着追问后续怎么走。该换一卦就换一卦。比如同一件事，第一次起疑起过卦了，过几天又起疑又来一卦，这是大忌。问婚姻能不能成，就别再问俩人合不合适。一次只占一件事，一个卦只管一个目标，不要贪多。
 数字起卦，我来两个例子。
 第一例，报数 11、13，问：我现在这个对象，能顺利结婚吗？
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_15e2d09815165ed471321366fbafbd8e.png>
+![](img/zhuanqian_15e2d09815165ed471321366fbafbd8e.png)
 第二例，报数 38、64，问：手头这个项目合作，能成吗？
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d298a648894987ba421ee50ae40fd40f.png>
+![](img/zhuanqian_d298a648894987ba421ee50ae40fd40f.png)
 第一卦的结论，感情底子不差，但要磨合；能一起成长，才有长久的机会。第二卦的结论，项目有落地条件，风险主要在合同、权责和外部竞争；前期谨慎，后期防微杜渐，才走得稳。
 然后是时间起卦。这次我不放演示了，做法其实简单：把时间写具体一点。比如我写到这里时正好是 2025 年 2 月 11 日 17:19，就按这个时间换算成农历去起卦。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_be76181a9d565d737a31cae632c527ca.png>
+![](img/zhuanqian_be76181a9d565d737a31cae632c527ca.png)
 （2025 年 2 月 11 日 17:19，也就是蛇年正月十四 17:19。）
 写到这里，干脆自己也起一卦。
 “时间 2025 年 2 月 11 日 17:19。请帮我换算成农历年月日时，用梅花易数的年月日时起卦法起一卦，求测我目前的 DeepSeek 社群项目会不会黄？”记得强调先换算，再按年月日时起卦；不然 DS 默认会按数字起。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ed5f3ab6c10b993b25fb811021290396.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_329f821d9c1351932121db1183fe357b.png>
+![](img/zhuanqian_ed5f3ab6c10b993b25fb811021290396.png)
+![](img/zhuanqian_329f821d9c1351932121db1183fe357b.png)
 卦象显示不会黄。那我就好好干！哈哈，群里各位就是我的更新动力。
 其实占卜能做的事很多：找丢失的东西、找小猫小狗，小红书上也有很多真实案例，大家可以搜来玩玩。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cae7c4199edbd4f0c8bbc2d965d64230.png>
+![](img/zhuanqian_cae7c4199edbd4f0c8bbc2d965d64230.png)
 DeepSeek 搭配玄学，玩法还有不少，像打时法、风水之类都能结合。但我的建议是，你得先有点玄学或传统文化的底子，才可能问出更贴近自身状态的结果。否则，就当娱乐，别太当真。心态放平，说到底，好心态就是最好的风水。
 好，这一趴先聊到这里，后面想到再补。
 更新一下：刷到一个玄学博主用 DeepSeek 断卦的视频，分别断了两支六爻卦和一支奇门卦。看完的感受是：外表花哨，内里拉胯。它知道的东西确实多，会穷举每一种卦象，用来当新手自学的辅助工具很合适。但要说水平，真不够看。玄学里的技法、象法、旺相休囚死、十二长生，AI 还不能综合判断，偶尔会给出严重脱离卦象的结果。这么看，最朴素、几乎不需要技法的梅花易数，反而是最适合 DeepSeek 的门类。
 指路：【「云 野」玄学 UP 测评，DeepSeek 算卦能否到达及格线】 https://www.bilibili.com/video/BV1uaNiexECq/?share_source=copy_web&vd_source=5f460572c698d74f4cc7345ffe32e76a
 最后，聊聊 DeepSeek 搭配飞书多维表格。
 2月10日，我全程盯完了飞书官方和“通往 AGI 之路”的联合直播，两个多小时，看得很兴奋。未来真的是想象力驱动的世界。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_613c94b76801dc47d7e2dcf740672fa4.png>
+![](img/zhuanqian_613c94b76801dc47d7e2dcf740672fa4.png)
 先把直播里记录到的好东西同步给你。
 群聊：「通往 AGI 之路」x「飞书多维表格」AI 共学大本营
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_50bedc922f41fbf955d1d7bfd40d7c96.png>
+![](img/zhuanqian_50bedc922f41fbf955d1d7bfd40d7c96.png)
 “辛亥 邀请你加入飞书群，点这个链接：https://applink.feishu.cn/client/chat/chatter/add_by_link?link_token=e94h69f8-3de5-40d6-bd5a-4502c4812bd7”
 好东西都在群里的云文档里，可以慢慢把玩。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_43e4013463265cb81451f3dd65fdd3ce.png>
+![](img/zhuanqian_43e4013463265cb81451f3dd65fdd3ce.png)
 直播时提到的好东西，我也贴出来（上面群文件里同样有）：
 - AI 文献速读神器
 - 赛博占卜师模板
@@ -326,29 +326,29 @@ DeepSeek 搭配玄学，玩法还有不少，像打时法、风水之类都能�
 这就是2月10日直播的精华，同步给你。
 说到底，飞书多维表格和 DeepSeek 联手是什么概念？其实就是多维表格直接接入了 DeepSeek R1。你把一整列数据丢进去，它全自动批量请求。相当于同时开了 100 个和 DS 的对话窗口并行工作，一小会儿就能产出 100 条满血版 R1 的结果。又爽又吓人。而多维表格理论上能撑到 10000 行，意味着你可以让 10000 个 DeepSeek R1 同时给你打工。
 最近直播间里有人演示了一款文献速览AI，讲得神乎其神，说能同时“吞掉”上万份PDF。我一下子就被戳中——这不正是我需要的吗？最近在帮对象整论文，天天和文献打交道。但说实话，单靠DeepSeek或Kimi，根本没法同时读5份以上、每份不到2MB的PDF文档，总是报错或漏内容。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fc164c24d7eaf77fd43414e5b6c59819.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_eb433e1a00d87b6b53e3a907a9f126a1.png>
+![](img/zhuanqian_fc164c24d7eaf77fd43414e5b6c59819.png)
+![](img/zhuanqian_eb433e1a00d87b6b53e3a907a9f126a1.png)
 这种体验实在让人抓狂。后来换到飞书的多维数据表，情况立刻变了：把文档批量丢进去，它能自动切分、逐条提取和解读，整体速度和稳定性都优于直接在官网对话，堪称真香。
 ### 多维数据表接入DeepSeek R1怎么做
 官方在字段捷径里给DeepSeek R1留了专属入口，现阶段送100万token试用包，不需要绑API key也能直接用。等跑完赠送额度，再按官方说明配置自己的API key即可。
 具体步骤：
 - 飞书左上角找到“多维表格”，或者点“+”新建一个。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_67e4afc6a49621a3ae58def576fec7b3.png>
+![](img/zhuanqian_67e4afc6a49621a3ae58def576fec7b3.png)
 打开后看到的就是一张空白表。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f92e992f47526fd0597679efe9aaf9fb.png>
+![](img/zhuanqian_f92e992f47526fd0597679efe9aaf9fb.png)
 把第一列的表头“文本”改成“输入”。这列就是你的提问窗口。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2178cd62dcd8fa642b059b9b64805937.png>
+![](img/zhuanqian_2178cd62dcd8fa642b059b9b64805937.png)
 删掉不需要的列，保持干净。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_28733eba2dfd2fd72fc80adface48e79.png>
+![](img/zhuanqian_28733eba2dfd2fd72fc80adface48e79.png)
 接着添加一个DeepSeek R1字段，它会自动对【输入】列做批量处理。点哪里、怎么设，直接看图：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6d3f91624dc23aca4112df5dcaf175b5.png>
+![](img/zhuanqian_6d3f91624dc23aca4112df5dcaf175b5.png)
 有一点要注意：第一列不适合挂模型字段，因为它是输入位。输入内容也不限于文字，图片、附件都可以，甚至可以几列混合作为输入。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d4b213934e0c637dea05e266fd755162.png>
+![](img/zhuanqian_d4b213934e0c637dea05e266fd755162.png)
 到这里，最基础的配置已经完成。剩下的玩法跟你直接用DeepSeek差不多，只不过把临时的想法提前写进【自定义要求】里固定下来。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7f2b7cc9f004755d4b9fe6ef917f052c.png>
+![](img/zhuanqian_7f2b7cc9f004755d4b9fe6ef917f052c.png)
 ### 小说推文自动化：从文字到分镜到绘图prompt
 以前我在做小说视频项目时，流程很固定：先用AI把小说内容“洗一遍”，提炼成一个个分镜；再把这些分镜转成出图模型能读懂的prompt。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bf3e81d15ba44a96ead97d467bcd1bb0.png>
+![](img/zhuanqian_bf3e81d15ba44a96ead97d467bcd1bb0.png)
 因为是批量执行，所以指令必须高度凝练，一次把需求说透。担心输出不稳定的朋友，可以把以前在GPT上沉淀的模板拿过来用，也可以去 https://www.aishort.top/ 找灵感。李继刚老师分享过的prompt写法同样值得学习，模仿几轮就能上手。
 调优的笨办法是：先写一版初稿，分别交给Kimi / 豆包 / ChatGPT等几个模型跑一遍，观察结果；再继续追问，让它们各自给出一版你认为更接近目标的方案；最后把不同AI的答案放在一起，取长补短，合成终稿。这招可以叫“模型互相校验，左右互搏”。
 ### 如何把提示词打磨得更可用
@@ -362,30 +362,30 @@ DeepSeek 搭配玄学，玩法还有不少，像打时法、风水之类都能�
 （素材里附带的Prompt Judger，是一段能给prompt打分的分析器代码，主要功能是：按1到10分给用户提交的prompt打分，指出改进点并输出优化后的完整版，同时不改动用户原始意图。把它嵌进工作流，能帮你快速判断指令质量。）
 等指令打磨完毕，再把它和飞书多维数据表结合，就能批量产出内容了。
 比如我自己的操作：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bad6ea60e4ab3a7335690027a3c6173d.png>
+![](img/zhuanqian_bad6ea60e4ab3a7335690027a3c6173d.png)
 第一步，先把小说内容按段落复制进表格，让DeepSeek批量改写。输出结果差不多是这样一个风格：极寒降临后大雪持续三个月，主角躲在安全屋看业主们被陈浩煽动抢物资，并预感到陈浩迟早会反咬他们一口。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8f04c140e893a61c38ef5f8f4dda21ab.png>
+![](img/zhuanqian_8f04c140e893a61c38ef5f8f4dda21ab.png)
 拿到改写结果后，再把它复制到第二张专门负责“文本转绘图prompt”的表里。
 其实“小说改写”这步也可以省略，把它直接写进“转prompt”的指令里。像下面图片展示的，多加几列、挂上新字段即可。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_407b4ca37453be1e95fc4c500c74719d.png>
+![](img/zhuanqian_407b4ca37453be1e95fc4c500c74719d.png)
 继续照图操作：新增一列，字段还是用DeepSeek，但指令改成“把整理好的文本转换为可用于AI出图的prompt”。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f32a245b9ecc7909b0ee743580e8a0d1.png>
+![](img/zhuanqian_f32a245b9ecc7909b0ee743580e8a0d1.png)
 再开一列，用来保存绘图prompt的生成结果。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_72784bfee4056503773c46c1b8ee001d.png>
+![](img/zhuanqian_72784bfee4056503773c46c1b8ee001d.png)
 如果希望模型的思考过程也显示出来，可以点【添加为独立字段在表格中显示】，让它单独成为一列，再搭配飞书自带的绘图工具。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_da5e7a4acb0155b5be36357e40e1ce43.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ca7b43d54002081057760373a4c09e49.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5c41d47a95cbdd8bb460eefa4c9f1150.png>
+![](img/zhuanqian_da5e7a4acb0155b5be36357e40e1ce43.png)
+![](img/zhuanqian_ca7b43d54002081057760373a4c09e49.png)
+![](img/zhuanqian_5c41d47a95cbdd8bb460eefa4c9f1150.png)
 最终效果就是这样。批量操作完成之后，产能差不多提升了10倍。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9405735d1bccd6b78f9ffc1a017a29df.png>
+![](img/zhuanqian_9405735d1bccd6b78f9ffc1a017a29df.png)
 【注意】串联多个AI时，要理清输入输出：上一环的输出列，就是下一环的输入列。配置后一个AI字段时，务必在指令里指定来源为前一个AI的输出结果。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4d08e7d1e42697e28833db1bb74d0153.png>
+![](img/zhuanqian_4d08e7d1e42697e28833db1bb74d0153.png)
 我实际生成的绘图prompt是：城市，大雪，末日，冰冷，寒冷，氛围感，鸟瞰图。
 用飞书内置AI画图跑出来的图片如下：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ea0afda5d4df4fca867c48b93a2e8a47.png>
+![](img/zhuanqian_ea0afda5d4df4fca867c48b93a2e8a47.png)
 效果是不是有内味了？多维数据表加各类AI模型组合，相当于让多个AI同时开工、互相接力，达成“左脚踩右脚”的螺旋上升。
 飞书的多维数据表内置了100多种AI应用。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_95871efbc06dde19f8d2b983b706ae3a.png>
+![](img/zhuanqian_95871efbc06dde19f8d2b983b706ae3a.png)
 过去需要一步步排队执行的工作流，现在可以直接并行。我做小说视频时，以前只能等上一步结束再操作下一步；如今把SOP各环节拆清楚，明确每一步的输入和产出，全部交给表格同时跑，速度快得吓人。如果再用RPA做串联，基本就是核弹级别。
 ### 飞书字段捷径教程合集
 关于字段的更多玩法，官方资料更系统，建议收藏备用：
@@ -407,19 +407,19 @@ https://waytoagi.feishu.cn/minutes/obcnncazbaya21ys4d5bgkbb【2月10日的直播
 # 8.DeepSeek帮我写推特账号申诉信
 这次起因是朋友来问我有没有X平台的运营手册，细聊才知他号被封了。我立刻想到自己也有个账号被冻结过，于是翻出收藏的申诉流程，帮朋友走了一遍，也顺便给自己的账号提交了申诉。同时让DeepSeek代写了一份申诉信，这里完整分享。
 提示词如下：我的X账号被封了，请你帮我写一段申诉，内容包括我只是在正常的使用账号，并未做出任何的违背X平台规则的事情，不能因为我来自亚洲是个黄种人你们就歧视我，我依然拥有使用X平台账号的合法合规权益，请你尽快恢复我的账号使用权，SET ME FREE！【要求，语气强烈但有理有据，最后以SET ME FREE!!!结尾】
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e5d1c01764571f437fe9c9cc96df8c23.png>
+![](img/zhuanqian_e5d1c01764571f437fe9c9cc96df8c23.png)
 差点忘了，申诉信要用英文写。【和DeepSeek这类AI打好配合的关键，是不断对话：一边聊一边把自己的需求磨清楚，一上来就写完美提示词的人终归是少数。】
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_60f8d5c72b300813aa99c7303efad87a.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5bfaa9d0fb6b5ff7224a9ffaf1044110.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3e5970088606fde3fe1154b239cf3aca.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5470bfad2e42009e51663d0d015afd7e.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fa763cfdb93046e1c0a70e24fdd4f9a3.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e80bc22e6cc1fdbbbf5af6da8927858e.png>
+![](img/zhuanqian_60f8d5c72b300813aa99c7303efad87a.png)
+![](img/zhuanqian_5bfaa9d0fb6b5ff7224a9ffaf1044110.png)
+![](img/zhuanqian_3e5970088606fde3fe1154b239cf3aca.png)
+![](img/zhuanqian_5470bfad2e42009e51663d0d015afd7e.png)
+![](img/zhuanqian_fa763cfdb93046e1c0a70e24fdd4f9a3.png)
+![](img/zhuanqian_e80bc22e6cc1fdbbbf5af6da8927858e.png)
 顺便把X账号解封步骤同步给大家：
 1. https://help.x.com/zh-cn/managing-your-account/suspended-x-accounts#how-to-unsuspend-Twitter-account
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c7e3206dbb122a97e5bfdfde4e380d3e.png>
+![](img/zhuanqian_c7e3206dbb122a97e5bfdfde4e380d3e.png)
 2. https://help.x.com/zh-cn/managing-your-account/locked-and-limited-accounts
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1b4c31d04d670ea841a9c7ec840a84f2.png>
+![](img/zhuanqian_1b4c31d04d670ea841a9c7ec840a84f2.png)
 3. https://help.x.com/en/forms/account-access/appeals
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3428be618680466a680a79b0f959afa2.png>
+![](img/zhuanqian_3428be618680466a680a79b0f959afa2.png)
 就到这里了，这段时间的 DeepSeek 自学实录先分享到这。各阶段的梳理、踩坑和收获我都整理在这份文档里，后续也会继续把它补全和迭代。AI在持续进化，我的学习也会一直跟上。

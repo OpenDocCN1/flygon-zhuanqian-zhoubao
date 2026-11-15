@@ -16,8 +16,8 @@
 先提醒一句：以下的文案改写训练，没有限制字数和对话轮次。如果你配完音、去完气口后超出 60 秒，请自行调整 prompt，或者手动删减内容和对话来压缩时长。TikTok 这边不太用操心；Shorts 规则彻底更新后，大约 12 月上中旬，只要控制在 3 分钟以内也没问题。
 ### Reddit 流
 它的核心逻辑，是把传统文字平台上的帖子拿来做二次创作，其中 Reddit 贡献的素材量最大。Reddit 是美国一个集新闻、讨论、评分于一体的社区型网站，类似国内的贴吧加豆瓣。通过进入特定群组，你可以挖到大量值得改编的故事和段子。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9fbc1c09c20ad5e15ea392467e8b575e.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b5e4ed3f57dada2712fecc352c1c90b9.png>
+![](img/zhuanqian_9fbc1c09c20ad5e15ea392467e8b575e.png)
+![](img/zhuanqian_b5e4ed3f57dada2712fecc352c1c90b9.png)
 上面两张图分别是“纯故事 + 字幕”和“Reddit 开头模板 + 字幕”的效果。
 做 Reddit 流需要四样东西：
 - 故事出处
@@ -26,11 +26,11 @@
 - 解压向画面素材
 故事去哪儿找？美国有大量交互式文字平台，比如 Reddit、Quora、The Moth、4chan、8kun、Discord。其中 Reddit 体量最大，又能匿名发言，所以可采集的故事最丰富。下面涉及素材采集的讲解，我默认以 Reddit 为例。你可以先加入 Story、AITAH 这类群组。
 具体怎么找更多群组？打开翻译功能去浏览，系统会顺藤摸瓜给你推很多同类交流区。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_82153e7d62e6689a782e0de753a17561.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c4332a77236135417f3728e3e26641f8.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_177e03fcbcdebdfbe36c8b995a267bed.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_21d2439285900281fbab09458d76b8a2.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_39f285a93e2ff811fa90aa85f72a263d.png>
+![](img/zhuanqian_82153e7d62e6689a782e0de753a17561.png)
+![](img/zhuanqian_c4332a77236135417f3728e3e26641f8.png)
+![](img/zhuanqian_177e03fcbcdebdfbe36c8b995a267bed.png)
+![](img/zhuanqian_21d2439285900281fbab09458d76b8a2.png)
+![](img/zhuanqian_39f285a93e2ff811fa90aa85f72a263d.png)
 这里顺便分享几个我常用的：
 https://www.reddit.com/r/BestofRedditorUpdates/
 https://www.reddit.com/r/AITAH/
@@ -40,17 +40,17 @@ https://www.reddit.com/r/self/
 https://www.reddit.com/r/nosleep/
 #### Reddit 开头模板怎么弄
 先看模板长什么样：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0a3033e23b1b4107ca36113d51464f20.png>
+![](img/zhuanqian_0a3033e23b1b4107ca36113d51464f20.png)
 看到这张图，你的第一反应是不是截图、抠图、抹掉文字和头像，再自己去 P？或者去稿定设计、Canva 上找现成的版式？其实有个更省事的方式：用 Figma 自制。Figma 社区里已经有现成的 Reddit 模板，组件很全，唯一的小问题是原始版本是横版，需要你手动改成竖版。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_99393df4b7c72ff44780a38c353c56f0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4c1d1f8d78c67c5bba45986037c3a7e0.png>
+![](img/zhuanqian_99393df4b7c72ff44780a38c353c56f0.png)
+![](img/zhuanqian_4c1d1f8d78c67c5bba45986037c3a7e0.png)
 这个在线工具的社区里有大量模板，搜索 Reddit 就能看到，组件相当齐全。如果以后有海外风格模板的需求，也可以常去这里面淘。
 https://www.figma.com/
 https://www.figma.com/community
 ##### 模板的界面和操作
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_066ddad7f8d2e9f0d993f8b323c621a0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_064c1490a19e3097742b3aaaf8345671.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1a763cc9718b3ffa2a6bdcf850843c97.png>
+![](img/zhuanqian_066ddad7f8d2e9f0d993f8b323c621a0.png)
+![](img/zhuanqian_064c1490a19e3097742b3aaaf8345671.png)
+![](img/zhuanqian_1a763cc9718b3ffa2a6bdcf850843c97.png)
 其他细节你可以自己研究，比如加上一些图标，或按自己的审美调整。
 如果不想自己改，我这里有一份调好的模板，打开网址就能直接用：
 https://www.figma.com/community/file/1434129226221600298
@@ -58,10 +58,10 @@ https://www.figma.com/community/file/1434129226221600298
 一个有效的笨办法：用新号把对标账号都关注一遍，再多刷一阵，系统就会慢慢推相关工作流给你。遇见合适的画面就收集起来，逐步搭出自己的素材库。想做好故事类账号，自己的素材库几乎等于刚需。
 #### 文案：正向原创练习
 先把 Reddit 里看到的故事，压缩或改写成适合 60 秒左右讲完的脚本。举个例子，某个帖子的选题是这样的：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1f7f3964de5d6d7c9fe781156a448341.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_89ec6a93cd4eab649fdb81adb2a8b68d.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9bc29e8029721087af7b6409f1fd9636.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_de7b4a54d6c68f50725fd49bc9b342f9.png>
+![](img/zhuanqian_1f7f3964de5d6d7c9fe781156a448341.png)
+![](img/zhuanqian_89ec6a93cd4eab649fdb81adb2a8b68d.png)
+![](img/zhuanqian_9bc29e8029721087af7b6409f1fd9636.png)
+![](img/zhuanqian_de7b4a54d6c68f50725fd49bc9b342f9.png)
 原帖大意如下：
 一个 Reddit 用户讲过家族往事：当年抗蛇毒血清还没有普及，他的祖父被悉尼漏斗网蜘蛛咬了，同事用纱布裹住手，让三个人挤进一辆车，从 Lithgow 往悉尼赶。半路上，车速太快，警笛声跟了上来。警官走向车窗，以为是揪住了几个下班后乱飙车的年轻人；结果副驾驶举起了装蜘蛛的罐子，又指了指那只缠满绷带的手。警官眼睛瞬间瞪大，只说了一句“好，跟我走”，随后冲回警车、拉响警笛，一路开道把他送进悉尼，时间比常规状态少了一半。最让全家人笑到不行的，是司机这辈子开得最快的一次，居然是在警车后面跟出来的。
 这个故事的梗点有三层：
@@ -91,10 +91,10 @@ The punchline, as my uncle put it: the only time they ever drove at top speed, t
 4. 规定替换规则，避免同一段里堆叠重复关键词，多换新鲜比喻和动作描写；
 5. 限定语言风格，追求句子精炼、主干清晰。
 这样既能守住故事的核心，也不会写得拖沓。把同样的指令分别发给 Claude 3.5 和 GPT-4o，你会看到两种不同风格的输出：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6b5bc9b20c567ae3093f75e37effe6c6.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f208ff49ec4c6ed7ecb5aff315caa09d.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4e5da5bf13ba243d016e783ec00dfbe8.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_90b0b38a1334706bec2f305049eaef09.png>
+![](img/zhuanqian_6b5bc9b20c567ae3093f75e37effe6c6.png)
+![](img/zhuanqian_f208ff49ec4c6ed7ecb5aff315caa09d.png)
+![](img/zhuanqian_4e5da5bf13ba243d016e783ec00dfbe8.png)
+![](img/zhuanqian_90b0b38a1334706bec2f305049eaef09.png)
 对比之后，你就能判断自己的 prompt 是否有偏差，也能发现不同模型需要怎样微调。比如 Claude 有时会擅自改成第三人称，这时你要在 prompt 的上下文里给出明确修正，直到它输出你想要的效果。
 配音部分，点击上方那串箭头跳转到对应章节；后面再配音，这一节可以直接复用，不再展开讲。
 #### 文案：反向借鉴练习
@@ -114,8 +114,8 @@ The punchline, as my uncle put it: the only time they ever drove at top speed, t
 悲剧本身就自带重量，加上低沉的背景音乐，情绪很容易被推到顶点。那我们就换一种讲法讲一遍。
 想让改编后的故事不丢魂，又能让人眼前一亮？请记住这些原则：篇幅得克制，新稿最多比原稿长一成；开头先放亮点，中间慢慢铺细节，设计一个转折，结尾点题收束；人物称呼、关系以及关键事件，一个都不能改；同一段里重复出现的关键词不能超过两个，多用鲜活比喻，细细描摹动作，以取代俗套表达；句式简短，主干清楚。做到这几点，故事就稳了。```确保改写既保持故事精髓，又避免冗长。最重要的，人称描述视角不要改变。
 以下是原文，请给我改写后中英文对照：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e3c9d0d82ff9a791314fe8ea2c484c10.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0636e7df4f03471f85de13d3e38d9e85.png>
+![](img/zhuanqian_e3c9d0d82ff9a791314fe8ea2c484c10.png)
+![](img/zhuanqian_0636e7df4f03471f85de13d3e38d9e85.png)
 I witnessed a student die in my classroom, and I lied about his last words. As a middle school teacher, that ordinary afternoon changed me forever.
 After lunch, a student stumbled in, drenched in sweat - strangely out of place in the cold weather. I suggested he clean up, but something felt wrong about his condition. During the test, he swayed toward my desk, clutching his pencil as if it were his only anchor. He gazed at me bewildered, asking, "What music are you listening to?" I answered, "The Mamas and The Papas." He didn't respond, looking more disoriented, and whispered, "Can I call home?" Before I could move, he collapsed before me.
 The resource officer and nurse rushed in, an ambulance soon dispatched, but I knew he wasn't breathing anymore. Later, his parents contacted me for every detail. With the principal present, I recounted the events. When they asked about his final words, I told them, but they misheard, thinking he'd asked to call his "mama and papa." Watching them break down, learning he hadn't used those names since age three, I couldn't reveal the truth.
@@ -143,30 +143,30 @@ A brain aneurysm, triggered by a head injury weeks earlier, had taken him. After
 ###### （1）导入素材
 <h7>清理音频气口：</h7>
 首先我们要先清理音频的气口，把一些不必要的东西东西删除。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7690da10653ba42bde449eb846dfd3b5.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5e4710ed321d238e7bf1468ee81f7aef.png>
+![](img/zhuanqian_7690da10653ba42bde449eb846dfd3b5.png)
+![](img/zhuanqian_5e4710ed321d238e7bf1468ee81f7aef.png)
 为什么有些气口会很多?
 这源自于你选择的配音角色，如果是elevenlabs里面的，你就要选择语速快的，没有那么多情绪表达的，这样你配音出来的时长会少一些，也没那么多气口。
 <h7>导入解压素材：</h7>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ce67bc96603b66c30d3ced9582a87b59.png>
+![](img/zhuanqian_ce67bc96603b66c30d3ced9582a87b59.png)
 <h7>制作并且导入reddit模版：</h7>
 打开我制作好的模版：
 https://www.figma.com/community/file/1434129226221600298
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4ca6d6420f924125d79e7c1a3978e369.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_22e4c0246c45d96cdf90c08799c3c7d5.png>
+![](img/zhuanqian_4ca6d6420f924125d79e7c1a3978e369.png)
+![](img/zhuanqian_22e4c0246c45d96cdf90c08799c3c7d5.png)
 对应更换文案以及账号名字
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e0ec605d67e42a190881fdc67712bf37.png>
+![](img/zhuanqian_e0ec605d67e42a190881fdc67712bf37.png)
 滑动调整框架比例：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ad6fb7305d7c46b8ea75840e8417d95d.png>
+![](img/zhuanqian_ad6fb7305d7c46b8ea75840e8417d95d.png)
 输出图片：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_34915f5572d77d3b4b4c3e7ee122dd19.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_61a7d29d2e0e96007b08e9e75d324a25.png>
+![](img/zhuanqian_34915f5572d77d3b4b4c3e7ee122dd19.png)
+![](img/zhuanqian_61a7d29d2e0e96007b08e9e75d324a25.png)
 只保留这个输出，点击export，导入卡片在cupcut中。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fd84e00bf6007b1fcd3a5faf22a18eb8.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_75cd4f1a4687a4d96a496b9036dec8bf.png>
+![](img/zhuanqian_fd84e00bf6007b1fcd3a5faf22a18eb8.png)
+![](img/zhuanqian_75cd4f1a4687a4d96a496b9036dec8bf.png)
 ###### (2) 开始剪辑
 画布调节成9比16
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bcd05913f7c1b448ae7b34592eab9ba4.png>
+![](img/zhuanqian_bcd05913f7c1b448ae7b34592eab9ba4.png)
 先清理解压片段，保留解压片段中的精华部分，要多个片段拼接，这样达到去重的目的，并且消音。
 <h7>你要做一下动作：</h7>
 1.  保留片段中精华部分
@@ -175,26 +175,26 @@ https://www.figma.com/community/file/1434129226221600298
 1.  适当扩大原视频的比例
 1.  增加智能调色功能，或者改动色温饱和度，锐化，以及曲线等参数。
 1.  适当给不同片段整体变速
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_062592a11bb5d55992877ad900d8e7c8.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8717aaa024504c4f2f99cde31198cf8c.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9598cca42181f64194fed96ccef2c514.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ef950777eaa10ed71f53f5b7c7d78a2a.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_888f5365dbcf49bcf64ec80b7c3ebe4c.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0bf8a5ba937d72e0f2ecf23ea8133c68.png>
+![](img/zhuanqian_062592a11bb5d55992877ad900d8e7c8.png)
+![](img/zhuanqian_8717aaa024504c4f2f99cde31198cf8c.png)
+![](img/zhuanqian_9598cca42181f64194fed96ccef2c514.png)
+![](img/zhuanqian_ef950777eaa10ed71f53f5b7c7d78a2a.png)
+![](img/zhuanqian_888f5365dbcf49bcf64ec80b7c3ebe4c.png)
+![](img/zhuanqian_0bf8a5ba937d72e0f2ecf23ea8133c68.png)
 <h7>当我们把素材处理完毕以后，剩下的就是我们处理文案以及音频的事情。</h7>
 首先，导入reddit模版作为开头，并且把音频转换成字幕文件，对照模版开头的字幕清除。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8feb8a56e245d0503ccd1d33d088e9c6.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f818418087af6294b84d9dae28962a4f.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a2ef1fcd8a5fea00acc8a6c738b8325b.png>
+![](img/zhuanqian_8feb8a56e245d0503ccd1d33d088e9c6.png)
+![](img/zhuanqian_f818418087af6294b84d9dae28962a4f.png)
+![](img/zhuanqian_a2ef1fcd8a5fea00acc8a6c738b8325b.png)
 音频中，and I lied about his last words，这句话之前的字幕清除，因为我们的模版里面的文字，放置的就是这些。
 并且要保持模版的对齐！
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fce6518ef1cba6f0fe09b617d0876fa2.png>
+![](img/zhuanqian_fce6518ef1cba6f0fe09b617d0876fa2.png)
 <h7>接下来我们来做一下开头模版的动效，渐变放大。</h7>
 首先插入关键帧，在这个模版的第一帧缩小，然后在最后一帧放大一些比例，最后点击动画，选择出场，选择渐隐。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_94bba83321ad16568ca77f4353d3cf47.png>
+![](img/zhuanqian_94bba83321ad16568ca77f4353d3cf47.png)
 <h7>最后我们得到这种效果</h7>
 之后，我们来调整字幕特效，以美观度最合适为主。这个没有统一标准，审美不同。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6cabda5b3ae9aedb359399c0970712ff.png>
+![](img/zhuanqian_6cabda5b3ae9aedb359399c0970712ff.png)
 导入BGM，响度统一，根据音频声音，调整BGM大小，或者配音大小。
 <h7>然后我们就得到了成品：</h7>
 好，这中间，模版的里面小图标的动效，可以根据reddit的制作模版中在更换，素材的质感，也可以根据自身找到的对标素材，加以更换，其余的逻辑基本一模一样，没有任何区别。
@@ -694,27 +694,27 @@ More like the "doesn't give a fork" genes
 这是一个爆款短信风格的对话文本，请你根据对话的文本，来猜测，它里面有几个角色呢？我只需要对话的角色，提到的其他人物，如果没有对话的表达，那么就不算在角色中，另外你要详细拆解表达的故事情节，以及情感链条是怎么样的？以下是文本:
 在第一段分析完毕以后，我会给到这样的提示词：
 "请你这两个角色完整的对话内容列举出来，根据角色来分别整理，要先给整段英文在给整段中文."
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c03ec5ca780bcd8aa5c6bf5a6c6ccfd9.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a2a3416f98fe32496367e98fbfe398c6.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d7ec6805630917712e78d0cdc83384f9.png>
+![](img/zhuanqian_c03ec5ca780bcd8aa5c6bf5a6c6ccfd9.png)
+![](img/zhuanqian_a2a3416f98fe32496367e98fbfe398c6.png)
+![](img/zhuanqian_d7ec6805630917712e78d0cdc83384f9.png)
 ##### 优化对话：
 好，我们来根据对话，拆解出更有意思的内容，接下来先来看看他的本意。
 这个故事讽刺了那些对财产界限斤斤计较、蛮不讲理的邻居。故事中，邻居仅仅因为1.46英寸（约3.7厘米）地方，就要求对方在一天之内搬走房子，并且威胁要报警和起诉，这显然是无理取闹。 "BOOM" 和其他拟声词的运用突出了这个邻居的咄咄逼人和蛮横无理。
 那我们根据这个核心来增加新的内容，让他增加一些反转，变得更加有趣。
 我想改进一下对话，让冲突更加激烈，增加一些反转之类的，让情感链条更加的夸张 出人意料的结局 但要保持原文剧情的结尾核心 以及笑点 你有什么想法吗？ 出场对话角色固定，要更加夸张一些的对话以及剧情。情感链条重新梳理一下给我看看？
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5fe89292b970ecbcd80ebce68d2f56cc.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_32b0b3b81e0cf6298227c27f30d44042.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_85323361b7f74bfa5207acb6a051a956.png>
+![](img/zhuanqian_5fe89292b970ecbcd80ebce68d2f56cc.png)
+![](img/zhuanqian_32b0b3b81e0cf6298227c27f30d44042.png)
+![](img/zhuanqian_85323361b7f74bfa5207acb6a051a956.png)
 好，我们得到了这样的情感链条以及新的元素，但是有些不对，首先，我们尽量是两个人的对话，这样我们在做聊天截图的时候，不至于太麻烦，而且更加容易理解，另外我们在新的元素中看到了这个反转，我觉得挺有趣，那就可以利用下去，
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7070df59100d7d7d539620a05a672f59.png>
+![](img/zhuanqian_7070df59100d7d7d539620a05a672f59.png)
 本身的对话，是邻居无理取闹，现在的对话，增加了新的内容，房东通过摄像头反制，举报邻居疯狂的举动，私闯民宅违反法律，那这样多一层反转，就很有趣。 好，那我们开始在调整一下他们的对话。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4a0fd1fbf3b23e32458d6a305e247ba1.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_26b826c846add1d83e213a56a9188ba7.png>
+![](img/zhuanqian_4a0fd1fbf3b23e32458d6a305e247ba1.png)
+![](img/zhuanqian_26b826c846add1d83e213a56a9188ba7.png)
 但我觉得结局不是很好，不如之前原版的解决，那就再次优化一下。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_23756860bbd504a1e41f52b26ec427a5.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7a9b59a9b48f7254b3c5562166affd71.png>
+![](img/zhuanqian_23756860bbd504a1e41f52b26ec427a5.png)
+![](img/zhuanqian_7a9b59a9b48f7254b3c5562166affd71.png)
 可是他忘记了我想要的那个新的元素，私闯民宅，那我就需要让他再次加入进去。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ac5241e2e1ebfe679c2519dd26aaa07d.png>
+![](img/zhuanqian_ac5241e2e1ebfe679c2519dd26aaa07d.png)
 ##### 逆练成品对话文案：
 那我们就得到了这次修改后比较完美的对话：
 ```
@@ -743,32 +743,32 @@ More like the "doesn't give a fork" genes
 ```
 有趣吧？ 原版中是邻居对房主威胁捡肥皂，通过修改添加元素，就换了一个意思，并且多了一个爽点，无理取闹的邻居得到了惩罚。
 好，有了对话文本还是老路子，提炼对话去ai配音，等待下一步即可。忘记步骤的跳转这里。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2a03e9848aa886638f4f9efcab1f8695.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0397757290fc32736c3cfc54ec2c5549.png>
+![](img/zhuanqian_2a03e9848aa886638f4f9efcab1f8695.png)
+![](img/zhuanqian_0397757290fc32736c3cfc54ec2c5549.png)
 接下来就是根据完整对话，去建立短信的截图，点击这里跳转，正练逆练制作截图方法一样。点击这里跳转
 ##### 短信截图效果实操：
 我们使用这个工具，方便快捷：短信聊天截图工具
 https://fakedetail.com/fake-iphone-text-messenger-generator
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4fa839b9a77c9f5a969e69c9ee55410f.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9bfa8cc24da53003015791d2d99a941b.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_208bb4117b434103abf6612398969bef.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a7bdd944015d776634db6e577812c713.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_177c996d23cb2230abd62a9c93cf941e.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2f56ddf1ac481d55e1b30914f8fe836e.png>
+![](img/zhuanqian_4fa839b9a77c9f5a969e69c9ee55410f.png)
+![](img/zhuanqian_9bfa8cc24da53003015791d2d99a941b.png)
+![](img/zhuanqian_208bb4117b434103abf6612398969bef.png)
+![](img/zhuanqian_a7bdd944015d776634db6e577812c713.png)
+![](img/zhuanqian_177c996d23cb2230abd62a9c93cf941e.png)
+![](img/zhuanqian_2f56ddf1ac481d55e1b30914f8fe836e.png)
 挨个输入对话，每句的大段最好分割成小的句来发布，有几个坑点：
 1.它无法调整顺序，所以前面删除的就无法再补，你要从头再做。
 2.发件人和收件人也要看清楚，不要弄乱了。最好前期手动先明白制作原理，在考虑自动化问题。
 3.无法生成长图，所以要一张图一张图的来截图，这也是比较麻烦的点。
 但费不了你几个时间，耐心做吧，别抱怨！
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d332065d01affe3996ca05c246ac9065.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_827790f1070add8b7a01b97daede908f.png>
+![](img/zhuanqian_d332065d01affe3996ca05c246ac9065.png)
+![](img/zhuanqian_827790f1070add8b7a01b97daede908f.png)
 好，根据制作出来的对话，我们截取了五张图，作为等下剪辑需要用到的素材。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0014f6e58578b0cb45bf0d4023158d45.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3a10db49a313108faca14086e25c2711.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_99df2ed5786b699f3fef2b6ac3ef8423.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_dc0536ce2efba625984f2a01903764f4.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0aa86d464179f98b97f974d96c94b066.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_73e510284b5bfc1839bd490b96d038b5.png>
+![](img/zhuanqian_0014f6e58578b0cb45bf0d4023158d45.png)
+![](img/zhuanqian_3a10db49a313108faca14086e25c2711.png)
+![](img/zhuanqian_99df2ed5786b699f3fef2b6ac3ef8423.png)
+![](img/zhuanqian_dc0536ce2efba625984f2a01903764f4.png)
+![](img/zhuanqian_0aa86d464179f98b97f974d96c94b066.png)
+![](img/zhuanqian_73e510284b5bfc1839bd490b96d038b5.png)
 当我们得到这些截图以后，我们就要把角色的对话进行配音，根据我们之前的文本，如何配音点击下方跳转，如何把逆练的文本转出成适合配音的方法，点击这里
 #### BGM素材获取：
 一般我们用到的音效比较少，无非就是bong，pang，嘣，啪这些东西，我们可以通过原素材分离出来，也可以通过AI音效制作出来，也可以通过一些音效素材库筛选出来。分享一下我的音乐素材网盘给各位，有点大。
@@ -788,27 +788,27 @@ https://fakedetail.com/fake-iphone-text-messenger-generator
 #### 我们先来处理配音素材：
 新人建议直接把素材拉下来做字幕识别和翻译成中文，这样看的明白！
 但还是要结合你生成的对话内容来对照裁剪音频哈。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e301f6e6f745ee5fac1088cc8558cce7.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3fc0917620b6dcdb6d50aae080a92bd7.png>
+![](img/zhuanqian_e301f6e6f745ee5fac1088cc8558cce7.png)
+![](img/zhuanqian_3fc0917620b6dcdb6d50aae080a92bd7.png)
 这样很明显就能发现每句话的结束在哪里，可以直接切掉，这里可以设置一些剪映的快捷键，比如分割设置成1，按一下直接切掉。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_863fecac3a0c42d9d84a66fdee500447.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3c1ae59a1781c134b5301cbba1ed7b75.png>
+![](img/zhuanqian_863fecac3a0c42d9d84a66fdee500447.png)
+![](img/zhuanqian_3c1ae59a1781c134b5301cbba1ed7b75.png)
 女完了就开始男的，记得女完毕以后锁住，在轨道左边有选项，然后在静音，才可以识别男的，这样不会混乱。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0cf66df65be59de0ef1539e01b9069f6.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b243b07236e49c4ab5f3477bbc6d2a37.png>
+![](img/zhuanqian_0cf66df65be59de0ef1539e01b9069f6.png)
+![](img/zhuanqian_b243b07236e49c4ab5f3477bbc6d2a37.png)
 当我们切出来男生和女生，接下来就对照原稿来拼接音频。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ac05b733ac36e4bc8936e3e1ac39f698.png>
+![](img/zhuanqian_ac05b733ac36e4bc8936e3e1ac39f698.png)
 我们把它合在了一起，然后，创建复合片段，在给到加速成60秒以内。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a02fa6c534a9afbe86b67bd8c3010cf9.png>
+![](img/zhuanqian_a02fa6c534a9afbe86b67bd8c3010cf9.png)
 #### 处理解压素材
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_309fa8fe3d5fb5ad963da6245137bb33.png>
+![](img/zhuanqian_309fa8fe3d5fb5ad963da6245137bb33.png)
 就像之前故事号剪辑处理方式一样，全部智能分割，镜像，调色，然后保留非露脸，精华片段。忘记的可以跳转这里看，点击跳转。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_472d7208be1c0d69277a455cf38fcc77.png>
+![](img/zhuanqian_472d7208be1c0d69277a455cf38fcc77.png)
 之后我们变速对齐音频即可。
 #### 处理截图素材:
 我们需要根据对话，来调整截图的素材，要音频对照素材弹出的效果，这里推荐使用cupcut的蒙版，线性蒙版，点击关键帧，拖动展现新的画面，如果相隔较远的对话，关键帧展现新的截图画面会比较缓慢，那么可以在音频即将讲话的时候，插入关键帧，然后按键盘→，把线性蒙版往下拉，这样就实现了对话效果。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c4549ed16da5641f7ec3b05312e1629e.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cb25e170ffac64ee8fca655b6fc08a0d.png>
+![](img/zhuanqian_c4549ed16da5641f7ec3b05312e1629e.png)
+![](img/zhuanqian_cb25e170ffac64ee8fca655b6fc08a0d.png)
 放大可以看到，其实这种效果就是在近距离之间插入两个关键帧得到的。
 #### 成品展示：
 加入BMG以及音效，完成最后的合成：
@@ -818,11 +818,11 @@ https://fakedetail.com/fake-iphone-text-messenger-generator
 ### 收费高质量配音
 https://elevenlabs.io/
 （如果为了方便elevenlabs也有api可以调用使用）
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6253ff6882b85b7bc54420a01ea31dbf.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5254c816b42f6fcb978f4c0ffd89f4aa.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0dafa37ead62ee2c1b3a7115447fc690.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a2524b2e353a6c8e28b5ea7168a3ae48.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6accc97c8e5911b372a98950637dca5d.png>
+![](img/zhuanqian_6253ff6882b85b7bc54420a01ea31dbf.png)
+![](img/zhuanqian_5254c816b42f6fcb978f4c0ffd89f4aa.png)
+![](img/zhuanqian_0dafa37ead62ee2c1b3a7115447fc690.png)
+![](img/zhuanqian_a2524b2e353a6c8e28b5ea7168a3ae48.png)
+![](img/zhuanqian_6accc97c8e5911b372a98950637dca5d.png)
 可以去淘宝买一些70多我记得是10W字符的
 # 常规使用角色：(第二行是API的ID)
 Kevin W. Krause
@@ -870,9 +870,9 @@ FISo3sWdWP0bALUdgh5x
 Natasha - Valley girl
 ZHlhddGv3tWiXOJSZrwc
 那我们以男Adam ，女Natasha来配音：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_88c6328ecdf8fb1724a599c520aca9b1.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6f5592f8c8a0d1efe8e843621fa90950.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_42f81185176e3332b44fe6c6df6e020b.png>
+![](img/zhuanqian_88c6328ecdf8fb1724a599c520aca9b1.png)
+![](img/zhuanqian_6f5592f8c8a0d1efe8e843621fa90950.png)
+![](img/zhuanqian_42f81185176e3332b44fe6c6df6e020b.png)
 分别对应了模型，和精细度，之前提到，我们为了夸张表达，我们把稳定性调低，这样会有更多有趣的情绪展现。
 ##### 我们来听一下调节稳定性和相似度的区别：
 先来女生Natasha 的区别：
@@ -884,8 +884,8 @@ Stability%50 + Similarity 50%
 能理解吗？当我们在创作音频的时候，不管你做什么项目，如果你想创建更多不同的情绪，不妨尝试使用这种方法，能够帮你解决一些问题。当然一些能够有强情绪的开源模型也不错，但我推荐使用商业化产品，更加成熟稳定。
 ##### 注意事项：
 在配音的时候，尽量把语句切成小段一句一句话来配，更方便你剪辑。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a2c8f9ad1abaf83df8936431f99ac916.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d968382fa8dd3e9d4fda623624857ea3.png>
+![](img/zhuanqian_a2c8f9ad1abaf83df8936431f99ac916.png)
+![](img/zhuanqian_d968382fa8dd3e9d4fda623624857ea3.png)
 ### 不花钱调用自身电脑性能（个人版）
 可以使用：GPT-SoVITS
 https://github.com/RVC-Boss/GPT-SoVITS

@@ -1,15 +1,15 @@
 # 新手练手首选：短剧分销（CPS）
 最近刷短视频，应该没人没刷到过短剧推广吧？这个风口最开始就是我在带。跟前年那种必须自己动手做原创剪辑相比，现在的门槛真的低太多了。基本只需要简单处理一下，就能直接发出去跑量。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0cbb50b407fa9a19cd904b93abfbd214.png>
+![](img/zhuanqian_0cbb50b407fa9a19cd904b93abfbd214.png)
 我是从 28 号开始免费拉群试水的，只要你肯跟着步骤做，大多 1 到 3 天就能出第一单。这个玩法唯一的缺点就是比较费号，除此之外几乎挑不出毛病，确实称得上红利期。把号当成耗材去发内容，发出去的就是钱。目前群里冲得最猛的兄弟，一周已经拿下了六千多块。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ee2e02ed0d2f9beba3ebd69eae19958b.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4869a897508604ce6c88e359aa142c6a.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7d058d2193529b97f8ee3555acf9010f.png>
+![](img/zhuanqian_ee2e02ed0d2f9beba3ebd69eae19958b.png)
+![](img/zhuanqian_4869a897508604ce6c88e359aa142c6a.png)
+![](img/zhuanqian_7d058d2193529b97f8ee3555acf9010f.png)
 # 完整教程无偿公开，新手尽管拿去练手
 ## 一、短剧分销到底怎么赚钱？
 简单说，就是在抖音、微信短视频板块里发布短剧片段，但这些片段都不完整，卡在关键剧情处，用户想看后面，就得从左下角入口点进去付费，费用从 9.9 到 365 元不等。**我们能抽到充值流水的 54%，后面还有机会涨比例。**也就是说，一个用户充值 365 元，我们到手 197.1 元；如果有十个用户呢？
 现在做片子完全不需要自己动刀剪辑，简单处理几分钟就能发。唯一要注意的是，极小概率会有用户退款，还好退款入口藏得比较深；另外充值数据要等 1 到 3 天才同步，同步完就能提现。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_74894ecf4f54f75a7b5fe3c8a6a984c5.png>
+![](img/zhuanqian_74894ecf4f54f75a7b5fe3c8a6a984c5.png)
 ## 二、注册短剧推广后台
 用什么平台不挑，看你习惯。我自己用的是好省 App，因为进去需要填邀请口令，评论区老有人问，干脆放这儿了，顺便我也能拿点好处哈哈。邀请口令：qGfciMfzhI
 ## 三、微信短视频板块实操
@@ -27,15 +27,15 @@
 发**快手**选 5 到 15 分钟的。
 片子如果带着作者自己加的动态水印，无所谓，照样能用。
 3）复制视频链接，去微信搜“皮皮去水印新”，用里面的小程序保存下来就行。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bbbf0a58e382a72f79104bbc6468a86c.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5b99029c26cc7b89aaf57f008660bfd9.png>
+![](img/zhuanqian_bbbf0a58e382a72f79104bbc6468a86c.png)
+![](img/zhuanqian_5b99029c26cc7b89aaf57f008660bfd9.png)
 这里留意一下：粘贴出来的链接，必须是抖音官方短链格式才正确。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f5d00473f58ed83e33440d20381e67e0.png>
+![](img/zhuanqian_f5d00473f58ed83e33440d20381e67e0.png)
 要是那个小工具忽然不能用了，搜“去水印”就能找到一堆同类替代。视频文件太大，就在小程序里选 720P 保存。
 选剧的时候要看清：左上角「短剧」分类里的剧，可以挂抖音、快手、微信短视频，具体能挂哪个，封面左上角有标注。有的剧三端都能挂，有的剧只支持其中一端，直接在这个界面搜剧名就能判断。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2ba15afe690104de2946e56d201868a5.png>
+![](img/zhuanqian_2ba15afe690104de2946e56d201868a5.png)
 「推广计划」里的剧只支持抖音。如果某部剧在「短剧」分类里搜不出来，可以再去「推广计划」翻一下（这个只限抖音端）。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_69c02c98c7a04676ab910d794bb40f1c.png>
+![](img/zhuanqian_69c02c98c7a04676ab910d794bb40f1c.png)
 ### 2、怎样做防搬运
 想让系统觉得内容够原创，防搬运这步不能省。去重的目的就是不被限流，如果整段内容和别人完全一样，被识别成搬运，流量基本就没了。
 算法的核心判断办法是抽帧对比：视频本质就是连续的画面帧，上传后系统会抽若干帧和库存对比，重合度一高就判搬运。所以思路很简单，就是改变画面细节，让系统认不出来。
@@ -43,21 +43,21 @@
 先在剪辑工具里导入清理过水印的片子。
 **1）**选中素材，打开底部菜单的「基础属性-缩放」，
 **把比例随机调到 110%~125%。**
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4bc6d730570fc64dfa64db32011b78b9.png>
+![](img/zhuanqian_4bc6d730570fc64dfa64db32011b78b9.png)
 **2）**双指捏合时间轴，把它缩到最短，
 滑到最末尾，
 **随机删掉 1 到 5 分钟的结尾。**
 不过删完以后，整条片子剩余时长不能少于 7 分钟。
 **还要保证结束瞬间剧情停在悬念处，就是那种刚看到一半突然断掉的感觉。**
 这样用户才会心痒痒，忍不住去付费看后续。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8b9842a31d970bfe6109fd5a51861846.png>
+![](img/zhuanqian_8b9842a31d970bfe6109fd5a51861846.png)
 **3）**在底部菜单里找「滤镜」，
 **随便选一个免费滤镜**，
 把强度条往左拉到 10~15，看起来不太影响观感就行。调完点右下角对勾。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ea162985567e890c4ede1ccac2690921.png>
+![](img/zhuanqian_ea162985567e890c4ede1ccac2690921.png)
 **4）**添加两段素材作为叠加层，可以是原片里的内容，也可以从相册随便挑两段，自己拿手机录的也行。
 **叠加层的总时长，要和你删完后的正片长度差不多。**
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9e6eb83c8062b92322ef30a8be0f1044.png>
+![](img/zhuanqian_9e6eb83c8062b92322ef30a8be0f1044.png)
 然后把叠加画面放大、旋转。叠加层里有字幕的区域，一定不要出现在画面内，实在不行就放得很大很大。
 叠加模式选**滤色**，数值拉到 3 就行。
 两个叠加层的声音都拉到最左边，直接静音。
@@ -66,29 +66,29 @@
 **片尾多余的部分一定要裁掉！**
 **5）**给片子加扫光特效：
 去抖音搜“扫光”，找一个素材复制链接，清掉水印保存。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2cf59d2afc5d639eb1f0922e10949376.png>
+![](img/zhuanqian_2cf59d2afc5d639eb1f0922e10949376.png)
 拿到后用和前面一样的办法添加：
 放大扫光素材，让它铺满整个屏幕，
 叠加模式选“滤色”，拖到 3，
 多复制几段，保证整条片子都有扫光覆盖。
 滑到片尾，分割后把多余扫光删掉。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a3e50fcfbb8d0517fe89698651cfd706.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_27261c4e7818c07ab5553def0f665b76.png>
+![](img/zhuanqian_a3e50fcfbb8d0517fe89698651cfd706.png)
+![](img/zhuanqian_27261c4e7818c07ab5553def0f665b76.png)
 如果觉得去重还不够（发出两小时后依然没有流量，或者观看数基本不动），那就再随便导入几段素材，照上面的方式继续处理就行（电脑版剪辑界面操作逻辑也一样）。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a81fa9905c060fb10638702f75b483b0.png>
+![](img/zhuanqian_a81fa9905c060fb10638702f75b483b0.png)
 **6）**在底部菜单点「贴纸」，
 **加 3 到 4 枚可爱的、动态的小贴纸**，缩小到不太明显，放在画面边角就行。弄完点右侧对勾。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fce61adef701bccf160480b15aec0b71.png>
+![](img/zhuanqian_fce61adef701bccf160480b15aec0b71.png)
 **7）**把贴纸全部拉到和正片一样长。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6d6a3c65dc324a972f2bdf54bd242701.png>
+![](img/zhuanqian_6d6a3c65dc324a972f2bdf54bd242701.png)
 **8）**在片尾最后 10~15 秒的位置，搜索「箭头」贴纸，
 缩小后放到左下角，拉满到整条片子结束，然后导出。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_42393ca7bd9b9efd2c2e37cf51815028.png>
+![](img/zhuanqian_42393ca7bd9b9efd2c2e37cf51815028.png)
 导出时如果文件太大，码率直接拉到最左，选 720P 就够用。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6ac7d9786a12b014c9286efac44dda4c.png>
+![](img/zhuanqian_6ac7d9786a12b014c9286efac44dda4c.png)
 ### 3、发片、引导和评论区操作
 **手机上的入口：**
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bf8b6707554e247040c6b9fa27f666ed.png>
+![](img/zhuanqian_bf8b6707554e247040c6b9fa27f666ed.png)
 如果找不到入口，就打开微信，按「我」→「设置」→「通用」→「发现页管理」→「微信短视频」→「在发现页显示该功能」打开。
 **桌面端入口：**
 打开微信短视频的网页管理后台，用微信扫一扫登录，记得用手机摄像头扫码。
@@ -96,27 +96,27 @@
 最好三集连发，后续**只有当某一条的观看数破千，才需要置顶封面引导内容。**
 **引导内容怎么做：**
 **先搞定配音：**在剪辑工具里，用「文本」→「新建文本」输入台词，然后选「文本朗读」，挑一个免费音色就行。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ae07db8c59a69ed18ddc18b75477036c.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e34a58eb439c2e8d72c933cfe85211d2.png>
+![](img/zhuanqian_ae07db8c59a69ed18ddc18b75477036c.png)
+![](img/zhuanqian_e34a58eb439c2e8d72c933cfe85211d2.png)
 从好省 App 里**保存扫码图案**后，相册会出现**两种样式。**
 **我们只发左边那种样式。**右边那种码，有一部分 iPhone 用户扫码后付不了款，太影响转化，干脆不发。
 **保存扫码图后，先去相册看看码对不对，自己扫码试一下能不能正常跳转，确认没问题再继续做片子。**
 **别等视频都做完了才发现有毛病，白白浪费时间。**
 每部剧的扫码图样式都是固定的，改不了。
 **如果遇到右边那种样式，就换一部剧发。**
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a00231fff324379bd11ec0f65ce19275.png>
+![](img/zhuanqian_a00231fff324379bd11ec0f65ce19275.png)
 也可以打开好省 App，按它的引导，随便找一部封面左上角标着「微信短视频」的剧，看一遍官方演示，马上就能懂。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_20cc26bc189f17696b33b554bfe34f9a.png>
+![](img/zhuanqian_20cc26bc189f17696b33b554bfe34f9a.png)
 **封面不要出现扫码图，开头留一秒空白。**
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_083c84b0d23271af094a776d9bb6e0c7.png>
+![](img/zhuanqian_083c84b0d23271af094a776d9bb6e0c7.png)
 置顶的引导内容，封面上写**全集**，效果最猛。
 而且**“全集”两个字一定要够大、够醒目。**
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5d1927434bdd6ed539c5d802cc9a1f02.png>
+![](img/zhuanqian_5d1927434bdd6ed539c5d802cc9a1f02.png)
 **置顶的全集引导片，一定要配音，不然转化会差很多。**
 **配音文案：**
 截图扫码图保存到相册
 打开微信扫一扫看全集
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_566197348e4cead7b64f32811955fd75.png>
+![](img/zhuanqian_566197348e4cead7b64f32811955fd75.png)
 正片发完后，记得在评论区引导用户点进主页置顶内容看后续。有些号没有置顶功能，那就多回复几轮，效果也差不多。
 比如：
 移步煮业有荃集可👀哦
@@ -143,7 +143,7 @@
 感觉这部剧流量不行了，就换个剧，流程还是一样：先用三条素材试水，然后持续发数据最好的那条。
 发到彻底没流量，就注销号重新来。如果号还能出流量，第二天继续冲。
 **评论区引导和主页置顶引导，一定要记得做。**
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2f227156d9124aec91a79e7a53653a20.png>
+![](img/zhuanqian_2f227156d9124aec91a79e7a53653a20.png)
 ### 5、怎么看有没有成交
 成交数据会实时同步到好省 App 里，第二天就能提现。
 ## 四、小某书玩法
@@ -163,7 +163,7 @@
 **时长 7~20 分钟。**
 抖音里搜不到符合条件的，就换个剧名继续搜。
 **只有新鲜出炉的素材，处理完发到小某书才有流量；放太久的片基本没用。**
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bdfcff5fecc290bfc74488db0c8c3c26.png>
+![](img/zhuanqian_bdfcff5fecc290bfc74488db0c8c3c26.png)
 **保存好素材后，按微信短视频那套防搬运流程，完整走一遍。**
 ### 2、封面要求不同
 **发到小某书的内容，不要露出剧名，也不要带封面。**
@@ -181,18 +181,18 @@
 🔥不火没道理，冲就完事！
 🎬节奏飞快，全程无尿点！
 👍一集入坑，根本不想跳！
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_720daeca15761a49603835adb563632c.png>
+![](img/zhuanqian_720daeca15761a49603835adb563632c.png)
 发出去后的效果就是不带封面。哪条火了，就把那条的**开头截图，加上“全集”字样，并置顶扫码引导内容。**
 和微信短视频渠道挂引导的方式一样，照着做就行。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_633ef3b2e8edb51c50ccc1572072a5a7.png>
+![](img/zhuanqian_633ef3b2e8edb51c50ccc1572072a5a7.png)
 引导文案要写成谐音字，但配音可以保持正常：
 截图扫码图保存到相册
 打开微信扫一扫看全集
 截图
 威❤扫🐴可👀全集
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1545d9e5616190aa054f1615a5c8d519.png>
+![](img/zhuanqian_1545d9e5616190aa054f1615a5c8d519.png)
 要注意：引导片发出后，别人可能会看不到。这种情况就要把扫码图做成艺术码，去常见的二维码美化网站，把短剧链接粘贴进去生成就行。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cb58d3912d2072dcd0c54480bf5ee58b.png>
+![](img/zhuanqian_cb58d3912d2072dcd0c54480bf5ee58b.png)
 **引导片发布后，再检查一下能不能正常展示。**
 ### 3、发布节奏不同
 开头和微信短视频渠道一样：先把同部剧的**三条不同素材同时发出去**，再看数据。
@@ -210,8 +210,8 @@
 微信短视频来得快，但终究是小打小闹。
 **真正的主战场，还是抖音。**
 用一套成熟的短剧挂载打法，单条日收益稳定在几千甚至上万。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ec3a45e1abff54ed67c71acbc9ce68bb.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_19117d8cfa4221baba79a6a2965086be.png>
+![](img/zhuanqian_ec3a45e1abff54ed67c71acbc9ce68bb.png)
+![](img/zhuanqian_19117d8cfa4221baba79a6a2965086be.png)
 做抖音带充值链接的项目，门槛不高，但前期准备要到位。
 **1、基础条件先满足，达到千粉就能挂载，无需强制实名；**
 **2、不要单号作战，至少开三台号一起跑；**
@@ -222,30 +222,30 @@
 实操层面，五号以内用同一WiFi操作基本安全。一个设备登太多账号容易触发实名核验，有能力就做到一机一号最稳。实名名额充足也能忽略这点。
 抖音挂短剧充值的前提是先有千粉，所以粉丝是第一步。涨粉期间可以顺便做神评论，提升账号权重。
 打开抖音搜索进入流程。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2ae0d0992eb0618deedbd04a3ae23e3c.png>
+![](img/zhuanqian_2ae0d0992eb0618deedbd04a3ae23e3c.png)
 发作品要克制，一天控制在20条以内，选有趣的内容发就行。
 ## 1、冲到千粉
 **1）付费冲，效率最高省心**
 涨粉前先发一条七秒以上的特效自拍，或者拍一段好看的风景实拍，观察初始流量是否过300。过了就可投放。
 老号的话先去星图看看是否达标，达标再走付费。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_db0b4df206d7827335ff796d6fbeeb1a.png>
+![](img/zhuanqian_db0b4df206d7827335ff796d6fbeeb1a.png)
 **2）互粉拉量，2到3天见效**
 别私聊拉群互粉，直接搜【互关互粉】或【互粉】。
 出来的视频评论区全是求互粉的。
 复制别人的话术直接评论，或丢一句“捡我。焊死的那种”加几个表情。
 关注几分钟前评论的人，通常都会回关。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_42ed93ff0bc94f71d0dcc709c42736f0.png>
+![](img/zhuanqian_42ed93ff0bc94f71d0dcc709c42736f0.png)
 也可以搜【互关互关粉直播间】或【互粉直播间】进直播间操作。
 照样复制评论区话术评论加关注，还能顺带点开对方粉丝列表去关注，大概率回关。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ef7d99ba489f1d9fabe851cfb7e46258.png>
+![](img/zhuanqian_ef7d99ba489f1d9fabe851cfb7e46258.png)
 ## 2、账号授权挂载
 千粉后就能在好省短剧APP里申请推广权限。
-点【推广计划】→挑一部剧→【申请推广】→跳转抖音点【确认合作】。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fcf2d5f120dfbaba44640033ebf10737.png>
+点【推广计划】→挑一部剧→【申请推广】→跳转抖音点【确认合作】。![](img/zhuanqian_fcf2d5f120dfbaba44640033ebf10737.png)
 之后要发带链接的视频就按这套流程走，点【上传视频完成任务】即可。
 想推哪部就在APP里搜哪部再申请。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_21847e2b70425d9f13a175ccb2a51041.png>
+![](img/zhuanqian_21847e2b70425d9f13a175ccb2a51041.png)
 确认授权是否成功，去好省短剧APP左下角【已授权账号】查看即可。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_692d7fca9f6798836b7efa3d6af97e02.png>
+![](img/zhuanqian_692d7fca9f6798836b7efa3d6af97e02.png)
 ## 3、去重与发布要点
 视频处理逻辑跟视频号类似，只是发布时多一步关联。
 选素材的标准：
@@ -255,25 +255,25 @@
 **视频时长12到40分钟，越长越好，半小时左右理想。**
 去水印下载后，到好省短剧APP的【推广计划】申请推广，跳转抖音点【上传视频完成任务】。
 长按录制按钮随便录5秒以上，多了无所谓。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a81a78048d0312826165961cb067303a.png>
+![](img/zhuanqian_a81a78048d0312826165961cb067303a.png)
 完成后点右侧菜单里标注的按钮，
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ec89dfbddb45537bbb1a301b97471b18.png>
+![](img/zhuanqian_ec89dfbddb45537bbb1a301b97471b18.png)
 点加号把提前处理好的短剧视频添加进去，再把刚录的那几秒删掉，保存。
 发布页出现**蓝色小图标**就代表链接挂载成功，有收益。没出现就回头检查步骤。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_db5ef823e45451189ef193836bf3b546.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ee5a046d9f209cdaf1d649d3e85164cd.png>
+![](img/zhuanqian_db5ef823e45451189ef193836bf3b546.png)
+![](img/zhuanqian_ee5a046d9f209cdaf1d649d3e85164cd.png)
 作品介绍可以抄同行，或者写上剧名加 #短剧 标签。
 发出去后自己看，左下角看不到链接，需进评论区才能看到。
 文件较大，上传需要时间段，发布期间别退出抖音刷一下，防止失败。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6c4f8d6ff24f136a1db8d8c77ffbd850.png>
+![](img/zhuanqian_6c4f8d6ff24f136a1db8d8c77ffbd850.png)
 发完一小时后点右下角分享→【上热门】。
 能投说明发布正常；投不了说明去重不到位，把视频隐藏重加一层画中画再处理。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c879aa4e0a78ae60197792850ac9aa2f.png>
+![](img/zhuanqian_c879aa4e0a78ae60197792850ac9aa2f.png)
 ## 4、评论区引导
 播放达到一千以上才有引导价值。评论区用表情包、文字引导用户看全集，参考同行话术最直接。找半个月内的同行做参考，太老的参考价值低。
 自己评论后长按置顶。
 最后用一个没关注该号的小号去评论区检查，确认链接是否正常展示。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a3b6afd476e325b56d796c512be852a6.png>
+![](img/zhuanqian_a3b6afd476e325b56d796c512be852a6.png)
 ## 5、发布时间建议
 当前属于特殊时期需特殊处理。
 **抖音现在一天最多发1到3条视频，**
@@ -288,14 +288,14 @@
 好省APP订单有延迟，可先在抖音实时查看。
 抖音搜索【小程序推广计划】→【我的】→【任务中】查实时数据。
 3天内无退款会同步到好省，隔天可提现。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4fd4c80defff48be59306a2508754ffa.png>
+![](img/zhuanqian_4fd4c80defff48be59306a2508754ffa.png)
 抖音端口结算0.9%需一个月且要实名，一人只能实名一个号。这部分收益基本可放弃，直接开新号更快。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ff28e9efc94de7e94ce27e529caba4b8.png>
+![](img/zhuanqian_ff28e9efc94de7e94ce27e529caba4b8.png)
 # 快手玩法
 快手门槛更低。
 **0粉就能挂链接，不用实名，多号操作方便。**
 快手靠持续堆量，越发越久流量越好，单条转化弱，需要量大出单。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_dbb4f39ca2759dcb172de6d475700b7c.png>
+![](img/zhuanqian_dbb4f39ca2759dcb172de6d475700b7c.png)
 1、一天能发20条以上就发，间隔不讲究。
 2、违规直接删就行。
 做法：
@@ -307,15 +307,15 @@
 **注意：**
 **快手挂的链接自己看不到，切换账号也看不到。**
 **只能把链接发群里让别人看，或把视频链接发朋友确认。**
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ca72e821f0b7ea95e30af68d3cbf19f8.png>
+![](img/zhuanqian_ca72e821f0b7ea95e30af68d3cbf19f8.png)
 发布教程在好省短剧APP的【操作教程】里有。显示发布成功不代表已发出，后台还在上传，要等一会才能看到。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fcf0f8c5f06f570178a84706f47bc198.png>
+![](img/zhuanqian_fcf0f8c5f06f570178a84706f47bc198.png)
 # 扩号思路
 抖音不用实名，账号越多越稳。每人起步至少三号，一个手机可登录三个号，WiFi也行。
 风险是切换太频繁会触发实名，所以一机一号最干净。
 也可以找朋友要闲置老号，验证码登录，爆单后分钱，老号出单概率大。
 辅助注册：抖音【我】→右上角→【设置】→【切换账号】→【创建新账号】→辅助创建。一个月以上的账号才有此入口。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d615d56cdb5fd9981aa4c7f559623f28.png>
+![](img/zhuanqian_d615d56cdb5fd9981aa4c7f559623f28.png)
 就这些，祝大家起号顺利赚钱。
 * * *
 评论区：
@@ -327,5 +327,5 @@
 伽西莫多 : 冲冲冲
 RouQiu : [强][强][强]
 RouQiu : 是这个月 28 拉群吗
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_21de372a77ea1f441c613f7316831ae1.png>
+![](img/zhuanqian_21de372a77ea1f441c613f7316831ae1.png)
 * * *

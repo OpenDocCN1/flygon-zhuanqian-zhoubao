@@ -1,7 +1,7 @@
 # 拆解了30条万赞的抖音同城探店短视频后，我用ChatGPT做了一个同城探店短视频文案助手
 每天刷抖音，是不是总被附近美食店的团购视频“精准狙击”？反正我是囤了一堆券，下单时根本忍不住。
-抖音《2023探店数据报告》显示，2023年前三季度，探店给中小商家带去了729亿元收益，58万达人靠探店有了稳定收入。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8e4d836a001eb5c3dbb9b5d0d27cf4e2.png>
-但在同城探店这件事上，除了拍摄剪辑，文案是真正的“隐形引擎”。很多达人写文案很费劲，出稿慢，质量也忽高忽低。为了帮自己和同行提效，我特意拆了30篇点赞上万甚至百万的探店爆款，结果发现它们的套路惊人的一致。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7dd62944761903f374698c98e525a4bb.png>
+抖音《2023探店数据报告》显示，2023年前三季度，探店给中小商家带去了729亿元收益，58万达人靠探店有了稳定收入。![](img/zhuanqian_8e4d836a001eb5c3dbb9b5d0d27cf4e2.png)
+但在同城探店这件事上，除了拍摄剪辑，文案是真正的“隐形引擎”。很多达人写文案很费劲，出稿慢，质量也忽高忽低。为了帮自己和同行提效，我特意拆了30篇点赞上万甚至百万的探店爆款，结果发现它们的套路惊人的一致。![](img/zhuanqian_7dd62944761903f374698c98e525a4bb.png)
 # 01 爆款探店文案的两个核心密码
 ## 密码一：前3秒，用悬念问句把人“钉”住
 那些高赞视频，开头基本都是一句话提问：
@@ -21,7 +21,7 @@
 你看，从免费小食到专属服务，再到空中西餐和变形座椅，每隔两三秒就抛出一个新亮点。全程没有冷场，观众眼睛和耳朵都忙不过来，自然停不下来。
 # 02 用ChatGPT做你的探店文案“代笔”
 知道了爆款逻辑，问题来了：怎么让ChatGPT快速写出同款文案？
-我搭了一套完整提示词，效果直接拉满。生成的结果我用Smodin和5118两个AI检测工具跑过，AI率都是0，<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9a7804aa4ef6c6c83f0513b2bf038a44.png> 原文链接放在这：https://app.smodin.io/zh-cn/ai-content-detector <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fb66dde2e40eca8b25cb564d17550657.png> 5118的结果也很干净。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a52b0d68968819f2253f441855f42483.png>
+我搭了一套完整提示词，效果直接拉满。生成的结果我用Smodin和5118两个AI检测工具跑过，AI率都是0，![](img/zhuanqian_9a7804aa4ef6c6c83f0513b2bf038a44.png) 原文链接放在这：https://app.smodin.io/zh-cn/ai-content-detector ![](img/zhuanqian_fb66dde2e40eca8b25cb564d17550657.png) 5118的结果也很干净。![](img/zhuanqian_a52b0d68968819f2253f441855f42483.png)
 想不想立刻上手？下面是我的完整玩法。
 # 03 提示词保姆级拆解
 首先，让ChatGPT扮演一个角色：
@@ -42,8 +42,8 @@
 7. 改成口语化、亲切随和的第一人称文案。
 别忘了几条硬规则：全程用第一人称探店达人视角；和观众对话时用“你们”；细节要生动有画面感；每个步骤执行完必须问我“是否OK”；只有我说“开始”才动工。
 # 04 实战过程复盘
-实际跑的时候，我是用ChatGPT4.0操作的。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ea2589cf9ef844b6895a8a6df51806e6.png> <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6981b673521cff6b4b98a26c6f2be7dd.png> <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6f7cd310bb83a67b260cc84e3ce71283.png> <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c11579124de8702fffc8f6aa789b83b5.png> 它先给了一堆开头选项，我选了第一个，然后它继续引导我补充店里的细节信息。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_73ce239db62d05430661cd9ecaa34a95.png> <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2838dd8a874d87feeee45a0822f336d5.png> 我按序号把细节填进去，<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a6485224c10d4c5924538b1e8456f69f.png> 接着它就列了提纲：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_471374652f47127ba6e7e63639c44b7c.png> <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1c326059eec3a4ba58e6d817b73889c8.png> 我确认没问题，它开始正式写文案：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4d6cd085fb1933387ee3cc55128f367c.png> <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_37a93f7a7fbfbce5cec03adc17bd94c0.png>
+实际跑的时候，我是用ChatGPT4.0操作的。![](img/zhuanqian_ea2589cf9ef844b6895a8a6df51806e6.png) ![](img/zhuanqian_6981b673521cff6b4b98a26c6f2be7dd.png) ![](img/zhuanqian_6f7cd310bb83a67b260cc84e3ce71283.png) ![](img/zhuanqian_c11579124de8702fffc8f6aa789b83b5.png) 它先给了一堆开头选项，我选了第一个，然后它继续引导我补充店里的细节信息。![](img/zhuanqian_73ce239db62d05430661cd9ecaa34a95.png) ![](img/zhuanqian_2838dd8a874d87feeee45a0822f336d5.png) 我按序号把细节填进去，![](img/zhuanqian_a6485224c10d4c5924538b1e8456f69f.png) 接着它就列了提纲：![](img/zhuanqian_471374652f47127ba6e7e63639c44b7c.png) ![](img/zhuanqian_1c326059eec3a4ba58e6d817b73889c8.png) 我确认没问题，它开始正式写文案：![](img/zhuanqian_4d6cd085fb1933387ee3cc55128f367c.png) ![](img/zhuanqian_37a93f7a7fbfbce5cec03adc17bd94c0.png)
 看，是不是挺像那么回事？快去试试，让ChatGPT帮你批量产出探店爆款文案。
 * * *
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_31c4444674ba0bcb63e8fe9be693da8f.png>
+![](img/zhuanqian_31c4444674ba0bcb63e8fe9be693da8f.png)
 我是菜菜，13年互联网内容营销经验，三节课特邀AI内容营销讲师，人人都是产品经理专栏作者，也是龙哥盟ChatGPT航海教练。现在专注AI+营销内容创作，帮个人IP、创业团队和企业高效产出优质内容。V：38361152，加我请说明来意。

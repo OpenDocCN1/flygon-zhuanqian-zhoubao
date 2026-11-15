@@ -13,7 +13,7 @@ AI 帮我做课程，私域里卖产品，训练营加付费群合计：9 万
 AI 帮我做咨询，B 端接企业资源，按 1000 到 1500 一小时收费，加交付项目：4 万
 AI 帮我做创作，作品逐渐被人看见，个人 IP 多路变现：14 万
 AI 帮我做产品，面向 C 端用户卖工具，进账：7 万+
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1c7d40b7e57724ce8554994249d4ba9c.png>
+![](img/zhuanqian_1c7d40b7e57724ce8554994249d4ba9c.png)
 人工智能这股浪潮，已经挡不住了。
 我没有什么精英背景，就是一个普通人，但这半年，是真真切切被潮水推着往前走的。
 * * *
@@ -38,7 +38,7 @@ AI 帮我做产品，面向 C 端用户卖工具，进账：7 万+
 1. 做出具体东西的本事
 2. 快速获取外界信息的能力
 3. 把信息和资源整合起来的手腕
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e5fa288dd5ec44480a84cbdfbf10bcc8.png>
+![](img/zhuanqian_e5fa288dd5ec44480a84cbdfbf10bcc8.png)
 程序员的成长轨迹，就是最好的演示。
 头一两年，他埋头写代码，把需求翻译成一串串指令。这个阶段，他像一位手艺人，专心打磨看得见摸得着的产品。
 到了第三年，他开始频繁阅读技术博客、参与开源社区。项目卡住了，他知道去 GitHub 搜类似案例，去 Stack Overflow 翻解决方案，在技术论坛里跟人讨论优化思路。信息抓取得越快，问题解决得就越快。
@@ -52,7 +52,7 @@ AI 帮我做产品，面向 C 端用户卖工具，进账：7 万+
 制造工厂里，从前是 100 名工人在流水线上装配产品，如今 10 台机器人就能完成同样的工作量，只需要 2 名工程师盯着维护。说白了，动手操作的本事正在被机器取代。
 数据分析部门里，从前是 20 名分析师手动整理、清洗数据，如今 AI 系统自动采集并生成结论，2 名专家负责制定策略就够了。说白了，信息处理的本事正在被算法取代。
 ## AI 到底动了我们的哪块能力？
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f497097a632e3a8689609b31c722f9d4.png>
+![](img/zhuanqian_f497097a632e3a8689609b31c722f9d4.png)
 用一个办公室小人物来举例。
 2010 年的小王，29 岁，每天的工作就是整理数据、写报告、做 PPT。他 Excel 玩得熟练，文笔不算差，PPT 也做得漂亮。在部门里，他觉得自己是不可或缺的那一个。
 2024 年的小王，35 岁，学会了用 AI 干活：
@@ -65,7 +65,7 @@ PPT 制作？AI 设计工具一键出图。
 再看上面那张图，里面有一片被涂黄的区域，那是 AI 目前真正影响有限的地方。
 因为 AI 讲不出好故事，也链接不了真实的资源。
 再往深看一层：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_136ba0aa96d31a9ec0bb947e19e82add.png>
+![](img/zhuanqian_136ba0aa96d31a9ec0bb947e19e82add.png)
 ```
 通过量子认知分析这张金字塔结构图...
 观察到几个关键层次：
@@ -127,7 +127,7 @@ AI的影响呈现"替代递减规律"
 第五道暗门：资源差。
 等小王终于凑到第一笔融资，才发现张总早就织好了供应链、渠道、人脉的大网。
 资源从来不是一夜之间的馈赠，而是前面几道门里，一步一个脚印攒出来的家底。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_73b014d65965267e1c4f61323a184945.png>
+![](img/zhuanqian_73b014d65965267e1c4f61323a184945.png)
 你或许也会注意到，身边越来越多的人正在醒过来。
 “狼性文化”越来越不讨喜，00 后面对职场 PUA 格外清醒，《好东西》里的铁梅这样的角色，也赢得越来越多人的认同。
 大家对产品、对服务的好坏，嗅觉越来越敏锐。
@@ -173,15 +173,15 @@ AI让认知从"个体局限"变成"智能增强"
 因为过去那些年，不少教育机构把“理解速度”做成了高价商品，把认知差距变成了牟利的生意。
 说穿了，这是教育公平出了问题。灰色地带越来越大，孩子学知识本身不贵，但“理解”的路径却要花钱买。
 好在最近的政策风向已经出现：人工智能教育如果实施得好，是能够慢慢抚平这道认知裂缝的。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_055597dce4922f1de439d3d8afc82132.png>
+![](img/zhuanqian_055597dce4922f1de439d3d8afc82132.png)
 关于这一点，我之前专门写过文章，对比过 AI 到来前后的学习方式。
 ## AI 之前的学习
 想查一份资料，要翻几十页书；想记笔记，要写满好几个本子。
 一个概念，反复读五六遍还是似懂非懂。
 课后作业，常常拖到深夜才能写完。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_aa9409bbd141f6d3f07044a76cfd94d5.png>
+![](img/zhuanqian_aa9409bbd141f6d3f07044a76cfd94d5.png)
 ## AI 之后的学习
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b93e4c53effb0c7b63a19d9eb315ba1a.png>
+![](img/zhuanqian_b93e4c53effb0c7b63a19d9eb315ba1a.png)
 关键词一搜，答案直接送到面前；语音转文字，笔记自动成形。
 AI 帮你拆解重点，思路一下子清晰起来。
 再复杂的问题，三言两语就能听明白。
@@ -196,7 +196,7 @@ AI+思辨力
 AI+阅读力
 ### AI+深度理解：怎么让 AI 给孩子讲透“乘法”
 直接看一个实战例子。同样是“解释什么是乘法”，给 AI 叠加不同的引导，它的回答会一层一层地长高。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7511f91e117eb45c4b0500f639fbfe61.png>
+![](img/zhuanqian_7511f91e117eb45c4b0500f639fbfe61.png)
 **基础版：直接提问**
 请说明什么是乘法。
 GPT 回复：乘法是一种数学运算，表示把同一个数重复相加若干次。例如 3×4，就是把 3 连续加 4 次，也就是 3+3+3+3=12。用它计算重复加法会更快。
@@ -474,8 +474,8 @@ B选择：避祸他乡可保全性命，但可能错过重要的创作素材
 愿我们共同打造一片边玩边学的诗意天地。
 ```
 ### 效果：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_784e35efb946604cf603e930808781a8.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_da8b035166908285c5da801170c013ee.png>
+![](img/zhuanqian_784e35efb946604cf603e930808781a8.png)
+![](img/zhuanqian_da8b035166908285c5da801170c013ee.png)
 游戏与学习，一个是天性，一个是反性。
 有趣的是，我们从不抱怨游戏难，反而会沉迷其中。
 死了一百次，也要过这一关。
@@ -519,7 +519,7 @@ AI，搞钱实操工作流。
 * * *
 # 搞钱工作流：AI + 信息
 ## 工作流：AI 辅助的中国深度阅读毛选社区服务
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f7e2d4f2fbd3900c561ab87a72bdc3c7.png>
+![](img/zhuanqian_f7e2d4f2fbd3900c561ab87a72bdc3c7.png)
 工作流程：
 1.  内容生产环节
 ```
@@ -574,7 +574,7 @@ AI，搞钱实操工作流。
 只要能够戳中大家痛点，就能够搞到钱。
 再比如
 ## 工作流：AI 高考培训资料定制
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_eabe2ceedfec0dce354f9bf62970159b.png>
+![](img/zhuanqian_eabe2ceedfec0dce354f9bf62970159b.png)
 工作流程：
 ```
 采集学员表现 → 系统识别薄弱环节 → 自动生成个体化资料 → 教师复核调整 → 发放应用 → 观察效果 → 循环改进
@@ -726,13 +726,13 @@ New Bing 搜索相关真题解析
 工具：可灵，即梦，等等
 靠这个技能来挣点交付小钱，
 比如说图像定制啊，老照片修复啊，
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_18ac3660bcc1e00fe1e2321382628ee3.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e92e28e443fdc137e07908a37e5fe598.png>
+![](img/zhuanqian_18ac3660bcc1e00fe1e2321382628ee3.png)
+![](img/zhuanqian_e92e28e443fdc137e07908a37e5fe598.png)
 AI 写真啊，这些都是很简单的 AI 绘画技巧，
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a8a4ad412402a13f69df79a928cbb2df.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_801d01371d42aa7d1121309ef247b3e9.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6bc9315ec90510203bff8f7a4898edf3.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_409fd9688f3213314f561805485f8fc7.png>
+![](img/zhuanqian_a8a4ad412402a13f69df79a928cbb2df.png)
+![](img/zhuanqian_801d01371d42aa7d1121309ef247b3e9.png)
+![](img/zhuanqian_6bc9315ec90510203bff8f7a4898edf3.png)
+![](img/zhuanqian_409fd9688f3213314f561805485f8fc7.png)
 只要你能够抓住
 固定目标人群的需求，
 基本的操作并不复杂，审美，是新玩法，
@@ -741,11 +741,11 @@ AI 写真啊，这些都是很简单的 AI 绘画技巧，
 你还可以随意给人物换场景和服装。
 这就很香吧。
 我创业期间，海拔，logo，等物料都是 AI 生成的。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2c318b16e373ecac5c63d6457de61013.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_dd40827b67c4b4e5be52b4bd80c8e12c.png>
+![](img/zhuanqian_2c318b16e373ecac5c63d6457de61013.png)
+![](img/zhuanqian_dd40827b67c4b4e5be52b4bd80c8e12c.png)
 包括这个账号：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2464ca37f7dd1e154abb7b0e53692c0a.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4ede188d1d5d1cb228f9d3a9981acaab.png>
+![](img/zhuanqian_2464ca37f7dd1e154abb7b0e53692c0a.png)
+![](img/zhuanqian_4ede188d1d5d1cb228f9d3a9981acaab.png)
 用 AI 可以快速的生成固定形象的图片 + 搭配上可以给到情绪家族的金句，那就是涨粉。
 流量就是钱，图片也是信息。
 不同信息适合在不同平台表达。
@@ -772,7 +772,7 @@ AI 写真啊，这些都是很简单的 AI 绘画技巧，
 工作室的墙上贴着一张便利贴：下周要开设 AI 视觉创意工作坊。
 作为业内知名的 AIGC 博主，他深知这个领域的机遇与挑战。
 技术人人都能学会，但把技术、美学、创意完美结合的能力，才是真正的护城河。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_306056bfeead1101ae2ab78c8267a35d.png>
+![](img/zhuanqian_306056bfeead1101ae2ab78c8267a35d.png)
 我知道的真实数据，
 AI 视频单条报价可以到 5-6 位数，
 头部工作室年营业额甚至抵得上一家中小型的广告公司。
@@ -832,7 +832,7 @@ AI 搞钱，培训市场无疑是当之无愧的"黄金赛道"。
 下午，她登入美妆社群，98 位会员正在讨论上周的"秋冬补水攻略"。一位圈友分享道："跟着小红的建议换护肤品一个月，皮肤状态好太多了！"
 晚上整理当日数据时，她打开巨量创意和新媒体管家，记录着增长的数据： 视频平均播放量 15.7 万 互动率 8.2% 粉丝增长 2,341 转化率 3.8%
 躺在床上，她翻看着手机里的备忘录： "个人护肤品牌企划书 - 第一稿" "- 目标群体：25-35 岁轻熟龄都市女性..."
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2465f5fb3ca1769780f82a9253dd10ef.png>
+![](img/zhuanqian_2465f5fb3ca1769780f82a9253dd10ef.png)
 工作流程：
 小红是一位美妆领域的自媒体创作者。
 每天早上，她使用 ChatGPT 分析热点话题，生成 3-5 个选题方向。以"美妆新品首发测评"为例：
@@ -906,7 +906,7 @@ AI 技术的发展让内容创作变得前所未有的简单。
 形成完整的商业生态。
 选择哪条路径，
 取决于你核心能力和对 AI 协作能力。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_45ea70a7a528f8435ebd9d4ee97eb841.png>
+![](img/zhuanqian_45ea70a7a528f8435ebd9d4ee97eb841.png)
 * * *
 最后，我们再回到任老这句话
 “这个时代一定会降低对人力的需求，但是创造的总财富增加了，

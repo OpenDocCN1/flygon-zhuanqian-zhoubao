@@ -13,17 +13,17 @@ API 是什么？简单说，它就像一把钥匙，形态是一串字符，比�
 - 其他备胎：阿里百炼、百度千帆 modelbuilder、腾讯云 TI 平台、华为云和潞晨科技联合的平台、字节火山方舟。这些我都还没亲自测过，不过各家通稿都发了，大家搜出来看看测评再自己选。
 第一步，去硅基流动搞到 API。
 用手机号注册账号，注册完平台会送 14 元对应的 token 算力。接着在左侧菜单栏找到“API 密钥”，点右上角“新建 API 密钥”，描述随便填，不影响使用。我个人的习惯是：给不同工具各建一套密钥，这样月底看账单就知道哪个工具烧的 token 最多，也好决定要不要换更省钱的模型。创建完就会得到一串代码，鼠标悬停上去就能复制。密钥自己保存好，千万别发到公共平台上，否则别人拿你的密钥去连 AI，消耗的是你账户里的算力——在大模型的世界里，算力等于真金白银。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3e5a986b31aa75101cb90b87e4fb9b34.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_13b7eb166910e4deda7e953d78a13ef1.png>
+![](img/zhuanqian_3e5a986b31aa75101cb90b87e4fb9b34.png)
+![](img/zhuanqian_13b7eb166910e4deda7e953d78a13ef1.png)
 第二步，下载安装 CherryStudio。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cfa21e83dc11b35eccef4b1e973cc585.png>
+![](img/zhuanqian_cfa21e83dc11b35eccef4b1e973cc585.png)
 装完打开，界面是这样的：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2085de61067e81f1bee2a9de2a727c61.png>
+![](img/zhuanqian_2085de61067e81f1bee2a9de2a727c61.png)
 点击左下角设置按钮，在列表里找到第一项“硅基流动”，开启并把第一步得到的密钥填进去。注意，点“检查”的时候先用 qwen 模型验证，别选 DeepSeek-R1。因为 R1 目前很容易因为太拥堵连不上，这不代表硅基流动有问题，而是模型本身在闹脾气。这一步我们要确保的是能连上硅基流动这个平台，毕竟这个平台上不止有 DeepSeek，还有很多其他大模型。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a27e7781cab18abffce9a20f8425dd88.png>
+![](img/zhuanqian_a27e7781cab18abffce9a20f8425dd88.png)
 连接成功后，点左侧第一个对话按钮，选择默认助手，然后点上方的模型名称，把它从 V3 切换成 R1。R1 是带深度思考的，V3 不带思考，但价格便宜，适合做写标题、翻译这类不用太烧脑的活。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_395e230e4bf70ad98c9b65ab74322913.png>
+![](img/zhuanqian_395e230e4bf70ad98c9b65ab74322913.png)
 配置完成，现在就可以开始对话测试了。注意深度思考的过程，思考中旁边那个按钮，点开就能看到详细思路。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_260251748c6420dd804806aaaec8a552.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a64c5a1a84a34655d2cea492f8a22339.png>
+![](img/zhuanqian_260251748c6420dd804806aaaec8a552.png)
+![](img/zhuanqian_a64c5a1a84a34655d2cea492f8a22339.png)
 到这，你已经完成了一次完整的 API 配置和大模型接入。其实 CherryStudio 能玩的东西还有很多，它自带了不少提示词模板，建议多探索探索。前面也列了其他几个 API 平台，思路完全一样：在不同平台拿 API 密钥，然后回到 CherryStudio 里填上直接用。各平台送的算力多少不一定，官方额度不够的时候，完全可以去别的平台搭一套自己的 API 通道。

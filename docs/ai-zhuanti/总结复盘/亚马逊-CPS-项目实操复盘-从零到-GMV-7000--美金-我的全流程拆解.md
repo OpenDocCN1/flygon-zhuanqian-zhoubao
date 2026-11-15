@@ -1,7 +1,7 @@
 # 亚马逊 CPS 项目实操复盘：从零到 GMV 7000+ 美金，我的全流程拆解
 > 260105 副业 SC 精华
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2dc578132a0f9b2cc23125f1f12a5c2b_0_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2dc578132a0f9b2cc23125f1f12a5c2b_0_1.png>
+![](img/zhuanqian_2dc578132a0f9b2cc23125f1f12a5c2b_0_0.png)
+![](img/zhuanqian_2dc578132a0f9b2cc23125f1f12a5c2b_0_1.png)
 ## 写在前面
 大家好，我是龙哥。先给大家拜个早年，祝除夕快乐。
 初中那会儿，偶然翻到一本《穷爸爸富爸爸》，光看封面我还差点以为是讲“三妻四妾”的小说，结果一读进去就彻底被震住了，财商瞬间被点燃。
@@ -9,12 +9,12 @@
 我毕业后当了三年程序员，钱是赚了不少，可每天通勤上班，尤其碰上刮风下雨下雪天，整个人都emo了，最后索性辞了职。
 2025 年底，我从西安搬到广州过冬。出发前各种琐事缠身——给猫咪找新家、收拾屋子、打包行李、赶飞机、调时差……整整三四天没碰电脑。
 然而让我意外的是，打开后台一看，项目居然在这几天里默默出单了。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2dc578132a0f9b2cc23125f1f12a5c2b_1_0.png>
+![](img/zhuanqian_2dc578132a0f9b2cc23125f1f12a5c2b_1_0.png)
 12 月 9 号落地广州，8 号到 11 号，电脑压根没开机，却悄无声息地出了 3 单，躺赚 70.23 美金，折合人民币差不多 491 块。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2dc578132a0f9b2cc23125f1f12a5c2b_1_1.png>
+![](img/zhuanqian_2dc578132a0f9b2cc23125f1f12a5c2b_1_1.png)
 那一刻我突然明白，这不就是我梦寐以求的“资产”吗？不用费心打理，自己就在那儿生钱。
 于是就有了今天这篇干货长文，我会把整个项目的玩法和心得毫无保留地分享出来，一步步带你拆解这个神奇的“资产”项目。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2dc578132a0f9b2cc23125f1f12a5c2b_2_0.png>
+![](img/zhuanqian_2dc578132a0f9b2cc23125f1f12a5c2b_2_0.png)
 ## 项目拆解
 ## 收益概况
 先说结果。我是 11 月中旬启动的，11 月 19 号拿下第一单，当时兴奋得不行，后面就越投越多。
@@ -34,16 +34,16 @@
 | 2025-11-07 | 8 | 0 | 0.00% | $0.00 | $0.00 |
 | **Total** | **4980** | **51** | **1.02%** | **$7,097.49** | **$521.07** |
 截至 1 月 2 号，MVP 已经跑通，累计 GMV 达到 7097.49 美金，佣金 521.07 美金。需要说明的是，这里的数据其实偏保守——因为用户从下单到确认收货再到佣金结算，中间有延迟，后台显示的往往是三天前的数据。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2dc578132a0f9b2cc23125f1f12a5c2b_3_0.png>
+![](img/zhuanqian_2dc578132a0f9b2cc23125f1f12a5c2b_3_0.png)
 前期为了验证模型，我没有投入过多时间和资金。但这个项目的天花板极高，月入万刀的大有人在，后续我肯定会加大投入，把收益滚起来。
 ## 项目流程
 整个项目逻辑极其简单，核心就三步。
 ### 一、申请推广品牌
 先去**联盟平台**拿分销链接。我用的是 Management Platform - PartnerBoost（简称 PB），上面大部分都是亚马逊店铺的分销资源。拿到手需要关注两样东西：**分销店铺链接**和**分销地区**。
 点击【Get Link】就能拿到专属的**分销链接**了。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2dc578132a0f9b2cc23125f1f12a5c2b_3_1.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2dc578132a0f9b2cc23125f1f12a5c2b_4_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2dc578132a0f9b2cc23125f1f12a5c2b_4_1.png>
+![](img/zhuanqian_2dc578132a0f9b2cc23125f1f12a5c2b_3_1.png)
+![](img/zhuanqian_2dc578132a0f9b2cc23125f1f12a5c2b_4_0.png)
+![](img/zhuanqian_2dc578132a0f9b2cc23125f1f12a5c2b_4_1.png)
 比如这家卖灯的店铺，红框里标的是【UK】，那咱们投广告就要瞄准英国市场。
 #### 常见国家代码速查：
 - CN — 中国
@@ -67,7 +67,7 @@
 - 标题：15 个，每个 30 字符以内
 - 描述：4 条，每条 80 字符以内
 第四个“投放链接”，就是访问分销链接后浏览器地址栏生成的那个链接，通常以亚马逊域名开头。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2dc578132a0f9b2cc23125f1f12a5c2b_5_0.png>
+![](img/zhuanqian_2dc578132a0f9b2cc23125f1f12a5c2b_5_0.png)
 ### 三、广告投放
 接下来去谷歌广告后台，把刚才写好的素材投出去就行。
 ```
@@ -75,35 +75,35 @@ http://www.ads.google.com
 ```
 下面说下具体操作步骤。为了保持网络环境干净，我特意用一台没装任何国产软件的笔记本专门跑这个项目，所以截图不方便传输，我就直接拍屏幕了。
 #### 1、选择投放目标
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2dc578132a0f9b2cc23125f1f12a5c2b_6_0.png>
+![](img/zhuanqian_2dc578132a0f9b2cc23125f1f12a5c2b_6_0.png)
 这里选“网站流量”。相当于你们平时发视频、写笔记赚自然流量，而我这边是直接花钱买精准流量。
 #### 2、选择广告类型
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2dc578132a0f9b2cc23125f1f12a5c2b_6_1.png>
+![](img/zhuanqian_2dc578132a0f9b2cc23125f1f12a5c2b_6_1.png)
 我们要拿的是谷歌搜索流量。比如刚才那个品牌，当用户搜【LET0UR】或类似关键词时，咱们的广告就会冒出来，这些可全是精准客户。
 #### 3、选择转化目标
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2dc578132a0f9b2cc23125f1f12a5c2b_7_0.png>
+![](img/zhuanqian_2dc578132a0f9b2cc23125f1f12a5c2b_7_0.png)
 依然选“网站浏览量”。
 #### 4、设置出价
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2dc578132a0f9b2cc23125f1f12a5c2b_7_1.png>
+![](img/zhuanqian_2dc578132a0f9b2cc23125f1f12a5c2b_7_1.png)
 这个出价就是用户每点一次广告，我们付出的成本。我一般初始设 1.5 元人民币，如果没出单就慢慢往上加。
 #### 5、选择推广方式
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2dc578132a0f9b2cc23125f1f12a5c2b_8_0.png>
+![](img/zhuanqian_2dc578132a0f9b2cc23125f1f12a5c2b_8_0.png)
 这里一定不要选【Google】展示广告网络，咱们只要搜索流量，因为搜索流量是最精准的。然后地理位置，投哪儿就选哪儿，选错了广告费直接打水漂。
 #### 6、选择语言
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2dc578132a0f9b2cc23125f1f12a5c2b_8_1.png>
+![](img/zhuanqian_2dc578132a0f9b2cc23125f1f12a5c2b_8_1.png)
 这步没啥好说的，德国用德语、英国美国用英语、法国用法语，不确定的就问 AI。
 #### 7、填写关键词
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2dc578132a0f9b2cc23125f1f12a5c2b_9_0.png>
+![](img/zhuanqian_2dc578132a0f9b2cc23125f1f12a5c2b_9_0.png)
 把刚才写好的关键词填进去，具体怎么组合，只能靠不断试错来积累经验。
 #### 8、填写最终链接
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2dc578132a0f9b2cc23125f1f12a5c2b_9_1.png>
+![](img/zhuanqian_2dc578132a0f9b2cc23125f1f12a5c2b_9_1.png)
 这个在刚才“编写广告素材”那一步已经提过，就是那个**投放链接**。
 #### 9、填写标题
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2dc578132a0f9b2cc23125f1f12a5c2b_10_0.png>
+![](img/zhuanqian_2dc578132a0f9b2cc23125f1f12a5c2b_10_0.png)
 #### 10、填写描述
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2dc578132a0f9b2cc23125f1f12a5c2b_10_1.png>
+![](img/zhuanqian_2dc578132a0f9b2cc23125f1f12a5c2b_10_1.png)
 #### 11、发布广告
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2dc578132a0f9b2cc23125f1f12a5c2b_10_2.png>
+![](img/zhuanqian_2dc578132a0f9b2cc23125f1f12a5c2b_10_2.png)
 一般会过个身份验证，填个验证码就搞定了。
 ### 四、出单刷量
 投放完成后，记得在不同 IP 环境下访问**分销链接**刷 20 次，之后每出一单，再刷 20 次。
@@ -129,10 +129,10 @@ http://www.ads.google.com
 #### **正所谓想吃苹果，只种一棵树就得看天吃饭，但你要是有片果园，每天都能稳定吃上苹果。**
 这就是用数量抹平概率。
 最后，晒一个我目前在跑的“资产”品牌：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2dc578132a0f9b2cc23125f1f12a5c2b_13_0.png>
+![](img/zhuanqian_2dc578132a0f9b2cc23125f1f12a5c2b_13_0.png)
 #### **2026 年，咱们一起赚美刀！**
 这个品牌的谷歌广告花费是人民币 618 元。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2dc578132a0f9b2cc23125f1f12a5c2b_14_0.png>
+![](img/zhuanqian_2dc578132a0f9b2cc23125f1f12a5c2b_14_0.png)
 对应的联盟平台佣金是 279 美金，折合人民币约 1953 元。
 算下来纯利润就是 1953 - 618 = 1335 元。
 注意，这只是**一个品**。我现在才测出两个稳定出单的品，要是测出 10 个，利润直接乘以 10。这么一想，月入万刀还遥远吗？
@@ -148,9 +148,9 @@ http://www.ads.google.com
 今天就写到这儿了。有问题欢迎在【赚钱评论区】留言，看到会回。
 这项目表面看着简单，真正上手才发现全是细节和门槛，篇幅所限没法把每种情况都写全。但只要抱着“不出单不罢休”的劲儿，逢山开路、遇水架桥，多问 AI、多请教大佬，没有过不去的坎——太阳底下无新事，你遇到的问题，早有人解决过。
 ## 2026 年，一起赚美刀！
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2dc578132a0f9b2cc23125f1f12a5c2b_16_0.png>
+![](img/zhuanqian_2dc578132a0f9b2cc23125f1f12a5c2b_16_0.png)
 最后，安利一下小懒的付费社群：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2dc578132a0f9b2cc23125f1f12a5c2b_16_1.png>
+![](img/zhuanqian_2dc578132a0f9b2cc23125f1f12a5c2b_16_1.png)
 这里是帮你对抗信息过载的“护城河”。
 稳定运营 6 年，累计拆解、研读 3000+ 个互联网商业实战案例与行业前沿内参，以及时政/宏观深度文章。
 我们不搬运垃圾，只做高价值信息的筛选器与放大器。

@@ -17,7 +17,7 @@ Agent 概念正热，但我之前搭过一个“抓 X 推文→自动写稿”�
 2、n8n 流水线自动接手，清洗数据、写入数据库，同时调用 AI 为达人生成专属分析报告。
 3、像素土豆系统把数据重新可视化，任意形态展示，我选了像素风；还能模仿达人写文，以及配图生成。
 # 整体架构
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8d70e923771ce6f67cc3c8dccf09bd01.png>
+![](img/zhuanqian_8d70e923771ce6f67cc3c8dccf09bd01.png)
 整个方案其实只有三大块：
 1. Chrome 扩展：嵌在 Chrome 内的采集端，负责抓取达人昵称、IP 属地、关注数、收藏/点赞数，以及每篇笔记的标题、描述、喜欢数、收藏数和评论。
 2. n8n 流程：云端中转站，收到扩展推送的数据后先做清洗，再按表写入数据库，同时调用大模型产出达人档案。
@@ -35,7 +35,7 @@ AI 写代码目前的 S 级选手，我至今没见过能打的。
 玩过 Coze 和 Dify 的朋友应该不陌生，它们是可视化流程编排平台，也支持私有化部署。
 n8n 和它们放在一起，我的感受是：开放程度更高，接海外服务尤其顺手。
 比如我以前搭过一条 X 数据自动采集 + 按文风推送热点稿的链路。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2fcf1b8b982ac2de793eed75b5fa568d.png>
+![](img/zhuanqian_2fcf1b8b982ac2de793eed75b5fa568d.png)
 再配上 Claude Code 辅助，学习成本立刻降下来。
 由 Claude Code 先把需求拆清楚，再生成流程，n8n 的搭建速度快很多。
 ### 爬虫采集
@@ -47,7 +47,7 @@ n8n 和它们放在一起，我的感受是：开放程度更高，接海外服�
 ```
 //div[@class="user-name"]/text()
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bf92b6f5c8d692b262ceec1b95ff484a.png>
+![](img/zhuanqian_bf92b6f5c8d692b262ceec1b95ff484a.png)
 而且现在 AI 工具演进很快，Playwright MCP 这类浏览器控制方案也能承担抓取工作。
 这块讲得有点干，不看也不影响后面的主线。有兴趣可以回头再啃。
 # 我的三线作战姿势
@@ -59,13 +59,13 @@ Windows 用户可以试试 Warp，否则就老实开多个终端窗口。
 *   左：Chrome 扩展开发
 *   中：n8n 流程开发——注意，这套流程是 Claude Code 写出来的，我这种小白只是把要求写清楚
 *   右：像素土豆系统开发
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5bc1dcb8e138a628e58c265116a2249b.png>
+![](img/zhuanqian_5bc1dcb8e138a628e58c265116a2249b.png)
 单枪匹马按住三台 AI“牛马”，成就感直接拉满，我也算当上老板和监工了。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_62cb1c854c635e191b68998ab3279efd.png>
+![](img/zhuanqian_62cb1c854c635e191b68998ab3279efd.png)
 放张图应景，图中这位是作者自己。
 1、2、3 就位，开工。
 等到一天结束，烧掉 200 多美金，三台 AI 真把整套系统给我蹬出来了。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_517860f6375622b5c9f49811af571b66.png>
+![](img/zhuanqian_517860f6375622b5c9f49811af571b66.png)
 复盘一句话：编码全靠 Claude Code 干，我只负责提要求。
 方案：我的是官方 200 美金套餐，偶尔也用多人合租、镜像代理、API 调用。
 我不喜欢做选择，能用的方式全掺一脚。
@@ -98,9 +98,9 @@ git clone https://github.com/Jonghakseo/chrome-extension-boilerplate-react-vite 
 ```
 /init 使用中文，ultrathink
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7d9806676b6b8cb89f84e5ceb1b6f040.png>
+![](img/zhuanqian_7d9806676b6b8cb89f84e5ceb1b6f040.png)
 执行完，项目根目录会多一个 CLAUDE.md。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_da858a0852486d36a4c005a770881419.png>
+![](img/zhuanqian_da858a0852486d36a4c005a770881419.png)
 它的价值在于：后续 Claude Code 每次开工，都能快速明白“这是什么项目、什么架构、代码写在哪、如何运行和打包”，不至于瞎猜。
 ## Step 2：抓取小技巧
 ### 1、XPath 怎么写
@@ -116,7 +116,7 @@ git clone https://github.com/Jonghakseo/chrome-extension-boilerplate-react-vite 
 [阅读全文](/detail/123)
 ```
 浏览器渲染出来是这样的：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8ad2cd4ccfa053acbd14ec675543721a.png>
+![](img/zhuanqian_8ad2cd4ccfa053acbd14ec675543721a.png)
 XPath 是一种路径语言，在 HTML 当中查找元素，就跟用文件夹路径找文件一样。
 我想取「Python 爬虫课」「作者：龙哥」「2025-08-21」「/detail/123」，直接这样写：
 ```
@@ -126,48 +126,48 @@ XPath 是一种路径语言，在 HTML 当中查找元素，就跟用文件夹�
 链接：//div[@class="article"]/a/@href → /detail/123
 ```
 XPath 算是爬虫圈的老手艺，以前我能背出各种语法，现在基本忘光，全靠 AI 帮我捡回来。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d6d4d9ce3acc74c4396b21ee672cf2b0.png>
+![](img/zhuanqian_d6d4d9ce3acc74c4396b21ee672cf2b0.png)
 做法很简单：把 HTML 贴给 GPT，问“这个值怎么取”，它就把表达式吐出来了。
 ### 2、在浏览器中验证 XPath
 表达式写好后，不用急着写代码。
 打开 Chrome 开发者工具（F12），切到 Elements 标签，用搜索框直接搜 XPath，就能确认结果。
 这是当时验证达人名称的截图：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_447c06ab7a73cad904fceaabf5cd4ee5.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0abfff89ccea2dc4a0839078acdb7792.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a4ed9f09a95788d834e9d253e097da50.png>
+![](img/zhuanqian_447c06ab7a73cad904fceaabf5cd4ee5.png)
+![](img/zhuanqian_0abfff89ccea2dc4a0839078acdb7792.png)
+![](img/zhuanqian_a4ed9f09a95788d834e9d253e097da50.png)
 文章列表的验证也类似，让 GPT 帮我推表达式，一次搜出 16 个节点。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6b685eaec19758fe1176cadee531df94.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3d85198c00b62e8cf307d7d09a5d4bf1.png>
+![](img/zhuanqian_6b685eaec19758fe1176cadee531df94.png)
+![](img/zhuanqian_3d85198c00b62e8cf307d7d09a5d4bf1.png)
 ## Step 3：写需求文档
 XPath 理清后，就能把需求文档整理出来。
 我事先把需要用到的 XPath 都写进了文档，这次只是重新梳理、补全功能点。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_36c02ec82e87bc2552c34486d337e47c.png>
+![](img/zhuanqian_36c02ec82e87bc2552c34486d337e47c.png)
 PRD 文件放在项目的 docs 文件夹下。
 文档也公开出来：
 ```
 docs/prd.md
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8cb345301a9981b8d60a7146e0293e1b.png>
+![](img/zhuanqian_8cb345301a9981b8d60a7146e0293e1b.png)
 ## Step 4：出实施方案
 这一步进入真正的设计环节。
 打开 Claude Code，切到规划模式（plan）：shift+tab 按两下；Windows 用户可能需要 alt+m。
 ```
 @docs/prd.md 这个是小红书数据采集的浏览器插件的详细需求，仔细阅读，并给出详细的规划方案，ultrathink
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c4f7d3ebd6899a9b78f4591dd4f638d3.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ccc8e07f5e2e97a642880f5422b006a1.png>
+![](img/zhuanqian_c4f7d3ebd6899a9b78f4591dd4f638d3.png)
+![](img/zhuanqian_ccc8e07f5e2e97a642880f5422b006a1.png)
 Claude Code 给出的方案，我会另存为 Markdown，方便后续审阅。
 ```
 保存到@docs/目录下，文件名称格式是PLAN_20250819_001.md格式。
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_038e4972abbcbac8b19b2946975dda21.png>
+![](img/zhuanqian_038e4972abbcbac8b19b2946975dda21.png)
 看完初稿，我觉得有些地方还不够，就继续在规划模式里和它磨细节。
 ```
 @docs/prd.md 我后面加了“反爬虫“的要求，再重新阅读下需求和现在的方案，另外就是爬取数据的准确性上再看看，ultrathink
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_58de2414b57a6215ca29d9bfb9b2b08a.png>
+![](img/zhuanqian_58de2414b57a6215ca29d9bfb9b2b08a.png)
 让它把方案刷新一下，文档版本升到 2.0。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_84b9b1c22dff2d0401b9502e354b7fe9.png>
+![](img/zhuanqian_84b9b1c22dff2d0401b9502e354b7fe9.png)
 实施方案全文如下：
 ## Step 5：放手执行
 如果前面聊得足够细，这一步基本就是看着它跑。
@@ -175,27 +175,27 @@ Claude Code 给出的方案，我会另存为 Markdown，方便后续审阅。
 ```
 @docs/ 根据这个目录下的文档，开始写这个项目，ultrathink
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_81975d37342456335590ece5c9ce663b.png>
+![](img/zhuanqian_81975d37342456335590ece5c9ce663b.png)
 ## Step 6：修 bug
 跑得快，问题也会跟着来。这很正常，关键是带着 Claude Code 一起分析、解决。
 下面是我实战中遇到的几个典型问题，当作排查思路分享。
 ### 坑 1：抓取类任务被判定为敏感操作
 界面飘红，还给了策略提示。我猜是 Anthropic 对这类抓取任务有限制。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0077caf94a8c694abd906fe3eb485a33.png>
+![](img/zhuanqian_0077caf94a8c694abd906fe3eb485a33.png)
 解决方式很简单：换一种话术描述目标，让 AI 从一个合规的角度去实现；一次不行，后面多试几次。
 ### 坑 2：取不到数据
 ```
 页面检测结果: {isValid: false, url: 'https://www.xiaohongshu.com/user/profile/68497faa0…7HFRUObas-vCl_PSLHKnTLshQwak=&xsec_source=pc_feed', userId:   null, message: '请访问小红书个人主页（格式：https://www.xiaohongshu.com/user/profile/xxx）'}，页面已经检测倒是 https://www.xiaohongshu.com/user/profile/ 开头的格式，但是还是“页面不可采集“的术语，并且布局不太合理，[Image #1]
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5af5d8986e2158123bc675bcb04d1bcd.png>
+![](img/zhuanqian_5af5d8986e2158123bc675bcb04d1bcd.png)
 ### 坑 3：popup 界面布局乱了
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_99686d320a5c005616a45a861d350944.png>
+![](img/zhuanqian_99686d320a5c005616a45a861d350944.png)
 ### 坑 4：侧栏弹不出来
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7815af741db15f264a41670255916418.png>
+![](img/zhuanqian_7815af741db15f264a41670255916418.png)
 ### 坑 5：抓到的信息缺字段
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f0d91a3bc53e10ee528250b0270ece92.png>
+![](img/zhuanqian_f0d91a3bc53e10ee528250b0270ece92.png)
 ### ✅ 成果：达人数据成功入表
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_273db148111b2724f42ce5240ba6fed7.png>
+![](img/zhuanqian_273db148111b2724f42ce5240ba6fed7.png)
 ### 坑 6：笔记抓取不完整
 ```
 采集文章的数据，需要点击每个打开后才能采集到标题、正文这些元素的。ultrathink
@@ -204,11 +204,11 @@ Claude Code 给出的方案，我会另存为 Markdown，方便后续审阅。
 ```
 采集策略，先不滚动页面，等采集完用户数据后才开始采集文章数据，默认进来就会有一些文章，先采集已经在页面上的文章数据，需要有鼠标点击打开文章的操作，然后再采集文章的要素，比如标题、正文、评论等，ultrathink，补充信息，正常人点击的是 class="note-item" 下的class="cover" 的a标签
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f7ca39a004f13054a5ecb24c94cfef9c.png>
+![](img/zhuanqian_f7ca39a004f13054a5ecb24c94cfef9c.png)
 ### 结果查看：数据终于跑出来了
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9b643aea0f09a6b1b34a5da1609547a9.png>
+![](img/zhuanqian_9b643aea0f09a6b1b34a5da1609547a9.png)
 抓取到的完整数据一览：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_91507bcde6496655e96a0c33a5d4c1f1.png>
+![](img/zhuanqian_91507bcde6496655e96a0c33a5d4c1f1.png)
 支持一键导出 json 格式
 ## 步骤七：把 n8n 的配置同步过来
 要走到这一步，前提是 n8n 的工作流已经搭好。
@@ -216,14 +216,14 @@ Claude Code 给出的方案，我会另存为 Markdown，方便后续审阅。
 https://apifox.com/
 这是一款 http 接口调试工具，对新手来说门槛有点高。
 可以让 AI 来解释：http 到底是什么，接口又是什么？我是个小白，别人用 APIFox 一般做什么？
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_95133dab3de68004684066147c0b86d9.png>
+![](img/zhuanqian_95133dab3de68004684066147c0b86d9.png)
 等接口调试通了，就能把代码拷贝出来，让 claude code 知道请求参数长什么样、响应体长什么样。
 这样就不会因为参数对不上而反复返工。
 当然也可以整理一份接口文档，但这里只有一个接口，我就直接把内容粘到对话框的提示词里了。
 ```
 同步n8n接口数据的参考代码为：{粘贴刚刚复制的 APIfox 代码}
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c479fe7314789d6f5c18c6c3501679ed.png>
+![](img/zhuanqian_c479fe7314789d6f5c18c6c3501679ed.png)
 返回数据的格式示例：
 ```
 {
@@ -238,48 +238,48 @@ https://apifox.com/
 "timestamp": "2025-08-20T09:30:24.997Z"
 }
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_526317053d383bf14fe4d65714a8f6f4.png>
+![](img/zhuanqian_526317053d383bf14fe4d65714a8f6f4.png)
 接下来继续校对返回接口的数据结构：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_771f70fbc363356863b5fdd15f8bdac5.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_71f8483b989d8591f339bd7777e96511.png>
+![](img/zhuanqian_771f70fbc363356863b5fdd15f8bdac5.png)
+![](img/zhuanqian_71f8483b989d8591f339bd7777e96511.png)
 ## 步骤八：交互体验的修复与同步优化
 这一块主要是在采集数据的同步上做体验增强和优化。
 ```
 [Image #1]，每次采集都会新增一个记录，我理解是不是只同步每次最新的那个就行，还是说每个采集的记录都可以有同步的按钮操作，深度思考下这个交互怎么好做。ultrathink
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_68c9ce41324ba522b08584418474674c.png>
+![](img/zhuanqian_68c9ce41324ba522b08584418474674c.png)
 ## 步骤九：界面原型开发时遇到的坑
 下面这张图说的是一个界面排版的问题。
 这个问题我其实折腾了很久，反复改了好几次。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_45ad36c5e0d48633f2e0e7073a011ee1.png>
+![](img/zhuanqian_45ad36c5e0d48633f2e0e7073a011ee1.png)
 ```
 [Image #1]，看这个布局，使用ascii复现给我画出来，我好确认你已经知道我的问题
 ```
 这里有个小技巧可以避开纯布局上的纠结，让 claude code 直接用 ascii 画出来。
 一方面能确认它是否真的理解你的需求，另一方面也能验证它是否找到了可行解。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_91e29c7e03fa555a33a93f9d1ffdc07c.png>
+![](img/zhuanqian_91e29c7e03fa555a33a93f9d1ffdc07c.png)
 要是没解决，就继续
 加上 ultrathink
 ```
 实际“采集数据“，“查看已采集数据“ 两个按钮还是太长，看是否可以做成自动适应父容器的，离父容器有个padding的距离。ultrathink
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a3d2c3b168b95599f00c930354ea1df1.png>
+![](img/zhuanqian_a3d2c3b168b95599f00c930354ea1df1.png)
 ## 步骤十：插件调试实操
 打开 Chrome 浏览器
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1b2552225cf750d6d17e2293f9778db8.png>
+![](img/zhuanqian_1b2552225cf750d6d17e2293f9778db8.png)
 一定要开启开发者模式
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cd1139690978ad0d0c02d94fe1487346.png>
+![](img/zhuanqian_cd1139690978ad0d0c02d94fe1487346.png)
 打开后左侧会出现三个控制按钮
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_488d76dc2ec07e13e17509f8e4b42e1b.png>
+![](img/zhuanqian_488d76dc2ec07e13e17509f8e4b42e1b.png)
 选择加载目录。
 通常在项目目录的 dist 文件夹下。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5370a517e39426781df2f6aa2e5c974a.png>
+![](img/zhuanqian_5370a517e39426781df2f6aa2e5c974a.png)
 记得把浏览器插件置顶，就能看到了。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0d6b2ffbd6db2eb993af23200c98c4ea.png>
+![](img/zhuanqian_0d6b2ffbd6db2eb993af23200c98c4ea.png)
 调试思路：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f00aeb3f7b09f3e55d0b44aee266fa7e.png>
+![](img/zhuanqian_f00aeb3f7b09f3e55d0b44aee266fa7e.png)
 想看网络请求的话，切到 network 面板
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e45a60066cd5f6b52f92d1b481ec1515.png>
+![](img/zhuanqian_e45a60066cd5f6b52f92d1b481ec1515.png)
 ## 最后的小结
 到这里浏览器端的开发基本就收尾了
 过程里确实需要一些基础储备，比如 xpath 表达式、http 接口、F12 调试面板。
@@ -297,7 +297,7 @@ https://apifox.com/
 不懂就问 AI，现在最关键的能力就是学习能力。
 ### 1、建表的具体需求
 提示词如下：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8e8a97861eb054884026ac1dabcdac57.png>
+![](img/zhuanqian_8e8a97861eb054884026ac1dabcdac57.png)
 核心是把 json 的数据结构，文章相关的和博主相关的都贴进提示词里。
 这样 claude code 才能精准推导出建表语句。
 ```
@@ -315,11 +315,11 @@ https://apifox.com/
 ```
 @prd_ddl.md 根据文件中的描述，生成所需要的sql内容
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_497efa6399c7b5a9eb023eccfb9b28cd.png>
+![](img/zhuanqian_497efa6399c7b5a9eb023eccfb9b28cd.png)
 生成了 sql 文件
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f144744b1ddd95402d15f06b12b31caa.png>
+![](img/zhuanqian_f144744b1ddd95402d15f06b12b31caa.png)
 在 supabase 中执行 sql
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_afacbc4bb27ce2a8ea981dbb3bda0979.png>
+![](img/zhuanqian_afacbc4bb27ce2a8ea981dbb3bda0979.png)
 这里涉及到 supabase 的概念。
 简单说它就是一套云数据库，功能集成度很高。
 现在做站基本都离不开 supabase 了。
@@ -364,7 +364,7 @@ N8N_API_URL：你的 n8n 地址，例如：https://xxx.xxx.xxx/。就是你访�
 N8N_API_KEY：你的 n8n API Key。
 在 n8n 设置页的「n8n API」菜单里可以生成。
 其实不填这两个参数也能生成 json 工作流文件，配置主要是为了
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_66664eb5b7ed971fe1eb0af79768ca00.png>
+![](img/zhuanqian_66664eb5b7ed971fe1eb0af79768ca00.png)
 补充一下 n8n 的部署方式有很多。
 大部分人本地用 docker 跑，我看过龙哥的文档，写的很细。
 我自己有云服务器，用的是 zeabur 的模板部署，环境几分钟就起来了。
@@ -372,7 +372,7 @@ N8N_API_KEY：你的 n8n API Key。
 又回到写文档这一步，所以现在的开发流程并没有变简单，对个人的要求反而更高了。
 我发现自己写代码越来越顺，写需求文档的时间却越来越多。
 ### 1、n8n 工作流的需求文档
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3e98f7900cedd998bba1f330e51bc645.png>
+![](img/zhuanqian_3e98f7900cedd998bba1f330e51bc645.png)
 关键点总结：
 1、输出的是 n8n json 文件
 2、触发方式用 webhook
@@ -396,82 +396,82 @@ N8N_API_KEY：你的 n8n API Key。
 @prd_n8n.md 根据这个文档的需求，并使用 n8n-mcp 生成对应的n8n的配置json文件，ultrathink
 ```
 注意：前期我都用 plan 模式，并且加了 ultrathink。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bbbf4edb78e838ea69114285b73fde05.png>
+![](img/zhuanqian_bbbf4edb78e838ea69114285b73fde05.png)
 得到执行计划
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_533bd7f066bb35381e26db3b99741f8e.png>
+![](img/zhuanqian_533bd7f066bb35381e26db3b99741f8e.png)
 能看到每个节点都列出来了。
 生成时每个节点都会通过 n8n mcp 拉取详细配置。
 这样 claude code 就清楚每个节点该怎么写配置。
 尤其是涉及数据处理的地方，会用代码节点，而写代码正是 claude code 的强项。
 开发完后成功生成了 json 配置文件
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8d5b45e66a7431813701e24a04b538bd.png>
+![](img/zhuanqian_8d5b45e66a7431813701e24a04b538bd.png)
 说实话我当时还有点怀疑，这个 json 到底能不能用？
 那就试试看
 ### 3、把 json 导入到 n8n 工作流
 新建一个 n8n 项目。
 点右上角三个点，选择导入文件。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b4ddcceb191db2f4597721c80f558d93.png>
+![](img/zhuanqian_b4ddcceb191db2f4597721c80f558d93.png)
 选我们刚生成的 json 文件即可。
 ### 4、配置 AI KEY 和相关信息
 可以看到导入后的界面。当时我挺惊讶的，我什么都没手动配，光写了个需求文档，导入后居然长得像模像样。
 目前已经能证明 claude code + n8n 的组合是可行的。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3c39ccd40deb3506fbe442a52b0c9547.png>
+![](img/zhuanqian_3c39ccd40deb3506fbe442a52b0c9547.png)
 不过有几个节点显示红色叉叉，正常，是需要补充 openrouter 和 supabase 的配置。
 1、openrouter 很简单，填 API KEY 就行
 2、supabase 的信息
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_41754920990cccb1d3aad4dc31c31ed1.png>
+![](img/zhuanqian_41754920990cccb1d3aad4dc31c31ed1.png)
 第一个是 host 地址：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_67b986f43c1f83abb908832500654ba0.png>
+![](img/zhuanqian_67b986f43c1f83abb908832500654ba0.png)
 第二个是 Service role secret
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_142394103b9472874179d7e8f1e42037.png>
+![](img/zhuanqian_142394103b9472874179d7e8f1e42037.png)
 填完后红色叉叉就消失了。
 ### 5、整体测试 n8n 工作流
 下一步是测试。
 点击工作流下方的「Execute workflow」进入测试模式。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c9e2ee7ee2c97291d326f6eb508b97e0.png>
+![](img/zhuanqian_c9e2ee7ee2c97291d326f6eb508b97e0.png)
 能看到整个工作流进入待执行状态，特别是第一个节点提示正在等待你的请求。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_dc8e8e674a5d293419f610e49e2b29c4.png>
+![](img/zhuanqian_dc8e8e674a5d293419f610e49e2b29c4.png)
 点开第一个 webhook 节点
 就能看到「Test URL」下的一个 http 地址。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e7981bc5fc2581b8547d5fb6309e2aed.png>
+![](img/zhuanqian_e7981bc5fc2581b8547d5fb6309e2aed.png)
 复制这个地址，用前面提到的 APIFox 来发请求。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8b9ef805e65ab32f4e0a9ac9fae8c968.png>
+![](img/zhuanqian_8b9ef805e65ab32f4e0a9ac9fae8c968.png)
 按下 APIFox 的「发送」后，工作流就跑起来了。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f86cc9f41a6ed3a845286429631b80f6.png>
+![](img/zhuanqian_f86cc9f41a6ed3a845286429631b80f6.png)
 ### 6、修复运行中的节点报错
 运行过程中会出现节点报错
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7cff13692ba1c1273967e28480f339bc.png>
+![](img/zhuanqian_7cff13692ba1c1273967e28480f339bc.png)
 点开具体节点就能看到错误详情：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b17f37179144c52ad219510eef00099f.png>
+![](img/zhuanqian_b17f37179144c52ad219510eef00099f.png)
 原因是数据量过大。
 回头看浏览器插件采集的数据，前期采集了评论但没有做清洗。为了省事，先不处理评论数据。
 ```
 接收到的数据里面有noteCommentsHtml评论数据，比较大，看是否可以先过滤掉，加一个过滤节点
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_939f4852a3a3a8a3bc5f258eabd92b4a.png>
+![](img/zhuanqian_939f4852a3a3a8a3bc5f258eabd92b4a.png)
 ### 7、修复数据库唯一键冲突
 还有一个问题，如果数据库里已有数据，再次执行就会报错。
 可以看到是唯一键冲突，这是数据库的正常机制。
 我想让它支持 upsert 逻辑：没有就新增，有就更新。
 唯一键相当于身份证号，一张表里一条记录唯一。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_216647bb09a410bed226fb1c6a4edaff.png>
+![](img/zhuanqian_216647bb09a410bed226fb1c6a4edaff.png)
 所以要改成 upsert 模式。
 这里我直接更新工作流，n8n mcp 也支持这个操作，调用的是 n8n_update_partial_workflow 方法。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d486d47a7efe886b079ae5e912359a6d.png>
+![](img/zhuanqian_d486d47a7efe886b079ae5e912359a6d.png)
 我开启了 ultrathink 模式，让它更谨慎地修复错误。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cc4299f81b0c83cb0c323f0f4b9c8d40.png>
+![](img/zhuanqian_cc4299f81b0c83cb0c323f0f4b9c8d40.png)
 最后发现改完还是报错
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_52af930428ab92a6b5c4e1d2ce766ee0.png>
+![](img/zhuanqian_52af930428ab92a6b5c4e1d2ce766ee0.png)
 继续改：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_41fc302c8231b76f5b94c8ae23b8b9cf.png>
+![](img/zhuanqian_41fc302c8231b76f5b94c8ae23b8b9cf.png)
 因为我装了 supabase 的 MCP，可以直接查 supabase 的文档，确认 upsert 该怎么写。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e2b9871424ee875c3e81c13c2e9f68e0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7dc59bf5d244e786bcf462a6935f8b9e.png>
+![](img/zhuanqian_e2b9871424ee875c3e81c13c2e9f68e0.png)
+![](img/zhuanqian_7dc59bf5d244e786bcf462a6935f8b9e.png)
 最终方案走的是自定义路线，是查阅 supbase 官方文档后才拿到的可行方法。
 从 n8n mcp 反馈的信息来看，原生的 supbase 节点并不支持 upsert 行为。
 于是让 claude code 直接生成了一个 http 节点，填入了 supabse 的鉴权信息，这样就能完成 supbase 的 upsert 了。
 问题算是彻底解决。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c34fd60344007a1d61e386fa7ebdb2ef.png>
+![](img/zhuanqian_c34fd60344007a1d61e386fa7ebdb2ef.png)
 ### 8、这里藏着一个挺麻烦的点
 笔记数据和博主数据存完后共用同一套判断逻辑，结果就会出现误报。
 举个例子，笔记数据检查通过了，博主数据反而被判定为异常，其实两边数据都正常。
@@ -503,10 +503,10 @@ N8N_API_KEY：你的 n8n API Key。
 }
 ]，帮我重新想下这个方案如何设计好，ultrathink
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f648fc077b4f6b13793fd3474b77fd5b.png>
+![](img/zhuanqian_f648fc077b4f6b13793fd3474b77fd5b.png)
 让 claude code 帮忙给出解决思路：
 解决问题：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_697d07f52402cc14c24e12b362223a1e.png>
+![](img/zhuanqian_697d07f52402cc14c24e12b362223a1e.png)
 ## 最后的总结
 说到这里你可能要意识到，我整套流程里根本没在 n8n 的页面上手工搭建过任何工作流。
 节点长什么样、用来做什么、参数怎么配，我全都不知道。
@@ -538,7 +538,7 @@ pnpm create next-app --example https://github.com/vercel/examples/tree/main/stor
 xiaohongshu-n8n-web
 ```
 ## 步骤二：写好需求文档
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8d42ec90d89675fbcf5de21766b84ceb.png>
+![](img/zhuanqian_8d42ec90d89675fbcf5de21766b84ceb.png)
 核心其实是把你要的功能理清楚。
 以及数据交互的具体流程。
 这里要感谢 yihui 大佬的提示词给了灵感，真的很强。
@@ -565,50 +565,50 @@ xiaohongshu-n8n-web
 @docs/prd.md 根据需求文档，开发这个网站，ultrathink
 ```
 依旧在 plan 模式下，加开 ultrathink 深度思考。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_609beb24435487451ff6061e737aab35.png>
+![](img/zhuanqian_609beb24435487451ff6061e737aab35.png)
 开始执行计划
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3da5106b6120eacc39c01bdc3096abaf.png>
+![](img/zhuanqian_3da5106b6120eacc39c01bdc3096abaf.png)
 到这里可以先放松一下。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b6b472d23525d1281f09994be947b549.png>
+![](img/zhuanqian_b6b472d23525d1281f09994be947b549.png)
 等待它跑完就行。
 ## 收菜验收
 喝了杯下午茶就去验收成果
 进首页，第一眼还行，像素风，🍠配色，哈哈哈，icon 也一模一样。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f59f529c2098f5dc2921a07bda21ddfd.png>
+![](img/zhuanqian_f59f529c2098f5dc2921a07bda21ddfd.png)
 但是。。。。就报错了
 ## 步骤四：修复错误
 ### 1、”查看报告“的时候错误
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_695a65c19c9740d1f617fe90fbce01b4.png>
+![](img/zhuanqian_695a65c19c9740d1f617fe90fbce01b4.png)
 直接点页面上的复制按钮
 把内容粘贴到 CC 的对话框里
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_64b0b52f5248cf23466b1fe235d59591.png>
+![](img/zhuanqian_64b0b52f5248cf23466b1fe235d59591.png)
 回车就搞定了。
 解决后就能看到个人页面：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_64c8a4e40417eab2eb1ea862d9ff7476.png>
+![](img/zhuanqian_64c8a4e40417eab2eb1ea862d9ff7476.png)
 ### 2、笔记列表为 0 的情况
 能看到笔记列表显示为 0，于是直接告诉 claude cod。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f5bb14b559793b81a4ebfc6e1d4152e2.png>
+![](img/zhuanqian_f5bb14b559793b81a4ebfc6e1d4152e2.png)
 从 claude code 的反馈看，可能是关联字段写错了。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_29acfbd5e4fdf4824d5aab198319a25a.png>
+![](img/zhuanqian_29acfbd5e4fdf4824d5aab198319a25a.png)
 最后顺利修复了，还贴心地帮我们删掉了调试日志。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_23a922674a9001ffe3b41479647118cc.png>
+![](img/zhuanqian_23a922674a9001ffe3b41479647118cc.png)
 ### 3、仿写功能异常
 到仿写功能时也出现了异常
 我们把错误信息粘贴上去，再加一点提示。
 ```
 仿写的时候报错：ai-rewrite-modal.tsx:90 生成失败: Error: 生成失败at handleGenerate (ai-rewrite-modal.tsx:55:15)
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_22e062d7d3be6112bbff380f4de506e3.png>
+![](img/zhuanqian_22e062d7d3be6112bbff380f4de506e3.png)
 还有个小插曲，发现我的 glm 账号余额不足。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d63f1b9ebefa9de203d44ce47a9a4730.png>
+![](img/zhuanqian_d63f1b9ebefa9de203d44ce47a9a4730.png)
 查了一下余额确实没了，先充值一下继续。
 最后记得
 ```
 commit push
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0b8b4ca459d59e64e695baecaaa09fd4.png>
+![](img/zhuanqian_0b8b4ca459d59e64e695baecaaa09fd4.png)
 效果如下：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b3d908110d9eb8cb4b4dd47ad24c6cbd.png>
+![](img/zhuanqian_b3d908110d9eb8cb4b4dd47ad24c6cbd.png)
 这里用的是 glm 的模型
 这一点在需求文档里写得很明白。
 ```
@@ -624,28 +624,28 @@ https://www.modelscope.cn/models/Qwen/Qwen-Image/summary
 https://www.modelscope.cn/models/Qwen/Qwen-Image/summary
 这个生图的模型怎么使用了？
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0275390b0425ad43450485f7ee065a4d.png>
+![](img/zhuanqian_0275390b0425ad43450485f7ee065a4d.png)
 后来我决定让 claude code 直接读取这个链接的文档
 结果开发后一直不对
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_79418d7f1d6931bf80d2d400c2f81303.png>
+![](img/zhuanqian_79418d7f1d6931bf80d2d400c2f81303.png)
 没办法，只能手动把文档粘贴上来。
 我还特意把文档里的示例代码贴上了，虽然是 python 的，但 claude code 完全能理解。
 ```
 @docs/api-modelscope.md 这个是modelscope的api文档，这个是文生图的示例代码：
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fd3856f981868962a519c642e9dc14bd.png>
+![](img/zhuanqian_fd3856f981868962a519c642e9dc14bd.png)
 ### 错误：绑定阿里巴巴账号
 这里有个坑是要绑定阿里巴巴账号
 一开始我也不知道，就继续和 claude code 聊错误。
 它会根据接口返回的信息帮你排查，并给出提示。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fa0998388bd1d0c599b2d385d861c12e.png>
+![](img/zhuanqian_fa0998388bd1d0c599b2d385d861c12e.png)
 ### 错误：自动修复尺寸符号问题
 继续测试接口
 发现尺寸符号应该用 x 而不是*号的问题。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b9d17e6643e85f2e93087047ba073f26.png>
+![](img/zhuanqian_b9d17e6643e85f2e93087047ba073f26.png)
 最后完美修复
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fffdc1e02df0f354948a1b7b607ebac6.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6123973f0794465944b4d75d0cbb3381.png>
+![](img/zhuanqian_fffdc1e02df0f354948a1b7b607ebac6.png)
+![](img/zhuanqian_6123973f0794465944b4d75d0cbb3381.png)
 ## 步骤六：提交代码
 这是最后一次提交代码的说明
 基本每完成一个小功能或解决一个问题，我都会提交一次
@@ -653,7 +653,7 @@ https://www.modelscope.cn/models/Qwen/Qwen-Image/summary
 ```
 commit push
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b8b866c20a54eaa8af8ffdb19a2ec3d3.png>
+![](img/zhuanqian_b8b866c20a54eaa8af8ffdb19a2ec3d3.png)
 # 总结
 到这里基本就结束了。感觉体验如何
 还是按惯例做个总结。

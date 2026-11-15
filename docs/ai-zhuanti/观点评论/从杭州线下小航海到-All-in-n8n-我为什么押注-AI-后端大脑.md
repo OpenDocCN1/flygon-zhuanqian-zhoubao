@@ -20,7 +20,7 @@
 ## 1.1 4 小时计划 vs 1 个最终成果
 上周日我在杭州带了一场赚钱的 n8n mini 航海，现场 15 位圈友。
 出发前我的设想很饱满：4 小时内从认识 n8n 入手，逐步攻克 4 个难度递增的实战案例。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2b643b51ed780945f0ff7ae7d2a1b9b7.png>
+![](img/zhuanqian_2b643b51ed780945f0ff7ae7d2a1b9b7.png)
 现实很直接地扇了我一巴掌。活动结束时，我们只磕磕绊绊跑通了第一个、最基础的案例。这个落差非常说明问题：对绝大多数新手来说，n8n 并不是“拖拖拽拽复制模板”就能上手，它是有学习曲线、有技术门槛的工具。
 第一个案例只是调用一个 API，把结果自动化存储到指定位置。听起来简单，现场却接连踩雷：VPN 不通、界面不熟悉、JSON 请求头请求体配错、API Key 没填对、变量名变量值分不清、API 文档看不懂、数据清洗和结构化没概念……
 ## 1.2 现场观察：新手在哪一步最容易卡住
@@ -28,7 +28,7 @@
 第一类是数据流动和表达式的理解缺失。很多人能跟着点点点把流程跑通，但换一个节点就懵了，背后是 JSON 基础和数据流向理解不足。
 第二类是 API 官方文档的阅读能力。程序员眼里，MCP 或导入 cURL 能秒配，但小白连 API 是什么都一知半解，更别说去对照文档配置 HTTP 请求，请求头请求体这些基本概念都要现学。
 第三类是逻辑设计和流程拆分能力。n8n 模板很多，但没有一个是为你的个性化需求量身定制的。想要做产品级方案，必须先学会把需求拆解，再去匹配合适的节点和 API。简单套模板的场景除外。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_46283f6a15bf8eafc6d5efadddbf5cc2.png>
+![](img/zhuanqian_46283f6a15bf8eafc6d5efadddbf5cc2.png)
 # 第二部分：新手入门 n8n 的“三大坑”及解决方案
 ## 2.1 “部署坑”：n8n 是开源项目，可以免费自托管
 新手第一关往往是“怎么用”。目前官网社区节点安装偶尔会出现短期 Bug，自托管也需要一点时间成本。先把部署跑通，大致半小时就能入门。
@@ -53,9 +53,9 @@ n8n 工作流搭建可以归纳为五步：
 ## 3.2 n8n 对比竞品的核心优势
 n8n、Coze、Dify、Zapier 各有定位。n8n 是通用工作流自动化平台，强在定制和扩展；Coze 更适合国内新手做机器人；Dify 专注 LLM 应用开发；Zapier 生态成熟但 AI 支持弱于 n8n。
 n8n 的核心优势在于：完全免费开源自托管、无工作流和节点数量限制；服务器成本低，5-10 美元的 VPS 足够；极度灵活，HTTP 节点可连接任意 API；数据完全自控；还能通过 Webhook 把工作流变成 API 接口，充当产品后端。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c6c9efbe27b0bfe4e9b9f58107f17f2d.png>
+![](img/zhuanqian_c6c9efbe27b0bfe4e9b9f58107f17f2d.png)
 资本层面，2025 年 n8n 母公司累计融资数亿欧元，账上资金充足。投资方 Accel Partners 曾是 X 的早期投资人。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f78f0f787ccccf38526a9ccc10e624f3.png>
+![](img/zhuanqian_f78f0f787ccccf38526a9ccc10e624f3.png)
 市场层面，海外是 n8n 的大本营，YouTube 上相关博主从 2025 年开始增多，头部变现可观。国内生态仍处早期，蓝海明显。相比 Coze 门槛更高，但上限更高，场景更广。
 ## 3.3 个人选择：契合优势的最佳杠杆
 All in n8n 不只是看好赛道，更是个人优势的匹配。我过去的强项是逻辑思维和流程设计，而不是前端审美和流量获取。

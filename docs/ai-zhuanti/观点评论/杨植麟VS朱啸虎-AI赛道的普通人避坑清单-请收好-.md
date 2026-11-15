@@ -9,12 +9,12 @@
 ## 一、想去大模型公司？先看看自己是不是这块料
 如果你对底层算法充满热情，愿意看着一个模型慢慢变聪明，享受在最前沿的技术里死磕的过程，那么大模型公司会是很棒的选择。这类公司有宏大的技术愿景，也有跨领域的学习机会，适合那些不着急看到商业回报的人。
 从当前的招聘盘面看，技术浪潮还在早期，约八成岗位都是技术岗，尤其以算法工程师为主。猎聘研究院的数据显示，2023年1~8月，AIGC新发职位同比增长139.76%，招聘平均年薪达到41.09万元；深度学习、图像算法、自然语言处理三个方向排在前列，平均年薪均超过50万，分别达到55.78万、55.10万、53.31万。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a0e6b1ca0153f6931841023eb15ca933.png>
+![](img/zhuanqian_a0e6b1ca0153f6931841023eb15ca933.png)
 文科生是不是就没机会了？也不是。如果你同样信仰AGI，那些已经拿到大额资本验证的公司，一样可以试试。以月之暗面为例，春节融资结束后，官网悄悄新增了不少非技术岗位，比如广告投放、达人运营、媒体关系专家——这在去年是没有的。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fa2e10a127e3aadd2ca8c8f317c67c53.png>
+![](img/zhuanqian_fa2e10a127e3aadd2ca8c8f317c67c53.png)
 说白了，这些岗位的核心就是烧钱换流量，把声量做大，本质上是增长导向。你甚至能从岗位描述里倒推出公司当前阶段的发展战略。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2d6c521bae6db5def7b102f23dcd1414.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_689b9f86bd30ef78c40bc940f539d524.png>
+![](img/zhuanqian_2d6c521bae6db5def7b102f23dcd1414.png)
+![](img/zhuanqian_689b9f86bd30ef78c40bc940f539d524.png)
 以“达人运营”这个紧急岗位为例，任职要求写着：有拼多多、米哈游这类高增长公司的工作经验，擅长用内容撬动增长，还要能搭建中台、沉淀SOP。注意看关键词——结果导向、快速晋升、创业经验优先。这一套组合拳说明什么？增长压倒一切，增长压倒一切，增长压倒一切！
 至于你能不能在这里押中2012年的今日头条？说实话，看命。当年朱啸虎都承认自己看走眼了，谁也不知道下一个张一鸣会从哪个角落冒出来。
 ## 二、去垂直应用公司？低调但可能更稳
@@ -30,11 +30,11 @@
 4. **合作伙伴与客户**：有没有行业巨头背书，有没有真实落地场景。
 5. **商业模式**：哪怕还在探索期，也要看收入路径是否可想象。
 对普通人来说，这些信息根本不好查，最实际的办法就是看融资轮次——借专业投资人的眼光做判断。你可以打开IT桔子的AI专题，去查目标公司的融资图谱。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b9a899fbfe9ed5a66d9b92079936b88b.png>
+![](img/zhuanqian_b9a899fbfe9ed5a66d9b92079936b88b.png)
 具体路径：直接访问 https://www.itjuzi.com/ai ，进入“AI专题”页面就能找到。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5a5a82d7cbdabbfead9f6523f701b047.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cd8b7081d150100fb18c68717c4aa2bb.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6ab40cce6cef1c354eb579cc515941b3.png>
+![](img/zhuanqian_5a5a82d7cbdabbfead9f6523f701b047.png)
+![](img/zhuanqian_cd8b7081d150100fb18c68717c4aa2bb.png)
+![](img/zhuanqian_6ab40cce6cef1c354eb579cc515941b3.png)
 另外，多找投资人和内部员工聊聊，真实体感比报表更可信。
 ### 评估垂直应用公司的5个指标：
 1. **市场需求**：目标用户是不是真的痛，增长空间有多大。
@@ -44,9 +44,9 @@
 5. **扩展性与可持续性**：能不能复制成功，能不能跟着市场一起变。
 这一块朱啸虎可以当你的“导航”。金沙江创投投了不少AI应用公司，你直接查他投了谁，再顺藤摸瓜研究就行了。IT桔子的会员如果嫌贵，淘宝上花二十几块钱就能买一个月临时会员，瞬间打开信息通道。
 2023年，金沙江创投的AI投资布局，长这样。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_872c0804331cc40357265f7cbddb37d0.png>
+![](img/zhuanqian_872c0804331cc40357265f7cbddb37d0.png)
 2022年，他们投了这些。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_56822766b93b5cfbf613ddb3c85be60e.png>
+![](img/zhuanqian_56822766b93b5cfbf613ddb3c85be60e.png)
 写完这份清单，我再次强烈感受到：信息即权力。
 掌握更多信息的人，对全局的判断更接近真相。虽然权力能左右事情走向，但信息永远先人一步告诉你答案。那么，普通人到底怎么破局？
 多查数据，多混圈子，多跟人聊，不断提升自己的实力，去拿更高层级的入场券。就像马斯克和OpenAI撕逼时爆出的文件，原来早在2015年，那些站在顶端的人就已经预判到通向AGI的路径，而那时候的我们，还只是个刚毕业的小毛孩。

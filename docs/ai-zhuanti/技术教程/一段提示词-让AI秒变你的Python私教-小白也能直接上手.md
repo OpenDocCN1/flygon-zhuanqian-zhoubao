@@ -2,12 +2,12 @@
 只分享对你有用的东西
 AI老师现在真上线了！
 GitHub上有人分享了一段超强的指令，让大模型能按个人习惯变成可定制风格的超强导师。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bd86796e470fc9e87239b5d1e51cfdd6.png>
+![](img/zhuanqian_bd86796e470fc9e87239b5d1e51cfdd6.png)
 https://raw.githubusercontent.com/JushBJJ/Mr.-Ranedeer-AI-Tutor/main/Mr_Ranedeer.txt
 ## 完全可塑，学习方式你说了算
 这套导师最突出的就是高度个性化。你可以自行设定认知层级、感知偏好、表达形式、语气倾向和推演路径。
 零基础入门？把难度调到小学段就行。讨厌填鸭？切到主动实践模式，模型就会不断丢练习让你边做边学。觉得枯燥？换成苏格拉底式对话，模型只问不答，逼你在追问中自行推演。想更有动力？打开鼓励型语气，模型会持续给出正向反馈，帮你稳住信心。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_109dc2599e726250e7b2d1cd6713ba48.png>
+![](img/zhuanqian_109dc2599e726250e7b2d1cd6713ba48.png)
 深度：
 ["小学（1-6年级）"，"中学（7-9年级）"，"高中（10-12年级）"，"本科"，"研究生（学士学位）"，"硕士"，"博士研究生（博士候选人）"，"博士后"，"博士学位"]
 学习风格：
@@ -49,31 +49,31 @@ https://raw.githubusercontent.com/JushBJJ/Mr.-Ranedeer-AI-Tutor/main/Mr_Ranedeer
 这些推理框架在解决问题、做出推断和推导结论时提供了不同的方法和思维方式。在教学和学习过程中，了解不同的推理框架可以帮助学生培养批判性思维和问题解决能力。
 ## 教学节奏科学，层层递进
 更关键的是，这位AI导师的推进逻辑非常合理。以零基础学Python为例。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3cab48b5c12637c42aa1d0fb49aa9836.png>
+![](img/zhuanqian_3cab48b5c12637c42aa1d0fb49aa9836.png)
 模型会先为你生成一份专属学习蓝图。安排很顺：先介绍Python是什么、能干嘛，再到环境搭建，最后才是变量类型。我当年走的就是这个顺序。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4ec55d997cdc8e44f676bd39fe86a8f5.png>
+![](img/zhuanqian_4ec55d997cdc8e44f676bd39fe86a8f5.png)
 进入具体章节，AI不会直接开讲。它先展示自己的备课思路，让你知道这一课为什么这样排。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f8bcbca3822e12c70ac6f51d4bf62cb2.png>
+![](img/zhuanqian_f8bcbca3822e12c70ac6f51d4bf62cb2.png)
 随后会给出一个极简案例帮助你建立体感，比如用Python做开方运算，并附上可直接运行的代码，让你立刻看到成果。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_73b62b00c7f55693e355f230d06e1fe9.png>
+![](img/zhuanqian_73b62b00c7f55693e355f230d06e1fe9.png)
 之后才展开本节的核心知识点。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_89f739fe02d6be734c5b65ef964dadc2.png>
+![](img/zhuanqian_89f739fe02d6be734c5b65ef964dadc2.png)
 不懂就用/问题指令提问。比如问Python具体能做什么，AI会列出8种真实场景，帮助你建立应用认知。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8c2078d5c0e40de64fa7bcbba51d78a9.png>
+![](img/zhuanqian_8c2078d5c0e40de64fa7bcbba51d78a9.png)
 一章自认OK后，输入/continue即可平滑进入下一章，比如Python环境配置。对新手来说，装环境一直是最大坎。官网全英文、版本众多、下载极慢、环境变量配置复杂，很多人卡上好几天。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_46b6723c9ac1b1e8fb3d8075a709329b.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_33bcc6314b385be70be31f5e6f4ab294.png>
+![](img/zhuanqian_46b6723c9ac1b1e8fb3d8075a709329b.png)
+![](img/zhuanqian_33bcc6314b385be70be31f5e6f4ab294.png)
 AI的引导是手把手的。给出官网链接和推荐版本号。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_47d26c3d5f97cca4751e4bcb41718687.png>
+![](img/zhuanqian_47d26c3d5f97cca4751e4bcb41718687.png)
 明确告诉安装界面要点哪个按钮。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_428fb9d6eac71ff26ef8f1adb284fe44.png>
+![](img/zhuanqian_428fb9d6eac71ff26ef8f1adb284fe44.png)
 特别提醒安装时勾选Add Python to PATH，勾选后环境变量就自动搞定。
 严格按引导走，配置基本一次成功。
 ## 学完立刻检验，闭环学习
 学习不会停在讲解。AI出题前，会先带你快速回顾本章要点。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1267d5b742fe3da5068cafb0b9a38062.png>
+![](img/zhuanqian_1267d5b742fe3da5068cafb0b9a38062.png)
 然后分三档出题：基础题如创建变量并打印，建立信心；进阶题如两个变量相加；挑战题如给四个变量赋值求和并求平均值。难度逐级提升，卡住时随时可提问。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cc1c36bcd401473ae5a0c5780f81d5e2.png>
+![](img/zhuanqian_cc1c36bcd401473ae5a0c5780f81d5e2.png)
 ## 最后一句感慨
 这种体验，比花几万买Python培训课还香。当年如果有这个AI导师，我能少走多少弯路。现在这段提示词复制到GPT里就能用，立刻拥有一个量身定制的超级老师。
 有时候，最吊人胃口的，不是一句惊天动地的话，而是一个没头没尾的开始。
@@ -394,7 +394,7 @@ execute</mention></sep></configuration></version></logo></generate></examples></
 ```。
 接下来要做的，就是接住它，然后，把故事讲下去。
 # 案例 - 数据分析入门学习路径
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3c97d6a4e6fc9f3fe90b266a860f8792.png>
+![](img/zhuanqian_3c97d6a4e6fc9f3fe90b266a860f8792.png)
 ## 课程开启说明
 前提设定：基于高中阶段的学习基础，默认你已掌握：统计学入门概念如均值、中位数、众数；数据分析的基础认知；图表可视化的基本理解；以及必要的数学基础知识。
 沟通标记：📊 用来标注与数据统计相关的内容，💡 用来标注新知识点或思路，🔍 用来标注观察与分析环节，📝 用来标注记录与总结环节。

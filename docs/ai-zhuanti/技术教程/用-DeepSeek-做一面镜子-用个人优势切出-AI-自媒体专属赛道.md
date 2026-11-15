@@ -1,7 +1,7 @@
 # 用 DeepSeek 做一面镜子，用个人优势切出 AI 自媒体专属赛道
 Hello，我叫米斗，品牌商业增长顾问，AI视觉营销设计师，分享能解决实际问题的AI工具/方法！请多多指教~
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e2110645116f973fd0e52fcb805562c4.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_da204084ff7d9814db25d04c9abc1473.png>
+![](img/zhuanqian_e2110645116f973fd0e52fcb805562c4.png)
+![](img/zhuanqian_da204084ff7d9814db25d04c9abc1473.png)
 航海手册开篇就点明定位的关键：此刻 AI 自媒体正处红利期，成败在于选准赛道并做出内容区隔。若一开始把范围摊得太大，或把自己拽向不擅长的方向，后续内容会越做越累，很容易变成“样样会一点、样样都不深”的状态。
 我是怎么借助 DeepSeek 梳理自身长板并完成差异化定位的？下面就把我的思路、实操路径和可复用的提问模板分享出来。文中涉及个人信息，仅供参考。
 # 第一部分：先拆解自己
@@ -136,12 +136,12 @@ Q10: 你小时候被夸过什么？（童年天赋常被忽视，比如“特别
 # 第二部分：落地操作
 ## 如何校准 DeepSeek 来做优势拆解
 1.  去问DeepSeek我需要提供哪些信息
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4fe84b1b034f42e3ca8959d0a9ea3ca8.png>
+![](img/zhuanqian_4fe84b1b034f42e3ca8959d0a9ea3ca8.png)
 1.  我把之前在公众号写的个人成长故事用豆包提取出来，然后把简历和作品集文档也丢给豆包，让AI帮我去提取相关信息，接着把我自己的盖洛普文档丢给DeepSeek，让它去提取信息。这样就形成了关于米斗的个人档案
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b5e17e272f3f43e631401a0d48a12a38.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a31685b04b6447c4f83d38982fe00a9a.png>
+![](img/zhuanqian_b5e17e272f3f43e631401a0d48a12a38.png)
+![](img/zhuanqian_a31685b04b6447c4f83d38982fe00a9a.png)
 1.  "你是从业10年资深个人优势教练，米斗是一个小白，米斗想要根据自己的个人优势去确定他在 AI 自媒体定位和方向，请你根据我提供的信息帮我分析他的核心优势，并且结合AI自媒体赛道，提供一些切实可落地的建议和方法。"
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fed53b8a2d95fbb4eb49a21adf65f9c8.png>
+![](img/zhuanqian_fed53b8a2d95fbb4eb49a21adf65f9c8.png)
 # 第三部分：AI 自媒体策略顾问
 ## 如何让 AI 结合个人优势做定位？
 ### AI提示词1：AI 自媒体策略顾问
@@ -166,7 +166,7 @@ AI 效率提升/办公助手: 提供 AI 驱动的工作流优化方案与生产�
 AI 编程: 解析 AI 辅助编程技术，分享开发框架与实用代码示例
 AI 视频拆解: 深度剖析优质 AI 相关视频，提炼创作思路与内容策略
 DeepSeek输出：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f795d7cc9bc3818de75e09adaf956998.png>
+![](img/zhuanqian_f795d7cc9bc3818de75e09adaf956998.png)
 ### AI提示词2：目标用户与痛点
 "你好，你是AI 自媒体策略顾问，米斗是一个小白，请你根据我提供的信息帮我分析他的AI自媒体定位，并且结合AI自媒体赛道，提供一些切实可落地的建议和方法。"
 目标用户与痛点
@@ -184,16 +184,16 @@ DeepSeek输出：
 5.海报设计师做图仅仅是为了作图而作图。他不会从品牌战略、品牌营销、公司产品、目标和最终达成的结果去思考问题。
 DeepSeek思考：
 米斗的优势在于设计、私域运营和商业转化，结合他的经验和用户痛点，最适合的应该是AI工具分享（尤其是设计工具）、AI效率提升（如何用AI提高设计效率和营销转化）、以及AI+其他行业中的AI+视觉设计。此外，他的私域运营经验可能还可以结合AI创业/副业中的AI代运营服务。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6862ee72dc3f2c5c7bf72b12afcdfd81.png>
+![](img/zhuanqian_6862ee72dc3f2c5c7bf72b12afcdfd81.png)
 DeepSeek输出：
 精准定位公式："帮中小老板用AI工具实现『说人话的设计沟通』+『高转化视觉产出』，解决设计师不懂业务、设计成本高的问题"（聚焦"商业设计AI化"解决方案）
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_738fb771ffa3ca15338ec56c16dad728.png>
+![](img/zhuanqian_738fb771ffa3ca15338ec56c16dad728.png)
 ### AI提示词3：内容呈现形式
 "你作为AI 自媒体策略顾问，根据米斗的核心优势和目标用户痛点，五种常见内容呈现形式出发（口播/讲解、实操演示(视频)、图文、短视频、直播），结合 AI 自媒体的特点，分析米斗适合什么样的形式去做AI自媒体？"
 DeepSeek思考：
 口播适合建立专家形象，但米斗的优势在于实操和案例，口播可能需要较多脚本准备和表现力，可能不如其他形式直观。实操演示能展示他的设计流程和AI工具使用，符合他强项，特别是品牌设计结合AI工具的教学。图文适合深度内容，但用户可能更需要视觉和实用案例，图文可能传播速度较慢。短视频适合快速吸引眼球，展示AI工具的高效，符合他案例中的成果，如提升销售额的数据。直播可以互动，解答问题，但需要时间和持续投入，可能作为辅助形式。
 实操演示和短视频能直接展示他的设计能力和AI工具的效果，符合用户痛点，比如如何用AI降低设计成本，提升转化。短视频可以快速传播案例成果，实操演示则提供详细教学，建立信任。直播可以作为补充，增强互动和变现机会。图文可以作为辅助，发布深度分析或案例研究，但可能不是主要形式。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f11e739eb2e9ddabaf5a8a6ed61c4568.png>
+![](img/zhuanqian_f11e739eb2e9ddabaf5a8a6ed61c4568.png)
 ### AI提示词4：平台的选择
 "做 AI 自媒体刚起步时，平台选择特别重要，你作为 AI 自媒体策略顾问，请根据米斗的核心优势结合 AI 自媒体的特点，分析米斗适合选择什么平台去做AI自媒体？核心重点平台和次重点平台，还有非重点平台，为什么要选择这个平台，请给我选择的理由。"
 视频号：核心调性：熟人社交裂变+公私域联动
@@ -205,12 +205,12 @@ DeepSeek思考：
 根据米斗的情况，他是知识干货型创作者，擅长深度内容和实操演示。主平台应该选择能够展示专业性的，比如B站和公众号，但考虑到目标用户是中小企业主，可能更活跃在小红书和视频号。需要平衡平台调性和用户群体。
 可能的核心平台是小红书，因为其用户中有很多创业者和中小企业主，适合场景化的内容，而且米斗的设计能力可以制作吸引人的封面。视频号作为次重点，结合私域运营，促进裂变。B站适合长视频教程，但用户可能偏年轻，不过可以建立专业口碑。公众号用于深度内容沉淀。抖音/快手作为流量补充，但需要调整内容形式。
 需要验证各个平台的用户画像是否匹配目标群体，比如小红书有很多年轻用户，但也有很多创业者；视频号的中老年用户可能较多，但私域联动强。B站的深度内容可能吸引技术型用户，但中小企业主可能较少。需要综合考虑。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c6f49f7733fe81492ec8a76c30480fbd.png>
+![](img/zhuanqian_c6f49f7733fe81492ec8a76c30480fbd.png)
 DeepSeek提到了需要验证各个平台的用户画像是否匹配目标群体，在这里我多说一句，如果能够明确自己的目标用户，或者已经有用户画像的数据，那么就按照用户画像去匹配目标群体选择平台。
 如果当前还没有办法确定自己主要运营的平台，那么，第一个月可以当做是测试期，把作品在5大平台全部发出去，然后看数据反馈，哪个平台的数据相对更好一点，之后就主要经营数据选择的平台。
 如何去解决在不同平台的作品分发问题？
 推荐一个运营APP：蚁小二（可以免费使用5个账号，每天最多可以发5条作品）
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6339c1f855102ee1fe3f99b2de02f038.png>
+![](img/zhuanqian_6339c1f855102ee1fe3f99b2de02f038.png)
 # 第四部分：总结
 ## 米斗的AI自媒体战略定位升级
 ### 一、赛道定位
@@ -249,5 +249,5 @@ AI效率提升（私域+设计提效闭环）、AI创业/副业（商业案例�
 非重点平台抖音、快手、B站暂不重投入。抖音快手用户偏娱乐，商业内容不稳定且需要高频日更；B站用户年龄错位，制作成本高。公众号不做前端引流，转为承接深度用户的资料库，重点放《AI设计案例年鉴》等增值内容。
 感谢你看到这里，能够看完这个教程已经非常棒啦，给你点赞！！
 Hello，我叫米斗，品牌商业增长顾问，AI视觉营销设计师，分享能解决实际问题的AI工具/方法！请多多指教~
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d4ab14df487b856062faf6624fcbb966.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_95f2f52945aea4b62a1b5d0c757b2de6.png>
+![](img/zhuanqian_d4ab14df487b856062faf6624fcbb966.png)
+![](img/zhuanqian_95f2f52945aea4b62a1b5d0c757b2de6.png)

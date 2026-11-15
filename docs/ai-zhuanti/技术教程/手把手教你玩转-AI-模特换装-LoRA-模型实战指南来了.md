@@ -11,19 +11,19 @@ Hello，各位航海家！我是龙哥，目前专注 AIGC 广告方向，也打
 这个玩法用的是图生图里的局部重绘能力，把原图中的人物和场景彻底换成新对象，无论是换白人、黑人，还是把假人模特变成真人模特都行。关键道具是 Segment Anything 插件，有了它就不用再去 PS 里手动抠蒙版，直接在 SD 里一步到位。
 第 1 步：部署 Segment Anything 插件
 💡GitHub 地址：https://github.com/continue-revolution/sd-webui-segment-anything
-1.1 先把 WEB UI 打开，翻到“扩展”标签页，选择“从网址安装”，把上面的链接贴进 git 网址栏，点“安装”，底部出现安装路径就算完成。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_822cc456ce61407b2acd751234345a7d.png>
-1.2 切回“已安装”页面，能看到 segment-anything 已经列在里面，点“应用并重启”，等它加载完，文生图和图生图的界面里都会多出 Segment Anything 的选项。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e9f63fd54ba36fb34caf0f95800931b6.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6f2ad22b199d148ae317f78b06fd16e8.png>
+1.1 先把 WEB UI 打开，翻到“扩展”标签页，选择“从网址安装”，把上面的链接贴进 git 网址栏，点“安装”，底部出现安装路径就算完成。![](img/zhuanqian_822cc456ce61407b2acd751234345a7d.png)
+1.2 切回“已安装”页面，能看到 segment-anything 已经列在里面，点“应用并重启”，等它加载完，文生图和图生图的界面里都会多出 Segment Anything 的选项。![](img/zhuanqian_e9f63fd54ba36fb34caf0f95800931b6.png)![](img/zhuanqian_6f2ad22b199d148ae317f78b06fd16e8.png)
 1.3 模型按显存选：显存大于 10G 用 vit_h；6～10G 用 vit_l；6G 以下用 vit_b。可以直接点蓝色字体下载，也可以用百度网盘：https://pan.baidu.com/s/1Xqo1LA8ho0R2SN5YIEW18A?pwd=wxbj，提取码 wxbj。
-1.4 把下好的模型放进【盘符\webui 目录\extensions\sd-webui-segment-anything\models\sam】，名字千万别乱改。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7292d12e51f924b385d5f896148248e5.png>
-1.5 再次回到 WEB UI，展开 Segment Anything 插件的小三角，先在模型栏点刷新，再用下拉框选择对应模型；如果只有一个模型，刷新完会自动选中。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9938097bc2ed8d5d590de272d0b70a1d.png>
+1.4 把下好的模型放进【盘符\webui 目录\extensions\sd-webui-segment-anything\models\sam】，名字千万别乱改。![](img/zhuanqian_7292d12e51f924b385d5f896148248e5.png)
+1.5 再次回到 WEB UI，展开 Segment Anything 插件的小三角，先在模型栏点刷新，再用下拉框选择对应模型；如果只有一个模型，刷新完会自动选中。![](img/zhuanqian_9938097bc2ed8d5d590de272d0b70a1d.png)
 第 2 步：分割蒙版
 2.1 把 Segment Anything 折叠面板展开，将需要保留的衣服照片放进图像框。接着在图上操作：左键点选想保留的部位，右键点选不要的部位，然后按下 Preview Segmentation 来生成蒙版。
-💡小技巧：左键打出的黑点表示保留区，右键打出的红点表示排除区；要是某个点放错了，用左键点一下这个点就能撤掉；想一键清空所有点，就按图像下方的【Remove all point prompts】。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d245400ad05896b7a69d936fc9aa21f4.png>
-2.2 生成之后会得到三张分割图、三张蒙版图和三张蒙版预览图。预览图看着压缩过，别担心，点任意一张就能放大查看。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3a3c3a0817ce5d55855da3c6f15a290a.png>
-2.3 放大的画面和原图位置一一对应，方便你判断效果，直接挑一张顺眼的预览。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_89ff9e87fc33fddb8b2bc0dd3abe5aed.png>
-2.4 选定分割效果最好的那张蒙版，在预览界面上右键将图片另存到任意文件夹，再点保存。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4344db528665906eccf9f25914832703.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_db1ed6075f026ed0f04f47e203ac702f.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3a10cc7890a1e66c005b1ed190e09aed.png>
+💡小技巧：左键打出的黑点表示保留区，右键打出的红点表示排除区；要是某个点放错了，用左键点一下这个点就能撤掉；想一键清空所有点，就按图像下方的【Remove all point prompts】。![](img/zhuanqian_d245400ad05896b7a69d936fc9aa21f4.png)
+2.2 生成之后会得到三张分割图、三张蒙版图和三张蒙版预览图。预览图看着压缩过，别担心，点任意一张就能放大查看。![](img/zhuanqian_3a3c3a0817ce5d55855da3c6f15a290a.png)
+2.3 放大的画面和原图位置一一对应，方便你判断效果，直接挑一张顺眼的预览。![](img/zhuanqian_89ff9e87fc33fddb8b2bc0dd3abe5aed.png)
+2.4 选定分割效果最好的那张蒙版，在预览界面上右键将图片另存到任意文件夹，再点保存。![](img/zhuanqian_4344db528665906eccf9f25914832703.png)![](img/zhuanqian_db1ed6075f026ed0f04f47e203ac702f.png)![](img/zhuanqian_3a10cc7890a1e66c005b1ed190e09aed.png)
 第 3 步：调出图参数
-3.1 先想好最终要生成白种人还是黑种人，确认大模型能不能支持。进入图生图，选“局部重绘（上传蒙版）”，把刚才的衣服图和保存好的蒙版分别传到对应位置。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_aa9aed48089727e3840a6d218e67de9c.png>
+3.1 先想好最终要生成白种人还是黑种人，确认大模型能不能支持。进入图生图，选“局部重绘（上传蒙版）”，把刚才的衣服图和保存好的蒙版分别传到对应位置。![](img/zhuanqian_aa9aed48089727e3840a6d218e67de9c.png)
 3.2 各项参数这么填：
 💡缩放模式：拉伸
 蒙版模式：重绘非蒙版内容（因为 Segment Anything 里衣服区域是白色，而黑色才算蒙版；要是选了重绘蒙版内容，反而会改动衣服样式，人物和背景保持不变）
@@ -36,72 +36,72 @@ Hello，各位航海家！我是龙哥，目前专注 AIGC 广告方向，也打
 图片尺寸：跟原图一致或成倍数（低于 768 容易出废图，高于 2000 容易爆显存）
 提示词相关性：7
 重绘幅度：0.75
-随机种子：-1<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5c6690a537e695544b6e1471b5114165.png>
+随机种子：-1![](img/zhuanqian_5c6690a537e695544b6e1471b5114165.png)
 3.3 ControlNet 这边这样配：
 💡1）把图片丢进图片区
 2）勾上“启用”
 3）同时勾选【Pixel Perfect】和【Allow Preview】，显存只有 4～6G 的话再把【低显存优化】也勾上
 4）预处理器选 canny，预处理模型同样选 canny
 5）点预处理器和模型中间的小爆炸图标，能看到线稿预览
-6）别的保持默认<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c7e1edd2127ad2b48ee08494693ddb33.png>
+6）别的保持默认![](img/zhuanqian_c7e1edd2127ad2b48ee08494693ddb33.png)
 第 4 步：写关键词
 4.1 正向提示词：1girl, solo, brown hair, long hair, window, jewelry, couch, indoors, standing, sleeveless, full body, looking at viewer, blue eyes, lips, nail polish, High heels, Wood floor, (Negroid:1.9), UHD
-反向提示词：bw, worst quality, low quality, (deformed, distorted, disfigured:1.3), poorly drawn, bad anatomy, wrong anatomy, extra limb, missing limb, floating limbs, (mutated hands and fingers:1.4), disconnected limbs, mutation, mutated, ugly, disgusting, blurry, amputation, cloned<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5211354861b86f0ae73fff14c80a145e.png>
+反向提示词：bw, worst quality, low quality, (deformed, distorted, disfigured:1.3), poorly drawn, bad anatomy, wrong anatomy, extra limb, missing limb, floating limbs, (mutated hands and fingers:1.4), disconnected limbs, mutation, mutated, ugly, disgusting, blurry, amputation, cloned![](img/zhuanqian_5211354861b86f0ae73fff14c80a145e.png)
 第 5 步：出图
-5.1 按下右侧的生成按钮，稍等片刻。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ba814cbcd4951f52cd3ddc91735a25c4.png>
-5.2 直出效果见下图。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b1982b816a8f16d3448cbf0c27993760.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_92173663b61f45c3a99f7ef166bdb585.png>
+5.1 按下右侧的生成按钮，稍等片刻。![](img/zhuanqian_ba814cbcd4951f52cd3ddc91735a25c4.png)
+5.2 直出效果见下图。![](img/zhuanqian_b1982b816a8f16d3448cbf0c27993760.png)![](img/zhuanqian_92173663b61f45c3a99f7ef166bdb585.png)
 小结：这个思路非常适合给假人模特、帽子、鞋、首饰、床柜这类固定物品换场景。
 二、训练服装 LoRA，标签要写细
 这一部分换个玩法：先给衣服（或者其他物品）训练一个 LoRA 模型，再把这个 LoRA 用起来，让人物穿上我们的衣服。
 第 1 步：装训练工具
 1.1 先下载 lora-scripts：通过网盘链接保存并下载到本地
 💡链接：https://pan.baidu.com/s/1-UYJkiYtAyVZRNfnLzxWQQ?pwd=zksy
-提取码：zksy<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_57c725eb59b4981ec9261e96517d191e.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_dd8c913bc5a34e128c2e93cdba4a850e.png>
-1.2 解压压缩包到本地盘。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0f2f9b61dcc509e5ca13284c95e69239.png>
-1.3 在搜索栏输入【powershell】，右键以管理员身份打开。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_84bc142ee1e07b1c6040ad35a870f119.png>
+提取码：zksy![](img/zhuanqian_57c725eb59b4981ec9261e96517d191e.png)![](img/zhuanqian_dd8c913bc5a34e128c2e93cdba4a850e.png)
+1.2 解压压缩包到本地盘。![](img/zhuanqian_0f2f9b61dcc509e5ca13284c95e69239.png)
+1.3 在搜索栏输入【powershell】，右键以管理员身份打开。![](img/zhuanqian_84bc142ee1e07b1c6040ad35a870f119.png)
 1.4 在 PowerShell 窗口输入下面的命令，回车后再输入【Y】回车：
-💡Set-ExecutionPolicy -ExecutionPolicy RemoteSigned<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0cdb77fc5e76cea3fb4411c23a4d66e1.png>
-1.5 进入【lora-scripts】目录，找到【install-cn】，右键选择“使用 PowerShell 运行”，它会自动把依赖装好，看到安装完成就能关掉了。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2c8e795a33d542bf199d495d1fb90e18.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_541cb8f1985a574cbd7806a3ca67e738.png>
+💡Set-ExecutionPolicy -ExecutionPolicy RemoteSigned![](img/zhuanqian_0cdb77fc5e76cea3fb4411c23a4d66e1.png)
+1.5 进入【lora-scripts】目录，找到【install-cn】，右键选择“使用 PowerShell 运行”，它会自动把依赖装好，看到安装完成就能关掉了。![](img/zhuanqian_2c8e795a33d542bf199d495d1fb90e18.png)![](img/zhuanqian_541cb8f1985a574cbd7806a3ca67e738.png)
 第 2 步：准备训练素材
 想让 LoRA 练出理想效果，素材质量是关键：
 分辨率：越高越好，细节保留越丰富
 数量：50 张是推荐值，最低也要有 10～15 张
 背景：尽量用纯色背景
 角度：以平视为佳，前后侧多角度搭配，避免俯拍
-衣服素材要求：衣服必须完整入镜，同一件衣服拍多个角度，局部特写多给一点；衣服别被手挡住，有条件的话在透明人台上单独拍一组<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6aceecfc8bb7f887a129c739fbe623bb.png>
+衣服素材要求：衣服必须完整入镜，同一件衣服拍多个角度，局部特写多给一点；衣服别被手挡住，有条件的话在透明人台上单独拍一组![](img/zhuanqian_6aceecfc8bb7f887a129c739fbe623bb.png)
 第 3 步：预处理素材
-3.1 新建一个文件夹（用产品拼音命名），里面再建两个子文件夹【in 和 out】，把图片素材全部拷进【in】。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ef2ed572e6bdd4a1ee484707ef0dccaf.png>
+3.1 新建一个文件夹（用产品拼音命名），里面再建两个子文件夹【in 和 out】，把图片素材全部拷进【in】。![](img/zhuanqian_ef2ed572e6bdd4a1ee484707ef0dccaf.png)
 3.2 打开 web ui → 训练 → 图像预处理，填好输入输出路径、图片尺寸，勾选创建镜像、自动裁剪、生成 tags 说明文件，点预处理。
-尺寸按原图比例填：竖图用 768*1024 或 768*512；横图用 768*512 或 1024*768；方形图用 512*512、768*768 或 1024*1024<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_eb596f651d005a54f7e171bc8969e2a5.png>
-3.3 等进度条跑完，【out】里就会出现处理好的图和对应的文本说明文件。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8c4372ee3c286435a58c64dcfbe7f8fb.png>
+尺寸按原图比例填：竖图用 768*1024 或 768*512；横图用 768*512 或 1024*768；方形图用 512*512、768*768 或 1024*1024![](img/zhuanqian_eb596f651d005a54f7e171bc8969e2a5.png)
+3.3 等进度条跑完，【out】里就会出现处理好的图和对应的文本说明文件。![](img/zhuanqian_8c4372ee3c286435a58c64dcfbe7f8fb.png)
 第 4 步：整理标签
 4.1 在【lora-scripts】目录里新建【train】文件夹（只需要第一次建）；train 下面再建一个模型文件夹，名字就是模型名，比如黑色内衣的拼音【heiseneiyi】；模型文件夹里再建训练文件夹【8_heiseneiyi】，命名规则是训练步数_模型名
 💡train 文件夹只需首次创建
 训练步数建议 5～10
-整个路径不要出现中文文件夹<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_dfdfa282c5b256c29fc7cc97c3aaf8b8.png>
-4.2 把【out】里预处理好的图片和 tags 文本一起复制到训练文件夹：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e3867203009435df61fc7c1c94bf08cd.png>
+整个路径不要出现中文文件夹![](img/zhuanqian_dfdfa282c5b256c29fc7cc97c3aaf8b8.png)
+4.2 把【out】里预处理好的图片和 tags 文本一起复制到训练文件夹：![](img/zhuanqian_e3867203009435df61fc7c1c94bf08cd.png)
 4.3 从网盘下载 BooruDatasetTagManager，存到本地
 网盘链接：https://pan.baidu.com/s/1LAmiYYjj8JXALvu6s5VFgg?pwd=tcvw
 提取码：tcvw
-4.4 启动这个程序：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d034b7707574c9b3f640a25794eb16d8.png>
-4.5 在 File 菜单里选第一项 load，指定训练文件夹【8_heiseneiyi】，点选择文件夹：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8b2f2daf46ad82351fc75ce660a03636.png>
-4.6 点右侧的＋号，输入 LoRA 的触发词（用生僻词最保险，拼音是首选），位置选 Top，然后 OK：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_41f063e47d57687149cb49bfb57dd1d7.png>
-4.7 右侧预览框里，把所有跟内衣相关的标签全部清掉（刚才加的触发词除外），按住 ctrl 批量选中，再点右侧的❌删除：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_aaf004c3456aee954e0f2ab505601702.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cbe24efb59aa15236b15758f1fd6598f.png>
-4.8 File 菜单第二项 Save 保存，打开训练文件夹里的 tags 文本，就能看到清理后的标签。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_00c72ad0e8539d3e8857517fe02f76f9.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8cb988bf89f3ec1f47e27e40a7be4a05.png>
+4.4 启动这个程序：![](img/zhuanqian_d034b7707574c9b3f640a25794eb16d8.png)
+4.5 在 File 菜单里选第一项 load，指定训练文件夹【8_heiseneiyi】，点选择文件夹：![](img/zhuanqian_8b2f2daf46ad82351fc75ce660a03636.png)
+4.6 点右侧的＋号，输入 LoRA 的触发词（用生僻词最保险，拼音是首选），位置选 Top，然后 OK：![](img/zhuanqian_41f063e47d57687149cb49bfb57dd1d7.png)
+4.7 右侧预览框里，把所有跟内衣相关的标签全部清掉（刚才加的触发词除外），按住 ctrl 批量选中，再点右侧的❌删除：![](img/zhuanqian_aaf004c3456aee954e0f2ab505601702.png)![](img/zhuanqian_cbe24efb59aa15236b15758f1fd6598f.png)
+4.8 File 菜单第二项 Save 保存，打开训练文件夹里的 tags 文本，就能看到清理后的标签。![](img/zhuanqian_00c72ad0e8539d3e8857517fe02f76f9.png)![](img/zhuanqian_8cb988bf89f3ec1f47e27e40a7be4a05.png)
 第 5 步：设训练参数
-5.1 把常用的底模复制一份到【lora-scripts\sd-models】目录。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0af809b9ad5ba8b7dcee808f9a1ee4fb.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4e6b4de73ea1c0d080045764dd2e911e.png>
-5.2 右键【train.ps1】，用记事本打开。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_14fe916f427fdf047015124537138854.png>
-5.3 将底模的完整文件名填到【。/sd-models/】后面。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e5350a81862bf05b8fd39ba6b87bbf2b.png>
-5.4 把模型文件夹名字填到【。/train/】后面。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fd5275ec44ed73d119f041e4709831e2.png>
+5.1 把常用的底模复制一份到【lora-scripts\sd-models】目录。![](img/zhuanqian_0af809b9ad5ba8b7dcee808f9a1ee4fb.png)![](img/zhuanqian_4e6b4de73ea1c0d080045764dd2e911e.png)
+5.2 右键【train.ps1】，用记事本打开。![](img/zhuanqian_14fe916f427fdf047015124537138854.png)
+5.3 将底模的完整文件名填到【。/sd-models/】后面。![](img/zhuanqian_e5350a81862bf05b8fd39ba6b87bbf2b.png)
+5.4 把模型文件夹名字填到【。/train/】后面。![](img/zhuanqian_fd5275ec44ed73d119f041e4709831e2.png)
 5.5 接着配置图片分辨率、最大训练量、模型名，完成后点左上角文件→保存
 💡batch size（同时训练数）：显存 12G 以上可以调到 2，普通情况 1 就够
 最大训练 epoch：10～20
 network dim 和 network alpha 必须一致，填 32 或 64，默认 32 就好
-模型保存名 output_name：自定义命名，比如 heiseneiyi<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7c6f2650753abf9230ede0218d915520.png>
-5.6 右键【train.ps1】→ 使用 PowerShell 运行，训练就自动开始了，耗时 15 分钟到 4 小时不等，取决于显卡性能：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f905e75b2fa1ecbda839e45869d114d5.png>
-5.7 训练产物在【output】文件夹里，取第一个就行：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f0ca5f1f05d99b8c53e5d0c77b72f2e7.png>
+模型保存名 output_name：自定义命名，比如 heiseneiyi![](img/zhuanqian_7c6f2650753abf9230ede0218d915520.png)
+5.6 右键【train.ps1】→ 使用 PowerShell 运行，训练就自动开始了，耗时 15 分钟到 4 小时不等，取决于显卡性能：![](img/zhuanqian_f905e75b2fa1ecbda839e45869d114d5.png)
+5.7 训练产物在【output】文件夹里，取第一个就行：![](img/zhuanqian_f0ca5f1f05d99b8c53e5d0c77b72f2e7.png)
 第 6 步：用起来
-6.1 进入 WEB UI 的 lora 目录【novelai-webui-aki-v3\extensions\sd-webui-additional-networks\models\lora】，把训练好的 lora 模型复制进去。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a98ddfc60d9ed0874cd7849e3145b00c.png>
+6.1 进入 WEB UI 的 lora 目录【novelai-webui-aki-v3\extensions\sd-webui-additional-networks\models\lora】，把训练好的 lora 模型复制进去。![](img/zhuanqian_a98ddfc60d9ed0874cd7849e3145b00c.png)
 6.2 选好底模，在文生图里写好正反向提示词，参数如下：
 💡正向：heiseneiyi, 1girl, solo, skirt, realistic, long hair, brown hair, jewelry, bracelet, pink shirt, breasts, ring, indoors, black_Bra, black_Underpants, High heels
 反向：easynegative, cross-eyed, ng_deepnegative_v1_75t, badhandv4, By bad artist -neg, disfigured, bad art, deformed, extra limbs, weird colors, blurry, duplicate, morbid, mutilated, extra fingers, mutated hands, poorly drawn hands, poorly drawn face, mutation, ugly, bad anatomy, bad proportions, cloned face, gross proportions, malformed limbs, missing arms, missing legs, extra arms, extra legs, fused fingers, too many fingers, long neck, tiling, poorly drawn feet, mutated, cross-eye, loli, chibi, bad eyes
@@ -113,17 +113,17 @@ network dim 和 network alpha 必须一致，填 32 或 64，默认 32 就好
 放大倍率：2
 图片尺寸：和 ControlNet 上传图一致或成倍数
 提示词相关性：7
-随机种子：-1<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_76777b54fd52dc68f40f23a5d5a3ef98.png>
+随机种子：-1![](img/zhuanqian_76777b54fd52dc68f40f23a5d5a3ef98.png)
 6.3 配置 lora 参数
-勾选启用，选择训练好的 heiseneiyi 模型，权重放在 0.7～1。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fce4b8e6f67c025bd2cc047febdd0cab.png>
+勾选启用，选择训练好的 heiseneiyi 模型，权重放在 0.7～1。![](img/zhuanqian_fce4b8e6f67c025bd2cc047febdd0cab.png)
 6.4 ControlNet 配置
 把想要的姿势图传进 ControlNet，启用、低显存优化、Pixel Perfect、Allow Preview 全部勾上。
 预处理器：depth_leres++
 预处理模型：control_v11p_sd15_depth
 Control Weight：0.8
-其他不动：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_45f299255f8e6c85c96c47a45e98a090.png>
+其他不动：![](img/zhuanqian_45f299255f8e6c85c96c47a45e98a090.png)
 6.5 点生成。
-出图不满意也正常，因为 lora 训练人物数据不足时脸容易崩，按第一部分【图生图】的方法二次修一下就行：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_805fd0e1cc7d35fe9f27dd314ab01c28.png>
+出图不满意也正常，因为 lora 训练人物数据不足时脸容易崩，按第一部分【图生图】的方法二次修一下就行：![](img/zhuanqian_805fd0e1cc7d35fe9f27dd314ab01c28.png)
 小结
 LoRA 训练路线什么物品都能用，只是精度有限。我目前测试下来，像内衣、T 恤、瑜伽裤、背心这类版型简单、材质不复杂的衣服，还原度会更好一些。
 AI 模特换装的内容就先讲到这。大家在实操中遇到问题随时找我讨论，咱们一起把这个方向做成能落地的生意。如果你手上有商家资源或摄影师资源，完全可以去跟他们聊聊，估计对方会非常有兴趣。一组图收 99～199 元不算过分，一天接一组就是 3K～6K 的额外收入，不香吗？冲就完事了，家人们！

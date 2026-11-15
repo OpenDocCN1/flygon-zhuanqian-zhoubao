@@ -27,11 +27,11 @@ https://prompt.noonshot.com/midjourney
 https://weirdwonderfulai.art/resources/disco-diffusion-70-plus-artist-studies/
 https://ai-creator.net/arts
 https://www.prompttool.com/NovelAI
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_66503cabd345b1b1f9b32e51108021f3.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bd02b823c299834b4c9a3c4ba015d183.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fb9c003a1aa4cf3e3c2ab95c71fc476a.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f1e12ecc149273c6324ade7490f89455.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_80580d282cae8dbced6167fc106d35a3.png>
+![](img/zhuanqian_66503cabd345b1b1f9b32e51108021f3.png)
+![](img/zhuanqian_bd02b823c299834b4c9a3c4ba015d183.png)
+![](img/zhuanqian_fb9c003a1aa4cf3e3c2ab95c71fc476a.png)
+![](img/zhuanqian_f1e12ecc149273c6324ade7490f89455.png)
+![](img/zhuanqian_80580d282cae8dbced6167fc106d35a3.png)
 读者回响：
 书情小跟班 : 谢谢分享
 肉の嘟 : 太感谢

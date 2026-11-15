@@ -2,8 +2,8 @@
 # 总览
 大家好，我是As，目前在做全职自媒体。2024年12月起加入YouTube大航海计划，先后摸过猫咪跳舞、治愈向动物两条线。后来被选进YouTube私教陪跑体系，在Gary教练与方波妮教练的带教下转到动物示警方向，取得了阶段性进展。现在已有两个账号成功开通高级YPP，第三个账号数据已达标近期将提交申请，基本完成了陪跑初期立下的目标。下面用自己的历程做个梳理，希望对正在观望或已入场的朋友有些参考。
 到目前为止，已产出两条千万播放作品，并完成高级YPP开通。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3181c9ba3d4e786ee37b2f6474db6218.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ec636f6ebd4e59d6fb6d3eb07a7543c0.png>
+![](img/zhuanqian_3181c9ba3d4e786ee37b2f6474db6218.png)
+![](img/zhuanqian_ec636f6ebd4e59d6fb6d3eb07a7543c0.png)
 YouTube的内容同步分发到国内社交平台做二次利用，粉丝还在增长中：
 | 平台 | 账号创建日期 | 订阅 | 累计播放 | 累计变现 |
 | 视频号 | 2025.1.20 | 4.8w | 1400w | 1400 |
@@ -12,12 +12,12 @@ YouTube的内容同步分发到国内社交平台做二次利用，粉丝还在�
 # 突破路径
 ## 初期受阻
 第一个尝试的是猫咪舞蹈类。刚进入航海时信心很足，制作也快，三分钟左右能出一条。12月航海期基本保持日更一到两条，坚持即胜利。航海结束时粉丝只有600，最高播放1万。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d236a801c3fa176f1719a273a316adee.png>
+![](img/zhuanqian_d236a801c3fa176f1719a273a316adee.png)
 ## 换线再试
 随后开始反思品类是否过于拥挤。在继续做猫咪舞蹈的同时，开辟了AI萌宠线。那段时间国内出现不少爆款案例，我先后做了小浣熊、卡皮巴拉。第3条作品迎来首个万播，1.3万播放，让我重拾信心。坚持大概一个月，曾出现十几万播放，但距离千万级仍有差距。陪跑期间与教练做了一对一复盘后，选择战术性退出，主要原因：
 1. 门槛低、竞争激烈
 2. 这类内容在YouTube的受众盘相对有限
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_36abda265e35c32ba107bdc730a57a84.png>
+![](img/zhuanqian_36abda265e35c32ba107bdc730a57a84.png)
 ## 转向翻盘
 鱼丸推送的私教陪跑消息像一束光线，我马上报名并被录取。陪跑的深度远超航海，我花了一天时间研读手册，学到品类挑选思路、推流周期规律、数据解读方法。准备就绪后，启动会第二天就发布了第一条动物示警的Shorts。
 初期以复刻为主，掌握流程后发现同类作品高度同质化：大多是动物起身拦车、抓引擎盖、跳上车顶。于是开始做微创新，可调节的维度包括：
@@ -68,7 +68,7 @@ Shorts的导流价值
 YouTube Shorts的无限滑动推荐能让爆款快速吸粉，并将流量导入频道主页及长视频，提升整体曝光。平台更偏爱高观看时长的频道，Shorts单条时长短，但能把用户带入长视频，从而提升频道整体时长权重。
 收益最大化逻辑
 Shorts成本低、传播快，适合冷启动与涨粉；长视频广告收益更强。Shorts的核心作用是为长视频蓄水。以我自己的长视频为例，约80%的流量来自相关Shorts，爆款Shorts能显著放大长视频收益。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c1b18e38d2e5c15daa7092b59ef766bf.png>
+![](img/zhuanqian_c1b18e38d2e5c15daa7092b59ef766bf.png)
 # 工具推荐
 1. 收益查询与赛道挖掘
 https://www.viewstats.com/top-list?tab=videos&musicChannels=true&madeForKids=true&movies=true
@@ -85,8 +85,8 @@ https://labs.google/fx/tools/whisk
 8. 可先制作16:9图片，生成视频后剪出9:16的Shorts，基本无违和
 9. 直播时可在聊天区放置视频链接，提升回看
 10. 不要被短期数据裹挟，保持更新，静待时机
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_98d04f026bf50e32f377ebec016a0cf7.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3c411733eda9b988a4b088922cc8c3ce.png>
+![](img/zhuanqian_98d04f026bf50e32f377ebec016a0cf7.png)
+![](img/zhuanqian_3c411733eda9b988a4b088922cc8c3ce.png)
 # 鸣谢
 感谢赚钱提供的平台，感谢Gary教练与方波妮教练的专业指导，感谢@七天老师对文章的建议，也感谢众多圈友的无私分享。私教陪跑提供的赛道判断与实操方法极具价值，原本以为一个月内开通YPP难以实现，达成后才体会到方向比努力重要。感谢当初填写问卷的勇气，也感谢陪跑团队的认可。
 祝大家早日出爆款，早日开通YPP，早日赚美元！

@@ -8,11 +8,11 @@
 我老家在贵州的一个山村，小时候村里没通电，晚上要靠煤油灯。爸妈没上过学，种了一辈子地，对我们的期待很朴素：多认几个字，以后去镇上教书，那是他们能想象到的体面日子。
 我后来上了普通本科，毕业后没去找工作，反而一头扎进创业的坑。借钱、网贷，前前后后投入五十多万做线下门店，最后全亏完了，还欠下二十四万。那段时间真的难，每天都在想怎么填坑。
 实在没办法，只能转线上。从电商做起，也接过传统的内容代工，反正什么能赚钱就干什么。等AI工具大规模出现，我判断这是机会，立刻把重心压了上去。刚开始只有两个人，一路摸索，把大模型用在简历包装、文案代工上，慢慢跑出了效果。现在公司有二十人，去年做到五百万的成绩，八个天猫店在运营，闲鱼、种草社区的流量渠道也都打通了。我们还搭过一个几百人的写手外部协作网，扶持过不少小型创作团队。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bbf08c6dc9423d102c471f2896aab354.png>
+![](img/zhuanqian_bbf08c6dc9423d102c471f2896aab354.png)
 这些成绩绝对值不算高，但能说明一件小事：没有背景、没有资源的人，靠着找对方向和持续执行，也能把日子越过越好。AI这波浪潮，给了很多人重新起跑的机会。
 再说回剧作脚本。我们是从2024年底开始内测这个方向的，当时只想着在既有业务旁边找个补充，没想到越做越觉得有搞头。客户问得越来越多，单笔报价从几十块到几千块都有，更关键的是AI在这里能帮上大忙——出初稿、拆结构、设计反转，样样都省力。
 眼下我们的客户来源主要是两个：一个是闲鱼，一个是淘宝。下面截了几个订单实拍，金额还可以，交付后客户普遍满意，也陆续有人回来复购。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6f7df4e9bcacfa34ef97f44aaa3dcfd0.png>
+![](img/zhuanqian_6f7df4e9bcacfa34ef97f44aaa3dcfd0.png)
 有些圈友问起我进入这个赛道的缘由。其实逻辑很直接：AI能干的内容方向虽然多，但很多品类已经卷成红海。剧作脚本还处在窗口期，懂的人少，能稳定交付的人更少。再加上短片、广告、游戏都在扩张，内容平台愿意为优质故事花钱，需求自然被顶起来了。
 我们在这个方向也是从零起步，之前没有任何剧本功底。一边接单一边学，慢慢整理出一套自己的流程：怎么聊需求、怎么定价、怎么交付、怎么做售后。这条路一点都不神秘，只要肯花时间，同样能复制。
 社区里的实战信息密度很高，我经常泡在里面看别人的交易复盘。建议你也每天留一点时间刷一刷，光看肯定没用，边看边做，进步会非常快。
@@ -37,11 +37,11 @@
 再来说说平台怎么选。
 我的建议分三步推进。先从威客网站和招聘软件上找直发需求，练手为主，目的是熟悉甲方的要求和交付节奏；然后在闲鱼、淘宝，还有拼多多和种草社区这些地方开店或发内容，让客户主动找过来；等作品积累够了，再去投简历、签约，拿长期合作。
 短期阶段，优先接五百元以下的小单。一来竞争没那么激烈，二来试错成本低，做完三五单，你就知道市场真正要的是什么了。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d25e42b47acc61285970f99511fae461.png>
+![](img/zhuanqian_d25e42b47acc61285970f99511fae461.png)
 内容社区的玩法也值得单独说一说。种草平台上搜故事脚本的人比想象中多得多，而且不强求账号有多少粉丝，一篇笔记只要踩中痛点就可能爆。内容方向可以是脚本片段展示、爆款拆解、创作心得、避坑提醒等。闲鱼与淘宝那边，则侧重于上架服务、优化标题和详情页，同样能获得稳定咨询。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7b07691042f3c776bf94b32c1edfa7af.png>
+![](img/zhuanqian_7b07691042f3c776bf94b32c1edfa7af.png)
 如果想让收入更稳定，可以考虑往签约方向发展。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c81c8cbae63fe1408392884dd717d46c.png>
+![](img/zhuanqian_c81c8cbae63fe1408392884dd717d46c.png)
 一线平台门槛偏高，但通过后收入更稳，续约也更有保证；中小平台对新人友好，不过签合同之前要把版权归属、分成比例、独家条款这些细节看清楚，防止踩坑。
 我自己总结的进阶路线是：前一个月先接零散小单攒手感，不要想着一步登天；中间两个月左右集中火力，找到适合自己节奏的平台和品类，做出几个代表作品；再往后就争取签约或者培养老客户，把一次性买卖变成稳定收入。
 接下来回答一个大家都关心的问题：新手怎么赚到第一笔五百块？
@@ -167,7 +167,7 @@ AI交出来的东西只是毛坯房，人工装修一步都不能省。我们重
 # 04｜接单过程中的真实教训：别让辛苦成果变成免费样稿
 做内容服务，本质上是在出售时间、经验和解决问题的能力。因为成稿通常可以被对方直接使用，所以筛选合作对象、确认交付边界、管理修改流程，都不能马虎。
 早期遇到过无偿取稿的客户，也遇到过由于需求变化和沟通不足引发的争议。吃亏并不可怕，关键是把每次损失转化成下一次接单的规则。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_53ddbee611073dac1dd17e1c9bafc831.png>
+![](img/zhuanqian_53ddbee611073dac1dd17e1c9bafc831.png)
 ## 1）两次典型翻车经历
 ### 情况一：需求中途彻底变轨
 对方起初只说“按照你的判断来”，没有提供题材、受众、参考作品和使用场景。连续完成数版之后，对方突然要求把都市故事改成玄幻修炼题材。
@@ -191,24 +191,24 @@ AI交出来的东西只是毛坯房，人工装修一步都不能省。我们重
 - 规定修改仅限表达、细节与局部情节，不包含更换题材、主角关系或整体方向；
 - 通过电子签约工具留存确认记录；
 - 所有新增要求尽量用文字确认，避免只凭聊天语音判断。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ad58cb13c9ea61069305ef84ddb1a11a.png>
+![](img/zhuanqian_ad58cb13c9ea61069305ef84ddb1a11a.png)
 ## 3）常见交付案例
 ### 类型1：课本舞台剧
 报价180元，借助工具完成初稿，再根据演出人数、时长和课堂要求进行简单整理，整体用时不到15分钟。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_adc87aecfa426a8143038c6f03625ddc.png>
+![](img/zhuanqian_adc87aecfa426a8143038c6f03625ddc.png)
 ### 类型2：情境表演稿
 一份约10分钟的校园情境稿，收费200元。交稿后客户反馈良好，说明需求越具体，越容易快速完成。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_253c5c98c8aff39db604f5fb4224924a.png>
+![](img/zhuanqian_253c5c98c8aff39db604f5fb4224924a.png)
 ### 类型3：双人或多人对白
 以现成结构为基础生成对话，再做语气和人物区分，制作时间控制在15分钟以内，报价50元。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_418a3061b5e42eb42d3d66e92313263f.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c92a478ac8797d595f293ff2b65ea38e.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e69277bc8cf0377b78860f4a0e3bb5d3.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e7eede46eb6b7dd06b887a00adcf712d.png>
+![](img/zhuanqian_418a3061b5e42eb42d3d66e92313263f.png)
+![](img/zhuanqian_c92a478ac8797d595f293ff2b65ea38e.png)
+![](img/zhuanqian_e69277bc8cf0377b78860f4a0e3bb5d3.png)
+![](img/zhuanqian_e7eede46eb6b7dd06b887a00adcf712d.png)
 ### 类型4：企业活动演出稿
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_07e95d5b1798a00ce7899f1aa730944e.png>
+![](img/zhuanqian_07e95d5b1798a00ce7899f1aa730944e.png)
 ### 类型5：短视频内容脚本
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a341a824759e786db8edede4ffd9d49e.png>
+![](img/zhuanqian_a341a824759e786db8edede4ffd9d49e.png)
 ## 4）从创作到交付，几个容易忽视的原则
 我参与拍摄过二十多条信息流内容，最大的感受是：短剧不是把故事讲完就结束，而是要持续推动观众的情绪。冲突要尽快出现，反馈要足够明确，台词要能马上被演出来。
 ### ①先确认这份稿子给谁使用

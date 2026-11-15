@@ -68,17 +68,17 @@ Prompt如下：
 ```
 ③ 油猴里导入代码
 a、打开管理面板
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_357680a5d66e3a941388ea2b57038d66.png>
+![](img/zhuanqian_357680a5d66e3a941388ea2b57038d66.png)
 b、点击加号新建脚本
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7c67d38bb4861bfa5c10e7ce83697e95.png>
+![](img/zhuanqian_7c67d38bb4861bfa5c10e7ce83697e95.png)
 c、把 GPT 生成的代码粘贴覆盖，点击文件菜单保存
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f21463d71c9cb2b158a958f8cc2064cb.png>
+![](img/zhuanqian_f21463d71c9cb2b158a958f8cc2064cb.png)
 ### ④ 测试采集器
 基本不会出问题，偶尔 GPT 会抽风跑不出数据。这时打开浏览器开发者工具，点击元素，再点左上角的选取箭头，手动点选网页元素，逐步喂给 GPT 调整。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_04f39fa9f1296222806c2ba6d8f30c58.png>
+![](img/zhuanqian_04f39fa9f1296222806c2ba6d8f30c58.png)
 实在搞不定也可以联系我，我直接把成品代码发你。
 调优美化后的完整采集器长这样，名字有点中二
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_84023ae5bcb520b1617cc65f985bb348.png>
+![](img/zhuanqian_84023ae5bcb520b1617cc65f985bb348.png)
 点一下复制，粘贴到 Excel 就能直接看数据了。
 ## 2、爆款视频分镜裁切
 mac 上现成好用的工具比 Windows 少，苦逼的 mac 用户很多事只能自己来。好在代码不复杂，今天也免费分享。

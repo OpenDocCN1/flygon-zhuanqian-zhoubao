@@ -6,7 +6,7 @@
 版权说明：本篇文章已用于图书出版等其他商业领域，严禁用于任何商业目的使用。
 温馨提醒：本篇点赞超过 100，下周五作者将上线第 2 个行业的变现宝典。
 特别说明：前面提到的 9 条变现思路均由 chatGPT 归纳总结。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_96ad58d29c9ba2dc8be8c5e83f1c8cd3.png>
+![](img/zhuanqian_96ad58d29c9ba2dc8be8c5e83f1c8cd3.png)
 内容篇幅较长近万字，完整版请移步飞书学习：
 [https://duuxkmjwsy.feishu.cn/docx/DqtOdhActosisfxK60FcJZP0nvc?from=from_copylink](https://duuxkmjwsy.feishu.cn/docx/DqtOdhActosisfxK60FcJZP0nvc?from=from_copylink)
 # 一、变现方向
@@ -62,4 +62,4 @@
 总的来说，做摄影教学的付费转化，需要清晰的定位、扎实的内容、合理的定价和有效的分发推广。
 评论区：
 暂无评论
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_894d30a529e7c37bcd3392323c99941c.png>
+![](img/zhuanqian_894d30a529e7c37bcd3392323c99941c.png)

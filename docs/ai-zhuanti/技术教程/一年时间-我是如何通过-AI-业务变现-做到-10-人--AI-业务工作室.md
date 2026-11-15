@@ -3,7 +3,7 @@
 各位好，我是龙哥。
 过去十二个月，我从一名普通的职场人，走到现在带领十来人 AI 业务团队的状态。现在工作室月流水稳定在二十万上下，小红书曾冲上主题热榜首位，闲鱼上若干链接的加购意愿已过万。回头看，过去一年前我只是在公司打卡的普通人，2025 年才真正把身家押在 AI 变现这条路上。
 今天把这一年的实操路径和团队搭建经历摊开讲。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_592065df89b6da02c30467f1f4146beb_0_0.png>
+![](img/zhuanqian_592065df89b6da02c30467f1f4146beb_0_0.png)
 ## 为什么 2025 年我会入局 AI 写作
 团队做的并非只有写作，而是当前需求旺盛的 AI 业务线。业务本质相通，下面以写作为例拆解底层逻辑。
 第一，我看的是复利，而不是短期现金流。能赚钱的项目很多，但多数是重复劳动，干三年和干一年没本质差异，每单都从零开始。能长期投的项目，必须有越做越厚的东西在沉淀：私域存量、个人 IP、客户关系、品牌资产。代写客户沉到私域后复购意愿强，且可延展到电商、求职、职场关系等品类。所以做事前我会自问：若闷头干三年，什么都不想新点子，仅靠执行，是否会让自己越来越难被替代？若不会，那只是生意，适合赚一笔撤离。
@@ -15,7 +15,7 @@
 - AI 如何在流量、转化、交付三端降本提效
 - 从个人到工作室的组建经验
 去年期末季，一个研一学生找我们做一篇两万字的实证作业，要求跑数、做回归、出图，报价 400 元。我们一位大专文科背景的同事，用 Claude 花了五小时交付，顺利通过。三年前办这事，得找研究生耗一周，收费至少一千。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_592065df89b6da02c30467f1f4146beb_4_0.png>
+![](img/zhuanqian_592065df89b6da02c30467f1f4146beb_4_0.png)
 **AI 变现底层公式**
 [AI 工具] × [业务场景] + [成果交付] = [商业价值]
 工具是引擎，场景是真实痛点，交付是加工增值。工具人人可得，场景遍地都是，真正能收钱的是中间的加工环节。同样面对人工智能，有人白嫖帮忙，有人收几千，差就差在加工。
@@ -29,14 +29,14 @@
 第五层，交付解决方案。高客单价的系统闭环。
 横轴是杠杆，纵轴是天花板，越往上越脱离时间交易。
 几个可直接上手且全年有需求的例子：PPT 制作，毕业答辩与年中年终汇报需求大；诉状书尤其是离婚诉状书，需求稳定；抄写类作业与思想汇报，复购率高，旺季寒暑假，客单价小几百，月入过万可行，需注意平台禁词。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_592065df89b6da02c30467f1f4146beb_7_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_592065df89b6da02c30467f1f4146beb_7_1.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_592065df89b6da02c30467f1f4146beb_7_2.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_592065df89b6da02c30467f1f4146beb_7_3.png>
+![](img/zhuanqian_592065df89b6da02c30467f1f4146beb_7_0.png)
+![](img/zhuanqian_592065df89b6da02c30467f1f4146beb_7_1.png)
+![](img/zhuanqian_592065df89b6da02c30467f1f4146beb_7_2.png)
+![](img/zhuanqian_592065df89b6da02c30467f1f4146beb_7_3.png)
 谈单与后端资源搭建
 谈单先立价格体系，建立信任与成交效率，再补专业知识提升沟通质感。后端可按类型找人：电子版内容写手首选小红书、BOSS；手写抄写类可去大学生互助群、校园墙招募，效率高。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_592065df89b6da02c30467f1f4146beb_8_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_592065df89b6da02c30467f1f4146beb_8_1.png>
+![](img/zhuanqian_592065df89b6da02c30467f1f4146beb_8_0.png)
+![](img/zhuanqian_592065df89b6da02c30467f1f4146beb_8_1.png)
 商业起点：出卖时间还是搭建资产？
 卖服务启动快零成本，当天学第二天可接单。但收入天花板被个人工时锁死。卖产品是造资产，做一次可无限次售卖，睡觉也在卖。门槛在于需求挖掘与转化能力。
 先用服务活下来，再用产品放大。不要一上来就憋大招，也别永远用时间换钱。
@@ -46,7 +46,7 @@
 **商业操作系统：五大核心能力**
 需求洞察、产品包装、交付能力、传播推广、持续迭代。五齿轮循环运转，越转越顺。
 整体蓝图：横向五大能力矩阵，纵向五阶阶梯，底层五大核心能力。从一个点切入站稳台阶，再补齐齿轮，即 0 到 1 路线。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_592065df89b6da02c30467f1f4146beb_12_0.png>
+![](img/zhuanqian_592065df89b6da02c30467f1f4146beb_12_0.png)
 ### 为什么现在仍是窗口期：三个亲眼看到的信号
 信号一，同行洗牌。平台规则变动，论文类目受限，行业重新洗牌，普通人有机会在动荡中上位。
 信号二，客户认知反转。2024-2025 年客户会问“是否 AI 写”，需要解释。2026 年已有约三成客户直接要求“可用 AI 但不可明显”。从排斥到接受再到期待，是规模化的前提。现在可公开讲“AI+人工双重把关”。
@@ -56,8 +56,8 @@
 ### 模块二：AI 如何帮助业务降本提效
 AI 重塑的是完整生意三环节：流量、转化、交付。
 流量端：需采集同行或异业爆款的时序数据，感知行情，横向做头部品类，纵向打细分赛道。采集方式为抓取链接投进插件，分时段看数据。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_592065df89b6da02c30467f1f4146beb_14_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_592065df89b6da02c30467f1f4146beb_14_1.png>
+![](img/zhuanqian_592065df89b6da02c30467f1f4146beb_14_0.png)
+![](img/zhuanqian_592065df89b6da02c30467f1f4146beb_14_1.png)
 转化端：最大误区是把客服当答疑。客服是销售，转化率 20% 提到 40% 等于流量翻倍。
 团队在转化端的用法：
 1. 用对工具保价格优势。CC Pro Max，800 元成本带来 2W+ 回报。
@@ -72,14 +72,14 @@ AI 重塑的是完整生意三环节：流量、转化、交付。
 下面是我验证过的几个落地场景——
 【案例一】AI 做图
 客户预算 100 元，要两份图文小报，A4/A3，具体要求图文结合。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_592065df89b6da02c30467f1f4146beb_15_0.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_592065df89b6da02c30467f1f4146beb_15_1.png>
+![](img/zhuanqian_592065df89b6da02c30467f1f4146beb_15_0.png)![](img/zhuanqian_592065df89b6da02c30467f1f4146beb_15_1.png)
 内容怎么产出？靠 Skill 触发生成。
 呈现效果在我的打法里属于常规操作。
 【案例二】AI 做思维导图
 客户出价 100 元，根据指定英语课文出一张导图。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_592065df89b6da02c30467f1f4146beb_18_0.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_592065df89b6da02c30467f1f4146beb_18_1.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_592065df89b6da02c30467f1f4146beb_18_2.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_592065df89b6da02c30467f1f4146beb_18_3.png>
+![](img/zhuanqian_592065df89b6da02c30467f1f4146beb_18_0.png)![](img/zhuanqian_592065df89b6da02c30467f1f4146beb_18_1.png)![](img/zhuanqian_592065df89b6da02c30467f1f4146beb_18_2.png)![](img/zhuanqian_592065df89b6da02c30467f1f4146beb_18_3.png)
 生成路径同样是 Skill 驱动。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_592065df89b6da02c30467f1f4146beb_20_0.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_592065df89b6da02c30467f1f4146beb_20_1.png>
+![](img/zhuanqian_592065df89b6da02c30467f1f4146beb_20_0.png)![](img/zhuanqian_592065df89b6da02c30467f1f4146beb_20_1.png)
 【案例三：一个标品订单的成本拆解】
 品类：本科结课论文，1.5 万字，含实证分析。
 客单价 1500 元。
@@ -90,7 +90,7 @@ AI 重塑的是完整生意三环节：流量、转化、交付。
 生意 = 流量 × 转化 × 利润率 × 复购。
 绝大多数人死磕流量，喊着要爆款要上热，客服转化只有 15%，毛利 30%，复购几乎为零。流量越大，漏斗越漏。
 AI 的价值在于，它能让你把四个环节同时提到 80 分以上。过去单兵作战做不到，必须招会制图的、会聊单的、会算账的，现在单兵就能把四块兜住。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_592065df89b6da02c30467f1f4146beb_21_0.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_592065df89b6da02c30467f1f4146beb_21_1.png>
+![](img/zhuanqian_592065df89b6da02c30467f1f4146beb_21_0.png)![](img/zhuanqian_592065df89b6da02c30467f1f4146beb_21_1.png)
 #### 模块三：从个体到工作室的实战路径
 ##### 3.1 工作室升级三阶段
 阶段 1：独自作业。自己扛流量、销售、交付。

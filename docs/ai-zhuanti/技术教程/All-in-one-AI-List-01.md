@@ -1,7 +1,7 @@
 # All in one AI List 01
 ## 重点产品分析 Top 5 by Traffic
 ### Monica.im
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_dc0282804aa75e8eefb8bb184e205923.png>
+![](img/zhuanqian_dc0282804aa75e8eefb8bb184e205923.png)
 *   产品名称: Monica
 *   产品官方网站链接: https://monica.im/
 *   其他相关链接: Chrome Web Store、Edge Add-ons 等浏览器插件商店均有入口。
@@ -30,7 +30,7 @@
 *   口碑裂变: 体验顺畅后带来自然传播。
 *   12.7M 的月访问量显示其在插件商店表现突出，并拥有较强的 SEO 与增长飞轮。
 #### 💰 商业模式与收入
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_17d32d2671e3d3a03b8b8c3de1faa749.png>
+![](img/zhuanqian_17d32d2671e3d3a03b8b8c3de1faa749.png)
 *   商业模式: Freemium 免费增值。提供基础免费版，限次数与功能；付费订阅解锁更高用量、高级模型、更快的响应与优先支持，通常分多档。
 *   收入粗估:
 *   假设月访问量 12.7M，有效 UV 约 12.7M/2。付费转化率按 1% 计，ARPU 按 $10/月估算。
@@ -57,8 +57,8 @@
 #### 🎉 可行性评估
 *   资源需求: 全栈工程师、熟悉多模型 API 的 AI 工程师、优秀 UX/UI 设计师、浏览器插件开发经验、市场推广资源、启动资金覆盖 API 调用与服务器成本。
 ### Sider.ai
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a61a84df2952bac0335c79cd12f7b1aa.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_04225aef312267f99bfb29cc619c274f.png>
+![](img/zhuanqian_a61a84df2952bac0335c79cd12f7b1aa.png)
+![](img/zhuanqian_04225aef312267f99bfb29cc619c274f.png)
 *   产品名称: Sider
 *   产品官方网站链接: https://sider.ai/
 *   其他相关链接: 主流浏览器插件商店均有上架。
@@ -95,8 +95,8 @@
 #### 🚀 差异化创新机会
 *   强化代码辅助、更丰富多模态支持、开放插件与集成生态。
 ### YesChat.ai
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e3ad0f7e6d510f844b846f24ad4f65a5.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_354e1f749171cf517818aa0ffad47858.png>
+![](img/zhuanqian_e3ad0f7e6d510f844b846f24ad4f65a5.png)
+![](img/zhuanqian_354e1f749171cf517818aa0ffad47858.png)
 *   产品名称: YesChat.ai
 *   产品官方网站链接: https://yeschat.ai/
 #### 💡 产品价值
@@ -144,8 +144,8 @@
 *   教育配套: 加入模型能力、局限与最佳实践说明。
 *   工具集成: 将多模型访问嵌入生产力工具。
 ### Hix.ai
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4e30ac8b74dd3dbd77be8f6ce0779857.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_929b5a6f10046cb409ae5f6e6765829c.png>
+![](img/zhuanqian_4e30ac8b74dd3dbd77be8f6ce0779857.png)
+![](img/zhuanqian_929b5a6f10046cb409ae5f6e6765829c.png)
 *   产品名称: HIX.AI
 *   产品官方网站链接: https://hix.ai/
 #### 💡 产品价值：这个 SaaS 产品解决了什么核心问题？
@@ -157,7 +157,7 @@ HIX.AI不是那种只陪你聊天的机器人。它的定位是一站式内容�
 说到获客，HIX.AI把SEO做得很猛。围绕“AI writer”“content generator”这类词，铺了大量工具页；再加上内容营销、联盟合作、付费广告和浏览器插件，形成了一个挺完整的流量入口组合。赚钱方式则是标准的Freemium：先给你一点免费额度，想用更多、更高级的模板，就按月或年付费订阅，套餐按功能、字数和模板等级划分。如果大概估一下：每月约330万访问量，付一半有效用户，1.5%转化率，客单价15美元，那月度经常性收入可能达到37万美元——只是一个粗略算法，当个参考就好。
 可以学什么？第一，把AI能力工具化、场景化，用户不需要懂Prompt也能用；第二，SEO驱动增长，网站结构就是为了获客设计的；第三，产品矩阵思维，不只是写作，还有AI检测、聊天之类的附加功能。但难点也很大：上百种模板需要持续开发和优化，这是重活；SEO做到那个流量高度不容易；生成速度和内容质量之间的平衡更是长期挑战。
 如果用一句话推销它：“HIX.AI是你的全能AI写作搭档，120+精准工具，让你几秒钟就搞定博客、广告、邮件和社媒内容。”要是做同类产品，差异化方向可以试试：品牌声音定制，让文风更贴合某个品牌；集成事实核查，给生成内容配上可靠来源；加协作功能，方便团队一起编辑审阅；或者干脆做垂直行业模型，比如金融、法律、医疗领域；再就是将工作流跟WordPress、社媒管理工具深度打通。
-### <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4ff5addb075837f361d411f66ea395c4.png>Merlin：把AI塞进浏览器的每个角落
+### ![](img/zhuanqian_4ff5addb075837f361d411f66ea395c4.png)Merlin：把AI塞进浏览器的每个角落
 Merlin是一款浏览器AI助手插件，跟市面上一批同类插件长得挺像。它的价值很直白：让你在浏览网页的任何时候，都能呼出AI来聊天、总结、写文案、回邮件，不用再跳来跳去地切工具，生产力自然就上来了。
 它的目标用户非常宽泛——只要用浏览器、想顺手用AI的人，几乎都是潜在用户。评价方面，优点是方便、功能集成度高、效率提升明显，YouTube摘要这个功能尤其讨喜；缺点则是免费额度限制太严、订阅定价偏高、偶尔不稳定、跟其它插件区分度不大，还有人担心隐私。
 获客主要靠浏览器插件商店，尤其是Chrome Web Store，然后配合SEO、内容营销和口碑。虽然用的是.in域名，但那不代表它只做印度市场，实际上已经全球铺开了，每月差不多320万访问量。商业模式也是Freemium，免费版加多个付费等级。按类似离谱估算：320万访问量，一半有效，1%转化率，客单价15美元，月收入大概是24万美元。

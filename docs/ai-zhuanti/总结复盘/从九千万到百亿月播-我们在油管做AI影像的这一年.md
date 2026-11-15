@@ -1,6 +1,6 @@
 # 从九千万到百亿月播：我们在油管做AI影像的这一年
 SC精华·260323 | 本文首发于懒人搜索内部社群
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f9a1ff38208d03f0de513a1c0151bd32_0_0.png>
+![](img/zhuanqian_f9a1ff38208d03f0de513a1c0151bd32_0_0.png)
 各位好，我是Gary，和波妮共同负责龙哥盟旗下“深海圈”（YouTube方向）的带教，之前也做过五期赚钱航海活动的主理教练。
 转眼间，这个圈子已经运转了一年多。去年三月深海圈正式成立，到如今恰好满一周年，也该交一份年度盘点了。这篇文章会带大家回顾这一年里AI影像创作经历的起落，也回答几个高频问题：一年过去，圈友们的钱包鼓了多少？现在大家整体做到什么程度？这么多人涌进来，这个平台是不是已经卷成红海？最近总听人说同质化、限流越来越严重，用AI做内容还值得吗？到了2026年，油管还有哪些窗口？AI影像的下一个新机会藏在哪？深海圈下一步又会押注什么？
 当然，比回答更重要的是总结。我们希望把过去十二个月的经验梳理成可复用的东西，也为接下来一年重新校准方向，给已经在做、或者正打算入局油管和AI创作的伙伴一份更完整的参考，也给一直在坚持的圈友一点心气和思路上的补给。
@@ -12,7 +12,7 @@ SC精华·260323 | 本文首发于懒人搜索内部社群
 - 圈友的作品多次挺进ViewStats的Shorts月度榜、周度榜前十，还反复登顶油管泛娱乐类热门搜索词；
 - 带货GMV超过200万美元，平台侧带来的直接变现超过100万美元；
 - 在赚钱平台累计发布近100篇油管相关精华文章，其中有4篇被评为超级术。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f9a1ff38208d03f0de513a1c0151bd32_2_0.png>
+![](img/zhuanqian_f9a1ff38208d03f0de513a1c0151bd32_2_0.png)
 来看个人收益侧的TOP20榜单（金额为美元，括号内为人民币）：
 第一名：鬼哥（编号137230），收入6.0万刀，折合人民币约41.8万；
 第二名并列：Zero（80974）和Ace（153832），各5.0万刀，约34.8万；
@@ -39,23 +39,23 @@ Agnes（帖内自称六七）于2月9日发布精华帖，讲的是“原创IP�
 波哥在1月9日分享了自己的长片爆款过程：5月开始做长片，作品从8月中旬上线到12月底跑完，四个多月达成1000万播放，中间迭代了9次。
 再把时间拨回一年前：当时私教陪跑项目回收了75份有效问卷，涉及138个频道，初级YPP 4个、高级YPP 3个，累计订阅约30.7万，总播放量9010万，人均播放约120万。
 AI短内容方向上，四水年华专门做语言类AI Shorts，单个频道月收入已超过2万美元。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f9a1ff38208d03f0de513a1c0151bd32_5_0.png>
+![](img/zhuanqian_f9a1ff38208d03f0de513a1c0151bd32_5_0.png)
 他写过一篇《月入5000美金！AI语言类Shorts实战复盘》，链接如下：
 https://scys.com/articleDetail/xq_topic/22811822251121221
 Tugo曾用两个月跑出2亿播放，并在精华帖里还原了自己如何搭建工作流、做复盘拆解。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f9a1ff38208d03f0de513a1c0151bd32_5_1.png>
+![](img/zhuanqian_f9a1ff38208d03f0de513a1c0151bd32_5_1.png)
 链接：
 https://scys.com/articleDetail/xq_topic/45811845844822418
 长片方向同样有标杆。深海圈教练波哥的单支AI长片已破千万播放，收益接近6000美元。
 ### 精华帖：1年9次迭代：油管长片终破1000万播放
 https://scys.com/articleDetail/xq_topic/82811258484841252
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f9a1ff38208d03f0de513a1c0151bd32_6_0.png>
+![](img/zhuanqian_f9a1ff38208d03f0de513a1c0151bd32_6_0.png)
 怅惘教练的路线是弱画面长片矩阵，单频道每月入账2500美元。他的精华帖专门讲了怎样让零基础的人用AI轻松复制一个油管频道。
 https://scys.com/articleDetail/xq_topic/8852445442481842
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f9a1ff38208d03f0de513a1c0151bd32_6_1.png>
+![](img/zhuanqian_f9a1ff38208d03f0de513a1c0151bd32_6_1.png)
 运气选手走得远也来自深海圈，他的一条AI长片已有220万播放、4000美元收益。
 精华帖：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f9a1ff38208d03f0de513a1c0151bd32_6_2.png>
+![](img/zhuanqian_f9a1ff38208d03f0de513a1c0151bd32_6_2.png)
 带货组同样有亮点：四水年华单月GMV达到19.3万美元，佣金4429美元，另有活动激励1400美元。
 ![](bbox=[60, 129, 845, 289])
 张九月单月GMV为5万美元，佣金超过800美元。
@@ -67,13 +67,13 @@ https://scys.com/articleDetail/xq_topic/8852445442481842
 上面这些成绩看着光鲜，但这一路我们踩中的机会和吃过的苦头，远比外人看到的要多。报完喜，我想带着大家重新走一遍过去十二个月的起承转合。
 ### 2025年1月：窗口初开，用直播批量解锁YPP
 春节假期，我和波妮在一次偶然测试中，跑通了直播的低成本玩法，发现它能以极低门槛把账号批量推进YPP。我们马上把SOP整理出来，发给当时参与私教陪跑的圈友。从1月中旬到2月底，104位参与者一共开出了107个YPP。除去那段时间最稳的达人秀、动物示警等赛道，直播贡献了很大一部分。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f9a1ff38208d03f0de513a1c0151bd32_8_0.png>
+![](img/zhuanqian_f9a1ff38208d03f0de513a1c0151bd32_8_0.png)
 ### 3月：深海圈启航，从“有YPP”到“有收益”的阵痛期
 3月，不少账号虽然拿到了YPP，但因为走的是捷径，普遍还缺乏制造爆款的能力，流量上不来，收益自然少得可怜。深海圈就在这个节点艰难起步，几乎每条路都要靠试错摸出来。所以整个3月，我们一面继续验证YPP量产方法论，一面在Shorts和长片里探索新可能，总算找到几条新赛道。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f9a1ff38208d03f0de513a1c0151bd32_9_0.png>
+![](img/zhuanqian_f9a1ff38208d03f0de513a1c0151bd32_9_0.png)
 ### 4月：救援类内容爆红，第二次风口到来
 4月，一条救援类短视频冲上2.5亿播放，单支收益1850美元，整个圈子都为之沸腾。大家开始把重心压到短视频，试图整理出一套能跨类目复用的爆款公式。哪些方向可行、哪些方向是坑，也在这段时间慢慢显出轮廓。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f9a1ff38208d03f0de513a1c0151bd32_10_0.png>
+![](img/zhuanqian_f9a1ff38208d03f0de513a1c0151bd32_10_0.png)
 同时，4月也是圈友四处开疆拓土的月份。四周四场直播分别聚焦Shorts爆款方法、AI短剧、AI个人IP、虚拟形象。到月底再看问卷数据，大家的总播放量已经比1月大幅跃升，可全部收益加起来只有3万多美元——放在今天，连一个语言类单频道的月收入都比不上。回首那一刻，真的很不容易。
 这里也把4月直播信息补充如下：
 - 4月11日：把爆款元素重新组合，连续做出千万级作品；另外还讲了平台申诉攻略和AI工具推广。嘉宾：Gary曹淦、方波妮、ISland。回放：https://meeting.tencent.com/cw/KPGEMO7W3b
@@ -83,7 +83,7 @@ https://scys.com/articleDetail/xq_topic/8852445442481842
 另外，深海圈在5月初做过一次成员数据盘点。基于116份有效问卷，截至5月3日：全体成员共运营777个频道，人均6.7个；其中204个频道已开通YPP，人均1.8个；开通YPP的成员占65.5%（76人）；总订阅量超523.9万，人均4.5万；总播放量超22.9亿，人均1977.3万；已开通YPP的76位成员合计收益33,242美元。
 ### 5月：美国山海经、鱿鱼游戏与真人演绎；油管第一次大清洗
 5月信息量极大。一边，我们借着《美国山海经》的热度，把真人演绎融入AI内容，做出一套几乎无法被同行逆向拆解的玩法。这套组合对纯生成式影像堪称碾压，爆款开始批量复制。深海圈里，谷梓超等圈友用“鱿鱼游戏+真人演绎”的打法，三个月就吸引了10亿流量。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f9a1ff38208d03f0de513a1c0151bd32_12_0.png>
+![](img/zhuanqian_f9a1ff38208d03f0de513a1c0151bd32_12_0.png)
 另一边，AI工具的进化也让自动化生产越来越成熟。每周二固定的“风向标”慢慢常态化了，好几个爆款IP都被提前押中；新人营机制也落地开营，百万级长片在这个月实现了突破。
 5月两场直播的信息：
 - 5月8日：《高精度模仿，打造你的第一个百万爆款长片》（达人秀惨故事第一季）。嘉宾：教练酷拉皮卡、教练运气选手走得远。回放：https://meeting.tencent.com/cw/2VRo3k7Oac
@@ -93,31 +93,31 @@ https://scys.com/articleDetail/xq_topic/8852445442481842
 3月的时候，用AI做海外视频这个概念开始升温。真正的爆发出现在4月——那时我们内部刚发完两期选题建议，瞬间点燃了大家的热情，“幼儿播客”和“根据华夏神话改编的本土化作品”成了讨论度最高的话题。从4月的调研来看，已经开通YouTube变现功能的成员，平均月收入为332美元。当然，没人料到这才刚刚开始。
 热闹背后，第一记重拳落下。平台对涉及儿童的危险内容突然加强了审核，许多靠“小孩遇险获救”这类题材起来的账号，一夜之间被撤销了变现资格。老实说，这些号不算冤——官方条款里关于儿童内容的规定写得明明白白。从那时起，我们社群把规则意识提到了最高位置，并在指导文件的第一页列出所有禁区。
 5月，新的机会出现。图因教练带来了一个虚拟偶像案例，讲的是怎么把一个名为“魔法少女”的角色从零运营起来，最终收获首笔1000美元。这个领域的壁垒不是技术，而是创意与人设。到了5月底的问卷，每个人的平均收入已经达到500美元，大家的信心明显上升。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f9a1ff38208d03f0de513a1c0151bd32_12_1.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f9a1ff38208d03f0de513a1c0151bd32_13_0.png>
+![](img/zhuanqian_f9a1ff38208d03f0de513a1c0151bd32_12_1.png)
+![](img/zhuanqian_f9a1ff38208d03f0de513a1c0151bd32_13_0.png)
 6月，我们开始把线上关系搬到现实。在北京和深圳分别办了一场见面会，反响大大超出预期——几乎每次结束，都有成员跑来报喜，说自己的视频火了。如今，这类活动已经办了几十场。6月的调研也很亮眼：个人平均收入达到800美元，几十个人的总观看次数突破1亿。但同一时间，紧接着又一轮整治到来——才艺选秀类内容面临版权风暴。内容所有者一改往日的温和，全面禁止评委原片，很多早期账号收到侵权警告。于是，这个方向基本消亡。这次经历让我们懂得：任何版权素材都不要碰，事实也证明没必要——那些使用AI生成的评审形象的号，至今仍然活跃。
 ![](bbox=[53, 26, 936, 332])
 7月，我们的方法体系逐渐成型。当时我们摸索出一套对真人拍摄的热门视频进行AI化重写的流程。核心观点是：优先选择以剧情推动的作品，而不是依赖表演和外在形式的，因为AI在微表情、肢体动作和复杂空间互动上还有明显不足。但好故事的底子，哪怕画面细节不够精致，观众也愿意看下去。比如有个“等人进来时突然吓人一跳”的短片，悬念极强，让人忍不住反复观看。我们仿制的版本，在YouTube已经积累50多万次播放，还在持续增长，在其它平台上也表现不俗。
 印度相关领域同样值得关注。虽然单次点击收益低，但流量巨大。我们社群里有一位叫翔哥的成员，快40岁，是两个孩子的爸爸。3月入行时，整整30天才磨出一条视频；半年后，他的单一频道订阅量达到150万，并拿到平台金牌认证。他运营三个号，累计观看次数30亿，其中面向印度市场的金牌号占到20亿。9月，三个号合计收入约9600美元，而金牌号从6月15日开通变现至今，累计收入超过15000美元。翔哥的建议很朴素：先把一个频道做透，不要贪多。
 7月15日，平台推出了一项严厉新政。这次动作针对分屏拼接、搬运型视频，以及用千篇一律的AI生成设定批量做出的粗糙内容。处罚方式也和以往不同——直接关停频道，而非暂停收益。我们社群当时并没有感到慌乱，因为大家的作品普遍偏精品化，很少有人做搬运或流水线式生产。但后来的发展表明，这项政策为几个月后的内容撞车问题埋下了隐患。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f9a1ff38208d03f0de513a1c0151bd32_17_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f9a1ff38208d03f0de513a1c0151bd32_17_1.png>
+![](img/zhuanqian_f9a1ff38208d03f0de513a1c0151bd32_17_0.png)
+![](img/zhuanqian_f9a1ff38208d03f0de513a1c0151bd32_17_1.png)
 8月，真正的顶级机遇降临。通过观察YouTube上的异常流量和Google Trends的搜索攀升，我们从8月初起，连续两周在社群内部推荐K-pop Demon Hunters这个IP。当时没人能预见，它会超越鱿鱼游戏和神话题材作品，成为2025年平台第一IP，甚至在2026年赢得一座小金人（最佳长篇动画）。我们社群借助这一IP，拿下了数以百亿计的观看量。更关键的是，一卒分享了一套借助Gemini 2.5 Pro的指令体系，把二次创作门槛降到极低。据说这份方法让他收到了5000元红包，也让社群成员几乎包揽了这个IP下的大多数热门视频。8月的调研结果令人咋舌——146份有效问卷，每人平均观看次数达到亿级，好几个人借此实现单月入账过万美元。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f9a1ff38208d03f0de513a1c0151bd32_19_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f9a1ff38208d03f0de513a1c0151bd32_19_1.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f9a1ff38208d03f0de513a1c0151bd32_19_2.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f9a1ff38208d03f0de513a1c0151bd32_19_3.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f9a1ff38208d03f0de513a1c0151bd32_19_4.png>
+![](img/zhuanqian_f9a1ff38208d03f0de513a1c0151bd32_19_0.png)
+![](img/zhuanqian_f9a1ff38208d03f0de513a1c0151bd32_19_1.png)
+![](img/zhuanqian_f9a1ff38208d03f0de513a1c0151bd32_19_2.png)
+![](img/zhuanqian_f9a1ff38208d03f0de513a1c0151bd32_19_3.png)
+![](img/zhuanqian_f9a1ff38208d03f0de513a1c0151bd32_19_4.png)
 然而，8月也有阴影。平台对儿童保护内容又提出更高要求，这一次，哪怕动物或卡通角色只要带有拟人化特征，也不得出现惊险动作。更多频道被关闭，我们几位成员约上万美元的收入瞬间清零。痛心之余，整个社群把合规的重要性提到前所未有的高度，不再以任何方式鼓励打擦边球。这一原则，也成了每周直播里的固定话题。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f9a1ff38208d03f0de513a1c0151bd32_20_0.png>
+![](img/zhuanqian_f9a1ff38208d03f0de513a1c0151bd32_20_0.png)
 9月，重点转向系统化和规模放大。9月20日，我们社群受邀参加一场行业大会，多位教练和优秀成员上台分享。Gary在演讲中提出了一个日后被广泛流传的公式：热门作品 = 出色的呈现形式 × 扎实的脚本 × 较低的竞争密度。从那时起，许多成员按这个思路搭建账号矩阵，甚至建立了小型创作团队。S.Z就是其中的一个典型，他一人掌舵十多个频道，利用程序化工具放大个人对内容的判断力，硬是在一个垂直领域里闯出了名堂。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f9a1ff38208d03f0de513a1c0151bd32_21_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f9a1ff38208d03f0de513a1c0151bd32_21_1.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f9a1ff38208d03f0de513a1c0151bd32_21_2.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f9a1ff38208d03f0de513a1c0151bd32_21_3.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f9a1ff38208d03f0de513a1c0151bd32_22_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f9a1ff38208d03f0de513a1c0151bd32_22_1.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f9a1ff38208d03f0de513a1c0151bd32_22_2.png>
+![](img/zhuanqian_f9a1ff38208d03f0de513a1c0151bd32_21_0.png)
+![](img/zhuanqian_f9a1ff38208d03f0de513a1c0151bd32_21_1.png)
+![](img/zhuanqian_f9a1ff38208d03f0de513a1c0151bd32_21_2.png)
+![](img/zhuanqian_f9a1ff38208d03f0de513a1c0151bd32_21_3.png)
+![](img/zhuanqian_f9a1ff38208d03f0de513a1c0151bd32_22_0.png)
+![](img/zhuanqian_f9a1ff38208d03f0de513a1c0151bd32_22_1.png)
+![](img/zhuanqian_f9a1ff38208d03f0de513a1c0151bd32_22_2.png)
 回头看这半年多，我们遇到的不仅是风口轮换，更是在规则不断收紧中的生存进化。每一次清洗都在告诉所有人：平台红线不是装饰，在流量面前，活得久比跑得快更重要。而那些能穿越周期的人，往往是既懂内容又守规矩的人。2025年还没结束，下一波浪潮已在远处蓄力。等风再来时，谁在无人关注时还在苦练基本功，谁就最有机会接住它。
 ## 从千人里程碑到平台整肃期：2025 下半年六次关键拐点复盘
 十月，社群规模首次破千。人多之后，过去的小圈层协作模式已难以承载更复杂的经营需求，于是当月启动了两项升级：把近一年验证过的方法整理成系统的视频课，并在新人营里加入作品互评环节。我和教练组一年来沉淀的判断与实操经验，通过这套机制同步给新老成员。被点评环节催生的优质创作者，后续还受邀到每周四的线上分享会做案例回流，为大家提供更落地的一手经验。
@@ -170,7 +170,7 @@ Gary 曹淦 方波妮 2025 年 12 月 23 日修改
 分享嘉宾：Gary 曹淦、优优秀圈友-GeekTao
 直播文档： [语言类 + 搞笑赛道：制作流程 & 变现拆解分享 | 新人入局语言类推荐](https://...) (链接图标)
 ### 首次 YouTube 深海圈龙珠悬赏榜单：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f9a1ff38208d03f0de513a1c0151bd32_24_0.png>
+![](img/zhuanqian_f9a1ff38208d03f0de513a1c0151bd32_24_0.png)
 | 排名 | 星球昵称 | 星球编号 | 赛道 | 标题 | 奖励 |
 | 1 | Geektao | 3228 | 语言类 | 语言类 + 搞笑赛道：制作流程 & 变现拆解分享（新人入局语言类推荐） | 半颗龙珠 |
 | 1 | 四水年华 | 195233 | 语言类 | 月入 5000 美金! AI 语言类 Shorts 实战复盘 | 半颗龙珠 |
@@ -180,10 +180,10 @@ Gary 曹淦 方波妮 2025 年 12 月 23 日修改
 | 5 | 金鱼 | 60563 | 语言类 | 《Youtube 语言类 Shorts 月入万刀秘籍》——金鱼的火爆指南 | 一颗碎片 |
 | 6 | 波哥 | 18907 | 长视频 | 1 年 9 次迭代：YouTube 长视频突破 1000 万播放 | 一颗碎片 |
 十二月年会抛出了年度最震撼的数据。四水年华凭借单一频道，将带语音短片做到月入近三万美金，并带出十九万美金的带货 GMV。这一结果刷新了大家对该赛道上限的认知。年会后，社群迅速进入配音赛道的集中迁移期，随后数月内社群产出的相关作品激增，几乎占据了平台 AI 配音内容的头部位置，且延续至今。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f9a1ff38208d03f0de513a1c0151bd32_25_0.png>
+![](img/zhuanqian_f9a1ff38208d03f0de513a1c0151bd32_25_0.png)
 同一月份，平台规则突变打了个措手不及。
 十二月初起，大批频道因“同质化内容”被取消创收资格或无预警限流。此轮打击并非仅针对生成内容，3D 动画、原创漫画、游戏类频道同样重灾，715 政策的余波由此全面显现。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f9a1ff38208d03f0de513a1c0151bd32_26_0.png>
+![](img/zhuanqian_f9a1ff38208d03f0de513a1c0151bd32_26_0.png)
 ### 你的频道目前无法启用创收功能
 对你的频道综合运用自动和人工审核之后，我们发现它未遵循 YouTube 的频道创收政策。
 我们的审核人员发现你的频道包含以下内容：
@@ -223,14 +223,14 @@ Gary 曹淦 方波妮 2025 年 12 月 23 日修改
 > 好了，别人的教程推荐完了，更重要的当然是对我们做 YouTube 来说，即梦 2.0 真的能用了吗，能提效吗，能出爆款吗，难用吗？
 >
 > 事实就是，即梦 2.0 杀死了比赛，即使是在 YouTube。先感谢 zero、金鱼、天才老师、Lueyow 等圈友贡献的数据图，都是用即梦 2.0 做出来的视频：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f9a1ff38208d03f0de513a1c0151bd32_28_0.png>
+![](img/zhuanqian_f9a1ff38208d03f0de513a1c0151bd32_28_0.png)
 回顾往年，我几乎没有把模型迭代当成核心讨论点。无论是年初的可灵 1.6，五月的 veo3，还是十月的 sora2，都未改动创作主线：脚本、提示、分镜、生图、生片、剪辑，决定胜负的仍是内容理解与审美把控。
 Seedance 2.0 打破了这一逻辑。它把流程压缩到极简：脚本截图丢进去，成品直接出。中间步骤可大幅省略，稳定性仍在线。中间图为一次直出效果，最右侧为姜洪涛圈友半年前用 sora2 复刻同一脚本反复抽卡的最好结果，对比明显。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_placeholder.png>
+![](img/zhuanqian_placeholder.png)
 ### 换灯泡搞怪视频
 下面这条对经典影视片段的复刻来自 YouTube 深海圈邵先森教练的分享，放在 Seedance 2.0 之前，还需要相当高的分镜设计能力才能复刻出来，而且还很容易反复抽卡，但现在的门槛已经非常低，基本是口喷内容就能实现很好的效果。
 ### 周星驰电影原片片段
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_placeholder.png>
+![](img/zhuanqian_placeholder.png)
 以@图片 2 为首帧，镜头切换到右眼黑掉的男人的脸部特写，他愤怒地用舌头舔了一圈嘴唇，然后镜头拉远，他斜看向女人，生气地“哼”了一声。
 场景切换到客厅的另外一角，在餐桌旁边的椅子上，黑发男人@图片 3 坐着，他左手抓成拳头，右手则紧紧包着左手的拳头，他俯着身，一只眼眯上，另一只眼紧贴到右手和左手拳头的洞洞上面，他兴奋地说：“I've never seen anything like that!”
 这时女人疑惑地半弯曲身体悄悄走到男人身后，她对男人说：“what's that? Let me take a look!”然后男人侧身护着双手，他反问女人：“You really wanna see?”女人连忙笑着点头 (带着可爱的卡通点头声音)。
@@ -240,12 +240,12 @@ Seedance 2.0 打破了这一逻辑。它把流程压缩到极简：脚本截图�
 在国内，Seedance 2.0 对 AI 短剧、漫剧以及广告影视行业的冲击大家都感受到了；而在 YouTube，原本还有一定制作难度的大量真人实拍类视频被彻底打平门槛，2 月初的风向标，我的篇幅全部都给了 Seedance 2.0，年后邀请了徐徐和邵先森两位教练进行 Seedance 2.0 分享，直播分享文档发布到赚钱，也拿下了两篇精华帖:
 徐徐教练精华帖:
 邵先森精华帖:
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_placeholder.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_placeholder.png>
+![](img/zhuanqian_placeholder.png)
+![](img/zhuanqian_placeholder.png)
 社群在同一时间共建了 Seedance 2.0 的信息文档。当外界还在讨论排队与真人还原限制时，我们的文档里已有来自实操的解决经验。该模型也确实兑现了预期，最早一批使用者在约一周内产出新一代爆款，基本取代了传统工作流的旧版本。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f9a1ff38208d03f0de513a1c0151bd32_31_0.png>
+![](img/zhuanqian_f9a1ff38208d03f0de513a1c0151bd32_31_0.png)
 三月航海课，我将用一个直观案例配合上手教程，让大家现场体验该模型在真实创作中的价值，欢迎携带项目参与。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f9a1ff38208d03f0de513a1c0151bd32_31_1.png>
+![](img/zhuanqian_f9a1ff38208d03f0de513a1c0151bd32_31_1.png)
 与此同时，内容同质化的审查持续收紧，配音类竖屏与长片也开始出现限流，连存活多年的 Reddit 故事赛道一夜之间几乎清零。平台的系统性调整，倒逼创作者重构变现逻辑：不能用同一套素材反复消耗同一批受众，账号矩阵也必须分散风险。具体做法后文展开。
 ### 回顾这一年我们得到的关键结论：
 - 机遇与风险始终并存，且轮番上演
@@ -283,18 +283,18 @@ Seedance 2.0 打破了这一逻辑。它把流程压缩到极简：脚本截图�
 但YouTube上的流量从来不是存折，追不上更迭速度，就会被扫地出局。
 来看一张图。这个4000万订阅的巨型账号，是我们在去年五六月份锁定的重点研究目标。当时她提前押注了《鱿鱼游戏》，几乎是发一条爆一条，每条都冲到亿级观看，单月卷走几十亿流量。后来圈友谷梓超三个月做到10亿观看，灵感源头就是这位。
 ## 原因在哪？
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f9a1ff38208d03f0de513a1c0151bd32_35_0.png>
+![](img/zhuanqian_f9a1ff38208d03f0de513a1c0151bd32_35_0.png)
 再看她现在的数据，已经缩水到平均几十万观看，破千万都成了稀罕事。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f9a1ff38208d03f0de513a1c0151bd32_35_1.png>
+![](img/zhuanqian_f9a1ff38208d03f0de513a1c0151bd32_35_1.png)
 原因不复杂。这半年来，她对K-pop猎魔女团这一类的热度完全不敏感，也没有再等到《鱿鱼游戏》那种量级的窗口，做出来的东西和当初没什么两样。
 另一个样本，是长期稳居韩国第一、去年全平台涨粉最多的KIMPRO。这位粉丝量1.3亿的真人博主，在看到拾风那条12亿观看的抓玩偶短片之后，居然用自己的形象做了一支智能生成版本。KIMPRO能在YouTube存活这么多年、反复登顶流量榜，靠的就是不断自我刷新——她始终在追最新的热点、最新的形式、最新的脚本，再把它们改造成符合自己频道气质的表达。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f9a1ff38208d03f0de513a1c0151bd32_36_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f9a1ff38208d03f0de513a1c0151bd32_37_0.png>
+![](img/zhuanqian_f9a1ff38208d03f0de513a1c0151bd32_36_0.png)
+![](img/zhuanqian_f9a1ff38208d03f0de513a1c0151bd32_37_0.png)
 3月1日18:23
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f9a1ff38208d03f0de513a1c0151bd32_37_1.png>
+![](img/zhuanqian_f9a1ff38208d03f0de513a1c0151bd32_37_1.png)
 这两条片子的相似程度，坦白说，连音轨用的都是同一份。我已经征求过拾风的同意，放出来给大家自行对比。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f9a1ff38208d03f0de513a1c0151bd32_38_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f9a1ff38208d03f0de513a1c0151bd32_38_1.png>
+![](img/zhuanqian_f9a1ff38208d03f0de513a1c0151bd32_38_0.png)
+![](img/zhuanqian_f9a1ff38208d03f0de513a1c0151bd32_38_1.png)
 金字塔尖的博主们，已经被这场变革逼着各自找出路：有人直接上手模型，有人把模型嵌入原有流程做改造，还有人掉头去做模型暂时够不着的品类。反应迟钝的那批创作者，早就一茬接一茬地被换了血。
 在这个行业深耕多年的顶级玩家都不得不拼命向前跑，我们这些刚搭上车的后来者，凭什么觉得自己可以一成不变地享受所有好处？
 未成年人保护、同质化治理、限流机制这类东西，就算今天不叫这个名字，明天也会换一副面孔落下来。平台不可能允许一个账号加一堆算力，就批量倾倒粗制滥造的内容，把年营收400亿美元级别的全球最大内容平台活活灌垮。
@@ -310,8 +310,8 @@ Seedance 2.0 打破了这一逻辑。它把流程压缩到极简：脚本截图�
 人人都说这行重复度太高、平台在限流，那它到底还碰不碰得？
 先想明白一件事：YouTube只是智能内容的一个分发出口。想判断YouTube，得先看更大的盘。
 去年9月我画过一版示意图，半年之后再回看，理解已经变成了右边这张。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f9a1ff38208d03f0de513a1c0151bd32_41_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f9a1ff38208d03f0de513a1c0151bd32_41_1.png>
+![](img/zhuanqian_f9a1ff38208d03f0de513a1c0151bd32_41_0.png)
+![](img/zhuanqian_f9a1ff38208d03f0de513a1c0151bd32_41_1.png)
 第一批工具是Veo 3、Sora 2，现在又冒出了Seedance 2.0。创作者们纠结的问题，从“vlog、第一人称、猫咪搞笑这类内容，模型到底能不能做出来”，变成了“用户究竟想看什么”。观众那边也不再追问“这是手工的还是机器做的”，只会判断“这条有没有意思、有没有用”。尤其是过去这两个月，各种形态、各种玩法的智能生成短片轮番轰炸，地铁和公交上到处都是刷短剧、漫剧、段子的年轻人。一个新的共识正在出现：大家讨厌的从来不是机器生产，而是粗制滥造。
 B站算是国内在内容生态和社区氛围上最贴近YouTube的平台。最新一期0313的周推精选榜单里，首屏14条作品，有4条完全由模型生成。这事放到以前，一个没有任何背景的新人UP主，想靠近那个榜单都难。
 ![](bbox=[66, 154, 914, 437])
@@ -336,16 +336,16 @@ YouTube当然也不例外。
 - ### 用俄语讲历史
 ![](bbox=[64, 800, 835, 906])
 - ### 用3D动画做英语科普
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f9a1ff38208d03f0de513a1c0151bd32_45_0.png>
+![](img/zhuanqian_f9a1ff38208d03f0de513a1c0151bd32_45_0.png)
 - ### 用西语讲圣经人物
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f9a1ff38208d03f0de513a1c0151bd32_45_1.png>
+![](img/zhuanqian_f9a1ff38208d03f0de513a1c0151bd32_45_1.png)
 - ### 植物大战僵尸，上下分屏对比
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f9a1ff38208d03f0de513a1c0151bd32_45_2.png>
+![](img/zhuanqian_f9a1ff38208d03f0de513a1c0151bd32_45_2.png)
 - ### 用卡通讲汽车零件，英语配音
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f9a1ff38208d03f0de513a1c0151bd32_46_0.png>
+![](img/zhuanqian_f9a1ff38208d03f0de513a1c0151bd32_46_0.png)
 ### 智能生成+真人拍摄的组合玩法：
 https://www.youtube.com/@YoungEmperors/shorts 这家频道值得多说两句。不知道大家有没有察觉到，境内外的很多真人创作者，早就在反向借力智能工具抬高自己的上限了。这个账号的玩法非常典型：一条片子先拍一段真人实景，后半段交给模型续写。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f9a1ff38208d03f0de513a1c0151bd32_46_1.png>
+![](img/zhuanqian_f9a1ff38208d03f0de513a1c0151bd32_46_1.png)
 这种“真人实拍+模型续写”的组合，我在去年1月的一对一陪跑、3月的航海行动里都专门拆解过，如今已经成了大量真人创作团队的基础配置。
 ### 能被模型迅速复制的爆款支点，到底有哪些？
 - 性吸引力：美人、性感、擦边、XP
@@ -371,11 +371,11 @@ https://www.youtube.com/shorts/nCitam1e0uY 这条有1.9亿观看，就是真人�
 被模型消化过的真人脚本，连九牛一毛都不到。YouTube攒了二十年的素材库，几个月就能抄完？再把TikTok、抖音、快手、视频号上的热门脚本翻一遍，够用的选题不是太多了吗？
 ### 再看语言市场
 YouTube全球用户盘子是27亿，其中英语人群不足一半。西班牙语、葡萄牙语、印地语、阿拉伯语、日语、韩语、德语，再加上法语——这些语言背后的用户体量都相当惊人，但对应的智能生成创作者却少得不成比例。把同一套脚本转成当地语言铺过去，在这些地区能够获得的竞争力，可能远超英语区。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f9a1ff38208d03f0de513a1c0151bd32_49_0.png>
+![](img/zhuanqian_f9a1ff38208d03f0de513a1c0151bd32_49_0.png)
 多语言矩阵早就被市场验证过了。更早的时候，国内团队从YouTube赚到真金白银，最典型的就是短剧的出海分发——把国内短剧配成多语言版本发向全球。能打动人的故事，放到任何地方都会有回响，道理就是如此朴素。再加上你覆盖的是完全不重叠的观众，平台也没理由给你扣上“内容重复”的帽子。
 ### 最后看IP储备
 每个地区都有自己的原生IP。如果眼里只装着一个K-pop猎魔女团，当然会觉得没东西可做。Roblox、Minecraft、龙珠、火影……这些在YouTube扎根近二十年的经典形象，多到数不过来，每个IP背后又站着完全不同的粉丝群体，创作素材怎么会缺？
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f9a1ff38208d03f0de513a1c0151bd32_50_0.png>
+![](img/zhuanqian_f9a1ff38208d03f0de513a1c0151bd32_50_0.png)
 为什么它可以被称为“超级机会”？答案就藏在工具带来的杠杆里。
 最近 OpenClaw 把 AI Agent 玩到了新阶段，谁能最快找到赛道、谁能最快把工作流固化成可复用的 AI 员工 Skill，谁就更容易做到月入万美元级别，甚至十万美元级别的体量。
 但光有工具还不够，赛道池子小也白搭，内容产量再高也装不下。
@@ -406,15 +406,15 @@ Aussie Pension Update 3990 订阅者，160 条视频，专注澳洲养老金动�
 后面我们会先从分发入手，逐步帮大家搭建内容 IP，构筑 AI 时代创作者的核心壁垒。
 ### 3. YouTube 联属营销带货
 YouTube 的带货生态在成形，平台主动降门槛、加工具、推创作者。今年与 Shopee 台湾、速卖通韩国、乐天日本的合作传闻不断，最早起步的美国已接入沃尔玛、Best Buy、Etsy 等 3000 多家商户，以及 Nike、Adidas 等大牌。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f9a1ff38208d03f0de513a1c0151bd32_54_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_image_55.png>
+![](img/zhuanqian_f9a1ff38208d03f0de513a1c0151bd32_54_0.png)
+![](img/zhuanqian_image_55.png)
 这是 YouTube 摆明了要做的方向。
 TikTok Shop 2025 年仅美区电商销售额就约 158 亿美元。YouTube 哪怕只撬走一小块，也足够养活一批小玩家。
 就像四水年华圈友 12 月一个频道带货 19 万 GMV，做法很简单：在一条毫无带货引导的 AI 视频里挂了件沃尔玛 T 恤，用户跳转后顺带下单，GMV 与佣金就来了，想象空间很大。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_image_55_1.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_image_55_2.png>
+![](img/zhuanqian_image_55_1.png)
+![](img/zhuanqian_image_55_2.png)
 过去做联署营销需要高级 YPP + 1 万粉丝，门槛很高。最近 YouTube 把门槛降到初级 YPP + 1000 粉丝。我们一个 1000 多订阅的 YPP 频道，之前没有带货权限，现在已经开通联属营销带货。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_image_55_3.png>
+![](img/zhuanqian_image_55_3.png)
 怎么和出海电商玩家联动，探索 YouTube 带货的更多可能，会是水到渠成的事情。
 ### 4. YouTube 信息套利
 品牌、企业、IP 都在出海，国内领先的产品自然要拓展海外市场，出海服务是超级机会，只是普通人现在还没到最佳入场点，后续我会专门写篇拆解。
@@ -446,8 +446,8 @@ TikTok Shop 2025 年仅美区电商销售额就约 158 亿美元。YouTube 哪�
 风口初起时，总有人来问：为什么不直接关掉，让大家别碰？说实话，直接封禁很简单，但也不现实。流量摆在那儿，不去承接就是浪费白白流失。做与不做之间的差别，有时候就是爆与不爆，本质上都是在刀尖上行走。我们能做的，也就是把风险管理好，把复盘做扎实：提前摸清极限、及时把新情况同步、尽量把损失压到最小。真正的战绩永远产生在一线，历史上的常胜之师之所以被反复称颂，是因为极少。普通人的成长轨迹大多是跌撞着走，吃亏了才学乖。一次打击可以把人撂倒，却打不垮一个人的意志。
 去年十一月龙珠悬赏之前，我为什么会坚定地认为语言赛道值得押注？并非只是判断时机到了。当时正好接了孤山老师的合作需求，要一起验证欧美YouTube海外投放的可能性，想看看偏娱乐化的AI语言内容能不能带来有效的曝光和转化。所以我召集了一批做语言方向的朋友一起做小范围验证，Geektao也在其中。海外投放没跑通，却意外撞见一个现象：语言类视频哪怕制作简陋，也能出爆款，收益也不低。这才有了Geektao关于语言赛道的直播拆解和精华帖：
 随后我们在YouTube深海圈发起十一月的龙珠悬赏，语言赛道才被大规模推开。十二月，四水年华直接贡献了月入两万美金的成绩，震动了整个圈子：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f9a1ff38208d03f0de513a1c0151bd32_63_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f9a1ff38208d03f0de513a1c0151bd32_63_1.png>
+![](img/zhuanqian_f9a1ff38208d03f0de513a1c0151bd32_63_0.png)
+![](img/zhuanqian_f9a1ff38208d03f0de513a1c0151bd32_63_1.png)
 | 排名 | 星球昵称 | 星球编号 | 赛道 | 标题 | 奖励 |
 | 1 | Geektao | 3228 | 语言类 | 语言类 + 搞笑赛道：制作流程 & 变现拆解分享 (新入局推荐) | 半截龙珠 |
 | 1 | 四水年华 | 195233 | 语言类 | 月入 5000 美金！AI 语言类 Shorts 实战复盘 | 半截龙珠 |
@@ -461,7 +461,7 @@ AI同质化频道我们也有十几个，累计亏损过万刀。心疼是自然
 至于KPOP为什么到今天才被我明确叫停，是因为虽然一批号被封，但存活的KPOP仍在持续贡献收入。问题在于审查只会更严。高手或许能判断风险、也能承受风险，但大部分同伴很难评估风险高低，很容易被同质化波及。我们号多，死几个还能顶上；新手一旦踩坑基本就归零。所以我在这篇文章里明确表态：新手暂时不要碰KPOP，不是这个赛道彻底没戏了。
 最近Seedance 2.0上线后几乎重塑了创作环境，我第一时间自己实测并发布到YouTube，效果炸了。随后我收集更多案例并整理思路，在当周的YouTube深海圈风向标里和大家分享。
 > 完全未经过剪辑或调色变速处理，直接丢到视频号，一天25万播放；YouTube账号被限流，否则大概率同步爆
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_image_65.png>
+![](img/zhuanqian_image_65.png)
 过去这些事我几乎从没公开说过，觉得作为社群的总负责人、作为YouTube深海圈教练团的一员，这是本职工作，做就完了，没必要拿出来讲。
 如今我看到不少新朋友甚至老朋友都显出迷茫，我觉得有必要站出来聊几句，给点底气：
 深海圈过去一年能多次踩中风口，未来一年就有底气去抓住更多更大的机会。我的底气不在于我个人，而在于深海圈每一位成员，以及教练团的每一位伙伴，正是一群优秀的人共同构建了这个社群。
@@ -477,5 +477,5 @@ AI同质化频道我们也有十几个，累计亏损过万刀。心疼是自然
 读完这份SOP，你以为自己明白了。但九成的人一到实操就卡在第一步。
 工具和教程只是入门级门槛，真正的门槛是“立刻动手”和“圈层信息差”。
 我们不谈虚的，只拆商业闭环和AI效率的榨取。系统内已沉淀1000+条跑通的套利实战案例。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f9a1ff38208d03f0de513a1c0151bd32_68_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f9a1ff38208d03f0de513a1c0151bd32_68_1.png>
+![](img/zhuanqian_f9a1ff38208d03f0de513a1c0151bd32_68_0.png)
+![](img/zhuanqian_f9a1ff38208d03f0de513a1c0151bd32_68_1.png)

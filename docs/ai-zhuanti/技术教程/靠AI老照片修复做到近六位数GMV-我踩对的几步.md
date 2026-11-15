@@ -1,6 +1,6 @@
 # 靠AI老照片修复做到近六位数GMV，我踩对的几步
 ## 一、这份生意，高门槛看不上，低门槛玩不转
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c775e4a93a8447eb1f027a69384d5536.png>
+![](img/zhuanqian_c775e4a93a8447eb1f027a69384d5536.png)
 半年前我因为刷到一个“差异价”的点子，才闯进AI老照片修复这个赛道，磕磕绊绊走到今天，也算小有斩获。
 这行我觉得就是个典型的中间地带：真正有钱的主顾嫌它小，不屑一顾；普通人又觉得技术门槛高不敢碰。
 可放在当下的环境里，这个赛道正好卡在一个甜点上。
@@ -18,7 +18,7 @@
 1.软件选得准不准
 2.校正做得细不细
 市面上的AI修复软件五花八门，挑对一款效率高、质感好的，才是核心。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7c55e168f97e01f3262d54787c970b97.png>
+![](img/zhuanqian_7c55e168f97e01f3262d54787c970b97.png)
 头部的代表我用的是HPE，面部修复简直是杀手锏。遇到划痕、糊脸的老照片，它能精准捉住五官结构，用深度学习把眼睛、鼻子、嘴巴一点点拎清晰。
 成片速度大约30-60秒一张，跟电脑配置强相关，万元配置十秒左右出图，三两千的机器就要几十秒。
 上手也简单：导入、点修复、等片刻，成品基本可以直接交付。
@@ -26,17 +26,17 @@
 总体建议多试几款，结合自己操作习惯和接单类型，定下一套主力方案。
 ### 2.AI打底+人工微调，效果才炸
 AI再强，也到不了极致。后期的人工校正，才是第二道壁垒，也是价值所在。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c09ed3600cffa512e66df1260a57b6e3.png>
+![](img/zhuanqian_c09ed3600cffa512e66df1260a57b6e3.png)
 可能有人会问：不是AI就能搞定吗，还要修图？
 如果真零门槛人人都能赚，那就不叫机会了。
 有PS基础的，半天就能摸清关键流程；完全零基础的话，沉下心来练3-5小时也能上手。
 ## 三、拼多多+抖音是基本盘
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_26bcdd10554d945a4f6978b0f42cd934.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7f9bb719fe3b86a6fefca5e74018b3a6.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5433b69fbb90a5cb0a8a894dcf8617e3.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8aa43bdf2b246b5ca2a3e31d6104289f.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_764a7d341d618696840967702454d4e9.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c52ebdd5c6a610a5724fdfecd3c09831.png>
+![](img/zhuanqian_26bcdd10554d945a4f6978b0f42cd934.png)
+![](img/zhuanqian_7f9bb719fe3b86a6fefca5e74018b3a6.png)
+![](img/zhuanqian_5433b69fbb90a5cb0a8a894dcf8617e3.png)
+![](img/zhuanqian_8aa43bdf2b246b5ca2a3e31d6104289f.png)
+![](img/zhuanqian_764a7d341d618696840967702454d4e9.png)
+![](img/zhuanqian_c52ebdd5c6a610a5724fdfecd3c09831.png)
 ### 1.拼多多开店实操
 开店流程不复杂。
 先去官网或下载商家版App点“我要入驻”，手机号注册，填个人资料，信息务必准确，后续审核全靠它。
@@ -56,9 +56,9 @@ AI再强，也到不了极致。后期的人工校正，才是第二道壁垒，
 ### 3.沟通和履约细节
 沟通是成交和留存的关键。
 咨询要快回，提前准备快捷话术，第一时间把案例甩过去让客户看效果。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bb38d9571dba88a97ff0b3bd3edb349d.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_60c8dd0d448f013e46024ca586c09856.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5ff0e6c3dc8760042a3213da076699dc.png>
+![](img/zhuanqian_bb38d9571dba88a97ff0b3bd3edb349d.png)
+![](img/zhuanqian_60c8dd0d448f013e46024ca586c09856.png)
+![](img/zhuanqian_5ff0e6c3dc8760042a3213da076699dc.png)
 效率提升后我们承诺【初稿不满意退全款】，客户接受度很高。
 特殊需求尽量满足，比如在全家福上加姓氏印章，直接报“这是我们的创意定制服务，安排设计师按要求做，效果更个性，费用微调”。客户的真实需求都要珍惜。
 接单后先评估破损程度，主动给预计周期：“照片已收到，预计2-3天完成，有小样会先给您确认”。修复中遇到难题及时沟通，坦诚说明困难和应对方案。
@@ -70,15 +70,15 @@ AI再强，也到不了极致。后期的人工校正，才是第二道壁垒，
 消费习惯上看重性价比，价格敏感但不唯价。效果到位就愿意好评传播。
 需求上讲情感+实用。想要面容清晰、场景还原，部分用户有赶时间的需求，比如家族聚会、长辈寿辰要赶工。
 抖音逻辑类似，就是做矩阵持续发。抖音养号养粉周期长，通常要坚持几个月，后面流量和订单才会稳定进来。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1e6fbd6d1de31204fc6c88d2ef0fdabd.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_add138983f60ef24d19851cac5147178.png>
+![](img/zhuanqian_1e6fbd6d1de31204fc6c88d2ef0fdabd.png)
+![](img/zhuanqian_add138983f60ef24d19851cac5147178.png)
 ### 2.针对不同人群做策略
 对重品质的客户，展示专业度很关键。主动给高质量案例，讲AI+人工微调的流程。价格可以偏高，高价=高品质，这类客户吃这套，且能留砍价空间。
 对重时效的客户，要快响应，承诺加急并给出明确交付节点，页面单独做加急通道，资源优先保障，靠速度拿信任。
 对疑虑多的客户，要耐心解释。发对比图、好评截图，用大白话解释修复原理，回应是否失真、是否二次修改收费等问题。提供试修小样，先看效果再付款，用诚意打动。
 好项目需要沉淀。哪怕拼多多能暴力起店，长期来看节奏还是要稳。经过近一年沉淀，短视频矩阵和PDD店群即使不砸重推广，也有稳定流量，这全靠前期一点点积累。
 ### 3.私域做后花园
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_95a820c9ae0bb7af41ad9517854f6815.png>
+![](img/zhuanqian_95a820c9ae0bb7af41ad9517854f6815.png)
 我建了客户微信群，定期发修复知识、案例对比，增加互动。推出会员充值，充值的享全年8折、优先加急。老客户有权益，新客户首单减20元拉新。节日发优惠券和祝福，提升粘性与复购。
 从每月几十单到后来的每月千单左右，客单价也在慢慢抬升。希望这套复盘能给你启发，也祝大家在这个AI老照片赛道都能吃到红利。
 通过赚钱圈子一起把这个蛋糕做大！

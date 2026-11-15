@@ -1,7 +1,7 @@
 # 别再说 AI 让你变笨了，50 个让 AI 成了你外挂大脑的用法
 260114 副业 SC 精华
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9f71c0cb6265d03fb1fc9dd3390a00aa_0_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9f71c0cb6265d03fb1fc9dd3390a00aa_0_1.png>
+![](img/zhuanqian_9f71c0cb6265d03fb1fc9dd3390a00aa_0_0.png)
+![](img/zhuanqian_9f71c0cb6265d03fb1fc9dd3390a00aa_0_1.png)
 反PUA、脑力增强、脱壳、无记忆对话、上下文补全……除了折腾提示词，AI 玩法其实远不止这些。把这些招式用熟了，你不仅能榨干 AI 的价值，更能借着 AI 把自己的思维练得更锋利，彻底避免被工具驯化的钝感。
 下面这 50 条，都是实战里攒出来的心得，本文纯人工撰写，AI 零参与，哈哈。顺序就是我思考“怎么把 AI 真正用好”的路径，你看完应该也能get到答案。
 - 想让 AI 帮你查资料时，顺手追问一句：假如我自己去 Google/百度搜，怎么写关键词最靠谱。
@@ -52,7 +52,7 @@
 - 没好奇心的人可以拿 AI 当好奇心外挂。描述现状、发张照片问：猜猜我想问什么？不管它猜什么都继续让它猜。像在玩“女孩的心思你别猜”。
 - 别总让它先给结论，这是在帮它省 token。让它用不同角度反复验证同一个观点，才有思考深度。
 - 技巧会过时，提示词会失效，最值钱的是技巧背后的思路。这篇文章想分享的不是 50 个招数，而是和 AI 相处的心态。只要你敢用、形式不拘、保持好奇，AI 就只是你愿力的放大器。你的愿力越大，它越好用。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9f71c0cb6265d03fb1fc9dd3390a00aa_14_0.png>
+![](img/zhuanqian_9f71c0cb6265d03fb1fc9dd3390a00aa_14_0.png)
 这里是你对抗信息过载的护城河。
 已稳定运行 7 年，累计拆解、研读 3000+ 个互联网商业实战案例与行业前沿内参和时政/宏观文章。
 我们不搬运垃圾，只做高价值信息的筛选器与放大镜。

@@ -1,12 +1,12 @@
 # 把前辈的经验拼起来，我照样跑通了 Shorts 项目
 先说明一下身份：我是十七，入局不算久，属于边做边踩坑的人。这次能把视频顺利发出来，不是因为自己能力多强，而是把几位前辈公开的方法拆开重组，拼成了一条适合新人的生产链路。
 成果先放前面：左边是参考原片，右边是我复刻后做出的版本。第一条片子的后台数据见下方。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5cd525eb4cfeae503cbde4bf605380ab.png>
+![](img/zhuanqian_5cd525eb4cfeae503cbde4bf605380ab.png)
 ## 一、先选方向，再谈内容
 新手上路，第一优先级不是搞原创，而是把整个环节走通、先见到钱。我开始时纯靠手动搜索关键词，既慢又不准。后来看到钱塘江鲤整理的一份 YouTube AI Shorts 参考账号清单，才找到切入点。根据那份清单，我把关键词定成 cat，并筛出了3个模仿对象。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_38529ce4ac66170d9f17777e37946e7e.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a520b270308357ebc7bffe12a644ef61.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8e481d2148af2a4a6414e608ffdda09d.png>
+![](img/zhuanqian_38529ce4ac66170d9f17777e37946e7e.png)
+![](img/zhuanqian_a520b270308357ebc7bffe12a644ef61.png)
+![](img/zhuanqian_8e481d2148af2a4a6414e608ffdda09d.png)
 选这几个号的原因很简单：
 - 片子套路几乎一样，但还是能持续出热门，说明受众稳定；
 - 这几个号的注册时间都集中在今年，涨粉速度很快；
@@ -23,19 +23,19 @@
 这一环我参考的是马哥那套做法。它帮我解决了两件麻烦事：低配置设备也能稳定出图；角色在不同场景里能保持同一张脸。
 我平时用的是四五年前买的旧游戏本，显卡只有 1650，本地部署基本不可能。之前也试过端脑云等在线绘图平台，免费但排队久、审核慢，体验不太行。更别提我一开始就选了 ComfyUI，学习曲线太陡，折腾一周也只能勉强出图，角色完全没法统一。看到马哥的思路后，我开始照着他的路子走，又做了点减法：减少对话轮次、省略试画阶段、压缩反馈流程。最后形成下面三步。
 先让模型读图：把画面切片分组发过去，请模型依次说明画面里的角色、环境与剧情；图片没传完就先等，全部发齐再做整体梳理。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2efbc9043f0530ef7735e407b29fa3c4.png>
+![](img/zhuanqian_2efbc9043f0530ef7735e407b29fa3c4.png)
 接着固定角色：开画之前先敲定主角的外形设定，保证后面每张图的五官和穿搭一致。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7d2d3b21c1694d0c71e3f305636848ab.png>
+![](img/zhuanqian_7d2d3b21c1694d0c71e3f305636848ab.png)
 最后重画这些画面：按照整理好的限制条件逐张生成，遇到不满意的图再单独修改。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f2a1bb637b2a8165a002bc6164f3eb57.png>
+![](img/zhuanqian_f2a1bb637b2a8165a002bc6164f3eb57.png)
 指令模板的大致写法是：
 - 读图阶段：告诉模型，这组截图属于同一段连续剧情，请依次分析角色、环境与剧情发展；分批上传，等我说结束时再做总结。
 - 定角色阶段：先不急着出图，和模型确认设计方向。风格走 Pixar 式动画质感，带点夸张的童话感；动物不需要按原本习性爬行，而是像人一样直立行走。
 - 重画阶段：固定角色的五官、身形、穿搭与动画画风；用暖色烘托温馨，用冷色制造紧张；加入夸张姿势和丰富道具；强调人形姿态；用 portrait orientation 锁定竖版构图；画布设为 1024×1792；完成优化后直接生成，不用先发给我确认。
 这样操作下来，成图质量比较稳定，人物也能保持统一。偶尔有细节不满意，就继续让模型调。
 补充：尺寸那段是可以不用的。模型默认出 1:1，剪辑时得上下加模糊，观感差一些；我想出 9:16，但它经常生成横图，加了方向描述也不一定有效。下面的图，左是没成功的案例，右是我想要的效果。如果对 1:1 没意见，删掉尺寸相关描述即可。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c13933867d8aa0fdcb87dd670f3f255f.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_dcce1f78d9733156900f06957f3f178a.png>
+![](img/zhuanqian_c13933867d8aa0fdcb87dd670f3f255f.png)
+![](img/zhuanqian_dcce1f78d9733156900f06957f3f178a.png)
 ### 4. 动态化
 动态化这步用了 Hailuo AI，新用户注册会送一日体验。操作很简单：上传图，写一句动作提示，点生成。
 生成效果还行，就是费用不算低：想畅快生成得开包年；包月 68 元只有 130 次机会。按一段片子 10 个镜头来算，单条素材成本在 5 元左右。

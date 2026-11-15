@@ -20,57 +20,57 @@
 https://open.feishu.cn/community/articles/7298446935350231044
 ## 2. 获取 AppID 和 AppSecret
 这两个参数相当于应用的钥匙，在应用详情页可以拿到。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_23d4cb474da1b103c4d6a59718c0cdf8.png>
+![](img/zhuanqian_23d4cb474da1b103c4d6a59718c0cdf8.png)
 ## 3. 复制我的表格模板
 点开下方文档，把它另存为自己用的副本。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5a7000365d78ef1629dd3524b37cde49.png>
+![](img/zhuanqian_5a7000365d78ef1629dd3524b37cde49.png)
 接着点右上角分享，把访问权限调整好。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ab989f54649b18d6c72911d2162aea5d.png>
+![](img/zhuanqian_ab989f54649b18d6c72911d2162aea5d.png)
 ## 4. 表格结构说明
 整个模板由四个分区组成。
 ### 选题池
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d79da865ad7f55509c63f2be71438800.png>
+![](img/zhuanqian_d79da865ad7f55509c63f2be71438800.png)
 这里记录所有想写的话题。填一个标题进去，后面的程序就会照着生成文章。参考链接暂时不用动，后续做一键改写才会用到。关键字段是：领域、智能体、是否可重复发布。
 “领域”需要和账号配置对应，不对应就不会投递；智能体名称要跟豆包里的 Bot 一模一样，RPA 靠这个名称去选择写作助手；“是否可重复发布”目前没开放，默认写“否”。
 另外预留了一个“是否可直接发布”，因为 AI 写作质量还不稳定，我建议先落入草稿箱，人工检查完再发，等以后做出更稳定的 Bot 再开启。
 ### 账号列表
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c3418d1098ad8475d1b78f515615ae11.png>
+![](img/zhuanqian_c3418d1098ad8475d1b78f515615ae11.png)
 这里放你的自媒体平台信息，目前已经能对接公众号和百家号，其他平台后续看情况增加。
 ### 发布流水
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3759e156b1cad498d62c6bff16af5098.png>
+![](img/zhuanqian_3759e156b1cad498d62c6bff16af5098.png)
 这块不用手动维护。每次发文成功，程序会把记录写进去，用来避免重复投递。
 ### 全局参数
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_82642c22e47fccf956ba679bb8725907.png>
+![](img/zhuanqian_82642c22e47fccf956ba679bb8725907.png)
 目前只有一个关键项：文章产出后存放 Word 的根目录，记得改成你自己电脑上的路径。
 还有一点：所有表的首行标题都不要改名，RPA 解析内容靠表头来定位。
 # 二、做一个专属写作 Bot
 进入 Coze 官网（www.coze.cn/home），建议使用抖音账号登录，因为后续要从这里直接发布到豆包。
 创建 Bot 的流程：
 - 点击创建 Bot，进入配置页：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4ca04e4d1b7229ec15bc3f8daae53897.png>
+![](img/zhuanqian_4ca04e4d1b7229ec15bc3f8daae53897.png)
 - 填好名称和基本说明：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_93469281d59d0b8ce7afc4422b986e75.png>
+![](img/zhuanqian_93469281d59d0b8ce7afc4422b986e75.png)
 - 然后写提示词，把文章的语气、结构和长度要求写进去，边测边改：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_aa56b4ce3fb5d31d5db06355180e8b8f.png>
+![](img/zhuanqian_aa56b4ce3fb5d31d5db06355180e8b8f.png)
 - 调得差不多后，点右上角发布，发布时勾选豆包渠道：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e8c61c9104f0139725e778c113d48c9f.png>
+![](img/zhuanqian_e8c61c9104f0139725e778c113d48c9f.png)
 - 确认发布设置并提交：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_808720589dcb7a2de84da8bfdc0e3d08.png>
+![](img/zhuanqian_808720589dcb7a2de84da8bfdc0e3d08.png)
 发布后要等平台审核。审核通过后去豆包（www.doubao.com）看看自己的 Bot 是不是已经出现：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_99c06d099071723c0d1e8d1147eaf85a.png>
+![](img/zhuanqian_99c06d099071723c0d1e8d1147eaf85a.png)
 如果你的 Bot 只有一段提示词，能力相对有限。想提升内容质量，可以把写作任务拆成工作流，例如先由“标题节点”出选题，再由“正文节点”写内容，每个节点配不同提示词，可控性会强很多。工作流界面长这样：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6fb729872fa18cda2b4e9f1bc44858d5.png>
+![](img/zhuanqian_6fb729872fa18cda2b4e9f1bc44858d5.png)
 关于工作流的搭建技巧，一句话讲不完，以后我再专门写一篇。不想折腾也没关系，下面两个是我做好的现成 Bot，直接复制链接就能用：
 - 情感故事文：https://doubao.com/bot/wRmoxDUX
 - 书评文章：https://doubao.com/bot/IiNucsFR
 最后，把你想用的 Bot 名称填回飞书选题池，让每个标题对应到正确的写作助手：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_38e79b84712e6a9409c9ba5d8d093408.png>
+![](img/zhuanqian_38e79b84712e6a9409c9ba5d8d093408.png)
 # 三、让多个号同屏管理
 默认情况下，一个浏览器只能登录一个公号。想管理多个号，我用的工具叫“创作罐头”，自己去搜一下装好就行，目前免费。如果以后它收费，再找替代品。
 先在软件里添加账号：打开创作罐头，进账号管理，点添加账号：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a4a5f797f93ac543cbe9c2a6e928a97e.png>
+![](img/zhuanqian_a4a5f797f93ac543cbe9c2a6e928a97e.png)
 按提示登录需要管理的平台。登录完成后，所有号都会出现在左侧栏：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5fc9ce9ba824f684cf1e1b5b7dd3a71e.png>
+![](img/zhuanqian_5fc9ce9ba824f684cf1e1b5b7dd3a71e.png)
 有一个坑要提醒：这里显示的账号名称必须和飞书总控表里的名字完全一致，RPA 是按名字来投放的。另外，账号登录状态隔几天可能会失效，记得经常检查，掉了就重新登录。
 # 四、部署 RPA，让电脑自己干活
 简单解释一下，RPA 就是机器人流程自动化，让软件模拟人操作电脑，把那些重复、规则清晰的任务交给脚本执行。我选的工具是八爪鱼 RPA，个人版免费，还支持流程分享，大家可以把我的流程直接领走。
@@ -81,20 +81,20 @@ https://open.feishu.cn/community/articles/7298446935350231044
 拿到流程后，第一步改成自己的飞书凭证，第二步替换成自己的表链接。
 ## 1. 填 AppID 和 AppSecret
 在“自动生成文章到本地”流程里，找到凭证配置节点：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2c314c775c5e77e96f396f29733aa246.png>
+![](img/zhuanqian_2c314c775c5e77e96f396f29733aa246.png)
 双击进去，改成你之前在飞书应用里生成的那串 AppID 和 AppSecret：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_716e3b278fdb231b613b937872334bb3.png>
+![](img/zhuanqian_716e3b278fdb231b613b937872334bb3.png)
 ## 2. 改表格地址
 先打开自己的飞书总控表，切到选题池，从浏览器复制地址栏链接：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fc72ea2abad30aca8f7b2d3262c08161.png>
+![](img/zhuanqian_fc72ea2abad30aca8f7b2d3262c08161.png)
 回到八爪鱼流程里，把所有读取飞书表格的节点都双击打开，把复制来的链接粘贴进去：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_318f9a13894f2d100be23e00bd4100cd.png>
+![](img/zhuanqian_318f9a13894f2d100be23e00bd4100cd.png)
 注意，全局参数、账号列表、选题池要一一对应，别粘错：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3dffb5b1ed3bf83daa6a57ebfba587a0.png>
+![](img/zhuanqian_3dffb5b1ed3bf83daa6a57ebfba587a0.png)
 两个流程都有需要改的位置，全都在开头几行，耐心找一下。
 ## 3. 运行
 配置完直接点运行按钮，脚本就会按顺序执行。如果还想定时跑，八爪鱼也支持计划任务：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a0583ce9480cd12fcf60b678c1a22711.png>
+![](img/zhuanqian_a0583ce9480cd12fcf60b678c1a22711.png)
 不过我目前是手动触发，因为自己选话题的数量不大，手动跑一次就能攒出好几篇。以后如果接入热点自动追选题，再考虑定时执行。
 ## 4. 排错提示
 RPA 本质是模仿人工点击，我的流程是在自己电脑上调试的，屏幕尺寸或软件环境不同可能导致元素定位不到。遇到这种情况，一般重新抓取一下页面元素就能解决。RPA 本身不复杂，花点心思学一下，后面自己也能改流程。

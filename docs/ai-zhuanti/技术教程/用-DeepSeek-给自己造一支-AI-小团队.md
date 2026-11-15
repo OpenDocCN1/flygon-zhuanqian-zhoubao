@@ -17,7 +17,7 @@
 文档里要包含产品架构、业务流程、原型设计、测试用例、开发排期。
 那这些该怎么拆？直接问 AI。
 这里以 ChatBox 作为 AI 助理的载体，还没装 ChatBox 和配置 API KEY 的同学可参考：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_10dfa27be6f92d91fb74244ba28c42e7.png>
+![](img/zhuanqian_10dfa27be6f92d91fb74244ba28c42e7.png)
 AI 给出的拆解是：
 ```
 作为产品经理，整理客户需求并产出解决方案文档时，建议将工作拆解为以下六个核心部分，确保逻辑清晰且覆盖全流程：
@@ -80,9 +80,9 @@ AI 给出的拆解是：
 有了任务清单，下一步就是造你的 AI 小助手。
 ### 先造一个提示词生成专家
 1. 点左下角的“我的搭档”。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3497b7cb3ea2a56086f8994715a7ba82.png>
+![](img/zhuanqian_3497b7cb3ea2a56086f8994715a7ba82.png)
 2. 点“创建新的 AI 搭档”。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e73453c5cf983e64635007ba979469ff.png>
+![](img/zhuanqian_e73453c5cf983e64635007ba979469ff.png)
 3. 给搭档起个名字，把下面这段提示词填进角色设定。
 4. 角色设定：
 ```
@@ -92,9 +92,9 @@ AI 给出的拆解是：
 3\. 提示词应清晰、精确、易于理解，在保持质量的同时，尽可能简洁
 4\. 只输出提示词，不要输出多余解释
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_97031d109e05e5a8659a5245542b3514.png>
+![](img/zhuanqian_97031d109e05e5a8659a5245542b3514.png)
 5. 保存后进入该搭档页面。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d0e8ddceac7adfb61031a71b8ba5f41a.png>
+![](img/zhuanqian_d0e8ddceac7adfb61031a71b8ba5f41a.png)
 ### 按流程节点批量造 AI 小助理
 有了提示词生成专家，就能按工作流批量生成专属助理了。建议用 DeepSeek-R1 做推理，输入模板如下：
 ```
@@ -112,7 +112,7 @@ AI 给出的拆解是：
 - **输出**：需求列表（含优先级）、用户画像、场景描述
 ```
 2. 进入“提示词生成专家”搭档。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ecbf4ce1e37873cc4f313f83aee355cc.png>
+![](img/zhuanqian_ecbf4ce1e37873cc4f313f83aee355cc.png)
 3. 在该搭档下输入提示词让 DeepSeek 生成。
 ```
 请帮我生成一个“需求分析与整理助手”的提示词，它的具体工作内容如下：
@@ -125,18 +125,18 @@ AI 给出的拆解是：
 - **输出**：需求列表（含优先级）、用户画像、场景描述
 ```
 生成结果如下：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3433c2266628904de3636547310a2e86.png>
+![](img/zhuanqian_3433c2266628904de3636547310a2e86.png)
 有时候 Markdown 渲染会把代码块截断，主要是代码块嵌套问题。解决办法是关掉 Markdown 渲染。
 * * *
 #### 关闭 Markdown 渲染的方法
 1. 点左下角“设置”。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2b7599f78dc5be50562a3e41c3cc9971.png>
+![](img/zhuanqian_2b7599f78dc5be50562a3e41c3cc9971.png)
 2. 在弹出的窗口点“对话”。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_438b400de75143a7c8d485d29f2c46d6.png>
+![](img/zhuanqian_438b400de75143a7c8d485d29f2c46d6.png)
 3. 在“对话”设置里关闭“Markdown渲染”后保存。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_24df50649ee86c919f51fc27cf8dca5d.png>
+![](img/zhuanqian_24df50649ee86c919f51fc27cf8dca5d.png)
 4. 回到对话，就能看到完整的未渲染代码了。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5296d856a20593a30cb64dcc7c7d359f.png>
+![](img/zhuanqian_5296d856a20593a30cb64dcc7c7d359f.png)
 * * *
 回到生成结果，把完整内容复制下来。从代码块标记“三个点”的下一行开始复制，到最后一个“三个点”前一行结束。例如下面这个结果，就复制第 2 行到第 50 行。
 ```
@@ -184,14 +184,14 @@ AI 给出的拆解是：
 ```  ---复制到这一行上面为止```
 ```
 1. 复制好后，点“我的搭档”，按创建提示词生成工具的流程创建你的 AI 助手。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0b57bfceec425b28c2788febd4e1bf0a.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d4e2c04177b2cb85f48481be241e11b3.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cfd785e0003ece68e9bf34a7a85e488e.png>
+![](img/zhuanqian_0b57bfceec425b28c2788febd4e1bf0a.png)
+![](img/zhuanqian_d4e2c04177b2cb85f48481be241e11b3.png)
+![](img/zhuanqian_cfd785e0003ece68e9bf34a7a85e488e.png)
 2. 依此类推，把所有助手建完。
 ### 用 AI 小助理完成工作
 建好团队后，只需分别下指令让他们完成各自模块。和他们对话就当带实习生：输出未必惊艳，但很快。你让人工做要一下午，AI 1 分钟就给反馈。你挑能用的部分让它再润色即可。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0174710695b95470be282785d70963d8.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e973d8347bddcade03818c54e2059f0b.png>
+![](img/zhuanqian_0174710695b95470be282785d70963d8.png)
+![](img/zhuanqian_e973d8347bddcade03818c54e2059f0b.png)
 ### 为什么要拆成多個助理
 有人会问，直接做一个万能助理不行吗？
 这就回到第一个误区了。指望一次生成完美结果不现实，需要多次微调。而对话过长模型容易遗忘。我们把工作域拆小，让模型在可控范围内完成，整体质量才可控。Manus 这类套壳产品的本质逻辑，和我们今天讲的一模一样。

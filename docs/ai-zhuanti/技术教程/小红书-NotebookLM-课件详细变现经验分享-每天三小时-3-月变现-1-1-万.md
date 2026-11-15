@@ -1,7 +1,7 @@
 # 小红书 NotebookLM 课件详细变现经验分享，每天三小时，3 月变现 1.1 万
 每天3个钟头，用 NotebookLM 做小某书自制课件，三月份入账 1.1 万
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_df9a53a337f1a48867307294c83f5f7d_0_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_df9a53a337f1a48867307294c83f5f7d_0_1.png>
+![](img/zhuanqian_df9a53a337f1a48867307294c83f5f7d_0_0.png)
+![](img/zhuanqian_df9a53a337f1a48867307294c83f5f7d_0_1.png)
 （微信号：）
 我原本做电子资料转售，后来彻底转向自制教学模板。靠着 NotebookLM，每天只花3个钟头，三月份赚了1.1万。
 现在我已经梳理出一套在小某书卖 PPT 的完整思路，也学会了怎么挑细分方向。与其每天担心版权风险，不如把时间花在自产内容上，出单反而稳定。
@@ -9,8 +9,8 @@
 我是 YaoYuan，02年生人。2023年4月10日成为赚钱社群的一员，同年11月15日开始卖数字产品。后来平台规则大改，刚好 NotebookLM 又能直接生成 PPT，我就从 2025 年 12 月的航海活动开始转型，一直做到今天。首月基本在试错，现在已经形成自己的节奏。
 发帖是想复盘，更想找人交流。我自己闷头做了很久，最近才意识到进步不大，因为看不见自己的盲区。前两天刷到有圈友在B站分享，他把图片生成、文案书写、数据采集全流程自动化，我一下子被震住了，发现还能这样玩。如果能认识更多做小某书数字产品的朋友，应该能成长得更快。
 ### 先看结果：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_df9a53a337f1a48867307294c83f5f7d_1_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_df9a53a337f1a48867307294c83f5f7d_1_1.png>
+![](img/zhuanqian_df9a53a337f1a48867307294c83f5f7d_1_0.png)
+![](img/zhuanqian_df9a53a337f1a48867307294c83f5f7d_1_1.png)
 ![](bbox=[60, 34, 850, 257])
 ![](bbox=[60, 263, 848, 668])
 ## 二、与赚钱结缘
@@ -42,9 +42,9 @@
 只要这两条想清楚，就能长期做。一旦满足，这个方向就值得按部就班做下去，不需要刻意赌爆款。我想要的是“持续更新就能稳定出单”的系统，不是赌爆款。
 找方向的方法：先搜“PPT”这个宽泛词，再顺着结果去找细分词，用小词验证市场。
 我在搜索结果里看到，排在前面的某个国际时事主题就是 NotebookLM 做的。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_df9a53a337f1a48867307294c83f5f7d_11_0.png>
+![](img/zhuanqian_df9a53a337f1a48867307294c83f5f7d_11_0.png)
 继续往下翻，有位看起来很赚钱的博主，制作门槛相当高，NotebookLM 做不出那种效果，得有一定的版式功底才行。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_df9a53a337f1a48867307294c83f5f7d_12_0.png>
+![](img/zhuanqian_df9a53a337f1a48867307294c83f5f7d_12_0.png)
 ```markdown
 | PPT 搜索 |
 | + 全部 用户 商品 图片 地点 问一问 |
@@ -69,21 +69,21 @@
 | **课前小游戏大全集** |
 ```
 下面这些是搜索结果截图：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_df9a53a337f1a48867307294c83f5f7d_14_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_df9a53a337f1a48867307294c83f5f7d_14_1.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_df9a53a337f1a48867307294c83f5f7d_14_2.png>
+![](img/zhuanqian_df9a53a337f1a48867307294c83f5f7d_14_0.png)
+![](img/zhuanqian_df9a53a337f1a48867307294c83f5f7d_14_1.png)
+![](img/zhuanqian_df9a53a337f1a48867307294c83f5f7d_14_2.png)
 ![](bbox=[440, 139, 839, 273])
 ![](bbox=[79, 180, 428, 386])
 ![](bbox=[440, 381, 839, 563])
 ![](bbox=[0, 0, 1.0, 0.574])
 从这些图里能看出，评优答辩类的作品点进去基本都是校内竞选模板，单品销量能到几千单；寓言类小故事单价不高，但总共卖了1.3万份，而且能延伸出很多套，目前几乎没竞争对手。
 我还发现两个英文方向的案例：一家店只开了一年，专做英文文法模板，按9.9一单估算，8719单就是8.6万；另一家店更聪明，把多个模板打包成一整个链接卖，一个链接就出了800多单，整店也就900多单。下图是打包销售的证据：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_df9a53a337f1a48867307294c83f5f7d_17_0.png>
+![](img/zhuanqian_df9a53a337f1a48867307294c83f5f7d_17_0.png)
 这家店的数据截图：
 ![](bbox=[375, 77, 522, 138])
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_df9a53a337f1a48867307294c83f5f7d_19_0.png>
+![](img/zhuanqian_df9a53a337f1a48867307294c83f5f7d_19_0.png)
 英文方向为什么值得做？就像圈内人 Luke 说的，英文是亚洲很多国家的人绕不开的课题。除了文法，还可以把经典英文教材1-4册的PDF拿给Gemini写文案，再用NotebookLM做PPT；剑桥英文、日常情景英文也都能做，凑200套没问题，还能延伸到英文资料、英文练习册。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_df9a53a337f1a48867307294c83f5f7d_21_0.png>
+![](img/zhuanqian_df9a53a337f1a48867307294c83f5f7d_21_0.png)
 这是按这套流程做出的课件示例。
 最后补一句：现在有很多用AI改良的老师向模板，但传统老师向模板客单价很难超过9.9，甚至更低。
 AI教学幻灯片怎么卖？从18.8元的爆款套餐说起
@@ -94,13 +94,13 @@ AI教学幻灯片怎么卖？从18.8元的爆款套餐说起
 以某店铺的商品为例：![](bbox=[72, 109, 467, 259])![](bbox=[473, 109, 836, 259])![](bbox=[63, 323, 456, 473])![](bbox=[467, 323, 828, 473])
 接着看春季上新款，定价略高，约21元到23元，成交量也有数百份：![](bbox=[92, 156, 479, 307])![](bbox=[484, 156, 846, 307])![](bbox=[92, 406, 479, 557])![](bbox=[484, 406, 846, 557])
 除了常规学科，毛笔字课程也是一条值得做的细分赛道。目前做的人不多，但需求稳定。不少店铺不仅卖幻灯片，还搭配字帖、课堂游戏、家长会模板等资料，差不多把能卖的都卖了一圈。遗憾的是，他们往往没有将这些产品做成组合套餐，白白浪费了提升客单价的机会。如果换作我，会一边大量制作幻灯片，一边补充周边资料，最后推出捆绑套餐。
-来看几个毛笔字类产品的案例，定价多在8.8元到9.9元，成交上千：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_df9a53a337f1a48867307294c83f5f7d_27_0.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_df9a53a337f1a48867307294c83f5f7d_27_1.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_df9a53a337f1a48867307294c83f5f7d_27_2.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_df9a53a337f1a48867307294c83f5f7d_27_3.png>
-从搜索结果可以看出，这类店铺的买家评价相当不错，加购人数也不少：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_df9a53a337f1a48867307294c83f5f7d_28_0.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_df9a53a337f1a48867307294c83f5f7d_28_1.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_df9a53a337f1a48867307294c83f5f7d_28_2.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_df9a53a337f1a48867307294c83f5f7d_28_3.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_df9a53a337f1a48867307294c83f5f7d_29_0.png>
+来看几个毛笔字类产品的案例，定价多在8.8元到9.9元，成交上千：![](img/zhuanqian_df9a53a337f1a48867307294c83f5f7d_27_0.png)![](img/zhuanqian_df9a53a337f1a48867307294c83f5f7d_27_1.png)![](img/zhuanqian_df9a53a337f1a48867307294c83f5f7d_27_2.png)![](img/zhuanqian_df9a53a337f1a48867307294c83f5f7d_27_3.png)
+从搜索结果可以看出，这类店铺的买家评价相当不错，加购人数也不少：![](img/zhuanqian_df9a53a337f1a48867307294c83f5f7d_28_0.png)![](img/zhuanqian_df9a53a337f1a48867307294c83f5f7d_28_1.png)![](img/zhuanqian_df9a53a337f1a48867307294c83f5f7d_28_2.png)![](img/zhuanqian_df9a53a337f1a48867307294c83f5f7d_28_3.png)![](img/zhuanqian_df9a53a337f1a48867307294c83f5f7d_29_0.png)
 接下来拆解一套30页毛笔字入门课程的制作过程。第一步是让Gemini设计大纲。如果对初版不满意，可以让它反复调整。需要注意的是，最好不要一开始就让它直接输出全部正文，否则内容一多，分两次产出时很容易出现衔接断裂。更稳妥的做法是先给出目录，再按目录逐段输出。
 我当时的做法是告诉Gemini：想做一套30页的毛笔字第一课体验课程，请给出一份目录。Gemini给出的方案是把整套内容分成“赏、具、修、习、品”五个篇章，并细化到每一页的用途，包括封面、毛笔字简史、名家作品赏析、书写工具、执笔姿势、笔画练习、课堂演示、学生体验，以及课后练习阶段和佳作展示，整体框架相当完整。它甚至建议使用浅色宣纸底色、衬线字体，并加入教师手写视频和互动环节，让课堂更有温度。
 第二步是分段产出文本。由于NotebookLM单次最多稳定生成15页PDF，所以最好将30页分成两个批次。如果AI没有严格按目录输出，可以要求它重新来过。把两批文字粘贴进Word后，如果版面显得凌乱，可以用WPS的段落整理功能一键理顺。
-之后，将两个文档导入NotebookLM前，需要准备一段样式引导语，否则两批版式的观感很可能不一致。这个引导语最好让Gemini转为英文再使用。如果你还不确定想要什么主题，可以先从小红书找一份喜欢的对标作品，把截图发给Gemini，让它帮你优化大纲，或者直接给出样式引导语，这也可以视为一种二次创作。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_df9a53a337f1a48867307294c83f5f7d_31_0.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_df9a53a337f1a48867307294c83f5f7d_31_1.png>
-我使用的引导语特别强调了“白底、左图右文、内容严格一致”这三项要求。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_df9a53a337f1a48867307294c83f5f7d_33_0.png>
+之后，将两个文档导入NotebookLM前，需要准备一段样式引导语，否则两批版式的观感很可能不一致。这个引导语最好让Gemini转为英文再使用。如果你还不确定想要什么主题，可以先从小红书找一份喜欢的对标作品，把截图发给Gemini，让它帮你优化大纲，或者直接给出样式引导语，这也可以视为一种二次创作。![](img/zhuanqian_df9a53a337f1a48867307294c83f5f7d_31_0.png)![](img/zhuanqian_df9a53a337f1a48867307294c83f5f7d_31_1.png)
+我使用的引导语特别强调了“白底、左图右文、内容严格一致”这三项要求。![](img/zhuanqian_df9a53a337f1a48867307294c83f5f7d_33_0.png)
 推荐的引导语可以直接复制使用：```
 Role: 你是一位专业的高级 PPT 设计师，擅长“新中式”简约审美风格。
 Task: 请根据我提供的文档内容，将其转化为一套共 30 页的软笔书法体验课 PPT 大纲。
@@ -120,9 +120,9 @@ Output Format:
 • 右侧正文：(来自文档的详细要点，请分条列出)
 ```
 NotebookLM还有几个操作细节值得注意。其一，可以先生成第1至15页，确认样式没问题后，再让它以相同样式生成第16至30页；其二，如果版式出现非中文字符或乱码，可以要求它重写并删除这些字符；其三，左侧图片尽量选择高清宣纸纹理或毛笔字真迹局部，这样白底版式会显得更有质感。
-接下来，点击铅笔图标，在输入框中粘贴刚才的引导语。需要注意的是，每次只能选择一个文档进行生成。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_df9a53a337f1a48867307294c83f5f7d_33_1.png>
-等待大约十分钟，生成完成后即可下载。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_df9a53a337f1a48867307294c83f5f7d_34_0.png>
-之后是合并环节。将下载下来的文件全部选中，右键转换为PPT格式即可，这个功能需要会员，但淘宝上可以很便宜地买到WPS会员。转换后，把两个PPT文件合并为一个完整文件。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_df9a53a337f1a48867307294c83f5f7d_34_1.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_df9a53a337f1a48867307294c83f5f7d_35_0.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_df9a53a337f1a48867307294c83f5f7d_35_1.png>
+接下来，点击铅笔图标，在输入框中粘贴刚才的引导语。需要注意的是，每次只能选择一个文档进行生成。![](img/zhuanqian_df9a53a337f1a48867307294c83f5f7d_33_1.png)
+等待大约十分钟，生成完成后即可下载。![](img/zhuanqian_df9a53a337f1a48867307294c83f5f7d_34_0.png)
+之后是合并环节。将下载下来的文件全部选中，右键转换为PPT格式即可，这个功能需要会员，但淘宝上可以很便宜地买到WPS会员。转换后，把两个PPT文件合并为一个完整文件。![](img/zhuanqian_df9a53a337f1a48867307294c83f5f7d_34_1.png)![](img/zhuanqian_df9a53a337f1a48867307294c83f5f7d_35_0.png)![](img/zhuanqian_df9a53a337f1a48867307294c83f5f7d_35_1.png)
 到这里，一套产品就基本完成了。去掉水印，导出图片，就可以上架到电商平台，或发布到小红书做展示。这样的作品虽然不算惊艳，但达到60分的水平已经足够，靠数量取胜，再配合组合套餐，收益会很可观。更重要的是，每天花在上面的时间很少。一旦有了稳定的引导语模板和自动排版工具，整个流程就变成了流水线作业。我甚至做了一款小工具，导入图片后能自动按顺序排版并输出到指定文件夹，再也不用每天手动插入一百多张图片。
 最后，分享一个从公众号“野生运营社区”看到的流程，虽然未经授权，但对方是免费公开的，值得借鉴。那位作者只用了四个工具：Gemini负责全部文字和引导语，NotebookLM负责视觉版式，Canva负责擦除文字和导出PPT，iLovePDF负责文件拆分合并。Canva会员在闲鱼上花19.9元就能买到国际版永久权限，iLovePDF完全免费，工具成本几乎可以忽略不计。![](bbox=[56, 183, 848, 309])
 核心方法是：不需要追求完美的引导语，直接用自然语言向Gemini描述需求即可。比如，该作者在小红书刷到一份数据很好的“班干部说明书”班会课件，于是把截图发给Gemini，请它先提炼原课件的内容和框架，再基于此设计一份20页左右的同类班会方案，只借鉴结构，不照搬原文。![](bbox=[219, 48, 830, 86])
@@ -143,31 +143,31 @@ Gemini 会返回一份非常规整的方案，里面包含角色设定、文字�
 **第三环：在 NotebookLM 里分批生成，合并 PDF**
 打开 NotebookLM，新建一个笔记本。因为对话框有字数限制，20 页文案没法一次性塞进去。我的做法是：把前 11 页文案存成一个文本来源，后 9 页存成另一个来源，再把刚才写好的画面描述也存成一个来源。这样一来，笔记本里就躺了三个来源。
 生成时，先勾选前 11 页来源 + 画面描述来源，让 NotebookLM 生成前 11 页；完成后直接下载 PDF。接着勾选后 9 页来源 + 画面描述来源，生成剩下内容，同样下载 PDF。最后用 iLovePDF 把两个文件合并成完整的 20 页文档，免费，几秒钟搞定。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_page_41.png>
+![](img/zhuanqian_page_41.png)
 **第四环：用 Canva 的 AI 橡皮擦，把“图片课件”变成“可编辑课件”**
 这步是整个流程中最神奇的地方：把 NotebookLM 生成的图片式课件，翻转成可编辑的演示文稿。
 先把合并好的 PDF 上传到 Canva，它会把每一页自动识别成独立画布。但此时文字和背景是焊死的，没法直接改。我们需要用 Canva 的 AI 橡皮擦，把每一页上的所有文字擦掉。
 操作时有两个要点：第一，笔刷大小要跟着文字尺寸走，小字用细刷，大字用粗刷；第二，擦除范围必须完整框住每个字，哪怕漏出一角，也要重新补擦一次。
 为什么前面反复强调文字底下要纯色背景？因为如果文字和插画叠在一起，擦字的时候会把插画一起擦花。而当文字下面是一块干净的白色或纯色区域时，擦掉文字后背景会自动补齐，画面完好无损。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_page_42.png>
+![](img/zhuanqian_page_42.png)
 20 页看似很吓人，实际上五分钟内就能全部擦完。擦完之后，你就得到一套只有背景图、没有任何文字的空白母版。接着点击 Canva 右上角的“分享”，下载格式选演示文稿格式。Canva 会直接导出一个可编辑的 PPT 文件。这就是为什么前面只需要下载 PDF——最终的编辑文件在这里才真正诞生。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_page_43.png>
+![](img/zhuanqian_page_43.png)
 **第五环：在 Office 里贴文字、调样式、加动画**
 用 PowerPoint 打开刚导出的空白文件，同时把 Gemini 生成的文案准备好。我习惯把文案发到微信文件传输助手，方便随时复制。
 接下来就是体力活：在每一页新建文本框，把对应文案粘贴进去，再调字号、字体、颜色和位置。字体我只用两类：标题用圆体，正文用黑体，简洁耐看。最好选 Office 自带的字体，不要用需要额外安装的字体，否则买家打开文件时可能出现字库缺失、版面错乱。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_page_44.png>
+![](img/zhuanqian_page_44.png)
 颜色也不用猜。Office 的取色器可以直接吸取原 PDF 截图上的颜色，保证整体色调和 NotebookLM 生成的一致。这一步大概需要三十分钟到四十分钟，是全流程最耗时、但也最能拉开产品差距的环节。因为完成后，每个文字都是独立文本框，买家想改哪里就改哪里。
 文字贴完，接着加动画。动画分两类：一类是页面之间的切换效果，一类是页面内元素的出场动画。前者在“切换”选项卡里，后者在“动画”选项卡里。我的原则很简单：同一页里几个元素尽量用不同的出场方式，相邻两页的切换效果不重复。动画操作本身非常快，不需要思考，纯手速活。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_page_45.png>
+![](img/zhuanqian_page_45.png)
 **第六环：生成演讲稿和教案，打包上架**
 课件完成之后，还需要配一份演讲稿和一份教案。我会让 Gemini 写一篇 5000 字左右的课堂演讲稿，要求包含动作提示和语气引导；再让它生成一份标准班会教案，涵盖基本信息、教学目标、教学过程等字段。三件套打包，定价 12.9 元，就可以上架销售了。
 比如我给低年级做的《班干部“魔法”说明书》，Gemini 会把演讲稿写成“超级英雄入职仪式”的童话风格，里面全是“红绿灯”“魔法咒语”“充电宝”这类生动比喻，老师照着讲，孩子听得眼睛发光。教案则会把班级管理术语翻译成游戏化体验和同理心建设，既符合儿童心理发展规律，又能顺利通过学校审查。
 **发笔记与出单的实操细节**
 产品做出来只是第一步，真正带来订单的是发布环节。一套课件可以衍生出多种笔记：把每一页导出成图片，再重新组合成不同封面，五张图一组能发一篇，换一种排列、挑三张图又能发成另一篇，素材可以反复利用。
 另外还有一个很多人不知道的功能：PowerPoint 可以直接把课件导出为视频。在“文件”菜单里选“导出”，再选“创建视频”，系统会自动把所有动画效果录制成视频文件，不需要录屏。导出的视频通常速度偏慢，我会用剪映加速到 2 到 2.5 倍，再配个背景图，就能发布视频笔记。实测下来，视频笔记的浏览数据确实比图文好很多。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_page_46.png>
+![](img/zhuanqian_page_46.png)
 这里可以看一个实际产品长什么样。比如三月学雷锋主题班会课件，封面写着“寻找身边的小雷锋”，目录分为“跨越时空的相遇”“寻找身边的小雷锋”“班级夸夸群大互动”三个章节，每页都是手绘风插画加圆点文字，清晰又可爱。雷锋故事页会讲到他在火车上帮乘务员扫地、给老奶奶找座位、替大嫂指路，大家还以为他是列车员。这样一个课件，就能拆成多篇笔记来发。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_page_47.png>
+![](img/zhuanqian_page_47.png)
 再说发布频率。我给自己定的要求是每天至少上新 1 到 2 套课件，发布 4 到 5 篇笔记。两点禁忌：第一，两篇笔记之间至少间隔一小时，不要连发；第二，同一套课件的笔记不能集中砸出来，否则你的主页拉下来全是同一个产品，观感极差。
 关于商品链接，我几乎所有笔记都直接挂商品链接，很少发不带链接的种草内容。原因很直接：我店铺每天访客可能只有 10 人，但其中四五个会直接下单，支付转化率能达到 40% 到 50%。既然转化率这么高，流量就应该全部导向成交，没必要浪费在种草环节。而且小红书把商品笔记和自然流笔记分了不同的流量池，考核标准也完全不同，这个认知你得尽早建立。
 **结语**
@@ -177,4 +177,4 @@ Gemini 会返回一份非常规整的方案，里面包含角色设定、文字�
 # 分割线
 ```
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_page_50.png>
+![](img/zhuanqian_page_50.png)

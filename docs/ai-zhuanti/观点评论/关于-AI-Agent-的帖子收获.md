@@ -12,8 +12,8 @@
 这个描述其实也是我对 ChatPAN 助手（包括助手内部 Bot）的底层理解——这种结构天然能串起来干活。只要把上面的 "name" 换成 "assistant_uuid"，就能直接对应上 ChatPAN 已有的助手体系。
 实验效果见图 2。我这次测试用的场景，是一个正在对接的复杂客服需求。当然，用提示词硬写也不是不行，但真要论优雅和扩展性，显然是多助手协同更胜一筹。
 到目前为止，这些都还只是比较初步的尝试，后面仍有大把细节要打磨。发出来算是抛砖引玉，希望能和更多同好交流碰撞。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cf03c06d0b2726944b36573ef3ccd1a2.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5214046f4abff92bf8c3b73856e45d59.png>
+![](img/zhuanqian_cf03c06d0b2726944b36573ef3ccd1a2.png)
+![](img/zhuanqian_5214046f4abff92bf8c3b73856e45d59.png)
 评论区：
 希声 : 666
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_894d30a529e7c37bcd3392323c99941c.png>
+![](img/zhuanqian_894d30a529e7c37bcd3392323c99941c.png)

@@ -24,11 +24,11 @@ Employee Data
 *   长时间检索独立开发者作品，鲜有能触达月入十万美元量级的标杆
 *   临近截稿在收益榜单上随机挑选了一家表面颜值在线的站点
 *   首页质感不错，实测注册后发现功能体量相当厚重
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_abab63d8cdbf9a304be0e8560cfd8bc7.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_00c5d33ceba985c36f5b0d6577723305.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a2ff15f8dff55afd4e84b55cfa8cfe56.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5f52dd4fdbe875aa0675d7311abb1556.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b1cdda3df872652901989fabee66c377.png>
+![](img/zhuanqian_abab63d8cdbf9a304be0e8560cfd8bc7.png)
+![](img/zhuanqian_00c5d33ceba985c36f5b0d6577723305.png)
+![](img/zhuanqian_a2ff15f8dff55afd4e84b55cfa8cfe56.png)
+![](img/zhuanqian_5f52dd4fdbe875aa0675d7311abb1556.png)
+![](img/zhuanqian_b1cdda3df872652901989fabee66c377.png)
 以上费用包含两部分，订阅费用和AI插件的费用，订阅费用按照团队支付，AI插件费用按照人头支付。AI功能可以试用，有点像Notion里的AI功能。
 ## 1 流量分析
 第一步，先弄清访客从哪里来。
@@ -39,27 +39,27 @@ Employee Data
 *   联盟推广
 *   付费邀请达人制作长/短视频露出
 *   谷歌自然排名与付费推广
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_aaad74795645324bd049714e8cfe95a5.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_39479f8fc503ea57c0ab57985e5733c4.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6f42ad18d3ae49d78e9a673d7f1cca1e.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f225d5ea1bbb048b47889ad0623afe4b.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_46cd8c38157ca09b0b1729c0b6cf65d4.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4ddeedf977625f6e3f5283124009ae75.png>
+![](img/zhuanqian_aaad74795645324bd049714e8cfe95a5.png)
+![](img/zhuanqian_39479f8fc503ea57c0ab57985e5733c4.png)
+![](img/zhuanqian_6f42ad18d3ae49d78e9a673d7f1cca1e.png)
+![](img/zhuanqian_f225d5ea1bbb048b47889ad0623afe4b.png)
+![](img/zhuanqian_46cd8c38157ca09b0b1729c0b6cf65d4.png)
+![](img/zhuanqian_4ddeedf977625f6e3f5283124009ae75.png)
 ### Twitter
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ae883ec5b4ae7549e5e6e04897c5ed02.png>
+![](img/zhuanqian_ae883ec5b4ae7549e5e6e04897c5ed02.png)
 官网自营的 X 账号持续输出内容，用来承接自然流量。
 ### Youtube
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a61a7b4c3408cf0ae72cfe275f3213f9.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0fc02392e33a05a1bb81bd4ee0e73393.png>
+![](img/zhuanqian_a61a7b4c3408cf0ae72cfe275f3213f9.png)
+![](img/zhuanqian_0fc02392e33a05a1bb81bd4ee0e73393.png)
 教学类内容部分由用户自发产出，部分疑似与官方合作。
 ### Affiliate
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_832a7157de65bc97ee86d3f876d8522e.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6748cdd48486597c3793c2a551ebced6.png>
+![](img/zhuanqian_832a7157de65bc97ee86d3f876d8522e.png)
+![](img/zhuanqian_6748cdd48486597c3793c2a551ebced6.png)
 平台开放合作伙伴计划，佣金区间约为 5—20 美元。
 ### SEO
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ae43258719ba8da5df5200524215d609.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b17db82e6c402e180c9a32b65cc5a38f.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_63c84ebb6f9f571cce9079842e92cb13.png>
+![](img/zhuanqian_ae43258719ba8da5df5200524215d609.png)
+![](img/zhuanqian_b17db82e6c402e180c9a32b65cc5a38f.png)
+![](img/zhuanqian_63c84ebb6f9f571cce9079842e92cb13.png)
 核心关键词在 Google 稳居首位，收录页面超过 3 万，外链数量超过 8.6 万。
 ### 结论
 *   Twitter：约 6 万关注者，沉淀了一批核心粉丝。
@@ -70,7 +70,7 @@ Employee Data
 ClickUp 的定位是一套统一的工作操作系统，可用单一应用承载各类业务场景。产品矩阵涵盖任务、文档、目标、白板、仪表盘、即时通讯等，以及多样化的视图、集成与自动化选项。设计主线是提升效能、强化协同、提高工作透明度。强大的无代码自动化可覆盖项目管理、远程协作、客户关系管理等多种用法。该产品已获超两百万团队采用，适用于企业、初创、非营利等不同主体。
 本质上它是一个升级版待办系统，通过把办公生态打通并接入智能能力，大幅提升了个人与团队的生产速率。
 智能能力当前主要集中于写作辅助。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e13a2ee55af12c39f6208991b4d4b020.png>
+![](img/zhuanqian_e13a2ee55af12c39f6208991b4d4b020.png)
 ### 商业模式拆解
 #### 核心逻辑
 *   ClickUp 提供一体化的工作管理方案，让团队在同一平台内完成协同、规划与执行。
@@ -80,7 +80,7 @@ ClickUp 的定位是一套统一的工作操作系统，可用单一应用承载
 *   自动化与集成能力突出，能替代多款独立工具，减少工具切换摩擦。
 #### 定价思路
 *   采用分层定价，既有免费基础版，也有多档付费高级版，以匹配不同规模需求。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_128f4911e9fa1c81aa3d513e4a2d64a2.png>
+![](img/zhuanqian_128f4911e9fa1c81aa3d513e4a2d64a2.png)
 #### 变现路径
 *   主要收入来自订阅付费与企业服务。
 ### 市场分析
@@ -92,8 +92,8 @@ ClickUp 的定位是一套统一的工作操作系统，可用单一应用承载
 *   ClickUp 以丰富的功能与高灵活性精准卡位。
 ## 3 收益推算
 参考第三方数据监测平台：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_551c27a3dfea5dc0a4db457b642ae225.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3a6d99d2cc1930351ca3621963e5de20.png>
+![](img/zhuanqian_551c27a3dfea5dc0a4db457b642ae225.png)
+![](img/zhuanqian_3a6d99d2cc1930351ca3621963e5de20.png)
 ## 4 如何复刻与放大
 ### 用户视角
 #### 使用体验

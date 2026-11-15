@@ -12,28 +12,28 @@
 1.  建立对生成式 AI 模型的认知框架。
 2.  了解使用生成式 AI 时的伦理边界。
 3.  认识生成式 AI 工具对职业场景的冲击。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a8c3eaa385db7f44ac5781601746965f.png>
+![](img/zhuanqian_a8c3eaa385db7f44ac5781601746965f.png)
 # 拿证只要三步
 按官方规则，完成这三件事就能领证：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7909effa182116f7cf9a66cdf4250a26.png>
+![](img/zhuanqian_7909effa182116f7cf9a66cdf4250a26.png)
 1.  课程全是视频，共 5 个主模块，每个主模块下拆成若干小节；
 2.  全部看完后系统会显示完成时长，可一键同步到领英个人档案，同步后档案会显示已收录；
 3.  课程清零后可解锁结业考试，正确率 ≥70% 即算通过，可下载 PDF 证书，截图保存即可传播。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f98f2ef0a4bdce178e85777b3f1e8061.png>
+![](img/zhuanqian_f98f2ef0a4bdce178e85777b3f1e8061.png)
 # 视频怎么快看
 1.  播放速度调到 2 倍；
 2.  字幕切成中文；
 3.  开启自动连播：视频会自动进入下一条，但第一单元结束后会弹出【试用领英会员一个月】和【观看免费视频】两个选项，必须手动点【观看免费视频】，之后就不再打断。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b02df485ca02fb9885382f738f54375f.png>
+![](img/zhuanqian_b02df485ca02fb9885382f738f54375f.png)
 # 单元测验速刷法
 1.  看完单元最后一个视频会自动弹出测验，屏幕会出现倒计时。别慌，时间走完也不影响拿证。你可以先把整单元视频看完再统一做；
 2.  做对做错都不影响证书发放，可无限重做，还能看标准答案和解析；
 3.  用工具提效：我用 Claude 辅助，实测正确率约 95%。操作举例：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8b28b68c762be5be19a334a81acbf438.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1dc9c865a4ceaf60a3d2883678e3b728.png>
+![](img/zhuanqian_8b28b68c762be5be19a334a81acbf438.png)
+![](img/zhuanqian_1dc9c865a4ceaf60a3d2883678e3b728.png)
 1.  上面这种方式基本等于只做翻译，我按视频内容选 C，太费劲；
 2.  改成下面这套指令，模型会直接给出正确答案并附带解释。我只要看到「第三个选项」四个字就点选，后续解释还没生成完我就已经在发下一题的指令了；
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_718a311e6d649a82c98d34bacfb6bcd8.png>
+![](img/zhuanqian_718a311e6d649a82c98d34bacfb6bcd8.png)
 1.  这已经不只是翻译，是把 AI 当学习搭子。我们考的就是生成式 AI，用 Claude 这种生成式工具去解题，体验真的很顺；
 2.  按此节奏把所有单元测验刷完，合计约 10 分钟；
 3.  官方显示的课程时长是 3小时49分钟，倍速不改变显示时长，所以实际我用时不到 2 小时；
@@ -42,10 +42,10 @@
 终考仅有 3 次机会，要求正确率 >70%。按我的流程，15 分钟就能稳过。
 1.  复制题目：考题页面不支持直接复制文本，我用的是截图 + 图片转文字。常用组合是 iShot 截图 + CamScanner 识别。
 2.  丢给 ChatGPT 作答：指令模板同上，我用的是 3.5 版本，你也可以试 4.0。模型会直接点出正确答案，实测准确率约 90%，一次过没问题。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_63b7ab39cecb5fcca76854f33387403d.png>
+![](img/zhuanqian_63b7ab39cecb5fcca76854f33387403d.png)
 # 两种证书怎么区分
 1.  课程完成证书在学习页面的右下角，只有领英 LOGO。5 门课全部打卡后即可下载，适合和主证书一起晒朋友圈；
 2.  考试合格证书在考试通过页和课程主页都能下载，证书上同时带有领英和微软的双 LOGO。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_effa0cd67770cc35b37773517536dc96.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_38b9f54de1219607e26a349edd6da851.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c0c17cddee0914c587c1f6d3734153cb.png>
+![](img/zhuanqian_effa0cd67770cc35b37773517536dc96.png)
+![](img/zhuanqian_38b9f54de1219607e26a349edd6da851.png)
+![](img/zhuanqian_c0c17cddee0914c587c1f6d3734153cb.png)

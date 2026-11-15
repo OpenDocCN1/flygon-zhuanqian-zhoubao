@@ -1,18 +1,18 @@
 # 从翻车到跑通：我用APIcore半天搭好AI解压视频自动化工作流
 > 别急着放弃，换条路也许更快
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5ad518a01ccd4cb6ddacffd47f1102ae.png>
+![](img/zhuanqian_5ad518a01ccd4cb6ddacffd47f1102ae.png)
 大家好，我是龙哥。
 这篇教程的缘起，其实有点狼狈。按照航海手册的指引去注册 kia.ai 那个 API 中转站，结果卡在了真人验证环节——来来回回试了七八次，系统一直提示操作太频繁。我不死心，换了另一台设备重新登录，依旧注册失败。开局就翻车，说不郁闷是假的。
 但API中转站又不是独此一家。与其死磕，不如直接换个熟悉的平台——APIcore。
 ### APIcore是什么
 简单来说，这是赚钱圈友“书虫”自己搭的一个API中转站。网址放这儿：https://api.apicore.ai
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b40a69442f0644377904df870ecccf65.png>
+![](img/zhuanqian_b40a69442f0644377904df870ecccf65.png)
 （截取官网公告时间：2025年9月10日）
 用过一圈的感觉是，这家中转站不仅稳定，价格也很能打——调一次 Veo 3，只要五毛钱人民币。
 虽说走了点弯路，但花了一下午时间，我一边对照着 Kia.ai 的教程，一边自己摸索、随时问 AI，最后还是用 APIcore 把 AI 解压视频的 n8n 工作流完整跑通了。两边到底差在哪儿？下面慢慢说。
 前面两个节点，航海手册写得很细，照着做就行。真正开始分叉，是从第三节点「Http Request」开始的——也是从这里起，开始接管 APIcore 的接口来生成视频。
 下面的讲解配合截图看，更容易消化（图为APIcore官方文档）
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2e24587b48807ca0ee9a29678fdf2c49.png>
+![](img/zhuanqian_2e24587b48807ca0ee9a29678fdf2c49.png)
 URL 就是我们要请求的地址，这里直接填：
 https://asyncdata.net/tran/https://api.apicore.ai/v1/chat/completions
 这个地址是翻官方文档翻出来的，把文档里的链接原样拷进来就行（不要去在线调试，它是伪异步）。流式请求相关说明见 APICore 文档。
@@ -31,19 +31,19 @@ https://api.apicore.ai/v1/chat/completions —— 是你真正想寄到的那个
 ### API Key从哪领
 申请地址：https://ismaque.org/
 进后台之后，找到「API令牌」，直接创建新令牌。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_29fd7a095abbccb4d7465aa73c879a3a.png>
+![](img/zhuanqian_29fd7a095abbccb4d7465aa73c879a3a.png)
 点「创建新的令牌」之后，按自己的情况填：令牌名称 → 分组选 default → 设个过期时间 → 设好额度，往下拉点提交。
 剩下的选项可以一律不动，以后需要再回来修改。
 建好后复制秘钥保存好。
 这个平台支持人民币支付。
 ### 节点3实操
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_14ef3265d9ad6da17f62e5031e9a32e8.png>
+![](img/zhuanqian_14ef3265d9ad6da17f62e5031e9a32e8.png)
 POST 的含义是“向指定地址提交信息”，对应的是 GET（从指定地址拿信息）。这里毫无疑问选 POST。
 URL 就填上面说的那条中转地址：https://asyncdata.net/tran/https://api.apicore.ai/v1/chat/completions
 Authentication 是认证设置，相当于你开门要用钥匙。按图里选：Predefined Credential Type（预定义凭证类型）。
 Credential Type 里搜 Bearer Auth，选中它。
 然后创建凭证：点 Select Credential → Create New。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0877581d8d3b03ee17a69d136a915f45.png>
+![](img/zhuanqian_0877581d8d3b03ee17a69d136a915f45.png)
 左边 Name 随便起，比如 “APICore Veo Key”。
 Bearer Token 栏把 sk-…… 那串密钥完整贴进去。
 保存。
@@ -54,7 +54,7 @@ Bearer Token 栏把 sk-…… 那串密钥完整贴进去。
 4. Name 字段必须填 Authorization。
 5. Value 字段填 Bearer（注意后面有个空格）加你的密钥，形如Bearer sk-9p...KCJy。
 这样就等于亲口告诉 n8n：“麻烦在请求头里放一项叫 Authorization，值就是 Bearer sk-xxxx”。效果跟 Bearer Auth 一样，只是手动把字段明着写出来了。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_59bd7d7fdff88ceaf14efdc6d31c9fae.png>
+![](img/zhuanqian_59bd7d7fdff88ceaf14efdc6d31c9fae.png)
 往下翻，把 Send Headers 和 Send Body 的开关都打开。
 Headers 那里点开 Specify Headers 的下拉，选 Using JSON，然后粘贴：
 CodeJson（直接复制）
@@ -77,11 +77,11 @@ codeJSON（直接复制）
 }
 ### 节点4：wait
 按截图把等待节点配好即可，注意格式别乱。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9872c751522a76a02be78a0ff5b31c07.png>
+![](img/zhuanqian_9872c751522a76a02be78a0ff5b31c07.png)
 ### 节点5：第二个HTTP Request
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_521b60f463849dbb3c91a96508afda10.png>
+![](img/zhuanqian_521b60f463849dbb3c91a96508afda10.png)
 这步参考APIcore文档里的示例就好。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_af60e05a40fc52e78abac16850cdf65d.png>
+![](img/zhuanqian_af60e05a40fc52e78abac16850cdf65d.png)
 Method 选 GET，因为这个节点的任务就是“查任务跑完没有”，并把结果传给下一个节点。
 URL 框记得切到「Expression」模式，把里面原来的内容删干净，再填入：
 Code（直接复制）
@@ -97,13 +97,13 @@ Send Headers：关。
 Send Body：关。
 这个节点就配完了。
 ### 节点6：IF条件判断
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f88d293a834b6717c72e4bc68fa61524.png>
+![](img/zhuanqian_f88d293a834b6717c72e4bc68fa61524.png)
 注意：IF 节点的 false 出口是连回 wait 节点的——因为这个结果可能要等一下才出来，所以要给它一个轮询的回路。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_43111b1a7c45b8edeab1c218a5c49a77.png>
+![](img/zhuanqian_43111b1a7c45b8edeab1c218a5c49a77.png)
 这里的配置有变化。用 kia.ai 的接口时，状态是用数字表达的，但 APIcore 这边返回的是文本。
 既然要判断文本，就得用专门处理字符串的操作——contains。它被藏在「String」子菜单里。
 操作步骤：点开 Operation 的下拉菜单，找到「AB String」这一行，点它，右侧会滑出一个子菜单，里面都是和字符串处理相关的操作，在里头找到 contains，点选即可。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ac23e49d633ced22e94a7fef5dca75f4.png>
+![](img/zhuanqian_ac23e49d633ced22e94a7fef5dca75f4.png)
 最终配置长这样：
 Value 1: {{ $json.status }}
 Operation: String → contains

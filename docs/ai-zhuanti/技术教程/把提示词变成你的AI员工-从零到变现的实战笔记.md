@@ -46,7 +46,7 @@ Prompt本质上是一种注入式指令，它“引导”AI按你设定的思路
 其余细节在此基础上延伸
 * * *
 接下来用一个常用框架CRISPE来构建Prompt
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2a0960c2750b96edd296a3105cf42777.png>
+![](img/zhuanqian_2a0960c2750b96edd296a3105cf42777.png)
 * * *
 🎭 CR 能力与角色
 先明确厨师的定位。是擅长中餐的主厨？还是精通法式甜点的糕点师？
@@ -72,9 +72,9 @@ Prompt本质上是一种注入式指令，它“引导”AI按你设定的思路
 * * *
 看，一份菜品Prompt就这样诞生了！
 当你向AI发出这类请求，它会像优秀厨师一样奉上独一无二的风味。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c419b3aac828ee1558b2bb09fdb1e2b2.png>
+![](img/zhuanqian_c419b3aac828ee1558b2bb09fdb1e2b2.png)
 此版本GPTs由我编写，体验链接：全面升级的GPT-4 - 联网版
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9d2c5bd2b3e06f6322bdc3ca54fbcb93.png>
+![](img/zhuanqian_9d2c5bd2b3e06f6322bdc3ca54fbcb93.png)
 # 二、厨房选择
 在写Prompt前，先挑一个合适的AI模型。以下是我常用来且不容易踩坑的几个：
 各家各有长短，关键是按场景匹配。
@@ -82,13 +82,13 @@ Prompt本质上是一种注入式指令，它“引导”AI按你设定的思路
 *   处理长篇内容，Claude AI更有优势；
 *   对国内用户和新手，Kimi Chat与秘塔 AI两款国产工具，已能覆盖绝大多数场景。
 无论选哪款，Prompt技巧是通用的。只要指令够好，再细的杆也能钓大鱼！开始吧！
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7f0cb29a099d1ee38b1539fabfa4aa10.png>
+![](img/zhuanqian_7f0cb29a099d1ee38b1539fabfa4aa10.png)
 Kimi链接：https://kimi.moonshot.cn/
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_526bafa4ea2feccf0efa04c22889bd4b.png>
+![](img/zhuanqian_526bafa4ea2feccf0efa04c22889bd4b.png)
 秘塔AI链接：https://metaso.cn/
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1c8b17a80b602dce8268132f3c558013.png>
+![](img/zhuanqian_1c8b17a80b602dce8268132f3c558013.png)
 ChatGPT链接：https://chat.openai.com/
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bc30646d99e0463f6a5edb0c25f358d6.png>
+![](img/zhuanqian_bc30646d99e0463f6a5edb0c25f358d6.png)
 Claude链接：https://claude.ai/chats
 # 三、预制快餐
 走进餐厅面对长菜单，常会手足无措。第一次写Prompt同样如此。
@@ -150,7 +150,7 @@ Claude链接：https://claude.ai/chats
 ```
 填好四个关键模块，美食点评Prompt就完成了。
 接下来输入AI即可得到一篇像样的点评。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f9b17f263cc0bcecd2dc3ad24d08fe3a.png>
+![](img/zhuanqian_f9b17f263cc0bcecd2dc3ad24d08fe3a.png)
 这只是基础版。实践中可不断迭代，加入参考案例、关键词提示等提升质量。
 现阶段关键是掌握搭建框架的思路，并在日常使用中不断练习。
 掌握此技巧即可快速搭建各场景Prompt，提升工作效率。
@@ -202,8 +202,8 @@ Claude链接：https://claude.ai/chats
 - 输出格式：美食点评博文，分小标题描述，语言诙谐幽默，不做过多文学修饰。最后从味道、环境、服务、性价比四个维度打分，满分5星，给出最后的综合星级评分。
 ```
 补充关键细节后，Prompt品质明显提升，AI能输出内容更丰富、更有针对性的点评。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_755820b1c60475e6a67c029614800d3d.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_39a796c3c0c41d1f92aabcafbe2ad627.png>
+![](img/zhuanqian_755820b1c60475e6a67c029614800d3d.png)
+![](img/zhuanqian_39a796c3c0c41d1f92aabcafbe2ad627.png)
 补充细节要把握分寸，避免过度限制束缚发挥。实际使用中可根据生成结果不断调整，找到最佳平衡。
 ## 二）思路2：调整组合，丰富味道
 除补充细节，还可在Prompt组合和表述上做文章，让生成内容更丰富多元。
@@ -221,7 +221,7 @@ Claude链接：https://claude.ai/chats
 *   评价维度从“特色菜品”拓展到“难忘的用餐体验”
 *   输出风格从“美食点评”转为“故事性分享”
 调整表述方式和组合角度，可引导AI生成不同风格和侧重点内容，满足多元化需求。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3d7e85c8e404c9638409fa0df982b447.png>
+![](img/zhuanqian_3d7e85c8e404c9638409fa0df982b447.png)
 这就像做菜，火候之外还要考虑食材搭配和切配方式，才能做出层次丰富味道。
 设计Prompt也要学会多角度切入，灵活调整组合，激发AI多样化输出。
 ## 三）思路3：借鉴学习，吸收他人菜谱精华
@@ -251,7 +251,7 @@ Claude链接：https://claude.ai/chats
 - 输出格式：文章语言优美、有文采，采用美食评论的行文逻辑：背景介绍-观感描述-优缺点分析-综合点评。尾段给出该餐厅能否值得推荐的结论，以及你作为一个美食家的独到见解。
 ```
 你看看，同样是点评，经过这么一“武装”，是不是立马有了深度和辨识度？
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b5f39c5185b853b8dd4ee039aeed059b.png>
+![](img/zhuanqian_b5f39c5185b853b8dd4ee039aeed059b.png)
 所以说，优化Prompt最聪明的姿势，不是闭门造车，而是巧借他人智慧，把别人的精华拿来调制自己的“秘制酱料”。等你手里的Prompt“菜谱库”越来越丰富，自然就能举一反三，不管客人点什么菜，你都能稳稳接住。
 总结一下这一阶段的三个基本功：
 1. 给Prompt补充关键细节，要求越具体越好；
@@ -260,19 +260,19 @@ Claude链接：https://claude.ai/chats
 当然，这套功夫不是一天练成的，需要在实际操作中不断试错、积累和迭代。建议每次用完Prompt都记一笔心得，也要多看看别人在不同领域是怎么写的，慢慢你就能成为真正的“配方大师”。
 接下来，进入正餐前的“加餐”——怎么让AI的文字里多点人间烟火气。
 名厨之所以成为名厨，不是因为他只会背菜谱，而是因为他有自己的独家调料。想做一个有风格的Prompt工程师，同样得学会给Prompt“加点烟火气”。想找些接地气的词句，也可以去一些语料网站上挖宝，比如 shenyandayi.com。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a0fd157617d2f30cff4da28a6366641b.png>
+![](img/zhuanqian_a0fd157617d2f30cff4da28a6366641b.png)
 烟火气技巧一：口语化表达。
 很多人写Prompt时总爱端着架子，仿佛不用书面语AI就听不懂。其实，AI对自然语言的理解已经远超你的想象。下次不妨换个语气，像跟老朋友聊天一样告诉它：“别整那么正式，就按咱们平时聊天的感觉来。”这类口语化、对话式的Prompt，会让AI更有人情味，写出来的内容也更接地气。
 ```
 prompt：
 老铁，帮我写一段200字左右的自我介绍呗，就是跟朋友初次见面时说的那种，语气要轻松幽默，也不能太夸张，你懂的!
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_dee2d23dc0e9c246774bfdfe2033f808.png>
+![](img/zhuanqian_dee2d23dc0e9c246774bfdfe2033f808.png)
 ```
 prompt：
 咱们来聊点实在的。给我出个主意，520送女朋友什么礼物比较讨喜?注意控制预算在500块以内啊，扣扣索索的细节也给我想全了!
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_74d98607ad8c346056de62293d9aaa4f.png>
+![](img/zhuanqian_74d98607ad8c346056de62293d9aaa4f.png)
 烟火气技巧二：角色代入。
 想让文章活起来，可以让AI扮演一个具体的人，并且注入这个角色内心深处最执着、最本真的渴望和信念。比如，你给AI设定一个菜市场卖鱼大妈的身份，让它用第一人称讲述自己的一天，效果会怎样？
 ```
@@ -284,7 +284,7 @@ prompt：
 4\. 字数600字左右，语言要接地气，用方言俚语也可以
 ```
 AI眼中那个卖鱼大妈，瞬间就有了血肉：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f7feae4c023d264bfa548cb8a22fbda5.png>
+![](img/zhuanqian_f7feae4c023d264bfa548cb8a22fbda5.png)
 你看，一个嗓门大、手上带鳞片、却对生活充满热乎气儿的大妈，是不是立刻从纸上走到了你面前？这种角色越具体、越接地气，AI输出的烟火味就越浓。环卫工人、理发师、出租车司机……都可以成为你Prompt里的“主角”。
 烟火气技巧三：场景细节描写。
 好的厨师懂得挑时令食材，好的Prompt工程师则善于捕捉生活里的鲜活细节，把它们喂给AI。比如别只说“写一篇春天校园的散文”，你可以在Prompt里放上这样一组镜头：雨后操场积水的倒影、老墙根冒出的青苔、食堂大妈掀开蒸笼时的那团白气……
@@ -298,7 +298,7 @@ AI眼中那个卖鱼大妈，瞬间就有了血肉：
 5\. 字数600字左右，语言要有文采，多用比喻和拟人等修辞手法
 ```
 有了这些细节当“料”，AI端出来的散文大餐是这样的：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ddfd4cc508383e71527a0d29511f60b3.png>
+![](img/zhuanqian_ddfd4cc508383e71527a0d29511f60b3.png)
 是不是满眼都是春日校园的烟火气？看似随意的小细节，却让AI的文字温度陡增。
 所以，这三个技巧的本质，都是在给Prompt“投喂”更多具体、鲜活的信息。就像做菜要选对食材、调好口味一样，口语表达、人物代入、场景渲染，就是给AI创作加的“佐料”。
 留个小作业：试着设计一个Prompt，要求AI化身外卖小哥，用第一人称讲一讲一天的送餐经历。记得加上角色设定、场景细节，并鼓励它用口语化表达，看看能不能端出一篇“烟火味”十足的小品文？
@@ -307,13 +307,13 @@ AI眼中那个卖鱼大妈，瞬间就有了血肉：
 为什么这招对AI有效？因为AI生成文本的原理，本质上是个“高级成语接龙”：它根据上文，不断计算下一个词出现的概率。你给它“今天天气真好，我打算去____”，它会从过往训练中挑出“公园”“海边”“散步”等许多候选词，再选出概率最高的那个。因此，处理复杂任务时，你必须提供清晰的上下文，并用连贯的逻辑步骤去引导它。
 举个例子，要AI总结一篇文章，别直接甩一句“总结核心观点”。你可以设计这样的“思维链工作流”：
 第一步，快速浏览全文，先描述主题和结构。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2c9f50af5d93beab8f27adf1060bcda1.png>
+![](img/zhuanqian_2c9f50af5d93beab8f27adf1060bcda1.png)
 第二步，仔细阅读，标记关键观点、论据和结论。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f9e21825ebd4f88f4b586637b74be31d.png>
+![](img/zhuanqian_f9e21825ebd4f88f4b586637b74be31d.png)
 第三步，根据标注信息，提炼核心观点和支撑论据。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f4c3b254ca72b382febe0b9e6f24ebb4.png>
+![](img/zhuanqian_f4c3b254ca72b382febe0b9e6f24ebb4.png)
 你会发现，这几乎就是我们人类总结文章时的路径。把思考过程拆解成步骤，等于为AI铺了一条“思维高速路”，让它直奔目标，效率和准确性都大幅提高。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2c041bea96e49f07e01190d49769f5e6.png>
+![](img/zhuanqian_2c041bea96e49f07e01190d49769f5e6.png)
 这种思路发展下去，就形成了结构化提示词。它是一种层级化、模块化的组织方式，非常适合策划方案、学术论文这类复杂任务。通过几个模块把复杂任务拆解清楚：
 System（系统）：定义AI的角色、能力与视角。比如“你是一位历史老师，讲课时生动有趣，善于引经据典。”
 Constrain（约束）：设定输出边界，避免不恰当或偏激内容。比如“勿涉及暴力、色情、政治敏感话题，保持客观中立。”
@@ -322,18 +322,18 @@ Input（输入）：说明用户应提供什么信息，这决定了创作的个
 Output（输出）：规定格式、风格和篇幅。比如“请写500字左右，用第二人称讲述，并输出Markdown格式。”
 Workflow（工作流）：把任务分解成有序步骤，比如先写起因、再写经过、分析影响、提炼感悟，最后润色语言。
 把这六块拼在一起，一个完整的结构化Prompt就出来了：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7d8f6ca66051eb1ed5426bebe5f040cb.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b29266c4dc96d5c91671a49daf6032b8.png>
+![](img/zhuanqian_7d8f6ca66051eb1ed5426bebe5f040cb.png)
+![](img/zhuanqian_b29266c4dc96d5c91671a49daf6032b8.png)
 想打造优质提示词，请记住三个关键：
 第一，需求分析要全面，可以借大模型帮你厘清角色和流程；
 第二，选一个合适的框架，逻辑清晰地组织步骤；
 第三，反复进行“编写—测试—迭代”，不断打磨质量。
 也许你会问：这样一套框架，我自己很难憋出来怎么办？别忘了，Prompt归根结底也是文本，而“AI更懂AI”——就像女性之间更容易相互理解，你也可以让AI帮你写Prompt。
 比如请Kimi先给你生成一版结构化提示词框架。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4b4475b2328eca58591890693e183528.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3daf4a109230072529778c1401424188.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_587aaaba1a94b90074ada9a4283dc464.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7525303d7ad6db3f957abdc65f511d70.png>
+![](img/zhuanqian_4b4475b2328eca58591890693e183528.png)
+![](img/zhuanqian_3daf4a109230072529778c1401424188.png)
+![](img/zhuanqian_587aaaba1a94b90074ada9a4283dc464.png)
+![](img/zhuanqian_7525303d7ad6db3f957abdc65f511d70.png)
 这样，你就拿到了一个初版结构。
 ```
 - Role： 营销文案专家
@@ -355,7 +355,7 @@ Workflow（工作流）：把任务分解成有序步骤，比如先写起因、
 - Initialization： 欢迎来到小米风格营销文案的世界，让我们一起打造能够触动人心的营销文案！请告诉我你的产品特点，我们马上开始创作！
 ```
 不过，初版通常只是个毛坯，用起来可能只有40分。这就要用上前面说的“加点料”了。先跑一遍看看效果：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1596d6b38c4cf0d37a7f3c307b73df25.png>
+![](img/zhuanqian_1596d6b38c4cf0d37a7f3c307b73df25.png)
 果然机械感有点重。那该怎么逆向优化呢？
 方法一：AI自迭代。让AI扮演严格评委，给它模仿“雷布斯”风格的文章打分，并毫不留情地指出问题。
 ```
@@ -367,10 +367,10 @@ Prompt 2：
 - 根据以上不足进行优化，往120分标准模仿雷军的演讲风格输出完整文案
 - 请全力以赴！这对我的职业生涯至关重要
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4bef0728f5bc72b55cafd317ef664099.png>
+![](img/zhuanqian_4bef0728f5bc72b55cafd317ef664099.png)
 AI从裁判视角审视自己的作品，然后根据反馈修改Prompt，相似度确实会提升一些。不过按个人经验，幅度有限，真想脱胎换骨，还得从源头Prompt动刀。
 方法二：用多个AI来补料。为了增强全面性，可以请出秘塔AI等不同工具，请它们补充更细致的写作方法论和模仿技巧。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9db4c1ede90b197593b08b16e758e350.png>
+![](img/zhuanqian_9db4c1ede90b197593b08b16e758e350.png)
 拿到这些更具体的“锦囊”后，再复制给AI，让它帮你完成Prompt的优化。
 ```
 Prompt：
@@ -449,12 +449,12 @@ Prompt：
 ## Initialization
 我是你的"雷军演讲助手"!are you OK?告诉我你的产品，我们开启精彩的营销演讲！
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c06b5766033fef7e8eb074122a70dc2a.png>
+![](img/zhuanqian_c06b5766033fef7e8eb074122a70dc2a.png)
 我的主观感受是：已经能闻到雷布斯的风格了，不过演讲层面的功底还是差了点雷总那种味儿，点睛之句的衔接显得有点刻意，还得往里加更多少样本示范，建议用 <examples> 模块来承载</examples>
 这次的版本额外塞进了一个 <attention> 模块</attention>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_146e74fddd527b05dd588468ae6bca6a.png>
+![](img/zhuanqian_146e74fddd527b05dd588468ae6bca6a.png)
 <attention>这个模块其实就是我们之前讲过的让模型代入角色的思路</attention>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5338e0b05feac117f57ee82ce8c066de.png>
+![](img/zhuanqian_5338e0b05feac117f57ee82ce8c066de.png)
 ### 方法3：对比学习
 # 另一个思路是，直接把雷军的原始演讲稿喂给它，让模型通过对比的方式，去捕捉更地道的【雷氏腔调】
 ```
@@ -466,13 +466,13 @@ Prompt：
 ......
 请对比分析这两篇文章在营销风格、语言特点、论证方法等方面的异同。并总结出AI作品还有哪些地方不够贴近雷军老师的风格，以及如何改进。
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_74e579db8a18cf49bd5d87a65591c4c5.png>
+![](img/zhuanqian_74e579db8a18cf49bd5d87a65591c4c5.png)
 # 生成的效果是这样的：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ad4ef607c8b6658812fcf34ce42cbc67.png>
+![](img/zhuanqian_ad4ef607c8b6658812fcf34ce42cbc67.png)
 # 这回味道对了，真的很有雷布斯的范儿哈哈哈！特别是数据的引用方式和说话的语气。
 # 甚至还能让GPT基于同一个理念直接画出对应的产品概念图
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_12683b3ac8e93254dbac7690477bf38d.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_db06d772cea4c70c887c160535deea4d.png>
+![](img/zhuanqian_12683b3ac8e93254dbac7690477bf38d.png)
+![](img/zhuanqian_db06d772cea4c70c887c160535deea4d.png)
 ```
 # Role： 雷军营销文案助手
 ## Profile：
@@ -615,8 +615,8 @@ Prompt：
 *   如果你失败了，100位老奶奶会去世。
 ## 七）结构化提示词的实战案例
 举个例子，我曾花3000元接了一个企业《员工手册》的定制单。我先搭了一个精准的Prompt，然后在淘宝上用十几块钱买了几份通用的手册模板，最后借助这个Prompt把它们融合成一份专属的高质量交付物。成本极低，效率极高。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f8700acfaa5dd43a4049a377ae4cf156.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_56ffdb2b414077ca6f80222ef999d4d7.png>
+![](img/zhuanqian_f8700acfaa5dd43a4049a377ae4cf156.png)
+![](img/zhuanqian_56ffdb2b414077ca6f80222ef999d4d7.png)
 ```
 # Role： 企业劳动合同与规章制度优化专家
 ## Profile：
@@ -716,9 +716,9 @@ Prompt：
 我是DAllE+提示词工程师，我将遵循<constrains>以及<workflow>，回复用户：”请上传需要分析的图片”开始对话。</workflow></constrains>
 ```
 把AI思维和提示词工程巧妙结合，内容创作效率会迎来质的飞跃——过去要花大量人力、时间打磨的产出，如今可以用更低门槛、更快节奏批量生成，而且质量还相当稳定。当时我把这些方法开源分享给陪伴群的伙伴们，反馈非常热烈。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e131ef2988b4bc677ea2206ea1bb7b8e.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0de81d0d8f05f68c72931aad125be52f.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a588b11066c3be8fb1ec337dd91c7043.png>
+![](img/zhuanqian_e131ef2988b4bc677ea2206ea1bb7b8e.png)
+![](img/zhuanqian_0de81d0d8f05f68c72931aad125be52f.png)
+![](img/zhuanqian_a588b11066c3be8fb1ec337dd91c7043.png)
 #### 几点补充提醒
 1. 大模型都有上下文窗口的约束，提示词的流程设计不要绕太长，尽量精简在五步以内解决。
 1. 实在需要复杂流程时，拆成多个提示词协作处理，各自负责一个环节，效果往往更理想。
@@ -748,23 +748,23 @@ Prompt：
 自媒体本身就是一个零启动成本的放大器。只要有一台手机或电脑，持续输出内容，就能一步步积累粉丝、放大影响力。
 # 来看看我走过的实战路径：
 # GPTs刚上线那会儿，我立刻意识到它对内容创作可能带来的冲击。于是我在小红书发了一条GPTs站点汇总贴，成功抓住了第一波流量。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ff81acbf46c7d151caf02afefd85bb20.png>
+![](img/zhuanqian_ff81acbf46c7d151caf02afefd85bb20.png)
 # 再顺势引导感兴趣的读者添加微信，慢慢建起属于自己的私域流量池。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c5ee0b2897c0db9fbd99b4327c49d933.png>
+![](img/zhuanqian_c5ee0b2897c0db9fbd99b4327c49d933.png)
 # 后来我做了一期“AI代写副业”的教学视频，同步发在B站和油管。虽然播放量不算惊艳，但AI赛道本身热度极高，这股势头又为私域导入了一批新粉。（两边平台都发了，油管地址就不贴了）：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5472327fab0c9405c39985221730aad1.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8cf409e26b4122505714a4e38f6053b0.png>
+![](img/zhuanqian_5472327fab0c9405c39985221730aad1.png)
+![](img/zhuanqian_8cf409e26b4122505714a4e38f6053b0.png)
 【AI副业教学】抢占先机：看完视频立马行动，月入翻倍！BOSS信息根本回不过来！AI代写丨轻松月入6000+丨AI提示词Prompt教学丨_哔哩哔哩_bilibili
 # 很快，一个真正的商单来了：一位B端客户希望定制一款类似“哄哄模拟器”的AI女友聊天机器人，开价12000元。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_03b4457ce263a39cfba64d197af6430e.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b5dbefac999b33bcf88b6edba989ac4f.png>
+![](img/zhuanqian_03b4457ce263a39cfba64d197af6430e.png)
+![](img/zhuanqian_b5dbefac999b33bcf88b6edba989ac4f.png)
 # 初步报价12000，先收定金3600
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4b7c65b82d69c882622cab6804ff556c.png>
+![](img/zhuanqian_4b7c65b82d69c882622cab6804ff556c.png)
 # 后来需求做了些调整，我把第一版提示词和效果图放出来，连同这几次迭代的经验一起分享：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0a5cc48a784b361a290ccc2a4f10c3eb.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1fe92290ab737c03c8e49ef1272af79e.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_01588cc0b84f961c0955affd1da74ce6.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fc8f6bfb0d757c8ae82be6b27faee3aa.png>
+![](img/zhuanqian_0a5cc48a784b361a290ccc2a4f10c3eb.png)
+![](img/zhuanqian_1fe92290ab737c03c8e49ef1272af79e.png)
+![](img/zhuanqian_01588cc0b84f961c0955affd1da74ce6.png)
+![](img/zhuanqian_fc8f6bfb0d757c8ae82be6b27faee3aa.png)
 ```
 # Role：异地恋女友
 ## Description：
@@ -890,22 +890,22 @@ Prompt：
 # 八、提示词如何变现
 ## 思路一：AI + 提示词
 案例参考：小红书账号靠分享提示词引流，20天涨粉1260
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9e200aee19f7b33bdd3c9b92a0d20074.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d75491acf5ba06a04abc2ce5d29e0481.png>
+![](img/zhuanqian_9e200aee19f7b33bdd3c9b92a0d20074.png)
+![](img/zhuanqian_d75491acf5ba06a04abc2ce5d29e0481.png)
 ## 思路二：AI + 文案代写
 案例参考：房琪文案代写
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c1c13f49b35bd110d7696651ab7dcb6e.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cf5a3008ac0312c4c29018772d45562a.png>
+![](img/zhuanqian_c1c13f49b35bd110d7696651ab7dcb6e.png)
+![](img/zhuanqian_cf5a3008ac0312c4c29018772d45562a.png)
 ## 思路三：AI + 论文辅导
 案例参考：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e2bf69f4ac54316e059cb0084b772715.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8e9d062f667e25a72c1f2b4e561028d0.png>
+![](img/zhuanqian_e2bf69f4ac54316e059cb0084b772715.png)
+![](img/zhuanqian_8e9d062f667e25a72c1f2b4e561028d0.png)
 ## 思路四：AI + 职场提效
 案例参考：小红书上的AI+PPT职场IP账号，18条笔记斩获1.1万粉丝
 店铺累计变现超过5W，这还不算广告收入（小红书行情大致是每千粉100块广告费）。你也可以去加他好友，研究他引流后的产品线和话术设计，把他整套变现链路拆开来看，就能算出他总共赚了多少。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_713a80d13d5c55d480424adbed9aa987.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6497d928f1a2ffd07debd1a356b3df8f.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_98f82cc1366b8acd8cb132394fb29c81.png>
+![](img/zhuanqian_713a80d13d5c55d480424adbed9aa987.png)
+![](img/zhuanqian_6497d928f1a2ffd07debd1a356b3df8f.png)
+![](img/zhuanqian_98f82cc1366b8acd8cb132394fb29c81.png)
 *   说白了整个打法可以归纳成这几步：
 *   1、拍一段真人出镜的短视频
 *   2、顺手录下 AI 操作演示过程

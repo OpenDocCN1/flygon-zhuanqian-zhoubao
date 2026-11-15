@@ -37,7 +37,7 @@ https://www.babypodcast.pro/
 除此之外，我也想借这个项目补齐完整的产品开发经验。
 过去我虽然做过几个简单网站，但从来没有真正经历过一个产品从0到1的完整过程。于是，我希望通过这个项目把数据库、登录注册、积分系统、支付、后端流程等环节全部走一遍，顺便完成自己的第一个Micro SaaS。
 后来我才知道，良辰美老师在那天上午就已经在赚钱风向标里发布了相关趋势。所以这里也再次提醒大家：赚钱风向标值得持续关注，里面的信息经常比外部公开渠道更早。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_92d57894d7af34961015709352ef0f79.png>
+![](img/zhuanqian_92d57894d7af34961015709352ef0f79.png)
 ## 2.2 我的开发计划
 最初的计划很简单：
 - 3天完成前后端基础功能；
@@ -55,9 +55,9 @@ https://www.babypodcast.pro/
 参考网站不一定要找同类型产品，重点是结构清晰、布局合理。前期先把页面骨架和基础样式跑出来，之后再逐步优化视觉细节。
 我的项目组件主要包括首页组件和功能页组件，后续通过不同页面的page.tsx调用对应模块。这样做的好处是目录和代码结构比较清晰，也便于后续维护。
 Dashboard页面则参考了Medeo的设计，调整了部分配色和内容。对于新手来说，先借鉴成熟产品的页面结构是非常高效的方式，不需要一开始就从零设计所有界面，也可以直接使用现成模板。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_195b418cd193a89e5eba0b5755fa6f7a.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f8988b940c52820f0c5419c55fd8dacd.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0d52a108b4145cc526deb8f2624595f4.png>
+![](img/zhuanqian_195b418cd193a89e5eba0b5755fa6f7a.png)
+![](img/zhuanqian_f8988b940c52820f0c5419c55fd8dacd.png)
+![](img/zhuanqian_0d52a108b4145cc526deb8f2624595f4.png)
 项目里除了tsx文件之外，主要还包括处理函数、API请求相关的ts文件，以及CSS文件。
 很多教程会建议新手理解AI生成的每一行代码，但我认为这更适合进阶阶段。刚开始做项目时，不一定要立刻弄懂全部细节，至少要先理解：
 - src目录下每个文件负责什么；
@@ -71,14 +71,14 @@ Dashboard页面则参考了Medeo的设计，调整了部分配色和内容。对
 但后来发现，Vercel部署的函数存在最大响应时间限制，而视频生成通常需要较长时间，远远超过免费方案所允许的执行时长。
 当时我对异步任务、间歇式触发以及API回调机制还不够熟悉，直接用代码实现会比较复杂。于是我开始寻找一种更适合快速搭建MVP的方式，最后接触到了n8n。
 n8n可以理解为一种自动化工作流工具，使用方式和Coze、Dify有些相似。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_00b5b1674c7e7c9fe6ab3e6a72c20455.png>
+![](img/zhuanqian_00b5b1674c7e7c9fe6ab3e6a72c20455.png)
 附2：Vercel官方文档
 https://vercel.com/docs/functions/configuring-functions/duration
 我在YouTube上搜索时，刚好找到了一个使用n8n制作AI Baby Podcast的视频。
 第二天，我按照视频内容复刻出了一个基础版本。原视频大约43分钟，我实际花了2到3个小时完成复现。由于视频里有些官方文档没有展开，我就一边查资料，一边补齐流程。
 如果大家在复刻过程中遇到看不懂的地方，也可以继续搜索官方文档，或者直接把截图和报错交给AI分析。
 顺便说一句，视频作者正是通过这类教程为自己的Skool社群引流，收费77美元/月，目前大约有960名成员。这个案例也能说明，海外用户对知识付费的接受度确实很高。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_75ab7ce3133302fac7c586bf3d59c0a7.png>
+![](img/zhuanqian_75ab7ce3133302fac7c586bf3d59c0a7.png)
 附3：YouTube n8n生成AIbabypodcast视频
 https://www.youtube.com/watch?v=syoM1CVV1-c&t=2468s
 ### 我的n8n流程是怎么设计的
@@ -89,7 +89,7 @@ https://www.youtube.com/watch?v=syoM1CVV1-c&t=2468s
 - 根据生成视频的duration计算积分消耗；
 - 将任务结果同步回Supabase；
 - 最终把视频链接返回到前端展示。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e8643f75aead6a96bcbb2a7c2fbfdaf9.png>
+![](img/zhuanqian_e8643f75aead6a96bcbb2a7c2fbfdaf9.png)
 n8n对于新手来说最大的优势，是整个流程的可视化程度很高。你可以清楚看到一个请求从哪里进入、经过哪些节点、调用了什么API，以及最终如何返回结果。
 它的基本流程是：
 1. 通过Webhook接收前端请求；
@@ -99,7 +99,7 @@ n8n对于新手来说最大的优势，是整个流程的可视化程度很高�
 5. 通过HTTP Request请求前端API；
 6. 将任务信息写入Supabase；
 7. 把视频地址和相关数据返回给用户。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1e203a191aed88288cb5edf660ce262b.png>
+![](img/zhuanqian_1e203a191aed88288cb5edf660ce262b.png)
 n8n提供新人14天免费试用期，包含1000次工作流执行。后续费用大约是24美元/月。对于新手来说，利用这两周完成开发和测试，基本已经足够。
 ### 我调用了哪些API
 这次流程一共使用了四类API：
@@ -147,7 +147,7 @@ https://supabase.com/docs/guides/auth/server-side/nextjs
 虽然没有亲自手写SQL，但每一张表、每个字段、每个函数的用途，我都会让AI解释清楚。
 AI可以代替你写代码，但不能代替你理解系统。
 目前项目里还有一些功能重复的表，因为暂时不影响使用，所以还没有立即删除，后续会统一清理。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_06426bf78fed558fabed25574efc7d88.png>
+![](img/zhuanqian_06426bf78fed558fabed25574efc7d88.png)
 数据库中有一个非常重要的设置：RLS，也就是行级安全策略。
 简单来说，RLS决定了：
 - 谁可以读取数据；
@@ -162,7 +162,7 @@ AI可以代替你写代码，但不能代替你理解系统。
 起步阶段，免费提供的10GB存储空间已经足够大多数项目使用。
 此前Web航海中也有人推荐过适合独立开发者的低成本套餐。至于为什么选择R2，我没有做过特别复杂的对比，更多是因为业内使用较多、整体口碑不错。
 在早期项目没有特殊需求时，先选择一个成熟、便宜、够用的方案即可，不必一开始就过度研究。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a5d1b59ba715ddffd32a196f27d714f6.png>
+![](img/zhuanqian_a5d1b59ba715ddffd32a196f27d714f6.png)
 ## 3.6 支付：Creem和Stripe
 ### 最终采用Creem
 我前后尝试了Creem、Paddle和PayPal。
@@ -178,8 +178,8 @@ Stripe个人版需要港澳通行证等材料，办理周期大约20天；公司
 我采用的是官方文档里相对直接的一种方式：支付成功后请求success URL，再通过API路由将用户重定向回指定页面，并完成签名信息验证。
 这种方式从开发角度看比较省时间。
 这部分同样建议让Cursor先生成完整的step by step文档，再根据文档逐步实现。每完成一个步骤就打勾，出错时也能快速定位。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f4a4a03233e53894d41ea7ba79fcf42c.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b14d5eaec07d1ff5caafe25961871c9f.png>
+![](img/zhuanqian_f4a4a03233e53894d41ea7ba79fcf42c.png)
+![](img/zhuanqian_b14d5eaec07d1ff5caafe25961871c9f.png)
 附5：Creem官方文档
 https://docs.creem.io/checkout-flow
 ### 如果条件允许，Stripe仍然是更优选择
@@ -194,7 +194,7 @@ Stripe主要有个人申请和公司申请两条路径。
 附6：
 附7：
 附8：https://mp.weixin.qq.com/s/y_XRFa8pzkgV-GqttSotqw（艾逗笔大佬的经验贴）
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_03d36106956e3a815bf603bf53e7fd17.png>
+![](img/zhuanqian_03d36106956e3a815bf603bf53e7fd17.png)
 # 四、开发过程中最值得记住的经验
 ## 4.1 API Key一定要多处备份
 所有API密钥都要妥善保存，千万不要只放在一个地方。
@@ -215,7 +215,7 @@ Stripe主要有个人申请和公司申请两条路径。
 - 如果涉及新文件、删除文件或依赖环境变化，导致项目整体混乱，Cursor恢复可能不够用；
 - 这时可以在Github Desktop里Discard Changes，让项目回到上一次保存的本地状态；
 - 如果想回到更早的版本，可以找到对应的版本说明和哈希值，再让Cursor协助恢复。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bcb3358cbd5c396d0df51615513e40ed.png>
+![](img/zhuanqian_bcb3358cbd5c396d0df51615513e40ed.png)
 对于刚开始做项目的人来说，先掌握一套能用的版本回退方案，比一开始系统学习完整Git体系更重要。
 ## 4.3 功能没验证完整，不要急着上线
 我在接入支付之前就提前发布了产品。
@@ -235,7 +235,7 @@ Stripe主要有个人申请和公司申请两条路径。
 - 发起支付；
 - 支付完成后恢复权益。
 不要因为本地测试成功，就默认线上环境也一定没问题。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_628fc5eae023049e498b1e5c61f51965.png>
+![](img/zhuanqian_628fc5eae023049e498b1e5c61f51965.png)
 ## 4.4 早期用户一定要认真维护
 产品在Product Hunt上获得Feature的当天，网站迎来了一波明显流量，也带来了我的第一个付费用户。
 这位用户来自日本，是一家TikTok工作室的负责人。他购买了99美元/月的最高级订阅，并主动发邮件，希望我为他定制一些功能。
@@ -302,7 +302,7 @@ AI能帮你写代码、查文档、生成方案，但最终是否能把产品跑
 我自己的教训也很典型。2022年底ChatGPT出来的时候，我第一时间就注意到了；2023年，我之前的公司调研过智谱、百川、月之暗面、面壁等当时很热的国内大模型公司，也看过几家刚开始做AI应用的团队。当时我们得出的结论是：国内AI应用还要再等等，底层大模型还差火候；而大模型公司的估值区间又超出了我们的投资范围。于是，机会就这样错过了。
 放到当时，我的确判断不准AI到底会不会成为大趋势。可仅仅过去两年多，世界已经变得面目全非。国外OpenAI、Google、微软，国内字节、腾讯、阿里，都在基础大模型上押注了巨大的人力、物力、财力。到今天你不需要再问“AI是不是未来”了——世界上最聪明的那批人已经用脚投过票。我们跟着往前走就是了，把纠结要不要上车的时间，省下来亲手做点事。
 这也是我对龙哥盟特别有好感的原因：它是国内把AI讲得最落地的地方。没有高门槛，不搬高大上的概念，就是踏踏实实带着普通人一步步融入AI浪潮。AI本来就不该是可望不可即的抽象名词，它应该成为普通人生活里随手可用的工具。后续的SCAI实验室，也欢迎大家来申请。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_69b9a7125e6134956ddc0d64c152ba64.png>
+![](img/zhuanqian_69b9a7125e6134956ddc0d64c152ba64.png)
 PS：附一张雷总的签名照，愿我们都能在浪潮里顺势而为。
 最后，简单同步一下我手头这个产品的后续计划。
 复盘下来，我这个产品的逻辑其实是倒置的：前期跳过了竞品调研和需求确认，闷头先把产品做出来了。后面得老老实实把流程补上——先找到需求，再验证需求，然后开发MVP，收集用户反馈，一步步逼近PMF。换句话说，找需求、验证需求这段路，我还要从头走一遍。

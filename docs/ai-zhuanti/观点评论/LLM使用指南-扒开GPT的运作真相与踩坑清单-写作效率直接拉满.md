@@ -43,12 +43,12 @@ LLM本身没有记忆。它能延续对话，只是把你之前的完整聊天�
 # LLM的硬伤在哪
 ## 数学和逻辑极差
 因为是靠概率猜字，数学题本质是“靠经验蒙”。它读过无数数学资料，所以能碰运气猜对。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0d8f5f1e9bb59182b3cefa90aa76c5dd.png>
+![](img/zhuanqian_0d8f5f1e9bb59182b3cefa90aa76c5dd.png)
 字数控制更是弱项，让它写指定字数经常不准，让它数字数也经常错。别指望它来控篇幅。
 ## 生成越长越水
 模型是靠前面所有字来推测下一个字，越往后信息衰减越严重，质量自然下滑。
 而且输入和输出是不对称的。以Deepseek官方文档为例：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_084e0e69de40abaa0edcf6a4be1fd98e.png>
+![](img/zhuanqian_084e0e69de40abaa0edcf6a4be1fd98e.png)
 能看出输入的价格远低于输出，输入窗口远大于输出窗口。所以别一次要它写太长。
 ## 输入太长会“失忆”
 输入也不能无限长，原因有三：
@@ -70,7 +70,7 @@ LLM本身没有记忆。它能延续对话，只是把你之前的完整聊天�
 *   喜欢小标题加冒号
 *   高频使用“首先、此外”等连接词
 *   一定要在结尾做总结
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_de213f4420c31883926dde374780c8c5.png>
+![](img/zhuanqian_de213f4420c31883926dde374780c8c5.png)
 即使不怕检测率，也最好避免这种一眼AI的写法。
 # 高质量使用的实操方法
 ## 必须人工复核
@@ -86,10 +86,10 @@ LLM至今只是提效工具，不是替代者。它会犯低级错误，必须�
 提示词工程的核心就是把意图说清楚。别用一两句敷衍，要尽可能具体。别人的好用的提示词可以借鉴，但要懂原理再改，否则水土不服。
 ## 让它一步步想
 这是经过大量验证的增强技巧。原理是上下文越清晰，猜词越准。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_56d342c3231c56bbcfd5ca5206f6b493.png>
+![](img/zhuanqian_56d342c3231c56bbcfd5ca5206f6b493.png)
 在提示词里加上“请深呼吸，一步一步思考”，效果会明显提升。
 很多人会误用，比如：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a56171f1ad0b7a1973a2400905c353ea.png>
+![](img/zhuanqian_a56171f1ad0b7a1973a2400905c353ea.png)
 前面说要一步步思考，后面又说不需要解释，那等于没思考。
 # 现在哪些模型值得用
 更新时间：2024.12.29

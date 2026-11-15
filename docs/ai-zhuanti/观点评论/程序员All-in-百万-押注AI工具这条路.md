@@ -22,7 +22,7 @@
 今天就聊聊做这个工具期间的心路和判断，希望能给正在路上或者想上路的程序员一点参考。
 ## 一、从真实需求出发
 市场先有痛点，才有产品。对于很多小团队，混剪+矩阵仍是增收的核心手段。市面上大部分混剪靠本地exe，按钮堆成山，操作复杂，渲染还慢。我们也看到不少在线Web形态的平台型产品，免装环境，直接上传就能剪，体量不小，会员量能做到2.5w左右，月卡200多，月流水破500万，市场足够大，但也已经是红海。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3591607bd17a50225eedc8ebfdf77bbf.png>
+![](img/zhuanqian_3591607bd17a50225eedc8ebfdf77bbf.png)
 老话说文无第一武无第二。在一个已经验证的市场里，想要胜出，不能只拼价格战，只能在产品创新上做出差异。
 用户画像拆开看，其实就两类。
 一类是想试水的素人，没什么剪辑功底，尝试过几次就被复杂流程劝退的。
@@ -46,23 +46,23 @@
 程序员就是干这个的。幸运的是，常熟之旅的合伙人完全认可这个想法，于是我们只做一个核心功能：一键复刻。
 把链接丢进来，选目标平台，等待5秒，下载，结束，发布。
 然后点击复刻生成：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0bad0b2c5d9e90d45f89ce40394f50bf.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_838344c891890a9a7335d766643a2546.png>
+![](img/zhuanqian_0bad0b2c5d9e90d45f89ce40394f50bf.png)
+![](img/zhuanqian_838344c891890a9a7335d766643a2546.png)
 写这篇文章时我刚测了一遍，后续会把播放数据补充到评论区。
 第一次验证能过原创时，兴奋感很真实，想法被验证了。
 ## 五、内测群的力量
 好产品必须经历痛苦的内测期。开发阶段我就拉了一批铁哥们内测，他们给了非常关键的建议，还毫不保留地分享了各平台各种奇葩但好用的过原创技巧，对技术团队简直是雪中送炭，毕竟第一版就是在摸着石头过河。
 没有大规模宣传，两周时间就有200多位朋友进群贡献建议。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_def661ac78da78fdd3a054405e46b5e9.png>
+![](img/zhuanqian_def661ac78da78fdd3a054405e46b5e9.png)
 一个做过产品的朋友说过，做产品要找到那些对你的产品上头的人，他们就是你走下去的底气。
 内测群里的这些人，就是我继续做下去的动力。很快我们迭代了第二版。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_83906fdd51cc69ef044b5c9e1b61d1ac.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1c2378240d81547dde81bf458bd8bf9f.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_447bd385110090f241a250a412a02d65.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4c34a8630bcca5b78166a1e716b8194b.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c310f6cbfaefc01cd771dd66433bbde3.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_07b2b057ff76215fadd1d865c0a08e81.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_603a35861ea18899202201633daad82c.png>
+![](img/zhuanqian_83906fdd51cc69ef044b5c9e1b61d1ac.png)
+![](img/zhuanqian_1c2378240d81547dde81bf458bd8bf9f.png)
+![](img/zhuanqian_447bd385110090f241a250a412a02d65.png)
+![](img/zhuanqian_4c34a8630bcca5b78166a1e716b8194b.png)
+![](img/zhuanqian_c310f6cbfaefc01cd771dd66433bbde3.png)
+![](img/zhuanqian_07b2b057ff76215fadd1d865c0a08e81.png)
+![](img/zhuanqian_603a35861ea18899202201633daad82c.png)
 ## 六、工具是手段，抱团赚钱是目的
 工具的价值在于提升效率，真正的价值在于用工具创造可落地的盈利模式。内测期间，很多朋友跟我聊了他们的实操项目，尤其是小红书矩阵。虽然听起来老生常谈，但做的人依然很猛。针对小红书过原创，我们加了字母雨、实拍植入等手段，过审率显著提升。
 小红书矩阵目前主流两条路：店群矩阵和账号矩阵。店群和传统电商运营逻辑相近，补单是常态。账号矩阵玩法更多，有技术加运气加持，收益相当可观。
@@ -81,5 +81,5 @@ super T : 哈咯 你的软件开放了嘛 我是短视频工作者  想试试 �
 闲富咨询【软件商业】 : 主要是 web 在线版本，不是本地 exe 那种
 黑白灰 : 这个软件怎么买呢
 小伙子 : ，这是网页的[`fancyodp.cn/zh/login?inviteCode=2EW0QiLQ`](https://fancyodp.cn/zh/login?inviteCode=2EW0QiLQ)
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1c37d505930596d12a88ab23e11aa07a.png>
+![](img/zhuanqian_1c37d505930596d12a88ab23e11aa07a.png)
 * * *

@@ -12,12 +12,12 @@
 大家好，我是龙哥。今年3月份参加赚钱的YouTube航海后，就开始持续做Shorts。
 目前，我已经开通了8个高级YPP账号和2个初级YPP账号。上个月总收益大约4500美元，其中单个账号最高收益约3000美元。
 不过这只是预估金额，因为收益要到每月7日至12日左右才会打款，最终到账情况还要以实际为准。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_628450a893dbdba9260e7240bfc0b4f7.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8ed5e23b959f2bd79318a5cf6a5cf6c9.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_99c6d535decfa54945a4b92aba3150a8.png>
+![](img/zhuanqian_628450a893dbdba9260e7240bfc0b4f7.png)
+![](img/zhuanqian_8ed5e23b959f2bd79318a5cf6a5cf6c9.png)
+![](img/zhuanqian_99c6d535decfa54945a4b92aba3150a8.png)
 前几天，我还收到了YouTube银牌。
 不过，我有两个账号都超过了10万粉丝，最终只有一个账号能够领取银牌。另一个账号没有通过，官方给出的原因是：内容原创程度不足。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6b9a8ec4b02920023afe0f5ec85d07ca.png>
+![](img/zhuanqian_6b9a8ec4b02920023afe0f5ec85d07ca.png)
 ## 怎样快速开通YPP并实现收益？
 ### 先建立几个基本认知
 在具体讲方法之前，我想先分享几条对我影响比较大的行动原则。
@@ -64,7 +64,7 @@ Shorts能不能做起来，方向选择非常关键。
 #### 方法二：反复刷新YouTube首页
 通过浏览器打开YouTube首页，不断刷新，观察首页推荐的Shorts内容。
 我挖掘到不少新赛道，都是通过这个方法发现的。相比直接在浏览器里连续刷Shorts，首页刷新有时更容易看到不同领域的内容。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_31c09559d1b29b0349fbbee87c16e510.png>
+![](img/zhuanqian_31c09559d1b29b0349fbbee87c16e510.png)
 这里有个细节：
 如果你的目的是拓展赛道宽度，最好不要关注频道，也不要直接点进感兴趣的视频。可以复制链接到其他浏览器中观看，避免推荐系统迅速把内容集中到单一领域。
 但如果你已经确定了一个方向，想深入研究该赛道，那就反过来操作：
@@ -75,19 +75,19 @@ Shorts能不能做起来，方向选择非常关键。
 我目前使用的是：
 https://www.viewstats.com
 进入Top Videos后，可以看到平台上播放量靠前的视频。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8a618fef1a0f11231701e5bf23df2cf4.png>
+![](img/zhuanqian_8a618fef1a0f11231701e5bf23df2cf4.png)
 选择Shorts后，左侧能够按照时间筛选，包括：
 - 昨天；
 - 最近7天；
 - 最近28天；
 - 最近3个月。
 这些时间范围都建议分别查看。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_522e5928da3aa9c0b796e077974ee06c.png>
+![](img/zhuanqian_522e5928da3aa9c0b796e077974ee06c.png)
 在Filters里，还能继续按照国家和内容类型进行筛选。
 你可以把国家、分类和时间范围组合起来，反复挖掘不同区域、不同领域的热门视频。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_29d122b83eb0129260d195cb47b3e530.png>
+![](img/zhuanqian_29d122b83eb0129260d195cb47b3e530.png)
 例如，可以筛选“美国+动物”这一组合。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_708084a29a2c588928995c8c544dcdc5.png>
+![](img/zhuanqian_708084a29a2c588928995c8c544dcdc5.png)
 #### 方法四：用关键词扩大搜索范围
 这里说的关键词，不是为了寻找某个赛道里的对标账号，而是为了建立更广泛的内容认知。
 你可以让AI先生成一批一级关键词，例如：
@@ -172,7 +172,7 @@ Shorts爆款有一定随机性，同一个脚本并不是每次都能获得相�
 某条视频的选择观看率达到81.4%，完播率超过100%，互动观看达到2.6万，但最终播放量只有5万左右。
 从数据表现看，它明显具备冲击更高播放的潜质，但结果并没有继续放大。
 这也说明，爆款除了内容质量之外，确实还存在一定运气因素。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_687cc42f51678f66e4ba5a77824cb38e.png>
+![](img/zhuanqian_687cc42f51678f66e4ba5a77824cb38e.png)
 #### 微创：把多个爆款元素重新组合
 微创不是随便改几个细节，而是把已有的热门元素进行重新拼接。
 可以理解为：
@@ -182,7 +182,7 @@ Shorts爆款有一定随机性，同一个脚本并不是每次都能获得相�
 - AI山海经角色也曾经爆火。
 那么就可以尝试把两者结合起来。
 我曾经在一个动物故事老账号上测试过“鱿鱼游戏+AI山海经”的组合，第一个视频就获得了300万播放。此前，这个账号也只有一条视频达到过300万。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_49a2b916d62807ac6ffaa54d995e613c.png>
+![](img/zhuanqian_49a2b916d62807ac6ffaa54d995e613c.png)
 ## 怎样做有效微创？
 由于我目前主要做故事类Shorts，下面的案例也以故事赛道为主，但这个思路同样可以迁移到其他领域。
 ### 先拆分爆款中的两类元素
@@ -322,11 +322,11 @@ https://www.youtube.com/shorts/6RmwJWGb2rU
 ### 额度见底了？我用两个笨办法解决
 第一个办法就是“用狠一点”。新号的初始额度是66积分，只要每天都花完，额度慢慢会升到100积分。我现在手上这些账号，基本都稳定在100积分。
 第二个办法是多养号。老账号可以协助开启子账号，不需要额外绑手机，等于一个主账号能扩展出两个独立登录身份。步骤很简单：打开App的账号管理页
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_000c51508b3a5783c0bfcd6170f6e0a5.png>
+![](img/zhuanqian_000c51508b3a5783c0bfcd6170f6e0a5.png)
 点“新增账号”
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fab4f79ca54874c9521e545f5d09e033.png>
+![](img/zhuanqian_fab4f79ca54874c9521e545f5d09e033.png)
 选“由老账号协助开启”
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cbd74955dbb2c3ab35012507b317328f.png>
+![](img/zhuanqian_cbd74955dbb2c3ab35012507b317328f.png)
 另外，建议在Android上操作新号，因为只有安卓端有“1元购200积分”的福利，iOS没有。如果是全新安装即梦，还能领首装奖励。
 账号一多，登录就麻烦。我用防关联浏览器来管理，不用反复扫码。目前常驻的是ixBrowser，网址可以通过邀请码BK85找到，这不算广告，纯粹是个人喜欢。它每天能开10个独立窗口，默认还有100次进入次数，单人使用很够用。
 ### 生产力工具一：Gemini镜头助手
@@ -338,21 +338,21 @@ https://www.youtube.com/shorts/6RmwJWGb2rU
 例如，父猫角色给一个长英文名，幼猫角色给pup，Gemini就会自动把占位符换成这些名字。
 接下来是操作流程：
 先点界面右下侧的“镜头表”入口
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_58033c53be6650785a38deb60ee4869d.png>
+![](img/zhuanqian_58033c53be6650785a38deb60ee4869d.png)
 点“发给Gemini”，让它按预设指令开始拆解
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_75ec8a7e9ebc43321948c8047ce9d4f7.png>
+![](img/zhuanqian_75ec8a7e9ebc43321948c8047ce9d4f7.png)
 上传图片时可以用“批量选择”，也可以直接粘贴截图；粘贴第二张前，先点击“补充描述”那一栏
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b855106a272353b2b6d88da47c2805ab.png>
+![](img/zhuanqian_b855106a272353b2b6d88da47c2805ab.png)
 只改某一个镜头时，把要求写进补充描述里
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9a07bc5a7aad5477ea43e8fffa1f5a58.png>
+![](img/zhuanqian_9a07bc5a7aad5477ea43e8fffa1f5a58.png)
 需要统一修改全部镜头，在底部总输入区域填写
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0ffa7b4392411081773fd0239564fb2b.png>
+![](img/zhuanqian_0ffa7b4392411081773fd0239564fb2b.png)
 全部设置好后，点击“提交”，再关闭面板，等Gemini出结果。结果回来以后，选择“回填到工具”
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2f1d1a4e0e74ed5dee1433072b932fc8.png>
+![](img/zhuanqian_2f1d1a4e0e74ed5dee1433072b932fc8.png)
 回填后，可以在工具里逐条修正
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a4e34e8e99ec0cdb5fa5a6a98b632b36.png>
+![](img/zhuanqian_a4e34e8e99ec0cdb5fa5a6a98b632b36.png)
 确认没问题，点击“导出CSV”，表格会保存到电脑里
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6410ea775378c8ca10bb5ebc14093f70.png>
+![](img/zhuanqian_6410ea775378c8ca10bb5ebc14093f70.png)
 这工具目前有个小缺陷：会让Gemini原本的滚动区域失灵。所以我建议把它装进防关联浏览器里使用，绕开这个坑。
 ### 生产力工具二：Sora批量跑图器
 这个工具之前单独分享过，不重复写细节。最关键的是，Gemini扩展导出的CSV可以直接喂给它，形成一条自动化链路。

@@ -1,7 +1,7 @@
 # 1:1复刻宠物攻略Shorts全流程：单条收益2300元，9小时复刻一条的完整实操
 大家好，我是龙哥，赚钱第8期新圈友~
 这篇笔记想和大家拆解下我在 YouTube Shorts 上复刻【宠物攻略解说类】视频的心得，灵感来自@老馬🐎内容出海的分享帖。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9143f61a9d545bf76421d1d85eee7823.png>
+![](img/zhuanqian_9143f61a9d545bf76421d1d85eee7823.png)
 PS：感谢大佬超细的拆解！我后面做 AI 猫猫视频的实操也是沿着这篇走的
 本文主要安排如下，按需阅读即可：
 1、为何会切入【宠物攻略类】赛道？
@@ -20,20 +20,20 @@ PS：感谢大佬超细的拆解！我后面做 AI 猫猫视频的实操也是�
 ② 对标号里至少有一部分已开通 YPP，目标就是赚钱，开不了 YPP 的赛道没意义
 确定标准后，我对照@钱塘江鲤和@老馬🐎的内容做筛选。为了避免完美主义拖延，我给自己定了deadline：10月31日、11月1日两天内必须定方向并开做。否则很容易一直找“完美赛道”：好懂、可变现、制作轻、竞争小，尤其对 YouTube 新手来说，一开始就捡蓝海不现实。
 两天后初步锁定三个方向：AI猫猫、AI 转绘、宠物攻略解说。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0f1e9c2cfc2dbaa49123eab5dd0e3cf8.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_99ab389306b12ccb4a283e8d001abc62.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fa4e185a0162a49e93759dcd6bc03194.png>
+![](img/zhuanqian_0f1e9c2cfc2dbaa49123eab5dd0e3cf8.png)
+![](img/zhuanqian_99ab389306b12ccb4a283e8d001abc62.png)
+![](img/zhuanqian_fa4e185a0162a49e93759dcd6bc03194.png)
 前两种能全程 AI 生成，宠物攻略解说旁白可用 AI 辅助，但剪辑和素材收集仍需手搓。龙哥老大在 AI shorts 超级标后开了龙珠悬赏，我判断会有不少圈友涌向 AI 方向，跟随大家的经验再入场会更快。宠物类反馈可能更少，因为手搓耗时更长。但@老馬🐎也分享过这个赛道，并说准备下阶段起号，说明仍有机会。而且所需技能基本在我能力范围内：逐字稿用 ChatGPT 改写，配音用圈友分享的 AI 配音站，找素材和剪辑之前有做过。
 综合考虑，我先复刻宠物攻略类，再结合圈友分享尝试 AI 类。目前宠物攻略的 1:1 复刻已跑通，AI 猫猫和 AI 转绘也在跟进中。这篇文章先分享宠物攻略的分析和实操。
 # 2、【宠物攻略类】账号收益分析
 定方向后，先找对标号评估收益空间。
 ## 2.1 找对标的方法
 1. 直接按分享帖里的对标截图，用标题在 YouTube 搜索，找到第一条账号。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1f9e02839b07c8261ef30f7e3de14e6c.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6d88f09a933b560bc24f5b604ea776e1.png>
+![](img/zhuanqian_1f9e02839b07c8261ef30f7e3de14e6c.png)
+![](img/zhuanqian_6d88f09a933b560bc24f5b604ea776e1.png)
 2. 按@老馬🐎的方法，对找到的账号关注、点赞，回首页刷新，看到相似视频就点进账号。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f86ef6ef1d70808e6cb7cc7bf448e3be.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_37712b98b54847080c565d78987297e7.png>
+![](img/zhuanqian_f86ef6ef1d70808e6cb7cc7bf448e3be.png)
+![](img/zhuanqian_37712b98b54847080c565d78987297e7.png)
 反复操作后一共找到 7 个对标号：
 | 对标账号 | 所在国家 | 视频数 | 订阅数 | 播放数 |
 | https://www.youtube.com/@1MinPetFacts | / | 81 | 66.2w | 318,799,186 |
@@ -46,35 +46,35 @@ PS：感谢大佬超细的拆解！我后面做 AI 猫猫视频的实操也是�
 数量偏少，部分账号并非纯做宠物攻略。可能是方法问题，也可能是赛道本身参与者不多。
 ## 2.2 典型对标账号分析
 我选的对标是 https://www.youtube.com/@1MinPetFacts
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3018853acbcbd36f6e67ac89ad54b01d.png>
+![](img/zhuanqian_3018853acbcbd36f6e67ac89ad54b01d.png)
 账号很典型，2023/6/27 前发的是可爱动物片段拼接，从 2023/6/27 开始转为宠物攻略解说，之后全是这个定位。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_edbca150f7d97bda9cddc3046ad762ef.png>
+![](img/zhuanqian_edbca150f7d97bda9cddc3046ad762ef.png)
 更新频率 1-3 天一更，我第一次复刻一条视频耗时约 9 小时。从转型开始，第 5 条视频就爆了，1300 万播放。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_775b57972952c3906db2e8580ed9336e.png>
+![](img/zhuanqian_775b57972952c3906db2e8580ed9336e.png)
 流量很稳，未爆款一般几万到几十万播放，且生命周期长。从 23 年 6 月第一个爆款起，时不时仍有百万级和千万级爆款。最近百万爆款在 24 年 8 月，近千万在 24 年 6 月。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8111054000c3484628b9d00c30091958.png>
+![](img/zhuanqian_8111054000c3484628b9d00c30091958.png)
 ## 2.3 对标账号收益分析
 该账号只发了 4 个长视频，播放约一万，可忽略。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e34e517f46b9f10e794945b36d3d86af.png>
+![](img/zhuanqian_e34e517f46b9f10e794945b36d3d86af.png)
 主页总播放 3.1 亿，减去开通 YPP 的 1000 万，Shorts 约 3 亿。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_22145880c55b72b2d00aee10a6469a8b.png>
+![](img/zhuanqian_22145880c55b72b2d00aee10a6469a8b.png)
 参考@老馬🐎的计算方法，万播 1 美元。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b4f9a4be4e329e4bb4f406c77193d4cb.png>
+![](img/zhuanqian_b4f9a4be4e329e4bb4f406c77193d4cb.png)
 总收益 = 30000 万 / 1 万 * 1 = 30000 美元 ≈ 21 万人民币
 共发 88 条，按 90 条算：
 单条收益 = 21 万 / 90 ≈ 2333 元
 我复刻一条典型视频首次耗时约 9 小时。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_af7135b5f26364c8f5f399e1a350c0da.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2ef36e34c7bb9411332ca92c263ee478.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0aa5e4ce9129f842a38c57441cedf69e.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a105bb48a67309df960f6846f507ed38.png>
+![](img/zhuanqian_af7135b5f26364c8f5f399e1a350c0da.png)
+![](img/zhuanqian_2ef36e34c7bb9411332ca92c263ee478.png)
+![](img/zhuanqian_0aa5e4ce9129f842a38c57441cedf69e.png)
+![](img/zhuanqian_a105bb48a67309df960f6846f507ed38.png)
 按 9 小时算：
 时薪 = 2333 / 9 ≈ 259 元
 这还是新手速度，熟练后会更快。市面剪一条视频几十到几百，YouTube Shorts 跑通后单条 2300 元，选哪个很清楚。
 算收益很重要，能把回报具象化。写这篇文章前我只知道这个账号赚钱，具体赚多少很模糊。现在算下来一条 2400 元，剪 4 条月薪过万，动力完全不同。
 # 3、【宠物攻略类】账号选题分析
 以对标号看，爆款基本集中在猫相关攻略，狗的较少且多为百万级。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_52a09a4356d5df83292d4c8ee3c2c9fa.png>
+![](img/zhuanqian_52a09a4356d5df83292d4c8ee3c2c9fa.png)
 千万播放选题统计：
 | 选题 | 发布时间 | 播放量 |
 | You misunderstand 4 cat behaviours! | 2023/12/27 | 3950w |
@@ -96,7 +96,7 @@ PS：感谢大佬超细的拆解！我后面做 AI 猫猫视频的实操也是�
 其他平台选题可参考框架，不可照抄。YouTube 视频基本在 1 分钟内，可容纳一定干货。可把其他平台逐字稿下载，用 AI 改写成 1 分钟内，开头模仿 YouTube 对标节奏。
 # 4、【宠物攻略类】视频复刻全流程
 重点来了，如何 1:1 复刻爆款。我选了“WEIRD But Cats Are Saving You”，发布于 2024/6/30，播放 905 万。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_db8e72c850cb41baeb242749580fd7f5.png>
+![](img/zhuanqian_db8e72c850cb41baeb242749580fd7f5.png)
 以下为对标视频和复刻视频对比。
 从文案、配音、画面、BGM 四个维度拆解。
 ## 4.1 逐字稿抓取和改写
@@ -106,58 +106,58 @@ https://ytshorts.savetube.me/zh/29-youtube-video-downloader-1keen2
 https://chromewebstore.google.com/detail/youtube-summary-with-chat/nmmicjeknamkfloonkhhcjmomieiodli
 实操发现只能抓长视频字幕，Shorts 不行。用 Google 找到的网站可抓 Shorts 字幕并多语言输出：
 https://www.downloadyoutubesubtitles.com/zh
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6f14766121ad06a8c002998d2ddca3d5.png>
+![](img/zhuanqian_6f14766121ad06a8c002998d2ddca3d5.png)
 该网站偶尔识别不准，需核对。如我案例中 four 被抓成 or。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9b9bfa8012ae792d971ec8a100a9437b.png>
+![](img/zhuanqian_9b9bfa8012ae792d971ec8a100a9437b.png)
 为避免查重，用 GPT 简单改写。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_16a847ece09584ea4cbf3163e4167ebc.png>
+![](img/zhuanqian_16a847ece09584ea4cbf3163e4167ebc.png)
 改写后与原文差异不大，后续需优化提示词，否则原创风险高。
 ## 4.2 AI 配音
 画面按文案和配音剪，所以先做配音。
 我用 ElevenLabs：
 https://elevenlabs.io/app/speech-synthesis/text-to-speech
 左侧 Voices 进 LIBRARY 选音色。对标是年轻女声，我选 English、American、Female、Young。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_eada03c6768b73bc1b14ea02aa99ccc1.png>
+![](img/zhuanqian_eada03c6768b73bc1b14ea02aa99ccc1.png)
 多听几款，选最像的。选定后点 MY VOICES 右侧 USE 弹出文本框。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3b8a04ad6f53699fc4fbbd7bc658c1aa.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_31f8b3f6344a1a6e1e3570f2f1a29ddf.png>
+![](img/zhuanqian_3b8a04ad6f53699fc4fbbd7bc658c1aa.png)
+![](img/zhuanqian_31f8b3f6344a1a6e1e3570f2f1a29ddf.png)
 粘贴文案生成即可。该站有 10000 单词免费额度，后续需付费。后来看到@SunDay分享，OpenAI 的 https://ttsopenai.com/ 可免费无限配音，成本省掉。
 踩坑提醒：
 1. 对标视频说数字后会停顿，我没设置，导致数字连读不清晰
 2. 需加停顿或情绪可参考：https://youtu.be/LUmjBtINiYs?si=V3rrRuyaVcc3jPZw
 3. AI 配音无法控语速，我生成的时长比对标长约 15 秒，Shorts 需控在 1 分钟内
 4. 解决：用剪映变速 1.1x-1.2x 就行，再快会怪。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1283923166a7fd84628420fd9999dfd5.png>
+![](img/zhuanqian_1283923166a7fd84628420fd9999dfd5.png)
 ## 4.3 BGM
 配音搞定后处理 BGM。最初想用 QQ 音乐识曲，但人声盖住 BGM 识别失败。先做人声伴奏分离。
 剪映会员可分离，为保持低成本，我用 YouTube 找到的 Ultimate Vocal Remove 5.5 免费分离，效果不错。参考：https://www.youtube.com/watch?v=-_mp-Kuc6eA&t=345s
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_568fb06e5cf32458513da6b17974024c.png>
+![](img/zhuanqian_568fb06e5cf32458513da6b17974024c.png)
 分离后 QQ 音乐可识别，找到音源下载备用。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c5eb3d84d8a8bb19bbd30211bbdcbd79.png>
+![](img/zhuanqian_c5eb3d84d8a8bb19bbd30211bbdcbd79.png)
 文案、配音、BGM 齐了，难点是画面。不能照抄，需找相似画面替换。
 ## 4.4 找画面素材的三种方法
 第一种：Google 识图找替代素材。想过让 AI 看截图找相似，但实测豆包结果不相关。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7433eb758ce93560575cfbfaf8e56614.png>
+![](img/zhuanqian_7433eb758ce93560575cfbfaf8e56614.png)
 最终用 Google 识图，打开搜索点相机，上传对标视频截图，可在 YouTube、TikTok 找到相似画面视频，直接下载。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_591f5e73903709dd1a65c42cce3dd7fb.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8b9c42739c855ac2ef3a9e84f24d8324.png>
+![](img/zhuanqian_591f5e73903709dd1a65c42cce3dd7fb.png)
+![](img/zhuanqian_8b9c42739c855ac2ef3a9e84f24d8324.png)
 以上就是我从零复刻宠物攻略 Shorts 的完整经历。核心是先把收益算清再选赛道，吃透对标账号和选题规律，再在文案、配音、BGM、画面四环节逐项打磨。
 做这类视频有一个核心原则希望大家牢记：不要直接照搬对标视频的画面。就算你顺藤摸瓜找到了它的源素材，也尽量挑不一样的帧来用。只要源头素材够长，操作起来就很简单——直接从里面截取其他镜头就行。
 拿我自己举例，我的复刻视频和对标视频的开头都是"猫美人鱼"，但仔细比对就会发现画面完全不同。原因就在于我没用对标的那几帧，而是去源视频里挑了另外几帧来替代。这样既能保持整体感觉相似，又能在查重时安全过关。
 但问题来了：如果你通过截图反查，找到的源视频本身就特别短，对标已经把关键画面用掉了，剩下的根本没得选，这时候该怎么办？
 那就轮到第二个方案上场：
 方案二：观察画面里主体的动作，然后去社交平台搜索类似素材。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_866f91b42dd14a17f26568942055f9a9.png>
+![](img/zhuanqian_866f91b42dd14a17f26568942055f9a9.png)
 举个例子，上面那个画面里的猫，我追到源头视频后才发现整个素材只有几秒，而且最好的那段已经被对标视频用掉了。不过仔细看这只猫的状态——弓背、炸毛——思路一下子就打开了。我们没必要死磕同一个镜头，找其他猫弓背炸毛的画面来替代完全可行。
 方向确定后，我直接切到小红书搜"猫猫 炸毛"。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_04703ed807f9aeea90675121f21dc03b.png>
+![](img/zhuanqian_04703ed807f9aeea90675121f21dc03b.png)
 结果除了对标视频的源素材之外，还冒出来不少高质量的无字幕猫猫弓背炸毛视频。挑一个镜头角度接近的，比如左下角那个，下载下来把炸毛的几秒画面截出来，替换掉原视频即可。
 其他画面也可以按同样的思路处理：先用Google识图反查源视频，看有没有和对标风格接近的镜头，有就直接用；没有的话，就根据画面中猫的动作，跑去小红书、抖音这类平台搜索。
 这段时间实测下来，TikTok和小红书的素材质量是最稳的，尤其是小红书。大量素人用户会分享自家猫咪的日常，几乎都不带字幕，下载下来就能直接用于替换。
 （我用的小红书下载工具是：#小程序://红薯宝库去水印/n9PgGKmVSC1pESt）
 除了以上两种，还有第三种路子：长期关注那些高频分享宠物日常的博主，盯住他们的主页，以后素材直接去那里取。目前我收藏了TikTok的nabistiktok、小红书的小嗲精仔仔等几个账号，质量都相当能打。大家平时找素材时可以多留心，看到不错的就顺手点进主页瞄一眼，关注起来。
 按照这三条方法，我们可以把对标视频里用到的所有画面全部找齐替代素材，统一归档。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9ec25f80acc25715d82943bf32739b4b.png>
+![](img/zhuanqian_9ec25f80acc25715d82943bf32739b4b.png)
 接下来就是按对标视频的节奏，把素材一段段替换进去。
 考虑到文案改写和配音重录的误差，我们很难让时长和对标完全一致。这种情况下，配对画面也有两个思路。
 ## 4.5 替换画面的两种思路
@@ -190,10 +190,10 @@ and that has saved many cat owners
 4. 做的时间长了，大概率会遇到一个转型问题：怎么把中文选题和文案转换成YouTube上更吸睛的形式。等对标账号的选题被消耗得差不多，这个问题就躲不掉了。
 解决方法：
 - 可以参考@老馬🐎内容出海提供的文案结构，试着交给GPT或Claude去训练学习，把文案压缩在1分钟以内，再把开头改得更抓眼球。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a9584b989c9f1115f2e34b4c2805ecf7.png>
+![](img/zhuanqian_a9584b989c9f1115f2e34b4c2805ecf7.png)
 ## 5.2 起号计划
 YouTube Shorts的YPP开通门槛是：过去90天内拿下1000名订阅者和1000万次播放。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_788f042b2c3d3409ee10edfa8c2c9b56.png>
+![](img/zhuanqian_788f042b2c3d3409ee10edfa8c2c9b56.png)
 我的起号计划完全围绕这个门槛来设计。
 ①最低目标：
 3个月内达到1000订阅和1000万播放，通过YPP审核。

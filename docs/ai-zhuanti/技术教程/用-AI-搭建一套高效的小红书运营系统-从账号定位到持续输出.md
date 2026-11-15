@@ -99,15 +99,15 @@ AI 的优势在于，它拥有大量的行业信息和案例。当你给出足�
 ```
 个人介绍包括：性别、年龄、性格、账号方向、变现模式、背景特长、偏好平台、个人故事等，越详细越好。
 生成的账号内容，会包括个人IP构建策略，用于打造个人 IP ，非常适合刚起步、需要整体规划的账号。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_61e7f5154656b6df58966bea7717682d.png>
+![](img/zhuanqian_61e7f5154656b6df58966bea7717682d.png)
 ## 2. 用 Gemini 训练一个“了解你”的 AI 助手
 账号规划只是第一步。
 如果你想让 AI 长期协助自己完成某件事，尤其是写文案，最好不要每次只给一个简单指令，而是提前让它充分了解你。
 具体做法是：先告诉 AI 你希望它承担什么任务，再把自己的背景、经历、观点和表达习惯尽可能完整地提供给它。
 这套方法是我向 @阿甜 学到的。它需要投喂的信息量比较大，因此我更倾向于使用 Gemini。
 当时我整理了 5000 多字的个人介绍，以及 30 多篇自己写过的观点类文案。资料输入完成之后，Gemini 生成的内容明显更接近我的表达习惯。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9f6b9ea039ffaba776ab25b3499b8861.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c51ec9f322dd8a3ea04fb54e5415b4f6.png>
+![](img/zhuanqian_9f6b9ea039ffaba776ab25b3499b8861.png)
+![](img/zhuanqian_c51ec9f322dd8a3ea04fb54e5415b4f6.png)
 如果你准备长期使用 AI 辅助创作，建议一定要整理一份详细的个人说明。
 这份说明可以包含：
 - 你的个人经历；
@@ -120,7 +120,7 @@ AI 的优势在于，它拥有大量的行业信息和案例。当你给出足�
 - 文案风格；
 - 账号变现方向。
 在训练好 AI 助手之后，我还让 Gemini 帮我重新整理了一版个人说明书。相比最初的版本，结构更清楚，内容也更加完整。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a51a93283def72975ae55aa956d94929.png>
+![](img/zhuanqian_a51a93283def72975ae55aa956d94929.png)
 # 三、重点：建立一个持续产生选题的系统
 AI 能够帮助你规划账号，但真正决定能不能长期更新的，是有没有稳定的选题来源。
 我现在搭建的选题系统，主要解决三类问题：
@@ -136,28 +136,28 @@ AI 能够帮助你规划账号，但真正决定能不能长期更新的，是�
 All in One 的核心不是分类，而是及时记录。
 只要脑子里出现了一个想法，就先把它保存下来，不要求完整，也不要求马上归类。
 这个方法是我从 @静静教主 那里学到的。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_03c16ba3a50c4c631e47245d06d0a15f.png>
+![](img/zhuanqian_03c16ba3a50c4c631e47245d06d0a15f.png)
 最关键的一点是：不要一开始就建立很多复杂的文件夹。
 读书感悟、学习笔记、待办事项、完成事项、临时灵感，都可以先放在同一个地方。
 因为记录的第一目标是“不遗漏”，而不是“看起来整齐”。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_899e5662c82885be459bf3c73960f55b.png>
+![](img/zhuanqian_899e5662c82885be459bf3c73960f55b.png)
 我坚持使用笔记本记录了一段时间，但后来发现，很多场景下并不方便随身拿出来。
 于是，我在原有方法的基础上，增加了几个更适合不同场景的入口。
 #### 微信对话框
 我会建立一个只有自己的微信群，把它当作临时收集箱。
 看到暂时没时间读完的文章、链接或资料，可以先丢进去，之后统一处理。
 平时在微信里突然有了一个想法，也可以直接发给自己，或者同步使用 flomo 记录。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_91c95997f0099361a6eccd4557b81a13.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0d560b5a5cea67102c769a1110a5d502.png>
+![](img/zhuanqian_91c95997f0099361a6eccd4557b81a13.png)
+![](img/zhuanqian_0d560b5a5cea67102c769a1110a5d502.png)
 #### 手机备忘录
 在不想被微信消息干扰，或者处于非微信使用场景时，我会使用手机自带的备忘录。
 我把它放在手机桌面组件中，这样阅读、走路或临时想到什么时，都可以快速打开。
 比如读书时发现一个观点和自己的账号方向有关，我会先把它记录下来，之后再判断能不能发展成选题。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3cf44360f8ac7c43a2e2cc5722500881.png>
+![](img/zhuanqian_3cf44360f8ac7c43a2e2cc5722500881.png)
 #### Get 笔记或语音记录工具
 如果正在路上、不方便打字，或者只想马上保存一个还不完整的念头，我会选择语音记录。
 这类工具的优点是，不需要先组织语言。即使表达断断续续、逻辑不完整，也可以先说出来，再让 AI 帮忙整理成一条清晰的笔记。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ef62a26dafaf7cf1bab5260c8b1c9454.png>
+![](img/zhuanqian_ef62a26dafaf7cf1bab5260c8b1c9454.png)
 看起来，我使用了很多工具，但它们并不是重复的。
 每个工具只是对应不同的记录场景：
 - 手边有纸，就用笔记本；
@@ -178,7 +178,7 @@ All in One 的核心不是分类，而是及时记录。
 知识库可以搭建在 Notion、飞书、ima 等工具中。我目前使用的是飞书，因为它具备 AI 能力，并且多维表格能够完成很多自动化操作。
 我的知识库第一栏，就是“闪念沉淀”飞书多维表格。
 每次打开知识库后，我可以直接处理近期积累的零散想法。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0867f371c1a5703823ec9d6bcf921c0a.png>
+![](img/zhuanqian_0867f371c1a5703823ec9d6bcf921c0a.png)
 我会在表格中补充一些信息，例如：
 - 这条内容的核心洞察；
 - 它可能带来的价值；
@@ -192,19 +192,19 @@ All in One 的核心不是分类，而是及时记录。
 - 案例库；
 - 其他可复用素材库。
 如果某条闪念适合做金句，只需要在对应字段打勾，它就会自动进入“金句库”；如果是故事、案例或创意，也可以用同样的方式完成归档。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3013180033bc84945be003e2cfe69359.png>
+![](img/zhuanqian_3013180033bc84945be003e2cfe69359.png)
 这样一来，素材整理不再需要重复复制粘贴。飞书多维表格配合自动化功能，可以把信息自动同步到对应的专项库中，操作非常省力。
 ### 第三步：让选题真正服务于输出
 内容创作最重要的原材料，就是持续出现的想法和灵感。
 我平时会把有潜力的闪念筛选出来，统一放入“选题库”，然后进一步做分类和加工。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_67941b61ea6aefb2f2a2886d8d024599.png>
+![](img/zhuanqian_67941b61ea6aefb2f2a2886d8d024599.png)
 写文章时，我可以从“个人故事库”里挑选真实经历，也可以从“金句库”中寻找适合放进内容里的表达。
 这样，创作就不再是从空白文档开始，而是从已经积累好的素材中进行组合和提炼。
 ## 2. 从爆文中提炼适合自己的选题
 仅靠日常记录还不够。
 真正开始创作时，还需要关注近期热点、同行账号以及目标领域里的高表现内容。
 我之前分享过相关采集工具，后来又进一步完善了“内容收集—爆文分析—选题生成”的流程，并把它接入了自己的知识库。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4e7f30bea6767f7e928c56cfd0f05a34.png>
+![](img/zhuanqian_4e7f30bea6767f7e928c56cfd0f05a34.png)
 看到值得研究的爆文后，我会先保存到飞书多维表格，再接入 DeepSeek 进行分析，重点关注：
 - 爆文的选题策略；
 - 封面呈现方式；
@@ -214,11 +214,11 @@ All in One 的核心不是分类，而是及时记录。
 - 用户互动原因；
 - 账号定位与内容之间的关系。
 如果某篇爆文的方向与自己的账号匹配，我就会把它加入选题库。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_eaa0d306062be529ee47c5d6bd4b8abb.png>
+![](img/zhuanqian_eaa0d306062be529ee47c5d6bd4b8abb.png)
 之后，再让 AI 结合我的账号定位，判断这篇内容可以如何重新利用，并给出适合我的切入角度和选题建议。
 这样做并不是简单照搬爆文，而是借助爆文寻找规律，再把规律转化成适合自己账号的内容。
 这一环节会用到前面生成的账号定位。如果你同时运营多个账号，可以分别为每个账号建立独立的定位资料和分析逻辑。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0f223ba9ac748808efea72783dad95af.png>
+![](img/zhuanqian_0f223ba9ac748808efea72783dad95af.png)
 提示词是我让 AI 协助生成的，涉及敏感内容的部分已经手动打码。
 提示词复制：
 ```
@@ -278,7 +278,7 @@ All in One 的核心不是分类，而是及时记录。
 ```
 虽然我分别建立了“闪念选题库”和“爆文选题库”，但平时并不会来回切换查看。
 我把两个选题库统一汇总到一个“选题站”里。每天只需要打开选题站，就能同时看到来自日常灵感和爆文拆解的选题。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d4ece7bb1dab082773ffbce2d911e05e.png>
+![](img/zhuanqian_d4ece7bb1dab082773ffbce2d911e05e.png)
 至此，我的内容系统就形成了一个比较顺畅的闭环：
 输入 → 记录 → 整理 → 选题 → 输出
 它没有太多复杂步骤，也不需要频繁在不同工具之间重复操作。
@@ -294,19 +294,19 @@ All in One 的核心不是分类，而是及时记录。
 1. 进入灰豚数据，查看热门笔记榜、低粉爆文榜以及涨粉博主榜；
 2. 使用 Dia 浏览器分析对标内容，重点观察它们的选题方向、标题写法和封面呈现；
 3. 输入自己的账号定位，让它结合定位产出新的选题方案。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b64cf6a92463fb3b1d84ab5d27e5c326.png>
+![](img/zhuanqian_b64cf6a92463fb3b1d84ab5d27e5c326.png)
 我这次展示的案例是随机挑选的。Dia 会进一步拆解笔记为什么能成为爆款，归纳其中的内容结构，并根据这些规律延展出新的选题、文案框架和表达思路。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_91052c8a2297487374a48fb9123aeee8.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6f76f453f65cc810f92aae5820f307dc.png>
+![](img/zhuanqian_91052c8a2297487374a48fb9123aeee8.png)
+![](img/zhuanqian_6f76f453f65cc810f92aae5820f307dc.png)
 ## 2. 让 DeepSeek 搜集全网热点
 这个方法的门槛更低。
 直接打开 DeepSeek 的联网功能，把自己的账号定位告诉它，让它检索当前全网正在讨论的热门话题，再从中筛选一个最适合自己账号的方向，转化成具体选题。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_52ee440fcdeea0321488262d1bb7a0cc.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_da9b5e4652a261d5ee35ad3800f63065.png>
+![](img/zhuanqian_52ee440fcdeea0321488262d1bb7a0cc.png)
+![](img/zhuanqian_da9b5e4652a261d5ee35ad3800f63065.png)
 ## 3. 用飞书多维表格搭建选题创作器
 如果每次找选题都要重新打开 DeepSeek、重复输入账号资料，效率还是不够高。
 所以，我把账号定位和选题提示词统一放进了飞书多维表格。之后只需要填入一个初步想法，或者增加一个“全网热点”字段，表格就能自动生成符合账号方向的选题建议。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cd15f0e32ad9acb02223210cedbde9e8.png>
+![](img/zhuanqian_cd15f0e32ad9acb02223210cedbde9e8.png)
 把这些方法组合起来之后，基本不会再陷入“没东西可写”的状态，选题灵感可以持续产生。
 确定选题后，下一步就是进入文案创作。
 # 04. AI如何高效生成文案
@@ -320,27 +320,27 @@ All in One 的核心不是分类，而是及时记录。
 首先，要把个人经历、身份信息、专业背景等详细资料提供给它，这部分前面已经讲过。
 接着，再上传你过去写过的优质文章、口播稿或逐字稿。数量最好在10篇以上，我自己一般会准备30篇左右。
 如果你过去没有积累过文案，也可以选择风格接近的对标账号，把你认可的内容整理出来，让 AI 学习。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b92b67175f33bcea401173012304d30c.png>
+![](img/zhuanqian_b92b67175f33bcea401173012304d30c.png)
 这里有一个关键点：风格一定要保持统一。
 不要今天投喂一种写法，明天又换成完全不同的表达。只有持续输入同一类型、同一气质的内容，AI 才更容易抓住你的语言特点。
 ### 第二阶段：让 AI 按你的风格创作
 完成资料投喂后，先让 AI 总结并理解你的写作方式，再输入具体选题，要求它按照你的表达习惯完成文案。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b90d5d8618ebbd28916258d1ccf54cd5.png>
+![](img/zhuanqian_b90d5d8618ebbd28916258d1ccf54cd5.png)
 ### 第三阶段：通过修改让它越来越像你
 刚开始生成的内容，通常不会完全符合你的要求。这时候不能只依赖 AI 自动完成，还需要自己进行调整。
 尤其建议把文案真正读出来，而不是只在屏幕上浏览。
 很多句子用眼睛看似乎没有问题，但一旦读出口，就会发现节奏、生硬感或口语表达上的问题。想找到真正适合自己的风格，就必须经过“朗读—修改—再朗读”的过程。
 修改完成后，再将最终版本反馈给 AI。通过不断纠正，它会逐渐掌握你的表达偏好，后续生成的内容也会越来越贴近你的风格。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6ef6a7ed433f583863af27e9f5001acc.png>
+![](img/zhuanqian_6ef6a7ed433f583863af27e9f5001acc.png)
 ## 4.2 用飞书多维表格批量生成文案
 之前介绍过的飞书多维表格 AI 创作器，除了可以辅助完善账号定位和生成选题，同样能够用于文案创作。
 它可以先拆解竞品笔记，再结合你的账号定位、想突出的主题和必须保留的要点，对内容进行定向重写。
 比如我做过一次测试：将一篇香薰类爆款笔记的内容结构、户外办公相关关键词，以及我的账号定位组合起来，最后生成了一个全新的内容方向。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_568beb2c73bf73bd0279c7ee56ce39cd.png>
+![](img/zhuanqian_568beb2c73bf73bd0279c7ee56ce39cd.png)
 如果追求更高效率，甚至不需要完整输入选题，只要提供几个关键词，系统就能自动生成笔记。
 关键词还可以批量导入，之后一次性生成多篇文案，特别适合需要稳定更新、批量测试内容的场景。
 关于如何把 DeepSeek 接入飞书多维表格，网上已经有很多教程，这里就不展开了，大家搜索相关关键词即可找到。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1e86736a80a096f94d66d4e1154f2d56.png>
+![](img/zhuanqian_1e86736a80a096f94d66d4e1154f2d56.png)
 # 最后总结
 这就是我目前在工作流里使用 AI 提效的主要方式。
 我暂时没有把 AI 生图加入流程，主要是因为它的调试成本比较高。即使一次调试成功，后续生成新的图片时，往往还要重新调整，并不能真正做到长期复用，反而容易占用大量时间。

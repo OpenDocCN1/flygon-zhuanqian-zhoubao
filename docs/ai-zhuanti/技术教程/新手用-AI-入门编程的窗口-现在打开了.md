@@ -12,10 +12,10 @@
 让这一切成为可能的，是一个专门为 AI 自学而生的工具：[Claude 3.5](https://claude.ai/)。
 对新手而言，自学编程只需要它一把就够了。
 首先，它的智力水准已经很高，在编程能力上是当下最强的大模型之一，超越 ChatGPT-4o。截止 2024 年 7 月，来自 lmsys 的大规模人类双盲测试结果也印证了这点，如下图所示 [`chat.lmsys.org/`](https://chat.lmsys.org/)
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0a987b80e4c88cdf501ad927d209310c.png>
+![](img/zhuanqian_0a987b80e4c88cdf501ad927d209310c.png)
 其次，它独家上线的 Claude Artifacts 功能非常关键。你写的代码能直接在对话里实时运行、预览，不用再折腾本地环境、不用来回复制粘贴，省掉了新手最头疼的环节。（如下图所示）
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0cad37c5e7f81bb5a0d0f80b0b5a9866.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ec9ad9affa5b104430186ca693168a94.png>
+![](img/zhuanqian_0cad37c5e7f81bb5a0d0f80b0b5a9866.png)
+![](img/zhuanqian_ec9ad9affa5b104430186ca693168a94.png)
 看看国外用户是怎么实操并评价 Claude 3.5 的编程实力的。
 第一个案例：一位从未写过一行代码的人，仅靠与 Claude 对话 4.5 小时，就做出了一个功能完整、界面精致、带完整数据库的笔记应用。
 原始连接 [点这里](https://x.com/rileybrown_ai/status/1814062312472694992)
@@ -26,10 +26,10 @@
 第 11 分钟以后：看成品面世时的兴奋感。
 第二个案例：开发者 Dave 演示了自己用 Claude 3.5 Sonnet 所做的 Voice Notes AI，一个语音笔记工具，只用了两个小时。
 原始连接：[点这里](https://x.com/php100/status/1814776161542557928)
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8a0f7d2b3cce9a0bec6c0cbe9c52996d.png>
+![](img/zhuanqian_8a0f7d2b3cce9a0bec6c0cbe9c52996d.png)
 第三个案例：Y Combinator CEO Gary Tan 在 Twitter 转发 —— 认为用 C=Claude 3.5，可以在十倍以上速度下，做出应用商店里几乎任何一款应用。
 原始连接 [点这里](https://x.com/garrytan/status/1814732623073456165)
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4ecc73c8c621f4d1f0e314330ae776e1.png>
+![](img/zhuanqian_4ecc73c8c621f4d1f0e314330ae776e1.png)
 # **二、实操路径**
 1、把上面提到的视频【[一个完全没有写过代码的人，只靠和 Claude 聊天 4.5 小时，完成了一个功能齐全、界面美观、有完整的数据库功能的记笔记的应用](https://www.bilibili.com/video/BV1xH8qeEEdS/)】研读透彻，同时把 3 条原始推文链接打开，从评论区和作者的回复里汲取经验。
 这是最核心的一步。我身边不少朋友就是照着这个视频模仿起步，一个周末就出了让人意外的成果。
@@ -44,16 +44,16 @@
 # **三、网友的练手作品**
 **1.一个 BMI 计算器**
 [点击使用](https://claude.site/artifacts/6fd95417-f0cd-4f4c-b9a2-a31a80982ca9)
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e77064c42acad5b1643e671332d7bb52.png>
+![](img/zhuanqian_e77064c42acad5b1643e671332d7bb52.png)
 **2.一个高考倒计时**
 [点击查看](https://claude.site/artifacts/eabdd426-239a-4d05-b9a2-a31a80982ca9)
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_dba38b7638448ea662608124891b7e7a.png>
+![](img/zhuanqian_dba38b7638448ea662608124891b7e7a.png)
 **3.一个给 5 岁小孩玩的汽车游戏**
 [点击查看](https://claude.site/artifacts/d582516d-48b7-46df-b9a2-a31a80982ca9)
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f06a8e8b9d79690706487cbb65ee898d.png>
+![](img/zhuanqian_f06a8e8b9d79690706487cbb65ee898d.png)
 **4.一个 emoji 射击游戏**
 [点击查看](https://claude.site/artifacts/7e18124d-c97a-45a5-93f5-c99fad0ebf84)
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_84e345edce01379036c507ffc9be46be.png>
+![](img/zhuanqian_84e345edce01379036c507ffc9be46be.png)
 # **四、常见疑问**
 **问：链接打不开，网络环境和账号注册、会员开通怎么弄？**
 答：当下信息很发达，龙哥盟社区本身就聚焦互联网变现，这些问题的答案很容易检索到。若你卡在这一环，更可能的原因是——你内心还没真正下定决心学编程，潜意识在找“不是我不想学，是我不会注册账号”这样的借口，让“工具再好我也没开始”显得合理。

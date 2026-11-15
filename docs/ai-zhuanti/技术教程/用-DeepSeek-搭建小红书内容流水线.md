@@ -5,7 +5,7 @@ AI 工具很多，关键是找到自己用着顺手的。
 目前实测下来，腾讯元宝里的满血版 DeepSeek 反应比较快，输出也相对稳定。
 入口：https://yuanbao.tencent.com（非商业推广）
 打开后，将默认模型切换为 DeepSeek。需要更强的推理能力时，可以开启深度思考；联网搜索建议先关掉，避免结果被外部信息带偏。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5d924a84c39dcbeb888cdf6d9e914dce.png>
+![](img/zhuanqian_5d924a84c39dcbeb888cdf6d9e914dce.png)
 ### 2. 先设定工作身份
 不要一上来就让模型“随便写几个标题”，先告诉它负责什么、要遵守哪些规则。
 可以直接发送：
@@ -13,20 +13,20 @@ AI 工具很多，关键是找到自己用着顺手的。
 >
 > 学习完成后，我会提供一个主题词。请结合刚才掌握的方法，从多个切入点设计若干标题。若明白，请回复：“好的，没问题，我已经准备好学习新知识，并会在之后根据主题词完成标题创作。”
 ## 实操：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5beef56bef7c3dedda5adac16bec21e8.png>
+![](img/zhuanqian_5beef56bef7c3dedda5adac16bec21e8.png)
 ### 3. 用优质样本喂给模型
 准备几份表现不错的标题资料，让模型观察其中的吸引力来源，包括冲突感、情绪张力、利益点和表达方式。
 提示词可以这样写：
 > 下面有四份高表现标题资料。请分析它们为什么容易吸引点击，并总结可迁移的写法。完成后，请根据我之后提供的主题，从不同角度进行延展创作。理解后回复“学会了”。
 ## 文档：
 ## 实操：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_888387bb8f05e8ae72a5d3ebaabe864d.png>
+![](img/zhuanqian_888387bb8f05e8ae72a5d3ebaabe864d.png)
 ### 4. 输入主题词开始创作
 例如：
 > 主题：AI与小红书
 ## 实操：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3b4dde5f67e157235cb3f5a38658cac3.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0bc24d8589c5cdccc3a4d2929a2692f1.png>
+![](img/zhuanqian_3b4dde5f67e157235cb3f5a38658cac3.png)
+![](img/zhuanqian_0bc24d8589c5cdccc3a4d2929a2692f1.png)
 ### 5. 通过追问继续打磨
 初次结果不一定完全符合发布要求。遇到标题过长、方向不对、情绪不足时，直接指出问题即可。
 例如：
@@ -38,17 +38,17 @@ AI 工具很多，关键是找到自己用着顺手的。
 - 增加反差感
 - 重点突出实用方法
 ## 实操：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f9a0ac80663f7f407d80689cab3391e7.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3a70492a1a7680e56b80094f96ba76da.png>
+![](img/zhuanqian_f9a0ac80663f7f407d80689cab3391e7.png)
+![](img/zhuanqian_3a70492a1a7680e56b80094f96ba76da.png)
 ### 换一个主题继续测试
 后面只需发送新的主题词，模型就能沿用前面建立的规则继续产出。
 不过，AI给出的内容仍建议人工筛选。标题是否适合账号定位、是否符合真实体验，最终还要自己把关。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_32056c11a75adf246301aba081b7614f.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_acf9db4b8a65908d8628b72bd4d2db82.png>
+![](img/zhuanqian_32056c11a75adf246301aba081b7614f.png)
+![](img/zhuanqian_acf9db4b8a65908d8628b72bd4d2db82.png)
 ### 给对话做好标记
 建议将这条对话改名，例如“标题灵感库”，并设置置顶。
 这样以后换主题时，不用重新解释规则，打开对话就能接着用。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4899a8e2fc147280951bbd429b8068f0.png>
+![](img/zhuanqian_4899a8e2fc147280951bbd429b8068f0.png)
 ## 二、让 DeepSeek 写出完整小红书笔记
 ### 1. 先建立内容写作角色
 #### 第一版提示词
@@ -61,7 +61,7 @@ AI 工具很多，关键是找到自己用着顺手的。
 然后补充任务要求：
 > 学习完成后，我会发送一个选题。请依据这些规则写一篇不超过1000字的小红书笔记。在我给出选题之前，不要提前创作，只需回复：“好的，没问题，我已准备好接收选题。”
 ## 实操选题：洗碗机选购
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_30b6a80a7bd1b21a3573dadc17c6c6a8.png>
+![](img/zhuanqian_30b6a80a7bd1b21a3573dadc17c6c6a8.png)
 第一版通常会出现两个问题：心理活动太密集，括号和画面说明太多。
 如果想拿到可以直接发布的正文，就要继续收紧限制。
 #### 第二版提示词
@@ -80,7 +80,7 @@ AI 工具很多，关键是找到自己用着顺手的。
 >
 > 收到选题后，再开始写作；在此之前只回复：“好的，没问题，我已准备好接收选题。”
 ## 实操选题：洗碗机选购
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_65d192907a7df41a8cfb1c5eb19051d5.png>
+![](img/zhuanqian_65d192907a7df41a8cfb1c5eb19051d5.png)
 如果模型习惯性重复某个感叹词，或者标题依旧超长，可以进一步加上硬性格式。
 #### 第三版提示词
 > 请先掌握以下内容方向：清单盘点、产品测评、知识解释、消费避雷、操作教学、购买指南。
@@ -97,14 +97,14 @@ AI 工具很多，关键是找到自己用着顺手的。
 >
 > 未收到选题前，只需回复：“好的，没问题，我已准备好接收选题。”
 ## 实操选题：洗衣机选购
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_42e3153e6824ff7adf1f1af2631f6658.png>
+![](img/zhuanqian_42e3153e6824ff7adf1f1af2631f6658.png)
 ## 再试一题：怎么买冰箱
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5c570e98fa90e7b535754e38a8a2dfe7.png>
+![](img/zhuanqian_5c570e98fa90e7b535754e38a8a2dfe7.png)
 这套规则已经能让成稿更接近平台内容风格，但发布前仍建议根据自己的语气、经历和产品信息做一次人工调整。
 ### 2. 命名并固定这条对话
 将对话改成“生活好物笔记助手”之类的名称，并置顶保存。
 之后发送“选题：……”即可继续调用。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_762d1d4faa9af1d11b25a7a9f29cc0e4.png>
+![](img/zhuanqian_762d1d4faa9af1d11b25a7a9f29cc0e4.png)
 ## 三、把现有内容改写成全新笔记
 ### 1. 建立二次创作助手
 #### 第一版提示词
@@ -131,9 +131,9 @@ AI 工具很多，关键是找到自己用着顺手的。
 >
 > 没有收到原文前，只需回复：“好的，没问题，我已准备好接收文案。”
 ## 实操原文：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e5077571f2f61f0006ad645a6e36cfae.png>
+![](img/zhuanqian_e5077571f2f61f0006ad645a6e36cfae.png)
 ## 二创文案：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_72ed73817a131f3c43d417716f4f5044.png>
+![](img/zhuanqian_72ed73817a131f3c43d417716f4f5044.png)
 实际测试中，普通内容一般没问题，但涉及活动日期、价格和资格条件时，模型可能会漏掉关键信息。因此，最好把保留规则写得足够明确。
 #### 第二版提示词补充
 将专有信息保存要求细化为：
@@ -158,26 +158,26 @@ AI 工具很多，关键是找到自己用着顺手的。
 > - 地理信息：如“广州市”“粤北地区”
 > - 交通坐标：如“地铁4号线”“公交B12路”
 ## 二创文案：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d8fe5c8769df8310b0ff48a7e9428822.png>
+![](img/zhuanqian_d8fe5c8769df8310b0ff48a7e9428822.png)
 这样处理后，时间、价格、优惠门槛等内容更不容易在改写过程中消失。
 ## 实操原文：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_eb39c0361d4489887b90466f31dbab9c.png>
+![](img/zhuanqian_eb39c0361d4489887b90466f31dbab9c.png)
 ## 二创文案：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_61ab064376bbf8c9dde0b6934d90f386.png>
+![](img/zhuanqian_61ab064376bbf8c9dde0b6934d90f386.png)
 如果原文结尾包含产品型号，建议在提示词中再次强调：型号必须完整保留，不得拆分、替换或删减。
 ### 2. 给对话设置专属名称
 将对话改名为“笔记重构助手”并置顶。
 以后发送“文案：……”即可继续处理新的参考内容。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e651b2cf8e253691765f69e40ffd0104.png>
+![](img/zhuanqian_e651b2cf8e253691765f69e40ffd0104.png)
 ## 四、用 DeepSeek 配合飞书多维表格批量处理内容
 如果需要同时整理很多标题和正文，可以把模型能力接入飞书多维表格，减少重复复制粘贴。
 ### 1. 创建数据表
 登录飞书，在文档区域点击新增入口，找到多维表格并进入。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_71ea8bdf4fd38fc07b8a35482a4756b3.png>
+![](img/zhuanqian_71ea8bdf4fd38fc07b8a35482a4756b3.png)
 选择空白表格，不必套用现成模板。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bdff93167bd096ae1eb63c3aced35f85.png>
+![](img/zhuanqian_bdff93167bd096ae1eb63c3aced35f85.png)
 完成后，就会得到一个可录入标题、正文和处理结果的表格。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_79e2eb7a6eeb821697400394e984ba80.png>
+![](img/zhuanqian_79e2eb7a6eeb821697400394e984ba80.png)
 ### 2. 准备原始内容
 先把自己的笔记，或已获授权使用的参考资料，填入表格中。
 常见字段可以包括：
@@ -188,14 +188,14 @@ AI 工具很多，关键是找到自己用着顺手的。
 - 发布状态
 如果数据量较大，也可以通过自动化方式导入。
 例如，哆元搭建了一个包含参考标题与正文的表格。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b006469fd9859569aaef987597aa8c45.png>
+![](img/zhuanqian_b006469fd9859569aaef987597aa8c45.png)
 ### 3. 新增 AI 处理字段
 在已有字段右侧增加一列，打开字段设置入口。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_984da20305305d95b457adfb4ed7ab46.png>
+![](img/zhuanqian_984da20305305d95b457adfb4ed7ab46.png)
 进入字段捷径中心。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_be578273c45aac21793085c9930403b8.png>
+![](img/zhuanqian_be578273c45aac21793085c9930403b8.png)
 飞书目前可以调用 DeepSeek。进入 AI 类工具后找到对应模型，也能直接在搜索栏输入模型名称定位。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d7393aa06038d024a67cf8cf225a7166.png>
+![](img/zhuanqian_d7393aa06038d024a67cf8cf225a7166.png)
 ### 4. 配置处理指令
 根据自己的任务填写规则，例如：
 - 仅重写表达，不改变事实
@@ -204,7 +204,7 @@ AI 工具很多，关键是找到自己用着顺手的。
 - 输出适合平台发布的段落
 - 禁止补充未经提供的信息
 完成设置后即可运行。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_000af2db33ccb71a13a49560201d2421.png>
+![](img/zhuanqian_000af2db33ccb71a13a49560201d2421.png)
 这里可以准备两类指令：
 #### 多角度案例重构
 在原有内容基础上加入不同人物、场景和使用背景，让内容层次更丰富，但不能虚构事实。
@@ -282,11 +282,11 @@ AI 工具很多，关键是找到自己用着顺手的。
 5.不需要标注使用的方法论，直接输出完整的结果就行
 ```
 确认设置后，点击生成。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_090aeaed864996f2c4b7a587420b7b74.png>
+![](img/zhuanqian_090aeaed864996f2c4b7a587420b7b74.png)
 系统会逐行处理，耐心等待任务结束。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_874e06c91fd83ff88777bcbf14138462.png>
+![](img/zhuanqian_874e06c91fd83ff88777bcbf14138462.png)
 完成后，随机抽取一条，与原始版本进行核对。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_115cfa47596da2c18cc645d2f72a0bca.png>
+![](img/zhuanqian_115cfa47596da2c18cc645d2f72a0bca.png)
 如果事实、数字和重点都保留，同时表达方式已经明显不同，说明配置基本合适。
 当然，也有人只想做轻量化改写，不需要增加场景和人物。这种情况就使用更克制的“基础重构指令”，重点放在调整句式、替换表达和优化段落上。
 普通改写法
@@ -344,7 +344,7 @@ AI 工具很多，关键是找到自己用着顺手的。
 5.不需要标注使用的方法论，直接输出完整的结果就行
 ```
 普通的改写法只能算是基础操作，但和真正意义上的文案创作还是有明显差距的，绝不能仅仅靠替换几个同义词或者调整一下语序来蒙混过关。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cdc51e5fb43eeea41ecc67e822f26c6c.png>
+![](img/zhuanqian_cdc51e5fb43eeea41ecc67e822f26c6c.png)
 接下来，我们继续处理标题的改写，然后就要开始写飞书多维表格的提示词了。其实提示词这部分，完全可以参考刚才改写文案时用的那套，稍作调整就能直接用，具体如下所示。
 ```
 老板交代我一个任务，他要我把公司在平台发的标题重新创作一遍，力求降低重复率，但是意思和主题是一样的，这个叫做二次创作（简称“二创”）
@@ -427,20 +427,20 @@ AI 工具很多，关键是找到自己用着顺手的。
 这样优化的思路：
 ```
 设置好各项参数之后，确认无误，点击生成按钮。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_487bd818e6e0c577d46ee0872ee3029a.png>
+![](img/zhuanqian_487bd818e6e0c577d46ee0872ee3029a.png)
 看一下最终生成的结果，整体效果还挺让人满意的。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2a814e620bd3a7d5efd893d67ce12788.png>
+![](img/zhuanqian_2a814e620bd3a7d5efd893d67ce12788.png)
 ### 2、按选题批量产出标题和完整文案
 假如你想围绕某个选题，一次性批量生成小红书的标题和对应文案，同样可以实现。
 举个例子，假设你是一位教写作的老师，想发布与写作领域相关的笔记内容。
 随便搜一个关键词，比如“写作怎么赚钱”，下面出现的都是围绕这个主题展开的讲解。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_821833303247cc4aef60fa3011c97834.png>
+![](img/zhuanqian_821833303247cc4aef60fa3011c97834.png)
 我这边整理了几十个相关素材。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0b587939dfdcc473bed0d19f40ad51e0.png>
+![](img/zhuanqian_0b587939dfdcc473bed0d19f40ad51e0.png)
 接着，用 DeepSeek 来生成一批参考选题。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_76e05500e0a7ebce86e304e633161bf9.png>
+![](img/zhuanqian_76e05500e0a7ebce86e304e633161bf9.png)
 生成后的选题列表长这样。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a3a4329b3727a1f5b213e386ef6f800c.png>
+![](img/zhuanqian_a3a4329b3727a1f5b213e386ef6f800c.png)
 把这些选题复制到飞书多维表格里，再新建一列，把提示词粘贴进去。
 ```
 你现在要根据选题生成对应的小红书标题和文案
@@ -545,15 +545,15 @@ AI 工具很多，关键是找到自己用着顺手的。
 最终只需要一个标题一个正文，不需要标注使用了什么标题方法，标题不超过20字
 ```
 点击提交生成，稍等片刻，等待结果跑完。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_62782658665e245693b7312613ad4af6.png>
+![](img/zhuanqian_62782658665e245693b7312613ad4af6.png)
 随便点开一条看看效果。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e3f9c9fcfc489b4e414cda06394b2cf4.png>
+![](img/zhuanqian_e3f9c9fcfc489b4e414cda06394b2cf4.png)
 这里我们可以把标题单独抽出来，新建一列。还是在“探索字段捷径”那个位置，找到“信息提取”功能。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a429cbacdf386e1d92a5586ecf3ee1f5.png>
+![](img/zhuanqian_a429cbacdf386e1d92a5586ecf3ee1f5.png)
 点进去之后，先填好表头标题，然后选择对输出结果执行操作，接着在提取信息里填写“提取标题”。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_341e9b49d4464ea601edab3538a75472.png>
+![](img/zhuanqian_341e9b49d4464ea601edab3538a75472.png)
 点击确定并生成，就会发现每个标题都被单独整理出来了。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4e14596c6efc4c56cdbf8a55a76397ac.png>
+![](img/zhuanqian_4e14596c6efc4c56cdbf8a55a76397ac.png)
 文案部分也是一样的处理方式。
 需要注意的是，想要做出真正高质量的内容，就必须编写属于你自己的提示词。上面给的是通用版本，因为 AI 并不了解你的个人设定和其他背景信息，它只是根据选题来生成内容，所以难免会出现偏差。
 你可以针对自己所在的赛道，设计专属的提示词，在提示词中提供足够清晰的背景信息，这样就能有效限制 AI 的输出方向。
@@ -686,5 +686,5 @@ AI 工具很多，关键是找到自己用着顺手的。
 5.不要使用首先、其次、最后等词，使用第一/第一个、第二/第二个、第三/第三个
 直接输出完整的一篇文案即可，不要标注用到的公式和方法论
 ```光说不练假把式，效果到底怎么样，直接摆出来看。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_143ff097434c03074007459e8d4d4b5b.png>各位如果感兴趣，动动手指点进去就能一目了然。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_16a3ad69178ad4c229a6d39c86dba867.png>不过说实话，这还只是冰山一角。真正有意思的地方在于，把不同方向的 AI 工具搭在一起，往往能碰撞出意想不到的火花。到底能折腾出多少花样，就留给各位慢慢发掘了。
+![](img/zhuanqian_143ff097434c03074007459e8d4d4b5b.png)各位如果感兴趣，动动手指点进去就能一目了然。
+![](img/zhuanqian_16a3ad69178ad4c229a6d39c86dba867.png)不过说实话，这还只是冰山一角。真正有意思的地方在于，把不同方向的 AI 工具搭在一起，往往能碰撞出意想不到的火花。到底能折腾出多少花样，就留给各位慢慢发掘了。

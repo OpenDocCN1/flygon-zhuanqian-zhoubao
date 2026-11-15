@@ -5,9 +5,9 @@
 # 一、长文本的阅读提效
 我把需要通过文件上传或链接投喂、无法在一次闲聊中塞进模型的文本统称为长文本。对于这类内容，当前的体验比较好的有两个选择：
 GPT4.0
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_afff55a7f4761ba891f7274c6fb24bc4.png>
+![](img/zhuanqian_afff55a7f4761ba891f7274c6fb24bc4.png)
 Kimi
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_29e24cc2ee077dbdacbb8f77f9be5cc0.png>
+![](img/zhuanqian_29e24cc2ee077dbdacbb8f77f9be5cc0.png)
 两者都支持文档上传阅读和通过链接抓取网页内容。以《龙哥盟》出版的《人生亏钱指南》作为演示素材，下面主要围绕书中内容展开实操演示。
 需要说明的是，下面的测试案例均在GPT4.0和Kimi上跑过，因篇幅限制只放出GPT4.0的结果。综合来看，首选GPT4.0，Kimi在交互流畅度上稍逊一筹，但基础能力足以满足日常使用。
 ## 1.快速抓取核心脉络
@@ -31,8 +31,8 @@ Prompt
 - 总结重点内容，输出总结字数为在300-500。
 ```
 案例
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6d9df9d68b74bf3f919e151714d94752.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ff65e54cd04680a52072b9d7c7685beb.png>
+![](img/zhuanqian_6d9df9d68b74bf3f919e151714d94752.png)
+![](img/zhuanqian_ff65e54cd04680a52072b9d7c7685beb.png)
 ## 2.随问随答的私人导师
 把整本书喂给模型后，你就拥有了一个专属阅读助手，哪里不懂点哪里。
 Prompt
@@ -63,7 +63,7 @@ Prompt
 ## lnitialization :以“您好，我是您的书籍阅读助手，让我们开始阅读书籍吧！”为开场白和用户对话，接下来遵循[workflow]流程开始工作
 ```
 案例
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5c9c0adda9c7dd18496c42a2b436c331.png>
+![](img/zhuanqian_5c9c0adda9c7dd18496c42a2b436c331.png)
 ## 3.一键生成思维导图
 把书的结构可视化，更利于记忆和复盘。
 Prompt
@@ -100,7 +100,7 @@ Prompt
 ## lnitialization :以“您好，我是您的思维导图助手，让我们开始制作思维导图吧！”为开场白和用户对话，接下来遵循[rules]开始工作
 ```
 案例
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_669dfc66fc52bd98913dcb0228a37c16.png>
+![](img/zhuanqian_669dfc66fc52bd98913dcb0228a37c16.png)
 ## 4.PPT框架速搭
 做分享或复盘时直接要大纲，省去梳理环节。
 Prompt
@@ -133,7 +133,7 @@ Prompt
 ## lnitialization :以“您好，让我们一起做一份很棒的PPT吧！”为开场白和用户对话，接下来遵循[rules]开始工作
 ```
 案例
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6bd359d379a48ae8bd1b75225be55371.png>
+![](img/zhuanqian_6bd359d379a48ae8bd1b75225be55371.png)
 ## 5.自测题生成
 想检验自己读懂了多少，让模型出题。
 Prompt
@@ -164,7 +164,7 @@ Prompt
 ## lnitialization :以“您好，试卷助手，快点来做题吧！”为开场白和用户对话，接下来遵循[rules]开始工作
 ```
 案例
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5560c5d5721db19e441f51da09529132.png>
+![](img/zhuanqian_5560c5d5721db19e441f51da09529132.png)
 # 二、网页内容的提效用法
 ## 1.网页速览总结
 输入网址就能得到网站的核心观点速览。提醒一下，对访问受限或图片为主的页面，效果会打折。
@@ -190,7 +190,7 @@ Prompt
 https://mp.weixin.qq.com/s/-sKiH3_1zdFKZl8RNX56Yg
 ```
 案例
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e3727fb4bce53a21e799724e8815c8f6.png>
+![](img/zhuanqian_e3727fb4bce53a21e799724e8815c8f6.png)
 ## 2.网页翻译与外文文献速读
 帮助你快速啃外文资料。当前这个写法在Kimi上适配度更好，GPT这边还在尝试调优。
 Prompt
@@ -224,11 +224,11 @@ https://foundationcapital.com/year-one-of-generative-ai-six-key-trends/
 2.如果无法一次性翻译完所有内容，请在收到"继续"指令后继续内容的输出，直到翻译完成为止。
 ```
 案例
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a005766ca4cbc809f05206e0e6dabc61.png>
+![](img/zhuanqian_a005766ca4cbc809f05206e0e6dabc61.png)
 # 结束语
 这一期先抛出一批日常高频的Prompt模板，希望能切实提升你的阅读与信息处理效率。
 如果你有自己常用的场景需求，可以在文档末尾留言，我会统一收集，后续的提效案例也会继续在龙哥盟更新。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_aaa775eae197994822b75fb928a86d92.png>
+![](img/zhuanqian_aaa775eae197994822b75fb928a86d92.png)
 # 🌟 知识库内容汇总
 AI精选频道
 AI提效系列

@@ -7,21 +7,21 @@ Flux 到底是什么？简单说，它就是开源版的 Midjourney，出图质�
 **1. 登录 Cloudflare**
 打开官网 https://cloudflare.com，点右上角的 Login 登录。
 **2. 获取你的 cfid**
-登录之后，地址栏 URL 后面那一串数字就是你的 cfid：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_aa71a719133712894ed8355067185201.png>
-或者也可以在这里看：点击左侧的 Workers，然后右边就能看到：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_833193c9590f65e2d9c86f853f11ae76.png>
+登录之后，地址栏 URL 后面那一串数字就是你的 cfid：![](img/zhuanqian_aa71a719133712894ed8355067185201.png)
+或者也可以在这里看：点击左侧的 Workers，然后右边就能看到：![](img/zhuanqian_833193c9590f65e2d9c86f853f11ae76.png)
 **3. 配置 API Token**
-点右上角“我的”，然后点 Token，进入 https://dash.cloudflare.com/profile/api-tokens：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b40c1a716b6662ab2f66ce28dccccd53.png>
-这里一定要选 Workers AI 权限：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ed058d9ec02df73cdd09579aa7c0deca.png>
-然后账号那里选择“所有”即可：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_87d294ce01d253dd916247037ecd4cda.png>
+点右上角“我的”，然后点 Token，进入 https://dash.cloudflare.com/profile/api-tokens：![](img/zhuanqian_b40c1a716b6662ab2f66ce28dccccd53.png)
+这里一定要选 Workers AI 权限：![](img/zhuanqian_ed058d9ec02df73cdd09579aa7c0deca.png)
+然后账号那里选择“所有”即可：![](img/zhuanqian_87d294ce01d253dd916247037ecd4cda.png)
 再一直点下一步就完成了。
 **4. 创建一个 KV 存储空间**
-左侧找到 Workers 下面的 KV，这个用来存储生成的图片：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_de53dfb76876b67f4ab9bc1d04cc5ea9.png>
-名字起成 `IMAGE_KV` 就行，点确定：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_98a02daa493ff1d36254abc34c7996db.png>
+左侧找到 Workers 下面的 KV，这个用来存储生成的图片：![](img/zhuanqian_de53dfb76876b67f4ab9bc1d04cc5ea9.png)
+名字起成 `IMAGE_KV` 就行，点确定：![](img/zhuanqian_98a02daa493ff1d36254abc34c7996db.png)
 **5. 创建 Worker**
-点击 Workers，然后点 Create：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6c491b44091600b576c4cb4010e73561.png>
-再点“创建”：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_dad2ad23dba85ab8a7df10af067f0b7b.png>
-随便取一个名字，然后点“构建”：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_87a5b7e080e2876ae73677cb3e628ccc.png>
-进去之后点“编辑代码”：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_669d4b65bd18d121e12eaf84b1688bad.png>
+点击 Workers，然后点 Create：![](img/zhuanqian_6c491b44091600b576c4cb4010e73561.png)
+再点“创建”：![](img/zhuanqian_dad2ad23dba85ab8a7df10af067f0b7b.png)
+随便取一个名字，然后点“构建”：![](img/zhuanqian_87a5b7e080e2876ae73677cb3e628ccc.png)
+进去之后点“编辑代码”：![](img/zhuanqian_669d4b65bd18d121e12eaf84b1688bad.png)
 现在，把 L 站大佬提供的代码复制进去。代码里需要改三个地方：`api_key` 随便填，`cfid` 填第一步获取的那串数字，`api_token` 填第二步自己配置好的 Token。保存部署，就大功告成了。
 以后无论是生成小红书封面、公众号头图，还是拿现有图片做二次创作，都能免费靠 Flux 搞定了。快去试试吧！
 有时候，最吊人胃口的，不是一句惊天动地的话，而是一个没头没尾的开始。
@@ -731,26 +731,26 @@ event.respondWith(handleRequest(event.request));
 接下来要做的，就是接住它，然后，把故事讲下去。
 ## 项目保存与部署
 先按 `ctrl+s` 把当前配置存下来，随后在页面右上角找到 Deploy 按钮执行构建。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_97551b5b902347f5d92e17c5e8bb9c9a.png>
+![](img/zhuanqian_97551b5b902347f5d92e17c5e8bb9c9a.png)
 ## 接入 KV 存储
 进入当前这个 Worker 的设置页面，拉到下方找到绑定入口，在第四项里关联上你的 KV 命名空间即可完成绑定。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a65239747a9c997fe2cafd4c788ad378.png>
+![](img/zhuanqian_a65239747a9c997fe2cafd4c788ad378.png)
 大体流程就到这里了。
 部署完成后打开 Workers 列表，长按或点击对应的 Worker，右侧的 Visit 就是对外访问地址：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_171ddb3e8cbd793b7a79fbd656c0ca15.png>
+![](img/zhuanqian_171ddb3e8cbd793b7a79fbd656c0ca15.png)
 最终会得到类似这种格式的域名：https://flux-cf.xxd123123123.workers.dev/
 # 调用 FLUX 模型
 目前大部分实现都已经封装成了 OpenAI 兼容的通用接口，因此可以直接复用现有的客户端工具来发起请求，无需额外适配。
 ## 打开聊天客户端
 例如可以选用：https://web.chatboxai.app/
 ## 进入设置面板
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8386d191cd362e153b382aa31d30cd89.png>
+![](img/zhuanqian_8386d191cd362e153b382aa31d30cd89.png)
 ## 填写 API 信息
 选择 自定义 接口：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_41d961b492cdcd0b833e8ae4053d7344.png>
+![](img/zhuanqian_41d961b492cdcd0b833e8ae4053d7344.png)
 按以下格式修改参数，标红的部分需要按你自己的情况替换，分别是名称、API Host、API Key、模型名。
 其中 API Host、API Key、名称是用户自有信息，其余几个参数原则上保持一致即可，设置完成后保存。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2f1d13bc1f49917b2319bb33a1c66515.png>
+![](img/zhuanqian_2f1d13bc1f49917b2319bb33a1c66515.png)
 简单验证一下效果：
 输入测试提示词： a cure cartoon kitty
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_141bfb4a641c93fd9b0a5d9f0cac7152.png>
+![](img/zhuanqian_141bfb4a641c93fd9b0a5d9f0cac7152.png)

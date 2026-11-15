@@ -13,7 +13,7 @@
 1. 商业变现：搜索是核心流量入口，能聚拢海量用户，带来广告收入。
 谷歌和百度在各自市场里，都是搜索广告的头号玩家。
 2019年年中字节内部一次CEO面谈上，张一鸣直言：“没有搜索场景的延展和优质内容，今日头条的DAU天花板可能只有4000万。”押注搜索、实现更精准分发和营销，已成必选项。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c72e67d90c49345e6b464b62f793be11.png>
+![](img/zhuanqian_c72e67d90c49345e6b464b62f793be11.png)
 1. 技术卡位：搜索是AI技术最前沿的试验场，能提振竞争力、引领行业风向。
 搜索的本质，是把人和信息的匹配效率拉满。“信息跑得有多快，比信息本身更重要。”
 张一鸣正是从这个逻辑出发，用今日头条颠覆百度搜索，再从图文推荐进化到短视频推荐，造就了抖音。
@@ -24,7 +24,7 @@
 1. 用户留存：搜索体验越好，用户越黏。
 小红书就是典型，“遇事不决问小红书”，素人笔记真实可信、互动性强。
 比如搜“五一去哪玩”，能刷到大量真实游记、价格、路线和感受，就像朋友在耳边支招。我自己的爆款笔记里，八成流量都来自搜索。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4c1d747a91670aa2d5412a69817e3072.png>
+![](img/zhuanqian_4c1d747a91670aa2d5412a69817e3072.png)
 1. 数据沉淀：搜索行为是精准画像的金矿。
 搜健身、减肥、食谱、跑步、手表，系统就能据此推送匹配内容。这种打法在微信搜一搜、视频号、小红书、抖音上随处可见。
 # 二、AI搜索VS传统搜索，有什么区别？
@@ -33,16 +33,16 @@
 ## 2.1 两个物种：答案引擎 vs 搜索引擎
 AI搜索是先把答案给到你，再附上来源让你核查真实性。
 传统搜索是把一堆链接丢给你，自己去找答案，广告铺天盖地，还很容易陷入信息迷宫，最后连哪个页面有用都忘了。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7565fd6fadb86d060c01499fd1bd6c69.png>
+![](img/zhuanqian_7565fd6fadb86d060c01499fd1bd6c69.png)
 美国AI搜索独角兽Perplexity.ai展示页面
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3aa314c3981e5faf6bfcd12dec2ae529.png>
+![](img/zhuanqian_3aa314c3981e5faf6bfcd12dec2ae529.png)
 美国AI搜索独角兽Perplexity.ai展示页面
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2aefc9f939e0d3891abc7031ed70c7d4.png>
+![](img/zhuanqian_2aefc9f939e0d3891abc7031ed70c7d4.png)
 百度页面👆🏻
 ## 2.2 AI搜索像聊天，传统搜索像翻目录
 想追问，AI搜索完全可以继续聊。
 输入长句后，AI直接给出结论，底部还会给出可能的延伸提问，直接跟进即可。提问往下走，答案会连贯叠加，形成一串完整对话。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_23a7231629ff6ad58cd8825098f07250.png>
+![](img/zhuanqian_23a7231629ff6ad58cd8825098f07250.png)
 美国AI搜索独角兽Perplexity.ai展示页面
 关键是，AI搜索是有记忆的。
 满意就结束，不满意就能顺手继续问。它就像一个有记忆的学霸，你可以反复深挖同一个话题。
@@ -51,7 +51,7 @@ AI搜索是先把答案给到你，再附上来源让你核查真实性。
 ChatGPT刚出来时，很多人以为生成式AI会取代搜索引擎。
 但幻觉、无法联网、知识滞后等问题暴露后，大家又回归到模型增强的搜索引擎，比如Perplexity和Bing Chat。
 这些“回答引擎”靠RAG技术，把搜索结果喂给大模型，减少误导、提升时效。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_803692e7b337a72750885ac5fda4fb5d.png>
+![](img/zhuanqian_803692e7b337a72750885ac5fda4fb5d.png)
 除了Perplexity和Bing Chat改名Copilot外，You.com、Neeva等挑战者也转向AI增强答案模式。
 相比传统搜索，它们在理解问题、归纳结果、保留索引、扩展问题四个维度做了优化，降低使用门槛、节省跳转成本、保证可靠度，同时支持深度挖掘。
 Perplexity联合创始人兼CEO Aravind Srinivas的说法是：
@@ -61,7 +61,7 @@ Perplexity本质上是传统搜索索引和大模型的推理、文本转换能�
 Perplexity不仅能答简单问题，还能处理长尾复杂需求。
 例如“文科生怎么入局AIGC？怎么抓住AI红利？切入点有哪些？请结合猎聘、脉脉、BOSS直聘、前程无忧、拉勾的招聘数据分析”，它也能给出结构化回答。
 我之前的深度稿，Perplexity就提供了很大帮助。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3709a9745e4cc2399cbb08f45324b0d8.png>
+![](img/zhuanqian_3709a9745e4cc2399cbb08f45324b0d8.png)
 接下来我会以“买车”做实测测试。
 脑洞一下：为什么百度和谷歌没直接上AI搜索，而是先推文心一言和Gemini通用大模型？
 大概率是现阶段的AI搜索会屏蔽广告，会动摇基本盘。
@@ -70,7 +70,7 @@ Perplexity不仅能答简单问题，还能处理长尾复杂需求。
 SimilarWeb数据显示，Perplexity 12月访问量达4500万次。2022年12月上线时仅220万次。
 在中国，最像Perplexity的，就是360 AI搜索和天工AI搜索。
 搜索这门古老的生意，牵动着整个互联网格局。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fe959fb7fcf637100e19c3d14043811e.png>
+![](img/zhuanqian_fe959fb7fcf637100e19c3d14043811e.png)
 2012年，周鸿祎和百度上演“3B大战”。360搜索横空出世后被百度起诉，最终被判不正当竞争、道歉并赔偿45万。
 虽然败诉，却撬动了搜索格局，网易、搜狐、新浪等都曾靠搜索稳住门户，雅虎、谷歌来势汹汹却折戟，百度仍旧坚挺。
 据Statcounter，2023年12月中国搜索引擎份额：百度66.52%，必应13.32%，360搜索6.43%位列第三，高于搜狗的5.01%。
@@ -80,11 +80,11 @@ SimilarWeb数据显示，Perplexity 12月访问量达4500万次。2022年12月�
 我现在每天都在用谷歌搜索和Perplexity.ai，尤其后者。当发现国内有两支队伍在做类似尝试，我非常兴奋，期待他们结合中国国情做出新一代AI搜索。
 星星之火，可以燎原。探索本身就有价值。
 你可以感受到两者与Perplexity的相似度。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0848a660dd52018aaa0c13e1eadd1be9.png>
+![](img/zhuanqian_0848a660dd52018aaa0c13e1eadd1be9.png)
 perplexity.ai
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d9b598a160e623e6e960ec41bf0dc99d.png>
+![](img/zhuanqian_d9b598a160e623e6e960ec41bf0dc99d.png)
 360 AI搜索
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bf8d0bcf99af78286696c43c8775dec6.png>
+![](img/zhuanqian_bf8d0bcf99af78286696c43c8775dec6.png)
 天工AI搜索
 # 四、国内4家AI搜索，哪家更胜一筹？
 以买车为例测试：“我想买新能源车，预算20万，主打日常通勤+偶尔自驾，单程400公里左右，空间要大，续航别太短，请推荐10款车型并说明优缺点。”
@@ -96,46 +96,46 @@ perplexity.ai
 豆包AI 9分，引用来源很扎实，我常在用。引用多来自头条、抖音、西瓜视频，符合字节生态。展示最丰富：标题+摘要+媒体+配图。
 文心一言6分，未提供答案来源，体验打折。无法验证准确性，也无法延伸阅读。
 百度搜索3分，仍是传统链接堆砌，还有2021年的旧新闻，时效性差，基本可排除。下面不再对比。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5ebe9263d9003ae01e9be04ef409954f.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ebfd2b7b56bcc1416decfe84734b1df1.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_901b03af969ff1e99011380151e24bd4.png>
+![](img/zhuanqian_5ebe9263d9003ae01e9be04ef409954f.png)
+![](img/zhuanqian_ebfd2b7b56bcc1416decfe84734b1df1.png)
+![](img/zhuanqian_901b03af969ff1e99011380151e24bd4.png)
 360 AI搜索👆🏻
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ccb629025cb61543501e8c9d76134ed2.png>
+![](img/zhuanqian_ccb629025cb61543501e8c9d76134ed2.png)
 天工AI搜索
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f1b2bb2fab6a9be1de0f094759c88851.png>
+![](img/zhuanqian_f1b2bb2fab6a9be1de0f094759c88851.png)
 天工AI搜索
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d7fdd33335195b8da4c489fdee96a742.png>
+![](img/zhuanqian_d7fdd33335195b8da4c489fdee96a742.png)
 天工AI搜索只能搜索到8条结果，结果非常少
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b2f3cc3c54c78ec059632d1c511609fa.png>
+![](img/zhuanqian_b2f3cc3c54c78ec059632d1c511609fa.png)
 字节跳动的豆包AI👆🏻👆🏻
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6affb1c8978ba0f8563813bb511e1624.png>
+![](img/zhuanqian_6affb1c8978ba0f8563813bb511e1624.png)
 文心一言👆🏻
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d9432dc66cbeb4caa4cbcd17cb303ca8.png>
+![](img/zhuanqian_d9432dc66cbeb4caa4cbcd17cb303ca8.png)
 百度搜索，无法给出答案+信息滞后【很多都是2021年的文章，缺乏时效性，不具有参考性】👆🏻
 ## 4.2、回答质量方面：
 360 AI搜索6分。明明要求20万预算，却没标价格，且车型错误。追问后更离谱，完全偏离需求。
 天工AI搜索5分。要求10款，只给4款。质疑追问后仍不改，答案雷同。
 豆包AI 8分。回答准确，用表格形式清晰罗列车型。
 文心一言7分。回答还行，文字堆砌，视觉不如豆包。理想ONE的价格抓取不到。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_58f818b70cd9ed0decef7cbe5052193c.png>
+![](img/zhuanqian_58f818b70cd9ed0decef7cbe5052193c.png)
 360 AI搜索的追问，回答质量一般👆🏻
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7347aa1dc710e96ed9a0c3644fc8c704.png>
+![](img/zhuanqian_7347aa1dc710e96ed9a0c3644fc8c704.png)
 天工AI搜索，明确要求给10种车型，它还是给到了4种。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0119e86c2fe06b2152c45f2fb2f1eab0.png>
+![](img/zhuanqian_0119e86c2fe06b2152c45f2fb2f1eab0.png)
 豆包AI的回答基本准确👆🏻
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a6bb7930d30e244c8f0006a0cf1e7317.png>
+![](img/zhuanqian_a6bb7930d30e244c8f0006a0cf1e7317.png)
 文心一言的回答，而且提问是以左右滑动来设定，这样不太好，会提升用户获取信息成本，因为必须每个滑完以后，才知道哪个是需要继续追问的👆🏻
 ## 4.3、追问问题质量
 360AI搜索和豆包AI同为8分，各有侧重。360侧重单车型深挖，豆包侧重整体需求延展，如“除了上述车型，还有哪些推荐？”
 天工AI搜索6分，追问质量一般且有重复。例如已质疑过“为什么只给4款”，该问题又出现在追问列表里。
 文心一言6分，追问不稳定，首问有追问且需左右滑动，操作成本高。第二次同问题提问时追问直接消失，体验奇怪。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7a68cb9fbf0cb83e2b239232ee15a3a8.png>
+![](img/zhuanqian_7a68cb9fbf0cb83e2b239232ee15a3a8.png)
 360 AI搜索👆🏻
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c483efe94eacea73079b17e1a870090c.png>
+![](img/zhuanqian_c483efe94eacea73079b17e1a870090c.png)
 天工AI搜索👆🏻
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8796aae3d7e6a8cdbffd6c68f4276885.png>
+![](img/zhuanqian_8796aae3d7e6a8cdbffd6c68f4276885.png)
 豆包AI👆🏻
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_416acc385881749ba51bf9df623cd74f.png>
+![](img/zhuanqian_416acc385881749ba51bf9df623cd74f.png)
 文心一言
 ## 4.4、API调用表现
 拿“未来5天新疆的天气怎么样？”这个提问来做测试。
@@ -144,15 +144,15 @@ perplexity.ai
 豆包AI拿到8分，和360一样调用了天气API，给出的也是最新数据。
 文心一言拿到6分，信息不够具体，也没有任何来源标注，可信度感偏弱。
 百度搜索拿到9分，呈现清晰直观，一眼就能看懂。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_349df39b9ece106336d118394a9fbb68.png>
+![](img/zhuanqian_349df39b9ece106336d118394a9fbb68.png)
 360 AI搜索👆🏻
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4bdd85640e66b324491289f790277fb3.png>
+![](img/zhuanqian_4bdd85640e66b324491289f790277fb3.png)
 天工AI搜索👆🏻
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_59f801088a360443badb6e443242b292.png>
+![](img/zhuanqian_59f801088a360443badb6e443242b292.png)
 豆包AI👆🏻
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_42cb202fcc8d86eafabb803a1d16e562.png>
+![](img/zhuanqian_42cb202fcc8d86eafabb803a1d16e562.png)
 文心一言👆🏻
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d313cce4cd41dd233e055d66c98f4db2.png>
+![](img/zhuanqian_d313cce4cd41dd233e055d66c98f4db2.png)
 百度搜索👆🏻
 # 五、 AI搜索现在面临哪些难题，会不会取代谷歌和百度？
 就目前来看，360 AI搜索和天工AI搜索的对标对象是Perplexity。两者遇到的问题本质上是相通的，所以不必分开展开。只是在国内环境下，存在一些特殊差异。
@@ -213,9 +213,9 @@ Perplexity的成功给AI创业者一个启示：与其死磕模型能力，不�
 一个是广告主营销，只有建立起满足广告主的商业化体系，才能用广告收入让用户免费使用高质量搜索。
 另一个是创作者激励，内容发布者通过在平台发布优质内容获得激励，才能持续生产内容供给AI学习和召回。
 尽管AI看似减少了创作需求，但高质量内容仍需人来生产。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8c2ff269d8501302c2acafe34c9c0152.png>
+![](img/zhuanqian_8c2ff269d8501302c2acafe34c9c0152.png)
 英文版👆🏻
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_55ad092a3387319a87b8c0efa7849b5d.png>
+![](img/zhuanqian_55ad092a3387319a87b8c0efa7849b5d.png)
 中文版👆🏻
 历史经验表明，搜索市场一直是赢家通吃的典型。
 尽管百度饱受诟病，但在中国搜索市场仍占据超过70%的份额。

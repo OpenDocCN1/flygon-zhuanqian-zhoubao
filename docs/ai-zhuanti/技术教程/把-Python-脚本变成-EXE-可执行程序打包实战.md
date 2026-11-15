@@ -24,7 +24,7 @@
 这个前提大家通常都已完成，保证脚本在本地无报错正常运行。
 2、规划界面交互
 先想清楚用户需要哪些操作入口。我的案例里界面长这样：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e0ea51e7324768fbc687745d2f6abf64.png>
+![](img/zhuanqian_e0ea51e7324768fbc687745d2f6abf64.png)
 3、用AI或自写代码落地界面
 我当时给AI的指令是这样写的：
 给我的代码内容增加用户界面，需要包含以下元素：
@@ -212,7 +212,7 @@ root.mainloop()
 ```
 在打包成 exe 之前，先把代码本地跑通一遍，确认无报错再进行下一步。
 如果运行过程中提示缺包，先去终端把依赖装上：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5432417282bb11aa3e54fcd59ed4795c.png>
+![](img/zhuanqian_5432417282bb11aa3e54fcd59ed4795c.png)
 ```
 pip install pywin32 python-docx
 ```
@@ -220,23 +220,23 @@ pip install pywin32 python-docx
 等这三件事都准备好后，就只剩最后的打包环节了。整体打包流程可以拆成 4 个环节来做：
 1、把 pyinstaller 装到环境里。操作共两步：
 点击这里
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8ba155d92874a9eb0a7a398cb9e88fb5.png>
+![](img/zhuanqian_8ba155d92874a9eb0a7a398cb9e88fb5.png)
 在命令行里执行 pip install pyinstaller，看到安装日志滚动后耐心等到完成。
 2、确定你要打包的 Python 脚本名，可以直接敲也可以复制路径。举例我这边用的是 test.py
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9017ae1daa33fd15eb1bfe38960d09fc.png>
+![](img/zhuanqian_9017ae1daa33fd15eb1bfe38960d09fc.png)
 3、开始封装程序，分两步完成。
 点击这里：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c2ce04157c02084c733b768aeccbd803.png>
+![](img/zhuanqian_c2ce04157c02084c733b768aeccbd803.png)
 执行命令 pyinstaller -F -w test.py 然后回车。
 也可以写完整路径的方式执行：pyinstaller -F -w C:\Users\PC\.cursor-tutor\projects\python\test.py 回车即可。
 这里的第二个写法就是指定文件的绝对路径。
 我的示例文件叫 test.py，你只要把文件名替换成自己的即可。
 你是不是也有这种体验：让 AI 写个小工具，跑完却找不到成品在哪？今天分享下我的完整流程，顺便聊聊哪款大模型最靠谱。
 程序打包完成后，exe 并不会主动出现在你面前，而是被存进默认目录。别慌，打开 Everything，直接搜“test”，按时间倒序排列，最新那个文件就是我们要的成品。把它复制出来，想放哪都行，放到桌面最顺手。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f3763dc73655ff3b57aeee9af8a47fee.png>
+![](img/zhuanqian_f3763dc73655ff3b57aeee9af8a47fee.png)
 接着双击运行，这三个小工具是我自己写的，专门配合文章批量处理。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0637e5ff3426fa1911dfc98e924c02bf.png>
+![](img/zhuanqian_0637e5ff3426fa1911dfc98e924c02bf.png)
 这是程序运行后的窗口界面。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_32356367e8deffb5ca9294fdec9aaad8.png>
+![](img/zhuanqian_32356367e8deffb5ca9294fdec9aaad8.png)
 窗口长成什么样，完全可以让 AI 按你的需求调。比如我日常处理时最烦每次都要手动填文件夹路径，于是让 AI 加了个“记住上次路径”的选项，从此省了一步。
 最后说下我的测试心得。通义千问、KIMI 我都试过，综合下来 GPT-4O 的成功率最高。如果你让 AI 写的是系统内固定模板的代码，基本很稳，但能到什么程度，和提问者的描述能力直接相关。至于抓网页内容，就没那么乐观了，问题大多出在定位元素上，八成得人工介入，老老实实用 XPath。我的建议是：整体框架放心交给 AI，XPath 这类细节自己改完，再丢回给 AI 继续迭代。这样反复打磨，整体跑通是完全可行的。

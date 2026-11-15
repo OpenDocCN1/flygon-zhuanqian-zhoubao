@@ -3,7 +3,7 @@
 作者：龙哥 | 水镜
 日期：2023-07-10
 各位好，我是龙哥，受龙哥盟 Web3 航海邀请，今天聊聊我对当下 NFT 赛道的一些观察与判断，希望能给大家提供参考。
-先看 2023 年第一季度的整体盘面，用数据说话：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d81d4b09c934a7e9c8689f893ea0112b.png>
+先看 2023 年第一季度的整体盘面，用数据说话：![](img/zhuanqian_d81d4b09c934a7e9c8689f893ea0112b.png)
 1、季度总成交额已突破 600 亿美元，同比增量约 67.9 亿美元。Ethereum 仍是绝对主轴，以 583.8 亿美元成交额占到 96.7%。日均成交额层面，Ethereum 超过 648.6 万美元位列第一，其次 Solana 约 116.3 万美元，Polygon 约 51.4 万美元，BNB Chain 仅约 43.3 万美元。
 2、季度内新上项目超 46.4 万个，Polygon 上新占比高达 74.5%。
 3、累计铸造资产已超 1 亿枚。Polygon 与 BNB Chain 贡献了其中 76.7% 的新增铸造量，Ethereum 与 Solana 的日均铸造量明显低于均值。
@@ -13,20 +13,20 @@
 近期社群情绪偏悲观，主要是因为“蓝筹三宝”Moonbirds、CloneX、Doodles 持续下探且被做空。缺乏新主线，赚钱效应不足，很多人开始讨论 NFT 是否已到终点。剥离情绪看，这些波动其实释放了不少信号。
 先回溯几个现象级的头像类蓝筹。
 CryptoPunks 被视作 NFT 赛道的“比特币”，地位特殊，它是首个借助区块链确权独特数字资产的项目。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7c916a8ec7c6b9658b2de5788fc5d53e.png>
+![](img/zhuanqian_7c916a8ec7c6b9658b2de5788fc5d53e.png)
 顶峰时期地板价冲到 100 以太，最便宜的头像价值约 40 万美元，约 200 多万人民币。历史最高成交为 CryptoPunk #3100，成交价 4200 以太，约 1600 万美元，接近人民币一个亿水准，持有者非富即贵。
-再说 BAYC，无聊猿之所以破圈，很大程度上靠明星站台。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f09d519b3425929621bc5bdf39b9f4ce.png>
+再说 BAYC，无聊猿之所以破圈，很大程度上靠明星站台。![](img/zhuanqian_f09d519b3425929621bc5bdf39b9f4ce.png)
 例如 NBA 球星斯蒂芬·库里曾以 55 以太，约 18 万美元购入一只穿粗花西装的无聊猿；美国脱口秀主持人吉米·法伦去年 11 月以近 22 万美元买下穿条纹 T 恤戴心形墨镜的猿；奥斯卡获奖说唱歌手 Eminem 近期花近 46 万美元买下一只神似自己的猿。林俊杰、余文乐、陈柏霖、吴建豪等国内明星也是持有者。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_099efd6c6e954edbb0bd91f06db18641.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_97bead1732c49429a9ebbaa882baa560.png>
+![](img/zhuanqian_099efd6c6e954edbb0bd91f06db18641.png)
+![](img/zhuanqian_97bead1732c49429a9ebbaa882baa560.png)
 BAYC 曾与阿迪达斯联名推出元宇宙入场券，并探索影视、音乐、游戏等新媒体机会。环球音乐旗下 Kingship 虚拟乐队由一只变异猿和三只无聊猿组成。此外，众多新项目将持有 BAYC 作为白名单的直通车，进一步强化了其价值。
-除 CryptoPunks 与 BAYC，主流蓝筹还包括 Azuki、MAYC、CLONEX、Doodles、Moonbirds 等。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_da542aae2bca24ecab2324ed934cd5af.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e4e891f580c8c8caf98d1d8ee39e6283.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4c959547fcab66a61bc33c2f076d156f.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c965c5c861190ef581ee05e613b5d380.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a98c9f1aef09955c8a2acdf3e53adc0c.png>
+除 CryptoPunks 与 BAYC，主流蓝筹还包括 Azuki、MAYC、CLONEX、Doodles、Moonbirds 等。![](img/zhuanqian_da542aae2bca24ecab2324ed934cd5af.png)
+![](img/zhuanqian_e4e891f580c8c8caf98d1d8ee39e6283.png)
+![](img/zhuanqian_4c959547fcab66a61bc33c2f076d156f.png)
+![](img/zhuanqian_c965c5c861190ef581ee05e613b5d380.png)
+![](img/zhuanqian_a98c9f1aef09955c8a2acdf3e53adc0c.png)
 从以太坊 Top 10 头部项目 Q1 表现看，蓝筹整体市值缩水约 4.1 亿美元，平均跌幅 18.72%。Azuki 逆势上涨 17.5%，Bored Ape Yacht Club、CryptoPunks、Otherdeed、Bored Ape Kennel Club、Azuki 跌幅有限，平均约 4.4%，而 CloneX、Moonbirds、Doodles、Meebits 市值大幅回撤，平均跌幅达 40.1%。
-CloneX、Moonbirds、Doodles 这“蓝筹三宝”现在常被调侃为“蓝筹三傻”。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7a8b1977a23aa50ce20a470523a99147.png>
+CloneX、Moonbirds、Doodles 这“蓝筹三宝”现在常被调侃为“蓝筹三傻”。![](img/zhuanqian_7a8b1977a23aa50ce20a470523a99147.png)
 头像类项目为何触到天花板？
 1、进入蓝筹梯队门槛抬高，地板价具备奢侈品属性。用户基数需要更大，真正能成为奢侈品定位的屈指可数。
 2、短期造声量不难，靠营销制造热度可以做到，但长期维持社区活跃度极难。大多数 NFT 项目的社区运营能力接近于零，而 PFP 的长期价值极度依赖社区，这也是为何大量项目“出道即巅峰”。
@@ -38,34 +38,34 @@ CloneX、Moonbirds、Doodles 这“蓝筹三宝”现在常被调侃为“蓝筹
 逻辑在于：1、风险成本更低，有底托，平台为保持长期运营，不会允许自己的 NFT 地板太难看，跑路或软 RUG 概率更低；2、有稳定团队与应用支撑基础价值；3、发币联动 NFT 构建经济模型，发行治理代币。
 具体能否长期持有仍需个案判断，承诺兑现风险、短期高估风险都存在，不宜过度迷信。
 举例：
-DeBox 基于 DeBox App 发行三期共 4 个系列共 8192 个 NFT。首期 Free Mint 冲破 1E，第三期 0.08E 铸造价，地板稳定在 0.5E。创建 Club 需质押对应 NFT，持有者可每日领取社区积分，未来 1:1 兑换代币。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fb0598ac7f3e222204c9b2bcaa2420d6.png>
+DeBox 基于 DeBox App 发行三期共 4 个系列共 8192 个 NFT。首期 Free Mint 冲破 1E，第三期 0.08E 铸造价，地板稳定在 0.5E。创建 Club 需质押对应 NFT，持有者可每日领取社区积分，未来 1:1 兑换代币。![](img/zhuanqian_fb0598ac7f3e222204c9b2bcaa2420d6.png)
 与比特币同理，Inscriptions 具备持久、不可篡改、安全、去中心化的特质。铭文刻在 BTC 最小单位 sats 上，为每个 sats 赋予唯一标记，让原本“白纸”的 sats 有了色彩或新意义。未来更可能被视作“Digital Artifact”，这是一种全新的叙事，对比特币原有功能的挑战与探索。铭文成为价值收藏形式，比特币 Ordinals NFT 主要类型为图片、文本、视频、音频。
 比特币 Ordinals NFT 与传统 NFT 发行差异明显：
 Ordinals NFT 始终具链上内容，不会丢失。创作者需按内容大小支付费用。以太坊 NFT 内容常链下存于 IPFS 等，可能丢失。
 铭文可直接出售，无需第三方市场撮合。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_01479944121f05ffd980c2c99776ebca.png>
+![](img/zhuanqian_01479944121f05ffd980c2c99776ebca.png)
 知名的 BTC NFT 系列
 Bitcoin Punks 模仿以太坊 CryptoPunks，共 10000 个 8 位像素头像，各有属性与稀缺性。它是首个将原版 CryptoPunks 通过 Ordinals 搬到比特币链的项目，于 2023 年 2 月 9 日完成铸造，并在 OpenSea 等平台交易。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4c20d72e0d55add77733a4bacb0bf140.png>
+![](img/zhuanqian_4c20d72e0d55add77733a4bacb0bf140.png)
 TwelveFold 是 Yuga Labs 推出的比特币 NFT 项目，包含 300 件生成艺术。2023 年 3 月 4 日启动拍卖，24 小时内结束，募资 1650 万美元。采用盲拍机制，前 288 名成功竞拍者获作品，最低出价 2.25 BTC。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9bd0eae2550222612533b22a2ee34f0a.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_25f4e421425af2df7626b84bc243fdda.png>
+![](img/zhuanqian_9bd0eae2550222612533b22a2ee34f0a.png)
+![](img/zhuanqian_25f4e421425af2df7626b84bc243fdda.png)
 随 BTC NFT 概念演进，后续出现 BTC 域名与 BitcoinStamps 玩法。
 Sats Names 利用 Orinals 协议为比特币定义域名，目标是打造基于比特币网络的域名生态。三大目标：交易即注册与更新，单节点即可包含域名状态信息，无需额外数据库；绝对去中心化，无人能关停或阻止注册，无智能合约、无代币经济、无治理；首铸即确权，如首个铸造含" satoshi.sats "铭文者即拥有该域名。
-BTC Stamps 将 base64 图像数据嵌入比特币链上交易输出，永久保存图片。相较 Ordinals，其优势在于数据保存基于最简交易输出，全节点只能被动保存。问世头 20 天内，BTC Stamps 铸造数量远超 Ordinals 起步同期。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_29129d31504123d2e2e8d20d9541b512.png>
+BTC Stamps 将 base64 图像数据嵌入比特币链上交易输出，永久保存图片。相较 Ordinals，其优势在于数据保存基于最简交易输出，全节点只能被动保存。问世头 20 天内，BTC Stamps 铸造数量远超 Ordinals 起步同期。![](img/zhuanqian_29129d31504123d2e2e8d20d9541b512.png)
 以上均是近三个月内形成的 BTC NFT 生态玩法，生态尚处早期，创新活跃。据 Galaxy Digital 预测，2025 年基于铭文与序数的比特币 NFT 市场规模有望达 45 亿美元。Magic Eden 也已推出 BTC NFT 交易市场，有钻研精神的朋友值得持续跟踪并动手尝试。
 2022 年 12 月，特朗普以个人形象发行 45000 个“特朗普数字交易卡”，单价 99 美元。卡面为超级英雄、牛仔、宇航员等设计。集齐 45 张可获与特朗普共进晚餐名额。
 初看是 45000 总量偏大，且发行在以太坊之外的链，难免被视作“图狗项目”，发行价一度破发。售罄后出圈，地板一度冲击 1E，令很多人惊讶。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f168d150829beffbb68c6d5b35181ff2.png>
+![](img/zhuanqian_f168d150829beffbb68c6d5b35181ff2.png)
 近期特朗普被拘捕事件再次点燃关注，出庭首小时内售出 30 个，地板回升至 0.4E。
 哥布林也是典型 MEME 案例，无路线图、无 Discord、无赋能，却凭借“躺平”情绪表达激活市场，二次创作与推特 Space 的哥布林语不断扩散，最终出圈。其话题性强，能迅速成为流量密码，带来巨量购买。但 MEME 吃情绪，大起大落明显。若能识别出持续吸引关注的潜力，早期回报率可观。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_21cc1bf95d326f793ea4486e9a69ac10.png>
+![](img/zhuanqian_21cc1bf95d326f793ea4486e9a69ac10.png)
 2022 年 9 月，星巴克在 Polygon 上推出忠诚计划“奥德赛”。2023 年 3 月以 100 美元向会员发售高级 NFT“The Siren Collection Stamp”，限量 2000，18 分钟售罄。地板一度突破 600 美元，现约 450 美元，约 4 倍涨幅。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3d489ea27be47726eb5a3aa3f9834ff2.png>
-全球社区巨头 Reddit 亦在 Polygon 上推出头像 NFT，自 推出以来约有 300 万钱包创建，市值约 1 亿美元，日交易约 23 万美元。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_dd7dfa8d86e265c69ad2fca6dd01b23d.png>
+![](img/zhuanqian_3d489ea27be47726eb5a3aa3f9834ff2.png)
+全球社区巨头 Reddit 亦在 Polygon 上推出头像 NFT，自 推出以来约有 300 万钱包创建，市值约 1 亿美元，日交易约 23 万美元。![](img/zhuanqian_dd7dfa8d86e265c69ad2fca6dd01b23d.png)
 这两个案例表明，已具强大影响力的品牌为何要拥抱 Web3。因为对年轻人而言，品牌文化带来的身份感与归属感更重要。在注意力经济下，消费者眼球更稀缺，忠诚度定义已变。
 品牌该做什么？用内容持续获取注意力，提升忠诚度。星巴克通过系列内容提升会员互动，保持粘性，同时拓展品类与商业场景，升级为生活方式品牌。
-斯坦福与谷歌的研究团队发起“Generative Agents”项目，用 25 个 ChatGPT 实例模拟 25 个角色的小镇生活，角色会刷牙、亲吻、吃早饭、社交。实验引发关注，因《西部世界》的场景似乎成真。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8ef04fcf2482943433b8af4cb9dd9eb9.png>
+斯坦福与谷歌的研究团队发起“Generative Agents”项目，用 25 个 ChatGPT 实例模拟 25 个角色的小镇生活，角色会刷牙、亲吻、吃早饭、社交。实验引发关注，因《西部世界》的场景似乎成真。![](img/zhuanqian_8ef04fcf2482943433b8af4cb9dd9eb9.png)
 设想每个角色都是 NFT，能随进程自我进化。购买后可从其视角体验世界，甚至修改角色 AI 改变走向。若有此类叙事的 NFT，潜力巨大。
 AI 仍是热度核心，所有与 AI 结合的 NFT 项目都值得多看一眼。
 最后我最看好且最可能爆发的品类，是游戏 NFT。
@@ -94,4 +94,4 @@ AI 仍是热度核心，所有与 AI 结合的 NFT 项目都值得多看一眼�
 交易场所也在分化。除了Blur、OpenSea这类综合平台，垂直细分平台正在成为新趋势——专注游戏NFT、体育NFT或音乐NFT。这类平台能提供更贴合的定制服务，吸引对应圈层的用户。同时，新交易资产也会不断出现，不再只有PFP，更多新形态资产会登上投资舞台。
 最后说一句：因为以太坊的网络效应和既有用户群，多链NFT和L2 NFT跟ETH NFT比拼时会有压力。但其他链还在发展，跨链交易与互操作性的机会始终存在。
 感谢大家看我分享到这里，如果觉得有收获，欢迎一起交流讨论。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_894d30a529e7c37bcd3392323c99941c.png>
+![](img/zhuanqian_894d30a529e7c37bcd3392323c99941c.png)

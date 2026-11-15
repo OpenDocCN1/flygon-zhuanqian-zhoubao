@@ -31,8 +31,8 @@ MultiPost-Extension 是今年 2 月在 GitHub 上开源的项目。
 * 定时排期发布
 * 与 AI 生成内容联动
 对内容创作者来说，它直击多平台分发的痛点：一次编辑，多端同步，效率大幅提升。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8d42eb9eeb88d099c74b9b1ef427d8c8.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e60b38223d6667ec2d78bc662a649885.png>
+![](img/zhuanqian_8d42eb9eeb88d099c74b9b1ef427d8c8.png)
+![](img/zhuanqian_e60b38223d6667ec2d78bc662a649885.png)
 # 多账号矩阵管理工具介绍
 ### 🌟 全程免费，无任何付费模式 🚫💰​​
 ### 🔥 多账号管理工具 🔥
@@ -65,9 +65,9 @@ MultiPost-Extension 是今年 2 月在 GitHub 上开源的项目。
 支持 CK 注入，可直接复制浏览器内 CK 粘贴导入。
 支持账号信息导出到表格，编辑后再导入回软件。
 账号列表里看似固定的备注字段，标题名也能自定义，方便用户自行定义信息项。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7d99b28568b3c9a6305cefc5133b0de4.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e4ea28f1e8f2fec36b57fb32423e2ba5.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6c6c73ee80dca5b0a76f51360f6c31fa.png>
+![](img/zhuanqian_7d99b28568b3c9a6305cefc5133b0de4.png)
+![](img/zhuanqian_e4ea28f1e8f2fec36b57fb32423e2ba5.png)
+![](img/zhuanqian_6c6c73ee80dca5b0a76f51360f6c31fa.png)
 以上都是为了让使用者能按自己的习惯做标记。
 还有很多细节，等有空再补充。
 随着时间推移，我发现精力有限。
@@ -77,19 +77,19 @@ MultiPost-Extension 是今年 2 月在 GitHub 上开源的项目。
 ## 如何接入
 矩阵管理工具在 MultiPost-Extension 的设置页预留了自定义接口。
 你只需在编写自动发布代码时把调用参数定义清楚，放进矩阵工具里，就能被软件调度。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9bd2d58d8236d9fca03369f8f8119a2a.png>
+![](img/zhuanqian_9bd2d58d8236d9fca03369f8f8119a2a.png)
 MultiPost 的相关参数可通过控制台抓取。
 我的矩阵工具已内置该插件，目前适配到 1.1.4 版本。插件更新快，所以适配节奏放缓了。
 启动浏览器时勾选此项，浏览器就会加载插件。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f5aea32bbb19734c556b0bca12fc329b.png>
+![](img/zhuanqian_f5aea32bbb19734c556b0bca12fc329b.png)
 点左上角插件图标会跳转到官方网页 https://multipost.app/dashboard/publish/dynamic 。
 未登录可先登录。
 登录后点顶部的 publish，
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f944bf4493f6fb31161d8f9686beb435.png>
+![](img/zhuanqian_f944bf4493f6fb31161d8f9686beb435.png)
 即可进入填写标题、内容和素材的界面。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e364577d86242a54e39cc9847a88a797.png>
+![](img/zhuanqian_e364577d86242a54e39cc9847a88a797.png)
 填好内容点下一步，选择目标发布平台。分类众多，可自行探索。国外的 Facebook、Instagram、X 等也都支持。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9e6871ed6d142c374874308f1cabfaeb.png>
+![](img/zhuanqian_9e6871ed6d142c374874308f1cabfaeb.png)
 在此界面按 F12 打开控制台，输入下面代码来监听消息，方便观察插件调用时的参数。
 ```
 window.addEventListener('message', (e) => {
@@ -97,10 +97,10 @@ console.log('收到扩展响应:', e.data);
 })
 ```
 若出现此提示
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f10d9f2012b30b72b346b8de4b35456b.png>
+![](img/zhuanqian_f10d9f2012b30b72b346b8de4b35456b.png)
 说明需要先在控制台输入 allow pasting 回车。
 注意不能复制粘贴，必须手动输入，
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9630e42f11e31408c22195a44bf16e89.png>
+![](img/zhuanqian_9630e42f11e31408c22195a44bf16e89.png)
 再输入监听代码。
 ```
 window.addEventListener('message', (e) => {
@@ -108,30 +108,30 @@ console.log('收到扩展响应:', e.data);
 })
 ```
 控制台呈现此状态即为成功
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_328d14a47d7fc0c819a81a44948c65ce.png>
+![](img/zhuanqian_328d14a47d7fc0c819a81a44948c65ce.png)
 此时不要关闭控制台。
 确保官网页面已填好信息、选好素材和目标平台。可不必登录各平台账号，只需获取发布参数即可。
 注意平台要选对，因为参数对应平台。填小红书就会抓到小红书的参数，后续发布的就是小红书。
 设定好后点击发布，插件会跳转到发布网页。此时可关闭新打开的页面，信息已监听到。
 回到原控制台，可看到如下信息。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b8dea675d44c7adc1d8185b69567a473.png>
+![](img/zhuanqian_b8dea675d44c7adc1d8185b69567a473.png)
 依次点开小三角展开详情。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c8d34351bd081f4e28ece1ae1427230a.png>
+![](img/zhuanqian_c8d34351bd081f4e28ece1ae1427230a.png)
 找到所需的那段信息，
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9833c020892461c4fd16d3334cb109bf.png>
+![](img/zhuanqian_9833c020892461c4fd16d3334cb109bf.png)
 在软件里打开 MultiPost 设置页，将信息填入对应位置。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bf28fbe5729d86dd36fb3d88d18887cf.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9835a64fa4432191d1fd5042581db887.png>
+![](img/zhuanqian_bf28fbe5729d86dd36fb3d88d18887cf.png)
+![](img/zhuanqian_9835a64fa4432191d1fd5042581db887.png)
 注意 isAutoPublish 这个参数不在表单里。
 它控制是否自动点最后的发布按钮，false 时会在最后一步停下，true 为自动发布。默认 true，若你想人工确认可改为 false。
 至此插件配置完成。
 随后在软件内为每个账号指定素材文件夹和标题，点击 multipost 即可开始发送。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_48da17076e75adf6f1f40b0e7a531cd6.png>
+![](img/zhuanqian_48da17076e75adf6f1f40b0e7a531cd6.png)
 ## 自定义发布流程的二次开发
 如果你想按自己的流程开发自动发布逻辑，可参考 MultiPost 源码。
 ..\src\sync\ 目录下
 Article、podcast、video、dynamic、account 等文件夹按内容类型划分
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cfe024cb5d3af2687899d144c5b5dfea.png>
+![](img/zhuanqian_cfe024cb5d3af2687899d144c5b5dfea.png)
 可直接把开源项目丢给 Cursor 或 Trae 分析。
 让 AI 基于现有代码框架和逻辑，结合你提供的目标平台页面数据，帮你在源码上新增页面跳转、填写信息、点击发布的一套代码。
 打包成 Chrome 插件，再接入矩阵工具即可调用。
@@ -151,23 +151,23 @@ NPM版本: 10.2.3
 4. 服务启动
 * 返回主菜单 → 选择 1 启动服务 → 保持 DOS 窗口运行
 * 记录生成的访问地址 http://localhost:43456/
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_998bdf623ade78e3356c8b11e47e17c9.png>
+![](img/zhuanqian_998bdf623ade78e3356c8b11e47e17c9.png)
 * * *
 # 我是如何借助 AI 完成这次接入的
 以前要做一次这样的对接，对我来说是件难事。
 前段时间刷朋友分享时偶然看到这个插件，感觉潜力很大，于是联系了作者了解情况。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_44c598fd5f2d521f0d273c9c5c582091.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_15c75a4eebb17c4edab2c117707a2aae.png>
+![](img/zhuanqian_44c598fd5f2d521f0d273c9c5c582091.png)
+![](img/zhuanqian_15c75a4eebb17c4edab2c117707a2aae.png)
 作者给了不少建议。
 最初我打算用元素控制的方式去做自动化，和作者交流后改为走开发文档的官方控制方式。
 测试过程中卡了很久，甚至想过放弃。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3765ae92adff54f15e06885faf5b51d7.png>
+![](img/zhuanqian_3765ae92adff54f15e06885faf5b51d7.png)
 我并非专业程序员，很多知识都是用时现学。
 和作者聊天时，他说的部分概念我只能半懂不懂，不好意思追问太多基础问题。
 作者自己也没试过控制台调用，也无法给出具体解答，最后只能自己摸索。
 我用 DeepSeek、GPT 和 Trae 向它们提问，让它们分析源码并提供可行方案。
 先把开发文档丢给 DeepSeek 让它理解，
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a1b4915e70e98aaf3cda834a6cc7359c.png>
+![](img/zhuanqian_a1b4915e70e98aaf3cda834a6cc7359c.png)
 分析完后它给了几段测试代码，没成功。
 于是想让 AI 分析整份源码，但文件太多不适合直接给 DeepSeek，就把源码发给了 Trae。
 我告诉它我想通过控制台发送消息给 MultiPost。
@@ -187,24 +187,24 @@ console.log('收到扩展响应:', e.data);
 最终成功发送了标题和内容的组合，插件也能正常调用。
 图片和视频的消息还需要继续研究。
 我发现用插件发送带图消息时，图片字段不是本地文件路径，于是询问 Trae。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2bb5e79ce840831fc1d7410186bbe08f.png>
+![](img/zhuanqian_2bb5e79ce840831fc1d7410186bbe08f.png)
 Trae 给我做了一个 HTML 页面并直接启动了服务器，这个举动有点出乎意料。
 考虑到软件还有不少用户在用，我希望操作能更简化，于是询问是否有其他方案。
 Trae 表示启动服务器这一步是绕不开的。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_977ada2828e3efe93c1a4abe4d176f80.png>
+![](img/zhuanqian_977ada2828e3efe93c1a4abe4d176f80.png)
 一开始我就跟Trae提了个要求：能不能把安装过程弄得简单点？我试了好几个方案，绕了一圈，最终决定用Node.js来搞定。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2f59e4e6547f45019a97f15205c2f796.png>
+![](img/zhuanqian_2f59e4e6547f45019a97f15205c2f796.png)
 接着，我又让Trae帮我生成一个BAT文件，用来一键安装插件环境、顺便把服务器拉起来。说实话，这种做法的确把环境配置的门槛降了不少，对刚上手的人特别友好。但问题也随之而来——我对Windows批处理脚本基本是零基础，Trae写出来的BAT一执行就闪退，而且踩坑的地方还不少。我只能把代码拆成一小段一小段，慢慢跑，一段一段排查。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5802cd69447c1c210b52e0ed840cfe07.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bc90cbe9ff92b7bbbd23b5bf1a9f935d.png>
+![](img/zhuanqian_5802cd69447c1c210b52e0ed840cfe07.png)
+![](img/zhuanqian_bc90cbe9ff92b7bbbd23b5bf1a9f935d.png)
 中间我和好几个AI轮番上阵分析了好几轮，折腾了很久，才总算把这个BAT文件给调通。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cdbbf3a31e2364c164e438866fad2282.png>
+![](img/zhuanqian_cdbbf3a31e2364c164e438866fad2282.png)
 Node.js装好以后，我双击BAT文件，环境检查顺利通过，接着装好http-server，启动服务器，整个链路就走起来了。服务器就绪后，我用自己的页面去抓图片信息，倒是能拿到了。不过麻烦很快又来了——参数拼接出了问题。开发文档里只写了标题和内容两个参数，虽然我从控制台里成功截获了图片信息，但自己拼出来的请求还是报错。没办法，只能把这个问题抛给Trae，让它帮我捋一捋。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6d3a9bedae4cf654a5ec5fc915ae4ebd.png>
+![](img/zhuanqian_6d3a9bedae4cf654a5ec5fc915ae4ebd.png)
 经过Trae的梳理，参数拼接终于完成了。我在控制台手动跑了一遍，插件顺利被调用，图片也完好无损。之后我又让Trae帮页面加上了视频上传的功能，代码改完一测，整条流程也能正常运转。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b2bdefb8cf2e58f07665d4781808cfed.png>
+![](img/zhuanqian_b2bdefb8cf2e58f07665d4781808cfed.png)
 原本以为视频也能照葫芦画瓢，按照图片那套格式拼接就行。插件也确实被调起来了，可上传视频的页面一直提示“文件类型不对”。我在好几个平台都试了，反馈几乎一模一样。我也问过好几个AI，它们给出原因没一个靠谱的。Trae一直坚持说是我漏了“videos”这个字段，可我测下来根本不是那么回事。这AI还挺执着，我又换了各种问法，折腾了好半天，还是没找到突破口。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_85a34cbe967b21c3caef012fc1f5c2de.png>
+![](img/zhuanqian_85a34cbe967b21c3caef012fc1f5c2de.png)
 最后没办法，我去问了插件作者，结果作者也是一头雾水。于是我只能回到最笨的办法——继续监听插件发出的消息，把自己发送的和插件接收到的放在一起，逐字段对比，这才发现问题所在：图片参数是个数组，而视频参数不是，只要把两侧的方括号【】去掉就通了。到这儿，整个流程才算真正测试完毕。至于文章同步的功能，以后真有人需要再考虑接入吧。
 插件调用部分的命令摸清楚之后，接下来就要琢磨怎么实现批量自动化调用了。原来软件里发作品是单线程的，我本来也想继续沿用单线程，但想想效率实在太低，最终决定上多线程。这一改，原来的架构基本等于推倒重来，只能重新写一套多线程控制浏览器的逻辑。过程中还发现一个隐藏问题：我的工具原本是按照“标签页”来做浏览器伪装的，但插件一调用就会额外弹出新标签页，虽然也能继续伪装，但总觉得不够干净。于是我把伪装策略改成了从浏览器启动那一刻就整体伪装。随着越改越多，代码量越来越大，几乎每动一处都会牵出其他问题。好在经过反复测试和修改，现在软件已经能稳定地为每个任务创建独立环境、启动浏览器，然后根据素材库里的内容去调用插件，插件自己完成发布动作，还能自定义等待时间，时间一到就自动关掉浏览器。
 最后聊几句开发MultiPost插件的注意事项。

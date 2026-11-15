@@ -7,10 +7,10 @@
 ## 1、航海期拿到初级 YPP
 航海期间，航海手册和圈内精华帖帮我规避了大部分新手误区。第一个账号起步很顺，参照头部账号做拆解，用生成式工具做 AI 猫猫短剧，单条制作时长可控。大致 15-20 天就会迎来一次推流潮，第 11 条作品从几千播放冲到百万，一周后发布的作品再到三百万，粉丝破万后初级 YPP 到手。详细流程我之前写过，这里不再展开，有兴趣可看：
 感悟1：起步阶段，航海手册+赚钱精华帖能解决约九成的疑问。剩下的再去 YouTube、豆包、GPT、B站、公众号查，查完仍无解就直接#举手。跟着有结果的人走，能省下大量内耗。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f088d2acd04e4fdb8ded7aa5633bceb9.png>
+![](img/zhuanqian_f088d2acd04e4fdb8ded7aa5633bceb9.png)
 ## 2、私教陪跑冲到高级 YPP
 AI 猫猫系列虽然转化不错，但制作负担重。一次从文生图到图生视频再到剪辑，至少 3-4 小时，还在用共享账号，排队和抽卡不顺时效率更低。于是放弃纯 AI 路线，转投老马教练分享的故事号打法，更新快、万播常见，数据也印证了这一点，下图为该号表现，心态也更稳。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0afe76c039b7b71482914b9d1c399e42.png>
+![](img/zhuanqian_0afe76c039b7b71482914b9d1c399e42.png)
 随后被达人秀的流量吸引，又杀回 AI 赛道，一顿操作猛如虎，数据才 1 万 5 左右，再次撞上时间与效率瓶颈。AI 操作不够顺滑，出图不稳定。复盘后觉得，用故事号触达欧美受众的长期价值更大，又回到故事赛道。
 紧接着动物预警赛道出现，制作成本又降，我又进去探路，还是卡在万播出不爆。
 后来加入赚钱 YouTube 私教陪跑，约到波妮教练一对一复盘。教练建议我回 AI 猫猫赛道冲一把，因为该号的订阅基本盘就是 AI 猫猫积累的，回归后流量回升。叠加私教分享的新玩法，最终达标高级 YPP 条件。
@@ -19,10 +19,10 @@ AI 猫猫系列虽然转化不错，但制作负担重。一次从文生图到�
 刚学 AI 时总觉得时间不够，焦虑感很强。之前的误区是觉得要把每个工具都吃透才算入门，创作必须全程上 AI 才算入圈。其实 AI 是手段，核心是先拓宽认知再按需精进。我通过 B站、公众号、推特混进 AI 圈，先去《通往 AGI 之路》知识库建立认知框架，再针对性学工具，投入产出比更高。
 ## 3、高级 YPP 申诉成功复盘
 等开通高级 YPP 时，反而收到资格即将终止的通知。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_71f6252c119ca0543f0aaf35a15e42bc.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_67971e157566222aefcaf48b9958a11d.png>
+![](img/zhuanqian_71f6252c119ca0543f0aaf35a15e42bc.png)
+![](img/zhuanqian_67971e157566222aefcaf48b9958a11d.png)
 按 @方波妮 教练的精华贴： 指引，我一步步准备申诉材料。飞书录屏出问题时，我用 OBS 录制，加一个视频采集和一个显示器采集即可。申诉后约 5 小时收到成功邮件。下面是我当时的申诉稿，供参考，核心是呈现制作历史、历史工作文件夹、操作流程、AI 作图的后台记录。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2f71bd93d263f921987b582e51615969.png>
+![](img/zhuanqian_2f71bd93d263f921987b582e51615969.png)
 ## 申诉稿参考：
 尊敬的YouTube内容审核管理员你们好，我是一名中国的YouTube频道所有者。我的频道名称是：XXXX。我的频道主要内容方向是使用各类Ai工具创作一些有趣、有教育意义的短视频内容。（展示频道内容、频道链接（是自己频道主页“更多”里面的链接），缓慢滑动页面）但是内容审核员反馈我的视频内容没有明显的原创特征，可能是改自其他来源中的内容，未增加有意义的原创评论、实质性修改或教育或娱乐价值。这个理由与我秉持的原创及利他的创作理念相悖。这让我感觉到很沮丧。所以我制作了这期视频来澄清。（展示违规通知的内容）
 我的频道一共有70个视频，以短视频为主，短视频主要分为了两个大的部分：一个部分是制作关于猫咪故事的有教育意义的短视频，一个部分是制作炫酷变身融合的娱乐性视频。我会将这两个主要部分的内容制作过程进行详细讲解。（展示频道内容，缓慢滑动）
@@ -34,14 +34,14 @@ AI 猫猫系列虽然转化不错，但制作负担重。一次从文生图到�
 # 三、Reddit 故事号与解说号拆解
 ## 1、获取爆款文案
 可一次性免费提取三个视频文案：https://member.downsub.com/multi-downloader
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4bf0b4559086f9e1c5229d15e604dbbd.png>
+![](img/zhuanqian_4bf0b4559086f9e1c5229d15e604dbbd.png)
 ## 2、AI 复刻爆款文案：飞书多维表格 + DeepSeek
 我试过 GPT，也用过飞书多维表格+DeepSeek 实现批量复刻+关键词提取，灵感来自 @小查 的帖子
 downsub 下载的 TXT 排版混乱、无标点，AI 理解会受影响，所以我先用飞书多维表格+DeepSeek 做清洗，再改写。提示词仅作参考，可根据 DeepSeek 的思考过程优化。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a011770f2790a93b6717bb2b54fe1b82.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a9e90c00a7f2e6b5fc834d5bef81b927.png>
+![](img/zhuanqian_a011770f2790a93b6717bb2b54fe1b82.png)
+![](img/zhuanqian_a9e90c00a7f2e6b5fc834d5bef81b927.png)
 因为我要做解说号，所以多加了一列做关键词提取，方便去其他平台搜素材。提示词不满意就点刷新重来。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bded2a1c232665a5ef9687a2802df2ed.png>
+![](img/zhuanqian_bded2a1c232665a5ef9687a2802df2ed.png)
 ## 3、更真实的配音
 配音工具很多，故事号对声音要求更高，我主用 elevenlabs。AI 配音常遇到两个问题。
 第一个是没感情、AI 味重。elevenlabs 里可这样调：
@@ -58,33 +58,33 @@ downsub 下载的 TXT 排版混乱、无标点，AI 理解会受影响，所以�
 6、语言:简练句式清晰主干，符合美国人的语句表达习惯
 7、在原文稿的基础上完善故事逻辑、补充细节、心理动态描写等
 第二个问题是提高分贝后有电流噪音。群友在卡兹克给了方案：生成后用 Au 降噪。推荐公众号：化工加，可免费下载软件并有安装教程。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5919744481a695fc76251eab7fb72ba3.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c3a007d7c02f2ead8f228930aca9abc7.png>
+![](img/zhuanqian_5919744481a695fc76251eab7fb72ba3.png)
+![](img/zhuanqian_c3a007d7c02f2ead8f228930aca9abc7.png)
 Au 里我只用了三个功能：提音量、加速、降噪。
 流程：
 * 音频拖入 Au 界面。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e66bd43d22a3c3da7b748a34bd066e8f.png>
+![](img/zhuanqian_e66bd43d22a3c3da7b748a34bd066e8f.png)
 * 拉大振幅提升音量。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e89e75d7bf68bb67210921e826de7f73.png>
+![](img/zhuanqian_e89e75d7bf68bb67210921e826de7f73.png)
 * 效果-时间与变调-伸缩与变调处理，调整时长，58%为参考值，剪映可全识别字幕，设好后默认为默认设置。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9e4f07ef3e83c947c4f0dc015a1f029d.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_306dea6d9ce70ead917369f1b8661f8e.png>
+![](img/zhuanqian_9e4f07ef3e83c947c4f0dc015a1f029d.png)
+![](img/zhuanqian_306dea6d9ce70ead917369f1b8661f8e.png)
 * 降噪：按图路径进入自动降噪，调幅度、噪声量，试听后应用，设为默认后处理单个音频约 30 秒。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cee67b1efc10f66038321663c5714000.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_00b2bce2ffb8d4fd237ff547c58410b7.png>
+![](img/zhuanqian_cee67b1efc10f66038321663c5714000.png)
+![](img/zhuanqian_00b2bce2ffb8d4fd237ff547c58410b7.png)
 ## 4、解说号素材获取
 素材找法老马教练和圈友都分享过，我走逆向：Google 搜图+关键词搜。
 * Google 搜图：用老马分享的关键帧提取工具先抽图，再在 Google 搜图。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_862f8543aeec834369ce72e0e8d00585.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_95319ac8d48c7974dba06333c7e49c36.png>
+![](img/zhuanqian_862f8543aeec834369ce72e0e8d00585.png)
+![](img/zhuanqian_95319ac8d48c7974dba06333c7e49c36.png)
 * 关键词搜索：直接用飞书+DeepSeek 提取的关键词去 TikTok 搜，基本能找到原片或相关视频，经常能挖到宝藏账号。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_44a066c668740d8f6fb6f61fafd3b0a5.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f7f8ae8dc679999a15519db4fb564f25.png>
+![](img/zhuanqian_44a066c668740d8f6fb6f61fafd3b0a5.png)
+![](img/zhuanqian_f7f8ae8dc679999a15519db4fb564f25.png)
 ## 5、视频下载工具
 * 专下 TikTok：https://musicaldown.com/en
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b3b415ec63b6a9ca41ac6688d7c8f4cd.png>
+![](img/zhuanqian_b3b415ec63b6a9ca41ac6688d7c8f4cd.png)
 * 跨站下载工具：https://snapany.com/zh，可复制链接粘贴后自动解析，一次最多 10 个，适合解说号单素材下载。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e38a88c30169a4078b2a43d176b3ebab.png>
+![](img/zhuanqian_e38a88c30169a4078b2a43d176b3ebab.png)
 感悟4：故事号、解说号爆发速度不如 AI 达人秀，但更持久、可深耕。核心是理解海外文化语境，数据反馈才是判断文案好坏的唯一标准，多留意评论区互动，从评论里提炼优化点。
 # 四、收尾与致谢
 YouTube 值得长期做。感谢赚钱这个平台，感谢所有分享 YouTube 笔记的作者，感谢私教陪跑让我两个多月拿到高级 YPP。

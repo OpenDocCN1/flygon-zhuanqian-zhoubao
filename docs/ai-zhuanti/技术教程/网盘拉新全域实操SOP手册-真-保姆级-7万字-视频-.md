@@ -48,26 +48,26 @@
 我目前主力用的两个平台都会写上，各有特点，你可根据自身需求选。
 ### 第一个平台
 任推邦平台，目前使用量最大。关注任推邦公众号，点击下图【登录】即可注册。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d059fba43a23f05e13d74770322f17ce.png>
+![](img/zhuanqian_d059fba43a23f05e13d74770322f17ce.png)
 任推邦集地推和网推于一身，除网盘拉新外，还会不定期上新其他推广项目，这是中小平台不具备的优势。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d4f4ed3f7486110dc7b4085b82ddb5ba.png>
+![](img/zhuanqian_d4f4ed3f7486110dc7b4085b82ddb5ba.png)
 下面是详细的注册视频教程，不注意细节注册会导致项目显示不全，这个卡点新手必看，视频里给了100%项目全显的方案。
 注意，这类平台都是邀请制，无邀请码无法注册。网上邀请码很多，圈友也会分享。本链接自带邀请码，可直接注册。填谁的码都一样，所谓的首码没有任何区别。
 以下是任推邦的佣金规则，平台有额外补贴，所有用户都是顶点位价格。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6101d23ccd1c25e0937402c49347ff5b.png>
+![](img/zhuanqian_6101d23ccd1c25e0937402c49347ff5b.png)
 去年任推邦还是抽佣制，只有花两千开通金牌码的才是顶点位。抽佣制下上级能抽成，你分多少看上面良心。改成平台补贴后，上级不再抽成，你的收益更高。
 ### 第二个平台
 聚好推，后起之秀。关注聚好推助手公众号，点击下图【进入平台】即可注册。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_63a9341d507bd1aaa71bdf6b2b279ca7.png>
+![](img/zhuanqian_63a9341d507bd1aaa71bdf6b2b279ca7.png)
 聚好推以网盘项目为主，也是我近期主要用的平台，原因很简单：
 * 日结，出数据即结算，资金更安全，对新手很友好
 * 提现手续费平台补贴3%，如下图，结算周期为日结
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8cc9b62a73d267a7baa1a3c730feb4a1.png>
+![](img/zhuanqian_8cc9b62a73d267a7baa1a3c730feb4a1.png)
 * 提现手续费比同行低一半，其他平台多为6%，提现门槛一般10元
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0b42612f10b0c713481fe1a1a53dd5f8.png>
+![](img/zhuanqian_0b42612f10b0c713481fe1a1a53dd5f8.png)
 平台同样是邀请制，邀请码AX1001，也可自行搜索。政策与任推邦一致，所有用户均为首码顶点位，平台补贴。
 平台注册很简单，手机号验证码登录即可显示全部项目。此外还有一系列实用工具，先截个图，后面技法篇会详细讲。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c75340ac330c723a893bbe6ea417d9e8.png>
+![](img/zhuanqian_c75340ac330c723a893bbe6ea417d9e8.png)
 ## 申请推广权限
 注册完成后就可以申请网盘推广权限了。目前夸克、迅雷、UC、百度都在推广，你可以根据资源类型选择。
 夸克主要移动端佣金高，电脑端新用户少且转存无收益，如果你推的主要是电脑软件，建议推迅雷/UC等。不要固化思维，所有网盘都可以同时推。
@@ -80,7 +80,7 @@
 ### 第二个平台
 聚好推申请门槛目前为零，直接申请即可。信息填写更简洁，对新手更友好。
 平台每个网盘专区都有详细申请步骤和右上角操作视频，覆盖申请流程和会员申领流程，讲得很细，我就不重复录制了。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b87af4f30422177f59c726eba0e34531.png>
+![](img/zhuanqian_b87af4f30422177f59c726eba0e34531.png)
 实测聚好推的申请流程更清晰、审核更快。
 如果夸克/迅雷/UC账号之前绑定过任推邦或其他平台，需要重新注册新账号。也可以把旧号解绑手机号后重注册再绑定。最新补充：若聚好推夸克网盘无法签约绑定，可在平台添加客服手动绑定。
 平台怎么选？大平台项目多，中小平台体验好。我的建议是新手先从第二个平台起步，日结、1元起提、手续费低、工具多。第一个平台优势在项目多、体量大。两个平台都注册，哪个政策好就做哪个。
@@ -93,10 +93,10 @@
 申请时可选择口令推广，既能推口令也能推链接。口令可完全自定义，用户下载迅雷后搜索口令词即可自动跳转资源。
 * UC网盘
 申请通过后在最新版手机APP分享时可选择口令分享。口令可半自定义。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c59a27dd4ad71070ef0545c191a6cd58.png>
+![](img/zhuanqian_c59a27dd4ad71070ef0545c191a6cd58.png)
 * 百度网盘
 在第二个平台申请通过后可使用平台工具将百度链接转为中文口令。口令不可自定义，为官方分配的8-10字字符。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a1025f7aa71153441821c3fb53ffef50.png>
+![](img/zhuanqian_a1025f7aa71153441821c3fb53ffef50.png)
 总的来说，中文口令一般用作昵称，方便用户复制到网盘跳转。夸克有双口令，中文口令常用作昵称，组合口令可加到抖音作品标题。后续教程会详细展开。
 ## 福利政策
 不管哪个平台，申请完推广权限后都会有福利自动到账。
@@ -123,49 +123,49 @@
 吃瓜类（★★★★★）：明星八卦、路人瓜；热点视频/PPT/PDF；社会奇闻。
 学习类（★★★★）：认知思维提升，比如天涯神贴、毛选；健身养生；唱歌学习资料；舞蹈/瑜伽教程；自媒体学习资料；各种攻略，学习攻略、装修攻略等。
 行业素材类（★★★★）：这个方向跟学习/软件类有点重叠，列出来是想让你结合自身行业去找竞争少的蓝海。IT行业可以分享自己写的小工具、源码；设计行业可以分享设计软件和资源，PS资源一直火，Adobe全家桶、PSD素材都有人要；教育行业的资源更不用说，教辅、小学初中资料、四六级、考公考研、一建二建，前段时间三年级英语教材更新，相关英语资料搜索指数直接冲到1.87亿。这类有稀缺价值的资源建议配合客单价来引流成交，网盘拉新收益只是附加项，不是主项；餐饮行业可以做地方特色菜、小吃配方；剪辑行业可以分享视频素材、模板、剪辑学习资料、绿幕素材，比如猫meme。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ef27187f6999ede5d22e3224f389caa0.png>
+![](img/zhuanqian_ef27187f6999ede5d22e3224f389caa0.png)
 软件类（★★★★）：办公软件，Office、WPS、文档处理工具、激活版；设计软件，PS、AI、PR、AE；手机软件，李跳跳这类跳广告工具、安卓软件的永久版；电脑软件，剪辑软件、音视频软件、电脑插件、脚本或整合包。
 AI类（★★★★★）：这个方向绝对有流量，而且趋势只会越来越火。AI工具，比如Stable Diffusion、AI换脸、AI变声；AI学习资料；AI美女帅哥图；AI绘画资源；AI自动化工具。
 其他（★★★★）：壁纸、头像、各类美图；小说漫画、电子书；车机升级包；免费字体；各种素材、笔记、小抄、表情包；PPT模板、合同模板、年终总结模板等。
-以上只是相对热门的资源，360行，行行都能出资源。我列的肯定不全，想细分的话可以直接用AI搜索，问它你想做的领域，它能给你拆出很多子方向。选基本盘的时候，我建议小白挑一个风险小、能长期做的领域，热度可能没那么高，但胜在可持续、能增长、够稳定。有些敏感资源流量虽大，风险也大，得自己评估。下面这些是从部分平台截取的分区，可以参考一下：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b08f5ecfdd5fb4a59264f5b8421cce41.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5a0394409b8569c54c39857f1b62a2d7.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6ea04e1946adf1662f735263765ba959.png>
+以上只是相对热门的资源，360行，行行都能出资源。我列的肯定不全，想细分的话可以直接用AI搜索，问它你想做的领域，它能给你拆出很多子方向。选基本盘的时候，我建议小白挑一个风险小、能长期做的领域，热度可能没那么高，但胜在可持续、能增长、够稳定。有些敏感资源流量虽大，风险也大，得自己评估。下面这些是从部分平台截取的分区，可以参考一下：![](img/zhuanqian_b08f5ecfdd5fb4a59264f5b8421cce41.png)![](img/zhuanqian_5a0394409b8569c54c39857f1b62a2d7.png)![](img/zhuanqian_6ea04e1946adf1662f735263765ba959.png)
 方向和赛道有了，资源去哪找？这里给几个网盘资源搜索站点，可以一键搜到你想要的东西；再配合AI搜索引擎，基本能全网捞资源。但网上的资源鱼龙混杂，垃圾资源、挂羊头卖狗肉的很多，别贪多，只找自己需要的、相对精品的。
 夸克网盘资源搜索：https://pan.funletu.com 、https://www.quarkfinder.top/
 迅雷网盘资源搜索：https://xunjiso.com/
 综合网盘资源搜索：https://www.yunso.net/
 游戏资源专项搜索：3DMGAME https://bbs.3dmgame.com/forum.php?gid=441 、游侠网 https://www.ali213.net/ 、游民星空 https://down.gamersky.com/pc/
 说实话，这些网盘搜索工具也是用AI找出来的，不止这几个，你掌握了原理以后完全可以自己搜。AI怎么搜？接着往下看。下面这几个AI工具目前都免费，而且都是大厂出品，更适合国人体质。
-秘塔AI：https://metaso.cn/ 。没有广告，全网搜索，直出结果。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1139e3d7110bb737b9787cdd780ac409.png>
-Kimi AI：https://kimi.moonshot.cn/ 。月之暗面出品的智能助手，能联网搜索，会给你多个结果可选，目前全免费。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9ba2cd084a8f14b6a57182d410b76702.png>
-豆包AI：https://www.doubao.com/ 。字节跳动出的智能助手，同样能联网搜索，功能丰富，目前全免费。其实字节国际版和国内版的Coze更好用，但有限制且开始收费了，这里就不放。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_603e08044917925fad19702b2786fa77.png>
-博查AI：https://bochaai.com/ 。它更像是前面几个工具的综合体，定位和秘塔类似，专攻联网搜索，你问一个问题，它直接给你答案而不是链接。它还支持豆包、通义千问、Kimi等大模型，可以在多个模型之间切换，实时获取信息。不过每次搜索只能用其中一个模型，需要手动切换。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b2695030f400828482beb1f028f5a089.png>
-文心一言：https://yiyan.baidu.com/ 。百度出品，对中文的理解和运用更到位，毕竟做了这么多年搜索引擎，数据量很大。3.5版本免费，可联网，4.0要收费，这也是百度一贯的吃相。不过新用户从上面这个链接进去，随便发一句话就能领5天VIP；不嫌麻烦的话，再下载文小言App（原来的文心一言），记得认准百度出品，别下错，登录后还能再领30天VIP。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e8700c46995849315ddd0f26e457666c.png>
+秘塔AI：https://metaso.cn/ 。没有广告，全网搜索，直出结果。![](img/zhuanqian_1139e3d7110bb737b9787cdd780ac409.png)
+Kimi AI：https://kimi.moonshot.cn/ 。月之暗面出品的智能助手，能联网搜索，会给你多个结果可选，目前全免费。![](img/zhuanqian_9ba2cd084a8f14b6a57182d410b76702.png)
+豆包AI：https://www.doubao.com/ 。字节跳动出的智能助手，同样能联网搜索，功能丰富，目前全免费。其实字节国际版和国内版的Coze更好用，但有限制且开始收费了，这里就不放。![](img/zhuanqian_603e08044917925fad19702b2786fa77.png)
+博查AI：https://bochaai.com/ 。它更像是前面几个工具的综合体，定位和秘塔类似，专攻联网搜索，你问一个问题，它直接给你答案而不是链接。它还支持豆包、通义千问、Kimi等大模型，可以在多个模型之间切换，实时获取信息。不过每次搜索只能用其中一个模型，需要手动切换。![](img/zhuanqian_b2695030f400828482beb1f028f5a089.png)
+文心一言：https://yiyan.baidu.com/ 。百度出品，对中文的理解和运用更到位，毕竟做了这么多年搜索引擎，数据量很大。3.5版本免费，可联网，4.0要收费，这也是百度一贯的吃相。不过新用户从上面这个链接进去，随便发一句话就能领5天VIP；不嫌麻烦的话，再下载文小言App（原来的文心一言），记得认准百度出品，别下错，登录后还能再领30天VIP。![](img/zhuanqian_e8700c46995849315ddd0f26e457666c.png)
 赛道、资源都有了，下一步就是选平台发出去。想一想，一个普通用户平时是怎么找到免费资源的？第一种是主动找，他用谷歌、必应、百度搜索，或者在抖音、小红书、哔站、知乎这些平台里搜。第二种是被动刷到，在抖音、快手、小红书、哔站、知乎上刷着玩，突然看到某个影视片段或者种草笔记，产生了想看的欲望。比如刷到一部电影的解说，想看完整版原片，评论区正好有人引导，他就顺着去保存了；如果评论区没有获取方法，他又会主动去搜。
 所以我们的打法也就出来了：用户会主动搜，那我们就去这些平台发作品，把搜索流量卡住；用户会被动刷到，那我们就多发布资源作品，让算法帮我们推给感兴趣的人，这就是推荐流量。这两类流量的差别很明显：推荐流量是算法根据兴趣猜你喜欢，用户只是被动刷到，所以量大但转化未必稳；搜索流量是用户带着需求主动找，量虽然少，可一旦搜到，转化非常猛。再拆开看，推荐流量靠的是用户画像和行为数据，搜索流量靠的是关键词和内容匹配。
 平台可以分两类：一类不能直接放链接，需要引导，转化效率相对低，比如抖音、快手、视频号；另一类可以直接放链接，转化自然高，比如小红书、B站、公众号、知乎、贴吧、微博、豆瓣、搜狐、CSDN、虎扑、QQ频道，以及各种小众论坛和资源分享QQ/微信群。
 先说不能直接放链接的平台。短视频平台用的是兴趣推荐机制，我们更容易帮用户制造需求，只要资源本身够有吸引力，用户觉得值，就会去下载。这里我们吃的就是推荐流量。影视区尤其明显，用户本来只是刷短视频，看到一个片段觉得很好看，想要看原片、看完整版，就会顺着你的引导去取资源；你要是不给引导，他就可能自己搜索，这就变成了搜索流量。这跟抖音兴趣电商的逻辑一样：用户本来没想买东西，刷到带货视频觉得这个商品不错，就下单了；刷到吃播看主播吃得香，自己也馋了，跟着就买了。小红书也同理，本来想去放松，看到一篇笔记种草了某个东西，顺手就下单。
 所以抖音、快手、视频号这类平台，我们要主攻推荐流量。具体怎么发？还是老套路：先根据你选好的领域找对标，看同行在怎么发。前期从简单的开始模仿，先上手找感觉，这个项目对作品质量几乎没有要求。模仿同行也是为了让算法更快地认识你，帮你打标签，从而获得更多推荐。
 以抖音为例，假如你想做影视资源，直接搜“影视资源”“电影分享”，就能看到大量对标账号。下面我挑了两种典型，仅供大家参考。更好的对标要等你自己养号刷视频的时候慢慢积累，刷多了自然会遇到。这里只是为了演示得更清楚。
-其中，<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_14ac3c3dcafa756e72a185f43902d1b2.png>
-一个典型的图文号可以看一下：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_85e2079c2f3662cf0bd984732d1db34e.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f995ed54b618244d3a6b4b1f7453ed7f.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_87e7137b2942d5e4d522bb2b20d6bf97.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f652c422dbb191abb256bb4c6b75d038.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_134f9455c68f962bae246efeed1083ba.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2920f8a32817fd63afdb6cc1a009e33c.png>
+其中，![](img/zhuanqian_14ac3c3dcafa756e72a185f43902d1b2.png)
+一个典型的图文号可以看一下：![](img/zhuanqian_85e2079c2f3662cf0bd984732d1db34e.png)![](img/zhuanqian_f995ed54b618244d3a6b4b1f7453ed7f.png)![](img/zhuanqian_87e7137b2942d5e4d522bb2b20d6bf97.png)![](img/zhuanqian_f652c422dbb191abb256bb4c6b75d038.png)![](img/zhuanqian_134f9455c68f962bae246efeed1083ba.png)![](img/zhuanqian_2920f8a32817fd63afdb6cc1a009e33c.png)
 做图文难吗？真不难。我在加速器图文教程里讲过，这种图手机上随时能做，而且全是模板，做好一套模板后面直接套用。这个号的盈利点在迅雷网盘拉新：不管移动端还是电脑端，拉新一人5块钱，转存一次0.2元，会员分成35%。引流方式也很有讲究：标题和简介直接引导用户去迅雷搜他的口令码，还巧妙地带上了#迅雷话题标签；主页简介里艾特小号，小号简介留微信，指定作品里再发获取教程。
 另一个视频号更有意思。谁说做影视就一定要做影视解说？网盘项目的视频可以简单到令人发指，七秒钟，一张图，几句话，全网都找不出比这更省事的作品形式。一部手机随随便便就能产出，甚至比图文还省事，他就靠这种方式拉满了几十个500人的群。他的盈利点在夸克网盘拉新：移动端拉新一人7块，电脑端2块，转存一次0.3元，会员分成30%。引流用的是评论区表情包引导，关注后加群，进群后会自动艾特你获取方式，再让你去找他的小号，小号里发布获取教程，关注公众号才能拿到资源。
 这种视频风格让我想到另一种很火的形式：拿着手机对着电脑屏幕，用手随意比划几下，用很夸张、很急促的语气说“这个电影一定要看”，或者反过来利用逆反心理说“千万别看”，流量都很大。为什么这类视频容易火？我简单分析三点：一是手机拍的，画面有轻微晃动，一看就是原创；二是拍摄有真实感，像在记录生活，急促夸张的语气又能抓住观众注意力，类似UC震惊部那种风格；三是“大家都在看”会引发从众心理，“怕你受不了”又激发逆反心理。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b12d6c777c341dc421f910e29a734474.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_76f72f08e3f7d18d5906d382337c09f4.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cd2297479c2da6541da39d4a565418ad.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8f65b0d53cbde4d1e11f460cbf8f9a97.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_67af63d9e20f5f6448d14927b629e965.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_eef9f09a834d60013a3f6a3259c22cb4.png>
+![](img/zhuanqian_b12d6c777c341dc421f910e29a734474.png)![](img/zhuanqian_76f72f08e3f7d18d5906d382337c09f4.png)![](img/zhuanqian_cd2297479c2da6541da39d4a565418ad.png)![](img/zhuanqian_8f65b0d53cbde4d1e11f460cbf8f9a97.png)![](img/zhuanqian_67af63d9e20f5f6448d14927b629e965.png)
+![](img/zhuanqian_eef9f09a834d60013a3f6a3259c22cb4.png)
 这些截图只是冰山一角。9月13号那天，单日进账五千多，而且是零投入。每天只需要很短时间剪个视频，一天的收入就能比得上普通上班族一整月的薪资。
 ###### 案例一：学习类资料
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6d523a88017effd2231dd909abbcc20b.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_193e3e6560b1ff7eb20c422281699d3a.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b9f490424a724359dad2df41d1b357d0.png>
+![](img/zhuanqian_6d523a88017effd2231dd909abbcc20b.png)
+![](img/zhuanqian_193e3e6560b1ff7eb20c422281699d3a.png)
+![](img/zhuanqian_b9f490424a724359dad2df41d1b357d0.png)
 这组图文共三张，前两张是实拍，最后一张是现成的引导模板。制作难度低到不用多说。
 拆解一下他的变现和获客方式：​
 *   变现点：夸克盘的拉新奖励——手机端新用户7元，电脑端2元，每次转存0.3元，会员订阅还能拿30%分成。
 *   获客手法：在标题和描述里埋入夸克中文口令，末图直接提示用户复制链接到夸克App领取资源。
 ###### 案例二：小姐姐图类资料
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6da5bf12969a6f416386bd4aaa64308b.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_15871fd93d98675212cf74cbd3a6ef13.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e7d0866e0d01bf97cc5dbbdb6d90aa34.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_de22fb56f10bb62605fb8f224d0cecc5.png>
+![](img/zhuanqian_6da5bf12969a6f416386bd4aaa64308b.png)
+![](img/zhuanqian_15871fd93d98675212cf74cbd3a6ef13.png)
+![](img/zhuanqian_e7d0866e0d01bf97cc5dbbdb6d90aa34.png)
+![](img/zhuanqian_de22fb56f10bb62605fb8f224d0cecc5.png)
 同样是图文，三张小姐姐图而已。这类图用即梦、可灵或哩布哩布等AI工具就能批量生成，制作零门槛。
 收益结构跟前一个案例一样：夸克网盘拉新，手机端7元、电脑端2元、转存0.3元、会员分成30%。
 获客方式：直接在描述里写明怎么领取，但有个小细节——要带上#夸克#话题标签，不能直接输入“夸克”两个字。
@@ -174,7 +174,7 @@ Kimi AI：https://kimi.moonshot.cn/ 。月之暗面出品的智能助手，能�
 游戏赛道也一样，搜“游戏资源”或“游戏分享”能找到大量对标。下面这条就是从抖音上扒下来的参考视频。
 拍摄方法很简单：用手机和平板对着拍25秒，前10秒只是打开游戏点了进去，后15秒全在演示如何分享链接、用夸克打开领取资源。
 盈利模式依然是夸克网盘的拉新分成：手机端7元、电脑端2元、转存0.3元、会员分成30%。获客方式：标题里放夸克组合口令，视频后半段直接口播指引，干净利落，没有多余步骤。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e16b8f1f98a158760ff98dc9084ca173.png>
+![](img/zhuanqian_e16b8f1f98a158760ff98dc9084ca173.png)
 这人的粉丝刚过六百，属于典型的素人号。赚了多少呢？光是5.7万次转存，收入就有1.7万；哪怕打个五折也有8500。还没算拉新和会员分成，要知道转存本就是所有收益渠道里最低的一档。他分享的是手机端软件，复制链接后只能在手机里转存。我不用看后台，光凭转存量就能估算出总收入。这条25秒的视频，抵得上月薪3500的打工人半年多工资，这还是往保守了说。
 可能有人会说：我只有一台手机，不懂拍摄怎么办？那就再看一个案例。
 这条同样是25秒，画面分成上中下三块，上下是固定图片，中间是游戏录屏。做法是：先把这个视频截图当底图，用稿定或创客贴做好上下部分，中间留白；再把底图导入剪映，录一段几十秒的游戏画面放到中间。最后用手机录一段指引操作，拖到画面中，缩小、调低透明度、配上讲解，基本就搞定了。
@@ -187,23 +187,23 @@ Kimi AI：https://kimi.moonshot.cn/ 。月之暗面出品的智能助手，能�
 赚钱方式是迅雷网盘拉新，收益说明同上。获客手法：作品标题写“游戏分享在主页”（图14），再用发视频的同一账号在主页置顶了一条资源获取视频（图15），图16就是那条置顶视频里的指引内容。
 但这种用大号置顶资源获取视频的方式非常不推荐。另外，这类资源其实更适合走夸克网盘。看内容和手法就知道作者是个新手，粉丝只有166个，却照样拿到了不错流量，至少赚到了钱。
 补充一句：千万别照搬我的例子，要自己多找几组对标，否则内容同质化会被限流。图文形式也有很多对标，照着你自己找到的去模仿就行。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_df3d7dacc9a5ad56b71be925c923e313.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_53b34eb6e65fe7d3010c608d937f0a4c.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1b4873e234ce701d42a185e3915e18d0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_685ccccba75cbd3ce0a60b6d95fec800.png>
+![](img/zhuanqian_df3d7dacc9a5ad56b71be925c923e313.png)
+![](img/zhuanqian_53b34eb6e65fe7d3010c608d937f0a4c.png)
+![](img/zhuanqian_1b4873e234ce701d42a185e3915e18d0.png)
+![](img/zhuanqian_685ccccba75cbd3ce0a60b6d95fec800.png)
 这里只挑了影视、游戏两个方向的对标让大家感受一下。其他领域还有很多很多，需要你自己根据选的方向去收集。但不管哪个赛道，底层流程完全一致，最后用到的获客和指引技巧也大同小异，学会灵活套用就够了。
 ##### ② 制作方法
 下面以影视方向为例，演示图文怎么做。这套教程主要讲创客贴的操作流程；上一篇加速器项目则侧重稿定设计，手机端也能完成。建议两边都看看，挑顺手的工具用，方法完全互通。上篇的图文制作方法可以点这里跳转，项目文档里还附带了一个素材包，里面有剪映会员版、全网视频提取工具、极速转文本工具等，需要的话自己去取。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_937e5ea4ba8a613c80728281798a6de3.png>
+![](img/zhuanqian_937e5ea4ba8a613c80728281798a6de3.png)
 ##### ③ 引导方式
 在讲具体引导方法前，先分析一下底层逻辑。想引导用户，就得找到可以放引导信息的地方。打开抖音个人主页（图17），除了头像外，你能自由填写的区域从上到下依次是：顶部背景、昵称、个人签名、群组、合集名称、置顶内容和封面。再点开某条作品（图18），可以自定义的位置则有：视频文案、留言区、标题和描述。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_452378cb8be601368d2214b3b383b18d.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_36ca141829931e7bc548cff621f5c094.png>
+![](img/zhuanqian_452378cb8be601368d2214b3b383b18d.png)
+![](img/zhuanqian_36ca141829931e7bc548cff621f5c094.png)
 结合前面这些案例，引导点位其实自己就能总结出来。全部算下来一共10处，其中留言区最重要——把引导放在留言区，用户才更容易点进你的主页；否则主页做再多引导，没人点进来也是白费。
 凡是没法直接放链接的平台，引导方式无非两种：一种是间接法——先把用户导入私域（公众号、网站、群组等），再在私域里发链接转化；另一种是直接法——省略私域中转，怕用户嫌麻烦流失，所以直接引导用户操作。
 <h7>先看间接引到私域的做法</h7>
 公众号或网址可以放在哪些位置呢？顶部背景、个人签名、群组内、合集名称、置顶内容、封面都行，留言区也能放，用谐音字、表情包等方式，但风险相对高。由于上面这些位置都在个人主页，所以关键是把用户引导到主页来。怎么引？最常见的是靠留言区或作品描述，比如在留言区放个表情包，示意“点击头像进主页拿资源”，如下图所示。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7c79eb371d8a63a94097e6c10888d6b0.png>
+![](img/zhuanqian_7c79eb371d8a63a94097e6c10888d6b0.png)
 只要用户进了主页，后面就好办了。同样以图17为例：
 - 顶部背景：可以把公众号名称或网站地址做成一张搜索示意图，比如图17上方的https://xxxxx。也可以是搜索公众号名称的图片，注意不要出现“公众号”三个字，要隐晦。
 - 个人签名：可以写公众号谐音字，像“工🀄️耗：xxxx”；也可以放网址，比如“scys.com”或“link3.cc/xxxx”这样的个人站/资源站，中文域名也可以；还可以写“获取知源：@xxxx”，艾特自己的小号，用户点进去就直接到小号主页，小号的顶部背景、签名、封面、置顶内容全都可以放满引导信息。
@@ -218,23 +218,23 @@ Kimi AI：https://kimi.moonshot.cn/ 。月之暗面出品的智能助手，能�
 说白了就是用各网盘平台给的口令做推广。平台不允许放网盘链接，但口令可以钻空子。链接是用户直接点击就能打开，口令则需要先复制，再去网盘App里粘贴，从而完成跳转。所以我们要解决两个关键点：口令放在哪里？放好之后怎么引导？
 先说明一点，口令分两种：不能自定义的和能自定义的。夸克、UC、百度网盘都不能自定义；迅雷可以自定义。
 先说不能自定义的夸克/UC/百度。既然口令不能自定义，就只能让用户复制整段口令，因此重点要放在作品页。之前看图18我们知道，作品本身有三个可自定义位置：视频文案、留言区、标题和描述。那口令放哪里合适？先弄清楚口令的触发原理。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_74d0a0cb41fd0c2a796a4dfd49a165bd.png>
+![](img/zhuanqian_74d0a0cb41fd0c2a796a4dfd49a165bd.png)
 原理很简单：当你复制了一段含有夸克/UC/迅雷口令的内容，再打开对应App，它就会自动识别并弹出资源。不懂的话，可以复制“动作毕火静思坪多好”或“/~3b8f355qsO~:/”去夸克里试一下，马上就会明白。
 既然只要复制“含口令的内容”就能触发，那是不是把口令直接写进标题就行？因为用户分享作品时会自动复制整个链接。看图19，分享链接由三部分构成：红框1是作者昵称，红框2是标题，蓝框3是抖音链接。所以结论是：口令可以放在标题里，甚至放在昵称里也行。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5e9000398ec53f9eac1ad9b72502730d.png>
+![](img/zhuanqian_5e9000398ec53f9eac1ad9b72502730d.png)
 再来看能自定义口令的迅雷。上面说的方法迅雷全部适用，而且它还能放到更多位置——顶部背景、昵称、个人签名、群组、合集名称、置顶内容、封面、视频文案、留言区、标题和描述，只要你想，全都能塞。下面这些图就是部分例子：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8e334b402c4538858a1ae36449bc5c02.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3ff9dbe554ddd734f009cb7b5bb25955.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d30ed1024f943eda14d9083863885067.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0b67b0b2899fd961b31791c066cc6c20.png>
+![](img/zhuanqian_8e334b402c4538858a1ae36449bc5c02.png)
+![](img/zhuanqian_3ff9dbe554ddd734f009cb7b5bb25955.png)
+![](img/zhuanqian_d30ed1024f943eda14d9083863885067.png)
+![](img/zhuanqian_0b67b0b2899fd961b31791c066cc6c20.png)
 至于放好之后怎么引导，迅雷的优势在于可以直接在这些位置做引导文案，比如用谐音字写“迅雷搜××口令”，用户一看就懂。其他不能自定义口令的网盘，就得在视频内容上做文章，这里可以发挥的创意最多。但不管怎么做，核心都是表达同一件事：复制这条作品链接，去某个网盘App里打开。
 视频内容里的引导形式，前面的对标案例已经展示过不少，比如：
 1. 把夸克口令放在视频标题，视频后半段直接引导，或叠加半透明引导视频；
 2. 在视频或图文里插入一张引导图（图19、图20）。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f7dc10d2e2389608de83e685f8800d87.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b130a8685e13443ac86e63aae79c615b.png>
+![](img/zhuanqian_f7dc10d2e2389608de83e685f8800d87.png)
+![](img/zhuanqian_b130a8685e13443ac86e63aae79c615b.png)
 3. 不放引导图，直接在描述里写清楚怎么获取，同时带上口令。但要特别注意：别把口令放在描述末尾，要放到标题里，这点前面强调过；另外#夸克 要加话题标签，而不是直接打字（图21）。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_df247c03e936b81eb8e0bc406631962a.png>
+![](img/zhuanqian_df247c03e936b81eb8e0bc406631962a.png)
 4. 用影视类账号常用的“寻××”方式，先在留言区引导用户进群，再在群组里完成转化。把小号设为管理员，用小号发布口令并置顶，或者置顶一条飞书云文档链接。文档里可以放网盘教程和可跳转链接，但绝对不能直接在群里挂网盘链接。
 不管是间接还是直接，只要做了站外引流，风险就不可能为零。上面给的都是相对安全的做法，最稳的组合是大号发布内容、小号负责引导。两种方式优缺点也很明显：直接法转化率高，间接法能把用户沉淀成自己的用户资产。
 ##### ④ 粉丝沉淀玩法
@@ -258,37 +258,37 @@ Kimi AI：https://kimi.moonshot.cn/ 。月之暗面出品的智能助手，能�
 各个平台的初始流量，也能让你的心里有个底。抖音那边正常号播放量通常有500到1000左右；小红书500个小眼睛算正常；哔站会低一些，100到200左右。知道这些基准，你才分辨得清什么是被限流，什么是正常波动。其实低流量才是常态，别一开始就奢望爆款，放平心态。真能爆一个，就等于白捡钱。
 发布数量上，新号阶段一天一条就够了。发得太猛容易被系统判成营销号，反而限流。新号更是如此。等到账号运营了一阵子之后，再适当把频率提到一天两三条。
 抖音有个很明显的偏好：喜欢垂直的账号。所谓垂直，就是指一个人长期围绕一个特定领域创作内容，比如影视、游戏、软件、美食、旅游、美妆、科技。内容越聚焦，吸引到的粉丝就越精准，系统也会顺着给你更多推流，形成滚雪球。同时，垂直账号的搜索排名也会比杂七杂八的账号更靠前，还能白捡一部分被动流量。想确认自己的号是不是被打上了垂直标签，可以在抖音搜索“巨量算数”，进去后搜你的昵称或ID，如果能显示你所属的赛道，那就说明标签已经打上了。这通常要发一段时间才会出现，前期没有也不用太在意。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_31bb196c18ebcb61f23b4f2b04a7af2e.png>
+![](img/zhuanqian_31bb196c18ebcb61f23b4f2b04a7af2e.png)
 还有个利用平台规则的小技巧：通常新号的第一条视频会获得平台额外的流量扶持，但要是那条视频跑不出量，数据也一般，你可以试着把它删掉再重发一次，大概率还会有第二波推荐。思路给大家了，可以自己亲自验证。
 再来看快手。快手整体的操作逻辑，从找对标、做内容，到引导、私域转化，几乎就是抖音的翻版。抖音怎么做，快手就怎么依样画葫芦。这里分享两个典型的参考。
 其中一个账号专门做搞笑段子视频，属于搬运混剪的路子。他的主页背景、昵称、评论区，都在把人导向置顶视频；置顶视频里又引导用户去迅雷搜口令码。有意思的是，他并不是每一条作品都加上引导，平时就正常发内容，只在昵称和评论区埋钩子，反而显得很自然。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d333e1b97fd18ed3bf0ec30b7fd59b26.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c39806de189694866d00cac598d0713c.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5e990021813bb0d185cc99ba0ffc9314.png>
+![](img/zhuanqian_d333e1b97fd18ed3bf0ec30b7fd59b26.png)
+![](img/zhuanqian_c39806de189694866d00cac598d0713c.png)
+![](img/zhuanqian_5e990021813bb0d185cc99ba0ffc9314.png)
 另一个账号则靠着另类游戏、动漫资源吃饭，内容形式简单到不可思议——就是游戏截图。主页置顶引导用户复制链接，打开夸克就直接跳转资源。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b536dfde1e73c38bd8cdcaeb8265e2ae.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_689dfdfa7d8b482fbb673b70f34d35c8.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6ce3e9ac4eb084315d199d9ef24bf3f7.png>
+![](img/zhuanqian_b536dfde1e73c38bd8cdcaeb8265e2ae.png)
+![](img/zhuanqian_689dfdfa7d8b482fbb673b70f34d35c8.png)
+![](img/zhuanqian_6ce3e9ac4eb084315d199d9ef24bf3f7.png)
 顺带说一个两个平台之间的差异。通过观察快手分享出来的链接会发现，快手会连标题和简介一起复制出来，这一点不像抖音那样只能把口令放在作品标题里，明显灵活很多。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1b7bd8acab0255562d652e7016f87e6e.png>
+![](img/zhuanqian_1b7bd8acab0255562d652e7016f87e6e.png)
 观察这两个号还能发现，他们都不是靠每条作品都带引导来硬推，而是先正常发布有吸引力的内容，靠用户自己好奇心点进主页。如果把这个思路再延伸一下，更推荐在昵称里加括号引导，或者在评论区配发表情包做暗示。这类账号你去看，粉丝量才四百出头，数据却很能打。
 个人而言，比较推荐在快手尝试发图文形式。当然你可以自己做做测试，看图文和视频哪个流量更好，以你账号的实际情况为准。就像以前说抖音对图文有扶持一样，有些号偏偏发视频数据更好，这种问题没有标准答案，实践才最能说明问题。
 快手的引导方式，在常规思路上还能增加两个方向：一个是私信自动回复加小程序挂载，需要去聚好推、任推邦这类第三方平台申请，官方页面都有详细的教程，挂载好之后通过口令码来引导就行；另一个是左下角的应用挂载，开通条件大概就是快手粉丝到2000，搞点搬运的动漫、美女、祝福、爱国类内容很容易攒够。满足条件之后，去创作者中心开通磁力聚星，再去推广平台后台按教程申请。这种方式的转化非常直观：视频里教用户点左下角下载，下载完打开App搜你的口令，就完事了。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_582d2d9901d7843528c38a7512dacaca.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d4d738c9ac4edabf5331cb0894e7cd2f.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_90a5e274b3b9cd7b586e7387b26561fc.png>
+![](img/zhuanqian_582d2d9901d7843528c38a7512dacaca.png)
+![](img/zhuanqian_d4d738c9ac4edabf5331cb0894e7cd2f.png)
+![](img/zhuanqian_90a5e274b3b9cd7b586e7387b26561fc.png)
 快手主页也还有其他可以利用的地方，比如个人主页动态，可以在评论区引导用户去主页看动态。但由于引导链路有一点绕，不是特别推荐用。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a143f0e57c0e4367af7c9a04f60d8605.png>
+![](img/zhuanqian_a143f0e57c0e4367af7c9a04f60d8605.png)
 大家都懂，快手无论从平台检测力度还是内容尺度上，都比抖音更开放、更包容，所以在引导方式和发布内容上，不必像抖音那样谨小慎微。这一点如果你刷同行应该早就有体会。多看看那些同行都在玩什么花样，心里就有数了。
 手机挂快手号的话，一部手机挂两个就可以了，挂多了不稳定。跟抖音的严苛相比，快手对设备、IP的检测宽松不少，可以不用插卡，连WiFi操作也问题不大。
 至于快手的浏览量，首发的作品有几百到几千都是正常区间，这个数据水分比较大，不必过于紧张。一天可以发两到三个，跟抖音的限流节奏不同，后期还能继续加量。
 接下来是视频号。它的玩法其实可以参考抖音，对标、制作、发布这些流程都是相同的。有一个本质区别：视频号是建立在微信的封闭生态里的，它没有外置分享链接这种东西，所以没办法像抖音、快手那样把口令放在昵称或标题简介里，诱使用户复制链接出去网盘打开。目前视频号主流的引导方式就是做公众号引流。
 因而视频号有自己很特别的引导方式：首先，个人简介里可以直接关联公众号。设置好了之后，用户看到你的主页，一点就能直接跳到公众号，公众号再设置好自动回复，就能把链接自动发给用户，路径非常短。这一点配合评论区引导，可以形成高效的商业闭环。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_dfd1d88754f746182da6e3d72cb72f8d.png>
+![](img/zhuanqian_dfd1d88754f746182da6e3d72cb72f8d.png)
 如果你想做得更细致，还能学前面抖音的思路，录一个视频置顶，封面写明“怎么领资源”，这样那些不看简介的用户进到主页也能一眼明白操作方式。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_dd696082a9b5db8a636b30f379cc1377.png>
+![](img/zhuanqian_dd696082a9b5db8a636b30f379cc1377.png)
 还有视频号新上线的评论区表情包功能，也能巧妙地放些引导信息，思路和抖音那个套路是通用的。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c96a4fed587ef0dc437826f82fa1284e.png>
+![](img/zhuanqian_c96a4fed587ef0dc437826f82fa1284e.png)
 发布视频时，底部还可以挂活动、链接或商品，也能放公众号文章，但门槛相对较高，不是主流玩法，这里就不展开了，有兴趣的可以自己搜一下。其他更细的引导方式，基本都能从抖音的思路里推演出来。
 说完不能直接放链接的平台，我们再来说说能直接放链接的。这类平台有小红书、哔哩哔哩、哔站专栏、微博、百度贴吧、知乎、豆瓣、简书、公众号等。
 小红书的检测机制其实和抖音差不多，笔记评论里也发不了链接，按理说应该归到上一类。但我们之所以把它放进来，是因为小红书的群聊功能里可以放链接，转化相当可观。加上它同时符合搜索流量的核心特征，所以放在这里更合适。
@@ -297,27 +297,27 @@ Kimi AI：https://kimi.moonshot.cn/ 。月之暗面出品的智能助手，能�
 由于搜索流量是被动获取，做这类内容有几个特点：越简单越好，不用做花里胡哨的剪辑，哪怕比推荐流量的作品粗糙也没关系，但要让用户第一眼就看到资源链接、知道怎么去拿，这是核心中的核心；另外，关键词范围要特别精准，不要泛泛而谈，通常会落到某个具体资源名称上，再加“下载”等一系列关键词，才算到位。
 小红书这个平台有一个额外优势：用户画像太好了。女性用户占据大头，用苹果手机的人多，而且很多女生习惯在线解压，不太会下载下来再操作。夸克的在线解压恰恰需要会员，这就让小红书上的资源分享会员付费率比其他平台高出一截。
 为什么小红书的搜索流量这么强势？不是玄学。小红书App里，发现页和搜索页并列两个核心板块，搜索页流量仅次于发现页，而且增速非常猛。官方数据也有佐证：小红书COO柯南在IF大会上说过，70%的月活用户会使用搜索功能，三分之一用户打开小红书第一步就是直奔搜索。哪怕不看官方数据，你身边的大多数人早就把小红书当百度用了。图文比纯文字更直观，比短视频更易读，所以搜索体验更舒服。再加上小红书的搜索流量长尾效应很强，关键词卡得够准，在很长周期里都能持续吃到精准搜索流量。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_18169873f4dcd50a9cc7f10bf9a46735.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e74dd3c3a4d0bbe80f19b85204bc6a9b.png>
+![](img/zhuanqian_18169873f4dcd50a9cc7f10bf9a46735.png)
+![](img/zhuanqian_e74dd3c3a4d0bbe80f19b85204bc6a9b.png)
 到具体操作上，流程还是反复说的模板：在搜索框里搜你所在领域的关键词，比如你搜“资源分享网盘”，就能找到一堆对标账号。看一眼就能发现，这些笔记一两张截图就完事了，最多加几句话。更聪明的做法是在文字里明确写“没有弯弯绕绕，评论区网盘直接拿走”，细节上动人一点点，数据就动人一大截。这类账号粉丝量可以很少，但一样能做出好看的数据。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c1edbc5c1b4ed8ad4fd970332b92f2e3.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_efb1841ac4bce07ea385d57324deddb9.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cc5d14ecd2dc2ce740ece5591e48987d.png>
+![](img/zhuanqian_c1edbc5c1b4ed8ad4fd970332b92f2e3.png)
+![](img/zhuanqian_efb1841ac4bce07ea385d57324deddb9.png)
+![](img/zhuanqian_cc5d14ecd2dc2ce740ece5591e48987d.png)
 除了截图，还有更粗暴的拍照流派。有人在游戏资源赛道上，直接拿另一台手机对着屏幕拍三张照片，再补一张标明资源获取方式的引导图。这个门道不算多高深，引路图的做法在抖音那段【直接引导转化】里有讲过，这里就不重复了。他的账号只有12个粉丝，普通到不能再普通，但内容的数据依旧过得去。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_809ea8a7873cfdfc0ce1e4d60c800798.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f66002a9f830b8cdef7a9432b3899b1f.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3ec215c86cc48b58e4c590f6811c2fa4.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b37014bb997eea6fc007e12cdf914430.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7ce39492e4ea3bc447b79e6ac8b453ed.png>
+![](img/zhuanqian_809ea8a7873cfdfc0ce1e4d60c800798.png)
+![](img/zhuanqian_f66002a9f830b8cdef7a9432b3899b1f.png)
+![](img/zhuanqian_3ec215c86cc48b58e4c590f6811c2fa4.png)
+![](img/zhuanqian_b37014bb997eea6fc007e12cdf914430.png)
+![](img/zhuanqian_7ce39492e4ea3bc447b79e6ac8b453ed.png)
 再看一个视频案例，仍然是游戏资源赛道。这个视频总共就25秒，前10秒是一段真实手机拍摄的游戏画面，没有任何花哨操作；后面15秒是屏幕录制，演示了一下如何分享链接、打开UC后跳出资源。配音自己说，或者后期加文字配音都行。简不简单？就这么一个作品，看起来毫不起眼，换算成实际收益却很可观。做一个这样的视频，一次投入可以分发到抖音、快手、小红书多个平台，一个平台一个爆的概率，收益自然被放大。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ab4bf320a0bb8a5bf84010ed8ccdc7bb.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0861be25f468aa1709ca469a5a2c8303.png>
+![](img/zhuanqian_ab4bf320a0bb8a5bf84010ed8ccdc7bb.png)
+![](img/zhuanqian_0861be25f468aa1709ca469a5a2c8303.png)
 他的互动数据摆在那里，看得出来流量是真的不错。即使看不到分享链接的具体次数，根据点赞量推算，保守也有上万次的分享与转存。再对照聚好推上UC移动拉新和转存的单价，加上小红书用户的会员分成，这25秒的价值你大概就能心算出来了。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_de7380f234a786662acc1c745c57da5c.png>
+![](img/zhuanqian_de7380f234a786662acc1c745c57da5c.png)
 所以别小看小红书的视频流量。虽然它是图文起家，视频也照样能打。
 如果到了不知道发什么的阶段，还有一个很简单的找热点资源的办法：直接去搜“资源分享”“虚拟资源”“网盘”“资料”这类关键词，系统会推荐很多。首页上刷到的那些热门资源推荐，多半就是当前正在走热的资源，你的可操作空间就在里面。方法要灵活，没有死板的标准答案。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c8c31475eb56f302b2d09cef7cb0c83d.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_442dce26df0e0c6ce3bd5541400b8013.png>
+![](img/zhuanqian_c8c31475eb56f302b2d09cef7cb0c83d.png)
+![](img/zhuanqian_442dce26df0e0c6ce3bd5541400b8013.png)
 不管怎么变，作为内容生产者来说，图片的产出方式大致能归成四大流派：截图流派、拍图流派、作图流派、搬图流派。选适合自己的就行。
 很多人研究小红书、B站的网盘项目，真正卡住的并不是资源，而是“第一条内容怎么做”。不会设计、不会剪辑、没有设备经验，于是一直停留在准备阶段。
 这一篇把内容生产、账号发布、用户承接，以及B站案例全部串起来讲一遍。核心原则只有一个：先用低成本方式跑通闭环，再根据数据逐步升级。
@@ -346,7 +346,7 @@ Kimi AI：https://kimi.moonshot.cn/ 。月之暗面出品的智能助手，能�
 前期可以正常浏览同领域内容，同时完善昵称、头像、简介等基础资料。不会设置时，观察几个定位接近、表达清楚的账号，参考它们的呈现方式即可。
 这些资料并不是决定成败的核心。我刚开始接触平台时，也曾在名称和头像上反复犹豫，后来发现真正重要的是先产出内容。后续想调整随时都能修改，除非你明确打造个人品牌，否则没有必要在包装环节消耗太久。
 发布图文或短视频时，还要记得加入话题标签，格式就是“#主题词”。即便正文很简短，标签也应尽量贴近内容，这会增加被搜索发现的机会。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2183730dcfff4e9985c31dfedc85d005.png>
+![](img/zhuanqian_2183730dcfff4e9985c31dfedc85d005.png)
 ## 四、评论区有人询问时，如何完成承接
 内容发布后，常见问题就是“资源在哪里拿”。目前可以考虑四类承接路径：
 - 站内消息
@@ -365,27 +365,27 @@ Kimi AI：https://kimi.moonshot.cn/ 。月之暗面出品的智能助手，能�
 **第三，使用中文形式的域名。**
 如果不想直接发送常规网址，可以采用中文域名方案。具体搭建方式放在后面的技法内容中介绍。
 这种方式最适合咨询量还没有明显增加的阶段。流量集中爆发后，人工回复会成为主要瓶颈。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2380ddfad986b454fbee1ecbdf73a08c.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d0a86d3ec70e2537958d69208a972ecd.png>
+![](img/zhuanqian_2380ddfad986b454fbee1ecbdf73a08c.png)
+![](img/zhuanqian_d0a86d3ec70e2537958d69208a972ecd.png)
 ### 2. 群组承接
 群组的优势在于一次设置，多人查看，不需要重复处理相同问题。缺点是部分用户可能看不懂步骤，因此群内说明必须足够直白。
 #### 第一步：建立群组
 创建时不必追求复杂表达。可以观察同领域账号的设置，从用户视角出发，选择一眼就能理解的名称和说明。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1982a274ec740c80623b0bc9df0b878d.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_56547f8818c99ce118982cfdb767bd2f.png>
+![](img/zhuanqian_1982a274ec740c80623b0bc9df0b878d.png)
+![](img/zhuanqian_56547f8818c99ce118982cfdb767bd2f.png)
 #### 第二步：把群入口挂到内容中
 群组创建完成后，可以通过关联笔记，或生成群口令的方式进行展示。
 一种方式会把入口直接呈现在内容页面内；另一种则适合放到评论区。具体位置和效果参考图11、图12。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9b2d5a7e45963b6567e6c40e6d681192.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ac40948fa8a6f76963668f68a81cc832.png>
+![](img/zhuanqian_9b2d5a7e45963b6567e6c40e6d681192.png)
+![](img/zhuanqian_ac40948fa8a6f76963668f68a81cc832.png)
 #### 第三步：完善群内信息
 群内需要提前写好说明，避免用户进入后不知道下一步如何操作。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1b94a23c7b22d3284350e423eef90084.png>
+![](img/zhuanqian_1b94a23c7b22d3284350e423eef90084.png)
 群名称可以带有明确提示，例如：
 - 【进👗领资源】
 - 【xx资源（群内置顶查看）】
 公告建议填写完整，内容根据实际承接路径调整。欢迎语也可以打开，让新成员进入后自动收到提示。自动提醒只对群主和对应成员可见，不会干扰其他人。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c0e4f31d2adabc729097cee26bd5cbd5.png>
+![](img/zhuanqian_c0e4f31d2adabc729097cee26bd5cbd5.png)
 群内承接通常有两种呈现位置：
 - 群顶部的固定消息
 - 群页面下方的话题入口
@@ -393,25 +393,25 @@ Kimi AI：https://kimi.moonshot.cn/ 。月之暗面出品的智能助手，能�
 如果偏向私域沉淀，可以将网盘地址换成自己的公众号入口或聚合页面。
 还可以用备用账号进入群组，由备用账号发布承接内容，再将相关信息固定，降低单一账号承担的风险。
 另一种做法是创建群话题或打卡入口。新成员能在群页面中直接看到主题，例如“点击这里领取资源”。打开话题后，可以放置网址、公众号等信息，但要控制在平台规定的字符范围内。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_91a5c986fff161f79b5e10730a07f28b.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e3bb5fa7b0b9882d77016045f103c6c7.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_653bb904d98b5f01346f8870c52d57cc.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c54df855737b8ba87e556c3407da60a0.png>
+![](img/zhuanqian_91a5c986fff161f79b5e10730a07f28b.png)
+![](img/zhuanqian_e3bb5fa7b0b9882d77016045f103c6c7.png)
+![](img/zhuanqian_653bb904d98b5f01346f8870c52d57cc.png)
+![](img/zhuanqian_c54df855737b8ba87e556c3407da60a0.png)
 ### 3. 利用分享机制承接
 小红书分享内容时，不会完整携带正文，只会保留账号名称等固定字段。因此，可以将账号名称设置为对应的网盘口令。
 当用户复制内容并进入网盘端，系统便有机会根据这个名称识别出相应文件。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f6d030034a1da41e8cb4d739a0acad3b.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_470b2790f29825dd13e88e013965a0c9.png>
+![](img/zhuanqian_f6d030034a1da41e8cb4d739a0acad3b.png)
+![](img/zhuanqian_470b2790f29825dd13e88e013965a0c9.png)
 这种形式不需要人工逐一沟通，也不用维护群组，自动化程度较高。但账号名称存在修改周期限制，通常一段时间内只能绑定一个方向。
 如果想覆盖更多内容，可以建立一个总目录，再在内部划分分类目录。只是分类过多会增加用户寻找成本，资源数量与使用便利性之间需要自行平衡。
 ### 4. 公众号承接
 公众号适合希望沉淀长期用户的人。它可以配置关键词回复或自动应答，减少人工沟通，同时把平台流量导入自己的私域。
 常见做法是发布“关注后领取”的提示图片，再由备用账号进行评论或发布，大号负责固定展示。这样既能减少主账号的直接操作，也能让用户知道：消息咨询虽然有人处理，但通过公众号领取更快。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6089feef53c6f4d24fd93de60625af9a.png>
+![](img/zhuanqian_6089feef53c6f4d24fd93de60625af9a.png)
 某个案例中，一篇内容在发布当天便带来三百多元收益，后续仍持续产生阅读和新增用户。除了平台推荐，搜索入口也贡献了不少访问。
 复盘它的内容结构，其实非常简洁：一张普通首图、一张相关场景图，再配少量文字。首图甚至直接取自其他地方，连手机顶部信息都没有特别处理；文字也没有长篇解释，最后以一句简短收尾。
 这说明内容不必过度包装。选题踩中需求、承接路径清晰，即使制作极简，也可能获得不错结果。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fd5fb3c9ba127c8bda40d0cf5996d255.png>
+![](img/zhuanqian_fd5fb3c9ba127c8bda40d0cf5996d255.png)
 ## 五、私域承接应该如何选择
 承接方式要看两个变量：资源本身的吸引力，以及当前内容获得的曝光量。
 如果资源正处在热门阶段，用户愿意多完成一次关注或跳转，那么公众号自动回复会更省力。尤其当内容已经出现明显增长时，自动承接能避免人工处理跟不上。
@@ -428,7 +428,7 @@ Kimi AI：https://kimi.moonshot.cn/ 。月之暗面出品的智能助手，能�
 ### 3. 别把涨粉当成唯一目标
 这个项目的最终目标是完成资源承接和收益转化，而不是单纯把账号做成大号。粉丝增长当然是加分项，但不是唯一结果。
 更值得投入时间的，是能直接带来转化、改善承接、沉淀私域的动作。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ec7deb148d69154c42c45994e2797d13.png>
+![](img/zhuanqian_ec7deb148d69154c42c45994e2797d13.png)
 ## 七、B站：优先做视频内容
 B站虽然同时提供视频和专栏，但平台主要流量仍集中在视频。视频既有机会获得推荐，也能承接搜索；专栏的自然曝光通常较少，更适合放到搜索流量部分研究。
 从用户构成来看，B站男性用户占比较高，90后、00后群体约占八成。因此，选题可以优先围绕动漫、游戏、软件、数码和科技等方向展开。
@@ -441,28 +441,28 @@ B站虽然同时提供视频和专栏，但平台主要流量仍集中在视频�
 - 转存奖励：每次0.3元
 - 会员分成：30%
 承接路径是先把用户引到公众号，再由公众号提供后续地址。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ba52fa73605110d9a2f53548b159d5f1.png>
+![](img/zhuanqian_ba52fa73605110d9a2f53548b159d5f1.png)
 ### 案例二：互动型游戏内容
 另一个样本只有14秒。两个视频累计获得一千余次播放，却带来173次转存，两天收益达到264.36元。
 它的制作结构非常轻量：一个首图、三张内容图，再加入简单的翻页效果，使用PPT即可完成。
 收益来源同样包括网盘拉新、转存和会员分成。承接方式则是评论提示关注，再通过后台回复发送内容。B站账号达到1000粉后，可以申请开启这类自动回复功能。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a370bd8ea6882f5bb3ad0eff90ca022f.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_56bbec410f835c56909ea1159f49625c.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a12ee3dd89ff822de9c5b85477ddfe9a.png>
+![](img/zhuanqian_a370bd8ea6882f5bb3ad0eff90ca022f.png)
+![](img/zhuanqian_56bbec410f835c56909ea1159f49625c.png)
+![](img/zhuanqian_a12ee3dd89ff822de9c5b85477ddfe9a.png)
 ### 案例三：动漫类资源
 这是一条19秒的手机录制内容，没有配音、字幕和背景音乐，录完后直接上传。
 用户关注的是能否拿到所需资源，并不一定在意画面是否精致。原始、直接的展示，有时反而更符合资源型内容的使用场景。
 它的收益来自合集资源对应的网盘拉新，承接入口放在视频简介中。至于链接页面如何制作，后续技法章节会具体说明。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_173ea73bba5dc32005335c062e7731e8.png>
+![](img/zhuanqian_173ea73bba5dc32005335c062e7731e8.png)
 最后看数据：账号只有26名粉丝，等级为2级，视频却获得了1800多次播放。这个样本说明，新号并非没有机会。内容发布出去，才有可能获得结果；一直停留在准备阶段，就不会产生任何数据。
 不知道你有没有遇到过这么一种情况：视频简介里明明已经放了链接，结果评论区还是有一堆人在喊“求资源”“求分享”。这种用户其实数量相当多，既然流量都已经送到眼前了，自然不能眼睁睁看着它跑掉。最省事的办法就是在评论区主动带个节奏，比如发一句“资源链接就在视频下方简介区，需要的小伙伴自取”，然后把这条评论置顶。就这么一个小动作，能省掉你大量重复回复的时间。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a2e2315a7f8cc311c3717e8f3152058b.png>
+![](img/zhuanqian_a2e2315a7f8cc311c3717e8f3152058b.png)
 ###### 举个例子：资源合集类视频
 有个视频，播放量做到了2万，制作成本低到什么程度呢？就是一段21秒的电脑录屏，连封面都没专门做。但人家的盈利路径和引流逻辑却非常清晰：
 *   怎么赚钱：夸克网盘拉新，移动端注册一个给7块，电脑端给2块，转存一次给0.3块，会员分成还能拿30%。
 *   怎么引流：网盘链接直接放在视频简介里，配合置顶评论提醒观看者自取。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f3e1e1914c13178f874729eb0b227fa0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ce001cde748297aa6edefc5382109399.png>
+![](img/zhuanqian_f3e1e1914c13178f874729eb0b227fa0.png)
+![](img/zhuanqian_ce001cde748297aa6edefc5382109399.png)
 ##### ② 制作环节
 看上面的案例你会发现，游戏资源这类内容，最常见的形态就是录屏、截屏，做法相当简单。如果你之前接触过加速器项目，那对这个流程应该再熟悉不过了；没接触过的也没关系，前面那份实操章节里有视频讲解，看完你大概率会感叹一句：原来做视频竟然能这么省事。所以制作这一块我就不展开啰嗦了。
 这其实也正好印证了之前项目教程里反复提过的一句话：哪怕你暂时不做某个项目，也建议把教程翻一翻，说不定哪个环节里的方法，换个场景就能直接复用，很多套路本身就是通用的。
@@ -476,19 +476,19 @@ B站虽然同时提供视频和专栏，但平台主要流量仍集中在视频�
 1.  把链接放进视频简介里。简介里放链接的好处是用户可以直接点击跳转。同样有被吞的风险，记得检查。然后在评论区置顶一条“下载链接在视频简介”，把用户往简介引。
 1.  把链接发到自己的动态里，再把动态链接复制到评论区；或者在评论区置顶引导说“动态自取”。另外建议，发动态时别直接放网盘链接，最好是放一个云文档链接或者聚合页面网站链接，稳妥得多。
 你在评论区发的任何引导内容，都记得要置顶。具体操作看图28，手机端操作方式也一样。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f30985a953e09a0e51f7ed5cab3bab59.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a0f3fba4a170b1f7cc1b9ed78b60502f.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7d016ff2d6f13dd3b12cdd257247dad7.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4f6171af9656f5b9e733302f2d683238.png>
+![](img/zhuanqian_f30985a953e09a0e51f7ed5cab3bab59.png)
+![](img/zhuanqian_a0f3fba4a170b1f7cc1b9ed78b60502f.png)
+![](img/zhuanqian_7d016ff2d6f13dd3b12cdd257247dad7.png)
+![](img/zhuanqian_4f6171af9656f5b9e733302f2d683238.png)
 *   前期粉丝没到1000，没办法开自动回复，只能手动私信回复，辛苦是辛苦了点，但每个账号都是这么熬过来的，再累还能比上班累吗。这里有个细节要注意：私信回复别一次性发太多人，节奏放缓一点，循序渐进。如果一分钟内连着发十几二十条，很容易直接被限制发送。
 *   私信内容不要只是一条光秃秃的链接，最好加几句说明文字，不然系统很容易吞消息。你可能觉得自己明明发出去了，但用户那边根本收不到。
 *   资源内容选得好，涨粉速度是很可观的。前期核心目标就是涨关注，你也可以先去做其他涨粉快的赛道，把号正常养起来，等粉丝满了1000人，再切回你想做的资源赛道。不建议靠刷的方式凑粉丝，有成本不说，万一被封号就得不偿失了。
 虽然粉丝不足1000不能开自动回复，但公众号那边自带自动回复功能。可以学对标案例1视频结尾引导关注公众号的方法，或者在个人简介、评论区、视频简介里放公众号。这样做确实多了一步链路，有些用户懒得去关注，会流失一部分人，但总比前期流量一爆、你一个人回复不过来导致用户流失要好。
 粉丝凑够1000之后，就可以在后台设置自动回复了。PC端的设置方法如下。可以设置被关注时回复、关键词触发回复、收到消息回复，最常用的就是前两种。自动回复内容同样别只发一条光秃秃的链接，配点文字说明，或者用内链的形式更保险。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8f606b6218d75e067ad195e5adda7214.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_47f71ebf3bcf10b0096367522f8bd323.png>
+![](img/zhuanqian_8f606b6218d75e067ad195e5adda7214.png)
+![](img/zhuanqian_47f71ebf3bcf10b0096367522f8bd323.png)
 还有更多引导方式，大家可以直接看这篇教程的【项目进阶】里B站章节，里面讲得很细，相信对你做B站会有不少启发。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c61204cb5c0a071f9df78b162daaf418.png>
+![](img/zhuanqian_c61204cb5c0a071f9df78b162daaf418.png)
 ##### ⑤ 私域运营
 这一块的玩法和抖音/小红书的私域运营逻辑是一样的，这里就不再重复。
 ##### ⑥ 其他提醒
@@ -498,21 +498,21 @@ B站的搜索流量不比小红书差，而且它还有一个小红书包比不�
 #### B站专栏
 ####
 B站的内容形态主要分两种：视频和专栏。上面讲的是视频，这里单独说说【B站专栏】——也就是纯图文板块。PC端的发布入口在下面。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_826662348a8b50336bd6929bcca047cd.png>
+![](img/zhuanqian_826662348a8b50336bd6929bcca047cd.png)
 B站专栏的流量，绝大部分来自搜索，而且百度权重相当高，所以它最适合用来做搜索流量池的布局。
 操作上很简单，先在B站专栏里搜索你的对标内容。下面放几个比较典型的案例供参考：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cb0466a0affe1bda44cfb76e50f60279.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_dac68e034028f6336dabd296d46fe522.png>
+![](img/zhuanqian_cb0466a0affe1bda44cfb76e50f60279.png)
+![](img/zhuanqian_dac68e034028f6336dabd296d46fe522.png)
 开头那段概述文字，完全可以用前面提到的AI工具来生成。还拿豆包举例子，你只需要输入资源名称，它就能自动帮你把标题和概述写好。大部分情况下，AI生成的标题和概述可以直接复制使用，但如果你想把搜索关键词卡得更准，还是得去翻翻同行，手动多加点关键词。
 举个例子，标题可以是这种风格：“某某电影资源1080p超清中文字幕免费在线观看未删减完整版夸克网盘高清迅雷网盘百度云链接下载”——听起来挺长，但没关系，精准卡关键词才是重点，不用贪多，按需挑着写就行。
 下面是一个简单的演示：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7e14a3d2930086621630205fd4d1cc24.png>
+![](img/zhuanqian_7e14a3d2930086621630205fd4d1cc24.png)
 像贴吧、豆瓣、B站专栏这类平台，用AI生成概述来合理注水是个很讨巧的做法。概述字数建议在800字左右。不过现在各家AI在精确字数控制上都还差点意思，包括ChatGPT，也做不到精准生成。如果字数不够，直接输入“字数不够，请续写”或者“继续”就行，一般都能顺利续出来。
 如果你做的是影视/游戏之外的赛道，思路可以灵活一些。直接使用【帮我写作】专栏下的文章工具也可以，具体界面看图4。为了效率，建议把“分步骤”选项取消勾选。这个工具适用面更广，几乎所有领域都能用，生成的篇幅也更长，按需挑选即可。另外还有其他场景化工具，目前全部免费无限制，值得推荐。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2f707cad4fcbd5a1fcd873a991282bb4.png>
+![](img/zhuanqian_2f707cad4fcbd5a1fcd873a991282bb4.png)
 此外，Kimi等国内免费AI工具也很好用，这里就不逐一展开了，有兴趣可以自己去搜来试试，操作都比较简单。ChatGPT确实很厉害，但对国内用户有限制，所以国外工具就不给大家推荐了。也不建议大家去买国内第三方个人搭建的所谓“套壳ChatGPT”——比如那种到处在公众号打广告、号称199元永久无限次使用GPT4的套餐，典型的智商税，能劝一个是一个。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_371bcc9ae8a5b20098634e0c5c475b77.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2ba76d63b4036768667ed05c1ef00d70.png>
+![](img/zhuanqian_371bcc9ae8a5b20098634e0c5c475b77.png)
+![](img/zhuanqian_2ba76d63b4036768667ed05c1ef00d70.png)
 图5和图6属于更硬核的操作，直接在文章里放文件名+网盘链接。
 不过B站的规则也在逐渐收紧，如果专栏文章里直接放链接，有被和谐的风险。万一你的文章被判违规，那就别在正文里放链接了。可以改成文章内引导，把链接放评论区置顶，就像上面图2那样。
 流程就是这么简单。账号多的话可以批量产出，量大出奇迹。
@@ -522,20 +522,20 @@ B站专栏的流量，绝大部分来自搜索，而且百度权重相当高，�
 贴吧用户量虽然比不上主流大平台，但优势是足够垂直细分，而且用户群体偏年轻，最关键的一点是——可以直接放链接。
 贴吧本身没什么高阶操作，无非就是签到、水帖、升级、顶帖这些基本功。在APP底部“我的”页面里，可以顺手做做等级任务和成长任务。但要注意别太嚣张，发太明显的广告还是会被封号。
 除了平时围绕目标领域的资源去布局，贴吧也能蹭热搜搞事情。在贴吧首页上方的【热门】板块，能看到贴吧热榜，上面都是当前讨论度极高的帖子，比如黑神话悟空、双城之战之类。挑一些和资源相关的热点点进去看（图2）。在相关吧里往下翻，很容易找到求资源的用户。以双城之战为例，你会发现双城之战吧是最契合、讨论度最高的吧，进去看一眼，大概率有人在找相关资源。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2e07bfba4fb96e62fa037d1d024b6de5.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b905a8ee673be0c79edb84fb78944ae0.png>
+![](img/zhuanqian_2e07bfba4fb96e62fa037d1d024b6de5.png)
+![](img/zhuanqian_b905a8ee673be0c79edb84fb78944ae0.png)
 案例一
 往下翻几个帖子，就能看到有人在发《双城之战》的无删减超清资源。发帖格式非常简单，就是标题+正文，总字数加起来不超过50个字（图3）。这里标题的写法有讲究，要有搜索意识——想一想，用户会搜索什么关键词？案例里的标题就是简单直白、一看就懂的那种。
 这种帖子的做法是正文不放链接，把链接放在评论区（图4）。但这里有个风险：网盘链接有概率被系统吞掉。所以每次用这种方式发链接，最好用小号确认一下链接是否正常显示。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fc1150cd7e29c6489281f0c3272ac482.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1cbfdae5d93740591261ab8436fe55a9.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ad5d7c0f62b4aa2b0fb19167f337e22d.png>
+![](img/zhuanqian_fc1150cd7e29c6489281f0c3272ac482.png)
+![](img/zhuanqian_1cbfdae5d93740591261ab8436fe55a9.png)
+![](img/zhuanqian_ad5d7c0f62b4aa2b0fb19167f337e22d.png)
 案例二
 继续往下翻，又能看到不少发《双城之战》无删减资源的帖子。图6这个，也是在双城之战吧里发的帖子，标题+正文都平平无奇，但关键词卡位没什么毛病。和上面案例不同的是，这个帖子把链接直接放进了正文里。
 值得注意的是，这个链接不是网盘链接，而是中转文档链接。夸克/迅雷/UC的网盘链接直接放正文有被和谐的风险，所以换成中转文档更安全。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_38741668d871172bce96bf0b8e94d001.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_15932ca923027b4406f7be24627b8982.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_98e18d5ca3a3bbe3a7bfb8c54df78c0b.png>
+![](img/zhuanqian_38741668d871172bce96bf0b8e94d001.png)
+![](img/zhuanqian_15932ca923027b4406f7be24627b8982.png)
+![](img/zhuanqian_98e18d5ca3a3bbe3a7bfb8c54df78c0b.png)
 贴吧的用户偏年轻，发的资源真对他们有用的话，他们还是很懂感恩的。看图7，这位贴吧用户就用一种特别的方式感谢了楼主。
 硬要说贴吧有什么技巧，核心可能就是把顶贴机制玩明白。这个大家多少都知道——通过自己或小号在帖子里发消息，把帖子顶到前排，保持曝光度。
 案例一的图5里，楼主没自己顶帖，也没用小号顶；案例二的图8里，楼主明显拿小号（同一IP）顶了很久，发完之后的几天基本天天都在顶，效果也挺好——70个点赞，帖子发了十几天，点进金山文档还能看到右上角陆续有人进来，大概十来人徘徊。
@@ -546,16 +546,16 @@ B站专栏的流量，绝大部分来自搜索，而且百度权重相当高，�
 热搜——热门搜索，天然就是做搜索流量的地方。核心玩法就是盯着微博热搜发帖，需要你经常刷热搜，看看哪些话题能跟资源扯上关系。这类热点有个特点：时效性极强、持续时间很短，越早发现、越早布局，收益越好。
 举个例子，之前某次“PPT事件”上热搜，图里数据突然暴涨的那两天（919和920）就是热搜带来的流量。正好这个热搜和资源类内容直接挂钩，短时间内涌进来大量流量，两天时间赚了四千多块。
 微博的尺度说放开也放开，跟快手有得一拼，平台包容度相当高。机审不算严格，但风险在于——被人举报的话，封号也封得很快。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a3946274a42452aec4a23645132c2405.png>
+![](img/zhuanqian_a3946274a42452aec4a23645132c2405.png)
 微博具体怎么发？去哪里发？
 除了热搜榜，微博的发现页里还有“微博趋势”、“热门微博”这些入口（图1），都能操作。其中热门微博下面主要是做截流。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_61306d34acf51fee6bc5076b407d0da1.png>
+![](img/zhuanqian_61306d34acf51fee6bc5076b407d0da1.png)
 先说微博热搜。点击页面上方的“更多热搜”，能看到完整热搜榜。一般前十的热度就比较大了，前三则属于现象级话题。我们需要重点关注的是那些出瓜类内容，比如明星绯闻视频/PPT、出柜视频/PPT，还有高校、社会事件类的瓜等，类似这种全民围观的现象级话题。
 但大多数时候的热搜，其实和资源类内容没有直接关联，硬蹭效果不好，对账号也不利。所以，要重点抓那些热度大、且能和资源挂钩的话题，让账号收益最大化。
 平时可以做养号操作。热搜打法更像“养兵千日，用兵一时”——为什么要养号？因为微博有个「实时号」机制，只有把账号养成实时号，才能保证你的内容出现在“综合”和“实时”这两个板块里。
 看图2，这是从热搜页面点进去后的展示；图3是通过主动搜索看到的展示。两者首当其冲都是“综合”页面，旁边是“实时”页面。能显示在这些位置的，都是实时号（叫综合号也行，名称不重要，知道怎么回事就行）。下面图示里上热门的，都是转评赞数据比较好的实时号。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_710dd89f501a8ebde947cb790bedaa9c.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ea599f727a5360cdd6674bd72309ee80.png>
+![](img/zhuanqian_710dd89f501a8ebde947cb790bedaa9c.png)
+![](img/zhuanqian_ea599f727a5360cdd6674bd72309ee80.png)
 那实时号怎么养？这比抖音快手那些平台的养号稍微麻烦一点，但总结起来其实也就几条：
 1.  保持绝对原创。不要复制微博上已有的内容，发自己的原创——哪怕内容很普通，像发朋友圈或者吐槽日常一样就行。发的时候尽量带图，能凑满九宫格最好。注意，别随便转发别人的微博，保持自己账号的高原创占比。
 1.  带双#话题。话题是自选的，一定要选跟你博文内容相关的，比如你发“今天吃了什么”，就带美食类、摄影类话题。热搜话题要少蹭，偶尔蹭一下就行，一周两三次，注意间隔。
@@ -565,24 +565,24 @@ B站专栏的流量，绝大部分来自搜索，而且百度权重相当高，�
 基本就这几条，没什么高深技巧。养号期间千万不要发任何带链接、二维码等营销性质的内容，文字里也别带。头像、简介这些个人资料该填的填满，完善度尽量拉满。快的话一两周就能养成，慢的话一两个月也有可能，完全看你用心程度。自己养出来的号，最大的优点是抗封耐造。
 如果你本来就每天在玩微博，你的号大概率已经是实时号了。怎么测试呢？发一条简短的原创内容，比如“你的网名+QQ数字+一句随笔话”，比如“南寻109xxxxx，南风不息，初心自寻”这种文字+数字组合，独特性高，更容易搜到。
 发完之后，拿另一个号或朋友的号去搜索。如果显示了“综合”和“实时”栏目（图4），就说明是实时号。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_afdca4d694fa423c09ffd167f468839a.png>
+![](img/zhuanqian_afdca4d694fa423c09ffd167f468839a.png)
 实时号拿到手之后，等热搜上出现资源相关的大热点，就可以出山了。需要注意一点：微博虽然可以直接挂链接（图5），而且能直接跳转。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_771f840b74299a666d0aa37be30918d1.png>
+![](img/zhuanqian_771f840b74299a666d0aa37be30918d1.png)
 但是，在蹭热搜发资源的时候，最好不要把链接直接放在微博正文里。更稳妥的做法是像图6一样，在正文里写上“🔗见平”，然后把链接放到评论区。（微博也支持评论置顶，但需要会员，普通用户一般评论量不大，不置顶也没问题；有需要的话可以开个会员。）
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e2c5bc86033c5782fcf783c6af304556.png>
+![](img/zhuanqian_e2c5bc86033c5782fcf783c6af304556.png)
 再聊微博热搜怎么用。为了方便对照，我把本段开头配图放到了下面。微博的趋势入口在发现页里，点进去后就是图7的页面。继续往下滑，还能看到平台按明星、剧集、综艺、电影、游戏等维度做的细分榜单。很多影视和游戏的风向，都能从这些榜里嗅到。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_133869bea21f65cddba330f5b8499f11.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e32a6d3b6fb9f6f39710a3b324f22916.png>
+![](img/zhuanqian_133869bea21f65cddba330f5b8499f11.png)
+![](img/zhuanqian_e32a6d3b6fb9f6f39710a3b324f22916.png)
 随后说说热门微博。简单讲就是平台给你推的高曝光博文。热门微博的价值可以分成两段，前期养号，后期截流。这类博文本身流量就大，转发评论点赞都很可观，所以评论区是可操作空间。
 养号时，可以在热门微博下丢出观点鲜明甚至带点锋利的留言。若留言能拿到不少赞或引发互动，再持续跟进回复，对账号权重积累帮助明显。
 截流则要挑吃瓜、求资源相关的博文，表达必须含蓄。话说得太直，容易被博主拉黑或被举报，对号伤害很大。比如某条博文对应的资源你正好有，也看到有人在底下求，你可以回“刚看完”“也就几十分钟”“总共几十页”之类暗示，基本会有人主动来私信。
 也可以双号配合演一下，一个号按上面暗示，另一个号装求资源，再问怎么拿。但说实话，截流最好少用，任何平台风险都不低。
 微博超话也值得做，逻辑和百度贴吧很像。
 怎么进？直接在发现页顶部的搜索框输入“超话社区”，进超话小秘书主页即可；进去后界面像贴吧，底部会提示把超话加到导航，自己设置一下。之后在我的页面下方会出现超话社区入口，点进去可挑选更多领域的超话。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4f1b8d267f06e7e521a1eb03b9ebf95e.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7bdae2711cd009ecb6b95d1ddccdda03.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1b3e4c200a44ba3c46951511b72b67f5.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_913e70279eb8551e7232e7196f23fb07.png>
+![](img/zhuanqian_4f1b8d267f06e7e521a1eb03b9ebf95e.png)
+![](img/zhuanqian_7bdae2711cd009ecb6b95d1ddccdda03.png)
+![](img/zhuanqian_1b3e4c200a44ba3c46951511b72b67f5.png)
+![](img/zhuanqian_913e70279eb8551e7232e7196f23fb07.png)
 进到想关注的超话后，像贴吧一样，每天签到、做任务这些养号动作别停。一上来就甩链接发广告，哪个平台都不待见。
 另外，如果在微博上刷到能关联视频、PPT或文件类型的爆料事件，可以考虑转战抖音等平台。抖音的公域流量很足，赶上热点时爆发很快。
 除了自己发作品，抖音的大热话题下也能做截流，见效快。就是去正在推流的作品评论区留暗示，让人觉得你有料。但切记不要私信直接丢链接，上限低风险高，最好引到主页，主页的包装方式前面讲过，来的流量更精准。
@@ -591,17 +591,17 @@ B站专栏的流量，绝大部分来自搜索，而且百度权重相当高，�
 知乎在百度、搜狗的搜索权重很高，很适合做关键词布局。若在别处或数据工具里看到搜索指数高的词，也能搬到知乎来做。​
 知乎能观察热点并布局的入口有：
 1.  进入创作者中心——创作灵感——近期热点
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1a5649732fc42df4e8a20db8dc5da83c.png>
+![](img/zhuanqian_1a5649732fc42df4e8a20db8dc5da83c.png)
 该模块的热点分小时榜、日榜、周榜。有时候不必写长文，简短作答后把完整资料打包分享即可。比如天涯论坛这类可打包网盘的话题就多次上榜。
 1.  进入创作者中心——创作灵感——问题搜索
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c63d67cb25a9f45c806913fbf891529f.png>
+![](img/zhuanqian_c63d67cb25a9f45c806913fbf891529f.png)
 这里能看到知乎的热门问题，也能看到全网热点，还可以搜“资源”“下载”等词。参考抖音和小红书的做法，按自身领域关键词去搜，只要跟资源沾边基本都能挂链接。思路打开一点，下面这个看似和资源无关的话题，放个天涯神贴资源也完全自然。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f0ef4e1b9bdf4fc973a2903e47e6af36.png>
+![](img/zhuanqian_f0ef4e1b9bdf4fc973a2903e47e6af36.png)
 1.  刷两三天后，你的主页推荐会开始推送资源相关的帖子。比如首页推荐的“Kindle电子书资源哪里找？”，该回答直接把链接放在显眼位置。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8581dde42816e9616b6d618e75b784fe.png>
+![](img/zhuanqian_8581dde42816e9616b6d618e75b784fe.png)
 1.  知乎官方吐司页面可用关键词查热门问题，还能选多个领域，按自己领域搜，并可筛选时间段乃至性别；点查看详情能清晰看到问题流量曲线和潜力。地址：https://tools.zhihu.com/questionselection/recommend
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6960ecb9717916268ae1d47a622048ae.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_16d692f3142c1517f812e318925f071e.png>
+![](img/zhuanqian_6960ecb9717916268ae1d47a622048ae.png)
+![](img/zhuanqian_16d692f3142c1517f812e318925f071e.png)
 1.  回答正文中放链接容易被判定敏感，可转到评论区放。该做法在多平台通用。
 1.  还可以去他人热门回答的评论区放自己的网盘链接，这本质上就是截流。
 想让回答排得靠前，除了内容质量，账号权重也很关键。举个例子，新号和有权重号在回答时间相近、数据相近的情况下，有权重号排名会更前。
@@ -609,30 +609,30 @@ B站专栏的流量，绝大部分来自搜索，而且百度权重相当高，�
 #### 豆瓣
 豆瓣在百度的搜索权重尚可，命中关键词或长尾词后容易被收录，形成长期被动搜索。但我更建议在帖子里做主动打法。
 先了解平台属性，从首页分类能看出，这是一个以读书、电影、音乐为主的社区。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_531ed3c13aadc7887a7c7460855b6c0a.png>
+![](img/zhuanqian_531ed3c13aadc7887a7c7460855b6c0a.png)
 可考虑分享豆瓣用户可能感兴趣的内容，比如书籍、音乐、电影、学习资料等。大方向以提升个人的资源为主。
 豆瓣可以从哪里入手？
 1.  豆瓣小组
 电脑端界面如图，右上角可直接输入关键词搜索，找到感兴趣的小组加入。大部分小组可直接加入，少数需看组规答题，问题都很简单。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_aca0871c75580c604e2ea58457d813d2.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_396716f03a0e3d0893f2fcfa04f99e4e.png>
+![](img/zhuanqian_aca0871c75580c604e2ea58457d813d2.png)
+![](img/zhuanqian_396716f03a0e3d0893f2fcfa04f99e4e.png)
 可多加几个小组，不要只挑人多的。要结合活跃度以及和你主营资源匹配度，匹配度越高保存概率越大。
 加入后怎么发帖？点发言，填标题和正文。正文有个细节，加网盘链接时可点指定图标添加，这样用户点击可直接跳转。
 手机端发帖点右下角悬浮的黑圈白笔按钮即可。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d1f8bdcabdea89bbf3e30ad0986a8b15.png>
+![](img/zhuanqian_d1f8bdcabdea89bbf3e30ad0986a8b15.png)
 虽然能发链接，但要克制。若资源很硬且与小组主题高度契合，可直接发资源名加链接。
 若觉得分量不足或契合度一般，最好配几句话。大致思路是说明资源来历，比如哪里买的、花了多少精力找到，突出价值，再说自己也在学习使用所以分享。很多人懒得点链接，描述细一点，触到用户痛点，点击率会更高。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_dbd200f228508e3f164f3294f5bc33fc.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bce45e17f0c2c0ef76b6c1da268ed41c.png>
+![](img/zhuanqian_dbd200f228508e3f164f3294f5bc33fc.png)
+![](img/zhuanqian_bce45e17f0c2c0ef76b6c1da268ed41c.png)
 网盘链接内最好别带引流广告，部分小组较严，会有组务检查。
 小组机制类似贴吧，可自顶，也可用小号顶，目的让帖子排名刷新。凡是和资源相关的内容，都可包装成合集放链接。
 1.  话题广场
 豆瓣PC起家，网页端展示更全。话题广场可选择并搜索任意话题。凡是能跟资源相关的话题都可参与，但资源要优质，不要乱发无关内容。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_be36b6083a11bc8d3d9b09361812816c.png>
+![](img/zhuanqian_be36b6083a11bc8d3d9b09361812816c.png)
 #### 简书
 简书更多是作为案例看。因为普通号发链接受限，只有付费认证的营销号能带链接。所以这个案例主要是展示模式和玩法，就算简书做不了，思路可迁移。下面是我在简书找到的对标账号截图：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_16bb1e5335a3cab3ccf698889086b96f.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a9d291cad3f296b545c4192ae55513c2.png>
+![](img/zhuanqian_16bb1e5335a3cab3ccf698889086b96f.png)
+![](img/zhuanqian_a9d291cad3f296b545c4192ae55513c2.png)
 要点拆解：
 1.  标题关键词
 可以看到标题堆了大量词，“完整版”“高清”“在线观看”“全集”“未删减版”“夸克迅雷百度云网盘”“资源”“怎么看”“分享”……阅读量证明效果不错。再看内容。
@@ -643,24 +643,24 @@ B站专栏的流量，绝大部分来自搜索，而且百度权重相当高，�
 更重要的是执行力。每天都在发。图里是近期数据，账号是5月中旬开始做，前半个月几乎没有拉新，只有几次转存，每天就一两块钱但坚持了下来。
 做的是精准搜索流量，搜到的人直接保存，属于躺赚。这也说明了在各平台布局搜索流量的意义。
 问自己，半个月每天一两块钱能坚持吗？加速器项目前期每天几块钱你坚持了吗？所以别人能赚钱你为什么不行？
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5eca4780a6fb2d811145224c2fbf7b49.png>
+![](img/zhuanqian_5eca4780a6fb2d811145224c2fbf7b49.png)
 #### 公众号
 首先要有个公众号，注册很简单，几分钟即可。还没有的，可参考本教程第六板块【技法篇】第一章关于注册和自动回复设置的说明。
 公众号搜索效果有限，因为系统相对封闭，用户在百度、必应、谷歌搜资源时通常看不到公众号文章。但微信生态庞大，月活破10亿，且不少用户会直接在微信内搜索，不用切应用，公众号文章会排在前面。所以有余力的话可在公众号发文章布局关键词。
 做法就是发文章。步骤不必重复，参考B站和简书的玩法：找对标，标题卡关键词，AI生成内容后发布。用户在百度怎么搜，在微信也会怎么搜。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_99bc96d09c781b9c6a5117d300ee3fa7.png>
+![](img/zhuanqian_99bc96d09c781b9c6a5117d300ee3fa7.png)
 说完文章，再说“小绿书”。
 “小绿书”是微信仿小红书做的图文栏目，下图是微信小绿书手机和电脑的进入发布方式：​
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d8b3c24dddbd46dafd7c31a8e2e78c99.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ffcdbe4c5ff973cf2e00647e3843e120.png>
+![](img/zhuanqian_d8b3c24dddbd46dafd7c31a8e2e78c99.png)
+![](img/zhuanqian_ffcdbe4c5ff973cf2e00647e3843e120.png)
 公众号文章是文字为主图片为辅；
 “小绿书”是图片为主文字为辅。（下图所示）
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f7df61903ec1a5dfcaa63b9ca6a7cba3.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_451c41d247c982adcd3285e736ee2895.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d82cdb24fe7efb8b3b4755c647fab37c.png>
+![](img/zhuanqian_f7df61903ec1a5dfcaa63b9ca6a7cba3.png)
+![](img/zhuanqian_451c41d247c982adcd3285e736ee2895.png)
+![](img/zhuanqian_d82cdb24fe7efb8b3b4755c647fab37c.png)
 无论公众号还是小绿书，表现形式不同，但都能直接放链接。最大的好处是引流顺滑，属于生态内引流，不需要复杂引导，直接放链接，用户可在左下角直接关注。
 另外可关注微信指数小程序，订阅资源类关键词，若搜索量波动大，再发相关文章。公众号在微信内部可无感分享，容易产生裂变。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4d6edfb2eb35637dbc7576965796a6e6.png>
+![](img/zhuanqian_4d6edfb2eb35637dbc7576965796a6e6.png)
 #### 其他平台
 上面提到的是可直接放链接且流量大的公域平台。还有搜狐、头条、百家号、CSDN、掘金、虎扑、3DM论坛等知名平台。
 但要搞清各平台侧重点，每个平台用户群体和内容特色不同。比如CSDN、掘金偏技术，虎扑偏体育，3DM是游戏论坛。
@@ -668,9 +668,9 @@ B站专栏的流量，绝大部分来自搜索，而且百度权重相当高，�
 3DM是老牌游戏分享论坛，游戏流量大。可在此下载资源再分享到其他平台，当然也可成为该平台的分享者。
 其他大游戏论坛如游侠网、游民星空同理。
 若主做游戏资源分享，可在3DM发帖直接放链接，学会卡标题关键词，标题起得好就能实现长期被动引流，持续带来网盘拉新和转存收益，发完基本无需维护，除非链接失效需要补。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_72b69883a19b16a040b4f2b424570ee4.png>
+![](img/zhuanqian_72b69883a19b16a040b4f2b424570ee4.png)
 小案例：下面这个号的数据从7月20日开始，两个月保守估计约一万二，还未算暑期收益翻倍期。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_729ea4f48596f648793c8b5733aadd36.png>
+![](img/zhuanqian_729ea4f48596f648793c8b5733aadd36.png)
 游侠网、游民星空玩法相同。这个案例也说明要运用逆向思维，有资源的地方也需要资源。我们能找到资源的站点大部分都开放了用户注册和上传功能，有人求资源就会有人传资源，我们就可以是那个传资源的人。
 还有一些小网站、小论坛，这里不列具体名称，以免被过度推网盘破坏生态。可给个方向，比如程序员论坛、二次元论坛、读书论坛、产品论坛等垂直小众的论坛、社区、APP，基本都能放链接。
 分享的资源合集只要对用户有用，就是一种福利，用户也愿意保存。按自身喜好找论坛社区，提供真实可靠的资源，活跃论坛、自身获利、用户得所需，三赢。
@@ -680,9 +680,9 @@ B站专栏的流量，绝大部分来自搜索，而且百度权重相当高，�
 截流就是去别人笔记或视频评论区评论，直接或暗示自己有资源，让对方主动找你或私聊你发资源。
 前面微博章节已简单提到热门微博截流，也类推到抖音。
 下面看一个小红书截流案例：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0869cbbea337fccc135d20c0dfc86e04.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8b319ed87a8d3833cd7ddb2d5411fb5c.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_17c3cd5a8e03a1f013e5fe0a194c0e7b.png>
+![](img/zhuanqian_0869cbbea337fccc135d20c0dfc86e04.png)
+![](img/zhuanqian_8b319ed87a8d3833cd7ddb2d5411fb5c.png)
+![](img/zhuanqian_17c3cd5a8e03a1f013e5fe0a194c0e7b.png)
 他做的是夸克搜索项目，本篇主讲网盘项目，先不展开。
 重点说截流行为。上面作者可能未发现或业务不冲突，但不管如何，小红书官方对截流有明确规定，被举报必封。不建议做废号的事，且截流费精力，不如多开号布局搜索流量，只要铺量够大，同样有持续被动流量。
 如果你号多用不完可以尝试，好处是能在短时间内看到结果。
@@ -720,14 +720,14 @@ B站专栏的流量，绝大部分来自搜索，而且百度权重相当高，�
 黑神话悟空大家应该都刷到过，这个游戏的画质和视觉设计确实非常精良。于是就有大量玩家把游戏里精彩的过场动画录下来、剪出来，发到各个视频平台，赚到了不少流量。到这还只是第一层，再往下挖：在热点里再找热点人物。除了孙悟空本人，话题度最高的就是猪八戒了。游戏里的猪八戒形象带点憨憨的可爱感，有人灵机一动，把猪八戒的配音换成了萝莉音，视频直接爆火。当然那视频本身有点技术含量，但真正的亮点是思路——在大家都能看见的热点里，再往下切一层，找到还没被注意到的角落。
 先把热点中的具体人物或元素找出来，让热点变得更有画面感、更具体，这就是热点里的细分。谁先找到，谁就大概率能跳出来，分走比别人更大的一块蛋糕。
 再举一个例子。三只羊的事频繁上热搜，属于人人都知道的社会性热点。除了做大家都在做的吃瓜内容，能不能顺手把热点和咱们做的资源结合起来？当然可以，下面看这个案例。而且我看它卡的不仅仅是三只羊的热点，“月薪”“一万多”这些关键词同样是普通人爱看的点。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1225eba4416a31f23d4a0af8dd95df9a.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6690e81d0b878141347e464de2fc0f15.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_46ffd9de17f3cecc4870e557dbb3d780.png>
+![](img/zhuanqian_1225eba4416a31f23d4a0af8dd95df9a.png)
+![](img/zhuanqian_6690e81d0b878141347e464de2fc0f15.png)
+![](img/zhuanqian_46ffd9de17f3cecc4870e557dbb3d780.png)
 活学活用是特别重要的一项能力。有人做动漫资源分享，脑子里就只有动漫电影、动画片，那动漫的观看软件能不能分享？动漫小说行不行？都能做，而且热度不低。其他领域同理。
 ### 热点去哪儿找
 前面多少提过一些热点方向的线索，这里再系统地梳理一遍。大家第一时间能想到的，无非就是抖音、快手、B站、小红书、豆瓣这类平台的热榜。但要一个个点开看也太费劲了，直接给你们推荐一个网站，它聚合了几十个平台的热榜，一页看完所有热点。
 网站地址：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_852aba38c378e0521dcdc3f1a10ead66.png>
+![](img/zhuanqian_852aba38c378e0521dcdc3f1a10ead66.png)
 1.  补充一句，抖音内部有个「热点宝」，也可以拿来参考。入口很简单，直接在抖音搜索“热点宝”就行，一般重点看低粉爆款，很能说明问题。
 1.  微信那边有个「微信指数」小程序，打开微信直接搜“微信指数”，然后订阅你关心的关键词，数据变化会定期推送给你。
 1.  还可以直接让咱们教程里提供的AI工具去搜各类排行榜，比如电影榜、游戏榜、动漫榜，AI会直接把对应的排行网站给你列出来。
@@ -753,17 +753,17 @@ B站专栏的流量，绝大部分来自搜索，而且百度权重相当高，�
 - 导航页面类：link3、vlink、mlink等
 这里只展示几个有代表性的。腾讯文档、飞书文档、金山文档其实都长差不多，只是观感稍有不同；link3、vlink、mlink也是大同小异。所以就拿腾讯文档、vika维格云和link3做个示例。
 腾讯文档形式一之学习资源整合参考：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fae69d214262f3943c8809e283816d8f.png>
+![](img/zhuanqian_fae69d214262f3943c8809e283816d8f.png)
 腾讯文档形式二之游戏资源整合参考：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a594420c76ab860c417aa579c3c5624d.png>
+![](img/zhuanqian_a594420c76ab860c417aa579c3c5624d.png)
 vika维格云参考：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6769dc31176853d69342b81e14b94283.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b7fb6ba230569fe7053e0d275e949090.png>
+![](img/zhuanqian_6769dc31176853d69342b81e14b94283.png)
+![](img/zhuanqian_b7fb6ba230569fe7053e0d275e949090.png)
 link3/vlink/mlink参考（主要看形式，背景皮肤可换）：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e4119ca02533fe5625ea2aa58b91e8e8.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8da79be4573b4b9e9b687ab018b72f5b.png>
+![](img/zhuanqian_e4119ca02533fe5625ea2aa58b91e8e8.png)
+![](img/zhuanqian_8da79be4573b4b9e9b687ab018b72f5b.png)
 导航网站类参考（有网站基础的可以看看，小白请直接跳过）：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_25e20d05d9a04bd1fbdec4fe5677f945.png>
+![](img/zhuanqian_25e20d05d9a04bd1fbdec4fe5677f945.png)
 ## 网盘拉新的“+模式”：短剧篇「基本盘」
 网盘拉新这个项目妙就妙在，它可以和任何虚拟项目无缝结合。大家比较熟的有短剧项目、K12学习资料项目、天涯神贴项目，这里不一一讲了，重点说说今年最火的短剧，它的分支是真不少。
 第一个方向是短剧CPS。简单说就是通过好省短剧这类平台选剧，然后挑其中某一段做剪辑去重这类处理，再通过挂载链接或二维码的形式，把成品发到抖音、视频号等平台。用户刷到片段上头了，点你的链接或扫你的码进入小程序付费观看，你就能拿到用户支付金额的分成。
@@ -771,7 +771,7 @@ link3/vlink/mlink参考（主要看形式，背景皮肤可换）：
 第三个方向是免费分享短剧，有两种主流玩法。最开始火的是微信机器人模式：在公域平台发图文视频引流到自己的微信号，用户想看剧，花9.9进群，群里有个机器人，用户发对应短剧关键词，机器人自动甩出网盘链接。赚的是微信群收益+网盘拉新收益两份钱。后来又有一种在线文档自助搜索模式，目前主流用的是金山文档，这种只吃网盘拉新的收益。我个人更推荐后者。微信群的模式格局还是小了，想要做出更好的裂变效果，还得是免费在线文档这套玩法，理由刚才讲「资源聚合下的一元化裂变」时已经说透了。
 而且这个模式还有个好处：完全不用费劲去给短剧做剪辑去重。日常做普普通通的短剧资源分享就行，制作门槛低到什么程度呢？一张截图、随手拍一张照都能用来发布引流。参考前面讲过的推荐流量和被动流量，就明白了。
 下面咱们就仔细说说怎么用金山文档搭出一套自己的短剧自助搜索库。操作其实不复杂，小白跟着做也能搞定。视频里用到的工具在【技法篇】第6节。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8dcc8e72f7fa2cb2a6b5c3a945b60f8a.png>
+![](img/zhuanqian_8dcc8e72f7fa2cb2a6b5c3a945b60f8a.png)
 那除了短剧，还有什么是适合当基本盘的？
 ## 电商平台的流量金矿：闲鱼篇「基本盘」
 我们总习惯想着怎么免费发内容、怎么在抖音快手小红书这些公域平台布局，却常常忽略了电商平台。在加速器项目里，连免费领加速时长的口令都有人挂闲鱼卖1块钱，而且还真出了不少单，更别说拼多多淘宝上那些了。原因也简单，有一部分用户就是懒，懒得去搜资源、懒得去找渠道，宁可花几块钱在闲鱼直接搜到直接买，省心省事。
@@ -779,23 +779,23 @@ link3/vlink/mlink参考（主要看形式，背景皮肤可换）：
 而且大家心里都有一种微妙的默契：总觉得闲鱼上卖的更便宜。所以咱们完全可以抓住“便宜”这个点来做文章吸引人。更何况我们本来就是做免费分享、吃网盘拉新收益的，价格低到没朋友也没问题。
 ### 闲鱼基础操作
 做闲鱼，第一件事就是把设置里的闲鱼公约从头到尾看一遍，规则必读里的内容一字不落全看一遍。这是硬性要求。连平台规则都没读过，谈何做好？做任何平台都一样，先把官方规则吃透了——知己知彼，百战不殆。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1b434a99f7e843c8e8868b8b3f900e5b.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c2d160e982ff150ab787993a204f9bbf.png>
+![](img/zhuanqian_1b434a99f7e843c8e8868b8b3f900e5b.png)
+![](img/zhuanqian_c2d160e982ff150ab787993a204f9bbf.png)
 闲鱼基本操作大家应该都不陌生，基础的就跳过了，挑几个我眼里比较关键的说说。
 账号层面：别搞多开，一机一卡一号是最稳的，不然容易触发异常。一个人可以注册3个支付宝，每个支付宝对应一个闲鱼号。该填的信息全部填好，芝麻授权是必选项，很多买家天然更信任芝麻信用好的卖家。信用分低的平时注意养一养，支付宝里搜“芝麻信用”有涨分任务，顺手做做，分数也不会低。
 然后是老生常谈的养号。不过我觉得大多数人不用养，多多少少都用闲鱼买过东西吧，号没什么问题，直接开干就行。然后每天记得签到领闲鱼币、做做任务、保持活跃度。
 要是全新注册的号，就老老实实把资料补齐，每天逛逛刷刷养几天。养个三五天的就行，就那点事儿，不啰嗦了。
 后台简单设置一下。我的页面右上角设置（图3），下拉找到消息通知（图4）——智能回复——不在线回复——所有宝贝默认回复，把自动回复信息设置好。然后去隐私设置，把“允许查看我的关注/粉丝列表”关掉（图5）。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_72444aeedcd85bd525d0e311b286e866.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_103ae36257e338fece32661e8e95715a.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_95e5d43cca5b0356442bc9bca410c6c8.png>
+![](img/zhuanqian_72444aeedcd85bd525d0e311b286e866.png)
+![](img/zhuanqian_103ae36257e338fece32661e8e95715a.png)
+![](img/zhuanqian_95e5d43cca5b0356442bc9bca410c6c8.png)
 虽然设置了自动回复，但最好还是尽可能及时地人工回复用户。拼多多那边对回复不及时的商家，都会在推荐里降权换别家，可见回复速度是个相当重要的指标。闲鱼虽然不会因为你不及时回复就推荐别家，但你的客户早就跑去找别人了。
 把闲鱼通知打开，像微信那样来消息就提醒的那种。这样不但能提升账号活跃度，还能减少客户流失、提高成交率。
 ### 怎么发布资源
 基础说完了，那具体怎么发？
 流程和公域平台一样：同行怎么发，你就怎么发。专门找那种“想要数”高的链接来参考——卖得好说明这些文案是经过市场验证、被用户认可的，直接模仿准没错。把同行的文案稍微改改，不会改就用AI帮你二创。图片最好不要照搬，要么加个滤镜改改，要么自己截个图，都很简单。也可以去淘宝搜同款，抄标题和图片，抄下来微调一下更好。
 封面图，也就是主图，这个挺关键的。不管在B站小红书这些公域平台，还是闲鱼淘宝这些电商平台，封面图对点击率的影响都很大。一张吸引眼球的封面，点击率基本不会差，或者干脆打出差异化。用户买东西一定是同类型里挑便宜的；价格都一样的时候，就会选主图看着顺眼的、有吸引力的那家。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_08a947ad992e246facc54832f10e701c.png>
+![](img/zhuanqian_08a947ad992e246facc54832f10e701c.png)
 如图6所示，就像加速器教程里B站封面图说的那样：封面的核心要点就是尽量做得醒目，别人才会愿意点进来。
 逆向思维很重要——把自己当成用户，回想一下你自己平时是怎么挑的、更看重哪个点。如果你挂了个资源，连自己都不想点开，那就别指望别人会点。所以我的建议是尽量自己动手作图。千篇一律的图，被点中的概率自然就小。怎么做图，之前加速器项目和这个项目里都专门讲过，不再重复。
 有些网课类虚拟资源，还有一些国产剧是有版权风险的，建议直接别碰。游戏类的大多问题不大。其他资源，发之前先搜搜看有没有人发过，看发的人多不多。发的人多说明问题不大；发的人少的，再看看他发了多久、在他闲鱼店铺里排在前面还是后面。如果是新发的就观察两天，没问题再跟着上。
@@ -806,13 +806,13 @@ link3/vlink/mlink参考（主要看形式，背景皮肤可换）：
 *   公域平台里，用户的行为是点赞、关注、收藏、评论、分享。
 *   换到闲鱼这儿，对应的动作就是想要、关注、收藏、留言（评论）、好评，另外还有个小红花。
 说到小红花，除了能给孩子送温暖，它还有一个妙用——装饰你的店铺门面。比如图7红框里的那朵花，就是用它开出来的。花里胡哨的功能我觉得没啥必要，但“关注”那个按钮一定要留，特别显眼，用户看到总会忍不住想点一下。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ca0186240996c56d038e810be2bc709c.png>
+![](img/zhuanqian_ca0186240996c56d038e810be2bc709c.png)
 话说回来，既然有了这些互动数据，我们就可以琢磨一下，除了干等自然流量，是不是还能做点什么来推波助澜。
 #### 基本功
 先说说日常，想要让曝光量上去，每天把“我的宝贝”里的闲置都擦亮一遍，这是必修课。除此之外，还有几个方法也能增加曝光：发布公益宝贝（图8）、用闲鱼币扔骰子做任务、开通闲鱼币抵扣、设置闲鱼币推广（图9）。这些都是最基础的拉升曝光手段。
 千万别舍不得花闲鱼币，实在不够用，去淘宝也能买到，价格也不贵，就当是给平台交的一点“投名状”了。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8d3edd152ca8ac7f79f57d511d43af32.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cded3ee5b0cb6c0ab82e1b2fa7d76638.png>
+![](img/zhuanqian_8d3edd152ca8ac7f79f57d511d43af32.png)
+![](img/zhuanqian_cded3ee5b0cb6c0ab82e1b2fa7d76638.png)
 另外，持续上新也能加重平台的曝光倾斜，但节奏要拿捏好。每天发3到10个是正常频率，店铺总量保持在50个左右就差不多。隔段时间就把那些数据不好看的宝贝删掉，把位置腾出来给新品。如果你开了鱼小铺，那标准就要提高了：每天至少上10个，总量可以跑到200个上下。
 上架时最好每天的宝贝品类都不重样，这样第二天就能看出谁在数据上冒头了。要是发现某个品曝光格外争气，那当天就趁热打铁，多上几个同款。当然，文案、封面图这些包装元素必须做点改动，别太偷懒。也不用担心货源不够，资源多了去了，先把店铺开成杂货铺，广撒网发一遍，找找手感。
 所谓杂货铺，就是什么有热度、什么有人搜，咱们就发什么。软件、资料、游戏通通可以上。但人的精力终究有限，杂货铺做久了容易顾此失彼。所以，后期最好是根据品类的曝光反馈，逐步收缩战线做垂直。比如你发了软件、资料、游戏，发现游戏这个类目的曝光率明显扎眼，那就干脆把重心全压到游戏上。说到底，杂货铺阶段本质上也是一个测品的过程，至于怎么选品，后面会详聊。
@@ -842,10 +842,10 @@ link3/vlink/mlink参考（主要看形式，背景皮肤可换）：
 1.  有些同行把动态隐藏了，那就去看他的近期评价，评价多且密集，说明卖得相当不错，如图12所示。
 1.  看同行开店多少天了，一共卖了多少单，用卖出数量除以开店天数，得出的数字越大，说明这个店里的品越优质，如图13所示。
 选定了某个产品，最好是再“货比三家”一下，去别的店铺看看数据表现和出单率怎样。所以，多刷、多看、多琢磨才是正途。指望着花点钱让别人来教你怎么选品？真要是蓝海市场，最早发现的人早就吃干抹净赚一波，或者至少做到了细分市场的头部才会把信息放出来。想赚钱终究得靠自己，该走的路一步都少不得，找捷径反而越走越慢。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c7d981ece226d705fd93508148fa2725.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_56ff9e9a96ec05229104f81624015d9f.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_05d8b33abfca828c859a8ed7404f8abb.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_11e2adb4b6b4a51ebeb681915117d461.png>
+![](img/zhuanqian_c7d981ece226d705fd93508148fa2725.png)
+![](img/zhuanqian_56ff9e9a96ec05229104f81624015d9f.png)
+![](img/zhuanqian_05d8b33abfca828c859a8ed7404f8abb.png)
+![](img/zhuanqian_11e2adb4b6b4a51ebeb681915117d461.png)
 #### 深挖
 如果你有一定的经验和判断力，也可以直接搜索你想做的领域的关键词。核心逻辑是：先划定一个大方向或大类目，然后顺着这个类目一路细分下去，去做那些细分市场的差异化内容。比如游戏这个大类，不同维度细分下去有不同的方向：
 *   游戏安装包
@@ -872,14 +872,14 @@ link3/vlink/mlink参考（主要看形式，背景皮肤可换）：
 #### 阿奇索
 官网：https://aldsidle.agiso.com/
 进到官网，会先弹出窗口，可以先点【免费试用】。然后按提示点击右上角的【新手向导】，跟着步骤一步步设置就行，官方已经把饭喂到嘴边了，非常简单（图14）。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_045bdc07c701ac248674c1f8a4a55536.png>
+![](img/zhuanqian_045bdc07c701ac248674c1f8a4a55536.png)
 #### 闲管家
 官网：https://www.goofish.pro/
 进入官网后，咱们需要的功能都在左侧的菜单栏里，点进去每个功能都会有对应的操作界面。而在每个界面的右上角，又有相对应的教程提示。
 比如我点击【发货】功能后，页面的右上角会蹦出一个【如何使用发货设置】（图15），没错，这就是自动发货功能的官方使用教程。其他功能也是同一个道理。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7c0885bc829afb734de5a601f6c9019d.png>
+![](img/zhuanqian_7c0885bc829afb734de5a601f6c9019d.png)
 点击右上角的【操作手册】（图16）也能找到很多官方的图文教程，有的还配有视频讲解。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_563f1d90cd1ca03115bdc15da7fceb7a.png>
+![](img/zhuanqian_563f1d90cd1ca03115bdc15da7fceb7a.png)
 这两个工具都行，官方都给了详细的教程，我就不啰嗦了。你们自己点进去研究一下，选个用着顺手的就行。它们俩的收费模式差不多，都是免费试用7天，后续费用一个月30块左右，按季度或年度购买会划算一些。
 关于要不要付费买，其实不用焦虑。等后期流量大了，手动回复忙不过来的时候，你再权衡是否要买就行。前期做闲鱼，这工具的作用不大。因为这个时候的流量还很小，看到有拍单的顺手就点了发货，顺便还能再发个商品或者帖子，提升一下账号活跃度。闲鱼是讲究活跃度的，所以，做起来了再考虑工具，别还没出发呢，就非得把一切装备都准备到完美才肯开始。
 我个人比较常用的是闲管家，功能相对更丰富。前期对闲鱼玩法还不熟，或者还没稳定出单的朋友，先别买。等出单稳定，流量稳定起来后再入手也不迟，那时候就没有经济负担了。
@@ -887,13 +887,13 @@ link3/vlink/mlink参考（主要看形式，背景皮肤可换）：
 ### 拼多多店铺，以及其他衍生玩法
 再比如，可以开个拼多多店铺。后面这些思路，我就简短一点说，但都是值得执行的玩法和方向。为什么我提拼多多，而没提淘宝和京东？因为拼多多店铺是小白最容易上手入门的，它的开店成本相比淘宝、京东来说，是相对最低的。如果你想在电商平台深耕，把它当成基本盘，那淘宝也是要研究的。
 还有小红书的虚拟店铺这种新电商模式，它的流量也不能忽视。不可否认的是，某些买家天生就觉得，付费买来的资源比免费分享的质量好，总觉得免费的东西背后藏着套。加上小红书的用户群体普遍怕麻烦，不喜欢私聊和加群，而小红书店铺正好能满足他们“所见即所得”的需求。所以开个小店很有必要，很多笔记直接挂上购买链接，销量相当可观（如图17所示）。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_37ae4b8b408df5b692481376573f2311.png>
+![](img/zhuanqian_37ae4b8b408df5b692481376573f2311.png)
 ### 矩阵「增量盘」
 聊完单店玩法，咱再聊聊矩阵的好处，这是显而易见的：假设一个图文或视频，基础播放量是500。别人1个号跑项目，一天就只有500播放；你用5个号跑，起步就是2500播放，数据自然比人家漂亮得多。我打个比方，假设他500播放一天赚10块，你2500播放是不是一天就赚50块？这还只按基础播放算。况且，5个号同时跑，出爆款的概率也是1个号的5倍，所以理论上讲，收益恐怕不只是5倍那么简单。这个例子可能不太严谨，但核心道理就是这么个逻辑。
 矩阵说白了就是同时操作多个账号。有些平台做矩阵很轻松，比如B站，你可以直接在淘宝搜索“B站小号”来批量购买成品账号。账号有了，只要注意区分IP和设备，就可以开干了。
 多劳多得，用多个账号去对冲单个平台流量不稳定的风险，这套逻辑大家都懂。你看到的所有数据夸张的截图，九成以上都不是靠单号跑出来的。
 比如下图中这种日入四位数甚至五位数的收益图，单账号是绝对做不出这种数据的（除非是踩中爆款热点爆发了那么几天）。所以，想在一个项目里赚到更大的收益，矩阵是必须迈出的一步。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1503ca3b6d66200a4e06e8916ddeaa4b.png>
+![](img/zhuanqian_1503ca3b6d66200a4e06e8916ddeaa4b.png)
 在赚钱搜索矩阵相关的教程，已经有很多高手写得非常详尽了，这里我也不做过多的展开。
 ### 合作「增量盘」
 如果自身没有流量，但又想分一杯流量变现的羹，那就要学会“以小博大”。具体怎么做呢？既然咱们没有流量，但有些博主有，那我们就可以找博主去谈合作。
@@ -910,7 +910,7 @@ link3/vlink/mlink参考（主要看形式，背景皮肤可换）：
 退一步说，如果实在谈不下来，我们还可以自己做。当然，我并不是让大家直接去做那种擦边号。她们之所以能风生水起，是因为粉丝量足够大，账号权重足够高，就算打擦边球，平台也只是睁一只眼闭一只眼。但新号就不一样了，发擦边内容基本是发一条封一条。
 这时候，我们可以绕个小弯路。比如做一个特征明显的穿搭博主号。前期发的作品务必包裹得严实一点，风险相对更低，可以直接无脑搬运。标签话题可以向穿搭方向靠拢，实际上内核还是类擦边的，但能在一定程度上规避平台的审核。
 即便如此，还是要尽量把握好流量节点，掐准每个平台的人工审核机制，抢在进入人工审核前隐藏或删除视频。这个思路在加速器教程里也有类似的说法（如下图），说白了就是要懂进退，知分寸。这是可以自己测试的，近一万的播放转化就能带来不少收益。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6941c195e14257977d5d28cfa5974653.png>
+![](img/zhuanqian_6941c195e14257977d5d28cfa5974653.png)
 然后这种赛道的账号，会员付费率是相对比较高的。有几个操作要点：把图片等内容都做成压缩包，尽量做到1-2GB起步。如果内容不够，可以去找一些写真图片来填充，这类图往往容量都很大。文件做大了，别人就会觉得内容丰富、物超所值。而且这种内容如果不开通会员加速下载，大概率等不下去。网盘的文件名要足够吸引眼球，但要注意尺度。
 以上这些，只是想抛砖引玉。
 ### 终极归宿：私域与长期价值
@@ -947,21 +947,21 @@ UC的增量空间同样不小，App端转存单价0.6元，全网最高。
 一句话总结：主推哪个网盘，看你在什么平台发、发哪种资源，灵活切换。
 ## 新增：悟空网盘
 有圈友说他们做悟空网盘还是在任推邦操作，但任推邦的单价并不占优，看图：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f844b2377f61ff0b5dc272d1ce560105.png>
+![](img/zhuanqian_f844b2377f61ff0b5dc272d1ce560105.png)
 任推邦日常价是获客9元、转存0.4元；左侧平台获客高1元，转存高0.1元。就算任推邦做活动，获客价也只提了0.2元。
 所以玩悟空网盘，建议去左侧那个平台。注册有两种路径：微信搜索“抖啦咪数据助手”，或直接扫下方二维码，都不用填邀请码。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6f500a445e79fd5f6fd4f75135cc4af5.png>
+![](img/zhuanqian_6f500a445e79fd5f6fd4f75135cc4af5.png)
 这个平台和聚好推一样是日结，项目也更丰富，比如任推邦下架了的即梦AI获客，这里仍能跑。悟空网盘的推广有图文教程和视频教程，客服响应速度也算及时。
 ## 怎么查看网盘浏览数据
 夸克：手机App要升级到较新版本；PC端推荐用某个特定版本，那个版本能看到资源地址的浏览量，方便估算转化效果。也可以打开 https://pan.quark.cn/list#/list/myshare 直接查。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ac51c60f3c761a5bf007b02e6f289c32.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b4902f5195266f2a921fe31aaf2365ea.png>
+![](img/zhuanqian_ac51c60f3c761a5bf007b02e6f289c32.png)
+![](img/zhuanqian_b4902f5195266f2a921fe31aaf2365ea.png)
 特别注意：分享后5分钟内，如果出现下图里的标志，这条地址产生的所有数据都不会结算。发完隔一会儿回去看一眼就好，一般碰不上；我做到现在也只遇到过几次，不用太紧张。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f6201881c6ac10a6d841fb9843a9326e.png>
+![](img/zhuanqian_f6201881c6ac10a6d841fb9843a9326e.png)
 迅雷、UC、百度基本都在PC端查看，入口位置如图：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ddd3e72ed282ec044c1c3fcabd23996b.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e1a0e7d52c1cb6fc23bb563e063bb4c2.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4df8bd13dd47c149990420710f22b431.png>
+![](img/zhuanqian_ddd3e72ed282ec044c1c3fcabd23996b.png)
+![](img/zhuanqian_e1a0e7d52c1cb6fc23bb563e063bb4c2.png)
+![](img/zhuanqian_4df8bd13dd47c149990420710f22b431.png)
 ## 判定有效获客的标准
 先理清什么叫有效获客。不少新手会找几个没用过夸克的熟人，点自己的地址下载并保存，然后等三天看后台。这种测试基本没用。
 如果你是平台方，会在意这种“做完任务就走”的僵尸用户吗？显然不会。官方盯的是回访数据——用户第二天乃至以后还会不会再打开网盘。它设定了一条考核线，比如转存100人里，第二天至少要回来20人；假如只回来10人，哪怕你转存做了50多单，也可能不作数。
@@ -976,8 +976,8 @@ PPT、简历模板、K12学习资料这类虚拟内容，几乎没有版权风�
 擦边视频、音频和游戏，愿意付费的人确实不少，懂的都懂。但底线不能破：绝对不碰黄。碰了不仅违法违规，还会被网盘平台检测并清退。写真、助眠ASMR、SLG互动游戏等可以做，不过SLG类产品的违规风险也要有心理准备。
 ### 3. 名不副实的老把戏
 比如“免费领各大平台会员”的页面，做得像模像样，实际是给抖音、快手的高频下载版App做获客。还有蹭热点的：某款国产游戏爆火时，发视频说送兑换码，私聊后丢来1个网页链接，点进去就是下图1的样子；评论区再用小号刷“好评”（图2）。新手很容易一看就信，三连求分享。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_807a236fcb2f102c46539eb928f206bc.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1744c9c6e723b87b0f5cf5a6b17ec793.png>
+![](img/zhuanqian_807a236fcb2f102c46539eb928f206bc.png)
+![](img/zhuanqian_1744c9c6e723b87b0f5cf5a6b17ec793.png)
 这里给小白提个醒：凡是让你先装抖音或快手的某种极速App再领素材的，一律不要信。我不希望看过这篇文章的人，再去帮这种套路充数量。
 先写这些，后面有补充再更新。
 # 六、技法篇
@@ -986,7 +986,7 @@ PPT、简历模板、K12学习资料这类虚拟内容，几乎没有版权风�
 一是走腾讯官方流程：https://kf.qq.com/faq/120911VrVYrA151009eIrYvy.html 补充一句：个人注册时选“订阅类账号”。这种方式下，1张身份证只能开1个号。
 不过从2024年9月开始，公号放开了无限注册。1个手机号就能开1个号，手机号够多，号就能无限多。流程也比以前简单得多，给新手布局搜索流量吃了一颗定心丸。
 具体操作：下载官方管理App，按图操作。注意注册时登录的微信，一定要先完成实名认证。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_88eba20accb42efa262538ab56137b3b.png>
+![](img/zhuanqian_88eba20accb42efa262538ab56137b3b.png)
 实名规则没有变：1张身份证仍然只能实名1个号，多开的号不能实名。但这不碍事，不能实名只是开不了赞赏、流量主一类功能，我们只需要发文章，完全够用。
 注册完第一件事，设置关键词应答。这是实现自动化运营的核心：用户发来指定关键词，系统自动回一条带地址的信息，不必人工逐个发送。设置方法搜一下就有，基础操作。
 ## 导航汇总页
@@ -995,7 +995,7 @@ PPT、简历模板、K12学习资料这类虚拟内容，几乎没有版权风�
 导航站类：Link3、vlink、mlink等。
 两类都免费，上手也不难。区别在于：云文档没有广告、展示形式丰富、能容纳很多内容；导航站会带广告，形式相对固定，但能看访问数据。
 两者可以组合着来。比如用导航站作为入口，点进每个按钮再跳到对应文档；也可以反过来，用云文档承载导航，再跳到外部资源。下面这张图就是组合案例：导航站当作中转入口，点某个系列后进入FlowUs，里面整理的是夸克资源，一目了然。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d3c3645dcaa5a8834374b443a9b36218.png>
+![](img/zhuanqian_d3c3645dcaa5a8834374b443a9b36218.png)
 只用云文档的话，有1个建议很关键：中间加1层中转文档。别把装满内容的资源地址直接给用户，先建1个空壳文档，里面只放正式文档的链接，就像“套娃”。
 为什么要套娃？因为国内云文档内容一多、文字一多，容易被系统识别出敏感词，也可能被恶意举报。正式文档一旦挂掉，用户就全丢了。中转文档相当于1个长期稳定的入口，正式文档出问题时，只要把中转文档里的链接换成新的就行。
 所以，用云文档做汇总页要守住两条：一是加中转，避免失效流失；二是定期把正式文档另存备份，别让心血白费。
@@ -1005,9 +1005,9 @@ PPT、简历模板、K12学习资料这类虚拟内容，几乎没有版权风�
 这些平台的上手逻辑很接近，官方模板和教程都很多，跟着点几遍就会。金山文档的操作在「网盘推广“+模式”：短剧篇」里写过，这里不再重复。
 ## 导航站与汉字域名
 这一节主要面向想搭网站的朋友。思路很简单：申请1个汉字域名，让它跳到你的导航汇总页。抖音快手对链接卡得厉害，但对网站类内容相对宽容，很多人只提一句中文站名也能爆，至少不太会被限流。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ab41df2d158a49200a5f8c531c8b9d9c.png>
+![](img/zhuanqian_ab41df2d158a49200a5f8c531c8b9d9c.png)
 不想自己折腾域名的话，可以用「项目准备」里提到的聚好推平台，上面能免费申请汉字域名。引用平台原话：进入【中文跳转域名】申请，填好链接、选好后缀，个人口令越短越好，比如“小明”“如我”“你”，最后生成的形式是：口令.爱.娱乐。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_feb6db0fe945d6c20e218179fcfb9412.png>
+![](img/zhuanqian_feb6db0fe945d6c20e218179fcfb9412.png)
 自己买域名和平台申请的区别，我拆开说。
 自己申请：
 优势是自定义程度高、域名干净好记，能跳到任意网页，包括你的导航汇总页；可以无限建站，失效了也能改。劣势是要花点钱，还要有一点建站基础。
@@ -1016,21 +1016,21 @@ PPT、简历模板、K12学习资料这类虚拟内容，几乎没有版权风�
 整体看，导航站的视觉和易用性都优于免费文档。自己搭个站，再配个简短好记的域名，传播起来会省力很多。素材质量差不多时，用户体验更好的那个总是赢家。
 ## 网盘配套工具
 这一节讲讲推广平台里的几个实用工具。前面已经重点聊了汉字域名，下面再挑两个重点：【查链工具】和【跳转短链工具】。其他工具都很简单，一带而过。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3152abae3c48d5fec28d5507ef190ea0.png>
+![](img/zhuanqian_3152abae3c48d5fec28d5507ef190ea0.png)
 ### 查链工具
 作用是检查资源地址是否还能打开、有没有被和谐。操作很直接：在查链功能里点“添加检测”，把资源地址粘进去，最好备注素材名。平台大约每隔1小时检测1次，发现失效会通过微信消息提醒。这样帖子、图文就不会白做，可以及时换链接止损。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cc7c09f15c937c347f30a7702a0272b7.png>
+![](img/zhuanqian_cc7c09f15c937c347f30a7702a0272b7.png)
 ### 跳转短链工具
 先看1个很有代表性的案例，来自贴吧那节里的案例2：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7fd2748dac40d116e51509e006d8ba90.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_052a19ab40bb58068afa7742375c5ba9.png>
+![](img/zhuanqian_7fd2748dac40d116e51509e006d8ba90.png)
+![](img/zhuanqian_052a19ab40bb58068afa7742375c5ba9.png)
 那条帖子没有直接放网盘地址，而是放了1条中转短链，点开后先进金山文档（图2-2）；文档里用二维码展示夸克资源；另外还有1个“防和谐链接”（图3），那同样是跳到夸克网盘的中转链接。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ae18fec64215587677229829c68ce598.png>
+![](img/zhuanqian_ae18fec64215587677229829c68ce598.png)
 这套操作看起来普通，其实暗藏巧劲。为什么不肯直接丢网盘地址？原因有三：
 1. 直接放链接容易被平台吞，转成短链能规避这个风险；
 2. 资源被和谐后，中转平台随时能换新的目标地址，旧链接不用重发；
 3. 中转平台还能显示这条地址被点了多少次，用来判断内容热度和变现效果，非常直观。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_86773cc02301e5f9fa59283e8d258787.png>
+![](img/zhuanqian_86773cc02301e5f9fa59283e8d258787.png)
 第二点里，创作者把夸克网盘的直链换成二维码来分发。
 *   目的很明确，逼着用户用手机扫码打开，这样移动端拉新和转存率就能做到百分之百。
 *   夸克现在的结算规则是，移动端拉新7元，转存0.3元。
@@ -1039,42 +1039,42 @@ PPT、简历模板、K12学习资料这类虚拟内容，几乎没有版权风�
 *   这个链接我在百度贴吧APP里是可以直接点开的，但直觉告诉我它不只是普通跳转。
 *   链接最终是进了夸克网盘，却没有像第二点那样做成二维码。按他一贯追求收益最大化的思路，不可能这么直接放。
 *   我特意在电脑网页端打开了这个链接，如图5所示，页面直接提示用手机扫码访问。也就是说，哪怕流量是从电脑端的百度搜索进来的，也必须扫码用手机打开，收益依旧被锁死在移动端。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_81f855469fcf0e1069a309012f071867.png>
+![](img/zhuanqian_81f855469fcf0e1069a309012f071867.png)
 到这里，思路已经捋清了。
 会不会觉得有点绕？我帮你浓缩一下，本质上就用到了两件工具：中转链接 和 链接转二维码。而且操作很轻量，都是借助第二个平台现成的功能。
 先说中转链接怎么玩。我们点开图1-1里的【网盘中转链接】工具，进入图6的页面，把原始网盘链接粘贴进去点转换，生成的链接会留在转换记录里。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f001bec6a6be083f66eed735deda7f93.png>
+![](img/zhuanqian_f001bec6a6be083f66eed735deda7f93.png)
 这个工具在全部功能里算是使用频率最高、价值也最高。它有三点关键特性：
 1.  可以改写原链接。比如原链接被平台和谐了，直接点修改把新链接替换上去，外链地址不用变，已发出去的文章不会丢流量。
 2.  能实时看到访问次数，方便评估资源热度与转化情况。
 3.  当用户用电脑访问这个中转链接时，会弹出图7的提示，强制要求手机扫码打开。对于夸克这种移动端收益更高的网盘来说，这招非常加分。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_991e75324ce2cc77021bc2774d474c7f.png>
+![](img/zhuanqian_991e75324ce2cc77021bc2774d474c7f.png)
 再说把链接变二维码的具体做法。直接在浏览器搜索草料二维码，或点这里：https://cli.im/url，按图示步骤走就行。
 1.  把需要推广的链接粘到红框里，生成二维码：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5824c4f15606aca69acba46e10139e33.png>
+![](img/zhuanqian_5824c4f15606aca69acba46e10139e33.png)
 1.  点击上传Logo：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_abca648506c0e90288614edef313fa7a.png>
+![](img/zhuanqian_abca648506c0e90288614edef313fa7a.png)
 1.  进入下一步页面后，点击上传Logo：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_42bd104dadd7ed3da2266cc71831b4fb.png>
+![](img/zhuanqian_42bd104dadd7ed3da2266cc71831b4fb.png)
 1.  左侧红框内的样式参数都能自定义，二维码形状、尺寸、Logo位置都可以改，改完点保存样式并返回，再下载即可。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_97645eabac45271cb8dccc5c255e46eb.png>
+![](img/zhuanqian_97645eabac45271cb8dccc5c255e46eb.png)
 ### 新增：网盘链接管理器【集成版】
 前面提到的网盘链接工具大多在聚好推平台内使用。有不少朋友反馈聚好推操作起来不够顺手，链接要一条条复制粘贴，记录多了找起来麻烦，想看哪些链接访问多也不方便，检测有效性也得一条条加。
 基于此，我在聚好推官方功能上封装了一套网盘链接管理器。支持表格批量导入链接转换，并能自动添加备注；可按访问量排序；可批量或全量检测链接是否有效，还加入了数据统计和导出表格等功能，有需求可以告诉我我再迭代。
 同时它还整合了聚好推的百度网盘链接转中文口令、链接失效微信实时通知、中文域名跳转等功能，在原版基础上做了体验优化，使用更顺手。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0377e7345214b8faf21f8dc757ff9229.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_95f2338ebb71d4a773687d6d269322d0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_389dfccb04ce4c94d8369eab0668a677.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_76c8a7783b62767a6ac7cc2f925c3cec.png>
+![](img/zhuanqian_0377e7345214b8faf21f8dc757ff9229.png)
+![](img/zhuanqian_95f2338ebb71d4a773687d6d269322d0.png)
+![](img/zhuanqian_389dfccb04ce4c94d8369eab0668a677.png)
+![](img/zhuanqian_76c8a7783b62767a6ac7cc2f925c3cec.png)
 网盘链接管理器程序界面一览：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_dca6c70d1ac6ef6bc073bc3d598e5187.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9668e35d364438bd75c833003608cb0e.png>
+![](img/zhuanqian_dca6c70d1ac6ef6bc073bc3d598e5187.png)
+![](img/zhuanqian_9668e35d364438bd75c833003608cb0e.png)
 网盘链接管理器下载：https://chkzh.lanzout.com/iSYjE368l4be
 注意，鉴于跨域限制，只能做成Windows桌面程序，下载即用。Mac和移动端用户可以直接用聚好推原版的小程序，微信搜索“聚好推助手”即可。
 ### 网盘链接检测工具
 另外还有一个全平台网盘链接有效性检测工具，粘贴混杂文本或上传文件都能自动提取网盘链接并批量检测。这个工具是网盘链接管理器之前写的，单独留在这里备用，聚好推链接管理器里已集成此功能，可对已转换的链接列表一键全检。
 网盘链接检测工具程序界面一览：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_39420b9830f6bc6ef69eb21d3eb26fe1.png>
+![](img/zhuanqian_39420b9830f6bc6ef69eb21d3eb26fe1.png)
 网盘链接检测工具下载【蓝奏云】：https://chkzh.lanzout.com/i7jSe368ssba
 ### 其他实用工具
 背景图 / 引流表情 / 三联图
@@ -1082,14 +1082,14 @@ PPT、简历模板、K12学习资料这类虚拟内容，几乎没有版权风�
 *   背景图就是抖音、快手、小红书等平台主页的封面图，图12所示。用户点进头像能看到引导信息，前面讲过。
 *   引流表情是用来发在评论区的，图13所示。前面也提过，这里不再赘述。
 *   三联图也叫三联屏，用来做作品封面引流，三个封面分三条作品发布就行。平台自带工具不好用，下面给了一个非常简便的三联图制作方法，视频在图片下方。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3e9e6893380a0bbd4e1b67acb5cb9c92.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7922be4e30cf97afe2a429a8fea7dd22.png>
+![](img/zhuanqian_3e9e6893380a0bbd4e1b67acb5cb9c92.png)
+![](img/zhuanqian_7922be4e30cf97afe2a429a8fea7dd22.png)
 百度网盘链接转换口令
 顾名思义，把百度网盘分享链接转成汉字口令，用户复制口令打开百度网盘即可自动弹出资源。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0c582840ab1a96564bdb4ce65e379815.png>
+![](img/zhuanqian_0c582840ab1a96564bdb4ce65e379815.png)
 字幕截图生成器
 小红书上很常见，输入文案一键生成配图，也可自定背景图，操作很省事。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ed04913071e0b72176ad09dcd7f22109.png>
+![](img/zhuanqian_ed04913071e0b72176ad09dcd7f22109.png)
 看完这些实用工具的说明，应该能感觉到这个平台确实为推广者考虑。无论是UI设计、签约流程，还是内置教程，都是我接触过的第三方推广平台里相对人性化、更适合小白的一个。
 写这篇教程时，我为了让零基础的朋友也能看懂，花了大量时间梳理逻辑反复修改。所以平台能做到这么贴合人性，我相信也是下了功夫的。互利才能共赢。
 平台一家独大最终受损的是用户和推广者，因为没有选择。竞争才能倒逼第三方平台不断创新提升服务，最终受益的是推广者。正因为如此，我更倾向于基于事实去发掘和支持那些真正能给用户带来价值的中小平台。所谓一花独放不是春，百花齐放春满园。
@@ -1112,28 +1112,28 @@ PPT、简历模板、K12学习资料这类虚拟内容，几乎没有版权风�
 *   影视资源尽量上传高画质，低画质体验差，用户更愿意花钱解锁超清。
 ## 提升搜索活跃度的技巧
 夸克网盘的搜索激励活动在1月7日提前结束了，改成了拉新和转存单价上调。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ce5add91753df989490365741240cb9c.png>
+![](img/zhuanqian_ce5add91753df989490365741240cb9c.png)
 上图是夸克最新的激励政策，依然很猛，拉新价格回到10元。上次拉新到10元是24年暑假。从夸克历次活动节点来看，节假日、假期流量最大，数据最好。官方后台数据也印证了这一点，所以他们总会在这些节点放出活动激励推广者抢占流量。
 假期里大家普遍在家刷视频、打游戏、追剧，网盘、加速器等项目都该重点抓住假期流量。后续其他网盘也可能跟进激励策略，保持关注。配合网盘链接跳转移动端的工具，即使是新手也能做出不错的收益。
 下面是本节的原教程内容，保留下来，万一以后搜索激励活动再上线可以跳回来用。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9381e7f601f0b8443b24e34110565def.png>
+![](img/zhuanqian_9381e7f601f0b8443b24e34110565def.png)
 上方的夸克活动海报已经说得很清楚了。
 简单说就是在正常推广网盘的基础上，多加一步引导用户在夸克APP内搜索。因为夸克网盘是依托夸克APP的，这一步对用户不繁琐，可操作性强。
 注意，只有新用户产生的搜索才算数。
 具体怎么操作？在原本分享的资源文件夹里加一个引导搜索的文件包即可，如下图所示，仅作参考。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8d08797f34e73122102ebe314ed79ee1.png>
+![](img/zhuanqian_8d08797f34e73122102ebe314ed79ee1.png)
 上图引导搜索包里的内容可以参考下图。引导搜索包案例：https://pan.quark.cn/s/3f93d674e2fe
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d72ce3ade0b09a1402cdfb49826bb74d.png>
+![](img/zhuanqian_d72ce3ade0b09a1402cdfb49826bb74d.png)
 包里的案例可以直接转存，也可以自己发挥。用户搜索越活跃，收益梯度越高。建议引导的搜索词和你分享的资源相关。比如分享四六级资料，就引导搜索“四六级备考指南”“四六级查分”“四六级复习方法”；分享游戏资源，就引导搜索“XX游戏攻略”“XX游戏辅助脚本”“XX游戏通关存档”等。
 用用户思维去想，如果你看到这个引导会不会去夸克搜一下。思路对了，搜索激励收益就差不了。
 一个小细节：同时选中多个文件再分享，会出现创建单个分享的按钮，多文件会合并成一个链接，用户打开就能一次性看到所有内容。链路越短转化越高。有些人分享一个文件夹，里面一层层套，资源也不分类，用户体验很差，转化自然低。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e086ce5b7ba133649cc14be6fe5ee259.png>
+![](img/zhuanqian_e086ce5b7ba133649cc14be6fe5ee259.png)
 ## 网盘批量转存/分享链接
 夸克网盘的批量转存/分享功能是通过PanTools实现的，下面是PanTools的使用文档，内含下载链接和详细教程。为节省篇幅，这里不展开。
 想看视频教程的可以看【项目进阶】第四章。
 工具教程链接：https://k7plkjw2y5.k.topthink.com/@g1rw33oj2o/er%E3%80%81shiyongshuoming.html
 工具下载链接：https://kingdata.lanzouw.com/b03e7pjih 密码：8888
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b345606dd35c4d43bee7ff9b66c4d939.png>
+![](img/zhuanqian_b345606dd35c4d43bee7ff9b66c4d939.png)
 这个工具主要用在短剧这类需要大量批量分享的场景。我们在项目进阶里也有视频操作流程。做短剧的这是必修课，其他情况是选修课。批量分享、批量转存、批量重命名、批量复制等场景下，用它能省不少时间。
 ## 必杀技
 真诚，永远是必杀技。做项目也好为人处世也好，真诚最重要。

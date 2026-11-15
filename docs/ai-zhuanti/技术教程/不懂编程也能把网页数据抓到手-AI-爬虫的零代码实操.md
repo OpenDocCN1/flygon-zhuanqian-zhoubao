@@ -5,7 +5,7 @@
 我回他一句：
 “现在都 2025 年了，连我妈都会用 AI 工具了，你还在靠手点？”
 随后我花不到一小时，从零带他把流程跑通。这个完全零基础的人，最后把整页招聘信息整理成了一份 Excel。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_11e672920e7711797ce5c4ff6754a745.png>
+![](img/zhuanqian_11e672920e7711797ce5c4ff6754a745.png)
 爬取文件如下：
 AI 时代最大的意义，就是把过去的技术门槛打平，让普通人也能触碰到原本遥远的能力。所以才有了这篇拆解。
 # 用 AI 做爬虫，本质上就五步，而且全程不用敲代码
@@ -17,24 +17,24 @@ AI 时代最大的意义，就是把过去的技术门槛打平，让普通人�
 下面就以手把手的方式，演示如何把想要的数据拿下。
 ## 第一步：锁定目标网站
 就拿 Boss 某聘举例，页面左侧的岗位列表就是我们要的目标。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_59f7b05aceb81bf03a1b5ac260048c71.png>
+![](img/zhuanqian_59f7b05aceb81bf03a1b5ac260048c71.png)
 ## 第二步：打开开发者控制台
 打开方式有两种：
 第一种是直接按 F12；
 第二种是鼠标右键点击页面，选择【检查】。
 以 Chrome 为例，打开后的界面如下：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_680955e8269b9dee1f68dead1e183ad3.png>
+![](img/zhuanqian_680955e8269b9dee1f68dead1e183ad3.png)
 切换到上方【网络】标签，英文界面就是【Network】。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d17a243fc3ea201d5c3dc1e1f13098c6.png>
+![](img/zhuanqian_d17a243fc3ea201d5c3dc1e1f13098c6.png)
 这时候你可能会发现列表是空的，别怀疑自己没点对。因为页面进来时数据早已加载完成，控制台只会拦截新发出的请求。
 要让数据重新流动有两个办法：
 1、按 F5 刷新页面；
 2、向下滚动列表，触发新数据的加载。
 这里我们采用第二种，更贴近真实使用场景。把鼠标放在列表上不停滚动，直到【Network】里出现新的请求记录，如下图。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9c2fc796e83b70d0f028e16e1f8a5be7.png>
+![](img/zhuanqian_9c2fc796e83b70d0f028e16e1f8a5be7.png)
 红框里的条目就是我们想要的数据源。左侧看到的招聘信息，其实都藏在右侧的网络请求里。
 看到 jobList 这个名字，基本就能判断这是岗位列表的请求。点进去看一下：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a30186d4eba6c470d32d9379808d07e8.png>
+![](img/zhuanqian_a30186d4eba6c470d32d9379808d07e8.png)
 先标记几个关键标签页：
 【Headers】：最核心的位置，能看到请求地址、请求头、响应头。
 举个例子，假设你是跑运输的，客户让你去四川省乐山市市中区凌云路 2435 号取乐山大佛送到黑龙江。
@@ -50,10 +50,10 @@ AI 时代最大的意义，就是把过去的技术门槛打平，让普通人�
 ```
 问号后面的内容是什么？继续用拉货的例子解释：到了地址后，发现有好多大佛，大小、材质、颜色各不一样。你得明确告诉对方你要哪一个。
 所以问号后面就是筛选条件，作用很重要，但我们不用硬写在地址后，浏览器里专门有【Payload】标签页来承载这些参数，如下图。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bb9f447647803ae9104f1b7b7eeb4cd4.png>
+![](img/zhuanqian_bb9f447647803ae9104f1b7b7eeb4cd4.png)
 点【view source】把它变成一行，方便复制记录。
 再回到【Headers】标签页，第二行是 Request Method：GET。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f3e91621fefe6bf21ae991474fa197b2.png>
+![](img/zhuanqian_f3e91621fefe6bf21ae991474fa197b2.png)
 请求方式主要有 GET 和 POST 两种，这里不需要深究，直接记录下来即可。
 到这一步，你的笔记里应该有如下内容：
 ```
@@ -62,9 +62,9 @@ AI 时代最大的意义，就是把过去的技术门槛打平，让普通人�
 请求方式：GET
 ```
 接着说身份验证。拉货需要提供证件，爬数据也一样，登录后权限会大很多。身份凭证就藏在【Headers】的请求头里，如下图。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c04ef19c103292c4973a3b803adb39d6.png>
+![](img/zhuanqian_c04ef19c103292c4973a3b803adb39d6.png)
 照常记下来。除了请求头，还有响应头，也一并记录，就像收货方的信息一样：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b1ed7ba91d68c852dc1090ed4c9272f4.png>
+![](img/zhuanqian_b1ed7ba91d68c852dc1090ed4c9272f4.png)
 此时你的记录本大致长这样：
 ```
 请求路径：https://www.zhipin.com/wapi/zpgeek/search/joblist.json
@@ -75,16 +75,16 @@ AI 时代最大的意义，就是把过去的技术门槛打平，让普通人�
 ```
 格式混乱不要紧，AI 能识别。
 最后还要告诉 AI 我们具体要哪些字段，以及这些字段在数据结构里的位置。切换到【Response】标签页：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c490e9199fe676dd967c44a7d52f299b.png>
+![](img/zhuanqian_c490e9199fe676dd967c44a7d52f299b.png)
 这里是原始数据，我们只取需要的部分。假设只想要岗位名称、公司名称、薪资、发布时间四个字段，就要在数据里找到它们对应的位置，比如下图：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7781e60a34939598e10916bc6c8d7ebe.png>
+![](img/zhuanqian_7781e60a34939598e10916bc6c8d7ebe.png)
 比如 salaryDesc 这个字段就是薪资。我们在笔记里这样写：
 ```
 爬取数据字段：
 薪资 ：在zpData下的joblist下的salaryDesc
 ```
 路径要从最外层写起，一层层往内部定位到目标字段，如下图：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0368be3e72f4eeeb7bb489ec0842023c.png>
+![](img/zhuanqian_0368be3e72f4eeeb7bb489ec0842023c.png)
 最外层是 zpData，code 和 zpData 平级，salaryDesc 在 zpData 内部，所以根节点是 zpData。
 同理把其他字段的路径也整理出来，不确定含义可以直接截图给 AI 看。
 整理完成后，笔记应该是：
@@ -95,7 +95,7 @@ AI 时代最大的意义，就是把过去的技术门槛打平，让普通人�
 岗位名称：在zpData下的joblist下的jobName
 ```
 再补上一个完整样本的数据结构，从上到下复制，第一条岗位信息即可：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_843f41ba43c074b0cfc49968ddbca032.png>
+![](img/zhuanqian_843f41ba43c074b0cfc49968ddbca032.png)
 黄线以下不需要，列表数据一般一个括号就是一条。比对左侧页面确认无误后，最终的笔记就齐了。
 ```
 请求路径：https://www.zhipin.com/wapi/zpgeek/search/joblist.json
@@ -119,7 +119,7 @@ AI 时代最大的意义，就是把过去的技术门槛打平，让普通人�
 ```
 把小本本里从头到尾记录的内容一次性完整地喂给 AI 即可。
 工具选择上，我的排序是：首选 Cursor 或 claude code，其次是 GPT，最后才是国内的 AI 产品。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_60f125195d0cc2aecdfb04e690b108bd.png>
+![](img/zhuanqian_60f125195d0cc2aecdfb04e690b108bd.png)
 选择 Cursor 的好处是，它不仅能帮你把代码写出来，还能直接在本地跑起来，最后直接把数据表格交付到你手上。
 而用 GPT 这类工具，虽然也能产出代码，但你还需要手动把代码复制到编辑器里自己执行。
 另外要注意，AI 生成的代码基本都是 Python，所以提前把 Python 运行环境搭好是必须的。不会配置的话，可以去我公众号的相关文章里找教程。

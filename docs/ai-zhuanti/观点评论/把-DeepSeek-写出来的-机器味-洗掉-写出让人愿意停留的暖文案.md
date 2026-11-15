@@ -62,7 +62,7 @@ AI 在信息层面能拿到 90 分，搜集整合快过人。但在细分领域�
 认知层面，AI 偏中庸，逻辑完整、顾全大局；人类则有独特的偏见和视角，这些“偏见”正是张力的来源。
 情感层面，AI 能模仿词汇，制造“有感情”的错觉，有时还能更精准地表达你的感受，可以当助手。但个体的故事、细腻的情绪捕捉、人类的温度和心跳，仍无法被替代。
 能量层面，我认为这是人类独有的，也是不可替代的。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0958c15368de853f4e09c0dc2e38ab60.png>
+![](img/zhuanqian_0958c15368de853f4e09c0dc2e38ab60.png)
 所以发力的重点不是去和 AI 比信息，而是提升自己的情感浓度与能量层级。
 让内容带有你的水印，自带签名，这才是当下内容营销的核心竞争力。
 ## 2、好内容的公式
@@ -104,7 +104,7 @@ deepseek 的味是“希腊人用蜡与羽毛飞向太阳，坠落时方知：�
 #### ②专业术语堆砌
 写干货时爱堆黑话。“触手”“认知塌缩”“压力阀”这类词。偶尔一个亮眼，全篇都是就让人想关掉。
 比如这篇小红书截图，一眼 AI 味：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ce0393ea2f3c2bc438dcf24e7c98e583.png>
+![](img/zhuanqian_ce0393ea2f3c2bc438dcf24e7c98e583.png)
 #### ③过度对仗短句
 爱排比、爱并列，短句罗列，点到即止就跳下一层，缺少思考的过渡。
 #### ④符号不日常
@@ -118,20 +118,20 @@ deepseek 的味是“希腊人用蜡与羽毛飞向太阳，坠落时方知：�
 告诉它要什么不要什么，反复修正，结果更贴近需求。
 【举例】
 我明确身份+受众+选题+文风+禁止指令后生成了一篇：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_89f040094d103bd0c30ca41037bf6b23.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e85b3cbbea11ea11188ad34614a60274.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_396ed64c5da37b282d0aa878a6efe5b5.png>
+![](img/zhuanqian_89f040094d103bd0c30ca41037bf6b23.png)
+![](img/zhuanqian_e85b3cbbea11ea11188ad34614a60274.png)
+![](img/zhuanqian_396ed64c5da37b282d0aa878a6efe5b5.png)
 效果约 70 分，再用自己的语言归纳润色，就是一篇合格的小红书稿。
 ## 2、傻瓜式投喂建个人文风库
 这是最快让输出贴近你的方法。
 我用的是懒人投喂法，夸夸 deepseek 聪明的地方是，你不会做它会教你做。
 春节时我直接问：“我想让你学习我的写作风格，需要给我什么？”
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1f2e8f7ad1f6bd1deebf4cc8ded57c97.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ae0c43d4ca2463e9469fe3347bf80751.png>
+![](img/zhuanqian_1f2e8f7ad1f6bd1deebf4cc8ded57c97.png)
+![](img/zhuanqian_ae0c43d4ca2463e9469fe3347bf80751.png)
 照着它的建议一步步投喂，我的心金文案体就建起来了。风格匹配度从 82% 升到 97.5%：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0803967b636e37d8ada9b35addf021e3.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_304a0e0469db023f72cfe534100eb495.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_dc9a748feab8ee98a786dbbd82fee16f.png>
+![](img/zhuanqian_0803967b636e37d8ada9b35addf021e3.png)
+![](img/zhuanqian_304a0e0469db023f72cfe534100eb495.png)
+![](img/zhuanqian_dc9a748feab8ee98a786dbbd82fee16f.png)
 思路很简单：不会提问就让 deepseek 当教练。直接说“我想实现 X 该怎么做”，让它一步步带你完成。
 小缺陷是 deepseek 会“失忆”，10 回合以上容易忘初衷，需要不断重申要求。
 ## 3、让 AI 鉴 AI
@@ -140,7 +140,7 @@ deepseek 的味是“希腊人用蜡与羽毛飞向太阳，坠落时方知：�
 ## 4、分区使用双重对照
 每个对话框记忆独立。我会开多个窗口：写文案的、做标题的、搭课程框架的、给生活建议的，各自独立。
 我的心金文案体投喂了两个模型，让它们分别写同一选题。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cc4d5e4847e1256a89a9debac0cd94dc.png>
+![](img/zhuanqian_cc4d5e4847e1256a89a9debac0cd94dc.png)
 互相补充，视角更全。可以设定一个偏感性一个偏干货，组合使用，AI 感就降了。
 # 五、二次加工加“人味”
 文案到底怎么才会有“人味”？说白了，就是要把AI那种太顺、太稳、太完美的感觉给打破。
@@ -165,7 +165,7 @@ AI的内容总很干净。但真实的创作偶尔会有个小错别字，标点
 # 六、思念爆文应用展示
 ### 热门成果
 把AI当工具，再配合矩阵分发，我不到半个月就在小红书和公众号上连着出了几篇爆款：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_413dca22a0a6fad2af6895e529c69efa.png>
+![](img/zhuanqian_413dca22a0a6fad2af6895e529c69efa.png)
 下面我拆一下我的真实创作流程。现在我主要用deepseek本体用，忙的时候会切到腾讯元宝。
 我从不把创作全丢给AI，它在我这儿就是个“思路外挂”和“快写助手”。
 一个选题下来，我会先自己过一遍脑子：我想说什么观点？想举什么例子？理顺了再丢给deepseek，让它怎么展开。它的思路我会拿来补充，但绝不全盘照抄，这也是防止自己脑子退化的训练。
@@ -174,12 +174,12 @@ AI只占两成，效率却比以前快了一倍。它帮我快速扒信息、搭
 ### 实操展示
 创作我一直遵循“一鱼多吃”的打法。一篇核心内容，换个说法投到不同平台。
 我很多爆款的雏形，其实就是朋友圈随手发的一段感想。比如这条：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2913d41403729220eb9409f954004e9c.png>
+![](img/zhuanqian_2913d41403729220eb9409f954004e9c.png)
 当时也就两百来字。
 后来我让腾讯元宝 deepseek版帮我扩了一下文：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_95b2823afd95157a1ee49e15ce6a5c97.png>
+![](img/zhuanqian_95b2823afd95157a1ee49e15ce6a5c97.png)
 我真正用上的，是它给出的行文逻辑。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f77210fae2b8d2ddd9c9b2517b20958d.png>
+![](img/zhuanqian_f77210fae2b8d2ddd9c9b2517b20958d.png)
 因为之前喂过我的写作风格，这两段很对味的句子我就直接用了：
 所有宣称“快速成功”的方法论，本质上都在贩卖焦虑。当创业者沉迷于“三天裂变”“月入十万”的公式时，往往忽略了一个真相：商业世界的基本法则从未改变——价值交付需要时间沉淀，信任建立依赖持续互动。
 在短视频追求“瞬时爆款”的时代，“慢就是快”成为稀缺的商业智慧。私域创业的核心竞争力，是构建“信任-交付-反馈”的正向循环系统
@@ -187,8 +187,8 @@ AI只占两成，效率却比以前快了一倍。它帮我快速扒信息、搭
 当然我也改了。把“信任-交付-反馈”改成了“信任-交付-复购”，因为“复购”对个体创业者来说，更实在、更懂。
 AI的东西最后还得自己把关。用专业判断它哪里不对，用认知去校准它是否真符合用户，这一步永远少不了。
 最后的成稿是这两篇：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f17475a7b65fe5937ccbf89e7b3e5c98.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b61a0ae110f1a6e41a16dd1dd84d8b1a.png>
+![](img/zhuanqian_f17475a7b65fe5937ccbf89e7b3e5c98.png)
+![](img/zhuanqian_b61a0ae110f1a6e41a16dd1dd84d8b1a.png)
 deepseek给了我框架和灵感，第三点的真实学员案例，以及三点的具体展开，全是我自己写的。
 你看，一篇成文 = 我的短文案 + AI的扩写灵感 + AI给的框架 + 我自己的故事案例。AI味被稀释得很淡，效率却翻倍。
 所以可以借鉴我的做法：AI负责快成文，你负责讲故事留钩子。别过度依赖它，它不一定对，也读不懂你和你用户的微妙需求，专业和判断力还是要自己握在手里。

@@ -9,8 +9,8 @@
 技能本身很难单独标价，重要的是，你用这项技能去服务了谁。
 同样是一份设计能力，你给大学社团做海报，20块钱人家都嫌贵；你给商场做logo，2000块可能都算便宜。运营、设计、视频拍摄这些能力也一样，脱离具体对象时，它们只是一套通用动作；一旦绑定某个真实人群，才可能被重新定价。
 我看过的、觉得有商业价值的例子里，包括美术考试机构用AI批量生产范画，去帮助高考生提高学习效率；也包括建筑设计师研发“AI+建筑”平台，帮更多室内设计师在更短时间里多赚到钱。这些还只是冰山一角。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1a67011128f96a7290cd2b7750a51080.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_834f470cec04681b65c8d3014f72d30b.png>
+![](img/zhuanqian_1a67011128f96a7290cd2b7750a51080.png)
+![](img/zhuanqian_834f470cec04681b65c8d3014f72d30b.png)
 我知道，这次航海里不少人就是冲着“头像+壁纸”来的。我铺垫这么多，不是想全盘否定这个方向，而是想劝大家审慎入场：头像和壁纸早就成了超红海赛道，哪怕做到5万粉这个量级，变现能力也依然偏弱，基本只能接低价广告。这是我跟大量万粉级博主亲自对谈之后得出来的结论。
 更麻烦的是，AI绘画的操作门槛还在不断降低。以前你多少还要懂点PS，现在Midjourney已经能做局部修改，妙鸭这种傻瓜软件也出来了，后面会玩的人只会越来越多。很多眼前看起来还能赚钱的空间，以后大概率会被一点点压窄。
 所以我们真的要从狂热里抽离出来，理性看待AI绘画：它确实是降本增效的趋势，但当下商用层面的短板也不该回避。
@@ -21,28 +21,28 @@
 我很喜欢龙哥大佬分享过的那句话：“怕什么真理无穷，进一寸有进一寸的欢喜。”等真做到一万张，从一个号变成三四十个号，再回头看，轻舟已过万重山。
 技术卡壳也很简单，多翻圈子里的干货分享，有问题直接在群里艾特教练，都能很快解决。刚开始做图，建议你从复制粘贴开始。小红书上最新鲜的现成提示词一抓一大把；要是你找不到自己满意的，问我要也可以。
 拿到一组提示词之后，用翻译器读一读，想想这串词里真正起作用的是哪些词，你在什么位置加减改动，或者调换一下顺序，画面会发生什么变化。比如一组关键词可以是colorful moebius搭配larme kei、enchanting realms、pensive poses，再配上light gold和light blue这类颜色词。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_658565a8b2d3bdee3d6cb9997b558937.png>
+![](img/zhuanqian_658565a8b2d3bdee3d6cb9997b558937.png)
 你可以试着加一个艺术家的名字，或者把颜色词改掉，看看效果会怎么变。等慢慢熟悉了，再换别的软件、尝试各种插件和lora，这整个就是一个让你逐渐上手的过程。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_292bc268541f28393b9554ee44ebb42e.png>
+![](img/zhuanqian_292bc268541f28393b9554ee44ebb42e.png)
 刚开始做图，我反倒建议你先自由表达，想画什么就画什么，别给创作套太多商业枷锁。等工具熟练了，再去做商业触达。我自己最大的体会是：有AI之后，做一张好看的图一点不难；难的是做一张能准确表达你想法和思路的图。这时候，你需要对画面构成有足够强的分析能力和拆解能力。
 如果你真心想用AI表达清楚自己，最实际的做法是建立一套属于自己的SOP。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f7c8b46d54da56e09c226a5601d94abb.png>
+![](img/zhuanqian_f7c8b46d54da56e09c226a5601d94abb.png)
 下面我放一次自己的完整做图过程，大家可以感受一下画面分析这件事有多重要。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cf3568a2867e4125662ee30e5165aba3.png>
+![](img/zhuanqian_cf3568a2867e4125662ee30e5165aba3.png)
 那是我第一次去厦门，在鼓浪屿上拍了一张照片。后来我又去过厦门很多次，却再也复刻不了那一刻的震撼和感动，于是我想用AI去还原当时的感受。这也是我当初摸索AI的原动力——它可以让我们暂时摆脱现实引力，自由表达脑海里的画面。
 我想要的画面核心元素是：秋千、少女、大海、夕阳。把它们组合成一个句子，我做了第一次尝试。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fb05285b5fd08f220aedc8eebe62b51c.png>
+![](img/zhuanqian_fb05285b5fd08f220aedc8eebe62b51c.png)
 第一版问题很多：
 - 构图：人物比例太大，没有把海的力量感凸显出来；
 - 色彩：海和天空都偏蓝，缺少鼓浪屿那种夕阳感；
 - 主体状态：四张图发色全不一样，我心里想的是棕发；
 - 画风：太日系二次元，质感不够。
 接下来，我就是用这些框架反复做小调整，一边改一边靠近自己脑中那个画面。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5d77d90302f9dc1b5d56cba6f3a61b1a.png>
+![](img/zhuanqian_5d77d90302f9dc1b5d56cba6f3a61b1a.png)
 终于，在不知道第几轮修改之后，我拿到了满意的结果。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_18c235f4a5ebad5b2144e96beaebeb74.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_beb8b6abf32fe3f28297301d0840e974.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8764821ac7c2d1fe4b178da13f270f30.png>
+![](img/zhuanqian_18c235f4a5ebad5b2144e96beaebeb74.png)
+![](img/zhuanqian_beb8b6abf32fe3f28297301d0840e974.png)
+![](img/zhuanqian_8764821ac7c2d1fe4b178da13f270f30.png)
 那一刻，真有一种“女儿诞生”的小感动。画面是自由的、空灵的，她站在我想要的夕阳和海风里。每次给朋友炫耀这张图，我都特别自豪地说：看，这是我“女鹅”给我画的！
 但大家仔细看，乍一看惊艳，细节上还是有一些常见翻车点，比如手和脚的小错误。这些其实都能靠其他工具补救：局部重绘、PS beta AI、seed和v重出刷新，都能处理。发自媒体，这些小细节可能无伤大雅；但是如果拿去商用，细节就一定得抠到极致，还得做分辨率放大。
 再往后，就要不断找参考图。大概60%的图片，Midjourney的/describe功能能一次性拆出靠谱提示词；还有40%，它抓不住关键点，就需要按我刚才教的方法手动去改了。
@@ -52,22 +52,22 @@
 - 美女+机械外骨骼
 - 车里+满满的鲜花
 - 故宫+冰雕风
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5f8385818987d2b90088b35daf8105bd.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b77f409440c0f908af628a846dae7903.png>
+![](img/zhuanqian_5f8385818987d2b90088b35daf8105bd.png)
+![](img/zhuanqian_b77f409440c0f908af628a846dae7903.png)
 你逛商场时有没有发现，80%的展柜都是黑白灰这类简单色系。如果这时候突然出现一个高纯度、高饱和的乐高黄，你会瞬间被它锁住目光。这其实就是用颜色抢占心智。
 这个思路完全可以搬进小红书瀑布流封面里：用强烈、夸张的颜色去抢占用户注意力。常见对比色有红+蓝、黄+紫、蓝+橙；也可以直接用高饱和高明度的颜色，比如克莱因蓝、荧光绿。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c06a59e599eee843dbd206b07c884134.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_647c5961193b0a7b6a1b7b0de0e3798f.png>
+![](img/zhuanqian_c06a59e599eee843dbd206b07c884134.png)
+![](img/zhuanqian_647c5961193b0a7b6a1b7b0de0e3798f.png)
 另外，标题最好带一点点互动感。写标题之前先想清楚目标用户：如果你服务的是18-25岁人群，MBTI、恋爱配对这些偏幻想感的词，或者学习、考研专用头像这类功能型卖点，都很容易击中他们；25-34岁人群，“打工人专属头像”“打工人元气小猫”这类心理代入口号就很有效；再往上，34岁以上，赛博佛祖、小和尚这些带有祈福和情绪寄托感的元素，会更戳他们。
 教练们在群里反复强调过：AI绘画到高级阶段，拼的就是审美。
 下面这两种风格，几乎是小红书上最经典的爆款模板，模仿他们的人数不胜数。其中第一张的点赞已经累计到5.5万，某种程度上，他们创造了一个风格潮流。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fc342d664bf5d8297a9ecc5b62c4eb30.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f5712e7090654adf5d46b9401315dcc8.png>
+![](img/zhuanqian_fc342d664bf5d8297a9ecc5b62c4eb30.png)
+![](img/zhuanqian_f5712e7090654adf5d46b9401315dcc8.png)
 创造这两组风格的人刚好都是我朋友。聊过之后我才知道，他们俩都是美院出身，有大量艺术史积累。他们创造新图时，最常做的是把以前的艺术家拿来融合，让前辈们画出他们没画过的东西。比如第一张是宋徽宗赵佶+西方艺术家萨金特；第二张则是席勒和绘本风格的结合。
 这件事让我更相信：创新不光是站在前人肩膀上，更是站在你自己的经验和理解结构上。我自己的背景其实和美术完全不沾边，唯一能算相关的是，我真的喜欢画画。正因为亲手画过，我非常确定：所有创造都不是凭空变出来的，而是看够大量参考，再把常见元素重新组合。
 所以，给大家提升审美的建议也很朴素：建立一个属于自己的素材库，大量模仿，最后形成自己的原创思路。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6201b80cd5dadac8dbaa56104221d874.png>
+![](img/zhuanqian_6201b80cd5dadac8dbaa56104221d874.png)
 我现在看到好看的图，会习惯性地收进Eagle，按标签和颜色整理。需要参考的时候，就按标签和颜色去搜索，作为创作起点。
 今晚说了不少，怕你们听得犯困，就先到这里吧。希望大家愿意抽出这一两个小时，得到一些真正有认识感、底层逻辑层面的启发。
 更多的内容，欢迎去我主页接着聊。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1c37d505930596d12a88ab23e11aa07a.png>
+![](img/zhuanqian_1c37d505930596d12a88ab23e11aa07a.png)

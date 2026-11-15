@@ -11,12 +11,12 @@
 用Prompt就能搞定，不难找。如果有语料素材，效果会更好——比如混沌大学的模型内容，挂在ChatPAN.ai上配置很方便。关键是要给每个工兵助手写清楚“你擅长解决哪类问题”，因为路由助手就是靠这段说明来做匹配的。这类助手用GPT-3.5就足够了。
 **路由助手（Router Assistant）又怎么搭？**
 它吃的是推理能力，所以得用GPT-4。做法是把所有工兵助手的总结统一列给它，让它来选。提示词的参考结构大概是下面这样：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7462baf777ddfe7e8e88c09ed0083d6b.png>
+![](img/zhuanqian_7462baf777ddfe7e8e88c09ed0083d6b.png)
 其中“model list”部分，可以根据工兵助手的列表自动生成。
 **拿ChatPAN.ai来落地**
 整个流程确定后，直接用ChatPAN.ai开发就好。
 工兵助手用平台默认能力就能设置。有个小技巧：想写出合适的助手说明，直接问助手自己。比如我上传“第二曲线”的模型文件当语料，然后让它自己告诉我它的说明：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fc9eaf0f83e57eb25a1773cd9bd05e17.png>
+![](img/zhuanqian_fc9eaf0f83e57eb25a1773cd9bd05e17.png)
 路由助手也简单——搞一个空语料（上传empty.txt文件），再配好背景信息和提示词。注意，因为它是做分析和筛选的，所以得让它返回JSON格式，方便后续流程用。提示词大致是这样：
 ```
 Please choose models you want to use, return raw json.A list of model you choose, each model into a json [{}], key is ....
@@ -25,8 +25,8 @@ Please choose models you want to use, return raw json.A list of model you choose
 它的任务：接受用户问题 → 调用路由助手拿到选中的模型列表 → 逐个调用工兵助手取回答案 → 汇总返回用户。这一步靠ChatPAN.ai的API做助手扩展，核心是用PostBot拿到控制权再处理。
 **测试结果**
 我用混沌大学的“第一曲线”“第二曲线”“组合创新”三个模型跑了一遍，效果让我挺惊喜的。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7a22fe34cca493ddafead99138142737.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1f06e5c779ae5976ff9dc0eddc66ed8d.png>
+![](img/zhuanqian_7a22fe34cca493ddafead99138142737.png)
+![](img/zhuanqian_1f06e5c779ae5976ff9dc0eddc66ed8d.png)
 **最后总结三点**
 1. 从构思到第一个可用版本，我只花了6小时。这里面有大半功劳属于ChatPAN.ai，把脏活累活都提前干完了，确实值得得瑟一下。
 2. 这套思路不是AutoGPT那种全自主规划——它预置了大量信息，比如各个工兵助手的说明，相当于把路由助手的推理范围圈定了，难度自然大幅降低。

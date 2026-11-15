@@ -42,7 +42,7 @@
 1. 打开 https://aistudio.google.com/prompts/new_chat
 2. 直接粘贴 YouTube 视频链接。
 如果原作者屏蔽了外部访问，就先把视频下载本地上传，Gemini 也能解析，产出分镜提示词。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7c04c852e5435b1a0bd0309ff55389ec.png>
+![](img/zhuanqian_7c04c852e5435b1a0bd0309ff55389ec.png)
 提示词模板：
 特别鸣谢 @云舒 大佬，他的公众号文章给了我灵感学会调教 Gemini。
 我目前用即梦做绘图，所以需要中文提示词，并且要符合即梦的语义习惯。
@@ -112,8 +112,8 @@ Gemini 产出示例
 分镜提示词 15,"阳光明媚的沙滩上，一个穿着白色上衣和牛仔背带裤的小男孩和一只浅黄色巴哥犬一起跪在沙地上建造沙堡，小男孩表情开心，巴哥犬表情开心。"
 分镜提示词 16,"从背后拍摄，一只湿漉漉的浅黄色巴哥犬坐在潮湿的沙滩上，怀里抱着一个穿着粉色襁褓的婴儿，婴儿**表情哭泣**，巴哥犬望着波涛汹涌的大海和远处的山崖。"
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a2517c9dea7016d6530383516cafe62b.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_525e33204486f3db6ffc974def44c18a.png>
+![](img/zhuanqian_a2517c9dea7016d6530383516cafe62b.png)
+![](img/zhuanqian_525e33204486f3db6ffc974def44c18a.png)
 ## 第三步：关键元素替换
 有了原视频的分镜文生图提示词后，直接复用画面会太像。我们需要做差异化魔改。
 工具：Gemini 助手。
@@ -191,9 +191,9 @@ Use code with caution.Csv
 2. 说清楚你想换什么，例如“把巴哥犬换成金毛幼崽”。
 3. Gemini会立刻返回一份改写好的新prompt。
 你完全可以按自己的需求指定替换对象，像下面这样操作：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3ccb1e7afbe543cee4d05c12f5eb43b4.png>
+![](img/zhuanqian_3ccb1e7afbe543cee4d05c12f5eb43b4.png)
 Gemini的处理速度很快，马上就会返回更新后的prompt。就像这个示例：原稿里的【霸王龙灾难】，被改写成了【机器人灾难】。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_027584b91a082cefee6d3d7e872efac2.png>
+![](img/zhuanqian_027584b91a082cefee6d3d7e872efac2.png)
 这套方案公认的优势在于：一份故事脚本能轻松复制出多个版本，后续转视频环节的prompt也可以共用，效率直接拉满。
 核心原理：它只替换主体、搭建背景这类可变的描述字段，剧情走向完全不受影响。换句话说——
 你完全可以让同一个脚本文本生成N个替换版，而且所有版本的视频描述都可以共用同一套。
@@ -296,32 +296,32 @@ d. 严格限制： 除此之外，不要添加任何其他确认、解释或文�
 特别说明：我的脚本是在1.28版上开发的，换用其他版本可能出现不兼容，请务必使用1.28。安装包已附在后面，或者去GitHub下载也行。
 浏览器只能是Chrome。
 按照下面这张图的指示来安装扩展：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_70ca041ee834a52df69181956240db3e.png>
+![](img/zhuanqian_70ca041ee834a52df69181956240db3e.png)
 安装结束，点击图中箭头所指的位置，即可见到Automa的操作面板。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3fc5e728af59d31bda9d6b66ab33c0e4.png>
+![](img/zhuanqian_3fc5e728af59d31bda9d6b66ab33c0e4.png)
 先别急着干活，点进设置界面做一番调整。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d916e079ceb2831b560a5edbf4472a61.png>
+![](img/zhuanqian_d916e079ceb2831b560a5edbf4472a61.png)
 语言下拉框选择中文，重新进入Automa，整个界面就都变成中文了。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_264f8b10e7de7fff4a945d0cbec7b8b3.png>
+![](img/zhuanqian_264f8b10e7de7fff4a945d0cbec7b8b3.png)
 返回到设置页面，参照图片勾上“对齐网格”和“Auto-save when execute workflow”两个复选框。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2b586edb109b324e3004e1cc62edaccc.png>
+![](img/zhuanqian_2b586edb109b324e3004e1cc62edaccc.png)
 现在可以导入我的工作流了，步骤看下图。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0015a7791e2b9a0ddc9f2506d4281cec.png>
+![](img/zhuanqian_0015a7791e2b9a0ddc9f2506d4281cec.png)
 弹窗出现后，选中那个json格式的文件。
 接着配置数据表。脚本在运行中抓取到的所有信息，都会被写入这些表里。
 点击左侧菜单栏的“存储”图标。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6b4b620cb3d27f44a522bc950b0e7dcb.png>
+![](img/zhuanqian_6b4b620cb3d27f44a522bc950b0e7dcb.png)
 点一下“添加表”。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0115bfbb0ac231f46f9c0b09326bca23.png>
+![](img/zhuanqian_0115bfbb0ac231f46f9c0b09326bca23.png)
 第一张表用来保存视频抓取数据，列名按图示填写，其中视频播放量的字段类型记得选Number，搞定后点保存。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d787b826b714db5eb5c299ab5f9a1170.png>
+![](img/zhuanqian_d787b826b714db5eb5c299ab5f9a1170.png)
 接下来要建一张新表，用来专门登记可灵账号的信息，照着下面给出的字段逐项填写填好后保存下来。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_159635bd5da7d8bc97c511342143b82c.png>
+![](img/zhuanqian_159635bd5da7d8bc97c511342143b82c.png)
 表格建好以后，就要到脚本里去关联使用，具体的关联方式我会在后面的教程里详细说明。
 随后要给脚本授权，第六步：可灵半自动登录，需要开放 cookie 权限。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_34e86d25755b8b5d6edcfe0ebbb83d8c.png>
+![](img/zhuanqian_34e86d25755b8b5d6edcfe0ebbb83d8c.png)
 再把第六步：可灵自动生成视频的脚本打开，给它通知权限和保存资源的权限。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_dac67aaa056da48e5e6d0a863a34b9eb.png>
+![](img/zhuanqian_dac67aaa056da48e5e6d0a863a34b9eb.png)
 下面我就把整套脚本怎么跑通讲一下：
 ## 这套脚本能做什么
 *   视频采集：既能抓单个视频，也能批量抓取。
@@ -337,136 +337,136 @@ d. 严格限制： 除此之外，不要添加任何其他确认、解释或文�
 我们依次来看————
 #### 采集某个账号全部 Shorts
 先关联表格
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f5977906c9a4284f83fa035d8907651a.png>
+![](img/zhuanqian_f5977906c9a4284f83fa035d8907651a.png)
 挑一个要关联的表格
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ba1f64f3eff57c1ab3c2dee7dbe1f72c.png>
+![](img/zhuanqian_ba1f64f3eff57c1ab3c2dee7dbe1f72c.png)
 到这一步就算连上了。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_33fa1df867d41760f99227b86bfe2740.png>
+![](img/zhuanqian_33fa1df867d41760f99227b86bfe2740.png)
 然后要设置采集到的信息写入表格的哪一列，按箭头提示来配置。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cb869600f61ed630f7f9e88774a4eaf4.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0d3ef28d0e8d732e63bbf4753280ffdf.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_078e19f4925594a4c8bf6dbd0b531616.png>
+![](img/zhuanqian_cb869600f61ed630f7f9e88774a4eaf4.png)
+![](img/zhuanqian_0d3ef28d0e8d732e63bbf4753280ffdf.png)
+![](img/zhuanqian_078e19f4925594a4c8bf6dbd0b531616.png)
 配置完成就可以使用了，记得点保存。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_82d7c6a8e99aa44dda8d719d7b12a74e.png>
+![](img/zhuanqian_82d7c6a8e99aa44dda8d719d7b12a74e.png)
 提醒一下：批量采集存在一定风险，建议用小号操作。
 脚本运行方式，先进入目标账号的 Shorts 主页；
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_946b649cacc53ad57f964032682d5c15.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e28037bc4bcf02a71b655e7b2c41970b.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cc6e8ddeed8ccbf18eb65e2a86123211.png>
+![](img/zhuanqian_946b649cacc53ad57f964032682d5c15.png)
+![](img/zhuanqian_e28037bc4bcf02a71b655e7b2c41970b.png)
+![](img/zhuanqian_cc6e8ddeed8ccbf18eb65e2a86123211.png)
 从行数变化就能判断数据是否抓取成功；
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_550de7d288b2d4e237dd5b50d0936ac2.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cb74d17fcdef78e28d1f4fa4f0cb3219.png>
+![](img/zhuanqian_550de7d288b2d4e237dd5b50d0936ac2.png)
+![](img/zhuanqian_cb74d17fcdef78e28d1f4fa4f0cb3219.png)
 抓取好的数据可以导出为 CSV 格式，操作方式如下图。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d01acf632d68171e2bcbcbe13bb90d18.png>
+![](img/zhuanqian_d01acf632d68171e2bcbcbe13bb90d18.png)
 #### 单个视频采集脚本
 单个视频采集同样需要先配置表格，方法和上面一致，这里就不重复了。
 在 Shorts 页面按 ctrl + alt + s，右下角会出现采集成功的提示。部分浏览器弹窗可能不显示，可以直接看表格里是否有数据来判断是否成功。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_73436f8dd3a4169b397bc7f95b178af7.png>
+![](img/zhuanqian_73436f8dd3a4169b397bc7f95b178af7.png)
 数据查看方式见下图：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_91b400d51164744ce79c359a84918926.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7eeaf1b195702a440dd6017a6c40ec06.png>
+![](img/zhuanqian_91b400d51164744ce79c359a84918926.png)
+![](img/zhuanqian_7eeaf1b195702a440dd6017a6c40ec06.png)
 如果你觉得这个快捷键不顺手，可以自行修改，修改教程如下：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_39661528069d73f292c9653a1bcdcc63.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b88f8023baa68f04302a15a9980d211f.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e2c75a330b5cdd0418e2a20d95730991.png>
+![](img/zhuanqian_39661528069d73f292c9653a1bcdcc63.png)
+![](img/zhuanqian_b88f8023baa68f04302a15a9980d211f.png)
+![](img/zhuanqian_e2c75a330b5cdd0418e2a20d95730991.png)
 我这里演示的是 ctrl+shift+s，你可以根据习惯任意设定：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_720d0a8f1eb8516c18c9ce0d5b61acec.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0f362aaf2ffbd69aa95caf39cf8a8ca8.png>
+![](img/zhuanqian_720d0a8f1eb8516c18c9ce0d5b61acec.png)
+![](img/zhuanqian_0f362aaf2ffbd69aa95caf39cf8a8ca8.png)
 ### 第二步：对标视频分镜拆解
 先把 Shorts 采集表连上，连接方式同第一步。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_65d5f1799859bd7e3580c1db19f6e750.png>
+![](img/zhuanqian_65d5f1799859bd7e3580c1db19f6e750.png)
 然后筛选出 插入数据 为“否”的记录
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_71d2881c0db0b23d11ac21693fbd9d79.png>
+![](img/zhuanqian_71d2881c0db0b23d11ac21693fbd9d79.png)
 表格列要选择是否支持解析。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f664fd79c6288a45a6bdfb025e872500.png>
+![](img/zhuanqian_f664fd79c6288a45a6bdfb025e872500.png)
 配置方法同上
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_20e8c16cabe73749344f108375e6a6fc.png>
+![](img/zhuanqian_20e8c16cabe73749344f108375e6a6fc.png)
 接着配置文生图提示词的写入位置。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_65dad7d26ae39f06bbf05465c11febdc.png>
+![](img/zhuanqian_65dad7d26ae39f06bbf05465c11febdc.png)
 选择文生图提示词
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ddac1e4e8d8ee8d58025fe444bbe30f9.png>
+![](img/zhuanqian_ddac1e4e8d8ee8d58025fe444bbe30f9.png)
 配置方式一样
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1bf0235410e1bdd00dfde62ddc1bd0e8.png>
+![](img/zhuanqian_1bf0235410e1bdd00dfde62ddc1bd0e8.png)
 保存后即可运行脚本。
 直接运行 第二步：视频分镜解析 脚本，它会自动读取表格里的视频链接，并调用 gemini 解析出提示词；
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e0b83f07c839587961bb01e6888d23ac.png>
+![](img/zhuanqian_e0b83f07c839587961bb01e6888d23ac.png)
 示例如图：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_73886a8d9ef86994f6bed1a500456dfd.png>
+![](img/zhuanqian_73886a8d9ef86994f6bed1a500456dfd.png)
 需要注意，有些 YouTube 视频不支持解析，不支持的视频就不会生成文生图提示词，也不会生成图生视频提示词，如下图所示。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_335377bd0c1b9cd00128d75902f02d26.png>
+![](img/zhuanqian_335377bd0c1b9cd00128d75902f02d26.png)
 ### 第三步：替换关键元素
 先把 “第三步：写入替换替换提示词” 关联到表格
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b136b9f51d257aacdf1a7ea2ffff2540.png>
+![](img/zhuanqian_b136b9f51d257aacdf1a7ea2ffff2540.png)
 然后设置插入数据。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_58f9b6a2cfea01c473b76cb9c5e9db4d.png>
+![](img/zhuanqian_58f9b6a2cfea01c473b76cb9c5e9db4d.png)
 选替换提示词，保存。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6dfc82805d5c2c4d632bba234b888786.png>
+![](img/zhuanqian_6dfc82805d5c2c4d632bba234b888786.png)
 运行前，需要先为每个提示词准备好要替换的关键词，用 txt 文档写，一行一个，不想改的就写“无”。
 如图，注意顺序要对应。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_16a25a873d9382f02e55cdba075281fd.png>
+![](img/zhuanqian_16a25a873d9382f02e55cdba075281fd.png)
 准备好后运行脚本，会弹出一个输入框让你填路径；
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cc13f0f3a54045e69b11de16453de5df.png>
+![](img/zhuanqian_cc13f0f3a54045e69b11de16453de5df.png)
 填好路径后执行即可；
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_02468011594b361bb5ed16d7edc12bed.png>
+![](img/zhuanqian_02468011594b361bb5ed16d7edc12bed.png)
 执行完去表格里核对一下是否写入成功，确认无误后。
 再去配置 “第三步：替换关键元素” 脚本。
 先关联表格，再设置插入数据。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0e37be324f1597c8aa15a56284002b75.png>
+![](img/zhuanqian_0e37be324f1597c8aa15a56284002b75.png)
 按图示选择
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f8542b26ca72bd6c079f117120b2bc7a.png>
+![](img/zhuanqian_f8542b26ca72bd6c079f117120b2bc7a.png)
 然后配置插入数据
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6dac70af88eae6f726590728a4613c56.png>
+![](img/zhuanqian_6dac70af88eae6f726590728a4613c56.png)
 选择文生图提示词
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3815ef06d01983ce9b73b4313cc12fa8.png>
+![](img/zhuanqian_3815ef06d01983ce9b73b4313cc12fa8.png)
 下面一项也需要配置，方法相同。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e31410bc34ad98ee89d9d2b80c3d51b8.png>
+![](img/zhuanqian_e31410bc34ad98ee89d9d2b80c3d51b8.png)
 配置完成后运行
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7fd54983280528690838675abbcede29.png>
+![](img/zhuanqian_7fd54983280528690838675abbcede29.png)
 原始提示词：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1b049922cf4a921a85e47775f573263c.png>
+![](img/zhuanqian_1b049922cf4a921a85e47775f573263c.png)
 替换后的提示词：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f0caedbc2c9374d72756df60459212ef.png>
+![](img/zhuanqian_f0caedbc2c9374d72756df60459212ef.png)
 替换完成的数据会覆盖表格中原有的提示词。
 ### 第四步：生成分镜图片
 先让脚本关联表格。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_318a43b4432b95391037556c9056859e.png>
+![](img/zhuanqian_318a43b4432b95391037556c9056859e.png)
 出图我用的是国际版即梦，可以免费使用，注册邮箱用 https://maildrop.cc/ 即可。
 运行出图脚本前，先手动登录好国际版即梦。
 登录成功后直接运行 国际即梦出图的脚本即可。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_914759c841e19403087c444b1bd39f22.png>
+![](img/zhuanqian_914759c841e19403087c444b1bd39f22.png)
 再分享一个我用 python 写的批量重命名工具：
 选图时按顺序下载到同一个文件夹，把程序也放到该文件夹运行，它会自动把图片命名为 1、2、3、4、5 这样的连续编号，并生成一个图生视频清单文件，把图片路径自动填入，这样后续只需填写图生视频提示词即可。
 ### 第五步：撰写图生视频提示词
 目前还没有自动化脚本，我是借助上面的重命名程序生成的文档，手动填写的。
 ### 第六步：图生视频
 先关联可灵账号记录的表格
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_dfe8d1e0acd828def97e61b2211ba5c1.png>
+![](img/zhuanqian_dfe8d1e0acd828def97e61b2211ba5c1.png)
 获取邮箱时选择账号
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8a7fbaa4d8dcbab3b4dad19dee47ebb7.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2ac5b792645c910cd67c0835a587f12c.png>
+![](img/zhuanqian_8a7fbaa4d8dcbab3b4dad19dee47ebb7.png)
+![](img/zhuanqian_2ac5b792645c910cd67c0835a587f12c.png)
 插入密码时选择密码。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_35cf708bdced0d96d971b099e6aff27f.png>
+![](img/zhuanqian_35cf708bdced0d96d971b099e6aff27f.png)
 保存好。
 图生视频我用可灵，先运行注册脚本，它会自动完成可灵账号注册，但滑块验证码需要人工通过；
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_363420275beb8c3573c3413b99081675.png>
+![](img/zhuanqian_363420275beb8c3573c3413b99081675.png)
 注册时使用的邮箱会自动保存到 可灵账号记录 表里；
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b8df709dc4bf70a80248214da6a0d9ed.png>
+![](img/zhuanqian_b8df709dc4bf70a80248214da6a0d9ed.png)
 默认注册密码是 123456，如需修改按下面步骤操作；
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_520659e27df96b946eaf95170196967f.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7e2e7361686198a96bb6694c9681220a.png>
+![](img/zhuanqian_520659e27df96b946eaf95170196967f.png)
+![](img/zhuanqian_7e2e7361686198a96bb6694c9681220a.png)
 账号注册并自动登录后，手动进入图生视频页面，选择 1.6 模型；
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_39ba72adfcb057128e9d0ec95d21c91b.png>
+![](img/zhuanqian_39ba72adfcb057128e9d0ec95d21c91b.png)
 然后配置图生视频脚本；
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b8bd8186972cff357f38586d38963e68.png>
+![](img/zhuanqian_b8bd8186972cff357f38586d38963e68.png)
 主要是设置数据读取的文件路径和范围；
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7de947466dc48928a3f96f43485d2456.png>
+![](img/zhuanqian_7de947466dc48928a3f96f43485d2456.png)
 这里需要填入你自己的图生视频 excel 文档路径；
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8d0afee4868dda39a0e4735a2262511d.png>
+![](img/zhuanqian_8d0afee4868dda39a0e4735a2262511d.png)
 文档格式如下，无表头；
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_16deb11067054a1be81d887a61705890.png>
+![](img/zhuanqian_16deb11067054a1be81d887a61705890.png)
 再设置好读取范围，
 一个可灵账号的积分可生成 8 个视频，所以数据范围最多 8 条，例如 1-8 对应 A1:B8，9-16 对应 A9:B16，以此类推。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1820cb9d2e1cb21d4c6b851f7b294e08.png>
+![](img/zhuanqian_1820cb9d2e1cb21d4c6b851f7b294e08.png)
 数据配置好后回到可灵生视频界面运行脚本，它会自动下载生成的视频，并以图片文件名命名，例如图片是 1.jpeg，视频就是 1.mp4。
 # 结语
 借助 AI + RPA，我把素材生产做到了高度自动化，效率大幅提升。虽然前期配置会比较麻烦，但一次配置好后后面就能一直复用。虽然现在仍有部分环节需要人工介入，但未来会越来越全自动。这套流程不仅适用于 AI 动物故事赛道，其他 AI 赛道同样可以借鉴。

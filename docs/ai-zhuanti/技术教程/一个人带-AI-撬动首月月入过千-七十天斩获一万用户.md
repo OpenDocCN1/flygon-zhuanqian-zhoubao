@@ -17,10 +17,10 @@
 做的是取件码自动管理工具的上线 APP，目前 iOS 已上架，安卓可在官网下载。定位很小，就是取件小助手。没想到第一款作品，上线首月就实现月入千刀。下面把思路和做法拆碎讲，希望对正在做事的朋友有启发。
 ## 3.1 数据概览
 展示的是 iOS 后台，统计区间 5.15～7.22。安卓数据更健康些，只是刚上线没统计，先以 iOS 为准。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1429ca7aa3dd1f20f4efab8cf6ecafdd.png>
+![](img/zhuanqian_1429ca7aa3dd1f20f4efab8cf6ecafdd.png)
 （图 1）
 产品截图：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_61b01aa5c7088ca5f5af4477f07858bb.png>
+![](img/zhuanqian_61b01aa5c7088ca5f5af4477f07858bb.png)
 产品名：码上取
 产品定位：取件码自动归集应用
 核心能力：收到短信后自动抓取取件码入库，并以组件、灵动岛形式展示
@@ -45,7 +45,7 @@
 2、人站在驿站 -> 打开短信 -> 在密密麻麻列表中检索 -> 点开 -> 查看码
 一件小事，路径却非常绕，还要给各家 APP 贡献日活、看广告。
 我当时的想法就是有没有一次性解决的工具。晚上刷小红书，算法给我推了 iOS 取件码快捷指令。一看，正中痛点，立刻试。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ed626c5ebccb14723006b27cdf7dd8f9.png>
+![](img/zhuanqian_ed626c5ebccb14723006b27cdf7dd8f9.png)
 （图三）
 结果并不理想。按教程配了半小时，十几页步骤，还要学习正则去适配我家快递的短信格式，还要频繁切换手机，看起来就烦。试了几次失败就放弃了，谁愿意折腾。
 但这类型笔记点赞收藏动辄几千，说明需求很强烈。
@@ -53,7 +53,7 @@
 1.  需求真实且旺盛： 快捷指令相关内容热度很高。
 2.  现有方案门槛太高： 配置复杂劝退大部分懒人。
 想法自然清晰：既然大家都在费劲解决，不如做一个开箱即用的 APP。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_80a11ddd9722de40342ef0e1f843ce1a.png>
+![](img/zhuanqian_80a11ddd9722de40342ef0e1f843ce1a.png)
 （教程虽好，但是实在是太复杂了～）
 （图四）
 再往前想一点，我也是懒人，如果有一个不用配置就能用的方案，是不是会被抢着用？于是赶紧动手，别让别人抢先。
@@ -68,7 +68,7 @@ tips: 有感觉的好点子先放一放做调研。若市场没人做，可能�
 问题 3：市场规模多大？
 问题 1：
 我之前根本没装菜鸟裹裹，靠 APP 和短信取码。我家附近只有一个驿站，所以没意识到问题。但用户评论让我发现信息差。很多人家附近不止一个驿站，可能有菜鸟、驿收发、妈妈驿站等，菜鸟兜不住全部。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4afb683ea83c0fd9e05ae70bd6795c51.png>
+![](img/zhuanqian_4afb683ea83c0fd9e05ae70bd6795c51.png)
 原因拆解：
 1、菜鸟广告多，用户反感。
 2、多个驿站无法统一查看。
@@ -79,18 +79,18 @@ tips: 有感觉的好点子先放一放做调研。若市场没人做，可能�
 再加上小红书用户天然追求效率与体验，这类工具转化快。
 问题 3：
 规模 = 全国驿站数量 × 覆盖人群。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_794f5dc6ce4cc2faabaf70e80ac929df.png>
+![](img/zhuanqian_794f5dc6ce4cc2faabaf70e80ac929df.png)
 除了菜鸟，还有大量其他品牌驿站，分散竞争。哪怕只做菜鸟之外的用户，对新手来说也足够。最初目标只是赚 1000 块。
 市场足够大，各家通知方式各异，如兔喜用小程序、丰巢用服务号。
 ## 3.5 对手分析
 从产品与流量两层看。龙哥说过，先做流量，流量做不起来产品不必做。
 #### 3.6.1 产品层
 翻对手小红书评论与自己实测，发现作者多为素人，产品硬伤明显。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c3c5b2266643e3f745ca901eede3ea16.png>
+![](img/zhuanqian_c3c5b2266643e3f745ca901eede3ea16.png)
 （竞品APP 首页）
 主要短板：
 *   UI 审美不足，但用户居然主动帮忙优化，还获千赞。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1732e47a2a2724a4e9c9427700b6d4ee.png>
+![](img/zhuanqian_1732e47a2a2724a4e9c9427700b6d4ee.png)
 （用户帮他的优化的 UI 稿）
 *   信息架构不清晰
 *   交互违背大众习惯
@@ -143,10 +143,10 @@ tips:
 # 六、商业化设计：定价、转化与竞争
 1.  定价
 “卖空气”策略。6 月 12 日收费时，Pro 仅完成灵动岛一个功能，其余全标开发中。但因一个月来的高频互动与 BUG 解决，用户信任度高，付费驱动力来自信任。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ae33e8dd2a9cdbaf0e3d3cab97877799.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_76611200527d34a44ab7d0c76acc413e.png>
+![](img/zhuanqian_ae33e8dd2a9cdbaf0e3d3cab97877799.png)
+![](img/zhuanqian_76611200527d34a44ab7d0c76acc413e.png)
 （近期做iphone 快捷指令的视频）
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_89e1cd76cd8b6189c31b23b37b61a9fd.png>
+![](img/zhuanqian_89e1cd76cd8b6189c31b23b37b61a9fd.png)
 （竞品账号主页）
 想让产品更快被用户接受，定价方式往往是一个关键突破口。
 一种可行的做法，是采用“先低后高”的阶梯价格。早期阶段给首批用户更大的优惠，随着产品逐渐被认可，再分阶段上调价格。这样一来，已经购买的老用户会觉得自己提前入场、占到了便宜；还在观望的新用户，则会产生“现在不下单，之后成本可能更高”的紧迫感，从而加快决策。

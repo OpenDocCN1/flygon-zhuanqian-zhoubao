@@ -1,95 +1,95 @@
 # 1年，从转岗到副业跑通，再到教练和IP：我找到的不只是赚钱，还有生活的意义
 我很少愿意承认，自己走过的路其实算不上一帆风顺。前年七月，我还是个天天对着画板较劲的设计师；到如今，我的名字后面多了一串标签：运营人、副业探索者、迷你航海计划的领航员。听起来像是一条设计好的成长路径，但只有我自己清楚，这些改变没有一次是“按剧本演出”的。它们更像是一个普通女孩，被生活一次次推到岔路口，然后硬着头皮选了一条更难走的路。
 我想讲的不是一个“成功故事”，也不是为了证明什么。我只是想把这几年怎么从迷茫里挣扎出来、怎么在试错中摸到一点光亮的经历，原原本本说给你听。因为一路走下来，我越来越确定一件事：赚钱从来只是生活的手段，用自己攒下的见识和本事，把日子过成想要的模样，那才是真正值得奔赴的目标。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ddf22bdf637db029dd3277b9d4ef45aa.png>
+![](img/zhuanqian_ddf22bdf637db029dd3277b9d4ef45aa.png)
 **逃离：命运的地图，要自己画**
 我从来没觉得自己是那种热血沸腾的人。当初背起行囊从小县城跑去杭州，动力说穿了就两个字：不甘。
 我出生在一个不穷、但让人喘不过气的家庭。我爸性格强势，说一不二，我妈受了委屈也只会自己咽。家里是两个女孩，可“男孩才传宗接代”的阴影，始终罩在我头顶。初三毕业那年夏天，我爸把我叫到跟前，认真地告诉我：“以后你得招个上门女婿，生了孩子随咱家的姓。”他说得很平静，我却像被泼了一盆冷水。从那一刻起我明白了：连婚姻和孩子姓氏都被早早“规划”好的人生，如果我自己不跑，没人会替我跑。
 当然，经济上的差距也是实实在在的。在我老家，消费水平和一线城市齐平，工资却低得可怜。平面设计这份工，拼死拼活做到头，一个月也就四五千块。长沙稍微好点，但也好得有限，顶天了六七千。我想赚钱、想独立、想自由，就必须走得更远。挑来挑去，选了杭州：那边有朋友能照应，当时的毕业生补贴也不错，而且电商设计正热得发烫。我满怀期待地以为，到了那里一切都会顺起来。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_77a8c2a8fdb556382cc4a2c6393b9ea0.png>
+![](img/zhuanqian_77a8c2a8fdb556382cc4a2c6393b9ea0.png)
 现实很快给了我一个下马威。杭州的电商设计岗位早就过了最红火的阶段。我投出去的简历，大多数都没了回音。最开始还底气十足地报出六七千的期望薪资，几次碰壁之后，人变得老实多了。最后，我进了一家阿里外包公司，起薪四千，每天通勤来回四个小时。
 但坦白讲，即使是外包，我做的也是大厂水平的设计项目。那种工作标准、流程规范和视野格局，是老家那种小地方永远给不了我的。也是从那时候起，我开始意识到：大城市最值钱的，不是工资条上的数字，而是你能接触到的人和事。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2159ba63279139221dbbd800f1453a35.png>
+![](img/zhuanqian_2159ba63279139221dbbd800f1453a35.png)
 霉运也没放过我。刚上班没几天，医保还没交上，我就因为喂流浪猫被抓伤，打了五针狂犬疫苗，花了八百块。对别人来说，这也许只是小钱；可对当时月薪四千、还要交房租的我来说，差不多是半个月的伙食费。日子一下子紧巴得让人想苦笑。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_750c9fb0f42b2dab11063d9f532623e3.png> <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_48ff0212aa9d841acb050e26184156b1.png>
+![](img/zhuanqian_750c9fb0f42b2dab11063d9f532623e3.png) ![](img/zhuanqian_48ff0212aa9d841acb050e26184156b1.png)
 带我的是一位脾气挺冲的女生，每次我问她问题，都要做好被吼的心理准备。当时团队里不少人都觉得，我撑不过一个星期。结果我不但没走，反而把她“熬”走了。后来有人无意间对我说：“真没想到，你能留到现在。”听到那句话的时候，我心里特别痛快，因为我知道自己赢在了一件事上——死磕到底。
 但那个阶段的苦，也是实打实的。设计稿一遍遍改，加班到凌晨两三点是常有的事；更折磨人的是，深夜下班地铁已经停运，只能自己掏钱打车，没有加班费，也没有报销。这些我没跟家里提过一个字。我不是怕他们担心，是怕听到那句“早跟你说过不行”。我要用行动告诉他们：只要我想留下来，就一定能站稳。
 除开上班，我手里一直没断过画稿接单。从大学到毕业后的头两年，我都是靠这门手艺给自己挣点零花钱。当时我完全没想到，后来会遇见一个圈子，让我看见另一种做副业的可能。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_017dae02e986b20aa85c3c39a1b97ee9.png>
+![](img/zhuanqian_017dae02e986b20aa85c3c39a1b97ee9.png)
 我坚信，想要改变命运，就必须把自己放进信息密度更高的地方。只有站在更高的平台上，才看得见更远的路径。
 **转轨：从设计师到运营人，是切断后路的前行**
 在毕业后的第二年，我以品牌设计师的身份在龙哥盟里工作。表面上做得顺手，心里却一步步陷入巨大的困惑。
 设计曾经是我很喜欢的事，每张稿子都像自己的孩子。可工作越久越发现，这个行业有太多让人无力的地方：审美这东西太主观，客户一句“没感觉”，就能让你推翻掉一周的心血；做出来的图价值多少，要靠运营、流量和推广说了算；职业道路呢，明晃晃摆在那里，做到顶也无非是开一家乙方公司，继续重复眼下的轮回。
 那种被掏空的感觉一天比一天强烈。我开始怀疑：靠设计这根拐杖，真的能走到我想要的生活里去吗？
 转机是我的上司小花带来的。她大概看出了我的挣扎，某天闲聊时直接问我：“要不要挪个位置，试着做运营？”就是这么一句话，像一根火柴，瞬间点燃了我心里憋了很久的那团火。其实我早就想转，只是一直不敢说出口。运营对当时的我来说，完全是个陌生的世界，意味着要丢掉学了多年的专业，从零开始。失败怎么办？这个念头，曾经牢牢锁住我。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_80725dd9b366de4be86683e41d0b6dcd.png>
+![](img/zhuanqian_80725dd9b366de4be86683e41d0b6dcd.png)
 但小花不仅替我说出了那句话，还帮我把转岗的机会争取了下来。她推的这一把，让我忽然觉得轻松了不少。既然有人愿意拉我一把，那我就干脆跳下去，游到对岸再说。我申请转岗的时候，心里只有四个字：背水一战。
 真正坐到运营的工位上，我发现这里就像另外一个星球。“私域”“陪跑”“转化”“获客”“客单价”……这些词在我耳朵边嗡嗡作响，每一个都像外语。第一次写复盘文档，我对着屏幕磨了整整三天，最后连“提交”按钮都不敢碰。第一次开会，大家聊得热火朝天，我全程张不开嘴，只能低着头拼命记笔记。还有一次弄数据报表，花了两天时间交上去，同事很客气地说：“看得出来你很用心，只是逻辑这块有点问题。”那一瞬间，我仿佛又变回了刚毕业的实习生。
 不过，随着日子往后走，我慢慢留意到一件微妙的事：过去的积累并没有白费。我习惯了从“用户视角”想问题，做活动时总会下意识地去想，用户第一眼看到什么、哪个环节会让他们犹豫；我对版式、色彩有天然的敏感，这让宣传物料的对接变得非常高效，有些东西干脆自己上手就做了；同时，我特别耐得住性子抠细节，这在运营执行里反倒成了加分项。
 那时候我才真正想通：过去的每一步，都不是白走的。它们只是换了一种姿态，在暗处接住你。
 转岗这件事，改变的不仅是岗位名称，更像给人生按了一次重启。它让我慢慢懂得：不用怕推翻自己，只要肯学，新的本事总会慢慢长出来；过往的经历也不会成为拖累，它会在未来的某个角落，变成你独特的优势；机会有时候需要被人从后面推一把，而你唯一要做的，是当它来临时，伸手抓住。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6e3366b73739b24f723980d91c3541ed.png>
+![](img/zhuanqian_6e3366b73739b24f723980d91c3541ed.png)
 **突围：把执行变成信仰，副业才有机会**
 在赚钱做运营的过程中，我的状态渐渐有了变化。这么好的土壤摆在眼前，身边所有人都在往前冲，我不甘心只当一个旁观者。到了毕业第三年，我给自己下了一道死命令：一百二十天之内，必须跑通一条完整的副业赚钱链路，如果做不到，就收拾行李回老家。
 我太清楚了，如果拿不出一点成绩，家里人只会说我在外面瞎折腾。与其听那些冷话，不如先把自己逼上绝路。我把这个想法跟直属上司纪钟讲了，他什么反对的话都没说，反而还很认真地帮我拆起了目标。
 一开始，我挑中了自己比较喜欢的平台——小红书。先后试过内容合作商单、日用百货类的售卖，前前后后折腾了快六个星期。要么是数据跑得太慢，要么是根本看不到头。那段日子，白天上班、晚上副业，我像一台不知疲倦的机器，机械地刷素材、编文案、发笔记。可换来的反馈寥若晨星，焦虑一天比一天沉。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e9d22564f2e18ccb932bc6caddb337e6.png> <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5b7b5542a09e66b69411e5b3f073ff76.png> <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_74e6b4c4ad1089a7453acc6c68e63b50.png> <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_007f8824840c05716cd4315db2b3d2b2.png> <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_44326b6c148cf00d1ad4241e70113664.png>
+![](img/zhuanqian_e9d22564f2e18ccb932bc6caddb337e6.png) ![](img/zhuanqian_5b7b5542a09e66b69411e5b3f073ff76.png) ![](img/zhuanqian_74e6b4c4ad1089a7453acc6c68e63b50.png) ![](img/zhuanqian_007f8824840c05716cd4315db2b3d2b2.png) ![](img/zhuanqian_44326b6c148cf00d1ad4241e70113664.png)
 转机很意外地出现了。当时我报名了一个知识资料产品的线上训练营，也就是后来大家说的资料类目航海。报名之后，我提前抢跑了一周，每天发十几条内容，结果依然毫无波澜。就在心态快崩掉的边缘，我把自己遇到的卡点写下来，发给了群里负责答疑的希平教练。
 没想到，他直接打了一通电话过来。我正站在地铁车厢里，手机震动时还愣了一下。接起来，他说的头一句话是：“你身上这股劲，真不是每个人都有的。”我整个人都愣住了。在我眼里，拼命努力本来就是理所当然的事，怎么到了他口中，反而成了稀缺的优点？那通电话让我忽然觉得：也许自己并没有想象中那么差。
 随后他给我发来一份调研表，叮嘱我别闭着眼睛瞎干。当天回家以后，我照着表里每一条认认真真执行：把做得好的同行全部加了一遍，翻看他们过往的动态，研究他们怎么说话、怎么展示商品，一点一点把观察到的信息填进表格。那阵子，我几乎把能挤出来的时间全部砸了进去。把表格交上去后，他给了更具体的指导，我眼前的场景一下子变得清晰了不少。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8c47f3f3c34098d6f09a9b9a300310aa.png> <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ec8212a2fa5b47b7adc02d7889f70de7.png>
+![](img/zhuanqian_8c47f3f3c34098d6f09a9b9a300310aa.png) ![](img/zhuanqian_ec8212a2fa5b47b7adc02d7889f70de7.png)
 有了方向，我果断做了减法。我不再贪多求全，而是把目标收窄到一个非常细分的领域：为带班老师群体提供成套的教学资料。选这个方向的原因很简单，它离成交更近。早前我在小红书站内卖过自己设计的新春利是封，那一次经历让我对站内成交的“轻巧感”记忆犹新。于是我重新建了一个账号，把原来的内容逻辑整体复制过去，不做引流，直接开店铺、上商品。笔记也不再是干巴巴的截图堆砌，而是自己实拍、修图、反复打磨文案，让每一条看起来都更有“人味儿”。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3131b965ead66d0fc062991de9ca4278.png> <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a64a79880b000bb20cdf9afacf7a2cab.png>
+![](img/zhuanqian_3131b965ead66d0fc062991de9ca4278.png) ![](img/zhuanqian_a64a79880b000bb20cdf9afacf7a2cab.png)
 没过多久，我的第一条内容火了。
 手机震得发烫，提醒红点像潮水一样密密匝匝地涌过来，我一条条回，回到手指发酸都回不完。可我心里高兴。紧接着第二条、第三条、第四条……发一条火一条，就像拿到了什么神秘钥匙。那阵子，我常常看着屏幕眼眶发热，因为我知道，之前所有的坚持和等待，都在那个瞬间给出了答案。
 如果你对我的玩法感兴趣，我当时把一个几乎涵盖全部经验的精华帖留了下来，链接放在文末。但比方法更刻骨铭心的，是那三个月里自己一个人咬牙咽下的滋味。那九十多天，我每天早上睁开眼就开始焦虑今天的销量；白天在公司机械地刷图、编辑、发布，晚上回到家躺到床上，脑子却翻来覆去停不下来。怀疑，坚持，再怀疑，再坚持——这句话的循环，我大概过了几千遍。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6552e7680695b136e1edfde3afff14e7.png> <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_45168f8ef29ac239941cbeaba1188dba.png> <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0486abacc06481e24ae1c1231aa3e6b6.png> <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8cd3794af596caa32899fbafa0d18baf.png> <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8c58cd3fb5195c1c97172a22970b772d.png> <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c06f51b68a57372e72639da97f24b6a6.png> <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_66e03c2085fa5e8f566c69b417017b1c.png> <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0a9ae4d8de91ac578426589ac53d3444.png> <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1120ef76f7f23c35a6055027b82152c2.png> <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d21f6e8e13d3abc86947ce3f67f5c60e.png> <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4d8f791d870eabae14e9777effc7d2d9.png> <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cc048df4301c74816cddc79dd043bb12.png> <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_57bdf4a12dbfba64f31ccdd36e09db55.png> <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c0bfa753e41ea204aa30894615c59a49.png>
+![](img/zhuanqian_6552e7680695b136e1edfde3afff14e7.png) ![](img/zhuanqian_45168f8ef29ac239941cbeaba1188dba.png) ![](img/zhuanqian_0486abacc06481e24ae1c1231aa3e6b6.png) ![](img/zhuanqian_8cd3794af596caa32899fbafa0d18baf.png) ![](img/zhuanqian_8c58cd3fb5195c1c97172a22970b772d.png) ![](img/zhuanqian_c06f51b68a57372e72639da97f24b6a6.png) ![](img/zhuanqian_66e03c2085fa5e8f566c69b417017b1c.png) ![](img/zhuanqian_0a9ae4d8de91ac578426589ac53d3444.png) ![](img/zhuanqian_1120ef76f7f23c35a6055027b82152c2.png) ![](img/zhuanqian_d21f6e8e13d3abc86947ce3f67f5c60e.png) ![](img/zhuanqian_4d8f791d870eabae14e9777effc7d2d9.png) ![](img/zhuanqian_cc048df4301c74816cddc79dd043bb12.png) ![](img/zhuanqian_57bdf4a12dbfba64f31ccdd36e09db55.png) ![](img/zhuanqian_c0bfa753e41ea204aa30894615c59a49.png)
 后来总有人问我，那么难熬的日子，你是怎么撑下来的？
 我想了很久，答案其实特别朴素：副业这件事，门槛不在于技巧，而在于执行力。很多人想得太多、做得太少，而我只是选择先把自己交付进去。副业也从来不是什么快钱神话，它本质上是一条“学习—实践—复盘—建立商业认知”的漫漫长路。你投入的每一点时间和心血，都会在未来的某个关口变成你的本钱。也许不会立刻见效，但只要不停下来，总有等到反转的那一天。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bb1490652b5e038335c8b5ac82e678da.png> <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1e6a993d253cb4f1e1e33b33b7e8a799.png> <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ee27a1520899bb8d075686d2c4ae92e8.png>
+![](img/zhuanqian_bb1490652b5e038335c8b5ac82e678da.png) ![](img/zhuanqian_1e6a993d253cb4f1e1e33b33b7e8a799.png) ![](img/zhuanqian_ee27a1520899bb8d075686d2c4ae92e8.png)
 作为从零开始、一路踩坑过来的人，我想把两条非常实用的心得分享给还在摸索期的朋友：
 第一，开始的阶段不要怕绕路。多尝试、多折腾、多撞几次南墙，都不是坏事。你之前走过的所有弯路，后来都会变成帮别人避坑的宝贵经验。
 第二，选择同样重要。怎么判断一条路值不值得走？看它的变现周期就能看出大概。如果你像我一样渴望快速获得正反馈，那一定要给自己设定一个期限。比如我当时试过内容合作商单，那种模式需要先把粉丝养到上千才能开通收益，我忙了快一个月，粉丝还是可怜巴巴的几十个，于是果断放弃。百货类目的售卖也需要慢慢测款，很多时候还看运气，不符合我的节奏。所以在强烈需要结果的时候，给自己一个期限，到时间没有起色，就换条路走，别恋战。
 还有人问我：做副业不会拖累主业吗？我的答案是不会。因为我很清楚，自己能有机会跑副业，是公司额外给的平台。白天我高效干完手上的活，有空隙就处理点副业的事；实在忙不完，晚上就晚点睡。外面的江湖，讲究的是互相成就。这一点，我爸早就教过我了。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_064c893d490d2daa993e860aaa88e275.png>
+![](img/zhuanqian_064c893d490d2daa993e860aaa88e275.png)
 **领航：从拉自己一把，到拉别人一把**
 和钟哥聊副业进展的时候，他给我提了一个建议：“等你自己跑通了，其实可以像希平帮你一样，去帮那些还在起点打转的圈友。”我承认，听到这句话的瞬间，我的眼睛亮了。
 因为我也是一路从新手阶段熬过来的，太懂得那些最初期的障碍是什么：方向摇摆不定、账号迟迟没有动静、第一条内容怎么都发不出去。那种想跑却迈不开腿的感觉，我比谁都熟悉。
 8月5日，我在本子上写下一个目标：跑通自己的项目，然后去做航海教练。9月7日，龙哥和钟哥已经在私下组了一个叫“迷你航海探索”的小群，讨论着这个计划的雏形。我当时并不知道这一切，因为我还陷在自己的项目里，一单未开。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_846b748805cea751709d0680cdabce98.png> <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_de43392973b6d23310f9ff784aa2b660.png> <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4ae61adab1377d45f6066f060a8dba9a.png>
+![](img/zhuanqian_846b748805cea751709d0680cdabce98.png) ![](img/zhuanqian_de43392973b6d23310f9ff784aa2b660.png) ![](img/zhuanqian_4ae61adab1377d45f6066f060a8dba9a.png)
 到了9月20日，一位名叫杜阿寻的志愿者找到了鱼丸，说有些圈友的执行力一直带动不起来，她很着急，希望官方一起来想想办法。钟哥在那个当口推荐了我。说实话，我心里很没底，因为那时我还没真正出单。可就在两天后的9月23日，我的第一笔订单毫无预兆地来了。那一刻，我悬在半空的心终于落了地，也终于有了底气向外迈出那一步。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d577319f55f78b0bc364c568c6a68c61.png>
+![](img/zhuanqian_d577319f55f78b0bc364c568c6a68c61.png)
 但我还是免不了问自己：我这样的人，真的帮得了别人吗？带着这个疑问，我去仔细了解了一下这群船员的状况，结果发现，绝大多数人的卡点出奇一致——方向没定、账号没建、第一条内容没发、想得太多但做得太少。
 钟哥对我说了一句特别关键的话：“你看他们，是不是像极了刚开始时的你？可你已经从那个阶段走出来了，你也一定有能力带着他们走出来。”就是这句话，把我心里最后那点犹疑彻底解开了。于是，我成了迷你航海计划的第一任领航员。
 为了应对这些共性的问题，我在航程里做了三项安排：第一，给船员们做“经验加餐”，把自己踩过的坑、验证过的方法整理成专题，让大家少走弯路；第二，把群里高频出现的问题梳理成速查手册，随查随用；第三，多陪伴、多跟进，帮大家度过最难熬的启动期。
 因为自己淋过雨，才总想替别人撑把伞。而我也比谁都明白，在这条成长的路上，最珍贵的从来不是某个漂亮的成绩，而是当你还在泥潭里挣扎的时候，有人愿意弯腰，拉你一把。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_75f8e78faabb06d6e142bb743af0aeee.png>
+![](img/zhuanqian_75f8e78faabb06d6e142bb743af0aeee.png)
 这条路走到今天，回头望，每一步都算不上惊天动地，但它们真实，也都算数。我很高兴能在这里把我的故事讲给你听。我是龙哥，未来的日子，我们慢慢认识。
 我选择用录屏的方式，一步步教大家怎么作图，哪怕你完全是零基础，跟着视频也能做出属于自己的第一张图。
 而且我不是教完就完事，是实打实陪着跑：有人不敢发第一篇内容，我就把动作拆到很小，先帮他迈出那一步；半夜还有人提问，我会第一时间出来解答。
 实际带下来我有个很深的感触——人只要被托一把，行动的劲头就会涌上来。
 更让我没想到的是，真有学员在我的陪伴下赚到了人生第一笔钱。
 他们兴奋地跑来跟我分享时，我比他们还开心。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1099d498dbed3976cd730aa639747a5e.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0e9f5ab62eef1e879883467d04802f6d.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_da02c969067316b601a6b1d25ac08c89.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_41a1acfa25b96dddb2ec2178ffa97986.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_73b569f31ea1c66afdf9987fec97c648.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_73900a7cc1be9916d31c9817d9550293.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_85e0803bbefb0f682437dd2aa7901f1a.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f13e2908d8902c51c38320ae3624c865.png>
+![](img/zhuanqian_1099d498dbed3976cd730aa639747a5e.png)
+![](img/zhuanqian_0e9f5ab62eef1e879883467d04802f6d.png)
+![](img/zhuanqian_da02c969067316b601a6b1d25ac08c89.png)
+![](img/zhuanqian_41a1acfa25b96dddb2ec2178ffa97986.png)
+![](img/zhuanqian_73b569f31ea1c66afdf9987fec97c648.png)
+![](img/zhuanqian_73900a7cc1be9916d31c9817d9550293.png)
+![](img/zhuanqian_85e0803bbefb0f682437dd2aa7901f1a.png)
+![](img/zhuanqian_f13e2908d8902c51c38320ae3624c865.png)
 后来我们又连着组织了三次小红书虚拟资料的海上航行，帮助更多人拿到了结果，我也因此成为十二月那期航行的教练。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3f0f533a51c1d96c4077ba2a23476723.png>
+![](img/zhuanqian_3f0f533a51c1d96c4077ba2a23476723.png)
 当教练这段时间，我解锁了不少人生新体验：
 *   第一次开直播，逐字稿来回打磨了好多次，但屏幕那头大家的热情让我瞬间电量满格；
 *   第一次写精华帖，把自己的方法论做了一次系统梳理，得到大家的认可和关注；
 *   第一次被学员感谢，有人说“因为你我终于迈出去了”，也有人说“因为你我赚到了钱”。
 这些经历让我真正懂得：分享和陪伴，能量远超想象。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_047a869d67dff99c8e69323c0b1ef87c.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6d22477b2d5dbeae222add2822d7529e.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_283f42bf8486f4a9b4071c763522d4f4.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7d79a60de45bf8bc142e136469805a0c.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_751a009d36c92750c3e50cbd9bf02a29.png>
+![](img/zhuanqian_047a869d67dff99c8e69323c0b1ef87c.png)
+![](img/zhuanqian_6d22477b2d5dbeae222add2822d7529e.png)
+![](img/zhuanqian_283f42bf8486f4a9b4071c763522d4f4.png)
+![](img/zhuanqian_7d79a60de45bf8bc142e136469805a0c.png)
+![](img/zhuanqian_751a009d36c92750c3e50cbd9bf02a29.png)
 说实话我从没觉得自己多了不起，只是——
 *   什么都不会的时候，放低姿态多问；
 *   什么都不会的时候，把执行力拉满；
@@ -104,7 +104,7 @@
 等项目跑顺了，我开始想扩大规模，就组了个小团队。
 白天上班，晚上带着成员一步步实操。
 大家陆续赚到了钱，我也用分成的方式，把她们推到台前。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_720ed093c3da4775f95fb182facdf63a.png>
+![](img/zhuanqian_720ed093c3da4775f95fb182facdf63a.png)
 但越做越大，我反而越来越抗拒。
 每天都在反复问自己：“我真的想一直做这件事吗？”
 答案是：不想。
@@ -119,7 +119,7 @@
 别人赚多少，跟我无关。我只想做我真正喜欢、愿意全力投入的事。
 分享一句我在私域大会看到的、让我更坚定的话：
 “活着的意义除了体验，就没了。所以，无所吊谓” ——云蔓
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fd44379ec1753b045a16377dbe6b4e70.png>
+![](img/zhuanqian_fd44379ec1753b045a16377dbe6b4e70.png)
 所以我转身回到自己热爱的方向——IP。
 我喜欢当教练的感觉，喜欢分享带来的力量，喜欢看到别人因为我的陪伴跨过难关的满足感。
 于是我开始深耕公众号、AI自媒体、朋友圈记录这些方向，慢慢扩大自己的影响力。
@@ -129,17 +129,17 @@
 一条路好不好，只有走完才知道。
 但只要你做决定的那一刻是真心实意的，那就是最好的选择。
 我很庆幸自己敢解散团队，因为这件事让我更清楚：钱不是终点，热爱和愿意长期投入的事，才是我真正想奔赴的方向。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_93eaf3420fbc4c7d37b708b075271f40.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9fb4f7a2807baf08a48235ae995b0646.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f1cb84812bb26b79994cdf040aa77182.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_dd6a8d8dd8cc7b3965f52a837904e1b2.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e5e4198f5cc0c94b55b98a7dfa226d32.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_be02c2d61f3576dffb050d859c51aa65.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8aa29b40e31180441b06aae479de09e0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_553f2a65caf4e8793a3dbb0f9268951a.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_59b5e67f56f5e128780d3caffd8b802e.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9bd6d88f23897047d9aab3e5d4620106.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_43c3f2e44187dd034422efadce338d46.png>
+![](img/zhuanqian_93eaf3420fbc4c7d37b708b075271f40.png)
+![](img/zhuanqian_9fb4f7a2807baf08a48235ae995b0646.png)
+![](img/zhuanqian_f1cb84812bb26b79994cdf040aa77182.png)
+![](img/zhuanqian_dd6a8d8dd8cc7b3965f52a837904e1b2.png)
+![](img/zhuanqian_e5e4198f5cc0c94b55b98a7dfa226d32.png)
+![](img/zhuanqian_be02c2d61f3576dffb050d859c51aa65.png)
+![](img/zhuanqian_8aa29b40e31180441b06aae479de09e0.png)
+![](img/zhuanqian_553f2a65caf4e8793a3dbb0f9268951a.png)
+![](img/zhuanqian_59b5e67f56f5e128780d3caffd8b802e.png)
+![](img/zhuanqian_9bd6d88f23897047d9aab3e5d4620106.png)
+![](img/zhuanqian_43c3f2e44187dd034422efadce338d46.png)
 * * *
 # 那些我非常想分享的 —— 幸福生活
 赚钱当然重要，但我更在乎的是怎么把日子过好。
@@ -147,18 +147,18 @@
 和室友合租的两室一厅空荡荡的，连冰箱洗衣机都没有。
 我们就用几百块慢慢添了些装饰架、绿植、小摆件，把出租屋装点出一点烟火气。
 每天辛苦回来，看到这些小物件，就觉得再累也值得。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_238ec283f44af82cd2528a2d0c06a533.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_38be9616cd5b464b60f4666e56fd99ec.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6bb9e99168bc33a398232e1c273b4b13.png>
+![](img/zhuanqian_238ec283f44af82cd2528a2d0c06a533.png)
+![](img/zhuanqian_38be9616cd5b464b60f4666e56fd99ec.png)
+![](img/zhuanqian_6bb9e99168bc33a398232e1c273b4b13.png)
 上班两个月攒了钱，我带家人拍了人生中第一组正式全家福。
 妈妈第一次穿婚纱，笑得特别灿烂；外公外婆第一次拍正式照片，紧张又兴奋。
 拍照的时候他们一直反复确认：“会不会很贵？肯定要花不少钱吧？”
 其实六个人整个套餐一千出头，但他们总以为会贵得多。
 那一刻我心里特别不是滋味：老一辈总觉得美好的东西离自己很远，而我能做的，就是用自己的努力，让他们多感受一些幸福。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_205211f406f81f6eb7ded5d1477c79a9.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2cf9fd9d13b775baf33406a24c98a699.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b712fc15f0243956aaae0921ff70eabe.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b5e01de104871ba8be9889182999135d.png>
+![](img/zhuanqian_205211f406f81f6eb7ded5d1477c79a9.png)
+![](img/zhuanqian_2cf9fd9d13b775baf33406a24c98a699.png)
+![](img/zhuanqian_b712fc15f0243956aaae0921ff70eabe.png)
+![](img/zhuanqian_b5e01de104871ba8be9889182999135d.png)
 转岗做运营那一年，我用新学的本事策划了一个不一样的年。
 2024年底，我下定决心：要让这一年的春节变得不一样。
 往年过年，大家无非是吃顿饭、看看电视，然后就各回各家。
@@ -166,51 +166,51 @@
 于是我用在mini航海里学到的运营思维，操办了一场“家族年会”。
 我写了完整的方案，设计游戏环节、找赞助、布置场地，还熬了几个夜准备主持稿。
 除夕那天，我召集了所有家人，活动正式开场：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_95a923fa5c42231e52d7761ccf7b6484.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b2789676948d1d01dda96e03076becde.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_70694cc8f74abaf67087ce3fd4aaeb32.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_544c88385cc5a3a90e9858bb6ffda8a2.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c088029211dee1a2a1f271e1d6cc15f9.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6058d36e1aae7fc42e0e9473ca31dbeb.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ab72a9e54b3f2e1d6639d80ea9036b36.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_670e9605fb6ac02967da5000a48bcc11.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_07716c86595601f322a1c87fad8ecd49.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_92474c74b80196d276a06f6d9f4be078.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0cb2a90d75cf07da2ee6babc74d7f32f.png>
+![](img/zhuanqian_95a923fa5c42231e52d7761ccf7b6484.png)
+![](img/zhuanqian_b2789676948d1d01dda96e03076becde.png)
+![](img/zhuanqian_70694cc8f74abaf67087ce3fd4aaeb32.png)
+![](img/zhuanqian_544c88385cc5a3a90e9858bb6ffda8a2.png)
+![](img/zhuanqian_c088029211dee1a2a1f271e1d6cc15f9.png)
+![](img/zhuanqian_6058d36e1aae7fc42e0e9473ca31dbeb.png)
+![](img/zhuanqian_ab72a9e54b3f2e1d6639d80ea9036b36.png)
+![](img/zhuanqian_670e9605fb6ac02967da5000a48bcc11.png)
+![](img/zhuanqian_07716c86595601f322a1c87fad8ecd49.png)
+![](img/zhuanqian_92474c74b80196d276a06f6d9f4be078.png)
+![](img/zhuanqian_0cb2a90d75cf07da2ee6babc74d7f32f.png)
 活动结束后，我还做了一本小册子，把照片和大家写的感言都收进去，送给了每一家。
 那天外公外婆笑得特别开心，爸妈也因为我的这场策划而骄傲。
 亲戚们临走时还在追问：“明年还搞吗？”
 这件事让我更确信：学来的东西不只能赚钱，还能为生活创造惊喜。
 当然，我也会舍得在自己身上花钱。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fccce78633bf50031cde690eb6ab0b0e.png>
+![](img/zhuanqian_fccce78633bf50031cde690eb6ab0b0e.png)
 第一笔副业收入到账，我就给自己买了一台扫地机器人。
 每天中午它准时开工，回到家看到干净的地面，我就会想起那些做项目的夜晚——一切都值了。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d289e9aec4e3c17d973f40f929e93ff6.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6a7c1c9ffff904366056e6432cb266fd.png>
+![](img/zhuanqian_d289e9aec4e3c17d973f40f929e93ff6.png)
+![](img/zhuanqian_6a7c1c9ffff904366056e6432cb266fd.png)
 后来换了住处，我又认真布置了一番新出租屋。
 虽然是租来的房子，我还是愿意添点装饰，让空间更有温度。每天推开门，看见整洁的小家，心情就会好很多。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b5a24bb57a8158ae32b1a35e64ebdc43.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4187f0beec60f1783689d9f4c916d6bb.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_61d7e2550a6d2324e9c64132a7a844e5.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1093e29373bca832f13ba3f553c86ceb.png>
+![](img/zhuanqian_b5a24bb57a8158ae32b1a35e64ebdc43.png)
+![](img/zhuanqian_4187f0beec60f1783689d9f4c916d6bb.png)
+![](img/zhuanqian_61d7e2550a6d2324e9c64132a7a844e5.png)
+![](img/zhuanqian_1093e29373bca832f13ba3f553c86ceb.png)
 我还爱上了在厨房折腾，给自己做点简单的美食，偶尔用一顿好饭犒劳自己。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a839aa838869453c93be88da6491e508.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a440083ca981cdb8a912c1c0f35061d0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5e564f06d8b8cfde6c31fea420f0ef5f.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_127abee322021cd5b7c5e3fe3eb6aeec.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f2d451205c650a95f83e59f81818951f.png>
+![](img/zhuanqian_a839aa838869453c93be88da6491e508.png)
+![](img/zhuanqian_a440083ca981cdb8a912c1c0f35061d0.png)
+![](img/zhuanqian_5e564f06d8b8cfde6c31fea420f0ef5f.png)
+![](img/zhuanqian_127abee322021cd5b7c5e3fe3eb6aeec.png)
+![](img/zhuanqian_f2d451205c650a95f83e59f81818951f.png)
 另外我还解锁了不少好玩的运动：
 *   滑雪摔了一身雪，还是乐到不行；
 *   健身课跟着音乐跳到大汗淋漓；
 *   射箭、划船、跳舞、爬山，每次尝试都让我看到自己新的一面。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c4eff24ba85d45738dd5bdf2c0a65cb5.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_af3d3c980ce4a981629ca6b164bec409.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_35231ce8d4a41ebec86e4dd67a0627f8.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ea65f2c50de0d5f42fd778579015d2d4.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7ff28fac2b061fe91193615d2d34db6c.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_695220ca6b1403618ff3a5e6ed5f07c3.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0b75d2c265772b83e9c2649581a03ab2.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_945a71e3f8ab0e0a8807791efac98926.png>
+![](img/zhuanqian_c4eff24ba85d45738dd5bdf2c0a65cb5.png)
+![](img/zhuanqian_af3d3c980ce4a981629ca6b164bec409.png)
+![](img/zhuanqian_35231ce8d4a41ebec86e4dd67a0627f8.png)
+![](img/zhuanqian_ea65f2c50de0d5f42fd778579015d2d4.png)
+![](img/zhuanqian_7ff28fac2b061fe91193615d2d34db6c.png)
+![](img/zhuanqian_695220ca6b1403618ff3a5e6ed5f07c3.png)
+![](img/zhuanqian_0b75d2c265772b83e9c2649581a03ab2.png)
+![](img/zhuanqian_945a71e3f8ab0e0a8807791efac98926.png)
 这些经历让我想明白一个问题：赚钱到底为了什么？就是为了有更多自由和选择权，去尝试、去体验、去热爱。
 钱只是工具，不是答案。
 答案，是生活本身。
@@ -221,12 +221,12 @@
 人生本来就是一门很漫长的课。
 别因为别人跑得快，就觉得自己慢了。
 一岁有一岁的味道，一站有一站的风景，顺着自己的心走就好。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ae93bef058e229c3d7f831bc61aff636.png>
+![](img/zhuanqian_ae93bef058e229c3d7f831bc61aff636.png)
 如果你也想拼一次，请记得：任何时候都还有机会。
 在这里，你能学到任何人在成功路上的心得。
 在这样开放的圈子里，你也完全可能找到破釜沉舟的勇气。
 连龙哥那种老i人都敢直播了，你凭什么不行呢？（狗头保命）
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c64302ef5e5a079ea2aabf6fa53e2d31.png>
+![](img/zhuanqian_c64302ef5e5a079ea2aabf6fa53e2d31.png)
 * * *
 # 我眼中、最真实的 —— 赚钱团队
 在很多圈友心中，龙哥盟是个神秘又让人向往的存在。
@@ -237,40 +237,40 @@
 每一次听下来，都像被狠狠打开了一次眼界。
 以前在创业公司，我的视野很有限；
 但在这里，每天都有新玩法、真经验扑面而来，那种密度真的会上瘾。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f89097f976fa70e6e2773e9ebfcf4980.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f61c6c58f80e314682a3e340d27f2313.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1edbefe7fbb454b21db51c5c95c9a433.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ae4a2102a1881e6fa9825d78cacb046a.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9099f65bd20c6312dd1dc15e29061926.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9db58cab72c11dea0bdf3002ada29086.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_53984e2a826605360331fe69fe670665.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_76e817631deea5024277756089278b2f.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_58e9ffab896fb95cb5763058397a8c90.png>
+![](img/zhuanqian_f89097f976fa70e6e2773e9ebfcf4980.png)
+![](img/zhuanqian_f61c6c58f80e314682a3e340d27f2313.png)
+![](img/zhuanqian_1edbefe7fbb454b21db51c5c95c9a433.png)
+![](img/zhuanqian_ae4a2102a1881e6fa9825d78cacb046a.png)
+![](img/zhuanqian_9099f65bd20c6312dd1dc15e29061926.png)
+![](img/zhuanqian_9db58cab72c11dea0bdf3002ada29086.png)
+![](img/zhuanqian_53984e2a826605360331fe69fe670665.png)
+![](img/zhuanqian_76e817631deea5024277756089278b2f.png)
+![](img/zhuanqian_58e9ffab896fb95cb5763058397a8c90.png)
 高规格的大会也是真的：
 从2023年的第一届航海家大会，到2025年的流量大会、私域大会，我几乎每场都在。
 每一次参与，都能感受到这个社群在不断地长大。
 这些大会不光是学习场，也是让我找到归属感的地方。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c2ecabb39961c0f060e977de309b28fc.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f7d95e287e43bcfcffd197a6decd4bad.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c55fc820ba3746ceb5db8b4d8d671839.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9c9f7138c4809133ba0dcfee3677efab.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_205f2bb86a8f69affd0bd2609fa02662.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_efa393b069fa895ebd73930a9d49dc32.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bbbec3f7a26a35ca39aa53f1473d86f6.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_14e15a4e222e42d3932a4f951edaa7af.png>
+![](img/zhuanqian_c2ecabb39961c0f060e977de309b28fc.png)
+![](img/zhuanqian_f7d95e287e43bcfcffd197a6decd4bad.png)
+![](img/zhuanqian_c55fc820ba3746ceb5db8b4d8d671839.png)
+![](img/zhuanqian_9c9f7138c4809133ba0dcfee3677efab.png)
+![](img/zhuanqian_205f2bb86a8f69affd0bd2609fa02662.png)
+![](img/zhuanqian_efa393b069fa895ebd73930a9d49dc32.png)
+![](img/zhuanqian_bbbec3f7a26a35ca39aa53f1473d86f6.png)
+![](img/zhuanqian_14e15a4e222e42d3932a4f951edaa7af.png)
 轻松、有趣的工作氛围也是真的：
 下午茶无限供应、随时可以撸的小狗、迪士尼团建……这种氛围让我觉得工作和生活可以不分家。
 还有418期间培养出的“战友感情”，那些一起熬夜、一起往前冲的日子，现在想起来还是热血沸腾。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2bec32b8c55183c55e2aae7849222233.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2574b92bf4cab32ed34d52a77d34bdeb.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f22a32863d6e5edd815508c128ddea40.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b073d6858d116ed73014caa6045254c1.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_08d53278f9e80d53f7dd71065cd4370d.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1a9f57142e4d7d75e9219f66cdca5eef.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e30da255e5aae049ab41229f172ed54a.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ed66b8f9b63172c4ed99f54dcf7546e7.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_eced7e78c2a5b916281ba3710ccc5896.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6158a259c104c73150ccf99c1270954a.png>
+![](img/zhuanqian_2bec32b8c55183c55e2aae7849222233.png)
+![](img/zhuanqian_2574b92bf4cab32ed34d52a77d34bdeb.png)
+![](img/zhuanqian_f22a32863d6e5edd815508c128ddea40.png)
+![](img/zhuanqian_b073d6858d116ed73014caa6045254c1.png)
+![](img/zhuanqian_08d53278f9e80d53f7dd71065cd4370d.png)
+![](img/zhuanqian_1a9f57142e4d7d75e9219f66cdca5eef.png)
+![](img/zhuanqian_e30da255e5aae049ab41229f172ed54a.png)
+![](img/zhuanqian_ed66b8f9b63172c4ed99f54dcf7546e7.png)
+![](img/zhuanqian_eced7e78c2a5b916281ba3710ccc5896.png)
+![](img/zhuanqian_6158a259c104c73150ccf99c1270954a.png)
 在我看来，赚钱更像一个“学习的好场域”。
 孟母三迁，是想给孩子更好的环境；其实成年人，也同样需要好的环境。
 赚钱就是这样一个地方：身边全是行动力爆棚的人，你会不自觉地跟着动起来。
@@ -278,14 +278,14 @@
 把手头的事做好、把结果交出来，才能拿到更多支持。
 这也是我一直提醒自己的：副业永远不能压过主业。
 主业是我的根基，也是我心无旁骛去尝试、去犯错的底气。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c49c19c55e7bb7cb479ef7d58e3bd2ba.png>
+![](img/zhuanqian_c49c19c55e7bb7cb479ef7d58e3bd2ba.png)
 在这段旅程里，我看到了许多种可能：
 *   信息不对等的地方，帮我把试错的成本拉低了；
 *   有人陪、有氛围的状态，让我能咬牙坚持下去；
 *   再普通的人，也能在这里找到自己的落脚点。
 很感激能在赚钱里学习成长，更感激能和大家一块儿度过418，一块儿看着社区一点点进化。
 往后我会去往哪里，我自己也不敢打包票，但有一点很确定：龙哥盟会一直是我生命里浓墨重彩的一站。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_579bacedef51f3877d6256cd9c6dbb35.png>
+![](img/zhuanqian_579bacedef51f3877d6256cd9c6dbb35.png)
 * * *
 # 我的复盘 —— 赚到钱背后的一些体悟
 走到现在这一步，我并不是一开始就把路看透了。都是在踩过坑、撞过墙之后，一点点把经验拧成线。
@@ -322,7 +322,7 @@
 我把副业当游戏：发小红书、写公众号、更新朋友圈，都是日常任务。
 没做也没关系，做了就升级。角色属性会慢慢涨。
 刚开始写成长朋友圈时，我纯当记录，没想着有什么回报。结果坚持下来，竟然有人主动来找我付费陪跑。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_692c2dd307a777fc358a76bfff1e581e.png>
+![](img/zhuanqian_692c2dd307a777fc358a76bfff1e581e.png)
 那瞬间我才彻底明白：
 你持续投入的喜欢，总会在某个节点给你回礼。
 时间管理的关键不是榨干自己，而是让副业变成你真心愿意花时间的事。
@@ -349,4 +349,4 @@
 写到这里，我也想把问题抛给你：👉 你现在做的选择，到底是为了什么样的人生？
 愿你在路上，找到属于你自己的那盏小灯。
 如果你也愿意把自己的故事讲出来，给路上的自己和别人一点力量，欢迎来赚钱分享。每个人的选择、坚持和试错，都值得被看见。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d85ce2764e0245f0687211ab9b5bb1d3.png>
+![](img/zhuanqian_d85ce2764e0245f0687211ab9b5bb1d3.png)

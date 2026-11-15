@@ -10,4 +10,4 @@
 如果你对人工智能充满兴趣，对 ChatGPT 的玩法保持好奇，或者只是想找一个更新鲜的做图思路，这篇笔记应该会让你有所收获。
 评论区：
 暂无评论
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_894d30a529e7c37bcd3392323c99941c.png>
+![](img/zhuanqian_894d30a529e7c37bcd3392323c99941c.png)

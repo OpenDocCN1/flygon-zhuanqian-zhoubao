@@ -2,14 +2,14 @@
 # 开场说在前头
 各位朋友大家好，今天要跟大家拆解一个上手门槛很低、几乎人人都能试的玩法。
 就是 AI 虚拟数字人短视频。咱社群里有人把账号做到 39 万粉丝，橱窗出单 22 万件；小号 powerhouse 2 个月冲到 55 万粉，几万粉的小号还有一堆。稳定月赚十万以上。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b211751357bb3f36607a84425b05d8c3.png>
+![](img/zhuanqian_b211751357bb3f36607a84425b05d8c3.png)
 声明：
 martin 这个号跟我本人没有任何关系，别去加人家问是不是一伙的。
 我放出来的教程已经写得很清楚了。那边在收徒，任何金钱往来都跟我无关。
 目前这个赛道还处于蓝海期，跟着节奏走，轻松回本。手上没项目的话完全可以all in。每天只要利用碎片时间就能推进，还能多账号矩阵操作。之后无论是做带货还是账号交易，都能赚一笔。
 废话不多说，直接进入干货。
 下面会用文字配合视频的方式，把完整流程讲清楚。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8a5878b22c635285d370341d237b0ecc.png>
+![](img/zhuanqian_8a5878b22c635285d370341d237b0ecc.png)
 # 大纲：
 一、项目是什么
 二、制作所需的工具
@@ -23,7 +23,7 @@ martin 这个号跟我本人没有任何关系，别去加人家问是不是一�
 ## 对标案例
 直接看我们团队伙伴的号 martin 即可。520 条作品，粉丝 38.9 万，橱窗销量 21 万件。
 同类账号还有很多，可以去抖音搜思维等关键词自己找。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_80ea94009cf2b9add507143dd715106a.png>
+![](img/zhuanqian_80ea94009cf2b9add507143dd715106a.png)
 再看一下小号的演示效果：
 能明显感觉到跟之前的小和尚不一样，这里是全身都在动，手势也会随口播变化，标准的 AI 虚拟人。
 方向方面，云天给几个参考，大家可以自行发散。有了方向就能找脚本做内容。
@@ -35,30 +35,30 @@ martin 这个号跟我本人没有任何关系，别去加人家问是不是一�
 看完演示很多人会以为是真人拍的，其实全是 AI 生成。
 我们主要用的是国外的一个站点：heygen，国内可以直接访问登录。
 它跟 Did 一样是收费平台，价格很贵，如下图。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4732088bcd7c1b1bfbfe34898860820e.png>
+![](img/zhuanqian_4732088bcd7c1b1bfbfe34898860820e.png)
 这里我还是会教大家白嫖。新注册的账号会赠送时长和积分，1 个积分大概能生成 1 分钟视频。
 这次不用 2925 无限邮箱了，给你一个更省事的临时邮箱服务，不需要登录更方便。
 注册临时邮箱
 先打开 https://mail.tm/zh/ ，会自动生成一个临时邮箱，如下图：
 若邮箱失效，自己换一个就行。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5ab6de254941d061995e4efed86eff23.png>
+![](img/zhuanqian_5ab6de254941d061995e4efed86eff23.png)
 2、打开 heygen 登录页：https://app.heygen.com/login ，点 sign up 注册
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c9e44b3d7d187d6139bc6e16a085799f.png>
+![](img/zhuanqian_c9e44b3d7d187d6139bc6e16a085799f.png)
 填入刚才的邮箱，点击发送验证码
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4d757d758dfc53ba2ea4ba7afb067622.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_32d5771e4fa900e41e36c49d3ee4c6cc.png>
+![](img/zhuanqian_4d757d758dfc53ba2ea4ba7afb067622.png)
+![](img/zhuanqian_32d5771e4fa900e41e36c49d3ee4c6cc.png)
 临时邮箱会收到验证码，填进去点 next step 即可进入
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fa2c1e86249d8efd52d7712778c3d045.png>
+![](img/zhuanqian_fa2c1e86249d8efd52d7712778c3d045.png)
 设置密码。注意 8-35 位，包含大小写字母和数字。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9bfe0d396768dda08e2e6c581966352b.png>
+![](img/zhuanqian_9bfe0d396768dda08e2e6c581966352b.png)
 会弹出这个界面，随便点一个，连续点五次就能进入 heygen 主界面
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_17fd6653e317a85922a595b82726f9a2.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d943d2d834751f1ab52f3a72b312c67b.png>
+![](img/zhuanqian_17fd6653e317a85922a595b82726f9a2.png)
+![](img/zhuanqian_d943d2d834751f1ab52f3a72b312c67b.png)
 视频制作先不急，我们先去准备文案。
 ### 提示：
 用完积分一定要退出账号注销，如下图操作，这样以后用新邮箱还能继续领积分。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b8c301bc695b683dc5ccaf114538de79.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_311eddecd80f297952e265765a3d5c5b.png>
+![](img/zhuanqian_b8c301bc695b683dc5ccaf114538de79.png)
+![](img/zhuanqian_311eddecd80f297952e265765a3d5c5b.png)
 # 三、文案获取、筛选以及二次创作
 内容方向前面已经给了，可以自行拓展。有了方向才好找脚本。
 ## 操作逻辑
@@ -68,12 +68,12 @@ martin 这个号跟我本人没有任何关系，别去加人家问是不是一�
 * * *
 # 四、视频制作（一）数字人视频生成
 文案准备好后，点击网站右上角 creat video
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_98def44e28f74c97410edc5a74d6b660.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_af6528d086a065d6fdff589c9a13a525.png>
+![](img/zhuanqian_98def44e28f74c97410edc5a74d6b660.png)
+![](img/zhuanqian_af6528d086a065d6fdff589c9a13a525.png)
 根据需求选横屏或竖屏，这里以横屏为例：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e6f1ee25f1f904c5792c609cd7d4aa4c.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f0e6dea8a19d708a71f9250a20d38ade.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_37bbf930da1fb162271545d8be4e47b2.png>
+![](img/zhuanqian_e6f1ee25f1f904c5792c609cd7d4aa4c.png)
+![](img/zhuanqian_f0e6dea8a19d708a71f9250a20d38ade.png)
+![](img/zhuanqian_37bbf930da1fb162271545d8be4e47b2.png)
 ## 视频教程
 很多细节文字讲不透，这里录了完整视频供学习：
 # 五、视频制作（二）合成混剪精细化操作
@@ -83,7 +83,7 @@ martin 这个号跟我本人没有任何关系，别去加人家问是不是一�
 # 六、封面制作
 封面决定主页的第一印象，要整洁有冲击力。
 具体做法看第五部分的视频教程
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_99c23f9fc10fea0d65ac3fc7acbe201a.png>
+![](img/zhuanqian_99c23f9fc10fea0d65ac3fc7acbe201a.png)
 # 七、起号运营思路
 ###### 1、先确定账号定位，持续发垂直内容
 ###### 2、运营中要抓住热点，遇到社会热点了就找相关脚本蹭，基本都能获得播放
@@ -93,7 +93,7 @@ martin 这个号跟我本人没有任何关系，别去加人家问是不是一�
 * * *
 # 八、变现
 1、带书带货，佣金参考下图
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6c3ea5131d6fbb531816982e53715d72.png>
+![](img/zhuanqian_6c3ea5131d6fbb531816982e53715d72.png)
 2、收徒收学员
 一个学员 998，课程录好后指导即可。比如对标号 martin 现在的收徒价就是 998 元/人
 3、做号卖号

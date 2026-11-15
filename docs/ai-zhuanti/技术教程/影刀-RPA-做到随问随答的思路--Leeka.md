@@ -17,15 +17,15 @@ ChatGLM 系列长期位居国产大语言模型第一梯队。首代 ChatGLM-6B 
 需要注意，ChatGLM3 的能力边界远超对话生成，在工具调用、提示词优化、代码执行等方向都有明显加强。
 若仅看文字描述不够直观，参考第三方机构的多维度评测会更清晰。
 智谱在 GSM8K 上的均分是 72.3，GPT 4.0 的得分是 92.0，GPT 3.5 的得分是 57.0，智谱已超过 GPT 3.5 近 15.3 分，表现相当能打。尤其近期 GPT 4.0 被曝消极怠工的消息频上热搜。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bb394200eb3128837a74d7db8daa5c76.png>
+![](img/zhuanqian_bb394200eb3128837a74d7db8daa5c76.png)
 更关键的是，在这个能力水准下，智谱的性价比极具吸引力。正因如此，本次我把智谱 AI 选作落地的核心引擎。
 ## 2.2 如何做到持续提问
 目前智谱的注册方式是手机号开通，中国计算机学会 CCF 会员可直接授权登录。新号注册即送 100 万 Token，实名后额外再送 200 万 Token。赠送额度有效期为 1 个月，需在过期前用完。换句话说，未实名时多准备几个手机号注册，就能循环获取额度，和 heygen 当初的玩法类似，轻松做到 Token 不断供。
 Token 是什么？
 在计算机语境里，它就是“令牌”。服务端在用户首次登录后生成一串字符串作为身份凭证，后续客户端只需携带该凭证请求资源，无需反复输入用户名密码。可简单理解为门禁卡，有卡才能进入小区使用内部服务。
 智谱注册地址：https://open.bigmodel.cn/login?redirect=%2F
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f60990a901d18b9b5e98e14d5a1acc80.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d501077e88d511d3ea0f15c07c29a2da.png>
+![](img/zhuanqian_f60990a901d18b9b5e98e14d5a1acc80.png)
+![](img/zhuanqian_d501077e88d511d3ea0f15c07c29a2da.png)
 ## 2.3 用 Python 模块把智谱接入影刀
 下面内容涉及影刀进阶课程，需要一定的代码基础。没有接触过也别担心，我会用最直白的说法解释实现原理。
 ### 2.3.1 新建 Python 模块管理依赖
@@ -38,12 +38,12 @@ Token 是什么？
 弄懂概念后，进入影刀 RPA 的实操。
 在新建 PC 自动化应用界面，右上角【流程】菜单的第二个选项即为【新建 Python 模块】。
 新建后会生成一个名为【module.py】的文件，先放着，待会再写入代码。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_426b87a0d3f7a345fc28e56fcb5e5fcd.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2f2aa4e4ffc47e305a541c61f2d113aa.png>
+![](img/zhuanqian_426b87a0d3f7a345fc28e56fcb5e5fcd.png)
+![](img/zhuanqian_2f2aa4e4ffc47e305a541c61f2d113aa.png)
 随后安装智谱第三方包，同样在右上角菜单【...】中打开【Python 包管理】，在输入框里填入 zhipuai，点击安装即可。
 注意点：安装 zhipuai 时请关闭魔法网络，否则会出现 warning，后续调用会异常。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8484c60f34012b831b2d98c9e2206859.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2fd3d02d1b603ad9f7f33f69f995a5d9.png>
+![](img/zhuanqian_8484c60f34012b831b2d98c9e2206859.png)
+![](img/zhuanqian_2fd3d02d1b603ad9f7f33f69f995a5d9.png)
 ### 2.3.2 在模块里写入调用代码
 刚建好的 Python 模块里是空的，直接调用没有任何输出。为了让机器人在流程里能正常返回结果，需要把调用代码写进模块。我筛选了很久，这个版本最顺手。
 代码块如下：
@@ -64,12 +64,12 @@ import zhipuai 的作用是把刚才安装的 zhipuai 包导入到当前模块�
 zhipuai.api_key = "填写自己的 key"
 还有一个细节：官方示例最后多是 print(response)，在纯 Python 环境下没问题，但影刀里 Python 是被嵌套运行的，必须改成 return，影刀流程才能接收到返回内容。
 （Python 不是我的主战场，但为了用起来，我也是硬啃。）
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_328340ceeba0a04784a94f53a0c83185.png>
+![](img/zhuanqian_328340ceeba0a04784a94f53a0c83185.png)
 ### 2.3.3 在流程里如何调用
 【调用流程】不建议选，因为 Python 模块的参数需要手动配置输入输出，参数一多很容易混乱。
 推荐用【调用模块】，直接把指令传入，把返回结果带回主流程即可。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ce512cf6162c7be58e9cc77e87acd884.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4f36a6000364f53cb0ff5f43a5d8de4e.png>
+![](img/zhuanqian_ce512cf6162c7be58e9cc77e87acd884.png)
+![](img/zhuanqian_4f36a6000364f53cb0ff5f43a5d8de4e.png)
 此时返回的数据是 JSON 格式，类似下面这样：
 {"code": 200, "msg": "操作成功", "data": {"request_id": "8201450333358182104", "task_id": "8201450333358182104", "task_status": "SUCCESS", "choices": [{"role": "assistant", "content": "\" 人工智能（Artificial Intelligence，简称 AI）是指由人制造出来的具有一定智能的系统，可以理解或认识外部环境，并针对所获得的信息做出相应的反应。人工智能技术涉及到多个领域，如机器学习、深度学习、自然语言处理、计算机视觉等。\\n\\n人工智能的应用领域非常广泛，包括但不限于以下几个方面：\\n\\n1\. 金融领域：人工智能技术被用于风险控制、投资决策、客户服务等方面，提高了金融服务的智能化程度和客户体验。\\n\\n2\. 医疗领域：人工智能技术被用于疾病诊断、手术辅助、健康管理等方面，提高了医疗服务的精准度和效率。\\n\\n3\. 制造领域：人工智能技术被用于生产过程优化、质量控制、智能制造等方面，提高了制造业的智能化水平。\\n\\n4\. 零售业：人工智能技术被用于商品推荐、客户服务、库存管理等方面，提高了零售业务的效率和客户满意度。\\n\\n5\. 交通运输领域：人工智能技术被用于自动驾驶、交通规划、物流管理等方面，提高了交通运输的安全性和效率。\\n\\n6\. 教育领域：人工智能技术被用于教学辅助、学习诊断、教育资源推荐等方面，提高了教育质量和学习效果。\\n\\n未来，人工智能技术的发展趋势包括：\\n\\n1\. 深度学习：深度学习是人工智能的核心技术之一，它可以让机器自动学习复杂的模式和规律。随着计算机性能的不断提高和数据量的不断增大，深度学习将会在更多领域得到应用。\\n\\n2\. 自然语言处理：自然语言处理技术可以让机器理解和生成人类语言，这是实现人机交互的关键。随着语料库的不断扩大和算法的不断优化，自然语言处理技术将更加成熟。\\n\\n3\. 计算机视觉：计算机视觉技术可以让机器识别和处理图像、视频等视觉信息，这是实现智能监控、自动驾驶等应用的关键。随着图像处理技术的不断发展，计算机视觉将在更多领域得到应用。\\n\\n4\. 联邦学习：联邦学习是一种分布式机器学习技术，可以让多个设备或系统之间共享数据和模型，从而提高整体的学习效果。联邦学习在物联网、移动设备等领域具有广泛的应用前景。\\n\\n5\. 可解释性人工智能：可解释性人工智能是指让机器学习的模型和决策过程更加透明和可解释。这对于一些对安全性、可靠性要求高的领域（如医疗、金融等）具有重要意义。\\n\\n6\. 人工智能与大数据结合：人工智能技术可以对海量数据进行分析和挖掘，从而发现潜在的规律和价值。随着大数据技术的不断发展，人工智能与大数据的结合将会在更多领域发挥作用。\\n\\n7\. 人工智能与物联网结合：物联网技术可以将现实世界的物体与互联网连接起来，实现智能化管理和服务。人工智能与物联网的结合将在智能家居、智能交通等领域产生广泛应用。\\n\\n总之，人工智能技术正快速发展，并在各个领域展现出巨大的潜力。随着技术的不断进步和创新，人工智能将在未来带来更多的变革和机遇。\""}], "usage": {"prompt_tokens": 202, "completion_tokens": 602, "total_tokens": 804}}, "success": true}
 *   注释：什么是字典？
@@ -80,13 +80,13 @@ dic = {key1 : value1, key2 : value2 }
 ```
 这是一个字典结构，我们只需要定位到需要的 key，让机器人返回对应的 value 即可。
 蓝色部分是有效内容，对应的 key 为 content。借助影刀市场指令【json 数据提取】就能拿到想要的回答，操作如下：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0f19d4d57c448209b185020232e5870c.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f142ebf53c0338e532c91d5dfb3c8711.png>
+![](img/zhuanqian_0f19d4d57c448209b185020232e5870c.png)
+![](img/zhuanqian_f142ebf53c0338e532c91d5dfb3c8711.png)
 提取后机器人得到的回复是：
 [' 人工智能（Artificial Intelligence，AI）是指由人制造出来的具有一定智能的系统，可以理解或认识外部环境，并针对所获得的信息做出相应的反应。人工智能技术的发展和应用领域非常广泛，包括金融、医疗、制造、教育、交通等领域。\n\n在金融领域，人工智能技术被用于风险控制、投资决策、客户服务等方面，提高了金融服务的智能化程度和客户体验。在医疗领域，人工智能技术被用于疾病诊断、手术辅助、健康管理等方面，提高了医疗服务的精准度和效率。在制造领域，人工智能技术被用于生产过程优化、质量控制、智能制造等方面，提高了制造业的智能化水平。\n\n人工智能的发展趋势包括深度学习、自然语言处理、计算机视觉等技术。深度学习是人工智能的核心技术之一，它可以让机器自动学习复杂的模式和规律。随着计算机性能的不断提高和数据量的不断增大，深度学习将会在更多领域得到应用。\n\n另外，人工智能的应用和发展趋势表明，未来人工智能带来的科技产品，将会是人类智慧的容器。人工智能可以对人的意识、思维的信息过程进行模拟，从而在某种程度上实现人类智能的延伸。\n\n我国政府高度重视人工智能发展，制定了一系列政策和规划，推动人工智能产业的发展。随着我国人工智能技术的不断进步和应用场景的拓展，人工智能将为经济社会发展带来更多机遇和挑战。']
 列表形式还能接受，但影刀自带【列表聚合文本】指令，可以把列表拼接成完整段落。因为是重新请求，回答会有细微差异。具体操作：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1a60ffeb3f8cdac91d44f172db042e5a.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_894578dfc9c738cb182d383d9eeea616.png>
+![](img/zhuanqian_1a60ffeb3f8cdac91d44f172db042e5a.png)
+![](img/zhuanqian_894578dfc9c738cb182d383d9eeea616.png)
 人工智能（Artificial Intelligence，AI）是指由人制造出来的具有一定智能的系统，可以理解或认识外部环境，并针对所获得的信息做出相应的反应。人工智能技术涉及到多个领域，如机器学习、深度学习、自然语言处理、计算机视觉等。
 人工智能的应用领域非常广泛，包括但不限于以下几个方面：
 1.金融领域：人工智能技术在金融领域的应用包括风险控制、投资决策、客户服务等方面，可以提高金融服务的智能化程度和客户体验。
@@ -113,7 +113,7 @@ dic = {key1 : value1, key2 : value2 }
 10. 应用场景拓展：AI 会继续渗透到各行各业，催生更多新场景和商业模式。
 总的来说，AI 不会停下脚步，它会为人类社会带来更高效、更智能的生活与工作方式。但与此同时，伦理、法律、社会风险这些“副作用”也不容忽视，只有在技术进步的同时守住底线，才能让 AI 走得更久、更稳。
 ——以上算是一份“热身”，真正让人兴奋的是怎么把 AI 用到手边。比如在影刀 RPA 里，只要 4 步，就能实现“AI 提问自由”！
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a0d6d8c4bacf794b613464ebbae81717.png>
+![](img/zhuanqian_a0d6d8c4bacf794b613464ebbae81717.png)
 ## 用魔法指令，绕过代码也能“定制指令”
 会写代码的人，当然可以通过代码让 AI 提问变得更自由；可对没有代码基础的普通人来说，这一步就显得不太友好了。那怎么办？
 影刀最近上线了一个“魔法指令（Beta）”功能。说白了，你只需要用文字描述需求，影刀就能帮你生成一条新的指令，配合实际场景去使用。
@@ -121,14 +121,14 @@ dic = {key1 : value1, key2 : value2 }
 ```
 通过发送HTTP请求调用清华智谱模型接口，对输入数据进行智能分析，并返回回复结果。你需要先导入zhipuai的库，然后还需要用户输入api_key
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_253f5e02bbb48c150bd710b0f48919c8.png>
+![](img/zhuanqian_253f5e02bbb48c150bd710b0f48919c8.png)
 从上面的操作可以看到，返回结果是 JSON 格式，真正要用的内容在 content 的 value 里，所以还得再做一轮提取。于是，我继续向魔法指令提问。
 我给出的指令是：
 ```
 我希望你能帮我从JSON中提取键名为content的value值，如果返回的value值是个列表，我希望你能将列表聚合为文本
 ```
 把刚才返回的数据放进 JSON 里就可以了。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f2eaf09ae43f43902d944bc0a7e113b6.png>
+![](img/zhuanqian_f2eaf09ae43f43902d944bc0a7e113b6.png)
 不过说实话，这个魔法指令目前还是 Beta 版，需要花点时间和耐心去调。你的文字提示词越精准，生成的指令才越顺手。而且它虽然能打开“编辑源码”，但并不适合做大幅改动，小 Bug 也有不少。这跟用 GPT 是一样的道理：好的 Prompt，才有好的结果。
 ## 结语：AI 时代，还要不要学 Python、学 RPA？
 这篇内容之所以诞生，是因为官方人员给我发了一个魔法指令活动。我本来想着简单写写就好，又忍不住加了点高级课上学到的东西，结果给自己挖了个坑……不过整个过程挺有意义的，为了写稿，我还把 Python 基础重新补了一遍。

@@ -6,7 +6,7 @@
 春节期间DeepSeek横空出世，让很多传统企业的老板真正看懂了AI的商业价值。
 当前经济下行，降本增效几乎是所有企业的共同诉求，而AI的进化恰好给了老板一个解法。
 因为AI一次性解决了“又要忠诚、又要高能、又要便宜”这不可能三角。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f218bcd4946d231ef2df2bf23298f66d.png>
+![](img/zhuanqian_f218bcd4946d231ef2df2bf23298f66d.png)
 从实际项目反馈来看，企业最关心的还是文本类的对话客服，这块AI的表现已经非常成熟，用Claude这类主流大模型，基本能覆盖95%以上的日常问答。
 即便涉及图片识别，比如兑奖核验、订单截图识别等场景，也属于相对小众的需求，借助Byte的Vision Pro、GPT-4o这类视觉模型也能轻松搞定。
 借助精细化的提示词设计和RAG检索，AI已经可以为企业带来显著的效率提升。
@@ -15,11 +15,11 @@
 先说大家最在意的问题：AI客服的客户到底怎么找？没有客户，一切都是空谈。​
 ALL IN到AI之后，我们做了两件事来建立势能：一是做短视频IP持续输出内容，二是联合机构、高校举办线下AI应用峰会。
 同时我们很重视私域沉淀，把潜在客户沉到微信，通过朋友圈持续更新AI落地方案、行业案例和前沿趋势，强化“我们是AI专家”的心智。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4cf7f8f58692d2a1e0593d94aa7452b8.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1a4c553b19b9ddd5d8ba208a0ffcfd8d.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cd08943320457e8d1b6443923940da95.png>
+![](img/zhuanqian_4cf7f8f58692d2a1e0593d94aa7452b8.png)
+![](img/zhuanqian_1a4c553b19b9ddd5d8ba208a0ffcfd8d.png)
+![](img/zhuanqian_cd08943320457e8d1b6443923940da95.png)
 实战下来我们发现，线下峰会的转化效果远超短视频等线上渠道，真正付费落地的B端客户大多来自线下。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_861bf5d78e081b66d45c14d5b1e0aeb1.png>
+![](img/zhuanqian_861bf5d78e081b66d45c14d5b1e0aeb1.png)
 和菜鸟、交大、同济等知名高校及机构联合办会，让我们获得了广泛信任，也让品牌溢价变得自然，客户对报价的接受度明显提高。
 除了大会获客，投资人的加持也起到了关键作用。因为看好AI赛道，投资人成为我们AI SaaS的首批用户，后续在产品打磨中不断给予反馈，并主动为我们牵线了多家客户。
 这里给技术同学一个提醒：技术是基本盘，但写作、演讲等软实力同样重要。影响力做起来了，你的产品才会被更多人看见和买单。
@@ -103,7 +103,7 @@ ALL IN到AI之后，我们做了两件事来建立势能：一是做短视频IP�
 写好的提示词容易冗长。可以直接让AI帮忙精简重写，效果常有提升。
 ### 二）微信场景的特殊打法
 微信对话不是一次性输出一大段，而是逐句、带节奏的对话。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_083bf05061c64772743fa9aaea76ba1a.png>
+![](img/zhuanqian_083bf05061c64772743fa9aaea76ba1a.png)
 所以提示词里我们强制数组化输出：
 ```
 ## 输出格式
@@ -116,7 +116,7 @@ ALL IN到AI之后，我们做了两件事来建立势能：一是做短视频IP�
 基础提示词能覆盖大部分场景，但遇到复杂业务，提示词会膨胀到上万字，出现幻觉和指令失效。
 #### 一）提示词拆分
 我们的做法是把巨型提示词拆成多个场景子提示词，用前置意图识别来路由调用。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b326234019306a27d2b98d8751770ed7.png>
+![](img/zhuanqian_b326234019306a27d2b98d8751770ed7.png)
 每个子提示词短小，表现更稳定。
 #### 二）变量替换法
 长固定文本会拖慢模型。比如“你好”要返回一段几百字问候语。
@@ -134,7 +134,7 @@ AI输出的HTML会变成 ![](A1) 这种形式，工程层再替换回真实链�
 改造后，使用Claude、Gemini生成文章的成功率达到100%，再未出现URL错乱。
 ## 七、RAG实战要点
 RAG是AI客服绕不开的环节。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_90fe0eac5b18209d1483223c56efc7bb.png>
+![](img/zhuanqian_90fe0eac5b18209d1483223c56efc7bb.png)
 市面上方案流程大同小异，主要差异在分片、向量化、重排序策略。
 我们重点讲两个环节：重写和重排序。
 ### 一）重写
@@ -168,7 +168,7 @@ RAG是AI客服绕不开的环节。
 这就要求提示词从定制走向标准化，形成可复用的 SOP。
 答案是可行的。很多传统企业既没有私域运营意识，也没有成体系的话术。我们据此设计了一套通用框架，涵盖开场白、价值塑造、转化话术等模块。
 我们做了个后台，运营人员只需在框架里填入该客户独有的场景和话术示例。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6b5d3be2e8e7f5d99c4fc953f8fe7609.png>
+![](img/zhuanqian_6b5d3be2e8e7f5d99c4fc953f8fe7609.png)
 填充完成后系统自动组装成可用的 System Prompt。客户自己整理好的话术文档也可以同步上传到知识库。
 这样，一个通用模型加薄层 RAG 就能上线，交付效果满足大部分常见问题，而且配置全靠运营完成，成本大幅下降。
 如果客户后续需要图片识别、用户打标、主动触达等进阶能力，再付费 3-5 万做精调即可。
@@ -177,7 +177,7 @@ RAG是AI客服绕不开的环节。
 结论是：算，而且前景很好。
 很多人担心 AI 越强自家产品越容易被替代。其实判断很简单：产品能随 AI 进步而增强，并且拥有 AI 拿不到的数据和平台壁垒，就具备长期生命力。
 AI 客服正符合这两点。模型越强，回答质量越高。同时微信会话数据在模型厂商那里是不可见的，这构成了数据壁垒。我们还搭了基于微信标签的主动触达能力，这是纯模型做不到的。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6ff83b8af49e78fc77ab94196efa52c8.png>
+![](img/zhuanqian_6ff83b8af49e78fc77ab94196efa52c8.png)
 一个可持续的 AI 产品要满足两件事：
 1. 随底层大模型变强而变强
 2. 拥有 AI 无法直接触达的数据、平台等护城河

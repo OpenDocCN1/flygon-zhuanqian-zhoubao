@@ -8,58 +8,58 @@ Flux 模型今年的热度不用多说，但很多人被硬件卡住，要么本
 ## 先感受一下 FLUX
 先打开哩布哩布 AI 的官网，这是国内口碑不错的社区，创作者分享的模型和资源很全。
 https://www.liblib.art/
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d369c9603a3afb70d3c749ac53e2a36e.png>
+![](img/zhuanqian_d369c9603a3afb70d3c749ac53e2a36e.png)
 进去后模型非常多，Flux 因为太火几乎占了近半。直接按 算法基础 F.1 筛选就能锁定 Flux 系列。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4ae02308ba299c9ba80f73ae276cfe40.png>
+![](img/zhuanqian_4ae02308ba299c9ba80f73ae276cfe40.png)
 ### F1 当下流行的爆款 Lora
 随便点开一个，比如这位美女老师的 Lora，简单理解就是在 Flux 模型上加了一个微调包。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7c2203c25ccdaa77f0bb357785ea088f.png>
+![](img/zhuanqian_7c2203c25ccdaa77f0bb357785ea088f.png)
 点立即生成会弹出 画同款 的入口。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_91ecb5733b1c1ebe53f166543d28089b.png>
+![](img/zhuanqian_91ecb5733b1c1ebe53f166543d28089b.png)
 想换风格直接在画同款里修改描述：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0872e59c78f334e58481ad15893da637.png>
+![](img/zhuanqian_0872e59c78f334e58481ad15893da637.png)
 再点立即生成：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e6befa3c32d365684a55d2fcd7cf13f2.png>
+![](img/zhuanqian_e6befa3c32d365684a55d2fcd7cf13f2.png)
 土豆连跑了三轮，真实感很强，基本接近实拍。
 当然瑕疵难免，比如口罩处理、肢体多余、画面文字残留等。多跑几张、多开几批，筛出满意的概率更大。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_26e57a64776a535f2e1e0cf202774ea2.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_735eb7cb7cd498c16837bb94dccfdc58.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1b32378c851de38525c404d2eb4ee1ca.png>
+![](img/zhuanqian_26e57a64776a535f2e1e0cf202774ea2.png)
+![](img/zhuanqian_735eb7cb7cd498c16837bb94dccfdc58.png)
+![](img/zhuanqian_1b32378c851de38525c404d2eb4ee1ca.png)
 这就是 Flux 文生图的基础用法。目前 Flux 搭配各式 Lora 在哩布哩布 AI 上都能直接在线验证。
 平台同样支持图生图、图生视频，可自行尝试。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_732a37ecd4cb60461aa627c2c396f09a.png>
+![](img/zhuanqian_732a37ecd4cb60461aa627c2c396f09a.png)
 那 ComfyUI 究竟是干嘛的？下面来体验。
 ## 初探 ComfyUI 流程
 进入工作流广场，挑一个自己想要的效果，或者直接搜索。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a27d1c5cb718ac4a965df63268992ec9.png>
+![](img/zhuanqian_a27d1c5cb718ac4a965df63268992ec9.png)
 ### 小红书风格仿图流程
 比如想做小红书同款仿图，可以搜一下。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e4f89008e008ba400bd18398aee50a35.png>
+![](img/zhuanqian_e4f89008e008ba400bd18398aee50a35.png)
 我们选这个支持在线运行的示例，因为可以直接跑。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_750b7c82a4d67f08254438cd7360e523.png>
+![](img/zhuanqian_750b7c82a4d67f08254438cd7360e523.png)
 打开后界面是这样的，用鼠标滚轮可缩放。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_13b78079a844c7df1fdf2fc5a9a3db26.png>
+![](img/zhuanqian_13b78079a844c7df1fdf2fc5a9a3db26.png)
 点击 choose file to upload 上传图片，或直接把图片拖到预览框，然后点开始生成。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e9e8ccd009564c397837ff9ec278466e.png>
+![](img/zhuanqian_e9e8ccd009564c397837ff9ec278466e.png)
 土豆随手找了张小红书美女照来试，生成的画面 AI 痕迹明显吗？
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_13d37e36d4004ea29131310ee43316b8.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0cb9b0f181c10107059143ae55a3d661.png>
+![](img/zhuanqian_13d37e36d4004ea29131310ee43316b8.png)
+![](img/zhuanqian_0cb9b0f181c10107059143ae55a3d661.png)
 ### 如何微调流程
 有人会问，如果我想用这个流程出男性网红博主的图怎么办？毕竟多数模型偏女性，需要专属 Lora 效果更好。
 其实很简单，把 Lora 换掉就行。这个流程里已加载了 Lora，只要把同色连线接到对应节点即可。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_02cfb0c9b8434fb7dfcff626d7828fa3.png>
+![](img/zhuanqian_02cfb0c9b8434fb7dfcff626d7828fa3.png)
 运行一下，发现报错了。是右侧节点没替换，按住 Shift 再点鼠标即可直接断开重连。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b3f5b22ac056836b34a1ec3a5d0b8986.png>
+![](img/zhuanqian_b3f5b22ac056836b34a1ec3a5d0b8986.png)
 运行后的原图和对比图，风格基本保持一致。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_af55f513cd380a2136909c840eed7687.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a7ea275e2c6f56e070c0b52e93e47ec1.png>
+![](img/zhuanqian_af55f513cd380a2136909c840eed7687.png)
+![](img/zhuanqian_a7ea275e2c6f56e070c0b52e93e47ec1.png)
 类似这种一键可用的流程非常多，值得慢慢挖掘。
 # 借助云端显卡运行
 学会在 LiblibAI 上跑流程后就能直接开用了。现在大部分流程都能正常跑，只有一些很老的流程因节点未适配而失效，因为官方不支持手动安装节点，只能本地解决。
 比如这个流程，密密麻麻一片红色缺失，就是节点不全。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0301765674c92f8a115f7c14e45d099f.png>
+![](img/zhuanqian_0301765674c92f8a115f7c14e45d099f.png)
 新手可能会问节点是什么？简单说就是那些卡片形状的可视化模块。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d0e20b57477cc65fc48d05c629c26b03.png>
+![](img/zhuanqian_d0e20b57477cc65fc48d05c629c26b03.png)
 所以在 LiblibAI 在线使用有两点限制：
 * 部分流程依赖未安装的节点，无法运行
 * 不支持图生图的批量处理，网页只能单张上传，批量需借助 RPA 绕路
@@ -73,159 +73,159 @@ https://www.liblib.art/
 温馨提示：
 下面案例全在端脑云展示，如果你习惯别的平台，可以用这个工作流包测试，注意需要自行准备节点和模型。
 端脑云专业版的工作流合集：https://tudoujunh.lanzoub.com/iP0oM2fl7v2j
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_117d3e59e17609ce8c5a47ef3f153475.png>
+![](img/zhuanqian_117d3e59e17609ce8c5a47ef3f153475.png)
 进入平台，找到 ComfyUI，选择“ComfyUI 专业设计版”。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_16328c2b432225f01a102e67d7bf9ee7.png>
+![](img/zhuanqian_16328c2b432225f01a102e67d7bf9ee7.png)
 启动后进入应用
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9f24a61c71d707782688516b1260317b.png>
+![](img/zhuanqian_9f24a61c71d707782688516b1260317b.png)
 点击后弹出新页面，点高级显示网址
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3bdad0156b6f565b3d446be80c6ddf0e.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_18a41c15d524ef20b3405d8c50d28291.png>
+![](img/zhuanqian_3bdad0156b6f565b3d446be80c6ddf0e.png)
+![](img/zhuanqian_18a41c15d524ef20b3405d8c50d28291.png)
 打开后的界面是这个样子的。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7ecd101b5f17339a90be5c859ad21749.png>
+![](img/zhuanqian_7ecd101b5f17339a90be5c859ad21749.png)
 第一个常见问题是语言。
 ## 切换中文界面
 如果没有看到 Switch Locale，说明翻译插件没装或版本过旧。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2beae16aa3c0edbedeccbf2ccdee3885.png>
+![](img/zhuanqian_2beae16aa3c0edbedeccbf2ccdee3885.png)
 点 Manager 打开 Custom Nodes Manager
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5baee4929c490c3a05d220fbdeee5bdd.png>
+![](img/zhuanqian_5baee4929c490c3a05d220fbdeee5bdd.png)
 搜索 translation，提示未升级就点 Try update，再 Restart。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8b79c6275c50e95e445d711cbc948872.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_47f6d3053ac382a1b071cad891ec5547.png>
+![](img/zhuanqian_8b79c6275c50e95e445d711cbc948872.png)
+![](img/zhuanqian_47f6d3053ac382a1b071cad891ec5547.png)
 等待重连。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b6105f4aa7eb81a9a1ae3901a93b623d.png>
+![](img/zhuanqian_b6105f4aa7eb81a9a1ae3901a93b623d.png)
 大概一分钟后刷新页面。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b56b7ba40102f556eb56d1c4d909d32b.png>
+![](img/zhuanqian_b56b7ba40102f556eb56d1c4d909d32b.png)
 出现 Switch Locale 后点 ⚙
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0a519393074fc9c17ac22d0890482ded.png>
+![](img/zhuanqian_0a519393074fc9c17ac22d0890482ded.png)
 找到 AGL 改为中文。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a02c3ea7c3be6d721589c41e848d24d4.png>
+![](img/zhuanqian_a02c3ea7c3be6d721589c41e848d24d4.png)
 页面会自动刷新，之后切换中英文都点“切换语言”即可。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_38e8a3e97198755bc5186d7ba0576ef8.png>
+![](img/zhuanqian_38e8a3e97198755bc5186d7ba0576ef8.png)
 这时我们来运行工作流。点左上角的 📂 图标。
 ## 如何加载并运行工作流
 打开后能看到内置上百个工作流文件，实际可用远超五百套，都是实战向的现成方案，直接拿来就用，不用手动下载模型配节点，体验很顺滑。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_76160ea4e810ade4f67df03f3e21cd1e.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_66147f913f2fdb5668f17243afa46cc3.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ce5a71062881f6a99d1a55d2cb85afcd.png>
+![](img/zhuanqian_76160ea4e810ade4f67df03f3e21cd1e.png)
+![](img/zhuanqian_66147f913f2fdb5668f17243afa46cc3.png)
+![](img/zhuanqian_ce5a71062881f6a99d1a55d2cb85afcd.png)
 下面演示几个常用工作流的使用方法。
 先找最基础的 Flux 生图工作流，打开“Flux | 生图”。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6e40646b53bad4affbfeef2afa85333e.png>
+![](img/zhuanqian_6e40646b53bad4affbfeef2afa85333e.png)
 是不是感觉有点懵？里面包含了 17 种生图方式。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e88ea077ba952caa71826d7af407e024.png>
+![](img/zhuanqian_e88ea077ba952caa71826d7af407e024.png)
 不用全跑，只跑自己需要的那条即可。没有红色报错提示，说明环境齐全。
 ## 实战案例
 ### Flux 文生图工作流
 先跑第一个默认未被紫色标注的工作流。紫色表示节点被忽略，红色表示错误。滚轮放大，点击“添加提示词队列”开始。绿色框是正在运行的节点，绿色线是进度。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_123b240751fd3140ebd96b776f4e2495.png>
+![](img/zhuanqian_123b240751fd3140ebd96b776f4e2495.png)
 第一次加载模型比较慢，约 4-5 分钟，之后就快很多。
 注释是缩小的提示，可以点圆点 ● 放大缩小。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_338afd660c14bd5e26f58212ef1e5761.png>
+![](img/zhuanqian_338afd660c14bd5e26f58212ef1e5761.png)
 点开注释能看到大佬留的提示词写法示例，可做智能填空。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_69eff7408b5be54f849db7ce0baa5e31.png>
+![](img/zhuanqian_69eff7408b5be54f849db7ce0baa5e31.png)
 跑完后会得到一张图，工作流里还集成了放大节点，所以结构会显得复杂，但都是为了实用。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_632cd9270084d07d2f310285fdfe994d.png>
+![](img/zhuanqian_632cd9270084d07d2f310285fdfe994d.png)
 接下来试试图生图。
 ### Flux 图像反推工作流
 图像反推就是把原图反推出提示词，再结合原图重绘。
 先在蓝色大框右键，选择“忽略框内节点”。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0f1f4ca158c54e652d46f83af5a67c94.png>
+![](img/zhuanqian_0f1f4ca158c54e652d46f83af5a67c94.png)
 忽略后变紫色。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_be149ce0cc8610f49d8f9836ac051a79.png>
+![](img/zhuanqian_be149ce0cc8610f49d8f9836ac051a79.png)
 注意，文件里同一时间只能启用一个工作流，其他必须全部忽略，否则即使 4090 也会爆显存。
 从右往左找到“FLUX｜图像反推提示词+图生图”工作流。
 运行前，先右键任意位置，选择“清理显存占用”。Flux 加载前必须清显存，否则必定爆。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d12282c0fae019f4563e64fd8e46e4aa.png>
+![](img/zhuanqian_d12282c0fae019f4563e64fd8e46e4aa.png)
 清理成功后 VRAM 会降到约 10%，再右键“启用框内节点”即可运行。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_63e6c64b5f2919ec1ee384678b71ddf1.png>
+![](img/zhuanqian_63e6c64b5f2919ec1ee384678b71ddf1.png)
 土豆用一张抖音的田园女生图测试，因为换了工作流，第一次加载模型又要等会儿。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9276be7f82bd4514050779028e6d3893.png>
+![](img/zhuanqian_9276be7f82bd4514050779028e6d3893.png)
 工作流自带图像对比，能实时预览。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_148842b0ae3443763a67047400896d89.png>
+![](img/zhuanqian_148842b0ae3443763a67047400896d89.png)
 生成结果如下：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fa9a0efb94a2e50bc328c737b9957f1e.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_37d51760401c5ad047cdf2fd52edfdb7.png>
+![](img/zhuanqian_fa9a0efb94a2e50bc328c737b9957f1e.png)
+![](img/zhuanqian_37d51760401c5ad047cdf2fd52edfdb7.png)
 整体风格还原度很高，人和狗的细节稍显不足，和小红书洗稿工作流比还是有差距。
 这也说明了工作流的重要性，同样模型，不同流程效果差异很大。找不到合适的就借鉴修改，或从基础节点拼装。
 土豆还试了卡通图，这个流程就很合适。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a600b8ea9560d07570f972177255cc0b.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9e806dd9dc3783dc1304530db37bc791.png>
+![](img/zhuanqian_a600b8ea9560d07570f972177255cc0b.png)
+![](img/zhuanqian_9e806dd9dc3783dc1304530db37bc791.png)
 其他流程就不一一展开了，原理都一样。
 ### 口播视频换脸
 找一个口播换脸工作流，先下载。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_55f716509e76466749ec49c2b3786a90.png>
+![](img/zhuanqian_55f716509e76466749ec49c2b3786a90.png)
 直接拖进页面即可，无需解决节点依赖。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ba0d2f8d567c3f0acddb48319b0f4610.png>
+![](img/zhuanqian_ba0d2f8d567c3f0acddb48319b0f4610.png)
 换脸素材
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_77c4daa90361929b94218186f5f8075c.png>
+![](img/zhuanqian_77c4daa90361929b94218186f5f8075c.png)
 对比效果
 ### ComfyUI 批量出图
 以“反推提示词+Flux 工作流”为例演示批量。
 先找到反推提示词工作流
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_beebf2a79624578711e11c25b1deee36.png>
+![](img/zhuanqian_beebf2a79624578711e11c25b1deee36.png)
 里面集成了 Molmo、Joy captain、Minicpm、Florence2 等多种反推示例。
 这里测试第一个“FLUX｜生图+深度图参考”：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2453960977e989994c4c95e4d49fea78.png>
+![](img/zhuanqian_2453960977e989994c4c95e4d49fea78.png)
 #### 上传图片
 从应用管理进入文件管理
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d098d5ed75172b7544f5eb777f2d4b53.png>
+![](img/zhuanqian_d098d5ed75172b7544f5eb777f2d4b53.png)
 找到 input 目录，把要处理的图片文件夹拖进去即可。土豆的路径是 ./input/test
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_662164cc29701560750974cf48ea5990.png>
+![](img/zhuanqian_662164cc29701560750974cf48ea5990.png)
 #### 搭建批量节点
 双击搜索文件夹，选择第二个节点。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_81fde5289e05a871bf91bc306f3e93c2.png>
+![](img/zhuanqian_81fde5289e05a871bf91bc306f3e93c2.png)
 搜索图像批次，选择第一个。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4dd1666fafb708cdd0afa203aa00ee0d.png>
+![](img/zhuanqian_4dd1666fafb708cdd0afa203aa00ee0d.png)
 按住 Shift+鼠标点击拔线，接到“图像列表”节点，再把加载图像的线连上。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cf633edf0bd3c4f9ce6b6d337f9c19db.png>
+![](img/zhuanqian_cf633edf0bd3c4f9ce6b6d337f9c19db.png)
 填入图片文件夹路径：./input/test
 最后加一个保存图像节点，修改文件名前缀。成品会输出到 output 目录，可批量打包下载。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e0a3a9cc4d382ebf67b79aff608028cf.png>
+![](img/zhuanqian_e0a3a9cc4d382ebf67b79aff608028cf.png)
 ### 运行操作
 先找到“添加提示词队列”并运行一次。等待大约十几分钟，图像就会生成。土豆试跑后一共得到五张图，按x键即可查看图片列表。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ca0fd765b547457c9c571d7eadfc80ca.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b2cc78bd7d0486108108b826f30e80f0.png>
+![](img/zhuanqian_ca0fd765b547457c9c571d7eadfc80ca.png)
+![](img/zhuanqian_b2cc78bd7d0486108108b826f30e80f0.png)
 左侧为原始图像，右侧为生成结果。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b6c2a0bcaff2f60e0cc93f78955086e4.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1738d7b87ab11a58661af906e99195c6.png>
+![](img/zhuanqian_b6c2a0bcaff2f60e0cc93f78955086e4.png)
+![](img/zhuanqian_1738d7b87ab11a58661af906e99195c6.png)
 生成的文件存放在output文件夹内，支持多图打包下载。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0552b1cfee397bd4d8c5d113b6654cfb.png>
+![](img/zhuanqian_0552b1cfee397bd4d8c5d113b6654cfb.png)
 ## 工作流小贴士
 ### 图片保存技巧
 #### 保存预览图
 如果你想存下预览画面，建议右键图片打开后再手动保存。直接点击“保存图像”往往会失效。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_55fe4ff1a8b77ac3f65354b8bc9489a0.png>
+![](img/zhuanqian_55fe4ff1a8b77ac3f65354b8bc9489a0.png)
 #### 加入保存图像节点
 注意：预览节点并不会把图片存到磁盘，必须手动挂一个“保存图像”节点。
 双击空白处会弹出搜索菜单，输入“保存图像”，点选后就能添加对应节点。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_dbd5812cd198d3b2872bcf189fc1a504.png>
+![](img/zhuanqian_dbd5812cd198d3b2872bcf189fc1a504.png)
 接下来把同为图像类型的蓝色接口连起来即可完成保存。细心的话会发现“文件名前缀”那里，土豆用的是输入模式，另一个是连线端口，其实通过右键选择“转化为输入”就能自由切换，非常灵活。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6e9dd75e72fae9a9f0730b048c82a7bd.png>
+![](img/zhuanqian_6e9dd75e72fae9a9f0730b048c82a7bd.png)
 ### 常见报错排查
 #### 缺节点
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9a410952063d4dd2af319f29e9d28717.png>
+![](img/zhuanqian_9a410952063d4dd2af319f29e9d28717.png)
 当出现“缺少节点”的提示，就需要补装缺失的节点。点击“安装缺失节点”，按提示装上对应的组件。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bca48b0b18adcc5e3978c29ed75c58a6.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2a48bc14b4cd4430830fa22aa5145c3d.png>
+![](img/zhuanqian_bca48b0b18adcc5e3978c29ed75c58a6.png)
+![](img/zhuanqian_2a48bc14b4cd4430830fa22aa5145c3d.png)
 装完后重启并再次运行。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4b12be6e2e9338b8fb43df0529507281.png>
+![](img/zhuanqian_4b12be6e2e9338b8fb43df0529507281.png)
 如果仍然提示缺模型，那就要下载相应模型再上传到平台，具体可以参照官方教程。在官方文档的“模型安装”部分，推荐用百度网盘上传（需要会员，速度最快）。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f8733f8fd83f44f634328fc5f1cd0ccb.png>
+![](img/zhuanqian_f8733f8fd83f44f634328fc5f1cd0ccb.png)
 #### 运行时报错
 如果是导入时没有报错，运行才报错，大概率是模型名称没对上。先检查平台上有没有同名模型，有就直接替换；没有则要下载后重新导入。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ace4668fab1c505ae5f320ba1db88b75.png>
+![](img/zhuanqian_ace4668fab1c505ae5f320ba1db88b75.png)
 例如这种报错就是模型文件名不一致导致的，直接选对模型就能解决。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3b77da98d691030b5047e9f783c83e3a.png>
+![](img/zhuanqian_3b77da98d691030b5047e9f783c83e3a.png)
 而LoRA加载器报错，通常是因为缺少对应的LoRA文件，需要单独下载补充。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_75a2627497306996c82e480afbaaa543.png>
+![](img/zhuanqian_75a2627497306996c82e480afbaaa543.png)
 #### 别忘了清理显存
 强烈建议及时清理显存，很多运行异常都是显存没有释放造成的。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_81ffb65af391abe73b8b52a22dda3a76.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_874c5a95b52a7ea639e3f512a352e377.png>
+![](img/zhuanqian_81ffb65af391abe73b8b52a22dda3a76.png)
+![](img/zhuanqian_874c5a95b52a7ea639e3f512a352e377.png)
 #### 重启大法
 运行中偶尔会因为显存爆满或网页多标签页的干扰而出现莫名错误。如果系统给出了明确的错误提示，不妨试试重启。
 比如看到 "allocation on device" 的提示，就点击“重启”按钮，稍等一分钟左右再手动刷新页面。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_46d3a637f75be3acc5768e3e55fad3fa.png>
+![](img/zhuanqian_46d3a637f75be3acc5768e3e55fad3fa.png)
 ## 进阶与学习资源
 关于平台的更多细节，直接翻端脑云官方手册即可，里面写得很清楚。
 若你想系统掌握各类节点用法、独立搭建工作流，土豆推荐B站up主Nenly同学的ComfyUI视频合集。课程紧凑且干货满满，总时长不到3小时。

@@ -10,8 +10,8 @@
 ## 粉丝量分布先看个概览
 把用户表导出后直接丢进 GPT 的 Advanced Data Analysis 里，然后用大白话告诉它我关心的维度就行。现在的 GPT-4 理解能力已经很强，不需要花里胡哨的 prompt。
 初步跑出来的结果如下：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e8cbb653f30bf5dc4e0d902308a0b4ad.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_71a2dfeac321770dc34837d25be3b763.png>
+![](img/zhuanqian_e8cbb653f30bf5dc4e0d902308a0b4ad.png)
+![](img/zhuanqian_71a2dfeac321770dc34837d25be3b763.png)
 结合 GPT 初步输出和人工复核，最终符合条件的用户统计是这样的：
 粉丝超过1000 的有 10043 个，其中近一年新号 387 个
 粉丝超过5000 的有 4578 个，其中近一年新号 136 个
@@ -23,10 +23,10 @@
 这一步最耗时。Twitter 反爬很严格，全量抓推文花了不少功夫试错才搞定。
 抓完之后要做基础统计。Advanced Data Analysis 不联网，所以先把部分样本导出到 Excel 上传离线分析，让 GPT 按需求生成可在本地运行的代码。这样就能批量跑全量用户，不必在线对话。
 联调时的部分记录如下，验证过核心指标的计算是正确的。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cc2f0ec1b702708714e93938a430cb49.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7673b3c4707a02fc89d57169acbc60a8.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_66c68fc1969b8f3e54a529f2e0409927.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c54a7f09893f8a15f3c5578cfe9cb326.png>
+![](img/zhuanqian_cc2f0ec1b702708714e93938a430cb49.png)
+![](img/zhuanqian_7673b3c4707a02fc89d57169acbc60a8.png)
+![](img/zhuanqian_66c68fc1969b8f3e54a529f2e0409927.png)
+![](img/zhuanqian_c54a7f09893f8a15f3c5578cfe9cb326.png)
 目前我统计了按月、按周的发推频次、点赞评论趋势，以及用户偏好的发推时段、获赞最高的时段。对比下来发帖时段并没有明显共性，后续就去掉了。基于这些基础指标还能做更多维度的可视化，有想法欢迎交流。
 拿到结果后，让 GPT 生成可在本地执行的脚本，把数据源从 Excel 换成数据库，实现全自动跑批。顺带用 cf 搭了个免费图床存图表。整个从指标确认到代码调试上线，花了不到三小时。跑完后会得到一份汇总所有用户分析结果的 Markdown 报告，不得不说 GPT 的数据分析效率很高。
 基础画像可视化完成后，下一步是让 GPT-4/Claude 去读推文做内容层分析。
@@ -37,9 +37,9 @@
 * 再筛选出评赞比高于账号整体平均水平 30% 的推文。例如账号整体评赞比 15%，则保留评赞比大于 22.5% 的推文。
 把筛选后的推文整理好后丢给 Claude 实测，发现会出现编造数据的现象。为了避免胡说八道，我先让 GPT 写代码把用户基础信息提取出来，拼成一个信息模板，再和推文一起输入模型。
 先根据注册日期、拉取日期、总推文数算出日均发推量、总评赞比等基础字段。把基础信息 + 推文信息拼接到一起，再由 GPT-4 生成组装 prompt，模板示意如下：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7271524e793adbdca52d128ab81c9a2c.png>
+![](img/zhuanqian_7271524e793adbdca52d128ab81c9a2c.png)
 加上基础信息后，GPT-4 和 Claude 的输出可信度明显提升。我前后调试了三个版本的 prompt，分别用 GPT-4 和 Claude 生成多份报告。结论是：同 prompt 下 GPT-4 的分析和建议更准更具建设性，Claude 在语言表现上更生动。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4d0b166acabafe66c4d1131c52177a7b.png>
+![](img/zhuanqian_4d0b166acabafe66c4d1131c52177a7b.png)
 下面是 GPT-4 生成的最终版分析报告片段。
 ## 总结与内容洞察
 完成用户画像后，我又抽了 500 条 AI 领域点赞超过 1000 的推文让 GPT 做主题归纳。这批数据更能反映当前推特上真正受欢迎的内容。

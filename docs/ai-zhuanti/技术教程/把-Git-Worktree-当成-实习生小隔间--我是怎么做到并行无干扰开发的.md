@@ -13,7 +13,7 @@
 当你能做到这一点，单次任务的生命周期就会变长。你就相当于有了一个在 Background 里默默工作的“小助手”。
 一个跑起来了，你再启动第二个，第二个收尾后再启动第三个。任务拆分得越细、指令越明确，跑得越顺手。我自己结合 Local Issues、RR / PLAN / Agent 的思路来做任务编排和驱动，效果还不错。
 这是我平时三开的实际界面
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b7a630c701a486d94252ef6325fd7bbd.png>
+![](img/zhuanqian_b7a630c701a486d94252ef6325fd7bbd.png)
 # 解决“多个人一起改代码打架”的办法
 一口气开多个任务，最怕的就是代码冲突。尤其是项目越复杂，分支交叉越容易互相污染。
 我现在用的最省事的方案是 git worktree。
@@ -37,7 +37,7 @@ git worktree add -b feature/lading-page ../aimemocards-landing-page develop
 执行完你就得到一个只属于 landing-page 的专属工作目录。
 cd ../aimemocards-landing-page/ 进入后开始干活，完全不用担心影响主目录和其他任务。
 这时候磁盘上的结构大概是这样
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_37fd651d5ff4c95c9b9a0784e8a689d0.png>
+![](img/zhuanqian_37fd651d5ff4c95c9b9a0784e8a689d0.png)
 最上面是主仓库，下面三个就是三个 worktree 对应的分支目录，也就是每个实习生的小隔间。
 ### 任务收尾时
 ```

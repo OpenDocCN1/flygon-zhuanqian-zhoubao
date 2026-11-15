@@ -5,8 +5,8 @@
 04 年生 / INFJ，自由职业的赚钱派，大二时实现经济独立，欢迎同频的前辈或朋友交流。
 我接触「知识管理」源于大学时期。想法很直白：网络上的优质信息源源不断，若不及时记录、沉淀、整理并为日后复用做准备，等到真正需要时就会在信息洪流里迷路。
 把未来可能用得上的信息与知识收集起来，正是我最初踏入这条路的动机。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6379b2ab1b47583200b6dc4dfca499da.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c6e905abb4695e177196726f42e3775b.png>
+![](img/zhuanqian_6379b2ab1b47583200b6dc4dfca499da.png)
+![](img/zhuanqian_c6e905abb4695e177196726f42e3775b.png)
 过去三年里，我在 Obsidian 中累积了超过 5000 条记录，Flomo 也有 1000 多条。数字本身无关紧要，关键是这个量变的过程，实打实地推动了我对知识管理的认知完成质变。
 我的认知是踩坑中长出来的：
 ## 🚩 阶段一：过度痴迷排版，好看不等于好用
@@ -65,11 +65,11 @@ Archives 归档：已完成或暂时不用内容，如旧项目、历史资料�
 ### 1.3 直接问 AI 不就好了，为何还要问知识库？
 同样问 DeepSeek-R1：普通人如何找到适合自己的项目？
 以下是基于我自建的「龙哥分身」知识库在 ima 里的回复：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1d4a4a840cee61a33c566d64c9d76cd2.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9425f568778915e4a17b8720dc4ec5d6.png>
+![](img/zhuanqian_1d4a4a840cee61a33c566d64c9d76cd2.png)
+![](img/zhuanqian_9425f568778915e4a17b8720dc4ec5d6.png)
 以下是直接在 DeepSeek-R1 官网的回复：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4af4e02582a83e51dd8b4b5b31d75d17.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2ea6b33899c86a6fb7dda4db6a407212.png>
+![](img/zhuanqian_4af4e02582a83e51dd8b4b5b31d75d17.png)
+![](img/zhuanqian_2ea6b33899c86a6fb7dda4db6a407212.png)
 明显，AI + 知识库的回答更扎实、更可落地。
 为什么？道理很简单：问题是固定的，语料库越大，提问就必须越精确，否则答案越空泛；语料库越小，哪怕提问不精确，AI 也能给出具体相关的内容。
 把语料库想象成超市：
@@ -84,33 +84,33 @@ RAG 全称 Retrieval-Augmented Generation，检索增强生成。
 # 二、常见知识库工具/方案对比与选择
 搭建 AI 知识库的工具很多，为保持普适性，本文只讲国内可用、免🪜、跨端同步的方案，快速拿到正反馈。
 ## 1. ima [腾讯系 + 手机/电脑 + 联网]
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2c1e2f4e9d1c3c14b3f2a97b623142f4.png>
+![](img/zhuanqian_2c1e2f4e9d1c3c14b3f2a97b623142f4.png)
 目前 ima 是双端互通最顺滑的知识库，没有之一。背靠腾讯，公众号互通体验很丝滑。
 回答质量中规中矩，内容质量够高就能让人满意，甚至能真正解决问题。
 以下以电脑版演示，手机逻辑类似。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_807bdb094bf6fdd2dea27ce325c07588.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a9723298ea5d31d13242e5a7f9da6bef.png>
+![](img/zhuanqian_807bdb094bf6fdd2dea27ce325c07588.png)
+![](img/zhuanqian_a9723298ea5d31d13242e5a7f9da6bef.png)
 首页点击「知识库广场」，能看到大量他人创建的知识库。我不建议盲目加入太多陌生库，很多库信息未经过筛选，库越大不等于越优质。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f779553cf8ef60e8d65eacb03296cd87.png>
+![](img/zhuanqian_f779553cf8ef60e8d65eacb03296cd87.png)
 首页上，笔记区和知识库区并存。我非常不推荐在 ima 里记笔记！体验差且暂不支持导出！
 更推荐的模式：在 Obsidian、Notion、flomo 等支持 Markdown 的笔记软件里搭建自己的体系，需要时再选择性导入 ima。演示如下。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7086479639ded32a7a93974e6fdba2b7.png>
+![](img/zhuanqian_7086479639ded32a7a93974e6fdba2b7.png)
 按步骤 1、2、3 填写即可。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_90f4e9b67db718bdb6a201b354161edd.png>
+![](img/zhuanqian_90f4e9b67db718bdb6a201b354161edd.png)
 在此处导入文件，支持 markdown、word、pdf，总共 30G 空间。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_542973965aeb184a17e01d3c07df2bd7.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2f3cd356712248bc555d577cbd3d7317.png>
+![](img/zhuanqian_542973965aeb184a17e01d3c07df2bd7.png)
+![](img/zhuanqian_2f3cd356712248bc555d577cbd3d7317.png)
 创建者双击可查看文件内容，也可建文件夹分类，可设置权限控制他人加入和查看。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1981d775bcac2cfcaeb86dd8a9966730.png>
+![](img/zhuanqian_1981d775bcac2cfcaeb86dd8a9966730.png)
 点击左上角头像进设置，强烈建议把首选大模型改为 DeepSeek-R1。
 DeepSeek-V3 更新后效果很好，部分场景可混用，速度更快、幻觉更少。不确定时可同一问题问两遍。总之不要用 Hunyuan，差距明显。
 ## 2. 飞书知识问答 [字节系 + 手机/电脑 + 联网]
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_40dd1e9cf8a3ae0d155b2abe0da7a048.png>
+![](img/zhuanqian_40dd1e9cf8a3ae0d155b2abe0da7a048.png)
 飞书知识问答目前仍在开放完善中，若 APP 里没有，可去官网解锁👉ask.feishu.cn
 体感上回答质量略优于 ima，但目前不能指定知识库回答。相当于把飞书内所有文档视为一个大库统一检索，暂时无法做多个独立主题库。未来大概率会支持，值得期待。
 现阶段，飞书知识问答更适合重度文字输出的 IP 和内容创作者。把数字资产全迁入飞书统一管理，再配合飞书近年在多维表格上的进化，很适合做生活/工作管理。我看好飞书在 AI 知识库方向的发展。目前不推荐普通用户盲用，但强烈推荐所有人都在飞书里沉淀数字资产。
 ## 3. Get 笔记 [手机/电脑 + 联网]
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_537c25b813ee0fbbb1c5e9b24a655728.png>
+![](img/zhuanqian_537c25b813ee0fbbb1c5e9b24a655728.png)
 我不追求 All in One，每个工具各有擅长。Get 笔记我就是这种态度。
 说实话，我不太喜欢用它记笔记。记笔记体验不如 Flomo，比如用 # 不能直接建标签就很别扭，UI 交互也不顺滑，完全不适合当笔记工具。
 我主要用它来订阅公众号/视频号博主，自动生成知识库。
@@ -118,32 +118,32 @@ DeepSeek-V3 更新后效果很好，部分场景可混用，速度更快、幻�
 但实际体验有槽点：
 1.  自动总结需求不大，甚至反感。AI 总结极易遗漏关键信息，达意一般。读原文和读 AI 总结的感受和启发深度完全不同。
 更适合做「内容预览」，且应可选开启。现在是 AI 笔记在原文之上，用户点开先看到 AI 笔记，再点才看原文，这会让人离深度阅读更远。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f2c56f4408f713104979f4dc6690a558.png>
+![](img/zhuanqian_f2c56f4408f713104979f4dc6690a558.png)
 2.  订阅博主自动托管容易滋生惰性。“我已经记下来了，以后再看”这种心理很常见，收藏夹吃灰就是这样。直播被总结后，更难有动力重听 4 小时原直播。
 3.  订阅后一键生成知识库，但库里成分不是原文文字稿，而是 AI 对文字稿二次加工后的 AI 笔记 + 标签 + 链接。相当于大模型不是在原文检索，而是在二次加工产物里检索。虽然问答质量尚可，但缺少原文根基总归不舒服。
 因此不展开 Get 笔记的记笔记功能，只介绍订阅博主构建主题 AI 知识库。以电脑版为例。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4994ad35f8678226a8b27c30d2e55666.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c0d638494b1c9e91b7a4cfb1e6363487.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_821354212a6a58c0fa22358f528867bb.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1ce84bf4a8692eaec617b2dc0a56e734.png>
+![](img/zhuanqian_4994ad35f8678226a8b27c30d2e55666.png)
+![](img/zhuanqian_c0d638494b1c9e91b7a4cfb1e6363487.png)
+![](img/zhuanqian_821354212a6a58c0fa22358f528867bb.png)
+![](img/zhuanqian_1ce84bf4a8692eaec617b2dc0a56e734.png)
 按图示步骤订阅即可，更新后知识库同步。非 Pro 用户最多 3 个知识库、订阅 30 个账号，Pro 版 199/年，差异见下图。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_11248d3d9378def0f7c1a253f85b2c97.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0aac6067e28f5ce3a775ab2784b49597.png>
+![](img/zhuanqian_11248d3d9378def0f7c1a253f85b2c97.png)
+![](img/zhuanqian_0aac6067e28f5ce3a775ab2784b49597.png)
 顺带说一下，Get 笔记的精选知识库做得确实很用心，内容密度、聚焦度都比 ima 知识库广场里大部分的库要强不少。
 ## 4\. 另外还有几套方案可以留意（不主推也不展开细讲）
 ### 4.1 Obsidian + Cursor/Trae（需要🪜 + 电脑使用 + 联网 + 本地存储）
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_06b69824123539c9b5f9c7d9b7b161c6.png>
+![](img/zhuanqian_06b69824123539c9b5f9c7d9b7b161c6.png)
 Obsidian 是以本地优先、Markdown 为核心的知识管理工具，我已经深度用了三年。对我而言，用它单纯记笔记有点大材小用，它真正的价值在于搭建第二大脑、构建知识网络。之所以这么说，是因为它有两大亮点很难替代。
 1.  双向链接笔记，能把不同笔记之间自动连起来，回顾和发散思考时可以直接一次性调取所有关联内容。整体呈现网状结构，跟人脑的记忆机制很像，每个知识点/笔记像神经元，通过链接被激活；
 2.  插件生态非常丰富，可以把 Obsidian 改造成各种各样的个性化知识库，相当于一个可高度 DIY 的笔记平台。
 配合 Cursor/Trae 使用的思路很简单，就是在 Cursor/Trae 中打开 Obsidian 的本地文件夹，让 AI 去驱动本地知识库。赚钱里藏师傅写过一篇实操文章可以参考👉
 再额外推荐一个好用的插件——Smart Connections。它的底层逻辑跟前面讲的 RAG 很像，会把知识库里的所有笔记转成 embedding，也就是 AI 可理解的数字向量，再做本地检索，相比传统的手工打标签和双链，体验会顺滑很多。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_df12a155efc9f535ad4bf39cef57dbdf.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d3de738de670833c173145517bcb9b19.png>
+![](img/zhuanqian_df12a155efc9f535ad4bf39cef57dbdf.png)
+![](img/zhuanqian_d3de738de670833c173145517bcb9b19.png)
 可以参考 X 上技术大佬 @howie_serious 的落地做法。
 不过要把 Obsidian 的 AI 知识库搭好，尤其是用上 Smart Connections 这类插件，折腾程度不低，需要一定的学习成本和技术理解力。我个人判断，在笔记总量还不大的阶段，没必要投入太多精力去研究，反而会增加负担，产出有限。这更像是一个进阶玩法，新手只要知道有这个方向即可，等知识积累到一定体量再去尝试。
 ### 4.2 NotebookLM（需要🪜 + 电脑/手机端 + 联网）
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_317b650db88720c9f6946839f0debb72.png>
+![](img/zhuanqian_317b650db88720c9f6946839f0debb72.png)
 NotebookLM 是谷歌推出的一款 AI 辅助笔记产品，全称 Notebook Language Model，核心是用自己的资料把一堆文档变成一个可以对话的智能笔记本。
 它强调“对话”，原因在于它不仅支持常规文字问答，还支持「语音对话」。这个功能很有辨识度，它能根据你的输入生成主题相关的 AI 播客，让两个虚拟主持人以对谈的方式帮你讲解，加深理解。
 唯一的小遗憾是，到目前为止，NotebookLM 还没有接入谷歌最强的 Gemini 2.5 Pro。
@@ -151,10 +151,10 @@ NotebookLM 是谷歌推出的一款 AI 辅助笔记产品，全称 Notebook Lang
 下面以上手门槛最低的 ima 为例，分享我在搭建和优化 AI 知识库时一直坚守的三个优先级。
 ## 1\. 第一优先：围绕「好提问」和「能得到好答案」来设计
 这是所有原则里排第一位的，也是判断一个知识库是否合格的根本标准。我甚至认为可以用「提问顺手、答案靠谱」来衡量库的质量。那什么算好提问、能有好答案呢？
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_df86a6080aa2d35882ce74b19dd1460a.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fa52d9967d398613fa4ad8e6dae7358a.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ec5c97a22b0034973c8b04e0ec5572a0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_962748fb130d59bc4deafff627c31c2b.png>
+![](img/zhuanqian_df86a6080aa2d35882ce74b19dd1460a.png)
+![](img/zhuanqian_fa52d9967d398613fa4ad8e6dae7358a.png)
+![](img/zhuanqian_ec5c97a22b0034973c8b04e0ec5572a0.png)
+![](img/zhuanqian_962748fb130d59bc4deafff627c31c2b.png)
 上面这几类库，都属于问起来费劲、答出来也平平的类型。
 最直观的感受是，拿到手你会想问什么？它能解决哪类具体问题？
 图1 堆了大量思维模型，看似很全。用起来很尴尬：你对这些模型有多少了解？对大部分不熟悉的话，该选哪个？陌生的选还是熟悉的选？难道一个个试？试出来结果不一样又该采信哪个？
@@ -163,11 +163,11 @@ NotebookLM 是谷歌推出的一款 AI 辅助笔记产品，全称 Notebook Lang
 图2 是很细致的高考试卷分类，你能想到什么使用场景？唯一能想到的是下载试卷自测，那跟 AI 知识库就没关系了。你当然可以问 AI 要全国卷的10道导数题，但这件事去买一本专题训练更高效，还能随时翻阅。
 图3 是关于 Manus 的公众号合集。如果你服务自己，想了解 Manus 的发展史、技术背景、原理，这种需求本身就很小众，大概率不产生实际价值。真要了解，去 Perplexity 这类 AI 搜索引擎查外网一手资料，时效性、权威性和深度都远超零散公众号。
 假如你想服务用户，帮助他们更好使用 Manus，问一句“给我一些 Manus 的使用技巧”，得到的回复是……
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e5306facf99d392d9ca1921c53e8c752.png>
+![](img/zhuanqian_e5306facf99d392d9ca1921c53e8c752.png)
 在我看来，这都是正确的废话，没有具体可操作、能提升体验的干货，典型的“答不出好答案”。
 图4 把小红书、公众号、Manus 全堆在一起，知识库就变得很“杂”。一杂，你遇到问题时就不会第一时间想到去问这个大杂烩。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b8e2bc7ccd9208c378630acf5a8370f7.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_691eb4f3084fb3bb378bdbac6ef4bd0f.png>
+![](img/zhuanqian_b8e2bc7ccd9208c378630acf5a8370f7.png)
+![](img/zhuanqian_691eb4f3084fb3bb378bdbac6ef4bd0f.png)
 即便真的去问，结果也多半不理想。比如问“小红书笔记眼睛不过百怎么办”，回复是“每天发10条左右”、“删了改完再发”。这种建议不但没用，还可能误导。
 我甚至觉得，上面四个例子严格说都算不上知识库。创建者没有先想清楚这些“知识”要解决什么问题，内容质量也没有逐条把关，本质上只是信息的堆砌，还是个“资料库”。
 所以搭建 AI 知识库时一定要避免走偏，做成对自己和他人都帮不上忙的资料堆。
@@ -177,8 +177,8 @@ NotebookLM 是谷歌推出的一款 AI 辅助笔记产品，全称 Notebook Lang
 思考清楚想要的答案形态后，使用 AI 知识库的核心诉求就是：别那么空泛，最好有边界、有视角，比如借一本书的框架、一个大佬的认知、一个社群的沉淀。
 我们希望 AI 用这些“有灵魂”的高质量内容来跟我们对话。
 因此在建库时要想清楚，不是所有内容都配进场，务必做到“能精则精，宁缺毋滥”。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b110ffb2b8e3738bc19dea1b2bd2bbc2.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d10a4bdd9ec69f86880f2a0c3438524b.png>
+![](img/zhuanqian_b110ffb2b8e3738bc19dea1b2bd2bbc2.png)
+![](img/zhuanqian_d10a4bdd9ec69f86880f2a0c3438524b.png)
 比如一个讲小红书运营的知识库，里面出现装饰画、置换、智能马桶、智能锁的推广 brief，这能解决实际问题吗？只会让做小红书这件事更乱。
 又比如一个公众号排版配图的知识库，却塞了小红书运营、自媒体运营的内容。
 这些都是不够聚焦、不够“精”的典型，会让主题失焦，干扰 AI 判断，最终拉低答案质量。
@@ -200,41 +200,41 @@ ima 知识库本质上就是自带系统提示词的智能体，它有一条铁�
 最后我干脆手动记录，正好当学习。从五一开始一边学一边记，几天收集了200多条。虽然量还不大，但问答效果已经非常不错，欢迎体验。
 🔗「龙哥分身」知识库直达👇
 https://ima.qq.com/wiki/?shareId=d819ec11fdc0043738230327c657dfcc5dbad8665055332ddf686a448ffd9f9d
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_57790c925c83f3e940d85d35bec1d93e.png>
+![](img/zhuanqian_57790c925c83f3e940d85d35bec1d93e.png)
 点击查看案例👉
 # 四、AI 知识库的实用玩法
 ## 1\. 为单个公众号做专属知识库
 优质公众号本身就是高度浓缩的高质量信息源，比如龙哥盟。文章往往凝聚作者的深度思考和独特视角，能保证知识库的调性统一。对认可的公众号，可以单独建库。
 ### Option 1：ima
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6fd25d009e4cf045d5af936cdc31af0b.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fe8b79ec9067f29d06ad17cdb702de7c.png>
+![](img/zhuanqian_6fd25d009e4cf045d5af936cdc31af0b.png)
+![](img/zhuanqian_fe8b79ec9067f29d06ad17cdb702de7c.png)
 ima 有配套小程序，首次授权后阅读公众号时，点击右上角再按图示标识，就能把文章保存到知识库。
 涛哥在新圈友指引里就建议系统刷赚钱公众号，因为那都是精华。我们就可以边刷边收藏，刷一篇加一篇，等刷完，整个公众号的内容就沉淀在专属库里了。
 下次想问“xxx 在团队管理上怎么说”，哪怕问题很模糊，ima 也能索引到具体文章，帮你再现当时的上下文。
 ### Option 2：Get 笔记
 前面讲过用 Get 笔记订阅公众号建库的方法，👇跳转回顾：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7f6a3449a861bc513eaa1717bef20984.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d12e0e944dc8f20a5833d0928fcc618c.png>
+![](img/zhuanqian_7f6a3449a861bc513eaa1717bef20984.png)
+![](img/zhuanqian_d12e0e944dc8f20a5833d0928fcc618c.png)
 Get 笔记使用小建议：在库内回答，或在「问一问」里选择对应知识库，并建议开启深度思考 R1。
 ## 2\. 向任何一本书 / 一个作者提问
 把一本书或某位作者的核心作品打包进一个知识库，定期与之对话来巩固记忆、深化理解、激发联想。生活中遇到相关问题，随时提问。
 ### Option 1：ima
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c8467246e8172a89c3a1be7f168bf53c.png>
+![](img/zhuanqian_c8467246e8172a89c3a1be7f168bf53c.png)
 ### Option 2：NotebookLM
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_15b34009bd6a84966731ff39d747e06e.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_71b6efa049a2eb9d4a7f43a24ce1b693.png>
+![](img/zhuanqian_15b34009bd6a84966731ff39d747e06e.png)
+![](img/zhuanqian_71b6efa049a2eb9d4a7f43a24ce1b693.png)
 操作很简单，拿到 PDF 上传提问即可。这里不建议用 Get 笔记做这件事，因为普通用户只有 3 个知识库额度，建议把额度留给 Get 笔记的强项——订阅博主，而非读书记忆。
 ## 3\. ⭐ 用龙哥分身知识库辅助自媒体观点/口播视频创作【重点】
 可以用知识库来辅助观点类视频的创作，这里以我建的「龙哥分身」库为例做演示。
 ### 3.1 选题确定
 视频第一步是定选题，最好选近期有热度的。我以最近刷到的高频选题举例：【人生投资回报率最高的事：养成一个输出型爱好】。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_59a2aeeebf7bb894d49bdc6f1e5fc9af.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_db6d77cbf470e32cb08d87543bb8debf.png>
+![](img/zhuanqian_59a2aeeebf7bb894d49bdc6f1e5fc9af.png)
+![](img/zhuanqian_db6d77cbf470e32cb08d87543bb8debf.png)
 这个选题自带观点属性，很适合口播，且近几个月持续有爆款。话题属于个人成长范畴，龙哥在赚钱里输出过很多相关洞见，所以初步判断可以用龙哥的观点来做深度解读。
 当然这只是预判，如果检索发现库里没有支撑性观点就换题。只要库足够丰富且方向相近，成功率很高。
 ### 3.2 写提示词（附提示词源文件）
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a40c6ac2fcb5b1c0aae01c52c9185f49.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1813becdf61be64890ee31c01b91880d.png>
+![](img/zhuanqian_a40c6ac2fcb5b1c0aae01c52c9185f49.png)
+![](img/zhuanqian_1813becdf61be64890ee31c01b91880d.png)
 我用 Gemini 来帮我写提示词，DeepSeek 同理。这里用的是我自己搭的「提示词助手」Gems。我会把提示词放下面，DeepSeek 用户可以在正式描述需求前先发这段提示词。
 # 我把 AI 知识库玩成了「龙哥分身」和「龙哥回答过」
 最近我认真折腾了一圈 AI 知识库，最大的感受是：同样一个工具，有人只用来查资料，有人却能拿它造出“分身”。我把 ima 和腾讯元器都试了一遍，还亲手搭了两个和龙哥有关的知识库应用：一个提炼观点，一个还原原话。这篇文章就把这些玩法、思路和踩过的小坑，完整讲给你听。
@@ -277,8 +277,8 @@ Wechat：SolveItAnyway
 # 初始化
 请在对话开始时，向用户问好，并简单介绍你的功能，然后开始提问，了解他们想要为什么样的任务创建 Prompt。例如：“你好！我是提示词助手，我可以帮你设计高效的 AI 提示词。请告诉我，你希望 AI 帮你完成什么任务呢？”
 ```），方便直接复制使用。
-为什么要绕这么一圈？因为人脑在提问前很难一次性想到所有细节，表达一旦不够结构化、规范化，AI 就容易理解出错。提示词助手本质上是在帮你优化提问，缺了关键信息，它会主动找你确认。等我补充完信息，把生成的提示词复制到 ima 知识库里去问，效果立竿见影：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_13978880d174f04d3feb263c6084a324.png>
-详细的提示词模板我放在下方，需要可以直接拿走：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a62777dcd26f7ff3f34de49405a41740.png>```
+为什么要绕这么一圈？因为人脑在提问前很难一次性想到所有细节，表达一旦不够结构化、规范化，AI 就容易理解出错。提示词助手本质上是在帮你优化提问，缺了关键信息，它会主动找你确认。等我补充完信息，把生成的提示词复制到 ima 知识库里去问，效果立竿见影：![](img/zhuanqian_13978880d174f04d3feb263c6084a324.png)
+详细的提示词模板我放在下方，需要可以直接拿走：![](img/zhuanqian_a62777dcd26f7ff3f34de49405a41740.png)```
 # 角色
 你现在是一位深度研习并能精准把握“龙哥盟创始人龙哥”文章思想精髓的 AI 内容洞察助手。
 # 背景与目标
@@ -304,7 +304,7 @@ Wechat：SolveItAnyway
 请开始吧！期待你的精彩观点。
 ```
 ## 02 用 ima 搭出「龙哥分身」
-我搭建的第一个知识库叫「龙哥分身」，知识库里的内容主要围绕龙哥在龙哥盟的分享展开。我用它来回答一个与“输出型爱好”相关的选题，它给出的回答如下：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cfd2ea3d79e5dea0ba1660284e247c44.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_87d2e4dcf41e15dc07d4d5297236b915.png>
+我搭建的第一个知识库叫「龙哥分身」，知识库里的内容主要围绕龙哥在龙哥盟的分享展开。我用它来回答一个与“输出型爱好”相关的选题，它给出的回答如下：![](img/zhuanqian_cfd2ea3d79e5dea0ba1660284e247c44.png)![](img/zhuanqian_87d2e4dcf41e15dc07d4d5297236b915.png)
 总体感受是：质量在线，确实围绕选题展开，而且能从知识库里找到对应内容支撑。我把这套回答里的核心观点总结成五条：
 1. **输出带来连接，连接带来财富机会。** 所谓输出型爱好，说白了是在向外界释放你的价值信号，把同频的人、稀缺的资源吸引过来。很多大学生和年轻人总觉得自己没人脉、没资源，而输出是零成本破圈的杠杆。比如写公众号分享专业心得，可能引来实习机会；拍短视频展示技能，可能接到商业合作。龙哥早期写英文博客建立连接，也是从这条路开启了创业。
 2. **输出会倒逼输入，能力跃迁随之发生。** 这就是“从干中学”。输出会逼你把零散知识拼成体系：做编程教学视频，必须先吃透代码逻辑；写商业分析文章，必须深入调研行业。很多人抱怨“学的东西没用”，但输出能把知识变成真实价值。例如法学生做“法律常识科普”抖音号，既巩固了专业，又积累了粉丝和变现空间。这样的优秀博主案例，随便一抓就是一大把。
@@ -320,7 +320,7 @@ Wechat：SolveItAnyway
 自媒体圈常说“找对标，像素级复制”，现在你知道怎么复制了吗？有些话不用说得太明白。其实已经有不少账号在这么做了：比如制作“天涯神贴”知识库，用里面的内容产出观点，做成视频，最后再卖天涯神贴。整条链路跑通后，就是一个可复制的内容生产系统。
 ## 05 个人复盘知识库：让 AI 看见你的盲区
 如果你有写月总结，或每日/每周复盘的习惯，强烈建议把那些真实思考沉淀到一个专属的“个人复盘知识库”里。注意，里面要放生活记录、思考、反思和总结，千万别写成流水账。
-之后定期去找这个 AI 知识库深度对话：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_26c5d67d3dc774c6cb920d9a43ea7d5a.png>
+之后定期去找这个 AI 知识库深度对话：![](img/zhuanqian_26c5d67d3dc774c6cb920d9a43ea7d5a.png)
 我通常会这样提问：
 - 2025 年 x 月快结束了，你觉得有哪些点很重要但我从未关注过？
 - 根据我 x 月的复盘，我最常遇到的挑战是什么类型？有什么共通的解决方法或思路吗？
@@ -336,11 +336,11 @@ Wechat：SolveItAnyway
 所以我的核心需求变成了：让 AI 直接给我龙哥的原话，不整合、不删减、不演绎。我在 ima 里试了几次，效果不好，因为这和 ima 内置提示词的逻辑相悖，而且 ima 不允许修改内置提示词。既然现成知识库改不了，那就自己动手造一个智能体。
 于是，我做了「龙哥回答过」。
 它的逻辑很简单：把龙哥在知识星球里的所有问答作为知识库；你提问后，它会检索语义最接近的 1-3 个历史回答场景，输出“当初提问者的问题 + 龙哥当时的原话回复 + 原始帖链接”。点一下链接就能跳转，每个字都是龙哥本人回答，还能沉浸式看评论区。
-智能体链接在这里：https://yuanqi.tencent.com/agent/FlN7hZ7Sr1q0?from=share <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5e79fca4727a53a063a77439948c4fdf.png>
-效果如上图：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0c378a67be98a274f7e211040e5bf92c.png>
-如果检索后没有匹配内容，它会直接拒绝回答，而不是硬编一段来骗你，这样就从源头避免幻觉。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_661aca40a51cfb052362a79c50884683.png>
+智能体链接在这里：https://yuanqi.tencent.com/agent/FlN7hZ7Sr1q0?from=share ![](img/zhuanqian_5e79fca4727a53a063a77439948c4fdf.png)
+效果如上图：![](img/zhuanqian_0c378a67be98a274f7e211040e5bf92c.png)
+如果检索后没有匹配内容，它会直接拒绝回答，而不是硬编一段来骗你，这样就从源头避免幻觉。![](img/zhuanqian_661aca40a51cfb052362a79c50884683.png)
 这个智能体，何尝不是一个高度定制化的自定义知识库？
-同一问题，你去问「龙哥分身」和问「龙哥回答过」，会发现它们的回答方式和内容完全不同。这恰好说明：两者对应的是两种截然不同的用户需求。正是这些需求细节上的差异，催生出形态迥异的最终产品。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9ae5059382bc52eb793feae1d9f226e8.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ea37673f6b0bb6b62154e6cebc1dcb67.png>
+同一问题，你去问「龙哥分身」和问「龙哥回答过」，会发现它们的回答方式和内容完全不同。这恰好说明：两者对应的是两种截然不同的用户需求。正是这些需求细节上的差异，催生出形态迥异的最终产品。![](img/zhuanqian_9ae5059382bc52eb793feae1d9f226e8.png)![](img/zhuanqian_ea37673f6b0bb6b62154e6cebc1dcb67.png)
 所以，最重要的不是追着风口跑，而是想清楚自己的真实需求，再选择匹配的知识库或智能体帮自己提效。
 ## 写在最后
 以上是我目前对 AI 知识库的粗浅思考与实践。感谢你耐心看到这里。如果你对某个观点有不同看法，或者对操作细节有疑问，欢迎来评论区聊聊。如果这次我有幸成为 AI 知识库航海教练，也期待能在微信群里见到你。

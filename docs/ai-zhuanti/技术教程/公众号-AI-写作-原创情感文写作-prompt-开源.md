@@ -8,4 +8,4 @@
 完整文档直达：
 《公众号 AI 写作，原创情感文写作 prompt 开源，5 分钟一篇情感故事》
 https://www.yuque.com/wilsondu/un6rt6/bu3zqu9gqcqdk0o9?singleDoc#
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_894d30a529e7c37bcd3392323c99941c.png>
+![](img/zhuanqian_894d30a529e7c37bcd3392323c99941c.png)

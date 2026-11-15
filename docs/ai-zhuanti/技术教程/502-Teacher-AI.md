@@ -10,15 +10,15 @@
 ## 产品链接
 https://yourteacher.ai/
 ## Home Page
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d44ddb4538bf6f226bfbd315d2d420bb.png>
+![](img/zhuanqian_d44ddb4538bf6f226bfbd315d2d420bb.png)
 这些落地页都经过市场检验，学习价值很高；
 由此可见，团队在社媒引流方面具备很强能力
 ## 流量
 ### 基本信息
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_993fcd129c155fb839132254f2f67378.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_957b82892a6b1bbf42e782a29c94546e.png>
+![](img/zhuanqian_993fcd129c155fb839132254f2f67378.png)
+![](img/zhuanqian_957b82892a6b1bbf42e782a29c94546e.png)
 ### 外链
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_21fe76e5876478f3b998409e2c3d4e24.png>
+![](img/zhuanqian_21fe76e5876478f3b998409e2c3d4e24.png)
 # 问题清单
 ## 这个产品解决的是什么问题？
 传统外语学习很大程度上依赖真人外教，而真人外教受时间与费用双重制约，很难做到随时随地的口语实战。YourTeacher AI 正是为此而生，它以 7×24 小时在线、低价的模式提供替代方案，让学习者可以无限次进行个性化会话训练。面对真实人物开口时的紧张心理，该产品提供了一个零压力的练习空间，有效缓解开口焦虑。
@@ -53,7 +53,7 @@ YourTeacher AI 通过无限次对话、接近真人的 AI 发音以及高度定�
 ## 它赚钱吗？多少？
 商业模式采用订阅制，提供月付、6 个月、12 个月三档。月付 25 美元，6 个月 107 美元，折合每月 17.83 美元，12 个月 147 美元，折合每月 12.25 美元。所有方案均含免费试用，月付 3 天，半年及一年档为 7 天。价格会因地区税费而异。
 ### 定价
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_326ec788e213e89be086adc199877cff.png>
+![](img/zhuanqian_326ec788e213e89be086adc199877cff.png)
 ### MRR 估算
 网站月访问量约 102.3k，按 3.05 页/UV 计算，月度独立访客约 33.5k。
 以下测算基于网站访问量推演，移动端转化通常更高。
@@ -69,7 +69,7 @@ YourTeacher AI 通过无限次对话、接近真人的 AI 发音以及高度定�
 *   网站 MRR 估算：约 69,435
 第三方数据显示 iOS 约 5k，Android 约 8k。官网倾向引导用户在站内订阅。
 MRR = 网站 MRR + 应用 MRR ≈ 69,435 + 13,000 = 82,435
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6c516e098df7a3e47eaa9680d61daf73.png>
+![](img/zhuanqian_6c516e098df7a3e47eaa9680d61daf73.png)
 ## 我从这个产品身上学到了什么我以前不知道的东西？
 *   深耕细分人群：聚焦中级学习者，能更精准地定制功能与投放策略。
 *   订阅制是此类服务获取稳定现金流的有效方式。

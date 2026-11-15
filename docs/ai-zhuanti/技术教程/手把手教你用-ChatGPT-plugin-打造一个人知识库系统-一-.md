@@ -5,18 +5,18 @@
 在正式上手之前，有两个基础概念值得花一分钟了解一下，有技术背景的朋友可以直接跳过。
 ### 先说嵌入（embedding）
 说白了，嵌入就是把文字变成一串数字——向量。这串数字是机器能读懂的“语言”，把自然语言映射成向量后，机器就能理解词义以及词与词之间的远近亲疏。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ba7997ba02d6fe24eefdb52b9698dd98.png>
+![](img/zhuanqian_ba7997ba02d6fe24eefdb52b9698dd98.png)
 举个例子，下面三句话放在二维向量空间里，位置大约长这样👇🏻：“猫吃老鼠”、“猫吃咀嚼型动物”和“🐱😋🐭”距离很近，而“小吉爱吃鱼”就明显偏离得远。这还只是二维的示意，OpenAI 的 text-embedding-ada-002 模型可是有整整 1536 维的空间。在高维空间和上下文语境的加持下，它基本能稳稳当当检索出我们真正想要的东西。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_56b13e391cc97e4b000d0dffdf2c6a48.png>
+![](img/zhuanqian_56b13e391cc97e4b000d0dffdf2c6a48.png)
 放在个人知识库的场景里，流程是这样的：你抛出一个问题，系统先把问题转成向量，然后去向量数据库里捞最相关的向量块，最后再借助 OpenAI 自身的总结摘要能力，把答案整理成自然语言，端到你面前。
 ### 再说向量数据库
 向量数据库，就是专门存向量和数字数组的仓库。每一条信息都对应一个向量，向量里每个数字代表这个数据某一方面的属性或特征。
 它的厉害之处在于：查询时不需要精确匹配。你用一个问题向量去搜，数据库引擎会自动把“挨得近”的向量找出来——对我们来说，这些就是和问题语义最相关的内容。
 ## 整体设计思路
 这个教程的底子是官方开源项目 ChatGPT-retrieval-plugin。我画了一张原理图帮大家理解，每个模块的作用都在下面👇🏻
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_03305c8779720e5c9bf847c765b07668.png>
+![](img/zhuanqian_03305c8779720e5c9bf847c765b07668.png)
 步骤拆开来看：先把你的文档或文本，交给官方的向量映射语言模型，转换成向量存进数据库。等你想检索了，只需要加载这个插件，然后像平时聊天一样使用 ChatGPT 就行。插件会自动把你的聊天内容拆成查询词，再通过 API 调 text-embedding-ada-002-v2 模型，把查询词变成向量，接着去数据库里找语义相关的片段，最后把结果整理好还给你。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ca6dade4da085affaa7bf291013e67e9.png>
+![](img/zhuanqian_ca6dade4da085affaa7bf291013e67e9.png)
 上面就是跑通后的最终效果。这一节先讲原理，下一节进入实战，我会手把手带你从零搭一个能在本地跑起来的知识库检索插件。敬请期待！
 第二节内容点下面的卡片就能看 👇🏻
 或者点这个链接，跳转飞书查看 👇🏻

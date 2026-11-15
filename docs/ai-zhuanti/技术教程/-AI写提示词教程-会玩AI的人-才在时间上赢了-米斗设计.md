@@ -1,6 +1,6 @@
 # 【AI写提示词教程】会玩AI的人，才在时间上赢了@米斗设计
 嗨，我是龙哥，AI商业提效实战教练。我的打法是把AI、设计和内容结合起来，专门帮中小创作者和品牌方把个人IP做起来，把产品卖出去。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c9b4af90f0b3738a3d881b37c3ee485c.png>
+![](img/zhuanqian_c9b4af90f0b3738a3d881b37c3ee485c.png)
 # 会用AI的人，都是时间玩家
 这是米斗老师一次答疑的精华整理，写给想把提示词学明白、把AI用顺手的朋友。
 * * *
@@ -11,7 +11,7 @@
 提示词写得好不好，从来不靠死记模板，靠的是你对事情的理解有多深。
 下面我就把我的实操拆给你看，从思路拆解到表达方式，再到工具配合和迭代打磨，让你也能慢慢攒出属于自己的AI协作词典。
 * * *
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c4f1a0a081c3e924b7e109420e3f925b.png>
+![](img/zhuanqian_c4f1a0a081c3e924b7e109420e3f925b.png)
 ## 写提示词前，先把这3个底层问题搞清楚
 1. 提示词的本质：你思考问题的颗粒度
 用一个最常见的需求举例：
@@ -31,7 +31,7 @@
 不同场景、不同任务、不同对话上下文，写法都不一样。
 所以每一次和AI的对话，都是一次磨合记录。建议你建个提示词笔记库，把高频任务和对应的写法沉淀下来，久而久之你就有自己的AI词库了。
 * * *
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6db0834267366ae1b1ac341a95b9a9e3.png>
+![](img/zhuanqian_6db0834267366ae1b1ac341a95b9a9e3.png)
 ## 怎么让提示词写出来“好看又好用”？
 很多人问我们手册里的提示词为啥结构这么清爽，我告诉你个小技巧：
 1. 先写“怎么写提示词的提示词”
@@ -58,7 +58,7 @@
 ```
 这么一引导，AI给你的结果既有条理，版式也顺眼。
 * * *
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c22695332810a1bfb00576414f43557f.png>
+![](img/zhuanqian_c22695332810a1bfb00576414f43557f.png)
 ## 从乱聊到高效协作，就差这几个小动作
 ### ✅ 1. 把“我是谁、你是谁、要做什么”说清楚
 AI又不是你肚子里的蛔虫，不说明白它就一直在猜：
@@ -75,7 +75,7 @@ AI：好的，请告诉我你想分析哪一部分？
 不会写提示词？那就让AI帮你写提示词。
 把背景、目标、痛点告诉它，它能直接给你生成一段可用的初稿。
 * * *
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3a3e49fa047c0f15a7d95eed8852eb83.png>
+![](img/zhuanqian_3a3e49fa047c0f15a7d95eed8852eb83.png)
 ## 真正玩转AI的人，才是时间玩家
 有次跟 Flowith 的CMO拐子哥聊，他说了一句我深有同感的话：
 “能把AI用明白的人，最后都会是少数派。”
@@ -85,7 +85,7 @@ AI：好的，请告诉我你想分析哪一部分？
 2. 精准的表达能力
 以后大量重复性工作都会被AI接手，能把需求拆细、把指令下准的人，才是价值最高的那个。
 * * *
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9ca25bc575f0ea437a84092b44237bd2.png>
+![](img/zhuanqian_9ca25bc575f0ea437a84092b44237bd2.png)
 ## 给新手的3个实操建议：
 ### ✅ 1. 把AI当队友，别怕瞎聊
 每天抽30分钟，跟AI闲聊都行。觉得“我不会写提示词”没关系，你就算丢一句“今天很迷茫，AI怎么帮我赚钱”，它也能给你支几招。
@@ -99,5 +99,5 @@ AI：好的，请告诉我你想分析哪一部分？
 所以别光看，赶紧上手玩起来、变现起来。
 —— 2025年6月13日 米斗 | AI商业提效实战教练
 米斗最后补一句：知识不值钱，能落地的改变才值钱。别光收藏，动手干才有用。你很棒，加油！
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8cf1ae0b73e9a2286828a376710f5d25.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_40eb8a9c0734d57d25667b0eab7fa530.png>
+![](img/zhuanqian_8cf1ae0b73e9a2286828a376710f5d25.png)
+![](img/zhuanqian_40eb8a9c0734d57d25667b0eab7fa530.png)

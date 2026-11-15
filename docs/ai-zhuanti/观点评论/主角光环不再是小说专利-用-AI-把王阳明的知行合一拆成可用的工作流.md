@@ -26,13 +26,13 @@
 搞懂为什么这样配料是理解，
 能自己改良口味才是内化。
 ### 再厘清：学大思想时，人和 AI 谁干嘛？
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0a499c3e39ee034b5085d937ae1aacf0.png>
+![](img/zhuanqian_0a499c3e39ee034b5085d937ae1aacf0.png)
 ## 工作流设计：
 1，拜托 AI 多角度拆解“知行合一”的内核，把抽象说成具体。
 2，把文字信息转成可感知的具象，让从看见到理解的鸿沟变窄。
 3，把具象再推进到可视，让理解到内化的阻力变小。
 4，给出真实生活演练的锚点，提升内化到应用的成功率。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_538ad1136874ca78e50ac83aff983f0f.png>
+![](img/zhuanqian_538ad1136874ca78e50ac83aff983f0f.png)
 * * *
 ## 演示一：概念被解析
 提问：用哲学视角讲清知行合一的本质、常见误区、认知阶梯、修炼路径
@@ -171,13 +171,13 @@ Stage 4: 天人合一
 ```
 * * *
 ## 演示三：可视化呈现（示例）
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_07028d03e782f5b3acd871fb37801edd.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_92559f222b87b006333a75ebcd686086.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d914d5ff961aef8fb1dec7cf81d51267.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_abebdde7eaf301cb2c3c26f13d1432e7.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d468be216004b5e5cd2289d034fb73c2.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c72d7b0f1800cf1c7e87a76bb330362d.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_90a3f6e2d6bd1d6af886a730e3997860.png>
+![](img/zhuanqian_07028d03e782f5b3acd871fb37801edd.png)
+![](img/zhuanqian_92559f222b87b006333a75ebcd686086.png)
+![](img/zhuanqian_d914d5ff961aef8fb1dec7cf81d51267.png)
+![](img/zhuanqian_abebdde7eaf301cb2c3c26f13d1432e7.png)
+![](img/zhuanqian_d468be216004b5e5cd2289d034fb73c2.png)
+![](img/zhuanqian_c72d7b0f1800cf1c7e87a76bb330362d.png)
+![](img/zhuanqian_90a3f6e2d6bd1d6af886a730e3997860.png)
 * * *
 ## 演示四：落地实践
 一个清晨的切片：
@@ -253,5 +253,5 @@ Stage 4: 天人合一
 就如呼吸在发生。
 * * *
 欢迎你也试着用这套拆解法去打开其他思维模型：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_809d07078ed090770f1911a1fe33aa6a.png>
+![](img/zhuanqian_809d07078ed090770f1911a1fe33aa6a.png)
 * * *

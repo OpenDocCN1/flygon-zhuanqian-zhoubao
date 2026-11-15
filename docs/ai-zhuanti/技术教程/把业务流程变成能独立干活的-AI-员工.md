@@ -4,12 +4,12 @@
 大家好，我是鹿书野，00 后，INFJ，盖洛普认证教练、B 站好物深海圈教练，也是龙哥盟资深传术师。
 去年考上在职研究生后加入赚钱，接触到 B 站好物赛道，实现了从零到一的验证。今年和搭档共同创办工作室，搭建内容工厂，把规模从一到十做起来。
 目前主攻外设、数码、家电家居、户外服饰四大赛道，运营多组达人号，带货类目累计超过60个。合作品牌涵盖 ATK、雷柏、华为、转转、美的、友望、TCL、京东京造、特步等上百家，月均带货 GMV 超 500 万，单月商单或佣金曾达到六位数。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fab9b22cf1a5ded3c6c0c223fe180f51_0_0.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fab9b22cf1a5ded3c6c0c223fe180f51_0_1.png>
+![](img/zhuanqian_fab9b22cf1a5ded3c6c0c223fe180f51_0_0.png)![](img/zhuanqian_fab9b22cf1a5ded3c6c0c223fe180f51_0_1.png)
 对我而言，商单才是核心业务。
 下面展示一下内容工厂的运作现状。
 B 站好物制作门槛很高，一条成片往往要经历十多个工序，每个工序内部又有几十步操作。零基础的小伙伴做一条带货视频，通常要耗费十小时左右。所以这次分享不局限于 B 站好物，而是想讲一套可迁移的方法论：怎样把重复性业务沉淀为可稳定交付的 AI Agent 员工。
 AI Agent 正在重塑生产方式，我们已明显感受到这波效率红利。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fab9b22cf1a5ded3c6c0c223fe180f51_1_0.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fab9b22cf1a5ded3c6c0c223fe180f51_1_1.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fab9b22cf1a5ded3c6c0c223fe180f51_1_2.png>
+![](img/zhuanqian_fab9b22cf1a5ded3c6c0c223fe180f51_1_0.png)![](img/zhuanqian_fab9b22cf1a5ded3c6c0c223fe180f51_1_1.png)![](img/zhuanqian_fab9b22cf1a5ded3c6c0c223fe180f51_1_2.png)
 近期会有 AI Agent 航海活动，本次先从底层架构讲起，再用一个极简案例演示最终形态——打造一名可自主工作的 AI Agent 员工。
 算作抛砖引玉。
 此前我在 B 站好物深海圈 AI 提效月做过直播，也有录播。对圈友交流时发现，对 Codex 的系统入门教程需求很大。很多朋友并非不会用，而是对未知有顾虑，迟迟没有开始。
@@ -68,7 +68,7 @@ examples/ 保存正反案例，帮助 Agent 理解合格与不合格的边界。
 流程短、操作单一时，直接用 Skill 足够。如“使用这个 Skill 完成任务”。
 流程长、涉及多环节，则更适合搭建 Agent。Agent 能按工作流依次调用多个 Skill 协同完成复杂任务。如我部分复杂 Agent 会串联7个 Skill，每个 Skill 负责一道工序，内部再拆多步，便于维护、复用与迁移。
 简言之，Skill 是单项能力，Agent 是调度多项能力完成完整任务的主体。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fab9b22cf1a5ded3c6c0c223fe180f51_11_0.png>
+![](img/zhuanqian_fab9b22cf1a5ded3c6c0c223fe180f51_11_0.png)
 # 知识库：AI 员工的资料库与工作档案
 Agent 是员工，Skill 是手册，知识库则是长期使用的资料库与档案。它保存业务背景、参考资料、历史产物、审核记录与已确认经验，让新对话也能恢复上下文。
 注意：知识库不是 AI 大脑里的永久记忆，而是一组文件。Agent 每次重新读取文件才表现得像“记得以前的事”。
@@ -141,7 +141,7 @@ update_task(task_id="123", status="已完成")
 需要哪一种 MCP，直接交给 Codex 安装即可。
 当然，如果没有可用的 CLI 或 MCP，Agent 也能借助浏览器，或者 computer use 插件来操作网页。但网页方案高度依赖页面布局、登录状态和弹窗情况，页面一改版，流程就可能失效。
 所以在条件允许时，优先选择稳定的 CLI 或 MCP。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fab9b22cf1a5ded3c6c0c223fe180f51_18_0.png>
+![](img/zhuanqian_fab9b22cf1a5ded3c6c0c223fe180f51_18_0.png)
 # 二、正式搭建前，先把常用装备准备好
 网络环境先自行处理，再安装 Codex。
 首次打开 Codex 后，可以先配置两个常用插件。浏览器建议使用 Chrome，并将它设为默认浏览器，同时开放完整访问权限。我平时使用 GPT5.6 Sol 极高模式，速度设置为 1.5 倍。
@@ -202,25 +202,25 @@ Git 会保存文件新增、修改和删除的历史记录，GitHub Desktop 则�
 - 当前还缺少哪些信息？
 - 是否具备运行最简版本的条件？
 - 最先应该验证哪一个环节？
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fab9b22cf1a5ded3c6c0c223fe180f51_23_0.png>
+![](img/zhuanqian_fab9b22cf1a5ded3c6c0c223fe180f51_23_0.png)
 样的话就可以问问他还需要什么信息，能不能跑最小 MVP，然后执行。你认为现在是否达到了最小闭环的开工条件？如果可以，先出抓取这个链接的字幕【链接】。
 ## 阶段四：先完成一个最简样例
 这一轮的目标不是一次性覆盖全部场景，而是先把单条任务完整跑通。
 先让一条业务链路正确运行，再逐步扩大处理范围。执行过程中，也可以同步补充验收标准。
 本文案例需要提供 Cookie。若不知道如何获取，可以直接询问 Codex。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fab9b22cf1a5ded3c6c0c223fe180f51_24_0.png>
+![](img/zhuanqian_fab9b22cf1a5ded3c6c0c223fe180f51_24_0.png)
 流程比较复杂时，建议分段验证。例如先只测试字幕获取，确认无误后，再进入字幕整理。
 我希望最终内容尽量保持原始表达，因此先明确提出这一要求，等待第一版结果后再验收。处理完成后，可以打开“已处理”部分，观察 AI 的判断过程和输出结果，发现偏差就及时修正。
 字幕获取和整理通过后，再进入知识库写入环节。此时同样需要把格式、命名、目录和内容要求讲明白。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fab9b22cf1a5ded3c6c0c223fe180f51_25_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fab9b22cf1a5ded3c6c0c223fe180f51_25_1.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fab9b22cf1a5ded3c6c0c223fe180f51_25_2.png>
+![](img/zhuanqian_fab9b22cf1a5ded3c6c0c223fe180f51_25_0.png)
+![](img/zhuanqian_fab9b22cf1a5ded3c6c0c223fe180f51_25_1.png)
+![](img/zhuanqian_fab9b22cf1a5ded3c6c0c223fe180f51_25_2.png)
 文件命名可以根据个人习惯调整。到这里，一个最基本的业务闭环就跑完了。
 刚开始不必急着设计复杂的知识库层级。更实际的方式，是先积累一批真实内容，再依据使用过程中出现的需求逐渐调整结构。
 知识库的本质，就是一个用于保存和组织上下文信息的文件目录。
 不建议照搬别人的目录结构。可以借鉴思路，但最终要根据自己的工作方式和检索习惯来设计。
 知识库不存在唯一正确答案。只要它能够稳定保存内容、方便查找，并且确实解决问题，就是合适的方案。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fab9b22cf1a5ded3c6c0c223fe180f51_26_0.png>
+![](img/zhuanqian_fab9b22cf1a5ded3c6c0c223fe180f51_26_0.png)
 ## 阶段五：用飞书做任务面板
 演示项目：B 站字幕知识库任务控制台。
 在这个分工中：
@@ -228,8 +228,8 @@ Git 会保存文件新增、修改和删除的历史记录，GitHub Desktop 则�
 - Agent 负责领取任务、完成处理并提交结果。
 这样一来，业务人员不需要进入代码目录，也不必每次重新编写一大段指令。
 任务会具备排队、查看进展、记录失败原因和后续复盘等能力，未来还可以扩展到多人协作。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fab9b22cf1a5ded3c6c0c223fe180f51_27_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fab9b22cf1a5ded3c6c0c223fe180f51_27_1.png>
+![](img/zhuanqian_fab9b22cf1a5ded3c6c0c223fe180f51_27_0.png)
+![](img/zhuanqian_fab9b22cf1a5ded3c6c0c223fe180f51_27_1.png)
 还可以增加其他 Agent，让它们先批量处理任务，再把结果写回飞书表格；当前这个 Agent 继续读取表格并完成后续步骤。这样就能把不同角色组合成一条自动化流水线。
 接入飞书后，还可以设置定时检查，让系统周期性查看工作台中是否出现新任务，有任务就自动处理，从而减少手动打开聊天窗口的次数。
 如果希望 Codex 顺畅操作飞书，请确认飞书 CLI 已经安装。
@@ -247,7 +247,7 @@ npx skills add https://github.com/larksuite/cli -y -g
 lark-cli config init --new
 ```
 完成之后告知安装结果。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fab9b22cf1a5ded3c6c0c223fe180f51_28_0.png>
+![](img/zhuanqian_fab9b22cf1a5ded3c6c0c223fe180f51_28_0.png)
 ## 阶段六：把经验沉淀成项目资产
 当最简流程已经验证通过，就进入稳定生产阶段。此时重点不再是继续拉长聊天记录，而是把已经确认的业务规则写入项目。
 通常需要整理四类内容：
@@ -255,7 +255,7 @@ lark-cli config init --new
 - **Skill.md**：记录某一类任务的标准操作顺序；
 - **脚本**：处理稳定、重复、机械的数据操作；
 - **验证器**：检查输出是否满足最低要求。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fab9b22cf1a5ded3c6c0c223fe180f51_29_0.png>
+![](img/zhuanqian_fab9b22cf1a5ded3c6c0c223fe180f51_29_0.png)
 这里必须注意：脚本只能做确定性的事情，不能替 AI 进行开放式语义判断。
 早期为了尽快跑出结果，很容易在程序里加入临时规则：
 ```python
@@ -272,8 +272,8 @@ start_product_section()
 - AI 阅读完整内容，结合上下文判断语义边界；
 - 脚本保存 AI 已经做出的判断，并负责文件和格式检查；
 - 验证器负责阻止不符合底线要求的结果进入下一阶段。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fab9b22cf1a5ded3c6c0c223fe180f51_30_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fab9b22cf1a5ded3c6c0c223fe180f51_30_1.png>
+![](img/zhuanqian_fab9b22cf1a5ded3c6c0c223fe180f51_30_0.png)
+![](img/zhuanqian_fab9b22cf1a5ded3c6c0c223fe180f51_30_1.png)
 本次演示需要特别强调一个危险点：不要依靠固定句子、固定价格、固定行号或产品序号切割文章。
 程序负责稳定执行，AI 负责理解语义，验证器负责最后把关。三者各自承担不同职责，才能避免流程既不可靠又难以扩展。
 另外，每轮生产都应把 Cookie 检查放在最前面，而且要静默完成：
@@ -291,12 +291,12 @@ start_product_section()
 - 结果如何保存；
 - 哪些情况需要停止；
 - 何时才允许回写成功。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fab9b22cf1a5ded3c6c0c223fe180f51_31_0.png>
+![](img/zhuanqian_fab9b22cf1a5ded3c6c0c223fe180f51_31_0.png)
 ## 阶段七：在原会话里做一次回归检查
 每次修改项目规则、脚本或文件结构后，都要重新运行一条真实任务。
 目的，是确认新改动没有破坏原本正常的功能。如果出现执行失败或结果质量下降，就修正问题，必要时恢复到之前的版本。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fab9b22cf1a5ded3c6c0c223fe180f51_32_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fab9b22cf1a5ded3c6c0c223fe180f51_32_1.png>
+![](img/zhuanqian_fab9b22cf1a5ded3c6c0c223fe180f51_32_0.png)
+![](img/zhuanqian_fab9b22cf1a5ded3c6c0c223fe180f51_32_1.png)
 ## 阶段八：换新会话验证独立运行能力
 完成上一轮检查后，关闭原来的长对话，重新开启一个全新会话。
 让 Codex 重新阅读项目文件，再执行一条任务。
@@ -315,35 +315,35 @@ start_product_section()
 > 请把这个项目接到飞书。它是一个新的 Agent，请为它创建独立机器人，以后通过飞书和 Hermes 沟通并运行这个项目。
 很多人会担心：Hermes 只装一次，多个项目会不会互相干扰？
 它通常通过 Profile 区分不同项目，因此每个 Agent 可以拥有独立的配置和运行环境。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fab9b22cf1a5ded3c6c0c223fe180f51_33_0.png>
+![](img/zhuanqian_fab9b22cf1a5ded3c6c0c223fe180f51_33_0.png)
 按照 Codex 给出的提示完成连接即可。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fab9b22cf1a5ded3c6c0c223fe180f51_34_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fab9b22cf1a5ded3c6c0c223fe180f51_35_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fab9b22cf1a5ded3c6c0c223fe180f51_35_1.png>
+![](img/zhuanqian_fab9b22cf1a5ded3c6c0c223fe180f51_34_0.png)
+![](img/zhuanqian_fab9b22cf1a5ded3c6c0c223fe180f51_35_0.png)
+![](img/zhuanqian_fab9b22cf1a5ded3c6c0c223fe180f51_35_1.png)
 是否部署到云端，取决于使用场景。放到云服务器上，优势是可以长时间在线；如果个人电脑平时一直开着，也未必需要额外上云。
 参考资料：
 https://help.aliyun.com/zh/simple-application-server/use-cases/purchase-and-deploy-hermes-agent
 不过我个人还是更喜欢直接用 Codex 工作。除了熟悉和有陪伴感之外，现在一个项目也能挂载多个文件夹。
 这意味着可以把不同 Agent 分别放进不同目录，再设置一个 Primary 文件夹作为总控位置，在其中写明调用关系、执行路径和调度规则。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fab9b22cf1a5ded3c6c0c223fe180f51_36_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fab9b22cf1a5ded3c6c0c223fe180f51_36_1.png>
+![](img/zhuanqian_fab9b22cf1a5ded3c6c0c223fe180f51_36_0.png)
+![](img/zhuanqian_fab9b22cf1a5ded3c6c0c223fe180f51_36_1.png)
 说到底，达成一个目标的方法远不止一条，路数可以有很多种。
 # 五、用 Obsidian + CC 插件 / VS Code + CC 插件来写文案
 Obsidian 说白了就是一个文件夹合集，把素材文件堆进去，到执行任务时就把这些上下文喂给 AI，写文案就靠这个。目前大家公认 CC 的 4.6 模型是顶配，所以才有这部分内容。
 我自己更偏爱 VS Code + CC 插件的组合来创作。VS Code 和 Obsidian 逻辑类似，主要是为了方便浏览文件。帮我装一套 VS Code，改成中文界面，再把 CC 插件装上。我这边担心账号风险，CC 是走的中转节点，需要先装上 CC Switch，麻烦让 Codex 帮我下载、安装、配置好。
 https://eoeo.xyz/register?aff=ZRJG8W67LNAM
 知识库这里有个小心得，就是单独拎一个文件夹出来放 Skill 和各种规则，我这边命名成 00-员工办公室。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fab9b22cf1a5ded3c6c0c223fe180f51_37_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fab9b22cf1a5ded3c6c0c223fe180f51_37_1.png>
+![](img/zhuanqian_fab9b22cf1a5ded3c6c0c223fe180f51_37_0.png)
+![](img/zhuanqian_fab9b22cf1a5ded3c6c0c223fe180f51_37_1.png)
 # 六、展示一下我的内容工厂
 文案部分直接交给 CC 生成，剩下全部交给 Agent 协同作战，指令下发和进度追踪都在飞书看板里完成。有了飞书，我觉得根本没必要再单独搭一个内容工厂网站或者写程序，各种参数设置直接在在线表格里填好就行。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fab9b22cf1a5ded3c6c0c223fe180f51_38_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fab9b22cf1a5ded3c6c0c223fe180f51_38_1.png>
+![](img/zhuanqian_fab9b22cf1a5ded3c6c0c223fe180f51_38_0.png)
+![](img/zhuanqian_fab9b22cf1a5ded3c6c0c223fe180f51_38_1.png)
 ————分割线————
 看完这份 SOP，你大概会觉得自己已经懂了。但实际上，90% 的人一上手就会死在第一步。
 工具和教程是最不值钱的门槛，真正难跨的门槛是“马上开干”以及“信息圈层的差距”。
 我们不扯概念，只干商业闭环拆解和 AI 效率榨干。系统里已经沉淀了 1000+ 跑通的套利实战案例。
 👉 查看圈子里的完整数字资产以及入场门槛：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fab9b22cf1a5ded3c6c0c223fe180f51_39_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fab9b22cf1a5ded3c6c0c223fe180f51_39_1.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fab9b22cf1a5ded3c6c0c223fe180f51_40_0.png>
+![](img/zhuanqian_fab9b22cf1a5ded3c6c0c223fe180f51_39_0.png)
+![](img/zhuanqian_fab9b22cf1a5ded3c6c0c223fe180f51_39_1.png)
+![](img/zhuanqian_fab9b22cf1a5ded3c6c0c223fe180f51_40_0.png)

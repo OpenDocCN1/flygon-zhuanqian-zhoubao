@@ -2,9 +2,9 @@
 做开发的 00 后小宋，6 月进的赚钱，待到现在差不多有一个季度了。这期来交份 n8n 自动化相关的作业。这套方案主要解决一个问题：把高播放量的带货视频模板，做批量化的稳定翻制，然后自动推到可带货的渠道上。
 核心做法是：先拆开热门视频的创意结构，再用多视角的 AI 能力分析画面内容；出图阶段用 Liblib 微调出的模型来保证精度；最后用 nano banana 固定商品外观，让带货视频能按统一标准输出。
 公号里给的拆解如下
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0118ef9128b3ae2dbc20fcf50acdde61.png>
+![](img/zhuanqian_0118ef9128b3ae2dbc20fcf50acdde61.png)
 我的：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4e7ee67f936d1a19f2a41f9a81d808ed.png>
+![](img/zhuanqian_4e7ee67f936d1a19f2a41f9a81d808ed.png)
 给几个提醒：
 第一，建议有一定基础的朋友入手，新手容易被大量节点绕晕；
 第二，要兼顾可扩展性、操作友好度，以及自己训练专属模型的能力；
@@ -14,32 +14,32 @@
 Liblib 主攻 AI 绘图、模型微调、图像合成这几块，资源池很深。无论是直接拿现成模型用、在线出图，还是训练自己的专属模型，平台上的工具链基本都能覆盖。
 ### 为什么最终定了 Liblib
 * LoRA 支持自定义训练，想做什么风格都能自己练出来
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0002ef17476dbad305846afc167c1c2e.png>
+![](img/zhuanqian_0002ef17476dbad305846afc167c1c2e.png)
 * ComfyUI 环境拿来即用，省掉本地部署的麻烦
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_439d9ed9979969277dc13db3f46fe3fc.png>
+![](img/zhuanqian_439d9ed9979969277dc13db3f46fe3fc.png)
 * 垂直场景的模板存量非常大，几乎要什么有什么
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_527e57a2d046cf2cf7ba26f197892f66.png>
+![](img/zhuanqian_527e57a2d046cf2cf7ba26f197892f66.png)
 * 商用授权没问题，不会卡项目落地
 ### 更省精力的替代路径
 LiblibAI：把部署变成了图形化操作，浏览器里点几下环境就起来了，本地不用装任何东西。平台内置了大量现成的节点和模型，Stable Diffusion、Flux、ComfyUI 都可以在网页端直接跑。新用户注册还送 90 天免费 GPU 额度，把节点放进画布编排就能出图，门槛非常低。
 RunningHub：专门照顾不写代码的用户。登录后挑一个模板，靠拖放操作就能把流程搭好，省去了安装程序和搭建环境这些杂事。开发环境不收钱，只有当任务真正跑动时才会产生费用，全程可视化，几乎不需要学习成本。
 另外也可以直接买云服务器自己部署，灵活度更高。
 ### 模型怎么选：认准商用授权
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d1a55fe582aa80ab3abb715c4c75d0fc.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b4934910e2a1a463e305660082f00a6a.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_48f4f3dd989a9bfa6791616877b691cd.png>
+![](img/zhuanqian_d1a55fe582aa80ab3abb715c4c75d0fc.png)
+![](img/zhuanqian_b4934910e2a1a463e305660082f00a6a.png)
+![](img/zhuanqian_48f4f3dd989a9bfa6791616877b691cd.png)
 ## 案例一 卖鞋：核心是商品不掉样
 参考原片
 加了 nano banana 之后生成的 v2.0 成片
 下面是换掉鞋子后的效果
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0a667d5ca0eb93700e4485deeeeaf191.png>
+![](img/zhuanqian_0a667d5ca0eb93700e4485deeeeaf191.png)
 Liblib 出的静态图
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7b95ccf7a99e8bffa441319fbb44f3b6.png>
+![](img/zhuanqian_7b95ccf7a99e8bffa441319fbb44f3b6.png)
 用 nano banana 替换成自己实际要卖的货
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1210a66adcaaeeeafc501f47f9c6eb18.png>
+![](img/zhuanqian_1210a66adcaaeeeafc501f47f9c6eb18.png)
 成片效果：
 ## 案例二 广告特效：核心是抽卡不翻车
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7b50c29b23b851df1f962c260af57320.png>
+![](img/zhuanqian_7b50c29b23b851df1f962c260af57320.png)
 ```
 替换的参数：
 地址：https://www.liblib.art/modelinfo/d1a16bd086d9434596f7ce02bba697a9?from=feed&versionUuid=2dd07e9bca2d49d1a1d19d1b784ebfb3&rankExpId=RVIyX0wyI0VHMTEjRTE3X0wzI0VHMjUjRTM4
@@ -51,11 +51,11 @@ Steps: 30,Size: 864x1536,Seed: -1,Model: F.1基础算法模型-哩布在线可�
 这一步要解决的是抽卡随机性的问题，相当于把一套已经调好的 ComfyUI 固化下来，每次跑都稳定出同样的特效。
 拿橘子来试：它的核心逻辑就是经过微调的模型效果确实不一样，第一眼看到结果的时候，我甚至有点恍惚。
 图片链接：https://liblibai-tmp-image.liblib.cloud/img/8b6ed71855aa450693b01ffa1e9986d5/b6e577fd76f98aa9c96deec7b96ee8dc79f36be0b4c7d0819dfd77ee36523268.png
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ef94ecbe0a9a60c9ae6f903be802d8eb.png>
+![](img/zhuanqian_ef94ecbe0a9a60c9ae6f903be802d8eb.png)
 第二遍再跑，结果还是这么好，稳定得让人想笑。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_777a2e242dacc24d3bfd76b6c34d2963.png>
+![](img/zhuanqian_777a2e242dacc24d3bfd76b6c34d2963.png)
 ## 案例三 电商广告：小音箱
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_85f0269eaa23dbb548d5d180d1d46eb8.png>
+![](img/zhuanqian_85f0269eaa23dbb548d5d180d1d46eb8.png)
 ```
 地址：https://www.liblib.art/modelinfo/6039fc219a1e4be595f00b2f9321aea0?from=feed&versionUuid=da22c2037c654610beba1c4d64ee7904
 替换id：da22c2037c654610beba1c4d64ee7904
@@ -63,12 +63,12 @@ Steps: 30,Size: 864x1536,Seed: -1,Model: F.1基础算法模型-哩布在线可�
 Negative prompt: ng_deepnegative_v1_75t,(badhandv4:1.2),EasyNegative,(worst quality:2),
 Steps: 30,Size: 1024x1536,Seed: 2225014950,Model: F.1基础算法模型-哩布在线可运行, 【摸鱼】Flux超写实商业渲染_电商产品场景, FLUX-家电,Sampler: Euler,useLcm: false,CFG scale: 3.5,Clip skip: undefined,
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_93f55fff91f2ccf0be9f1f64fd3a049e.png>
+![](img/zhuanqian_93f55fff91f2ccf0be9f1f64fd3a049e.png)
 换成我们自己的商品
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_947a4d830c66aef5f881389576f63414.png>
+![](img/zhuanqian_947a4d830c66aef5f881389576f63414.png)
 ## 案例四 人物和商品同框：背包
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_57a041d95ecf5ec586f5b42c90086907.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_573ceacf117e2a2dc962bac48b3df778.png>
+![](img/zhuanqian_57a041d95ecf5ec586f5b42c90086907.png)
+![](img/zhuanqian_573ceacf117e2a2dc962bac48b3df778.png)
 ```
 https://www.liblib.art/modelinfo/f54c62a5b8f743bbb855264f5c65fdf9?from=feed&versionUuid=e6bce843aaa947168c60c147d56a1c80
 e6bce843aaa947168c60c147d56a1c80
@@ -76,17 +76,17 @@ e6bce843aaa947168c60c147d56a1c80
 Negative prompt: ng_deepnegative_v1_75t,(badhandv4:1.2),EasyNegative,(worst quality:2),
 Steps: 30,Size: 1000x1536,Seed: -1,Model: F.1基础算法模型-哩布在线可运行, 【梁工】超精致电商模特/人物场景,Sampler: Euler,useLcm: false,CFG scale: 3.5,Clip skip: undefined,
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7402d7cf8b6a6a3b7c8e25ce11f7a445.png>
+![](img/zhuanqian_7402d7cf8b6a6a3b7c8e25ce11f7a445.png)
 预算到顶了，就不再往下测了。到这里已经能看出模型本身的底子够不够好。
 ## 零、先领点免费出图额度
 Liblib 有一个零成本出图的通道：注册时用 QQ 账号登录，系统直接送 500 积分，能跑不少图。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8403dea400b7c3626c7ba61d6d492b6b.png>
+![](img/zhuanqian_8403dea400b7c3626c7ba61d6d492b6b.png)
 ## 一、这套方案主要解决什么
 * 第一，Liblib 中任意模板都可以接入
 * 第二，人物形象能保持稳定，这个能力很能打
 * 第三，可用模板超过十万，范围非常广
 比如想做“古风美女加山海经异兽”这类题材，把参考短片的抖音分享链接填进去，链接用 http 开头的完整地址。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_872ba7e60cd03dc1bf1770f596353163.png>
+![](img/zhuanqian_872ba7e60cd03dc1bf1770f596353163.png)
 这就是从抖音复制出来的链接
 ```
 4.17 B@T.LW 03/15 icN:/ oi 小鬼 有点火热了 #
@@ -94,23 +94,23 @@ Liblib 有一个零成本出图的通道：注册时用 QQ 账号登录，系统
 https://v.douyin.com/Ytrgp-sWcVw/
 复制此链接，打开Dou音搜索，直接观看视频！
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4fee0aafd1ea9785bed78013399cde4d.png>
+![](img/zhuanqian_4fee0aafd1ea9785bed78013399cde4d.png)
 镜头拆分的数量可以设置，单个镜头默认 5 秒，按需调整即可。
 回到 Liblib 找同款模型，可选择范围非常大。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_db88d499faaf8e379c7d559a63439529.png>
+![](img/zhuanqian_db88d499faaf8e379c7d559a63439529.png)
 把页面上生成的这串 ID 复制下来，填到自动化流程的对应位置。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_52debd6c4218ee02da2ea87f11a3f259.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_86befa200b5773ce27fb125f57eec721.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e62087a1e848e61a8031e124e2e3b12b.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_78dc1246717ddc9af9b47f5286a427bf.png>
+![](img/zhuanqian_52debd6c4218ee02da2ea87f11a3f259.png)
+![](img/zhuanqian_86befa200b5773ce27fb125f57eec721.png)
+![](img/zhuanqian_e62087a1e848e61a8031e124e2e3b12b.png)
+![](img/zhuanqian_78dc1246717ddc9af9b47f5286a427bf.png)
 完工后，这个模型就能直接被后续节点调用了。
 ## 二、整体实现路径
 ### 1. 先看全景
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_520b55993865ffebccc076470f8ce71a.png>
+![](img/zhuanqian_520b55993865ffebccc076470f8ce71a.png)
 ### 2. 整体设计思路
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e34bd613246d2ed23ba07b901a66d925.png>
+![](img/zhuanqian_e34bd613246d2ed23ba07b901a66d925.png)
 ### 3. 项目架构脑图
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e3b440ae00ecb2b45f2cf1afe509c541.png>
+![](img/zhuanqian_e3b440ae00ecb2b45f2cf1afe509c541.png)
 ## 三、按四层结构看整条流水线
 * 第一层是入口层：负责拉取视频、拆解内容、产出镜头脚本
 * 第二层是出图层：根据镜头脚本生成静态画面
@@ -130,11 +130,11 @@ https://v.douyin.com/Ytrgp-sWcVw/
 参考视频地址（抖音分享链接）
 镜头拆分个数（下拉框选择，1 到 6 个）
 页面效果长这样↓
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9031252548e85c7e3533c7480e6777c9.png>
+![](img/zhuanqian_9031252548e85c7e3533c7480e6777c9.png)
 配置过程看这里↓
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3fb4ce6dea897b75a35e40f365777a36.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d027e16fcfa142e0f71ab94a2f374b3b.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c6daae0a934fe28883509da7b26fa2be.png>
+![](img/zhuanqian_3fb4ce6dea897b75a35e40f365777a36.png)
+![](img/zhuanqian_d027e16fcfa142e0f71ab94a2f374b3b.png)
+![](img/zhuanqian_c6daae0a934fe28883509da7b26fa2be.png)
 ### 2. 参数集中管理：Edit Fields 节点
 作用：所有账号凭据和全局设置都统一放在这里维护
 需要人工填写的包括三项：
@@ -142,29 +142,29 @@ https://v.douyin.com/Ytrgp-sWcVw/
 2. Liblib 的 SecretKey 和 AccessKey
 3. 抖音下载服务对应的 AppID 与 AppSercert
 一句话总结：API 账号信息和项目参数都在这里存档
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_90334f110f2d696bfa5c51a7f8a7f98f.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c372556a4cdaffa622241daf2fca0f98.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_320981f4e3ca083654beb3592f0a7385.png>
+![](img/zhuanqian_90334f110f2d696bfa5c51a7f8a7f98f.png)
+![](img/zhuanqian_c372556a4cdaffa622241daf2fca0f98.png)
+![](img/zhuanqian_320981f4e3ca083654beb3592f0a7385.png)
 #### LoRA 标识从哪来
 1. 当前 Lib 已经把站内允许商用的模型全部开放给 API 了，到站内筛一下“商用授权”，就能看到可用的 Checkpoint 和 LoRA
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a3835ed7a4a538c33fa2bbc0e1858dba.png>
+![](img/zhuanqian_a3835ed7a4a538c33fa2bbc0e1858dba.png)
 1. 选好模型版本后，从浏览器地址栏里把 versionUuid 原样取出来
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_26427b2c1cc7b1969c471e02c07147a1.png>
+![](img/zhuanqian_26427b2c1cc7b1969c471e02c07147a1.png)
 1. 再把它填进出图接口的参数模板，作为 LoRA 标识来使用
 #### Liblib 密钥怎么拿
 先登录 liblib.art 的后台，进入生图相关设置页
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9743e45128804a368cea065dfa0bf42d.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bf761187106b89f3408c9b4a52f8dd8c.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_91e05479b5ce375d1e94fcf78598c6e1.png>
+![](img/zhuanqian_9743e45128804a368cea065dfa0bf42d.png)
+![](img/zhuanqian_bf761187106b89f3408c9b4a52f8dd8c.png)
+![](img/zhuanqian_91e05479b5ce375d1e94fcf78598c6e1.png)
 #### 抖音下载服务的账号信息
 去抖音解析服务商那边申请 AppID 和 AppSercert
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_698f57323dc343dc43b7f40bde0f3d48.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b6095d9626bc7e1ab2538d530c80fdeb.png>
+![](img/zhuanqian_698f57323dc343dc43b7f40bde0f3d48.png)
+![](img/zhuanqian_b6095d9626bc7e1ab2538d530c80fdeb.png)
 ### 3. 视频地址加密
 这里的加密是为了满足服务商对接口传输的要求。
 视频拉取这件事交给 Roll 来做，配套说明文档叫“抖音下载”。
 流程上会先把链接加密：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_29ede13cc0c0d4d97ed65658e2ae0e80.png>
+![](img/zhuanqian_29ede13cc0c0d4d97ed65658e2ae0e80.png)
 上面这段代码负责把原始链接转成加密格式，再提交给后续接口使用。
 在短视频内容创作日益内卷的今天，如何高效产出爆款视频成了许多人的痛点。今天我们不聊创意，直接拆解一套全自动化的“视频工厂”流水线，从脚本到成片，全程由AI和代码接管，你只需要做最终的审核者。
 **第一步，先搞定素材源头。**
@@ -189,7 +189,7 @@ item.json.videoLinkBase64 = Buffer.from(videoLink).toString('base64');
 item.json.myNewField = 1;
 }
 return $input.all();
-``` <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fb518c5363e29a3823a48ff9ab8f1d99.png> <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3fa73e7db5ed3801458f85f6b9d73090.png> ```
+``` ![](img/zhuanqian_fb518c5363e29a3823a48ff9ab8f1d99.png) ![](img/zhuanqian_3fa73e7db5ed3801458f85f6b9d73090.png) ```
 # **角色**
 抖音爆款文案大师 & AI视觉创意总监
 * 模仿爆款风格：语言节奏、口头禅、视觉习惯
@@ -213,4 +213,4 @@ return $input.all();
 7\. 所有提示词 → 健康正面，合规全年龄
 # **输出格式**
 ``` ```
-``` <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1bf42d5b5d29aafe9c352695639c359d.png> <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_152cd04df436344eb0579a2a2ca6778c.png> <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a3eddca8fe6526ab79f3e648fad3f0b3.png> <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3c37fecd2ba56a988e34b228c69a454e.png> <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_854b4252b5efb8a04ad8333c0f147edb.png> <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_212c634c9627e0ce35547db4553a2099.png> <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c97ae6b1a1dedf7d8dd94f567c6bfe59.png> <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b83f39f27020363ddc6a001329497ca3.png> <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7d5692a8d9d1dc62bd13c33e59a96629.png> <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2b4d8f70bc7038a8c2df2b183a9e25dc.png> <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d2f372f4bff028645dfc4cb62561b50c.png> <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f180c892e136f0d245ab7b05cd0415dc.png> <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a57608d73de2568c935668651399a841.png> <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bdcc960224eb689fb18eefc8939378dc.png> <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_31735a8d259311664e8b3595e16bf46c.png> <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4ec71931e02969bb6497e9dc1f2d45bb.png> <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9d5452f1dc456c31fa6ae04aa64c7c7d.png>
+``` ![](img/zhuanqian_1bf42d5b5d29aafe9c352695639c359d.png) ![](img/zhuanqian_152cd04df436344eb0579a2a2ca6778c.png) ![](img/zhuanqian_a3eddca8fe6526ab79f3e648fad3f0b3.png) ![](img/zhuanqian_3c37fecd2ba56a988e34b228c69a454e.png) ![](img/zhuanqian_854b4252b5efb8a04ad8333c0f147edb.png) ![](img/zhuanqian_212c634c9627e0ce35547db4553a2099.png) ![](img/zhuanqian_c97ae6b1a1dedf7d8dd94f567c6bfe59.png) ![](img/zhuanqian_b83f39f27020363ddc6a001329497ca3.png) ![](img/zhuanqian_7d5692a8d9d1dc62bd13c33e59a96629.png) ![](img/zhuanqian_2b4d8f70bc7038a8c2df2b183a9e25dc.png) ![](img/zhuanqian_d2f372f4bff028645dfc4cb62561b50c.png) ![](img/zhuanqian_f180c892e136f0d245ab7b05cd0415dc.png) ![](img/zhuanqian_a57608d73de2568c935668651399a841.png) ![](img/zhuanqian_bdcc960224eb689fb18eefc8939378dc.png) ![](img/zhuanqian_31735a8d259311664e8b3595e16bf46c.png) ![](img/zhuanqian_4ec71931e02969bb6497e9dc1f2d45bb.png) ![](img/zhuanqian_9d5452f1dc456c31fa6ae04aa64c7c7d.png)

@@ -19,7 +19,7 @@ Code Llama可以通过Poe免费使用，不过目前不支持中文回答；Repl
 - 如何模拟浏览器操作？
 - 验证码应该通过什么方式获取？
 - 邮箱、代理、IP等问题是否需要提前处理？
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6f775a23c9e58e7c196867445c57b336.png>
+![](img/zhuanqian_6f775a23c9e58e7c196867445c57b336.png)
 根据GPT的分析，一个基础版本通常需要准备两项内容：
 1. 使用Selenium等工具模拟浏览器行为；
 2. 准备一个可以接收多个注册邮箱验证码的邮件系统。
@@ -31,9 +31,9 @@ example@gmail.com
 ```
 如果我们拥有一个自己的域名，就可以建立一个Catch-all邮箱机制。这样，无论邮件发送到该域名下哪个前缀的地址，最终都能被转发到一个指定邮箱中。
 因此，下一步的关键就变成了：如何用最低成本搭建自己的域名邮箱转发服务？
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6fc146098f237aa1bd31b119071b368a.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cebacbf584d3c78cf8eef75436d6bc1c.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_38087dd6c7d5b966ca0e1a9a12c25baa.png>
+![](img/zhuanqian_6fc146098f237aa1bd31b119071b368a.png)
+![](img/zhuanqian_cebacbf584d3c78cf8eef75436d6bc1c.png)
+![](img/zhuanqian_38087dd6c7d5b966ca0e1a9a12c25baa.png)
 通过继续和GPT沟通，可以得到几个重要结论：
 - 只要拥有自己的域名，就能配置Catch-all邮箱；
 - 发送到`任意前缀@你的域名`的邮件，都可以统一转发到指定邮箱；
@@ -48,22 +48,22 @@ example@gmail.com
 https://forwardemail.net/
 ```
 如果还没有账户，可以直接使用Gmail进行第三方登录。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0e436d4e898f80448605966b7dfb5b70.png>
+![](img/zhuanqian_0e436d4e898f80448605966b7dfb5b70.png)
 登录后，点击“Add Domain”，将自己的域名填写进去，例如：
 ```text
 bardextension.io
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_165eb8e1680e4446f9934ec7ca9a8e60.png>
+![](img/zhuanqian_165eb8e1680e4446f9934ec7ca9a8e60.png)
 提交后，页面会进入域名配置向导。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ca6d25b308784682f5c757c8221d172a.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7ffd30a05edb689ac85c07498f4213e3.png>
+![](img/zhuanqian_ca6d25b308784682f5c757c8221d172a.png)
+![](img/zhuanqian_7ffd30a05edb689ac85c07498f4213e3.png)
 接下来，需要进入域名注册商的管理后台，根据Forward Email提供的说明修改DNS记录。
 其中，MX记录是必须配置的一项。它的作用是把发送到该域名的邮件交给Forward Email处理，再由Forward Email统一转发到指定的Gmail邮箱。
 以NameSilo为例，进入域名管理页面，在DNS设置区域填写引导页中提供的解析信息。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_dcefad6a1e3ebd1907047799de14bd71.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_270be988f9448f73cc5ce53e172e1ab8.png>
+![](img/zhuanqian_dcefad6a1e3ebd1907047799de14bd71.png)
+![](img/zhuanqian_270be988f9448f73cc5ce53e172e1ab8.png)
 DNS记录填写完成后，回到Forward Email的配置页面，点击“Verify”。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d86c920bcf3b07f75e44438b62d1d6c6.png>
+![](img/zhuanqian_d86c920bcf3b07f75e44438b62d1d6c6.png)
 如果页面显示“Congratulations”，说明域名验证已经成功。
 到这里，Catch-all邮箱基本就配置好了。之后，无论邮件发送到：
 ```text
@@ -73,23 +73,23 @@ random@bardextension.io
 ```
 只要域名解析和转发设置正确，邮件都会进入之前绑定的Gmail邮箱。
 可以先发送一封测试邮件，确认转发是否正常。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a6525049ff3080ca0880cd277e6aff46.png>
+![](img/zhuanqian_a6525049ff3080ca0880cd277e6aff46.png)
 邮箱转发搭建完成后，下一步就是让程序自动读取邮件，并从中找到HeyGen发送的验证码。
 ## 三、自动读取邮箱验证码
 接下来继续向ChatGPT描述需求，让它提供从Gmail获取验证码的方案。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0e8a61a160414a696c463bd6501144f8.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0d7f3644968a6ff432165cb04a27db84.png>
+![](img/zhuanqian_0e8a61a160414a696c463bd6501144f8.png)
+![](img/zhuanqian_0d7f3644968a6ff432165cb04a27db84.png)
 GPT通常会给出两种常见方式：
 - 使用Gmail API；
 - 使用IMAP协议登录邮箱并搜索邮件。
 两种方法都可以实现自动读取邮件。为了降低配置复杂度，这里选择IMAP方案。
 首先，让GPT查询Gmail的IMAP配置方法，然后按照说明进入Gmail设置页面。
 找到“查看所有设置”，进入“转发和POP/IMAP”相关选项，开启IMAP功能。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6d8357917871eed68b0a1675f012b4a2.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_85743a45ab694d1358d89ca55e293fe8.png>
+![](img/zhuanqian_6d8357917871eed68b0a1675f012b4a2.png)
+![](img/zhuanqian_85743a45ab694d1358d89ca55e293fe8.png)
 开启后保存设置，Gmail端的IMAP配置就完成了。
 接下来，让GPT编写一个程序，用于登录Gmail、搜索HeyGen邮件，并从正文中提取验证码。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_acbd55721cf7a0cac9ac06e1e7a3ff49.png>
+![](img/zhuanqian_acbd55721cf7a0cac9ac06e1e7a3ff49.png)
 将生成的代码复制到本地运行。
 ```
 import imaplib
@@ -147,11 +147,11 @@ return None
 ```
 第一次运行时，程序一般会要求填写Gmail用户名和密码。用户名就是自己的Gmail地址，但这里的密码不能直接使用日常登录密码。
 如果不知道应该填写什么，可以继续向ChatGPT询问。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e9f944b944cd4fb2fa15658d0e170088.png>
+![](img/zhuanqian_e9f944b944cd4fb2fa15658d0e170088.png)
 GPT会提示我们先启用Google账号的两步验证，然后创建应用专用密码。
 完成两步验证后，进入Google账号安全设置，找到“应用专用密码”选项。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_980d1fc6b423e96ef6bf9c9e144af26b.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1234d2cadc6f5649f858647ab4c5c057.png>
+![](img/zhuanqian_980d1fc6b423e96ef6bf9c9e144af26b.png)
+![](img/zhuanqian_1234d2cadc6f5649f858647ab4c5c057.png)
 创建应用专用密码时，应用名称可以随意填写，例如：
 ```text
 HeyGen Script
@@ -166,7 +166,7 @@ HeyGen Script
 - 仅读取最近几分钟内的邮件；
 - 找到验证码后立即停止查询；
 - 增加连接失败和超时处理。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_50c407fb813139d00296d47b515c397b.png>
+![](img/zhuanqian_50c407fb813139d00296d47b515c397b.png)
 经过优化后，就可以得到一份相对完整的自动获取邮箱验证码代码。
 需要强调的是，自动化注册和批量操作应遵守相关平台的服务条款、法律法规及反滥用规则。更稳妥的做法是将这套方法用于个人测试、自动化学习和合法的内容生产流程，不要用于绕过平台限制或制造违规账号。
 从这次实践可以看到，ChatGPT不仅能回答问题，也能参与需求拆解、代码生成、错误排查和功能优化。对于编程基础较弱的人来说，只要把复杂目标拆分成邮箱配置、验证码读取、浏览器操作等多个小模块，就有机会一步步完成原本看似困难的自动化项目。
@@ -227,9 +227,9 @@ return None
 在弄懂了如何无限申请临时邮箱并即时抓取校验码之后，下一个环节是把这套能力嫁接到 Heygen 的账号创建流程上。
 ## 让模型产出注册自动化脚本
 上一步由 GPT 产出的片段里，拉取校验码的入口函数是 `fetch_verification_code`。基于此，我把 Heygen 前端注册的交互顺序、页面约束等细节再次整理给模型，让它补全一套可直接运行的浏览器自动化实现：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fe39ac7249e0c5772b3cf3beb1a76269.png>
+![](img/zhuanqian_fe39ac7249e0c5772b3cf3beb1a76269.png)
 把这段实现下放到本地执行，Chrome 确实被唤起并自动进入了账号创建页，但邮箱输入框始终保持空白。原因是什么？我把现场现象和报错日志原样贴回给模型求助：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b9be016bb5e4ee732b505c675d271a8e.png>
+![](img/zhuanqian_b9be016bb5e4ee732b505c675d271a8e.png)
 在确认了目标输入域的定位表达式后，我把这一信息同步给模型。调整后的版本本地试跑，结果除掉人工填写校验码这一步，其余环节全部走通了。
 ## 融合校验码抓取
 此时的流程已经能完成除验证码之外的所有操作，只差把临时邮箱取码的逻辑串进来。做法很直接，把前面用于取码的片段复制进当前脚本即可，形成闭环：
@@ -357,16 +357,16 @@ if __name__ == "__main__":
 main()
 ```
 再次运行，看得到账号创建流程顺利跑完：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_36a49b0d97464f61147ed98e1e91ae26.png>
+![](img/zhuanqian_36a49b0d97464f61147ed98e1e91ae26.png)
 ## 批量产出的账号归档
 接下来要做的是把每次创建成功的用户名与密码沉淀到同一个 Excel 表里，并支持循环批量执行。我把现有脚本再丢回给模型，请求它扩充持久化与循环能力：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_befcaef8ab832f5d41791d7ff5ce4e8c.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3e40d3b0845c457963b6c374afc9207f.png>
+![](img/zhuanqian_befcaef8ab832f5d41791d7ff5ce4e8c.png)
+![](img/zhuanqian_3e40d3b0845c457963b6c374afc9207f.png)
 跑通之后整体满足预期，不过出现了一个细节问题：当前写法是每累积 5 条就新建一个文件。我想要的是所有记录都写入同一份表格，只是每 5 条触发一次保存动作。于是继续让模型修改写入策略：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_398cdc7df336c4fa9df84764e2ec3bbf.png>
+![](img/zhuanqian_398cdc7df336c4fa9df84764e2ec3bbf.png)
 你有没有想过，用不到两小时的成本，就能让ChatGPT帮你写出一套自动注册脚本？还能顺手收获一大批邮箱资源。今天就把这个过程拆给你看。
 一开始，脚本跑完一轮验证后，发现效果完全符合预期。做到这里其实已经算完成了，不过我们还可以再加一些校验逻辑，顺手把自动化痕迹藏起来，让整个流程看起来像是真人操作：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_532b33b436db6ee747c959a421f53eb0.png>
+![](img/zhuanqian_532b33b436db6ee747c959a421f53eb0.png)
 完整代码长这样：
 ```
 import random

@@ -3,11 +3,11 @@
 大家好，我是龙哥，喜欢笑，做增长。
 上周六晚，我像往常一样刷动态，看到一群传术师晒出新办公空间的照片，又注意到有位伙伴把一份航海实战心得整理成礼物送给龙哥。正好有空，干脆也回一份心意？
 于是我在朋友圈发了东西。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a8ea7c3629449515822b4d8544f49763.png>
+![](img/zhuanqian_a8ea7c3629449515822b4d8544f49763.png)
 几分钟后，龙哥回复：“在哪看？全篇呢”？
 我回：“上一条，图没截完～”
 实话是：我先发了文字，后觉得不合适，截屏后立刻把上一条隐藏了……
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_89a5d43b5f94e42b510d744b270f1c6a.png>
+![](img/zhuanqian_89a5d43b5f94e42b510d744b270f1c6a.png)
 秉持分享越多运气越好的想法，以及老周“想赢就得先站出来”的提醒，我决定把朋友圈的点子再展开一些，希望能起到抛砖引玉的作用。
 下面进入正文。
 # 一、观察与判断
@@ -67,5 +67,5 @@
 - 流量、转化、交付构成最小闭环，一个动作同时覆盖三者，价值被放大。线下大会如此，线下赛事亦然。
 - 海外发行也是值得关注的延伸。
 一件事如同水面涟漪，涟漪的中心就是支点。找到支点，值得全力投入。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a8ea7c3629449515822b4d8544f49763.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_89a5d43b5f94e42b510d744b270f1c6a.png>
+![](img/zhuanqian_a8ea7c3629449515822b4d8544f49763.png)
+![](img/zhuanqian_89a5d43b5f94e42b510d744b270f1c6a.png)

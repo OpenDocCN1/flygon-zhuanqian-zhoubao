@@ -47,10 +47,10 @@ https://www.1stformations.co.uk/
 ## 1. 查询公司名称
 进入网站后先搜索准备使用的公司名称。
 如果系统显示该名称可以注册，通常就可以继续使用。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d5f831a49b78e70b246108879ed4ef59.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6959d5c5f1b7c6aed4fd927beba4eea8.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_27c8addf9755d1f957ebfc4ea11952aa.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_600ea8ba3aa49c755c599865f89588c7.png>
+![](img/zhuanqian_d5f831a49b78e70b246108879ed4ef59.png)
+![](img/zhuanqian_6959d5c5f1b7c6aed4fd927beba4eea8.png)
+![](img/zhuanqian_27c8addf9755d1f957ebfc4ea11952aa.png)
+![](img/zhuanqian_600ea8ba3aa49c755c599865f89588c7.png)
 ## 2. 选择套餐
 套餐方面选择 Privacy 基础方案即可，其他服务可以根据自己的实际需要再决定。
 我当时选择后，加上服务费用，总金额约为 77.58 英镑，折合人民币大约 750 元。
@@ -60,31 +60,31 @@ https://www.1stformations.co.uk/
 - 账单地址，需要填写你实际用于支付的信用卡账单地址；
 - 外币信用卡信息。
 这些信息要尽量如实填写，并确保与银行卡资料保持一致。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_dbdad57d987a9cb4169117a9abae8a4b.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4c9ba45fee773be8c85617130a66325d.png>
+![](img/zhuanqian_dbdad57d987a9cb4169117a9abae8a4b.png)
+![](img/zhuanqian_4c9ba45fee773be8c85617130a66325d.png)
 付款成功后，就会进入公司详细信息设置页面。
 ## 4. 设置公司经营范围
 页面中会看到 SIC Codes，也就是公司的经营活动类别。
 如果你主要做 Web 网站、软件或 AI 工具，可以选择与软件开发、软件服务相关的类别。不确定时，可以把选项复制给 GPT，让它帮你判断。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3ab8882f74140dd4665cf71d631f5c14.png>
+![](img/zhuanqian_3ab8882f74140dd4665cf71d631f5c14.png)
 在地址服务页面，因为 Privacy 套餐已经包含注册地址服务，所以可以点击：
 > Choose Forwarding Address
 选择对应的账单地址后，点击：
 > Save & continue
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_88bc43d0e9882af3a1dc679b78708606.png>
+![](img/zhuanqian_88bc43d0e9882af3a1dc679b78708606.png)
 ## 5. 填写董事资料
 接下来需要添加公司董事。
 选择 Person，然后按照护照上的真实信息填写，包括姓名、出生信息、地址等。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2e481536679724f18dac44a2699b272e.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_20618ec314e66929bf3e3b101b2ceaae.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2ad784fbbcdd9ab774d52af678af9dcf.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_20fba44568b6bd904508cab032d38651.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_dbf6b02832bd95c3022550ca7108b973.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9f567fdfc71d3a07116605f0eeed5e3b.png>
+![](img/zhuanqian_2e481536679724f18dac44a2699b272e.png)
+![](img/zhuanqian_20618ec314e66929bf3e3b101b2ceaae.png)
+![](img/zhuanqian_2ad784fbbcdd9ab774d52af678af9dcf.png)
+![](img/zhuanqian_20fba44568b6bd904508cab032d38651.png)
+![](img/zhuanqian_dbf6b02832bd95c3022550ca7108b973.png)
+![](img/zhuanqian_9f567fdfc71d3a07116605f0eeed5e3b.png)
 确认所有信息无误后，保存并提交申请。
 提交后，1st Formations 会向你的邮箱发送后续通知。
 如果英文阅读不方便，继续使用翻译插件即可。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_695841a955a871e8f47d11d53503f4ff.png>
+![](img/zhuanqian_695841a955a871e8f47d11d53503f4ff.png)
 # 五、完成身份认证和地址验证
 提交注册资料后，还需要完成身份与地址验证。
 ## 1. 使用 Credas 完成身份认证
@@ -94,19 +94,19 @@ https://www.1stformations.co.uk/
 - 人脸识别；
 - 使用手机 NFC 读取护照芯片。
 这里通常只能使用护照完成认证。对于境外平台来说，护照是主要的国际身份凭证，身份证一般无法替代。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_433bbd87d38249a187a88e60b1c499d1.png>
+![](img/zhuanqian_433bbd87d38249a187a88e60b1c499d1.png)
 ## 2. 提交地址证明
 我第一次提交的是招商银行卡流水，因为流水左上角带有地址信息。
 不过，第一次上传后系统提示无法识别，随后平台发来了可接受文件的示例。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b236ac94353938e9d83cc8c16db2fb5d.png>
+![](img/zhuanqian_b236ac94353938e9d83cc8c16db2fb5d.png)
 之后我按照示例重新准备并提交了相关地址证明，最终完成审核。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b36cdfe739c8fd436558c87a15410ff5.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1701d158d6fe005349cb40e58d589f30.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a73c379b78c8866edce75bfd53819cf4.png>
+![](img/zhuanqian_b36cdfe739c8fd436558c87a15410ff5.png)
+![](img/zhuanqian_1701d158d6fe005349cb40e58d589f30.png)
+![](img/zhuanqian_a73c379b78c8866edce75bfd53819cf4.png)
 这些材料可以通过招商银行 App 申请，也可以直接联系银行客服，让工作人员发送或开具带有地址及银行盖章的证明文件。
 核心要求是：
 > 材料能够证明你填写的地址真实有效，并且最好有银行官方信息或盖章作为佐证。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c45651f325b6443f401e6a46c62eee09.png>
+![](img/zhuanqian_c45651f325b6443f401e6a46c62eee09.png)
 审核完成后，你会收到类似下面的邮件。收到这封通知，基本就代表英国公司注册完成了。
 另外，也可以参考我朋友 @谭铁铁 的相关教程，步骤同样比较详细。需要注意的是，目前空中云汇已经无法正常注册，因此本文注册公司部分主要参考他的经验。
 参考链接：
@@ -114,12 +114,12 @@ https://mp.weixin.qq.com/s/vfxPYglXtxnFN9R7vvfKzw
 # 六、准备一个海外手机号：giffgaff
 很多境外平台注册时都要求绑定海外手机号，因此建议提前准备一张能够在国内接收短信的境外 SIM 卡。
 我当时是在电商平台购买的海外手机卡和备用手机。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_322abb25ec86900ae73a69815fde0007.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_141143d7305b9b332ba16317de8f92b2.png>
+![](img/zhuanqian_322abb25ec86900ae73a69815fde0007.png)
+![](img/zhuanqian_141143d7305b9b332ba16317de8f92b2.png)
 如果你确定要长期做出海业务，这张卡还是很有必要的。除了注册 Wise，很多其他平台也会用到海外号码。
 giffgaff 卡收到后，需要进入官网完成激活。
 我选择的是低成本、基本不收月租的套餐，主要用途就是接收验证码。按照目前的使用情况，收短信一直比较稳定。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_58d7e0d9d66454837c5a255652c45f96.png>
+![](img/zhuanqian_58d7e0d9d66454837c5a255652c45f96.png)
 激活时需要支付大约 10 英镑，我当时使用招商银行 Visa 卡完成付款。
 有一个细节需要注意：
 > 新卡刚插入手机后，可能不会立刻有信号，有时需要等待 5～6 个小时。激活后如果暂时没有反应，可以第二天再查看。
@@ -148,17 +148,17 @@ giffgaff 卡收到后，需要进入官网完成激活。
 - 蓝狮子卡：具备线上支付功能，订阅 Cursor 等软件时，通常需要填写卡片背面的三位安全码。
 建议到香港后准备并存入 500 港币以上，因为后续开通 Wise 需要使用香港银行卡支付一笔费用。
 回到内地后，可以通过香港汇丰 App 申请蓝狮子卡。提交申请后需要等待审核，之后会通过 EMS 邮寄，也可以寄到大陆地址。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f18158c439b9f4c337a2d02c7595a2fe.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ac5fc5e7e510ab0ce38950514e0121e7.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bb493a01f2238decd5807254ef667846.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e64432f1390ae0da906258b9ef2143a1.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_68c58a299c2c5b759afacc11a825fe70.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_13df5fdcff30554d585d5b5a9a5807c2.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_29d4ef7adbb2a89bbb454f40a7d69443.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1334feb50f66cad952adc5cbbf5a05e5.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2b9c3100141bf6695e60fb755581405b.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_43a5075675f310381c1f0f7a534e79d9.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9917900fd69d6ee57c166027249a56b0.png>
+![](img/zhuanqian_f18158c439b9f4c337a2d02c7595a2fe.png)
+![](img/zhuanqian_ac5fc5e7e510ab0ce38950514e0121e7.png)
+![](img/zhuanqian_bb493a01f2238decd5807254ef667846.png)
+![](img/zhuanqian_e64432f1390ae0da906258b9ef2143a1.png)
+![](img/zhuanqian_68c58a299c2c5b759afacc11a825fe70.png)
+![](img/zhuanqian_13df5fdcff30554d585d5b5a9a5807c2.png)
+![](img/zhuanqian_29d4ef7adbb2a89bbb454f40a7d69443.png)
+![](img/zhuanqian_1334feb50f66cad952adc5cbbf5a05e5.png)
+![](img/zhuanqian_2b9c3100141bf6695e60fb755581405b.png)
+![](img/zhuanqian_43a5075675f310381c1f0f7a534e79d9.png)
+![](img/zhuanqian_9917900fd69d6ee57c166027249a56b0.png)
 收到卡后，按照随卡说明完成激活即可。
 # 九、申请 Wise 企业版账户
 ## 1. Wise Business 的主要作用
@@ -187,44 +187,44 @@ Wise 会要求填写英国公司的 Registration Number。
 Wise 开户需要支付一笔费用，我当时使用香港银行卡完成。
 如果没有香港银行卡，也有人会选择找第三方代付，但这种方式存在风险，建议优先使用自己的卡完成支付。
 ## 4. 具体申请流程
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c6356fc4e15e273124e28eb23ec298ba.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fddecbaa1e07c03e49d867776c6afed2.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0b0349d506f389eb5f39ebbb7e333706.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c94fd6104da51ff28cf41778e18595f9.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_dd4dcf299d9ccd36c8468578a1df27b0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_64104a97b5a589e0cfb15d0f0494099a.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cfea330953954d545f5558d18f757ef3.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8d993f9744681e72eaf0ee9ce2a1eb16.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ba1b6c0eb6915aeae7bf5730ad4d2042.png>
+![](img/zhuanqian_c6356fc4e15e273124e28eb23ec298ba.png)
+![](img/zhuanqian_fddecbaa1e07c03e49d867776c6afed2.png)
+![](img/zhuanqian_0b0349d506f389eb5f39ebbb7e333706.png)
+![](img/zhuanqian_c94fd6104da51ff28cf41778e18595f9.png)
+![](img/zhuanqian_dd4dcf299d9ccd36c8468578a1df27b0.png)
+![](img/zhuanqian_64104a97b5a589e0cfb15d0f0494099a.png)
+![](img/zhuanqian_cfea330953954d545f5558d18f757ef3.png)
+![](img/zhuanqian_8d993f9744681e72eaf0ee9ce2a1eb16.png)
+![](img/zhuanqian_ba1b6c0eb6915aeae7bf5730ad4d2042.png)
 提交资料后等待 Wise 审核。
 审核通过后，平台会通过邮件通知你。Wise 企业账户开通完成后，就可以继续申请 Stripe。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8ea6cbee0922bbdeb1fa87a429ae3e8f.png>
+![](img/zhuanqian_8ea6cbee0922bbdeb1fa87a429ae3e8f.png)
 # 十、申请 Stripe 账户
 Stripe 注册入口：
 https://dashboard.stripe.com/register
 ## 1. 开始注册
 进入注册页面后，按照要求填写邮箱、密码及公司所在地区等基础信息。
 由于前面已经准备好了英国公司，因此注册时需要使用英国公司资料。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_40fd733e36e5c8eef0643078548803bc.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_70d15372451e4f46c0b1e09b4a36caa8.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9efa522f84a14b3d87af6379e8a4375c.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_16074fdd74bade2d05c0752bdd74e745.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_36bd3975c112587b549ae7f0f9c56d6e.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_46beacdb03af6dff80c9338461cbccdd.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e5051fb1116f262109a8b7dbf8b2a4ee.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6d8d2e272f93a1fe14c6196084fe3d93.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6d9b673b67ab53bd8783a4a6de37b7cf.png>
+![](img/zhuanqian_40fd733e36e5c8eef0643078548803bc.png)
+![](img/zhuanqian_70d15372451e4f46c0b1e09b4a36caa8.png)
+![](img/zhuanqian_9efa522f84a14b3d87af6379e8a4375c.png)
+![](img/zhuanqian_16074fdd74bade2d05c0752bdd74e745.png)
+![](img/zhuanqian_36bd3975c112587b549ae7f0f9c56d6e.png)
+![](img/zhuanqian_46beacdb03af6dff80c9338461cbccdd.png)
+![](img/zhuanqian_e5051fb1116f262109a8b7dbf8b2a4ee.png)
+![](img/zhuanqian_6d8d2e272f93a1fe14c6196084fe3d93.png)
+![](img/zhuanqian_6d9b673b67ab53bd8783a4a6de37b7cf.png)
 ## 2. 填写 Wise 收款账户资料
 Stripe 后续会要求绑定收款账户。
 Wise 的账户信息可以在 Wise 官网后台查看，包括账户号码、银行代码以及其他收款资料。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f8689ad2aa9420e4fc1e1efb1c8a8f0d.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c3e764f2470bfcd0000cb6b1b5845932.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c8d7820f7d286f10413d6b6dffa82950.png>
+![](img/zhuanqian_f8689ad2aa9420e4fc1e1efb1c8a8f0d.png)
+![](img/zhuanqian_c3e764f2470bfcd0000cb6b1b5845932.png)
+![](img/zhuanqian_c8d7820f7d286f10413d6b6dffa82950.png)
 填写时注意核对每一项信息，确保公司名称、账户主体和银行资料保持一致。
 ## 3. 完成企业信息和文件验证
 注册到后面，Stripe 会要求补充公司经营情况、业务模式、网站信息以及相关证明文件。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5e0ce073d06b407eb232549e6a19901b.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_da4c033638e0b91ed3afb11e7dd9050f.png>
+![](img/zhuanqian_5e0ce073d06b407eb232549e6a19901b.png)
+![](img/zhuanqian_da4c033638e0b91ed3afb11e7dd9050f.png)
 这里建议认真填写以下内容：
 - 网站实际销售的产品或服务；
 - 数字产品或 AI 工具的具体用途；
@@ -233,7 +233,7 @@ Wise 的账户信息可以在 Wise 官网后台查看，包括账户号码、银
 - 公司和负责人信息；
 - 收款账户资料。
 提交文件后，等待 Stripe 审核即可。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e387635f4e7b373b34758ad462af98dd.png>
+![](img/zhuanqian_e387635f4e7b373b34758ad462af98dd.png)
 审核通过后，Stripe 会通过邮件通知你。到这里，英国公司、Wise 和 Stripe 的整条收款链路基本就跑通了。
 # 最后总结
 整个流程可以概括为：

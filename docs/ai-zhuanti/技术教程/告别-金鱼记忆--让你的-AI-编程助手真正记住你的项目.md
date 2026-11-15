@@ -11,19 +11,19 @@ Cline 这类助手很聪明但很短命。每开一个新会话，上下文窗�
 我拿 iOS App 做示范，但这套记忆系统挂到任何语言、任何项目上都一样好使。做别的方向的朋友可以直接跳过 Xcode 部分。
 ## 2.1 新建项目
 先用 Xcode 初始化一个 iOS App 模板。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e1158495d04cf6fd0c3c54aac43ce5d3.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7965848589e206d798af00aae6f72f29.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fc500d810edc1343f7b6bdc3d4aadcd7.png>
+![](img/zhuanqian_e1158495d04cf6fd0c3c54aac43ce5d3.png)
+![](img/zhuanqian_7965848589e206d798af00aae6f72f29.png)
+![](img/zhuanqian_fc500d810edc1343f7b6bdc3d4aadcd7.png)
 选好存放目录后点 Create，项目就建好了。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3c26c9a042675db4f765e8e04ff6cc67.png>
+![](img/zhuanqian_3c26c9a042675db4f765e8e04ff6cc67.png)
 ## 2.2 基础配置
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_91430cfcb30be17ce8dc10a9453ba7a2.png>
+![](img/zhuanqian_91430cfcb30be17ce8dc10a9453ba7a2.png)
 ## 2.3 让 Cursor 上线
 ### 2.3.1 打开工程
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_86102889392c18d9fdc11f8d83c7bc07.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8cc2630d94c375341d018708bc68f9c2.png>
+![](img/zhuanqian_86102889392c18d9fdc11f8d83c7bc07.png)
+![](img/zhuanqian_8cc2630d94c375341d018708bc68f9c2.png)
 把刚建好的项目文件夹直接拖进 Cursor。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c9b5cb1126840607c62fb25953790188.png>
+![](img/zhuanqian_c9b5cb1126840607c62fb25953790188.png)
 ### 2.3.2 载入通用提示词
 可直接复制使用的提示词：
 ```
@@ -147,31 +147,31 @@ Learn --> Apply
 The format is flexible - focus on capturing valuable insights that help me work more effectively with you and the project. Think of .cursorrules as a living document that grows smarter as we work together.
 REMEMBER: After every memory reset, I begin completely fresh. The Memory Bank is my only link to previous work. It must be maintained with precision and clarity, as my effectiveness depends entirely on its accuracy.
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_dc00fa1b5770e883f71ede9336fec721.png>
+![](img/zhuanqian_dc00fa1b5770e883f71ede9336fec721.png)
 我把它放在了全局规则里，因为我现在所有项目都通用，省得每个仓库重复配。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1e840c770ea7d91862f0a42a3cd99cf5.png>
+![](img/zhuanqian_1e840c770ea7d91862f0a42a3cd99cf5.png)
 也可以只放到当前项目的 Rules 里，视个人习惯。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7bded27c509c4d393c2740f3d7be1bc9.png>
+![](img/zhuanqian_7bded27c509c4d393c2740f3d7be1bc9.png)
 ### 2.3.3 初始化 memory-bank，这一步最关键
 在项目根目录建一个 memory-bank 文件夹，再准备一份项目简报或 PRD。PRD 可以让 DeepSeek 快速生成。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ce2b7039355ce8b427c3e4c4f404f0f9.png>
+![](img/zhuanqian_ce2b7039355ce8b427c3e4c4f404f0f9.png)
 技术版或非技术版都行。
 在 memory-bank 里新建 projectbrief.md，把生成的 PRD 粘进去，它就成了项目的地基。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_469b0fd08f3bf5be98799547a6ac5495.png>
+![](img/zhuanqian_469b0fd08f3bf5be98799547a6ac5495.png)
 打开 Cursor 的聊天面板，切到 Agent 模式，老版本叫 Composer，模型我优先用 Claude 3.7。
 输入初始化指令。
 ```
 initialize memory bank
 ```
 随后 Cursor 会自动为我们生成记忆库文件。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fea1c5a8cb698ca224b855a069608552.png>
+![](img/zhuanqian_fea1c5a8cb698ca224b855a069608552.png)
 通常它不会自动生成 .cursorrules，这部分需要手动补上。
 有人会问：我 Cursor 都升到 0.47 了，为什么不直接生成 .mdc 格式的新规则文件？我也试过，聊天里显示已更新，实际文件并没有写入。于是我还是回到 .cursorrules 上，让它生成和修改这个文件更可靠。
 ```
 initialize .cursorrules
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9f0bb49602192de85c5d5b29ac51adc2.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a454e995cba4e1148840ea3d0eaa8c17.png>
+![](img/zhuanqian_9f0bb49602192de85c5d5b29ac51adc2.png)
+![](img/zhuanqian_a454e995cba4e1148840ea3d0eaa8c17.png)
 初始化完成后，记忆库里会包含这几份文件：
 *   activeContext：活跃上下文，记录当前阶段、进行中的任务、最近改动、下一步计划，是最频繁变动的一份。
 *   productContext：产品上下文，相当于动态 PRD，有新需求就让它更新。
@@ -190,33 +190,33 @@ update memory bank 更新
 ### 2.3.4 使用习惯
 我的操作准则很简单：涉及业务逻辑的改动，先用 ASK / Chat 模式跟 Cursor 讨论清楚，确认方案后再切到 Agent / Composer 去执行。
 像 UI 还原这种纯视觉任务，直接把设计稿丢进去，让它一比一复刻就行。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_393ad15dd3a16980133095ec53d0251b.png>
+![](img/zhuanqian_393ad15dd3a16980133095ec53d0251b.png)
 先把之前设计好的原型图直接交给 cursor 照着还原。可惜我快速请求额度已经用完了，3.7 还在排长队，只能退出来用 3.5 顶上。还原出来的效果嘛……只能说不算太理想，页面来来回回调整了好几轮才勉强能看。
 等全部收工，就让 cursor 把这轮改动同步进 memory bank，更新一下项目记忆库。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_34c9d41ba478f06d52c3fe3f642313f3.png>
+![](img/zhuanqian_34c9d41ba478f06d52c3fe3f642313f3.png)
 另外，我还专门接了一个“顺序思考”的 MCP 工具来辅助 cursor 推理，毕竟 3.5 最近真的有点“降智打击”。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ce854ad70ff689f73bcd9f467a913a14.png>
+![](img/zhuanqian_ce854ad70ff689f73bcd9f467a913a14.png)
 来看看更新完的记忆库长什么样吧。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4ed79a3d7b2e75878cab8db6bbbb84d9.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ec1ef00262337b46bd4e42178ff4b4bb.png>
+![](img/zhuanqian_4ed79a3d7b2e75878cab8db6bbbb84d9.png)
+![](img/zhuanqian_ec1ef00262337b46bd4e42178ff4b4bb.png)
 它把我们这次对话里做的每件事都清清楚楚记录了下来。下次新建对话窗口，正式开工之前，让 cursor 先回忆一遍之前的上下文，它就能迅速找回状态。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1895aeba15f71a0a0c42bd0a233bcd41.png>
+![](img/zhuanqian_1895aeba15f71a0a0c42bd0a233bcd41.png)
 所以在记忆库优化这件事上，我最初文件量很少，可随着项目越来越复杂，记忆库也开始膨胀。加上大模型上下文窗口本来就有上限，常常是任务还没真正开始，只是把 memory bank 从头到尾过一遍，窗口就满了。
 那有没有解决办法？有的兄弟，有的。
 神秘吗？一点都不。核心就一句话：围绕特定任务，单独为它准备一份专属上下文文档。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_dfc3456c7092d843f2ec9e506cee0483.png>
+![](img/zhuanqian_dfc3456c7092d843f2ec9e506cee0483.png)
 你回头看我们的提示词，里面本来就说了可以创建额外文件来组织 memory bank。而且我实践下来发现，这类“任务专属”的上下文文件价值非常高。
 新会话一开启，直接把那份小范围文档丢给 cursor 就行，该有的背景信息它全都有，但上下文窗口完全不会瞬间爆掉。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_88f961f81f9943ce40326b1c048a3eb9.png>
+![](img/zhuanqian_88f961f81f9943ce40326b1c048a3eb9.png)
 来个实战演示。第一步，我让 cursor 先翻开 memory bank，把项目整体过了一遍。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5ff4fc75f5b3bf6c2ff0381fd51eccf6.png>
+![](img/zhuanqian_5ff4fc75f5b3bf6c2ff0381fd51eccf6.png)
 它给我列出了当前项目的主干功能点，我们就顺着这些点去拆分。我特意让 cursor 先思考清楚再动手拆，结果这一轮它光思考了，压根没拆。没办法，我只能再补一句指令，让它正式开始拆分。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b509383126fe4fc6e621582cd6e77172.png>
+![](img/zhuanqian_b509383126fe4fc6e621582cd6e77172.png)
 看看它拆出来的文件，说实话内容挺完整的，覆盖率比我预期的高。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_dec7c08e83618ef9d690d1efe75b6019.png>
+![](img/zhuanqian_dec7c08e83618ef9d690d1efe75b6019.png)
 但光拆可不够，原始的记忆库还得跟着更新。不然新文件有了，旧的一大坨还堆在原地，等于白费功夫。所以接下来，我又让 cursor 去刷新记忆库的原始文件。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_714c3af41248d63f390570de0e0dae81.png>
+![](img/zhuanqian_714c3af41248d63f390570de0e0dae81.png)
 刷新完以后，记忆库原始文件瘦身得相当明显。拿 systemPatterns 来说，本来一千多行的大块头，现在只剩 257 行了。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a5ce24fbe8f5d491b0dfa8fd3ff11147.png>
+![](img/zhuanqian_a5ce24fbe8f5d491b0dfa8fd3ff11147.png)
 以后我要是再继续开发登录认证相关的功能，直接让 cursor 查看这个文件就行。不过现在的 AI 已经这么聪明了，哪怕我只说一句“继续开发登录认证功能”，cursor 大概率也会自己找到对应的上下文文件。
 希望这段经验能给你带来一点启发。也想知道：你平时都是怎么管理上下文窗口的？欢迎交流。

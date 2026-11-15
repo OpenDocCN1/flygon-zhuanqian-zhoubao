@@ -12,14 +12,14 @@ PPT 这类需求在没接触前基本想不到，做写作做久了才发现它�
 团队的 AI 代写业务后来彻底起飞，客户源源不断。很多下单的客户在认可我们文章质量后，会顺带问一句：能不能帮忙做 PPT？有没有现成的模板推荐？能不能介绍靠谱的 PPT 老师？一连串需求扑面而来。
 我当时就意识到，PPT 的潜在需求其实非常大，只是没被充分挖掘。
 刚开始 AI 工具用得还不熟，觉得做 PPT 好麻烦。自身又不是设计科班出身，做起来很折磨，而且客单价就几十上百，比起代写性价比低很多，所以一直没放大投入。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1ad8df238190704d741d3ba19bcc24b4.png>
+![](img/zhuanqian_1ad8df238190704d741d3ba19bcc24b4.png)
 转折点是龙哥盟的怀民老师约我录视频，提前准备了录屏工具和 PPT 制作插件。那个小工具太好用了，一键就能把主题变成 PPT，以前要花 3-4 小时的工作，半小时就定稿了。出来的质感很高，模板库也丰富。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7a20be2510a9398b30bf0f9cd0acdd3b.png>
+![](img/zhuanqian_7a20be2510a9398b30bf0f9cd0acdd3b.png)
 效率暴涨，体验感拉满，瞬间让我觉得做 PPT 可以很轻松。于是我跟身边伙伴说，用 AI 做 PPT 真的太简单了，赶紧去赚一波。实践中我又陆续挖到不少更顺手的 AI 工具。
 之前不少圈友执行力很强也很爱分享，市场苗头不对我马上就让身边人试水 PPT。除了我自己，好几个圈友上手后反馈很快，见效也快。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6a8be50f9e7d219cdb1fd809e7098124.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ffe351764b07d9484067a5ad959f3fe6.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_759e162867e5faa3558b8c994248e7a0.png>
+![](img/zhuanqian_6a8be50f9e7d219cdb1fd809e7098124.png)
+![](img/zhuanqian_ffe351764b07d9484067a5ad959f3fe6.png)
+![](img/zhuanqian_759e162867e5faa3558b8c994248e7a0.png)
 # 2. 我对这个项目的理解
 从小白上手到跑通，我对 AI+PPT 的判断很清晰：这是个蓝海小而美的赛道。
 PPT 代做、美化的流行，本质上解决的是客户的“懒”和“不会”两大痛点。
@@ -31,23 +31,23 @@ PPT 确实有稳定需求。之前我做简历项目实操过，对比下来 PPT
 ## 闲鱼
 闲鱼上做 PPT 兼职的个人、大学生很多，客单价基本在百元内。平台零门槛，注册一个号就能开始，特别适合新手练手。
 搜索下来做的好的账号很多，做的差的更多。以 50 元一件计算，一天 30 单就是 1500 元收入，虽有波动但很可观。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_edfd56ccdab39fab9ea061a5cf0f7e53.png>
+![](img/zhuanqian_edfd56ccdab39fab9ea061a5cf0f7e53.png)
 我们上架的链接同样被大量咨询。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_da9f6ae23b5dd4068eab25737a2f9caf.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8903029f1b104f1253c009f6e4339431.png>
+![](img/zhuanqian_da9f6ae23b5dd4068eab25737a2f9caf.png)
+![](img/zhuanqian_8903029f1b104f1253c009f6e4339431.png)
 ## 小红书
 小红书相对轻一点。平台上已有很多 PPT 代写博主和工作室，通过案例展示、设计技巧、行业干货就能出爆款。价格弹性很大，几百到上千都有，复杂设计和数据分析的单子单价更高。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_139cf353f23481c50922ba137e5bdc4c.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_524edb56f9e7498998800d645799b2a2.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3eb62c6e3df9b9977ecb7fbfe803560f.png>
+![](img/zhuanqian_139cf353f23481c50922ba137e5bdc4c.png)
+![](img/zhuanqian_524edb56f9e7498998800d645799b2a2.png)
+![](img/zhuanqian_3eb62c6e3df9b9977ecb7fbfe803560f.png)
 ## 淘宝
 淘宝的 PPT 价格整体偏高，大店很多。客单价常见 100、400，只是标价并非每单实际成交价，但销量叠加后店铺营收相当可观。入驻只要 1000 元保证金，平台值得考虑。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_847eb82611a25b56ee76451992336a44.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_10778c90acfbdcb036f7176a33f5f78c.png>
+![](img/zhuanqian_847eb82611a25b56ee76451992336a44.png)
+![](img/zhuanqian_10778c90acfbdcb036f7176a33f5f78c.png)
 ## 拼多多
 拼多多流量巨大，学生党做作业、做汇报的需求很多，搜 PPT 的用户不少。在这个平台接单也挺滋润。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_eb76c2053dafad6965a7a2762258454a.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_69a948a6af1c1e6f38cfddf74e7902e3.png>
+![](img/zhuanqian_eb76c2053dafad6965a7a2762258454a.png)
+![](img/zhuanqian_69a948a6af1c1e6f38cfddf74e7902e3.png)
 获客方法论上，平台迁移并不难。A 平台跑通后，拿点时间测试 B 平台，很容易拿到正反馈。我常用的几个获客阵地就放在上面了。
 # 4. PPT 需求的旺季节奏
 项目有淡有旺，提前卡位很重要。
@@ -92,18 +92,18 @@ PPT 确实有稳定需求。之前我做简历项目实操过，对比下来 PPT
 步骤四：美化
 步骤五：交付收款
 第一步，打开通义听悟，把语音上传提取原文。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_85fbe3a2b98469e16ff8a4c090e7667d.png>
+![](img/zhuanqian_85fbe3a2b98469e16ff8a4c090e7667d.png)
 第二步，把原文丢进智谱清言提炼大纲。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f83cf120fb771fe7f53f9b8b6be803e3.png>
+![](img/zhuanqian_f83cf120fb771fe7f53f9b8b6be803e3.png)
 第三步，用讯飞智文输入大纲生成 PPT，选模板。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4a22b026a1f2858741d7d58db4d18e3c.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fbc4bcc87a732edf938d5cf5f8a79eed.png>
+![](img/zhuanqian_4a22b026a1f2858741d7d58db4d18e3c.png)
+![](img/zhuanqian_fbc4bcc87a732edf938d5cf5f8a79eed.png)
 得到初稿。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5c29f7a1650ce92cd71d8ffb3d12f98d.png>
+![](img/zhuanqian_5c29f7a1650ce92cd71d8ffb3d12f98d.png)
 ## 版本二：AI 鼠标
 我京东入手几百块的 AI 鼠标，体验很香。可直接提取文档大纲，也能一键根据主题生成 PPT，效率极高。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7076d9a431a65c4dfa502662adafe71d.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7ce5aaa84eac6a506a9936e573e8698c.png>
+![](img/zhuanqian_7076d9a431a65c4dfa502662adafe71d.png)
+![](img/zhuanqian_7ce5aaa84eac6a506a9936e573e8698c.png)
 # 8. 实战避坑
 ## 朋友圈要专业
 ## 拒绝二手单

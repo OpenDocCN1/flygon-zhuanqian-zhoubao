@@ -4,9 +4,9 @@
 这个念头像是我去年就埋下的。当时我就想做一个能陪人聊天的东西，可一直卡在交互上。现在看到 Rizz 用上传截图的思路把问题解开，加上过去半年 AI 编程工具和应用层爆发式增长，正好赶上九月航海的窗口，我就想试试能不能 36 小时内把一个可用的 MVP 先跑出来。
 ## 现在长什么样
 ### 先看效果
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ad21d3cc5e4d9f8903e87de57fb745fc.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b974b8d406699e93fc5370627c9c5a45.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fdd4c88b857fa8243b307c74cfc6b08c.png>
+![](img/zhuanqian_ad21d3cc5e4d9f8903e87de57fb745fc.png)
+![](img/zhuanqian_b974b8d406699e93fc5370627c9c5a45.png)
+![](img/zhuanqian_fdd4c88b857fa8243b307c74cfc6b08c.png)
 ### 当下能做什么
 功能非常克制，只做一件事：上传一张微信聊天截图，系统把对话内容识别出来，然后给出一条建议回复，并附上给出这个建议的理由。
 ## 我脑子里其实有很多想加的东西
@@ -55,7 +55,7 @@
 1. 前端、后端、OCR 这类服务各自独立成一个项目，让 Cursor 在一个仓库里只面对一种语言，理解起来更准。
 2. 先把涉及的框架文档等资料塞进 Cursor 的知识库，让它提问时有据可查。
 3. 能先找现成的项目脚手架就先找，让 Cursor 在已有骨架上改，而不是从零造轮子。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4b9ca56879b0f0e1c8664af337c459cb.png>
+![](img/zhuanqian_4b9ca56879b0f0e1c8664af337c459cb.png)
 ### 为什么要先搭框架
 不同语言的框架大同小异，没有绝对的好坏，只有适不适合。如果你让 Cursor 直接从零开始，它会按自己的偏好选型。比如 Java 最主流的是 Spring，Cursor 生成的代码大概率会带 Spring 的影子，从结构到配置都会被带偏。先用工具把骨架搭好，Cursor 就被限制在既定范围里，反而能给出更聚焦、更可控的代码。
 ## 我是怎么用 Cursor 的
@@ -66,7 +66,7 @@
 ### 当结对编程伙伴
 这种模式下我会大量亲手写。最常用的几种打法：
 1. 我先写开头，比如变量定义、注解 @Inject 这类骨架，让 Cursor 去补全。上下文它能连起来，准确率大概八成左右，省的是手速。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e0735a63f927cf51c26a34f932016029.png>
+![](img/zhuanqian_e0735a63f927cf51c26a34f932016029.png)
 2. 我脑子里有清晰的实现思路，就用 Cmd+L 唤起对话，给一个粗糙的实现描述，让它生成初稿，我再合并。
 3. 把报错信息原样丢进去，让它诊断。
 我始终主导代码库，清楚每个细节。让它写单元测试，再通过审测试来反向检查业务代码质量。
@@ -77,14 +77,14 @@
 3. 直接跑起来，看报错，然后在对话里一边修一边反馈。
 我当甲方，需求必须写死。还会给它参考产品，比如前端就指定要模仿谁的交互。
 大部分时间都在对话区打磨需求。因为前端能在浏览器里即时预览，改-看的循环很快。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_633e6fa32ffd86e96efd9068a6878dfb.png>
+![](img/zhuanqian_633e6fa32ffd86e96efd9068a6878dfb.png)
 ### 当成会写代码的 AI 用
 就是直接问，类似用 ChatGPT。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bcdbc1fb17e883654a0e4ab5a4fe0455.png>
+![](img/zhuanqian_bcdbc1fb17e883654a0e4ab5a4fe0455.png)
 ### 一些实操心得
 1. 把文档提前喂进去。在小众代码场景里，用 @ 指名让它参考指定文档，效果更好。
 1. 框架版本迭代快，不同版本不完全兼容，让它基于最新文档生成更稳。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1d01c13ff1c6efdce4eceac7a1621273.png>
+![](img/zhuanqian_1d01c13ff1c6efdce4eceac7a1621273.png)
 1. 连续几次生成不满意，就新开一个对话 Cmd+L，先让它重新通读代码库 @Codebase。
 1. Cmd+L 新开对话，Cmd+Shift+L 把选中内容丢进已有对话，灵活切换。
 1. 对话有上下文，如果想保留就用 Cmd+Shift+L 续上；如果人工改动了变量名之类，想避免它把改动改回去，就新开对话换上下文。

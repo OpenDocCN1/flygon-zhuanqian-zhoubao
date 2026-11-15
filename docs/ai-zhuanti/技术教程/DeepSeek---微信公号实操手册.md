@@ -1,7 +1,7 @@
 # DeepSeek × 微信公号实操手册
 我是龙哥。最近 DeepSeek 的风头很劲，身边越来越多人开始用这个国产大模型。作为对热点一向敏感的微信公号经营者，我也跟着下场试了试水。这篇手册的初衷很简单：带刚入门的新手做号者走一遍流程，学会自己去发现问题、调整方向。全文约三万字，绝大多数内容是我向 DS 提问后整理出来的，再结合个人实操经验做了修正。合理提问，让我一天就能写完这么长的文档；内容紧扣新手做号的实际需要；部分思路参考了清华团队关于 DeepSeek 的公开教材。
 微信公号有四个底层特性：私域流量、深度阅读、规则齐全、互动性强。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_934326857cb852053258dbdd002387ef.png>
+![](img/zhuanqian_934326857cb852053258dbdd002387ef.png)
 对做号者来说：
 产出端：靠 AI 提效，但人工审核和创意主导权不能丢；文章分章节、关键句加粗，让读者读起来不累。
 风控端：建一套 AI + 人工双重审核机制，别让敏感词绊倒账号；定期更新 AI 的知识库，让它跟上当下的规则。
@@ -45,21 +45,21 @@
 重点提示：这一步不能省。DS 的回复能帮我们贴着读者需求去写文章；记得把生成的答案存到本地；提示词里标出的绿色文字，需要你亲手填写。
 ### 别忽略后台数据
 很多做号者打理账号时，几乎不怎么看后台数据，更别说吃透读者画像。我拿自己的爆文号来举例：后台画像概览页能看到，关注者主要是中老年、黄河北部、男性。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ddde66c75dded423f552a47e7265a8b4.png>
+![](img/zhuanqian_ddde66c75dded423f552a47e7265a8b4.png)
 这些表面标签背后还有更多信息，DS 能帮忙挖出来。操作分两步：
 第一步：上传后台画像截图（可以多张同时上传），最好开推理模式，对它说：
 ```
 请帮我看看我公众号的粉丝画像。
 ```
 DS 会给出反馈：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_381db21e728e0e6c0dd35c73c83276fe.png>
+![](img/zhuanqian_381db21e728e0e6c0dd35c73c83276fe.png)
 第二步：根据回复，换成普通模式继续追问：
 ```
 提问：这些粉丝在'某些方面'中，他们的痛点、痒点、爽点是什么？我该如何去把握这些爽点，创造爆款？
 要求：请帮我分点输出，同时举例子说明，使用小白能够看懂的语言表达。
 ```
 DS 会继续回答（这里只截取一部分，更完整的建议自己试）：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e796326ea2aacbfe1dc5e2465b7daebc.png>
+![](img/zhuanqian_e796326ea2aacbfe1dc5e2465b7daebc.png)
 小贴士：向 DS 了解这类问题时，多用普通模式，回复更快也更稳定。
 ### 你能交付什么？
 选题规划的关键，是明确自己的位置和对读者的用处。我只深耕一个细分赛道，因为我知道在这个赛道里能拿出什么东西。稿子能切实帮到读者，才是他们阅读、点赞、转发甚至关注的理由。
@@ -93,16 +93,16 @@ DS 会继续回答（这里只截取一部分，更完整的建议自己试）�
 读者要的是“需求”还是“价值”？需求是最低标准，差不多能看就行；价值是更高要求，要让人感觉被照顾、情绪被接住、问题被解决。
 那么，怎么摸清读者的真实需要？
 1. 观察读者的一举一动：后台数据、评论区、专属社群都是线索。评论区里，重点看争论点——他们在争什么；建议点——他们希望补上什么；认同点——他们认可什么，往往就是他们最需要什么。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8d1551e9cfa865a332f73f81bd1ace7a.png>
+![](img/zhuanqian_8d1551e9cfa865a332f73f81bd1ace7a.png)
 2. 定期发起投票：后台有投票模块，直接问关注者想看什么。投票结果就是内容方向的最好参考。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3370ea138ef5ae05e7198f23fb884942.png>
+![](img/zhuanqian_3370ea138ef5ae05e7198f23fb884942.png)
 3. 对标同类账号：去主流内容平台搜关键词，把面向同一人群的爆款文章找出来，看标题、文案、配图里反复出现的高频表述。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6857422fe76e70bdab653d4e7d536b11.png>
+![](img/zhuanqian_6857422fe76e70bdab653d4e7d536b11.png)
 在微信站内，可以用元宝、微信关键词热度、站内搜索来做对标，还要关注数据异常的部分——那通常是读者最关心的内容。元宝可以直接提问；关键词热度越高，说明关注越多；站内搜索里 10w+ 文章越多，说明需求越大。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d8fcfd1d320c69c04a6cfd3c60e51998.png>
+![](img/zhuanqian_d8fcfd1d320c69c04a6cfd3c60e51998.png)
 ### 热点怎么蹭？
 热点爆发时，内容会一下子涌出来，但其中藏着可以借鉴的实用信息。最简单的办法：打开 DS 的联网搜索，让它在线搜索并整理网友的观点。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_323810b11ce4d472965eea43931a0d66.png>
+![](img/zhuanqian_323810b11ce4d472965eea43931a0d66.png)
 具体流程可以这样走：
 第一步：用推理模式 + 联网，让它分析大众观点：
 ```
@@ -125,19 +125,19 @@ DS 会继续回答（这里只截取一部分，更完整的建议自己试）�
 请分析大众对'具体热点事件'的不同观点。
 ```
 DS 会回复：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_39ac6ba3c538219984f01ce21b04f5e0.png>
+![](img/zhuanqian_39ac6ba3c538219984f01ce21b04f5e0.png)
 第二步：继续追问：
 ```
 从刚才的分析中，输出不同观点网友的实际'需求/价值'。
 ```
 DS 会回复：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3cdc900d2bb91271ad06fc5ac1255057.png>
+![](img/zhuanqian_3cdc900d2bb91271ad06fc5ac1255057.png)
 第三步：再追问：
 ```
 请你满足用户的'期待影片节奏紧凑，避免冗长的文戏或情感铺垫，以保持观影的刺激感和沉浸感。'，生成10个高价值的爆款'标题/选题'。
 ```
 DS 会回复：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4ce4ec438aaae13eb0881df58b95729d.png>
+![](img/zhuanqian_4ce4ec438aaae13eb0881df58b95729d.png)
 小贴士：连续使用普通模式时，应该一边人工归纳当前的结果，一边等系统恢复。推理模式大约半小时一次；普通模式每小时控制在十次左右。
 ### 做出和别人不一样的东西
 用 AI 做号，最怕被人抄袭、洗稿、搬运。稿子是流量的城墙，区别度就是城墙里的活水。
@@ -187,20 +187,20 @@ DS 会回复：
 想在公号里赚钱，先得理解平台的规则和调性。对 AI 自媒体人来说，最基础也最重要的事，就是把规则吃透。
 ##### 好稿子，平台会帮你传播
 只有关注你的读者，才能在第一时间看到推送。但平台会给优质文章额外的推荐，哪怕你 0 粉丝，文章写得好，陌生人一样能刷到。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_860120d8c85cdb645ccf3d62b9c799ea.png>
+![](img/zhuanqian_860120d8c85cdb645ccf3d62b9c799ea.png)
 平台会发现好稿，读者会发现好稿，传播链会自己转起来。读者觉得文章有用，就会转发到朋友圈、微信群；读者被打动，就会点赞、留言、点"在看"。每一次互动，都是把文章推向更多人的推力。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fa75bf409de8ac33a5f0dc2140270a15.png>
+![](img/zhuanqian_fa75bf409de8ac33a5f0dc2140270a15.png)
 ##### 表达方式不止一种
 公号不仅支持图文（图文依旧是最常见的形态），还能发视频、音频，也能做直播。文章里可以嵌入视频号，也可以插入文字配图。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3bc2fac2cb78e256d6f69c2e73522ed3.png>
+![](img/zhuanqian_3bc2fac2cb78e256d6f69c2e73522ed3.png)
 ##### 优质稿件，系统会加推
 公号里的"看一看"，就是按兴趣做分发的推荐入口。系统会先小范围试推，数据反馈不错，再放量。地域上，会先从发文地附近开始；粉丝上，会先推给已有关注者，互动情况再回流到算法。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b53ebf2df5690876d7c36f206b9011a3.png>
+![](img/zhuanqian_b53ebf2df5690876d7c36f206b9011a3.png)
 互动数据越亮眼，系统给的机会就越多。点赞、评论一多，系统就会认定这是好内容，推给更多匹配标签的人。比如：平时常看同类文章、常搜相关关键词、聊天里经常提到某个词的人。
 当然，并不是每篇稿子都会被推荐，下面的提醒要收好。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_973c674f3154136a25252af0c31d00b2.png>
+![](img/zhuanqian_973c674f3154136a25252af0c31d00b2.png)
 很多人疑惑：我的号为什么一直没推荐？原因有很多，拿着下面清单逐条对照就知道。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4562c24306a31e085154183bd4451cd0.png>
+![](img/zhuanqian_4562c24306a31e085154183bd4451cd0.png)
 如果你拿不准文章里哪里会踩线，我有两个建议：一是文章要扎进真实场景，给读者有用的东西，别空谈、别硬卖；二是排版要舒服，层次分明，图片清晰，阅读体验要好。
 下面这几种"不被推荐"的常见情况，都是我提前梳理出来的，你可以一条条核对。
 ```
@@ -234,19 +234,19 @@ DS 会回复：
 微信是大家每天都在用的工具，公号的触达效率极高。你每天早上发一篇，关注者打开微信就能看见。内容持续对口，他们就会一直留下，变成你的铁杆读者。
 ##### 好文章不会被时间淘汰
 公号文章和新闻不同，不会过几天就消失。优质的内容会继续被搜索到、被推荐到，也可能通过历史消息被翻出来。比如你写过一篇《如何学好英语》，一年后还有人在搜。真正的爆款，半年后、几年后依然能带来流量。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_57f47ff20d8694fc32bc56f3c668a16c.png>
+![](img/zhuanqian_57f47ff20d8694fc32bc56f3c668a16c.png)
 ##### 变现渠道比想象中更多
 粉丝量上来之后，可以开通流量主，文章底部自动带广告，按点击量产生收益；可以设置付费阅读，让读者为高价值内容买单；可以插入商品链接，成交了就有佣金；可以开课、建社群，教别人写作或理财；账号影响力够了，品牌方也会主动找来谈合作。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_713210e40a916f3a00438024ff199a5d.png>
+![](img/zhuanqian_713210e40a916f3a00438024ff199a5d.png)
 ##### 小号也有机会冒头
 注册一个公号非常简单，但运营好它并不容易。就像开一家店，门面要好看、货品要靠谱，客人才愿意进来。大号确实有先天优势，但小号只要内容靠谱，也能一点点做起来。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_98ea861f6e476b7857f666f44274b611.png>
+![](img/zhuanqian_98ea861f6e476b7857f666f44274b611.png)
 ##### 让数据当你的导航
 公号后台能看见阅读量、点赞量、留言数，还有读者年龄、性别、地区分布。这些数据会告诉你，读者到底喜欢什么。比如后台数据显示职场类内容更受欢迎，那就多安排这类选题。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c6c4f283b96ec259fab6cfab848a5fe5.png>
+![](img/zhuanqian_c6c4f283b96ec259fab6cfab848a5fe5.png)
 ##### 规则红线碰不得
 平台对内容的审核非常严格。虚假信息、敏感话题、过度营销，都在禁止之列。如果你的标题骗人点进来，正文却对不上，轻则警告，重则封号。守好规矩，才能长久。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8ebd5ef9fbdaaeca7b8188561f340077.png>
+![](img/zhuanqian_8ebd5ef9fbdaaeca7b8188561f340077.png)
 #### 读者转发背后的秘密
 人为什么要转发一篇文章？底层动机无非两种：情绪驱动和社交货币。文章让人感动、愤怒、好奇、自豪，读者就会想表达、想分享；文章能在社交中帮读者加分、传话、制造话题，ta 也会主动转发。
 ##### 先调动情绪
@@ -311,7 +311,7 @@ DS 会回复：
 请帮我设计10个适用于公众号文章结尾的互动引导钩子。
 ```
 等 AI 给完回复，人工再做一轮判断：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c6ab25e48e073ad2f46636266e6f36ad.png>
+![](img/zhuanqian_c6ab25e48e073ad2f46636266e6f36ad.png)
 ##### 组合运用更聪明
 实际操作中，不需要每个条件都满足，而是看文章主题和素材特征，选最合适的。上面的所有 AI 指令，既可以用来拆解对标文章，也可以用来给自己的文章做体检。
 再分享一套写原创文章的完整流程：
@@ -467,41 +467,41 @@ DS 会回复：
 我的内容方向是'内容方向'，用于在微信“搜一搜”中进行搜索，请帮我生成10个公众号搜索的细分关键词。
 ```
 将模型的建议收集起来：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5acf3bc188c54d2832e9ebe73a54ba0a.png>
+![](img/zhuanqian_5acf3bc188c54d2832e9ebe73a54ba0a.png)
 随后回到微信搜一搜，按阅读数排序查看具体文章：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5852f2d6981cb403cf49a842f160714e.png>
+![](img/zhuanqian_5852f2d6981cb403cf49a842f160714e.png)
 温馨提示：这套流程同样可以用来验证某个号或某篇文章是否值得跟进。
 如何把一个号拆到细节
 先看情绪反应。一篇文章读完后，读者是认同、争辩还是追问？这些反应最真实。
 输入：分析这篇文章带给读者的情绪走向：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3723bc30a63dcd9849c9e7edcaaa524c.png>
+![](img/zhuanqian_3723bc30a63dcd9849c9e7edcaaa524c.png)
 再放大到账号整体，从两处入手：
 1. 浏览留言区，捕捉读者最关心的话题和最抵触的点。
 2. 查看账号简介与菜单栏，判断运营者想服务的人群画像。
 举例：想做职场类内容，可搜“求职”“技能进阶”，研究它们的选题方向和反馈。
 输入：判断这个号最想吸引的人群是谁：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b087277c184fb39d8954d78add92de1a.png>
+![](img/zhuanqian_b087277c184fb39d8954d78add92de1a.png)
 👉 把收集的资料交给DeepSeek做整合（通用模式+联网）：
 ```
 方案一：这是'评论区评论'，请分析这些用户的兴趣点和痛点。
 方案二：这是'文章内容'，请分析这篇文章对应用户的兴趣点和痛点。
 ```
 从账号自我介绍能直接读出刘润团队的定位，内容方向自然围绕该人群展开。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4c257e3123a9d73f66d1c578f281e3ef.png>
+![](img/zhuanqian_4c257e3123a9d73f66d1c578f281e3ef.png)
 热门内容是怎么长出来的
 1. 用数据工具定位近期爆款。常用工具有新榜、次幂。
 新榜工具链接：https://www.newrank.cn/
 次幂工具链接：https://www.cimidata.com/articles/hot/10w
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c5dd9bdcae8a23ef5490f6dca9235704.png>
+![](img/zhuanqian_c5dd9bdcae8a23ef5490f6dca9235704.png)
 2. 拆解三处：标题的句式、开头的钩子、正文的布点。
 3. 反问自己：这篇解决了什么困扰？结尾是提问还是邀请讨论，这些细节决定互动量。
 如果发现“如何把一天过成48小时”这类主题点击很高，说明目标人群对时间焦虑很强。
 用指数工具看热度
 打开微信指数，输入与方向相关的关键词，观察热度曲线。需要更细时，可结合热门号的粉丝画像阅读：年龄段、性别比例、城市分布，都藏着受众位置。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4b04462551ce700fa6bd1810bdd83404.png>
+![](img/zhuanqian_4b04462551ce700fa6bd1810bdd83404.png)
 去外部社区“偷听”
 在知乎、豆瓣、微博搜索方向相关话题，翻高赞回答。重点留意：反复被提起的问题、高频抱怨、获得大量认同的方法。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_635b07479b15e60f1c0d069514829aba.png>
+![](img/zhuanqian_635b07479b15e60f1c0d069514829aba.png)
 最后把需求汇总
 把上述线索收敛，形成目标读者正在担忧什么、愿意为之付费什么、期待看到什么。再对照自身赛道，找一个尚未被过度开发的切入口。
 👉 请DeepSeek帮你做最终汇总（通用模式+联网）：
@@ -520,7 +520,7 @@ DS 会回复：
 我的公众号文章主题是'职场Pua'，请帮我罗列出'10'个可能受用户欢迎的主题，并进行验证。
 ```
 等待模型返回：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b4a67bf595b8182d1df17ed102212c3b.png>
+![](img/zhuanqian_b4a67bf595b8182d1df17ed102212c3b.png)
 发布试水文要点
 节奏：每周1-2篇，保持稳定；形式：以轻量化图文为主，段落简洁，语言口语化；标题：有吸引力但不夸大。
 观察哪些数据
@@ -537,7 +537,7 @@ DS 会回复：
 每月做一轮新测试，主题或形式轮换；持续记录数据变化，感知兴趣迁移；跟随反馈迭代，别让内容失去弹性。
 评论互动
 文末先抛一个开放提问，鼓励读者开口。如“你有遇到过类似情况吗？”“如果是你会怎么选？”有人留言就及时回，一次真诚回复比一篇稿子更能留人。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4344c82f7ef559d9f88584bdfa51f20e.png>
+![](img/zhuanqian_4344c82f7ef559d9f88584bdfa51f20e.png)
 提醒：留言功能并非新号立刻开放，正常更新一段时间后大概率会出现。
 四步写正文的框架
 被认可的文章通常具备：层次清晰、阅读流畅、愿意参与。
@@ -795,7 +795,7 @@ DS 会回复：
 ## 四、爆款标题：3秒定生死
 标题决定了一篇文章70%的打开率，核心目标只有一个：在3秒内击中读者的“情绪痛点”或“认知缺口”。
 爆款标题的底层要素，不外乎这四件事：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4c1b229213425b4ec4f9a1e30b665387.png>
+![](img/zhuanqian_4c1b229213425b4ec4f9a1e30b665387.png)
 - 情绪驱动：制造好奇、焦虑、共鸣或期待，比如“震惊”“为什么…”这类词自带钩子。
 - 痛点直击：点名特定人群的困境，比如“30岁未婚”“996打工人”。
 - 具体化表达：用数字、场景和细节增加真实感，比如“凌晨3点”“月薪5000”。
@@ -1094,7 +1094,7 @@ B.'《职场哪吒生存指南：反PUA时如何安全造反》'
 ```
 第四个玩法，复刻爆款。给你一篇标杆文章，让它模仿那个风格，生成一批同类型的标题，相当于直接站在巨人的肩膀上摘桃子。
 👉 告诉deepseek（通用模式+联网模式）：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7a7ec06216a1f43ab6831c9c6d0a3499.png>
+![](img/zhuanqian_7a7ec06216a1f43ab6831c9c6d0a3499.png)
 ```
 你是一个拥有10年经验的公众号爆款标题工程师，需基于账号历史数据特征，生成符合其内容基因的爆款标题。
 当前账号ID：'账号名称'，领域：'账号领域'

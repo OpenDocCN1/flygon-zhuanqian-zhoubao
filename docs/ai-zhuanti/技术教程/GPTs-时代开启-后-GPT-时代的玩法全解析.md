@@ -11,16 +11,16 @@
 说真的，这波操作猛不猛？
 猛，真的猛。
 过去半年的玩法几乎一夜之间被清零，完全进入新纪元。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_14da73f8581d3408d75c61251481e244.png>
+![](img/zhuanqian_14da73f8581d3408d75c61251481e244.png)
 GPTs 的门槛已经归零，不需要懂代码，不需要懂模型，只用一句话把需求说清楚，点几下鼠标就能拥有一个专属功能的 ChatGPT。
 现在各路高手已经玩出了花：私人调酒师、NFT 分析师、AI 视频创作者……应有尽有。
 下方这个合集是目前圈内比较全的 GPTs 盘点，需要的自己去逛：
 https://www.gptshunter.com/
 未来我们很可能再一次看到 GPT 商店和第三方平台的混战。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ed87b017cfb0ac1e1010273f3e4898d4.png>
+![](img/zhuanqian_ed87b017cfb0ac1e1010273f3e4898d4.png)
 # 二、如何创建自己的 GPTs
 ## ① 创建页面的核心要素
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_62ea6087318f41063507f0cd2086c4f9.png>
+![](img/zhuanqian_62ea6087318f41063507f0cd2086c4f9.png)
 *   Name 名称：给你的专属智能体起个名字
 *   Description 描述：用一句话概括这个 GPT 用来干嘛
 *   Instructions 指令：告诉它要做什么、怎么说话、要避开什么
@@ -31,18 +31,18 @@ https://www.gptshunter.com/
 ## ② 用自然语言定义需求 + 自动取名换头像
 下面以我做一个小红书文案助手为例来演示。
 只需要输入一句人话描述需求，整个创建流程都是自然语言驱动的。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a3ae9bdcb117c1815bb016f01fb58ae3.png>
+![](img/zhuanqian_a3ae9bdcb117c1815bb016f01fb58ae3.png)
 系统会自动帮你取名、DALL-E 3 直接生成头像，还会附赠几个开场建议，比如：
 写一篇新护肤品的小红书笔记
 给我想几个穿搭类标题
 帮我把这次旅行写成故事体笔记
 帮我起草一篇健身打卡笔记
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d6ac6d0034df6d9c1d4bdd93969a83fb.png>
+![](img/zhuanqian_d6ac6d0034df6d9c1d4bdd93969a83fb.png)
 交互逻辑很清晰：左边是调教后台，右边是实时测试窗口。
 ## ③ 投喂资料 1：文本语料
 到这一步，好教材的重要性就凸显出来了。
 我这里用的是赚钱公众号关于小红书的干货。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e3f3170ab3a6cf367d3fe60611ea36ce.png>
+![](img/zhuanqian_e3f3170ab3a6cf367d3fe60611ea36ce.png)
 比如怎么做出爆款标题？
 ### （1）教材式投喂
 公众号 / 航海手册里的内容就是现成教材。
@@ -74,24 +74,24 @@ https://www.gptshunter.com/
 举例：招生引流 | 我们是如何做到1个月1000人的
 举例：开工作室一个月｜好友从0️⃣到3000➕！！
 举例：饰品创业 新手如何做到3天精准引流上百人
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b6845b156e86628a6e051c5e30eb68cb.png>
+![](img/zhuanqian_b6845b156e86628a6e051c5e30eb68cb.png)
 ### （2）案例式投喂
 我用八爪鱼爬了一个优质标题库的 Excel。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_19a2c6e7916ca455e28a0ceb7baa1df6.png>
+![](img/zhuanqian_19a2c6e7916ca455e28a0ceb7baa1df6.png)
 把大量对标爆款标题直接复制进去让它学习。
 其实不建议直接喂 Excel，原生解析慢又容易乱，直接转成文本投喂效率更高。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2efe0d17411ff569e3f569b9a49a7667.png>
+![](img/zhuanqian_2efe0d17411ff569e3f569b9a49a7667.png)
 ## ④ 投喂资料 2：Knowledge 知识库
 支持上传 PDF、PPT、Excel、Word、图片、EPUB、XMind、HTML 等各种格式作为知识。
 思路可参考刀姐的《ChatGPT 投喂指南》，原理基本一致。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_63c86e5fe14ed476a5aaf93ee13b79fd.png>
+![](img/zhuanqian_63c86e5fe14ed476a5aaf93ee13b79fd.png)
 上传后的资料会一直存在 Knowledge 里，持续影响模型的判断。
 比如我有雅思备考需求，把相关资料全丢进去，就能得到一个专属雅思辅导员。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2cb16683266ed724dfea62a136523a29.png>
+![](img/zhuanqian_2cb16683266ed724dfea62a136523a29.png)
 ## ⑤ 调试与反馈
 注意，左侧调教区的内容不会自动保存！
 我之前中途退出一次，所有设置直接清空，所以一定要及时保存。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_badb0272023477464dc4f837fbe61035.png>
+![](img/zhuanqian_badb0272023477464dc4f837fbe61035.png)
 调试逻辑和用 ChatGPT 一样：左侧改规则，右侧测效果。
 左边是地基，右边是装修。
 遇到问题就回炉改底座。
@@ -100,14 +100,14 @@ https://www.gptshunter.com/
 本质上就是教小孩，哪里不对就指哪里。
 ## ⑥ 发布设置
 调到满意后就可以发布。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_66bfe1d6d596b32bbe987651174ec633.png>
+![](img/zhuanqian_66bfe1d6d596b32bbe987651174ec633.png)
 *   Only me：仅自己可用
 *   Only people with a link：知道链接的人可用
 *   Public：公开上架，需要绑定个人资料和公开域名
 点 Confirm 即可开始使用。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_eab1ab0853ebf9b3869064b53159f943.png>
+![](img/zhuanqian_eab1ab0853ebf9b3869064b53159f943.png)
 ## ⑦ 使用页面的功能
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d2a967484790a807fc71a807adc18a7d.png>
+![](img/zhuanqian_d2a967484790a807fc71a807adc18a7d.png)
 *   New chat：开启新对话
 *   About：查看/编辑 GPT 的介绍信息
 *   Hide from sidebar：从侧边栏隐藏
@@ -118,16 +118,16 @@ https://www.gptshunter.com/
 部署方式：
 https://github.com/JushBJJ/Mr.-Ranedeer-AI-Tutor
 打开 quick start guide，点击 this link
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e11ca1964f10de0687fc3d39e04c1c74.png>
+![](img/zhuanqian_e11ca1964f10de0687fc3d39e04c1c74.png)
 进入页面后选择语言，比如中文。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8ee372ed5163b4fcdd0582e4088f465f.png>
+![](img/zhuanqian_8ee372ed5163b4fcdd0582e4088f465f.png)
 输入我想学 youtube 运营，敲 /plan，立刻生成一份学习计划。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_eaf5a552a23b677b561e5b9aaccb868d.png>
+![](img/zhuanqian_eaf5a552a23b677b561e5b9aaccb868d.png)
 接着开始讲解，逻辑清晰。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_de66f57cdb4854518fc365c692464deb.png>
+![](img/zhuanqian_de66f57cdb4854518fc365c692464deb.png)
 最爱的功能是考试，输入 /test 就会出题互动。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_14b32a30aab9ad6dc851f029bfba524a.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_df638b803eeb972fee9a9ebfaeeabe9c.png>
+![](img/zhuanqian_14b32a30aab9ad6dc851f029bfba524a.png)
+![](img/zhuanqian_df638b803eeb972fee9a9ebfaeeabe9c.png)
 一个有耐心、细节拉满的老师，谁会不喜欢呢？
 只要手上有优质课程素材，喂给它就能变出一个专属学习助手。
 # 四、最后的感悟

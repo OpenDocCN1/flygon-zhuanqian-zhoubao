@@ -20,13 +20,13 @@
 腾讯、字节、百度上线漫剧独立APP，爱奇艺、优酷开设漫剧频道。分账、流量扶持政策不断加码。
 AI让漫剧制作成本大幅下降、周期从数月压缩到数周，成本降幅超60%。Seedance 2.0的爆火再次把漫剧推向风口。
 漫剧的本质是依托网络文学IP，用AI完成剧本、建模、场景、配音等全流程，最终呈现漫画质感加短剧节奏的内容形态。最新测算，2026年国内漫剧市场规模有望破240亿，用户规模超3亿。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3988ad56026fd4b6774cbfd51ea8998f_3_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3988ad56026fd4b6774cbfd51ea8998f_3_1.png>
+![](img/zhuanqian_3988ad56026fd4b6774cbfd51ea8998f_3_0.png)
+![](img/zhuanqian_3988ad56026fd4b6774cbfd51ea8998f_3_1.png)
 上面是宏观视角，下面是我自己项目实操一年的收益截图给大家参考。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3988ad56026fd4b6774cbfd51ea8998f_3_2.png>
+![](img/zhuanqian_3988ad56026fd4b6774cbfd51ea8998f_3_2.png)
 只要内容足够扎实，无论是跟编辑签约拿稿费，还是直接上架平台吃分账，都能实现变现。关键在于怎么用AI做出更有质量的作品，接下来会详细说。
 ### 二、AI辅助构思剧情的五种打法
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3988ad56026fd4b6774cbfd51ea8998f_4_0.png>
+![](img/zhuanqian_3988ad56026fd4b6774cbfd51ea8998f_4_0.png)
 - 1. 导语抽卡法
 用关键词快速替换背景和人设，比如把现代言情换成古代、仙侠、年代文。背景一变，氛围和受众就跟着变。
 - 2. 热点融合法
@@ -54,17 +54,17 @@ AI让漫剧制作成本大幅下降、周期从数月压缩到数周，成本降
 正文紧承：“槿月，婚期将近，这事别开玩笑，清风是你妈妈最中意的人，她临终前最想看到你们好好的......胡说！傅家的那位因为车祸瘫痪在床，你嫁过去干什么？”
 从母亲吐血到遗愿，对话完成情绪拉升。
 反面案例是导语很炸，正文平淡无奇，直接断层。导语说老公如何对我不好，开头却平铺直叙，冲突感瞬间消失。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3988ad56026fd4b6774cbfd51ea8998f_7_0.png>
+![](img/zhuanqian_3988ad56026fd4b6774cbfd51ea8998f_7_0.png)
 #### 4. 付费点公式
 黑岩榜单末尾区域就是付费点区间，向前推约500字。
 常见结构是3个小恶心+1个大恶心+悬念收尾。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3988ad56026fd4b6774cbfd51ea8998f_7_1.png>
+![](img/zhuanqian_3988ad56026fd4b6774cbfd51ea8998f_7_1.png)
 ### 四、0到1变现路径
 短篇小说一般8000到12000字，符合碎片化阅读习惯。要的是快、爽、反转。世界观就用日常生活，越快炸裂越好。
 #### 1. 一句话流程
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3988ad56026fd4b6774cbfd51ea8998f_9_0.png>
+![](img/zhuanqian_3988ad56026fd4b6774cbfd51ea8998f_9_0.png)
 在各大榜单和编辑约稿方向找对标文，用AI或自己想一个相似脑洞，生成大纲后扩写成完整稿，人工精修润色，再通过168投稿平台投递给编辑，拿到预付或买断费用。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3988ad56026fd4b6774cbfd51ea8998f_9_1.png>
+![](img/zhuanqian_3988ad56026fd4b6774cbfd51ea8998f_9_1.png)
 #### 2. 收益模式
 按收益分两种：免费流量分成和编辑付费买断。
 免费流量分成典型代表是番茄小说，作者和平台按广告分成。看量越大赚越多，但爆款概率低，需要用数量去博概率。
@@ -74,9 +74,9 @@ AI让漫剧制作成本大幅下降、周期从数月压缩到数周，成本降
 1. 创建投稿计划，上传Word文件
 2. 填写字数、分类、风格、类型。追妻文可选虐文、追妻/追夫
 3. 邮件主题：类型+《书名》+字数+过往成绩。正文别直接用AI模板，要改成自己的表达方式，否则容易被识别为AI稿。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3988ad56026fd4b6774cbfd51ea8998f_11_0.png>
+![](img/zhuanqian_3988ad56026fd4b6774cbfd51ea8998f_11_0.png)
 4. 在投稿计划里点AI智选保存
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3988ad56026fd4b6774cbfd51ea8998f_11_1.png>
+![](img/zhuanqian_3988ad56026fd4b6774cbfd51ea8998f_11_1.png)
 5. 回到自动投稿页，点开始投稿，系统自动发件
 #### 2. 注意事项
 1. 优先文件投稿，而非链接中转。部分编辑怕钓鱼或电脑旧打不开链接。
@@ -87,7 +87,7 @@ AI让漫剧制作成本大幅下降、周期从数月压缩到数周，成本降
 6. 被拒稿可去番茄或小红书卖废稿，通常100到200元。被评“缺乏付费感”的稿子质量往往达标，适合转卖。AI生成和K价之间差的就是人工打磨的这部分。
 说到废稿这个赛道，门槛就低得离谱了，基本用 AI 产出就能直接拿去变现。
 想找源头很简单，去小红书搜一下【废稿】关键词就行。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3988ad56026fd4b6774cbfd51ea8998f_13_0.png>
+![](img/zhuanqian_3988ad56026fd4b6774cbfd51ea8998f_13_0.png)
 ### 最后聊两句
 很感恩龙哥盟这个平台，既让我有地方表达，又能让更多人通过写作实现收入。
 如果你也对小说创作感兴趣，欢迎跟我一起把写作变成养活自己的路子。
@@ -105,4 +105,4 @@ AI让漫剧制作成本大幅下降、周期从数月压缩到数周，成本降
 ```
 https://hk57gvIx7u.feishu.cn/docx/H0kRdZbSbolBR0xkaXtcuVE0nTg
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3988ad56026fd4b6774cbfd51ea8998f_15_0.png>
+![](img/zhuanqian_3988ad56026fd4b6774cbfd51ea8998f_15_0.png)

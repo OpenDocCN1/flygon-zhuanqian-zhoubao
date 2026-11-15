@@ -2,15 +2,15 @@
 最近 Suno AI 音乐全网都在刷屏，我周末也去试了试，**输入一句灵感，几秒钟就能吐出完整 2 分钟的成歌，听感真的让人惊讶！**
 节奏感、旋律线、和声走向、音色质感都在线，再搭配上别的 AI 工具做个 MV 封面，完整上线的作品轻轻松松就能出来。
 这就意味着，哪怕你对音乐一窍不通，也能把脑子里的一句话变成属于自己的原创歌曲。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_50c4e763817a0e1835d4898e00317953.png>
+![](img/zhuanqian_50c4e763817a0e1835d4898e00317953.png)
 Suno V3 版本刚上线没多久，闲鱼上已经有商家开始接单定制了，价格区间基本在 9.9 到 19.9 元之间，单量已经起来了。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_eacc05f8046e85e5a9b5d129a0acfa37.png>
+![](img/zhuanqian_eacc05f8046e85e5a9b5d129a0acfa37.png)
 AI 的进化速度肉眼可见，从文字大模型、AIGC 绘画、AI 短视频，到现在轮到 AI 音乐爆发。每个新赛道冒头，需求就会跟着涌现，需求后面就是窗口期。
 那对于我们这些普通人，Suno 这波浪潮到底能怎么玩？
 我梳理了 7 条目前可落地的变现思路：
 ### 1. Suno 账号代注册/代充值服务
 看起来注册不复杂，但实际要考虑网络节点、海外邮箱验证、美元充值渠道等，对新手来说就是一堵墙。帮别人省掉这一步，短期内就能收手工费。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2e89d4ffd495a26a0abea52d0acec1d4.png>
+![](img/zhuanqian_2e89d4ffd495a26a0abea52d0acec1d4.png)
 ### 2. 出售高质量歌词 Prompt 模板包
 Suno 自带的歌词生成是随机的，质量参差不齐。要想做出风格统一、情绪到位、更贴合品牌调性的定制曲，就得靠专业的提示词框架。会写的卖给不会写的，天然有交易价值。
 ### 3. 接单做 AI 定制歌曲
@@ -19,13 +19,13 @@ Suno 自带的歌词生成是随机的，质量参差不齐。要想做出风格
 在直播间里用观众的名字、台词、梗现场生成专属歌曲，打赏、点赞、关注就能解锁。互动感拉满，还能顺带卖 Suni 教程、Prompt 合集这类知识产品。
 ### 5. 在海外音乐平台发行原创曲库
 用 Suno 批量生产原创风格的音乐，整理后上传到 Spotify、Apple Music、YouTube Music 等平台。播放量变现虽然慢热，但积少成多，适合做长线版权资产。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6a1cc92ad764905fb81d92d3719378a1.png>
+![](img/zhuanqian_6a1cc92ad764905fb81d92d3719378a1.png)
 ### 6. 做 AI 疗愈/LoFi 音乐自媒体吸粉
 现代人压力大，睡前、白天办公、学习都需要背景音。LoFi、疗愈系纯音乐 + 唯美插画的视频，在 YouTube、抖音、小红书上需求一直很大。
 我看到过一个海外账号，粉丝 1400 万，发布 146 条视频，单条播放最高破亿，平时还会开直播，月收入非常可观。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7bf926369f8dd5c3f218e6208d946f38.png>
+![](img/zhuanqian_7bf926369f8dd5c3f218e6208d946f38.png)
 国内的抖音、小红书上同类账号也已经接到商业合作了，收益稳定。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c8ff42758164bf181c57ce319c07ad03.png>
+![](img/zhuanqian_c8ff42758164bf181c57ce319c07ad03.png)
 做好这个方向的核心是持续输出高质量内容，需要掌握 Suno 做音乐、Midjourney 等做治愈系画面、以及剪映做视频合成三板斧。
 **标准 workflow：**
 1. 用 Suno 生成 LoFi / 氛围背景音乐
@@ -45,5 +45,5 @@ AI 是大趋势，更是红利期，**只要你能卡位信息差并且快速执
 YouTube 做轻音乐那个，赚钱上有很多保姆级教程的帖子的。关键词:治愈 音乐  ai
 最后课程那个就 sop 化呗，主要考验获客能力
 富贵碧莲捏 : 谢谢您的答复 可能我才加入赚钱没几天太小白啦对这个领域一无所知 但又特别想知道[捂脸] 所以才出现这种情况   请哥姐们多包涵 下次一定注意言语表达[抱拳][抱拳][抱拳]
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_21de372a77ea1f441c613f7316831ae1.png>
+![](img/zhuanqian_21de372a77ea1f441c613f7316831ae1.png)
 * * *

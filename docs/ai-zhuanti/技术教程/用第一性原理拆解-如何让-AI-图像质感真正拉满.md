@@ -52,25 +52,25 @@ Unsplash、Pexels 提供免费高清图；Getty Images 是专业图像库；ArtS
 根据出图结果微调词组，反复打磨。
 以 Midjourney 为例，不同写法效果差异很大：
 1. 山川 VS 由摄影师马克·阿达姆斯拍摄的山川
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ee5399127980053088330e05bf444887.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_920ab46b318797146631a809c9966108.png>
+![](img/zhuanqian_ee5399127980053088330e05bf444887.png)![](img/zhuanqian_920ab46b318797146631a809c9966108.png)
 Mountains and rivers --v 5.2                 mountains and rivers photographed by photographer Mark Adames --v 5.2
 1. 虾 VS 由齐白石画的虾
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_517967ea1b9bd5c4eaaaca182d18bf1b.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_92654c4e4470e3d5b805c625dab39d01.png>
+![](img/zhuanqian_517967ea1b9bd5c4eaaaca182d18bf1b.png)![](img/zhuanqian_92654c4e4470e3d5b805c625dab39d01.png)
 Shrimp --v 5.2                                           Shrimp painted by Qi Baishi --v 5.2
 1. 两个人在亲吻 VS 来自电影泰坦尼克号两个人在亲吻
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c59f629aeeb42cf63c9c396ccf469dd2.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_995cd4f6b055f8d96cc1d03c425dcc46.png>
+![](img/zhuanqian_c59f629aeeb42cf63c9c396ccf469dd2.png)![](img/zhuanqian_995cd4f6b055f8d96cc1d03c425dcc46.png)
 kissing --v 5.2            kissing from the movie Titanic --v 5.2
 2. 圆形 LOGO 设计 VS 获得红点设计大奖的圆形 LOGO 设计
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5430122fe6a6a1d59e9e26d1b961123c.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f5080d4f7c88538f0428b56c6cd501e9.png>
+![](img/zhuanqian_5430122fe6a6a1d59e9e26d1b961123c.png)![](img/zhuanqian_f5080d4f7c88538f0428b56c6cd501e9.png)
 Circular LOGO design --v 5.2   circular LOGO design that won the Red Dot Design Award --v 5.2
 1. 爆炸的场面 VS 由克里斯托弗·诺兰拍摄的爆炸场面
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_67130cca17d5446bba3cbd7aa48c720c.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0fc9782eac249b4af17adb156bd0c759.png>
+![](img/zhuanqian_67130cca17d5446bba3cbd7aa48c720c.png)![](img/zhuanqian_0fc9782eac249b4af17adb156bd0c759.png)
 Explosions --v 5.2   Explosions shot by Christopher Nolan --v 5.2
 2. 一个美丽的女人 VS 时尚芭莎杂志封面上的美丽女人
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6784e0471e67a05cf7aa1e3020ae6439.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_60410ee7ef05962424c9b3029be148fb.png>
+![](img/zhuanqian_6784e0471e67a05cf7aa1e3020ae6439.png)![](img/zhuanqian_60410ee7ef05962424c9b3029be148fb.png)
 A beautiful woman --v 5.2                  beautiful woman on the cover of Harper’s Bazaar magazine --v 5.2
 1. 父亲和女儿的合照 VS 电影氛围感的父亲和女儿
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8b9750ebb2dfbf600287f544ff06d720.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0bd2ffd5cf1f9a891a5b22ada01f820a.png>
+![](img/zhuanqian_8b9750ebb2dfbf600287f544ff06d720.png)![](img/zhuanqian_0bd2ffd5cf1f9a891a5b22ada01f820a.png)
 Photo of father and daughter --v 5.2   father and daughter with a sense of movie atmosphere --v 5.2
 小结一下：AI 其实不是凭空创造，而是根据你的描述去图库里找最匹配的标签，再融合你的额外要求呈现给你。你说“画个帅哥”，它会去找图库里的帅哥原型，再叠加你指定的白发、T恤等特征。
 因此，调用**知名艺术家、摄影师、设计师**能获得对应风格；调用**获奖作品、设计平台、杂志名**能提升质感；调用**电影、剧集、动漫名**能增强故事感与氛围。Midjourney V5 及之后的 V6 都大量使用了电影逐帧、游戏逐帧和开源图库训练，反向利用这个特点，写上电影名、游戏名、优质图源网站，就是提质的捷径。
@@ -81,38 +81,38 @@ Photo of father and daughter --v 5.2   father and daughter with a sense of movi
 Midjourney 2023 年 7 月加入了 Custom Zoom，俗称扩图。除了单纯放大，还能做实物映射。
 先随便出图，关键词：Vector illustration, black and white line pattern, artistic sense
 矢量插画，黑白线条图案，艺术感
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_015d54f2144cea04a40d7eefac884939.png>
+![](img/zhuanqian_015d54f2144cea04a40d7eefac884939.png)
 点击 Custom Zoom 进入编辑界面。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9faef5b33708b6f995941e0107ad9eac.png>
+![](img/zhuanqian_9faef5b33708b6f995941e0107ad9eac.png)
 跳转到此页面。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d2d60a6b1038c13f61276251eb2e4a79.png>
+![](img/zhuanqian_d2d60a6b1038c13f61276251eb2e4a79.png)
 把描述改成：
 关键词：3D rendering, mug design, creative ideas --ar 3:4 --zoom 2
 3D 渲染、马克杯设计、创意 --ar 3:4 --zoom 2
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9d8d6e75642cb3eab8c015a808655cbf.png>
+![](img/zhuanqian_9d8d6e75642cb3eab8c015a808655cbf.png)
 图案被无缝贴合到马克杯上，和原图保持一致。做商品的朋友立刻能get到价值，直接把平面图变实物效果图。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3b4e5a6c49620a3267c07ff514918d4b.png>
+![](img/zhuanqian_3b4e5a6c49620a3267c07ff514918d4b.png)
 再试一次，改为：
 关键词：3D rendering, colorful picture frame design, creativity, real photography --ar 3:4 --zoom 2
 3D 渲染、彩色相框设计、创意、真实摄影 --ar 3:4 --zoom 2
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6ca7b4130a6fa0bd106bf73cc1f8c826.png>
+![](img/zhuanqian_6ca7b4130a6fa0bd106bf73cc1f8c826.png)
 挂画效果也成立。换成手机壳：
 关键词：3D rendering, Apple mobile phone case, creativity, real photography --ar 1:2 --zoom 2
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4aabb16a0dcda563cfa329804da4d95a.png>
+![](img/zhuanqian_4aabb16a0dcda563cfa329804da4d95a.png)
 从 1:1 原图变成 1:2 手机壳效果图，无需再去修图软件。
 再换一张山水画做 T 恤：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cd05f101b5fa006e4164b79f80debe87.png>
+![](img/zhuanqian_cd05f101b5fa006e4164b79f80debe87.png)
 关键词：3D rendering, white t-shirt design, creative idea, realistic photography, --ar 3:4 --zoom 2
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1081cd76090b6185c383ba77699a354f.png>
+![](img/zhuanqian_1081cd76090b6185c383ba77699a354f.png)
 印花 T 恤搞定。随便做个 LOGO 点 Custom Zoom：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_81f27f9cc04177151f8cc92b70c0a706.png>
+![](img/zhuanqian_81f27f9cc04177151f8cc92b70c0a706.png)
 关键词：3D rendering, notebook design, creativity, real photography, --ar 3:2 --zoom 2
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ab243f5e3e5276e7f5c1047117c52ae2.png>
+![](img/zhuanqian_ab243f5e3e5276e7f5c1047117c52ae2.png)
 笔记本上带 LOGO 成了。
 总结句式：3D 渲染, 真实摄影, XX 设计 + 比例。XX 就是你要映射的实物：T 恤、大理石、笔记本、马克杯等。
 让山水画融入大理石：
 关键词：3D rendering, marble slab design, creative, realistic photography, --ar 1:2 --zoom 2
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e4b37012a25b1ce0e0483b1ca33ffe1d.png>
+![](img/zhuanqian_e4b37012a25b1ce0e0483b1ca33ffe1d.png)
 环境融合自然。
 ## ② V6 后的“识字”能力
 Midjourney V6 起，画面文字识别能力大幅提升，可以处理多字母组合，但准确率仍需多刷几次筛选。
@@ -120,31 +120,31 @@ Midjourney V6 起，画面文字识别能力大幅提升，可以处理多字母
 比如，想在一块黑板正中央用粉笔写下英文单词“DECEIT”，可以这样写：
 Use chalk to write the word "DECEIT" in the center of a blackboard --v 6.0
 中文版：用粉笔在黑板正中央写下英文单词“DECEIT” --v 6.0
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_80abc138a72f8e379ee64e9d6eb846e0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_569b1d64ff0effc4bc90cc29f9df73d5.png>
+![](img/zhuanqian_80abc138a72f8e379ee64e9d6eb846e0.png)
+![](img/zhuanqian_569b1d64ff0effc4bc90cc29f9df73d5.png)
 再比如街头糖果店的招牌上出现“KFC”，用高清街拍风格更真实：
 A street candy shop sign with the English word "KFC" on it, HD street photography --v 6.0
 中文版：高清街头摄影，街头糖果店招牌上写着英文单词“KFC” --v 6.0
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0634477b4fec94b351abf769c27c417e.png>
+![](img/zhuanqian_0634477b4fec94b351abf769c27c417e.png)
 想让文字融入氛围，还可以尝试描述周边环境。例如海边摩天大楼上的“KFC”霓虹灯，加上夜晚、雾气、港风摄影的设定：
 Seaside skyscrapers at night, glowing neon "KFC" signage, foggy atmosphere, Hong Kong photography --v 6.0
 中文版：夜晚的海边摩天大楼，“KFC”霓虹灯闪烁，雾气弥漫，香港摄影风格 --v 6.0
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b9b6dc3bfd7df6366a8e6e0c36efefcc.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f2755e7546ec1a76eeb58a02eb5c8339.png>
+![](img/zhuanqian_b9b6dc3bfd7df6366a8e6e0c36efefcc.png)
+![](img/zhuanqian_f2755e7546ec1a76eeb58a02eb5c8339.png)
 如果你不想让文字像贴纸一样“浮”在画面上，就别只依赖“written”。多加点工艺/质感描述词，效果马上不一样。例如：书写（written）、手写（handwritten）、印刷/打印（printed）、倒影（reflected）、涂鸦（scrawled）、激光（lasered）、刺绣（embroidered）、蚀刻（etched）、展示（displayed）、3D 打印（3D printed）、烤瓷（decalcomania）、贴画（sticked）、钢印（steel stamped）、水印（watermarked）……挑一个合适的填进提示词里，画面立刻有了“工艺感”。
 此外，给文字找个“宿主”也很重要。便利贴（sticky notes）、气泡（bubbles）、气球（balloon）、名片（business card）、标签（tags）、贺卡（greeting card）、海报（poster）、电脑屏幕（computer screen）……这些载体能让文字更自然地“生长”在场景中。
 用上 `--style raw` 后，连激光雕刻这种硬核质感也能稳稳呈现：
 Letters "SCYS" laser-engraved --v 6.0 --style raw
 中文版：激光雕刻的字母“SCYS”（龙哥盟） --v 6.0 --style raw
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4d4a42a9532946621aabafd1abc9eb53.png>
+![](img/zhuanqian_4d4a42a9532946621aabafd1abc9eb53.png)
 换成名片场景，黑金极简风同样出彩：
 A simple black-and-gold business card with "SCYS" printed on it --v 6.0 --style raw
 中文版：黑金简洁名片，印着“SCYS” --v 6.0 --style raw
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_27b0435ca9a16f2d8652028cfc667502.png>
+![](img/zhuanqian_27b0435ca9a16f2d8652028cfc667502.png)
 这次的分享就到这里，希望对你的 AI 绘画之路有帮助。也在这里感谢每一位帮助过我的伙伴，谢谢！
 附上几篇相关阅读：
 · 非设计专业的如何快速找到设计的思路，用 midjourney 做出商品：
 · 让 AI 绘画，从随机出图到随心定制：
 · 新人小白 30 天利用 AI 作画技巧，让我的作品快速变现的经验分享：
 评论区也很热闹：诗农 Hope 直接来了句“手动 666”；饼公子回了几个坏笑表情；旭哥一边道谢一边感慨“太棒了”，还说自己正在学 MJ 和 SD，受益匪浅；饼公子笑着回应“能帮到你就好”；悟空悟空空则简单夸了句“优秀”。最后，饼公子再次道谢收尾。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_21de372a77ea1f441c613f7316831ae1.png>
+![](img/zhuanqian_21de372a77ea1f441c613f7316831ae1.png)

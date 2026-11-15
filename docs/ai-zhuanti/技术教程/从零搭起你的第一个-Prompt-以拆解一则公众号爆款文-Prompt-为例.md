@@ -22,6 +22,6 @@
 >
 > 暂无评论
 >
-> <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1c37d505930596d12a88ab23e11aa07a.png>
+> ![](img/zhuanqian_1c37d505930596d12a88ab23e11aa07a.png)
 >
 > * * *

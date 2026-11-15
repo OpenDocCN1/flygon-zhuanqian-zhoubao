@@ -1,7 +1,7 @@
 # 别再乱做工具了！做 niche 海外软件，这 6 步才是正解
 上周刚从北京的一个 hackathon 回来，两天时间从零脑暴 Idea 到做出 Demo 再上台路演，节奏紧到窒息但也特别过瘾。回头复盘后我越来越觉得，几乎每个程序员都该去冲一次 hackathon，逼自己把想法落地。
 在这次经历里，我也重新梳理了做小而美的海外软件工具的思路。借用壹树树哥在线下分享的那张图，结论先放前面，我认为一套可行的路径可以浓缩为 6 个环环相扣的动作：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9556cd64dfa4c93624066529adcd8fda.png>
+![](img/zhuanqian_9556cd64dfa4c93624066529adcd8fda.png)
 1.  挖出用户真实的痛点
 2.  扒到问题的根因
 3.  用软件怎么解？MVP 怎么搭？
@@ -22,7 +22,7 @@ hackathon 只有 48 小时，我选择先攻最致命的一环——标题。目
 ● 先用 AI 提取内容的主题，再结合 SEO 数据平台抓取高流量的相关标题关键词
 ● 再用 AI 重写一版兼顾传播力和点击率的标题
 后续可以扩展的方向有：AI 生成营销描述和标签、AI 生成高点击封面图、做成浏览器插件提升使用体验。下面的截图就是我们两天做出来的 Demo 效果：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ccde9d9f16beca8c40d60bd7ea49b6c8.png>
+![](img/zhuanqian_ccde9d9f16beca8c40d60bd7ea49b6c8.png)
 ## 第四步：把用户画像画清楚，否则做营销就是瞎投
 这次 hackathon 时间紧，Demo 一结束就散了，这一步没来得及实操，但我认为这是成败的分水岭。
 只有画像清晰了，后续的获客、传播、冷启动才有方向。核心就一句话：用户在哪，我的产品就在哪。
@@ -32,14 +32,14 @@ hackathon 只有 48 小时，我选择先攻最致命的一环——标题。目
 3.  互联网行为：常逛的网站、常用的社交媒体、日常依赖的其他工具
 ## 第五步：找渠道，先抄作业再选赛道
 有了画像，再去找竞品。竞品分析不是为了模仿，是为了反推用户在哪被触达。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_aa927d63477095547a61143d1cacc846.png>
+![](img/zhuanqian_aa927d63477095547a61143d1cacc846.png)
 ### 1. 先锁定同类竞品
 竞品就是功能、价格、定位都跟你重合度最高的对手。找法很直接：用核心关键词搜索，或者用 ahrefs、SimilarWeb 这类工具扒一遍相似站点，把头部几家列出来。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ff1a8b8002c5e56841423daba7ec5f77.png>
+![](img/zhuanqian_ff1a8b8002c5e56841423daba7ec5f77.png)
 ### 2. 拆解竞品的流量来源
 统计每个头部竞品的流量渠道占比并排序。SimilarWeb 就能直接看到各渠道分布，如下图。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_05ab466aa63526e32af3d39f66a78253.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6992958c081ba77e4e0ac277a9bb25c8.png>
+![](img/zhuanqian_05ab466aa63526e32af3d39f66a78253.png)
+![](img/zhuanqian_6992958c081ba77e4e0ac277a9bb25c8.png)
 ### 3. 结合自身能力选渠道
 冷启动期，别贪多。看 Top 渠道和自己团队的能力匹配度，选 1-2 个最容易啃下来的入口。等产品和团队稳定了，再逐步吃下头部几个高价值渠道。
 营销的底层逻辑始终没变：

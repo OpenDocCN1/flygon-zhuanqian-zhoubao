@@ -19,22 +19,22 @@ HitPaw Watermark Remover图片视频智能去除水印软件
 链接：https://pan.baidu.com/s/1AJrJIX4DLudvbneAhMQPIA?pw...
 提取码：62j4
 我挑的关键帧长这样：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_773497da95f27844390f54f8fe030bb9.png>
+![](img/zhuanqian_773497da95f27844390f54f8fe030bb9.png)
 姿势尽量多样化很重要。要是全按 75 岁那种僵硬姿态来截，后面 AI 就会一直出硬邦邦的动作。多样化的截帧能反推出更丰富的画面提示词，解决舞姿随机性的问题。
 # 三、用 AI 养图，保持人物一致
 单主体图用 MJ 还能反推，主体一多就容易崩。实际测试下来，GPT-4o 的反推能力甩 MJ 好几条街，反推出来的词喂给 MJ，成品质量稳不少。
 操作很简单，把截图丢给 GPT，让它出 Midjourney 提示词，英文在前中文在后，越简洁越好辨识。
 请为这张图片生成midjourney提示词，需要英文和中文版本，先英文，再中文。尽可能简洁，使得midjourney容易识别并输出符合要求的图像。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d6bcee926441754ad03333fd7ff4082f.png>
+![](img/zhuanqian_d6bcee926441754ad03333fd7ff4082f.png)
 我习惯用 Excel 把分镜和提示词配对管理，方便横向对比。提示词直接用 AI 的结果容易乱，建议把衣服颜色、发色等细节手动微调，不要照抄。
 不同年龄的反推结果，人物的核心特征未必完全一致。所以第二个难点——不同岁数穿同一套衣服、保持同一人——靠的就是把人物需要保留的属性写死在所有提示词里。
 比如我的样例提示词里固定元素是粉红色背心 pink tank top、绿色紧身裤 green leggings、白色踢踏鞋 white tap shoes、卷发 curly hair，年轻期是棕色、中年花白、老年全白。
 如果角色体型身高等差异不大，其实 Gary 教练的即梦局部重绘方案更快，但我试过，这类动态场景下的工作量爆炸，而且即梦的人脸库感觉就那么几张，这也是为什么市面上那么多日系美女变身脸都撞脸的原因。综合下来，统一优化提示词更省心。
 提示词优化的缺点是背景会飘。要死磕背景统一，可以先用即梦抠出一个最满意的背景，再把所有角色抠进去合成。不过舞蹈镜头人物占主导，背景小变我基本无感，观感还能接受。
 另外一定要加 dynamic motion，这词是 MJ 出随机舞姿的开关。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ad45614bbd6f8a66d8c5b065beca66b9.png>
+![](img/zhuanqian_ad45614bbd6f8a66d8c5b065beca66b9.png)
 同一个年龄段的连续镜头，为了避免动作重复，首张满意后我会用 V 功能再刷两三次，截取不同姿态的图。比如第一个萌娃单人舞，两到三张不同姿态就足够视频够用。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_147a27099a830998ec239380279b1dcd.png>
+![](img/zhuanqian_147a27099a830998ec239380279b1dcd.png)
 # 四、把静态图变成动态视频
 这一环方案很多。国产的可灵、即梦在我这个提示词风格下，经常跳两三秒脸就糊了再恢复，看着很不舒服。实测最稳的是 Runway。
 Runway 账号淘宝上有 1-3 人共享的，一个月百来块，一次能挂两个任务，效率可接受。
@@ -50,7 +50,7 @@ a girl dancing and growing, dynamic motion, camera rotate to the left
 剪辑直接用剪映搞定。
 步骤是：把对标视频的音频分离出来、把评委片段切出来、把舞台舞蹈片段替换成我们生成的、导出。
 评委片段的切分，我片段短就手动切，保证评委画面不会混进舞台画面。要是能接受偶尔闪一下舞台画面，也可以直接用智能镜头分割，右键时间轴就有，限免状态下 30 秒内搞定。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1adb0f5671f36c47340710e7b64055ea.png>
+![](img/zhuanqian_1adb0f5671f36c47340710e7b64055ea.png)
 按对标视频的段落顺序，把我们生成的舞蹈片段替换进去，微调一下节奏和速度就好。
 导出参数我选 4K、勾选补分辨率、60fps、勾选 AI 补帧，等补分辨率跑完再导出。成片除了最后一截变身略慢，整体观感还能看，供参考：
 以上就是整套复刻思路，有兴趣的可以直接上手实操。祝已经开通 YPP 的朋友持续爆款，还没开通的朋友早日过审！

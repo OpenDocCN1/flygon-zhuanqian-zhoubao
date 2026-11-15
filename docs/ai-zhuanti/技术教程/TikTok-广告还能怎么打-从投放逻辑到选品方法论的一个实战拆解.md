@@ -29,18 +29,18 @@ pipiads 是 TikTok 广告数据分析与选品平台，其数据全部来自真�
 **筛选维度：**
 7 天 + Shopify / Shoplazza / Shopline
 适合偏内容敏感的人群，从内容角度拆解视频为何能爆：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c2b216b74aacf0bf926efb04193daabc.png>
+![](img/zhuanqian_c2b216b74aacf0bf926efb04193daabc.png)
 **（2）广告产品**
 **筛选维度：**
 7 天内 + 广告展现量 / 广告数量 / 广告投放天数
 适合偏产品敏感的人群，及时捕捉新品线索
 结合展现量、数量、天数等维度，判断产品趋势与可行性
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fbc0f10781c700dffd8c68b08920f1f9.png>
+![](img/zhuanqian_fbc0f10781c700dffd8c68b08920f1f9.png)
 **（3）广告主**
 **筛选维度：**
 7 天 + Shopify / Shoplazza / Shopline
 适合观察特定广告主，了解他们近期在开发哪些新品，内容在如何迭代
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_244d59d21ab2598e35c5a02c68360178.png>
+![](img/zhuanqian_244d59d21ab2598e35c5a02c68360178.png)
 # 三、选品背景
 过去我们多靠蹭热点、冲风口。
 没有风口时该怎么起飞？付费测品如何更精准？如果测了一堆品出单率低、无法持续出单，有什么突破方法？
@@ -53,7 +53,7 @@ pipiads 是 TikTok 广告数据分析与选品平台，其数据全部来自真�
 1.  可做长线运营，兼顾内容生产力与真实用户需求的垂类品
 # 四、当前落地的选品逻辑
 **（1）选品思路**
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9157a25034c32a86581f1ce83c1eb5a1.png>
+![](img/zhuanqian_9157a25034c32a86581f1ce83c1eb5a1.png)
 **（2）投放方式**
 **1、投放逻辑**
 多测试，用概率换确定性，再放大
@@ -90,19 +90,19 @@ pipiads 是 TikTok 广告数据分析与选品平台，其数据全部来自真�
 1、**利润是第一性原理**
 **选品层面**
 投放广告建议优先选客单价较高的品。有些类目投放的单次转化成本要十几二十美金，低客单产品基本玩不转，除非靠自然流。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4968afa614eb15ed490b894a078ecdfe.png>
+![](img/zhuanqian_4968afa614eb15ed490b894a078ecdfe.png)
 pipiads 上投放猛的品基本都有利润空间。
 选高客单价的品，生命周期更长，成功率更高，因为利润能覆盖广告费和各项成本。
 2、**顺应平台调性，卖冲动消费**
 TikTok 是娱乐型短视频，用户带着娱乐心态刷。建议主攻新奇特品类，普通品要和线下超市、各大电商平台硬扛，竞争极卷。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6ded9afe4f3149ff5fdadf0949d06bb2.png>
+![](img/zhuanqian_6ded9afe4f3149ff5fdadf0949d06bb2.png)
 尽量选择受众面广的品去测试，当前平台商业化标签还在积累期，受众越广越容易出结果。爆款元素是组合拳：情绪价值 + 功能性 + 热点 + 节日礼品 + 情怀。
 举例：普通白 T 衫已经烂大街，如果加上鸡汤文案“看世界，做自己”，配上情绪图、赋予意义，再结合情人节礼物场景，“亲爱的，我会一直在你身边”，瞬间有了完全不同的感觉。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_04283c8077e2a59bfab202bc03b85f68.png>
+![](img/zhuanqian_04283c8077e2a59bfab202bc03b85f68.png)
 单一元素不稳定，多元素叠加才更容易出爆款。
 3、**避开容易比价的红海品**
 随着比价习惯普及，独立站还有信任问题。我曾投 Spark Ads 开评论，就有人在评论区骂，原因往往是前人发过假货或不发货，锅被背过来。甚至会出现“某某平台更便宜”的甩链接行为。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_104b4b072b6a772a11a46ea09c199c1f.png>
+![](img/zhuanqian_104b4b072b6a772a11a46ea09c199c1f.png)
 尽量挖掘电商平台上不好搜到的品，或选用质量过硬、结合优质服务的品来建立信任。
 即便能搜到，也可以靠标题重塑和包装差异化制造信息壁垒。比如绿色笔记本改名“柠檬南瓜 纯爱之光”，艺术感拉满，用户搜都搜不到，参考国内小说推文逻辑。
 4、**情绪选品是核心**
@@ -120,7 +120,7 @@ TikTok 是娱乐型短视频，用户带着娱乐心态刷。建议主攻新奇�
 **案例示范：**
 想做包，箱包是大类目，先不确定具体品类。通过发散思维为产品叠加元素来挖掘细分市场。
 **先以 pipiads 为锚点找到热度不错的产品**
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_932e395ad510f5beb1d381a7eadad802.png>
+![](img/zhuanqian_932e395ad510f5beb1d381a7eadad802.png)
 **拆解爆点：**
 **节日：**母亲节、父亲节、情人节、圣诞节
 **对象：**男士、女士、父亲、兄弟、上班族、朋友、闺蜜
@@ -137,63 +137,63 @@ TikTok 是娱乐型短视频，用户带着娱乐心态刷。建议主攻新奇�
 **提炼思路，总结爆单规律，自己开品：**经过大量案例沉淀，总结爆单元素，自己打造爆款。
 核心是：大市场厮杀激烈，细分市场很多人做得不够细。我们可以从供应链、营销等角度研究，先做到比对手更好。
 接下来用“收纳小药盒”这个案例，看一款爆品如何多平台反复爆：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_efeb4d077ee0dea324e5542b8dbd92ce.png>
+![](img/zhuanqian_efeb4d077ee0dea324e5542b8dbd92ce.png)
 起初通过 pipiads 发现该产品在 TikTok 有轻度投放
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_22cc042bf3be1916de6faa765cb53bd9.png>
+![](img/zhuanqian_22cc042bf3be1916de6faa765cb53bd9.png)
 我觉得有意思，便开始调研
 **查看 TikTok 自然流关键词标签**
 标签：**#pillorganizer**
 播放量达 **7800 万**，结合产品属性，初步判断市场有需求
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c7381a43501fa4533aba1dbc6a2a713f.png>
+![](img/zhuanqian_c7381a43501fa4533aba1dbc6a2a713f.png)
 为何会爆？我去亚马逊等平台寻找线索
 观察到这类小药盒在亚马逊销量非常好
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5992a76624f7b1a73d38f9e9c4d75524.png>
+![](img/zhuanqian_5992a76624f7b1a73d38f9e9c4d75524.png)
 找到同款药盒
 **11438 条评论，评分 4.7 分**
 **2019 年就已在售**
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ea73dd25d9f5e605c646e5bbdd84f975.png>
+![](img/zhuanqian_ea73dd25d9f5e605c646e5bbdd84f975.png)
 到这步产生疑问：亚马逊上的药盒**没有贴纸**，社媒为何会爆？是否因贴纸？
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_15b7d083158943481529b2f2e3adc469.png>
+![](img/zhuanqian_15b7d083158943481529b2f2e3adc469.png)
 去 1688 搜索，发现货源**不带贴纸**
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_da44c746d6f4801b8bfa2311e0d34cb4.png>
+![](img/zhuanqian_da44c746d6f4801b8bfa2311e0d34cb4.png)
 继续深挖 Etsy 平台，Etsy 主要售卖手工艺品，与各平台契合度高[etsyshop.ai](http://etsyshop.ai)。搜索关键词 **pill organizer**
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e85ee973c26ac300f8d84f3e56bc89c9.png>
+![](img/zhuanqian_e85ee973c26ac300f8d84f3e56bc89c9.png)
 （选品数据来源：[`www.etsyshop.ai/`](https://www.etsyshop.ai) ）
 结果显示，有商家在售卖药盒贴纸的电子版，客户买一份 PDF 自己打印即可，信息差出现了，商机也出现了。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a28182ce422965953b582c121bd1296f.png>
+![](img/zhuanqian_a28182ce422965953b582c121bd1296f.png)
 **换句话说，独立站玩家花 4.89 元买一套 PDF 打印出来，贴在 2 人民币拿到的药盒上，就在社媒卖爆了！**
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6a917ca5df8362a690e1a2de10789247.png>
+![](img/zhuanqian_6a917ca5df8362a690e1a2de10789247.png)
 Etsy 的很多品都契合 TikTok、FB 等平台。我观察到不少大爆品都是直接复制 Etsy 的思路。爆起来当然不轻松，需要测试和优化，遵循二八定律。
 我继续去 TikTok 评论区调研需求：
 [`www.tiktok.com/@pocket_pharmacy/video/7207195991169109290`](https://www.tiktok.com/@pocket_pharmacy/video/7207195991169109290)
 用户反应非常积极，且普遍觉得不好找货源
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3b4709fd8cf961e5f921941eb18a70ec.png>
+![](img/zhuanqian_3b4709fd8cf961e5f921941eb18a70ec.png)
 **需求被挖掘出来：**
 **实用：**旅游 + 便携 + 收纳 + 标签
 **情绪：**标签有趣、可爱、好看
 **意义：**可 DIY 专属药盒
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_320efcba4d4bbc2f2e344ac896d6bb73.png>
+![](img/zhuanqian_320efcba4d4bbc2f2e344ac896d6bb73.png)
 再通过 pipiads 查看 TikTok 小店的售卖情况
 **6 月上架，到 8 月底已出 1400 单**
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cab35533badf72f9a31335bc52db86f3.png>
+![](img/zhuanqian_cab35533badf72f9a31335bc52db86f3.png)
 调研后延伸出的机会：
 ① 产品本身有市场，可复制，挖掘更便宜的药盒并设计新款卡通贴纸售卖
 ② 直接卖贴纸 PDF，无需发货，客户下载打印，可迭代更新
 思路是相通的，其他品是否也能这样构思？答案是可以，这就是方法。
 **时间线梳理：**
 **最早亚马逊 19 年开始售卖，无贴纸，仅盒子**
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c35456bc2b6b7717bcb27e1bb9802718.png>
+![](img/zhuanqian_c35456bc2b6b7717bcb27e1bb9802718.png)
 **Etsy 卖家出现售卖 PDF 电子贴纸**
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e5b55fccb16663497423bb13cb6357aa.png>
+![](img/zhuanqian_e5b55fccb16663497423bb13cb6357aa.png)
 **独立站玩家将贴纸与药盒结合，通过社媒投放内容推广**
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1a1914450d7b02c3d972359140f8a6b6.png>
+![](img/zhuanqian_1a1914450d7b02c3d972359140f8a6b6.png)
 **小店等社媒内电商渠道上架**
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e203468818655365a70f32cb02b392d7.png>
+![](img/zhuanqian_e203468818655365a70f32cb02b392d7.png)
 不同渠道、平台的差异化复制，都获得了正向反馈，这就是爆品的多渠道差异化打法。
 感谢大家，这是我在赚钱的第一次分享，后续会根据反馈持续更新，带来更多我亲自调研的可复制选品案例。
 * * *
 评论区：
 龙哥 : 感谢分享，已加精华。
 A 中泽 : 交流
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1c37d505930596d12a88ab23e11aa07a.png>
+![](img/zhuanqian_1c37d505930596d12a88ab23e11aa07a.png)
 * * *

@@ -139,20 +139,20 @@
 资料产品并不是把网上内容简单搬到一起。
 我的处理顺序如下：
 1. **先锁定用户要解决的具体问题**（比如会计做账，我看到最近一年，很多点赞收藏数据都不错，说明有需求）
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6b1fb0c0058e8cfd3f119c8e72bfdfaf_20_0.png>
+![](img/zhuanqian_6b1fb0c0058e8cfd3f119c8e72bfdfaf_20_0.png)
 2. **再到闲鱼、小红书、整理对应资料**（小红书点赞收藏1万+，说明这个帖子需求很高，但是是手写的，没办法打印和下载，我们就可以把他整理下来）
 3. **用自己的经验做筛选和补充**
 4. **用 AI 辅助优化结构、图片、视频、说明文案**（把上面的信息都发给 ai，我用的 codex，让他整理）
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6b1fb0c0058e8cfd3f119c8e72bfdfaf_21_0.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6b1fb0c0058e8cfd3f119c8e72bfdfaf_21_1.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6b1fb0c0058e8cfd3f119c8e72bfdfaf_21_2.png>
+![](img/zhuanqian_6b1fb0c0058e8cfd3f119c8e72bfdfaf_21_0.png)![](img/zhuanqian_6b1fb0c0058e8cfd3f119c8e72bfdfaf_21_1.png)![](img/zhuanqian_6b1fb0c0058e8cfd3f119c8e72bfdfaf_21_2.png)
 5. **最后打包成用户能直接使用的形式**（我用的飞书知识库）
 真正决定产品价值的，不是文件数量，而是用户拿到之后能不能迅速找到答案、按顺序执行。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6b1fb0c0058e8cfd3f119c8e72bfdfaf_22_0.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6b1fb0c0058e8cfd3f119c8e72bfdfaf_22_1.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6b1fb0c0058e8cfd3f119c8e72bfdfaf_22_2.png>
+![](img/zhuanqian_6b1fb0c0058e8cfd3f119c8e72bfdfaf_22_0.png)![](img/zhuanqian_6b1fb0c0058e8cfd3f119c8e72bfdfaf_22_1.png)![](img/zhuanqian_6b1fb0c0058e8cfd3f119c8e72bfdfaf_22_2.png)
 所以我会重新设计使用方式：
 - 没有基础的人先从哪里开始；
 - 正在准备面试的人需要优先查看哪些部分；
 - 已经入职的人可以马上调用哪些范本；
 - 哪些步骤最容易出错，需要提前提醒。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6b1fb0c0058e8cfd3f119c8e72bfdfaf_23_0.png>
+![](img/zhuanqian_6b1fb0c0058e8cfd3f119c8e72bfdfaf_23_0.png)
 我没有把资料简单塞进一个文件夹，而是借助飞书知识库重新搭建目录，把零散内容按照学习和使用顺序排列，并加入自己多年工作中的判断、提示和注意事项。
 同样数量的文件，若只是杂乱堆放，用户拿到后仍然需要二次整理；如果结构足够清楚，用户能快速找到并使用，购买体验自然会更好。
 ## 五、如何完成第一笔交易
@@ -160,7 +160,7 @@
 这组数据对我来说最大的意义，不是金额本身，而是证明了：普通人不必先拥有巨大粉丝量、成熟团队或强个人品牌，也能搭建出有收入的小型项目。
 在定价上，我没有采用9.9元这种极低价格。
 实际测试后，我发现平台用户并非只看最低价。只要产品能够解决一个具体且紧迫的问题，49.9元、59.9元同样有成交机会。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6b1fb0c0058e8cfd3f119c8e72bfdfaf_25_0.png>
+![](img/zhuanqian_6b1fb0c0058e8cfd3f119c8e72bfdfaf_25_0.png)
 我的主要购买者多是刚进入行业的人，他们常见的需求包括：
 - 怎样迈出入行第一步；
 - 面试前应该准备哪些内容；
@@ -175,21 +175,21 @@
 动笔写帖子时，我要求自己别急着亮出商品。先写那些对方憋了一路都说不出口的话。比如：刚靠近一个领域时，怕的从来不是活儿多难干，而是连从哪下手都不知道；快面试了，收藏夹里躺满了各路PDF，却还是分不清哪份真正管用；公司里没人管你，只能自己摸索，好东西找了不少，却没一样用得上。
 这些话一说出来，有人就会想：这人是不是躲在我心里装了摄像头？到这个节骨眼上再交代，这套东西适合什么样的人、能解决哪些麻烦、里面按什么结构编排。最后补一句：假如你正为起步、面试、入职的准备工作费神，我把这些内容归拢成了一份更好读的版本，放在我小红书主页那个小店里了。
 我不喜欢硬塞式的推广。先点破处境，再递上方法，最后预留一个入口，这个顺序完整走下来，成交反而轻松。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6b1fb0c0058e8cfd3f119c8e72bfdfaf_29_0.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6b1fb0c0058e8cfd3f119c8e72bfdfaf_29_1.png>
+![](img/zhuanqian_6b1fb0c0058e8cfd3f119c8e72bfdfaf_29_0.png)![](img/zhuanqian_6b1fb0c0058e8cfd3f119c8e72bfdfaf_29_1.png)
 眼光若只停在平台上的这一次成交，那么流量注定是过路的。我过去做账号时吃过这个亏，这次说什么都不能再犯。所以我在文件内和发货的自动通知里，都留了我的微信号。
 这不是要把人硬往别处拉，而是给他们一个顺理成章的理由：想要一份额外的免费内容，或者想多了解这个职业背后的信息，可以加我细聊。
 这么走过来的好友，没有一个是为了看热闹的，全是买过单、有真实需求的人。跟这群人再打交道，信任的成本确实低。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6b1fb0c0058e8cfd3f119c8e72bfdfaf_30_0.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6b1fb0c0058e8cfd3f119c8e72bfdfaf_30_1.png>
+![](img/zhuanqian_6b1fb0c0058e8cfd3f119c8e72bfdfaf_30_0.png)![](img/zhuanqian_6b1fb0c0058e8cfd3f119c8e72bfdfaf_30_1.png)
 让人帮我写好评这件事，中间我改过一版。最初是先给人发福利，然后客客气气请人家有空去评论两句。那阵子确实有人响应，可我后来又发现，很多人并非存心不帮，是真记不住。嘴上答应得很爽快，转头就没了声。
 由此我得出一条结论：指望别人回头还你人情，远不如让他为了自己的好处先动手。于是我把话术调转了个方向——先请买家把订单标注成已收货，顺手写几句带图的评论，把截图发过来，再找我领取那份额外的文档。
 这个顺序一改，局面立刻不一样了。对方为了拿到想要的文档，自然不吝啬那几条评论；我也不用天天追着人问“评了没”，两边都省心。
 现在这个链接下面已经有1500多条好评了，差评只有一条。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6b1fb0c0058e8cfd3f119c8e72bfdfaf_32_0.png>
+![](img/zhuanqian_6b1fb0c0058e8cfd3f119c8e72bfdfaf_32_0.png)
 这样做的好处一眼就能数出来：客户额外拿到了想要的东西，好感度自然更高；链接下的评论数量涨上去了，后来的人更敢下单；我也不用求爷爷告奶奶，对方为了拿到那点额外的好处，自己就会先去完成那个动作。
 整条链路长这样：下单→加微信→写评论→领文档→链接的转化率被喂得越来越高→又带来更多订单。等到这个循环自己转起来，项目的负担一下子就轻了。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6b1fb0c0058e8cfd3f119c8e72bfdfaf_33_0.png>
+![](img/zhuanqian_6b1fb0c0058e8cfd3f119c8e72bfdfaf_33_0.png)
 当这些加了微信的人陆续感受到我做事的分寸，后面我再拿出新东西，他们接受度比从前高出一大截。目前这个池子里已经攒了近1700人，额外产生的收入也超过了1.5w。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6b1fb0c0058e8cfd3f119c8e72bfdfaf_34_0.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6b1fb0c0058e8cfd3f119c8e72bfdfaf_34_1.png>
+![](img/zhuanqian_6b1fb0c0058e8cfd3f119c8e72bfdfaf_34_0.png)![](img/zhuanqian_6b1fb0c0058e8cfd3f119c8e72bfdfaf_34_1.png)
 这件事让我想明白了一点：电子文档的真正价值从来不在那一份文件里，而在于它能帮你从人群里捞出那些愿意为同类问题掏钱的人。这么一群人跟在我手里，后续想做任何延伸都不愁没有地基。
 以前我总觉得卖文档这个事有点拿不出手，现在却看得很清楚：那分明是一个极低的价格标签，帮你把目标客户聚拢到一个屋子里。这些人，才是后面各种业务的出发点。
 我会继续围绕他们的真实需求，把东西越做越细：给刚起步的人的路线图、给还在犹豫的人的检查单、核心操作的填空模板、常用流程的参考底盘、把AI嵌进日常工作的工具集、小范围行动营，还有一对一解答问题的窗口。
@@ -219,7 +219,7 @@
 最后想说的是，龙哥盟这个圈子，我是真心感激的。加入这里之前，我多半是关着门自己和自己较劲：消息自己搜，判断自己做，焦躁自己咽。等项目真的跑起来，我才越来越清晰地感到，自己做副业的人，缺的常常不是力气，而是一扇能看见更多路的窗户。
 在赚钱，我见过不少同路人，用一件件具体的事情，把日子一寸一寸挪到想要的方向。前几天刷到赚钱广州联合空间扩租的消息，我脑子里突然冒出一个画面：或许某个早上醒来，我也能不必准时坐班，不必等着工资到账，不必等好运来找我，而是有一份自己握着方向盘的事业。
 我很清楚，自己只是刚走完了一小段路，甚至还没走出多远。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6b1fb0c0058e8cfd3f119c8e72bfdfaf_42_0.png>
+![](img/zhuanqian_6b1fb0c0058e8cfd3f119c8e72bfdfaf_42_0.png)
 但正是因为在这里看见了那么多普普通通的人正在迈步，正在验证，正把一件件小事磨成自己的家底，我才愿意相信：那条路离我并没有想象中远。写下这些文字，也是我推着自己往前走一步。
 再次感谢，也谢谢一路读到这里的你。希望下一次碰面时，我能带回来更多进展，再跟你细细说。
 ————分割线————
@@ -228,4 +228,4 @@
 👉 想翻翻完整的资源目录和加入门槛，点这里：
 觉得合适、准备下场开干的，加我的微信（）
 添加时请填写验证信息：实操上车。闲谈勿扰。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6b1fb0c0058e8cfd3f119c8e72bfdfaf_44_0.png>
+![](img/zhuanqian_6b1fb0c0058e8cfd3f119c8e72bfdfaf_44_0.png)

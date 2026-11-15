@@ -6,13 +6,13 @@
 对标频道：https://www.youtube.com/@BabyViralTrend
 为什么选它：全流程靠AI生成，无需真人出镜，复刻难度低；萌娃搭配萌宠的内容在多平台都有稳定热度，容易被推。
 收益预估：通过第三方分析工具估算，该频道的月流水区间大概在 $27k ~ $432.1k 之间。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bd6c81e74d55386986abdd5551eca232.png>
+![](img/zhuanqian_bd6c81e74d55386986abdd5551eca232.png)
 ## 二、选题拆解
 该频道成立于今年五月，目前共发布47条shorts，粉丝量已到36万左右。
 内容非常集中：AI生成的宝宝走秀，主角是一位圆脸胖嘟嘟的外国小女孩，着装时髦，场景多为户外街拍，部分视频会带上小猫小狗。每条的播放表现都很亮眼。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f7df2c18c3a3c8f3982c3cba285f82eb.png>
+![](img/zhuanqian_f7df2c18c3a3c8f3982c3cba285f82eb.png)
 横向对比后发现，萌娃+萌宠的组合比单一走秀更吃香。所以起步选题可以围绕“宝宝携宠出街”展开，比如牵着狗狗散步、抱着小猫走秀等形式。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_59b1b289216af7307c4fa65ffd578a11.png>
+![](img/zhuanqian_59b1b289216af7307c4fa65ffd578a11.png)
 ## 三、复刻全流程
 先说工具清单：
 AI绘图：
@@ -25,16 +25,16 @@ AI成片：
 制作思路：以一条三段式走秀视频为样本，需要产出3张定妆图和3段动态片，最后拼接。
 ### 1. 绘图环节
 提示词不会写可以用Midjourney的/describe功能，把一张参考图上传，让它反推，瞬间能得到4组可用的描述词。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4405a9b1bb23e0938f9bc781882cb8ac.png>
+![](img/zhuanqian_4405a9b1bb23e0938f9bc781882cb8ac.png)
 拿到词后借助翻译工具做精简，保留核心信息。想让角色保持一致，可以在末尾追加 --cref 并附上参考图链接，这是MJ的角色锚定功能。描述中关于服装、发型的位置可以随意改动，其余部分保持稳定。也可让Kimi按此格式批量生成创意搭配。
 中英文参考示例：
 中文：镜头前是一位胖乎乎的外国女婴，肤色白皙圆脸，穿小西装像模特，全身照，公主鞋，手牵漂亮小狗在街上行走，大眼睛长发蓬松发髻配蝴蝶结发夹，面容精致。拍摄要求高清摄影高分辨率高细节高品质锐焦30兆像素。
 英文：Cute fat foreign baby girl, facing the camera, with white skin and round face, wearing a fashionable suit, like a little model, full body photo, wearing princess shoes, walking on the street holding a beautiful puppy, Big eyes, long hair, fluffy bun hair style, bow hairpin, beautiful face, shot with HD photography, high resolution, high details, high quality, sharp focus and 30 megapixel camera. --ar 9:16 --cref https://s.mj.run/Rz829y6xqSI --v 6.1
 出图示例：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ea00060430cec5c87099cbd65eb6a4d6.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3fd46b2be39a373be40111c52a022552.png>
+![](img/zhuanqian_ea00060430cec5c87099cbd65eb6a4d6.png)
+![](img/zhuanqian_3fd46b2be39a373be40111c52a022552.png)
 即梦AI的绘图效果也挺可爱，记得打开高清输出，否则清晰度会掉。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d7c9f8b00fb8150da16e0110be22773d.png>
+![](img/zhuanqian_d7c9f8b00fb8150da16e0110be22773d.png)
 选好满意的图保存后，进入成片阶段。
 ### 2. 生成动态
 我用的是Runway。建议先花6块钱在淘宝买3天共享号测试，稳定后再续期。共享号人多会排队，有预算可买独享或拼车，低成本启动就先用共享。
@@ -48,9 +48,9 @@ Create a video on AI Runway gen3 starting with the scene depicted in thr uploade
 Runway生成不稳定很正常，有时往前走有时往后退，多抽几次挑可用片段即可。
 ### 3. 剪辑与发布
 音乐选剪映自带的piupiupiu。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3395e366c705ab3240644c564858f6ad.png>
+![](img/zhuanqian_3395e366c705ab3240644c564858f6ad.png)
 开启AI踩节拍功能，能直观看出音乐拍点，把每段素材时长对齐到拍点上。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a4a968c71b232886b046e4e078740f27.png>
+![](img/zhuanqian_a4a968c71b232886b046e4e078740f27.png)
 想提亮肤色可加一点棠梨滤镜，强度别拉满。节奏根据成片质量微调，走得快就降速。
 发布文案直接参考对标号的标题与话题：
 Cute baby fashion show
@@ -58,16 +58,16 @@ Parents’ Guide to Baby Fashion: Cute & Cozy Styles for Fall #babycollection #b
 ## 四、同类账号参考
 萌娃类内容在YouTube具备很强的吸引力。以下几个频道可同步研究：
 账号1：https://www.youtube.com/@littleclassics7988
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6ddd1c3b99d588fb482816876512f9df.png>
+![](img/zhuanqian_6ddd1c3b99d588fb482816876512f9df.png)
 账号2：https://www.youtube.com/@LittleRunwayStars/shorts
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_21a91a948f66bad930fb167de381a48c.png>
+![](img/zhuanqian_21a91a948f66bad930fb167de381a48c.png)
 账号3：https://www.youtube.com/@fungenmagic-zb6lo
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_42e6bad0f06060b27b582a8fcf56967b.png>
+![](img/zhuanqian_42e6bad0f06060b27b582a8fcf56967b.png)
 账号4：https://www.youtube.com/@Sophie_434
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1068d256bd4fe47368dd31f64acb36d2.png>
+![](img/zhuanqian_1068d256bd4fe47368dd31f64acb36d2.png)
 ## 五、三个月行动规划
 我已开始执行。起号期保持每天1-3更，先测试不同形态的内容，衡量数据与耗时，再锁定方向。11月6日发的那条已经开始跑量——
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9b7aebad72fac4244c28d4c4232bdb3a.png>
+![](img/zhuanqian_9b7aebad72fac4244c28d4c4232bdb3a.png)
 国内做这个赛道常见的阻碍：
 1. 网络：用“魔法”工具解决，电商平台均有售
 2. Google账号：国内手机号收不到验证码
@@ -77,10 +77,10 @@ Parents’ Guide to Baby Fashion: Cute & Cozy Styles for Fall #babycollection #b
 ## 六、其他玩法拆解
 ### 玩法一：可爱动物向
 案例频道：https://www.youtube.com/@pets-dog-cat
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1a36195af66377f411b72bf2a80b7cfc.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f522a7873f48739e70019a72321f0f2b.png>
+![](img/zhuanqian_1a36195af66377f411b72bf2a80b7cfc.png)
+![](img/zhuanqian_f522a7873f48739e70019a72321f0f2b.png)
 绘图提示词：一只小老虎宝宝坐在手掌上吐舌头，头戴皇冠
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c7a1d6865621da15321bf89d9c9e4369.png>
+![](img/zhuanqian_c7a1d6865621da15321bf89d9c9e4369.png)
 成片提示词：
 A baby tiger sitting on a palm, tongue sticking out, wearing a crown, head tilted,
 ### 玩法二：Magic达人秀变形
@@ -90,32 +90,32 @@ A baby tiger sitting on a palm, tongue sticking out, wearing a crown, head tilte
 提示词1：
 穿着裙子和老虎跳华尔兹的美女，照片必须非常真实，尽可能详细，图像质量超高，4K，背景应该位于亮蓝色的舞台上。--ar 9:16
 Beautiful girl in skirt waltzing with tiger photos must be very realistic Be as detailed as possible Ultra-high image quality, 4K The background should be on a bright blue stage. --ar 9:16 --v 6.1
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_60b851391e114baf882695bcd347eada.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_733bec0a36fd6d6ea442f7ceb008dfab.png>
+![](img/zhuanqian_60b851391e114baf882695bcd347eada.png)
+![](img/zhuanqian_733bec0a36fd6d6ea442f7ceb008dfab.png)
 提示词2：
 一位身穿虎皮连衣裙的美得令人窒息的女子。毛皮打造出一件飘逸、优雅的礼服，将老虎的特征无缝地融入到她的服装中。她的头变成了老虎的头，赋予了她老虎般的威严。这件衣服的特点是复杂的毛皮图案，类似于老虎的自然形态。场景非常真实。她站在灯光明亮、蓝色光芒的舞台上，散发着空灵的气息。图像为超高清 4k，捕捉变形的每个细节，--ar 9:16 --v 6.1
 A breathtakingly beautiful woman wearing a dress made entirely of tiger fur. The fur created a flowing, elegant gown that seamlessly integrated the tiger's features into her outfit. Her head transforms into that of a tiger, giving her a tiger-like majesty. The dress features an intricate fur pattern that resembles a tiger's natural form. The scene is highly realistic. She stands on a stage with bright lights and a blue glow, exuding an ethereal atmosphere. Image is Ultra HD 4k, capturing every detail of the morph, --ar 9:16 --v 6.1
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2671b03d7d5aed697ad0e07c4f2f56fd.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a6ddc8dd6af945290d875238e1232761.png>
+![](img/zhuanqian_2671b03d7d5aed697ad0e07c4f2f56fd.png)
+![](img/zhuanqian_a6ddc8dd6af945290d875238e1232761.png)
 视频生成三步：上传首帧、上传尾帧、填写提示词。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_aefd3119d58499381773179ba3f5eaae.png>
+![](img/zhuanqian_aefd3119d58499381773179ba3f5eaae.png)
 首尾帧示例：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e10632c38dea3aa814c231b51faa12bf.png>
+![](img/zhuanqian_e10632c38dea3aa814c231b51faa12bf.png)
 提示词：一个美丽的女子和老虎一起跳舞，然后幻化为一体
 A beautiful woman dances with a tiger and becomes one
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0a35b3658ea7835e7aa1f2e6f9b2db92.png>
+![](img/zhuanqian_0a35b3658ea7835e7aa1f2e6f9b2db92.png)
 换一组首尾帧生成另一段：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a406f3b1ac779acd5ac1fc6e309942d9.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_beeb78653521cba8be12d6d156246516.png>
+![](img/zhuanqian_a406f3b1ac779acd5ac1fc6e309942d9.png)
+![](img/zhuanqian_beeb78653521cba8be12d6d156246516.png)
 提示词：美女和老虎一起跳舞旋转，成为一个老虎头的女人
 The beauty dances and spins with the tiger, becoming a woman with a tiger head
 可追加变回来的反向镜头：
 首尾帧：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_be9a82e949ceb448846f76cae60b3f4a.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_dfad460a4edda630db5d0e39b0b065b5.png>
+![](img/zhuanqian_be9a82e949ceb448846f76cae60b3f4a.png)
+![](img/zhuanqian_dfad460a4edda630db5d0e39b0b065b5.png)
 提示词：美女跳舞旋转，慢慢变回老虎和美女分开的样子，女人亲吻老虎
 The beauty dances and spins, slowly changing back to the way the tiger and the beauty are separated, and the woman kisses the tiger
 动物可替换，只需修改提示词中的动物名称。
 剪辑时搜索美国达人秀素材，用视频解析工具下载，剪出评委夸张表情片段，音频可直接提取原声。在变形节点加入欢呼鼓掌音效，将评委惊讶表情穿插到变形节点，注意踩拍。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f1116da1e9611b13dae34aad264a9c95.png>
+![](img/zhuanqian_f1116da1e9611b13dae34aad264a9c95.png)
 以上就是本次拆解，希望能帮到大家。看完就动手，赚美金冲！

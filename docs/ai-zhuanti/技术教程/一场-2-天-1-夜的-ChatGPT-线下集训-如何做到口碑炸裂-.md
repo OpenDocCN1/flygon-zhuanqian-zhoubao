@@ -5,4 +5,4 @@
 除了复盘笔记，我之前还分享过不少关于效率工具、AI 应用、技术变现、私域增长、创业心路、AIGC 商业观察等主题的文章，感兴趣的直接去我的主页翻阅就行。
 这场课的详细拆解你看完了吗？欢迎在留言区聊聊你的看法。
 留言区：尚无留言。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_21de372a77ea1f441c613f7316831ae1.png>
+![](img/zhuanqian_21de372a77ea1f441c613f7316831ae1.png)

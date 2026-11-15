@@ -12,38 +12,38 @@ Claude Code 讲究大道至简，核心就是“干”。
 claude --help
 ```
 说白了，就是看看 claude 命令支持哪些参数，用来干什么。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8dc59fdaafbe96be503fb641f203a1cf.png>
+![](img/zhuanqian_8dc59fdaafbe96be503fb641f203a1cf.png)
 平时用得比较多的几个命令如下：
 ### claude version
 查看当前版本号。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ab2208efbc2ed748a98e93a0c3f3a082.png>
+![](img/zhuanqian_ab2208efbc2ed748a98e93a0c3f3a082.png)
 ### claude doctor
 检查 Claude Code 的安装是否正常。
 ```
 claude doctor
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cbf1f227ca1458523fff9e3782c79453.png>
+![](img/zhuanqian_cbf1f227ca1458523fff9e3782c79453.png)
 ### claude mcp
 查看 MCP 相关的配置情况。
 ```
 claude mcp list
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_412b36aea0ea2175d73d58afe947059d.png>
+![](img/zhuanqian_412b36aea0ea2175d73d58afe947059d.png)
 ```
 claude mcp --help
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e9c73f22f29a979d70c594745c884af1.png>
+![](img/zhuanqian_e9c73f22f29a979d70c594745c884af1.png)
 ### claude config
 查看 Claude Code 的配置信息。
 ```
 claude config --help
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5581f98e8f8c14b7b3651213859372cf.png>
+![](img/zhuanqian_5581f98e8f8c14b7b3651213859372cf.png)
 可以列出具体的配置列表。
 ```
 Claude config list
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_dfd45aca991172b2bd1a9e28284d6cd8.png>
+![](img/zhuanqian_dfd45aca991172b2bd1a9e28284d6cd8.png)
 ### --dangerously-skip-permissions
 也就是大家常说的 yolo 模式，我更爱叫它“狂飙模式”。
 ```
@@ -53,19 +53,19 @@ claude --dangerously-skip-permissions
 ## 和 IDE 整合
 ### 第一步：装插件
 在插件市场搜 Claude Code，注意认准 Anthropic 官方出品。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_204d9d85753b7c01c80fdf4711d9873f.png>
+![](img/zhuanqian_204d9d85753b7c01c80fdf4711d9873f.png)
 ### 第二步：唤起 Claude Code
 方法一：按快捷键 Cmd+Escape（我这边没生效，你可以试试；不够也可以自己改键）。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_530a7e080c836e05e7d6cf78b53c88f8.png>
+![](img/zhuanqian_530a7e080c836e05e7d6cf78b53c88f8.png)
 方法二：直接在 Cursor 界面点击那个对应的图标，鼠标点一下就行。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_277c88a8406122340cf3293c452373ec.png>
+![](img/zhuanqian_277c88a8406122340cf3293c452373ec.png)
 之后你会看到右侧出现 Claude Code 的工作区域。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5bec8ab6dd2de0085bc5da6981f0864c.png>
+![](img/zhuanqian_5bec8ab6dd2de0085bc5da6981f0864c.png)
 Windows 用户的话，可以按我之前分享的资料，用 WSL 插件连上来，也可以正常使用。
 ## 自动编辑模式
 什么时候用？不想每次创建/编辑文件都要一顿确认时，用它。
 怎么用？按一下 shift+tab，就进入该模式。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_70db813207581bc1e7738c0432b996c8.png>
+![](img/zhuanqian_70db813207581bc1e7738c0432b996c8.png)
 示例提示词：
 ```
 帮我创建一个酷炫的 todolist 应用
@@ -73,29 +73,29 @@ Windows 用户的话，可以按我之前分享的资料，用 WSL 插件连上�
 ## 指定文件
 什么时候用？想对某个具体文件进行操作的时候。
 怎么用？直接在输入框用 @ 来指定文件，这个操作和 Cursor 一样。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b248fb771937a966eb05b288cfa76b8f.png>
+![](img/zhuanqian_b248fb771937a966eb05b288cfa76b8f.png)
 ## 深度思考
 什么时候用？遇到疑难杂症、要做方案规划、重构代码、解决复杂 bug 的时候。
 怎么用？在提示词里写“ultrathink”或“深度思考”这类关键词。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1cf3d61d010451b7dd630fe53736e806.png>
+![](img/zhuanqian_1cf3d61d010451b7dd630fe53736e806.png)
 ## plan 模式
 类似 roocode、cline 里对应的模式，也相当于 Cursor 的 ask。
 什么时候用？项目前期规划、碰上疑难问题的时候。
 怎么用？按两次 shift+tab 就能看到。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f1633fd8d3cbd6ba2ce947cc837c1c20.png>
+![](img/zhuanqian_f1633fd8d3cbd6ba2ce947cc837c1c20.png)
 举例：
 ```
 我想写一个像素风格的todolist，我需要移动端也可以使用，帮我规划下方案
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_05e442bb8145730ed3443cf02c147a91.png>
+![](img/zhuanqian_05e442bb8145730ed3443cf02c147a91.png)
 它会开始思考方案：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6e75efb53a46286dadb86a831c4fb71e.png>
+![](img/zhuanqian_6e75efb53a46286dadb86a831c4fb71e.png)
 最后会问你要不要继续。不满意可以选 No，然后继续提需求；觉得 OK 就选 Yes，它就开始拼命干活了。
 ## 粘贴图片
 什么时候用？要调页面结构、排查错误的时候。
 怎么用？Mac 上直接按 ctrl+v 粘贴图片，或者把图片文件拖到终端里。
 Mac 的终端粘贴完大概是这个样子：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4d789b2b6ffb4d0e3645ef9d346ec106.png>
+![](img/zhuanqian_4d789b2b6ffb4d0e3645ef9d346ec106.png)
 想看 Windows 下的截图？文末有彩蛋。
 ## 常用命令一览
 | 命令 | 作用 | 适用场景 |
@@ -113,7 +113,7 @@ Mac 的终端粘贴完大概是这个样子：
 claude --dangerously-skip-permissions
 ```
 进来以后你会看到这样的界面：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_43c0eaa96fa78ac66c757a77e144b848.png>
+![](img/zhuanqian_43c0eaa96fa78ac66c757a77e144b848.png)
 就算进了这个模式，后面也还能用 shift+tab 随时调整。
 ## 记忆文件
 ### 全局记忆文件
@@ -134,13 +134,13 @@ Bash(ast-grep -p '$FUNC($ARG)' src/)
 ### 项目记忆文件
 路径：项目根目录下的 CLAUDE.md
 如果项目里已有代码，建议用 /init 命令自动生成。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f1283cd78fcecc7afda10693d8556673.png>
+![](img/zhuanqian_f1283cd78fcecc7afda10693d8556673.png)
 ## 用之前的消息作提示词
 什么时候用？想回到之前的对话。
 怎么用？按两次 esc。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_32bb40b84bb24a4dea6b0afaf860a84d.png>
+![](img/zhuanqian_32bb40b84bb24a4dea6b0afaf860a84d.png)
 选择第 3 项，就能回到之前的对话框。这样如果觉得之前的提示词不合适，还能在原来基础上继续改。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3eb972a25ecf8062d76e64453b68d00c.png>
+![](img/zhuanqian_3eb972a25ecf8062d76e64453b68d00c.png)
 ## 如何回滚代码
 类似 Cursor 里的 checkpoint 功能。
 什么时候用？后悔 AI 改的代码了，想恢复之前的状态。
@@ -149,7 +149,7 @@ Bash(ast-grep -p '$FUNC($ARG)' src/)
 ```
 回滚到上次的代码
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e08df4c9662f690732a617a4c5d1815b.png>
+![](img/zhuanqian_e08df4c9662f690732a617a4c5d1815b.png)
 ### 高级方式：用 git
 这块还没完全整理完。
 思路是：利用 git 每次提交记录，再配合自定义 commands 命令。
@@ -168,22 +168,22 @@ claude -r
 ## 执行终端命令
 什么时候用？想看看当前目录，或者执行一些特殊命令。
 怎么用？先输入英文感叹号 !，进入命令行模式。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e5a2417236b437962496f9ffccd031e0.png>
+![](img/zhuanqian_e5a2417236b437962496f9ffccd031e0.png)
 查看当前目录：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_32a404b27a94db2845f758acaff362b8.png>
+![](img/zhuanqian_32a404b27a94db2845f758acaff362b8.png)
 查看当前文件列表：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0280c013041fb7d7acf0883b6929454f.png>
+![](img/zhuanqian_0280c013041fb7d7acf0883b6929454f.png)
 ## 监控使用量
 ### 按天查看用量：
 ```
 npx ccusage@latest
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ec7e6c98bfa93104e172806c1c7a2edc.png>
+![](img/zhuanqian_ec7e6c98bfa93104e172806c1c7a2edc.png)
 实时采集量的命令：
 ```
 npx ccusage@latest  blocks --live
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d76b7f15dc365d47400dc2e865a850bd.png>
+![](img/zhuanqian_d76b7f15dc365d47400dc2e865a850bd.png)
 ## 自选题：MCP
 什么时候用？很多场景都适合。
 怎么用？先安装 MCP。
@@ -197,7 +197,7 @@ claude mcp add playwright -s user -- npx @playwright/mcp@latest
 在浏览器里打开小红书,搜索“Claude Code”,按照浏览量多的前面排序，将前10的结果总结给我
 ```
 搜索结果：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f18fa313f3caf60a8520b865678de9b0.png>
+![](img/zhuanqian_f18fa313f3caf60a8520b865678de9b0.png)
 # 写在最后
 看到这里，你可能会想：“14 个技能点，也太多了吧……”
 我想说：罗马不是一天建成的，但每天进步 1%，100 天后你就不一样了。
@@ -214,5 +214,5 @@ Claude Code 的这 14 个技能点，就是你向上的台阶。
 作为圈友直接分享给大家：
 链接：https://pan.quark.cn/s/9d53d4b11497
 提取码：RY5W
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1e43c0a72d707835f0d5014927f12750.png>
+![](img/zhuanqian_1e43c0a72d707835f0d5014927f12750.png)
 如果你觉得这篇文章有用，记得「点赞、转发、关注」，也欢迎点个「爱心」。你的每一个互动，都是我持续输出的动力。我们一起在 AI 爆炸时代，充实自己，迎接 AGI 的到来。

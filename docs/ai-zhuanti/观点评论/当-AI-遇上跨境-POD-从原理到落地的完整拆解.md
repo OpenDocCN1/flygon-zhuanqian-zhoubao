@@ -8,4 +8,4 @@
 评论区补充：
 小鹅老师 : 我在 ins 上看见很多 AI 绘画博主的变现方式就是定制印刷家庭挂画 基本都在 30 刀上下
 小辉 AI 教练 : 之前就有想法跟永哥不谋而合，我能搞定技术，你能搞定供应链吗 哈哈
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1c37d505930596d12a88ab23e11aa07a.png>
+![](img/zhuanqian_1c37d505930596d12a88ab23e11aa07a.png)

@@ -9,31 +9,31 @@ a) 用户前台
 b) 管理后台
 c) 转换服务端
 先把脑子里想要的功能过一遍，用自然语言写出来丢给 GPT，让它帮你拆成任务清单。我平常用的是 poe + claude.ai，下面演示也是按这个来。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c1488f16c37d5857f37b4b8a2062cc6d.png>
+![](img/zhuanqian_c1488f16c37d5857f37b4b8a2062cc6d.png)
 接下来很关键的一步，让 AI 先帮你把接口定下来。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7d79787b7a20900fcd587c7d7efd98e2.png>
+![](img/zhuanqian_7d79787b7a20900fcd587c7d7efd98e2.png)
 ## 让 Cursor 上手干活
 准备好需求文档和接口文档，分别放到项目根目录里，命名成 requirement.md 和 api.md。cursor 会把它们当上下文来读，后面对话的命中率会高很多。
 ### 用户前台
 建个新仓库，把两份文档放进去，打开右侧的 Composer，直接把需求倒进去就行。
 小建议是引导它用成熟的 UI 体系，比如 element-plus、ant-design、shadcn、tailwindcss。tailwindcss 特别香，基础样式很快就有体面感。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_041b4016dd2d996f0cf85dc2baaca4bb.png>
+![](img/zhuanqian_041b4016dd2d996f0cf85dc2baaca4bb.png)
 它会吐出一堆文件，你点 Run 或 Accept All 先跑起来，看看能不能通。我习惯先把所有 API 调用集中放到一个目录，后续改动更省心。
 用 pnpm dev 本地预览，丑就直接在 Composer 里说哪个页面看着不对劲，让它改成现代简洁一点的。它会自己调。也可以手绘一个草图拍照丢进去，说照着这个布局改，它也能认。
 报错就把日志复制回去让它修，或者自己看出来了就直接在左侧编辑器改掉。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_44db085a33eab18bda2057c2f87bff0c.png>
+![](img/zhuanqian_44db085a33eab18bda2057c2f87bff0c.png)
 我这个项目很简单，前台核心功能四十多分钟就跑通了。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7eca6af14da3ddd469c88d0f12aef1f2.png>
+![](img/zhuanqian_7eca6af14da3ddd469c88d0f12aef1f2.png)
 ### 转换服务端的接口
 服务端我选了 Laravel，PHP 那个老牌框架。工作量就是做登录、上传、下载这些常规接口。
 很熟的话会很顺。我让 cursor 写迁移文件、模型、控制器、路由，一条龙。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6d3b3e1fe02238ce55468ced0dfe1e45.png>
+![](img/zhuanqian_6d3b3e1fe02238ce55468ced0dfe1e45.png)
 只要你清楚下一步要干嘛，cursor 基本就是一个码字特别快的双胞胎。
 ### 文件格式转换这块
 这是整个站点的灵魂。我先去研究了 .plt 文件的格式、来源和结构，然后让 AI 思考怎么把它解析成 PDF。中间细节不少，这里不展开，对做开发的同学来说也就是捅破窗户纸的事。
 ### 管理后台
 后台我直接拿了市面上一个开源的管理后台脚手架。把接口文档丢进去，告诉它要加会员管理和邀请码管理的功能就行。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3f4bf7f7e9c9d37c49f28a093bef5975.png>
+![](img/zhuanqian_3f4bf7f7e9c9d37c49f28a093bef5975.png)
 ## 拼起来
 如果你用全栈框架就省事了。我这次是刻意拆开来体验 cursor，所以最后要手动串起来。跑一遍测试，哪里不对就丢回 composer 修。cursor 有两个窗口，Chat 适合问思路，Composer 适合直接改代码。Chat 更像一个 Claude 的代理窗口，Composer 才是动手写代码的工。
 ## 部署上线

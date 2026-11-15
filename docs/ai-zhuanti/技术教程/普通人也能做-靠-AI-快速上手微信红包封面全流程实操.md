@@ -7,15 +7,15 @@
 一句话总结：借助 AI 工具，哪怕是完全外行，也能很快做出满意的封面，体验感和成就感都很强。
 # 一、为什么开始做
 最初的想法其实很简单，公众号后台推送的年度回顾报告里，附赠了我 18000 张红包封面兑换名额。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_30909b58324fdce7d8432e0a35b68da8.png>
+![](img/zhuanqian_30909b58324fdce7d8432e0a35b68da8.png)
 查了一下才明白，这批额度只能通过公众号渠道使用，前提是得先自己设计好封面，于是我临时搜集了相关资料就直接开干。
 后台显示这类额度一共能换三种规格，所以理论上最多可以做三款不同封面来对应兑换。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a4fb4ae069a4540e089f9713022fa7bf.png>
+![](img/zhuanqian_a4fb4ae069a4540e089f9713022fa7bf.png)
 # 二、图像生成
 直接开整。本身我平时就玩 AI 绘画，所以画图环节并不卡手。这次选了龙年主题的 Lora 配合二次元大模型 darkSushiMixMix_225D 来出图。
 为了让画面带上文字和年份，我先用别的工具生成了一张白底黑字的底图，再把自己的公众号头像作为风格参考，让整体更贴合黑白熊的调性。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c226d857edb3121a00647ea25828dd94.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3449c31fdbc7d5ae499716d7e88d2358.png>
+![](img/zhuanqian_c226d857edb3121a00647ea25828dd94.png)
+![](img/zhuanqian_3449c31fdbc7d5ae499716d7e88d2358.png)
 整套生成参数我复盘如下：
 大模型选用 darkSushiMixMix_225D
 Lora 用 3D 丨新春龙
@@ -24,20 +24,20 @@ Lora 用 3D 丨新春龙
 Lineart 来固定文字区域
 IP-Adapter 来做风格迁移
 最终成片的效果是：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ef87339535626756e0096ba3fadaf99e.png>
+![](img/zhuanqian_ef87339535626756e0096ba3fadaf99e.png)
 我大概批量跑了几百张，最后挑了一张比较顺眼的版本提交。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_517cd2ea3c0eabc14e74542d7660142a.png>
+![](img/zhuanqian_517cd2ea3c0eabc14e74542d7660142a.png)
 # 三、进入微信红包封面开放平台
 图做好后就要去官方平台做登记。如果你的公众号本身拥有兑换资格，直接用绑定微信扫码登录即可。
 [`cover.weixin.qq.com/cgi-bin/mmcover-bin/readtemplate?t=page/index#/`](https://cover.weixin.qq.com/cgi-bin/mmcover-bin/readtemplate?t=page/index#/)
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7c0fefefba1bf58c32e3710187a95008.png>
+![](img/zhuanqian_7c0fefefba1bf58c32e3710187a95008.png)
 补充一点门槛信息：个人账号基本没有开通权限，通常要求公众号或视频号粉丝数超过 100。没有达标的话，可以通过淘宝找上粉服务把粉丝冲到 100 再操作。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1a26d1ea848ed9d0e0ad7ad4f80c90eb.png>
+![](img/zhuanqian_1a26d1ea848ed9d0e0ad7ad4f80c90eb.png)
 # 四、封面定制细节
 登录后首页就能看到定制入口，点击进去进入编辑页。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_71961a58fcd62d8e79e266a56b06a849.png>
+![](img/zhuanqian_71961a58fcd62d8e79e266a56b06a849.png)
 编辑页的表单如下：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e98fe592ee146ea1c38a3b857bb5bc36.png>
+![](img/zhuanqian_e98fe592ee146ea1c38a3b857bb5bc36.png)
 几个实操建议：
 1. 封面简称最好保持和公众号名称一致，改名后后续身份核验会很麻烦。
 2. 个人 Logo 可以不填，填了就要额外证明所有权，而且视觉上容易显得累赘。
@@ -48,37 +48,37 @@ IP-Adapter 来做风格迁移
 [`tinypng.com/`](https://tinypng.com/)
 视频方面，今年能把静态图转动态的 AI 工具很多，比如 PIKA、Runway，不过大多收费。我用的是免费的 PixVerse，效果也能用。
 [`app.pixverse.ai/`](https://app.pixverse.ai)
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_da599820b0bff99fabef45cafcbad216.png>
+![](img/zhuanqian_da599820b0bff99fabef45cafcbad216.png)
 视频导出后还要处理码率，微信上限 3000kbit/s，我用剪映把码率调到 2800 再导出。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b62cc0da4170583360bcb49644c92319.png>
+![](img/zhuanqian_b62cc0da4170583360bcb49644c92319.png)
 素材上传后可以微调位置，带箭头的区域都能拖动，调到自己满意为止。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d50b553c154261b879e2279e2958826b.png>
+![](img/zhuanqian_d50b553c154261b879e2279e2958826b.png)
 气泡挂件要求尺寸合适即可，我直接做了个简单的 2024 图标。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4501a0c133b7b7c63e55c4fe6bebce33.png>
+![](img/zhuanqian_4501a0c133b7b7c63e55c4fe6bebce33.png)
 封面故事是可选项，不填也没影响。填了可以放视频、图片和文字，最大的价值是能埋跳转链接把用户导流到公众号，有引流需求的可以加上。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b5e47c60f22b7f09cd5b2e8c5037a7ce.png>
+![](img/zhuanqian_b5e47c60f22b7f09cd5b2e8c5037a7ce.png)
 全部完成后提交审核，同时要上传证明材料，证明设计归属自己。我把 AI 原图和转视频的源图打包压缩一起交了。审核时效大约 3 小时，我上午提交，下午回来就通过了。
 # 五、兑换与发放
 左侧菜单找到订单/发放记录，就能看见封面兑换额度。我这批是 18000 个，按 6000 一份分成三份，也就是能做三个封面各兑换 6000 份。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_692ff0aed640e40826276b81a99d7e29.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e1743cdce01026f53c390dc49affcd7e.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c66e625610ba33ee9a1bb241263ac0c7.png>
+![](img/zhuanqian_692ff0aed640e40826276b81a99d7e29.png)
+![](img/zhuanqian_e1743cdce01026f53c390dc49affcd7e.png)
+![](img/zhuanqian_c66e625610ba33ee9a1bb241263ac0c7.png)
 当时写教程时只做完第一个，后面两款也计划做完免费送。需要提醒的是，这类赠送额度一旦发完就没了。
 另外如果想自己花钱做封面，市场价大概是 1 元/份。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a023b9e6bc10ee08d080824a80437522.png>
+![](img/zhuanqian_a023b9e6bc10ee08d080824a80437522.png)
 # 六、如何让用户领取
 这种赠送额度的封面只能在公众号图文里发放。
 兑换成功后进入发放封面页面进行配置。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_18c3dc0e9d02050430fd94255e563c4e.png>
+![](img/zhuanqian_18c3dc0e9d02050430fd94255e563c4e.png)
 配置时需要设定基础参数，想做裂变就勾选裂变发放。我这次只能通过公众号渠道领取。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_440351493af6cb0b2407a39582ed271d.png>
+![](img/zhuanqian_440351493af6cb0b2407a39582ed271d.png)
 已完成微信认证的公众号可以在公众平台后台添加“微信红包封面”功能插件。添加后，拥有多人领取且未指定用户的发放材料的公众号，就可以在编辑图文时插入红包封面卡片。
 第一步：用平台账号对应的公众号登录并开通插件。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_058751ec03ae2d50d9b128b65b8778ae.png>
+![](img/zhuanqian_058751ec03ae2d50d9b128b65b8778ae.png)
 第二步：新建或打开图文素材，点击工具栏的红包封面组件，选择要插入的封面。每篇文章最多可插入 10 个卡片，每个卡片最多可关联 10 份发放材料。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7615ff789928e910b53cf50e46e7b753.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f378adc9ab60b6d93967f90c302c98fd.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_af60a679bd16dd2048d9d511616d5be0.png>
+![](img/zhuanqian_7615ff789928e910b53cf50e46e7b753.png)
+![](img/zhuanqian_f378adc9ab60b6d93967f90c302c98fd.png)
+![](img/zhuanqian_af60a679bd16dd2048d9d511616d5be0.png)
 设置完成后，用户打开文章就能直接领取了。
 # 总结
 以上就是从设计到上线的一整套微信红包封面制作路径。
@@ -91,5 +91,5 @@ AI 时代掌握正确的工具链，能把过去需要团队才能完成的事�
 清净心阿东 : 随喜赞叹
 黄大侠 : 感谢分享
 旭哥 : 非常感谢，又学到 SD 又一实战技能[强]
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_21de372a77ea1f441c613f7316831ae1.png>
+![](img/zhuanqian_21de372a77ea1f441c613f7316831ae1.png)
 * * *

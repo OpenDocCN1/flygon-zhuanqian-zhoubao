@@ -4,18 +4,18 @@
 # 一、发生了什么
 ## 第一步：先上网页试水
 用cursor随便搭了个网页版雏形，通过公众号引流测试。没想到文章直接炸了，还收到打赏，好几十个人加我进来。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_dbc6fb73d84c6dc2cc8d71c51b9d0897.png>
+![](img/zhuanqian_dbc6fb73d84c6dc2cc8d71c51b9d0897.png)
 页面丑到不好意思，但数据说明问题就是存在。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0e0e99a48f73cce772b7f9c441761173.png>
+![](img/zhuanqian_0e0e99a48f73cce772b7f9c441761173.png)
 ## 第二步：转战微信小程序
 第一波反馈不错，我就顺势把公众号和微信小程序绑一起，双线收割。
 认证加备案花了3天，30块一年搞定。2天就把流量主开了。整件事我没碰后端，纯前端跑通，省掉了域名和服务器的成本。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f76943b9f27a4414dfa6395464f05579.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_33001d59c49353f9d44fec744df1ee8f.png>
+![](img/zhuanqian_f76943b9f27a4414dfa6395464f05579.png)
+![](img/zhuanqian_33001d59c49353f9d44fec744df1ee8f.png)
 # 二、怎么一步步做出来的
 ## 灵感从哪来
 我常跑马拉松，每次都要翻小红书、百度找配速表。想着这么频繁的需求，为什么不自己做一个？正好手上cursor用得顺手，于是就决定用兴趣+技能+AI把这个跑步配速小工具做出来。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2a15069937e90aa7106d6f6bdb41695f.png>
+![](img/zhuanqian_2a15069937e90aa7106d6f6bdb41695f.png)
 ## 和cursor的配合方式
 我对产品形态其实没概念，直接按 Ctrl+I 输入：做一个功能完整的跑步辅助微信小程序，帮跑友规划训练和比赛。AI就把我的模糊想法拆解成可跑的代码直接吐出来。报错了就把日志丢回去，让它修。我相当于产品经理+测试，AI是执行开发。
 ```
@@ -190,22 +190,22 @@ BMI分级标准：
 表格里高亮当前区间
 看建议
 另外它还提醒我需要在 pages.json 里加页面配置、导航入口、路由跳转。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bfb78997591f0a65635eb17b24cb2842.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0f2683a1db2b392c093630cdcef3226d.png>
+![](img/zhuanqian_bfb78997591f0a65635eb17b24cb2842.png)
+![](img/zhuanqian_0f2683a1db2b392c093630cdcef3226d.png)
 我完全没法描述有多快，差不多3分钟，一个模块就上线了。
 ## 用cursor的一些心得
 1. 用git做版本保护
 cursor有时候会手滑改好代码，用git对比线上和本地差异很关键。我习惯用Sourcetree，也能用cursor自带的功能。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_23c2124cc4a7629c7fa0e86b5c9fd664.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_78d58ae6e5a02f22c2c83eb4787635e5.png>
+![](img/zhuanqian_23c2124cc4a7629c7fa0e86b5c9fd664.png)
+![](img/zhuanqian_78d58ae6e5a02f22c2c83eb4787635e5.png)
 2. 模块化沟通
 每个功能单独一个文件。改的时候用 Ctrl+L 或 Ctrl+I，再把文件拖进对话框，AI就知道上下文。或者只选中几行代码再点指令，就只改这一块。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d7ff4fc9f5b6a7227984962d1e817eaf.png>
+![](img/zhuanqian_d7ff4fc9f5b6a7227984962d1e817eaf.png)
 3. 不懂就问AI
 遇到卡点直接问，问多了对话就顺了。
 4. 其他小建议
 参考同行做法：提问时末尾别加“不要改其他代码”这种限制，反而加.cursorrules文件来约束行为，不知道怎么写就让AI生成。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ead14fa96659261b0c1ebeb7dcdf2699.png>
+![](img/zhuanqian_ead14fa96659261b0c1ebeb7dcdf2699.png)
 ## 小程序上线注意点
 流程网上很多，万事皆可问AI，让它手把手带。
 要点：
@@ -219,17 +219,17 @@ cursor有时候会手滑改好代码，用git对比线上和本地差异很关�
 1. 公众号+小程序流量主：粉丝累计5221，收入已经到142.86元。
 1. 定制需求：已有3个人想找我做同款小程序。
 1. 技术咨询：有1家公司想挖我去做跑步相关产品的开发。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9fe3d029f0ab753a49fb3f6cb809cad6.png>
+![](img/zhuanqian_9fe3d029f0ab753a49fb3f6cb809cad6.png)
 # 五、总结
 从灵感到上线，总共花了3小时。
 AI之前，我想都不敢想这么快。以前做个小程序至少得一周。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f075a64d0a9b76081e02eb39c6158d09.png>
+![](img/zhuanqian_f075a64d0a9b76081e02eb39c6158d09.png)
 1. cursor不只是提效工具，它已经有中级程序员的水平。以前程序员靠 Ctrl+C Ctrl+V，现在靠按 Tab。
 1. 拥抱AI，想法落地速度完全变了。我后来还照这个思路做了一个提升公众号工作效率的站点，以前要开4个网站找素材，现在一个网址搞定，效率提升50%以上。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1b0198d567517832f4af8d0fe7ba52fa.png>
+![](img/zhuanqian_1b0198d567517832f4af8d0fe7ba52fa.png)
 1. 互联网本质是代码堆起来的，在AI加持下，几乎没有做不成的事。
 # 补充
 我最近在用一个网站做个人工具库，能收住所用到的日历、联系人、心愿单、工具集合。一个项目用到哪些网址，直接归类好，一打开电脑就定位到。我的工具库地址在这里：
 https://www.shilistory.com/login
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c92cca6e4ae86729ac22c6eaf873a10f.png>
+![](img/zhuanqian_c92cca6e4ae86729ac22c6eaf873a10f.png)
 end...thanks

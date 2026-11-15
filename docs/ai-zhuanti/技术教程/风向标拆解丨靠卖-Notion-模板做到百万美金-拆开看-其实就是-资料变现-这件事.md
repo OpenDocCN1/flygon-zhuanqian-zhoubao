@@ -20,14 +20,14 @@ Notion 是一个集笔记、任务管理、项目协作、知识共享于一身�
 托马斯·弗兰克在 YouTube 上教大家怎么用 Notion，顺便卖自己做的模板。他有 296 万 YouTube 订阅者，靠两套模板，在大约两年时间里做出了 210 万美元的销售额。
 目前，这组模板平均每月能给他带来约 12 万美元收入，再加上联盟营销和 YouTube AdSense，每月还有其他收入约 1.5 万美元。
 这是他的模板主页，免费模板占大多数，用来引流；两款核心付费模板定价是每月 10 多美元。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c37ff82ac00de0b6fbf788f0e030313c.png>
+![](img/zhuanqian_c37ff82ac00de0b6fbf788f0e030313c.png)
 https://www.notion.so/@thomas
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6ed4a4f680603d9c5a3c5a7d3c02e54e.png>
+![](img/zhuanqian_6ed4a4f680603d9c5a3c5a7d3c02e54e.png)
 ### 案例 2：30 万粉起步，2023 年冲到了第一个 100 万美金
 另一位案例主角是 @heyeaslo，各大平台都在运营。X 上粉丝约 31 万，TikTok 约 40 万，Instagram 约 40 万，独立站每月 PV 也有 37 万。
 他的网站上一共放了 66 套 Notion 模板，还有 2 门课程。销量最高的一套模板累计卖了接近 5000 份，平均客单价 80 美元，这套模板已经卖了两三年。2022 年，他的营收做到了 20 多万美元。
 他的特点是什么？接触 Notion 很早，账号运营坚持了很久，在全网持续输出高质量内容，所以在 2023 年增长速度极快，最终赚到第一个 100 万美金。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_94d6594ba5e0b90cebb5e0d9b4d111d8.png>
+![](img/zhuanqian_94d6594ba5e0b90cebb5e0d9b4d111d8.png)
 ## 三、案例拆穿后，本质是什么？
 说到底，Notion 模板本质上就是一份资料、一个虚拟产品。卖模板和卖虚拟资料没有本质区别。
 那普通人现在入场做 Notion，还能赚钱吗？答案是能，因为 Notion 本身还在增长，用户基数也足够大。但你需要持续投入时间研究模板怎么做，同时在各个平台坚持输出高质量内容；而且海外用户是主流，想做这门生意就得有点“出海思维”。
@@ -41,28 +41,28 @@ https://www.notion.so/@thomas
 - 如果你是运营或编辑，经常要写策划、做图，那也是需求；
 - 如果你是实体店老板，想学门店运营、提升销量，这同样是需求。
 就像有人需要 Notion 模板来高效记录数据信息，所以有人会专门做模板来满足他们。之前小红书很火的“布局 2024”Notion 模板，就是一个典型的例子。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_24f17bce687510ac695eb224ceedd828.png>
+![](img/zhuanqian_24f17bce687510ac695eb224ceedd828.png)
 再看一个服装行业从业者：他会整理日常设计、策划案、职场经验等内容，做成资料。但要注意，资料往往只是钩子，他真正赚钱的是后面的课程和社群。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4df34595e8dc3429fa3a3af12f31cc4f.png>
+![](img/zhuanqian_4df34595e8dc3429fa3a3af12f31cc4f.png)
 如果你本身是设计师，也可以把设计灵感、经验、素材整理成产品来卖。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_af2228677f5e35f4b0e98ff7a1fac4b2.png>
+![](img/zhuanqian_af2228677f5e35f4b0e98ff7a1fac4b2.png)
 ## 五、【流量】怎么推广？
 ### 1. 多平台建立 IP，用信任带动转化
 还是以服装行业资料整理为例，这个人把内容同时发在小红书、公众号、视频号、抖音、淘宝、拼多多等平台，做“一鱼多吃”，把同一份内容分发到各个渠道去截流。
 你来我往，全网都在发，IP 信任度起来以后，销售就是水到渠成的事。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2ae1cefc3d8b9921bfb5c711211ba1fc.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e5b5f140297582e90af11fc878539f60.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9b1207a68641d3cbf8f850f1443e34c7.png>
+![](img/zhuanqian_2ae1cefc3d8b9921bfb5c711211ba1fc.png)
+![](img/zhuanqian_e5b5f140297582e90af11fc878539f60.png)
+![](img/zhuanqian_9b1207a68641d3cbf8f850f1443e34c7.png)
 ### 2. 把产品上架到资料平台
 做 Notion 模板，就把它同步到 Notion 模板广场，蹭官方流量：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8617cf0c2c9e0ce928699f02348bb14b.png>
+![](img/zhuanqian_8617cf0c2c9e0ce928699f02348bb14b.png)
 如果你擅长做思维导图，也可以把作品上架到类似的思维导图平台，让平台帮你带来曝光。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_76c60bc688c6f7167c7144c588e95f5b.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9db12769bffa5fffb21ba75a5cd36e6a.png>
+![](img/zhuanqian_76c60bc688c6f7167c7144c588e95f5b.png)
+![](img/zhuanqian_9db12769bffa5fffb21ba75a5cd36e6a.png)
 ### 3. 做独立站，吃 SEO 长尾流量
 像前面提到的百万收入案例，独立站本身就是很稳的转化阵地。国内也有人在做出海或垂直领域的资料站，用域名截流，月收入能做到 5 万到 9 万区间。
 独立站的好处是：只要 SEO 跑起来，流量就是持续的，不用天天追着平台规则跑。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0ec502a476e4dbb49805bb056dcf6d33.png>
+![](img/zhuanqian_0ec502a476e4dbb49805bb056dcf6d33.png)
 ## 六、【利润】定价策略和销售技巧
 虚拟资料最大的优势，就是成本几乎为 0。
 你的主要成本是制作这套资料的时间精力。所以单件产品可以定低价，但更聪明的做法是打包成套卖。资料卖出第一份以后，以后的每一份销售，成本都无限趋近于 0，卖得越多利润越高。
@@ -71,9 +71,9 @@ https://www.notion.so/@thomas
 - 如果你自己搭站，域名、服务器、建站这些成本加起来，控制在 1000 元以内完全可行；
 - 个人玩法：在小红书或公众号打包卖，每月卖出 500 份 29.9 元的资料包，就是 500 × 29.9 = 1.495 万元；
 - 团队玩法：搭一个网站卖会员，会员定价 289 元一年，一年卖出 500 个会员，就是 289 × 500 = 14.45 万元。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a43d5b86e4659e9ec1a63c45b3a77a2f.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7ac9aa1d073d30c8a085a015613f52b4.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_48219ba2047ae43d6d1b7a4a7d3f7fdd.png>
+![](img/zhuanqian_a43d5b86e4659e9ec1a63c45b3a77a2f.png)
+![](img/zhuanqian_7ac9aa1d073d30c8a085a015613f52b4.png)
+![](img/zhuanqian_48219ba2047ae43d6d1b7a4a7d3f7fdd.png)
 ## 七、【如何做】公众号实操路径
 公众号只是其中一个例子，其他平台逻辑大同小异。
 1. **内容制作与发布**：有经验的人，可以自己整理高质量资料合集，确保图片清晰、信息准确、内容有吸引力；没经验的人，可以去淘宝或拼多多买资料合集，把里面所有的钩子全部去掉，换成自己的钩子，再重新发布。

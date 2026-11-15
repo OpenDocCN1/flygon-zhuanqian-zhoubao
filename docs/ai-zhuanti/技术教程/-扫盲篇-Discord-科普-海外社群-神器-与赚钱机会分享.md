@@ -7,7 +7,7 @@ Discord最初是一款游戏社交软件，主打“一边打游戏一边语音�
 你可以把AI机器人、工具直接开发到Discord上卖；也可以在自己的网站或社媒引流，再用机器人做自动化社群运营，稳稳接住海外流量。举几个场景：
 - 自动翻译不同国家语言，把语言门槛直接抹平。
 - 针对用户高频提问做自动解答，省下人工回复时间和成本。
-- 做活动运营，比如搭建“海外赚钱-web航海”服务器，按功能把重要频道分类。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_30bb4ec132c8a31fab154578f21cefe7.png>
+- 做活动运营，比如搭建“海外赚钱-web航海”服务器，按功能把重要频道分类。![](img/zhuanqian_30bb4ec132c8a31fab154578f21cefe7.png)
 ### Discord基础扫盲
 **背景一览**
 Discord在2015年上线，最初定位是“为玩家而生的免费语音/文字聊天室”。2022年Midjourney把AI绘图首发放在Discord，直接拉来一大批AI爱好者；之后Web3、二次元、开发者、教育等圈层也慢慢涌入。
@@ -28,7 +28,7 @@ Discord在2015年上线，最初定位是“为玩家而生的免费语音/文�
 **几个基础概念**
 服务器，可以理解成学校里的一个社团；频道，就是社团下面的不同子部门。每个频道能设置不同功能和用户权限，通常会有公约频道、欢迎频道、闲聊频道、活动频道。管理员权限很大，可以禁言、踢人。
 **界面长什么样**
-Discord有网页端、手机端、电脑端。电脑端分四个区域：最左侧是服务器栏，显示你加入了哪些服务器；中间是频道栏，显示服务器里有哪些频道；最右侧是内容栏，显示当前频道的聊天内容或公告；最下方是个人信息栏，可以修改个人信息。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_78c8caa1de587dcb3275f25031981818.png>
+Discord有网页端、手机端、电脑端。电脑端分四个区域：最左侧是服务器栏，显示你加入了哪些服务器；中间是频道栏，显示服务器里有哪些频道；最右侧是内容栏，显示当前频道的聊天内容或公告；最下方是个人信息栏，可以修改个人信息。![](img/zhuanqian_78c8caa1de587dcb3275f25031981818.png)
 ### Discord上的变现方式
 我梳理了目前主流的玩法：
 | 机会 | 玩法 | 适合人群 | 限制/备注 |
@@ -41,7 +41,7 @@ Discord有网页端、手机端、电脑端。电脑端分四个区域：最左�
 问题在于，Discord官方很多商业模式都不对中国身份开放。想解决，要么注册美国主体公司，要么自己开发一个接了支付的机器人，绕过限制。下面给你看看我的实践。
 ### 一个AI二次元聊天男友Demo
 我做了一个AI二次元男友机器人，你可以先体验：https://discord.gg/4vyNJJgcrs（需🪜，手机打开）。效果图如下：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c8e17e22ce89ccf78a8774e8fa6c8442.png>
+![](img/zhuanqian_c8e17e22ce89ccf78a8774e8fa6c8442.png)
 核心功能：
 1. 聊天互动：根据聊天内容深度，提升亲密度数值，解锁亲昵称呼。
 2. 引入DOL虚拟货币：每次聊天都要消耗一定DOL。
@@ -59,13 +59,13 @@ Discord有网页端、手机端、电脑端。电脑端分四个区域：最左�
 ### 实操篇：做一个能收款的Discord机器人
 注册Discord账号很简单，邮箱就行，官网：https://discord.com/
 #### 第一步：申请机器人应用
-打开 https://discord.com/developers/applications ，点击右上角“New Application”，输入你的机器人名称，搞定。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ed1df0e616de2747b630bc79334800cd.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_24443d3064e2ac629ec4e9d204d12512.png>
+打开 https://discord.com/developers/applications ，点击右上角“New Application”，输入你的机器人名称，搞定。![](img/zhuanqian_ed1df0e616de2747b630bc79334800cd.png)![](img/zhuanqian_24443d3064e2ac629ec4e9d204d12512.png)
 #### 第二步：勾选权限
-在OAuth2的Bot Permissions里，勾选Send Messages、Read Message History、Use Slash Commands。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_30dd9b1b391b22275f0bc2a9fb675d3d.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1df5270dbb4bc6c20d160a960a7a81a2.png> 勾选完会生成一个链接，复制后就能邀请机器人进入服务器。
-另外，在Bot的Bot Permissions里，也要同样勾选Send Messages、Read Message History、Use Slash Commands。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_66c4b1300124f7581200ceec1cf4ee4b.png>
+在OAuth2的Bot Permissions里，勾选Send Messages、Read Message History、Use Slash Commands。![](img/zhuanqian_30dd9b1b391b22275f0bc2a9fb675d3d.png)![](img/zhuanqian_1df5270dbb4bc6c20d160a960a7a81a2.png) 勾选完会生成一个链接，复制后就能邀请机器人进入服务器。
+另外，在Bot的Bot Permissions里，也要同样勾选Send Messages、Read Message History、Use Slash Commands。![](img/zhuanqian_66c4b1300124f7581200ceec1cf4ee4b.png)
 这里说下OAuth2和Bot的区别：OAuth2负责授权参数，决定谁能用、怎么邀请、是否要求用户授权登录；Bot负责机器人参数，决定机器人能拿哪些事件、具备哪些功能。
 #### 第三步：创建服务器
-在Discord客户端里，新建一个服务器。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0a39caffe769160d075fa72665ee6e36.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_063dd94a12ca527f5cae35297e69d7cc.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_00b1b876b117400d95e5acc93dbbba16.png>
+在Discord客户端里，新建一个服务器。![](img/zhuanqian_0a39caffe769160d075fa72665ee6e36.png)![](img/zhuanqian_063dd94a12ca527f5cae35297e69d7cc.png)![](img/zhuanqian_00b1b876b117400d95e5acc93dbbba16.png)
 #### 第四步：把机器人拉进服务器
 用第二步生成的URL，把机器人邀请到自己的服务器，别人的也行。
 #### 第五步：用Cursor写核心代码
@@ -73,7 +73,7 @@ Discord有网页端、手机端、电脑端。电脑端分四个区域：最左�
 1. 聊天互动，根据内容深度提升亲密度，解锁亲昵称呼。
 2. 引入DOL虚拟货币，每次聊天扣费。
 3. 接入支付，用户购买DOL增加聊天次数。
-配置文件里要设置BOT_TOKEN、CLIENT_ID。如果忘了BOT_TOKEN，可以在Bot->Reset Token里重置。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_22314a30994faaa9420336961a472522.png>
+配置文件里要设置BOT_TOKEN、CLIENT_ID。如果忘了BOT_TOKEN，可以在Bot->Reset Token里重置。![](img/zhuanqian_22314a30994faaa9420336961a472522.png)
 #### 第六步：接入Creem第三方支付（略难）
 先解释几个基础概念。站在用户视角，支付流程是：
 1. 下单：用户点“购买”，系统立刻生成订单号，比如T20250716-001。
@@ -81,7 +81,7 @@ Discord有网页端、手机端、电脑端。电脑端分四个区域：最左�
 3. Webhook：用户付完后，支付平台会发一条POST消息到你后端，例如“订单T20250716-001已付款，签名在header里”。
 4. 后台确认：你用支付平台的“签名”验证消息没被篡改，把订单状态改成“已付”，再给用户发货、充余额或开权限。如果两边签名对不上，支付就失败。
 5. 通知用户：一切正常后，网页或Discord Bot会提示“你已经成功支付，对应套餐已开通”。
-整体流程图如下（以我的Discord机器人为例）：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b66b4aaf734060683a3b96700c0799ad.png>
+整体流程图如下（以我的Discord机器人为例）：![](img/zhuanqian_b66b4aaf734060683a3b96700c0799ad.png)
 具体实现拆成四个阶段。
 **阶段一：账户和产品准备**
 注册Creem账号（creem.io），填个人信息，上传身份证件，一般1-3天审核，收到邮件后激活。然后在后台创建4个数字产品：
@@ -129,7 +129,7 @@ Webhook服务器这部分，要在用户支付后处理回调：接收Creem通�
 4.  数据库连通性：确认生产库可被服务器访问
 5.  HTTPS 保障：主流平台会自动签发 SSL，浏览器访问必须是 https
 Creem 的 webhook 配置界面示意如下：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6066c458500bd2fb44b3eb210c96ff18.png>
+![](img/zhuanqian_6066c458500bd2fb44b3eb210c96ff18.png)
 步骤12：用户支持与售后保障
 上线后难免会遇到重复扣款、申请退款、DOL 到账延迟等情况。提前在支付页留下你的联系邮箱，避免用户找不到人直接发起举报。售后原则就是快速响应安全处理。
 常见售后场景：
@@ -143,25 +143,25 @@ Creem 的 webhook 配置界面示意如下：
 2、产品定价设置好后，可以在 Discount 里建一张 100% 折扣的优惠券，测试时填入折扣码就能零成本走一遍完整支付。不用优惠券的话，真实扣款提现还要被平台收约 5% 手续费，反复测成本很高。我就是靠这个方式完成测试的。
 ### 充值全流程演示效果
 第一步：充值前先用 /stats 查看余额，当时是 5180 DOL
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9fe0a0f1285ec0205cfef9ff955a74da.png>
+![](img/zhuanqian_9fe0a0f1285ec0205cfef9ff955a74da.png)
 第二步：输入 /recharge，选择 450 DOL 的新手充值包
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f6a6964a09ddedf30aa96ec27c797ae0.png>
+![](img/zhuanqian_f6a6964a09ddedf30aa96ec27c797ae0.png)
 第三步：点击 “立即充值” 按钮
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b5448695b4fea47bfbc9513f5b6ae50c.png>
+![](img/zhuanqian_b5448695b4fea47bfbc9513f5b6ae50c.png)
 第四步：跳转到 Creem 支付页，填写银行卡信息。为了演示我提前挂了优惠码，可以实现零费用支付。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_641bd004fd52ff013200f579fee999ec.png>
+![](img/zhuanqian_641bd004fd52ff013200f579fee999ec.png)
 第五步：点击支付后等待成交，成功后会看到如下提示
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9a0f20a1e09e9c4d6be91dff3be1c3e2.png>
+![](img/zhuanqian_9a0f20a1e09e9c4d6be91dff3be1c3e2.png)
 第六步：回到 Discord 频道再次执行 /stats 查看余额变化
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9ef0fdb6583832df3adbe4e6b6131e39.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f90ef549eb4e16e242b6c230a4ab9629.png>
+![](img/zhuanqian_9ef0fdb6583832df3adbe4e6b6131e39.png)
+![](img/zhuanqian_f90ef549eb4e16e242b6c230a4ab9629.png)
 对比充值前，余额净增 450 DOL，支付闭环验证成功。
 ## 第七步、在 Railway 上部署机器人
 把本地代码 push 到 GitHub，再由 Railway 直接导入项目自动部署
 官网入口：https://railway.com/
 第一步：登录后使用 GitHub 账号授权，点击创建新部署
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fce7d5bf01145af484250115fd382d53.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2fd0b122e6e8d66090370cdb7986a44a.png>
+![](img/zhuanqian_fce7d5bf01145af484250115fd382d53.png)
+![](img/zhuanqian_2fd0b122e6e8d66090370cdb7986a44a.png)
 ## 第八步、开始交互
 部署成功后打开 Discord，直接和你的机器人对话即可。
 # 总结

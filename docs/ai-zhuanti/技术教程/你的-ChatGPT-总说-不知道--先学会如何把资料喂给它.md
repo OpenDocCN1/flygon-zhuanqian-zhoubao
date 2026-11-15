@@ -32,9 +32,9 @@ ChatGPT 的常识库主要来自 2021 年 9 月之前的公开数据，4.0 虽�
 ### 03 | 资料被“吃掉”之后，发生了什么？
 以下内容偏原理，非技术玩家可以跳过，直接看第四节实操。
 网页端最简单的投喂，就是在对话框里直接补充材料。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bae70713b648ad4f4aefd2dd02358d23.png>
+![](img/zhuanqian_bae70713b648ad4f4aefd2dd02358d23.png)
 通过对话输入更多信息，就能完成基础版投喂。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_34b4f866b0439edc5f954f94c224bb31.png>
+![](img/zhuanqian_34b4f866b0439edc5f954f94c224bb31.png)
 但资料太长时，对话框就吃不消了。这时有两条路：Fine Tuning 和 Embedding。
 打个粗浅的比方：
 Fine Tuning 像亲手带一个“弟子”，他会活学活用、自由发挥；
@@ -65,8 +65,8 @@ Embedding 像给模型配一本“参考手册”，手册里写了的才能答�
 ### 04 | 不同场景，具体怎么喂？
 **短文本**
 内容不长时，直接在 New Chat 里粘贴就行。比如给 GPT 一段小红书文案，让它学完语气再仿写，这就是最基础的操作。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_13af9fdfff9d0157cc1d2bdda4446294.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a018e15e2cdaa7f724e47ae9a557be9e.png>
+![](img/zhuanqian_13af9fdfff9d0157cc1d2bdda4446294.png)
+![](img/zhuanqian_a018e15e2cdaa7f724e47ae9a557be9e.png)
 你看，我甚至没下指令，GPT-4 已经顺着风格往下写了。
 **网址**
 我们真正想喂的，不是那个链接，而是链接背后的文字。比如公众号文章。
@@ -74,34 +74,34 @@ Embedding 像给模型配一本“参考手册”，手册里写了的才能答�
 - 用 New Bing：最省心。它跑的是 GPT-4，又自带搜索能力，可以理解成“能联网的 ChatGPT”。优点：免费、快；缺点：回复偏短，还容易聊着聊着就拒绝接话。具体开通方法，搜一下就知道了。
 - 用 Chrome 插件：比如 WebChatGPT，装上之后直接把联网功能嵌进 ChatGPT。优点：免费且即装即用；缺点：ChatGPT 页面一旦改版，插件可能失灵。
 插件地址：https://chrome.google.com/webstore/detail/webChatGPT-ChatGPT-with-i/lpfemeioodjbpieminkklglpmhlngfcn
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_13f2b6e38debb54fe540ff9a12ca3c46.png>
+![](img/zhuanqian_13f2b6e38debb54fe540ff9a12ca3c46.png)
 - 用官方插件应用市场的联网插件：审核严格，稳定性好，但前提得是 Plus 会员。先在设置里手动打开插件功能，然后搜索 WebPilot 装上，GPT 就能自己去访问网页了。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a5a7e2208e8d9945174be5be120bb418.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_14374f4d677fa9bed559605c185dee9b.png>
+![](img/zhuanqian_a5a7e2208e8d9945174be5be120bb418.png)
+![](img/zhuanqian_14374f4d677fa9bed559605c185dee9b.png)
 看，它已经跑到 ESPN 去抓比赛数据了。
 写给开发者的一段话：
 如果你不打算用网页端，而是直接调 API，网址就要自己处理。可以用爬虫抓取页面，再用 readability 之类的工具清洗正文，最后把内容放进请求上下文。文档过长就切段，挑出和问题相关的部分再拼进去。
 **PDF**
 PDF 和网址同理，有官方插件，也有“野生”工具。
 插件方面，AskYourPDF、ChatWithPDF 都能让 GPT 边读 PDF 边回答。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b323ba6426f8a5e0d0e75238dc173700.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5bf656d7e7e800a2df3fc576c3782cd2.png>
+![](img/zhuanqian_b323ba6426f8a5e0d0e75238dc173700.png)
+![](img/zhuanqian_5bf656d7e7e800a2df3fc576c3782cd2.png)
 不是 Plus 用户也没关系，可以试试 ChatPDF：
 https://www.chatpdf.com
 或者圈友自制的 Chatpan：
 https://chatpan.ai/
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_677f42415b4846bf3c0bd89040c51737.png>
+![](img/zhuanqian_677f42415b4846bf3c0bd89040c51737.png)
 我把龙哥过去说过的内容全丢进去，之后随时都可以开口问。这个“龙哥分身”从不嫌烦，而且秒回。
 **Excel**
 喂表格也不需要什么高深操作，把表格结构和你的诉求描述清楚就行。
 比如下面这张表：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5e647c58483c1851a291134eae19b11e.png>
+![](img/zhuanqian_5e647c58483c1851a291134eae19b11e.png)
 你想找出各维度表现都不错的网页，就直接在对话里提需求：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5d2a316723364d3b50d0da78dce6a5de.png>
+![](img/zhuanqian_5d2a316723364d3b50d0da78dce6a5de.png)
 GPT 会给出对应公式，你复制到 E1 单元格：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_547c9dccc7d3b0179538abf2e3c6ef6f.png>
+![](img/zhuanqian_547c9dccc7d3b0179538abf2e3c6ef6f.png)
 回车，结果就出来了：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_42be1acb72c1410318822e70831ebc9b.png>
+![](img/zhuanqian_42be1acb72c1410318822e70831ebc9b.png)
 这张表是虚构的，但这套方法可以复制到很多表格场景，能省掉不少重复劳动。当然，结果未必一步到位，剩下的优化和微调，还得自己来。
 **图片、短视频**
 GPT-4 发布时说过支持多模态，也就是音频、图片、视频都能输入输出，但目前还没全面开放，只能等。
@@ -120,16 +120,16 @@ GPT-4 发布时说过支持多模态，也就是音频、图片、视频都能�
 假设文章链接是：
 https://mp.weixin.qq.com/s/guBFNFtwR9WdmYlFDKtJNg
 按自己的模板输入后，得到这样的结果：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_83bbe21ade0dbbbff4b4f1e71d962550.png>
+![](img/zhuanqian_83bbe21ade0dbbbff4b4f1e71d962550.png)
 当时用的提示词是：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3793c01e1b5db19297bd1c85f57b580d.png>
+![](img/zhuanqian_3793c01e1b5db19297bd1c85f57b580d.png)
 再换一组思路，让 GPT 做分析：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1699146fbc8b998244a746c7402d8dfb.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_95cfa85055e10ab816c1abc06ddd64d3.png>
+![](img/zhuanqian_1699146fbc8b998244a746c7402d8dfb.png)
+![](img/zhuanqian_95cfa85055e10ab816c1abc06ddd64d3.png)
 看完之后，原本想跟老婆一起创业的人，估计会冷静不少，甚至开始怀疑婚姻。
 **借力高手的模板库**
 在还没熟练掌握调教技巧之前，完全可以先用成品。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6d5e8b651339e825dbf456eb99b3ce91.png>
+![](img/zhuanqian_6d5e8b651339e825dbf456eb99b3ce91.png)
 比如这个网站：https://www.aishort.top/
 里面内置了 200 多套提示词模板，按需求复制、粘贴，基本就能生成你的自媒体内容。
 一篇不够，就让 GPT 再来十篇，查重率控制在 5% 以内。
@@ -149,10 +149,10 @@ https://mp.weixin.qq.com/s/guBFNFtwR9WdmYlFDKtJNg
 各行业的赚钱项目，几乎都能在这里找到成熟的“流量—产品—变现”打法。
 因为信息前沿、内容扎实，官方还会请高手带队实操，很多圈友因此赚到了钱。最新一期的提前续费率已经接近 70%，有人称这里是“赚钱圈的黄埔军校”。
 内容质量高、实战项目多、交流氛围好、价值观正，这四点都是公认的。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ede8af3ba7b13074589a28312c584bb3.png>
+![](img/zhuanqian_ede8af3ba7b13074589a28312c584bb3.png)
 **3. ChatGPT风向标 星球**
 一个免费的 GPT/AIGC 交流社区，目前用户数已超过 4 万。大家在这里交换最新案例和合作机会。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c480e200c2e62b6f5014411300be11b3.png>
+![](img/zhuanqian_c480e200c2e62b6f5014411300be11b3.png)
 **4. AI探索家 电台**
 在网易云音乐、小宇宙等播客平台搜索“AI探索家”就能找到。每周五更新，黄小刀陪你谈 AIGC 应用、谈投喂、谈一切你关心的话题。
 **5. 风向标拆解模板**

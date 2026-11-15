@@ -2,7 +2,7 @@
 ## 我为什么偏执到要把 dou+讲透
 深夜睡不着，脑子里全是抖音数据。作为一个长期混迹抖音的实操派，抖加我总共砸进去也就十万出头，跟那些大佬比不算多。但我一直有个习惯，看到真正出单的人就掏钱学课。市面上讲抖加能听进耳朵的课我基本扫了一遍，现在把它们拆开重组，再加上自己的实战经验，整理成这篇干货，希望能帮你少走弯路。
 先报个底：2023 年起做的账号，总共花了约 1 万抖加，撬动了抖音千万级别的自然曝光。作品一爆就开播带货或者引导评论区下单，累计售出 1 万多单，客单价 60 元左右，佣金 55%，变现约 30 万。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2d086c0374f220010fa2e9fe72366eb5.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_627cb7eff41529484371e28aea677a03.png>
+![](img/zhuanqian_2d086c0374f220010fa2e9fe72366eb5.png)![](img/zhuanqian_627cb7eff41529484371e28aea677a03.png)
 下面进入干货部分，说说我的理解。
 ## 一、抖加到底在干嘛
 ### 1.1 提前触发人工审核
@@ -13,7 +13,7 @@
 ## 二、投放实操心法
 ### 2.1 新号怎么投
 新号不要碰粉丝量，先在【账号经营】里选【点赞评论】。新号的核心任务是给系统打标签，需要大量互动数据喂养，等系统吃饱了就知道该把内容推给谁，标签才算打牢。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9ee191eb47f8157e7f96e5bed46e413e.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bc3ee8c648b49792dc2a9937f600ce5d.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_74a9fcbbe625d752a88a002b6cb5db49.png>
+![](img/zhuanqian_9ee191eb47f8157e7f96e5bed46e413e.png)![](img/zhuanqian_bc3ee8c648b49792dc2a9937f600ce5d.png)![](img/zhuanqian_74a9fcbbe625d752a88a002b6cb5db49.png)
 ### 2.2 投放时长怎么选
 时长越长人群越精准，一般不建议超过 24 小时。
 时长越短人群越泛，但短时投放能快速起数据，形成羊群效应。点赞数字往上走，会吸引更多人点进来、看主页、看评论、看完视频，就像你刷到一个播放不高的视频却有几千赞，本能就会好奇点进去，最后也贡献了数据。
@@ -29,12 +29,12 @@
 2.4.2 再看作品的评论区、内容形式、选题、高频提问，二次确认人群是否一致。
 核心问题：这条作品是在对谁讲？想传达什么？想让用户做什么行为？
 操作路径：抖音搜关键词→热点宝核对画像→优先找 5-10 万粉、近一个月快速涨起来的小号。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_84cc20d0ed559931996616b13df98e85.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4f32661838b52d1b41ccbec7ceaedd13.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e798a5d9e7f035a9adf5562ea6d35c1c.png>
+![](img/zhuanqian_84cc20d0ed559931996616b13df98e85.png)![](img/zhuanqian_4f32661838b52d1b41ccbec7ceaedd13.png)![](img/zhuanqian_e798a5d9e7f035a9adf5562ea6d35c1c.png)
 **注意：投对标不是投给对标本人的粉丝，而是买相似画像的人群。我用小号投过大号的对标，直播间进来的根本不认识我。建议多选几个对标，同一条作品同时投不同对标，看哪个数据最好，选出最优的达人或组合一直投到起号。**
 ### 2.5 30% 测投法则
 新号发完就投 100 元，点赞评论+自定义+达人相似。数据不行不用跑完，跑到 30-50 元就可以叫停。
 **中止技巧：权限设置→仅自己可见→成功后→所有人可见，秒撤。**
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d6a922fe01a4370b253c233f8069001c.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f72f6b4fc77da8ac4680749d3f013374.png>
+![](img/zhuanqian_d6a922fe01a4370b253c233f8069001c.png)![](img/zhuanqian_f72f6b4fc77da8ac4680749d3f013374.png)
 **好作品不是靠硬投堆出来的，是靠筛出来的。与其纠结为什么拍得好没流量，不如花 100 元让自己死心。**
 我判断优质作品的参考线：
 均播时长 >50%
@@ -74,9 +74,9 @@
 ① 新号冷启动慢，多建计划试
 ② 定向太窄，放宽条件。只投达人就关掉自定义，或自定义只限年龄性别不绑达人
 **4.3 数据在哪看**
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_086cd07c94a4b9f6aff5ec81b7f23cc9.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_99fb03df123cacafd38ffa2b0e7b7ad0.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1d89e0507ae576ac7f25e5788c486623.png>
+![](img/zhuanqian_086cd07c94a4b9f6aff5ec81b7f23cc9.png)![](img/zhuanqian_99fb03df123cacafd38ffa2b0e7b7ad0.png)![](img/zhuanqian_1d89e0507ae576ac7f25e5788c486623.png)
 **4.4 怎么优化方向**
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a159c6674d4ebd24e77f777d9f076ee8.png>
+![](img/zhuanqian_a159c6674d4ebd24e77f777d9f076ee8.png)
 写了这么多，你可能不会全看，看了也不一定做，做了也可能做错，错了也不改……算了，我收工了。
 * * *
 评论区：
@@ -87,5 +87,5 @@ AI 小陈 : dou+投放
 钱哥老矣 : 一起加油
 蜜蜂 : 一起加油[握手]
 子鹏 : 文风有点像某个 dou+培训课的老师，是一个团队的不？
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_21de372a77ea1f441c613f7316831ae1.png>
+![](img/zhuanqian_21de372a77ea1f441c613f7316831ae1.png)
 * * *

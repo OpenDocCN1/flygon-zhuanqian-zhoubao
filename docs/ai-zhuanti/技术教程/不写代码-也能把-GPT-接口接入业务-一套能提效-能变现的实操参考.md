@@ -23,102 +23,102 @@ ChatGPT 是很火，但多数人并没有真正参与进去。想站上这波机
 ### 1. 先做问卷
 谷歌 Forms 有个方便之处：用户提交的字段会自动落在绑定的电子数据表里，所以我们只需要把问卷地址公开。
 新建问卷，取名为“xxx黄大仙AI起名”。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_86d45d64994b37b7a147313d5ca6c2e4.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0845e5ce2c6e02eee651ab46340dfcbc.png>
+![](img/zhuanqian_86d45d64994b37b7a147313d5ca6c2e4.png)
+![](img/zhuanqian_0845e5ce2c6e02eee651ab46340dfcbc.png)
 用户提交后，数据表会自动生成对应字段。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e044c58975b050d1aaa88010ad4ac8de.png>
+![](img/zhuanqian_e044c58975b050d1aaa88010ad4ac8de.png)
 建议设置四个字段：称呼、手机号、邮箱、具体问题。称呼方便后续打招呼；手机号可以接 WhatsApp；邮箱用来收取最终结果；问题栏放一个填写示例，用户更容易上手。
 字段配置好以后，在“回复”区域把问卷同步到电子数据表。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6c95abb1e07087ee3591aaf0c72daf5f.png>
+![](img/zhuanqian_6c95abb1e07087ee3591aaf0c72daf5f.png)
 接下来可以把问卷放出去：直接邮件发给用户、公开问卷链接、或把嵌入代码放进网站。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b5303cabdd247760eda54df892110119.png>
+![](img/zhuanqian_b5303cabdd247760eda54df892110119.png)
 用户打开链接后，看到的就是这样的页面。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a81e85a9cf054bcd065c93a3862079e0.png>
+![](img/zhuanqian_a81e85a9cf054bcd065c93a3862079e0.png)
 ### 2. 获取接口权限
 进入 OpenAI 控制台，登录后点击右上角头像，找到 API keys 入口。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4371144f02a487880fcba21a9a3ada4b.png>
+![](img/zhuanqian_4371144f02a487880fcba21a9a3ada4b.png)
 生成密钥后立即保存，不要等需要时再找。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d8e65028f23bc7913ba258bae03594e2.png>
+![](img/zhuanqian_d8e65028f23bc7913ba258bae03594e2.png)
 再去 Settings 里复制机构 ID。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_45e5385775f27ab9b30c5c5331ad039e.png>
+![](img/zhuanqian_45e5385775f27ab9b30c5c5331ad039e.png)
 ### 3. 在 Make 上搭执行链
 Make 是一个可视化的自动连接平台，可以把各种互联网服务拼在一起，操作方式就是拖拽、点击。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_54156890d7fa28a583b2b721f4355081.png>
+![](img/zhuanqian_54156890d7fa28a583b2b721f4355081.png)
 注册后，免费档位可以建两条执行链。
 #### 3.1 新建场景与触发器
 Scenario 在这里表示一条完整执行链。点击新建场景，开始搭建。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1df6b21d1b123784359a3ab8eafc1ac1.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_873f40faffd59a4c8ce0395e691cbfac.png>
+![](img/zhuanqian_1df6b21d1b123784359a3ab8eafc1ac1.png)
+![](img/zhuanqian_873f40faffd59a4c8ce0395e691cbfac.png)
 右侧会出现服务列表，搜索“Google”可以找到所有谷歌相关产品。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0c28ac648c0c8b1a2b90a64d5e572b4e.png>
+![](img/zhuanqian_0c28ac648c0c8b1a2b90a64d5e572b4e.png)
 选择谷歌 Forms 的“监控新提交”事件。只要有人提交问卷，这条链就会启动。可以把它想象成餐厅接单：客人点餐，店员记录，后厨制作，端上桌，最后结账。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b3e69a8858288af546a8c55f238f7e21.png>
+![](img/zhuanqian_b3e69a8858288af546a8c55f238f7e21.png)
 第一次接入需要授权你的谷歌账号。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7ca54920a9349c5e371734a20c0b7b74.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b59c2926341a0a86d9bb07dec1c60f53.png>
+![](img/zhuanqian_7ca54920a9349c5e371734a20c0b7b74.png)
+![](img/zhuanqian_b59c2926341a0a86d9bb07dec1c60f53.png)
 授权结束，再指定要用的电子数据表和工作表。Limit 控制单轮运行最多处理几条数据。比如每 15 分钟跑一轮，这轮来了 10 条提交，如果 Limit 设成 2，本轮只会处理前 2 条。你可以根据业务量自行调整。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9233a675ffc8a07b9df761ef98dade8d.png>
+![](img/zhuanqian_9233a675ffc8a07b9df761ef98dade8d.png)
 #### 3.2 接入 GPT
 再加一个节点，把 OpenAI 接进来。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_36f1cc2c6ee5eafb7dc450b7b3b37365.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_db81cd8570c9f31bf5b8422bcea49ed6.png>
+![](img/zhuanqian_36f1cc2c6ee5eafb7dc450b7b3b37365.png)
+![](img/zhuanqian_db81cd8570c9f31bf5b8422bcea49ed6.png)
 OpenAI 节点可以做多种事：回答、编辑、合规判断、生成图片。这里选用“执行问答任务”，把访客的问题当作指令传过去。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5411f5bdd0f596a243287aa0efa7ece9.png>
+![](img/zhuanqian_5411f5bdd0f596a243287aa0efa7ece9.png)
 第一次使用会要求验证，把接口密钥和机构 ID 填好并保存。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e51a22c757a977a1ad8020de051dfc74.png>
+![](img/zhuanqian_e51a22c757a977a1ad8020de051dfc74.png)
 模型可以按需选择，Playground 里也可以提前测试。本示例选的是 davinci-003。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a01fffdbff5eeb5cf8b4e945e876c856.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0d756cc6b34b907fe355459fb3d7e1bc.png>
+![](img/zhuanqian_a01fffdbff5eeb5cf8b4e945e876c856.png)
+![](img/zhuanqian_0d756cc6b34b907fe355459fb3d7e1bc.png)
 Prompt 就是发给模型的指令。如果你在 Playground 里输入访客问题，模型会给出答案；现在把问卷里的“问题”字段变成变量，就能实现批量生成。Max Tokens 控制单次可返回的内容长度，设置太短或留空，回复可能会很短。Temperature 控制创造性，示例填 0.8。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0d981a1aae7375d885f4f1001505ba5e.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5c090d2792e896026cac3a25a70f805e.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bd0164473b0ea49a743ea28ac43fadf9.png>
+![](img/zhuanqian_0d981a1aae7375d885f4f1001505ba5e.png)
+![](img/zhuanqian_5c090d2792e896026cac3a25a70f805e.png)
+![](img/zhuanqian_bd0164473b0ea49a743ea28ac43fadf9.png)
 这些参数都能在 Playground 页面上对照调整。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_258e754df601a7dd0cbe7709256403ec.png>
+![](img/zhuanqian_258e754df601a7dd0cbe7709256403ec.png)
 #### 3.3 把结果写回数据表
 再加一个谷歌电子表节点，将模型生成的文字保存到对应行。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_60f2c4ce4116e6c4cceec65166a555e3.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a293a3be43a45e4567697fe0978a291d.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_02eddf87f2be58a176525cc44332b0d5.png>
+![](img/zhuanqian_60f2c4ce4116e6c4cceec65166a555e3.png)
+![](img/zhuanqian_a293a3be43a45e4567697fe0978a291d.png)
+![](img/zhuanqian_02eddf87f2be58a176525cc44332b0d5.png)
 Row number 这里选变量 Row Number，确保答案落在访客提交的那一行。OpenAI 返回的取值在“Choices - text”中，把它写入“答案”列即可。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_20d6f5095636791557415081f1ee737e.png>
+![](img/zhuanqian_20d6f5095636791557415081f1ee737e.png)
 至此，收集、加工、保存已经走通。还差最后一步：把结果交给用户。
 #### 3.4 自动投递结果
 增加一个 Outlook 邮件节点。首次使用要授权你的邮箱，然后选择“新建并发出邮件”。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3e7a2ce65ec09de066926511950e6e54.png>
+![](img/zhuanqian_3e7a2ce65ec09de066926511950e6e54.png)
 主题按业务填写；正文可以引用用户称呼和 OpenAI 生成的“Choices - text”。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_410052adc91175457bc71a62012275a1.png>
+![](img/zhuanqian_410052adc91175457bc71a62012275a1.png)
 注意：这段内容本身没有排版，直接发出会挤在一起。建议在需要断句的位置加上 HTML 换行标签 `<br>`。下面就是一个没加标签的反例。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cd13f657f6e14723b029a1fb69c2f214.png>
+![](img/zhuanqian_cd13f657f6e14723b029a1fb69c2f214.png)
 收件人字段选用用户在问卷中留下的邮箱地址。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e1c82ade92e06784ed912e5d6803c83f.png>
+![](img/zhuanqian_e1c82ade92e06784ed912e5d6803c83f.png)
 上述步骤都配好后，从接收问题、调用 GPT、到邮件送达，整条链路已经闭环，全程零代码。WhatsApp 消息的配置思路也一样，这里先不展开。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4bdc2c26957a2896ce50936217d3fcc1.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e58d6108454d31c8a9c7110563184a50.png>
+![](img/zhuanqian_4bdc2c26957a2896ce50936217d3fcc1.png)
+![](img/zhuanqian_e58d6108454d31c8a9c7110563184a50.png)
 #### 3.5 运行执行链
 Run once 可以让它立刻运行一次。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_922206cf7da7b71263e2a741f80fa70f.png>
+![](img/zhuanqian_922206cf7da7b71263e2a741f80fa70f.png)
 也可以设置定时，默认每 15 秒触发一次，时间可以按需改。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d82c7c357cd53c6aa176bea089f31ca6.png>
+![](img/zhuanqian_d82c7c357cd53c6aa176bea089f31ca6.png)
 ### 4. 效果验证
 1）访客在问卷页提交资料
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_32b370f531c9b50226ea412eb64209c6.png>
+![](img/zhuanqian_32b370f531c9b50226ea412eb64209c6.png)
 2）用户邮箱收到 GPT 返回的内容
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_85b0189cb41d98a308612d0ed50b82a1.png>
+![](img/zhuanqian_85b0189cb41d98a308612d0ed50b82a1.png)
 3）电子数据表里已经存下这次问答
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0e932143f698cd9babb7b6bd384e0578.png>
+![](img/zhuanqian_0e932143f698cd9babb7b6bd384e0578.png)
 ### 5. 如何让结果更准
 如果觉得 GPT 回答不够贴切，可以自行准备行业语料喂给 OpenAI，让模型在后续生成时有更多参考。
 ### 6. 还能怎么玩
 - 用机器人监控 RSS 更新，由 GPT 整理后发到 Twitter/Instagram
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1b1cb8b8bd65866f657294e36bf91b47.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_009086843be4ce3292b9648fcd507c0c.png>
+![](img/zhuanqian_1b1cb8b8bd65866f657294e36bf91b47.png)
+![](img/zhuanqian_009086843be4ce3292b9648fcd507c0c.png)
 - 监听公众号消息，让 GPT 生成应答后自动回信
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4c8a0440961367402ddb89b1097525a1.png>
+![](img/zhuanqian_4c8a0440961367402ddb89b1097525a1.png)
 更多用法可以查阅 Make 官方文档，站内搜索“Help Center”就能找到。
 ## 写在最后
 这个例子很小，但代表一类组合方式。GPT 接口 + 可视化自动平台的潜力，远不止“做个玩具”，更值得放进真实的工作和生意里，帮助自己省人、省时、增收。
 我长期做 TikTok 和独立站电商，接下来希望在社交内容、SEO、商品详情页、跨境工具等方向做更多尝试。如果你也在研究 GPT 的落地场景，欢迎一起交流。
 如果这篇文章对你有帮助，请告诉我一声。
 作者：龙哥 杨永，从事外贸和跨境业务 15 年。目前与顾小北老师、黄小刀老师合著《人人都能玩赚跨境电商 AI 实战宝典 跨境一本通》，龙哥老师作序。我们正在做 AI 跨境的深度落地，同路人可以添加我的微信，验证信息写“圈友”。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cc12e360533b169c4a0013bb284c4e24.png>
+![](img/zhuanqian_cc12e360533b169c4a0013bb284c4e24.png)

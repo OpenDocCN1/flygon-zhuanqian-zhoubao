@@ -7,31 +7,31 @@
 知识库版：
 https://my.feishu.cn/wiki/space/7668857880593829100?ccm_open_type=lark_wiki_spaceLink&open_tab_from=wiki_home
 ⬇⬇先看几个阅览图，更有感觉知道接下来要说什么、做什么！
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_76aa1412b4e7216bb5de9751ea8d5a74_0_0.png>
+![](img/zhuanqian_76aa1412b4e7216bb5de9751ea8d5a74_0_0.png)
 社群对应的官网
 内容工作台
 航海家圈友参照做的“作业”
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_76aa1412b4e7216bb5de9751ea8d5a74_1_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_76aa1412b4e7216bb5de9751ea8d5a74_1_1.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_76aa1412b4e7216bb5de9751ea8d5a74_1_2.png>
+![](img/zhuanqian_76aa1412b4e7216bb5de9751ea8d5a74_1_0.png)
+![](img/zhuanqian_76aa1412b4e7216bb5de9751ea8d5a74_1_1.png)
+![](img/zhuanqian_76aa1412b4e7216bb5de9751ea8d5a74_1_2.png)
 随时跟微信机器人对话，读取微信聊天记录，然后帮我找到适合我的选题。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_76aa1412b4e7216bb5de9751ea8d5a74_2_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_76aa1412b4e7216bb5de9751ea8d5a74_2_1.png>
+![](img/zhuanqian_76aa1412b4e7216bb5de9751ea8d5a74_2_0.png)
+![](img/zhuanqian_76aa1412b4e7216bb5de9751ea8d5a74_2_1.png)
 一条文章生成许多个「语料块」
 反向链接关联
 AI 一键生成高质量「公众号」，并且做自动排版，并且推送到「公众号草稿箱」，直接手动编辑下发布即可。
 正式开始。
 ## 一、起点是一次我觉得不够亮眼的分享
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_76aa1412b4e7216bb5de9751ea8d5a74_3_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_76aa1412b4e7216bb5de9751ea8d5a74_3_1.png>
+![](img/zhuanqian_76aa1412b4e7216bb5de9751ea8d5a74_3_0.png)
+![](img/zhuanqian_76aa1412b4e7216bb5de9751ea8d5a74_3_1.png)
 7 月 26 日，我在龙哥盟航海家线下大会上，分享了自己在用的工作流：怎样把电脑微信的历史翻出来，怎样把手机和网页内容归入知识库，再让 AI 整理调用。
 轮到我时，现场只剩少量听众。我心里很忐忑：这套东西没有炫酷演示，也不属于“一句话就变现”的类型，会不会只有我自己觉得好用？
 结束后，有人告诉我：“石老师，你讲得很扎实。”也有人说：“值了。”
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_76aa1412b4e7216bb5de9751ea8d5a74_4_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_76aa1412b4e7216bb5de9751ea8d5a74_4_1.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_76aa1412b4e7216bb5de9751ea8d5a74_5_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_76aa1412b4e7216bb5de9751ea8d5a74_5_1.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_76aa1412b4e7216bb5de9751ea8d5a74_5_2.png>
+![](img/zhuanqian_76aa1412b4e7216bb5de9751ea8d5a74_4_0.png)
+![](img/zhuanqian_76aa1412b4e7216bb5de9751ea8d5a74_4_1.png)
+![](img/zhuanqian_76aa1412b4e7216bb5de9751ea8d5a74_5_0.png)
+![](img/zhuanqian_76aa1412b4e7216bb5de9751ea8d5a74_5_1.png)
+![](img/zhuanqian_76aa1412b4e7216bb5de9751ea8d5a74_5_2.png)
 那一刻我才确认，这份内容是有价值的，并没有我想的那样平平无奇。
 多亏大家的反馈，我才更有决心把更完整的版本写出来。
 很多人不缺工具，缺的是一条能长期运转的路径：
@@ -98,8 +98,8 @@ IMA 只是第一站，后续手工或 Codex 批量拉到 Obsidian，原始和加
 Hermes 是入口和调度层，不是数据库。Codex 是理解执行的大脑，不会凭空拥有微信记录。厘清三层后排错更简单。
 基于本机微信聊天记录还能生成「社群活跃统计罗盘」。
 手机端如何与微信机器人对话读取聊天记录，后面有实操讲安装配置。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_76aa1412b4e7216bb5de9751ea8d5a74_13_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_76aa1412b4e7216bb5de9751ea8d5a74_13_1.png>
+![](img/zhuanqian_76aa1412b4e7216bb5de9751ea8d5a74_13_0.png)
+![](img/zhuanqian_76aa1412b4e7216bb5de9751ea8d5a74_13_1.png)
 ### 4. 已有文档：直进 Obsidian 再分发
 Word、Markdown、飞书旧文档、过往文章，无需再收藏一遍。
 我先确定原稿，放进 Obsidian 对应目录，保留来源和日期，再让 Codex 做格式统一、拆分、归类。
@@ -378,5 +378,5 @@ https://my.feishu.cn/wiki/space/7668857880593829100?ccm_open_type=lark_wiki_spac
 工具和教程是最基础的门槛，真正拉开差距的是“立刻开干”和“圈层信息差”。
 我们只拆商业闭环，只压榨 AI 效率。系统里已沉淀 1000+ 跑通的套利实战案例。
 ⬇ 查看圈子数字资产和加入门槛：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_76aa1412b4e7216bb5de9751ea8d5a74_37_0.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_76aa1412b4e7216bb5de9751ea8d5a74_37_1.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_76aa1412b4e7216bb5de9751ea8d5a74_37_2.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_76aa1412b4e7216bb5de9751ea8d5a74_38_0.png>
+![](img/zhuanqian_76aa1412b4e7216bb5de9751ea8d5a74_37_0.png)![](img/zhuanqian_76aa1412b4e7216bb5de9751ea8d5a74_37_1.png)![](img/zhuanqian_76aa1412b4e7216bb5de9751ea8d5a74_37_2.png)
+![](img/zhuanqian_76aa1412b4e7216bb5de9751ea8d5a74_38_0.png)

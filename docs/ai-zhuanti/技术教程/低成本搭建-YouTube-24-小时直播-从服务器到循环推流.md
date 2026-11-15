@@ -3,16 +3,16 @@
 YouTube Shorts 的曝光和推荐能力很强，但普遍存在单价偏低、流量容易集中到印度等情况。我开始做 YouTube 后，除了短视频，也陆续制作横版长视频。部分账号获得推荐、满足开播条件后，就可以尝试用直播增加收益。
 直播推流有两种思路。第一种是在自己的电脑上安装 OBS，再通过本地网络推流，操作比较直接，但会持续消耗机场流量。我测试过播一个下午，流量就用了约 300GB；如果每月套餐只有几百 GB，很快就会用完，因此长期来看并不经济。
 更省心的方案，是租一台不限流量的海外服务器。推流对配置要求不高，通常 1GB 内存、甚至单核配置也可以尝试。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8b05160d4f6763afdfb6b19895f74ef2.png>
+![](img/zhuanqian_8b05160d4f6763afdfb6b19895f74ef2.png)
 目前我的测试结果是，横版长视频直播的千次收益约为 0.7。竖版直播的单价可能会低一些，我暂时还没有拿到相关数据，后续有结果再补充。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6e13531d073ee3d3b4abcd837ccf73ed.png>
+![](img/zhuanqian_6e13531d073ee3d3b4abcd837ccf73ed.png)
 最近几个月，我又有两三个账号通过了 YPP。视频推流和流量增长都很快，账号具备条件后，可以考虑尽早开播。制作方式也不复杂：把已有内容整理成一个较长的视频，如果素材是短视频，可以剪辑拼接成大约一小时的片段，再设置循环播放。具体时长可根据自己的内容安排。
 # 直播搭建步骤
 ## 一、准备一台海外服务器
 首先需要租用一台海外 VPS，地区选择比较灵活。我使用的是莱卡云的一台美国服务器，配置为双核、1GB 内存，并且没有流量限制。
 服务器商并不一定要选这一家。我的选择主要是因为之前注册过，购买流程比较方便，支持微信、支付宝付款；部分海外 VPS 则需要使用海外信用卡，对一些用户来说不太方便。香港、韩国等地区的服务器也可以作为选择。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a63fd19578d60a8ecdb412329202f297.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2c811094a1e6b587bd43db46fadcded6.png>
+![](img/zhuanqian_a63fd19578d60a8ecdb412329202f297.png)
+![](img/zhuanqian_2c811094a1e6b587bd43db46fadcded6.png)
 ## 二、准备脚本和远程连接工具
 搭建时可以借助 AI 工具，例如豆包、Kimi 或 DeepSeek。遇到系统配置或安装报错时，把问题信息发给 AI，通常能更快找到处理方法。
 循环推流脚本可以参考作者的网站：
@@ -25,21 +25,21 @@ YouTube Shorts 的曝光和推荐能力很强，但普遍存在单价偏低、�
 在 home 目录里新建一个文件夹，名称自行决定。我创建的文件夹叫 `xh`，随后又在其中建了一个 `video` 文件夹，用来存放准备循环播放的视频。
 将视频上传到 video 文件夹后，脚本会按顺序逐个播放，并持续循环推流。上传时可以点击工具里的上传按钮选择文件。需要注意的是，文件过大时上传容易中断，建议单个视频控制在 2—3GB 左右。
 我的服务器实测可以稳定处理 720P 视频；如果使用 1080P，CPU 和内存占用会明显升高，是否能流畅运行需要结合服务器配置测试。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_641ae186eec78e6e2230d3c4e3fd691c.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_46a0b0e6d6b64f632676688f9820dbee.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2e7a329724b7e99d6eb87a512d163e9e.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e42de52add6177989bf53bc02d05cb3b.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_66a192fb12ac24f3a7e359af59cfbe1f.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a465a3fca1887afe7d059b8059064e55.png>
+![](img/zhuanqian_641ae186eec78e6e2230d3c4e3fd691c.png)
+![](img/zhuanqian_46a0b0e6d6b64f632676688f9820dbee.png)
+![](img/zhuanqian_2e7a329724b7e99d6eb87a512d163e9e.png)
+![](img/zhuanqian_e42de52add6177989bf53bc02d05cb3b.png)
+![](img/zhuanqian_66a192fb12ac24f3a7e359af59cfbe1f.png)
+![](img/zhuanqian_a465a3fca1887afe7d059b8059064e55.png)
 ## 四、安装并配置推流脚本
 前面的服务器、文件夹和视频准备完成后，就可以开始安装脚本。
 建议先把脚本原文以及 VPS 的操作系统版本一并发给 AI，让它根据你的环境修改命令。原始脚本可以从“FFmpeg 循环推流脚本 lala.im”页面复制，最好从头到尾完整提供。我使用的是 DeepSeek，让它按照服务器系统调整后，再逐步执行。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f66f3e3c1d16b38139104b1f6d160c7e.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ea306d4027958bb60fbac33355340a55.png>
+![](img/zhuanqian_f66f3e3c1d16b38139104b1f6d160c7e.png)
+![](img/zhuanqian_ea306d4027958bb60fbac33355340a55.png)
 整个过程主要会用到两个工具：`screen` 和 `FFmpeg`。AI 会给出对应的安装命令，将代码复制到终端并回车即可。终端开始下载和运行内容时，等待其完成就好。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d71590555ad01ad161e8ee6fdbf9c500.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_03c37351ef5e5ab2c68947058c08f404.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_376765486dcb9f05bbd1794fe25c2c22.png>
+![](img/zhuanqian_d71590555ad01ad161e8ee6fdbf9c500.png)
+![](img/zhuanqian_03c37351ef5e5ab2c68947058c08f404.png)
+![](img/zhuanqian_376765486dcb9f05bbd1794fe25c2c22.png)
 如果安装途中出现错误，把完整报错复制给 AI，通常就能获得下一步的修正建议。
 具体操作大致分为以下几步：
 ### 第一步：创建 screen 会话
@@ -48,13 +48,13 @@ YouTube Shorts 的曝光和推荐能力很强，但普遍存在单价偏低、�
 ```
 screen -S stream
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d754ee1994933ad57f94502312746edc.png>
+![](img/zhuanqian_d754ee1994933ad57f94502312746edc.png)
 ### 第二步：进入存放脚本的目录
 使用 `cd` 命令进入之前创建的第一个文件夹。我的目录名是 `xh`，你的目录则需要替换成自己设置的名称。
 ```
 cd /home/xh   #xh是你自己前面创建的文件夹名字 我的是xh
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cd6dcef820c9bb10aa5b41bfb94a2d4b.png>
+![](img/zhuanqian_cd6dcef820c9bb10aa5b41bfb94a2d4b.png)
 ### 第三步：安装脚本
 把 AI 根据系统版本调整后的脚本命令复制到终端执行即可。如果你的服务器配置和系统版本恰好也是 Debian 12 x64，也可以参考我现成的代码。
 下方图片中的命令就是我通过 AI 调整后的版本。
@@ -254,17 +254,17 @@ start_menu
 ```
 把这段代码复制完整后，直接丢进代码块里敲一下回车执行就行。
 脚本跑起来后最底部会把操作流程列得很清楚，第一步强调要在全新的 screen 会话里运行，第二步是检查 ffmpeg 是否可用。ffmpeg 我们前面环节已经装好了，没装的话就按提示装一下，脚本自带一键安装，缺失时选 1 即可。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d087cbbd8d19d8778dae396ac1b98fac.png>
+![](img/zhuanqian_d087cbbd8d19d8778dae396ac1b98fac.png)
 我这边 ffmpeg 早就有了，所以这里直接按 2 跳过，然后回车继续。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8c0074ab2f58aa5a7cef4ce17c426db0.png>
+![](img/zhuanqian_8c0074ab2f58aa5a7cef4ce17c426db0.png)
 接下来去油管找推流用的 Rtmp 地址和串流密钥。打开油管页面点右上角的创建，再点开始直播，就能看到直播服务器地址和 Stream Key。服务器地址基本都是固定的，真正起作用的是那串唯一的直播密钥，记得保密不要外泄。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_01d32861444e030f3c1a8947f1906101.png>
+![](img/zhuanqian_01d32861444e030f3c1a8947f1906101.png)
 把拿到的信息整理成下面这种格式保存好。这种推流方式并不局限于油管，b站、抖音等任何能提供 Rtmp 地址和密钥且允许素材型直播的平台，都可以用同样的方法接入。
 ```
 rtmp://x.rtmp.youtube.com/live2/XXX-XXX  #后面的XXX-XXX。就是你的直播码。直播网址跟直播码中间有一个斜杠。
 ```
 整理好的地址和密钥，按照格式填进代码区域对应的位置。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_23ff6e378dcb0cf2f99d96856f676455.png>
+![](img/zhuanqian_23ff6e378dcb0cf2f99d96856f676455.png)
 粘贴完成后再按回车，程序会提示你输入素材视频的存放目录。这个目录我们之前已经提前建好了。
 ```
 /home/xh/video  #根据你自己的视频文件目录填写。
@@ -273,6 +273,6 @@ rtmp://x.rtmp.youtube.com/live2/XXX-XXX  #后面的XXX-XXX。就是你的直播�
 这时候你完全可以关掉当前电脑的 ssh 客户端，推流会一直在服务器后台稳定运行。
 万一到这一步报错，把报错日志原样丢给 AI 分析，它会给出对应的修复办法。
 我实测开一个直播后，服务器 CPU 占用大概只有 4% 左右，内存占用 0.2G 都不到。要是想多开几个频道，后续我再研究怎么批量跑。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_feb56febf8b041c968b2261a059cc290.png>
+![](img/zhuanqian_feb56febf8b041c968b2261a059cc290.png)
 # 总结
 祝大家在油管上都能吃到红利。按我这几个月的经验，账号开通普遍在一月左右，也有小部分号养废了，主要是发了好几条视频数据都很平，没有被推，自然就放弃了。整体还是看运气和号的体质，只要账号能开 VIP 且推流权重够大，就可以大胆尝试开播。希望这份教程能帮到想做自动化直播的朋友。

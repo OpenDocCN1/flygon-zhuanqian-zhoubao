@@ -11,11 +11,11 @@
 和在小红书上打投喂式运营不同，小绿书是有清晰的流量主分成机制。一篇阅读破十万的图文，普遍能拿到 200 到 500 元不等的广告分成，甚至更高。
 不过现在的早安问候已经不是过去那种大红色福字、恭喜发财的老派风格了。主流的视觉是身穿瑜伽裤、睡衣的 AI 美女，氛围感拉满。
 下面这张截图就是一个典型的十万加案例，笔记正文里明确写了素材来自 AI 生成，说明来源很透明。篇幅极短，100 字出头就结束了。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9533e59138344a5001e18bf1dcff0ff3.png>
+![](img/zhuanqian_9533e59138344a5001e18bf1dcff0ff3.png)
 顺着这条笔记的推荐池往下刷，能快速摸到一大批同款内容，以及一批持续在发这类图文的账号。
 星球里经常有人晒这类账号的流量主结算单，收益相当可观。
 更关键的是，即便没有爆款，只要账号健康度正常，保持日更，单号日入 2 到 10 元左右是基本盘。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_dd0f7e2489531d39f0a18a5625ba65da.png>
+![](img/zhuanqian_dd0f7e2489531d39f0a18a5625ba65da.png)
 **为什么这类内容在小绿书里能活得这么好？** 我总结了几点。
 一、受众画像决定的。公众号的核心人群偏男性，和小红书的女性为主的生态完全不同。
 二、AI 产出成本低且无版权风险。比起明星照这种容易踩雷的素材，AI 美女可以无限生成，风格可控。
@@ -29,17 +29,17 @@
 美女早安只是其中一个标杆。罗翔莫言风格的人生感悟、宝妈省钱清单、极简生活、星座运势等都具备变现潜力。核心是选一个能和 AI 图像结合、好标准化的垂直方向。
 **三、素材自动化生产**
 先用 RPA 映刀搭建流水线，把 AI 绘图的提示词写进 Excel 表格，自动喂给绘画模型批量出图。图出来后，文案部分几乎可以忽略，读者主要看图。问候语直接从网络批量抓取，拼贴到图文里即可完成。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7a30a5895b6c67de4f253584ab55f1c1.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a02a048b8c32217dd3226b7b82af01cc.png>
+![](img/zhuanqian_7a30a5895b6c67de4f253584ab55f1c1.png)
+![](img/zhuanqian_a02a048b8c32217dd3226b7b82af01cc.png)
 **四、提示词打磨**
 生成效果好不好，关键在提示词。其实门槛不高，网上能搜到大量现成的美女早安咒语，拿回来自己改写、加约束条件就能用。同一套词每次都会变出不同结果，稍微改动背景、色调、服装关键词，就能在 Excel 里批量变出几百条差异化提示词。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_72403970b6ee546224e17f73f9bf3618.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c71d2f0ec885cba50d7030fb2d5e3b60.png>
+![](img/zhuanqian_72403970b6ee546224e17f73f9bf3618.png)
+![](img/zhuanqian_c71d2f0ec885cba50d7030fb2d5e3b60.png)
 **五、发布全自动串联**
 项目爆发率不低，但爆文不可控。观察那些大号，平均 10 天到一个月才出一次爆款。要想把收益做大，只能走矩阵放大。
 放大最大的瓶颈就是人工发文：扫码登录、上传图片、粘贴文字、点发布，这些重复动作会拖慢效率。而这个项目最大的魅力就是近乎零成本的自动化，所以用 RPA 把登录到发布的环节打通后，整个流程就能跑通无人值守。
 * * *
 评论区：
 悟空悟空空 : 厉害
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_21de372a77ea1f441c613f7316831ae1.png>
+![](img/zhuanqian_21de372a77ea1f441c613f7316831ae1.png)
 * * *

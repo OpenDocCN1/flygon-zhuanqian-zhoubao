@@ -19,33 +19,33 @@
 # 四、软件合集文的速成打法
 对标的是科技软件类博主的爆款合集文。对读者而言单篇价值感极强。
 提示：文中配图仅作参考，并非指向具体号。可以直接在微信、知乎搜索关键词「黑科技软件」「XX款软件」就能看到大量范例。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b1d8ac9a2016c62182199118453c1afa.png>
+![](img/zhuanqian_b1d8ac9a2016c62182199118453c1afa.png)
 标题打法：要吸睛、要抓人，普遍走标题党+封面冲击路线。
 软件类标题生成
 示例入口：炼丹家AI - AI灵动模板 - 科技软件标题党
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b62b81ac9367e17c32d01e833453a05c.png>
+![](img/zhuanqian_b62b81ac9367e17c32d01e833453a05c.png)
 封面制作：尺寸 900 x 383
 ①进入炼丹家AI - 图片广场，挑出喜欢的风格。
 ②点“一键同款”。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2ddbceb474c1074a76002670d3cf9a08.png>
+![](img/zhuanqian_2ddbceb474c1074a76002670d3cf9a08.png)
 ③重点调整尺寸为 900 x 383、数量以便筛选。
 注：还能进一步自定义绘画模型、提示词参数等。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_61f3d895c4377b138dd750fa124af185.png>
+![](img/zhuanqian_61f3d895c4377b138dd750fa124af185.png)
 开头段落：语言简洁、逻辑清楚，适当带点情绪和人设感，强化IP味道。
 软件文章开场助手
 示例入口：炼丹家AI - AI灵动模板 - 软件文章前言助手
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_da79854e63671dd4067289666f31880b.png>
+![](img/zhuanqian_da79854e63671dd4067289666f31880b.png)
 正文搭建：思路清晰、分层明确，文笔一般就直接给用户要点。
 注：可以先搜集各软件的官方介绍，提炼拼接成完整段落。提示词已深度调优，但建议人工再润色一遍，效率与质量兼顾。
 软件文章内容助手
 软件合集示例入口：炼丹家AI - AI灵动模板 - 软件文章内容助手
 软件合集示例
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d2c4352c337eb61f785ac4a2543dcf92.png>
+![](img/zhuanqian_d2c4352c337eb61f785ac4a2543dcf92.png)
 单款软件示例
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1e83a3386296cb2bef5c039c314b994d.png>
+![](img/zhuanqian_1e83a3386296cb2bef5c039c314b994d.png)
 常用结构：标题 - 前言 - 软件模块① - 软件模块②...
 注：排版模板网上很多，挑一套喜欢的改成自己的风格即可。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e599ffd61236d88d606ef821faf8b082.png>
+![](img/zhuanqian_e599ffd61236d88d606ef821faf8b082.png)
 补充工具：本文第四章用到的工具为炼丹家AI官网：https://www.liandanjia.com/
 ②文字功底好的，完全可以持续优化自己的AI提示词，不会被工具限制；我本人文笔普通，所以更依赖提效。
 # 五、互动与放大
@@ -63,18 +63,18 @@
 一、订阅号注册流程
 1.打开微信公众平台官网
 网址：https://mp.weixin.qq.com/
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9169ee89ae97119bbf374d82ec7a04cc.png>
+![](img/zhuanqian_9169ee89ae97119bbf374d82ec7a04cc.png)
 2.点击右上角立即注册，选择订阅号
 按需选择账号类型，这里演示订阅号。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4216cfc5b94d32cd5ca634b1cb37589f.png>
+![](img/zhuanqian_4216cfc5b94d32cd5ca634b1cb37589f.png)
 3.填写资料
 基本信息 -> 选择地区中国大陆 -> 信息登记 -> 按需选择账号性质 -> 公众号信息填写用于登录的微信
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_00e876479a058423447cd1cf9a2d147b.png>
+![](img/zhuanqian_00e876479a058423447cd1cf9a2d147b.png)
 4.信息登记页选择“企业”方式注册。
 同一个企业主体，正常可创建50个公众号。
 同一个体户，正常可创建2个公众号。
 个人身份证，正常可创建1个公众号。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1ffb18bff54fd8d13e6077ffbc4a9daa.png>
+![](img/zhuanqian_1ffb18bff54fd8d13e6077ffbc4a9daa.png)
 # 六、收尾总结
 ①核心判断：公众号现阶段偏公域、半私域，内容为王必须重视。
 ②阅读量提升：紧跟热点，稳定产出高质量内容。尤其参考数据榜上近一个月低粉高爆文，以及长期稳定爆的选题。
@@ -82,4 +82,4 @@
 ④变现路径：广告投放、带货分销、私域转化...变现不难，核心是先做流量。一起加油！
 ⑤工具集中地：文中第四章工具统一在炼丹家AI官网：https://www.liandanjia.com/
 写作模板覆盖绝大多数场景，快速一览：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_800b9c1bfad74e098bcf4230d4e7e840.png>
+![](img/zhuanqian_800b9c1bfad74e098bcf4230d4e7e840.png)

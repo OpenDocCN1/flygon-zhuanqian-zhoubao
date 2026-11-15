@@ -11,16 +11,16 @@
 那SD到底能拿来干嘛？
 **第一类：真人系AI小姐姐**
 最常见的就是这类账号，满屏都是AI生成的逼真美女。比如某位朋友，一到深夜就爱刷这种内容。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c1fca9c8d2f7095f1bc0821653138efc.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_52897562a80bdfd992c764dc81c7aff6.png>
+![](img/zhuanqian_c1fca9c8d2f7095f1bc0821653138efc.png)
+![](img/zhuanqian_52897562a80bdfd992c764dc81c7aff6.png)
 **第二类：定制头像、壁纸**
 以前想搞个独一无二的头像或壁纸，得花钱找设计师。现在用SD，自己就能生成专属的二次元头像、盲盒形象、个性壁纸。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0805534b1c70da0ee8c15741f6607a2f.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_134b7f9e68aba84f0a819b07248b1882.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2a0e27e93f01eaabbf779e0eb7b0492e.png>
+![](img/zhuanqian_0805534b1c70da0ee8c15741f6607a2f.png)
+![](img/zhuanqian_134b7f9e68aba84f0a819b07248b1882.png)
+![](img/zhuanqian_2a0e27e93f01eaabbf779e0eb7b0492e.png)
 **第三类：辅助绘画**
 画插画、漫画时，SD也能帮大忙。比如给线稿上色、从成品图反推线稿，都非常好用。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e1dbf183e01f700969344ce36ad9c100.png>
+![](img/zhuanqian_e1dbf183e01f700969344ce36ad9c100.png)
 除此之外，SD还能用来修复老照片、做室内设计预想图等等。更多玩法，等着你自己去挖掘。
 后面我还会专门写文章，聊聊SD怎么变现、有哪些真实案例，记得关注。
 ## 2. SD到底是什么？
@@ -28,7 +28,7 @@
 有人会问：学它之前，需不需要先懂原理？
 我的回答是：完全不需要！
 比如下面这张原理图，是我从网上存下来的——你看得懂吗？反正我看不懂。但这影响我用SD吗？一点都不影响。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d4f599a10a8f2b55aa54846eb760f499.png>
+![](img/zhuanqian_d4f599a10a8f2b55aa54846eb760f499.png)
 很多教程一上来就讲原理，结果把一大批人直接劝退。看起来又复杂又高深，好像不成为科学家就学不会似的。
 但事实是，绝大多数人只需要“会用”，不需要“懂原理”。我们都有自己的主业，时间是宝贵的。目标很简单：用最短的时间，快速上手SD。
 当然，如果你时间充裕，想去深挖原理，那也完全OK。
@@ -40,23 +40,23 @@
 为了让你后面的安装和使用顺顺利利，正式动手前，咱先检查一下电脑配置。重点看两件事：
 **第一，系统版本得是Win10或Win11。**
 版本太低容易出各种奇怪的兼容性问题。怎么查？桌面上右键“此电脑”→“属性”，然后在“Windows规格”里看。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_41d3ed343945b6b6de66a61582869548.png>
+![](img/zhuanqian_41d3ed343945b6b6de66a61582869548.png)
 **第二，电脑性能要过关。**
 来看你的电脑能不能带动SD。
 操作方法：右键点击屏幕底部任务栏的空白处，选“任务管理器”。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_351480bb68388eb7a915b7b0ee981821.png>
+![](img/zhuanqian_351480bb68388eb7a915b7b0ee981821.png)
 先看“内存”（注意这里说的是运行内存，不是硬盘空间）。看图中标注的那一项就行：
 - 16GB：正常使用，没问题。
 - 8GB：勉强达标，能用但别期待太丝滑。
 - 32GB：恭喜你，SD随便造。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4bb31e041f34f27ab02a5f02890a26c6.png>
+![](img/zhuanqian_4bb31e041f34f27ab02a5f02890a26c6.png)
 再看“GPU”，也就是显卡。先看右上角的显卡型号：
 - 必须是NVIDIA（N卡）才能顺利本地安装。如果看到AMD或Intel，那本地安装SD会比较折腾，建议直接跳到第二部分，用云平台来玩。
 - 然后看“专用GPU内存”：
 - 4GB左右：能跑，但出图很慢。
 - 6GB左右：出一张图约20~50秒，大部分功能都能用。
 - 8GB左右：5~20秒出一张图，基本所有功能都对你敞开。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_31038e7a574225e9f3d09a0ab917a316.png>
+![](img/zhuanqian_31038e7a574225e9f3d09a0ab917a316.png)
 如果你的电脑满足这些条件，那太好了，你已经可以顺利安装并开始学习SD了！
 刚才说的是Windows系统。Mac用户看下面这个视频，按提示一键安装就行，非常简单。
 https://www.bilibili.com/video/BV1Kh4y1W7Vg/
@@ -68,21 +68,21 @@ https://www.bilibili.com/video/BV1Kh4y1W7Vg/
 http://account.qingjiaocloud.com/signin?inviteCode=720XXWTZ
 **使用教程：**
 1. 点上方链接注册账号。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_80f83b11aeb96315f4e81b2d7b0bd447.png>
+![](img/zhuanqian_80f83b11aeb96315f4e81b2d7b0bd447.png)
 2. 下载安装完成后，登录账号。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_05aa994bd56a5e66f157ec69a13ab5d9.png>
+![](img/zhuanqian_05aa994bd56a5e66f157ec69a13ab5d9.png)
 3. 点右上角“个人中心”，完成实名认证。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4c644c8acc072ab260d757aca8d5defb.png>
+![](img/zhuanqian_4c644c8acc072ab260d757aca8d5defb.png)
 4. 认证好之后回到主界面，点击“新增云桌面”。想玩SD就选“AIGC尝鲜”。新用户一般有优惠券可以免费试用，觉得好用再付费。大多数云平台价格在每小时2~3元左右。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_dff3e652d3cc265179ea1c58f2bca361.png>
+![](img/zhuanqian_dff3e652d3cc265179ea1c58f2bca361.png)
 5. 弹窗里点“开机”，等一会后点“进入桌面”。进桌面后弹出的各种窗口直接关掉。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b7c6c9fe8a5b4d11ff07f32e5e75238b.png>
+![](img/zhuanqian_b7c6c9fe8a5b4d11ff07f32e5e75238b.png)
 6. 在新桌面上双击“此电脑”，在C盘里找到SD根目录，打开“A启动器.exe”。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a4047652f47b611a6f25cc3ea8e01959.png>
+![](img/zhuanqian_a4047652f47b611a6f25cc3ea8e01959.png)
 7. 点右下角“一键启动”，就能进SD界面了。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_685caa6c78712f7091a0b28b8ab25271.png>
+![](img/zhuanqian_685caa6c78712f7091a0b28b8ab25271.png)
 8. 用完记得关机，不然会一直计费。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_77d117eb78b2bce8889bd8f60778fd8e.png>
+![](img/zhuanqian_77d117eb78b2bce8889bd8f60778fd8e.png)
 ## 3. 本地部署：一键安装，解压即用
 电脑配置够的朋友，下面手把手教你装本地版。这里推荐的是B站秋叶大佬的整合包，对小白特别友好，能省掉一堆麻烦。点开链接就能下载：
 链接：https://pan.baidu.com/s/1hY8CKbYRAj9RrFGmswdNiA?pwd=caru
@@ -91,39 +91,39 @@ http://account.qingjiaocloud.com/signin?inviteCode=720XXWTZ
 1. 打开链接，下载《1.整合包安装》到电脑本地。
 2. 打开刚刚保存的文件夹。
 3. 双击进入《1.秋叶整合包主包》，右键压缩包，选“解压文件”。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_27071b87b031d6a48bc6daeca0dc3f61.png>
+![](img/zhuanqian_27071b87b031d6a48bc6daeca0dc3f61.png)
 4. 解压到D盘或E盘，千万别解压到C盘，小心C盘爆满！点“确定”。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ef49d68a5bdea42e7e09286af09579bf.png>
+![](img/zhuanqian_ef49d68a5bdea42e7e09286af09579bf.png)
 5. 解压完成后，回到第二个文件夹，双击里面的安装文件。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d966f828ffa3bdb24ee7fde8ef5ecdb3.png>
+![](img/zhuanqian_d966f828ffa3bdb24ee7fde8ef5ecdb3.png)
 点“安装”。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_eceffa409362ad001d10a984fceab0cb.png>
+![](img/zhuanqian_eceffa409362ad001d10a984fceab0cb.png)
 6. 打开刚才解压出来的SD根目录，找到启动器。右键启动器→“发送到”→“桌面快捷方式”。以后直接双击桌面图标就能进，不用再翻文件夹了。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3397ee05b9f7c7929a90b6ddc6d1761f.png>
+![](img/zhuanqian_3397ee05b9f7c7929a90b6ddc6d1761f.png)
 7. 双击启动器，等它更新。然后点左边第二个“高级选项”，在“显存优化”里按你电脑的显存来选。你之前查到的专用GPU内存是多少，就选多少。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_900958a471175e053840f69c3b1d8031.png>
+![](img/zhuanqian_900958a471175e053840f69c3b1d8031.png)
 8. 回到第一个“一键启动”，点右下角的“一键启动”。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fca81222a7b1be694192aa5587788b5f.png>
+![](img/zhuanqian_fca81222a7b1be694192aa5587788b5f.png)
 出来一个代码页面，不用管它，稍等片刻，SD主界面就会自动在浏览器里弹出。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fe3755fba7a564c57c0fa76ebaa5d65a.png>
+![](img/zhuanqian_fe3755fba7a564c57c0fa76ebaa5d65a.png)
 如果那个页面报错，就回到最开始的界面，点左侧“疑难解答”，再点“开始扫描”，最后点“修复”。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_88e2c404153413529fad9b1a3a71f67f.png>
+![](img/zhuanqian_88e2c404153413529fad9b1a3a71f67f.png)
 下面这个就是SD主页面。第一次看到这么复杂的界面别害怕，很多功能你入门阶段根本用不上。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6bb94988eb593e4f54735f67cc257907.png>
+![](img/zhuanqian_6bb94988eb593e4f54735f67cc257907.png)
 接下来，咱们结合实例，把最常用的功能讲清楚。
 # 三、小白快速上手Stable Diffusion
 ## 1. 先选对模型，才有对味儿的风格
 用SD，可以把自己想象成一位画家。
 动笔之前，先得确定画风：是二次元动漫，还是写实照片，还是盲盒风？确定了风格，就去切换大模型。SD界面左上角的“Stable Diffusion模型”，就是用来切换风格的。
 比如我想生成一个真人AI小姐姐，那就选“chilloutmix”这个大模型。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ef329ba966e079ecdf414cdc8a850ea3.png>
+![](img/zhuanqian_ef329ba966e079ecdf414cdc8a850ea3.png)
 那模型从哪来？下载后放哪里？
 我分享的资源包里，已经放了一些常用模型。你可以按文件夹名称找到自己需要的。另外，这篇文章第三部分后面会专门讲，去哪里下载更多优质模型、模型该放在哪个目录，一定要看到最后！
 ## 2. 关键词写得好，出图没烦恼
 选好模型后，就要决定画面里有什么、不要什么。这些全靠关键词来告诉SD。
 ### （1）正面关键词
 生成一张照片，关键词是最核心的。它描述的是你希望画面中出现的内容。你的关键词越具体、越精准，照片就越接近你脑中的想象。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4fbdc5fefa194e46352a097b47e20602.png>
+![](img/zhuanqian_4fbdc5fefa194e46352a097b47e20602.png)
 那怎么写呢？
 比如我想生成“一个漂亮小姐姐站在大街上”，可以写：
 - 1女孩，漂亮，站着，大街
@@ -131,39 +131,39 @@ http://account.qingjiaocloud.com/signin?inviteCode=720XXWTZ
 - 1个漂亮女孩站在大街上
 这三种写法都可以：单词、词组、短句都行。最常用的是：一个个单词，用英文逗号隔开。
 SD只认英文，不过没关系，用翻译软件就能搞定。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_dd9c8852ad66416d9f78647286bd1a7a.png>
+![](img/zhuanqian_dd9c8852ad66416d9f78647286bd1a7a.png)
 输入到SD里就是这样的：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4827c3828927048f0cdb4033255100b2.png>
+![](img/zhuanqian_4827c3828927048f0cdb4033255100b2.png)
 然后点右边的“生成”按钮。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_41622a6acff0139499ba1a589f1f6822.png>
+![](img/zhuanqian_41622a6acff0139499ba1a589f1f6822.png)
 好了，你的第一张SD作品诞生了！
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0cb03bb5532f04c4fedad765ff38a79a.png>
+![](img/zhuanqian_0cb03bb5532f04c4fedad765ff38a79a.png)
 是不是有很多小伙伴已经迫不及待去试了？结果发现出图有点一言难尽？别急，那是因为关键词太简单了。我上面那张图的完整关键词，长这样：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_479726a6d0083274b19a39a1c6ee6f21.png>
+![](img/zhuanqian_479726a6d0083274b19a39a1c6ee6f21.png)
 看到一大串英文别害怕！写关键词其实有模板可循。
 **第一步：先写画质词**
 在描述画面内容前，先加一些质量关键词，出来的图会更精致。比如：
 最高质量、超高清画质、大师的杰作、8k画质……
 对应英文：Highest quality, ultra-high definition, masterpieces, 8k quality,
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_089e999017ee2edc2f027ce17b979bdf.png>
+![](img/zhuanqian_089e999017ee2edc2f027ce17b979bdf.png)
 **第二步：写画面主体和细节**
 描述主体人物或物体，以及它们的长相、特征。比如：
 一个女孩，非常精致的五官，极具细节的眼睛和嘴巴，长发，卷发，细腻的皮肤，大眼睛
 对应英文：1girl, very delicate features, very detailed eyes and mouth, long hair, curly hair, delicate skin, big eyes,
 这些内容你都可以随意改，但“精致的五官”“细节的眼睛”这类词，建议尽量保留，出图质量会更高。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_02606841fa4a8cfb85a73b01135e7f7f.png>
+![](img/zhuanqian_02606841fa4a8cfb85a73b01135e7f7f.png)
 **第三步：给人物配穿搭**
 衣服、裤子、帽子、配饰等都可以写。比如裙子、毛衣、牛仔裤、比基尼，顺便描述颜色。比如：
 白色的毛衣、项链 → white sweater, necklace,
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_803f7353f2010899c14a9b9b698c4865.png>
+![](img/zhuanqian_803f7353f2010899c14a9b9b698c4865.png)
 **第四步：补上背景、天气、姿势、构图**
 比如：在街上、阳光、上半身照片 → street, Sunshine, upper body photos,
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0c76eb4ec0c69f00a55dacc3395bcbda.png>
+![](img/zhuanqian_0c76eb4ec0c69f00a55dacc3395bcbda.png)
 这样一来，关键词就写好了。我强烈推荐你像我一样，一行一类分开写，后面想改词也好找。注意：每一行末尾一定要加英文逗号，否则它和下一个单词连在一起，就会变成一个全新的词，意思可能就变了。
 总结一下关键词公式：
 **画质 + 主体 + 主体细节 + 人物服装 + 其他（背景、天气、构图等）**
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c740df51bbc327b18756502bf77832cd.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_15603391d0b5e9940c8dc9e30c3c1a26.png>
+![](img/zhuanqian_c740df51bbc327b18756502bf77832cd.png)
+![](img/zhuanqian_15603391d0b5e9940c8dc9e30c3c1a26.png)
 好啦，现在重新生成一张图，但发现一个问题：我明明写了“卷发”，生成的图却不是卷发。怎么让SD重视这个“卷发（curly hair）”呢？
 方法就是：给关键词加权重。
 有两种加权重的方式：
@@ -174,170 +174,170 @@ SD只认英文，不过没关系，用翻译软件就能搞定。
 **方式二：括号加数值**
 - 写法：（curly hair：1.3）
 - 基数默认为1，大于1就是加权重，小于1就是减权重。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2055ee5501eab287b16479c7351b8bec.png>
+![](img/zhuanqian_2055ee5501eab287b16479c7351b8bec.png)
 ### （2）负面关键词
 用多了你会慢慢发现，偶尔生成的图会多根手指，甚至多出一只手。怎么避免呢？
 很简单——直接告诉SD：我不要这些东西！
 所以，我们通过输入负面关键词，来排除不想出现的元素。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_29847566668b5c035e23c582049a1a55.png>
+![](img/zhuanqian_29847566668b5c035e23c582049a1a55.png)
 到这里，你已经掌握了SD最基本、最核心的操作流程。下一步就是自己多动手试试，多调调关键词。相信我，你会越来越上手的！
 如果你不想让 AI 出图后出现画质低劣、多手多指、五官崩坏这些问题，不用自己绞尽脑汁想负面提示词。下面这一串给新手直接抄：
 (worst quality:2), (low quality:2), (normal quality:2), lowres, ((monochrome)), ((grayscale)), bad anatomy,DeepNegative, skin spots, acnes, skin blemishes,(fat:1.2),facing away, looking away,tilted head, lowres,bad anatomy,bad hands, missing fingers,extra digit, fewer digits,bad feet,poorly drawn hands,poorly drawn face,mutation,deformed,extra fingers,extra limbs,extra arms,extra legs,malformed limbs,fused fingers,too many fingers,long neck,cross-eyed,mutated hands,polar lowres,bad body,bad proportions,gross proportions,missing arms,missing legs,extra digit, extra arms, extra leg, extra foot,teethcroppe,signature, watermark, username,blurry,cropped,jpeg artifacts,text,error,
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5e5d42de3eb5cd002df7ee2e012f203d.png>
+![](img/zhuanqian_5e5d42de3eb5cd002df7ee2e012f203d.png)
 如果你还有其他不想要的内容，也可以继续往后加。
 到这，负面提示词的部分就讲完了。文末的关键词链接/分类包里还有更多可直接复制的常用词，不确定写什么就去翻一翻。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f09edab0bfe1dd1903f59998f33b9856.png>
+![](img/zhuanqian_f09edab0bfe1dd1903f59998f33b9856.png)
 接下来聊聊：我们已经能生成一张还不错的小姐姐图了，但如果想一次出五六七八张，而且每张都是同一张脸，该怎么办？
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_199b2c8d1b1480212a288dd735cb174b.png>
+![](img/zhuanqian_199b2c8d1b1480212a288dd735cb174b.png)
 方法就是用 Lora。你可以把 Lora 理解成一个“特征锁”：它能固定人物长相、动作特征，也能固定画面风格。
 点“生成”按钮下方的第三个图标，会弹出新面板。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_52b050d43d926ca8ddad391543688cfc.png>
+![](img/zhuanqian_52b050d43d926ca8ddad391543688cfc.png)
 在面板里找到“Lora”，你下载到电脑里的模型都会列在这里。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1f327f18d93c120037c2168ed2601c0b.png>
+![](img/zhuanqian_1f327f18d93c120037c2168ed2601c0b.png)
 点一下你想用的 Lora，它就会自动出现在关键词输入框里。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_11762d7c228bfb8e6276fc1681a97253.png>
+![](img/zhuanqian_11762d7c228bfb8e6276fc1681a97253.png)
 前面那四张示例图，用的就是三个 Lora 叠加出来的效果。这证明 Lora 可以组合使用，不过新手别贪多，不然一崩就不知道该找谁的问题了。
 另外，Lora 之间记得用英文逗号隔开。每个 Lora 名字后面都有一个数字，那是调节权重的参数。通常保持 1 就行，一般只需要往下调；因为权重调太高，画面容易变得很怪。
 每个 Lora 权重不同，成图也不同。想养出好看的小姐姐，就多试几组组合。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a83b6c0c1050b09fe2ac22230d838215.png>
+![](img/zhuanqian_a83b6c0c1050b09fe2ac22230d838215.png)
 那 Lora 怎么选？回到你最初想生成什么类型。比如你想要真人模特，最开始用的是真人底模，那 Lora 也要真人系，这样效果才统一。好看又实用的 Lora 已经打包在文末了，以后挖到新的也会持续更新。每个人都可以靠调整 Lora 和权重，生成只属于你的小姐姐。
 为什么有时候和对方用同样的底模、关键词、Lora 和其他参数，出图还是不一样？
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_39168f5c42061192b8cf56dd149de8b9.png>
+![](img/zhuanqian_39168f5c42061192b8cf56dd149de8b9.png)
 因为还有一个变量叫“随机数种子（Seed）”。它控制的是最底层的“草图”，相当于画画时的线稿，决定了人物的基本轮廓、姿势和站位。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b2a89f61913f48eceaadd2219a159e6d.png>
+![](img/zhuanqian_b2a89f61913f48eceaadd2219a159e6d.png)
 当 Seed 是 -1 时，SD 会随机取一个种子，可以理解成随机给你换一份线稿。想知道自己用的什么种子，看生成图片下方那串英文信息，里面的 seed 值就是。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2468c5aa37c569c2d9b8c562ca255357.png>
+![](img/zhuanqian_2468c5aa37c569c2d9b8c562ca255357.png)
 只有当 Seed 也和其他参数完全相同时，你才有可能得到和别人几乎一样的图。
 别再花二三十块找人做二次元头像了。很多时候对方也就是“含泪赚你 19.9，还搭一毛电费”。看到这篇，这笔钱能省。
 Stable Diffusion 不用一分钟，2.5D、2D 都能做。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_360344af17beda51790606c3296b0ba5.png>
+![](img/zhuanqian_360344af17beda51790606c3296b0ba5.png)
 这里用的是“图生图”功能。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5d1b2542e07c602d45ba13493378f419.png>
+![](img/zhuanqian_5d1b2542e07c602d45ba13493378f419.png)
 关键一步：把底模换成能出二次元的大模型。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a0df1cf921f7cd8bf19faae61e19c0b0.png>
+![](img/zhuanqian_a0df1cf921f7cd8bf19faae61e19c0b0.png)
 正面关键词只写质量词和主体就够了。比如我就是这样写：高质量、高清画质、大师杰作、极致细节、8k，主体：一个女孩。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1232b4481233da04ed5ab6c8ba382197.png>
+![](img/zhuanqian_1232b4481233da04ed5ab6c8ba382197.png)
 负面关键词，直接把前面那串复制进来。
 然后在这块空白区域上传你自己的照片。鼠标往下移，找到“重绘幅度”。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_12030a9f4a5ec0b2c08d74f3730d1230.png>
+![](img/zhuanqian_12030a9f4a5ec0b2c08d74f3730d1230.png)
 它表示你想对原图动多少手脚。如果拉到 1，差不多等于彻底重画，跟原照片没关系。想变二次元，设在 0.6~0.8 左右比较合适，建议多试几个值。
 这样设置完，一分钟都用不了，自己的二次元造型就出来了，20 块直接省掉。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e29dcb18eaafe3e0cfc8eadc18902381.png>
+![](img/zhuanqian_e29dcb18eaafe3e0cfc8eadc18902381.png)
 你是不是也爱在纸上乱涂乱画？有没有想过，把随手画的东西扔给 AI，它会还你什么？
 看下面两张图：左边是我在电脑上随便划拉的草图，真的很丑；但告诉 SD 我画的是什么之后，它直接给出一张好看的成品，那一刻我真觉得自己是神笔马良。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4d66d3ede32a683a27ff89a2c3728a9f.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6bce558780cf14e82c7c6f1cb0450427.png>
+![](img/zhuanqian_4d66d3ede32a683a27ff89a2c3728a9f.png)
+![](img/zhuanqian_6bce558780cf14e82c7c6f1cb0450427.png)
 这招就是图生图里的“涂鸦”玩法。点空白处上传一张纯白图片，当作画布。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_466f3e08809b2bab86d5fb2dd7369d6c.png>
+![](img/zhuanqian_466f3e08809b2bab86d5fb2dd7369d6c.png)
 右边有两个小按钮，打开后可以调画笔大小和颜色。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f58261c0c7b962ecd2e0c3b4731df98f.png>
+![](img/zhuanqian_f58261c0c7b962ecd2e0c3b4731df98f.png)
 然后在画布上自由发挥，随便画几笔。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_50c6f89f22e5794987a7af2c10f494a8.png>
+![](img/zhuanqian_50c6f89f22e5794987a7af2c10f494a8.png)
 接着挑一个符合想要画风的大模型，开始写关键词。照旧，先堆质量词，再告诉 SD 你画的具体是什么。比如我写的是：河流、森林（river, forest）。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_27d6c84aed79034b33d5fcbeab066290.png>
+![](img/zhuanqian_27d6c84aed79034b33d5fcbeab066290.png)
 最后把“重绘幅度”调到 0.6~0.8，点生成。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_17dd6048f731f58f6480d403084b0c14.png>
+![](img/zhuanqian_17dd6048f731f58f6480d403084b0c14.png)
 是不是很简单？随手涂鸦，也能让 AI 帮你变成一张好看的图。
 假如你手头有一张图很喜欢，唯独不满意衣服，有没有办法不动其他部分、只换衣服？
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_99181fa39db46ce0b41bb0b87d1bab34.png>
+![](img/zhuanqian_99181fa39db46ce0b41bb0b87d1bab34.png)
 用图生图里的“局部重绘”来改。先导入图片，
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_069d9b2cb3ec75dd818917db1cb932cd.png>
+![](img/zhuanqian_069d9b2cb3ec75dd818917db1cb932cd.png)
 右侧画笔可调大小，然后把衣服区域全部涂黑。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_07d4ab0ae0891d7988c437bfa1e78df0.png>
+![](img/zhuanqian_07d4ab0ae0891d7988c437bfa1e78df0.png)
 接着输入关键词：先来几个质量词，例如高清、8k、极致细节；再描述你想要的衣服款式。比如我写的是：粉色汉服、精致的裙子、极具细节的服装。负面关键词直接复制前面的。
 然后点生成。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6fa3cbfbbb4b12b6f57761c95e5d3cfa.png>
+![](img/zhuanqian_6fa3cbfbbb4b12b6f57761c95e5d3cfa.png)
 同理，这个功能也能用来换脸，只不过涂黑的是脸部，关键词改成描写五官长相的词即可。
 不过，上面的方法只能整体换衣服。如果你想指定颜色，比如“蓝色袖子、粉色衣身、黄色花纹”，只靠关键词通常不够准。这时可以用“涂鸦重绘”。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7d1daca92443dd08a90393ea19f4ba27.png>
+![](img/zhuanqian_7d1daca92443dd08a90393ea19f4ba27.png)
 导入照片后，在右侧调好画笔大小和颜色，直接在衣服上涂出自己想要的颜色搭配。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_23ce9f15a3220d9021fe6081edca72d8.png>
+![](img/zhuanqian_23ce9f15a3220d9021fe6081edca72d8.png)
 关键词还是老规矩输入，每次点生成，都会得到不一样的衣服。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0f9418a3598853db37e112bfdf6ecc31.png>
+![](img/zhuanqian_0f9418a3598853db37e112bfdf6ecc31.png)
 SD 不仅能生成新图，还可以修模糊的老图，效果比很多常规软件都更好。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f358698b27ff6228c6d2769a30b7f41d.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a1d7c6b41d9201c7107427bd31af7964.png>
+![](img/zhuanqian_f358698b27ff6228c6d2769a30b7f41d.png)
+![](img/zhuanqian_a1d7c6b41d9201c7107427bd31af7964.png)
 这个修复画质的功能叫“后期处理”：在下方空白处上传图片。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e8a379ddcfd5ecd5d06e13b77f6dcb95.png>
+![](img/zhuanqian_e8a379ddcfd5ecd5d06e13b77f6dcb95.png)
 接着看“Upscaler 1”，也就是放大器。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d282a4fb07e6386b9777509435df8918.png>
+![](img/zhuanqian_d282a4fb07e6386b9777509435df8918.png)
 二次元图片选“R-ESRGAN 4x+Anime68”；普通实物照片选“R-ESRGAN 4x+”。其他放大器的效果，通常都不如这两个。
 然后点生成。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_506d4886b1eebbe61b8901dae18bb239.png>
+![](img/zhuanqian_506d4886b1eebbe61b8901dae18bb239.png)
 这个方法还能修真人照片，但不能完全照搬上面的流程。比如我要修一张真人表情包：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_089411431ac5ade6317253d227c557f8.png>
+![](img/zhuanqian_089411431ac5ade6317253d227c557f8.png)
 先把照片导入 SD。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_05bd29767f4a320794b994da3be6fdcf.png>
+![](img/zhuanqian_05bd29767f4a320794b994da3be6fdcf.png)
 放大器这里选择“无（None）”。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d6af94005d41b94bf879c01125dfef9e.png>
+![](img/zhuanqian_d6af94005d41b94bf879c01125dfef9e.png)
 再往下找“GFPGAN强度”，它是专门修人脸的，把参数拉满到 1。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_86747c07446988cfe48098f1b26008f2.png>
+![](img/zhuanqian_86747c07446988cfe48098f1b26008f2.png)
 然后点“生成”。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b6d5699c543cfb77c86caed35629e70e.png>
+![](img/zhuanqian_b6d5699c543cfb77c86caed35629e70e.png)
 这样人脸就变清晰了。不过它只能修脸，脸部之外依然可能糊。
 想复刻大佬的美图，不用靠肉眼猜。SD 本来就有“识别咒语”的功能。
 第一种：PNG 图片信息。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c635a37bd9d68d373cc1282c3562fea6.png>
+![](img/zhuanqian_c635a37bd9d68d373cc1282c3562fea6.png)
 把别人那张 PNG 图导进去，右侧会自动出现生成信息，包括正/负关键词、Seed、底模等。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7aa7c4d74b36028cc780064ef2b294bd.png>
+![](img/zhuanqian_7aa7c4d74b36028cc780064ef2b294bd.png)
 复制这一大串文字，来到“文生图”页面，粘贴到关键词框里。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cbd15f3541f36901f8bae8eabf4c2cca.png>
+![](img/zhuanqian_cbd15f3541f36901f8bae8eabf4c2cca.png)
 然后点生成按钮下方的第一个小图标，SD 会自动把内容分配到对应位置。只要你有相同的大模型和 Lora，基本就能复刻出来了。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_27604e10ca5e89e3b207c37b2e1996dd.png>
+![](img/zhuanqian_27604e10ca5e89e3b207c37b2e1996dd.png)
 但如果你把图导进去，右侧空空如也，那说明它不是 SD 直接导出的 PNG，这个功能就用不了。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_57ea051800fddab9314b0dba55d202aa.png>
+![](img/zhuanqian_57ea051800fddab9314b0dba55d202aa.png)
 没关系，还有一个“标签器（Tagger）”，它能帮你倒推关键词。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_09fb513322f2e60388f932db299dc88f.png>
+![](img/zhuanqian_09fb513322f2e60388f932db299dc88f.png)
 比如导入一张图，右侧会自动生成一串标签。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_56c08303df0461dee60d9b3364dc8376.png>
+![](img/zhuanqian_56c08303df0461dee60d9b3364dc8376.png)
 anya (spy x family), 1girl, solo, school uniform, eden academy school uniform, pink hair, green eyes, female child, looking at viewer, open mouth, ahoge, meme, salute, child, parody, upper body, black dress
 翻译过来就是：阿尼亚（间谍×家庭）、1girl、单人、校服、伊甸学院制服、粉发、绿眼、女孩、看向镜头、张嘴、呆毛、梗图、敬礼、儿童、模仿、上半身、黑裙。
 可以看到，Tagger 给出的关键词相当准确。掌握了这两种方法，好看图片的核心信息都能拿捏。
 现在我们已经能定制脸、换衣服了，可要是想让生成的小姐姐摆出指定姿势呢？
 靠关键词描述动作，往往不够准；用图生图去摆姿势，脸又容易变。这时可以用 ControlNet，中文就是“控制网络”。
 简单说，它能控制画面的线条结构，比如人物动作、建筑物轮廓线。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4ec8d365deac94ad1479e407f30e40b6.png>
+![](img/zhuanqian_4ec8d365deac94ad1479e407f30e40b6.png)
 举个例子：我打算让左图小姐姐换成右图小姐姐的姿势，最后得到右数第二张那种效果。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0365ccc34e837b4d9f7b7d642024686d.png>
+![](img/zhuanqian_0365ccc34e837b4d9f7b7d642024686d.png)
 底模和关键词照常填，先正常生成一张想要的姑娘图。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_07b946fff08820ac6ad3e01c817302d9.png>
+![](img/zhuanqian_07b946fff08820ac6ad3e01c817302d9.png)
 页面滑到最下方，展开 ControlNet。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_87a74e6db0b6f64f6feae6d6d7e373c3.png>
+![](img/zhuanqian_87a74e6db0b6f64f6feae6d6d7e373c3.png)
 具体三步：1. 在空白处上传你要参考姿势的照片；2. 打开“启用”；3. 预处理器和模型都选“openpose”，这是让电脑识别姿态用的。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_158ab5b8cf40321acb8080fed0357946.png>
+![](img/zhuanqian_158ab5b8cf40321acb8080fed0357946.png)
 下一步，点“预览预处理结果”。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8fc5f67b48f85ce9ffd16665c2836668.png>
+![](img/zhuanqian_8fc5f67b48f85ce9ffd16665c2836668.png)
 右侧会出现人物姿势骨架线，最后点生成。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1c0cdc1cfde89683f8c06e4c116f9c2d.png>
+![](img/zhuanqian_1c0cdc1cfde89683f8c06e4c116f9c2d.png)
 这样，一张指定姿势的小姐姐图就出来了。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_79cd607e53e00e3ae5cc2053ab4e850e.png>
+![](img/zhuanqian_79cd607e53e00e3ae5cc2053ab4e850e.png)
 插画圈经常担心 AI 会取代画师，但现实是：会用 AI 的画师，一定比不会用的更有竞争力。别人花一整天给线稿上色，你不到一分钟就能出一张质量不错的成品，效率直接拉开。
 下面这张线稿上色成品，就是我从网上随便找的一张线稿，用 SD 配合 ControlNet 做的。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c07fd80946f21308cd4c0fec46a0f7b6.png>
+![](img/zhuanqian_c07fd80946f21308cd4c0fec46a0f7b6.png)
 操作是这样的：打开 ControlNet 面板，1. 上传你的线稿；2. 点“启用”；3. 打开“反转输出颜色”；4. 模型选择“canny”。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4fd466a89daa35a496d21837c2cf8e3f.png>
+![](img/zhuanqian_4fd466a89daa35a496d21837c2cf8e3f.png)
 然后再设置前面的内容：先选合适的大模型——我想出二次元，就选二次元模型；再写好关键词，质量词加画面描述，点生成就能完成上色。
 跟写提示词一样思路，先把画质相关的词堆上去，比如极致画质、大师级作品这些标签。
 接着再去定想要的画面色彩，比如我示范的就是：1个可爱女孩子，五官很精致，眼睛和嘴巴都很精致，银色长发，皮肤白皙，水汪汪的大眼，
 最后再补一个简洁的背景描述。
 如果你想让颜色更细致，就多塞一些关键词去控制画面。
 负面提示词可以直接沿用前面用过的。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_330ba359666ab3f91eaefe40e6f6db33.png>
+![](img/zhuanqian_330ba359666ab3f91eaefe40e6f6db33.png)
 这样一来，哪怕再复杂的线稿，放到 SD 里也能迅速上好色。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_33511562124cb92d7516af88da8cdf06.png>
+![](img/zhuanqian_33511562124cb92d7516af88da8cdf06.png)
 ## 12. 小白也能玩室内设计
 ControlNet 还有一个特别好用的场景，就是做室内设计。
 比如我想给房间重新装修，想看看把自家的房子换成不同风格会是什么效果。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1bbe9184ebbe83541f67df133f2d6e62.png>
+![](img/zhuanqian_1bbe9184ebbe83541f67df133f2d6e62.png)
 第一步打开 ControlNet 的控制面板
 1.上传要设计的房间实拍图
 2.把启用开关打开
 3.预处理器和模型都选 msld，用来提取房屋的结构线条
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_74d828ff8b36285487e655a35065a90c.png>
+![](img/zhuanqian_74d828ff8b36285487e655a35065a90c.png)
 然后切换到一个擅长还原现实照片的大模型
 提示词先写画质词
 再写主体内容，比如 一个客厅
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_73737d8e742c21049558a8dd57f7b3b0.png>
+![](img/zhuanqian_73737d8e742c21049558a8dd57f7b3b0.png)
 点一下生成
 出来的图既保留了原房子的格局，又能看到全新的装修风格！
 # 四、Stable Diffusion 知识加餐
@@ -347,43 +347,43 @@ ControlNet 还有一个特别好用的场景，就是做室内设计。
 只要记住 VAE 的作用是给照片加滤镜和做微调
 下面这张图对比了没用 VAE 和用了 VAE 的差别，
 没加 VAE 的图会显得灰蒙蒙的
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c2b01c31250c4b9d69d646bb0b1b2734.png>
+![](img/zhuanqian_c2b01c31250c4b9d69d646bb0b1b2734.png)
 一般来说，对色彩没有特别强要求的场景，固定用一个 VAE 就够了。
 下面这个是我平时最常用的 VAE
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_831785f8b39e9e9ac962ce4a169ca1d6.png>
+![](img/zhuanqian_831785f8b39e9e9ac962ce4a169ca1d6.png)
 ## 2.迭代步数
 简单理解，SD 画图的过程就像在作画，迭代步数就是在这张画上落笔的次数
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d69e3c679d308f84a75f9b7190163d8a.png>
+![](img/zhuanqian_d69e3c679d308f84a75f9b7190163d8a.png)
 通常把数值控制在 20~30 之间
 从图上能看到，20 步以下的成片质量都不太理想
 但步数也不是越大利越好
 超过 30 步配置一般的机器就容易卡住甚至生成失败
 所以配置偏低的同学建议 20~25
 配置不错的可以设在 25~30 之间
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_54f3200f9bba21618983a1308c546a77.png>
+![](img/zhuanqian_54f3200f9bba21618983a1308c546a77.png)
 ## 3.采样方法
 不同采样方法就像不同的作画手法
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a10afdc0faf79ed018d4aa2475b33d7d.png>
+![](img/zhuanqian_a10afdc0faf79ed018d4aa2475b33d7d.png)
 这么多方法该怎么选？
 一个捷径是看别人出片用的哪种采样方法照搬就好
 如果实在没头绪，下面框起来的这几款就是性价比最高的，成片质量高而且生成速度快
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d9104eaabf56408b6af1d565507abaf8.png>
+![](img/zhuanqian_d9104eaabf56408b6af1d565507abaf8.png)
 ## 4.面部修复+高分辨率修复
 这两个功能直接抄作业即可！
 面部修复：专门用在生成真人照片上
 高分辨率修复：电脑配置够才开；配置一般的别开，否则出不来图
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_dcbc5d7c6a4b3ede2c385845d97e2a3b.png>
+![](img/zhuanqian_dcbc5d7c6a4b3ede2c385845d97e2a3b.png)
 ## 5.图片分辨率
 宽和高就是控制图片尺寸的
 常规用法：
 生成正方形：宽度 512 * 高度 512
 生成竖版：宽度 512 * 高度 768
 配置一般的朋友别学网上 1024、2048 的设置，我们的电脑跑不动！
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_78f25800bab510c014f35aa351af446e.png>
+![](img/zhuanqian_78f25800bab510c014f35aa351af446e.png)
 ## 6.批量生成
 通过调节下面两个参数，可以一次出多张图
 假设两个参数都设成 2
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_66219efab317d61d319821e2df0676b7.png>
+![](img/zhuanqian_66219efab317d61d319821e2df0676b7.png)
 总批次数代表生成两轮
 单批数量代表每轮出两张
 一共就是 4 张
@@ -392,31 +392,31 @@ ControlNet 还有一个特别好用的场景，就是做室内设计。
 ## 7.用脚本做对比
 我们一次生成会塞很多关键词，怎么知道哪个词起作用、加不加区别在哪？
 这时可以用最下方的脚本里的提示词矩阵，一键打开
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5f98be1fa96def6aa4dff835774b299c.png>
+![](img/zhuanqian_5f98be1fa96def6aa4dff835774b299c.png)
 回到提示词框
 我们前面说过，写关键词前先写画质词
 就用这张图来对比，加了最高质量 the best quality 和没加的区别
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2af509f28af6f02c4305a822bf9add32.png>
+![](img/zhuanqian_2af509f28af6f02c4305a822bf9add32.png)
 写法是：把要对比的词放在最后，用 | 与前面的词分隔
 也就是：关键词 | 要对比的关键词
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4ed06770a986558b4ac8cdef428149e6.png>
+![](img/zhuanqian_4ed06770a986558b4ac8cdef428149e6.png)
 点击生成后会得到两张拼接图
 能直观看出，加了最高质量的画面会更清晰
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_56c94dee2a9c91d7baf6e0139124b98b.png>
+![](img/zhuanqian_56c94dee2a9c91d7baf6e0139124b98b.png)
 如果想对比不同采样方法下，不同迭代步数产生的差别该怎么弄？
 这时用脚本里的 X/Y/Z 图表
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7ebd843a83293086127c14f3c30b5958.png>
+![](img/zhuanqian_7ebd843a83293086127c14f3c30b5958.png)
 在 X 轴类型里选迭代步数，右侧 X 轴值填上要比较的步数
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_06fc5408f7273a033748c9bc91546bf5.png>
+![](img/zhuanqian_06fc5408f7273a033748c9bc91546bf5.png)
 在 Y 轴类型里选采样器，点击最右侧的小本图标
 所有采样器的名字会列出来，可以自行删减
 这里我们只保留三款常用的
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9d28af7c5a91b3987d757667d0fe8e3e.png>
+![](img/zhuanqian_9d28af7c5a91b3987d757667d0fe8e3e.png)
 X 轴和 Y 轴的信息可以互换，看个人习惯
 点生成后会得到一张大图
 可以看到在不同采样方法下，迭代步数 25 时的效果都比较接近
 这样一比，就能挑出自己最喜欢的采样方法和步数了
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4b59c11b5d6886b25dbdc13f04b39bef.png>
+![](img/zhuanqian_4b59c11b5d6886b25dbdc13f04b39bef.png)
 # 五、好用的模型上哪找
 ## 1.模型下载渠道
 除了文中分享的资源，大家肯定还想找更多好看的模型
@@ -428,37 +428,37 @@ C 站使用方法：
 Checkpoint = 大模型
 LoRA = LoRA
 这两个最常用
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_746dc18d7e59a370e6af4c996a42aa84.png>
+![](img/zhuanqian_746dc18d7e59a370e6af4c996a42aa84.png)
 3.预览图，看到喜欢的就点进去，右边点 Download 下载到本地
 保存路径在下一小节说明
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3213e61ba528bd5b2c41568974b03c3f.png>
+![](img/zhuanqian_3213e61ba528bd5b2c41568974b03c3f.png)
 另外还能点左上角的 Images
 这里是别人已完成的作品集，找到喜欢的点进去
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_44ecfc562a9449ce7a0b34a6725151f6.png>
+![](img/zhuanqian_44ecfc562a9449ce7a0b34a6725151f6.png)
 进去后能看到这张图的完整信息，直接点 LoRA 和大模型就能跳转到下载页
 下方是关键词和其他参数
 最下方点 Copy...Data 就可以复制全部信息
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_466b00216871ff37de195e0139d1ceb9.png>
+![](img/zhuanqian_466b00216871ff37de195e0139d1ceb9.png)
 回到 SD 里粘贴到提示词框，点击右侧按钮自动分配
 要注意大模型需要手动更换！
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b72ff1b8e32bbeb008b2da7740d96370.png>
+![](img/zhuanqian_b72ff1b8e32bbeb008b2da7740d96370.png)
 这样就能复刻出跟大神非常接近的图了！网速和配置不同会有细微差异
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d01c710e4d9d1f0398a32fcdf9e164d9.png>
+![](img/zhuanqian_d01c710e4d9d1f0398a32fcdf9e164d9.png)
 ## 2.模型保存位置
 直接对照我本地的保存路径，找到自己电脑里的对应文件夹即可
 1.大模型
 这里的 SD 根目录就是当初安装 SD 的文件夹
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_654736fe1a968a6683431151c74c4565.png>
+![](img/zhuanqian_654736fe1a968a6683431151c74c4565.png)
 2.LoRA
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e57448b1bb046e573a22bbf124823960.png>
+![](img/zhuanqian_e57448b1bb046e573a22bbf124823960.png)
 3.VAE
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f1cc3b2d10dac7f152b452e32668bb13.png>
+![](img/zhuanqian_f1cc3b2d10dac7f152b452e32668bb13.png)
 ## 3.怎么判断模型类型
 下载后不知道是什么类型、该放哪个文件夹，可以用秋叶的模型解析工具 https://spell.novelai.dev/
 把模型文件拖到空白处
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3a6d42e9cb65659f802111c17784f065.png>
+![](img/zhuanqian_3a6d42e9cb65659f802111c17784f065.png)
 会自动弹出模型信息，在模型种类里就能看到是什么类型
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4650ee96c9e3042457722b7bb44b9a6c.png>
+![](img/zhuanqian_4650ee96c9e3042457722b7bb44b9a6c.png)
 # 六、结尾
 好啦，以上就是本篇的全部内容
 如果你对 AI 感兴趣，可以关注我的公众号：吴东子AI，也欢迎转发给身边想学 AI 的朋友

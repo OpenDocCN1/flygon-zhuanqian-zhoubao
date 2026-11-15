@@ -161,5 +161,5 @@ CRM不是只记个名字，而是要回答：这个客户在哪个阶段？上�
 - 我们的销售提示词是怎么一版版迭代出来的；
 - 零代码新手把系统推到生产环境时，最容易踩哪些坑。
 顺便问一句：如果让你用 AI 解决工作里最烦恼的一件事，你的优先级会是哪一件？评论区聊聊。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ef9d53cfe349e104b350f965e1cf0c61_17_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ef9d53cfe349e104b350f965e1cf0c61_28_0.png>
+![](img/zhuanqian_ef9d53cfe349e104b350f965e1cf0c61_17_0.png)
+![](img/zhuanqian_ef9d53cfe349e104b350f965e1cf0c61_28_0.png)

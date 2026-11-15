@@ -16,16 +16,16 @@
 ## 3. 如何拿到淘宝分包单
 ### 1. 定位做 AI 视频的商家
 第一步，打开淘宝搜索“AI 视频”，如图。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e45f1ec0218860e98ed25f4c61db430d_0_0.png>
+![](img/zhuanqian_e45f1ec0218860e98ed25f4c61db430d_0_0.png)
 第二步，挑一家销量靠前的店铺，直接给客服发消息问“是否招代做？”如图。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e45f1ec0218860e98ed25f4c61db430d_2_0.png>
+![](img/zhuanqian_e45f1ec0218860e98ed25f4c61db430d_2_0.png)
 第三步，客服会发一个入职链接，按指引操作即可进入派单群，通常在企业微信派单，如图。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e45f1ec0218860e98ed25f4c61db430d_3_0.png>
+![](img/zhuanqian_e45f1ec0218860e98ed25f4c61db430d_3_0.png)
 ### 2. 抢单方式
 接单时要综合判断是否匹配自身能力。不同店铺规则不同，有的是回复数字抢单，有的是私聊派单人。
 ## 4. 从成交到结算的规范流程
 全程每一步都要与委托方确认，避免后期改动造成亏损。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e45f1ec0218860e98ed25f4c61db430d_4_0.png>
+![](img/zhuanqian_e45f1ec0218860e98ed25f4c61db430d_4_0.png)
 ### 1. 需求对齐
 接到需求后，先把时长、画风、宽高、参考素材、主题等要点厘清。对齐后把整理好的要点再发给对方复核，确认无误再进剧本。
 ### 2. 分镜剧本
@@ -67,7 +67,7 @@
 先搭建基础设施，做一个无需每次重复输入指令的智能体。
 第一步，下载豆包，创建智能体。
 ##### 1. 基础操作
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e45f1ec0218860e98ed25f4c61db430d_8_0.png>
+![](img/zhuanqian_e45f1ec0218860e98ed25f4c61db430d_8_0.png)
 ##### 2. 设置
 描述处填入提供的提示词，其余设置随意。
 ##### 3. 提示词
@@ -102,15 +102,15 @@ Plain Text
 1.
 2.
 效果一般，标准三视图应如图所示。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e45f1ec0218860e98ed25f4c61db430d_12_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e45f1ec0218860e98ed25f4c61db430d_12_1.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e45f1ec0218860e98ed25f4c61db430d_12_2.png>
+![](img/zhuanqian_e45f1ec0218860e98ed25f4c61db430d_12_0.png)
+![](img/zhuanqian_e45f1ec0218860e98ed25f4c61db430d_12_1.png)
+![](img/zhuanqian_e45f1ec0218860e98ed25f4c61db430d_12_2.png)
 用豆包逐步调优至满意。
 继续生成其他资产，可参考示例。
 制作时角色缺乏辨识度，我修改了提示词让角色更有特点。
 场景资产：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e45f1ec0218860e98ed25f4c61db430d_13_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e45f1ec0218860e98ed25f4c61db430d_13_1.png>
+![](img/zhuanqian_e45f1ec0218860e98ed25f4c61db430d_13_0.png)
+![](img/zhuanqian_e45f1ec0218860e98ed25f4c61db430d_13_1.png)
 素材开发完成。
 #### 4. 分镜图生成
 用之前搭建的智能体，把分镜脚本和视觉风格发送进去。
@@ -118,30 +118,30 @@ Plain Text
 发送后会自动输出分镜提示词。需要简便可再发：
 Plain Text
 直接将分镜脚本输出为可一键复制的 Markdown 格式，格式为：用以下提示词生成 3×3 的网格图，1.2.3.4.5.6.7.8.9.
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e45f1ec0218860e98ed25f4c61db430d_14_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e45f1ec0218860e98ed25f4c61db430d_14_1.png>
+![](img/zhuanqian_e45f1ec0218860e98ed25f4c61db430d_14_0.png)
+![](img/zhuanqian_e45f1ec0218860e98ed25f4c61db430d_14_1.png)
 （没有的镜头用“空镜”表示。）
 效果如下。记得标注风格。
 获得的分镜提示词：
 ##### 2. 生成分镜
 可注册 LibTV 用免费积分生成分镜，更快。
 第一步，将素材上传到 LibTV 画布。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e45f1ec0218860e98ed25f4c61db430d_15_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e45f1ec0218860e98ed25f4c61db430d_15_1.png>
+![](img/zhuanqian_e45f1ec0218860e98ed25f4c61db430d_15_0.png)
+![](img/zhuanqian_e45f1ec0218860e98ed25f4c61db430d_15_1.png)
 第二步，新建生图节点，连接所有素材。
 第三步，填入分镜提示词，并对素材标注，如“<@图1 是小猫 A>”，点击生成。
 第四步，提取生成图片。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e45f1ec0218860e98ed25f4c61db430d_16_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e45f1ec0218860e98ed25f4c61db430d_16_1.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e45f1ec0218860e98ed25f4c61db430d_16_2.png>
+![](img/zhuanqian_e45f1ec0218860e98ed25f4c61db430d_16_0.png)
+![](img/zhuanqian_e45f1ec0218860e98ed25f4c61db430d_16_1.png)
+![](img/zhuanqian_e45f1ec0218860e98ed25f4c61db430d_16_2.png)
 第五步，切分并创建分镜组。
 第六步，批量下载到本地。
 # 6. 视频生成
 ## 1. Seed 提示词制作
 由于豆包策略原因无法搭建智能体，直接把提示词发送给对话即可。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e45f1ec0218860e98ed25f4c61db430d_17_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e45f1ec0218860e98ed25f4c61db430d_17_1.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e45f1ec0218860e98ed25f4c61db430d_17_2.png>
+![](img/zhuanqian_e45f1ec0218860e98ed25f4c61db430d_17_0.png)
+![](img/zhuanqian_e45f1ec0218860e98ed25f4c61db430d_17_1.png)
+![](img/zhuanqian_e45f1ec0218860e98ed25f4c61db430d_17_2.png)
 第一步，上传分镜脚本与所有分镜截图。
 第二步，补充角色信息。
 第三步，免费额度每次只能生成 10 秒，连续生成两次拼成完整故事。
@@ -161,13 +161,13 @@ Plain Text
 ## 2. 视频制作
 第一步，输入提示词并上传图片后 @ 它。
 第二步同上，等待生成完成。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e45f1ec0218860e98ed25f4c61db430d_20_0.png>
+![](img/zhuanqian_e45f1ec0218860e98ed25f4c61db430d_20_0.png)
 # 7. 视频剪辑
 剪辑即把片段拼接。
 可加入闪白、闪黑等转场，切镜时切换分镜。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e45f1ec0218860e98ed25f4c61db430d_21_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e45f1ec0218860e98ed25f4c61db430d_21_1.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e45f1ec0218860e98ed25f4c61db430d_21_2.png>
+![](img/zhuanqian_e45f1ec0218860e98ed25f4c61db430d_21_0.png)
+![](img/zhuanqian_e45f1ec0218860e98ed25f4c61db430d_21_1.png)
+![](img/zhuanqian_e45f1ec0218860e98ed25f4c61db430d_21_2.png)
 导出后一条简易 AI 短片就完成，稍加练习即可接单。
 ## 4. 实战经验与避坑
 ## 1. 能否接单的判断

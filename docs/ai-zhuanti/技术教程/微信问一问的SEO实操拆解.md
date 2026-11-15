@@ -9,7 +9,7 @@
 刚上手时，我觉得自己的生活素材太平淡，分享不出生活味，也很难刻意装有趣。既然来了，不做也不行。权衡后我就用“先给公众号引流”的心态切入AI垂类，稀里糊涂地开启了这次问一问的测试。
 # 二、视觉占据决定完播
 AI类问题在问一问里其实都大同小异，用户问的都是“AI会不会取代工作”“Deepseek能干什么”这类宽泛问题。干货感不强，审美疲劳快。
-于是我开始专门找“AI视频”“AI绘画”相关的问题，用教程图的方式来答。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7b6e2e630047b9f86b4af42e80d132c6.png>
+于是我开始专门找“AI视频”“AI绘画”相关的问题，用教程图的方式来答。![](img/zhuanqian_7b6e2e630047b9f86b4af42e80d132c6.png)
 每条回答我至少配两张图，再配一段长文字。文字的套路很简单，把提问关键词嵌进去，基本就能稳定在300字左右。
 数据立刻不一样了。纯文字的回答很干，图文的互动明显更好。
 我随即把形式固定下来：
@@ -47,7 +47,7 @@ AI类问题在问一问里其实都大同小异，用户问的都是“AI会不�
 # 五、问一问与超级个体协同
 我在问一问发帖的同时，每两天发一篇公众号，主题同样是AI。虽然自认为水平一般，内容也比较水，但公众号粉丝仍在稳定增长。
 问一问带来的关注，是天然的冷启动。一个因为“想看AI”关注“AI探索者小连”的用户，看到我用同名在公众号发AI内容，会觉得是自己主动关注的人在推自己想看的东西。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_40d08aae407f64475a2be829e11a5084.png>
+![](img/zhuanqian_40d08aae407f64475a2be829e11a5084.png)
 # 六、实操建议
 复盘完机制后，我的建议如下：
 ## 发布和回答各占一半
@@ -77,7 +77,7 @@ ID、正文、标题都要带关键词，最好每篇都带。别人搜相关词
 我属于把抽象规则流程化的人，擅长把机制拆成可复用的框架。对问一问这种重分享、重体验的形态确实不算合适。
 虽然AI垂类我已经不做了，但这套SEO打法完全可以迁移到问一问的其他垂类。提前布局权重，收获会更稳。
 项目记录图附后，到此正式收尾。有缘下个项目见。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_31180ce6310c5afa29f8b4d302cf7510.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d424344f5f7887fd2cded9f05aec7466.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_72fc60de3c22f721f4aea9a1c9a80ed9.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_102206871bcf320d5d3614c754a07dae.png>
+![](img/zhuanqian_31180ce6310c5afa29f8b4d302cf7510.png)
+![](img/zhuanqian_d424344f5f7887fd2cded9f05aec7466.png)
+![](img/zhuanqian_72fc60de3c22f721f4aea9a1c9a80ed9.png)
+![](img/zhuanqian_102206871bcf320d5d3614c754a07dae.png)

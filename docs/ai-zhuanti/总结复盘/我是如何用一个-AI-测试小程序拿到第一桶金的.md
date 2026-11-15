@@ -3,51 +3,51 @@
 大家好，我是龙哥。上周我上线了一个名为「人生密码解读器」的微信 AI 测试小程序，名字在微信直接搜就能玩。我本身几乎不懂代码。起初只是随手让 AI 用中西方文化视角结合 MBTI 人格来测算职业适配度，结果反馈精准得吓人，于是我决定把这个套路封装成小程序公开使用。
 抱着“搞不定就问 AI”的思路，我用 Cursor 工具花了 1.5 小时就把核心逻辑跑通。随后一周时间接入微信支付和广告，完成备案审核，两周后正式发布。
 最出乎意料的是我把小程序丢到小红书上，几天内阅读量冲到近 2 万，点赞 3000 左右，注册用户接近 2000 人，且不少人主动付费，数据还在持续攀升。虽然中途因流量过大被平台限流，损失了部分曝光，但那种“躺着也能进账”的感觉真的太上头了。这件事让我明白，有了 AI 加持，即便零技术背景，也能把一个点子做成可变现的产品。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cca416fae35694f6f1f503da4751cd98.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c74cc8f96495e25d0f4eee1edb392f55.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3d902f9232cf488d452876183454f378.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_84488626e9b212e4de4fccdf4dc66ce2.png>
+![](img/zhuanqian_cca416fae35694f6f1f503da4751cd98.png)
+![](img/zhuanqian_c74cc8f96495e25d0f4eee1edb392f55.png)
+![](img/zhuanqian_3d902f9232cf488d452876183454f378.png)
+![](img/zhuanqian_84488626e9b212e4de4fccdf4dc66ce2.png)
 下面我就把这次从嗅到需求到开发、上线、引流变现的全链路拆开讲清楚。这不是一个遥不可及的成功学故事，而是一个普通人借助 AI 工具实现落地的真实复盘。
 # 一、灵感与契机：从给朋友测测看，到做出小程序
 ## AI 现在到底能强到什么程度？
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c91a39b8ba6e295a9b797c9fa52690f6.png>
+![](img/zhuanqian_c91a39b8ba6e295a9b797c9fa52690f6.png)
 一切要从 GPT-o1 的发布说起。2025 年初，OpenAI 一次性放出 12 个重磅更新，o1 模型迎来大幅升级。据报道，o1 被视作迈向 AGI 的关键一步。发布后 OpenAI 被认为进入 L2 推理者层级，AI 能像人一样深度思考和解决复杂问题。在博士级物理题上，GPT-4o 仅得 59.5 分，o1 直接飙到 92.8 分；在 AIME 预选赛中，成绩可排进美国前 500 名，已超过普通博士生水平。
 作为重度使用者，我立马去实测。同样的指令丢给 4o 和 o1，回答质量天差地别，o1 的表现让我直接投降。
 给大家看个有意思的对比题，就能感受到两者的差异。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0a06dab429992b601e35e94a5b010fbc.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d5f1c4841020c14fd04d54a7ab77c504.png>
+![](img/zhuanqian_0a06dab429992b601e35e94a5b010fbc.png)
+![](img/zhuanqian_d5f1c4841020c14fd04d54a7ab77c504.png)
 ## 2.一次随手的实验
 某天闲着无聊，我让 GPT-o1 结合东西方命理和 MBTI 人格推断一生的职业方向。结果精准到让人细思极恐。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0ff09b761db41eb16f218733fde31c0c.png>
+![](img/zhuanqian_0ff09b761db41eb16f218733fde31c0c.png)
 举个例子，我有个 INFP 朋友，按生辰测出来适合艺术、科技、游戏领域。他现实里就是一名独立游戏开发者，毕业于国内八大美院之一，游戏里的画面常是自己手绘，与 AI 的判断几乎一致。
 另一个 ENFJ 朋友，测试建议是教育、公益、团队领导、跨文化交流。他现在是某公益组织 CEO，是一位活跃在中西方文化传播领域的美籍华人。发展轨迹和 AI 预测高度重合，像是被提前写好剧本。
 命理提供先天框架，MBTI 补充后天性格，两者叠加后判断力确实被放大。
 我把这个玩法分享给身边人，反响异常热烈。只是当时 o1 需要付费且🪜，门槛很高。需求却在井喷，于是我用自己的账号帮近 20 个朋友测了一遍，这才意识到背后是一个真实的市场。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d004abe6dae28b6c62a2f92506dc2b5d.png>
+![](img/zhuanqian_d004abe6dae28b6c62a2f92506dc2b5d.png)
 正是这种“想用却用不方便”的痛点，促使我做一个无需🪜就能玩的小程序。核心逻辑很简单：用户填写基础资料，完成 MBTI 测试后，数据交由大语言模型进行综合解读，输出一份完整报告。
 ## 零基础也能上手吗？用 AI 打败 AI
 期间我也看到不少 Cursor AI 编程的案例，比如 8 岁小孩做出的完整网页、开发者用 Cursor 做出爆火的小猫补光灯。这些故事给了我很大信心。我的专业背景是设计，研究生读教育，代码几乎是零，但我还是决定试试。
 ### ❤心法一：遇事不决问 AI
 开发过程中各种坑肯定不少，但我早已习惯用 AI 解决 AI 的问题，所以我一点也不慌。
 比如直播投屏出问题，我就把截图丢给 AI；处理虚幻 5 的技术细节，也靠 AI 给方案。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_22c481c68bda3e8a8d3d575cc59a090d.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b32d5ee74a30e1828157486743957fee.png>
+![](img/zhuanqian_22c481c68bda3e8a8d3d575cc59a090d.png)
+![](img/zhuanqian_b32d5ee74a30e1828157486743957fee.png)
 AI 给出的解决成功率在 90% 左右，关键在于你能否把问题描述清楚并信任它的输出。在这个时代，“遇事不决问 AI”基本等于多了一项技能。
 ### ❤心法二：AI 费曼学习法
 我的学习方法也很简单：把要学的书喂给 AI，我当老师让 AI 提问，不懂就开新对话让另一个 AI 当助教讲解。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4bfbf651142fb24a07a8cffe0ac805f2.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9a0a7f45c211396a5b0ab2339437de3c.png>
+![](img/zhuanqian_4bfbf651142fb24a07a8cffe0ac805f2.png)
+![](img/zhuanqian_9a0a7f45c211396a5b0ab2339437de3c.png)
 就像我学习《未来简史》时，用 AI 来模拟费曼学习，先讲出来再被追问，记忆才牢固。李笑来在《自学是门手艺活》里也提到，毕业后停止学习的人会吃老本。AI 时代，知识不再是壁垒，敢于做作品才是关键，不懂就边做边学。
 # 二、从零到原型：一小时做出测试雏形
 ## Cursor 编程首秀
 我下载打开 Cursor，写下了人生第一行代码，手心都是汗。关于安装教程社区里很多就不重复了。
 我想说的是，AI 编程的第一句话怎么写？我之前想做一个斗地主+AI 的小游戏，一上来就把规则全塞给 AI，结果它很快就跑偏，代码和预期差距很大，需要反复修补。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8901de157a5a37a748930017605f4af9.png>
+![](img/zhuanqian_8901de157a5a37a748930017605f4af9.png)
 后来我明白，和 AI 协作也要有编程思维：小步快跑、快速迭代。需求一次性全丢，反而会让它迷路。最近我做 AI 穿搭小程序时就采用分步沟通，效果好很多。
 下面用穿搭小程序的流程来示范，原理和我爆火的测试小程序几乎一致，也帮我大大缩短了开发周期，当晚就做出了核心功能。
 #### 第一步：建 .cursorrules 文件
 做微信小程序开发时，需要在项目文件夹里新建 .cursorrules 文件，告诉 Cursor 如何遵循微信小程序规范。文件名格式必须正确，Cursor 才能识别。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d0cd1f4de7e42bfd108a461d707b9e9d.png>
+![](img/zhuanqian_d0cd1f4de7e42bfd108a461d707b9e9d.png)
 这是我做微信小程序用的 cursorrules 配置。
 ```
 # 角色
@@ -106,157 +106,157 @@ WXML、WXSS、JavaScript、云开发(CloudBase)、WeUI*等开发工具和技术�
 - **迭代改进**: 在最终确定代码之前,考虑改进、边缘情况和优化。通过潜在增强的迭代,确保最终解决方案是健壮的。
 ```
 如果要做其他 App 或插件，也可以直接套用通用模板，再让 AI 改一改就行。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c2c7093188e5880e0fed75487e0c110a.png>
+![](img/zhuanqian_c2c7093188e5880e0fed75487e0c110a.png)
 #### 第二步：先把核心功能想明白
 写代码前，先想清楚小程序要解决什么问题。可以借助 GPT 梳理流程，但核心想法必须自己明确。比如我的 AI 穿搭小程序，微信搜索“穿搭小判官”就能体验。初心就是好玩+能赚钱，核心是留存。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ec8960c7eadf87d90a3a5227e9ec36a4.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_15431bc026fa64418c1fb5d6383f5ff9.png>
+![](img/zhuanqian_ec8960c7eadf87d90a3a5227e9ec36a4.png)
+![](img/zhuanqian_15431bc026fa64418c1fb5d6383f5ff9.png)
 随后我慢慢厘清玩法、功能、点击路径、付费点，也就是核心功能、交互流程、操作路径、广告变现等细节。想清楚后再丢给 Cursor，会省去无数返工。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_770029342f0f97fb6c7c5856a90c55fc.png>
+![](img/zhuanqian_770029342f0f97fb6c7c5856a90c55fc.png)
 #### 第三步：准备原型图
 在进 Cursor 前，先给一份产品原型图，让 AI 更直观理解页面布局。不会画也能用 Claude 等工具生成。原型图相当于蓝图，能让 AI 知道每个页面长什么样。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9d071cb45610a0357acc50a8c3f584a1.png>
+![](img/zhuanqian_9d071cb45610a0357acc50a8c3f584a1.png)
 #### 第四步：正式进入 Cursor
 把核心功能描述、原型图、cursorrules 一起丢进对话框，就像下厨备好料，AI 开始炒菜。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4456e129864204149a9e110daa52e186.png>
+![](img/zhuanqian_4456e129864204149a9e110daa52e186.png)
 前期草稿做足，逻辑清晰后再进 Cursor，错误率会大幅降低。以下就是 Cursor 生成的各界面框架。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cce1b950d9b73597616d33b2096c8759.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d3c1259220ff14fe8990c867d85ebdd5.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4ca655dd9569408f346fc6b58996847d.png>
+![](img/zhuanqian_cce1b950d9b73597616d33b2096c8759.png)
+![](img/zhuanqian_d3c1259220ff14fe8990c867d85ebdd5.png)
+![](img/zhuanqian_4ca655dd9569408f346fc6b58996847d.png)
 #### 第五步：MVP 验证
 接下来做最小可行产品。核心框架有了，细节再慢慢补。先快速做出能用的版本，这就是 MVP。建议把 AI 给的方案截图存档，后续按步骤推进。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3abb4fa4aaff82bf7ce426f78b4edfd0.png>
+![](img/zhuanqian_3abb4fa4aaff82bf7ce426f78b4edfd0.png)
 从截图能看出，AI 给的方案已经很完整：预计时长、第一步接入模型、后续补缺。跟着走就能体会到语言理解和信任 AI 的重要性。
 #### 第六步：选对大语言模型
 小程序的“大脑”就是大语言模型。我用过 GPT、Claude，感觉都很强，有条件就选顶级模型。看 24 年底到 25 年初的测评，o1 的准确率就是标杆，模型性能直接决定体验。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6de246be0a3e28d381b40e661dbf829e.png>
+![](img/zhuanqian_6de246be0a3e28d381b40e661dbf829e.png)
 “留几手”毒舌风格的 AI 怎么实现？就是靠 Prompt 调教。AI + Prompt = 智能体。不是简单对接，而是先设定好毒舌打分的规则，AI 就会按这个风格输出。同理，测试类、咨询类 AI 也都是靠提示词定制，我的人生密码小程序就内置了东西方文化的提示词。
 做智能体怎么选工具？
 目前想搭建智能代理，市面上主流的工具有几个：豆包、Coze 和 Dify。
 豆包背后是国产大模型；Coze 分成国内与海外两个服务区，海外区直接内置了 GPT 和 Claude 等，不过价格偏高；Dify 则是免费平台，能灵活接入海外各家模型的接口。
 正好谷歌最近推出了 Gemini 2.0 Flash Experimental，目前可以零成本调用，体验出乎意料，有网友说它的能力已经逼近 GPT-4o。我特意用“留几手”的提示词跑了一轮，结果 Gemini 轻松识别出来，反倒是付费的 GPT 和 Claude 手里没有这些数据。既然 Gemini 有这个亮点，我决定优先把它的接口集成到 Dify，让我的应用既能“毒舌点评”，又不用为海外高级服务付费，何乐不为。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e4c137ae7dda17ee1c2e90c2015f62db.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_db1083c366e9f8c6cc0c16e802c4c1f1.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_766a1cebf7066170776342a5b710ca4f.png>
+![](img/zhuanqian_e4c137ae7dda17ee1c2e90c2015f62db.png)
+![](img/zhuanqian_db1083c366e9f8c6cc0c16e802c4c1f1.png)
+![](img/zhuanqian_766a1cebf7066170776342a5b710ca4f.png)
 第七步：图像识别流程（基于 Dify）
 我最初构想应用的核心功能时，最迫切的需求就是：用户丢来一张图片，模型自动给出结论。可大多数模型接口只认文本输入，想让图片直达，就得先解决“图怎么进”的问题。我花了不少时间搜索，发现不少人用 Dify 时遇到同样的困惑——图像能不能作为流程的起始参数。
 后来摸索出来，关键就是把流程的入参类型选成“图像”。接上 Gemini 工具（它自带视觉理解能力），整个图像理解就能实现了。用户上传的图片会先被模型读取和解析，最后返回结果。反复调试多次，这条图像解析链路终于跑通。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_161c87f780469a9489b4b17a9a07cc16.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1ee1beee6f2f07537dda22aba9e1b145.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c5370f99dab5c76c5a4698742345280a.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b69e39f93b96009f012964c182d29def.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_205076c8ded41e9f71c993efb7199e97.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_33fdc40227d63308598194a9d17cec22.png>
+![](img/zhuanqian_161c87f780469a9489b4b17a9a07cc16.png)
+![](img/zhuanqian_1ee1beee6f2f07537dda22aba9e1b145.png)
+![](img/zhuanqian_c5370f99dab5c76c5a4698742345280a.png)
+![](img/zhuanqian_b69e39f93b96009f012964c182d29def.png)
+![](img/zhuanqian_205076c8ded41e9f71c993efb7199e97.png)
+![](img/zhuanqian_33fdc40227d63308598194a9d17cec22.png)
 第八步：把流程接到微信应用
 流程就绪后，我迫不及待想把它同步到前端应用里。想象一下，用户在主页点“上传”，再点“解析”，马上能得到模型反馈，想想就兴奋。我进入 Dify 后台发布流程，找到“公开接口”的入口。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_69be852746d58816ea0b113e4fe6da30.png>
+![](img/zhuanqian_69be852746d58816ea0b113e4fe6da30.png)
 看到满屏陌生的参数，说实话有点发怵。不过我的原则是：碰到问题就请教模型。于是我把 Dify 工具里展示的接口说明、调用用例、响应样例和访问密钥全部丢给 Cursor，请它先帮我理清逻辑再说。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_76e0932a03538d652dae8230ea27f02b.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5c32753f7dc52212346c1767a5c3508e.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7675f81a7452355dda45a9d1ebaa2a3e.png>
+![](img/zhuanqian_76e0932a03538d652dae8230ea27f02b.png)
+![](img/zhuanqian_5c32753f7dc52212346c1767a5c3508e.png)
+![](img/zhuanqian_7675f81a7452355dda45a9d1ebaa2a3e.png)
 当时我给 Cursor 的信息主要包括：这是一个已经搭好的图像分析流程，入口参数是图片，输出是模型判断；我希望微信端上传的图片能自动转到该流程处理。为此附上了接口说明、POST 请求示例、执行状态查询方法和访问密钥。我特别提醒它：先确认思路，等我认可后再动手写代码。
 另外有个实用提醒：如果将来有大量用户同时用，最好购置一台服务器承载；如果只是自己测试体验，用官方托管的在线环境就足够了。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6eba054c2b59fd483d5962a20454dfa1.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6d9cd5ab94907d335a070a213e243df2.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_88f111da8f7e32fffc29cc9963b4cf18.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d60768440d028cbe1e15b0306b202f69.png>
+![](img/zhuanqian_6eba054c2b59fd483d5962a20454dfa1.png)
+![](img/zhuanqian_6d9cd5ab94907d335a070a213e243df2.png)
+![](img/zhuanqian_88f111da8f7e32fffc29cc9963b4cf18.png)
+![](img/zhuanqian_d60768440d028cbe1e15b0306b202f69.png)
 说到开发微信应用，我的做法是一边用 Cursor 写代码，一边打开官方开发工具实时预览，改完立刻能看到效果，出问题也能当场修，效率很高。下面是快速上手的几个要点。
 第一步：下载安装
 去微信官方开发工具官网，找到下载专区，按系统版本安装即可。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b927e7b84899cbb4ea3db88ff39eef29.png>
+![](img/zhuanqian_b927e7b84899cbb4ea3db88ff39eef29.png)
 第二步：导入项目
 启动工具后，把 Cursor 工作目录中的项目文件夹拖进来即可。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b8afce70274889091c8a6cb388d634ab.png>
+![](img/zhuanqian_b8afce70274889091c8a6cb388d634ab.png)
 接着会进入创建项目界面，我们要做点基础设置。我一般选申请试用账号，模板选“不使用模板”。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_15ab1cbc548231f0aff58d07c27050a9.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_090714e88746f7980f242572563a1d20.png>
+![](img/zhuanqian_15ab1cbc548231f0aff58d07c27050a9.png)
+![](img/zhuanqian_090714e88746f7980f242572563a1d20.png)
 第三步：分屏技巧
 我常用的技巧是用 Win + 方向键，让 Cursor 占据左半屏，官方工具占据右半屏，两边对照着改代码非常方便。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_19f3f1b97886de1ecde7b866a98107fc.png>
+![](img/zhuanqian_19f3f1b97886de1ecde7b866a98107fc.png)
 第四步：调试
 在工具的调试面板里可以查看运行日志。如果出现报错或白屏，直接把相关代码丢给 Cursor，让它给出修复建议。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_155c7d2d64d1498b2b5b5514f8d76453.png>
+![](img/zhuanqian_155c7d2d64d1498b2b5b5514f8d76453.png)
 第五步：真机实测
 模拟器虽然方便，但和真机仍存在差异。用“真机实测”功能在实体手机上运行一遍，能更快发现隐藏问题。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e0350deb5220bf2dc8dcaf9c31b01145.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f0b91546302a2ce81e161d9c22d2dcd1.png>
+![](img/zhuanqian_e0350deb5220bf2dc8dcaf9c31b01145.png)
+![](img/zhuanqian_f0b91546302a2ce81e161d9c22d2dcd1.png)
 如何靠应用赚钱？
 对于我的智能测算应用，变现路径是支付加广告双管齐下：应用内嵌入广告位，用户每天有一次免费体验机会，花 9.9 元开通会员后就能无限使用。下面聊聊具体操作。
 微信收款：云端模板
 基础功能完成后，就该想怎么收益了。比较常见的是开通收款和挂广告。先讲收款。
 用饮品店打比方：顾客看到的环境、菜单和柜台，就是前端；厨房、仓储和账房，就是后端。前端负责体验，后端负责打理数据和账目，两者协作才能让应用正常转起来。
 我本身没有编程经验，之前一想到要自己写后端就头大。后来发现微信的 Serverless 后端环境里已经提供了现成的支付方案，做智能测试应用可以用现成的收款组件，做智能穿搭应用可以用现成的授权组件，省掉了大量编码工作。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4257d1fffe94c06dc438afc3bea71f40.png>
+![](img/zhuanqian_4257d1fffe94c06dc438afc3bea71f40.png)
 开通后端云环境
 在微信官方后台点击“后端云环境”，按提示开通，第一个月不收费。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7744e1a25437c4518be15d61c2f3c90b.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3ea23e4712630a1ce2db1adc588282dc.png>
+![](img/zhuanqian_7744e1a25437c4518be15d61c2f3c90b.png)
+![](img/zhuanqian_3ea23e4712630a1ce2db1adc588282dc.png)
 选用现成组件
 进入组件专区，会看到收款组件等一系列现成方案。按引导安装即可。以用户授权组件为例，安装后工程目录里会自动出现 cloudfunctions 文件夹，里面是配套的云函数，比如 login。接下来用 Cursor 调整配置，部署时选择“上传部署：云端安装依赖”，前端与后端就打通了。调试中遇到问题，就把后端云环境页面的指引复制给 Cursor，一步步解决直到部署成功。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4e329b7eaaff6bd99707cd7a0de2f34c.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bbdede7034933c74e1b828bddcbf89dd.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f65d219fb4ba8a71d220db83a3713c14.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2880957414ef2738a2dce6774c67cc70.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7792bc4a6147e26956ed8b71110c6620.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e6e7a348008ea932eecf476569b41384.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6d824e26308626ceecfe79d00c698a70.png>
+![](img/zhuanqian_4e329b7eaaff6bd99707cd7a0de2f34c.png)
+![](img/zhuanqian_bbdede7034933c74e1b828bddcbf89dd.png)
+![](img/zhuanqian_f65d219fb4ba8a71d220db83a3713c14.png)
+![](img/zhuanqian_2880957414ef2738a2dce6774c67cc70.png)
+![](img/zhuanqian_7792bc4a6147e26956ed8b71110c6620.png)
+![](img/zhuanqian_e6e7a348008ea932eecf476569b41384.png)
+![](img/zhuanqian_6d824e26308626ceecfe79d00c698a70.png)
 小提示：Checkpoint 还原
 如果某次修改不满意，可以点击还原点回到早前保存的状态。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_74d9d0bcf11b7e225a21c6c9c2dabe8b.png>
+![](img/zhuanqian_74d9d0bcf11b7e225a21c6c9c2dabe8b.png)
 接入微信内的收款
 关于收款资质，小红书上讨论不少。这里先泼盆冷水：个人身份无法直接申请微信的商户收款资质，必须企业认证。不过也有人走“侧门”，比如设置客服接口，用户想开通会员就直接联系客服付款，从而绕开限制。
 如果想正规操作，大体流程是：在应用后台打开支付设置，查看商户编号管理与开通指南；按提示申请商户编号；把需要的证书和密钥信息填完整；最后在后端云环境配置中填入商户编号。这些要求很多是在收款组件预留的字段里看到的。碰到不懂的，请教 Cursor 就好，缺什么补什么。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3fd66e5025c6f65016abc1e4bacdeaf9.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fdd2052cc6c89ae8b23b44e81864246e.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_00b4989ad6eff657952cc77fdb2057bc.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d68e27cc7898f36fb065a9823eff1945.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9b8e46adf58631b333223882ba14d8ab.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2886d914241779a3b32213db48f02f27.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_be55fb78828b37851ff19372f3b8d19b.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3af169100e89119c7974e24959305302.png>
+![](img/zhuanqian_3fd66e5025c6f65016abc1e4bacdeaf9.png)
+![](img/zhuanqian_fdd2052cc6c89ae8b23b44e81864246e.png)
+![](img/zhuanqian_00b4989ad6eff657952cc77fdb2057bc.png)
+![](img/zhuanqian_d68e27cc7898f36fb065a9823eff1945.png)
+![](img/zhuanqian_9b8e46adf58631b333223882ba14d8ab.png)
+![](img/zhuanqian_2886d914241779a3b32213db48f02f27.png)
+![](img/zhuanqian_be55fb78828b37851ff19372f3b8d19b.png)
+![](img/zhuanqian_3af169100e89119c7974e24959305302.png)
 嵌入广告位
 如果觉得收款流程太繁琐，或者想尽快上线产生收入，直接嵌入广告位反而是更省事的路径。
 我花了两周做了一款 AI 小程序，把过程发在小红书后，三天内冲到 1.8 万浏览，用户也破了 1600。很多人私信问我：小程序到底怎么接广告？要不要被那 300 元认证费卡住？零基础是不是真的能做出来？我决定把这段经历完整摊开，把我踩过的坑和用过的“野路子”都写清楚。
 ## 把人气变成现金流：广告接入并不神秘
-先从小程序后台开始。找出“流量主”入口，点进去开通就行。用大白话讲，流量主就是一个把你小程序里的人气转化成广告曝光的角色；而广告主那边，则是花钱来推广你小程序的人。两头一接，流量就开始有价格了。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a57d668cbc841bc621eda8f17243ea02.png>
-但新小程序往往没那么快就能打开广告权限，它有一定门槛。最常见的要求是：你的小程序要有 500 个以上的访客。如果你公司名下已经有好几个小程序，其中某一个已经连续三个月都在盈利，广告也会自动向你敞开大门，不需要再慢慢攒访客。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a7061f4fd4b6e2d6d3fe8a87b842818a.png>
+先从小程序后台开始。找出“流量主”入口，点进去开通就行。用大白话讲，流量主就是一个把你小程序里的人气转化成广告曝光的角色；而广告主那边，则是花钱来推广你小程序的人。两头一接，流量就开始有价格了。![](img/zhuanqian_a57d668cbc841bc621eda8f17243ea02.png)
+但新小程序往往没那么快就能打开广告权限，它有一定门槛。最常见的要求是：你的小程序要有 500 个以上的访客。如果你公司名下已经有好几个小程序，其中某一个已经连续三个月都在盈利，广告也会自动向你敞开大门，不需要再慢慢攒访客。![](img/zhuanqian_a7061f4fd4b6e2d6d3fe8a87b842818a.png)
 等你进入广告管理界面，会发现接入广告有两种方式。
-**第一种叫自主接入。** 你肯定玩过那种小游戏：看完广告就能复活，或者解锁某个权益。这就是典型的自定义广告位。你可以自己挑一个页面、选一个位置插入广告，系统会给你生成一段代码，你把代码装进小程序里，广告就会被自动拉取出来。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e8f0db6c058511dbbcc51a2be8696a66.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f875add53a0f5b7da19e9387a3ea7cac.png>
-**第二种叫智能接入。** 如果你懒得判断哪里放广告更合适，系统会自己分析该出现在哪个界面。比如首页中间的横屏广告，或者刚打开小程序时的开屏广告，都属于智能推荐的位置。你还可以扫码预览，在手机上直接看到广告插入后的效果，觉得没问题再确认。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_076109b5ffe9c87c6bd58d19586b0c87.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c2339e2031721a27c488c41a184b423a.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9df5a98f3b902035c07513e0e430c1ee.png>
-一旦小程序每天都有真实用户在使用，广告收入就会像“日结工资”一样，每天进入你的账户。“躺赚”的感觉，就是这么一点点养出来的。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7ebbca9005c89334b17cf240c34559c1.png>
-到这一步，变现闭环算是完成了。还记得咱们之前看过的 MVP 截图吗？按里面的流程走完，真机调试流畅、没有明显报错以后，就要开始准备真正上线了。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0a6b1fc23db872817487ec31533fb1d7.png>
+**第一种叫自主接入。** 你肯定玩过那种小游戏：看完广告就能复活，或者解锁某个权益。这就是典型的自定义广告位。你可以自己挑一个页面、选一个位置插入广告，系统会给你生成一段代码，你把代码装进小程序里，广告就会被自动拉取出来。![](img/zhuanqian_e8f0db6c058511dbbcc51a2be8696a66.png)![](img/zhuanqian_f875add53a0f5b7da19e9387a3ea7cac.png)
+**第二种叫智能接入。** 如果你懒得判断哪里放广告更合适，系统会自己分析该出现在哪个界面。比如首页中间的横屏广告，或者刚打开小程序时的开屏广告，都属于智能推荐的位置。你还可以扫码预览，在手机上直接看到广告插入后的效果，觉得没问题再确认。![](img/zhuanqian_076109b5ffe9c87c6bd58d19586b0c87.png)![](img/zhuanqian_c2339e2031721a27c488c41a184b423a.png)![](img/zhuanqian_9df5a98f3b902035c07513e0e430c1ee.png)
+一旦小程序每天都有真实用户在使用，广告收入就会像“日结工资”一样，每天进入你的账户。“躺赚”的感觉，就是这么一点点养出来的。![](img/zhuanqian_7ebbca9005c89334b17cf240c34559c1.png)
+到这一步，变现闭环算是完成了。还记得咱们之前看过的 MVP 截图吗？按里面的流程走完，真机调试流畅、没有明显报错以后，就要开始准备真正上线了。![](img/zhuanqian_0a6b1fc23db872817487ec31533fb1d7.png)
 ## 不花 300 元的发布诀窍：借已验证公众号“快速创建”
-先别急着踩最常见的坑。很多人注册小程序时，都会直接去搜“微信小程序”入口，结果一路填到最后一关，发现不管是企业还是个人，都要先付 300 元认证费。好多人就是被这一步劝退的。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4ab929fa0acb69dbbc4e398d8e849fff.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9c8a1f47dbad5d720e402aabac77799b.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_82d8a842b6a937520c7b3e2b972841c0.png>
+先别急着踩最常见的坑。很多人注册小程序时，都会直接去搜“微信小程序”入口，结果一路填到最后一关，发现不管是企业还是个人，都要先付 300 元认证费。好多人就是被这一步劝退的。![](img/zhuanqian_4ab929fa0acb69dbbc4e398d8e849fff.png)![](img/zhuanqian_9c8a1f47dbad5d720e402aabac77799b.png)![](img/zhuanqian_82d8a842b6a937520c7b3e2b972841c0.png)
 后来我发现了一个完全不同的入口：用你已经认证过的公众号，走“快速创建小程序”的通道，就能把那 300 元省下来。这里要提醒一句：公众号本身还是需要先付费认证的，但认证成功后，它可以“一带多”，同时带出好几个小程序。一次付费，多次受益，越摊越便宜。
-操作路径也很简单：登录已注册完成的公众号，找到“快速创建小程序”并选择认证。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1d435067f2b6b7a9573245d17a9907c0.png> 如果你之前已经认证过主体信息，那么这里可以直接复用资质。页面会非常明晃晃地写着一句话：无需提交材料或支付费用。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3f35c4d181341284998029356350382d.png> 接下来，你只需要按流程把小程序的名称、类目、备案信息等一一填好就行。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d9bba378c4a859698219605fc0b2fb12.png>
+操作路径也很简单：登录已注册完成的公众号，找到“快速创建小程序”并选择认证。![](img/zhuanqian_1d435067f2b6b7a9573245d17a9907c0.png) 如果你之前已经认证过主体信息，那么这里可以直接复用资质。页面会非常明晃晃地写着一句话：无需提交材料或支付费用。![](img/zhuanqian_3f35c4d181341284998029356350382d.png) 接下来，你只需要按流程把小程序的名称、类目、备案信息等一一填好就行。![](img/zhuanqian_d9bba378c4a859698219605fc0b2fb12.png)
 ## 发布要过三关：小程序信息、类目和备案
 原以为开发完核心功能、接好支付，事情就完了。结果发现后面还有好几道流程等着你。不用慌，其中很多材料，AI 都能帮你生成。
-**第一关，小程序的名称和图标。** 我刚做的 AI 穿搭小程序叫“穿搭判官”，灵感来自前段时间很火的“地铁判官”梗。名字并不是随便起的，它也会被严格审核。之前我做“AI 测试”小程序时，因为名字里带了点“玄”学色彩，被退回来好几次，最后还是让 AI 帮我想了好几版才过审。所以名字和图标千万别放飞自我，微信这边的审核认真得很。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4ca62a10871a8a475cf73353a8a04a02.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9609eda16196ca80efa3bb47ddac4e68.png>
-**第二关，类目选择。** 这里有个经验分享一下。我第一次做 AI 相关小程序时，为了能快速上线，选了个很容易过的类目：“信息咨询”。因为这个类目对资质要求不算高，不用提交额外材料。结果等我代码发了几次之后，官方发现我里面有 AI 内容，又要求我补交 AI 类资质。我那时候也不太懂流程，直接去淘宝花了 50 块钱找人搞定。对方是通过百度智能云平台，用企业认证帮我拿了一份报告。经历过这一次，以后再遇到类似情况，我也不会慌了。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6310ad05423b84afd9139c3a60134630.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5ff90aa1379a4cb6451f994be4d73722.png>
-**第三关，备案。** 备案这件事挺严肃，它的本质是确认你会遵守网络规定，不搞违规运营。整体流程大概是：点击“去备案”，填写备案信息；最花时间的是后面要打印文件、填写内容、盖章，再拍照上传。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a607608932e88be8c9088980b23dbd8f.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b06d13049835694014e4a920993620e9.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_eaead119c77963236de678341a254700.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f338b60d688ce89b59a0ed449bb716b5.png>
-提交审核之后，腾讯客服会打电话给你，核实身份证后几位、公司名称等信息。如果文件有问题，对方会告诉你哪里要改。最后，法人会收到一条 ICP 备案链接，点进去完成认证。只要按着提示一步步来，就能顺利通过。等看到页面上那一排排蓝字，就说明备案已经搞定，可以去后台提交代码，然后看着小程序在自己手机里跑起来了。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fda79ac369a8c51b8288f4bf4fd26d17.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5ceac0ef47a1cf61d56c5aa0e01299e2.png>
+**第一关，小程序的名称和图标。** 我刚做的 AI 穿搭小程序叫“穿搭判官”，灵感来自前段时间很火的“地铁判官”梗。名字并不是随便起的，它也会被严格审核。之前我做“AI 测试”小程序时，因为名字里带了点“玄”学色彩，被退回来好几次，最后还是让 AI 帮我想了好几版才过审。所以名字和图标千万别放飞自我，微信这边的审核认真得很。![](img/zhuanqian_4ca62a10871a8a475cf73353a8a04a02.png)![](img/zhuanqian_9609eda16196ca80efa3bb47ddac4e68.png)
+**第二关，类目选择。** 这里有个经验分享一下。我第一次做 AI 相关小程序时，为了能快速上线，选了个很容易过的类目：“信息咨询”。因为这个类目对资质要求不算高，不用提交额外材料。结果等我代码发了几次之后，官方发现我里面有 AI 内容，又要求我补交 AI 类资质。我那时候也不太懂流程，直接去淘宝花了 50 块钱找人搞定。对方是通过百度智能云平台，用企业认证帮我拿了一份报告。经历过这一次，以后再遇到类似情况，我也不会慌了。![](img/zhuanqian_6310ad05423b84afd9139c3a60134630.png)![](img/zhuanqian_5ff90aa1379a4cb6451f994be4d73722.png)
+**第三关，备案。** 备案这件事挺严肃，它的本质是确认你会遵守网络规定，不搞违规运营。整体流程大概是：点击“去备案”，填写备案信息；最花时间的是后面要打印文件、填写内容、盖章，再拍照上传。![](img/zhuanqian_a607608932e88be8c9088980b23dbd8f.png)![](img/zhuanqian_b06d13049835694014e4a920993620e9.png)![](img/zhuanqian_eaead119c77963236de678341a254700.png)![](img/zhuanqian_f338b60d688ce89b59a0ed449bb716b5.png)
+提交审核之后，腾讯客服会打电话给你，核实身份证后几位、公司名称等信息。如果文件有问题，对方会告诉你哪里要改。最后，法人会收到一条 ICP 备案链接，点进去完成认证。只要按着提示一步步来，就能顺利通过。等看到页面上那一排排蓝字，就说明备案已经搞定，可以去后台提交代码，然后看着小程序在自己手机里跑起来了。![](img/zhuanqian_fda79ac369a8c51b8288f4bf4fd26d17.png)![](img/zhuanqian_5ceac0ef47a1cf61d56c5aa0e01299e2.png)
 ## 上线审核：从 Appid 到合法域名
 接下来就进入提交审核阶段了。有几个容易踩坑的小细节，值得单独拿出来说。
-在账号设置里找到你自己的 Appid，把它填进微信开发者工具里。填进去以后，你就不再是测试号，而是正式认证用户了。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9524b8e59c67ba5d2c7b323df1a44571.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_38eb51a717a2aaff0504ef23bdd2f894.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_113685f1dd7d1ed3db4328994338aae6.png>
-填好 Appid 后，之前灰色的“上传”按钮会变成可点击状态，点它上传代码，再按要求写好版本号，这一步就搞定了。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7b8532d2dfadba33d8c4af351f02c7b3.png>
-上传完代码后，去小程序后台的“版本管理”页面，刚上传的代码已经躺在那里，可以直接提交审核。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8c7bdb0da537668aa9bcbb865396b6ef.png>
-如果你要把 Dify 或者其他 API 接到自己的小程序里，大概率会遇到一个叫“合法域名”的配置项。微信只允许给已经授权的域名放行，这也是它在给第三方平台做权限管理。你们可以参考一下我后台的合法域名配置。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_77827dd0b56f6bb184bb97ecd4f3dbc9.png>
-提交审核之前最好自查一遍：代码和后台内容里不能有违规的东西。我印象很深，第一次提交 AI 测试类小程序时，功能其实还不完整，但审核也过了。后来我改了版本，微信那边识别出我有 AI 相关内容，又要求我补交 AI 资质材料。另外，审核通过后会有体验版，你可以先邀请一些朋友内测，等他们确认没问题，再往正式版方向走。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8184180a9d22add3878d790097c925e3.png>
+在账号设置里找到你自己的 Appid，把它填进微信开发者工具里。填进去以后，你就不再是测试号，而是正式认证用户了。![](img/zhuanqian_9524b8e59c67ba5d2c7b323df1a44571.png)![](img/zhuanqian_38eb51a717a2aaff0504ef23bdd2f894.png)![](img/zhuanqian_113685f1dd7d1ed3db4328994338aae6.png)
+填好 Appid 后，之前灰色的“上传”按钮会变成可点击状态，点它上传代码，再按要求写好版本号，这一步就搞定了。![](img/zhuanqian_7b8532d2dfadba33d8c4af351f02c7b3.png)
+上传完代码后，去小程序后台的“版本管理”页面，刚上传的代码已经躺在那里，可以直接提交审核。![](img/zhuanqian_8c7bdb0da537668aa9bcbb865396b6ef.png)
+如果你要把 Dify 或者其他 API 接到自己的小程序里，大概率会遇到一个叫“合法域名”的配置项。微信只允许给已经授权的域名放行，这也是它在给第三方平台做权限管理。你们可以参考一下我后台的合法域名配置。![](img/zhuanqian_77827dd0b56f6bb184bb97ecd4f3dbc9.png)
+提交审核之前最好自查一遍：代码和后台内容里不能有违规的东西。我印象很深，第一次提交 AI 测试类小程序时，功能其实还不完整，但审核也过了。后来我改了版本，微信那边识别出我有 AI 相关内容，又要求我补交 AI 资质材料。另外，审核通过后会有体验版，你可以先邀请一些朋友内测，等他们确认没问题，再往正式版方向走。![](img/zhuanqian_8184180a9d22add3878d790097c925e3.png)
 再往后，就是等待微信小程序的备案完成。这个过程一般要花 2 到 3 天时间，期间要随时留意腾讯打来的电话和短信，不能漏接。等备案顺利结束后，小程序就可以正式上线了。
-上线也不是结束。我在做 AI 测试小程序时，后台也一直在调整。根据朋友使用后的反馈，我改了很多细节：最早界面是紫色的，但为了配合过年气氛，我把它换成了红色；有人觉得响应速度太慢，我就去优化服务器；提示词也根据用户建议反复打磨。同时，推广也必须跟上——只有当用户数量达到 500 人后，广告功能才能真正接入。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b3a745f3a3b3ae6b91088c2eb25d68ad.png>
+上线也不是结束。我在做 AI 测试小程序时，后台也一直在调整。根据朋友使用后的反馈，我改了很多细节：最早界面是紫色的，但为了配合过年气氛，我把它换成了红色；有人觉得响应速度太慢，我就去优化服务器；提示词也根据用户建议反复打磨。同时，推广也必须跟上——只有当用户数量达到 500 人后，广告功能才能真正接入。![](img/zhuanqian_b3a745f3a3b3ae6b91088c2eb25d68ad.png)
 一个人做开发，最大的心得就是不断迭代。整个过程大概花了我两周时间，但做完那天，看着自己的小程序被别人下载、使用，那种成就感真的非常饱满。
 ## 回望：从“做到一半”到“完整交付”
 回想整个过程，最让我兴奋的点其实是接入微信支付。以前我的老师跟我说过一句让我印象很深的话：我做事总是“做到一半，没能完成”。当时我完全不理解，直到这次才真正体会。
-更早之前，我也做过一些 AI 项目，比如 AI 绘画的 ComfyUI 工作流。1.0 版本，我完成了整个工作流的搭建，觉得自己已经很努力了；2.0 版本，我逼自己一把，给工作流做了前端界面，让更多人可以上手用；到了 3.0 版本，我终于把工作流接入了支付系统。从前那个只会表达艺术和审美的女生，竟然也能坦然地谈“钱”了。这个付费动作，不只是让作品有了商业闭环，更是对我自己的一个证明：我设计的东西，终于能给真实世界带去一点影响，它不再只是一个半成品。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f598e38b7a958d46a4839ea7c0ff544f.png>
+更早之前，我也做过一些 AI 项目，比如 AI 绘画的 ComfyUI 工作流。1.0 版本，我完成了整个工作流的搭建，觉得自己已经很努力了；2.0 版本，我逼自己一把，给工作流做了前端界面，让更多人可以上手用；到了 3.0 版本，我终于把工作流接入了支付系统。从前那个只会表达艺术和审美的女生，竟然也能坦然地谈“钱”了。这个付费动作，不只是让作品有了商业闭环，更是对我自己的一个证明：我设计的东西，终于能给真实世界带去一点影响，它不再只是一个半成品。![](img/zhuanqian_f598e38b7a958d46a4839ea7c0ff544f.png)
 ## 无心插柳柳成荫：一篇帖子带来的流量爆发
-乔布斯说过，人生里的点，只有在回头看的时候，才能真正连成线。我也没想到，某天我突然决定把创作过程整理成一篇小红书帖子，发到 AI 创作群里，又转发给了身边朋友。结果，这篇文章就像被推倒的多米诺骨牌，一天之内就引来了大批关注，最后浏览量冲到 1.8 万，小程序用户也突破了 1600。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9697536f9b1655a1a2767778fa883de4.png>
+乔布斯说过，人生里的点，只有在回头看的时候，才能真正连成线。我也没想到，某天我突然决定把创作过程整理成一篇小红书帖子，发到 AI 创作群里，又转发给了身边朋友。结果，这篇文章就像被推倒的多米诺骨牌，一天之内就引来了大批关注，最后浏览量冲到 1.8 万，小程序用户也突破了 1600。![](img/zhuanqian_9697536f9b1655a1a2767778fa883de4.png)
 很多人问：“小程序到底怎么赚钱？”但我的答案是：比赚钱更先一步的，是让你的小程序被人看见。从开发到发布，一个人可以像技术员一样把事情做完；但推广这件事，更像一次突破自我、走向外部世界的过程。我不会写代码的时候觉得很难，真做完了才发现，更难的是让其他人知道你在做的东西有价值。
 我的推广路线，意外踩中了一个“套路”：先私域，后公域。先从身边朋友开始积累关注，朋友们用完之后自发帮我转发；私域热度起来了，公域里的人也越来越多关注到我。
 我也复盘了这次内容为什么能火。主要有两点感悟。
 第一，跨行业的作品自带复利。我身边既有一些对东方传统测算感兴趣的朋友，也有一批技术背景浓厚的朋友。这两个圈子平时几乎没有交集，但当我把它们组合在一起时，就产生了非常奇妙的化学反应。测算圈的人对技术好奇，技术圈的人对测算感到新鲜，两边一碰撞，关注度就起来了。
 第二，真诚永远是必杀技。不同的平台有不同的气质。抖音欢迎来自四面八方的人，流量大但也“水”；小红书会更严格地审核内容，默认把每个来的人都当“坏人”，可一旦它判断你是真诚分享，就会把真正有价值的作品推给更多人。如果你的作品本身有足够的价值，平台就会给你送来高质量的真实流量。
 那几天，我的小红书从原来的空白一片，变成了每天 99+ 的点赞、评论和收藏。说实话，那种“当明星”的感觉确实会让人沉迷。但很快我心里就有一个声音提醒自己：不能陷进表面的虚荣里。这些关注只是水面上的冰山一角，我更应该想清楚，怎么把小程序做得更好，怎么让大家认识一个更真实的我。
-后来我也观察了不少优秀独立开发者，他们有个共同点：每天做新项目的同时，也会把开发过程、遇到的困难、赚到多少钱，全部做成内容发出来。这样一来，既能吸引技术向的用户关注，也在不断推动自己进步，还能反过来给作品带流量，简直是一举多得。AI 当时给我的建议是，在小红书下面建一个群组，把对我内容感兴趣的人聚起来，用我的知识和经验帮他们解答疑问。这不仅是培养种子用户，也是在一点点积累我自己的实践能力。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_47494ef9c7ba286675a979fac6a232cd.png>
+后来我也观察了不少优秀独立开发者，他们有个共同点：每天做新项目的同时，也会把开发过程、遇到的困难、赚到多少钱，全部做成内容发出来。这样一来，既能吸引技术向的用户关注，也在不断推动自己进步，还能反过来给作品带流量，简直是一举多得。AI 当时给我的建议是，在小红书下面建一个群组，把对我内容感兴趣的人聚起来，用我的知识和经验帮他们解答疑问。这不仅是培养种子用户，也是在一点点积累我自己的实践能力。![](img/zhuanqian_47494ef9c7ba286675a979fac6a232cd.png)
 让我意外又开心的是，后来“龙哥盟”也找到我，希望我去分享一下经验。我越发觉得，这些互动的过程比结果本身更珍贵。很多志同道合的朋友陆续加入进来，大家一起聊、一起做，不断碰撞出新的想法。真正的“成长”正在这里发生。
 ## 心力，才是真正难跨越的门槛
 这段时间总有人问我：“你怎么做到的？”我的回答一直很一致：先试试吧，遇到问题再来找我。我并不觉得自己有多厉害，反而觉得这只是一个开始，真正的成长，必须靠试错和复盘一点点换来。
@@ -274,7 +274,7 @@ WXML、WXSS、JavaScript、云开发(CloudBase)、WeUI*等开发工具和技术�
 比如这个 AI 绘画网页：https://ai-ashy-tau.vercel.app/（需要🪜打开）。这是在 Cursor 课上，一个学生独立完成的网页作品。它连商业闭环都自己走完了——需要付费才能使用。更让我发笑的是，这孩子为了不接微信支付和广告，想了一个奇招，在页面里接了一个“发电会员”入口，简单粗暴又有效。
 有个 13 岁的孩子叫刘文骏，他拿 Sora 做了一个“灭绝物种复原”视频。你只需要输入一段文字，AI 就能生成 6 秒的视频画面。他分批次生成多个 6 秒片段，再自己剪辑拼接，最后做成了一个完整流畅的短片。
 还有一个 16 岁的少年叫刘冠辰，他直接用 AI 编程做了个游戏。AI 编程的魔力在于，不管你想做游戏、网站还是软件，它都能帮你快速实现，而且操作特别容易上手。他说，这个游戏原型他只用了不到 5 分钟就做出来了，整个过程非常简单。
-刘冠辰还和兔子老师一起做了一个自媒体 PBL 项目。做这个项目的初衷，是为了给自己打造一个 IP——他理解的 IP，就是在某个领域拥有绝对话语权的身份。那个视频从脚本开始就全由 AI 产出，他们负责拍摄，再用 AI 软件剪辑，最后发到各个视频平台上。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_15b75b5b5e6513a73f9e1688b38288af.png>
+刘冠辰还和兔子老师一起做了一个自媒体 PBL 项目。做这个项目的初衷，是为了给自己打造一个 IP——他理解的 IP，就是在某个领域拥有绝对话语权的身份。那个视频从脚本开始就全由 AI 产出，他们负责拍摄，再用 AI 软件剪辑，最后发到各个视频平台上。![](img/zhuanqian_15b75b5b5e6513a73f9e1688b38288af.png)
 这些孩子，都在用 AI 认真地表达自己，也在用自己的方式开创未来。他们让我明白，创意一旦加上行动，再加上 AI 这把杠杆，就能变成很不一样的东西。
 所以，如果你也正在犹豫要不要开始做一个小程序，我的建议很简单：别让 300 元挡住你，也别让“不会写代码”吓住你。先动手，把问题一个个解决掉，再用真诚和坚持，把作品推到更多人面前。最坏的结果，也不过是“试过一次，学到一堆经验”而已。
 愿我们都能在 AI 时代，打破身份，拓宽边界，去做出这个世界上有意思的事情。

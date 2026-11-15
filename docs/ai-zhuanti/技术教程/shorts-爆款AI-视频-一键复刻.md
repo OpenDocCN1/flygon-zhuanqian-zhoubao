@@ -1,6 +1,6 @@
 # shorts 爆款AI 视频，一键复刻
-刷到一个超级风向标，看完真心觉得我也能上手一试。就是这个YouTube Shorts视频：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_207fb3cbdce2e19e8531c13985799b35.png> 据说这个号一年能赚300万美刀，看到这个收入谁不心动？<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_345bcab7640fc7de5b0db05a04652927.png>
-我过去一直专注公众号，流量还算不错，但真的越来越卷。如今冒出Shorts这个机会，直接赚美元，加上AI加持，实在让我特别兴奋。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5c7eb44508284a7e8eb921748e8d4826.png>
+刷到一个超级风向标，看完真心觉得我也能上手一试。就是这个YouTube Shorts视频：![](img/zhuanqian_207fb3cbdce2e19e8531c13985799b35.png) 据说这个号一年能赚300万美刀，看到这个收入谁不心动？![](img/zhuanqian_345bcab7640fc7de5b0db05a04652927.png)
+我过去一直专注公众号，流量还算不错，但真的越来越卷。如今冒出Shorts这个机会，直接赚美元，加上AI加持，实在让我特别兴奋。![](img/zhuanqian_5c7eb44508284a7e8eb921748e8d4826.png)
 先说下我如何拆解这个爆款视频。把视频下载下来（用youtudl就能搞定，不多展开），仔细研究后会发现，它本质上是由多个小脚本、多段短视频拼成的“合集”——先写好一个完整脚本，再逐段生成几秒钟的视频，最后拼成一条30秒的Shorts。
 我的复刻思路大概是这样的：先用脚本把视频按固定间隔切帧，比如30秒的视频每5秒截取一帧，得到6张关键图片；接着提取背景音乐；再把每张图交给AI分析，生成对应提示词；然后把这些提示词扔给视频生成接口，逐个生成几秒钟的短片段；最后拼接所有片段并配上原BGM，一个复刻版短视频就完成了。整个过程全部交给AI处理。
 实际流程分两步。
@@ -130,7 +130,7 @@ if __name__=='__main__':
 # url = 'xxx'
 # describe_png(url)
 main()
-``` 接着让AI工具把解析结果直接写进CSV。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8235e38a8ff0bf88c0215452e3363f71.png> 这样一份完整的素材解析表就到手了。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f9810ce6b968f0748643b6dd14d9bd98.png>
+``` 接着让AI工具把解析结果直接写进CSV。![](img/zhuanqian_8235e38a8ff0bf88c0215452e3363f71.png) 这样一份完整的素材解析表就到手了。![](img/zhuanqian_f9810ce6b968f0748643b6dd14d9bd98.png)
 第二步是视频生成。我之前写过一篇利用Cloudflare把文字变成图片的教程，链接在这： 我现在用的是智谱清言的bigmodel，现在有免费额度，虽然生成质量一般，但胜在免费。
 直接开干吧！文末有最终复刻出来的成片，大家看看效果如何。
 ```
@@ -293,5 +293,5 @@ print_db_contents(update=1)
 这个成片的思路，其实就是先拆解一条已经爆火的源视频，把它的音频和整体节奏都复刻下来，这是第一种可操作的方法。
 第二种思路是，市面上大量用静态图加上动态效果的视频也在持续吸量，数据表现相当不错。局限不只是视频形式，核心是敢于动手去尝试。
 https://www.youtube.com/@NoMulify
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c01327b6079c97a3ea5ee412af5c8f94.png>
+![](img/zhuanqian_c01327b6079c97a3ea5ee412af5c8f94.png)
 综合来看，第二种做法上手门槛更低。准备一批图片，配上动效、节奏踩点和背景音乐，很快就能成片。最重要的还是行动起来。

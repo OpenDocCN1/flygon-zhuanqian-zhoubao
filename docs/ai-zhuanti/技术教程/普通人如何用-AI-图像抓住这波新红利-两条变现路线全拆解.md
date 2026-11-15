@@ -19,12 +19,12 @@ GPT-4o 面世之后，给我的直观感受是：AI 绘画这件事，从过去�
 产品打磨完成、正式上线后，服务 10 个人和 1000 个人，你的投入几乎没有差别。它像一个你亲手造的印钞机，一旦运转，就能全天候为你产生复利。门槛比直接卖图稍高，但长期价值和天花板完全值得投入。
 ### 2.2 案例拆解：HeadshotPro.com 如何做到年入百万美金
 带你看一个全球最火的标杆——HeadshotPro.com，专注 AI 生成商务头像。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cd9de36ec7047108834cdfdde4b23ade.png>
+![](img/zhuanqian_cd9de36ec7047108834cdfdde4b23ade.png)
 它解决了什么痛点？ 传统商务拍照贵、慢、麻烦。实体影楼动辄上千，预约、拍摄、修图常常要一两周，还有人天生镜头恐惧。
 它的打法有多狠？ HeadshotPro 把价格压到传统摄影的八分之一左右，两个小时内交付，上百张照片任选。上传几张生活照，AI 即可完成精修，效果不输棚拍。“快、好、便宜”三点全部拿下。
 它怎么变现？ 29 美元买断 40 张头像，团队套餐更优惠。对比几百美元的摄影费，决策成本几乎为零。平台已服务十万以上用户，流水达到百万美金量级。
 流量从哪来？ 50%来自 Google 搜索优化，37%来自老客户口碑推荐。产品真正解决痛点，流量自然会来。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e82144b457052542bf8954aa25dedc3f.png>
+![](img/zhuanqian_e82144b457052542bf8954aa25dedc3f.png)
 ### 2.3 国内落地怎么玩：本土化适配与零代码起步
 有人会问：国外付费意愿高，国内能复制吗？
 能，但要做适配。国外案例的意义是证明模式成立，国内要做的是找到更符合本地习惯的小切口。
@@ -38,7 +38,7 @@ GPT-4o 面世之后，给我的直观感受是：AI 绘画这件事，从过去�
 需求明确后，技术和成本已不是问题。
 技术怎么解决？ 不用会写代码。Cursor、Trae 这类 AI 编程助手就是你的技术合伙人。用大白话描述需求，它们就能输出可用代码。
 我在调研时看到 photo.ideafactorys.com 这个例子，作者也是用 vibe coding 方式快速搭出图片生成站点，并采用积分制变现。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c5cfdd0ad866aa041459deb5fca75bfc.png>
+![](img/zhuanqian_c5cfdd0ad866aa041459deb5fca75bfc.png)
 成本怎么算？ 核心公式：单次用户付费 > 单次图片 API 成本。守住这条线，项目才有利润。
 主流 API 选择两条路：
 方案 A——游击战打法，追求成本极致

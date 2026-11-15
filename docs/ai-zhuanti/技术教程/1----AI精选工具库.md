@@ -2,7 +2,7 @@
 最近后台总有朋友问我：AI工具那么多，到底哪些真正值得用？哪些只是噱头？说实话，我也有过同样的困惑——直到我花了整整一年时间，把市面上叫得上名字的AI产品几乎用了个遍，才有了这份压箱底的清单。
 今天就把这份“AI精选工具库”完整分享出来。它不是什么泛泛的合集，而是我从真实使用体验里筛出来的“少而精”，一共18个板块、100款产品。信息太杂反而让人无从下手，所以只留下真正经得起用的。温馨提示：在电脑上打开体验最好；名字前带⭐️的都是我个人强烈推荐的；正文里的蓝色链接点一下就能直接跳转。
 如果你刚接触AI，建议先读读我这一年实战下来的复盘心得：3个方法，帮你跑得更快。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_74d8744a84c74121c82f1d47cc601365.png>
+![](img/zhuanqian_74d8744a84c74121c82f1d47cc601365.png)
 快速索引（按需跳转）：
 🍎 尝鲜区：新鲜出炉、最近值得一试的软件
 🏅 日常主力：我本人高频在用的工具
@@ -11,26 +11,26 @@
 🍔 生活趣味：让日子变得更有意思的AI应用
 📖 信息源：值得订阅和关注的优质AI内容
 先看尝鲜区（每周一晚上9点更新）：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ce2512de9ae5791243e8ef9dcfe1d55f.png>
+![](img/zhuanqian_ce2512de9ae5791243e8ef9dcfe1d55f.png)
 智谱清影视频：智谱出品的AI视频生成，现在已全面开放使用。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b848a5c00b198799dec297ec9dd97daa.png>
+![](img/zhuanqian_b848a5c00b198799dec297ec9dd97daa.png)
 海螺视频：海螺AI家的视频生成工具，同样是开放状态，想试就试。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0077e108d9c7c2cd82390cd619b64897.png>
+![](img/zhuanqian_0077e108d9c7c2cd82390cd619b64897.png)
 Lumalabs：文字直接生成视频，实际效果还挺惊艳。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8025f34be35d9d1642a7e41fd91d7614.png>
+![](img/zhuanqian_8025f34be35d9d1642a7e41fd91d7614.png)
 可灵AI：快手的大模型，视频生成能力相当能打，在短视频圈很火。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2e2254a3cf6e041ed24b857bea20415a.png>
+![](img/zhuanqian_2e2254a3cf6e041ed24b857bea20415a.png)
 推特博主分析：基于Wordware低代码平台搭建的小工具，适合做社媒调研。
 再来看我日常主力区：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_137a4d3317ff3f0d63b6b1ff053c3f31.png>
+![](img/zhuanqian_137a4d3317ff3f0d63b6b1ff053c3f31.png)
 通义听悟：把音频/视频转成文字并自动总结，好用到离不开。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3fe44dd40541da9a52fc582f6677ec78.png>
+![](img/zhuanqian_3fe44dd40541da9a52fc582f6677ec78.png)
 ChatGPT：目前公认的AI天花板，几乎没有短板。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4aa894ba73c7402b4b9f8ffef49897ac.png>
+![](img/zhuanqian_4aa894ba73c7402b4b9f8ffef49897ac.png)
 Kimi：国产之光，支持20万字超长上下文，读长篇报告很舒服。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6b6e25550e0ff1d841ea295a36930dd3.png>
+![](img/zhuanqian_6b6e25550e0ff1d841ea295a36930dd3.png)
 Perplexity：AI搜索神器，能多渠道抓取信息并整理成答案。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_69ba7f53c489a30d5f967f7bbfef1f73.png>
+![](img/zhuanqian_69ba7f53c489a30d5f967f7bbfef1f73.png)
 秘塔AI搜索：搜完直接给结论，广告？不存在的。
 一、AIGC模型产品
 对话模型（按使用场景选）：
@@ -166,6 +166,6 @@ OnBoard：专注AI前沿，行业洞见和市场趋势不缺位。
 ⭐️ Super黄的念想：AI产品深度分析，篇篇精彩。
 ⭐️ hanniman：AI行业老兵，行业判断独到，值得反复读。
 ⭐️ 云舒的AI观察笔记：这份工具库的作者本人，产品经理老兵，内容常看常新。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1551a4174a2c16325bad0a65ef64c311.png>
+![](img/zhuanqian_1551a4174a2c16325bad0a65ef64c311.png)
 最后，所有内容都沉淀到了知识库里，随时可查。
 好了，这份压箱底的宝贝就交代到这。希望你也能在这些工具里找到属于自己的效率加速器。

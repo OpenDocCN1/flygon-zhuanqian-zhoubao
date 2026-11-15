@@ -17,7 +17,7 @@ ChatGPT Plus 的结算走的是 Stripe Checkout。理论上 Stripe 能受理大�
 * 全球付香港虚拟卡
 * 万里汇香港虚拟卡
 我们持续在观察 AI 的演进，半年时间过去，ChatGPT 已具备多模态能力，工作水准已接近全球顶尖名校毕业生的量级。但这些强能力集中在 4.0 上，而 4.0 必须依赖 Plus 会员才能使用。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b480c9fd43cf5a98b77afd623e5636d8.png>
+![](img/zhuanqian_b480c9fd43cf5a98b77afd623e5636d8.png)
 在这种情况下，身为国内用户，没有美国手机号和信用卡，充值成功率极低；对非跨境公司而言难度更高。可与此同时，这也催生了代注册、代充的生意空间。
 # 本篇要解决什么
 本篇聚焦在如何顺利注册账号、避免被封，以及如何完成 Plus 充值。至于后面怎么用、怎么学，可以参考圈内其他人的分享，黄小刀在实操层面就很专业。文中 ChatGPT 统一简写为 CT。
@@ -27,21 +27,21 @@ ChatGPT Plus 的结算走的是 Stripe Checkout。理论上 Stripe 能受理大�
 # CT 账号注册
 最稳的做法是用微软账号直登，因为 OpenAI 与微软深度绑定。微软的 Outlook 邮箱免费可注册，无额外成本。
 1. 打开浏览器无痕窗口，减少设备指纹关联。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c2015db69cbd17c351efc28c3dae60d7.png>
+![](img/zhuanqian_c2015db69cbd17c351efc28c3dae60d7.png)
 1. 进入 https://www.microsoft.com/en/microsoft-365/outlook/email-and-calendar-software-microsoft-outlook ，注册一个 Outlook 邮箱。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_581b5bbf3f653213b2d8728d000201fe.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_76e4b38ce393bade144e11b72aa6cdb8.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_40bb039d1671800014d38b20cdbb3a15.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fbe04af9f17ed3a915909f2345d62c69.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e89456f21fedbd74e5e2206a67af73b4.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_18d317e41d3b4e9b4701d3b207d7d236.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3ac573b5e7f3f3834404e6c17863ef0f.png>
+![](img/zhuanqian_581b5bbf3f653213b2d8728d000201fe.png)
+![](img/zhuanqian_76e4b38ce393bade144e11b72aa6cdb8.png)
+![](img/zhuanqian_40bb039d1671800014d38b20cdbb3a15.png)
+![](img/zhuanqian_fbe04af9f17ed3a915909f2345d62c69.png)
+![](img/zhuanqian_e89456f21fedbd74e5e2206a67af73b4.png)
+![](img/zhuanqian_18d317e41d3b4e9b4701d3b207d7d236.png)
+![](img/zhuanqian_3ac573b5e7f3f3834404e6c17863ef0f.png)
 1. 登录 https://chat.openai.com/auth/login
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b57209400eb3aa68fb75431ee3c29265.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4638115114aabffc713cb4c752ba74d6.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a58cb1a1fe927c8a5126f2cd4c8753b4.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_536d5c642b7f8d2d351a1244e35db457.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0f6c391bd9481ab0f73570458873f790.png>
+![](img/zhuanqian_b57209400eb3aa68fb75431ee3c29265.png)
+![](img/zhuanqian_4638115114aabffc713cb4c752ba74d6.png)
+![](img/zhuanqian_a58cb1a1fe927c8a5126f2cd4c8753b4.png)
+![](img/zhuanqian_536d5c642b7f8d2d351a1244e35db457.png)
+![](img/zhuanqian_0f6c391bd9481ab0f73570458873f790.png)
 https://mp.weixin.qq.com/s/P6mOqTihAkun49q7rGB5IQ
 不会用接码平台的小伙伴可以看上面的链接，教程依然可用。
 完成以上步骤，账号就算注册成功了。

@@ -48,5 +48,5 @@
 * * *
 评论区：
 暮雨潇潇 : 谷歌＞公众号＞（搜狗微信、搜索知乎）短视频＞百度👻
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1c37d505930596d12a88ab23e11aa07a.png>
+![](img/zhuanqian_1c37d505930596d12a88ab23e11aa07a.png)
 * * *

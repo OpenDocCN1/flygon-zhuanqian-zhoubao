@@ -1,6 +1,6 @@
 # 亚马逊 OA 到底是什么？现在普通人还能不能玩？
 和大龙哥连麦聊了很久，主题就是《亚马逊 OA 怎么操作，普通人还有机会吗？》
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_24df0c7071b579b423c376d2be99ef47.png>
+![](img/zhuanqian_24df0c7071b579b423c376d2be99ef47.png)
 下面把这场直播的核心要点重新梳理了一遍。
 # 一句话讲清亚马逊 OA
 OA 全称 Online Arbitrage，中文就是线上套利。
@@ -92,5 +92,5 @@ OA 本质是倒买倒卖。你不一定只能在亚马逊卖，也不一定要�
 * * *
 评论区：
 暂无评论
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_21de372a77ea1f441c613f7316831ae1.png>
+![](img/zhuanqian_21de372a77ea1f441c613f7316831ae1.png)
 * * *

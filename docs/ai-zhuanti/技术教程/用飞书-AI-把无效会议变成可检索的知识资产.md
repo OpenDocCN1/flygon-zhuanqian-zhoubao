@@ -9,42 +9,42 @@
 下面分享一个朋友斌斌在实际中跑通的打法：用飞书视频开会，提前把议题锁死，全程自动录制，事后再交给 AI 提纯。
 开会前先把本次可能讨论的范围抛出来，给大家一个锚点，避免现场发散、跑题。
 如：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_539dcda93a6981ed29121fbfd6a0da84.png>
+![](img/zhuanqian_539dcda93a6981ed29121fbfd6a0da84.png)
 然后在飞书日历里新建一个视频会议。点右上角的加号，进入预约流程。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6ea13416d59006d8f2d9ae1da5ab6ffe.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_685ff52c7df3b31b52dd537228a2fa5b.png>
+![](img/zhuanqian_6ea13416d59006d8f2d9ae1da5ab6ffe.png)
+![](img/zhuanqian_685ff52c7df3b31b52dd537228a2fa5b.png)
 进入预约设置后，找到视频会议设置项，把自动录制打开。这样从开聊那一刻起，内容就被完整留存下来了。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d6a9f85b7bf7d67a6637d376ac764d09.png>
+![](img/zhuanqian_d6a9f85b7bf7d67a6637d376ac764d09.png)
 录制开关别光靠设置，正式开会时再看一眼更稳妥。屏幕上方会有录制开启的提示，没亮就赶紧手动点开。
 开完会后，点击右下角的三个点进入菜单，选择录制保存，后续就能直接转成文字材料。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0c9664d974ea31a6711320130b80b75d.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_311e80e8d02c1ba12fc7d6db41180907.png>
+![](img/zhuanqian_0c9664d974ea31a6711320130b80b75d.png)
+![](img/zhuanqian_311e80e8d02c1ba12fc7d6db41180907.png)
 有人会问，市场上语音转文字的工具一大堆，为啥非要选飞书开视频？
 第一是使用闭环。我们日常写文档、做知识库、管提示词本来就在飞书里，它原生支持 Markdown，整理提示词非常顺手。
 第二是时长天花板。飞书会议通常是 45 分钟或 60 分钟一档，这个时长刚好能把问题聊透，又不会无限拖长。
 第三才是核心点：录制结束后，主持人可以直接把会议纪要推送给所有参会人，每个人都能用飞书自带的语音转文字功能。
 如：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3205972c90b4bd9e61f8b8326150a6b1.png>
+![](img/zhuanqian_3205972c90b4bd9e61f8b8326150a6b1.png)
 点一下上方蓝色按钮，进入记录页，在文字记录区右边点三个点，选择【导出文字记录】。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_00f509aefa86b662a432417ea566d57f.png>
+![](img/zhuanqian_00f509aefa86b662a432417ea566d57f.png)
 这里有三种导出方式可选。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_89c58f73eed3464511a4275a0d6ed640.png>
+![](img/zhuanqian_89c58f73eed3464511a4275a0d6ed640.png)
 文字量少时我会导出成飞书文档，超过约 1500 字我就倾向导出 TXT。实际开会很少只有几百字，所以大部分情况我都是导出 TXT。
 导出后直接丢给 AI 处理，比如月之暗面、Claude2、GPT Plus，都可以把文件作为附件上传，再配上提示词，一步到位。
 提示词不用雕花，能用就行。能帮你解决问题就是好提示。
 我最近常在用的 system prompt 就很朴素。
 其实我们平时说的“帮我总结这份文档”“把 XXX 的发言提炼一下”“归纳一下某个人对某件事的态度”，本质上都是提示词。
 效果如何？可以看看下面几个实操片段，个性化程度很高。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4e6dd25451782cdee76416f924bff655.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_09c008815ddc60a3655fd47d6499e5fb.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_09c8c6200594e4aa7579d1ad87236a57.png>
+![](img/zhuanqian_4e6dd25451782cdee76416f924bff655.png)
+![](img/zhuanqian_09c008815ddc60a3655fd47d6499e5fb.png)
+![](img/zhuanqian_09c8c6200594e4aa7579d1ad87236a57.png)
 以上是部分可以公开的示例，主要是一些已经过期的信息。
 如果没有🪜条件怎么办？其实一样能用。直接把飞书文档链接发给月之暗面，它就能读懂内容。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_60042e8e87b92ae81ace1a5210a89d6c.png>
+![](img/zhuanqian_60042e8e87b92ae81ace1a5210a89d6c.png)
 [`kimi.moonshot.cn/chat`](https://kimi.moonshot.cn/chat)
 月之暗面在国产模型里算第一梯队，也是我目前最常用的。
 注意一点：让模型读取飞书链接时，需要先打开访问权限。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a1330334a44d7479929be4fac19ee741.png>
+![](img/zhuanqian_a1330334a44d7479929be4fac19ee741.png)
 开了权限后，大部分情况下模型就能正常调取。只有偶尔会提示访问失败，刷新重试一下通常就好了。
 问题：如果飞书文档设置了禁止复制，还能被模型读吗？
 目前来看，可阅读权限足以让模型读取，只是复制和编辑功能才受限。
@@ -54,5 +54,5 @@
 评论区：
 Leeka : 失踪人口回归[偷笑]
 枫晓陌 : 😂😂这段时间太忙了，思考未来+探索+内耗
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_21de372a77ea1f441c613f7316831ae1.png>
+![](img/zhuanqian_21de372a77ea1f441c613f7316831ae1.png)
 * * *

@@ -4,15 +4,15 @@
 入门的人想知道它到底是什么,进阶的人想知道怎么写才有效。书生平均每天都要在AI上泡六到八小时,手里攒了不少前沿玩法和实战案例,今天就掏一篇干货出来,把提示词的分类一次讲透,希望能帮到正在摸索的你。
 先交代一下来路:我是龙哥,A组主理人,公众号「一点文笔记」的主理人,国内头部AI社群第一期航海教练组成员,万人星球实战嘉宾,也是国内最早的一批AI指令工程师,算是All in AI的那拨人。
 文章开始前,先亮两个我用GPT-3.5调出来的成品:
-一个是小红书学习博主的种草笔记,直接看效果:<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_82ea4f92065ab38533201bdd27e971b2.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b8be7076edccd339083d38b9faf2a890.png>
-另一个是头条情感文,婆媳关系题材:<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9a718c25b09a2e8b959e213e2cd14df2.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8862d70fcaf6ca08dd9e7e6ea36a00e5.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ac96fcec13850f8d42543e4d8f747672.png>
+一个是小红书学习博主的种草笔记,直接看效果:![](img/zhuanqian_82ea4f92065ab38533201bdd27e971b2.png)![](img/zhuanqian_b8be7076edccd339083d38b9faf2a890.png)
+另一个是头条情感文,婆媳关系题材:![](img/zhuanqian_9a718c25b09a2e8b959e213e2cd14df2.png)![](img/zhuanqian_8862d70fcaf6ca08dd9e7e6ea36a00e5.png)![](img/zhuanqian_ac96fcec13850f8d42543e4d8f747672.png)
 可以看到,只要提示词给得到位,哪怕是ChatGPT-3.5,也能写出相当有网感的文字。
 接下来进入正题。
 书生拿同一个小红书探店提示词连续跑了两遍,收获了两篇风格迥异的文案。
 第一篇,推荐的是杭州一家叫「小作坊」的店,主打顺德菜和毋米粥锅。文案写得烟火气十足:招牌烧鸭香嫩多汁,酥脆的鸭肉卷一咬就爆香,海鲜毋米粥锅绵滑香甜,喝过就爱上,店内氛围温馨治愈,像回家一样。
 第二篇,店名换成了「香满楼」,画风一转成了浪漫约会风:黄金脆皮全鱼、鲍汁花菇炒猪蹄筋轮番登场,海鲜毋米粥锅被写出了海浪扑面而来的感觉,满篇都是柔美灯光、鲜花香气和小院情调。
 同一个指令,两个完全不同的输出。
-再把AI生成的版本,和那篇小红书10w+点赞的真人种草笔记对照一下——<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_af75f2ddd4ab050aba8b6fc6bfa54856.png>
+再把AI生成的版本,和那篇小红书10w+点赞的真人种草笔记对照一下——![](img/zhuanqian_af75f2ddd4ab050aba8b6fc6bfa54856.png)
 不告诉你答案,你真能断定哪篇是真人写的、哪篇是AI写的吗?
 书生没法断定。
 那么,把提示词练好到底意味着什么?
@@ -24,7 +24,7 @@
 开头直接声明"现在你是小红书爆款文案专家",再用条目把要求列清楚:产品信息只能基于素材,不能自行发挥;表达要口语化,多用"家人们""姐妹们""救命"等平台高频词;优点可选"绝绝子""惊艳""安利给全世界";缺点可用"避雷""踩雷""只有我觉得吗";尽量配emoji;情感倾向定为赞美、推荐、喜爱。把产品替换成"星巴克星冰乐,30元中杯,很甜,有奶盖",一篇充满种草力的推广笔记就出来了。
 第三个,是流程流。
 把AI设定为"世界顶级小红书爆款写手",给它灌输标题创作的底层逻辑、平台特性和SEO关键词布局,然后命令它先产出5个带emoji的标题(至少覆盖3个不同角度),再写正文,每段头尾都要有emoji,最后抽取3-6个关键词生成#标签。输出格式也提前锁定,只要"标题列表+正文+标签"。
-这三个案例的实际调教效果,可以看看下面这些示例:<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a30ae50d9ad95a04e2da6b59102a07a9.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1aaedbdf086b9877336089b09e07ad49.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_34e77131ccc22393a9fa7bb52ebbea82.png>
+这三个案例的实际调教效果,可以看看下面这些示例:![](img/zhuanqian_a30ae50d9ad95a04e2da6b59102a07a9.png)![](img/zhuanqian_1aaedbdf086b9877336089b09e07ad49.png)![](img/zhuanqian_34e77131ccc22393a9fa7bb52ebbea82.png)
 以上几种,基本代表了提示词的主要流派。其中,历史最久、流传最广的,就是第一个长句流,也叫传统版。
 所谓的传统版,就是喜欢用复合长句,把需求描述得特别透彻,让GPT拿到更充分的额外信息,输出自然更精准。市面上最早的那批提示词,几乎都是这个路数。
 早期有几个流传很广的示范:
@@ -40,26 +40,26 @@
 公式一填,AI立刻进入状态。
 不过,很多人还是会抱怨:提示词太难写了,有没有投机取巧的办法?
 有,让ChatGPT自己写。
-方法一,催生提示词生成器。你只需要给一个主题,ChatGPT就会自动生成一条标准提示词,格式固定为"我希望你充当一个XXX",内容涵盖角色身份、核心技能、工作职责。比如你想写小红书爆款,直接让它生成一个"小红书爆款专家",很快就能拿到一条质量不错的指令。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4918eb8a6c043b6ee4ed29fc96f544db.png>
+方法一,催生提示词生成器。你只需要给一个主题,ChatGPT就会自动生成一条标准提示词,格式固定为"我希望你充当一个XXX",内容涵盖角色身份、核心技能、工作职责。比如你想写小红书爆款,直接让它生成一个"小红书爆款专家",很快就能拿到一条质量不错的指令。![](img/zhuanqian_4918eb8a6c043b6ee4ed29fc96f544db.png)
 方法二,使用角色扮演模板。这套模板最早由YZFly设计,把角色、个人资料、版本、语言、描述、技能、规则、工作流程、初始化对话全部结构化,形成一个通用框架。你自己选角色,比如"短篇科幻小说写作大师",然后按模板填好技能、规则和流程,AI就像是拿到了一份完整的入职档案,从开场白到工作流程都会照章办事。
 模板的逻辑大致是:# 角色 + ## 个人资料 + ### 技能 + ## 规则 + ## 工作流程 + ## 初始化。规则里明确"不崩人设、不胡说八道",流程里规定"先做什么、再做什么、最后做什么",初始化则要求AI先打招呼、自我介绍,再交代工作流程。
-使用方法也很简单,一步到位:<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ccca584513978b7e7d7ccfd6fc80c757.png>
+使用方法也很简单,一步到位:![](img/zhuanqian_ccca584513978b7e7d7ccfd6fc80c757.png)
 最后,书生想分享一个感受。
 AI时代不缺工具,缺的是把需求翻译成机器听得懂人话的能力。提示词,就是你和AI之间的那座桥。桥搭得越稳,AI给你的惊喜就越多。希望这篇提示词分类,能帮你离AI浪潮更近一点。
 第二招：渐进式多轮打磨指令
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_647f3a6d26f52a84f0826b81ae3b0925.png>
+![](img/zhuanqian_647f3a6d26f52a84f0826b81ae3b0925.png)
 #### c. 多轮指令制造机
 有一位海外博主分享过一段英文指令，目的是让AI助手扮演一名“指令策划师”。用户只需告诉它想做什么，它就会按固定流程输出三样东西：第一，一份它认为最合理的指令文本；第二，一段尖锐的优化意见；第三，最多三个追问，以便进一步明确需求。用户把答案回传后，它会带着新信息重新生成指令，如此反复，直到指令变得完善。这段指令还特别要求：首次回应只需向用户问好并询问主题，并且全程使用中文。
 这段设计的巧妙之处在于，它不是一次性给出答案，而是像访谈一样层层追问。每一步都在帮助用户把模糊的想法压缩成清晰的边界条件。
 演示如下：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_92df25aab78db120940bc1d5619dc8b6.png>
+![](img/zhuanqian_92df25aab78db120940bc1d5619dc8b6.png)
 这里有个实战小窍门：英文输入指令，结尾补一句“请用中文回答”，往往能获得更稳定的输出质量。
 它自动产出的指令文本例如下：
 写一篇面向30岁以上人群的两性关系深度文章，字数1500左右。读者群体对新鲜视角和情感洞察感兴趣，文章需要拆解当代男女互动的变化、矛盾与未来走向，尽量用真实案例或调查数据支撑，语言要有温度、有节奏感，能引发读者换一个角度看待亲密关系。
 这还只是第二次交互之后的结果。如果多聊几轮，可能产生更细腻的限定条件；再往后，也许连语气、结构、金句密度都被固定下来。在我看来，这种生成器的最大价值，不是替你写指令，而是帮你把内心说不清的诉求，一步步翻译成AI能精准执行的规格。
 ### 为什么让AI生成指令？价值在哪里？
 这里想借用一个经典的认知模型——乔哈里窗。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e64e5ea1527eadb7a4cc044ddc788032.png>
+![](img/zhuanqian_e64e5ea1527eadb7a4cc044ddc788032.png)
 不过，把模型里的“对方”换成了AI。
 |  | 我了解 | 我不了解 |
 | AI了解 | 共识区 | AI独知区 |
@@ -74,7 +74,7 @@ AI时代不缺工具,缺的是把需求翻译成机器听得懂人话的能力�
 【要求】这部分一般由用户自己补写，比如语气、字数、输出格式。
 还能不能玩得更花？当然可以。可以用AI自己的“评分指令”来评审上述指令。
 网络上流行过一套评分模板：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_229d5c5f4272da39cd00508e7ccd3bc5.png>
+![](img/zhuanqian_229d5c5f4272da39cd00508e7ccd3bc5.png)
 某付费社群也出现过简化版，比如袁六伟老师分享的这套：
 你将扮演一位严格的指令鉴别官，根据5个维度给指令打分：
 1. 清晰度（30分）：指令表述是否无歧义，能不能一眼看懂需求；
@@ -85,7 +85,7 @@ AI时代不缺工具,缺的是把需求翻译成机器听得懂人话的能力�
 请对上面的指令打分并求和，说明扣分原因，最后给出优化版。
 用这类评分指令去审视自动生成的指令，就能获得更多改进线索，把指令打磨得更精准。
 演示如下：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b97fc6942c3ac4ae1a290c121c860e90.png>
+![](img/zhuanqian_b97fc6942c3ac4ae1a290c121c860e90.png)
 ### 结构化版本1.0
 先看一个基础版：
 你现在是一位小某书带货文案专家。请根据我提供的信息，写一篇小某书风格的产品推荐笔记。
@@ -107,8 +107,8 @@ AI时代不缺工具,缺的是把需求翻译成机器听得懂人话的能力�
 仔细看会发现，结构1.0只是在“要求”模块做了扩充。既然如此，其他模块是不是也能扩充？
 角色可以扩充：例如“小某书运营高手 + 时尚编辑”，甚至叠加更多身份。
 背景可以扩充：塞入大量说明，相当于给AI下一张创意简报。有些朋友可能不熟悉Brief，这里贴两张小某书风格的简报图：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d2fc66c6e81a32befc2a32c516c86a4e.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a1ee33b04770a33a5a4e262ed61b4612.png>
+![](img/zhuanqian_d2fc66c6e81a32befc2a32c516c86a4e.png)
+![](img/zhuanqian_a1ee33b04770a33a5a4e262ed61b4612.png)
 有了基础简报模板，下次给AI提需求时，思路会清晰很多。
 ### 结构化版本2.0
 #### A. 案例一：多层级内容写手
@@ -176,7 +176,7 @@ AI时代不缺工具,缺的是把需求翻译成机器听得懂人话的能力�
 举个写法思路：住宿这一块，惊喜可能是推开窗就撞见雪线与湖面连成的一幅水彩画，整条街区安静得像是慢放的纪录片；遗憾可能是百年老宅的暖气在深夜发出类似拖拉机的嗡鸣，找人维修的报价单却让人皱眉。通勤这一块，惊喜可能是每一次过马路都有车辆自觉停下，仿佛时间被按了暂停键；遗憾可能是周末的地铁间隔拉得老长，等车的空档足够翻完一本薄小说……正是这种带血肉的细节，才能逼出有温度的体验叙述。
 这套思路只是示范，底层是用在 Open AI 3.5 上跑出来的结果，个人判断 4.0 会给出更漂亮的表达，但框架逻辑是通的。
 出国旅行提示词
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_94689e6a98fd1f2b8be6b1c3140a437e.png>
+![](img/zhuanqian_94689e6a98fd1f2b8be6b1c3140a437e.png)
 营销文案提示词
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ab065e2a019830c6f6a32120e9277cb2.png>
+![](img/zhuanqian_ab065e2a019830c6f6a32120e9277cb2.png)
 写到现在，关于指令的结构化设计，我基本把自己会的、能拆的、能教的都摊开了，没有藏私。

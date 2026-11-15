@@ -2,7 +2,7 @@
 # 写在前面
 最近收到鱼丸的私信，问我还在不在研究 AI 编程方向。刚好这段时间我用 Cursor 把闲鱼的自动化工具跑通了，索性整理一下实操路径，跟大家一起交流借鉴。
 先上整体架构图，方便快速理解工具在干嘛：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_17bc78d4e8d5c46a4841feb4ca52d782.png>
+![](img/zhuanqian_17bc78d4e8d5c46a4841feb4ca52d782.png)
 整套方案拆成三层来做：
 1. 前端层
 技术选型：vue + element-ui
@@ -44,18 +44,18 @@ Coze 配置：API Key、bot_id 等
 ## 开发思路
 脚本体量较大，这里统一以采集脚本为例讲解。
 对于偏简单的脚本，其实不用太多对话，Composer 就能搞定。整体节奏是先把需求说清、输出开发文档，再进入编码。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2efd3c96aee6e93e5f44fb0567774ddd.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5530279813516bd20f82f6d027e2a7c5.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_10d1d6dd1cb9918f3e6c7b951b5793e0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f0532b5d1a8daaf0626a5c1292e7fe94.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_56457b3bdab39640ac70084c2befa4d1.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_15b8953ad7059f0146cc7ad539945af8.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_27f32f191b08d4a2bb2193a095ac88ca.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a2d30c9594895b95ff67d1398cca6b9b.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_90c760defaa2bf87abee8b0c70a880bc.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2b4ec2890735cdce76167599291c1c62.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0e882e9cbc182917e12bceced043b621.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f6418d5f0723657fe21dedf889a4bd2e.png>
+![](img/zhuanqian_2efd3c96aee6e93e5f44fb0567774ddd.png)
+![](img/zhuanqian_5530279813516bd20f82f6d027e2a7c5.png)
+![](img/zhuanqian_10d1d6dd1cb9918f3e6c7b951b5793e0.png)
+![](img/zhuanqian_f0532b5d1a8daaf0626a5c1292e7fe94.png)
+![](img/zhuanqian_56457b3bdab39640ac70084c2befa4d1.png)
+![](img/zhuanqian_15b8953ad7059f0146cc7ad539945af8.png)
+![](img/zhuanqian_27f32f191b08d4a2bb2193a095ac88ca.png)
+![](img/zhuanqian_a2d30c9594895b95ff67d1398cca6b9b.png)
+![](img/zhuanqian_90c760defaa2bf87abee8b0c70a880bc.png)
+![](img/zhuanqian_2b4ec2890735cdce76167599291c1c62.png)
+![](img/zhuanqian_0e882e9cbc182917e12bceced043b621.png)
+![](img/zhuanqian_f6418d5f0723657fe21dedf889a4bd2e.png)
 # 二、后端层【核心】
 ## 功能拆解
 我习惯采用模块化方式推进。
@@ -71,29 +71,29 @@ Coze 配置：API Key、bot_id 等
 维护成本更低：接口隔离降低耦合，改动局部不影响整体
 扩展性更强：新增功能可通过增模块或改接口实现，无需重构
 在动工前，先想清楚需要哪些数据、基于这些数据要做什么操作、数据库里要保留哪些核心字段、哪些是次要字段。再据此梳理后端必须支撑的功能点。如果要打通从采集到发布的闭环，后端需要的数据流如下图所示。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0698be99f35ed80f731b89193138fc1f.png>
+![](img/zhuanqian_0698be99f35ed80f731b89193138fc1f.png)
 ## 落地方案
 需求明确后，我会在 Cursor 里给角色分工：Chat 担任产品经理、Chat 担任代码审查、Composer 担任程序员。
 先和产品经理对齐整体流程并输出开发文档。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3ee5ffa03bd492d0cdabe1cdb6d5d0ac.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6ce6f5613a73a475c6544c01a16f0e56.png>
+![](img/zhuanqian_3ee5ffa03bd492d0cdabe1cdb6d5d0ac.png)
+![](img/zhuanqian_6ce6f5613a73a475c6544c01a16f0e56.png)
 这是第一版文档，后续可以继续迭代。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_304280b7c0b44ef2b9f4187a36ca2904.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e3118d57945dbfd8a392e0d7e0d033ea.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a140d42e7c0914d7fd333901c9f89837.png>
+![](img/zhuanqian_304280b7c0b44ef2b9f4187a36ca2904.png)
+![](img/zhuanqian_e3118d57945dbfd8a392e0d7e0d033ea.png)
+![](img/zhuanqian_a140d42e7c0914d7fd333901c9f89837.png)
 让 Cursor 在原文档基础上迭代，我们可以把不需要的过度设计砍掉，比如库存预警、安全日志之类的。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d02caa27b90ef2eabf72822af5cdc4d8.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1c396564fd7053d6c45bd479964890e5.png>
+![](img/zhuanqian_d02caa27b90ef2eabf72822af5cdc4d8.png)
+![](img/zhuanqian_1c396564fd7053d6c45bd479964890e5.png)
 这是经过初步调整后的文档，可以按需继续填充。
 再与程序员对齐需求并开始编码。这里我坚持模块化，保证后续好扩展和接手。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_02e97a3e8da475e78c326980813ab43d.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6a010dbb6c8f91d5462a50904db489c9.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_542ca945692ab90592007785adaf8470.png>
+![](img/zhuanqian_02e97a3e8da475e78c326980813ab43d.png)
+![](img/zhuanqian_6a010dbb6c8f91d5462a50904db489c9.png)
+![](img/zhuanqian_542ca945692ab90592007785adaf8470.png)
 随后让代码审查角色做一次全面检查，输出修改建议。我们筛选出必要的问题，形成正式的审查报告，再把报告丢给 Composer 执行修改。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1e54d2a930298474a689cc9d4e3e79c5.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_05ee971d7f19799940e69ed8fbd0c9c9.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_360f3b8ec8e9f7b631943319f5bedfd3.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fc2c3bd70684bb13a9c7d6f0bfcf17b5.png>
+![](img/zhuanqian_1e54d2a930298474a689cc9d4e3e79c5.png)
+![](img/zhuanqian_05ee971d7f19799940e69ed8fbd0c9c9.png)
+![](img/zhuanqian_360f3b8ec8e9f7b631943319f5bedfd3.png)
+![](img/zhuanqian_fc2c3bd70684bb13a9c7d6f0bfcf17b5.png)
 最后把所有数据表的完整字段清单导出来，方便脚本层调用时对齐表结构。示例：
 有时候，最吊人胃口的，不是一句惊天动地的话，而是一个没头没尾的开始。
 就像现在，摆在我面前的“素材”，干净得像一张白纸，只留下一个孤零零的记号——```
@@ -488,18 +488,18 @@ mysql> SHOW COLUMNS FROM proxies;
 接下来要做的，就是接住它，然后，把故事讲下去。
 # 第三部分｜前端（辅助）
 ## 界面效果
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_63fb56436a88162c50c36aa7cce8233c.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_df6c1479dbcd7d56054b74e6792cc369.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_426f9250424bef4eaa22fa4f17355eac.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c3330914ee0e0ea8eb29d6306806d1b6.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0c834aeb9a3332e574f7f86ef20c1311.png>
+![](img/zhuanqian_63fb56436a88162c50c36aa7cce8233c.png)
+![](img/zhuanqian_df6c1479dbcd7d56054b74e6792cc369.png)
+![](img/zhuanqian_426f9250424bef4eaa22fa4f17355eac.png)
+![](img/zhuanqian_c3330914ee0e0ea8eb29d6306806d1b6.png)
+![](img/zhuanqian_0c834aeb9a3332e574f7f86ef20c1311.png)
 ## 操作流程
 1. 先把待抓取的搜索词维护进关键字清单。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_dcc1131e2816a94e6854c16b8ada29f3.png>
+![](img/zhuanqian_dcc1131e2816a94e6854c16b8ada29f3.png)
 点一下「成批添加」
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_17a0d61aa6baf8888f22e0792e0682f7.png>
+![](img/zhuanqian_17a0d61aa6baf8888f22e0792e0682f7.png)
 成批添加
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_709c6b273b26462b9ec310e514cf43ea.png>
+![](img/zhuanqian_709c6b273b26462b9ec310e514cf43ea.png)
 添加完成
 2. 运行抓取程序，程序运行时会把库里还没抓过的关键字捞出来，并把这些词的状态置为「抓取中」。
 3. 逐个关键字抓取对应货品清单，对清单做筛选、去重、清洗，然后写回库中；单个关键字跑完后，状态转为「已抓完」。
@@ -513,19 +513,19 @@ mysql> SHOW COLUMNS FROM proxies;
 1. 需求描述得太细，Cursor 反而会偷懒，给出的代码常常缺这缺那。
 2. 需求给得太泛，它又会产出大量冗余代码，啰嗦又难维护。
 3. 理解经常跑偏。比如我正在调整货品清单页，一旦切到其他标签页，它会把修改对象搞错。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9376a86b488522afca37522ead844bf1.png>
+![](img/zhuanqian_9376a86b488522afca37522ead844bf1.png)
 当时我正在调整货品清单页
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4634d63bd19070026e19601e3c2a92ef.png>
+![](img/zhuanqian_4634d63bd19070026e19601e3c2a92ef.png)
 结果它跑去了上架管理页，把这里的代码改错了
 4. 改着改着，还可能误删原本正确的逻辑。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_754bc917941a406222c515958cf2becd.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_386f13c1a8d9dc23623aad703a4d17a3.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d78b60090b5e6f5e39ffbe024b819eef.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5deb0b73200cc4a6457966adb8f97465.png>
+![](img/zhuanqian_754bc917941a406222c515958cf2becd.png)
+![](img/zhuanqian_386f13c1a8d9dc23623aad703a4d17a3.png)
+![](img/zhuanqian_d78b60090b5e6f5e39ffbe024b819eef.png)
+![](img/zhuanqian_5deb0b73200cc4a6457966adb8f97465.png)
 5. 增加新需求时，如果没有人工提醒，它会直接硬写一段新代码来完成，而不是先检查当前组件是不是已经具备类似能力。这一步必须人工介入。
 6. 改动往往不闭环。比如让它接入一个新组件的用法，它会直接调用组件里的方法，却忘记引入这个组件，一运行就报错。
 7. 对话聊得太久，上下文塞得太满，只能另开新会话。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_eeed37efd9f45f3997acc6f0a48d21aa.png>
+![](img/zhuanqian_eeed37efd9f45f3997acc6f0a48d21aa.png)
 # 五、写在最后
 Cursor 的基础环境搭建，可以参考这些资料：
 赚钱社区的 Cursor 专题内容，把初始设置和入门开发讲得很透，照着做基本不会错。

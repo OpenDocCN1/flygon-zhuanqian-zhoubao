@@ -1,6 +1,6 @@
 # AI 提示词变现实战笔记：从做图到收钱，我踩过的坑与走通的路
 ## 260228 副业 SC 精华
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_236bb7268b62d21cefac2f7fde184479_0_0.png>
+![](img/zhuanqian_236bb7268b62d21cefac2f7fde184479_0_0.png)
 ## 前言
 我对提示词一直有些直觉，之前接过一次稿没收尾，这次补齐。
 就我个人使用经验，算对 AI 工具比较熟练。提示词赚钱主要集中在两件事：做图和卖知识。起点是线下活动现场帮人做名片、表情包、红包封面、Skill 之类，起初只是顺手帮忙，后来沉淀成可复用的变现路径。
@@ -37,9 +37,9 @@
 做图这件事，技巧并非最难，分水岭在审美。
 审美不是天赋，是输入量和输入质量的累积。
 我认识的设计师就保持一个习惯：每天固定刷 20 分钟 Pinterest 和 Behance。Pinterest https://pinterest.com 更像以视觉为核心的搜索引擎，上面都是被大量收藏验证过的画面。你看的不是信息流，而是在观察“当下什么视觉被市场选中”。很多国内还没流行的风格，在那里已走过一轮，用来练眼找方向很高效。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_236bb7268b62d21cefac2f7fde184479_3_0.png>
+![](img/zhuanqian_236bb7268b62d21cefac2f7fde184479_3_0.png)
 Behance https://www.behance.net 更偏专业，像设计师的公开作品集，展示的不是单张好看的图片，而是完整项目、设计思路和呈现方式。刷 Behance 的价值在于能看到高手如何把一个风格做成体系化作品。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_236bb7268b62d21cefac2f7fde184479_3_1.png>
+![](img/zhuanqian_236bb7268b62d21cefac2f7fde184479_3_1.png)
 另外小红书本身也是很好的灵感库。搜“设计 海报”“封面排版”“插画 风格”，能看到大量真实创作者的优质产出，很多启发比教程更有用。
 ![](bbox=[99, 85, 922, 245])
 所以与其死磕提示词，不如先把审美基础打牢。先大量输入优秀视觉，再回头研究工具，效果会完全不同。
@@ -64,7 +64,7 @@ Behance https://www.behance.net 更偏专业，像设计师的公开作品集，
 ![](bbox=[60, 307, 781, 510])
 前几天传术师活动，我给自己做了一张个人名片。
 #### 浅笑
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_236bb7268b62d21cefac2f7fde184479_7_0.png>
+![](img/zhuanqian_236bb7268b62d21cefac2f7fde184479_7_0.png)
 +   【所在地区】山西
 +   【MBTI】INFP，喜欢看书，运动，写作
 +   【盖洛普前五】适应，理念，体谅，学习，思维
@@ -99,7 +99,7 @@ Behance https://www.behance.net 更偏专业，像设计师的公开作品集，
 > 竟然还有额外的服务 5555
 #### 赵嵩 Song
 北京（目前主战场）
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_236bb7268b62d21cefac2f7fde184479_8_0.png>
+![](img/zhuanqian_236bb7268b62d21cefac2f7fde184479_8_0.png)
 【自我介绍】
 科技投资人王煜全 IP 运营人。擅长基于 IP 开发内容产品（课程/培训/海外游学/出版物 etc）同时孵化新的基于 AI 服务规模化的项目
 【在做项目】
@@ -112,7 +112,7 @@ S1 空间运营项目正在孵化:
 【目前需求】
 1. 求医问药:S1 项目从 0 到 1 的小红书冷启动策略，如何低成本获取精准同城流量📱🎯💰
 2. 寻求合作：有同城流量的大佬，我提供高客单价转化的线下承接场景🤝📊💰🏙️
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_236bb7268b62d21cefac2f7fde184479_9_0.png>
+![](img/zhuanqian_236bb7268b62d21cefac2f7fde184479_9_0.png)
 群里圈友看到我做的图后主动加我定制名片，不少人直接发红包。也有人来请教提示词方法。
 我当时用的提示词：
 白板动画风格，手绘涂鸦，混合媒体拼贴，教授的课堂笔记。元素：黑/红/蓝马克笔，胶带纸纹理，宝丽来相框，便利贴，箭头和图表。氛围：具有教育性、趣味性、清晰明了，简约却富有创意。
@@ -125,9 +125,9 @@ S1 空间运营项目正在孵化:
 ### 比高老师
 #### 《选赛道，找打法，分享小红书高客单变现底层逻辑》
 长期主义：耕地逻辑、标准动作不变
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_236bb7268b62d21cefac2f7fde184479_11_0.png>
+![](img/zhuanqian_236bb7268b62d21cefac2f7fde184479_11_0.png)
 #### 赛道选择：大市场才配出巨头
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_236bb7268b62d21cefac2f7fde184479_11_1.png>
+![](img/zhuanqian_236bb7268b62d21cefac2f7fde184479_11_1.png)
 ### 蔡汶川老师
 #### 《月均导流 1W+，知识付费如何从小红书精准获客》
 #### 讨论帖：圈人群、打标签、暴力起号
@@ -191,8 +191,8 @@ S1 空间运营项目正在孵化:
 通过这种方式，我也和嘉宾进行了更深入的交流，尤其是比高老师，获得了链接机会。我也在找工作，和比高老师聊了 AI 相关岗位，后续有了面试机会。主动的小行动往往能带来意想不到的回报。
 ### 表情包定制
 这个方向起源于给朋友做了一套专属表情包，对方很喜欢，我就把上架和变现流程跑通了，共做了好几套。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_236bb7268b62d21cefac2f7fde184479_15_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_236bb7268b62d21cefac2f7fde184479_15_1.png>
+![](img/zhuanqian_236bb7268b62d21cefac2f7fde184479_15_0.png)
+![](img/zhuanqian_236bb7268b62d21cefac2f7fde184479_15_1.png)
 你们怎么又在偷偷搞钱
 又一个赚钱好事
 感谢分享，已加精华
@@ -209,22 +209,22 @@ S1 空间运营项目正在孵化:
 干就完了
 又一个赚钱机会
 万事用 AI
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_236bb7268b62d21cefac2f7fde184479_16_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_236bb7268b62d21cefac2f7fde184479_16_1.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_236bb7268b62d21cefac2f7fde184479_16_2.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_236bb7268b62d21cefac2f7fde184479_16_3.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_236bb7268b62d21cefac2f7fde184479_16_4.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_236bb7268b62d21cefac2f7fde184479_16_5.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_236bb7268b62d21cefac2f7fde184479_16_6.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_236bb7268b62d21cefac2f7fde184479_16_7.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_236bb7268b62d21cefac2f7fde184479_16_8.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_236bb7268b62d21cefac2f7fde184479_16_9.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_236bb7268b62d21cefac2f7fde184479_16_10.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_236bb7268b62d21cefac2f7fde184479_16_11.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_236bb7268b62d21cefac2f7fde184479_16_12.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_236bb7268b62d21cefac2f7fde184479_16_13.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_236bb7268b62d21cefac2f7fde184479_16_14.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_236bb7268b62d21cefac2f7fde184479_16_15.png>
+![](img/zhuanqian_236bb7268b62d21cefac2f7fde184479_16_0.png)
+![](img/zhuanqian_236bb7268b62d21cefac2f7fde184479_16_1.png)
+![](img/zhuanqian_236bb7268b62d21cefac2f7fde184479_16_2.png)
+![](img/zhuanqian_236bb7268b62d21cefac2f7fde184479_16_3.png)
+![](img/zhuanqian_236bb7268b62d21cefac2f7fde184479_16_4.png)
+![](img/zhuanqian_236bb7268b62d21cefac2f7fde184479_16_5.png)
+![](img/zhuanqian_236bb7268b62d21cefac2f7fde184479_16_6.png)
+![](img/zhuanqian_236bb7268b62d21cefac2f7fde184479_16_7.png)
+![](img/zhuanqian_236bb7268b62d21cefac2f7fde184479_16_8.png)
+![](img/zhuanqian_236bb7268b62d21cefac2f7fde184479_16_9.png)
+![](img/zhuanqian_236bb7268b62d21cefac2f7fde184479_16_10.png)
+![](img/zhuanqian_236bb7268b62d21cefac2f7fde184479_16_11.png)
+![](img/zhuanqian_236bb7268b62d21cefac2f7fde184479_16_12.png)
+![](img/zhuanqian_236bb7268b62d21cefac2f7fde184479_16_13.png)
+![](img/zhuanqian_236bb7268b62d21cefac2f7fde184479_16_14.png)
+![](img/zhuanqian_236bb7268b62d21cefac2f7fde184479_16_15.png)
 (你们怎么又在偷偷搞钱)
 (又一个赚钱好事)
 (感谢分享，已加精华)
@@ -241,18 +241,18 @@ S1 空间运营项目正在孵化:
 (干就完了)
 (又一个赚钱机会)
 (万事用 AI)
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_236bb7268b62d21cefac2f7fde184479_16_16.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_236bb7268b62d21cefac2f7fde184479_16_17.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_236bb7268b62d21cefac2f7fde184479_16_18.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_236bb7268b62d21cefac2f7fde184479_16_19.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_236bb7268b62d21cefac2f7fde184479_16_20.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_236bb7268b62d21cefac2f7fde184479_16_21.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_236bb7268b62d21cefac2f7fde184479_16_22.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_236bb7268b62d21cefac2f7fde184479_16_23.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_236bb7268b62d21cefac2f7fde184479_16_24.png>
+![](img/zhuanqian_236bb7268b62d21cefac2f7fde184479_16_16.png)
+![](img/zhuanqian_236bb7268b62d21cefac2f7fde184479_16_17.png)
+![](img/zhuanqian_236bb7268b62d21cefac2f7fde184479_16_18.png)
+![](img/zhuanqian_236bb7268b62d21cefac2f7fde184479_16_19.png)
+![](img/zhuanqian_236bb7268b62d21cefac2f7fde184479_16_20.png)
+![](img/zhuanqian_236bb7268b62d21cefac2f7fde184479_16_21.png)
+![](img/zhuanqian_236bb7268b62d21cefac2f7fde184479_16_22.png)
+![](img/zhuanqian_236bb7268b62d21cefac2f7fde184479_16_23.png)
+![](img/zhuanqian_236bb7268b62d21cefac2f7fde184479_16_24.png)
 ### 把AI从聊天工具变成赚钱工具：表情包、红包封面、Skill，以及让AI真正听懂你的10个习惯
 这篇稿子是我近期在AI应用和变现两端摸爬滚打的真实记录。有具体的项目复盘，也有日常调教AI的细节习惯，全部整理出来，希望对正在观望的朋友有点参考价值。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_236bb7268b62d21cefac2f7fde184479_16_25.png> <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_236bb7268b62d21cefac2f7fde184479_16_26.png> <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_236bb7268b62d21cefac2f7fde184479_16_27.png> <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_236bb7268b62d21cefac2f7fde184479_16_28.png> <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_236bb7268b62d21cefac2f7fde184479_16_29.png> <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_236bb7268b62d21cefac2f7fde184479_16_30.png> <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_236bb7268b62d21cefac2f7fde184479_16_31.png> <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_236bb7268b62d21cefac2f7fde184479_17_0.png> <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_236bb7268b62d21cefac2f7fde184479_17_1.png>
+![](img/zhuanqian_236bb7268b62d21cefac2f7fde184479_16_25.png) ![](img/zhuanqian_236bb7268b62d21cefac2f7fde184479_16_26.png) ![](img/zhuanqian_236bb7268b62d21cefac2f7fde184479_16_27.png) ![](img/zhuanqian_236bb7268b62d21cefac2f7fde184479_16_28.png) ![](img/zhuanqian_236bb7268b62d21cefac2f7fde184479_16_29.png) ![](img/zhuanqian_236bb7268b62d21cefac2f7fde184479_16_30.png) ![](img/zhuanqian_236bb7268b62d21cefac2f7fde184479_16_31.png) ![](img/zhuanqian_236bb7268b62d21cefac2f7fde184479_17_0.png) ![](img/zhuanqian_236bb7268b62d21cefac2f7fde184479_17_1.png)
 #### 一、表情包：一小时出图，两条路变现
 先聊表情包怎么做。我的流程很固定：先做一张提示词表格，把想要出现在图里的文字填进去，再丢给一个固定风格的原头像去生成。背景一律留白——干净，不抢视觉，后面抠图也方便。
 当时的文字大概是三组画风：“你们怎么又在偷偷搞钱，只想安安静静发财，轻松赚钱，点赞”；“继续跟上计划赚钱，思考，来钱了，开心，赚钱等你，持续学习”；“干就完了，又一个赚钱机会，欢迎大佬，有启发，加油，这个群好”。
@@ -265,7 +265,7 @@ https://www.photopea.com/
 ```，在“图层”菜单里用“导出为”输出PNG或GIF![](bbox=[37, 26, 855, 306])，最后去微信表情开放平台完成上传，一套流程就齐了。
 再补一个很有温度的细节：给朋友做一套专属表情包，他每天聊天都会用到，每次发出来都是你做的，这种联结感比发红包深得多。
 #### 二、红包封面：小几百到小几千，核心是审美
-红包封面定制是我在一个社群里偶然看到的，跟风跑了一两个月，做了四五个，零散收了大概几百块。钱不算多，但整条链路跑通了，值得展开说说。比如把动漫头像和马、2026组合成一个新字<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_236bb7268b62d21cefac2f7fde184479_20_0.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_236bb7268b62d21cefac2f7fde184479_21_0.png>，做“考神附体”的主题封面<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_236bb7268b62d21cefac2f7fde184479_22_0.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_236bb7268b62d21cefac2f7fde184479_23_0.png>——定制感立刻就出来了。
+红包封面定制是我在一个社群里偶然看到的，跟风跑了一两个月，做了四五个，零散收了大概几百块。钱不算多，但整条链路跑通了，值得展开说说。比如把动漫头像和马、2026组合成一个新字![](img/zhuanqian_236bb7268b62d21cefac2f7fde184479_20_0.png)![](img/zhuanqian_236bb7268b62d21cefac2f7fde184479_21_0.png)，做“考神附体”的主题封面![](img/zhuanqian_236bb7268b62d21cefac2f7fde184479_22_0.png)![](img/zhuanqian_236bb7268b62d21cefac2f7fde184479_23_0.png)——定制感立刻就出来了。
 说句实在话：这个赛道不看编程不看技术，就看审美有没有在线。用户买的不是一张图，而是“好看”加“专属感”。如果做出来和免费模板差不多，就没有付费理由。
 至于怎么练审美，我的路线是：先在小红书搜“红包封面”，滤出点赞收藏最高的案例；再去微信封面市场看真实卖得好的产品。取两三个优秀案例，把各自身上的亮点拆开——比如配色、构图、某个细节的处理——再重新拼装成自己的作品。这样既有参考不会盲目，又有原创不含复制。
 最忌讳的是想卖给所有人，最后谁都不买账。我的经验是重点切两个方向。
@@ -337,7 +337,7 @@ AI解决不了你的问题，很多时候不是它在敷衍，而是你在偷懒
 **习惯五：让几个模型互相吵一架。**
 单个模型的答案总有盲区，把它们放一起互相审阅，输出质量会明显上一个台阶。
 基础玩法：让ChatGPT写稿，发给Gemini点评并给修改意见，再把意见交给第三个模型去改。一写一评一改，等于同时雇了一个作者和一个编辑。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_236bb7268b62d21cefac2f7fde184479_30_0.png>
+![](img/zhuanqian_236bb7268b62d21cefac2f7fde184479_30_0.png)
 进阶玩法：同时打开Grok、ChatGPT、Claude、Gemini四个窗口，同一个问题同时抛给它们，比较答案的差异，再让它们面对差异互相评论。四个模型的训练数据、知识结构和表达风格完全不同，让它们“斗嘴”，往往能聊出一个AI给不了的全局视角。
 **习惯六：不要把“你以为”的常识藏起来。**
 很多人和AI对话翻车，第一大原因就是把背景信息当作不言而喻的默契省略了。
@@ -355,7 +355,7 @@ AI的背景知识再丰富，也没有你的人生经历、行业信息和你们
 原因是这些模型在训练阶段就被植入了一种倾向——当它们感知到“正在被评估”时，会表现得更认真。你只是把开关打开了。
 **习惯九：把任务对到合适的模型上。**
 不同模型各有所长：有的文字细腻，有的代码扎实，有的结构整理清爽。混搭使用比死守一个模型硬扛有效得多。
-挑选逻辑不用靠感觉，看排行榜就行：https://arena.ai/zh/leaderboard <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_236bb7268b62d21cefac2f7fde184479_32_0.png>，这个榜单会持续更新各模型在不同维度上的表现，找到对应类目的头部，基本不会踩坑。
+挑选逻辑不用靠感觉，看排行榜就行：https://arena.ai/zh/leaderboard ![](img/zhuanqian_236bb7268b62d21cefac2f7fde184479_32_0.png)，这个榜单会持续更新各模型在不同维度上的表现，找到对应类目的头部，基本不会踩坑。
 最近卡兹克也整理了一份各模型擅长领域的参考资料，写得很具体。结合榜单，可以得出这样一份速查表：
 软件工程这条线几乎被GPT-5.3 codex包揽：生成、理解与推理、调试、测试与维护，它都是首选。
 后端、数据、前端和Agent方向，Claude Opus 4.6更稳：数据工程与后端服务、前端与产品工程、Agent工具调用、Web与桌面自动化（静态）、指令遵循与对齐都是它的强项；创作表达与审美也依然是它最能打。
@@ -392,7 +392,7 @@ AI的背景知识再丰富，也没有你的人生经历、行业信息和你们
 使用频率和使用深度，才是拉开差距的关键。
 做永远比研究怎么做更重要。
 最后，安利小懒的付费群：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_236bb7268b62d21cefac2f7fde184479_36_0.png>
+![](img/zhuanqian_236bb7268b62d21cefac2f7fde184479_36_0.png)
 🏰 这里是你对抗信息过载的护城河。
 已稳定运行 7 年，累计拆解、研读 3000+ 个互联网商业实战案例与行业前沿内参和时政/宏观文章。
 ### 我们不搬运垃圾，只做高价值信息的筛选器与放大镜。

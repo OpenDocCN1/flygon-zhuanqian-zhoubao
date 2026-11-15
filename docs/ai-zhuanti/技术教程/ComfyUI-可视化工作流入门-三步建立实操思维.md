@@ -20,13 +20,13 @@ AI 工具迭代很快，ComfyUI 的应用边界并不局限于此，还覆盖 AI
 例如，系统会识别到“西装”、“猫”、“街道”、“傍晚”这些要素，并按它们之间的关系生成对应的画面。
 第 3、产出图像：模型基于解析结果，通过卷积神经网络、扩散模型等技术进行计算，最终呈现图像。用户可自行再编辑或优化。
 ### 先体验 ComfyUI
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9ff7f0196913a80feb16f49f251c8193.png>
+![](img/zhuanqian_9ff7f0196913a80feb16f49f251c8193.png)
 新人建议先用云端版本，跑通流程感受交互，熟练后再考虑本地部署。
 推荐：https://www.liblib.art/
 本地安装涉及硬件配置、模型下载、插件配置等一整套流程，耗时较长。新手不建议上来就直接本地化。
 ## 建立 ComfyUI 的基础认知
 ### 工作流 workflow 的概念
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8e1718f765662bc4d5632f641359bb7a.png>
+![](img/zhuanqian_8e1718f765662bc4d5632f641359bb7a.png)
 界面上那些一个个黑色方块即为节点 node，按一定顺序用连线 connections 或 links 串联起来，完成某一具体任务的组织方式即是工作流。
 通俗理解：工作流就是按步骤、有序执行以达成特定目标。
 说明：工作流并非新概念，历史已久，很多行业都在用，例如 2B 场景里的业务流、操作流等。
@@ -45,7 +45,7 @@ AI 工具迭代很快，ComfyUI 的应用边界并不局限于此，还覆盖 AI
 * 可保存复用
 ### 节点 node 的概念
 工作流中每个黑色方块都叫做节点，每个节点负责一个具体功能，体现的是程序设计的模块化思想
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_77f9fab293b1c87ff717b9ceffcbeffa.png>
+![](img/zhuanqian_77f9fab293b1c87ff717b9ceffcbeffa.png)
 在 ComfyUI 里每个方块都称为 Node。
 左侧端口为 Input 输入，右侧为 Output 输出，每个节点内部都设有可调参数 Parameter。
 节点特征：
@@ -72,24 +72,24 @@ AI 工具迭代很快，ComfyUI 的应用边界并不局限于此，还覆盖 AI
 #### 知识点：连线规则？
 ##### 同类相连
 只能把同类数据相连，不同格式无法连接。记忆口诀：同色即能连
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f5ab8b90681ab752e050c2239a5f1e66.png>
+![](img/zhuanqian_f5ab8b90681ab752e050c2239a5f1e66.png)
 ##### 左进右出
 节点左边接收数据，右边输出结果。也就是把前一个节点的输出作为下一个节点的输入。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d59b456655a39a7f34307397f1e91989.png>
+![](img/zhuanqian_d59b456655a39a7f34307397f1e91989.png)
 ##### 一进多出
 输入端口只能接入一条连线，输出端口可以分出多条连线。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_29b1d6769227a09b777c2acc87ba8c44.png>
+![](img/zhuanqian_29b1d6769227a09b777c2acc87ba8c44.png)
 ## 文生图理解：从节点切入
 学习完核心概念，接下来要理解 ComfyUI 的核心功能。
 本部分先从节点讲起，再到工作流，弄懂两者关系就等于掌握文生图，也就抓住了 ComfyUI 的精髓。
 文生图官方默认会提供一个最基础的工作流，关键节点如下：
 ### Checkpoint 载入器 Load Checkpoint
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d0bcaa5d50f69c1bfec07a5734e41d15.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7070824e64ffa4b32993bef0ae78d84a.png>
+![](img/zhuanqian_d0bcaa5d50f69c1bfec07a5734e41d15.png)
+![](img/zhuanqian_7070824e64ffa4b32993bef0ae78d84a.png)
 Checkpoint 载入器是所有工作流的起点，必须先载入 Checkpoint 才能进行后续配置与运行。
 Checkpoint 是 Stable Diffusion 模型的核心，包含 MODEL UNet、CLIP 与 VAE 三部分，分别负责去噪、文本理解和图像解码，一起完成从文本到图像的生成。
 ### CLIP 文本编码器 CLIP Text Encode
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_36aa5e11397a5f82418265d15d78feb9.png>
+![](img/zhuanqian_36aa5e11397a5f82418265d15d78feb9.png)
 CLIP 全称是 Contrastive Language-Image Pre-training，即对比文本图像预训练。
 该节点主要用于输入 Prompt：
 一般会放两个节点，一个正向 Prompt 写你想出现的元素，一个负向 Prompt 写你不想出现的元素。
@@ -97,23 +97,23 @@ CLIP 全称是 Contrastive Language-Image Pre-training，即对比文本图像�
 2、用逗号分隔，StableDiffusion 不懂语法，只需罗列关键词即可。
 3、越重要的词越靠前。例如想生成美丽风景，可把 beautiful scenery nature 放在前面。
 ### 空潜空间图像 Empty Latent Image
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e5733f02dfdfd37b1d2471321f260bfe.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5400e526df646687f4a53f5a4897867c.png>
+![](img/zhuanqian_e5733f02dfdfd37b1d2471321f260bfe.png)
+![](img/zhuanqian_5400e526df646687f4a53f5a4897867c.png)
 空潜空间图像节点用于设定输出尺寸，通过 width、height 调整。
 batch_size 批次表示每次运行生成图片的数量，设为 6 则每次产出 6 张。
 比例要求：宽高需是 8 的倍数。
 ### K 采样器 KSampler
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e99e631bd3ca0729b211e50bd1a9449d.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4e0127e19aab6b55a215553b12970439.png>
+![](img/zhuanqian_e99e631bd3ca0729b211e50bd1a9449d.png)
+![](img/zhuanqian_4e0127e19aab6b55a215553b12970439.png)
 KSampler 是 ComfyUI 的核心模块，负责图像生成的关键过程。
 它像一位画师，从噪声图像开始逐步去噪，最终将文字描述转化为画面。
 ### VAE 解码
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2947aeb035b01d034a72f0b553eeb362.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9a8f36877adc1e6246401c932e6e88e9.png>
+![](img/zhuanqian_2947aeb035b01d034a72f0b553eeb362.png)
+![](img/zhuanqian_9a8f36877adc1e6246401c932e6e88e9.png)
 VAE 解码全称 Variational Autoencoder Decode，变分自编码器解码。
 VAE 解码器负责把潜空间信息还原为可见图像。
 ### 保存图像 Save Image
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_65a3b81067c1dd010e3decd6b9c706f9.png>
+![](img/zhuanqian_65a3b81067c1dd010e3decd6b9c706f9.png)
 该节点职责明确：
 * 处理图像格式
 * 设定保存路径
@@ -124,7 +124,7 @@ VAE 解码器负责把潜空间信息还原为可见图像。
 把上述节点纳入流程，你就能大致明白工作流的运行方式。下一步是深入掌握基础节点。
 ## 基础节点详解一：载入器 Loader
 ### 一点吐槽
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_343a48f50beb7e5d99f1cda4a16aaf57.png>
+![](img/zhuanqian_343a48f50beb7e5d99f1cda4a16aaf57.png)
 作为产品人，我对 AI 类产品的 UI 设计又爱又恨。功能很强，UI 却普遍不友好，各有各的奇怪。
 新手第一次面对大量载入器，很难分辨各自用途，还把大量功能塞进鼠标操作，这设计确实不顺手。
 吐槽归吐槽，还是得学。
@@ -183,8 +183,8 @@ Checkpoint 载入器：
 条件节点的核心作用是引导与控制生成过程。
 注意：前面提到的 CLIP 文本编码器本质上就是一种条件节点。
 ### 条件节点概览
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f69426c3e208a27ea3424662b55eeb0c.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_86591fcad16bdb7a9516dfbe2fab201a.png>
+![](img/zhuanqian_f69426c3e208a27ea3424662b55eeb0c.png)
+![](img/zhuanqian_86591fcad16bdb7a9516dfbe2fab201a.png)
 ### 条件节点作用
 第1、引导方向
 像画画：
@@ -253,7 +253,7 @@ ControlNet：
 * TextWildcardList_AS
 ## 基础节点详解三：Latent
 ### Latent 节点概览
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f36130ccd29d38c8cd569318b8b0d828.png>
+![](img/zhuanqian_f36130ccd29d38c8cd569318b8b0d828.png)
 ### Latent 核心作用
 第1、潜空间操作管理
 像画布：
@@ -299,7 +299,7 @@ ControlNet：
 - **VAEEncode (Bundle)**：支持批量编码，效率更高。
 - **Empty Latent (Aspect Ratio)**：按预设宽高比直接创建空 Latent，省去手动算尺寸。
 ## 掌握 5 大基础节点：采样器
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b09be78982f5684e0fce54361125a14c.png>
+![](img/zhuanqian_b09be78982f5684e0fce54361125a14c.png)
 采样器是整个生成流程中的“画笔”，它的核心作用可以分成两方面。
 **一是噪声处理与图像生成。** 想象一下画家作画：
 - 从模糊到清晰，对应去噪过程；
@@ -327,8 +327,8 @@ ControlNet：
 - **特殊应用层（高级）**：K采样器(高级分块)、K采样器(分块)、逆K采样器，分别对应分块控制和反向采样。
 - **专业模型层**：自定义采样器以及为视频模型定制的采样节点。
 ## 掌握 5 大基础节点：图像
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f00dee17b5e6d423e48ad9d94807034e.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_646b7abbcfb68ebcdc513ce75720d91d.png>
+![](img/zhuanqian_f00dee17b5e6d423e48ad9d94807034e.png)
+![](img/zhuanqian_646b7abbcfb68ebcdc513ce75720d91d.png)
 图像节点就像你的后期工作台，核心作用同样是两块。
 **一是图像处理与转换。** 流程上对应：
 - 图像加载（输入）

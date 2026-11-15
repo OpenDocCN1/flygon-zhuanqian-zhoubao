@@ -2,13 +2,13 @@
 大家好，我是龙哥Jay。很多朋友跟我说，手里攒了一堆提示词模板，可真到用的时候，还是搞不懂哪些做法才是“基本操作”。更让我意外的是，有些人和GPT打了将近半年交道，聊完之后才发现，他们压根没认真琢磨过这些最佳实践，遇到问题时依然一头雾水。
 这篇文章，就是专门为对提示词最佳实践还不太熟悉的新手小伙伴准备的。如果你已经是高手，可以直接跳过啦。觉得有用的话，别忘了点个赞——毕竟我写文章经常熬夜码字，哈哈。
 文章能写出来，也离不开多位大佬的鼓励和推荐，真心感谢他们：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7a73a77bcc4edce1a5d1840bbe04ed92.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b4cace42ec4aee7bc2ba6a8ded74bb75.png>
+![](img/zhuanqian_7a73a77bcc4edce1a5d1840bbe04ed92.png)
+![](img/zhuanqian_b4cace42ec4aee7bc2ba6a8ded74bb75.png)
 接下来，我会针对不同的策略，用真实的案例做测试，帮大家更快理解这些最佳实践。别担心官方术语太晦涩，遇到难懂的地方，我会专门做解读、配案例。而且每条最佳实践下面都标了“适用人群”，大家可以对号入座，省下不少阅读时间。
 好，闲话少说，咱们直接开始。
 ## 先搞清楚三个角色：USER、ASSISTANT、SYSTEM
 在后面的案例里，你会反复看到这三个角色。我先统一介绍一下，顺便问问ChatGPT本人：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cc627c749795e9226f52cadad9c363c4.png>
+![](img/zhuanqian_cc627c749795e9226f52cadad9c363c4.png)
 其中SYSTEM在官方网页版对话里基本不会现身，因为ChatGPT本身就是设计来跟用户直接聊天的。但如果你用API开发自己的应用，SYSTEM就能在不少场景里发挥大作用了。
 举个例子，一个“音乐小助手”应用里，SYSTEM就是那个在后台默默控制全局的角色：
 ```
@@ -17,7 +17,7 @@ USER: 什么是贝多芬的第五交响乐？
 ASSISTANT: 贝多芬的第五交响乐是......（详细描述）。
 ```
 不懂编程的小伙伴也别急，想在ChatGPT上体验SYSTEM角色，其实有办法。比如这句“当我请求帮助写东西时，你将在每个段落中至少加入一个笑话或俏皮话”，本质上就是SYSTEM的指令。只不过为了方便在网页窗口测试，后面所有的案例里，我们都会用USER来代替SYSTEM：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8d962bc84b864c1019cae90b32b89d7c.png>
+![](img/zhuanqian_8d962bc84b864c1019cae90b32b89d7c.png)
 把角色搞明白，再看官方那些案例，就不会觉得绕了。
 ## 最佳实践一：把指令写清楚
 GPT不会读心术。它输出的答案太长，你就让它简短点；太简单，你就要求它有专业水准；你不喜欢某种格式，就直接展示你想要的格式。GPT越少去猜你的意思，你得到满意结果的概率就越大。
@@ -68,7 +68,7 @@ SYSTEM
 步骤1 - 用户将用三重引号提供给您文本。用前缀"Summary: "对这段文本进行一句总结。
 步骤2 - 将步骤1中的总结翻译成西班牙语，并使用前缀"Translation: "。
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4485a4b2d3319710c0e9d9475bd6e6dd.png>
+![](img/zhuanqian_4485a4b2d3319710c0e9d9475bd6e6dd.png)
 ### 策略5：给个示例
 适用人群：新手　难度：🌟
 大多数时候，给所有示例的一般说明比演示变体更高效，但有些情况给示例反而更容易。比如，你想让模型模仿一种很难用语言描述的用户查询响应风格。这就是“few-shot”提示。
@@ -98,10 +98,10 @@ USER
 ```
 这里多说一句。经常有朋友反馈：我明明让GPT输出70字，它偏不。咱们来看看模型是怎么回应的：
 这个思路和提问方式，源自小七姐的在线答疑，感谢小七姐。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ef2c040c9ee2f83aa7034bc6dc3025ac.png>
+![](img/zhuanqian_ef2c040c9ee2f83aa7034bc6dc3025ac.png)
 我反复试了好多次，GPT就是给不出正确的字数。最后让它自己分析，才明白了原因。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e26c1eb6d7fa7e538154365d2e0a5725.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ac3c5e4f704d060640192c614d184290.png>
+![](img/zhuanqian_e26c1eb6d7fa7e538154365d2e0a5725.png)
+![](img/zhuanqian_ac3c5e4f704d060640192c614d184290.png)
 解决方案很简单：给一个宽泛点的范围，比如“70～90字”，就好使了。
 ## 最佳实践二：提供参考文本
 GPT会一本正经地编造答案，尤其是被问到冷门话题、引用或网址的时候。给它一篇参考文本，就像考试时给学生一张小抄，能明显减少它“胡编乱造”的概率。
@@ -118,7 +118,7 @@ USER
 不过GPT的上下文窗口有限，想用好这个策略，得用某种方式动态查找跟问题相关的信息。用提供指定内容的方式，就能实现高效的知识检索。
 我觉得最大的好处就是减少错误。因为模型可能“幻想”出一些答案，尤其在被问到偏门话题或需要引用和URL时。有参考文本兜底，它瞎编的概率就小多了。
 下面是测试数据：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4eef3aaa0da41510d6be6ed05be13b48.png>
+![](img/zhuanqian_4eef3aaa0da41510d6be6ed05be13b48.png)
 ### 策略2：让模型用引文回答
 适用人群：新手　难度：🌟
 当输入里已经有相关知识了，直接要求模型把所提供文档里的段落引用到回答里就行。还可以通过字符串匹配，编程验证输出中的引文。
@@ -130,7 +130,7 @@ USER
 问题：<插入问题>
 ```
 测试数据：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2c2cee8e88e2aaa2bef2aa56b6d5ae01.png>
+![](img/zhuanqian_2c2cee8e88e2aaa2bef2aa56b6d5ae01.png)
 ## 最佳实践三：把复杂任务拆成简单子任务
 就像软件工程里把复杂系统拆成模块化组件一样，交给GPT的任务也应该这么处理。复杂任务通常错误率更高，但把它们重构成一系列简单任务的工作流——前一个任务的输出作为后一个任务的输入——就能好很多。
 ### 策略1：用意图分类找到最相关的指令
@@ -182,7 +182,7 @@ USER
 注意，这里已经让模型在会话状态改变时输出特殊的字符串。这样一来，系统就变成了一个状态机，状态决定哪些指令被注入。通过跟踪状态、判断该状态下哪些指令相关、允许哪些状态转换，就能在用户交互上设置保护，这在不太结构化的方法里很难实现。
 简单说，就是先搞清用户的真实需求，再给最合适的答案。特别适合那些要用多种独立指令处理不同情况的任务。
 测试过程的对话内容比较多，我放到shareGPT上了，想看的小伙伴可以打开链接，也可以继续对话：https://shareg.pt/Y6j83cX
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ae78225877fa48ed1506f18248f02fd3.png>
+![](img/zhuanqian_ae78225877fa48ed1506f18248f02fd3.png)
 ### 策略2：长对话里，总结或过滤之前的对话
 适用人群：熟练者、程序开发人员　难度：🌟🌟
 假设你在和一个虚拟助手聊天，由于GPT的上下文长度固定，对话不可能无限延续下去。怎么破？有两个常用方法。
@@ -240,7 +240,7 @@ ASSISTANT
 学生的解答是正确的。
 ```
 测试数据如下：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b82ad66fa2fdcc8d1cb1b1e361491f93.png>
+![](img/zhuanqian_b82ad66fa2fdcc8d1cb1b1e361491f93.png)
 实际结果证明，学生的解答有误，但模型如果先自己生成解答，就能发现错误。
 ```
 SYSTEM
@@ -266,8 +266,8 @@ ASSISTANT
 学生的解答是不正确的。他们在计算维护费用时犯了错误，使用了100x而不是10x。第一年运营的正确总成本应为360x + 100,000。
 ```
 测试数据如下：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3408d0705238fadd50b3b1588c42fe12.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e56645d71e24e0578e47964081a293f4.png>
+![](img/zhuanqian_3408d0705238fadd50b3b1588c42fe12.png)
+![](img/zhuanqian_e56645d71e24e0578e47964081a293f4.png)
 #### 解读
 从测试结果来看，模型先自己算出答案，再与学生答案做对比，最终判断的准确性更高。所以，当我们面临比较复杂的计算或推理问题时，不妨让模型先独立思考、给出自己的结果，再去比对我们的内容——这是一种简单又有效的提效技巧。
 ### 策略二：用内心独白或多轮对话，隐藏模型的推理链
@@ -287,17 +287,17 @@ USER
 学生的解答： <插入学生的解答>
 ```
 为了测试更稳定，我在这里使用了GPT-4，因为GPT-3.5在复杂计算上表现不太靠谱。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_14736c0bc9a779587411e74370f4c739.png>
+![](img/zhuanqian_14736c0bc9a779587411e74370f4c739.png)
 采用内心独白的方式，模型不会立刻亮出答案，而是先让学生自行作答，再悄悄对比并得出结论。
 测试数据：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0cfcfceb36e35dd0722cfbc4f506aed8.png>
+![](img/zhuanqian_0cfcfceb36e35dd0722cfbc4f506aed8.png)
 另一种方式是通过一系列查询来隐藏中间过程——除了最后一个结果，其余全部不展示给用户。首先，让模型独立解题，这一步甚至可以完全不用提供学生的解答，这样可以避免模型受到学生思路的干扰。
 ```
 USER
 <插入问题描述>
 ```
 测试数据：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a0ae84999c62c0b6869a4aa048d8fd9c.png>
+![](img/zhuanqian_a0ae84999c62c0b6869a4aa048d8fd9c.png)
 接下来，再让模型结合所有信息，评估学生解答是否正确。
 ```
 SYSTEM
@@ -309,7 +309,7 @@ USER
 ```
 这样对比更清晰，模型会明确告诉学生“你的答案是错的”。
 测试数据：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e410785ce0cd1b7f95983591ac317eaf.png>
+![](img/zhuanqian_e410785ce0cd1b7f95983591ac317eaf.png)
 最后，让模型利用自己的分析，生成一段有帮助的导师式回复。
 ```
 SYSTEM
@@ -321,7 +321,7 @@ USER
 分析："""<插入模型在前一步生成的分析>"""
 ```
 这样的回复会指出思路方向，鼓励学生继续尝试。测试数据如下：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b51ff5f66ee0e4f28d256b6404f7b9e1.png>
+![](img/zhuanqian_b51ff5f66ee0e4f28d256b6404f7b9e1.png)
 #### 解读
 实测之后，我发现把思考过程展示出来，能让用户更清楚模型为何得出某个结论；同时也会增强用户对输出的信任感。尤其在教育或培训场景中，逐步推理有助于学习者掌握解题思路，这个策略非常适用。
 ### 策略三：让模型再想想，前面有没有漏掉什么？
@@ -351,8 +351,8 @@ ASSISTANT
 注意，如果文档特别长，这个方法可能需要多用几次。因为测试的文章篇幅较大，我把完整聊天记录放到了ShareGPT上，感兴趣的朋友可以直接点开链接查看或继续对话：
 https://shareg.pt/F3KN3NC
 部分测试数据：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_47a0f1c6f8a9ec4f6f7b94b21aff4089.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d4cd0a91ff3d0938980591e666911855.png>
+![](img/zhuanqian_47a0f1c6f8a9ec4f6f7b94b21aff4089.png)
+![](img/zhuanqian_d4cd0a91ff3d0938980591e666911855.png)
 #### 解读
 测试中我们发现，模型确实会出现“遗忘”——本质是因为输入内容超出了token限制。此时，提醒模型再检查一遍，往往能帮我们找回遗漏的信息。所以，习惯性地让AI做一次自我复查，尤其是在输入大量文本或经历长对话之后，会让我们获得更全面、更准确的答案。
 ## 第七个最佳实践：善用外部工具，补足GPT的短板
@@ -405,14 +405,14 @@ message.write(to="John", message="Hey, want to meetup after work?")
 结合案例来看：假如你想知道1000以内所有的质数，直接问GPT大概率得到的答案不完整。但你可以让它写一段代码去计算，运行之后就能拿到准确列表。类似的场景，都可以参考这个思路。
 用代码当桥梁，让模型把难题算准，这件事比想象中简单。
 第一步，先让模型帮你写代码。无论是 GPT-3.5 还是 GPT-4 都能胜任，遇到复杂的逻辑时 GPT-4 的编码能力会更稳。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_052339ca0c1fd16e5129b956de8e7956.png>
+![](img/zhuanqian_052339ca0c1fd16e5129b956de8e7956.png)
 第二步，开一个全新会话，把刚生成的代码完整喂回去。在这一步提问时，优先调用 GPT-4 的 代码解释器 来跑。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6ae0339389bdded9ae56cddedbcc51da.png>
+![](img/zhuanqian_6ae0339389bdded9ae56cddedbcc51da.png)
 第三步，给一个明确的指令号，让模型进入执行模式跑代码。这样你就能拿到完整且正确的计算结果。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1c2649f8f05cbffc1ee96dc098148e5d.png>
+![](img/zhuanqian_1c2649f8f05cbffc1ee96dc098148e5d.png)
 看明白了吗？就算你没有编程基础，用这个组合拳也能先生成代码，再借助 代码解释器 执行，得到比直接让模型脑补更靠谱的答案。毕竟一条严谨的代码，在处理繁琐计算和复杂逻辑时，远比偶尔犯迷糊的模型更让人放心。
 对程序开发者来说，这种方式的加成就更明显了。优秀的工程师能把玩法玩出花来，实现更多自动化与验证。我个人目前的成果还算普通，只能说火候还不够，哈哈。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1ffbde4523b011c39e95616fd3dc0bd7.png>
+![](img/zhuanqian_1ffbde4523b011c39e95616fd3dc0bd7.png)
 ## 八、最佳实践6 - 系统化地检验改动效果
 适合人群：熟练使用者、程序开发人员
 难度：🌟🌟🌟🌟
@@ -444,7 +444,7 @@ SYSTEM
 请让用户提供文本的提问开始！
 ```
 测试数据：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fc6bc3c7fa99e7645cb9e6478422309e.png>
+![](img/zhuanqian_fc6bc3c7fa99e7645cb9e6478422309e.png)
 下面是一个例子，其中两个要点都得到了满足：
 ```
 SYSTEM
@@ -453,7 +453,7 @@ USER
 """尼尔·阿姆斯特朗因为是第一个踏上月球的人而闻名。这个历史性的事件发生在1969年7月21日，是阿波罗11号任务的一部分。"""
 ```
 测试数据：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9e5094acca30d78d9f106ddcc7264c0d.png>
+![](img/zhuanqian_9e5094acca30d78d9f106ddcc7264c0d.png)
 这是一个只满足一个要点的输入示例：
 ```
 SYSTEM
@@ -461,14 +461,14 @@ USER
 """尼尔·阿姆斯特朗在他从月球模块走下来时创造了历史，成为第一个在月球上行走的人。"""
 ```
 测试数据：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_857f2f77ba457674ebe6d369cfa36bad.png>
+![](img/zhuanqian_857f2f77ba457674ebe6d369cfa36bad.png)
 这是一个没有满足任何要点的输入示例：
 ```
 SYSTEM
 USER
 """在69年的夏天，一个宏大的旅程，阿波罗11号，像传说的手一样大胆。阿姆斯特朗迈出了一步，他说的'一个小步'，是为了一个新的世界。"""
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e7fcb96a6e1f7848c491b730eedc0feb.png>
+![](img/zhuanqian_e7fcb96a6e1f7848c491b730eedc0feb.png)
 下面是更深入的官方演示案例：
 基于模型的评估方式有很多变体。评估候选答案时，我们可以看它与专家标准答案的相似度，也可以在更高维度上判断它是否与专家标准答案产生矛盾。不同维度对应不同的评估思路。
 ```
@@ -480,7 +480,7 @@ SYSTEM
 请让用户提供文本的提问开始！
 ```
 测试数据如下：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_990df8b75dcac9b5a6da5570de2b3655.png>
+![](img/zhuanqian_990df8b75dcac9b5a6da5570de2b3655.png)
 这是一个输入例子，其中的答案质量较差：
 ```
 SYSTEM
@@ -490,7 +490,7 @@ USER
 专家答案: """尼尔·阿姆斯特朗最为人所知的是他是第一个踏上月球的人。这一历史性的事件发生在1969年7月21日，是NASA的阿波罗11号任务的一部分。阿姆斯特朗踏上月球表面时说的名言："那是人类的一小步，却是人类的一大步"，至今仍被广泛引用。
 """
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_00c73803e011ecf2efc4a6eb646316d7.png>
+![](img/zhuanqian_00c73803e011ecf2efc4a6eb646316d7.png)
 这是一个有好答案的输入示例：
 ```
 SYSTEM
@@ -499,7 +499,7 @@ USER
 提交的答案: """在1969年7月21日的大约02:56 UTC时间，尼尔·阿姆斯特朗成为第一个踏上月球表面的人，标志着人类历史上的一项伟大成就。大约20分钟后，奥尔德林也加入到他的行列。"""
 专家答案: """尼尔·阿姆斯特朗最为人所知的是他是第一个踏上月球的人。这一历史性的事件发生在1969年7月21日，是阿波罗11号任务的一部分。"""
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0f1c97bab7bd2d819fbd023875ce0f75.png>
+![](img/zhuanqian_0f1c97bab7bd2d819fbd023875ce0f75.png)
 #### 解读
 官方给出了两种思路，一种是与标准答案做匹配比对，另一种是在此基础上加入重叠与矛盾的分析，从而实现更立体的评估。
 我觉得这两种思路能给 程序开发人员 带来以下帮助：
@@ -515,6 +515,6 @@ USER
 欢迎私信：aiczy8888，期待和你深入聊聊提示词技巧 ~
 公众号：熊猫Jay字节之旅；免费星球：熊猫Jay·AI·成长，欢迎关注。
 更详细的解析和分析见图一：AI提示词与职场提效
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3ec8a9fbff1222f601107c58ad4be176.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_846b741b6e2c6fbf05f971cc68e6618d.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7c2be3e8e3ac922a4b42655d1f4b0ab6.png>
+![](img/zhuanqian_3ec8a9fbff1222f601107c58ad4be176.png)
+![](img/zhuanqian_846b741b6e2c6fbf05f971cc68e6618d.png)
+![](img/zhuanqian_7c2be3e8e3ac922a4b42655d1f4b0ab6.png)

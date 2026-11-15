@@ -5,16 +5,16 @@
 ## 这一期，我们换回了什么
 首期从 1 月 16 日开始，到 2 月 28 日结束。104 位成员加入后，70 多人先后拿下 107 个平台认证资格（也就是大家常说的 YPP），算下来人均接近一个。20 多人持有不止一个资格，小芬、九月、茜茜这三位成员，更是在同一个周期里各自拿下了四个。
 除了资格数量，我们还攒下了一批可以反复用的内容资产：6 场主题直播、12 场由优秀成员主持的经验分享、17 篇深度复盘，其中 7 篇被选为精华帖。话题覆盖面很广，包括数字人表演、动物预警、动物叙事、旁白解说、叙事号、中长内容等，基本上都是当下 AI 短片圈里正在起风的方向。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e6686c884785f69ef04c15f003e9b96f.png>
+![](img/zhuanqian_e6686c884785f69ef04c15f003e9b96f.png)
 收入方面，一个月的训练周期确实不太可能直接放大回报：平台审核要花时间，多数人又都集中在 AI 内容方向，所以账面并不夸张。不过已经有几位成员靠着认证权限拿到了几百美元分成，也有成员把 YouTube 视频同步到微信短视频，单条作品换回接近 3 千元人民币。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c3e8ec7c563d62f2c63a6e80e06ee141.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_063e79e0d91a0d923ed27d01204c8fa5.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_094a01bfce48721a34c72b9b83646c50.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e5968028a523095478bff837bce18ecb.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4f1f8098b1eb68b7fccea4d640a0efb8.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_85e0c27a15bd983e7c298113d0d716fc.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_65eb71e46380202a8f6fa9badce9225f.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_595007aa3f78b5f31f099d4b824855b9.png>
+![](img/zhuanqian_c3e8ec7c563d62f2c63a6e80e06ee141.png)
+![](img/zhuanqian_063e79e0d91a0d923ed27d01204c8fa5.png)
+![](img/zhuanqian_094a01bfce48721a34c72b9b83646c50.png)
+![](img/zhuanqian_e5968028a523095478bff837bce18ecb.png)
+![](img/zhuanqian_4f1f8098b1eb68b7fccea4d640a0efb8.png)
+![](img/zhuanqian_85e0c27a15bd983e7c298113d0d716fc.png)
+![](img/zhuanqian_65eb71e46380202a8f6fa9badce9225f.png)
+![](img/zhuanqian_595007aa3f78b5f31f099d4b824855b9.png)
 回看这三组结果，其实已经超过了我们最初写下的“100 个认证”目标。为什么能做到？下面按时间线拆开讲。
 ## 第一阶段：先把出发点校准（第 1—14 天）
 报名的基本信息填得五花八门，真正看下来，和我想象中的“已经会做视频的人”差距不小。
@@ -22,31 +22,31 @@
 - 已经在一个降温的题材里坚持更新，播放量长期停在三位数；
 - 一个人同时维护五六个账号，结果每个都没有正向反馈；
 - 方向和参考样本都还行，但每天都在换对标，始终没有自己的判断。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_192d42bd0c58ef7d54106c74afa7848d.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a0ebb291a25be194ada3b74cc3ae9242.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9c2beffdbc2208671fb54f76fc3e94a6.png>
+![](img/zhuanqian_192d42bd0c58ef7d54106c74afa7848d.png)
+![](img/zhuanqian_a0ebb291a25be194ada3b74cc3ae9242.png)
+![](img/zhuanqian_9c2beffdbc2208671fb54f76fc3e94a6.png)
 所以我们做的第一件事，不是再教一遍工具怎么用，而是先把认知掰回正确的轨道。
 ### 第一步，选对还在上升期的方向
 AI 短内容的周期非常短。工具一旦更新、观众胃口一变，之前的爆款套路就会快速失效。航海手册里收录过的宠物跳舞、萌娃时装，素材完成度很高，但到大家批量上手时，流量已经过了最热的阶段，继续闷头做下去很容易没有水花。
 当然，旧题材也不是完全没有机会。关键看能不能做出新变体。小芬后来把萌娃时装改造成达人秀，就是一次很聪明的延伸。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c0fc9ed7dea22f9f31a806951f314ee3.png>
+![](img/zhuanqian_c0fc9ed7dea22f9f31a806951f314ee3.png)
 开营第一讲，我们直接把筛选后的结果给到所有人：近 10 个还在增长期的细分方向，30 多个有参考价值的对标账号。这样做，既减少大家走弯路的概率，也避免 100 个人同时涌进同一个赛道互相消耗。
 ### 第二步，学会“有效复刻”
 方向选对之后，真正动手又会遇到新门槛：太难的做不出来，太容易的又没有流量。针对不同基础的人，我们准备的解法也不一样。
 基础比较弱的成员，可以从门槛相对低、但潜力并不小的方向入手。比如动物预警，方向公布后的第二天就上线了完整教程，很多之前连动物叙事都做不出来的成员，因为这一招先拿到了第一批稳定过万的播放。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9b34d20ea8ba34068651a749a15642c8.png>
+![](img/zhuanqian_9b34d20ea8ba34068651a749a15642c8.png)
 基础较强的成员，我们则提供更花心思、也更接近当前流量喜好的制作方案。平时收集到的操作难点，会在手册、直播和一对一沟通里逐个解答，尽量让成片和普通 AI 模板拉开差距。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0a7f4f414fa832b1480f9a5723c34d07.png>
+![](img/zhuanqian_0a7f4f414fa832b1480f9a5723c34d07.png)
 不管处于哪个水平，都绕不开一条底线：复刻不是照搬，更不是垫着别人的画面直接生成。尤其不要用即梦这类工具做图生图式的仿制，版权风险和账号风险都很高。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_25d49aedbcacecd8ecf6a41bf0ea8026.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_df728900695561930843b36f75f35b77.png>
+![](img/zhuanqian_25d49aedbcacecd8ecf6a41bf0ea8026.png)
+![](img/zhuanqian_df728900695561930843b36f75f35b77.png)
 ### 第三步，把更新变成一场数据实验
 刚做 YouTube 的人，最常问的问题无非是：要更新多久才会被推流？什么样的数据才算健康？
 经过大量账号和作品的实际对照，我们推演出了一套更适合 AI 短片赛道的判断方式：
 - 先看作品被刷到之后的持续观看意愿；
 - 再看整条片子的播放完成情况。
 不同题材之间没有统一标准，所以我们还单独建了分赛道的数据参照表，把一部分百万播放、千万播放账号的内容互动记录拉出来，方便每个人判断自己处在什么水位、该改哪一个环节。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1f277c451a6efa3948eac113a8085df3.png>
+![](img/zhuanqian_1f277c451a6efa3948eac113a8085df3.png)
 如果你现在也卡在“数据一动不动”的状态里，我的建议很朴素：方向没有大问题，就给自己预留 15 到 25 天的观察期，别在第 10 天放弃。数据有波动时，先查开头能不能留住人，再查中段是不是节奏拖沓，然后继续做小改动、小验证。
 ## 第二阶段：从跟随者，变成有方法论的人（第 15—25 天）
 这个阶段，我把“成功”的门槛定义为：单条视频播放量突破百万。
@@ -63,12 +63,12 @@ AI 短内容的周期非常短。工具一旦更新、观众胃口一变，之�
 有人看中的是人物关系，有人关注的是画面冲击力，也有人只在意情绪转折。只要重组之后的成果能稳定拿到更好的数据，它就不再是模仿，而是属于你个人的方法。
 NaNa、小芬、逸凡，都是这样试出结果的：
 @NaNa
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_deb745b895681d2d76318878ffd46eef.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c4f6d3dc9538e87e9dbcea5340a5c55c.png>
+![](img/zhuanqian_deb745b895681d2d76318878ffd46eef.png)
+![](img/zhuanqian_c4f6d3dc9538e87e9dbcea5340a5c55c.png)
 @小芬
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9e9a5793dfb133ec306b25b767ceafec.png>
+![](img/zhuanqian_9e9a5793dfb133ec306b25b767ceafec.png)
 @逸凡
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4bf28922716caf93c250d63ddb2a7935.png>
+![](img/zhuanqian_4bf28922716caf93c250d63ddb2a7935.png)
 我不能替每个人指出唯一的答案，但可以尽量缩短你去找到答案的时间。
 ## 第三阶段：让认证成为起点，而不是终点（第 25—44 天）
 在这个阶段，平台审核成了最关键的一关。我的教练搭档和社群里的志愿者伙伴做了很多支持工作，搭了一套“材料预审 + 人工复核”的机制，帮 20 多位被驳回的成员重新准备复议材料，大约 80% 的人一次就通过了。具体操作步骤，可以在知识星球的置顶内容里找到。
@@ -83,9 +83,9 @@ NaNa、小芬、逸凡，都是这样试出结果的：
 不到 20 天，各组的实验就有了超出预期的结果：
 - 规模化组新增 29 个认证资格；
 - 中长内容组做出一条 5 分钟全 AI 成片，跑出 1.9 万播放和 20 美元广告分成，目前还在持续获得推荐；
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a9c73f91d0580c4f81f34bb2712e70e7.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9111aaf24df863bb1df598d9f3723061.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_118abecda78b86f4813b856e04eeb078.png>
+![](img/zhuanqian_a9c73f91d0580c4f81f34bb2712e70e7.png)
+![](img/zhuanqian_9111aaf24df863bb1df598d9f3723061.png)
+![](img/zhuanqian_118abecda78b86f4813b856e04eeb078.png)
 - 直播电商组已经试过多个产品类目的带货方案；
 - 新题材组找出 10 多个近期值得押注的方向，其中两条测试片分别拿到 700 万和 300 万播放；
 - 音乐授权组把叙事号的内容收益与音乐合作结合起来，实现每万次播放约 3 美元的收入；
@@ -93,9 +93,9 @@ NaNa、小芬、逸凡，都是这样试出结果的：
 这些结果不是来自我的推动，而是厉害的人聚在一起之后，自然长出来的。我们做的只是给出方向、资源和信任。
 ## 下一步：洋流已经到了，要不要上船
 前阵子在社群里看到一位同行立下的目标，我的第一反应是：目标定得还是太保守了。当然，这只是半句玩笑。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e2aa68882bd0529d5bdeee6c0fce8bda.png>
+![](img/zhuanqian_e2aa68882bd0529d5bdeee6c0fce8bda.png)
 还有一组很有意思的搜索热度数据：YouTube 作为全球头号内容平台，在国内的热度，只有 TikTok 和海外电商业务量的约二十分之一。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5f8d503c700142c28226f80060be64f6.png>
+![](img/zhuanqian_5f8d503c700142c28226f80060be64f6.png)
 这组数据说明的不是差距，而是机会：平台本身足够大，国内长期投入的人又足够少。过去，认证门槛挡住了绝大多数人；现在，门槛低到普通创作者也能够得着，接下来几年，这个赛道里的参与者和获利者都会迅速变多。
 我去年 11 月上旬才第一次走上这条路，那时觉得认证要求的播放量遥不可及。不到 5 个月，团队已经带着大家做出 100 多个认证资格。如果当初换一个已经完全内卷的项目，我也许不会这么快被看到；但如果换另一位执行力强的伙伴来做这件事，我相信他同样能拿到结果。这就是 AI 工具叠加平台早期红利所带来的机会。
 认证不是终局，只是一张入场券。真正值得期待的是，拿到券之后，商业化的大门才开始一扇扇打开：
@@ -109,4 +109,4 @@ NaNa、小芬、逸凡，都是这样试出结果的：
 我依然会和教练搭档一起，以服务者与同路人的身份，出现在每一次咨询、每一个小组、每一场复盘里。
 如果你也想在一个增量充足的平台里找到自己的位置，现在就是动手研究它的好时候。
 报名入口：https://sourl.cn/ByHuXY
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6c82f36ade971bbe0dc46ca55a51665f.png>
+![](img/zhuanqian_6c82f36ade971bbe0dc46ca55a51665f.png)

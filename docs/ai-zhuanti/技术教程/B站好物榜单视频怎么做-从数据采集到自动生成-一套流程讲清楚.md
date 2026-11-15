@@ -8,31 +8,31 @@ AI 编程：用 Cursor 制作 B站好物带货视频一键生成软件：
 # 一、自动生成的视频效果
 软件可以根据商品数据，批量制作榜单类视频。
 整体效果与下面两位长期上榜的百万带货 UP 主视频比较接近，他们发布的内容已经连续多个月进入榜单。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9e3cf67a27a89472278527d80d7853f3.png>
+![](img/zhuanqian_9e3cf67a27a89472278527d80d7853f3.png)
 https://space.bilibili.com/3546699228252464
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8d5b3b1ab8e88d7d4afefd6aaf9d85b6.png>
+![](img/zhuanqian_8d5b3b1ab8e88d7d4afefd6aaf9d85b6.png)
 https://space.bilibili.com/1767635624
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_94ca8d9b98f001ea6b1de845408eade4.png>
+![](img/zhuanqian_94ca8d9b98f001ea6b1de845408eade4.png)
 # 二、视频的完整制作流程
 以下内容不仅是操作说明，也可以直接整理后交给 AI，让 AI 根据你的需求生成相应的软件。
 ## 1. 商品数据从哪里来？
 平时在手机端浏览京东商品时，很多商品页面都会展示相关排行榜。
 这类榜单中的商品通常具备较好的销量基础，因此可以优先选择榜单商品进行内容制作，理论上也更容易获得转化。
 第一步，需要使用浏览器插件采集商品信息。插件的实现思路和提示词，会在后文详细说明。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_133734587f34c985714434eab9d79cb9.png>
+![](img/zhuanqian_133734587f34c985714434eab9d79cb9.png)
 ## 2. 视频画面如何合成？
 ### 2.1 先准备视频底图
 可以使用一张 1920×1080 的图片作为视频背景，也可以直接使用纯白背景。
 图片可以通过任意作图工具制作，文件名建议设置为：
 `beijing.png`
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_52a755ec0888443d0ba0caeb28bf8837.png>
+![](img/zhuanqian_52a755ec0888443d0ba0caeb28bf8837.png)
 ### 2.2 制作单个商品画面
 每一张商品画面，主要用来展示商品图片、商品名称、价格以及购买人数等信息。
 建议先制作一张不含文字和商品图片的空白模板，命名为：
 `shangpinbeijing.png`
 随后让 AI 按照指定的纵坐标，把商品信息添加到模板中，并设置为居中对齐。
 具体坐标需要根据画面效果反复调整，确定位置后再交给 AI 固化到程序里。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0f32c32f80567920bbaaa99f1bfbe62c.png>
+![](img/zhuanqian_0f32c32f80567920bbaaa99f1bfbe62c.png)
 ### 2.3 制作视频开场动画
 开场部分可以设计成商品卡片依次出现的效果，也就是一张商品图接一张商品图地进入画面。
 下面是第一段视频的 FFmpeg 基础结构：
@@ -59,7 +59,7 @@ ffmpeg {输入图片组合} -filter_complex "{转场效果组合}" -map "[f{n}]"
 ### 2.4 将商品画面拼成一张长图
 接下来需要把所有单个商品画面按顺序拼接起来，生成一张横向长图。
 可以直接让 AI 扫描指定文件夹，将其中的图片按照从左到右的顺序合并。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cf47fe2ed0901042852dc9cdb849c605.png>
+![](img/zhuanqian_cf47fe2ed0901042852dc9cdb849c605.png)
 ### 2.5 制作长图横向滚动效果
 有了长图之后，再把它转换成一段横向移动的视频。
 FFmpeg 命令结构如下：
@@ -85,7 +85,7 @@ ffmpeg -i {video1} -i {video2} -filter_complex "[0:v][1:v]concat=n=2:v=1:a=0[v]"
 1. 添加合适的背景音乐；
 2. 加入“评论区抢购”“点击评论区了解”等引导字幕；
 3. 根据节奏调整字幕和画面的出现时间。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0f987022c35c5f306b12cdfd5701bcc1.png>
+![](img/zhuanqian_0f987022c35c5f306b12cdfd5701bcc1.png)
 # 三、采集插件的制作方法
 由于采集过程会涉及商品数据，所以这里不直接提供成品插件，只分享实现逻辑和可直接交给 Cursor 的提示词。
 ## 1. 插件的基本采集逻辑
@@ -122,14 +122,14 @@ ffmpeg -i {video1} -i {video2} -filter_complex "[0:v][1:v]concat=n=2:v=1:a=0[v]"
 ## 3. 采集时需要注意的地方
 ### 3.1 先获取京东手机榜的排行榜链接
 先在手机端打开京东排行榜页面，复制页面链接，再发送到电脑端，最后用电脑浏览器打开。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1a33d86290db62da6f69f5da227fc743.png>
+![](img/zhuanqian_1a33d86290db62da6f69f5da227fc743.png)
 ### 3.2 采集前先把页面滚动到底部
 开始采集之前，建议先把页面滚动到最后一个商品的位置。
 如果不提前滚动，部分商品图片可能还没有真正加载出来，插件拿到的可能是 base64 内容，而不是实际图片链接。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3469279e0e872feaee657ba1cba2a54f.png>
+![](img/zhuanqian_3469279e0e872feaee657ba1cba2a54f.png)
 ### 3.3 导出的数据结果
 正常采集后，最终表格中应当包含商品链接、商品主图、商品标题、商品价格和购买人数等字段。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f550ffa336b57bff5edbb80011ab33b9.png>
+![](img/zhuanqian_f550ffa336b57bff5edbb80011ab33b9.png)
 # 四、视频生成软件
 软件中的视频参数已经预先设置完成，不过更建议大家按照前面的制作逻辑，自己生成一套工具。
 如果直接使用现成软件，最好替换以下内容：
@@ -143,7 +143,7 @@ https://daming.lanzoum.com/b0ko7yqeb
 ### 2.1 先处理商品标题
 第一步采集出来的数据中，建议先检查并修改商品标题。
 标题太长时，放进商品图片后可能会被截断或显示不完整，所以最好把标题压缩成更短、更适合画面展示的版本。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4da5ca624b6f11baf9336b1292add3fb.png>
+![](img/zhuanqian_4da5ca624b6f11baf9336b1292add3fb.png)
 ### 2.2 导入 CSV 并生成视频
 打开软件后，选择刚刚采集得到的 CSV 文件，再设置需要生成的商品数量。
 如果数量较多，生成过程会相应变慢，而且视频太长也可能影响完整观看。一般建议每条视频选择 10—20 个商品。
@@ -153,7 +153,7 @@ https://daming.lanzoum.com/b0ko7yqeb
 - 补充引导字幕；
 - 调整整体节奏；
 - 检查商品信息是否显示完整。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_30b0f226356bf985a1e2bc605ce774d4.png>
+![](img/zhuanqian_30b0f226356bf985a1e2bc605ce774d4.png)
 整体流程可以概括为：
 **采集榜单数据 → 生成商品卡片 → 制作开场动画 → 拼成长图 → 添加横向滚动 → 合并视频 → 配乐和字幕。**
 如果你对 AI 编程感兴趣，完全可以把这套流程拆开，让 Cursor 分模块完成，最后组合成一个属于自己的 B站好物视频生成工具。

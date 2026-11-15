@@ -17,43 +17,43 @@
 第四，商城的搜索入口。很多商家还没有认真优化产品页面的权重，商城内不花钱的曝光入口是一个明显的洼地，值得提早布局。
 第五，内容变现。有账号运营经验和打爆视频经验的团队，可以不碰发货，直接与商家合作，靠内容产出赚取分成，后面还会衍生出更多机会。
 总括一下：
-免费流量做账号，起号慢、需要铺量、要持续积累；大量找创作者带货是目前拿到大结果的主要路径，还能拿到大量用户生成内容，解决内容供给问题。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_58c581896ea73321a23c4910ac78a709.png>
-付费投放仍处于早期，整体投放效果不算理想，纯靠付费的玩家很少，但这条赛道之后一定会跑出大赢家。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e2f24cec5696ebe836e3d24429630855.png>（Pipi Ads可查看美区小店的投放数据）
+免费流量做账号，起号慢、需要铺量、要持续积累；大量找创作者带货是目前拿到大结果的主要路径，还能拿到大量用户生成内容，解决内容供给问题。![](img/zhuanqian_58c581896ea73321a23c4910ac78a709.png)
+付费投放仍处于早期，整体投放效果不算理想，纯靠付费的玩家很少，但这条赛道之后一定会跑出大赢家。![](img/zhuanqian_e2f24cec5696ebe836e3d24429630855.png)（Pipi Ads可查看美区小店的投放数据）
 货源这块，是很多人的瓶颈，但有几条路可走。
-第一，多渠道分流库存风险。如果本来就有多个跨境渠道，比如品牌官网、Amazon，那就可以共同分担库存，库存压力会小很多。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e7cce0329b30d9f4598db85ab88f9df9.png>
+第一，多渠道分流库存风险。如果本来就有多个跨境渠道，比如品牌官网、Amazon，那就可以共同分担库存，库存压力会小很多。![](img/zhuanqian_e7cce0329b30d9f4598db85ab88f9df9.png)
 第二，接本地货主的盘。身边有Amazon卖家或渠道资源，可以商量合作，从对方那里调货；尤其是Amazon大卖家的货，往往在美区小店也很能打。此外，外国卖家的货源结构也值得研究，很多本地供应链还没被挖透。
 第三，自主囤货。这非常考验开款能力，建议先选成本低、重量轻、有新鲜感的商品，小批量测试，跑通后再放量。
 再强调一次：商品筛选才是根本，没有开款实力就很难走远。
 商品筛选可以从三类信息差入手。
-一是国内爆款平移。很多国内已经验证过的品类，可以直接搬到海外，比如曾经在国内火过的健腹轮。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fc6d59270b92d2a13c60e586eb0e4cc2.png>
-二是平台间的信息差。Amazon、品牌官网、Etsy等平台上已经跑出来的商品，可以拿到美区小店再试一轮。尤其Etsy，调性和TK用户很契合，找款参考可看 etsyshop.ai。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_141eb3cb047d31726587dc72ac904969.png>
-三是国家间的信息差。TK覆盖多个国家市场，很多商品是全球通吃的。东南亚先爆的商品，调研一下美区也许还有机会。用Pipi Ads做数据锚点，可以实时追踪美区小店的投放和销量情况。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8965a3fa42de407fbee547d5ffc7df0c.png>
+一是国内爆款平移。很多国内已经验证过的品类，可以直接搬到海外，比如曾经在国内火过的健腹轮。![](img/zhuanqian_fc6d59270b92d2a13c60e586eb0e4cc2.png)
+二是平台间的信息差。Amazon、品牌官网、Etsy等平台上已经跑出来的商品，可以拿到美区小店再试一轮。尤其Etsy，调性和TK用户很契合，找款参考可看 etsyshop.ai。![](img/zhuanqian_141eb3cb047d31726587dc72ac904969.png)
+三是国家间的信息差。TK覆盖多个国家市场，很多商品是全球通吃的。东南亚先爆的商品，调研一下美区也许还有机会。用Pipi Ads做数据锚点，可以实时追踪美区小店的投放和销量情况。![](img/zhuanqian_8965a3fa42de407fbee547d5ffc7df0c.png)
 接下来拆一个规模过亿的品类：家用监控设备。
-Pipi Ads监测到，海外监控设备市场增长很快，不少广告主在TK投放单品，已经有人打出不错成绩。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_85708234c2340895beed4bc1ae15168f.png>（多广告主投放数据截图）
-海外成熟市场对监控设备的需求是全方位的，商业、家庭、市政多个场景都在增长，而出海热潮最集中于家庭安防场景。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b018d17f05f65ad093d0f0b1bc37badd.png>
+Pipi Ads监测到，海外监控设备市场增长很快，不少广告主在TK投放单品，已经有人打出不错成绩。![](img/zhuanqian_85708234c2340895beed4bc1ae15168f.png)（多广告主投放数据截图）
+海外成熟市场对监控设备的需求是全方位的，商业、家庭、市政多个场景都在增长，而出海热潮最集中于家庭安防场景。![](img/zhuanqian_b018d17f05f65ad093d0f0b1bc37badd.png)
 需求可以归纳为两点：一是安全防范意识提升。欧美很多家庭住独立式住宅，室内、庭院、车库、花园都是需要布点的位置，通常不止一个设备；家里有老人、儿童或宠物，外出时需要通过远程画面安心工作。
-二是技术环境在成熟。从硬件安装、信号传输到软件存储、维护，门槛大幅降低。以前在海外装一套智能系统，请人装一次要花掉二三百美刀的人工费；现在用户可以自己装，步骤简化，门槛被压得很低。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_73eb101cb51033b909c4d0330ead3bcd.png>
+二是技术环境在成熟。从硬件安装、信号传输到软件存储、维护，门槛大幅降低。以前在海外装一套智能系统，请人装一次要花掉二三百美刀的人工费；现在用户可以自己装，步骤简化，门槛被压得很低。![](img/zhuanqian_73eb101cb51033b909c4d0330ead3bcd.png)
 供应链端成本下降、市场竞争良性，也让更多实惠的安防产品流向消费者。
-以螺口灯式监控器为例，这个单品已经红了几年，至今仍有人在做。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c834f840c446b71d3e66deaaf51bfca8.png>
-最早是多个DTC官网广告主在TK上换着地区反复打，核心手法就是按地区定制内容。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_599f6ddf4284654909a2c4aa52036e9a.png>
-看Amazon，不少卖家都在跟进销售同款，销量从几百件到上万件；<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c9cee8f92068654ddfa1825bb7cd50db.png>
-看Walmart和Google，同样是多家在卖、搜索热度持续浮现；<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_151a37b61d7784abf8cf6301257dd1a1.png>
-再看美区小店近期销售，多家店铺在售，累计也有数千件。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6c1d180950c2ce724c3a2f41b0ee21dd.png>
+以螺口灯式监控器为例，这个单品已经红了几年，至今仍有人在做。![](img/zhuanqian_c834f840c446b71d3e66deaaf51bfca8.png)
+最早是多个DTC官网广告主在TK上换着地区反复打，核心手法就是按地区定制内容。![](img/zhuanqian_599f6ddf4284654909a2c4aa52036e9a.png)
+看Amazon，不少卖家都在跟进销售同款，销量从几百件到上万件；![](img/zhuanqian_c9cee8f92068654ddfa1825bb7cd50db.png)
+看Walmart和Google，同样是多家在卖、搜索热度持续浮现；![](img/zhuanqian_151a37b61d7784abf8cf6301257dd1a1.png)
+再看美区小店近期销售，多家店铺在售，累计也有数千件。![](img/zhuanqian_6c1d180950c2ce724c3a2f41b0ee21dd.png)
 爆款的共性是：在多个平台上都能出货。根据这个共性可以反向推演：社交平台上出单的商品，再去电商渠道验证；一个平台火了的商品，换到另一个平台试；美区跑出来的品，拿到欧洲或其他国家试；免费流量起量的品，拿去付费投放试。内容维度也一样：品牌官网上的爆款搬到小店，一条视频创意火了就迭代新版本。
 产品维度上，某个单品火了，可以找同质化差异品复制；某个品类火了，可以延伸周边。
 这些判断的底层，来自对市场、消费者诉求和信息的持续掌握。
 Pipi Ads的使用，有几个实操点：
-如果想查特定广告主，可以输入品类关键词或域名，看竞争对手的销售情况；但因为投放的特殊性，很多广告主没把标题文本和关键词绑进去，会漏掉一部分数据。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b6085aee611cb7f96da9bb92d508ec3a.png>
-想追爆款动态，把时间框在近3到7天，按广告曝光量或广告创意数排序，每天刷一遍。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d483d40dd0282d74e8ab26e9fad9ee84.png>
-想看店铺数据，打开Pipi Ads的店铺板块，选择对应国家，按曝光和销量排序即可。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fde6981ec4110b4a076cb94fa1a33937.png>
+如果想查特定广告主，可以输入品类关键词或域名，看竞争对手的销售情况；但因为投放的特殊性，很多广告主没把标题文本和关键词绑进去，会漏掉一部分数据。![](img/zhuanqian_b6085aee611cb7f96da9bb92d508ec3a.png)
+想追爆款动态，把时间框在近3到7天，按广告曝光量或广告创意数排序，每天刷一遍。![](img/zhuanqian_d483d40dd0282d74e8ab26e9fad9ee84.png)
+想看店铺数据，打开Pipi Ads的店铺板块，选择对应国家，按曝光和销量排序即可。![](img/zhuanqian_fde6981ec4110b4a076cb94fa1a33937.png)
 长期品牌案例，看Wyze。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_65d16fcfcfa0dfc3a312ca8b4d1c9ada.png>（Wyze在Amazon的部分销售数据）
-Wyze 的公司总部放在西雅图，主营智能硬件和无线监控设备，2017年由前Amazon员工创办，创始团队四人，其中两人为华裔。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2deab6d4383b203454d5128ef1095e48.png>（Wyze官网）
+![](img/zhuanqian_65d16fcfcfa0dfc3a312ca8b4d1c9ada.png)（Wyze在Amazon的部分销售数据）
+Wyze 的公司总部放在西雅图，主营智能硬件和无线监控设备，2017年由前Amazon员工创办，创始团队四人，其中两人为华裔。![](img/zhuanqian_2deab6d4383b203454d5128ef1095e48.png)（Wyze官网）
 它最核心的杀手锏是极致价格力：把带Wi-Fi和App的无线监控设备压到20美刀以内，而当时同类竞品普遍在100美刀甚至150美刀以上。低价+硬质量，加上围绕消费者需求、绑定优质代工厂、自主研发，形成了口碑自传播。
-Pipi Ads观测到，Wyze美区小店有26个SKU，较短时间内累计出单约15万件。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4be44147acdf34174fc2bc817e1fa877.png>
-出单最猛的是Wyze Cam v3，累计卖出八万件，单价33.99美刀，销售额折合约272万（美元），Pipi Ads收录广告创意25条，曝光累计6200万次。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ac07fc5727d4b3500dffe0b4b7bc5df0.png>
+Pipi Ads观测到，Wyze美区小店有26个SKU，较短时间内累计出单约15万件。![](img/zhuanqian_4be44147acdf34174fc2bc817e1fa877.png)
+出单最猛的是Wyze Cam v3，累计卖出八万件，单价33.99美刀，销售额折合约272万（美元），Pipi Ads收录广告创意25条，曝光累计6200万次。![](img/zhuanqian_ac07fc5727d4b3500dffe0b4b7bc5df0.png)
 产品支持多种安装方式，有超清画质录像、低光夜拍、远程对讲、云端储存、移动侦测和声音感应，还能联动烟感器和一氧化碳感应器发出提醒。
-这套打法，确实能让极致价格力深植人心。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c4522a5ab27db3f9aad376311548dffd.png>
+这套打法，确实能让极致价格力深植人心。![](img/zhuanqian_c4522a5ab27db3f9aad376311548dffd.png)
 最后说两句长期判断。
 TK的流量盘子会继续吸引品牌涌入，许多细分赛道也会冒出新的品牌玩家。
 第一，讲品牌故事要和市场打法形成合力。监控这种体量巨大的市场，很多人想进来分蛋糕，可以参考Wyze，先用极致价格力快速圈地，再用口碑做大规模自发传播。
@@ -71,5 +71,5 @@ TK的流量盘子会继续吸引品牌涌入，许多细分赛道也会冒出新
 海螺 : 冒昧问一句，方便留个微信吗？
 龙哥 : 内容很好，设为精华了。
 海螺 : 还想再请教几个问题，能私聊吗？
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1c37d505930596d12a88ab23e11aa07a.png>
+![](img/zhuanqian_1c37d505930596d12a88ab23e11aa07a.png)
 * * *

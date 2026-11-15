@@ -11,9 +11,9 @@
 Subrise 更像是一份 Reddit 使用手册，适合刚开始接触 Reddit 的用户。
 它提供了社区参与技巧、热门版块推荐以及新手教程，也能帮助用户查询不同 Subreddit 的基本情况，例如社区规模、活跃程度和主要讨论方向。
 除此之外，Subrise 还会解释 Reddit 的核心机制，包括 Upvote/Downvote 的影响、热榜内容的排序逻辑等。无论是普通用户，还是希望研究 Reddit 生态的开发者，都可以借助它快速建立基础认知。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8183e9ab79450f42d4b08d91aaa734fc.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_855fb1a23b230e1c10885bbf8830f77a.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1169d4dde5810f4a37266facb2ccbd5e.png>
+![](img/zhuanqian_8183e9ab79450f42d4b08d91aaa734fc.png)
+![](img/zhuanqian_855fb1a23b230e1c10885bbf8830f77a.png)
+![](img/zhuanqian_1169d4dde5810f4a37266facb2ccbd5e.png)
 ### 02 KarmaAssist
 **Subreddit：** r/KarmaAssist
 **网址：** https://www.reddit.com/r/karmaassist/
@@ -21,7 +21,7 @@ Subrise 更像是一份 Reddit 使用手册，适合刚开始接触 Reddit 的�
 Karma 是 Reddit 用户的重要积分体系，通常来自帖子和评论获得的点赞。Karma 越高，往往意味着用户在社区中有更多贡献和影响力。
 r/KarmaAssist 主要面向希望提升 Karma 的用户。大家可以通过发布内容、参与讨论和互相交流，提高账号活跃度。
 由于部分 Reddit 社区对发帖者的 Karma 有要求，因此对于刚开始运营 Reddit 的用户来说，先积累一定 Karma 会更方便。这里也推荐中文 Karma 互助社区，帮助海外独立开发者完成早期积累，之后再进入其他版块发布内容，实现初步增长。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_96f8cfdd385086957c0fa47e9d862206.png>
+![](img/zhuanqian_96f8cfdd385086957c0fa47e9d862206.png)
 ## 二、社区发现工具
 ### 01 Reddit Best Communities
 **网站名称：** Reddit Best Communities
@@ -39,7 +39,7 @@ r/KarmaAssist 主要面向希望提升 Karma 的用户。大家可以通过发�
 4. **分析用户兴趣**
 通过不同社区的主题分布，进一步判断用户偏好，优化产品和内容策略。
 **参考来源：**
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_31050ad96b9ce82f54f3130acc26df4b.png>
+![](img/zhuanqian_31050ad96b9ce82f54f3130acc26df4b.png)
 ### 02 Redditlist
 **网站名称：** Redditlist
 **网址：** https://redditlist.com/
@@ -57,7 +57,7 @@ Redditlist 主要用于查找 Reddit 上活跃度较高的 Subreddit。
 通过关注热门版块和新兴社区，挖掘潜在机会。
 5. **辅助广告投放**
 根据社区规模和相关性，筛选更适合投放广告的版块。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7562cc01d4760dc3fc24726b01bfbb7c.png>
+![](img/zhuanqian_7562cc01d4760dc3fc24726b01bfbb7c.png)
 ### 03 FindAReddit
 **网站名称：** FindAReddit
 **网址：** https://www.findareddit.com/
@@ -73,7 +73,7 @@ FindAReddit 是一个面向 Reddit 社区搜索的工具，适合开发者、营
 通过社区活跃程度和讨论内容，了解用户当前关注的问题。
 4. **开展竞品研究**
 找到竞品相关的社区，观察用户反馈、吐槽和真实需求，为产品优化提供线索。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a98372a66af76400ff025f99bd3de5b1.png>
+![](img/zhuanqian_a98372a66af76400ff025f99bd3de5b1.png)
 ## 三、数据挖掘工具
 ### 01 Subreddit Stats
 **网站名称：** Subreddit Stats
@@ -92,8 +92,8 @@ Subreddit Stats 专注于 Reddit 各个子版块的数据分析，可以查看�
 根据社区规模、活跃程度和用户特点，选择更具性价比的推广渠道。
 5. **开展竞品分析**
 研究竞品所在社区以及用户对竞品的反馈，为产品迭代提供参考。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_95659927727bc557011f6533c22bc295.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8ad8fc7ff702b4a9806e85f276737db3.png>
+![](img/zhuanqian_95659927727bc557011f6533c22bc295.png)
+![](img/zhuanqian_8ad8fc7ff702b4a9806e85f276737db3.png)
 ### 02 RedSim
 **网站名称：** RedSim
 **网址：** https://anvaka.github.io/redsim/
@@ -111,7 +111,7 @@ RedSim 用可视化方式呈现不同 Subreddit 之间的关联。
 参考关联版块中的讨论主题，挖掘新的创作切入口。
 5. **分析竞品布局**
 观察竞争产品活跃在哪些社区，寻找新的推广机会。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ee89046b7ce09bd7b053251959ae5067.png>
+![](img/zhuanqian_ee89046b7ce09bd7b053251959ae5067.png)
 ### 03 Keyworddit
 **网站名称：** Keyworddit
 **网址：** https://www.highervisibility.com/seo/tools/keyworddit/?utm_source=toolbaseio
@@ -119,7 +119,7 @@ RedSim 用可视化方式呈现不同 Subreddit 之间的关联。
 Keyworddit 可以从指定 Subreddit 中提取关键词，并提供相关搜索量和关键词创意。
 使用时，只需要输入关键词，再选择目标 Subreddit，平台就会生成按月度搜索表现整理的关键词列表。
 你还可以点击关键词旁边的上下文信息，进一步查看 Google 搜索结果，了解 Reddit 内部与该关键词有关的帖子和讨论。生成的关键词也支持批量导出，方便后续用于 SEO、文章策划或市场分析。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0850c5a0b8006b6a9e694ab42d22cec3.png>
+![](img/zhuanqian_0850c5a0b8006b6a9e694ab42d22cec3.png)
 ### 04 Reddit Insights
 **网站名称：** Reddit Insights
 **网址：** https://redditinsights.ai/
@@ -154,8 +154,8 @@ Reddit Insights Finder 适合用来观察 Reddit 上的热门话题、用户需�
 分析关键词背后的讨论趋势和用户关注点。
 3. **研究市场需求**
 通过帖子内容了解用户痛点，为产品开发和服务优化提供依据。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_48d9cc0476883c95b74f562c6f2fcb1f.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bddab020ceec7b1e34e09f0338465919.png>
+![](img/zhuanqian_48d9cc0476883c95b74f562c6f2fcb1f.png)
+![](img/zhuanqian_bddab020ceec7b1e34e09f0338465919.png)
 ### 02 IdeaPicker
 **网站名称：** IdeaPicker
 **网址：** https://ideapicker.io/ideas
@@ -173,7 +173,7 @@ IdeaPicker 面向创业者和开发者，帮助用户发现、筛选并评估产
 可以按照行业、用户群体、商业潜力等条件筛选项目。
 5. **社区交流**
 用户能够评论、点赞并提出改进建议，帮助创意继续完善。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_37d5f6032be5a79eb0050b0587382edc.png>
+![](img/zhuanqian_37d5f6032be5a79eb0050b0587382edc.png)
 ### 03 IndieIdeas
 **网站名称：** IndieIdeas
 **网址：** https://indieideas.io/
@@ -189,7 +189,7 @@ IndieIdeas 是一个服务于独立开发者、创业者和创意人士的社区
 了解他人的创意，寻找灵感或潜在合作机会。
 4. **参考市场趋势**
 借助平台上的行业信息和用户反馈，更好地调整产品定位。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0680c453d42a470bf43807f3884fa10e.png>
+![](img/zhuanqian_0680c453d42a470bf43807f3884fa10e.png)
 下面几个产品灵感网站来自刘小排老师的分享。如果你正在寻找产品方向，建议结合这篇内容一起阅读：
 ### 04 Product Hunt
 **网站名称：** Product Hunt
@@ -206,7 +206,7 @@ Product Hunt 是一个专门展示和发现新产品的平台，覆盖软件、�
 平台汇集创业者、投资人、设计师和技术爱好者。
 4. **观察行业趋势**
 每日榜单能够帮助用户了解近期热门产品和技术方向。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7cd02d3aeb168b4126a7ae074c1d8ff5.png>
+![](img/zhuanqian_7cd02d3aeb168b4126a7ae074c1d8ff5.png)
 ### 05 Hacker News - Show HN
 **网站名称：** Hacker News - Show HN
 **网址：** https://news.ycombinator.com/show
@@ -222,7 +222,7 @@ Hacker News 拥有大量技术用户和潜在客户，是一个可以免费获�
 从学习 Reddit 规则，到寻找目标社区，再到分析用户需求、挖掘产品灵感，每个阶段都有对应的工具可以辅助。对于出海开发者、独立创业者和营销人员来说，合理组合这些工具，能够减少试错成本，更快找到用户、内容和产品机会。
 如果你还收藏了其他好用的 Reddit 工具，欢迎留言分享。
 做产品最怕闭门造车。社区老成员随口提的几条建议，往往比内部会议上的高谈阔论更接近真实需求；这些反馈既有专业含量，又能立刻执行——要么让产品迭代少走弯路，要么帮团队解开卡了许久的技术死结。项目刚起步时，花少量时间泡在社群里，就能提前拿到市场的水温和用户的态度，比自己埋头猜测高效得多。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ea5d3398865d817ef5439efa2517f714.png>
+![](img/zhuanqian_ea5d3398865d817ef5439efa2517f714.png)
 ### 06 SEOBox
 站点名：SEOBox
 访问地址：https://seo.box/referring/
@@ -233,17 +233,17 @@ Hacker News 拥有大量技术用户和潜在客户，是一个可以免费获�
 - 风险链接早发现：低质或带毒的引荐域名会被快速识别，防止站点因垃圾链接被搜索引擎降权。
 - 内容吸引力更易放大：了解哪些站点偏爱你的内容类型，再调整选题和呈现方式，就有机会迎来更多自然引荐。
 榜单信息：哥飞整理的一份每月通过 Stripe 收款、收入最高的 100 个产品清单。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_80dacfef8d22283ae22fd12f291b94a9.png>
+![](img/zhuanqian_80dacfef8d22283ae22fd12f291b94a9.png)
 ### 07 Toolify
 站点名：Toolify
 访问地址：https://www.toolify.ai/zh/
 定位：一个把 AI 应用集中陈列的导航平台，收录对象覆盖效率办公、写作作图、写代码、图片加工等方向。想尝鲜最新 AI 能力，或者找某个具体场景的解决方案，到这里按图索骥就行。它由知名产品人阳光杉木推荐，目前在全球 AI 导航站中排在第二位。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9bd0cad4f1dfd9b7c45e0c18ff199e6f.png>
+![](img/zhuanqian_9bd0cad4f1dfd9b7c45e0c18ff199e6f.png)
 ### 08 There’s An AI For That
 站点名：There’s An AI For That
 访问地址：https://theresanaiforthat.com/
 定位：一座庞大的 AI 服务索引库，专门收集并归类当下冒出来的新 AI 应用。个人用户和公司团队都可以按需检索，快速定位对口服务，同时顺手掌握行业前沿变化。它的数据库规模与搜索体验是两大招牌。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a43cda854a4a9b85b06ee8780da5b6fa.png>
+![](img/zhuanqian_a43cda854a4a9b85b06ee8780da5b6fa.png)
 ## 五、研究洞察类
 ### 01 SnooSnoo
 站点名：SnooSnoo
@@ -253,10 +253,10 @@ Hacker News 拥有大量技术用户和潜在客户，是一个可以免费获�
 - 活跃节奏拆解：明确某个人通常什么时候在线，投递消息或安排内容发布可以踩准对方的在线窗口。
 - 兴趣地图绘制：把关注的话题领域串起来，方便做定制推荐；市场团队也能据此圈定目标社区，集中火力。
 - 口味分析：判断对方更爱聊科技、娱乐还是政治，做内容时就顺着受众的喜好走。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_983064a54decc70153c5c8e548cc3ed3.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_dbd523007713f9dd980700b4aec75211.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6fd6d69c5d033a6e683b201b1fc55421.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fed09cc70cf85cd20b028b2a6792e2d8.png>
+![](img/zhuanqian_983064a54decc70153c5c8e548cc3ed3.png)
+![](img/zhuanqian_dbd523007713f9dd980700b4aec75211.png)
+![](img/zhuanqian_6fd6d69c5d033a6e683b201b1fc55421.png)
+![](img/zhuanqian_fed09cc70cf85cd20b028b2a6792e2d8.png)
 同场加映：
 ### 02 Reddit Metis
 站点名：Reddit Metis
@@ -269,17 +269,17 @@ Hacker News 拥有大量技术用户和潜在客户，是一个可以免费获�
 - 热词与议题扫描：整理讨论区里反复出现的说法和话题，为后续选题提供方向。
 - 横向对比：同时比较多个分区，看活跃度、内容偏好和成员表现差异。
 - 历史数据回溯：调取特定板块过去的表现，识别长期涨跌趋势。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_55c76a9bdc675501fc023d5bead9610d.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_87d220bb2f998a60ea3f8f6c63c6d7e6.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b8fc745dd8f32ccbed7b4042ff7026de.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b9ef1550e0b40082042406f6c1156312.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4f25bbb80e3758e40130efac10e0fda4.png>
+![](img/zhuanqian_55c76a9bdc675501fc023d5bead9610d.png)
+![](img/zhuanqian_87d220bb2f998a60ea3f8f6c63c6d7e6.png)
+![](img/zhuanqian_b8fc745dd8f32ccbed7b4042ff7026de.png)
+![](img/zhuanqian_b9ef1550e0b40082042406f6c1156312.png)
+![](img/zhuanqian_4f25bbb80e3758e40130efac10e0fda4.png)
 ### 03 Postpone
 站点名：Postpone
 访问地址：https://www.postpone.app/scheduled
 定位：Reddit 运营者的排期助手，核心能力是把内容提前排入队列，到点自动推送，且不限于单一平台。除了节省人工盯点，它还会分析你的账户数据，并附带标题生成之类的小功能。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5c24203185ac9d9ce8168a894839e4ab.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_70d36e24ed3f5ee6823249fb64b9a6a8.png>
+![](img/zhuanqian_5c24203185ac9d9ce8168a894839e4ab.png)
+![](img/zhuanqian_70d36e24ed3f5ee6823249fb64b9a6a8.png)
 ### 04 Later for Reddit
 站点名：Later for Reddit
 访问地址：https://dashboard.laterforreddit.com/analysis
@@ -289,15 +289,15 @@ Hacker News 拥有大量技术用户和潜在客户，是一个可以免费获�
 - 互动趋势：观察不同时间的点赞和评论变化，用来检验内容表现。
 - 热门帖样板：整理高赞帖子，研究什么样的内容和标题更讨喜。
 - 策略参考：根据历史数据自动给出发布时间和内容方向的建议。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e927455665873b037fc9cef2585121b2.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1facd2abe6ebe27d92feae5956943a48.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1be31cf7971512755bbab2ee80a70c7c.png>
+![](img/zhuanqian_e927455665873b037fc9cef2585121b2.png)
+![](img/zhuanqian_1facd2abe6ebe27d92feae5956943a48.png)
+![](img/zhuanqian_1be31cf7971512755bbab2ee80a70c7c.png)
 同类可选：
 ### 05 Delay for Reddit
 站点名：Delay for Reddit
 访问地址：https://www.delayforreddit.com/
 定位：让帖子按计划自动发出的预约发布工具。提前写好内容、选好目标分区，到点便会自动贴出。对于需要跨时区协作的团队、内容作者和社区管理员尤其友好，能让每一条内容都踩在流量高峰。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4303c5bb5f2f954f17c9ee3f742c637c.png>
+![](img/zhuanqian_4303c5bb5f2f954f17c9ee3f742c637c.png)
 ### 06 Redective
 站点名：Redective
 访问地址：http://www.redective.com/
@@ -308,13 +308,13 @@ Hacker News 拥有大量技术用户和潜在客户，是一个可以免费获�
 - 参与度画像：衡量某账号在社区里的活跃程度和板块分布，辅助建立人群画像。
 - 竞品跟踪：观察竞品相关用户或社区的讨论，提炼对方用户的需求与不满，反哺产品迭代。
 - 定向推广：筛出高活跃度账号，围绕他们做精准投放，提升品牌能见度。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cb974e32532150a39dfc7f8b9899e6de.png>
+![](img/zhuanqian_cb974e32532150a39dfc7f8b9899e6de.png)
 ## 六、图文创作类
 ### 01 Canva
 平台名：Canva
 访问地址：https://www.canva.cn/
 定位：一个面向大众的在线设计工具，模板库和素材库非常丰富，零基础的人也能做出海报、PPT、名片、短视频和营销配图。往 Reddit 上放内容时，配上一张好看的图，打开率完全不一样。另外，在闲鱼上花很少的钱就能买到长期会员，性价比相当离谱。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1a9b529bd98831c44a913d5d253b9c65.png>
+![](img/zhuanqian_1a9b529bd98831c44a913d5d253b9c65.png)
 ### 02 ShotEasy
 站点名：ShotEasy
 定位：免费的在线截图美颜工具，直接在浏览器里给截图加背景、边框、阴影和水印，还能裁剪、改尺寸、写注释。处理完的图片干干净净，特别适合放进博客、PPT 或社交动态里。
@@ -322,7 +322,7 @@ Hacker News 拥有大量技术用户和潜在客户，是一个可以免费获�
 - 做图配文：给文章或演示稿配上精致的截图，质感立刻上一个台阶。
 - 产品展示：给功能页面做视觉包装，让卖点更突出。
 - 社交传播：把普通截图变成吸睛卡片，提升转评赞。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7f7e2aefbcb64e21f573c0f2c90c5b7e.png>
+![](img/zhuanqian_7f7e2aefbcb64e21f573c0f2c90c5b7e.png)
 ### 03 Reddit Preview
 站点名：Reddit Preview
 访问地址：https://redditpreview.com/
@@ -331,7 +331,7 @@ Hacker News 拥有大量技术用户和潜在客户，是一个可以免费获�
 - 帖子预览：在公开前查看标题、正文、图片或视频的最终展示效果。
 - 广告预览：模拟信息流广告或纯文字推广的呈现，确保视觉和信息传达没问题。
 - Markdown 检查：测试加粗、列表、超链接等格式是否正确显示。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5b357dfe113ae1f1696c4cd516e3caea.png>
+![](img/zhuanqian_5b357dfe113ae1f1696c4cd516e3caea.png)
 ## 七、推广增长类
 ### 01 GummySearch
 站点名：GummySearch
@@ -344,8 +344,8 @@ Hacker News 拥有大量技术用户和潜在客户，是一个可以免费获�
 - 选题灵感：从用户高频提问中提炼素材，写出来的东西更贴脸。
 - 竞品看板：分析竞品的受众分布和口碑反馈，找到差异化切入点。
 信息出处：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_84cc9360a9e915eb28ff0e65732f01ce.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_43ff9e8c385c3da48b1202e2a4296c80.png>
+![](img/zhuanqian_84cc9360a9e915eb28ff0e65732f01ce.png)
+![](img/zhuanqian_43ff9e8c385c3da48b1202e2a4296c80.png)
 ### 02 Reddit Ads Dashboard
 站点名：Reddit Ads Dashboard
 访问地址：https://ads.reddit.com/account/g7day0x3eyfn/dashboard?landing=true
@@ -354,7 +354,7 @@ Hacker News 拥有大量技术用户和潜在客户，是一个可以免费获�
 - 投放创建：几步就能建好一条计划，支持纯文本、图片、视频等版式，还能选择品牌曝光、点击、转化等目标。
 - 精细定向：按兴趣、地理位置、设备、具体分区等条件圈人，让广告出现在最相关的人面前。
 - 数据看板：实时查看 CTR、CVR、展示量与花费，随时调整出价和素材。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_14508bbd1efa241cdc5d1b1061bed8e8.png>
+![](img/zhuanqian_14508bbd1efa241cdc5d1b1061bed8e8.png)
 ## 八、效率与辅助类
 ### 01 Reddit Saved
 站点名：Reddit Saved
@@ -363,7 +363,7 @@ Hacker News 拥有大量技术用户和潜在客户，是一个可以免费获�
 适用场景：
 - 收藏整理：把散落的书签归类归档，写作者和调研者随时调用。
 - 灵感沉淀：出海公司可集中存放行业动态、用户反馈等线索，为后续产品和市场判断做素材储备。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d42ac5ca254eaacd17f4c8d39e4a83c9.png>
+![](img/zhuanqian_d42ac5ca254eaacd17f4c8d39e4a83c9.png)
 ### 02 Reveddit
 站点名：Reveddit
 访问地址：https://www.reveddit.com/about/
@@ -373,7 +373,7 @@ Hacker News 拥有大量技术用户和潜在客户，是一个可以免费获�
 - 账号行为核查：如果某个用户频繁被删帖，可以检查是否存在违规嫌疑。
 - 内容找回：自己的帖子或评论被误删时，可到这里翻出原文留档。
 4.竞品分析：关注同类产品的内容是否曾被社区移除，并进一步拆解其内容运营方式，了解其中的优势与不足。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_98244b5bed83f61428fada5f448f7400.png>
+![](img/zhuanqian_98244b5bed83f61428fada5f448f7400.png)
 ### 03 Reddit Enhancement Suite（RES）
 网站名称：Reddit Enhancement Suite（RES）
 网站标签：Reddit增强工具、浏览器插件、体验优化、内容管理
@@ -388,14 +388,14 @@ Reddit Enhancement Suite，简称 RES，是一款面向 Reddit 用户打造的�
 RES 支持调整 Reddit 的主题、页面布局和视觉样式，用户可以根据自己的偏好优化使用体验。
 4. **便捷切换多个账号**
 对于拥有多个 Reddit 账号的用户来说，多账户切换功能能够减少重复登录的麻烦，在不同身份之间快速完成转换。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bb08bbf563866aa39442032b4f8c1973.png>
+![](img/zhuanqian_bb08bbf563866aa39442032b4f8c1973.png)
 ### 04 SnapAny
 工具名称：SnapAny
 标签：Reddit视频下载、图片保存、内容提取、在线工具
 #### 工具简介
 SnapAny 是一款用于保存社交平台内容的在线工具，支持从 Reddit 等网站下载视频和图片。整个操作流程较为简单，处理速度快，并且兼容多种内容格式。无论是想把有趣的素材留存到本地，还是用于离线查看与后续分享，SnapAny 都能提供较为方便的支持。
 对于经常在 Reddit 上收藏精彩视频、图片的用户而言，这类工具可以有效降低内容保存的门槛，使用起来更加省时省力。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_089337fe20848a06f98b6292779052ff.png>
+![](img/zhuanqian_089337fe20848a06f98b6292779052ff.png)
 ## 写在最后
 如果你还知道其他值得整理的实用工具，欢迎在评论区留言交流。后续我也会继续搜集并筛选，把好用的工具整理成更完整的工具箱。
 如果这篇内容对你有所帮助，别忘了点赞支持一下！

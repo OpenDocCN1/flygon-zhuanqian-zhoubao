@@ -1,20 +1,20 @@
 # 半年出海做 AI 视频站，踩坑后的一点复盘与分享
 ## 260228 副业 SC 精华
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_361c598705669c72abbbe95cfd021d6c_0_0.png>
+![](img/zhuanqian_361c598705669c72abbbe95cfd021d6c_0_0.png)
 大家好，我是 A 梦。
 今年 1 月 17 号，我在杭州的龙哥盟线下活动上讲了《AI 视频套壳站》的实操思路。紧接着在 1 月到 2 月这段时间，带了一期 Mini 航海《AI 视频 SaaS 网站》。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_361c598705669c72abbbe95cfd021d6c_0_1.png>
+![](img/zhuanqian_361c598705669c72abbbe95cfd021d6c_0_1.png)
 航海在年前面试结束，趁着有空，我把线下分享的干货整理出来，也方便航海里的小伙伴回头看。
 这份梳理涵盖了概念认知、搭建路径、获客打法、转化提效和风险规避。顺带一提，过年那阵子大家都在刷 Seedance 2.0 的效果，不少人正好靠这个话题词拿到流量和收入。
 ## 01、从设计师到 AI 出海者
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_361c598705669c72abbbe95cfd021d6c_1_0.png>
+![](img/zhuanqian_361c598705669c72abbbe95cfd021d6c_1_0.png)
 我之前是阿里交互设计师，2025 年开始自学 AI 编程，十月份才正式切到视频套壳站赛道。转型的直接原因很简单：早期做的那些小工具虽然好玩，但离赚钱太远，必须先拿到正反馈。
 作为一个零基础转行的玩家，我过去十年的互联网产品全流程经验，包括设计、产品、运营和技术协同，帮助我更快看懂套壳站的商业本质。现在人在 SCAI 办公，公众号“A 梦进化论”每天更新国外的独立开发者出海案例。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_361c598705669c72abbbe95cfd021d6c_1_1.png>
+![](img/zhuanqian_361c598705669c72abbbe95cfd021d6c_1_1.png)
 ## 02、AI 视频套壳站到底是什么
 **AI 视频**：基于文本或图像生成视频的技术，典型的就是 Sora 2、Veo 3 这类模型。
 **套壳站**：在开源或闭源的模型 API 之上搭一层前端网站，给用户更顺手的交互体验。说白了就是“界面 + 功能 + API 调用”的组合体。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_361c598705669c72abbbe95cfd021d6c_2_0.png>
+![](img/zhuanqian_361c598705669c72abbbe95cfd021d6c_2_0.png)
 大家都知道 AI 视频可以直接去官方站用，比如即梦之类。那套壳站的价值在哪？从用户侧和商业侧两个维度看会更清楚。
 ### 用户能得到什么
 套壳站填补的是模型可用和普通人会用之间的差距，主要体现在：
@@ -27,10 +27,10 @@
 ## 03、怎么赚钱：订阅制 + LTV 导向
 ### 主流模式是订阅收费
 用户按月付费换取积分额度，积分用于消耗 API 成本。底层持续烧 API，订阅制是最匹配的现金流模式。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_361c598705669c72abbbe95cfd021d6c_3_0.png>
+![](img/zhuanqian_361c598705669c72abbbe95cfd021d6c_3_0.png)
 ### 关键看 LTV
 订阅制的核心是复利收入，而不是一次买卖。比如某用户在短时间内多次续费，产生的 LTV 远高于单笔订单。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_361c598705669c72abbbe95cfd021d6c_3_1.png>
+![](img/zhuanqian_361c598705669c72abbbe95cfd021d6c_3_1.png)
 ### 竞争点不一样
 - 老派产品拼单笔客单价
 - 订阅产品拼 LTV = 留存 × 复购 × 客单价
@@ -45,14 +45,14 @@
 - 极度依赖 SEO
 - 适合收割短期红利
 - 风险高，合规与信任成本大
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_image_placeholder.png>
+![](img/zhuanqian_image_placeholder.png)
 ### 2) 品牌站
 代表：Pollo AI pollo.ai
 赚钱圈友阿彪的项目，拿到真格基金 1400 万美金融资。策略是多模型聚合，覆盖 Google、Sora、Runway 等主流。
 用户价值是统一入口，不用为新模型换平台。
 **优势**：自有品牌、无商标风险、持续迭代、全模型覆盖、私域运营、品牌复利、抗风险强。
 **难点**：冷启动难、多模型维护成本高、需要强运营团队。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_image_placeholder.png>
+![](img/zhuanqian_image_placeholder.png)
 ### 3) 功能站，垂直场景深耕
 代表：StoryShort AI storyshort.ai
 创始人是法国验光师出身的独立开发者，自学编程多年。
@@ -64,17 +64,17 @@
 - 估值 120 万美金，收到多轮收购报价
 **优势**：场景精准转化高、差异化强、溢价空间大、直击痛点。
 **门槛**：需要工作流开发或产品化能力。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_image_placeholder.png>
+![](img/zhuanqian_image_placeholder.png)
 ## 05、搭建门槛：从模板开始
 知道类型后，新手怎么起步？最省事的方式是基于现成模板改。
 下面是一套成熟模板通常集成的服务，能省去大量重复开发。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_image_placeholder.png>
+![](img/zhuanqian_image_placeholder.png)
 AI 编程工具让技术门槛历史新低，模板就像样板间，配置一下就能用。
 **成本参考**：我自己在用的商业模板是 Mksaas https://mksaas.com/zh，购买可用折扣码 AMENG 减 20 刀。
 Mini 航海期间我也整理了一套视频站模板免费给圈友，手册里能领。技术细节不展开，感兴趣看航海手册 https://scys.com/activity/landing/9522?tabIndex=0 即可。
 ## 06、API 供给怎么选
 视频生成依赖模型 API，供应渠道现在不少：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_361c598705669c72abbbe95cfd021d6c_8_0.png>
+![](img/zhuanqian_361c598705669c72abbbe95cfd021d6c_8_0.png)
 **官方 API**：OpenAI、Google，价格透明、稳定。
 **海外聚合商**：Fal、Replicate，统一 Key 管理多模型，价格接近官方。
 **国内第三方聚合**：成本更低，适合预算有限：
@@ -85,9 +85,9 @@ Mini 航海期间我也整理了一套视频站模板免费给圈友，手册里
 **建议**：起步用第三方聚合降本，规模化后切官方保稳定。
 ## 07、竞争焦点：流量 + 体验
 技术门槛低，竞争必然加剧。我的判断是：门槛下降时，流量获取和产品体验是最后的护城河。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_361c598705669c72abbbe95cfd021d6c_10_0.png>
+![](img/zhuanqian_361c598705669c72abbbe95cfd021d6c_10_0.png)
 学做视频站，配置模板很快，后面是体力活。核心是能不能拿到流量，并把流量变现。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_361c598705669c72abbbe95cfd021d6c_10_1.png>
+![](img/zhuanqian_361c598705669c72abbbe95cfd021d6c_10_1.png)
 ### 流量层面
 - SEO 成本上升，排名周期变长
 - 广告 CPC 上涨，获客变贵
@@ -98,7 +98,7 @@ Mini 航海期间我也整理了一套视频站模板免费给圈友，手册里
 **关键指标**：PV、LTV、ROI
 同 1 万访客，最终比的是 LTV。预算有限时，提升转化率比买流量更划算。
 ## 08、获客打法：SEO 长线 vs 广告快线
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_361c598705669c72abbbe95cfd021d6c_11_0.png>
+![](img/zhuanqian_361c598705669c72abbbe95cfd021d6c_11_0.png)
 ### 8.1 SEO：复利资产
 **基础 SEO**：关键词布局、Meta 优化、结构化数据、加载速度
 **外链建设**：免费外链慢且不稳，付费外链稳但贵，目标是提升域名权重
@@ -117,29 +117,29 @@ Mini 航海期间我也整理了一套视频站模板免费给圈友，手册里
 ### 9.1 看转化漏斗
 最左边是 SEO 和广告带来的流量入口，进入站内后产品链路决定最终付费。
 目标是把每个环节的流失补回来。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_361c598705669c72abbbe95cfd021d6c_13_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_361c598705669c72abbbe95cfd021d6c_14_0.png>
+![](img/zhuanqian_361c598705669c72abbbe95cfd021d6c_13_0.png)
+![](img/zhuanqian_361c598705669c72abbbe95cfd021d6c_14_0.png)
 ### 9.2 三个优化方向
 #### 新手引导
 - 放高质量示例模板，一键复用
 - 按钮即时反馈，登录/余额/内容为空时立刻提示
 - 视频生成需几分钟，用浏览器通知召回用户
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_361c598705669c72abbbe95cfd021d6c_14_1.png>
+![](img/zhuanqian_361c598705669c72abbbe95cfd021d6c_14_1.png)
 #### 付费转化
 - 节日倒计时折扣
 - 新人首单优惠
 - 清晰套餐对比
 - 付费墙弹出时机优化
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_361c598705669c72abbbe95cfd021d6c_15_0.png>
+![](img/zhuanqian_361c598705669c72abbbe95cfd021d6c_15_0.png)
 #### 留存激活
 邮件是被低估的激活渠道：
 - 未付款订单催付
 - 余额/积分提醒
 - 功能更新推送
 - 流失用户召回
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_361c598705669c72abbbe95cfd021d6c_15_1.png>
+![](img/zhuanqian_361c598705669c72abbbe95cfd021d6c_15_1.png)
 核心是每一步转化率提升，最终拉大 LTV。用用户旅程图去感知每个动作是惊喜还是吐槽，再用数据迭代。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_image_placeholder.png>
+![](img/zhuanqian_image_placeholder.png)
 ## 10、风险与应对
 新手常从蹭词站入手，因为起量快，但风险也真实存在。
 ### 10.1 最大的雷：商标版权
@@ -150,11 +150,11 @@ Mini 航海期间我也整理了一套视频站模板免费给圈友，手册里
 - 提前注册品牌域名，301 跳转迁移流量
 - 收到通知及时响应，别硬刚
 我一个站收到的律师函，服务器商只是转发邮件提醒，给了整改时间回复后也就没继续。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_361c598705669c72abbbe95cfd021d6c_17_0.png>
+![](img/zhuanqian_361c598705669c72abbbe95cfd021d6c_17_0.png)
 **域名被收时的断尾**：可以提前用新域名做 301，把老流量导过去。
 **案例**：Veo3 套壳站的迁移
 新模型发布初期，中国开发者注册速度快于官方维权，窗口期通常几周到几个月。也有运气好的域名躲过法务团队长期存活，但要心里有数。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_image_placeholder.png>
+![](img/zhuanqian_image_placeholder.png)
 ### 10.2 其他风险
 **API 稳定性**：选靠谱供应商，准备备用方案，监控可用性。Sora 2 逆向 API 近期被 OpenAI 封号，成本集体上涨。
 **支付审核**：Creem 等平台不允许域名带模型商标，需提前备合规域名。
@@ -270,7 +270,7 @@ Mini 航海期间我也整理了一套视频站模板免费给圈友，手册里
 希望这份分享能够给你一些参考。如果你也在做相关项目，欢迎在评论区交流。
 如果你对 AI 视频 SaaS 站的航海项目感兴趣，也可以持续关注，后续预计还会有更多内容。☺
 最后，推荐一下小懒的付费社群：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_361c598705669c72abbbe95cfd021d6c_25_0.png>
+![](img/zhuanqian_361c598705669c72abbbe95cfd021d6c_25_0.png)
 📖 这里是你对抗信息过载的护城河。
 已稳定运行 7 年，累计拆解、研读 3000+ 个互联网商业实战案例与行业前沿内参和时政/宏观文章。
 ## 我们不搬运垃圾，只做高价值信息的筛选器与放大镜。

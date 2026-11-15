@@ -4,10 +4,10 @@ Figma 上周正式上线了基于 Dev Mode 的官方 MCP 原生接入。告别�
 ### 一、Figma 端先把服务打开
 第一步，本地 Figma 客户端一定要升到 125.4.9 或更新的版本。
 升级完成后进入设置页 Preferences，打开 Dev Mode MCP Server 的开关即可。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c0e3a2b468d46de586c6a4f238206d1d.png>
+![](img/zhuanqian_c0e3a2b468d46de586c6a4f238206d1d.png)
 ### 二、在 Cursor 里完成 MCP 配置
 打开 Cursor，进入设置页面，点击 New MCP Server 新建一个服务器配置。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_55aff60dca3fedc21a735afd568096d8.png>
+![](img/zhuanqian_55aff60dca3fedc21a735afd568096d8.png)
 把下面的 Figma MCP 配置整段复制，粘贴进 mcp.json 并保存。
 ```
 "Figma Dev Mode MCP": {
@@ -15,17 +15,17 @@ Figma 上周正式上线了基于 Dev Mode 的官方 MCP 原生接入。告别�
 "url": "http://127.0.0.1:3845/sse"
 },
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_56dff0bd67f37eabd0fdd1de68c2b80f.png>
+![](img/zhuanqian_56dff0bd67f37eabd0fdd1de68c2b80f.png)
 保存后回到 Cursor 的设置页，用三点来判断是否成功激活：
 1. Figma Dev Mode MCP 的开关是打开状态
 2. 状态灯是否已经变成绿色
 3. Tools 区域是否已经加载出具体的工具数量
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_449a57b45a904c909a4baeb1868159ea.png>
+![](img/zhuanqian_449a57b45a904c909a4baeb1868159ea.png)
 ### 三、开始用 MCP 让 AI读懂你的设计稿
 配置生效后，切回 Figma 客户端，右键选中你想要落地的设计稿，复制其链接。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_dc04535c7393e9a59361c0c00033c1af.png>
+![](img/zhuanqian_dc04535c7393e9a59361c0c00033c1af.png)
 把链接直接丢进 Cursor 的对话窗口，AI 就能准确解析这份设计稿的内容。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_371f2336ae40e92dac46dfd6be87ff8f.png>
+![](img/zhuanqian_371f2336ae40e92dac46dfd6be87ff8f.png)
 目前官方 Dev MCP 已经开放了 4 项核心能力，可以配合使用：
 | MCP 能力 | 它能做什么 | 典型用法 |
 | get_code | 将当前选区一键转成可直接运行的前端代码，支持在设置里切换 React + Tailwind 或纯 HTML/CSS 输出 | 新建页面骨架时，选好画板调用 get_code，让模型在此基础上补充交互逻辑，省去手工还原像素的工作 |

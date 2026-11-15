@@ -72,18 +72,18 @@
 ## 第一步：获取源视频并拆分画面
 首先下载 YouTube 源视频，然后将其中的 3 个关键画面分别截取出来。
 截图后按照视频出现的顺序编号，方便后续逐一生成。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4d45878cf68128bf5652ae66f465ace6.png>
+![](img/zhuanqian_4d45878cf68128bf5652ae66f465ace6.png)
 ## 第二步：用图片生成视频片段
 将 3 张截图分别上传到海螺 AI，生成对应的视频片段。
 目前国内用户可以免费使用海螺 AI，但如果直接通过文字提示生成视频，往往需要排队，而且等待时间越来越长，有时需要几个小时。
 因此，我采用了更高效的方式：
 **先准备图片，再直接进行图生视频。**
 这样基本不需要排队，单个片段大约 3 分钟左右就可以生成。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3d3d13ce399d0ff26e1af05ccf8958bf.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_96828b22d26e98253954976dc5d830df.png>
+![](img/zhuanqian_3d3d13ce399d0ff26e1af05ccf8958bf.png)
+![](img/zhuanqian_96828b22d26e98253954976dc5d830df.png)
 这次体验下来，海螺 AI 的画面还原能力确实很强，生成结果和原始视频非常接近。
 官方教程也可以参考这里：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7dabf305d8e66dde346c981e885e90db.png>
+![](img/zhuanqian_7dabf305d8e66dde346c981e885e90db.png)
 ## 第三步：拼接生成的视频
 将 3 段 AI 视频导入剪映，按照原视频的顺序拼接。
 左侧是原始视频，右侧是 AI 生成版本。整体来看，动作、场景和节奏都有一定相似度。
@@ -96,14 +96,14 @@
 - 部分画面处理后会影响观感。
 所以，后续还需要继续寻找效果更稳定的工具。
 最后可以对比一下去水印后的版本和原视频：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a8f48050f43b14e71dd21dc2f66e8a6b.png>
+![](img/zhuanqian_a8f48050f43b14e71dd21dc2f66e8a6b.png)
 # 四、不要只复刻，还要做一点变化
 这篇帖子发布后，龙哥大大提出了一个很有启发的问题：
 > 在复刻的基础上，能不能做一些微创新？比如把鱿鱼换成其他海洋生物？
 这个思路其实非常实用。
 复刻原有画面结构，保留人物、环境和动作，再替换画面中的主体，就可以形成一条新的内容。
 于是我让 Kimi 列出了世界上比较少见的巨型海洋生物，一共得到 10 个方向。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_79f2c47da6f6af3bcd1b4c154cb7bf2c.png>
+![](img/zhuanqian_79f2c47da6f6af3bcd1b4c154cb7bf2c.png)
 最后，我选择用皇带鱼替代原视频中的章鱼。
 提示词大致是：
 > 将图片中的章鱼替换为皇带鱼，其他背景、人物和环境保持不变。
@@ -117,9 +117,9 @@
 **精细度并不是越高越好。**
 当精细度设置过高时，画面反而可能出现更强的 AI 痕迹。
 目前普通用户每天登录即可获得 66 个免费积分，生成一张图片通常消耗 2 个积分。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6165b0182918be49ab68c05ca8d4b0db.png>
+![](img/zhuanqian_6165b0182918be49ab68c05ca8d4b0db.png)
 即梦同样支持视频生成，一次大约消耗 3 个积分。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ab91ebb6f294c6364682dacf789a1ebe.png>
+![](img/zhuanqian_ab91ebb6f294c6364682dacf789a1ebe.png)
 ## 对比即梦和海螺的视频生成效果
 我使用了同一张图片和相似提示词，分别测试了即梦和海螺。
 结果有些出乎意料：
@@ -128,7 +128,7 @@
 例如在海螺中，我使用同样的图片和提示词生成视频时，画面在第 2 秒突然切换了水下场景。
 我猜测问题可能出在提示词上。之前只上传图片时，生成结果还比较正常；加入文字描述后，画面反而发生了明显变化。
 后来我又改回只上传图片，却遇到了“视频内容不符合社区规范”的提示，最终生成失败。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_885238c0b940c5a8340c788b41111fbf.png>
+![](img/zhuanqian_885238c0b940c5a8340c788b41111fbf.png)
 这件事让我想到清华人工智能学院沈阳教授的一句话：
 > 当你能够驾驭 AI，AI 生成的内容体现的是你的想象力和确定性；当你无法驾驭 AI，AI 展现出来的就会是它自己的想象力和不确定性。
 AI 工具本身并不是万能的。

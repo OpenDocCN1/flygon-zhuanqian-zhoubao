@@ -2,19 +2,19 @@
 今天咱们聊个挺有意思的事：AI图片站到底是怎么做出来的？很多人以为这背后技术门槛高，其实说白了，大部分AI绘画网站都是“套壳”——核心是把别人训练好的AI模型接口拿来用，再套个网页方便用户输入提示词。这篇文章就从零带你撸一个AI图片网站，哪怕你编程基础不深，照着一步步来也能跑通。
 先认识一个利器：Replicate。它相当于一个“AI模型超市”，市面上很多开源模型（比如画图、写文本、生成视频和音乐）都已经被人部署好了，普通用户直接在网页上就能试玩，有些项目连登录都不用，免费就能体验。更棒的是，这些模型全都开放了API接口，你可以把它们接到自己的应用里。官方地址：https://replicate.com/
 ## 开工前要准备什么
-**第一，GitHub账号。** Replicate的登录是走GitHub授权的，所以你肯定得先有一个GitHub账号。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_488cdb243b033fe91d3e1e8bbdc98069.png> 有了账号后，输入用户名密码登录，或者提前登录好GitHub再授权Replicate也能进。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fb915e1308de7277ef21888c48a209db.png>
-**第二，绑定支付方式。** 点右上角头像，进入“Account settings”，然后在“Billing”菜单里找到“Manage billing”。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e65711705e0fec11d48d79cdaf034872.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2c9c860968bb7a686e769d7bf56062e0.png> 添加信用卡时，卡号栏会提示支持的卡种。我用的是国内银行的Visa卡，可以正常添加。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a12e5b3ccfa4337e3f42c00c490ee92b.png> 为什么一开始就要绑卡？因为Replicate上的模型调用都是要花钱的，没绑定支付方式，接口就会调用失败。怕花超的话，可以在账单设置页面设定调用限额，以后按需调整就行。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9bd3450a785a7dd208cc249adf272863.png>
-**第三，安装Node.js。** 下载地址：https://nodejs.org/zh-cn/download 下载完就是一路“下一步”的傻瓜安装，不会的话随手问问AI也能搞定。装好后，在命令行敲 `node -v`，能看到版本号就说明安装成功了。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e9013316d69ef018c5d6504a7950be71.png>
+**第一，GitHub账号。** Replicate的登录是走GitHub授权的，所以你肯定得先有一个GitHub账号。![](img/zhuanqian_488cdb243b033fe91d3e1e8bbdc98069.png) 有了账号后，输入用户名密码登录，或者提前登录好GitHub再授权Replicate也能进。![](img/zhuanqian_fb915e1308de7277ef21888c48a209db.png)
+**第二，绑定支付方式。** 点右上角头像，进入“Account settings”，然后在“Billing”菜单里找到“Manage billing”。![](img/zhuanqian_e65711705e0fec11d48d79cdaf034872.png)![](img/zhuanqian_2c9c860968bb7a686e769d7bf56062e0.png) 添加信用卡时，卡号栏会提示支持的卡种。我用的是国内银行的Visa卡，可以正常添加。![](img/zhuanqian_a12e5b3ccfa4337e3f42c00c490ee92b.png) 为什么一开始就要绑卡？因为Replicate上的模型调用都是要花钱的，没绑定支付方式，接口就会调用失败。怕花超的话，可以在账单设置页面设定调用限额，以后按需调整就行。![](img/zhuanqian_9bd3450a785a7dd208cc249adf272863.png)
+**第三，安装Node.js。** 下载地址：https://nodejs.org/zh-cn/download 下载完就是一路“下一步”的傻瓜安装，不会的话随手问问AI也能搞定。装好后，在命令行敲 `node -v`，能看到版本号就说明安装成功了。![](img/zhuanqian_e9013316d69ef018c5d6504a7950be71.png)
 ## 先快速见效：纯后端调用API
 咱们先不着急做网站，先在本地感受一下怎么通过API生成一张AI图片。
 **第一步，一行命令初始化项目。** 有个npm包叫 `create-replicate`，执行它后会自动帮你创建一个项目目录，并写入初始代码。```
 npx create-replicate
-``` 你先建好一个文件夹，进入该文件夹并打开命令行，执行这条命令。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1128c3e792db0f27f5abd568974a9a52.png> 命令跑起来后，它会要求你粘贴Replicate API token。你直接敲回车，它会自动打开浏览器，带你去获取token的界面。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f8c8b019e28b64366d1f50506c41ca22.png> 在页面上随意给token取个名字，点“Create token”。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_54c7a561131806715cd03f8f9ac86d92.png> 然后把新生成的token复制回到命令行粘贴上。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e34a20db247c41683d6670c15424301a.png> 看到“初始化完成”提示后，你的目录下就多了一些项目文件。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_41d008c94a7ab8d8e68b906605069b1f.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5388c2a685082f79cd8397b46f88bb13.png>
-**第二步，用编辑器打开项目。** 用VSCode或Cursor都行，直接把整个项目文件夹拖进Cursor里。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_839ccbf2ef248511f8d3aaa86c04653e.png>
-**代码原理其实不难。** 刚才你填的那个token，就是后面调用API时用的凭证，代码里通常不会写死，而是放在 `.env` 环境变量文件中。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_09f34e5282ea9c887d18c59b7c657c00.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_32a0fa686b26189ab4d9ae798aef2b72.png> 接着你要指定想调用哪个图像模型，比如Replicate上的Stable Diffusion XL（SDXL），官方调用示例里会写明具体的模型名称。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9d93d48c95ac4bd91f6181a755ef5624.png> 调用时需要传参，最重要的就是 `prompt`，也就是你想生成的图像提示词。其他参数不用管，保持和官方示例一致就行。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fbc6c55ca2cf6772169b35df4bdd0a0e.png> Replicate上模型很多，每个模型都有官方示例，照着改即可。
-**第三步，把生成的图片下载到本地。** 默认的初始化代码只会把生成图片的URL打印到控制台，看不方便。所以我们借Cursor改一下代码，让程序把图片下载到当前目录下的images文件夹里。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_31bc20cc65cd165daab412c490524ff2.png> 改完按Cursor的提示安装必要依赖。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_81ee73d5cb92a3778cc82202154ad632.png> 然后在控制台运行项目。```
+``` 你先建好一个文件夹，进入该文件夹并打开命令行，执行这条命令。![](img/zhuanqian_1128c3e792db0f27f5abd568974a9a52.png) 命令跑起来后，它会要求你粘贴Replicate API token。你直接敲回车，它会自动打开浏览器，带你去获取token的界面。![](img/zhuanqian_f8c8b019e28b64366d1f50506c41ca22.png) 在页面上随意给token取个名字，点“Create token”。![](img/zhuanqian_54c7a561131806715cd03f8f9ac86d92.png) 然后把新生成的token复制回到命令行粘贴上。![](img/zhuanqian_e34a20db247c41683d6670c15424301a.png) 看到“初始化完成”提示后，你的目录下就多了一些项目文件。![](img/zhuanqian_41d008c94a7ab8d8e68b906605069b1f.png)![](img/zhuanqian_5388c2a685082f79cd8397b46f88bb13.png)
+**第二步，用编辑器打开项目。** 用VSCode或Cursor都行，直接把整个项目文件夹拖进Cursor里。![](img/zhuanqian_839ccbf2ef248511f8d3aaa86c04653e.png)
+**代码原理其实不难。** 刚才你填的那个token，就是后面调用API时用的凭证，代码里通常不会写死，而是放在 `.env` 环境变量文件中。![](img/zhuanqian_09f34e5282ea9c887d18c59b7c657c00.png)![](img/zhuanqian_32a0fa686b26189ab4d9ae798aef2b72.png) 接着你要指定想调用哪个图像模型，比如Replicate上的Stable Diffusion XL（SDXL），官方调用示例里会写明具体的模型名称。![](img/zhuanqian_9d93d48c95ac4bd91f6181a755ef5624.png) 调用时需要传参，最重要的就是 `prompt`，也就是你想生成的图像提示词。其他参数不用管，保持和官方示例一致就行。![](img/zhuanqian_fbc6c55ca2cf6772169b35df4bdd0a0e.png) Replicate上模型很多，每个模型都有官方示例，照着改即可。
+**第三步，把生成的图片下载到本地。** 默认的初始化代码只会把生成图片的URL打印到控制台，看不方便。所以我们借Cursor改一下代码，让程序把图片下载到当前目录下的images文件夹里。![](img/zhuanqian_31bc20cc65cd165daab412c490524ff2.png) 改完按Cursor的提示安装必要依赖。![](img/zhuanqian_81ee73d5cb92a3778cc82202154ad632.png) 然后在控制台运行项目。```
 node index.js
-``` 跑完后，到根目录的images文件夹里就能看到AI生成的作品了。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c1be59eba5a8d3f102454c67bc8dc30d.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_108bfad7d09bcb19b095144e3b626b39.png>
+``` 跑完后，到根目录的images文件夹里就能看到AI生成的作品了。![](img/zhuanqian_c1be59eba5a8d3f102454c67bc8dc30d.png)![](img/zhuanqian_108bfad7d09bcb19b095144e3b626b39.png)
 **小结一下：** 这是纯服务端代码调用Replicate图像模型API，直接在你电脑本地生成图片的方式。现在许多文生图网站本质就是这套逻辑，只不过外面套了一层网页：用户在前端输入提示词，后端把提示词传给模型API，生成完再返回页面展示给用户。
 ## 用Next.js搭建一个最简单的文生图网站
 接下来咱们动真格：搭一个可访问的网站，部署到Vercel上，用户输入提示词就能生成图片。
@@ -27,15 +27,15 @@ node index.js
 ### 搭建过程
 **1. 创建项目并初始化。** 在本地新建一个文件夹，名字随意，比如 `demo-web`。在该目录下打开命令行，或者用 `cd` 命令进入这个目录，执行初始化项目的命令。```
 npx create-next-app@latest --js --eslint
-```<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_45e3907d9b9d2dae410cb09c97e3ecf4.png> 过程中会问你项目名称等选项，嫌麻烦直接一路回车用默认值就行。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_de17027b3c4a344aa5c28157e4720d77.png> 初始化完成后，`demo-web` 文件夹里会多出一个 `my-app` 项目。把 `my-app` 文件夹拖进Cursor打开。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_11fa854b70652fbfc0cee2a737f6ecce.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_02285a7b13cff81ffb60ec6d21074cfb.png>
+```![](img/zhuanqian_45e3907d9b9d2dae410cb09c97e3ecf4.png) 过程中会问你项目名称等选项，嫌麻烦直接一路回车用默认值就行。![](img/zhuanqian_de17027b3c4a344aa5c28157e4720d77.png) 初始化完成后，`demo-web` 文件夹里会多出一个 `my-app` 项目。把 `my-app` 文件夹拖进Cursor打开。![](img/zhuanqian_11fa854b70652fbfc0cee2a737f6ecce.png)![](img/zhuanqian_02285a7b13cff81ffb60ec6d21074cfb.png)
 **2. 本地试运行。** 启动一下项目，确认初始页面能正常打开。```
 cd my-app
 npm run dev
-```<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9055a1c289b2c15f31f0ab287899f5e8.png> 启动成功后，访问控制台给的地址 http://localhost:3000 如果看到Next.js的欢迎页，就说明项目没问题。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_09faf8fd33fe6eafd942d4c1b2981452.png>
+```![](img/zhuanqian_9055a1c289b2c15f31f0ab287899f5e8.png) 启动成功后，访问控制台给的地址 http://localhost:3000 如果看到Next.js的欢迎页，就说明项目没问题。![](img/zhuanqian_09faf8fd33fe6eafd942d4c1b2981452.png)
 **3. 配置环境变量。** 因为要调用Replicate的图像模型，必须把API Token放到环境变量文件里，项目启动后就能自动读取。在项目根目录中执行命令创建 `.env.local` 文件，Next.js会自动加载它。```
 touch .env.local
-``` 另外，不同后缀的环境变量文件对应不同环境，比如 `.env.production`、`.env.development`。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fe408fe3bbba0ee4c988d243b3ebca51.png> 创建完文件后，把你的Replicate API Token填进去。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_def5fb4d27044380e7b4e54fa8e14d4b.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e46e2b6f02db6fc63be5378ae0496cc5.png>
-**4. 编写后端代码。** 在 `src/app` 目录下新建 `api/predictions` 目录，用于存放业务代码。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_32e1df5a9c56064e7e7c34381ab10182.png> 然后新建 `route.js` 文件，实现的功能是：接收POST请求，提取用户输入的提示词，调用Replicate API生成图片，并返回生成结果。```
+``` 另外，不同后缀的环境变量文件对应不同环境，比如 `.env.production`、`.env.development`。![](img/zhuanqian_fe408fe3bbba0ee4c988d243b3ebca51.png) 创建完文件后，把你的Replicate API Token填进去。![](img/zhuanqian_def5fb4d27044380e7b4e54fa8e14d4b.png)![](img/zhuanqian_e46e2b6f02db6fc63be5378ae0496cc5.png)
+**4. 编写后端代码。** 在 `src/app` 目录下新建 `api/predictions` 目录，用于存放业务代码。![](img/zhuanqian_32e1df5a9c56064e7e7c34381ab10182.png) 然后新建 `route.js` 文件，实现的功能是：接收POST请求，提取用户输入的提示词，调用Replicate API生成图片，并返回生成结果。```
 import { NextResponse } from "next/server";
 import Replicate from "replicate";
 const replicate = new Replicate({
@@ -69,8 +69,8 @@ return NextResponse.json({ detail: prediction.error }, { status: 500 });
 return NextResponse.json(prediction, { status: 201 });
 }
 ```
-**5. Webhook回调说明。** 官方案例里有个 `WEBHOOK_HOST`，它的作用是让Replicate在模型运行过程中，通过Webhook把状态更新（开始、完成、错误）发送到你的应用。代码里是个三元表达式：生产环境用Vercel自动提供的 `VERCEL_URL`，开发环境则用 `NGROK_HOST`，也就是需要你用ngrok把本地服务器暴露到公网。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d254cc8547c088a2dac0daca4c737be4.png> 如果你只是为了跑通MVP，可以先不管这个变量，因为部署到Vercel后，它会自动帮你设置。但如果不配置，可能会遇到这些问题：收不到模型运行状态、生成请求可能失败、调试困难、依赖Webhook的功能无法正常工作。
-**6. 动态路由获取生成结果。** 还需要新建一个 `[id]` 目录，并在里面新建 `route.js`。这里 `[id]` 是Next.js的动态路由规则。这个文件实现的功能是：通过Replicate API查询指定模型的生成结果。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b30ecf7a1f6216b4248791bdbee21c45.png>
+**5. Webhook回调说明。** 官方案例里有个 `WEBHOOK_HOST`，它的作用是让Replicate在模型运行过程中，通过Webhook把状态更新（开始、完成、错误）发送到你的应用。代码里是个三元表达式：生产环境用Vercel自动提供的 `VERCEL_URL`，开发环境则用 `NGROK_HOST`，也就是需要你用ngrok把本地服务器暴露到公网。![](img/zhuanqian_d254cc8547c088a2dac0daca4c737be4.png) 如果你只是为了跑通MVP，可以先不管这个变量，因为部署到Vercel后，它会自动帮你设置。但如果不配置，可能会遇到这些问题：收不到模型运行状态、生成请求可能失败、调试困难、依赖Webhook的功能无法正常工作。
+**6. 动态路由获取生成结果。** 还需要新建一个 `[id]` 目录，并在里面新建 `route.js`。这里 `[id]` 是Next.js的动态路由规则。这个文件实现的功能是：通过Replicate API查询指定模型的生成结果。![](img/zhuanqian_b30ecf7a1f6216b4248791bdbee21c45.png)
 到这里，一个文生图网站的骨架就算搭完了。把代码推到GitHub，再导入Vercel部署，就能获得一个公网可访问的AI图片生成站。所谓“套壳网站”，说白了就是“API调用 + 前端交互”。Replicate把繁琐的模型部署和算力问题全解决了，你只要专注做好页面和逻辑就行。是不是比想象中简单得多？那就动手试试看吧。
 打造AI绘画套壳站：从0到1部署全流程，看这一篇就够了
 最近不少朋友在折腾AI绘图类应用，但一直卡在“代码写好了却不知道如何上线”。别着急，今天我把一条完整可落地的全流程分享出来——从后端API搭建，到前端页面渲染，再到部署上云，手把手带你走通。整个过程基于Replicate平台的图像生成模型来跑通，顺便还会介绍一个开发调试的好帮手Ngrok，建议先收藏再细读。
@@ -97,7 +97,7 @@ return NextResponse.json({ detail: prediction.error }, { status: 500 });
 return NextResponse.json(prediction);
 }
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_320538772dee5bcf1eec73757fd7631f.png>
+![](img/zhuanqian_320538772dee5bcf1eec73757fd7631f.png)
 ```
 'use client';
 import { useState } from "react";
@@ -154,7 +154,7 @@ status: {prediction.status}
 );
 }
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d43c4d3061285270963f7c5a94b05289.png>
+![](img/zhuanqian_d43c4d3061285270963f7c5a94b05289.png)
 ```
 @tailwind base;
 @tailwind components;
@@ -209,7 +209,7 @@ hostname: "replicate.delivery",
 };
 export default nextConfig;
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c18bcdd8bae6d622131ed071b617f5e9.png>
+![](img/zhuanqian_c18bcdd8bae6d622131ed071b617f5e9.png)
 ```
 // next.config.js
 const nextConfig = {
@@ -228,17 +228,17 @@ hostname: "replicate.delivery", // 允许的域名2
 },
 };
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_871e34aebdd49874aeb94dabd76ffc56.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ede6bd6824a33e9d1020137f8737725c.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1748a35132ed8477f100eb06ce99ba98.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ff52d88a91bfbaa48b297bd1d6c4a2e3.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b08b38d32232475971414584e25a06e5.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8c835584d7f336583e4db00538ccc671.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4120d176dfeb44d4df3aa679ea4f9a4f.png>
+![](img/zhuanqian_871e34aebdd49874aeb94dabd76ffc56.png)
+![](img/zhuanqian_ede6bd6824a33e9d1020137f8737725c.png)
+![](img/zhuanqian_1748a35132ed8477f100eb06ce99ba98.png)
+![](img/zhuanqian_ff52d88a91bfbaa48b297bd1d6c4a2e3.png)
+![](img/zhuanqian_b08b38d32232475971414584e25a06e5.png)
+![](img/zhuanqian_8c835584d7f336583e4db00538ccc671.png)
+![](img/zhuanqian_4120d176dfeb44d4df3aa679ea4f9a4f.png)
 ```
 git remote add origin 你的GitHub仓库地址.git
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1a0d74726d77aebba6dc181b4d559254.png>
+![](img/zhuanqian_1a0d74726d77aebba6dc181b4d559254.png)
 ```
 # 添加所有文件到暂存区（或指定文件）
 git add .
@@ -247,32 +247,32 @@ git commit -m "Initial commit"
 # 推送到 GitHub（首次推送需设置上游分支）
 git push -u origin main
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fa1b70aff3d7a0efd1924144ca93318c.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5191cc98bdf8ba568037496f8df85971.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_74ea767dfcee9a018171b78b4c3803a6.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_86258c1b4690013cfb89ca44d79325be.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5378f558e6c747fffc27e1e6ae09dfdb.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_11d0f14cec6ab85ffd9fca95c6e089d2.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4450939765dcac3b020dd226a82bd0de.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_51aec9fe406ccb97ff490660a8eb3124.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_daff48a34c137f999684ce6c304eb4db.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c5502f43bc55f38d234b90c12b68b169.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_140d6804c2427c46f48c97e5c09546e0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_282a92f85281f8c06a382d9360066c5c.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8be23b058b1930c26b6241c71cd95984.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5028fbc8ebf4f67247468a4f97a23bd1.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3d097804aa0b099be9b1bda28f396fec.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3111d8591eed25685eaac43981c5527d.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c211cbf349f7fb67bccf61579777645d.png>
+![](img/zhuanqian_fa1b70aff3d7a0efd1924144ca93318c.png)
+![](img/zhuanqian_5191cc98bdf8ba568037496f8df85971.png)
+![](img/zhuanqian_74ea767dfcee9a018171b78b4c3803a6.png)
+![](img/zhuanqian_86258c1b4690013cfb89ca44d79325be.png)
+![](img/zhuanqian_5378f558e6c747fffc27e1e6ae09dfdb.png)
+![](img/zhuanqian_11d0f14cec6ab85ffd9fca95c6e089d2.png)
+![](img/zhuanqian_4450939765dcac3b020dd226a82bd0de.png)
+![](img/zhuanqian_51aec9fe406ccb97ff490660a8eb3124.png)
+![](img/zhuanqian_daff48a34c137f999684ce6c304eb4db.png)
+![](img/zhuanqian_c5502f43bc55f38d234b90c12b68b169.png)
+![](img/zhuanqian_140d6804c2427c46f48c97e5c09546e0.png)
+![](img/zhuanqian_282a92f85281f8c06a382d9360066c5c.png)
+![](img/zhuanqian_8be23b058b1930c26b6241c71cd95984.png)
+![](img/zhuanqian_5028fbc8ebf4f67247468a4f97a23bd1.png)
+![](img/zhuanqian_3d097804aa0b099be9b1bda28f396fec.png)
+![](img/zhuanqian_3111d8591eed25685eaac43981c5527d.png)
+![](img/zhuanqian_c211cbf349f7fb67bccf61579777645d.png)
 ```
 ngrok config add-authtoken <你的令牌>
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4e20919d15b6124af7d43b09c4b62296.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ba963a3df227ea313ac313e9e83a1be0.png>
+![](img/zhuanqian_4e20919d15b6124af7d43b09c4b62296.png)
+![](img/zhuanqian_ba963a3df227ea313ac313e9e83a1be0.png)
 3）启动服务
 ```
 ngrok http 80
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_813f0b4b8c77d7eecc9278fa4c5d20de.png>
+![](img/zhuanqian_813f0b4b8c77d7eecc9278fa4c5d20de.png)
 *   把运行在本地 80 端口的项目，比如本地搭建的网站，通过工具映射到互联网，并自动分配一个临时的公网地址，例如 https://abc.ngrok.app。
 *   拿到这个地址后，外网用户直接打开就能远程访问你电脑上的本地服务。

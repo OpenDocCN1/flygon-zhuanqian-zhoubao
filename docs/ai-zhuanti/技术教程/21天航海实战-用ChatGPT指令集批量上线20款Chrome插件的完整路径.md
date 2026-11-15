@@ -15,13 +15,13 @@ Code Interpreter即后来的Advanced Data Analysis，现已并入GPT-4多模态�
 我一度以为之前总结的ChatGPT编程方法论要被淘汰了。实测后发现，Code Interpreter面对复杂点的任务，依然会掉进GPT-4默认模型的坑里，很可能内核本质仍是GPT-4。随后我在龙哥盟梳理了测试复盘：
 如何通过ChatGPT Code Interpreter生成视频特效和编写代码实现Chrome插件
 Custom Instructions推出后，社区关注度起初并不高。我在赚钱索引里搜了一下，相关笔记只有寥寥6篇，其中3篇还是好友 @文韬武韬 的：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b4c524a022d15a15201dab92cbf58f3d.png>
+![](img/zhuanqian_b4c524a022d15a15201dab92cbf58f3d.png)
 对我而言，Custom Instructions的冲击力丝毫不亚于Code Interpreter。源头是一个抖音短视频：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_445096b965985d8c600fe1b2c941e42d.png>
+![](img/zhuanqian_445096b965985d8c600fe1b2c941e42d.png)
 博主演示用一段简短的Custom Instructions实现ChatGPT不间断翻译10万字。我立刻意识到，如果把Custom Instructions与Code Interpreter结合，或许能触发周期性批处理：
 通过预置指令，定时唤起Code Interpreter运行，就有机会实现批量化、无人值守的工作流。
 带着这个想法，我在OneNote里记下了一堆潜在场景：批量翻译、批量写稿、批量清洗数据、自动生成程序等。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9ab64fe27619a36551fab3239967ab00.png>
+![](img/zhuanqian_9ab64fe27619a36551fab3239967ab00.png)
 我马上开测，先从翻译入手，照着视频设置指令，满怀期待地丢进去一份几万字的文档。结果翻了几轮后就卡住，并未实现真正的全自动。换文档、改指令又折腾了两天，依然失败。我怀疑自己被流量视频误导了，韬哥也直言抖音很多内容就是为了吸睛。
 接着我又按另一个视频尝试让ChatGPT全自动写一本科幻小说，测了三天，同样没戏。
 反思后我发现，虽然Custom Instructions可以预设周期指令去触发Code Interpreter，但受制于运行环境的内存大小和GPT-4上下文长度限制，真正的自动化闭环很难成立。不过一周的试错也带来一个确认：
@@ -61,37 +61,37 @@ How would you like ChatGPT to respond?
 21天能做什么？我给自己定了个有点“狂”的小目标：每天至少发布一款 Chrome 插件。为了不让目标把自己压垮，我刻意把每款功能都控制得很轻量——最好是能用一句话说清楚它能干什么。
 这个航海周期结束时，我一共做出了 21 款小工具，其中 20 款成功上架 Chrome 应用商店，第 21 款则因为商店的发布数量限制没能赶上。整个过程没有做复杂的市场调研，点子大多来自我自己遇到的痛点，或者航海群里朋友随口提的灵感。
 把它们按类型拆开看是这样的：
-- 4 款小游戏：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a4c370cb357c83106cf375bb257e653e.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_06031dd75900ef35352354079706fb60.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0e12cfab961b1802c557a0adebde80c0.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_133c0e6f8b6adc22fa2dfa310514de76.png>
-- 4 款文档转换工具：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_14a54c44057319e0fb2bbd7b8e6fab3f.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_324c64e4ebdccb2c5478ed385d1061a0.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f69606918a9ecef42e8729e00a4240bf.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e2a634af47267157afb3764daf7f792c.png>
-- 2 款图片处理工具：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3b3da6f4473fc035bd9aaa9d69093154.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b2c08aea7c212ce333882b72435eec9a.png>
-- 3 款计算器类工具：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4f8371eded90aa548b460166ee3972f1.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f722f21823ff0a7a2f691376deea9c46.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ef75b28a6a3a43ab3d0d6e855011f302.png>
-- 4 款编程类转换工具：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_789262452fd7e3d340ddb8c2b1909d07.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0cc066306c7dad2e9e0ea2bb954491c4.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5d81bd008aa9e3ca2f7d0fb734eb03e5.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6995ddbab6c2361e4cefd5a6fad88d6d.png>
-- 3 款其他小工具：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_64e7c5a17d01ccebf6a3cc7da292ec4c.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_06c6bc0c540b3cf6dc3adadbf372da75.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e3a0818661ed0cf5e3fbbfa585b759e6.png>
-- 1 款老插件更新：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8fcd89e98ee77ba7e1aa0c3fb7d4b8e0.png>
+- 4 款小游戏：![](img/zhuanqian_a4c370cb357c83106cf375bb257e653e.png)![](img/zhuanqian_06031dd75900ef35352354079706fb60.png)![](img/zhuanqian_0e12cfab961b1802c557a0adebde80c0.png)![](img/zhuanqian_133c0e6f8b6adc22fa2dfa310514de76.png)
+- 4 款文档转换工具：![](img/zhuanqian_14a54c44057319e0fb2bbd7b8e6fab3f.png)![](img/zhuanqian_324c64e4ebdccb2c5478ed385d1061a0.png)![](img/zhuanqian_f69606918a9ecef42e8729e00a4240bf.png)![](img/zhuanqian_e2a634af47267157afb3764daf7f792c.png)
+- 2 款图片处理工具：![](img/zhuanqian_3b3da6f4473fc035bd9aaa9d69093154.png)![](img/zhuanqian_b2c08aea7c212ce333882b72435eec9a.png)
+- 3 款计算器类工具：![](img/zhuanqian_4f8371eded90aa548b460166ee3972f1.png)![](img/zhuanqian_f722f21823ff0a7a2f691376deea9c46.png)![](img/zhuanqian_ef75b28a6a3a43ab3d0d6e855011f302.png)
+- 4 款编程类转换工具：![](img/zhuanqian_789262452fd7e3d340ddb8c2b1909d07.png)![](img/zhuanqian_0cc066306c7dad2e9e0ea2bb954491c4.png)![](img/zhuanqian_5d81bd008aa9e3ca2f7d0fb734eb03e5.png)![](img/zhuanqian_6995ddbab6c2361e4cefd5a6fad88d6d.png)
+- 3 款其他小工具：![](img/zhuanqian_64e7c5a17d01ccebf6a3cc7da292ec4c.png)![](img/zhuanqian_06c6bc0c540b3cf6dc3adadbf372da75.png)![](img/zhuanqian_e3a0818661ed0cf5e3fbbfa585b759e6.png)
+- 1 款老插件更新：![](img/zhuanqian_8fcd89e98ee77ba7e1aa0c3fb7d4b8e0.png)
 这一切并不是靠手撸代码硬扛的，而是在 21 天里不断打磨一套“ChatGPT 流程化编程”的 Custom Instructions。我陆续尝试过各种调整：结构化指令、最小化模型、边写边存文件、自动生成图标、预设上架文案、自动写推广语……踩过不少坑之后，我最终放弃了自己并不熟悉的结构化指令，也放弃了 Code Interpreter 最喜欢的“保存到环境”模式（后面会细说原因）。现在暂定的这套指令长这样：
 在角色设定上，我让 ChatGPT 同时扮演三重身份——既是资深软件工程师和 Chrome 插件开发专家，熟悉 Manifest V3 规范，能掌控 popup.js、background.js、content.js 之间的通信，也知道不同场景该引入哪些 JS 库；又是资深需求分析师，能把抽象需求拆成完整的功能方案、文件结构和逻辑关系；还是细心的代码审查专家，会检查所有代码的缺陷、冗余和遗漏，并给出修改方案。
 而它和我互动时，要遵循一套非常明确的流程：用户提出需求后，先从需求分析师角度输出完整的需求分析，包含严密的逻辑、完整的功能、UI 设计和配色，并主动询问是否合理；用户说“确认需求”之后，再切换到架构师角色，规划开发步骤，并强调必须先抽象出最小模型，列出文件树，还要声明 icons 文件夹和四张图标；用户回复“编写代码”后，则以工程师身份按顺序输出英文代码，使用 UTF-8 编码，复杂文件先列函数结构，再一段一段给出，并随时确认是否调整；代码全部写完、用户说“审查代码”时，又要以测试工程师身份通读所有文件，检查逻辑和需求匹配度，有错就重新输出；用户说“打包插件”时，保存文件、生成 icon16/32/48/128 四张图标、压缩成 zip 并提供下载；用户说“上线准备”时，以营销专家身份输出英文的 Summary、Single purpose、Description 和每个权限的用途，并附中文翻译；用户说“推广插件”时，则分别给 Product Hunt、Twitter、Facebook、Instagram、TikTok 制定推广文案。每一个环节都保留“确认—修改—再确认”的循环。
 下面这段对话记录，就是我在这套指令下让 ChatGPT 从零写一个贷款计算器的实际过程：
-需求分析：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e997c6df8b35959f57dab0ec6839aa43.png>
-调整需求分析：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c7632791c2438d5a16fc7fbf4db4d946.png>
-规划开发步骤和文件结构：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_090fcb6c04975e9c6870d75fddbb2fdb.png>
-编写代码：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d6a5d830a592997cac4f886a029dbd22.png>
-继续编写代码：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_20f36d08ad4e98ce3cbd561ffd5f1dad.png>
-生成插件图标：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_aea86a497ca3c28916e5a1502ac3c9d1.png>
-上线前准备插件资料：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4226a296de1e388e98dff0ae8674007b.png>
-生成推广文案：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_70b4f99ef305059cd506610434992792.png>
+需求分析：![](img/zhuanqian_e997c6df8b35959f57dab0ec6839aa43.png)
+调整需求分析：![](img/zhuanqian_c7632791c2438d5a16fc7fbf4db4d946.png)
+规划开发步骤和文件结构：![](img/zhuanqian_090fcb6c04975e9c6870d75fddbb2fdb.png)
+编写代码：![](img/zhuanqian_d6a5d830a592997cac4f886a029dbd22.png)
+继续编写代码：![](img/zhuanqian_20f36d08ad4e98ce3cbd561ffd5f1dad.png)
+生成插件图标：![](img/zhuanqian_aea86a497ca3c28916e5a1502ac3c9d1.png)
+上线前准备插件资料：![](img/zhuanqian_4226a296de1e388e98dff0ae8674007b.png)
+生成推广文案：![](img/zhuanqian_70b4f99ef305059cd506610434992792.png)
 正是靠着这套指令，以及前面陆续测试出的其它技巧，我完成了那 21 个插件中的大部分。不过也要强调：它主要适合快速启动和生成初始版本，真正进入开发或叠加新功能时，仍然需要合理的 ChatGPT 编程思路，和 AI 多轮对话、并肩作战，才能解决各种实际问题。更具体的思路可以参考我之前的分享：《工具站新手怎样通过ChatGPT编程落地工具站产品》以及《Code Interpreter编程复盘：如何通过ChatGPT Code Interpreter生成视频特效和编写代码实现Chrome插件》。
 后来我又发现，这批插件里有很多功能逻辑和界面元素高度相似。那能不能在已有代码的基础上，用另一套 Custom Instructions 让 ChatGPT 帮我快速做二次开发？测试的结果很乐观：可以。
 这套面向二次开发的指令，角色设定沿用前面的“工程师+需求分析师+审查专家”组合，但响应流程稍微做了调整：用户说“分析代码”时，ChatGPT先通读全部代码，找出缺陷，再输出完整的需求分析，并询问新的开发需求；用户提出新需求后，它基于刚才的分析重新调整需求，直到确认；确认后，它列出二次开发的步骤，并且每一步的改动量都不宜过大；接着按步骤编写或修改代码，依然遵循 Manifest V3 规范，一段一段输出，随时接受调整意见；之后是生成四张图标、准备上架资料、输出各平台推广文案，每一步都保留确认环节。这里有个小建议：如果项目代码量不大，最好直接把代码粘贴进对话窗口，而不是上传压缩包，这样 ChatGPT 对代码上下文的感知会更准确。
 下面这段对话记录，就是在已经做好的 ASCII-Char 转换插件基础上，让 ChatGPT 改写成一个数字进制转换插件的过程：
-要求ChatGPT分析原来项目的代码：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_26952506acc36de8444794ab7e0618f2.png>
-ChatGPT分析原来项目的代码：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1be56625c7ced6ac2013e791ab907ff0.png>
-调整需求：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2aa7ddb546cc7594bd8fec949c82163c.png>
-确认需求后重新规划开发步骤：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_391d6d77d1b062ce06dd53cb72ef84c1.png>
-编写代码：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_adbf37a1a4253a96e2a41063c8bacc6f.png>
-生成插件图标：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2a70d3f6a215899435ad2f0ca2d6a1a6.png>
-上线前准备插件资料：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_45a9d78c585013496791d40181417e05.png>
-生成推广文案：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_df6094062f47c0a14556467909b6d3bb.png>
+要求ChatGPT分析原来项目的代码：![](img/zhuanqian_26952506acc36de8444794ab7e0618f2.png)
+ChatGPT分析原来项目的代码：![](img/zhuanqian_1be56625c7ced6ac2013e791ab907ff0.png)
+调整需求：![](img/zhuanqian_2aa7ddb546cc7594bd8fec949c82163c.png)
+确认需求后重新规划开发步骤：![](img/zhuanqian_391d6d77d1b062ce06dd53cb72ef84c1.png)
+编写代码：![](img/zhuanqian_adbf37a1a4253a96e2a41063c8bacc6f.png)
+生成插件图标：![](img/zhuanqian_2a70d3f6a215899435ad2f0ca2d6a1a6.png)
+上线前准备插件资料：![](img/zhuanqian_45a9d78c585013496791d40181417e05.png)
+生成推广文案：![](img/zhuanqian_df6094062f47c0a14556467909b6d3bb.png)
 当然，用 Code Interpreter 编程并不是一帆风顺，我遇到的问题也不少：
 一是边写代码边保存到临时环境，虽然能少做保存动作，但插件代码在临时环境里无法真正运行和调试，这个“自动运行+校验”的价值其实体现不出来；而且环境隔一会儿就被清空，没来得及保存的话，下次不仅找不到文件，连对话上下文也接不上。
 二是让 ChatGPT 修改已保存代码时，它经常没有重读原文件，结果是新的修改被直接追加在原有代码后面，造成逻辑重复和冗余。
@@ -114,10 +114,10 @@ ChatGPT分析原来项目的代码：<https://gitcode.com/OpenDocCN1/data/blob/m
 - 自检问题：死磕不动时，让模型在代码里埋Console日志，把运行结果和报错信息回传给它自查修正。
 - 适时回退：实在绕不出去，就退回之前正常版本的对话让模型重新开发，中途结合调试教训给它做点方向性引导。
 再往后，2023年11月初OpenAI的第一届全球开发者大会放出了重磅炸弹。那波巨浪我也没能躲开，一边思考新出路，一边做了点小动作想蹭进浪潮：先是上线一个GPTs导航站，再接上GPTBLOX插件做数据联动，最后索性亲自下场构建GPTs。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0991f4527834cff14a49a2e481727b73.png>
+![](img/zhuanqian_0991f4527834cff14a49a2e481727b73.png)
 我发布的第一个GPTs依旧撞在ChatGPT编程这个主题上，把前面那套流程化指令全揉了进去，做成定制GPT来秒启Chrome插件的开发流程。之后我还不满足，又给这个助手加码，让它能一键启动更多产品形态，并给它起了个名，叫“Code Pilot”。目前它可以快速帮用户启动并开发Chrome插件、WordPress插件、网站落地页，以及简单的Python项目。欢迎所有对ChatGPT编程感兴趣的圈友来体验、交流，随时给我反馈。
 GPTs链接在此：Code Pilot
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ca727c0ed6ccfbf71c8c3bd8b84152fa.png>
+![](img/zhuanqian_ca727c0ed6ccfbf71c8c3bd8b84152fa.png)
 往前看是无限种可能，我们正和ChatGPT一起把想象落地。祝各位龙哥盟！
 最后附上这个GPTs生成一个简洁网站落地页的完整对话记录（由GPTBLOX插件导出）：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c6b8bcbe1a97a99a6df4e395bde5e8d8.png>
+![](img/zhuanqian_c6b8bcbe1a97a99a6df4e395bde5e8d8.png)

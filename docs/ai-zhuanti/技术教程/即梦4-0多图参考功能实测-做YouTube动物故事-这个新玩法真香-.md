@@ -4,7 +4,7 @@
 今天即梦4.0一上线，我立刻上手试了多图参考功能。对于故事创作来说，这简直是神器！以前我跟着一卒大佬的方法走，现在直接把那套思路迁移到即梦4.0上，屡试不爽。趁着热乎劲儿，赶紧把实操流程整理出来，顺便还能在原有基础上提效。别嫌粗糙，先跑通再打磨，咱们直接进正题。
 **第一步：定人物提示词（每个角色只需生成一次）**
 先把对标视频丢给Google AI Studio，让它“分析视频并给出详细故事脚本”。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8d15d3be410439f553d0a10a9a763d5b.png>
+![](img/zhuanqian_8d15d3be410439f553d0a10a9a763d5b.png)
 接着，参考拾文大佬的故事生成提示词来锁定人物形象。这个方法最大的好处是——既不用辛辛苦苦画三视图，也不用跑图床传图垫图了。拾文大佬的完整教程在《喂饭教程：AI多分镜视频创作一术破万法》里，需要的自己去翻。
 ## 人物提示词
 ```
@@ -22,14 +22,14 @@
 【主体与核心特征】，【细节与质感】，【风格与艺术形式】，【环境与氛围】，【构图与视角】，【补充参数与优化词】
 ```
 注意，咱们只需要拿到人物提示词这一步就够了，后面的不用往下走。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_11404b5c532279ed7772cf8f059aa2b4.png>
+![](img/zhuanqian_11404b5c532279ed7772cf8f059aa2b4.png)
 ## 生成人物形象
 把刚才的人物提示词丢给豆包或即梦。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a6d5de5f0fd66def69266abcde4fe7e7.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cdbf4cc0bca210b4abb4f65c75ba3db7.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2f5c886accc550537a6be4a69e1aaca5.png>
+![](img/zhuanqian_a6d5de5f0fd66def69266abcde4fe7e7.png)
+![](img/zhuanqian_cdbf4cc0bca210b4abb4f65c75ba3db7.png)
+![](img/zhuanqian_2f5c886accc550537a6be4a69e1aaca5.png)
 三个角色的定妆照保存好备用。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7fcc10705e90c5ab8b073540dd196898.png>
+![](img/zhuanqian_7fcc10705e90c5ab8b073540dd196898.png)
 **第二步：文生图提示词**
 这一步得感谢一卒圈友的思路，我沿用了他的分镜逻辑，把“角色ABC”直接替换成“参考图123”。一卒的原始帖子是《告别手搓：用提示词让AI视频制作提效3倍全流程！》。
 ## 分镜提示词模板
@@ -115,32 +115,32 @@
 全景"
 ```
 ## 人物替换
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_63b84bd6c79cd3b44bc65985e9cde701.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e7c807d4d26fccdc5c3b3e3ce266ba51.png>
+![](img/zhuanqian_63b84bd6c79cd3b44bc65985e9cde701.png)
+![](img/zhuanqian_e7c807d4d26fccdc5c3b3e3ce266ba51.png)
 文件下载后你会得到一个txt文件，打开文件，点击左上角文件，选择另存为，保存类型选择所有文件，在文件名后缀加上 .csv ，然后点击保存。
 打开csv文件，鼠标移到查找列表下选择替换
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cccb32433685cb0d91e92000afdcd9b6.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3fcd36243521fcb3e35e1d01eefdbea2.png>
+![](img/zhuanqian_cccb32433685cb0d91e92000afdcd9b6.png)
+![](img/zhuanqian_3fcd36243521fcb3e35e1d01eefdbea2.png)
 把”角色ABC“替换成”参考图123“，将相同的点击全部替换。
 # 第三步：即梦4.0多图参考生成
 将人物按照顺序依次添加，模型是根据你添加的顺序来进行生成的，所以前面的准备工作都要做好。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_62a6c9e1c23af2bf8d4f69c43737613b.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ce17017c3ff562abd611f7ec8cc38307.png>
+![](img/zhuanqian_62a6c9e1c23af2bf8d4f69c43737613b.png)
+![](img/zhuanqian_ce17017c3ff562abd611f7ec8cc38307.png)
 参考图2
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_717a2de9e647c19b4ea681053a154ece.png>
+![](img/zhuanqian_717a2de9e647c19b4ea681053a154ece.png)
 参考图3
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_59c18c9a0f8bdaf8541cb5b0dad4383f.png>
+![](img/zhuanqian_59c18c9a0f8bdaf8541cb5b0dad4383f.png)
 人物添加好了就不用再动人物了，模型会根据你的提示词来进行调用人物
 接着你只需要把分镜提示词依次放入文本框进行生成就可以了，下面是我生成的案例，提示词只会调用显示的参考图数字
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2a4303edaa63002db170d7825da5e29b.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_32740608d1a235aef58407fb06503b21.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7a03c4ccc539a51d7dd30eaa4ebab51f.png>
+![](img/zhuanqian_2a4303edaa63002db170d7825da5e29b.png)
+![](img/zhuanqian_32740608d1a235aef58407fb06503b21.png)
+![](img/zhuanqian_7a03c4ccc539a51d7dd30eaa4ebab51f.png)
 看完了是不是觉得超简单，不用再去生成三视图了，也不用图床垫图了
 # 第四步：图生视频
 这里我生成视频用的是爱奇艺生成视频的网站，通过了就能免费用seedance和veo3。需要申请注册一下，注册这里就按照它的要求填就行了，还不知道羊毛能用多久，能薅就尽快薅。
 短片创作大赛网站：https://aic.iq.com/create
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_244105580e481bcd0d057f047688880f.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e59992395f2dcfa5c0ada203e4fed59a.png>
+![](img/zhuanqian_244105580e481bcd0d057f047688880f.png)
+![](img/zhuanqian_e59992395f2dcfa5c0ada203e4fed59a.png)
 ## 图生视频提示词
 我这里用到的图生视频提示词用gas调出来复刻原视频的提示词，将原视频和提示词一起发给gas，
 需要替换的角色直接给ai说，把xx替换成xx，ai也能给你全部替换，接着就是把图生视频的提示词发给生视频的网站。
@@ -165,7 +165,7 @@
 声音: [同]
 ...（直到视频结束）
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_07869b12ed05abb95eceac47ec728cc2.png>
+![](img/zhuanqian_07869b12ed05abb95eceac47ec728cc2.png)
 因为是第一时间就发出来的，可能写的有些仓促，有的文字没写的那么清楚，直接截的图，想让圈友们尽快用上这个提效的方法。
 感谢一卒，拾文给我的启发，希望大家也能在这个方法的基础上再进行提效。
 # 内容补充
@@ -175,16 +175,16 @@
 提示词中没有参考图角色出现，但是生图中出现了参考图角色，这种情况直接删除参考图，再生成图片，
 提高成图率：
 你作图的过程中分为两部分生成，一个是画面中需要用到角色的部分，另一个是没有角色的部分，区分开就可以了。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a1fba11652971ead4f4546ffcd530610.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2ddbd0c949b5685789091827d355d314.png>
+![](img/zhuanqian_a1fba11652971ead4f4546ffcd530610.png)
+![](img/zhuanqian_2ddbd0c949b5685789091827d355d314.png)
 ## 商业化思路
 有了稳定的多图参考，玩法就有很多了，大家的看到的商业玩法肯定比我多，我目前能想到的比如ai短剧，同人文翻拍动画，番茄小说引流（抖音上发布小说翻拍的ppt动画，过去都要comfy ui做）定制化个人故事（例一个人的一生），知识付费（教别人如何做出一致性视频，但个人感觉这个玩烂了，只要大模型还在更新，出一个功能又能卖小白998，个人比较排斥但架不住这种模式他就能赚钱）。
 ## 即梦4.0生成的图太大了，用爱奇艺视频生成不了
 这里我用的是一个图片网站：https://www.iloveimg.com/zh-cn
 可以批量调整大小，调整到视频生成要求的大小，缩小25%刚好达到要求。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0ea3459e3feeec48fcea84fabe2c0f3d.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b35a09975d0148cb57e2b38d96300737.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b06b8e99216969b45f4f310b2a0b3c21.png>
+![](img/zhuanqian_0ea3459e3feeec48fcea84fabe2c0f3d.png)
+![](img/zhuanqian_b35a09975d0148cb57e2b38d96300737.png)
+![](img/zhuanqian_b06b8e99216969b45f4f310b2a0b3c21.png)
 * * *
 文档引用原赚钱帖：一卒《告别手搓：用提示词让AI视频制作提效3倍全流程！》
 拾文【喂饭教程】AI多分镜视频创作一术破万法

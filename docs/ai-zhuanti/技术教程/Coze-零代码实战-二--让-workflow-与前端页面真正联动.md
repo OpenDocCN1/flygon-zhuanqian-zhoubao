@@ -2,7 +2,7 @@
 上一期，我们把海报创建页的静态骨架搭了出来。今天继续完成后续部分：用户在前端填好信息，点击按钮之后，后台流程能自动跑起来，并回传一张合成好的成品。全程依然不需要手写代码，靠 Coze 的编排能力就能完成。
 ## 一、先拆解功能需求
 先把上一版的页面设计放在这里，方便对照：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_dbacd83c6073ca351fabb0b2cb273f35.png>
+![](img/zhuanqian_dbacd83c6073ca351fabb0b2cb273f35.png)
 从这个界面可以看出，用户只需提供三项内容：
 - 节气名
 - 想要的画面描述
@@ -12,7 +12,7 @@
 - 节气名
 - 记录时间
 放一张理想中的成品效果，便于后面理解 workflow 的各个步骤：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f261933d3a43dd2c8ec709077fd99186.png>
+![](img/zhuanqian_f261933d3a43dd2c8ec709077fd99186.png)
 对照这张成品，我规划的 workflow 处理链路如下：
 1. 根据节气名和画面描述，生成绘图用的 prompt；
 2. 根据节气名写出一首诗词；
@@ -21,19 +21,19 @@
 ## 二、搭建 workflow
 海报排版的部分这里略过，只讲与页面联动强相关的环节。
 ### 1. 新建 workflow
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_78da474d5fd3595f158e1c9bc221a343.png>
+![](img/zhuanqian_78da474d5fd3595f158e1c9bc221a343.png)
 这里有两个入口：选“新建 workflow”，这条流程只会保存在当前应用内部；选“导入现成文件”，可以复用之前已经做好的流程。本次我选择新建，并将它命名为 `haibao_make`。
 ### 2. 配置入参与出参
 在入口节点处，先声明后续会用到的参数：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bd97fe3150cd9fc121ca80f9b981599b.png>
+![](img/zhuanqian_bd97fe3150cd9fc121ca80f9b981599b.png)
 在出口节点处，指定最终要返回的数据结构：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7448c631a49407bbf2f9ada0609fcc3b.png>
+![](img/zhuanqian_7448c631a49407bbf2f9ada0609fcc3b.png)
 ### 3. 用 LLM 节点同时产出诗词和绘图 prompt
 加入 LLM 节点，让它一次完成两项输出：诗词内容和绘图所需的 prompt。
 输入侧，把入口节点的节气名和画面描述接进来：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_eb269476006f19b7d733522f0cbc89e8.png>
+![](img/zhuanqian_eb269476006f19b7d733522f0cbc89e8.png)
 输出侧，拆成两个字段：诗词内容和绘图 prompt。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2def0870d7dbd6c7287e7a5a29c4e416.png>
+![](img/zhuanqian_2def0870d7dbd6c7287e7a5a29c4e416.png)
 我准备的 System Prompt 写得比较简单。Coze 目前也提供 AI 润色功能，如果效果不算理想，可以让它直接调整。原始内容如下，供参考：
 ```
 # 角色
@@ -54,19 +54,19 @@
 ### 4. 图片生成链路
 出图服务我选择的是外部服务 Flux。平时习惯用中文描述，因此需要先做一步转化与增强。
 先加入一个 prompt 增强插件，它能自动把中文转成英文，并补充更多画面细节：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f23fa262cd8e07bae1e6e0fa2b3e3fac.png>
+![](img/zhuanqian_f23fa262cd8e07bae1e6e0fa2b3e3fac.png)
 再接入 Flux 绘图插件：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b378d9baaa0ef4aac27bc6a15860dddf.png>
+![](img/zhuanqian_b378d9baaa0ef4aac27bc6a15860dddf.png)
 参数按下面这张图配置即可：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d5d7f2fcbd5e66751b34cd838329ff3c.png>
+![](img/zhuanqian_d5d7f2fcbd5e66751b34cd838329ff3c.png)
 ### 5. 合成成品
 合成这一步，我直接调用了此前准备好的图片合成 workflow。实现思路并不复杂：在画布上把文字层和铺底图叠起来。限于篇幅不展开，截图如下：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bf49ccaa98ea45639c4694d3da27240c.png>
+![](img/zhuanqian_bf49ccaa98ea45639c4694d3da27240c.png)
 将这条 workflow 引入后，按下图接好入口参数：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9fa97abe61b886b5ffdf6159da53afa9.png>
+![](img/zhuanqian_9fa97abe61b886b5ffdf6159da53afa9.png)
 ### 6. 补充记录时间并测试
 整理出口节点时，发现记录时间还没有纳入返回结果。回头改 LLM 节点稍显繁琐，干脆增加一个脚本节点来获取当前时间：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0b740a7d07858298465a753df2b8b523.png>
+![](img/zhuanqian_0b740a7d07858298465a753df2b8b523.png)
 Python 脚本粘进去，再参照上图的输出配置方式设置字段即可：
 ```
 from datetime import datetime
@@ -83,38 +83,38 @@ ret: Output = {
 return ret
 ```
 接着整理出口节点的返回结构：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7973083a640a8032b7afa0a034e7be3d.png>
+![](img/zhuanqian_7973083a640a8032b7afa0a034e7be3d.png)
 在界面上点一次“运行”，确认整条链路没有报错，再继续后面的页面绑定操作。
 ## 三、页面与 workflow 联动
 这是整篇教学最核心的部分：让页面上的 form 与后台流程连通，并把结果带回页面。
 ### 1. 给 form 绑定提交动作
 第一步，点选页面里的 form，把它和刚才完成的 workflow 关联起来：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b2d5f64d39451f72e5ea2185786cd578.png>
+![](img/zhuanqian_b2d5f64d39451f72e5ea2185786cd578.png)
 具体操作路径参考下图：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_dba56de09b5f67fc6e42a6761443156a.png>
+![](img/zhuanqian_dba56de09b5f67fc6e42a6761443156a.png)
 ### 2. 切换 workflow 并映射字段
 进入配置面板后，会看到 workflow 的切换选项：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c2410c93e46f7090f570e9ad8d4881b5.png>
+![](img/zhuanqian_c2410c93e46f7090f570e9ad8d4881b5.png)
 把 workflow 切换为 `haibao_make`，下方随即展示所需入参。随后要做的是把页面控件逐个对应上去。
 如何判断对应关系？切到“结构”视图，逐个点击 form 中的元素，再回看结构面板高亮的位置。例如点击结构里的 `input1` 时，可以明确它对应节气名填写区，于是记下 `input1` 这个字段名：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2a4442fd29418f525aca810acd41f3e4.png>
+![](img/zhuanqian_2a4442fd29418f525aca810acd41f3e4.png)
 回到 form 的绑定配置页，点击右侧的关联按钮：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1a0d815e8dcc10409bc3f3fb89d3c931.png>
+![](img/zhuanqian_1a0d815e8dcc10409bc3f3fb89d3c931.png)
 字段列表弹出后，选中刚才记下的 `input1`：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_33dd724fa62a16aeb21fb5da1045eda9.png>
+![](img/zhuanqian_33dd724fa62a16aeb21fb5da1045eda9.png)
 剩余两个入参以同样方式完成映射，最后点确认。到这里，form 侧的关联就结束了：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8f0e3aa94d84a78b65a26f62450ef0db.png>
+![](img/zhuanqian_8f0e3aa94d84a78b65a26f62450ef0db.png)
 ### 3. 确认按钮动作
 通常情况下，新建按钮会默认带一条“提交 form”的动作。保险起见，不妨确认按钮的触发动作确实指向 form 提交：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c712e320a5abec6ed2b2cc04f11e0f19.png>
+![](img/zhuanqian_c712e320a5abec6ed2b2cc04f11e0f19.png)
 ### 4. 展示返回到页面的图片
 流程跑通后，还需要让结果出现在页面上。选中负责展示成品的组件，把 workflow 给出的图片数据映射到这个组件上：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6d12d5a0f240ce63c21fdd5c0be0b256.png>
+![](img/zhuanqian_6d12d5a0f240ce63c21fdd5c0be0b256.png)
 顺手加一层体验优化：用户首次打开页面时，还没有任何产出，展示组件应保持隐藏。将它的初始隐藏状态设为 `true`：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2174b41101fff2624d2a6c359818e5f8.png>
+![](img/zhuanqian_2174b41101fff2624d2a6c359818e5f8.png)
 然后在按钮的触发动作里，增加一步“显示展示组件”：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5c3ddd8b58221659b74fb64d10e9d46e.png>
+![](img/zhuanqian_5c3ddd8b58221659b74fb64d10e9d46e.png)
 ## 四、预览与下一篇
 点击预览运行一次，结果是一只有点呆萌的小家伙。想要更接近理想效果，可以继续在 prompt 上做优化。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_82b1a1b594acd266f4bfa292b776bd8d.png>
+![](img/zhuanqian_82b1a1b594acd266f4bfa292b776bd8d.png)
 到这里，首页的主流程已经完整闭环。下一期会稍微提一点难度，带大家完成个人中心里的历史产出列表，敬请期待。

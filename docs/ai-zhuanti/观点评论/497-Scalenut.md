@@ -18,9 +18,9 @@
 - 专业 SEO/营销人：要的是深度竞品分析、NLP 关键词准则、内容评分够不够准；
 - 代理公司或大团队：会额外关注协作、席位、API、批处理和客户管理能力。
 ## 官网和流量
-官网落地页给出的是直白的价值信号：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ced12a192e7b59b7cb02da8b5184d4f6.png>
-从流量来看，这类工具型 SaaS 的访问数据是评估体感的重要指标。基本信息如下：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fb7d60366ffc39db9946dfae64865026.png>
-外链方面：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cc68ac925f5a0bfaf7e26835133950ce.png>
+官网落地页给出的是直白的价值信号：![](img/zhuanqian_ced12a192e7b59b7cb02da8b5184d4f6.png)
+从流量来看，这类工具型 SaaS 的访问数据是评估体感的重要指标。基本信息如下：![](img/zhuanqian_fb7d60366ffc39db9946dfae64865026.png)
+外链方面：![](img/zhuanqian_cc68ac925f5a0bfaf7e26835133950ce.png)
 竞对名单上，它把 Surfer SEO、Clearscope、Jarvis AI（即 Jasper）、Frase 都摆在了自己的对比页上。理由也不难懂：它既要跟 AI 写作工具抢用户，也要跟 SEO 优化工具抢地盘。
 ## 用户为什么离不开它？
 没有它之前，用户的痛点是教科书级的：工具太碎；定架构全靠手扒 SERP；AI 写出来的东西和 SEO 要求经常“鸡同鸭讲”；内容深度和排名的关系只能靠感觉；想要规模化又怕质量崩盘。
@@ -44,8 +44,8 @@ Scalenut 给的解法也很有针对性：
 - 用户基数起来后，口碑就变成了自然增长引擎。
 ## 商业模式和收入推测
 它是典型的订阅制 SaaS：提供试用或免费版，然后用分级套餐收钱。套餐从个人版的低价档，到 Growth 中坚档，再到 Pro 和 Enterprise 定制，价格带大概从每月 20 美元起步，Pro 能到 150 美元以上，企业版再往上走。
-月付方面：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_59209d7437c6beecea63c770ae5eba46.png>
-年付方面：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cacb169f4e75b6df5583bb483b353893.png>
+月付方面：![](img/zhuanqian_59209d7437c6beecea63c770ae5eba46.png)
+年付方面：![](img/zhuanqian_cacb169f4e75b6df5583bb483b353893.png)
 收入怎么估？无非是“流量 × 转化 × ARPU”：
 假设网站月访问量约 5.5 万，付费转化率取 1%，再按“30% 用户买低价、30% 买中档、30% 买高配、10% 走定制”的价格模型，算出的月付 ARPU 约 183 美元，年付约 134 美元；两者折中取 158 美元左右。于是 MRR 大概是 5.5万 × 1% × 158 ≈ 8.7 万美元，ARR 约 104 万美元。
 不过这个数字充满不确定性。尤其它还主要面向 B 端客户，真实收入更难从公开渠道推断。结合 2022 年媒体报道——当时公司说未来要做到 ARR 1000 万美元，而按当时的流量推算过 400 万—500 万美元——纵览下来，上面这个 104 万左右的估算还算在合理区间的旁边，只是不能当真实的财务数据来用。

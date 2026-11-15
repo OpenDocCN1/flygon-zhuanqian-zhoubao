@@ -12,21 +12,21 @@
 1. 再次充入一千积分，结果不到两分钟又被吃光。
 2. 怀疑是密钥问题，我把全部 KEY 撤回，重新部署新密钥。上线瞬间上游日志里仍有上千条请求在跑，赶紧把 KEY 再撤掉才止住出血。
 继续追踪后，在 Vercel 的访问日志里看到了大量以毫秒级频率发起的错误请求。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3189940e320b36f49b7291168eeb1029.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_84c9677d2f44e13869660de1f1b99407.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0841ae2dacc8323ba10e8d5e6139519d.png>
+![](img/zhuanqian_3189940e320b36f49b7291168eeb1029.png)
+![](img/zhuanqian_84c9677d2f44e13869660de1f1b99407.png)
+![](img/zhuanqian_0841ae2dacc8323ba10e8d5e6139519d.png)
 基本可以确定是被恶意攻击，于是把这些异常日志丢给 AI 做解读。
 ## 二、漏洞在哪，以及怎么补
 下面是当时我和 AI 排查对话的要点整理：
 根因判断是前端签名与鉴权做得太薄弱，攻击者直接跳过前端扣费流程，直连后端消耗上游资源。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_32f0c92ead0e32e124d283f51124b50f.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0b173437fab6a170e6be1a361874c055.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fd15301f809739cfcd52e25753e8abf3.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_60567cd21541f89ea0477289f12840f9.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8f2569f615bb7f6a44e1ee9d77f78440.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f184a35a8bf29b29221ad9b1433665a4.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bb97f7778b74d5cb4fb8c3a94b332f34.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_697e3167ab9ddde21af47753bf17cd96.png>
+![](img/zhuanqian_32f0c92ead0e32e124d283f51124b50f.png)
+![](img/zhuanqian_0b173437fab6a170e6be1a361874c055.png)
+![](img/zhuanqian_fd15301f809739cfcd52e25753e8abf3.png)
+![](img/zhuanqian_60567cd21541f89ea0477289f12840f9.png)
+![](img/zhuanqian_8f2569f615bb7f6a44e1ee9d77f78440.png)
+![](img/zhuanqian_f184a35a8bf29b29221ad9b1433665a4.png)
+![](img/zhuanqian_bb97f7778b74d5cb4fb8c3a94b332f34.png)
+![](img/zhuanqian_697e3167ab9ddde21af47753bf17cd96.png)
 ## 三、代码层面的修复与认证强化
 修复思路是把关键校验全部收敛到服务端，并且让每一笔消费都可追溯、可防重放。
 流程变为：登录的真实账号 → 账号余额充足 → 每次消费必须绑定唯一的任务 ID，数据库层面用唯一约束拦截重复提交。
@@ -36,20 +36,20 @@
 3. 重放旧请求 → 交易绑定机制让重复使用失效
 4. 高频刷量 → 限流机制直接返回 429
 5. 越权查询他人任务 → 任务归属校验拦截
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d4dfe88d80a4046fd7d0b140016180e7.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d05a6fe8372b8b48e6f9f63c83ed760d.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6fe794077ff38248c661392127bbbc38.png>
+![](img/zhuanqian_d4dfe88d80a4046fd7d0b140016180e7.png)
+![](img/zhuanqian_d05a6fe8372b8b48e6f9f63c83ed760d.png)
+![](img/zhuanqian_6fe794077ff38248c661392127bbbc38.png)
 ## 四、再叠一层基础设施限流
 代码修复后，我又在 Vercel 层面加了 KV 与 Upstash 的全局限流，分别限制 IP 维度与单个用户维度的调用频率，阈值可以按业务自行调参。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f75280ea22699996e58e46d6196b4172.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_293dc14a045e0dba86269e2eb06398a0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_488d884515f7576f5b8f9e2150d87612.png>
+![](img/zhuanqian_f75280ea22699996e58e46d6196b4172.png)
+![](img/zhuanqian_293dc14a045e0dba86269e2eb06398a0.png)
+![](img/zhuanqian_488d884515f7576f5b8f9e2150d87612.png)
 KV 和 Upstash 是什么、怎么用，可以让 AI 快速带你入门。我目前用的是免费额度，触发量很小，短期完全够用。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f793f34b2b7cc880a93c38cb6c0c71a4.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c6592b066bd634c5df055d4b75ac1d8d.png>
+![](img/zhuanqian_f793f34b2b7cc880a93c38cb6c0c71a4.png)
+![](img/zhuanqian_c6592b066bd634c5df055d4b75ac1d8d.png)
 我的部署环境是 Vercel，都是在 Vercel Storage 里绑定连接。当时情况紧急，没截太多图，有需要自行部署的朋友可以让 AI 指导具体绑定步骤。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_75bba84c638d10ba4a939fa659ae6ecf.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f81de95c87139fdf12fa098a3d041996.png>
+![](img/zhuanqian_75bba84c638d10ba4a939fa659ae6ecf.png)
+![](img/zhuanqian_f81de95c87139fdf12fa098a3d041996.png)
 ## 五、复盘与提醒
 吃一堑长一智，踩过的坑反而成了地图。这次幸亏发现及时，损失可控。把经验分享出来，就是希望圈内朋友能提前布防。
 另外一个小建议：能不公开直接变现的核心站点就别随意曝光，降低被瞄准概率。保持学习和交流即可。以上为个人实战总结，仅供参考。

@@ -3,7 +3,7 @@
 大家好，我是龙哥。2022 年我就进了赚钱，前四年基本就是个吃瓜观众。
 早期报过不少航海，开局还挺认真，后面慢慢就掉线了。项目看过一堆，最终都卡在“只看不做”。一度我也怀疑自己是不是天生缺执行力，后来才发现，是缺少正反馈在推着我走。
 这次参加抖音自然流 CPS 第四期航海，我彻底把自己拉出来了。0-1 跑通，GMV 超 400 万，最终冲到本期排行榜第二。这次经历让我重新找回了做副业的底气。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2111722057c8439cdfcf06bd9dbebdb5_0_0.png>
+![](img/zhuanqian_2111722057c8439cdfcf06bd9dbebdb5_0_0.png)
 今天把这趟破局的完整过程梳理出来，给同样在赚钱里徘徊很久没跑通的老朋友，也给想入局抖音 CPS 的新朋友作参考。方法并不高深，无非是跟着航海节奏，坚持日拱一卒的实操。
 整体分享分为五块：
 - 一、我加入赚钱四年来的状态轨迹
@@ -54,17 +54,17 @@
 ##### 3.3.1 文案调整
 参考文案库换几个字眼；或者以视频 A 为主干，融入视频 B 的片段，做融合版；也可以让 AI 帮忙改写。
 ##### 3.3.2 图片去重
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2111722057c8439cdfcf06bd9dbebdb5_8_0.png>
+![](img/zhuanqian_2111722057c8439cdfcf06bd9dbebdb5_8_0.png)
 ## 四、对项目的思考与建议
 ### 1、收益拆解与反思
 这次航海 618 期间主要做泛流量，GMV 468W+，佣金 1.9W+，佣金率 0.41%。
 618 结束后 6 月 22 日到 7 月 10 日，我又发了 10 条，其中 10W+、9W+、5W+ 各一条，GMV 74W+，佣金 2000+，佣金率 0.3%。比例下降是因为其中一个品类商家下调了佣金。顺带提醒一句，定向推品前一定要先看佣金比例，不然血亏。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2111722057c8439cdfcf06bd9dbebdb5_9_0.png> <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2111722057c8439cdfcf06bd9dbebdb5_9_1.png>
+![](img/zhuanqian_2111722057c8439cdfcf06bd9dbebdb5_9_0.png) ![](img/zhuanqian_2111722057c8439cdfcf06bd9dbebdb5_9_1.png)
 目前我主要靠推荐流量，搜索流量少，观众不精准。导致 618 期间佣金率只有 0.41%，比搜索流为主的船员低。泛流量需要大爆款拉动，GMV 才能上去，而大爆款可遇不可求，只能靠数量堆概率。
 618 后即便有几条 5W+，佣金也有限。基于这些数据我认为：
 #### 1）在新手期，GMV 的正反馈比死磕高佣产品更重要。
 刷对标会发现，曼波、特效口播、真人出镜都有跑得好的。每个号体质不同，别人能跑的高佣口播，我在不同号上发就违规。起步时先找到适合自己号体的内容型，跑通 0-1，比一上来追高佣更实际。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2111722057c8439cdfcf06bd9dbebdb5_10_0.png>
+![](img/zhuanqian_2111722057c8439cdfcf06bd9dbebdb5_10_0.png)
 #### 2）跑通 0-1 后再迭代，效率更高。
 后面再去定向推高佣品、提升用户精准度，收益会更好。
 ### 2、下一步优化方向
@@ -84,5 +84,5 @@
 工具和教程只是最低级的壁垒，真正的壁垒是"立刻动手"和"圈层信息差"。
 我们不聊虚的，只做商业闭环的拆解与 AI 效率的压榨。系统内已沉淀 1000+ 跑通的套利实战局。
 👉 查阅圈子完整数字资产与上车门槛：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2111722057c8439cdfcf06bd9dbebdb5_13_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2111722057c8439cdfcf06bd9dbebdb5_14_0.png>
+![](img/zhuanqian_2111722057c8439cdfcf06bd9dbebdb5_13_0.png)
+![](img/zhuanqian_2111722057c8439cdfcf06bd9dbebdb5_14_0.png)

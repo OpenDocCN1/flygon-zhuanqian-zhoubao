@@ -1,57 +1,57 @@
 # 我用 AI 当艺术细胞，零基础一句话生成艺术大片，设计师朋友都 emo 了
 没学过设计也能出艺术大片？我靠AI圆了这个梦
 2022年底，Stable Diffusion 刚开始走红，我也顺势注册了一堆账号。可我没有半点美术细胞，描述画面时翻来覆去就几个干巴巴的词。比方说，想画猫狗互掐，我输入的是：猫狗互掐。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b2087d4c8b1f2a34882d83b01eb07142.png>
+![](img/zhuanqian_b2087d4c8b1f2a34882d83b01eb07142.png)
 图确实出来了，不丑，但和“艺术”二字基本不搭界。当时我还以为是描述不够具体，于是改成：猫咪的利爪在狗脸颊上划出红印，犬毛猫毛纷纷飘散。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_113e762daf851e5b8a1c3bca647c4303.png>
+![](img/zhuanqian_113e762daf851e5b8a1c3bca647c4303.png)
 结果依旧平平无奇。热情这种东西，真的会在某个瞬间被一盆冷水浇灭。
 后来我在 4o 里批量做了几套漫画分镜，突然想通：我不缺想法，缺的是把想法转化成画面的能力，而这个短板可以交给 AI 来补。这么一琢磨，做点像样的作品似乎并不难。
 人嘛，规划时常热血，执行却总拖延。我本来周末就开工，结果先去打了会儿游戏，说要不过几天再说；到了下周，MCP 工具链有新变化，画图要同时操作好几个软件，还得先凑够积分，于是又搁浅了。不过，这次拖延反而带来好运。早前那篇 MCP 文章被推荐，圈里朋友拉我去了纳米组织的一场非公开体验活动，还尝到了周师傅亲手烤的肉串，味道很正。
 会上，大家聊到 MCP 有大量使用场景。纳米团队当时就说等正式上线后会邀请我们参与内测，帮忙验证。今天上午我拿到体验资格，一边叫朋友一起试，一边逐个排查哪些 MCP 最值得用。在翻到即梦的海报生成 MCP 时，脑子里那个“被搁置一周的 AI 绘图计划”立刻弹了出来。
 所以我用一套 prompt + 即梦的 MCP 拼了个 Agent，只要输入一句话，它就能生成有电影感的艺术图。下面看效果：
 猫咪的利爪在狗脸颊上划出红印，犬毛猫毛纷纷飘散。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7f40e9092fcf4f9b309a18e5b6742934.png>
+![](img/zhuanqian_7f40e9092fcf4f9b309a18e5b6742934.png)
 骑士与巨龙结束战斗，围着火堆烤起了肉。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_14680f456047babf261e7ce328d839b6.png>
+![](img/zhuanqian_14680f456047babf261e7ce328d839b6.png)
 高铁站前，老两口挨着行李袋坐下，眼睛望向远方，脸被落日染成橘红。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_db88acfbdb0c81edc10e69a943458459.png>
+![](img/zhuanqian_db88acfbdb0c81edc10e69a943458459.png)
 有位小姑娘在太空中踩着秋千，脚下就是完整的地球。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8121fec13329575fc3e85ab6aa4d84a1.png>
+![](img/zhuanqian_8121fec13329575fc3e85ab6aa4d84a1.png)
 老式火车贴着海面轰隆向前，一只鲸鱼紧随其后。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3f03f2b850f2dcdccc4a7a50ac788156.png>
+![](img/zhuanqian_3f03f2b850f2dcdccc4a7a50ac788156.png)
 猫咪蹲在天台边缘仰望流星划过夜空，远方的城市亮起万家灯火。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f46c10587479c7a4dcdda86a28360617.png>
+![](img/zhuanqian_f46c10587479c7a4dcdda86a28360617.png)
 沙漠之中，一架飞机残骸陷在沙丘里，四周矗立着巨大骸骨，风沙漫天。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_777b43fc9e67fb8fe826f5770a333070.png>
+![](img/zhuanqian_777b43fc9e67fb8fe826f5770a333070.png)
 街灯底下，男孩蹲下身，发现那点亮光竟然是颗迷你星球，而非糖果。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_92bbd9fa71abad5c5f055a22d0e3578a.png>
+![](img/zhuanqian_92bbd9fa71abad5c5f055a22d0e3578a.png)
 车站喇叭响起：请鱼类旅客前往第三节车厢。一群戴着圆顶礼帽的鱼提着手提箱，蹦跳着进入注满水的列车。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b25ae1e988bf7196dd98f7e0edc6421f.png>
+![](img/zhuanqian_b25ae1e988bf7196dd98f7e0edc6421f.png)
 林间深处，一朵荧光蘑菇把周围照得通亮，像一盏天然小灯。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_812c1c3f31e3849e4d2a0741e0064ddf.png>
+![](img/zhuanqian_812c1c3f31e3849e4d2a0741e0064ddf.png)
 风暴结束之后，楼下超市的塑料门帘让风撕成了条状，店主一脸茫然地站在门口。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1e894ddcca9628658ddf446844768b0d.png>
+![](img/zhuanqian_1e894ddcca9628658ddf446844768b0d.png)
 植被突然疯长，重组出整座城市的轮廓：钢柱化作藤条，楼宇化身巨型花苞。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_86b74e8066c4fe0500028253e71d9b3a.png>
+![](img/zhuanqian_86b74e8066c4fe0500028253e71d9b3a.png)
 一只庞大的章鱼破土而出，触须越过楼顶盘绕在城区天际线，双目如同轨道摄像头，注视着下方街巷。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d0ae01bbee315eb0d38f37f10f749ef2.png>
+![](img/zhuanqian_d0ae01bbee315eb0d38f37f10f749ef2.png)
 一只由金属构成的巨蛛穿行于街区，捡起破碎的砖瓦，几秒钟就能让建筑恢复原样。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_eeab23a7a8de7e4e2852119a8c9e4bba.png>
+![](img/zhuanqian_eeab23a7a8de7e4e2852119a8c9e4bba.png)
 咖啡店里，一桌写代码的工程师正在琢磨春联，写完忽然齐声鼓掌。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b5ffc84db151e8296ae7bef378bc1168.png>
+![](img/zhuanqian_b5ffc84db151e8296ae7bef378bc1168.png)
 湖面的冰突然碎裂，一头庞然大物从水底缓缓抬头仰望天空。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_74f91f51f2829dc3ee271f61fd619682.png>
+![](img/zhuanqian_74f91f51f2829dc3ee271f61fd619682.png)
 打个招呼：用 3D 动画风格，让敖丙与哪吒共舞一曲。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8a45e8b7033aa23ea82cb1762b9f1af5.png>
+![](img/zhuanqian_8a45e8b7033aa23ea82cb1762b9f1af5.png)
 透明展示柜中，陈列着限量款动漫手办。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8c12c259786aadc221082eaa6658a486.png>
+![](img/zhuanqian_8c12c259786aadc221082eaa6658a486.png)
 接下来是搭建步骤。
 1? 登录纳米应用，进入 Agent 区域，点界面右上方“创建”。当前 DeepSeek 以及即梦的 MCP 都不收费。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_102e9ed664691c45eb509a934408693c.png>
+![](img/zhuanqian_102e9ed664691c45eb509a934408693c.png)
 如果新建时要求填邀请凭证，在文章下方留言，我帮你要一个。
 2? 完善 Agent 资料：名称与欢迎词看你喜欢；简介栏把下面这段 prompt 粘进去；技能处勾选“海报生成（即梦）MCP”。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_31359f27babd98ed4f6034335e31a81d.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c6063709b9f06f7069053a3115ec8bc7.png>
+![](img/zhuanqian_31359f27babd98ed4f6034335e31a81d.png)
+![](img/zhuanqian_c6063709b9f06f7069053a3115ec8bc7.png)
 ```
 // Author：云舒
 // Model：纳米AI智能体
@@ -92,12 +92,12 @@
 ```
 ```
 填好以后应该和我截图里展示的一致。想让好友一起使用，就把权限设为“公开”，随后保存 Agent。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0f9b6f8e72fa95b7c635b87f3428addd.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2a2d2f7e62f0d0ed96fc2b02cf5d4bd2.png>
+![](img/zhuanqian_0f9b6f8e72fa95b7c635b87f3428addd.png)
+![](img/zhuanqian_2a2d2f7e62f0d0ed96fc2b02cf5d4bd2.png)
 保存完毕，回到 Agent 列表，选中刚建好的那个就能直接进入。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_da6965527fce423f41df7f7b82c1f40d.png>
+![](img/zhuanqian_da6965527fce423f41df7f7b82c1f40d.png)
 3? 切到画图模式，把你的构思写进去，剩下的交给 AI。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8c040c46b2c875ad6dc4e1762a770433.png>
+![](img/zhuanqian_8c040c46b2c875ad6dc4e1762a770433.png)
 看到这也许你会嘀咕：连一句有画面感的话都想不出怎么办？这个好办，我额外做了一套“灵感孵化 prompt”，它能帮你扩散创意。
 ```
 // Author：云舒
@@ -142,10 +142,10 @@
 无论用户输入什么词语或短语，你都将只输出10-15行视觉场景描述，没有任何其他文字。不会有分析、讨论、章节标题或编号。只有场景描述，一行一个。
 ```
 把这段发给 AI，再告诉它你想画的主题方向，它马上就能给出不少具体可用的画面描述。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5a4eb260833ac24dcad79f768f3688ea.png>
+![](img/zhuanqian_5a4eb260833ac24dcad79f768f3688ea.png)
 接着把 AI 给出的描述丢回刚才的 Agent，一张美观的作品就成了：
 橘色猫咪埋在彩色毛线团里，眯着眼露出一半脸。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b4be128dec88734737ac64547674d1d2.png>
+![](img/zhuanqian_b4be128dec88734737ac64547674d1d2.png)
 教程就到这里，期待各位的成品，记得分享给我。
 坦白说，最初设计 prompt 时，我挺担心：审美那么普通，真能写出高质量指令吗？等头一幅图在我眼前展开，那个疑虑当场消失。AI 就像多出来的一双眼、一双手，只要表达足够清楚，它就会主动帮你弥合画面上的空缺。所以没什么好纠结的，喜欢什么方向，就带上你的 Agent 一起去试，慢慢形成个人风格，去体会探索带来的乐趣。
 一颗种子想长成大树，第一步永远是把根扎进土里。

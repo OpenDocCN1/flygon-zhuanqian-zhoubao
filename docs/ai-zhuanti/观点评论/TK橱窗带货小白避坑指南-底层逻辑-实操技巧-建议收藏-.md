@@ -28,10 +28,10 @@
 有了播放量之后，关键看商品浏览和点击。怎么提升点击？用一些“Only”“Just”“Today”之类的限时抢购词，比如“原价999美金，限时5美金拿走”，这种文案很能骗点击。但这个套路除了美国外都可以玩，美国风控严格会判违规。英国目前还能玩，还没有处罚。
 总结一下：发视频→有播放→有商品浏览→有商品点击→就有成交。别被那些复杂的归因细节绕晕，只要记住：多发布视频，重点看商品点击数据，根据数据调整视频内容和选品，点击上去了，出单就不远了。
 这里有个真实案例。有个账号3月31号之后低播，每天发一两条实拍内容养号，十来天里陆续有几个订单。4月10号号因为内容低质被封禁了。4月13号新号突然出了一单，但看数据商品浏览是0，说明不是视频成交的，极有可能是用户之前加购了商品，后来在其他渠道成交，归因给了这个号。这就证明了TK确实有归因逻辑存在。所以，坚持发高质量作品，关注商品浏览和点击，出单是必然的。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_38e0bcbb205cab4ca15cae1b2df2de58.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d43fd283e3b98ab6b6dd4c0e064e8016.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ec1bbd67aa02ecf200d253711159760b.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0a703caf69f8ef72ff7fc17c57b53bfd.png>
+![](img/zhuanqian_38e0bcbb205cab4ca15cae1b2df2de58.png)
+![](img/zhuanqian_d43fd283e3b98ab6b6dd4c0e064e8016.png)
+![](img/zhuanqian_ec1bbd67aa02ecf200d253711159760b.png)
+![](img/zhuanqian_0a703caf69f8ef72ff7fc17c57b53bfd.png)
 ### 3. 国家怎么选？成本和风险要清楚
 先声明，我只做过英国和美国，东南亚、西班牙、墨西哥这些开通了橱窗的国家我不了解，就不乱说。
 如果你兼职，推荐东南亚。东南亚市场出单快，投入低，来钱快，就是利润薄一点。
@@ -74,7 +74,7 @@ https://www.yeyucloud.com/215 （无小火箭）
 - 人脸识别用自己的，按提示眨眼、转头，光线充足，脸别遮挡。
 - 上传身份证或护照，老外资料可以买，自己的护照也行，填写姓名证件号和有效期。
 - 信用卡验证支持很多第三方支付机构。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b79cf207f53a05cd0934b46cfb0a7028.png>
+![](img/zhuanqian_b79cf207f53a05cd0934b46cfb0a7028.png)
 ### 5. 选品和视频创作的实用方法
 选品要有原则：以用户需求为导向，符合平台特性，优先考虑变现效率，实用性强的品更容易出单。可以借助工具辅助选品。
 视频剪辑有个公式：70%产品展示 + 20%场景 + 10%促销信息。拍带货视频可以用模板：开头3秒痛点展示，中间5秒产品演示，最后2秒行动号召。发布时注意选择商用音乐，避免侵权。
@@ -121,9 +121,9 @@ https://www.fastmoss.com/dashboard?refCode=ZM1788
 ### 实操拆解
 以fastmoss为例：
 #### 新品筛选：美区
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_05c911f68d3ff063fc8d580f176b4159.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2175ec363721194b1a8f0bbc6ea68575.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_62f99d20d9e4f77ce161c3e40c3c11bb.png>
+![](img/zhuanqian_05c911f68d3ff063fc8d580f176b4159.png)
+![](img/zhuanqian_2175ec363721194b1a8f0bbc6ea68575.png)
+![](img/zhuanqian_62f99d20d9e4f77ce161c3e40c3c11bb.png)
 品链接：https://www.fastmoss.com/zh/e-commerce/detail/1730953685536772473
 该链接基本符合要求，但能否真正爆发还需看移动端加购表现。
 加购是重要转化信号，结合欧美及国内女性购物习惯，提升抢爆单概率。
@@ -131,12 +131,12 @@ https://www.fastmoss.com/dashboard?refCode=ZM1788
 关注两点：成交截图与商品点击：
 有成交可再连发3天观察趋势
 点击率>5%且播放>500才有参考价值，第二天可再发1条，结合归因逻辑判断。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c366745654577e5244cc410cd4379d4f.png>
+![](img/zhuanqian_c366745654577e5244cc410cd4379d4f.png)
 * * *
 ### 新号新品五天反馈：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_605d98cd5b38cd862ac6bdfb29a56161.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c92da90ef987633708797cda55881259.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_27b9955929c0b7101192e33aa484a6ed.png>
+![](img/zhuanqian_605d98cd5b38cd862ac6bdfb29a56161.png)
+![](img/zhuanqian_c92da90ef987633708797cda55881259.png)
+![](img/zhuanqian_27b9955929c0b7101192e33aa484a6ed.png)
 美区挑品相对容易，英区难度更大，但逻辑相通。英区参考：
 库存>300，避开测品店
 佣金<60%，佣金异常高大概率为测品
@@ -145,16 +145,16 @@ https://www.fastmoss.com/dashboard?refCode=ZM1788
 * * *
 第2天4.7日：3个号当天未发作品，其中一条播放破1000，又出2单，选品如此顺滑。
 当天重在做内容，未做投放测试。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d1e3de9063fdb6c3bfb225471589f689.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cc1c802531c4db2a624dca13323ef40c.png>
+![](img/zhuanqian_d1e3de9063fdb6c3bfb225471589f689.png)
+![](img/zhuanqian_cc1c802531c4db2a624dca13323ef40c.png)
 * * *
 第3天4.8日：2个号各发2条AI动态，时长8-9秒，操作极简，均播约1000，成交4单。旁边的拼接AI视频播放破3000，持续发布仍可出单。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0f2f146599984aadf70eed4855dafe8e.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2cddc8ee71ff13df004feda0994571a0.png>
+![](img/zhuanqian_0f2f146599984aadf70eed4855dafe8e.png)
+![](img/zhuanqian_2cddc8ee71ff13df004feda0994571a0.png)
 内容如此简单也能成交？我的感受也是，这质量也能出单？音乐用TK自带，剪映简单拼接。
 第4天4.9日：2个号各发2条同类AI动态，均播约200，成交3单。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2aa7721e5803546a3e6c1d46c186aecc.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f2df323945d57381fe525978150d5048.png>
+![](img/zhuanqian_2aa7721e5803546a3e6c1d46c186aecc.png)
+![](img/zhuanqian_f2df323945d57381fe525978150d5048.png)
 * * *
 ### 五天收益汇总
 账号1五天：出4单，2.98$*4 + 抹布3单4.5$ =16.42$≈120元
@@ -163,7 +163,7 @@ https://www.fastmoss.com/dashboard?refCode=ZM1788
 账号1视频：2条抹布+6条衣服
 账号2视频：2条抹布+6条衣服
 账号3视频：2条抹布
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_792e5759759737a7acef05e686aed4a7.png>
+![](img/zhuanqian_792e5759759737a7acef05e686aed4a7.png)
 总收入：120+83+14=217元。没发作品那天也回本不少
 仅五天挣200多，看似不多。但成本：3部手机600*3=1800，3个号700*3=2100，合计3900多。
 核心是投入产出：
@@ -180,8 +180,8 @@ https://www.fastmoss.com/dashboard?refCode=ZM1788
 该品该内容是我用来测试美区审核下限的，同样能出单。你视频做得比我好，出单率必然更高。
 原本3个号测试，后因杂事调为2个号。日更2条，播放不过千，稳定日出2-3单。按3单*3$*30天=270$=1980元，账号成本即回本。
 做短视频带货会遇到低播、断流、掉车、违规等正常挑战，保持心态，逐步优化即可。视频下限可参考上述新号案例。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5c67271d3028d0068068d00eed067915.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_577f14b7be41babc35c48780f8b85280.png>
+![](img/zhuanqian_5c67271d3028d0068068d00eed067915.png)
+![](img/zhuanqian_577f14b7be41babc35c48780f8b85280.png)
 * * *
 ### 收益补充
 4.10日未发作品出单汇总：
@@ -191,10 +191,10 @@ https://www.fastmoss.com/dashboard?refCode=ZM1788
 合计29.07$≈212元。未发作品也能吃到品的长尾流量。
 核心逻辑：商品销量爬升时，你的视频会因关键词/话题被搜索到，带来精准转化。出单后推流机制启动，播放量上涨，流量更精准。
 数据参考：左侧账号昨日900播放出6单，右侧商品数据显示新增浏览70，点击4，成交2。视频归因与选品逻辑高度吻合。多实操10个品后数据规律就会清晰。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cb749c65e50c82d74e845f99a7be2cde.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0fe92fead542907ede58435db0869376.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_eaf6cf8a3b419b29e5a2bd874a95087a.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_15cbe1ad001c53852513d08082a2e90c.png>
+![](img/zhuanqian_cb749c65e50c82d74e845f99a7be2cde.png)
+![](img/zhuanqian_0fe92fead542907ede58435db0869376.png)
+![](img/zhuanqian_eaf6cf8a3b419b29e5a2bd874a95087a.png)
+![](img/zhuanqian_15cbe1ad001c53852513d08082a2e90c.png)
 * * *
 4.11日未发衣服出单汇总：
 账号1：1单 佣金26.54$
@@ -205,12 +205,12 @@ https://www.fastmoss.com/dashboard?refCode=ZM1788
 账号1：2单 佣金5.96$≈43元
 账号2：0单
 账号3：0单
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0fa440cffc72a8743143155f75e7383a.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_956ee0616e6d4d8f1d608ec8268ac06e.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d391bd9784929eae850b0b6662bd339f.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3a674cc94beadca42f99eddc77ba505d.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a900b44ca38fd92c3b8af0e7d8f78601.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2d0411a7b0152493ee60578af6ae0c7e.png>
+![](img/zhuanqian_0fa440cffc72a8743143155f75e7383a.png)
+![](img/zhuanqian_956ee0616e6d4d8f1d608ec8268ac06e.png)
+![](img/zhuanqian_d391bd9784929eae850b0b6662bd339f.png)
+![](img/zhuanqian_3a674cc94beadca42f99eddc77ba505d.png)
+![](img/zhuanqian_a900b44ca38fd92c3b8af0e7d8f78601.png)
+![](img/zhuanqian_2d0411a7b0152493ee60578af6ae0c7e.png)
 4月5日发视频，4月6日出单，随后因持续成交推流3天，共收益752元，一个号成本已回。
 吃趋势品长尾流量，植入关键词+长尾词，销量带动视频推流，形成成交-流量正循环。
 提升日均视频数和选品数，出单概率自然提升。
@@ -219,19 +219,19 @@ https://www.fastmoss.com/dashboard?refCode=ZM1788
 我测试时风格随意，越快越好，用来测账号权重下限。你们可精剪，质量提升百倍，出单会更快。
 后续会更新账号权重与流量的关系及解决方案，以上仅作参考。
 #### 老品筛选：美区
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_009130fc06cc510453a883c3ec7557bc.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7a8ac868e6f3af4b9fab223e6a2fbe18.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0c3c6595890033d139a7403d9f0c7f0a.png>
+![](img/zhuanqian_009130fc06cc510453a883c3ec7557bc.png)
+![](img/zhuanqian_7a8ac868e6f3af4b9fab223e6a2fbe18.png)
+![](img/zhuanqian_0c3c6595890033d139a7403d9f0c7f0a.png)
 品链接：https://www.fastmoss.com/zh/e-commerce/detail/1730874056973914698
 各项数据正向，必选。
 3.5日2个本土号反馈：
 1个号出3单，次日再出1单
 另1个号出1单，佣金合计7.5$
 平均播放500左右，当天仅各发2条混剪测试。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cd729e689289f0df07548731a1a2e29f.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_646786bf80c3c45fbed7183143ad4794.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_455f14ed451a558bd6214bc8538881b5.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d0b15243409f357fa286a7dbbe633dfc.png>
+![](img/zhuanqian_cd729e689289f0df07548731a1a2e29f.png)
+![](img/zhuanqian_646786bf80c3c45fbed7183143ad4794.png)
+![](img/zhuanqian_455f14ed451a558bd6214bc8538881b5.png)
+![](img/zhuanqian_d0b15243409f357fa286a7dbbe633dfc.png)
 英国逻辑同美国，品类相对少，按此路径也能找到爆品。
 #### 如何稳定爆单
 测品打法：按上述方法持续找品，新号3-5天内即可出单，视频质量要求并不高。
@@ -247,20 +247,20 @@ https://www.fastmoss.com/dashboard?refCode=ZM1788
 ### 素材三板斧
 #### 工具找素材：
 特看/fastmoss上可直接找素材。以上述两款为例，复制商品标题搜热门视频，或在商品页下方进入视频下载。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fa22af3315d59aefbea28c58b5b5252e.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_76d62f44f38121a2af3acfa5688741e3.png>
+![](img/zhuanqian_fa22af3315d59aefbea28c58b5b5252e.png)
+![](img/zhuanqian_76d62f44f38121a2af3acfa5688741e3.png)
 #### 平台找素材：
 TK搜索：复制标题在TK搜，注意达人常多条发布。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f3573afedbc94de185d198b9a05e8c7b.png>
+![](img/zhuanqian_f3573afedbc94de185d198b9a05e8c7b.png)
 国内抖音：翻译标题后搜关键词组合。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_137c5e7371f9eab5ec1a911dca3a02be.png>
+![](img/zhuanqian_137c5e7371f9eab5ec1a911dca3a02be.png)
 小红书：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_347f5b74d0a680c301b734f2419b9f06.png>
+![](img/zhuanqian_347f5b74d0a680c301b734f2419b9f06.png)
 #### AI生成素材：
 即梦、可灵、海螺等均可，提示词需优化。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_697551410831d9dfef9a26895510198c.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_923fe89769538f5d09374b087e95d9c3.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bd00f22fa9bf5b48af0911a474147b5b.png>
+![](img/zhuanqian_697551410831d9dfef9a26895510198c.png)
+![](img/zhuanqian_923fe89769538f5d09374b087e95d9c3.png)
+![](img/zhuanqian_bd00f22fa9bf5b48af0911a474147b5b.png)
 AI目前仅代表内容下限，非优质内容，不建议直接模仿。后续技术升级后，原生感更强的内容会更好。抖音已有大量AI带货案例可参考。
 ### 工具合集
 TK涨粉渠道：zhumeng.smmpop.net
@@ -288,8 +288,8 @@ topview.ai：海外版体验不错，就是价格感人，一个字贵。想自�
 （美区不建议用）
 https://www.tiktok.com/@saffyawan 月3k
 https://www.tiktok.com/@saffyawan
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b99c72987ebe395c65acae6e3faa0ec0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f4c095a84bfe4db08ed644f15ac70981.png>
+![](img/zhuanqian_b99c72987ebe395c65acae6e3faa0ec0.png)
+![](img/zhuanqian_f4c095a84bfe4db08ed644f15ac70981.png)
 思路其实很简单，把店铺商品图导出，用剪映套一下成片，上面的账号数据就是店铺和订单实绩。用来做选品筛选也很好，这类视频本来就能成交，你做的只会更稳！！！
 ### 商品贴图玩法
 （美区最好别用）
@@ -305,8 +305,8 @@ https://www.tiktok.com/@saffyawan
 10. 再叠2条9秒实拍置顶，透明度调2，做成画中画效果，这两条实拍每天换一批
 11. 加清晰滤镜
 12. 用转场把衔接打顺，全片保持连贯，60帧导出。参数固定后，下一条直接套用模板拖拽就行。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1fbdd9ef2b86b46790fb3986544877bb.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_25fc92079f598735844feb6c5a742b53.png>
+![](img/zhuanqian_1fbdd9ef2b86b46790fb3986544877bb.png)
+![](img/zhuanqian_25fc92079f598735844feb6c5a742b53.png)
 贴图玩法风险提示：
 美区尽量少碰，爆单容易但封号风险高。
 英区也快要凉了，现在还能蹭点流量。
@@ -352,8 +352,8 @@ https://www.tiktok.com/@twinkt612/video/7478607183882603806?is_from_webapp=1&sen
 8. 叠2条15秒实拍置顶，透明度5以内不遮挡，做画中画，每天换
 9. 清晰滤镜，可多加几层，滤镜强度调到1
 10. 转场衔接顺滑，60帧导出，模板固定后复用
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a3682d91530b0a56292a55b8ea9b4960.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3eff2e963902e0b384a4cb7dc4d91679.png>
+![](img/zhuanqian_a3682d91530b0a56292a55b8ea9b4960.png)
+![](img/zhuanqian_3eff2e963902e0b384a4cb7dc4d91679.png)
 补充：这条视频音频我后来换了，导入TK后换成热门音乐，你们可以自己配音或导入TK再加
 素材来源一半抖音一半小红书，TK原生素材感更强
 注意美区混剪尽量别露人脸，眼睛以下最好遮住
@@ -388,15 +388,15 @@ topview：贵，模板偏死板，数字人+配音部分可参考
 发布时间选商用音乐
 上传后手机端右下角可调音乐/原声音量
 话题带：#fyp#商品标题#商品关键词 #流量话题
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_af438cfd073128ca6598c9da21376faf.png>
+![](img/zhuanqian_af438cfd073128ca6598c9da21376faf.png)
 # 九、橱窗回款
 ### 实名认证
 TK美区橱窗拿到后需18岁验证，得找服务商买一套海外驾驶证资料，市场价约50，包含正反面照片、人脸、SSN税号
 提现时也要重新提交，按服务商文本对照翻译即可
 一般一证多用，分辨不出来，当然绑定人数越少越安全
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d73057c40d66279af37b51af1046343f.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6788452f109ba78550f49c997886a05c.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5ddc4dafd5053092d64f9ea7e3638038.png>
+![](img/zhuanqian_d73057c40d66279af37b51af1046343f.png)
+![](img/zhuanqian_6788452f109ba78550f49c997886a05c.png)
+![](img/zhuanqian_5ddc4dafd5053092d64f9ea7e3638038.png)
 ### 回款渠道
 #### TK官方 MCN/TAP回款
 MCN：

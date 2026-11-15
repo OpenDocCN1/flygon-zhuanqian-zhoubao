@@ -20,9 +20,9 @@
 ## 快手可灵（强烈推荐）
 官网有两个模型，但API目前只开放了v1.0。实测质量很高，适合批量生产高质量视频。缺点是并发低：普通账号3个，套餐内5个，生成一个视频要几分钟。
 价格：试用60元只能买一次，正式版3万起步——摆明了先让你试，觉得好再掏钱。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5303f8aa5ad87515fc7769de6b966fff.png>
+![](img/zhuanqian_5303f8aa5ad87515fc7769de6b966fff.png)
 注意不同模型价格不同，1元/次是最低保底消费。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6a6adf377c832f54337dda43689ea37b.png>
+![](img/zhuanqian_6a6adf377c832f54337dda43689ea37b.png)
 付款后记得**关掉🪜**，否则控制台页面打不开：https://klingai.kuaishou.com/console
 官网没给现成的lib，我手写了一个，改成自己的key和secret直接就能用。
 ```
@@ -132,16 +132,16 @@ data = {
 成品效果：
 ## 抖音即梦
 79元/月，目前**没有API**，不能自动化生成，这一点就直接劝退了。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_102701837c75b1502bff66068c14fded.png>
+![](img/zhuanqian_102701837c75b1502bff66068c14fded.png)
 ## 通义万相
 没有API，生成一个视频要等10分钟左右，但免费，签到一次可生成10个视频。
 https://tongyi.aliyun.com/wanxiang/videoCreation
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9c2c179e322f25fec5bafd542e360038.png>
+![](img/zhuanqian_9c2c179e322f25fec5bafd542e360038.png)
 ## 海螺AI
 国内版需要申请API并付费，文生视频/图生视频接口在MiniMax开放平台用，支持自助充值，3元/个，官方有完整代码。也可以用国际版，但支付需要visa/master卡，不太方便。
 ## Luma AI & Runway Gen3
 Luma做小猫做蛋糕这类效果还不错。Runway 15美元买124秒的Gen3 Turbo额度，试了同样提示词：“戴隔热手套的小猫从烤箱拿出蛋糕并保持平衡”，结果惨不忍睹。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_eca4ff45854cbb6cee4dcd59592978ca.png>
+![](img/zhuanqian_eca4ff45854cbb6cee4dcd59592978ca.png)
 ## 总结
 国内外视频模型各有千秋。**没亲自试之前，我也以为国外的月亮更圆。实测发现并不是这样——不同场景、不同画面，各有各的强项。**
 重点说下：**快手可灵表现最突出，尤其在动画方面。可灵有1.0和1.5两个版本，API目前只开放1.0，但完全够用了。**

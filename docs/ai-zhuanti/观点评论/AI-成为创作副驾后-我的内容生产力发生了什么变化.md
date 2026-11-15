@@ -4,7 +4,7 @@
 我对写作的感受很像这段故事。真正的高光时刻是进入心流时，思绪会自行绽放。如今强大的生成式模型正扮演那位天使，在思维的荒原里指引新方向。它成了我的Copilot，和我一起探索内容的新形态。
 超级个体创作的窗口正在打开。
 这一切加速的起点是今年7月11日的Claude 2。我亲自试用后，把它深嵌进日常工作流，效率直接跃迁。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1c1923fcc1c477f36a18289b14907160.png>
+![](img/zhuanqian_1c1923fcc1c477f36a18289b14907160.png)
 把模型用熟，就能拿到远超预期的红利。接下来用几组实操，说明我如何把Claude打造成内容生产的利器。
 看完你会清楚：
 💡 为什么首选Claude
@@ -20,7 +20,7 @@
 第二、第三点意味着批量文档分析成为现实，后面案例会展开。
 第四.评测分数很高，仅次于GPT-4
 在LMSYS的对话模型榜单中排名第二，排在GPT-4之后。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9c65bedceb4dd14adcf32f7cd8e02100.png>
+![](img/zhuanqian_9c65bedceb4dd14adcf32f7cd8e02100.png)
 换句话说综合能力很强，和ChatGPT基本同级，只比GPT-4略有差距。
 第五.具备自适应。每一次交互都在让它更懂我的偏好。
 第六.配合手感特别好
@@ -41,7 +41,7 @@ Claude出现后，我明显进入状态。过去写深度稿靠长时间沉淀�
 从过去的单打独斗，到现在身边常驻一个高智商且执行力强的搭档，这种交流感非常爽。心流也由此被点燃。
 # 03 用Claude完成深度长文的打法
 我曾写过《Bing+GPT，打造全新的搜索体验》。这次流程重新梳理后，变成下面这套：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6685c9d4b39269dca2b1bf117382c698.png>
+![](img/zhuanqian_6685c9d4b39269dca2b1bf117382c698.png)
 以产品分析为例，节奏大致如下：
 1. 先做产品体验。不上手写的东西都是空谈。
 2. 让Claude先出提纲。质量不一定惊艳，但常会蹦出几个意料外的小点。
@@ -51,7 +51,7 @@ Claude出现后，我明显进入状态。过去写深度稿靠长时间沉淀�
 6. 卡壳时让它抛灵感。遇到展开困难的段落，让它提供思路。
 7. 按大纲把主体填满。
 8. 结构复盘。让Claude审稿，它会指出重复、主线模糊等问题，我择优采纳。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d2e2fcd28364ffb9f0ff42acaa9476ce.png>
+![](img/zhuanqian_d2e2fcd28364ffb9f0ff42acaa9476ce.png)
 9. 主体再调整。该删就删，该重写就重写，这一步基本收敛。
 10. 开头结尾外包。主体导出后，让它基于内容写开头与结尾，开头抓人，结尾有余味。
 11. 开头结尾再人工润色，通常需要手动调。
@@ -67,33 +67,33 @@ Claude出现后，我明显进入状态。过去写深度稿靠长时间沉淀�
 年初我和两位朋友做过一个小红书小号，一个月涨到1800粉。现在想重启，如何把已有深度图文快速拆成笔记？
 Claude同样能胜任。
 第一步，请它提炼笔记正文：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c31a5f77a09a6e497c7c49d7a6dd1009.png>
+![](img/zhuanqian_c31a5f77a09a6e497c7c49d7a6dd1009.png)
 第二步，让它拆成若干张产品介绍图与若干张产品分析图：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a367b9d6f34fb11bbaef1d4f36181027.png>
+![](img/zhuanqian_a367b9d6f34fb11bbaef1d4f36181027.png)
 结合你自己的视觉模板，很容易做出多图笔记。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_abb2b0555ec7e640ce0d320442746773.png>
+![](img/zhuanqian_abb2b0555ec7e640ce0d320442746773.png)
 少文字多画面，一套模板复用，笔记产出效率直接上去。
 # 05 规律提取到创造性复用
 前面讲了长文创作和笔记拆解，这一节讲更通用的提炼规律能力，分三类。
 ## 爆款标题规律
 我做播客周更，同时追踪几档同类播客的数据。对方没有强社媒资源却涨得快，异常点在哪？我把播放量高的标题整理出来交给Claude，让它归纳模式：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9c30673416e183500f422b8ce2ed78c5.png>
+![](img/zhuanqian_9c30673416e183500f422b8ce2ed78c5.png)
 它很快总结出诸如100w、数字游民、X的Y、大揭秘等高频模式。
 找到规律后，我用通义听悟把自己的节目转成文字喂给Claude，让它按这些模式重写标题：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e9f4d8e59dc341ca027b613976c3199d.png>
+![](img/zhuanqian_e9f4d8e59dc341ca027b613976c3199d.png)
 微调后上线。我在即刻分享了这个方法，友台都惊了，“还能这么玩？”
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1c0e0d544a84b15ff3813703a35f66a4.png>
+![](img/zhuanqian_1c0e0d544a84b15ff3813703a35f66a4.png)
 效果显现。8.4到8.6，三天播放到订阅的转化均超30%，最高40%，之前是26%-30%。
 基数小需要长期验证，但方向是有效的。
 ## 提问规律提取
 做对谈播客，提问能力就是内容质量。同样用通义听悟转录全集喂给Claude：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d09eaeb1ec1295aec532ca4022189feb.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1f4b8b05837896c37896fbb36dae88f0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d4db4f469f4fb9a97711fc969c796e3a.png>
+![](img/zhuanqian_d09eaeb1ec1295aec532ca4022189feb.png)
+![](img/zhuanqian_1f4b8b05837896c37896fbb36dae88f0.png)
+![](img/zhuanqian_d4db4f469f4fb9a97711fc969c796e3a.png)
 提炼出高频提问套路后，我把它做成常规提问清单，用起来更稳。
 ## 访谈清单生成
 做《赚钱逆袭者》前采相当于彩排，正式清单在前采后定。以前靠自己硬想，现在先让Claude总结一版再优化：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_96369355d968cc30ae2892cf7f17fc4d.png>
+![](img/zhuanqian_96369355d968cc30ae2892cf7f17fc4d.png)
 来回两三次，清单就成型了。配合上一节的提问规律，效果更惊喜。
 # 06 为什么有效：理解加创作的闭环
 Claude能做这些，核心在于两大能力：

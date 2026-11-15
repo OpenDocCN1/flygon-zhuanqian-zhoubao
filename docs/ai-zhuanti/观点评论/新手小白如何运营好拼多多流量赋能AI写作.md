@@ -1,10 +1,10 @@
 # 新手小白如何运营好拼多多流量赋能AI写作
 大家好，我是龙哥。做过几年货架电商店群操盘，现在把大部分精力都放在 AI 方向上。很多朋友做 AI 写作变现，卡得最久的一步就是流量。这篇文章，我把自己在拼多多上跑通的获客方法完整梳理一遍，希望能给你一点参考。
 先放几张最近的部分数据截图：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_94d8da1924fc27cf6d2c98cf8e99e14c.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_675643943855a95449cdc4870a3020f6.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f9fe5efcee3af3eea743d7747e013f52.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1b09e6cd5c619e554a8f478c58608704.png>
+![](img/zhuanqian_94d8da1924fc27cf6d2c98cf8e99e14c.png)
+![](img/zhuanqian_675643943855a95449cdc4870a3020f6.png)
+![](img/zhuanqian_f9fe5efcee3af3eea743d7747e013f52.png)
+![](img/zhuanqian_1b09e6cd5c619e554a8f478c58608704.png)
 为什么我建议从拼多多切入？有优势，也有现实要看清。
 **一、优点很明显**
 1. 开店门槛低。对比淘宝、天猫，拼多多要简单不少。保证金目前是1000元，听说后面可能降到500元。对商品主图和补单的要求也不算高，基础配置做好后，店铺就能被动接到流量。
@@ -29,35 +29,35 @@
 1. **注册店铺**：打开拼多多商家后台，先点“立即0元开店”，填写资料时注意密码要同时包含大写字母、小写字母和数字。提交后，鼠标放到右上角头像下的三角位置，进入“店铺信息”去认证，按提示上传身份证、做人脸识别就行。
 这里提醒一句：如果手机号在拼多多上有过违规记录，最好别用，容易被关联导致开店失败。
 因为一张身份证能开3个店，所以注册步骤要重复3次，最后选其中一个店正式运营。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_083270e30f0728cebc4ce0ad1a05f8e1.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e8c60d8a7f69221cecac3e8f8ece6fa7.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6789163f046649817c062f141a20b729.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c392358bc12f8a47867d1a2cd8be0a68.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6aaebb45f483076505954eee3246bc44.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e75c42b2638999f542d283f0e9ceb694.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8813ba36a359d69e2c83177050e6b14a.png>
+![](img/zhuanqian_083270e30f0728cebc4ce0ad1a05f8e1.png)
+![](img/zhuanqian_e8c60d8a7f69221cecac3e8f8ece6fa7.png)
+![](img/zhuanqian_6789163f046649817c062f141a20b729.png)
+![](img/zhuanqian_c392358bc12f8a47867d1a2cd8be0a68.png)
+![](img/zhuanqian_6aaebb45f483076505954eee3246bc44.png)
+![](img/zhuanqian_e75c42b2638999f542d283f0e9ceb694.png)
+![](img/zhuanqian_8813ba36a359d69e2c83177050e6b14a.png)
 2. **交保证金、开推广**：把页面往下拉，找到推广平台里的“全站推广”，进去缴纳保证金，可以用微信支付。交完后重新进入“全站推广”，点“立即开户”，开户成功后再给直通车充值100元就能开始使用。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f88ee692953be9a49357ccf8172867b9.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c29c9fc5c89ef1e6de04bf7f068ef8e6.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_526311b1397cb611f5245b91ddcd1b26.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_36fa7c7d01d2fd938156db80dcea5f7e.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3b00a92fca86517b04e0cd6bc9b3ca17.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_961686666486ce81502932b6e125b38b.png>
+![](img/zhuanqian_f88ee692953be9a49357ccf8172867b9.png)
+![](img/zhuanqian_c29c9fc5c89ef1e6de04bf7f068ef8e6.png)
+![](img/zhuanqian_526311b1397cb611f5245b91ddcd1b26.png)
+![](img/zhuanqian_36fa7c7d01d2fd938156db80dcea5f7e.png)
+![](img/zhuanqian_3b00a92fca86517b04e0cd6bc9b3ca17.png)
+![](img/zhuanqian_961686666486ce81502932b6e125b38b.png)
 3. **设置自动回复和物流模板**：先到“消息设置”里的“开场白和常见问题”，把话术填进去。话术逻辑可以这样：先说明不接敏感违规类需求，再请客户只回复“需要多少字、什么时候交稿”两个关键信息；同时提醒客户不要发内容、格式等相关图片，以免踩到违规词。常见问题可以设置成敏感词说明、购买必看、工作时间（8:00-24:00）。
 接着在左侧导航栏找到“物流工具”，新建运费模板，按提示保存即可。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_01a7512c6859af84905d7565d8a202e4.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_447bf1455838e4a7bf754df1c6bee457.png>
+![](img/zhuanqian_01a7512c6859af84905d7565d8a202e4.png)
+![](img/zhuanqian_447bf1455838e4a7bf754df1c6bee457.png)
 4. **上架商品**：点击“发布新商品”，选择“文案代写”类目。这个类目分虚拟商品和普通商品，建议选普通商品，曝光效果会更好。把标红的必填内容填完整，商品主图可以参考同行自己制作，提交上架。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f21dc8f1462942bed3d685dc2a6079c5.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bd913eaaa3f9721389f36313be5c5b84.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5a973054c26f1a02c6638e3a01b0da2c.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b04efefc67950801827d118fb3920225.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1e2d14d79643de3e1b074104244a8753.png>
+![](img/zhuanqian_f21dc8f1462942bed3d685dc2a6079c5.png)
+![](img/zhuanqian_bd913eaaa3f9721389f36313be5c5b84.png)
+![](img/zhuanqian_5a973054c26f1a02c6638e3a01b0da2c.png)
+![](img/zhuanqian_b04efefc67950801827d118fb3920225.png)
+![](img/zhuanqian_1e2d14d79643de3e1b074104244a8753.png)
 5. **直通车运营**：找到“商品推广”，把成交出价方式改成“投产比成交出价”。刚开始所有链接的目标投产比都设为1，然后一键推广。简单理解：广告带来的成交额和广告费是1:1的比例。
 跑一段时间后看数据：如果商品有曝光但没询单，可以适当降低投产比；如果询单稳定，可以稍微提高投产比，这样能省花费。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3fe710862bb6a9af9a789f82ad9b208f.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f82a72cc7243bfe02a1ba9075f8368e0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e06fa6e67529ded72668b9556a877783.png>
+![](img/zhuanqian_3fe710862bb6a9af9a789f82ad9b208f.png)
+![](img/zhuanqian_f82a72cc7243bfe02a1ba9075f8368e0.png)
+![](img/zhuanqian_e06fa6e67529ded72668b9556a877783.png)
 **五、询单转化和风险控制**
 这是新手最容易翻车的地方。
 - 顾客来咨询时，先问清楚：多少字数？什么时候要？有没有通知文件？
@@ -68,26 +68,26 @@
 - 聊天时只要平台弹出违规提醒，立刻停止继续沟通，直接表示拒绝或举报。
 - 绝对不要发引流词或谐音，微信、QQ、电话、短信等相关表达都不行；平台里也不能直接发图片和文件，系统会审核。宁可少接一单，也不要让店铺被限。
 - 可以把常用话术设成快捷回复，减少客服工作量。比如两档报价：普通质量XX元，含X次免费修改；高质量XX元，包修改满意。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e0d576e5aa51368d6e859e217e521000.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1f14cda204929243ca3a3d37e699e372.png>
+![](img/zhuanqian_e0d576e5aa51368d6e859e217e521000.png)
+![](img/zhuanqian_1f14cda204929243ca3a3d37e699e372.png)
 **六、交付方式**
 交稿尽量走邮箱：用固定话术让客户留邮箱，并给个理由，比如“交付时需要发压缩包”。然后用邮箱把文件发过去。手机端可以用“网易邮箱大师”处理邮件。
 PC端发货可以用礼品代发网站，选择便宜的仓和礼品，把店铺后台的收件人信息填进去，生成快递单号后，复制到拼多多后台发货即可。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3df0350f1fe6b01ef03bd64103724d33.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ddfb5fc3664c689460d5c60a4d2fd859.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6479ff4a570cfcd121768e37e56313d9.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1b5cc7fa0faa215469169ba3f97964ad.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ce1b469bed82817cd32d92cdf550727b.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_610ba9870d4a1c31484c31c53f0c18f8.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2d1fcab756fadffbd9a2b2e2fa768b24.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d9b1d40075e67b33d9cef7599b0ccb9a.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_956ff1ec88a3822794d6f14028261d41.png>
+![](img/zhuanqian_3df0350f1fe6b01ef03bd64103724d33.png)
+![](img/zhuanqian_ddfb5fc3664c689460d5c60a4d2fd859.png)
+![](img/zhuanqian_6479ff4a570cfcd121768e37e56313d9.png)
+![](img/zhuanqian_1b5cc7fa0faa215469169ba3f97964ad.png)
+![](img/zhuanqian_ce1b469bed82817cd32d92cdf550727b.png)
+![](img/zhuanqian_610ba9870d4a1c31484c31c53f0c18f8.png)
+![](img/zhuanqian_2d1fcab756fadffbd9a2b2e2fa768b24.png)
+![](img/zhuanqian_d9b1d40075e67b33d9cef7599b0ccb9a.png)
+![](img/zhuanqian_956ff1ec88a3822794d6f14028261d41.png)
 **七、被三级限制后怎么办**
 如果因为触碰敏感词被平台判定三级限制违规，不要硬撑，第一时间去“商家后台-店铺管理-退店”提交申请。等退店条件满足后，按流程操作，把保证金拿回来，及时止损。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_38a9c784eb328a9e482e0c46b6e52c26.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_53977096144a4ab32ac8eb359bcb3003.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_69e847bcac4c28c17d0e0ac6e8228838.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_eb94775a8a03a718920d1c697870dcdf.png>
+![](img/zhuanqian_38a9c784eb328a9e482e0c46b6e52c26.png)
+![](img/zhuanqian_53977096144a4ab32ac8eb359bcb3003.png)
+![](img/zhuanqian_69e847bcac4c28c17d0e0ac6e8228838.png)
+![](img/zhuanqian_eb94775a8a03a718920d1c697870dcdf.png)
 **最后说两句**
 我自己有多年电商经验，换到这个新赛道后还是踩了不少坑，尤其是敏感词和交付环节，连我也被提醒过好几次。希望这篇文章能帮你少走弯路。
 也感谢赚钱，感谢龙哥，让我在这个圈子里认识了很多优秀的人；特别感谢海盐老师，在 AI 这条路上让我看到了更多可能性。

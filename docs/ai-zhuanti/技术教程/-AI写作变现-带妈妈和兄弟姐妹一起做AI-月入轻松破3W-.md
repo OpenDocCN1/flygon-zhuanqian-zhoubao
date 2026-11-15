@@ -1,5 +1,5 @@
 # 【AI写作变现】带妈妈和兄弟姐妹一起做AI，月入轻松破3W+
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ca90cbd41766c6a951399d1aac7f451b.png>
+![](img/zhuanqian_ca90cbd41766c6a951399d1aac7f451b.png)
 * * *
 大家好，我是龙哥，2024年4月选择裸辞All In AI，个人定位如下：
 *   🎖️ 前特种兵
@@ -18,10 +18,10 @@
 非常感谢赚钱这个平台，让我完成了认知升级，撕开信息差，实现破圈。赚钱这两个月的学习密度，抵得上我过去好几年的经验积累。
 可以说，没有赚钱，就没有现在的我！！！
 在慢慢老师的带教下，我开启了AI写作变现之路，仅仅两个月后单月流水就突破了2.6W！！
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0438840907a080d762ef2a23d0aadcfd.png>
+![](img/zhuanqian_0438840907a080d762ef2a23d0aadcfd.png)
 我的成长离不开我的导师：李慢慢老师
 当时群里慢慢老师提出的三大核心价值观，我至今非常认同：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5fc9dbc882109ea7f3d712e9b6ebda9f.png>
+![](img/zhuanqian_5fc9dbc882109ea7f3d712e9b6ebda9f.png)
 # 前言：AI时代的内容红利
 2023年AI发展迅猛，对各行各业的冲击都是颠覆级的。
 内容创作是AI最先落地的赛道之一，也最能直观感受到变化的冲击。
@@ -38,8 +38,8 @@ AI创作已经成为可依赖的副业，甚至是很多人的主业。
 当然AI并非万能，也有明显短板。
 以上是我个人的心路历程，今天更想重点分享的是，我是如何帮助身边的朋友实现变现的。
 接下来我们用理性客观的视角看看AI怎么运作，以及如何驾驭它抢占新赛道先机。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_be0ba7777725b7001ee331c3eea75a27.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9489ac978c5356025138eb595cf804fc.png>
+![](img/zhuanqian_be0ba7777725b7001ee331c3eea75a27.png)
+![](img/zhuanqian_9489ac978c5356025138eb595cf804fc.png)
 # 第一章：AI写作到底是什么
 AI写作，简单说就是借助人工智能技术完成文字内容的创作。把写作任务交给AI，它就能按你的要求自动生成符合需求的文章。
 原理是什么？
@@ -53,7 +53,7 @@ AI拿到信息后，基于海量语料和预设的写作逻辑，自动生成文
 AI只做到初稿阶段，还需要人工复核。检查思路是否清晰、论据是否充分、表达是否恰当，去掉AI味儿，让文章更自然有人情味。
 就我个人而言，这半年多累计产出上百篇文章、提示词、视频逐字稿，覆盖分享稿、长文、视频文案、图文等。AI贡献了效率，但把关和打磨靠我自己。
 通过人机协作，我完成了大量高质量写作任务，副业收入可观，同时写作能力也得到升级。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0e13112fe2d420a12cb8baf252e5c26f.png>
+![](img/zhuanqian_0e13112fe2d420a12cb8baf252e5c26f.png)
 需要承认，AI写作并非完美。优点和缺点都很明显：
 优点：
 1.  效率极高，短时间内可批量生产，大幅节省人力。
@@ -66,16 +66,16 @@ AI只做到初稿阶段，还需要人工复核。检查思路是否清晰、论
 1.  僵硬感强，行文容易刻板，缺灵动性。
 所以要辩证看待：发挥长处规避短板。它是提升效率和质量的利器，但无法替代人的创造性思维。关键在于学会驾驭它，用它赋能自己，同时保持主体性和独特性。
 接下来我会从切入点、流程、变现思路等角度，分享我的实操经验，以及朋友们靠AI写作变现的心得。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6effb83995380e459f074a2eb08c75c7.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fa109b7b9bc7ba4eb7a6e128c99cd3a0.png>
+![](img/zhuanqian_6effb83995380e459f074a2eb08c75c7.png)
+![](img/zhuanqian_fa109b7b9bc7ba4eb7a6e128c99cd3a0.png)
 # 第二章：玩转AI写作的四大关键
 ## 1、切入点选择：先做细分垂直再做扩张
 AI写作范围极广，不同领域对文笔要求和套路差异很大。比如商品描述，数码、美妆、房产的写法完全不同。
 入门建议先锁定一个细分赛道深耕，比如个人文章、公文、自媒体文案、简历、工作总结等。这些门槛不高、需求量大，容易上手。积累经验后再横向拓展，形成“一专多能”的路径。
 不同风格需要不同套路，多看多模仿，找到自己的定位。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9506416d1dcbfe2f696ce771fc8f6053.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c2bca0d8c9a27ea127ee72c26f331f31.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3986354ab321b3f972dda2fe6124d68c.png>
+![](img/zhuanqian_9506416d1dcbfe2f696ce771fc8f6053.png)
+![](img/zhuanqian_c2bca0d8c9a27ea127ee72c26f331f31.png)
+![](img/zhuanqian_3986354ab321b3f972dda2fe6124d68c.png)
 ## 2、工具选择：国内外主流AI写作工具对比
 工欲善其事必先利其器。工具要易用、高效、价格合理。
 目前主流的有国外GPT、Claude，国内kimi、文心一言、通义千问等，都基于大语言模型进行自动创作和编辑。
@@ -88,8 +88,8 @@ AI写作范围极广，不同领域对文笔要求和套路差异很大。比如
 # 切记一定要先收钱再干活！
 # 切记一定要先收钱再干活！
 # 切记一定要先收钱再干活！
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_548dcc4c53f9a9c504e8050c9b041b0b.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_304e9c089d669f932054fa5b70362745.png>
+![](img/zhuanqian_548dcc4c53f9a9c504e8050c9b041b0b.png)
+![](img/zhuanqian_304e9c089d669f932054fa5b70362745.png)
 第二步用AI工具做初稿。把沟通好的要求翻译成AI能理解的指令，通常用关键词、标题、提纲输入。我一般会让AI生成多个版本，再挑一个做底稿。
 这个环节只要把需求讲清，发给AI即可。角度、语气、字数等都要明确。
 下面给一个起步Prompt供参考：把prompt交给AI，再把客户需求一起给，它就能把需求转译成具体写作指令。注意AI输出仅供参考，最终仍需人工修改。
@@ -138,8 +138,8 @@ AI写作范围极广，不同领域对文笔要求和套路差异很大。比如
 一开始就要约定好修改次数，包改的话适当提高报价！
 不然后期擦屁股会很痛苦！
 切记切记！
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_595d7afc8cd7dbe77bf078b232329b6e.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3582e402803be3bdf7cbdcd0f2d74753.png>
+![](img/zhuanqian_595d7afc8cd7dbe77bf078b232329b6e.png)
+![](img/zhuanqian_3582e402803be3bdf7cbdcd0f2d74753.png)
 有些任务一轮AI就能完成，有些需要多轮人机迭代。但核心不变：人的创造力 + AI的生产力协同共振。
 提示词设计也至关重要，它直接决定输出质量。好的提示词要包含背景信息、写作要求、情感基调，让AI精准理解你的意图。
 例如为科技产品发布会写主持稿，我会引导AI按以下模块输出：
@@ -148,7 +148,7 @@ AI写作范围极广，不同领域对文笔要求和套路差异很大。比如
 *   情感：科技感、前沿感、专业权威、用户关怀
 *   风格：专业、幽默、流畅、互动性强
 不确定模块时，可以先问AI：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0b77656f2ffc5777161f4dda269d2409.png>
+![](img/zhuanqian_0b77656f2ffc5777161f4dda269d2409.png)
 拿到模块清单后再逐条问客户！
 ## 4、写作套路：不同文体的通用框架
 写作是套路之学。不同体裁有不同框架，同一主题也可以有不同思路。
@@ -166,9 +166,9 @@ AI写作正好踩在了内容创业和知识付费的风口，能提升产出效
 做成一单后容易建立长期关系，会有转介绍和复单，还能给客户转介绍佣金激励。
 个人客户单价不高但来源灵活。闲鱼、小红书、抖音、朋友圈、社群里到处都是潜在客户，善于挖掘就能积少成多。
 例如我的好兄弟，教他当天在小红书截流，当晚就变现160+
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_95ec40acea58e8d7644e0b489d18b3de.png>
+![](img/zhuanqian_95ec40acea58e8d7644e0b489d18b3de.png)
 例如另一个朋友，从小白0-1，半个月变现2W+
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5b5d7ef75fec2259d84787349f2e01ff.png>
+![](img/zhuanqian_5b5d7ef75fec2259d84787349f2e01ff.png)
 所以想都是问题，行动才有结果！！！干就对了！！！
 AI就是【全领域哈佛博士】，有这样一个后盾，你还在怕什么？？？？
 ## 身边朋友的真实分享，以及我妈妈的发声：
@@ -183,13 +183,13 @@ AI就是【全领域哈佛博士】，有这样一个后盾，你还在怕什么
 阿星带着我在分享平台上发广告、蹲留言区，第一次摸到赚钱的门道。
 **第一笔订单**
 一个高中生发来私信，请我帮忙续写一篇英语作文。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b76d7e6babc7e230e0c887d5831343fc.png>
+![](img/zhuanqian_b76d7e6babc7e230e0c887d5831343fc.png)
 **质量变好**
 后来发现一个收集提示语的资源站，把里面的指令拿来用了之后，拿出的货明显更耐看了。
 **第一次赚到钱**
 尝到甜头后，我趁热打铁，把账号从一扩到三，单子数量唰唰上涨。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_27056c8113a9854b24a6d1cd7b78e1bf.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fcdcaa4ee291315b8d0a65b3325318f4.png>
+![](img/zhuanqian_27056c8113a9854b24a6d1cd7b78e1bf.png)
+![](img/zhuanqian_fcdcaa4ee291315b8d0a65b3325318f4.png)
 **踩坑回忆**
 刚开始我回复留言太硬，账号挨了整整一个月的封禁。在这里提醒各位，留言时的措辞和频次一定要讲究。
 **老带新**
@@ -226,31 +226,31 @@ AI的名声我早听过，身边有朋友靠它翻身，我很眼馋，只是那
 **服务和回头客**
 接单只是开头，服务决定复购。我不靠AI一把梭，而是先借它把草稿生成到八成，再自己动手润一润。🎉
 交稿前我会反复检查很多遍，改到自己放心为止。我是真心盼着每篇稿子都能让买家点头。买家点头了，自然会再来。现在我的大部分收入，都来自老主顾的复购。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_82844642c05ad80d62a914533abcb9a6.png>
+![](img/zhuanqian_82844642c05ad80d62a914533abcb9a6.png)
 **谈单的私房心得**
 1. 把买家当朋友处：别太看重一次成交，心态放松反而有惊喜；就算这单黄了，后面还有机会捞回来。
 2. 黏性怎么养：我聊天随意，年轻学生很吃这一套。他们问点小事情，我都耐心答，眼里不是只有钱。能帮的小忙顺手就帮，时间久了，他们想走也走不脱。😂
 3. 客户是人脉：处成朋友，他们会回头加转介绍，还会随手丢给我新的代写线索。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5c3a38454d8668fe6e00fdae6e23404b.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1d23d4ef3ed45d0ff05ead7da826e23a.png>
+![](img/zhuanqian_5c3a38454d8668fe6e00fdae6e23404b.png)
+![](img/zhuanqian_1d23d4ef3ed45d0ff05ead7da826e23a.png)
 **谢谢与收获**
 能有这些收入，真的要感谢那位引路人。我搞不定的麻烦，他都会接手。有一回连改了四版，客户的导师依然不满意，稿子被退回重写，我心里又急又怕，他一句“我来处理”让我安了心。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_982ebcbdcfe4638a7eb243d77fdf07b6.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b59d730ea327914b05ac0814421f74db.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_348e596b76a0ccf2c33f911fa384b577.png>
+![](img/zhuanqian_982ebcbdcfe4638a7eb243d77fdf07b6.png)
+![](img/zhuanqian_b59d730ea327914b05ac0814421f74db.png)
+![](img/zhuanqian_348e596b76a0ccf2c33f911fa384b577.png)
 报这门课是今年最值的一笔投资。毕业不到一年，头一回手头这么宽裕。钱包里的数字，就算每周出门吃四天大餐，也照样撑得住。😎
 在他的课程里，谁都能把钱挣到手。像我这种话多又敢问的人，副业收入已经盖过正职。
 几笔订金和结算尾款的截图放在下方，感谢你读到这里！💖
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5d9262943ff8503cc7ea4a05161f1be8.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7c8230e4b61751fa5956c74bb2730803.png>
+![](img/zhuanqian_5d9262943ff8503cc7ea4a05161f1be8.png)
+![](img/zhuanqian_7c8230e4b61751fa5956c74bb2730803.png)
 ### 新手视角的智能写作副业从零到一
 **在平台运营的日子**
 我在分享平台和闲鱼都发过帖，效果一般，流量少还容易触碰规则。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1ac86bc4f615e85cad20e4a74fe5e8e7.png>
+![](img/zhuanqian_1ac86bc4f615e85cad20e4a74fe5e8e7.png)
 **过年时的探索**
 春节放假没事做，我就去平台翻别人的代写贴，看门道。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ebfc24cd1576d3a0c3e994cdc573be68.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3a72195f908f1804eb0f10d3324d4bc1.png>
+![](img/zhuanqian_ebfc24cd1576d3a0c3e994cdc573be68.png)
+![](img/zhuanqian_3a72195f908f1804eb0f10d3324d4bc1.png)
 **截流比发帖更香**
 实践下来，蹲别人的留言区比发帖有效得多。我挑一些新帖回复，问对方要不要代写。
 结果有一天回复完忘了回头看，白白放走了好几个潜在客户。
@@ -270,13 +270,13 @@ AI的名声我早听过，身边有朋友靠它翻身，我很眼馋，只是那
 3. 平台店铺多、单量大，拿来做练习正合适。顺便还能摸清整个产业的钱从哪来、单从哪里派、活由谁干，先搭一个微小的闭环，以后想放大就有底了。
 ## 最简单的启动路径
 马上打开购物App，输入“代写”，看销量榜，从高到低挑出50家店，每家发一句“申请当写手”。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3a924d9cea1185f6546f83b4a14595e0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4c0021543683e94c9fe89e240bd1fb66.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ae0412f8f25fe53cef8ef5c552372e36.png>
+![](img/zhuanqian_3a924d9cea1185f6546f83b4a14595e0.png)
+![](img/zhuanqian_4c0021543683e94c9fe89e240bd1fb66.png)
+![](img/zhuanqian_ae0412f8f25fe53cef8ef5c552372e36.png)
 多数店主会让你先拍件商品，再给你退款，顺带问几句情况。这不就等于白赚了访问量？简直聪明。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9ae761df3f4ddc4cee851b97f28aba3e.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a989e3ba7db426a787df6ec367df017d.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_40d22b39f7eebf819f4205171bd4846c.png>
+![](img/zhuanqian_9ae761df3f4ddc4cee851b97f28aba3e.png)
+![](img/zhuanqian_a989e3ba7db426a787df6ec367df017d.png)
+![](img/zhuanqian_40d22b39f7eebf819f4205171bd4846c.png)
 ## 注意细节
 a. 问及背景时不用紧张，可以套用：
 本科读中文，自由职业，擅长写各种文稿和辅导论文
@@ -310,29 +310,29 @@ c. 把搜索词换着来：
 打开购物App，搜“代写”“写稿”，找到排行榜最靠前的50家，挨个敲客服就对了。
 月销40万+这种数字看看就好：有水军刷的，有投流灌的，真正买家成交的只占一角。想拿准数，要么自己开家店去数，要么砸钱向别人买内部报表。
 刷单时留个心眼，填地址和联系方式时都别用真实的，省得碰上奇怪的人找上门。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d504a41ff805b9b3bb112a77d3b65995.png>
+![](img/zhuanqian_d504a41ff805b9b3bb112a77d3b65995.png)
 ### 店铺申请与刷单
 几乎所有店家招写手都要求先刷一单。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_88348f9fe81be7b7a35718d2192a212c.png>
+![](img/zhuanqian_88348f9fe81be7b7a35718d2192a212c.png)
 能排进前50的店，看着各不相同，背后说不定是同一个东家。
 进店申请后，跟着客服指引进群就行。这些店常年缺写手，基本不会拒绝，冲就是了！
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4f0c877fbd42168d80b8f22c8ffe4d71.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a4792fa7b7c15ab0833ab708caf0af7b.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bd192e09a4300bb4e569771ab1075a33.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_306237801343e3ccf2b85be97ba68f74.png>
+![](img/zhuanqian_4f0c877fbd42168d80b8f22c8ffe4d71.png)
+![](img/zhuanqian_a4792fa7b7c15ab0833ab708caf0af7b.png)
+![](img/zhuanqian_bd192e09a4300bb4e569771ab1075a33.png)
+![](img/zhuanqian_306237801343e3ccf2b85be97ba68f74.png)
 ### 群里见（群聊工具用QQ或企微）
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1986e34cdcc041b1342d3b456f63decc.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c692caeaa52a435fcb76fd3f9f21e6ea.png>
+![](img/zhuanqian_1986e34cdcc041b1342d3b456f63decc.png)
+![](img/zhuanqian_c692caeaa52a435fcb76fd3f9f21e6ea.png)
 ## 接单
 派单的消息一条接一条，手快才有，慢就只能看别人抢走，所以得一直盯着屏幕。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fe16add393e8a2b18394822c8dac52e2.png>
+![](img/zhuanqian_fe16add393e8a2b18394822c8dac52e2.png)
 你直接回复“能接”，对方就会把你和买家拉进同一个会话，把要求发出来。
 ## 结算
 多数店按周期结算，常见的是半个月一次；只有少数小店做一单清一单。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6c7054013ade9d828d2f4744299aa2f8.png>
+![](img/zhuanqian_6c7054013ade9d828d2f4744299aa2f8.png)
 ## 写手生存指南
 想多赚，就多挂几家店。单子分散后，最好自己做个表格追踪。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fa5c0b1a08317c737c6b0bae0858ee83.png>
+![](img/zhuanqian_fa5c0b1a08317c737c6b0bae0858ee83.png)
 # 结尾：狠狠逼自己一把！
 眼睛看了千遍，不如手上过一遍。
 只要肯行动，主业之外的第一个100块、1000块、10000块总会来的。

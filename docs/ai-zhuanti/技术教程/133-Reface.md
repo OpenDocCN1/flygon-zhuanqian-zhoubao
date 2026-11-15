@@ -13,15 +13,15 @@ https://reface.ai/
 https://apps.apple.com/us/app/revive-ai-photo-animation/id1616862692?mt=8
 https://apps.apple.com/us/app/restyle-ai-headshot-generator/id1667311093
 ## Loading Page
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ca67d4aa48e24dbf3b3c7fe2a55e49c0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_442cb903150b5304d5f12365eb0c5503.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_09ec97c881f28b137dd83d2ab7ec9997.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_91c2ad1f3ed6aee1641feec975fa7359.png>
+![](img/zhuanqian_ca67d4aa48e24dbf3b3c7fe2a55e49c0.png)
+![](img/zhuanqian_442cb903150b5304d5f12365eb0c5503.png)
+![](img/zhuanqian_09ec97c881f28b137dd83d2ab7ec9997.png)
+![](img/zhuanqian_91c2ad1f3ed6aee1641feec975fa7359.png)
 ## 流量
 ### 基本信息
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d742621773c1a5955716d1b5161a8370.png>
+![](img/zhuanqian_d742621773c1a5955716d1b5161a8370.png)
 ### 外链
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0478502095fc40a3bd606433bc705c3f.png>
+![](img/zhuanqian_0478502095fc40a3bd606433bc705c3f.png)
 # 产品拆解
 ## 💡 产品价值：解决了什么核心问题？
 *   核心价值与功能：Reface 是一款以生成式 AI 为驱动的移动娱乐应用，核心是把用户自拍或上传的面部替换到预设的视频、GIF 或静态图模板里。它让零基础的用户也能快速产出带个人标签的搞笑或吸睛视觉内容，无需剪辑技能即可实现“以我之面，代他人之形”。满足了社交媒体时代对个性表达、娱乐互动和内容分享的需求。
@@ -63,8 +63,8 @@ https://apps.apple.com/us/app/restyle-ai-headshot-generator/id1667311093
 4.  达人合作：与网红创作者合作推广，借影响力引流
 5.  媒体 PR：靠技术新颖和增长故事获得 TechCrunch 等报道
 ## 💰 商业模式与收入
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7ab14270b354539e8104022440398c87.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_081db98eb104366f741178ae71516902.png>
+![](img/zhuanqian_7ab14270b354539e8104022440398c87.png)
+![](img/zhuanqian_081db98eb104366f741178ae71516902.png)
 *   商业模式：典型的 Freemium。
 *   免费版：基础功能可用，但带水印、有广告、模板受限、速度慢、次数受限
 *   付费订阅 Pro：去水印、无广告、解锁高级模板、提速、无限生成，订阅周期为周/月/年

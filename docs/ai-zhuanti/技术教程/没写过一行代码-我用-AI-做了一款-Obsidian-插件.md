@@ -1,15 +1,15 @@
 # 没写过一行代码：我用 AI 做了一款 Obsidian 插件
 龙哥前阵子用一颗龙珠悬赏 AI 编程做产品的实践者，恰好我刚靠纯 AI 协作把一个 Chrome 扩展送上了商店，全程零手写代码。这个契机让我想把整套流程整理成 SOP，供圈友参考。
 ## 一、SOP 总览
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3f9d79558da735649e5f860c2144114b.png>
+![](img/zhuanqian_3f9d79558da735649e5f860c2144114b.png)
 ## 二、解决什么问题
 我常年在 Obsidian 里记录笔记，碰到好的网页内容就先收藏链接。问题是链接很容易失效，过段时间再点开就是 404，原文找不回来。同时我还想把文章的某段内容单独做成知识点卡片。基于这两个需求，我做了 MarkClipper for Obsidian：将网页内容转换成 Markdown，并在文件头部自动写入属性，方便在 Obsidian 中搜索和建立关联。
 生成的笔记长这样：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_88f45ebb2c13092fad0289c9ca060253.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0406af1ea08bc64b9a49cc65bb0ea580.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e332db6ed00fafc25d7ae7b77425984c.png>
+![](img/zhuanqian_88f45ebb2c13092fad0289c9ca060253.png)
+![](img/zhuanqian_0406af1ea08bc64b9a49cc65bb0ea580.png)
+![](img/zhuanqian_e332db6ed00fafc25d7ae7b77425984c.png)
 商店后台的数据也印证了需求成立：没有投放过任何广告，用户全部来自自然搜索。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_72bb7e3457b368226108207f538547c5.png>
+![](img/zhuanqian_72bb7e3457b368226108207f538547c5.png)
 ## 三、工具准备
 我的组合是：
 - 能访问外网的环境
@@ -23,9 +23,9 @@
 还是交给 GPTs 调研助手，让它先分析竞品再生成名字，中英文都能出。
 ## 六、图标和宣传图
 让 Claude 按照苹果或谷歌的设计规范来：风格极简、配色明快、有呼吸感。商店详情页的配图就是 Claude 生成的，中英文兼容。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e299d76ac4ac1f10f0a0de1ffa3405dc.png>
+![](img/zhuanqian_e299d76ac4ac1f10f0a0de1ffa3405dc.png)
 图标更香，连商店要求的各种尺寸都能一次性导出。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5d594d438ce5d3abbb3db62e84f10315.png>
+![](img/zhuanqian_5d594d438ce5d3abbb3db62e84f10315.png)
 ## 七、商店文案
 这个环节用 ChatGPT 的 GPTs 产品经理来写，中英文各一版。以中文版为例，它的结构大致是：先用一句话定位（你的 Obsidian 笔记助手），然后列基础能力——一键收藏网页、右击菜单操作不打扰、标题和文件名自动关联、存储位置可自定义；再列进阶能力——自定义模板、中英文国际化、Readability 优化可读性；最后给使用场景和安装引导。
 ## 八、向 Cursor 下需求

@@ -23,43 +23,43 @@ Cursor 是一款基于大语言模型的智能编程编辑器，本身就是一�
 # 三、安装流程
 ## 1、获取安装包
 打开官网 https://www.cursor.com ，点击 “Download for Free”，同时支持 Windows 与 Mac。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7e0b9043c587b722293a0a6a647bf045.png>
+![](img/zhuanqian_7e0b9043c587b722293a0a6a647bf045.png)
 ## 2、双击安装并继续
 双击安装程序，Language for AI 栏填写 中文，然后点 Continue。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f13bdd4f8fb316333d95bfb247fd44db.png>
+![](img/zhuanqian_f13bdd4f8fb316333d95bfb247fd44db.png)
 ## 3、点 Use Extensions
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_024c16c942ae7076c52eaa13bc1b06de.png>
+![](img/zhuanqian_024c16c942ae7076c52eaa13bc1b06de.png)
 ## 4、选择 Privacy Mode 并继续
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_438b472c610b44e74c5891c4502e1ecf.png>
+![](img/zhuanqian_438b472c610b44e74c5891c4502e1ecf.png)
 ## 5、点击 Sign Up 开始注册
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7c44b1638444215464da78705a1264e6.png>
+![](img/zhuanqian_7c44b1638444215464da78705a1264e6.png)
 ## 6、再次点击 Sign up 进入注册页
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cacfe091d11c04c14bed2a51840944d4.png>
+![](img/zhuanqian_cacfe091d11c04c14bed2a51840944d4.png)
 ## 7、填写姓名和邮箱，再点 Continue
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_59aaccd3b5c84f6b846bc78b2cf63b48.png>
+![](img/zhuanqian_59aaccd3b5c84f6b846bc78b2cf63b48.png)
 ## 8、勾选复选框通过人机校验
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7bc89f5709bb90dde50372894284aed6.png>
+![](img/zhuanqian_7bc89f5709bb90dde50372894284aed6.png)
 ## 9、输入密码，需包含数字字母特殊字符
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b62ab346bf925780ed2fcf3b45ba10fb.png>
+![](img/zhuanqian_b62ab346bf925780ed2fcf3b45ba10fb.png)
 ## 10、打开邮件查收验证码
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_95c5a07addfaf34c7ce2b6c4e0a4523a.png>
+![](img/zhuanqian_95c5a07addfaf34c7ce2b6c4e0a4523a.png)
 ## 11、QQ 邮箱显示异常时点纯文本
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c54a1dc505e35ff5ee6eac07fbbddc50.png>
+![](img/zhuanqian_c54a1dc505e35ff5ee6eac07fbbddc50.png)
 ## 12、复制验证码
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_238f03af68b6ca148f16fdc510cfd37f.png>
+![](img/zhuanqian_238f03af68b6ca148f16fdc510cfd37f.png)
 ## 13、点 “Yes,Log In” 登录桌面客户端
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3c80cc55e211deff8f5a808656f51c05.png>
+![](img/zhuanqian_3c80cc55e211deff8f5a808656f51c05.png)
 ## 14、出现登录成功提示
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_787c2753ef67b0e313a63eac52624c5c.png>
+![](img/zhuanqian_787c2753ef67b0e313a63eac52624c5c.png)
 ## 15、成功进入 Cursor 起始页
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8b5881ae9492b2400447b25ceb64a2dc.png>
+![](img/zhuanqian_8b5881ae9492b2400447b25ceb64a2dc.png)
 # 四、安装中文语言包
 ## 1、打开 File>Preferences>Extensions
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_153f32e23ef946f6f4863139bb38eb51.png>
+![](img/zhuanqian_153f32e23ef946f6f4863139bb38eb51.png)
 ## 2、搜索 chinese 安装语言包
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3f8c9b65da01d7607d0f93ccdb33efb3.png>
+![](img/zhuanqian_3f8c9b65da01d7607d0f93ccdb33efb3.png)
 ## 3、点 restart 重启，菜单变为中文
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_347e3f6e63bde4405ec76c9b38b3d370.png>
+![](img/zhuanqian_347e3f6e63bde4405ec76c9b38b3d370.png)
 # 五、用 Cursor 生成代码
 ## 1、输入博客网站的生成指令
 帮我制作一个博客网站，需求如下：
@@ -72,53 +72,53 @@ Cursor 是一款基于大语言模型的智能编程编辑器，本身就是一�
 3、样式文件 style.css 放入 css 文件夹
 4、文章搜索和文章列表页面带分页功能。
 5、生成的4个页面，网页内容帮我填充一些样例数据。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_48c83a64740f8dc9532fe9a874d2a48f.png>
+![](img/zhuanqian_48c83a64740f8dc9532fe9a874d2a48f.png)
 ## 2、点击 Accept all 应用更新
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3db783440e288ff8c2e2212070d1aef3.png>
+![](img/zhuanqian_3db783440e288ff8c2e2212070d1aef3.png)
 ## 3、复制路径在浏览器中打开预览
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1b054a7cd71f81df64cd2c00160300a0.png>
+![](img/zhuanqian_1b054a7cd71f81df64cd2c00160300a0.png)
 ## 4、生成的博客首页
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a0a036e1c2021bdd0b3fd9753e40dd0b.png>
+![](img/zhuanqian_a0a036e1c2021bdd0b3fd9753e40dd0b.png)
 ## 5、生成的文章列表页
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_75d9260e610fe197df8b8735f020a559.png>
+![](img/zhuanqian_75d9260e610fe197df8b8735f020a559.png)
 ## 6、生成的文章搜索页
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d7517c84aa468af61f5ca4a18603f521.png>
+![](img/zhuanqian_d7517c84aa468af61f5ca4a18603f521.png)
 ## 7、生成的文章详情页
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_dfcaa2ad71ec0404e93f025a119ef3e1.png>
+![](img/zhuanqian_dfcaa2ad71ec0404e93f025a119ef3e1.png)
 ## 8、点 Add File to Cursor Chat 上传图片，按图生成前端
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9ba6e1526531466203fa9cb6eb6d0bb2.png>
+![](img/zhuanqian_9ba6e1526531466203fa9cb6eb6d0bb2.png)
 ## 9、挑选一个示例站用截图插件整页截图
 这里举例我前一天做的官网，前端正是 Cursor 生成的，后端使用我自己的后台系统。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0adccc67b7bd2d2857975d32d529603a.png>
+![](img/zhuanqian_0adccc67b7bd2d2857975d32d529603a.png)
 ## 10、选中截图后上传
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6c7832d0abefedb51f64e9ab0d3c3faf.png>
+![](img/zhuanqian_6c7832d0abefedb51f64e9ab0d3c3faf.png)
 ## 11、上传后输入指令
 帮我按照这个图片，制作文章详情页面，要求如下：
 1、生成的网页内容，头部，底部，布局，样式，都和图片里的一模一样。
 2、图片用占位图片占位，确保布局和图片里一样。
 3、字体的颜色，样式，确保布局和图片里一样。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_406be4559807e2239057c9048e8ff5a6.png>
+![](img/zhuanqian_406be4559807e2239057c9048e8ff5a6.png)
 ## 12、把生成代码粘到 article.html，刷新浏览器预览
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c4d389c7683c337fdcfdd1e49b60b0e1.png>
+![](img/zhuanqian_c4d389c7683c337fdcfdd1e49b60b0e1.png)
 ## 13、按图生成的初稿，大约 80 分
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1e89a3e9247bf83516abd45d3c7fdb60.png>
+![](img/zhuanqian_1e89a3e9247bf83516abd45d3c7fdb60.png)
 ## 14、顶部 logo、搜索、导航样式偏差，继续优化提示
 生成的网页内容有问题，请修复如下问题：
 1、logo图片请用1个空图片占位
 2、搜索按钮和搜索提示的布局和样式，请和刚上传的图片保持一致。
 3、顶部的导航菜单的背景和字体颜色样式，请和刚上传的图片保持一致。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_18539e543465a7471ddf7fbe5bfabed6.png>
+![](img/zhuanqian_18539e543465a7471ddf7fbe5bfabed6.png)
 ## 15、复制新代码刷新，效果提升到 90 分
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2fa5b4a496923d4e5aeee9256c8d71c4.png>
+![](img/zhuanqian_2fa5b4a496923d4e5aeee9256c8d71c4.png)
 ## 16、搜索区、面包屑、底部细节仍需调整，再次发送指令
 生成的网页内容有问题，请根据图片，修复如下问题：
 1、“最近热搜”的内容是在搜索框的下方。
 2、顶部左侧缺少logo图片，请用一个占位符图片。
 3、面包屑导航里的文章标题也是1个超链接。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d128c6723b511df64baca6c9efa6273b.png>
+![](img/zhuanqian_d128c6723b511df64baca6c9efa6273b.png)
 ## 17、刷新后达到 95 分
 剩余的小瑕疵靠持续对话微调即可达到预期。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1413af93650cf84074270ef9385f340d.png>
+![](img/zhuanqian_1413af93650cf84074270ef9385f340d.png)
 # 六、Cursor 生成网站操作视频
 # 七、Cursor 生成谷歌插件操作视频
 用 Cursor 制作一个简单的网页截图插件，在 Compose 提示框输入：
@@ -127,7 +127,7 @@ Cursor 是一款基于大语言模型的智能编程编辑器，本身就是一�
 2、点击按钮“网页截图”，可以对当前网页截图。
 3、截图文件保存到下载目录，并且新开1个标签页打开这个图片，预览截图。
 复杂需求可拆解为多个子任务逐个解决。码叔做的截图插件包含四种能力：当前屏截图、选区截图、全页截图、视口截图，均通过反复对话迭代生成，已提交至谷歌应用市场审核，并完成了域名、服务器、上架等全流程。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c47dbb1c752a7e8d4b1660de22179624.png>
+![](img/zhuanqian_c47dbb1c752a7e8d4b1660de22179624.png)
 Cursor 制作网页截图插件的操作视频如下：
 # 八、为插件制作官网
 发布插件需要官网，我又用 Cursor 生成了一个单页官网。提示词如下：
@@ -135,12 +135,12 @@ Cursor 制作网页截图插件的操作视频如下：
 1、整个官网就1个页面，功能有：
 插件介绍，插件安装，插件演示视频，插件常见问题，联系我们，版权信息。
 中英文双版本均已生成，首版不满意后通过追问优化，最终呈现效果如下：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f53c4eb2d4ba3dbefa212ddd04dae6ba.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7c0849901e21c17028bdfa0bd9c5a7ef.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_415a51ad0e5b7d753da019a882be7312.png>
+![](img/zhuanqian_f53c4eb2d4ba3dbefa212ddd04dae6ba.png)
+![](img/zhuanqian_7c0849901e21c17028bdfa0bd9c5a7ef.png)
+![](img/zhuanqian_415a51ad0e5b7d753da019a882be7312.png)
 # 九、使用感悟
 把需求整理清晰交给 Cursor，预览结果后针对局部继续追问修改，完全可以用中文指令完成前端开发，不必手写代码。
 我本身有程序员背景，后台系统可直接复用，所以本次只用 Cursor 负责前端。当然 Cursor 也能生成后端代码，只是环境搭建成本更高。用于官网、谷歌插件、微信小程序、轻量 App 都很合适。开发者用它提效，非技术角色也能参与编程。
 近期我已用 Cursor 完成插件、小程序、站点等项目，并开始录制实战课程系列，计划 100 个项目，已完成 10 个，完善后会继续分享。有兴趣的朋友可交流。
 感谢观看，本次分享结束，下次再见。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ea2489b69dd2752dbbac1f627dc8dd2a.png>
+![](img/zhuanqian_ea2489b69dd2752dbbac1f627dc8dd2a.png)

@@ -18,7 +18,7 @@
 3. 注册、登录后，开启Windows游戏主机或办公主机；
 4. 后续按照普通Windows电脑的方式操作；
 5. 不使用时及时关机，否则可能产生持续费用。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e0d56f294fe78aa4e9cfbfb4c637aa83.png>
+![](img/zhuanqian_e0d56f294fe78aa4e9cfbfb4c637aa83.png)
 ### 2. 软件与浏览器
 以下配置并非全部强制安装，请根据实际任务选择。
 建议统一采用Chrome完成相关流程，因为兼容性相对更好。YouTube和Viewstats页面尽量保持英文原貌，不要开启网页翻译。进行数据采集时，将浏览器窗口铺满屏幕。遇到异常时，保留完整界面和错误提示，方便排查。
@@ -30,39 +30,39 @@ https://www.google.cn/intl/zh-CN_ALL/chrome/fallback/
 chrome://extensions/
 ```
 进入扩展管理页面，打开开发者选项。若需要安装插件，先解压插件文件，再选择“加载已解压的扩展程序”完成导入。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_89c12a5143053f8975755fa3e82aba01.png>
+![](img/zhuanqian_89c12a5143053f8975755fa3e82aba01.png)
 #### 影刀RPA
 影刀是一款偏低代码的自动化工具，对没有开发经验的人比较友好。
 第一步，访问：
 https://www.yingdao.com/client-download/
 下载Windows版本并完成安装。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0c41e792d79bf6697879301e3a1a8b25.png>
+![](img/zhuanqian_0c41e792d79bf6697879301e3a1a8b25.png)
 第二步，可以在闲鱼搜索“影刀创业版账号”，购买后先进行基础测试。
 第三步，退出Chrome，启动影刀，点击右上角头像，依次进入“工具”“自动化插件”，找到“Google Chrome自动化”并安装。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f9b75754ceb89de1a508fd8bcd964f02.png>
+![](img/zhuanqian_f9b75754ceb89de1a508fd8bcd964f02.png)
 建议开启错误录屏。程序发生异常时，将对应录屏发送出来，更方便定位问题。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_25ab9c3d8d3a52548254e391f3f798ac.png>
+![](img/zhuanqian_25ab9c3d8d3a52548254e391f3f798ac.png)
 ### 3. 配置飞书多维表格
 先访问：
 https://open.feishu.cn/app?lang=zh-CN
 登录飞书账号，并创建一个新的企业应用。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e57751bf4268bd8035ce24cb4b8d895d.png>
+![](img/zhuanqian_e57751bf4268bd8035ce24cb4b8d895d.png)
 打开左侧权限管理，进入权限开通页面，搜索“多维表格”，勾选所需权限后提交确认。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_25e3bffa2353cbebef1d755edc084546.png>
+![](img/zhuanqian_25e3bffa2353cbebef1d755edc084546.png)
 随后进入“凭证与基础信息”，取得App ID及App Secret，并将它们妥善保存。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1549917c43284483f9d69b81ab689750.png>
+![](img/zhuanqian_1549917c43284483f9d69b81ab689750.png)
 文档中附有配套视频。接下来打开多维表格模板链接，选择“使用该模板”。模板复制完成后，进入“文档应用”，填写应用名称并确认。
 注意：副本名称可以调整，但子表名称不要改动，否则可能影响后续程序调用。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c4e969e510cc2b97e60645253e8df58d.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b586ad904ff739293f00e56aa48ac1b0.png>
+![](img/zhuanqian_c4e969e510cc2b97e60645253e8df58d.png)
+![](img/zhuanqian_b586ad904ff739293f00e56aa48ac1b0.png)
 完成模板配置后，打开多维表格分享入口，复制分享地址。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f88b4ebd3c504c02ccc8a7db1e853340.png>
+![](img/zhuanqian_f88b4ebd3c504c02ccc8a7db1e853340.png)
 例如链接格式如下：
 ```text
 https://txt6wm3b04b.feishu.cn/base/*************?from=from_copylink
 ```
 需要提取的是`base/`与`?from`之间的字符，这部分就是多维表格ID。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_87f5e64609b9aad9c17e783a1197426e.png>
+![](img/zhuanqian_87f5e64609b9aad9c17e783a1197426e.png)
 最后，将App ID、App Secret、多维表格ID等信息集中整理，避免后续反复查找。
 若遇到飞书权限问题，可访问：
 https://open.feishu.cn/
@@ -80,7 +80,7 @@ https://www.bitbrowser.cn/download/
 5. 将账号、密码和窗口ID集中记录到飞书表格。
 代理配置说明：
 https://doc2.bitbrowser.cn/help1.html
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e3d1c1903ec0f9fd9b3784cf5f3f1378.png>
+![](img/zhuanqian_e3d1c1903ec0f9fd9b3784cf5f3f1378.png)
 ## 二、建立清晰的资料管理体系
 YouTube项目往往会产生大量图片、视频、音频和账号资料。如果没有统一的归档方式，后期制作、查找和复用都会变得低效。
 做好整理，主要有三方面价值：
@@ -88,11 +88,11 @@ YouTube项目往往会产生大量图片、视频、音频和账号资料。如�
 - 更容易看到项目推进成果；
 - 方便复盘经验和调整流程。
 我制作纪录片时，会把原始资料同步到飞书，确保本机与云端各有一份。同时，合格和淘汰素材都会保留，后续仍可能用于二次剪辑或重新组合。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ae9d79cc56ea33f74a3c2aa5cd6a6e9d.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9079f5527b5ab0f89d6d50518bfc5c80.png>
+![](img/zhuanqian_ae9d79cc56ea33f74a3c2aa5cd6a6e9d.png)
+![](img/zhuanqian_9079f5527b5ab0f89d6d50518bfc5c80.png)
 ### 1. 规划项目目录
 以下是我常用的项目文件架构：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bd5889f6c33ec2e6883d957995ef96a9.png>
+![](img/zhuanqian_bd5889f6c33ec2e6883d957995ef96a9.png)
 如果暂时没有合适的目录方案，可以让DeepSeek根据项目需求生成。先描述你的工作流程，再通过多轮对话不断调整，直到结构符合实际。
 ```
 我作为youtube小白，我该怎样去文件管理?
@@ -101,23 +101,23 @@ YouTube项目往往会产生大量图片、视频、音频和账号资料。如�
 请你帮我生成适合的文件目录架构（请直接使用markdown语言输出）。
 ```
 之后，把生成的目录文本交给“YouTube项目文件夹结构生成器”，即可批量创建对应文件夹。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4878a16b1b7730d8c51180d2de169649.png>
+![](img/zhuanqian_4878a16b1b7730d8c51180d2de169649.png)
 文件夹建立后，根据项目进度分别放置脚本、成片、素材和备份文件。
 ### 2. 管理账号矩阵
 以账号矩阵为例，我会在飞书多维表格中记录账号状态、登录信息和其他基础资料。
 账号管理工具：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_111e174e576127209a87fdce1a7d14b8.png>
+![](img/zhuanqian_111e174e576127209a87fdce1a7d14b8.png)
 ### 3. 按场景整理素材
 每个场景单独建立素材区域，并按用途划分目录。
 第一步，围绕视频主题建立总文件夹。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_19988001ecaeef85366573c4d2b7ee14.png>
+![](img/zhuanqian_19988001ecaeef85366573c4d2b7ee14.png)
 第二步，在主题目录中继续划分成品、视频、图片等子目录，也可以根据实际需求增加音频、字幕、工程文件等分类。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f4a6c5d9bb5574098a5d9f01178a78f7.png>
+![](img/zhuanqian_f4a6c5d9bb5574098a5d9f01178a78f7.png)
 第三步，将不同镜头对应的素材放入相应位置。
 通常一组提示词会生成4张图片，我会采用“镜头编号_图片编号.jpg”的命名方式。例如`1_4.jpg`，表示第1个镜头下的第4张候选图。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_43c843181fcca5a0da38df38f75f2a90.png>
+![](img/zhuanqian_43c843181fcca5a0da38df38f75f2a90.png)
 即使图片或视频效果不理想，也建议先保留，后续可能用于二次处理。为了便于自动化识别，所有文件都应按照统一规则命名。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9ff05a34c3604ea584fbe89c4e245c93.png>
+![](img/zhuanqian_9ff05a34c3604ea584fbe89c4e245c93.png)
 ## 三、统一保存位置与备份方式
 ### 1. 设置浏览器下载位置
 在Chrome地址栏输入：
@@ -125,18 +125,18 @@ YouTube项目往往会产生大量图片、视频、音频和账号资料。如�
 chrome://settings/downloads
 ```
 建议开启“下载前询问每个文件的保存位置”，这样每次保存时都能手动确认归档目录。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9a055490c92eea518b4f76f9982cbbc8.png>
+![](img/zhuanqian_9a055490c92eea518b4f76f9982cbbc8.png)
 ### 2. 调整剪映工程路径
 安装剪映时，可以提前规划软件位置和数据文件位置。
 剪映中的草稿、模板、素材通常分别存放。将它们调整到项目目录后，后续调用模板、迁移工程和整理草稿都会更方便。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_087e5e7238ba46f31d7e2029ad5360d3.png>
+![](img/zhuanqian_087e5e7238ba46f31d7e2029ad5360d3.png)
 ### 3. 做好版本备份
 YouTube项目生成文件多、修改频繁，首次产出的内容不要急着清理。建议重点保留：
 - 9:16、16:9等不同比例的图片版本；
 - 5秒、10秒等不同时长的视频版本；
 - 参考视频中使用的声音素材，尤其是音效文件。
 备份目录可以沿用前面的文件夹生成方案。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1b77c11f9ca034bb954dc3c813cf985c.png>
+![](img/zhuanqian_1b77c11f9ca034bb954dc3c813cf985c.png)
 日常备份可选择百度云盘。准备删除的资料，先放到“待删除”目录，观察一段时间后再清理。重要视频最好额外存储在非系统盘中，降低单盘损坏带来的风险。
 ## 四、Shorts账号维护自动化
 ### 1. 程序可以完成什么
@@ -147,20 +147,20 @@ YouTube项目生成文件多、修改频繁，首次产出的内容不要急着�
 - 根据显示器尺寸调整窗口布局；
 - 使用固定评论或随机评论；
 - 查看播放与互动反馈。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_77718dc70fd1f44bd3c303086fd1636e.png>
+![](img/zhuanqian_77718dc70fd1f44bd3c303086fd1636e.png)
 这套程序部分思路参考了@钱塘江鲤的开源工作，我在界面呈现、参数管理、评论配置和多线程执行等方面进行了改进。
 成品程序与源码会一并提供。
 ### 2. 基本操作流程
 第一步，启动比特浏览器，将程序下载并解压到指定目录。运行“Youtube自动养号（shorts版）.exe”，输入窗口ID后点击“添加”。保存过的窗口，下次启动时无需再次录入。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3855c134b20ce84238909bd241783dd1.png>
+![](img/zhuanqian_3855c134b20ce84238909bd241783dd1.png)
 第二步，配置互动方案。可以直接选择“使用预设”，也可以查看“预设说明”，了解各项参数后自行调整。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ad578f7732416ba87ce5ebed0d5b0a80.png>
+![](img/zhuanqian_ad578f7732416ba87ce5ebed0d5b0a80.png)
 第三步，按需开启评论功能：
 - 固定评论：每次发布相同内容；
 - 随机评论：从评论库中抽取不同内容。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3f2b5eb0a7917bb1b83018ea8f64fadc.png>
+![](img/zhuanqian_3f2b5eb0a7917bb1b83018ea8f64fadc.png)
 第四步，点击启动按钮。程序会先展示配置确认信息，确认后再依次打开对应浏览器窗口。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3bba1575957adc05bf7a774e5ff84814.png>
+![](img/zhuanqian_3bba1575957adc05bf7a774e5ff84814.png)
 运行前请确认：
 1. 比特浏览器已经启动并完成登录；
 2. 每个子窗口都配置好了代理与Google账号；
@@ -182,23 +182,23 @@ YouTube项目生成文件多、修改频繁，首次产出的内容不要急着�
 影刀内置的“魔法指令”可以帮助我们快速搭建网页自动化流程。
 操作步骤如下：
 第一步，新建魔法指令，并点击输入框下方的“获取元素”。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bd391414f1b32561636d3644e8114e17.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_feb535507e968f49e8d24784be34b5a9.png>
+![](img/zhuanqian_bd391414f1b32561636d3644e8114e17.png)
+![](img/zhuanqian_feb535507e968f49e8d24784be34b5a9.png)
 第二步，在直播页面中选取评论区域。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f64aa114ccd919b1dda04d6d4e8854fe.png>
+![](img/zhuanqian_f64aa114ccd919b1dda04d6d4e8854fe.png)
 第三步，在指令输入框描述希望实现的功能。
 ```
 {获取的评论区元素}实时监控采集评论区评论，并进行情感倾向判断，同时使用评论区内容的主要语言进行回复，{评论输入框元素}使用回车键发送，请模拟人类行为。
 ```
 第四步，先点击“优化指令”，再发送执行。后续可以继续通过对话修改需求。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_67f5f9d8a571a31aef0875d761c86217.png>
+![](img/zhuanqian_67f5f9d8a571a31aef0875d761c86217.png)
 如果希望进行更深度的开发，可以打开“编辑源码”，将生成的代码复制到Cursor中继续修改、调试，甚至打包为独立应用。
 这类程序可以用于：
 - 抓取不同网页中的公开信息；
 - 执行网页点击、输入等交互动作。
 影刀官方说明：
 https://www.yingdao.com/yddoc/rpa/711624635438841856
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a5b1e5bb8474ea5b35202d93fd046d20.png>
+![](img/zhuanqian_a5b1e5bb8474ea5b35202d93fd046d20.png)
 源代码示例如下：
 这份指南的重点，不是单纯堆工具，而是把设备、软件、账号、素材、文件和自动化流程串成一套可复用的工作系统。
 如果你是刚接触YouTube项目的新手，可以先从环境配置和文件整理开始，再逐步尝试账号维护、直播评论分析等模块。工具、成品和源码都已经准备好，真正决定结果的，还是持续执行、记录和优化。
@@ -720,36 +720,36 @@ print(f"回复评论时出错: {str(e)}")
 做YouTube频道，拆解对标是绕不开的环节。今天这篇就把我常用的完整流程拆开讲，从数据平台、采集工具，到AI分析，一步不落。
 **一、先认识viewstats这个平台**
 打开浏览器，访问 https://www.viewstats.com/ ，就能进入这个YouTube热门数据检索站。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6b26a13f95a2eb7f5c6fdfda8362153a.png>
+![](img/zhuanqian_6b26a13f95a2eb7f5c6fdfda8362153a.png)
 用它能拿到两类关键榜单：一类是指定时间段内，数据表现异常突出的Top100频道；另一类是同期Top100视频。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d2cc5207b807878b1d9d178f4b084f4b.png>
+![](img/zhuanqian_d2cc5207b807878b1d9d178f4b084f4b.png)
 榜单之外，它还能提供更细的频道数据、视频数据，以及YPP收益预估。不过要提醒一句：YPP收益数据只能当参考，别当成精确数值。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_65cf6b775895df30b25c7e17b142b879.png>
+![](img/zhuanqian_65cf6b775895df30b25c7e17b142b879.png)
 你还可以直接指定某个频道进行定向检索。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b1078bd35221766c57489f3a1110a556.png>
+![](img/zhuanqian_b1078bd35221766c57489f3a1110a556.png)
 **二、用影刀RPA采集viewstats数据**
 采集之前，先设置两个筛选条件：视频发布Country，以及视频类别Category。设置完让页面保持不动。记得先登录网站，同时把页面保持在英文状态，千万不要翻译成中文。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5edfe047bd32673d0c6b659b40db97f1.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_48c820992c5132793dd9e8e69bae2e6b.png>
+![](img/zhuanqian_5edfe047bd32673d0c6b659b40db97f1.png)
+![](img/zhuanqian_48c820992c5132793dd9e8e69bae2e6b.png)
 接下来去拿采集程序。这里提供两个版本：本地Excel版走这个链接：https://api.winrobot360.com/redirect/robot/share?inviteKey=df93f45a5a3638a5 ；飞书多维表格版走这个链接：https://api.winrobot360.com/redirect/robot/share?inviteKey=da083b1445b60e69 。你按自己的使用习惯选一个就行。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6f34747fada5c7b63220589d00908db4.png>
+![](img/zhuanqian_6f34747fada5c7b63220589d00908db4.png)
 拿到程序后，打开影刀RPA，在左侧功能栏点击“我获取的应用”，运行程序。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cca6bed5c693ac6aed52be6ce391e4ae.png>
+![](img/zhuanqian_cca6bed5c693ac6aed52be6ce391e4ae.png)
 程序会涉及飞书数据相关操作，权限配置请参考“设置飞书权限”。另外注意，输入的一定得是筛选完成后的网址。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_190b6a94f6f8cd80c51f088318aee36f.png>
+![](img/zhuanqian_190b6a94f6f8cd80c51f088318aee36f.png)
 下面的演示以本地Excel版为例。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_976090a7e688ed8bc22a9284633f128f.png>
+![](img/zhuanqian_976090a7e688ed8bc22a9284633f128f.png)
 采集得到的是Top100 Videos文件，字段包括：视频标题、上传时间、视频链接、视频缩略图url、视频总观看次数、点赞数、评论数、每小时观看次数、预计收入、订阅者数量、总观看次数、频道视频总数。尤其亮眼的，是还有互动率和综合评分。这两个值，可以作为筛选榜单视频的核心参考依据。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_969d527e7464b6fff78300898b6a337e.png>
+![](img/zhuanqian_969d527e7464b6fff78300898b6a337e.png)
 你还可以在影刀里设置定时执行任务，让采集自动跑。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4e078544e9090c93c77506155935a4bc.png>
+![](img/zhuanqian_4e078544e9090c93c77506155935a4bc.png)
 **三、分析viewstats数据**
 视频榜单是重点分析对象。把Top榜单里的数据拆解清楚，再往外拓展延伸，然后补充采集相关数据。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9bf4c89dc8803755b3ed97e5688b5d62.png>
+![](img/zhuanqian_9bf4c89dc8803755b3ed97e5688b5d62.png)
 根据数据筛出“潜在的对标视频”，回到viewstats查看对应数据，再用AI做可视化解读。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_09329fbc6c236e327350c5633a79d0fe.png>
+![](img/zhuanqian_09329fbc6c236e327350c5633a79d0fe.png)
 具体做法：点击视频链接，进入数据详情页，把相关区域截图并整理好。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a912a0ae79c89c796a6f46c1d8cda1cf.png>
+![](img/zhuanqian_a912a0ae79c89c796a6f46c1d8cda1cf.png)
 然后把截图发给Gemini，配上合适的提示词，让AI结合截图里的数据，给出初步分析报告。
 ```
 请基于上传的YouTube频道的ViewStats截图数据，执行以下任务：
@@ -798,11 +798,11 @@ print(f"回复评论时出错: {str(e)}")
 ```
 **四、获取对标频道的数据**
 先看Videos数据怎么采。按照影刀RPA获取应用的教程，先把这个应用拿到手：https://api.winrobot360.com/redirect/robot/share?inviteKey=c685d34b806c6929
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e5b113ad6b2c330b825eac800b1ea17d.png>
+![](img/zhuanqian_e5b113ad6b2c330b825eac800b1ea17d.png)
 然后把数据模板文件下载到指定文件夹。通过飞书链接拿飞书模板文件。这里有个细节：如果你改了子表格名称，应用里也要同步修改。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_94fb6cde203919915c5dc5e6afb72919.png>
+![](img/zhuanqian_94fb6cde203919915c5dc5e6afb72919.png)
 右键点击程序，运行“video详情采集（单频道采集）”。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_870843f73a700bd5a65817490db098c8.png>
+![](img/zhuanqian_870843f73a700bd5a65817490db098c8.png)
 正式运行前，有几个点必须确认：
 1. 飞书多维表格权限要设置好；
 2. 两张数据表的名称，要和多维表格里的名称能对上；
@@ -810,17 +810,17 @@ print(f"回复评论时出错: {str(e)}")
 4. 成果会分别存为本地Excel文件和飞书多维表格；
 5. 尽量选“记住内容”，这样下次不用重复输入参数；
 6. 飞书模板文件只需要获取一次。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d878a5140be0dec979e94f656a01d33d.png>
+![](img/zhuanqian_d878a5140be0dec979e94f656a01d33d.png)
 运行后等数据采集完毕。等待期间别碰键盘和鼠标。如果报错，可以先重试三次；三次后依然报错，把报错信息发出来，我来帮你优化。
 完成后，你会拿到一个本地Excel文件，和一个飞书多维表格文件。
 再来看Shorts数据的采集。先打开浏览器获取RPA程序：https://api.winrobot360.com/redirect/robot/share?inviteKey=94f85f5445d22b3b
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_029df71a754768e2a2a03c30050815eb.png>
+![](img/zhuanqian_029df71a754768e2a2a03c30050815eb.png)
 点击运行程序，输入相关参数。批量采集版本要上传需要采集的“批量频道号”。可以先建一个Excel，从A2单元格开始在A列输入频道号（不包含表头）并保存。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_776f9217af2a8338cbbc847e80a8651d.png>
+![](img/zhuanqian_776f9217af2a8338cbbc847e80a8651d.png)
 这里也有两个注意事项：批量采集尽量控制在5个频道以内，别频繁操作，免得触发风控；飞书多维表格参数要输入正确，批量采集和单频道采集会保存到同一个飞书多维表格里，靠频道名来区分。
 **五、分析对标频道数据**
 先说标题。YouTube里标题一般会出现在三个位置：首页展示、搜索页展示、详情页展示。做标题的目的有两个：一是让系统给视频打上识别标签，从而获得对应推流；二是满足用户搜索需求。因此，核心关键词要足够明显，让人一眼看懂。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bdf395a4eef9d6b684b636b878835a5a.png>
+![](img/zhuanqian_bdf395a4eef9d6b684b636b878835a5a.png)
 可以用AI来分析标题，把提示词发给Gemini、Deepseek等工具。
 ```
 请分析YouTube视频标题-“视频标题”中存在的核心关键词，同时输出五个可拓展的二级核心关键词。
@@ -837,23 +837,23 @@ Gemini给出的答复是：综合来看，最能概括视频内容和形式的�
 4. 动物动画故事(Animal Animated Stories)，可拓展为“短篇动物动画故事”“有趣的动物动画”等；
 5. 可爱动画(Cute Animation)，可拓展为“超萌动画”“治愈系动画”等。
 下一个是描述。我看了几十万条对标视频，最大的感受是：一个好的描述，能让我更快看懂这个视频，从而赢得好感。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c49bcf0db8ce2501ee98ab6a366e03e8.png>
+![](img/zhuanqian_c49bcf0db8ce2501ee98ab6a366e03e8.png)
 左侧那块截图是简版，右侧则是详细版。通常，一条优秀视频只靠描述前三行，就能让观众留下来、让主题清晰起来。所以拆解描述时，优先看最前面的几句话。
 然后，把分析提示词交给Gemini、Deepseek等AI工具即可。
 ```
 请分析YouTube视频描述中“描述部分"”中开头存在的核心关键词，请输出五个可拓展的二级核心关键词。
 ```
 在YouTube上传视频的界面里，输入“描述”内容时，只要打#标签，系统会自动弹出推荐标签提示。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5b4f7c15cee6886da1344985bef9574b.png>
+![](img/zhuanqian_5b4f7c15cee6886da1344985bef9574b.png)
 再来看标签。YouTube里的标签通常以#开头，比如“#animatedstories #meme #indiananimation”，#后面的词就是标签。简单理解，标签就是一种聚集了特定条件视频的归类方式，和关键词很像，作用很重要。标签一般会出现在标题、描述中，还能直接用标签在YouTube搜索栏里搜索。摆放时，最重要、最符合的标签要放前面，后面依次递减。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5a5cf827cdbe7750db64b11832a56055.png>
+![](img/zhuanqian_5a5cf827cdbe7750db64b11832a56055.png)
 另外，在飞书多维表格模板里，AI也会自动提取描述和标题中的标签。
 字幕也不能忽略，它在YouTube平台上的作用同样重要。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_71eafbfbfc8554052f05e42e062177c8.png>
+![](img/zhuanqian_71eafbfbfc8554052f05e42e062177c8.png)
 今天重点说一件事：怎么下载视频里的字幕文件。提取字幕通常要和下载视频文件一起做。工具链接：https://yt.savetube.me/zh/29-youtube-video-downloader-5djdh6
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_47ef421bea38877a8d248ae119e73c79.png>
+![](img/zhuanqian_47ef421bea38877a8d248ae119e73c79.png)
 字幕文件提出来之后，还要继续做“爆款因子”提取。也就是对字幕文本内容做进一步分析，找出潜在爆款因子。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a42885b1b6d2be1b910dde4b79c6c306.png>
+![](img/zhuanqian_a42885b1b6d2be1b910dde4b79c6c306.png)
 把这段提示词发给Gemini、Deepseek等AI工具。
 ```
 任务目标
@@ -887,7 +887,7 @@ Gemini给出的答复是：综合来看，最能概括视频内容和形式的�
 [请输入字幕文本内容]
 ```
 最后是评论。在评论区里，如果看到很多网友针对视频里的某个细节激烈讨论，说明这条视频已经激发了观众的情绪。一旦有情绪，视频就很可能成为爆款。平时可以多从直播间，以及Shorts、Videos的评论中，去感知观众的真实需求。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7382ade166f731c2fbb2614b41a2bb9a.png>
+![](img/zhuanqian_7382ade166f731c2fbb2614b41a2bb9a.png)
 把相应的提示词发送给Gemini、Deepseek等AI即可。
 以上就是完整的拆解对标流程，希望对你有用。
 ```
@@ -926,10 +926,10 @@ Gemini给出的答复是：综合来看，最能概括视频内容和形式的�
 2.请分析图片中的爆款因素。
 3.请输出能够复刻这个封面图的提示词（中英文）。
 ```
-Gemini拿到图后会给你反馈：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6420f39896bfe3cd1339eade34c12895.png>
+Gemini拿到图后会给你反馈：![](img/zhuanqian_6420f39896bfe3cd1339eade34c12895.png)
 举个例子，之前我上传过一张猫咪视角的封面，它的分析是这样的：画面是卡通插画，主角是穿紫色纱丽的女性，眼神无奈，背景有模糊绿植，顶部文字写着“POV life of a cat in a desi house”。它认为爆款点在于：POV视角很有代入感，养猫人群容易共鸣，加上“desi house”的文化标签，再配合夸张表情，抓眼球能力很强。最后它还会提供一段可复刻的封面提示词，方便你直接生成同风格图片。
-第二步，拆关键帧。这里要用到一个抽帧工具，支持单独和批量提取。工具提供了Exe成品版和源代码版，下载后解压到文件夹，记得不要删除或移动里面的任何文件。运行“批量提取视频关键帧.exe”，按需选择模式，还能自定义文件命名模板。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f774a4ec3dda76f5cb645ee9fe845c12.png>
-关键帧导出来后，挑一张最有代表性的图继续让AI分析。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b1dcaa5f5471854316aec520a9d598b6.png>通常用Gemini、豆包、GPT4、Midjourney这些工具来做提示词反推。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8498df7763673559a0857fe7fc4da435.png>图生文部分的提示词见这里：```
+第二步，拆关键帧。这里要用到一个抽帧工具，支持单独和批量提取。工具提供了Exe成品版和源代码版，下载后解压到文件夹，记得不要删除或移动里面的任何文件。运行“批量提取视频关键帧.exe”，按需选择模式，还能自定义文件命名模板。![](img/zhuanqian_f774a4ec3dda76f5cb645ee9fe845c12.png)
+关键帧导出来后，挑一张最有代表性的图继续让AI分析。![](img/zhuanqian_b1dcaa5f5471854316aec520a9d598b6.png)通常用Gemini、豆包、GPT4、Midjourney这些工具来做提示词反推。![](img/zhuanqian_8498df7763673559a0857fe7fc4da435.png)图生文部分的提示词见这里：```
 请你根据上传的图片，进行“图生文”，反推文生提示词，
 重点关注关键元素、构图、材质、风格，适合使用Ai图像重新创建。
 输出格式要求：每次输出三组提示词。
@@ -938,7 +938,7 @@ Gemini拿到图后会给你反馈：<https://gitcode.com/OpenDocCN1/data/blob/ma
 3.英文提示词使用 txt 代码块。
 4.中文提示词也使用 txt 代码块。
 ```
-第三步，拆脚本。打开Google AI Studio（链接：https://aistudio.google.com/prompts/new_chat ），上传YouTube视频链接。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ef3a01b7e12b86ed73531caa3015f80b.png>然后输入脚本分析提示词，```
+第三步，拆脚本。打开Google AI Studio（链接：https://aistudio.google.com/prompts/new_chat ），上传YouTube视频链接。![](img/zhuanqian_ef3a01b7e12b86ed73531caa3015f80b.png)然后输入脚本分析提示词，```
 任务目标 (Task Goal): 根据提供的视频内容，生成一份详细的拉片笔记。
 输入 (Input): 请提供视频的内容信息。这可以是：
 详细的镜头列表或脚本。
@@ -973,10 +973,10 @@ Gemini拿到图后会给你反馈：<https://gitcode.com/OpenDocCN1/data/blob/ma
 镜头1 (5s)：面部特写，展现男子深邃的眼神和自信微笑。暖光打在脸部轮廓上，背景虚化。画面具有艺术感。 (结合了文生图和图转视频的要素)
 镜头2 (2s)：聚焦镜头缓慢推进男子抬起的手腕。手表在光影中闪耀，细节清晰展现成功人士品味。
 镜头3 (2s)：侧面拍摄，光影在脸上和背景墙上形成鲜明对比。人物轮廓分明，充满高级感和张力。
-```这里用这个链接做演示：https://www.youtube.com/shorts/hSNT_dZoWiA <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5d7b7645429b6bd291038e00dd262ec5.png>等Gemini思考完毕，它给出的脚本拆解结果会长这样：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2aef95347ed4da9a2c4d595a2f77c33f.png>
+```这里用这个链接做演示：https://www.youtube.com/shorts/hSNT_dZoWiA ![](img/zhuanqian_5d7b7645429b6bd291038e00dd262ec5.png)等Gemini思考完毕，它给出的脚本拆解结果会长这样：![](img/zhuanqian_2aef95347ed4da9a2c4d595a2f77c33f.png)
 方法论讲完，咱们来一次实战演练，看看怎么拆解一个对标账号。
-先看频道整体数据。打开@PyangJoeBapAI的主页，<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a7bef4dcbf7fc565b36ee3f8a9d80787.png>重点刷一遍Video和Shorts区域，留意一下：封面风格是否统一？整体色调是什么感觉？封面传递出的情绪是什么样的？有没有故事感？封面文字用得多不多？这些信息请相信你的第一感觉。
-接着，打开Viewstats平台，搜索“PyangJoeBapAI”，进入频道查看核心数据以及Shorts的表现数据。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4a876dd21cea86b24c2a0e59573ef477.png>
+先看频道整体数据。打开@PyangJoeBapAI的主页，![](img/zhuanqian_a7bef4dcbf7fc565b36ee3f8a9d80787.png)重点刷一遍Video和Shorts区域，留意一下：封面风格是否统一？整体色调是什么感觉？封面传递出的情绪是什么样的？有没有故事感？封面文字用得多不多？这些信息请相信你的第一感觉。
+接着，打开Viewstats平台，搜索“PyangJoeBapAI”，进入频道查看核心数据以及Shorts的表现数据。![](img/zhuanqian_4a876dd21cea86b24c2a0e59573ef477.png)
 然后，把包含频道数据的截图丢给Gemini，如果你只关心某一个视频，也可以单独截那个视频的数据。注意要开启额外的Canvas功能，这样得到的数据分析会更全面（仅供参考）。```
 请基于上传的YouTube频道的ViewStats截图数据，执行以下任务：
 生成一份单页HTML《[频道名称]视频数据分析报告》。
@@ -1021,8 +1021,8 @@ Gemini拿到图后会给你反馈：<https://gitcode.com/OpenDocCN1/data/blob/ma
 * **CSS框架**：优先使用Tailwind CSS进行样式设计。
 * **图表库**：使用Chart.js生成图表。
 * **图片下载库**：使用html2canvas.js实现下载报告为PNG的功能。
-```从它给的成果里，你能找到不少参考信息。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bd3e36bab431abc8fb10758a9956043a.png>
-再来看视频数据。可以用影刀RPA来采集Shorts视频的基本信息，比如标题、描述、评论区内容。运行“采集频道Shorts视频信息（单次采集）”这个应用，然后去飞书文档查看更新。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a24043057a9446294af38935d36d53e0.png>
+```从它给的成果里，你能找到不少参考信息。![](img/zhuanqian_bd3e36bab431abc8fb10758a9956043a.png)
+再来看视频数据。可以用影刀RPA来采集Shorts视频的基本信息，比如标题、描述、评论区内容。运行“采集频道Shorts视频信息（单次采集）”这个应用，然后去飞书文档查看更新。![](img/zhuanqian_a24043057a9446294af38935d36d53e0.png)
 然后从飞书多维表格中导出CSV文件，这个文件既可以投喂给其他AI做内容分析，也可以直接在多维表格里浏览。普通版的操作，就是把CSV文件投给AI，指令在```
 我给你提供视频标题中的关键词、描述中的关键词、评论区中的需求、视频标签，请帮我分析，输出对标建议。
 ```进阶版（使用Cursor3.7分析）：
@@ -1129,11 +1129,11 @@ UI/UX设计：
 包含上述可视化报告的HTML文件代码，并提供可操作的建议。
 ```
 从当前拿到的结果片段可以看到，标签已经提取得很规范，全部都是合格项。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d4523b158b8808cb0c084312561265cc.png>
+![](img/zhuanqian_d4523b158b8808cb0c084312561265cc.png)
 下一环，先把数据分析结果过一遍，筛出值得拆解的片子，再做脚本拆解。
 进入 Google AI Studio 的新对话页（aistudio 点 google 点 com 斜杠 prompts 斜杠 new_chat），把目标 YouTube 链接粘贴进去即可。
 特别提醒：同一会话窗口只支持解析单个视频地址。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0223f82a58af8d7019be7ec738497343.png>
+![](img/zhuanqian_0223f82a58af8d7019be7ec738497343.png)
 用下面这段 Prompt 来拆解脚本：
 ```
 任务目标 (Task Goal): 根据提供的视频内容详细描述，生成一份结构化的拉片笔记。
@@ -1239,9 +1239,9 @@ Visual Aesthetics: Summer, Leisurely, Fun, Bright Colors, Close-up Composition.
 ```
 ### 画面素材准备
 先用在线下载工具把视频保存到本地（yt 点 savetube 点 me 斜杠 zh），再对素材进行抽帧。抽帧的时候，优先保留封面和转场明显的画面。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a8ff55207789b04ca7008ff4e79c983e.png>
+![](img/zhuanqian_a8ff55207789b04ca7008ff4e79c983e.png)
 以下就是抽帧得到的封面和场景切换画面示例：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_766d60f88166dfca6553103cc4fc4093.png>
+![](img/zhuanqian_766d60f88166dfca6553103cc4fc4093.png)
 把图片发给 Gemini 做反向描述，比如让它按下面的格式反推画面信息：
 ```
 请你根据上传的图片，进行“图生文”，反推文生提示词，
@@ -1256,18 +1256,18 @@ Visual Aesthetics: Summer, Leisurely, Fun, Bright Colors, Close-up Composition.
 我对“对标”的理解是：先吸收爆款的骨架，再做出自己的增量，争取“学其形，超其神”。
 前面已经能轻松拿到该频道在视频、封面、正文里使用的标签词。接下来要做的是，把这些标签词继续往外扩，找出更大的流量空间。
 比如用 funny 作为入口，去采集更多同标签内容：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7b61f44c070f90298526777b572eb33b.png>
+![](img/zhuanqian_7b61f44c070f90298526777b572eb33b.png)
 先打开 YT 的单标签抓取工具（api 点 winrobot360 点 com 斜杠 redirect 斜杠 robot 斜杠 share，邀请码 091f8553acd05054）。运行后输入想抓的标签，再启动程序。跑完后，系统会返回这些字段：片名、作品 ID、链接、题材类型、片长（秒）、所属频道、频道主页、播放量、投稿时间、简介、点赞量、评论量、BGM 和推荐检索词。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9a3b865592fd578e63a02286b0ea4862.png>
+![](img/zhuanqian_9a3b865592fd578e63a02286b0ea4862.png)
 此外，YouTube 自带的推荐检索词也能直接扩展成新标签，省去自己造词的步骤。
 做AI短视频，最怕的不是不会用工具，而是没有思路。今天直接把我自己的完整复刻流程摊开讲：从抓关键词、拆对标视频，到文生图、图生视频、配乐、剪合成，再到从其他平台找灵感，一条龙全说清楚。
 先用这个采集拓展关键词的链接下载安装包：https://api.winrobot360.com/redirect/robot/share?inviteKey=501436fc6d6651cc
-装好之后，把关键词所在的词库文件路径填进去，一般是从A2单元格开始，按顺序逐行往下保存。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9919185cc2c4c708d21e45e9a8889f92.png>
+装好之后，把关键词所在的词库文件路径填进去，一般是从A2单元格开始，按顺序逐行往下保存。![](img/zhuanqian_9919185cc2c4c708d21e45e9a8889f92.png)
 上面这套关键词采集+拓展的准备动作，核心目的就是帮我们把关键词思路彻底打开。
 下面用我之前研究过的对标频道 @PyangJoeBapAI（来源：@困困教练）来示范完整流程。
 ## 一、文生图
 先用Google Studio拆解脚本。以这条视频为例：https://www.youtube.com/shorts/hSNT_dZoWiA
-把视频链接投进去，就能得到一份拉片笔记：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d8ea07e1e7d4477c507bafe8334998c8.png>
+把视频链接投进去，就能得到一份拉片笔记：![](img/zhuanqian_d8ea07e1e7d4477c507bafe8334998c8.png)
 笔记里能看到：BGM基本是快节奏电子舞曲，穿插了大量人声采样，比如“Open the screen”“1, 2, 3, let's go!”“Clap your hands”“Get funky with it”“Let's go to work”“DJ Pongs in the mix”，中段还出现了女声“Look at me baby”；SFX则涵盖了自行车轻微声响、火焰燃烧、魔法变身、摩托车引擎与行驶、烟雾喷射、无人机螺旋桨、观众欢呼惊叹等；整体节奏很快，靠快速剪辑和特效持续制造惊喜和反转。
 接下来，我就用第一个镜头来整理提示词，做一次文生图演示。```
 Visual Content: A young woman, wearing a blue sequined camisole top and yellow shorts, with white sneakers, smiling as she rides a black bicycle onto the stage from the right, with a brightly lit studio and reflective floor in the background.Visual Aesthetics: Stage Performance, Energetic, Youthful Fashion, Bright Lighting, Symmetrical Composition.
@@ -1275,56 +1275,56 @@ Visual Content: A young woman, wearing a blue sequined camisole top and yellow s
 ### 方法一：即梦AI
 1. 选即梦3.0模型；
 2. 图片比例选9:16；
-3. 清晰度按自己账号的情况来选。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b426a3278bc20ebda6e55ddfe4e954c3.png>
-即梦无水印下载的小技巧：打开缩略图，点右上角“红色电话”图标，就能直接下载无水印图。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9f02306918b1389851d01fe0d5e63f0e.png>
+3. 清晰度按自己账号的情况来选。![](img/zhuanqian_b426a3278bc20ebda6e55ddfe4e954c3.png)
+即梦无水印下载的小技巧：打开缩略图，点右上角“红色电话”图标，就能直接下载无水印图。![](img/zhuanqian_9f02306918b1389851d01fe0d5e63f0e.png)
 ### 方法二：豆包
 1. 风格选择“人物摄影”；
-2. 图片比例同样选9:16。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_04831864028112e516b310d53e3fb460.png>
+2. 图片比例同样选9:16。![](img/zhuanqian_04831864028112e516b310d53e3fb460.png)
 ### 方法三：Midjourney官网
 1. 模型推荐用7.0；
-2. 模型6.1支持角色控制和环境参考。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d0c3af23614211a1cfbf2d950f843c57.png>
+2. 模型6.1支持角色控制和环境参考。![](img/zhuanqian_d0c3af23614211a1cfbf2d950f843c57.png)
 把即梦3.0、豆包3.0、Midjourney 7.0放一起对比，前两个生成的角色更偏向亚洲面孔，第三个则更偏欧美。选哪个，取决于对标账号的粉丝画像：欧美地区的粉丝，就用欧美人物；亚非拉地区的粉丝，就用亚洲人物。
-我选的 @PyangJoeBapAI 是欧美频道，看评论语言也能发现粉丝大多用英语交流，所以我要的是“欧美人物”形象。在Midjourney里挑最合适的一张，我的判断标准是：动作与对标接近、背景与对标接近、风格也与对标接近。挑好后，再用深度编辑功能微调基本参数、角色和背景。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ce1d765a3b9bb826f86843d3cc3f3e30.png>
+我选的 @PyangJoeBapAI 是欧美频道，看评论语言也能发现粉丝大多用英语交流，所以我要的是“欧美人物”形象。在Midjourney里挑最合适的一张，我的判断标准是：动作与对标接近、背景与对标接近、风格也与对标接近。挑好后，再用深度编辑功能微调基本参数、角色和背景。![](img/zhuanqian_ce1d765a3b9bb826f86843d3cc3f3e30.png)
 要做可控视频，通常需要首尾帧。所以还需要再生成一张风格、人物、动作都差不多的尾帧。```
 Visual Content: The young woman stops her bicycle in the center of the stage, angles it towards the audience, one foot on the ground, her expression changes from smiling to serious, looking directly at the camera.
 Visual Aesthetics: Stage Freeze, Focused, Fashionable, Central Composition.
 ```
-在即梦里按以下参数来设置，控制首尾帧的一致性。注意，AI生成的图只能当参考，想基本满足条件，往往得反复修改很多次。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_89b9b897f63d8caa7a92bfd5c232ab5d.png>
+在即梦里按以下参数来设置，控制首尾帧的一致性。注意，AI生成的图只能当参考，想基本满足条件，往往得反复修改很多次。![](img/zhuanqian_89b9b897f63d8caa7a92bfd5c232ab5d.png)
 两次生成的结果放一起看（左边是首帧，右边是尾帧），问题很明显：
 1. 角色脸部颜色前后不一致；
-2. 自行车上的车铃前后不一致。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_695b075430a92d0b5398aad6101baafd.png>
-这时候就用即梦的“局部重绘”功能，把这两个差异点单独修掉。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4f19d5d16078296e0467e592fb1b5592.png>
-修完再看重绘后的效果，首尾帧差距明显缩小，基本就能拿去生成视频了。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1101130b556feeca9a6eb9ca725f3ddc.png>
+2. 自行车上的车铃前后不一致。![](img/zhuanqian_695b075430a92d0b5398aad6101baafd.png)
+这时候就用即梦的“局部重绘”功能，把这两个差异点单独修掉。![](img/zhuanqian_4f19d5d16078296e0467e592fb1b5592.png)
+修完再看重绘后的效果，首尾帧差距明显缩小，基本就能拿去生成视频了。![](img/zhuanqian_1101130b556feeca9a6eb9ca725f3ddc.png)
 特别提醒：这个环节一定要重视文件命名和分类，别随便删源文件。真要清理，也先把需要删除的源文件放进“待删除”文件夹里。
 ## 二、图生视频
 继续用Google Studio拆对标脚本，生成对应的图转视频提示词。以前面第一个镜头为例：```
 中文: (3秒，中景，固定镜头，但主体从右向左移动，女子骑自行车进入画面中央，面带笑容)
 English: (3s, Medium Shot (MS), static camera but subject moves from right to left, woman rides bicycle into the center of the frame, smiling)
 ```
-方法一：用即梦的图生视频功能，导入关键帧，输入提示词。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_83320d12b7b87234291efbbae331ec15.png>
-方法二：用可灵AI生成首尾帧，导入首尾帧之后输入提示词。建议优先用付费模型平台，效果更稳。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a4e8f0ac50f4770ad0e33964c968c5c9.png>
+方法一：用即梦的图生视频功能，导入关键帧，输入提示词。![](img/zhuanqian_83320d12b7b87234291efbbae331ec15.png)
+方法二：用可灵AI生成首尾帧，导入首尾帧之后输入提示词。建议优先用付费模型平台，效果更稳。![](img/zhuanqian_a4e8f0ac50f4770ad0e33964c968c5c9.png)
 ## 三、音乐复刻
-把下载好的对标视频扔进剪映，直接提取音频。导出成MP3到本地对应文件夹里。可以直接用这段音频，但记得改一下片段；也可以去Suno重新创作：https://suno.com/create <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_780cbdbbfa3ffc8e16b28363c517451b.png>
+把下载好的对标视频扔进剪映，直接提取音频。导出成MP3到本地对应文件夹里。可以直接用这段音频，但记得改一下片段；也可以去Suno重新创作：https://suno.com/create ![](img/zhuanqian_780cbdbbfa3ffc8e16b28363c517451b.png)
 ## 四、截取片段
-提前准备好一个“达人秀评委”相关页面文件夹，直接存进剪映草稿箱也行。把达人秀视频导入后，使用智能镜头分割，再右键片段选择“另存为预设”。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_96b6e463bcb1243ae7556d7dab0c4abc.png>
+提前准备好一个“达人秀评委”相关页面文件夹，直接存进剪映草稿箱也行。把达人秀视频导入后，使用智能镜头分割，再右键片段选择“另存为预设”。![](img/zhuanqian_96b6e463bcb1243ae7556d7dab0c4abc.png)
 ## 五、合成视频
 分别把生成的视频片段和达人秀片段拖入剪映，再把音乐也插进去。导出时至少满足这几个要求：
 - MP4视频格式；
 - H.264编码；
-- 60帧帧率。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f65e3490aa3ec9d2f5ccdeac7515a818.png>
+- 60帧帧率。![](img/zhuanqian_f65e3490aa3ec9d2f5ccdeac7515a818.png)
 ## 六、从其他平台获取灵感
-做项目时要养成好习惯：原始文件和修改后的成品都留着，方便后面查数据、找素材。我的对标库一般用飞书多维表格的知识库来搭。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5d3b04970c326be005f8832549b4fc3c.png>
+做项目时要养成好习惯：原始文件和修改后的成品都留着，方便后面查数据、找素材。我的对标库一般用飞书多维表格的知识库来搭。![](img/zhuanqian_5d3b04970c326be005f8832549b4fc3c.png)
 除了YouTube，其他平台也很值得采集。比如小红书，作为国内优质种草平台，那些数据表现亮眼、用户爱看的笔记，往往藏着爆款密码。
-小红书RPA采集工具：https://api.winrobot360.com/redirect/robot/share?inviteKey=77fe2ae4a196672c <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_195df49a8a8219440624c867daf88f03.png>
+小红书RPA采集工具：https://api.winrobot360.com/redirect/robot/share?inviteKey=77fe2ae4a196672c ![](img/zhuanqian_195df49a8a8219440624c867daf88f03.png)
 建议优先采集和YouTube相关的内容，比如“YouTube关键词”“AI视频关键词”之类，也可以用前面拓展出来的关键词去采。我以“AI婴儿播客”为例子演示一下：
-第一步：点击运行程序，按下图要求选择适合的内容类别。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_39ff8d8a6d7c1598f105896be9d667de.png>
-第二步：根据不同的类别设置对应的参数。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f63dcd1c7ee8eae8a6c2ae4014a1f9bc.png>
-第三步：打开小红书首页 https://www.xiaohongshu.com/explore 并完成登录，设置好后点“确定”开始采集。拿到数据后就可以用表格筛选了。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d120de1580686988f47c4a43c614a70f.png>
+第一步：点击运行程序，按下图要求选择适合的内容类别。![](img/zhuanqian_39ff8d8a6d7c1598f105896be9d667de.png)
+第二步：根据不同的类别设置对应的参数。![](img/zhuanqian_f63dcd1c7ee8eae8a6c2ae4014a1f9bc.png)
+第三步：打开小红书首页 https://www.xiaohongshu.com/explore 并完成登录，设置好后点“确定”开始采集。拿到数据后就可以用表格筛选了。![](img/zhuanqian_d120de1580686988f47c4a43c614a70f.png)
 即梦本身也是一个巨大的素材库，活动专区里有很多优质参赛作品值得学习：https://jimeng.jianying.com/ai-tool/activity
-每期活动的主题都是很好的思路参考。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_573d9488bcbcff69b8fd6e4ea192cf6f.png>
-可以通过“使用数”和“喜欢数”筛选出优质作品，点开作品链接，把提示词存进自己的素材库。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3c9e207b69c345aeb93eb2e050658cae.png>
+每期活动的主题都是很好的思路参考。![](img/zhuanqian_573d9488bcbcff69b8fd6e4ea192cf6f.png)
+可以通过“使用数”和“喜欢数”筛选出优质作品，点开作品链接，把提示词存进自己的素材库。![](img/zhuanqian_3c9e207b69c345aeb93eb2e050658cae.png)
 Midjourney官网的探索页也能找灵感：https://www.midjourney.com/explore?tab=random
-毕竟是国外产品，审美更贴合海外用户的偏好。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6ee9440d62f3379318966a1f424a4ea7.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_88647817ce49f40cd1b1657fb5c60c6d.png>
+毕竟是国外产品，审美更贴合海外用户的偏好。![](img/zhuanqian_6ee9440d62f3379318966a1f424a4ea7.png)
+![](img/zhuanqian_88647817ce49f40cd1b1657fb5c60c6d.png)
 最后再分享一个影刀RPA程序：https://api.winrobot360.com/redirect/robot/share?inviteKey=6a505903fbc317b9
-使用前记得先打开对应的页面。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7756509ba60ed67f8c8f78d15d170929.png>
+使用前记得先打开对应的页面。![](img/zhuanqian_7756509ba60ed67f8c8f78d15d170929.png)

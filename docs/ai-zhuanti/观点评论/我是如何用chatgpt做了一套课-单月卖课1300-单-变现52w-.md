@@ -3,7 +3,7 @@
 谢谢你点进来。在知识付费这个圈子里，能被大家关注，本身就是一件很幸运的事。过去一年，我先在大航海活动中做过三次分享；7月底，又在星球给圈友输出了一篇《30天私域卖课60W》的复盘；半个月后，就有了你现在看到的这篇：完整拆解我是如何用ChatGPT做课，并单月卖出1300多单的。
 你好，我是龙哥，账号是“龙哥帮你做课”。全网粉丝10W+，同时运营着好几个矩阵号。很多在抖音、小红书做知识付费的朋友，可能都刷到过我。从0起步，我用了将近一年时间，把自己送进了“做课+卖课”赛道的头部阵营。
 先看一组可验证的数据：抖音端销量800+，小鹅通私域端500+，累计1300多单，变现52W。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_360d455c1d1f957b8320147a2918e2f7.png>
+![](img/zhuanqian_360d455c1d1f957b8320147a2918e2f7.png)
 为了让你快速知道我的价值，我给自己贴四个标签：
 1. 做课&卖课赛道的头部博主 → 代表我的流量打法
 2. 前新东方总监，最高管理过80万学生社群 → 代表我的教学基本功
@@ -49,8 +49,8 @@
 南宁有位赵老师，夫妻两个人，没有团队，一年干了3200万。她跟我说，去年“莫名其妙”就卖了几百万。你可能会酸，但这就是小众品类的风口红利。
 所以别总是盯着“透透糖”和“李一舟”了，很多你叫不上名字的老师，卖课能力可能秒杀他们。
 赛道选对了，努力才不会被辜负。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_198cb57727a78a5637045698a0c8f8af.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_34997d319b4feba017fb29da3d006c7f.png>
+![](img/zhuanqian_198cb57727a78a5637045698a0c8f8af.png)
+![](img/zhuanqian_34997d319b4feba017fb29da3d006c7f.png)
 ### 2. 口才类：老赛道，新机会
 口才听起来够“常识”，但你不知道它有多能打。
 我们深度合作过一个IP——“云边口才”。这对夫妻在疫情期间隔离在家，妻子是县城的电台主持人，直播做到了两万多粉丝，来找我商量怎么变现。
@@ -61,22 +61,22 @@
 于是我们就改做“成人口才”。结果，15天变现16万。
 后来我们又跑出了小红书IP“小哈聊沟通”，同样深耕口才课，效果依然很好。
 所以，人群定位这件事，怎么强调都不过分。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5eeefbf1859a77542aed9c3556d7e1ff.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1494f4162229609a4c54912220b67a82.png>
+![](img/zhuanqian_5eeefbf1859a77542aed9c3556d7e1ff.png)
+![](img/zhuanqian_1494f4162229609a4c54912220b67a82.png)
 ### 3. 造价 & 建工电气：技术壁垒=客单价的护城河
 这类课程天然有门槛，像财税、造价、电建、土木，全都跟工程与企业经营相关，客户为高价值买单，所以很容易出大单。
 我们的学员“中天电建”，1万左右粉丝，卖课卖了100多万；另一个学员“造价之家”，也有61万的成绩。
 小众，高收入，这是知识付费另一条不可忽视的核心路径。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fff870711dcd870d8eccd32eb724daa0.png>
+![](img/zhuanqian_fff870711dcd870d8eccd32eb724daa0.png)
 还有更多“灰马”案例：
 - 教戒烟的林老师，20多万粉，卖出102万；
 - 教产后妈妈长高的“喜悦之路”，24万粉，同样变现100万；
 - 教谈恋爱的课，27万粉，赚了244万。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fea92b4bade28d62fd028adb81095513.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3a6c10a691109a77d44efb8684ccca2f.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_10d3809dc1e1038076a0ae741276ee28.png>
+![](img/zhuanqian_fea92b4bade28d62fd028adb81095513.png)
+![](img/zhuanqian_3a6c10a691109a77d44efb8684ccca2f.png)
+![](img/zhuanqian_10d3809dc1e1038076a0ae741276ee28.png)
 我整理了一份“不起眼但很赚钱”的课程选题表。另外，家庭教育这个品类，我们也做过深度挖掘，欢迎感兴趣的朋友单聊。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6d2a45a711d224d4a8d656d35b7b3d21.png>
+![](img/zhuanqian_6d2a45a711d224d4a8d656d35b7b3d21.png)
 ## 三、法：7天用ChatGPT做出一门爆款课
 我把这套流程叫作“闪电做课法”。核心就六个动作：定方向、起标题、搭大纲、磨内容、录成片、上架。
 很多老师迟迟做不出课，通常卡在准备环节：备课慢、列不出大纲、PPT做不出来。这套方法解决的问题，就是让AI把这些“脏活累活”接过去。简单说，ChatGPT自动帮你把课“写”出来。不管你是“没货”，还是不会写大纲/课稿，又或者是PPT和详情图搞不定，这套方法都能让你在7天内完成课设基础配置。
@@ -97,11 +97,11 @@ AI给出的定位思路，已经足够启发绝大多数老师。再结合对标
 - 看对标：把对标课程的痛点、卖点、标题、详情页文案都扒下来。人家能卖出去，说明模式已经走通。
 - 看课数：超过20节的课，往往不好卖，完课率也低。想一想，上学时45分钟都容易开小差，几十节课谁听得完？
 - 看销量：有销量，才能证明这是真蓝海；没销量，就是自嗨的“伪蓝海”。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_338a4c1f72e4e89a1442f836ac022919.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_19de933831260d22e89ee4738936cc5b.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_db0eac5aa7fc8d421b85d8b76c98fcf7.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f5150bdfa2f45368da3b967feb933155.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f8addd3d4e4c97d08cfa6c88375737c3.png>
+![](img/zhuanqian_338a4c1f72e4e89a1442f836ac022919.png)
+![](img/zhuanqian_19de933831260d22e89ee4738936cc5b.png)
+![](img/zhuanqian_db0eac5aa7fc8d421b85d8b76c98fcf7.png)
+![](img/zhuanqian_f5150bdfa2f45368da3b967feb933155.png)
+![](img/zhuanqian_f8addd3d4e4c97d08cfa6c88375737c3.png)
 ### 第二步：起标题
 课程名不一样，命运大不同。
 一个好的标题，既能激发好奇，又能拉动销量。起标题最大的忌讳是“自嗨”——你觉得自己写得爽，用户却不搜、不点。反过来，要多想用户到底想听什么、会搜什么。
@@ -110,9 +110,9 @@ AI给出的定位思路，已经足够启发绝大多数老师。再结合对标
 标题公式也很简单：课程知识概要 + 核心卖点。
 用正确的方式提问，AI能迅速给你一批高质量标题，绝对不输大多数人手写的水准。
 大健康的课、女性成长的课、唱歌的课……AI都可以轻松给出爆款感拉满的大纲和标题。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8acf4223a95609c8b51000ce551123b2.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_16606377e558f31fddff032e72679c7a.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7ebf25501f906c5422e1aa1107d2cc6f.png>
+![](img/zhuanqian_8acf4223a95609c8b51000ce551123b2.png)
+![](img/zhuanqian_16606377e558f31fddff032e72679c7a.png)
+![](img/zhuanqian_7ebf25501f906c5422e1aa1107d2cc6f.png)
 ### 第三步：搭大纲
 大纲的核心功能，是让课程内容顺序合理、逻辑清晰。
 但线上的课程大纲，不能像教科书那样一板一眼，它得自带“钩子”。所以，要按爆款标题的格式去设计。
@@ -123,9 +123,9 @@ AI给出的定位思路，已经足够启发绝大多数老师。再结合对标
 AI编写大纲的能力，真的强到可怕。你只需提供需求，或者给一个模板让它仿写，几秒钟就能产出一版结构完整的大纲。
 AI能写得这么好，核心是提示词厉害。
 更完整的提示词口令，我后面单独给大家。你也可以直接先试试基础版。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_805b1747c8b9b72b37cb15daaad6163c.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_04a4eaa58fc7fd5a6214801881f8659c.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_13c7de8c5c6134e1b8068e64fefdac02.png>
+![](img/zhuanqian_805b1747c8b9b72b37cb15daaad6163c.png)
+![](img/zhuanqian_04a4eaa58fc7fd5a6214801881f8659c.png)
+![](img/zhuanqian_13c7de8c5c6134e1b8068e64fefdac02.png)
 ### 第四步：磨内容（正课+试听课）
 正课可以放最后，但试听课一定要前置打磨。
 试听课决定卖课率，我甚至为它总结了一条“首课7步法”的黄金法则。按这个结构来做，百万级爆款试听课的概率会极大提升。
@@ -133,10 +133,10 @@ AI能写得这么好，核心是提示词厉害。
 它写出的试听课稿，放在我那4000多个学员里，也能排到中上水平。
 现在已经有一大批老师，都是靠这套模板在做试听课，累计卖了几百万的课程。
 正课就更轻松了。人工写2000字，一小时；AI写，3分钟。你再把个人经验、干货塞进去，一份几千字的正课稿就出炉了。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_18a0ef8133f4712e1da99bc9c9f192a4.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1b4d6b4350bd410d1c8e6b483799aa1e.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4ddd1ddd8e91aca7d781607046ba8f32.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d4e56e3021f436e80cbe3d4bf450eab0.png>
+![](img/zhuanqian_18a0ef8133f4712e1da99bc9c9f192a4.png)
+![](img/zhuanqian_1b4d6b4350bd410d1c8e6b483799aa1e.png)
+![](img/zhuanqian_4ddd1ddd8e91aca7d781607046ba8f32.png)
+![](img/zhuanqian_d4e56e3021f436e80cbe3d4bf450eab0.png)
 ### 第五步：录成片
 录课这件事，找一个有经验的老师带一下，或者看看视频教程，很快就能上手。
 但我们最大的敌人，是“完美主义”。
@@ -150,15 +150,15 @@ AI能写得这么好，核心是提示词厉害。
 我非常建议每个做课卖课的老师，都给自己配一个H5。有用户来咨询时，直接发H5给他，比发一堆文字更有说服力。
 很多时候，你只需优化一个细节，做课效率就能提升50%，多卖10万块是真的可以发生的。
 下面是部分学员做课卖课的实操截图，直接上证据👇
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1153fdbee20de1762f8c81da2293c6b7.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5f620903181f38dab8334b49c1223b94.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4b1034da5b89a36b26d40368145a3d68.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b7452d5dac76622607d264286db10ce4.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_25225fdc657f2c44109787ab6ffb4046.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2768993cf04797c59d8f0cb688f5e289.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d976d3a34afde994df3143eb4bc0c426.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7474029ffb4ab5284e93e07f04196f48.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d9e793d095fbd4496b4f456bbdeb44d7.png>
+![](img/zhuanqian_1153fdbee20de1762f8c81da2293c6b7.png)
+![](img/zhuanqian_5f620903181f38dab8334b49c1223b94.png)
+![](img/zhuanqian_4b1034da5b89a36b26d40368145a3d68.png)
+![](img/zhuanqian_b7452d5dac76622607d264286db10ce4.png)
+![](img/zhuanqian_25225fdc657f2c44109787ab6ffb4046.png)
+![](img/zhuanqian_2768993cf04797c59d8f0cb688f5e289.png)
+![](img/zhuanqian_d976d3a34afde994df3143eb4bc0c426.png)
+![](img/zhuanqian_7474029ffb4ab5284e93e07f04196f48.png)
+![](img/zhuanqian_d9e793d095fbd4496b4f456bbdeb44d7.png)
 ## 四、器：AI如何带我从死局到蓝海
 ### 1. 抖音不让卖课，是危还是机？
 所有卖课老师，应该都记得今年4月初的“惊魂一周”。
@@ -171,69 +171,69 @@ AI能写得这么好，核心是提示词厉害。
 两三天后，我拿到了第一版解决方案。借助信息差，我顺势又卖了一波课。
 但真正帮我打开局面的，是ChatGPT。7天时间，我用它做出一套新课。
 所以，新的命题浮出水面：要么进入“做课2.0”，要么解散。还好，我们选对了。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b873bdb52cc2a3139689eed17e5d4ea8.png>
+![](img/zhuanqian_b873bdb52cc2a3139689eed17e5d4ea8.png)
 ### 2. 一次失眠，成了转折点
 复盘下来，我能踩中“AI+做课”这个交叉口，也靠日常积累。
 在赚钱，我一直保持一个习惯：每天刷风向标。今年二三月份，我就看到不少朋友在AI上拿到结果。
 当时心里的判断是：AI+行业，还没什么人做，这是极其稀缺的蓝海。
 而这一切的起点，是4月的某一次失眠。具体是工作压力也好，是冥冥中的提醒也罢——那个夜晚，ChatGPT做课的大致轮廓在我脑子里出现了。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bb899314e2e5cc08b4a1b2860f33d76a.png>
+![](img/zhuanqian_bb899314e2e5cc08b4a1b2860f33d76a.png)
 这是当时参考过的行业风向表格，很多人应该见过：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4129019a05fde21ce31dcb577f4d869b.png>
+![](img/zhuanqian_4129019a05fde21ce31dcb577f4d869b.png)
 最后想对你说：篇幅有限，关于“器”里的6个提效工具，我就不在这里逐一截图了。需要的朋友，直接来问我，我会把工具清单和方法打包给你。做课这件事，从0到1没有想象中那么难，关键是找对工具和路径。希望这篇复盘，能成为你起跑的第一步。
 最近身边的讨论几乎都被GPT占据，月入千万的神话听得耳朵都起茧了。早在风声传开时，我和不少同行一样，坚定地认为靠脑力吃饭的知识付费工作，AI是触碰不到的。
 现实却给了我一记重击。那天我整夜未眠，凌晨两点爬起来，决定拿自己做一场实验。我自己出课速度很快，如果让GPT也能做出来，就说明它完全可以被复制。于是我给自己定下规则：挑一个我完全陌生的赛道，让它硬做。
 我只懂做课的流程，对内容本身一窍不通。最后选了女性情感课，主题是教女性如何找到高富帅白马王子。
 我按照常说的五个环节来测。先是课程定位，让它拆人群、定定位、找卖点，再在课程大纲里梳理标题、起个有吸引力的名字。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f51b682c020cb6594720f54c773cc182.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6c78704ca52ef754aa4840791a54edf1.png>
+![](img/zhuanqian_f51b682c020cb6594720f54c773cc182.png)
+![](img/zhuanqian_6c78704ca52ef754aa4840791a54edf1.png)
 当晚我有点贪心，还想让它写讲稿。没想到这一步直接救了大批老师，稿子一下子就有了，完课率自然水涨船高。
 我直接套用了自己常用的首课七步法的要求抛过去，结果它真的完整写出来了。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d87b79f4b6f2b921f8e45bba11b53df5.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_06440ebcd8f88ce5e4fd1a8c5cfbadf1.png>
+![](img/zhuanqian_d87b79f4b6f2b921f8e45bba11b53df5.png)
+![](img/zhuanqian_06440ebcd8f88ce5e4fd1a8c5cfbadf1.png)
 至于录课和上架，这块人必须在场，我没指望它替代。后面我又想，如果能帮老师写详情页文案就好了，很多老师根本不懂营销怎么写，详情图、发售信都卡壳。
 我当时还听说它能写短视频选题、短视频脚本、编朋友圈，就一起塞进去测了。这就是我那晚的核心思路。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5a91a72901cc37ba794e4f9390e215d6.png>
+![](img/zhuanqian_5a91a72901cc37ba794e4f9390e215d6.png)
 一宿没睡测下来，情感赛道的输出大概有七成能直接用，改一改就能发。那一夜我没觉得累，反而像找到了破局的开关。
 第二天回公司立刻和团队开会。AI肯定利弊并存，既冲击我们原有的《做好课的课》，又牵涉翻课风险。争论了两三个小时后，最后投票决定用AI结合做课来破局。
 我们团队平均年龄24岁，对新工具接受度很高。定下来就开干：打磨课程框架、把每一步的提问指令越问越准，再把文案、朋友圈作为加餐内容补上。录课、上架，对我们来说都是熟路。
 就这么把ChatGPT用起来，七天内啃下整套课程。一边做课录课，一边同步准备发售。
 时间点卡在五一假期前，必须在假期前打一仗。筹备了一个月，就为了这场发售。
 AI做课终究有不确定性，所以我们先从几千位老学员里筛。两天拉了两个200人的老生群，当晚一场直播转化率接近60%，当天收入近10万。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0f7d4f01679a3da6a41ec563088465f0.png>
+![](img/zhuanqian_0f7d4f01679a3da6a41ec563088465f0.png)
 悬了半个月的心终于落地。发售的具体打法篇幅有限就不展开了，以后有机会再聊。记住一点，有产品就一定要发售。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5793f9299e6662096be5b10db9620c64.png>
+![](img/zhuanqian_5793f9299e6662096be5b10db9620c64.png)
 当晚剪辑同事通宵把课程上线并完成交付。我们对上架这块算是摸透了，很多K12、国学类的都能走通，有需要可以私下交流。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a7f94c4836deaa7cc63a6ec2c2017c9d.png>
+![](img/zhuanqian_a7f94c4836deaa7cc63a6ec2c2017c9d.png)
 # 四、提升做课效率的6个超级工具
 ## 1.chatgpt
 今年最炸的黑马，用在做课上效率直接翻倍。上面已经演示过了一部分，就不多复述了。
 提问方法对了，答案自然就对了。好答案都在等一个好问题。
 ## 2.闪击ppt、wpsAI
 同属今年的新鲜货，这俩做PPT的AI工具口碑很不错。要么给个标题就能生成整套PPT，要么按格式内容自动排版。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0f86b88a8b79aa271edfa54261d93a27.png>
+![](img/zhuanqian_0f86b88a8b79aa271edfa54261d93a27.png)
 ## 3.飞书妙计
 这是我个人最爱也最推荐的。录课写稿时用语音转文字，比打字快得多，而且口语自然。很多老师的稿子或短视频就是缺这份口语感。
 做直播拆解同行时，视频转文字用它就对了，YYDS。做社群、训练营的老师收集群分享，它也能几分钟整理成文档。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e2abdddccc835fd01e0ebd34a936e12c.png>
+![](img/zhuanqian_e2abdddccc835fd01e0ebd34a936e12c.png)
 ## 4.直播伴侣
 录课界的扛把子，现在很多主播已经用它替代OBS了。操作简单自带美颜，又能处理复杂外框、贴片等直播场景，效果比同类工具强不少。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2b8aed271e86a3c5c92e222909614f2b.png>
+![](img/zhuanqian_2b8aed271e86a3c5c92e222909614f2b.png)
 ## 5.剪映
 做短视频的人都熟。它在做课上的妙用是手机拍人像，后期直接合成带课件外框的录课画面。PPT还能加动画，操作门槛很低。字节的这两款工具确实好用。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b5efc9575a6fa08f4acd78b94cc313fa.png>
+![](img/zhuanqian_b5efc9575a6fa08f4acd78b94cc313fa.png)
 ## 5.录课样式
 额外分享几种进阶的录课呈现方式，外框素材也备好了。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f6bc199ba633fd85c345392b7b6a6532.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1ee92aff965f290397acb35135e91311.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4ed555989b08ab05185f15ddbbb47d80.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_42d234603ff18ced7d6cab5860b10b99.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_346e1e5edd7ba3f31a9aaeb7aff05dc4.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3893848b18a9f3f46b729a49408e6f45.png>
+![](img/zhuanqian_f6bc199ba633fd85c345392b7b6a6532.png)
+![](img/zhuanqian_1ee92aff965f290397acb35135e91311.png)
+![](img/zhuanqian_4ed555989b08ab05185f15ddbbb47d80.png)
+![](img/zhuanqian_42d234603ff18ced7d6cab5860b10b99.png)
+![](img/zhuanqian_346e1e5edd7ba3f31a9aaeb7aff05dc4.png)
+![](img/zhuanqian_3893848b18a9f3f46b729a49408e6f45.png)
 ## 6.Xmind
 思维导图老用户应该不少了。做课程大纲、设计课程结构时用它思路会特别清晰。
 它还有个演说功能，直接能用在录课上，省去做PPT的时间。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9a4649d54aa64a222311485ecc5feb41.png>
+![](img/zhuanqian_9a4649d54aa64a222311485ecc5feb41.png)
 # 写在最后
 今天的分享就到这里。无论你是企业老板还是个人博主，知识付费在我看来都是成本极低、回报极高的事，行业利润普遍在75%以上。老板能用课输出产品和管理思维，拿下合作伙伴；个人博主能增收、拉近粉丝、打开后端。
 如果你是小白博主，就用AI快速实现0到1；中腰部博主就用AI提效，干掉同行；头部博主就用AI翻新产品做迭代。

@@ -137,33 +137,33 @@ prompt好不好，本质上是你的想法够不够好，以及能不能满足�
 详细操作记录：https://chat.openai.com/share/145e8de0-2adc-494a-a71f-30c1bb10bd82 （需魔法访问）
 ### 第1步：打开对话窗口，输入prompt
 输入指令词后，AI会输出初始化成功提示，之后直接把你写的文章发进去就行。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_38a347656fa76288d9fabf9f2470535c.png>
+![](img/zhuanqian_38a347656fa76288d9fabf9f2470535c.png)
 ### 第2步：让AI分析文章要素并给出写作建议
 AI会拆解文章的构成要素，并给出针对性的修改建议。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_05b55d54ac471312e2d1aad3bb4ce17b.png>
+![](img/zhuanqian_05b55d54ac471312e2d1aad3bb4ce17b.png)
 ### 第3步：不满意也不知道怎么优化？直接问AI
 放心问它：“这篇文章你觉得哪里不够好？应该怎么改？”可以反复问，直到得到满意的建议为止。第一遍就满意的话，不问也行。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2ff5e8e98b252f4334583b5147e291cf.png>
+![](img/zhuanqian_2ff5e8e98b252f4334583b5147e291cf.png)
 ### 第4步：采纳建议，让它自动优化
 如果AI给的建议太多或分散在不同回复里，把你要采纳的那条直接发给它就好。用【】或者""" """把内容标识出来，AI更容易识别。长文本推荐用""" """。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5b71de59d4441471c959a44d08b3842b.png>
+![](img/zhuanqian_5b71de59d4441471c959a44d08b3842b.png)
 ### 第5步：中途想加新元素？直接说
 打个比方：有朋友中途想加入一个背景信息，直接告诉AI就行——
 “嗯很好，在不违背全文意图的前提下，依据下面这个【背景信息】，重新改写标题、导语。要求语言通俗易懂、标题和导语都具有强烈的吸引力。
 【背景信息】："""抖音图文带货现在很火，有比较多人开始入局。"""”
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_65f4d791b84101387d8b138e1b5181c2.png>
+![](img/zhuanqian_65f4d791b84101387d8b138e1b5181c2.png)
 注意，要求可以根据自己的想法随意添加：风格、字数、开头方式、修辞手法，统统可以。你对目标越清晰，AI输出质量就越高。
 把AI当成朋友——你给它的反馈越细致，它就越清楚你想要什么。
 现在Claude2.0和GPT4.0已经具备初级的情绪感知能力，EOT技术也已应用到prompt上。这是题外话，但核心原则不变：想用好AI，先把它当好朋友。
 再举个例子：还是这篇文章，我想用鲁迅的写作风格改写。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6a96c01772e348974cd09d64a30842b6.png>
+![](img/zhuanqian_6a96c01772e348974cd09d64a30842b6.png)
 “很好，现在帮我使用鲁迅的写作风格优化这篇文案，要求达到直击人心的效果。”
 这段指令完全可以自由发挥，想要什么效果就给AI什么指令。实在不晓得怎么说？把AI想象成身边的某个人——对象、长辈、领导、下属、老师……对谁说话什么样，对AI就什么样。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cf1c82518c5cef976014261be980e7b0.png>
+![](img/zhuanqian_cf1c82518c5cef976014261be980e7b0.png)
 ### 第6步：AI没听话？提醒它
 不管在哪个环节，如果AI没有按要求执行指令，直接提醒它就行。最常出问题的是“workflow”环节，直接截图演示一下：
 AI直接就给了答案——先不管答案质量，重点是矫正效果。如果没按指令执行，就像图中那样明确指出来。当然，也不能排除它偶尔还是不听。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e0eca0a02b26b56ea09de35f380bca7d.png>
+![](img/zhuanqian_e0eca0a02b26b56ea09de35f380bca7d.png)
 ### 第7步：人机交互，重点在人
 目前的人机交互，真正起主导作用的还是人。AI生成内容的质量，最终仍需你来做裁判。
 同一篇文章，A觉得平平无奇，B觉得惊为天人，这就是审美差异。AI给结果的时候，满意就多夸夸它——收到正向反馈的AI，确实会更强。
@@ -270,18 +270,18 @@ AI生成内容时，指令词大约占60%-70%的贡献，操作者占20%-30%。�
 ## Initialization
 以“hi，我是小红书SEO爆款文案创作大师”开场，友好地欢迎用户，随后根据输出。
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_38a347656fa76288d9fabf9f2470535c.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_05b55d54ac471312e2d1aad3bb4ce17b.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2ff5e8e98b252f4334583b5147e291cf.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5b71de59d4441471c959a44d08b3842b.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_65f4d791b84101387d8b138e1b5181c2.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6a96c01772e348974cd09d64a30842b6.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cf1c82518c5cef976014261be980e7b0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e0eca0a02b26b56ea09de35f380bca7d.png>
+![](img/zhuanqian_38a347656fa76288d9fabf9f2470535c.png)
+![](img/zhuanqian_05b55d54ac471312e2d1aad3bb4ce17b.png)
+![](img/zhuanqian_2ff5e8e98b252f4334583b5147e291cf.png)
+![](img/zhuanqian_5b71de59d4441471c959a44d08b3842b.png)
+![](img/zhuanqian_65f4d791b84101387d8b138e1b5181c2.png)
+![](img/zhuanqian_6a96c01772e348974cd09d64a30842b6.png)
+![](img/zhuanqian_cf1c82518c5cef976014261be980e7b0.png)
+![](img/zhuanqian_e0eca0a02b26b56ea09de35f380bca7d.png)
 想在某个垂直领域把小红书笔记写出理想的味道，最省事的办法，就是挑几篇你特别中意的爆款范文，当作参照样本直接丢进AI指令里。从那以后，它写出来的稿子就会稳稳带上你想要的调性。
 这个招数上手快、见效也快，不过软肋同样清楚——它只撑得起篇幅有限的轻内容。一旦要驾驭那种有纵深、有结构的深度长文，你得先把自己的创作框架和思考路径梳理清楚，把整套体例喂给AI，再由它提炼出一份可复用的写作模版。
 下面直接拿一位博主的实操过程来拆解，看完会更直观：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_01c57be161ca9e44fa40146d86d1c55c.png>
+![](img/zhuanqian_01c57be161ca9e44fa40146d86d1c55c.png)
 ### 10、对AI祛魅
 AI说到底只是一件辅助工具。它能把毫无写作功底的人托到及格线之上，偶尔超常发挥，也能摸到几回高分。可再往上走，拼的就是你自己的积累与定力了。
 ## Claude 2.0版全流程记录
@@ -296,18 +296,18 @@ AI说到底只是一件辅助工具。它能把毫无写作功底的人托到及
 这篇稿子，我特意以鲁迅式的热血与思辨重铸，用短句、反问和排比堆出气势，把笔探向人心深处。倘若方向与细节火候有偏差，望你直言，我再改。往后也会继续磨文字，多琢磨人心与分寸。多谢你指路，仿写大师的路上，我又往前挪了一小步。
 ### 1、先让AI就位，再丢样板
 先把初始指令发给AI，让它进入待命状态，随后把准备好的范文整篇贴进去。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_87453a912cababf476f79df4fc7e6315.png>
+![](img/zhuanqian_87453a912cababf476f79df4fc7e6315.png)
 ### 2、AI拆解，人类下令
 让AI通读范文，拆出其中最核心的创作手法与措辞习惯；你在那基础上，以人类身份下达精确的修改指令。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c4d275aaec8519592def84bd9323af9a.png>
+![](img/zhuanqian_c4d275aaec8519592def84bd9323af9a.png)
 ### 3、卡住就问AI
 这一步和前面一样，思路相通：拿不准往哪个方向出手，就把难题抛给AI，让它给你甩几个备选思路。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b1cf7c8b267f06470ca4b75f468d17d3.png>
+![](img/zhuanqian_b1cf7c8b267f06470ca4b75f468d17d3.png)
 ### 4、有主见地挑建议
 从AI给出的建议里挑出你认可的方向，让它精益求精。如果你还藏着别的创作习惯、个人偏好，哪怕只是临时迸出的想法，也一并交给AI。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6a817da5f0aca7911e8b9b75aa8ba253.png>
+![](img/zhuanqian_6a817da5f0aca7911e8b9b75aa8ba253.png)
 ### 5、中途插入新要求
 聊到一半想加入别的元素，或者想改变措辞温度，都不用重开对话，直接告诉AI即可。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d46b08543bfa993d96a6c845e986c8bb.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_eac12162fd36d5bddde8471cc8962ec6.png>
+![](img/zhuanqian_d46b08543bfa993d96a6c845e986c8bb.png)
+![](img/zhuanqian_eac12162fd36d5bddde8471cc8962ec6.png)
 以上是这次用AI做内容的一段手记。欢迎在评论区聊聊你的经验；有疏漏处，尽管拍砖。要是对你身边的朋友写笔记有启发，也欢迎转给他们看看。

@@ -23,7 +23,7 @@ n8n：把生产力工具民主化的代表
 ## 1.1 n8n 到底是什么？
 一句话概括：
 n8n 是一个开源的可视化自动化平台。无需写代码，就能像搭积木一样把各种应用和服务，如邮件、表格、文档、数据库、AI 模型、甚至公司内部系统，连成一条能自动跑的「工作流」。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_03c9daa049c61dae677b75560b0a82ab.png>
+![](img/zhuanqian_03c9daa049c61dae677b75560b0a82ab.png)
 设想一下：客户在企业微信留言，你要手动复制到飞书记录，再去腾讯文档改状态，最后还得提醒自己用钉钉同步同事...这种数字搬运的生活，既耗神又易错。
 n8n 就是为终结这种低效循环而生的工具。
 配置好流程后，n8n 会 24 小时监控触发条件。条件一旦满足，它就会自动启动，严格按你的流程图在后台完成串联任务。
@@ -41,23 +41,23 @@ n8n 就是为终结这种低效循环而生的工具。
 * 可视化不等于简单。n8n 面板友好，拖拽连线即可，但底层是功能强大的工作流引擎，能深度集成复杂 API。支持条件分支、循环、数据转换、异常处理等核心编程逻辑，只是以图形化方式呈现，让你专注业务而非语法。
 * 可能性几乎无限。内置近千个常用节点，如 Google、Microsoft、Notion、Slack、OpenAI 等，同时支持 HTTP 请求、Webhook 或自定义 JavaScript/Python 节点，连接几乎任何有 API 的服务，包括私有系统。扩展边界很宽，为创意提供空间。
 * 自托管版本本地调用能力强，比如读写本地数据库、操作本地文件、控制服务器等。你可以在不改动原有业务系统的前提下，让 n8n 像一个寄生系统，为现有流程增加自动化与 AI 能力。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9f5ff92f5dffaecb6007854afeba8398.png>
+![](img/zhuanqian_9f5ff92f5dffaecb6007854afeba8398.png)
 1. 开源的价值：
 * 自主可控。作为开源软件，可免费在本地电脑或服务器上部署，支持 Docker 一键私有化，完全掌控数据与流程。
 * 社群驱动。全球开发者持续维护，不断贡献新节点，遇到问题时社区里大概率已有答案。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_61ee505314bbd6e172d1d82342849cb1.png>
+![](img/zhuanqian_61ee505314bbd6e172d1d82342849cb1.png)
 1. 天生拥抱 AI：
 * 内置可视化 LangChain 节点，对 AI 支持很好。原生集成 ChatGPT、Claude 等，轻松把 AI 融入工作流：自动回复、文档总结、报告生成、数据分类...让 AI 成为自动化流程中的贴心助手。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8bc2975d3931e61ffdc2c1d9f5c8b19f.png>
+![](img/zhuanqian_8bc2975d3931e61ffdc2c1d9f5c8b19f.png)
 1. 低代码与代码的平衡：
 * 相比 Coze、Dify.ai，n8n 在无代码与代码之间找到了平衡点。对已有的节点，只需拖拽即可接入；对未收录的功能，支持通过 HTTP Request 接入任何开放 API，灵活性极高。
 * 很多零基础用户会发现 ChatGPT 擅长生成代码片段，却不擅长搭建完整工程。n8n 正好补足这一点：用拖拽搭建流程，缺块「积木」时再把 ChatGPT 生成的代码片段嵌入其中，二者结合效率更高。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_77f00dd7ce6f810d6512619da511eafb.png>
+![](img/zhuanqian_77f00dd7ce6f810d6512619da511eafb.png)
 ## 1.3 不会编程也能学吗？
 很多人觉得自动化是程序员的专利，没有编码背景就学不了，其实完全没必要。
 AI 让学习、阅读和生成代码变得非常容易，遇到任何问题都可以先交给 AI。边解决实际问题边构建自动化，才是学习 n8n 的正确姿势。
 这个时代已经不是「非专业不可为」的年代。无论你是创业者、自由职业者还是小团队成员，自动化都能帮你省下大量时间。相信自己，你可以做到。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6a709e2edb51adca3b14f4d5f7977750.png>
+![](img/zhuanqian_6a709e2edb51adca3b14f4d5f7977750.png)
 ## 1.4 为什么现在学低代码越来越重要？
 自从 ChatGPT 上线后，流行一句：AI 不会淘汰人，会淘汰不会用 AI 的人。话虽简短，道理很深。
 很多非技术用户对 AI 的认知很矛盾，觉得它既万能又无用。根源在于分不清 AI 技术本身和 AI 产品的能力边界。
@@ -74,7 +74,7 @@ n8n 是一个图形化低代码自动化平台，最初用于日常工作流自�
 AI 与世界交互的方式类似我们整理数据：我们用鼠标打开 Excel、修改数值、保存。AI 没有鼠标眼睛，需要 OpenFile、EditFields、SaveFile 等函数。在 n8n 中，这些函数都变成了可视化节点，非技术人员也能轻松搭建，让 AI 在赛博空间释放潜力。
 通过 n8n，你可以让 AI 与 1000+ 节点交互，几乎连接赛博世界所有主体，几乎无需写代码，只需拖拽设置参数。
 从这里开始，你才真正迈向「会用 AI 的人」。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_047174a662afe6808dde7972eceaacf7.png>
+![](img/zhuanqian_047174a662afe6808dde7972eceaacf7.png)
 ## 1.5 哪些场景特别适合自动化？
 1. 高频重复、考验耐心：数据抓取整理、跨平台迁移、重复文档编辑与格式调整、简单表格录入、批量生成二维码条形码。
 1. 步骤清晰的工作：批量邮件发送、文件归类归档、标准化邀约回复、固定模板报告生成、定期数据备份。
@@ -106,20 +106,20 @@ AI 与世界交互的方式类似我们整理数据：我们用鼠标打开 Exce
 ## 2.1 n8n 本地部署：后续维护无忧版
 ### Step1 下载 docker，注册并登录
 ▼打开 docker 官网 https://www.docker.com/，下载对应系统版本
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_031974fcf3c160d1611203f941158c96.png>
+![](img/zhuanqian_031974fcf3c160d1611203f941158c96.png)
 ▼安装后注册并登录，可选三种登录方式
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5dcc5cd03514b9e288c4a01ef91d04ef.png>
+![](img/zhuanqian_5dcc5cd03514b9e288c4a01ef91d04ef.png)
 ### Step3 用 docker 安装 n8n 并配置
 ▼左侧找到 Docker Hub，搜索 n8n，点击第一个结果
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4ab002b06a14ac707fa4cfcc1e575514.png>
+![](img/zhuanqian_4ab002b06a14ac707fa4cfcc1e575514.png)
 ▼点击右上角 Pull
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2b45a5c208448f896199ef0b516381d4.png>
+![](img/zhuanqian_2b45a5c208448f896199ef0b516381d4.png)
 ▼点击左侧 Images，等待下载完成后再运行
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_78caeeced512b3335551f1171fb7b23f.png>
+![](img/zhuanqian_78caeeced512b3335551f1171fb7b23f.png)
 ▼在电脑新建一个 n8n 文件夹保存数据，并复制其路径
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6d2e2fb249567b7f195e0a9aeaa7e350.png>
+![](img/zhuanqian_6d2e2fb249567b7f195e0a9aeaa7e350.png)
 ▼将路径粘贴到 volumes 第一格的 host path 中
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e80d68d57c58cea5b824b2bdef4ef722.png>
+![](img/zhuanqian_e80d68d57c58cea5b824b2bdef4ef722.png)
 ```
 n8n
 5678
@@ -127,21 +127,21 @@ n8n
 /home/node/.n8n/
 ```
 ### Step4 等待运行完成，点击链接即可访问，大功告成🎉🎉
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_539af5e2debef685374aa89c91096d41.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2881092560dd5140a6c6d7496d06c658.png>
+![](img/zhuanqian_539af5e2debef685374aa89c91096d41.png)
+![](img/zhuanqian_2881092560dd5140a6c6d7496d06c658.png)
 ## 2.2 熟悉 n8n 的界面与功能
 n8n 的灵魂人物其实是个设计师出身，并非写代码的开发者。正因为此，整个产品的交互质感被打磨得相当细腻。界面大量采用拖拽式操作，对初次接触的人来说可能会有一点陌生，但多点几下、拖动几回，就能摸到不少意外的便利。熟悉上手后，你会觉得使用体验非常顺滑。
 ### 左侧栏：工作区、凭据与运行日志
 点进左侧的 Overview，就来到工作流总览。顶部还有三个入口：
 *   Credentials：所有鉴权信息集中在此管理。
 *   Executions：相当于工作流的运行档案，记录每一次自动化的启动过程、返回结果以及异常信息。如果某次执行报错，会在列表里显示 Error，点击即可追溯到具体出错的节点。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_88f60aa4a87b79e3ba6233b88d910ff1.png>
+![](img/zhuanqian_88f60aa4a87b79e3ba6233b88d910ff1.png)
 ### 顶部工具栏：流程管理与导入导出
 这里集中了流程命名、启停开关、保存、分享、导入导出等基础控制按钮。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e84c5d4aa2b641c21a36560963558193.png>
+![](img/zhuanqian_e84c5d4aa2b641c21a36560963558193.png)
 ### 中央画布：白板式工作区
 这是搭建流程的核心区域，可在此自由放置节点并连线，也能用便签 Sticky Notes 做补充说明。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ffae38f171a6ac6438bd226ebe736521.png>
+![](img/zhuanqian_ffae38f171a6ac6438bd226ebe736521.png)
 #### 如何为流程写一份操作手册
 在搭建和验证阶段，通常需要反复按 Execute step 来确认各环节是否正常。流程上线稳定后，一般不会频繁回看，只有出现问题时才需要排查。
 把当时的设计思路和步骤记下来，等于给未来的自己或同事留一份使用指南，也是对当下方案的一次深度复盘。复盘不只是回顾，更是为了让后续的优化更有效。
@@ -150,19 +150,19 @@ n8n 的灵魂人物其实是个设计师出身，并非写代码的开发者。�
 1.  进入 n8n，打开目标工作流
 2.  点击画布右侧的便签图标新增便签
 3.  在便签中写下思路与步骤。Sticky Note 支持 Markdown，可加入标题、加粗、链接等格式。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_952dcc931ac744c05422b8d1d3daa378.png>
+![](img/zhuanqian_952dcc931ac744c05422b8d1d3daa378.png)
 #### Executions 的用法
 在画布上方切换到 Executions 即可查看该流程的历史运行记录。
 这个页面很实用，因为画布本身不会自动保存历史版本，想找回之前设计的片段时，可以在这里翻阅，甚至直接复制回画布。
 Executions 里的每个节点都是可点开的，能看到详细配置与日志信息。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ff734337a7a9cc9ec3ca339d45009af3.png>
+![](img/zhuanqian_ff734337a7a9cc9ec3ca339d45009af3.png)
 #### 常用操作小技巧
 1.  画布支持触控板缩放，也可在左下角使用缩放按钮。
 2.  每个节点都可拖拽移动。鼠标悬停时节点会显示 ➡️ 标记，表示单步执行，仅运行该环节，在调试时非常方便。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b9611ce0209537f8966ced03f8f99e9e.png>
+![](img/zhuanqian_b9611ce0209537f8966ced03f8f99e9e.png)
 3.  注意：工作流画布不具备自动保存功能，请习惯使用【ctrl+s】手动保存。
 ### 右侧面板：节点选择面板
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a2d2359d6001ac42e8d6e9685482a703.png>
+![](img/zhuanqian_a2d2359d6001ac42e8d6e9685482a703.png)
 点击 “+” 即可看到全部可用节点，按分类或关键词检索。选中后节点会加入中央画布，开始拖拽连线构建流程。
 #### 自动化的两大基础概念：触发与行为
 自动化流程通常由两种节点组成：触发 Trigger 和行为 Action。
@@ -170,7 +170,7 @@ Executions 里的每个节点都是可点开的，能看到详细配置与日志
 *   触发节点：何时启动流程
 这类节点相当于告诉 n8n：“开始干活了”。例如有人提交 Notion 表单、发布 Facebook 帖子、达到特定时间等。
 在节点列表里，带闪电图标的就是可作为触发器的节点。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_14f7ca4c606adae7868739d89def23d9.png>
+![](img/zhuanqian_14f7ca4c606adae7868739d89def23d9.png)
 *   行为节点：要做什么操作
 触发后，行为节点开始执行具体任务。例如每天 9 点发送邮件汇总，或有新订单时自动更新 Notion 数据库。
 提示：一个流程里常包含多个行为节点。节点越多，测试量越大，出错排查也越复杂。建议新手先从简易流程练习起，逐步提升复杂度。
@@ -178,12 +178,12 @@ Executions 里的每个节点都是可点开的，能看到详细配置与日志
 明确触发点与行为后，还要决定数据的输入输出位置。常见的选择有 Notion、Discord、Telegram、Google Sheets 等，均可作为记录与交互的载体。
 #### 节点详情页结构
 每个节点详情均分为三块：左侧入参、中部处理与设置、右侧出参。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0e3a73c8a0a1efe406e7c6fb59dc2e22.png>
+![](img/zhuanqian_0e3a73c8a0a1efe406e7c6fb59dc2e22.png)
 *   入参：显示来自上游节点的数据。
 *   处理与设置：配置当前节点的处理规则。
 *   出参：展示处理后的结果与日志。
 入参与出参支持三种视图：Schema、Table、Json。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9611255be809cb7f870341ff4c170994.png>
+![](img/zhuanqian_9611255be809cb7f870341ff4c170994.png)
 *   Schema：展示上游输出的元数据与示例。
 *   Table：以表格形式展示全部数据。
 *   Json：以 JSON 格式展示全部数据。
@@ -191,7 +191,7 @@ Executions 里的每个节点都是可点开的，能看到详细配置与日志
 更关键的是，n8n 支持跨多级引用，你可以引用上游、上上游等任意前序节点的数据。系统内部会自动建立唯一关联，无需担心数据错位，这就是隐式传递的设计。
 配置完成后，点击 Execute step，即可在上游有缓存结果时对当前节点进行单步调试。
 ### 界面菜单区
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_caa7363fcfcc90cfd9fae7c30f4c20ca.png>
+![](img/zhuanqian_caa7363fcfcc90cfd9fae7c30f4c20ca.png)
 菜单区顶部依次提供：
 *   模板 Templates：跳转至官网模板库；
 *   变量 Variables：工作流外的全局变量，可统一维护，所有引用该变量的流程会按新值运行。需付费企业版，未订阅可忽略；
@@ -201,7 +201,7 @@ Executions 里的每个节点都是可点开的，能看到详细配置与日志
 *   「…」设置 Settings：常规设置入口。
 #### 设置建议：开启二次验证
 点击账号右侧的「…」进入设置，建议部署完成后尽快开启 2FA 双重验证，提升账号安全性。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_26b2caf49e60ec8545457eb0dac90b51.png>
+![](img/zhuanqian_26b2caf49e60ec8545457eb0dac90b51.png)
 ## 2.3 实践学前班 - n8n AI 节点完整指南
 ### 前言
 n8n 内置可视化 LangChain 节点，可快速接入各类大模型。上手前先厘清几个基础概念。
@@ -228,7 +228,7 @@ Advanced AI 是 n8n 的 AI 节点分类，包含多种类型。每个节点介�
 ### Basic LLM Chain 详解
 Basic LLM Chain 是最简 AI 节点，适合一次性文本处理，如摘要、校对、分类。
 逻辑：接收上游数据 → 将 Prompt 与数据提交给模型 → 返回结果。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e1923df0b58c8dc7548e29218a48da58.png>
+![](img/zhuanqian_e1923df0b58c8dc7548e29218a48da58.png)
 Model 必填
 这是一个子节点，需单独添加到画布。n8n 当前支持的模型包括：
 *   Google PaLM/Gemini Chat Model
@@ -249,11 +249,11 @@ Chat Trigger 是特殊触发器，可通过聊天窗口启动流程。
 *   每次发送消息即完整触发一次流程
 *   默认不保存对话历史，每次都是全新会话
 *   虽然建议连 AI 节点，也可作为普通输入触发器使用
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_512a032d031b532e2d42dd7b18ddcc30.png>
+![](img/zhuanqian_512a032d031b532e2d42dd7b18ddcc30.png)
 ## AI Agent 深度解析
 AI Agent 是 Basic LLM Chain 的进阶形态，充分释放了 LangChain 的能力。从外观看，其插槽更多，可连接更多子节点。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a3bcfdfbbca3cb634a24f0a220c287a7.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f9edf3f06698668ed14060e9c9b745d1.png>
+![](img/zhuanqian_a3bcfdfbbca3cb634a24f0a220c287a7.png)
+![](img/zhuanqian_f9edf3f06698668ed14060e9c9b745d1.png)
 ### Agent 类型
 Conversational Agent
 *   面向对话场景
@@ -329,39 +329,39 @@ n8n 的 AI 节点体系从简单到复杂，基本覆盖所有场景。
 下面带你一步步搭建第一个流程，目标是跑通，体验成功感。后续可接入任意模型 API 或添加工具。
 ### Step1 添加触发器与 AI 节点
 新建流程面板，按图示先添加触发器与 AI 节点。遇到英文不熟，可用沉浸式翻译插件。看不懂或暂时用不到的功能先放一边，保持正反馈最重要。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_504d5d58b9e30c5cf0f19da37e482c1d.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_64c1998233a7ca46eb5b561cf0ded362.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6e14d53dd0171923a97c38961ca03bab.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_829ee574ae0212f2fc6e0038e3ca49a4.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f6c218139b4969d9c20ca2879f59cb64.png>
+![](img/zhuanqian_504d5d58b9e30c5cf0f19da37e482c1d.png)
+![](img/zhuanqian_64c1998233a7ca46eb5b561cf0ded362.png)
+![](img/zhuanqian_6e14d53dd0171923a97c38961ca03bab.png)
+![](img/zhuanqian_829ee574ae0212f2fc6e0038e3ca49a4.png)
+![](img/zhuanqian_f6c218139b4969d9c20ca2879f59cb64.png)
 ### Step2 配置凭证
 本次使用 DeepSeek 模型，先创建新凭证。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0cd3be64caaea682a39f99423f34b2b8.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0cc75b19db8748ca1d46664eef47bdb1.png>
+![](img/zhuanqian_0cd3be64caaea682a39f99423f34b2b8.png)
+![](img/zhuanqian_0cc75b19db8748ca1d46664eef47bdb1.png)
 很多朋友问：怎么把 DeepSeek 接进 n8n，做一个能联网、能记住上下文的 AI 助手？其实流程并不复杂，只要照着下面几步走，新手也能跑通第一个工作流。
 先访问 DeepSeek 官网，登录后从右上角进入 API 开发者平台，建议先充 10 块钱用作测试预算。其实不只是 DeepSeek，想接入任何大模型，思路都是相通的：去对应模型的开发者后台，找到 API 调用入口，创建一个 key，再把它复制到 n8n 里。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9e70c48ee3f7b995673b08a475daaa1c.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8f7694451c8888e1c13eed7f46775bc7.png>
+![](img/zhuanqian_9e70c48ee3f7b995673b08a475daaa1c.png)
+![](img/zhuanqian_8f7694451c8888e1c13eed7f46775bc7.png)
 在 API Key 区域新建一个密钥，生成后记得马上复制。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a9f0f79940cef70b6e66e8a945a48bcf.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fdb1a949ed19bee8a90b32d51ef96a2d.png>
+![](img/zhuanqian_a9f0f79940cef70b6e66e8a945a48bcf.png)
+![](img/zhuanqian_fdb1a949ed19bee8a90b32d51ef96a2d.png)
 把刚才复制的密钥粘贴到 n8n 的凭证配置里，保存之后，凭证就建好了。做到这一步，DeepSeek 和 n8n 已经成功连上线。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b2aa96260cf2dbeeebb8cde0372c5967.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d16acc47da010aedfeb305b38708afbc.png>
+![](img/zhuanqian_b2aa96260cf2dbeeebb8cde0372c5967.png)
+![](img/zhuanqian_d16acc47da010aedfeb305b38708afbc.png)
 第三步，给 Agent 添加记忆模块。这样它才能结合对话历史来回答，而不是每次“失忆”。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3bf5cabbddbc6b6b4a61c4c0302a2be4.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3c01cb2c24fe01f3ef5bc92a84f2dce6.png>
+![](img/zhuanqian_3bf5cabbddbc6b6b4a61c4c0302a2be4.png)
+![](img/zhuanqian_3c01cb2c24fe01f3ef5bc92a84f2dce6.png)
 第四步，配置 RSS，让 AI 助手可以访问指定的网络信息源。简单说，RSS 是一种内容订阅技术，你不需要每天逐个打开网站，也能集中看到感兴趣站点的最新更新。换句话说，给 Agent 接上 RSS，等于帮它打开了一扇获取外部资讯的窗口。
 在 n8n 里新建一个 RSS 读取工具，然后填入你需要监控的订阅地址。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_47c20dca1ca3abcccb0703f16194add6.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c75813de356316be57f78c8e2a41294c.png>
+![](img/zhuanqian_47c20dca1ca3abcccb0703f16194add6.png)
+![](img/zhuanqian_c75813de356316be57f78c8e2a41294c.png)
 这个工具可以抓取任意 RSS 订阅源的最新文章。想立刻测试的话，可以直接选用这些源：BBC World 的全球头条、半岛电视台英语的深度报道、CNN World 的突发新闻、TechCrunch 的科技与创业资讯、Hacker News 的技术社区动态、n8n 官方博客更新、Bon Appétit 的食谱、ENDS Report 的环境法律与政策、MedlinePlus 的健康更新。
 全部配置完成后，点击界面下方的【打开聊天】就能开始测试。我试着让这个 Agent 给我整理几条近期科技新闻，结果很顺利：它通过 DeepSeek 理解任务，再借助 RSS 获取最新内容，最后输出新闻标题、简介和原文链接。
 到这里，你的第一个 n8n 工作流就正式跑通了！
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2703ea1d7abd34c829f9f1995d71fac7.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3baea562a90f26fd754448d0b470a29b.png>
+![](img/zhuanqian_2703ea1d7abd34c829f9f1995d71fac7.png)
+![](img/zhuanqian_3baea562a90f26fd754448d0b470a29b.png)
 如果你还想给 Agent 设定内置提示词，也很简单：打开 AI Agent 节点，把提示来源切换成自定义，再写入你想要的指令即可。另外，在 n8n 里几乎所有功能、按钮都能随意点一点、拖一拖；多动手尝试，往往能发现很多惊喜。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6d2442c8b6707b7a0cea75e2a0c0e444.png>
+![](img/zhuanqian_6d2442c8b6707b7a0cea75e2a0c0e444.png)
 那怎么找到值得自动化的需求？判断标准可以浓缩成三个关键词：重复、耗时、流程固定。
 哪些工作场景适合交给自动化？
 - 频繁重复、基本不用动脑的任务，比如从系统里捞数据、复制粘贴。
@@ -370,5 +370,5 @@ n8n 的 AI 节点体系从简单到复杂，基本覆盖所有场景。
 简单说：只要一件事同时满足“重复性强、耗费时间、流程可标准化”，就值得用自动化把它接住。现在不妨想一想，你工作或生活里有没有正好符合这些条件的任务？
 另外，还有两个实用的小补充。
 如果你想升级 n8n，并且安装时用的是我之前介绍的方式，那么只需要在镜像管理里找到 n8n，重新 pull 一次，就能拉到新版本。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_128e3d32d98bde41680fab4e087f5139.png>
+![](img/zhuanqian_128e3d32d98bde41680fab4e087f5139.png)
 最后是一些资源清单：n8n 官网链接、n8n 条款说明书、GitHub 上上千个 JSON 模板、YouTube 上 n8n 赛道的头部创作者、谷歌全家桶配置（Gmail、Google Drive、表格、文档等）、YouTube 上 n8n 博主的分析结果，以及 GitHub 上的免费模板。把这些资源用好，你的自动化工作流会越做越顺手。

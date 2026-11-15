@@ -1,12 +1,12 @@
 # 从身边的小痛点出发，普通人如何用“AI写代码+小红书”把产品变成现金流？我的完整复盘
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d73cd43a587c110247248858be0c3e2f_0_0.png>
+![](img/zhuanqian_d73cd43a587c110247248858be0c3e2f_0_0.png)
 大家好，我是龙哥。
 先交代一下背景：
 - 本职是在职打工人，做全屋定制设计督导，差不多就是给设计师当教练；
 - 写代码属于半路出家，但已经靠AI做出了一个和自己职业深度绑定的SaaS——全屋定制报价系统。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d73cd43a587c110247248858be0c3e2f_0_1.png>
+![](img/zhuanqian_d73cd43a587c110247248858be0c3e2f_0_1.png)
 这个产品上线也就一个来月，付费用户已经40多个。对我这种编程新手来说，算是很大的鼓励了。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d73cd43a587c110247248858be0c3e2f_0_2.png>
+![](img/zhuanqian_d73cd43a587c110247248858be0c3e2f_0_2.png)
 收入不止来自小红书，线下也带出来一些额外单子，比如私域里的转化。
 ![](bbox=[74, 107, 824, 310])
 ![](bbox=[100, 353, 800, 566])
@@ -24,13 +24,13 @@
 ### 我在用的工具：便宜是底线，免费更好
 目前我的开发组合是Claude Code配MiniMax 2.5的套餐，一个月49元，对我这种非重度用户来说已经很够用了。
 如果你一分钱都不想花，也有方案：OpenCode自带好几个开箱即用的免费模型，比如GLM5和MiniMax 2.5，都是国内第一梯队的编程模型。海外模型当然更强，但得“🪜”，这里就不展开教了。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d73cd43a587c110247248858be0c3e2f_3_0.png>
+![](img/zhuanqian_d73cd43a587c110247248858be0c3e2f_3_0.png)
 ### 自学路线：新手可以直接抄
 我的AI开发能力不是系统学来的，基本是靠自己在网上找免费教程、一点点试出来的。只要肯花时间沉下心，上手真的很快。
 如果你不太习惯命令行操作，可以按我的路径走：Trae → Cursor → OpenCode桌面版 → Claude Code CLI。难度从易到难，模型的“聪明程度”也随着这条线递增。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d73cd43a587c110247248858be0c3e2f_4_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d73cd43a587c110247248858be0c3e2f_4_1.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d73cd43a587c110247248858be0c3e2f_5_0.png>
+![](img/zhuanqian_d73cd43a587c110247248858be0c3e2f_4_0.png)
+![](img/zhuanqian_d73cd43a587c110247248858be0c3e2f_4_1.png)
+![](img/zhuanqian_d73cd43a587c110247248858be0c3e2f_5_0.png)
 当你发现某个工具开始顶不住的时候，就可以考虑往下一个进阶了。我的判断标准很朴素：同一个问题，它修了好几次还是修不好，那就说明到头了，趁早换。
 目前我用得最久的是Claude Code加国产SOTA编程模型的组合（主要我实在懒得折腾“魔法”，虽然这也不是什么好习惯哈哈）。
 Claude Code安装指引：https://scys.com/course/detail/109?chapterId=4517
@@ -41,10 +41,10 @@ Claude Code安装指引：https://scys.com/course/detail/109?chapterId=4517
 我本身在全屋定制行业，经常要帮设计师、导购算报价，早就想要一个能提效的工具。在此之前，我用AI做了一个“今天吃什么”的家庭菜单小工具练手，虽然没有用户，但让我攒下了基础经验。
 （这里放当时的界面截图：![](bbox=[102, 223, 663, 440])）
 这个产品的使用逻辑很简单：先设置口味偏好，AI每天给你推荐菜单，再自动生成采买清单，最后照着步骤做就行。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d73cd43a587c110247248858be0c3e2f_8_0.png>
+![](img/zhuanqian_d73cd43a587c110247248858be0c3e2f_8_0.png)
 ### 核心产品：定制柜报价SaaS，起步时纯自用
 这个SaaS系统是我的第二个产品，前后磨了一个多月。最初只有我自己在用，完全没想过怎么变现。后来参加赚钱的大航海（热词快站、YouTube），虽然没跑出成绩，但让我彻底意识到：流量比做产品更关键。也是从那时候起，我开始尝试“产品+流量”的思路，只是当时还没赚到钱。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d73cd43a587c110247248858be0c3e2f_8_1.png>
+![](img/zhuanqian_d73cd43a587c110247248858be0c3e2f_8_1.png)
 现在回头看，我做对的最重要的一件事，就是从自己和身边人的需求出发做开发。目标用户从一开始就是清晰的，后面的推广和卖货都轻松了很多。
 ## 3. 关键转折：在小红书虚拟赛道里把产品盘活
 ### 心力被耗光后，转投小红书虚拟赛道
@@ -60,7 +60,7 @@ Claude Code安装指引：https://scys.com/course/detail/109?chapterId=4517
 - Supabase：开源的后端即服务（BaaS），基于PostgreSQL，数据库、认证、存储、API一应俱全，经常被叫做“开源版Firebase”，也就是“能免费托管后端的网站”。
 随后我拆了多个SKU：一个月9.9元，永久版199元，价格带从低到高全覆盖；同时也上架了一些别人卖得好的搬运类资料包，一起测试。
 实测结果很有意思：资料包虽然也能出单，但一旦被别家低价搬运，流量立刻直线下滑；而报价系统反而一直稳定出单。更重要的是，它在小红书虚拟赛道属于独家产品，天然防搬运，别人想抄也得付出极高的成本。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d73cd43a587c110247248858be0c3e2f_11_0.png>
+![](img/zhuanqian_d73cd43a587c110247248858be0c3e2f_11_0.png)
 ## 4. 流量运营：让AI把小红书运营也接管
 ### 类目调整时虚惊一场
 我的虚拟商品最开始挂在“其他电子资源”这个类目下。中间恰好赶上平台调整虚拟类目，当时是真的吓到了。
@@ -70,7 +70,7 @@ Claude Code安装指引：https://scys.com/course/detail/109?chapterId=4517
 - 免费可选的类目：艺术品及周边 > 艺术定制 > 绘画类定制，或者其他支持无物流发货的类目都行。发货可以接无忧发货、阿奇索这类虚拟商品自动发货平台。
 - 花钱可以开通的类目：成人教育、儿童教育，以及原来的电子资源类目。闲鱼上有很多商家做这个业务，几十块钱就能开一个店，性价比挺高。开通后同样走自动发货平台。
 自动发货平台在店铺的“服务市场”里有很多，我目前在用无忧发货，主要是它能免费试用一年；阿奇索也很有名，同样值得试试。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d73cd43a587c110247248858be0c3e2f_13_0.png>
+![](img/zhuanqian_d73cd43a587c110247248858be0c3e2f_13_0.png)
 ### 上架技巧：能交给AI的全部交给AI
 #### 封面
 最早我的封面就是从系统界面截一张图，但后来发现用户根本看不懂，更不会有下单欲望。于是我换成了小红书主流的“截图+卖点文字”版式，信息一目了然，转化率高了很多。做图可以用美图秀秀，也可以直接用Nano Banana 2生成，我更喜欢后者，因为快（说白了就是懒）。

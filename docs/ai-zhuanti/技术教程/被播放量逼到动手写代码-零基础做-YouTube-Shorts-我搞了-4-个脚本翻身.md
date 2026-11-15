@@ -12,7 +12,7 @@
 一个新注册的号，一个早年间自用的老号。
 新号养了两三天，后来因为一直没动手又撂在那儿吃了十几天灰。
 为了避免精力被摊得太薄、最后被懒劲儿打败，两个号统一跑科普解说这一个方向。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b25f02be45fb36beec3bb93cc785bd36.png>
+![](img/zhuanqian_b25f02be45fb36beec3bb93cc785bd36.png)
 # 怎么找到第一波对标账号
 刚开始真的连门往哪儿开都不知道。
 好在教练给的资料里直接列了几家可以模仿的账号，我就照着名字去站里搜，点进去刷、点赞、顺手关注。逐渐地，首页开始推类似的解说内容，我凡看到没关注过的就点一下，时间一长，信息流已经听话得差不多了。
@@ -27,11 +27,11 @@
 当晚就按照航海手册把 Cursor 装好了，二话不说开始敲代码，一口气战到第二天天亮。
 中间的细节已经模糊了。弄出来的东西都很初级、很将就，也夹着不少小毛病，但当时能用就行，后续再慢慢打磨。最直观的体会是：想把所有功能都塞进同一个界面，对 Cursor 来说有点超纲了——它很容易在新功能的编写过程中，把已经跑通的旧功能改出毛病；遇到报错时也容易困在一个小角落兜圈子。
 当然了，根子还是我的水平、技巧和投入时间都不到位。所以最后拆成 4 个独立的小工具，并且按使用顺序编了号，做片子时流程清晰了不少。比如那个 2.5 号文件夹永远是空的——因为中间那步还得靠我这个“人肉模块”去手工交付。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8183d702012f4da41a7055528be4ae8d.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6e29426bc2dfaaa935c0c5b4b3abc220.png>
+![](img/zhuanqian_8183d702012f4da41a7055528be4ae8d.png)
+![](img/zhuanqian_6e29426bc2dfaaa935c0c5b4b3abc220.png)
 每一个子文件夹里无非是代码文件加上一个启动入口。头一个程序是用 Python 搭配类似 PyQt 的桌面框架写的，跑起来明显卡顿，写起来也费劲，果断弃用。后面的工具全部切到了网页版，基于一个 S 打头的 Python 库，直接跟 Cursor 说是哪个库它就清楚。切换之后速度有了质的提升，开发效率也直线上升。
 ## 一号工具：频道解析与批量拉片
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e5b192186bc3edcc3b589e88a43643cd.png>
+![](img/zhuanqian_e5b192186bc3edcc3b589e88a43643cd.png)
 * 可以连续抓取多个频道的资料
 * 列出某个频道全部 Shorts 的数据
 * 按条件筛掉不符合预期的片子
@@ -40,28 +40,28 @@
 反复写这个工具、边测边调的过程中，顺手攒下了不少别人跑出过成绩的爆款片目，省去了原来天天蹲首页翻视频、大海捞针的功夫。
 今后只需在碎片时间里刷一刷 YouTube、把看得上的对标账号收进清单就行。后续还打算利用这个工具的频道数据采集能力，继续攒更多的账号样本，慢慢往数据分析的方向走，甚至试试能不能估算频道的收入，好让心里多点底气。
 ## 二号工具：文案转写加词条提炼
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a9bb7c8249cd3fb80eeff0a2d872627f.png>
+![](img/zhuanqian_a9bb7c8249cd3fb80eeff0a2d872627f.png)
 * 负责把视频语音转成完整体文字
 * 顺手把稿子里的关键信息抽出来
 过去全靠飞书妙记来解决转写。这一套流程很麻烦：得先启动应用、再传视频（上传还得等），完了还得看转写进度。偶尔忘了提前传，等素材都找好了才想起来传，只能在那儿眼巴巴地盯着进度条走，烦躁得很。
 现在有了这个工具，就能把一号工具批量拉回来的片子一次性丢进去，转出文字后统一汇进一张 Excel 表里，之后做片子直接从这张表里挑稿子就行，省心太多。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3a32442d9e6cea25f4cc742211edf82e.png>
+![](img/zhuanqian_3a32442d9e6cea25f4cc742211edf82e.png)
 中途插一个必须人工完成的动作：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_84b9c2a5dddb9ebd12a458185dcc88cc.png>
+![](img/zhuanqian_84b9c2a5dddb9ebd12a458185dcc88cc.png)
 因为没买付费 API，所以目前只能手动把稿子逐条粘到 GPT 对话框里请它改写，弄完再贴回表里的新一列。效率不高，但也确实没有更好的办法。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f03dcde914970b2a875eb2819d8d5b7f.png>
+![](img/zhuanqian_f03dcde914970b2a875eb2819d8d5b7f.png)
 ## 三号工具：视频素材整批下载
 之前一直在用网上免费的下载网页，每下一个视频就得手动贴一次链接，偶尔还要多跳几个页面才搞定；至于能批量下载的服务，基本都藏着付费墙，钱包扛不住。
 于是又动了手，写了个批量下载脚本。用法很直觉：找素材的过程中顺手把网页链接贴进去，攒够一批再按一下，就齐活了。缺陷是下载速度不算快，几个片子的时间足够去做别的——比如先去切分音频句子。
 说到这，其实切分句子这件事我也问过 Cursor，它确实给出过一版可用结果，只是产出的形态是一堆打散的音频小样，我不太满意就没继续用。不过后来想想，其实也可以接受。
 另外在里头额外加了一个小功能：对成片做轻度锐化、提亮高光等参数微调，省得再回 CapCut 里一个个拉调节杆。虽然教练说 YouTube 对美化的要求远没有国内平台那么夸张，但我养成了习惯，每条都想微调一下。现在这套动作已经直接被封装到下载流程里了，拿到的片子就是调好的。我当时专门去问 Cursor 这些处理算不算改动视频指纹，它回我非常肯定的答案。真实性未知，先信着。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f617552772a820ed09513cd813023f74.png>
+![](img/zhuanqian_f617552772a820ed09513cd813023f74.png)
 ## 四号工具：批量合成配音加静音裁剪
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_947c01fad276029dbaada1da7214ebeb.png>
+![](img/zhuanqian_947c01fad276029dbaada1da7214ebeb.png)
 * 读取前一步生成的表格，自动向 ElevenLabs 请求，按预设音色与参数整套生成语音
 * 内置在线试听，因为合成的稳定性有限，偶尔会蹦出奇怪的情绪或音调，可以直接重新生成
 * 临门一脚加上了去气口处理，这个思路是从圈友那儿偷师来的
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a008caa85c1b84be328f54fb26097e43.png>
+![](img/zhuanqian_a008caa85c1b84be328f54fb26097e43.png)
 这些都是转好的语音文件。
 ## 最后一棒：CapCut
 最终拼装依旧在 CapCut 里收尾。我也曾动过写插件的念头，还向 Cursor 求证过可行性。得到的答复是：得走企业开发者认证的路子，还得啃 API 文档，显然不是一时半会儿能啃下来的，目前也谈不上迫切，就先搁置了。

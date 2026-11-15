@@ -8,7 +8,7 @@
 ![](img/7d8509d1695575ab65bd20929e92ff69.png "None")
 于是我继续追问，让它把思路浓缩成一条CSS路径。经过两轮调整，它终于给出了一个能用的方案，我再把“第几个群组”换成动态变量就行：
 1. `div[role="dialog"] div[role="list"] > [role="listitem"]:nth-child({{variables.curr_index}})`
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b49a3a27085af5c0383a66f8a768a79f.png>
+![](img/zhuanqian_b49a3a27085af5c0383a66f8a768a79f.png)
 复盘一下，这个问题的本质不是有多难，而是元素太多了，肉眼根本来不及分辨哪些是关键节点。这时候把脏活丢给AI，让它帮你“读码”，效率直接翻倍。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ed45a03806053510352046fc287cfc99.png>
+![](img/zhuanqian_ed45a03806053510352046fc287cfc99.png)
 怎么样，这招你记住了吗？下次遇到类似找不到规律的定位问题，不妨直接把HTML甩给Kimi试试。

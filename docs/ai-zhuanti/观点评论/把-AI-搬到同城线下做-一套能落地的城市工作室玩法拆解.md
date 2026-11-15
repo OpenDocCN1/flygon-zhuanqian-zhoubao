@@ -8,9 +8,9 @@
 我长期做项目策划和研发，算是项目经理人。奈何环境限制，脑子里一堆能跑的点子，最后不是搁置就是分享给别人被别人跑起来了。
 拉我进群的主理人姐姐说，航海家有很多权益，还有创业孵化和资源对接的机会，这句话点燃了我。
 从去年起我就盯着 AI 在市场里的落地机会，怎么把成熟模型二次封装成新的应用场景。今天进了航海家，急着想交点硬货出来，脑子一下子就通了。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5ce0ab7541c15b280dd998e6f7d69e5c.png>
+![](img/zhuanqian_5ce0ab7541c15b280dd998e6f7d69e5c.png)
 这份方案是通宵写的。至于能不能真落地，我也不敢打包票，毕竟大城市的信息差这边还没完全吃到，全靠当下我的认知和信息量来做推演。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7b6a8344aca2296d4d94976c9ba896a0.png>
+![](img/zhuanqian_7b6a8344aca2296d4d94976c9ba896a0.png)
 # AI 同城业务工作室项目 可落地方案
 ## 一、项目背景
 AI 的市场教育从去年开始真正热起来，本质上它就是一套提升效率的工具，工具之下自然长出很多能赚钱的小生意。
@@ -116,14 +116,14 @@ AI 同城公司跟老板说：你做不了抖音、做不了 IP、做不了短�
 赚钱的关键也是分工：自己负责营销、揽活、聊客户、找合作，交付交给专业团队。
 对比抖音同城，AI 同城更轻、投入更低，抖音需要真人干活，AI 用机器+人工效率更高，完全可以站在抖音肩膀上飞。
 ## 五、方案总结
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_88397c0324ca8ce56c014fb5366018da.png>
+![](img/zhuanqian_88397c0324ca8ce56c014fb5366018da.png)
 从品牌角度看，这个赛道目前全国基本没有标准，没有头部品牌。
 最后受损的都是普通老百姓和中小个体，他们不知道怎么选，只能交智商税，最后不了了之。
 AI 有技术价值，也有赚钱赋能价值。放到同城线下，信任感更强。
 网络再凶，也卷不到线下；网络卷不动了，就只能下沉。看看抖音运营圈，现在线下做得依旧风生水起。
 OK，以上就是我对这个项目的拆解和思考。文笔有限，很多细节没展开，也怕啰嗦太多。
 **（完）领飞搞钱，越来越有钱。**
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_19ddaf3f6bf4ce9cb00c55de3638c449.png>
+![](img/zhuanqian_19ddaf3f6bf4ce9cb00c55de3638c449.png)
 * * *
 评论区：
 小小 : 优秀
@@ -133,5 +133,5 @@ OK，以上就是我对这个项目的拆解和思考。文笔有限，很多细
 刘洋（内蒙猫粮工厂） : 内蒙哪里人呀？
 盟主君 : 没有具体操作流程，太宏大叙事了
 领飞懂运营 : 这是策划，以过往三次革新，反观当下 AI
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_21de372a77ea1f441c613f7316831ae1.png>
+![](img/zhuanqian_21de372a77ea1f441c613f7316831ae1.png)
 * * *

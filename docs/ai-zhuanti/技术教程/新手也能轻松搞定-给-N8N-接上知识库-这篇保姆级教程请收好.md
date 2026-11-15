@@ -11,12 +11,12 @@
 ### 4. 其他痛点……
 一时半会儿我也编不出来了，大家自己感受下，肯定还有一堆。
 ## 知识库到底是啥原理？
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0249d8cfb7cdaa1870e8f5351f5d4a97.png>
+![](img/zhuanqian_0249d8cfb7cdaa1870e8f5351f5d4a97.png)
 先放个工作流的图镇楼。
 其实 N8N 接知识库这事，道理不复杂，我简单唠两句。
 首先，把你手头的各种资料——txt、word、excel、pdf、png、html 啥的都算上——通过 OCR 或者 AI 识图，先转成纯文字，这算是预处理。然后呢，把这些文字做“向量化处理”。先别一听这词就头疼，我给你举例子。
 对咱们中国人来说，看中文是不是比看英文、日文、德文轻松多了？同样的信息，不同语言，难度天差地别。AI 也一样——直接读原始文本，它脑瓜子嗡嗡的，就像人类突然看到外星文字，见下图：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5da7484885751a2308bc60cfdbf53208.png>
+![](img/zhuanqian_5da7484885751a2308bc60cfdbf53208.png)
 那为啥你说中文，AI 又能明白呢？因为你的每一句中文，都会被转成向量信息；AI 回复的向量信息，又会翻译回人话。一来一回，你们就能聊上天了。
 为了让 AI 能快速找到我们想要的信息，就得把上传的资料全部转成向量存起来。这个过程有点像你小时候背课文——《桃花源记》《岳阳楼记》《小石潭记》……当时可能似懂非懂，细节也忘了，但脑子里留了个大概印象。等哪天看到夕阳美景，你会脱口而出：“落霞与孤鹜齐飞，秋水共长天一色。”——这就是有效信息的快速检索和提取。
 检索到和问题相关的内容再丢给 AI，它给出的答案自然就精准多了。
@@ -29,57 +29,57 @@
 点链接进去，用谷歌一键登录就行。
 https://cloud.dify.ai/signin
 ### 三、点 Knowledge
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_69b4121170cb12d99e5f53d6de0c7319.png>
+![](img/zhuanqian_69b4121170cb12d99e5f53d6de0c7319.png)
 ### 四、新建一个知识库
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_41afc66776da4eb59112075b6334a73b.png>
+![](img/zhuanqian_41afc66776da4eb59112075b6334a73b.png)
 ### 五、上传文件，拖拽或者点击都行，推荐用 word 格式
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e8fa6d9115c2809e1a6f450f6c27f876.png>
+![](img/zhuanqian_e8fa6d9115c2809e1a6f450f6c27f876.png)
 ### 六、点“下一步”进入配置页，按下图设置，红色框里是需要改的地方
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2bcdd2d69d093da96cb0539dfc389630.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_896fd1eceb654e5e2de50f46030c1d89.png>
+![](img/zhuanqian_2bcdd2d69d093da96cb0539dfc389630.png)
+![](img/zhuanqian_896fd1eceb654e5e2de50f46030c1d89.png)
 选模型之前，得先去设置一下：点击 Model Provider Settings
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b9e5b04258d625a816ab257c49565751.png>
+![](img/zhuanqian_b9e5b04258d625a816ab257c49565751.png)
 进去之后，你有哪家的 AI key，就选哪家安装
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_be5d721de0c3c503290182f36a316281.png>
+![](img/zhuanqian_be5d721de0c3c503290182f36a316281.png)
 配置密钥的时候，打叉的地方不用填（那边是给第三方平台用的），注意别写错信息
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3f22048ffb35a1f858d670c030338dd2.png>
+![](img/zhuanqian_3f22048ffb35a1f858d670c030338dd2.png)
 配置完，应该会自动回到上一个页面，如果没跳转，就点上面的叉叉
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_72bd1974387fa8c4b439f49a5acd00ba.png>
+![](img/zhuanqian_72bd1974387fa8c4b439f49a5acd00ba.png)
 然后选好文字处理模型，点右下角的“保存”
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_16c82978335588005e95f83a08f0355f.png>
+![](img/zhuanqian_16c82978335588005e95f83a08f0355f.png)
 ### 七、获取知识库的 API KEY
 创建成功后，点左下角的 Access the API
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d637e3dccfdb985e23340f63d85cc321.png>
+![](img/zhuanqian_d637e3dccfdb985e23340f63d85cc321.png)
 ### 八、进去后，点右上角的 api key，拿到 key，存到本地
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ce2f767985ce8730821bbcad9f66a76f.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4a7bf46d2a24dcd785744dfcf880a274.png>
+![](img/zhuanqian_ce2f767985ce8730821bbcad9f66a76f.png)
+![](img/zhuanqian_4a7bf46d2a24dcd785744dfcf880a274.png)
 关掉弹窗，再点左上角的 KNOWLEDGR
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0378e7b65ed3c92a738f9b12b1cd18ad.png>
+![](img/zhuanqian_0378e7b65ed3c92a738f9b12b1cd18ad.png)
 ### 九、进入刚创建好的知识库
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fc41b2fe02ce95496ce94bf7f293a38d.png>
+![](img/zhuanqian_fc41b2fe02ce95496ce94bf7f293a38d.png)
 ### 十、找到知识库 ID，下面框里两个斜杠“/”之间的整段文本都复制下来（斜杠不要复制）
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f02d8b16385bf52bd5b2de07b2647d48.png>
+![](img/zhuanqian_f02d8b16385bf52bd5b2de07b2647d48.png)
 到这里，知识库就算搭好了。接下来看看 N8N 怎么用它。
 ## N8N 接入知识库
 先这样操作：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_32fadd5afda3c9868443cf1d653166d8.png>
+![](img/zhuanqian_32fadd5afda3c9868443cf1d653166d8.png)
 在下拉菜单里找到 AI Agent 的 Tool，选 Http Request Tool。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_abaf0dc3ebf581d41636332ad378e742.png>
+![](img/zhuanqian_abaf0dc3ebf581d41636332ad378e742.png)
 然后简单配置一下。参加过航海的老船员应该觉得不难吧，我就不一步步演示了。
 什么？你说你没参加过？
 行吧，我把配置文件直接给你，你复制粘贴就行，下载权限已经开了。
 ## 安装 JSON 文件
 下载好之后，打开一个新的工作流页面，点上面三个点，再选 import from file
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5edec33958e23667926dacc018403cd1.png>
+![](img/zhuanqian_5edec33958e23667926dacc018403cd1.png)
 选中刚才下载的文件，打开
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_96643fd511a5bfcbd595b7d015ced412.png>
+![](img/zhuanqian_96643fd511a5bfcbd595b7d015ced412.png)
 进来之后，配置这两个节点
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1df5377fcbea1667d5c365ee9d294023.png>
+![](img/zhuanqian_1df5377fcbea1667d5c365ee9d294023.png)
 Deepseek 节点很简单，换成你自己的 api key 就行。
 HTTP Request Tool 点开之后，把 url 里的汉字换成你自己的知识库 ID
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_315112f959ec4c07e7b9cc2d00550114.png>
+![](img/zhuanqian_315112f959ec4c07e7b9cc2d00550114.png)
 再把请求头里的 api 改成你自己的 api key
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a22c6e02683be4a68b2fc2096ba0e963.png>
+![](img/zhuanqian_a22c6e02683be4a68b2fc2096ba0e963.png)
 完事儿！
 到这儿，你就可以尽情“调戏”你的 AI 了！
 感谢你能看到最后。欢迎在赚钱点个赞，有其他痛点或难点，也欢迎评论区留言。

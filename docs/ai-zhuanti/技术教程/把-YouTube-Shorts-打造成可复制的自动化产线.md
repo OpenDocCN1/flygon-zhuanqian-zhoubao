@@ -15,7 +15,7 @@
 一套完整的复刻链路大致是：视频获取 → 场景划分 → 提示词逆推 → 新画面生成 → 动态生成 → 编辑拼接 → 加背景音乐 → 导出发布
 这条链路理论上都能自动化，但为保品质，我在画面生成和动态生成这两个关键点保留了人工筛选，其余环节全部交给机器。我能投入到 YouTube 的时间有限，所以最初的设计目标就是：丢一个对标链接进去，系统自动生成复刻分镜的片段，我只需点鼠标筛选，其它的切分、重绘、剪辑、上传、数据统计全自动跑。
 要实现这个目标，第一步是先搭自己的素材中心，用来创建草稿项目、管理视频、管理代理信息和矩阵账号等。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_96d555de69e9d4d25a21c50b2ddead36.png>
+![](img/zhuanqian_96d555de69e9d4d25a21c50b2ddead36.png)
 这个模块用 Cursor 生成后再微调即可。首版草稿大致如此。只要项目与素材中心搭起来，后续复刻草稿就有存储与管理的入口。因为年代久远，原始 Prompt 已没保存，但大致逻辑是这样，我后来又重写了一版初始项目 Prompt，测试后也能跑，大家可按需调整：
 请帮我做一个 youtube shorts 的素材管理、视频草稿与剪辑和自动发布系统。左侧菜单栏包括：视频草稿管理、分镜列表、素材管理、多环境与账号管理、在线视频复刻、设置、comfy工作流管理、个人数据。技术栈使用 python fastapi + jinja，请首先完成项目框架的搭建。
 请帮我完成草稿管理列表页；上面一个新建视频草稿按钮，新建的时候弹出框选择，模型、脚本、分镜数量、发布账号、工作流（选择框）。
@@ -26,16 +26,16 @@
 ### 视频获取
 复刻的第一步当然是拿到源片。我们不可能每次都去浏览器打开油管下载站点，手动复制链接、下载正片和音乐，再边播边拖动截场景图，这种手工链路既长也不适合自动化，即便用 RPA 粘合也提升有限。所以我自己写了一个 YouTube 视频与 BGM 的下载小工具，这是全链路的起点。
 难度不大，把截图丢给 Cursor，十来分钟就能成型。跑通后效果如下：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_26b8c5e754cd600d656014582597765b.png>
+![](img/zhuanqian_26b8c5e754cd600d656014582597765b.png)
 复刻思路很直接，我在网页端找一个在线下载站点，比如就用这个：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_86e6b35fa2b54002b64b9013baaa7b8c.png>
+![](img/zhuanqian_86e6b35fa2b54002b64b9013baaa7b8c.png)
 直接用 Cursor 的 Composer 调起，输入需求即可：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3e848f8636253b233327919c35a42da5.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_57047d93ab49e713aefa111d51625cb8.png>
+![](img/zhuanqian_3e848f8636253b233327919c35a42da5.png)
+![](img/zhuanqian_57047d93ab49e713aefa111d51625cb8.png)
 装好依赖后启动，按自己实际需求微调配置即可，Claude 的执行力完全够用。
 为了后续可追溯与做状态管理，我后来把下载结果都写入了自己的数据库。
 随便丢一个链接进去，点击下载，背景音乐和正片就都落库了。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0d610add0931a790c3f813208e3b1f3c.png>
+![](img/zhuanqian_0d610add0931a790c3f813208e3b1f3c.png)
 例如把这个对标片 https://www.youtube.com/watch?v=_KFzaJSxBcY 丢进我的在线下载服务，一键完成。
 视频到手后，下一步是做场景提取。我们要把视频里所有场景精准切出来，这里我用的是 OpenCV。
 思路是逐帧分析，基于最小场景时长，结合结构相似度与色彩相似度来判定分界，最后把每个场景切片出来。剪辑里常有转场，所以切点不能直接取变化首帧，而是往前后各找约 30 帧范围内同场景下最清晰的那张图作为代表。核心实现并不复杂，关键代码如下：
@@ -179,15 +179,15 @@ main()
 ```
 你有没有想过，把一条视频丢给工具，然后坐等它把画面拆好、音乐备好、提示词生成好，是一种什么体验？
 现在这个流程完全跑通了。操作很简单：你只需要把目标视频的链接粘贴进去，系统就会自动抓取视频文件和背景音乐，并且同步完成画面的场景切分。整个过程大概一分钟左右，你就能拿到一个完整的“素材包”——视频有了、BGM有了、分镜图也齐了。如果某一次切分的场景不够理想，或者你想换个角度再切一次，直接点一下“重新分析”按钮，就能重新来一遍。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8fde7de7d45a0c2ee8fe6e9085cf90e1.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_30df378cbfd3bc9e74562d702000faa7.png>
+![](img/zhuanqian_8fde7de7d45a0c2ee8fe6e9085cf90e1.png)
+![](img/zhuanqian_30df378cbfd3bc9e74562d702000faa7.png)
 后续我们又把体验优化了一轮。现在每一张切出来的分镜图都可以直接在页面上预览，要是觉得哪张不好看、不想要了，手动删掉就行，一点都不麻烦。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7ff89fd4923df54cb1f3b30a9d3f6cfa.png>
+![](img/zhuanqian_7ff89fd4923df54cb1f3b30a9d3f6cfa.png)
 从输入链接开始，到视频和BGM下载完毕，再到场景切片自动拆解，整个流程不到一分钟就能走完。所以你可以提前把那些数据表现不错的视频批量收集起来，放到后台让它自动处理。甚至开点并发，一个晚上轻松切出一两千个视频，第二天醒来，你只需要坐在电脑前，手动筛一筛图片就够了。
 当然，切完图不是终点，下一步我们要做的，是从这些分镜图里把提示词反向推导出来。
 ### 图片反推
 拿到各个场景的图片之后，最关键的一步就来了：怎么把这些画面变成真正能用的提示词？总不能手动一张张传到 Midjourney 或者 GPT 里，让人家描述一遍，再手动复制回来吧？那太低效了。我的做法直接一点：在每个图片下面加两个按钮，一个用来反推 Midjourney 提示词，一个用来反推 GPT4 提示词。点一下，画面提示词就自动生成了。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ca48df97e88d77538a51f682044d6b44.png>
+![](img/zhuanqian_ca48df97e88d77538a51f682044d6b44.png)
 生成完成后，点击按钮就会弹出对应的提示词内容。如果你自己在 Discord 里订阅了 MJ，也可以走逆向通道，没必要自己从零造轮子，用下面这些开源项目改一改就能跑：
 https://github.com/yokonsan/midjourney-api
 https://github.com/erictik/midjourney-api
@@ -195,38 +195,38 @@ https://github.com/novicezk/midjourney-proxy
 当然，如果你觉得搞逆向太折腾，直接用第三方的按量付费 API 也完全没问题，效果是一样的。第三方做提示词反推的话，大概六分钱一张；用 4o 来做，差不多几厘钱一张，这基本等于白送了。具体选哪种，看你自己实际情况就行。
 MJ 这边，我用的是一家中转站的 API。为了避免广告嫌疑，就不放具体地址了。你在谷歌上搜一下“midjourney api”，或者找一个聚合类的 API 转发站点，这种中转接口太多了，自己对比一下，挑个便宜的用就行。
 有了 MJ 或 GPT 反推之后，拿到图片提示词就非常流畅了。我后来又加了一个按钮，可以一键把提示词添加到视频草稿里。这里还埋伏了一个小逻辑：以“当前视频标题 + title”作为唯一键来创建新草稿。这样后续所有视频的提示词都会自动汇总到同一个草稿里，方便后续统一调整和导出。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_842ec942b27c4519ca813d44a365cc24.png>
+![](img/zhuanqian_842ec942b27c4519ca813d44a365cc24.png)
 ## 创意微调
 当所有不同场景的提示词都导入到视频草稿的分镜列表后，反推出来的词条难免有想改一改的地方。我把列表渲染的交互改成了双击直接输入修改，这样你可以手动微调；也可以借助 AI 的想象力，把同类型提示词做一轮扩展。原本我是想再写一套方法，统一多生成几个创意试试的，但转念一想，现在现成的插件那么多，比如 Monica、Sider AI 等等，直接在 Monica 里设置一个快捷提示词，然后选中当前提示词，再点一下扩展同类创意，就完事了，没必要自己重复造轮子。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5db9fd07711d4fb08f8c4ac2aa660c47.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f771c6b832d21f97270c5a448a592a5f.png>
+![](img/zhuanqian_5db9fd07711d4fb08f8c4ac2aa660c47.png)
+![](img/zhuanqian_f771c6b832d21f97270c5a448a592a5f.png)
 扩展出来的提示词，如果看着满意，直接点击“插入”就会自动保存。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e04976f024b2de138645ed6c3913e1f2.png>
+![](img/zhuanqian_e04976f024b2de138645ed6c3913e1f2.png)
 当然，这个方法有个小毛病——没法批量生成。不过也容易解决，写个后台脚本，让脚本基于当前提示词一次性生成十条相似或者扩展创意就行。但我个人觉得暂时没这个必要，目前的功能已经够用了。
 点击提示词反推之后，过一会儿就能看到 MJ 生成的提示词了，默认是四条。我们再加一个“一键生成图片视频草稿”的按钮。点一下，系统会以当前视频的 videoid 作为标题，自动创建一个新项目，并且把四条提示词拆分开。这时候你会发现页面已经跳转到了分镜页面。图片生成这边，我用的本地的 flux，主要就是图它便宜——核心原则是：能省的钱一分都不想多花。（提示词反推其实纯本地也能做，只是效果可能会差一些。）等图片自动生成完毕，因为用的是 MJ 反推，所以目前还没有视频提示词。这咋办？那就只能再加一个功能了：获取反推提示词之后，自动生成对应的视频提示词。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_eba5884e29dedb96ccc95cff4a9a2620.png>
+![](img/zhuanqian_eba5884e29dedb96ccc95cff4a9a2620.png)
 ## Flux Comfy 工作流图片生成
 如果要大批量生成图片，用 MJ 的话成本确实有点扛不住。所以我这边直接改成本地 flux + comfy，就算一次性生成几千张，也不会花一分钱，效果大概能达到 MJ 的八成。
 我最初的需求其实是：根据不同的剧情和赛道，用不同的工作流来生成图片。所以我在草稿选项里集成了自己做的几个 Comfy 工作流，每一个工作流里的 lora 和工作流配置都不一样。这样一来，不同赛道就能用不同的工作流，甚至可以对同一个视频做风格微调。
 要做到这一点，前提是自己搭一个工作流管理中心，并且把它和图片生成流程串联起来。这是我当时写 Comfy 工作流时用的 Cursor Prompt，思路很简单：创建了一个 Comfy 管理中心，方便复刻不同赛道的视频和风格。在页面上查看工作流、验证流程也都变得非常直观。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bf19f321538ec252d3508bf16dfb0753.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_17784fe6066252b7ec2ee146dc995389.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a9d7dc023ddd71de5c7f3690f7a11705.png>
+![](img/zhuanqian_bf19f321538ec252d3508bf16dfb0753.png)
+![](img/zhuanqian_17784fe6066252b7ec2ee146dc995389.png)
+![](img/zhuanqian_a9d7dc023ddd71de5c7f3690f7a11705.png)
 工作流管理做完之后，还得把它导入到我们自己的系统里。打开 ComfyUI，直接点击“保存 API”，把这个工作流保存成 JSON 文件。后面就可以把它导入到我们自己的工作流库中，方便在各个节点里直接调用了。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_09be9133333b610b89c66500d4a98403.png>
+![](img/zhuanqian_09be9133333b610b89c66500d4a98403.png)
 如果你对 Comfy 还不太熟，也有另一条路：去 Liblib 上根据需求挑一个高赞工作流，下载下来直接导入也可以。
 https://www.liblib.art/
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b3b2ce45b8235d25495ae22cbaf5bd3d.png>
+![](img/zhuanqian_b3b2ce45b8235d25495ae22cbaf5bd3d.png)
 导入自己的 Comfy 工作流之后，新建视频草稿时就能自由选择风格了。这样在复刻视频的时候，就能走不同的工作流；工作流的自定义能力很强，很多 MJ 做不到的事情，在这里都能完成。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_49813b65638f246e4abcb331f01af38a.png>
+![](img/zhuanqian_49813b65638f246e4abcb331f01af38a.png)
 ## MJ 图片生成
 在不断生成图片的过程中，能明显感受到 Comfy 工作流的定制能力更强，但 flux + comfy 的门槛确实有点高，大部分人不一定搞得定。再加上很多时候 MJ 生成的图片审美确实更在线，所以我们也可以用 MJ 来生成原始素材。
 MJ 当然也可以走全自动路线，比如逆向，或者购买第三方 API——这个前面提过了。但这类方案技术门槛稍微高一点，也有点麻烦。我这里讲一个我最初验证 SOP 时写的半自动小脚本。
 大概思路是这样：我在 Discord 页面里注入了一个叫“素材收集”的按钮。点击之后，系统会自动把生成的图片保存到我的视频分镜图里，并且直接进入视频生成环节。这样我就不用先从 Discord 下载到本地了，所有素材都能统一在素材中心里管理。
 第一版的时候，我在 Discord 生成的每张图片上都加了一个“收集”按钮。只要点一下，图片就会自动进入素材库，然后直接流转到视频生成环节。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7ae0e0ef55a8cc6c48c2270c338cb311.png>
+![](img/zhuanqian_7ae0e0ef55a8cc6c48c2270c338cb311.png)
 最近在折腾 Midjourney 素材自动化，想把生成的图片和提示词一键收进素材库，省去手动搬运的麻烦。整个流程走下来确实没什么门槛，分享一下。
-素材中心的后台接口挂在 8081 端口，接口逻辑直接交给 Claude 去生成即可，难度几乎为零。来看代码：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d8e8497abe6087f3fcc5eed77f817abb.png> 代码如下：```
+素材中心的后台接口挂在 8081 端口，接口逻辑直接交给 Claude 去生成即可，难度几乎为零。来看代码：![](img/zhuanqian_d8e8497abe6087f3fcc5eed77f817abb.png) 代码如下：```
 // ==UserScript==
 // @name         Discord Image Collector
 // @namespace    http://tampermonkey.net/
@@ -340,11 +340,11 @@ subtree: true
 processImages(document.body);
 })();
 ```
-一开始用的方案只把图片存了下来，提示词没有被一起保存，这显然不够。于是我把 prompt 调整成了这一版：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_45e1f4a0e9cdb4338eaf5c574e2f7a70.png>
+一开始用的方案只把图片存了下来，提示词没有被一起保存，这显然不够。于是我把 prompt 调整成了这一版：![](img/zhuanqian_45e1f4a0e9cdb4338eaf5c574e2f7a70.png)
 需求是：在 Discord 的 Midjourney 频道里，给图片生成元素框加一个名为“添加到素材库”的按钮，定位到指定容器，按钮样式也按需要适配，整体用油猴脚本实现。
 改完之后，图片下方会自动出现“添加到素材库”的按钮。点一下，对应的图片素材和原始提示词就会进入最新视频草稿的分镜页面。
-打开视频草稿的分镜页面，就能看到刚才 MJ 生成的素材和 prompt 已经自动进草稿箱了。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8995277d060c12d8f730063415db7250.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_616ec91d3eacf985eb895c018da4f72d.png>
+打开视频草稿的分镜页面，就能看到刚才 MJ 生成的素材和 prompt 已经自动进草稿箱了。![](img/zhuanqian_8995277d060c12d8f730063415db7250.png)
+![](img/zhuanqian_616ec91d3eacf985eb895c018da4f72d.png)
 ## 视频生成与剪辑
 OK，到这儿就轮到视频生成了。这个阶段，最先出局的是各种影刀方案。影刀这东西又笨又重，想让它在 24 小时全天候跑，它还时不时卡一下、停一下，必须有人盯着。我可不想在这种事上浪费时间，索性直接用 Python 原生实现。
 先是即梦的自动化。
@@ -459,11 +459,11 @@ https://jimeng.jianying.com/mweb/v1/generate_video
 我当时直接开了 5 个指纹浏览器，配了 5 个账号同步生成视频，一天靠着免费积分就能刷出 80 次左右的生成次数。以我目前的需求来说完全够用，毕竟手上的油管号本来就不多。如果你能搞到更多账号，开 100 个也没问题，只要按刚才说的调度思路去执行就行。
 举个例子：假设你有 50 个即梦账号，可以每轮同时开 10 个账号，每个账号提交 5 个视频任务；等到第五轮全部提交完，再回头顺序下载之前所有视频的信息。这样的话，大约一小时就能跑出 10×5×5=250 条视频。每个账号一天有 88 免费积分，大约能生成 17 条视频；走 3 个批次，用不到 3 小时就能攒下 250×3=750 条视频素材。剩下零头再单独走一轮，就能把 17×50=850 条生成额度全部榨干。如果按“10 条视频素材合成 1 条短视频”的方式抽卡，那也能稳定做出 85 条成片。
 这样一来，视频生成、下载和分镜关联就全部自动化了。图片素材选好以后，过一会儿再看分镜列表，每张图都已经自动对应好了视频。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d0bf968afe9bb4f8e020d69dc5d1b9bf.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c928a0c0d85ece557f15f457e1989886.png>
+![](img/zhuanqian_d0bf968afe9bb4f8e020d69dc5d1b9bf.png)
+![](img/zhuanqian_c928a0c0d85ece557f15f457e1989886.png)
 再分享一个即梦无水印下载的方法。免费版即梦本来就支持无水印下载，我把它封装成了油猴脚本，会在视频左上角自动多出一个“无水印下载”按钮，点击之后就能直接把无水印视频保存下来：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_78c30163dd6b9dc2bbb261ff8e85811b.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ea2afcf0d4f76f5e10870b3865a8d0f8.png>
+![](img/zhuanqian_78c30163dd6b9dc2bbb261ff8e85811b.png)
+![](img/zhuanqian_ea2afcf0d4f76f5e10870b3865a8d0f8.png)
 脚本如下：
 ```
 // ==UserScript==

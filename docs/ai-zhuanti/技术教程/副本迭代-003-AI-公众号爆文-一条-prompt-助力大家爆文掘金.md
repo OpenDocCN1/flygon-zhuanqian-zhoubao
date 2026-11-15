@@ -56,14 +56,14 @@
 这是一篇养老金题材的辟谣文。核心是说“9 月养老金将额外多发 800 元”的说法不实，并借机科普定额、挂钩、倾斜三种调整方式，提醒老年人不信谣、不盲从。
 ### Claude 2.0 实测步骤（可略过）
 1. 先把提示词发给模型，让它先读完规则并进入状态：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_20afba1825ae770d5ce148314cdabc25.png>
+![](img/zhuanqian_20afba1825ae770d5ce148314cdabc25.png)
 2. 模型把原文切好模块后，我按模块输入，它逐段输出，属于“省心式操作”：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1332be32d49f47b4a6f90747234287dc.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_29a4285ee98ca7165e6469f30836c0a5.png>
+![](img/zhuanqian_1332be32d49f47b4a6f90747234287dc.png)
+![](img/zhuanqian_29a4285ee98ca7165e6469f30836c0a5.png)
 3. 遇到不满意的地方，直接让它改：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7793239da2cbc7f54752e5d106405469.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e4db04c9c0efdb0fba1c4f6fea5d7175.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d29b59142baa90e7614a71da3e47df12.png>
+![](img/zhuanqian_7793239da2cbc7f54752e5d106405469.png)
+![](img/zhuanqian_e4db04c9c0efdb0fba1c4f6fea5d7175.png)
+![](img/zhuanqian_d29b59142baa90e7614a71da3e47df12.png)
 ### Claude 2.0 最终产出
 生成出来的文章以一位退休老人的第一人称视角展开，先写下对补发消息的期待和怀疑，再逐一解析三项调整原则，最后给出面对传言的五个辨别建议。结构完整，表达也接地气。
 统计：原文约 1000 字，产出约 1532 字。
@@ -71,12 +71,12 @@
 ### 文心一言实测步骤（可略过）
 文心一言的表现不太稳定，对指令的遵循度不如 Claude 2.0。
 1. 新建会话，把提示词粘进去：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_eaf93e3915954c546e7f9021598f0120.png>
+![](img/zhuanqian_eaf93e3915954c546e7f9021598f0120.png)
 2. 把原文发给它：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1e695f85c713327c3ce861d22eb09163.png>
+![](img/zhuanqian_1e695f85c713327c3ce861d22eb09163.png)
 3. 让它自己提优化建议，并根据建议自动改写：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_72fb95a1794933a8e84ffc227277392f.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9b09604fecd2c7839e625c66232078f0.png>
+![](img/zhuanqian_72fb95a1794933a8e84ffc227277392f.png)
+![](img/zhuanqian_9b09604fecd2c7839e625c66232078f0.png)
 ### 文心一言最终产出
 最终输出大约 1284 字。内容基本覆盖了原文的“双轨/单轨”讨论和制度思考，但结构上和原作的贴合度一般，需要人工调整的地方更多。
 ## 第二个演示案例
@@ -86,17 +86,17 @@
 如果你也想搭一条属于自己的爆文提示词，把需求写清楚，套用上面的工作流思路就能搭。
 ## 如何用 Claude 2.0 批量产出高质量的公众号长文
 ### 1、输入 prompt，进入初始化模式
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f44bf69e2aa66b57ac38a8d40852e52e.png>
+![](img/zhuanqian_f44bf69e2aa66b57ac38a8d40852e52e.png)
 ### 2、发送要模仿的文章给 AI
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4047eeffb545e30b9dd522a9909cce6e.png>
+![](img/zhuanqian_4047eeffb545e30b9dd522a9909cce6e.png)
 ### 3、当 ai 不遵守指令时，让它遵守
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_14996e5d84e38807a93fce803713df98.png>
+![](img/zhuanqian_14996e5d84e38807a93fce803713df98.png)
 ### 4、修正后 根据它的提示让它自动输出文章
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d1e4006eb0dccbe12ddbe5b193570724.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_25f8bea5723ae53a9a1a98ca38437655.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e6c64a9440a1059f6284b92be9b3edfa.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5c6308acd2732fdee65dcafdc5742599.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_67048dcbc848430794011d9176c0b349.png>
+![](img/zhuanqian_d1e4006eb0dccbe12ddbe5b193570724.png)
+![](img/zhuanqian_25f8bea5723ae53a9a1a98ca38437655.png)
+![](img/zhuanqian_e6c64a9440a1059f6284b92be9b3edfa.png)
+![](img/zhuanqian_5c6308acd2732fdee65dcafdc5742599.png)
+![](img/zhuanqian_67048dcbc848430794011d9176c0b349.png)
 ## Claude2.0 生成结果
 我今年26岁，和丈夫结了两年。丈夫叫小龙，在一家制造厂做技术，经常要排夜班。我自己在市里的一家公司做白天班，两个人都在城区上班。
 老公是农村长大的，父母还在老家务农，生活比较紧凑。公公为人沉默寡言，却待我们很不薄。婆婆时常过来帮忙打理家务，我们一家相处得挺和睦。
@@ -129,17 +129,17 @@ https://chat.openai.com/share/1a883177-2eb2-411e-be29-fc56fe976f9c 操作演示�
 2、workflow 可以按照你喜欢的操作流程来设计
 3、没有好的优化建议的时候，可以让 AI 替你提意见，而后直接让它帮你优化，如果有，就直接提。
 eg:
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9ceb2da78d1b538a94d15cdc5943e390.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3201c9548b5255aea01b89e7d26b49dc.png>
+![](img/zhuanqian_9ceb2da78d1b538a94d15cdc5943e390.png)
+![](img/zhuanqian_3201c9548b5255aea01b89e7d26b49dc.png)
 4、生成的内容不满意，你可以让它使用各种风格润色，幽默、大白话、鲁迅、王小波都可以……如果生成内容还不满意，可在 prompt 中增加小样本训练，即样本演示。
 5、AI 生成内容还是会胡编乱造，如果对真实性有严格要求，一定要手动检查
 6、AI 只是工具，可以把你从 0 分的水平，提到 50-60 分，偶尔会有 80 分的表现，但如果再进阶，只能靠自身修炼了。
 7、有朋友说，一发 prompt 给它，没有按照要求输出，那就强调它按照指令输出，让它进入初始模式。每一个步骤都可以强调的，提醒它，让它修正。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b2c6cb2912bdb764dba8e67752bda645.png>
+![](img/zhuanqian_b2c6cb2912bdb764dba8e67752bda645.png)
 比如像上面这张图片，gpt3.5 直接开叉了，没有遵照指令，强调它：<请你遵守指令>便可修正（大多数情况下都可以，目前还没有看到例外，但不排除会出现意外）
 也可以像下面图片展示，直接复制 workflow 流程给它，会重新唤醒 gpt。
 https://chat.openai.com/share/1a883177-2eb2-411e-be29-fc56fe976f9c 前面发的这个操作演示基本涵盖了所有使用技巧，注意看流程和方法。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b75d1373d0a020fc4c4bc20f3cce4f55.png>
+![](img/zhuanqian_b75d1373d0a020fc4c4bc20f3cce4f55.png)
 8、结构化 prompt 是比较稳定，但是它本质上还是一个“文字接龙机器”，用久了会“不听话”，这时候要适当强调它或者提醒它，比如增加在对话框输入“请保持重复率低于 30%”，“字数要 1200 字”，“请遵守指令”等等。
 9、当不确定 ai 生成文章的重复率合不合格的时候，建议还是去第三方查重网站测一测
 # 总结及 AI 推荐

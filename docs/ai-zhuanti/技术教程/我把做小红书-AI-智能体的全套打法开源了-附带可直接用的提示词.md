@@ -14,13 +14,13 @@
 也有不少朋友反馈国外模型不好上。确实是个门槛，但换个角度看，这既是卡点也是护城河。你能跨过去，就能用上更好的模型把效率拉开。
 我的解法是买一个 POE 会员。POE、monica 这类平台都相当于国外大模型的整合入口，一次付费就能用几乎全网的模型，体验很顺手。淘宝上就能解决。
 我为什么偏爱在 POE 上做智能体？因为 POE 的智能体会生成一个很像网站的页面，交互体验更好，用起来更像一个产品。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3a2a10f86fc4bfc903188b9d3ae87f46.png>
+![](img/zhuanqian_3a2a10f86fc4bfc903188b9d3ae87f46.png)
 ### 02 我的智能体开发思路全盘托出
 先分享下我目前小红书的互动数据，全部都是由我的智能体自主产出，整体结果我挺满意的。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b88425b7573159e8d93ffeac38f11653.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ea1726660306bf24468c063b63a15c4e.png>
+![](img/zhuanqian_b88425b7573159e8d93ffeac38f11653.png)
+![](img/zhuanqian_ea1726660306bf24468c063b63a15c4e.png)
 我现在的环境是 POE 平台的 APP Creator，用的是 Claude 4-Sonnet 和 DeepSeek-R1，目前实测 Claude 4 的表现最好。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0516c10fd5a64723ec4f786437ce407f.png>
+![](img/zhuanqian_0516c10fd5a64723ec4f786437ce407f.png)
 #### 为什么大模型写的文案总有 AI 感
 我第一个尝试的智能体就是专门写小红书笔记的。
 市面上很多博主都在讲怎么批量做内容，DeepSeek+飞书表格一天几百篇文案之类的。真去试了，可用率不高。
@@ -120,10 +120,10 @@ AI 提效是已被验证的。
 场景思考法的核心不是用 AI 覆盖整个 0-1 流程，这不现实。AI 的强项是解决 0-0.1、0.1-0.3、0.3-0.5 的环节。最后到 1 的部分，还是需要你来把关。
 可以把这套体系想象成一支硅基员工团队，你负责下指令、提需求、做校验即可。这也是未来人机协作的一个典型模式：先拆流程，再替换节点，最后组建 AI 团队。
 我现在的小红书 AI 团队包括：爆文拆解助手、SEO 专家、图片处理专家、选题助手、爆文仿写专家等。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_65429e80ce74d97bcbb60cf197b9ff08.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_818bd67d9a3f6e0a94bbdde2564305ec.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0d03e386a8d628e464a88ee17bf42197.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_378019d53c8ffd426aa8b516145ddd61.png>
+![](img/zhuanqian_65429e80ce74d97bcbb60cf197b9ff08.png)
+![](img/zhuanqian_818bd67d9a3f6e0a94bbdde2564305ec.png)
+![](img/zhuanqian_0d03e386a8d628e464a88ee17bf42197.png)
+![](img/zhuanqian_378019d53c8ffd426aa8b516145ddd61.png)
 他们共同完成内容创作这件事。这就是节点创新的优势，把 AI 视作 co-founder。
 #### 去 AI 感的关键：让 AI 做填空题
 这是整篇文章最核心的观点。
@@ -136,6 +136,6 @@ AI 提效是已被验证的。
 对普通人来说，AI 的能力现在已经够用了。很多时候不是智能体越多越好，而是 AI 能否真正落地到你的垂直业务场景。
 它能把你脑子里杂乱的想法快速实现，因为市场上很少有完全匹配你想法的现成工具，AI 的价值就在这里。
 举个例子，上周六赚钱航海家私域运营大会，嘉宾干货很多，有逐字稿但可读性差。我做了个智能体，专门把口语化内容【书本化】，逻辑更清晰，可读性大幅提升。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8d89a3bdf121d8d43b24092cd5c53849.png>
+![](img/zhuanqian_8d89a3bdf121d8d43b24092cd5c53849.png)
 最关键的是，不能改动/删减嘉宾原话。这个智能体不是总结或美化，而是原汁原味地更好地呈现内容。我实测过，效果很好用。
 所以我建议大家把 AI 真正用起来，让想法落地，别脱离业务本身，也别过度追求技术。AI 时代，懂业务又懂 AI 的复合型人才最吃香。

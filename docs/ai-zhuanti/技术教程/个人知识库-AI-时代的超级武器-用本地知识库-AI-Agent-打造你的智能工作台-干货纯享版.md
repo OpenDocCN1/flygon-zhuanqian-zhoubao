@@ -1,5 +1,5 @@
 # 个人知识库：AI 时代的超级武器，用本地知识库+AI Agent 打造你的智能工作台，干货纯享版
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_08e4a98c130fac4b646c9b645db08ba5_0_0.png>
+![](img/zhuanqian_08e4a98c130fac4b646c9b645db08ba5_0_0.png)
 大家好，我是龙哥，「AI 先锋队」社群发起人，也是多家企业的 AI 战略顾问。曾在游戏行业创业，带过日活 400 万的项目。如今聚焦在 AI 智能体落地。
 今天只聊一件事：如何用本地知识库结合 AI Agent 搭建个人超级智能工作台，并把这套能力复制到企业里变现。
 本篇会覆盖 6 个关键问题：
@@ -9,7 +9,7 @@
 - 4. 个人用法：口述变文章、人脉资产化、战略推演
 - 5. 企业用法：睡眠类知识库客服、海外众筹选品创新
 - 6. 企业 AI 落地的正确路径 以及你必须成为自己的知识架构师
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_08e4a98c130fac4b646c9b645db08ba5_1_0.png>
+![](img/zhuanqian_08e4a98c130fac4b646c9b645db08ba5_1_0.png)
 ## 二、为何你用 AI 效果不佳？——“炒菜理论”
 很多人跟我说：“AI 好像也没那么神。”
 我见过一家公司花钱上了 AI 客服，上线后一塌糊涂。原因很简单：没有自有语料沉淀，没有行业经验积累，完全仰仗大模型的通用能力。出来的回答，空泛且无用。
@@ -24,7 +24,7 @@
 所谓高密度的食材，就是营养高、时效新、强相关业务的知识。
 顶级厨师 + 好菜谱 + 独家食材 = 顶级输出。
 很多人把全部精力放提示词上，觉得一个神 Prompt 就能逆天。其实提示词只是表层，知识库才是真正的壁垒。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_08e4a98c130fac4b646c9b645db08ba5_3_0.png>
+![](img/zhuanqian_08e4a98c130fac4b646c9b645db08ba5_3_0.png)
 ## 三、用 AI 的六大致命问题
 用了两年多高频场景后，我总结出用户普遍踩的六个坑：
 1. 数据无归属
@@ -39,7 +39,7 @@ n8n 的权限和工作流配置会把人整崩溃，尤其是对接 Google 套�
 群聊八十个，星球上百个，还要刷极客、Twitter 的动态。没梳理的信息就是流沙，过眼即忘。
 6. 知识碎片化跨平台
 内容散落在十几个软件里，想找一个要点，要跨四五个平台翻找。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_08e4a98c130fac4b646c9b645db08ba5_7_0.png>
+![](img/zhuanqian_08e4a98c130fac4b646c9b645db08ba5_7_0.png)
 ## 四、我的解法：个人超级智能工作台
 这套打法 2025 年 6 月就在服务企业客户时跑通了。核心就两件东西：
 ### 1、Obsidian——本地知识库的载体
@@ -58,7 +58,7 @@ n8n 的权限和工作流配置会把人整崩溃，尤其是对接 Google 套�
 - **全库作为上下文**：输入年度规划指令，它会自行动员全库相关内容综合作答。
 - **Skills 系统**：相当于封装好的工作流，能替代 Coze/n8n 的节点逻辑，不用再学工作流。
 - **系统记忆 CLAUDE.md**：把个人信息、业务要点写进去，每次对话自动调用，且完全可控、可审计。比黑盒记忆可靠太多。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_08e4a98c130fac4b646c9b645db08ba5_9_0.png>
+![](img/zhuanqian_08e4a98c130fac4b646c9b645db08ba5_9_0.png)
 ## 五、个人实战：这套系统能做什么？
 ### 场景一：从口述到公众号文章，5 分钟完成
 我第一篇公众号文章就是口述原稿，没逻辑、没结构。
@@ -68,7 +68,7 @@ n8n 的权限和工作流配置会把人整崩溃，尤其是对接 Google 套�
 9. 指定输出目录
 10. 等几分钟，成品出来
 关键认知：你不用有逻辑。讲清楚故事和情绪是人的强项，整理逻辑是 AI 的强项。语音输入比打字快太多。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_08e4a98c130fac4b646c9b645db08ba5_10_0.png>
+![](img/zhuanqian_08e4a98c130fac4b646c9b645db08ba5_10_0.png)
 > 语音口述 无序
 > AI 润色 结构化
 > 公众号成品 清晰
@@ -118,7 +118,7 @@ n8n 的权限和工作流配置会把人整崩溃，尤其是对接 Google 套�
 5. 关键洞察：爆品无女性专属款，女性用户却反馈佩戴不适，且平台女性占比 36%
 6. 三轮验证：市场规模、需求真实性、成功案例
 效果：时间从 3 周压到半天，分析从 3 个竞品到全品类，决策从拍脑袋到数据驱动。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_08e4a98c130fac4b646c9b645db08ba5_16_0.png>
+![](img/zhuanqian_08e4a98c130fac4b646c9b645db08ba5_16_0.png)
 ## 七、企业 AI 落地的正确姿势
 **第一步：先别谈 AI，先梳理业务流程。**
 让老板画出流程，节点、输入输出、人机分工搞清楚，才知道哪里能提效。
@@ -128,7 +128,7 @@ n8n 的权限和工作流配置会把人整崩溃，尤其是对接 Google 套�
 别贪大，先找高频痛点跑通。
 **第四步：验证、迭代、固化。**
 当初稿，上线验证，迭代系统，成熟后封装成员工可用工作流。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_08e4a98c130fac4b646c9b645db08ba5_17_0.png>
+![](img/zhuanqian_08e4a98c130fac4b646c9b645db08ba5_17_0.png)
 > 先别谈 AI，先梳理业务
 ### 管理者 AI 能力分层
 **基础层 1-3**：把 AI 当新员工，用来执行节点任务。
@@ -146,7 +146,7 @@ n8n 的权限和工作流配置会把人整崩溃，尤其是对接 Google 套�
 基数 1 放大 10 倍是 10，基数 0.1 放大是 1。提升自己认知才是关键。
 4. 信任是壁垒
 AI 生成内容容易，值得信赖的人难。持续输出价值，建立信任。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_08e4a98c130fac4b646c9b645db08ba5_20_0.png>
+![](img/zhuanqian_08e4a98c130fac4b646c9b645db08ba5_20_0.png)
 ## 九、行动建议
 14. 立刻开始记录交流数据
 15. 建本地知识库 Obsidian + Markdown

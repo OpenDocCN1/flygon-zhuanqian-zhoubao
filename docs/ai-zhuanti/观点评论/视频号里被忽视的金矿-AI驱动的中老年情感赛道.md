@@ -2,23 +2,23 @@
 大家好，我是龙哥，玩视频号已经三年多了。22年靠搬运混剪起步，23年转短视频挂车投放，24年上半年主攻实拍好物、口播带货和数字人带货，下半年则做短引微付费叠加挂车投放。视频号上主流的赚钱打法我基本都实操过，也都拿到过成绩。
 最近撞见了一个持续跑偏的数据点，必须拿出来讲一讲，就是 “AI + 中老年情感”，目前看它就是一个被严重低估的赛道。先上硬数据：春节期间 1月25号到2月15号，一共20天，两个人管20个号，纯利润做到12万+，而且每天投入时间不超过3小时，模式简单到离谱。
 先看部分号的数据截图
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5d096d065d16e9e65511fbfa6132a471.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c2d45f03e204e0d2f5942b6bf6e45856.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_79cf10ad1b150b13ff34e5e4d317e912.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_51815211a80c0e12745418417e346518.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_808a31db896ac9a7642a023d77fa5968.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_85a003e3aabf571a749038b597970779.png>
+![](img/zhuanqian_5d096d065d16e9e65511fbfa6132a471.png)
+![](img/zhuanqian_c2d45f03e204e0d2f5942b6bf6e45856.png)
+![](img/zhuanqian_79cf10ad1b150b13ff34e5e4d317e912.png)
+![](img/zhuanqian_51815211a80c0e12745418417e346518.png)
+![](img/zhuanqian_808a31db896ac9a7642a023d77fa5968.png)
+![](img/zhuanqian_85a003e3aabf571a749038b597970779.png)
 ## 这个玩法到底在做什么
 核心逻辑很简单：用AI做一批能戳中中老年用户情绪的情感内容把流量拉爆，然后把流量导到橱窗靠自然搜索完成成交。
 放几个同行的视频给你感受一下。看完你可能会觉得很土，文案土、画面土，但就是这种土味内容，动辄几十万上百万播放，爆率极高，完全刷新了我对这个人群情感消费力的认知。
 再看这6个号的成交情况，全部是纯自然流成交，佣金比例在70-80%左右，回报非常可观。截图的都是表现相对好的号，普遍水平上单账号也能稳定在100-200单。
 过去我一直觉得必须挂车或开直播才有转化，做了这个才发现，原来用橱窗引导也能 quietly 出单。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_49cdb14a3a56438e0f5611b4a410efae.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_10f1e39a5a8f4607a2be3ed8f34fe263.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_15ad6080c17c663027233c39437bf8b7.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_61f7fd895ef81cfb0cbab83719f8a2a8.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c42660537d2f16a34ee0407fed54e83c.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e1c05637427996776521a3489a8bdcbd.png>
+![](img/zhuanqian_49cdb14a3a56438e0f5611b4a410efae.png)
+![](img/zhuanqian_10f1e39a5a8f4607a2be3ed8f34fe263.png)
+![](img/zhuanqian_15ad6080c17c663027233c39437bf8b7.png)
+![](img/zhuanqian_61f7fd895ef81cfb0cbab83719f8a2a8.png)
+![](img/zhuanqian_c42660537d2f16a34ee0407fed54e83c.png)
+![](img/zhuanqian_e1c05637427996776521a3489a8bdcbd.png)
 ## 全流程拆解，照着做就行
 1. 账号实名认证完成，计划上镜的号一定要提前实名，不然后面补人脸验证很麻烦。
 2. 开通橱窗并上架商品。如果号不多且流量还没起来可以先不急着开，号量大建议新号直接开，避免流量起来后手忙脚乱。
@@ -35,19 +35,19 @@
 下面把具体制作手法也摊开了说，执行力够就能直接上手。
 ### 无出镜制作SOP
 主要用即梦的文生图和图生视频。打开即梦生成图片，输入描述后导出。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_855bdc511b4b39d481e5a9c0a053c42f.png>
+![](img/zhuanqian_855bdc511b4b39d481e5a9c0a053c42f.png)
 再用剪映或配音神器把爆款文案生成音频。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b9bc88e96518e9f5510abb97abfe9c37.png>
+![](img/zhuanqian_b9bc88e96518e9f5510abb97abfe9c37.png)
 把音频导入剪映，加上标题、背景音乐和字幕，一键合成导出。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_219fd871fb49576b0d976a1893a94999.png>
+![](img/zhuanqian_219fd871fb49576b0d976a1893a94999.png)
 一条无出镜片子就完成了，全流程5分钟搞定。成片效果如下。
 ### 有出镜制作SOP
 以剪映为例，新建项目添加文本，把爆款文案粘贴进去，点击右上角数字人，即创平台的数字人库更大效果更好，只是上手门槛稍高。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_abaf7063d161d17ced0aff1b0d8f1f65.png>
+![](img/zhuanqian_abaf7063d161d17ced0aff1b0d8f1f65.png)
 挑选合适的人设形象，可以用公开形象也可以自录脸模，点击添加数字人。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cc816c640503537ff423ba1e1ae5ee94.png>
+![](img/zhuanqian_cc816c640503537ff423ba1e1ae5ee94.png)
 渲染完成后加上字幕、标题、背景图和配乐，导出即可。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_aa0d5f2c0bd68f519668fea0325828a8.png>
+![](img/zhuanqian_aa0d5f2c0bd68f519668fea0325828a8.png)
 一条带数字人的视频也就5分钟内完成。成片在这。
 就这么一个简单项目，学会了就去广场找几个对标号模仿几天就能上手。
 ## 补充一些实战体会

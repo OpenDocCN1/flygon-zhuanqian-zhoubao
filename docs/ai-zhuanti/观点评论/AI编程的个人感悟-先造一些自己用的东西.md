@@ -1,9 +1,9 @@
 # AI编程的个人感悟：先造一些自己用的东西
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8472bc83398caea67b0fe4942fa417ac.png>
+![](img/zhuanqian_8472bc83398caea67b0fe4942fa417ac.png)
 大家好，我是龙哥，这次参与 deepseek 航海的带教老师，过去十年一直做集团型企业的后端产品整合。
 最近手里有一个自用的小工具，用得频率非常高，就是下面这款。
 卡片生成器
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d964ba3f3f30686c8844d2eeea4fc84a.png>
+![](img/zhuanqian_d964ba3f3f30686c8844d2eeea4fc84a.png)
 灵感来源是一条星球上的帖子，我在上面叠加了一个很实用的能力：可以指定一个提示词目录自动读取，目录里的任何提示词都能被投喂进系统，直接得到 HTML 预览图。
 今天不重点推产品，主要是结合去年下半年起用 coze，到 cursor 航海再到这次 deepseek 航海的经历，聊聊我对 AI 编程的体会。
 ## 关于独立开发者常见的走偏
@@ -41,10 +41,10 @@
 “你之前教我的那个做网页提示的方法我忘了，先装 vscode 再建 html 文件再粘代码再打开浏览器，太麻烦了，能不能给我个文档？”
 我意识到这就是一个真实需求。与其写文档，不如直接做一个小应用给她。
 打开 cursor，按 Ctrl+Shift+P，用花生老师推荐的 cursorrules 插件选了 本地-python。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ca6ed5e25b718bc7f7eaf48ce4bb407e.png>
+![](img/zhuanqian_ca6ed5e25b718bc7f7eaf48ce4bb407e.png)
 输入一句“帮我做一个 html 预览器”。
 得到的结果如下：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b5766bd0a6d0b1dd0b8bc3fcb99bec47.png>
+![](img/zhuanqian_b5766bd0a6d0b1dd0b8bc3fcb99bec47.png)
 左侧是代码编辑区，右侧是实时渲染区，可直接运行 html。
 发给妻子后她反馈：“可以，这就好用多了。”
 ## 先把自己变成产品的重度使用者
@@ -61,16 +61,16 @@
 我也试试。
 目标是：用户把一段文字贴进来，点“生成卡片”，卡片直接出来可用。这比先复制提示词、再把文章塞进去、再生成、再搬运要快太多。
 于是对 html 生成器做了二次升级。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a8a1ba2e808aaa6fe238ca8247c16b0f.png>
+![](img/zhuanqian_a8a1ba2e808aaa6fe238ca8247c16b0f.png)
 把两类卡片提示词内置，加了卡片类型选择器：个人简历、个人名片、知识卡片、直播卡片等。文案贴进去点一下，卡片即出。
 一步到位，体验很爽。
 ## 持续扩充使用场景
 之后我更依赖这个预览器了，小红书卡片、朋友圈卡片、公众号卡片、微博卡片，都在用。
 随后遇到一个痛点：想新增卡片类型就得把提示词用 JSON 硬编码进程序，非常痛苦。
 于是加了“读取提示词文件夹”功能。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_581acaa8122fd02a8f078f5a1ca1edf7.png>
+![](img/zhuanqian_581acaa8122fd02a8f078f5a1ca1edf7.png)
 只要指定一个目录，程序就会读取目录下全部 markdown 作为可用提示词，还做了校验与修复，保证能直接用。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2b5b4f1d2564811e4fd0ccb1b76b5c17.png>
+![](img/zhuanqian_2b5b4f1d2564811e4fd0ccb1b76b5c17.png)
 到这里，我暂时找不到明显的优化点。
 当然高强度使用后可能还会冒出新需求，届时再改。
 ## 分享出去，需求像雪片一样来
@@ -86,7 +86,7 @@
 这基本就是一个 MVP 从 0 到 1 的闭环。
 本文记录了我的这个 MVP 的完整过程，供参考。
 ## 产品说明与获取
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_41334e608d3d433d2637894c7c0d8d5a.png>
+![](img/zhuanqian_41334e608d3d433d2637894c7c0d8d5a.png)
 卡片生成器是一款集成大模型的 AI 小工具，输入文章、正文，选择风格即可自动生成精美卡片。内置类型包括：
 1. 1080*800 知识卡片
 2. 750*不限高知识卡片
@@ -112,12 +112,12 @@ api_key：在对应平台获取后粘贴即可。
 提示词以 markdown 文件存储，指定存放目录后工具会自动解析并内置为卡片类型。资料包里已内置 6 个示例，可直接指向 prompts 目录。
 ### 填写内容
 把要生成卡片的文本粘贴到输入区。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_53c17a73af13cfce4629a0b46070391a.png>
+![](img/zhuanqian_53c17a73af13cfce4629a0b46070391a.png)
 ### 生成卡片
 点击生成，左侧代码区会实时输出 HTML，右侧即展示卡片。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_dc21537f90011ecbdecf7996ceb246da.png>
+![](img/zhuanqian_dc21537f90011ecbdecf7996ceb246da.png)
 ### 打开或导出
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_40ea297b9748209f5c8aea7b580db6ae.png>
+![](img/zhuanqian_40ea297b9748209f5c8aea7b580db6ae.png)
 代码框上方有三个按钮，可直接在浏览器打开，或一键保存为图片。
 ### 手动微调
 有前端基础可自行修改 HTML 中的宽高、颜色等。

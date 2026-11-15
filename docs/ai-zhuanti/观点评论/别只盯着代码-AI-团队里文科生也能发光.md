@@ -53,5 +53,5 @@ OpenAI 联合创始人 Andrej Karpathy 在 Build 2023 上说过，很多事直�
 * * *
 评论区：
 暂无评论
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1c37d505930596d12a88ab23e11aa07a.png>
+![](img/zhuanqian_1c37d505930596d12a88ab23e11aa07a.png)
 * * *

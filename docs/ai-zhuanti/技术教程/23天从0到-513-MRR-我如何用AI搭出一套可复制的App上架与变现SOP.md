@@ -3,13 +3,13 @@
 大家好，我是linyy。受飞掌柜邀请，航海期间做一次复盘。赚钱里从0到1的故事看过无数，两年前我始终没动手。今年清空过去，all in AI App赛道。我有研发背景但多年没写代码，客户端对我来说几乎是白纸，可以把我当成一个纯新人看待。
 航海的目标很简单：从零起步，把两款App送上App Store，并拿到首批订阅收入。
 ## 一、航海成果
-6月2日启动开发，约一周内两款产品均通过审核上线。持续迭代后，RevenueCat数据显示<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_96cfe09a8b04fc12d8f293df6c277837.png>：
+6月2日启动开发，约一周内两款产品均通过审核上线。持续迭代后，RevenueCat数据显示![](img/zhuanqian_96cfe09a8b04fc12d8f293df6c277837.png)：
 * 月度经常性收入 MRR：$513
 * 新增用户：4134
 * 活跃用户：12458
 * 付费订阅用户：46
 数字不大，但它证明了一个判断：当下用AI能力做产品已不算难，真正的壁垒是能否围绕产品构建一套可复制、可迭代的全生命周期方法论。
-开航时我没有立刻写代码，而是先花时间搭建系统。整体框架如下图所示<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_65c51a9825e45a7d33827bf9abf983fb.png>：
+开航时我没有立刻写代码，而是先花时间搭建系统。整体框架如下图所示![](img/zhuanqian_65c51a9825e45a7d33827bf9abf983fb.png)：
 系统拆成三个自用版模块：需求情报系统、开发交付系统、内容增长系统。
 ## 二、需求情报系统：用AI当导航雷达找机会
 第一步永远是找一个真实且愿意付费的需求。为此我搭建了一个7×24小时自动化的情报雷达，流程是采集→清洗→分析。
@@ -18,11 +18,11 @@
 社媒侧：Reddit、Medium、X、TikTok、YouTube。
 Reddit里 r/AppIdeas、r/SideProject、r/Software 等板块是需求富矿。我关注用户用大白话吐槽的 “I hate when…”、渴望的 “I wish there was…”、以及临时拼凑的 workaround。这些比成熟点子更真实。
 X/TikTok/YouTube 则追踪科技KOL、效率博主、AI创作者，看他们在讨论什么新技术、新产品，以及评论区里用户的真实提问和反馈，用于捕捉趋势。
-采集方式：Reddit和X用官方API写脚本合规拉取；TikTok类平台用Python Scrapy定制爬虫定向抓热门话题与评论<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_880fb825fcdce4111fb603e54f8c07d4.png>。为可视化进度，我还做了个飞书机器人监控任务<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f18f6a346179a4f20453e3ab715b7f7f.png>。
+采集方式：Reddit和X用官方API写脚本合规拉取；TikTok类平台用Python Scrapy定制爬虫定向抓热门话题与评论![](img/zhuanqian_880fb825fcdce4111fb603e54f8c07d4.png)。为可视化进度，我还做了个飞书机器人监控任务![](img/zhuanqian_f18f6a346179a4f20453e3ab715b7f7f.png)。
 专业侧：Poe等AI应用平台、七麦/data.ai等第三方数据平台、App Store/Google Play本身。
 在AI平台拆解头部产品的功能、Prompt设计、交互和用户反馈，获取灵感。
 在应用商店侧，我更关注评论、更新记录、定价逻辑：
-比如对caiai的评论抓取<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1b89a00f1bf73c32c6d5b2e05f2d9479.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7d36f1c83a12ee9f2caa367c63a772ff.png>，可筛选1星差评深入研究<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b2c63acb84e3c30a252bb613e17f7925.png>；
+比如对caiai的评论抓取![](img/zhuanqian_1b89a00f1bf73c32c6d5b2e05f2d9479.png)![](img/zhuanqian_7d36f1c83a12ee9f2caa367c63a772ff.png)，可筛选1星差评深入研究![](img/zhuanqian_b2c63acb84e3c30a252bb613e17f7925.png)；
 版本更新能反推产品战略；
 定价是订阅/买断/消耗，背后的商业逻辑是什么。
 采集通过官方/第三方API批量拉取应用与评论，爬虫定期抓取版本与定价，沉淀动态竞品档案。
@@ -36,7 +36,7 @@ X/TikTok/YouTube 则追踪科技KOL、效率博主、AI创作者，看他们在�
 用户需求挖掘：对数万至数十万条评论做关键词提取与聚类，比如 summary、transcribe、workflow 等高频词聚集，识别群体性痛点；做情感分析聚焦负面反馈，找到真实不满。
 竞品洞察：自动生成功能矩阵与迭代时间线，一眼看出优劣势与战略动向，找空白。
 可行性评估：通过关键词热度、搜索量、同类下载基数预估市场规模；对照赛道定价验证付费意愿与模式接受度。
-最终会输出一份《产品情报需求机会评估报告》，明确方向价值、市场容量与切入点。我用的自动化处理管道是<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_466ce75e9a3d9259d87e832711cc9001.png>，基于Gemini 2.5 Pro生成的调研报告见<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_dfe39b420f1b2f81348c3992f527c58e.png>，并可生成网页概览阅读<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4cfe3845644d926846fb5dbfe2238cb2.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f49e61211fb98cdb5f8ea9879ce5cb4c.png>。
+最终会输出一份《产品情报需求机会评估报告》，明确方向价值、市场容量与切入点。我用的自动化处理管道是![](img/zhuanqian_466ce75e9a3d9259d87e832711cc9001.png)，基于Gemini 2.5 Pro生成的调研报告见![](img/zhuanqian_dfe39b420f1b2f81348c3992f527c58e.png)，并可生成网页概览阅读![](img/zhuanqian_4cfe3845644d926846fb5dbfe2238cb2.png)![](img/zhuanqian_f49e61211fb98cdb5f8ea9879ce5cb4c.png)。
 ## 三、开发交付系统：人做决策，AI做执行
 目标是思考由人负责，执行交给AI。
 工具选择：起初用Cursor，使用体验不错，但高频请求时速率受限浪费时间；后来换到Cline，成本略高但效率跃升。近期测试Gemini CLI，虽有小bug但体验很好，每天1000次Gemini 2.5 Pro免费额度很香。
@@ -45,7 +45,7 @@ X/TikTok/YouTube 则追踪科技KOL、效率博主、AI创作者，看他们在�
 变现设计：开发同步考虑商业化。采用订阅+免费试用，核心AIGC生成、高级分析等功能需订阅解锁，驱动转化。
 ## 四、内容增长系统：低成本冷启动与持续拉新
 上线只是开始。我用AI搭建内容增长闭环：自动化生产内容→承接流量→导向App转化。
-ASO高度自动化：基于GPT-4.1构建系统，可批量生成App Store Connect信息并自动优化关键词与文案<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d625d830a8e9b49492029926017a01b8.png>。
+ASO高度自动化：基于GPT-4.1构建系统，可批量生成App Store Connect信息并自动优化关键词与文案![](img/zhuanqian_d625d830a8e9b49492029926017a01b8.png)。
 NLP需求分析：复用对App Store评论和社媒讨论的分析，提取高频词与核心诉求，指引内容方向。
 AI内容生产：
 LLM负责干货，比如围绕核心功能写科普、使用教程、X推文；

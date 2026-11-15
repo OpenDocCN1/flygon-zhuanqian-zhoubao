@@ -5,7 +5,7 @@ AI是新时代的产物，别只把它当成印钞机，虽然后者我们都心
 ❤之前写过一篇关于国外数字人带货的万字长文，感兴趣的可以点链接看看！
 # 💦 一、课程内容全览
 可点开查看思维导图与逐字稿
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_aa85db22d4e5bef676c5b54302e6ed0c.png>
+![](img/zhuanqian_aa85db22d4e5bef676c5b54302e6ed0c.png)
 ## 课程体系
 整套内容分为基础篇、实操篇、工具篇、进阶篇，四步带你系统拆解AI数字人。
 具体涵盖：
@@ -39,13 +39,13 @@ AI文本提示
 ### 演进历程：从静态图到动态视频
 https://www.douyin.com/user/MS4wLjABAAAAbZuT2bH6IV7BHBRxcL2EuBLk0qEuwOLiAcxM2XcvWaw
 小和尚案例
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7171a63e0724db3ad6ee741f23346444.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2e1cc5d05cb643bd713f1b73a6245e4a.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1833effe17e9cb5933d98e2c283fc2cc.png>
+![](img/zhuanqian_7171a63e0724db3ad6ee741f23346444.png)
+![](img/zhuanqian_2e1cc5d05cb643bd713f1b73a6245e4a.png)
+![](img/zhuanqian_1833effe17e9cb5933d98e2c283fc2cc.png)
 早期素材只有嘴部动效，缺少眼神手势，整体生硬
 近期视频转视频技术成熟，表现愈发自然
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6af2f1073a8678af6b07bd7fd8dbda2d.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c5e74da998bdc3d856c743a64c0ff7e0.png>
+![](img/zhuanqian_6af2f1073a8678af6b07bd7fd8dbda2d.png)
+![](img/zhuanqian_c5e74da998bdc3d856c743a64c0ff7e0.png)
 ### 数字人能干什么
 拍短视频、做直播、24小时轮播、有文案就能出片
 | 维度 | 数字人 | 真人 |
@@ -62,10 +62,10 @@ https://www.douyin.com/user/MS4wLjABAAAAbZuT2bH6IV7BHBRxcL2EuBLk0qEuwOLiAcxM2Xcv
 | 成本 | 30s视频约7元，按Heygen会员算 | 市场价100+起步 |
 ### MCN视角下的数字人定位
 与大佬直播时萌生想法：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c03a66d477a5aec6ca4da07e689dac7d.png>
+![](img/zhuanqian_c03a66d477a5aec6ca4da07e689dac7d.png)
 是否能孵化一家数字人MCN？
 未来技术会让数字人网红更拟人、更大胆，可赋予特殊发色、理想身材、丰富情感生活。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e49b7eaf70a804429d729dff7aa486e9.png>
+![](img/zhuanqian_e49b7eaf70a804429d729dff7aa486e9.png)
 ### 主推平台
 目前同步投放：抖音、快手、视频号、小红书、得物、B站
 前三可直接挂车，用户年龄段全，涨粉快
@@ -74,65 +74,65 @@ https://www.douyin.com/user/MS4wLjABAAAAbZuT2bH6IV7BHBRxcL2EuBLk0qEuwOLiAcxM2Xcv
 ## 数字人案例速览
 ### 官方医疗
 https://www.bilibili.com/video/BV1Mu4y1j7Ue/?spm_id_from=333.337.search-card.all.click&vd_source=cd57d3a123a254526b23c45b10a3970f
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_935319fc12fc61c78c9e2574dd23854e.png>
+![](img/zhuanqian_935319fc12fc61c78c9e2574dd23854e.png)
 ### 名人克隆
 https://www.bilibili.com/video/BV1NP411z7AG/?spm_id_from=333.337.search-card.all.click
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fd03f5248179d32faa8f0fda96ee8365.png>
+![](img/zhuanqian_fd03f5248179d32faa8f0fda96ee8365.png)
 ### 课程录制
 https://search.bilibili.com/all?keyword=%E6%B5%99%E6%B1%9F%E6%95%97%E8%AF%BE%E6%95%B0%E5%AD%97%E4%BA%BA&from_source=webtop_search&spm_id_from=333.1007&search_source=5
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_19a0fbb743d79261894d655a0993cd9a.png>
+![](img/zhuanqian_19a0fbb743d79261894d655a0993cd9a.png)
 ### 女性成长
 https://www.douyin.com/user/MS4wLjABAAAAl7Zm1RHoXHXMAAxBCLlX9XjYOBEWpYh4h1t_EMVEUnfMyl7i6LiL893MsVLbyx1r?showTab=post
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a34778f6b7c4117c2a245d1f03c47749.png>
+![](img/zhuanqian_a34778f6b7c4117c2a245d1f03c47749.png)
 ### 中外差异
 https://space.bilibili.com/9645469?spm_id_from=333.337.0.0
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f77f0155e4f4f0aed0360cbeeb3d4dcf.png>
+![](img/zhuanqian_f77f0155e4f4f0aed0360cbeeb3d4dcf.png)
 ### 英语教学
 https://space.bilibili.com/302197524?spm_id_from=333.337.0.0
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d5d6f24b518b6c31337cfc42a77153f4.png>
+![](img/zhuanqian_d5d6f24b518b6c31337cfc42a77153f4.png)
 ### 整活搞笑
 https://www.bilibili.com/video/BV1WB42167UR/?spm_id_from=333.999.0.0&vd_source=cd57d3a123a254526b23c45b10a3970f
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_879fd96a73438ab355f6a2fea950eb7d.png>
+![](img/zhuanqian_879fd96a73438ab355f6a2fea950eb7d.png)
 ### 对口型创作
 https://www.bilibili.com/video/BV1Yv421k7XA/?spm_id_from=333.337.search-card.all.click&vd_source=cd57d3a123a254526b23c45b10a3970f
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f5d092ccb2266025f7dfacc0057fbb62.png>
+![](img/zhuanqian_f5d092ccb2266025f7dfacc0057fbb62.png)
 ### “复活”名人
 https://www.bilibili.com/video/BV1HZ4y1C7CW/?spm_id_from=333.337.search-card.all.click&vd_source=cd57d3a123a254526b23c45b10a3970f
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_294814bb8e63fdec5f3ed836f96bb74d.png>
+![](img/zhuanqian_294814bb8e63fdec5f3ed836f96bb74d.png)
 ### “复活”亲人
 https://www.bilibili.com/video/BV1QM411H7xC/?spm_id_from=333.337.search-card.all.click&vd_source=cd57d3a123a254526b23c45b10a3970f
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bb3a50ecdad6a7d32e87bf47f98b58ed.png>
+![](img/zhuanqian_bb3a50ecdad6a7d32e87bf47f98b58ed.png)
 ## 变现方式
 ### 带货
 挂精选联盟橱窗，选品需匹配粉丝画像男女比例
 女性思维类可推女性保健品、儿童用品
 https://www.douyin.com/user/MS4wLjABAAAAl7Zm1RHoXHXMAAxBCLlX9XjYOBEWpYh4h1t_EMVEUnfMyl7i6LiL893MsVLbyx1r?modal_id=7319275535186595099
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c81caff1fd0dc80482fce768403c7e4a.png>
+![](img/zhuanqian_c81caff1fd0dc80482fce768403c7e4a.png)
 男性出镜偏硬货，俄罗斯相关可推特产
 https://www.douyin.com/user/MS4wLjABAAAAaolPSuPnfGoca3A5egFFUZKKBg1wAg1C1ahHe0mmOG4?modal_id=7311673507467857187
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_eccb4599bec728daea9b3b642f6817ec.png>
+![](img/zhuanqian_eccb4599bec728daea9b3b642f6817ec.png)
 ### 分成计划
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_89d15f7abd521df3ceee858956d95fd8.png>
+![](img/zhuanqian_89d15f7abd521df3ceee858956d95fd8.png)
 ### 语言类课程
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9c4af6ee0655f7d79268b12478b72e5a.png>
+![](img/zhuanqian_9c4af6ee0655f7d79268b12478b72e5a.png)
 ### 数字人课程
 注意：克隆引流与带货玩法不同
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7e69dfd92defc1d71958890b8f51c7f6.png>
+![](img/zhuanqian_7e69dfd92defc1d71958890b8f51c7f6.png)
 ### 承接自媒体运营
 数字人出镜比请模特便宜，外贸可多语种输出
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d3b99490480cdec34000277bd2a482f1.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_eb94b7d8b8b8b7bd24f078501b52a4dc.png>
+![](img/zhuanqian_d3b99490480cdec34000277bd2a482f1.png)
+![](img/zhuanqian_eb94b7d8b8b8b7bd24f078501b52a4dc.png)
 ### 运营网红MCN
 打造多个人设的数字人矩阵，承接单子运营
 https://www.bilibili.com/video/BV18V411T7UD/?spm_id_from=333.337.search-card.all.click&vd_source=cd57d3a123a254526b23c45b10a3970f
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8887c1eb6e62afe8170a1af1de9f3c6d.png>
+![](img/zhuanqian_8887c1eb6e62afe8170a1af1de9f3c6d.png)
 ### AI发展趋势
 https://www.bilibili.com/video/BV1Rr421W7T6/?spm_id_from=333.337.search-card.all.click&vd_source=cd57d3a123a254526b23c45b10a3970f
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_44716dd3ee961ca366247241a4f4af4d.png>
+![](img/zhuanqian_44716dd3ee961ca366247241a4f4af4d.png)
 https://www.bilibili.com/video/BV15v421k7PY/?spm_id_from=333.337.search-card.all.click
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c68b14fe1a80978dd564ef9841a23683.png>
+![](img/zhuanqian_c68b14fe1a80978dd564ef9841a23683.png)
 https://www.bilibili.com/video/BV1DS421N7Ph/?spm_id_from=333.337.search-card.all.click
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_41b97442741dc3fcefd1c9bc95e378f8.png>
+![](img/zhuanqian_41b97442741dc3fcefd1c9bc95e378f8.png)
 ## 完整变现SOP
 流程图+详细步骤+工具清单
 人物+文案=视频
@@ -151,10 +151,10 @@ https://www.bilibili.com/video/BV1DS421N7Ph/?spm_id_from=333.337.search-card.all
 https://www.youtube.com/
 ### 素材选择标准
 注意肖像权问题，国内环境较宽松但仍需注意。最好用模特授权素材，成为自己的数字模特
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b51ba43ce68d28f5487488612b9ed12d.png>
+![](img/zhuanqian_b51ba43ce68d28f5487488612b9ed12d.png)
 正脸、动作幅度小为佳
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1c68fdd1d27f114c74769da7fa20cad5.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bc398aa2e71bd6ed8b387d744182b1c4.png>
+![](img/zhuanqian_1c68fdd1d27f114c74769da7fa20cad5.png)
+![](img/zhuanqian_bc398aa2e71bd6ed8b387d744182b1c4.png)
 清晰度优先
 左侧适合女性成长、思维认知，偏智者形象
 右侧适合爱国、俄罗斯旅游等选题
@@ -163,8 +163,8 @@ Guiji平台需要30s以上素材，后续所有视频都基于这30s生成，不
 Heygen免费版暂不支持自定义素材，下文以官方数字人演示
 ## 视频创建
 点右上角创建，选择横竖屏
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0ef5bacc897c71cf65638f573049fa52.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_26fd9f0546a655c2914b45b2bef29464.png>
+![](img/zhuanqian_0ef5bacc897c71cf65638f573049fa52.png)
+![](img/zhuanqian_26fd9f0546a655c2914b45b2bef29464.png)
 选官方数字人，输入GPT改写后的文案，选择内置语音
 ## 对标账号建议
 ### 数字人是内容加速器
@@ -172,56 +172,56 @@ Heygen免费版暂不支持自定义素材，下文以官方数字人演示
 形象决定话题、文案、人设
 文案需反复测试，无法一蹴而就
 数字人可多出片、多测试，成功率远高于真人拍摄
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_78adbe28f04efda2138e4365054ecb04.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_aeae794cdb5288123dfd6d58016495f6.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_18105936222e55d2d53daa6d9ad0d283.png>
+![](img/zhuanqian_78adbe28f04efda2138e4365054ecb04.png)
+![](img/zhuanqian_aeae794cdb5288123dfd6d58016495f6.png)
+![](img/zhuanqian_18105936222e55d2d53daa6d9ad0d283.png)
 如人选一不适合跳舞、谈情爱，更适合思维认知类学者内容
 人选二干练女强人形象，适合职场、女性成长
 人选三活泼漂亮，适合学中文故事、中外差异、情侣故事
 ### 高相似度账号案例
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_83406400d18642a9b9705d54f79a888b.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1f2ebeb270cea000d2ef193da5ee278d.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_72a77a2885916eb1e783c0b724b96883.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b286a0d03ff48920ab2cac0eed114ff6.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_108ee01d36eb3a924d73cfd9899d4a39.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8d2d3ed874ba6436e4c19f69925b20ed.png>
+![](img/zhuanqian_83406400d18642a9b9705d54f79a888b.png)
+![](img/zhuanqian_1f2ebeb270cea000d2ef193da5ee278d.png)
+![](img/zhuanqian_72a77a2885916eb1e783c0b724b96883.png)
+![](img/zhuanqian_b286a0d03ff48920ab2cac0eed114ff6.png)
+![](img/zhuanqian_108ee01d36eb3a924d73cfd9899d4a39.png)
+![](img/zhuanqian_8d2d3ed874ba6436e4c19f69925b20ed.png)
 ### 克隆自己IP
 https://www.bilibili.com/video/BV15r421s7RD/?vd_source=cd57d3a123a254526b23c45b10a3970f
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d6437b577000edfd3738a110df6533b8.png>
+![](img/zhuanqian_d6437b577000edfd3738a110df6533b8.png)
 ### 干货课程录制
 想做自媒体，又不知道从哪找爆款、怎么写文案、怎么剪视频？我把自己跑通的一套完整玩法拆开分享。先放一个我常看的原始参考视频：https://www.bilibili.com/video/BV1ss4y1Q74J/?spm_id_from=333.337.search-card.all.click&vd_source=cd57d3a123a254526b23c45b10a3970f
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_38efb451cdb8ec91f8fe1dbe125f8e0a.png>
+![](img/zhuanqian_38efb451cdb8ec91f8fe1dbe125f8e0a.png)
 我按赛道整理了一些可以直接参考的入口，建议先码住。
 女性成长：
 https://www.douyin.com/discover?modal_id=7339473871499824447（女性成长）
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c2f06155143b345a9d73d2a782ef8436.png>
+![](img/zhuanqian_c2f06155143b345a9d73d2a782ef8436.png)
 https://www.douyin.com/user/MS4wLjABAAAARkR6wk5U_Orm8H9MKxQUyYjS7E4Ltmyw5unrnJ0kt7otPJXBBtRb3lBOClKxoAsi
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c8b5c548d19469a514f329e3e4bce9e8.png>
+![](img/zhuanqian_c8b5c548d19469a514f329e3e4bce9e8.png)
 女性情感：
 https://www.douyin.com/discover?modal_id=7339836435555536143（女性情感）
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_52a8d6d02a9f5116d19bf15a7857bfb9.png>
+![](img/zhuanqian_52a8d6d02a9f5116d19bf15a7857bfb9.png)
 中外差异：
 https://www.douyin.com/user/MS4wLjABAAAAvXEFOmMeaQm6e9p72lGrbnUQREzWgrmZU3S4_O4TtMnNUDZ6ugJDku-IfBPFtIDj?modal_id=7331283665990847771
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_87866df0d7eb186e70e96c4d4b40feac.png>
+![](img/zhuanqian_87866df0d7eb186e70e96c4d4b40feac.png)
 认知思维：
 https://www.douyin.com/user/MS4wLjABAAAAl7Zm1RHoXHXMAAxBCLlX9XjYOBEWpYh4h1t_EMVEUnfMyl7i6LiL893MsVLbyx1r?showTab=post（认知思维）
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5566e88ce6f7d134b71870ac21cee80c.png>
+![](img/zhuanqian_5566e88ce6f7d134b71870ac21cee80c.png)
 商业思维：
 https://www.douyin.com/user/MS4wLjABAAAAhGhIa7V5kteQR5O2cYMCbvA75wTSzjESS4wxCvNFZVw?modal_id=7325379922225122611
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f9d439fd43682bc16f70859b9f1d9a5a.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_10113025efd3f59f43d799483af9a9b7.png>
+![](img/zhuanqian_f9d439fd43682bc16f70859b9f1d9a5a.png)
+![](img/zhuanqian_10113025efd3f59f43d799483af9a9b7.png)
 人生感悟：
 https://www.douyin.com/user/MS4wLjABAAAASyQqOy_OTsYmQ9-0hAMku1Sfm_rNtpyBdUlEkZTSDLHaRC9dzO55u-0iLwgdAfxJ（人生感悟）
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a84544de2dda41e99f308837e5a3ef95.png>
+![](img/zhuanqian_a84544de2dda41e99f308837e5a3ef95.png)
 英语教学：
 https://space.bilibili.com/302197524?spm_id_from=333.337.0.0（英语教学）
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_72ba99975b84e918a05fdc95c03fea34.png>
+![](img/zhuanqian_72ba99975b84e918a05fdc95c03fea34.png)
 整活搞笑：
 https://www.bilibili.com/video/BV1WB42167UR/?spm_id_from=333.999.0.0&vd_source=cd57d3a123a254526b23c45b10a3970f（整活儿搞笑）
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_62cd4411f3ab0f414a44ed9709fa5ca7.png>
+![](img/zhuanqian_62cd4411f3ab0f414a44ed9709fa5ca7.png)
 还有一个“复活”项目，可以接人物克隆的订单：
 https://www.bilibili.com/video/BV1QM411H7xC/?spm_id_from=333.337.search-card.all.click&vd_source=cd57d3a123a254526b23c45b10a3970f
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bc6809900a6555d7d60d78cc7f7a1c61.png>
+![](img/zhuanqian_bc6809900a6555d7d60d78cc7f7a1c61.png)
 下面讲正事。
 ##### 为什么一定要先找爆款文案？
 爆款意味着已经被市场验证过了，大量用户愿意点赞，这就是大势所趋。别一上来就憋原创：
@@ -234,23 +234,23 @@ https://www.bilibili.com/video/BV1QM411H7xC/?spm_id_from=333.337.search-card.all
 ##### 用巨量算数追热点
 https://trendinsight.oceanengine.com/arithmetic-index
 这个平台可以看热门内容、紧跟热点。但注意：热点必须和你的内容强相关，不相关不要硬凑，凑了意义也不大。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4541d100284c91f4eb09b28e08a48cb8.png>
+![](img/zhuanqian_4541d100284c91f4eb09b28e08a48cb8.png)
 你还可以根据自己所在的行业去筛热点。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e7d6e18a355ea83ce3a0c6395b27036d.png>
+![](img/zhuanqian_e7d6e18a355ea83ce3a0c6395b27036d.png)
 如果纠结不知道选什么话题，可以看“创作指南”里的垂直领域，再结合热门关键词来定。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a1e118d2a825d8d26ffd7df5dd14f1b8.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ea0b9ece82297d93556e3796d94a007b.png>
+![](img/zhuanqian_a1e118d2a825d8d26ffd7df5dd14f1b8.png)
+![](img/zhuanqian_ea0b9ece82297d93556e3796d94a007b.png)
 找对标账号时，拿“女性成长”举例：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e1ffd2f95fd5ee5c9206b15e1d1c3bd3.png>
+![](img/zhuanqian_e1ffd2f95fd5ee5c9206b15e1d1c3bd3.png)
 时长建议选15-60秒。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d83972bfd39b5c0a93a05bde881f1946.png>
+![](img/zhuanqian_d83972bfd39b5c0a93a05bde881f1946.png)
 然后重点关注“低粉爆款”。大博主发什么都有粉丝和流量加持，低粉爆款才更有参考价值。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_277e050ad7e681f2664cc027affcc233.png>
+![](img/zhuanqian_277e050ad7e681f2664cc027affcc233.png)
 ##### 用热点宝找关联热点
 https://douhot.douyin.com/welcome
 这里可以看你同类型的内容有哪些热点能关联，能蹭就蹭。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cfe4091d38199456ad1c1c7e54f013bf.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b2a801ebbeea6169588a1824ad6d70cb.png>
+![](img/zhuanqian_cfe4091d38199456ad1c1c7e54f013bf.png)
+![](img/zhuanqian_b2a801ebbeea6169588a1824ad6d70cb.png)
 ##### 找冷启动作品文案
 所谓冷启动，就是账号基础流量很小的时候，能把账号撬动、把数据从坏拉到好的那条作品。我建议连续找对标账号的爆款文案，观察他们发了几条、第几条开始起量，爆起来的那条就是冷启动作品。
 怎么用？下载这条冷启动文案，保持第一句话不变，用AI工具改写，然后发到自己账号当作开头。因为人物、剪辑、时效都不一样，你不一定会爆，但大概率不会太差，还能拿到正反馈。
@@ -259,154 +259,154 @@ https://kimi.moonshot.cn/（AI改稿实操演示，不用魔法）
 ##### 日常经营：9宫格选题法
 发了几条之后有基础流量了，日常选题怎么找？用9宫格选题法：在页面里随意滑动，把选择框卡到流量最大的那一条。
 比如下面三个账号内容：第一个选2602赞的（第二排最右）；第二个选8368赞的（第一列第三个）；第三个也选点赞最多的那条。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ebfc3110c01daa313dfe296edcb8b253.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_20e80b14c2bedf86229712606db77c4f.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ffd3bf6123e6743ce6b196038e27976c.png>
+![](img/zhuanqian_ebfc3110c01daa313dfe296edcb8b253.png)
+![](img/zhuanqian_20e80b14c2bedf86229712606db77c4f.png)
+![](img/zhuanqian_ffd3bf6123e6743ce6b196038e27976c.png)
 等你发了15条（10-20条区间）内容之后，再选自己点赞最高的文案，让AI改写后继续发，一直发到播放量破不了200为止。这样账号一般就能快速跑起来了。
 ##### 小红书爆款搜索
 小红书网页版：https://www.xiaohongshu.com/
 搜索时可以用关键词+长尾词。例如“女性”是关键词，后面的灰色字就是SEO长尾词。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_dbbcef188d60cfb5fcb58e1b0e78f488.png>
+![](img/zhuanqian_dbbcef188d60cfb5fcb58e1b0e78f488.png)
 搜索结果出来后，直接按点赞量挑。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_866da01f7bf4417853f2beb82671135f.png>
+![](img/zhuanqian_866da01f7bf4417853f2beb82671135f.png)
 ##### 用AI工具做组合创新
 不是所有爆款都适合直接做成视频。打开第一个举例 http://xhslink.com/hPJ2eC ，里面有很多单独成句的内容，直接当口播稿会很别扭。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_59552230ecf105fe241bf0f7af9ac487.png>
+![](img/zhuanqian_59552230ecf105fe241bf0f7af9ac487.png)
 这种时候要么果断放弃，要么用Kimi把它组合成更适合口播的文案：https://kimi.moonshot.cn/
 关键是注意你的提问方式和组合逻辑。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a1243f489f3c4605a4f599c7de9f6f54.png>
+![](img/zhuanqian_a1243f489f3c4605a4f599c7de9f6f54.png)
 ##### 爆款文案合集
 我整理了一份，需要的自取：
 链接: https://pan.baidu.com/s/1S28UGSUxv7S42lsmrn1myg?pwd=nyrt 提取码: nyrt
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5a19365b6f6dec2780567b552ba4521e.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_05de52afc898aad5d4e7a77f91789cbd.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c9399b5a312eae52fb473f63c8e977e3.png>
+![](img/zhuanqian_5a19365b6f6dec2780567b552ba4521e.png)
+![](img/zhuanqian_05de52afc898aad5d4e7a77f91789cbd.png)
+![](img/zhuanqian_c9399b5a312eae52fb473f63c8e977e3.png)
 ##### 搭建自己的文案库
 先利用小红书收藏夹：收藏内容时马上加入专辑，做初步归纳。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_555cad812bfacb560f32eaf5c21fa08f.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_718213281f6521408face58013fd7313.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0a35b4b570caafad3f314c90cb695669.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b5c3909a9549ea9be1f09a9582acf902.png>
+![](img/zhuanqian_555cad812bfacb560f32eaf5c21fa08f.png)
+![](img/zhuanqian_718213281f6521408face58013fd7313.png)
+![](img/zhuanqian_0a35b4b570caafad3f314c90cb695669.png)
+![](img/zhuanqian_b5c3909a9549ea9be1f09a9582acf902.png)
 再用飞书整理文档。首页新建后，把文案放进文件夹，创建副本。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9ca00fc6fc97e13c9c55aca823f0895b.png>
+![](img/zhuanqian_9ca00fc6fc97e13c9c55aca823f0895b.png)
 创建副本后你会得到两个一模一样的文案，不用复制粘贴，副本有【副本】标志，还能随意移动。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3bf2c5d50d6ad4347c53bf73c2326926.png>
+![](img/zhuanqian_3bf2c5d50d6ad4347c53bf73c2326926.png)
 整理爆款文案时，建议在飞书里做成分类分组。我的文案库包括中俄关系、爱中国、俄罗斯带货这些主要内容，也是中外这类账号的流量密码。
 因为最终目的是带货变现，不能只发流量视频（除非你打算卖号），也不能全发带货视频（流量会差），要打组合拳。我自己测试下来比较好的比例是：前期流量视频和带货视频9:1，先用流量内容养号、涨粉、打标签；后面逐渐提升带货比例，一旦数据变差，就再补流量型笔记。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_183691871cfaa5c09eaad882a631ef07.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_92402962f2c36122844c7bb5f5a02494.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0fc6cea6e7721ed215d181e679c587c7.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d441edac36915fc916e8f3b02ddfc8ed.png>
+![](img/zhuanqian_183691871cfaa5c09eaad882a631ef07.png)
+![](img/zhuanqian_92402962f2c36122844c7bb5f5a02494.png)
+![](img/zhuanqian_0fc6cea6e7721ed215d181e679c587c7.png)
+![](img/zhuanqian_d441edac36915fc916e8f3b02ddfc8ed.png)
 不同文件类型也可以分开管理。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d2b2e6811af16bf6d8216fc189dc322d.png>
+![](img/zhuanqian_d2b2e6811af16bf6d8216fc189dc322d.png)
 分享时，可以分享整个文件夹：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_198c9afe5748fecf7fc345e1a4d4474b.png>
+![](img/zhuanqian_198c9afe5748fecf7fc345e1a4d4474b.png)
 也可以单独分享某一篇内容：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_623674f78b751073007db7e2438f6c28.png>
+![](img/zhuanqian_623674f78b751073007db7e2438f6c28.png)
 如果不想被人随意拿走，可以设置防仿盗文件，管理用户下载、复制和创建副本权限。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bd297e466940e397e0e78b6dbad9e374.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_77a8122a95fd400aeddad30057347bcc.png>
+![](img/zhuanqian_bd297e466940e397e0e78b6dbad9e374.png)
+![](img/zhuanqian_77a8122a95fd400aeddad30057347bcc.png)
 ##### 工具篇：批量提效
 要做批量账号、一天发好几条，字幕提取必须批量完成。我用的江小二工具箱，教程在这里：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_eb7b7de875d1dec27f28980b33b6432e.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fb731882298c213a5ea547040d3cbbec.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3cc4a685e4a6e6de2e7282963d9e7484.png>
+![](img/zhuanqian_eb7b7de875d1dec27f28980b33b6432e.png)
+![](img/zhuanqian_fb731882298c213a5ea547040d3cbbec.png)
+![](img/zhuanqian_3cc4a685e4a6e6de2e7282963d9e7484.png)
 下载抖音/快手/小红书视频，用江湖工具箱。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d6ab6ac8e53629f45e39d9aa20c9a0d4.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e74fd0c9d3aed69dbef2a7851051052e.png>
+![](img/zhuanqian_d6ab6ac8e53629f45e39d9aa20c9a0d4.png)
+![](img/zhuanqian_e74fd0c9d3aed69dbef2a7851051052e.png)
 视频号下载用WeChatVideoDownloader（付费软件），在电脑端微信里打开视频号就能抓取。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_25d6e687bb7902abfb5947b704e2ab39.png>
+![](img/zhuanqian_25d6e687bb7902abfb5947b704e2ab39.png)
 双语字幕可以看这个视频：
 https://www.bilibili.com/video/BV1re411n7vn/
 也就是我用过的非VIP快速剪双语字幕方法。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ce579503ec24ab7d4b84ee3b4ec9e9b0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3f76e32311c9e368244cfd422adccbcc.png>
+![](img/zhuanqian_ce579503ec24ab7d4b84ee3b4ec9e9b0.png)
+![](img/zhuanqian_3f76e32311c9e368244cfd422adccbcc.png)
 文字版也分享下：想快速做双语字幕，用沉浸式翻译很方便。在剪映里导出srt文件，上传翻译，再把翻译好的文件导回剪映即可。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5f7c18cd20894d988b6e1b67f82a77ac.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9648f1e81e810ec0a6ae416f881af92f.png>
+![](img/zhuanqian_5f7c18cd20894d988b6e1b67f82a77ac.png)
+![](img/zhuanqian_9648f1e81e810ec0a6ae416f881af92f.png)
 ##### 剪映电脑版基础操作
 导入素材：剪映左下角那条区域就是主要操作轨道，旁边的大方框用来预览画面。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_62cb246c11fa8c49cc599723768cc217.png>
+![](img/zhuanqian_62cb246c11fa8c49cc599723768cc217.png)
 调整比例：9:16竖屏适合抖音、快手、小红书、视频号；16:9横屏适合西瓜、B站、小红书。想要各种全占有点难，我一般做横屏，看你主要发哪个平台。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_88b6909077822996bc8e81e0d303995b.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2d14760ef95d3dd207518eb04d0b8e73.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c0341de53410b976f1b86ae08b61acd5.png>
+![](img/zhuanqian_88b6909077822996bc8e81e0d303995b.png)
+![](img/zhuanqian_2d14760ef95d3dd207518eb04d0b8e73.png)
+![](img/zhuanqian_c0341de53410b976f1b86ae08b61acd5.png)
 操作轨道：点素材后必须确认它处于白色框内。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b0f24456470cfba88b620d13e60f8be6.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_854669a777661808e64b7875a84b2f6a.png>
+![](img/zhuanqian_b0f24456470cfba88b620d13e60f8be6.png)
+![](img/zhuanqian_854669a777661808e64b7875a84b2f6a.png)
 缩小放大：选中素材出现白框后，向外拉是放大，向内拉是缩小，字幕和视频都适用。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0071d2c18c12c181d54dc4f9d3b4c3f8.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_04beab8926d9cce81381091ee68ba8c7.png>
+![](img/zhuanqian_0071d2c18c12c181d54dc4f9d3b4c3f8.png)
+![](img/zhuanqian_04beab8926d9cce81381091ee68ba8c7.png)
 多画面同轨：直接把需要的画面拖到轨道上，多个画面就能在同一屏展示。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_208fec7882e0677a101575c125771c01.png>
+![](img/zhuanqian_208fec7882e0677a101575c125771c01.png)
 切割：用“切割”工具点选需要断开的位置，就能把完整素材分成多个片段。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0baf4d7105eb4ec9fea51ee545588c96.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8caf57df9592abfe86ca74b4ff83a832.png>
+![](img/zhuanqian_0baf4d7105eb4ec9fea51ee545588c96.png)
+![](img/zhuanqian_8caf57df9592abfe86ca74b4ff83a832.png)
 文字功能：
 识别字幕能快速找到卡壳、空白的部分，方便删除。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3e603c251155567105b0bb8fcba879e2.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d163eca4c718c8f3ce56a5e2bae6251c.png>
+![](img/zhuanqian_3e603c251155567105b0bb8fcba879e2.png)
+![](img/zhuanqian_d163eca4c718c8f3ce56a5e2bae6251c.png)
 移动字幕时，如果勾选字幕图层，可以整体移动；取消勾选，也能单独移动某一条字幕。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ded6242a6ab520df55d566c3f0cb1a75.png>
+![](img/zhuanqian_ded6242a6ab520df55d566c3f0cb1a75.png)
 新建文本：除了识别出来的字幕，还可以额外添加其他文字。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b5c851f637277008a7cde5d9b6de2a25.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f893518df069e2169219de02ae55633b.png>
+![](img/zhuanqian_b5c851f637277008a7cde5d9b6de2a25.png)
+![](img/zhuanqian_f893518df069e2169219de02ae55633b.png)
 文本的字体和颜色都能调整。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fa7a1fcc836149c5f40f6d82b7ed9a57.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3de31d10ebaa0d399d1fba5b26e30269.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a4d2a6d053120f3502a38efdaad85504.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_efe23b0fde79f85609bd389900a23cbe.png>
+![](img/zhuanqian_fa7a1fcc836149c5f40f6d82b7ed9a57.png)
+![](img/zhuanqian_3de31d10ebaa0d399d1fba5b26e30269.png)
+![](img/zhuanqian_a4d2a6d053120f3502a38efdaad85504.png)
+![](img/zhuanqian_efe23b0fde79f85609bd389900a23cbe.png)
 删除内容：需要删除哪块内容，直接点它——不管是文字、画面还是贴纸，只要选中到白框状态就能移除。如果删后悔了，按“Ctrl+Z”撤回操作。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_701713d0ecb0d96c8cc3d296b6e9155c.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_25b702001500ce0a14ec6b151df4af13.png>
+![](img/zhuanqian_701713d0ecb0d96c8cc3d296b6e9155c.png)
+![](img/zhuanqian_25b702001500ce0a14ec6b151df4af13.png)
 添加素材：可以搜索并使用站内素材，画面会更有可看性。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_36e272744787f81d132fb3ab53ee77fc.png>
+![](img/zhuanqian_36e272744787f81d132fb3ab53ee77fc.png)
 AI贴纸：把剪映升到最新版本，可以直接用AI文生图片。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_611e5c3eeed74cfb1f4d04e776666d44.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7762f16f8a8198d9e8d8f761b9ecc204.png>
+![](img/zhuanqian_611e5c3eeed74cfb1f4d04e776666d44.png)
+![](img/zhuanqian_7762f16f8a8198d9e8d8f761b9ecc204.png)
 ### 添加普通贴纸
 把贴纸拖到想要的位置松手，再点进编辑就能随意放大缩小。做批量后期时，这个小动作能省不少重复劳动。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cbeb047649f12722f80da98af34c725b.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_27009f48fcffcfd54eb3dc3ef48d9107.png>
+![](img/zhuanqian_cbeb047649f12722f80da98af34c725b.png)
+![](img/zhuanqian_27009f48fcffcfd54eb3dc3ef48d9107.png)
 ### 添加特效
 特效名称列在下方，直接点击就能套用，也可以拖到时间轴的指定位置。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_62d87c6736b1c2b62140ae06a3d88bc2.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fadb1c0e7a24368eab175c3c697c587f.png>
+![](img/zhuanqian_62d87c6736b1c2b62140ae06a3d88bc2.png)
+![](img/zhuanqian_fadb1c0e7a24368eab175c3c697c587f.png)
 ### 收藏素材
 常用素材点一下星标，就会被排到前面，下次找素材更快。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3877a6fee90f641d2d07d35b93c93f65.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_45660dce6320cf95c1ba7d95232b6062.png>
+![](img/zhuanqian_3877a6fee90f641d2d07d35b93c93f65.png)
+![](img/zhuanqian_45660dce6320cf95c1ba7d95232b6062.png)
 ### 添加滤镜
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_35202405e7d54dab704663a5e5cda79a.png>
+![](img/zhuanqian_35202405e7d54dab704663a5e5cda79a.png)
 ### 添加蒙版
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_472397523260b54a26ea39c7f9b1d513.png>
+![](img/zhuanqian_472397523260b54a26ea39c7f9b1d513.png)
 ### 制造羽化
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_15d33d460860721f2f955e81cc4994bc.png>
+![](img/zhuanqian_15d33d460860721f2f955e81cc4994bc.png)
 ### 添加音乐
 主要用于视频配乐和音效，支持按歌名进行检索。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_abfebe11868afa6d75d15b1f299f9e7e.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b569ea38f4a8a8164c9dd9fd774206ad.png>
+![](img/zhuanqian_abfebe11868afa6d75d15b1f299f9e7e.png)
+![](img/zhuanqian_b569ea38f4a8a8164c9dd9fd774206ad.png)
 ## 人物
 ### 美颜
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2afbbdb20f3bb7ffb2c1f1db93db5af6.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3ec2f483abdc475caacd9612ceba1d2f.png>
+![](img/zhuanqian_2afbbdb20f3bb7ffb2c1f1db93db5af6.png)
+![](img/zhuanqian_3ec2f483abdc475caacd9612ceba1d2f.png)
 ### 画面明暗曲线调节
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fcc57c7b13937569c32ca07085161839.png>
+![](img/zhuanqian_fcc57c7b13937569c32ca07085161839.png)
 ### 镜头分割
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_26ead907e0d63a77bb1cb334d1f56339.png>
+![](img/zhuanqian_26ead907e0d63a77bb1cb334d1f56339.png)
 ## 常用去重轨道操作
 ### 倒放、镜像、旋转、剪裁
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_14fb13e4ae4ab5fe1754067eb1c29ca4.png>
+![](img/zhuanqian_14fb13e4ae4ab5fe1754067eb1c29ca4.png)
 ## 导出
 ## 分段导出
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_22262204f0b7d6e385c3fba32bf85240.png>
+![](img/zhuanqian_22262204f0b7d6e385c3fba32bf85240.png)
 ## 全部导出
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_01314b22d6d8ef3fc8409332b37bf818.png>
+![](img/zhuanqian_01314b22d6d8ef3fc8409332b37bf818.png)
 ## 批量去重和剪辑
 篇幅有限，具体步骤可点链接查看。
 ## 批量管理数字人账号
 用 Biscuit 多开浏览器做站点隔离。Heygen 上传素材审核慢，单账号积分也有限，需要频繁切换。开启多开后无需反复登出登入，可同时打开多个 Heygen 页面，连续产出多条数字人内容，排队等待时间也随之缩短。等到第 5 条做完时，第 1 账号的内容往往已经生成完毕。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_aeefdcd7351bfd1ddfa04abfc8331f8e.png>
+![](img/zhuanqian_aeefdcd7351bfd1ddfa04abfc8331f8e.png)
 ## 批量上传视频
 工具采用【蚁小二】，操作方式可点下方查看。
 以上是对数字人从素材搜集、内容制作到文案撰写的全流程，也是账号运营的关键。
@@ -418,18 +418,18 @@ AI贴纸：把剪映升到最新版本，可以直接用AI文生图片。
 个人介绍：概括账号内容，让用户一眼明白并提高吸引力
 背景图：增加真实感，保持干净清爽，也可使用 IP 形象
 整体封面：排列整齐、画质清晰、色彩明亮且带标题
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e4dd3782e73d129965e36a1ce00d8974.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4740f25320b1237f8e0b5e5133c5b58d.png>
+![](img/zhuanqian_e4dd3782e73d129965e36a1ce00d8974.png)
+![](img/zhuanqian_4740f25320b1237f8e0b5e5133c5b58d.png)
 ### 身份备注
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7721945446aed60fbf1c9adb2dcd6fe9.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_192a803adc46cd515ddf7409dbadb5b0.png>
+![](img/zhuanqian_7721945446aed60fbf1c9adb2dcd6fe9.png)
+![](img/zhuanqian_192a803adc46cd515ddf7409dbadb5b0.png)
 ### 封面：
 建议在剪辑阶段就把封面定好，能节省后期时间！视频号暂不支持单独上传封面！
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_84d91515c66381a158303cf676101c64.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1b8cb6b958ca61ee039e44002f517e81.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f26f20ab4ce02dbb6c89ca03cc94d1fd.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6e8f27f5c614e5a66f27426a93f635d5.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3ec0b0d476941563be06894f5f466a5a.png>
+![](img/zhuanqian_84d91515c66381a158303cf676101c64.png)
+![](img/zhuanqian_1b8cb6b958ca61ee039e44002f517e81.png)
+![](img/zhuanqian_f26f20ab4ce02dbb6c89ca03cc94d1fd.png)
+![](img/zhuanqian_6e8f27f5c614e5a66f27426a93f635d5.png)
+![](img/zhuanqian_3ec0b0d476941563be06894f5f466a5a.png)
 ### 话题设置
 写文案时要规划核心关键词的布局
 1、关注热门话题，判断是否与自身相关，相关就采用
@@ -437,18 +437,18 @@ AI贴纸：把剪映升到最新版本，可以直接用AI文生图片。
 3、做好 SEO，设定主关键词及长尾关键词
 SEO 的逻辑是遵循搜索引擎规则，提升文章在搜索结果中的自然排名
 关键词为核心词，搭配其相关的长尾词组合，能带来额外搜索流量
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d42a1ff30c233c164e3a17882aad36bc.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2da988d1df266c5db3961edc3448aaff.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a93ba8f8dd82b7227782e33e85793172.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b80fcea5329ce664a43b944d5db4036b.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_90ad9b0b85e16223a5072b8b28f09938.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1794454d72f037bd77ed2b5eeabe1144.png>
+![](img/zhuanqian_d42a1ff30c233c164e3a17882aad36bc.png)
+![](img/zhuanqian_2da988d1df266c5db3961edc3448aaff.png)
+![](img/zhuanqian_a93ba8f8dd82b7227782e33e85793172.png)
+![](img/zhuanqian_b80fcea5329ce664a43b944d5db4036b.png)
+![](img/zhuanqian_90ad9b0b85e16223a5072b8b28f09938.png)
+![](img/zhuanqian_1794454d72f037bd77ed2b5eeabe1144.png)
 ## AI提示
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2d1b21830894722c1aa65a5cf4fb7668.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_00087f0e2c954324af127c374aeb2369.png>
+![](img/zhuanqian_2d1b21830894722c1aa65a5cf4fb7668.png)
+![](img/zhuanqian_00087f0e2c954324af127c374aeb2369.png)
 ### 优秀案例
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5bbf1e5e2ce676cc9caf0fcf27f95706.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f3fa642aa28981c7a9c2878a8550a848.png>
+![](img/zhuanqian_5bbf1e5e2ce676cc9caf0fcf27f95706.png)
+![](img/zhuanqian_f3fa642aa28981c7a9c2878a8550a848.png)
 ### 老王提示词（2869字节）
 ## Role
 - 你是老王，披着文化外衣的“痞子流氓”，狠起来连自己都骂。
@@ -506,50 +506,50 @@ You：我跟你说啊，有一次我朋友请老王我吃饭，问我想吃什�
 了解自己，想要什么，怎么说清楚，它是否理解，如何优化表达
 给大框架给范围，再给细节词
 ### 不同人设相同问题，回答不同：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5e854162bd9d7b68e359ed8c0ebaf48e.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f9ca9811f48191c028af3054e743c9ae.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_18a882bb47cef45be0af1fe9d7df5770.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_069bc1361a5454eaa3e12783d64c8158.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d5ffa343b6cb7052e76a7c0f0849dfd7.png>
+![](img/zhuanqian_5e854162bd9d7b68e359ed8c0ebaf48e.png)
+![](img/zhuanqian_f9ca9811f48191c028af3054e743c9ae.png)
+![](img/zhuanqian_18a882bb47cef45be0af1fe9d7df5770.png)
+![](img/zhuanqian_069bc1361a5454eaa3e12783d64c8158.png)
+![](img/zhuanqian_d5ffa343b6cb7052e76a7c0f0849dfd7.png)
 ### 介绍自己
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5f14fadcf8969419de8cfebd6a4c3ca9.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3e922a21daf3350260ac74f4a12ef547.png>
+![](img/zhuanqian_5f14fadcf8969419de8cfebd6a4c3ca9.png)
+![](img/zhuanqian_3e922a21daf3350260ac74f4a12ef547.png)
 ### 写清楚说明
 如果只有名词，相当于搜索引擎，没有给他任何指令
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a6475801ef89f530a4113959357291da.png>
+![](img/zhuanqian_a6475801ef89f530a4113959357291da.png)
 ### 独立提问
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5f3d7e5d1f49d317d5b89e80faab5a3c.png>
+![](img/zhuanqian_5f3d7e5d1f49d317d5b89e80faab5a3c.png)
 ### 明确身份
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bb936c31a98d30f7e0d10c5bcf29c0c6.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f801e4e9c3a8e7b37998996e3e3ab636.png>
+![](img/zhuanqian_bb936c31a98d30f7e0d10c5bcf29c0c6.png)
+![](img/zhuanqian_f801e4e9c3a8e7b37998996e3e3ab636.png)
 ### 文案撰写
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_dbe54803c08fc6159003b36bfe1e6028.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_400102aa78f1650ef7421f1c6a7f7c57.png>
+![](img/zhuanqian_dbe54803c08fc6159003b36bfe1e6028.png)
+![](img/zhuanqian_400102aa78f1650ef7421f1c6a7f7c57.png)
 ### 提供参考文本
 他不稳定会编造假答案
 指定使用的参考文本回答！让他知道如何抄作业
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c7e107a8ad88702510956d9d6a27171d.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5e9edbf8f601835fadbf7bff3be62f68.png>
+![](img/zhuanqian_c7e107a8ad88702510956d9d6a27171d.png)
+![](img/zhuanqian_5e9edbf8f601835fadbf7bff3be62f68.png)
 * * *
 ## 小红书文本提示词
 ### 爆文仿写
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_784ba198b80c625e0ce06e41af83592a.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3d7a00a392318096b06bab615d034224.png>
+![](img/zhuanqian_784ba198b80c625e0ce06e41af83592a.png)
+![](img/zhuanqian_3d7a00a392318096b06bab615d034224.png)
 ### 爆款笔记模仿
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4c424019c2466b6a8d22e2a1a43f7329.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_18a3bb830a7f477a787a68a597b600cc.png>
+![](img/zhuanqian_4c424019c2466b6a8d22e2a1a43f7329.png)
+![](img/zhuanqian_18a3bb830a7f477a787a68a597b600cc.png)
 ### 及时调整内容方向
 https://www.xiaohongshu.com/explore/65e1411d000000000b023d95
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b246834bdf511fba7504b4c7852dcb59.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_070bcfa3db6fc92614e9e43d78abbceb.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cf0f134fe11050483d933b09a7270c54.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2a8d71fc32e43758ca875083353782f9.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_707337926bba7adcfba84c6cc951cef8.png>
+![](img/zhuanqian_b246834bdf511fba7504b4c7852dcb59.png)
+![](img/zhuanqian_070bcfa3db6fc92614e9e43d78abbceb.png)
+![](img/zhuanqian_cf0f134fe11050483d933b09a7270c54.png)
+![](img/zhuanqian_2a8d71fc32e43758ca875083353782f9.png)
+![](img/zhuanqian_707337926bba7adcfba84c6cc951cef8.png)
 ### 用标点区别词
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b1e654c8b44ec8742af8a7d7927e4d9e.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4347a982df465992c01cccd1bc95e6bc.png>
+![](img/zhuanqian_b1e654c8b44ec8742af8a7d7927e4d9e.png)
+![](img/zhuanqian_4347a982df465992c01cccd1bc95e6bc.png)
 ### 继续追问
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_745b13c19dd318ac6575db751885b00a.png>
+![](img/zhuanqian_745b13c19dd318ac6575db751885b00a.png)
 ### 发布时间
 前一周一天最少三更，早上7-9；11-13；18-21，三个时间段
 一周后也至少每天一条，因为之前已经分时间段发布过内容，所以看你作品哪个时间段流量最大
@@ -563,28 +563,28 @@ https://www.xiaohongshu.com/explore/65e1411d000000000b023d95
 3、数据不好可能相似会违规等等~
 ## 带货——普通产品
 ### 外国商品
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1edf0a4d123853e5d342d9f82f7fc82d.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f4fe566e658e154b4bcb2856686e3bb5.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9ac3b356c9151172a73edecc23dd4f88.png>
+![](img/zhuanqian_1edf0a4d123853e5d342d9f82f7fc82d.png)
+![](img/zhuanqian_f4fe566e658e154b4bcb2856686e3bb5.png)
+![](img/zhuanqian_9ac3b356c9151172a73edecc23dd4f88.png)
 ### 热门商品
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_113be5692b903b70ae3bbfc7ac19a098.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ee8d95ad3b17a45a816147db39dfb8a9.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3e9369cc29ce032f2b1dca5878d1f2e8.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_80fcbe70cfd116f56bceb338e7a6770a.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_21371545e0fcc28856d77b64b697a011.png>
+![](img/zhuanqian_113be5692b903b70ae3bbfc7ac19a098.png)
+![](img/zhuanqian_ee8d95ad3b17a45a816147db39dfb8a9.png)
+![](img/zhuanqian_3e9369cc29ce032f2b1dca5878d1f2e8.png)
+![](img/zhuanqian_80fcbe70cfd116f56bceb338e7a6770a.png)
+![](img/zhuanqian_21371545e0fcc28856d77b64b697a011.png)
 ### 书籍
 垂直类的书籍
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_324c67c8fc02b55017663f0c8df9b252.png>
+![](img/zhuanqian_324c67c8fc02b55017663f0c8df9b252.png)
 ### 带货——本地生活
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_767f7f5aa1f4525b1053ab8a3250f919.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6c7045e68babddd73b7f019843b12209.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d878261b614a7edae336f341d77d4d1c.png>
+![](img/zhuanqian_767f7f5aa1f4525b1053ab8a3250f919.png)
+![](img/zhuanqian_6c7045e68babddd73b7f019843b12209.png)
+![](img/zhuanqian_d878261b614a7edae336f341d77d4d1c.png)
 ## 声音克隆
 当你对系统自带的配音不买账，或者对音色有更高要求时，也可以走自定义克隆这条路。ElevenLabs 这个站点就能搞定，价格很低，1 美元就能用，去淘宝找个账号就能上手。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e0e350350f040e2025799740edde3c75.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5c798fa661e55de89b679c66c0ad05ec.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ea81ade57b36c30d266495aa895a8647.png>
+![](img/zhuanqian_e0e350350f040e2025799740edde3c75.png)
+![](img/zhuanqian_5c798fa661e55de89b679c66c0ad05ec.png)
+![](img/zhuanqian_ea81ade57b36c30d266495aa895a8647.png)
 只要准备一段纯净无杂音的音频样本上传，克隆过程就能顺利完成，操作起来相当省心。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_10990b5087311d4e4b367ac37632c8e1.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3469a86cb196ce1d205bf0295d5fc16a.png>
+![](img/zhuanqian_10990b5087311d4e4b367ac37632c8e1.png)
+![](img/zhuanqian_3469a86cb196ce1d205bf0295d5fc16a.png)
 不过目前它对中文语料的适配还有提升空间，克隆出来的效果更像是「老外在说中文」。这种音色偏向反而能派上用场，比如做俄罗斯市场的带货内容，或是刻意营造外国人讲中文的场景。Heygen 背后的音色克隆能力，本质上也是依托 ElevenLabs 的技术。如果你追求地道自然的中文发音，这里更建议试试国内开发者做的「GPT-SoVITS」，只是这套方案对本地显卡要求比较高，或者也可以借助云端的 Colab 环境来跑。

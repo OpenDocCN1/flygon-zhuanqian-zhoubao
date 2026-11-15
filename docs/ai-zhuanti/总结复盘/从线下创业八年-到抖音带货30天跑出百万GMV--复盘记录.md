@@ -1,22 +1,22 @@
 # 从线下创业八年，到抖音带货30天跑出百万GMV——复盘记录
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f4cf515c84c8eca1ad394c7a555e3155_0_0.png>
+![](img/zhuanqian_f4cf515c84c8eca1ad394c7a555e3155_0_0.png)
 收到平台的约稿邀请时，我第一反应是拒绝。这里卧虎藏龙，个个都有真本事，而我这个连幻灯片都要临时学的舞蹈老师，实在不敢上台献丑。朋友的一句话却打中了我：“没有基础、也没有技能，想做线上又不敢开始。”这不正是当年的我吗？于是我决定把这些年的摸爬滚打写出来，或许能让同样彷徨的人少走一点弯路。
 ## 一、从线下碰壁到线上寻找出口
 我来自湘西，是土家人的姑娘。24岁那年，揣着8万块钱独自跑去大城市，开了一家舞蹈培训机构。当时恰好赶上了少儿培训的上升期，加上自己玩命地干，疫情三年也稳稳扛了过来，累计做了500多万营收，校区300平米、三间教室，只教一个舞种，学员最多时445人。
 那阵子我把运气当成了实力，以为自己的经营天赋高人一等。主业稳定后就开始折腾，因为喜欢骑摩托便盘下一家摩托车俱乐部，又追着热潮做老年学堂，结果赔了十多万，被现实狠狠教育了一课。线下生意一天天难做，我带着满腹困惑扎进赚钱社群，想看看网上还有什么机会。当时我连表格、幻灯片都搞不定，剪辑也只会套模板，就靠着笨办法在B站的好物项目里死磕基础能力，再转战抖音，用30天做出了百万GMV。
 这段经历给我最大的启发是：选对方向和跟随有效的方法，比自己蒙头苦干重要得多。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f4cf515c84c8eca1ad394c7a555e3155_2_0.png>
+![](img/zhuanqian_f4cf515c84c8eca1ad394c7a555e3155_2_0.png)
 > 今日の君は君を
 > 好きな僕の心のよ
 > うに燃えている
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f4cf515c84c8eca1ad394c7a555e3155_2_1.png>
+![](img/zhuanqian_f4cf515c84c8eca1ad394c7a555e3155_2_1.png)
 > 自分の生活に忠実である
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f4cf515c84c8eca1ad394c7a555e3155_2_2.png>
+![](img/zhuanqian_f4cf515c84c8eca1ad394c7a555e3155_2_2.png)
 > あなたもきっと、
 > 誰かの奇跡
 ### 艺菲尔艺术中心
 YIFEIER ART TRAINING
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f4cf515c84c8eca1ad394c7a555e3155_2_3.png>
+![](img/zhuanqian_f4cf515c84c8eca1ad394c7a555e3155_2_3.png)
 此外，我还试水过一个面向中老年用户的舞蹈社群，用免费试听机会做钩子，持续发教舞视频，再引导大家在留言区留下关键词约课，确实积累了不少本地用户。
 ![](img/bbox=[304, 31, 599, 62])
 ![](img/bbox=[173, 158, 712, 220])
@@ -30,10 +30,10 @@ YIFEIER ART TRAINING
 ### 最后：把个人能力沉淀成系统
 业务跑通后，我开始搭建体系。先上线一套教学管理软件，用学员增长、满员率、口碑传播这些数据来判断课程和教法是否有效；再逐步扩充品类，从单一舞种长出了多种舞种和不同难度的班级；最后把招生、教学、教务流程固化成SOP。到今天，这所学校已经是片区里唯一拿到教委许可证的培训学校，日常运营接近托管状态，基本不用我操心。
 赚钱的底层逻辑都是一样的，需要迭代的是自己的认知和战场。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f4cf515c84c8eca1ad394c7a555e3155_10_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f4cf515c84c8eca1ad394c7a555e3155_10_1.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f4cf515c84c8eca1ad394c7a555e3155_10_2.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f4cf515c84c8eca1ad394c7a555e3155_11_0.png>
+![](img/zhuanqian_f4cf515c84c8eca1ad394c7a555e3155_10_0.png)
+![](img/zhuanqian_f4cf515c84c8eca1ad394c7a555e3155_10_1.png)
+![](img/zhuanqian_f4cf515c84c8eca1ad394c7a555e3155_10_2.png)
+![](img/zhuanqian_f4cf515c84c8eca1ad394c7a555e3155_11_0.png)
 ## 三、在实战训练中把基础能力练透
 刚开始接触这个圈子时，我整天刷帖子，刷得越多越动摇，也怀疑那些晒收益的人是不是真的。直到反复看到一句话：“亲自下水，把事做透。”我决定不再观望，连续报名多轮实战，边干边学。
 ### 视频号的流量分成
@@ -45,9 +45,9 @@ YIFEIER ART TRAINING
 最想感谢我的引路人——家蒙，以及那些互相扶持的伙伴们。能在一个积极且温暖的圈子里，是我最幸运的事。
 ### 家蒙的反馈
 构图、声音、画面都在线，有穿插空镜，也懂得遮住自己的脸；幻灯片做得不错，形象和表达也自然。他建议我反复看数据、频繁换商品，把视频产出变成低消耗的日常动作，还提醒我可以集中推一款产品，并肯定我在两条新视频里的进步，说节奏更利落了，画面质感也提升了。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f4cf515c84c8eca1ad394c7a555e3155_14_0.png>
+![](img/zhuanqian_f4cf515c84c8eca1ad394c7a555e3155_14_0.png)
 初次出单那天，我看到后台收益只有8块钱，却守在家中屏幕前激动得想哭。连着熬了十几天的夜，每天赶着学幻灯片、写明文案，生怕掉队。教练每次直播和群内发言，我都会截图保存，反复模仿，终于换来一个虽然小却实实在在的正反馈。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f4cf515c84c8eca1ad394c7a555e3155_16_0.png>
+![](img/zhuanqian_f4cf515c84c8eca1ad394c7a555e3155_16_0.png)
 队友们也提到，经历过多轮项目，这里的气氛最难得。收益虽然不是最多，但收获的成长和鼓励最让人想继续做下去。
 ## 四、抖音带货30天破百万的三步闭环
 所谓抖音上的CPS，就是发带货视频产生订单，从中赚取佣金，不需要自己囤货，也不用碰发货和售后。我做对了三件事。
@@ -68,13 +68,13 @@ YIFEIER ART TRAINING
 最后一天的集体复盘里，大家总结出抖音的爆点在于钩子叠加，陪伴感和创新结合，推荐流的逻辑。密令有奖的形式比单纯口令更有效。抖音的底层是有确定性的。
 小明的实操给的是执行感：真人出镜、拿着道具、双机位切换、同时运营 5 个号。核心能力是观察和洞察力。
 IP 导流飞则强调图文带流。一次爆款就能带来干货的同步分享，要清楚什么时候领。数据分析的原则很简单：用户在搜什么就做什么、做什么干货。平台是小红书，忌讳同质化，要做平台风格的创新。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f4cf515c84c8eca1ad394c7a555e3155_23_0.png>
+![](img/zhuanqian_f4cf515c84c8eca1ad394c7a555e3155_23_0.png)
 五、个人感悟
 比具体方法更重要的是那个成长的场。无论在赚钱还是在每一次航海里，我得到的远不止技巧。那种和一群说干就干的人并肩前行、彼此托举的凝聚力，那种在迷茫时被优秀队友和教练护住的安全感，是任何课程都无法定价的财富。个人可以跑得快，团队才能让你走得稳、走得远。
 只要方向对、执行狠，每个人都能突破自己以为的上限。
 感恩所有相遇与扶持，2026 年一起龙哥盟！
 最后，推荐小懒的付费群：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f4cf515c84c8eca1ad394c7a555e3155_24_0.png>
+![](img/zhuanqian_f4cf515c84c8eca1ad394c7a555e3155_24_0.png)
 🕖这里是你在信息洪流里的护城河。
 已稳定运营 7 年，累计拆解研读 3000+ 个互联网商业实战案例、行业前沿内参以及时政宏观文章。
 我们不搬运低质内容，只做高价值信息的过滤器与放大器。

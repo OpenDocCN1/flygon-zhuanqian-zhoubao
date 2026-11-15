@@ -8,7 +8,7 @@ AI+写作的玩法在星球里已经被讨论很多，公众号爆文、头条�
 熟练掌握GPT指令后，产出质量完全可控。
 收益情况：
 经过一段时间积累，我们的操作已经比较顺畅，接单量稳定。最近一个月，拼多多单店月均轻松破1w。用AI辅助写作，单价相对更高。如果你在做写作变现，这套运营方法能直接帮你增收。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f90dcdd89c9363e59f2f5f673dde5b45.png>
+![](img/zhuanqian_f90dcdd89c9363e59f2f5f673dde5b45.png)
 ## 1.1 何为ChatGPT
 ChatGPT是基于OpenAI GPT-3.5架构的大型语言模型，今年的标志性技术产物。它在大规模语料上训练完成，可生成自然语言回复。
 其核心目标是通过对话交互，为用户提供有意义、准确、有用的答案。可用于问答、概念解释、建议提供、创意写作等。训练数据覆盖书籍、文章、网页、论坛等海量文本，因而能理解并模仿人类表达方式，根据输入做出连贯回应，并多角度思考问题。
@@ -16,8 +16,8 @@ ChatGPT是基于OpenAI GPT-3.5架构的大型语言模型，今年的标志性�
 实际应用来看，GPT在自然语言生成任务上表现惊人，几乎能模仿人类语言模式和思维，输出自然流畅。将其设定为博士、编辑、各领域专家、资深顾问等角色，就相当于零成本创作，随后实现100%利润。
 ## 1.2 写作店铺是什么
 任何带“代”字的生意里都藏着巨大市场。如图显示的付款人数只是冰山一角，真实需求庞大。按客户下单需求代写文章，属于典型的定制类服务，价格灵活。我们目前主要通过电商平台获取精准咨询，双方沟通后报价，虽然多为私域对接，微信、支付宝或银行卡付款，但市场体量依然庞大。淘宝、拼多多、闲鱼、小红书等都是可操作的写作店铺平台，且流量充足。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1415c576ca9bfd039328d89eb47dd126.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_11b9a890eab2b6a6f8db6e1ab88fc71b.png>
+![](img/zhuanqian_1415c576ca9bfd039328d89eb47dd126.png)
+![](img/zhuanqian_11b9a890eab2b6a6f8db6e1ab88fc71b.png)
 很多人不了解这个行业到底能写什么变现，下面我列举常见高频需求，仅供参考：
 演讲稿、新闻稿、读后感、征文发言稿、总结报告等...
 情书、道歉信、感谢信、节日祝福等...
@@ -33,7 +33,7 @@ ChatGPT是基于OpenAI GPT-3.5架构的大型语言模型，今年的标志性�
 2. 求急单型：可接受较高单价，对质量要求不高，只要能过关。常见于领导临时布置、学校作业等。
 3. 低价应付型：到处比价，沟通成本最高，建议直接过滤，赚不到钱还消耗精力。
 基本流程：获取用户 → 解答咨询 →
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b21f85ce5763b495aa1d19e5f67faaba.png>
+![](img/zhuanqian_b21f85ce5763b495aa1d19e5f67faaba.png)
 # 2、拼多多写作店铺解析
 ## 2.1 拼多多概况
 拼多多是中国主流移动互联网电商应用之一。2021年全年GMV达24410亿元，现已成为用户最多的电商平台。截至2020年底，年活跃买家数达7.884亿，成为中国用户规模最大的电商平台之一。短短几年超越阿里成为用户规模第一，开店平台首选自然绕不开它。
@@ -62,8 +62,8 @@ ChatGPT是基于OpenAI GPT-3.5架构的大型语言模型，今年的标志性�
 推荐工具：【搞定设计】【创客贴】
 常见主图尺寸：800*800px
 图1 图2
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1f1424b6d7f586fbd17d405b9b87e5d3.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f68d73df5fe8558017b365c03eb789e3.png>
+![](img/zhuanqian_1f1424b6d7f586fbd17d405b9b87e5d3.png)
+![](img/zhuanqian_f68d73df5fe8558017b365c03eb789e3.png)
 ## 5.商品发布如何规避4W保证金
 这个技巧目前了解的人不多，不少人卖教程收费上百，请看点击蓝色部分查看教程
 ## 6.线下引流技巧
@@ -72,15 +72,15 @@ ChatGPT是基于OpenAI GPT-3.5架构的大型语言模型，今年的标志性�
 客户会主动提供联系方式，你再添加即可。客户主动发送不触发违规，你主动发送风险极高。
 方法2.图片引流
 提前准备几张引流图，隐晦留微信号，微信号越简短越不易被识别。发送时需用不同尺寸图片轮换发送，降低识别率。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f8798bc8c79c5ccff90cb8a9e625b8db.png>
+![](img/zhuanqian_f8798bc8c79c5ccff90cb8a9e625b8db.png)
 方法3.先拍下再联系
 报完价后让客户先拍下链接，可看到真实电话，通过卡券查看联系方式，再电话添加微信。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_dfe95a4ab64a6182a06731036e7dd0ee.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_852f5c4d6868eb43c4f5b1d44beb71c9.png>
+![](img/zhuanqian_dfe95a4ab64a6182a06731036e7dd0ee.png)
+![](img/zhuanqian_852f5c4d6868eb43c4f5b1d44beb71c9.png)
 方法4：百度网盘跳转
 提前将微信号留在网盘文档中，上传后生成链接。沟通时发送网盘链接，客户提取即可看到微信，实现引流。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bffff939c0e129e2c6c4d5eccd0c14f9.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_419f495ab00fa2f6afb9a4994a582d9a.png>
+![](img/zhuanqian_bffff939c0e129e2c6c4d5eccd0c14f9.png)
+![](img/zhuanqian_419f495ab00fa2f6afb9a4994a582d9a.png)
 ## 7.项目风险提示
 1.错误引流导致封店
 前期因不熟悉规则，错误引流直接封店。建议结合已有方法优化，形成自己的SOP，实在无法总结就直接沿用成熟方法。
@@ -93,8 +93,8 @@ ChatGPT是基于OpenAI GPT-3.5架构的大型语言模型，今年的标志性�
 第一天
 早上8点100元 下午3点100元 晚上8点150元
 通过链接进店自补，干净鱼塘进店下单补充流水。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a4da5eb3377d529469adf09606b54410.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b4739f447f43393d940772997c4e3c31.png>
+![](img/zhuanqian_a4da5eb3377d529469adf09606b54410.png)
+![](img/zhuanqian_b4739f447f43393d940772997c4e3c31.png)
 第二天
 早上8点100元 下午3点150元 晚上8点200元
 第三天
@@ -114,14 +114,14 @@ ChatGPT是基于OpenAI GPT-3.5架构的大型语言模型，今年的标志性�
 DSR出分后可开直通车获取付费流量，拼多多推广大趋势。全站推广效果最佳，具体步骤：
 后台进入直通车
 1.先试用200元新手红包
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3e784dcc0b37b08c783c95af80ba90a3.png>
+![](img/zhuanqian_3e784dcc0b37b08c783c95af80ba90a3.png)
 2.选择全站推广，不要选其他
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_16b0853d436a2ba655c44f9d8a553e4f.png>
+![](img/zhuanqian_16b0853d436a2ba655c44f9d8a553e4f.png)
 3.出价5元
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4f0955a697ca9c76703ded6b08322434.png>
+![](img/zhuanqian_4f0955a697ca9c76703ded6b08322434.png)
 4.推广成功
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e7b9b59d2f39f17e0d66690c8a748969.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b1a37dc874a443f1245f2e5067449809.png>
+![](img/zhuanqian_e7b9b59d2f39f17e0d66690c8a748969.png)
+![](img/zhuanqian_b1a37dc874a443f1245f2e5067449809.png)
 # 5、私域实操路径
 ### 5.1 私域打造
 1.微信形象
@@ -161,10 +161,10 @@ A:你们这个到时候收钱跑路怎么办？
 ### 5.3 私域裂变玩法
 1. 文案吸睛
 在平时的朋友圈动态里，可以适度加入一些互动文案，比如：感谢宝子们的信任，推荐有红包拿哦
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_670af675c3361717d5b2fac30d94e835.png>
+![](img/zhuanqian_670af675c3361717d5b2fac30d94e835.png)
 2. 谈价顺势裂变
 不少客户都喜欢砍价，我们就可以顺着这个点给个优惠，假装很为难的样子请他帮忙介绍几个客户，转化效果非常好，如图：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_08c2c4db4e87786c791c26a58edc436a.png>
+![](img/zhuanqian_08c2c4db4e87786c791c26a58edc436a.png)
 ## 6. 用 GPT 提升写作效率
 ### 1. 先准备好 ChatGPT 账号
 在淘金里关于 ChatGPT 的项目、答疑和陪跑已经非常多了，也有不少圈友靠它上岸。账号注册和使用的教程可以在星球文章里找到。这里重点讲的是如何充分利用 GPT 来提升稿件的质量和产出，同时大幅降低写作成本，精准匹配客户需求。
@@ -180,25 +180,25 @@ A:你们这个到时候收钱跑路怎么办？
 比如有个客户是做抖音机房搭建的自媒体博主，他要我连载他的招商账号文章，唯一的要求是希望阅读量高。这个需求太泛了，客户自己也不清楚怎么做能提升阅读量。想拿下长期合作，就不能反问他怎么做。遇到这种模糊指令，就需要自己去补全。
 操作技巧是：去网上搜索同类型自媒体招商账号的爆文逻辑，归纳出这类博主需要哪些要素，比如吸睛标题、有趣场景、真实的招商案例反馈、具体的实操方法等等，把这些要素整理成指令再喂给 GPT 使用。
 【6】借助指令库提升准确度
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a0bfe43ad92e15c5767c13be83ffb886.png>
+![](img/zhuanqian_a0bfe43ad92e15c5767c13be83ffb886.png)
 我们也在用的指令参考工具是 BestPrompts。遇到不熟悉的领域，可以直接复制里面的指令模板来提高准确性，注册地址：https://bestprompts.cn/#/index
 ### 3. GPT 写稿实战演练
 指令模板：【设定角色+文章标题+关键词+大纲+客户要求+改稿】
 #### 案例1：写演讲稿
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3c4bff0d28fcc67142acfc5458dac086.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_070828b8420f1eb844aabe95a27d55e1.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_28cf8ab79297c6e497db5602c5cffd7f.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5d136e66241bfa115deafd0616a1293e.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_223ae6a49089072d01d89dfec855f3bb.png>
+![](img/zhuanqian_3c4bff0d28fcc67142acfc5458dac086.png)
+![](img/zhuanqian_070828b8420f1eb844aabe95a27d55e1.png)
+![](img/zhuanqian_28cf8ab79297c6e497db5602c5cffd7f.png)
+![](img/zhuanqian_5d136e66241bfa115deafd0616a1293e.png)
+![](img/zhuanqian_223ae6a49089072d01d89dfec855f3bb.png)
 大部分文章其实都是按这个流程来完成，熟练指令后耗时会大幅缩短。
 #### 案例2. 写商业计划书
 客户给出的要求如下：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e6ccf0396bbdd270bc5754e54d0889fd.png>
+![](img/zhuanqian_e6ccf0396bbdd270bc5754e54d0889fd.png)
 用 ChatGPT 高效写作的具体操作：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b0b788232b6ce65471242bd07c780703.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8e059753f30def0a5af7cce36f8b7973.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2e3756c65c6f41a5da8db73304fd65f3.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cddc46d3b93b7b28257888bd5857e269.png>
+![](img/zhuanqian_b0b788232b6ce65471242bd07c780703.png)
+![](img/zhuanqian_8e059753f30def0a5af7cce36f8b7973.png)
+![](img/zhuanqian_2e3756c65c6f41a5da8db73304fd65f3.png)
+![](img/zhuanqian_cddc46d3b93b7b28257888bd5857e269.png)
 按照客户需求多次迭代指令，就能得到一份详细完整、完全符合要求的商业计划书。
 ## 4、实战工具清单
 1. 拼多多
@@ -206,7 +206,7 @@ A:你们这个到时候收钱跑路怎么办？
 2. ChatGPT 或其他 AI 工具
 3. 业务微信
 4. 作图软件【搞定设计或可画】
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_196fd6e57e555e666f99b267c59c088b.png>
+![](img/zhuanqian_196fd6e57e555e666f99b267c59c088b.png)
 ## 5. 如何避坑
 1. 严格识别平台禁售类目：只接拼多多允许的文章类目，不要承接学术类文章以及党政相关的内容。
 2. 引流素材和方式要定期更换，引流图片要轮换，避免被判定违规。

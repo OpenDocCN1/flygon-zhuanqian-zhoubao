@@ -1,19 +1,19 @@
 # 一天造出冲上 App Store 摄影榜107名的 App，我是怎么做到的
 大家好，我是龙哥，现居北京，一个籍籍无名的产品经理。
 上个月，我上线了一款叫「芝士相机」的 App。零 iOS 开发基础，靠现在最火的 AI 编程工具 Cursor，1 天把产品做出来，再加 4 天审核上架。更关键的是，我还自研了两套算法：姿势模板生成算法和美颜算法。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8918271de14dec3c2b32081e17a9b61d.png>
+![](img/zhuanqian_8918271de14dec3c2b32081e17a9b61d.png)
 这款相机的思路其实很直白：把原生取景叠加一层姿势模板图，让男朋友或闺蜜能照着模板实时跟拍，轻轻松松拍出更上镜的照片。
 上线后，我在小红书、即刻上主动发声，还被“有趣产品咖啡馆”邀请写了篇开发者手记。
 「芝士相机」得到了小红书用户的认可，峰值冲进了 App Store 摄影分类排行榜第 107 名，和一堆大厂同框。而我，完全没写过一行代码。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b5bf948af14654e35b5d2c5e681cddef.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ad82c27e218cac397a3db83adf385496.png>
+![](img/zhuanqian_b5bf948af14654e35b5d2c5e681cddef.png)
+![](img/zhuanqian_ad82c27e218cac397a3db83adf385496.png)
 下面我就把这次从灵感到上榜的完整经历拆开讲，希望能帮你把产品成功率拉满，也许你的第一款作品就此诞生。
 ## 一、从哪里来
 灵感来自我最近的新疆自驾。在景区里，太多情侣因为拍照吵架，甚至差点闹翻。
 我自己也是个拍照灾难现场，给女朋友当摄影师简直是甜蜜的折磨。于是我开始琢磨：要是有个能实时参考拍摄模板的工具，是不是就能解决这个问题？
 我用“拍照姿势”等关键词去小红书探路，发现需求空缺很大。很多女生习惯存图参考姿势拍照，如果能把模板直接存在相机里，边拍边对，就能立刻用上。这个想法很快得到了验证。
 要提醒一句，造产品最好的状态是自己真有痛点。这样需求把握最准。如果你只是发现了机会，最好长期和真实用户聊下去，收益会远超预期。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ca326be4cb13e8ab1ca9e0017459ad82.png>
+![](img/zhuanqian_ca326be4cb13e8ab1ca9e0017459ad82.png)
 ## 二、立刻动手
 需求验证完就进入开发。那时我只有微信小程序的经验，没有图像算法经验，也没碰过 iOS。
 之前在各大社区看到过 AI 编程，Cursor 早就装在电脑里了，除了装机那天打开过一次，基本吃灰。
@@ -24,42 +24,42 @@
 （2）名字里要包含具象元素，比如相机、罐头等
 （3）带上情绪点，比如喜悦、安稳等
 （4）给几个参考案例
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_336a0a00bf7ff6838d52c57a15d992fc.png>
+![](img/zhuanqian_336a0a00bf7ff6838d52c57a15d992fc.png)
 ### 2-2、用 AI 画 Logo
 借助 ChatGPT 的 GPTs Logo 能力，按下面要点生成 Logo：
 1、参考案例，比如「芝士相机」就直接用芝士形状的相机实物
 2、明确用户画像，是女生、男生还是老年人
 3、确定风格，是扁平、拟物还是其他
 4、定好氛围感，比如粉色可爱、暗黑、黑白等
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_09f4182c6dabc721beb05eaa5de7e455.png>
+![](img/zhuanqian_09f4182c6dabc721beb05eaa5de7e455.png)
 ### 2-3、建 iOS 项目
 用苹果官方的 Xcode 新建项目文件夹。一定要走 Xcode 新建流程，不要指望 AI 直接生成，否则后面会是一堆坑。这一步做好，后续 AI 编程才顺。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fbc84885506b8531b305564646ff6576.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_78022e1979ecdd159daf2ca4ec7e547c.png>
+![](img/zhuanqian_fbc84885506b8531b305564646ff6576.png)
+![](img/zhuanqian_78022e1979ecdd159daf2ca4ec7e547c.png)
 ### 2-4、开工，AI 编程
 （1）打开 Cursor，加载 Xcode 建好的项目，Xcode 别关，后面要实时预览
 （2）用 Command / Ctrl + i 打开 Composer，写第一条指令。一定要 @ContentView 告诉 AI 核心文件，不然它可能把代码写到读不到的地方。有参考图就直接上，让 AI 对着改
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7285eafd4874a86075b3b7e746b13e59.png>
+![](img/zhuanqian_7285eafd4874a86075b3b7e746b13e59.png)
 （3）在同一个对话里，后续就不用再 @ContentView 了。AI 改完先 Save all 预览，可以 Reject / Reject All 回退；确认了再 Accept all。回退还能用 Checkout 或 Git
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9b11636a9a9a14a6bb41065cf94829f2.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e1fa41dae8fffaac5d171ebe18a0339f.png>
+![](img/zhuanqian_9b11636a9a9a14a6bb41065cf94829f2.png)
+![](img/zhuanqian_e1fa41dae8fffaac5d171ebe18a0339f.png)
 （4）切回 Xcode，选模拟器或真机，点击运行预览
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f8c03c51078820c8ac1bede8da98a7c7.png>
+![](img/zhuanqian_f8c03c51078820c8ac1bede8da98a7c7.png)
 ### 2-5、报错了怎么办？3 招搞定
 （1）复制粘贴法
 🎯 核心：把报错信息和相关上下文原样丢给 AI，让它分析，最好再补充现象
 🌿 适用：最通用，基本全场景可用
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_299ea0f015efbc9204b0c322fb423d3d.png>
+![](img/zhuanqian_299ea0f015efbc9204b0c322fb423d3d.png)
 （2）看图说话法
 🎯 核心：给 AI 看预期效果图或报错截图，结合文字描述更精准
 🌿 适用：界面错乱、样式不符、想对标竞品界面时
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ee6384e762fabb24821eb2e67171a5f8.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ad9c32dd6873d5d7d4ef2a078341eb61.png>
+![](img/zhuanqian_ee6384e762fabb24821eb2e67171a5f8.png)
+![](img/zhuanqian_ad9c32dd6873d5d7d4ef2a078341eb61.png)
 （3）日志追踪法
 🎯 核心：让 AI 给产品加日志，把 Xcode 里打印的日志贴回去分析，再让它加更细的日志定位
 🌿 适用：界面看不出的问题，逻辑时机不对、设备连接中断等隐蔽 bug
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_39006a64f0b6684be5c8ea97b53fc374.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_076daba7a260f8fc8a18569100954b0a.png>
+![](img/zhuanqian_39006a64f0b6684be5c8ea97b53fc374.png)
+![](img/zhuanqian_076daba7a260f8fc8a18569100954b0a.png)
 这三招的本质都是给 AI 足够的上下文。信息越全，AI 越不容易误解，也能帮你更快梳理问题。
 具体好处是：
 *   减少信息丢失，保证背景完整
@@ -67,27 +67,27 @@
 *   提高沟通效率，减少反复澄清
 *   最终偏差更小，更快解决问题
 和一个网友聊时我总结过：不是工程师也没关系，先把自己放在创造者位置，别陷技术细节。你要做的只是把诉求表达清楚，功能要什么、问题怎么描述。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_23cbb19c3b4b429abd0c0b682355a357.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_92eac29d846fc2803d6f98ad16e634e7.png>
+![](img/zhuanqian_23cbb19c3b4b429abd0c0b682355a357.png)
+![](img/zhuanqian_92eac29d846fc2803d6f98ad16e634e7.png)
 Cursor 编程的细节太多，这里只分享我实操中的技巧。想系统学，可以看我之前做的两小时分享《AI 开发从 0 到 1 经验分享（适用新手）》。
 目前我已上架两款 App。第二款「小圆角」从产生需求到当天提交，第一版只用了一个晚上。
 趁热打铁，别被技术难倒。我一个不懂 iOS 的产品经理都能一天做出带两套算法的 App，你也可以。
 写代码其实就是把文字写进文件，和写 Word 没区别，只是内容是机器能读的逻辑。AI 编程就是把自然语言对话转成机器能懂的代码，仅此而已。
 我有开发背景只是省了时间，也许你两天就能做出来。关键是别让心里的火熄了，持续点燃，你会得到不一样的体验。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_75d718f11c263115242613f98b559435.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d588a6d0b410775ad624f123224b2dee.png>
+![](img/zhuanqian_75d718f11c263115242613f98b559435.png)
+![](img/zhuanqian_d588a6d0b410775ad624f123224b2dee.png)
 ## 三、主动持续宣传
 如果说高效开发是那个大写的 1，那全生命周期的宣传就是后面无数个 0。
 开发时我用 Demo 界面在小红书预热，让用户提前看到功能，收集反馈。上架当天起，连续两周通过小红书、即刻、公众号邀约不断发声，才有了上榜的可能。复盘如下：
 ### 3-1、上架前
 🎯 核心：展示核心功能，哪怕是草图，获取潜在用户反馈，验证价值并做微调。
 🏃 经验：产品不必完整，核心价值要传达清楚，选对平台更重要。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_35701f49b355affef6dc7437cdf85213.png>
+![](img/zhuanqian_35701f49b355affef6dc7437cdf85213.png)
 ### 3-2、上架后两周
 🎯 核心：用一切能用的渠道保持热度。没有热度就创造曝光。期间我基本做到每天一笔记，主动互动 100+ 次，累计曝光近 10 万+，专栏占 45%，自媒体占 55%。
 🏃 经验：主动发声，争取专栏访谈机会，上线后立刻和用户互动，效果远超预期。越努力越幸运，大抵如此。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b39005efe54b72714adf22d5ff41189a.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_48efe8ede6eef44bf0c6d2f914a57dff.png>
+![](img/zhuanqian_b39005efe54b72714adf22d5ff41189a.png)
+![](img/zhuanqian_48efe8ede6eef44bf0c6d2f914a57dff.png)
 没有社交媒体的持续曝光，这款产品很难上榜。
 所以别只夸 AI 编程多强。AI 降低了门槛，但宣传仍然需要你投入时间，并且始终面向目标用户。
 ## 四、收尾

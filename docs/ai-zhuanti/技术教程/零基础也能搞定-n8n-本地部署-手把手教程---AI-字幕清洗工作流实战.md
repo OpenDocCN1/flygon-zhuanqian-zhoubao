@@ -1,6 +1,6 @@
 # 零基础也能搞定 n8n 本地部署｜手把手教程 + AI 字幕清洗工作流实战
 不管你是从未接触过 n8n 的纯小白，还是已经玩得很溜的老手，这篇内容都能让你有收获。前者可以跟着我一步步把 n8n 部署起来；后者呢，直接带走一套字幕清洗工作流——自动拦截敏感词、修正错别字，真正解放双眼，不再需要手动逐句盯屏幕。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c700fe350b5e527dad14dc46b9de7066.png>
+![](img/zhuanqian_c700fe350b5e527dad14dc46b9de7066.png)
 少闲聊，直接上干货：
 # 部署前要准备什么
 先列个清单，总共四样东西：
@@ -14,33 +14,33 @@
 ## 装 Node.js
 这次不走常规安装包路线，我们用【nvm】来搞定。nvm 是 Node.js 的版本切换器，可以同时安装多个版本并自由切换，非常灵活。
 nvm 下载地址：Releases · coreybutler/nvm-windows
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4e1822e5e4d87820454ee528edbba671.png>
+![](img/zhuanqian_4e1822e5e4d87820454ee528edbba671.png)
 GitHub 访问不太方便，安装包我已经给大家准备好了。
 苹果电脑装 nvm 的参考视频：https://www.bilibili.com/video/BV1paZzYqEQ9/?spm_id_from=333.337.search-card.all.click&vd_source=0938c92d0bed0dc8d6956f9d2e97ea39
 我自己手里已经没有 Mac 了，没法实际演示，不过 B 站这类教程很多，找找总有合适的。
 下面的流程在 Windows 和苹果上都适用。碰到任何问题都可以来找我，我来完善文档。
 装完之后先验证一下：按 Win+R，输入 cmd 回车。如果要以管理员身份打开命令行：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7fae5e8a9054fac3ee062b577adedd38.png>
+![](img/zhuanqian_7fae5e8a9054fac3ee062b577adedd38.png)
 执行：nvm -v，弹出数字版本号就代表成功了。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_acbbe9fc35f5db27786cda9b1220422c.png>
+![](img/zhuanqian_acbbe9fc35f5db27786cda9b1220422c.png)
 接下来安装 Node.js，输入：nvm install lts，它的含义是安装当前最新的长期支持版本。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4c525179f84608c8b57ddfd2e05b4871.png>
+![](img/zhuanqian_4c525179f84608c8b57ddfd2e05b4871.png)
 装好之后，用：nvm list 查看机器上现在有哪些 Node.js 版本。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e26d89c77259c5b74310171e7a2b13c5.png>
+![](img/zhuanqian_e26d89c77259c5b74310171e7a2b13c5.png)
 我这台机器装了两个版本，所以列出来两条。前面带星号的那条，就是当前正在使用的版本。
 切换版本时输入：nvm use 22.18.0（注意：换成你自己的版本号，别照搬）
 不管你装了多少个版本，这步都不能省，否则系统根本不知道你想用哪个。
 这句话容易忘，必须唠叨三遍：nvm use 22.18.0（换成你自己的版本号）
 再唠叨一遍：nvm use 22.18.0（换成你自己的版本号）
 继续唠叨一遍：nvm use 22.18.0（换成你自己的版本号）
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1245658e422f707705923e294a34da6b.png>
+![](img/zhuanqian_1245658e422f707705923e294a34da6b.png)
 确认切换结果：输入：node -v 查看版本。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_35352156867e1c2eb7f6640f69ee9af3.png>
+![](img/zhuanqian_35352156867e1c2eb7f6640f69ee9af3.png)
 这里专门提醒一下：n8n 对 Node.js 的版本要求相当苛刻，20.11.0 都过不了关，所以务必安装并切换到最新版。
 ## 安装 n8n
 命令行里输入：npm i -g n8n，然后等它自动拉取安装包，大概三分钟后能装完。完成后照例验证：
 输入：n8n -v 查看版本号。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3e3fdb17b1fa356895cfdb3cce3f8eea.png>
+![](img/zhuanqian_3e3fdb17b1fa356895cfdb3cce3f8eea.png)
 如果上面这步卡住或下载不动，看这里：
 npm 默认的源头在海外服务器，受众所周知的网络环境影响，拉取速度极其感人，甚至直接超时。有两种处理办法。
 方案一：给终端配上代理
@@ -63,7 +63,7 @@ npm config set registry https://registry.npmjs.org/
 提醒一下：敲完这些设置命令，终端没有回显是正常的，不用慌。这里只是修改了包的来源，接下来你还需要再运行一次：npm i -g n8n
 ## 启动 n8n
 终端输入：n8n，等待数据加载完毕，直到出现下面的界面：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bad2c5811476acc30d2ab2cedb724baf.png>
+![](img/zhuanqian_bad2c5811476acc30d2ab2cedb724baf.png)
 红框内是一个 IP 地址，那就是进入 n8n 的入口。把它复制到浏览器地址栏即可访问，也可以直接按键盘上的【o】键自动弹出。
 以后每次访问 n8n 网页端，都要先执行这条命令。
 到这里安装全部完成。下面进入一个实操示例。
@@ -84,42 +84,42 @@ n8n 给我的感觉更像一个后端服务，它的核心职责是处理数据�
 现在开始配置工作流的第一节点——接收上传的字幕文件。
 首次进入时，系统会要求填邮箱并发送激活链接，按提示激活即可。
 到主页后，点击上方的【Create Workflow】新建一个工作流。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5b0e035f2fb1d7afa35dc89914dc7ada.png>
+![](img/zhuanqian_5b0e035f2fb1d7afa35dc89914dc7ada.png)
 点击中间的【+】号，在右侧搜索框中输入【web】，然后选择下拉菜单里的第二个选项【web hook】。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ade0196273cec5659db5e543630fe0c8.png>
+![](img/zhuanqian_ade0196273cec5659db5e543630fe0c8.png)
 进入节点后，看中间区域，把红框标出的两处配置改成和示例一致。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5ccd22ef5159c25b9b7afac433d71d51.png>
+![](img/zhuanqian_5ccd22ef5159c25b9b7afac433d71d51.png)
 第一处是请求方式。因为要传输文件，文件体积不算小，GET 装不下，必须选用 POST。
 第二处是路径。工作流接收文件需要一个明确的入口地址，这里的路径可以自由定义，但后面 HTML 页面里的上传地址必须与之保持一致。
 改完之后点击【Back to canvas】返回画布，配置会自动保存。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_130a0429ac628c189d02ff7bb4564d3a.png>
+![](img/zhuanqian_130a0429ac628c189d02ff7bb4564d3a.png)
 节点一旦启动，就会生成一个专门接收字幕文件的接口。你可以把它理解成工作流的大门，字幕文件必须从这个门进来，才能被后续流程处理。
 返回后看到的是这种状态，点击下方的按钮开始监听。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6e8473dd3bef8c8b6e1c4708475d02ff.png>
+![](img/zhuanqian_6e8473dd3bef8c8b6e1c4708475d02ff.png)
 按钮变为【Waiting for trigger event】，它的含义是：“文件我准备好了，就等着你传送过来。”
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_04910e727c4ece8640ddf84888351b26.png>
+![](img/zhuanqian_04910e727c4ece8640ddf84888351b26.png)
 这时打开你的编辑器，把我提供的 HTML 文件调出来。什么？你还不知道我给了文件？
 往回翻！在最前面的部分，我已经把文件放出。
 右键点击该文件，选择【打开方式】。有编辑器的用编辑器，没有的用记事本，修改红框中的地址。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_737504007b5be75980fbc17e1d792409.png>
+![](img/zhuanqian_737504007b5be75980fbc17e1d792409.png)
 将它替换成刚才工作流第一个节点 webhook 里的那段链接。
 务必留意：工作流里所有节点都可以双击打开进行查看和编辑。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_21bbe1601d2aeb1e20002ecea341e48c.png>
+![](img/zhuanqian_21bbe1601d2aeb1e20002ecea341e48c.png)
 然后在浏览器里打开 HTML 页面，选中你的字幕文件，点击上传。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5a884d90caf17c9fe7cdfb6904a3b2c8.png>
+![](img/zhuanqian_5a884d90caf17c9fe7cdfb6904a3b2c8.png)
 接下来，令人欣喜的画面出现了！工作流有了反应：右下角浮出提示，第一节点边框变绿并出现对勾，表示文件接收成功。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_50386e14907339b19ac59d18920ca24a.png>
+![](img/zhuanqian_50386e14907339b19ac59d18920ca24a.png)
 双击打开 webhook 节点，右侧能清楚看到刚刚上传的文件信息。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cbdf92e35d34bb88311ee5103665de05.png>
+![](img/zhuanqian_cbdf92e35d34bb88311ee5103665de05.png)
 这份数据既是当前节点的终点输出，同时也是下一节点的起始输入。
 到这一步，工作流的第一环节已经搞定——字幕文件成功上传！
 ## 二、把二进制文件转为文本
 文件已经到手，下面开始真正意义上的处理。
 webhook 接收文件的默认形式是二进制，所以本环节的任务就是把它转换成纯文本，让后续 AI 能够正常读取和优化。
 点击 webhook 旁边的加号，在右侧面板搜索【code】，选择第一个 code 节点。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_90d013914d3e0322d25ddbe3c9bee4ce.png>
+![](img/zhuanqian_90d013914d3e0322d25ddbe3c9bee4ce.png)
 进来之后，你会看到三个区域，从上到下依次是 INPUT、Code 和 OUTPUT。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c11b98052bccb027d09009839cf1fd9c.png>
+![](img/zhuanqian_c11b98052bccb027d09009839cf1fd9c.png)
 前面说过，出现在 INPUT 里的数据文件，正是上一个节点传过来的那份二进制字幕。
 我们要在 Code 区域里写脚本，把它转成文本。OUTPUT 区域不用管，脚本正确跑完，结果就会自动展示在那里。
 所以重点放在中间的 Code 区域。
@@ -127,7 +127,7 @@ Code 区域需要配置两个东西，mode 保持默认即可，它决定脚本�
 第一项 Run Once for All ltems：整体只运行一次。
 第二项 Run Once for Each ltem：输入项有多少条，就执行多少次。
 我们的 INPUT 只有一个文件，所以选第一项。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_145a5f5a5038435402821e5873d1fc85.png>
+![](img/zhuanqian_145a5f5a5038435402821e5873d1fc85.png)
 脚本内容：
 return (async function () {
 const itemIndex = 0;
@@ -147,30 +147,30 @@ content: buffer.toString('utf8'),
 })();
 把原有的代码删掉，换上这段。
 运行方式：点击【Execute step】按钮执行。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5e0a65dc4a903530c73098e52713a37d.png>
+![](img/zhuanqian_5e0a65dc4a903530c73098e52713a37d.png)
 一切正常的话，OUTPUT 区域会出现类似下方的文本信息，同时右下角也会提示执行成功。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_746d8c52762f216668c51fb1e19a1f5d.png>
+![](img/zhuanqian_746d8c52762f216668c51fb1e19a1f5d.png)
 到这里，第二个环节完成——二进制文件成功转成了文本文件。
 ## 三、调用 AI 处理字幕
 点击左上角返回画布，前两个节点已经变绿。现在开始配置 AI 请求。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_31fa19ef69ba1d4d913bdc469e47afdd.png>
+![](img/zhuanqian_31fa19ef69ba1d4d913bdc469e47afdd.png)
 AI 的选型路径很多。如果你的显卡在 RTX 3060 及以上，可以考虑本地部署模型作为处理接口。这个方向涉及的东西不少，本期先不展开，需要的人多的话，后续专门写一篇。
 另一种就是在线 API 方案。追求上限，GPT 和 Claude 效果更好；考虑到成本和性价比，我选了阿里的【通义千问】。
 获取 API key 入口：大模型服务平台百炼控制台
 密钥拿到手之后，下面正式配置。因为要发送请求给大模型，所以第三个节点我们使用 HTTP Request。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_de77b0d0de1975ca0690586c50114132.png>
+![](img/zhuanqian_de77b0d0de1975ca0690586c50114132.png)
 进入节点后，总共要改四个地方：
 1. 请求方式：依旧 POST。原因很简单，要发送的数据量非常大，GET 那个“小背包”根本扛不动。
 2. 请求地址：这就是大模型服务的调用地址。想让 AI 帮你干活，总得先找到它“住”在哪里。
 3. 头部信息：相当于你的身份凭证。系统看到你在有效额度内，才会响应你的请求，否则不予理会。
 4. 参数：这里存放字幕内容和提示词。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2dd2135b0b5ac7cbd75c4074adb7a0e2.png>
+![](img/zhuanqian_2dd2135b0b5ac7cbd75c4074adb7a0e2.png)
 关于前两项和请求头的设置，参考下面的截图：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_62a6af49fa40836b9280cd0e018a215b.png>
+![](img/zhuanqian_62a6af49fa40836b9280cd0e018a215b.png)
 请求地址：https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions
 图中的黄色区域，填入百炼控制台获取的 api key。
 send body 参考下图格式：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cfdb6102a6bc040184c47ea2499eb52d.png>
+![](img/zhuanqian_cfdb6102a6bc040184c47ea2499eb52d.png)
 JSON 内容：
 {
 "model": "qwen-turbo",
@@ -201,19 +201,19 @@ JSON 内容：
 }
 最后再强调一次：编辑 content 字段时，里面的提示词必须保持单行，绝不要手动换行，不然脚本会直接报错。
 配置完成后，点击【Execute step】按钮把请求发给 AI。稍等几秒，清洗完毕的字幕就会返回到工作流中。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5da8420184597d1e5a7bc2fe537ce48b.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6a9ed4033d78e899a294b554b2d25c89.png>
+![](img/zhuanqian_5da8420184597d1e5a7bc2fe537ce48b.png)
+![](img/zhuanqian_6a9ed4033d78e899a294b554b2d25c89.png)
 到这一步，字幕的清洗工作就算是完成了。那些敏感词、违禁词、口头脏话之类的内容，都已经被模型替换掉了。
 如果出来的效果还不够理想，直接回头改一下提示词就行，多试几次就能调到你满意的版本。
 好，到这里离一个可用的完整工作流就只剩最后一步了。
 ### 四、把AI返回的文本字幕导出为.srt文件
 目前AI给我们的是纯文本字幕，但剪映里能直接用的必须是.srt格式，所以需要再做一次格式转换。
 先点左上角返回，回到第三个模块的右侧加号，再新建一个【code】模块。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ee670bd0c59e1687fd68eb3f86b326b0.png>
+![](img/zhuanqian_ee670bd0c59e1687fd68eb3f86b326b0.png)
 这个模块里主要调整两处配置：
 第一处是运行模式，默认模式不行，要改成 Run Once for Each Item。原因是AI返回的结果是一个数组，哪怕里面只有一条字幕，也必须用这个模式处理，这样以后多条字幕也能无缝兼容。
 第二处是把文本字幕转成二进制.srt字幕的核心代码逻辑。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0cd7aa2015b9b6dae19e26519ae2363b.png>
+![](img/zhuanqian_0cd7aa2015b9b6dae19e26519ae2363b.png)
 代码：
 const content = $json["choices"]?.[0]?.["message"]?.["content"];
 if (!content || content.trim() === "") {
@@ -232,7 +232,7 @@ fileName: 'ai_output.srt',
 }
 };
 设置完成后点一下【Execute step】执行当前步骤，很快右侧的OUTPUT区就会生成一个二进制字幕文件，点击【download】即可把经过AI优化过后的.srt字幕下载到本地。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f6cb47e683c87ad626b182e37a4837e5.png>
+![](img/zhuanqian_f6cb47e683c87ad626b182e37a4837e5.png)
 至此，整个工作流的搭建就全部结束了。
 下载好的字幕文件直接拖进剪映即可，省去了手动逐字排查修改的麻烦。
 最后也说一句，如果这篇文章反响不错，我后续可以考虑做一个在线网站把这个工具封装好给大家用，就不用每个人都自己搭工作流了。

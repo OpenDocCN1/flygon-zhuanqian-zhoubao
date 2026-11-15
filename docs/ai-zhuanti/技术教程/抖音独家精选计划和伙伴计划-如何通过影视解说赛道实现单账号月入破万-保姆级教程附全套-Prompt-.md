@@ -184,7 +184,7 @@ https://peiyinshenqi.com?rr=L8mjOpANwk
 电脑端：
 https://douge.com/index?from=3IrYV3
 手机端：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2bb9def703b2006609d71e92d4e755f6_20_0.png>
+![](img/zhuanqian_2bb9def703b2006609d71e92d4e755f6_20_0.png)
 逗哥配音—参数设置
 推荐用下面两个角色：
 云浩宇（影视模式），情绪选择—默认，情感强度—正常，语速1.0，语调0；逗俊楠，都用默认参数。
@@ -207,14 +207,14 @@ https://www.minimax.io/audio/
 前10条通常在1000-3000之间徘徊，也有直接冲到3千-1.7万的。10-20条时区间会抬到3000-1.7万。这一阶段出现爆款也不意外。
 20-60条的稳定期：
 20条以后，平均能稳定在3000-1.7万就属于正常线。偶尔会蹦出10-100万的意外。平均做到3-10万就算很优秀了，这时候偶尔会有30-200万+的爆发。操作建议是按15-20条为一个小周期复盘，如果长期卡在1.7万以下就换剧，破了1.7万就坚持更，等爆发。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2bb9def703b2006609d71e92d4e755f6_21_0.png>
+![](img/zhuanqian_2bb9def703b2006609d71e92d4e755f6_21_0.png)
 第七步：怎么赚钱
 抖音里影视解说的变现属于中等偏上，主要分两种身份。
 1. 进了独家计划的账号
 这类号会有额外精选视频的签约分成，万播单价大约在50-300元，高质量的高完播内容能做到500元/万播，还会拿到流量扶持，基础播放通常能到2万左右。
 一天后播放2万，单价一般在200-300元/万播；一天后10万，单价约100元/万播；一天后100万，单价约30元/万播；一天后1000万，单价约15元/万播。播放越高，单价越低。保持每月更新20条左右，月入1.2万基本稳住。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2bb9def703b2006609d71e92d4e755f6_23_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2bb9def703b2006609d71e92d4e755f6_23_1.png>
+![](img/zhuanqian_2bb9def703b2006609d71e92d4e755f6_23_0.png)
+![](img/zhuanqian_2bb9def703b2006609d71e92d4e755f6_23_1.png)
 2. 没进独家只有伙伴计划的账号
 没有签约奖励，万播单价大概10元左右，但流量盘子大。如果每月更新20条左右，单号收入一般在3000-8000元，矩阵操作就能破万。综合来看，有抖音独家的号收益更可观，重点做增量，避免选题同质化。
 第八步：独家怎么开

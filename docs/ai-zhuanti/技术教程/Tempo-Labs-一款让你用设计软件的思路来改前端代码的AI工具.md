@@ -5,13 +5,13 @@
 以前我们习惯用 blot 这类工具来一键搭骨架，现在可以给 Tempo Labs 一个机会。
 ## 1.1 它能做什么
 ### 1、可视化方式改代码
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6a932dd2e9280c370d5a1e827d6f2ed0.png>
+![](img/zhuanqian_6a932dd2e9280c370d5a1e827d6f2ed0.png)
 ### 2、定制化生成组件库
 ### 3、从零起步建项目，也能导入 Github 仓库
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_be2e93a48149f35f50cfa29877e26ddf.png>
+![](img/zhuanqian_be2e93a48149f35f50cfa29877e26ddf.png)
 ## 1.2 价格情况
 目前的免费额度体验起来已经很足够了。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e00ad158863f3395f1ac554dd885e297.png>
+![](img/zhuanqian_e00ad158863f3395f1ac554dd885e297.png)
 # 二、上手实测
 ## 2.1 这次用的提示词
 这次我借用了刘小排老师之前在 blot.new 上演示过的那个案例提示词，来对比一下 Tempo Labs 的表现。
@@ -28,43 +28,43 @@
 ```
 ## 2.2 如何创建项目
 先去 Tempo Labs 登录一下，账号是基于 Github 登录的，提前准备好 Github 账号就行。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8c9fea324cf103dc264ccb2744bcc6e2.png>
+![](img/zhuanqian_8c9fea324cf103dc264ccb2744bcc6e2.png)
 进入后有两个入口，一个是新建项目，一个是从 Github 导入。文章撰写时导入功能还没开放，这里就点 Generate New App 来新建。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_28f53b4ee61baf5ab76ec0e0de023d49.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e8cce8e7ef7d38228a53d8851ece2338.png>
+![](img/zhuanqian_28f53b4ee61baf5ab76ec0e0de023d49.png)
+![](img/zhuanqian_e8cce8e7ef7d38228a53d8851ece2338.png)
 敲回车，项目就开始生成了。
 ## 2.3 工作台长什么样
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e41f0d8c2cdf1d8938b24e4ab7c93b94.png>
+![](img/zhuanqian_e41f0d8c2cdf1d8938b24e4ab7c93b94.png)
 左侧面板是对话记录和任务执行进度；
 中间区域展示项目说明和自动生成的流程图；
 右侧就是实时生成的页面预览。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_339213583bedbe0166294ff6cea17abf.png>
+![](img/zhuanqian_339213583bedbe0166294ff6cea17abf.png)
 顶部有三个切换按钮，可以在 PRD 文档、设计稿、源码 三个视图之间自由切换。
 ## 2.3 线上预览效果
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8214d270a2678bbfaa00afff577eff16.png>
+![](img/zhuanqian_8214d270a2678bbfaa00afff577eff16.png)
 预览链接基于 Vite + React + TS 构建。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_83604652c9d7eb826de13a82bcd8182e.png>
+![](img/zhuanqian_83604652c9d7eb826de13a82bcd8182e.png)
 整体效果看着挺顺眼的。
 ## 2.4 一键推到 Github
 ‘
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_83579acdf484b1ca472019eef231b45c.png>
+![](img/zhuanqian_83579acdf484b1ca472019eef231b45c.png)
 我这边之前已经绑定过 Github，所以可以直接填写项目信息；如果是首次使用，会先引导你完成授权，步骤很简单，一直下一步就行。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_939029d140bf59638aa113ecea0b0fa0.png>
+![](img/zhuanqian_939029d140bf59638aa113ecea0b0fa0.png)
 给项目起个名字，我这里起名叫 fortune-telling，还能选择仓库是否公开，确认后点 Create 即可。
 随后到个人 Github 看看是否创建成功。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_465459a6273faf446d56e2e052a12183.png>
+![](img/zhuanqian_465459a6273faf446d56e2e052a12183.png)
 项目地址：GitHub - wudi-dot12/fortune-telling
 这样之后想用 Cursor、Windsurf 等本地 AI 工具继续改代码，直接从 Github 拉下来就行。
 ## 2.5 在线直接改页面
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cb9792060a973af3b31014990dfc1fd4.png>
+![](img/zhuanqian_cb9792060a973af3b31014990dfc1fd4.png)
 点选任意一个组件，右侧就会弹出编辑面板，可以直接调整属性。
 选中组件后，还能调用内置的 AI 助手来改，只要描述需求即可。
 我这里选中了导航栏，告诉 AI 我的修改想法
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_78e407742a2ffb336aca5c7a53d2751c.png>
+![](img/zhuanqian_78e407742a2ffb336aca5c7a53d2751c.png)
 等待片刻，优化就完成了。
 看起来就是按钮的圆角变大了。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_23ecf35b6ee0f153670d4a6fd904b1bd.png>
+![](img/zhuanqian_23ecf35b6ee0f153670d4a6fd904b1bd.png)
 每次改动完，对应修改了哪些文件和代码，都会在这里列出来，和本地用 git 看 diff 的感觉一模一样。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d421c90c6d692831a22391d35bc13fd3.png>
+![](img/zhuanqian_d421c90c6d692831a22391d35bc13fd3.png)
 填上本次提交的说明，点 Commit 再点 Push，就能把改动同步到 Github 远程仓库了。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d82863c7f32c7358a01fe11474cb0a23.png>
+![](img/zhuanqian_d82863c7f32c7358a01fe11474cb0a23.png)

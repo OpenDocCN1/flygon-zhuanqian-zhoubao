@@ -10,27 +10,27 @@
 ## 1. GPT 检索
 首选工具是 OpenAI 的 GPT。
 先用 3.5 版试问：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b93a7bb2b9e91ce814fe05e29a54c91f.png>
+![](img/zhuanqian_b93a7bb2b9e91ce814fe05e29a54c91f.png)
 它直接给出八条操作思路，算是及格。
 再用 4.0 版跑一遍：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_67b563ea2c811376e82c246ef38537db.png>
+![](img/zhuanqian_67b563ea2c811376e82c246ef38537db.png)
 有趣的是，有时 4.0 在知识类总结上反而没有 3.5 那么丰富。把这些点记下来，后续会用到。
 ## 2. 秘塔 AI 搜索
 网址：https://metaso.cn/
 该产品会抓取公开资料进行整合输出。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a3da86daaf45ea03395419f3416d9b80.png>
+![](img/zhuanqian_a3da86daaf45ea03395419f3416d9b80.png)
 落地细节偏少，先放一边。
 ## 3. Kimi Chat 检索
 网址：https://kimi.moonshot.cn
 国内免费的大模型，语料更贴合中文语感，我常把它当作辅助。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_776419e42860e181c7eddc5fb2fa9e7b.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c0eb8990c0a26bdde3f133cfaf8a85ac.png>
+![](img/zhuanqian_776419e42860e181c7eddc5fb2fa9e7b.png)
+![](img/zhuanqian_c0eb8990c0a26bdde3f133cfaf8a85ac.png)
 还算可以，先记录。
 ## 4. 天工 AI
 网址：https://www.tiangong.cn
 最近表现提升明显，兼具搜索和智能体对话两种能力。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2f0a72c85b1e381c8bdfd06e57faf946.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_97ef72941a731a771dacfc7c115653b4.png>
+![](img/zhuanqian_2f0a72c85b1e381c8bdfd06e57faf946.png)
+![](img/zhuanqian_97ef72941a731a771dacfc7c115653b4.png)
 到这里，我们已经能掌握多套思路和示例。
 掌握这些有什么意义？
 通过模型整理出洗稿的操作框架，我们就能把需求讲得更清楚，而不是只说“换语序换同义词”。心里知道怎么做，却表达不出来；学会了表达方式，就能把要求教给模型。
@@ -47,7 +47,7 @@
 # 二、构建并逐步优化指令
 第一步，用模型检索并归纳出上述八个方向。你可以继续探索，也可以用自己的经验原创一套方法论。核心是让模型掌握足够多的信息，避免让它去猜你想要的效果。
 先拿这些方向去实操一下。素材用 AI 随便生成一段关于 2024 年 AI 爆发的短文。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c7067e749e1c2fbfb8cf709e44ad85ba.png>
+![](img/zhuanqian_c7067e749e1c2fbfb8cf709e44ad85ba.png)
 整理后如下：2024 年迎来 AI 大爆发，AI 渗透到生活各处，从清晨智能闹钟、通勤智能交通、课堂 AI 助教，到医疗智能诊断、偏远地区医疗机器人、环境实时监测，应用广泛；同时也带来岗位替代、隐私等挑战，需要拥抱红利的同时保持警惕，共同打造更智能的未来。
 先用上面的方法论写一个基础指令测试效果。
 ## 第一版
@@ -102,40 +102,40 @@
 引导用户输入需要洗稿的文案
 ```
 在 Kimi Chat 上测试：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8d0dc3580430d2b3eb3072d7b17b2527.png>
+![](img/zhuanqian_8d0dc3580430d2b3eb3072d7b17b2527.png)
 返回结果：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2ec8cb918241b8425581f29d59b57c0e.png>
+![](img/zhuanqian_2ec8cb918241b8425581f29d59b57c0e.png)
 效果尚可。
 在天工 AI 上测试：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_aa548bf9a94f46a34acdeb9cfe6960c9.png>
+![](img/zhuanqian_aa548bf9a94f46a34acdeb9cfe6960c9.png)
 返回结果：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f7fd68bf5962e834c28fed89443fa824.png>
+![](img/zhuanqian_f7fd68bf5962e834c28fed89443fa824.png)
 也不错，这两款免费工具目前表现都很稳。
 再看 GPT 两个版本。
 3.5 版：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1d6c75b1b739a8e8a769c79736d2514b.png>
+![](img/zhuanqian_1d6c75b1b739a8e8a769c79736d2514b.png)
 结果发现几乎没变化。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_59ed7b5d0c129e0e088f29c6a2850528.png>
+![](img/zhuanqian_59ed7b5d0c129e0e088f29c6a2850528.png)
 完全一样，等于没洗。追加追问：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_576e628d8f72a592feda8afea5521edd.png>
+![](img/zhuanqian_576e628d8f72a592feda8afea5521edd.png)
 依旧不动。原因大概率是模型认为该操作不被允许，或者文本过长导致处理不到位。换 4.0 试试。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7918c829091064ce506dcaa573e68d5a.png>
+![](img/zhuanqian_7918c829091064ce506dcaa573e68d5a.png)
 洗稿后：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_40dfdd52c14cd9f4f7b3019bc9abd7cf.png>
+![](img/zhuanqian_40dfdd52c14cd9f4f7b3019bc9abd7cf.png)
 这回才算真正改写了，4.0 的效果更可靠。
 到此第一版指令完成，但远没结束。因为没有对语气做要求，输出风格会很飘。那能否指定语气？这又回到表达不清的问题。
 于是再次用之前的搜索思路去收集“写作语气”的清单。
 ## 第二版 增加语气控制
 ### 1. GPT 检索
 3.5 版：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_da638e74611e689551d0669b80cc3dff.png>
+![](img/zhuanqian_da638e74611e689551d0669b80cc3dff.png)
 4.0 版：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_669f6c78831725f80eda2ea70dd9c15b.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9f805aca22b9fb35f83fbd5e3753aac1.png>
+![](img/zhuanqian_669f6c78831725f80eda2ea70dd9c15b.png)
+![](img/zhuanqian_9f805aca22b9fb35f83fbd5e3753aac1.png)
 ### 2. Kimi Chat 检索
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b227bd686b9cedf90d81919f81a87b96.png>
+![](img/zhuanqian_b227bd686b9cedf90d81919f81a87b96.png)
 ### 3. 天工 AI 检索
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_124db76fe06aa99b38ef97ad4705adb4.png>
+![](img/zhuanqian_124db76fe06aa99b38ef97ad4705adb4.png)
 汇总后得到以下 11 种常用语气：
 1. 亲和语气：温暖亲切，与读者拉近距离。示例：原句“欢迎来到我们的家。” 改写“欢迎亲临我们的家园。”
 2. 专业语气：正式权威，体现行业素养。示例：原句“本产品通过了严格的质量检验。” 改写“我们的产品经过了一系列严格的质量检验，保证了其高品质。”
@@ -248,23 +248,23 @@
 ```
 这回直接做实测，用的还是刚才那段稿件
 Kimichat
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_be2a3bdaf897a581b8cf9349b331eaf0.png>
+![](img/zhuanqian_be2a3bdaf897a581b8cf9349b331eaf0.png)
 再让它加个口吻
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_47a9b56a6dd87e07bf37d1c14ebc7139.png>
+![](img/zhuanqian_47a9b56a6dd87e07bf37d1c14ebc7139.png)
 效果凑合，稍微有点幽默感
 接下来换天工
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e45e2c7acbbe1bfb7947233c605020a0.png>
+![](img/zhuanqian_e45e2c7acbbe1bfb7947233c605020a0.png)
 让它连内容带风格一起出
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e1a9d229a10d89ab7236f1b5b331242d.png>
+![](img/zhuanqian_e1a9d229a10d89ab7236f1b5b331242d.png)
 3.5版
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9abc9c038ea16a9e2a385532c3194e21.png>
+![](img/zhuanqian_9abc9c038ea16a9e2a385532c3194e21.png)
 要风格
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0fbf1cf22329d317a9e700fdffeb1b09.png>
+![](img/zhuanqian_0fbf1cf22329d317a9e700fdffeb1b09.png)
 果然没惊喜，3.5版几乎没动稿子，只是换了几处用词，直接升4.0
 4.0版
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8ea4f8147a0f15ac2f1228b073018425.png>
+![](img/zhuanqian_8ea4f8147a0f15ac2f1228b073018425.png)
 给风格
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3a123f60610762ff32605e83838ef197.png>
+![](img/zhuanqian_3a123f60610762ff32605e83838ef197.png)
 4.0确实要灵光得多。
 一圈跑完，结论是：4.0、免费的Kimi、天工，这几个用起来更顺手。
 但到这儿就结束了吗？不可能。
@@ -274,18 +274,18 @@ Kimichat
 所以下一步，我们专门对付这些问题。
 ## 第三步（锁定不能动的部分）
 先随便找段内容，让AI现场产出一篇测试稿。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_655407ec3a66c002a09bd9740aed54f5.png>
+![](img/zhuanqian_655407ec3a66c002a09bd9740aed54f5.png)
 比如，我请AI写一段关于阅读心得的短文，要求里面要有书名、有引用的名言，看看AI会怎么处理。
 先按上一轮的指令跑一轮
 先上Kimi
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_186cc3a7383f83a1695bfe8bb4e98174.png>
+![](img/zhuanqian_186cc3a7383f83a1695bfe8bb4e98174.png)
 可以看到，书名它给留住了，但用引号标出的名言全部被它重写。
 再上4.0
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5f1a26e374648789478cd32c894dfbbb.png>
+![](img/zhuanqian_5f1a26e374648789478cd32c894dfbbb.png)
 这次，被引号括起来的句子一个没改，4.0已经明白，引号中的语句不能随便动。
 只是改动的幅度还不够大，我嫌它太保守。
 最后上天工
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b533c2c00bc8398054a9035072db23fb.png>
+![](img/zhuanqian_b533c2c00bc8398054a9035072db23fb.png)
 它倒是把引号中的句子也改了，而且痕迹很重，不过单论能力，天工现在真的挺能打。
 那就把要求再写清楚，强制它别动引号中的任何字。
 把所有要提的条件全部打包进去。
@@ -505,12 +505,12 @@ Kimichat
 ```
 来试试看效果怎么样
 kimichat
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_dabd77cd60157427b406683cf270d93c.png>
+![](img/zhuanqian_dabd77cd60157427b406683cf270d93c.png)
 过了测试，没做改动
 因为GPT4.0版本本身就不做修改，所以这次就不拿它来对比了
 继续测
 天工AI
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d895979d7ca6fb1d22b2d7990164aa0d.png>
+![](img/zhuanqian_d895979d7ca6fb1d22b2d7990164aa0d.png)
 同样通过了，没改动
 以上就是基础文案的洗稿演示，还能再往上优化。
 那哆元主打的AI+自媒体方向，小红书的文案该怎么洗呢？
@@ -520,17 +520,17 @@ kimichat
 所以在原有提示词的基础上，需要把语气风格换成小红书体，再叠加一些小红书特有的要求。
 小红书的语气到底是什么样的呢？直接让AI来拆解一下。
 Kimichat
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cd030294823c20376562d94763c2baa1.png>
+![](img/zhuanqian_cd030294823c20376562d94763c2baa1.png)
 老规矩，先让它解释一下，再给实例
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9d97c0c9f6ba6c051c0ed6df7c1b8d91.png>
+![](img/zhuanqian_9d97c0c9f6ba6c051c0ed6df7c1b8d91.png)
 天工AI
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9bc1274767eb16d6de55a2328eddb191.png>
+![](img/zhuanqian_9bc1274767eb16d6de55a2328eddb191.png)
 继续
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4fae7e0b24b280ef114afe33261828c9.png>
+![](img/zhuanqian_4fae7e0b24b280ef114afe33261828c9.png)
 GPT4.0
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9c82a6fcbbb37daacca400381c21e1db.png>
+![](img/zhuanqian_9c82a6fcbbb37daacca400381c21e1db.png)
 继续
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_046432bbf1692eee1e7189df190814f5.png>
+![](img/zhuanqian_046432bbf1692eee1e7189df190814f5.png)
 可以，咱们做个小结
 1\. 真实分享：
 说明：用第一人称口吻，讲自己的真实经历和感受，让内容更可信更有说服力。
@@ -630,9 +630,9 @@ GPT4.0
 ```
 那我们来实操一下
 随便挑一篇笔记
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ca33854bbf8225df5130cd4e0200a131.png>
+![](img/zhuanqian_ca33854bbf8225df5130cd4e0200a131.png)
 然后用工具箱里的复制功能把原文复制过来
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9767e62de2215643f1d2ebf931885278.png>
+![](img/zhuanqian_9767e62de2215643f1d2ebf931885278.png)
 利用下班时间做自媒体，现在已经是w粉账号了，单篇报价破千。上个月接了几条商单，加起来创作时间不到一天，赚到的钱快赶上我一个月工资了，真的太值了。
 ·
 我本身性格偏内向，面对镜头就紧张说不出话。做图文博主不用露脸，也不用花太多时间做图，更不用反复剪辑。花两小时左右定稿润色，一篇笔记就成型了。视频报价虽高，但耗时是图文的好几倍，返工也麻烦。
@@ -653,18 +653,18 @@ GPT4.0
 ·
 从文字博主的冷启动到现在的柳暗花明，我很庆幸自己坚持了下来。
 Kimichat
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bd197b7cda72cbb14d21ff1df0ec423a.png>
+![](img/zhuanqian_bd197b7cda72cbb14d21ff1df0ec423a.png)
 给出语气后进行洗稿
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1e2321c3e0ff29db61f1a995dfcf87b6.png>
+![](img/zhuanqian_1e2321c3e0ff29db61f1a995dfcf87b6.png)
 还行，再来看看4.0
 4.0版本
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0313d58e81cc84eb0997aea196a0e383.png>
+![](img/zhuanqian_0313d58e81cc84eb0997aea196a0e383.png)
 提供语气后
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_38998fc6684dfdab742991c4998936a7.png>
+![](img/zhuanqian_38998fc6684dfdab742991c4998936a7.png)
 跟kimichat比起来，差别在于Kimichat在分割符的排版上稍弱，但影响不大。
 接着
 天工AI
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5f3592a3de6a133f226ba0a0b33371cc.png>
+![](img/zhuanqian_5f3592a3de6a133f226ba0a0b33371cc.png)
 天工的排版效果就不太理想了，不过洗稿用心程度是可以参考的，自己再手动调一下排版就行。
 好了，既然聊到排版，这里哆元就送一个能把分隔符排版做好的提示词，4.0版本效果更佳！
 ### 提示词参考
@@ -831,7 +831,7 @@ Kimichat
 6.将文案写长，但是不得改变原文的意思
 ```
 把上面这段文案直接拿去在 kimi 里跑一遍试试效果
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2a6ff5ad2a9b93b6b9afcc52bca9e910.png>
+![](img/zhuanqian_2a6ff5ad2a9b93b6b9afcc52bca9e910.png)
 ### 豆包提示词（强烈推荐）
 可以打开豆包的网页版或客户端来用：https://www.doubao.com
 顺带一提，你还能自己搭一个智能体
@@ -893,9 +893,9 @@ Kimichat
 4.看到文案后才能二创输出，不得自行输出
 ```
 我们先拿一篇文章来跑一下
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b0ffcc14065f688992ac4e4a3594d94d.png>
+![](img/zhuanqian_b0ffcc14065f688992ac4e4a3594d94d.png)
 再来试一篇
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b25aa32eff52e17fd0489a2420fb970f.png>
+![](img/zhuanqian_b25aa32eff52e17fd0489a2420fb970f.png)
 是不是很有人味、很灵动呢，我个人觉得挺奈斯的，这个味道对了。
 关于洗稿的小技巧就先讲到这里啦！希望这些方法能对你有点用。
 我是哆元，相当于哆啦A梦的异次元宝可袋，总能整点惊喜。

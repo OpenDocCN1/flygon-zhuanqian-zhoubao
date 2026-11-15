@@ -1,14 +1,14 @@
 # 1篇长文 = N张小红书爆款图？！Gemini 2.5 Pro 这效率，我跪了！
 先问一句：你有没有遇到过这种尴尬——公众号文章好不容易憋出来了，想同步到小红书，结果一看要重新做一套3:4的图，瞬间失去动力？我自己的小红书号，攒了快一万粉丝，可惜一直躺在角落里吃灰，不是不想发，是一想到做图就头皮发麻，干脆放弃了好几次二次分发。
 我也一度到处打听，有没有什么“一键搞定”的神器，结果问了一圈，答案是：没有。得了，靠人不如靠己。没想到，最新版的 Gemini 2.5 Pro Preview 05-06 居然真让我把这活儿给干成了。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bc0d04dfccaf630ae1fc19f8e31aaac8.png>
+![](img/zhuanqian_bc0d04dfccaf630ae1fc19f8e31aaac8.png)
 上面这张，是把黄叔那篇《2个月涨粉10000+，多篇文章阅读过万！黄叔是如何在AI浪潮中找到清晰方向的？》丢进去，用手账笔记风格提示词生成的，质感是不是一下子就出来了？
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_250ff151081961db6fa2c3e2c63d5684.png>
+![](img/zhuanqian_250ff151081961db6fa2c3e2c63d5684.png)
 这一组是温暖手绘与创意拼贴风，原文是《当所有人都在追风口，flomo却靠这三点赢得了真正用户》。说实话，这种风格放在温情向内容上，特别抓人。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3939ee41ce5797811a086aa328d5a1b5.png>
+![](img/zhuanqian_3939ee41ce5797811a086aa328d5a1b5.png)
 这张走的是花里胡哨（但好看）的极简几何路线，素材来自《微信读书MCP重磅突破！用Trae一键将积灰划线变成让人惊艳的精美知识库》。科技类内容配上它，现代感直接拉满。
 别急，这些提示词，一会儿全部放出来。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9302ced21da9bfa68ffd2bcddc98017c.png>
+![](img/zhuanqian_9302ced21da9bfa68ffd2bcddc98017c.png)
 效果给你看了，提示词也会给。但更关键的是，我会教你怎么用 AI 调出自己偏爱的风格。这样算下来，先点个关注，不亏吧？
 # AI产品黄叔公众号卡片
 # 01 提示词的结构，才是灵魂
@@ -43,20 +43,20 @@
 我还顺手做了好几套不同的风格模板，比如温暖手绘风、极简几何风之类的。篇幅有限，这里就不全贴了，文末会告诉你怎么拿完整版提示词。你的分享对我来说真的很重要，先谢过了！
 # 02 怎么用这套提示词系统
 这套卡片生成系统在 Gemini 2.5 Pro Preview 05-06 上表现最亮眼，某些方面甚至把 Claude 3.7 比下去了，尤其是审美这块，提升特别明显：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_65bb13e65e1ed18e49024d796945ff26.png>
+![](img/zhuanqian_65bb13e65e1ed18e49024d796945ff26.png)
 那具体怎么操作？两条路：
 ## 方案一：直接用 Gemini 官网
 1\. 打开 https://gemini.google.com/
 2\. 备好🪜环境和 Google 账号
 3\. 把提示词加上你的长文内容一起贴进去
 4\. 等着出结果就行
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_95fbe2a374f83850c8144d514a091d87.png>
+![](img/zhuanqian_95fbe2a374f83850c8144d514a091d87.png)
 ## 方案二：Trae 海外版（我更推荐）
 1.  打开 Trae 海外版
 1.  填入提示词 + 要转换的长文
 1.  选 Gemini 2.5 Pro
 1.  跑起来
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c39ea3051ec1558441908812602eca39.png>
+![](img/zhuanqian_c39ea3051ec1558441908812602eca39.png)
 进阶玩法：你可以把这套提示词固化成一个智能体，以后调试、生成都会省事很多。具体操作可以翻翻我之前那篇《Trae这次更新太炸了：上下文、MCP、智能体全上线，AI IDE全面觉醒！》。
 如果生成的时候提示内容太长，别慌，点一下“继续”就行。
 ## 生成完想改怎么办？
@@ -67,24 +67,24 @@ AI 偶尔会出点小错，没关系，改起来很简单：
 1.  找到要改的文字直接改
 1.  切回 Preview 标签，页面自动刷新
 比如说，我想把“黄叔的AI破浪记”改成“黄叔干巴爹”：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b97db211ba34310ebe7f658fc3114df1.png>
+![](img/zhuanqian_b97db211ba34310ebe7f658fc3114df1.png)
 先点 Code，然后搜“黄叔的AI破浪记”，改掉就完事：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_198fd9fdf3d9aa105c66e0a874c582db.png>
+![](img/zhuanqian_198fd9fdf3d9aa105c66e0a874c582db.png)
 切回 Preview 看效果，自动刷新。学废没？学废了评论区打一句“黄叔干巴爹”，我看看谁敢：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_30ff46c2a4ee9b378b68e2d8ec713995.png>
+![](img/zhuanqian_30ff46c2a4ee9b378b68e2d8ec713995.png)
 在 Trae 里改也一样：打开对应 HTML 文件，编辑区搜索替换，保存再刷新网页即可。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b7dd8bf9bc4fce8ef1672826f883003e.png>
+![](img/zhuanqian_b7dd8bf9bc4fce8ef1672826f883003e.png)
 # 03 怎么用 AI 调出你喜欢的风格
 你可能会好奇：这么复杂的提示词，是黄叔一个字一个字手敲的吗？
 真不是。 这版提示词的初始版本出自好友@向阳乔木，我拿到手之后丢给 Gemini 2.5 Pro 来回迭代优化。这才是 AI 时代该有的干活方式——人来定方向，AI 负责跑腿。
 举个例子：某版提示词生成的卡片里带一些占位符，我就让 Gemini 把那些占位符清掉，顺便重新生成一版完整的提示词：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e0773e93ee256249b23776c3d9399cd6.png>
+![](img/zhuanqian_e0773e93ee256249b23776c3d9399cd6.png)
 觉得风格选项还不够多？那就让它基于现有提示词，再帮我想几个新方案：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_17f535b90c2e36e0f79ae66afda80c85.png>
+![](img/zhuanqian_17f535b90c2e36e0f79ae66afda80c85.png)
 它会列几个方向出来，我挑一个顺眼的，然后让它把完整提示词写出来：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a6e4a30f0937a0263121b9d71d79c076.png>
+![](img/zhuanqian_a6e4a30f0937a0263121b9d71d79c076.png)
 接下来我只要丢给它指令，它自己就哗哗生成了：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b555dd7743756d03dee4e2633b75954a.png>
+![](img/zhuanqian_b555dd7743756d03dee4e2633b75954a.png)
 是不是挺省心？这就是提示词工程的魔力——根本不用从零开始，你只需要学会“指挥”。
 我有时候觉得，人类现在就像是 AI 的首席试飞员。以前 AI 还弱小，人类是主角，所有细节都得亲自把关。现在 AI 变强了，机器扛起了大部分工作，人退到幕后，但方向盘依然在自己手里。审美这东西，AI 替不了你。它只是加速器，帮你跑得更快而已。
 眼下我们正站在 Copilot 和 Agent 的分界线上。什么叫我们最后的堡垒？就是主观能动性。等哪天 AI 全面接管，你想亲手操盘都没机会了——趁现在还能主导，好好珍惜吧。
@@ -92,12 +92,12 @@ AI 偶尔会出点小错，没关系，改起来很简单：
 这套系统虽然强，但也不是没有毛病：
 ## 1\. 出图效果偶尔翻车
 有时候样式会跑偏，比如下面这张就太花了，贴纸都快把文字盖住了：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_233cbb5fb64a2fd96de52d7afe7c6813.png>
+![](img/zhuanqian_233cbb5fb64a2fd96de52d7afe7c6813.png)
 还有的时候，单张卡片里文字塞太满，超出长度限制：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_db4ba19ba129d48c713b7e7a3fad5b4d.png>
+![](img/zhuanqian_db4ba19ba129d48c713b7e7a3fad5b4d.png)
 ## 2\. 下载问题
 更头疼的是，下载下来的卡片跟 HTML 里看到的不太一样。我试了不少办法，目前还没找到特别完美的解法：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d68177c980c3e99756b9ca48d9c1a8ed.png>
+![](img/zhuanqian_d68177c980c3e99756b9ca48d9c1a8ed.png)
 现在基本靠截图先顶着，后面有方案了再优化。你要是知道更好的招，欢迎来告诉我！
 # 尾声：提示词即产品
 模型越来越强大之后，我们其实已经在悄悄迈进“提示词即产品”的阶段。提示词就是你表达需求的方式，模型一步到位帮你搞定。

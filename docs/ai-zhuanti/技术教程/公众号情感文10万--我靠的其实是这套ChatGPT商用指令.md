@@ -57,13 +57,13 @@ BRTR原则即背景B、角色R、任务T、要求R，四要素灵活组合，操
 指令的核心是分步走：先给主题，再出大纲，最后写文。
 我们来看它跑起来的效果。
 只要丢一个简单主题过去，ChatGPT就能自动生成一份包含人物、场景、冲突、结构的大纲。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9a894b0e34f59867041cc62ac3d9d654.png>
+![](img/zhuanqian_9a894b0e34f59867041cc62ac3d9d654.png)
 先出大纲的好处是，能大幅降低AI“黑盒思考”跑偏的风险。
 如果直接写全文，后期发现剧情跑偏再改，成本高，还容易触发记忆上限。
 为让故事更接地气，<写作技巧>里特意加了约束“故事要来源于真实生活的冲突，有合理性但又非常吸引人。”
 大纲确认没问题后，再让它开写。
 推荐用“请按情感故事创作的【任务要求】和已确认的故事大纲，输出故事XX部分XX字”这样的指令，能持续提醒模型不跑偏。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2cfe6e5b8d686efb1d6b587c17c00685.png>
+![](img/zhuanqian_2cfe6e5b8d686efb1d6b587c17c00685.png)
 <内容结构>把故事拆成开头、发展、顶峰、结尾四个模块，强制模型按套路走。
 同时把文章拆成四段分次输出，避免一次性生成字数不达标的问题。
 每一段确认OK后再继续下一段。
@@ -78,9 +78,9 @@ BRTR原则即背景B、角色R、任务T、要求R，四要素灵活组合，操
 要求：大纲需包含故事人物、故事场景、冲突背景、内容结构即故事开头、故事发展、故事顶峰、故事结尾，并给出明确的剧情细节。
 你理解任务后只需要回复明白，等待我下一步任务指令。
 拿《我照顾了女儿一家19年，女儿让我搬走，女婿的话让我老泪纵横》举例，ChatGPT会很快提炼出对应大纲。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8cca98af76ee5b0076868bcb9b6c4d1a.png>
+![](img/zhuanqian_8cca98af76ee5b0076868bcb9b6c4d1a.png)
 接着下指令让它进行仿写大纲，对人物、地点、细节、主线剧情都做改动。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b40c9baa7febd788e9c39fb5f06cad1b.png>
+![](img/zhuanqian_b40c9baa7febd788e9c39fb5f06cad1b.png)
 大纲优化没问题后，另开一个会话，发送“情感故事作家”指令，再把故事大纲丢进去开写。
 注意：因为跳过了主题提交这一步，贴大纲时开头要加上“故事大纲”四个字，模型才能正确识别。
 # 四、最后的话

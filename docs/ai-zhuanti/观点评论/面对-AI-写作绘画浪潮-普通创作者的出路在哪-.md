@@ -2,7 +2,7 @@
 ## 《 AI 写作 AI 绘画之后，我该何去何从？》
 作者： 龙哥
 日期：2023-04-12
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_62f70e47e5eab4a7a6468dbc0dc7402d.png>
+![](img/zhuanqian_62f70e47e5eab4a7a6468dbc0dc7402d.png)
 “生活里难题层出不穷，能不慌不忙地接招处理，才算真正沉稳，嗨，我是龙哥。”
 ChatGPT、Midjourney、Stable Diffusion 现在是不是正处在风口上？只要下个指令、描述个需求，几分钟就能扔出一篇像模像样的稿子，一堆看起来很专业的原创新图，是吧？
 于是焦虑开始蔓延，尤其是做数位绘画和写文案的朋友，因为这两类活儿正好被这些 AI 工具对上了号，是不是？难免会冒出一种错觉：我的岗位好像要被架空了。
@@ -19,7 +19,7 @@ ChatGPT、Midjourney、Stable Diffusion 现在是不是正处在风口上？只�
 等到老板、客户、整个链路的人都熟练了，大家才会把产出预期调回正常水平。
 举个例子，以前每周要交 5 张图，学会 AI 后你一天就能把一周的量打完，理论上可以划水 4 天。可一旦人人都学会了，上游下游对价格和效率都有数了，你的指标可能就变成一周 500 张，最后又得照常 5 天工时。
 明白了吧，饭碗其实丢不了。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ece245719281ec74cece903341873adb.png>
+![](img/zhuanqian_ece245719281ec74cece903341873adb.png)
 当然，我们还可以往前推演一步市场的变化。
 等到普及开来，生产力被放大后会怎样？
 供给过剩，内容内卷，
@@ -28,7 +28,7 @@ ChatGPT、Midjourney、Stable Diffusion 现在是不是正处在风口上？只�
 第一步，尽快搞懂、学会用它，实现降本提效。
 第二步，把它灵活融入工作，在现有的竞争环境里继续脱颖而出。
 所以社会真正缺的是学习快、创新强、能把事做成的人，这类人才稀缺，而稀缺就意味着有议价权。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e23e82b157dbe47be446256e0e6aaa74.png>
+![](img/zhuanqian_e23e82b157dbe47be446256e0e6aaa74.png)
 说到这儿，想必大家心里都有数了：AI 必须学，而且要活学活用，把它当成趁手的工具来用，省下时间精力去强化自己的核心竞争力。
 什么是核心竞争力？
 就是别人短期内复制不了的能力。

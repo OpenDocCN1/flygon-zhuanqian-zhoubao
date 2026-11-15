@@ -5,10 +5,10 @@ AI这股热潮已经烧了整整一年，可很多人心里依然有个疑问：
 再说第二层：AI本质上是一个放大杠杆。它不会从零赋予你超能力，但会把你身上原本就有的优势成倍放大。你擅长文字，它可以帮你批量生产内容；你擅长视觉，它可以帮你快速生成素材。反过来，如果你自己方向不明，它同样会放大你的盲目和冲动。因此，核心不在于追逐工具本身，而在于找到你最值得被放大的那个点。
 接着是第三层：普通人借助AI做个体创业、赚快钱，完全走得通。这里的“快钱”不是天上掉馅饼，而是通过AI把启动成本压到极低，用最小的试错代价去跑通一个细分需求，让属于自己的小生意快速产生现金流。
 所以，当我们现在说“搞AI”的时候，重点从来不是追逐几个热门词汇，而是理解底层逻辑、善用放大效应、迅速落地行动。机会从来没有消失，它只是更偏爱那些看懂本质、选对角度、说干就干的人。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1a557e0b4c17cfe9e7d3752b912fdda5.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9be81f2bd6614f79c3c08a2cca198fee.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6f1866db025550073edb1e5368073e59.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ffc64ff28b3fe5ad9840187c074a64ef.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f6f3581c3bb22dec2c043b9c2de37ca2.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4dae412bac024ade29312a43e6ab4f22.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_21de372a77ea1f441c613f7316831ae1.png>
+![](img/zhuanqian_1a557e0b4c17cfe9e7d3752b912fdda5.png)
+![](img/zhuanqian_9be81f2bd6614f79c3c08a2cca198fee.png)
+![](img/zhuanqian_6f1866db025550073edb1e5368073e59.png)
+![](img/zhuanqian_ffc64ff28b3fe5ad9840187c074a64ef.png)
+![](img/zhuanqian_f6f3581c3bb22dec2c043b9c2de37ca2.png)
+![](img/zhuanqian_4dae412bac024ade29312a43e6ab4f22.png)
+![](img/zhuanqian_21de372a77ea1f441c613f7316831ae1.png)

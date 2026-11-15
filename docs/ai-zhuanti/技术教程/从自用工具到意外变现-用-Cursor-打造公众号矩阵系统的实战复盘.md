@@ -17,12 +17,12 @@
 *   任务管理：通过统一的发布任务列表，实现对账号内容发布的集中调度。
 ## 整体关系
 *   浏览器 - 账号 - 发布任务列表：浏览器是账号的运行环境，账号负责执行任务列表里的发布动作，完成内容生成与投放的闭环。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6784578c543b84d975a70ae52724a372.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_731dce53c5f06084c6fc948e991cc050.png>
+![](img/zhuanqian_6784578c543b84d975a70ae52724a372.png)
+![](img/zhuanqian_731dce53c5f06084c6fc948e991cc050.png)
 可视化界面如下，先对所有指纹浏览器进行统一管理
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_630b051f0b3577487a4c30687173bebc.png>
+![](img/zhuanqian_630b051f0b3577487a4c30687173bebc.png)
 新增账号时维护账号与浏览器的对应关系，并补充首尾段、分组标签等字段，用于后续内容拼接和逻辑判断。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_880c03b0d5da55a3ac5b1a04036aa4ae.png>
+![](img/zhuanqian_880c03b0d5da55a3ac5b1a04036aa4ae.png)
 ## 文章批量生成
 在 SEO 运营里，批量生成文章是实现长尾关键词覆盖和效率提升的关键。借助系统化的词库管理和 AI 生成能力，可以快速产出海量素材，为矩阵账号提供持续弹药。
 由于目标是 SEO，批量生成逻辑并不复杂，本质是长尾关键词 + AI 内容生成。发布时再按账号维度自动补全首尾段。AI 生成的要求不必太高，核心是关键词命中，比如让 AI 输出关键词密度更高的段落，配合首尾段引流即可。
@@ -45,13 +45,13 @@ SEO 文章批量生成流程
 *   词库表：集中维护所有长尾关键词及其属性。
 *   关联表：建立词库与关键词的映射关系，支持分组和规则绑定。
 E-R 关系图：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_921e814410c6a65fc7edd44057c2e994.png>
+![](img/zhuanqian_921e814410c6a65fc7edd44057c2e994.png)
 落地时先维护一个完整的词库表，记录所有长尾关键词及其信息，再通过关联表实现分组和规则绑定，保证生产流程灵活高效。
 可视化如下：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_597c0916c0705fa96290f697970f93d8.png>
+![](img/zhuanqian_597c0916c0705fa96290f697970f93d8.png)
 可配置的批量生成规则：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_881b0f71acdb7c30e282e38733698bf8.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b46142e291e866dc546cd6116ddf183c.png>
+![](img/zhuanqian_881b0f71acdb7c30e282e38733698bf8.png)
+![](img/zhuanqian_b46142e291e866dc546cd6116ddf183c.png)
 ## 任务分配机制
 文章生成后，如何公平且高效地分配到各账号，是系统的一个重点。为实现账号资源均衡与任务调度稳定，我采用了循环双队列方案，并加入持久化保障，确保在大规模账号场景下依然可靠。
 #### 核心逻辑：循环双队列的设计
@@ -75,7 +75,7 @@ E-R 关系图：
 1.  队列状态存储：每个赛道的循环队列以 Redis List 存储，外部队列以 Sorted Set 存储赛道 ID 及优先级。
 2.  任务分配更新：每次分配完成后，守护线程实时同步更新后的队列状态到 Redis。
 v1 版本建议先用 o1 或 o1 pro mode 生成骨架，再基于设计迭代代码，这样完成度会更高。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_178087e504b4c5a8ac4068aac5f32b68.png>
+![](img/zhuanqian_178087e504b4c5a8ac4068aac5f32b68.png)
 核心逻辑代码示例
 ```
 import redis
@@ -153,12 +153,12 @@ queue.remove_account("track_1", "account_b")
 print("移除账号后列表:", queue.get_all_accounts("track_1"))
 ```
 发布或自动化分配入口如下，业务流程以 batch 代码为主，参考上文设计。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5aae52d5f9e6c4c3d3f9b1c287a75512.png>
+![](img/zhuanqian_5aae52d5f9e6c4c3d3f9b1c287a75512.png)
 ## 过期提醒
 公众号后台机制会导致账号一段时间后过期，如何在发布过程中判断是否需要重新登录并及时通知？
 我们基于飞书 Webhook 和扫码检测实现了自动化过期提醒。
 例如下方可以看到 login_form 元素，可基于该元素判断是否存在二维码信息。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_34395e8ddef25c18dd1780c377547300.png>
+![](img/zhuanqian_34395e8ddef25c18dd1780c377547300.png)
 ```
 async def check_login_status(self) -> bool:
 try:
@@ -180,7 +180,7 @@ return False
 你不需要手动检查账号状态，系统一旦发现某个账号登录失效，就会自动通过飞书 Webhook 向指定的飞书群或具体用户推送提醒。推送里会写清楚过期账号的名称、所属的赛道ID，以及用来扫码恢复登录的链接。例如，你收到的可能是一条类似这样的消息：「提醒：账号XXX，赛道YYY，登录状态已过期，请扫描二维码重新登录。」
 如果你希望通知方式更灵活一些，还可以接入微信推送，通过企业微信或者个人微信接收提醒，随时随地掌握账号动态。
 团队里如果安排了专人负责账号运营，操作还能更简单：把登录二维码取出来，交给对应的人，让对方扫码登录就行。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5d65833d834ac8c2564d3adf3723377f.png> <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ad5147a16710041801055cd7d174d516.png>
+![](img/zhuanqian_5d65833d834ac8c2564d3adf3723377f.png) ![](img/zhuanqian_ad5147a16710041801055cd7d174d516.png)
 ## 批量发布：从手动到全自动
 到了批量发布环节，靠人工逐篇操作是行不通的。更高效的方法是通过调度指纹浏览器，再配合 Playwright、Selenium、DrissionPage 这类自动化工具，模拟真实用户操作，把账号登录、文章发布等流程全部打通。
 在这些工具中，Playwright 的 Codegen 功能特别值得一说。它最大的好处是降低门槛：你只需要手动操作一遍，Codegen 就会自动记录整个流程并生成对应的脚本，既省去了手动写脚本的成本，也保证了整个流程的稳定，而且这套脚本可以反复使用。

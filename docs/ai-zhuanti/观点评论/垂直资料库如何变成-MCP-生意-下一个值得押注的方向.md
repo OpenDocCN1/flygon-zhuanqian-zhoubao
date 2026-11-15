@@ -1,7 +1,7 @@
 # 垂直资料库如何变成 MCP 生意：下一个值得押注的方向
 260909 | 赚钱·亦忙
 联系
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_67b2e63b83cf16407ad4d7856331f8ba_0_0.png>
+![](img/zhuanqian_67b2e63b83cf16407ad4d7856331f8ba_0_0.png)
 > 先给判断：这件事适合手里握有特定领域资料沉淀，或擅长把松散信息梳理成标准结构的人；如果手头没有积累，只是临时赶风口，不建议入场。
 > 最值得看的是文末：8 个可以产品化的 MCP 入口方向。已经有头部企业信息平台跑通了商业化 MCP 的先例。
 > 避坑提醒：上线收费之前，先把资料出处、筛选口径、更新机制交代清楚。查询要花多少钱、持续更新要花多少精力，如果算不明白，调用越频繁，亏损越严重。
@@ -48,5 +48,5 @@
 如果你想持续看现在正在赚到钱的新玩法，也愿意和一批动手能力很强的人一起实操，欢迎来我的核心社群。这里不聊虚的，只做赚钱链路拆解和用 AI 提效的方法，内部积累了 1000+ 个验证过的做项目案例。
 - 认可价值并准备好动手，就加个人号
 备注：实操·上车
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_67b2e63b83cf16407ad4d7856331f8ba_5_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_67b2e63b83cf16407ad4d7856331f8ba_5_1.png>
+![](img/zhuanqian_67b2e63b83cf16407ad4d7856331f8ba_5_0.png)
+![](img/zhuanqian_67b2e63b83cf16407ad4d7856331f8ba_5_1.png)

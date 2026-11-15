@@ -18,92 +18,92 @@
 没有数据就别谈分析。下面三招，门槛都不高，复杂的代码工具直接跳过——越麻烦越没人愿意碰。如果你有更好用的，也可以直接用，跳到分析部分就行。
 ### 1、Kimi总结助手插件，适合评论不多的场景
 这是浏览器拓展商店里的一个小工具，Chrome支持。别小看它，玩法很多，以后我再专门展开聊。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a6a61f98500e9dabdeda4bd7e09ca004.png>
+![](img/zhuanqian_a6a61f98500e9dabdeda4bd7e09ca004.png)
 在浏览器里找到扩展程序入口
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c348d5494674eb50df200241fa8219d3.png>
+![](img/zhuanqian_c348d5494674eb50df200241fa8219d3.png)
 点进扩展程序管理页
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b3528ac2dd9725359b830159c849462f.png>
+![](img/zhuanqian_b3528ac2dd9725359b830159c849462f.png)
 把开发者模式打开，再进应用商店。谷歌浏览器得先搞定网络环境，搜“kimi网页”就行
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9ba0c3fd6632ba938d300736d9013271.png>
+![](img/zhuanqian_9ba0c3fd6632ba938d300736d9013271.png)
 选好之后点添加
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_68b75a58f90ea89b005ebd558810db7a.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_315c0905d1925d80aa457976df43e4fc.png>
+![](img/zhuanqian_68b75a58f90ea89b005ebd558810db7a.png)
+![](img/zhuanqian_315c0905d1925d80aa457976df43e4fc.png)
 装完就是可用状态了
 要用的时候，再去扩展程序那边
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_46b0c6e4abd4177bd562e7bd22a63f6f.png>
+![](img/zhuanqian_46b0c6e4abd4177bd562e7bd22a63f6f.png)
 点一下这个插件图标
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6bb8891941def8599b1e393cc6082fc5.png>
+![](img/zhuanqian_6bb8891941def8599b1e393cc6082fc5.png)
 头一回用要用kimi账号登录，登一下就完事
 点击之后它会读取页面，不过这次的重点是，咱们能提前在插件里塞好提示词
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e987f5d6e814803b365fe00666fe4203.png>
+![](img/zhuanqian_e987f5d6e814803b365fe00666fe4203.png)
 里面有个可以输入提示词的入口
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ced94a56db451860fd9790330df0a6c0.png>
+![](img/zhuanqian_ced94a56db451860fd9790330df0a6c0.png)
 默认是初始状态，可以改成自己想要的
 提示词参考这段：
 读取网页中评论区的所有信息，只需要评论区的内容，不要作者昵称和其他数据，然后从上至下输出，一个不差的输出出来，不限制个数，如果有300条，则输出300条，不要节省篇幅
 这里有个细节得提醒一下，不然很多朋友会卡壳
 我随便找了篇笔记来试
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_65203107d224e80cc1f87664946f49ee.png>
+![](img/zhuanqian_65203107d224e80cc1f87664946f49ee.png)
 看出问题没，明明50多条评论，结果只抓到11条
 原因是网页抓取按屏幕显示来，没展开的子评论、没往下滚动加载的内容，kimi根本看不见。怎么破？
 先把所有能展开的评论展平，然后从顶部一路滑到底部，再让插件干活
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f6f394d3ca9ebff35acc5f7cb2bc06b3.png>
+![](img/zhuanqian_f6f394d3ca9ebff35acc5f7cb2bc06b3.png)
 这回就全了。再拿更多评论的笔记试一下稳定性
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4038e775ac4c743f0eb759b1d99baa28.png>
+![](img/zhuanqian_4038e775ac4c743f0eb759b1d99baa28.png)
 实测下来，大概捞到一百来条它就停了，AI单次输出有限。要是评论量多，直接用第三种方案
 另外注意，图片和@信息它是不管的
 抓到的内容，直接点最下面复制带走
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b15028db39adc46372e837af85ba5325.png>
+![](img/zhuanqian_b15028db39adc46372e837af85ba5325.png)
 拿旅游包车相关的笔记举个例子
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_898577ceb13afca08129b8d4f6f834ff.png>
+![](img/zhuanqian_898577ceb13afca08129b8d4f6f834ff.png)
 这篇下面全是想去洱海的用户留言，总数288条，但kimi总结助手我反复试过多次，封顶一百出头。想要更全面的分析，还是直接看第三种方式
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_71eb627436b5ebec4361448d38253053.png>
+![](img/zhuanqian_71eb627436b5ebec4361448d38253053.png)
 到这里，评论数据就算到手了。后面可以丢给Claude、ChatGPT、豆包这些AI做进一步分析
 可能有朋友会问：能不能就在kimi总结助手里直接做分析？理论上行，但我更推荐把评论复制到其他AI里跑，kimi的表现不太稳定。想试的话，把下面那段分析提示词粘进去也行
 ### 2、Instant Data Scraper抓取插件
 这玩意是专门做网页信息爬取的，在Chrome商店搜“Instant Data Scraper”
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b8bff3b7c09ce8253c45a24212d06195.png>
+![](img/zhuanqian_b8bff3b7c09ce8253c45a24212d06195.png)
 进去把它加上
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8fbb7b9fd4199cb959f97338482b26bb.png>
+![](img/zhuanqian_8fbb7b9fd4199cb959f97338482b26bb.png)
 装好之后，记得把它打开。不用的时候建议关掉，别影响其他页面的操作
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_317b90e3aa40bd1fef22760696a6197b.png>
+![](img/zhuanqian_317b90e3aa40bd1fef22760696a6197b.png)
 还是刚才那个包车笔记，打开插件，能看到它把评论区框选出来了。逻辑和kimi总结助手类似，得先把评论区滑到底，想抓子评论的话，也得提前展开
 它的短板在于子评论只能抓一条，但主评论能全部捞完。比如下面这个例子共有92条主评论，要想全量获取，就上第三种方法
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b8c1137c22e78b37d615b38a2086e3fe.png>
+![](img/zhuanqian_b8c1137c22e78b37d615b38a2086e3fe.png)
 弄完可以导出成表格，也能直接在下方预览区勾选某一列内容复制
 下载下来的文件长这样
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ca325c38104cc65900f898f06a181e5e.png>
+![](img/zhuanqian_ca325c38104cc65900f898f06a181e5e.png)
 主评论集中在那一列
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_34d214c314da18533aedf4428a16c28e.png>
+![](img/zhuanqian_34d214c314da18533aedf4428a16c28e.png)
 直接复制这一列就行，嫌麻烦的话也可以在插件弹窗里直接复制，那边更快
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b2dc69484cee42f60975e64b525c8057.png>
+![](img/zhuanqian_b2dc69484cee42f60975e64b525c8057.png)
 这么操作下来，主评论加第一条子评论就都拿到了
 ### 3、用AI写一个油猴脚本来挖评论
 #### 先把油猴装上
 建议用Chrome或者Firefox，搜Tampermonkey油猴脚本插件，认准这个
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3e7f5bb8360955622a50802dac81f6af.png>
+![](img/zhuanqian_3e7f5bb8360955622a50802dac81f6af.png)
 进去之后点去商店下载
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a936c6164881c52aff644c6f77398778.png>
+![](img/zhuanqian_a936c6164881c52aff644c6f77398778.png)
 装好就行
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_00848e832371f1f2bbc71de590dfa8ab.png>
+![](img/zhuanqian_00848e832371f1f2bbc71de590dfa8ab.png)
 再回扩展程序确认它处于启用状态
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_534bf24e9f8371c4a8456e4d7fbc3ba0.png>
+![](img/zhuanqian_534bf24e9f8371c4a8456e4d7fbc3ba0.png)
 油猴到手后，可以先了解一下这家伙的用途
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0c6a1e5780e74191395f3b3ae20d98a3.png>
+![](img/zhuanqian_0c6a1e5780e74191395f3b3ae20d98a3.png)
 #### 怎么新建一个脚本
 篡改猴安装完成，浏览器右上角就能看到它
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4187477ef1bf901c03234b93044966bc.png>
+![](img/zhuanqian_4187477ef1bf901c03234b93044966bc.png)
 点一下，会出现“添加新脚本”和“管理面板”两个选项
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5edb6bc6c5f1e584de8e5091d69f1ab7.png>
+![](img/zhuanqian_5edb6bc6c5f1e584de8e5091d69f1ab7.png)
 点“添加新脚本”就会进到这个编辑界面，平时把代码贴进去，再按Ctrl+S保存，就能用了
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d12478765e8968729b9e3d6ab5c0ac50.png>
+![](img/zhuanqian_d12478765e8968729b9e3d6ab5c0ac50.png)
 “管理面板”则是用来管理我们已经写好的脚本，比如停用、改代码
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fab977e339490eed52b409c68baec4ae.png>
+![](img/zhuanqian_fab977e339490eed52b409c68baec4ae.png)
 提醒一句：每次改完代码保存后，回到页面需要刷新一下才会生效。如果管理面板没出现，就再让AI重新给一遍完整代码
 去小红书网页版注册个新号登录：https://www.xiaohongshu.com/
 按上面的步骤新建好脚本后，打开任意一篇笔记，右下角就会出现采集按钮，点它就开抓
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8115fb7947055e3a753709884413ff42.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e564f739c66e48b7d78ecfa559c73d96.png>
+![](img/zhuanqian_8115fb7947055e3a753709884413ff42.png)
+![](img/zhuanqian_e564f739c66e48b7d78ecfa559c73d96.png)
 #### 所需代码
 有时候，最吊人胃口的，不是一句惊天动地的话，而是一个没头没尾的开始。
 就像现在，摆在我面前的“素材”，干净得像一张白纸，只留下一个孤零零的记号——```
@@ -1260,7 +1260,7 @@ initialize();
 比如就拿之前提到的包车评论举例
 #### 效果
 他直接把评论区里用户提到的各类问题梳理清楚了。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_924271ab690418ba76d468cb61605dd8.png>
+![](img/zhuanqian_924271ab690418ba76d468cb61605dd8.png)
 ### 2、高频评论分析
 评论出现频率越高，说明这背后代表的需求越普遍。抓住大众的共性需求，才能找到突破口。
 #### 提示词参考（高频评论分析）
@@ -1329,7 +1329,7 @@ initialize();
 5\. 总结整体发现和洞察
 ```
 #### 效果
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_784b47a4906f7056a55076deeae73d71.png>
+![](img/zhuanqian_784b47a4906f7056a55076deeae73d71.png)
 ### 3、选题参考
 对做内容的团队来说，最头疼的就是选题方向。把评论区做成选题雷达，就能快速知道用户想看什么、想被解决什么，顺着这些点去做内容，更容易帮用户做决策。
 #### 提示词参考（选题参考）
@@ -1425,8 +1425,8 @@ initialize();
 - 预期收益：[组合创作带来的优势]
 ```
 #### 效果
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f5e3a50fe96f4bbd186242a5b6a1073d.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8624bffcfcb6ee690bf838251ce62ba9.png>
+![](img/zhuanqian_f5e3a50fe96f4bbd186242a5b6a1073d.png)
+![](img/zhuanqian_8624bffcfcb6ee690bf838251ce62ba9.png)
 ### 4、辅助消费者做决策
 前三项偏向商家赋能，但评论区对我们普通消费者同样有用。能不能基于这些真实反馈整理攻略、辅助决策，完全可以。
 #### 提示词参考（消费者决策）
@@ -1594,7 +1594,7 @@ initialize();
 2\. 按要求进行分析
 ```
 #### 效果
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_42777abb14a7918518354b30ceabb791.png>
+![](img/zhuanqian_42777abb14a7918518354b30ceabb791.png)
 ### 5、评论信息整理器
 评论区内容乱七八糟，666、加油、厉害之类的无效表达占了不少地方，分析价值很低。所以先做一轮分类清洗，把有用的信息提炼出来再处理会更高效。
 #### 提示词参考（评论区整理器）
@@ -1654,7 +1654,7 @@ initialize();
 3.开始输出原始评论，分析完全，不要遗漏和节省篇幅
 ```
 #### 效果
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_dd8f5a04481e3e58666005145db524b5.png>
+![](img/zhuanqian_dd8f5a04481e3e58666005145db524b5.png)
 当然分析角度远不止这些，具体怎么玩取决于你的目标。评论区的信息密度很高，千万别忽略了。
 # 二、纯 AI 来产出
 接下来哆元示范一种不依赖平台原生数据、完全靠 AI 生成的分析思路。
@@ -1850,11 +1850,11 @@ initialize();
 3\. 维度用加粗，不带序号，每一个维度底下的问题用序号标注
 ```
 ### 效果1
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_783e37d1221cd1b72cf8f04074030dbc.png>
+![](img/zhuanqian_783e37d1221cd1b72cf8f04074030dbc.png)
 ### 效果2
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ef47b34dccbf92909f1a305b28c7f112.png>
+![](img/zhuanqian_ef47b34dccbf92909f1a305b28c7f112.png)
 ### 效果3
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_08b1973e26c8f0de27d87b7217b9b700.png>
+![](img/zhuanqian_08b1973e26c8f0de27d87b7217b9b700.png)
 有了这套提示词，输入行业相关的信息后，就能快速推导出用户脑子里真实会冒出来的那些疑问。
 用好以上这些思路和方法，我们就能更精准地洞察客户的真实想法。后续无论是做内容、做产品还是打磨话术，都能更贴需求、更有效。
 我是哆元，专注AI+小红书。

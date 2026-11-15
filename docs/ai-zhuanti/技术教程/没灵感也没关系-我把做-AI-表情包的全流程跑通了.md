@@ -3,11 +3,11 @@
 之前我也认真想过做一套自己的微信表情。可一旦被问到具体方向，我就彻底卡壳：角色没想好，画风没想好，台词更是一片空白。我的全部要求只有一句：“逗一点就行。”
 这对于任何工具来说，都是一道没有答案的题。
 ## 从“要饭的”到哈皮狗狗
-4o刚发布时，我看到朋友 @阿真Irene 分享过一篇教程，完整记录了毛毛小狗表情包从构思到完成的过程。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_12d0209ed302a0266b4ea1f56a0cb51c.png>
+4o刚发布时，我看到朋友 @阿真Irene 分享过一篇教程，完整记录了毛毛小狗表情包从构思到完成的过程。![](img/zhuanqian_12d0209ed302a0266b4ea1f56a0cb51c.png)
 我当时特别喜欢那只名叫“要饭”的小狗，也打算照着教程尝试一遍。结果软件还没开始发挥，我先败在了创意环节：没有角色设定，也没有内容方向，连第一条表情该说什么都不知道。
 于是这件事暂时搁置了。我想着，等AI再进步一些，也许它能替我解决“没想法”这个问题。
 后来Lovart出现，我干脆直接下达了一个非常笼统的指令：帮我做一组表情包。
-没想到，它真的给出了“哈皮狗狗”系列。成品看起来很讨喜，我越看越喜欢，最后还把这套作品放到了微信表情平台。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_57f362c5bda6d9561d1280a3ad115d14.png>
+没想到，它真的给出了“哈皮狗狗”系列。成品看起来很讨喜，我越看越喜欢，最后还把这套作品放到了微信表情平台。![](img/zhuanqian_57f362c5bda6d9561d1280a3ad115d14.png)
 ## 把创意、规范和画面拆给不同的AI
 使用一阵子后，我开始构思“哈皮狗狗2”。这次我希望每张图都带上文字，但又不想亲自琢磨每一句台词。
 Gemini正好很适合承担这个任务。它的点子足够多，拿来负责发散创意再合适不过。
@@ -15,9 +15,9 @@ Gemini正好很适合承担这个任务。它的点子足够多，拿来负责�
 > 我只需要说出大致方向，AI负责把创意、文案、设计要求和图片全部接着完成。
 为此，我让4o先整理微信表情平台的制作规范；再让Gemini把这些规则转化成专门用于表情包策划的提示词；最后交由Lovart负责视觉呈现。
 经过一个下午的反复调整，这套提示词终于达到了比较理想的效果。把Gemini整理出来的内容交给Lovart后，最终效果确实让人眼前一亮。
-目前，“哈皮狗狗2”已经送去参加微信表情审核，期待之后能正式和大家见面。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5484764d36f8abba9efbcd70e1431d72.png>
-另外，“西瓜猫”和“毛绒鲨鱼”这两个方向，灵感来自好朋友 @阿真Irene。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_63e47c7d040e9b6eb23ae46c8814a099.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9d961725f2aefd4093513558d4d548f6.png>
+目前，“哈皮狗狗2”已经送去参加微信表情审核，期待之后能正式和大家见面。![](img/zhuanqian_5484764d36f8abba9efbcd70e1431d72.png)
+另外，“西瓜猫”和“毛绒鲨鱼”这两个方向，灵感来自好朋友 @阿真Irene。![](img/zhuanqian_63e47c7d040e9b6eb23ae46c8814a099.png)
+![](img/zhuanqian_9d961725f2aefd4093513558d4d548f6.png)
 下面把完整操作方式整理出来。
 整条链路可以概括为：
 1. 在Gemini中配置助手
@@ -28,7 +28,7 @@ Gemini正好很适合承担这个任务。它的点子足够多，拿来负责�
 ## 第一环：在Gemini里建立表情包助手
 先进入 Google AI Studio：
 https://aistudio.google.com/
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1a29496f43e566e0c011fcb03ef8a591.png>
+![](img/zhuanqian_1a29496f43e566e0c011fcb03ef8a591.png)
 然后把下面的内容完整复制进去：
 ```
 # 表情包助手
@@ -139,37 +139,37 @@ https://aistudio.google.com/
 ```
 ## 第二环：和助手对话，完善表情包方案
 这个助手有两种使用方式。
-如果手头有参考图，可以直接上传，让它围绕图片延展；如果暂时没有素材，也可以从零开始聊天，由它帮助你补充角色、画风和内容方向。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5f116d258b504d8d7cbf4001ee212651.png>
-聊到双方都确定后，Gemini会整理出一份完整的制作说明。把这份说明整体复制，再交给Lovart即可。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_572f81cf0d694e5a6b4f5c84c7806f08.png>
+如果手头有参考图，可以直接上传，让它围绕图片延展；如果暂时没有素材，也可以从零开始聊天，由它帮助你补充角色、画风和内容方向。![](img/zhuanqian_5f116d258b504d8d7cbf4001ee212651.png)
+聊到双方都确定后，Gemini会整理出一份完整的制作说明。把这份说明整体复制，再交给Lovart即可。![](img/zhuanqian_572f81cf0d694e5a6b4f5c84c7806f08.png)
 ## 第三环：让Lovart完成视觉生成
-打开Lovart，把刚才得到的制作说明粘贴进去，然后等待结果。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d681fa706465bfff7e2b60dd48a87144.png>
-如果第一版不满意，可以继续要求它重做。若只是某一张需要修改，则使用 add to chat，把目标图片单独加入对话，再针对局部细节提出调整意见。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b1d3a56ecaeac05d05c4f1f2712fa998.png>
+打开Lovart，把刚才得到的制作说明粘贴进去，然后等待结果。![](img/zhuanqian_d681fa706465bfff7e2b60dd48a87144.png)
+如果第一版不满意，可以继续要求它重做。若只是某一张需要修改，则使用 add to chat，把目标图片单独加入对话，再针对局部细节提出调整意见。![](img/zhuanqian_b1d3a56ecaeac05d05c4f1f2712fa998.png)
 除了主要表情，Lovart通常还会一并生成三类配套素材：
 - 页面横幅
 - 专辑封面
 - 聊天页图标
-封面和图标的输出尺寸可能相同，但二者的画面复杂度通常不同：图标往往只保留简洁的头像或头部元素，封面则可以承载更多画面信息。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5955ab6988fa11f8f39dd1c6437c81e4.png>
-确认全部结果后，勾选需要保存的图片，点击页面右上方的打包下载按钮即可。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5119be539e7791860a2dd07cce55d0dc.png>
+封面和图标的输出尺寸可能相同，但二者的画面复杂度通常不同：图标往往只保留简洁的头像或头部元素，封面则可以承载更多画面信息。![](img/zhuanqian_5955ab6988fa11f8f39dd1c6437c81e4.png)
+确认全部结果后，勾选需要保存的图片，点击页面右上方的打包下载按钮即可。![](img/zhuanqian_5119be539e7791860a2dd07cce55d0dc.png)
 ## 第四环：把文件处理成平台要求的规格
 微信表情平台对文件体积和尺寸都有要求，因此出图后还需要进行一次整理。
 以下两个网站任选一个即可：
 1. https://www.iloveimg.com/zh-cn
 2. https://www.gaitubao.com/
-首先，把下载下来的图片统一做压缩处理。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1338073286b54e47e2bd4cb4773563c4.png>
+首先，把下载下来的图片统一做压缩处理。![](img/zhuanqian_1338073286b54e47e2bd4cb4773563c4.png)
 接着处理图标。
-图标需要调整为50×50px。将图标上传到“调整图像大小”功能中，设置目标尺寸后，再进行一次压缩。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_11483d44db62cf087b96be64f0baa726.png>
-横幅的目标规格为750×400px。建议先按相同比例进行裁切，例如先处理成1500×800，再将它缩小到最终尺寸。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4c14ad4e70412d2d02daee85d820a784.png>
-完成缩放后，再进行压缩即可。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b4c44ea576599a406b0bffc2608f7104.png>
+图标需要调整为50×50px。将图标上传到“调整图像大小”功能中，设置目标尺寸后，再进行一次压缩。![](img/zhuanqian_11483d44db62cf087b96be64f0baa726.png)
+横幅的目标规格为750×400px。建议先按相同比例进行裁切，例如先处理成1500×800，再将它缩小到最终尺寸。![](img/zhuanqian_4c14ad4e70412d2d02daee85d820a784.png)
+完成缩放后，再进行压缩即可。![](img/zhuanqian_b4c44ea576599a406b0bffc2608f7104.png)
 至此，表情主体和配套图片就准备好了。
 ## 第五环：提交作品并等待审核
 微信表情开放平台：
 https://sticker.weixin.qq.com/cgi-bin/mmemoticonwebnode-bin/pages/home
-进入页面后，使用微信扫码登录。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1d8a18b79eb6ff9474fbd28c2c104660.png>
-随后选择提交作品，并进入“表情专辑”类型。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f2c67c75454d1856b50f49b9f872dd2f.png>
-将刚才处理好的图片按照对应栏目逐项上传，再补充名称、介绍等信息。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2289f1a877ccd1b5bff90242dfabb079.png>
-如果不想自己填写，也可以把页面截图交给豆包或4o，请它们协助整理填写内容。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fbaf78efe12967b9a61770922922f18b.png>
-确认无误后提交，接下来等待平台审核结果即可。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cfe7ba9aaf89fdc5faa79d41c7e61af9.png>
-想随时查看进度，可以关注“微信表情开放平台”公众号，后续会收到相关通知。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_50a612978986b23214994d25805486df.png>
+进入页面后，使用微信扫码登录。![](img/zhuanqian_1d8a18b79eb6ff9474fbd28c2c104660.png)
+随后选择提交作品，并进入“表情专辑”类型。![](img/zhuanqian_f2c67c75454d1856b50f49b9f872dd2f.png)
+将刚才处理好的图片按照对应栏目逐项上传，再补充名称、介绍等信息。![](img/zhuanqian_2289f1a877ccd1b5bff90242dfabb079.png)
+如果不想自己填写，也可以把页面截图交给豆包或4o，请它们协助整理填写内容。![](img/zhuanqian_fbaf78efe12967b9a61770922922f18b.png)
+确认无误后提交，接下来等待平台审核结果即可。![](img/zhuanqian_cfe7ba9aaf89fdc5faa79d41c7e61af9.png)
+想随时查看进度，可以关注“微信表情开放平台”公众号，后续会收到相关通知。![](img/zhuanqian_50a612978986b23214994d25805486df.png)
 审核通过后还差最后一个动作：手动完成上架。只有上架结束，这套表情才能在微信里正常使用。
 ## 最后总结
 这套流程最大的价值，不是让人完全不思考，而是把不同环节交给更擅长的工具：
@@ -178,12 +178,12 @@ https://sticker.weixin.qq.com/cgi-bin/mmemoticonwebnode-bin/pages/home
 - Lovart负责把文字方案变成画面
 所以，即使一开始只有一句模糊的“我想做点有趣的表情”，也可以逐步把它变成一套真正能提交、能审核、能使用的微信表情包。
 没有灵感没关系，先把第一句话交给AI。剩下的路，它们可以陪你一起走完。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_071b3cf32008166d02f86cd4926eccbd.png>
+![](img/zhuanqian_071b3cf32008166d02f86cd4926eccbd.png)
 教程部分收工！接下来纯属个人复盘时间，聊点这次做表情包的幕后心得，希望对你有启发。
 这次我把AI当成了真正的合作搭档，而非简单的工具。4o负责把海量表情包资料归档归类，Gemini承包了天马行空的灵感部分，Lovart则默默把创意稳稳落地变成成品。我自己呢？只定了大方向，剩下的力气花在压缩图片、提交审核这些琐碎环节上。
 所以你看，整个链条里，真正考验我的地方只有一处——需求传达。
 跟4o沟通时，我得把话说透：这次收集资料是为了什么？是赶着过审的快速通道，还是追求设计美学的标准规范，亦或是跨行业找灵感？清清楚楚，它才能精准回馈。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c3c10666ead5f531f9d1f6b6a60e8909.png>
+![](img/zhuanqian_c3c10666ead5f531f9d1f6b6a60e8909.png)
 交给Gemini的任务也一样。我明确告诉它，这次做提示词，得直接给人展示一堆可选择的灵感方向，让人看完就能甩出修改意见，而不是像“思考搭档”那样连环追问、让用户做调查问卷。做表情包嘛，就该轻松有趣，不该搞得像交作业。
 这个思路，本质就是一套“人机合作”的通用心法。哪天你想做视频、画漫画、写小说，或者打理博客，不用重新摸索，把工具替换一下，逻辑完全照搬就好。
 那在这种协作里，人的价值到底在哪？

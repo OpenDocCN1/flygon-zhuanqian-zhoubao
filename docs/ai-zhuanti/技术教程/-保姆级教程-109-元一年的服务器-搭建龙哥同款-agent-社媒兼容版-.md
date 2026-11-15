@@ -13,7 +13,7 @@ https://shengcaiyoushu01.feishu.cn/wiki/VsEawZUYMi4CCxkjNEncXPJ4nsg
 不过，我的收藏内容并不只有音视频。
 公众号文章、小红书笔记、抖音内容、视频号作品，同样占了很大比例。它们需要的不是语音识别，而是查找、抓取、分析。做选题、研究产品、观察竞品时，我还经常要看评论、找账号、整理内容脉络。
 于是，我又往这套系统里接入了一组社交平台采集能力。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_47426aef198cc16a9b688bd6356cc2e4_0_0.png>
+![](img/zhuanqian_47426aef198cc16a9b688bd6356cc2e4_0_0.png)
 ### 一套入口，处理四类平台内容
 这部分通过 TikHub 的 API 连接四个平台，并封装了 20 个可调用功能。每个平台都覆盖四个方向：
 - **小红书**：查笔记、查创作者；输入分享口令可读取笔记详情；支持查看一级评论和回复，也能读取主页与作品列表。
@@ -111,4 +111,4 @@ https://gcn6bvkburhk.feishu.cn/docx/VII1doG3DoNWCRxiphfcdjyNnAb
 我越来越相信，能公开的工具就尽量公开。真正有价值的东西，不是一个人藏着使用，而是被更多人拿去验证、改进，再反馈回来。
 如果你手上已经有 Codex 或 Claude Code，部署本身并不复杂：准备好服务器和接口信息，把安装说明交给它执行即可。大致成本是一年一台 109 元左右的云主机，再加少量模型和采集调用费用。
 教程看到这里并不等于系统已经跑起来。很多人不是缺工具，而是迟迟没有完成第一次部署。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_47426aef198cc16a9b688bd6356cc2e4_8_0.png>
+![](img/zhuanqian_47426aef198cc16a9b688bd6356cc2e4_8_0.png)

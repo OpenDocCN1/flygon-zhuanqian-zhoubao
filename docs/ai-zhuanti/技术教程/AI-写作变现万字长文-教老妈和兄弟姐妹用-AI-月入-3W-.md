@@ -4,10 +4,10 @@
 很多人问我：你是怎么带动全家人一起做的？其实没什么玄学，就是找对圈子、跟对方法、敢去执行。龙哥盟对我来说，不只是个信息社群，更像一盏指路明灯，让我一步步从零走到现在。
 这篇长文，我把自己如何拉着身边的兄弟、朋友，甚至亲戚长辈一起用AI写作变现的全过程，都整理了出来。没有保留，能帮一个是一个。
 如果你想了解具体是怎么操作的，可以看看下面的完整内容，我把细节都写进去了。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4b4cdbc3c2ef0a676b4f682b5de220c4.png>
+![](img/zhuanqian_4b4cdbc3c2ef0a676b4f682b5de220c4.png)
 * * *
 评论区也有人问：收获很大，能不能留个联系方式，想试试AI写作。
 我的回答是：点我头像就行。
 还有人评论说：太猛了，AI加持下的“特种兵”打法。
 感谢大家的认可和支持！
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_21de372a77ea1f441c613f7316831ae1.png>
+![](img/zhuanqian_21de372a77ea1f441c613f7316831ae1.png)

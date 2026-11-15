@@ -3,8 +3,8 @@
 # 前言
 最近在实操龙哥大佬提过的公众号垂类小号打法。旧号重启后第一篇就起来了。
 首日 900+，次日 4000+，截至目前冲到 2w+，收益也接近一百：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_50e27259c376c22955d4484d03cb478e.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f120721f873046f2dfa6f82fcfa22cab.png>
+![](img/zhuanqian_50e27259c376c22955d4484d03cb478e.png)
+![](img/zhuanqian_f120721f873046f2dfa6f82fcfa22cab.png)
 此前摸索过多个项目，收获有大有小，但耗费的人力都不少。
 瓶颈其实在思路上，习惯陷入 0-1 的反复打磨，很难做到规模化复制。
 唯一实现扩量的项目，跑了两三个月后，手下一百多位素人创作者创作力跟不上，市场也越来越卷，最后被迫停掉。
@@ -56,19 +56,19 @@
 用五分钟搭建，换来之后每次三十秒的效率。
 ## 注册扣子空间
 工具选用「扣子空间」，官网可直达，免费注册。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0493877407f610edce4b70290591f1ad.png>
+![](img/zhuanqian_0493877407f610edce4b70290591f1ad.png)
 注意不要点「打开网页版」，要点第二个「开发平台」：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5100a4ff78e2b3c4041176bc6110a999.png>
+![](img/zhuanqian_5100a4ff78e2b3c4041176bc6110a999.png)
 进入后：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d1583263183a8a72c2813703f094bce5.png>
+![](img/zhuanqian_d1583263183a8a72c2813703f094bce5.png)
 注册完进入工作台，在「资源库」新建一个工作流。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d7d32b7ac431c4f65dd1b6de2ba50d49.png>
+![](img/zhuanqian_d7d32b7ac431c4f65dd1b6de2ba50d49.png)
 名称按用途填，注意不能包含汉字：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6d0e07fba7dfd5a2206e89f369ed1300.png>
+![](img/zhuanqian_6d0e07fba7dfd5a2206e89f369ed1300.png)
 会出现一个大画布，别被吓到，和搭积木类似。
 ## 开始搭建
 先看下要搭建的整体形态：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_69a9a934050d33caab721ee49a119128.png>
+![](img/zhuanqian_69a9a934050d33caab721ee49a119128.png)
 整体可简化为四块：
 1.  起始与结束，系统自带
 1.  视频文案提取，需配置接口
@@ -79,27 +79,27 @@
 *   点「添加节点」进入插件市场
 *   检索“视频文案提取”和“飞书云文档”
 *   依次添加并连线
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_30e097d00c6ee596e6a0a9762c4b3600.png>
+![](img/zhuanqian_30e097d00c6ee596e6a0a9762c4b3600.png)
 ### 添加视频文案提取节点
 这类节点很多，挑一个能用的即可。部分会因版本失效，部分需付费购买 API。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ba3c8021217d1dc2f37445ffa7d27689.png>
+![](img/zhuanqian_ba3c8021217d1dc2f37445ffa7d27689.png)
 我用的这款可免费申请阿里百炼 Token，自用足够。
 ### 添加飞书写入节点
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5bf6614c6079d42c6f073cb9fe0e1df1.png>
+![](img/zhuanqian_5bf6614c6079d42c6f073cb9fe0e1df1.png)
 「飞书云文档」里有多项功能，选用“在文档中新增内容”：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_69c0a9199edbedd84d56f6c9cde881e0.png>
+![](img/zhuanqian_69c0a9199edbedd84d56f6c9cde881e0.png)
 添加后呈现如下：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f42474fdc1890ee17c6a6ef4c3eef750.png>
+![](img/zhuanqian_f42474fdc1890ee17c6a6ef4c3eef750.png)
 用鼠标拖动连线即可。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_97c0c81c2f4654f552b533c8e75babf1.png>
+![](img/zhuanqian_97c0c81c2f4654f552b533c8e75babf1.png)
 工作流必须有起始与结束，按顺序连上。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f733f1b0fab32d88abc72456219e2e02.png>
+![](img/zhuanqian_f733f1b0fab32d88abc72456219e2e02.png)
 ### 补充文案整理大模型节点
 大模型节点我一开始忘了加，在这里：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3cc2c834309ca7d5c3206dada98a7487.png>
+![](img/zhuanqian_3cc2c834309ca7d5c3206dada98a7487.png)
 ### 连线
 把它放在「读取链接」与「写入文档」之间：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0fab978ef99c01a0c8f46a02a83431a3.png>
+![](img/zhuanqian_0fab978ef99c01a0c8f46a02a83431a3.png)
 重点在参数配置。
 ## 参数配置
 先确认全流程的进出关系：
@@ -108,36 +108,36 @@
 起始节点保持默认。
 ### 配置视频文案提取节点
 【视频文案提取节点】：提取视频文字并输出
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8758e4db064bc304ca9a62fc7bef51a7.png>
+![](img/zhuanqian_8758e4db064bc304ca9a62fc7bef51a7.png)
 需填两个输入：
 *   ali_bailian_api_key
 *   douyin_url
 含义直观：
 ali_bailian_api_key 为阿里百炼的 API 密钥，去阿里百炼平台免费注册登录即可。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_eef1ec00ef55528d2426474f5700f785.png>
+![](img/zhuanqian_eef1ec00ef55528d2426474f5700f785.png)
 有百万 Token 免费额度，具体申请方式篇幅受限，可用元宝、豆包、千问、秘塔搜索。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e33c2eb808c23fbff82be74d19bfe6d7.png>
+![](img/zhuanqian_e33c2eb808c23fbff82be74d19bfe6d7.png)
 第二个参数 douyin_url，
 不用每次手动填链接，点输入框右侧⚙️，选择起始节点的 input 即可。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_edad9a6102ef5b0b730a61e8139c2a97.png>
+![](img/zhuanqian_edad9a6102ef5b0b730a61e8139c2a97.png)
 ### 配置文案整理大模型节点
 【大模型节点】：优化提取后的文字
 需 1 个输入 + 系统提示词
 输入选「视频链接转文本」节点的输出 text。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_db07d4805734d73fb2cf75df7217f6a3.png>
+![](img/zhuanqian_db07d4805734d73fb2cf75df7217f6a3.png)
 系统提示词按需求填写。比如：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2628a6af56ba5076eab0954397a1e841.png>
+![](img/zhuanqian_2628a6af56ba5076eab0954397a1e841.png)
 别看我写得专业，其实一句话就够：
 “帮我整理文案。”
 点右上角的神奇小按钮，系统会自动优化：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f5ee09e9c3a1fe9afb06069a3e76d6a7.png>
+![](img/zhuanqian_f5ee09e9c3a1fe9afb06069a3e76d6a7.png)
 也可以先给指令再点一键优化。
 若运行后文案未写入飞书，在大模型的【用户提示词】里补充一句：
 ```
 {{input}}
 ```
 即可解决。如图：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_de48494d814db9e96a360977d2374398.png>
+![](img/zhuanqian_de48494d814db9e96a360977d2374398.png)
 ### 配置飞书写入节点
 【飞书节点】：把整理好的文案写进飞书文档
 共需三个参数：
@@ -146,52 +146,52 @@ ali_bailian_api_key 为阿里百炼的 API 密钥，去阿里百炼平台免费�
 *   position
 带 * 为必填。
 content* 填大模型节点的输出：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_178e8d7f3ff6a182c2d83c6fe85d0a57.png>
+![](img/zhuanqian_178e8d7f3ff6a182c2d83c6fe85d0a57.png)
 document_id* 填目标飞书文档的 ID，建议新建空白文档，将链接粘贴进去即可。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_845b14662dc2d24c6f1841c565219ac4.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7cd4b3d123f372dbf0af07186d0dde7e.png>
+![](img/zhuanqian_845b14662dc2d24c6f1841c565219ac4.png)
+![](img/zhuanqian_7cd4b3d123f372dbf0af07186d0dde7e.png)
 ### 配置结束节点
 结束节点不关键，只要流程能跑通即可。
 我们真正想要的结果在「写入飞书文档」节点已完成。
 若想在结束节点看到原文，选视频转文本的 text；
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a664cd4cafad1821b8afbd0785971787.png>
+![](img/zhuanqian_a664cd4cafad1821b8afbd0785971787.png)
 想看整理后，选大模型的 output；
 想看是否写入成功，选写入节点的 msg；
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_35a65b116a4b3ead139bf8f82192dd17.png>
+![](img/zhuanqian_35a65b116a4b3ead139bf8f82192dd17.png)
 ### 测试运行
 全部设置完点「试运行」。
 第一次基本都会报错，或未报错但内容未写入，这都很正常。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0b41235e87bb0c48f85d9ae12f7691b1.png>
+![](img/zhuanqian_0b41235e87bb0c48f85d9ae12f7691b1.png)
 我的测试显示运行成功，但：
 "output": "document_id invalid, document_id is not alpha"
 文档地址无效，不是 alpha 格式。修正即可。
 打开一看，原来示范时填了汉字：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4c8f60bd22ba8f982d99eb9f79a1bac5.png>
+![](img/zhuanqian_4c8f60bd22ba8f982d99eb9f79a1bac5.png)
 解决问题的过程即是成长。我改了数次才通。
 改好后，看到飞书文档里自动出现了输入链接的文案内容时，
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_423bd462b0436fd87d1f3ef8bcfa0846.png>
+![](img/zhuanqian_423bd462b0436fd87d1f3ef8bcfa0846.png)
 那种成就感很足。
 # 逻辑比工具更重要
 首个工作流跑通后，你就理解了 AI 自动化的核心：
 从起点到终点，由不同功能节点串联组合。
 掌握这点，再复杂的流程也不怕。
 别嫌它简陋，我后来的「Claude 文案导入飞书自动写入公众号」流程，就是从这四节点演化来的，目前部分自动化：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fefc7e4eff6ec3f32491112d746f928d.png>
+![](img/zhuanqian_fefc7e4eff6ec3f32491112d746f928d.png)
 最近几天，它已帮我自动写入二十多篇文章，其中一篇 1w+，收入接近百元。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_172ff7ebed21cdb73316a56ea0e1cac1.png>
+![](img/zhuanqian_172ff7ebed21cdb73316a56ea0e1cac1.png)
 现在还非全自动，Claude 生成后需我手动导入飞书，全自动方案仍在研究。
 无论多复杂，本质就是：多加几个节点，多连几条线。
 ## 将工作流接入智能体
 跑通后点右上角发布，即可配置到智能体，以后直接发链接给智能体处理：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_812c603b8b17a9ec7aab188df39a3f92.png>
+![](img/zhuanqian_812c603b8b17a9ec7aab188df39a3f92.png)
 创建智能体与创建工作流类似，在配置工作流里点 + 号，把刚才的工作流添加进去。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_92be3bb27a3c2c8d652530e3e8d46e92.png>
+![](img/zhuanqian_92be3bb27a3c2c8d652530e3e8d46e92.png)
 智能体的提示词也是一句话，让 AI 自动优化即可。
 ## 发布到飞书
 最后还能把智能体接入飞书：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_56647e30dc132723c243c10c886fa172.png>
+![](img/zhuanqian_56647e30dc132723c243c10c886fa172.png)
 在飞书添加对应机器人，直接把视频链接转发过去，文案就自动落到文档里了。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a90637660ef4a49b3e113b888fceeb52.png>
+![](img/zhuanqian_a90637660ef4a49b3e113b888fceeb52.png)
 我的长期观点：
 工具本身不重要，关键在怎么用。
 *   再强，用不好就是累赘；

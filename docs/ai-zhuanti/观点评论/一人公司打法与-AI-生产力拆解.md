@@ -1,6 +1,6 @@
 # 一人公司打法与 AI 生产力拆解
 ## 260306 副业 SC 精华独享
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f884a241e03a7cf85a26069a79a5ade4_0_0.png>
+![](img/zhuanqian_f884a241e03a7cf85a26069a79a5ade4_0_0.png)
 ## 松月 自我论述
 打工履历 10 年，文案、电商操盘、SaaS 品宣都干过，最后在教育赛道定型，聚焦增长、运营、产品经理方向。单人项目已跑 2 年半多，净利润约是上班时期的 4 倍。
 ## 业务版块全景
@@ -163,8 +163,8 @@ AI 缺的是情境，你的独特上下文就是护城河。
 很多人以为学 AI 就是为了把事情做得更快，这格局就太小了。如果你只把它当成省时间的帮手，那你只是个跑得更快的螺丝钉；但如果你拿它来重新设计产品、赋能业务，你的自由边界会完全不一样。
 所以放开思路，把 AI 能做的可能性全部榨干。
 最后，顺便介绍一下小懒的付费社群：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f884a241e03a7cf85a26069a79a5ade4_22_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f884a241e03a7cf85a26069a79a5ade4_22_1.png>
+![](img/zhuanqian_f884a241e03a7cf85a26069a79a5ade4_22_0.png)
+![](img/zhuanqian_f884a241e03a7cf85a26069a79a5ade4_22_1.png)
 这是你在信息洪流里的一道防线。
 社群已经稳定运营 7 年，我们累计拆解研读了 3000 多个互联网商业实战案例、行业前沿内参，以及时政和宏观相关的深度文章。
 不做低质搬运，只做高质量信息的过滤器和放大器。

@@ -8,8 +8,8 @@
 学院地址：https://college.yingdao.com/
 新手建议先把学院的基础课过一遍。虽然不需要写代码，但了解底层运行逻辑很重要。只有明白机器人是怎么一步步执行的，才能真正把降本增效做到位。
 跟着学下去，你很快也能像我一样，让工作和生活的效率被成倍放大！
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_83deee2980a6f5835366c521c3f45da2.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fa451fc9bf37dcdd6d84ccee00d554b0.png>
+![](img/zhuanqian_83deee2980a6f5835366c521c3f45da2.png)
+![](img/zhuanqian_fa451fc9bf37dcdd6d84ccee00d554b0.png)
 掌握基础后就能独立搭建自己的机器人。若想应对更复杂的场景，进阶课就很有必要了，可以做出更贴合实际业务的自动化流程。
 进阶学习建议影刀学院配合 B站上搜索“影刀RPA”教程一起看，效果会更明显。
 ## 二、影刀 RPA 在公众号爆文项目里的实战用法
@@ -20,39 +20,39 @@ RPA 的核心思路是先由人演示一遍，工具记录下每一步操作，�
 用影刀怎么实现？
 先手动走到选择公众号文章的页面。第一轮让机器人记住流程：填入公众号名称，复制第一篇标题，点击查看并记录链接，一起存进表格。
 记录完步骤后直接运行，机器人会自动逐篇点击，依次抓取标题和链接写入表格。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c47698b73719a3a269b712e59db8c1a5.png>
+![](img/zhuanqian_c47698b73719a3a269b712e59db8c1a5.png)
 拿到表格数据后，再配合一键导出公众号全量文章的工具，就能完整收工了。整个过程影刀几分钟就能完成，远比人工扒拉省心。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6fe5ef959ab01d07c580735f921471bb.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0e23a30e46966a0728fad4674b402742.png>
+![](img/zhuanqian_6fe5ef959ab01d07c580735f921471bb.png)
+![](img/zhuanqian_0e23a30e46966a0728fad4674b402742.png)
 源代码如下
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2f039d63e3bfa6155d503decbed2c822.png>
+![](img/zhuanqian_2f039d63e3bfa6155d503decbed2c822.png)
 ### 应用二：把生成好的文章自动存进公众号草稿箱
 前文提到用 RPA+ChatGPT 批量生成爆款文，文案层面不再赘述。
 重点是生成后怎么高效入库。因为目前公众号只能定时发布当天和次日的群发，所以先存草稿是刚需。
 #### 第一步：Word 完成排版
 把 AI 输出的文章粘到 Word 里，按自家公众号的视觉风格排版。标题颜色、正文颜色、字号大小等都可以先在 Word 里统一。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3ca536a72abaa9ee72034bc8c0c5550c.png>
+![](img/zhuanqian_3ca536a72abaa9ee72034bc8c0c5550c.png)
 #### 第二步：整理素材表
 把排版好的文档路径和封面图路径整理到一张表格里。
 小问题留给大家：怎么快速拿到文档的文件地址？最先答对的三位送礼物！
 提示：按住 Shift+鼠标右键即可。答对的老板可免费领取自动完成 8 篇文章入库的流程。
 #### 第三步：准备原创信息
 把公众号原创作者名称填入表格对应列。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0df8c4f4cd8cead88ae2afad8c229fe9.png>
+![](img/zhuanqian_0df8c4f4cd8cead88ae2afad8c229fe9.png)
 #### 第四步：机器人执行
 打开公众号后台→图文消息→运行影刀应用，完成后自动保存为草稿。
 源代码分享
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b9957977c1407d131323422bfbe5d149.png>
+![](img/zhuanqian_b9957977c1407d131323422bfbe5d149.png)
 ### 应用三：借助影刀实现一鱼多吃的多平台分发
 文章在公众号发好了，别浪费。同步推到其他平台，收益自然叠加。
 现在比较主流的分发渠道有百家号、今日头条、大鱼号、企鹅号。
 操作逻辑和前面一致：先把标题、正文、配图、封面等材料整理成 Excel，机器人读取表格内容，自动填充到各个平台的发布页面。
 以下是自动分发的源代码：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b4be33d1f167095cfd7b63c4369fa8b5.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_133af1d25b79dcb9d7fcae76b80f1407.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_40f2810670488611241d500193d9bfd9.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3db3b40fa1c01c130060de26d675f2a5.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_96a55d8da2dc90cb098ce1e099a9c1c5.png>
+![](img/zhuanqian_b4be33d1f167095cfd7b63c4369fa8b5.png)
+![](img/zhuanqian_133af1d25b79dcb9d7fcae76b80f1407.png)
+![](img/zhuanqian_40f2810670488611241d500193d9bfd9.png)
+![](img/zhuanqian_3db3b40fa1c01c130060de26d675f2a5.png)
+![](img/zhuanqian_96a55d8da2dc90cb098ce1e099a9c1c5.png)
 ### 应用四：结合 GPT 自动洗稿
 ### 其他可拓展场景
 影刀的适用面远不止内容领域，还可以用来做：

@@ -4,7 +4,7 @@
 直到参加航海家的线下课，我才发现，很多事情并没有想象中难。最麻烦的一步，可能只是把 Codex 安装好。
 从 6 月 8 日到 7 月 8 日，我用一个月时间摸索 AI-Native 工作方式。一个完全不懂编程的人，也能逐渐建立起自己的自动化工作流。现在已经做到四天消耗 20 亿，最近还准备挑战日消耗 10 亿。配图里那台 7 月 6 日注册的 20 倍新号，就是这段实践的记录。
 从广州回来之后，我几乎每天醒来第一件事就是打开 Codex。最初当然是兴奋。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c7cd8b470b50cd67a52f3e896806f076_0_0.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c7cd8b470b50cd67a52f3e896806f076_0_1.png>
+![](img/zhuanqian_c7cd8b470b50cd67a52f3e896806f076_0_0.png)![](img/zhuanqian_c7cd8b470b50cd67a52f3e896806f076_0_1.png)
 以前需要自己查资料、写文章、设计图片、搭表格、整理文件，现在只需要交代清楚目标、边界和权限，后续步骤就能持续推进。
 可是使用越深入，我越觉得这件事不只是“省事”。
 甚至有些让人不安。
@@ -40,7 +40,7 @@ AI 擅长处理逻辑，却不会自动拥有真实经历。它可以把已知�
 公开内容很快就会失去稀缺性。
 大家可以调用相似的模型，查找相似的资料，安装相似的工具，也能找到相似的参考账号。模型越强，最终产出越容易趋同。
 真正难以复制的，是一个人曾经经历过什么，接触过哪些客户，做过哪些业务，为哪些决定交过学费，最后从这些经验里形成了怎样的判断。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c7cd8b470b50cd67a52f3e896806f076_3_0.png>
+![](img/zhuanqian_c7cd8b470b50cd67a52f3e896806f076_3_0.png)
 这些内容原本一直存在于我身上，只是分布在朋友圈、聊天记录、课程资料、飞书、Flomo 和各种零散文档中。
 它们没有被系统化，Codex 就无法调用。
 所以我搭建 Obsidian，并不是为了做一份漂亮的资料目录，而是把过去几年用时间、资金和真实业务换来的经验，转成模型可以长期读取的私人背景。
@@ -76,7 +76,7 @@ AI 擅长处理逻辑，却不会自动拥有真实经历。它可以把已知�
 适用情况：我想写大学创业时拿到第一单的经历，但相关资料分布在飞书、Flomo、朋友圈和聊天记录里。
 我提供给模型：原始文字、截图、时间线，并设定硬性要求：只依据原始记录；区分亲历、转述和公开信息；缺少依据的地方必须标出待确认。
 模型负责：提取人物、时间、数字和因果关系，制作带出处的事实卡，再组装成文章草稿。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c7cd8b470b50cd67a52f3e896806f076_6_0.png>
+![](img/zhuanqian_c7cd8b470b50cd67a52f3e896806f076_6_0.png)
 我负责：逐项回到原记录，删除没有根据的推断，补齐证据，并决定这段故事最终要传达的判断。
 验收方式：所有关键事实都能找到出处，没有虚构内容，同一批素材还能继续用于公众号、小红书和口播。
 # 关键成果 2：把写作方法变成可调用的 Skills
@@ -117,7 +117,7 @@ AI 擅长处理逻辑，却不会自动拥有真实经历。它可以把已知�
 验收方式：同类任务再次运行时，曾经反复出现的问题明显减少，并且新的修改意见会继续沉淀为规则。
 # 关键成果 3：让内容进入批量生产状态
 我用社媒助手导出参考内容，再交给 Codex 处理，最终沉入飞书多维表格。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c7cd8b470b50cd67a52f3e896806f076_10_0.png>
+![](img/zhuanqian_c7cd8b470b50cd67a52f3e896806f076_10_0.png)
 这 100 条内容并不是输入一句话就凭空生成的。
 具体过程分成四段：
 1. 将参考内容导出成 Excel，并按主题拆分；
@@ -157,20 +157,20 @@ AI 擅长处理逻辑，却不会自动拥有真实经历。它可以把已知�
 我负责：先抽查少量结果，确认方向没有问题，而不是因为“已经做完 100 条”就默认成果有效。
 验收方式：每条内容都能回到参考依据和真实素材；如果首批结果偏离定位，就保留原批次、修改规则，再重新生成。
 # 关键成果 4：成熟的 AI，需要学会自己推进
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c7cd8b470b50cd67a52f3e896806f076_13_0.png>
+![](img/zhuanqian_c7cd8b470b50cd67a52f3e896806f076_13_0.png)
 现在，我不再逐张告诉模型该怎么修改，而是提前交代参照、目标和验收方式，再让它自行循环优化。
 这是我实际跑通的一条流程。
 **第一步：先研究参考作品，定义“好”的样子。**
 我不会只说“做得更好看一点”，而是要求拆解视觉重心、信息层级，以及整组页面成立的原因。
 参考作品只负责提供方向，哪些设计逻辑值得吸收，仍由我决定。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c7cd8b470b50cd67a52f3e896806f076_14_0.png>
+![](img/zhuanqian_c7cd8b470b50cd67a52f3e896806f076_14_0.png)
 **第二步：先做出初稿，让差距显形。**
 首稿不需要一次到位，它的意义是暴露当前理解与目标之间的落差。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c7cd8b470b50cd67a52f3e896806f076_15_0.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c7cd8b470b50cd67a52f3e896806f076_15_1.png>
+![](img/zhuanqian_c7cd8b470b50cd67a52f3e896806f076_15_0.png)![](img/zhuanqian_c7cd8b470b50cd67a52f3e896806f076_15_1.png)
 **第三步：进入目标驱动模式，开始连续优化。**
 我会要求它持续拿目标和参考作品进行比较，从专业设计角度检查视觉重心、信息层次、资料质感和手机端阅读体验。
 如果发现问题，就自行修改、再次检查；没有达到门槛，就继续下一轮，不要每一步都回来等待人工遥控。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c7cd8b470b50cd67a52f3e896806f076_16_0.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c7cd8b470b50cd67a52f3e896806f076_16_1.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c7cd8b470b50cd67a52f3e896806f076_16_2.png>
+![](img/zhuanqian_c7cd8b470b50cd67a52f3e896806f076_16_0.png)![](img/zhuanqian_c7cd8b470b50cd67a52f3e896806f076_16_1.png)![](img/zhuanqian_c7cd8b470b50cd67a52f3e896806f076_16_2.png)
 在这套约束下，它连续推进了 40 多轮。
 这不是随机更换模板，而是在同一个目标下反复比较、定位问题和修正细节。人不需要亲自推动每一次微调，但始终掌握目标、素材、验收和停止权。
 **第四步：由人决定何时结束。**
@@ -179,13 +179,13 @@ AI 擅长处理逻辑，却不会自动拥有真实经历。它可以把已知�
 - 首屏是否能够迅速形成视觉重点；
 - 六页之间是否有顺畅的阅读节奏；
 - 证据、观点和行动是否被统一到一套表达中。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c7cd8b470b50cd67a52f3e896806f076_17_0.png>
+![](img/zhuanqian_c7cd8b470b50cd67a52f3e896806f076_17_0.png)
 **第五步：把过程中的有效经验保存下来。**
 我留下的不只是最终图片，还包括参考分析、有效改动、失败原因和验收标准。这些内容会被整理为 Skill，为下一轮任务提供起点。
 **第六步：替换主题，继续调用。**
 下次只需要换掉主题、素材和具体参考作品，其他流程仍然可以沿用。
 系统负责重复执行，人继续负责选择方向、提供真实信息，并完成最终判断。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c7cd8b470b50cd67a52f3e896806f076_18_0.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c7cd8b470b50cd67a52f3e896806f076_18_1.png>
+![](img/zhuanqian_c7cd8b470b50cd67a52f3e896806f076_18_0.png)![](img/zhuanqian_c7cd8b470b50cd67a52f3e896806f076_18_1.png)
 所以，“成熟的 AI 要学会自己推进”并不是把决定权交给模型，也不意味着模型突然拥有了审美。
 真正的前提是：人先把目标、参照和专业要求讲明白，再让模型承担大量重复的比较、修改和自检。
 **实际应用场景｜让模型从首稿持续打磨成专业设计稿**
@@ -194,8 +194,8 @@ AI 擅长处理逻辑，却不会自动拥有真实经历。它可以把已知�
 系统负责：从 v1 开始反复自检和修改，推进到 v42，再收敛到 v48。
 我负责：核验事实，设定审美方向，决定何时足够好，也决定哪些高完成度方案仍然不能使用。
 验收方式：页面重点明确、阅读节奏统一；本轮有效修改、失败原因和检查条件都被保存到 Skill，之后更换主题仍可继续使用。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c7cd8b470b50cd67a52f3e896806f076_19_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c7cd8b470b50cd67a52f3e896806f076_19_1.png>
+![](img/zhuanqian_c7cd8b470b50cd67a52f3e896806f076_19_0.png)
+![](img/zhuanqian_c7cd8b470b50cd67a52f3e896806f076_19_1.png)
 **关键成果 5：让系统反过来安排我的工作**
 过去我也做过很多计划表：一次排满十天，周一做什么、周二做什么，手机里充斥着提醒。
 通常坚持几天之后，新想法、临时任务和状态波动就会把计划打散。最后我开始怀疑，是不是自己的自律能力不够。
@@ -203,7 +203,7 @@ AI 擅长处理逻辑，却不会自动拥有真实经历。它可以把已知�
 我先让它研究真实用户如何使用苹果日历，哪些安排方式只是看起来勤奋，哪些结构才有可能长期运行。
 我先把小红书、Reddit、X 上被刷屏的苹果日程玩法通盘梳理了一遍，想知道大众实际是怎么落地的。
 我的出发点是：平台上最吸睛的方案，不等于能用得久。我需要模型先把看起来很饱满但容易崩的方式，和结构简单却能长期维护的方式并排分析，再挑出真正值得留下的原则。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c7cd8b470b50cd67a52f3e896806f076_20_0.png>
+![](img/zhuanqian_c7cd8b470b50cd67a52f3e896806f076_20_0.png)
 这一轮梳理没有给我一份可以直接抄作业的模板，而是一套取舍的判断依据。小红书很爱把一天塞满、用数十种颜色做区分，视觉上很完整，维护成本却很高。更持久的经验反而克制得多——日历只负责时间线，提醒负责具体事项，日历不能变成待办的垃圾桶，每个被重点圈出的时间块都必须对应一个可验收的产出。
 但这仍然是别人的使用习惯。它能回答“一般怎么玩”，答不了“我该怎么玩”。于是下一轮，我把自己的 ENTP 描述、StrengthsFinder 报告、往期排期翻车的原因、当下的状态波动一起喂给模型。
 结合我的 MBTI、我的盖洛普，以及你对我做事偏好的所有认知，帮我推演一套真正适配我的时间用法。
@@ -213,11 +213,11 @@ AI 擅长处理逻辑，却不会自动拥有真实经历。它可以把已知�
 3. 掉到低谷时，系统能不能直接给一个最小启动动作，而不是让我重新排计划？
 4. 每周沉淀的东西，能不能用来做取舍、做验证、规划下一步方向？
 性格标签只提供线索，决定系统形态的，是我过去为什么会失败、我能坚持到哪一步、什么算达标。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c7cd8b470b50cd67a52f3e896806f076_21_0.png>
+![](img/zhuanqian_c7cd8b470b50cd67a52f3e896806f076_21_0.png)
 第二版示意图看上去已经很饱满，但它仍是模型基于当时信息给出的中间稿，不是终稿。
 图中模型仍把核心结果块塞进 Calendar。回到真实工具里核对后，我追问了一句：
 日历里不应该只放无法移动的硬性节点吗？
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c7cd8b470b50cd67a52f3e896806f076_22_0.png>
+![](img/zhuanqian_c7cd8b470b50cd67a52f3e896806f076_22_0.png)
 这句话重写了整套工具分工：
 - **Apple Calendar**：只上课接送、会议、线下活动等时间不可挪动的硬性承诺。
 - **Apple Reminders**：直接告诉我今天要启动什么动作，以及低谷时的保底动作。
@@ -298,4 +298,4 @@ AI 擅长处理逻辑，却不会自动拥有真实经历。它可以把已知�
 工具和教程是最底层的壁垒，真正的壁垒是“立刻开干”和“圈层信息差”。
 我们不谈概念，只拆商业闭环和 AI 效率压榨。系统内已沉淀 1000+ 跑通的套利实战案例。
 👉 查看圈子完整数字资产与上车门槛：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c7cd8b470b50cd67a52f3e896806f076_30_0.png>
+![](img/zhuanqian_c7cd8b470b50cd67a52f3e896806f076_30_0.png)

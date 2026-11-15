@@ -1,7 +1,7 @@
 # 10 天从零起步，我如何把视频号做成 ChatGPT 垂类头部
 大家好，我是龙哥。2 月 8 号我正式进入 ChatGPT 赛道，十天内账号就站稳视频号同类赛道的头部位置。到现在，视频号累计涨粉 9W+，单场直播最高观看人数突破 20W+，导流到私域企微/个人微信超 8k+，直接变现已达 2w+。
 下面我就结合这一个多月实操的踩坑与沉淀，把整套打法拆开来讲。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_940ca5ab11b0c54f52469c74332375e6.png>
+![](img/zhuanqian_940ca5ab11b0c54f52469c74332375e6.png)
 目录：
 一、ChatGPT 准备工作
 二、ChatGPT 快速起号
@@ -22,13 +22,13 @@ ChatGPT 刚火的时候，评论区最高频的问题集中在怎么注册、怎
 流程：安装企业微信移动端 -> 用微信登录 -> 授权登录 -> 输入管理员手机号和邮箱 -> 填写公司名及管理员姓名 -> 创建成功。
 ### 2、完成企业微信认证
 未认证的企微只能加 200 个客户，认证后上限提升到 5w，必要操作。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5be6014aa107217d4914961138c7d3a3.png>
+![](img/zhuanqian_5be6014aa107217d4914961138c7d3a3.png)
 认证需要营业执照，个体或公司皆可，年费 300 元/年。
 流程：手机企业微信 -> 工作台 -> 管理企业 -> 企业信息 -> 前往认证，按要求提交资料，等待审核不通过则按意见修改重交。
 ### 3、视频号绑定企业微信
 绑定后一个企业可挂 1000 个视频号，一个视频号只能被一个企业绑定，且主体可以不一致。
 流程：企业微信 -> 工作台 -> 视频号 -> 绑定视频号 -> 输入视频号账号 -> 由视频号管理员扫码或微信授权确认。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_79f80fc6e48065a0b87ac94ec26a6562.png>
+![](img/zhuanqian_79f80fc6e48065a0b87ac94ec26a6562.png)
 ### 4、开通微信客服
 绑定后可把视频号私信升级为客服。接入后可在主页、直播间商品页、橱窗、小店等位置接入客服，点击即可咨询，且具备：
 * 可配置机器人、欢迎语，实现自动回复
@@ -36,23 +36,23 @@ ChatGPT 刚火的时候，评论区最高频的问题集中在怎么注册、怎
 * 可一键邀请客户添加企业微信
 * 多个视频号可统一接入后集中回复
 流程：企业微信 -> 工作台 -> 视频号 -> 接入微信客服 -> 选择视频号与客服账号 -> 完成接入。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_83fdc2aba4e196e1fa4ff39be966eab5.png>
+![](img/zhuanqian_83fdc2aba4e196e1fa4ff39be966eab5.png)
 ### 5、配置自动回复
 这是关键词自动问答的核心。
 流程：企业微信 -> 工作台 -> 微信客服 -> 机器人 -> 录入知识库 -> 添加问答 -> 完成。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d523a4740e209be988a94462c6b43e22.png>
+![](img/zhuanqian_d523a4740e209be988a94462c6b43e22.png)
 配置好后，只要私信包含关键词就会触发自动回复。比如直播时私信回复“进群”，即可弹出群二维码，比直播间直接挂码更安全。
 配置时要多写相似问法，保证语义相近也能触发。
 ### 6、设置客服欢迎语
 先在自动回复里建一个带企业微信二维码的关键词回复，再设置欢迎语。
 参考话术：点我添加客服微信，回复后自动推送带企微二维码的引导语。
 流程：企业微信 -> 工作台 -> 微信客服 -> 设置欢迎语，引导用户添加企业微信，并在高频咨询处嵌入“点我添加客服微信”关键词。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_77ae342ee3ac332739b6f5b0813963e4.png>
+![](img/zhuanqian_77ae342ee3ac332739b6f5b0813963e4.png)
 ### 7、企业微信欢迎语
 用户通过客服进入企微后，企微会自动推送欢迎语。
 流程：企业微信 -> 工作台 -> 客户联系 -> 欢迎语，简要介绍产品服务，控制在手机一屏内。
 结尾附上个人微信二维码，并提示：企微回复可能延迟，有急事可加个人微信联系。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d8d0c5adcf10ba1e2d4f891146e6e58e.png>
+![](img/zhuanqian_d8d0c5adcf10ba1e2d4f891146e6e58e.png)
 至此，视频号私信 -> 企微 -> 个人微信的自动化引流就完成了。企微消息量大时可不主动回复，重点维护加到个人微信的客户。
 ## 三）短视频制作工具
 ### 1、剪辑工具
@@ -60,18 +60,18 @@ ChatGPT 刚火的时候，评论区最高频的问题集中在怎么注册、怎
 ### 2、录屏工具
 推荐 EV录屏，安装后即可用。
 用法：打开软件 -> 选择录制区域 -> 点击开始录制 -> 结束录制。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fbcb3f3446f6ce2a1a6a7df5e9297cd6.png>
+![](img/zhuanqian_fbcb3f3446f6ce2a1a6a7df5e9297cd6.png)
 上手几次就能熟练操作。
 ### 3、OCR 识别工具
 推荐 Quicker，安装对应版本。
 用法：打开 Quicker，按住鼠标中键或 Ctrl 唤出快捷界面，选择截图 OCR，框选文字区域后即可复制。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_89a31f7ef11527e80770186d08df3a69.png>
+![](img/zhuanqian_89a31f7ef11527e80770186d08df3a69.png)
 # 二、ChatGPT 快速起号
 ## 一）账号基础设置
 ### 1、昵称
 视频号已禁止新账号直接使用 ChatGPT 关键词，可用 Chat / GPT 结合其他词。
 例如 Chat聊天助手、GPTAI智能机器人等，也可让 ChatGPT 帮忙生成。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_624ab7730e4ac145130e588c46dc4cfc.png>
+![](img/zhuanqian_624ab7730e4ac145130e588c46dc4cfc.png)
 ### 2、头像
 基本沿用 OpenAI 或 ChatGPT 官方图，同行通用。
 ### 3、简介
@@ -82,13 +82,13 @@ ChatGPT 刚火的时候，评论区最高频的问题集中在怎么注册、怎
 做法：截取完整的 ChatGPT 问答截图，加标题、音乐、贴纸。
 注意时长控制在 10 秒内，约 7 秒最佳，短视频利于提升完播。
 可做模板固定音乐贴纸，后续只需换图改标题，单条制作约 1 分钟。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_981d378304c7c58ff94ddb55bea3a809.png>
+![](img/zhuanqian_981d378304c7c58ff94ddb55bea3a809.png)
 实测视频号对截图类内容不友好，建议放弃，转做录屏问答。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_04e8a5dd7ac5d4469bb79a39ebe63ceb.png>
+![](img/zhuanqian_04e8a5dd7ac5d4469bb79a39ebe63ceb.png)
 ### 2、录屏问答类
 做法：全程录屏 ChatGPT 回答过程，导入剪映裁剪头尾，用变速压缩到 30 秒内，再加标题、音乐、音效、贴纸。
 可做模板固定特效素材，后续只替换上层录屏素材。注意比例，学长使用横屏 3:4，保证观看清晰度。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2b1aeff9130ffa69796af5301bf922dd.png>
+![](img/zhuanqian_2b1aeff9130ffa69796af5301bf922dd.png)
 ### 3、核心要素
 选题比剪辑更重要。选能引发共鸣、共情或争议的话题，如赚钱、写情书、旅游攻略、会被取代的职业等，播放表现更好。
 选题枯竭时多看同行作品。风格统一也很关键，标题排版保持一致，否则粉丝难以形成辨识度。
@@ -98,31 +98,31 @@ ChatGPT 刚火的时候，评论区最高频的问题集中在怎么注册、怎
 ### 2、直播预约
 主页至少保留一条直播预约。短视频爆了才能承接流量，提前挂好每周固定时段的预约，例如每周五 20:30。
 预约人数不足或不想播可随时取消。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_44c10cdd1fd06215fc427efa98667762.png>
+![](img/zhuanqian_44c10cdd1fd06215fc427efa98667762.png)
 设置方法见下图：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3dfd225d376a1a4c288fa94a728f5c33.png>
+![](img/zhuanqian_3dfd225d376a1a4c288fa94a728f5c33.png)
 # 三、ChatGPT 高效直播
 短视频吸粉，直播变现。爆款视频后必须挂直播。
 我此前几乎没直播经验，靠短视频流量被迫上场。共开了 9 场，有效 8 场，总场观 62.5w，直播涨粉 3.3w，单场最高破 20w+。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_36405c1564a7b15e780d18092cb9df99.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_432fff6189084a303d49fc8eaf86dfdb.png>
+![](img/zhuanqian_36405c1564a7b15e780d18092cb9df99.png)
+![](img/zhuanqian_432fff6189084a303d49fc8eaf86dfdb.png)
 ## 一）直播封面
 封面要直观说明直播主题和用户能获得的价值。学长采用简洁粗暴的文案风格。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b45f520731773b965dcce7986cf53cfe.png>
+![](img/zhuanqian_b45f520731773b965dcce7986cf53cfe.png)
 ## 二）直播工具
 无需第三方，PC 端微信自带视频号直播工具即可。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7413053d2541a8526dd805591e7644ee.png>
+![](img/zhuanqian_7413053d2541a8526dd805591e7644ee.png)
 ### 1、画面源选择
 浏览器登录 ChatGPT，在直播工具中选择对应浏览器窗口作为画面源。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0210bd1cb65238f12a7665f177ddbde5.png>
+![](img/zhuanqian_0210bd1cb65238f12a7665f177ddbde5.png)
 设置完成后白框区域即为直播画面。可拖拽缩放，文字大小适中即可。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_77686d664084d59718c07ae8a8f18da5.png>
+![](img/zhuanqian_77686d664084d59718c07ae8a8f18da5.png)
 3 月前可直接用同一台电脑直播，之后建议网络隔离。用两台电脑，一台登录 ChatGPT，一台直播，通过向日葵/Todesk 远程操控。进入 4 月后，直播 ChatGPT 易违规，可改播文心一言，避开敏感话题更安全。
 ### 2、浮窗最大化
 把互动消息和热度榜单的浮窗拉到最大便于观察。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0a8fe3fcac2808bb8965272353164964.png>
+![](img/zhuanqian_0a8fe3fcac2808bb8965272353164964.png)
 榜单放左，消息放右。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fe7759141985eb84f1d3667fbbeec5e5.png>
+![](img/zhuanqian_fe7759141985eb84f1d3667fbbeec5e5.png)
 ## 三）直播内容与机制
 ### 1、内容形式
 直播机器人回答评论区提问。观众在评论区提问，主播用 OCR 识别文字复制到 ChatGPT 让其作答。
@@ -149,7 +149,7 @@ ChatGPT 刚火的时候，评论区最高频的问题集中在怎么注册、怎
 * 主播引导入群
 * 入群后领取红包
 *   想要拿到东西的观众必须先进群，我们一般是把群二维码在画面里闪一下，几秒钟就切走，然后让客服私聊回复进群关键词，引导进群后才发放。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2ddb1954246a183c243a519f01c62f64.png>
+![](img/zhuanqian_2ddb1954246a183c243a519f01c62f64.png)
 ### 7、挂直播预约
 视频号直播间本身就能推预约功能，开播前一定要把预约位挂上，再配合一些话术引导，下一场直播就能带一点基础冷启动流量进来。
 # 四、ChatGPT 变现玩法
@@ -167,7 +167,7 @@ ChatGPT 官网号的价格已经很透明了，批量100个起拿在1.5~2.0元/�
 ### 1、淘宝自动售卖
 当时用的是阿奇索自动发货软件，实现24小时秒发、不漏单不重发，月租15块。
 现在淘宝已经不建议上架了，ChatGPT 相关商品属于违禁品，即使不写关键词，被检测到也会扣分、要求补保证金，二次违规可能扣保证金甚至封店。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_68143a9594461ecd05a5910915e9ada0.png>
+![](img/zhuanqian_68143a9594461ecd05a5910915e9ada0.png)
 如果手上淘宝店铺很多，对风险可控，也可以继续尝试，毕竟首次违规不一定扣保证金，且淘宝对买家有天然信任感。
 ### 2、发卡平台售卖
 发卡平台本质是小型交易平台，注册后相当于拥有自己的店铺。
@@ -176,7 +176,7 @@ ChatGPT 官网号的价格已经很透明了，批量100个起拿在1.5~2.0元/�
 平台很多，学长使用的是多彩生活自助发卡网，选择靠谱、大体量的即可。
 ## 三）Plus 升级
 普通号和 Plus 号的核心差距：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f502e1fb91e4ee96df2b3613de7b1df2.png>
+![](img/zhuanqian_f502e1fb91e4ee96df2b3613de7b1df2.png)
 GPT-4.0 发布后，Plus 才能用 GPT-4.0 模型，这也成了升级的主要卖点。
 官网升级价是20美元，但国内微信支付宝无法支付，于是产生了代升级业务，收取服务费。
 ## 四）课程售卖
@@ -210,9 +210,9 @@ ChatGPT 爆火后催生了大量相关课程。变现方式分两种：分销别
 好处：一是方便多人在线协同，不用担心版本问题；二是多设备实时更新，粉丝随时看到最新版。
 当产品和服务越来越多，企业微信欢迎语放不下，影响体验。这时就要把所有产品服务汇总到在线文档，欢迎语只保留关键信息。
 学长的企业微信欢迎语和微信回复里都会带在线文档链接，如下：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_55bfd854aa0fbff9d4738a6df3062f15.png>
+![](img/zhuanqian_55bfd854aa0fbff9d4738a6df3062f15.png)
 链接内为迭代过两版的在线文档框架：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3c1efa9b9f4506cddc3d7572f7183611.png>
+![](img/zhuanqian_3c1efa9b9f4506cddc3d7572f7183611.png)
 先是一个总目录，再点进具体板块。内容可随时调整，并且每个页面都要留下个人微信，方便粉丝随时联系。
 ### 2、短链工具
 分享链接要用短链工具，把长链接变短。
@@ -221,7 +221,7 @@ ChatGPT 爆火后催生了大量相关课程。变现方式分两种：分销别
 *   跟踪统计：可查看点击量、来源、用户行为，方便优化投放
 *   方便管理：目标变更只需改短链指向
 下面两张图对比了用长链接和短链接的企业微信欢迎语，差别明显。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_23354ec16778093e17b85d38a2d50f50.png>
+![](img/zhuanqian_23354ec16778093e17b85d38a2d50f50.png)
 ### 3、自动发货
 自动发货的核心是省人力。售卖账号部分已提到，走过两个阶段。
 第一阶段淘宝售卖，用阿奇索插件自动发货。
@@ -230,21 +230,21 @@ ChatGPT 爆火后催生了大量相关课程。变现方式分两种：分销别
 加个人微信的粉丝要分来源区别回复，不要一套话术打到底。
 视频号主页留微信，产品文档留二维码。对方添加时可判断来源：
 扫码添加说明已看欢迎语，直接发问题指南；搜索账号添加说明没看过欢迎语，直接把欢迎语发过去。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3eb3212ae4575ca887995ff8e9f4a0e6.png>
+![](img/zhuanqian_3eb3212ae4575ca887995ff8e9f4a0e6.png)
 备注写着要买账号的，直接发购买链接和引导话术。
 核心是站在用户角度，对不同需求给不同回复。
 ## 三）防搬运
 账号做大必会被搬运，减少不了，但可以提高难度。
 ### 1、加水印
 剪映剪辑时添加文字水印，文本->文字模板里有【这是水印】模板，换成自己的视频号账号名称即可。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_de1a6ef6aa4de0a588a80c5a82ee2724.png>
+![](img/zhuanqian_de1a6ef6aa4de0a588a80c5a82ee2724.png)
 ### 2、申明原创
 视频号对已认证或参加原创计划的账号，首发内容会得到保护，后发相同内容会被降权。
 申请原创计划后平台会自动维权。若别人搬运，系统会判定为搬运。
 发布动态时勾选原创声明即可。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a46b6999861d7c179b302aa3486a40c4.png>
+![](img/zhuanqian_a46b6999861d7c179b302aa3486a40c4.png)
 可在 PC 端视频号助手 -> 扩展功能 -> 原创保护记录 查看详情。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7c0b29e45752781d742352e805a1d934.png>
+![](img/zhuanqian_7c0b29e45752781d742352e805a1d934.png)
 目前视频号已无原创计划入口，附上链接：https://channels.weixin.qq.com/mobile/original_plan.html#/ 复制到微信打开。
 ## 四）安全意识
 做自媒体一定要懂规则，避免限流违规。

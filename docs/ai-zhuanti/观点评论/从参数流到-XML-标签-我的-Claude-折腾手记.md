@@ -118,7 +118,7 @@ step 5：结合<goal>tags，<action>tags和<thinking>tags，执行<output_struct
 #### /execute
 最后用 /execute 把整张步骤表跑起来。为了避免歧义，几个词我故意用了中英混写。
 ### 成果展示
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c7a8947bfe5e7f6afafc9fb2e0194dfb.png>
+![](img/zhuanqian_c7a8947bfe5e7f6afafc9fb2e0194dfb.png)
 初版确实跑出了效果，但离我的期望还很远。
 ### 第四步：开始做减法
 第一版最大的问题，是臃肿。我数了数，光提示词就写了 681 个字。这和参数流强调的“精准、简洁”背道而驰。拿这个体量去写公众号爆文，都够塞两条广告了。
@@ -154,9 +154,9 @@ step 5：结合<goal>tags，<action>tags和<thinking>tags，执行<output_struct
 /keywords 提取行动关键词
 <positive>和 <negative> 这块我只是换了个参数名<praise><criticize>，你不用在意命名差异，只要理解成<好的>和<坏的>即可，实际使用时参数能把意思表达清楚就行。</criticize></praise></negative></positive>
 *   就像<雄性>和<雌性>，换成<公><母>来用也完全没问题。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b9ded797951a0c1f425aa4ba811fdaef.png>
+![](img/zhuanqian_b9ded797951a0c1f425aa4ba811fdaef.png)
 ### 【成果呈现】
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ad861a137fec6ba98e82be4706793472.png>
+![](img/zhuanqian_ad861a137fec6ba98e82be4706793472.png)
 这个产出已经超出我的预期了。我追求的就是这种调性，整天只会夸人有什么用呢。
 要是再狠毒一点就完美了，但受限于道德红线，部分参数没法开，到底能恶到什么程度，我还没摸清边界。
 ### 【在ChatGPT里的表现】
@@ -178,13 +178,13 @@ step 5：结合<goal>tags，<action>tags和<thinking>tags，执行<output_struct
 *   收款账号马上学起来，不学怎么变现？
 /keywords：就三个词：行动、沉淀、学习。别偷懒，干活！
 好了，路我已经指给你了，别废话，立刻滚去执行！
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fd7be56714ec3d4747023a8db5133bc3.png>
+![](img/zhuanqian_fd7be56714ec3d4747023a8db5133bc3.png)
 可以看出，大部分参数模型都能被正确识别，但3.5在理解上偶尔还是会卡壳，不知道4的解析能力是不是更强。
 有兴趣的可以直接去试试。
 ## 第二版之后的改进方向
 在
 <output>这个区段的呈现效果没完全达标。</output>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7f3a3d1fc3fdb4cb290b06ee1b49340e.png>
+![](img/zhuanqian_7f3a3d1fc3fdb4cb290b06ee1b49340e.png)
 针对这一块，我需要对关键词的约束再做调整。因为在第二版里，我放弃了对输出结构的精细把控，导致最终效果打了折扣。
 所以得对输出内容做更细的限制，下面只对
 <output>部分进行改写，其余均沿用第二版。</output>

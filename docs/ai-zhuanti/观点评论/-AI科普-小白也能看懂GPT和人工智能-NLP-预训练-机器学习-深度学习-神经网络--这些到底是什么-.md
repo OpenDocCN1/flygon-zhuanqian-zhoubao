@@ -65,17 +65,17 @@ Transformer架构与注意力机制：Transformer强在并行计算和长距离�
 3、提问逻辑
 1）先问「是什么」和「为什么」
 请问GPT为什么这么厉害，用了哪些之前没有的技术？
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ce5bc60c5fed24ac1ffcd9278cca54d3.png>
+![](img/zhuanqian_ce5bc60c5fed24ac1ffcd9278cca54d3.png)
 2）把回答里的关键词再追问「是什么」「为什么」
 预训练是什么
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0ff38d02b5c92383d043d1bb2c448416.png>
+![](img/zhuanqian_0ff38d02b5c92383d043d1bb2c448416.png)
 3）追问参照物、优劣对比
 在机器学习中，还有哪些学习方法？和预训练对比优缺点是什么？
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_26033065673fcde405ecb21fd75b59de.png>
+![](img/zhuanqian_26033065673fcde405ecb21fd75b59de.png)
 4）最后梳理整体关系，形成知识地图
 自然语言处理(NLP)、神经网络、机器学习、深度学习、大语言模型、线性模型、决策树、监督学习、无监督学习、强化学习、半监督学习、迁移学习的关系是什么？
 请你梳理出它们的包含和被包含关系
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_58bcb31a1c8ec01c9f9dacd354fe0dd9.png>
+![](img/zhuanqian_58bcb31a1c8ec01c9f9dacd354fe0dd9.png)
 # 四、名词详解
 # GPT相关
 ## GPT

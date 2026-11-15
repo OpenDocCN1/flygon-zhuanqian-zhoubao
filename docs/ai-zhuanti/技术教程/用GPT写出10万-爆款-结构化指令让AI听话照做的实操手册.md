@@ -7,7 +7,7 @@ GPT任务指令<brtr>作者；个人在运营的公众号矩阵累计粉丝超3�
 这句话我听过无数次。把对方的提示词拿来一看，问题基本都一样。
 指令写得太粗糙了。
 比如有人会说：“你是个有十年经验的作家，帮我写篇1200字左右的文章，主题是年轻人不必急着结婚，要有吸引力。”
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_efe9504031b15c926b8854f7fae4b93d.png>
+![](img/zhuanqian_efe9504031b15c926b8854f7fae4b93d.png)
 这种问法能产出高质量稿件，真的只能靠运气。
 ChatGPT本质上是一个共享的临时外包，和刚入职的新人一样懵。它知识面广、智商在线，分析起来一套一套，但缺乏实战经验，执行时容易跑偏。
 更麻烦的是它的记忆很短，聊几轮就忘。
@@ -19,9 +19,9 @@ ChatGPT本质上是一个共享的临时外包，和刚入职的新人一样懵�
 案例太空泛，就要求它“细节要饱满，细节要能让人共情”。
 觉得太平淡，就让它“多写让人记住的金句”。
 我以前做过一条《ChatGPT七夕劝退信》的入门指令，只加了三点：过渡自然、语气口语温柔亲切、多用金句。结果出来的文案效果非常好。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_823590ca7d9f5b9d60f31dc84a772ea0.png>
+![](img/zhuanqian_823590ca7d9f5b9d60f31dc84a772ea0.png)
 下面这封七夕劝退信就是ChatGPT写的，文艺感足、金句密集，挺扎心的。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b9c32d11fbb9c0b841a76b8404039664.png>
+![](img/zhuanqian_b9c32d11fbb9c0b841a76b8404039664.png)
 所以，ChatGPT能不能写出好文案，关键看提问的人会不会提要求。
 爆款都有套路可循，前面说的那些初级设定只是内容框架的一环。
 选平台、定选题、用哪种结构、什么语气、什么技巧，都会直接影响质量。
@@ -39,11 +39,11 @@ BRTR由 背景B、角色R、任务T、要求R 四部分组成，是一个清晰�
 要求：语气风格、内容结构、写作手法、参考样例、执行流程
 * * *
 图示版如下，建议收藏。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_88c3e3a632b2d276eb9ed94181923014.png>
+![](img/zhuanqian_88c3e3a632b2d276eb9ed94181923014.png)
 举个栗子，写小红书种草文的初级指令长这样：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ad1d7ab77382e3e73ac16731a36ca972.png>
+![](img/zhuanqian_ad1d7ab77382e3e73ac16731a36ca972.png)
 ChatGPT给出的结果在口语化和博主人设的体现上还不错。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e89202877ae1d980576b6b3775d8a2d6.png>
+![](img/zhuanqian_e89202877ae1d980576b6b3775d8a2d6.png)
 # 三、GPT写作指令法的任务框架
 <gpt>可以拆成两个大模块：【任务设定】和【任务要求】。</gpt>
 ## （一）【任务设定】
@@ -59,7 +59,7 @@ ChatGPT给出的结果在口语化和博主人设的体现上还不错。
 其中语言风格、内容结构、写作技巧是搭建文案模板最关键的三要素，也是最常用的。
 布置任务时还可以附上模仿样例，约定好创作流程。
 要求越具体，模板的可控性和可预期性越强。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b513afba1611c7edb5a82d341825227b.png>
+![](img/zhuanqian_b513afba1611c7edb5a82d341825227b.png)
 基于这个拆解，可以得到文案要求的万能公式。
 写作要求=语言风格+内容结构+写作技巧+模仿示例+创作流程
 语言风格
@@ -79,37 +79,37 @@ ChatGPT给出的结果在口语化和博主人设的体现上还不错。
 # 四、ChatGPT写作的4种常见模式
 ## （一）创作灵感
 让AI负责出点子，选题、观点、大纲、金句都先它来，你再加工。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6daad4cf5aea627b131fbd2a1780f16b.png>
+![](img/zhuanqian_6daad4cf5aea627b131fbd2a1780f16b.png)
 让它帮忙梳理文章论点，分析如下
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ed35b753112023d363c5f34faeca8687.png>
+![](img/zhuanqian_ed35b753112023d363c5f34faeca8687.png)
 ## （二）原创文章
 给一个主题，让它先分析、提观点、搭大纲，最后输出成文。
 每一步确认后再进入下一步，反复打磨。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_49173514e5576edae195fdffe1a924a9.png>
+![](img/zhuanqian_49173514e5576edae195fdffe1a924a9.png)
 论证完观点后，让它给出文章大纲
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_01f7dc244234054bbddc5d104cf4087a.png>
+![](img/zhuanqian_01f7dc244234054bbddc5d104cf4087a.png)
 最后让它输出完整稿
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f3ff05d0723dbc2869b0014a9acca73a.png>
+![](img/zhuanqian_f3ff05d0723dbc2869b0014a9acca73a.png)
 样例效果如下，可再优化开头、丰富案例细节等。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_db13bbef3df8462a9bb4c7543c4f9a27.png>
+![](img/zhuanqian_db13bbef3df8462a9bb4c7543c4f9a27.png)
 ## （三）模仿风格
 把爆款文喂给模型，让它总结风格模板，再按模板稳定输出。
 比如拆解小红书爆款：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b45d19265958f6792ebbe45ab76e5ee3.png>
+![](img/zhuanqian_b45d19265958f6792ebbe45ab76e5ee3.png)
 把目标文案发给它，得到风格分析
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0f46d327c58882598ed4778c283643c0.png>
+![](img/zhuanqian_0f46d327c58882598ed4778c283643c0.png)
 结合自己的爆款理解，把分析固化成指令
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e29c76592f26719ea8e1dfc605377e35.png>
+![](img/zhuanqian_e29c76592f26719ea8e1dfc605377e35.png)
 只给了“ysl经典口红，自由发挥”这一个要求，输出基本符合风格，稍改就能用。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3b66030d7eb2224285bc0ffba57471fc.png>
+![](img/zhuanqian_3b66030d7eb2224285bc0ffba57471fc.png)
 ## （四）伪原创
 把指定文章改写，或多篇混写，得到高原创度的新稿。
 比如改写社会热点：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_11db8d474e7ce89892fc95bf17fa4b4b.png>
+![](img/zhuanqian_11db8d474e7ce89892fc95bf17fa4b4b.png)
 先把原文发过去：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bf1708d77cf465af019435c8dc0c4a04.png>
+![](img/zhuanqian_bf1708d77cf465af019435c8dc0c4a04.png)
 初版改写如下，事件不变，表达已大不相同。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e019443eeac826b76600154fd3594fc5.png>
+![](img/zhuanqian_e019443eeac826b76600154fd3594fc5.png)
 # 五、GPT写作指令的3种写法
 ## （一）初级指令
 指令简单时直接写成一段。
@@ -170,12 +170,12 @@ ChatGPT给出的结果在口语化和博主人设的体现上还不错。
 把主任务固化成指令，再通过追问、补充、纠正逐步优化。
 复杂任务可拆成多条指令链。
 # 六、ChatGPT指令生成器
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_938be70d59cee0408fc0d0663f84ed09.png>
+![](img/zhuanqian_938be70d59cee0408fc0d0663f84ed09.png)
 为了帮助理解BRTR，我做了个“ChatGPT指令生成器”。
 输入你的需求，例如“写情感故事爆文，适合信息流，结构用叙述模型”。
 生成器会按BRTR自动生成模板供参考。
 注意它只适合新手入门练习，实际使用需结合场景调整。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_48a72c10f7fa94d962750e4a9395f3c0.png>
+![](img/zhuanqian_48a72c10f7fa94d962750e4a9395f3c0.png)
 访问地址：https://ai.gptprompts.com.cn
 # 七、写在最后
 ChatGPT是擅长创意生成的超级助理，对自媒体是巨大助力。

@@ -1,11 +1,11 @@
 # 用AI复刻油管百万粉“名人金句号”，全套流程拆给你看
 在知识星球看到一篇被加精华的帖子，圈内前辈龙哥直接评价：这是百万量级的盘子。博主正巧在电商行业，看到风向后就快速验证了一遍。下面就把 AI 复刻名人金句视频的完整流程，尽可能清楚地摊开来讲。
 原帖的讨论页和截图放在这里：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fbdb101374d4eda8a4bc9ce37b869197.png>
+![](img/zhuanqian_fbdb101374d4eda8a4bc9ce37b869197.png)
 这个模式其实很简单：油管有人专门做名人口播类视频，订阅量超过 110 万，流量收益相当可观。这个账号更早以前就见过，这次又专门翻了一遍主页简介。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_257374168d5cc0eb4df5bc51aecf5c42.png>
+![](img/zhuanqian_257374168d5cc0eb4df5bc51aecf5c42.png)
 简介里说，背后是几个人组成的制作组，而且明确表示内容不是 AI 做的。作者不太服气，干脆用 AI 自己复刻了一支样片。成品不能说完全一致，但神韵很像。想玩的圈友完全可按喜好调整，这里只提供一套可复制的路径。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d775ca48714fb1c5ce9c8595ee9887f7.png>
+![](img/zhuanqian_d775ca48714fb1c5ce9c8595ee9887f7.png)
 总流程先放在前面：生成人物底图 → 准备配音 → 合成动态视频 → 配字幕 → 发布到平台。
 ## 一、人物底图
 ### 1. 选哪款绘画工具
@@ -13,27 +13,27 @@
 ### 2. 提示词怎么写
 方式一：直接手写描述。把人物、纯色背景、服装交代清楚即可。拿 Steve Jobs 举例，我的提示词长这样：
 Steve Jobs, black tee, facing forward, photo-realistic, ultra-high detail, 8K --s 750
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8dd3401f479b1e0829945f4437db6c67.png>
+![](img/zhuanqian_8dd3401f479b1e0829945f4437db6c67.png)
 生成效果很不错，四张备选里挑了第 2 张，这位创始人的镜头表现力确实很强。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_53b07f3470387798c39e7358c542b4a0.png>
+![](img/zhuanqian_53b07f3470387798c39e7358c542b4a0.png)
 另一个思路：图生词。找一张满意的现成照片，放进 MJ 的 /describe，让系统反推提示词，再按自己的需求微调后出图，效果同样稳定。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a0424e95f05cbb2918956828297e5a0e.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_13a9d9869f4a9d2775ee3930138e1c4a.png>
+![](img/zhuanqian_a0424e95f05cbb2918956828297e5a0e.png)
+![](img/zhuanqian_13a9d9869f4a9d2775ee3930138e1c4a.png)
 ### 3. 人物抠图
 之所以先抠图，是为了后面能铺横版封面。我常用 Photoroom 的网页去背功能，拖图进去就能自动处理；同类在线服务非常多，搜索一下就能找到。
 ### 4. 用 Canva 合成封面
 打开 Canva，直接搜 YouTube 缩略图模板也行；不过我习惯从空白画布开始，页面更干净。操作顺序是：铺满纯黑背景 → 上传抠好的 PNG → 把人物挪到右侧 → 右上角点击分享并导出 PNG。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2a639c8ab894f032d4a1ec2c79ec761b.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f8f9436c272b72660ff7e25fcbd9380f.png>
+![](img/zhuanqian_2a639c8ab894f032d4a1ec2c79ec761b.png)
+![](img/zhuanqian_f8f9436c272b72660ff7e25fcbd9380f.png)
 ## 二、准备音频
 ### 1. 找金句文案
 语录来源并不难找，网上搜索或请 ChatGPT 推荐都行。更关键的是想清楚账号定位：名人金句、情感向内容、风水玄学、励志鸡汤，做哪一类？内容用中文还是英文？这次请 ChatGPT 列了一份 Steve Jobs 的经典发言清单。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8df6dc25fce03f39fb07dfbbfaf7b34e.png>
+![](img/zhuanqian_8df6dc25fce03f39fb07dfbbfaf7b34e.png)
 ### 2. 配音生成
 常用的在线配音工具有 TTSMaker、Narakeet 等。这次选 TTSMaker，挑一个听着舒服的音色，把文字贴进去，直接导出 mp3。
 如果特别在意声音质感，可以试 ElevenLabs，它支持上传声音样本做克隆，但属付费功能，我没有深度使用，感兴趣可以自行研究。如果只是日常内容，上面几款免费工具完全够用。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b601307fe1fa1fef618a9594a2374d15.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7e58b56dca0383b63ae0a1cb0d59e958.png>
+![](img/zhuanqian_b601307fe1fa1fef618a9594a2374d15.png)
+![](img/zhuanqian_7e58b56dca0383b63ae0a1cb0d59e958.png)
 ## 三、生成视频
 人物图和音频准备好之后，再用 D-ID、HeyGen 这类工具合成口播视频。我更常用 D-ID，配合 2925 邮箱的别名能力，可以批量开很多个账号。
 操作只有四步：新建项目 → 上传 Canva 做好的封面 → 上传已备好的音频 → 生成后把成片保存到本地。
@@ -43,10 +43,10 @@ Steve Jobs, black tee, facing forward, photo-realistic, ultra-high detail, 8K --
 2. 到 D-ID 注册时，把 @ 前面的前缀做成递增编号，test001@2925.com、test002@2925.com……依次类推。
 3. 邮件确认码直接去对应邮箱里收，系统能自动抓取。
 提醒：HeyGen 对这类注册方式风控比较严，我自己测过，行不通；目前 D-ID 还能这么用。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c466b9eeeef0c297070667e3cd74e232.png>
+![](img/zhuanqian_c466b9eeeef0c297070667e3cd74e232.png)
 ## 四、字幕、水印与发布
 剪辑工具我用剪映。把成片拖进时间线，打开自动字幕功能，让它先听写一遍，再统一改文字样式和摆放位置。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_afbf2620af0e976e86a5917bb3d755d2.png>
+![](img/zhuanqian_afbf2620af0e976e86a5917bb3d755d2.png)
 D-ID 生成的成片，右下角会带水印。会剪映的话，可以直接叠一个文字块把它盖掉；不想手动处理，也可以用网络上的去 logo 服务先清一遍，再回剪映继续。最终导出后，发到油管、B 站等平台都没问题。
 ## 五、让项目横向长出更多玩法
 上面只是拿 Steve Jobs 做了一个演示，真正值得思考的是项目的变体空间。

@@ -1,8 +1,8 @@
 # 在 n8n 的数千个方案库里，我筛出24个海外营销智能体：覆盖SEO、竞品追踪、Reddit等八大方向
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_eaceedd896f43a2f370c5b0b73522f05.png>
+![](img/zhuanqian_eaceedd896f43a2f370c5b0b73522f05.png)
 我最近在创业，帮国内团队做跨境增长。举个例子，之前为一个 DTC 品牌搭过一套监测体系：系统成天盯着竞品在社媒上的发言和价格波动，一旦有变化，模型会立刻作出解读并整理成简报，推到客户所在的飞书群。
 支撑这套体系的，就是我经常提到的 n8n。和别的智能体工具相比，它的突出点是流程编排空间大，而且自带超过400个官方连接器，像 Reddit、Shopify、Google、Instagram 这类海外服务基本都能直接调用。最近它更新了 Gemini 模块，现在已经能够理解视频画面，甚至参与视频生成。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e25adffbb69dca0ba4586da771fea5ae.png>
+![](img/zhuanqian_e25adffbb69dca0ba4586da771fea5ae.png)
 ## 入门 n8n 的几个误区
 很多朋友看完想亲自试试，但说实话，入门门槛不算低。我自己也吃过亏，最大的一个误区是想让模型直接“变”出一个能用的流程。到今天来看，这条路基本走不通。
 你或许见过这类教程：让 Claude 写一句提示词，然后“一键生成”复杂流程。真去执行时你会发现差距很大——需求要讲得极其细致，产出的 JSON 还得反复修订，最后拿到的往往是一个极其简单的原型，有时根本执行不了。把那些时间花在手写一个，可能早就完成了。
@@ -13,7 +13,7 @@
 方案一多，反而难挑。我的习惯是让 Gemini 的 DeepResearch 或 ChatGPT 的智能体先帮忙筛一轮：把需求描述清楚，它就能在库里搜索、横向比较，最终把最相关的几个推给我。
 下面这一批就是按海外营销场景筛出来的，我已经验证过，无需付费即可直接用，大家可以放心拿去改。
 ### 1. 市场、竞品与需求洞察
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1dd86563ebb7d76cc84e81f7b95e41d3.png>
+![](img/zhuanqian_1dd86563ebb7d76cc84e81f7b95e41d3.png)
 1. 竞品调研方案（Exa.ai、Notion、智能体）
 - 给一个公司名，Exa.ai 会搜出它的竞争对手，然后由多个智能体分头深入分析，最后把报告归入 Notion。
 - https://n8n.io/workflows/2354-automate-competitor-research-with-exaai-notion-and-ai-agents/
@@ -24,7 +24,7 @@
 - 定期去指定的新闻站抓资讯，模型按指定词筛选，提炼成三条核心信息，然后实时同步到团队的 Slack。
 - https://n8n.io/workflows/4588-firecrawl-ai-powered-market-intelligence-bot-automated-news-insights-delivery/
 ### 2. SEO场景
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6dd090485b6a78f50343209a91fe09de.png>
+![](img/zhuanqian_6dd090485b6a78f50343209a91fe09de.png)
 4. 关键词策略生成（OpenAI、DataForSEO）
 - 核心主题先丢给 OpenAI，让它扩展出长尾词和用户常问的问题；DataForSEO 负责给出检索量和竞争难度；最终由模型汇总，输出一份带竞品视角的完整策略。
 - https://n8n.io/workflows/3908-comprehensive-seo-keyword-research-with-openai-and-dataforseo-analytics-to-nocodb/
@@ -35,7 +35,7 @@
 - 从 Google Sheets 里读取选题，多个模型分工协作：一个写正文，一个生成配图，一个补充 SEO 信息，最后在 WordPress 后台完成建文并填好 Yoast 字段。
 - https://n8n.io/workflows/3085-automate-seo-optimized-wordpress-posts-with-ai-and-google-sheets/
 ### 3. 内容生产与分发
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ce2388f0c0afe9fdff8693d4ed91f5cb.png>
+![](img/zhuanqian_ce2388f0c0afe9fdff8693d4ed91f5cb.png)
 7. 跨渠道社媒内容创作与分发（Google Sheets、AI）
 - 表格里的创意会被改写成不同平台适用的文案和视觉，审核者通过邮件里的链接确认后，内容就会被推送出去。
 - https://n8n.io/workflows/3066-automate-multi-platform-social-media-content-creation-with-ai/

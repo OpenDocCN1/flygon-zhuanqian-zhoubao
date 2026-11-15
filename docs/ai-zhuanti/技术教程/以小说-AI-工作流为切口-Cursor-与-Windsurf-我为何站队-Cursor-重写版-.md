@@ -4,7 +4,7 @@
 说实话：Cursor 这次的迭代太猛了，
 在好几项核心体验上直接把 Windsurf 超了过去，
 下面聊聊具体的升级点。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a7a50e6e6d53923f3677cd706f86d442.png>
+![](img/zhuanqian_a7a50e6e6d53923f3677cd706f86d442.png)
 本文的拆解顺序：
 Cursor 的新能力 ==> 我的 Cursor 实战流程 ==> Cursor 与 Windsurf 的细节对比
 单点功能抽出来讲，没有场景支撑很容易无感。
@@ -27,7 +27,7 @@ Composer 的改动支持了 checkpoints，也就是时间切片，不满意的�
 Agent 的改动会实时落盘，不怕数据丢失
 * * *
 # 我的 Cursor 工作流：编程
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7f2d2c2943aaffdb4aa31acc662102e3.png>
+![](img/zhuanqian_7f2d2c2943aaffdb4aa31acc662102e3.png)
 ### 给 AI 划规矩
 我最常用的四件套：
 全局规则 + 项目规则 .cursorrules + .cursorignore 补充 + notepad
@@ -41,7 +41,7 @@ Windsurf 缺少了后两项，虽然 notepad 能用普通文件引用代替，�
 #### 全局规则
 就是写代码时的通配约定，比如对话用中文
 在单文件里按 ctrl/cmd + k 时也会生效
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_453e7943909dab93e756eff21b5716a1.png>
+![](img/zhuanqian_453e7943909dab93e756eff21b5716a1.png)
 #### 项目规则 .cursorrules
 针对当前项目的技术栈做设定，帮助 AI 快速理解上下文
 主要描述项目结构、前后端交互、命名规范等
@@ -49,18 +49,18 @@ Windsurf 缺少了后两项，虽然 notepad 能用普通文件引用代替，�
 AI 默认会索引当前打开项目的所有文件
 .gitignore 里的是不会索引的
 .cursorignore 就是额外黑名单，可以自定义屏蔽哪些文件不被 cursor 看到
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5065c8669d10d4c746c1da425d0e5e96.png>
+![](img/zhuanqian_5065c8669d10d4c746c1da425d0e5e96.png)
 #### notepad
 本质是一个提示词仓库，方便复用
 把经常用的提示词放进去，随时引用
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_23a7cf3ccfdb675ec942b962da723d02.png>
+![](img/zhuanqian_23a7cf3ccfdb675ec942b962da723d02.png)
 ### 三种工作模式的切换
 三种常用入口：
 ctrl/cmd + k + chat + composer Agent Yolo
 下面只讲高频用法，细节后文再补
 #### Yolo 模式
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2d467a0623d39040af3eb4d7e1426407.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_516315de005a67eab3526deeda08749f.png>
+![](img/zhuanqian_2d467a0623d39040af3eb4d7e1426407.png)
+![](img/zhuanqian_516315de005a67eab3526deeda08749f.png)
 用 Windsurf 时最膈应的一点就是：
 Write 模式为啥不能把一串命令跑完？
 Cursor 的 Yolo 模式就可以让 AI 连续执行终端命令
@@ -72,28 +72,28 @@ Cursor 的 Yolo 模式就可以让 AI 连续执行终端命令
 #### 单文件原子操作：
 ctrl/cmd + k 可以做精细化改动，比如只写一个函数或类
 作用域就是单个文件
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_56045ca99b90ab33f8aa1b05ce0616db.png>
+![](img/zhuanqian_56045ca99b90ab33f8aa1b05ce0616db.png)
 按下去后会出现 5 个选项，其中 Definitions 和 Web 最常用
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_09803f54d8af0a3d7336da4848e79569.png>
+![](img/zhuanqian_09803f54d8af0a3d7336da4848e79569.png)
 我习惯先用 Definitions 让 AI 解释清楚函数或类的职责
 再针对性修改；Web 就是内置的联网检索入口，给思路
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b49a79128b6a61a6b8fa1b79c47a994e.png>
+![](img/zhuanqian_b49a79128b6a61a6b8fa1b79c47a994e.png)
 #### 整个项目或局部理解：
 用 Chat 模式配合前面提到的规则文件，快速对齐项目认知或定位 bug
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8c3fc4abc0b46d54a9ff4e418353c1bf.png>
+![](img/zhuanqian_8c3fc4abc0b46d54a9ff4e418353c1bf.png)
 反过来，这些规则文件也可以用 Chat 模式快速生成
 按 @ 会弹出很多功能，我常配合 git，直接看某个版本的变更
 对团队协作很友好
 再配合 notepad，一键生成 commit 并 push，这就是 Yolo 的加成效果
 思路打开，想象力越丰富越提效
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ebfc7c5eb64b8c61812894742a2fd99d.png>
+![](img/zhuanqian_ebfc7c5eb64b8c61812894742a2fd99d.png)
 #### 进入高速编码
 composer Agent Yolo，拆开看就是 Composer 下开 Agent 并开启 Yolo
 我愿意把更多编码权限交给 AI 去试边界，当然也可以关掉 Yolo
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5b5119ea4c060dc64f3040e2835d8d38.png>
+![](img/zhuanqian_5b5119ea4c060dc64f3040e2835d8d38.png)
 这里的功能也比 Windsurf 的聊天框丰富得多
 重点说 @Files：侧边栏会显示引用文件的具体路径，定位很清晰
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1371f476378a26790868d261a6cf5297.png>
+![](img/zhuanqian_1371f476378a26790868d261a6cf5297.png)
 感受：
 AI 时代的编程，靠一套规范的规则就能让 AI 完成中等及以下的任务
 Prompt 编程时代真的来了
@@ -145,12 +145,12 @@ AI 之前，这些 IDE 确实是程序员主场
 把写作的基础材料放到一个文件夹，统一引用，最好是 .txt 或 .md 格式
 告诉 Claude 你的意图，哪怕不引用它也能找到，但引用更精准
 这样就能快速获得写作灵感
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7ce08c11ae7cd5b95c9d302303aff4a1.png>
+![](img/zhuanqian_7ce08c11ae7cd5b95c9d302303aff4a1.png)
 #### 主体创作：
 有了灵感或大纲后，把这些生成的文件再作为上下文，让 Claude 按需求续写
 #### 润色：
 局部润色：选中某段，ctrl/cmd + k 或 ctrl/cmd + L 直接润色
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8203075f527adaeeee6d5c9162adb2b2.png>
+![](img/zhuanqian_8203075f527adaeeee6d5c9162adb2b2.png)
 全局润色：引用整篇文件，输入修改方向，让它整体改写
 总体公式：
 想法 + 指令 = 成品
@@ -167,7 +167,7 @@ AI 最强的是文字功底
 用 Cursor 开发时难免担心泄露
 官方提供了关闭上传的选项，能降低风险，虽然核心业务代码最好别走第三方 AI
 Windsurf 里我没找到对应开关
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3d842067298de6a9280fc63b7bd94c5b.png>
+![](img/zhuanqian_3d842067298de6a9280fc63b7bd94c5b.png)
 ## 新版 Cursor 工作流的本质：
 配置 .cursorrules、notepads，以及 Agent 模式
 本质是给 AI 限定协作边界，也就是在特定场景下，AI 该如何配合你
@@ -185,9 +185,9 @@ Windsurf 里我没找到对应开关
 一个大纲提示词，分 5 次左右输出就能完成
 #### 十万字流程：
 ## Windsurf 万字小说一键成文效果：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5199547fa5e74370c68430b39cab55e5.png>
+![](img/zhuanqian_5199547fa5e74370c68430b39cab55e5.png)
 ## Cursor 万字小说一键成文效果：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a8b6602f222d572591a35b7d0d4f13d4.png>
+![](img/zhuanqian_a8b6602f222d572591a35b7d0d4f13d4.png)
 想要十万字中篇，也可以同样打法
 先生成大纲，再按章节逐个生成，循环即可
 * * *
@@ -201,7 +201,7 @@ cursor的Yolo模式可以不用确认，自动执行命令
 支持 pop out terminal，也就是在命令行窗口预览
 ```
 ## git 索引能力
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cd02a5733921e34155e02e50ab149732.png>
+![](img/zhuanqian_cd02a5733921e34155e02e50ab149732.png)
 ```
 cursor可以自动commit / push代码
 @Git 允许 Cursor 的扫描差异并查找可能由差异引起的错误或问题

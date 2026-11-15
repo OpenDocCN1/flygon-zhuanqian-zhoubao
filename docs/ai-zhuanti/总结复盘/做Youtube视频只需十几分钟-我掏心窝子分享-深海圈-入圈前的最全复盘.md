@@ -20,8 +20,8 @@
 ### 传统找赛道的方法
 1. 多开几个号，使劲刷Shorts，找到自己打心底里感兴趣的视频。至少做完那条视频的那一刻，你是愉悦的。如果实在找不到，“不反感”的也可以，做着做着看到收益，兴趣自然就来了。
 2. 点开视频下方的标签，逐个进去看看。如果同类爆款视频很少，说明这是个蓝海赛道；反之，爆款内容多，说明赛道容量足够大。⚠️注意：一定要看最近一周的视频，那些陈年旧库的爆款，参考价值不大。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e9cf053fbba8145e152f31c86c5c6bbc.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a5c1b8d2289cf4fcf126c734f8ee0b99.png>
+![](img/zhuanqian_e9cf053fbba8145e152f31c86c5c6bbc.png)
+![](img/zhuanqian_a5c1b8d2289cf4fcf126c734f8ee0b99.png)
 3. 刷到感兴趣的账号，顺手订阅、点赞，系统就会给你疯狂推同类视频。如果发现这类视频最近热度很高，但总量并不多，那这大概率就是你的方向。多操作几个号，你就能筛出几条感兴趣的赛道，最后权衡一下选一条路深耕。
 总结一下就是：
 - 最具潜力的信号：同类视频少 + 订阅多 + 播放高 + 你感兴趣
@@ -30,33 +30,33 @@
 **1）viewstats**
 地址：https://www.viewstats.com/
 付费工具，但Top榜单免费看，更多筛选条件就需要付费了。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_924493df072e0b12b229658ca92e94c2.png>
+![](img/zhuanqian_924493df072e0b12b229658ca92e94c2.png)
 优点：野兽先生出品，数据准确度很高，功能也比较强大。
 缺点：免费版只能看Top榜单，没法增加太多自定义筛选条件（比如按某类关键词去搜，再叠加播放、评论、点赞等限制）。当然，付费玩家随意，氪金就能解锁全部。
 **2）vidIQ**
 地址：https://app.vidiq.com/
 也是很强悍的数据分析工具。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a11b342d3ea8f2453799d2be095d930d.png>
+![](img/zhuanqian_a11b342d3ea8f2453799d2be095d930d.png)
 优点：数据更新及时，功能全面，价格比viewstats便宜一些。
 缺点：免费版能用的功能少得可怜。
 **3）圈友思明自研工具**
 地址：https://www.media-copilot.com
 这个工具用来查对标账号非常实用。
 优点：目前限时/永久免费，找思明大佬内测还能免费领；筛选条件比前两者更丰富，数据量也够大。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_26020091209275b936eacc79635adee8.png>
+![](img/zhuanqian_26020091209275b936eacc79635adee8.png)
 ## 拆爆款：用Google AI Studio“解剖”对标频道
 拆解爆款，必须借助一个神器——Google AI Studio：https://aistudio.google.com/
 不熟悉界面操作的朋友，可以翻我以前发的帖子。这里我想强调一个关键步骤：利用GAS对整个对标频道做整体分析。
 GAS支持一次性上传十个视频链接。做法很简单：把对标频道里所有爆款视频的URL都复制粘贴到对话框里。记住，一次性丢进去越多越好，数据越多，GAS分析得就越全面。
 不过前人经验是：历史记录最多只能保留十个视频。但这里有个小技巧——你可以继续对话，然后把多余的视频链接删掉，腾出空间继续添加新视频，之前的对话记忆也还在。这个操作我不止用过一次，非常顶用。切记，历史列表只能留十个，否则就没法继续对话了，会报internal error。
 （下图就是我拆解今天做的视频时，把对标账号120万播放以上的视频全部丢给GAS分析的截图。一个对话大概消耗20万Token。）
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b663123c2c5c017cff010638b4aa1634.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c41421758b8668a4bf0e39a486c716cc.png>
+![](img/zhuanqian_b663123c2c5c017cff010638b4aa1634.png)
+![](img/zhuanqian_c41421758b8668a4bf0e39a486c716cc.png)
 通过这个操作，GAS会告诉你这个爆款频道的内容核心是什么，以及用什么方式可以制作出来，而且会事无巨细地全盘托出。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3b10f95c4a16996e344d08e66ba1c4e7.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_79f5feed7f98c9438291d05bc6ff49db.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b3f0a69361e4052931165e3d298e7031.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d9de96cb86342babf0e353fe5f3ec22e.png>
+![](img/zhuanqian_3b10f95c4a16996e344d08e66ba1c4e7.png)
+![](img/zhuanqian_79f5feed7f98c9438291d05bc6ff49db.png)
+![](img/zhuanqian_b3f0a69361e4052931165e3d298e7031.png)
+![](img/zhuanqian_d9de96cb86342babf0e353fe5f3ec22e.png)
 做完这一步，这个频道的核心内容、爆火原因、所用的技巧，基本就能了解个七七八八了。
 ## 自我审视：这活儿我能干吗？
 接下来，你需要再仔细看一遍对标频道的爆款视频，把每个细节都抠出来：内容、音效、BGM、转场、滤镜、特效。扪心自问，这些以你现在的技术能完成吗？
@@ -127,7 +127,7 @@ C. 一起换（不太建议，但有小概率爆款）。
 具体操作还是看李澹归老师的另一篇帖子，这里衷心感谢李澹归老师，帮我节约了不少时间：https://scys.com/articleDetail/xq_topic/2852211242585521
 我的迭代版本方法会在“半自动化工作流”部分详细讲。这里只想给大家几个容易踩坑的注意点（建议先读完原帖再来看我的提醒）：
 1. 每次重新登录后，都要再次点击“添加账号”才能使用。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_30e8fa5fa38854204d1fcc29fb367071.png>
+![](img/zhuanqian_30e8fa5fa38854204d1fcc29fb367071.png)
 2. 有时候图片生成出来是空白的，别浪费时间去重试。其实你的即梦账号里已经生成了这张图，去网页版即梦里就能找到。
 **3）批量出图付费工具（不推荐）**
 需要付费，想尝试的圈友可以瞧瞧这款Chrome插件，支持GPT/即梦/MJ等主流生图工具，自动操作为你加速。官方文档：https://www.yuque.com/autojourney/docs/pkil2i72vcqfweld
@@ -142,7 +142,7 @@ Chrome商店搜索：AutoGPT
 ## 去水印环节
 注意：即便是即梦会员，左上角依然会有“AI”水印，所以去水印是绕不开的步骤。这里我整理了三款免费好用的去水印工具：
 如果不考虑画质，一款谷歌商店的插件就够用了（720p，不过我个人觉得有点难以接受）。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_439562d2bf6588249e0dc3e38064e9aa.png>
+![](img/zhuanqian_439562d2bf6588249e0dc3e38064e9aa.png)
 后两款能保持原画质：第二款完全免费，第三款至少我现在用着还不要钱。缺点是它们一次只能去一张图的水印，所以建议两个同时开干。
 - https://online.niuxuezhang.cn/online-photo-watermark-remover/detail/
 - https://www.arkthinker.com/zh/watermark-remover/
@@ -154,38 +154,38 @@ Chrome商店搜索：AutoGPT
 先交代一个前提：我没开Midjourney会员。所以接下来这套方案并不是终极答案。如果你问圈内人，大家公认最省心的人物锁定方式就是付费订阅Midjourney，没有之一。
 **第一步，固定角色形象**
 真正好用的其实就两个：GPT和Runway。操作方式很简单，把你希望反复出现的角色参考图先传上去。比如我之前做猫爸带小猫的短片，就把猫爸的原图同时给了GPT和Runway。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4b1dad328681bcd1f6e22d869f86fd83.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cc136fbedabc917c8c68a848d5d8da24.png>
+![](img/zhuanqian_4b1dad328681bcd1f6e22d869f86fd83.png)
+![](img/zhuanqian_cc136fbedabc917c8c68a848d5d8da24.png)
 然后告诉它们：这张图里的角色，就是后面所有文生图指令里的主角。再配上具体的画面描述，生成出来的图就能保持角色长相一致，不会崩。
 当然，这两个工具都有次数限制。GPT一个账号大概只能生成不到十张图，Runway则是720p扣5积分、1080p扣8积分。想免费多用，就多注册几个号；预算足够的话，直接配合我后面提到的自动化工具一起用效率更高。
 **第二步，图像转视频的动态指令**
 很多人在生成静态图的时候，就顺手把图像转视频的描述也写进提示词里了，这样做其实不对。更稳妥的做法是：先把所有分镜图统一丢给Google AI Studio（以下简称GAS），让它基于图片来生成动态指令。
 你可以一次性把28张分镜全部传上去，我没测过上限，但完全没压力。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d512ac6dcd6af9e8530ed73181c817a2.png>
+![](img/zhuanqian_d512ac6dcd6af9e8530ed73181c817a2.png)
 我用来迭代的核心指令大概是这样的：让GAS扮演一位资深影视导演兼AI视频提示词设计师。它的工作流程如下：先逐张分析静态分镜，理解画面里的主体、状态和环境；然后为每个分镜生成动态描述，动态描述必须包含镜头运动方式，比如推拉、摇移、升降、环绕、横移、纵移、前后跟随等；同时还要写清楚主体做什么动作、表情如何变化；最后把所有这些内容整合成一个流畅的中文长句。描述的重点不是静态画面里已有的细节，而是“发生了什么变化”，动作和表情要写得足够具体。为了帮助它理解，我还会补一个例子：过肩镜头向前推进，一只母猫坐在沙发上，电视里正播放星球撞击地球的新闻，猫的身体逐渐前倾，表情从平静变为震惊，最后变成恐惧。
 这个方法的准确度很高，但我还会再加一步保险——用输入法自带的语音输入把每个分镜的动作直接说出来，让GAS照着这段话生成指令。这样出来的提示词，我基本不需要修改。注意，所有对话必须保持在同一个GAS会话窗口里，否则它会失忆。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8e9faa5ad2c1f8811901163aa9b965ce.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_efbbc6af7db3000549c60afbbea73eff.png>
+![](img/zhuanqian_8e9faa5ad2c1f8811901163aa9b965ce.png)
+![](img/zhuanqian_efbbc6af7db3000549c60afbbea73eff.png)
 **第三步，图生视频工具怎么选**
 我的结论是：即梦加豆包，是普通玩家能摸到的最强组合。两个都是免费为主，质量也够用，速度还不慢。可灵别买，谁买谁交智商税，我实测感觉它连豆包的免费额度都比不上。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fb1d53ca9b0a53ee4331a49d54e273b0.png>
+![](img/zhuanqian_fb1d53ca9b0a53ee4331a49d54e273b0.png)
 **第四步，剪辑和音效**
 剪辑功底还是要有的，但GAS可以当你的外挂老师。我之前看到对标视频里有一个很高级的回忆转场，自己完全不知道怎么下手，直接把视频丢给GAS，它马上用剪映一步一步教我做，连我这种小白都能看懂。所以，看到什么想要的效果，先别慌，把它交给GAS。
 动物类视频没有对白，音效就成了决定成败的关键之一，至少能影响三成观感。但靠自己在剪映音效库里瞎搜，常常搜不到合适的。我一般用两个办法：
 第一，把视频链接发给GAS，让它分析该配什么音效，然后照着它给出的名字去剪映里搜。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_68d6c70dc20e5c56f489652529290e87.png>
+![](img/zhuanqian_68d6c70dc20e5c56f489652529290e87.png)
 第二，直接去爱给网（域名是aigei.com）找免费可商用的音效，试听后再下载。
 剪辑完成后，别急着自我感觉良好。再去看看你的对标视频，和它逐帧对比一下转场、音效、色调，有差异就改。
 **第五步，发布前的自我诊断**
 成品视频不要马上上传。我会把它发给GAS，同时附上对标账号的爆款视频，让它帮我找差距。GAS给的评价框架其实很有用，大致包括：选题有没有新意、开头抓不抓人、叙事逻辑通不通顺、节奏和转场自不自然；画面清不清晰、构图稳不稳定、光线合不合理、剪辑流不流畅；音质好不好、配音有没有感染力、BGM贴不贴内容；以及字幕是否清晰、整体有没有细节瑕疵。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f4e0bb628c3696543a5b3253fd434ce2.png>
+![](img/zhuanqian_f4e0bb628c3696543a5b3253fd434ce2.png)
 我让GAS对照这个框架诊断，它给了我一份很长的修改建议，我照着又改了一版才发出去。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_16a7d6053b6c29d4d6d136ecc42436f5.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_129e17c1708f04b2616a892e1d1bdef5.png>
+![](img/zhuanqian_16a7d6053b6c29d4d6d136ecc42436f5.png)
+![](img/zhuanqian_129e17c1708f04b2616a892e1d1bdef5.png)
 这里有个小技巧：诊断用的视频导出480p、25fps就够了，不用高清，反正只是给AI看的，传上去还快。
 **第六步，上传时的几个细节**
 导出分辨率我一般就按默认来，其实2K或更低都不会影响播放量。具体导出设置可以参考下面：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ef5319b28834d0726e48a871a52ef7cc.png>
+![](img/zhuanqian_ef5319b28834d0726e48a871a52ef7cc.png)
 标题和说明我都是让GAS代劳的。标题我会要求它生成一个优化过SEO的英文标题，必须带#cat #kitten #catstory #meow这四个标签，长度控制在70个字符上下。描述就写一段完整的英文简介，概括一下剧情，留点悬念，再加1-3个表情，鼓励观众点赞分享。除了固定的四个标签，再补上5到15个内容相关的标签，帮助搜索。
 如果不想从零写，也可以直接模仿对标账号的标题和说明，然后让AI润色，但别改掉核心信息。
 发布时间和地区方面，我建议把IP设置为美国，因为前期推来的流量大多来自美国观众；但美国观众的审美也最难伺候，这是要权衡的。时间上可以多试几次，隔几天换一个时段，不用预定，直接发。频道做起来以后，一天更新三四条都可以。
@@ -193,10 +193,10 @@ Shorts的封面不用太讲究，用手机版改缩略图时，挑视频里最�
 **第七步，好用的效率工具**
 下载YouTube视频，我推荐用iiilab这个网站（youtube.iiilab.com），就目前来说最好用。
 封面我都是用Canva做的。方法很简单：先用即梦生成16:9的图，再扩成9:16，然后去闲鱼花一块钱买个Canva会员，套用YouTube封面模板就可以了。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6b6aa2cda67cbdd67dee6c43774acc87.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_566fa260b8b5638c2eea600d5a9223d2.png>
+![](img/zhuanqian_6b6aa2cda67cbdd67dee6c43774acc87.png)
+![](img/zhuanqian_566fa260b8b5638c2eea600d5a9223d2.png)
 除了做封面，Canva还能做视频里的小道具，比如以前做的一封信，就是用牛皮纸模板改的，再加点英文内容，进剪映做关键帧动画就有效果了。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b10ae51b0b2f594bba481bc3649a83a3.png>
+![](img/zhuanqian_b10ae51b0b2f594bba481bc3649a83a3.png)
 插件方面，我常用的有这几个：vidIQ、PocketYouTube、Screenshot YouTube、Shazam、ViewStats和评论翻译。它们各自的功能是：
 - vidIQ：功能很强，但要付费；
 - PocketYouTube：可以给频道分组、标记未看视频、快速找对标爆款，懂的人都知道这个有多值钱；
@@ -204,27 +204,27 @@ Shorts的封面不用太讲究，用手机版改缩略图时，挑视频里最�
 - Shazam：识别对标视频里的BGM；
 - ViewStats：统计视频数据；
 - 评论翻译：把英文评论翻成中文，看起来方便。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fa62aee467a0812e41b2a4950738f4d3.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5f8927e69be6215e0633bb8d73b69f1f.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_32582e8abc948af59c547e0af5b559d2.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_082f9a8862dab3dadcabffa35db8b994.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a7a353b21d5f7ec022ef24204ba98747.png>
+![](img/zhuanqian_fa62aee467a0812e41b2a4950738f4d3.png)
+![](img/zhuanqian_5f8927e69be6215e0633bb8d73b69f1f.png)
+![](img/zhuanqian_32582e8abc948af59c547e0af5b559d2.png)
+![](img/zhuanqian_082f9a8862dab3dadcabffa35db8b994.png)
+![](img/zhuanqian_a7a353b21d5f7ec022ef24204ba98747.png)
 **每日数据复盘**
 我每天都会抽空看看前一天的视频数据，重点盯三个指标：继续观看率、热门地理位置、观看次数。连续观看率尤其重要，能跑到千万级的视频，留存基本都在75%以上。如果观看增长是持续的，就有爆的可能；如果一直在掉，就离断流不远了。地理位置则决定了你的广告收入，印度观众会带来大量流量，但不用刻意规避。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6f7c83c75d23eb52e1171603431895bc.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c92c14ec458217b2c5ce440ecfddde46.png>
+![](img/zhuanqian_6f7c83c75d23eb52e1171603431895bc.png)
+![](img/zhuanqian_c92c14ec458217b2c5ce440ecfddde46.png)
 **半自动化工作流分享**
 下面是我自己比较成熟的半自动流程，适合多分镜视频。
 1. 选对标赛道：手动搜索加上一些工具，再结合朋友推荐。
 2. 文字生成图像：提示词写法参考上文。我自己改了一个李大佬的批量生图工具，顺便做了个Sora版本的，能一次生成两张。直接在浏览器里用AI编程工具改改就能用。流程就是：写好提示词，导入工具，微调一下，然后生成，不满意就重新生成，来回几次就搞定。注意提示词要用markdown格式导入。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_372ae65dae5fe3e7d53b3ed4e151aa64.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d84300bb400242f821120dc5bfe35510.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_63effde27b5e2afd09b99b710d5abcd4.png>
+![](img/zhuanqian_372ae65dae5fe3e7d53b3ed4e151aa64.png)
+![](img/zhuanqian_d84300bb400242f821120dc5bfe35510.png)
+![](img/zhuanqian_63effde27b5e2afd09b99b710d5abcd4.png)
 3. 图像转视频：先把动态指令写好，用语音输入辅助，五分钟左右搞定，然后交给即梦或豆包生成。即梦支持高并发，可以不断上传图片排队；豆包每个手机号每天免费10次，而且实测效果比可灵的付费模式还好。动作复杂的用豆包，简单的用即梦。只要有四个手机号，一天做二三十个分镜轻轻松松。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_68e1664157503eba3b0e5e73601e438d.png>
+![](img/zhuanqian_68e1664157503eba3b0e5e73601e438d.png)
 4. 剪辑：有免费的剪映API可以调用，如果你把图生视频的接口接上去，它能自动按顺序导入视频并创建草稿，省掉手动拖拽的力气，每个视频能省一两分钟。
 5. 音效：有些生成工具自带音效，比如可灵（但依然是辣鸡）。剪映SVIP的AI音效也能给每个片段生成音效。如果都不满意，再用上面的方法。最省事的办法是直接下载对标视频的音频，用的还是那个iiilab网站，能省下十几二十分钟。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_dff2941e0d9a8415a1cb17a1c93dbc87.png>
+![](img/zhuanqian_dff2941e0d9a8415a1cb17a1c93dbc87.png)
 **关于全自动化的思考**
 一个视频从零到成片，大致要经过：创意、大纲、文字生成图像指令、生图、图像转视频指令、生成视频、导入剪映草稿、拖拽排序、删减、加BGM、加音效。如果要自动化，就得把每个环节都串起来。
 纯抄袭式操作很容易自动化，半个小时就能搞定一个，但这种内容生命周期很短。原创则几乎不可能全自动，因为创意、图片选择、视频选择、部分音效都必须人工介入。所以现实的目标是最大程度自动化，同时保留人工审核点。
@@ -238,7 +238,7 @@ Shorts的封面不用太讲究，用手机版改缩略图时，挑视频里最�
 我最近实测了一下，5 秒的短视频和 59 秒的短视频 RPM 几乎打平，甚至 5 秒的 RPM 还要更高一点，播放表现也更猛。这说明只要创意足够炸，播放起来了，收益并不会因为时长短而变差。把“短”做到极致，正是我现在主攻的方向。
 # 四、以 YouTube 视频为根基的更大世界
 不知道有没有细心的圈友注意到
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6b8daf138df7c60c35512f82c0741a86.png>
+![](img/zhuanqian_6b8daf138df7c60c35512f82c0741a86.png)
 之前我放出来的那个图生视频界面为什么看起来顺眼，其实那就是我和黑客松队友在做的一款 AI 故事视频工作流的雏形。
 从灵感到成图再到成片，整个链路追求的就是快和顺手，都是按照我的真实创作痛点来设计的。整体逻辑前面也讲了个大概，唯独创意这一步目前还比较粗糙，毕竟底层的素材库还没做大。但生图和生视频的体验是真的丝滑，最近又按需加了“改图”“按顺序导入剪映草稿”之类的提效功能，打算在北京黑客松决赛前把这个东西打磨成一个能商业化的产品。到时候上线前一定会先找一批圈友来免费内测；即便正式上线，也能做到成本价体验，不可能完全免费，毕竟 API 一次调用一次就得花钱。
 之前已经邀请群里的几位大佬先行体验了，反馈基本都是除了价格其他都很顺手。所以后面我重点要解决的就是成本问题，是接残血大模型还是走低价 API 路线。等你们自己搭工作流的时候，也别忘了考虑这笔账。

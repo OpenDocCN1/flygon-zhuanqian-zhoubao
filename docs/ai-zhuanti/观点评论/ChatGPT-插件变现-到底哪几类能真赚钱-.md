@@ -1,7 +1,7 @@
 # ChatGPT 插件变现，到底哪几类能真赚钱？
 大家好，我是 HEXIN，龙哥盟的老会员，过去十一年一直深耕互联网变现。
 盼了许久的 ChatGPT Plugins 终于解封，上午我硬是把额度刷没了，挨个体验了 71 个可用的插件。结合实测感受，聊聊我对这些插件变现逻辑的判断。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f3dd535655376d71af99ae8b224e6a26.png>
+![](img/zhuanqian_f3dd535655376d71af99ae8b224e6a26.png)
 先说分类的问题。网上流传的 “长江计算机” 那张插件分类图，参考的是官网公开信息，和我们实际能在后台看到的 71 个插件并不完全吻合。
 比如 BizToc、CreatiCode Scratch、Diagram It 这些我一个都没找到，Khan Academy 我也一直没等到。图里的说明也有纰漏，比如 Scratch 并不是思维导图工具，它是给孩子用的可视化编程平台。
 想看更权威的清单，还是等刀姐的整理吧。
@@ -15,14 +15,14 @@ SEO App 哪怕限制免费次数，实际效果也很难超过直接用 ChatGPT 
 ### 三、教育类
 这是我最看好的一条线。ChatGPT 正在大幅拉低优质教育资源的获取成本。
 Khan Academy 我一直很期待，可惜没在列表里。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6838d5dc50d4340abd774811c9256e1e.png>
+![](img/zhuanqian_6838d5dc50d4340abd774811c9256e1e.png)
 我实际试了 edX 和 Wolfram。
 edX 的做法很直接，就是导流。所有课程推荐最终都跳回 edx.org 网站，网站上怎么做广告或会员收费，就很顺理成章了。只是未来 OpenAI 放开插件商店后，这种纯导流模式是否还能被允许，我保持怀疑。
 Wolfram 就不一样了，它是真正补足了 ChatGPT 缺失的计算能力。这种硬核能力补充，我愿意为它单独买单。
 ### 四、金融类
 金融也是重点赛道。投资分析依赖历史数据和后验验证，正好是 ChatGPT 能做的事。
 AITickerChat 和 Savvy Trader AI 目前都已联网，能基于实时信息给出投资参考。核心价值在于补足了联网和分析能力。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a51d2b284c35263946b97c27b45338d3.png>
+![](img/zhuanqian_a51d2b284c35263946b97c27b45338d3.png)
 如果未来能打通深度历史数据分析，这类插件是有付费潜力的。
 ### 五、娱乐类
 Chess 插件能让用户和 ChatGPT 下象棋，分级调节棋力，主要是为了增加互动趣味性。
@@ -32,7 +32,7 @@ Chess 插件能让用户和 ChatGPT 下象棋，分级调节棋力，主要是�
 说实话，在 GPT Plus 的使用限制下，WebPilot 和 KeyMate AI Search 的搜索能力很难超越 New Bing。
 Kraftful、Yay!Forms 这类更接近传统工具产品，变现逻辑就是基础功能免费，高级功能付费，限制导出次数、协作人数等。
 （图为 Yay!Forms 导出效果）
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_04874a34e71b0856ed1ba54dde479f47.png>
+![](img/zhuanqian_04874a34e71b0856ed1ba54dde479f47.png)
 ### 小结
 目前 ChatGPT Plugins 的变现路径大致有三条：
 1. 引流回自家站点再变现，比如 edX

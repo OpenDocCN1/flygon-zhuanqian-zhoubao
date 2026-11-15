@@ -9,9 +9,9 @@ AI 爆发的当下，我把 AI 真正融进了跨境生意里，并跑通了 AIG
 早期虽管得松，但玩家也完成了市场教育。海外用户连小黄车怎么点都懵，得靠文字箭头反复指引。
 如今平台和市场都成熟了，管控越来越严，以前大火的混剪带货在多国已失效，美区更是几乎一刀切，只认原创。
 更关键的是，海外原创门槛极高。没有本地模特、没有本地场景，直接催生出庞大的海外代拍产业链。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e5b57eb2c8dffea04a50b8c74b27056f.png>
+![](img/zhuanqian_e5b57eb2c8dffea04a50b8c74b27056f.png)
 可代拍价格不便宜，周期也长，导致这套打法基本只有大卖在用，难以规模化复制。以下是某头部代拍公司的报价单：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_38f5a4349442b1145109ac89c343d746.png>
+![](img/zhuanqian_38f5a4349442b1145109ac89c343d746.png)
 因此 TikTok 美区，自营商家的短视频占比非常低。据数据，TikTok 美区小店 GMV 中，达人带货占 80% 左右，广告约 15%，直播约 5%。
 市场就演变成商家多达人少，佣金越给越高，达人甚至开始收坑位费。
 这和国内抖音的进化路径如出一辙，最终商家自营账号一定会成为主流。所以我判断：AI 到来，跨境原创短视频的窗口彻底打开了！
@@ -20,22 +20,22 @@ AI 爆发的当下，我把 AI 真正融进了跨境生意里，并跑通了 AIG
 第一，素材受面孔限制。混剪做东南亚还行，因为面孔和国内相似度高，欧美就完全不行。不仅推流偏向亚裔，本地化不足也严重影响转化信任。
 第二，风控越来越严。混剪在美区基本过不了审，审核越来越苛。
 于是我开始验证 AI 原创短视频带货路径。测试多品类、多账号后都陆续出单，部分单品直接破百单。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0fe157860b278b32bf3db0c803afa383.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_40e4e6a4ed4ddecb6ad92a6f864c9818.png>
+![](img/zhuanqian_0fe157860b278b32bf3db0c803afa383.png)
+![](img/zhuanqian_40e4e6a4ed4ddecb6ad92a6f864c9818.png)
 很多朋友反馈根本看不出是 AI 生成，真实感和自然度都很在线，毕竟请到这些小模特现实中几乎不可能。
 美区我们还做了虚拟网红账号，打造健身博主 sophia，一条播放 2 万多的视频涨粉 1000+，吸粉效率很高。后续可挂健身品类。虚拟网红不用担心人设跑路、稳定性问题，还省去拍摄成本，我认为会成为趋势。
 方法论跑通后，越来越多的跨境卖家找上门，都说原创短视频是共性痛点。近两周一家跨境上市公司也找到我们，体量这么大，原创短视频依然是硬伤。
 他们邀请我和锦哥为短视频部门做 AI 内训，把整套方法论直接复制过去，他们也开启了 AI 带货。以前请外模一小时要 1000 元，现在 AI 方案既降本又提效。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cd83590f296c4c9eb01bfeadd9fd7b5c.png>
+![](img/zhuanqian_cd83590f296c4c9eb01bfeadd9fd7b5c.png)
 # 三、选国家和选品，这两步决定起步快慢
 TikTok 起家于兴趣电商，正在复制抖音的成功路径，GMV 年超 2 万亿，造就了一批亿元俱乐部卖家。
 无论是达人还是商家，短视频都是必选项。TikTok 是兴趣平台，电商必须叠加兴趣属性。目前海外直播还不成熟，平台 GMV 约 70% 来自短视频带货。
 机会很大。知情人士透露，TikTok Shop 前三季度 GMV 已超去年全年。
 从站点看，美区最强，上半年 GMV 占比达 24%，排名第一，泰国、印尼紧随其后，英国仅占 4%。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7ecc963e8259042609e7c43e8d6237a6.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_57378a23099896bbad69c3fbdf8ba42c.png>
+![](img/zhuanqian_7ecc963e8259042609e7c43e8d6237a6.png)
+![](img/zhuanqian_57378a23099896bbad69c3fbdf8ba42c.png)
 很多人想冲美区，毕竟赚美金、客单价高。特朗普大选后放话不会封禁 TikTok，心里的大石头落地。他自己的 TikTok 账号已有 1410 万粉丝，是平台涨粉最快的网红之一，TikTok 对他成功贡献不小。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e8e5d1b24af5f531020aeabb61cb8131.png>
+![](img/zhuanqian_e8e5d1b24af5f531020aeabb61cb8131.png)
 美区市场毋庸置疑，但对小白我建议先从东南亚起步，跑通 0-1 再去美国。美区体量大，门槛也高，不太友好。
 ## 一）橱窗开通门槛
 可开橱窗的站点：美区、英区、东南亚六国 马来西亚、印尼、新加坡、泰国、越南、菲律宾。
@@ -50,7 +50,7 @@ TikTok 起家于兴趣电商，正在复制抖音的成功路径，GMV 年超 2 
 ### 3、从需求和技术匹配
 一种是跟品，看 TikTok 榜单哪个类目需求最大，大类目出单快但竞争激烈。另一种是做蓝海，TikTok 缺什么就做什么，风险高但一旦成就是大 IP。
 还有要结合 AIGC 技术成熟度。我们主打 AI 原创，目前测试下来，服饰、宠物用品、车载用品效果最好。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cdd789f72ab00c00d429bb8ab219e3cb.png>
+![](img/zhuanqian_cdd789f72ab00c00d429bb8ab219e3cb.png)
 # 四、AIGC 原创带货视频怎么做
 ## 一）为什么必须做原创
 ### 1、平台风控升级
@@ -83,45 +83,45 @@ TikTok 对非原创内容打击升级，以前混剪基本失效，东南亚也�
 不同平台差异大，国内爆的海外不一定行。做海外必须用当地爆款脚本拆解仿制，要的是确定性结果而非偶然性。
 ### 2、生成产品图
 脚本确定后要给分镜出图。电商出图最强的是 ComfyUI，但配置和学习成本高，小白几个月都未必上手。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_14f7b9e9aad2e570a6784903415e4dd2.png>
+![](img/zhuanqian_14f7b9e9aad2e570a6784903415e4dd2.png)
 学习周期长不现实。我推荐一款跨境电商实用的电商工具，小白 3 分钟上手，月费几十人民币，新号送积分，效率高效果好。
 底层也是 ComfyUI，只是流程已搭好，网页端操作无配置压力。
 注册链接：https://linkfox.com/?channel=hujing
 做服饰可使用“AI 穿衣”、“真人换模特”、“人台换模特”、“一键换色”等功能。其他品类可用“场景裂变”、“商品替换”等功能。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1773f956287cf7936bcf5dcac205bf76.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8287c3613819d17c5ea352bf03847d58.png>
+![](img/zhuanqian_1773f956287cf7936bcf5dcac205bf76.png)
+![](img/zhuanqian_8287c3613819d17c5ea352bf03847d58.png)
 以 TikTok 精选联盟的一条连衣裙为例：
 先保存图片上传，选择“AI 穿衣”功能，系统会自动抠图，白底复杂背景都能处理，不满意可手动微调。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_839204b06b1ab7c7f219949e4eababae.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_05444902633d2e9cb8becf98580df1c8.png>
+![](img/zhuanqian_839204b06b1ab7c7f219949e4eababae.png)
+![](img/zhuanqian_05444902633d2e9cb8becf98580df1c8.png)
 选择想要的模特进行 AI 穿衣，网站提供大量外模，也可上传参考图，灵活性很高。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_46cdb16d1d1f9533829213c3adafcac0.png>
+![](img/zhuanqian_46cdb16d1d1f9533829213c3adafcac0.png)
 自动生成四张供挑选，效果自然，下载即可使用。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_aac1079f3720efce41c099bc0cc96aa4.png>
+![](img/zhuanqian_aac1079f3720efce41c099bc0cc96aa4.png)
 成品高清，还会自动搭配饰品。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5aa663589b5996595550a7c33331009d.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d917311e757d3a0cee1f38aa437964fd.png>
+![](img/zhuanqian_5aa663589b5996595550a7c33331009d.png)
+![](img/zhuanqian_d917311e757d3a0cee1f38aa437964fd.png)
 需要全身图就换个模特即可。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2624fd74ef13bee06c367db9e89d46b5.png>
+![](img/zhuanqian_2624fd74ef13bee06c367db9e89d46b5.png)
 多色 SKU 只需要“一键换色”，按参数调成原色，基本无误差。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_abb70b2259897820dda39894793d59bc.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_54819278f19415c8769574fb9e3f6a39.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6cf18caadcc285895eaa3b212b7cf490.png>
+![](img/zhuanqian_abb70b2259897820dda39894793d59bc.png)
+![](img/zhuanqian_54819278f19415c8769574fb9e3f6a39.png)
+![](img/zhuanqian_6cf18caadcc285895eaa3b212b7cf490.png)
 非服饰品类也可用，比如下面这个宠物用品成品图。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_86ad4254dab1bb4f3de4596eb319129e.png>
+![](img/zhuanqian_86ad4254dab1bb4f3de4596eb319129e.png)
 ### 3、生成产品视频
 图片搞定后就是视频。Runway 和可灵效果都不错，做跨境多用外模，Runway 更稳定，因为其大模型在外国面孔训练上更充分。
 # Runway + TikTok：AI 电商短视频从制作到出海变现完整实操
 想把 AI 出海短视频带货跑通，先把工具链和全流程理顺。视频生成这块，目前我主要用 Runway。
 runway 登录地址：https://app.runwayml.com/login
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8d3e918fd03f238184bc3674666992cf.png>
+![](img/zhuanqian_8d3e918fd03f238184bc3674666992cf.png)
 官方订阅的无限生成费用较高，一个月 95 美元。我实际使用是某宝找共享号，大概 75 元人民币每月，拿到账号密码后直接登录即可。
 模型建议选 Gen-3 Alpha Turbo，成片观感最好，还能输出竖版比例，很适合 9:16 短视频生态。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a10b3845e3e51eada7e7345201ae20b9.png>
+![](img/zhuanqian_a10b3845e3e51eada7e7345201ae20b9.png)
 上传参考图后，在提示区用英文写描述，时长可以选 5 秒或 10 秒。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1e22c55e92692679fbd8b9dd8fdd0688.png>
+![](img/zhuanqian_1e22c55e92692679fbd8b9dd8fdd0688.png)
 点开「相机」可以调整运镜参数，也能手动输入文字指令来控制镜头运动。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_55ec6e503bed7ef26a19cba2afd1ce0a.png>
+![](img/zhuanqian_55ec6e503bed7ef26a19cba2afd1ce0a.png)
 生成环节里，提示词决定成片质量。电商场景我们常用图生视频模式，提示词可拆成以下要素来写：
 | 序号 | 要素 | 说明 | 举例 |
 | 1 | 图像输入 | 作为画面底板的静态图 | “一幅宁静湖面的照片” |
@@ -142,14 +142,14 @@ prompt 避免长难句和古诗词，用短句表达。
 少量情感词会让画面更生动。
 例如“一个女孩穿连衣裙开心向前走”，效果就很自然。
 电商短视频里，首尾帧是控制人物的常用手法。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_02135c411b08ed37133f2bee9ae444ea.png>
+![](img/zhuanqian_02135c411b08ed37133f2bee9ae444ea.png)
 首尾帧的逻辑是：用户提供首帧、尾帧两张图，配合文字指令，让 AI 补完中间过渡。首帧是开场画面，尾帧是收尾画面；两张图能帮助模型保持主体稳定；文字指令告诉模型在何种场景下让主体怎样过渡。归纳起来就是主体＋过渡动作。用首尾帧给模特换衣服颜色，观感会显得有点魔性。
 生成片段后导入剪映剪辑。我更推荐海外版 CapCut，语言覆盖多国，音乐库带海外版权。
 CapCut 界面为英文，其余操作与剪映基本一致。
 把素材拖到时间线，配上服装类视频的专属 BGM，按音乐节奏切分镜头。通常拼接 3-5 个分镜，总时长控制在 7-15 秒体验最好。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9eb74491ff26af5180cc7d1bd3e12ff6.png>
+![](img/zhuanqian_9eb74491ff26af5180cc7d1bd3e12ff6.png)
 分镜之间可以加推进等转场，让衔接更流畅。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f5a039ba07d5d418a6ed56a0cb0284e9.png>
+![](img/zhuanqian_f5a039ba07d5d418a6ed56a0cb0284e9.png)
 导出后作品即完成。把工程保存为模板，后续只需替换素材即可批量出片。
 ## 一、手机环境准备
 TikTok 在不同地区的内容和功能不完全一致，环境调好后更稳定安全。
@@ -161,24 +161,24 @@ TikTok 在不同地区的内容和功能不完全一致，环境调好后更稳�
 4. 修改语言、地区、时区：语言改为英语、繁体或目标市场语言；时区与 IP 对应城市一致
 5. 手机必须拔卡，禁止插入中国 SIM
 具体设置页如下：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7e64199efa5262b5db01079fb8fceed3.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c44e46ed263c9fa81da53db290a59716.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e18e8f91944d7e3234124e652b8ad603.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f9be50cbb49862731b6324926ba6a244.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2b3e2435fbd51657a0b056571cac3d98.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4c544dac2ed4649842c87a4a412b042f.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8ad05f1931ea9872752b9f7e33638d99.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1cbd0022913529756329408020cc1b7f.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bdd0d8c0de7b84c99ad3be1fff3b2af5.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e1a4070d09bfc8b840e919ce92abe511.png>
+![](img/zhuanqian_7e64199efa5262b5db01079fb8fceed3.png)
+![](img/zhuanqian_c44e46ed263c9fa81da53db290a59716.png)
+![](img/zhuanqian_e18e8f91944d7e3234124e652b8ad603.png)
+![](img/zhuanqian_f9be50cbb49862731b6324926ba6a244.png)
+![](img/zhuanqian_2b3e2435fbd51657a0b056571cac3d98.png)
+![](img/zhuanqian_4c544dac2ed4649842c87a4a412b042f.png)
+![](img/zhuanqian_8ad05f1931ea9872752b9f7e33638d99.png)
+![](img/zhuanqian_1cbd0022913529756329408020cc1b7f.png)
+![](img/zhuanqian_bdd0d8c0de7b84c99ad3be1fff3b2af5.png)
+![](img/zhuanqian_e1a4070d09bfc8b840e919ce92abe511.png)
 环境就绪后，可插入当地白卡，也就是废卡，某宝可购得。
 ## 二、TikTok 下载
 先准备海外 Apple ID，可自注册也可购买。登录时务必点「不更新」。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5539fd5914306260826e17c497634579.png>
+![](img/zhuanqian_5539fd5914306260826e17c497634579.png)
 注意：Apple ID 不要在 iCloud 登录，只能在 App Store 登录。
 登录后即可下载 TikTok。
 网络建议用静态住宅 IP。目前已有国家备案的合规网络，按服务商指引搭建即可。搭建完成后检测 IP 地理位置，显示在当地即可安心打开。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5b7c3f9c11a2884b21a0f592d4b2a836.png>
+![](img/zhuanqian_5b7c3f9c11a2884b21a0f592d4b2a836.png)
 ## 三、账号注册
 海外可批量用邮箱注册，无需实名，比国内方便。
 - 不建议用 QQ、网易等国内邮箱
@@ -187,25 +187,25 @@ TikTok 在不同地区的内容和功能不完全一致，环境调好后更稳�
 - TikTok 不读取邮箱信息，审核不严
 起步用免费的 outlook 邮箱即可，一个 IP 一天可注册多个。
 www.outlook.com
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b5f6c7e260a3246e1d5f9d7b83f53b76.png>
+![](img/zhuanqian_b5f6c7e260a3246e1d5f9d7b83f53b76.png)
 ## 四、精选联盟橱窗开通
 TikTok 的橱窗机制类似国内，但它是全球平台，各国电商开放进度不同。
 目前可开通带货的国家有 8 个：东南亚六国 马来西亚、新加坡、印尼、泰国、越南、菲律宾，加上英国、美国。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d37257fb26956906be17a293564fc5e6.png>
+![](img/zhuanqian_d37257fb26956906be17a293564fc5e6.png)
 粉丝门槛：美区 5000 粉；印尼、菲律宾 600 粉；其余国家 1000 粉。
 以马来西亚为例：
 1. 搭建好马来节点，插上马来卡，注册账号，年龄需 18 岁以上，养号到 1000 粉。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2c8349b6db90f2039e5b35fc38aeb946.png>
+![](img/zhuanqian_2c8349b6db90f2039e5b35fc38aeb946.png)
 2. 后台申请权限：右上角菜单 → Creator tools → 拉到底部点 TikTok Shop
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_125068fde2d8a5875a7a8cf5c17c97a8.png>
+![](img/zhuanqian_125068fde2d8a5875a7a8cf5c17c97a8.png)
 满足粉丝 1000 以上且年满 18 岁即可开通。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d524919cd9286a289db1d223646fa8da.png>
+![](img/zhuanqian_d524919cd9286a289db1d223646fa8da.png)
 开通后进入精选联盟添加商品。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_49e22a1bbca8c1f0d4972da275e548e9.png>
+![](img/zhuanqian_49e22a1bbca8c1f0d4972da275e548e9.png)
 操作与国内抖音类似，看中商品直接 Add 入橱窗即可挂车。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e0aba0b5379fdc493eaea41b634431ab.png>
+![](img/zhuanqian_e0aba0b5379fdc493eaea41b634431ab.png)
 发布视频时点 Add Link 添加商品，可单加可多加；多加会以列表呈现，发布前可微调商品名。发布后橱窗会自动展示。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_384c130bb0c98e8b61b41f4e24741292.png>
+![](img/zhuanqian_384c130bb0c98e8b61b41f4e24741292.png)
 之后坚持更新即可等单收美金。账号越做越好，短视频具备长尾效应，旧作品也会持续带来收益。
 ## 五、回款方式
 ### 东南亚市场 马来西亚、泰国、菲律宾、越南、印尼

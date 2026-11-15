@@ -7,13 +7,13 @@
 # 一、先说 AI PPT 到底在干嘛
 一句话：你丢一个主题进去，它帮你一键产出一个能用的 PPT。
 核心体验就四步走：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d99d3706aa03d6752cb56aa98fe5aa13.png>
+![](img/zhuanqian_d99d3706aa03d6752cb56aa98fe5aa13.png)
 AI 生成大纲
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_efd38808d1a3389ce80f0703068ff214.png>
+![](img/zhuanqian_efd38808d1a3389ce80f0703068ff214.png)
 挑选模板
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d2ef6b1ae9a07222e94c80a902fefc7f.png>
+![](img/zhuanqian_d2ef6b1ae9a07222e94c80a902fefc7f.png)
 根据大纲和模板生成 PPT
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_965fa18421d2fcacaff75219ad7246f1.png>
+![](img/zhuanqian_965fa18421d2fcacaff75219ad7246f1.png)
 根据 AI 生成的 PPT 进行细节调整
 以前做一份PPT要耗半天，现在 4 步就能拿到一个及格线以上的初稿，效率感拉满。
 当然，质量能不能打要看场景。有的场景它就是救急神器，有的场景就不够用。
@@ -33,7 +33,7 @@ AI PPT 把边界想得很清楚：它服务的是偶尔做 PPT、要求不高、
 但换个打法就活了：只解决用户工作流里最痛的一个环节。
 比如先给你一个基于选题的 PPT 骨架和模板，再由你自己去润色文案细节。AI 负责理解主题、生成大纲和初稿文本，配合现成模板，1 分钟就能出框架，后面的人工微调成本就低很多。
 AI 不替代人，而是帮人把某一个环节的消耗降到最低。
-这一点在我自己的 AI 实践里体会特别深。AI 落地最关键的不是“能做什么”，而是“人和 AI 怎么分工，workflow 怎么拆”。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b0c1dd4a44a741c5f8f1ae220a5b1bc2.png>
+这一点在我自己的 AI 实践里体会特别深。AI 落地最关键的不是“能做什么”，而是“人和 AI 怎么分工，workflow 怎么拆”。![](img/zhuanqian_b0c1dd4a44a741c5f8f1ae220a5b1bc2.png)
 大家一提到 AI 就想着替代，客服就是典型。客服 AI 替代不了客服，但能当助手，把传统搜索式的知识库查询变得更高效。AI 让过去能解决 10 个用户的问题的人，现在能解决 20 个，但最终的用户体验还是由人决定：态度、主观能动性、价值观。
 AI 是做加法，不是替代。未来 1-3 年它也不可能完全取代人。把 AI 嵌入现有流程，让原来做不到的能做了，效率整体提升了，业务才能跑得更快。
 # 四、流量的获客细节要做深，一个点就能翻倍

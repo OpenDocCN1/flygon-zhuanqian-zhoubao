@@ -1,7 +1,7 @@
 # Obsidian + Knowledge mem + Codex：自建知识中台，给自己造一个会写稿的数字分身
 **2026-04-20** 副业 SC 精华
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8284453fc0f38b4f189e835287d8dd31_0_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8284453fc0f38b4f189e835287d8dd31_0_1.png>
+![](img/zhuanqian_8284453fc0f38b4f189e835287d8dd31_0_0.png)
+![](img/zhuanqian_8284453fc0f38b4f189e835287d8dd31_0_1.png)
 **微信：**
 大家好，我是龙哥，目前在南宁创业。
 主营两条线：本地同城教育业务，和 AI 内容生产变现。过去两年从家教中介做起，逐步建成后端教师交付团队，同时也深耕同城教育个人 IP。
@@ -14,12 +14,12 @@
 起初带老师用 GPT、Claude、DeepSeek 等大模型直接生产。结果每篇差异大，老师写稿还挤占备课授课时间，进度被拖慢。
 改由专职运营统筹生产分发，效率依然不高，成稿品质参差。
 我还尝试过搭建 Coze 工作流、写指令让运营套用，效果有限。要么模型胡编乱造，要么缺乏我们的品牌气质。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8284453fc0f38b4f189e835287d8dd31_2_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8284453fc0f38b4f189e835287d8dd31_2_1.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8284453fc0f38b4f189e835287d8dd31_2_2.png>
+![](img/zhuanqian_8284453fc0f38b4f189e835287d8dd31_2_0.png)
+![](img/zhuanqian_8284453fc0f38b4f189e835287d8dd31_2_1.png)
+![](img/zhuanqian_8284453fc0f38b4f189e835287d8dd31_2_2.png)
 于是持续试错。
 直到近期刷到一篇 Obsidian+Claude 的实操笔记，再结合赚钱圈几位头部玩家的分享，我确定了方向：先把自有素材结构化沉淀，再让模型基于私有库创作，既能守住调性，又能扩大量产。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8284453fc0f38b4f189e835287d8dd31_3_0.png>
+![](img/zhuanqian_8284453fc0f38b4f189e835287d8dd31_3_0.png)
 随即启动 Obsidian + Claude 的搭建研究。
 因 Claude 的访问稳定性不佳，最后切换到 Codex。虽然 Claude 综合能力更强，只要框架搭好，Codex 的落地效果也完全够用。
 相信不少人都有“想让 AI 写得更像自己，却没有好办法”的困扰。接下来把我的搭建思路和实操路径分享出来。
@@ -28,9 +28,9 @@
 同城那套迭代较浅，主要是为了线下转化，人设加成需求不高。我个人负责图文生产再分发，核心是规模化制造与沉淀，不刻意植入个人标签。
 ### 1、同城教育知识库
 过去所有内容都放在飞书文档，对标、写完即归档，下轮选题、对标、对话需要全部重来。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8284453fc0f38b4f189e835287d8dd31_4_0.png>
+![](img/zhuanqian_8284453fc0f38b4f189e835287d8dd31_4_0.png)
 下面仅展示整体形态，不做细节拆解。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8284453fc0f38b4f189e835287d8dd31_5_0.png>
+![](img/zhuanqian_8284453fc0f38b4f189e835287d8dd31_5_0.png)
 # 核心分区
 ### 1.1、收信箱
 把对标账号内容通过插件抓取进来，作为改写原料。
@@ -38,20 +38,20 @@
 调用 AI 技能改写对标内容，一键 Skill 即可完成。
 ### 1.3、指令集
 包含生成正文、生成 HTML 卡片、生成短视频口播的指令文件，直接调用即可。生成物自动归入成稿区，后续可被复用，不像飞书文档用一次就废。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8284453fc0f38b4f189e835287d8dd31_6_0.png>
+![](img/zhuanqian_8284453fc0f38b4f189e835287d8dd31_6_0.png)
 ### 1.4、HTML 卡片
 也就是小绿书图文形态，批量调用可按需产出指定数量卡片，再分发给老师发布。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8284453fc0f38b4f189e835287d8dd31_6_1.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8284453fc0f38b4f189e835287d8dd31_7_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8284453fc0f38b4f189e835287d8dd31_7_1.png>
+![](img/zhuanqian_8284453fc0f38b4f189e835287d8dd31_6_1.png)
+![](img/zhuanqian_8284453fc0f38b4f189e835287d8dd31_7_0.png)
+![](img/zhuanqian_8284453fc0f38b4f189e835287d8dd31_7_1.png)
 目前小绿书推流很猛，是主要获客渠道。
 新号靠图文就带来约 3 万营收，其他老师账号同步发布，数据同样不错。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8284453fc0f38b4f189e835287d8dd31_7_2.png>
+![](img/zhuanqian_8284453fc0f38b4f189e835287d8dd31_7_2.png)
 ### 2、AI 自媒体知识库
 这套库已相对完善，选题源源不断，且具备自生长特性，用得越多越贴近我的个人风格。重点拆解这套。
 ### 2.1、总目录
 系统全貌，部分模块仍在设计阶段，可按自身情况调整。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8284453fc0f38b4f189e835287d8dd31_8_0.png>
+![](img/zhuanqian_8284453fc0f38b4f189e835287d8dd31_8_0.png)
 ### 2.2、Claude 目录
 存放 Skills、Commands、Rules 等底层规则，用于驱动 AI 完成爆文拆解入库、基于记忆出选题、依选题写作等。规则本身也是 AI 生成，告诉它需求它就能产出。
 ![image](https://i.imgur.com/placeholder1.png)
@@ -61,9 +61,9 @@
 ### 2.4、素材库
 存放 AI 拆解后的文章，我通常拆成标题、结构、金句、开头，后续可补充结尾引导。
 例如把卡兹克的一篇喂给 AI，它会拆出标题、金句、结构模型，后续写作就能直接引用。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8284453fc0f38b4f189e835287d8dd31_10_0.png>
+![](img/zhuanqian_8284453fc0f38b4f189e835287d8dd31_10_0.png)
 调用拆文指令后，AI 严格按预设规则拆解，一条指令搞定。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8284453fc0f38b4f189e835287d8dd31_10_1.png>
+![](img/zhuanqian_8284453fc0f38b4f189e835287d8dd31_10_1.png)
 每次拆解都成为后续写作的养分。
 已按 `claude/commands/content-goldmine.md` 全流程完成。
 **类型：** 命令
@@ -82,13 +82,13 @@ GPT-5.3 Codev
 已保存到:02_素材库/灵感素材/金句/2026-04-07_数字生命卡片...
 已保存到:02_素材库/灵感素材/金句/2026-04-07_数字生命卡片...
 ...已修改 4 个文件
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8284453fc0f38b4f189e835287d8dd31_11_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8284453fc0f38b4f189e835287d8dd31_11_1.png>
+![](img/zhuanqian_8284453fc0f38b4f189e835287d8dd31_11_0.png)
+![](img/zhuanqian_8284453fc0f38b4f189e835287d8dd31_11_1.png)
 以上为核心目录结构。
 ## 三、日常使用路径
 - **1、收藏对标**
 找到优质对标后，通过 Obsidian 插件一键收进收件箱指定目录，后续操作见说明。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8284453fc0f38b4f189e835287d8dd31_12_0.png>
+![](img/zhuanqian_8284453fc0f38b4f189e835287d8dd31_12_0.png)
 - **2、调用 Skill 拆解**
 Skill 按需配置，我主要拆标题、开头、结构、金句。
 ![Screenshot of chat interface with shell commands and memory entries](https://b26ca5...)
@@ -169,7 +169,7 @@ allowed-tools: Read, Write, Edit, Glob, Grep, Bash
 ```
 ```
 比如说最近我保存以及写的内容都与搭建 AI 知识库相关的，那么给我的选题更多也是和知识库相关的。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8284453fc0f38b4f189e835287d8dd31_15_0.png>
+![](img/zhuanqian_8284453fc0f38b4f189e835287d8dd31_15_0.png)
 ### 犀利观点 (4)
 1, 你不是不会用 AI，你是在还在靠“聊天思路”做“系统工程”
 - **核心洞察**：问题不在提示词，而在缺少可复用流程和边界
@@ -196,60 +196,60 @@ allowed-tools: Read, Write, Edit, Glob, Grep, Bash
 ```
 4、写作
 选题出来后，如果你对系统给的选题满意，那就打下对应的选题标号，系统自动就会调用我们的写作 Skill 给我们写作了，并且会把初稿保存到我们在我指定的目录下，当然，如果你不想保存在这个目录，也可以让系统修改 Skill，下次按照你指定的目录保存。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8284453fc0f38b4f189e835287d8dd31_16_0.png>
+![](img/zhuanqian_8284453fc0f38b4f189e835287d8dd31_16_0.png)
 ### 5、手动修改
 因为每次 AI 生成的或多或少会有一些不符合自己表述的方式，特别是刚开始，AI 系统对你不够了解的情况下，这个时候，就需要自己手动修改。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8284453fc0f38b4f189e835287d8dd31_16_1.png>
+![](img/zhuanqian_8284453fc0f38b4f189e835287d8dd31_16_1.png)
 ### 6、草稿终稿对比，写入风格
 把初稿和终稿对比，然后 AI 就能识别出你的修改内容，最终总结你的风格标准，就可以作为下次写作的一个参考了。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8284453fc0f38b4f189e835287d8dd31_17_0.png>
+![](img/zhuanqian_8284453fc0f38b4f189e835287d8dd31_17_0.png)
 ### 7、记忆系统
 让记忆系统记住我们的重点内容，比如我们修改后的内容，或者有什么感想等等。
 这样后续使用的时候，AI 就知道该怎么去执行了。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8284453fc0f38b4f189e835287d8dd31_17_1.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8284453fc0f38b4f189e835287d8dd31_18_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8284453fc0f38b4f189e835287d8dd31_18_1.png>
+![](img/zhuanqian_8284453fc0f38b4f189e835287d8dd31_17_1.png)
+![](img/zhuanqian_8284453fc0f38b4f189e835287d8dd31_18_0.png)
+![](img/zhuanqian_8284453fc0f38b4f189e835287d8dd31_18_1.png)
 以上就是我设计的这套系统的一个使用流程，这也是我学习了很多不同大佬的教程后，总结出适合自己的一个使用方法。其实搭建起来还是比较简单的，主要还是要有自己的业务流程。
 接下来给大家分享一下如何去搭建一个属于自己的知识库。
 ## 四、具体案例使用
 ### 1、大纲生成文章
 最近赚钱拉新，之前我想写来着，一直都没有找到一个很好的方向，于是我就用我的 AI 系统帮我写了一篇文章。
 获得了差不多 6000 的阅读量，其中 96% 都是来自推荐，而且目前流量还在跑。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8284453fc0f38b4f189e835287d8dd31_19_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8284453fc0f38b4f189e835287d8dd31_19_1.png>
+![](img/zhuanqian_8284453fc0f38b4f189e835287d8dd31_19_0.png)
+![](img/zhuanqian_8284453fc0f38b4f189e835287d8dd31_19_1.png)
 分享一下，这个案例的具体操作方法。
 首先我在随想的文章下写了个大纲，就是简单的一些想法。
 也就是我是如何接触赚钱的，后来为何续费的一些经历写上去（那个草稿被我删了）
 然后我让 AI 根据我的大纲目录帮我拓展。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8284453fc0f38b4f189e835287d8dd31_20_0.png>
+![](img/zhuanqian_8284453fc0f38b4f189e835287d8dd31_20_0.png)
 ### AI 根据我的内容给我初稿，但是我觉得不够好，因为我没有给它说明需要写公众号，于是我又根据它的提示，帮我生成对应的长文。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8284453fc0f38b4f189e835287d8dd31_20_1.png>
+![](img/zhuanqian_8284453fc0f38b4f189e835287d8dd31_20_1.png)
 ### 它给我一个非常好的标题：我被“盗版龙哥盟”征服了：从白嫖到续费，我终于看懂了一个真相
 ### 我想也是因为这个标题，阅读量才这么大！
 - 然后我觉得这篇文章写得太好了，把我的历程给记录下来了，还写出了我想表达但
 是表达不出来的内容。我感觉这个 AI 系统比我更懂我自己。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8284453fc0f38b4f189e835287d8dd31_21_0.png>
+![](img/zhuanqian_8284453fc0f38b4f189e835287d8dd31_21_0.png)
 ### 于是他调用风格归纳，把我这篇文章的行文风格给归纳到我的静态风格当中。
 ### 后续可以直接服用，使用我的风格写文章。
 ## 2、系统选题成文
 我内置了一个 IDEA Spark，用来生成选题。如果你不懂得今天写什么，系统就会根据你近期的内容，你记忆中的内容，以及通用内容来进行分析选题。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8284453fc0f38b4f189e835287d8dd31_22_0.png>
+![](img/zhuanqian_8284453fc0f38b4f189e835287d8dd31_22_0.png)
 比如最近我剪藏了几篇关于赚钱的内容，也是我们圈友写的公众号文章，系统会根据近期的一些重点来给我出选题。圈友的这些文章以及金句，就是我们做选题的原材料。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8284453fc0f38b4f189e835287d8dd31_22_1.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8284453fc0f38b4f189e835287d8dd31_22_2.png>
+![](img/zhuanqian_8284453fc0f38b4f189e835287d8dd31_22_1.png)
+![](img/zhuanqian_8284453fc0f38b4f189e835287d8dd31_22_2.png)
 选择一个选题，然后系统就会给出写作框架。
 ## 3、根据对标内容写文章
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8284453fc0f38b4f189e835287d8dd31_23_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8284453fc0f38b4f189e835287d8dd31_23_1.png>
+![](img/zhuanqian_8284453fc0f38b4f189e835287d8dd31_23_0.png)
+![](img/zhuanqian_8284453fc0f38b4f189e835287d8dd31_23_1.png)
 确定选题，系统就会给我生成一篇文章。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8284453fc0f38b4f189e835287d8dd31_23_2.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8284453fc0f38b4f189e835287d8dd31_23_3.png>
+![](img/zhuanqian_8284453fc0f38b4f189e835287d8dd31_23_2.png)
+![](img/zhuanqian_8284453fc0f38b4f189e835287d8dd31_23_3.png)
 ## 4、配图
 生成文章后，自己觉得文章不错，就可以调用配图 skill 给文章配图。
 最近出的文章都是通过 skill 来配图的，这个 skill 调用的就是豆包的 API。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8284453fc0f38b4f189e835287d8dd31_24_0.png>
+![](img/zhuanqian_8284453fc0f38b4f189e835287d8dd31_24_0.png)
 生成的图片保存到对应的目录下，而且在文章的对应位置添加图片。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8284453fc0f38b4f189e835287d8dd31_24_1.png>
+![](img/zhuanqian_8284453fc0f38b4f189e835287d8dd31_24_1.png)
 至此，一篇符合自己选题的内容，以及添加了图片的文章就完成了，整个过程 2 分钟不到，最多的还是等待的时间。
 在这个等待的时间，你还可以回复其他消息。
 ## 五、为什么要造知识库
@@ -262,10 +262,10 @@ allowed-tools: Read, Write, Edit, Glob, Grep, Bash
 #### 1.1、Obsidian 安装
 桌面应用地址：https://obsidian.md/
 直接按照流程下载安装就可以了，没有太复杂的。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8284453fc0f38b4f189e835287d8dd31_29_0.png>
+![](img/zhuanqian_8284453fc0f38b4f189e835287d8dd31_29_0.png)
 #### 安装网页插件：Obsidian Web Clipper
 这个插件在谷歌商店搜索就可以了，用途参照使用过程中的。它可以剪藏你喜欢的内容，保存到对应目录。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8284453fc0f38b4f189e835287d8dd31_30_0.png>
+![](img/zhuanqian_8284453fc0f38b4f189e835287d8dd31_30_0.png)
 点击插件的右上角，可以对插件进行设置。
 ### Sharpen your thinking.
 The free and flexible app for your private thoughts.
@@ -279,38 +279,38 @@ Add to Obsidian
 00_收件箱/Clippings
 Add to Obsidian
 在这里设置你的剪藏目录，这样剪藏之后就会到你 Obsidian 的指定目录，如果不设置，就会在根目录下创建一个 Clippings 文件夹，把剪藏内容放进去。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8284453fc0f38b4f189e835287d8dd31_32_0.png>
+![](img/zhuanqian_8284453fc0f38b4f189e835287d8dd31_32_0.png)
 #### 1.2、安装 Claude code
 这个我们圈内有安装教程，不难，直接对着抄就可以了。
 安装好 Claude code 之后，可以在 Obsidian 里安装一个 claudian 插件，这个是非常适配 Obsidian 的，可以直接用 Claude code 来执行。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8284453fc0f38b4f189e835287d8dd31_32_1.png>
+![](img/zhuanqian_8284453fc0f38b4f189e835287d8dd31_32_1.png)
 点击浏览，即可搜索安装对应的插件。
 有的插件搜不到的，可以到 GitHub 上搜索。
 如果是 GitHub 上下载的，可以在这个文件下创建。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8284453fc0f38b4f189e835287d8dd31_33_0.png>
+![](img/zhuanqian_8284453fc0f38b4f189e835287d8dd31_33_0.png)
 比如我们在插件市场搜索不到 claudian，可以直接 GitHub 上搜索 claudian，然后按照他们项目说明下载最新的文件，然后在我们本地创建一个文件夹，把对应内容放进去就可以了。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8284453fc0f38b4f189e835287d8dd31_33_1.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8284453fc0f38b4f189e835287d8dd31_33_2.png>
+![](img/zhuanqian_8284453fc0f38b4f189e835287d8dd31_33_1.png)
+![](img/zhuanqian_8284453fc0f38b4f189e835287d8dd31_33_2.png)
 这里填入你的 Claude code 的 key 就可以用了。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8284453fc0f38b4f189e835287d8dd31_34_0.png>
+![](img/zhuanqian_8284453fc0f38b4f189e835287d8dd31_34_0.png)
 使用下来，还是 Claude code 效果更好，建议能用 Claude 的就用 Claude，如果不能使用，也可以使用 Codex，但是没有 Claude code 和 Obsidian 融合那么好。
 #### 1.3、安装 Open Code
 如果用不了 Claude code 再用这个方法。
 下载安装 Open Code：https://opencode.ai/
 你可以把它理解成类似于 Cursor 一样的工具就行，就是可以直接调用 Claude code 或者 Codex 的工具。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8284453fc0f38b4f189e835287d8dd31_35_0.png>
+![](img/zhuanqian_8284453fc0f38b4f189e835287d8dd31_35_0.png)
 ### 设置大模型
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8284453fc0f38b4f189e835287d8dd31_35_1.png>
+![](img/zhuanqian_8284453fc0f38b4f189e835287d8dd31_35_1.png)
 提供的可连接的模型还是很多的，也可以用 Claude code；Codex 的链接也比较简单，也是跳转网页版授权链接。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8284453fc0f38b4f189e835287d8dd31_35_2.png>
+![](img/zhuanqian_8284453fc0f38b4f189e835287d8dd31_35_2.png)
 #### 1.4、安装 knowledge mem
 下载安装：https://mem.nowledge.co/zh
 你可以把它当成记忆功能，它可以链接你的很多知识和内容，让你的知识点可以重复利用。
 下载安装完之后，就可以把一下设置给弄好。
 注：刚开始搭建个人知识库的时候这个工具可以不需要，先把自己的最小化知识库搭建起来，这个可以后续再用，先完成，再完美。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8284453fc0f38b4f189e835287d8dd31_36_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8284453fc0f38b4f189e835287d8dd31_36_1.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8284453fc0f38b4f189e835287d8dd31_36_2.png>
+![](img/zhuanqian_8284453fc0f38b4f189e835287d8dd31_36_0.png)
+![](img/zhuanqian_8284453fc0f38b4f189e835287d8dd31_36_1.png)
+![](img/zhuanqian_8284453fc0f38b4f189e835287d8dd31_36_2.png)
 ```
 ▶️ *我是九取*
 ### 关于我
@@ -345,12 +345,12 @@ Add to Obsidian
 目录结构可以自行创建，这个主要是与自身业务相关。一开始你不必要这么完整，只需要创建你想要的几个文件夹就行。
 比如收件箱、素材库和归档。
 收件箱可以用来存储你剪藏的内容或者临时内容，素材库是让 AI 将你剪藏的内容拆解存储的地方；归档就是你最终要写作的草稿和发布的内容。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8284453fc0f38b4f189e835287d8dd31_38_0.png>
+![](img/zhuanqian_8284453fc0f38b4f189e835287d8dd31_38_0.png)
 #### 2.3 系统规范
 还有个顶层文件夹，`.claude`，这个文件夹里存放规则、技能、命令等文件，这个是我们 AI 知识库的一个控制中心。
 可以通过这些指令去规范化 AI 去执行。这个是 AI 系统在读取 Claude.md 文件外要遍历的文件。
 `rules` 里存放各种规则，比如说我的说话风格。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8284453fc0f38b4f189e835287d8dd31_39_0.png>
+![](img/zhuanqian_8284453fc0f38b4f189e835287d8dd31_39_0.png)
 **商业原则**
 ```
 ```
@@ -358,7 +358,7 @@ Add to Obsidian
 这些 skills 可以放你自己写的各种 skill，也就是让 AI 系统来做什么的。
 [比如这个 content skill 就是用来拆解文章放入素材库的。]
 至于要怎么业务流程，可以自己和 AI 聊，然后让他形成 skill。这样就可以稳定的调用了。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8284453fc0f38b4f189e835287d8dd31_40_0.png>
+![](img/zhuanqian_8284453fc0f38b4f189e835287d8dd31_40_0.png)
 ## 3、越用越好用
 有了以上的系统底层之外，就是要开始使用。
 不要想着一开始就完美，AI 知识库是越用越好用，越用越强大的。

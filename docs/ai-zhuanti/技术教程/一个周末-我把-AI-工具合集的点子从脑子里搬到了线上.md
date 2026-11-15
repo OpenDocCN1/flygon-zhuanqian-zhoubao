@@ -54,5 +54,5 @@ Vercel 提供免费额度，部署流程极简，和 Astro 的配合几乎是开
 彩笺 : 收到，谢谢建议！
 女巫的蛋挞 : 不懂代码也能把网站做出来，真的不要给自己设限，遇到问题就一个个解决。
 彩笺 : 对我来说最难的其实是迈出第一步，想法比执行更关键[捂脸]
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_21de372a77ea1f441c613f7316831ae1.png>
+![](img/zhuanqian_21de372a77ea1f441c613f7316831ae1.png)
 * * *

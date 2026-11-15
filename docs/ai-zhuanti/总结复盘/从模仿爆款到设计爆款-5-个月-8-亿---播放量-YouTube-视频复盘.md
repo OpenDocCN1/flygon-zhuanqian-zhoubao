@@ -10,7 +10,7 @@
 2023年9月我失业了，之后一直在找方向。加入赚钱后，我跟着参加了10次航海，小红书电商、闲鱼高客单、公众号爆文、AI视频制作……能试的基本都试了一遍。但电商这种项目，一个人单打独斗太吃力，既要资金又要人力，还要天天应付买家的各种售后轰炸，时间被切得稀碎。对喜欢安静做事的i人来说，这简直是一种折磨。
 24年11月，我在鱼丸的朋友圈看到油管陪伴群的消息，才知道原来YouTube上也能靠AI视频赚钱。而等到12月航海报名时，我恰好碰上家人生病需要陪护，定了闹钟还是没抢上，900个名额瞬间就没了。无奈之下，我决定自己照着手册先干起来：建账号、找对标，2月10日信心满满发出第一条视频。结果播放量多半是几十、几百，偶尔才能破千。那时我甚至不知道频道新开可以解决“0播放”的问题。
 3月总算赶上了第二次YouTube航海。可当时的我完全不懂什么叫“微创新”，只会做一些类似猫换狗、苹果换梨的“找不同”操作，这种换汤不换药的复制，怎么可能爆？后来看到深海圈的宣传，也翻过曹教练和波妮教练的帖子，看到他们帮很多圈友拿到了YPP，说不动心是假的。但5000块报名费还是让我犹豫了——那会儿我已经大半年没有收入，纠结到深夜，最后还是放弃了。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_91de067255aa21151bd707faa98848bf_8_0.png>
+![](img/zhuanqian_91de067255aa21151bd707faa98848bf_8_0.png)
 放弃之后我给自己定了个期限：再试一个月，不行就去付费学。结果一个月过去，依然没有爆款。我意识到光靠自己闷头做，永远补不上信息差，于是7月正式加入了深海圈。
 进圈后先看手册，信息量巨大，直接把我砸懵了。7月20日，我约了六只猫教练做第一次咨询，问的还是“做什么赛道”“要不要做4K”这种基础问题；到了8月11日第二次咨询，问的问题就进阶多了——比如具体分析一个故事，爆点在哪里，哪个脚本适合拿来复刻。教练特别耐心，甚至能敏锐察觉到我焦虑的情绪，给了很多鼓励。
 真正的转折是在8月的深圳、广州聚会。曹教练点评作业时说了一句话：把脚本的内核提炼出来，再在上面叠加爆款元素、冲突和反转。我就是顺着这个点去改脚本，很快做出了第一个千万播放爆款。
@@ -22,44 +22,44 @@
 ![](bbox=[75, 297, 854, 450])
 情绪曲线是最重要的部分。开场就是砸破玻璃抢烧鸡，不铺垫女主角有多惨，先把悬念砸给观众；两场追逐戏从慢到快，节奏层层递进；等她跑回家，镜头才揭示偷鸡的原因——瘦弱的妹妹正开心地啃鸡腿；接着厨师破门而入，姐妹俩惊恐，他大声怒骂；姐姐跪在地上痛哭，说出两人的艰难；最后厨师没有继续发火，反而给钱，姐姐跪谢。整个冲突从对抗转向怜悯。这些设计其实是从苦情剧里来的：不得已作恶——被揭穿——下跪——和解，百试百灵。
 人物特点我也做了强化。主角必须看起来瘦弱、邋遢、居住环境很差，这样“偷”这个行为才显得合理，观众也更容易同情。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_91de067255aa21151bd707faa98848bf_12_0.png>
+![](img/zhuanqian_91de067255aa21151bd707faa98848bf_12_0.png)
 ![](bbox=[66, 26, 850, 469])
 ![](bbox=[63, 479, 850, 925])
 另外，AI生成的人物表情远没有真人那么生动，所以在没有台词的前提下，想把人物意图传递清楚，表情和情绪就必须画得更外放、更准确。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_91de067255aa21151bd707faa98848bf_14_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_91de067255aa21151bd707faa98848bf_14_1.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_91de067255aa21151bd707faa98848bf_15_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_91de067255aa21151bd707faa98848bf_15_1.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_91de067255aa21151bd707faa98848bf_16_0.png>
+![](img/zhuanqian_91de067255aa21151bd707faa98848bf_14_0.png)
+![](img/zhuanqian_91de067255aa21151bd707faa98848bf_14_1.png)
+![](img/zhuanqian_91de067255aa21151bd707faa98848bf_15_0.png)
+![](img/zhuanqian_91de067255aa21151bd707faa98848bf_15_1.png)
+![](img/zhuanqian_91de067255aa21151bd707faa98848bf_16_0.png)
 这个视频拿到了1000多万播放。之后我又在同一个脚本上做了好几版衍生改编。
 角色互换版：把主角性别、身份对调，提示词基本沿用。这里还发生了一个小插曲——同一套提示词里，鸡腿忘了换成披萨。我出图后发现这个问题，但特意保留了这个分镜没改，想着看看这种刻意的错误能不能带来评论互动。结果证明，不必事事完美，这个分镜反而成为评论区热议的焦点，最终带来5600万播放量。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_91de067255aa21151bd707faa98848bf_17_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_91de067255aa21151bd707faa98848bf_18_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_91de067255aa21151bd707faa98848bf_18_1.png>
+![](img/zhuanqian_91de067255aa21151bd707faa98848bf_17_0.png)
+![](img/zhuanqian_91de067255aa21151bd707faa98848bf_18_0.png)
+![](img/zhuanqian_91de067255aa21151bd707faa98848bf_18_1.png)
 主题改编版：把“偷烧鸡”替换成偷衣服、偷手机（礼物）、偷首饰、偷泡面……只要核心逻辑不变，偷什么东西都能成立。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_91de067255aa21151bd707faa98848bf_19_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_91de067255aa21151bd707faa98848bf_20_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_91de067255aa21151bd707faa98848bf_20_1.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_91de067255aa21151bd707faa98848bf_21_0.png>
+![](img/zhuanqian_91de067255aa21151bd707faa98848bf_19_0.png)
+![](img/zhuanqian_91de067255aa21151bd707faa98848bf_20_0.png)
+![](img/zhuanqian_91de067255aa21151bd707faa98848bf_20_1.png)
+![](img/zhuanqian_91de067255aa21151bd707faa98848bf_21_0.png)
 结局改编版：从喜剧变悲剧。主人公不得已做了坏事，却依然得不到好结果，每次快要成功的时候，就被车撞、被广告牌砸、被地铁撞、被警察抓，最后只能抱着遗物痛哭。我还参考了一个真人博主给孩子买手机的结尾，让悲剧情绪更浓。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_91de067255aa21151bd707faa98848bf_22_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_91de067255aa21151bd707faa98848bf_22_1.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_91de067255aa21151bd707faa98848bf_23_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_91de067255aa21151bd707faa98848bf_23_1.png>
+![](img/zhuanqian_91de067255aa21151bd707faa98848bf_22_0.png)
+![](img/zhuanqian_91de067255aa21151bd707faa98848bf_22_1.png)
+![](img/zhuanqian_91de067255aa21151bd707faa98848bf_23_0.png)
+![](img/zhuanqian_91de067255aa21151bd707faa98848bf_23_1.png)
 ![](bbox=[60, 26, 847, 442])
 整个系列一共拿下1.5亿播放，其中两条视频单条分别达到4600多万和5700万：
 ![](bbox=[63, 636, 918, 888])
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_91de067255aa21151bd707faa98848bf_25_0.png>
+![](img/zhuanqian_91de067255aa21151bd707faa98848bf_25_0.png)
 再往后，我开始尝试更抽象的改法——把脚本的内核完全抽离出来，再放到一个新的故事里重新生长。比如“一个人为了隐藏本来面目而改造自己，改造前后反差极大”这个内核，可以变成丑女变美女，也可以变成矮胖秃的男主角费尽心思打扮成高富帅，结果被自己扔的香蕉皮滑倒、假发脱落；还可以变成男扮女装，没有开门杀，也没有跌倒，而是因为饮食习惯露馅：真正的主角爱吃辣拉面，冒牌货却怕辣，最后打斗时又砸了玻璃。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_91de067255aa21151bd707faa98848bf_26_0.png>
+![](img/zhuanqian_91de067255aa21151bd707faa98848bf_26_0.png)
 总结来说，内核可以支撑无数个剧情。把同一个内核分发到不同账号，既能吃透一个爆款的流量红利，又能在很大程度上降低同质化风险。改造方向可以是男变女、女变男、丑变美、机器人变真人，甚至老人变青年；爆点可以是贫困下的偷盗、顶替他人享受荣华富贵、做好事不留名等欲望驱动；拆穿方式则可以是无意间的举动、习惯改变，或者记忆无法共享。
 几条视频的数据也放出来参考：一条2804万播放，平均观看时长78.1%；一条1232万播放，平均观看时长82.0%；还有一条2952万播放，平均观看时长81.6%。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_91de067255aa21151bd707faa98848bf_27_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_91de067255aa21151bd707faa98848bf_27_1.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_91de067255aa21151bd707faa98848bf_27_2.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_91de067255aa21151bd707faa98848bf_27_3.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_91de067255aa21151bd707faa98848bf_27_4.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_91de067255aa21151bd707faa98848bf_27_5.png>
+![](img/zhuanqian_91de067255aa21151bd707faa98848bf_27_0.png)
+![](img/zhuanqian_91de067255aa21151bd707faa98848bf_27_1.png)
+![](img/zhuanqian_91de067255aa21151bd707faa98848bf_27_2.png)
+![](img/zhuanqian_91de067255aa21151bd707faa98848bf_27_3.png)
+![](img/zhuanqian_91de067255aa21151bd707faa98848bf_27_4.png)
+![](img/zhuanqian_91de067255aa21151bd707faa98848bf_27_5.png)
 最后聊聊实操层面的方法。
 想避开同质化，又不想捡别人做烂的脚本，最好的办法就是跨IP、跨平台收集素材：印度真人视频、影视剧切片、生活趣事、小红书热门内容都可以。日常刷视频时，看到让你会心一笑或者大跌眼镜的桥段，马上放进自己的素材库。这个动作一定要坚持。
 选脚本我有四个标准：
@@ -73,13 +73,13 @@
 | 原片 小红书 10w，抖音 59w | 改造后 油管 3200w |
 ### 去挖爆款要素
 只盯本赛道的对标会受限，得经常跨圈逛一逛，主动跳出信息茧房。把其他赛道火过的点子拆开，融进自己的脚本里，有时就成了下一个爆点。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_91de067255aa21151bd707faa98848bf_30_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_91de067255aa21151bd707faa98848bf_31_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_91de067255aa21151bd707faa98848bf_31_1.png>
+![](img/zhuanqian_91de067255aa21151bd707faa98848bf_30_0.png)
+![](img/zhuanqian_91de067255aa21151bd707faa98848bf_31_0.png)
+![](img/zhuanqian_91de067255aa21151bd707faa98848bf_31_1.png)
 ### 跨赛道的沙雕梗
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_91de067255aa21151bd707faa98848bf_32_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_91de067255aa21151bd707faa98848bf_33_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_91de067255aa21151bd707faa98848bf_33_1.png>
+![](img/zhuanqian_91de067255aa21151bd707faa98848bf_32_0.png)
+![](img/zhuanqian_91de067255aa21151bd707faa98848bf_33_0.png)
+![](img/zhuanqian_91de067255aa21151bd707faa98848bf_33_1.png)
 ### 跨赛道的推石梗
 乍一看是不是很眼熟，换个皮就发了？
 ### 脚本改造怎么玩
@@ -113,7 +113,7 @@ AI还原难度：喝可乐憋气的表情、走路捂屁股的动作、精准掀
 ### 工具链
 #### 5.1 提示词撰写
 提示词先自己搭框架，用GPT补全场景，再自行微调后出图。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_91de067255aa21151bd707faa98848bf_37_0.png>
+![](img/zhuanqian_91de067255aa21151bd707faa98848bf_37_0.png)
 ##### 1.给GPT下指令
 ##### 3. 人物动作要求 精准
 - 写正在做什么 + 怎么做 + 动作结果
@@ -243,8 +243,8 @@ AI 时代百家争鸣，工具差距会缩小，使用门槛会越来越低，�
 就是坚持，坚持，再坚持！把每一步能做好的都做好！
 然后，等风来！
 ## 最后，安利小懒的付费群：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_91de067255aa21151bd707faa98848bf_45_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_91de067255aa21151bd707faa98848bf_45_1.png>
+![](img/zhuanqian_91de067255aa21151bd707faa98848bf_45_0.png)
+![](img/zhuanqian_91de067255aa21151bd707faa98848bf_45_1.png)
 > 这里是你对抗信息过载的护城河。
 已稳定运行 7 年，累计拆解、研读 3000+ 个互联网商业实战案例与行业前沿内参和时政/宏观文章。
 我们不搬运垃圾，只做高价值信息的筛选器与放大镜。

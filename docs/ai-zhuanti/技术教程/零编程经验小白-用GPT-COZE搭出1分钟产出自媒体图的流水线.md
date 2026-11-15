@@ -1,11 +1,11 @@
 # 零编程经验小白：用GPT+COZE搭出1分钟产出自媒体图的流水线
 先说结论：不会写代码完全没关系。我用 GPT + COZE 搭了一条自动生成“历史今日”内容的小流水线，从抓取到出稿，全程不到 1 分钟。
 起因是刷小红书时看到一类账号，封面和排版几乎一模一样，每天变的只是具体信息。这种模板固定、内容轮换的号，天然适合 AI 批量生产。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_19fcc014c24e7e90856018349b26cd0d.png>
+![](img/zhuanqian_19fcc014c24e7e90856018349b26cd0d.png)
 于是我想到了复刻一个“历史上的今天”账号，流程一共六步：找信源 → 抓数据 → 筛重点 → 扩写 → 做封面 → 发布。
 信源怎么定？我当时用了两个网站：国内是 lishi365.cn，国外是 onthisday.com。拿不定主意的话，直接让 GPT 推荐几个也行。
 接着解决抓取问题。COZE 插件商店里有别人打包好的爬虫，也可以用 GPT 定制一个。我的经验是：提示词里明确加上一句“请让代码跑在 coze.cn 上”，生成的插件兼容性会好很多。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_93b70c47cd7c545985e4edaf447844e6.png>
+![](img/zhuanqian_93b70c47cd7c545985e4edaf447844e6.png)
 我做的插件已经传到插件商店，搜索《历史上的今天》就能直接装。下面给一份可改的代码框架，URL 换成你需要的站点即可；如果换了站抓不到数据，多半是页面结构不同，把报错甩给 GPT，让它改改解析规则就成。
 ```python
 import requests
@@ -26,17 +26,17 @@ except Exception as e:
 return {"statusCode": 500, "body": str(e)}
 ```
 接下来搭工作流。在 COZE 里新建工作流，把插件拖进去作为首节点。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f7b89c89d5623140aa869485852b6637.png>
+![](img/zhuanqian_f7b89c89d5623140aa869485852b6637.png)
 先运行一次，确认节点能正常取回数据。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a4c9990b32bbf8d5aa73e71dbae1179c.png>
+![](img/zhuanqian_a4c9990b32bbf8d5aa73e71dbae1179c.png)
 调试通过后你会发现，插件拉回来的条目特别多，但多数不值得做。这时再塞一个 LLM 节点，让它筛选出当天值得写的事件，顺带写一段点评和延伸，素材基本就成型了。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_eba696956c00411a0aa6f854c04cd97a.png>
+![](img/zhuanqian_eba696956c00411a0aa6f854c04cd97a.png)
 特别提醒：大模型提示词里记得带上变量名，像{input}这样，模型才知道该处理哪段数据。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9b4afba848b2e97038dd27450e9dcfd2.png>
+![](img/zhuanqian_9b4afba848b2e97038dd27450e9dcfd2.png)
 接着补一个代码节点：模型输出的是一整段混合文本，日期、标题、评价揉在一起。但下一步做封面只要日期和标题，发稿只要评价，所以得先把这段文本拆成三个独立字段。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6c887840488b389a87c50d181d7d74ba.png>
+![](img/zhuanqian_6c887840488b389a87c50d181d7d74ba.png)
 拆分逻辑不复杂，核心代码如下（完整版放在飞书文档）：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b707090b7badbd2c33718e5377386b50.png>
+![](img/zhuanqian_b707090b7badbd2c33718e5377386b50.png)
 ```python
 import re
 def split_event(raw):
@@ -56,17 +56,17 @@ raw = str(raw)
 return split_event(raw)
 ```
 content 字段拆出来以后，再接一个“小红书文案风格”的 LLM 节点，把评价润色成可以直接发出去的正文。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_95d6a470a43e08b6ea24bb1c98cbe1c8.png>
+![](img/zhuanqian_95d6a470a43e08b6ea24bb1c98cbe1c8.png)
 封面不在主工作流里做，我单独建了一个图像流。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b4d587dce4988c1f83ce4de9054520b3.png>
+![](img/zhuanqian_b4d587dce4988c1f83ce4de9054520b3.png)
 图像流的入参是前面代码节点输出的 day 和 title。变量名要与上游输出保持完全一致，否则前后对不上。流里有两个加工节点：第一个负责把日期叠到底图上，第二个负责把标题叠上去。背景图提前做好，先传进第一个节点，再把处理结果接给第二个节点。文字的大小、颜色、位置等，都可以在节点参数面板里单独调。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e43594cffc6abb815e11b04132d936ce.png>
+![](img/zhuanqian_e43594cffc6abb815e11b04132d936ce.png)
 图像流调通后，再放回主工作流。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6de9548ee80ee3e2bcd9f72a6cab1c8c.png>
+![](img/zhuanqian_6de9548ee80ee3e2bcd9f72a6cab1c8c.png)
 跑完后会同时给出封面图和文案正文，复制出去就能发布。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_75ac0f8d91cd34fa763920cfe7c5aeda.png>
+![](img/zhuanqian_75ac0f8d91cd34fa763920cfe7c5aeda.png)
 完整工作流长这样：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d361e33f0e13e554e067e6b2392b6ad0.png>
+![](img/zhuanqian_d361e33f0e13e554e067e6b2392b6ad0.png)
 这套东西真正的价值是“模板化复制”。它只依赖两个可变项：信源 URL 和封面底图。换掉这两样，一个新的垂直账号就诞生了，成本不到 1 分钟。
 顺着这个思路可以做很多号：
 - 热点速递：“刚刚发生了什么”

@@ -18,49 +18,49 @@
 这四份都能直接在亚马逊后台导出。
 需要特别注意的细节：
 1.  Sponsored Display Matched target report 的报表类型要选：Match Target
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ca311cf06253cee29f6689d05f4083e3.png>
+![](img/zhuanqian_ca311cf06253cee29f6689d05f4083e3.png)
 1.  Sponsored Display Matched target report 的报表类型要选：Advertised product
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3583fe4a5973970fab627aac7ba47024.png>
+![](img/zhuanqian_3583fe4a5973970fab627aac7ba47024.png)
 四份报表导出后，打开 ChatGPT 的 Advanced Data Analysis，也就是旧称 Code Interpreter。这个功能需要 ChatGPT Plus 订阅。
 国内环境下，Plus 升级有时不太顺畅，遇到问题可以找我协助。
 进入 Advanced Data Analysis 后，点击加号，把刚从亚马逊导出的四份报表全部上传，之后就可以开始和 AI 对话。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0f50fcb2a6447661714f86e665820d8d.png>
+![](img/zhuanqian_0f50fcb2a6447661714f86e665820d8d.png)
 在这里额外提醒一下：
 如果报表数据量比较大，Advanced Data Analysis 的处理空间会受限，建议优先上传 CSV 而非 EXCEL 原文件，否则容易因空间不足报错。
 接着继续对话：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_65d5f6860ff1daafe28871bbaf10a62a.png>
+![](img/zhuanqian_65d5f6860ff1daafe28871bbaf10a62a.png)
 AI 很快就把各表的字段结构全部梳理出来了：
 （字段很多，这里省略）
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_54f687840cfae40fbd8859f138c6e36f.png>
+![](img/zhuanqian_54f687840cfae40fbd8859f138c6e36f.png)
 然后我们这样发起指令：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6ec5bb697c78671ab903da599edd9a9b.png>
+![](img/zhuanqian_6ec5bb697c78671ab903da599edd9a9b.png)
 AI 秒懂需求，并把整体目标拆解成可执行的步骤：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0ed4343f50e02dcc46f3c7c666b66367.png>
+![](img/zhuanqian_0ed4343f50e02dcc46f3c7c666b66367.png)
 AI 自动开始执行：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6024f6345f8d397c531e547b051d9940.png>
+![](img/zhuanqian_6024f6345f8d397c531e547b051d9940.png)
 截图里能看到这一步的提示：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9fa907440d65d5ab2b2e414de894a155.png>
+![](img/zhuanqian_9fa907440d65d5ab2b2e414de894a155.png)
 这一步背后是 AI 在自动生成程序代码，点开小箭头就能看到它写的 Python：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_087cfc64de1540ef89ea6430b7d58496.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_13342986ce9d83c7da3d9138e3f77423.png>
+![](img/zhuanqian_087cfc64de1540ef89ea6430b7d58496.png)
+![](img/zhuanqian_13342986ce9d83c7da3d9138e3f77423.png)
 RESULT 区就是代码运行后的结果。
 对大多数不会编程的运营和老板来说，根本不需要关心技术细节，把代码保持隐藏状态就最省心：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e4929c71f5d4527c24efd3d35b0e3d2e.png>
+![](img/zhuanqian_e4929c71f5d4527c24efd3d35b0e3d2e.png)
 整段分析大约 1 分钟就结束了：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8fc4ce69bc52d02148a2bbf255586e56.png>
+![](img/zhuanqian_8fc4ce69bc52d02148a2bbf255586e56.png)
 从生成的链接里可以直接下载处理好的数据。
 下载后我发现，里面仍混进了一些有花费零成交的广告词，比如下面这种：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3d4fe6264b50cbd3533ef24f450c6de9.png>
+![](img/zhuanqian_3d4fe6264b50cbd3533ef24f450c6de9.png)
 说明 AI 还没有完全get到我们的真实意图：ROAS>3 的数据。
 AI 没办法自动感知，ROAS>3 也就是 ACOS<33% 背后隐藏的前提：有花费没成交的词必须剔除。
 这是资深运营的常识条件反射，但 AI 只是基于文字指令推断，无法自行补全这个隐含假设。
 所以我们需要再补充一次对话：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bba4b18e4b3aad010d7b208e3d436c38.png>
+![](img/zhuanqian_bba4b18e4b3aad010d7b208e3d436c38.png)
 这个补充指令是我反复测试后确定的。
 因为报表里同时存在 7 Day Total Sales、Total Advertising Cost of Sales (ACOS)、7 Day Advertised SKU Sales、7 Day Other SKU Sales、14 Day Total Sales 等列。
 筛选时要求这些字段同时不为零，我就按上面截图的方式追加说明。
 最终 AI 返回的结果：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_60b0ffc6bd8708910cf4a138ee1a91a9.png>
+![](img/zhuanqian_60b0ffc6bd8708910cf4a138ee1a91a9.png)
 我把文件下载下来核对，完全符合预期。
 到这里，这个入门案例就结束了。整个过程大概三分钟，你们的运营团队手工做完这一套，需要多久？
 备注：

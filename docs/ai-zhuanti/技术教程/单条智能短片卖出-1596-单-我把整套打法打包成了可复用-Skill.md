@@ -1,6 +1,6 @@
 # 单条智能短片卖出 1596 单，我把整套打法打包成了可复用 Skill
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1fde39a9ec05341a59a2a3d0fc0cb74f_0_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1fde39a9ec05341a59a2a3d0fc0cb74f_0_1.png>
+![](img/zhuanqian_1fde39a9ec05341a59a2a3d0fc0cb74f_0_0.png)
+![](img/zhuanqian_1fde39a9ec05341a59a2a3d0fc0cb74f_0_1.png)
 先说用人画像。手里有现货、希望用自动化方式把带货短片的制作成本压下去的跨境卖家和短视频运营，这套方法很对口；没有货源、也不想搞工作流的人可以直接跳过。最有价值的部分，是把“图转视频、文案撰写、语音合成”拆解成标准作业流程再做成可调用技能的十步闭环。最容易翻车的地方在于前期的提示词打磨和首帧审图的耐心，如果全交给模型不管，很快就会得到变形废片。
 我是在义乌做了八年跨境的雪花，速卖通、Temu、SHEIN、TikTok、Ozon 都操盘过，顶峰时期日出单万。选品、上图、上架、算利润这些脏活累活我都亲自干过。转向 AI 后，我只做一件事：把高频重复的环节交给机器，做降本、做自动化、做复用。之前做过定价 Agent、女装虚拟棚拍工作流、批量商品图流水线、资料调用中台等，这次把目光放在了带货短视频上。
 最终结果是一条由 AI 驱动的短片卖出 1596 单。更关键的是，整个过程被沉淀成了可直接拿来用的 Skill。下面把从零到封装的思路完整摊开。
@@ -50,7 +50,7 @@
 ```
 泰语意：泰国本地发货，到手很快。
 耗时 8 分 21 秒，5 张首帧全部生成。总览如下：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1fde39a9ec05341a59a2a3d0fc0cb74f_4_0.png>
+![](img/zhuanqian_1fde39a9ec05341a59a2a3d0fc0cb74f_4_0.png)
 单张文件独立存放，不满意可单张重绘。
 ### 第六步，批量导出可用素材
 让模型输出三类文件：
@@ -63,13 +63,13 @@
 ### 第八步，用 Google Flow 批量出片
 选 Google Flow 的原因是便宜、效果在线、批量不心疼。地址：
 https://flow.google.com/
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1fde39a9ec05341a59a2a3d0fc0cb74f_5_0.png>
+![](img/zhuanqian_1fde39a9ec05341a59a2a3d0fc0cb74f_5_0.png)
 把已生成的画面和提示词丢进去即可批量出视频。
 ### 第九步，剪映里做最终成片
 把片段、配音、字幕在剪映里对齐，剪掉废镜头。
 在线成片：
 https://hk57gvlx7u.feishu.cn/docx/T2ewdn87ooJG4kx10xDc2chn tg
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1fde39a9ec05341a59a2a3d0fc0cb74f_5_1.png>
+![](img/zhuanqian_1fde39a9ec05341a59a2a3d0fc0cb74f_5_1.png)
 ### 第十步，回传复盘，沉淀闭环
 把剪好的成片发回给 Codex，让它总结哪些环节可以沉淀为复用工作流。
 我最终沉淀了两份文档：
@@ -101,5 +101,5 @@ https://hk57gvlx7u.feishu.cn/docx/T2ewdn87ooJG4kx10xDc2chn tg
 把流程跑通后，你就能拥有属于自己的批量带货短视频技能。只要提供原始素材，就能得到分镜与配音，剪映里简单处理即可发布，爆款基因会明显更强。
 看完 SOP 可能觉得懂了，但实操第一步就会卡住。工具和教程是基础壁垒，真正的壁垒是立刻动手和信息差。
 查阅数字资产与入群门槛：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1fde39a9ec05341a59a2a3d0fc0cb74f_8_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1fde39a9ec05341a59a2a3d0fc0cb74f_8_1.png>
+![](img/zhuanqian_1fde39a9ec05341a59a2a3d0fc0cb74f_8_0.png)
+![](img/zhuanqian_1fde39a9ec05341a59a2a3d0fc0cb74f_8_1.png)

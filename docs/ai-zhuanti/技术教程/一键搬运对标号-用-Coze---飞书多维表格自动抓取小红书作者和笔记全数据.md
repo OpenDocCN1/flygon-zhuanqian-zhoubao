@@ -4,12 +4,12 @@
 可问题是，盯着一个对标主页刷笔记，刷着刷着前面看过的就忘了。想手动保存下来，又得一篇篇复制粘贴，手指都快僵了，找起来一样抓瞎。
 这篇教程就是来帮你卸重的。跟着做就能实现：只输入小红书作者主页地址，账号画像和全部笔记信息自动同步进飞书多维表格。之后做选题拆解、内容框架提炼、表达方式复盘、互动玩法模仿乃至仿写，都能在表格里一站式完成。省下来的时间，摸鱼打游戏都行~
 整体运行逻辑如下：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d0b9a0e0d244ea048ebf77ff68c472d8.png>
+![](img/zhuanqian_d0b9a0e0d244ea048ebf77ff68c472d8.png)
 运行效果展示：
 账号信息结果：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_22c456e2189690eb299c0fc987f9cf63.png>
+![](img/zhuanqian_22c456e2189690eb299c0fc987f9cf63.png)
 笔记信息结果：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_98697e46e63b694b6cce98c2ca6cb3a4.png>
+![](img/zhuanqian_98697e46e63b694b6cce98c2ca6cb3a4.png)
 内容分为四个模块：
 1.  思路拆解
 2.  操作详解
@@ -24,69 +24,69 @@
 ## 2 实操步骤
 ### 2.1 新建飞书多维表格
 1、打开飞书官网=》新建=》多维表格=》新建空白表格
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_603f9847f5499596a147958d88a500a6.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fa08211cb1f946a5ee02e46b50c0a723.png>
+![](img/zhuanqian_603f9847f5499596a147958d88a500a6.png)
+![](img/zhuanqian_fa08211cb1f946a5ee02e46b50c0a723.png)
 2、通过右键新建数据表即可。表名可直接修改。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e82c41dc07fa626ffb720ac39742e6a1.png>
+![](img/zhuanqian_e82c41dc07fa626ffb720ac39742e6a1.png)
 3、本次用到两张表，“账号数据”记录博主信息，“笔记数据”记录每条笔记信息。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8fef9b91874d007e849f5fb97fb9bd28.png>
+![](img/zhuanqian_8fef9b91874d007e849f5fb97fb9bd28.png)
 4、“账号数据”表：选中后右键删除多余列
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d7e47cb0937ece5abd6bc4d352b1aada.png>
+![](img/zhuanqian_d7e47cb0937ece5abd6bc4d352b1aada.png)
 5、修改列名。鼠标右键选择“编辑字段和列”。第一行按以下顺序设置，注意字段名称要与后续代码完全一致，否则无法写入。数据类型都选文本。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_84feab24bd6901df97d47e1a82c3fe22.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4ff8fa410361e08b2fb37668aaf62897.png>
+![](img/zhuanqian_84feab24bd6901df97d47e1a82c3fe22.png)
+![](img/zhuanqian_4ff8fa410361e08b2fb37668aaf62897.png)
 6、点左上角全选，删除已有记录，方便从第一行开始写入。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_417612fe712b13426ad9d199c3cd1b9a.png>
+![](img/zhuanqian_417612fe712b13426ad9d199c3cd1b9a.png)
 7、设置表格权限：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c7c11b4449767fc23f7926f6e75a5853.png>
+![](img/zhuanqian_c7c11b4449767fc23f7926f6e75a5853.png)
 8、复制出来的链接即为后续开始节点要用到的 FeishuToken
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_63623dc8882a14a21eb59c25cb9b3a85.png>
+![](img/zhuanqian_63623dc8882a14a21eb59c25cb9b3a85.png)
 9、“笔记数据”表的字段设置如下，绿色框内为文本类型，黄色框为链接转附件类型，可将链接转成图片展示，搜索框里直接找即可：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_58851ac5fab03c0005710e8ace6dbc61.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f8437aef699862d1de7f81cb0f192b32.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cae2a8a22c85e7cf0a4fc9f8b6e9b779.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b656701027af5d5d7a940189c8f156ab.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2a9bc387d6f3fef5fa44aea00c736b1f.png>
+![](img/zhuanqian_58851ac5fab03c0005710e8ace6dbc61.png)
+![](img/zhuanqian_f8437aef699862d1de7f81cb0f192b32.png)
+![](img/zhuanqian_cae2a8a22c85e7cf0a4fc9f8b6e9b779.png)
+![](img/zhuanqian_b656701027af5d5d7a940189c8f156ab.png)
+![](img/zhuanqian_2a9bc387d6f3fef5fa44aea00c736b1f.png)
 ### 2.2 新建工作流
 登录 Coze 官网=》开发平台=》快速开始=》左侧工作空间=》资源库=》右上角 + 资源=》工作流=》填写名称和描述
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_419a684c2fba08601ec85e2c44fe962c.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8e9f0679c228b6b5073267e12f8bf8fb.png>
+![](img/zhuanqian_419a684c2fba08601ec85e2c44fe962c.png)
+![](img/zhuanqian_8e9f0679c228b6b5073267e12f8bf8fb.png)
 这里我把工作流命名为：XHSAuthCrawlerCookie
 描述填为：
 :::warning
 输入小红书作者主页链接、小红书 Cookie、飞书多维表格链接，批量抓取博主笔记数据
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_14f4cdd9e372803e0592ce753b1a4b8d.png>
+![](img/zhuanqian_14f4cdd9e372803e0592ce753b1a4b8d.png)
 ### 2.3 节点如何添加
 1、添加节点=》插件
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_72678358e6c95ae5e9b6cf3d1dbf204c.png>
+![](img/zhuanqian_72678358e6c95ae5e9b6cf3d1dbf204c.png)
 2、搜索插件名称，通常会得到一个合集。以小红书插件合集为例：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ce3fd4cdc6ff664489d9a23715fe0477.png>
+![](img/zhuanqian_ce3fd4cdc6ff664489d9a23715fe0477.png)
 3、收藏后点击添加节点，后续就能直接调用，无需重复搜索
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cfedf399c2993ad91dc9adad9a5351e7.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3c689b55537f55a859c63c59211c2fc7.png>
+![](img/zhuanqian_cfedf399c2993ad91dc9adad9a5351e7.png)
+![](img/zhuanqian_3c689b55537f55a859c63c59211c2fc7.png)
 ### 2.4 开始节点配置
 设置如下：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ad394ad24a2a7c6379c46aec8bc681eb.png>
+![](img/zhuanqian_ad394ad24a2a7c6379c46aec8bc681eb.png)
 1.  RedBookAuthUrl：小红书作者主页地址
 2.  RedBookCookie：小红书 Cookie
 3.  FeishuAccountToken：飞书“账号数据”表 token
 4.  FeishuNoteToken：飞书“笔记数据”表 token
 ### 2.5 小红书作者数据抓取插件配置
 设置如下：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_59f249f2dd7edf7f14893201cf3ee93c.png>
+![](img/zhuanqian_59f249f2dd7edf7f14893201cf3ee93c.png)
 1、cookieStr：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4e181b75879a2dba09c869441acfe0f0.png>
+![](img/zhuanqian_4e181b75879a2dba09c869441acfe0f0.png)
 2、userProfileUrl
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7725f44cf66c555849e755c10bb69903.png>
+![](img/zhuanqian_7725f44cf66c555849e755c10bb69903.png)
 ### 2.6 代码节点配置
 设置如下：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ee0eb00e3a724442b1424e0bc513dcb9.png>
+![](img/zhuanqian_ee0eb00e3a724442b1424e0bc513dcb9.png)
 输入：input
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_eddae84ec863a2e5824621cee9fdcfb1.png>
+![](img/zhuanqian_eddae84ec863a2e5824621cee9fdcfb1.png)
 输出：info
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_69338506242f8f36298309c0cd9bafb4.png>
+![](img/zhuanqian_69338506242f8f36298309c0cd9bafb4.png)
 代码如下：切换到 python
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ed9a57177ab295e8dc379aac567b6b0a.png>
+![](img/zhuanqian_ed9a57177ab295e8dc379aac567b6b0a.png)
 ```
 async def main(args: Args) -> Output:
 params = args.params
@@ -115,35 +115,35 @@ return ret
 ```
 ### 2.7 多维表格添加数据节点
 添加插件：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c11487949412e07f36542f48e86b9c0d.png>
+![](img/zhuanqian_c11487949412e07f36542f48e86b9c0d.png)
 设置如下：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1bb87aae5aacb3315b06ad047487e06e.png>
+![](img/zhuanqian_1bb87aae5aacb3315b06ad047487e06e.png)
 1、app_token
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0f1235e134fdc8f8247d18a3ee523309.png>
+![](img/zhuanqian_0f1235e134fdc8f8247d18a3ee523309.png)
 2、records
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2107fa7ea8061e4935c511170c396c6c.png>
+![](img/zhuanqian_2107fa7ea8061e4935c511170c396c6c.png)
 ### 2.8 循环节点配置
 设置如下：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9aa588a5bfd334c2dcb8487251263c32.png>
+![](img/zhuanqian_9aa588a5bfd334c2dcb8487251263c32.png)
 1、循环模式：数组循环
 2、循环数组：input
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5efd9bd62f3989747b7b38754ba814c4.png>
+![](img/zhuanqian_5efd9bd62f3989747b7b38754ba814c4.png)
 3、输出变量：output
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3510d74faadf305b6a7b4547cc7ae064.png>
+![](img/zhuanqian_3510d74faadf305b6a7b4547cc7ae064.png)
 #### 2.8.1 小红书笔记抓取插件
 设置如下：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_78ec8fef174b9ef8b433219c099a7b81.png>
+![](img/zhuanqian_78ec8fef174b9ef8b433219c099a7b81.png)
 1、cookieStr
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3c5e2294870d54e33a653b79097b638d.png>
+![](img/zhuanqian_3c5e2294870d54e33a653b79097b638d.png)
 2、noteUrl
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1211382a02863495a2569f8e696b6041.png>
+![](img/zhuanqian_1211382a02863495a2569f8e696b6041.png)
 #### 2.8.2 代码节点 1
 设置如下：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7c0d723421bb5bc7033d9d28a2784e05.png>
+![](img/zhuanqian_7c0d723421bb5bc7033d9d28a2784e05.png)
 输入：input
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_da178f4410923bdc4fc43105756a0d76.png>
+![](img/zhuanqian_da178f4410923bdc4fc43105756a0d76.png)
 输出：info
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d781f1e3437dfdb94bab37ceecc5c90e.png>
+![](img/zhuanqian_d781f1e3437dfdb94bab37ceecc5c90e.png)
 代码如下：python
 ```
 async def main(args: Args) -> Output:
@@ -178,41 +178,41 @@ return ret
 ```
 #### 2.8.3 多维表格添加数据节点
 设置如下：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f7e38dcbc3d3a956fd6d20fea97c6d4f.png>
+![](img/zhuanqian_f7e38dcbc3d3a956fd6d20fea97c6d4f.png)
 1、app_token
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b4bf687eb58e7b9b907d64074423fde9.png>
+![](img/zhuanqian_b4bf687eb58e7b9b907d64074423fde9.png)
 2、records
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c522aba20529cdf5de1872b8ca51cd99.png>
+![](img/zhuanqian_c522aba20529cdf5de1872b8ca51cd99.png)
 ### 2.9 结束节点配置
 设置如下：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fe74092b72bcd405784ce038445feb52.png>
+![](img/zhuanqian_fe74092b72bcd405784ce038445feb52.png)
 output：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2f58ed85add83dfaf0aa52e190b2f46a.png>
+![](img/zhuanqian_2f58ed85add83dfaf0aa52e190b2f46a.png)
 ### 2.10 小红书 Cookie 获取方式
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_132b6d337cc53a4685a8aeb7cf31735e.png>
+![](img/zhuanqian_132b6d337cc53a4685a8aeb7cf31735e.png)
 2、随便找个内容搜索一下
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_22053823a27c63a65121e5c655292aab.png>
+![](img/zhuanqian_22053823a27c63a65121e5c655292aab.png)
 3、鼠标右键点检查，或直接按 F12
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3b8bb3859c9265b9690a02c7a58504f1.png>
+![](img/zhuanqian_3b8bb3859c9265b9690a02c7a58504f1.png)
 4、切换到 Network
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5aef0295308eba9cbeb3627b971fef83.png>
+![](img/zhuanqian_5aef0295308eba9cbeb3627b971fef83.png)
 5、在左侧找小红书瀑布流笔记区域，一直往下滚，名称会出现 notes，点击后在 Headers 里找到 cookie 直接复制
 4、unread_count 也可以用
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c61b09eba13c7733d8816fee6a3d75f5.png>
+![](img/zhuanqian_c61b09eba13c7733d8816fee6a3d75f5.png)
 注意：Cookie 会过期，失效了就重新抓取一次。
 ### 2.11 测试运行
 1、点击“试运行”
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9f24410baf48534f83ff82220618fbcd.png>
+![](img/zhuanqian_9f24410baf48534f83ff82220618fbcd.png)
 2、FeishuAccountToken
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_97465c732fcce345906ce6bfe6e9fcd7.png>
+![](img/zhuanqian_97465c732fcce345906ce6bfe6e9fcd7.png)
 3、FeishuNoteToken
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_dae983e09133bc9281e88d3a562326ee.png>
+![](img/zhuanqian_dae983e09133bc9281e88d3a562326ee.png)
 4、RedBookAuthUrl，填写作者主页链接
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f56f7cb9c801c2271b8af0c8240bd494.png>
+![](img/zhuanqian_f56f7cb9c801c2271b8af0c8240bd494.png)
 5、RedBookCookie
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b801d6ecac4f5db8c3be87ce0648942e.png>
+![](img/zhuanqian_b801d6ecac4f5db8c3be87ce0648942e.png)
 6、把开始节点的变量全部填好
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_38f270d35883e0a0918f7b43c54f39f8.png>
+![](img/zhuanqian_38f270d35883e0a0918f7b43c54f39f8.png)
 ## 3 源码与使用教程
 ### 3.1 源码
 有时候，最吊人胃口的，不是一句惊天动地的话，而是一个没头没尾的开始。
@@ -230,4 +230,4 @@ output：
 接下来把时间花在刀刃上，聊聊我亲身踩坑后的复盘心得。
 **关于效率的抉择**：我为这个任务分别打造了两套工作流，一套是循环写入，另一套则是批量写入。数据量是13条。结果很有意思：循环逐条写入飞书多维表格，全程大约耗时36秒，但它的优势在于完全不消耗Coze资源点和飞书Token；而批量写入虽然只需要8秒，看着快了好几倍，但在飞书那端需要额外配置信息提取环节，这个过程本身就要花时间，并且还得占用飞书的Token。至于具体消耗了多少，我手头还真没详细测算过。
 **关于平台的底线**：抓数据这事儿，千万要克制。我一开始没掌握好节奏，一股脑地去抓取，结果发现一次性抓取10条左右比较稳妥。我那天断断续续测试了大约100多条笔记，马上就触发了小红书的风控机制。好在平台还算留情，第二天我的账号访问就恢复正常了。所以听我一句劝，细水长流，别贪多，安全第一。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_422310edd333a4fbb6809040a8938c4d.png>
+![](img/zhuanqian_422310edd333a4fbb6809040a8938c4d.png)

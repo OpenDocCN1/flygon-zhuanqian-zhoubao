@@ -1,13 +1,13 @@
 # 拆了50个prompt，我找到了普通人可以掌握的伪代码prompt技巧
-最近AI圈有两个prompt特别出圈：一个是国外大神的superprompt，一个是李继刚的汉语新解。尤其是汉语新解，效果惊艳，我刷到后当场收藏，玩得不亦乐乎。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_49e65a5256bb038374ce65436845cd4e.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c8950d6ae8a46ad51ebeb0d2f8a95e2c.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_22149e8e875135b39dfc9ca2812ca7d0.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7479c35b3264dffcf1db577ad87de35e.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a0c82c382fbfb80f575ea6bb659364db.png>
+最近AI圈有两个prompt特别出圈：一个是国外大神的superprompt，一个是李继刚的汉语新解。尤其是汉语新解，效果惊艳，我刷到后当场收藏，玩得不亦乐乎。![](img/zhuanqian_49e65a5256bb038374ce65436845cd4e.png)![](img/zhuanqian_c8950d6ae8a46ad51ebeb0d2f8a95e2c.png)![](img/zhuanqian_22149e8e875135b39dfc9ca2812ca7d0.png)![](img/zhuanqian_7479c35b3264dffcf1db577ad87de35e.png)![](img/zhuanqian_a0c82c382fbfb80f575ea6bb659364db.png)
 可玩着玩着，心里有点不是滋味——我好像只会复制粘贴，然后喊一句“牛”，接着继续按别人设定好的规则跑。想改点细节？对不起，看不懂。
 学代码？算了，那得等到猴年马月。但我又不想继续当“只会搬运”的那一个。于是，我花了好几天，一口气拆了50个prompt，终于找到一种普通人也能自己动手写的“伪代码式”prompt写法。
 先说门槛。
-有编程基础的朋友看到这套方法，可能觉得：就这？太初级了。这很正常，因为你们读起来自带加速buff。而完全不懂编程的朋友，也别被吓到。这篇文章确实有点门槛，但不高。你只需要花5分钟去搜一下markdown怎么写，再回来看，一切都会变得特别清晰。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a146db56d638928a7edab4f394e0d75e.png>
+有编程基础的朋友看到这套方法，可能觉得：就这？太初级了。这很正常，因为你们读起来自带加速buff。而完全不懂编程的朋友，也别被吓到。这篇文章确实有点门槛，但不高。你只需要花5分钟去搜一下markdown怎么写，再回来看，一切都会变得特别清晰。![](img/zhuanqian_a146db56d638928a7edab4f394e0d75e.png)
 这个方法为什么叫“伪代码”？因为它的核心就一句话：把XML和Markdown揉在一起用。
-XML负责把结构立起来，让机器扫描起来不费劲；Markdown负责把逻辑说人话，让人读起来不头疼。两者一拼，就成了一套可拆可装的prompt积木。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e34b02182782e1b80f311736f2e86559.png>
+XML负责把结构立起来，让机器扫描起来不费劲；Markdown负责把逻辑说人话，让人读起来不头疼。两者一拼，就成了一套可拆可装的prompt积木。![](img/zhuanqian_e34b02182782e1b80f311736f2e86559.png)
 为了验证这个思路，我挑了一个特别经典的“方法论大师”prompt来拆。
-先看它的效果图：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b5c576c52dc04c17c3f5f2a16251a618.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_57c3247b356388c0671d2d7fcee26a4d.png> 再看李继刚老师的原始prompt：```
+先看它的效果图：![](img/zhuanqian_b5c576c52dc04c17c3f5f2a16251a618.png)![](img/zhuanqian_57c3247b356388c0671d2d7fcee26a4d.png) 再看李继刚老师的原始prompt：```
 ;; 作者: 龙哥
 ;; 版本: 0.1
 ;; 模型: Claude Sonnet
@@ -90,7 +90,7 @@ XML负责把结构立起来，让机器扫描起来不费劲；Markdown负责把
 (结果 (解释说明 (推理匹配 (二八原则 (提炼领域知识 领域)) 单词))))
 (SVG-Card 结果)))
 ```
-再往后看，那堆密集到让人头皮发麻的括号和引号，其实还是在定义函数，只是多了变量、多了示例，告诉AI“遇到什么情况就调用哪部分知识”。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ab5304e6f5c76dc027a3426036e0c4de.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7833583dea97e99452a4e2c5b5320b9c.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7ff6e4c7aea2d0866fd1018f513ab50e.png>
+再往后看，那堆密集到让人头皮发麻的括号和引号，其实还是在定义函数，只是多了变量、多了示例，告诉AI“遇到什么情况就调用哪部分知识”。![](img/zhuanqian_ab5304e6f5c76dc027a3426036e0c4de.png)![](img/zhuanqian_7833583dea97e99452a4e2c5b5320b9c.png)![](img/zhuanqian_7ff6e4c7aea2d0866fd1018f513ab50e.png)
 然后呢？继续定义卡片样式，说明渲染效果，再把工作流一步步写清楚。到这一步，前面所有“零件”才真正连接起来。```
 (defun SVG-Card (结果)
 "输出 SVG 卡片"
@@ -110,7 +110,7 @@ XML负责把结构立起来，让机器扫描起来不费劲；Markdown负责把
 ;; 1\. 启动时必须运行 (start) 函数
 ;; 2\. 之后调用主函数 (提炼方法论 领域 单词)
 ```
-看到这里，你应该明白了：高级prompt的底层逻辑，就是拼自行车。每个零件是一个函数；把所有零件按顺序组装好，再接上“工作流”这条车链子，车就能飞跑。你再回头去看那个superprompt，会发现它也是同一套路。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d5cf4dd1b5ca9310c936e6ae0f330b58.png>
+看到这里，你应该明白了：高级prompt的底层逻辑，就是拼自行车。每个零件是一个函数；把所有零件按顺序组装好，再接上“工作流”这条车链子，车就能飞跑。你再回头去看那个superprompt，会发现它也是同一套路。![](img/zhuanqian_d5cf4dd1b5ca9310c936e6ae0f330b58.png)
 其实知识都是相通的。你可以用化学里的电子排斥力，去理解物理里的接触力；可以用小时候买酱油的经历，去理解公司里采购项目的流程；可以用热水器冷热不均，去理解渣男为什么会忽冷忽热。理解prompt也一样，借自己熟悉的东西去推陌生的东西，就通了。
 好，原理讲完，开始动手转化。先记住一个万能骨架：定义一个函数时，可以写清楚它的说明、输入、输出、工作流程。不需要每次都写全，但不知道从哪儿下笔时，就照着这个骨架填空。
 我们一步步来，别嫌字多，其实写起来很快。
@@ -272,8 +272,8 @@ XML负责把结构立起来，让机器扫描起来不费劲；Markdown负责把
 ```
 请将HTML预览代码给我
 ``` 来，看看实际效果：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cf4592bcb8683514b545b28121fb7155.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_efb4706c9eea7b2880432f295f05c4b4.png> 上面这张是用 Claude 生成的（免费版次数有限，细节有小瑕疵没来得及调，请忽略）。整体质感已经相当不错。如果你用的是 ChatGPT，想要同样美观，就需要把 <svg_card> 部分描述得足够清楚，最好再附上一段前端代码示例。
+![](img/zhuanqian_cf4592bcb8683514b545b28121fb7155.png)
+![](img/zhuanqian_efb4706c9eea7b2880432f295f05c4b4.png) 上面这张是用 Claude 生成的（免费版次数有限，细节有小瑕疵没来得及调，请忽略）。整体质感已经相当不错。如果你用的是 ChatGPT，想要同样美观，就需要把 <svg_card> 部分描述得足够清楚，最好再附上一段前端代码示例。
 到这里，我们已经完成了一次完整的“转化”，掌握了一种可以复用的技巧——姑且叫它“伪代码 prompt”吧。至于它到底算不算严格意义上的伪代码，根本不重要，能用就行。
 接下来换个场景验证一下：星座运势。
 假设你运营一个星座账号，每周需要在朋友圈发星座预测，或者做成视频发出去。那么，你需要把分析结果做成一张卡片。拆开需求：
@@ -286,7 +286,7 @@ XML负责把结构立起来，让机器扫描起来不费劲；Markdown负责把
 7. 设计卡片布局。
 8. 规划内容排版。
 9. 确定基本形式。
-听起来不难，但怎么描述 AI 才能懂？这里有个好用技巧——<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0291efe0b3a5b6e86c00fb25164cd049.png> 把卡片想象成一个人，拆成“头、身体、脚”三部分。再把身体拆成上半身、下半身；上半身继续分脖、肩、臂、手、胸腹；下半身分臀、大腿、膝盖、小腿……然后按顺序描述。你会发现，AI 绘画好像也突然“会了”。
+听起来不难，但怎么描述 AI 才能懂？这里有个好用技巧——![](img/zhuanqian_0291efe0b3a5b6e86c00fb25164cd049.png) 把卡片想象成一个人，拆成“头、身体、脚”三部分。再把身体拆成上半身、下半身；上半身继续分脖、肩、臂、手、胸腹；下半身分臀、大腿、膝盖、小腿……然后按顺序描述。你会发现，AI 绘画好像也突然“会了”。
 有了这个拆解思路，完整 prompt 可以直接写出来：
 ```
 <每周星座运势>
@@ -395,17 +395,17 @@ Claude 能够直接产出图像；若使用 GPT，则需额外生成代码并补
 免费版几乎每次输入后都要等待数小时才能再次使用。
 所以我只好转战ChatGPT。最省事的方法就是转为在线预览。
 先看Claude生成的样子（受次数限制，部分小瑕疵没有机会调整，请包涵）：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4307dfcfd371411a2ab9509f9d627abc.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7900a86fc0bc60b8bc3460fc97df983b.png>
+![](img/zhuanqian_4307dfcfd371411a2ab9509f9d627abc.png)
+![](img/zhuanqian_7900a86fc0bc60b8bc3460fc97df983b.png)
 再看ChatGPT的产出，虽然比不上Claude，少了些逻辑图示，但观感也算可以接受：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e945afaf5a5d0b6d1adf0e83209cdbdb.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b116ba4702c1071cd5f41a8d097755e9.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_778efaa256579a5102459331b8abd0d1.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ecc61cbf06422de568b34f2cd4376152.png>
+![](img/zhuanqian_e945afaf5a5d0b6d1adf0e83209cdbdb.png)
+![](img/zhuanqian_b116ba4702c1071cd5f41a8d097755e9.png)
+![](img/zhuanqian_778efaa256579a5102459331b8abd0d1.png)
+![](img/zhuanqian_ecc61cbf06422de568b34f2cd4376152.png)
 # 写在末尾：一点心得
 受时间和精力所限，这套提示词短期内大概无法继续打磨了。写出来意在分享一个方向，但要提醒诸位：别过度沉迷于此，消耗过多光阴并不值得。
 上面那些展示效果，是我反复调整了多次提示词才得到的。记录如下：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3d22b6cff058678fa4d65813476f7dfa.png>
+![](img/zhuanqian_3d22b6cff058678fa4d65813476f7dfa.png)
 若你是为钻研提示词技巧，那这一段经历确有收获——我由此获得了一个新玩法。但到这里也就够了，不再往深处走，顶多在现有基础上稍作润色。再深入下去，不如直接去学编程，弄懂逻辑即可。
 若你只是为了娱乐，就更不必耗费大量精力。这不过是提示词的一处简单应用，分支极小，根本谈不上核心能力。
 说白了，就是把原本生成的内容换个载体：可以放进卡片，可以塞进表格，也可以安置在任意其他容器里。
@@ -413,9 +413,9 @@ Claude 能够直接产出图像；若使用 GPT，则需额外生成代码并补
 互联网领域的朋友想必能联想到，这其实就对应着前端与后端的分工——没有好的内容基础，再漂亮的门面也只是空壳。
 再站高一点向后退一步看，这件事本质上关乎“内在”与“颜值”的关系。
 于是核心一目了然：描龙绘虎易，难画的是风骨；美人之美，在于骨相而非皮相。赏心的皮囊随处可见。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_91a845b06d3e3718cdb4b3488bb30261.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5a6716dab866184dc48b7c0907b51fe6.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_673793658658a3c7146ea1748bb88ca6.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9b8bbba8bf1554b239a03bee84d20e83.png>
+![](img/zhuanqian_91a845b06d3e3718cdb4b3488bb30261.png)
+![](img/zhuanqian_5a6716dab866184dc48b7c0907b51fe6.png)
+![](img/zhuanqian_673793658658a3c7146ea1748bb88ca6.png)
+![](img/zhuanqian_9b8bbba8bf1554b239a03bee84d20e83.png)
 难得的是，那个有趣的灵魂，实则万里挑一。
 就先聊到这里吧，希望对你有点启发。等我短视频做出成绩，再来分享更多。

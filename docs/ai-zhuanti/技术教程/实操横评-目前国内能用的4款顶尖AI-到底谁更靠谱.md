@@ -7,7 +7,7 @@
 不过碰到需要复杂结构化、强逻辑链的提示词时，国内大模型的理解与执行精度还是会掉线，这个层面GPT-4.0目前仍然稳压一头。
 我公众号近期连发的《AI时代，不上班，也能养活自己的100个自由职业！》以及《OpenAI又在改写历史，1分钟了解GPT-4o是个啥》两篇，几乎全程由国内大模型生成，投稿前只做了排版整合，原稿几乎没动。
 先看下当下AI产品热度榜TOP15：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f26251300519d42bd035ba833303c2c9.png>
+![](img/zhuanqian_f26251300519d42bd035ba833303c2c9.png)
 榜单是综合市场体量、用户规模、技术背景、融资情况、行业影响力等维度评出来的。榜单是榜单，好用不好用还得自己上手试。今天我就挑目前口碑最好的四款国内大模型AI工具来做对比测试：
 ```
 Kimi：https://kimi.moonshot.cn/
@@ -34,10 +34,10 @@ https://mp.weixin.qq.com/s/PKKIJkAhFFzluxMhXcG4kw
 https://mp.weixin.qq.com/s/y3xp95O9WXzNk_F1ZhQgDA
 ```
 Kimi、海螺AI、跃问、智谱清言基本都能正常响应：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b41e07a2566bb62c0f460bdbf8a39696.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_815265907624ff25296989ebfaa4c1e7.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a91c677ba6173e6dd1fbf2fd4d1394f1.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_30afee041b22e1038c12a56c15de81a9.png>
+![](img/zhuanqian_b41e07a2566bb62c0f460bdbf8a39696.png)
+![](img/zhuanqian_815265907624ff25296989ebfaa4c1e7.png)
+![](img/zhuanqian_a91c677ba6173e6dd1fbf2fd4d1394f1.png)
+![](img/zhuanqian_30afee041b22e1038c12a56c15de81a9.png)
 能直接读取链接内容、把链接内容导出成excle表格、以及上传文件做分析，是国内大模型体验感很强的地方。
 而链接访问和文件上传，GPT-4.0虽然也有，但早期要靠插件，现在改成GPTS实现，操作门槛和体验都明显不如国内模型。
 # 2、第二步，测AI是否真读进去了
@@ -52,10 +52,10 @@ Kimi、海螺AI、跃问、智谱清言基本都能正常响应：
 《其实不上班的出路，远比你想的要多！》
 ```
 结果智谱清言直接翻车：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_70d0ec31c33ab66fa785cfaedadd7a0d.png>
+![](img/zhuanqian_70d0ec31c33ab66fa785cfaedadd7a0d.png)
 智谱清言在提示词解析和指令理解上明显吃力，因此我直接把它移出测试。文心一言我本来也没放进来，因为实际体验远不如Kimi、海螺AI、跃问顺畅。
 另外上下文长度差异很大：GPT-4.0大概8000字左右，Kimi是20万字，海螺AI和跃问号称100万字。所以把原文直接塞进提示词时，GPT-4.0很容易爆表：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5ea76554065a80437a175761015b058e.png>
+![](img/zhuanqian_5ea76554065a80437a175761015b058e.png)
 我把链接原文直接复制给GPT-4.0，很快就超出记忆上限，导致前面输入的内容被遗忘。这一点上国内模型优势明显，几十万字的上下文基本能满足绝大多数写作场景。
 # 3、第三步，投喂个人背景信息
 然后我让AI先记住我的个人简介，建立对我的基本认知。
@@ -94,7 +94,7 @@ AI培训资源及企业AI定制资源。
 我接下来要写一篇围绕“AI”和“不上班”的主题文章，请基于我给的五篇公众号内容基础上，你有什么好的建议？
 ```
 Kimi、海螺AI、跃问三家的输出质量相近，这里放Kimi的截图：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_487694fd1357c13517f0c1321fcf6aae.png>
+![](img/zhuanqian_487694fd1357c13517f0c1321fcf6aae.png)
 # 5、第五步，指定爆款标题做仿写
 接下来我把前面五篇爆款的标题作为参考，指定一个方向让AI去写。
 提示词如下：
@@ -104,9 +104,9 @@ Kimi、海螺AI、跃问三家的输出质量相近，这里放Kimi的截图：
 你熟知公众号爆文写作逻辑，请你基于发给你的内容，帮忙写一篇符合我要求的公众号爆文。
 ```
 海螺AI在生成过程中主动展示了联网搜索的记录，这个细节挺加分的。跃问和Kimi也有类似表现：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e92d01d383bfaaea206c1189e798af2b.png>
+![](img/zhuanqian_e92d01d383bfaaea206c1189e798af2b.png)
 这里我没给AI指定写作风格，所以出来的文章偏书面化，一眼能看出是AI味很重的文本。看Kimi的截图就很明显：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cc9728f933164b02336bed659338bbaf.png>
+![](img/zhuanqian_cc9728f933164b02336bed659338bbaf.png)
 # 6、第六步，提取我的写作风格
 要让AI写出像我这样的风格，先把我公众号的历史文章喂给它做风格拆解。
 提示词如下：
@@ -150,14 +150,14 @@ https://mp.weixin.qq.com/s/kwKq1YYCnt0O4tWeAahE6Q
 4、11-100名的自由职业不需要做岗位介绍，只需要给出岗位名即可。
 ```
 实测结果，跃问在文章开头部分的表达我特别喜欢，直接拿来用了。但在前10名自由职业收入部分，跃问对我的逻辑理解不到位，收入描述千篇一律，读起来很死板；11-100名的职业也出现大量重复：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e1730e84f209b1f06a1393d4dff35a47.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_db399d3a00b3ec81ff5b5db841e44ddd.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4ac3ee5e210240038ea5fbbf40f6377f.png>
+![](img/zhuanqian_e1730e84f209b1f06a1393d4dff35a47.png)
+![](img/zhuanqian_db399d3a00b3ec81ff5b5db841e44ddd.png)
+![](img/zhuanqian_4ac3ee5e210240038ea5fbbf40f6377f.png)
 Kimi在开头段落的表现不如跃问，逻辑没完全收敛导致不确定性偏大，但前十职业的收入描述和11-100个职业名称的生成，Kimi对我的要求理解得更到位，整体逻辑更清晰：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c8d678e522348bdabb41e8501740685c.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_80e55f986f6c86e2d4280b1f8bb84cc7.png>
+![](img/zhuanqian_c8d678e522348bdabb41e8501740685c.png)
+![](img/zhuanqian_80e55f986f6c86e2d4280b1f8bb84cc7.png)
 Kimi生成的一段话我觉得写得很好：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a27c79aa0ee7d0067ac18d13e40c2d30.png>
+![](img/zhuanqian_a27c79aa0ee7d0067ac18d13e40c2d30.png)
 最终我把跃问和Kimi的输出合并整合，就是公众号上发布的版本，几乎零修改。
 另外一篇《OpenAI又在改写历史，1分钟了解GPT-4o是个啥》也是用Kimi、海螺、跃问、智谱清言共同生成的。
 提示词如下：
@@ -166,11 +166,11 @@ Kimi生成的一段话我觉得写得很好：
 https://mp.weixin.qq.com/s/pnXY9c9aXR41LeWFx9DEyg
 ```
 Kimi的生成结果最合我心意，直接截取使用了：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c644f9897d71252a91f2f270f5d9fab3.png>
+![](img/zhuanqian_c644f9897d71252a91f2f270f5d9fab3.png)
 综合来看，权衡各方面，Kimi整体表现最均衡，是目前我最常用的选择。海螺AI和跃问的使用体验也相当不错。测试就到这里，欢迎交流，一起玩转AI！
 * * *
 往期干货精选：
 往期干货合集：
 微信：qiaobangzhu-cn，添加请备注：赚钱圈友。欢迎交流！
 公众号：点金乔帮主
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0841c114ef9cf1bd6128c5804d2cbd40.png>
+![](img/zhuanqian_0841c114ef9cf1bd6128c5804d2cbd40.png)

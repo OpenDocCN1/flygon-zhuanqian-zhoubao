@@ -8,11 +8,11 @@
 > 这个 GitHub 仓库是干嘛的？适不适合我？
 > 别瞎猜，别瞎编，查证之后再回我。
 我不会写很长的 prompt，也不会一步步交代操作顺序。我的习惯是：我提目标，它补过程。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_241749e215cfa12ae9024d85f68af16d_0_0.png>
+![](img/zhuanqian_241749e215cfa12ae9024d85f68af16d_0_0.png)
 ## 整套工作流，拆开只有六条线
 刚上手的用户，不必一上来就搞复杂架构。
 我目前的完整玩法，捋到底只有六条：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_241749e215cfa12ae9024d85f68af16d_2_0.png>
+![](img/zhuanqian_241749e215cfa12ae9024d85f68af16d_2_0.png)
 用大白话说就是：
 **链接**：它负责读取、查背景、判断价值，值得留就归入笔记库；日后碰到同类的，可以在旧笔记上继续推进。
 **微信群**：它负责捕捉吐槽、求推荐、有偿求助、想自动化的信号，放进机会清单，将来评估需求时随时取用。
@@ -97,7 +97,7 @@ Hermes 会先判断链接属于哪一类：文章？产品页？课程？帖子�
 换句话说，我不想让资料库变成收藏筐。我希望它存的是判断：这个内容跟我有什么关系？对我做产品、找方向、搞独立开发有没有实际帮助？
 我确实记不住太多东西。但 Hermes 会在需要时来一句提醒：你资料库里有一份旧文件，正好能用来处理眼前这件事。
 这才是资料库真正该有的意义。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_241749e215cfa12ae9024d85f68af16d_14_0.png>
+![](img/zhuanqian_241749e215cfa12ae9024d85f68af16d_14_0.png)
 ## 微信聊天记录：远没有想象中复杂
 很多人听到"读微信记录"，第一反应就是数据库、解密、SQL。
 我日常完全不是这样的。
@@ -143,7 +143,7 @@ Hermes 会先判断链接属于哪一类：文章？产品页？课程？帖子�
 每一条需求一个模块，而不是裹脚布式的流水账。
 顺便说一下 MVP 的含义：先做最小可跑版本，别一上来就奔着大而全去。
 普通总结在告诉你"大家说了什么"，需求分析在问"这里藏着什么机会"。两者本质不同。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_241749e215cfa12ae9024d85f68af16d_20_0.png>
+![](img/zhuanqian_241749e215cfa12ae9024d85f68af16d_20_0.png)
 ## 很多建议，反而是 Hermes 先提出来的
 这一点很有趣。
 我的工作流不是一开始就规划好的。很多时候，我只是丢一句"帮我琢磨一下这个"，它看完反而会主动提议：
@@ -174,7 +174,7 @@ Hermes 好不好用，一半看工具，一半看模型。
 需求不大的话，GPT Plus 就足够。我开 Pro 是因为要用 Codex 跑项目，否则真没必要花这个钱。
 我的经验法则：别什么活都上最贵模型，也别省到让弱模型扛重活。可以往 DeepSeek 充点钱，再向 Hermes 交代一句：GPT-5.5 挂掉的话，默认切到 DeepSeek 兜底。
 模型没选对，后面有得折腾。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_241749e215cfa12ae9024d85f68af16d_26_0.png>
+![](img/zhuanqian_241749e215cfa12ae9024d85f68af16d_26_0.png)
 ## 资料库不等于收藏夹
 我目前用 Obsidian 作为长期资料库。Hermes 会把有价值的信息写进去，比如：
 内容生产/日报/

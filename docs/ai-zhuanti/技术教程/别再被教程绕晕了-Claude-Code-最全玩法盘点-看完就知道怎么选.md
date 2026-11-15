@@ -2,7 +2,7 @@
 哈喽，大家好！最近收到好多朋友私信，说想上手 Claude Code，结果一搜教程，满屏都是镜像站、API、代理、自定义安装包……整个人直接懵掉。
 今天我就用一篇文章把这些讲清楚：Claude Code 到底有哪几种打开方式、分别适合谁、官方订阅怎么搞、有哪些镜像站能选。不绕弯子，直接上干货。
 先看一张总览图，整个使用体系基本就是这样：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b55bf8385243b9685423b8f76f5a680b.png>
+![](img/zhuanqian_b55bf8385243b9685423b8f76f5a680b.png)
 ## 先搞明白：两种主流方式到底有啥区别
 在开始之前，得先给大家科普一个背景：现在市面上的镜像站鱼龙混杂，很多方式看着差不多，其实底层逻辑完全不一样。
 ### 方式一：自定义安装包
@@ -105,7 +105,7 @@ https://www.seagm.com
 - 200 美元套餐，实际支付 250 美元
 说句大实话，官方订阅就是比较难。目前 App 端是少数能顺畅走通的支付路径。网页端支付的话，不管是找二手平台代付，还是用虚拟卡，都有跑路风险；最稳的还是找有国外卡的朋友帮忙。
 最后再提醒一句：现在 AI 产品迭代实在太快，不太建议一上来就年订阅。除非你预算真的很充足，否则还是按月订更稳妥。最近应该有不少被 Cursor 年费套牢的朋友在后悔吧？
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_27520e1c0e7568c15e5873d97926e721.png>
+![](img/zhuanqian_27520e1c0e7568c15e5873d97926e721.png)
 ## 镜像站盘点
 下面这些是我目前了解到的镜像站，全部不带推荐码，纯个人使用经验。另外提醒一下，每家的积分消耗规则不同，先搞清楚是基于什么来扣费的，再决定要不要上车。
 ### mirrocode
@@ -115,18 +115,18 @@ https://www.seagm.com
 这家应该不少人知道了，我自己以前也用过。价格有 299 和 399 两个档位。
 ### aicodewith
 地址：https://aicodewith.com/
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_efca47760d3bc8acf40f0c1b9b0f33a1.png>
+![](img/zhuanqian_efca47760d3bc8acf40f0c1b9b0f33a1.png)
 ### sssaicode
 地址：https://sssaicode.com/
 也支持官方 API 方式，套餐选择相对丰富。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d0008b7b3596f18b866a7d8e7bf78844.png>
+![](img/zhuanqian_d0008b7b3596f18b866a7d8e7bf78844.png)
 ### aicodemirror
 地址：https://www.aicodemirror.com/
 同样支持官方 API 方式。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6bd9ddc42925b752b6ebb6a12e4903ef.png>
+![](img/zhuanqian_6bd9ddc42925b752b6ebb6a12e4903ef.png)
 ## 那么，到底怎么选？
 别纠结，按照下面这张流程图来判断就行。选好方式后，再去看对应的具体要求和配置步骤，一步步来就好。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_033fd1b0e9ebcff96dfe8cc697211fde.png>
+![](img/zhuanqian_033fd1b0e9ebcff96dfe8cc697211fde.png)
 ## 写在最后
 不管最后选了哪种方式，最关键的是：先跑起来，别光研究不用。
 我见过太多人，天天在对比工具、看评测、收藏教程，结果一个都没真正用过。与其纠结半天，不如先随便选一个开干，用着用着，你自然就知道哪个最适合自己了。

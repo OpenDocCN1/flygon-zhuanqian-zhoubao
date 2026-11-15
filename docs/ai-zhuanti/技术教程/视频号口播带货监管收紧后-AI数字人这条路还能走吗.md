@@ -1,7 +1,7 @@
 # 视频号口播带货监管收紧后，AI数字人这条路还能走吗
 最近全网都在传一个冷启动打法：用AI虚拟的俄罗斯女生做口播带货。第一眼看过去几乎以为是真人出镜，神态和口型衔接都很自然。抖音、快手、视频号都是重灾区，不少号在20天左右就能起量，涨粉曲线相当漂亮。
 正逢年货节，各大平台都在放流量。视频号里就出现一个AI克隆的俄罗斯博主号，活了16天，发了58条内容，橱窗商品累计成交过万件，半个月间佣金收入就突破10万。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f97ca678d7e7bac66f271a7403ed25b2.png>
+![](img/zhuanqian_f97ca678d7e7bac66f271a7403ed25b2.png)
 我把这类账号拆开来看，成本其实被压得非常低。确定好3到4个虚拟形象后就能批量生产，2到5分钟产出一支原创的俄罗斯美女带货口播，内容直接多平台分发做矩阵，一旦其中一条跑出数据，账号整体的带货表现就会被带起来。
 玩法上，脚本和商品选择都有套路。
 脚本逻辑：统一用俄罗斯籍的身份包装，塑造一个对中国文化充满好感的角色，重点渲染年货这一主题，精准触达中老年群体的民族情怀与信任需求，情绪到位了购买欲也就来了。
@@ -41,26 +41,26 @@ mac苹果电脑版V4.2
 ### 2. 实操
 先在谷歌找一张与源视频人物相近的高清人脸照片，相似度足够即可，也可以用AI重绘。
 打开软件后按界面填写信息
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4115be097a67c750b4e3b87955e2b1dc.png>
+![](img/zhuanqian_4115be097a67c750b4e3b87955e2b1dc.png)
 人脸图片上传你准备好的照片，目标视频上传剪好的2分钟素材，点击开始生成，等待输出换脸后的视频。
 ## 三、口播视频制作
 ### 1. 登录a2e创建定制形象
 打开官网：https://video.ai-anchor.com?coupon=kEtn 登录后进入首页。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_61461989054ad421712f5b11a9f74890.png>
+![](img/zhuanqian_61461989054ad421712f5b11a9f74890.png)
 选择新增形象，新账号会赠送200金币和1个钻石，创建1个形象需消耗1钻石
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f2d8571e03135e0f896d86639a2d7acd.png>
+![](img/zhuanqian_f2d8571e03135e0f896d86639a2d7acd.png)
 点击创建，上传处理完成的模型素材
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5d7f0d0923318da1b82e588c220db939.png>
+![](img/zhuanqian_5d7f0d0923318da1b82e588c220db939.png)
 上传完毕后点提交。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ab422a062ac483d1a4f189a4517b071c.png>
+![](img/zhuanqian_ab422a062ac483d1a4f189a4517b071c.png)
 点“微调”按钮确认，模型开始训练，大约20分钟左右完成
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fc5c990a3d95416f33a075a50989034c.png>
+![](img/zhuanqian_fc5c990a3d95416f33a075a50989034c.png)
 点击左上角的创建入口
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a5bb4476dfc9f2647507ff3c39de555c.png>
+![](img/zhuanqian_a5bb4476dfc9f2647507ff3c39de555c.png)
 进入我的形象
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e3171edebe9cb536be8a17539af3ed6b.png>
+![](img/zhuanqian_e3171edebe9cb536be8a17539af3ed6b.png)
 随后阅读同意书，完成口播认证。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d3a638e2d508324422f0a40322fa706f.png>
+![](img/zhuanqian_d3a638e2d508324422f0a40322fa706f.png)
 ## 六、多平台矩阵发布
 目前数据最好的平台集中在抖音、快手、视频号。多注册几个号同步投放，既能分散风险也能提高视频号爆发的概率。
 结尾：2024龙年到来，正好进入三元九运离火大运，离为虚，AI数字人这种虚像技术正应此象。结合AI迭代速度，2024年很可能是AI虚拟主播全面爆发的元年，真假届时将更难分辨。与其观望，不如成为第一批吃螃蟹的人，把AI真正用在带货上。祝大家单量爆发，龙年吉祥，财源滚滚。

@@ -10,14 +10,14 @@
 ## 微调模型 vs 原版模型：效果对比赛
 下面每组图里，上面是微调后的模型，下面是原版 GPT-3.5。
 第一组：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_21f3276542d98fa70491a30d9e9205b4.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7242b760532bf2baa9903ffe21c931ad.png>
+![](img/zhuanqian_21f3276542d98fa70491a30d9e9205b4.png)
+![](img/zhuanqian_7242b760532bf2baa9903ffe21c931ad.png)
 第二组：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_025890a4e70afc3f9526ca8845eb92a6.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f4b7e9a451cdc5b7d5bf94274050d4a4.png>
+![](img/zhuanqian_025890a4e70afc3f9526ca8845eb92a6.png)
+![](img/zhuanqian_f4b7e9a451cdc5b7d5bf94274050d4a4.png)
 第三组：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_83bc674301825b395f59184f149a2608.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b1844fd9e0314e7e39e03c319a6353e3.png>
+![](img/zhuanqian_83bc674301825b395f59184f149a2608.png)
+![](img/zhuanqian_b1844fd9e0314e7e39e03c319a6353e3.png)
 说实话，如果你逐条细看，可能不会觉得微调模型全面碾压原版。因为有些分析，原版 3.5 本身就已经做得很好了。
 而且我的训练数据是拿 GPT-3.5 生成的，数据质量未必算高，这也会影响最终效果。模型决定性能的下限，数据质量才决定性能的上限。
 不过，如果不纠结内容，只看结构，你会发现一个很有意思的现象：微调后的模型输出风格特别稳定，格式感很强，但我们明明没有在 prompt 里强调输出格式。这就是微调的价值——它能学习特定格式、特定风格，同时也在一定程度上防御 prompt 逆向。
@@ -27,7 +27,7 @@
 举个例子：如果你运营一个电商网站，想用聊天机器人回答退货政策问题，微调可以让模型针对这类问题回答得更准，而不是泛泛而谈。
 说得更直白一点：如果大语言模型是一个刚入职的运营实习生，那微调后的模型就是一个有三年经验的运营熟手。微调能让模型显得更“专业”。
 下面这张对比表，可以帮你看清普通提示词（Prompting）和微调（Fine-tuning）的核心差异：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ef122ab6784d364e3738b954b2fc9419.png>
+![](img/zhuanqian_ef122ab6784d364e3738b954b2fc9419.png)
 再举两个例子：
 - 你只是想让模型算个“2+2”这种基础题，用普通 prompt 就够了。
 - 但如果你需要模型做复杂的金融分析或预测，微调会更合适，因为你可以用特定金融数据集去训练它。
@@ -69,21 +69,21 @@ OpenAI 目前开放了下面几款：
 ## 原始数据是怎么生成的？
 我的原始数据是通过调用 GPT-3.5 API 生成的，用的就是上面那个很长的拆解 prompt。这个模板最早来源于刀姐的风向标作业。
 如果你不会写代码，也没关系，直接把 prompt 扔进 ChatGPT，然后手动复制结果就行。在代码解释器里可以这样操作：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5a2c4503085543f46f2379b923c4bc32.png>
+![](img/zhuanqian_5a2c4503085543f46f2379b923c4bc32.png)
 这样每跑一次，就能得到一条训练数据。
 重复十来次，一份最小可用的数据集就出来了。
 如果要更高效一点，代码解释器还有进阶玩法。
 先把任务定义清楚，让它批量干活：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0b3b821bced220799ac571dd4df102b9.png>
+![](img/zhuanqian_0b3b821bced220799ac571dd4df102b9.png)
 然后 ChatGPT 就会自动生成内容，并帮我们保存下来：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7de52a96258d736a4a3a2af369b7a406.png>
+![](img/zhuanqian_7de52a96258d736a4a3a2af369b7a406.png)
 接下来不用停，继续让它生成就行：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c38878cefd770afbe1019285fc36b5f1.png>
+![](img/zhuanqian_c38878cefd770afbe1019285fc36b5f1.png)
 要是中途出现问题，只需要把问题说清楚，再让 ChatGPT 自己修改。
 这样就能拿到一份完整可用的训练数据：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_408031d83f62b3bc17cfb32b6af0a3f3.png>
+![](img/zhuanqian_408031d83f62b3bc17cfb32b6af0a3f3.png)
 不过生成出来的数据还要微调一下，因为 system prompt 太长，我们需要精简：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a43b17bffe34faa244af0841c63d642b.png>
+![](img/zhuanqian_a43b17bffe34faa244af0841c63d642b.png)
 ## 上传文件：用现成工具就能搞定
 为了把数据集传到 OpenAI，推荐大家直接用这个开源工具：
 https://github.com/anchen1011/chatgpt-finetune-ui
@@ -91,26 +91,26 @@ https://github.com/anchen1011/chatgpt-finetune-ui
 http://system2.space:8001
 注意：用在线版一定要记得，操作完立刻删除你的 API Key，安全第一。
 第一步，在输入框填入你的 OpenAI API Key，然后按回车：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_58633c6d7958a4fab82623fc5213cced.png>
+![](img/zhuanqian_58633c6d7958a4fab82623fc5213cced.png)
 我自己用的是魔改版，和原版基本没差，只是改成了自己的环境，用起来更安心：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ab0df850147058de6ea04e6a4fb67aea.png>
+![](img/zhuanqian_ab0df850147058de6ea04e6a4fb67aea.png)
 接下来，把刚才生成的数据集上传上去：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1ef4b99932d3991c2b1c277af3b5c230.png>
+![](img/zhuanqian_1ef4b99932d3991c2b1c277af3b5c230.png)
 我的魔改版里加了个费用预估功能。可以看到，微调这 10 条数据预计要花 0.13 美元，并不算便宜。
 ## 开始微调
 我的版本需要手动把文件上传到 OpenAI，原版工具会更省事，直接从本地上传就行。
 上传后，OpenAI 会先做文件校验。校验没问题后，文件状态会变成 processed。这时候就可以创建 fine-tuning job 了：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f803e6741d6c54c33ce69e4a5f2cf138.png>
+![](img/zhuanqian_f803e6741d6c54c33ce69e4a5f2cf138.png)
 等训练跑完，一个专属于你的微调模型就诞生了。
 如果你也想做类似的垂直场景尝试，不妨从 10 条数据开始，先跑通流程，再慢慢优化数据质量。毕竟微调这件事，真正拉开差距的，不是模型，而是你喂给它的数据。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a849581272febd3a558cc29dc957b94c.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3e948af7dfd865650ebca149fafee0be.png>
+![](img/zhuanqian_a849581272febd3a558cc29dc957b94c.png)
+![](img/zhuanqian_3e948af7dfd865650ebca149fafee0be.png)
 提交训练任务后，不用一直盯着看。根据数据集的大小，等个几分钟到几小时，再打开“Get Fine-Tuning Job Detail”查看进度。只要状态栏显示为“succeed”，就意味着模型已经训练完成，接下来就能到Playground里亲自试效果了。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e57d05e0d4d10c5d5fcb7219fd6f0eca.png>
+![](img/zhuanqian_e57d05e0d4d10c5d5fcb7219fd6f0eca.png)
 # **实测微调性能**
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_389c1f21243e560a649fb079bc196cf0.png>
+![](img/zhuanqian_389c1f21243e560a649fb079bc196cf0.png)
 这样一来，一个专属的风向标分析模型就到手了，是不是很带感？心动的话直接上手试试，成本也就两美元上下，还能顺便点亮【微调GPT-3.5模型】这个新技能点。最后，想认识有海外数据资源的大佬一起搞点合作，有意向的欢迎评论区聊聊~
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e57d05e0d4d10c5d5fcb7219fd6f0eca.png>
+![](img/zhuanqian_e57d05e0d4d10c5d5fcb7219fd6f0eca.png)
 评论区：
 暂无评论
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1c37d505930596d12a88ab23e11aa07a.png>
+![](img/zhuanqian_1c37d505930596d12a88ab23e11aa07a.png)

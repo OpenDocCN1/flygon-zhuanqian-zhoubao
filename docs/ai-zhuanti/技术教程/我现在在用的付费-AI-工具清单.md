@@ -21,8 +21,8 @@
 或许不久后就能实现圈友的半自动变现。
 当下确实是黄金窗口，我看到有抱负的人都全身心投入，甚至不眠不休地用 AI 重塑业务。我也希望赚钱圈的成员能跟上节奏。AI 的到来让所有人重新归零，新手因没有历史包袱反而更容易上手，正应了那句：乾坤未定，你我皆是黑马。
 最后推荐小懒的付费交流空间：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5c10d01b404487f2169e38c04de71a19_3_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5c10d01b404487f2169e38c04de71a19_3_1.png>
+![](img/zhuanqian_5c10d01b404487f2169e38c04de71a19_3_0.png)
+![](img/zhuanqian_5c10d01b404487f2169e38c04de71a19_3_1.png)
 这里是你抵御信息过载的壁垒。
 已持续运营 7 年，累计拆解研读 3000+ 个互联网商业实战案例及行业前瞻内参、时政与宏观文章。
 我们不做低质搬运，只做高质量信息的筛选与放大。

@@ -1,7 +1,7 @@
 # 单次吞 200 万字：Kimi 全攻略，6 类自带提示词直接抄，效率直接拉满
 在文本类大模型里，ChatGPT 4.0一直被视作性能天花板。但最近在国内圈子里真正炸街的，是Kimi。跟其他同类产品比，Kimi最打动人的地方在于两点：一是大文件吞得下，单次可吃进200万字中文，全球范围内能做到这个量级的很少，资料不用拆分也能一次处理；二是记忆很稳，对话上下文能长时间保持一致。
 除此之外，它在超长文本阅读、资料归纳、文件解读、编程辅助和文案撰写上都表现突出，操作也极简，拖文件进去或粘个链接就能问。综合来看，它几乎就是目前中文环境下ChatGPT最顺手的替代品，也难怪上线后迅速走红，收获大量好评，口碑自发扩散，甚至成了两亿A股投资者日常用的工具。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1d0f21c496a7cb0e764b4f62ad35413f.png>
+![](img/zhuanqian_1d0f21c496a7cb0e764b4f62ad35413f.png)
 ## 一、Kimi的核心卖点
 1.  实时智能搜索：会上网找最新资料，把多个来源整合后给出完整答案，并附上信息出处，对话既丰富又可信。
 1.  超长阅读加速：能秒速提炼长文精华，打破语言障碍，帮你吃透论文、书籍、年报、合同、网页长文，给出深度洞察。
@@ -19,57 +19,57 @@
 下面系统拆解一下入口和用法。
 ### 1、怎么打开
 1）手机端，去各大应用商店或微信小程序搜索“Kimi 智能助手”即可用。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cd072f391c15d2cec84802f90dfa99b8.png>
+![](img/zhuanqian_cd072f391c15d2cec84802f90dfa99b8.png)
 2）网页端直接打开：https://kimi.moonshot.cn
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ff74a05d2f32a22acc8911eee7d80727.png>
+![](img/zhuanqian_ff74a05d2f32a22acc8911eee7d80727.png)
 ### 2、常用玩法
 1）普通对话
 直接输入任何问题就能得到回答，个人实测体验很顺滑。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4d1cfed51260e3e69fab06b78abad4e1.png>
+![](img/zhuanqian_4d1cfed51260e3e69fab06b78abad4e1.png)
 2）智商类测试
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4a78f9ac25adc4087f88d2a2844e2796.png>
+![](img/zhuanqian_4a78f9ac25adc4087f88d2a2844e2796.png)
 能看到几道题都答得不错，特别是最后一道连GPT 3.5都会翻车的题目，也被答对了。
 3、智能搜索
 Kimi自带联网能力，相当于AI搜索引擎，会汇总多个网址内容给出结论，省去你自己拼凑的步骤。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_088667034fcdd90539fadc1448c78a33.png>
+![](img/zhuanqian_088667034fcdd90539fadc1448c78a33.png)
 小技巧：想限制搜索范围，直接告诉它关键词就行，也能用浏览器常用语法site限定，比如只搜豆瓣。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1f07f520d1b59f652ded70e526583985.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7424cb48ad3f68ff533e9c0313f1fef2.png>
+![](img/zhuanqian_1f07f520d1b59f652ded70e526583985.png)
+![](img/zhuanqian_7424cb48ad3f68ff533e9c0313f1fef2.png)
 4、文档解读
 超长文档或多文件都能摘要、翻译、答疑，支持PDF、Word、Excel、PPT、TXT和图片。我们来看看实际效果。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b1e1a5b8b14b66b188b9fd37eea1c216.png>
+![](img/zhuanqian_b1e1a5b8b14b66b188b9fd37eea1c216.png)
 我传了一份30多万字的小说，Kimi当时只读到20万字左右，后来了解到该功能仍在内测。
 长文本阅读最大的好处是，书里的任何细节都能直接问，不用自己翻页找。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0374357708d7d9d1e102cf008bfce432.png>
+![](img/zhuanqian_0374357708d7d9d1e102cf008bfce432.png)
 5、图片解析
 可以直接扔一张图进去，它会条理清晰地输出图里内容，效果很惊艳。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2e5e3115424849acae161465904384db.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cd5f1fd824979607ed4bda038092463e.png>
+![](img/zhuanqian_2e5e3115424849acae161465904384db.png)
+![](img/zhuanqian_cd5f1fd824979607ed4bda038092463e.png)
 ### 3、差异化功能
 1、常用语
 相当于给Kimi设置快捷短语，长提示词保存下来，用几个字就能唤起。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_744bc231f8532b856e447701c942b382.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_10f2107a0f1b4c162ccfdfc014a604e7.png>
+![](img/zhuanqian_744bc231f8532b856e447701c942b382.png)
+![](img/zhuanqian_10f2107a0f1b4c162ccfdfc014a604e7.png)
 保存后：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_abd333cd6a503fc637e4974812199b2c.png>
+![](img/zhuanqian_abd333cd6a503fc637e4974812199b2c.png)
 调用方式：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b211632a9d41d30f1577cc50ae4515cb.png>
+![](img/zhuanqian_b211632a9d41d30f1577cc50ae4515cb.png)
 发送后效果：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9b5ad0adb392b4a64eb7cc837fbad1f3.png>
+![](img/zhuanqian_9b5ad0adb392b4a64eb7cc837fbad1f3.png)
 呈现如下：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b8c1a2b77047c8ccb975d6dc3770c49f.png>
+![](img/zhuanqian_b8c1a2b77047c8ccb975d6dc3770c49f.png)
 2、Kimi+
 内置了若干封装好的应用，像GPTs那样直接用，目前个人用户暂不支持自建。我们看一下效果。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_200478d89c226d7024de95d07f721e56.png>
+![](img/zhuanqian_200478d89c226d7024de95d07f721e56.png)
 随便点一个试试：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_04cc9342b600483b10e4f36411e5295b.png>
+![](img/zhuanqian_04cc9342b600483b10e4f36411e5295b.png)
 整体体验不错，从结果和引用来看，这些内置提示词逻辑并不复杂，主要就是用site限定搜索范围后输出。
 2、Kimi+ @功能
 所有内置的Kimi+应用都支持艾特，把一个对话直接传给另一个应用，免去复制粘贴。
 实测体验很丝滑：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0c196e24056503a01e978d1e85adf4f7.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_50e4b37c8c319718a0a5026b6f69cfb5.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_456452786c9ce8ec554029765694c83e.png>
+![](img/zhuanqian_0c196e24056503a01e978d1e85adf4f7.png)
+![](img/zhuanqian_50e4b37c8c319718a0a5026b6f69cfb5.png)
+![](img/zhuanqian_456452786c9ce8ec554029765694c83e.png)
 ## 四、Kimi自带提示词合集
 ### 1、爆款文案
 ```

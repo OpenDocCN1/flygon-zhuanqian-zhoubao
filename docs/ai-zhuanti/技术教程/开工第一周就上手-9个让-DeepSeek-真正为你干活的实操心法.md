@@ -23,31 +23,31 @@
 ### 1、套路式“欺骗”没用了
 像“做得好就给你小费”或“我是个残疾人”这类诱导式提示，现在基本失效了。DeepSeek 能通过思考链推断出你在设套，这些冗余信息反而会干扰它对真实场景的判断，导致推理走偏。
 下面这个“给小费”的例子，它当场就识破了。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4013f392d1948437e44f4c8e5a57f8aa.png>
+![](img/zhuanqian_4013f392d1948437e44f4c8e5a57f8aa.png)
 再比如我告诉它“我是个没有手指的残疾人，不能打字”，过去的模型会把这当成一种激励条件处理，而 DeepSeek 会把它理解成一个客观事实，于是会在正文中写出“我是一个残疾人”的表述，导致内容失真。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c2f967b5450a431319d7c53a6c0ff400.png>
+![](img/zhuanqian_c2f967b5450a431319d7c53a6c0ff400.png)
 ### 2、角色扮演和强结构提示词的加成在减弱
 以前让 AI 扮演专家、套用严格格式，能明显提升质量。现在在 DeepSeek 上，这两个方法还能用，但提升幅度远不如从前。
 从思考链可以看到，它并不是真的“进入角色”，而是基于推理去分析你的需求来生成内容，输出质量并未因此大幅提高。
 过去我们用结构化提示词，是把思维链硬塞进格式里，降低构建思维的难度。现在 DeepSeek 自己就会构建思维链，所以不需要你再额外加结构。
 像 Lisp 风格的提示词对 DeepSeek 来说反而是负担，它得先把 Lisp 转成自然语言再理解，理解成本更高。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_79c22100d1519618ebc47e55ab76b4cf.png>
+![](img/zhuanqian_79c22100d1519618ebc47e55ab76b4cf.png)
 ## 二、DeepSeek 现在更有效的用法
 讲完那些失效的套路，来分享几条在 DeepSeek 上验证有效的思路。
 ### 1、PUA 式反馈依然有效
 赞美或批评 DeepSeek 的输出，依然会影响后续质量。因为这两种反馈都指向性很强，能帮助模型快速捕捉到你对当前内容的偏好，从而更好地迭代。
 人能 PUA，AI 也躲不过，果然万物皆可 PUA。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a03bd33f8f83809eb95a9a35d37ed587.png>
+![](img/zhuanqian_a03bd33f8f83809eb95a9a35d37ed587.png)
 ### 2、先用自然语言，别先堆模板
 DeepSeek 的交互偏好是自然对话。直接像跟人聊天一样描述真实场景和需求即可，比如“我想给投资人介绍 AI 自动驾驶项目，他们更关心技术实现和回本周期，帮我梳理一下要点”。
 不用死守格式和模板，模型会自动推理出你想要的内容，甚至能补全你没说出的隐藏需求。
 我只问了“技术实现方式”和“投资回报周期”，结果它额外补充了技术壁垒、法规风险、数据获取、退出机制等我没提到的点。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7f1f6994d1ed7bb4e15275f0e65ab85f.png>
+![](img/zhuanqian_7f1f6994d1ed7bb4e15275f0e65ab85f.png)
 我常用的提问框架是：
 [背景]+[具体任务]+[明确要求]+[补充说明]
 举例：
 我准备把一座老工业区改造成文创园区。需要一份兼顾历史保护与商业价值的改造方案。方案要参考日本老旧车站活化、欧洲工业遗产改造，以及国内文化地标运营案例。最后请指出可能导致园区经营失败的风险点。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f343a5f39d80171f597d118504342da6.png>
+![](img/zhuanqian_f343a5f39d80171f597d118504342da6.png)
 码了快四个小时了，喜欢的话记得点个赞，你的认可是我继续写的动力~
 ### 3、借助它的深度思考能力
 DeepSeek 的知识储备远超普通人，关键是学会怎么撬动它。
@@ -69,17 +69,17 @@ DeepSeek 的知识截止在 2023 年 12 月。对于这个日期之前的确定�
 过度联网会让模型被当下网络噪音污染，增加幻觉概率，反而降低准确度。
 ### 5、让不同模型互相补位，组队作战
 Github 上流行一种组合玩法 DeepClaude，把 DeepSeek 和 Claude 放在一起用。DeepSeek R1 的深度推理能实现自我纠正和边界思考，但代码生成、创造力和对话流畅度上仍有短板，而 Claude 3.5 Sonnet 在这些方面表现更好。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_73fece580bc4e4c67de6d5a980d10d25.png>
+![](img/zhuanqian_73fece580bc4e4c67de6d5a980d10d25.png)
 两者结合，就能同时拥有顶级的推理能力和出色的代码创作力。目前网上已有不少开源方案，搜一下就能上手。
 ### 6、把思考过程当教材看
 当 R1 面对复杂问题时，会像学者一样先界定问题边界，再拆解论证，最后才下结论。
 比如讨论商业策略，它会先厘清目标市场、评估资源、分析竞争，最后给出建议。这种结构化的思考路径，正是我们学习解题的宝贵素材。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a154daa9fe4a73f877f0c03ce2d432d9.png>
+![](img/zhuanqian_a154daa9fe4a73f877f0c03ce2d432d9.png)
 多看它的思考过程，学会系统拆解、多角度求解，并把这种方式内化为自己的思维习惯。
 ### 7、别忘了幻觉风险
 推理模型也会胡编。即使思考方向正确，也可能编造事实。DeepSeek 的幻觉同样强劲，尤其在史实类问题上出错率很高，要保持警惕。
 例如我让它整理马斯克生平，它说 Zip2 成立于 1996 年，实际是 1995 年。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a1df28d964f1cf1d368864b8e544e212.png>
+![](img/zhuanqian_a1df28d964f1cf1d368864b8e544e212.png)
 最后记住，AI 不是魔法棒，而是放大镜。它放大的是使用者的能力。
 思考清晰的人能让 AI 成为智慧催化剂，而思维模糊的人，即便用上最强的 AI，也只会事倍功半。
 好了，今天的分享就到这里。春节假期的最后一天，大年初七，我在家整整坐了一下午码字。如果喜欢这篇文章，记得给我点个赞哦。

@@ -6,7 +6,7 @@
 ### 1、做这件事的理由
 1）CPS 优惠券确实能变现；2）身边人真有需求，不想每次都喊我发券；3）市面上外卖券做烂了，非外卖的高频低频券还是一片空白。
 ### 2、瞄准谁
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d54804197a5cd24c4f17fe84c3092f53_0_0.png>
+![](img/zhuanqian_d54804197a5cd24c4f17fe84c3092f53_0_0.png)
 1）不知道外卖每天都能领券的人；
 2）不知道除了外卖，还有一大堆券能领的人；
 3）想一站式薅多个平台外卖券的人。
@@ -19,7 +19,7 @@
 ## 三、3 小时怎么花的
 ### 1、第 1 小时：只梳理，不写代码
 先用刘小排老师在【超级 AI 大航海】里提到的 SPEC 方法过一遍需求：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d54804197a5cd24c4f17fe84c3092f53_1_0.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d54804197a5cd24c4f17fe84c3092f53_1_1.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d54804197a5cd24c4f17fe84c3092f53_1_2.png>
+![](img/zhuanqian_d54804197a5cd24c4f17fe84c3092f53_1_0.png)![](img/zhuanqian_d54804197a5cd24c4f17fe84c3092f53_1_1.png)![](img/zhuanqian_d54804197a5cd24c4f17fe84c3092f53_1_2.png)
 我要做一个：……用一句话把想法大概说清楚……
 请你别急着写代码，像个苏格拉底一样一个问题一个问题地问我，每次给带编号的选项，直到我们能凑成一份完整的 SPEC，包含：
 - Problem Statement
@@ -53,7 +53,7 @@ Codex 写得比我想象的快，核心页很快就有了，还顺手给我生�
 ### 4、第一版别急着做后台
 我根本没想做后台，Codex 直接做了，还做得挺像样，结果我被分心去调后台。后来才发现微信云开发前半年就能顶上，19.9 元/月，后面再考虑要不要自建后台。没后台也能靠发版更新内容，虽然慢点但够用。
 AI 很会“多做”。不明确说只做 MVP，它会把管理后台、扩展功能一并给你，看着很香却分散注意力。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d54804197a5cd24c4f17fe84c3092f53_5_0.png>
+![](img/zhuanqian_d54804197a5cd24c4f17fe84c3092f53_5_0.png)
 ### 5、逻辑别搞复杂
 第一版只保留一条主流程就行。我的产品可以做成跳转 App 领券，也可以做小程序内领券，但第一版只选一种，别混合。先上线让用户反馈，再迭代。
 分类、数据统计、领券排行这些后续再说，用户会告诉你什么有用。
@@ -64,7 +64,7 @@ AI 很会“多做”。不明确说只做 MVP，它会把管理后台、扩展�
 3）放到公众号封面图里推，屏蔽噪音；
 4）用户多了再逐步上公域。
 现在一周将近 300 用户，后台能看到真实订单了。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d54804197a5cd24c4f17fe84c3092f53_7_0.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d54804197a5cd24c4f17fe84c3092f53_7_1.png>
+![](img/zhuanqian_d54804197a5cd24c4f17fe84c3092f53_7_0.png)![](img/zhuanqian_d54804197a5cd24c4f17fe84c3092f53_7_1.png)
 ## 六、总结
 想做小程序不必把功能想全。先找一个真实的小痛点，用 AI 快速做出最小可用版本，上线让市场说话。
 对普通人而言，上线不是终点，而是第一次真正开始。
@@ -73,4 +73,4 @@ AI 很会“多做”。不明确说只做 MVP，它会把管理后台、扩展�
 工具和教程是最不值钱的，值钱的是立刻开干和圈层信息差。
 我们不谈概念，只拆闭环，只压榨 AI 效率。内部已沉淀 1000+ 可跑通的套利实战。
 😂 查圈子资产和上车门槛：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d54804197a5cd24c4f17fe84c3092f53_8_0.png>
+![](img/zhuanqian_d54804197a5cd24c4f17fe84c3092f53_8_0.png)

@@ -33,7 +33,7 @@
 2.  AI 帮用户收纳待办，大脑只负责思考和执行，不负责记忆；
 3.  根据主线目标和碎片事务，AI 每天排程，保证主线不被挤掉；
 4.  基于进度做复盘和鼓励，帮用户建立正反馈回路。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0c78ea0aa3d4a7ac00b13a8064b9c934.png>
+![](img/zhuanqian_0c78ea0aa3d4a7ac00b13a8064b9c934.png)
 工具栈很简单：Cursor 负责搭骨架写基础代码，卡住的地方直接上 Claude 细抠。有趣的是，即使 Cursor 也在调用 Claude Sonnet，实际编程质量还是直接用 Claude 更高。几周的迭代后，MVP 基本成型。应用介绍视频：https://www.bilibili.com/video/BV11MNbeZEAb/?vd_source=c8a00d44633cbe4ad221262a311d31b7
 ## 下一步路标
 *   把 MVP 打磨到可上线版本，并重构后端；

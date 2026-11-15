@@ -5,8 +5,8 @@
 先看几类最常见的素人笔记，它们都不是大V，但评论区都是求攻略和求团的声音。
 ## 一、素人笔记的三种常见人设
 ### 1、女大学生人设：省钱攻略型
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0ae2132682c0a7e4197fe295688218f0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1292a1bdb569794082e7c61ce984e683.png>
+![](img/zhuanqian_0ae2132682c0a7e4197fe295688218f0.png)
+![](img/zhuanqian_1292a1bdb569794082e7c61ce984e683.png)
 这类文案的公式是：真人出镜 + 明确账单 + 体验细节 + 结尾钩子。
 比如下面这篇：
 标题：一千块也能玩川西，女大学生真实账单
@@ -22,8 +22,8 @@
 川西风景真的绝，和新疆很像，暂时去不了新疆的姐妹可以先冲川西，物价不高，全程也没碰到乱开价的商家。
 要报团的姐妹，直接4我！
 ### 2、美女封面人设：替大家踩点型
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e46640035ae50e9cefbe80b7707e1a26.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f7c22b6b2294a1f5465646e9ddf5259b.png>
+![](img/zhuanqian_e46640035ae50e9cefbe80b7707e1a26.png)
+![](img/zhuanqian_f7c22b6b2294a1f5465646e9ddf5259b.png)
 封面美图 + “帮你们试过了”的开头，是这类笔记的标配。内容通常是攻略干货。
 川西我先去探路了，这是真实的样子：
 四姑娘山已经美到离谱，雪山、森林、草原、湖泊、野花、日照金山全都有，太不真实了。
@@ -40,8 +40,8 @@
 牦牛肉干、藏香猪、牦牛酸奶、青稞酒、牛肉汤锅都值得试，肉嫩多汁，想到就馋。
 我们走了五天四晚，行程不赶，每个点都有足够时间拍照，体验感拉满。
 没开过山路的别碰自驾，部分路两小时全是坑洼，我们路上遇到一辆车爆胎，山里前不着村后不着店，等救援得一天。最后还是选了跟团，但要找靠谱的团，旅途中还能认识有趣的人。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_700eed8ffaa27f3a2e60224534e5b3f6.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9f5e6e057da2865986d5f48d1ae409c7.png>
+![](img/zhuanqian_700eed8ffaa27f3a2e60224534e5b3f6.png)
+![](img/zhuanqian_9f5e6e057da2865986d5f48d1ae409c7.png)
 云南情况速报，能帮一个是一个。
 1. 大理丽江中午暴晒，晚上六七点就变凉，近期去的姐妹多带厚外套。
 2. 玉龙雪山震撼，山顶风大要戴帽子；冲锋衣就够了，不用羽绒服；爬山放慢速度，防止缺氧。
@@ -56,8 +56,8 @@
 11. 独克宗古城推荐阿妈酥油茶，热乎乎的很舒服；牦牛肉火锅配青稞饼，吃完浑身暖。
 12. 不管跟团还是自由行，记得提前定好行程。自由行太耗精力，我们选了本地纯玩小团，省心不少。之前看各种劝退帖差点没来，实际玩下来，风景美到难忘。
 ### 3、报团真实感受型：走心分享派
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d43db23c36fe932081ee337157f3588f.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_16fefaf6d40539b060fdd5ee871b0462.png>
+![](img/zhuanqian_d43db23c36fe932081ee337157f3588f.png)
+![](img/zhuanqian_16fefaf6d40539b060fdd5ee871b0462.png)
 这类文案没有太多花哨，胜在“像一个普通游客在敲字”。
 贵州全家出游，真心觉得跟团很重要！
 行程刚结束，一条不删。
@@ -67,8 +67,8 @@
 我的跟团感受：不用催早起，住的也舒服，吃饭游玩都由自己安排。景区里各自散开逛，到点集合就行。
 第一次去贵州的朋友，真心建议跟团。不用自己抢门票、订酒店、找餐厅，有事随时找导游，购物吃饭也不容易踩坑。
 祝大家贵州之行都顺利愉快！
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_89aafa0e81f61fe18a2870963f50513f.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_836fcd66136ff51369abade17ec7f4aa.png>
+![](img/zhuanqian_89aafa0e81f61fe18a2870963f50513f.png)
+![](img/zhuanqian_836fcd66136ff51369abade17ec7f4aa.png)
 贵州旅游“逃难”回来了，报团真实感受如下。
 我俩是跟朋友一起报的纯玩小团，把攒的年假全用在了贵州。去之前一定做好攻略，别太冲动。我们自认功课做得足，路上还是有小插曲，所以回来第一时间写这篇。
 团是朋友推荐的，她刷了一堆平台，最后挑了性价比最高的那家。
@@ -105,27 +105,27 @@
 2、报团需谨慎，别乱找外地团。
 3、这粉丝量也接不到广告哈哈。
 豆包输出效果：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_55921311b5f56ab8c762913e1f8279cb.png>
+![](img/zhuanqian_55921311b5f56ab8c762913e1f8279cb.png)
 GPT4o输出效果：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e368f1b40b9a841e2c4542c07391bdf6.png>
+![](img/zhuanqian_e368f1b40b9a841e2c4542c07391bdf6.png)
 对比下来，豆包总结得更可用，维度也更全。
 继续让豆包深入总结：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5070790fbbc8a566575a8566f9e30515.png>
+![](img/zhuanqian_5070790fbbc8a566575a8566f9e30515.png)
 它用四字短语概括得挺到位。
 再追加一轮，看能不能进一步发散：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e8efa45d20a86dfda0855760d7533365.png>
+![](img/zhuanqian_e8efa45d20a86dfda0855760d7533365.png)
 这样，真实性元素的池子就出来了。
 实际上，素人笔记要抓住两点：真实感 + 软植入。
 笔记没转化，多数是写得太“假”；写得很真还没转化，多半是忘了植入产品。把上面这些元素组合进一篇笔记，就能形成一份合格的素人文案。
 接下来，给每个元素配上参考句子，方便AI照着模仿。
 继续让AI整理：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0566027706c88fe2f478ae5203687e27.png>
+![](img/zhuanqian_0566027706c88fe2f478ae5203687e27.png)
 得到如下结果：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e9ed312a375b08b120433d43a4cfdc82.png>
+![](img/zhuanqian_e9ed312a375b08b120433d43a4cfdc82.png)
 继续整理后面的元素，并让AI原创示例句：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_44a992993b664fcb0ce8543c964cb5e9.png>
+![](img/zhuanqian_44a992993b664fcb0ce8543c964cb5e9.png)
 得到最终版：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3872d21046cdeb8fde45566794d05dfd.png>
+![](img/zhuanqian_3872d21046cdeb8fde45566794d05dfd.png)
 下面是整理好的20个真实性元素及参考句式：
 ### 1、开宗明义
 - 含义：开头直接说“这是一篇真实分享”，让读者第一时间知道你不是软文。
@@ -273,16 +273,16 @@ GPT4o输出效果：
 https://claude.ai
 注册方式大家都懂，注意网络环境，用谷歌邮箱注册更稳。
 #### GPT4o效果
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_da4781888e043c7cb5c78cfdae00309f.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_dbdb9f0573403f9f3df96061cb5cd040.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ae6a9b9b846206f1ae532c6446f929b8.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8654e456e21e1dbe718f443111e14158.png>
+![](img/zhuanqian_da4781888e043c7cb5c78cfdae00309f.png)
+![](img/zhuanqian_dbdb9f0573403f9f3df96061cb5cd040.png)
+![](img/zhuanqian_ae6a9b9b846206f1ae532c6446f929b8.png)
+![](img/zhuanqian_8654e456e21e1dbe718f443111e14158.png)
 从结果看，它基本能完全照着要求来生成，后续只要我们人工再做一次精修和润色就到位了。
 #### Claude效果（免费版本）
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_06f0da184c8639a3ecffba95be6032ae.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_76473bb6f582f8b22f10d38b842822bb.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_548e896325f285509ee8a9563bb7d89a.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7016b5055ecf9e3d1d2af73149153931.png>
+![](img/zhuanqian_06f0da184c8639a3ecffba95be6032ae.png)
+![](img/zhuanqian_76473bb6f582f8b22f10d38b842822bb.png)
+![](img/zhuanqian_548e896325f285509ee8a9563bb7d89a.png)
+![](img/zhuanqian_7016b5055ecf9e3d1d2af73149153931.png)
 如果挑剔一点还是会觉得差口气，这很正常，毕竟现在 AI 还取代不了人工，人工的收尾工作是少不了的。
 不过这里能拿到很多够真实的句子片段，剩下的交给人工去重组搭配即可。
 #### 灵感赋能
@@ -367,14 +367,14 @@ https://claude.ai
 看到用户提供景点相关信息后再输出
 ```
 ###### GPT4效果
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fa0b2574427eac7a86f854ca90bff077.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_eb5c1f2f060d7b3d85a8c4a4dd13d849.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_818f7ec21205b3a96132be9e07e437a5.png>
+![](img/zhuanqian_fa0b2574427eac7a86f854ca90bff077.png)
+![](img/zhuanqian_eb5c1f2f060d7b3d85a8c4a4dd13d849.png)
+![](img/zhuanqian_818f7ec21205b3a96132be9e07e437a5.png)
 效果已经算能用了，再把它做成 GPTs 之后调用就更方便了。
 ###### Claude效果
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fae7c681dae4e665e77940dd584431a6.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_51c1af20cca592ee886f6f049697ed78.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_601f8c20a1889670c945c1d8c699171b.png>
+![](img/zhuanqian_fae7c681dae4e665e77940dd584431a6.png)
+![](img/zhuanqian_51c1af20cca592ee886f6f049697ed78.png)
+![](img/zhuanqian_601f8c20a1889670c945c1d8c699171b.png)
 灵感供给量同样很可观。
 到这一步，这个需求基本就算跑通了。哪怕你不指望 AI 一次性写完成稿，也能靠它拿到大量可用的点子。不得不说 AI 顶多就是一个强大的灵感发动机，而且你会发现，我整篇分享里其实是混用了好几款模型的。
 像提示词里比较核心的真实性素材，最初就是靠豆包先整理出来的。后面它在完整测试里表现不佳，但前期贡献不可小觑。

@@ -31,7 +31,7 @@ echo "老年人";
 }
 ```
 乌鸦不一样。小时候读过乌鸦喝水故事，乌鸦有真智慧，能把不同观察串联。这里引用华人 AI 学者之一朱松纯教授 2017 年的文章来理解乌鸦的感知认知推理学习执行。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_be2a704152a7bb22b296c84102d3671f.png>
+![](img/zhuanqian_be2a704152a7bb22b296c84102d3671f.png)
 乌鸦通过观察，自主串通了
 *   汽车能压碎坚果
 *   红绿灯能控制汽车
@@ -40,7 +40,7 @@ echo "老年人";
 如果类比机器学习，旧范式“鹦鹉学舌”要求所有乌鸦共享一个大脑，目标清晰、随机尝试组合不断演化。但真实乌鸦没有共享大脑，也不会冒死尝试所有可能。它只有一次机会，把两个观测现象联想成新可能，并应用到全新场景。这更接近 inference，即基于证据和逻辑推演得出结论，有时还需猜测、抽象、泛化。ChatGPT 最本质的能力就是做这件事。
 不过 inferencing 不是乌鸦智能的全部。在机器学习里它特指用训练好模型预测新数据，容易混淆。所以本文直接用“乌鸦能力”指代 ChatGPT 新能力。对外交流时我们常说“理解能力”，虽然信息损失很大，但更能凸显 ChatGPT 的本质。过去互联网两次跃迁来自搜索和推荐，现在 ChatGPT 带来的是“理解”，结构感很强。
 下面这张图展示了 ChatGPT 的演化路径
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_02538c3a3246c6b5a616790ba6d884be.png>
+![](img/zhuanqian_02538c3a3246c6b5a616790ba6d884be.png)
 从图里可以看出：
 1.  GPT-3.5 通过 InstructGPT 模式 + 阅读代码，涌现出“乌鸦”能力，完成质变。但应用界面不成熟，也不符合人类偏好
 1.  ChatGPT 在 RLHF 加持下，找到 GPT-3.5 与人类自然语言的合理接口，打开了应用前景
@@ -55,7 +55,7 @@ InstructGPT 的分支，基于 GPT-3.5 进行训练，采用 RLHF，但数据设
 ## 三. 如何与 ChatGPT 交流，Prompt 是什么
 了解了 ChatGPT 是什么和为何智能，核心问题是：我怎么用它为自己降本增效。这就到了本篇重点 Prompt。
 遇事不决，先问 GPT。我们直接问它 Prompt 是什么？
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bacac25b78ec833a1be9e49e5eade6e3.png>
+![](img/zhuanqian_bacac25b78ec833a1be9e49e5eade6e3.png)
 简单概括，Prompt Engineering 指在用 NLP 模型时，设计和优化输入文本的过程。目的是更好地引导模型输出。核心是提升模型的准确性、趣味性和上下文契合度。
 那怎么高效沟通？跟人交流有技巧，跟 AI 也一样，有规律有模板可循。
 ## 四. 如何提问才能得到更精准的回复
@@ -63,13 +63,13 @@ InstructGPT 的分支，基于 GPT-3.5 进行训练，采用 RLHF，但数据设
 生活中也一样，背景都不交代就问“怎么致富”，谁都不好答。哪怕问得具体点，比如“作为刚毕业大学生，如何一个月挣2万”，也更容易得到建议。
 提问技巧将是未来必备能力，既是跟 AI 交互，也是跟人沟通。
 我们再问一次 ChatGPT，如何提问才能得到高质量答案
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ca278d954f56477c1058e8b2ecdf89b2.png>
+![](img/zhuanqian_ca278d954f56477c1058e8b2ecdf89b2.png)
 ChatGPT 给出了7 条建议。网上 Prompt 优化模板很多，都很在理，但适合自己的才最好。多在实际场景里试，总结出自己的套路。
 指令生成器资源不少，比如
 ChatGPT 指令大全：https://www.explainthis.io/zh-hans/chatgpt
 ChatGPT 快捷指令：https://www.aishort.top/
 我比较推荐台风大佬的 ChatGPT 角色生成器：https://role.aicosplay.com.cn/，简单好用
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9a79770696860f2398c6ecf6cc5d6c04.png>
+![](img/zhuanqian_9a79770696860f2398c6ecf6cc5d6c04.png)
 这里做个简化版，日常够用。核心就四个维度
 1.角色
 让 GPT 扮演什么身份，用专家视角精准回复
@@ -81,42 +81,42 @@ ChatGPT 快捷指令：https://www.aishort.top/
 风格、长度、形式、特殊要求等
 ## 五. 用具体示例说明调教模板怎么用
 我们先让 ChatGPT 按角色、背景、任务、要求四个维度生成示例
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_20054b51d26f5b07a60f0b2407fb94a0.png>
+![](img/zhuanqian_20054b51d26f5b07a60f0b2407fb94a0.png)
 以下是调教模板示例：
 示例一：翻译
 你想让 chatGPT 充当用于翻译，可以这么说
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_206343c4a83883a514c00820383e63b5.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0e3c9e19e09a3d6a198304fb639953b9.png>
+![](img/zhuanqian_206343c4a83883a514c00820383e63b5.png)
+![](img/zhuanqian_0e3c9e19e09a3d6a198304fb639953b9.png)
 示例二：做表格
 如果你要做表格，可以这么说：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b59c9185a26e42235d0bfef7f4a26490.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3701ae6849b74678ed8a752655ee1237.png>
+![](img/zhuanqian_b59c9185a26e42235d0bfef7f4a26490.png)
+![](img/zhuanqian_3701ae6849b74678ed8a752655ee1237.png)
 示例三：心灵导师
 让 chatGPT 扮演一位心灵导师
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8c435a0253855f902ee9d7ab3d5ffbdf.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e23a85054df88046ee4427f963aee514.png>
+![](img/zhuanqian_8c435a0253855f902ee9d7ab3d5ffbdf.png)
+![](img/zhuanqian_e23a85054df88046ee4427f963aee514.png)
 示例四：文案写手
 让 chatGPT 扮演一个文案写手
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b5166e735c00fbcdac9099d52168c25c.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_865ae3901ad7dfaae54efb33837e77eb.png>
+![](img/zhuanqian_b5166e735c00fbcdac9099d52168c25c.png)
+![](img/zhuanqian_865ae3901ad7dfaae54efb33837e77eb.png)
 示例五：AI 佛祖
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d784cfeaf5269c270c9d0b3ece56e6fd.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2c3b92dd4c4c76035f6675a57e827246.png>
+![](img/zhuanqian_d784cfeaf5269c270c9d0b3ece56e6fd.png)
+![](img/zhuanqian_2c3b92dd4c4c76035f6675a57e827246.png)
 ## 六. 其它使用注意点
 1.  ChatGPT 有上下文记忆，同一个对话里能记住之前问题。建议一个场景单独开新窗口，用统一角色对话，避免角色混杂导致跑偏。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_57b2bc05257eeaed0bee5eb6f9bccb4f.png>
+![](img/zhuanqian_57b2bc05257eeaed0bee5eb6f9bccb4f.png)
 1.  及时给反馈。告诉它你的看法。生成不错就夸一下，生成不好就指出问题并说明怎么改。每次反馈都在影响它下一步输出。
 我们随手让它写条小红书标题
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e4267630435aa562380008620106f170.png>
+![](img/zhuanqian_e4267630435aa562380008620106f170.png)
 写得一般，不够抓人。于是批评并要求改进。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5cd64d793778c7abdd880249e9780522.png>
+![](img/zhuanqian_5cd64d793778c7abdd880249e9780522.png)
 这次感觉味道对了。觉得好就点个赞，觉得不好就点踩，你的反馈它能收到。
 3.逆向思维
 ChatGPT 会屏蔽部分信息，直接问可能被拒。这不是教做坏事，而是说明有时候需要的信息不方便直问，可以反向提问。
 比如直接问“北京的色情场所有哪些”，会被拒绝
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_12baeaad840b4eb4dfc3afac09324264.png>
+![](img/zhuanqian_12baeaad840b4eb4dfc3afac09324264.png)
 换个说法反向问，就能得到不同结果😏
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_43aa8b272ed1dd84f0e2b3db245a16ac.png>
+![](img/zhuanqian_43aa8b272ed1dd84f0e2b3db245a16ac.png)
 ## 七. 结束语
 坦白说，技巧类的内容永远讲不完，这一次先分享到这里，其余的我打算放在后续三部曲中慢慢展开。
 但有一点必须说清楚：任何模版和速成法，都有它的天花板。它们最大的价值，是帮你在短期内达到一个“不出错”的基准线。可如果指望靠这些招式一路打天下，那对不起，你永远够不到行业金字塔的顶端。真正的高手，都是在无数次实操中摔打出来的，是用笨功夫一点点喂出来的。毕竟，纸上学来终觉浅，落地的才算真本事。

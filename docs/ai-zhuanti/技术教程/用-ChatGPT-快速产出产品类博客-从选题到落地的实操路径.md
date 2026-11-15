@@ -12,17 +12,17 @@ ChatGPT 火了之后，很多人被它的生成能力震惊，也有一批人开
 ## 二、实操分享：用 ChatGPT 写一篇产品博客的 4 步流程
 ChatGPT 的能力远不止聊天，写产品类博客就是它的强项之一。下面是一个可复用的工作流。
 步骤1：锁定商品链接
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2e77457a8207b01ebb1521367b1bef19.png>
+![](img/zhuanqian_2e77457a8207b01ebb1521367b1bef19.png)
 步骤2：设计你的写作指令
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_803413708ec5df4eea70241d0032bf87.png>
+![](img/zhuanqian_803413708ec5df4eea70241d0032bf87.png)
 步骤3：让 ChatGPT 按要求生成初稿
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_826b6b4e15aeaf4f123a7b1003e64ea4.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0905afbc742852ec725d36ba1352c20f.png>
+![](img/zhuanqian_826b6b4e15aeaf4f123a7b1003e64ea4.png)
+![](img/zhuanqian_0905afbc742852ec725d36ba1352c20f.png)
 步骤4：人工审核与补全
 ① ChatGPT 支持多语言输出，按目标市场切换语言很方便；
 ② 必须人工复核，我就遇到过它跑题、信息不准的情况，所以校对环节不能省；
 ③ 文中配图、真实购买链接这些环节这里没有展开，但一定要用真实素材去替换，不能造假。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_665ba2f5acb30418a6dd27bed7c5600c.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f66afc6df53467819cfeda7968daba26.png>
+![](img/zhuanqian_665ba2f5acb30418a6dd27bed7c5600c.png)
+![](img/zhuanqian_f66afc6df53467819cfeda7968daba26.png)
 ## 结语
 工具会改变工作方式，ChatGPT 这样的生成式 AI 已经把内容生产的成本拉得很低。把技术用在刀刃上，就能用更少的人力和时间撬动更大的产出。我们做海外广告项目时，也在不断探索如何用好这类工具，让投入最小化、回报最大化。

@@ -13,10 +13,10 @@
 ### 数据分析
 以关键词“AI”为例，我一共抓到约 2000 条商品记录。按预估销量倒序排一遍，排面全是惊喜。
 前面提到的 AI 头型检测，销量 5000+，客单价不低，足见其赚钱能力。再一次证明，市场上总有我们想不到的变现点。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7f3f01c28b9eb7069cd8a6dd13b49269.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ca78d6d900129904701fd104c9a95874.png>
+![](img/zhuanqian_7f3f01c28b9eb7069cd8a6dd13b49269.png)
+![](img/zhuanqian_ca78d6d900129904701fd104c9a95874.png)
 再看“搜索资料”这个关键词下的列表，更让人意外：有卖中药药方的，有 29 元的《学生家长必备手册》，销量也轻松过万。宝妈人群的消费潜力被低估了很久。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9554194883322a5a3f4f5ae65c85815d.png>
+![](img/zhuanqian_9554194883322a5a3f4f5ae65c85815d.png)
 按这个方法，每个关键词背后都能挖出几条意想不到的盈利路径。只要有数据，就能持续刷新对机会的认知。
 ## 用 Claude Sonnet 3.5 一键封装展示页
 采集完数据后，新的难题来了：怎么看？Excel 能存但筛选体验很差。于是我把数据倒进了 SQLite 数据库，xhs_note_mobile.db。
@@ -30,16 +30,16 @@
 “请再次新增一个页面，用于提交关键词，提交后请保存到这个库中的xhs_goods_keyword表中，你需要创建这个表，我后续要根据这个表中的关键字进行采集”
 “接下来请你帮我优化下样式，现在表格是偏右的，左边一大块空间都白着浪费掉了”
 “请再次帮我修改，goods页面中去掉商品ID，商家链接，卖家ID，抓取时间字段”
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3033a48d0170b6406acac4af013565e5.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_156656afc0cb5f81e871faf65c82e1e9.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5d016173e58a6cdfe2ebc6e27336216d.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7ace8f590e108ae46fe4d65d818fcae9.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3acef4e4f5548e89d7c7ade685237cb7.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4de547c548880e5bb97b3c508a0419b4.png>
+![](img/zhuanqian_3033a48d0170b6406acac4af013565e5.png)
+![](img/zhuanqian_156656afc0cb5f81e871faf65c82e1e9.png)
+![](img/zhuanqian_5d016173e58a6cdfe2ebc6e27336216d.png)
+![](img/zhuanqian_7ace8f590e108ae46fe4d65d818fcae9.png)
+![](img/zhuanqian_3acef4e4f5548e89d7c7ade685237cb7.png)
+![](img/zhuanqian_4de547c548880e5bb97b3c508a0419b4.png)
 当时是手动复制粘贴提示词，现在直接用 Cursor 会更顺手，官方还送 500 次 Claude Sonnet 3.5 额度，用过的都说好。
 几轮对话下来，页面基本成型。完整代码不贴了，大家按需跟 Cursor 对话就行，几乎不用写代码，全是 AI 生成：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4b24f0c8230b0bdf0db1b900b87c3d80.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2a16d1d5fe9a639e6fafb8c0dae58ff9.png>
+![](img/zhuanqian_4b24f0c8230b0bdf0db1b900b87c3d80.png)
+![](img/zhuanqian_2a16d1d5fe9a639e6fafb8c0dae58ff9.png)
 在线体验地址在这里：http://xhsgoods.lzzadvance.cn/，目前后台只有一台手机在采集，速度有限，请耐心等待。欢迎大家提建议、一起优化。
 最后聊点感悟。有了 AI 加持，我整套采集加展示的闭环基本一天就跑通。更重要的是，我真正体会到数据驱动选品有多可怕——很多机会，你不看数据根本想不到。
 RPA 负责自动化采集，Claude 负责快速搭建界面，两者结合，能让我们更高效地发现并抓住市场机会。一起加油吧。

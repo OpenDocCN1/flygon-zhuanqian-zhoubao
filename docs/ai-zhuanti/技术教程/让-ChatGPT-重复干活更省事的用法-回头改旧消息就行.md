@@ -5,28 +5,28 @@
 说到底，我们真正缺的，是一个“设定不变、材料可换”的入口。这里分享一个我常用的土办法——回头修改自己的历史消息，而不是新开对话。
 操作流程并不复杂：
 1. 新会话建立后，先输入那条万用的指令，并带上第一份待办材料，让 AI 跑完第一轮。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d7b2f9187dfce6e8e55bbbb74d18e183.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_19ce62ba7f0dfa7df65f26f745f394b4.png>
+![](img/zhuanqian_d7b2f9187dfce6e8e55bbbb74d18e183.png)
+![](img/zhuanqian_19ce62ba7f0dfa7df65f26f745f394b4.png)
 2. 第一轮跑完，没必要新开窗口。回到自己之前粘贴材料的那条消息处，点一下那条消息旁边的修改按钮（铅笔图标）。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1f0d7f194df52e15b1e73c8c8b02bf13.png>
+![](img/zhuanqian_1f0d7f194df52e15b1e73c8c8b02bf13.png)
 3. 修改框弹出后，将上次的任务材料整段清空（如下图红框所标），替换成这轮的新资料。继续拿“拟标题”来打比方，这里直接把下一篇稿子贴进去就好。
 先删掉上一次的正文：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_27fd6ed852d04f6448c42768cd02cfc7.png>
+![](img/zhuanqian_27fd6ed852d04f6448c42768cd02cfc7.png)
 再把新一批正文放进去：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5c286de0dd4d3926ecc626d6d587f5a5.png>
+![](img/zhuanqian_5c286de0dd4d3926ecc626d6d587f5a5.png)
 4. 确认无误后，点击保存并提交（Save & Submit）。
 5. 交给 AI 重新处理，不一会就能看到新的答案。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_338b5d211b3ac09414366ec8dba66273.png>
+![](img/zhuanqian_338b5d211b3ac09414366ec8dba66273.png)
 另外，界面的左上位置会多出一个可以回放的记录列表。点按那个回放开关，就能查看每一轮发了什么，AI 又应答了什么。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2b8f8ac93927da1d47c2fd2a7d4f932d.png>
+![](img/zhuanqian_2b8f8ac93927da1d47c2fd2a7d4f932d.png)
 GPT 自己也认可这个做法，总结起来有三个优点：
 - 不必反复把同一段指令重新敲一遍；
 - 每轮都能得到相对干净、独立的结果，前一个任务与后一个任务不太容易互相污染；
 - 多任务按批次处理时，整个流程清清楚楚、可把控。
 如果你平时为不同场景准备过多套指令，这个办法还能进一步简化：每个场景单独留一个对话，并给对话取一个方便辨认的名字。下次要用，直接进到那条对话里，点“修改”，把里面的旧材料换成新的，马上就能开工。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_04d791c9ff88ce987ccc060b1565861c.png>
+![](img/zhuanqian_04d791c9ff88ce987ccc060b1565861c.png)
 至于改名的入口，就是对话框右侧那个小笔形图标，按一下就成。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_553d6ed329609e1a91e7940fd2da54a3.png>
+![](img/zhuanqian_553d6ed329609e1a91e7940fd2da54a3.png)
 觉得这篇分享有启发的话，欢迎送我一颗小星星～
 ——————————————
 往期文章入口：
@@ -42,4 +42,4 @@ GPT 自己也认可这个做法，总结起来有三个优点：
 [Poor Charlie’s Almanack 精选句子]()
 [一行代码不写，也能请 AI 做个贪吃小游戏]()
 读者讨论里，有人提出：这种重复粘贴的事，交给 KeepGPT 扩展就能减轻不少；但这个“改旧消息”的思路，更难得的是省去了反复喂料的麻烦。也有人夸这是高人的做法；还有人说“厉害”，给了大拇指，甚至回了一串“强”。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_894d30a529e7c37bcd3392323c99941c.png>
+![](img/zhuanqian_894d30a529e7c37bcd3392323c99941c.png)

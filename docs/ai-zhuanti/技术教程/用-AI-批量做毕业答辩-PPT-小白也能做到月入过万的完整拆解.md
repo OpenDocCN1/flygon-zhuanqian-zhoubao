@@ -15,12 +15,12 @@
 ### 2、在职非全日制
 一年有两个招生批次，春季和全日制毕业时间重合，大概2到6月。
 秋季批次则集中在10到12月。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ce21464f287188e770f42bae51b28d1b.png>
+![](img/zhuanqian_ce21464f287188e770f42bae51b28d1b.png)
 综合来看，需求量非常稳定且庞大。
 我说的并非卖现成模板，而是根据客户自己的论文去定制化制作，用 AI 辅助完成，所以效率极高。
 ## （二）收入情况，拿数据说话
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b9ed157958c64bf03bb9000eded9c39f.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_abfe3dd829d0326199aa3c7d982c39e1.png>
+![](img/zhuanqian_b9ed157958c64bf03bb9000eded9c39f.png)
+![](img/zhuanqian_abfe3dd829d0326199aa3c7d982c39e1.png)
 这个收益里还混了代写文案的收入，光 PPT 就成交了上万，还没算微信私单。
 因为我主业还是代写，所以 PPT 这块并没有刻意放大。
 从数据能看出三件事：
@@ -63,7 +63,7 @@
 前期先跑通再精细化。
 ## （三）快捷回复设置
 百度一下设置方法即可。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ac5acf525dd48e2d4cd76c76fe08fb71.png>
+![](img/zhuanqian_ac5acf525dd48e2d4cd76c76fe08fb71.png)
 ## （四）个人形象设定
 头像和自我介绍也要对标。
 比如设定一个“在读研究生代做 PPT”或“PPT 设计师”的身份，更有信任感。
@@ -108,12 +108,12 @@
 客户会截图发来学校要求的框架。
 这时论文章节和要求不一定一致，需要你用 AI 归纳整合。
 比如论文章节是绪论、概念、问题、对策，但学校要求的是另外一套。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4f1d3c54bb7cd620a1a918cfe1ea157a.png>
+![](img/zhuanqian_4f1d3c54bb7cd620a1a918cfe1ea157a.png)
 解析：这种属于强制结构，必须按要求重排。参考示意如图：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a96d5f464992fff950ae7e3e6877880d.png>
+![](img/zhuanqian_a96d5f464992fff950ae7e3e6877880d.png)
 ### 2、无固定结构的需求
 客户没要求，就直接按论文目录梳理即可。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3306b1e408f0c0de2726d943c27b5a2f.png>
+![](img/zhuanqian_3306b1e408f0c0de2726d943c27b5a2f.png)
 ### 3、陈述稿是什么
 基于 PPT 内容写的口语化讲稿。
 ### 4、答辩问题是什么
@@ -122,7 +122,7 @@
 1、免费网站：https://www.1ppt.com
 优先选蓝色系简洁大方的模板，别点付费的。
 2、稻壳会员：淘宝搜“稻壳会员”，3个月 8.8 元，性价比极高。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8bfa598be41e901cf86f18030325eb8e.png>
+![](img/zhuanqian_8bfa598be41e901cf86f18030325eb8e.png)
 3、AI 工具：我习惯用 Kimi。
 https://kimi.moonshot.cn/share/coboftsudu6f9brc2j0g
 ## （三）PPT 和陈述稿制作
@@ -133,16 +133,16 @@ https://kimi.moonshot.cn/share/coboftsudu6f9brc2j0g
 请根据这篇论文写一份答辩陈述稿，约1000字。结构为：开头自我介绍、研究背景及意义、论文主要内容按目录展开约500字、创新点及不足、感谢指导老师。
 点击链接查看和 Kimi 智能助手的对话 https://kimi.moonshot.cn/share/cp2n622tnn0v5qd9jub0
 务必核对 AI 输出是否与原文一致。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_baeee6908648d143486470abe2522b3c.png>
+![](img/zhuanqian_baeee6908648d143486470abe2522b3c.png)
 客户通常希望正文部分更详细。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bae4c43815a90a1d2c46ac0452ed2962.png>
+![](img/zhuanqian_bae4c43815a90a1d2c46ac0452ed2962.png)
 整理好后套进选好的 PPT 模板即可。
 稻壳使用技巧：模板分页数不够时，用智能图形功能调整，最后统一颜色风格。
 ## （四）答辩问题预测
 如果客户给了问题就按题做，没给就让 AI 预测。
 我常用的问题库如下：
 点击链接查看和 Kimi 智能助手的对话 https://kimi.moonshot.cn/share/cp2nd08fkflf2f7unreg
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b04b30641b83a1d7f311d36381e24556.png>
+![](img/zhuanqian_b04b30641b83a1d7f311d36381e24556.png)
 1、为什么选择这个课题？
 2、研究的意义和目的是什么？
 3、论文整体框架如何安排？

@@ -24,40 +24,40 @@
 比特浏览器下载地址：
 https://www.bitbrowser.cn/
 安装后进入系统配置，找到文件下载目录，将其改成你准备保存图片的路径。后续脚本会从这个目录读取下载的图片。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d95f4396ae3d68400697e9251be60ddf.png>
+![](img/zhuanqian_d95f4396ae3d68400697e9251be60ddf.png)
 ## 3. 导入 RPA 工作流
 本方案需要导入三个脚本，请先把对应文件下载到本地。
 打开比特浏览器，进入“RPA 自动化”，再点击“流程设计”。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_08b845179c161581b09aeac91efdda03.png>
+![](img/zhuanqian_08b845179c161581b09aeac91efdda03.png)
 首次进入时，浏览器会初始化，并打开 RPA 调试窗口，Automa 插件也会一并安装。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d1a69e7d0e5b8baa721b9d29099175a8.png>
+![](img/zhuanqian_d1a69e7d0e5b8baa721b9d29099175a8.png)
 打开 Automa，进入工作流页面，点击下拉菜单中的“导入工作流”，将下载好的工作流逐个导入。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_418dd1b9d0e3749c2d0f08e8726d3bbd.png>
+![](img/zhuanqian_418dd1b9d0e3749c2d0f08e8726d3bbd.png)
 ## 4. 准备墨滴排版页面
 公众号文章的排版使用墨滴（MDNice）。AI 生成的正文采用 Markdown 格式，之后通过墨滴转换为公众号排版样式。
 ### 登录并创建文章
 打开 https://www.mdnice.com/ ，注册或登录账号，然后新建一篇文章。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7a7ef65118fc48e070003bc3676d8ce1.png>
+![](img/zhuanqian_7a7ef65118fc48e070003bc3676d8ce1.png)
 文章标题可以随意填写。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bcf5e6acd87fd1b46d99fa4f265b608f.png>
+![](img/zhuanqian_bcf5e6acd87fd1b46d99fa4f265b608f.png)
 在正文里输入一些测试内容。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3c6f11b73e59f25c40af39afde626b7c.png>
+![](img/zhuanqian_3c6f11b73e59f25c40af39afde626b7c.png)
 接着挑选自己喜欢的排版主题。之后生成的文章会使用这个主题。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9519b974531a8e1a5906f7c81a8696ff.png>
+![](img/zhuanqian_9519b974531a8e1a5906f7c81a8696ff.png)
 保存文章，并复制当前页面链接。稍后需要把这个地址填入脚本配置，复制完成后即可关闭页面。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6cd802d03f665053a437ca4b7094e61c.png>
+![](img/zhuanqian_6cd802d03f665053a437ca4b7094e61c.png)
 # 三、配置 RPA 脚本
 ## 1. 复制飞书模板
 打开我的飞书表格并创建副本。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5d0e44f5763a509e48c221beebee16bc.png>
+![](img/zhuanqian_5d0e44f5763a509e48c221beebee16bc.png)
 创建完成后，分别获取各个表单的链接。不同表单对应的链接各不相同，后面配置时需要准确填写，不能混用。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_30b0db6faf4873adaa2607716bbe4309.png>
+![](img/zhuanqian_30b0db6faf4873adaa2607716bbe4309.png)
 ## 2. 修改脚本参数
 在比特浏览器的“RPA 自动化”中进入流程设计，找到刚才导入的工作流并打开编辑页面。
 在触发器后方找到“插入数据”节点，双击打开，再点击左侧的“insert data”。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6dfbc04e9e850e122ef8184a3d0a7f73.png>
+![](img/zhuanqian_6dfbc04e9e850e122ef8184a3d0a7f73.png)
 页面会显示一组参数。请将参数值替换成自己的信息，但不要修改变量名称，否则脚本可能无法正常运行。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_36fabdfae41de64b082866d19bb6a578.png>
+![](img/zhuanqian_36fabdfae41de64b082866d19bb6a578.png)
 参数含义如下：
 | 参数 | 填写内容 |
 | `app_id` | 前面申请飞书应用时获得的 app_id |
@@ -75,47 +75,47 @@ https://www.bitbrowser.cn/
 每个脚本都有自己的“插入数据”配置区域，别忘了逐个检查和修改。并非所有脚本都需要填写上表中的全部字段，按实际出现的参数对应设置即可。
 ## 3. 先调试，再绑定窗口
 每个工作流配置完成后，先保存并单独运行调试。确认当前脚本正常，再继续处理下一个。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a4a72b120a6797727443393174917d89.png>
+![](img/zhuanqian_a4a72b120a6797727443393174917d89.png)
 运行后可通过日志查看执行情况。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_caa52b9e34c2a6b2f8d9db542e32e318.png>
+![](img/zhuanqian_caa52b9e34c2a6b2f8d9db542e32e318.png)
 如果运行失败，通常会看到类似的报错提示。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5b101a6cdc7f421a4b45ee4639ef954c.png>
+![](img/zhuanqian_5b101a6cdc7f421a4b45ee4639ef954c.png)
 请根据报错内容排查。如果无法自行处理，可以打开错误详情，定位红色报错节点，并把具体信息发到交流群。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e13564b3e31f72e8302d2d1028edd871.png>
+![](img/zhuanqian_e13564b3e31f72e8302d2d1028edd871.png)
 ## 4. 将脚本绑定到浏览器窗口
 完成基本配置后，脚本已经可以手动运行。若要支持多账号、定时任务和不同 IP 隔离，还需要将 RPA 工作流绑定到浏览器窗口。
 ### 创建浏览器窗口
 进入“浏览器窗口”，点击“创建窗口”。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fa990ede528d9f0e0478aab35523a50f.png>
+![](img/zhuanqian_fa990ede528d9f0e0478aab35523a50f.png)
 填写窗口名称，其他选项可以使用一键随机生成。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_299c578cc735c5a840a6b4c997e08155.png>
+![](img/zhuanqian_299c578cc735c5a840a6b4c997e08155.png)
 创建成功后，列表中会出现对应窗口。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2a3c88695ebf491fed45366034254c62.png>
+![](img/zhuanqian_2a3c88695ebf491fed45366034254c62.png)
 可以把每个窗口理解为一台独立运行浏览器的电脑。不同窗口可以配置不同 IP，因此多个公众号账号可以分别登录在不同窗口中，降低账号之间的关联。需要几个账号，就创建几个窗口，并在对应窗口登录相应微信。
 ### 新建并绑定 RPA 任务
 进入“RPA 自动化”，新建一个 RPA 任务。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_240f27d06317ec81aadbeeb2ff1365a7.png>
+![](img/zhuanqian_240f27d06317ec81aadbeeb2ff1365a7.png)
 填写任务名称和工作流 ID，再点击“绑定”。工作流 ID 的获取位置见后面的说明。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bc09d66cb57567ac4c1c41c09a45c2c5.png>
+![](img/zhuanqian_bc09d66cb57567ac4c1c41c09a45c2c5.png)
 在弹出的窗口列表中选择要绑定的浏览器窗口。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_28dd876f23ac76b2db87898ac71ca27b.png>
+![](img/zhuanqian_28dd876f23ac76b2db87898ac71ca27b.png)
 其他脚本也可以按照相同方式绑定。需要注意，小红书采集脚本运行前需要填写输入参数，绑定窗口后操作不太方便，建议暂时不要绑定，除非已经了解如何调整脚本。
 两个发布脚本都绑定后，页面会显示相应任务。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fc9aadbb5d7c1ed7343a1d040d502807.png>
+![](img/zhuanqian_fc9aadbb5d7c1ed7343a1d040d502807.png)
 ### 需要额外处理的权限
 创建任务时填写的工作流 ID，可在以下位置复制：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a3ff8430b5cd7840b711c5c722a75105.png>
+![](img/zhuanqian_a3ff8430b5cd7840b711c5c722a75105.png)
 绑定默认窗口后，还要给“从飞书发布到小绿书”和“飞书发布到公众号”两个脚本中的“保存资源”控件授予下载目录权限。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ab1d4ebbae92cf449bd3b1036b784207.png>
+![](img/zhuanqian_ab1d4ebbae92cf449bd3b1036b784207.png)
 公众号发布工作流里另外有两个剪贴板节点，也需要单独授权。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_90bd33de7dde884f36c960843b8558da.png>
+![](img/zhuanqian_90bd33de7dde884f36c960843b8558da.png)
 完成这些设置后，脚本即可开始使用。
 # 四、飞书表格怎么填写
 请不要改动模板表格的标题，否则脚本可能无法正确识别字段。
 模板中主要涉及五类表单。
 ## 1. 选题库
 选题库用于录入需要生成的内容主题，通常只要维护这张表即可。后续还计划增加热点自动采集功能，让选题也能自动进入表格。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5418a6df80be7aca9c76e7b748b57110.png>
+![](img/zhuanqian_5418a6df80be7aca9c76e7b748b57110.png)
 | 字段 | 用途 |
 | 标题 | 填写要生成内容的标题 |
 | 参考链接 | 填写需要参考或仿写的文章链接，目前测试支持公众号文章链接。若直接填写正文而不是链接，系统会按风格仿写处理。如果使用智能体生成内容，该字段必须留空；填入内容后系统会判断为仿写任务 |
@@ -147,12 +147,12 @@ https://www.bitbrowser.cn/
 当前这套 AI 自动发布公众号的工作流需要邀请码。
 ## 领取步骤
 1. 进入 Coze 团队空间，找到指定的智能体，点击账号领取。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d080097b959be47259ee1d25694d9dd5.png>
+![](img/zhuanqian_d080097b959be47259ee1d25694d9dd5.png)
 2. 打开机器人，点击右下角的“账号领取”，填写邀请码和用户名，即可生成自己的邀请码。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3043d41835e27eb76f9a4262e48b36e1.png>
+![](img/zhuanqian_3043d41835e27eb76f9a4262e48b36e1.png)
 用户名相当于用户凭证。之后搭建部分插件时，需要同时使用上级邀请码和自己的用户名，请妥善保存。
 3. 将领取到的信息保存好。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_89f4348560af2d42006ca9c4421e4fd3.png>
+![](img/zhuanqian_89f4348560af2d42006ca9c4421e4fd3.png)
 领取完成后，请发给我进行激活。没有上级邀请码的用户可填写 `88886666`。
 # 六、常见问题
 ## 1. 小红书采集显示成功，但飞书里没有数据
@@ -166,7 +166,7 @@ https://www.bitbrowser.cn/
 请检查账号配置中的领域、发布类型是否与待发布内容一致，同时确认账号名称与公众号名称完全对应。只有匹配成功，脚本才会执行发布。
 ## 5. Mac 用户的图片路径问题
 Mac 与 Windows 的路径格式不同。请在脚本“提取图片内容”代码块中找到 JavaScript 路径设置，把反斜杠 `\\` 改成正斜杠 `/` 后再试。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fd85d1c00e84595823d6efcf0bd8fbef.png>
+![](img/zhuanqian_fd85d1c00e84595823d6efcf0bd8fbef.png)
 ## 6. 服务号暂不支持
 目前没有服务号用于测试，因此尚未完成服务号兼容，服务号暂时不能使用。
 ## 7. 比特浏览器内核版本

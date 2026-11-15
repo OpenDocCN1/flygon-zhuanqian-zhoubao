@@ -5,12 +5,12 @@
 很感谢赚钱提供的生态与资源，八月份的航海实操里我担任志愿者，一方面协助船员完成任务，另一方面在教练、资深玩家、前辈的复盘里学到大量可落地的经验。
 借助模型辅助，我一人操盘十个号，近一个半月的时间里保持日更，最终成绩如下：
 2 篇破十万阅读，十余篇数万阅读，多个号均保持周均十万阅读的体量，目前流水已过一万。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5a186994b51e616cd1c844688a9eef51.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0cbd3f11bb4793ecace8508267db6138.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_41cf532581c708022d1be1cd6d19de4c.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2590f8f98133d22e32fceb4637baedba.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ecc146ff246c665cb8bb4f9e103f97ce.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bd8ce3f0df1a0f6b3a34ec18db6a9010.png>
+![](img/zhuanqian_5a186994b51e616cd1c844688a9eef51.png)
+![](img/zhuanqian_0cbd3f11bb4793ecace8508267db6138.png)
+![](img/zhuanqian_41cf532581c708022d1be1cd6d19de4c.png)
+![](img/zhuanqian_2590f8f98133d22e32fceb4637baedba.png)
+![](img/zhuanqian_ecc146ff246c665cb8bb4f9e103f97ce.png)
+![](img/zhuanqian_bd8ce3f0df1a0f6b3a34ec18db6a9010.png)
 站在前人肩上，我大量参考了既有方法论并严格执行，同时不断注入自己的改进点以提升写作效率。该项目能取得初步成效，一半归功于平台流量主的扶持逻辑，另一半则来自持续的执行力。
 目前旗下所有账号的内容垂直度基本集中在情感叙事，核心受众锁定中老年群体，当前唯一的获利方式就是流量主广告分成。接下来我会以情感垂类为样本，和大家分享三方面内容：
 1.  情感类爆款从零到一的路径
@@ -43,7 +43,7 @@
 2.  起号三要素
 昵称、头像、简介。
 流量主的流量主要靠平台推荐，文章详情页、看一看、搜一搜、文末推荐都能展示账号信息，名称是除标题外最直观的识别点。我建议昵称贴近垂类、突出差异。比如写情感，可用 xx情感、xx说故事、xx婚姻；写养老乡村，可用乡村 xx、养老 xx、长者 xx。名称听起来朴实，但清晰易记更利于涨粉。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bc777e9e601aa70a750c7683f3ce4d88.png>
+![](img/zhuanqian_bc777e9e601aa70a750c7683f3ce4d88.png)
 # 三、借助 AI 从 0-1 生产故事
 本节会用比较入门的方式拆解如何用大模型快速产出情感叙事，适合尚未实操过或对模型理解不深的人群。
 目前主流大模型在中文长文创作上仍有短板，本质上是中文训练语料的覆盖度不足，和提示词好坏关系不大。
@@ -55,20 +55,20 @@
 爆文的底层是推荐流量。假设一篇稿子被展示给 50 人，只有 1 人点击，系统大概率判定质量不佳，后续不再推流。影响爆款的两个最核心因子：
 1.  吸睛标题
 爆款一半靠标题。多数标题采用夸张、悬疑、反转等手法制造信息差，激发点击欲。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f5805ea4bd0d01c6d55979275af219e1.png>
+![](img/zhuanqian_f5805ea4bd0d01c6d55979275af219e1.png)
 2.  高留存开头
 读者点进后，第一段能否抓住人，直接决定阅读深度。
 我分析了几十篇高阅读稿，发现开头普遍具备：先用一句话交代人物基本信息，诸如年龄、籍贯、职业，随后抛一个反常行为或突发事件作为钩子，制造好奇心。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_55886e630f878ec8875999501e2f61f7.png>
+![](img/zhuanqian_55886e630f878ec8875999501e2f61f7.png)
 方向明确后，写作时围绕这两点优化，大概率能产出合格的故事。
 ### 二）选题与素材池
 选题本质是搭建故事骨架。高效生产的前提是先建立素材库，写作时只需从库中抽取不同元素组合成新主题。
 我总结的素材来源：
 1.  对标账号。情感类爆文多为标题党，标题基本透露 80% 信息，剩下 20% 用来吊胃口。把高阅读文章的情节做归纳与改写，就能转化为自己的选题。
 2.  淘宝。搜索情感、婆媳、婚姻等关键词，能买到大量虚拟资料，价格很低，内容基本雷同，适合快速补库。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1459bbf03c26106a34811aca94c4e792.png>
+![](img/zhuanqian_1459bbf03c26106a34811aca94c4e792.png)
 3.  虎扑。没想到吧，体育论坛里藏着不少精彩的真实经历。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_58a135b78e1fdf7109bbfa6cc40c4535.png>
+![](img/zhuanqian_58a135b78e1fdf7109bbfa6cc40c4535.png)
 4.  搜索引擎关键词搜集。
 5.  中老年用户常用的 APP、小程序，如美篇。深入挖掘会有意外收获。
 ### 三）搭建大纲
@@ -78,9 +78,9 @@
 1.  在素材库里挑选话题，用 gpt 生成完整大纲。
 收集的多源话题素材只要把核心情节输入模型，就能得到一个可用的框架。
 以下是我常用的大纲范式：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_912819be46b84a069f4fdccc2ec24a87.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8ed6d6687d6a16823f82c6ea363d5c35.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_95916556603dc393f97be3728283b2c4.png>
+![](img/zhuanqian_912819be46b84a069f4fdccc2ec24a87.png)
+![](img/zhuanqian_8ed6d6687d6a16823f82c6ea363d5c35.png)
+![](img/zhuanqian_95916556603dc393f97be3728283b2c4.png)
 模型生成的框架不一定每次都理想，可粘贴到文本里手工微调，耗时不多但效果提升明显。
 如何让模型输出更好的大纲？
 找 10 万+ 阅读的爆文，提取其标题，结合自有素材库，合成一个新的主题，可增加一个新任务或设计一个新转折。主题描述越细致，模型产出的连贯性越高。背景、冲突、转折、收束用口语化描述，模型就能转化为规范的大纲。
@@ -88,9 +88,9 @@
 模仿是最快的学习路径，用 AI 拆解再人工润色即可得到新故事。
 操作步骤：
 1）锁定一篇阅读高的文章
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_eff6401f1b98c0f4d7d66d493992d4dc.png>
+![](img/zhuanqian_eff6401f1b98c0f4d7d66d493992d4dc.png)
 2）把正文复制到文本文件，我命名为 store.txt
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_805ad76a3f360629d63a870b9d504217.png>
+![](img/zhuanqian_805ad76a3f360629d63a870b9d504217.png)
 3）用 gpt 拆解文章
 我会演示 gpt 与 claude 的用法，claude 的优势是支持长文本上传。
 gpt 拆解流程
@@ -98,36 +98,36 @@ gpt 拆解流程
 下载地址：https://chrome.google.com/webstore/detail/chatgpt-file-uploader-ext/becfinhbfclcgokjlobojlnldbfillpf
 使用教程：https://juejin.cn/post/7257728105878503481
 自行安装后会有两个按钮，设置按钮里可预设提示词。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cd65c6da26a2c960ca1362314ef3622e.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2279adeea73508d98af2a98d21d0ee17.png>
+![](img/zhuanqian_cd65c6da26a2c960ca1362314ef3622e.png)
+![](img/zhuanqian_2279adeea73508d98af2a98d21d0ee17.png)
 上传 store.txt 文本。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fc1bf727f6bf3debad08850272bbd14b.png>
+![](img/zhuanqian_fc1bf727f6bf3debad08850272bbd14b.png)
 预设好提示词后，后续上传即可自动生成大纲。同理，拿别人的爆文拆出的提纲要做二次加工，改人物名、调整情节顺序，避免雷同。当前模型能力有限，同样的框架用同一模型写出来相似度极高。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_010c43d977c0736db2f4f855fbca3242.png>
+![](img/zhuanqian_010c43d977c0736db2f4f855fbca3242.png)
 claude 拆解流程
 操作更简便，直接输入提示词上传文本即可。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_760416db519ca7a1ebfff67ea1035fd3.png>
+![](img/zhuanqian_760416db519ca7a1ebfff67ea1035fd3.png)
 效果同样可用。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c2f7023d5ca1a2602f6c716d2c90498f.png>
+![](img/zhuanqian_c2f7023d5ca1a2602f6c716d2c90498f.png)
 基于他人口水的提纲务必人工微调，防止撞车。因为原作者很可能也是用 AI 生成，框架一致时成品相似度会很高。缺乏想象力的同学可让 gpt 直接对大纲做微调。
 ### 四）创作提示词的打法
 大纲确定后，约等于完成了一半。接下来就是设计一个稳定可靠的创作提示词。
 先看几篇爆文的拆解：
 1.  开头特征
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8fbf44b320fcdb5ebfb33588c0cbd0d4.png>
+![](img/zhuanqian_8fbf44b320fcdb5ebfb33588c0cbd0d4.png)
 2.  发展特征
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b72e0e32cc3c9fba9350042d92e7050b.png>
+![](img/zhuanqian_b72e0e32cc3c9fba9350042d92e7050b.png)
 3.  转折特征
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e4c182e494a97e8e0b14479f93dfc18c.png>
+![](img/zhuanqian_e4c182e494a97e8e0b14479f93dfc18c.png)
 4.  结局特征
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1a046cb4f6b26fb24cb1d80bb7b9898f.png>
+![](img/zhuanqian_1a046cb4f6b26fb24cb1d80bb7b9898f.png)
 总结规律：
 开头：明确设定主角年龄、职业、收入等背景，直白切入，快速进入情境；加入生活化细节与对比，增强真实感；多用对比、情感描写等手法。
 发展：细节丰富，叙述直接明确，冲突与情绪清晰呈现；贴近生活；使用对比、反复等修辞。
 转折：以多个小事件堆叠情节，营造紧张感；叙述简洁直白；使用反复、排比、转折等手法；情绪饱满，如焦虑、恐惧、失望等。
 结局：情感浓度高，反复强调亲情、爱的价值；使用比喻修辞；从小故事升华到生活真谛，具有普世意义。
 把这些特征喂给模型即可生成同类稿件。提示词没有唯一最优解，只有最适合自己的。越复杂不代表越好，关键是模型能准确理解并执行。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7683ba1830514a8722c453a4721cb59f.png>
+![](img/zhuanqian_7683ba1830514a8722c453a4721cb59f.png)
 提示词案例可参考我之前星球发布的情感稿提示词。
 ⭐ 特别注意的避坑点
 1.  总结大纲用 gpt 3.5 足够；
@@ -141,7 +141,7 @@ claude 拆解流程
 标题决定点击率，花 20 分钟写稿，至少留 10 分钟打磨标题。
 情感标题常用套路：制造悬念但不误导；设置前后反转；使用数字；植入吸睛元素如金钱、性暗示、冲突、死亡等。
 AI 辅助起标题的方法：先总结标题特征并列出参考案例，丢给模型生成初版，约 80 分水平，再人工优化。也可积累几套标题模板直接套用。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a9eae4fef23898aec43748992bdb091a.png>
+![](img/zhuanqian_a9eae4fef23898aec43748992bdb091a.png)
 如果对 AI 生成不满意，可尝试用模型的微调或训练功能，建立属于自己的标题模型，核心思路是把优质标题的特征反复输入，让模型逐渐贴合你的风格。
 1）素材收集，靠一些小技巧把公众号里阅读量过万的标题批量抓取出来，形成自己的标题库。
 2）数据清洗，最好人工过一遍标题的质量，数据量建议起码做到 3000 条以上才够用。
@@ -159,17 +159,17 @@ AI 辅助起标题的方法：先总结标题特征并列出参考案例，丢�
 这种眼力好的人就会立刻抓住机会，照着改写。
 经验来看，一个异常值标题、关键词或账号，短时间内一旦爆发，模仿它继续爆的概率很高。
 爆款在前，只需做一点点微调就能确定自己的标题。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6cd33a69ee801fb7534f9a16feb9fbc7.png>
+![](img/zhuanqian_6cd33a69ee801fb7534f9a16feb9fbc7.png)
 1.  写大纲
 性暗示类的标题主要是为了把读者拉进来看，文章本身并不会真的去写性相关的内容，而是要用别的角度去承接主题。
 随后让 gpt 产出如下大纲：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0c22fe0e528f499e42c60c830fb890c2.png>
+![](img/zhuanqian_0c22fe0e528f499e42c60c830fb890c2.png)
 16 厘米指的是一对情侣的身高差，很痛是指被身边的人嘲笑， 结局是经过一番挫折最终结成正果。
 1.  标题与大纲齐了，故事主体自然就展开了
 通过 gpt 分段创作，可以按故事的引入、发展、转折、结局分四次生成，也可上下两部分两次生成。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5655ca9e46a086722eb959793312f448.png>
+![](img/zhuanqian_5655ca9e46a086722eb959793312f448.png)
 我个人习惯第一句话点出主角的基本情况，并配上几张唯美的图，很容易产生代入感。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e439fd07f1a9313d543e21e70ea17023.png>
+![](img/zhuanqian_e439fd07f1a9313d543e21e70ea17023.png)
 关键句我会用红色字体标注出来。
 ### 二）拆解爆款微调原创
 这个路子更直接，靠系统推荐就能找到爆款文章，然后按前面说的步骤一步步复现。
@@ -177,16 +177,16 @@ AI 辅助起标题的方法：先总结标题特征并列出参考案例，丢�
 通过看一看、搜一搜、底部推荐去找爆款，拆解出其文章大纲。
 拆完后最好再走一遍微调指令，或手动改写故事走向。写得多了手感就会上来，手改的质感往往比 gpt 直接改的更好。
 下面是我微调后的大纲，原稿已经找不到了。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1439b3717d837cecd9ef914ecc164383.png>
+![](img/zhuanqian_1439b3717d837cecd9ef914ecc164383.png)
 1.  gpt 写作
 还是用上面那套方法把故事内容写出来。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_95983d6fed3ec3b7c48c4103710841af.png>
+![](img/zhuanqian_95983d6fed3ec3b7c48c4103710841af.png)
 套路延续，自我介绍开头，首段结尾埋个钩子。
 1.  取标题
 标题的取法，就是在爆款标题上做微调。
 先简要概括故事内容，结尾制造好奇心。
 情感类文章起标题的小窍门：用数字点明人物年龄，用数字描述故事里的具体要素，比如借了多少钱、离婚多少年之类。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a1a09133f6d4480691d9e9d31bb29b55.png>
+![](img/zhuanqian_a1a09133f6d4480691d9e9d31bb29b55.png)
 # 五、一人运营 10 个号，如何提效解放双手
 现在是我一个人操盘这个项目，理论上一个人带 10 个号是可以的，但重复劳动很磨人，作为程序员我是受不了的。
 我用了两套方案来提速。
@@ -194,16 +194,16 @@ AI 辅助起标题的方法：先总结标题特征并列出参考案例，丢�
 按前面说的写作流程，核心是找素材搭大纲，大纲搭好就能直接用写故事的提示词去扩写。实现起来很简单。
 1.  通过一些方法把对标账号的文章爬下来，github 有开源项目，会一点 python 就能跑，不会也可以问 gpt 基本能跑起来，网上也有现成的工具。
 1.  用 api 接口批量做大纲总结，就能得到一堆类似下图这样的大纲。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_87ee5a03838944779b3dfb00d3be80e9.png>
+![](img/zhuanqian_87ee5a03838944779b3dfb00d3be80e9.png)
 1.  再跑一遍大纲微调环节，做到原创化。
 ### 二）用影刀 RPA 做流程自动化
 为什么不用 API 继续生成正文？我觉得 4.0 的写作手感更好，但 4.0 的 API 太贵用不起。那就让影刀 RPA 来自动执行流程，我腾出手去干别的。
 简单说下影刀 RPA：能自动化几乎所有桌面软件，包括 ERP、浏览器、CRM、微信、钉钉等日常应用；支持网页自动化，JS 脚本、数据抽取、数据抓取、表单填写、网页操作、API 调用等，轻松把 Web 任务自动化。
 用之前建议先去 bilibili 看官方的操作视频。
 这是我的流程脚本
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fda6850ed6277d3347dd0450dbe17132.png>
+![](img/zhuanqian_fda6850ed6277d3347dd0450dbe17132.png)
 最后我把结果保存成文本，也可以直接让影刀把内容填进公众号图文编辑框里，实现真正的无人值守。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3f87d436c6f4faa17ec8c8efddc73bd2.png>
+![](img/zhuanqian_3f87d436c6f4faa17ec8c8efddc73bd2.png)
 # 六、公众号实操小技巧
 以上是 AI 在公众号情感写作方面的用法，下面再补充几个能加快见效的小技巧。
 ### 一）公众号爆文的底层逻辑
@@ -228,7 +228,7 @@ AI 绘画现在已经很成熟了，提供几个快的方法。
 坚持日更，有没有爆先日更两个月再说
 有精力就发两篇别只发一篇，用数量换质量。
 定期复盘，迭代方法。要定期复盘自己的选题方法、标题方法、管理方法，持续优化。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_25fad29bc228983907a60df56c6c5844.png>
+![](img/zhuanqian_25fad29bc228983907a60df56c6c5844.png)
 这是我对情感写作提示词的迭代管理表，提示词的功能、版本、时间、迭代内容都要做好归档。
 ### 五）一天发几篇合适
 用数量换质量，有时间就多发。
@@ -240,7 +240,7 @@ AI 绘画现在已经很成熟了，提供几个快的方法。
 怎么让用户在底部停留更久，从而提高底部广告的曝光？
 我的做法是在底部放一个视频或一些抓眼球的图片，激发停留。
 怎么提高广告点击率？
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fde12c74479ff1d9bd9ef9fbcab1cec8.png>
+![](img/zhuanqian_fde12c74479ff1d9bd9ef9fbcab1cec8.png)
 在广告管理-广告屏蔽里可以自定义屏蔽部分广告，比如做中老年情感的，可以屏蔽游戏类广告；做读书类的，可以屏蔽成人用品类广告，能有效优化展示效果。但这点需要对行业有认知，不熟悉不建议乱动。
 # 七、总结
 最后感谢赚钱提供的平台，让我认识到很多优秀的人，也开阔了视野。

@@ -19,9 +19,9 @@
 很多人一看觉得复杂就不想动了。想想看，你后面还要一段段手动打提示词生图的那种耗神和心累，咬牙一次性把自动化搭起来，后面就轻松了。
 因私信咨询太多，我精力有限没法远程调试，请严格按文档走，照做基本都能 100% 跑通。
 先看一下我整个流程的目录结构：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_53445cc0c0ece266f7f46524f1d7c7f9.png>
+![](img/zhuanqian_53445cc0c0ece266f7f46524f1d7c7f9.png)
 001 用来放达人秀场景设计 + 自动生成的分镜图。这里需要人工复核图片和做必要的 P 图。原则是一个成品视频对应一个工程，比如要做一个有 4 个分镜的视频，就在 001 下建一个“视频1”的文件夹，把这 4 张分镜图拖进去。后面 002-005 同理，如下图：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f24b019de2cdb3a4b61ea12f7fb5de4b.png>
+![](img/zhuanqian_f24b019de2cdb3a4b61ea12f7fb5de4b.png)
 002 放的是分镜图已确定，但首尾帧图生视频提示词还没生成的工程，由影刀自动处理；
 003 放的是提示词已生成，等待生成分镜视频的工程，由影刀自动处理；
 004 放的是已经生成了多个备选分镜视频的工程，这里需要人工挑片；
@@ -31,18 +31,18 @@
 这是整个系统里最复杂的一环，需要一点技术基础和工作流搭建经验。做出来后想直接分享现成模板，但工具是用谁的额度算谁的，所以还是教大家自己搭。
 大体思路是：我指定一个动物，coze 自动调用豆包生成几个分镜的文生图提示词，并把每个分镜的提示词拆开，每组生成 4 张备选图，最后写入飞书表格。
 飞书表格的呈现效果，跑完会自动新增一行，包含备选标题、场景提示词、每张分镜的备选图链接：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c19571624e4ad81c65524511753eef80.png>
+![](img/zhuanqian_c19571624e4ad81c65524511753eef80.png)
 没用过扣子的伙伴，按下面的步骤一步步来就能通。
 ### 先搭一个图片生成工作流
 在入口处新建一个工作流：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5ec4a5b60963a241adbe1a132ae90ab1.png>
+![](img/zhuanqian_5ec4a5b60963a241adbe1a132ae90ab1.png)
 我的节点组合很简洁：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e4c3686c97307895888d41fd60bf0f03.png>
+![](img/zhuanqian_e4c3686c97307895888d41fd60bf0f03.png)
 怎么加节点？在画布下方点“添加节点”，选你需要的类型就会自动落到画布上：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9fcd4e8137c83b8fd59b6a70a0cab621.png>
+![](img/zhuanqian_9fcd4e8137c83b8fd59b6a70a0cab621.png)
 #### 开始节点
 开始节点接收被拆分后的提示词数组，并为每个场景自动出 4 张图。配置要点如下，点击节点后右侧会出现配置面板：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7b3455e747b85631434bec70fc436bf5.png>
+![](img/zhuanqian_7b3455e747b85631434bec70fc436bf5.png)
 BOT_USER_INPUT：自带的参数不用改，设为非必填；
 prompt_array：分镜提示词数组，变量类型选 Array<string>，必填，无默认值；
 concurrent_count：并发线程数，变量类型 Integer，必填，默认 4，这个并发量比较稳，太高容易报错；
@@ -51,38 +51,38 @@ batch_count：每个场景出图数量，变量类型 Integer，必填，默认 
 #### 批处理节点
 批处理用来批量跑任务，这里就是批量生图。逻辑是遍历提示词数组里的每一句，各生成 4 张图。批处理节点自带一个批处理体，生图节点放进去。
 先点批处理节点本身，参数如下，注意输出参数要在批处理体跑完后才会出现：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f6f24e5ca6ec9d8a4cb9604f5eaae012.png>
+![](img/zhuanqian_f6f24e5ca6ec9d8a4cb9604f5eaae012.png)
 点进批处理体，让它高亮，再点添加节点 -> 图像生成，结果像这样：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4d73a67caf75ba19a46dc7b1d9e7086b.png>
+![](img/zhuanqian_4d73a67caf75ba19a46dc7b1d9e7086b.png)
 点图像生成节点，参数填这个：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_164a50af66f456c59296f72284b79a54.png>
+![](img/zhuanqian_164a50af66f456c59296f72284b79a54.png)
 #### 结束节点
 结束节点是工作流的出口，会把批处理产生的图片对外输出，方便别的流程调用。这里输出的是 URL，格式类似 https://s.coze.cn/t/HDV4yEYolZQ/。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_76fe0e9190ffb38674a42d95f58ed503.png>
+![](img/zhuanqian_76fe0e9190ffb38674a42d95f58ed503.png)
 #### 试运行与发布
 配置完先测一下。coze 的试运行很方便，直接点画布下方的试运行，想看每个节点的进出也可以点扳手图标：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_738f8b75a588c1823be991b38d28c8dc.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_02cf2f7123cd7bfeeb803892ef3b7296.png>
+![](img/zhuanqian_738f8b75a588c1823be991b38d28c8dc.png)
+![](img/zhuanqian_02cf2f7123cd7bfeeb803892ef3b7296.png)
 正在跑的节点会有动态虚线标识：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b1f573510434a848f2ac0712c9fa4b1e.png>
+![](img/zhuanqian_b1f573510434a848f2ac0712c9fa4b1e.png)
 跑完点结束节点的展开结果，就能看到生成的图：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5551561f8b5b33962e3cfdc1e4d06381.png>
+![](img/zhuanqian_5551561f8b5b33962e3cfdc1e4d06381.png)
 试运行没问题后点右上角发布，只有发布后的工作流才能被对话流调用：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7697e15cfe77a8325de741c49ecadb31.png>
+![](img/zhuanqian_7697e15cfe77a8325de741c49ecadb31.png)
 ### 再搭一个全流程对话流
 这个对话流是智能体的主脑，把场景设计和刚才的图片生成工作流串起来，最后把结果写入飞书表格。
 在入口处新建一个对话流：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7e28bde8dcb9f28542ed63c12e629401.png>
+![](img/zhuanqian_7e28bde8dcb9f28542ed63c12e629401.png)
 本流程共 9 个节点，结构如下：
 请注意，每个节点设置参数前，先把上一个节点拖连到下一个，方法是拖动上一个节点右侧的圆点到本节点左侧。连上后参数才能互相传递，否则选择框里找不到变量：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a81009ebe15bc112cbac03fe369dde72.png>
+![](img/zhuanqian_a81009ebe15bc112cbac03fe369dde72.png)
 #### 开始节点
 用来接收用户输入，比如“场景里要有人和兔子”，后续都可以在智能体里直接交互：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_caab57d45c491dd213ecd24ca8b0858d.png>
+![](img/zhuanqian_caab57d45c491dd213ecd24ca8b0858d.png)
 #### 变量设置节点
 代码类型节点，我用来固定飞书表格的 token 和 sheet_id，也就是写到哪张表、哪个表单：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_742d2dd5a8d8072402d1df330fab2818.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5e5e1dc4266e1ba5647b7a2058b24279.png>
+![](img/zhuanqian_742d2dd5a8d8072402d1df330fab2818.png)
+![](img/zhuanqian_5e5e1dc4266e1ba5647b7a2058b24279.png)
 代码编辑区选 Python，粘贴下面这段：
 ```
 import json
@@ -95,28 +95,28 @@ return ret
 ```
 代码里的 spreadsheet_token 和 sheet_id 去哪找？按下面操作。
 先在飞书自建一个多维表格，注意不要在知识库里建，知识库的链接里会带 /wiki/。建好后表格内只留表头，空行不要自己多加，运行后会自动追加。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2781c239c7ae527218d59a6f8978c21b.png>
+![](img/zhuanqian_2781c239c7ae527218d59a6f8978c21b.png)
 点右上角复制链接：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_43a072f6cf019cf1bd92cfb59c43816a.png>
+![](img/zhuanqian_43a072f6cf019cf1bd92cfb59c43816a.png)
 把链接打开，地址栏最后一段就是 spreadsheet_token，记下来。正确的非知识库表格地址里会带 /sheets/：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d965cdc35d6c958ff541ba8e4cae6c21.png>
+![](img/zhuanqian_d965cdc35d6c958ff541ba8e4cae6c21.png)
 如果是带 /wiki/ 的知识库表格，可以这样快速拿到 token：复制链接后新开标签，按 F12 打开开发者工具，切到 Network 标签，再把链接贴到地址栏回车，在筛选框输入 spreadsheet_token，复制对应的值：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_767dca51ad38ca2c335c80c64cd2ef4e.png>
+![](img/zhuanqian_767dca51ad38ca2c335c80c64cd2ef4e.png)
 接下来要拿到 sheet_id，可以临时加一个飞书电子表格插件来抓，拿完就删掉：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5f73f0aafb024f0f1fcbf08dec078506.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c4cd9e0a196450a5eda74933c80e97c4.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_31fad91fde4ca7567d9bde6d3049c280.png>
+![](img/zhuanqian_5f73f0aafb024f0f1fcbf08dec078506.png)
+![](img/zhuanqian_c4cd9e0a196450a5eda74933c80e97c4.png)
+![](img/zhuanqian_31fad91fde4ca7567d9bde6d3049c280.png)
 添加后画布会出现一个节点，不需要连线，点开后填入刚才的 token：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_54cf9bc46e3a1a3f095dab5b68fb22a5.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_249464e4769a4b686f83e04935c1c68a.png>
+![](img/zhuanqian_54cf9bc46e3a1a3f095dab5b68fb22a5.png)
+![](img/zhuanqian_249464e4769a4b686f83e04935c1c68a.png)
 等一两秒看试运行结果，从结果里提取 sheet_id。
 首次调用可能提示未授权，按提示去飞书授权再跑一次即可。
 另外飞书表格里除了第一行标题，其他空行全部清空，并且列数要够用，公式是 场景数 * 每场景图片数 + 2，比如 4 个场景各 4 张图，就要保证至少 18 列，否则必报错。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_324112d6a86fca686747f79f0331d427.png>
+![](img/zhuanqian_324112d6a86fca686747f79f0331d427.png)
 #### 大模型节点
 这个节点负责生成达人秀的分镜提示词，后续用来批量生图。你需要告诉模型怎样写提示词，可以参考香君的写法自行微调。我这里的模板也分享一部分，避免生成过于相似，保持差异化需要自己再优化。
 提示词可以写在系统提示词或用户提示词，我实测放用户提示词更稳定，仅供参考：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_46f11f3ef96244b3dcf642c18ff269bd.png>
+![](img/zhuanqian_46f11f3ef96244b3dcf642c18ff269bd.png)
 参考提示词模板：
 ```
 你是一位专为AGT（美国达人秀）舞台创作变装表演提示词的AI助手。您的任务是生成多个连续的、相互关联的场景提示词，每组包含三个提示词。请严格遵循以下规则：
@@ -184,15 +184,15 @@ XX美女是指场景3中的美女，她的衣着描述和发型描述，要和�
 {{order_str}}
 ```
 前面的提示词中，标注为黄底的内容需要根据自己的需求替换，其余部分保持不变，通常就能生成效果相当不错的图片。下面以完整流程为例，介绍如何搭建从场景拆分、批量生图，到视频提示词生成和自动化处理的一整套方案。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d116b0bed5a467bc47cf2671cdcc0a57.png>
+![](img/zhuanqian_d116b0bed5a467bc47cf2671cdcc0a57.png)
 #### 将场景拆分为字符串数组
 这是一个文本处理节点，主要作用是把大模型刚刚生成的场景提示词，按照预设规则拆成多个独立片段，方便后续批量生成图片。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d788b7336acf6d0a0fb8006a5439c5e6.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7d31e865782024bfbbd6a5f899852adf.png>
+![](img/zhuanqian_d788b7336acf6d0a0fb8006a5439c5e6.png)
+![](img/zhuanqian_7d31e865782024bfbbd6a5f899852adf.png)
 #### 删除标题并复制节点
 该节点属于代码节点，负责处理前面得到的数组，将标题内容与具体场景分开保存。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7fbf5f49e9fa7bcd390cec67da74f545.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e346a738f5af992021b383f16172ac22.png>
+![](img/zhuanqian_7fbf5f49e9fa7bcd390cec67da74f545.png)
+![](img/zhuanqian_e346a738f5af992021b383f16172ac22.png)
 如需修改上图中的代码，仍然是在IDE内完成。进入编辑界面后，将编程语言切换为Python，再把下面的代码复制进去：
 ```
 import json
@@ -212,14 +212,14 @@ return ret
 ```
 #### 图像流节点（agt_scene_picture_stream）
 这个节点用于调用3.1.1中配置好的图片工作流，节点类型选择“工作流”。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7cd77d8265c8d78b46ff22984335d4fd.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_37d22151aaaf0c65d1b748a87c0709e6.png>
+![](img/zhuanqian_7cd77d8265c8d78b46ff22984335d4fd.png)
+![](img/zhuanqian_37d22151aaaf0c65d1b748a87c0709e6.png)
 #### 将标题和所有图片整理成一行
 这个代码节点会把标题、提示词以及场景图片统一整理成数组，后续可以直接写入飞书电子表格。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6551286f9464e3c7a6e19d2447e26d27.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f5949f45313c5023e9e13a5282f0d54b.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_854c5cde1fb79510dedf0e1ad4d613d6.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_90c4979e4790d3738e53189053c6440e.png>
+![](img/zhuanqian_6551286f9464e3c7a6e19d2447e26d27.png)
+![](img/zhuanqian_f5949f45313c5023e9e13a5282f0d54b.png)
+![](img/zhuanqian_854c5cde1fb79510dedf0e1ad4d613d6.png)
+![](img/zhuanqian_90c4979e4790d3738e53189053c6440e.png)
 操作方式与前面一致：点击IDE进行编辑，语言选择Python，然后粘贴以下代码：
 ```
 import json
@@ -243,36 +243,36 @@ return ret
 ```
 #### 写入飞书表格
 该节点用于把前面整理好的数据写入飞书电子表格，节点类型为插件。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3b443e47dc5ea55fee970af27c49f5a4.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6fa96b58dbdd20db7a41fba6ea61aa59.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1faa9b5f81640199afd4306a525bc549.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e8efe88b6f185905876edcd918631831.png>
+![](img/zhuanqian_3b443e47dc5ea55fee970af27c49f5a4.png)
+![](img/zhuanqian_6fa96b58dbdd20db7a41fba6ea61aa59.png)
+![](img/zhuanqian_1faa9b5f81640199afd4306a525bc549.png)
+![](img/zhuanqian_e8efe88b6f185905876edcd918631831.png)
 #### 结束节点
 结束节点表示整个对话流执行完毕，并返回最终生成的场景提示词。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_65957d51e1643621cdf3543b27a568f7.png>
+![](img/zhuanqian_65957d51e1643621cdf3543b27a568f7.png)
 完成配置后，先试运行，再发布即可供智能体调用。试运行时要先选择一个智能体。建议保留当前页面，再新开一个浏览器窗口，按照3.1.3的步骤创建一个空白智能体。
 ### 创建并调用智能体
 接下来创建一个智能体，用来调用刚刚搭建完成的对话流。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c90b3a906d808010b09048514d26242f.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8f231edc1ac1964561a987732289a5f7.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_75079c8ff2530ee719bd186da2434189.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bb442d1355a54955506e509089b3724f.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a792568654fc5c0df5d815b4cbd7033a.png>
+![](img/zhuanqian_c90b3a906d808010b09048514d26242f.png)
+![](img/zhuanqian_8f231edc1ac1964561a987732289a5f7.png)
+![](img/zhuanqian_75079c8ff2530ee719bd186da2434189.png)
+![](img/zhuanqian_bb442d1355a54955506e509089b3724f.png)
+![](img/zhuanqian_a792568654fc5c0df5d815b4cbd7033a.png)
 系统会自动保存设置，不必点击右上角的“发布”，否则被其他人调用时会消耗你的额度。直接使用当前页面右下角的输入框进行测试即可。通常每次生成需要等待60—70秒左右。
 与bot对话时，建议明确写上“请调用工作流生成”，否则有时它可能不会实际执行工作流，最终效果也会受到影响。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cea29f50cae8a6dbb5f8dc2d11098f53.png>
+![](img/zhuanqian_cea29f50cae8a6dbb5f8dc2d11098f53.png)
 如果出现下图所示的情况，直接点击“这里”，根据系统提示一次完成相关操作即可。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d5b5bb3cbd8d715eb87960076a44c7de.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_18b08e6c5fe71f2aa81d0e9e0a05d2d4.png>
+![](img/zhuanqian_d5b5bb3cbd8d715eb87960076a44c7de.png)
+![](img/zhuanqian_18b08e6c5fe71f2aa81d0e9e0a05d2d4.png)
 需要说明的是，Coze目前对批处理有一定限制。原本希望一次自动生成上百条内容，但现阶段还无法完全实现，只能手动触发。如果有条件，可以配合影刀和Excel，自动批量调用生成任务。
 如果遇到“任务明明显示成功，但飞书表格里没有数据”的情况，可以查看FAQ 4.1.3，通常都能在那里找到对应原因。
 再看最终结果：如果表格中保存的是一串串图片URL，逐个点击查看显然效率很低。虽然目前还没有找到更理想的图片写入飞书方式，但我已经用Cursor制作了一个辅助工具，可以一键复制整行URL并粘贴，自动完成格式化和批量读取。工具界面直观，支持双击查看大图，也能批量下载原图。文末会提供，有需要可以自行获取。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fe31b820d2d548bbca6810768e5c989e.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2e5967b4e7c6b108106464426f7b8d86.png>
+![](img/zhuanqian_fe31b820d2d548bbca6810768e5c989e.png)
+![](img/zhuanqian_2e5967b4e7c6b108106464426f7b8d86.png)
 ## 生成首尾帧图生视频提示词
 每套创意完成上述图片生成后，建议每个分镜至少保留一张图片。通常只需要对分镜2进行PS处理即可，推荐使用即梦智能画布中的抠图和消除笔功能，具体操作可以参考航海手册。
 目前的设计里，分镜2通常只包含一只动物，没有其他角色，便于后续抠图，并替换到分镜1中的女性角色位置。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7c59bd0418878c6af4595e9fb949ab24.png>
+![](img/zhuanqian_7c59bd0418878c6af4595e9fb949ab24.png)
 那么，Runway所需的首尾帧提示词如何生成？我的做法是使用RPA配合Claude完成，其中Claude通过Monica调用。由于并不是所有人都有Monica会员，大家可以按照自己的条件选择工具。我这里分享的是整体思路，同时拥有Monica会员的朋友也可以直接使用我的RPA程序。
 原本计划每次上传两张图片，但为了测试Claude是否能同时处理多张图片，也为了节省调用额度，我一次上传了四张图，让它直接生成各个分镜之间的过渡提示词。
 具体做法是在Monica中创建一个智能体，然后输入以下要求。之后每次上传4张图片，智能体就会自动输出Runway提示词。
@@ -313,19 +313,19 @@ Runway识别能力有限，提示词应简洁，仅描绘关键动作。
 提示词4，适用于图片4的表演
 ......"
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_76c53c165bbe8f376cfb44cbcba75340.png>
+![](img/zhuanqian_76c53c165bbe8f376cfb44cbcba75340.png)
 ### 在Monica中创建智能体
 打开Monica首页，在左侧第二栏向下滚动，找到“探索智能体”，点击进入：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_241684d675faf4653b614e4ec87cee2b.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_df55e14f25ad269cb6b6d65eb33ab2d3.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c023bc2ecd6d558b164bb778640cd9b8.png>
+![](img/zhuanqian_241684d675faf4653b614e4ec87cee2b.png)
+![](img/zhuanqian_df55e14f25ad269cb6b6d65eb33ab2d3.png)
+![](img/zhuanqian_c023bc2ecd6d558b164bb778640cd9b8.png)
 请记住刚刚设置的智能体名称，后面的影刀流程会使用到它。
 ### 使用影刀自动生成过渡提示词
 安装影刀后，一定要安装Chrome浏览器插件，否则自动化程序无法正常运行。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8dc63786c5d0c44b19b5b34605f9c95f.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0dc10dc447cef09471fc6a5b67ed6ea6.png>
+![](img/zhuanqian_8dc63786c5d0c44b19b5b34605f9c95f.png)
+![](img/zhuanqian_0dc10dc447cef09471fc6a5b67ed6ea6.png)
 影刀的参数设置如下：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4b04cecd30cf1995fa2f1849b870551e.png>
+![](img/zhuanqian_4b04cecd30cf1995fa2f1849b870551e.png)
 #### 待生成提示词目录
 这里对应前面提到的002目录。目录中存放需要生成首尾帧提示词的创意，每个创意单独建立一个文件夹。实际上，它们来源于001目录，只是在完成图片PS后，再移动到这个目录。
 #### 待生成视频目录
@@ -341,15 +341,15 @@ Runway识别能力有限，提示词应简洁，仅描绘关键动作。
 更高效的方式是交给影刀批量执行；如果预算充足，也可以考虑API。这个工具具有通用性，后面会一并提供。
 整体流程是：读取上一阶段生成的提示词Excel，再结合整套创意的首尾帧图片，逐个执行任务。每个分镜可以生成多个备选视频，并在完成后自动下载。
 同样需要注意，影刀安装完成后必须配套安装Chrome插件。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_202a2f8cffa5f6f29dee71c06dc4c494.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_45b7be2ec84c7a662db879c5ce0c03a2.png>
+![](img/zhuanqian_202a2f8cffa5f6f29dee71c06dc4c494.png)
+![](img/zhuanqian_45b7be2ec84c7a662db879c5ce0c03a2.png)
 影刀参数参考如下：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a30e13fdbbd3b36ec6548739a8735dfb.png>
+![](img/zhuanqian_a30e13fdbbd3b36ec6548739a8735dfb.png)
 ### 待生成视频目录
 这就是前面提到的003目录，也就是当前待处理创意的存放位置。每套创意单独放在一个文件夹中，文件夹内包含4张分镜图片，以及一个存放提示词.xlsx的视频子目录。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d4bfec8cca493bc848ce126cee18df74.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2a0778c75b5dc3ed21edc0fcc573e788.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c6b80a0101f34d9b18ac5626499b825e.png>
+![](img/zhuanqian_d4bfec8cca493bc848ce126cee18df74.png)
+![](img/zhuanqian_2a0778c75b5dc3ed21edc0fcc573e788.png)
+![](img/zhuanqian_c6b80a0101f34d9b18ac5626499b825e.png)
 ### 待审核视频目录
 设置已经生成完成的分镜视频需要被移动到哪个目录。
 ### 每个分镜的生成次数
@@ -369,19 +369,19 @@ Runway完成视频片段生成后，需要人工筛选可用素材，最后导�
 ### 批量生成首尾帧图生视频提示词RPA工具
 #### 注册影刀账号
 由于我使用的是创业版账号，只要创业版资格持续有效，大家就可以继续使用本工具。#### 获取应用
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_381eb0d221f211609e794ea4105b6604.png>
+![](img/zhuanqian_381eb0d221f211609e794ea4105b6604.png)
 在本机打开影刀，按照下方路径输入密码ytb2025168002，即可获取应用：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_af75ce109d2d0e33c282d28df70ce4db.png>
+![](img/zhuanqian_af75ce109d2d0e33c282d28df70ce4db.png)
 ### 批量图生视频RPA工具
 #### 获取应用
 点击下面的链接加入市场：
 https://www.winrobot360.com/share/accede?inviteKey=097fee56-c747-40bf-9e3e-5f776ccae964
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_dcbfab4285c534db7c90b5275ab21975.png>
+![](img/zhuanqian_dcbfab4285c534db7c90b5275ab21975.png)
 打开本机影刀，按照下方路径输入密码ytb2025168，即可获取应用：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1be50c00522b7e5a088f8feae2bdbf22.png>
+![](img/zhuanqian_1be50c00522b7e5a088f8feae2bdbf22.png)
 ### 批量图片查看器
-平时要从飞书表格里整理图片，最怕一张张手动复制下载。现在这个工具/流程可以帮你省不少事：先把一整行的图片链接全部选中，按 Ctrl+C 复制，再回到图片查看器的输入框里按 Ctrl+V，工具会自动整理格式、把图片批量读出来；想看细节，直接双击图片就能放大。效果可以参考这里：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_402db0ef7a44abf6a639b70a5e835905.png>
-接下来就是在图片列表里勾选需要下载的内容。建议一个场景挑一张你最满意的照片就行，选中后图片会出现很粗的蓝色边框。点一下“批量下载”，程序会按照图片当前展示的顺序，自动命名为 001、002……一直到 N，完全不用自己改文件名。操作见下图：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_77da97379c02e77aab6c90759695109a.png>
+平时要从飞书表格里整理图片，最怕一张张手动复制下载。现在这个工具/流程可以帮你省不少事：先把一整行的图片链接全部选中，按 Ctrl+C 复制，再回到图片查看器的输入框里按 Ctrl+V，工具会自动整理格式、把图片批量读出来；想看细节，直接双击图片就能放大。效果可以参考这里：![](img/zhuanqian_402db0ef7a44abf6a639b70a5e835905.png)
+接下来就是在图片列表里勾选需要下载的内容。建议一个场景挑一张你最满意的照片就行，选中后图片会出现很粗的蓝色边框。点一下“批量下载”，程序会按照图片当前展示的顺序，自动命名为 001、002……一直到 N，完全不用自己改文件名。操作见下图：![](img/zhuanqian_77da97379c02e77aab6c90759695109a.png)
 另外，由于飞书不支持直接下载文件，这里改用百度网盘提供：
 链接: https://pan.baidu.com/s/107h2gSinzHQxtFf0LBN7dg?pwd=gdft
 提取码: gdft
@@ -389,17 +389,17 @@ https://www.winrobot360.com/share/accede?inviteKey=097fee56-c747-40bf-9e3e-5f776
 常见问题会持续补充，先整理一批大家常踩的坑。
 ## Coze（扣子）问题
 ### 1. 向飞书电子表格插入记录时报 NOTEXIST 错误（@酷拉皮卡）
-很多人说数据格式检查过没问题，但还是会出现类似下图这样的报错：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_120318bd49487fe84a6e5140c82d6724.png>
-根据官方文档，这个错误的意思是“未找到指定的云文档”。建议按下面这个思路排查：如果电子表格是在知识库里创建的，后续很容易遇到额外问题；最好在知识库外面新建一张电子表格，再重新获取 spreadsheet_token 和 sheet_id，问题通常会解决。官方错误码文档链接也放一下：https://open.feishu.cn/document/server-docs/api-call-guide/generic-error-code <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_05d7971d850b320c47f8ba824b28d100.png>
+很多人说数据格式检查过没问题，但还是会出现类似下图这样的报错：![](img/zhuanqian_120318bd49487fe84a6e5140c82d6724.png)
+根据官方文档，这个错误的意思是“未找到指定的云文档”。建议按下面这个思路排查：如果电子表格是在知识库里创建的，后续很容易遇到额外问题；最好在知识库外面新建一张电子表格，再重新获取 spreadsheet_token 和 sheet_id，问题通常会解决。官方错误码文档链接也放一下：https://open.feishu.cn/document/server-docs/api-call-guide/generic-error-code ![](img/zhuanqian_05d7971d850b320c47f8ba824b28d100.png)
 ### 2. 插入飞书电子表格时提示“range in request is wrong, columns of value:22>range”（@酷拉皮卡）
-报错截图见下：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9079a8040d45104e90b8e3c5965c6e87.png>
+报错截图见下：![](img/zhuanqian_9079a8040d45104e90b8e3c5965c6e87.png)
 这个一般不是数据问题，而是表格列数不够。比如报错里的 22，意味着你想写入 22 列数据，但当前表格的有效列数不到 22 列。解决办法很简单：在表格右侧多补几列，让列数足够，就不会再报这个错了。
 ### 3. 插入飞书表格的节点提示成功，表格里却看不到数据（@花生）
-现象就像下图这样，明明显示插入成功：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2e57f12c15d1f4e2f4bc32d9770820d8.png>
+现象就像下图这样，明明显示插入成功：![](img/zhuanqian_2e57f12c15d1f4e2f4bc32d9770820d8.png)
 这种时候别急着怀疑数据丢了，先看一下表格里是不是自己之前创建了很多空行。把页面滚动到最下方，插入的数据很可能就在底部。建议只保留第一行标题，其他空白行全部删掉，之后就不会出现“找不到数据”的错觉。
 ### 4. 调用智能体时输出莫名其妙的内容，或调试对话流时图片工作流报一串数字错误（@沈瑾瑜）
-问题截图如下：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_14441777ee2202e974ca15ba8ea74388.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_15c6ac699a9c68e1aed88b4ea8c2efb3.png>
+问题截图如下：![](img/zhuanqian_14441777ee2202e974ca15ba8ea74388.png)![](img/zhuanqian_15c6ac699a9c68e1aed88b4ea8c2efb3.png)
 遇到类似情况，可以按当初创建的顺序一层层倒回去排查：智能体调用出错，就打开上一层的对话流直接试运行；如果对话流也有问题，再打开更上层的图片工作流试运行。这样逐步定位，很快就能找到真正的报错点。最后通常会发现是免费版的功能限制，充 10 块钱开个专业版就能继续用一阵子。
 ## 影刀问题
 ### 影刀批量图生视频时，没打开 Runway 官网，反而直接往微信发消息就结束（@啵啵鱼华华）
-这类现象多半是影刀的 Chrome 插件没有安装。请按前文 3.3 的说明，把 Chrome 插件装好再试。如果插件已经安装，还可以打开影刀运行结束窗口里的“日志”按钮，看看有没有具体的错误记录，再顺着日志排查。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c3decf907cf2470d7cf536224957c469.png>
+这类现象多半是影刀的 Chrome 插件没有安装。请按前文 3.3 的说明，把 Chrome 插件装好再试。如果插件已经安装，还可以打开影刀运行结束窗口里的“日志”按钮，看看有没有具体的错误记录，再顺着日志排查。![](img/zhuanqian_c3decf907cf2470d7cf536224957c469.png)

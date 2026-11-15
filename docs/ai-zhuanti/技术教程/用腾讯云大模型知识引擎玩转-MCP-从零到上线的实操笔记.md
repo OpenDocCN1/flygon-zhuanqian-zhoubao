@@ -11,18 +11,18 @@ MCP 全称 Model Context Protocol，模型上下文协议，是面向大语言�
 ## 上手前的准备工作
 想在腾讯云上实操，先把环境备齐。
 前置条件主要有两项：一个已实名认证的腾讯云账号，以及已开通的大模型知识引擎。如果账号没有免费额度，需要自行购买资源包。计费规则和购买入口可分别参考官方文档和购买页。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ee34c592ed4c4ad8e964e6b05a1af59a.png>
+![](img/zhuanqian_ee34c592ed4c4ad8e964e6b05a1af59a.png)
 我的账号已经开通，开通流程很直观，页面会提示未开通时直接跳转开通，卡片入口是 https://lke.cloud.tencent.com/lke#/app/home
 ## 一条龙操作流程拆解
 先去插件中心逛一圈，地址 https://lke.cloud.tencent.com/lke#/plugin-center/home ，里面就能看到已收录的 MCP 插件列表。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_565b27fd836c6d9e393cf802629b707a.png>
+![](img/zhuanqian_565b27fd836c6d9e393cf802629b707a.png)
 下面跟着实际步骤走一遍。
 从左侧应用菜单进入，或直接打开 https://lke.cloud.tencent.com/lke#/app/home
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8e55f95952ab0752cd64e83bae1e018e.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_127eadd212c48020f98095e6ca176fe4.png>
+![](img/zhuanqian_8e55f95952ab0752cd64e83bae1e018e.png)
+![](img/zhuanqian_127eadd212c48020f98095e6ca176fe4.png)
 ### 新建一个应用
 进入后填写应用说明开始创建。我这里已经有一个示例应用。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8d3f7b714f5329dbce244b6bc06e6897.png>
+![](img/zhuanqian_8d3f7b714f5329dbce244b6bc06e6897.png)
 点选图标切换到 Agent 模式，这是使用 MCP 的核心模式。
 ### 设定任务提示词
 为应用写一个清晰的提示词，让模型知道要做什么。
@@ -38,17 +38,17 @@ MCP 全称 Model Context Protocol，模型上下文协议，是面向大语言�
 - 穿衣建议：<具体的穿衣建议>
 ```
 提示词写完后也可以借助内置 AI 工具一键优化。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d1f1df9b32dd75fbe74221ec2290c846.png>
+![](img/zhuanqian_d1f1df9b32dd75fbe74221ec2290c846.png)
 ### 挂载 MCP 插件
 下拉找到插件区域，点击添加插件。先前我已装了天气插件，这次再加一个地图插件。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e1b051ec1ad6b3c270fdf43cb4002933.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1e19342f77f16b7006506d92be6c9d80.png>
+![](img/zhuanqian_e1b051ec1ad6b3c270fdf43cb4002933.png)
+![](img/zhuanqian_1e19342f77f16b7006506d92be6c9d80.png)
 可以根据需求叠加多个插件，也可以在提示词里直接引用插件能力。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_64ffcfd7e0ca21b64de528a903b02a56.png>
+![](img/zhuanqian_64ffcfd7e0ca21b64de528a903b02a56.png)
 ### 在线调试与效果验证
 在调试对话窗口里输入测试用例，比如输入“北京、南京”这类城市名，观察模型是否能正确调用插件返回结果。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_57786aa085ae50a40e4eb42c555cc5d2.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4c54e1891988bcf0934d279a420a55c5.png>
+![](img/zhuanqian_57786aa085ae50a40e4eb42c555cc5d2.png)
+![](img/zhuanqian_4c54e1891988bcf0934d279a420a55c5.png)
 效果满意后即可发布上线。
 ### 调整边界与迭代
 如果发现输出不够准，回到提示词区修改边界条件，再次调试发布。
@@ -65,19 +65,19 @@ MCP 全称 Model Context Protocol，模型上下文协议，是面向大语言�
 - 明日穿衣建议：<明天穿衣建议>
 - 未来天气变化：<未来气温趋势总结><未来气温趋势图>
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_787864394e3d25eac80aeecb0758cfea.png>
+![](img/zhuanqian_787864394e3d25eac80aeecb0758cfea.png)
 ## 用案例讲明白：搭建一个路线规划小助手
 应用创建：点创建应用，输入名称并上传头像。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a26ddd0ab87624451e4e5e1e03533810.png>
+![](img/zhuanqian_a26ddd0ab87624451e4e5e1e03533810.png)
 模式切换：点击头像，将标准模式改为 Agent 模式。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_04f2d5c58370c6965f89fedf545135a5.png>
+![](img/zhuanqian_04f2d5c58370c6965f89fedf545135a5.png)
 插件接入：点添加插件，按需接入腾讯位置服务的 MCP 工具。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_006e4e7924444079b40e172bd5dfbcbf.png>
+![](img/zhuanqian_006e4e7924444079b40e172bd5dfbcbf.png)
 需求细化：输入业务需求，并用 AI 优化提示词，让模型更懂路线规划的规则。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_35dbba689fd65db37dc78aa198ac4b95.png>
+![](img/zhuanqian_35dbba689fd65db37dc78aa198ac4b95.png)
 效果测试：在对话框里试跑，确认规划结果符合预期。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_720df65494266d4180dfb738ba16cf64.png>
+![](img/zhuanqian_720df65494266d4180dfb738ba16cf64.png)
 发布上线：确认无误后发布应用。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0b5b4efb9841af132ff717c53a79d50e.png>
+![](img/zhuanqian_0b5b4efb9841af132ff717c53a79d50e.png)
 分享链接：生成体验链接，方便他人试用。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d9d3d16b5923b7f23be27afd23cd1ebb.png>
+![](img/zhuanqian_d9d3d16b5923b7f23be27afd23cd1ebb.png)

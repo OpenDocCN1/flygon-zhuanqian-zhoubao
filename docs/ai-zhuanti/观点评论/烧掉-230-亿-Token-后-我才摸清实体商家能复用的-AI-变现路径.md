@@ -31,14 +31,14 @@
 ### 1. 这是我用 Codex 消耗的算力
 先放两张图，不是为了证明我很会玩 AI，而是交代前提：下面这些方法，不是偶然试出来的，是把 Codex 长期嵌进真实项目后的复盘。
 第一张，是我的 Codex 使用量。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_55dfacf0b766a1752a51a1a2b089d8fc_0_0.png>
+![](img/zhuanqian_55dfacf0b766a1752a51a1a2b089d8fc_0_0.png)
 第二张，是我某天登上赚钱 Token 榜的截图。
 目前 Codex Token 消耗约 200 多亿，单日最高约 10 亿，赚钱 Token 榜冲到第 6。
 想强调的不是消耗数字。
 Token 本身只是燃料，烧完不等于有产品；只有烧进真实业务流程里，才可能变成交付和收入。
 如果你只是让 AI 写稿、做图、搭页、写方案，当然有用，但很容易停在半成品。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_55dfacf0b766a1752a51a1a2b089d8fc_3_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_55dfacf0b766a1752a51a1a2b089d8fc_3_1.png>
+![](img/zhuanqian_55dfacf0b766a1752a51a1a2b089d8fc_3_0.png)
+![](img/zhuanqian_55dfacf0b766a1752a51a1a2b089d8fc_3_1.png)
 客户不会因为你用了大量 AI 就付钱。
 客户只会因为你解决了真实问题才付钱。
 所以这两张图要引出的不是 Token 越多越好，而是下面这张图：
@@ -48,14 +48,14 @@ Token 要变成业务结果，中间必须经过组织方式。
 第二层是质量：模型能力、上下文质量、任务拆解质量够不够。
 第三层是组织方式：这些输出能不能放进一个可复用、可验收、能产生业务结果的流程里。
 压缩成公式：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_55dfacf0b766a1752a51a1a2b089d8fc_4_0.png>
+![](img/zhuanqian_55dfacf0b766a1752a51a1a2b089d8fc_4_0.png)
 这段时间烧了这么多 Token，我最大的体会是：
 真正管用不是某个神奇 Prompt，而是你能不能持续把行业资料、真实流程、客户反馈和验收标准喂给 AI，再让它围绕一个最小闭环反复迭代。AI 不是帮你凭空想产品，而是把你已看见的业务问题，更快变成能演示、能验证、能改进的结果。
 所以我想说的是：当 Token 被组织进一个每天发生、强依赖人、离钱近的业务闭环里，它就不只是成本，会变成产品、交付和收入。
 接下来你会看到，我的 Token 最后不是落在炫技 Demo 上，而是落在了一个美业小程序里。
 ### 2. 算力最后落在了哪里
 我这段时间做的是一款美业 AI 小程序，现在也在迁移成 App。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_55dfacf0b766a1752a51a1a2b089d8fc_5_0.png>
+![](img/zhuanqian_55dfacf0b766a1752a51a1a2b089d8fc_5_0.png)
 它不是泛泛的 AI 助手，而是围绕美容门店每天真实发生的流程做的：
 - 美容师如何与顾客沟通；
 - 顾客异议如何回应；
@@ -65,7 +65,7 @@ Token 要变成业务结果，中间必须经过组织方式。
 - 小红书内容如何从服务素材里生长；
 - 店长如何知道员工哪里弱；
 - 老板如何看到过去看不见的销售过程。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_55dfacf0b766a1752a51a1a2b089d8fc_6_0.png>
+![](img/zhuanqian_55dfacf0b766a1752a51a1a2b089d8fc_6_0.png)
 ### 3. 老板真正买的是什么
 我后来发现，老板买的不是对话功能。老板真正关心 4 件事：
 #### 5. 看得见
@@ -87,14 +87,14 @@ Token 要变成业务结果，中间必须经过组织方式。
 所以我会换问题：这个行业里，哪个动作值得被改造？
 不要从 AI 能力出发，要从业务里正在耗人、易错、漏钱的动作出发。只有先找到这种动作，后续的 +AI 才不是硬加功能，而是放到有客户、有流程、有痛点的位子上。
 不是随便找个行业加个聊天框。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_55dfacf0b766a1752a51a1a2b089d8fc_8_0.png>
+![](img/zhuanqian_55dfacf0b766a1752a51a1a2b089d8fc_8_0.png)
 它至少要同时满足 5 个条件：已有行业、已有客户、已有流程、已有痛点，最后再用 AI 改造。如果前面 4 个没有，做出来大概率只是演示；如果前面 4 个成立，AI 才可能变成提效、增收、训练、复盘这些客户愿意买单的结果。
 所以建议不要先写需求文档，而是先用下面 4 张表把这 5 个条件层层拆清。
 ### 第 1 张表：行业流程表
 先别想产品，先画一条业务线。比如美业门店，大致可拆为：
 内容获客 -> 私域咨询 -> 预约到店 -> 到店诊断 -> 项目服务 -> 成交转卡 -> 服务复盘 -> 老客回访 -> 内容沉淀 -> 复购转介绍
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_55dfacf0b766a1752a51a1a2b089d8fc_9_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_55dfacf0b766a1752a51a1a2b089d8fc_9_1.png>
+![](img/zhuanqian_55dfacf0b766a1752a51a1a2b089d8fc_9_0.png)
+![](img/zhuanqian_55dfacf0b766a1752a51a1a2b089d8fc_9_1.png)
 【这是我之前拆解的美容行业流程表】
 然后把每一步继续细化。不要写成交这种大词，要写真实动作：
 - 顾客问价格，美容师怎么答；
@@ -107,8 +107,8 @@ Token 要变成业务结果，中间必须经过组织方式。
 这一步的目的是把我要做一个 AI 产品变成我看到了一堆可改造的业务动作。
 ### 第 2 张表：痛点打分表
 流程拆完后，不要全做。用一张打分表筛选。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_55dfacf0b766a1752a51a1a2b089d8fc_10_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_55dfacf0b766a1752a51a1a2b089d8fc_10_1.png>
+![](img/zhuanqian_55dfacf0b766a1752a51a1a2b089d8fc_10_0.png)
+![](img/zhuanqian_55dfacf0b766a1752a51a1a2b089d8fc_10_1.png)
 每个动作按 6 个维度打分，1-5 分即可：
 | 维度 | 问题 |
 | 高频 | 这个动作是不是每天/每周都会发生 |
@@ -127,8 +127,8 @@ Token 要变成业务结果，中间必须经过组织方式。
 ### 第 3 张表：真需求卡
 有了高分动作，还不能直接写代码。高分动作只能说明这里可能有价值，但没说明谁来用、在什么场景用、已经付出什么成本、第一版解决什么问题。
 所以中间还要压一次：把方向压成开工需求。上面这张图讲的就是这个过程：先从低效环节选一个需求方向，再压到具体场景，最后才变成 Codex 能执行、客户也能听懂的开工单。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_55dfacf0b766a1752a51a1a2b089d8fc_12_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_55dfacf0b766a1752a51a1a2b089d8fc_12_1.png>
+![](img/zhuanqian_55dfacf0b766a1752a51a1a2b089d8fc_12_0.png)
+![](img/zhuanqian_55dfacf0b766a1752a51a1a2b089d8fc_12_1.png)
 关键不是把需求写得高级，而是写得足够具体。真需求不是一句做个 AI 门店管理系统，而是要同时说清 4 件事：谁在用、什么场景、已付出什么成本、首版只解决什么问题。下面这张图就是判断公式。
 落到填写时，可直接用这张卡。它不是完整需求文档，而是防止你和 Codex 一起跑偏的最小开工单：
 | 问题 | 写法 |
@@ -144,7 +144,7 @@ Token 要变成业务结果，中间必须经过组织方式。
 首版解决：把服务记录拆成顾客顾虑、销售机会、风险提醒、员工复盘和下一步话术。
 你看，这比做一个 AI 门店管理系统具体得多。它已能让 Codex 判断输入是什么、输出是什么、首版边界在哪；也能让客户判断结果是否解决真实问题。
 下面这张图，就是差需求和好需求的区别。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_55dfacf0b766a1752a51a1a2b089d8fc_14_0.png>
+![](img/zhuanqian_55dfacf0b766a1752a51a1a2b089d8fc_14_0.png)
 真需求卡写到这个程度，才进入下一步：把它变成一个可演示、可验收、可给客户看的最小闭环。
 ### 第 4 张表：最小闭环表
 最后一张表，不是列功能清单，而是把真需求压成一个最小可验证闭环。
@@ -164,7 +164,7 @@ Token 要变成业务结果，中间必须经过组织方式。
 ## 三、真实案例：美业 AI 产品是怎么从流程里长出来的
 下面这 4 个案例，不是为了展示功能。
 【美业 AI 业务闭环】
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_55dfacf0b766a1752a51a1a2b089d8fc_16_0.png>
+![](img/zhuanqian_55dfacf0b766a1752a51a1a2b089d8fc_16_0.png)
 重点看它们的共同逻辑：
 真实场景 -> 当前痛点 -> AI 输出 -> 老板为什么愿意付费
 ### 案例一：话术训练，把美容师销售能力标准化
@@ -185,7 +185,7 @@ Token 要变成业务结果，中间必须经过组织方式。
 - 练完无记录、无复盘。
 所以我做了话术训练。
 【话术训练对练界面】
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_55dfacf0b766a1752a51a1a2b089d8fc_17_0.png>
+![](img/zhuanqian_55dfacf0b766a1752a51a1a2b089d8fc_17_0.png)
 它不是让员工背话术，而是进入真实场景：
 - 顾客抛出一个异议；
 - 美容师用语音回答；
@@ -193,7 +193,7 @@ Token 要变成业务结果，中间必须经过组织方式。
 - 系统记录整个过程；
 - 最后生成训练报告。
 【回答建议界面】
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_55dfacf0b766a1752a51a1a2b089d8fc_18_0.png>
+![](img/zhuanqian_55dfacf0b766a1752a51a1a2b089d8fc_18_0.png)
 报告看什么？不是一句表现不错，而是具体拆：
 | 维度 | 看什么 |
 | 专业准确度 | 是否讲清专业 |
@@ -294,7 +294,7 @@ Token 要变成业务结果，中间必须经过组织方式。
 - 预约：提供两个合适的时间选项；
 - 回访：先了解感受，再给出轻量提醒；
 - 再次邀约：用自然理由打开话题，而非强行推项目；
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_55dfacf0b766a1752a51a1a2b089d8fc_26_0.png>
+![](img/zhuanqian_55dfacf0b766a1752a51a1a2b089d8fc_26_0.png)
 - 评论回应：先在公开区域正常互动，再延伸到私聊；
 - 长期未联系唤回：从近况关怀开始，不急着介绍项目。
 它之所以有商业价值，是因为它不是孤立功能，而是嵌入每天都会发生的工作。使用频率足够高，才可能形成持续使用；离顾客足够近，才更容易带来后续机会。
@@ -314,7 +314,7 @@ Token 要变成业务结果，中间必须经过组织方式。
 服务素材 / 项目信息 / 顾客疑问 → 归纳内容角度 → 形成标题和正文 → 配置封面及配图方向
 例如，顾客在护理时说：
 “我担心抗衰项目太刺激，也不想第一次就买一整套。”
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_55dfacf0b766a1752a51a1a2b089d8fc_28_0.png>
+![](img/zhuanqian_55dfacf0b766a1752a51a1a2b089d8fc_28_0.png)
 这句话已经包含了一个明确的内容入口，可以继续展开为：
 - 皮肤容易敏感的人，如何了解抗衰项目？
 - 为什么首次体验不适合直接选择大组合？
@@ -326,7 +326,7 @@ Token 要变成业务结果，中间必须经过组织方式。
 如果你准备把方法带回自己的行业，别先规划完整平台，也别急着堆所有功能。先完成一个可展示的原型，再拿给十位真实从业者或客户看。你要验证的不是“能不能上线”，而是：对方是否愿意为这个结果投入时间、资料、试用机会，甚至费用。
 **【通用行业诊断表】**
 **【AI 小产品验证 SOP】**
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_55dfacf0b766a1752a51a1a2b089d8fc_29_0.png>
+![](img/zhuanqian_55dfacf0b766a1752a51a1a2b089d8fc_29_0.png)
 ### 第一步：从你能触达的领域开始
 优先选择你有接触渠道的赛道，而不是只看市场规模。以下条件满足任意一项即可：
 - 你本身就在其中工作；
@@ -345,7 +345,7 @@ Token 要变成业务结果，中间必须经过组织方式。
 准备服务的人群：美容院经营者、店面负责人
 收入来源：项目购买、储值转化、后续复购、老顾客维护
 主要损失：员工不会沟通、顾客流失、过程无法追踪、潜在成交被忽略
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_55dfacf0b766a1752a51a1a2b089d8fc_30_0.png>
+![](img/zhuanqian_55dfacf0b766a1752a51a1a2b089d8fc_30_0.png)
 ### 第二步：列出二十个可观察的工作行为
 暂时不要讨论产品，也不要急着想功能，只把从获客到成交、交付和维护过程中反复发生的行为写出来。
 表格可用以下字段：
@@ -401,7 +401,7 @@ Token 要变成业务结果，中间必须经过组织方式。
 首轮只处理：【限定为一个清晰问题】
 资料形式：【文字 / 语音转写 / 图片 / 表格】
 返回形式：【分析结果 / 沟通建议 / 检查清单 / 评分 / 待办】
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_55dfacf0b766a1752a51a1a2b089d8fc_34_0.png>
+![](img/zhuanqian_55dfacf0b766a1752a51a1a2b089d8fc_34_0.png)
 暂不纳入：【账号、支付、权限、多角色、复杂后台】
 请先不要编程，先完成以下工作：
 1. 判断描述是否已经足够明确；

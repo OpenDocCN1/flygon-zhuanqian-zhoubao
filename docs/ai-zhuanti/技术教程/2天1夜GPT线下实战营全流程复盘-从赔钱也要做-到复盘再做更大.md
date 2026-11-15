@@ -23,20 +23,20 @@
 优化3：补齐线上引流课
 优化4：做内容切片投放
 大家好，我是乔帮主。11月25日至26日，我办了一场两天一夜的ChatGPT线下实战营，单价1980，最终来了30人，营收五六万。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_92e5f2a582106c4de9967066caedb4a0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_67f0e9311dbce589937b7f4128265d87.png>
+![](img/zhuanqian_92e5f2a582106c4de9967066caedb4a0.png)
+![](img/zhuanqian_67f0e9311dbce589937b7f4128265d87.png)
 现场交付和体验远超预期，原本只安排两天一夜的实战，学员热情太高直接延续到两天两夜。现在第二期正在筹备中，今天把整场复盘掰开讲，希望能给想做线下的人一些参考。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_59dee846ae131c545cea05b9a41558f9.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_110cde100efb06d6dc8e09d9bfdac235.png>
+![](img/zhuanqian_59dee846ae131c545cea05b9a41558f9.png)
+![](img/zhuanqian_110cde100efb06d6dc8e09d9bfdac235.png)
 # 1、为什么即便前期亏本也要做线下课？
 做线下，尤其是前期影响力不足时，招募往往不理想。算完场地、物料、人力，一场下来大概率是亏的。
 而且线下课极其耗人，从宣发到备课到布场到上台，忙完一轮人直接空了。
 即便如此，我依然认为前期要做，目的很清晰：
 ## 目的1：品牌势能背书
 线下海报、现场照片、宣传短视频、学员评价，这些都是顶级的信任素材。我办一次线下，核心目的之一就是为了生产这些素材。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bf9b167d1e8bb854282f37917d32397a.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9b96b1ae8de3dfb8549b79abd31b15dd.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2ed05e59e5611785ffc061b4552f785d.png>
+![](img/zhuanqian_bf9b167d1e8bb854282f37917d32397a.png)
+![](img/zhuanqian_9b96b1ae8de3dfb8549b79abd31b15dd.png)
+![](img/zhuanqian_2ed05e59e5611785ffc061b4552f785d.png)
 把这些素材沉淀到私域朋友圈、公众号、视频号，等于给IP和品牌做了最硬的背书。后续客户看到这些，成交信任感会大幅提升，这就是门面，也是实力证明。
 知识付费被说成割韭菜，根因是交付多用线上录播。录播质量参差不齐，学员问题解决不了，体验差自然被骂。
 线下不一样，面对面，手把手，服务标准和现场氛围感拉满，学员对品牌的忠诚度会快速建立。忠实用户会复购，也会带来口碑裂变，对势能积累作用极大。
@@ -69,8 +69,8 @@
 也在小红书、抖音搜“培训会议室”，普遍1000-2000/天，性价比不错。
 最后通过公司办公室资源，拿到了楼下银行的免费培训室，环境好还省钱，典型的资源差优势。
 额外加分点：会议室自带超大高清液晶显示屏，拍照拍视频效果极佳。学员合影直接用显示屏当背景，效果堪比定制海报。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_db419dd88c8d2290ecdfbbe3b97a0fcc.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8a8947cbdd9154f44cbff43ab82e586e.png>
+![](img/zhuanqian_db419dd88c8d2290ecdfbbe3b97a0fcc.png)
+![](img/zhuanqian_8a8947cbdd9154f44cbff43ab82e586e.png)
 # 3、做线下课的四个步骤？
 ## 步骤1：先海报招募，后做课
 我以前习惯先做产品再卖，开发完了没人买，白忙活。
@@ -119,4 +119,4 @@
 往期干货合集：
 微信：qiaobangzhu-cn，欢迎交流！
 公众号：乔帮主的AI江湖
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d652814f5f1594c072672c7712a906e7.png>
+![](img/zhuanqian_d652814f5f1594c072672c7712a906e7.png)

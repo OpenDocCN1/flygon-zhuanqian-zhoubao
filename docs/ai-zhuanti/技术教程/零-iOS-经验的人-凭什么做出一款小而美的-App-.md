@@ -5,14 +5,14 @@
 上个月我第一次碰 iOS 开发，用了两天时间折腾，结果全是 bug，AI 生成的代码我也看不懂，最后只能放弃。
 我本身是程序员，但从没写过 iOS，可以类比成一个粤菜厨师忽然要去做川菜，锅碗瓢盆都一样，用起来却一头雾水。
 而后面我只用 5 天左右，含工作日，实际投入更少，就做出了一款功能还算完整的 App：多日期记录、倒计时、事件时间线、待办清单、小组件、iCloud 同步等。我觉得这已经算得上一个小而美的产品了。所以答案是，可以。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_32f11538437f6e43c48ea12603333390.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fe28cac091b9428683a8bc85c2d3ad86.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_770f77ef1459a0e6ee21b8944b05d014.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b54be0c9a0041a169f63075ea587883a.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c0dd28b2210eabaf1fae90460beaa94d.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_950efdb568f062a4bed50a65b4551f7b.png>
+![](img/zhuanqian_32f11538437f6e43c48ea12603333390.png)
+![](img/zhuanqian_fe28cac091b9428683a8bc85c2d3ad86.png)
+![](img/zhuanqian_770f77ef1459a0e6ee21b8944b05d014.png)
+![](img/zhuanqian_b54be0c9a0041a169f63075ea587883a.png)
+![](img/zhuanqian_c0dd28b2210eabaf1fae90460beaa94d.png)
+![](img/zhuanqian_950efdb568f062a4bed50a65b4551f7b.png)
 App 现在已经上架 App Store，有兴趣的朋友可以试试，我把它叫做「记痕」。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1b2cc2aec0fe238ed8c1124a39647dcb.png>
+![](img/zhuanqian_1b2cc2aec0fe238ed8c1124a39647dcb.png)
 那中间隔了这么久，我到底在忙什么呢？
 ## 反思
 第一次失败后，我复盘了两个核心问题：
@@ -28,30 +28,30 @@ App 现在已经上架 App Store，有兴趣的朋友可以试试，我把它叫
 本文重点在记录我和 AI 的沟通方式，非关键操作就省略了。掌握了交互技巧，你也能借助 AI 把事情搞定。
 ### 入门上手
 先装好 Xcode，然后新建一个项目。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5f52638f4a5f02653a8add474ded1622.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4c15d7695d892916afe14a19b75a0238.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c92cddc4c9289cc65b8900052bf23f7a.png>
+![](img/zhuanqian_5f52638f4a5f02653a8add474ded1622.png)
+![](img/zhuanqian_4c15d7695d892916afe14a19b75a0238.png)
+![](img/zhuanqian_c92cddc4c9289cc65b8900052bf23f7a.png)
 我随便起了个名字叫 study，期间看到了一些可选配置，但不知道具体作用，比如
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b6bc61c74d06633d2e8aadc07f66de00.png>
+![](img/zhuanqian_b6bc61c74d06633d2e8aadc07f66de00.png)
 于是我截图放到 Cursor 里提问。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_838674db4d6821b28bd5fc12f0f8f50b.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f3acd2cf072bfb578e3e8349601888a9.png>
+![](img/zhuanqian_838674db4d6821b28bd5fc12f0f8f50b.png)
+![](img/zhuanqian_f3acd2cf072bfb578e3e8349601888a9.png)
 有兴趣可以继续追问，文中大部分问题我都深入问了。
 创建完后就进入了这个界面
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_eac8ceb4462bd15bcc73b23e1ca03c07.png>
+![](img/zhuanqian_eac8ceb4462bd15bcc73b23e1ca03c07.png)
 我对这里也完全陌生，所以
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9fa515f7210ca563b6e4343a9ae9eb80.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c8b1f9c6d76a7d8c3b63b58cd68db1fc.png>
+![](img/zhuanqian_9fa515f7210ca563b6e4343a9ae9eb80.png)
+![](img/zhuanqian_c8b1f9c6d76a7d8c3b63b58cd68db1fc.png)
 AI 告诉我可以直接拖拽控件实时预览，我觉得很神奇！
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d0acdcf93dd1a77ea2d60fd259068d18.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9394f92ef36b102c1e01acb8c05dbd50.png>
+![](img/zhuanqian_d0acdcf93dd1a77ea2d60fd259068d18.png)
+![](img/zhuanqian_9394f92ef36b102c1e01acb8c05dbd50.png)
 简单玩了一下，美感为零。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d5ebf3eeda0655d243ce57fe70687c64.png>
+![](img/zhuanqian_d5ebf3eeda0655d243ce57fe70687c64.png)
 把改动撤销，继续学。AI 还提到 Xcode 自带源代码管理，可以回滚代码。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_078c2834bd6136a536905b6451163a09.png>
+![](img/zhuanqian_078c2834bd6136a536905b6451163a09.png)
 没 AI 辅助太难受了，于是 Cursor 启动！
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7b28fca9a4c41eac3e2e57ff73d18872.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a4550116aaedb1b0516fd8a3644aa3c6.png>
+![](img/zhuanqian_7b28fca9a4c41eac3e2e57ff73d18872.png)
+![](img/zhuanqian_a4550116aaedb1b0516fd8a3644aa3c6.png)
 这里我又追问了它提到的专业术语，每一行代码、每个关键词的作用。
 ### 在 Cursor 上开发 iOS
 既然主战场在 AI 编程，工具就要配好。
@@ -61,7 +61,7 @@ Swift 提供语言基础支持，CodeLLDB 提供调试能力。
 2. 安装 SweetPad 插件
 用于在编辑器里做代码格式化、调试等配置。
 装完后可能会出现编译报错，如图
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_63774859c41e3132e865691a96d355ee.png>
+![](img/zhuanqian_63774859c41e3132e865691a96d355ee.png)
 解决办法：
 安装 xcode-build-server
 ```
@@ -74,9 +74,9 @@ xcode-build-server config -project study.xcodeproj -scheme study
 study 是我的项目名，请换成自己的。
 如何使用 SweetPod？
 在 Cursor 左侧把插件钉选到布局里，方便调用
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ea601403e75447bf2781c780867db8b3.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fa6961b4b473d2b3c65e4db3ece0d92f.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4a820d2bde0188bd0882c1245698f4a2.png>
+![](img/zhuanqian_ea601403e75447bf2781c780867db8b3.png)
+![](img/zhuanqian_fa6961b4b473d2b3c65e4db3ece0d92f.png)
+![](img/zhuanqian_4a820d2bde0188bd0882c1245698f4a2.png)
 运行后选择设备，稍等片刻即可启动。
 #### 代码格式化
 ```
@@ -84,7 +84,7 @@ brew install swift-format
 ```
 打开 Cursor 的 settings.json。
 快捷键 command + shift + p，输入“打开用户设置”
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bfa645c571ffafe5c05ced62a489d1fb.png>
+![](img/zhuanqian_bfa645c571ffafe5c05ced62a489d1fb.png)
 添加配置
 ```
 "[swift]": {
@@ -98,20 +98,20 @@ brew install swift-format
 效果如下
 设置步骤：
 1、打开 App Store，搜索安装 InjectionIII
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_27c35c8e3f232e440017b906d4f48b15.png>
+![](img/zhuanqian_27c35c8e3f232e440017b906d4f48b15.png)
 2、选择自己的项目
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6c928c9fad2df4b39d95d2a3a37606fe.png>
+![](img/zhuanqian_6c928c9fad2df4b39d95d2a3a37606fe.png)
 3、点击 Prepare Project 按钮
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ac8ca81fb15a8515a815b106ff3153a8.png>
+![](img/zhuanqian_ac8ca81fb15a8515a815b106ff3153a8.png)
 4、在 Xcode 打开项目对应 Target 的设置 -> Build Settings -> 搜索 Other Linker Flags，分别加入 -Xlinker 和 -interposable
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_051e67aafb5df5440fc620429dd2b41b.png>
+![](img/zhuanqian_051e67aafb5df5440fc620429dd2b41b.png)
 从此可以在 Cursor 上自由开发 iOS 了~
 Xcode 是什么？不熟，不认识，请离我远点，免得 Cursor 误会~
 ### 以案例驱动学习
 我一直遵循守破离的原则，不懂的时候就跟着老师学。
 所以我让 AI 出了一份学习计划，先建立基础知识体系，能看懂“老婆”在厨房到底在折腾什么。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_112fa77a54ff19562c41cac1c593c868.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_563b285c4faf6ce1598dd78d917aeaf5.png>
+![](img/zhuanqian_112fa77a54ff19562c41cac1c593c868.png)
+![](img/zhuanqian_563b285c4faf6ce1598dd78d917aeaf5.png)
 然后让它把方案写入 .cursorrules 文件
 这是产出的学习方案，供参考，我觉得挺好用
 ```
@@ -265,60 +265,60 @@ Task Master是一个功能完整的待办事项管理应用。通过逐步实现
 新手用 AI 编程最痛的点是：功能写出来了，却不知道代码在哪，迭代或修 bug 时无从下手，只能让 AI 盲找，极其痛苦。
 所以一开始就要把项目结构理清楚，不能随意堆代码。
 iOS App 的最佳实践是什么？我也不清楚，继续请 AI 老师。过程中有疑问就问。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_af7ae36e0021290d6898126737f6283f.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cecb65f8fb4569f36f95f3446c9fa0ea.png>
+![](img/zhuanqian_af7ae36e0021290d6898126737f6283f.png)
+![](img/zhuanqian_cecb65f8fb4569f36f95f3446c9fa0ea.png)
 发现一个矛盾：AI 推荐的结构和 Xcode 新建的项目不一致。
 考虑到 AI 语料可能偏旧，我在 GitHub 上找了最新的 iOS App 目录结构，找到了一个匹配的案例。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_05e2daa6aa99ec16efd9fdf23c06947c.png>
+![](img/zhuanqian_05e2daa6aa99ec16efd9fdf23c06947c.png)
 该开源项目与最新 Xcode 创建的项目完全一致，我只需按此结构开发即可。
 我注意到项目命名都是大写开头，于是重新建了一个叫 TaskMaster 的项目
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ac7b73b45a79291da239d342cb178d27.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b98743ff91a96d2b0086ea3db70244dc.png>
+![](img/zhuanqian_ac7b73b45a79291da239d342cb178d27.png)
+![](img/zhuanqian_b98743ff91a96d2b0086ea3db70244dc.png)
 ### 逐步实现 App 功能
 接下来就按 AI 规划的阶段，一步步完成功能并同步学习。
 #### 第一阶段
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_71eb76d21fd2dcaa17abd79575ade6f2.png>
+![](img/zhuanqian_71eb76d21fd2dcaa17abd79575ade6f2.png)
 AI 写完后先跑一下看效果
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ecc5220ee1403bd341141a19ff21aa25.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0eac890daa749943fabe1b8c05a3dbeb.png>
+![](img/zhuanqian_ecc5220ee1403bd341141a19ff21aa25.png)
+![](img/zhuanqian_0eac890daa749943fabe1b8c05a3dbeb.png)
 界面并不好看，但功能是能用的。不在意外观，我的目标是学会看懂 iOS 编程，这样才不会被 AI 玩弄。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d30a9592c60030b33f8c81478800985c.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_16fcf3a71fabd55d5dfb22da52ef3865.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_733d12ea1195996b918e6266e1cc9e7b.png>
+![](img/zhuanqian_d30a9592c60030b33f8c81478800985c.png)
+![](img/zhuanqian_16fcf3a71fabd55d5dfb22da52ef3865.png)
+![](img/zhuanqian_733d12ea1195996b918e6266e1cc9e7b.png)
 我突然想到，学完的知识点过段时间可能就忘了，可以让 AI 总结成文章变成知识库。
 好的，我现在理解了这一部分，谢谢你的讲解，请帮我把这些知识点整理成 markdown 格式的笔记，保存到 @iosDoc 目录下
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_36e9aa32d98885b9f3f8f8e7f74cc182.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a1999457e0a41a13757d7c96d85df338.png>
+![](img/zhuanqian_36e9aa32d98885b9f3f8f8e7f74cc182.png)
+![](img/zhuanqian_a1999457e0a41a13757d7c96d85df338.png)
 第一阶段的代码我断断续续花了好几天才理清，并让 AI 生成了多篇文档。进度因人而异，后面实践发现，其实没必要学得那么细，核心是能看懂厨师在做什么，不必真下厨。至于能不能看懂，自己心里有数即可。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2f6f650501a1f295871e36dccce4b7d7.png>
+![](img/zhuanqian_2f6f650501a1f295871e36dccce4b7d7.png)
 学习深度看个人，我喜欢搞懂，所以花了比较久。
 如果你只想知道功能在哪、AI 在做什么，大可不必像我这样钻。
 #### 第二阶段
 现在开始完成第二阶段的任务详情与编辑功能，请严格按照项目文件结构和 Swift 规范来写代码。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0ecabfd85c61bba13a122830e8396275.png>
+![](img/zhuanqian_0ecabfd85c61bba13a122830e8396275.png)
 我以为第一阶段的经验能让我如鱼得水，结果 AI 老师给我狠狠上了一课 ┭┮﹏┭┮
 以上是第二环节的学习记录，耗时约一天。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_61c80cb268b1f74a02567ab3c8447264.png>
+![](img/zhuanqian_61c80cb268b1f74a02567ab3c8447264.png)
 #### 第三环节
 接下来推进分类及筛选。请依照项目目录组织和 Swift 编码规范来写；动手前先熟悉工程现状，别做冗余事务。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_03b81531ebc8339258001002b7f80389.png>
+![](img/zhuanqian_03b81531ebc8339258001002b7f80389.png)
 这一环节需要吸收的新知识变少，重心放在回顾前两环的掌握情况，顺带抠出不少细节。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e37aeecf1fe05c1bd8fe7335646043f3.png>
+![](img/zhuanqian_e37aeecf1fe05c1bd8fe7335646043f3.png)
 #### 第四环节
 随后是提醒和通知。仍须按项目目录组织与 Swift 编码规范操作，开工前先检查工程现状，别重复劳动。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_db27d9b4b402ca609b5d23d5b09c3260.png>
+![](img/zhuanqian_db27d9b4b402ca609b5d23d5b09c3260.png)
 此环节本身不难，只是多出个“设置提醒”按钮。真正的要点在于学会把事件抛给 iOS，生成通知，并在用户点击通知后跳回对应任务的详细页。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ad2dfff71cdacf34ea24217acba61b27.png>
+![](img/zhuanqian_ad2dfff71cdacf34ea24217acba61b27.png)
 #### 第五环节
 再往下是统计以及分析。同样按项目目录组织和 Swift 编码规范实施，开始前先查看当前工程状况，不做无用功。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9a1ec58b6a34d7889efa6b164d421c53.png>
+![](img/zhuanqian_9a1ec58b6a34d7889efa6b164d421c53.png)
 这一环主要学习图表的呈现方式以及如何把数据导出去。整个模块跑通并调试完毕，我认为自己的知识储备已经足够，也建起了基础体系，意味着这项学习收官。日后做应用碰到新知识点，再随时补充。
 放几张效果图：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_980d3cac80fb75f86e11a54d1a079fde.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_148f3091e6515e5010e0ec2734b76833.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_605bcf6dfac7c3fd7f73217c5cc4704f.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_edc9141d8a98c94dbb8f19e33e8cb4cc.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5fe02f4d267ca958aae64f4d66b9c58d.png>
+![](img/zhuanqian_980d3cac80fb75f86e11a54d1a079fde.png)
+![](img/zhuanqian_148f3091e6515e5010e0ec2734b76833.png)
+![](img/zhuanqian_605bcf6dfac7c3fd7f73217c5cc4704f.png)
+![](img/zhuanqian_edc9141d8a98c94dbb8f19e33e8cb4cc.png)
+![](img/zhuanqian_5fe02f4d267ca958aae64f4d66b9c58d.png)
 ### 阶段性观察
 整个流程里，我还在留意一件事：工程变复杂后，AI还能不能稳住。
 结论是：瑕疵依旧会有，但比之前少多了。绝大多数问题它能自行修复；存在少数特别极端的状况让它卡过壳，我们反复沟通后，由于我已经能瞧明白它在忙什么，于是锁定了问题点，让它顺利解决。
@@ -346,14 +346,14 @@ AI 写完后先跑一下看效果
 请按照以上要求生成完整的代码，并添加必要的注释说明界面逻辑和交互设计考虑。
 ```
 效果：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c5c6ce82949a67560d94aa0e443a440e.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d0c9cea26e8d6c55e2808b39f2f106c3.png>
+![](img/zhuanqian_c5c6ce82949a67560d94aa0e443a440e.png)
+![](img/zhuanqian_d0c9cea26e8d6c55e2808b39f2f106c3.png)
 做这一步的意义，在于先把整套设想完整过一遍，把所有细节调到满意后再写功能。之前学习期做的待办事项工具又丑又乱，根源是没有提前规划，随性而做。
 最初感觉视觉风格不佳，让它调整。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1889233ee654810670830ed1cac2c577.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_daafcd80928be66122f17703d0d90cc6.png>
+![](img/zhuanqian_1889233ee654810670830ed1cac2c577.png)
+![](img/zhuanqian_daafcd80928be66122f17703d0d90cc6.png)
 接着感觉交互不太顺畅，再让它重排。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1c2a91ea774104bcea35d62fda4fbf3f.png>
+![](img/zhuanqian_1c2a91ea774104bcea35d62fda4fbf3f.png)
 大约用了两小时，整体方案终于达到我认可的程度。
 这时候其实就能拿成品去内容社区试水，看市场反馈。
 ### 产出技术文档
@@ -432,21 +432,21 @@ AI 写完后先跑一下看效果
 上述准备完成后，用 Xcode 建工程，再用 Cursor 开启。之前提过的项目配置、动态加载等步骤别忘了。
 #### 放置规则文件
 将配置好的说明文件放进 .cursor/rules 目录。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_248e1fc467c310a159b7be0c9fefe930.png>
+![](img/zhuanqian_248e1fc467c310a159b7be0c9fefe930.png)
 #### 第一环
 截取主页视图，附上指令：
 请开始第一环：主页视图（HomeView）构建。严格依照项目目录结构与 Swift 编码规范来写，开工前先检查工程现状，别做多余重复操作。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4af285fa817756714862c4e702dbc14b.png>
+![](img/zhuanqian_4af285fa817756714862c4e702dbc14b.png)
 还原效果和原型几乎一致。左为成品，右为设计稿。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_87223c3401c70d0afc6c9e3f469dd185.png>
+![](img/zhuanqian_87223c3401c70d0afc6c9e3f469dd185.png)
 #### 第二环
 请开始第二环：日期新增页（AddDateView）构建。严格依照项目目录结构与 Swift 编码规范来写，开工前先检查工程现状，别做多余重复操作。
 另外我发现工程里已经存在日期新增页面，但它和设计稿对不上，请把它调成一致。（按实际状况微调指令）
 下面是对比效果。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8b0875dcf258412e97ed0ac80830d5bd.png>
+![](img/zhuanqian_8b0875dcf258412e97ed0ac80830d5bd.png)
 #### 第三环
 请开始第三环：日期明细页（DateDetailView）构建。严格依照项目目录结构与 Swift 编码规范来写，开工前先检查工程现状，别做多余重复操作。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_94d30a182cac9e3edaa79e869f7187fa.png>
+![](img/zhuanqian_94d30a182cac9e3edaa79e869f7187fa.png)
 后面的环节就不逐一展示了，做法大同小异。
 ### 阶段小结
 这段时间最大的坑是桌面组件。
@@ -454,36 +454,36 @@ AI 写完后先跑一下看效果
 ## 上架发布
 ### 应用图标
 图标能用智能工具来做，路径任选：Claude 画 SVG，或者用绘图模型生成同样可行。最终输出一张1024x1024的图片，放入 AppIcon 这个文件夹里。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4471960ed65fc9418706564d92a668ba.png>
+![](img/zhuanqian_4471960ed65fc9418706564d92a668ba.png)
 ### 修改名称
 工程原名是英文，若上架想显示中文，就需要改一处配置。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1217ef7b4a44c7bbe9d7f5106c39b667.png>
+![](img/zhuanqian_1217ef7b4a44c7bbe9d7f5106c39b667.png)
 version 字段在这里，每次发版都记得更新它。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_186b1c0e7f3662acfe9590e806347475.png>
+![](img/zhuanqian_186b1c0e7f3662acfe9590e806347475.png)
 ### 提交到 App Store Connect
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_03b1ddc5f8cb7fb3865d48551158d016.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0e0996fdf46a90fd49042285fa1b37ef.png>
+![](img/zhuanqian_03b1ddc5f8cb7fb3865d48551158d016.png)
+![](img/zhuanqian_0e0996fdf46a90fd49042285fa1b37ef.png)
 ### 隐私与支持
 包传完后，到网页端访问 App Store Connect。
 主要板块按自身状况填写就行，记不全问题不大，提交时系统会提示缺什么。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6dace4773e99c2280d5d6334e5326879.png>
+![](img/zhuanqian_6dace4773e99c2280d5d6334e5326879.png)
 资料都很直白，照自身情况填。
 其中有处要填两类链接，即隐私说明页和客服联系页。我直接用飞书写好，设为所有人可访问，隐私说明就是这么处理的；客服联系也沿用同法。
 ### 商店截图
 商店截图要么靠工具生成，要么直接手机截图。
 装个轻量工具就能搞定。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8af32f97b8e1d5e289be8981bafdfc13.png>
+![](img/zhuanqian_8af32f97b8e1d5e289be8981bafdfc13.png)
 最终成品如下。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a58610d26b8cb4cd0bcd7ca63ee18835.png>
+![](img/zhuanqian_a58610d26b8cb4cd0bcd7ca63ee18835.png)
 ### 价格设置
 价格在同一页面设定，填好后再去商户后台更新收款账户信息。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_29d3d614044d50c87288e1ea3ea76826.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_44e2b2721beee4e9d8a54f8675a6680a.png>
+![](img/zhuanqian_29d3d614044d50c87288e1ea3ea76826.png)
+![](img/zhuanqian_44e2b2721beee4e9d8a54f8675a6680a.png)
 这里有个小坑：填写 CNAPS 代码时，银行资料只能填英文。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3b61e7d093eb652775ac43ea44ae1720.png>
+![](img/zhuanqian_3b61e7d093eb652775ac43ea44ae1720.png)
 以我为例，持招行卡，就上网搜它的英文名称。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3210c50b0ec7ef1ecfb1bbcc9909e207.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bc238a1fed35e7c3f9114a00afc1aebb.png>
+![](img/zhuanqian_3210c50b0ec7ef1ecfb1bbcc9909e207.png)
+![](img/zhuanqian_bc238a1fed35e7c3f9114a00afc1aebb.png)
 其他步骤大致如此，剩下的你应该能搞定，或者让AI代劳。
 ## 最后
 全部学完大约花了半个月，而且我还在上班。假如你天天在学，又没我那么钻牛角尖，相信所需时间会少得多。

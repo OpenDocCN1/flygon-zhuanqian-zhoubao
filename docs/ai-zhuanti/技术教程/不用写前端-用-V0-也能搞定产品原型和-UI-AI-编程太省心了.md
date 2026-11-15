@@ -1,6 +1,6 @@
 # 不用写前端，用 V0 也能搞定产品原型和 UI，AI 编程太省心了
 事情的起因特别简单：刷 X 的时候刷到一条帖子，有位老哥直接用 Cursor + Claude 3.7 就干出了一个 App 的原型图和整套 UI，看得我心痒痒。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_68c736611ea784e2f2c2f05240c2412c.png>
+![](img/zhuanqian_68c736611ea784e2f2c2f05240c2412c.png)
 心想这事儿我也能试试啊，于是转头就拿 V0 来验一验。我准备的提示词是这样的：
 ```
 我想开发一个ai算命的app，现在需要输出原型图，请通过以下方式帮我完成app所有原型图片的设计。
@@ -11,11 +11,11 @@
 5、可以使用tailwindcss cdn 样式
 ```
 工具嘛，用的就是 Vercel 家的 v0，打开网页就能开工：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_48fd5a6cfe8782f38630411d69d56157.png>
+![](img/zhuanqian_48fd5a6cfe8782f38630411d69d56157.png)
 把提示词丢进去，敲下回车，然后就盯着屏幕等它慢慢把原型画出来。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d91802f0ca7388a5b175db49a9d94f67.png>
+![](img/zhuanqian_d91802f0ca7388a5b175db49a9d94f67.png)
 出来的成品确实没让人失望，页面质感在线，交互流转也做得顺滑自然。
 不过嘛，后来我又连着试了好几轮，发现大多数情况下生成的都是单页，不像头一回那样把所有页面整整齐齐地摊在同一屏里展示。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4678e84db33f8cff7cea3c5b20d5c056.png>
+![](img/zhuanqian_4678e84db33f8cff7cea3c5b20d5c056.png)
 但转念一想，单页好像也够用了。
 反正工具就在那儿，感兴趣的话，强烈建议你亲自上手鼓捣一下。

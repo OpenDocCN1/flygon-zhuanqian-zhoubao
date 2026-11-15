@@ -5,4 +5,4 @@ AI创业的风口很大，但能真正飞起来的团队很少。产品怎么打
 正文没有放星球，而是发在了公众号上。想看的圈友可以直接点下面的链接阅读，相信会有启发。
 另外，他还把过去整理的运营工具、技术赚钱实践指南、私域引流方法等精选内容，连同往期干货合集一起放在原文里，需要的话可以顺手收藏。
 公众号原文：[`mp.weixin.qq.com/s/Su3lvQIgTIVOXNlVicN44A`](https://mp.weixin.qq.com/s/Su3lvQIgTIVOXNlVicN44A)
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_21de372a77ea1f441c613f7316831ae1.png>
+![](img/zhuanqian_21de372a77ea1f441c613f7316831ae1.png)

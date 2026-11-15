@@ -1,6 +1,6 @@
 # 从零入坑冷门赛道到首单落地：我用 AI Skill 把小红书获客打磨成 SOP 的全链路复盘
 **260515 副业 SC 精华**
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9b89d833347640c11543757682f4b54e_0_0.png>
+![](img/zhuanqian_9b89d833347640c11543757682f4b54e_0_0.png)
 ## 前言
 大家好，我是龙哥，目前还在自由职业的摸索期。
 这是我第一次把这段经历整理成帖，想聊聊最近尝试做获客时，AI 在提效上给我的具体帮助。
@@ -51,19 +51,19 @@
 我注册了一个小红书小号，搜留学、博士相关词，翻近半年有数据的笔记。
 很快发现一个规律。官号、机构号、明显投放的笔记，基本都有“广告”标识。
 而很多营销感强的笔记，点赞收藏很高，评论却很少，而且评论区都是“太专业了”“要价格”“怎么咨询”这种一眼水军的回复。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9b89d833347640c11543757682f4b54e_6_0.png>
+![](img/zhuanqian_9b89d833347640c11543757682f4b54e_6_0.png)
 港大博一在读全奖 PhD 给 27fall 的申请建议历史总是...
 Captain
 04-23
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9b89d833347640c11543757682f4b54e_6_1.png>
+![](img/zhuanqian_9b89d833347640c11543757682f4b54e_6_1.png)
 穷鬼如何完全靠自己出国留学 (一) 很多女孩子和我一样觉...
 屿小屿
 03-30
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9b89d833347640c11543757682f4b54e_6_2.png>
+![](img/zhuanqian_9b89d833347640c11543757682f4b54e_6_2.png)
 如果以下无法接受，就不要考虑来香港读博大部分人想来...
 是之之
 04-07
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9b89d833347640c11543757682f4b54e_6_3.png>
+![](img/zhuanqian_9b89d833347640c11543757682f4b54e_6_3.png)
 27fall 海外申博中介就应该找明码标价的✅1v1 的同专业...
 Coco 学姐海外博...
 04-17
@@ -75,19 +75,19 @@ Coco 学姐海外博...
 地点
 群
 问一问
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9b89d833347640c11543757682f4b54e_6_0.png>
+![](img/zhuanqian_9b89d833347640c11543757682f4b54e_6_0.png)
 港大博一在读全奖 PhD 给 27fall 的申请建议历史总是...
 Captain
 04-23
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9b89d833347640c11543757682f4b54e_6_1.png>
+![](img/zhuanqian_9b89d833347640c11543757682f4b54e_6_1.png)
 穷鬼如何完全靠自己出国留学 (一) 很多女孩子和我一样觉...
 屿小屿
 03-30
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9b89d833347640c11543757682f4b54e_6_2.png>
+![](img/zhuanqian_9b89d833347640c11543757682f4b54e_6_2.png)
 如果以下无法接受，就不要考虑来香港读博大部分人想来...
 是之之
 04-07
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9b89d833347640c11543757682f4b54e_6_3.png>
+![](img/zhuanqian_9b89d833347640c11543757682f4b54e_6_3.png)
 27fall 海外申博中介就应该找明码标价的✅1v1 的同专业...
 Coco 学姐海外博...
 04-17
@@ -128,18 +128,18 @@ REAL PhD 先知全...
 8 / 36
 ### 发现
 广州
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9b89d833347640c11543757682f4b54e_8_0.png>
+![](img/zhuanqian_9b89d833347640c11543757682f4b54e_8_0.png)
 ### 你们看到忍得住吗
 十六
 ### 你们一年要花费多少呀
 飞天猪猪仔
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9b89d833347640c11543757682f4b54e_8_1.png>
+![](img/zhuanqian_9b89d833347640c11543757682f4b54e_8_1.png)
 ### 住在养老院里的，摇滚青年
 一块碗布
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9b89d833347640c11543757682f4b54e_8_2.png>
+![](img/zhuanqian_9b89d833347640c11543757682f4b54e_8_2.png)
 ### 妈耶！原来这就是弯道超车的方法！
 尚岸研究生
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9b89d833347640c11543757682f4b54e_8_3.png>
+![](img/zhuanqian_9b89d833347640c11543757682f4b54e_8_3.png)
 ### 首页
 ### 市集
 +

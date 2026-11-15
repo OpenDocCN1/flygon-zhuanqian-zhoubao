@@ -33,24 +33,24 @@ ChatGPT已经帮我把一些以前想做却做不成的点子实现了。这次�
 这点在实战中特别关键。我们发现，如果需求描述不够清晰，ChatGPT很容易发散。比如没指定库，它可能换个库实现；没指定要抓取的DOM元素，它会按自己训练数据的经验猜测；没要求翻页间隔和休眠时间，它可能直接省略。最终代码就偏离预期。
 我分别让GPT-4o和GPT-4按上述提示词生成爬虫。初版代码都有点小瑕疵，但通过多轮对话修正后，都能正常抓到目标文章。整体来看GPT-4o的初版错误更少，显得更稳，但两者都能靠对话把问题闭环掉。如果需要对话记录可以联系易焘。
 拿到代码后，我用平时在用的UltraEdit粘贴保存，保存为 .py 文件，也可以用Notepad++、记事本等。随后打开Windows命令行窗口，在开始菜单搜索“cmd”，右键选择“以管理员身份运行”：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8a832a5c708f41eb81cb379f151dd957.png>
+![](img/zhuanqian_8a832a5c708f41eb81cb379f151dd957.png)
 切换到脚本所在目录：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b1db874a069531dea1e2ac41db8c1f2a.png>
+![](img/zhuanqian_b1db874a069531dea1e2ac41db8c1f2a.png)
 按ChatGPT给的指令运行：python xxx_crawler.py，把xxx_crawler.py换成你的文件名。
 执行时报了一个小错 “SyntaxError: Non-UTF-8 code starting ...”：
 意思是文件编码需要改成UTF-8，可用记事本打开后“另存为”时选择UTF-8编码保存；
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_687d67965c9b11b0ef607090705d58f2.png>
+![](img/zhuanqian_687d67965c9b11b0ef607090705d58f2.png)
 运行Python程序时，我并没有提前检查selenium和webdriver-manager是否已装，报错了再说。缺少这两个包会直接报错，把报错信息直接丢给ChatGPT，它就会给出安装命令：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1558dd2f5385c725c744ff5c67cc0fe1.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8ae7f7395274032e338c128568b3b517.png>
+![](img/zhuanqian_1558dd2f5385c725c744ff5c67cc0fe1.png)
+![](img/zhuanqian_8ae7f7395274032e338c128568b3b517.png)
 装webdriver-manager时出现“ERROR: Could not install packages due to an OSError ...”的报错，和ChatGPT沟通后得知是权限问题，需要以管理员身份运行CMD，所以打开命令行时务必右键选择“以管理员身份运行”，再执行安装命令：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_374011a8a0fbb8abaac6db7b76a02554.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bcf7fd6450aad211dd6d60cd27b68c73.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0ce3783a63df4140d182f1bf72f9d271.png>
+![](img/zhuanqian_374011a8a0fbb8abaac6db7b76a02554.png)
+![](img/zhuanqian_bcf7fd6450aad211dd6d60cd27b68c73.png)
+![](img/zhuanqian_0ce3783a63df4140d182f1bf72f9d271.png)
 GPT-4o和GPT-4给出的文章爬虫代码在指定抓取字段时，都犯了同一个错误：内容来源使用了'.//div[@class="s-p"]/a'，但搜狗搜索结果页实际并不存在这个节点。ChatGPT反馈“无法直接访问目标网站核实结构”，但给了调试思路，比如增加打印调试信息，以及用Chrome开发者工具手动查看真实DOM：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bc521c7cf34f3d36c622a207cec43fc3.png>
+![](img/zhuanqian_bc521c7cf34f3d36c622a207cec43fc3.png)
 最终把内容来源的XPath改成'.//div[@class="s-p"]/span[@class="all-time-y2"]'后问题解决，文章抓取成功：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2128fe30e1d69d1a07bb277a2a931459.png>
+![](img/zhuanqian_2128fe30e1d69d1a07bb277a2a931459.png)
 GPT-4o最终版的文章爬取代码如下：
 ```
 import time
@@ -127,7 +127,7 @@ print(f"数据已保存到 {file_name}")
 ```
 注：“某网站”换成站点名，目标网站换成具体图片搜索页链接。
 我用GPT-4o执行这次任务，过程非常顺畅，没有卡点，最终顺利抓取到该站搜索结果中的图片。为了阅读方便，完整的ChatGPT对话记录放在文末附录。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e6b340eb634e8a5045b42aa46d7dd5c2.png>
+![](img/zhuanqian_e6b340eb634e8a5045b42aa46d7dd5c2.png)
 GPT-4o最终版的图片爬取代码如下：
 ```
 import os
@@ -203,10 +203,10 @@ print("Finished downloading images.")
 ```
 这里需要把“某电商网站”替换成真实网站名，目标链接也换成实际网页地址。
 第一次运行时，程序就撞上了爬虫最常见的坎——网页验证码：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e6c31c75990b03766b322c658e343046.png>
+![](img/zhuanqian_e6c31c75990b03766b322c658e343046.png)
 这个好办，重新调整提示词，在“打开目标网站”后面加上一句：“如果出现网页校验码，先等待人工输入，直到页面出现搜索输入框，再继续下一步。”你不想改提示词也行，直接跟ChatGPT对话，让它在你已经写好的代码里加这个步骤。
 过了验证码这关，后面还有小毛病，比如排序按钮点不到、折扣价格少了小数点。这些都不是大问题，借助谷歌浏览器的开发者工具，把页面上真实的元素结构和数据情况告诉ChatGPT，让它按实际来改，最终跑通了一个能用的电商产品爬虫：（完整的对话记录放在文末附录）
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6ded055df0cc3bb4cc51ee37d0c03092.png>
+![](img/zhuanqian_6ded055df0cc3bb4cc51ee37d0c03092.png)
 抓取电商产品的最终代码长这样：
 ```
 import time
@@ -329,16 +329,16 @@ main()
 记得把“某网站”和“目标网站”替换成真实的名称和链接。
 然后就是连环坑。
 第一个大坑：反自动化检测。我让ChatGPT尝试了手动登录、模拟真人操作、无头浏览器，结果全都被识别出来了：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_af91adbf33fb6ef8bfa444b64f25ac46.png>
+![](img/zhuanqian_af91adbf33fb6ef8bfa444b64f25ac46.png)
 折腾到最后，ChatGPT给了一个方案“Puppeteer + Puppeteer-Stealth”，总算绕过了检测：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1c3967ad44c4297f2f2796e53030dbf4.png>
+![](img/zhuanqian_1c3967ad44c4297f2f2796e53030dbf4.png)
 紧接着是登录。登录前后需要识别特定元素，好让程序判断要不要继续往下走。这个靠查看登录按钮的元素就解决了。
 再往后，搜索完了点不到“图文”选项，又是打开开发者窗口，找到对应元素让ChatGPT改。
 还有一次，笔记数据抓出来是空的。我通过开发者窗口查看笔记元素，把元素的Html代码直接发给ChatGPT分析，让它修正选择器，这才解决。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_aca45f912cd0ff83432f029948232085.png>
+![](img/zhuanqian_aca45f912cd0ff83432f029948232085.png)
 最后一个问题，是向下滚动页面加载更多笔记，而且保存的数据不能重复。ChatGPT在代码里加了个 `seen_ids = set()`，每保存一条笔记就把它的id存进去，下一次处理的时候先查一遍，这样就不会重复了。但滚动的程序一开始没生效，我凭着自己平时刷网页的经验，让ChatGPT在滚动之前先把鼠标移到笔记区域，让滚动事件能作用到页面上，这才跑通。最终按预设数量抓了200条笔记存了下来：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a08cbf65c73b355cc069891cc745b5d8.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3408c1c36714eafa98d781956ba7c46c.png>
+![](img/zhuanqian_a08cbf65c73b355cc069891cc745b5d8.png)
+![](img/zhuanqian_3408c1c36714eafa98d781956ba7c46c.png)
 最后提醒一句：上面写到的最终代码里，“某网站”和“目标网站”这两个地方，用的时候要改成真实的网站名和网页链接。
 ```
 import asyncio
@@ -425,7 +425,7 @@ asyncio.run(main())
 通常直接让ChatGPT从零写爬虫，它虽然见过很多方案，却未必会优先选用“Puppeteer + Puppeteer-Stealth”。这一次，我换了个打法：先让它完整学习我已亲测可用的、用于爬取某网站笔记的爬虫程序，再基于这份代码去生成一个爬取某问答网站的抓取工具。
 步骤很简单。
 先沿用土豆君的方法，打开目标页面，用Chrome开发者工具圈定需要抓取的内容区间，右键选中对应HTML节点，复制其元素代码。提醒一下，复制时如果还需要模型识别其他菜单或按钮，比如这里的“热榜”，就一并把这些节点也复制进去。全部粘贴到 内容范围.txt 文件中保存。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f89ca8f30095b10b3a0ae342830aa666.png>
+![](img/zhuanqian_f89ca8f30095b10b3a0ae342830aa666.png)
 随后，结合知乎热榜页面的实际结构，对指令进行微调：
 ```
 写一个爬虫程序，按下面的要求在我的 windows 电脑上帮我抓取某问答网站文章。
@@ -440,14 +440,14 @@ asyncio.run(main())
 ```
 注：“某问答网站”需要替换为真实站点名称，目标网站需换成你想抓取的页面链接。
 最后，把之前用于爬取某网站笔记的完整爬虫程序附在对话里，让ChatGPT先吃透实现逻辑，再要求它产出一版专门爬取该问答网站热榜的脚本。值得注意的是，这次指令里我并没有点名必须使用“Puppeteer + Puppeteer-Stealth”方案，想看看模型能否在学习已有代码的基础上自行复用这一思路。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8888387bf106f97c6ddb29e9d8c054b0.png>
+![](img/zhuanqian_8888387bf106f97c6ddb29e9d8c054b0.png)
 结果很快出来了，ChatGPT直接给出了基于“Puppeteer + Puppeteer-Stealth”方案的Python爬虫：（为便于查阅，完整的对话记录放在文末附录）
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4a731f041e8391c8e2699a8b39c8120b.png>
+![](img/zhuanqian_4a731f041e8391c8e2699a8b39c8120b.png)
 进入测试阶段，过程中仍出现了一些小毛病，但都可以通过继续与ChatGPT对话快速修复。最终，这版由模型改写的爬虫工具成功把目标问答网站的文章列表完整抓取下来：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_19300aac0b402711481e2f27055ed234.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7621b09572a145940dd76c823089107d.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_79d4b0c4b03d917c38e5353c90ad310f.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_508815ad20332a57f1242f2e788f0a6a.png>
+![](img/zhuanqian_19300aac0b402711481e2f27055ed234.png)
+![](img/zhuanqian_7621b09572a145940dd76c823089107d.png)
+![](img/zhuanqian_79d4b0c4b03d917c38e5353c90ad310f.png)
+![](img/zhuanqian_508815ad20332a57f1242f2e788f0a6a.png)
 最终可用的爬取代码如下：
 ```
 import asyncio
@@ -520,7 +520,7 @@ asyncio.run(main())
 ```
 既然ChatGPT在参考现有爬虫代码后，能完成二次开发，并产出与参考思路相近、甚至更贴合需求的代码，那是否可以把我们手里积累的各类爬虫方案作为知识库，做成一个专门的GPTs，让ChatGPT按实际业务需要去学习对应代码并改造？照这个思路，或许能更快地用ChatGPT产出真正可用的爬虫工具。
 基于这个念头，我动手做了一个辅助生成爬虫程序的GPTs。第一步，把之前爬取某网站文章和爬取某网站笔记的代码分别存成“selenium.txt”和“puppeteer.txt”，然后上传到GPTs的知识库里：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d6e5601c3db582a8ed1c4253f4a44c3e.png>
+![](img/zhuanqian_d6e5601c3db582a8ed1c4253f4a44c3e.png)
 接着，给这个GPTs编写指令：
 ```
 Step 1：收到用户的信息，都先让用户填写下面信息：
@@ -543,13 +543,13 @@ Step 7：收到用户提交的网站需要爬取的内容HTML的txt文件或者�
 4、让用户看到浏览器中操作的过程，并指导用户安装程序依赖的所有库。
 ```
 建好后，我让它重新生成那两份爬虫代码。只要提供目标网站的信息、选定爬虫方案、提交网页结构文件，它就能按对应方案输出可用的爬虫程序。（完整聊天过程放在文末附录，方便查阅）
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4904f390cb6b162a22c1500c960360df.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_184126937a541539bb430ec893edb8b9.png>
+![](img/zhuanqian_4904f390cb6b162a22c1500c960360df.png)
+![](img/zhuanqian_184126937a541539bb430ec893edb8b9.png)
 如果后续再补充更多Python爬虫方案的代码，这个GPTs的知识库会越来越完整，也就能帮用户生成更多不同技术路线的爬虫程序。
 再聊聊把爬虫程序封装成产品的事。我的编程基础很一般，称不上专业开发者，也没系统学过Python、Java、PHP这类主流语言。但以前我和两位技术很强的Partner靠WordPress、ThinkPHP这些开源项目做过不少PHP互联网项目。ChatGPT出现后，我靠它写成了人生第一个Chrome插件GPTBLOX，还积累了1500多位用户（本文附录里的截图都是这个插件保存的，它也支持保存HTML、TXT和PDF）。
 这次参加AI编程航海，我原本只是想多吸收一些AI编程的新玩法，补上自己的短板，并没打算靠Python做出什么产品。但随着航海不断推进，一个个爬虫程序做出来后，我开始琢磨：能不能把一些实现特定功能的Python脚本打包成产品？就在我准备动手摸索时，航海里正好来了一场让我眼前一亮的分享——《编程PYTHON封装为可执行程序exe》。
 我认真研究了圈友壹壹的分享，第二天就上手测试，把之前ChatGPT生成的那个抓取网站文章的爬虫工具加上了UI界面：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_22e466196a809b9523b083c0f326abd4.png>
+![](img/zhuanqian_22e466196a809b9523b083c0f326abd4.png)
 加完UI后的最终代码如下：
 ```
 import time
@@ -665,9 +665,9 @@ button_scrape.grid(row=2, columnspan=3, pady=20)
 root.mainloop()
 ```
 把代码打包成可执行程序，其实并不复杂，你只需要这样做：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_622fc313e8bba2759f76554b8ed94a2b.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8fdd865b62d431c55f13db4c515bad88.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0c4ed72e00c2d2798dd5b2fdc52610d9.png>
+![](img/zhuanqian_622fc313e8bba2759f76554b8ed94a2b.png)
+![](img/zhuanqian_8fdd865b62d431c55f13db4c515bad88.png)
+![](img/zhuanqian_0c4ed72e00c2d2798dd5b2fdc52610d9.png)
 尽管这版程序还相当简陋，但它实实在在为那些不怎么会写代码的人打开了一扇窗。借助ChatGPT这样的AI助手，或者各类开源项目，我们完全可以按需打造专属的Python工具——无论是网络爬虫、图像处理、短视频剪辑、文件整理，还是数据分析，通通不在话下。
 这让我联想到去年Code Interpreter刚亮相时，在GitHub和Twitter上引起轰动的那个开源项目：
 https://github.com/chaseleantj/gpt-prompts
@@ -728,7 +728,7 @@ working_image[y:y+block_size, x:x+block_size] = 0
 writer.append_data(working_image)
 ```
 于是我就琢磨：能不能让ChatGPT把这套Python代码改一改，直接封装成可执行程序？事实证明完全可行。直接看ChatGPT的对话截图：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_677aaa54a6d450fdfcc52a6848f51991.png>
+![](img/zhuanqian_677aaa54a6d450fdfcc52a6848f51991.png)
 ChatGPT很快就把代码调整好了，经过反复测试和优化（完整对话过程放在文末附录，方便大家查阅），最终诞生了一个带图形界面的Python应用。
 ```
 import tkinter as tk
@@ -819,36 +819,36 @@ tk.Button(root, text="Generate Effect", command=generate_video).grid(row=2, colu
 root.mainloop()
 ```
 在做封装前，先把三个依赖库装好：imageio、imageio[ffmpeg]、imageio[pyav]。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_787173dbdccfae12dd600329952d782c.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4a49b02c6599537793bd9b93a9713581.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c98cccb45e5204e96e7e3f866e134df8.png>
+![](img/zhuanqian_787173dbdccfae12dd600329952d782c.png)
+![](img/zhuanqian_4a49b02c6599537793bd9b93a9713581.png)
+![](img/zhuanqian_c98cccb45e5204e96e7e3f866e134df8.png)
 接下来，参考圈友壹壹分享的思路，直接运行这条命令即可：
 pyinstaller -F -w image2video.py
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_62e2d9382622e22ca3380a0e5df73581.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0e602c86823cd872707d8c21c6ac420a.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8638847b77a379a0f218569df2933560.png>
+![](img/zhuanqian_62e2d9382622e22ca3380a0e5df73581.png)
+![](img/zhuanqian_0e602c86823cd872707d8c21c6ac420a.png)
+![](img/zhuanqian_8638847b77a379a0f218569df2933560.png)
 这样就能把Python脚本打包成独立的exe文件，实现“图片自动生成逐新淡出特效视频”的功能。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_da0bc5e87dda158e3696002f9d3bd71e.png>
+![](img/zhuanqian_da0bc5e87dda158e3696002f9d3bd71e.png)
 我亲自测试过，这个exe用起来很顺手，轻轻松松就把图片转成了带淡出效果的特效视频。
 那这类可执行程序到底有什么用？除了自己用，已经有圈友在闲鱼、小红书这些平台上卖Python爬虫工具赚钱了：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_16adb12dfddd2f6845bfa8804c7bdedd.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f2e7445df3cc6195caa0771be5c4372a.png>
+![](img/zhuanqian_16adb12dfddd2f6845bfa8804c7bdedd.png)
+![](img/zhuanqian_f2e7445df3cc6195caa0771be5c4372a.png)
 更进一步想，我们是不是也能帮亚马逊卖家做数据分析工具、帮短视频用户做视频处理工具、帮职场人员做批量处理工具？只要存在一个个具体的小需求，这就是我们在AI时代能抓住的机会。
 最后，祝大家龙哥盟！
 # 附录
 ## 用爬虫工具抓取网站文章的对话记录（GPT4o）
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_099bb34016e61d150f1af1686511967c.png>
+![](img/zhuanqian_099bb34016e61d150f1af1686511967c.png)
 ## 用爬虫工具抓取网站文章的对话记录（GPT4）
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1fef00282b7d257064eb1ef4258748af.png>
+![](img/zhuanqian_1fef00282b7d257064eb1ef4258748af.png)
 ## 用爬虫工具抓取网站图片的对话记录
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d3c13e255d5db10649729dcc5fa68fd5.png>
+![](img/zhuanqian_d3c13e255d5db10649729dcc5fa68fd5.png)
 ## 用爬虫工具抓取电商网站产品的对话记录
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_86409af1aa0e9c9074d805ac5f1d0a51.png>
+![](img/zhuanqian_86409af1aa0e9c9074d805ac5f1d0a51.png)
 ## 改写爬虫工具抓取某问答网站文章的对话记录
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1d6fe6877968f0377160ad4182df8b3d.png>
+![](img/zhuanqian_1d6fe6877968f0377160ad4182df8b3d.png)
 ## 用GPTs生成爬虫工具抓取网站文章的对话记录
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5dfae4ec7fc029802cfde07c1e008b91.png>
+![](img/zhuanqian_5dfae4ec7fc029802cfde07c1e008b91.png)
 ## 用GPTs生成爬虫工具抓取某网站笔记的对话记录
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7897c66927696204102be63f342acb8c.png>
+![](img/zhuanqian_7897c66927696204102be63f342acb8c.png)
 ## 生成带UI的图片隐藏特效视频Python程序的对话记录
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1556f116822ad2fa2eb07e4c4ab878a1.png>
+![](img/zhuanqian_1556f116822ad2fa2eb07e4c4ab878a1.png)

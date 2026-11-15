@@ -5,12 +5,12 @@
 对不少商家来说，TikTok 自然流投入产出比不高，成本下去了，效果没跟上。
 我亲自带过一批号，现在把自然流的做号逻辑拆开讲。基础常识网上能查到，我这里不做重复科普，自己去补齐即可。
 最近刚起的一个号，4 天涨到 7000 粉，全靠自然流，撞上了热度。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0f6efe1347dc690662451dbc8ec72065.png>
+![](img/zhuanqian_0f6efe1347dc690662451dbc8ec72065.png)
 # TikTok 自然流的核心逻辑：先筛号
 **和国内比，海外 TikTok 起号难度明显更低。很多团队带著国内思路去做，死磕一两个号，三个月播放卡在 200-800，起不来。还有人完全不懂海外生态，内容粗制滥造再大量投流，花几千上万买一堆僵尸粉。你是不是也踩过这些坑。海外做号第一件事，学会筛号。**
 ## 为啥一定要筛号
 **1：筛号成本极低 2：账号本身有权重差异 3：多号同脚本测内容 4：多号并行抬高爆率**
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4a6a0d7b172b6237bed3f0eb7afc3afd.png>
+![](img/zhuanqian_4a6a0d7b172b6237bed3f0eb7afc3afd.png)
 1.筛号成本
 TikTok 注册门槛低，一个邮箱就能开。号养不起来就扔，换下一个即可，沉没成本几乎为零。
 2：账号权重
@@ -26,7 +26,7 @@ TikTok 是赛马机制，同一垂类内容要和同赛道创作者 PK。
 多账号并发，本质是和时间赛跑。同样 30 条内容，一部手机每天发 3 条 10 天，和 10 部手机一天发完，前者的试错周期和成功率明显更高，时间成本不成正比。
 ## 筛号具体怎么做
 网路-设备-注册-养号-发片是有套路的。大部分商家感觉模糊，下面是我团队的实操。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f722fc136a548e343cfac90c33443793.png>
+![](img/zhuanqian_f722fc136a548e343cfac90c33443793.png)
 1：网络
 一台网络最多绑三部手机
 2：设备
@@ -45,7 +45,7 @@ TikTok 是赛马机制，同一垂类内容要和同赛道创作者 PK。
 第一天：
 第二天：
 第三天：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0edf9f67008be0d4a083c33daf63feb5.png>
+![](img/zhuanqian_0edf9f67008be0d4a083c33daf63feb5.png)
 进入发布观察期，会出现几种情况
 1.直接 0 播放
 2.第一条 800-900，之后 200-500
@@ -61,7 +61,7 @@ TikTok 是赛马机制，同一垂类内容要和同赛道创作者 PK。
 第三天：
 第 7-9 条发完，如果仍未出现破千的，直接放弃。
 出现破千的，拆解脚本和结构，提炼爆点，开始多号复制。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d030d4e0431d3086176a10dfc6d4cbf5.png>
+![](img/zhuanqian_d030d4e0431d3086176a10dfc6d4cbf5.png)
 持续筛号 + 反复筛号 = 提高成功率
 被筛掉的号，封存一个月后可以拿来当满月号再测。
 满月号需要重新养号。养号补充要点：
@@ -95,14 +95,14 @@ TikTok 是赛马机制，同一垂类内容要和同赛道创作者 PK。
 剪辑技巧：
 剪映即可，基础剪辑功底即可。
 4.  总结一下：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2510e57827aafe7bc5b2b96c2acbe195.png>
+![](img/zhuanqian_2510e57827aafe7bc5b2b96c2acbe195.png)
 二创素材常见问题：
 1：限流
 2：风控
 都能通过剪辑手法解决，我的二创从未出现过 0 播或限流。
 实操工具和 AI 结合，工具都在这里找：
 [toolify.ai](http://toolify.ai)
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_40a93810557deca3f9ce4f00cc786473.png>
+![](img/zhuanqian_40a93810557deca3f9ce4f00cc786473.png)
 发布时间：
 1.  分散到不同时段发，测出最佳流量窗口。
 2.  记录视频 10 分钟到 2 小时内的播放启动情况，对比不同时段表现。
@@ -115,14 +115,14 @@ TikTok 是赛马机制，同一垂类内容要和同赛道创作者 PK。
 1.  国家标签：如 #US，精准定位区域，避免流量浪费，对商业号更重要。
 2.  流量标签：如 #foryou、#tiktok、#fyp，泛用但扩散力强，利于进入推荐池。
 3.  细分标签：如 #cat，锁住兴趣人群，提升相关性。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_76e0006dc53a8d8c42645323a49f72a4.png>
+![](img/zhuanqian_76e0006dc53a8d8c42645323a49f72a4.png)
 ### 视频标题写法
 好标题能激发好奇或直接点明价值
 提问式：你知道怎么解决 xxx 吗？
 陈述式：2024 送给妈妈最难忘的礼物！
 1.  问题型标题：用提问提高互动，如“有见过让你哭泣的东西吗？”“新发现！榨汁机你这样试过吗？”
 2.  肯定型标题：用强判断语言，如“全班同学都买的水杯”“全世界都在用的钱包”，提升感知价值。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_58971dd5d8cfcc41f0362c917b123088.png>
+![](img/zhuanqian_58971dd5d8cfcc41f0362c917b123088.png)
 ### 趋势短语
 紧跟 TikTok 热门话题和挑战，把时下热词融入标题和内容，能快速吸睛，提升参与度。
 ### 对标账号筛选标准
@@ -167,5 +167,5 @@ TikTok 是赛马机制，同一垂类内容要和同赛道创作者 PK。
 梁小伟 : 不影响
 声声瀲 : 谢谢[握手]
 哲学工作室 : 影响的吧 封 ip
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_21de372a77ea1f441c613f7316831ae1.png>
+![](img/zhuanqian_21de372a77ea1f441c613f7316831ae1.png)
 * * *

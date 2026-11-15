@@ -2,26 +2,26 @@
 ## 20岁这一年：我如何借助 AI 内容创作，让认知、资源与人脉一起加速
 06 年出生，加入龙哥盟两年，曾写过 7 篇精华文章。过去 8 个月，我在 X 上积累了 5.4 万关注者，也在中文 AI 创作者圈里站稳了脚跟。
 趁着 20 岁这个时间点，我想把过去一年的经历重新梳理一遍：我为什么选择 X？怎样持续获得灵感？又是如何通过内容，让自己接触到更多机会？
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6ef97d1e9891f6d0fbad4c18b049cb65_0_0.png>
+![](img/zhuanqian_6ef97d1e9891f6d0fbad4c18b049cb65_0_0.png)
 最初接触赚钱，是在大一上学期。当时我从付费社群里听说这个平台，随后开始阅读其中的各种案例。最开始，一篇文章只能看懂一小部分，后来连续补课两个月，基本可以脱离工具读完大多数内容。
 之后，我陆续参加了 Web 网站、YouTube AI 视频、AI 短剧等项目，也开始接触国内外不同平台，尝试理解各种商业模式。
 ### 我的项目记录
 - 2025-12
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6ef97d1e9891f6d0fbad4c18b049cb65_1_0.png>
+![](img/zhuanqian_6ef97d1e9891f6d0fbad4c18b049cb65_1_0.png)
 - 2025-05
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6ef97d1e9891f6d0fbad4c18b049cb65_1_1.png>
+![](img/zhuanqian_6ef97d1e9891f6d0fbad4c18b049cb65_1_1.png)
 - 2025-09
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6ef97d1e9891f6d0fbad4c18b049cb65_1_2.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6ef97d1e9891f6d0fbad4c18b049cb65_1_3.png>
+![](img/zhuanqian_6ef97d1e9891f6d0fbad4c18b049cb65_1_2.png)
+![](img/zhuanqian_6ef97d1e9891f6d0fbad4c18b049cb65_1_3.png)
 - 2025-06
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6ef97d1e9891f6d0fbad4c18b049cb65_1_4.png>
+![](img/zhuanqian_6ef97d1e9891f6d0fbad4c18b049cb65_1_4.png)
 - 2025-03
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6ef97d1e9891f6d0fbad4c18b049cb65_1_5.png>
+![](img/zhuanqian_6ef97d1e9891f6d0fbad4c18b049cb65_1_5.png)
 过去一年积累的能力，最终在 X 的 AI 内容方向上集中释放。AI 产品、视频制作、企业解决方案、个人品牌运营，我都或多或少实践过，因此做这个方向时，很多经验能够直接复用。
 ### 我的 X 页面
 3,610 帖子
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6ef97d1e9891f6d0fbad4c18b049cb65_2_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6ef97d1e9891f6d0fbad4c18b049cb65_2_1.png>
+![](img/zhuanqian_6ef97d1e9891f6d0fbad4c18b049cb65_2_0.png)
+![](img/zhuanqian_6ef97d1e9891f6d0fbad4c18b049cb65_2_1.png)
 编辑个人资料
 **逸尘**
 @gengdaj
@@ -36,14 +36,14 @@
 - **269** 正在关注 **5.3 万** 关注者
 53,943
 概览 观众 内容 视频 直播 空间
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6ef97d1e9891f6d0fbad4c18b049cb65_2_2.png>
+![](img/zhuanqian_6ef97d1e9891f6d0fbad4c18b049cb65_2_2.png)
 关于商业化，之前的文章已经拆解过基础路径：
 https://bcn5ot9wwnew.feishu.cn/wiki/JB92wcXppiWZfdk1euncasBGnKg
 但我越来越觉得，更高层次的收入方式，并不是单独完成某个项目，而是持续建立个人影响力，让内容、关系和机会彼此连接。具体方法不宜照着模板机械复制，真正重要的是理解背后的判断方式。
 我原本想用《二十不惑》作为标题，但这个年纪的我，仍然面对大量未知：
 人与 AI 的相处模式会怎样变化？具身智能普及之后，人类是否还需要大量工作？AGI、RSI 加速推进后，社会结构会不会被重新改写？脑机接口成熟以后，学习的意义是否会发生变化？
 面对技术浪潮，我并没有答案，所以最后选择了“眸望未来”。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6ef97d1e9891f6d0fbad4c18b049cb65_3_0.png>
+![](img/zhuanqian_6ef97d1e9891f6d0fbad4c18b049cb65_3_0.png)
 不过，我对未来依旧抱有期待。因为我逐渐找到了一种有趣的方式：把 AI 探索、个人成长和“地球 online”这场长期游戏放在一起，用持续创作换取能力、关系与机会的复利。
 ## 一、内容创作最重要的资产，是信赖感
 很多人把这件事理解成接广告、卖课程或做知识服务，但在我看来，这些都只是表现形式。真正决定一个创作者能走多远的，是别人是否愿意相信你。
@@ -55,21 +55,21 @@ Google AI 学生认证失效后，我使用的 Antigravity、Gemini Pro、Notebo
 于是我的要求很明确：预算可以比二手渠道高一些，但账号必须有持续支持和售后承诺。
 后来我接触到 GamsGo。这个平台运营了 7 年，Gemini 等订阅服务通常比官方价格低不少，同时还提供 ChatGPT、Midjourney、YouTube Premium、Spotify、Manus、Genspark、Perplexity 等产品。
 这次推荐之所以能够自然，是因为它来自一个我亲身遇到的问题，也来自我对工具的实际需求。推广没有脱离日常，反而成为经历的一部分。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6ef97d1e9891f6d0fbad4c18b049cb65_5_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6ef97d1e9891f6d0fbad4c18b049cb65_5_1.png>
+![](img/zhuanqian_6ef97d1e9891f6d0fbad4c18b049cb65_5_0.png)
+![](img/zhuanqian_6ef97d1e9891f6d0fbad4c18b049cb65_5_1.png)
 ## 二、不要困在单一赛道里，素材来自你真正经历过的生活
 当合作机会越来越多，仅靠原本熟悉的领域，难免出现素材不足的问题。我的解决方法不是强行制造选题，而是主动扩大生活半径。
 我不会只围绕 AI 相关话题打转，也会去接触法律、硬件、网络、商业、经济、电商和产品。领域越丰富，能够组合出的表达角度就越多。
 比如换用 Mac 之后，我写下了从 Windows 转到 Mac 的体验，包括快捷键、触控板、系统生态、续航表现，以及我安装的各种工具。这篇内容获得了 12 万曝光。
 后续因为持续使用 Mac，我又发现了许多新的创作场景：本地数据整理、工具调用、开发 App、处理微信收藏等。这些经历本身就能形成新的选题，而不是为了发内容临时拼凑。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6ef97d1e9891f6d0fbad4c18b049cb65_6_0.png>
+![](img/zhuanqian_6ef97d1e9891f6d0fbad4c18b049cb65_6_0.png)
 **逸尘 @gengdaj · 4月16日**
 这个工具太强了！我已经把我微信收藏的143条数据全部成功解析了出来。这个做出来的网站是skill内置的，但是数据反正都在本地，自己想怎么分类整理都可以。
 Mac电脑是唯一的限制。
 收藏夹不再吃灰，是AI时代给我最强的体感之一。
 小红书、X、微信，已经全部打通了。。。太强了！
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6ef97d1e9891f6d0fbad4c18b049cb65_7_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6ef97d1e9891f6d0fbad4c18b049cb65_7_1.png>
+![](img/zhuanqian_6ef97d1e9891f6d0fbad4c18b049cb65_7_0.png)
+![](img/zhuanqian_6ef97d1e9891f6d0fbad4c18b049cb65_7_1.png)
 **Jason Zhu @GoSailGlobal · 4月16日**
 **微信收藏被加密锁死？我用frida逆向6轮迭代解密2000条数据，生成7种图表可视化报告**
 微信收藏是很多人的数字仓库，十年积累下来几千条收藏，但这些数据被锁在加密数据库里，连导出都做不到。用 Claude Code 写了一个 Skill，从加密的微信 Mac 本地数据库端到端解密，最终生成一份包含 7...
@@ -79,7 +79,7 @@ Mac电脑是唯一的限制。
 人生第一款App完成了网站、App备案，终于到最后一步华为审核了。全程都使用Codex完成信息填写、备案，我坐在一边刷短视频的感觉太爽了啊！
 这款App已经有上百位付费用户支持，但是作为我第一架上架到应用市场的App，如果成功，就将免费开放给给大家。
 这是一款直接把待办记录在手机锁屏上的App，目前仅限安卓。但是是Flutter框架，我自用版本还有Mac App，以后也会拓展到iPhone。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6ef97d1e9891f6d0fbad4c18b049cb65_8_0.png>
+![](img/zhuanqian_6ef97d1e9891f6d0fbad4c18b049cb65_8_0.png)
 为了获得更具体的行业经验，我还主动进入上海的法律科技律所工作，接触企业场景、协作流程和 AI 解决方案。
 为处理网络问题，我去学习 DNS、TLS、ISP 等基础原理；为了理解跨境业务，我补充支付与结算方面的知识；接下来还会继续探索出海、金融、英语、科技、社交、历史和写作。
 这套路径带来的变化，不只是选题变多了。我的设备、能力与收入也形成了循环：买 Mac 的支出，后来通过相关内容合作和其他项目逐步赚了回来；投入没有停留在消费层面，而是转化成了新的生产资料。
@@ -91,7 +91,7 @@ X 上聚集了大量创业者、研究者、产品负责人、投资人和技术
 ### 2. 提前连接全球市场
 国内平台的受众范围相对集中，而 X 连接的是全球用户。海外 AI 实验室、科技公司、研究者和头部创作者都在这里活动。
 一个经营良好的主页，不只是展示作品的地方，也可以成为和海外团队沟通时的信用凭证。哪怕目前只是从海外品牌合作开始，长期看，它也可能成为进入国际市场的入口。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6ef97d1e9891f6d0fbad4c18b049cb65_9_0.png>
+![](img/zhuanqian_6ef97d1e9891f6d0fbad4c18b049cb65_9_0.png)
 ### 3. 表达和连接的阻力更小
 只要遵守平台规则、不触碰违法内容，创作者通常能够更自由地发布观点。内容完成后，不必反复担心复杂的发布环节。
 X 也方便把公开表达延伸到私人关系：读者可以通过个人资料、邮件或社群继续交流，适合建立长期联系。
@@ -102,7 +102,7 @@ X 也方便把公开表达延伸到私人关系：读者可以通过个人资料
 过去 7 个月，我发布了 500 条短内容和 13 篇长文，开放了 20 个 Skill，也搭建过 Agent 记忆系统和 AI 创作辅助工具。主题覆盖 AI、产品、商业化、网络技术、法律科技、跨境业务、创作方法和个人成长。
 持续公开学习、公开构建之后，我获得了更多合作机会，也在线下见到了卡兹克，认识了金融、医美、软件、教育等领域的朋友，还找到了能够共同做事的同龄伙伴。
 这些结果并不是单靠某一条爆款带来的，而是长期输出积累出的复利。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6ef97d1e9891f6d0fbad4c18b049cb65_10_0.png>
+![](img/zhuanqian_6ef97d1e9891f6d0fbad4c18b049cb65_10_0.png)
 我现在运营一个名为 TradeWinds 的社群，希望和一批愿意长期学习、实践、分享的人同行。
 回头看，我当然付出了时间，也受益于过去的积累。但更关键的是，我进入了一个能够不断遇见优秀前辈和同龄人的环境。
 环境会改变一个人的参照系，也会影响你能看到的机会边界。接触的人越优秀，越容易获得新的视角、稀缺的信息和继续行动的动力。
@@ -127,10 +127,10 @@ TradeWinds具体要交付什么，我目前还没有清晰答案，需要时间�
 需要先说明两点：首次看到这条内容的读者，我不会通过申请；目前尚未建立自身事业与项目基础的朋友，请暂缓加入。我更希望加入的前提是你已通过我的分享学到东西并取得实际成效。
 > bcn5ot9ywnew.feishu.cn/share/base/for...
 了解更多关于我和社群：yichen.ai/products/trade...
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6ef97d1e9891f6d0fbad4c18b049cb65_11_0.png>
+![](img/zhuanqian_6ef97d1e9891f6d0fbad4c18b049cb65_11_0.png)
 下午2:01 · 2026年9月8日 · 4.6万 查看
 第二，学习投资，是实现十倍增长的关键
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6ef97d1e9891f6d0fbad4c18b049cb65_12_0.png>
+![](img/zhuanqian_6ef97d1e9891f6d0fbad4c18b049cb65_12_0.png)
 # 第三，AI时代的年轻人需要足够大胆，Fake it till you make it
 胆子有多大，空间就有多大。对自己保持绝对笃定，先扮演你要成为的样子，最后便会真的成为。上个月一位朋友拿下律所的大客户，下午两点的对接会，我在中午十二点半才被告知要单独见对方团队谈企业AI服务。朋友直接说我是她的联合创始人，实际上根本没有团队。我只好硬着头皮上，把朋友称作沈总，自己假扮业务负责人，聊了约半小时。最后客户认可度很高，合作有了可能。我当时想的很清楚，即使失败也没有任何损失，经济层面和名声层面都无所谓；成了是最好结果，不成也能锻炼胆量。失败只会磨练勇气，少数几次成功就能起飞，就像那些经常接受采访的主播一样。
 大概一点三十分
@@ -140,22 +140,22 @@ TradeWinds具体要交付什么，我目前还没有清晰答案，需要时间�
 我们属于同一支队伍
 什么？
 我去
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6ef97d1e9891f6d0fbad4c18b049cb65_13_0.png>
+![](img/zhuanqian_6ef97d1e9891f6d0fbad4c18b049cb65_13_0.png)
 8 月 11 日 10:41
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6ef97d1e9891f6d0fbad4c18b049cb65_13_1.png>
+![](img/zhuanqian_6ef97d1e9891f6d0fbad4c18b049cb65_13_1.png)
 老兄牛逼
 合适的时机，如果要聊具体的业务方面，你就把我推给他
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6ef97d1e9891f6d0fbad4c18b049cb65_13_2.png>
+![](img/zhuanqian_6ef97d1e9891f6d0fbad4c18b049cb65_13_2.png)
 可以
 再说说身边伙伴的激进打法：用Agent在招聘平台批量联系老板，同时接多份远程工作，用Codex完成任务获取多份收入。混进高端局，以AI话题切入与大佬交流，成功找到带飞的老板。在商场看到一家服饰店，直接上门与老板沟通，达成AI生成图像的合作。“人的高度往往等于身边五位常接触的人均值”。我通过主动调整圈子，让周围变成这类人，自己也被逼着变得更大胆，去做常人难以理解的事。
 # 第四，绝对相信自己，做到当下的最好，你是地球 online 游戏唯一的气运之子
 从进入赚钱初期，我只能仰望优秀的零零后和前辈。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6ef97d1e9891f6d0fbad4c18b049cb65_14_0.png>
+![](img/zhuanqian_6ef97d1e9891f6d0fbad4c18b049cb65_14_0.png)
 但我没有被光芒刺得睁不开眼，而是把他们为人处事的优秀特质全部拆解吸收。没有商业经验，数百篇精华帖奠定了我的基础。没有写过长文，一篇被评为精华的文章给了我肯定。没有做过有价值的项目，有幸加入了航海。没有参加过陌生人线下聚会，赚钱提供了入口。没有上台分享的经历，赚钱给了舞台。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6ef97d1e9891f6d0fbad4c18b049cb65_15_0.png>
+![](img/zhuanqian_6ef97d1e9891f6d0fbad4c18b049cb65_15_0.png)
 --- 分隔 ---
 看完这套SOP你可能觉得明白了，但九成的人落地第一步就卡住。工具和教程只是基础门槛，真正的门槛是立刻开干和圈层的信息差。
 这里不空谈，只拆商业闭环和AI效率榨取，内部已经沉淀1000+跑通的套利实战案例。
 - 查看圈子数字资产和上车门槛：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6ef97d1e9891f6d0fbad4c18b049cb65_16_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6ef97d1e9891f6d0fbad4c18b049cb65_16_1.png>
+![](img/zhuanqian_6ef97d1e9891f6d0fbad4c18b049cb65_16_0.png)
+![](img/zhuanqian_6ef97d1e9891f6d0fbad4c18b049cb65_16_1.png)

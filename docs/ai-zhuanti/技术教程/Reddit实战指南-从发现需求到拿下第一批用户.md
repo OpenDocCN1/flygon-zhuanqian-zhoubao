@@ -30,8 +30,8 @@ Reddit里的Karma不是简单地“点赞减点踩”。
 此外，女性用户较多的社区往往也比较适合新账号互动。情感关系、生活经历、个人建议等主题，通常更容易获得评论和讨论。
 之前Labubu很火的时候，我也会顺势参与r/labubu里的热门话题，借助热点自然积累互动。
 Karma的查看位置如下：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_40485f4b591f3303ec6d972eb30a9e71.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5a5223634071b2105b9bbd398e1dee98.png>
+![](img/zhuanqian_40485f4b591f3303ec6d972eb30a9e71.png)
+![](img/zhuanqian_5a5223634071b2105b9bbd398e1dee98.png)
 ## 4. 让账号看起来像一个真实的人
 Reddit用户普遍不喜欢“只会发广告”的账号。
 因为你的发帖和评论历史通常都是公开的，用户可以通过主页判断你是谁、平时关注什么、是否只是为了推广产品而来。部分社区的版主还会专门检查账号历史，如果发现一个账号几乎只发布推广内容，往往会直接禁止其继续营销。
@@ -46,8 +46,8 @@ Reddit官方行为准则通常建议，推广内容和普通内容之间保持�
 - 有些板块完全不接受营销内容申诉
 - 部分小型社区允许推广，但需要提前获得版主许可
 - 还有一些社区会定期设置推广帖，成员只能在指定帖子下介绍产品
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0fbfa3d0edff0770d1390f57308ae528.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f154986d80cfdbd82e6a241af1ab01a6.png>
+![](img/zhuanqian_0fbfa3d0edff0770d1390f57308ae528.png)
+![](img/zhuanqian_f154986d80cfdbd82e6a241af1ab01a6.png)
 很多新人都会犯同一个错误：没有阅读规则，就直接发布产品介绍，结果帖子被删除，账号被禁言，甚至被踢出相关Discord社区。
 一些群组配置了自动机器人，只要识别到广告关键词，内容就会立即被删。与此同时，普通成员也可能主动举报违规帖子。
 所以，不要抱有“先发了再说”的侥幸心理。换个角度想，如果有人跑到你家门口贴广告，你大概率也会选择清理掉。
@@ -71,8 +71,8 @@ Reddit官方行为准则通常建议，推广内容和普通内容之间保持�
 - “Best app for + 目标人群”
 - “Is there an app for that + 使用场景”
 这些搜索通常会带出不少高相关帖子。真正有价值的内容，往往藏在评论里：用户会直接说自己现在怎么解决、现有工具哪里不好，以及希望产品增加什么功能。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b121fa93d96cc6a8bb9872a636e81da7.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_73c2601f7ace22e8dcde787b20b94b95.png>
+![](img/zhuanqian_b121fa93d96cc6a8bb9872a636e81da7.png)
+![](img/zhuanqian_73c2601f7ace22e8dcde787b20b94b95.png)
 关于如何找词，也可以参考哥飞老师的相关内容：
 - 海外工具从需求挖掘到网站制作一篇文章让你搞懂
 - 用一个公式来判断关键词是否值得做，让你选择关键词不再犹豫
@@ -81,9 +81,9 @@ Reddit官方行为准则通常建议，推广内容和普通内容之间保持�
 如果你不确定自己应该服务哪类用户，可以尝试使用Gummysearch。
 它的价值在于：把Reddit上分散、庞杂的讨论，整理成一个更容易检索和分析的用户情报库。
 其中的Curated Audiences，可以理解为官方整理好的“目标人群包”。平台会按照宠物、AI、营销、电商等领域，把相关度高、活跃度高的社区集中起来，帮助你快速进入某个细分市场。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_987d8a6e9be5de9813cbca766f1c322d.png>
+![](img/zhuanqian_987d8a6e9be5de9813cbca766f1c322d.png)
 进入某个人群包后，会看到类似下面的分析界面。这里以Ecommerce为例：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b5a03657518fc1b64fd5c85aa15ecddb.png>
+![](img/zhuanqian_b5a03657518fc1b64fd5c85aa15ecddb.png)
 主要功能可以这样理解：
 ### 顶部分类
 这里显示当前正在分析的领域，比如Ecommerce。
@@ -109,8 +109,8 @@ Topics会进一步拆解讨论内容，帮助你发现某个细分问题是否�
 当时产品甚至还没有完整上线，开发者只是发布了一张MVP截图，却获得了约1.7K点赞和几十条反馈。
 这说明产品还没做完，也可以先通过一个简单原型测试需求。只要问题足够真实，用户就会主动参与讨论、提出建议，甚至帮助你完善方向。
 这就是典型的“先卖空气，再做产品”。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1abecdbcb8881443703b65f166a5f3c3.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9c78fa939061051055e57022876a49f7.png>
+![](img/zhuanqian_1abecdbcb8881443703b65f166a5f3c3.png)
+![](img/zhuanqian_9c78fa939061051055e57022876a49f7.png)
 ## 3. 自己搭建目标人群库
 除了使用平台预设的人群包，也可以按照自己的兴趣创建自定义受众。
 我曾经建立过一个叫“SOLO Dev”的开发者灵感库，里面收集了：
@@ -119,17 +119,17 @@ Topics会进一步拆解讨论内容，帮助你发现某个细分问题是否�
 - r/InternetIsBeautiful
 这些社区聚集着大量独立开发者，大家会分享项目进展、开发过程、推广经验和数据结果。
 有些板块还允许合规发布产品内容。你的项目到底有没有价值，发布出来之后很快就会得到市场反馈。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_25f7303c7e685a0be0baccd16e7471a8.png>
+![](img/zhuanqian_25f7303c7e685a0be0baccd16e7471a8.png)
 此前登上Product Hunt日榜的Thiings，开发者就曾在r/SideProject中发布项目，收集用户意见，并分享整个构建过程。
 这类社区的氛围通常比较友好，开发者之间会互相提出建议、交流经验，也更容易形成面向海外市场的早期反馈网络。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e1b5ec78b0c848125e1a15af670407b0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0ff53f52be502bf259f3c7a461785d2d.png>
+![](img/zhuanqian_e1b5ec78b0c848125e1a15af670407b0.png)
+![](img/zhuanqian_0ff53f52be502bf259f3c7a461785d2d.png)
 # 三、用Reddit完成产品冷启动
 在挖掘需求的同时，你其实已经在建立潜在用户名单。
 当MVP开发完成后，之前收藏过的帖子、整理过的社区以及互动过的用户，都可以成为冷启动的突破口。
 很多独立开发者的第一批用户，甚至第一笔收入，都是从Reddit开始的。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2fb000714df0bdec2b24440dc6c628f9.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4748aa9c53fd8b5d4009f397b1871921.png>
+![](img/zhuanqian_2fb000714df0bdec2b24440dc6c628f9.png)
+![](img/zhuanqian_4748aa9c53fd8b5d4009f397b1871921.png)
 ## 1. 通过评论和私信接触用户
 一种比较稳妥的方式，是先在相关帖子下公开评论，再决定是否私信。
 因为不少用户关闭了私信权限，或者不希望被陌生人直接打扰，所以最好先征求对方同意。
@@ -171,7 +171,7 @@ Modmail的优势是：
 - 快的时候当天就能收到答复
 - 慢的时候可能要等几周
 - 也有些版主会一直不回复，用沉默表示拒绝
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_55ee2d8ac3f7fef0702513559a97449b.png>
+![](img/zhuanqian_55ee2d8ac3f7fef0702513559a97449b.png)
 ## 4. 版主真正关心的是什么？
 申请推广时，不要只说：
 > 我想发一篇产品介绍，能不能批准？
@@ -186,8 +186,8 @@ Modmail的优势是：
 - 你准备如何控制推广性质
 - 是否愿意根据社区反馈调整产品
 只要能够证明自己不是来单纯投放广告，而是愿意为社区成员提供帮助，获批概率会高很多。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_aa8b2277823d9d80453ec1175bc202e7.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4056971579a78d4b05687eeccfccc2bf.png>
+![](img/zhuanqian_aa8b2277823d9d80453ec1175bc202e7.png)
+![](img/zhuanqian_4056971579a78d4b05687eeccfccc2bf.png)
 ## 5. 选择合适的发布时间
 拿到版主许可后，还要考虑发帖时间。
 可以使用Later for Reddit: Schedule posts to Reddit，查看特定社区的热门时段、帖子表现和标题关键词。
@@ -196,9 +196,9 @@ Modmail的优势是：
 - 什么类型的标题更容易被点击
 - 哪些内容近期正在升温
 - 同类热门帖子通常采用什么表达方式
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ee07f210d1e431fa8526da671845079a.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9a28816c5e43cc56c256736f0adf500e.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b944319bd27ac1c6e1911e0b000d2d31.png>
+![](img/zhuanqian_ee07f210d1e431fa8526da671845079a.png)
+![](img/zhuanqian_9a28816c5e43cc56c256736f0adf500e.png)
+![](img/zhuanqian_b944319bd27ac1c6e1911e0b000d2d31.png)
 # 写在最后
 对我来说，Reddit不只是一个流量平台，更像是一个能够贯穿产品全流程的海外市场实验室。
 你可以在这里：

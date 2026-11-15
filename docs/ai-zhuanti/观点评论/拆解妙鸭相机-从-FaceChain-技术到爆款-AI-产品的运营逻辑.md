@@ -6,20 +6,20 @@
 “妙鸭的技术无非就是训个 loRA，有手就会。”
 “门槛这么低，随便复刻。”
 “我有算力也能做，他们只是营销做得好。”
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5b7cb5122d356a342ecf8f8e449a5302.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0a52bf5fa99ffefd78ad9b8adc9b147f.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_10fff0a49f952edaae7048da83ee31ea.png>
+![](img/zhuanqian_5b7cb5122d356a342ecf8f8e449a5302.png)
+![](img/zhuanqian_0a52bf5fa99ffefd78ad9b8adc9b147f.png)
+![](img/zhuanqian_10fff0a49f952edaae7048da83ee31ea.png)
 说实话，这些认知相当片面。关于妙鸭的研发团队，我想为他们正名一下。真有那么简单，为何没有同水准的竞品冒出来？那些只会在 WebUI 上点点 SD 模型的人，有什么底气说自己能一人对抗阿里系的完整技术团队？每个新时代都会有人为了流量贬低对手。身处 AIGC 时代的我们，更应该承认优秀并去学习，AI 生成内容才刚刚起步。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0cba114f81a6efdbe88cf90114ac43e0.png>
+![](img/zhuanqian_0cba114f81a6efdbe88cf90114ac43e0.png)
 下面我们基于阿里系 ModelScope 社区于 8 月 12 日开源的 FaceChain 项目来复盘。因为 FaceChain 的技术路线与妙鸭相机的逻辑高度吻合，能帮助我们更清晰地理解其底层实现。
 ## FaceChain 是什么
 FaceChain 是一个面向个性化人像生成的框架。核心思路是用定制化的图像生成模型叠加一系列面部相关模型，基于少量个人肖像就能生成高度还原的个性化照片。它具备可插拔特性，能按不同个性化需求灵活调整。
 妙鸭相机的整套 AIGC 流水线并不简单。老 SD 用户都知道，loRA 或 lyCORIS 的真实效果有限，自主化训练更是难上加难。整套自动化工作流的落地，是多模态算法协同的结果。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_38fa8eef96b0540fb78baf2ac65c5c3b.png>
+![](img/zhuanqian_38fa8eef96b0540fb78baf2ac65c5c3b.png)
 ## FaceChain 技术路径解析
 FaceChain 借助达摩院的一整套面部模型，对用户上传、质量参差不齐的数据集进行流水线化清洗，随后进入自动化训练。
 数据处理的大致流程如下：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_42f9523c1f4a9fb56b6dd6652a8d9c3d.png>
+![](img/zhuanqian_42f9523c1f4a9fb56b6dd6652a8d9c3d.png)
 ##### 图像旋转矫正
 先对用户上传图片做旋转校准。用一个旋转角度预测模型估算倾斜角度，自动旋转使人脸方向归正。
 https://modelscope.cn/models/Cherrytest/rot_bgr
@@ -42,7 +42,7 @@ DeepDanbooru 是 2019 年的模型，基于 ResNet 等传统 CNN，且主打二�
 合并模型的好处是可同时加载多种风格 loRA，获得更丰富的生成效果。同时 Diffusers 支持灵活切换 pipeline，可按需优化性能。
 FaceChain 有趣的地方在后处理。推理结束后，会用质量评估模型对用户上传的原数据集打分，挑最高分作为融合模板，再用人脸融合模型把真实数据融合回生成图。这就解决了单纯 loRA 出图脸不像的问题，让生成结果与训练集高度贴合。最后计算面部相似度，输出相似度最高的图。
 完整推理流程如下：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_293a1fc75782a8056bd70d9e07dfafdc.png>
+![](img/zhuanqian_293a1fc75782a8056bd70d9e07dfafdc.png)
 ##### 模型融合
 推理阶段把 face-loRA 与 style-loRA 的权重融合到 Stable Diffusion 基础模型中，权重可调以平衡风格与面部特征。
 ##### 初始人像生成
@@ -60,7 +60,7 @@ https://www.modelscope.cn/models/damo/cv_ir_face-recognition-ood_rts
 # 二、妙鸭相机的产品定位与设计
 ## 一、团队背景
 妙鸭相机创始人张月光是资深产品经理出身，2016 年加入字节，任时光相册产品负责人，带领团队实现数亿元营收。2018 年离职创立北京比特星光科技有限公司任 CEO，获阿里、零一资本、险峰华兴多轮融资，旗下二次元换装社交产品“元音”DAU 近 5 万，营收超百万。2020 年 7 月加入阿里巴巴任资深产品专家，负责优酷短视频、直播等业务及产品设计团队。据 36 氪信息，妙鸭目前仍归属阿里大文娱体系，并非独立公司。企查查显示主体为未序网络科技，为土豆网背后主体，监事冯云乐任阿里巴巴监事。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d0b41bff256f0721403979b631b6f961.png>
+![](img/zhuanqian_d0b41bff256f0721403979b631b6f961.png)
 据妙鸭产品负责人张月光向财经 E 法透露，团队 2023 年 2 月初组建，最初是五六人的兴趣小组研究图像 AI 新技术，并未设定明确商业目标。
 3 月份团队认为核心技术趋于成熟，确定聚焦 AIGC 图像中的“写实人像”垂直赛道。
 ## 二、选择娱乐兼社交的 AIGC 应用方向
@@ -85,30 +85,30 @@ AI 应用的思考逻辑与传统互联网不同，更像互联网早期：不�
 要实现完美效果且兼顾自动化与操作简便，需解决哪些问题？
 #### 训练集需要多少张照片？
 我们做过测试，单纯 SD-WebUI 的 loRA 训练要保证稳定还原，训练集少于 30 张效果明显下降。作为应用，用户上传与可用样本会有偏差。为保证质量，理想情况是用户上传 50-60 张半身清晰面部照。自动化工作流无手动调参，对“像本人且好看”的难度更高。妙鸭的思路可能是引入人脸识别模型计算生成肖像与模板相似度，输出高相似结果，从而减少上传张数并保证质量。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7f297e058d598e2ae56d6e4eefdf64bb.png>
+![](img/zhuanqian_7f297e058d598e2ae56d6e4eefdf64bb.png)
 #### 如何保证数字分身更像真人
 FaceChain 使用 Diffusers 推理。推理前把面部 loRA 与线下风格 loRA 按 Multiplier 合并进 SD，再推理。为节省算力与保证效果，仍可能出现不像本人的情况。为避免过拟合，采用人脸融合：我有你的真人照片，直接融合不就好了。这从相似度上得到本质提升，即使 loRA 因训练集不稳效果不佳，也能保证相似性稳定。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a2c764059012e52cab9b73a0fe14d27b.png>
+![](img/zhuanqian_a2c764059012e52cab9b73a0fe14d27b.png)
 这个逻辑很简单，却鲜少被提出。全网分析妙鸭的文章很多，没人提到人脸融合与 loRA 结合保证相似性。AIGC 多模态被大家反复提及，实操中却少有人落地。我认为这为未来提供了思考方向：先明确要实现的工作流效果，再倒推需要哪些算法与模型组合，兼容性与稳定性靠大量测试。
 #### 用户上传照片质量无法保证怎么办？
 商用场景的训练逻辑和个人自玩完全不是一回事。自研模型时人自己掌控预期，可以专门去凑一套符合效果的优质数据；可一旦面向付费用户，出图的品控就直接等于口碑，上传的照片糊、歪、光线差就导致数字分身丑，拿这个理由去解释，任何用户都不会买账。市场教育成本越重，越难自然裂变。所以在产品设计上必须先把“用户不写 prompt”这件事锁死，那怎么把用户随手传的照片尽量变成可用训练集？妙鸭相机在前端采集上做了拆分上的巧思，本质和 FaceChain 的思路同源——都是用算法从上传图里挑质量最高的做模板，只是妙鸭把它分成了两步来做。我们猜测分步主要藏着两层考量：一是用户体感，20 张一次性要人找不着就直接流失，先收一张确认质量再补齐，沉没成本会让人愿意再拍几张；二是工程上的取舍，可能第一张直接当模板用，省掉一次性的全量质检计算。第一步先要一张人脸正脸，同时用活体人脸检测判断五官是否清晰，并给出样例指引；第二步再补 20 张，同样用人脸检测比对是否同一个人、五官是否清晰。为了进一步提纯训练集，算法侧做了图像旋转、人脸旋转、面部区域裁剪分割、皮肤修饰等一系列预处理，给数据做质量兜底。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cf0d6c44208f19d6abf120ce30fc1287.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0f8c4665ad1d1fba711873323ec49454.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5d67d4ffcfcbc86ae003ff0d2bd899e8.png>
+![](img/zhuanqian_cf0d6c44208f19d6abf120ce30fc1287.png)
+![](img/zhuanqian_0f8c4665ad1d1fba711873323ec49454.png)
+![](img/zhuanqian_5d67d4ffcfcbc86ae003ff0d2bd899e8.png)
 #### 美观和真实，到底拧哪一边？
 要不要追求极致还原，还是先让图好看，得回到妙鸭相机的产品定义上。它从一开始就把自己叫“写真”，而不是头像。AI 头像、换脸的玩法 17 年就有了，颜值经济在社交里是刚需，还原度并不是第一性原理。产品思维要跳出技术思维，想的是技术能解决用户什么问题，而不是参数多好看。海马体、天真蓝这类线下写真，精修后的人像也未必100%还原，但大家仍觉得抽象又高级。无论是线下写真还是数字写真，用户本质诉求是：我想更美，还是只想看穿搭效果？结论很明确，在保证可辨识度的前提下，美观优先。所以训练集处理时直接上皮肤修饰，相当于给数据先做了一层美颜；前端在不同模板上再叠滤镜，进一步把视觉质感兜住。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8b578f329c42049ec275e420d8bff31f.png>
+![](img/zhuanqian_8b578f329c42049ec275e420d8bff31f.png)
 ### （四）前端和 UI 怎么设计才能让人不劝退？
 #### 1.极简上手
 妙鸭相机和传统 AI 绘画小程序的差异就在于 0 门槛。它让一个从未碰过 AIF 的用户进主页三秒就知道该干嘛、要走几步。像灵创 AI 这类工具，功能堆得太多，普通人进来直接懵。虽然也是小程序形态，但操作认知成本仍然很高。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8ece38752f0d156553309a5ae7ec446c.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_519bbf9bc64d917e1f36d3bcfb2e66cd.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bd9004e56b36d4ad5ceedaa82ca12a9d.png>
+![](img/zhuanqian_8ece38752f0d156553309a5ae7ec446c.png)
+![](img/zhuanqian_519bbf9bc64d917e1f36d3bcfb2e66cd.png)
+![](img/zhuanqian_bd9004e56b36d4ad5ceedaa82ca12a9d.png)
 （妙鸭相机） （灵创 AI） （艺马）
 #### 2.青春且耐看
 界面走的是清新简洁路线，配色淡雅舒服。商业逻辑是先付费，首页就用大面积真人出片演示来建立信任；图标、按钮都非常克制，个性化模板页也保持极简。反观很多 AI 应用，旧模型不能下线，新模型不断叠加，界面越用越臃肿。妙鸭整体视觉更易读易用，让人用起来轻松、有好感。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8d4079b1d22ef8e2751e472a361a90ab.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_355fe4686df186c5c489e84ba15017b5.png>
+![](img/zhuanqian_8d4079b1d22ef8e2751e472a361a90ab.png)
+![](img/zhuanqian_355fe4686df186c5c489e84ba15017b5.png)
 ### （五）算力绕不开，商业模式怎么才健康？
 AI 产品和传统互联网不一样，有几块成本是优化不掉的：算力贵、训练要等、模型有缺陷、多模态稳定性差。解决不了就只能找平衡，训练时间本质上就是效果的代价。要不要训练，能不能接受等待，决定了商业设计的走向。大家聊得最多的就是妙鸭的先付费，下面用两种路径对比。
 （图 1）
@@ -117,9 +117,9 @@ AI 产品和传统互联网不一样，有几块成本是优化不掉的：算�
 #### 2.“互联网时代，免费先扩张”
 移动互联网的打法是免费获客靠补贴，靠游戏、电商、广告变现。按这个思路更符合用户直觉：先看效果再付费。可问题是先看效果意味着每个进来的用户都要跑一次 LoRA 训练，算力成本立刻放大。
 举个粗算：国内最便宜的 AutoDL，A100 80G 约 4400 元/月。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1cd8da7da326c0a2a993248182beac48.png>
+![](img/zhuanqian_1cd8da7da326c0a2a993248182beac48.png)
 满载能同时跑 4 个任务，数据清洗+训练+推理 15~20 分钟一轮，24 小时不间断可产出约 384 个 LoRA，平均每个训练成本约 0.4 元。粗略看 20 个体验用户里要有 1 个付费才能回本。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3f8a28b8456ff5a6d87bc7cc68d7c152.png>
+![](img/zhuanqian_3f8a28b8456ff5a6d87bc7cc68d7c152.png)
 按阿里云价格，单个 LoRA 训练成本约 2 元，体验转化要达到 1/5 才能打平。
 还没算存储、CDN、技术人力。更关键的是并发量：若每小时进来 1000 人，需要至少 60 台 A100 才能满足训练，妙鸭高峰日新增一度达 127 万。若完全免费体验，算力需求只会更高。AIGC 应用的算力开销远高于传统 App，免费模式长期很难自洽。
 # 三、妙鸭相机的市场打法

@@ -1,6 +1,6 @@
 # 李继刚的“思考七武器”，我全塞进了AI工作流
 大家好，我是龙哥。
-最近，我一直在反复使用李继刚的「思考七武器」。越是常用，越能翻出新意——就像每天升起的太阳，给你的都是光，但一天的清晨和另一天的清晨永远不同。这是我最近最真实的感受。于是，就有了下面这段对话：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0e5e09cf8280386a7b05f3918e002b96.png>
+最近，我一直在反复使用李继刚的「思考七武器」。越是常用，越能翻出新意——就像每天升起的太阳，给你的都是光，但一天的清晨和另一天的清晨永远不同。这是我最近最真实的感受。于是，就有了下面这段对话：![](img/zhuanqian_0e5e09cf8280386a7b05f3918e002b96.png)
 我一直说，要把和AI协作的方法持续分享出来。这次能写成文，特别感谢继刚兄的授权。有了他的允许，才有了下面的实操和思考。
 ## 先认识一下「思考七武器」
 这七个提示词，是李继刚把“read in, prompt out”落到实处的体现。他不是随手写几个模板，而是从7本经典著作里提取精华，再把那些内核封装成一套思考工具。
@@ -83,8 +83,8 @@
 ;; 4\. 输出完 SVG 后, 不再输出任何额外文本解释
 ;; ━━━━━━━━━━━━━━
 ```
-这个工具专门对付“模糊表达”。它的核心动作是把一段话往两个方向转换：一个方向向下，变成具体、细腻、有画面的描写；另一个方向向上，提炼成高度浓缩的抽象句子。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_59d909f75554617620b70cacb9a7f10b.png>
-案例：给它输入“向死而生”，生成的结果是：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1e1e17a3ff410819067eba0e91b30d48.png>
+这个工具专门对付“模糊表达”。它的核心动作是把一段话往两个方向转换：一个方向向下，变成具体、细腻、有画面的描写；另一个方向向上，提炼成高度浓缩的抽象句子。![](img/zhuanqian_59d909f75554617620b70cacb9a7f10b.png)
+案例：给它输入“向死而生”，生成的结果是：![](img/zhuanqian_1e1e17a3ff410819067eba0e91b30d48.png)
 ## 逻辑之刃
 提示词如下：```
 ;; ━━━━━━━━━━━━━━
@@ -152,8 +152,8 @@
 ;; 4\. 输出完 SVG 后, 不再输出任何额外文本解释
 ;; ━━━━━━━━━━━━━━
 ```
-这把“刃”最大的用处，是把一团自然语言切成清晰命题，再通过形式逻辑推出新洞察，最后把推导结果翻译回普通人都能懂的话。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bc3304bfddac15960e2b696165439630.png>
-案例：输入“向死而生，如何锻炼情商？”，输出见下方：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a630bfd464b5799d72878b65e1894ed9.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b00c84cb7697dc435b8a1b8120c6ce3b.png>
+这把“刃”最大的用处，是把一团自然语言切成清晰命题，再通过形式逻辑推出新洞察，最后把推导结果翻译回普通人都能懂的话。![](img/zhuanqian_bc3304bfddac15960e2b696165439630.png)
+案例：输入“向死而生，如何锻炼情商？”，输出见下方：![](img/zhuanqian_a630bfd464b5799d72878b65e1894ed9.png)![](img/zhuanqian_b00c84cb7697dc435b8a1b8120c6ce3b.png)
 ## 问题之锤
 提示词如下：```
 ;; ━━━━━━━━━━━━━━
@@ -218,8 +218,8 @@
 ;; 4\. 输出完 SVG 后, 不再输出任何额外文本解释
 ;; ━━━━━━━━━━━━━━
 ```
-这一件负责“往深处挖”。它的核心作用有三层：第一，从表面问题逐步逼问到底层问题；第二，推动你突破已有的知识边界，去探索未知；第三，通过连环追问，找到那个最根本的“第一问题”。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_05429524f181b5ebd2c020590ab31ca9.png>
-案例：输入“向死而生？”，结果是这样：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f24cdb4bd8adee2b8d52c6a5c9907961.png>
+这一件负责“往深处挖”。它的核心作用有三层：第一，从表面问题逐步逼问到底层问题；第二，推动你突破已有的知识边界，去探索未知；第三，通过连环追问，找到那个最根本的“第一问题”。![](img/zhuanqian_05429524f181b5ebd2c020590ab31ca9.png)
+案例：输入“向死而生？”，结果是这样：![](img/zhuanqian_f24cdb4bd8adee2b8d52c6a5c9907961.png)
 ## 视野之镜
 第五件武器，聚焦在“观察角度”上——同一个问题，换个位置看，答案可能完全不同。它对应的完整提示词和案例，建议直接回原文档对照，这里先不展开。
 把这七件武器放进自己的AI工作流里，逐个试，你会慢慢理解什么叫“反复用，反复新”。希望这篇拆解，能让你也拿起其中一把，去解决手头的问题。
@@ -283,10 +283,10 @@
 ;; ━━━━━━━━━━━━━━
 ```
 遇到棘手问题时，很多人第一反应就是埋头硬啃。但真正聪明的做法，是先换个玩法。那套“思考七武器”里，有一款提示词专攻问题拆解，核心理念就三条：把问题压缩到最小切面，用不同棱镜重新看待它，再挑一个最省力的下手点。试着把“向死而生，优质读书笔记内容有哪些？”喂给它，瞬间就能理出清清爽爽的思路。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_dafa564175273f2dd3ea55eee4c5e9e8.png>
+![](img/zhuanqian_dafa564175273f2dd3ea55eee4c5e9e8.png)
 案例放在这里：输入“向死而生，优质读书笔记内容有哪些？”，输出结果不一般。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4f09bdac323100cc0b23b25b163d0f7d.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f7bf567e023e549d9c07fcb4c232466d.png>
+![](img/zhuanqian_4f09bdac323100cc0b23b25b163d0f7d.png)
+![](img/zhuanqian_f7bf567e023e549d9c07fcb4c232466d.png)
 接着认识第六件武器——定义之矛。它天生就是来对付“似懂非懂”的，能把模糊的说法硬生生磨成精确的结论。以前你想到“向死而生”，可能只有一种朦胧的感觉；被这支矛一点，概念的骨架、侧面、天花板全都清清楚楚。
 提示词长这样：```
 ;; ━━━━━━━━━━━━━━
@@ -337,9 +337,9 @@
 ;; ━━━━━━━━━━━━━━
 ```
 它的本事也很纯粹：让模棱两可变成一清二楚，从不同角度解剖本质，再搭起一个完整的认知坐标。到底多好用？看下面这个演示。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_69dbdecc912798db02490bb2ae7ced0b.png>
+![](img/zhuanqian_69dbdecc912798db02490bb2ae7ced0b.png)
 输入“向死而生”四个字，输出直接给出一整套解读：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_12e96174f346c3b8e91527deab38ab87.png>
+![](img/zhuanqian_12e96174f346c3b8e91527deab38ab87.png)
 第七件武器叫矩阵之网。它的方式是搭“格子”——先把问题的关键维度揪出来，再用十字交叉的矩阵框住所有可能性，最后按着格子一格一格看完，问题就没什么死角了。想研究“向死而生”的优质读书笔记？这网一撒，收获尽收眼底。
 提示词放在这里：```
 ;; ━━━━━━━━━━━━━━
@@ -404,10 +404,10 @@
 ;; ━━━━━━━━━━━━━━
 ```
 用途归纳起来也简单：提炼维度、搭建矩阵、完成系统分析。我们来亲眼看看效果。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_00a6d50985c797bb3df6c6ec2f67c1d0.png>
+![](img/zhuanqian_00a6d50985c797bb3df6c6ec2f67c1d0.png)
 输入“向死而生，优质读书笔记”，输出如下：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2cebe099df0c7403e80dc805e38d8aaa.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_27ee72267cae5b4a2830fe6be0f12bfa.png>
+![](img/zhuanqian_2cebe099df0c7403e80dc805e38d8aaa.png)
+![](img/zhuanqian_27ee72267cae5b4a2830fe6be0f12bfa.png)
 第八件武器是类比之弓。它最擅长打比喻，能把复杂概念背后的结构摸透，然后用一幅人人都能想到的画面说清楚。比如把“向死而生”和“AI+工作流”放在一起，这张弓射出来的类比，简直就像量身定做一样精准。
 提示词请看：```
 ;; ━━━━━━━━━━━━━━
@@ -460,10 +460,10 @@
 ;; ━━━━━━━━━━━━━━
 ```
 它只干三件事：抓本质模式、造生动类比、把抽象翻译成具象。案例展示如下。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2ecb185dd4287bc38e5e5f70f6e9d163.png>
+![](img/zhuanqian_2ecb185dd4287bc38e5e5f70f6e9d163.png)
 输入“向死而生，AI+工作流”：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_319f45fc59b3c199e7e94c87e09a54a5.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3a5e6d38dd23e85590111d8be4076955.png>
+![](img/zhuanqian_319f45fc59b3c199e7e94c87e09a54a5.png)
+![](img/zhuanqian_3a5e6d38dd23e85590111d8be4076955.png)
 单件武器看完了，咱们进入串联实战篇。七件武器之间可以组合成几套固定工作流，按场景选择，效率翻倍。
 第一套是“概念分析工作流”，专门用来啃下那些难懂的概念。流程不复杂：先用一个提示词立起整体结构，再让定义之矛钉住核心，接着请矩阵之网摊开各个角度，最后用类比之弓把结论讲成人话。具体怎么操作，看这里：
 ```
@@ -479,10 +479,10 @@
 *   撰写说明文档
 ```
 实战案例就拿“弄懂大模型微调”来说，整套走一遍，概念瞬间变得亲切友好。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_00ad9104b165d8df4478143928c50654.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_64523da5496fff6158ba5fe80ced907a.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_daedfa95d69ea612760743f922b7044e.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c6727e78a8b1e1c59f3c96e9e7beef2c.png>
+![](img/zhuanqian_00ad9104b165d8df4478143928c50654.png)
+![](img/zhuanqian_64523da5496fff6158ba5fe80ced907a.png)
+![](img/zhuanqian_daedfa95d69ea612760743f922b7044e.png)
+![](img/zhuanqian_c6727e78a8b1e1c59f3c96e9e7beef2c.png)
 第二套是“问题诊断工作流”，专治那些纠缠不清的难题，比如“为什么我单身”。与其胡思乱想，不如按流程来：先锁定问题的本质，再用矩阵列出所有潜在原因，最后瞄准最关键的那一个。完整工作流长这样：
 ```
 问题之锤 → 视角之镜 → 逻辑之刃 → 矩阵之网
@@ -497,10 +497,10 @@
 *   风险评估
 ```
 案例演示：输入“为什么我单身？”，按着流程走完，答案自己就浮出来了。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bfa022d2698f7941e8859e62f5aa45d6.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1272b4751d61dc3fb0d37edb624ffa7c.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_18d1f86f776122469f1903bcf043b7c0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2fe8790eee597f60fddbf0a961cdde21.png>
+![](img/zhuanqian_bfa022d2698f7941e8859e62f5aa45d6.png)
+![](img/zhuanqian_1272b4751d61dc3fb0d37edb624ffa7c.png)
+![](img/zhuanqian_18d1f86f776122469f1903bcf043b7c0.png)
+![](img/zhuanqian_2fe8790eee597f60fddbf0a961cdde21.png)
 你是否经常觉得，学了很多东西却记不住，心里有很多想法却说不清楚？其实，问题的关键不在于你不够努力，而在于缺少一套好用的思维流程。
 今天，我们抛开枯燥的理论，直接进入实操环节：把几类高频场景的工作流，像搭积木一样串起来。你会发现，思考一旦有了“步骤”，难题就会变得格外丝滑。
 **一、把知识装进脑子：学习提炼工作流**
@@ -519,7 +519,7 @@
 *   课程总结
 *   经验提炼
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3d61f6fc1d3f95f8842b29691765d161.png>
+![](img/zhuanqian_3d61f6fc1d3f95f8842b29691765d161.png)
 **二、把话说清楚：沟通表达工作流**
 复杂的事情，怎么讲别人才听得懂？
 秘诀是：先结论、再论点、后论据、最终给画面。用这个顺序组织语言，对方不会走神。若你想表达“我始终觉得，最强大的依旧是会用 AI 的你”，千万别绕弯子，直接把这个观点放在最前面，然后用两个理由支撑，再补一个具体场景，最后用一句有温度的话收尾。
@@ -536,8 +536,8 @@
 *   方案汇报
 *   写作创作
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3ba4e3d37056eb3169b17090223d2533.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1e0741587bde3a22e20d2763631ceedc.png>
+![](img/zhuanqian_3ba4e3d37056eb3169b17090223d2533.png)
+![](img/zhuanqian_1e0741587bde3a22e20d2763631ceedc.png)
 **三、把思考用进生活：七武器串联日常**
 思维工具不该悬在书本里，它应该用来解决你的现实问题。比如下面这三个场景：
 **1. 择业决策工作流**
@@ -561,14 +561,14 @@
 家人的角度看这份工作
 行业专家的视角看发展前景
 ```
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d2f73ad9df6f6a3b758867a91c2170d0.png>
+![](img/zhuanqian_d2f73ad9df6f6a3b758867a91c2170d0.png)
 **2. 旅行规划工作流**
 想爬珠峰又怕危险？那就别只看目的地，而是把旅行当成一次思考练习。
 先用“视角之镜”定调——探险还是休闲？深度还是广度？文化还是自然？再看“矩阵之网”——建立“季节-体验”矩阵，评估每个目的地的适配度。接着用“抽象之梯”安排行程——具体到每天打卡哪些景点，抽象到每天感受什么主题。最后用“类比之弓”升华——把旅途比作人生缩影，每个景点都是一个故事。
 这样一来，旅行不仅有了路线，更有了意义。
 ```
 ### 工作流演示：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bbcf6484a76609b615d54d47eb4492e4.png>
+![](img/zhuanqian_bbcf6484a76609b615d54d47eb4492e4.png)
 ## 3、健康管理工作流
 ### 工作流说明：
 ```
@@ -577,10 +577,10 @@
 “定义之矛”先明确目标：是减重、提体能，还是改善作息？再用“问题之锤”追问：亚健康的根源是什么？生活方式如何影响身体？压力管理的关键在哪？然后用“矩阵之网”建立“时间投入-效果”矩阵，规划运动和饮食。最后用“类比之弓”把健康当成园艺——你的身体，就是那台需要精心维护的精密仪器。
 ```
 ### 工作流演示：高血压如何预防？
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_45703bc6a9efb4126f466d2d2685e7d8.png>
+![](img/zhuanqian_45703bc6a9efb4126f466d2d2685e7d8.png)
 * * *
 # 四、思考七武器深度串联之七器工作法
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2845907b472039a6a7475af6f718ceff.png>
+![](img/zhuanqian_2845907b472039a6a7475af6f718ceff.png)
 ## 1、问题分析与解决的七步工作流
 ━━━━━━━━━━━━━━━━━━━━━━━━
 1️⃣ 问题之锤： 砸碎表象
@@ -653,7 +653,7 @@
 * * *
 # 五、思考七武器深度串联之自媒体创作工作流
 ## 1、工作流说明：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bd4dd1c9bf729f915589a88d33733362.png>
+![](img/zhuanqian_bd4dd1c9bf729f915589a88d33733362.png)
 ## 2、自媒体内容创作七步法
 1️⃣ 视角之镜： 选题定位
 目标：找到最吸引人的切入点

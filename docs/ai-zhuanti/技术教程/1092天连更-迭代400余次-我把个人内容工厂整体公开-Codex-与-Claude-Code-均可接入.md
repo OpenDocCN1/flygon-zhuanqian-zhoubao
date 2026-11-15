@@ -5,7 +5,7 @@
 当前这套产线主要支撑三件事：我个人朋友圈连更与公众号IP内容；公众号流量主变现；学员拿去跨场景复用以验证迁移性。
 投入的材料来自口述转文字、日记、聊天记录、旧稿、新闻观察与热点。系统会先归档、拆解、生成初稿、选标题、独立审校与发布终审，最终输出朋友圈短帖、公众号长文或流量主稿件。
 实打实的运行体感如下。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_63d681c3c6cfc238018cdb43385a6ba3_0_0.png>
+![](img/zhuanqian_63d681c3c6cfc238018cdb43385a6ba3_0_0.png)
 - 个人IP：朋友圈已经连更1092天。过去一篇需磨半小时，如今两小时可完成七篇初稿的生产，我再逐篇把关。更新压力明显下降，成稿仍保留我的经历、判断与表达习惯。
 - 公众号流量号：把过往十万加文章与做死账号的经验提炼成规则后，用当前产线带新号。单篇阅读现阶段多稳定在千级；热点、选题、对标与表达全部到位时可冲至万级。
 - 现场验证：2026年5月于惠州带14人用半天走完全流程，当场出现首篇初稿。加上日常一对一指导，累计已有30多人完整跑通。
@@ -22,15 +22,15 @@
 工厂首先服务于朋友圈连更与个人IP。长期公开记录可供回溯，商务洽谈时比口头介绍更具说服力。下方两图为早期与现阶段的连更凭证。
 ### 2. 从指令到工厂｜四百多次迭代
 日更系统从2.0演进至7.2，才形成当下完整结构。下图保留了版本更迭痕迹。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_63d681c3c6cfc238018cdb43385a6ba3_2_0.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_63d681c3c6cfc238018cdb43385a6ba3_2_1.png>
+![](img/zhuanqian_63d681c3c6cfc238018cdb43385a6ba3_2_0.png)![](img/zhuanqian_63d681c3c6cfc238018cdb43385a6ba3_2_1.png)
 ### 3. 线下实操｜14人半天跑通，累计30余人
 2026年5月惠州航海线下会，14人半天完成全流程，当场产出初稿。结合日常辅导，累计超30人跑通，证明普通人可操作。
 ### 4. 公众号历史流量｜单篇峰值十万+
 曾运营娱乐八卦、情感、婆媳、银发赛道，峰值十万+，常见爆文一万至两万，亦有不少账号未起色。成功与失败被拆解为对标、选题、标题、风险边界等规则，写入流量侧。
 多数十万+稿件已主动下架，故下图来自仍可访问的账号。下架原因与平台风险详见第二章。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_63d681c3c6cfc238018cdb43385a6ba3_3_0.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_63d681c3c6cfc238018cdb43385a6ba3_3_1.png>
+![](img/zhuanqian_63d681c3c6cfc238018cdb43385a6ba3_3_0.png)![](img/zhuanqian_63d681c3c6cfc238018cdb43385a6ba3_3_1.png)
 ### 5. 新号现阶段表现｜千级稳定，条件好上万
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_63d681c3c6cfc238018cdb43385a6ba3_4_0.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_63d681c3c6cfc238018cdb43385a6ba3_4_1.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_63d681c3c6cfc238018cdb43385a6ba3_4_2.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_63d681c3c6cfc238018cdb43385a6ba3_4_3.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_63d681c3c6cfc238018cdb43385a6ba3_4_4.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_63d681c3c6cfc238018cdb43385a6ba3_4_5.png>
+![](img/zhuanqian_63d681c3c6cfc238018cdb43385a6ba3_4_0.png)![](img/zhuanqian_63d681c3c6cfc238018cdb43385a6ba3_4_1.png)![](img/zhuanqian_63d681c3c6cfc238018cdb43385a6ba3_4_2.png)![](img/zhuanqian_63d681c3c6cfc238018cdb43385a6ba3_4_3.png)![](img/zhuanqian_63d681c3c6cfc238018cdb43385a6ba3_4_4.png)![](img/zhuanqian_63d681c3c6cfc238018cdb43385a6ba3_4_5.png)
 该批新号文章均由现系统产出。当前单篇多在千阅读，偶有万阅读。能否上万取决于热点质量、对标精度、选题爆发力与表达准确度，不保证每篇都爆。千级为常态，万级为上浮。
 ### 6. 内容带来的业务结果
 数据说明流程可行，长期内容更在积累信任。下方合作即从公众号文章启动。
@@ -308,4 +308,4 @@ IP号与流量号共用主产线，差异在入口、素材权重、排序逻辑
 我们不谈空话，只做商业闭环的拆解和AI效率的深度压榨。已经沉淀在系统内部的，是1000多套经过实际验证的套利模型。
 💪 查看圈子的完整数字资产与上车标准：
 认同价值，已经做好准备下场实战的人，可以扫码添加微信（）。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_63d681c3c6cfc238018cdb43385a6ba3_58_0.png>
+![](img/zhuanqian_63d681c3c6cfc238018cdb43385a6ba3_58_0.png)

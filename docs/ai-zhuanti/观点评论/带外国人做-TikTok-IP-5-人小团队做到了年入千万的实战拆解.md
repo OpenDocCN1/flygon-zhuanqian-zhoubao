@@ -21,7 +21,7 @@
 6、老外先天表达欲强。容貌焦虑、镜头恐惧普遍较弱，这是做 IP 的天然优势。
 所以我教 TikTok 运营，本质是信息差+认知差+执行力+风口的叠加。
 怎么理解？国内知识付费已经卷到 6.0 了，我把国内成熟的方法搬运、改写、再发，这就是信息差。认知差是国外还在玩完美、如新、美乐家那套 2.0 的模式，这就是认知差。执行力就是矩阵更新，风口就是短视频还在高峰期，元宇宙和脑机还没成熟前，短视频依然是主战场。这就是我对这个项目的理解。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9d0fed612404facef7ee408496c8ebec.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_291e96dd88e14b74bf2136e15f75cde0.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_52f96938357df51c8550d05cf9006035.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f27b0388b8ecff9bd6bc67c453f7a4b2.png>
+![](img/zhuanqian_9d0fed612404facef7ee408496c8ebec.png)![](img/zhuanqian_291e96dd88e14b74bf2136e15f75cde0.png)![](img/zhuanqian_52f96938357df51c8550d05cf9006035.png)![](img/zhuanqian_f27b0388b8ecff9bd6bc67c453f7a4b2.png)
 **2、项目定位**
 项目形态是出海知识付费，内容主轴是成功学+降维打击。
 核心用户是教老外或海外的华人在 TikTok 上做 IP。
@@ -31,7 +31,7 @@
 比如 X、FB、YB、IG、Threads 等公域矩阵引流，承接用 WhatsApp 和 LINE。虽然 LINE 在日韩多，但社交工具要覆盖，不用也可以，但不能没有。
 定位和底层逻辑讲完，下面进入实操。
 # 二、实操拆解
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_77d00d28d7aa8cba4ce4cac7328e1cba.png>
+![](img/zhuanqian_77d00d28d7aa8cba4ce4cac7328e1cba.png)
 **1、硬件**
 个人做的话一台 iPhone 7-8 就够用。
 团队作战建议人均 5-10 台，看运营量。工作机不用太好，500 元左右能搞定。京东自营选择多，别去本地水货店，附近维修点买二手更靠谱。
@@ -47,7 +47,7 @@
 TikTok 以外，有精力就注册 WeChat、YouTube、Telegram、LinkedIn、Threads、X、Facebook。道理同国内 B 站、抖音、快手、视频号、小红书一起发，哪个爆就猛攻哪个引流。
 **7、私域承接**
 LINE、WeChat、WhatsApp 都要准备。WhatsApp 在 23 年 5-7 月因电诈问题大面积封号，我们也中招。后来改用实体卡，一机一卡。测试过 Tmobile、LYCA、ATT、Simple，最后用 Ultra，月租 3 美元。手机卡稳定后注册海外 APP 畅通。手机要刷机、归属地设成本地。具体设置自行搜索，海外团队不存在这个问题。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_22719554b76bfd5605390e6718ee02bd.png>
+![](img/zhuanqian_22719554b76bfd5605390e6718ee02bd.png)
 **8、收款**
 跨境回款不闭环一切白搭。海外收款相对容易，国内监管严，人均购汇 5 万上限。PayPal 容易被风控冻结，虽然钱不会丢，但资金长期卡住。而且 PayPal 不想让钱流进中国。
 我们试过万里汇、Ocean、PingPong、花旗 Xtranfer，虚拟类基本被拒。电诈问题严重，虚拟产品直接被拒。
@@ -56,11 +56,11 @@ LINE、WeChat、WhatsApp 都要准备。WhatsApp 在 23 年 5-7 月因电诈问�
 交付价格统一 4999 美金，课程+1v1咨询+训练营。
 平台选择踩过很多坑。Teachable、Kajabi、Systeme.io、Thinkific 各有优劣。费用、手续费、操作难度不同。
 [`teachable.com/`](https://teachable.com) 升级 PRO 可免手续费，前期免费版够用，但抽 10%。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5462a87c223828558d80c2c4484db806.png>
+![](img/zhuanqian_5462a87c223828558d80c2c4484db806.png)
 [`systeme.io/`](https://systeme.io/) 新手友好，一体化，近两年崛起。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6ba7722a4dcc2ceedd99497c37635770.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_45868cef3413de88d57a4c7ace2b167c.png>
+![](img/zhuanqian_6ba7722a4dcc2ceedd99497c37635770.png)![](img/zhuanqian_45868cef3413de88d57a4c7ace2b167c.png)
 [`www.thinkific.com/`](https://www.thinkific.com) 和 Teachable 接近，价格和细节功能有差异，看习惯选。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_024a7b710e4cd1449799f762452e6045.png>
+![](img/zhuanqian_024a7b710e4cd1449799f762452e6045.png)
 仅解决课程承载，还要闭环流量。
 单纯靠自有账号不够。新媒体要么靠作品出奇，要么靠体量碾压。制作周期、人本成本很高，最后选口播，性价比高。完成比完美重要，能持续周更日更比追求爆款更靠谱。用量去怼，提升爆款概率。AI 人像也能用，但我坚持真人出镜，做信任背书。
 矩阵操盘手借鉴博商和参哥打法，操盘手几乎都是海外，不做交付只做引流成交。有一套 FAQ，通过内容+评论区截流。不培养，只筛选，学员转操盘手。
@@ -70,7 +70,7 @@ LINE、WeChat、WhatsApp 都要准备。WhatsApp 在 23 年 5-7 月因电诈问�
 人聚钱散，钱散人聚。钱赚不完，人品格局是长期资产。阿米巴模式的关键是 IP 魅力+分钱干脆+舍得。别把别人当傻子，否则自己最傻。
 # 三、团队规模
 从去年到今年，CRM 库截止上月 268 位客户。起步价一直 4999 USD。TikTok 知识部门核心团队 5 人。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6df1af5768b680e8b8e6518015f2e450.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f571ed0e7bf5823716a3e17a7b66d06b.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_eae043f8363dbfbfb3f595f614b97966.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_513fb1c6e4a66a3059d7cf10ca9994e4.png>
+![](img/zhuanqian_6df1af5768b680e8b8e6518015f2e450.png)![](img/zhuanqian_f571ed0e7bf5823716a3e17a7b66d06b.png)![](img/zhuanqian_eae043f8363dbfbfb3f595f614b97966.png)![](img/zhuanqian_513fb1c6e4a66a3059d7cf10ca9994e4.png)
 团队从 3 人到 5 人，再到阿米巴老师十几个。很多人劝我放大割韭菜，我一直说破镜难圆，人品坏了无法心安。我信因果，慢一点会走得更远。
 # 后记
 做项目或选细分赛道，保持三个心态：
@@ -90,5 +90,5 @@ LINE、WeChat、WhatsApp 都要准备。WhatsApp 在 23 年 5-7 月因电诈问�
 欧佑铭 931 : 有问题直接问就好啦～我看到都会回复～
 欧佑铭 931 : 谢谢认可
 欧佑铭 931 : 这里就可以发问[呲牙]
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1c37d505930596d12a88ab23e11aa07a.png>
+![](img/zhuanqian_1c37d505930596d12a88ab23e11aa07a.png)
 * * *

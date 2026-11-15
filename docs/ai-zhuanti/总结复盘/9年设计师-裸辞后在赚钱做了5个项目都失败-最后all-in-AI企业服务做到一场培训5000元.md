@@ -41,13 +41,13 @@
 ### 垂直公众号：第一次把内容连到了真实业务
 绕了一大圈，我帮一个朋友做垂直公众号。这时我才感觉到，小红书让人看见你，公众号则处在微信生态里，内容、加微信、咨询、沟通，链路更顺滑。做了两个月，做到了1000粉，也带来了咨询。
 虽然问题仍在，但这次给了我一个关键体感：原来内容可以从播放量、粉丝数，一步步连接到真实的咨询和生意。后来我做AI公众号工作流，很多最早的理解，都来自这个小号。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3fb74be4f389300150be68090689258e_0_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3fb74be4f389300150be68090689258e_2_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3fb74be4f389300150be68090689258e_10_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3fb74be4f389300150be68090689258e_11_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3fb74be4f389300150be68090689258e_13_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3fb74be4f389300150be68090689258e_14_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3fb74be4f389300150be68090689258e_15_0.png>
+![](img/zhuanqian_3fb74be4f389300150be68090689258e_0_0.png)
+![](img/zhuanqian_3fb74be4f389300150be68090689258e_2_0.png)
+![](img/zhuanqian_3fb74be4f389300150be68090689258e_10_0.png)
+![](img/zhuanqian_3fb74be4f389300150be68090689258e_11_0.png)
+![](img/zhuanqian_3fb74be4f389300150be68090689258e_13_0.png)
+![](img/zhuanqian_3fb74be4f389300150be68090689258e_14_0.png)
+![](img/zhuanqian_3fb74be4f389300150be68090689258e_15_0.png)
 现在回头看，这五个项目，没有一个是拍脑袋决定的。它们各有各的理由，也都给过我零星的反馈。正因为不是彻底失败，我才总觉得“这个还能再救一下”“那个好像也该抓住”。
 可真正的麻烦不是试错太多，而是每次试完之后，我没有及时收拢，也没有把有限的精力往一条主线上继续下探。
 ## 我最擅长的逃避，是研究一个又一个新工具
@@ -177,7 +177,7 @@
 3月12号，我在留言里问过：像我这样还没定型、手里又有朋友案例的人，应该钉死某个领域，还是多测几条赛道？
 到今天，我依然给不出人人适用的标准答案。
 但我比当时多明确了一件事：答案不在更新的工具里，也不在我独自硬想的结
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3fb74be4f389300150be68090689258e_30_0.png>
+![](img/zhuanqian_3fb74be4f389300150be68090689258e_30_0.png)
 论里。答案要走向客户，走进真实的需求，在每次交付后的回望里寻找。
 ## 最后，谢这个社群的三个理由
 回头看这一年，若让我列感谢名单，这个社群会排在最前面。
@@ -197,4 +197,4 @@
 但我愿意继续走。
 能读到这，要是你也在这条to B的AI跑道上，也算FDE，欢迎来交流。
 我是龙哥，下次见。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3fb74be4f389300150be68090689258e_33_0.png>
+![](img/zhuanqian_3fb74be4f389300150be68090689258e_33_0.png)

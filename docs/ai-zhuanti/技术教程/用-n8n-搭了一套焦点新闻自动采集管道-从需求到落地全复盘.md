@@ -6,34 +6,34 @@
 ## 最终效果
 整个链路可以概括为：按计划触发 → 并行拉取 → 字段整理 → 写入 Base。
 完整流程截图：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_24dbe16fbe992413a44945ae9a560aff.png>
+![](img/zhuanqian_24dbe16fbe992413a44945ae9a560aff.png)
 飞书 Base 模板链接：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_75425d2bf49e6fe1e06f20e30cda6fc8.png>
+![](img/zhuanqian_75425d2bf49e6fe1e06f20e30cda6fc8.png)
 流程 JSON 和画布界面：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9dfcdc6a8c9ca76549a79be1caeca78c.png>
+![](img/zhuanqian_9dfcdc6a8c9ca76549a79be1caeca78c.png)
 运行结束后，结果会存放在飞书 Base 中，方便随时查询。
 ## 熟悉 n8n 基础操作
 我的 n8n 实例部署在 yuetool.cn 的 n8n 子域名。如果你已经部署好，可以直接跳到下一节。
 第一次打开站点，需要注册 owner account，也就是管理员身份。注册前准备好邮箱和密码：邮箱可以用 Google 邮箱或 QQ 的邮箱服务；密码需要同时包含大写字母、小写字母和数字。
 注册完成并刷新页面后，就可以登录。建议把站点加入浏览器书签，后续进入更方便。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e58b8c71c2887807192200e68a2e6d27.png>
+![](img/zhuanqian_e58b8c71c2887807192200e68a2e6d27.png)
 登录后平台默认显示英文。我用了两种方法翻译界面：
 1. Chrome 自带翻译：在页面右键选择“翻译成中文（简体）”，所有界面会整体变成中文。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f5ca6d573353223fab9a5f2b7b80584d.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1f05eb897a9b99c6be126f3bfa82befa.png>
+![](img/zhuanqian_f5ca6d573353223fab9a5f2b7b80584d.png)
+![](img/zhuanqian_1f05eb897a9b99c6be126f3bfa82befa.png)
 2. 沉浸式翻译插件：到 Chrome 扩展商店安装，之后页面内容会被实时翻译。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_61ec46fdfbb256586027cb27d026edf0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_51d69596986bd95a2ad8ce0544e493c6.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_69eb9962af6dae51c16f4d01ebb30d04.png>
+![](img/zhuanqian_61ec46fdfbb256586027cb27d026edf0.png)
+![](img/zhuanqian_51d69596986bd95a2ad8ce0544e493c6.png)
+![](img/zhuanqian_69eb9962af6dae51c16f4d01ebb30d04.png)
 进入编辑器后，先在 Overview 中点击 Create Workflow，进入主画布。画布上主要有四块：流程名称（双击可改）、节点操作区（加号添加节点）、保存与分享区、日志信息区。左侧面板集合了概览、个人空间、项目、系统设置、模板、变量、洞察、帮助、产品更新等入口。变量功能只有付费方案才提供，我的部署环境里不适用。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_aae1965bfa727912f05b3152bfe30233.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4427437eeb90b0d5b52f5bc3e1f0733d.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c05a5435662971f3931bf34556868cb1.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0a2ace22d176f3928cddf214c9b772ad.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_baf0c02a4f56b406dfdfcfad734a6120.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_236be8500b8f15caacda43889931b910.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_16c95d017cbc9ffb8fdda3fc3128ccb0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6db415d5cf871ba0438d88297a3d76ee.png>
+![](img/zhuanqian_aae1965bfa727912f05b3152bfe30233.png)
+![](img/zhuanqian_4427437eeb90b0d5b52f5bc3e1f0733d.png)
+![](img/zhuanqian_c05a5435662971f3931bf34556868cb1.png)
+![](img/zhuanqian_0a2ace22d176f3928cddf214c9b772ad.png)
+![](img/zhuanqian_baf0c02a4f56b406dfdfcfad734a6120.png)
+![](img/zhuanqian_236be8500b8f15caacda43889931b910.png)
+![](img/zhuanqian_16c95d017cbc9ffb8fdda3fc3128ccb0.png)
+![](img/zhuanqian_6db415d5cf871ba0438d88297a3d76ee.png)
 ## 动工之前，把四件事想明白
 ### 目标定义
 以前我每天都要在多个新闻站点和搜索引擎之间人工检索关键词，又慢又容易遗漏。我希望做到：早晨六点系统自动启动，访问预设的资讯源，抓取与关键词相关的报道，把标题、简介、原始链接整理成简报，再推送到飞书 Base。这样我一到公司，就能直接看到当天的信息摘要。
@@ -44,25 +44,25 @@
 - 自定义代码的格式，如果流程里要写代码，我会先用 Gemini 定好逻辑。
 ### 账号与接口准备
 n8n 使用在线社区版。数据接口我准备了 GNews、NewsAPI、Mediastack 三家候选。如果不知道选哪个，可以让 AI 帮你推荐。下面是我用的检索提示词：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cc943d357eceec02ca80dbb37d241bd7.png>
+![](img/zhuanqian_cc943d357eceec02ca80dbb37d241bd7.png)
 ```
 我将实现[你需要实现的功能/目的]，我需要整理API平台，请帮我检索可用的API平台。
 ```
 飞书侧需要记录四样东西：App ID、App Secret、Base Token、Table ID。
 App ID 和 App Secret 的获取路径是：在飞书开发者后台创建一个企业内部应用，填写基本信息，配置权限，创建版本并发布。发布后，应用列表里会显示这两个值。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_999bf696629e68b7f9b92045e6aee075.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_df3ff517ae826f6f628bda37939f2c56.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1e66711f92263ca8b61ef7729f36efca.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8b56b60b9ff3b6f71307ba999f0723fb.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_81401a19985cd727c5057e10f7ea1e53.png>
+![](img/zhuanqian_999bf696629e68b7f9b92045e6aee075.png)
+![](img/zhuanqian_df3ff517ae826f6f628bda37939f2c56.png)
+![](img/zhuanqian_1e66711f92263ca8b61ef7729f36efca.png)
+![](img/zhuanqian_8b56b60b9ff3b6f71307ba999f0723fb.png)
+![](img/zhuanqian_81401a19985cd727c5057e10f7ea1e53.png)
 接着回到 Base，在“更多”菜单里选择“添加文档应用”，把刚创建的应用加进去。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2926976bc0ffb7321aee1e3f05d521e6.png>
+![](img/zhuanqian_2926976bc0ffb7321aee1e3f05d521e6.png)
 Base Token 和 Table ID 的获取方式：在 Base 中新建一张表，点击右上角“插件”按钮，弹出的 Base ID 就是 appToken，Table 对应的就是 Table ID。以后新增表格，只需替换 Table ID 即可。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5fe01f8a7b3c88c741feff19c58ebd91.png>
+![](img/zhuanqian_5fe01f8a7b3c88c741feff19c58ebd91.png)
 ### 新闻接口调用说明
 GNews 的搜索类接口是 GET 方式，主要传两个参数：关键词 q 和密钥 apikey。具体域名、路径和申请方式可以看官方文档，我这边就不重复贴完整地址了。
 NewsAPI 同样是 GET，参数包括 q、from、sortBy、apikey。from 表示起始日期，把 sortBy 设为 popularity 就可以按热度排序。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fa50a71cad6d61feda0af808abaf0bad.png>
+![](img/zhuanqian_fa50a71cad6d61feda0af808abaf0bad.png)
 流程里还需要接入一个 AI 节点，所以还要准备模型接口的 Key。我选了第三方中转，到中转平台申请 Key 后，填进 n8n 的 AI 节点即可。
 ### 把流程图先画出来
 数据采集类流程的通用结构是：
@@ -133,49 +133,49 @@ C --> C1 --> C2 --> C3 --> D;
 ### 环节一：决定何时启动
 开工第一步，先想好触发条件。这里提供两种接法：
 **定时自动触发**：任务被激活后，会按照你预设的日程到点自动执行。示例中设定的是中国上海时区，每天上午 8 点运行。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e59062fd95d0974664b0a6c2097c2eed.png>
+![](img/zhuanqian_e59062fd95d0974664b0a6c2097c2eed.png)
 开启“按计划进行”后，工作流会依照你填好的时间表自动启动，无需任何人手动点击。
 本示例里我把时间定在了上海时区的早上 8 点。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a2cd4c9d424e7b765075af5009bf8b19.png>
+![](img/zhuanqian_a2cd4c9d424e7b765075af5009bf8b19.png)
 **表单提交触发**：激活后，你可以通过访问指定网页、填写表单内容来手动触发一次执行。填完以后，别忘了先点“执行步骤”，把测试链接完整走一遍，确保入口畅通。
 测试网址：https://n8n.yuetool.cn/form-test/2755945d-8acb-41bf-aeaf-7f53859974cf
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0ce83a9811060ba172116dfe0a538e49.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fddb9a84af3bbe7bf8e60e9363d48b8f.png>
+![](img/zhuanqian_0ce83a9811060ba172116dfe0a538e49.png)
+![](img/zhuanqian_fddb9a84af3bbe7bf8e60e9363d48b8f.png)
 你还可以额外配置“数据返回时间”：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bd7c4feff5a27267e98da5a00718327b.png>
+![](img/zhuanqian_bd7c4feff5a27267e98da5a00718327b.png)
 当访问者成功提交表单，页面会展示提交成功的反馈界面。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c631df4903ad8baa88cdf86c09f96b60.png>
+![](img/zhuanqian_c631df4903ad8baa88cdf86c09f96b60.png)
 而整个后台任务跑完时，页面则显示“正在执行中”的状态提示。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a5efbc061e3873ee3da9ef3973fa9ec1.png>
+![](img/zhuanqian_a5efbc061e3873ee3da9ef3973fa9ec1.png)
 ### 环节二：原始内容从哪里来
 这一版设计走的是 API 接口路线，借助第三方新闻数据接口完成抓取。具体的落地方式是在流程中放置一个“HTTP 请求”节点，把远程内容拉回到本地。
 以 GNews 为例，参数地址需要填这样一串：https://gnews.io/api/v4/search?q=AI&apikey=be7d8e9de9889574a69f6fb1be758898
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e1e8599b8cd098c45339560a86d2b831.png>
+![](img/zhuanqian_e1e8599b8cd098c45339560a86d2b831.png)
 操作上，先双击流程里的节点把它重命名为“GNews 数据源”，然后点一下“执行步骤”，验证这个数据源是否可以正常取数。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d6c434bcef4e1fa1544e65e1aa700029.png>
+![](img/zhuanqian_d6c434bcef4e1fa1544e65e1aa700029.png)
 测试通过后，点右上角的“返回画布”，把节点连好线并保存工作流。
 再来看 NewSAPI，参数地址对应的是：https://newsapi.org/v2/everything?q=Apple&from=2025-09-17&sortBy=popularity&apiKey=1ce6f265cfaf4b9b9cafa16ed8612d78
 同样地，双击节点命名为“NewSAPI 数据源”，运行一次确认可用。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e86f7272bcfaa629d086c007e2586800.png>
+![](img/zhuanqian_e86f7272bcfaa629d086c007e2586800.png)
 两个内容源都就绪后，就可以把所有节点串起来，让画布自动排布整洁。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2e4ba27602d71c48c34961751d58f69a.png>
+![](img/zhuanqian_2e4ba27602d71c48c34961751d58f69a.png)
 ### 环节三：把返回结果梳理成可用字段
 HTTP 请求拿回来的通常是一整坨 JSON，直接拿去给下游用并不友好——字段层级深、无用信息多，后续取数会很别扭。
 这时可以用 Set 节点（也常叫 Edit Fields 节点）做一次瘦身：只留下真正会用到的标题 title、链接 url、摘要 description，其余冗余内容一律丢到一边。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8ddd54a5eb2e3d0135ad6224a019f63c.png>
+![](img/zhuanqian_8ddd54a5eb2e3d0135ad6224a019f63c.png)
 具体操作很简单：双击节点改名为“整合字段”，切换到手动手映射模式，然后把需要的字段直接拖进下方的映射区域。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7d1d8ea1923a08b01842169a83dbbe2b.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0716978ed35cecf22186d06cae825212.png>
+![](img/zhuanqian_7d1d8ea1923a08b01842169a83dbbe2b.png)
+![](img/zhuanqian_0716978ed35cecf22186d06cae825212.png)
 拖完之后千万不要跳过验证这步，点击“执行此步骤”跑一遍，确认输出正确。
 调试时还有一个便利功能：输出框右上角有枚图钉，点一下就能把上一轮的输出结果固定在界面上，后续反复调整逻辑时方便对照。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_14a5bd2ba6bb40162991f6e41ca58d77.png>
+![](img/zhuanqian_14a5bd2ba6bb40162991f6e41ca58d77.png)
 另一条分支也按相同方式配置，但必须留意：各家 API 返回的结构并不相同，所以不要图省事直接复制节点，重头配一遍参数才能避免运行报错。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_289ff46b95ccd8b351cb0da23f70fdf7.png>
+![](img/zhuanqian_289ff46b95ccd8b351cb0da23f70fdf7.png)
 ### 环节四：把几路来源汇成一条流
 既然两边都在采数据，后面步骤希望面向单一数据源操作，就需要先把两路结果归拢到一起。这一步交给数据合并组件来完成。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5cecc6b0099d99490da041cd58506137.png>
+![](img/zhuanqian_5cecc6b0099d99490da041cd58506137.png)
 它会接收多个分支的输出，最终合成一个完整的条目集合，供下游统一消费。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_972db5098661677cab04476a03c069c5.png>
+![](img/zhuanqian_972db5098661677cab04476a03c069c5.png)
 Merge 节点提供了四种工作方式，各有各的脾气：
 **第一种：Append（追加）**
 这种模式最直接。它等所有上游分支都执行完毕后，先取第一路的所有条目，再把第二路接在后面，依次往后排，最终交付一条长列表。好处是简单可靠，适合“多个关键词分别抓完，再汇总成一批”的场景；也适用“两个接口分别返回用户名单，想拼成一份总名单”的情况。
@@ -187,14 +187,14 @@ Merge 节点提供了四种工作方式，各有各的脾气：
 它本质上不做合并，而是充当“同步闸口”：等所有上游全部完成后，只挑出指定分支的那一路数据放行，其他忽略。听上去有点奇怪，但实用场景不少——比如 A 分支在创建文件夹，B 分支在处理数据，你希望文件夹建好之后数据再继续向下走，这时候在中间插一个选择分支节点，就能确保前序任务是真正完成而非只是发出请求。
 ### 环节五：让大模型承担真正的“重活”
 到这里，数据才算勉强能看，但还谈不上深度利用。摘要提炼、情感判断、分类打标、去重、翻译——这些高级加工统一交给 AI 来处理。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4975de57fdd51d8b265a8c838b38c2e1.png>
+![](img/zhuanqian_4975de57fdd51d8b265a8c838b38c2e1.png)
 因为走的是第三方 API，所以选择 OpenAI 聊天模型；如果你的凭证来自官方渠道，直接按对应模型接入即可。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_446ef781e4583bbc9c0deb764324eadf.png>
+![](img/zhuanqian_446ef781e4583bbc9c0deb764324eadf.png)
 本次示例我选用 OpenAI 模型，按下方图示填写好凭证信息，点“保存”。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_66f117ef18b9db2759e9e8bfc419effc.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_61b65eb0e36b1ab2b8ed2f37e1f89c53.png>
+![](img/zhuanqian_66f117ef18b9db2759e9e8bfc419effc.png)
+![](img/zhuanqian_61b65eb0e36b1ab2b8ed2f37e1f89c53.png)
 凭证保存后，节点会自动发起一次连通性测试。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0df0a5ea43bda3dd3ad0e145cbd3bb2d.png>
+![](img/zhuanqian_0df0a5ea43bda3dd3ad0e145cbd3bb2d.png)
 测试通过后，就该写预设提示词了。注意把上一步合并好的文章集合作为变量传入，界面里变量会以绿色字体标出。
 ```
 你是一名专业新闻编辑，负责筛选、翻译和整理最新的行业动态，并确保信息清晰、美观地呈现给读者。
@@ -216,9 +216,9 @@ Merge 节点提供了四种工作方式，各有各的脾气：
 "序号":"","标题":"","摘要":"","原文链接":"","来源/机构":"","关键词": "","发布日期": ""
 ```
 配置提示词时有两点不能错：第一，“提示来源”要选“用户消息”；
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8d62a5e5296cf857109fe91804eeef09.png>
+![](img/zhuanqian_8d62a5e5296cf857109fe91804eeef09.png)
 第二，变量选定的内容就是合并后的文章数据，确保引用的是绿色字体的那个对象。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_37161b51385eca319aee260b4fe92f86.png>
+![](img/zhuanqian_37161b51385eca319aee260b4fe92f86.png)
 ### 环节六：把 AI 的“散文”改写成“表格”
 大模型的输出往往是一段连贯的自然语言，比如“王芳，邮箱 wangfang@example.com，她的评价是：很满意”。人读起来毫无障碍，但程序要做进一步处理就麻烦了——下一次 AI 换个语序，你的逻辑就崩了。
 解决方案是提前约定好输出结构。你给 AI 一个 JSON 骨架，命令它必须按这个格式回填，它就会交出一份规整的 JSON 对象。
@@ -253,14 +253,14 @@ Merge 节点提供了四种工作方式，各有各的脾气：
 }}
 ```
 动手写代码之前，先问清楚两件事：传进来的参数是什么？期望输出的结构又是什么？
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ad3b72ea9bd4bcb14df4091180d6e084.png>
+![](img/zhuanqian_ad3b72ea9bd4bcb14df4091180d6e084.png)
 传入的参数就是 AI agent 生成的内容，直接拿来作为代码输入即可。
 **备选方式：用 Set 节点做字段映射。**
 如果不需要复杂逻辑，只是把 AI 返回的字段重新映射为表格列，用 Set 节点更轻快。
 ### 环节七：落库到飞书多维表格
 最后一步就是入库。把上一步处理好的结构化记录逐条写入指定的飞书多维表格，标题、摘要、分类、链接等字段要和表格里的列严格对应。如果团队需要同步知晓执行结果，可以在流程末尾再接一个“飞书机器人”通知节点，跑完自动把提醒推送到群里。
 整套设计走下来，真正做到了“无人值守”：从定时触发、内容抓取、字段清洗、多源汇聚，到 AI 提炼、JSON 定型、最终入库，每个环节自动接力。想换内容源或改业务场景，只需调整 API 地址和提示词就能继续复用，非常灵活。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_064ed8fd96ace2dcecdeea76e097b589.png>
+![](img/zhuanqian_064ed8fd96ace2dcecdeea76e097b589.png)
 Code 节点属于个性化定制组件，需要自行编写处理逻辑。它同时支持 JavaScript 与 Python，建议优先使用 Python。由于该节点的输出最终要进入飞书多维表格，字段的命名与类型需提前设计妥当。
 ```
 [
@@ -383,16 +383,16 @@ return output_items
 return process_data(_input.all())
 ```
 把刚生成的代码直接放到 code 节点里去跑，出问题就把报错界面截图发回给 Ai，让它帮你定位并修正。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_62b8d8cc861cbe838f646e593096b01c.png>
+![](img/zhuanqian_62b8d8cc861cbe838f646e593096b01c.png)
 看到预期输出后，把整个节点串线梳理一遍，保存好工作流。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9eeaf18194c6a2c269a7ce79d5dc0986.png>
+![](img/zhuanqian_9eeaf18194c6a2c269a7ce79d5dc0986.png)
 2.  第二种做法：借助 Structured Output Parser 结构化解析输出器来做。这个解析器并不适合当前这套工作流。
 不过你完全可以单独用它来做结构化输出。
 所谓结构化输出，就是提前写好一个 JSON 骨架，明确告诉模型：“输出必须死守这个格式！”。
 在 Ai Agent 节点里怎么调用 Structured Output Parser：
 *   进入 Ai Agent 节点，勾选“输出特定的输出格式”
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_dca9d367e9793168d8904715c048e4c1.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1b037b7c0afb654803eb7d6d2a3a5e99.png>
+![](img/zhuanqian_dca9d367e9793168d8904715c048e4c1.png)
+![](img/zhuanqian_1b037b7c0afb654803eb7d6d2a3a5e99.png)
 打开结构化输出解析器后，把下面这段模板原样贴进去：
 ```
 {
@@ -426,13 +426,13 @@ return process_data(_input.all())
 飞书节点是社区贡献的节点。
 社区搜索地址：https://www.npmjs.com/search?q=keywords%3An8n-community-node-package
 节点包名：n8n-nodes-feishu-lite
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b154c94fa591e078cf34966799776307.png>
+![](img/zhuanqian_b154c94fa591e078cf34966799776307.png)
 这个节点需要手动添加，添加步骤如下：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_222f099ab7c8aedf9936204fa9d85811.png>
+![](img/zhuanqian_222f099ab7c8aedf9936204fa9d85811.png)
 回到工作流，在节点搜索框里输入”feishu“，完成飞书节点的安装。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e3df4367b7e86703c5ba139c88fe19b6.png>
+![](img/zhuanqian_e3df4367b7e86703c5ba139c88fe19b6.png)
 先在飞书多维表格里建好对应的字段，比如标题、来源/机构等，确保名字对应。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_11d6a1f3dea2fd0df842d8dcdbee27e6.png>
+![](img/zhuanqian_11d6a1f3dea2fd0df842d8dcdbee27e6.png)
 再组装飞书多维表格的请求体。
 注意 "标题": "" 里的字段名必须和表格里实际的列名完全一致。
 ```
@@ -459,25 +459,25 @@ App ID：
 App Secret：
 多维表格Token：
 表格ID：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_28312314e806866b41438eb6cb01dc17.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_35349fb853b697e4564b0f9d8c3156dd.png>
+![](img/zhuanqian_28312314e806866b41438eb6cb01dc17.png)
+![](img/zhuanqian_35349fb853b697e4564b0f9d8c3156dd.png)
 #### 收尾与固化流程
 正式发布前，务必对工作流的稳定性和输出质量做压测。
 一般会连续跑 100 次以上，把常见报错都收集并修复。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_379063a783f5ce6c7e1be1bdf309719e.png>
+![](img/zhuanqian_379063a783f5ce6c7e1be1bdf309719e.png)
 ### 搭建中常见问题及对策
 搭建过程中会碰到各种坑，这套流程里主要遇到以下几种：
 #### 翻译偏差
 即便用了翻译插件，也常出现功能对应不上、理解跑偏的情况。
 解决办法：直接截图标注界面给 Ai 看，让它基于真实界面给出操作指引。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4df582f36b629b3b15fc403c0fa2e2ef.png>
+![](img/zhuanqian_4df582f36b629b3b15fc403c0fa2e2ef.png)
 #### 节点能力不匹配
 现有节点满足不了需求，或官方节点成本过高。
 这时可以走中转站的 API 路线 仅限 AI 模型调用。以云雾平台为例，中转 URL 配置如下：
 *   中转地址 BASE_URL 1：https://yunwu.ai
 *   中转地址 BASE_URL 2：https://yunwu.ai/v1
 *   中转地址 BASE_URL 3：https://yunwu.ai/v1/chat/completions
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_688d8a6ac7c9ac6f4340483abb254812.png>
+![](img/zhuanqian_688d8a6ac7c9ac6f4340483abb254812.png)
 #### 优先考虑社区节点
 社区地址：https://www.npmjs.com/search?q=keywords%3An8n-community-node-package
 详细使用教程另见。
@@ -485,20 +485,20 @@ App Secret：
 写工作流时遇到报错，可以截图提问，也可以用 Ai 直接写代码。
 1.  报错处理
 把报错信息或截图丢给 Ai 分析，它会给出修复建议。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_09ebf3343ff64501071b12532af0d935.png>
+![](img/zhuanqian_09ebf3343ff64501071b12532af0d935.png)
 1.  代码编写
 让 Ai 编程时，把示例代码、输入参数、输出参数都给他，说明期望结果。它会生成代码，按实际运行效果截图反馈再迭代。
 具体教程另见。
 #### 工作流测试
 在 N8N 画布右上角点手动执行 Execute Workflow，就能看全流程数据流转。逐个检查节点输入 Input 和输出 Output 是否正常。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_122fb0bbfcde3f7edb279edb0f374773.png>
+![](img/zhuanqian_122fb0bbfcde3f7edb279edb0f374773.png)
 #### 上线与分享
 测试通过后就可以决定是否发布或分享。
 1.  上线工作流
 在首页激活工作流，按设定的触发条件自动运行。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b7bad0bbeca56d7331aab1e0fcac64c7.png>
+![](img/zhuanqian_b7bad0bbeca56d7331aab1e0fcac64c7.png)
 1.  分享工作流
 可导出工作流的 json 文件传给他人使用。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8313cbaaf7acc72405535e5279791bd0.png>
+![](img/zhuanqian_8313cbaaf7acc72405535e5279791bd0.png)
 也可以把 json 文件导入到自己的环境，实现自用分享。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3a31d77c6d82b411be352e9ee3e9e576.png>
+![](img/zhuanqian_3a31d77c6d82b411be352e9ee3e9e576.png)

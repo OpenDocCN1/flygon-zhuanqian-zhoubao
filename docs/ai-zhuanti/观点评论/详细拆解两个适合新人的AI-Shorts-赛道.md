@@ -10,10 +10,10 @@
 它的优点很明确：新人友好，逻辑简单，不需要复杂的工作流，投入时间少，而且有大把高播放对标账号可以模仿。缺点也一样直白：赛道拥挤，YPP审核容易卡壳（同类目过审太多，后期会被拒），还必须买GPT账号和图生视频的算力——成本压不下来，但也不可能归零。
 实操路径上，最省力的方式是“逆练九阴真经”：把对标爆款视频反推成图片，还原完整故事线，再重新绘图、组接，要么用图片+转场特效，要么用图转视频。
 绘画风格有讲究。这里必须强调，dall-e-3（也就是ChatGPT的画图功能）是这个赛道的最优解。跟MJ、SD、Flux等模型对比，dall-e-3的出图完整度、画面语境感、以及成本控制都更胜一筹。别拿到图就瞎反推，要先吃透画风——欧美观众从小看迪士尼、皮克斯长大，这类风格最容易让他们沉浸。皮克斯风、迪士尼风、超现实主义，这些关键词必须写进提示词里。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8e8a2ceeb37b6eb61c00cf102ab62dc3.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2b109c8ac5487168a1921c3edbf1930b.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0a5e63279f06fe24db56c0e8ad987e2a.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_19a0cefa8edb6d926570c71effc6ccb2.png>
+![](img/zhuanqian_8e8a2ceeb37b6eb61c00cf102ab62dc3.png)
+![](img/zhuanqian_2b109c8ac5487168a1921c3edbf1930b.png)
+![](img/zhuanqian_0a5e63279f06fe24db56c0e8ad987e2a.png)
+![](img/zhuanqian_19a0cefa8edb6d926570c71effc6ccb2.png)
 理解核心概念后，就可以上手实操了。会调API的直接用API跑dall-e-3，下面的示例可以参考；小白不想写代码，就照着手动流程一步步来做。
 手动版的核心就是逆推法。为什么不讲原创？因为原创要收集故事、转写风格、拆脚本分镜、反复调优，麻烦到讲不完；而逆推这个领域，每天都有新爆款冒出来，照着拆，快且准。
 整个流程分四步：拆视频、生图、筛图/图转视频、剪辑合成（加音乐音效）。
@@ -76,26 +76,26 @@ output_dir = "output_frames"     # 替换为你想保存帧的目录
 detect_scene_change(video_path, output_dir)
 ```
 软件放在百度网盘（飞书里下载不了，赚钱帖子有链接）。解压后自己建个文件夹，双击运行，它会自动生成“输入”和“输出”两个文件夹，把对标视频丢进“输入”，运行即可。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c2d5ef74e221595d7b33de414b5153b7.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0b1e5b55f8f50c891855809e4fd9103b.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bd831e19fd1e2bf86e32e9e1cf351956.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b8e065e5555048a200bd59e5d67e67af.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_715f406bf42a1829642352dcf1155eb2.png>
+![](img/zhuanqian_c2d5ef74e221595d7b33de414b5153b7.png)
+![](img/zhuanqian_0b1e5b55f8f50c891855809e4fd9103b.png)
+![](img/zhuanqian_bd831e19fd1e2bf86e32e9e1cf351956.png)
+![](img/zhuanqian_b8e065e5555048a200bd59e5d67e67af.png)
+![](img/zhuanqian_715f406bf42a1829642352dcf1155eb2.png)
 第二步，用dall-e-3生图。新人直接用ChatGPT就好：根据图片反推画面、串联故事，然后重新创作。把拆出来的图批量丢给ChatGPT，用这段提示词让它描述画面——分别从场景、景别、动作、角色四个维度输出，中英对照：
 “帮我描述一下这几张图讲的是什么，它是根据视频拆解出来的图片，其实是一个完整的故事，你挨个描述一下对应画面，然后根据图片把这个故事连贯在一起。你需要分别根据场景，景别，动作，角色，来描述，要给到中英文对照。”
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b376cadff2ccc663ca44dce01690838c.png>
+![](img/zhuanqian_b376cadff2ccc663ca44dce01690838c.png)
 每次只能上传10张，所以继续发：
 “这个故事还没结束，还有，我在继续给你，请你继续描述，然后接上之前的剧情。”
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_126ac02c6cd0f4f626ba77e481e2e867.png>
+![](img/zhuanqian_126ac02c6cd0f4f626ba77e481e2e867.png)
 拿到完整故事线后，再让它整理成逐场景的详细描述。比如爆米花这个故事，拆出来就是：母猫和小猫逛街→小猫买爆米花被拒→母猫安慰→母猫夜行偷玉米→被农夫和狗追→回家做爆米花→厨房爆满→母子开心享用。故事梗概和情绪价值都不偏，如果个别描述不对，手动改就行。
 第三步，设定角色，保证一致性。AI绘画目前还是“抽卡”，不可能张张精准，只要保证角色、物种、性别、服装、动作、画风的大致统一，观众根本不会挑。用这段提示词和ChatGPT先聊角色设定：
 “我想让你重新作图，角色要重新设定，首先我需要告知的是，风格是皮克斯的动画风格，超现实主义，这些动物是属于拟人化的展现形式，所以它不需要之前的生物习惯，比如爬行，而是像人类一样行走，先不要做图我们先来聊一聊，这两个角色的固定，长什么样子，然后在优化提示词的部分。”
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fcda9416a12f5a85232962404a94766a.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2ad952b16fc606f4eca2480a58993f7d.png>
+![](img/zhuanqian_fcda9416a12f5a85232962404a94766a.png)
+![](img/zhuanqian_2ad952b16fc606f4eca2480a58993f7d.png)
 聊完再试画，看看角色有没有跑偏。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c900d64656228d0e3d7aa536d9de4085.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_484d3bab05dcf6a61f5f95cecf74a052.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8374fd05520fdfe368123959e7b73d8a.png>
+![](img/zhuanqian_c900d64656228d0e3d7aa536d9de4085.png)
+![](img/zhuanqian_484d3bab05dcf6a61f5f95cecf74a052.png)
+![](img/zhuanqian_8374fd05520fdfe368123959e7b73d8a.png)
 大致没问题——猫妈妈画得又美又飒（这审美我認）。但角色一定要存好，防止窗口崩了，方便新窗口直接调用。
 母猫：拟人化白色长毛猫，头、耳、尾的毛发尤其蓬松，绿色大眼睛，神态温柔又坚定。日常穿粉色连衣裙，出任务换黑色紧身特工服，配腰带和小工具袋，白色长毛和尾巴保持辨识度。
 小猫：拟人化粉色短毛猫，大圆金眼睛，天真可爱，看到喜欢的东西眼睛会发光，带天然的孩子气。
@@ -117,27 +117,27 @@ detect_scene_change(video_path, output_dir)
 **细节层次**：画面别太空，丢些生活化的道具进去。厨房放点蔬果、爆米花桶之类的，有了烟火气，故事的可信度立刻上来。
 **角色一致性**：两只猫的核心特征必须描述得细、记得牢，还要让它们尽量朝人的姿态靠拢——除了保留耳朵尾巴这些猫属性，站、坐、跑、跳都得像人。写指令时可以套用一个公式：“它是一只类人的XXX，举止很像人类XXX。”
 下面把中文版指令整理出来，可以基于之前给过的现有画面做复述，也可以直接把你手上的需求丢进来：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1a7cd01d52926bdf988a824542018b68.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3e2239a3374c72dcc961af1c3ac83f90.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5916a81556b8ccaf1c2dee7f0030bf8c.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d6715926b218007ef8ab50fc3386dadc.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e9c13f2d61271f2ec998d96b61ce9544.png>
+![](img/zhuanqian_1a7cd01d52926bdf988a824542018b68.png)
+![](img/zhuanqian_3e2239a3374c72dcc961af1c3ac83f90.png)
+![](img/zhuanqian_5916a81556b8ccaf1c2dee7f0030bf8c.png)
+![](img/zhuanqian_d6715926b218007ef8ab50fc3386dadc.png)
+![](img/zhuanqian_e9c13f2d61271f2ec998d96b61ce9544.png)
 偶尔模型会抽风，理解不了“拟人化”，把猫直接画成两腿站立的普通动物，类似下面这种：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_92e85c3c8b1df81464b9103720df9a44.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1ad09bff76075cf662644ede1758d50b.png>
+![](img/zhuanqian_92e85c3c8b1df81464b9103720df9a44.png)
+![](img/zhuanqian_1ad09bff76075cf662644ede1758d50b.png)
 这时就在对话里再拉一把：告诉它，这只猫不该像四脚兽那样站着，必须像人一样直立，一举一动都是人类的路数。这样点拨一下，后面再提要求它基本就能接住了。
 接着就是流水线操作：把之前备好的指令全部过一遍，反复抽卡，把能用的图筛出来：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3b9521d522043a88688783c985700fb8.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ecf55d5ae0778f85139c6f65715f3c45.png>
+![](img/zhuanqian_3b9521d522043a88688783c985700fb8.png)
+![](img/zhuanqian_ecf55d5ae0778f85139c6f65715f3c45.png)
 重点来了——一定要核对模型嘴上说的和实际画出来的对不对得上。你看这张，猫妈妈怎么就成了爆米花摊主了？遇到这种状况，就直接让它重画：让两只猫并排站在旁边看，或者干脆把妈妈拿掉，只留小猫一个人羡慕地在那瞅。
 我平时跟GPT沟通习惯用很直白的大白话，这么做是为了让新人也看得懂、学得会。只要你把话说清楚了，哪怕用词没那么讲究，以现在GPT的理解能力也完全接得住。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3534590110d7f43c75ae26c8a1290f46.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1ae1c2e1ab235e44b548d8e2fcb143ae.png>
+![](img/zhuanqian_3534590110d7f43c75ae26c8a1290f46.png)
+![](img/zhuanqian_1ae1c2e1ab235e44b548d8e2fcb143ae.png)
 你也许想问：怎么还会出这种状况？是不是还得反复调试？其实这种离谱偏差的概率并不高，九成原因就是你的需求讲得不够精确。
 像这句“你把妈妈画得像在卖爆米花，你改一下，或者不要妈妈”，可以再补一句：
 “把画面里妈妈那份卖小吃的既视感去掉，或者把妈妈拿掉；注意，不要妈妈的时候，之前定好的角色形象也不能丢。”
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d105aa387683369bdcc2354813031c7d.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_15ef6bb1eca9647f07c016fa27710de7.png>
+![](img/zhuanqian_d105aa387683369bdcc2354813031c7d.png)
+![](img/zhuanqian_15ef6bb1eca9647f07c016fa27710de7.png)
 按这个节奏，把每条指令都挨个优化一遍再出图，就能凑齐一套叙事完整的画面。到这儿，图片环节基本杀青了，接下来要么进剪辑台拼合，要么直接走图生视频。
 ## 关于出图的一点心里话
 所谓“逆练九阴真经”，其实就是不用巧劲，绕回最原始的路子：一步一步地出，反复抽卡，总能抽中自己想要的图。代价是慢，但换来的是可控性和极低的操作门槛。
@@ -193,17 +193,17 @@ stable-audio-tools的底子确实好，他们的2.0模型已经商用化了；�
 所以思路要放开：去海外各大平台的热门版块里捞原创素材，渠道一旦铺开，原料就是取之不尽。
 下面说几个实操办法。
 ### 办法一：顺着YouTube Shorts热门趋势，找对话类IP账号
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d0319d67353d4bf5bd2601b63527ab8e.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ec8668eeb4f02148606b3c5b6ff13d9d.png>
+![](img/zhuanqian_d0319d67353d4bf5bd2601b63527ab8e.png)
+![](img/zhuanqian_ec8668eeb4f02148606b3c5b6ff13d9d.png)
 这种号就是我们直接对标的目标。找到一批之后囤进素材库，把音频抽出来，自己重新加工。
 ### 办法二：用音乐挂载按钮反向找源头
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5defcaef00d5ec864b0365e143247aef.png>
+![](img/zhuanqian_5defcaef00d5ec864b0365e143247aef.png)
 拿这个例子解释：Gummy Bears Are Chasing Me #meme @ObemasYT
 点进音乐挂载按钮，会进入一个同样BGM的聚合页，里面又会出现一批搞笑号，也可能是原始音频。另外，@ObemasYT这个署名基本等于作者签名，大概率就是首发。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d848df47fdfe33db6341d19e5506b3fd.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_969ffe3f8f4f0432060c5fbb585af138.png>
+![](img/zhuanqian_d848df47fdfe33db6341d19e5506b3fd.png)
+![](img/zhuanqian_969ffe3f8f4f0432060c5fbb585af138.png)
 点进去发现并不是同一个作者，只是同类内容。那就简单推测：ObemasYT自己扒了段音频存到本地，没用YouTube官方的曲库，再配上这个BGM发了一堆视频。别的小号或同行为了方便，就都直接挂他这条音乐。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6373ff9176a252896227bb6adf6b2420.png>
+![](img/zhuanqian_6373ff9176a252896227bb6adf6b2420.png)
 拿到音频后先试听，如果干净清晰、没有杂音，那就可以省掉溯源的功夫，直接开干。
 但如果试听后发现混进了各种音效和别人二创的痕迹，就麻烦了——这种没法直接用。那就要靠台词文字稿去找干净原版。来，听听这段：
 文字稿：
@@ -212,7 +212,7 @@ Gummy bears are chasing me.
 One is red, one is blue, one is trying to steal my shoe.
 Now I'm running for my life cuz the red one has a kni.....
 拿着这段词去搜，要么能直接翻到原版，要么能找到干净版本。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2b7f551db4e4c61b45e97acfbeb90a2f.png>
+![](img/zhuanqian_2b7f551db4e4c61b45e97acfbeb90a2f.png)
 爆过的内容有资格再爆一次，只要底色没有换。
 来拆解一下这个梗，大致翻译：
 “A、B、C、D、E、F、G，
@@ -226,11 +226,11 @@ Now I'm running for my life cuz the red one has a kni.....
 ### (1) 先拆图
 写口令的思路和前面萌宠项目共用一套逻辑。可以把指令定制成这样：
 帮我把这几张从视频里拆出的画面逐一说明，它们合起来是一个完整故事——先分别描述每一帧，再按前后顺序连成一条线；要分开“场景”“景别”“动作”“角色”几个维度来描述，中英文各出一版。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b02a08b736d5ae6f2f58703095befe4b.png>
+![](img/zhuanqian_b02a08b736d5ae6f2f58703095befe4b.png)
 #### 拆画风
 再做一个风格提取：
 请逐条分析这批图片的画面特征，按这五个部分回答：画面风格、色彩与光影、材质与质感、情绪渲染与叙事性、适用的风格总结。描述时一定要提到3D渲染细节、拟人化卡通角色、表情和肢体传情方式、颜色光照处理。最后浓缩成一句话。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d1e1a06ef01f3fb85abc6974849e265e.png>
+![](img/zhuanqian_d1e1a06ef01f3fb85abc6974849e265e.png)
 【以下是总结的风格提示词前缀：这是一幅高度拟人化的3D渲染卡通风格画面，色彩饱满、光影细腻，角色表情生动，质感柔和，充满叙事性与幽默感】
 ### (2) 给元素换血
 让AI按原结构替换所有元素，但要盯住这几条：
@@ -241,12 +241,12 @@ Now I'm running for my life cuz the red one has a kni.....
 5. 主角和关键道具必须有明确特征，并且在后续所有画面里原样出现。人物一致性决定成败。
 先不急着动手：我这边给你一个素材范围【人类社会城市元素】，你在这个范围内出5个候选主题并编号，我选好号码你再继续。
 要是发现替换方向不对，随时回到对话框里再调整。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_54c622dab5ec11703dc92eeb15164faf.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a8c99cf505093b7d7227945dec9e199f.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7fb957333521b73113f74dd2ad506758.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9c94f1ab830672c35557d4ab4223a9ca.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c94622532b4754adecfa7b9eb9512573.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a702fcb127321dd76df099b3dce74531.png>
+![](img/zhuanqian_54c622dab5ec11703dc92eeb15164faf.png)
+![](img/zhuanqian_a8c99cf505093b7d7227945dec9e199f.png)
+![](img/zhuanqian_7fb957333521b73113f74dd2ad506758.png)
+![](img/zhuanqian_9c94f1ab830672c35557d4ab4223a9ca.png)
+![](img/zhuanqian_c94622532b4754adecfa7b9eb9512573.png)
+![](img/zhuanqian_a702fcb127321dd76df099b3dce74531.png)
 #### 精修指令：锁定角色与场景
 要AI做一次全局性的“锚定”：
 把每个故事里的角色、场景、特殊物件单独提炼出来，做成固定档案；之后每一个场景的描写里，这些档案里的元素必须整体带入。同时，每个场景都要复述前面的风格前缀，保证一套图下来画风吹不跑。
@@ -273,8 +273,8 @@ Now I'm running for my life cuz the red one has a kni.....
 描述
 你想象过这样的场景吗？午夜时分的博物馆，那些冷冰冰的雕塑突然全部苏醒，古埃及法老、罗马士兵、维京斗士……一个个咧着嘴露出诡异笑容，齐刷刷盯住一个穿蓝色外套、戴黑框眼镜的年轻参观者。他吓得转身狂奔，背后的骑士举起锈迹斑斑的古剑紧追不舍，长廊里的灯光忽明忽暗，石柱与壁画在他眼里全都模糊成一片。
 逃跑途中更糟——背包带被维京雕像一把揪住，他死命往回拉，满脸汗珠混着泪水，眼神里全是绝望。骑士渐渐逼近，冰冷的剑光映在他脸上，周围其他展品的笑容仿佛都在嘲弄他的挣扎。这些画面，细腻的光影、浓烈到近乎梦幻的配色，再加上张狂的3D卡通渲染，简直像一部高分动画电影。
-其实，这不是电影，而是AI画出来的。用DALL·E 3就能直出这种效果，比如下面这六张，就是一次生成的结果：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_16081dfc78e47169585908376dba7f2b.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3c5a5f409c1d10fff963f82c09e808c7.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_709a52f940ad4344f8700a8eb8bc4c99.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_05dbe6356cfba49b533095e6bfe0169a.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3e30bca4fe003dd63938fd9ed02eb8a1.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0766eaf60008ce0836c0c3177f89d75f.png>
-玩AI绘画的人都知道，画名人IP最难搞。我之前试遍了各种工具，都很难画出一个既像又稳定的角色。后来才发现，问题出在措辞上。比如你想画巨石强森，千万别直接写“巨石强森”，而要写“一个很像巨石强森的人”。AI把这两个词当成截然不同的东西——前者容易踩到版权雷，后者却一路畅通。拿下面这两组提示词对比，效果差异一目了然：<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_db392c517880df32052183968a1db35e.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0844d9159dfb62f049a2ac0e10b6883b.png>
+其实，这不是电影，而是AI画出来的。用DALL·E 3就能直出这种效果，比如下面这六张，就是一次生成的结果：![](img/zhuanqian_16081dfc78e47169585908376dba7f2b.png)![](img/zhuanqian_3c5a5f409c1d10fff963f82c09e808c7.png)![](img/zhuanqian_709a52f940ad4344f8700a8eb8bc4c99.png)![](img/zhuanqian_05dbe6356cfba49b533095e6bfe0169a.png)![](img/zhuanqian_3e30bca4fe003dd63938fd9ed02eb8a1.png)![](img/zhuanqian_0766eaf60008ce0836c0c3177f89d75f.png)
+玩AI绘画的人都知道，画名人IP最难搞。我之前试遍了各种工具，都很难画出一个既像又稳定的角色。后来才发现，问题出在措辞上。比如你想画巨石强森，千万别直接写“巨石强森”，而要写“一个很像巨石强森的人”。AI把这两个词当成截然不同的东西——前者容易踩到版权雷，后者却一路畅通。拿下面这两组提示词对比，效果差异一目了然：![](img/zhuanqian_db392c517880df32052183968a1db35e.png)![](img/zhuanqian_0844d9159dfb62f049a2ac0e10b6883b.png)
 如果想批量生成，可以走DALL·E 3的API。它的计费方式很特别，不是按张数收钱，而是按token计费，折算下来比很多绘图API便宜得多。具体体验可以看这里：```
 import requests
 import json

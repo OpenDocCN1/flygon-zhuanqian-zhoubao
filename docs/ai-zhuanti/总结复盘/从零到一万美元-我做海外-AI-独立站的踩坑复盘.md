@@ -1,9 +1,9 @@
 # 从零到一万美元：我做海外 AI 独立站的踩坑复盘
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e4eb827e8c7e96ca3a122c936613db6c_0_0.png>
+![](img/zhuanqian_e4eb827e8c7e96ca3a122c936613db6c_0_0.png)
 先做个自我介绍，我是龙哥。2023 年 5 月跟着小排老师的深海圈正式入局 AI 出海，到现在整整十个月。前半年基本颗粒无收，心理状态一度崩盘；第六个月才拿到第一笔 1000 美元。随后收入开始逐月攀升，累计已突破一万美元。2024 年 2 月我在龙哥盟报喜后，很多朋友让我写个复盘，这篇就是基于实操的梳理。
 无论你是还在观望 AI 出海，还是已经开站却迟迟没有回款，希望这些经历能帮你避开一些常见坑。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e4eb827e8c7e96ca3a122c936613db6c_1_0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e4eb827e8c7e96ca3a122c936613db6c_1_1.png>
+![](img/zhuanqian_e4eb827e8c7e96ca3a122c936613db6c_1_0.png)
+![](img/zhuanqian_e4eb827e8c7e96ca3a122c936613db6c_1_1.png)
 ## 为什么我会选 AI+海外网站这条赛道
 此前我在爱奇艺做 App 开发几年，技术够用，但一直想做自己的东西。离职后反复权衡，最终定下来走“AI+海外”。
 其一，AI 大幅压缩了个体开发者的启动成本。过去一个站从前端到后端到设计，至少要几个月。现在借助 AI 工具，排期被拉短了不少。而且 AI 本身也在制造新需求，诸多旧网站、旧工具都适合用 AI 重构。
@@ -30,7 +30,7 @@
 - 再叠加自然流量：不断扩充内页、建设外链，带来的长尾搜索量慢慢起来，部分外链本身也自带访问。
 - 尝试社媒分发：开始做 YouTube，注册英文推号投放，带来少量增量。
 随着用户积累，收入曲线变得可观。这个阶段我更关注转化与留存。把 访问-登录-使用核心功能-付费 的链路拆开，找出转化最好的渠道放大；同时做用户留存，流量规模保持时，只要留存提升，营收自然会持续增长。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e4eb827e8c7e96ca3a122c936613db6c_5_0.png>
+![](img/zhuanqian_e4eb827e8c7e96ca3a122c936613db6c_5_0.png)
 ## AI 出海的真实门槛感，需要哪些能力
 对还没拿到正反馈的朋友想说：AI 出海的门槛，比想象中高。
 一个人要扛产品、代码、运营，难度叠加。你没结果，不代表你不行，这条路本身就不快不稳。

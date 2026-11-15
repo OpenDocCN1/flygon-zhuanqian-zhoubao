@@ -5,8 +5,8 @@
 ## 一、长视频赛道，为什么值得做？
 先看三个数字：
 - **单价高**：尤其是英文频道，长视频的RPM（每千次播放收入）远超短视频。举个例子，万播收入能达到27.6美元，折合人民币约200元。我就有一个视频，靠着播放量直接入账过万。截图如下：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d84bbd766662cc844de5bcf5c17ab84f.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f6ce8f179f6130085cea6186c0f6d2b1.png>
+![](img/zhuanqian_d84bbd766662cc844de5bcf5c17ab84f.png)
+![](img/zhuanqian_f6ce8f179f6130085cea6186c0f6d2b1.png)
 - **平缓期依然有肉**：不管什么类型的视频，发多了播放量都会回落，最终稳定在一个基础水平。但长视频因为RPM高，哪怕只有5000播放，也可能产生十几美元的收入。只要能批量化生产，这个投入产出比依然很香。
 - **起号慢**：这是长视频的短板。它不像shorts那样能快速获取推荐流量，需要你更有耐心，也更愿意花时间去打磨。至于更多赛道分析和工具，我另外一篇文章里有详细说明。
 ## 二、有哪些值得做的赛道？
@@ -17,19 +17,19 @@
 - **1950s复古电影预告片**：把经典好莱坞IP加上复古质感，用AI低成本造出来，美国人很吃这一套。参考“abandonedfilms”频道，教程在saeedai.com。
 - **AI MV**：把音乐、经典IP和搞怪元素混在一起，拼的就是创意。比如“demonflyingfox”频道，而像擦边、复古、Lofi这些风格，也衍生出了不少变种。
 一些示例画面：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5f87646a18092878b60933035a5127a3.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_81683d18dbaeeeb163cee039af101551.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b701ba34fdcce4a6c572c4c2ec1300f2.png>
+![](img/zhuanqian_5f87646a18092878b60933035a5127a3.png)
+![](img/zhuanqian_81683d18dbaeeeb163cee039af101551.png)
+![](img/zhuanqian_b701ba34fdcce4a6c572c4c2ec1300f2.png)
 ### 第二类：故事/旁白型视频
 这类视频制作简单，通常就是PPT轮播或者几秒钟的视频小素材循环。好处是能批量生产，坏处是容易同质化。想跑出来，必须拼文化理解，甚至是对人性的洞察。一旦找到了爆款密码，再通过批量制作去摊薄时间成本，收益会非常可观。
 - **黑人爽文**：底层主角扮猪吃老虎，整理出网文里的爽感，换个背景又是一个新故事。参考“BlackThreadYT”。
 - **Reddit故事/出轨故事/犯罪故事**：这些都是经典长青赛道，已经流行了很多年。
 - **宗教玄学**：制作同样简单，同质化程度也高，但最近几个月依然能看到新号跑起来。参考“TheSacredLight2024”。
 示例图片：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9a9e7fd373b2633150cb3fb498b76f8d.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_09297586aadee7396723f590849b879a.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_48eeda80a4060a5278691e426f50ab35.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_572c22b85fff4a45d9227c5b3d409cb9.png>
+![](img/zhuanqian_9a9e7fd373b2633150cb3fb498b76f8d.png)
+![](img/zhuanqian_09297586aadee7396723f590849b879a.png)
+![](img/zhuanqian_48eeda80a4060a5278691e426f50ab35.png)
+![](img/zhuanqian_572c22b85fff4a45d9227c5b3d409cb9.png)
 ## 三、如何批量生成？核心思路分享
 长视频的难点有两个：一是起号慢，二是制作难。制作难的核心是内容量大，所以我选择了**PPT轮播式长视频**，用静态图片来撑时长，绕开创作压力。
 此外，如果以人物故事为主线，AI生图很难保持角色一致，而且抽卡筛选会消耗大量人工。所以建议选择**图片和音频单句内容没有强关联**的题材，简单说就是让图片轮播充当背景和氛围。宗教玄学、书籍解说都是很典型的方向。
@@ -105,9 +105,9 @@ Constraints:
 主打中文，英文音色也有少量可选，需要付费，不过可以先入手三天体验一下。
 它底层调用的是微软 Azure 语音，不用自己去部署一套配音环境。
 https://www.xiaowoai.com/
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_194f612515ad126b2072e6b4dded39b0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_aa29579ec4bbfdf5de906cf99d0f4946.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_55aac3e198a8c696d3031e3527b9b988.png>
+![](img/zhuanqian_194f612515ad126b2072e6b4dded39b0.png)
+![](img/zhuanqian_aa29579ec4bbfdf5de906cf99d0f4946.png)
+![](img/zhuanqian_55aac3e198a8c696d3031e3527b9b988.png)
 ### Kokoro TTS
 这个方案更偏向英文，中文的听感就不太理想了。
 1. 线上体验：https://huggingface.co/spaces/hexgrad/Kokoro-TTS ，单次最多输 500 字，方便先感受效果。
@@ -119,12 +119,12 @@ https://www.bilibili.com/video/BV1eHc8ePEc1/?spm_id_from=333.337.search-card.all
 另外代码是封装好的，改动空间不大，无法直接拿来做批量。
 3. 本地批量配音+批量出字幕
 我参考了 https://github.com/remsky/Kokoro-FastAPI 在本地起了一个服务，然后借助 Cursor 做了二次开发，增加了批量合成语音和自动生成字幕的能力。听起来不复杂，实际调通的过程费了不少时间去和 Cursor 反复沟通。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5933ce21324d97ffac7ff11bbf48add9.png>
+![](img/zhuanqian_5933ce21324d97ffac7ff11bbf48add9.png)
 ## 图片批量生成
 批量出图时，质量和风格还原是关键。
 第一步：从长视频里手动截取关键帧
 第二步：把截图丢给 Gemini 或其他大模型，让它拆解画面风格并给出可用的提示词
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c828bc8faed7e1dfca4db4c806fb07ae.png>
+![](img/zhuanqian_c828bc8faed7e1dfca4db4c806fb07ae.png)
 第三步：把模型给出的分析结果复制到 Cursor，让它写一段能结构化产出同类提示词的代码，这个对 Cursor 来说难度不大。
 第四步：跑脚本，一次性生成大量风格统一的提示词。
 第五步：把提示词导入到绘图工具里，这里可选的方案很多。
@@ -132,19 +132,19 @@ https://www.bilibili.com/video/BV1eHc8ePEc1/?spm_id_from=333.337.search-card.all
 支持本地部署或云端使用，既能自己调接口，也能直接用现成工具。
 我自己常用的是端脑云。
 https://cephalon.cloud/aigc
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e93d8901945259ca01e672e882ceaf5d.png>
+![](img/zhuanqian_e93d8901945259ca01e672e882ceaf5d.png)
 下面是我在用的脚本，基于 Flux 模型，直接下载后把文件拖进应用即可使用。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7588fad2ac1f5d3c05a41283fc0511d1.png>
+![](img/zhuanqian_7588fad2ac1f5d3c05a41283fc0511d1.png)
 g
 ### Midjourney
 可以配合插件 autojourney 使用，一次性导入海量提示词后，它会自动排队发送、自动拆分下载。
 https://docs.autojourney.ai/en-US
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d3a7a60855003a68a7f121e285016d54.png>
+![](img/zhuanqian_d3a7a60855003a68a7f121e285016d54.png)
 也可以去淘宝找共享账号，不过大部分是套壳服务。也有人通过获取 token 的工具打开网页版 Discord 来用 autojourney，这个思路出自小说推文圈，使用有风险，商家也明确不建议，风险自负。
 ## 批量剪辑
 在动手之前我先检索了现有的批量剪辑方案，结果找到了 pyjianyingdraft，就省去自己重写的成本了。
 https://github.com/GuanYixuan/pyJianYingDraft
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e7a0952d827e0aabdec40899d8b1f2fc.png>
+![](img/zhuanqian_e7a0952d827e0aabdec40899d8b1f2fc.png)
 后续的剪辑逻辑都是在这个项目上改。借助 Cursor，跑通代码并不难，下载后按 readme 跑 demo 即可。
 每个人的对标视频不一样，剪辑思路也会不同。做法是先手动模仿对标视频剪几条，形成标准，再把项目文件夹丢给 Cursor，让它读懂代码后按你的需求去实现。
 我的做法是复制一个空白模板再往里填充素材，加特效、每 10 秒换一张图、加蒙版之类的。
@@ -380,7 +380,7 @@ Slogan: [封面图slogan]
 ```
 ## 封面视觉的批量合成思路
 进入到封面图的制作时，唯一的核心素材就是上一环节输出的slogan。做法是先人工或批量生成一批风格统一的底图素材库，之后把提炼好的slogan文字叠加到对应的底图上，完成成片。整个流程不需要从零临摹，重点在于文字与画面的快速匹配。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_89f2bc492e03687b7e5b59bc7b56804c.png>
+![](img/zhuanqian_89f2bc492e03687b7e5b59bc7b56804c.png)
 可以参考下面的代码片段来快速落地
 有时候，最吊人胃口的，不是一句惊天动地的话，而是一个没头没尾的开始。
 就像现在，摆在我面前的“素材”，干净得像一张白纸，只留下一个孤零零的记号——```
@@ -1534,4 +1534,4 @@ main()
 好奇心上来就想扒一扒，这种量产式的内容是怎么做到几十张图批量生成的。去研究了一下，确实能找到不少思路和方法论。
 术业有专攻，隔行的打法也能给我们带来启发。感兴趣的话可以自己去搜搜看。
 小说推文频道be like：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ad624f66a4715b4d4a77f3fd244628e9.png>
+![](img/zhuanqian_ad624f66a4715b4d4a77f3fd244628e9.png)

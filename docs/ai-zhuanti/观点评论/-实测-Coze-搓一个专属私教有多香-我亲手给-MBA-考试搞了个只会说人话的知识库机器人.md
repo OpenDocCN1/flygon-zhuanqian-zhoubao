@@ -10,45 +10,45 @@ MBA 考试周撞上，几门课的复习资料堆成山，眼看着根本啃不�
 搞懂这两点，就能上手造机器人了 🤖。
 ### 1、先把料喂进去
 第一步是把课程录音和 PPT 丢进 Coze。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_52c6f902d289d16269e4aadc01a9732f.png>
+![](img/zhuanqian_52c6f902d289d16269e4aadc01a9732f.png)
 上面那份 Word 是我用“通义听悟”把录音转出来的文字稿，下面那份 PDF 是课程 PPT 本身。
 Coze 现在的知识库接入挺全，本地能传 PDF、TXT、Word、Excel，在线能接飞书、Notion，还能自动爬站，很顺手。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_19318a6a393afd10150e02ce5af1fb61.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_64e122dea37cfa976c491aecedc1b87c.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_328a16f2dc15b45e58515bc050d6a461.png>
+![](img/zhuanqian_19318a6a393afd10150e02ce5af1fb61.png)
+![](img/zhuanqian_64e122dea37cfa976c491aecedc1b87c.png)
+![](img/zhuanqian_328a16f2dc15b45e58515bc050d6a461.png)
 ### 2、搭工作流
 资料上完，最重要的就是搭工作流。我的流程不复杂，主要用了大模型、知识库、选择器、数据库这些组件。Coze 插件能力其实更强，这次案例里没用到。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d877f48c7989901bc9b504145d200068.png>
+![](img/zhuanqian_d877f48c7989901bc9b504145d200068.png)
 工作流怎么配可以单独讲一篇，今天不展开，有兴趣我们私聊。
 先看效果更直观。
 ### 3、实战效果
 最终就是一个输入框，我问它答它。PC 端就能用，发布后手机也能用。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0a36194c5b58d4b5c88e4bf84b6c8a8b.png>
+![](img/zhuanqian_0a36194c5b58d4b5c88e4bf84b6c8a8b.png)
 #### 问“是什么”
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b327b15729d1346dc7538335253ccc65.png>
+![](img/zhuanqian_b327b15729d1346dc7538335253ccc65.png)
 五大原则点是准的，但解释有点虚，再追一层。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ff7f728c7eb557a962dd167e6844ae09.png>
+![](img/zhuanqian_ff7f728c7eb557a962dd167e6844ae09.png)
 这次就对味儿了，很奈斯。再来一问：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_704c437714774c902dee2aea974e9e9a.png>
+![](img/zhuanqian_704c437714774c902dee2aea974e9e9a.png)
 说得很有道理。隐性知识确实得攒，显性知识迟早会被“AI+搜索”吃掉。几句话就把老师讲 15 分钟的内容概括到位，很省心。
 #### 问“为什么”
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b4e2768c56a0d7ba0dc8fae917c72992.png>
+![](img/zhuanqian_b4e2768c56a0d7ba0dc8fae917c72992.png)
 注意！我问的是“为什么创新比发明更重要”，它解析成了“创新比发明更重要的原因”，意图理解有点跑偏，回头得调一下工作流。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e09fc835b96a2a57989eed3951f153da.png>
+![](img/zhuanqian_e09fc835b96a2a57989eed3951f153da.png)
 不过整体还行，甚至有点启发。成功把我快忘了的案例勾出来了。任天堂红白机那段，老师是这么讲的：一个技术小伙发明了性能很猛的主板，任天堂老板说爱咋做咋做，但成本必须压到一万日元以内。老师用这个讲清发明和创新的区别，技术派 vs 市场派，创造商业价值才是关键。
 再让它复述一下这个故事对不对味。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b20989d98a9e7e250e92fb0c335dd4cf.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_04a8a8e32bb12bb739f566fd4ef3c1cb.png>
+![](img/zhuanqian_b20989d98a9e7e250e92fb0c335dd4cf.png)
+![](img/zhuanqian_04a8a8e32bb12bb739f566fd4ef3c1cb.png)
 差点翻车，它居然把我的一部分提示词也吐出来了，明显有点吃力。但主体内容还是对的，和我记忆差不多。勉强及格。
 应该是大模型或提示词的问题，我这次用的是 Kimi，不知道换成 GPT-4 会不会好点，后面再测。
 再来一轮：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_633a05ca3896880fa02f30297f5a2d7f.png>
+![](img/zhuanqian_633a05ca3896880fa02f30297f5a2d7f.png)
 啧，这回答没毛病，稳了。
 #### 问“怎么办”
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9c29dcbd6a859edfff6dfe6d7c5e87f9.png>
+![](img/zhuanqian_9c29dcbd6a859edfff6dfe6d7c5e87f9.png)
 讲的是大厂扶贫怎么玩的，我先剧透一下。印象里是某大厂用自家媒体投放帮扶贫产品卖货，给了 100 万的流量资源，测试能不能卖出 300 万，结束后企业还能靠这个模型持续卖货。商业和慈善结合的案例。
 让它回顾一遍：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_61f2ebb436f66927b97df98f06c2b828.png>
+![](img/zhuanqian_61f2ebb436f66927b97df98f06c2b828.png)
 一开始提的表述不太准，第二次用同一个问题再问一次，回答质量明显提升。
 #### 小结
 我边写边测，整个过程不加滤镜。现在 AI 的水平，我觉得更适合内部用，不太适合直接对客户。你永远不确定它会不会嘴瓢。但作为企业内部工具，效率是真的高。

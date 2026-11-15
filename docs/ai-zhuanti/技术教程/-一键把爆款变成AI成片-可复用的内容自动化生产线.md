@@ -13,19 +13,19 @@
 *   剪映小助手（下载地址：剪映小助手下载地址（请点击））
 *   电脑版剪映专业版
 ## 第一步：定制浏览器采集插件 抖音/小红书
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c44676d8a78c624789ef7b3be60857f4.png>
+![](img/zhuanqian_c44676d8a78c624789ef7b3be60857f4.png)
 ### 抖音插件：
 可以直接沿用 @Super 黄 的精华帖里提供的版本；
 ### 小红书插件：
 我基于抖音版本用 trae 做了改写。也可以按 @Super 黄 的公开方法自研，或找我拿现成。
 ### ⚠️ 配置要点：
 1、飞书多维表格的参数要一步步填对：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f287a3c15764ce89270a6ff8530aa85a.png>
+![](img/zhuanqian_f287a3c15764ce89270a6ff8530aa85a.png)
 APP ID、App Secret：前往飞书开发者后台获取；
 Base ID、Table ID：从多维表格的分享链接中截取；
 具体取法可参考 @Super 黄 的教程。
 2、多维表格里必须先建好固定列：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_efc8101093f052b10cd321d59ba9ba7b.png>
+![](img/zhuanqian_efc8101093f052b10cd321d59ba9ba7b.png)
 *   标题：文本类型
 *   链接：超链接类型
 *   点赞数：数字类型
@@ -37,8 +37,8 @@ Base ID、Table ID：从多维表格的分享链接中截取；
 发布时务必勾选“飞书多维表”，只有这样智能体才能使用表格字段捷径；
 进入“配置”后，控件要改为“字段选择器”，把所有选项都勾上；
 发布后需审核，通常半小时左右。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cf2ad5acafa0267fcd13850eef68161b.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8a7a2c924e10d80a86124540d25077db.png>
+![](img/zhuanqian_cf2ad5acafa0267fcd13850eef68161b.png)
+![](img/zhuanqian_8a7a2c924e10d80a86124540d25077db.png)
 ## 第三步：定制“视频转文案”Coze智能体
 两种做法：
 1.  自行搭建智能体：参照 @Super 黄 的教程
@@ -57,10 +57,10 @@ Base ID、Table ID：从多维表格的分享链接中截取；
 ⚠️ 提醒：
 *   表格基础设置可参考原文教程；
 *   每个字段设置完后，记得拉到最底打开“自动更新”。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_16ea0c3bb26adedaf837cac773eb257b.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9b7616729bcc9c0742670ce3eaee9add.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cc9fd280d6fde60088686d86bbeec50d.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_75a493326dc96195011ceef7c2a0b61f.png>
+![](img/zhuanqian_16ea0c3bb26adedaf837cac773eb257b.png)
+![](img/zhuanqian_9b7616729bcc9c0742670ce3eaee9add.png)
+![](img/zhuanqian_cc9fd280d6fde60088686d86bbeec50d.png)
+![](img/zhuanqian_75a493326dc96195011ceef7c2a0b61f.png)
 # 四、商业价值拆解
 ### 从提效工具到直接交付结果
 把黄叔和一泽的两条线拼起来，本质是把内容生产的整条链路打通了。
@@ -71,13 +71,13 @@ Base ID、Table ID：从多维表格的分享链接中截取；
 输出端：图文/视频成片
 只要骨架搭好，后续只需倒推产出标准去调prompt。所有模板化内容都能套，不同赛道也能玩出新花样，例如：
 结构化故事：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_375679c7fff147ee0a77788dc713fb29.png>
+![](img/zhuanqian_375679c7fff147ee0a77788dc713fb29.png)
 养生类：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2ed4e69d04c20ea39f786019ce954afb.png>
+![](img/zhuanqian_2ed4e69d04c20ea39f786019ce954afb.png)
 食品科普：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e8a1db16444412a3f89fcf25668f8d5a.png>
+![](img/zhuanqian_e8a1db16444412a3f89fcf25668f8d5a.png)
 育儿干货：
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fcac99b1e34fabedb9f07dd35f1e369e.png>
+![](img/zhuanqian_fcac99b1e34fabedb9f07dd35f1e369e.png)
 画面风格也能换，即梦、可灵等平台可生成3D、超写实、赛博朋克、极简等视觉；声音可切换不同TTS。未来接入 https://www.lovart.ai/ 后想象空间更大。
 ### 稳定性可控
 只要底层的插件和服务稳定，整条线输出就稳定。必要时多备几个平台的Token做冗余。

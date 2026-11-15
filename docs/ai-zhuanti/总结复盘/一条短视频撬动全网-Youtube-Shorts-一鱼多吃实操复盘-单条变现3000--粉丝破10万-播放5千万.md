@@ -22,45 +22,45 @@
 先说第一个新手容易踩的坑，发生在冷启期。
 ## 经验一：同一周期只对标一个频道
 陪跑期间我最先问教练的问题就是：到底是复刻一个频道的爆款，还是多个频道的爆款？当时我的对标很分散，有的播放不错，有的很差，自己的频道始终不出爆款。听 方波妮和Gary曹淦 两位教练分析后才明白：一段时间内只能跟一个频道。因为能持续爆的频道自带特定受众，混搭不同频道的受众会让 Youtube 算法定位模糊，拿不到第一次大推流。老内容按发布时间倒序看，前期我做过孕猫、亲子、自己原创的僵尸科幻，选题五花八门，每天纠结抄什么。后来锁定 A 动物救 B 动物-温情相处-A 动物遇险-B 动物报恩 的公式，数据更稳，也更好改编。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a5afc0f6d5c7fa430579cf6111f9727e.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5d5670bf9d04b6dd7c7ded832d1fddef.png>
+![](img/zhuanqian_a5afc0f6d5c7fa430579cf6111f9727e.png)
+![](img/zhuanqian_5d5670bf9d04b6dd7c7ded832d1fddef.png)
 ## 经验二：同步发国内平台，内容利用率直接拉满
 这是我在 Gary 教练直播里学到的点：做了就去发国内。同步分发给我带来两个明显收益：
 ### 1、爆款属性跨平台通用
 例如那条动物报恩主题原创的猫猴老鼠故事，5.1万播放的版本，在抖音、快手都成了百万级爆款，小红书也破千粉，连一直不温不火的视频号也拿到22万播放，评论区炸了。大家一边骂猴子，一边夸老鼠，可爱的老鼠形象很吸粉。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_acddb76725adfa3e13ec46b315352872.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_792fdea82008e892b36625f86996889f.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_429348861aad0c86a1c4bf7765e5f91b.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7cf1abf9195ae2e013db0ae6e253237d.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_29cecf43017852644ccb4c52838e6704.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b3e973243b5372e03ea4edc07f983d82.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d945848a410835b9d7cac00477380676.png>
+![](img/zhuanqian_acddb76725adfa3e13ec46b315352872.png)
+![](img/zhuanqian_792fdea82008e892b36625f86996889f.png)
+![](img/zhuanqian_429348861aad0c86a1c4bf7765e5f91b.png)
+![](img/zhuanqian_7cf1abf9195ae2e013db0ae6e253237d.png)
+![](img/zhuanqian_29cecf43017852644ccb4c52838e6704.png)
+![](img/zhuanqian_b3e973243b5372e03ea4edc07f983d82.png)
+![](img/zhuanqian_d945848a410835b9d7cac00477380676.png)
 #### 为什么会这样？
 评论量高的视频往往也是爆款的根源。高赞评论里能摸到复刻要素，本质都是情绪共鸣。Youtube 上 Meow 频道的动物感恩故事就用东亚男孩、瘦橘猫、可爱拯救者来组局，坏人类 vs 可怜猫是最大话题，评论量比同类高出几十倍。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7168883e472167123b577d7abe2ef9c7.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7df5ff6ef2a7992c71075fc3953ff995.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4414b5a55f0c4a5559dc63d39b7c6f28.png>
+![](img/zhuanqian_7168883e472167123b577d7abe2ef9c7.png)
+![](img/zhuanqian_7df5ff6ef2a7992c71075fc3953ff995.png)
+![](img/zhuanqian_4414b5a55f0c4a5559dc63d39b7c6f28.png)
 ### 2、视频号数据迎来爆发
 我12月18日开始发 AI 猫咪故事，抖音、快手、小红书表现还可以，视频号除了第一条爆款开通原创后就没动静，粉丝卡在100+。加入实战陪跑后，教练分享新赛道，我开第二个号试了短平快的动物救援。结果第一条就爆了，带来9.7万高粘性中老年粉、收入2700+、播放4282万，还在长尾。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_84d6246ddc0848cb48135d98cd14e06b.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_34b8a60e9742e22ea54ff62b0281796b.png>
+![](img/zhuanqian_84d6246ddc0848cb48135d98cd14e06b.png)
+![](img/zhuanqian_34b8a60e9742e22ea54ff62b0281796b.png)
 #### 原因拆解：
 * 受众画像偏中老年。这条片子做得够“真”，粉丝起初没意识到是 AI， “万物皆有灵” 的说法在评论区发酵，我当晚就把头像、标签换了，后续内容也开始在评论区引导灵性讨论。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_68e043384f02b9a3fba57bcf2b78bf4b.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ff81eb9e54daf6f73f2ad72bebbd340d.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_411696b150f736aa66acaf999bf475c8.png>
+![](img/zhuanqian_68e043384f02b9a3fba57bcf2b78bf4b.png)
+![](img/zhuanqian_ff81eb9e54daf6f73f2ad72bebbd340d.png)
+![](img/zhuanqian_411696b150f736aa66acaf999bf475c8.png)
 * 契合东三省“狐仙”民俗文化。评论区围绕狐仙、动物成仙、拦路有缘展开，甚至有人分不清狐狸狗。粉丝地域验证也指向东北。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9248b547a14ea17fc1caaebb603f92d7.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_eb4b096a231b9d5c4383ec0cabfe4370.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5c410a41ca6e72b2fac133a47b6ab3a8.png>
+![](img/zhuanqian_9248b547a14ea17fc1caaebb603f92d7.png)
+![](img/zhuanqian_eb4b096a231b9d5c4383ec0cabfe4370.png)
+![](img/zhuanqian_5c410a41ca6e72b2fac133a47b6ab3a8.png)
 由于国内并非主阵地，运营体系化不足，但也做了几次尝试。蛇年春节我趁势做了条蛇的救援，1小时内破20万，比狐仙还快，可惜不久被判违规，没能复制大爆。后来我没再做黄鼠狼，改成浣熊，并声明原创重复发了一次，视频号未判违规，两条数据都更好，说明东北仙灵文化仍有挖掘空间。有趣的是，这条金蛇发在 Youtube 上竟成了频道播放最高的，19k。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8ef1e161e3a75e5d8a4d7098f8f5dbc2.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_82635809c41d75ec9660e96cf49e9659.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_af108f9a65e1d3fefa68a9bcdfcae954.png>
+![](img/zhuanqian_8ef1e161e3a75e5d8a4d7098f8f5dbc2.png)
+![](img/zhuanqian_82635809c41d75ec9660e96cf49e9659.png)
+![](img/zhuanqian_af108f9a65e1d3fefa68a9bcdfcae954.png)
 #### 小结：
 * 该类内容核心受众是50岁以上父母辈，基本察觉不到 AI。曾因未声明 AI 创作，在1000万+播放时被下架，后申诉声明 AI 恢复，但推荐被暂停。提醒两点：以假乱真内容必须声明 AI，否则会限推；
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c8069710f36e6a3d19931ae2da804364.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_91621545bc1019730cf7d68524c49639.png>
+![](img/zhuanqian_c8069710f36e6a3d19931ae2da804364.png)
+![](img/zhuanqian_91621545bc1019730cf7d68524c49639.png)
 * 动物救援的粉丝画像和 AI 猫咪故事不同，视频号靠评论量变现更适合，抖音不快，快手会判违规。视频号容错度高，短平快营销内容更适合在视频号。
 | 平台 | 启动时间 | 内容数 | 粉丝数 | 累计播放量 | 累计获赞 | 累计收入 |
 | 抖音号 | 2024.12.18 | 27 | 2.37万 | 350万 | 7.1万 | 33.8 |
@@ -76,20 +76,20 @@
 | AI 文生图 |  |
 | AI 图生视频 | AI 图生视频 |
 | 视频剪辑 | 视频剪辑 |
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_eaec8f2a5d7906943d0b916821689f9c.png>
+![](img/zhuanqian_eaec8f2a5d7906943d0b916821689f9c.png)
 #### 图生图的合理用法：
 图生图更适合作为提效补充。有了爆款场景，直接把狗换成浣熊，主体替换成本很低。还能在关键帧上加元素，比如在旁边加个漂亮女生围观，通过图生视频让她与动物互动，整个救援收尾就有了。蜂窝这类场景，文生图抽卡很难拟合，用图生图就能快速逼近。建议少量使用，避免整片依赖。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b66ee27ab1447617f06d016c1a85a035.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_da53773a44fed1e4428f94ab9081b9bb.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9a2dd142b83b722b6a4751878ada5cc6.png>
+![](img/zhuanqian_b66ee27ab1447617f06d016c1a85a035.png)
+![](img/zhuanqian_da53773a44fed1e4428f94ab9081b9bb.png)
+![](img/zhuanqian_9a2dd142b83b722b6a4751878ada5cc6.png)
 ## 经验四：长视频配乐用无版权库；遇到问题先大胆申诉
 一次长视频我用了 Pixabay 无版权音乐，结果还是收到社区警告视频下架。Youtube 未说明原因，经教练推测是版权误判。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1b55e18c40edb7032b8942b3824fd1c0.png>
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8733856b7dffec27976af681604fe36f.png>
+![](img/zhuanqian_1b55e18c40edb7032b8942b3824fd1c0.png)
+![](img/zhuanqian_8733856b7dffec27976af681604fe36f.png)
 我按要求完成培训，同时提交申诉，一天内警告撤销，改为 Shorts 版权限制，不影响使用，收益由平台分给音乐方。申诉说明为：The content of the video consists of videos that have already been published, all of which I independently created using AI. The background music is from Pixabay, which is copyright-free (and I provided the links). May I ask which community rules have I violated?【长视频内容均为已发布视频，均由我用 AI 独立创作，背景音乐来自 Pixabay 无版权音乐（附链接），请问违反了社区哪些规则？】
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_09abf94d8650dea33ba99f533166045a.png>
+![](img/zhuanqian_09abf94d8650dea33ba99f533166045a.png)
 教训是：大胆申诉，至少能拿到明确反馈。Youtube 音频库最稳妥，直接用即可。
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3685043560f45d6e4c8526269f6929f9.png>
+![](img/zhuanqian_3685043560f45d6e4c8526269f6929f9.png)
 # 致谢
 实战才是真知，每个人都有自己的心得。希望这些碎片能帮到你。最近的 Youtube 陪跑营很强，两位教练带100+人，每天解新问题，赛道变化快，这种陪跑模式很值。感谢赚钱团队，也感谢两位教练的毫无保留分享，以及 @七天老师 对本文的指导。
 最后分享两个我用 Cursor 写的常用工具：
@@ -97,4 +97,4 @@
 DALLE3 下载的是 WebP，部分图生视频平台不支持，我做了个转换站：webp-change-new.vercel.app
 ## 工具二：视频关键帧识别
 老马分享的是 Windows 版，我用 Mac 重新做了版，参数调好后不丢帧、可删减：夸克网盘 https://pan.quark.cn/s/7785e92bb6ff
-<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_aadb4ca8d8f925fd16e2a7bc02bca012.png>
+![](img/zhuanqian_aadb4ca8d8f925fd16e2a7bc02bca012.png)
