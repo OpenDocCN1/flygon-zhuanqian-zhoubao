@@ -1,4 +1,4 @@
-# AI 绘画变现思路分享
+# 下班后多一份收入：3 个月试遍 AI 绘画变现，这些路子都跑通过
 先说明一下，我是分享人蕃茄。今年2月起我开始玩AI画图，三个多月里把能想到的AI盈利路子都试了一遍。赚得不多，但每一条都亲自跑通过，也算积累了不少经验。如果你正在找一份下班后能慢慢做起来的额外收入，这篇内容应该会有点用。这些玩法不会让人一夜暴富，但只要每天花点零碎时间，单量会一点一点堆起来。
 我最早试的方向是发图文和“会动”的视频。那时候先用AI生成一张女孩肖像，再把图传给腾讯家的智影，让里面的虚拟主播照着稿子开口说话。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_74b2ba3f80e03241ec91e0ac0ca40277.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7a3b76abb2d82bcd9b36767e4d131089.png>这类作品制作速度很快，熟练之后一条大概不到15分钟。当时发在头条号上，表现最好的一条曝光超57万次浏览，结算了22.46元。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1893cc9fa596ef233217cbcf58bf0d05.png>
 出图用过的工具不少，比如mewxai，也用过叫“无界”的那一款，另外还试过幻火和狸猫等App。这些工具里都有一个“作品广场”，别人生成好的图可以直接拿来做底图。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_be426a220802826700325bc94a4b6d6e.png>以无界为例：进入广场挑一张喜欢的女生画像，点进大图，右下角有个“同款”按钮，按一下就能复用这张图。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_97732a740f2c4260818a95e5f4ee4f09.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8012fbbd64917513bfed52235d155c69.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_065cebf3bce928305b7b0f703043a95b.png>

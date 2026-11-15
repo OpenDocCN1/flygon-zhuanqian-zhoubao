@@ -1,6 +1,6 @@
 # 从 AI 定制变现十几万，到重新回到闲鱼：我如何用 3 个标准筛选一人公司项目
 我靠AI定制做到十几万，却把项目收了：一个人做生意，我现在只用这三条来验货
-大家好，我是鸭先知。
+大家好，我是龙哥。
 过去一年半，我把市面上能玩的工具基本都上手过：闲鱼、RPA、Coze、飞书多维表格、n8n、Obsidian、Cursor、Claude Code、AI编程、智能体定制。
 其中一部分确实变现了。
 早年在闲鱼做高客单实物时，觉得选品、上架太耗时间，就自学RPA，把“找爆款→飞书表格整理→自动上架”这套链路做成了半自动。<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a01d319e5d5b054105cb5904bc49bf53_0_0.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a01d319e5d5b054105cb5904bc49bf53_0_1.png>

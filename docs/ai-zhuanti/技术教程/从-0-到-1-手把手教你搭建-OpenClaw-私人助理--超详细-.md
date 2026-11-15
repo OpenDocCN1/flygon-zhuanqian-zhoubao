@@ -5,7 +5,7 @@
 | 文档版本 | 更新描述 | 作者 | 更新日期 |
 | V1.0.0 | 新建文档 | 科学羊 | 2026-02-09 |
 <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_90cd1a4407105b53ae09ead01bb0eb7c_0_1.png>
-大家好，我是科学羊。
+大家好，我是龙哥。
 - 10W+ 爆文公众号专栏持续更新的作者;
 - 时间管理工具「时迹-TimeFriend」创作者;
 - 知名媒体签约编辑;

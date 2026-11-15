@@ -9,7 +9,7 @@
 - 基础信息没有整理好时，别急着谈高级智能应用；
 - 业务全貌理顺后，先挑最值得处理的 P0；
 - 用一个范围可控、能实际运行的 MVP，证明事情确实有用。
-我是小宋，目前从事 AI 企业服务。
+我是龙哥，目前从事 AI 企业服务。
 - 1. 程序员出身，后端开发工程师，赚钱 1 年圈友。
 <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_04f1c761443fda3ded04c228e96e2045_0_0.png>
 - 2. 目前主要做 AI 工作流、多 Agent + Skill 内容知识库、n8n 工作流。

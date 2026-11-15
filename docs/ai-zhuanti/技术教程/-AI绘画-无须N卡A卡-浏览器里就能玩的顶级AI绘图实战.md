@@ -1,5 +1,5 @@
 # 【AI绘画】无须N卡A卡！浏览器里就能玩的顶级AI绘图实战
-嗨，我是屋顶瓦，今天分享一套在 Google Colab 上畅玩 AI 绘画的完整打法，干货密度很高，跟着做就能立刻上手。废话少说，直接进入正题。
+嗨，我是龙哥，今天分享一套在 Google Colab 上畅玩 AI 绘画的完整打法，干货密度很高，跟着做就能立刻上手。废话少说，直接进入正题。
 说明：正文配图、模型获取地址以及可用的脚本链接已汇总在文章末尾，自行取用即可。
 <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5455b006c7fde52f26e225407cfe3139.png>
 <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_dcc949c7c4c2c4eab84af83acb54fdbc.png>

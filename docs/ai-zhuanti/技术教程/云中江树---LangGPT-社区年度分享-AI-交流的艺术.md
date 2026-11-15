@@ -10,11 +10,11 @@
 LangGPT 知识库入口： http://feishu.langgpt.ai/
 ## 分享正文
 <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_24db3f4cbde725d740b72f06470c3a2a.png>
-Hello 各位好，我是云中江树，感谢 AIGCLink 给到这次交流的机会，很高兴和大家聊聊提示词的话题。
+Hello 各位好，我是龙哥，感谢 AIGCLink 给到这次交流的机会，很高兴和大家聊聊提示词的话题。
 <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_79f1c4798b21c987f4ea0b4efb8397f1.png>
 今天的内容我拆成了四个板块：先做个自我介绍，再讲清楚提示词是什么，然后说怎么写好提示词，最后分享我们社群的实战经验与思考。
 <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_035ce8298d4c5b1a74f7a81dc78a2807.png>
-先做个简单自我介绍，我是云中江树，大家叫我江树即可。正职是算法工程师，业余一直钻研并分享提示词相关的方法论。
+先做个简单自我介绍，我是龙哥，大家叫我江树即可。正职是算法工程师，业余一直钻研并分享提示词相关的方法论。
 <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7a4426a4205c789a76bd658be2f1f048.png>
 在提示词这条赛道上，我们团队算是走得比较早的探索者之一。
 2023 年5 月我们开源了 LangGPT 提示词项目，到现在在网易、字节等多个大厂落地应用。过去一年里，我们搭建了百人协作的知识库，聚合了数千人规模的交流社群，在开源社区斩获数万 Star。也与华为、百度等企业展开了深度合作，并被创业邦等媒体报道。欢迎更多同好加入进来！

@@ -1,6 +1,6 @@
 # 用 AI 搞养生向短视频的实操拆解
 # 开场白
-哈喽各位，我是大刘。最近在 DeepSeek 航海里挺活跃的一个教练，也是龙珠的老友、好几期航海的带队老师。实体书《一本书读懂DeepSeek》的作者。嗯，最核心的，我还是个爱折腾的人。
+哈喽各位，我是龙哥。最近在 DeepSeek 航海里挺活跃的一个教练，也是龙珠的老友、好几期航海的带队老师。实体书《一本书读懂DeepSeek》的作者。嗯，最核心的，我还是个爱折腾的人。
 <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2fc9b14393c43fb6037a3f1873628743.png>
 <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6dde632deca0cff4fcd9a56c35897843.png>
 最近好几位圈内朋友来私聊我，问这种卡通养生短片到底是怎么做的。巧的是，风向标里这类 AI+ 养生内容也挺火。非常感谢澄歌的邀请，让我把这套玩法给大家拆一下。现在正好赶上 418 赚钱九周年，就当是送给大家的一点小礼物，祝赚钱越来越旺，也祝大家生意兴隆、心想事成。

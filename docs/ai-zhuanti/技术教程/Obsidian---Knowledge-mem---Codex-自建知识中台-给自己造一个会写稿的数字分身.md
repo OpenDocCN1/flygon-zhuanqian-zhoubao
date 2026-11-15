@@ -3,7 +3,7 @@
 <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8284453fc0f38b4f189e835287d8dd31_0_0.png>
 <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8284453fc0f38b4f189e835287d8dd31_0_1.png>
 **微信：**
-大家好，我是九歌，目前在南宁创业。
+大家好，我是龙哥，目前在南宁创业。
 主营两条线：本地同城教育业务，和 AI 内容生产变现。过去两年从家教中介做起，逐步建成后端教师交付团队，同时也深耕同城教育个人 IP。
 最头疼的问题是：内容产出不稳定、质量起伏大、团队协作成本高。
 后来把 Obsidian、Knowledge mem、Codex 组合成一套“私域知识库 + 数字分身”系统，把写稿从临时发挥变成可复用的标准作业流程。

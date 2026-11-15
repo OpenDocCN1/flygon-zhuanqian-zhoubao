@@ -1,5 +1,5 @@
 # 从零到上线：AI图片站全流程拆解及前端打磨实操
-大家好，我是念明。今天把我做 AI 图片站的完整经历和前端优化的经验整理出来，和大家同步一下。为了提高阅读效率，本文全程精简叙述，不加任何冗余。
+大家好，我是龙哥。今天把我做 AI 图片站的完整经历和前端优化的经验整理出来，和大家同步一下。为了提高阅读效率，本文全程精简叙述，不加任何冗余。
 线上 Demo：picassoai.top
 <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_87ac3de0efc94172f344a22ddf24aa53.png>
 <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_741b2ccc2d3544c32ecba00f45399ccb.png>

@@ -1,7 +1,7 @@
 # 从搬运到原创：我用AI赋能公开课PPT，私域月入稳定10-20W
 <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3311fb1529083e290ce9a6ae7513074e_0_0.png>
 <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3311fb1529083e290ce9a6ae7513074e_0_1.png>
-大家好，我是奇艺。
+大家好，我是龙哥。
 这些年我一直在小红书深耕虚拟资料赛道，从早期的教辅资料，到后来切入教务细分领域，专攻老师公开课方向，都做出了一些成绩。
 今天想跟你聊聊，我是怎么从0到1走通这条路的，尤其是2025年开始全力投入的“AI赋能公开课”项目，希望能给想入局的朋友一点参考。
 ## 一、教辅阶段：从搬运到原创的必经之路

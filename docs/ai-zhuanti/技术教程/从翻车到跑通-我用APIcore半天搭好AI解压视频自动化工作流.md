@@ -1,7 +1,7 @@
 # 从翻车到跑通：我用APIcore半天搭好AI解压视频自动化工作流
 > 别急着放弃，换条路也许更快
 <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5ad518a01ccd4cb6ddacffd47f1102ae.png>
-大家好，我是高猿一等。
+大家好，我是龙哥。
 这篇教程的缘起，其实有点狼狈。按照航海手册的指引去注册 kia.ai 那个 API 中转站，结果卡在了真人验证环节——来来回回试了七八次，系统一直提示操作太频繁。我不死心，换了另一台设备重新登录，依旧注册失败。开局就翻车，说不郁闷是假的。
 但API中转站又不是独此一家。与其死磕，不如直接换个熟悉的平台——APIcore。
 ### APIcore是什么

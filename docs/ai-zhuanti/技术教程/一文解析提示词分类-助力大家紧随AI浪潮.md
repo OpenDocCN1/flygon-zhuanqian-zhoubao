@@ -2,7 +2,7 @@
 **提示词不会写?这篇分类指南一次讲透**
 如果你最近常泡在AI社群里,大概率会刷到同一个高频词:Prompt。
 入门的人想知道它到底是什么,进阶的人想知道怎么写才有效。书生平均每天都要在AI上泡六到八小时,手里攒了不少前沿玩法和实战案例,今天就掏一篇干货出来,把提示词的分类一次讲透,希望能帮到正在摸索的你。
-先交代一下来路:我是李书生,A组主理人,公众号「一点文笔记」的主理人,国内头部AI社群第一期航海教练组成员,万人星球实战嘉宾,也是国内最早的一批AI指令工程师,算是All in AI的那拨人。
+先交代一下来路:我是龙哥,A组主理人,公众号「一点文笔记」的主理人,国内头部AI社群第一期航海教练组成员,万人星球实战嘉宾,也是国内最早的一批AI指令工程师,算是All in AI的那拨人。
 文章开始前,先亮两个我用GPT-3.5调出来的成品:
 一个是小红书学习博主的种草笔记,直接看效果:<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_82ea4f92065ab38533201bdd27e971b2.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b8be7076edccd339083d38b9faf2a890.png>
 另一个是头条情感文,婆媳关系题材:<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9a718c25b09a2e8b959e213e2cd14df2.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8862d70fcaf6ca08dd9e7e6ea36a00e5.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ac96fcec13850f8d42543e4d8f747672.png>

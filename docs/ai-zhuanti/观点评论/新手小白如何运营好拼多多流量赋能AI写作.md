@@ -1,5 +1,5 @@
 # 新手小白如何运营好拼多多流量赋能AI写作
-大家好，我是志恒。做过几年货架电商店群操盘，现在把大部分精力都放在 AI 方向上。很多朋友做 AI 写作变现，卡得最久的一步就是流量。这篇文章，我把自己在拼多多上跑通的获客方法完整梳理一遍，希望能给你一点参考。
+大家好，我是龙哥。做过几年货架电商店群操盘，现在把大部分精力都放在 AI 方向上。很多朋友做 AI 写作变现，卡得最久的一步就是流量。这篇文章，我把自己在拼多多上跑通的获客方法完整梳理一遍，希望能给你一点参考。
 先放几张最近的部分数据截图：
 <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_94d8da1924fc27cf6d2c98cf8e99e14c.png>
 <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_675643943855a95449cdc4870a3020f6.png>

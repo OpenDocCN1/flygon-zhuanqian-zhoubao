@@ -1,5 +1,5 @@
 # 用影刀 RPA + ChatGPT 把公众号爆文做成流水线，我 4 个月流量主做到 6w+ 的自动化打法
-我是伟豪，目前自由职业。8 月从零跟着航海学习 AI 写作，12 月前靠公众号流量主累计收益就突破了 6 万。这期不聊变现心法，单聊我是怎么把写作这件事自动化起来，让影刀 RPA 和 ChatGPT 帮我批量生产爆文的。
+我是龙哥，目前自由职业。8 月从零跟着航海学习 AI 写作，12 月前靠公众号流量主累计收益就突破了 6 万。这期不聊变现心法，单聊我是怎么把写作这件事自动化起来，让影刀 RPA 和 ChatGPT 帮我批量生产爆文的。
 <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_45b0ec6607e78920b2f6d1ba1e2b5985.png>
 <https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ba3a965891739894f8f451cfeaf49d2e.png>
 上篇在赚钱分享的是 AI 自媒体 0 到 1 的变现路径：
