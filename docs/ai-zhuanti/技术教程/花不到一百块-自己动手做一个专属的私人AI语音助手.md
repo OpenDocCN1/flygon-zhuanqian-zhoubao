@@ -1,0 +1,83 @@
+# 花不到一百块，自己动手做一个专属的私人AI语音助手
+| 版本 | 更新描述 | 作者 | 更新日期 |
+| V1.0 | 新建文档 | 龙哥 | 2025-02-20 |
+大家好，我是龙哥，也做过报社签约编辑、海外内容创业、海外游戏视频，以及机器人系统开发。今天就来聊一件有点意思的事，给ESP32-S3搭一个能听会说的AI智能体。
+为什么要做这个？
+很简单，市面上大家都在比AI应用谁更卷，那我们就换个赛道，卷硬件。
+先说效果如何：
+从商业角度看，这里有两条路可以走：
+1、做带AI的陪伴玩偶：我实测过这个模型，经过少量训练后，给小朋友讲睡前故事、陪聊都很自然。你可以去淘宝找一个空玩偶，把主板塞进去，就能实现语音互动的陪伴玩具。类似的产品去年已经很热了，现在入场还不算晚。
+2、面向技术人群：可以做成创客课程出售，或者接技术研发顾问的单子。
+# 一、前言：
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_055d9d73c59a2607aad52747d16f4eab.png>
+本期内容会更偏硬核一点，主题是用嵌入式ESP32-S3打造一个AI语音智能体。整体思路参考了「小智 AI 聊天机器人」的开源方案，原版教程已经很完整了，我在这里把流程做了精简和成本压缩，只保留能跑起来的MVP版本。
+开发环境：Windows电脑
+适合谁：想靠硬科技创业、或者对智能硬件有兴趣的小伙伴
+# 二、硬件清单
+| 序号 | 名称 | 数量 | 单价 | 购买链接 |
+| 1 | ESP32-S3-DevKitC-1开发板 N16R8 C3 ai小智模块esp32s3 Wifi蓝牙 | 1 | ¥44.6 | 控制器 |
+| 2 | INMP441全向麦克风模块 MEMS 高精度 低功耗 I2S接口 支持ESP32 | 1 | ¥8 | 麦克风 |
+| 3 | MAX98357 I2S 音频放大器模块 /无滤波D类放大 支持ESP32 树莓pi | 1 | ¥15.8 | 小音响 |
+| 5 | 杜邦线若干 | 15条+ | \ | 自找 |
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_446fa33ea5b70a040827e0034b696ae2.png>
+# 三、硬件接线
+## 3.1 接线示意图
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a3f3996863ff6cacbbf9f804a31d4d53.png>
+## 3.2 实拍图
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d10906dc943624420bbbf66975b6ffe1.png>
+# 四、固件烧录与软件准备
+## 4.1 准备固件和工具
+相关工具下载：https://www.espressif.com.cn/zh-hans/support/download/other-tools
+固件下载地址：https://github.com/78/xiaozhi-esp32/releases
+我这边已经整理好了。
+（Flash 下载工具）
+（固件）
+## 4.2 为主板供电
+用 Type-C 线把开发板上的USB口和电脑连接，板子上的LED灯亮起说明供电正常。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_82382fa91d73e7e8499bc191d513bc41.png>
+## 4.3 查看串口号
+打开设备管理器 >
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c05d9356f2a672685d478477f6c647b6.png>
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7dbd20810f1f3c026b6a90013238e99d.png>
+确认一下自己的板子对应的COM口，比如我的就是COM7。
+## 4.4 启动烧录工具
+把前面下载的 Flash 下载工具打开
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_979affda302571190716448e44e27af7.png>
+双击运行，按照下图设置参数
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1a2acf4384499eeb67dacb5ac2f36a8d.png>
+指定固件 bin 文件的路径，注意假如不是放在 Flash Download Tool 的 bin 目录下，路径里不要出现中文，否则会加载失败。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6aa9076b2deb62e85503aafa893f08ba.png>
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5568183ee33d058f9eaacd6b46c6d70f.png>
+点 Start 开始烧录
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_556ffe15d745aad4f140863759f32726.png>
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_08a364b966a6361f44d05944c32b8734.png>
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9cb8bfd9d878bba16bcdd94324ba8fd3.png>
+大概等两分钟左右会显示 Finish。随后按下板子上的RST复位键，会听到提示音进入配网模式。
+# 五、AI设置与调试
+## 5.1 配网连接
+这时用手机搜索附近的Wi-Fi，找到以 Xiaozhi-XXXXXX 命名的热点连接上。几秒后会自动跳转到设置页面，不要手动退出。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_92d791d3c14a3479ad45f369893f2f1c.png>
+点进 小智的wifi 就会出现下面的界面。
+注意：Wi-Fi扫描页面加载会慢一点，请耐心等5秒左右，不要取消。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9391a61529faf6d2be0bf01221cd53f5.png>
+接着填入你家里的2.4G Wi-Fi账号密码，主板成功连网后即可。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b75815164ece18d3e5b6caccc10a2618.png>
+## 5.2 后台配置语音和角色
+连网后，还需要在 小智AI聊天机器人-控制面板 中完成设备激活，才能正常进行语音对话，具体步骤如下：
+确保设备已联网，能通过“你好，小智”唤醒，并播报6位设备验证码，可多唤醒几次重听。
+注意：若听不到声音，面包板方案请检查功放和喇叭接线，第三方板子请确认固件是否匹配。
+在电脑浏览器打开 小智AI聊天机器人-控制面板 后台：https://xiaozhi.me ，没有账号先注册。
+进入“设备管理”，找到“添加新设备”。
+输入刚才语音播报的6位设备ID，点击“添加设备”。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_31ea89744b211e0f3a32b87272f95afe.png>
+设备激活后会出现在“设备管理”列表中，即可免费使用。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c1dcf42b36c76b02dac895c3384134f8.png>
+之后你可以在「配置角色」里挑选喜欢的AI形象，也可以切换想要的大模型。
+就到这里，感谢观看～
+# 参考资源
+一个很清晰的操作视频：
+4分钟搭建AI小智（一谷半溺）
+小智AI开源项目地址：
+https://github.com/78/xiaozhi-esp32?tab=readme-ov-file
+# 结语：
+嵌入式开发不仅好玩，未来用处也不小。哪怕你现在没基础也不用焦虑，《技术的本质》里布莱恩·阿瑟说过，技术本质上就是一串流程化的SOP。你现在可能不懂黑箱内部原理，照着步骤做几遍，自然就熟了。

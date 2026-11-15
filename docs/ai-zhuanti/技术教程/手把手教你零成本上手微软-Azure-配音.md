@@ -1,0 +1,35 @@
+# 手把手教你零成本上手微软 Azure 配音
+在众多配音工具里，我个人最认可的就是微软 Azure 的效果。这段时间正好在参与 GPT 自媒体航海营和视频号涨粉航海营，身边不少同学都在问配音的事，所以我就把我常用的注册与使用流程整理出来给大家。
+1 先准备一个微软账号，注册方式很常见，网上教程很多，这里就不再展开，大家自行搜索即可
+2 账号有了之后，再去开通 Azure 账号
+https://azure.microsoft.com/zh-cn/free
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_baeb3970b3e30388d69569ae8cb8ca1f.png>
+点进页面后点击免费开始使用，逐项勾选同意协议后按下一步，
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_42309281a2959831915c343c2e044900.png>
+3 因为 Azure 是海外服务，付款信息的填写需要支持国际支付的银行卡，主流就是 Visa 或 Mastercard。有实体卡的朋友直接填写即可，缺少卡片的朋友也可以用虚拟卡解决，不知道怎么弄的也可以私信我，我教你申请流程。信息提交完成，注册就算搞定了。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_26b28863f7e456efc89dda9a78784507.png>
+4 登录成功后进入控制台。在左侧菜单找到所有服务，点开 AI 机器人学习分类，再进入认知服务分组，就能看到 Speech 服务，也就是语音服务，在最右侧列表往下数第二个。点进去后点击创建即可新建语音资源。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cc06f6a8a2aac0f2ffed219849ad5381.png>
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7e9d48f2371e9adab1e439835234374f.png>
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_47f6a9cd6c226346f11215e2d497a690.png>
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b682b9c339fb4618a68a7209246b324c.png>
+5 在订阅类型里选择按量付费，资源组建议新建，名称随意取，区域选一个延迟能接受的即可，服务名称自拟，定价层务必选择免费版 Free F0，确认无误后点击底部的蓝色链接审阅并创建。创建完成后该语音资源会出现在资源组的列表里，以后直接点开就能用。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_77d5c747bd903461f0cb166b52ca3bfc.png>
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_36195383239a77d4ccbc5748befe809a.png>
+6 特别提醒，新注册的 Azure 账号通常会赠送 30 天 200 美元的体验额度，可以先安心试用，不用担心费用问题。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a807be62bbbfa66cfef2d1737f1f1a1a.png>
+7 开始使用配音功能。进入 Azure 控制台，找到对应的资源组，点开刚才创建的语音服务，进入后找到文本转语音入口。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_efcec49fa5e3de068075b6b9a64ddb7f.png>
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b299495405ab624a42248274c326cc88.png>
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_939572fe282a51576b8f4ebe8193dde2.png>
+8 进入语音库会发现支持的语种非常多，基本能覆盖绝大多数需求。中文配音里不仅有普通话，还有不少地方方言可选。每个模型都可以点试听，先听听音色，再根据视频调性挑选合适的。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9157d50a32a2dcae5db9202f2fd9aea2.png>
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8d960daa073bb9b4322aecd4e92e7cc2.png>
+9 选定模型后点击前往语音合成，把需要转换的文案复制进输入框，实时试听效果。满意后直接点击保存导出，文件就能下载使用了。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c82ecd260c4e3b8a10dbe7d446af067f.png>
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c822acfcbe703b5013df830d9212d56c.png>
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cace0a739828882439fe331bf2b97efa.png>
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_74834b916e6be85bdbcac451ec814c87.png>
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ba5a02260f05beea761aac230e6ecdc2.png>
+以上就是完整的 Azure 免费配音实操流程了。这是我的第一次教程撰写，难免有疏漏之处，欢迎大家指正补充，有任何疑问也欢迎留言交流。
+祝各位创作顺利，赚钱有道

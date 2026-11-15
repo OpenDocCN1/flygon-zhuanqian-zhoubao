@@ -1,0 +1,231 @@
+# 用 AIGC 做 TikTok 原创带货，单日破百单！海外短视频变现真成刚需了！保姆级拆解
+大家好，我是 Lisa，90 后福建人，现定居深圳深耕跨境三年，如今全身心投入 AI+出海赛道。
+AI 爆发的当下，我把 AI 真正融进了跨境生意里，并跑通了 AIGC+跨境电商的变现闭环。市场缺口巨大。今天把这套模型和实操路径完整拆开，希望更多人能搭上 AI 出海的车，冲向别墅靠大海！
+此前我发过《一个传统媒体人的 AI 跨境逆袭之路》，反响很大，大家都在催我出干货。这次就直接上一个全流程的保姆级教程：AIGC 原创短视频带货如何赚美金，小白也能快速入局。
+第一篇帖：
+# 一、跨境带货短视频是痛点，更是蓝海
+国内经历过短视频和直播的黄金期，草根逆袭的故事大家都见过。但国内已进入存量内卷，海外才刚迎来短视频直播的爆发期。
+三年前我们刚切入 TikTok 时，平台内容极度匮乏，几乎没什么审核，搬运混剪靠创作者基金都能赚得不错，带货对原创、货板要求也很松。
+早期虽管得松，但玩家也完成了市场教育。海外用户连小黄车怎么点都懵，得靠文字箭头反复指引。
+如今平台和市场都成熟了，管控越来越严，以前大火的混剪带货在多国已失效，美区更是几乎一刀切，只认原创。
+更关键的是，海外原创门槛极高。没有本地模特、没有本地场景，直接催生出庞大的海外代拍产业链。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e5b57eb2c8dffea04a50b8c74b27056f.png>
+可代拍价格不便宜，周期也长，导致这套打法基本只有大卖在用，难以规模化复制。以下是某头部代拍公司的报价单：
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_38f5a4349442b1145109ac89c343d746.png>
+因此 TikTok 美区，自营商家的短视频占比非常低。据数据，TikTok 美区小店 GMV 中，达人带货占 80% 左右，广告约 15%，直播约 5%。
+市场就演变成商家多达人少，佣金越给越高，达人甚至开始收坑位费。
+这和国内抖音的进化路径如出一辙，最终商家自营账号一定会成为主流。所以我判断：AI 到来，跨境原创短视频的窗口彻底打开了！
+# 二、AI 原创短视频实测战绩
+看过我上篇的读者应该知道，我最初做了 300 个 TikTok 带货号，核心打法是混剪。虽然效率高，但有两大隐患：
+第一，素材受面孔限制。混剪做东南亚还行，因为面孔和国内相似度高，欧美就完全不行。不仅推流偏向亚裔，本地化不足也严重影响转化信任。
+第二，风控越来越严。混剪在美区基本过不了审，审核越来越苛。
+于是我开始验证 AI 原创短视频带货路径。测试多品类、多账号后都陆续出单，部分单品直接破百单。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0fe157860b278b32bf3db0c803afa383.png>
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_40e4e6a4ed4ddecb6ad92a6f864c9818.png>
+很多朋友反馈根本看不出是 AI 生成，真实感和自然度都很在线，毕竟请到这些小模特现实中几乎不可能。
+美区我们还做了虚拟网红账号，打造健身博主 sophia，一条播放 2 万多的视频涨粉 1000+，吸粉效率很高。后续可挂健身品类。虚拟网红不用担心人设跑路、稳定性问题，还省去拍摄成本，我认为会成为趋势。
+方法论跑通后，越来越多的跨境卖家找上门，都说原创短视频是共性痛点。近两周一家跨境上市公司也找到我们，体量这么大，原创短视频依然是硬伤。
+他们邀请我和锦哥为短视频部门做 AI 内训，把整套方法论直接复制过去，他们也开启了 AI 带货。以前请外模一小时要 1000 元，现在 AI 方案既降本又提效。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cd83590f296c4c9eb01bfeadd9fd7b5c.png>
+# 三、选国家和选品，这两步决定起步快慢
+TikTok 起家于兴趣电商，正在复制抖音的成功路径，GMV 年超 2 万亿，造就了一批亿元俱乐部卖家。
+无论是达人还是商家，短视频都是必选项。TikTok 是兴趣平台，电商必须叠加兴趣属性。目前海外直播还不成熟，平台 GMV 约 70% 来自短视频带货。
+机会很大。知情人士透露，TikTok Shop 前三季度 GMV 已超去年全年。
+从站点看，美区最强，上半年 GMV 占比达 24%，排名第一，泰国、印尼紧随其后，英国仅占 4%。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7ecc963e8259042609e7c43e8d6237a6.png>
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_57378a23099896bbad69c3fbdf8ba42c.png>
+很多人想冲美区，毕竟赚美金、客单价高。特朗普大选后放话不会封禁 TikTok，心里的大石头落地。他自己的 TikTok 账号已有 1410 万粉丝，是平台涨粉最快的网红之一，TikTok 对他成功贡献不小。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e8e5d1b24af5f531020aeabb61cb8131.png>
+美区市场毋庸置疑，但对小白我建议先从东南亚起步，跑通 0-1 再去美国。美区体量大，门槛也高，不太友好。
+## 一）橱窗开通门槛
+可开橱窗的站点：美区、英区、东南亚六国 马来西亚、印尼、新加坡、泰国、越南、菲律宾。
+美区目前需要 5000 粉。东南亚此前印尼要 2000 粉，其余 1000 粉。最近有变动，很多人还不知道：
+现在印尼和菲律宾只需 600 粉就能开橱窗，门槛极低。印尼上次封禁三个月，大量卖家流失，现在很可能是为了召回而放宽。
+## 二）如何选品类
+### 1、从兴趣出发
+我在一线剪辑多年，建议先选自己喜欢或热爱的类目。因为每天大部分时间都在素材和剪辑上，不喜欢很难坚持到爆发期。喜欢美妆就做美妆，喜欢服饰就做服饰。
+### 2、从资源出发
+结合自身资源优势。国内有工厂或家族行业背景的，可提前布局出海；已有出海资源能拿到高佣的，也可优先选。精选联盟佣金普遍偏低，只有定向链接才能拿到高比例。
+有人说海外佣金只有 5%-20%，太低。其实关键看货盘。我们做几百个矩阵后，很多商家主动找上门，佣金能给到 30%。海外不缺商家，缺会带货的人。视频粗糙点也能出单就会被疯抢。
+### 3、从需求和技术匹配
+一种是跟品，看 TikTok 榜单哪个类目需求最大，大类目出单快但竞争激烈。另一种是做蓝海，TikTok 缺什么就做什么，风险高但一旦成就是大 IP。
+还有要结合 AIGC 技术成熟度。我们主打 AI 原创，目前测试下来，服饰、宠物用品、车载用品效果最好。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cdd789f72ab00c00d429bb8ab219e3cb.png>
+# 四、AIGC 原创带货视频怎么做
+## 一）为什么必须做原创
+### 1、平台风控升级
+TikTok 对非原创内容打击升级，以前混剪基本失效，东南亚也存在扣分风险，美区混剪完全不行。即使原创拍摄，镜头重复使用也可能被判重。
+挂小黄车后视频进入严格审核池，一旦判重，小黄车会被下架并扣分。橱窗总分 24 分，违规一次扣 8 分封禁 1 天，第二次扣 8 分封禁 3 天，第三次永久封禁。
+美区商家只能自己拍样，拍摄量巨大，大多只能纯拍产品。
+### 2、外模拍摄痛点
+国内找外模难且贵，一线城市勉强能找到，三四线基本没有。我们在福州找外模、主播都很难，最后只能在大学找留学生，价格也不便宜。
+还有人寄样海外拍摄，一次几百美金，往返周期两个月，性价比极低。而且海外达人拍摄质量普遍不高，不懂短视频逻辑，难以按需执行。
+### 3、成本问题
+样品费+外模+剪辑团队，周期长成本高。AI 的出现可以去掉中间环节，只剩制作成本，且全部原创，既解决风控又解决外模难题。
+我认为 AI 原创短视频会成为跨境电商的刚需。国内拍摄成本低，AI 暂时难以取代，但跨境成本高，AI 正是刚需解决方案。
+## 二）制作流程
+### 1、搭建脚本
+带货短视频结构很清晰，核心是把卖点讲透。我的经验：能用镜头表达的绝不靠文案。
+实用结构是黄金三秒钩子+爆点内容+共鸣收尾，中间可延展。
+脚本拆解参考：
+| 序号 | 部分 | 内容描述 | 备注/提示 |
+| 1 | 开头（Hook） | 用问题、惊人事实或故事抓注意力 | 前3-5秒必须留住人 |
+| 2 | 介绍（Introduction） | 简短介绍产品和视频目的 | 简洁直入主题 |
+| 3 | 产品展示（Product Showcase） | 展示特点、使用方法、效果 | 高清画面+清晰解说 |
+| 4 | 优势强调（Highlight Benefits） | 突出核心卖点 | 让用户明白为什么买 |
+| 5 | 用户评价（Customer Reviews） | 展示真实反馈 | 提升可信度 |
+| 6 | 价格和优惠（Price and Offers） | 明确价格及促销 | 突出优惠力度 |
+| 7 | 购买指南（Purchase Guide） | 提供链接和购买步骤 | 信息准确易操作 |
+| 8 | 呼吁行动（Call to Action, CTA） | 引导“立即购买”、“别错过” | 明确下一步动作 |
+| 9 | 结尾（Conclusion） | 总结内容，再次强调优势 | 强有力收尾 |
+| 10 | 尾声（Outro） | 感谢语、品牌展示或预告 | 强化品牌记忆 |
+做脚本最好的方法是拆解爆款然后 1:1 复刻。不要一上来就创新，平台大数据跑出来的内容比主观想象更准。平台判定为好内容的都有算法逻辑，跟着模仿最稳妥。
+不同平台差异大，国内爆的海外不一定行。做海外必须用当地爆款脚本拆解仿制，要的是确定性结果而非偶然性。
+### 2、生成产品图
+脚本确定后要给分镜出图。电商出图最强的是 ComfyUI，但配置和学习成本高，小白几个月都未必上手。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_14f7b9e9aad2e570a6784903415e4dd2.png>
+学习周期长不现实。我推荐一款跨境电商实用的电商工具，小白 3 分钟上手，月费几十人民币，新号送积分，效率高效果好。
+底层也是 ComfyUI，只是流程已搭好，网页端操作无配置压力。
+注册链接：https://linkfox.com/?channel=hujing
+做服饰可使用“AI 穿衣”、“真人换模特”、“人台换模特”、“一键换色”等功能。其他品类可用“场景裂变”、“商品替换”等功能。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1773f956287cf7936bcf5dcac205bf76.png>
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8287c3613819d17c5ea352bf03847d58.png>
+以 TikTok 精选联盟的一条连衣裙为例：
+先保存图片上传，选择“AI 穿衣”功能，系统会自动抠图，白底复杂背景都能处理，不满意可手动微调。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_839204b06b1ab7c7f219949e4eababae.png>
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_05444902633d2e9cb8becf98580df1c8.png>
+选择想要的模特进行 AI 穿衣，网站提供大量外模，也可上传参考图，灵活性很高。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_46cdb16d1d1f9533829213c3adafcac0.png>
+自动生成四张供挑选，效果自然，下载即可使用。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_aac1079f3720efce41c099bc0cc96aa4.png>
+成品高清，还会自动搭配饰品。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5aa663589b5996595550a7c33331009d.png>
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d917311e757d3a0cee1f38aa437964fd.png>
+需要全身图就换个模特即可。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2624fd74ef13bee06c367db9e89d46b5.png>
+多色 SKU 只需要“一键换色”，按参数调成原色，基本无误差。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_abb70b2259897820dda39894793d59bc.png>
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_54819278f19415c8769574fb9e3f6a39.png>
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6cf18caadcc285895eaa3b212b7cf490.png>
+非服饰品类也可用，比如下面这个宠物用品成品图。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_86ad4254dab1bb4f3de4596eb319129e.png>
+### 3、生成产品视频
+图片搞定后就是视频。Runway 和可灵效果都不错，做跨境多用外模，Runway 更稳定，因为其大模型在外国面孔训练上更充分。
+# Runway + TikTok：AI 电商短视频从制作到出海变现完整实操
+想把 AI 出海短视频带货跑通，先把工具链和全流程理顺。视频生成这块，目前我主要用 Runway。
+runway 登录地址：https://app.runwayml.com/login
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8d3e918fd03f238184bc3674666992cf.png>
+官方订阅的无限生成费用较高，一个月 95 美元。我实际使用是某宝找共享号，大概 75 元人民币每月，拿到账号密码后直接登录即可。
+模型建议选 Gen-3 Alpha Turbo，成片观感最好，还能输出竖版比例，很适合 9:16 短视频生态。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a10b3845e3e51eada7e7345201ae20b9.png>
+上传参考图后，在提示区用英文写描述，时长可以选 5 秒或 10 秒。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1e22c55e92692679fbd8b9dd8fdd0688.png>
+点开「相机」可以调整运镜参数，也能手动输入文字指令来控制镜头运动。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_55ec6e503bed7ef26a19cba2afd1ce0a.png>
+生成环节里，提示词决定成片质量。电商场景我们常用图生视频模式，提示词可拆成以下要素来写：
+| 序号 | 要素 | 说明 | 举例 |
+| 1 | 图像输入 | 作为画面底板的静态图 | “一幅宁静湖面的照片” |
+| 2 | 文本描述 | 与画面结合的文字说明 | “湖面上的天鹅在悠闲游动” |
+| 3 | 动作说明 | 主体的行为或动画预期 | “天鹅扇动翅膀，欲要起飞” |
+| 4 | 场景设定 | 背景环境与氛围营造 | “清晨薄雾中，湖面安静” |
+| 5 | 风格要求 | 视觉风格或画面质感 | “水墨画风格，色调淡雅” |
+| 6 | 时长与帧率 | 作品时长及帧数设置 | “时长 6 秒，8 fps” |
+| 7 | 分辨率 | 输出分辨率 | “720x480” |
+写提示词注意四点
+1. 语言简洁
+prompt 避免长难句和古诗词，用短句表达。
+2. 细节饱满但可控
+信息要具体足够理解，但要考虑 5 秒内能完成。运动指令过长模型容易截断。
+3. 用自然描述
+避免歧义和抽象表达，确保模型能准确读懂意图。
+4. 加入情绪点
+少量情感词会让画面更生动。
+例如“一个女孩穿连衣裙开心向前走”，效果就很自然。
+电商短视频里，首尾帧是控制人物的常用手法。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_02135c411b08ed37133f2bee9ae444ea.png>
+首尾帧的逻辑是：用户提供首帧、尾帧两张图，配合文字指令，让 AI 补完中间过渡。首帧是开场画面，尾帧是收尾画面；两张图能帮助模型保持主体稳定；文字指令告诉模型在何种场景下让主体怎样过渡。归纳起来就是主体＋过渡动作。用首尾帧给模特换衣服颜色，观感会显得有点魔性。
+生成片段后导入剪映剪辑。我更推荐海外版 CapCut，语言覆盖多国，音乐库带海外版权。
+CapCut 界面为英文，其余操作与剪映基本一致。
+把素材拖到时间线，配上服装类视频的专属 BGM，按音乐节奏切分镜头。通常拼接 3-5 个分镜，总时长控制在 7-15 秒体验最好。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9eb74491ff26af5180cc7d1bd3e12ff6.png>
+分镜之间可以加推进等转场，让衔接更流畅。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f5a039ba07d5d418a6ed56a0cb0284e9.png>
+导出后作品即完成。把工程保存为模板，后续只需替换素材即可批量出片。
+## 一、手机环境准备
+TikTok 在不同地区的内容和功能不完全一致，环境调好后更稳定安全。
+建议机型 iPhone 7 以上，安卓配置复杂，建议用苹果。
+苹果设置要点：
+1. 恢复出厂设置
+2. 关闭定位
+3. 关闭广告追踪：iOS 14 以下打开「限制广告追踪」；14 以上选择「关闭个性化广告」
+4. 修改语言、地区、时区：语言改为英语、繁体或目标市场语言；时区与 IP 对应城市一致
+5. 手机必须拔卡，禁止插入中国 SIM
+具体设置页如下：
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7e64199efa5262b5db01079fb8fceed3.png>
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c44e46ed263c9fa81da53db290a59716.png>
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e18e8f91944d7e3234124e652b8ad603.png>
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f9be50cbb49862731b6324926ba6a244.png>
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2b3e2435fbd51657a0b056571cac3d98.png>
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4c544dac2ed4649842c87a4a412b042f.png>
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8ad05f1931ea9872752b9f7e33638d99.png>
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1cbd0022913529756329408020cc1b7f.png>
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bdd0d8c0de7b84c99ad3be1fff3b2af5.png>
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e1a4070d09bfc8b840e919ce92abe511.png>
+环境就绪后，可插入当地白卡，也就是废卡，某宝可购得。
+## 二、TikTok 下载
+先准备海外 Apple ID，可自注册也可购买。登录时务必点「不更新」。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5539fd5914306260826e17c497634579.png>
+注意：Apple ID 不要在 iCloud 登录，只能在 App Store 登录。
+登录后即可下载 TikTok。
+网络建议用静态住宅 IP。目前已有国家备案的合规网络，按服务商指引搭建即可。搭建完成后检测 IP 地理位置，显示在当地即可安心打开。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5b7c3f9c11a2884b21a0f592d4b2a836.png>
+## 三、账号注册
+海外可批量用邮箱注册，无需实名，比国内方便。
+- 不建议用 QQ、网易等国内邮箱
+- 可用 outlook、gmail，或自建企业邮箱如宝塔、脆球
+- gmail 使用要谨慎，可能触发中国手机号验证
+- TikTok 不读取邮箱信息，审核不严
+起步用免费的 outlook 邮箱即可，一个 IP 一天可注册多个。
+www.outlook.com
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b5f6c7e260a3246e1d5f9d7b83f53b76.png>
+## 四、精选联盟橱窗开通
+TikTok 的橱窗机制类似国内，但它是全球平台，各国电商开放进度不同。
+目前可开通带货的国家有 8 个：东南亚六国 马来西亚、新加坡、印尼、泰国、越南、菲律宾，加上英国、美国。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d37257fb26956906be17a293564fc5e6.png>
+粉丝门槛：美区 5000 粉；印尼、菲律宾 600 粉；其余国家 1000 粉。
+以马来西亚为例：
+1. 搭建好马来节点，插上马来卡，注册账号，年龄需 18 岁以上，养号到 1000 粉。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2c8349b6db90f2039e5b35fc38aeb946.png>
+2. 后台申请权限：右上角菜单 → Creator tools → 拉到底部点 TikTok Shop
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_125068fde2d8a5875a7a8cf5c17c97a8.png>
+满足粉丝 1000 以上且年满 18 岁即可开通。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d524919cd9286a289db1d223646fa8da.png>
+开通后进入精选联盟添加商品。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_49e22a1bbca8c1f0d4972da275e548e9.png>
+操作与国内抖音类似，看中商品直接 Add 入橱窗即可挂车。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e0aba0b5379fdc493eaea41b634431ab.png>
+发布视频时点 Add Link 添加商品，可单加可多加；多加会以列表呈现，发布前可微调商品名。发布后橱窗会自动展示。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_384c130bb0c98e8b61b41f4e24741292.png>
+之后坚持更新即可等单收美金。账号越做越好，短视频具备长尾效应，旧作品也会持续带来收益。
+## 五、回款方式
+### 东南亚市场 马来西亚、泰国、菲律宾、越南、印尼
+1. 绑定 MCN
+流程：挑选信誉 MCN 签约 → 电商后台绑定账号 → 佣金进入 MCN 账户 → 定期提现。
+2. 虚拟卡结算
+流程：选 Payoneer、WorldFirst 等支付机构注册 → 申请虚拟卡审核通过 → 将卡号、有效期、CVV 绑定到平台 → 佣金入卡后可转银行或本地消费。
+3. 本地银行卡
+流程：找可信任本地联系人签约 → 提供银行卡信息绑定 → 佣金到账后由对方代转。
+4. 绑定小店回款
+流程：有货源可自建小店，一店可绑 5 账号 1 官号 4 营销号，直接店内回款；纯佣金带货不建议自建，可与小店合作代带货回款。
+### 美国市场
+1. PayPal 提现
+流程：注册 PayPal 并绑定银行 → 平台绑定 PayPal → 佣金入账后可在线消费或提现。
+2. 银行卡提现
+流程：获取美国本地银行卡 → 绑定平台 → 佣金到账直接提现。无卡可联系本地朋友或服务商代持。
+3. 绑定小店回款
+同东南亚逻辑，自建小店直接回款，或与小店主合作结算。
+## 六、AIGC 短视频变现路径
+短视频带货变现：AI 原创不怕查重，美区同样适用。跑通品类后可与商家谈定向链接，提高佣金比例。
+广告收入：账号与粉丝做起来后，尤其是虚拟人设类，广告价值较高。
+AIGC 服务业务：跨境市场对 AI 电商短视频需求旺盛。除为企业做内训，还能批量生产原创短视频供商家采购，复购率高。随着 AI 视频逼真度提升，该赛道前景可期。
+最后总结：AI + 出海，别墅靠大海。希望这套方法能帮你实现出海掘金。

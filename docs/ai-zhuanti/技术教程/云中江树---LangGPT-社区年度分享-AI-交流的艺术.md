@@ -1,0 +1,99 @@
+# 云中江树 | LangGPT 社区年度分享：AI 交流的艺术
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_76f072ba4e562c9041f098fdf42c0ae1.png>
+## 前言
+2024年1月13日，AIGCLink 在昆仑巢主办了北京 AIGC 中国开发者大会，我受邀登台分享提示工程相关内容。北京的线下聚会格外频繁，上周刚参加完卡兹克的沙龙，收获很大，能认识一群同路人，也能拿到真实的反馈，倒逼自己产生新想法，更是对做人做事的一种再学习。所以只要有空，我都很乐意跑现场，也建议大家多去凑凑热闹。
+昨天的演讲反响出乎意料，线上线下都收到了不少点赞与认可。因为会场时间吃紧，加上我自己也有点紧张，语速偏快，很多点没讲透。应大家要求，我把 PPT 和口述内容整理成文字版，在现场稿的基础上做了补充和调整，分享出来。
+2023 年，LangGPT 的伙伴们在社群里沉淀了海量关于提示词与提示工程的优质产出，一直缺少一次系统性的梳理。借着这次分享的机会，我尝试对过去一年在提示工程上的探索做一个阶段性复盘，既是自我回顾，也希望能给同行一些启发。
+受限于个人认知边界，文中难免存在疏漏甚至偏差，特别是观点部分，纯属个人体悟，仅供参考。
+提示一下，PPT 里收录了大量可直接上手练习的案例，堪称提示工程的实操宝典，有兴趣的朋友建议多动手试试。
+特别鸣谢 LangGPT 提示词社群的共建者与支持者。所有成绩都归于大家，正是这些优质实践和案例，才让我们有底气把成果推向更广的舞台！
+LangGPT 知识库入口： http://feishu.langgpt.ai/
+## 分享正文
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_24db3f4cbde725d740b72f06470c3a2a.png>
+Hello 各位好，我是云中江树，感谢 AIGCLink 给到这次交流的机会，很高兴和大家聊聊提示词的话题。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_79f1c4798b21c987f4ea0b4efb8397f1.png>
+今天的内容我拆成了四个板块：先做个自我介绍，再讲清楚提示词是什么，然后说怎么写好提示词，最后分享我们社群的实战经验与思考。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_035ce8298d4c5b1a74f7a81dc78a2807.png>
+先做个简单自我介绍，我是云中江树，大家叫我江树即可。正职是算法工程师，业余一直钻研并分享提示词相关的方法论。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7a4426a4205c789a76bd658be2f1f048.png>
+在提示词这条赛道上，我们团队算是走得比较早的探索者之一。
+2023 年5 月我们开源了 LangGPT 提示词项目，到现在在网易、字节等多个大厂落地应用。过去一年里，我们搭建了百人协作的知识库，聚合了数千人规模的交流社群，在开源社区斩获数万 Star。也与华为、百度等企业展开了深度合作，并被创业邦等媒体报道。欢迎更多同好加入进来！
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_65ba4fa99c330c9fe12711dc41569a10.png>
+回归主题，我们来聊聊提示工程的本质。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_16a1dd56041cc21dc91b4fb12906c2de.png>
+先厘清 prompt 提示词的概念。
+无论是 SD 这类文生图的工具，还是 GPT 这类文生文的模型，输入即 prompt，输出即结果。所以我们今天说的 prompt，本质上就是喂给模型的那段输入。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3939181f506bf31c3ef991bb035e7289.png>
+再来看提示工程是什么。
+Prompt 对最终输出的影响极大有多大？举个例子，左右两张图的 prompt 几乎一样，唯一区别是“提示工程”这个词是中文还是英文。只差一词，答案质量却天差地别。要想拿到理想的输出，就必须对提示词进行精心设计与调整，这就是提示工程的核心。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_73a51a3e8b27d622d572ef9ab9313573.png>
+结合原理再深入一下，有一个常见误区是把 prompt 仅理解为自己手写的几句话，而忽略了 prompt 的完整来源。
+用输入法打个比方，第一张图里“春眠”是我的输入，“不觉晓”是模型补全，所以“春眠”是 Prompt。第二张图里，“春眠不觉晓”已经变成模型的输入，其中“不觉晓”来自上一轮模型的输出，“处处闻啼鸟”是本轮输出，所以这时“春眠不觉晓”才是 Prompt。
+Prompt 的来源不只我们预设的指令，也包括用户的提问，甚至模型自己上一轮的生成结果。
+因此，要真正驾驭大模型，必须建立一个认知：**凡是会被模型用来预测下一步输出的一切内容，都是 Prompt**。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e239cfa9c77f64db743af2043ea6687e.png>
+从原理层面看，prompt 无处不在，它就是调用大模型能力的入口，也是用好大模型的抓手，重要性不言而喻。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_86b4f16d4509bf83918f28b4a36f49dc.png>
+这是 OpenAI 开发者大会上的一张经典幻灯片，建议大家去看回放。在 LLM 应用开发与性能优化的完整链路中，提示工程贯穿始终。
+任何 LLM 应用，最先都应从 prompt 工程入手搭原型，作为优化的基石。若 prompt 已接近极限，再去找性能瓶颈，考虑 RAG、微调等进阶手段。RAG 的本质也是在构造更优质的模型输入，即一种高级的 prompt 工程。做微调时，用 prompt 工程炼制高质量的训练数据，是微调成功的前提。想做垂直领域大模型，先用 prompt 工程加 RAG 拿到第一批高质量问答对，再去微调，形成数据和模型互相拉动的飞轮效应。这一循环的每个环节，都离不开扎实的提示工程。
+归根结底，提示词就是调用大模型能力的接口。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a7cff7f0283e6735fb9f121bd95438d6.png>
+那么，怎样才能写好提示词？
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_716082d05d81a33ab9007a1bbe6e4370.png>
+最权威的参考仍是 OpenAI 官方的提示工程文档，我把它提炼成了六大原则的思维导图，细节就不展开了。单独提一个易被误读的点：给模型“思考时间”。这并非让模型慢慢磨叽，而是让它分步思考、展示推理过程后再给出答案，就像解数学题先写过程再写结果，能显著提升准确率。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c0b9ff5f10c6e8182aebc4de0f62e419.png>
+市面上还有各种提示词框架，编写思路各有偏好，这里就不一一列举了。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_db9ee213dc5976af123acbc127cfec4d.png>
+不过很多人会困惑：各种技巧、框架都学了，为什么还是写不好？
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2523cf393c0a03d2d8cd67fa5cae02ce.png>
+原因很多，其中一个很现实的是，很多提示工程的说法彼此打架，甚至来源都很权威。比如“要对 AI 礼貌”的说法，微软推荐礼貌，部分论文却表明无效。26 条提示工程准则里第一条就是“对 AI 礼貌没必要”。到底礼貌不礼貌，令人纠结。
+我的看法是：对模型本身影响不大，但对个人修养是加分项，礼貌点总是没错。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5900dcb8de5f57b2fc1f0121bf6bc0dd.png>
+至于我们更推荐的做法是什么？答案是实战。下面分享 LangGPT 社区的一些实践经验，先说方法论，再看案例。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_303c4123eb9ed9632786f1a33ea41a02.png>
+第一，描述要清晰，这是最基础也最有效的，能解决 80% 的问题。比如我们和华硕校园的合作案例，初次接触 GPT，不妨先让它写一首诗，然后不断调整格式、调整体裁、再提升内容质量，在这个过程中就能切身体会到对大模型的主导感。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2db7b3731d3d036e315f609ce778bb9a.png>
+第二，角色扮演。对目前主流的角色驱动型模型非常有效，内容质量会明显提升。网上大量基于角色的提示词被用来训练模型，也进一步强化了这种技巧的可用性。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e0b094dd19f475b1fa03ad20d077aa40.png>
+第三，提供示例。尤其在需要复刻结构和风格的场景，给几个高质量范例，效果立竿见影。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_632102e0e07bcd4af05047fc60265421.png>
+第四，任务拆解。可分人工拆解和模型自拆两类。有成熟 SOP 或自己有思路时，直接复用拆解逻辑。若没有，就让模型自己拆解并展示过程。思维链 CoT 就是一种典型的模型自拆方法。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_155aa0c63ce919817761be3b76bddaf8.png>
+第五，注意格式。用好格式能大幅减少歧义和冲突带来的性能损失，Markdown 是我们最推荐的表达方式。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_dbff3a5d61a705f8a1f8a6d6e8d6dbad.png>
+第六，情感与物质激励。情感激励有点像对 AI 做高情商沟通的 PUA，物质激励指给 AI“小费”之类的写法。简单说，对人适用的情商技巧，对 AI 也同样奏效。示例可参考前面提到的示例部分。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_086b84be10773b3d815f6b01a0884e93.png>
+第七，用英语表达。同样的意思，换成英文提问，回答质量往往会显著提升，这一点开篇的例子已经很能说明问题。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_aec0e617fa7b9b331ea120993661ec3c.png>
+我们把这些方法抽象封装，提炼成了 LangGPT 结构化提示词。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ced336e0613f735bdfb0850af8316a77.png>
+它把原本自由发挥的写作题，变成了相对固定的填空题，降低了上手门槛，同时让表达更清晰、更稳定、更强。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3b38fe6cf8dc9ff02e804d24fac42639.png>
+凭借稳定的表现和清晰的结构，LangGPT 结构化提示词也被字节 Coze 平台列为推荐的提示词范式。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ad742c1610b298a1481c23fd74d286bd.png>
+在 LangGPT 社区，伙伴们还做了很多有趣的探索。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_da95ce59c7ac8c31f2280b66630e010a.png>
+我们做出了不少纯 prompt 驱动的小游戏，比如猫总的人生重启模拟器，结合 DALL·E-3 的规则怪谈游戏等。好玩的 AI 游戏不少，但能完全用 Prompt 实现且质量在线的，我们在全球范围内算是比较靠前的实践。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fed73aa8d173642db70682435535e331.png>
+在商业场景，我们用提示词帮助企业提升招聘效率。设计的简历筛选助手可以让企业先定义用人评分标准，上传简历后自动打分并给出依据，排序后整体效率大幅提升。商业化的提示词案例公开较少，我们社区是较少见且愿意开源贡献的阵地，更多案例可在知识库查看，有需求的企业也欢迎对接合作。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8358e8d604d4eb69fdadfe76aff61c85.png>
+我们还用提示词重塑了日常工作流，比如让大模型来设计小模型，实现了从模型设计到部署的全流程自动化。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_17764bdba45204b646b33ff985bd4876.png>
+接入 Python 代码环境后，大模型可以按要求检查环境、设计网络结构并测试，最后生成部署文件。原本耗时一天的工作，被压缩到半天内完成。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8d3c60753582093500768e26bfe7ce81.png>
+结合这些探索，我们认为提示词的潜力几乎无限。
+借用 Transformer 论文的句式：Prompt is All You Need！主要基于三点：
+1. 提示工程本质上是人机沟通的艺术，只要人类还在学习如何更高情商地表达交流，人机交互的优化就不会停止。
+2. 从调用单一模型能力，到调用大模型生态能力。我们现在已经从 GPT + DALL·E 的组合，使用演进到 GPT + 工具链，甚至以 LLM 为大脑的 Agents 生态。提示工程的天花板，会随着模型进化、工具接入、GPTs 等生态不断被拉高。也许大模型应用的起点和终点，都是提示工程，唯一的限制在于我们对提示词的理解和实践是否足够深入。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0a5d2521dd49ae0d3a982c556355548b.png>
+最后，作为年度总结，我想感谢过去一年涌现的诸多优秀项目，以及 LangGPT 社区热情的伙伴们，正是你们的灵感和动力推动着我们前进。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_49e73689189e716cbd563502562aa592.png>
+现场的各位，以及所有热爱 AI 的朋友，2024 年，愿我们继续保持热情，做出让人热泪盈眶的成果！
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b3227f9cf5998ce5092431a0f306ccf2.png>
+谢谢大家，欢迎联系我们！
+## 最后
+最近关于 AGI 即将到来的讨论越来越多，在开发者大会现场听到关于生产力和生产关系变革的深度对话，内心既震撼又受启发。
+当那一天真正到来时，世界会是什么模样？会是怎样的一个时代？今夕何夕？
+文末附上几张活动现场照片。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6f4c42aef859d6c6ef3cb2c7928df091.png>
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_51e000bd8ba382934922582316e2d96e.png>

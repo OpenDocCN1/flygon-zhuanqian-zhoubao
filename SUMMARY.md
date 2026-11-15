@@ -47,4 +47,5 @@
 +   [龙哥赚钱周报 202608](docs/202608/README.md)
 +   [龙哥赚钱周报 202609](docs/202609/README.md)
 +   [龙哥赚钱周报 202610](docs/202610/README.md)
++   [龙哥赚钱周报 AI 专题](docs/ai-zhuanti/README.md)
 +   [商机分析与软件方案](docs/shangji/README.md)

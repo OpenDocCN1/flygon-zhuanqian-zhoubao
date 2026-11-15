@@ -1,0 +1,192 @@
+# AI绘画-四维彩超项目-龙哥盟
+最近不少朋友私信问：AI绘画四维彩超项目现在还能做吗？我们团队亲手跑通过一遍，还一度做到抖音上这个类目的TOP1矩阵。今天把整套经验写出来，分享给想上车的人。
+这个项目的起点很有意思。当时群里一位叫竹哥的朋友，在赚钱风向标里挖到一条线索，顺手在抖音发了第一条实操视频，结果当天就爆了。看到他的后台数据，我第一反应就是：数据不对劲，里面肯定有门道。于是马上照着复刻了一条，结果我的第一条视频也爆了。其实当时我已经跟着赚钱的航海手册捣鼓抖音一个多月了，但始终没有大起色，这一波才真正跑通。后面我们直接把群里的伙伴都拉下水，因为抖音一台设备、一张身份证、一个手机号只能对应一个账号，天生就适合搞多人矩阵。不少朋友以前根本没接触过网赚项目，不知道第一步该迈哪只脚，索性我就写了这份从0到1的操作手册。后来团队的小伙伴还尝试了小红书和视频号，也都产出了精华帖，后续可以找来看。
+在讲具体方法前，先给大家看一组AI出图和真实照片的对比，感受一下什么叫以假乱真：
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_daae746c82464bc36e211564cc88f475.png>
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b77b91d499590245327076261d1d45c5.png>
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9d57787a4b3eb29fa94d7a93eca97526.png>
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1e1fd061f5fde079249258102fde6b0c.png>
+看完图，再说说现在主流的变现路径。我重新调研了抖音上最近仍在活跃的同类账号，结论是：这个赛道还可以做，想玩的人现在下场不晚。主要有四种玩法。
+第一种是付费代做图，这也是体验最好、客单价最高的一种，客户给彩超图，我们出AI效果图，直接收费。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b6f2d89304cff6074e392722cc6a48da.png>
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7cc06b64ff083b71403327889664d4cc.png>
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f93c0c3a1c6d8ba6ec18f8481a17b510.png>
+第二种是开发小程序来做AI绘画。我看到的定价是29.9元一次，主要靠付费广告投放去拉人。效果我没亲自测过，有兴趣的朋友可以自己验证。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_dc86225d66487d5710c6454c36772021.png>
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2d2ef273e916e1c8ba2fc7eb946d0720.png>
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_be4bf598cb1116655825724f0e4ea2ef.png>
+第三种是抖音小程序取图。用户在小程序里下载AI绘画图，有两种方式：看广告免费取，或者开会员。我们赚的是广告分成和会员提成，每个付费会员大概能分到几块钱，不同平台结算略有差别。这个模式的生成效果嘛，说实话有点一言难尽。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ffaa3cef747688fc11cdb806d09a605b.png>
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0040c5f11e9d0841194e85f8b0ab4e92.png>
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_273fe21eb4843d88cd294165bbea20b9.png>
+第四种是免费做图，把人引流到私域，然后靠销售母婴用品赚钱。说白了，做图不是目的，是为了给后面的带货蓄水。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_452c6e53781cd53396dfe4b6f7b5d824.png>
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cc7db2fc3653a0059a96b0bbb5a73045.png>
+整个项目的框架其实很通用：个人抖音号搭建、Midjourney生成图片、剪映+美图秀秀做视频、抖音SEO优化、企业号认证（需要注册个体户）、朋友圈人设和客服话术。这套逻辑别说做彩超宝宝，放到房产、汽车这类抖音号上照样能跑。我之前帮朋友搭房产账号和私域承接号，用的就是同一套东西，非常好用。
+接下来是项目复盘。
+先说要感谢的人。龙哥盟这个圈子里藏着太多宝藏项目，有人开玩笑说每个项目都至少价值百万，虽然当事人龙哥表示没说过这话（笑）。龙哥在小灯塔里讲过一个观点：真正的好项目，往往是从项目的“面包屑”开始的。我们那位竹哥就是那个发现面包屑的人，没有他带头踩坑，就没有后面这一整个故事。也谢谢一起做矩阵的姐妹们，大家合力把账号做到了AI绘画四维宝宝领域的抖音TOP1矩阵，那段日子真的很有干劲。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a22dccda69128adcdc2a4e45c76bddec.png>
+当然也有遗憾。我一直觉得自己没能带姐妹们赚到大钱，没有做好破局，这也是我写这篇文章的动机之一——希望被看到、被指点，下一个项目能做更好。不过最近又去看了龙哥的小灯塔，心里一下子轻松了不少。与其困在原来的地方，不如去更广阔的天地找更高天花板的项目，多下场、多分享、多链接，被看见的机会自然就多了。就像龙哥说的，他喜欢看名人传记，看到那些大佬也有各自的烦恼，自己这点事也就不算事了。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_aec33ccb7a579a748fcf488e75b7e4c5.png>
+最近我们的新动作是YouTube Shorts，跟着赚钱的航海教练一起做出海内容，已经出了两篇精华帖。接下来会全力扑在内容出海这条路上，感谢赚钱的超级标，也特别感谢老马教练的指导和分享，一起卷海外。
+下面是纯实操部分，先说抖音账号怎么从0到1。
+最核心的原则是：前期别自嗨，照着成功案例抄。一个手机号对应一个账号，想矩阵操作就多准备设备。内容五件套——视频风格、文案、音乐、评论区回复、账号基础设置，全部去向对标账号学。头像、昵称、背景墙和个人简介，也建议先参考我们跑出来的现成模板。特别提醒：四维彩超项目最容易踩的雷是“宝宝性别鉴定”，这是法律红线，只要你的描述擦边，账号可能当场没了。所以刚开始不要自己发挥，照着我们账号的用词用，等跑通了再优化。名字里尽量带上关键词，比如“柚子四维彩超AI绘画（收徒）”这种格式。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0ac4ef97a9198a01981d82fd0b378369.png>
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7bef84995efbb562f5d84f8dbb804174.png>
+视频发出来以后，别忘了把数据最好的置顶。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2720d9ea83065d3f4bd68a25d70bcadf.png>
+新号每条视频播放量应该在300到500之间，这是正常基准。达不到的话，就多发点日常，拍拍风景、街道，再找爆款视频模仿，配音乐、加文案、上特效。多刷抖音推荐页、看直播、关注博主，找找灵感。核心是让自己像个真实的、活跃的抖音用户。视频千万别删除，不想要就隐藏，仅自己可见。记住，平台是老大，你是普通人，别跟它对着干。还有，没开单之前少原创，多去拆解那些开单的账号，多一些执行力，先模仿后超越。等开单了，你爱怎么放飞都行。
+微信朋友圈也要同步配合。提前3到7天开始打造专业人设。用户只会为专业买单，换位思考一下，你也不会找一个朋友圈空荡荡的人买服务，对吧？
+接下来是AI绘画部分。
+Midjourney账号可以去淘宝买个国内版共享号，便宜又方便。Discord和MJ怎么用，先看教程再动手。推荐两个学习资料：Discord新手中文指南（https://zhuanlan.zhihu.com/p/629228163）和Midjourney使用说明（https://learningprompt.wiki/zh-Hans/docs/midjourney/mj-tutorial-basics/how-to-use-midjourney）。
+第一次使用时有两个高频问题：第一，把彩超图粘贴到Discord后，一定要按回车发送，和微信发图一样；第二，网页版复制图片链接时，要先点开图片再复制媒体链接，别复制消息链接。
+设置方面，输入“/setting”，确保当前是version 5.1模式。其他设置不影响画风，只影响速度。最近新出了5.2模式，如果彩超太模糊，可以切到5.2试试。我个人感觉5.2偏可爱，有点假；5.1更写实，但有时候会把宝宝生成得有点丑，所以两个版本来回切换就好。注意看截图里的选项，尽量保持一致。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d8ad16898f01a1244946fb6d9fd0e5d3.png>
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ce487d74167de73534a24299a0abd23d.png>
+再输入“/info”看看账号额度。新买的账号，最好确认30美元的fast time资源还有90%以上。如果快速模式用完了，就只能用Relaxed慢速模式，出图等待时间会很难受。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ab9a423f9466421cd11404278deb78dc.png>
+四维彩超的素材从哪里找？很简单，谷歌浏览器搜“四维彩超”，切到图片模式，满屏都是图，可以直接拿来练手。抖音、小红书、视频号也都能搜到相关词条。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_dd623ef6a2f43b769c0481b31f41d6a6.png>
+出图的关键是咒语。目前我用下来效果最好的四维咒语是这个：
+super cute Chinese newborn baby, wrapped in a white blanket, frontal view,falls asleep in peacefully, blemish, porcelain, face, tall nose, thin and pink lips, serene, expressive facial, --ar 1:1
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2cf99cdfb0e85d8d48b5150b630c9424.png>
+如果你用垫图跑不出满意的结果，试个小技巧：用微信自带的图片编辑，在马赛克模式下把脸部以外的区域打一圈码，再丢给MJ，那些奇奇怪怪的细节就会消失。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a1f3cf140ea3eb50a3b45a3ddc7c087c.png>
+竹哥还有一个绝活：用微信图片编辑里的画笔，调成黑色，把宝宝的五官轮廓描一遍，出图会更像。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5fdc381972f318ad9200d214210ee898.png>
+除了四维图，卡通头像也是热门需求。咒语参考这个：
+keep the consistency of action, expression, clothing, shape and appearance of the photos, cute Chinese baby boy, small eyes,wear red mcdonalds hat, sitting on the floor, french fries and hamburger dolls on the floor, Paint 3D effect on this basis, art,3D character from Disney Pixar Animation, c4d,best quality,8k
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cc2dc6fe3e2c43dce3212888a7cd5522.png>
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8cf0165e4f7e73fb9c1310ce6fc30121.png>
+注意，咒语一定要根据客户照片里的实际情况修改，比如帽子颜色、动作、周边环境等。不会英语没关系，用翻译软件把中文描述翻过去，往里套就行。
+结婚照也有对应的咒语，一份偏Pixar/IP风，一份偏黏土风：
+Cute black short-haired girl with a white veil, girl facing the camera, shy, smiling , happy, front view, cute boy wearing white shirt kissing the girl's left face, full of love, IP by popmart, Pixar style, disney style, red clean background, 3D rendering, C4D, studio lighting, 8k --s 600 --ar 4:3 --iw 1.1
+Pop art, 3D rendering, clay material, girl's head resting on boy's shoulder, oval face attractive brunette girl in wedding dress with pearl earrings, round face handsome boy in brown checkered suit with black tie, they are both audience smiling,clean red background, blender, c4d, octane render, super detailed,high quality,--ar 4:3
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_678892e700fc1eb29d58662dbfbc3fde.png>
+视频制作部分，工具就两个：剪映负责剪辑，美图秀秀负责精修。剪映手机、电脑都能用，想模仿爆款视频，用剪映就够了。注意电脑端别用微信传视频，画质会被压缩，建议用飞书传输。
+美图秀秀的人像模式里有面部重塑功能，比如嘴巴选M唇、鼻子做高鼻梁微调，处理完会好看很多。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_696a701527df94ba20d0b2cf7c8de73d.png>
+拼图功能也好用，就在人像美容旁边的“拼图”入口。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3a45a0553b9bca065d12108560abbe3f.png>
+如果出图时脸部周围老有一些乱入的东西，可以再用“图片美化”里的马赛克，把脸部以外的地方遮住，然后再去MJ生成，画质会干净得多。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b0de346475bd2e210f6909302963988a.png>
+视频发布也有讲究。发布时间尽量选大家有空刷手机的时间段：早上8点、中午12点、晚上8点左右。标题和文案直接参考高赞账号，但记住：模仿可以，搬运不行，不然会被投诉。平时刷到别人的爆款，多点赞、多评论，这也是养号的一部分。最近抖音审核颇严，类似“接男宝”这种带性别暗示的内容尽量别碰，容易被误伤。
+评论区一定要勤管理。遇到不利言论直接删，不用骂街也不用解释，你的地盘你做主。有人问收不收费、怎么操作，一定要出来回复，因为其他潜在客户都在看；你不理人，别人会觉得这是个僵尸号。有时候你以为自己回复成功了，其实被抖音悄悄吞掉了，只有你自己能看到。可以用小号去评论区检查，或者让朋友帮忙看。置顶评论是个不错的引导位，可以写类似“给我一张彩超照片，我就能让你见到宝贝（消息太多，单独发我哈）”的话术，目的就是把公域流量导向私聊成交。置顶评论的审核标准比较迷，多试几种，找到能用的就好。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4dd356f7c014a079cb5b3f3f72a7012f.png>
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d68e45fb855579b083aaca3073cb6d02.png>
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_79baab27423db919e1cf8bbf38a365b4.png>
+最后是违禁词问题。推荐两个查询网站：https://www.check51.com/ 和 https://www.jinyongci.com/ 。我们这类项目最容易踩雷的就是“性别鉴定”相关词，这是违法且违反医学规定的。用词一定要谨慎，别自己瞎造词，先模仿现成账号的措辞。之前有个AI佛像账号被抖音误判成性别相关，流量日入千元直接降级了，那叫一个惨痛。总之，先保住账号，再谈赚钱。
+这套项目没什么高深技术，拼的就是执行力。你肯干、肯模仿、肯坚持，大概率能跑出来。现在素材、步骤、话术都给你了，行动吧。
+想把四维彩超 AI 特效这条内容跑通，光靠剪辑是不够的，账号的健康度、曝光逻辑和变现路径都要提前排好。下面这份实操清单，把从体检到变现的环节都梳理了一遍，可以先收藏再对照着推进。
+先做风险排查。发布时最怕触发限流或禁言，建议先按图示的流程给账号做一次自检，发现异常就立刻处理。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_30e467c1f9819e06d0ef0c23b3cfd821.png>
+## 7、账号异常自检
+按截图步骤核对，确认当前状态是否正常，问题要尽早解决。
+如果出现禁言或内容异常的情况，参照手册走申诉流程：
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_26184ae10ce8fc2e87c070606ad2fb5c.png>
+## 8、违规内容预习，避免踩雷
+手机端进入抖音 → 我 → 右上角三条线 → 更多功能 → 社区评审团 → 规则中心 → 规则解读 → 查看更多。里面的短视频讲解每条 1-3 分钟，刷完心里就有数。
+主要雷区包括低俗、炫富、内容质量低、危险行为如死亡重伤、令人不适等，具体以官方微课为准。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_29871f97269724c5823cf6b863dbd770.png>
+# 四、建立视频合集
+目的：把同类素材归到同一目录，提升平台对账号的信任分，获得更多推荐机会。
+创建合集入口可通过浏览器收藏：https://creator.douyin.com
+AI 特效非常火。四维彩超就能一键生成 AI 特效宝宝，准妈妈准爸爸很难抗拒。四维彩超 ai 特效，四维 ai 照片生成，四维照片转动漫，宝宝四维 ai 预测照入口，四维、四维彩超、三维、三维彩超、二维、二维彩照、五维、五维彩超、彩超、3维、4维彩超、四维检查。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4bf1bd2369a4448209d4e444b1a997aa.png>
+# 五、抖音搜索优化
+目的：布局搜索词，让用户在搜索某个词时第一时间看到账号或合集。这也是做合集的意义所在，提升被检索概率并增强权重。
+关键词分析工具：https://dyinseo.com/KeywordDouyin/index.html
+使用演示：
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e920e975905d2fb19c868a5cf225efae.png>
+注意词序不可更改，顺序一变就是另一个词，例如 四维彩超ai特效 和 ai特效四维彩超 是不同的检索结果。
+# 六、涨粉投放技巧
+## 1、为什么要涨粉
+粉量到 550、1000、3000、5000 都有功能解锁，目前开商业号即可。
+* 商业号开通：粉丝达 550 可申请商业号权限。开通路径见第六/七项。
+* 橱窗功能：1000 粉可开通橱窗挂小黄车功能。现阶段可以暂缓开通，后续再开也不影响，开通后保证金 500 元可延后缴纳，等有流水再交。
+* 抖音小店：暂时不建议开，保证金 1k/2k 起步，部分类目上万。
+## 2、涨粉方式一
+闲鱼/淘宝购买粉丝，120-150 元左右买 1000 个，主要是老年粉，只能提升权重，变现价值低。可以先花 120 元快速起号，再靠养号或投放自然增长。
+购买前务必问清掉粉情况，多留心。
+## 3、涨粉方式二
+平台投放入口：https://creator.douyin.com
+在创作者后台查看每个作品的数据，挑选完播率高、跳出率低的素材进行投放，一次可投 3-4 条，看哪条效果好。投到 30 元左右评估质量，效果不佳就停止。停止方式是把视频改为仅自己可见。
+正常粉丝成本 1-2 元，我这边做到过 0.2 元，核心是模仿爆款、素材质量过关。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8fdb763dc3e36a20c7d237df6ad02ebc.png>
+手机端查看数据的方式：
+挑选完播率高、跳出率低的优质素材再投放，土豪随意。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2f4f6b637e33974feb200e227c23e2d0.png>
+* 完播率需高
+* 5 秒完播率需高
+* 2 秒跳出率需低
+选出指标最好的前三名，合计投放 100 元即可测试。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e19583584ed77ae376073a6012fecfbc.png>
+# 七、办理主体
+注册个体成本低，公司成本高，便于开淘宝、抖音、闲鱼等店铺。
+方法一：线上/线下自办 0 元
+线下到市场监督管理局窗口办理，线上在市场监督管理局官网提交。普通执照当天受理，部分当天下证，只需带身份证。经营范围参考下方，个体名称可提前想好。
+自行办理流程不难，资料齐全很快。建议电话咨询当地市场监督所，问清办个体网络经营需要哪些材料、哪个端口提交，按指导操作即可。
+方法二：找机构代办
+拼多多可找到 79 元办理海南个体的商家，遇到问题群里沟通。
+经营范围可照抄下方电商全品类，直接发给代办，确认是否全包 79 元，有无额外费用。成年人需为自己的选择负责，多核实，公开价无隐形消费才是靠谱的。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a2d45d60ad085651734be97cb2139718.png>
+拼多多部分店铺标价 79 元但有隐形消费，如食品类目要加 300 元许可证。因为我们办的证并不需要食品许可，可让商家剔除该类目或换店。下面截图是我办好的证，注意避坑。
+# 八、抖音商业号与蓝 V 认证
+## 1、开通商业号
+有个体或公司执照即可开，执照办理见上文。
+手机端路径：我 → 右上角三杠 → 设置 → 账号与安全 → 申请官方认证 → 企业认证 → 选择个体或公司。
+需提供营业执照、法人身份证正反面、运营人手机号接收验证码。
+一个执照可绑定多个抖音账号同时运营，即主号+副号同执照管理，一个执照最多认证三个号。
+不建议初期做矩阵，先把一个号做起来再扩张。父母账号也能共用，原则是一证一机一号。
+https://leads.cluerich.com
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_535be7d868abdb1463230fa523681752.png>
+截图为刚开商业号，未开始经营，私信自动回复功能暂不可用，需经营 2-3 天：每天回复后台咨询，若无咨询可用副号自问自答，2-3 天即可解锁。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c48959bca6ec643a8f332faf72b9db73.png>
+## 2、认证蓝 V
+商业号开通后，粉丝达到 550 可申请蓝 V。先让熟悉的人看一下账号状况再提交，因为认证后修改名称、简介很麻烦。
+手机端认证入口：
+我 → 右上角三杠 → 设置 → 账号与安全 → 申请官方认证 → 企业认证 → 选择个体或公司。
+我 → 企业服务中心 → 点亮蓝 V → 进入认证。当前蓝 V 认证免费。
+电脑端登录链接：https://leads.cluerich.com
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f55755631660c2666df1b503058162ba.png>
+# 九、开通自动回复与视频小卡片功能
+该功能仅商业号可用，个体执照办理见第六项。
+提交企业认证后需等待官方 1-3 天审核，保持电话畅通。
+以下条件未满足需补齐：
+1、配置商家模块：见第八项第一条
+2、买粉：见第五项第二条
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5bac88aee2387b16d54b026476da8860.png>
+以下功能可先新建备用：
+1、主页装修
+2、会话管理
+3、私域经营
+## 1、主页装修-配置商家模块：
+参考账号 aifozu
+浏览器端设置
+抖音商家网站：https://leads.cluerich.com
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_eda939ef7c3c988e7fabea41ce8a81da.png>
+手机端展示效果
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_589c2788054a87fa1495b8e1dd639810.png>
+## 2、会话管理-自动回复模板：
+商业号自动回复设置建议：
+以用户视角体验账号，模板可直接借鉴，先上线再迭代，避免原创触犯敏感词。
+浏览器端设置：
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_710056fceb99fedd8ff259c3340ab213.png>
+效果展示：
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c348e25bdad6214a74d2b64d0a1d38bc.png>
+## 3、私域经营：
+视频小卡片点击跳转私信
+账号若不满足开通条件，可自行后台养：每天用副号找主号聊天，再用家人抖音咨询主号，保持一小时内回复，持续两天即可达标。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_027b39a0f57a5514d997d2ac1399a662.png>
+设置条件
+满足以上条件即可开通私域咨询：
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4186e2eb3865d76b45953e760aadcf53.png>
+效果展示：
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4b3b4d5b42fb4a33cdd0aa5aaa2448ab.png>
+# 十、客服模板文档
+# 十一、朋友圈运营文档
+# 十二、项目其他业务拓展
+* 分销业务
+xxx/位，含 AI 绘画四维彩超，拉项目群，群公告有项目文档，开文档权限。
+* 宝妈副业拓展
+快团团等团购母婴产品销售

@@ -1,0 +1,138 @@
+# 一个月内连上 4 款 iOS 应用，我把上架全流程拆解给你
+## (48 赞)一个月连发 4 个 iOS App，零基础也能上架的完整实操笔记
+作者： 龙哥
+日期：2025-02-08
+上回我在赚钱分享了用 cursor 做出 7 个 iOS App 的心得，没想到又被置顶了。龙哥大佬建议多晒实操，我就回头盘点了一下，作为一个完全没有技术底子的小白，用 cursor 做 iOS App 时最卡在哪里。
+除了写代码时的各种坑，最折磨人的其实是 App 做完了却不知道怎么送审到 App Store。小红书上聊上架问题的笔记也不少，我发推广时也常被问到，这事确实是普遍痛点。
+上一篇精华文章传送入口
+![](img/e6a4be89ae0adfe814bcb217beb3a23e.png "None")
+![](img/749e624dc8da85e92e9a70aa129f8101.png "None")
+为了解决上架这件事，我花了一整天在 B 站、抖音、小红书把能找到的教程全刷了一遍才理清。网上的资料并不多，Apple 开发者后台和 Xcode 全是英文，对英语一般的我很不友好。第一次看到证书申请、打包提交这些环节时，完全懵了。
+今天刚好在上架新 App，就顺手把从打包到发布的全套流程整理出来，帮大家省去搜教程的时间，也顺带分享一下我在填写信息时如何快速通过审核，以及怎么布局关键词。
+**为什么选 iOS 上架**
+**1. 不用做 App 备案**
+**2. 不用申请电信增值业务许可**
+**3. 不用域名做 ICP 备案**
+**4. 内容审核相对宽松，我做的性取向测评 App，目前 App Store 中国区里只找到唯二相关应用，放微信小程序、安卓各大市场基本是没戏的。**
+**前期准备工作**
+1.Apple 开发者账号，年费 99 美元
+注册方式很简单，App Store 下载 Apple Developer 应用，用 Apple ID 按提示走流程即可。但注册环节有几个雷区，我第一次就踩坑了，提示账号异常注册失败，后来通过邮件联系客服才搞懂。
+![](img/6c2619017d2cba8251db65c60b9b635b.png "None")
+（1）尽量别用二手苹果设备来注册，Mac、iPad、iPhone 上如果登录过的 Apple ID 超过三个，Apple 会判定为公共设备，直接无法注册开发者账号。
+（2）注册过程中尽量别换设备，固定一台设备从头到尾走完。
+（3）最好用你人生中第一个注册的 Apple ID。Apple ID 也有关联实名的问题，很多朋友不止一个 ID，其他 ID 都是注册不通过的。到后面就会像我一样被提示账号异常，却不说明原因。要是想不起来第一个 ID 了，建议直接用家人信息重新来。
+不建议购买开发者账号。每年都要续费，接手的账号续费麻烦，一旦第二年续不上，所有 App 都会被下架。
+Apple 开发者团队客服邮箱：** [chinadev@apple.com](http://mailto:chinadev@apple.com/)****遇到上面提到之外的问题，最快就是发邮件，一般一个工作日内会回复，记得写清你的 Apple ID 和具体问题。**
+2.Mac 电脑，想开发 iOS App 又没设备的朋友，可以考虑 Mac mini，同样配置比笔记本便宜不少，国补后大概 3499 起。缺点是要自己配显示器、鼠标键盘。
+设备很重要，Mac 如果升不了最新的 macOS，就装不了最新版 Xcode16。开发过程会浪费大量时间。我之前用的 Mac Pro 最高只支持 Xcode15，cursor 生成新文件目录后我得手动在 Xcode 里一遍遍添加关联。
+3.一根原装 Apple 数据线，USB-C 接口。十几块钱的杂牌线别买，真机编译调试时非原装线基本连不上，这点我之前浪费了好几个小时。
+文中标红的部分是我认为上架环节最关键的点
+**打包前的 Xcode 配置要点**
+**1.准备 App 图标，尺寸 1024x1024px**
+可以用即梦 AI 生成，即梦首页有很多图标案例，可直接点做同款，微调提示词即可。即梦官网地址 [`jimeng.jianying.com/`](https://jimeng.jianying.com/)
+![](img/35471bcc8c6a15474dbc7dd524be4fc7.png "None")
+2.Xcode 基础设置
+点左侧导航栏选中蓝色项目图标，在右侧进行以下配置：
+（1）Supported Destinations，设置 App 支持的机型，我一般只保留 iPhone，其它设备全部剔除。支持的设备类型越多，兼容问题越多，上架时容易出现不必要的麻烦。
+（2）Minimum Deployments 这个很关键。开发前就要定好，我之前把 iOS 版本设太高了，导致上架后低版本系统用户无法下载。更致命的是，如果 App 按 iOS18 规范写的，部署版本设低就会报大量语法和兼容性错误。要改就得花更多时间修 bug。建议在 cursorrules 里明确 App 的运行系统版本，让 cursor 按对应规范生成代码。
+（3）Display Name，就是 App 在商店显示的名字。
+（4）Bundle Identifier，即反写域名，后续在 Apple 开发者后台创建证书时要保持一致。比如域名是 baidu.com，这里就填 com.baidu.xxxx，xxxx 是项目英文名，我的例子是 com.cuanxue.wenku2，wenku2 是根目录名。
+![](img/b393c0c76c02c20a65f43873175b7fe6.png "None")
+（5）Xcode 证书设置，勾选自动管理，Team 选中登录后的开发者账号名，会自动创建开发者证书，无需手动创建。低版本 Xcode 可能需要手动上传证书，第一次按流程手动走一遍，后续让它自动创建即可，后面只需要创建 App ID。
+![](img/a838dd8a48c5cb844e23e9b263459f86.png "None")
+（6）设置 App 图标，准备一张 1024x1024px 的 PNG 即可，拖进项目就行。如果要兼容更多 iPhone 机型，就多准备几套尺寸，让 cursor 改一下 Assets 目录下 AppIcon 的代码即可，操作也不复杂。
+![](img/84f8b5787ff1c7f3da99626ec29e28b2.png "None")
+（7）App 开发结束，真机编译测试无问题后，就可以正式开始上架流程了
+**上架操作演示**
+第一步，打开 Apple 开发者官网 [`developer.apple.com/account`](https://developer.apple.com/account) 登录账号
+第二步，点击导航栏 App，用右侧 + 号新建 App，勾选发布平台，填 App 名称，设置主要语言，套装 ID 选择时点创建链接去新建。
+![](img/8cc26f6f7107c94c0ef5a59cb8687ae7.png "None")
+![](img/41052db82166a73e82925c94873fc7fa.png "None")
+第三步，新建 App ID，需要填三项
+（1）Description，可填 App 英文拼音
+**（2）Bundle ID，必须与 Xcode 项目里设置的标识符完全一致，也就是前面设置的 com.xxx.xxxx**
+（3）勾选 App 使用的权限，比如需要联网就勾选 Wi-Fi 权限，权限列表很长，按实际功能选择即可，纯本地单功能可不勾选。
+![](img/d92099841c476da1e6dc57ae75dfb873.png "None")
+第四步，返回上一步，选择刚创建好的 App ID，点击创建，进入详情页。
+![](img/f0d8b581c5724d04743ed9544c845b6a.png "None")
+第五步，创建证书，若 Xcode 为最新版可跳过，Xcode 会在打包时自动创建证书。低版本 Xcode 按下面流程手动创建：
+（1）在 Mac 上打开钥匙串访问
+![](img/88d080fdbff1a813f9bb582ff0c987f7.png "None")
+（2）左上角 钥匙串访问 - 证书助理 - 从证书颁发机构请求证书
+![](img/eaf28a9ffa31ad6ce393ed450e40fbe7.png "None")
+（3）邮件地址填 Apple 开发者账号，选择存储到磁盘，保存到本地任意位置
+![](img/69321a4e10801d30512daff0afde712e.png "None")
+生成一个证书文件
+![](img/ab3c29c31cc9f8b49f947feb6a40dfa2.png "None")
+（4）回到 Apple 开发者后台证书配置页面，点击 Certificates 的 + 号创建证书
+页面地址：[`developer.apple.com/account/resources/certificates/list`](https://developer.apple.com/account/resources/certificates/list)
+![](img/960d276c0a680ce20e047f0609b38788.png "None")
+（5）勾选第二个选项 Apple Distribution，即正式发布证书
+![](img/aff73e45d3fff7f2c2048219a148d739.png "None")
+（6）上传刚才本地生成的证书文件
+![](img/2093ade5aea6e0f5710b497839925a73.png "None")
+（7）创建完成后下载到本地，后续导入 Xcode
+![](img/0521d3dbcc545f15add32844716b93da.png "None")
+第六步，新建 iOS App Profiles 配置文件
+![](img/33f52cfa827a3ebc906a5ec652bc1463.png "None")
+（1）选择 Distribution 下的 App Store Connect
+![](img/a6c8170318138f542985a65be3bcb1d4.png "None")
+（2）选择对应的 App ID
+![](img/0f1d51c21a55eaa8a1aa728d1966e71e.png "None")
+（3）输入英文名称，可用项目拼音
+![](img/c42a8502969a770cd81cad0e78b89f51.png "None")
+（4）选择刚创建的证书，继续下一步
+![](img/376cbf6e450ee75a1901613618a6f883.png "None")
+（5）下载到本地备用
+![](img/130ada093380245fdbef4aacf17ed5a5.png "None")
+（6）打开 Xcode，点开项目设置，取消第一行自动管理勾选，导入下载的配置文件和证书即可
+![](img/a117c1397beaf0fa746f295f80618ff9.png "None")
+（8）如果勾选 Automatically manage signing，选择开发者账号，第二次上架时会自动创建配置文件和签名证书，无需每次重复创建，多个 App 可共用，后台最多创建三个签名证书
+![](img/aba1e54377d3c366f6d61cbf33e62e66.png "None")
+第七步，打包发布 App
+（1）设备栏选择 Any iOS Device
+![](img/66f339470f8e4ac70eb7d54deba3844d.png "None")
+（2）点击 Xcode 顶部 Product - Archive 打包
+![](img/f7b0a1232309084665aee6c82e47c552.png "None")
+（3）选择第一个 App Store Connect 发布到商店
+![](img/af122129790178664e7c1c9cbd1b26fb.png "None")
+（4）点击 Distribute App 打包发布，加载完成后选择语言为简体中文
+![](img/43d644be754ef0d911656ff5181d9fc5.png "None")
+![](img/bc4fb9cdb3f65ad8a153c32e06e01901.png "None")
+第六步，回到 Apple 开发者后台创建的 App 发布页，点击 TestFlight，可看到刚打包的构建版本正在审核，几分钟通过后点管理，选择使用的加密算法，无加密就选无。
+![](img/8120881ed462722de23622ac6cc62027.png "None")
+![](img/e42f05f76d2b73b87adc596aed356ef8.png "None")
+第七步，在 App 分发页，点击添加构建版本，选择刚打包好的版本。
+![](img/a9948d02fb43ee803323ccdee6852482.png "None")
+![](img/80b6a9fc8549717d78eead4d63523438.png "None")
+第九步，后续就很常规了，分享几个实操小技巧和工具。
+（1）App 预览界面，我是用 Pixelmator Pro 做的，把 App 截图拖进去就能生成比较好看的预览图，改个标题就行。软件我从某宝买的，分享网盘链接如下，图标改尺寸也能用。
+链接: [`pan.baidu.com/s/1TS4zWJY75h6p0j-8HRl9Pw?pwd=xwt4`](https://pan.baidu.com/s/1TS4zWJY75h6p0j-8HRl9Pw?pwd=xwt4) 提取码: xwt4
+![](img/b97c0cabb19b15bed52b73e248f2de43.png "None")
+![](img/228b831b6fb459a3770d630b36d290c4.png "None")
+![](img/0bba150e243ff5907284a9a5b78726d7.png "None")
+第十步，技术支持网址、营销网址、隐私协议这三项重点说下。技术支持网址是用户遇到问题联系你的入口，我的支持页是[`cuanxue.com/zhicih.html`](https://cuanxue.com/zhicih.html)
+不会写的话可以把我的页面内容复制给豆包，让它改成 html 代码，只需把联系方式换成自己的即可。
+![](img/2bf444d0107996503d34fe0e847b7dd8.png "None")
+很多人在上架 App 时，最头疼的就是隐私协议和营销地址这些细节。其实这些东西都有取巧的办法，完全不用从零开始写。
+先说隐私协议。我的做法是，去 App Store 里找一个和你类型差不多的 App，点进详情页，拉到最底部就能看到它的隐私协议。把那段文字复制下来，改一改里面提到的 App 名字、涉及的用户权限、功能描述，再把联系方式替换成你自己的，然后用豆包生成一个 HTML 文件，传到服务器上就搞定了。如果觉得这样还是麻烦，也有更轻量的选择——用飞书文档、腾讯文档或者 CSDN 博客这类平台，把技术支持、隐私协议的内容挂上去，同样能应付审核。
+再来说营销地址。这个字段虽然是选填，但我强烈建议大家填上。因为如果你的 App 以后想接入 Google AdMob 广告，在验证 App 所有权的时候，Google 会查看你 App Store 营销地址对应的 URL，并且要求你在服务器根目录放一个 txt 文件，Google 会抓取这个文件里的内容来确认 App 是你的。要是你没填营销地址，后面可能就抓不到这个文件了。
+接下来是 App 基本信息设置，这一步有几个关键点：
+**第一，App 名称别只写名字。** 要把你 App 相关的所有核心关键词都塞进去，写得越多，被搜到的概率就越大。如果你只写 App 名字，那用户基本只能靠搜你名字才能找到你。我习惯先去 App Store 搜一下我应用相关的核心词，看看下拉框里会出来哪些词，然后把那些词都放进我的 App 名称、副标题和关键词里。
+**第二，类别** 按 App 的实际属性选就行，很简单，不展开说。
+![](img/5f10a8adcee4fe26118133821e496872.png "None")
+**第三，价格。** 如果你的 App 是付费下载，就设置个价格；如果免费，价格填 0。
+![](img/c08165b15e4179590f0a70079080f7b3.png "None")
+**第四，年龄分级。** 根据你的 App 内容来选。如果涉及成人内容，最好勾选“仅 17 岁以上用户”；如果不涉及暴力、赌博、成人等内容，直接选“不适用”，那年龄分级就是 4+。
+![](img/32b2883760e4335f09ee28bf8a262061.png "None")
+![](img/212e2d2cc3cdf3d0f5e094a1a10f54f7.png "None")
+![](img/1ce37bb368c438715d83a67f73a02a33.png "None")
+![](img/c61b0f45d37a887bd95de9fd6ffab86b.png "None")
+**第五，其他设置。** 如果你是第一次上架 iOS App，Apple 会提示选择税务类别，你选“非美国纳税居民”就行，照着网页提示一步步来。
+所有信息填完后，点发布。如果有漏填的地方，页面会提醒你。至于审核进度，你可以下载一个 Connect 的 iOS App，登录开发者账号，就能在手机上随时看到动态。
+![](img/e05900e52a97707791c64708341543b8.png "None")
+![](img/9f657a2fd33bb000a81b4cb7bfca7672.png "None")
+最后聊聊常见的审核问题，尤其是 4.2 这条。很多人一看到 4.2 就慌，意思是你的 App 和市场上已有的大量同质化应用太像。我这是第四次上架 App 了，还没遇到过这个问题。我的感受是，只要你是认真设计了 UI 和功能，不是靠几条重复提示词凑出来的，也不是直接拿来 GitHub 上的开源项目就提交，基本都不会被 4.2 卡住。
+上架流程确实有点繁琐，但跑过一次之后就会发现其实不难。按着流程一步步操作就行，有不会的评论区随时问我。
+评论区：
+小宇 Mick：非常感谢大佬的分享，这是我见过最棒的指引，先 mark 住了，回头跟着实操一下。

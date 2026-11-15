@@ -1,0 +1,141 @@
+# Coze上手第一天，我就撸出了小红书图文采集神器，成就感直接拉满！
+哈喽，我是克克。纯新手，刚报了九月这期「Coze + 多维表格」航海营。
+完全没料到，第一次动手搭工作流，就被教练和领队轮番催稿。被追着要输出，真的挺燃的！
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c7fea3c336105409e80a307633ed6982.png>
+我来报名的初衷很明确，就是想往「能接单做定制化工作流」的方向冲！想想就鸡血。
+带着问题去学，效率就是不一样。航海第一天，我照着手册把第一条流「小红书笔记批量采集与改写」搭起来后，很快就发现它离我真实的使用场景还差一截。
+于是我开启了群里疯狂举手的状态，外加自己死磕。眨眼就熬到凌晨一点半，整个工作流已经被我大改了一版，从图1进化到了图2。
+后来在网上瞄了一眼，发现有同款流被大佬分享出来，下面评论区全是求买的。第一天玩 Coze，就能做出这种东西，属实有点膨胀了哈哈！
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a38af7539f4b5fea796f9f42c64de797.png>
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_83b2232a802475463bdd774d1b97cb83.png>
+这条流不仅能把小红书笔记的三件套——标题、封面、正文——都拉进多维表格，我还额外摸索出一个很香的用法：笔记里所有配图上的文字，一键全扒到表格里。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bdfd85ed570038e1e9601cf0ba61cb96.png>
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_438bf9e5f347d9401093058bce82879a.png>
+## 下面是我整理的一份小白也能跟上的完整实操笔记，也是我一路磕出来的心路。
+【如果有更优方案，欢迎大佬来指正！下面正文开始⬇️】
+按航海手册走，我们能搭出一个自动抓取并改写「小红书标题和正文」的工作流，多维表格里的呈现大概是这样，如下图。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_33c628d5bf37db38519ebe1fb90e4507.png>
+把多维表格接上 Coze 工作流后，你只需要把笔记链接粘进去，它会自动把标题和正文抓回来。之后在多维表里用「快捷字段」挑个合适的大模型，就能对标题和正文做改写。具体手法手册里写得很细，这里就不过多展开了。
+⚠️：表格里那些列名，比如「小红书链接」「标题原文」「标题改写」……全是我自己起的，方便自己看。所以你搭的时候按自己的习惯命名就行！
+### 01 怎么同时把「标题+正文+封面」一起拿下？
+搭完我就琢磨🤔，光有标题正文不够，我还想把封面一起抓下来顺便重绘，能不能做到？
+问题马上来了❗️我发现多维表格一次最多只能吐出 2 个结果！
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1f29ab2f2a735be4ce769e6c74248313.png>
+这盆冷水来得有点猛，要是以前我估计直接投降了，心里默念：算了做不到吧🤷然后安心刷手机。
+但这次不一样，我想着真实客户遇到这种需求也会卡在这里，要想把单子赚到手，就得把问题啃下来。于是我立马在群里提问，没想到骄阳教练前一天就录了演示视频，把这个坑讲透了！
+瞬间感慨：往往你只差勇敢往前迈半步，答案早就摆在前面了。千万别自己先放弃啊！
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cc299f0b185b2b1c0217343fe5d7f6d1.png>
+答案其实很简单。只需要在多维表格的「Coze 工作流调用」字段捷径里，把“完整响应数据”打开即可。这样无论工作流输出多少个字段，都能在表格里完整呈现。就是这么朴实无华。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7f09e8d1caa713e47ea83ad688027757.png>
+然后再新建一列，字段捷径选「信息提取」，要提取的字段选「完整响应数据」，提取内容填「image」，为了让链接更干净，可以在自定义提取要求里加上「输出不要带中括号和引号」。
+我把这列命名为「原封面链接」，方便自己记忆。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7f05a462ee4abb2b3457fd468629af10.png>
+⚠️：这个「image」不是乱写的，得确认你用的 Coze 插件确实能输出「image」，并且在「完整响应数据」里真的能看到 image。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c375fa56a99bac6a0989dbb91bfe4278.png>
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_76667caaa57efa14a98cd062f9188f63.png>
+到这一步，效果是这样的⬇️
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_35cc5599fcae45d54d6d8cf7486cc048.png>
+等等，等等等，封面怎么是链接形式？
+那这样后续想做重绘，无论是文生图还是图生图都不行，因为链接既不是文字也不是图片啊！
+于是我再次在群里求救。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3542d32730dedf04208ee40f43efb477.png>
+照着教练的办法，我在多维表里又加了一列，去字段捷径中心找「链接转换附件」，配置里把要转换的字段指向「原封面链接」。
+【⚠️：列名是我自己起的，方便理解，你操作时名字可以不一样哈～】
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3bc31af29beb8f1bd30af5cfd95ce9a8.png>
+于是封面图就活过来了～我还发现不只是封面，图文笔记的所有配图都能一起抓出来！
+【⚠️：我把这列叫做「原笔记图」，因为接下来要做一键重绘封面】
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c6d1125a2e0a78f4a237dcb9b1ae47d2.png>
+### 02 怎么实现一键重绘封面？
+拿到图之后我就想🤔，能不能让 AI 一键把封面重画一遍，既保原创又快？
+其实思路很简单，用图生图的快捷字段就够了。
+具体做法：
+* 新开一列
+* 快捷字段捷径里搜「图生图」，会找到豆包的模型
+* 在指令区写清楚你想要的修改效果
+* 「图片内容」选我们刚生成的「原笔记图」
+* 确定后刷新，重绘好的封面就出来了！
+【⚠️：列名是我自己命名的，实操时可按需调整！】
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f5859792c0ea8192e73d38fa66b413e1.png>
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1ed3b31fffa4379bb500f5ef6c50e9df.png>
+不过先泼点冷水，豆包图生图的改图能力目前还比较一般，效果往往没法直接用。教练提到可以在工作流里换成 nano banana 模型改图，这个会在第四章讲，先小小期待一下。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bed5500771b402bd8f5f2ffeb4fba558.png>
+### 03 怎么把封面里的文字提出来？
+封面上常有一些吸睛的文案，我们也想提取出来参考。怎么把封面文字转成文本？
+也很简单。在多维表里新建一列，字段捷径选「通用文字识别」，「需要识别的图片」选我们通过「链接转换附件」得到的「原笔记图」。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_26eb12d3851e91b66075db50268e2848.png>
+这样封面文字就拿到了
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_080099d6e226afe0141e535ae44b5cc2.png>
+要注意的是，不管笔记里有多少张图，「通用文字识别」默认只认首图，也就是封面的文字。
+细心的你可能已经发现了，我举的第三、四篇笔记，文字其实是融在图片里的。只想仿写的话，单靠首图远远不够，得把整组图里的文字全扒出来。那怎么办？
+没错，这才是本帖的核心干货：「一键提取小红书整组图片文字」！具体我是怎么做到的，保姆级教程在下一节，请认真看⬇️
+### 04 如何一次性提取所有图片文字？
+我们刷到的很多笔记，精华根本不在正文，而是在图片里。有时候一篇图文笔记十几张图，文字全散在图里，正文却只有一句话。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_39ba4082772af154e8d9d34c47eefc1d.png>
+一张张截图识别太折腾了。所以我决定把这个痛点直接塞进工作流里解决！
+又开始了一轮挠头……（头：在线？）
+我又去群里问了，教练的建议是把图片链接数组拆开一张张识别⬇️
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_eb26850600687aee78a5fd8e4d28d5e9.png>
+但这对客户来说不可接受啊……每张图都要新建一列，内容还分散。有没有办法把所有图片文字一次性汇总输出呢？
+脑瓜子不能再挠了，再挠要冒烟了。
+在跟多维表格对峙了好一阵后，我突然开窍！多维表搞不定，那调一下 Coze 工作流不就行了！！？
+让工作流把所有图片文字汇总好，再一次性吐到表格里！
+有点刺激，能行吗？
+答案：能！
+凌晨一点左右，激动得手抖我在群里晒了最终成果⬇️
+连教练都好奇我是怎么做到的，领队也很激动，催我写分享。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e26506e726b40ee1bae042eca76bbece.png>
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_336f016e69693be1d0bda598610a7841.png>
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a4ccda212bfc7886c5f41c4e86a01ea3.png>
+一个小白第一天搭流就被追着约稿是什么体验？说实话，当时脑子里只剩三个字：我不行！
+这部分感受我放在文末，想给同样是小白的你一点鼓励。
+言归正传，我具体怎么改的工作流？
+#### 第一步：看插件节点的图片输出格式
+我先去检查了工作流里「get_notes」节点，也就是负责抓小红书笔记的节点，发现它输出的「image_url」是数组字符串格式，里面每一项对应笔记里的一张图。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b9778c9c0583bcb83854428fde2ba58f.png>
+接下来就是琢磨怎么把这组图的文字提取出来。
+#### 第二步：准备提取图片文字
+想在工作流里做 OCR，我在 B 站找到 Coze 官方出的一个 OCR 插件，可以从图文里识别文字。
+更妙的是，这个 OCR 插件的输入正好是图片 URL，而「get_notes」的输出就是「image_urls」！
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5668b77b649148546c9692cceca71884.png>
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6f8b534db1ba2526fd38f7118b6ab576.png>
+不过！测试发现「OCR」（image2text）插件不能直接吃数组形式的 URL，得先拆开。
+#### 第三步：拆分 URL
+现在需要把 image_urls 拆成一个个网址，因为 OCR 要的是「字符串」，我们手头是「数组」。【先想用豆包拆数组失败，又试代码块拆分也失败😭就不展开了】
+最后我试了工作流自带的「循环模块」，直接连到上一个节点，发现输入数组时循环会自动遍历每一项，正好命中需求！
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_da6255117e6071054e234479d030de6c.png>
+把循环设为「使用数组循环」，循环体里放 OCR 插件 image2text，这样每个 URL 都会单独进去，输出对应图片的文字。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_074716cba174ba2cc14e387530ad71ad.png>
+#### 第四步：把文本拼成一段
+试跑成功后，看 OCR 的输出，它的「data」对象里包含了所有文字，但是以行为单位散着，顺序是对的。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_62c68ce908d52eb8ebde470c918d2e84.png>
+于是我在循环后面接了「文本处理」节点，把所有输出的文字整合成一个完整的字符串。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d7bcb59f9f9dd67ba3d07efc42483e17.png>
+再跑一次，文字全拼到一起了，但也带了一堆噪音，比如斜杠、lang、auto、各种括号。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fcc2fe243d8e7392e8cc0670552b2f9b.png>
+#### 第五步：用大模型清洗文本
+这些噪音重复度很高，我直接后面接了豆包大模型，让它把那些多余符号删掉，只保留语义正常、逻辑通顺的正文并拼接输出。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_40def0782be8025c492114089aab8313.png>
+#### 第六步：连到结束节点
+把清洗后的结果接到结束节点，流就通了。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_addca4fa8ee46cb6eae8fadf343c2811.png>
+#### 第七步：新增输出变量
+在结束节点的输出变量里新增一个，我命名为「fullcontent」，意思是全部内容。【⚠️：名字是我自定义的，你想叫啥都行】
+变量值选上一个节点豆包大模型的「output」。
+再试跑一下，就能看到清晰完整的整组文字了！
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a28d8d7c2a74986f6fcb334db4f3d215.png>
+到这里，一篇笔记里所有图片上的文字就被统一提取出来了！耶！
+#### 第八步：回到多维表格完善
+回到多维表，新建一列。字段捷径选「信息提取」，要提取的字段选「完整响应数据」，提取内容填「fullcontent」。
+【⚠️：名字是我自己取的】
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6516cd365d86c3957fb4a67a01cf012c.png>
+刷新后，所有图片里的文字内容就完整展示出来了，后续一键改写会轻松很多！
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c8bbb16ef9e4432fc7768b11d7e15262.png>
+### 写在最后
+这条工作流是我第一天搭的，但当教练和领队真的让我出分享帖时，我拖了整整一天才开写。【那天为了逃避现实，下午才起床……】为什么？因为我觉得：我怎么能教别人呢？不不不，不可能。
+我也很惊讶，梳理完竟然这么长，原来我看起来还挺像回事。
+非常感谢骄阳、桃汐教练的耐心解答，尤其是骄阳，我最后一次提问都快凌晨一点了。还要感谢一泽教练、刘同学、大圣学长的鼓励，没有你们我根本不会写出来。
+说实话，我到现在都不敢相信，一个 Coze 小白第一天就能做出这种东西。我分享的所有内容，几天前我都想都不敢想。无非就是遇到问题就想办法解，见招拆招，疯狂问教练，不行就去小红书、B 站搜前辈经验，一步步熬到关电脑那一刻，才猛然回神：我几个小时都干了啥！第一次搭工作流真的进入了心流！
+能搭出这个流，靠的是「结果倒逼过程」的狠劲。我把自己当成未来的客户，为交付而学，这让我忘了「求助羞耻」和「小白羞耻」。
+我相信那几个小时，我脑子里只有一件事在驱动：「我不管，我就要把问题解决！」
+所以别再低估自己的潜力了喂，很多时候学不会不是因为笨，而是因为怕。
+这句话，我写给曾经的自己，也写给你。

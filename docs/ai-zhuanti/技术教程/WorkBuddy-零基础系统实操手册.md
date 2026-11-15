@@ -1,0 +1,80 @@
+# WorkBuddy 零基础系统实操手册
+260821 副业SC 精华
+大家好，我是阿西。
+最近 WorkBuddy 在国内的热度已经明显起来了。相较于此前大火的 Codex 与 Claude Code，这款工具现在在企业主和职场人群里开始真正出圈。
+我近期围绕 WorkBuddy 输出了一批内容，累计播放突破 50 万，同时也有不少公司主动来咨询付费培训合作。
+亲自长期使用下来，我觉得它对国内用户的适配度很高。用起来门槛极低，不用折腾🪜，不用准备海外手机号实名，也没有账号被封的担忧。内置的技能库、专家库和连接器非常丰富，开箱即用。Codex 能玩的花样，WorkBuddy 基本都能复刻。
+更关键的是应用场景很宽。最入门的是面向 C 端的知识付费变现，进阶则是面向 B 端的企业化定制，比如内部培训、流程改造等定制需求。
+过去一段时间我把它的功能都跑了一遍。今天就把手感和逻辑整理成一篇系统入门。
+好了，进入正文。
+## 本篇结构
+1. WorkBuddy 和 Codex 究竟差在哪
+2. 怎么开始用
+3. 专家、技能、连接器怎么玩
+4. 自动化任务怎么搭
+这是一篇面向零基础用户的 WorkBuddy 系统教程，核心是帮你快速掌握主要功能和操作路径。
+在我看来，目前最适合普通人的 Agent 类桌面应用就是 WorkBuddy。
+下面会先从界面与系统配置说起，再结合真实案例拆解进阶用法和底层逻辑。
+## 一、WorkBuddy VS Codex
+先厘清 WorkBuddy 是什么。
+它和 Codex 同属于桌面端 Agent：你把任务丢进去，它自己把事情闭环。
+Codex 现在全网都在谈，但放在国内使用场景里，WorkBuddy 的体验更顺。
+### 1. 上手成本
+WorkBuddy 是国内团队做的，安装完成即可直接开干。
+Codex 属于海外产品，需要配置网络环境、海外手机号验证、境外订阅，门槛很高。即便搞定后，还要担心封号风险。
+### 2. 费用
+WorkBuddy 提供免费额度，每天赠送 100 积分，攒下来一个月约 3000 积分，能跑不少轻量任务。需求量大时可升阶，标准版起步价约 70 元/月。
+Codex 也有试用，但额度偏紧。要稳定使用通常得订 20 美元的套餐，且官方偶尔会清零额度。
+### 3. 选型建议
+入门期建议先从 WorkBuddy 起步，后续再视需要搭配 Codex 协同使用。
+### 4. 模型支持
+Agent 好比人，模型就是大脑，决定效率上限。
+WorkBuddy 内置了大量主流国产模型，比如 GLM、Kimi、MiniMax，并且支持接入自定义模型，用自己喜欢的模型。
+Codex 背靠 OpenAI，默认走 GPT 系列，也能接入第三方，但配置麻烦，灵活性不如 WorkBuddy。
+综合来看，如果你已经认同 Agent 的价值，想快速上手，WorkBuddy 是更合适的起步工具，也更适合日常工作助理定位。
+## 二、基础使用方法
+先看顶部导航，目前分为三大工作区：日常办公、代码开发、设计创意。
+做网站、小程序等代码相关选代码开发；做封面、PPT 等设计向工作选设计创意；日常杂事处理就用日常办公。
+下面用一个真实案例演示完整流程，我选的是发票整理。
+我平时报销的发票都堆在文件夹里，想让 WorkBuddy 帮我统一整理。
+建任务前先划定工作范围，也就是选择文件夹。先点选桌面上的发票文件夹，把所有待整理文件放进去。
+接着选工作模式。默认是直接执行；计划模式会先出执行方案，确认后再开工；Ask 模式则变成纯对话问答。
+这里我保持默认。
+随后选模型。默认 Auto 会自动调度，热门模型排队时体验更好。不同模型积分消耗不同，右侧会显示倍率。也可以自行配置自定义模型，填入 API Key 即可。
+任务指令我写的是：把文件夹里的发票按金额、日期规则统一重命名，并把发票金额和日期汇总成一份 Excel。
+整套操作耗时约 6 分钟，消耗 73 积分。点开结果就能在右侧预览文档。
+## 三、专家・技能・连接器
+基础用法跑通后，这三块才是 WorkBuddy 的核心差异化。
+左侧菜单进入专家・技能・连接器。
+### 专家模式
+专家本质上是 WorkBuddy 把各领域专业能力打包成独立 Agent，按行业分类。
+举个例子，我经常需要做内容数据分析，基础维度能自己看，但深层洞察需要专业视角。
+我就调用内置的数据专家。输入框左上角的 @ 可以单独指定文件。@ 出自媒体数据 Excel 后，让它输出分析结论和优化建议。
+约 6 分钟后得到完整交付：先是一句话结论，再是三条行动建议，外加可视化看板和详细分析报告。很多细节是自己很难挖到的。
+专家输出通常更好，因为背后集成了工具链和经验模板。
+### 技能
+即 Skill。
+进入技能中心，官方推荐了一批办公常用技能，比如钉钉、飞书、腾讯文档、Obsidian 等，点击加号即可安装。
+安装后在新建任务对话框里用 / 即可唤起，也能查看已安装列表。
+除了用现成的，还能用 Skill Creator 把自己重复的工作流封装备用。
+例如之前的发票整理流程，我就让 Skill Creator 帮我封装成一个专属技能。以后就不用重复写长提示词了。
+封装完成后即可在已安装技能里调用。
+### 连接器
+即 MCP，可理解为电脑的 USB 接口，把外部工具接进来直接用。
+还是发票场景。以前我手动从邮件下载发票，现在通过连接器授权 QQ 邮箱，让 WorkBuddy 自动抓取。
+点击加号扫码授权后，新建任务调用该连接器，指令为：把今天邮箱里的发票全部下载到桌面新建的“发票”文件夹。
+共 17 张发票，手动要半小时以上，现在交出去就能去做别的事。
+## 四、自动化任务
+自动化可以定时跑重复性工作。
+系统自带模板，像每日 AI 新闻推送、周报总结、会议准备等，直接用即可。
+也可以自定义。比如我每周五要做数据复盘，就可以建一个自动化。
+命名为“每周数据总结”，任务描述写清楚：分析桌面“内容数据”文件夹下 Excel 的数据，给出结果和优化建议。执行频率设为每周五 10 点，保存即可。
+注意：自动化执行时需要保持 WorkBuddy 处于开机运行状态，退出就无法触发。
+至此，WorkBuddy 的核心能力已经讲完。
+我们梳理了与 Codex 的区别、基础操作路径、专家技能连接器的用法，以及自动化任务的搭建方式。
+————分割线————
+看完教程你会觉得懂了，但 90% 的人实操第一步就会卡住。
+工具和教程只是入门级的壁垒，真正的壁垒是立刻执行和圈层的信息差。
+我们只拆商业闭环和 AI 效率提炼，群内已沉淀 1000+ 可复用的套利实战案例。
+👉 查看圈子数字资产与入场门槛：
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_35fdb9e25388543b9e37b60eaab34b14_0_0.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_35fdb9e25388543b9e37b60eaab34b14_0_1.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_35fdb9e25388543b9e37b60eaab34b14_1_0.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_35fdb9e25388543b9e37b60eaab34b14_2_0.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_35fdb9e25388543b9e37b60eaab34b14_3_0.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_35fdb9e25388543b9e37b60eaab34b14_4_0.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_35fdb9e25388543b9e37b60eaab34b14_5_0.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_35fdb9e25388543b9e37b60eaab34b14_5_1.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_35fdb9e25388543b9e37b60eaab34b14_6_0.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_35fdb9e25388543b9e37b60eaab34b14_6_1.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_35fdb9e25388543b9e37b60eaab34b14_6_2.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_35fdb9e25388543b9e37b60eaab34b14_7_0.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_35fdb9e25388543b9e37b60eaab34b14_7_1.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_35fdb9e25388543b9e37b60eaab34b14_8_0.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_35fdb9e25388543b9e37b60eaab34b14_8_1.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_35fdb9e25388543b9e37b60eaab34b14_9_0.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_35fdb9e25388543b9e37b60eaab34b14_9_1.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_35fdb9e25388543b9e37b60eaab34b14_10_0.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_35fdb9e25388543b9e37b60eaab34b14_10_1.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_35fdb9e25388543b9e37b60eaab34b14_10_2.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_35fdb9e25388543b9e37b60eaab34b14_11_0.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_35fdb9e25388543b9e37b60eaab34b14_11_1.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_35fdb9e25388543b9e37b60eaab34b14_12_0.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_35fdb9e25388543b9e37b60eaab34b14_12_1.png><https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_35fdb9e25388543b9e37b60eaab34b14_14_0.png>

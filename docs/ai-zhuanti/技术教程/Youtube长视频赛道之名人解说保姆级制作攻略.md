@@ -1,0 +1,122 @@
+# Youtube长视频赛道之名人解说保姆级制作攻略
+做 YouTube 长视频，怎么选赛道、怎么靠 AI 提效、怎么一步步把账号做起来？这篇文章把我自己跑通的路程完整拆给你看。
+先简单自我介绍：我是花非花。去年 12 月，我在波妮教练的引导下开始接触 YouTube，起初试过 AI 达人秀、动物救援等方向；今年 1 月加入油管私教陪跑训练营，正式主攻长视频。目前已经有一个频道开通了 YPP，另一个也快达到门槛了。这一路特别感谢波妮教练和 Gary 教练的耐心指导。
+在 AI 时代，普通人做内容真的能拥有更多可能。我的体会是：别跟趋势对着干，主动去适应、去拥抱、去利用它。AI 的核心价值就是帮我们降低创作门槛，让产出更快；但也别本末倒置，把自己迷失在工具里。刚开始入局，做出一堆“AI 垃圾”很正常，没关系，只要持续深耕，一定会越做越好。
+为什么我坚持做长视频？因为长视频是 YouTube 生态的基石。从收益看差距很明显：拿目前很火的短视频达人秀来说，Shorts 万次播放普遍只有 0.3-0.6 美元；而长视频基本从 10 美元起步，差了十几倍。更关键的是，短视频需要不停换赛道来维持收益，一旦流量断崖，基本就“安静如鸡”了；长视频虽然前期起量慢，但平台会持续推流，而且赛道越做越熟，粉丝涨起来后，每条的播放量也能稳定下来。举个例子：一条视频 5 万播放、万播 15 美元、一个月 20 条，就是 5×15×20=1500 美元，一个账号轻松月入过万人民币。
+我的长视频账号截图如下：
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_19cd90d852b813dc23fa8ce5bc810f69.png>
+这是 3 条视频累计近 3000 小时播放时的截图，初级 YPP 已经达标。
+再借用一位深海圈圈友的长视频收益截图：
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4c17d4255f138c5b30a8a88ac0b340d5.png>
+可以看到万播收益能做到 10-15 美元。
+为什么首选名人解说/故事赛道？原因有两点：第一，名人自带热度，我们相当于“蹭流量”，只要视频质量过关，平台容易给推流；第二，AI 让这个赛道的复刻难度大大降低，以前普通人望而却步的解说博主梦，现在靠工具也能圆。无论你已经是成熟的内容创作者，还是零基础小白，这套流程都能帮你提效，甚至完成第一次创作。
+下面直接上干货，整个操作路径我拆成九步：先锁定对标账号，再用 AI 写文案、做配音、校准音轨字幕，接着攒图片/视频素材、正式剪辑，最后加背景音乐、起标题、做封面。
+## 第一步：找几个可参考的对标账号
+先找几个做得好的同类型账号，模仿学习。
+示例 1：SoulStation-peace，账号注册于 2024 年 11 月，一共发了 15 个长视频，如今 1790 个订阅、38 万播放，已经开通 YPP。这说明搭上名人热点的长视频，确实是油管掘金的好路子。链接：www.youtube.com/@SoulStation-peace
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_01379569e7caaf3423ca134a2adf5b50.png>
+示例 2：談笑娛生，频道注册于 2021 年 4 月，目前已发布 1153 个视频，订阅接近 8 万。内容主打名人故事讲解，新视频发布后短短几天就能拿到很高的播放。链接：www.youtube.com/@談笑娛生
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a9f1e6d53c2a72ed7425c6326a9b8858.png>
+## 第二步：让 AI 产出文案
+有两种方式，按需选择。
+**方案一：提取对标视频文案，让 AI 提炼。**
+先下载对标视频的音频，用这个免费工具：https://greenvideo.cc/youtube 。打开后复制视频链接，粘贴到对话框，点开始。注意：这个工具下载视频/音频/图片时，要点击两次才有反应。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cee037095f9479c272c93cfb42c9a10e.png>
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1c0cba0cafef0e5facb891f626eee16a.png>
+下载好音频后，打开飞书，在左侧工具栏找到“飞书妙记”，点右上角“上传”，把刚才的音频传进去，提交后点右上角三个点，选择“导出文字记录”，就能拿到对标视频的完整文案。接着，把这段文案丢给 ChatGPT，让它帮你提炼和再创作。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a5d89dd75c55c15b4a1abdeed60506b3.png>
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_715a8d42bc570258b8983bb55001a7ff.png>
+**方案二：直接让 ChatGPT 写文案。**
+方法 1：看一遍对标视频文案，把整体框架和限定条件整理好，交给 GPT 开工。比如下面这样：
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_06ec693fdf482379265f26c6eb4ff2ff.png>
+方法 2：先让 AI 列出文章框架，你按需增删，再让它完善正文。如果哪里不满意，直接让 GPT 修改就行。提醒一下：10 分钟左右的视频，文案大约需要 3000 字，可以直接让 AI 限定在 3000 字以内。
+## 第三步：用 AI 搞定配音
+文案搞定，接下来是配音。自己录音费时费力，气口、语调、情绪都难保持一致，所以推荐直接用 AI 配音或克隆自己的声音。我们用的工具是海外版海螺：https://www.hailuo.ai/audio（需要🪜）。
+**方法一：克隆自己的声音。**
+点框 1 位置进入设置，再点框 2 创建克隆声音，上传音频或直接录制都行。现场录制的话，找一篇文章有感情地读 30 秒左右即可。完成后记得起一个方便辨认的名字。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_1eda75569bf3ea9b14a3fb8538e3d8c4.png>
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c8df52219a5c6e18946643b87fa2359e.png>
+接下来把文案转成音频：点击框 1 放入文案，注意别一次性把整篇都放进去，因为 AI 处理长文本时容易“吞字”（句尾两个字消失）。分段生成，最后在剪映里拼接，效果会稳定很多。然后在框 3 位置选择你刚才克隆好的声音（点最右侧的切换按钮，进入“我的声音”即可找到）。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b72c4b2fc65522fca7cad9d660ebd3fa.png>
+其他参数：Emotion 我一般用默认或 happy，Speed 调到 1.2 左右最舒服，其余保持默认。
+**方法二：用海螺内置的声音。**
+点击后进入系统声音库，里面有不同年龄、性别的声音组合，挑一个顺眼的，点 Use 就能用。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_29048acac67facc88467b644ea893421.png>
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_56382b52f0d01ae7691b62a834b359da.png>
+## 第四步：先剪音频和字幕
+为什么先剪音频？这是我多次实测后认定的省时方案：先把字幕和音轨校准，顺便熟悉文案，在脑子里形成画面感，后面找素材会更精准。
+打开剪映，导入生成好的音频文件，铺到音轨上。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_267e77dffab7e210c6ab60c2a87d0ba7.png>
+然后为音轨匹配字幕：把文案按步骤输入，剪映会自动匹配。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a228d8293e6e8b1adf006ce482f504de.png>
+接下来认真听一遍“只有字幕+音轨”的视频，检查字幕和音频是否对齐，有没有明显的吞字、滑音或跳跃感。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_04a90d4e4852149073d38c0d8f611c88.png>
+## 第五步：攒够图片和视频素材
+素材来源主要是这些平台：
+- Twitter（x.com）
+- Instagram（www.instagram.com）
+- 必应（用英文版搜索效果更好）：https://www.bing.com/?mkt=zh-CN&ensearch=1&FORM=BEHPTB
+- YouTube（www.youtube.com）
+- 谷歌图片：https://images.google.com
+- 批量下载工具：亨亨猫（需某宝买账号）
+- 图片修复：wink（手机 App）
+我习惯分成两步搜集素材。
+第一步，动手写文案之前，就在上面几个平台搜索主题人物，把高清图片都下载下来。这一步属于广撒网，用亨亨猫的批量下载功能，找到一个链接就丢进去，攒一批后一起导出。
+以 Instagram 为例：点搜索，输入人物名字；看到满意的图片，右键选择“在新标签页打开链接”，复制新网址；然后把网址粘贴到亨亨猫，按顺序点击即可完成下载。建议把网址攒多一些再批量处理，别找一个导一次。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8662f26ab39da78b6a9c8d27cc6a652a.png>
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3988863777b4aea8e5974e803fb8cff6.png>
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4d9fe1de2abfabdad37de29cbd56130b.png>
+第二步，剪辑过程中查漏补缺。前面搜集的素材通常能覆盖 70%-80% 的画面，剩下 20% 需要定向补充。比如文案写到“伊万卡从大学毕业”，画面最好是她穿学士服的样子，库里没有就要现找。补充素材的渠道同上，下载工具还是亨亨猫。
+注意事项：
+1. 搜索时中英文关键词都试试。比如找特朗普，不能只搜“特朗普”，还得搜“Trump”。最好大小写、全拼、有无空格都试一遍，具体情况具体分析。
+2. 遇到年代久远、被“盘包浆”的模糊照片，不必灰心，正常下载后用手机 App wink 修复，马上恢复高清。
+## 第六步：正式剪辑
+剪辑前建议先复习老马教练的航海手册文档或航海直播，这两份教材足够用了。链接如下：
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b57dbda22a804ab0df39370326057a1d.png>
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5ae36539a5f09346b4b742de934c6768.png>
+https://scys.com/view/docx/CkoidgbmBoL4LkxehYsckPwlnUd
+https://scys.com/activity/documents?id=4660&index=1
+然后把素材导入剪映开始剪辑，注意几点：
+1. 长视频画幅一定要设成 16:9。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b3a5be7ea8dbcc5ef7584a95419d2ab7.png>
+2. 图片或没有铺满播放界面的视频素材，要加模糊背景，整体观感会好很多。右图是处理后的效果。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_30e872d246e874fb2622f8d77e9c14aa.png>
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a93992e6864ba4cd5b2420ef6b9cccd7.png>
+3. 图片不能静止不动，要加关键帧。将光标拖到图片开头，点击右上角菱形按钮添加起始关键帧；再把光标拖到结尾，同样添加末尾关键帧，并把缩放数值改成 125%，这是我测试下来动感较好的参数。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c15470a3b935c573690f5990bb35644c.png>
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e9a34c709072d502bd7c4e405e482f4c.png>
+4. 视频开头最好放一段主题人物的采访类视频。短视频讲黄金三秒，长视频也一样，能有效降低用户跳出率。
+## 第七步：用 AI 铺背景音乐
+音乐对视频质感影响很大，尤其素人解说，配上合适的 BGM 会加分不少。工具用 Suno：https://suno.com/（账号需某宝购买）。
+操作很简单：注意一定要勾选“纯音乐”选项，这样生成的音乐不会喧宾夺主。然后在描述框写一句话，比如“想为伊万卡特朗普跌宕起伏的一生创作一支舒缓安静的音乐”，系统会自动生成。每次会生成两首，我通常再修改或增加几个提示词，多生成几轮，最后挑 3 支组合进视频里，你也可以自由探索。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f93524adf18be8fa8cf54c694e0f5207.png>
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b86ccfe3e6455a9a2e79ad5d46a188eb.png>
+把选好的音频导入剪映，背景音乐音量设置在 -20 左右，这样既不会太吵，也不会听不见。
+## 第八步：让 AI 起爆款标题
+短视频标题可以随意些，但长视频不同，标题和封面的重要性很高。毕竟长短视频的推荐机制和展示场景完全不同。头部 YouTube 博主经常会做标题/封面的 AB 测试，选点击率最高的组合，你也能从自己关注的博主那里观察到这个动作。
+AI 写标题的方法和写文案类似：把参考爆款视频的标题喂给 GPT，一起共创。注意，AI 会发散出很多方向，你需要根据自己对视频内容的把握来甄别、筛选。到了这一步，视频已经完成，你对文案和内容都心里有数，再定标题会容易得多；如果一上来就纠结标题，反而浪费时间。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3c0bb4f31c4158f937b4059cb627bb42.png>
+## 第九步：搞定视频封面
+工具：黄油相机（手机 App）。
+心法：从素材库里挑一张贴合主题的高清图片，存到手机备用；同时参考对标视频的封面，心里先有个大概构图。
+操作步骤：
+1. 打开黄油相机，导入图片后，先把比例改成 16:9。
+2. 添加文字，用内置花字即可，样式很多，按喜好选择。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_db46d5884e37930d04cfd8cfb54a6ed2.png>
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9ccb1c34c5d83f27b03dd82cc5fc0fa2.png>
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e092b83674edb4b9aaeafb343c7329bb.png>
+有个好玩的技巧：长按刚添加的花字，菜单里会出现“遮挡”，点选后拖动花字，可以把字的一部分藏在人物或物体下面，让封面更有层次感，值得一试。
+**人物抠图与封面制作**：
+工具：美图秀秀（需付费）+ 黄油相机。
+1. 在美图秀秀导入含有人物的图片，用智能抠图一键把人抠出来，保存到手机备用。小细节没抠干净的话，可以用画笔微调。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_42c58491314aa0f72551f389f786fa5b.png>
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a33d180060b75bf72d0e0fbe930628e5.png>
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_0404f6b22f5fafdc4ce918f8cf85504c.png>
+2. 回到黄油相机，点“导入图片”→“空白画布”→“添加图片”，记得把画布比例调成 16:9，再自由排版即可。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_51fe9fb1971605823ae50a704868fbe5.png>
+以上就是我从 0 到 1 跑通整套 YouTube 名人解说长视频流程的全部经验。核心思路很简单：找到对标账号，用 AI 把文案、配音、背景音乐、标题全部搞定，再用剪映等工具把素材和画面串起来。只要你肯动手，普通人也能在长视频赛道找到自己的位置。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_242b85a948acf38a5851aace2c0ea234.png>
+先别急着把一张人物图塞进封面。假设你手上有三张、四张甚至更多抠好的人物素材，要怎么让它们齐齐整整地出现在同一张画面里？办法很简单：打开黄油相机，借助“贴纸”入口来导入，把这些人物图一张张加进来即可。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_c847774bfd9f3da78013a46703e55c3e.png>
+等所有人物素材都在画布上放好后，稍微调一调彼此的位置，再按画面需要添加标题花字，把对应文案填好，封面就这么搞定了。
+最后多说一句：同类型的赛道还有不少，完全可以顺着同一个思路逐个去拓。凡是被AI成功复刻的爆款赛道，对我们普通人来说，就是值得下场的赛道。愿大家都能把AI这个工具用到极致，省时省力，出海赚回更多美金💰。

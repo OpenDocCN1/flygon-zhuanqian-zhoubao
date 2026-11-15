@@ -1,0 +1,277 @@
+# 不花一分钱，我用 Obsidian 把赚钱精华帖变成了自己的“外挂大脑”
+> 原文来源：悦悦子cheer 的飞书分享
+嗨，我是悦悦子cheer，一个不爱被定义的INFJ，同时也是工具控、效率狂魔。
+今天这篇，想把我自己在用的知识库神器 Obsidian 完整地聊一聊。我会以“读赚钱精华帖”为主线，一步步演示：怎么用它搭建一个属于你自己的赚钱知识库。
+全文分成六块内容：
+1. 我平时怎么用，效果长什么样
+2. Obsidian 到底是什么
+3. Markdown 语言速懂
+4. 我自己的学习路线
+5. 手把手带你写出第一篇笔记
+6. 一些碎碎念
+## 一、日常使用与效果展示
+### 1.1 精读精华帖，记录+检索，随时调取
+我习惯在电脑上看精华帖，因为深度阅读时，我会在 Obsidian 里摘抄原文关键句，并写下自己的思考。遇到偏技术的帖子，我会边记录边操作，卡住的地方也会同步标记。这样做的好处有两个：一是记忆更牢固，二是所有内容都存在本地，搜索特别快，想找什么随时都能翻出来。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_53f3b6d1facc25cfa6c44b47c55043df.png>
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9bb65a9fd0f1a63cf2ee82c082b5654b.png>
+举个真实例子：
+上月初，我和希平聊到“链接贵人”的话题。他用的策略是广撒网，但成功率偏低。
+当时我脑子里立刻闪过一篇七小老师写的关于链接破圈的文章，是刚进赚钱时看的。
+不过那一瞬间，我能想起来的只有几个模糊印象：
+- 这篇我精读过，而且有笔记
+- 好像打过“链接人”标签
+- 内容很干货
+至于细节？全忘了。
+于是我打开 Obsidian，输入“贵人”两个字搜索，不到10秒就定位到了七小老师那篇《赚钱破圈链接方法论》，点开、导出PDF，直接甩给了希平。结果发现，他居然错过了这篇宝藏。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5c3354a87ecd3a6167f1a10d6ff46926.png>
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4ef96227696766bb6a12dbe0bdeebe03.png>
+这件事让我更加确定：因为认真读过，所以脑中会留下记忆锚点，哪怕只是一个点，也能快速把深藏的文件捞出来。
+### 1.2 自动汇总目录，进度一目了然
+第二个神器是 dataview 插件。每篇笔记写好后，用一段代码就能自动生成汇总列表，分成“已读”“在读”“待读”，还能做成待办清单。
+说实话，看着列表一点点变满，成就感挺强的。而且还能按类别区分，下次检索也更快。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3fa617216dca16f0c06184067a88a653.png>
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_37b398c0c5da22f518323937edc567c5.png>
+所有跟赚钱相关的内容我都放在同一个 Obsidian 库，包括我自己写的帖子、作业、复盘等等。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_36fa449caeaa71d3ceca620263f00ed2.png>
+上个月写 flag 复盘时，一直找不到年初在赚钱写的作业，后来直接在 Obsidian 里翻到了当时的年度 flag，顺利完成了复盘。（赚钱会员日立年度Flag完成及小红书运营复盘）
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_06e5ceb79708c7fa979323a9b493a6a4.png>
+### 1.3 用这种方法“刷”大佬，真的太管用了
+忘了在哪儿看到过一句话：“想链接一个大佬，最好的方式之一，是先把他的所有公开内容都刷一遍，真正了解他。”（涛哥在赚钱发的内容我才刷了一半就去找他了，最近得赶紧补完。）
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_346c8af0918057e540a71ccf7acab311.png>
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4d022e2657440c3844f3d21aeffc13a7.png>
+按照同样的精读方法刷完一个人的内容，你对他的印象会非常立体——他说过的金句、反复强调的观点、惯用的思考框架，都会刻进脑子里。这样去拜访对方时，对方一定能感觉到你的用心与尊重。
+另一个场景是：跟圈友聊天时提到某个人，我就可以在库里搜一下有没有对应存档，快速复习记忆。我为每位精华帖作者都单独建了文档，毕竟好记性不如烂笔头——何况我记性本来就不好。
+这里必须夸一下苹果生态：我的 Obsidian 库直接存在 iCloud 里，所有设备随时都能同步到最新内容。
+## 二、Obsidian 是什么
+Obsidian 是一款特别受欢迎的笔记工具，核心目标是帮你把知识管理得井井有条。简单说，它就是你的“个人知识管理系统”（PKM）。你可以把学到的内容、想法、资料统统放进去，再用「双向链接」把笔记像蜘蛛网一样串起来。
+官网传送门：直接搜 Obsidian 官网就能找到。
+### 1. 双向链接
+你可以在任意两篇笔记之间建立跳转关系。比如你写了一篇「细胞生物学」的笔记，里面提到“DNA”，就可以把“DNA”链接到另一篇详细讲 DNA 的笔记。这样复习时就能顺着链路一路看下去，知识体系会越来越清晰。
+我在分享涛哥的内容时，有人问“涛哥是谁”，我直接点一下笔记里的链接，就跳到了他的自我介绍页——这就是双向链接。你可以把它理解为“引用”，就像百度百科里的词条，点击就跳转。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_648f655a5272412e9514e34834875905.png>
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_2d7027a7240e82dc992a5de72ee845b0.png>
+### 2. 知识图谱
+Obsidian 会根据笔记之间的链接自动生成一张「知识图谱」，把你看过的所有笔记的关联关系可视化展示出来，有点像思维导图。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f89b9510a8712ca347a9d8bcc361737b.png>
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_323f43001dc0fd1ed1781b41ed9bef07.png>
+不过说实话，当笔记数量多了以后，图谱总觉得有点鸡肋——我自己反正是没怎么用过。如果有大神玩得很溜，欢迎评论区教教我！
+### 3. 本地存储，安心又安全
+Obsidian 的笔记默认存在你电脑本地文件夹里，格式是 Markdown 纯文本。你不必担心服务器宕机、数据泄露，也不受平台限制。哪怕在飞机上没网络，照样可以搜索、码字。本地存储的安心感，是云端工具给不了的——不受限于平台、账号和网络。
+### 4. 高度自定义
+Obsidian 有大量插件，能实现待办事项、日记、标签、看板等各种功能。界面和交互都可以按自己的习惯调整，非常灵活。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7fa6dfebd7095a3591054f96cd664a5e.png>
+我自己常用的插件就三个：
+1. dataview：自动汇总目录
+2. excel to markdown：表格一键变成 markdown
+3. mindmap：根据 markdown 直接生成思维导图，速度快，但不太美观
+## 三、Markdown 语言
+Obsidian 的笔记基于 Markdown。它是一门轻量级标记语言，语法简单，特别容易上手。学会 Markdown 之后，你不仅能高效记笔记，写代码文档、做网页内容也都能用到。
+上手有多快？如果你想“精通”可能要花点功夫，但如果只是使用，五分钟就能开始写了。官方教程可以直接去搜“Markdown 指南”。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9bad645a22a8cf7f99dc780aa6ebdb39.png>
+如果你做公众号，还可以关注一个工具：Markdown 开源社区，能直接把 Markdown 排版成公众号推文。
+就我自己的体验来说，这工具可能有点“返璞归真”，不过对文字多、不需要花哨排版的朋友来说，非常友好。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7e5bb45ef5758d5f6a3f9cc12f8b5b10.png>
+## 四、我的学习路径
+我的学习路径其实很简单：自己先瞎用，然后偶尔看点 B 站和小红书上的教程。
+到这两个平台搜“Obsidian 用法”，随便一翻就是几百个视频。挑自己感兴趣的学就行，看完立刻上手试。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_910281b060c1f29d0e22d3c88ab3749a.png>
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_52f50988b51013bbdf2b01b22f2e88f4.png>
+我比较在意效率，所以那些高级玩法我基本没深入研究，目前还停留在“写作+链接”的基础阶段。如果这篇帖子能引发大家讨论，让更多人分享自己的用法，我也能跟着学不少东西！
+一开始不建议贪多求全，更推荐“边用边学”——遇到问题了，再带着问题去搜索解法，反而学得更快。
+我目前已经建了好几个 Obsidian 库：Python、AI、读书笔记、运营……每个领域一个独立库，慢慢就构成了整个知识管理体系。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_28e0eebf1ce9ca6e1156907a2f0059f5.png>
+## 五、手把手教学（这次一定学得会）
+### 5.1 下载 App（PC / Mac）
+先去官网，点击导航栏的“下载”按钮。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fa08738bd81a1b3140d81d42e7b23faf.png>
+官网会自动识别你的系统（我是 Mac，直接跳出了 Mac 版本）。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4d1df395ddf54be112266905d85a5ac3.png>
+往下拉还能看到更多版本，Windows、Linux 都有，选自己对应的就好。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_99a2cc53d612371c63f33cf99e21c8c0.png>
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_233fdab232aa82f27cce67c7f5bb60ae.png>
+下载完正常安装就行，安装过程我就不啰嗦了。
+### 5.2 注册账号
+下载的时候，我们先回到官网主页，右上角有个“账号”按钮，点它。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_8244debb8682a3175e573f61f887f354.png>
+没用过的话，直接点注册，填好邮箱、密码，完成注册。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5743a26a912d0fe8390e0560032f8a36.png>
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_72c7a7539b936a4fdd680b936060c8d9.png>
+创建好账号后，进入登录页，输入邮箱和密码，点击“登入”。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d2e0268690635ddd5fdc225031a5ff7b.png>
+登录成功后会进入个人介绍页，想改就改，不改也没事。
+请一定记住你的【账号】和【密码】。
+### 5.3 打开 Obsidian
+下载完成、安装完毕，直接打开 App。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_19b1f7ef67acf6641b5e3643b8144da4.png>
+打开后会看到类似这样的页面。
+**情况一：从没有用过**
+点【创建】，然后给你的仓库起个名字。仓库位置就是存放所有文本文件的地方。我之前说过，我会把仓库存在 iCloud 里，Mac 用户可以参考我的做法。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5b1c72bd1967d1338ad8e54d198ed185.png>
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bbf815db50479b721a482ff3ee87e49a.png>
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_b3a120d423ed005b7c7941e604423b1c.png>
+全部填完，点【创建】，然后就会出现主界面。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_eed1230585333515332a7ba6fcfa6299.png>
+更详细的界面介绍可以看 Obsidian 官方文档，今天就先不展开。
+**情况二：你已经有 markdown 文件**
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_767707fb88c3452639c54cb49cf52526.png>
+那些 .md 结尾的白色文件就是 Markdown 文件。如果你之前已经有了，可以直接导入或打开。
+点【打开】→ 选中 md 文件所在的【文件夹】→ 再点【打开】。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cff0630352cbc4f0956b0955e6c34438.png>
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6e5536e101f1725ae5be16e621f6483f.png>
+打开之后，md 文件就进 Obsidian 了。左侧边栏的“笔记文件夹”和“笔记”会跟电脑上的原始结构保持一致：
+- 文件夹 → 对应“笔记文件夹”
+- md 文件 → 对应“笔记”
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_078a6983aa493614dfbac4f414e87efd.png>
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_361305d9bceaaac92edfb736c7bd830d.png>
+### 5.4 安装插件
+准备就绪，现在开始装插件。
+**第一步：设置**
+点左下角的【设置】图标，会弹出设置面板。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_cb5c8f94565692ec67e1d06023475406.png>
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_bfcf95435fb1dcabf48b529a70819455.png>
+**第二步：关闭“安全模式”**
+在左侧边栏找到【第三方插件】→ 把【安全模式】关掉。
+关闭成功后，会看到插件相关的页面。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4114b3df6859a6d56618176fc07d257d.png>
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_89b641accdc0c5e860f228327cd0862a.png>
+**第三步：搜索并安装插件**
+关闭安全模式后，点“社区插件市场”右边的【浏览】，就能看到一大堆插件了。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fcaa9d7918c106675b0796411b364bd8.png>
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3069f5fb79ceea3041bfb9f96bd2ccb4.png>
+这次我们要装的是 dataview，所以直接在搜索框里输入 dataview，找到目标插件，点进去。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_ef8c908f58fa4c2d6f142e7874309926.png>
+进入插件详情页，点【安装】。
+安装可能要等一会儿，也许 3 分钟，提前给你提个醒。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_178f9fe5572894053edb68a9c6135122.png>
+安装完成后，页面会变成可以【启动】的状态，点一下即可。成功后就变成图里右边的样子。
+移动端的朋友继续往下滑看下一张图。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_d9c4b4a2bbfd677f7f03e793bc67259b.png>
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_9d246f5ed7d9a7ee45e741f234a459e7.png>
+看到这个页面，说明插件已经装好啦！（撒花）
+### 5.5 写出你的第一篇 Obsidian 笔记
+回到主界面，左上角有一个笔头形状的【新建笔记】图标，点一下就会创建一篇新笔记。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_6c48df12e2c56beb8b89c0f9814d1a19.png>
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_922484f4f7d178e0556f76904b32be11.png>
+输入【标题】和【正文】内容。
+我简单写了几个 Markdown 常用语法，大家可以一键复制去感受一下。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e27248f71a09bb33e843844d87d710a2.png>
+### 调整模式
+为什么我上面会有左右两种不一样的显示，还能对比？
+其实很简单：鼠标右键点击笔记标签页，在菜单里选择：
+- 左边：我选的是【源码模式】（p1）
+- 右边：我选的是【阅读模式】（p2）
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7825f3e131237c9dcb2ca690cbba092e.png>
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_28429dcde7e1a86be51b4397e0ae51d3.png>
+### 分屏显示
+想让两篇笔记同时显示，就可以选择【左右分屏】或者【上下分屏】，大家可以自己试。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_fbec48dec17ee2ba0adeeaa36fb675b9.png>
+### 复制 Markdown 文本
+```
+# 一级标题
+正文内容
+## 二级标题
+**正文内容（加粗）**
+### 三级标题
+==正文内容（高光）==
+### 四级标题
+==**正文内容（高光加粗）**==
+```
+### 5.6 使用 dataview 插件制作汇总列表
+恭喜你，已经会写笔记了。那么怎么做到像前面那样自动生成列表呢？
+### 列表是怎么拆的？
+就拿那个精华帖列表来说吧。
+你可以把它想象成 Excel 表格，有三列：第一列是【文件】（file），第二列是【作者】，第三列是【分类】。
+- 【文件】就是笔记的名称
+- 【作者】就是精华帖作者（这里可以自定义）
+- 【分类】就是这篇帖子属于什么类别（也完全由你定）
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e13a2e5ec9e19d1968708eae3d8bfb23.png>
+### 把“字段”分配到笔记里
+从这里开始会稍微复杂一点点，但我会讲得更细。
+随便拿一篇帖子做示例，打开【源码模式】，让大家看看怎么写。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_3e3ff1735968b35181e7505fe64a75a9.png>
+下面的是正文内容，上面蓝色部分就是我们要分配的字段。
+先不看那个 tag。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_5cb01b99a0569c727fd2e328df3ff0be.png>
+注意：**全部都要用英文标点符号！**
+用中文符号会失败。
+- 中括号 `[]`
+- 两个冒号 `::`
+- 冒号前面是你的自定义“字段名”
+- 冒号后面是你的“字段内容”
+```
+[作者::]
+[分类：：]
+```
+复制上面的内容，直接用在自己的笔记里就行。
+### 拆解插件代码
+回到汇总页面，我们来看看那段自动汇总的代码是怎么写的。
+dataview 功能极其强大，而我自己只用到了很小一部分。
+更深入的用法可以去看 dataview 的官方文档，我放在学习链接部分。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_10069e6c8b0d7e5ad2248f96797785c7.png>
+同样，注意所有符号必须是英文状态。
+首先是一对三个``` 把所有内容阔起来
+这个键在【esc】键的下面
+～号这个
+*   3个```
+做笔记的人越来越多，但真正能把笔记“玩明白”的人却不多。尤其是当你攒下了成百上千条碎片化记录时，怎么一眼看清全貌、按自己的需求重新排列，就成了一个绕不开的问题。
+其实，只要掌握一套简单的查询规则，这件事就能轻松搞定。整套操作的逻辑并不复杂，核心就三步。
+第一步，圈定数据范围。所有需要处理的内容，统一从“帖子/Done”这个文件夹里读取。换句话说，每一次查询都只针对这个目录下的记录，其他位置的笔记不会混进来，也不会造成干扰。
+第二步，确定展示形式。最终的查询结果会以表格的方式呈现，表格里需要体现两条关键信息：作者是谁、属于哪个分类。换句话说，每条记录都必须对应到[作者::]和[分类：：]这两个自有字段上，缺一不可。
+第三步，设置排序方式。系统默认会以“分类”字段作为排序依据，采用升序（asc）排列，也就是从小到大依次铺开。如果你想换一个视角，也可以改成降序（desc），让顺序彻底反过来，从大到小倒序呈现。简单记：升序从小到大，降序从大到小，两者的方向完全相反。
+下面附上完整的查询表达，其中的占位标记请原样保留：
+``` 后面是 dataview
+*   中间是我们的详细代码
+一键复制
+```
+```dataview
+table 作者,分类
+from "帖子/Done"
+sort 分类 asc
+```
+```
+#### 第二行
+```
+table 作者,分类
+```
+*   `table` 表示 是一个“多列样式“（还一个是list）
+*   一个空格
+*   作者和分类 是我们自定义的字段
+```
+[作者::]
+[分类：：]
+```
+对应这里写的内容，如果你更换了内容，对应修改就行。
+请注意，逗号要使用英文状态！！！
+#### 第三行
+```
+From "帖子/Done"
+```
+我的所有汇总来自于 文件夹【帖子】下面的子文件夹【Done】。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_e84b7886f7c897b44f30cb9329cef240.png>
+怎么从图片上看是不是文件夹呢？
+有箭头的就是文件夹
+#### 第四行
+```
+sort 分类 asc
+```
+这里可以写，可以不写，意思是“按照什么顺序排列”
+两个常见概念
+```
+asc:顺序 从小到大
+desc: 倒序 从大到小
+```
+所以第四行就是 按照【分类】来排列，且顺序是 从小到大
+## 5.7 可参考学习链接
+Obsidian官方学习文档
+dataviw学习文档
+# 结尾碎碎念
+相较于大神们的知识管理体系，我这个就真的是班门弄斧。但我也搜索了一下赚钱内关于obsidian 的帖子确实太少了，可能有15条左右，1/3还是我自己提及的。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f9ed8eda38bbfbed80a439c00d6ae85d.png>
+既然我自己使用，而且用的还不错，那就作为一个补漏的功能吧～
+希望大家能喜欢，老板们给原文点个赞呗❤️
+下一期准备写，《零基础如何用ChatGPT和Obsidian学习代码》。
+精华贴广告：
+加入赚钱3个月，生意放大了10倍，2条航海满卡下船
+（希望精华贴列表会越来越长）
+```
+把这条规则记牢，以后无论笔记堆了多少，你都能在几秒之内把它们排列得整整齐齐。

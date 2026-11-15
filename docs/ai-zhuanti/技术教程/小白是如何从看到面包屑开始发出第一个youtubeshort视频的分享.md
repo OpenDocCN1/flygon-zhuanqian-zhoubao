@@ -1,0 +1,49 @@
+# 小白是如何从看到面包屑开始发出第一个youtubeshort视频的分享
+你有没有过这种体验？看到别人分享的赚钱机会，脑子里全是问号，不知道从哪里下手？
+我之前就是这样。第一次刷到 YouTube Shorts 那个显眼的“超级标”时，整个人是懵的。
+但当时龙哥大大有句话特别戳我：“真正好的项目，都是从面包屑开始的。”
+巧的是，这个超级标下面还藏着一句更扎心的话：“不要说期待，要自己去研究，然后开干。赚钱最怕等着别人喂东西，别人给个线索，剩下来的就全是自己研究。”
+行吧，线索都塞到手里了，找面包的路只能自己走。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_a2629ef0ddcd5a7c4b4fe7d0aec87991.png>
+那时候我没急着去星球翻经验帖，反而先找了老朋友——AI。我不懂没关系，AI懂就行。
+当然，如果你比我聪明，建议先去星球搜一搜，可能能少踩不少坑。
+接着，我把龙哥大大给的那点“面包屑”原封不动丢给了AI。（工具随便挑，只要能回答问题就行。）
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_28bdb32d8a4a919514052821b37d6b4c.png>
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4a0b2f12bf0d66fb7114343223a12abd.png>
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_f3ac089a6923523e54fdf54543142375.png>
+AI一通输出，我大概明白了方向，可还是不知道第一步该迈哪只脚。
+这时候我想起以前参加视频号、闲鱼航海的日子。那些项目也都是从0到1，我学到一条铁律：新项目别急着搞创新，先去找对标，看别人怎么做，再去模仿。
+于是我开始刷YouTube Shorts，想找点能照着做的热门内容。
+刷了差不多五分钟，搞笑段子、教学片、各种花活，跟咱们国内的短视频平台一个味儿。但看完依然没头绪。
+又想起龙哥大大那个“面包屑”，我重新翻了一遍，看有没有漏掉什么。
+嘿，还真有——里面不仅讲了方法，还甩出了几个参考账号。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_4b8f9567d9fa6faa9b682f411c754e27.png>
+顺着这几个账号去搜，我一连摸到了好多同类型对标视频。
+后来我还把目光挪到TikTok上：既然YouTube Shorts是这套玩法，那TikTok上的爆款对标，岂不是直接平移过来就能用？
+搜了一圈关键词，狂刷一阵子后，我总算摸到了一些AI视频的创作方向。
+那具体怎么做视频？看着那些作品，既眼熟又陌生。没关系，我还有AI这个好哥们儿。
+我一直有个挺管用的心得：你碰到的问题，绝对不可能只有你一个人撞上。上网搜一搜，大概率能找到解法。这种视频不会做？肯定有人分享过，那就去找。
+要是连搜都不知道怎么搜，再问问我们的AI朋友。我把AI当成呼吸一样自然，不懂就问，有这么个最强外挂不用，不是傻嘛？
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_077d16b1226ddffea0d959c45b75d11d.png>
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_7edd5459328c3d9d44f11d6ddd0f56b6.png>
+具体怎么搜、搜出什么，我就不细说了，真想做的建议自己下场滚一遍。把手弄脏了，才会真正明白“原来是这么回事”。
+很多灵感，也是干着干着突然冒出来的。
+找到对标之后，要做同款视频，我照样不会。没关系，继续搜。
+强烈建议多用用Google，把它当第二大脑，那种酸爽谁用谁知道。
+遇到不会的东西，就套用“How to xxx”这个万能句式。想搞定什么，就把xxx换成什么。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_38bed803335dba42abbb30f7a9ce1eb4.png>
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_832f774e9bc71585fc885e39ab20e874.png>
+看到结果的那一刻，是不是有点惊喜？同理，想看老外怎么搞钱，也可以用这个句式去搜。
+搜到这类教程千万要多看几眼。我研究了好几个账号之后，步骤基本搞清楚了，不少博主连prompt都给你备好了，简直是手把手喂饭。我简单归纳一下：
+第一步：用AI工具生成故事，比如ChatGPT。
+第二步：生成图片，ChatGPT、Midjourney、Leonardo ai都行（如果想做连续故事，Leonardo ai出图不错，还能让图片动起来）。
+第三步：想做动画效果的话，用AI工具生成动态图，像那种AI猫、动物融合视频，可以用“即刻”“可灵AI”来做。
+第四步：用剪辑工具做后期，留意音乐版权问题。可以去YouTube音乐库挑免费无版权的歌。老外对版权这事看得极重，动手前先了解清楚。
+我利用业余时间试着做了三个视频：一个动物融合的残次品，一个讲故事的，还有一个AI猫咪。
+第一个视频其实挺粗糙，毛病不少。但完成永远比完美重要，起码我真刀真枪过了一遍。
+以上，就是我从发现面包屑到亲自上手的全部过程。希望这些经历能给你一点启发。
+至于国内怎么搞魔法、怎么开多账号，这些内容也可以自己在国内平台搜一搜，了解渠道还是蛮多的。
+最后，如果有姐妹兄弟觉得看英文视频费劲，我这儿还有个丝滑插件：https://immersivetranslate.com/en/download/
+装上它，英文字幕秒变双语字幕，那叫一个顺滑。
+<https://gitcode.com/OpenDocCN1/data/blob/master/imgs/zhuanqian_45d72eae8a9f52593f1ddd582875215e.png>
+祝大家学习丝滑，搞钱丝滑！
