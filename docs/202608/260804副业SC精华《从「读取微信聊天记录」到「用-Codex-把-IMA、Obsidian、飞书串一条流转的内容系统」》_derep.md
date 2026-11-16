@@ -1,10 +1,9 @@
 # 从🛰️聊天记录到 Codex 串起 IMA、Obsidian、飞书的内容流转系统
+作者：龙哥
 
 260804 副业SC 精华
 
-整理：👸号懒人搜索，懒人专属群精选
 
-懒人🛰️：lazyhelper1
 
 这不是一份单纯的工具安装清单。
 
@@ -16,7 +15,6 @@
 
 知识库版：
 
-https://my.feishu.cn/wiki/space/7668857880593829100?ccm_open_type=lark_wiki_spaceLink&open_tab_from=wiki_home
 
 ⬇⬇先看几个阅览图，更有感觉知道接下来要说什么、做什么！
 
@@ -664,7 +662,6 @@ IMA 原文 → Obsidian 标准素材卡 → 15 个可追溯语料块 → 5 个�
 
 知识库版：
 
-https://my.feishu.cn/wiki/space/7668857880593829100?ccm_open_type=lark_wiki_spaceLink&open_tab_from=wiki_home
 
 ————分割线————
 
@@ -672,7 +669,6 @@ https://my.feishu.cn/wiki/space/7668857880593829100?ccm_open_type=lark_wiki_spac
 
 工具和教程是最基础的门槛，真正拉开差距的是“立刻开干”和“圈层信息差”。
 
-想看全网最新的变现打法，和一批执行力很强的极客一起下场做结果，可以围观我的核心私域：【懒人专属群】。
 
 我们只拆商业闭环，只压榨 AI 效率。系统里已沉淀 1000+ 跑通的套利实战案例。
 
@@ -682,7 +678,6 @@ https://lazyso.com/insider/
 
 ![](img/76aa1412b4e7216bb5de9751ea8d5a74_37_0.png)![](img/76aa1412b4e7216bb5de9751ea8d5a74_37_1.png)![](img/76aa1412b4e7216bb5de9751ea8d5a74_37_2.png)
 
-认可价值、准备实操的，扫码加我🛰️（lazyhelper1）
 
 备注：【实操上车】，不闲聊
 

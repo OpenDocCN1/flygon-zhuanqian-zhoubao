@@ -1,8 +1,9 @@
 # 《Stable Diffusion终极宝典：从零到上手，这一篇就够了》
+作者：龙哥
 
 > 来源：一份超详细的SD教程，帮你省下80小时摸索时间
 
-大家好，我是吴东子。我习惯用最通俗的大白话，分享能直接上手用的硬核技能。
+大家好，我是龙哥。我习惯用最通俗的大白话，分享能直接上手用的硬核技能。
 
 所有资料都整理在👸号「吴东子AI」里。
 
@@ -923,5 +924,3 @@ LoRA = LoRA
 链接：https://pan.baidu.com/s/1hY8CKbYRAj9RrFGmswdNiA?pwd=caru
 
 提取码：caru
-
-吴东子AI账号简介：https://ry5hwpuf7b.feishu.cn/wiki/space/7283841978071072772?ccm_open_type=lark_wiki_spaceLink

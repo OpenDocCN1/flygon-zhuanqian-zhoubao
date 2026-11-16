@@ -1,4 +1,5 @@
 # 她靠Gemini做漫剧编剧，从0到1拿到首笔稿费：完整经验拆解
+作者：龙哥
 
 ![](img/2cf43a60fa938c04d1a2d7bdb2dca328_0_0.png)
 
@@ -184,6 +185,5 @@ Gemini生成的内容里，引号和省略号特别多。我一般拿到Word里�
 
 入圈方式和完整资源目录：https://lazysso.com/insider/
 
-联系🛰️：lazyhelper1，备注“上车实操”，不闲聊。
 
 ![](img/2cf43a60fa938c04d1a2d7bdb2dca328_19_1.png)

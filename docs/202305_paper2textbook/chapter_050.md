@@ -5,6 +5,7 @@
 
 
 # 第 50 章 生财有术 —— 社群杠杆加速普通人从 0 到 1
+作者：龙哥
 
 ## 学习目标
 
@@ -192,7 +193,6 @@ flowchart LR
 > 
 > ——《毛韩复盘》 [P014]
 
-> "用电脑打开筛选模型：https://wchekk4hs9.feishu.cn/base/TpsBbwxhYaplTWsUGmpc6k6QnXc"
 > 
 > ——《毛韩飞书长文》 [PGn5]
 

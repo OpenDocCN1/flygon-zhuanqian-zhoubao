@@ -1,4 +1,5 @@
 # AI 代写，手把手教你实操变现
+作者：龙哥
 
 最近“AI代写”这个话题有多火，大家应该都感受到了。但很多人不是卡在不会用AI，而是卡在不知道怎么靠它真正接到单、赚到钱。今天这篇内容，就把我从接单到成交的完整经验拆给你看，全程都是实操型干货，新手也能照着做。
 
@@ -192,6 +193,5 @@
 
 评论区
 
-浩然：飞书链接的排版效果会更舒服：[`https://y5ph2w13sj.feishu.cn/docx/GvOzdMkElo6OeIxHJ8dc2dHHnih?from=from_copylink`](https://y5ph2w13sj.feishu.cn/docx/GvOzdMkElo6OeIxHJ8dc2dHHnih?from=from_copylink)
 
 ![](img/21de372a77ea1f441c613f7316831ae1.png "None")

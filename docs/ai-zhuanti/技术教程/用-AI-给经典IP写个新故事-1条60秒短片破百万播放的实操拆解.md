@@ -1,4 +1,5 @@
 # 用 AI 给经典IP写个新故事，1条60秒短片破百万播放的实操拆解
+作者：龙哥
 
 ## AI 原创影视解说新玩法，1 条视频 100 万播放，保姆教程来了
 
@@ -118,7 +119,6 @@
 
 今天的拆解分享就到这里了。
 
-文章里提到的云端 ComfyUI、工作流和 Lora 模型，已全部汇总到文档里：[`svj4gxvm0v3.feishu.cn/docx/Q3CjdOaSuo2DOgx4rMjcvGpkn5f?from=from_copylink`](https://svj4gxvm0v3.feishu.cn/docx/Q3CjdOaSuo2DOgx4rMjcvGpkn5f?from=from_copylink)
 
 我是高鹏，做网创 9 年了，这是我拆解的第 696 个落地玩法，更多实操案例欢迎来聊。
 

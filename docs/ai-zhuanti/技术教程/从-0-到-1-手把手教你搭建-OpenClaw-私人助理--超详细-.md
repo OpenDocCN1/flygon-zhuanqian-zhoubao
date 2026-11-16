@@ -1,4 +1,5 @@
 # 从 0 到 1 手把手教你搭建 OpenClaw 私人助理 (超详细)
+作者：龙哥
 
 # 从零到一完整拆解 OpenClaw 私人助理搭建全流程
 
@@ -518,7 +519,4 @@ openclaw gateway start
 我们不做低质搬运，只做高质量信息的筛选器和放大镜。
 
 ```
-https://hk57gvlx7u.feishu.cn/docx/H0kRdZbSbolBR0xkaXtcuVEOnTg
 ```
-
-【免责声明】本资料归档于社群内部知识库，仅供成员课题研究与学术交流，请在查阅后 24 小时内删除。

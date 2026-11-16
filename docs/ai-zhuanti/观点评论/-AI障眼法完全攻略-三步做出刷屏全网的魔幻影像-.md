@@ -1,4 +1,5 @@
 # 《AI障眼法完全攻略：三步做出刷屏全网的魔幻影像》
+作者：龙哥
 
 大家好，我是龙哥。
 
@@ -429,5 +430,3 @@ sd文件夹\extensions\sd-webui-IS-NET-pro\saved_models\IS-Net
 网盘链接：https://pan.baidu.com/s/19Xnof-BSA-FubkMc_0XNhA?pwd=wdz6
 
 提取码：wdz6
-
-吴东子AI账号简介：https://ry5hwpuf7b.feishu.cn/wiki/space/7283841978071072772?ccm_open_type=lark_wiki_spaceLink

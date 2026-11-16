@@ -1,6 +1,6 @@
 # 单条智能短片卖出 1596 单，我把整套打法打包成了可复用 Skill
+作者：龙哥
 
-> 整理：👸号懒人搜索·懒人专属群精选 | 🛰️：lazyhelperl
 
 ![](img/1fde39a9ec05341a59a2a3d0fc0cb74f_0_0.png)
 ![](img/1fde39a9ec05341a59a2a3d0fc0cb74f_0_1.png)
@@ -116,7 +116,6 @@ https://flow.google.com/
 把片段、配音、字幕在剪映里对齐，剪掉废镜头。
 
 在线成片：
-https://hk57gvlx7u.feishu.cn/docx/T2ewdn87ooJG4kx10xDc2chn tg
 ![](img/1fde39a9ec05341a59a2a3d0fc0cb74f_5_1.png)
 
 ### 第十步，回传复盘，沉淀闭环
@@ -164,12 +163,10 @@ https://hk57gvlx7u.feishu.cn/docx/T2ewdn87ooJG4kx10xDc2chn tg
 
 看完 SOP 可能觉得懂了，但实操第一步就会卡住。工具和教程是基础壁垒，真正的壁垒是立刻动手和信息差。
 
-想看最新的变现打法，和一群执行力强的极客一起落地，欢迎关注我的核心私域【懒人专属群】。我们只拆商业闭环和 AI 效率。体系内已沉淀 1000+ 跑通的实战案例。
 
 查阅数字资产与入群门槛：
 https://lazyso.com/insider/
 
-认同价值、准备下场干的，扫码加我🛰️ lazyhelper1，备注【实操上车】，不闲聊。
 
 ![](img/1fde39a9ec05341a59a2a3d0fc0cb74f_8_0.png)
 ![](img/1fde39a9ec05341a59a2a3d0fc0cb74f_8_1.png)

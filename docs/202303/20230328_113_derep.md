@@ -1,4 +1,5 @@
 # 《过去的一年虽然没 gap，却也是实打实的 self-caring year》
+作者：龙哥
 
 **没有“空窗期”，却结结实实过了一年 Self-Caring Year**
 

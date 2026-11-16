@@ -1,4 +1,5 @@
 # iPhone 一键把小红书笔记同步进飞书多维表
+作者：龙哥
 
 ## 精选帖 127 赞：小红书图文标题快速导入飞书多维表
 
@@ -32,13 +33,11 @@
 
 ## 一、飞书账号准备
 
-飞书官网：[`www.feishu.cn/`](https://www.feishu.cn)
 
 已有账号可直接跳过，查看第二步。
 
 **1. 注册**
 
-1.1 打开 [`accounts.feishu.cn/accounts/page/login?app_id=11&no_trap=1&redirect_uri=https://www.feishu.cn/login_redirect&template_id=7159153320657698818`](https://accounts.feishu.cn/accounts/page/login?app_id=11&no_trap=1&redirect_uri=https://www.feishu.cn/login_redirect&template_id=7159153320657698818)
 
 1.2 用手机号完成注册
 
@@ -54,7 +53,6 @@
 
 1. 先登录飞书再打开以下模版链接：
 
-[小红书笔记 coze 笔记收藏](https://ccn5rcywl0hv.feishu.cn/base/IWOYb11Mxa5vRhsfF8ScIZtknqd?from=from_copylink)
 
 2. 打开后等待弹窗出现，点击“使用该模板”。
 
@@ -66,7 +64,6 @@
 
 ![](img/60a6ca3b3d7f6b20bf0745e9a45cd14f.png "None")
 
-4. 确认链接开头为 xxx.feishu.cn/base/。若不是，请删除模版重新按第一步操作，否则无法使用。
 
 ![](img/51e337796cc95fdeb30f89ef77e8cf03.png "None")
 

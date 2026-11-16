@@ -1,4 +1,5 @@
 # 原创短视频如何实现规模化产出？我的带货矩阵自动化实战拆解
+作者：龙哥
 
 
 
@@ -100,7 +101,5 @@
 
 【精华贴】
 《用RPA机器人，30天时间加到2000个同城线下门店老板的微信》
-https://f2rgk22rcn.feishu.cn/docs/doccnbX6yzxwhWjGBi6DOV59cqd
 《如何解决原创视频内容的批量生产？聊聊我的短视频带货矩阵的自动化之路》
-https://f2rgk22rcn.feishu.cn/docx/JmBgdr705ovHoyxQknRctRaMnKh
 ```

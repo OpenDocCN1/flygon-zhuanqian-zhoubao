@@ -1,4 +1,5 @@
 # 零基础也能玩转 DeepSeek：我的自学实践笔记
+作者：龙哥
 
 大家好😆，这里是 DeepSeek 探索研习社，我是龙哥。
 
@@ -624,7 +625,6 @@ DeepSeek 搭配玄学，玩法还有不少，像打时法、风水之类都能�
 
 ![](img/zhuanqian_50bedc922f41fbf955d1d7bfd40d7c96.png)
 
-“辛亥 邀请你加入飞书群，点这个链接：https://applink.feishu.cn/client/chat/chatter/add_by_link?link_token=e94h69f8-3de5-40d6-bd5a-4502c4812bd7”
 
 好东西都在群里的云文档里，可以慢慢把玩。
 
@@ -638,7 +638,6 @@ DeepSeek 搭配玄学，玩法还有不少，像打时法、风水之类都能�
 
 - 【老师好我叫何同学】同款第二大脑
 
-- 【全免费】飞书官方飞行社的课程知识库：https://www.feishu.cn/community?from=app
 
 这就是2月10日直播的精华，同步给你。
 
@@ -774,7 +773,6 @@ DeepSeek 搭配玄学，玩法还有不少，像打时法、风水之类都能�
 
 - 字段捷径使用手册
 
-- 飞书多维表格字段：https://www.feishu.cn/hc/zh-CN/category/7001026366191796225-%E5%AD%97%E6%AE%B5
 
 - 字段捷径示例
 
@@ -790,9 +788,7 @@ DeepSeek 搭配玄学，玩法还有不少，像打时法、风水之类都能�
 
 最后放两个官方回放链接，希望能带来更多启发：
 
-https://larkcommunity.feishu.cn/minutes/obcnktw765sp2g91468f3vt2?from=from_copylink
 
-https://waytoagi.feishu.cn/minutes/obcnncazbaya21ys4d5bgkbb【2月10日的直播回放】
 
 【直播会议纪要】
 

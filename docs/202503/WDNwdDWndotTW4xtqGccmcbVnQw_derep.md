@@ -1,8 +1,9 @@
 # 不会代码也能行！我用影刀 RPA 和 Kimi 拿下了飞书多维表格批量操作
+作者：龙哥
 
 
 
-各位朋友好，我是 Leeka，平时靠影刀 RPA 接点副业活儿，也教别人怎么用。
+各位朋友好，我是 龙哥，平时靠影刀 RPA 接点副业活儿，也教别人怎么用。
 
 有一阵子没出来和大家聊天了。最近我折腾了不少新东西，把几款工具的玩法摸透了，又给自己涨了几个技能点。前几天总算把飞书多维表格这块硬骨头啃了下来，还顺手把影刀 RPA 和它串成了自动化流水线，干活效率蹭蹭往上涨。
 
@@ -120,9 +121,7 @@ Kimi 给的答案如下（我做了简要转述）：
 
 **字段**——表格里的一竖列，一列就是一种属性的数据。"任务详情"表里"任务名称""负责人""截止日期"都是字段，每个字段有自己的数据类型，像文本、日期、人员等。
 
-**数据表ID怎么拿**——打开多维表格，看链接中 table= 后面那一串字符。例如 https://xxxxxxxxxx.feishu.cn/base/PtRdbPjCFa5Og5sry0lcD1yPnKg?table=tblVBqxDbGXOJZPv 里的 tblVBqxDbGXOJZPv 就是。
 
-**视图ID怎么拿**——同理，链接里 view= 后面的字符就是。例如 https://xxxxxxxxxx.feishu.cn/base/PtRdbPjCFa5Og5sry0lcD1yPnKg?table=tblVBqxDbGXOJZPv&view=vewjgHC22S 里的 vewjgHC22S 就是。
 
 因为我特意在提示词里要求 Kimi 从官方文档取材，所以这些解释不但说人话，还靠谱。
 
@@ -303,7 +302,6 @@ Kimi 给的答案如下（我做了简要转述）：
 
 我们要的是【table ID】，从命名就能猜到，它应该就是 table= 和 &view= 之间的那串字符
 
-也就是说，链接 https://xxxx.feishu.cn/base/xxxx?table=12345678&view=87654321 的 table ID 就是 12345678
 
 经检索验证，这个推断是成立的。接下来就只剩怎么稳定拿到它。
 

@@ -1,4 +1,5 @@
 # 【保姆级教程】109 元一年的服务器，搭建龙哥同款 agent（社媒兼容版）
+作者：龙哥
 
 ## 109 元/年，我把“收藏癖”改造成了自动知识流水线
 
@@ -18,7 +19,6 @@
 
 赚钱站内《小D 复制部署说明：音视频转录整理 Agent》
 
-https://shengcaiyoushu01.feishu.cn/wiki/VsEawZUYMi4CCxkjNEncXPJ4nsg
 
 它可以接收音视频地址，自动完成下载、转录、清理口语和时间标记，再整理成一篇适合阅读和分享的长文。它不会只给你几句概括，而是尽量保留原始表达、案例细节和核心判断。
 
@@ -94,7 +94,6 @@ https://shengcaiyoushu01.feishu.cn/wiki/VsEawZUYMi4CCxkjNEncXPJ4nsg
 
 打开开发者后台：
 
-https://open.feishu.cn/app
 
 创建企业自建应用，保存 App ID 与 App Secret。之后系统才能读取群消息、创建文档和发送通知。
 
@@ -114,7 +113,6 @@ https://github.com/chenchen1010/hermes-media-suite
 
 如果你想复刻“看到什么就先归档”的操作，快捷指令文档也准备好了，里面包含群机器人、Webhook 和手机背面触发配置：
 
-https://gcn6bvkburhk.feishu.cn/docx/VII1doG3DoNWCRxiphfcdjyNnAb
 
 ### 飞书和微信怎么使用？
 

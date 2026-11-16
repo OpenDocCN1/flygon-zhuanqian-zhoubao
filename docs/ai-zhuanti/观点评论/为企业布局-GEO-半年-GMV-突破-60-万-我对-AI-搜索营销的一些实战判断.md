@@ -1,4 +1,5 @@
 # 为企业布局 GEO 半年，GMV 突破 60 万：我对 AI 搜索营销的一些实战判断
+作者：龙哥
 
 原文：[`www.yuque.com/for_lazy/zhoubao/tp5of9t2tmk8w9nv`](https://www.yuque.com/for_lazy/zhoubao/tp5of9t2tmk8w9nv)
 
@@ -68,7 +69,6 @@ GEO 是我们进入 AI 营销市场的重要切入口，也是目前我最确定
 
 如果你也在寻找下一个相对确定的增长方向，可以抽 15 分钟，了解一下这个被红杉资本重点押注的热门赛道，以及它背后的运作逻辑：
 
-[`vgn5lmhcay.feishu.cn/docx/CuUYd4BvFo9F1yxcaumcn3Dxnsb?from=from_copylink`](https://vgn5lmhcay.feishu.cn/docx/CuUYd4BvFo9F1yxcaumcn3Dxnsb?from=from_copylink)
 
 * * *
 

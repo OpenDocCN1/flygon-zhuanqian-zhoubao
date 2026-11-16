@@ -1,4 +1,5 @@
 # 用美区 Apple ID 搞定 ChatGPT 注册与 Plus 充值全流程
+作者：龙哥
 
 
 

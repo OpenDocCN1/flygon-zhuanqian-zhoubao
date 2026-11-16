@@ -1,8 +1,9 @@
 # 解放双手，任何人都能复制的 AI 短视频自动化打法
+作者：龙哥
 
 
 
-大家好，我是 Jiahao。现在在 Gary 和 方波妮 教练的带跑下，全力冲刺做一名合格的 YouTuber。短短一个多月实战下来，已经顺利拿到两个 YPP，更多还在路上。
+大家好，我是 龙哥。现在在 Gary 和 方波妮 教练的带跑下，全力冲刺做一名合格的 YouTuber。短短一个多月实战下来，已经顺利拿到两个 YPP，更多还在路上。
 
 之前被圈内大佬香君的一篇高效出片经验帖点醒，受益匪浅。我在她的思路上做了延伸，尝试把 AI 视频制作做成一套可自动化的流水线。好消息是站在了巨人的肩膀上，真的跑通了。今天就把这套思路掏出来跟大家分享，欢迎指正。
 
@@ -729,7 +730,6 @@ https://www.winrobot360.com/share/accede?inviteKey=097fee56-c747-40bf-9e3e-5f776
 
 很多人说数据格式检查过没问题，但还是会出现类似下图这样的报错：![](img/120318bd49487fe84a6e5140c82d6724.png)
 
-根据官方文档，这个错误的意思是“未找到指定的云文档”。建议按下面这个思路排查：如果电子表格是在知识库里创建的，后续很容易遇到额外问题；最好在知识库外面新建一张电子表格，再重新获取 spreadsheet_token 和 sheet_id，问题通常会解决。官方错误码文档链接也放一下：https://open.feishu.cn/document/server-docs/api-call-guide/generic-error-code ![](img/05d7971d850b320c47f8ba824b28d100.png)
 
 ### 2. 插入飞书电子表格时提示“range in request is wrong, columns of value:22>range”（@酷拉皮卡）
 

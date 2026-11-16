@@ -334,7 +334,6 @@
 +   [一个体制内二宝妈的副业开荒笔记](JdjUdvwKxo25yWxh06tcZzzAnxd_derep.md)
 +   [用影刀RPA把👸号内容做到多平台分发的全流程拆解](JzKCdIcnFoYXPFxdB4xcdNiUnqe_derep.md)
 +   [《一年做到百万GMV，视频号挂车投流实战复盘》](K1ovdE2QyoKkIUxXcOHcEJC7n5c_derep.md)
-+   [0成本起盘📕付费社群，一个月变现8万+的实操复盘](K4zfd2djsoEAdWxTaXrceSf9nLf_derep.md)
 +   [身体残疾卧床 3 年，我在人生最低谷加入龙哥盟，有哪些成长？](K9WSdh9exoe2jFxPKkPc1uUunXb_derep.md)
 +   [美国私人地址](KDyTwGDdGiRPDKk4ijFcX5SPnFo_derep.md)
 +   [从零投入到四个月营收30万：我做家教撮合的实战记录](KU0Edh7pToq6NkxvmrOc550Pnib_derep.md)

@@ -1,4 +1,5 @@
 # 单条智能短片卖出 1596 单，我把整套打法打包成了可复用 Skill
+作者：龙哥
 
 ![](img/zhuanqian_1fde39a9ec05341a59a2a3d0fc0cb74f_0_0.png)
 
@@ -118,7 +119,6 @@ https://flow.google.com/
 
 在线成片：
 
-https://hk57gvlx7u.feishu.cn/docx/T2ewdn87ooJG4kx10xDc2chn tg
 
 ![](img/zhuanqian_1fde39a9ec05341a59a2a3d0fc0cb74f_5_1.png)
 

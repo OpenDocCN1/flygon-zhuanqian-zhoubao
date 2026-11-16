@@ -1,8 +1,8 @@
 # 【吴旭】互联网工具资料宝库合集
+作者：龙哥
 
 吴旭的这份资料库，做新媒体和副业的朋友应该都不陌生。文档在飞书上持续更新，内容越攒越多，从小说推广素材到各类智能生成应用，从账号冷启动教程到网盘资源包，基本覆盖了内容创作的完整链条。这篇文章把其中真正常用的部分重新梳理出来，方便你按需取用。
 
-完整资料库入口：https://a5yo5lvdaa.feishu.cn/docx/WjvCdVSyToDLQuxeOgvcYnG0nqe
 
 主理人吴旭，🛰️：wxz16819、wzx516988，订阅号“吴旭笔记”。他建的交流群介绍页在：https://mp.weixin.qq.com/s?__biz=MzkzMDQ0MTMyMQ==&mid=2247487433&idx=1&sn=addb69ed5b804529943a8fd300806322&chksm=c27b7ecff50cf7d9fa175bcfdb4033425cfedfb4bfce4ef919bd0503e47eb40f2b975ab4dc70#rd
 

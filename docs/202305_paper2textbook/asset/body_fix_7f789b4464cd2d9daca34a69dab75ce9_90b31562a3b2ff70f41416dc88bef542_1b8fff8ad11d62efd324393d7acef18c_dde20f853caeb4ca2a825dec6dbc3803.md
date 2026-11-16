@@ -2,6 +2,7 @@
 
 
 # 第 17 章 ChatGPT Plus 长期稳定访问基建 —— 封号核心判定、DashiSIM多APN漫游、Ultra Mobile保号卡、真实金融身份与基建复用资产
+作者：龙哥
 
 ## 学习目标
 

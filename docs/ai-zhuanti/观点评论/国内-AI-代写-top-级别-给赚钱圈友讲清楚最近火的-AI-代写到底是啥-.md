@@ -1,4 +1,5 @@
 # 国内 AI 代写 top 级别，给赚钱圈友讲清楚最近火的 AI+代写到底是啥！
+作者：龙哥
 
 从0到月入几万的AI代写，到底靠什么赚钱？这篇给你讲透
 
@@ -52,7 +53,6 @@
 
 ![](img/zhuanqian_1c52127f7ba4dce1887dd2cced5ab3ec.png)
 
-第六款，飞书妙记。免费，性能五星。能把视频转成文字，适合那些需要看视频做总结的需求。网站版即可，链接 https://www.feishu.cn/
 
 ![](img/zhuanqian_613cecef4ed96e8b536c3de6a57a33ee.png)
 

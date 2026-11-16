@@ -1,4 +1,5 @@
 # 如何利用 AI 创作短篇小说赚取收入？
+作者：龙哥
 
 ## 用AI写短篇小说真的能赚钱吗？我的实操拆解
 
@@ -207,7 +208,6 @@ AI让漫剧制作成本大幅下降、周期从数月压缩到数周，成本降
 ⚠️ 查看圈内最新的赚钱实操记录:
 
 ```
-https://hk57gvIx7u.feishu.cn/docx/H0kRdZbSbolBR0xkaXtcuVE0nTg
 ```
 
 ![](img/zhuanqian_3988ad56026fd4b6774cbfd51ea8998f_15_0.png)

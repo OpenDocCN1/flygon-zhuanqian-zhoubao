@@ -2,6 +2,7 @@
 
 
 # 第 14 章 AI内容变现与模型工程化实战
+作者：龙哥
 
 ## 学习目标
 
@@ -591,7 +592,6 @@ graph TD
 > 例：T4 单张约 40-60秒；4090 单张约 8-10秒；A100 单张约 3-5秒。
 
 > "本次分享主要有三方面：... 3、云端部署 stable diffusion"
-> "具体分享请移步飞书的总结 https://ov4jtf5rf0.feishu.cn/docx/ZXvbdq7RGoKEeLxryxAckCtSnPf"
 > 
 > —— docs/202305/20230516_074.md
 

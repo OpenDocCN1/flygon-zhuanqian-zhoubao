@@ -1,4 +1,5 @@
 # 拆了50个prompt，我找到了普通人可以掌握的伪代码prompt技巧
+作者：龙哥
 
 最近AI圈有两个prompt特别出圈：一个是国外大神的superprompt，一个是李继刚的汉语新解。尤其是汉语新解，效果惊艳，我刷到后当场收藏，玩得不亦乐乎。![](img/49e65a5256bb038374ce65436845cd4e.png)![](img/c8950d6ae8a46ad51ebeb0d2f8a95e2c.png)![](img/22149e8e875135b39dfc9ca2812ca7d0.png)![](img/7479c35b3264dffcf1db577ad87de35e.png)![](img/a0c82c382fbfb80f575ea6bb659364db.png)
 

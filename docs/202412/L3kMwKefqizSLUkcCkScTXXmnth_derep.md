@@ -1,4 +1,5 @@
 # 以小说 AI 工作流为切口，Cursor 与 Windsurf 我为何站队 Cursor（重写版）
+作者：龙哥
 
 
 

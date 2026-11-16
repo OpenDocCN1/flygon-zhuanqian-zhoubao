@@ -185,7 +185,6 @@
 +   [98后河北小村青年：从辍学到月入数万的自我迭代笔记](HwIpdn7mVoBc24xPs13cVTQtnzf_derep.md)
 +   [【洞察】ChatGPT 开放插件后，搜索入口或迎来新变局](IkKOdu4oloVj41xpQ60c333qnoh_derep.md)
 +   [地表最强的小红书无货源电商【保姆级教程】，小白也可以月入2w+](JJQ0dfe6ho2qh7xalBXc3AG6nAb_derep.md)
-+   [0成本起盘小红书付费社群，一个月变现8万+的实操复盘](K4zfd2djsoEAdWxTaXrceSf9nLf_derep.md)
 +   [不写代码，也能把 GPT 接口接入业务：一套能提效、能变现的实操参考](KVYSdKgmIoQxCLxdIkrcKW0Snze_derep.md)
 +   [AI绘画，从随机出图到随心定制](KfrYdaWSTobevfxC0NscSPzxnMe_derep.md)
 +   [靠小程序躺赚一年，我到底经历了什么？](L8sxdC6wYorZO1xVgNbc39L4nvf_derep.md)

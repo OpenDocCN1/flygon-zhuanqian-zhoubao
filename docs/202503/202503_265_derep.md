@@ -1,4 +1,5 @@
 # 手里攥着一个 Manus 内测码，到底该怎么玩才值钱？
+作者：龙哥
 
 原思路参考：`www.yuque.com/for_lazy/zhoubao/rlsciw889brp3v6f`
 

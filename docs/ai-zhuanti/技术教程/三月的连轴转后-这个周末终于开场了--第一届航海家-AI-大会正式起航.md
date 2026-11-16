@@ -1,4 +1,5 @@
 # 三月的连轴转后，这个周末终于开场了——第一届航海家 AI 大会正式起航
+作者：龙哥
 
 原文：[`www.yuque.com/for_lazy/zhoubao/vv6357tuwu7gdin5`](https://www.yuque.com/for_lazy/zhoubao/vv6357tuwu7gdin5)
 

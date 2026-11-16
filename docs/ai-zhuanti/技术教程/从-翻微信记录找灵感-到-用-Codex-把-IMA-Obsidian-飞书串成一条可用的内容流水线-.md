@@ -1,4 +1,5 @@
 # 从「翻微信记录找灵感」到「用 Codex 把 IMA、Obsidian、飞书串成一条可用的内容流水线」
+作者：龙哥
 
 260804 副业SC 精华
 
@@ -12,7 +13,6 @@
 
 知识库版：
 
-https://my.feishu.cn/wiki/space/7668857880593829100?ccm_open_type=lark_wiki_spaceLink&open_tab_from=wiki_home
 
 ⬇⬇先看几个阅览图，更有感觉知道接下来要说什么、做什么！
 

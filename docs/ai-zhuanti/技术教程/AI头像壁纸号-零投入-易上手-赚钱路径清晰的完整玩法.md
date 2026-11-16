@@ -1,4 +1,5 @@
 # AI头像壁纸号，零投入、易上手、赚钱路径清晰的完整玩法
+作者：龙哥
 
 先聊点背景：我是龙哥，做内容行业很多年，现在也在AI方向上持续实践。我的历史资料都在公众号「吴东子AI」里，这篇文章也会同步收录。
 
@@ -268,6 +269,3 @@ https://discord.com/api/oauth2/authorize?client_id=1090660574196674713&permissio
 
 我是吴东子，坚持用讲给奶奶听的方式，分享能落地的实操内容。下次见。
 
-素材来源：https://ry5hwpuf7b.feishu.cn/docx/PxUIdhkj1oT256xg3gFcScIZnn6
-
-更多内容：https://ry5hwpuf7b.feishu.cn/wiki/space/7283841978071072772?ccm_open_type=lark_wiki_spaceLink

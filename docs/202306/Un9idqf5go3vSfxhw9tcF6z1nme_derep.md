@@ -1,4 +1,5 @@
 # AI孙燕姿刷屏全网？这份手把手教程，让你也能拥有“AI分身”唱任何歌！
+作者：龙哥
 
 大家好，我依然是那个爱讲大白话的吴东子，继续用最接地气的方式，带大家上手能落地的AI玩法。所有资料我都整理在👸号「吴东子AI」里了，有需要直接去拿。
 
@@ -419,5 +420,3 @@ loss 在 10 多：算是比较理想的好模型
 链接：https://pan.baidu.com/s/1plB1sdKpzvnf_m8ZiDE-3Q?pwd=0g1q
 
 提取码：0g1q
-
-吴东子AI账号简介：https://ry5hwpuf7b.feishu.cn/wiki/space/7283841978071072772?ccm_open_type=lark_wiki_spaceLink

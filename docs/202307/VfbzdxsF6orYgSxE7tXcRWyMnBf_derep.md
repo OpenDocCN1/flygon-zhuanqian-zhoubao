@@ -1,8 +1,9 @@
 # 《爆肝7天！AI创意字终极攻略，光影、隐藏、嵌入、海报4种创意字全拆解！》
+作者：龙哥
 
 爆肝7天，我总算把AI创意字的4种玩法摸透了：光影、隐藏、嵌入、海报，一篇讲完
 
-大家好，我是吴东子。
+大家好，我是龙哥。
 
 AIGC迭代越来越快，AI创意字这阵风也吹得越来越猛。我干脆闭关一周，把所有主流玩法从头到尾试了一遍，最后沉淀出一套傻瓜式流程。只要跟着“基础图→大模型→提示词→ControlNet”这个顺序走，上面的效果你也能做出来。需要用到的模型文件，我都打包在文末网盘了，不用自己翻遍全网找。
 
@@ -128,5 +129,3 @@ The highest quality, masterpiece, ultimate detail,
 
 网盘链接：https://pan.baidu.com/s/11p8zSDRs5XLgQPSqkcqe-Q?pwd=wdz6
 提取码：wdz6
-
-账号简介：https://ry5hwpuf7b.feishu.cn/wiki/space/7283841978071072772?ccm_open_type=lark_wiki_spaceLink

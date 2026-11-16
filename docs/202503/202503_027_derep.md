@@ -1,4 +1,5 @@
 # 把 AI 拆到零件，会发现你在偷偷训练自己
+作者：龙哥
 
 原文：[`www.yuque.com/for_lazy/zhoubao/mxgsogez1qbzg4ds`](https://www.yuque.com/for_lazy/zhoubao/mxgsogez1qbzg4ds)
 

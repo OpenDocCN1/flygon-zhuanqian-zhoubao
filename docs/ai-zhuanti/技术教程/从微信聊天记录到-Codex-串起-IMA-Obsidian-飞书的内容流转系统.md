@@ -1,4 +1,5 @@
 # 从微信聊天记录到 Codex 串起 IMA、Obsidian、飞书的内容流转系统
+作者：龙哥
 
 260804 副业SC 精华
 
@@ -12,7 +13,6 @@
 
 知识库版：
 
-https://my.feishu.cn/wiki/space/7668857880593829100?ccm_open_type=lark_wiki_spaceLink&open_tab_from=wiki_home
 
 ⬇⬇先看几个阅览图，更有感觉知道接下来要说什么、做什么！
 
@@ -741,7 +741,6 @@ IMA 原文 → Obsidian 标准素材卡 → 15 个可追溯语料块 → 5 个�
 
 知识库版：
 
-https://my.feishu.cn/wiki/space/7668857880593829100?ccm_open_type=lark_wiki_spaceLink&open_tab_from=wiki_home
 
 ————分割线————
 

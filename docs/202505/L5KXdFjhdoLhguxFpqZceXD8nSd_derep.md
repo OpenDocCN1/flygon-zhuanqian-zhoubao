@@ -1,8 +1,9 @@
 # 30天入门YouTube美元项目：一份面向新手的AI工具与自动化实践指南
+作者：龙哥
 
 
 
-大家好，我是越越。
+大家好，我是龙哥。
 
 我曾发布过多篇龙哥盟精华内容，也获得过“资深传术师”的称号。不过，我并不是程序员，没有计算机科班经历，也没有编程基础。
 
@@ -85,7 +86,6 @@ https://www.yingdao.com/client-download/
 
 先访问：
 
-https://open.feishu.cn/app?lang=zh-CN
 
 登录飞书账号，并创建一个新的企业应用。
 
@@ -114,7 +114,6 @@ https://open.feishu.cn/app?lang=zh-CN
 例如链接格式如下：
 
 ```text
-https://txt6wm3b04b.feishu.cn/base/*************?from=from_copylink
 ```
 
 需要提取的是`base/`与`?from`之间的字符，这部分就是多维表格ID。
@@ -125,11 +124,9 @@ https://txt6wm3b04b.feishu.cn/base/*************?from=from_copylink
 
 若遇到飞书权限问题，可访问：
 
-https://open.feishu.cn/
 
 如需处理节点转换问题，可查看：
 
-https://open.feishu.cn/document/server-docs/docs/wiki-v2/space-node/get_node?appId=cli_a784f92850bfd00b
 
 ### 4. 配置比特浏览器
 

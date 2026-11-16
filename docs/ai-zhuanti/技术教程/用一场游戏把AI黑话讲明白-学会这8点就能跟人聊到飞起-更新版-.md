@@ -1,4 +1,5 @@
 # 用一场游戏把AI黑话讲明白，学会这8点就能跟人聊到飞起【更新版】
+作者：龙哥
 
 版本号：v3.01
 
@@ -66,7 +67,6 @@
 
 【必修模块】预计 10min 搞定；【选修模块】预计 20min
 
-https://atbs4xk1uw.feishu.cn/sync/RxCFdGwLvsU3nHb3ZOfc0iilndh
 
 对照左侧目录看层级，思路会更顺
 

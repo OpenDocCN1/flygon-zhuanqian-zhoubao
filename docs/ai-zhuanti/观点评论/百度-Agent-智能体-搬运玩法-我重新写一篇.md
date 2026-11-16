@@ -1,4 +1,5 @@
 # 百度 Agent（智能体）搬运玩法，我重新写一篇
+作者：龙哥
 
 这套玩法最早是我三月份首发写的，后来被抄得面目全非。如果你刷到过同类内容，多半和我这篇有关。文档创建时间在后台摆着，谁先谁后很清楚。
 
@@ -54,7 +55,6 @@
 
 - 数据搜索：[数据搜索入口](http://ysxjjkl.souyisou.top/)
 
-- 日更文档：[飞书文档](http://bd555j4ed6.feishu.cn/docx/JCz6dJi5MoumfTxyOE5cxT9ZnQe)
 
 - 短剧搜索：[金山文档](http://www.kdocs.cn/wo/sl/v1or8Fq)
 

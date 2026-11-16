@@ -1,4 +1,5 @@
 # 用 RPA 实现 Amazon POST 的批量化推送 | AMZ 与 RPA
+作者：龙哥
 
 
 
@@ -112,7 +113,6 @@ imageassistant-batch-imag/dbjbempljhcmhlfpfacalomonjpalpko
 
 安装好上述软件和插件后，进入 POST 发布页面，确认店铺已开通。
 
-RPA 自动上传 POST 脚本：https://blbze7axys.feishu.cn/docx/doxcnidpwNGvhrnrk7aiDGTVUSf
 
 如果完全不懂，按截图步骤执行即可。有问题我后续可以录视频，或者直接远程一对一协助搭建。
 

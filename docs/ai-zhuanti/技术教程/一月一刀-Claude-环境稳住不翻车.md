@@ -1,4 +1,5 @@
 # 一月一刀，Claude 环境稳住不翻车
+作者：龙哥
 
 ## 一月一刀，Claude 环境稳住不翻车
 
@@ -122,7 +123,6 @@ Claude 确实好用，可对新手而言，最痛的不是会不会用，而是�
 
 **注意：野卡余额不能为 0，余额不足导致支付失败 2-3 次账号会被冻结。**
 
-买的不是完全独享地址，所以每次使用前建议先用 https://ipjiance.com/ 做个检测，没问题再用，有问题就换，[如何换，请看第五步](https://ipjiance.com/做个测试，没问题我们再用，有问题我们就换（[如何换，请看第五步])([`oxpszlsgr00.feishu.cn/docx/MS7xdMgCHolyD4xDwGIcCbQ2n2g#share-`](https://oxpszlsgr00.feishu.cn/docx/MS7xdMgCHolyD4xDwGIcCbQ2n2g#share-) GeWFdTICnotU27xv531cMuZhnde))。检测方法前面已讲，这里不再重复。
 
 ### 第四步，把地址接入指纹浏览器
 

@@ -1,8 +1,9 @@
 # 复制一下，内容自动落进表格：我用n8n搭的零阻力灵感收集方案
+作者：龙哥
 
 
 
-先简单交代背景：我是富百，坐标赚钱，平时也在YouTube的“深海圈”当教练，做自动化相关的事，最排斥低效重复。
+先简单交代背景：我是龙哥，坐标赚钱，平时也在YouTube的“深海圈”当教练，做自动化相关的事，最排斥低效重复。
 
 前两天龙哥正好发布了n8n的超级标。而我那段时间一直被同一个需求挠心：灵感总是存不下来。场景你大概率熟——
 
@@ -97,7 +98,6 @@ Webhook换个通俗的说法：它是API的一种被动变体。某系统遇到�
 配置如下：
 
 - Method: POST
-- 请求地址：https://open.feishu.cn/open-apis/auth/v3/tenant_access_token/internal
 - 打开Send Headers，Specify Headers选Using Fields Below，然后在Header Parameters里增加一项：
   - Name: Content-Type
   - Value: application/json; charset=utf-8
@@ -111,7 +111,6 @@ Webhook换个通俗的说法：它是API的一种被动变体。某系统遇到�
 
 ![](img/f3d16992afcbde142e5e96c18d5f70b8.png)
 
-1. 访问 https://open.feishu.cn/app?lang=zh-CN ，新建一个应用。
 
 ![](img/4521baf1e4f85cf05ccf8d47d464cc05.png)
 
@@ -135,7 +134,6 @@ Webhook换个通俗的说法：它是API的一种被动变体。某系统遇到�
 6. 创建多维表格。注意一定建在“我的文件夹”路径下；默认落在“我的文档库”里的是电子表格，链接格式和接口方式都不一样。
 
 ```
-https://oet21ud8a2.feishu.cn/base/Z9Hpbss2bam09TsXmSJc75Uynk8?table=tblelis3dV08cUW8&view=veww29LK0a
 ```
 
 复制地址时检查一下，链接应形如样例。其中base和table后面那两段值，后面配置时要用。
@@ -154,7 +152,6 @@ https://oet21ud8a2.feishu.cn/base/Z9Hpbss2bam09TsXmSJc75Uynk8?table=tblelis3dV08
 
 - Method: POST
 - 请求地址：填你自己的多维表格地址，例如：
-  https://open.feishu.cn/open-apis/bitable/v1/apps/KUJRbQmP7a5Sq0sQ1KKcLGQqnkf/tables/tbl3OYCpUshsPeZg/records
   （示例中的app和table参数，请替换成自己的）
 - 打开Send Headers，按Using Fields Below方式增加两项：
   - Name: Authorization，Value: Bearer {{ $json.tenant_access_token }}

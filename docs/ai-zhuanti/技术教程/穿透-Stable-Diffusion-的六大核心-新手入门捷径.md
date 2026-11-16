@@ -1,4 +1,5 @@
 # 穿透 Stable Diffusion 的六大核心，新手入门捷径
+作者：龙哥
 
 ## Stable Diffusion 六脉神剑，小白的福音
 

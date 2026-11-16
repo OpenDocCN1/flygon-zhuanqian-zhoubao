@@ -1,4 +1,5 @@
 # 我把 toolify.ai 的 AI 工具集合，改造成了一个独立的 AI 产品解读站
+作者：龙哥
 
 先看一下最终呈现的效果：https://toolify-insights.online/
 

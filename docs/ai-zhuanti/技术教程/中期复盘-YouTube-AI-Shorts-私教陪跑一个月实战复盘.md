@@ -1,4 +1,5 @@
 # 中期复盘｜YouTube AI Shorts 私教陪跑一个月实战复盘
+作者：龙哥
 
 大家好，我是 Gary 曹淦，龙哥盟 YouTube Shorts 航海项目的私教陪跑教练，主攻 AI 内容出海这条赛道。
 

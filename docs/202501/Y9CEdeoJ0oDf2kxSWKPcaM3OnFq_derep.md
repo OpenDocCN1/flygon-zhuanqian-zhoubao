@@ -1,4 +1,5 @@
 # Cursor费用太贵？手把手教你配置开源平替方案
+作者：龙哥
 
 **Cursor太贵又不够稳？试试这套开源的Roo-Cline + DeepSeek 平替方案**
 

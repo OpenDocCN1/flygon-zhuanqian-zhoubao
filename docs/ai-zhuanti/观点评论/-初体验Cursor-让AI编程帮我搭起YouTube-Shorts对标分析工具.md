@@ -1,4 +1,5 @@
 # 【初体验Cursor】让AI编程帮我搭起YouTube Shorts对标分析工具
+作者：龙哥
 
 # 开场白
 

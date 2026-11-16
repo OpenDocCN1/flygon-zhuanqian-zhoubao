@@ -1,4 +1,5 @@
 # 云中江树 | LangGPT 社区年度分享：AI 交流的艺术
+作者：龙哥
 
 ![](img/zhuanqian_76f072ba4e562c9041f098fdf42c0ae1.png)
 

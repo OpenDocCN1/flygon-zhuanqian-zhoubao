@@ -1,4 +1,5 @@
 # 器 | 从学业到投资，一站式效率工具箱
+作者：龙哥
 
 
 
@@ -14,7 +15,7 @@
 
 * * *
 
-我是超人。创业这16年里，我一直有“收藏工具”的嗜好，也攒下过不少名单。要不要公开，其实犹豫了很久。
+我是龙哥。创业这16年里，我一直有“收藏工具”的嗜好，也攒下过不少名单。要不要公开，其实犹豫了很久。
 
 犹豫的原因有两个：早期收录的很多链接时效性有限，有些站早就关闭或失效；再加上当时最热门的内容创作和 AI 类工具，我还没有系统整理进去。
 
@@ -140,7 +141,6 @@ https://zh.annas-archive.org/
 
 我用飞书做知识管理，而飞书内的“飞行社”板块汇集了大量官方和第三方产出的高质量知识库、模板、课程，非常值得翻一翻。
 
-入口：https://www.feishu.cn/community
 
 **秘塔AI·今天学点啥** 👍
 
@@ -291,7 +291,6 @@ https://zh.annas-archive.org/
 推荐理由：入门者能找到上路路径，资深玩家也能淘到干货～
 网址：
 https://www.waytoagi.com/zh
-https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e
 
 （2）arXiv（AI 相关领域）
 AI 学术论文的首发阵地，机器学习、NLP、计算机视觉等方向的新成果多半先在此露面。
@@ -355,9 +354,7 @@ Coursera：https://www.coursera.org/learn/generative-ai-for-everyone
 * 适配多规模团队：免费版已能满足中小团队，企业版提供更强安全管控与定制服务。
 * 持续迭代与生态扩展：依托字节技术资源更新快，并可集成第三方应用如薪酬计算、CRM 等。
 
-官网：https://www.feishu.cn
 国际版 Lark：https://www.larksuite.com
-飞书知识库常见问题：https://open.feishu.cn/document/server-docs/docs/wiki-v2/wiki-qa
 
 ![](img/edfb25dc5bd89f85830ce0381545b9b1.png)
 
@@ -583,7 +580,6 @@ AI 时间管理追踪软件。
 - **讯飞会议**：适合会议场景，实时显示字幕和翻译，结束后自动产出纪要。入口：meeting.iflyrec.com
 - **麦耳会记**：会议助手，集合语音转文字、字幕同传、智能摘要。入口：work.duiopen.com
 - **通义浏览器插件**：开会时实时转写和翻译，会后自动汇总议题、发言人要点与待办事项，并可一键分享给同事。入口：tingwu.aliyun.com
-- **飞书妙记**：把视频会议转成可搜索、可整理、可翻译的逐字稿，支持评论和 @ 同事，自动生成会议纪要与任务清单，让复盘效率大增。入口：feishu.cn/product/minutes
 
 ### 流程编排
 
@@ -1741,7 +1737,6 @@ FlowUs
 访问地址：https://www.azz.net/
 
 小红圈
-做付费社群的小工具，依托🛰️生态、小程序和 App 来运营付费圈子。
 访问地址：https://www.red-ring.cn/
 
 荔枝微课

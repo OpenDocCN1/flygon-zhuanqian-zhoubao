@@ -1,4 +1,5 @@
 # 电商创业思路图谱＋义乌机遇实地自检（星球版）
+作者：龙哥
 
 
 
@@ -370,7 +371,6 @@ https://www.bilibili.com/video/BV1uh4y1E7L7/?vd_source=cd57d3a123a254526b23c45b1
 
 主播学习资料在这里，请挨个打开：
 
-https://vow6kdbiak.feishu.cn/drive/folder/KOKbfXw2Yl3jO5dLhoScRNMXnfg?from=from_copylink
 
 ![](img/5335ca38187f33134b5051b634e024d9.png)
 

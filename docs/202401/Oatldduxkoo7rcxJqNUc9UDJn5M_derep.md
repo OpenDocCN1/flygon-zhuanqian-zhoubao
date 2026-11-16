@@ -1,4 +1,5 @@
 # 📕“低粉爆款”自动化采集：影刀手机RPA全流程拆解
+作者：龙哥
 
 很多人问📕选品能不能自动化？我的答案是：可以。用影刀RPA的“手机自动化”能力，可以把“搜索关键词 → 遍历商品 → 判断销量和粉丝量 → 分享到🛰️群”这条链路完整跑起来。下面是我整理的项目笔记，尽量按模块拆开讲，方便直接照做。
 
@@ -198,14 +199,9 @@
 - 影刀IT速成课程（上）：编程入门到精通，全程详解（B站可搜）
 - adb 命令列表：https://yingdao.yuque.com/gikgtl/cco6gf/us9i3c2tkixdzklo#vvuP6
 - mac 偏移：https://www.yuque.com/pengzhiqiang999/xiaokenai/fubpdho05yckgikf?singleDoc#
-- 飞书开放平台：https://open.feishu.cn/app?lang=zh-CN
-- 自建应用审核：https://open.feishu.cn/document/best-practices/intro-to-custom-app-review
-- 飞书开发文档：https://open.feishu.cn/document/home/index
 - UiBot初级开发指南：https://docs.uibot.com.cn/guide/d1/?0.7032214474897422
 - UiBot中级开发指南：https://docs.uibot.com.cn/guide/d2/?0.1287339022662165
 - UiBot命令手册：https://documents.laiye.com/rpa-command-manual/docs/
 - UiBot教程汇总：https://forum.laiye.com/thread-50.htm?tdsourcetag=s_pcqq_aiomsg
 - XML教程：https://www.w3school.com.cn/xml/index.asp
 - XPath基础知识：https://www.w3school.com.cn/xpath/index.asp
-
-原始项目笔记出处：https://ivbbfbvrsr5.feishu.cn/docx/Oatldduxkoo7rcxJqNUc9UDJn5M

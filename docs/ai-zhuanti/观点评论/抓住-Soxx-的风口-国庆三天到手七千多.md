@@ -1,4 +1,5 @@
 # 抓住 Soxx 的风口，国庆三天到手七千多
+作者：龙哥
 
 ## 抓住 Soxx 的风口，国庆三天到手七千多
 
@@ -12,7 +13,6 @@
 
 **风口** 本质上就是供求极度不对等的窗口。需求刚起，供给没跟上，谁先嗅到、谁先上线，就能掌握定价权。
 
-**飞书链接：**[`rd78y95zlu.feishu.cn/wiki/D2Hpwqj7OiU2xoklFdOcS447nOV?from=from_copylink`](https://rd78y95zlu.feishu.cn/wiki/D2Hpwqj7OiU2xoklFdOcS447nOV?from=from_copylink)
 
 ![](img/5f66bf78bbddec5d1f3422e201a9325e.png "None")
 

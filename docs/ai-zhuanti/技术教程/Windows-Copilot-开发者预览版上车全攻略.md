@@ -1,4 +1,5 @@
 # Windows Copilot 开发者预览版上车全攻略
+作者：龙哥
 
 今年五月底的 Build 大会上，微软官宣 Windows Copilot 要来了，升级后的系统将自带 GPT 小助手，日后用 AI 几乎像伸手拿筷子一样顺手。
 

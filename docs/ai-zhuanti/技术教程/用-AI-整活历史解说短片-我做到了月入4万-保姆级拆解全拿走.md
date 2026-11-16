@@ -1,4 +1,5 @@
 # 用 AI 整活历史解说短片，我做到了月入4万，保姆级拆解全拿走
+作者：龙哥
 
 ## 借助 AI 做历史解说大片，单月变现 4 万，附保姆级教程
 
@@ -116,7 +117,6 @@ AI 一次就给了两张成品，人物神韵和整体氛围都踩在了预期�
 
 今天的拆解就到这。
 
-文中提到的AI智能体提示词和各种工具清单，我都整理到同一份文档里了：[`svj4gxvm0v3.feishu.cn/docx/LgvSdKE8qodsVtxQy87cc2UZnwe?from=from_copylink`](https://svj4gxvm0v3.feishu.cn/docx/LgvSdKE8qodsVtxQy87cc2UZnwe?from=from_copylink)
 
 我是高鹏，深耕网创9年，这是我拆解的第695个可落地的项目玩法，更多玩法，欢迎交流~
 

@@ -1,4 +1,5 @@
 # 数字人直播到底能不能玩？从技术到实操全拆解
+作者：龙哥
 
 
 
@@ -81,7 +82,6 @@
 
 关于怎么把绿幕抠干净、光线如何打，之前赚钱11月航海课上教练平头哥有详细拆解，可参考：
 11月绿幕航海-如何打造一个优质直播间 by 平头哥
-https://shengcaiyoushu01.feishu.cn/minutes/obcnzicw4u5mn7219568ants
 
 #### 本地生活场景更适合上数字人
 
@@ -109,7 +109,6 @@ https://shengcaiyoushu01.feishu.cn/minutes/obcnzicw4u5mn7219568ants
 
 如果目标是普通商品带货，违规风险会明显上升。抖音对无人直播的底层审核逻辑和绿幕循环查重的关系，可以参考我之前在赚钱11月航海的分享，这里就不重复了。
 11月抖音绿幕航海-半无人直播进阶玩法 by Erik
-http://shengcaiyoushu01.feishu.cn/minutes/obcn2kqrn363e886931ake49
 
 数字人直播容易违规的核心原因就是视频循环被系统判定重复。
 

@@ -1,4 +1,5 @@
 # 提示词太多翻到眼花？我花10个小时搞了个浏览器插件一劳永逸
+作者：龙哥
 
 作为一名每天靠AI处理各种实际需求的自媒体人，我的习惯是每遇到一类场景，就专门打磨一条专属提示词。
 
@@ -73,15 +74,12 @@
 
 【浏览器打开】插件安装地址：https://chromewebstore.google.com/detail/%E6%8F%90%E7%A4%BA%E8%AF%8D%E7%AE%A1%E7%90%86%E5%8A%A9%E6%89%8B/jjgllljbegnmmpociokklpdgeiloffeh?hl=zh-CN&utm_source=ext_sidebar
 
-【浏览器打开】飞书开发者后台入口：https://open.feishu.cn/app?lang=zh-CN
 
 【飞书粘贴用】权限代码：base:record:retrieve,bitable:app,bitable:app:readonly,offline_access
 
 【飞书粘贴用】安全设置回调地址：https://jjgllljbegnmmpociokklpdgeiloffeh.chromiumapp.org/callback
 
-【浏览器打开】多维表格模板：https://t16jzwqrzjx.feishu.cn/base/MBhabsTnzae3ZlsUMpscSnRJncb?table=tblY3HLPDgSpkvOw&view=vewEgW3RpO
 
-不愿意看视频的朋友，也可以参考这份带截图的文档教程：https://t16jzwqrzjx.feishu.cn/docx/J4nIdQjbDoa0OxxAvXIcAtlsnIn
 
 ## 十小时开发，我对AI写代码这件事有了新的体会
 

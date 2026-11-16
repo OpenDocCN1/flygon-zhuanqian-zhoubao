@@ -1,4 +1,5 @@
 # 别死磕 Obsidian 了！飞书 CLI 接入 Codex，AI 在你睡觉时帮你打理知识库
+作者：龙哥
 
 260522 · 副业 · SC · 精华
 
@@ -44,7 +45,6 @@ codex 02:52
 
 # 飞书
 
-帮我安装飞书 CLI: https://open.feishu.cn/document/no_class/mcp-archive/feishu-cli-installation-guide.mdPlain
 
 # Lark（海外版本）
 
@@ -124,19 +124,14 @@ codex 02:52
 
 官方入口：
 
-- [飞书开放平台](https://open.feishu.cn/) - 开发者后台 / 我的应用
 
-- [飞书管理后台](https://open.feishu.cn/)
 
 参考官方说明：
 
-- [认识与配置飞书集成（飞书官方）](https://open.feishu.cn/)
 
-- [飞书接入 OpenClaw 的安全防护与治理指南（飞书官方）](https://open.feishu.cn/)
 
 ###### 一、先创建飞书机器人应用
 
-1. 打开 [开发者后台](https://open.feishu.cn/)，用你的飞书账号登录。
 
 2. 点击 **创建企业自建应用**。
 

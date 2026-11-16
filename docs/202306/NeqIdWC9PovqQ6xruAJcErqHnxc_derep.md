@@ -1,4 +1,5 @@
 # 《ControlNet 完全掌握手册》
+作者：龙哥
 
 
 
@@ -802,5 +803,3 @@ AI 技术仍在快速迭代，未来模型会更多，最终目标或许是让�
 
 网盘链接：https://pan.baidu.com/s/1EFXv7dgWu2vIH86gwSpfkQ?pwd=4dxj
 提取码：4dxj
-
-吴东子AI账号简介：https://ry5hwpuf7b.feishu.cn/wiki/space/7283841978071072772?ccm_open_type=lark_wiki_spaceLink

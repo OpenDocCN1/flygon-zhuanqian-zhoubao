@@ -1,4 +1,5 @@
 # 从 Dify 1.0 的翻车到 Manus 爆火，AI Agent 这波演进到底在变什么
+作者：龙哥
 
 ## 从 Dify 到 Manus，这次 AI Agent 的变革给我们带来了哪些启发
 

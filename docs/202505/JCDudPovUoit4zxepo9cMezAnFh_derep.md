@@ -1,4 +1,5 @@
 # 如何在扣子里快速搭出可直接变现的工作流？
+作者：龙哥
 
 
 
@@ -80,7 +81,6 @@ requests@2.32.3
 
 然后粘贴 Python 代码，代码和可复制内容都在新的飞书文档里。
 
-完整代码地址：https://vchmk6v2g8.feishu.cn/docx/YWZxd2gS2o1ewzxUAojcyA22nNg
 
 对应章节：1.扣子插件部分代码
 

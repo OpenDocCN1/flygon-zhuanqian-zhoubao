@@ -1,10 +1,9 @@
 # 从「翻🛰️记录找灵感」到「用 Codex 把 IMA、Obsidian、飞书串成一条可用的内容流水线」
+作者：龙哥
 
 260804 副业SC 精华
 
-整理：👸号懒人搜索，懒人专属群精选
 
-懒人🛰️：lazyhelper1
 
 这不是一份单纯的工具清单。
 
@@ -16,7 +15,6 @@
 
 知识库版：
 
-https://my.feishu.cn/wiki/space/7668857880593829100?ccm_open_type=lark_wiki_spaceLink&open_tab_from=wiki_home
 
 ⬇⬇先看几个阅览图，更有感觉知道接下来要说什么、做什么！
 

@@ -1,4 +1,5 @@
 # B 站好物带货全流程，如何借助 AI 提升效率？
+作者：龙哥
 
 做 B 站好物内容，最耗时间的往往不是某一个环节，而是从选品、写稿，到制作、发布、复盘的一整套流程。
 
@@ -18,9 +19,7 @@
 
 我自己还整理了几十套适用于 B 站好物带货的 PPT 模板，可以直接复制使用：
 
-[`ai.feishu.cn/wiki/UQSewnieXiljVJkZbA0cmxvtnMd`](https://ai.feishu.cn/wiki/UQSewnieXiljVJkZbA0cmxvtnMd)
 
-[`ai.feishu.cn/wiki/JGEqwG7jti4rzVk45kgcNuzvnld`](https://ai.feishu.cn/wiki/JGEqwG7jti4rzVk45kgcNuzvnld)
 
 ## 三、让 AI 帮忙处理配音
 

@@ -1,4 +1,5 @@
 # 用 AI 让经典影视角色张嘴说话，对口型二创新玩法拆解
+作者：龙哥
 
 想让老电影里的明星、经典剧中的人物说出你想让他们说的话？现在用 AI 对口型就能轻松实现，而且门槛很低。
 
@@ -10,6 +11,5 @@
 
 2、实操演示教程：链接: https://pan.baidu.com/s/151nGAMZ51zqfaWmmWmQLBw?pwd=92xf 提取码: 92xf
 
-素材来源：https://svj4gxvm0v3.feishu.cn/docx/EcNhdm2dWoxc9wxLSuccpMaWnX4
 
 这里是【高鹏圈】，后续还有更多 AI 玩法和变现项目，欢迎来聊聊~

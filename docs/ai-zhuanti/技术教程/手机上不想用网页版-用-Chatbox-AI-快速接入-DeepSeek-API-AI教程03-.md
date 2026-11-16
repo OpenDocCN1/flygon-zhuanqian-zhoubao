@@ -1,4 +1,5 @@
 # 手机上不想用网页版？用 Chatbox AI 快速接入 DeepSeek API【AI教程03】
+作者：龙哥
 
 上篇带大家把 DeepSeek API 接入了 Cherry Studio，但那套方案目前只支持电脑端，手机党想随时随地聊还真不方便。所以这篇就安排一个手机方案：通过 Chatbox AI 完成配置，从下载到跑通，全程手机操作。
 

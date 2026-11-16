@@ -1,4 +1,5 @@
 # AI编程的个人感悟：先造一些自己用的东西
+作者：龙哥
 
 ![](img/zhuanqian_8472bc83398caea67b0fe4942fa417ac.png)
 

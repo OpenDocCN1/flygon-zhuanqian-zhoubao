@@ -1,4 +1,5 @@
 # 用 Cursor 把群聊问答变成可复用知识库：零基础做一次自动化总结
+作者：龙哥
 
 ## (精华帖)(32 赞)零基础做软件应用：用 Cursor 总结群聊问题的实践与思考
 
@@ -339,7 +340,6 @@ Rand0mWalk : 我記得以前有幾期的航海是有百問百答欄目的，誌�
 
 龙哥 : 有具體篩選過後的 excel 文檔嗎，我想看看最終效果怎麼樣
 
-彩笺 : [`gcnig3i8358l.feishu.cn/wiki/DqdBwmVhJiwIy0kFlugcvvVfnFd`](https://gcnig3i8358l.feishu.cn/wiki/DqdBwmVhJiwIy0kFlugcvvVfnFd)
 
 俠狼 : 啊，我理解錯需求了😂我以為是要實時導出，且不能有誤。
 

@@ -1,4 +1,5 @@
 # 航海手记 | 龙哥盟 · 社群发起人课程复盘
+作者：龙哥
 
 
 
@@ -313,7 +314,6 @@ https://search01.shengcaiyoushu.com/mobile/activity/samecity/deatil?id=468
 
 主播：条形马；日期：9月5日；主题《为什么要发起社群？复利杠杆解释器》
 
-https://shengcaiyoushu01.feishu.cn/minutes/obcnd5g7weaer81xeqy9x624?from=from_copylink
 
 2023年9月5日 23:01 · 时长1小时40分17秒
 

@@ -1,4 +1,5 @@
 # 零基础实操：用 n8n + RSS + 飞书搭一个跨平台热点选题库
+作者：龙哥
 
 前几期我已经手把手带大家把 n8n 部署好、把公众号自动发布的流程搭起来、甚至连自动排版都配完了。没跟上的同学可以翻回之前的长文，都是上千字的实操拆解，建议先收藏再慢慢练。
 
@@ -132,7 +133,6 @@ https://www.npmjs.com/package/n8n-nodes-feishu-lite
 
 为了让 n8n 能自由创建和编辑表格，还需要给应用分配文件夹权限，具体操作见官方文档：
 
-https://open.feishu.cn/document/faq/trouble-shooting/how-to-add-permissions-to-app
 
 ### 3、创建每日表格
 

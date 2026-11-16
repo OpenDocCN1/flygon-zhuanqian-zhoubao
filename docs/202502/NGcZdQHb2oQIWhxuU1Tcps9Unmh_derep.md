@@ -1,10 +1,11 @@
 # 如何用AI工具撬动2000+智能体订单
+作者：龙哥
 
 从200块到2000+：一个产品经理靠智能体接单的“咸鱼”翻身记
 
 2024年下半年，航海计划里新增了“扣子智能体”这个方向，我当时手头事比较多，错过了报名。私底下自己瞎鼓捣过一阵，确实觉得效率能提上来不少，但始终没想明白怎么靠它赚钱。直到有天刷风向标，看到圈友分享的coze变现案例，才一拍大腿：原来闲鱼上真的是“万物皆可卖”。
 
-我是产品经理出身，写代码基本算是门外汉，但搞逻辑、搭架构算是我的强项；再加上大模型能帮忙写代码，我毅然决然踏上了智能体接单这条路。
+我是龙哥，写代码基本算是门外汉，但搞逻辑、搭架构算是我的强项；再加上大模型能帮忙写代码，我毅然决然踏上了智能体接单这条路。
 
 刚起步那会儿，一点经验都没有，只敢接那种特别小、特别简单的需求，稍微复杂一点就心里发怵。报价更是低到尘埃里，妥妥的“互联网牛马”。当时想法很简单：边做边学，就当积累经验。
 
@@ -56,7 +57,6 @@ def handler(args: Args[Input])->Output:
         返回:
         dict: 返回包含 'app_access_token' 和 'tenant_access_token' 键值对的字典，如果请求失败，字典中的 'msg' 键对应错误描述信息
         """
-        url = "https://open.feishu.cn/open-apis/auth/v3/app_access_token/internal"
         headers = {
             "Content-Type": "application/json; charset=utf-8"
         }
@@ -107,7 +107,6 @@ def handler(args: Args[Input]) -> Output:
     def query_feishu_bitable_records(app_token, table_id, access_token, user_id_type="open_id", page_token=None,
                                      page_size=20, view_id=None, field_names=None, sort=None, filter_info=None,
                                      automatic_fields=False):
-        url = f"https://open.feishu.cn/open-apis/bitable/v1/apps/{app_token}/tables/{table_id}/records/search"
         headers = {
             "Authorization": f"Bearer {access_token}",
             "Content-Type": "application/json; charset=utf-8"
@@ -157,7 +156,6 @@ def handler(args: Args[Input]) -> Output:
 ```
 def handler(args: Args[Input]) -> Output:
     def add_feishu_bitable_record_batch(app_token, table_id, access_token, records=None):
-        url = f"https://open.feishu.cn/open-apis/bitable/v1/apps/{app_token}/tables/{table_id}/records/batch_create"
         headers = {
             "Authorization": f"Bearer {access_token}",
             "Content-Type": "application/json; charset=utf-8"
@@ -236,7 +234,6 @@ def handler(args: Args[Input])->Output:
     def batch_get_records(app_token, table_id, access_token, record_ids):
 
         # 构建请求 URL
-        url = f"https://open.feishu.cn/open-apis/bitable/v1/apps/{app_token}/tables/{table_id}/records/batch_get"
         # 构建请求头
         headers = {
             "Authorization": f"Bearer {access_token}",

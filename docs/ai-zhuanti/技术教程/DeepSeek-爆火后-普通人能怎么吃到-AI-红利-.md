@@ -1,4 +1,5 @@
 # DeepSeek 爆火后，普通人能怎么吃到 AI 红利？
+作者：龙哥
 
 ## (精华帖)(115 赞)DeepSeek 爆火下，存在哪些机会？普通人如何抓住 AI 机遇分一杯羹？
 
@@ -12,7 +13,6 @@
 
 拆解的案例包括：AI 动态号、AI 工具测评号、AI 真人播报号、直播带课、互动直播收礼、AI+行业获客、AI 书单号、AI 正能量号、游戏科普、AI 公众号等。
 
-更好的阅读效果，可以跳转飞书：[`bh5pm72xfy.feishu.cn/docx/IA3JdxBkaoncA6xwqF4cS0ktnPh?from=from_copylink`](https://bh5pm72xfy.feishu.cn/docx/IA3JdxBkaoncA6xwqF4cS0ktnPh?from=from_copylink)
 
 * * *
 
@@ -20,7 +20,6 @@
 
 早在去年 7 月，我就在一篇结尾里点过 AI 的红利窗口与机会点，任何垂类都值得用 AI 全面重做一遍！
 
-文章链接：[23 岁赚到 100w，做互联网这十几年，我是如何一步一步成长起来的？](https://bh5pm72xfy.feishu.cn/docx/PQ96dC90Ao6FcJxlgBVcqZGEnaf)
 
 ![](img/63965f815acdf4846d99ece110612414.png "None")
 
@@ -196,7 +195,6 @@ AI 在知识整合和结构化输出上优势明显，如“一个人废掉的�
 
 说实话，工具不在多，顺手就行。国内能用、效果又好的，我先说三个：DeepSeek直接上官网 chat.deepseek.com，腾讯元宝在 yuanbao.tencent.com/chat，知乎直答是 zhida.zhihu.com。境外那些产品，懂的人早就自己在用了，这里就不啰嗦。这三款，除了DeepSeek，剩下两个可能你还没试过。
 
-给大家一个我自己的判断：国内内容质量最能打的地方，除了付费社群，基本就是微信公众号和知乎。但公众号是封闭的，外面搜不到里面的文，不过腾讯元宝能搜到；而知乎本来就是高质量内容的聚集地，自带优势。最关键的是，这俩平台现在都接入了DeepSeek的底层能力。
 
 ![](img/article-) images.zsxq.com/FuhfUCVRv0cAZ8sT1XITdEBFvKcY)![](img/article-) images.zsxq.com/FuNFq5-0qsL-Kk0kWGEYle8tff6a)
 

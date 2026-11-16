@@ -1,4 +1,5 @@
 # 一年做十二个产品，这位独立开发者把 AI 当成了印钞机
+作者：龙哥
 
 你听说过 Pieter Levels 吗？在 X 上，他就是那个靠一个人把公司玩转的“AI 创业样本”。一年之内上线十二个项目，不是噱头，是实打实的交付节奏。
 
@@ -30,7 +31,6 @@
 
 这就是 Pieter Levels 的“钞能力”拆解：一个人、一个笔记本、AI 当副驾，快速试错、快速变现。
 
-移步完整阅读： [`ry6uq5vtyu.feishu.cn/docx/MPF7d0TGHoST0nxXek1cSWXFn7g?from=from_copylink`](https://ry6uq5vtyu.feishu.cn/docx/MPF7d0TGHoST0nxXek1cSWXFn7g?from=from_copylink)[`ry6uq5vtyu.feishu.cn/docx/MPF7d0TGHoST0nxXek1cSWXFn7g?from=from_copylink`](https://ry6uq5vtyu.feishu.cn/docx/MPF7d0TGHoST0nxXek1cSWXFn7g?from=from_copylink)
 
 ![](img/66b1ea1c29f7b947b7f8a27978f49771.png "None")
 

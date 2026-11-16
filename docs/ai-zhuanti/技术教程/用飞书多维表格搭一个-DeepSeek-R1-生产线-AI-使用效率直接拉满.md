@@ -1,4 +1,5 @@
 # 用飞书多维表格搭一个 DeepSeek R1 生产线，AI 使用效率直接拉满
+作者：龙哥
 
 ## 喂饭级实操：飞书多维表格 x DeepSeek R1，让批量 AI 变成流水线
 
@@ -6,7 +7,7 @@
 
 日期：2025-02-10
 
-赚钱的朋友们好，我是 Orange，橘子汽水铺在负责内容。
+赚钱的朋友们好，我是 龙哥，橘子汽水铺在负责内容。
 
 今天带来的是一套真正能落地的 AI 效率方案，希望对大家日常工作有启发。
 
@@ -148,7 +149,6 @@
 
 赚钱的伙伴们可直接免费领取：
 
-[DeepSeek10 倍速使用模板](https://ya3vb88te2.feishu.cn/base/AwjqbTd7wacztfs7ScUcfTctn0c?&from=template_center&ccm_open_type=template_center)
 
 ![](img/7cad0c196dc3d1a679bd34c280aa9bf8.png "None")
 

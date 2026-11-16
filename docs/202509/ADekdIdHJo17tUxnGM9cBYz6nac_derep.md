@@ -1,4 +1,5 @@
 # 零基础实操：用 n8n + RSS + 飞书搭一个跨平台热点选题库
+作者：龙哥
 
 
 
@@ -108,7 +109,6 @@ https://www.npmjs.com/package/n8n-nodes-feishu-lite
 ![](img/c166c75d3f7bf218669fe492c286e113.png)
 
 为了让 n8n 能自由创建和编辑表格，还需要给应用分配文件夹权限，具体操作见官方文档：
-https://open.feishu.cn/document/faq/trouble-shooting/how-to-add-permissions-to-app
 
 ### 3、创建每日表格
 准备工作完成后，添加创建电子表格节点。为什么不直接写表？因为我想让工作流每天自动生成一张新表，按日期存档。

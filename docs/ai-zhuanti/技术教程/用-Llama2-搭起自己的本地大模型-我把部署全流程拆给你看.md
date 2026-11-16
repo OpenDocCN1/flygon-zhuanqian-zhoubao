@@ -1,4 +1,5 @@
 # 用 Llama2 搭起自己的本地大模型，我把部署全流程拆给你看
+作者：龙哥
 
 ## 25 赞 用 Llama2 为例，教你部署自己的私有大模型
 
@@ -126,7 +127,6 @@ Text generation web UI 天生支持多模型混用，只要把不同模型都放
 
 ![](img/zhuanqian_24f3f97b98129fc0c0bd856b83722aca.png)
 
-飞书和视频教程链接：https://j0oqwdylc47.feishu.cn/docx/G2uvdNJIloP8D8xIXBccKZDunYg
 
 * * *
 

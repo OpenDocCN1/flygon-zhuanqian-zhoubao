@@ -1,4 +1,5 @@
 # AI 加持剧本写作：普通人也能做的月入过万项目，完整实操思路来了
+作者：龙哥
 
 大家好，我是龙哥。
 
@@ -176,7 +177,6 @@ AI+剧本写作，本质上是一种“工具放大专业服务”的变现方�
 
 由于完整方法论内容较多，我整理了一份万字长文，阅读时间大约 15 分钟，建议使用电脑查看，体验会更好：
 
-[`cxqeimz77vr.feishu.cn/docx/YPHpdpsCrodjAYx3PLqcJmOYnyh?from=from_copylink&reRdXZ;=1`](https://cxqeimz77vr.feishu.cn/docx/YPHpdpsCrodjAYx3PLqcJmOYnyh?from=from_copylink&reRdXZ;=1)
 
 如果这篇内容对你有帮助，欢迎点赞支持。点赞数超过 200，我会继续整理并分享《AI 剧本变现 2.0》版本。
 

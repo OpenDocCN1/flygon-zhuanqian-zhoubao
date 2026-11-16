@@ -1,4 +1,5 @@
 # 飞书多维表格秘技：一键批量提取、DeepSeek R1分析和改写抖音爆款文案
+作者：龙哥
 
 你是不是也曾为了抖音视频文案手动复制粘贴到怀疑人生？别急，今天分享一个“偷懒”利器，让飞书多维表格自动完成文案提取、分析和改写，全程不用动脑，轻松批量产出爆款文案。
 
@@ -10,7 +11,6 @@
 
 **第一步：搞定飞书应用，获取访问凭证**
 
-先进入飞书开放平台 https://open.feishu.cn/?lang=zh-CN ，登录后进入开发者后台![](img/ef3556da79e09f874cd5973f1701b236.png)，点击“新建应用”![](img/ea9ab6702b73400fafd39e1e262884ea.png)，填写基本信息![](img/ccf212b27e9bf8fe24c35f1ef98b1af5.png)，接着进入权限配置页面![](img/7b69b733a22d879e58997e535aacb64a.png)。这里需要把多维表格的编辑权限加进去![](img/730b4e647ead02fe2af80ca18c1905e5.png)![](img/936daadc5505ff8d706e9dd7196af62e.png)，确认后点右下角的“开通”![](img/ba78c3c56b57b40acac6f28a8f9efdf0.png)。
 
 应用发布也要安排上![](img/25d74a647a9ebba15712444053389d8f.png)。填写版本号和更新说明，保存并确认发布![](img/7ae0449eae40fab597a47f049b2c09e4.png)![](img/fbf3493e90c568c220ac54b61e9fd82f.png)![](img/9ed806359e29f88e5bc5564d6c409425.png)，看到发布成功的提示就完成了![](img/440b7f813248490b3d2b7d6684b321d6.png)。
 
@@ -18,7 +18,6 @@
 
 **第二步：开发Chrome插件，抓取视频信息**
 
-打开Trae（Windsurf等AI编程工具也行），在空文件夹中导入需求，让它生成插件代码。同时把飞书应用的APP ID、App Secret、多维表格的appToken、tableId，以及表格链接一起发过去。表格链接的格式可以参考这个例子：https://fcnj6q3eadqq.feishu.cn/base/HrG6bqJf4auKfPsn3cic4VSHnic?table=tblRfPUAZ8ewftUA&view=vewwRoaLIK ，其中BASE_ID是base/后面的黄色部分，TABLE_ID是table=后面的黄色部分。注意链接路径必须是base，不能是wiki；如果是wiki，说明表建在知识库里，需要删除后在云盘或个人主页重建。```
 # 抖音视频筛选与飞书保存Chrome扩展PRD
 
 ## 项目概述

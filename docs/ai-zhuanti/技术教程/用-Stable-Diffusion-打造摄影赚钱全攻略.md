@@ -1,4 +1,5 @@
 # 用 Stable Diffusion 打造摄影赚钱全攻略
+作者：龙哥
 
 ## 热门：Stable Diffusion 摄影行业变现宝典
 
@@ -18,7 +19,6 @@
 
 内容篇幅较长近万字，完整版请移步飞书学习：
 
-[https://duuxkmjwsy.feishu.cn/docx/DqtOdhActosisfxK60FcJZP0nvc?from=from_copylink](https://duuxkmjwsy.feishu.cn/docx/DqtOdhActosisfxK60FcJZP0nvc?from=from_copylink)
 
 # 一、变现方向
 
