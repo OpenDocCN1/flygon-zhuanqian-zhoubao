@@ -1,5 +1,4 @@
 # 用 VS Code + DeepSeek 搭一套更顺手的 AI 编程环境
-作者：龙哥
 
 
 

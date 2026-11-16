@@ -1,5 +1,4 @@
 # 用 Stable Diffusion 打造摄影赚钱全攻略
-作者：龙哥
 
 ## 热门：Stable Diffusion 摄影行业变现宝典
 

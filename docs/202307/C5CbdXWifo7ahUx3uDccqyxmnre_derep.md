@@ -1,5 +1,4 @@
 # 海外私域带货全拆解：Instagram+Facebook私域闭环实操复盘
-作者：龙哥
 
 
 

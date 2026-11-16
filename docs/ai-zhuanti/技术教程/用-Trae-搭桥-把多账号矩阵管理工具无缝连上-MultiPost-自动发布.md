@@ -1,5 +1,4 @@
 # 用 Trae 搭桥，把多账号矩阵管理工具无缝连上 MultiPost 自动发布
-作者：龙哥
 
 连上 MultiPost 之后，
 

@@ -1,5 +1,4 @@
 # 用 VS Code + DeepSeek 搭一套更顺手的 AI 编程环境
-作者：龙哥
 
 最近用 Cursor 的时候总觉得回复有点拖沓，而国产大模型 DeepSeek 的口碑也在圈子里越传越好。
 

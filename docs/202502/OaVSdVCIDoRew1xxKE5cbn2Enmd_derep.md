@@ -1,5 +1,4 @@
 # 用 Cursor 打造的 YouTube Shorts 一体化工具站上线
-作者：龙哥
 
 
 

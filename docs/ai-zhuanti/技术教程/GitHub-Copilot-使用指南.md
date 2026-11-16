@@ -1,5 +1,4 @@
 # GitHub Copilot 使用指南
-作者：龙哥
 
 # Copilot 究竟是什么
 

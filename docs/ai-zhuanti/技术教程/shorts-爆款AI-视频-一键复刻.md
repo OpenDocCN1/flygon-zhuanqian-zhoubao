@@ -1,5 +1,4 @@
 # shorts 爆款AI 视频，一键复刻
-作者：龙哥
 
 刷到一个超级风向标，看完真心觉得我也能上手一试。就是这个YouTube Shorts视频：![](img/zhuanqian_207fb3cbdce2e19e8531c13985799b35.png) 据说这个号一年能赚300万美刀，看到这个收入谁不心动？![](img/zhuanqian_345bcab7640fc7de5b0db05a04652927.png)
 

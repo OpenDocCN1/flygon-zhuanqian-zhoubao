@@ -1,5 +1,4 @@
 # AI 到底在夺走什么，又在递给我们什么
-作者：龙哥
 
 原文：[`www.yuque.com/for_lazy/zhoubao/ol8qgnlbqnd7glic`](https://www.yuque.com/for_lazy/zhoubao/ol8qgnlbqnd7glic)
 

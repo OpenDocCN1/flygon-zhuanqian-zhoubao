@@ -1,5 +1,4 @@
 # Obsidian + Claude Code 正在帮我变现 | 我的 AI 知识库拆解
-作者：龙哥
 
 ## 260401 副业 SC 精华
 

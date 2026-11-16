@@ -1,5 +1,4 @@
 # AI 宠物写真 | 实战手册
-作者：龙哥
 
 ![](img/c513df501ffd3cab47d2bbcf3a65c35b.png)
 

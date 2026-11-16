@@ -1,5 +1,4 @@
 # All in one AI List 01
-作者：龙哥
 
 
 

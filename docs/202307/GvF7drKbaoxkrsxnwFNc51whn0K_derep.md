@@ -1,5 +1,4 @@
 # 十几分钟上手AI绘图，用Stable Diffusion做出流光出片效果
-作者：龙哥
 
 
 

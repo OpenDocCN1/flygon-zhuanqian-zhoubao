@@ -1,5 +1,4 @@
 # Creem 被风控后，我把收款切到 Waffo Pancake 的实操全记录
-作者：龙哥
 
 
 

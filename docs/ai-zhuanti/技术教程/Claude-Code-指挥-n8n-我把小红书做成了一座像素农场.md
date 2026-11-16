@@ -1,5 +1,4 @@
 # Claude Code 指挥 n8n：我把小红书做成了一座像素农场
-作者：龙哥
 
 > 转自飞书笔记
 
@@ -214,7 +213,6 @@ git clone https://github.com/Jonghakseo/chrome-extension-boilerplate-react-vite 
 这是正文内容
 点击查看更多
 # 爬虫入门
-作者：龙哥
 2025-08-21
 [阅读全文](/detail/123)
 ```

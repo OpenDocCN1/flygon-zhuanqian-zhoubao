@@ -1,5 +1,4 @@
 # 《ControlNet 完全掌握手册》
-作者：龙哥
 
 《一周啃下15个ControlNet模型，我的实战笔记》
 

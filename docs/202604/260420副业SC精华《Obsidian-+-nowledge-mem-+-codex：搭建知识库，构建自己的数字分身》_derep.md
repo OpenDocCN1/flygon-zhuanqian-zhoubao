@@ -1,5 +1,4 @@
 # Obsidian + Knowledge mem + Codex：自建知识中台，给自己造一个会写稿的数字分身
-作者：龙哥
 
 **2026-04-20** 副业 SC 精华  
 

@@ -1,5 +1,4 @@
 # TikTok美区重磅！PSA商品购物广告即将上线，新的流量红利来了
-作者：龙哥
 
 最近，TikTok美区又传新消息：Product Shopping Ads（产品购物广告，简称PSA）马上要在美国上线了。这对于想做TikTok Shop的商家来说，意味着一个全新的曝光渠道即将打开。
 

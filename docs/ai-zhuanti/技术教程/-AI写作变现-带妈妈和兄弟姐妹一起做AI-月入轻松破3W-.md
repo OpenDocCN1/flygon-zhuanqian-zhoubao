@@ -1,5 +1,4 @@
 # 【AI写作变现】带妈妈和兄弟姐妹一起做AI，月入轻松破3W+
-作者：龙哥
 
 ![](img/zhuanqian_ca90cbd41766c6a951399d1aac7f451b.png)
 

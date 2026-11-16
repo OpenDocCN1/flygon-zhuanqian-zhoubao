@@ -1,5 +1,4 @@
 # 用 RPA 实现 Amazon POST 的批量化推送 | AMZ 与 RPA
-作者：龙哥
 
 
 

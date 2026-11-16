@@ -1,5 +1,4 @@
 # 软件 3.0 时代到了：前特斯拉 AI 负责人 Andrej Karpathy 的一堂重编程课
-作者：龙哥
 
 前特斯拉 AI 负责人 Andrej Karpathy 在 6 月 19 日的 YC AI Startup School 上放出一个判断：我们正在从软件 2.0 进入软件 3.0，而这背后驱动的主角，就是大型语言模型。
 

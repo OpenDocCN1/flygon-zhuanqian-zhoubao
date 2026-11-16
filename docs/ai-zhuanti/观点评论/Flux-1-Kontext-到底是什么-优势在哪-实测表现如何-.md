@@ -1,5 +1,4 @@
 # Flux.1 Kontext 到底是什么？优势在哪？实测表现如何？
-作者：龙哥
 
 上篇聊到 Lovart 的时候，身边已经有不少人在聊 Black Forest Labs 刚推出的绘画模型 Flux Kontext。趁着这两天空档，我立刻去上手体验了一把。
 

@@ -1,5 +1,4 @@
 # 用 RooCode + Copilot + MCP 给自己搭一个 Manus 替代体
-作者：龙哥
 
 
 

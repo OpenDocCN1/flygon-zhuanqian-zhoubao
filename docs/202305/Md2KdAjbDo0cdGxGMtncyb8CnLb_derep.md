@@ -1,5 +1,4 @@
 # 用Colab + Stable Diffusion 搞定云端免费的自动批量无限出图
-作者：龙哥
 
 
 

@@ -1,5 +1,4 @@
 # 我的AI编程半年实战复盘：从Cursor小白到Windsurf上手
-作者：龙哥
 
 
 

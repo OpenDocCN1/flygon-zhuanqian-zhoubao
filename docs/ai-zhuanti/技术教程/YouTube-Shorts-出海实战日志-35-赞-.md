@@ -1,5 +1,4 @@
 # YouTube Shorts 出海实战日志（35 赞）
-作者：龙哥
 
 ## YouTube Shorts 出海实战日志
 

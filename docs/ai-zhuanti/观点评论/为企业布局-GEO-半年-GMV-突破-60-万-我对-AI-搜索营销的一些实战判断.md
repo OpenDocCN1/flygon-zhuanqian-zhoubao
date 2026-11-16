@@ -1,9 +1,7 @@
 # 为企业布局 GEO 半年，GMV 突破 60 万：我对 AI 搜索营销的一些实战判断
-作者：龙哥
 
 原文：[`www.yuque.com/for_lazy/zhoubao/tp5of9t2tmk8w9nv`](https://www.yuque.com/for_lazy/zhoubao/tp5of9t2tmk8w9nv)
 
-作者：龙哥
 
 日期：2025-08-15
 

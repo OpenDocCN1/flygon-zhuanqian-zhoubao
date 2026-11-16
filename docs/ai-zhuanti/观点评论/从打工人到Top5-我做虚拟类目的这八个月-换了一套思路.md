@@ -1,5 +1,4 @@
 # 从打工人到Top5：我做虚拟类目的这八个月，换了一套思路
-作者：龙哥
 
 ![](img/zhuanqian_2d9b512be7afa8cf94e9bbe561ed1f48_0_0.png)
 

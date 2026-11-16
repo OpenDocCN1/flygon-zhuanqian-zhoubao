@@ -1,5 +1,4 @@
 # 一张 AI 写真卖 60 块：宠物艺术照从 0 到 1 的实战手册
-作者：龙哥
 
 ![](img/zhuanqian_c513df501ffd3cab47d2bbcf3a65c35b.png)
 
